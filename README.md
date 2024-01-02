@@ -1,9 +1,9 @@
-
 <h2>2023-12</h2>
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.17708v1">The six ways to build trust and reduce privacy concern in a Central Bank
   Digital Currency (CBDC)</a></h3>
+  <span style='background-color: #4CAF50; color: white; padding: 5px; margin-top: 5px; border-radius: 5px; font-size: 0.8em;'>cs.AI</span>
   <p><b>Published on:</b> 2023-12-29T17:52:13Z</p>
   <details>
     <summary>More Details</summary>
