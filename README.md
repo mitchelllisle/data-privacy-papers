@@ -1,9 +1,9 @@
 
-<h2>2021-09</h2>
+<h2>2023-12</h2>
 
 <div class="arxiv-entry">
   <h3><a href="https://arxiv.org/abs/2109.14751">A Survey of Privacy-Preserving Machine Learning on Graphs</a></h3>
-  <p><b>Published on:</b> 2021-09-30</p>
+  <p><b>Published on:</b> 2023-12-29T17:52:13Z</p>
   <details>
     <summary>More Details</summary>
     <p><b>Authors:</b> Mitchell Lisle</p>
