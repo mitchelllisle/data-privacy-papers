@@ -1,1 +1,211 @@
-[{"id":"http://arxiv.org/abs/2311.18252v1","title":"Navigating Privacy and Copyright Challenges Across the Data Lifecycle of\n  Generative AI","summary":"The advent of Generative AI has marked a significant milestone in artificial\nintelligence, demonstrating remarkable capabilities in generating realistic\nimages, texts, and data patterns. However, these advancements come with\nheightened concerns over data privacy and copyright infringement, primarily due\nto the reliance on vast datasets for model training. Traditional approaches\nlike differential privacy, machine unlearning, and data poisoning only offer\nfragmented solutions to these complex issues. Our paper delves into the\nmultifaceted challenges of privacy and copyright protection within the data\nlifecycle. We advocate for integrated approaches that combines technical\ninnovation with ethical foresight, holistically addressing these concerns by\ninvestigating and devising solutions that are informed by the lifecycle\nperspective. This work aims to catalyze a broader discussion and inspire\nconcerted efforts towards data privacy and copyright integrity in Generative\nAI.","updated":"2023-11-30T05:03:08Z","published":"2023-11-30T05:03:08Z","authors":[{"name":"Dawen Zhang"},{"name":"Boming Xia"},{"name":"Yue Liu"},{"name":"Xiwei Xu"},{"name":"Thong Hoang"},{"name":"Zhenchang Xing"},{"name":"Mark Staples"},{"name":"Qinghua Lu"},{"name":"Liming Zhu"}],"categories":["cs.SE","cs.AI","cs.CY","cs.LG"]},{"id":"http://arxiv.org/abs/2311.18190v1","title":"Toward the Tradeoffs between Privacy, Fairness and Utility in Federated\n  Learning","summary":"Federated Learning (FL) is a novel privacy-protection distributed machine\nlearning paradigm that guarantees user privacy and prevents the risk of data\nleakage due to the advantage of the client's local training. Researchers have\nstruggled to design fair FL systems that ensure fairness of results. However,\nthe interplay between fairness and privacy has been less studied. Increasing\nthe fairness of FL systems can have an impact on user privacy, while an\nincrease in user privacy can affect fairness. In this work, on the client side,\nwe use fairness metrics, such as Demographic Parity (DemP), Equalized Odds\n(EOs), and Disparate Impact (DI), to construct the local fair model. To protect\nthe privacy of the client model, we propose a privacy-protection fairness FL\nmethod. The results show that the accuracy of the fair model with privacy\nincreases because privacy breaks the constraints of the fairness metrics. In\nour experiments, we conclude the relationship between privacy, fairness and\nutility, and there is a tradeoff between these.","updated":"2023-11-30T02:19:35Z","published":"2023-11-30T02:19:35Z","authors":[{"name":"Kangkang Sun"},{"name":"Xiaojin Zhang"},{"name":"Xi Lin"},{"name":"Gaolei Li"},{"name":"Jing Wang"},{"name":"Jianhua Li"}],"categories":["cs.LG","cs.AI"]},{"id":"http://arxiv.org/abs/2311.17789v1","title":"The Symmetric alpha-Stable Privacy Mechanism","summary":"With the rapid growth of digital platforms, there is increasing apprehension\nabout how personal data is being collected, stored, and used by various\nentities. These concerns range from data breaches and cyber-attacks to\npotential misuse of personal information for targeted advertising and\nsurveillance. As a result, differential privacy (DP) has emerged as a prominent\ntool for quantifying a system's level of protection. The Gaussian mechanism is\ncommonly used because the Gaussian density is closed under convolution, a\ncommon method utilized when aggregating datasets. However, the Gaussian\nmechanism only satisfies approximate differential privacy. In this work, we\npresent novel analysis of the Symmetric alpha-Stable (SaS) mechanism. We prove\nthat the mechanism is purely differentially private while remaining closed\nunder convolution. From our analysis, we believe the SaS Mechanism is an\nappealing choice for privacy focused applications.","updated":"2023-11-29T16:34:39Z","published":"2023-11-29T16:34:39Z","authors":[{"name":"Christopher Zawacki"},{"name":"Eyad Abed"}],"categories":["cs.CR","cs.DS"]},{"id":"http://arxiv.org/abs/2311.17453v1","title":"Privacy Measurement in Tabular Synthetic Data: State of the Art and\n  Future Research Directions","summary":"Synthetic data (SD) have garnered attention as a privacy enhancing\ntechnology. Unfortunately, there is no standard for quantifying their degree of\nprivacy protection. In this paper, we discuss proposed quantification\napproaches. This contributes to the development of SD privacy standards;\nstimulates multi-disciplinary discussion; and helps SD researchers make\ninformed modeling and evaluation decisions.","updated":"2023-11-29T08:51:40Z","published":"2023-11-29T08:51:40Z","authors":[{"name":"Alexander Boudewijn"},{"name":"Andrea Filippo Ferraris"},{"name":"Daniele Panfilo"},{"name":"Vanessa Cocca"},{"name":"Sabrina Zinutti"},{"name":"Karel De Schepper"},{"name":"Carlo Rossi Chauvenet"}],"categories":["cs.AI","cs.CR","cs.DB","stat.ML"]},{"id":"http://arxiv.org/abs/2311.16940v1","title":"FP-Fed: Privacy-Preserving Federated Detection of Browser Fingerprinting","summary":"Browser fingerprinting often provides an attractive alternative to\nthird-party cookies for tracking users across the web. In fact, the increasing\nrestrictions on third-party cookies placed by common web browsers and recent\nregulations like the GDPR may accelerate the transition. To counter browser\nfingerprinting, previous work proposed several techniques to detect its\nprevalence and severity. However, these rely on 1) centralized web crawls\nand/or 2) computationally intensive operations to extract and process signals\n(e.g., information-flow and static analysis). To address these limitations, we\npresent FP-Fed, the first distributed system for browser fingerprinting\ndetection. Using FP-Fed, users can collaboratively train on-device models based\non their real browsing patterns, without sharing their training data with a\ncentral entity, by relying on Differentially Private Federated Learning\n(DP-FL). To demonstrate its feasibility and effectiveness, we evaluate FP-Fed's\nperformance on a set of 18.3k popular websites with different privacy levels,\nnumbers of participants, and features extracted from the scripts. Our\nexperiments show that FP-Fed achieves reasonably high detection performance and\ncan perform both training and inference efficiently, on-device, by only relying\non runtime signals extracted from the execution trace, without requiring any\nresource-intensive operation.","updated":"2023-11-28T16:43:17Z","published":"2023-11-28T16:43:17Z","authors":[{"name":"Meenatchi Sundaram Muthu Selva Annamalai"},{"name":"Igor Bilogrevic"},{"name":"Emiliano De Cristofaro"}],"categories":["cs.CR","cs.CY"]},{"id":"http://arxiv.org/abs/2311.16538v1","title":"Federated Learning with Diffusion Models for Privacy-Sensitive Vision\n  Tasks","summary":"Diffusion models have shown great potential for vision-related tasks,\nparticularly for image generation. However, their training is typically\nconducted in a centralized manner, relying on data collected from publicly\navailable sources. This approach may not be feasible or practical in many\ndomains, such as the medical field, which involves privacy concerns over data\ncollection. Despite the challenges associated with privacy-sensitive data, such\ndomains could still benefit from valuable vision services provided by diffusion\nmodels. Federated learning (FL) plays a crucial role in enabling decentralized\nmodel training without compromising data privacy. Instead of collecting data,\nan FL system gathers model parameters, effectively safeguarding the private\ndata of different parties involved. This makes FL systems vital for managing\ndecentralized learning tasks, especially in scenarios where privacy-sensitive\ndata is distributed across a network of clients. Nonetheless, FL presents its\nown set of challenges due to its distributed nature and privacy-preserving\nproperties. Therefore, in this study, we explore the FL strategy to train\ndiffusion models, paving the way for the development of federated diffusion\nmodels. We conduct experiments on various FL scenarios, and our findings\ndemonstrate that federated diffusion models have great potential to deliver\nvision services to privacy-sensitive domains.","updated":"2023-11-28T06:08:16Z","published":"2023-11-28T06:08:16Z","authors":[{"name":"Ye Lin Tun"},{"name":"Chu Myaet Thwal"},{"name":"Ji Su Yoon"},{"name":"Sun Moo Kang"},{"name":"Chaoning Zhang"},{"name":"Choong Seon Hong"}],"categories":["cs.LG","cs.CR"]},{"id":"http://arxiv.org/abs/2311.16008v1","title":"Using Decentralized Aggregation for Federated Learning with Differential\n  Privacy","summary":"Nowadays, the ubiquitous usage of mobile devices and networks have raised\nconcerns about the loss of control over personal data and research advance\ntowards the trade-off between privacy and utility in scenarios that combine\nexchange communications, big databases and distributed and collaborative (P2P)\nMachine Learning techniques. On the other hand, although Federated Learning\n(FL) provides some level of privacy by retaining the data at the local node,\nwhich executes a local training to enrich a global model, this scenario is\nstill susceptible to privacy breaches as membership inference attacks. To\nprovide a stronger level of privacy, this research deploys an experimental\nenvironment for FL with Differential Privacy (DP) using benchmark datasets. The\nobtained results show that the election of parameters and techniques of DP is\ncentral in the aforementioned trade-off between privacy and utility by means of\na classification example.","updated":"2023-11-27T17:02:56Z","published":"2023-11-27T17:02:56Z","authors":[{"name":"Hadeel Abd El-Kareem"},{"name":"Abd El-Moaty Saleh"},{"name":"Ana Fernández-Vilas"},{"name":"Manuel Fernández-Veiga"},{"name":"asser El-Sonbaty"}],"categories":["cs.LG","cs.CR"]}]
+[
+  {
+    "id" : "http://arxiv.org/abs/2311.18252v1",
+    "title" : "Navigating Privacy and Copyright Challenges Across the Data Lifecycle of\n  Generative AI",
+    "summary" : "The advent of Generative AI has marked a significant milestone in artificial\nintelligence, demonstrating remarkable capabilities in generating realistic\nimages, texts, and data patterns. However, these advancements come with\nheightened concerns over data privacy and copyright infringement, primarily due\nto the reliance on vast datasets for model training. Traditional approaches\nlike differential privacy, machine unlearning, and data poisoning only offer\nfragmented solutions to these complex issues. Our paper delves into the\nmultifaceted challenges of privacy and copyright protection within the data\nlifecycle. We advocate for integrated approaches that combines technical\ninnovation with ethical foresight, holistically addressing these concerns by\ninvestigating and devising solutions that are informed by the lifecycle\nperspective. This work aims to catalyze a broader discussion and inspire\nconcerted efforts towards data privacy and copyright integrity in Generative\nAI.",
+    "updated" : "2023-11-30T05:03:08Z",
+    "published" : "2023-11-30T05:03:08Z",
+    "authors" : [
+      {
+        "name" : "Dawen Zhang"
+      },
+      {
+        "name" : "Boming Xia"
+      },
+      {
+        "name" : "Yue Liu"
+      },
+      {
+        "name" : "Xiwei Xu"
+      },
+      {
+        "name" : "Thong Hoang"
+      },
+      {
+        "name" : "Zhenchang Xing"
+      },
+      {
+        "name" : "Mark Staples"
+      },
+      {
+        "name" : "Qinghua Lu"
+      },
+      {
+        "name" : "Liming Zhu"
+      }
+    ],
+    "categories" : [
+      "cs.SE",
+      "cs.AI",
+      "cs.CY",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2311.18190v1",
+    "title" : "Toward the Tradeoffs between Privacy, Fairness and Utility in Federated\n  Learning",
+    "summary" : "Federated Learning (FL) is a novel privacy-protection distributed machine\nlearning paradigm that guarantees user privacy and prevents the risk of data\nleakage due to the advantage of the client's local training. Researchers have\nstruggled to design fair FL systems that ensure fairness of results. However,\nthe interplay between fairness and privacy has been less studied. Increasing\nthe fairness of FL systems can have an impact on user privacy, while an\nincrease in user privacy can affect fairness. In this work, on the client side,\nwe use fairness metrics, such as Demographic Parity (DemP), Equalized Odds\n(EOs), and Disparate Impact (DI), to construct the local fair model. To protect\nthe privacy of the client model, we propose a privacy-protection fairness FL\nmethod. The results show that the accuracy of the fair model with privacy\nincreases because privacy breaks the constraints of the fairness metrics. In\nour experiments, we conclude the relationship between privacy, fairness and\nutility, and there is a tradeoff between these.",
+    "updated" : "2023-11-30T02:19:35Z",
+    "published" : "2023-11-30T02:19:35Z",
+    "authors" : [
+      {
+        "name" : "Kangkang Sun"
+      },
+      {
+        "name" : "Xiaojin Zhang"
+      },
+      {
+        "name" : "Xi Lin"
+      },
+      {
+        "name" : "Gaolei Li"
+      },
+      {
+        "name" : "Jing Wang"
+      },
+      {
+        "name" : "Jianhua Li"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2311.17789v1",
+    "title" : "The Symmetric alpha-Stable Privacy Mechanism",
+    "summary" : "With the rapid growth of digital platforms, there is increasing apprehension\nabout how personal data is being collected, stored, and used by various\nentities. These concerns range from data breaches and cyber-attacks to\npotential misuse of personal information for targeted advertising and\nsurveillance. As a result, differential privacy (DP) has emerged as a prominent\ntool for quantifying a system's level of protection. The Gaussian mechanism is\ncommonly used because the Gaussian density is closed under convolution, a\ncommon method utilized when aggregating datasets. However, the Gaussian\nmechanism only satisfies approximate differential privacy. In this work, we\npresent novel analysis of the Symmetric alpha-Stable (SaS) mechanism. We prove\nthat the mechanism is purely differentially private while remaining closed\nunder convolution. From our analysis, we believe the SaS Mechanism is an\nappealing choice for privacy focused applications.",
+    "updated" : "2023-11-29T16:34:39Z",
+    "published" : "2023-11-29T16:34:39Z",
+    "authors" : [
+      {
+        "name" : "Christopher Zawacki"
+      },
+      {
+        "name" : "Eyad Abed"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DS"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2311.17453v1",
+    "title" : "Privacy Measurement in Tabular Synthetic Data: State of the Art and\n  Future Research Directions",
+    "summary" : "Synthetic data (SD) have garnered attention as a privacy enhancing\ntechnology. Unfortunately, there is no standard for quantifying their degree of\nprivacy protection. In this paper, we discuss proposed quantification\napproaches. This contributes to the development of SD privacy standards;\nstimulates multi-disciplinary discussion; and helps SD researchers make\ninformed modeling and evaluation decisions.",
+    "updated" : "2023-11-29T08:51:40Z",
+    "published" : "2023-11-29T08:51:40Z",
+    "authors" : [
+      {
+        "name" : "Alexander Boudewijn"
+      },
+      {
+        "name" : "Andrea Filippo Ferraris"
+      },
+      {
+        "name" : "Daniele Panfilo"
+      },
+      {
+        "name" : "Vanessa Cocca"
+      },
+      {
+        "name" : "Sabrina Zinutti"
+      },
+      {
+        "name" : "Karel De Schepper"
+      },
+      {
+        "name" : "Carlo Rossi Chauvenet"
+      }
+    ],
+    "categories" : [
+      "cs.AI",
+      "cs.CR",
+      "cs.DB",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2311.16940v1",
+    "title" : "FP-Fed: Privacy-Preserving Federated Detection of Browser Fingerprinting",
+    "summary" : "Browser fingerprinting often provides an attractive alternative to\nthird-party cookies for tracking users across the web. In fact, the increasing\nrestrictions on third-party cookies placed by common web browsers and recent\nregulations like the GDPR may accelerate the transition. To counter browser\nfingerprinting, previous work proposed several techniques to detect its\nprevalence and severity. However, these rely on 1) centralized web crawls\nand/or 2) computationally intensive operations to extract and process signals\n(e.g., information-flow and static analysis). To address these limitations, we\npresent FP-Fed, the first distributed system for browser fingerprinting\ndetection. Using FP-Fed, users can collaboratively train on-device models based\non their real browsing patterns, without sharing their training data with a\ncentral entity, by relying on Differentially Private Federated Learning\n(DP-FL). To demonstrate its feasibility and effectiveness, we evaluate FP-Fed's\nperformance on a set of 18.3k popular websites with different privacy levels,\nnumbers of participants, and features extracted from the scripts. Our\nexperiments show that FP-Fed achieves reasonably high detection performance and\ncan perform both training and inference efficiently, on-device, by only relying\non runtime signals extracted from the execution trace, without requiring any\nresource-intensive operation.",
+    "updated" : "2023-11-28T16:43:17Z",
+    "published" : "2023-11-28T16:43:17Z",
+    "authors" : [
+      {
+        "name" : "Meenatchi Sundaram Muthu Selva Annamalai"
+      },
+      {
+        "name" : "Igor Bilogrevic"
+      },
+      {
+        "name" : "Emiliano De Cristofaro"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2311.16538v1",
+    "title" : "Federated Learning with Diffusion Models for Privacy-Sensitive Vision\n  Tasks",
+    "summary" : "Diffusion models have shown great potential for vision-related tasks,\nparticularly for image generation. However, their training is typically\nconducted in a centralized manner, relying on data collected from publicly\navailable sources. This approach may not be feasible or practical in many\ndomains, such as the medical field, which involves privacy concerns over data\ncollection. Despite the challenges associated with privacy-sensitive data, such\ndomains could still benefit from valuable vision services provided by diffusion\nmodels. Federated learning (FL) plays a crucial role in enabling decentralized\nmodel training without compromising data privacy. Instead of collecting data,\nan FL system gathers model parameters, effectively safeguarding the private\ndata of different parties involved. This makes FL systems vital for managing\ndecentralized learning tasks, especially in scenarios where privacy-sensitive\ndata is distributed across a network of clients. Nonetheless, FL presents its\nown set of challenges due to its distributed nature and privacy-preserving\nproperties. Therefore, in this study, we explore the FL strategy to train\ndiffusion models, paving the way for the development of federated diffusion\nmodels. We conduct experiments on various FL scenarios, and our findings\ndemonstrate that federated diffusion models have great potential to deliver\nvision services to privacy-sensitive domains.",
+    "updated" : "2023-11-28T06:08:16Z",
+    "published" : "2023-11-28T06:08:16Z",
+    "authors" : [
+      {
+        "name" : "Ye Lin Tun"
+      },
+      {
+        "name" : "Chu Myaet Thwal"
+      },
+      {
+        "name" : "Ji Su Yoon"
+      },
+      {
+        "name" : "Sun Moo Kang"
+      },
+      {
+        "name" : "Chaoning Zhang"
+      },
+      {
+        "name" : "Choong Seon Hong"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2311.16008v1",
+    "title" : "Using Decentralized Aggregation for Federated Learning with Differential\n  Privacy",
+    "summary" : "Nowadays, the ubiquitous usage of mobile devices and networks have raised\nconcerns about the loss of control over personal data and research advance\ntowards the trade-off between privacy and utility in scenarios that combine\nexchange communications, big databases and distributed and collaborative (P2P)\nMachine Learning techniques. On the other hand, although Federated Learning\n(FL) provides some level of privacy by retaining the data at the local node,\nwhich executes a local training to enrich a global model, this scenario is\nstill susceptible to privacy breaches as membership inference attacks. To\nprovide a stronger level of privacy, this research deploys an experimental\nenvironment for FL with Differential Privacy (DP) using benchmark datasets. The\nobtained results show that the election of parameters and techniques of DP is\ncentral in the aforementioned trade-off between privacy and utility by means of\na classification example.",
+    "updated" : "2023-11-27T17:02:56Z",
+    "published" : "2023-11-27T17:02:56Z",
+    "authors" : [
+      {
+        "name" : "Hadeel Abd El-Kareem"
+      },
+      {
+        "name" : "Abd El-Moaty Saleh"
+      },
+      {
+        "name" : "Ana Fernández-Vilas"
+      },
+      {
+        "name" : "Manuel Fernández-Veiga"
+      },
+      {
+        "name" : "asser El-Sonbaty"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  }
+]
