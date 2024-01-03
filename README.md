@@ -4,7 +4,7 @@
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2401.01294v1">Efficient Sparse Least Absolute Deviation Regression with Differential
   Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/stat.ML-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.LG-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/stat.ME-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/62J07-8A2BE2">
+   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-8A2BE2">  
   <p><b>Published on:</b> 2024-01-02T17:13:34Z</p>
   <details>
     <summary>More Details</summary>
@@ -32,7 +32,7 @@ conduct experiments to verify the efficiency of our proposed FRAPPE algorithm.</
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2401.01204v1">PPBFL: A Privacy Protected Blockchain-based Federated Learning Model</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.AI-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-8A2BE2">
   <p><b>Published on:</b> 2024-01-02T13:13:28Z</p>
   <details>
     <summary>More Details</summary>
@@ -59,7 +59,7 @@ PPBFL outperforms baseline methods in both model performance and security.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2401.01146v1">Privacy Preserving Personal Assistant with On-Device Diarization and
   Spoken Dialogue System for Home and Beyond</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.HC-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Human-Computer Interaction-8A2BE2">
   <p><b>Published on:</b> 2024-01-02T10:56:24Z</p>
   <details>
     <summary>More Details</summary>
@@ -83,7 +83,7 @@ without compromising privacy or data security.</p>
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2401.00973v1">Facebook Report on Privacy of fNIRS data</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.LG-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/I.2.0-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2"> 
   <p><b>Published on:</b> 2024-01-01T23:30:31Z</p>
   <details>
     <summary>More Details</summary>
@@ -102,7 +102,7 @@ private datasets, we will also implement DP in the federated learning setting.</
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2401.00794v1">Privacy-Preserving Data in IoT-based Cloud Systems: A Comprehensive
   Survey with AI Integration</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2">
   <p><b>Published on:</b> 2024-01-01T15:48:39Z</p>
   <details>
     <summary>More Details</summary>
@@ -131,7 +131,7 @@ evolving landscape of IoT and cloud computing</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2401.00793v1">SecFormer: Towards Fast and Accurate Privacy-Preserving Inference for
   Large Language Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.LG-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.CL-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2">
   <p><b>Published on:</b> 2024-01-01T15:40:35Z</p>
   <details>
     <summary>More Details</summary>
@@ -169,7 +169,7 @@ effectiveness and speed.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2401.00583v1">Improving the Privacy and Practicality of Objective Perturbation for
   Differentially Private Linear Learners</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.LG-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2">
   <p><b>Published on:</b> 2023-12-31T20:32:30Z</p>
   <details>
     <summary>More Details</summary>
@@ -190,7 +190,7 @@ unconstrained convex generalized linear problems.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2401.00879v1">SoK: Demystifying Privacy Enhancing Technologies Through the Lens of
   Software Developers</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.SE-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.CY-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-8A2BE2">
   <p><b>Published on:</b> 2023-12-30T12:24:40Z</p>
   <details>
     <summary>More Details</summary>
@@ -218,7 +218,7 @@ into software.</p>
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2401.00870v1">Teach Large Language Models to Forget Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.AI-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/I.2.7-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-8A2BE2"> 
   <p><b>Published on:</b> 2023-12-30T01:26:42Z</p>
   <details>
     <summary>More Details</summary>
@@ -249,7 +249,7 @@ LLM domain.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2401.00058v1">Exploring the language of the sharing economy: Building trust and
   reducing privacy concern on Airbnb in German and English</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.HC-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.CY-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Human-Computer Interaction-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-8A2BE2">
   <p><b>Published on:</b> 2023-12-29T19:28:50Z</p>
   <details>
     <summary>More Details</summary>
@@ -271,7 +271,7 @@ biggest influence.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.17708v1">The six ways to build trust and reduce privacy concern in a Central Bank
   Digital Currency (CBDC)</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.HC-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.CY-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Human-Computer Interaction-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-8A2BE2">
   <p><b>Published on:</b> 2023-12-29T17:52:13Z</p>
   <details>
     <summary>More Details</summary>
@@ -289,7 +289,7 @@ satisfying for all the stakeholders.</p>
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.17667v1">AIJack: Security and Privacy Risk Simulator for Machine Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.LG-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2">
   <p><b>Published on:</b> 2023-12-29T16:10:30Z</p>
   <details>
     <summary>More Details</summary>
@@ -312,7 +312,7 @@ publicly available on GitHub (https://github.com/Koukyosyumei/AIJack).</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.16954v1">Blockchain-based Privacy-Preserving Public Key Searchable Encryption
   with Strong Traceability</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2">
   <p><b>Published on:</b> 2023-12-28T10:58:14Z</p>
   <details>
     <summary>More Details</summary>
@@ -347,7 +347,7 @@ analyze its efficiency.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.16554v1">A Theoretical Analysis of Efficiency Constrained Utility-Privacy
   Bi-Objective Optimization in Federated Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.LG-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.AI-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-8A2BE2">
   <p><b>Published on:</b> 2023-12-27T12:37:55Z</p>
   <details>
     <summary>More Details</summary>
@@ -378,7 +378,7 @@ design in DPFL.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.15608v1">Federated learning-outcome prediction with multi-layer privacy
   protection</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.LG-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.DC-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/68T07-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/I.2.6-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-8A2BE2">  
   <p><b>Published on:</b> 2023-12-25T04:29:05Z</p>
   <details>
     <summary>More Details</summary>
@@ -411,7 +411,7 @@ to facilitating personalized education with privacy protection.</p>
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.15591v1">Privacy-Preserving Neural Graph Databases</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.DB-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.LG-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Databases-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-8A2BE2">
   <p><b>Published on:</b> 2023-12-25T02:32:05Z</p>
   <details>
     <summary>More Details</summary>
@@ -448,7 +448,7 @@ public answers responses to queries.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.15420v1">FedDMF: Privacy-Preserving User Attribute Prediction using Deep Matrix
   Factorization</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.LG-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2">
   <p><b>Published on:</b> 2023-12-24T06:49:00Z</p>
   <details>
     <summary>More Details</summary>
@@ -483,7 +483,7 @@ concerns in this area.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.15383v1">SoK: Technical Implementation and Human Impact of Internet Privacy
   Regulations</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.CY-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-8A2BE2">
   <p><b>Published on:</b> 2023-12-24T01:48:07Z</p>
   <details>
     <summary>More Details</summary>
@@ -510,7 +510,7 @@ future work at the intersection of computer science and legal privacy.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.15375v1">An Empirical Study of Efficiency and Privacy of Federated Learning
   Algorithms</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.LG-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.DC-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-8A2BE2">
   <p><b>Published on:</b> 2023-12-24T00:13:41Z</p>
   <details>
     <summary>More Details</summary>
@@ -541,7 +541,7 @@ for both FedAvg and FedProx strategies.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.15000v1">The Impact of Cloaking Digital Footprints on User Privacy and
   Personalization</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.CY-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-8A2BE2">
   <p><b>Published on:</b> 2023-12-22T16:32:34Z</p>
   <details>
     <summary>More Details</summary>
@@ -577,7 +577,7 @@ conceals other desirable traits.</p>
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.14633v1">Evaluating the Security and Privacy Risk Postures of Virtual Assistants</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.SE-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-8A2BE2">
   <p><b>Published on:</b> 2023-12-22T12:10:52Z</p>
   <details>
     <summary>More Details</summary>
@@ -604,7 +604,7 @@ VAs.</p>
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.14521v1">Tuning Quantum Computing Privacy through Quantum Error Correction</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/quant-ph-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.ET-8A2BE2">
+   <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-8A2BE2">
   <p><b>Published on:</b> 2023-12-22T08:35:23Z</p>
   <details>
     <summary>More Details</summary>
@@ -633,7 +633,7 @@ of privacy protection in quantum computing.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.16191v1">SoK: Taming the Triangle -- On the Interplays between Fairness,
   Interpretability and Privacy in Machine Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.LG-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.AI-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-8A2BE2">
   <p><b>Published on:</b> 2023-12-22T08:11:33Z</p>
   <details>
     <summary>More Details</summary>
@@ -662,7 +662,7 @@ these different concerns in practice.</p>
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.14407v1">AdvCloak: Customized Adversarial Cloak for Privacy Protection</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.CV-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-8A2BE2">
   <p><b>Published on:</b> 2023-12-22T03:18:04Z</p>
   <details>
     <summary>More Details</summary>
@@ -690,7 +690,7 @@ terms of efficiency and effectiveness.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.14388v1">A Generalized Shuffle Framework for Privacy Amplification: Strengthening
   Privacy Guarantees and Enhancing Utility</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/math.CO-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2"> 
   <p><b>Published on:</b> 2023-12-22T02:31:46Z</p>
   <details>
     <summary>More Details</summary>
@@ -729,7 +729,7 @@ and stochastic gradient descent.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.13985v1">Rényi Pufferfish Privacy: General Additive Noise Mechanisms and
   Privacy Amplification by Iteration</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.LG-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/stat.ML-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-8A2BE2"> 
   <p><b>Published on:</b> 2023-12-21T16:18:33Z</p>
   <details>
     <summary>More Details</summary>
@@ -756,7 +756,7 @@ lemmas.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.13813v1">How Does Connecting Online Activities to Advertising Inferences Impact
   Privacy Perceptions?</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.CY-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.HC-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Human-Computer Interaction-8A2BE2">
   <p><b>Published on:</b> 2023-12-21T13:05:09Z</p>
   <details>
     <summary>More Details</summary>
@@ -790,7 +790,7 @@ specificity of many generic inferences made about them.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.13712v1">Conciliating Privacy and Utility in Data Releases via Individual
   Differential Privacy and Microaggregation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2">
   <p><b>Published on:</b> 2023-12-21T10:23:18Z</p>
   <details>
     <summary>More Details</summary>
@@ -820,7 +820,7 @@ significantly degrade the accuracy of secondary data analysis.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.13389v1">Enhancing Trade-offs in Privacy, Utility, and Computational Efficiency
   through MUltistage Sampling Technique (MUST)</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/stat.ML-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.LG-8A2BE2">
+   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-8A2BE2">
   <p><b>Published on:</b> 2023-12-20T19:38:29Z</p>
   <details>
     <summary>More Details</summary>
@@ -858,7 +858,7 @@ guarantees are necessary.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.13334v1">Transparency and Privacy: The Role of Explainable AI and Federated
   Learning in Financial Fraud Detection</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.LG-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.AI-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2">
   <p><b>Published on:</b> 2023-12-20T18:26:59Z</p>
   <details>
     <summary>More Details</summary>
@@ -892,7 +892,7 @@ effective and privacy-preserving tool in the fight against fraud.</p>
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.13312v1">Multi-label Learning from Privacy-Label</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.LG-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2">
   <p><b>Published on:</b> 2023-12-20T09:09:56Z</p>
   <details>
     <summary>More Details</summary>
@@ -919,7 +919,7 @@ proposed method.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.12216v1">Sharing is CAIRing: Characterizing Principles and Assessing Properties
   of Universal Privacy Evaluation for Synthetic Tabular Data</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.LG-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.CY-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-8A2BE2">
   <p><b>Published on:</b> 2023-12-19T15:05:52Z</p>
   <details>
     <summary>More Details</summary>
@@ -953,7 +953,7 @@ data.</p>
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.12183v2">Poincaré Differential Privacy for Hierarchy-Aware Graph Embedding</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.LG-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2">
   <p><b>Published on:</b> 2023-12-19T14:15:20Z</p>
   <details>
     <summary>More Details</summary>
@@ -987,7 +987,7 @@ maintaining good performance on the node classification task.</p>
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.11845v1">A Summary of Privacy-Preserving Data Publishing in the Local Setting</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2">
   <p><b>Published on:</b> 2023-12-19T04:23:23Z</p>
   <details>
     <summary>More Details</summary>
@@ -1020,7 +1020,7 @@ issues in the domain.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.11712v1">A Simple and Practical Method for Reducing the Disparate Impact of
   Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.LG-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-8A2BE2">
   <p><b>Published on:</b> 2023-12-18T21:19:35Z</p>
   <details>
     <summary>More Details</summary>
@@ -1051,7 +1051,7 @@ compared.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.11126v1">Harnessing Inherent Noises for Privacy Preservation in Quantum Machine
   Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/quant-ph-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.LG-8A2BE2">
+   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-8A2BE2">
   <p><b>Published on:</b> 2023-12-18T11:52:44Z</p>
   <details>
     <summary>More Details</summary>
@@ -1077,7 +1077,7 @@ quantum circuit a different number of times.</p>
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.11581v1">Protect Your Score: Contact Tracing With Differential Privacy Guarantees</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.AI-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.LG-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-8A2BE2">
   <p><b>Published on:</b> 2023-12-18T11:16:33Z</p>
   <details>
     <summary>More Details</summary>
@@ -1106,7 +1106,7 @@ COVID19.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.11575v1">Blind-Touch: Homomorphic Encryption-Based Distributed Neural Network
   Inference for Privacy-Preserving Fingerprint Authentication</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2">
   <p><b>Published on:</b> 2023-12-18T09:05:34Z</p>
   <details>
     <summary>More Details</summary>
@@ -1141,7 +1141,7 @@ cloud applications.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.10951v1">Viral Privacy: Contextual Integrity as a Lens to Understand Content
   Creators' Privacy Perceptions and Needs After Sudden Attention</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.SI-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.CY-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Social and Information Networks-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-8A2BE2">
   <p><b>Published on:</b> 2023-12-18T06:04:01Z</p>
   <details>
     <summary>More Details</summary>
@@ -1163,7 +1163,7 @@ shifts in perspectives.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.11564v1">Privacy-preserving transactive energy systems: Key topics and open
   research challenges</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/eess.SY-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.SY-8A2BE2">
+   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-8A2BE2">
   <p><b>Published on:</b> 2023-12-17T21:23:44Z</p>
   <details>
     <summary>More Details</summary>
@@ -1190,7 +1190,7 @@ far.</p>
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.10789v1">Federated learning with differential privacy and an untrusted aggregator</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2">
   <p><b>Published on:</b> 2023-12-17T18:26:10Z</p>
   <details>
     <summary>More Details</summary>
@@ -1218,7 +1218,7 @@ over Orchard by up to $10^5\times$.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.10698v1">HE-DKSAP: Privacy-Preserving Stealth Address Protocol via Additively
   Homomorphic Encryption</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2">
   <p><b>Published on:</b> 2023-12-17T12:23:49Z</p>
   <details>
     <summary>More Details</summary>
@@ -1251,7 +1251,7 @@ efficient stealth address protocol via additively homomorphic encryption.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.10645v1">FedMKGC: Privacy-Preserving Federated Multilingual Knowledge Graph
   Completion</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.CL-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-8A2BE2">
   <p><b>Published on:</b> 2023-12-17T08:09:27Z</p>
   <details>
     <summary>More Details</summary>
@@ -1280,7 +1280,7 @@ publicly available.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.10380v1">PPIDSG: A Privacy-Preserving Image Distribution Sharing Scheme with GAN
   in Federated Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.LG-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-8A2BE2">
   <p><b>Published on:</b> 2023-12-16T08:32:29Z</p>
   <details>
     <summary>More Details</summary>
@@ -1310,7 +1310,7 @@ https://github.com/ytingma/PPIDSG.</p>
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.10108v1">Privacy-Aware Document Visual Question Answering</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.CV-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.AI-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.LG-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-8A2BE2">
   <p><b>Published on:</b> 2023-12-15T06:30:55Z</p>
   <details>
     <summary>More Details</summary>
@@ -1344,7 +1344,7 @@ and demonstrate its effectiveness in probing different DocVQA models.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.10096v1">Open Government Data Programs and Information Privacy Concerns: A
   Literature Review</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.CY-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.DB-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.IR-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Databases-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-8A2BE2">
   <p><b>Published on:</b> 2023-12-14T16:03:49Z</p>
   <details>
     <summary>More Details</summary>
@@ -1374,7 +1374,7 @@ implications and suggested future research directions are provided.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.08685v1">Privacy Amplification by Iteration for ADMM with (Strongly) Convex
   Objective Functions</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.LG-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/math.OC-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Optimization and Control-8A2BE2">
   <p><b>Published on:</b> 2023-12-14T06:52:29Z</p>
   <details>
     <summary>More Details</summary>
@@ -1407,7 +1407,7 @@ previously studied special case of stochastic gradient descent.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.08210v1">Differential Privacy Preserving Quantum Computing via Projection
   Operator Measurements</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/quant-ph-8A2BE2">
+  
   <p><b>Published on:</b> 2023-12-13T15:27:26Z</p>
   <details>
     <summary>More Details</summary>
@@ -1433,7 +1433,7 @@ privacy protection in quantum computing.</p>
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.08413v1">Privacy Constrained Fairness Estimation for Decision Trees</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.LG-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.CY-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-8A2BE2">
   <p><b>Published on:</b> 2023-12-13T14:54:48Z</p>
   <details>
     <summary>More Details</summary>
@@ -1462,7 +1462,7 @@ method performs better for DTs that humans generally find easier to interpret.</
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.08144v1">Privacy-Preserving Distributed Optimisation using Stochastic PDMM</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/eess.SP-8A2BE2">
+  
   <p><b>Published on:</b> 2023-12-13T13:46:22Z</p>
   <details>
     <summary>More Details</summary>
@@ -1489,7 +1489,7 @@ theoretical results.</p>
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.07992v1">On the privacy of federated Clustering: A Cryptographic View</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2">
   <p><b>Published on:</b> 2023-12-13T09:04:14Z</p>
   <details>
     <summary>More Details</summary>
@@ -1518,7 +1518,7 @@ that a concrete and rigorous analysis can be conducted.</p>
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.07956v1">Topology-Dependent Privacy Bound For Decentralized Federated Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.DC-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-8A2BE2">
   <p><b>Published on:</b> 2023-12-13T08:07:10Z</p>
   <details>
     <summary>More Details</summary>
@@ -1549,7 +1549,7 @@ inference and gradient inversion.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.07948v1">Zero-Knowledge Proof of Traffic: A Deterministic and Privacy-Preserving
   Cross Verification Mechanism for Cooperative Perception Data</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.NI-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2">
   <p><b>Published on:</b> 2023-12-13T07:53:06Z</p>
   <details>
     <summary>More Details</summary>
@@ -1586,7 +1586,7 @@ disrupting the backward compatibility.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.07947v1">Adaptive Differentially Quantized Subspace Perturbation (ADQSP): A
   Unified Framework for Privacy-Preserving Distributed Average Consensus</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2">
   <p><b>Published on:</b> 2023-12-13T07:52:16Z</p>
   <details>
     <summary>More Details</summary>
@@ -1617,7 +1617,7 @@ conducted to substantiate our results.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.07371v1">Privacy-Aware Energy Consumption Modeling of Connected Battery Electric
   Vehicles using Federated Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.LG-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.AI-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/physics.soc-ph-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2"> 
   <p><b>Published on:</b> 2023-12-12T15:40:38Z</p>
   <details>
     <summary>More Details</summary>
@@ -1647,7 +1647,7 @@ prediction while maintaining user privacy.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.07060v1">Layered Randomized Quantization for Communication-Efficient and
   Privacy-Preserving Distributed Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.DC-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-8A2BE2">
   <p><b>Published on:</b> 2023-12-12T08:27:52Z</p>
   <details>
     <summary>More Details</summary>
@@ -1681,7 +1681,7 @@ improvements for the models compared to the fixed scheme.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.07055v1">Communication Cost Reduction for Subgraph Counting under Local
   Differential Privacy via Hash Functions</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.AI-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-8A2BE2">
   <p><b>Published on:</b> 2023-12-12T08:12:18Z</p>
   <details>
     <summary>More Details</summary>
@@ -1707,7 +1707,7 @@ performance of leading algorithms.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.06989v1">Task-Agnostic Privacy-Preserving Representation Learning for Federated
   Learning Against Attribute Inference Attacks</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2">
   <p><b>Published on:</b> 2023-12-12T05:17:34Z</p>
   <details>
     <summary>More Details</summary>
@@ -1742,7 +1742,7 @@ defenses\footnote{Source code and full version:
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.06658v1">Mean estimation in the add-remove model of differential privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.DS-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.IT-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/math.IT-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/stat.ML-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-8A2BE2">  
   <p><b>Published on:</b> 2023-12-11T18:59:35Z</p>
   <details>
     <summary>More Details</summary>
@@ -1768,7 +1768,7 @@ algorithms often used in practice.</p>
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.06717v1">Privacy Issues in Large Language Models: A Survey</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.AI-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-8A2BE2">
   <p><b>Published on:</b> 2023-12-11T01:26:53Z</p>
   <details>
     <summary>More Details</summary>
@@ -1797,7 +1797,7 @@ at https://github.com/safr-ml-lab/survey-llm.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.05720v1">Beyond Gradient and Priors in Privacy Attacks: Leveraging Pooler Layer
   Inputs of Language Models in Federated Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.LG-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.AI-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.CL-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2">
   <p><b>Published on:</b> 2023-12-10T01:19:59Z</p>
   <details>
     <summary>More Details</summary>
@@ -1824,7 +1824,7 @@ outperforms previous state-of-the-art results.</p>
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.05686v1">Privacy Preserving Multi-Agent Reinforcement Learning in Supply Chains</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.AI-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-8A2BE2">
   <p><b>Published on:</b> 2023-12-09T21:25:21Z</p>
   <details>
     <summary>More Details</summary>
@@ -1859,7 +1859,7 @@ secure computation within supply chain contexts and broadly.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.05659v1">Optimal Unbiased Randomizers for Regression with Label Differential
   Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.LG-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2">
   <p><b>Published on:</b> 2023-12-09T19:58:34Z</p>
   <details>
     <summary>More Details</summary>
@@ -1879,7 +1879,7 @@ unbiased randomizers.</p>
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.05436v1">Trading Off Scalability, Privacy, and Performance in Data Synthesis</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.SE-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-8A2BE2">
   <p><b>Published on:</b> 2023-12-09T02:04:25Z</p>
   <details>
     <summary>More Details</summary>
@@ -1906,7 +1906,7 @@ accuracy score, and has the fastest scalability.</p>
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.05183v1">A Privacy-Preserving Framework for Cloud-Based HVAC Control</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/eess.SY-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.SY-8A2BE2">
+   <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-8A2BE2">
   <p><b>Published on:</b> 2023-12-08T17:09:54Z</p>
   <details>
     <summary>More Details</summary>
@@ -1943,7 +1943,7 @@ the computation and communication costs of encrypted HVAC control by at least
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.05114v1">On the Inadequacy of Similarity-based Privacy Metrics: Reconstruction
   Attacks against "Truly Anonymous Synthetic Data''</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.AI-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.LG-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-8A2BE2">
   <p><b>Published on:</b> 2023-12-08T15:42:28Z</p>
   <details>
     <summary>More Details</summary>
@@ -1972,7 +1972,7 @@ practitioners not to deviate from established privacy-preserving mechanisms.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.04903v1">Differential privacy statistical inference for a directed graph network
   model with covariates</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/math.ST-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/stat.TH-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-8A2BE2"> 
   <p><b>Published on:</b> 2023-12-08T08:36:18Z</p>
   <details>
     <summary>More Details</summary>
@@ -1999,7 +1999,7 @@ the validity of our theoretical results.</p>
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.04738v1">DPI: Ensuring Strict Differential Privacy for Infinite Data Streaming</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2">
   <p><b>Published on:</b> 2023-12-07T22:37:54Z</p>
   <details>
     <summary>More Details</summary>
@@ -2029,7 +2029,7 @@ https://github.com/ShuyaFeng/DPI.</p>
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.04692v1">Diffence: Fencing Membership Privacy With Diffusion Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.CV-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.LG-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-8A2BE2">
   <p><b>Published on:</b> 2023-12-07T20:45:09Z</p>
   <details>
     <summary>More Details</summary>
@@ -2065,7 +2065,7 @@ performance in the privacy-utility trade-off.</p>
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.04447v1">Privacy-preserving quantum federated learning via gradient hiding</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/quant-ph-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.DC-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.LG-8A2BE2">
+   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-8A2BE2">
   <p><b>Published on:</b> 2023-12-07T17:16:30Z</p>
   <details>
     <summary>More Details</summary>
@@ -2096,7 +2096,7 @@ computing era.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.04404v2">On the Impact of Multi-dimensional Local Differential Privacy on
   Fairness</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.LG-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.CY-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-8A2BE2">
   <p><b>Published on:</b> 2023-12-07T16:17:34Z</p>
   <details>
     <summary>More Details</summary>
@@ -2124,7 +2124,7 @@ and utility in ML applications.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.04106v1">Identity-Obscured Neural Radiance Fields: Privacy-Preserving 3D Facial
   Reconstruction</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.CV-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-8A2BE2">
   <p><b>Published on:</b> 2023-12-07T07:41:10Z</p>
   <details>
     <summary>More Details</summary>
@@ -2147,7 +2147,7 @@ identity-obscured inputs, thereby protecting facial privacy.</p>
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.04068v1">Making Translators Privacy-aware on the User's Side</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.AI-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.CL-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.LG-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-8A2BE2">
   <p><b>Published on:</b> 2023-12-07T06:23:17Z</p>
   <details>
     <summary>More Details</summary>
@@ -2181,7 +2181,7 @@ balances privacy protection with translation accuracy.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.03918v1">Data Safety vs. App Privacy: Comparing the Usability of Android and iOS
   Privacy Labels</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.HC-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Human-Computer Interaction-8A2BE2">
   <p><b>Published on:</b> 2023-12-06T21:32:32Z</p>
   <details>
     <summary>More Details</summary>
@@ -2212,7 +2212,7 @@ included in the labels and iOS users wanted that information added.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.05265v1">Multimodal Group Emotion Recognition In-the-wild Using Privacy-Compliant
   Features</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.AI-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.CV-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.LG-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/eess.AS-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-8A2BE2"> 
   <p><b>Published on:</b> 2023-12-06T08:58:11Z</p>
   <details>
     <summary>More Details</summary>
@@ -2242,7 +2242,7 @@ only 5 frames uniformly distributed on the video.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.03293v1">Securing Data Platforms: Strategic Masking Techniques for Privacy and
   Security for B2B Enterprise Data</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.SE-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-8A2BE2">
   <p><b>Published on:</b> 2023-12-06T05:04:37Z</p>
   <details>
     <summary>More Details</summary>
@@ -2274,7 +2274,7 @@ techniques.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.03252v1">Privacy-Preserving Task-Oriented Semantic Communications Against Model
   Inversion Attacks</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.IT-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/math.IT-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-8A2BE2"> 
   <p><b>Published on:</b> 2023-12-06T02:57:56Z</p>
   <details>
     <summary>More Details</summary>
@@ -2307,7 +2307,7 @@ trade-offs than baseline methods.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.04594v1">FedGeo: Privacy-Preserving User Next Location Prediction with Federated
   Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.AI-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.LG-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-8A2BE2">
   <p><b>Published on:</b> 2023-12-06T01:43:58Z</p>
   <details>
     <summary>More Details</summary>
@@ -2344,7 +2344,7 @@ customers' mobile phones and the FL agent system.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.02611v1">Privacy-Aware Data Acquisition under Data Similarity in Regression
   Markets</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.LG-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.GT-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Science and Game Theory-8A2BE2">
   <p><b>Published on:</b> 2023-12-05T09:39:04Z</p>
   <details>
     <summary>More Details</summary>
@@ -2368,7 +2368,7 @@ traded data value.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.02400v1">Auto DP-SGD: Dual Improvements of Privacy and Accuracy via Automatic
   Clipping Threshold and Noise Multiplier Estimation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.LG-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/26, 40-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2"> 
   <p><b>Published on:</b> 2023-12-05T00:09:57Z</p>
   <details>
     <summary>More Details</summary>
@@ -2404,7 +2404,7 @@ for the corresponding data sets.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.02327v1">FLea: Improving federated learning on scarce and label-skewed data via
   privacy-preserving feature augmentation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.LG-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.DC-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-8A2BE2">
   <p><b>Published on:</b> 2023-12-04T20:24:09Z</p>
   <details>
     <summary>More Details</summary>
@@ -2433,7 +2433,7 @@ vulnerability associated with shared data augmentations.</p>
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.02112v1">Distributed Optimization with Feasible Set Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.IT-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.NI-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/eess.SP-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/math.IT-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-8A2BE2">  
   <p><b>Published on:</b> 2023-12-04T18:45:04Z</p>
   <details>
     <summary>More Details</summary>
@@ -2462,7 +2462,7 @@ probability.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.02093v1">Cultural Differences in Students' Privacy Concerns in Learning Analytics
   across Germany, South Korea, Spain, Sweden, and the United States</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.CY-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-8A2BE2">
   <p><b>Published on:</b> 2023-12-04T18:10:20Z</p>
   <details>
     <summary>More Details</summary>
@@ -2498,7 +2498,7 @@ practices and policies in higher education.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.02003v1">A Survey on Large Language Model (LLM) Security and Privacy: The Good,
   the Bad, and the Ugly</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.AI-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-8A2BE2">
   <p><b>Published on:</b> 2023-12-04T16:25:18Z</p>
   <details>
     <summary>More Details</summary>
@@ -2531,7 +2531,7 @@ the LLMs' potential to both bolster and jeopardize cybersecurity.</p>
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.01201v1">PAC Privacy Preserving Diffusion Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.LG-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.AI-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-8A2BE2">
   <p><b>Published on:</b> 2023-12-02T18:42:52Z</p>
   <details>
     <summary>More Details</summary>
@@ -2557,7 +2557,7 @@ to benchmark tests.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.01151v1">Here Is Not There: Measuring Entailment-Based Trajectory Similarity for
   Location-Privacy Protection and Beyond</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.CY-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.CL-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.SC-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Symbolic Computation-8A2BE2">
   <p><b>Published on:</b> 2023-12-02T14:41:01Z</p>
   <details>
     <summary>More Details</summary>
@@ -2588,7 +2588,7 @@ and beyond.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.01045v1">PROFL: A Privacy-Preserving Federated Learning Method with Stringent
   Defense Against Poisoning Attacks</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.AI-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.LG-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-8A2BE2">
   <p><b>Published on:</b> 2023-12-02T06:34:37Z</p>
   <details>
     <summary>More Details</summary>
@@ -2618,7 +2618,7 @@ robustness.</p>
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.00989v1">Scrappy: SeCure Rate Assuring Protocol with PrivacY</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2">
   <p><b>Published on:</b> 2023-12-02T01:07:49Z</p>
   <details>
     <summary>More Details</summary>
@@ -2649,7 +2649,7 @@ device is compromised.</p>
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.00933v1">Privacy Preserving Event Detection</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.IT-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/math.IT-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-8A2BE2"> 
   <p><b>Published on:</b> 2023-12-01T21:25:00Z</p>
   <details>
     <summary>More Details</summary>
@@ -2676,7 +2676,7 @@ independent guessing, when there are at least two non-colluding sensors.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.04579v1">zkFDL: An efficient and privacy-preserving decentralized federated
   learning with zero knowledge proof</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.AI-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-8A2BE2">
   <p><b>Published on:</b> 2023-12-01T17:00:30Z</p>
   <details>
     <summary>More Details</summary>
@@ -2705,7 +2705,7 @@ significantly.</p>
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.00645v2">Hashmarks: Privacy-Preserving Benchmarks for High-Stakes AI Evaluation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.LG-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.SE-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-8A2BE2">
   <p><b>Published on:</b> 2023-12-01T15:16:00Z</p>
   <details>
     <summary>More Details</summary>
@@ -2730,7 +2730,7 @@ models.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.00519v1">The Impact of Privacy and Security Attitudes and Concerns of Travellers
   on Their Willingness to Use Mobility-as-a-Service Systems</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.CY-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-8A2BE2">
   <p><b>Published on:</b> 2023-12-01T11:51:43Z</p>
   <details>
     <summary>More Details</summary>
@@ -2759,7 +2759,7 @@ trustworthiness of their corporate image.</p>
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.04577v1">The Evolution of DNS Security and Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.NI-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-8A2BE2">
   <p><b>Published on:</b> 2023-12-01T06:14:25Z</p>
   <details>
     <summary>More Details</summary>
@@ -2779,7 +2779,7 @@ user privacy.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2311.18252v1">Navigating Privacy and Copyright Challenges Across the Data Lifecycle of
   Generative AI</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.SE-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.AI-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.CY-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.LG-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-8A2BE2">
   <p><b>Published on:</b> 2023-11-30T05:03:08Z</p>
   <details>
     <summary>More Details</summary>
@@ -2805,7 +2805,7 @@ AI.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2311.18190v1">Toward the Tradeoffs between Privacy, Fairness and Utility in Federated
   Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.LG-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.AI-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-8A2BE2">
   <p><b>Published on:</b> 2023-11-30T02:19:35Z</p>
   <details>
     <summary>More Details</summary>
@@ -2830,7 +2830,7 @@ utility, and there is a tradeoff between these.</p>
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2311.17789v1">The Symmetric alpha-Stable Privacy Mechanism</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.DS-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-8A2BE2">
   <p><b>Published on:</b> 2023-11-29T16:34:39Z</p>
   <details>
     <summary>More Details</summary>
@@ -2855,7 +2855,7 @@ appealing choice for privacy focused applications.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2311.17453v1">Privacy Measurement in Tabular Synthetic Data: State of the Art and
   Future Research Directions</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.AI-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.DB-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/stat.ML-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Databases-8A2BE2"> 
   <p><b>Published on:</b> 2023-11-29T08:51:40Z</p>
   <details>
     <summary>More Details</summary>
@@ -2872,7 +2872,7 @@ informed modeling and evaluation decisions.</p>
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2311.16940v1">FP-Fed: Privacy-Preserving Federated Detection of Browser Fingerprinting</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.CY-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-8A2BE2">
   <p><b>Published on:</b> 2023-11-28T16:43:17Z</p>
   <details>
     <summary>More Details</summary>
@@ -2903,7 +2903,7 @@ resource-intensive operation.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2311.16538v1">Federated Learning with Diffusion Models for Privacy-Sensitive Vision
   Tasks</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.LG-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2">
   <p><b>Published on:</b> 2023-11-28T06:08:16Z</p>
   <details>
     <summary>More Details</summary>
@@ -2934,7 +2934,7 @@ vision services to privacy-sensitive domains.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2311.16008v1">Using Decentralized Aggregation for Federated Learning with Differential
   Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/cs.LG-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/cs.CR-8A2BE2">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-8A2BE2"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-8A2BE2">
   <p><b>Published on:</b> 2023-11-27T17:02:56Z</p>
   <details>
     <summary>More Details</summary>
