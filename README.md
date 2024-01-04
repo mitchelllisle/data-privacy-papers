@@ -2,6 +2,62 @@
 <h2>2024-01</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2401.01589v1">The Security and Privacy of Mobile Edge Computing: An Artificial
+  Intelligence Perspective</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-01-03T07:47:22Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Cheng Wang, Zenghui Yuan, Pan Zhou, Zichuan Xu, Ruixuan Li, Dapeng Oliver Wu</p>
+    <p><b>Summary:</b> Mobile Edge Computing (MEC) is a new computing paradigm that enables cloud
+computing and information technology (IT) services to be delivered at the
+network's edge. By shifting the load of cloud computing to individual local
+servers, MEC helps meet the requirements of ultralow latency, localized data
+processing, and extends the potential of Internet of Things (IoT) for
+end-users. However, the crosscutting nature of MEC and the multidisciplinary
+components necessary for its deployment have presented additional security and
+privacy concerns. Fortunately, Artificial Intelligence (AI) algorithms can cope
+with excessively unpredictable and complex data, which offers a distinct
+advantage in dealing with sophisticated and developing adversaries in the
+security industry. Hence, in this paper we comprehensively provide a survey of
+security and privacy in MEC from the perspective of AI. On the one hand, we use
+European Telecommunications Standards Institute (ETSI) MEC reference
+architecture as our based framework while merging the Software Defined Network
+(SDN) and Network Function Virtualization (NFV) to better illustrate a
+serviceable platform of MEC. On the other hand, we focus on new security and
+privacy issues, as well as potential solutions from the viewpoints of AI.
+Finally, we comprehensively discuss the opportunities and challenges associated
+with applying AI to MEC security and privacy as possible future research
+directions.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2401.01575v1">Enhancing Generalization of Invisible Facial Privacy Cloak via Gradient
+  Accumulation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2024-01-03T07:00:32Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xuannan Liu, Yaoyao Zhong, Weihong Deng, Hongzhi Shi, Xingchen Cui, Yunfeng Yin, Dongchao Wen</p>
+    <p><b>Summary:</b> The blooming of social media and face recognition (FR) systems has increased
+people's concern about privacy and security. A new type of adversarial privacy
+cloak (class-universal) can be applied to all the images of regular users, to
+prevent malicious FR systems from acquiring their identity information. In this
+work, we discover the optimization dilemma in the existing methods -- the local
+optima problem in large-batch optimization and the gradient information
+elimination problem in small-batch optimization. To solve these problems, we
+propose Gradient Accumulation (GA) to aggregate multiple small-batch gradients
+into a one-step iterative gradient to enhance the gradient stability and reduce
+the usage of quantization operations. Experiments show that our proposed method
+achieves high performance on the Privacy-Commons dataset against black-box face
+recognition models.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2401.01294v1">Efficient Sparse Least Absolute Deviation Regression with Differential
   Privacy</a></h3>
    <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">  
@@ -2210,6 +2266,41 @@ included in the labels and iOS users wanted that information added.</p>
 
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2401.01353v1">The Boomerang protocol: A Decentralised Privacy-Preserving Verifiable
+  Incentive Protocol</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2023-12-06T09:37:45Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ralph Ankele, Hamed Haddadi</p>
+    <p><b>Summary:</b> In the era of data-driven economies, incentive systems and loyalty programs,
+have become ubiquitous in various sectors, including advertising, retail,
+travel, and financial services. While these systems offer advantages for both
+users and companies, they necessitate the transfer and analysis of substantial
+amounts of sensitive data. Privacy concerns have become increasingly pertinent,
+necessitating the development of privacy-preserving incentive protocols.
+Despite the rising demand for secure and decentralised systems, the existing
+landscape lacks a comprehensive solution. We propose the Boomerang protocol, a
+novel decentralised privacy-preserving incentive protocol that leverages
+cryptographic black box accumulators to securely store user interactions within
+the incentive system. Moreover, the protocol employs zero-knowledge proofs
+based on BulletProofs to transparently compute rewards for users, ensuring
+verifiability while preserving their privacy. To further enhance public
+verifiability and transparency, we utilise a smart contract on a Layer 1
+blockchain to verify these zero-knowledge proofs. The careful combination of
+black box accumulators with selected elliptic curves in the zero-knowledge
+proofs makes the Boomerang protocol highly efficient. Our proof of concept
+implementation shows that we can handle up to 23.6 million users per day, on a
+single-threaded backend server with financial costs of approximately 2 US$.
+Using the Solana blockchain we can handle 15.5 million users per day with
+approximate costs of 0.00011 US$ per user. The Boomerang protocol represents a
+significant advancement in privacy-preserving incentive protocols, laying the
+groundwork for a more secure and privacy-centric future.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.05265v1">Multimodal Group Emotion Recognition In-the-wild Using Privacy-Compliant
   Features</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
@@ -2866,92 +2957,6 @@ privacy protection. In this paper, we discuss proposed quantification
 approaches. This contributes to the development of SD privacy standards;
 stimulates multi-disciplinary discussion; and helps SD researchers make
 informed modeling and evaluation decisions.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2311.16940v1">FP-Fed: Privacy-Preserving Federated Detection of Browser Fingerprinting</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2023-11-28T16:43:17Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Meenatchi Sundaram Muthu Selva Annamalai, Igor Bilogrevic, Emiliano De Cristofaro</p>
-    <p><b>Summary:</b> Browser fingerprinting often provides an attractive alternative to
-third-party cookies for tracking users across the web. In fact, the increasing
-restrictions on third-party cookies placed by common web browsers and recent
-regulations like the GDPR may accelerate the transition. To counter browser
-fingerprinting, previous work proposed several techniques to detect its
-prevalence and severity. However, these rely on 1) centralized web crawls
-and/or 2) computationally intensive operations to extract and process signals
-(e.g., information-flow and static analysis). To address these limitations, we
-present FP-Fed, the first distributed system for browser fingerprinting
-detection. Using FP-Fed, users can collaboratively train on-device models based
-on their real browsing patterns, without sharing their training data with a
-central entity, by relying on Differentially Private Federated Learning
-(DP-FL). To demonstrate its feasibility and effectiveness, we evaluate FP-Fed's
-performance on a set of 18.3k popular websites with different privacy levels,
-numbers of participants, and features extracted from the scripts. Our
-experiments show that FP-Fed achieves reasonably high detection performance and
-can perform both training and inference efficiently, on-device, by only relying
-on runtime signals extracted from the execution trace, without requiring any
-resource-intensive operation.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2311.16538v1">Federated Learning with Diffusion Models for Privacy-Sensitive Vision
-  Tasks</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2023-11-28T06:08:16Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ye Lin Tun, Chu Myaet Thwal, Ji Su Yoon, Sun Moo Kang, Chaoning Zhang, Choong Seon Hong</p>
-    <p><b>Summary:</b> Diffusion models have shown great potential for vision-related tasks,
-particularly for image generation. However, their training is typically
-conducted in a centralized manner, relying on data collected from publicly
-available sources. This approach may not be feasible or practical in many
-domains, such as the medical field, which involves privacy concerns over data
-collection. Despite the challenges associated with privacy-sensitive data, such
-domains could still benefit from valuable vision services provided by diffusion
-models. Federated learning (FL) plays a crucial role in enabling decentralized
-model training without compromising data privacy. Instead of collecting data,
-an FL system gathers model parameters, effectively safeguarding the private
-data of different parties involved. This makes FL systems vital for managing
-decentralized learning tasks, especially in scenarios where privacy-sensitive
-data is distributed across a network of clients. Nonetheless, FL presents its
-own set of challenges due to its distributed nature and privacy-preserving
-properties. Therefore, in this study, we explore the FL strategy to train
-diffusion models, paving the way for the development of federated diffusion
-models. We conduct experiments on various FL scenarios, and our findings
-demonstrate that federated diffusion models have great potential to deliver
-vision services to privacy-sensitive domains.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2311.16008v1">Using Decentralized Aggregation for Federated Learning with Differential
-  Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2023-11-27T17:02:56Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Hadeel Abd El-Kareem, Abd El-Moaty Saleh, Ana Fernández-Vilas, Manuel Fernández-Veiga, asser El-Sonbaty</p>
-    <p><b>Summary:</b> Nowadays, the ubiquitous usage of mobile devices and networks have raised
-concerns about the loss of control over personal data and research advance
-towards the trade-off between privacy and utility in scenarios that combine
-exchange communications, big databases and distributed and collaborative (P2P)
-Machine Learning techniques. On the other hand, although Federated Learning
-(FL) provides some level of privacy by retaining the data at the local node,
-which executes a local training to enrich a global model, this scenario is
-still susceptible to privacy breaches as membership inference attacks. To
-provide a stronger level of privacy, this research deploys an experimental
-environment for FL with Differential Privacy (DP) using benchmark datasets. The
-obtained results show that the election of parameters and techniques of DP is
-central in the aforementioned trade-off between privacy and utility by means of
-a classification example.</p>
   </details>
 </div>
 
