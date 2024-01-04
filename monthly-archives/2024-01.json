@@ -171,5 +171,68 @@
       "cs.CL",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.01589v1",
+    "title" : "The Security and Privacy of Mobile Edge Computing: An Artificial\n  Intelligence Perspective",
+    "summary" : "Mobile Edge Computing (MEC) is a new computing paradigm that enables cloud\ncomputing and information technology (IT) services to be delivered at the\nnetwork's edge. By shifting the load of cloud computing to individual local\nservers, MEC helps meet the requirements of ultralow latency, localized data\nprocessing, and extends the potential of Internet of Things (IoT) for\nend-users. However, the crosscutting nature of MEC and the multidisciplinary\ncomponents necessary for its deployment have presented additional security and\nprivacy concerns. Fortunately, Artificial Intelligence (AI) algorithms can cope\nwith excessively unpredictable and complex data, which offers a distinct\nadvantage in dealing with sophisticated and developing adversaries in the\nsecurity industry. Hence, in this paper we comprehensively provide a survey of\nsecurity and privacy in MEC from the perspective of AI. On the one hand, we use\nEuropean Telecommunications Standards Institute (ETSI) MEC reference\narchitecture as our based framework while merging the Software Defined Network\n(SDN) and Network Function Virtualization (NFV) to better illustrate a\nserviceable platform of MEC. On the other hand, we focus on new security and\nprivacy issues, as well as potential solutions from the viewpoints of AI.\nFinally, we comprehensively discuss the opportunities and challenges associated\nwith applying AI to MEC security and privacy as possible future research\ndirections.",
+    "updated" : "2024-01-03T07:47:22Z",
+    "published" : "2024-01-03T07:47:22Z",
+    "authors" : [
+      {
+        "name" : "Cheng Wang"
+      },
+      {
+        "name" : "Zenghui Yuan"
+      },
+      {
+        "name" : "Pan Zhou"
+      },
+      {
+        "name" : "Zichuan Xu"
+      },
+      {
+        "name" : "Ruixuan Li"
+      },
+      {
+        "name" : "Dapeng Oliver Wu"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.01575v1",
+    "title" : "Enhancing Generalization of Invisible Facial Privacy Cloak via Gradient\n  Accumulation",
+    "summary" : "The blooming of social media and face recognition (FR) systems has increased\npeople's concern about privacy and security. A new type of adversarial privacy\ncloak (class-universal) can be applied to all the images of regular users, to\nprevent malicious FR systems from acquiring their identity information. In this\nwork, we discover the optimization dilemma in the existing methods -- the local\noptima problem in large-batch optimization and the gradient information\nelimination problem in small-batch optimization. To solve these problems, we\npropose Gradient Accumulation (GA) to aggregate multiple small-batch gradients\ninto a one-step iterative gradient to enhance the gradient stability and reduce\nthe usage of quantization operations. Experiments show that our proposed method\nachieves high performance on the Privacy-Commons dataset against black-box face\nrecognition models.",
+    "updated" : "2024-01-03T07:00:32Z",
+    "published" : "2024-01-03T07:00:32Z",
+    "authors" : [
+      {
+        "name" : "Xuannan Liu"
+      },
+      {
+        "name" : "Yaoyao Zhong"
+      },
+      {
+        "name" : "Weihong Deng"
+      },
+      {
+        "name" : "Hongzhi Shi"
+      },
+      {
+        "name" : "Xingchen Cui"
+      },
+      {
+        "name" : "Yunfeng Yin"
+      },
+      {
+        "name" : "Dongchao Wen"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
   }
 ]
