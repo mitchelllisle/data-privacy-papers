@@ -234,5 +234,25 @@
     "categories" : [
       "cs.CV"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.02453v1",
+    "title" : "Adaptive Differential Privacy in Federated Learning: A Priority-Based\n  Approach",
+    "summary" : "Federated learning (FL) as one of the novel branches of distributed machine\nlearning (ML), develops global models through a private procedure without\ndirect access to local datasets. However, access to model updates (e.g.\ngradient updates in deep neural networks) transferred between clients and\nservers can reveal sensitive information to adversaries. Differential privacy\n(DP) offers a framework that gives a privacy guarantee by adding certain\namounts of noise to parameters. This approach, although being effective in\nterms of privacy, adversely affects model performance due to noise involvement.\nHence, it is always needed to find a balance between noise injection and the\nsacrificed accuracy. To address this challenge, we propose adaptive noise\naddition in FL which decides the value of injected noise based on features'\nrelative importance. Here, we first propose two effective methods for\nprioritizing features in deep neural network models and then perturb models'\nweights based on this information. Specifically, we try to figure out whether\nthe idea of adding more noise to less important parameters and less noise to\nmore important parameters can effectively save the model accuracy while\npreserving privacy. Our experiments confirm this statement under some\nconditions. The amount of noise injected, the proportion of parameters\ninvolved, and the number of global iterations can significantly change the\noutput. While a careful choice of parameters by considering the properties of\ndatasets can improve privacy without intense loss of accuracy, a bad choice can\nmake the model performance worse.",
+    "updated" : "2024-01-04T03:01:15Z",
+    "published" : "2024-01-04T03:01:15Z",
+    "authors" : [
+      {
+        "name" : "Mahtab Talaei"
+      },
+      {
+        "name" : "Iman Izadi"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DC",
+      "cs.LG"
+    ]
   }
 ]
