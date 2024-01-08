@@ -2,6 +2,40 @@
 <h2>2024-01</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2401.02453v1">Adaptive Differential Privacy in Federated Learning: A Priority-Based
+  Approach</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-01-04T03:01:15Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mahtab Talaei, Iman Izadi</p>
+    <p><b>Summary:</b> Federated learning (FL) as one of the novel branches of distributed machine
+learning (ML), develops global models through a private procedure without
+direct access to local datasets. However, access to model updates (e.g.
+gradient updates in deep neural networks) transferred between clients and
+servers can reveal sensitive information to adversaries. Differential privacy
+(DP) offers a framework that gives a privacy guarantee by adding certain
+amounts of noise to parameters. This approach, although being effective in
+terms of privacy, adversely affects model performance due to noise involvement.
+Hence, it is always needed to find a balance between noise injection and the
+sacrificed accuracy. To address this challenge, we propose adaptive noise
+addition in FL which decides the value of injected noise based on features'
+relative importance. Here, we first propose two effective methods for
+prioritizing features in deep neural network models and then perturb models'
+weights based on this information. Specifically, we try to figure out whether
+the idea of adding more noise to less important parameters and less noise to
+more important parameters can effectively save the model accuracy while
+preserving privacy. Our experiments confirm this statement under some
+conditions. The amount of noise injected, the proportion of parameters
+involved, and the number of global iterations can significantly change the
+output. While a careful choice of parameters by considering the properties of
+datasets can improve privacy without intense loss of accuracy, a bad choice can
+make the model performance worse.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2401.01589v1">The Security and Privacy of Mobile Edge Computing: An Artificial
   Intelligence Perspective</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
@@ -2939,24 +2973,6 @@ present novel analysis of the Symmetric alpha-Stable (SaS) mechanism. We prove
 that the mechanism is purely differentially private while remaining closed
 under convolution. From our analysis, we believe the SaS Mechanism is an
 appealing choice for privacy focused applications.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2311.17453v1">Privacy Measurement in Tabular Synthetic Data: State of the Art and
-  Future Research Directions</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB"> 
-  <p><b>Published on:</b> 2023-11-29T08:51:40Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Alexander Boudewijn, Andrea Filippo Ferraris, Daniele Panfilo, Vanessa Cocca, Sabrina Zinutti, Karel De Schepper, Carlo Rossi Chauvenet</p>
-    <p><b>Summary:</b> Synthetic data (SD) have garnered attention as a privacy enhancing
-technology. Unfortunately, there is no standard for quantifying their degree of
-privacy protection. In this paper, we discuss proposed quantification
-approaches. This contributes to the development of SD privacy standards;
-stimulates multi-disciplinary discussion; and helps SD researchers make
-informed modeling and evaluation decisions.</p>
   </details>
 </div>
 
