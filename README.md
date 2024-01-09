@@ -2,6 +2,126 @@
 <h2>2024-01</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2401.04076v1">Security and Privacy Issues in Cloud Storage</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
+  <p><b>Published on:</b> 2024-01-08T18:27:57Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Norah Asiri</p>
+    <p><b>Summary:</b> Even with the vast potential that cloud computing has, so far, it has not
+been adopted by the consumers with the enthusiasm and pace that it be worthy;
+this is a very reason statement why consumers still hesitated of using cloud
+computing for their sensitive data and the threats that prevent the consumers
+from shifting to use cloud computing in general and cloud storage in
+particular. The cloud computing inherits the traditional potential security and
+privacy threats besides its own issues due to its unique structures. Some
+threats related to cloud computing are the insider malicious attacks from the
+employees that even sometime the provider unconscious about, the lack of
+transparency of agreement between consumer and provider, data loss, traffic
+hijacking, shared technology and insecure application interface. Such threats
+need remedies to make the consumer use its features in secure way. In this
+review, we spot the light on the most security and privacy issues which can be
+attributed as gaps that sometimes the consumers or even the enterprises are not
+aware of. We also define the parties that involve in scenario of cloud
+computing that also may attack the entire cloud systems. We also show the
+consequences of these threats.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2401.03883v1">The Impact of Differential Privacy on Recommendation Accuracy and
+  Popularity Bias</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB">
+  <p><b>Published on:</b> 2024-01-08T13:31:02Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Peter Müllner, Elisabeth Lex, Markus Schedl, Dominik Kowald</p>
+    <p><b>Summary:</b> Collaborative filtering-based recommender systems leverage vast amounts of
+behavioral user data, which poses severe privacy risks. Thus, often, random
+noise is added to the data to ensure Differential Privacy (DP). However, to
+date, it is not well understood, in which ways this impacts personalized
+recommendations. In this work, we study how DP impacts recommendation accuracy
+and popularity bias, when applied to the training data of state-of-the-art
+recommendation models. Our findings are three-fold: First, we find that nearly
+all users' recommendations change when DP is applied. Second, recommendation
+accuracy drops substantially while recommended item popularity experiences a
+sharp increase, suggesting that popularity bias worsens. Third, we find that DP
+exacerbates popularity bias more severely for users who prefer unpopular items
+than for users that prefer popular items.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2401.03552v1">Privacy-Preserving in Blockchain-based Federated Learning Systems</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-01-07T17:23:55Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Sameera K. M., Serena Nicolazzo, Marco Arazzi, Antonino Nocera, Rafidha Rehiman K. A., Vinod P, Mauro Conti</p>
+    <p><b>Summary:</b> Federated Learning (FL) has recently arisen as a revolutionary approach to
+collaborative training Machine Learning models. According to this novel
+framework, multiple participants train a global model collaboratively,
+coordinating with a central aggregator without sharing their local data. As FL
+gains popularity in diverse domains, security, and privacy concerns arise due
+to the distributed nature of this solution. Therefore, integrating this
+strategy with Blockchain technology has been consolidated as a preferred choice
+to ensure the privacy and security of participants.
+  This paper explores the research efforts carried out by the scientific
+community to define privacy solutions in scenarios adopting Blockchain-Enabled
+FL. It comprehensively summarizes the background related to FL and Blockchain,
+evaluates existing architectures for their integration, and the primary attacks
+and possible countermeasures to guarantee privacy in this setting. Finally, it
+reviews the main application scenarios where Blockchain-Enabled FL approaches
+have been proficiently applied. This survey can help academia and industry
+practitioners understand which theories and techniques exist to improve the
+performance of FL through Blockchain to preserve privacy and which are the main
+challenges and future directions in this novel and still under-explored
+context. We believe this work provides a novel contribution respect to the
+previous surveys and is a valuable tool to explore the current landscape,
+understand perspectives, and pave the way for advancements or improvements in
+this amalgamation of Blockchain and Federated Learning.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2401.03218v1">MiniScope: Automated UI Exploration and Privacy Inconsistency Detection
+  of MiniApps via Two-phase Iterative Hybrid Analysis</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
+  <p><b>Published on:</b> 2024-01-06T13:54:36Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shenao Wang, Yuekang Li, Kailong Wang, Yi Liu, Chao Wang, Yanjie Zhao, Gelei Deng, Ling Shi, Hui Li, Yang Liu, Haoyu Wang</p>
+    <p><b>Summary:</b> The advent of MiniApps, operating within larger SuperApps, has revolutionized
+user experiences by offering a wide range of services without the need for
+individual app downloads. However, this convenience has raised significant
+privacy concerns, as these MiniApps often require access to sensitive data,
+potentially leading to privacy violations. Our research addresses the critical
+gaps in the analysis of MiniApps' privacy practices, especially focusing on
+WeChat MiniApps in the Android ecosystem. Despite existing privacy regulations
+and platform guidelines, there is a lack of effective mechanisms to safeguard
+user privacy fully. We introduce MiniScope, a novel two-phase hybrid analysis
+approach, specifically designed for the MiniApp environment. This approach
+overcomes the limitations of existing static analysis techniques by
+incorporating dynamic UI exploration for complete code coverage and accurate
+privacy practice identification. Our methodology includes modeling UI
+transition states, resolving cross-package callback control flows, and
+automated iterative UI exploration. This allows for a comprehensive
+understanding of MiniApps' privacy practices, addressing the unique challenges
+of sub-package loading and event-driven callbacks. Our empirical evaluation of
+over 120K MiniApps using MiniScope demonstrates its effectiveness in
+identifying privacy inconsistencies. The results reveal significant issues,
+with 5.7% of MiniApps over-collecting private data and 33.4% overclaiming data
+collection. These findings emphasize the urgent need for more precise privacy
+monitoring systems and highlight the responsibility of SuperApp operators to
+enforce stricter privacy measures.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2401.02453v1">Adaptive Differential Privacy in Federated Learning: A Priority-Based
   Approach</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
@@ -121,27 +241,37 @@ conduct experiments to verify the efficiency of our proposed FRAPPE algorithm.</
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2401.01204v1">PPBFL: A Privacy Protected Blockchain-based Federated Learning Model</a></h3>
+  <h3><a href="http://arxiv.org/abs/2401.01204v2">PPBFL: A Privacy Protected Blockchain-based Federated Learning Model</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
   <p><b>Published on:</b> 2024-01-02T13:13:28Z</p>
   <details>
     <summary>More Details</summary>
     <p><b>Authors:</b> Yang Li, Chunhe Xia, Wanshuang Lin, Tianbo Wang</p>
-    <p><b>Summary:</b> With the rapid development of machine learning and growing concerns about
-data privacy, federated learning has become an increasingly prominent focus.
-However, challenges such as attacks on model parameters and the lack of
-incentive mechanisms hinder the effectiveness of federated learning. Therefore,
-we propose a Privacy Protected Blockchain-based Federated Learning Model
-(PPBFL) to enhance the security of federated learning and promote the active
-participation of nodes in model training. Blockchain ensures that model
-parameters stored in the InterPlanetary File System (IPFS) remain unaltered. A
-novel adaptive differential privacy addition algorithm is simultaneously
-applied to local and global models, preserving the privacy of local models and
-preventing a decrease in the security of the global model due to the presence
-of numerous local models in federated learning. Additionally, we introduce a
-new mix transactions mechanism to better protect the identity privacy of local
-training clients. Security analysis and experimental results demonstrate that
-PPBFL outperforms baseline methods in both model performance and security.</p>
+    <p><b>Summary:</b> With the rapid development of machine learning and a growing concern for data
+privacy, federated learning has become a focal point of attention. However,
+attacks on model parameters and a lack of incentive mechanisms hinder the
+effectiveness of federated learning. Therefore, we propose A Privacy Protected
+Blockchain-based Federated Learning Model (PPBFL) to enhance the security of
+federated learning and encourage active participation of nodes in model
+training. Blockchain technology ensures the integrity of model parameters
+stored in the InterPlanetary File System (IPFS), providing protection against
+tampering. Within the blockchain, we introduce a Proof of Training Work (PoTW)
+consensus algorithm tailored for federated learning, aiming to incentive
+training nodes. This algorithm rewards nodes with greater computational power,
+promoting increased participation and effort in the federated learning process.
+A novel adaptive differential privacy algorithm is simultaneously applied to
+local and global models. This safeguards the privacy of local data at training
+clients, preventing malicious nodes from launching inference attacks.
+Additionally, it enhances the security of the global model, preventing
+potential security degradation resulting from the combination of numerous local
+models. The possibility of security degradation is derived from the composition
+theorem. By introducing reverse noise in the global model, a zero-bias estimate
+of differential privacy noise between local and global models is achieved.
+Furthermore, we propose a new mix transactions mechanism utilizing ring
+signature technology to better protect the identity privacy of local training
+clients. Security analysis and experimental results demonstrate that PPBFL,
+compared to baseline methods, not only exhibits superior model performance but
+also achieves higher security.</p>
   </details>
 </div>
 
@@ -219,7 +349,7 @@ evolving landscape of IoT and cloud computing</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2401.00793v1">SecFormer: Towards Fast and Accurate Privacy-Preserving Inference for
+  <h3><a href="http://arxiv.org/abs/2401.00793v2">SecFormer: Towards Fast and Accurate Privacy-Preserving Inference for
   Large Language Models</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2024-01-01T15:40:35Z</p>
@@ -235,20 +365,20 @@ SMPC in Privacy-Preserving Inference (PPI) for large language models,
 particularly those based on the Transformer architecture, often leads to
 considerable slowdowns or declines in performance. This is largely due to the
 multitude of nonlinear operations in the Transformer architecture, which are
-not well-suited to SMPC and are difficult to circumvent or optimize
-effectively. To address this concern, we introduce an advanced optimization
-framework called SecFormer, designed to strike an optimal balance between
-performance and efficiency in PPI for Transformer models. By implementing
-knowledge distillation techniques, we successfully eliminate the high-cost
+not well-suited to SMPC and difficult to circumvent or optimize effectively. To
+address this concern, we introduce an advanced optimization framework called
+SecFormer, to achieve fast and accurate PPI for Transformer models. By
+implementing model design optimization, we successfully eliminate the high-cost
 exponential and maximum operations in PPI without sacrificing model
 performance. Additionally, we have developed a suite of efficient SMPC
-protocols that utilize segmented polynomials and Goldschmidt's method to handle
-other complex nonlinear functions within PPI, such as GeLU, LayerNorm, and
-Softmax. Our extensive experiments reveal that SecFormer outperforms MPCFormer
-in performance, showing improvements of $5.6\%$ and $24.2\%$ for
-BERT$_{\text{BASE}}$ and BERT$_{\text{LARGE}}$, respectively. In terms of
-efficiency, SecFormer is 3.4 and 3.2 times faster than Puma, demonstrating its
-effectiveness and speed.</p>
+protocols that utilize segmented polynomials, Fourier series and Goldschmidt's
+method to handle other complex nonlinear functions within PPI, such as GeLU,
+LayerNorm, and Softmax. Our extensive experiments reveal that SecFormer
+outperforms MPCFormer in performance, showing improvements of $5.6\%$ and
+$24.2\%$ for BERT$_{\text{BASE}}$ and BERT$_{\text{LARGE}}$, respectively. In
+terms of efficiency, SecFormer is 3.56 and 3.58 times faster than Puma for
+BERT$_{\text{BASE}}$ and BERT$_{\text{LARGE}}$, demonstrating its effectiveness
+and speed.</p>
   </details>
 </div>
 
@@ -2269,32 +2399,32 @@ balances privacy protection with translation accuracy.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2312.03918v1">Data Safety vs. App Privacy: Comparing the Usability of Android and iOS
+  <h3><a href="http://arxiv.org/abs/2312.03918v2">Data Safety vs. App Privacy: Comparing the Usability of Android and iOS
   Privacy Labels</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
   <p><b>Published on:</b> 2023-12-06T21:32:32Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Yanzi Lin, Jaideep Juneja, Eleanor Birrell, Lorrie Cranor</p>
+    <p><b>Authors:</b> Yanzi Lin, Jaideep Juneja, Eleanor Birrell, Lorrie Faith Cranor</p>
     <p><b>Summary:</b> Privacy labels -- standardized, compact representations of data collection
-and data use practices -- have frequently been recommended as a solution to the
-shortcomings of privacy policies. Apple introduced mandatory privacy labels for
-apps in its App Store in December 2020; Google introduced data safety labels
-for Android apps in July 2022. iOS app privacy labels have been evaluated and
-critiqued in prior work. In this work, we evaluated Android data safety labels
-and explored how differences between the two label designs impact user
-comprehension and label utility. We conducted a between-subjects,
-semi-structured interview study with 12 Android users and 12 iOS users. While
-some users found Android Data Safety Labels informative and helpful, other
-users found them too vague. Compared to iOS App Privacy Labels, Android users
-found the distinction between data collection groups more intuitive and found
-explicit inclusion of omitted data collection groups more salient. However,
-some users expressed skepticism regarding elided information about collected
-data type categories. Most users missed critical information due to not
-expanding the accordion interface, and they were surprised by collection
-practices excluded from Android's definitions. Our findings also revealed that
-Android users generally appreciated information about security practices
-included in the labels and iOS users wanted that information added.</p>
+and data use practices -- are often presented as a solution to the shortcomings
+of privacy policies. Apple introduced mandatory privacy labels for apps in its
+App Store in December 2020; Google introduced mandatory labels for Android apps
+in July 2022. iOS app privacy labels have been evaluated and critiqued in prior
+work. In this work, we evaluated Android Data Safety Labels and explored how
+differences between the two label designs impact user comprehension and label
+utility. We conducted a between-subjects, semi-structured interview study with
+12 Android users and 12 iOS users. While some users found Android Data Safety
+Labels informative and helpful, other users found them too vague. Compared to
+iOS App Privacy Labels, Android users found the distinction between data
+collection groups more intuitive and found explicit inclusion of omitted data
+collection groups more salient. However, some users expressed skepticism
+regarding elided information about collected data type categories. Most users
+missed critical information due to not expanding the accordion interface, and
+they were surprised by collection practices excluded from Android's
+definitions. Our findings also revealed that Android users generally
+appreciated information about security practices included in the labels, and
+iOS users wanted that information added.</p>
   </details>
 </div>
 
@@ -2878,101 +3008,6 @@ to use MaaS systems, whereas frequency with which one heard about misuse of
 personal data did. Implications of the results and future directions are also
 discussed, e.g., MaaS providers are encouraged to work on improving the
 trustworthiness of their corporate image.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2312.04577v1">The Evolution of DNS Security and Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
-  <p><b>Published on:</b> 2023-12-01T06:14:25Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Levente Csikor, Dinil Mon Divakaran</p>
-    <p><b>Summary:</b> DNS, one of the fundamental protocols of the TCP/IP stack, has evolved over
-the years to protect against threats and attacks. This study examines the risks
-associated with DNS and explores recent advancements that contribute towards
-making the DNS ecosystem resilient against various attacks while safeguarding
-user privacy.</p>
-  </details>
-</div>
-
-
-
-<h2>2023-11</h2>
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2311.18252v1">Navigating Privacy and Copyright Challenges Across the Data Lifecycle of
-  Generative AI</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2023-11-30T05:03:08Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Dawen Zhang, Boming Xia, Yue Liu, Xiwei Xu, Thong Hoang, Zhenchang Xing, Mark Staples, Qinghua Lu, Liming Zhu</p>
-    <p><b>Summary:</b> The advent of Generative AI has marked a significant milestone in artificial
-intelligence, demonstrating remarkable capabilities in generating realistic
-images, texts, and data patterns. However, these advancements come with
-heightened concerns over data privacy and copyright infringement, primarily due
-to the reliance on vast datasets for model training. Traditional approaches
-like differential privacy, machine unlearning, and data poisoning only offer
-fragmented solutions to these complex issues. Our paper delves into the
-multifaceted challenges of privacy and copyright protection within the data
-lifecycle. We advocate for integrated approaches that combines technical
-innovation with ethical foresight, holistically addressing these concerns by
-investigating and devising solutions that are informed by the lifecycle
-perspective. This work aims to catalyze a broader discussion and inspire
-concerted efforts towards data privacy and copyright integrity in Generative
-AI.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2311.18190v1">Toward the Tradeoffs between Privacy, Fairness and Utility in Federated
-  Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2023-11-30T02:19:35Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Kangkang Sun, Xiaojin Zhang, Xi Lin, Gaolei Li, Jing Wang, Jianhua Li</p>
-    <p><b>Summary:</b> Federated Learning (FL) is a novel privacy-protection distributed machine
-learning paradigm that guarantees user privacy and prevents the risk of data
-leakage due to the advantage of the client's local training. Researchers have
-struggled to design fair FL systems that ensure fairness of results. However,
-the interplay between fairness and privacy has been less studied. Increasing
-the fairness of FL systems can have an impact on user privacy, while an
-increase in user privacy can affect fairness. In this work, on the client side,
-we use fairness metrics, such as Demographic Parity (DemP), Equalized Odds
-(EOs), and Disparate Impact (DI), to construct the local fair model. To protect
-the privacy of the client model, we propose a privacy-protection fairness FL
-method. The results show that the accuracy of the fair model with privacy
-increases because privacy breaks the constraints of the fairness metrics. In
-our experiments, we conclude the relationship between privacy, fairness and
-utility, and there is a tradeoff between these.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2311.17789v1">The Symmetric alpha-Stable Privacy Mechanism</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B">
-  <p><b>Published on:</b> 2023-11-29T16:34:39Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Christopher Zawacki, Eyad Abed</p>
-    <p><b>Summary:</b> With the rapid growth of digital platforms, there is increasing apprehension
-about how personal data is being collected, stored, and used by various
-entities. These concerns range from data breaches and cyber-attacks to
-potential misuse of personal information for targeted advertising and
-surveillance. As a result, differential privacy (DP) has emerged as a prominent
-tool for quantifying a system's level of protection. The Gaussian mechanism is
-commonly used because the Gaussian density is closed under convolution, a
-common method utilized when aggregating datasets. However, the Gaussian
-mechanism only satisfies approximate differential privacy. In this work, we
-present novel analysis of the Symmetric alpha-Stable (SaS) mechanism. We prove
-that the mechanism is purely differentially private while remaining closed
-under convolution. From our analysis, we believe the SaS Mechanism is an
-appealing choice for privacy focused applications.</p>
   </details>
 </div>
 
