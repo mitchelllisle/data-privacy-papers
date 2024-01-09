@@ -2277,5 +2277,29 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2312.03918v2",
+    "title" : "Data Safety vs. App Privacy: Comparing the Usability of Android and iOS\n  Privacy Labels",
+    "summary" : "Privacy labels -- standardized, compact representations of data collection\nand data use practices -- are often presented as a solution to the shortcomings\nof privacy policies. Apple introduced mandatory privacy labels for apps in its\nApp Store in December 2020; Google introduced mandatory labels for Android apps\nin July 2022. iOS app privacy labels have been evaluated and critiqued in prior\nwork. In this work, we evaluated Android Data Safety Labels and explored how\ndifferences between the two label designs impact user comprehension and label\nutility. We conducted a between-subjects, semi-structured interview study with\n12 Android users and 12 iOS users. While some users found Android Data Safety\nLabels informative and helpful, other users found them too vague. Compared to\niOS App Privacy Labels, Android users found the distinction between data\ncollection groups more intuitive and found explicit inclusion of omitted data\ncollection groups more salient. However, some users expressed skepticism\nregarding elided information about collected data type categories. Most users\nmissed critical information due to not expanding the accordion interface, and\nthey were surprised by collection practices excluded from Android's\ndefinitions. Our findings also revealed that Android users generally\nappreciated information about security practices included in the labels, and\niOS users wanted that information added.",
+    "updated" : "2024-01-06T14:45:36Z",
+    "published" : "2023-12-06T21:32:32Z",
+    "authors" : [
+      {
+        "name" : "Yanzi Lin"
+      },
+      {
+        "name" : "Jaideep Juneja"
+      },
+      {
+        "name" : "Eleanor Birrell"
+      },
+      {
+        "name" : "Lorrie Faith Cranor"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
   }
 ]
