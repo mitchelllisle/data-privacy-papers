@@ -254,5 +254,186 @@
       "cs.DC",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.04076v1",
+    "title" : "Security and Privacy Issues in Cloud Storage",
+    "summary" : "Even with the vast potential that cloud computing has, so far, it has not\nbeen adopted by the consumers with the enthusiasm and pace that it be worthy;\nthis is a very reason statement why consumers still hesitated of using cloud\ncomputing for their sensitive data and the threats that prevent the consumers\nfrom shifting to use cloud computing in general and cloud storage in\nparticular. The cloud computing inherits the traditional potential security and\nprivacy threats besides its own issues due to its unique structures. Some\nthreats related to cloud computing are the insider malicious attacks from the\nemployees that even sometime the provider unconscious about, the lack of\ntransparency of agreement between consumer and provider, data loss, traffic\nhijacking, shared technology and insecure application interface. Such threats\nneed remedies to make the consumer use its features in secure way. In this\nreview, we spot the light on the most security and privacy issues which can be\nattributed as gaps that sometimes the consumers or even the enterprises are not\naware of. We also define the parties that involve in scenario of cloud\ncomputing that also may attack the entire cloud systems. We also show the\nconsequences of these threats.",
+    "updated" : "2024-01-08T18:27:57Z",
+    "published" : "2024-01-08T18:27:57Z",
+    "authors" : [
+      {
+        "name" : "Norah Asiri"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.NI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.03883v1",
+    "title" : "The Impact of Differential Privacy on Recommendation Accuracy and\n  Popularity Bias",
+    "summary" : "Collaborative filtering-based recommender systems leverage vast amounts of\nbehavioral user data, which poses severe privacy risks. Thus, often, random\nnoise is added to the data to ensure Differential Privacy (DP). However, to\ndate, it is not well understood, in which ways this impacts personalized\nrecommendations. In this work, we study how DP impacts recommendation accuracy\nand popularity bias, when applied to the training data of state-of-the-art\nrecommendation models. Our findings are three-fold: First, we find that nearly\nall users' recommendations change when DP is applied. Second, recommendation\naccuracy drops substantially while recommended item popularity experiences a\nsharp increase, suggesting that popularity bias worsens. Third, we find that DP\nexacerbates popularity bias more severely for users who prefer unpopular items\nthan for users that prefer popular items.",
+    "updated" : "2024-01-08T13:31:02Z",
+    "published" : "2024-01-08T13:31:02Z",
+    "authors" : [
+      {
+        "name" : "Peter Müllner"
+      },
+      {
+        "name" : "Elisabeth Lex"
+      },
+      {
+        "name" : "Markus Schedl"
+      },
+      {
+        "name" : "Dominik Kowald"
+      }
+    ],
+    "categories" : [
+      "cs.IR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.03552v1",
+    "title" : "Privacy-Preserving in Blockchain-based Federated Learning Systems",
+    "summary" : "Federated Learning (FL) has recently arisen as a revolutionary approach to\ncollaborative training Machine Learning models. According to this novel\nframework, multiple participants train a global model collaboratively,\ncoordinating with a central aggregator without sharing their local data. As FL\ngains popularity in diverse domains, security, and privacy concerns arise due\nto the distributed nature of this solution. Therefore, integrating this\nstrategy with Blockchain technology has been consolidated as a preferred choice\nto ensure the privacy and security of participants.\n  This paper explores the research efforts carried out by the scientific\ncommunity to define privacy solutions in scenarios adopting Blockchain-Enabled\nFL. It comprehensively summarizes the background related to FL and Blockchain,\nevaluates existing architectures for their integration, and the primary attacks\nand possible countermeasures to guarantee privacy in this setting. Finally, it\nreviews the main application scenarios where Blockchain-Enabled FL approaches\nhave been proficiently applied. This survey can help academia and industry\npractitioners understand which theories and techniques exist to improve the\nperformance of FL through Blockchain to preserve privacy and which are the main\nchallenges and future directions in this novel and still under-explored\ncontext. We believe this work provides a novel contribution respect to the\nprevious surveys and is a valuable tool to explore the current landscape,\nunderstand perspectives, and pave the way for advancements or improvements in\nthis amalgamation of Blockchain and Federated Learning.",
+    "updated" : "2024-01-07T17:23:55Z",
+    "published" : "2024-01-07T17:23:55Z",
+    "authors" : [
+      {
+        "name" : "Sameera K. M."
+      },
+      {
+        "name" : "Serena Nicolazzo"
+      },
+      {
+        "name" : "Marco Arazzi"
+      },
+      {
+        "name" : "Antonino Nocera"
+      },
+      {
+        "name" : "Rafidha Rehiman K. A."
+      },
+      {
+        "name" : "Vinod P"
+      },
+      {
+        "name" : "Mauro Conti"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.03218v1",
+    "title" : "MiniScope: Automated UI Exploration and Privacy Inconsistency Detection\n  of MiniApps via Two-phase Iterative Hybrid Analysis",
+    "summary" : "The advent of MiniApps, operating within larger SuperApps, has revolutionized\nuser experiences by offering a wide range of services without the need for\nindividual app downloads. However, this convenience has raised significant\nprivacy concerns, as these MiniApps often require access to sensitive data,\npotentially leading to privacy violations. Our research addresses the critical\ngaps in the analysis of MiniApps' privacy practices, especially focusing on\nWeChat MiniApps in the Android ecosystem. Despite existing privacy regulations\nand platform guidelines, there is a lack of effective mechanisms to safeguard\nuser privacy fully. We introduce MiniScope, a novel two-phase hybrid analysis\napproach, specifically designed for the MiniApp environment. This approach\novercomes the limitations of existing static analysis techniques by\nincorporating dynamic UI exploration for complete code coverage and accurate\nprivacy practice identification. Our methodology includes modeling UI\ntransition states, resolving cross-package callback control flows, and\nautomated iterative UI exploration. This allows for a comprehensive\nunderstanding of MiniApps' privacy practices, addressing the unique challenges\nof sub-package loading and event-driven callbacks. Our empirical evaluation of\nover 120K MiniApps using MiniScope demonstrates its effectiveness in\nidentifying privacy inconsistencies. The results reveal significant issues,\nwith 5.7% of MiniApps over-collecting private data and 33.4% overclaiming data\ncollection. These findings emphasize the urgent need for more precise privacy\nmonitoring systems and highlight the responsibility of SuperApp operators to\nenforce stricter privacy measures.",
+    "updated" : "2024-01-06T13:54:36Z",
+    "published" : "2024-01-06T13:54:36Z",
+    "authors" : [
+      {
+        "name" : "Shenao Wang"
+      },
+      {
+        "name" : "Yuekang Li"
+      },
+      {
+        "name" : "Kailong Wang"
+      },
+      {
+        "name" : "Yi Liu"
+      },
+      {
+        "name" : "Chao Wang"
+      },
+      {
+        "name" : "Yanjie Zhao"
+      },
+      {
+        "name" : "Gelei Deng"
+      },
+      {
+        "name" : "Ling Shi"
+      },
+      {
+        "name" : "Hui Li"
+      },
+      {
+        "name" : "Yang Liu"
+      },
+      {
+        "name" : "Haoyu Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.SE"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.01204v2",
+    "title" : "PPBFL: A Privacy Protected Blockchain-based Federated Learning Model",
+    "summary" : "With the rapid development of machine learning and a growing concern for data\nprivacy, federated learning has become a focal point of attention. However,\nattacks on model parameters and a lack of incentive mechanisms hinder the\neffectiveness of federated learning. Therefore, we propose A Privacy Protected\nBlockchain-based Federated Learning Model (PPBFL) to enhance the security of\nfederated learning and encourage active participation of nodes in model\ntraining. Blockchain technology ensures the integrity of model parameters\nstored in the InterPlanetary File System (IPFS), providing protection against\ntampering. Within the blockchain, we introduce a Proof of Training Work (PoTW)\nconsensus algorithm tailored for federated learning, aiming to incentive\ntraining nodes. This algorithm rewards nodes with greater computational power,\npromoting increased participation and effort in the federated learning process.\nA novel adaptive differential privacy algorithm is simultaneously applied to\nlocal and global models. This safeguards the privacy of local data at training\nclients, preventing malicious nodes from launching inference attacks.\nAdditionally, it enhances the security of the global model, preventing\npotential security degradation resulting from the combination of numerous local\nmodels. The possibility of security degradation is derived from the composition\ntheorem. By introducing reverse noise in the global model, a zero-bias estimate\nof differential privacy noise between local and global models is achieved.\nFurthermore, we propose a new mix transactions mechanism utilizing ring\nsignature technology to better protect the identity privacy of local training\nclients. Security analysis and experimental results demonstrate that PPBFL,\ncompared to baseline methods, not only exhibits superior model performance but\nalso achieves higher security.",
+    "updated" : "2024-01-08T15:38:22Z",
+    "published" : "2024-01-02T13:13:28Z",
+    "authors" : [
+      {
+        "name" : "Yang Li"
+      },
+      {
+        "name" : "Chunhe Xia"
+      },
+      {
+        "name" : "Wanshuang Lin"
+      },
+      {
+        "name" : "Tianbo Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.00793v2",
+    "title" : "SecFormer: Towards Fast and Accurate Privacy-Preserving Inference for\n  Large Language Models",
+    "summary" : "With the growing use of large language models hosted on cloud platforms to\noffer inference services, privacy concerns are escalating, especially\nconcerning sensitive data like investment plans and bank account details.\nSecure Multi-Party Computing (SMPC) emerges as a promising solution to protect\nthe privacy of inference data and model parameters. However, the application of\nSMPC in Privacy-Preserving Inference (PPI) for large language models,\nparticularly those based on the Transformer architecture, often leads to\nconsiderable slowdowns or declines in performance. This is largely due to the\nmultitude of nonlinear operations in the Transformer architecture, which are\nnot well-suited to SMPC and difficult to circumvent or optimize effectively. To\naddress this concern, we introduce an advanced optimization framework called\nSecFormer, to achieve fast and accurate PPI for Transformer models. By\nimplementing model design optimization, we successfully eliminate the high-cost\nexponential and maximum operations in PPI without sacrificing model\nperformance. Additionally, we have developed a suite of efficient SMPC\nprotocols that utilize segmented polynomials, Fourier series and Goldschmidt's\nmethod to handle other complex nonlinear functions within PPI, such as GeLU,\nLayerNorm, and Softmax. Our extensive experiments reveal that SecFormer\noutperforms MPCFormer in performance, showing improvements of $5.6\\%$ and\n$24.2\\%$ for BERT$_{\\text{BASE}}$ and BERT$_{\\text{LARGE}}$, respectively. In\nterms of efficiency, SecFormer is 3.56 and 3.58 times faster than Puma for\nBERT$_{\\text{BASE}}$ and BERT$_{\\text{LARGE}}$, demonstrating its effectiveness\nand speed.",
+    "updated" : "2024-01-06T10:05:23Z",
+    "published" : "2024-01-01T15:40:35Z",
+    "authors" : [
+      {
+        "name" : "Jinglong Luo"
+      },
+      {
+        "name" : "Yehong Zhang"
+      },
+      {
+        "name" : "Jiaqi Zhang"
+      },
+      {
+        "name" : "Xin Mu"
+      },
+      {
+        "name" : "Hui Wang"
+      },
+      {
+        "name" : "Yue Yu"
+      },
+      {
+        "name" : "Zenglin Xu"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CL",
+      "cs.CR"
+    ]
   }
 ]
