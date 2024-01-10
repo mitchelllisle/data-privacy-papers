@@ -2,6 +2,73 @@
 <h2>2024-01</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2401.04423v1">Privacy-Preserving Sequential Recommendation with Collaborative
+  Confusion</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB">
+  <p><b>Published on:</b> 2024-01-09T08:30:50Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Wei Wang, Yujie Lin, Pengjie Ren, Zhumin Chen, Tsunenori Mine, Jianli Zhao, Qiang Zhao, Moyan Zhang, Xianye Ben, Yujun Li</p>
+    <p><b>Summary:</b> Sequential recommendation has attracted a lot of attention from both academia
+and industry, however the privacy risks associated to gathering and
+transferring users' personal interaction data are often underestimated or
+ignored. Existing privacy-preserving studies are mainly applied to traditional
+collaborative filtering or matrix factorization rather than sequential
+recommendation. Moreover, these studies are mostly based on differential
+privacy or federated learning, which often leads to significant performance
+degradation, or has high requirements for communication. In this work, we
+address privacy-preserving from a different perspective. Unlike existing
+research, we capture collaborative signals of neighbor interaction sequences
+and directly inject indistinguishable items into the target sequence before the
+recommendation process begins, thereby increasing the perplexity of the target
+sequence. Even if the target interaction sequence is obtained by attackers, it
+is difficult to discern which ones are the actual user interaction records. To
+achieve this goal, we propose a CoLlaborative-cOnfusion seqUential recommenDer,
+namely CLOUD, which incorporates a collaborative confusion mechanism to edit
+the raw interaction sequences before conducting recommendation. Specifically,
+CLOUD first calculates the similarity between the target interaction sequence
+and other neighbor sequences to find similar sequences. Then, CLOUD considers
+the shared representation of the target sequence and similar sequences to
+determine the operation to be performed: keep, delete, or insert. We design a
+copy mechanism to make items from similar sequences have a higher probability
+to be inserted into the target sequence. Finally, the modified sequence is used
+to train the recommender and predict the next item.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2401.04306v1">Renyi Differential Privacy in the Shuffle Model: Enhanced Amplification
+  Bounds</a></h3>
+  
+  <p><b>Published on:</b> 2024-01-09T01:47:46Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> E Chen, Yang Cao, Yifei Ge</p>
+    <p><b>Summary:</b> The shuffle model of Differential Privacy (DP) has gained significant
+attention in privacy-preserving data analysis due to its remarkable tradeoff
+between privacy and utility. It is characterized by adding a shuffling
+procedure after each user's locally differentially private perturbation, which
+leads to a privacy amplification effect, meaning that the privacy guarantee of
+a small level of noise, say $\epsilon_0$, can be enhanced to
+$O(\epsilon_0/\sqrt{n})$ (the smaller, the more private) after shuffling all
+$n$ users' perturbed data. Most studies in the shuffle DP focus on proving a
+tighter privacy guarantee of privacy amplification. However, the current
+results assume that the local privacy budget $\epsilon_0$ is within a limited
+range. In addition, there remains a gap between the tightest lower bound and
+the known upper bound of the privacy amplification. In this work, we push
+forward the state-of-the-art by making the following contributions. Firstly, we
+present the first asymptotically optimal analysis of Renyi Differential Privacy
+(RDP) in the shuffle model without constraints on $\epsilon_0$. Secondly, we
+introduce hypothesis testing for privacy amplification through shuffling,
+offering a distinct analysis technique and a tighter upper bound. Furthermore,
+we propose a DP-SGD algorithm based on RDP. Experiments demonstrate that our
+approach outperforms existing methods significantly at the same privacy level.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2401.04076v1">Security and Privacy Issues in Cloud Storage</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
   <p><b>Published on:</b> 2024-01-08T18:27:57Z</p>
@@ -2954,60 +3021,6 @@ things. As demonstrated by numerical evaluations, zkDFL introduces
 verifiability of correctness of aggregation process and enhances the privacy
 protection and scalability of DFL systems, while the gas cost has declined
 significantly.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2312.00645v2">Hashmarks: Privacy-Preserving Benchmarks for High-Stakes AI Evaluation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
-  <p><b>Published on:</b> 2023-12-01T15:16:00Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Paul Bricman</p>
-    <p><b>Summary:</b> There is a growing need to gain insight into language model capabilities that
-relate to sensitive topics, such as bioterrorism or cyberwarfare. However,
-traditional open source benchmarks are not fit for the task, due to the
-associated practice of publishing the correct answers in human-readable form.
-At the same time, enforcing mandatory closed-quarters evaluations might stifle
-development and erode trust. In this context, we propose hashmarking, a
-protocol for evaluating language models in the open without having to disclose
-the correct answers. In its simplest form, a hashmark is a benchmark whose
-reference solutions have been cryptographically hashed prior to publication.
-Following an overview of the proposed evaluation protocol, we go on to assess
-its resilience against traditional attack vectors (e.g. rainbow table attacks),
-as well as against failure modes unique to increasingly capable generative
-models.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2312.00519v1">The Impact of Privacy and Security Attitudes and Concerns of Travellers
-  on Their Willingness to Use Mobility-as-a-Service Systems</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2023-12-01T11:51:43Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Maria Sophia Heering, Haiyue Yuan, Shujun Li</p>
-    <p><b>Summary:</b> This paper reports results from an online survey on the impact of travellers'
-privacy and security attitudes and concerns on their willingness to use
-mobility-as-a-service (MaaS) systems. This study is part of a larger project
-that aims at investigating barriers to potential MaaS uptake. The online survey
-was designed to cover data privacy and security attitudes and concerns as well
-as a variety of socio-psychological and socio-demographic variables associated
-with travellers' intentions to use MaaS systems. The study involved $n=320$ UK
-participants recruited via the Prolific survey platform. Overall, correlation
-analysis and a multiple regression model indicated that, neither attitudes nor
-concerns of participants over the privacy and security of personal data would
-significantly impact their decisions to use MaaS systems, which was an
-unexpected result, however, their trust in (commercial and governmental)
-websites would. Another surprising result is that, having been a victim of
-improper invasion of privacy did not appear to affect individuals' intentions
-to use MaaS systems, whereas frequency with which one heard about misuse of
-personal data did. Implications of the results and future directions are also
-discussed, e.g., MaaS providers are encouraged to work on improving the
-trustworthiness of their corporate image.</p>
   </details>
 </div>
 
