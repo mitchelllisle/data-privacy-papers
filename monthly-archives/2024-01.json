@@ -435,5 +435,68 @@
       "cs.CL",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.04423v1",
+    "title" : "Privacy-Preserving Sequential Recommendation with Collaborative\n  Confusion",
+    "summary" : "Sequential recommendation has attracted a lot of attention from both academia\nand industry, however the privacy risks associated to gathering and\ntransferring users' personal interaction data are often underestimated or\nignored. Existing privacy-preserving studies are mainly applied to traditional\ncollaborative filtering or matrix factorization rather than sequential\nrecommendation. Moreover, these studies are mostly based on differential\nprivacy or federated learning, which often leads to significant performance\ndegradation, or has high requirements for communication. In this work, we\naddress privacy-preserving from a different perspective. Unlike existing\nresearch, we capture collaborative signals of neighbor interaction sequences\nand directly inject indistinguishable items into the target sequence before the\nrecommendation process begins, thereby increasing the perplexity of the target\nsequence. Even if the target interaction sequence is obtained by attackers, it\nis difficult to discern which ones are the actual user interaction records. To\nachieve this goal, we propose a CoLlaborative-cOnfusion seqUential recommenDer,\nnamely CLOUD, which incorporates a collaborative confusion mechanism to edit\nthe raw interaction sequences before conducting recommendation. Specifically,\nCLOUD first calculates the similarity between the target interaction sequence\nand other neighbor sequences to find similar sequences. Then, CLOUD considers\nthe shared representation of the target sequence and similar sequences to\ndetermine the operation to be performed: keep, delete, or insert. We design a\ncopy mechanism to make items from similar sequences have a higher probability\nto be inserted into the target sequence. Finally, the modified sequence is used\nto train the recommender and predict the next item.",
+    "updated" : "2024-01-09T08:30:50Z",
+    "published" : "2024-01-09T08:30:50Z",
+    "authors" : [
+      {
+        "name" : "Wei Wang"
+      },
+      {
+        "name" : "Yujie Lin"
+      },
+      {
+        "name" : "Pengjie Ren"
+      },
+      {
+        "name" : "Zhumin Chen"
+      },
+      {
+        "name" : "Tsunenori Mine"
+      },
+      {
+        "name" : "Jianli Zhao"
+      },
+      {
+        "name" : "Qiang Zhao"
+      },
+      {
+        "name" : "Moyan Zhang"
+      },
+      {
+        "name" : "Xianye Ben"
+      },
+      {
+        "name" : "Yujun Li"
+      }
+    ],
+    "categories" : [
+      "cs.IR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.04306v1",
+    "title" : "Renyi Differential Privacy in the Shuffle Model: Enhanced Amplification\n  Bounds",
+    "summary" : "The shuffle model of Differential Privacy (DP) has gained significant\nattention in privacy-preserving data analysis due to its remarkable tradeoff\nbetween privacy and utility. It is characterized by adding a shuffling\nprocedure after each user's locally differentially private perturbation, which\nleads to a privacy amplification effect, meaning that the privacy guarantee of\na small level of noise, say $\\epsilon_0$, can be enhanced to\n$O(\\epsilon_0/\\sqrt{n})$ (the smaller, the more private) after shuffling all\n$n$ users' perturbed data. Most studies in the shuffle DP focus on proving a\ntighter privacy guarantee of privacy amplification. However, the current\nresults assume that the local privacy budget $\\epsilon_0$ is within a limited\nrange. In addition, there remains a gap between the tightest lower bound and\nthe known upper bound of the privacy amplification. In this work, we push\nforward the state-of-the-art by making the following contributions. Firstly, we\npresent the first asymptotically optimal analysis of Renyi Differential Privacy\n(RDP) in the shuffle model without constraints on $\\epsilon_0$. Secondly, we\nintroduce hypothesis testing for privacy amplification through shuffling,\noffering a distinct analysis technique and a tighter upper bound. Furthermore,\nwe propose a DP-SGD algorithm based on RDP. Experiments demonstrate that our\napproach outperforms existing methods significantly at the same privacy level.",
+    "updated" : "2024-01-09T01:47:46Z",
+    "published" : "2024-01-09T01:47:46Z",
+    "authors" : [
+      {
+        "name" : "E Chen"
+      },
+      {
+        "name" : "Yang Cao"
+      },
+      {
+        "name" : "Yifei Ge"
+      }
+    ],
+    "categories" : [
+      "math.CO"
+    ]
   }
 ]
