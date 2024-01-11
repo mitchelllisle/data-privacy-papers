@@ -498,5 +498,27 @@
     "categories" : [
       "math.CO"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.05126v1",
+    "title" : "Efficient Fine-Tuning with Domain Adaptation for Privacy-Preserving\n  Vision Transformer",
+    "summary" : "We propose a novel method for privacy-preserving deep neural networks (DNNs)\nwith the Vision Transformer (ViT). The method allows us not only to train\nmodels and test with visually protected images but to also avoid the\nperformance degradation caused from the use of encrypted images, whereas\nconventional methods cannot avoid the influence of image encryption. A domain\nadaptation method is used to efficiently fine-tune ViT with encrypted images.\nIn experiments, the method is demonstrated to outperform conventional methods\nin an image classification task on the CIFAR-10 and ImageNet datasets in terms\nof classification accuracy.",
+    "updated" : "2024-01-10T12:46:31Z",
+    "published" : "2024-01-10T12:46:31Z",
+    "authors" : [
+      {
+        "name" : "Teru Nagamori"
+      },
+      {
+        "name" : "Sayaka Shiota"
+      },
+      {
+        "name" : "Hitoshi Kiya"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.LG"
+    ]
   }
 ]
