@@ -2301,5 +2301,23 @@
     "categories" : [
       "cs.HC"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.01353v2",
+    "title" : "The Boomerang protocol: A Decentralised Privacy-Preserving Verifiable\n  Incentive Protocol",
+    "summary" : "In the era of data-driven economies, incentive systems and loyalty programs,\nhave become ubiquitous in various sectors, including advertising, retail,\ntravel, and financial services. While these systems offer advantages for both\nusers and companies, they necessitate the transfer and analysis of substantial\namounts of sensitive data. Privacy concerns have become increasingly pertinent,\nnecessitating the development of privacy-preserving incentive protocols.\nDespite the rising demand for secure and decentralized systems, the existing\nlandscape lacks a comprehensive solution. We propose the Boomerang protocol, a\nnovel decentralized privacy-preserving incentive protocol that leverages\ncryptographic black box accumulators to securely store user interactions within\nthe incentive system. Moreover, the protocol employs zero-knowledge proofs\nbased on BulletProofs to transparently compute rewards for users, ensuring\nverifiability while preserving their privacy. To further enhance public\nverifiability and transparency, we utilize a smart contract on a Layer 1\nblockchain to verify these zero-knowledge proofs. The careful combination of\nblack box accumulators with selected elliptic curves in the zero-knowledge\nproofs makes the Boomerang protocol highly efficient. Our proof of concept\nimplementation shows that we can handle up to 23.6 million users per day, on a\nsingle-threaded backend server with financial costs of approximately 2 USD.\nUsing the Solana blockchain we can handle 15.5 million users per day with\napproximate costs of 0.00011 USD per user. The Boomerang protocol represents a\nsignificant advancement in privacy-preserving incentive protocols, laying the\ngroundwork for a more secure and privacy-centric future.",
+    "updated" : "2024-01-09T17:27:33Z",
+    "published" : "2023-12-06T09:37:45Z",
+    "authors" : [
+      {
+        "name" : "Ralph Ankele"
+      },
+      {
+        "name" : "Hamed Haddadi"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
