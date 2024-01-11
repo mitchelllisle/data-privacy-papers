@@ -2,6 +2,27 @@
 <h2>2024-01</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2401.05126v1">Efficient Fine-Tuning with Domain Adaptation for Privacy-Preserving
+  Vision Transformer</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-01-10T12:46:31Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Teru Nagamori, Sayaka Shiota, Hitoshi Kiya</p>
+    <p><b>Summary:</b> We propose a novel method for privacy-preserving deep neural networks (DNNs)
+with the Vision Transformer (ViT). The method allows us not only to train
+models and test with visually protected images but to also avoid the
+performance degradation caused from the use of encrypted images, whereas
+conventional methods cannot avoid the influence of image encryption. A domain
+adaptation method is used to efficiently fine-tune ViT with encrypted images.
+In experiments, the method is demonstrated to outperform conventional methods
+in an image classification task on the CIFAR-10 and ImageNet datasets in terms
+of classification accuracy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2401.04423v1">Privacy-Preserving Sequential Recommendation with Collaborative
   Confusion</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB">
@@ -2497,7 +2518,7 @@ iOS users wanted that information added.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2401.01353v1">The Boomerang protocol: A Decentralised Privacy-Preserving Verifiable
+  <h3><a href="http://arxiv.org/abs/2401.01353v2">The Boomerang protocol: A Decentralised Privacy-Preserving Verifiable
   Incentive Protocol</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2023-12-06T09:37:45Z</p>
@@ -2510,21 +2531,21 @@ travel, and financial services. While these systems offer advantages for both
 users and companies, they necessitate the transfer and analysis of substantial
 amounts of sensitive data. Privacy concerns have become increasingly pertinent,
 necessitating the development of privacy-preserving incentive protocols.
-Despite the rising demand for secure and decentralised systems, the existing
+Despite the rising demand for secure and decentralized systems, the existing
 landscape lacks a comprehensive solution. We propose the Boomerang protocol, a
-novel decentralised privacy-preserving incentive protocol that leverages
+novel decentralized privacy-preserving incentive protocol that leverages
 cryptographic black box accumulators to securely store user interactions within
 the incentive system. Moreover, the protocol employs zero-knowledge proofs
 based on BulletProofs to transparently compute rewards for users, ensuring
 verifiability while preserving their privacy. To further enhance public
-verifiability and transparency, we utilise a smart contract on a Layer 1
+verifiability and transparency, we utilize a smart contract on a Layer 1
 blockchain to verify these zero-knowledge proofs. The careful combination of
 black box accumulators with selected elliptic curves in the zero-knowledge
 proofs makes the Boomerang protocol highly efficient. Our proof of concept
 implementation shows that we can handle up to 23.6 million users per day, on a
-single-threaded backend server with financial costs of approximately 2 US$.
+single-threaded backend server with financial costs of approximately 2 USD.
 Using the Solana blockchain we can handle 15.5 million users per day with
-approximate costs of 0.00011 US$ per user. The Boomerang protocol represents a
+approximate costs of 0.00011 USD per user. The Boomerang protocol represents a
 significant advancement in privacy-preserving incentive protocols, laying the
 groundwork for a more secure and privacy-centric future.</p>
   </details>
@@ -2991,36 +3012,6 @@ eavesdroppers, is analyzed through a series of cryptographic games. It is shown
 that the probability that any probabilistic polynomial time adversary
 successfully estimates the sensors' measured types can not be much better than
 independent guessing, when there are at least two non-colluding sensors.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2312.04579v1">zkFDL: An efficient and privacy-preserving decentralized federated
-  learning with zero knowledge proof</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2023-12-01T17:00:30Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mojtaba Ahmadi, Reza Nourmohammadi</p>
-    <p><b>Summary:</b> Federated leaning (FL) has been frequently used in various field of studies
-and businesses. Traditional centralized FL systems suffer from serious issues.
-To address these concerns, decentralized federated learning (DFL) systems have
-been introduced in recent years in which with the help of blockchains, try to
-achieve more integrity and efficiency. On the other hand, privacy-preserving is
-an uncovered part of these systems. To address this, and also scaling the
-blockchain-based computations, we propose a zero knowledge proof (ZKP) based
-aggregator (zkDFL) that allows clients to share their large-scale model
-parameters with a trusted centralized server without revealing their individual
-data to other clients. We utilize blockchain technology to manage the
-aggregation algorithm via smart contracts. The server performs a ZKP algorithm
-to prove to the clients that the aggregation is done according to the accepted
-algorithm. The server can also prove that all inputs of clients have been used.
-We evaluate our measure through a public dataset about wearable internet of
-things. As demonstrated by numerical evaluations, zkDFL introduces
-verifiability of correctness of aggregation process and enhances the privacy
-protection and scalability of DFL systems, while the gas cost has declined
-significantly.</p>
   </details>
 </div>
 
