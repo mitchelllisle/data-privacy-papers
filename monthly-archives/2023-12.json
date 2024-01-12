@@ -2319,5 +2319,29 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2312.05720v2",
+    "title" : "Beyond Gradient and Priors in Privacy Attacks: Leveraging Pooler Layer\n  Inputs of Language Models in Federated Learning",
+    "summary" : "Federated learning (FL) emphasizes decentralized training by storing data\nlocally and sending only model updates, underlining user privacy. Recently, a\nline of works on privacy attacks impairs user privacy by extracting sensitive\ntraining text from language models in the context of FL. Yet, these attack\ntechniques face distinct hurdles: some work chiefly with limited batch sizes\n(e.g., batch size of 1), and others are easily detectable. This paper\nintroduces an innovative approach that is challenging to detect, significantly\nenhancing the recovery rate of text in various batch-size settings. Building on\nfundamental gradient matching and domain prior knowledge, we enhance the attack\nby recovering the input of the Pooler layer of language models, which enables\nus to provide additional supervised signals at the feature level. Unlike\ngradient data, these signals do not average across sentences and tokens,\nthereby offering more nuanced and effective insights. We benchmark our method\nusing text classification tasks on datasets such as CoLA, SST-2, and Rotten\nTomatoes. Across different batch sizes and models, our approach consistently\noutperforms previous state-of-the-art results.",
+    "updated" : "2024-01-11T04:09:49Z",
+    "published" : "2023-12-10T01:19:59Z",
+    "authors" : [
+      {
+        "name" : "Jianwei Li"
+      },
+      {
+        "name" : "Sheng Liu"
+      },
+      {
+        "name" : "Qi Lei"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL",
+      "cs.CR"
+    ]
   }
 ]
