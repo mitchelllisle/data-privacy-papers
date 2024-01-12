@@ -2,6 +2,72 @@
 <h2>2024-01</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2401.05835v1">Privacy Analysis of Affine Transformations in Cloud-based MPC:
+  Vulnerability to Side-knowledge</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
+  <p><b>Published on:</b> 2024-01-11T11:08:20Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Teimour Hosseinalizadeh, Nils Schlüter, Moritz Schulze Darup, Nima Monshizadeh</p>
+    <p><b>Summary:</b> Search for the optimizer in computationally demanding model predictive
+control (MPC) setups can be facilitated by Cloud as a service provider in
+cyber-physical systems. This advantage introduces the risk that Cloud can
+obtain unauthorized access to the privacy-sensitive parameters of the system
+and cost function. To solve this issue, i.e., preventing Cloud from accessing
+the parameters while benefiting from Cloud computation, random affine
+transformations provide an exact yet light weight in computation solution. This
+research deals with analyzing privacy preserving properties of these
+transformations when they are adopted for MPC problems. We consider two common
+strategies for outsourcing the optimization required in MPC problems, namely
+separate and dense forms, and establish that random affine transformations
+utilized in these forms are vulnerable to side-knowledge from Cloud.
+Specifically, we prove that the privacy guarantees of these methods and their
+extensions for separate form are undermined when a mild side-knowledge about
+the problem in terms of structure of MPC cost function is available. In
+addition, while we prove that outsourcing the MPC problem in the dense form
+inherently leads to some degree of privacy for the system and cost function
+parameters, we also establish that affine transformations applied to this form
+are nevertheless prone to be undermined by a Cloud with mild side-knowledge.
+Numerical simulations confirm our results.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2401.05562v1">Brave: Byzantine-Resilient and Privacy-Preserving Peer-to-Peer Federated
+  Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
+  <p><b>Published on:</b> 2024-01-10T22:07:40Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zhangchen Xu, Fengqing Jiang, Luyao Niu, Jinyuan Jia, Radha Poovendran</p>
+    <p><b>Summary:</b> Federated learning (FL) enables multiple participants to train a global
+machine learning model without sharing their private training data.
+Peer-to-peer (P2P) FL advances existing centralized FL paradigms by eliminating
+the server that aggregates local models from participants and then updates the
+global model. However, P2P FL is vulnerable to (i) honest-but-curious
+participants whose objective is to infer private training data of other
+participants, and (ii) Byzantine participants who can transmit arbitrarily
+manipulated local models to corrupt the learning process. P2P FL schemes that
+simultaneously guarantee Byzantine resilience and preserve privacy have been
+less studied. In this paper, we develop Brave, a protocol that ensures
+Byzantine Resilience And privacy-preserving property for P2P FL in the presence
+of both types of adversaries. We show that Brave preserves privacy by
+establishing that any honest-but-curious adversary cannot infer other
+participants' private data by observing their models. We further prove that
+Brave is Byzantine-resilient, which guarantees that all benign participants
+converge to an identical model that deviates from a global model trained
+without Byzantine adversaries by a bounded distance. We evaluate Brave against
+three state-of-the-art adversaries on a P2P FL for image classification tasks
+on benchmark datasets CIFAR10 and MNIST. Our results show that the global model
+learned with Brave in the presence of adversaries achieves comparable
+classification accuracy to a global model trained in the absence of any
+adversary.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2401.05126v1">Efficient Fine-Tuning with Domain Adaptation for Privacy-Preserving
   Vision Transformer</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
@@ -2103,7 +2169,7 @@ at https://github.com/safr-ml-lab/survey-llm.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2312.05720v1">Beyond Gradient and Priors in Privacy Attacks: Leveraging Pooler Layer
+  <h3><a href="http://arxiv.org/abs/2312.05720v2">Beyond Gradient and Priors in Privacy Attacks: Leveraging Pooler Layer
   Inputs of Language Models in Federated Learning</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2023-12-10T01:19:59Z</p>
@@ -2955,63 +3021,6 @@ extensive experiments on two benchmark datasets, and PROFL improved accuracy by
 39% to 75% across different attack settings compared to similar
 privacy-preserving robust methods, demonstrating its significant advantage in
 robustness.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2312.00989v1">Scrappy: SeCure Rate Assuring Protocol with PrivacY</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2023-12-02T01:07:49Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Kosei Akama, Yoshimichi Nakatsuka, Masaaki Sato, Keisuke Uehara</p>
-    <p><b>Summary:</b> Preventing abusive activities caused by adversaries accessing online services
-at a rate exceeding that expected by websites has become an ever-increasing
-problem. CAPTCHAs and SMS authentication are widely used to provide a solution
-by implementing rate limiting, although they are becoming less effective, and
-some are considered privacy-invasive. In light of this, many studies have
-proposed better rate-limiting systems that protect the privacy of legitimate
-users while blocking malicious actors. However, they suffer from one or more
-shortcomings: (1) assume trust in the underlying hardware and (2) are
-vulnerable to side-channel attacks. Motivated by the aforementioned issues,
-this paper proposes Scrappy: SeCure Rate Assuring Protocol with PrivacY.
-Scrappy allows clients to generate unforgeable yet unlinkable rate-assuring
-proofs, which provides the server with cryptographic guarantees that the client
-is not misbehaving. We design Scrappy using a combination of DAA and hardware
-security devices. Scrappy is implemented over three types of devices, including
-one that can immediately be deployed in the real world. Our baseline evaluation
-shows that the end-to-end latency of Scrappy is minimal, taking only 0.32
-seconds, and uses only 679 bytes of bandwidth when transferring necessary data.
-We also conduct an extensive security evaluation, showing that the
-rate-limiting capability of Scrappy is unaffected even if the hardware security
-device is compromised.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2312.00933v1">Privacy Preserving Event Detection</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
-  <p><b>Published on:</b> 2023-12-01T21:25:00Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Xiaoshan Wang, Tan F. Wong</p>
-    <p><b>Summary:</b> This paper presents a privacy-preserving event detection scheme based on
-measurements made by a network of sensors. A diameter-like decision statistic
-made up of the marginal types of the measurements observed by the sensors is
-employed. The proposed detection scheme can achieve the best type-I error
-exponent as the type-II error rate is required to be negligible. Detection
-performance with finite-length observations is also demonstrated through a
-simulation example of spectrum sensing. Privacy protection is achieved by
-obfuscating the type data with random zero-modulo-sum numbers that are
-generated and distributed via the exchange of encrypted messages among the
-sensors. The privacy-preserving performance against ``honest but curious''
-adversaries, including colluding sensors, the fusion center, and external
-eavesdroppers, is analyzed through a series of cryptographic games. It is shown
-that the probability that any probabilistic polynomial time adversary
-successfully estimates the sensors' measured types can not be much better than
-independent guessing, when there are at least two non-colluding sensors.</p>
   </details>
 </div>
 
