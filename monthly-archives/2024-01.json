@@ -520,5 +520,59 @@
       "cs.CV",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.05835v1",
+    "title" : "Privacy Analysis of Affine Transformations in Cloud-based MPC:\n  Vulnerability to Side-knowledge",
+    "summary" : "Search for the optimizer in computationally demanding model predictive\ncontrol (MPC) setups can be facilitated by Cloud as a service provider in\ncyber-physical systems. This advantage introduces the risk that Cloud can\nobtain unauthorized access to the privacy-sensitive parameters of the system\nand cost function. To solve this issue, i.e., preventing Cloud from accessing\nthe parameters while benefiting from Cloud computation, random affine\ntransformations provide an exact yet light weight in computation solution. This\nresearch deals with analyzing privacy preserving properties of these\ntransformations when they are adopted for MPC problems. We consider two common\nstrategies for outsourcing the optimization required in MPC problems, namely\nseparate and dense forms, and establish that random affine transformations\nutilized in these forms are vulnerable to side-knowledge from Cloud.\nSpecifically, we prove that the privacy guarantees of these methods and their\nextensions for separate form are undermined when a mild side-knowledge about\nthe problem in terms of structure of MPC cost function is available. In\naddition, while we prove that outsourcing the MPC problem in the dense form\ninherently leads to some degree of privacy for the system and cost function\nparameters, we also establish that affine transformations applied to this form\nare nevertheless prone to be undermined by a Cloud with mild side-knowledge.\nNumerical simulations confirm our results.",
+    "updated" : "2024-01-11T11:08:20Z",
+    "published" : "2024-01-11T11:08:20Z",
+    "authors" : [
+      {
+        "name" : "Teimour Hosseinalizadeh"
+      },
+      {
+        "name" : "Nils Schlüter"
+      },
+      {
+        "name" : "Moritz Schulze Darup"
+      },
+      {
+        "name" : "Nima Monshizadeh"
+      }
+    ],
+    "categories" : [
+      "eess.SY",
+      "cs.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.05562v1",
+    "title" : "Brave: Byzantine-Resilient and Privacy-Preserving Peer-to-Peer Federated\n  Learning",
+    "summary" : "Federated learning (FL) enables multiple participants to train a global\nmachine learning model without sharing their private training data.\nPeer-to-peer (P2P) FL advances existing centralized FL paradigms by eliminating\nthe server that aggregates local models from participants and then updates the\nglobal model. However, P2P FL is vulnerable to (i) honest-but-curious\nparticipants whose objective is to infer private training data of other\nparticipants, and (ii) Byzantine participants who can transmit arbitrarily\nmanipulated local models to corrupt the learning process. P2P FL schemes that\nsimultaneously guarantee Byzantine resilience and preserve privacy have been\nless studied. In this paper, we develop Brave, a protocol that ensures\nByzantine Resilience And privacy-preserving property for P2P FL in the presence\nof both types of adversaries. We show that Brave preserves privacy by\nestablishing that any honest-but-curious adversary cannot infer other\nparticipants' private data by observing their models. We further prove that\nBrave is Byzantine-resilient, which guarantees that all benign participants\nconverge to an identical model that deviates from a global model trained\nwithout Byzantine adversaries by a bounded distance. We evaluate Brave against\nthree state-of-the-art adversaries on a P2P FL for image classification tasks\non benchmark datasets CIFAR10 and MNIST. Our results show that the global model\nlearned with Brave in the presence of adversaries achieves comparable\nclassification accuracy to a global model trained in the absence of any\nadversary.",
+    "updated" : "2024-01-10T22:07:40Z",
+    "published" : "2024-01-10T22:07:40Z",
+    "authors" : [
+      {
+        "name" : "Zhangchen Xu"
+      },
+      {
+        "name" : "Fengqing Jiang"
+      },
+      {
+        "name" : "Luyao Niu"
+      },
+      {
+        "name" : "Jinyuan Jia"
+      },
+      {
+        "name" : "Radha Poovendran"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "cs.DC"
+    ]
   }
 ]
