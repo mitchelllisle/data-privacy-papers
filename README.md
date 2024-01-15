@@ -2,6 +2,55 @@
 <h2>2024-01</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2401.06657v1">Accelerating Tactile Internet with QUIC: A Security and Privacy
+  Perspective</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
+  <p><b>Published on:</b> 2024-01-12T16:05:13Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jayasree Sengupta, Debasmita Dey, Simone Ferlin, Nirnay Ghosh, Vaibhav Bajpai</p>
+    <p><b>Summary:</b> The Tactile Internet paradigm is set to revolutionize human society by
+enabling skill-set delivery and haptic communication over ultra-reliable,
+low-latency networks. The emerging sixth-generation (6G) mobile communication
+systems are envisioned to underpin this Tactile Internet ecosystem at the
+network edge by providing ubiquitous global connectivity. However, apart from a
+multitude of opportunities of the Tactile Internet, security and privacy
+challenges emerge at the forefront. We believe that the recently standardized
+QUIC protocol, characterized by end-to-end encryption and reduced round-trip
+delay would serve as the backbone of Tactile Internet. In this article, we
+envision a futuristic scenario where a QUIC-enabled network uses the underlying
+6G communication infrastructure to achieve the requirements for Tactile
+Internet. Interestingly this requires a deeper investigation of a wide range of
+security and privacy challenges in QUIC, that need to be mitigated for its
+adoption in Tactile Internet. Henceforth, this article reviews the existing
+security and privacy attacks in QUIC and their implication on users. Followed
+by that, we discuss state-of-the-art attack mitigation strategies and
+investigate some of their drawbacks with possible directions for future work</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2401.06601v1">A proposal to increase data utility on Global Differential Privacy data
+  based on data use predictions</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
+  <p><b>Published on:</b> 2024-01-12T14:34:30Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Henry C. Nunes, Marlon P. da Silva, Charles V. Neu, Avelino F. Zorzo</p>
+    <p><b>Summary:</b> This paper presents ongoing research focused on improving the utility of data
+protected by Global Differential Privacy(DP) in the scenario of summary
+statistics. Our approach is based on predictions on how an analyst will use
+statistics released under DP protection, so that a developer can optimise data
+utility on further usage of the data in the privacy budget allocation. This
+novel approach can potentially improve the utility of data without compromising
+privacy constraints. We also propose a metric that can be used by the developer
+to optimise the budget allocation process.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2401.05835v1">Privacy Analysis of Affine Transformations in Cloud-based MPC:
   Vulnerability to Side-knowledge</a></h3>
    <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
@@ -2959,68 +3008,6 @@ privacy levels. Our model, assessed with this new metric and supported by
 Gaussian matrix computations for the PAC bound, has shown superior performance
 in privacy protection over existing leading private generative models according
 to benchmark tests.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2312.01151v1">Here Is Not There: Measuring Entailment-Based Trajectory Similarity for
-  Location-Privacy Protection and Beyond</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Symbolic Computation-5BC0EB">
-  <p><b>Published on:</b> 2023-12-02T14:41:01Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zilong Liu, Krzysztof Janowicz, Kitty Currier, Meilin Shi, Jinmeng Rao, Song Gao, Ling Cai, Anita Graser</p>
-    <p><b>Summary:</b> While the paths humans take play out in social as well as physical space,
-measures to describe and compare their trajectories are carried out in
-abstract, typically Euclidean, space. When these measures are applied to
-trajectories of actual individuals in an application area, alterations that are
-inconsequential in abstract space may suddenly become problematic once overlaid
-with geographic reality. In this work, we present a different view on
-trajectory similarity by introducing a measure that utilizes logical
-entailment. This is an inferential perspective that considers facts as triple
-statements deduced from the social and environmental context in which the
-travel takes place, and their practical implications. We suggest a
-formalization of entailment-based trajectory similarity, measured as the
-overlapping proportion of facts, which are spatial relation statements in our
-case study. With the proposed measure, we evaluate LSTM-TrajGAN, a
-privacy-preserving trajectory-generation model. The entailment-based model
-evaluation reveals potential consequences of disregarding the rich structure of
-geographic space (e.g., miscalculated insurance risk due to regional shifts in
-our toy example). Our work highlights the advantage of applying logical
-entailment to trajectory-similarity reasoning for location-privacy protection
-and beyond.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2312.01045v1">PROFL: A Privacy-Preserving Federated Learning Method with Stringent
-  Defense Against Poisoning Attacks</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2023-12-02T06:34:37Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yisheng Zhong, Li-Ping Wang</p>
-    <p><b>Summary:</b> Federated Learning (FL) faces two major issues: privacy leakage and poisoning
-attacks, which may seriously undermine the reliability and security of the
-system. Overcoming them simultaneously poses a great challenge. This is because
-privacy protection policies prohibit access to users' local gradients to avoid
-privacy leakage, while Byzantine-robust methods necessitate access to these
-gradients to defend against poisoning attacks. To address these problems, we
-propose a novel privacy-preserving Byzantine-robust FL framework PROFL. PROFL
-is based on the two-trapdoor additional homomorphic encryption algorithm and
-blinding techniques to ensure the data privacy of the entire FL process. During
-the defense process, PROFL first utilize secure Multi-Krum algorithm to remove
-malicious gradients at the user level. Then, according to the Pauta criterion,
-we innovatively propose a statistic-based privacy-preserving defense algorithm
-to eliminate outlier interference at the feature level and resist impersonation
-poisoning attacks with stronger concealment. Detailed theoretical analysis
-proves the security and efficiency of the proposed method. We conducted
-extensive experiments on two benchmark datasets, and PROFL improved accuracy by
-39% to 75% across different attack settings compared to similar
-privacy-preserving robust methods, demonstrating its significant advantage in
-robustness.</p>
   </details>
 </div>
 
