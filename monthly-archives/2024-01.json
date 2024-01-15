@@ -574,5 +574,58 @@
       "cs.CR",
       "cs.DC"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.06657v1",
+    "title" : "Accelerating Tactile Internet with QUIC: A Security and Privacy\n  Perspective",
+    "summary" : "The Tactile Internet paradigm is set to revolutionize human society by\nenabling skill-set delivery and haptic communication over ultra-reliable,\nlow-latency networks. The emerging sixth-generation (6G) mobile communication\nsystems are envisioned to underpin this Tactile Internet ecosystem at the\nnetwork edge by providing ubiquitous global connectivity. However, apart from a\nmultitude of opportunities of the Tactile Internet, security and privacy\nchallenges emerge at the forefront. We believe that the recently standardized\nQUIC protocol, characterized by end-to-end encryption and reduced round-trip\ndelay would serve as the backbone of Tactile Internet. In this article, we\nenvision a futuristic scenario where a QUIC-enabled network uses the underlying\n6G communication infrastructure to achieve the requirements for Tactile\nInternet. Interestingly this requires a deeper investigation of a wide range of\nsecurity and privacy challenges in QUIC, that need to be mitigated for its\nadoption in Tactile Internet. Henceforth, this article reviews the existing\nsecurity and privacy attacks in QUIC and their implication on users. Followed\nby that, we discuss state-of-the-art attack mitigation strategies and\ninvestigate some of their drawbacks with possible directions for future work",
+    "updated" : "2024-01-12T16:05:13Z",
+    "published" : "2024-01-12T16:05:13Z",
+    "authors" : [
+      {
+        "name" : "Jayasree Sengupta"
+      },
+      {
+        "name" : "Debasmita Dey"
+      },
+      {
+        "name" : "Simone Ferlin"
+      },
+      {
+        "name" : "Nirnay Ghosh"
+      },
+      {
+        "name" : "Vaibhav Bajpai"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.NI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.06601v1",
+    "title" : "A proposal to increase data utility on Global Differential Privacy data\n  based on data use predictions",
+    "summary" : "This paper presents ongoing research focused on improving the utility of data\nprotected by Global Differential Privacy(DP) in the scenario of summary\nstatistics. Our approach is based on predictions on how an analyst will use\nstatistics released under DP protection, so that a developer can optimise data\nutility on further usage of the data in the privacy budget allocation. This\nnovel approach can potentially improve the utility of data without compromising\nprivacy constraints. We also propose a metric that can be used by the developer\nto optimise the budget allocation process.",
+    "updated" : "2024-01-12T14:34:30Z",
+    "published" : "2024-01-12T14:34:30Z",
+    "authors" : [
+      {
+        "name" : "Henry C. Nunes"
+      },
+      {
+        "name" : "Marlon P. da Silva"
+      },
+      {
+        "name" : "Charles V. Neu"
+      },
+      {
+        "name" : "Avelino F. Zorzo"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DB"
+    ]
   }
 ]
