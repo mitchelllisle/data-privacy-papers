@@ -627,5 +627,298 @@
       "cs.CR",
       "cs.DB"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.08038v1",
+    "title" : "Calpric: Inclusive and Fine-grain Labeling of Privacy Policies with\n  Crowdsourcing and Active Learning",
+    "summary" : "A significant challenge to training accurate deep learning models on privacy\npolicies is the cost and difficulty of obtaining a large and comprehensive set\nof training data. To address these challenges, we present Calpric , which\ncombines automatic text selection and segmentation, active learning and the use\nof crowdsourced annotators to generate a large, balanced training set for\nprivacy policies at low cost. Automated text selection and segmentation\nsimplifies the labeling task, enabling untrained annotators from crowdsourcing\nplatforms, like Amazon's Mechanical Turk, to be competitive with trained\nannotators, such as law students, and also reduces inter-annotator agreement,\nwhich decreases labeling cost. Having reliable labels for training enables the\nuse of active learning, which uses fewer training samples to efficiently cover\nthe input space, further reducing cost and improving class and data category\nbalance in the data set. The combination of these techniques allows Calpric to\nproduce models that are accurate over a wider range of data categories, and\nprovide more detailed, fine-grain labels than previous work. Our crowdsourcing\nprocess enables Calpric to attain reliable labeled data at a cost of roughly\n$0.92-$1.71 per labeled text segment. Calpric 's training process also\ngenerates a labeled data set of 16K privacy policy text segments across 9 Data\ncategories with balanced positive and negative samples.",
+    "updated" : "2024-01-16T01:27:26Z",
+    "published" : "2024-01-16T01:27:26Z",
+    "authors" : [
+      {
+        "name" : "Wenjun Qiu"
+      },
+      {
+        "name" : "David Lie"
+      },
+      {
+        "name" : "Lisa Austin"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.CR",
+      "cs.HC",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.08037v1",
+    "title" : "Understanding factors behind IoT privacy -- A user's perspective on RF\n  sensors",
+    "summary" : "While IoT sensors in physical spaces have provided utility and comfort in our\nlives, their instrumentation in private and personal spaces has led to growing\nconcerns regarding privacy. The existing notion behind IoT privacy is that the\nsensors whose data can easily be understood and interpreted by humans (such as\ncameras) are more privacy-invasive than sensors that are not\nhuman-understandable, such as RF (radio-frequency) sensors. However, given\nrecent advancements in machine learning, we can not only make sensitive\ninferences on RF data but also translate between modalities. Thus, the existing\nnotions of privacy for IoT sensors need to be revisited. In this paper, our\ngoal is to understand what factors affect the privacy notions of a non-expert\nuser (someone who is not well-versed in privacy concepts). To this regard, we\nconduct an online study of 162 participants from the USA to find out what\nfactors affect the privacy perception of a user regarding an RF-based device or\na sensor. Our findings show that a user's perception of privacy not only\ndepends upon the data collected by the sensor but also on the inferences that\ncan be made on that data, familiarity with the device and its form factor as\nwell as the control a user has over the device design and its data policies.\nWhen the data collected by the sensor is not human-interpretable, it is the\ninferences that can be made on the data and not the data itself that users care\nabout when making informed decisions regarding device privacy.",
+    "updated" : "2024-01-16T01:13:14Z",
+    "published" : "2024-01-16T01:13:14Z",
+    "authors" : [
+      {
+        "name" : "Akash Deep Singh"
+      },
+      {
+        "name" : "Brian Wang"
+      },
+      {
+        "name" : "Luis Garcia"
+      },
+      {
+        "name" : "Xiang Chen"
+      },
+      {
+        "name" : "Mani Srivastava"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.07691v1",
+    "title" : "Privacy-Aware Single-Nucleotide Polymorphisms (SNPs) using Bilinear\n  Group Accumulators in Batch Mode",
+    "summary" : "Biometric data is often highly sensitive, and a leak of this data can lead to\nserious privacy breaches. Some of the most sensitive of this type of data\nrelates to the usage of DNA data on individuals. A leak of this type of data\nwithout consent could lead to privacy breaches of data protection laws. Along\nwith this, there have been several recent data breaches related to the leak of\nDNA information, including from 23andMe and Ancestry. It is thus fundamental\nthat a citizen should have the right to know if their DNA data is contained\nwithin a DNA database and ask for it to be removed if they are concerned about\nits usage. This paper outlines a method of hashing the core information\ncontained within the data stores - known as Single-Nucleotide Polymorphisms\n(SNPs) - into a bilinear group accumulator in batch mode, which can then be\nsearched by a trusted entity for matches. The time to create the witness proof\nand to verify were measured at 0.86 ms and 10.90 ms, respectively.",
+    "updated" : "2024-01-15T13:59:51Z",
+    "published" : "2024-01-15T13:59:51Z",
+    "authors" : [
+      {
+        "name" : "William J Buchanan"
+      },
+      {
+        "name" : "Sam Grierson"
+      },
+      {
+        "name" : "Daniel Uribe"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.07464v1",
+    "title" : "Quantum Privacy Aggregation of Teacher Ensembles (QPATE) for\n  Privacy-preserving Quantum Machine Learning",
+    "summary" : "The utility of machine learning has rapidly expanded in the last two decades\nand presents an ethical challenge. Papernot et. al. developed a technique,\nknown as Private Aggregation of Teacher Ensembles (PATE) to enable federated\nlearning in which multiple teacher models are trained on disjoint datasets.\nThis study is the first to apply PATE to an ensemble of quantum neural networks\n(QNN) to pave a new way of ensuring privacy in quantum machine learning (QML)\nmodels.",
+    "updated" : "2024-01-15T04:38:06Z",
+    "published" : "2024-01-15T04:38:06Z",
+    "authors" : [
+      {
+        "name" : "William Watkins"
+      },
+      {
+        "name" : "Heehwan Wang"
+      },
+      {
+        "name" : "Sangyoon Bae"
+      },
+      {
+        "name" : "Huan-Hsin Tseng"
+      },
+      {
+        "name" : "Jiook Cha"
+      },
+      {
+        "name" : "Samuel Yen-Chi Chen"
+      },
+      {
+        "name" : "Shinjae Yoo"
+      }
+    ],
+    "categories" : [
+      "quant-ph",
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.07348v1",
+    "title" : "Generative AI in EU Law: Liability, Privacy, Intellectual Property, and\n  Cybersecurity",
+    "summary" : "The advent of Generative AI, particularly through Large Language Models\n(LLMs) like ChatGPT and its successors, marks a paradigm shift in the AI\nlandscape. Advanced LLMs exhibit multimodality, handling diverse data formats,\nthereby broadening their application scope. However, the complexity and\nemergent autonomy of these models introduce challenges in predictability and\nlegal compliance. This paper delves into the legal and regulatory implications\nof Generative AI and LLMs in the European Union context, analyzing aspects of\nliability, privacy, intellectual property, and cybersecurity. It critically\nexamines the adequacy of the existing and proposed EU legislation, including\nthe Artificial Intelligence Act (AIA) draft, in addressing the unique\nchallenges posed by Generative AI in general and LLMs in particular. The paper\nidentifies potential gaps and shortcomings in the legislative framework and\nproposes recommendations to ensure the safe and compliant deployment of\ngenerative models, ensuring they align with the EU's evolving digital landscape\nand legal standards.",
+    "updated" : "2024-01-14T19:16:29Z",
+    "published" : "2024-01-14T19:16:29Z",
+    "authors" : [
+      {
+        "name" : "Claudio Novelli"
+      },
+      {
+        "name" : "Federico Casolari"
+      },
+      {
+        "name" : "Philipp Hacker"
+      },
+      {
+        "name" : "Giorgio Spedicato"
+      },
+      {
+        "name" : "Luciano Floridi"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.07343v1",
+    "title" : "Privacy-Preserving Intrusion Detection in Software-defined VANET using\n  Federated Learning with BERT",
+    "summary" : "The absence of robust security protocols renders the VANET (Vehicle ad-hoc\nNetworks) network open to cyber threats by compromising passengers and road\nsafety. Intrusion Detection Systems (IDS) are widely employed to detect network\nsecurity threats. With vehicles' high mobility on the road and diverse\nenvironments, VANETs devise ever-changing network topologies, lack privacy and\nsecurity, and have limited bandwidth efficiency. The absence of privacy\nprecautions, End-to-End Encryption methods, and Local Data Processing systems\nin VANET also present many privacy and security difficulties. So, assessing\nwhether a novel real-time processing IDS approach can be utilized for this\nemerging technology is crucial. The present study introduces a novel approach\nfor intrusion detection using Federated Learning (FL) capabilities in\nconjunction with the BERT model for sequence classification (FL-BERT). The\nsignificance of data privacy is duly recognized. According to FL methodology,\neach client has its own local model and dataset. They train their models\nlocally and then send the model's weights to the server. After aggregation, the\nserver aggregates the weights from all clients to update a global model. After\naggregation, the global model's weights are shared with the clients. This\npractice guarantees the secure storage of sensitive raw data on individual\nclients' devices, effectively protecting privacy. After conducting the\nfederated learning procedure, we assessed our models' performance using a\nseparate test dataset. The FL-BERT technique has yielded promising results,\nopening avenues for further investigation in this particular area of research.\nWe reached the result of our approaches by comparing existing research works\nand found that FL-BERT is more effective for privacy and security concerns. Our\nresults suggest that FL-BERT is a promising technique for enhancing attack\ndetection.",
+    "updated" : "2024-01-14T18:32:25Z",
+    "published" : "2024-01-14T18:32:25Z",
+    "authors" : [
+      {
+        "name" : "Shakil Ibne Ahsan"
+      },
+      {
+        "name" : "Phil Legg"
+      },
+      {
+        "name" : "S M Iftekharul Alam"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.07316v1",
+    "title" : "Finding Privacy-relevant Source Code",
+    "summary" : "Privacy code review is a critical process that enables developers and legal\nexperts to ensure compliance with data protection regulations. However, the\ntask is challenging due to resource constraints. To address this, we introduce\nthe concept of privacy-relevant methods - specific methods in code that are\ndirectly involved in the processing of personal data. We then present an\nautomated approach to assist in code review by identifying and categorizing\nthese privacy-relevant methods in source code.\n  Using static analysis, we identify a set of methods based on their\noccurrences in 50 commonly used libraries. We then rank these methods according\nto their frequency of invocation with actual personal data in the top 30 GitHub\napplications. The highest-ranked methods are the ones we designate as\nprivacy-relevant in practice. For our evaluation, we examined 100 open-source\napplications and found that our approach identifies fewer than 5% of the\nmethods as privacy-relevant for personal data processing. This reduces the time\nrequired for code reviews. Case studies on Signal Desktop and Cal.com further\nvalidate the effectiveness of our approach in aiding code reviewers to produce\nenhanced reports that facilitate compliance with privacy regulations.",
+    "updated" : "2024-01-14T15:38:29Z",
+    "published" : "2024-01-14T15:38:29Z",
+    "authors" : [
+      {
+        "name" : "Feiyang Tang"
+      },
+      {
+        "name" : "Bjarte M. Østvold"
+      }
+    ],
+    "categories" : [
+      "cs.SE",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.06894v1",
+    "title" : "On Coded Caching Systems with Offline Users, with and without Demand\n  Privacy against Colluding Users",
+    "summary" : "Coded caching is a technique that leverages locally cached contents at the\nend users to reduce the network's peak-time communication load. Coded caching\nhas been shown to achieve significant performance gains compared to uncoded\nschemes and is thus considered a promising technique to boost performance in\nfuture networks by effectively trading off bandwidth for storage. The original\ncoded caching model introduced by Maddah-Ali and Niesen does not consider the\ncase where some users involved in the placement phase, may be offline during\nthe delivery phase. If so, the delivery may not start or it may be wasteful to\nperform the delivery with fictitious demands for the offline users. In\naddition, the active users may require their demand to be kept private. This\npaper formally defines a coded caching system where some users are offline, and\ninvestigates the optimal performance with and without demand privacy against\ncolluding users. For this novel coded caching model with offline users,\nachievable and converse bounds are proposed. These bounds are shown to meet\nunder certain conditions, and otherwise to be to within a constant\nmultiplicative gap of one another. In addition, the proposed achievable schemes\nhave lower subpacketization and lower load compared to baseline schemes (that\ntrivially extend known schemes so as to accommodate for privacy) in some memory\nregimes.",
+    "updated" : "2024-01-12T21:06:42Z",
+    "published" : "2024-01-12T21:06:42Z",
+    "authors" : [
+      {
+        "name" : "Yinbin Ma"
+      },
+      {
+        "name" : "Daniela Tuninetti"
+      }
+    ],
+    "categories" : [
+      "cs.IT",
+      "math.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.06883v1",
+    "title" : "Scaling While Privacy Preserving: A Comprehensive Synthetic Tabular Data\n  Generation and Evaluation in Learning Analytics",
+    "summary" : "Privacy poses a significant obstacle to the progress of learning analytics\n(LA), presenting challenges like inadequate anonymization and data misuse that\ncurrent solutions struggle to address. Synthetic data emerges as a potential\nremedy, offering robust privacy protection. However, prior LA research on\nsynthetic data lacks thorough evaluation, essential for assessing the delicate\nbalance between privacy and data utility. Synthetic data must not only enhance\nprivacy but also remain practical for data analytics. Moreover, diverse LA\nscenarios come with varying privacy and utility needs, making the selection of\nan appropriate synthetic data approach a pressing challenge. To address these\ngaps, we propose a comprehensive evaluation of synthetic data, which\nencompasses three dimensions of synthetic data quality, namely resemblance,\nutility, and privacy. We apply this evaluation to three distinct LA datasets,\nusing three different synthetic data generation methods. Our results show that\nsynthetic data can maintain similar utility (i.e., predictive performance) as\nreal data, while preserving privacy. Furthermore, considering different privacy\nand data utility requirements in different LA scenarios, we make customized\nrecommendations for synthetic data generation. This paper not only presents a\ncomprehensive evaluation of synthetic data but also illustrates its potential\nin mitigating privacy concerns within the field of LA, thus contributing to a\nwider application of synthetic data in LA and promoting a better practice for\nopen science.",
+    "updated" : "2024-01-12T20:27:55Z",
+    "published" : "2024-01-12T20:27:55Z",
+    "authors" : [
+      {
+        "name" : "Qinyi Liu"
+      },
+      {
+        "name" : "Mohammad Khalil"
+      },
+      {
+        "name" : "Ronas Shakya"
+      },
+      {
+        "name" : "Jelena Jovanovic"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.04076v2",
+    "title" : "Security and Privacy Issues in Cloud Storage",
+    "summary" : "Even with the vast potential that cloud computing has, so far, it has not\nbeen adopted by the consumers with the enthusiasm and pace that it be worthy;\nthis is a very reason statement why consumers still hesitated of using cloud\ncomputing for their sensitive data and the threats that prevent the consumers\nfrom shifting to use cloud computing in general and cloud storage in\nparticular. The cloud computing inherits the traditional potential security and\nprivacy threats besides its own issues due to its unique structures. Some\nthreats related to cloud computing are the insider malicious attacks from the\nemployees that even sometime the provider unconscious about, the lack of\ntransparency of agreement between consumer and provider, data loss, traffic\nhijacking, shared technology and insecure application interface. Such threats\nneed remedies to make the consumer use its features in secure way. In this\nreview, we spot the light on the most security and privacy issues which can be\nattributed as gaps that sometimes the consumers or even the enterprises are not\naware of. We also define the parties that involve in scenario of cloud\ncomputing that also may attack the entire cloud systems. We also show the\nconsequences of these threats.",
+    "updated" : "2024-01-14T20:12:02Z",
+    "published" : "2024-01-08T18:27:57Z",
+    "authors" : [
+      {
+        "name" : "Norah Asiri"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.NI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.03883v2",
+    "title" : "The Impact of Differential Privacy on Recommendation Accuracy and\n  Popularity Bias",
+    "summary" : "Collaborative filtering-based recommender systems leverage vast amounts of\nbehavioral user data, which poses severe privacy risks. Thus, often, random\nnoise is added to the data to ensure Differential Privacy (DP). However, to\ndate, it is not well understood, in which ways this impacts personalized\nrecommendations. In this work, we study how DP impacts recommendation accuracy\nand popularity bias, when applied to the training data of state-of-the-art\nrecommendation models. Our findings are three-fold: First, we find that nearly\nall users' recommendations change when DP is applied. Second, recommendation\naccuracy drops substantially while recommended item popularity experiences a\nsharp increase, suggesting that popularity bias worsens. Third, we find that DP\nexacerbates popularity bias more severely for users who prefer unpopular items\nthan for users that prefer popular items.",
+    "updated" : "2024-01-15T15:09:00Z",
+    "published" : "2024-01-08T13:31:02Z",
+    "authors" : [
+      {
+        "name" : "Peter Müllner"
+      },
+      {
+        "name" : "Elisabeth Lex"
+      },
+      {
+        "name" : "Markus Schedl"
+      },
+      {
+        "name" : "Dominik Kowald"
+      }
+    ],
+    "categories" : [
+      "cs.IR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.03218v2",
+    "title" : "MiniScope: Automated UI Exploration and Privacy Inconsistency Detection\n  of MiniApps via Two-phase Iterative Hybrid Analysis",
+    "summary" : "The advent of MiniApps, operating within larger SuperApps, has revolutionized\nuser experiences by offering a wide range of services without the need for\nindividual app downloads. However, this convenience has raised significant\nprivacy concerns, as these MiniApps often require access to sensitive data,\npotentially leading to privacy violations. Our research addresses the critical\ngaps in the analysis of MiniApps' privacy practices, especially focusing on\nWeChat MiniApps in the Android ecosystem. Despite existing privacy regulations\nand platform guidelines, there is a lack of effective mechanisms to safeguard\nuser privacy fully. We introduce MiniScope, a novel two-phase hybrid analysis\napproach, specifically designed for the MiniApp environment. This approach\novercomes the limitations of existing static analysis techniques by\nincorporating dynamic UI exploration for complete code coverage and accurate\nprivacy practice identification. Our methodology includes modeling UI\ntransition states, resolving cross-package callback control flows, and\nautomated iterative UI exploration. This allows for a comprehensive\nunderstanding of MiniApps' privacy practices, addressing the unique challenges\nof sub-package loading and event-driven callbacks. Our empirical evaluation of\nover 120K MiniApps using MiniScope demonstrates its effectiveness in\nidentifying privacy inconsistencies. The results reveal significant issues,\nwith 5.7% of MiniApps over-collecting private data and 33.4% overclaiming data\ncollection. These findings emphasize the urgent need for more precise privacy\nmonitoring systems and highlight the responsibility of SuperApp operators to\nenforce stricter privacy measures.",
+    "updated" : "2024-01-16T03:07:22Z",
+    "published" : "2024-01-06T13:54:36Z",
+    "authors" : [
+      {
+        "name" : "Shenao Wang"
+      },
+      {
+        "name" : "Yuekang Li"
+      },
+      {
+        "name" : "Kailong Wang"
+      },
+      {
+        "name" : "Yi Liu"
+      },
+      {
+        "name" : "Hui Li"
+      },
+      {
+        "name" : "Yang Liu"
+      },
+      {
+        "name" : "Haoyu Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.SE"
+    ]
   }
 ]
