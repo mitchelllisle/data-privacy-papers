@@ -2,6 +2,270 @@
 <h2>2024-01</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2401.08038v1">Calpric: Inclusive and Fine-grain Labeling of Privacy Policies with
+  Crowdsourcing and Active Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-01-16T01:27:26Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Wenjun Qiu, David Lie, Lisa Austin</p>
+    <p><b>Summary:</b> A significant challenge to training accurate deep learning models on privacy
+policies is the cost and difficulty of obtaining a large and comprehensive set
+of training data. To address these challenges, we present Calpric , which
+combines automatic text selection and segmentation, active learning and the use
+of crowdsourced annotators to generate a large, balanced training set for
+privacy policies at low cost. Automated text selection and segmentation
+simplifies the labeling task, enabling untrained annotators from crowdsourcing
+platforms, like Amazon's Mechanical Turk, to be competitive with trained
+annotators, such as law students, and also reduces inter-annotator agreement,
+which decreases labeling cost. Having reliable labels for training enables the
+use of active learning, which uses fewer training samples to efficiently cover
+the input space, further reducing cost and improving class and data category
+balance in the data set. The combination of these techniques allows Calpric to
+produce models that are accurate over a wider range of data categories, and
+provide more detailed, fine-grain labels than previous work. Our crowdsourcing
+process enables Calpric to attain reliable labeled data at a cost of roughly
+$0.92-$1.71 per labeled text segment. Calpric 's training process also
+generates a labeled data set of 16K privacy policy text segments across 9 Data
+categories with balanced positive and negative samples.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2401.08037v1">Understanding factors behind IoT privacy -- A user's perspective on RF
+  sensors</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2024-01-16T01:13:14Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Akash Deep Singh, Brian Wang, Luis Garcia, Xiang Chen, Mani Srivastava</p>
+    <p><b>Summary:</b> While IoT sensors in physical spaces have provided utility and comfort in our
+lives, their instrumentation in private and personal spaces has led to growing
+concerns regarding privacy. The existing notion behind IoT privacy is that the
+sensors whose data can easily be understood and interpreted by humans (such as
+cameras) are more privacy-invasive than sensors that are not
+human-understandable, such as RF (radio-frequency) sensors. However, given
+recent advancements in machine learning, we can not only make sensitive
+inferences on RF data but also translate between modalities. Thus, the existing
+notions of privacy for IoT sensors need to be revisited. In this paper, our
+goal is to understand what factors affect the privacy notions of a non-expert
+user (someone who is not well-versed in privacy concepts). To this regard, we
+conduct an online study of 162 participants from the USA to find out what
+factors affect the privacy perception of a user regarding an RF-based device or
+a sensor. Our findings show that a user's perception of privacy not only
+depends upon the data collected by the sensor but also on the inferences that
+can be made on that data, familiarity with the device and its form factor as
+well as the control a user has over the device design and its data policies.
+When the data collected by the sensor is not human-interpretable, it is the
+inferences that can be made on the data and not the data itself that users care
+about when making informed decisions regarding device privacy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2401.07691v1">Privacy-Aware Single-Nucleotide Polymorphisms (SNPs) using Bilinear
+  Group Accumulators in Batch Mode</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-01-15T13:59:51Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> William J Buchanan, Sam Grierson, Daniel Uribe</p>
+    <p><b>Summary:</b> Biometric data is often highly sensitive, and a leak of this data can lead to
+serious privacy breaches. Some of the most sensitive of this type of data
+relates to the usage of DNA data on individuals. A leak of this type of data
+without consent could lead to privacy breaches of data protection laws. Along
+with this, there have been several recent data breaches related to the leak of
+DNA information, including from 23andMe and Ancestry. It is thus fundamental
+that a citizen should have the right to know if their DNA data is contained
+within a DNA database and ask for it to be removed if they are concerned about
+its usage. This paper outlines a method of hashing the core information
+contained within the data stores - known as Single-Nucleotide Polymorphisms
+(SNPs) - into a bilinear group accumulator in batch mode, which can then be
+searched by a trusted entity for matches. The time to create the witness proof
+and to verify were measured at 0.86 ms and 10.90 ms, respectively.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2401.07464v1">Quantum Privacy Aggregation of Teacher Ensembles (QPATE) for
+  Privacy-preserving Quantum Machine Learning</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-01-15T04:38:06Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> William Watkins, Heehwan Wang, Sangyoon Bae, Huan-Hsin Tseng, Jiook Cha, Samuel Yen-Chi Chen, Shinjae Yoo</p>
+    <p><b>Summary:</b> The utility of machine learning has rapidly expanded in the last two decades
+and presents an ethical challenge. Papernot et. al. developed a technique,
+known as Private Aggregation of Teacher Ensembles (PATE) to enable federated
+learning in which multiple teacher models are trained on disjoint datasets.
+This study is the first to apply PATE to an ensemble of quantum neural networks
+(QNN) to pave a new way of ensuring privacy in quantum machine learning (QML)
+models.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2401.07348v1">Generative AI in EU Law: Liability, Privacy, Intellectual Property, and
+  Cybersecurity</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-01-14T19:16:29Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Claudio Novelli, Federico Casolari, Philipp Hacker, Giorgio Spedicato, Luciano Floridi</p>
+    <p><b>Summary:</b> The advent of Generative AI, particularly through Large Language Models
+(LLMs) like ChatGPT and its successors, marks a paradigm shift in the AI
+landscape. Advanced LLMs exhibit multimodality, handling diverse data formats,
+thereby broadening their application scope. However, the complexity and
+emergent autonomy of these models introduce challenges in predictability and
+legal compliance. This paper delves into the legal and regulatory implications
+of Generative AI and LLMs in the European Union context, analyzing aspects of
+liability, privacy, intellectual property, and cybersecurity. It critically
+examines the adequacy of the existing and proposed EU legislation, including
+the Artificial Intelligence Act (AIA) draft, in addressing the unique
+challenges posed by Generative AI in general and LLMs in particular. The paper
+identifies potential gaps and shortcomings in the legislative framework and
+proposes recommendations to ensure the safe and compliant deployment of
+generative models, ensuring they align with the EU's evolving digital landscape
+and legal standards.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2401.07343v1">Privacy-Preserving Intrusion Detection in Software-defined VANET using
+  Federated Learning with BERT</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-01-14T18:32:25Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shakil Ibne Ahsan, Phil Legg, S M Iftekharul Alam</p>
+    <p><b>Summary:</b> The absence of robust security protocols renders the VANET (Vehicle ad-hoc
+Networks) network open to cyber threats by compromising passengers and road
+safety. Intrusion Detection Systems (IDS) are widely employed to detect network
+security threats. With vehicles' high mobility on the road and diverse
+environments, VANETs devise ever-changing network topologies, lack privacy and
+security, and have limited bandwidth efficiency. The absence of privacy
+precautions, End-to-End Encryption methods, and Local Data Processing systems
+in VANET also present many privacy and security difficulties. So, assessing
+whether a novel real-time processing IDS approach can be utilized for this
+emerging technology is crucial. The present study introduces a novel approach
+for intrusion detection using Federated Learning (FL) capabilities in
+conjunction with the BERT model for sequence classification (FL-BERT). The
+significance of data privacy is duly recognized. According to FL methodology,
+each client has its own local model and dataset. They train their models
+locally and then send the model's weights to the server. After aggregation, the
+server aggregates the weights from all clients to update a global model. After
+aggregation, the global model's weights are shared with the clients. This
+practice guarantees the secure storage of sensitive raw data on individual
+clients' devices, effectively protecting privacy. After conducting the
+federated learning procedure, we assessed our models' performance using a
+separate test dataset. The FL-BERT technique has yielded promising results,
+opening avenues for further investigation in this particular area of research.
+We reached the result of our approaches by comparing existing research works
+and found that FL-BERT is more effective for privacy and security concerns. Our
+results suggest that FL-BERT is a promising technique for enhancing attack
+detection.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2401.07316v1">Finding Privacy-relevant Source Code</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-01-14T15:38:29Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Feiyang Tang, Bjarte M. Østvold</p>
+    <p><b>Summary:</b> Privacy code review is a critical process that enables developers and legal
+experts to ensure compliance with data protection regulations. However, the
+task is challenging due to resource constraints. To address this, we introduce
+the concept of privacy-relevant methods - specific methods in code that are
+directly involved in the processing of personal data. We then present an
+automated approach to assist in code review by identifying and categorizing
+these privacy-relevant methods in source code.
+  Using static analysis, we identify a set of methods based on their
+occurrences in 50 commonly used libraries. We then rank these methods according
+to their frequency of invocation with actual personal data in the top 30 GitHub
+applications. The highest-ranked methods are the ones we designate as
+privacy-relevant in practice. For our evaluation, we examined 100 open-source
+applications and found that our approach identifies fewer than 5% of the
+methods as privacy-relevant for personal data processing. This reduces the time
+required for code reviews. Case studies on Signal Desktop and Cal.com further
+validate the effectiveness of our approach in aiding code reviewers to produce
+enhanced reports that facilitate compliance with privacy regulations.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2401.06894v1">On Coded Caching Systems with Offline Users, with and without Demand
+  Privacy against Colluding Users</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
+  <p><b>Published on:</b> 2024-01-12T21:06:42Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yinbin Ma, Daniela Tuninetti</p>
+    <p><b>Summary:</b> Coded caching is a technique that leverages locally cached contents at the
+end users to reduce the network's peak-time communication load. Coded caching
+has been shown to achieve significant performance gains compared to uncoded
+schemes and is thus considered a promising technique to boost performance in
+future networks by effectively trading off bandwidth for storage. The original
+coded caching model introduced by Maddah-Ali and Niesen does not consider the
+case where some users involved in the placement phase, may be offline during
+the delivery phase. If so, the delivery may not start or it may be wasteful to
+perform the delivery with fictitious demands for the offline users. In
+addition, the active users may require their demand to be kept private. This
+paper formally defines a coded caching system where some users are offline, and
+investigates the optimal performance with and without demand privacy against
+colluding users. For this novel coded caching model with offline users,
+achievable and converse bounds are proposed. These bounds are shown to meet
+under certain conditions, and otherwise to be to within a constant
+multiplicative gap of one another. In addition, the proposed achievable schemes
+have lower subpacketization and lower load compared to baseline schemes (that
+trivially extend known schemes so as to accommodate for privacy) in some memory
+regimes.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2401.06883v1">Scaling While Privacy Preserving: A Comprehensive Synthetic Tabular Data
+  Generation and Evaluation in Learning Analytics</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-01-12T20:27:55Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Qinyi Liu, Mohammad Khalil, Ronas Shakya, Jelena Jovanovic</p>
+    <p><b>Summary:</b> Privacy poses a significant obstacle to the progress of learning analytics
+(LA), presenting challenges like inadequate anonymization and data misuse that
+current solutions struggle to address. Synthetic data emerges as a potential
+remedy, offering robust privacy protection. However, prior LA research on
+synthetic data lacks thorough evaluation, essential for assessing the delicate
+balance between privacy and data utility. Synthetic data must not only enhance
+privacy but also remain practical for data analytics. Moreover, diverse LA
+scenarios come with varying privacy and utility needs, making the selection of
+an appropriate synthetic data approach a pressing challenge. To address these
+gaps, we propose a comprehensive evaluation of synthetic data, which
+encompasses three dimensions of synthetic data quality, namely resemblance,
+utility, and privacy. We apply this evaluation to three distinct LA datasets,
+using three different synthetic data generation methods. Our results show that
+synthetic data can maintain similar utility (i.e., predictive performance) as
+real data, while preserving privacy. Furthermore, considering different privacy
+and data utility requirements in different LA scenarios, we make customized
+recommendations for synthetic data generation. This paper not only presents a
+comprehensive evaluation of synthetic data but also illustrates its potential
+in mitigating privacy concerns within the field of LA, thus contributing to a
+wider application of synthetic data in LA and promoting a better practice for
+open science.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2401.06657v1">Accelerating Tactile Internet with QUIC: A Security and Privacy
   Perspective</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
@@ -205,7 +469,7 @@ approach outperforms existing methods significantly at the same privacy level.</
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2401.04076v1">Security and Privacy Issues in Cloud Storage</a></h3>
+  <h3><a href="http://arxiv.org/abs/2401.04076v2">Security and Privacy Issues in Cloud Storage</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
   <p><b>Published on:</b> 2024-01-08T18:27:57Z</p>
   <details>
@@ -233,7 +497,7 @@ consequences of these threats.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2401.03883v1">The Impact of Differential Privacy on Recommendation Accuracy and
+  <h3><a href="http://arxiv.org/abs/2401.03883v2">The Impact of Differential Privacy on Recommendation Accuracy and
   Popularity Bias</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB">
   <p><b>Published on:</b> 2024-01-08T13:31:02Z</p>
@@ -290,13 +554,13 @@ this amalgamation of Blockchain and Federated Learning.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2401.03218v1">MiniScope: Automated UI Exploration and Privacy Inconsistency Detection
+  <h3><a href="http://arxiv.org/abs/2401.03218v2">MiniScope: Automated UI Exploration and Privacy Inconsistency Detection
   of MiniApps via Two-phase Iterative Hybrid Analysis</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
   <p><b>Published on:</b> 2024-01-06T13:54:36Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Shenao Wang, Yuekang Li, Kailong Wang, Yi Liu, Chao Wang, Yanjie Zhao, Gelei Deng, Ling Shi, Hui Li, Yang Liu, Haoyu Wang</p>
+    <p><b>Authors:</b> Shenao Wang, Yuekang Li, Kailong Wang, Yi Liu, Hui Li, Yang Liu, Haoyu Wang</p>
     <p><b>Summary:</b> The advent of MiniApps, operating within larger SuperApps, has revolutionized
 user experiences by offering a wide range of services without the need for
 individual app downloads. However, this convenience has raised significant
@@ -2725,289 +2989,6 @@ within the very fabric of data platforms and an in-depth exploration of how
 enterprises can adopt a comprehensive approach toward effective data masking
 implementation by exploring different identification and anonymization
 techniques.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2312.03252v1">Privacy-Preserving Task-Oriented Semantic Communications Against Model
-  Inversion Attacks</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
-  <p><b>Published on:</b> 2023-12-06T02:57:56Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yanhu Wang, Shuaishuai Guo, Yiqin Deng, Haixia Zhang, Yuguang Fang</p>
-    <p><b>Summary:</b> Semantic communication has been identified as a core technology for the sixth
-generation (6G) of wireless networks. Recently, task-oriented semantic
-communications have been proposed for low-latency inference with limited
-bandwidth. Although transmitting only task-related information does protect a
-certain level of user privacy, adversaries could apply model inversion
-techniques to reconstruct the raw data or extract useful information, thereby
-infringing on users' privacy. To mitigate privacy infringement, this paper
-proposes an information bottleneck and adversarial learning (IBAL) approach to
-protect users' privacy against model inversion attacks. Specifically, we
-extract task-relevant features from the input based on the information
-bottleneck (IB) theory. To overcome the difficulty in calculating the mutual
-information in high-dimensional space, we derive a variational upper bound to
-estimate the true mutual information. To prevent data reconstruction from
-task-related features by adversaries, we leverage adversarial learning to train
-encoder to fool adversaries by maximizing reconstruction distortion.
-Furthermore, considering the impact of channel variations on privacy-utility
-trade-off and the difficulty in manually tuning the weights of each loss, we
-propose an adaptive weight adjustment method. Numerical results demonstrate
-that the proposed approaches can effectively protect privacy without
-significantly affecting task performance and achieve better privacy-utility
-trade-offs than baseline methods.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2312.04594v1">FedGeo: Privacy-Preserving User Next Location Prediction with Federated
-  Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2023-12-06T01:43:58Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Chung Park, Taekyoon Choi, Taesan Kim, Mincheol Cho, Junui Hong, Minsung Choi, Jaegul Choo</p>
-    <p><b>Summary:</b> A User Next Location Prediction (UNLP) task, which predicts the next location
-that a user will move to given his/her trajectory, is an indispensable task for
-a wide range of applications. Previous studies using large-scale trajectory
-datasets in a single server have achieved remarkable performance in UNLP task.
-However, in real-world applications, legal and ethical issues have been raised
-regarding privacy concerns leading to restrictions against sharing human
-trajectory datasets to any other server. In response, Federated Learning (FL)
-has emerged to address the personal privacy issue by collaboratively training
-multiple clients (i.e., users) and then aggregating them. While previous
-studies employed FL for UNLP, they are still unable to achieve reliable
-performance because of the heterogeneity of clients' mobility. To tackle this
-problem, we propose the Federated Learning for Geographic Information (FedGeo),
-a FL framework specialized for UNLP, which alleviates the heterogeneity of
-clients' mobility and guarantees personal privacy protection. Firstly, we
-incorporate prior global geographic adjacency information to the local client
-model, since the spatial correlation between locations is trained partially in
-each client who has only a heterogeneous subset of the overall trajectories in
-FL. We also introduce a novel aggregation method that minimizes the gap between
-client models to solve the problem of client drift caused by differences
-between client models when learning with their heterogeneous data. Lastly, we
-probabilistically exclude clients with extremely heterogeneous data from the FL
-process by focusing on clients who visit relatively diverse locations. We show
-that FedGeo is superior to other FL methods for model performance in UNLP task.
-We also validated our model in a real-world application using our own
-customers' mobile phones and the FL agent system.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2312.02611v1">Privacy-Aware Data Acquisition under Data Similarity in Regression
-  Markets</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Science and Game Theory-5BC0EB">
-  <p><b>Published on:</b> 2023-12-05T09:39:04Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shashi Raj Pandey, Pierre Pinson, Petar Popovski</p>
-    <p><b>Summary:</b> Data markets facilitate decentralized data exchange for applications such as
-prediction, learning, or inference. The design of these markets is challenged
-by varying privacy preferences as well as data similarity among data owners.
-Related works have often overlooked how data similarity impacts pricing and
-data value through statistical information leakage. We demonstrate that data
-similarity and privacy preferences are integral to market design and propose a
-query-response protocol using local differential privacy for a two-party data
-acquisition mechanism. In our regression data market model, we analyze
-strategic interactions between privacy-aware owners and the learner as a
-Stackelberg game over the asked price and privacy factor. Finally, we
-numerically evaluate how data similarity affects market participation and
-traded data value.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2312.02400v1">Auto DP-SGD: Dual Improvements of Privacy and Accuracy via Automatic
-  Clipping Threshold and Noise Multiplier Estimation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
-  <p><b>Published on:</b> 2023-12-05T00:09:57Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Sai Venkatesh Chilukoti, Md Imran Hossen, Liqun Shan, Vijay Srinivas Tida, Xiai Hei</p>
-    <p><b>Summary:</b> DP-SGD has emerged as a popular method to protect personally identifiable
-information in deep learning applications. Unfortunately, DP-SGD's per-sample
-gradient clipping and uniform noise addition during training can significantly
-degrade model utility. To enhance the model's utility, researchers proposed
-various adaptive DP-SGD methods. However, we examine and discover that these
-techniques result in greater privacy leakage or lower accuracy than the
-traditional DP-SGD method, or a lack of evaluation on a complex data set such
-as CIFAR100. To address these limitations, we propose an Auto DP-SGD. Our
-method automates clipping threshold estimation based on the DL model's gradient
-norm and scales the gradients of each training sample without losing gradient
-information. This helps to improve the algorithm's utility while using a less
-privacy budget. To further improve accuracy, we introduce automatic noise
-multiplier decay mechanisms to decrease the noise multiplier after every epoch.
-Finally, we develop closed-form mathematical expressions using tCDP accountant
-for automatic noise multiplier and automatic clipping threshold estimation.
-Through extensive experimentation, we demonstrate that Auto DP-SGD outperforms
-existing SOTA DP-SGD methods in privacy and accuracy on various benchmark
-datasets. We also show that privacy can be improved by lowering the scale
-factor and using learning rate schedulers without significantly reducing
-accuracy. Specifically, Auto DP-SGD, when used with a step noise multiplier,
-improves accuracy by 3.20, 1.57, 6.73, and 1.42 for the MNIST, CIFAR10,
-CIFAR100, and AG News Corpus datasets, respectively. Furthermore, it obtains a
-substantial reduction in the privacy budget of 94.9, 79.16, 67.36, and 53.37
-for the corresponding data sets.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2312.02327v1">FLea: Improving federated learning on scarce and label-skewed data via
-  privacy-preserving feature augmentation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
-  <p><b>Published on:</b> 2023-12-04T20:24:09Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Tong Xia, Abhirup Ghosh, Cecilia Mascolo</p>
-    <p><b>Summary:</b> Learning a global model by abstracting the knowledge, distributed across
-multiple clients, without aggregating the raw data is the primary goal of
-Federated Learning (FL). Typically, this works in rounds alternating between
-parallel local training at several clients, followed by model aggregation at a
-server. We found that existing FL methods under-perform when local datasets are
-small and present severe label skew as these lead to over-fitting and local
-model bias. This is a realistic setting in many real-world applications. To
-address the problem, we propose \textit{FLea}, a unified framework that tackles
-over-fitting and local bias by encouraging clients to exchange
-privacy-protected features to aid local training. The features refer to
-activations from an intermediate layer of the model, which are obfuscated
-before being shared with other clients to protect sensitive information in the
-data. \textit{FLea} leverages a novel way of combining local and shared
-features as augmentations to enhance local model learning. Our extensive
-experiments demonstrate that \textit{FLea} outperforms the start-of-the-art FL
-methods, sharing only model parameters, by up to $17.6\%$, and FL methods that
-share data augmentations by up to $6.3\%$, while reducing the privacy
-vulnerability associated with shared data augmentations.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2312.02112v1">Distributed Optimization with Feasible Set Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">  
-  <p><b>Published on:</b> 2023-12-04T18:45:04Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shreya Meel, Sennur Ulukus</p>
-    <p><b>Summary:</b> We consider the setup of a constrained optimization problem with two agents
-$E_1$ and $E_2$ who jointly wish to learn the optimal solution set while
-keeping their feasible sets $\mathcal{P}_1$ and $\mathcal{P}_2$ private from
-each other. The objective function $f$ is globally known and each feasible set
-is a collection of points from a global alphabet. We adopt a sequential
-symmetric private information retrieval (SPIR) framework where one of the
-agents (say $E_1$) privately checks in $\mathcal{P}_2$, the presence of
-candidate solutions of the problem constrained to $\mathcal{P}_1$ only, while
-learning no further information on $\mathcal{P}_2$ than the solution alone.
-Further, we extract an information theoretically private threshold PSI (ThPSI)
-protocol from our scheme and characterize its download cost. We show that,
-compared to privately acquiring the feasible set $\mathcal{P}_1\cap
-\mathcal{P}_2$ using an SPIR-based private set intersection (PSI) protocol, and
-finding the optimum, our scheme is better as it incurs less information leakage
-and less download cost than the former. Over all possible uniform mappings of
-$f$ to a fixed range of values, our scheme outperforms the former with a high
-probability.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2312.02093v1">Cultural Differences in Students' Privacy Concerns in Learning Analytics
-  across Germany, South Korea, Spain, Sweden, and the United States</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2023-12-04T18:10:20Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Olga Viberg, René F. Kizilcec, Ioana Jivet, Alejandra Martínez Monés, Alice Oh, Chantal Mutimukwe, Stefan Hrastinski, Maren Scheffel</p>
-    <p><b>Summary:</b> Applications of learning analytics (LA) can raise concerns from students
-about their privacy in higher education contexts. Developing effective
-privacy-enhancing practices requires a systematic understanding of students'
-privacy concerns and how they vary across national and cultural dimensions. We
-conducted a survey study with established instruments to measure privacy
-concerns and cultural values for university students in five countries
-(Germany, South Korea, Spain, Sweden, and the United States; N = 762). The
-results show that students generally trusted institutions with their data and
-disclosed information as they perceived the risks to be manageable even though
-they felt somewhat limited in their ability to control their privacy. Across
-the five countries, German and Swedish students stood out as the most trusting
-and least concerned, especially compared to US students who reported greater
-perceived risk and less control. Students in South Korea and Spain responded
-similarly on all five privacy dimensions (perceived privacy risk, perceived
-privacy control, privacy concerns, trusting beliefs, and non-self-disclosure
-behavior), despite their significant cultural differences. Culture measured at
-the individual level affected the antecedents and outcomes of privacy concerns
-more than country-level culture. Perceived privacy risk and privacy control
-increase with power distance. Trusting beliefs increase with a desire for
-uncertainty avoidance and lower masculinity. Non-self-disclosure behaviors rise
-with power distance and masculinity, and decrease with more uncertainty
-avoidance. Thus, cultural values related to trust in institutions, social
-equality and risk-taking should be considered when developing privacy-enhancing
-practices and policies in higher education.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2312.02003v1">A Survey on Large Language Model (LLM) Security and Privacy: The Good,
-  the Bad, and the Ugly</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2023-12-04T16:25:18Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yifan Yao, Jinhao Duan, Kaidi Xu, Yuanfang Cai, Eric Sun, Yue Zhang</p>
-    <p><b>Summary:</b> Large Language Models (LLMs), such as GPT-3 and BERT, have revolutionized
-natural language understanding and generation. They possess deep language
-comprehension, human-like text generation capabilities, contextual awareness,
-and robust problem-solving skills, making them invaluable in various domains
-(e.g., search engines, customer support, translation). In the meantime, LLMs
-have also gained traction in the security community, revealing security
-vulnerabilities and showcasing their potential in security-related tasks. This
-paper explores the intersection of LLMs with security and privacy.
-Specifically, we investigate how LLMs positively impact security and privacy,
-potential risks and threats associated with their use, and inherent
-vulnerabilities within LLMs. Through a comprehensive literature review, the
-paper categorizes findings into "The Good" (beneficial LLM applications), "The
-Bad" (offensive applications), and "The Ugly" (vulnerabilities and their
-defenses). We have some interesting findings. For example, LLMs have proven to
-enhance code and data security, outperforming traditional methods. However,
-they can also be harnessed for various attacks (particularly user-level
-attacks) due to their human-like reasoning abilities. We have identified areas
-that require further research efforts. For example, research on model and
-parameter extraction attacks is limited and often theoretical, hindered by LLM
-parameter scale and confidentiality. Safe instruction tuning, a recent
-development, requires more exploration. We hope that our work can shed light on
-the LLMs' potential to both bolster and jeopardize cybersecurity.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2312.01201v1">PAC Privacy Preserving Diffusion Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2023-12-02T18:42:52Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Qipan Xu, Youlong Ding, Jie Gao, Hao Wang</p>
-    <p><b>Summary:</b> Data privacy protection is garnering increased attention among researchers.
-Diffusion models (DMs), particularly with strict differential privacy, can
-potentially produce images with both high privacy and visual quality. However,
-challenges arise in ensuring robust protection in privatizing specific data
-attributes, areas where current models often fall short. To address these
-challenges, we introduce the PAC Privacy Preserving Diffusion Model, a model
-leverages diffusion principles and ensure Probably Approximately Correct (PAC)
-privacy. We enhance privacy protection by integrating a private classifier
-guidance into the Langevin Sampling Process. Additionally, recognizing the gap
-in measuring the privacy of models, we have developed a novel metric to gauge
-privacy levels. Our model, assessed with this new metric and supported by
-Gaussian matrix computations for the PAC bound, has shown superior performance
-in privacy protection over existing leading private generative models according
-to benchmark tests.</p>
   </details>
 </div>
 
