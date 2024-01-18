@@ -920,5 +920,102 @@
       "cs.CR",
       "cs.SE"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.08935v1",
+    "title" : "Privacy Protected Contactless Cardio-respiratory Monitoring using\n  Defocused Cameras during Sleep",
+    "summary" : "The monitoring of vital signs such as heart rate (HR) and respiratory rate\n(RR) during sleep is important for the assessment of sleep quality and\ndetection of sleep disorders. Camera-based HR and RR monitoring gained\npopularity in sleep monitoring in recent years. However, they are all facing\nwith serious privacy issues when using a video camera in the sleeping scenario.\nIn this paper, we propose to use the defocused camera to measure vital signs\nfrom optically blurred images, which can fundamentally eliminate the privacy\ninvasion as face is difficult to be identified in obtained blurry images. A\nspatial-redundant framework involving living-skin detection is used to extract\nHR and RR from the defocused camera in NIR, and a motion metric is designed to\nexclude outliers caused by body motions. In the benchmark, the overall Mean\nAbsolute Error (MAE) for HR measurement is 4.4 bpm, for RR measurement is 5.9\nbpm. Both have quality drops as compared to the measurement using a focused\ncamera, but the degradation in HR is much less, i.e. HR measurement has strong\ncorrelation with the reference ($R \\geq 0.90$). Preliminary experiments suggest\nthat it is feasible to use a defocused camera for cardio-respiratory monitoring\nwhile protecting the privacy. Further improvement is needed for robust RR\nmeasurement, such as by PPG-modulation based RR extraction.",
+    "updated" : "2024-01-17T03:05:24Z",
+    "published" : "2024-01-17T03:05:24Z",
+    "authors" : [
+      {
+        "name" : "Yingen Zhu"
+      },
+      {
+        "name" : "Jia Huang"
+      },
+      {
+        "name" : "Hongzhou Lu"
+      },
+      {
+        "name" : "Wenjin Wang"
+      }
+    ],
+    "categories" : [
+      "eess.SP"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.08458v1",
+    "title" : "Security and Privacy Issues and Solutions in Federated Learning for\n  Digital Healthcare",
+    "summary" : "The advent of Federated Learning has enabled the creation of a\nhigh-performing model as if it had been trained on a considerable amount of\ndata. A multitude of participants and a server cooperatively train a model\nwithout the need for data disclosure or collection. The healthcare industry,\nwhere security and privacy are paramount, can substantially benefit from this\nnew learning paradigm, as data collection is no longer feasible due to\nstringent data policies. Nonetheless, unaddressed challenges and insufficient\nattack mitigation are hampering its adoption. Attack surfaces differ from\ntraditional centralized learning in that the server and clients communicate\nbetween each round of training. In this paper, we thus present vulnerabilities,\nattacks, and defenses based on the widened attack surfaces, as well as suggest\npromising new research directions toward a more robust FL.",
+    "updated" : "2024-01-16T16:07:53Z",
+    "published" : "2024-01-16T16:07:53Z",
+    "authors" : [
+      {
+        "name" : "Hyejun Jeong"
+      },
+      {
+        "name" : "Tai-Myoung Chung"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.08723v1",
+    "title" : "HierSFL: Local Differential Privacy-aided Split Federated Learning in\n  Mobile Edge Computing",
+    "summary" : "Federated Learning is a promising approach for learning from user data while\npreserving data privacy. However, the high requirements of the model training\nprocess make it difficult for clients with limited memory or bandwidth to\nparticipate. To tackle this problem, Split Federated Learning is utilized,\nwhere clients upload their intermediate model training outcomes to a cloud\nserver for collaborative server-client model training. This methodology\nfacilitates resource-constrained clients' participation in model training but\nalso increases the training time and communication overhead. To overcome these\nlimitations, we propose a novel algorithm, called Hierarchical Split Federated\nLearning (HierSFL), that amalgamates models at the edge and cloud phases,\npresenting qualitative directives for determining the best aggregation\ntimeframes to reduce computation and communication expenses. By implementing\nlocal differential privacy at the client and edge server levels, we enhance\nprivacy during local model parameter updates. Our experiments using CIFAR-10\nand MNIST datasets show that HierSFL outperforms standard FL approaches with\nbetter training accuracy, training time, and communication-computing\ntrade-offs. HierSFL offers a promising solution to mobile edge computing's\nchallenges, ultimately leading to faster content delivery and improved mobile\nservice quality.",
+    "updated" : "2024-01-16T09:34:10Z",
+    "published" : "2024-01-16T09:34:10Z",
+    "authors" : [
+      {
+        "name" : "Minh K. Quan"
+      },
+      {
+        "name" : "Dinh C. Nguyen"
+      },
+      {
+        "name" : "Van-Dinh Nguyen"
+      },
+      {
+        "name" : "Mayuri Wijayasundara"
+      },
+      {
+        "name" : "Sujeeva Setunge"
+      },
+      {
+        "name" : "Pubudu N. Pathirana"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CV",
+      "cs.DC",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.07343v2",
+    "title" : "Privacy-Preserving Intrusion Detection in Software-defined VANET using\n  Federated Learning with BERT",
+    "summary" : "The absence of robust security protocols renders the VANET (Vehicle ad-hoc\nNetworks) network open to cyber threats by compromising passengers and road\nsafety. Intrusion Detection Systems (IDS) are widely employed to detect network\nsecurity threats. With vehicles' high mobility on the road and diverse\nenvironments, VANETs devise ever-changing network topologies, lack privacy and\nsecurity, and have limited bandwidth efficiency. The absence of privacy\nprecautions, End-to-End Encryption methods, and Local Data Processing systems\nin VANET also present many privacy and security difficulties. So, assessing\nwhether a novel real-time processing IDS approach can be utilized for this\nemerging technology is crucial. The present study introduces a novel approach\nfor intrusion detection using Federated Learning (FL) capabilities in\nconjunction with the BERT model for sequence classification (FL-BERT). The\nsignificance of data privacy is duly recognized. According to FL methodology,\neach client has its own local model and dataset. They train their models\nlocally and then send the model's weights to the server. After aggregation, the\nserver aggregates the weights from all clients to update a global model. After\naggregation, the global model's weights are shared with the clients. This\npractice guarantees the secure storage of sensitive raw data on individual\nclients' devices, effectively protecting privacy. After conducting the\nfederated learning procedure, we assessed our models' performance using a\nseparate test dataset. The FL-BERT technique has yielded promising results,\nopening avenues for further investigation in this particular area of research.\nWe reached the result of our approaches by comparing existing research works\nand found that FL-BERT is more effective for privacy and security concerns. Our\nresults suggest that FL-BERT is a promising technique for enhancing attack\ndetection.",
+    "updated" : "2024-01-17T09:25:48Z",
+    "published" : "2024-01-14T18:32:25Z",
+    "authors" : [
+      {
+        "name" : "Shakil Ibne Ahsan"
+      },
+      {
+        "name" : "Phil Legg"
+      },
+      {
+        "name" : "S M Iftekharul Alam"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
