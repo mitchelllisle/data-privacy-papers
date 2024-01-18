@@ -2,6 +2,91 @@
 <h2>2024-01</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2401.08935v1">Privacy Protected Contactless Cardio-respiratory Monitoring using
+  Defocused Cameras during Sleep</a></h3>
+  
+  <p><b>Published on:</b> 2024-01-17T03:05:24Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yingen Zhu, Jia Huang, Hongzhou Lu, Wenjin Wang</p>
+    <p><b>Summary:</b> The monitoring of vital signs such as heart rate (HR) and respiratory rate
+(RR) during sleep is important for the assessment of sleep quality and
+detection of sleep disorders. Camera-based HR and RR monitoring gained
+popularity in sleep monitoring in recent years. However, they are all facing
+with serious privacy issues when using a video camera in the sleeping scenario.
+In this paper, we propose to use the defocused camera to measure vital signs
+from optically blurred images, which can fundamentally eliminate the privacy
+invasion as face is difficult to be identified in obtained blurry images. A
+spatial-redundant framework involving living-skin detection is used to extract
+HR and RR from the defocused camera in NIR, and a motion metric is designed to
+exclude outliers caused by body motions. In the benchmark, the overall Mean
+Absolute Error (MAE) for HR measurement is 4.4 bpm, for RR measurement is 5.9
+bpm. Both have quality drops as compared to the measurement using a focused
+camera, but the degradation in HR is much less, i.e. HR measurement has strong
+correlation with the reference ($R \geq 0.90$). Preliminary experiments suggest
+that it is feasible to use a defocused camera for cardio-respiratory monitoring
+while protecting the privacy. Further improvement is needed for robust RR
+measurement, such as by PPG-modulation based RR extraction.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2401.08458v1">Security and Privacy Issues and Solutions in Federated Learning for
+  Digital Healthcare</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-01-16T16:07:53Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Hyejun Jeong, Tai-Myoung Chung</p>
+    <p><b>Summary:</b> The advent of Federated Learning has enabled the creation of a
+high-performing model as if it had been trained on a considerable amount of
+data. A multitude of participants and a server cooperatively train a model
+without the need for data disclosure or collection. The healthcare industry,
+where security and privacy are paramount, can substantially benefit from this
+new learning paradigm, as data collection is no longer feasible due to
+stringent data policies. Nonetheless, unaddressed challenges and insufficient
+attack mitigation are hampering its adoption. Attack surfaces differ from
+traditional centralized learning in that the server and clients communicate
+between each round of training. In this paper, we thus present vulnerabilities,
+attacks, and defenses based on the widened attack surfaces, as well as suggest
+promising new research directions toward a more robust FL.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2401.08723v1">HierSFL: Local Differential Privacy-aided Split Federated Learning in
+  Mobile Edge Computing</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-01-16T09:34:10Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Minh K. Quan, Dinh C. Nguyen, Van-Dinh Nguyen, Mayuri Wijayasundara, Sujeeva Setunge, Pubudu N. Pathirana</p>
+    <p><b>Summary:</b> Federated Learning is a promising approach for learning from user data while
+preserving data privacy. However, the high requirements of the model training
+process make it difficult for clients with limited memory or bandwidth to
+participate. To tackle this problem, Split Federated Learning is utilized,
+where clients upload their intermediate model training outcomes to a cloud
+server for collaborative server-client model training. This methodology
+facilitates resource-constrained clients' participation in model training but
+also increases the training time and communication overhead. To overcome these
+limitations, we propose a novel algorithm, called Hierarchical Split Federated
+Learning (HierSFL), that amalgamates models at the edge and cloud phases,
+presenting qualitative directives for determining the best aggregation
+timeframes to reduce computation and communication expenses. By implementing
+local differential privacy at the client and edge server levels, we enhance
+privacy during local model parameter updates. Our experiments using CIFAR-10
+and MNIST datasets show that HierSFL outperforms standard FL approaches with
+better training accuracy, training time, and communication-computing
+trade-offs. HierSFL offers a promising solution to mobile edge computing's
+challenges, ultimately leading to faster content delivery and improved mobile
+service quality.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2401.08038v1">Calpric: Inclusive and Fine-grain Labeling of Privacy Policies with
   Crowdsourcing and Active Learning</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
@@ -136,7 +221,7 @@ and legal standards.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2401.07343v1">Privacy-Preserving Intrusion Detection in Software-defined VANET using
+  <h3><a href="http://arxiv.org/abs/2401.07343v2">Privacy-Preserving Intrusion Detection in Software-defined VANET using
   Federated Learning with BERT</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2024-01-14T18:32:25Z</p>
@@ -2892,103 +2977,6 @@ they were surprised by collection practices excluded from Android's
 definitions. Our findings also revealed that Android users generally
 appreciated information about security practices included in the labels, and
 iOS users wanted that information added.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2401.01353v2">The Boomerang protocol: A Decentralised Privacy-Preserving Verifiable
-  Incentive Protocol</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2023-12-06T09:37:45Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ralph Ankele, Hamed Haddadi</p>
-    <p><b>Summary:</b> In the era of data-driven economies, incentive systems and loyalty programs,
-have become ubiquitous in various sectors, including advertising, retail,
-travel, and financial services. While these systems offer advantages for both
-users and companies, they necessitate the transfer and analysis of substantial
-amounts of sensitive data. Privacy concerns have become increasingly pertinent,
-necessitating the development of privacy-preserving incentive protocols.
-Despite the rising demand for secure and decentralized systems, the existing
-landscape lacks a comprehensive solution. We propose the Boomerang protocol, a
-novel decentralized privacy-preserving incentive protocol that leverages
-cryptographic black box accumulators to securely store user interactions within
-the incentive system. Moreover, the protocol employs zero-knowledge proofs
-based on BulletProofs to transparently compute rewards for users, ensuring
-verifiability while preserving their privacy. To further enhance public
-verifiability and transparency, we utilize a smart contract on a Layer 1
-blockchain to verify these zero-knowledge proofs. The careful combination of
-black box accumulators with selected elliptic curves in the zero-knowledge
-proofs makes the Boomerang protocol highly efficient. Our proof of concept
-implementation shows that we can handle up to 23.6 million users per day, on a
-single-threaded backend server with financial costs of approximately 2 USD.
-Using the Solana blockchain we can handle 15.5 million users per day with
-approximate costs of 0.00011 USD per user. The Boomerang protocol represents a
-significant advancement in privacy-preserving incentive protocols, laying the
-groundwork for a more secure and privacy-centric future.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2312.05265v1">Multimodal Group Emotion Recognition In-the-wild Using Privacy-Compliant
-  Features</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
-  <p><b>Published on:</b> 2023-12-06T08:58:11Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Anderson Augusma, Dominique Vaufreydaz, Frédérique Letué</p>
-    <p><b>Summary:</b> This paper explores privacy-compliant group-level emotion recognition
-''in-the-wild'' within the EmotiW Challenge 2023. Group-level emotion
-recognition can be useful in many fields including social robotics,
-conversational agents, e-coaching and learning analytics. This research imposes
-itself using only global features avoiding individual ones, i.e. all features
-that can be used to identify or track people in videos (facial landmarks, body
-poses, audio diarization, etc.). The proposed multimodal model is composed of a
-video and an audio branches with a cross-attention between modalities. The
-video branch is based on a fine-tuned ViT architecture. The audio branch
-extracts Mel-spectrograms and feed them through CNN blocks into a transformer
-encoder. Our training paradigm includes a generated synthetic dataset to
-increase the sensitivity of our model on facial expression within the image in
-a data-driven way. The extensive experiments show the significance of our
-methodology. Our privacy-compliant proposal performs fairly on the EmotiW
-challenge, with 79.24% and 75.13% of accuracy respectively on validation and
-test set for the best models. Noticeably, our findings highlight that it is
-possible to reach this accuracy level with privacy-compliant features using
-only 5 frames uniformly distributed on the video.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2312.03293v1">Securing Data Platforms: Strategic Masking Techniques for Privacy and
-  Security for B2B Enterprise Data</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
-  <p><b>Published on:</b> 2023-12-06T05:04:37Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mandar Khoje</p>
-    <p><b>Summary:</b> In today's digital age, the imperative to protect data privacy and security
-is a paramount concern, especially for business-to-business (B2B) enterprises
-that handle sensitive information. These enterprises are increasingly
-constructing data platforms, which are integrated suites of technology
-solutions architected for the efficient management, processing, storage, and
-data analysis. It has become critical to design these data platforms with
-mechanisms that inherently support data privacy and security, particularly as
-they encounter the added complexity of safeguarding unstructured data types
-such as log files and text documents. Within this context, data masking stands
-out as a vital feature of data platform architecture. It proactively conceals
-sensitive elements, ensuring data privacy while preserving the information's
-value for business operations and analytics. This protective measure entails a
-strategic two-fold process: firstly, accurately pinpointing the sensitive data
-that necessitates concealment, and secondly, applying sophisticated methods to
-disguise that data effectively within the data platform infrastructure. This
-research delves into the nuances of embedding advanced data masking techniques
-within the very fabric of data platforms and an in-depth exploration of how
-enterprises can adopt a comprehensive approach toward effective data masking
-implementation by exploring different identification and anonymization
-techniques.</p>
   </details>
 </div>
 
