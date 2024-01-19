@@ -1017,5 +1017,83 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.09604v1",
+    "title" : "MedBlindTuner: Towards Privacy-preserving Fine-tuning on Biomedical\n  Images with Transformers and Fully Homomorphic Encryption",
+    "summary" : "Advancements in machine learning (ML) have significantly revolutionized\nmedical image analysis, prompting hospitals to rely on external ML services.\nHowever, the exchange of sensitive patient data, such as chest X-rays, poses\ninherent privacy risks when shared with third parties. Addressing this concern,\nwe propose MedBlindTuner, a privacy-preserving framework leveraging fully\nhomomorphic encryption (FHE) and a data-efficient image transformer (DEiT).\nMedBlindTuner enables the training of ML models exclusively on FHE-encrypted\nmedical images. Our experimental evaluation demonstrates that MedBlindTuner\nachieves comparable accuracy to models trained on non-encrypted images,\noffering a secure solution for outsourcing ML computations while preserving\npatient data privacy. To the best of our knowledge, this is the first work that\nuses data-efficient image transformers and fully homomorphic encryption in this\ndomain.",
+    "updated" : "2024-01-17T21:30:22Z",
+    "published" : "2024-01-17T21:30:22Z",
+    "authors" : [
+      {
+        "name" : "Prajwal Panzade"
+      },
+      {
+        "name" : "Daniel Takabi"
+      },
+      {
+        "name" : "Zhipeng Cai"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CV",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.09519v1",
+    "title" : "Privacy Engineering in Smart Home (SH) Systems: A Comprehensive Privacy\n  Threat Analysis and Risk Management Approach",
+    "summary" : "Addressing trust concerns in Smart Home (SH) systems is imperative due to the\nlimited study on preservation approaches that focus on analyzing and evaluating\nprivacy threats for effective risk management. While most research focuses\nprimarily on user privacy, device data privacy, especially identity privacy, is\nalmost neglected, which can significantly impact overall user privacy within\nthe SH system. To this end, our study incorporates privacy engineering (PE)\nprinciples in the SH system that consider user and device data privacy. We\nstart with a comprehensive reference model for a typical SH system. Based on\nthe initial stage of LINDDUN PRO for the PE framework, we present a data flow\ndiagram (DFD) based on a typical SH reference model to better understand SH\nsystem operations. To identify potential areas of privacy threat and perform a\nprivacy threat analysis (PTA), we employ the LINDDUN PRO threat model. Then, a\nprivacy impact assessment (PIA) was carried out to implement privacy risk\nmanagement by prioritizing privacy threats based on their likelihood of\noccurrence and potential consequences. Finally, we suggest possible privacy\nenhancement techniques (PETs) that can mitigate some of these threats. The\nstudy aims to elucidate the main threats to privacy, associated risks, and\neffective prioritization of privacy control in SH systems. The outcomes of this\nstudy are expected to benefit SH stakeholders, including vendors, cloud\nproviders, users, researchers, and regulatory bodies in the SH systems domain.",
+    "updated" : "2024-01-17T17:34:52Z",
+    "published" : "2024-01-17T17:34:52Z",
+    "authors" : [
+      {
+        "name" : "Emmanuel Dare Alalade"
+      },
+      {
+        "name" : "Mohammed Mahyoub"
+      },
+      {
+        "name" : "Ashraf Matrawy"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.10158v1",
+    "title" : "DISTINQT: A Distributed Privacy Aware Learning Framework for QoS\n  Prediction for Future Mobile and Wireless Networks",
+    "summary" : "Beyond 5G and 6G networks are expected to support new and challenging use\ncases and applications that depend on a certain level of Quality of Service\n(QoS) to operate smoothly. Predicting the QoS in a timely manner is of high\nimportance, especially for safety-critical applications as in the case of\nvehicular communications. Although until recent years the QoS prediction has\nbeen carried out by centralized Artificial Intelligence (AI) solutions, a\nnumber of privacy, computational, and operational concerns have emerged.\nAlternative solutions have been surfaced (e.g. Split Learning, Federated\nLearning), distributing AI tasks of reduced complexity across nodes, while\npreserving the privacy of the data. However, new challenges rise when it comes\nto scalable distributed learning approaches, taking into account the\nheterogeneous nature of future wireless networks. The current work proposes\nDISTINQT, a privacy-aware distributed learning framework for QoS prediction.\nOur framework supports multiple heterogeneous nodes, in terms of data types and\nmodel architectures, by sharing computations across them. This, enables the\nincorporation of diverse knowledge into a sole learning process that will\nenhance the robustness and generalization capabilities of the final QoS\nprediction model. DISTINQT also contributes to data privacy preservation by\nencoding any raw input data into a non-linear latent representation before any\ntransmission. Evaluation results showcase that our framework achieves a\nstatistically identical performance compared to its centralized version and an\naverage performance improvement of up to 65% against six state-of-the-art\ncentralized baseline solutions in the Tele-Operated Driving use case.",
+    "updated" : "2024-01-15T13:00:48Z",
+    "published" : "2024-01-15T13:00:48Z",
+    "authors" : [
+      {
+        "name" : "Nikolaos Koursioumpas"
+      },
+      {
+        "name" : "Lina Magoula"
+      },
+      {
+        "name" : "Ioannis Stavrakakis"
+      },
+      {
+        "name" : "Nancy Alonistioti"
+      },
+      {
+        "name" : "M. A. Gutierrez-Estevez"
+      },
+      {
+        "name" : "Ramin Khalili"
+      }
+    ],
+    "categories" : [
+      "cs.NI",
+      "cs.AI",
+      "cs.CR",
+      "cs.DC",
+      "cs.LG"
+    ]
   }
 ]
