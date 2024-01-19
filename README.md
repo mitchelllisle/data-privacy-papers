@@ -2,6 +2,63 @@
 <h2>2024-01</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2401.09604v1">MedBlindTuner: Towards Privacy-preserving Fine-tuning on Biomedical
+  Images with Transformers and Fully Homomorphic Encryption</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-01-17T21:30:22Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Prajwal Panzade, Daniel Takabi, Zhipeng Cai</p>
+    <p><b>Summary:</b> Advancements in machine learning (ML) have significantly revolutionized
+medical image analysis, prompting hospitals to rely on external ML services.
+However, the exchange of sensitive patient data, such as chest X-rays, poses
+inherent privacy risks when shared with third parties. Addressing this concern,
+we propose MedBlindTuner, a privacy-preserving framework leveraging fully
+homomorphic encryption (FHE) and a data-efficient image transformer (DEiT).
+MedBlindTuner enables the training of ML models exclusively on FHE-encrypted
+medical images. Our experimental evaluation demonstrates that MedBlindTuner
+achieves comparable accuracy to models trained on non-encrypted images,
+offering a secure solution for outsourcing ML computations while preserving
+patient data privacy. To the best of our knowledge, this is the first work that
+uses data-efficient image transformers and fully homomorphic encryption in this
+domain.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2401.09519v1">Privacy Engineering in Smart Home (SH) Systems: A Comprehensive Privacy
+  Threat Analysis and Risk Management Approach</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-01-17T17:34:52Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Emmanuel Dare Alalade, Mohammed Mahyoub, Ashraf Matrawy</p>
+    <p><b>Summary:</b> Addressing trust concerns in Smart Home (SH) systems is imperative due to the
+limited study on preservation approaches that focus on analyzing and evaluating
+privacy threats for effective risk management. While most research focuses
+primarily on user privacy, device data privacy, especially identity privacy, is
+almost neglected, which can significantly impact overall user privacy within
+the SH system. To this end, our study incorporates privacy engineering (PE)
+principles in the SH system that consider user and device data privacy. We
+start with a comprehensive reference model for a typical SH system. Based on
+the initial stage of LINDDUN PRO for the PE framework, we present a data flow
+diagram (DFD) based on a typical SH reference model to better understand SH
+system operations. To identify potential areas of privacy threat and perform a
+privacy threat analysis (PTA), we employ the LINDDUN PRO threat model. Then, a
+privacy impact assessment (PIA) was carried out to implement privacy risk
+management by prioritizing privacy threats based on their likelihood of
+occurrence and potential consequences. Finally, we suggest possible privacy
+enhancement techniques (PETs) that can mitigate some of these threats. The
+study aims to elucidate the main threats to privacy, associated risks, and
+effective prioritization of privacy control in SH systems. The outcomes of this
+study are expected to benefit SH stakeholders, including vendors, cloud
+providers, users, researchers, and regulatory bodies in the SH systems domain.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2401.08935v1">Privacy Protected Contactless Cardio-respiratory Monitoring using
   Defocused Cameras during Sleep</a></h3>
   
@@ -170,6 +227,41 @@ contained within the data stores - known as Single-Nucleotide Polymorphisms
 (SNPs) - into a bilinear group accumulator in batch mode, which can then be
 searched by a trusted entity for matches. The time to create the witness proof
 and to verify were measured at 0.86 ms and 10.90 ms, respectively.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2401.10158v1">DISTINQT: A Distributed Privacy Aware Learning Framework for QoS
+  Prediction for Future Mobile and Wireless Networks</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-01-15T13:00:48Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Nikolaos Koursioumpas, Lina Magoula, Ioannis Stavrakakis, Nancy Alonistioti, M. A. Gutierrez-Estevez, Ramin Khalili</p>
+    <p><b>Summary:</b> Beyond 5G and 6G networks are expected to support new and challenging use
+cases and applications that depend on a certain level of Quality of Service
+(QoS) to operate smoothly. Predicting the QoS in a timely manner is of high
+importance, especially for safety-critical applications as in the case of
+vehicular communications. Although until recent years the QoS prediction has
+been carried out by centralized Artificial Intelligence (AI) solutions, a
+number of privacy, computational, and operational concerns have emerged.
+Alternative solutions have been surfaced (e.g. Split Learning, Federated
+Learning), distributing AI tasks of reduced complexity across nodes, while
+preserving the privacy of the data. However, new challenges rise when it comes
+to scalable distributed learning approaches, taking into account the
+heterogeneous nature of future wireless networks. The current work proposes
+DISTINQT, a privacy-aware distributed learning framework for QoS prediction.
+Our framework supports multiple heterogeneous nodes, in terms of data types and
+model architectures, by sharing computations across them. This, enables the
+incorporation of diverse knowledge into a sole learning process that will
+enhance the robustness and generalization capabilities of the final QoS
+prediction model. DISTINQT also contributes to data privacy preservation by
+encoding any raw input data into a non-linear latent representation before any
+transmission. Evaluation results showcase that our framework achieves a
+statistically identical performance compared to its centralized version and an
+average performance improvement of up to 65% against six state-of-the-art
+centralized baseline solutions in the Tele-Operated Driving use case.</p>
   </details>
 </div>
 
@@ -2889,94 +2981,6 @@ an important effect on which group is more sensitive to the obfuscation. Last,
 we summarize our findings in the form of recommendations to guide practitioners
 in adopting effective privacy-preserving practices while maintaining fairness
 and utility in ML applications.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2312.04106v1">Identity-Obscured Neural Radiance Fields: Privacy-Preserving 3D Facial
-  Reconstruction</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2023-12-07T07:41:10Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jiayi Kong, Baixin Xu, Xurui Song, Chen Qian, Jun Luo, Ying He</p>
-    <p><b>Summary:</b> Neural radiance fields (NeRF) typically require a complete set of images
-taken from multiple camera perspectives to accurately reconstruct geometric
-details. However, this approach raise significant privacy concerns in the
-context of facial reconstruction. The critical need for privacy protection
-often leads invidividuals to be reluctant in sharing their facial images, due
-to fears of potential misuse or security risks. Addressing these concerns, we
-propose a method that leverages privacy-preserving images for reconstructing 3D
-head geometry within the NeRF framework. Our method stands apart from
-traditional facial reconstruction techniques as it does not depend on RGB
-information from images containing sensitive facial data. Instead, it
-effectively generates plausible facial geometry using a series of
-identity-obscured inputs, thereby protecting facial privacy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2312.04068v1">Making Translators Privacy-aware on the User's Side</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2023-12-07T06:23:17Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ryoma Sato</p>
-    <p><b>Summary:</b> We propose PRISM to enable users of machine translation systems to preserve
-the privacy of data on their own initiative. There is a growing demand to apply
-machine translation systems to data that require privacy protection. While
-several machine translation engines claim to prioritize privacy, the extent and
-specifics of such protection are largely ambiguous. First, there is often a
-lack of clarity on how and to what degree the data is protected. Even if
-service providers believe they have sufficient safeguards in place,
-sophisticated adversaries might still extract sensitive information. Second,
-vulnerabilities may exist outside of these protective measures, such as within
-communication channels, potentially leading to data leakage. As a result, users
-are hesitant to utilize machine translation engines for data demanding high
-levels of privacy protection, thereby missing out on their benefits. PRISM
-resolves this problem. Instead of relying on the translation service to keep
-data safe, PRISM provides the means to protect data on the user's side. This
-approach ensures that even machine translation engines with inadequate privacy
-measures can be used securely. For platforms already equipped with privacy
-safeguards, PRISM acts as an additional protection layer, reinforcing their
-security furthermore. PRISM adds these privacy features without significantly
-compromising translation accuracy. Our experiments demonstrate the
-effectiveness of PRISM using real-world translators, T5 and ChatGPT
-(GPT-3.5-turbo), and the datasets with two languages. PRISM effectively
-balances privacy protection with translation accuracy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2312.03918v2">Data Safety vs. App Privacy: Comparing the Usability of Android and iOS
-  Privacy Labels</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2023-12-06T21:32:32Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yanzi Lin, Jaideep Juneja, Eleanor Birrell, Lorrie Faith Cranor</p>
-    <p><b>Summary:</b> Privacy labels -- standardized, compact representations of data collection
-and data use practices -- are often presented as a solution to the shortcomings
-of privacy policies. Apple introduced mandatory privacy labels for apps in its
-App Store in December 2020; Google introduced mandatory labels for Android apps
-in July 2022. iOS app privacy labels have been evaluated and critiqued in prior
-work. In this work, we evaluated Android Data Safety Labels and explored how
-differences between the two label designs impact user comprehension and label
-utility. We conducted a between-subjects, semi-structured interview study with
-12 Android users and 12 iOS users. While some users found Android Data Safety
-Labels informative and helpful, other users found them too vague. Compared to
-iOS App Privacy Labels, Android users found the distinction between data
-collection groups more intuitive and found explicit inclusion of omitted data
-collection groups more salient. However, some users expressed skepticism
-regarding elided information about collected data type categories. Most users
-missed critical information due to not expanding the accordion interface, and
-they were surprised by collection practices excluded from Android's
-definitions. Our findings also revealed that Android users generally
-appreciated information about security practices included in the labels, and
-iOS users wanted that information added.</p>
   </details>
 </div>
 
