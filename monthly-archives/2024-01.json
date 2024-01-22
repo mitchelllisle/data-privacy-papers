@@ -1095,5 +1095,54 @@
       "cs.DC",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.10765v1",
+    "title" : "Starlit: Privacy-Preserving Federated Learning to Enhance Financial\n  Fraud Detection",
+    "summary" : "Federated Learning (FL) is a data-minimization approach enabling\ncollaborative model training across diverse clients with local data, avoiding\ndirect data exchange. However, state-of-the-art FL solutions to identify\nfraudulent financial transactions exhibit a subset of the following\nlimitations. They (1) lack a formal security definition and proof, (2) assume\nprior freezing of suspicious customers' accounts by financial institutions\n(limiting the solutions' adoption), (3) scale poorly, involving either $O(n^2)$\ncomputationally expensive modular exponentiation (where $n$ is the total number\nof financial institutions) or highly inefficient fully homomorphic encryption,\n(4) assume the parties have already completed the identity alignment phase,\nhence excluding it from the implementation, performance evaluation, and\nsecurity analysis, and (5) struggle to resist clients' dropouts. This work\nintroduces Starlit, a novel scalable privacy-preserving FL mechanism that\novercomes these limitations. It has various applications, such as enhancing\nfinancial fraud detection, mitigating terrorism, and enhancing digital health.\nWe implemented Starlit and conducted a thorough performance analysis using\nsynthetic data from a key player in global financial transactions. The\nevaluation indicates Starlit's scalability, efficiency, and accuracy.",
+    "updated" : "2024-01-19T15:37:11Z",
+    "published" : "2024-01-19T15:37:11Z",
+    "authors" : [
+      {
+        "name" : "Aydin Abadi"
+      },
+      {
+        "name" : "Bradley Doyle"
+      },
+      {
+        "name" : "Francesco Gini"
+      },
+      {
+        "name" : "Kieron Guinamard"
+      },
+      {
+        "name" : "Sasi Kumar Murakonda"
+      },
+      {
+        "name" : "Jack Liddell"
+      },
+      {
+        "name" : "Paul Mellor"
+      },
+      {
+        "name" : "Steven J. Murdoch"
+      },
+      {
+        "name" : "Mohammad Naseri"
+      },
+      {
+        "name" : "Hector Page"
+      },
+      {
+        "name" : "George Theodorakopoulos"
+      },
+      {
+        "name" : "Suzanne Weller"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
   }
 ]
