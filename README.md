@@ -2,6 +2,36 @@
 <h2>2024-01</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2401.10765v1">Starlit: Privacy-Preserving Federated Learning to Enhance Financial
+  Fraud Detection</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-01-19T15:37:11Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Aydin Abadi, Bradley Doyle, Francesco Gini, Kieron Guinamard, Sasi Kumar Murakonda, Jack Liddell, Paul Mellor, Steven J. Murdoch, Mohammad Naseri, Hector Page, George Theodorakopoulos, Suzanne Weller</p>
+    <p><b>Summary:</b> Federated Learning (FL) is a data-minimization approach enabling
+collaborative model training across diverse clients with local data, avoiding
+direct data exchange. However, state-of-the-art FL solutions to identify
+fraudulent financial transactions exhibit a subset of the following
+limitations. They (1) lack a formal security definition and proof, (2) assume
+prior freezing of suspicious customers' accounts by financial institutions
+(limiting the solutions' adoption), (3) scale poorly, involving either $O(n^2)$
+computationally expensive modular exponentiation (where $n$ is the total number
+of financial institutions) or highly inefficient fully homomorphic encryption,
+(4) assume the parties have already completed the identity alignment phase,
+hence excluding it from the implementation, performance evaluation, and
+security analysis, and (5) struggle to resist clients' dropouts. This work
+introduces Starlit, a novel scalable privacy-preserving FL mechanism that
+overcomes these limitations. It has various applications, such as enhancing
+financial fraud detection, mitigating terrorism, and enhancing digital health.
+We implemented Starlit and conducted a thorough performance analysis using
+synthetic data from a key player in global financial transactions. The
+evaluation indicates Starlit's scalability, efficiency, and accuracy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2401.09604v1">MedBlindTuner: Towards Privacy-preserving Fine-tuning on Biomedical
   Images with Transformers and Fully Homomorphic Encryption</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
@@ -1274,7 +1304,7 @@ to facilitating personalized education with privacy protection.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2312.15591v1">Privacy-Preserving Neural Graph Databases</a></h3>
+  <h3><a href="http://arxiv.org/abs/2312.15591v2">Privacy-Preserving Neural Graph Databases</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2023-12-25T02:32:05Z</p>
   <details>
@@ -2953,34 +2983,6 @@ resources, forging a path toward efficient quantum communication-assisted FL
 protocols and contributing to the development of secure distributed quantum
 machine learning, thus addressing critical privacy concerns in the quantum
 computing era.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2312.04404v2">On the Impact of Multi-dimensional Local Differential Privacy on
-  Fairness</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2023-12-07T16:17:34Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Karima Makhlouf, Heber H. Arcolezi, Sami Zhioua, Ghassen Ben Brahim, Catuscia Palamidessi</p>
-    <p><b>Summary:</b> Automated decision systems are increasingly used to make consequential
-decisions in people's lives. Due to the sensitivity of the manipulated data as
-well as the resulting decisions, several ethical concerns need to be addressed
-for the appropriate use of such technologies, in particular, fairness and
-privacy. Unlike previous work, which focused on centralized differential
-privacy (DP) or local DP (LDP) for a single sensitive attribute, in this paper,
-we examine the impact of LDP in the presence of several sensitive attributes
-(i.e., multi-dimensional data) on fairness. Detailed empirical analysis on
-synthetic and benchmark datasets revealed very relevant observations. In
-particular, (1) multi-dimensional LDP is an efficient approach to reduce
-disparity, (2) the multi-dimensional approach of LDP (independent vs. combined)
-matters only at low privacy guarantees, and (3) the outcome Y distribution has
-an important effect on which group is more sensitive to the obfuscation. Last,
-we summarize our findings in the form of recommendations to guide practitioners
-in adopting effective privacy-preserving practices while maintaining fairness
-and utility in ML applications.</p>
   </details>
 </div>
 
