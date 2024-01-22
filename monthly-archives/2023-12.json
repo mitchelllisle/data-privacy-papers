@@ -2343,5 +2343,31 @@
       "cs.CL",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2312.15591v2",
+    "title" : "Privacy-Preserving Neural Graph Databases",
+    "summary" : "In the era of big data and rapidly evolving information systems, efficient\nand accurate data retrieval has become increasingly crucial. Neural graph\ndatabases (NGDBs) have emerged as a powerful paradigm that combines the\nstrengths of graph databases (graph DBs) and neural networks to enable\nefficient storage, retrieval, and analysis of graph-structured data. The usage\nof neural embedding storage and complex neural logical query answering provides\nNGDBs with generalization ability. When the graph is incomplete, by extracting\nlatent patterns and representations, neural graph databases can fill gaps in\nthe graph structure, revealing hidden relationships and enabling accurate query\nanswering. Nevertheless, this capability comes with inherent trade-offs, as it\nintroduces additional privacy risks to the database. Malicious attackers can\ninfer more sensitive information in the database using well-designed\ncombinatorial queries, such as by comparing the answer sets of where Turing\nAward winners born before 1950 and after 1940 lived, the living places of\nTuring Award winner Hinton are probably exposed, although the living places may\nhave been deleted in the training due to the privacy concerns. In this work,\ninspired by the privacy protection in graph embeddings, we propose a\nprivacy-preserving neural graph database (P-NGDB) to alleviate the risks of\nprivacy leakage in NGDBs. We introduce adversarial training techniques in the\ntraining stage to force the NGDBs to generate indistinguishable answers when\nqueried with private information, enhancing the difficulty of inferring\nsensitive information through combinations of multiple innocuous queries.\nExtensive experiment results on three datasets show that P-NGDB can effectively\nprotect private information in the graph database while delivering high-quality\npublic answers responses to queries.",
+    "updated" : "2024-01-19T14:08:23Z",
+    "published" : "2023-12-25T02:32:05Z",
+    "authors" : [
+      {
+        "name" : "Qi Hu"
+      },
+      {
+        "name" : "Haoran Li"
+      },
+      {
+        "name" : "Jiaxin Bai"
+      },
+      {
+        "name" : "Yangqiu Song"
+      }
+    ],
+    "categories" : [
+      "cs.DB",
+      "cs.CR",
+      "cs.LG"
+    ]
   }
 ]
