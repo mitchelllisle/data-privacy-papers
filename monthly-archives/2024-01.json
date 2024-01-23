@@ -1144,5 +1144,299 @@
       "cs.LG",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.11983v1",
+    "title" : "Lightweight Protection for Privacy in Offloaded Speech Understanding",
+    "summary" : "Speech is a common input method for mobile embedded devices, but cloud-based\nspeech recognition systems pose privacy risks. Disentanglement-based encoders,\ndesigned to safeguard user privacy by filtering sensitive information from\nspeech signals, unfortunately require substantial memory and computational\nresources, which limits their use in less powerful devices. To overcome this,\nwe introduce a novel system, XXX, optimized for such devices. XXX is built on\nthe insight that speech understanding primarily relies on understanding the\nentire utterance's long-term dependencies, while privacy concerns are often\nlinked to short-term details. Therefore, XXX focuses on selectively masking\nthese short-term elements, preserving the quality of long-term speech\nunderstanding. The core of XXX is an innovative differential mask generator,\ngrounded in interpretable learning, which fine-tunes the masking process. We\ntested XXX on the STM32H7 microcontroller, assessing its performance in various\npotential attack scenarios. The results show that XXX maintains speech\nunderstanding accuracy and privacy at levels comparable to existing encoders,\nbut with a significant improvement in efficiency, achieving up to 53.3$\\times$\nfaster processing and a 134.1$\\times$ smaller memory footprint.",
+    "updated" : "2024-01-22T14:36:01Z",
+    "published" : "2024-01-22T14:36:01Z",
+    "authors" : [
+      {
+        "name" : "Dongqi Cai"
+      },
+      {
+        "name" : "Shangguang Wang"
+      },
+      {
+        "name" : "Zeling Zhang"
+      },
+      {
+        "name" : "Felix Xiaozhu Lin"
+      },
+      {
+        "name" : "Mengwei Xu"
+      }
+    ],
+    "categories" : [
+      "cs.SD",
+      "cs.CR",
+      "eess.AS"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.11857v1",
+    "title" : "Adversarial speech for voice privacy protection from Personalized Speech\n  generation",
+    "summary" : "The rapid progress in personalized speech generation technology, including\npersonalized text-to-speech (TTS) and voice conversion (VC), poses a challenge\nin distinguishing between generated and real speech for human listeners,\nresulting in an urgent demand in protecting speakers' voices from malicious\nmisuse. In this regard, we propose a speaker protection method based on\nadversarial attacks. The proposed method perturbs speech signals by minimally\naltering the original speech while rendering downstream speech generation\nmodels unable to accurately generate the voice of the target speaker. For\nvalidation, we employ the open-source pre-trained YourTTS model for speech\ngeneration and protect the target speaker's speech in the white-box scenario.\nAutomatic speaker verification (ASV) evaluations were carried out on the\ngenerated speech as the assessment of the voice protection capability. Our\nexperimental results show that we successfully perturbed the speaker encoder of\nthe YourTTS model using the gradient-based I-FGSM adversarial perturbation\nmethod. Furthermore, the adversarial perturbation is effective in preventing\nthe YourTTS model from generating the speech of the target speaker. Audio\nsamples can be found in\nhttps://voiceprivacy.github.io/Adeversarial-Speech-with-YourTTS.",
+    "updated" : "2024-01-22T11:26:59Z",
+    "published" : "2024-01-22T11:26:59Z",
+    "authors" : [
+      {
+        "name" : "Shihao Chen"
+      },
+      {
+        "name" : "Liping Chen"
+      },
+      {
+        "name" : "Jie Zhang"
+      },
+      {
+        "name" : "KongAik Lee"
+      },
+      {
+        "name" : "Zhenhua Ling"
+      },
+      {
+        "name" : "Lirong Dai"
+      }
+    ],
+    "categories" : [
+      "eess.AS",
+      "cs.SD"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.11836v1",
+    "title" : "Privacy-Preserving Data Fusion for Traffic State Estimation: A Vertical\n  Federated Learning Approach",
+    "summary" : "This paper proposes a privacy-preserving data fusion method for traffic state\nestimation (TSE). Unlike existing works that assume all data sources to be\naccessible by a single trusted party, we explicitly address data privacy\nconcerns that arise in the collaboration and data sharing between multiple data\nowners, such as municipal authorities (MAs) and mobility providers (MPs). To\nthis end, we propose a novel vertical federated learning (FL) approach, FedTSE,\nthat enables multiple data owners to collaboratively train and apply a TSE\nmodel without having to exchange their private data. To enhance the\napplicability of the proposed FedTSE in common TSE scenarios with limited\navailability of ground-truth data, we further propose a privacy-preserving\nphysics-informed FL approach, i.e., FedTSE-PI, that integrates traffic models\ninto FL. Real-world data validation shows that the proposed methods can protect\nprivacy while yielding similar accuracy to the oracle method without privacy\nconsiderations.",
+    "updated" : "2024-01-22T10:52:22Z",
+    "published" : "2024-01-22T10:52:22Z",
+    "authors" : [
+      {
+        "name" : "Qiqing Wang"
+      },
+      {
+        "name" : "Kaidi Yang"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "cs.SY",
+      "eess.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.11735v1",
+    "title" : "zkLogin: Privacy-Preserving Blockchain Authentication with Existing\n  Credentials",
+    "summary" : "For many users, a private key based wallet serves as the primary entry point\nto blockchains. Commonly recommended wallet authentication methods, such as\nmnemonics or hardware wallets, can be cumbersome. This difficulty in user\nonboarding has significantly hindered the adoption of blockchain-based\napplications.\n  We develop zkLogin, a novel technique that leverages identity tokens issued\nby popular platforms (any OpenID Connect enabled platform e.g. Google,\nFacebook, etc.) to authenticate transactions. At the heart of zkLogin lies a\nsignature scheme allowing the signer to \\textit{sign using their existing\nOpenID accounts} and nothing else. This improves the user experience\nsignificantly as users do not need to remember a new secret and can reuse their\nexisting accounts.\n  zkLogin provides strong security and privacy guarantees. By design, zkLogin\nbuilds on top of the underlying platform's authentication mechanisms, and\nderives its security from there. Unlike prior related works however, zkLogin\navoids the use of additional trusted parties (e.g., trusted hardware or\noracles) for its security guarantees. zkLogin leverages zero-knowledge proofs\n(ZKP) to ensure that the link between a user's off-chain and on-chain\nidentities is hidden, even from the platform itself.\n  We have implemented and deployed zkLogin on the Sui blockchain as an\nalternative to traditional digital signature-based addresses. Due to the ease\nof web3 on-boarding just with social login, without requiring mnemonics, many\nhundreds of thousands zkLogin accounts have already been generated in various\nindustries such as gaming, DeFi, direct payments, NFT collections, ride\nsharing, sports racing and many more.",
+    "updated" : "2024-01-22T07:23:58Z",
+    "published" : "2024-01-22T07:23:58Z",
+    "authors" : [
+      {
+        "name" : "Foteini Baldimtsi"
+      },
+      {
+        "name" : "Konstantinos Kryptos Chalkias"
+      },
+      {
+        "name" : "Yan Ji"
+      },
+      {
+        "name" : "Jonas Lindstrøm"
+      },
+      {
+        "name" : "Deepak Maram"
+      },
+      {
+        "name" : "Ben Riva"
+      },
+      {
+        "name" : "Arnab Roy"
+      },
+      {
+        "name" : "Mahdi Sedaghat"
+      },
+      {
+        "name" : "Joy Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.11592v1",
+    "title" : "Differential Privacy in Hierarchical Federated Learning: A Formal\n  Analysis and Evaluation",
+    "summary" : "While federated learning (FL) eliminates the transmission of raw data over a\nnetwork, it is still vulnerable to privacy breaches from the communicated model\nparameters. In this work, we formalize Differentially Private Hierarchical\nFederated Learning (DP-HFL), a DP-enhanced FL methodology that seeks to improve\nthe privacy-utility tradeoff inherent in FL. Building upon recent proposals for\nHierarchical Differential Privacy (HDP), one of the key concepts of DP-HFL is\nadapting DP noise injection at different layers of an established FL hierarchy\n-- edge devices, edge servers, and cloud servers -- according to the trust\nmodels within particular subnetworks. We conduct a comprehensive analysis of\nthe convergence behavior of DP-HFL, revealing conditions on parameter tuning\nunder which the model training process converges sublinearly to a stationarity\ngap, with this gap depending on the network hierarchy, trust model, and target\nprivacy level. Subsequent numerical evaluations demonstrate that DP-HFL obtains\nsubstantial improvements in convergence speed over baselines for different\nprivacy budgets, and validate the impact of network configuration on training.",
+    "updated" : "2024-01-21T20:46:21Z",
+    "published" : "2024-01-21T20:46:21Z",
+    "authors" : [
+      {
+        "name" : "Frank Po-Chen Lin"
+      },
+      {
+        "name" : "Christopher Brinton"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.11305v1",
+    "title" : "Progress in Privacy Protection: A Review of Privacy Preserving\n  Techniques in Recommender Systems, Edge Computing, and Cloud Computing",
+    "summary" : "As digital technology evolves, the increasing use of connected devices brings\nboth challenges and opportunities in the areas of mobile crowdsourcing, edge\ncomputing, and recommender systems. This survey focuses on these dynamic\nfields, emphasizing the critical need for privacy protection in our\nincreasingly data-oriented world. It explores the latest trends in these\ninterconnected areas, with a special emphasis on privacy and data security. Our\nmethod involves an in-depth analysis of various academic works, which helps us\nto gain a comprehensive understanding of these sectors and their shifting focus\ntowards privacy concerns. We present new insights and marks a significant\nadvancement in addressing privacy issues within these technologies. The survey\nis a valuable resource for researchers, industry practitioners, and policy\nmakers, offering an extensive overview of these fields and their related\nprivacy challenges, catering to a wide audience in the modern digital era.",
+    "updated" : "2024-01-20T19:32:56Z",
+    "published" : "2024-01-20T19:32:56Z",
+    "authors" : [
+      {
+        "name" : "Syed Raza Bashir"
+      },
+      {
+        "name" : "Shaina Raza"
+      },
+      {
+        "name" : "Vojislav Misic"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.11249v1",
+    "title" : "Evaluating if trust and personal information privacy concerns are\n  barriers to using health insurance that explicitly utilizes AI",
+    "summary" : "Trust and privacy have emerged as significant concerns in online\ntransactions. Sharing information on health is especially sensitive but it is\nnecessary for purchasing and utilizing health insurance. Evidence shows that\nconsumers are increasingly comfortable with technology in place of humans, but\nthe expanding use of AI potentially changes this. This research explores\nwhether trust and privacy concern are barriers to the adoption of AI in health\ninsurance. Two scenarios are compared: The first scenario has limited AI that\nis not in the interface and its presence is not explicitly revealed to the\nconsumer. In the second scenario there is an AI interface and AI evaluation,\nand this is explicitly revealed to the consumer. The two scenarios were modeled\nand compared using SEM PLS-MGA. The findings show that trust is significantly\nlower in the second scenario where AI is visible. Privacy concerns are higher\nwith AI but the difference is not statistically significant within the model.",
+    "updated" : "2024-01-20T15:02:56Z",
+    "published" : "2024-01-20T15:02:56Z",
+    "authors" : [
+      {
+        "name" : "Alex Zarifis"
+      },
+      {
+        "name" : "Peter Kawalek"
+      },
+      {
+        "name" : "Aida Azadegan"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.AI",
+      "H.0; A.0; K.4; K.6"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.11225v1",
+    "title" : "Protecting Personalized Trajectory with Differential Privacy under\n  Temporal Correlations",
+    "summary" : "Location-based services (LBSs) in vehicular ad hoc networks (VANETs) offer\nusers numerous conveniences. However, the extensive use of LBSs raises concerns\nabout the privacy of users' trajectories, as adversaries can exploit temporal\ncorrelations between different locations to extract personal information.\nAdditionally, users have varying privacy requirements depending on the time and\nlocation. To address these issues, this paper proposes a personalized\ntrajectory privacy protection mechanism (PTPPM). This mechanism first uses the\ntemporal correlation between trajectory locations to determine the possible\nlocation set for each time instant. We identify a protection location set (PLS)\nfor each location by employing the Hilbert curve-based minimum distance search\nalgorithm. This approach incorporates the complementary features of\ngeo-indistinguishability and distortion privacy. We put forth a novel\nPermute-and-Flip mechanism for location perturbation, which maps its initial\napplication in data publishing privacy protection to a location perturbation\nmechanism. This mechanism generates fake locations with smaller perturbation\ndistances while improving the balance between privacy and quality of service\n(QoS). Simulation results show that our mechanism outperforms the benchmark by\nproviding enhanced privacy protection while meeting user's QoS requirements.",
+    "updated" : "2024-01-20T12:59:08Z",
+    "published" : "2024-01-20T12:59:08Z",
+    "authors" : [
+      {
+        "name" : "Mingge Cao"
+      },
+      {
+        "name" : "Haopeng Zhu"
+      },
+      {
+        "name" : "Minghui Min"
+      },
+      {
+        "name" : "Yulu Li"
+      },
+      {
+        "name" : "Shiyin Li"
+      },
+      {
+        "name" : "Hongliang Zhang"
+      },
+      {
+        "name" : "Zhu Han"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.11089v1",
+    "title" : "FedRKG: A Privacy-preserving Federated Recommendation Framework via\n  Knowledge Graph Enhancement",
+    "summary" : "Federated Learning (FL) has emerged as a promising approach for preserving\ndata privacy in recommendation systems by training models locally. Recently,\nGraph Neural Networks (GNN) have gained popularity in recommendation tasks due\nto their ability to capture high-order interactions between users and items.\nHowever, privacy concerns prevent the global sharing of the entire user-item\ngraph. To address this limitation, some methods create pseudo-interacted items\nor users in the graph to compensate for missing information for each client.\nUnfortunately, these methods introduce random noise and raise privacy concerns.\nIn this paper, we propose FedRKG, a novel federated recommendation system,\nwhere a global knowledge graph (KG) is constructed and maintained on the server\nusing publicly available item information, enabling higher-order user-item\ninteractions. On the client side, a relation-aware GNN model leverages diverse\nKG relationships. To protect local interaction items and obscure gradients, we\nemploy pseudo-labeling and Local Differential Privacy (LDP). Extensive\nexperiments conducted on three real-world datasets demonstrate the competitive\nperformance of our approach compared to centralized algorithms while ensuring\nprivacy preservation. Moreover, FedRKG achieves an average accuracy improvement\nof 4% compared to existing federated learning baselines.",
+    "updated" : "2024-01-20T02:38:21Z",
+    "published" : "2024-01-20T02:38:21Z",
+    "authors" : [
+      {
+        "name" : "Dezhong Yao"
+      },
+      {
+        "name" : "Tongtong Liu"
+      },
+      {
+        "name" : "Qi Cao"
+      },
+      {
+        "name" : "Hai Jin"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.DC",
+      "cs.IR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.10765v2",
+    "title" : "Starlit: Privacy-Preserving Federated Learning to Enhance Financial\n  Fraud Detection",
+    "summary" : "Federated Learning (FL) is a data-minimization approach enabling\ncollaborative model training across diverse clients with local data, avoiding\ndirect data exchange. However, state-of-the-art FL solutions to identify\nfraudulent financial transactions exhibit a subset of the following\nlimitations. They (1) lack a formal security definition and proof, (2) assume\nprior freezing of suspicious customers' accounts by financial institutions\n(limiting the solutions' adoption), (3) scale poorly, involving either $O(n^2)$\ncomputationally expensive modular exponentiation (where $n$ is the total number\nof financial institutions) or highly inefficient fully homomorphic encryption,\n(4) assume the parties have already completed the identity alignment phase,\nhence excluding it from the implementation, performance evaluation, and\nsecurity analysis, and (5) struggle to resist clients' dropouts. This work\nintroduces Starlit, a novel scalable privacy-preserving FL mechanism that\novercomes these limitations. It has various applications, such as enhancing\nfinancial fraud detection, mitigating terrorism, and enhancing digital health.\nWe implemented Starlit and conducted a thorough performance analysis using\nsynthetic data from a key player in global financial transactions. The\nevaluation indicates Starlit's scalability, efficiency, and accuracy.",
+    "updated" : "2024-01-22T08:17:42Z",
+    "published" : "2024-01-19T15:37:11Z",
+    "authors" : [
+      {
+        "name" : "Aydin Abadi"
+      },
+      {
+        "name" : "Bradley Doyle"
+      },
+      {
+        "name" : "Francesco Gini"
+      },
+      {
+        "name" : "Kieron Guinamard"
+      },
+      {
+        "name" : "Sasi Kumar Murakonda"
+      },
+      {
+        "name" : "Jack Liddell"
+      },
+      {
+        "name" : "Paul Mellor"
+      },
+      {
+        "name" : "Steven J. Murdoch"
+      },
+      {
+        "name" : "Mohammad Naseri"
+      },
+      {
+        "name" : "Hector Page"
+      },
+      {
+        "name" : "George Theodorakopoulos"
+      },
+      {
+        "name" : "Suzanne Weller"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
   }
 ]
