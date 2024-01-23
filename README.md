@@ -2,7 +2,265 @@
 <h2>2024-01</h2>
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2401.10765v1">Starlit: Privacy-Preserving Federated Learning to Enhance Financial
+  <h3><a href="http://arxiv.org/abs/2401.11983v1">Lightweight Protection for Privacy in Offloaded Speech Understanding</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Sound-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
+  <p><b>Published on:</b> 2024-01-22T14:36:01Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Dongqi Cai, Shangguang Wang, Zeling Zhang, Felix Xiaozhu Lin, Mengwei Xu</p>
+    <p><b>Summary:</b> Speech is a common input method for mobile embedded devices, but cloud-based
+speech recognition systems pose privacy risks. Disentanglement-based encoders,
+designed to safeguard user privacy by filtering sensitive information from
+speech signals, unfortunately require substantial memory and computational
+resources, which limits their use in less powerful devices. To overcome this,
+we introduce a novel system, XXX, optimized for such devices. XXX is built on
+the insight that speech understanding primarily relies on understanding the
+entire utterance's long-term dependencies, while privacy concerns are often
+linked to short-term details. Therefore, XXX focuses on selectively masking
+these short-term elements, preserving the quality of long-term speech
+understanding. The core of XXX is an innovative differential mask generator,
+grounded in interpretable learning, which fine-tunes the masking process. We
+tested XXX on the STM32H7 microcontroller, assessing its performance in various
+potential attack scenarios. The results show that XXX maintains speech
+understanding accuracy and privacy at levels comparable to existing encoders,
+but with a significant improvement in efficiency, achieving up to 53.3$\times$
+faster processing and a 134.1$\times$ smaller memory footprint.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2401.11857v1">Adversarial speech for voice privacy protection from Personalized Speech
+  generation</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Sound-D91E36">
+  <p><b>Published on:</b> 2024-01-22T11:26:59Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shihao Chen, Liping Chen, Jie Zhang, KongAik Lee, Zhenhua Ling, Lirong Dai</p>
+    <p><b>Summary:</b> The rapid progress in personalized speech generation technology, including
+personalized text-to-speech (TTS) and voice conversion (VC), poses a challenge
+in distinguishing between generated and real speech for human listeners,
+resulting in an urgent demand in protecting speakers' voices from malicious
+misuse. In this regard, we propose a speaker protection method based on
+adversarial attacks. The proposed method perturbs speech signals by minimally
+altering the original speech while rendering downstream speech generation
+models unable to accurately generate the voice of the target speaker. For
+validation, we employ the open-source pre-trained YourTTS model for speech
+generation and protect the target speaker's speech in the white-box scenario.
+Automatic speaker verification (ASV) evaluations were carried out on the
+generated speech as the assessment of the voice protection capability. Our
+experimental results show that we successfully perturbed the speaker encoder of
+the YourTTS model using the gradient-based I-FGSM adversarial perturbation
+method. Furthermore, the adversarial perturbation is effective in preventing
+the YourTTS model from generating the speech of the target speaker. Audio
+samples can be found in
+https://voiceprivacy.github.io/Adeversarial-Speech-with-YourTTS.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2401.11836v1">Privacy-Preserving Data Fusion for Traffic State Estimation: A Vertical
+  Federated Learning Approach</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36"> 
+  <p><b>Published on:</b> 2024-01-22T10:52:22Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Qiqing Wang, Kaidi Yang</p>
+    <p><b>Summary:</b> This paper proposes a privacy-preserving data fusion method for traffic state
+estimation (TSE). Unlike existing works that assume all data sources to be
+accessible by a single trusted party, we explicitly address data privacy
+concerns that arise in the collaboration and data sharing between multiple data
+owners, such as municipal authorities (MAs) and mobility providers (MPs). To
+this end, we propose a novel vertical federated learning (FL) approach, FedTSE,
+that enables multiple data owners to collaboratively train and apply a TSE
+model without having to exchange their private data. To enhance the
+applicability of the proposed FedTSE in common TSE scenarios with limited
+availability of ground-truth data, we further propose a privacy-preserving
+physics-informed FL approach, i.e., FedTSE-PI, that integrates traffic models
+into FL. Real-world data validation shows that the proposed methods can protect
+privacy while yielding similar accuracy to the oracle method without privacy
+considerations.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2401.11735v1">zkLogin: Privacy-Preserving Blockchain Authentication with Existing
+  Credentials</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-01-22T07:23:58Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Foteini Baldimtsi, Konstantinos Kryptos Chalkias, Yan Ji, Jonas Lindstrøm, Deepak Maram, Ben Riva, Arnab Roy, Mahdi Sedaghat, Joy Wang</p>
+    <p><b>Summary:</b> For many users, a private key based wallet serves as the primary entry point
+to blockchains. Commonly recommended wallet authentication methods, such as
+mnemonics or hardware wallets, can be cumbersome. This difficulty in user
+onboarding has significantly hindered the adoption of blockchain-based
+applications.
+  We develop zkLogin, a novel technique that leverages identity tokens issued
+by popular platforms (any OpenID Connect enabled platform e.g. Google,
+Facebook, etc.) to authenticate transactions. At the heart of zkLogin lies a
+signature scheme allowing the signer to \textit{sign using their existing
+OpenID accounts} and nothing else. This improves the user experience
+significantly as users do not need to remember a new secret and can reuse their
+existing accounts.
+  zkLogin provides strong security and privacy guarantees. By design, zkLogin
+builds on top of the underlying platform's authentication mechanisms, and
+derives its security from there. Unlike prior related works however, zkLogin
+avoids the use of additional trusted parties (e.g., trusted hardware or
+oracles) for its security guarantees. zkLogin leverages zero-knowledge proofs
+(ZKP) to ensure that the link between a user's off-chain and on-chain
+identities is hidden, even from the platform itself.
+  We have implemented and deployed zkLogin on the Sui blockchain as an
+alternative to traditional digital signature-based addresses. Due to the ease
+of web3 on-boarding just with social login, without requiring mnemonics, many
+hundreds of thousands zkLogin accounts have already been generated in various
+industries such as gaming, DeFi, direct payments, NFT collections, ride
+sharing, sports racing and many more.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2401.11592v1">Differential Privacy in Hierarchical Federated Learning: A Formal
+  Analysis and Evaluation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
+  <p><b>Published on:</b> 2024-01-21T20:46:21Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Frank Po-Chen Lin, Christopher Brinton</p>
+    <p><b>Summary:</b> While federated learning (FL) eliminates the transmission of raw data over a
+network, it is still vulnerable to privacy breaches from the communicated model
+parameters. In this work, we formalize Differentially Private Hierarchical
+Federated Learning (DP-HFL), a DP-enhanced FL methodology that seeks to improve
+the privacy-utility tradeoff inherent in FL. Building upon recent proposals for
+Hierarchical Differential Privacy (HDP), one of the key concepts of DP-HFL is
+adapting DP noise injection at different layers of an established FL hierarchy
+-- edge devices, edge servers, and cloud servers -- according to the trust
+models within particular subnetworks. We conduct a comprehensive analysis of
+the convergence behavior of DP-HFL, revealing conditions on parameter tuning
+under which the model training process converges sublinearly to a stationarity
+gap, with this gap depending on the network hierarchy, trust model, and target
+privacy level. Subsequent numerical evaluations demonstrate that DP-HFL obtains
+substantial improvements in convergence speed over baselines for different
+privacy budgets, and validate the impact of network configuration on training.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2401.11305v1">Progress in Privacy Protection: A Review of Privacy Preserving
+  Techniques in Recommender Systems, Edge Computing, and Cloud Computing</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2024-01-20T19:32:56Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Syed Raza Bashir, Shaina Raza, Vojislav Misic</p>
+    <p><b>Summary:</b> As digital technology evolves, the increasing use of connected devices brings
+both challenges and opportunities in the areas of mobile crowdsourcing, edge
+computing, and recommender systems. This survey focuses on these dynamic
+fields, emphasizing the critical need for privacy protection in our
+increasingly data-oriented world. It explores the latest trends in these
+interconnected areas, with a special emphasis on privacy and data security. Our
+method involves an in-depth analysis of various academic works, which helps us
+to gain a comprehensive understanding of these sectors and their shifting focus
+towards privacy concerns. We present new insights and marks a significant
+advancement in addressing privacy issues within these technologies. The survey
+is a valuable resource for researchers, industry practitioners, and policy
+makers, offering an extensive overview of these fields and their related
+privacy challenges, catering to a wide audience in the modern digital era.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2401.11249v1">Evaluating if trust and personal information privacy concerns are
+  barriers to using health insurance that explicitly utilizes AI</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> 
+  <p><b>Published on:</b> 2024-01-20T15:02:56Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Alex Zarifis, Peter Kawalek, Aida Azadegan</p>
+    <p><b>Summary:</b> Trust and privacy have emerged as significant concerns in online
+transactions. Sharing information on health is especially sensitive but it is
+necessary for purchasing and utilizing health insurance. Evidence shows that
+consumers are increasingly comfortable with technology in place of humans, but
+the expanding use of AI potentially changes this. This research explores
+whether trust and privacy concern are barriers to the adoption of AI in health
+insurance. Two scenarios are compared: The first scenario has limited AI that
+is not in the interface and its presence is not explicitly revealed to the
+consumer. In the second scenario there is an AI interface and AI evaluation,
+and this is explicitly revealed to the consumer. The two scenarios were modeled
+and compared using SEM PLS-MGA. The findings show that trust is significantly
+lower in the second scenario where AI is visible. Privacy concerns are higher
+with AI but the difference is not statistically significant within the model.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2401.11225v1">Protecting Personalized Trajectory with Differential Privacy under
+  Temporal Correlations</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-01-20T12:59:08Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mingge Cao, Haopeng Zhu, Minghui Min, Yulu Li, Shiyin Li, Hongliang Zhang, Zhu Han</p>
+    <p><b>Summary:</b> Location-based services (LBSs) in vehicular ad hoc networks (VANETs) offer
+users numerous conveniences. However, the extensive use of LBSs raises concerns
+about the privacy of users' trajectories, as adversaries can exploit temporal
+correlations between different locations to extract personal information.
+Additionally, users have varying privacy requirements depending on the time and
+location. To address these issues, this paper proposes a personalized
+trajectory privacy protection mechanism (PTPPM). This mechanism first uses the
+temporal correlation between trajectory locations to determine the possible
+location set for each time instant. We identify a protection location set (PLS)
+for each location by employing the Hilbert curve-based minimum distance search
+algorithm. This approach incorporates the complementary features of
+geo-indistinguishability and distortion privacy. We put forth a novel
+Permute-and-Flip mechanism for location perturbation, which maps its initial
+application in data publishing privacy protection to a location perturbation
+mechanism. This mechanism generates fake locations with smaller perturbation
+distances while improving the balance between privacy and quality of service
+(QoS). Simulation results show that our mechanism outperforms the benchmark by
+providing enhanced privacy protection while meeting user's QoS requirements.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2401.11089v1">FedRKG: A Privacy-preserving Federated Recommendation Framework via
+  Knowledge Graph Enhancement</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB">
+  <p><b>Published on:</b> 2024-01-20T02:38:21Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Dezhong Yao, Tongtong Liu, Qi Cao, Hai Jin</p>
+    <p><b>Summary:</b> Federated Learning (FL) has emerged as a promising approach for preserving
+data privacy in recommendation systems by training models locally. Recently,
+Graph Neural Networks (GNN) have gained popularity in recommendation tasks due
+to their ability to capture high-order interactions between users and items.
+However, privacy concerns prevent the global sharing of the entire user-item
+graph. To address this limitation, some methods create pseudo-interacted items
+or users in the graph to compensate for missing information for each client.
+Unfortunately, these methods introduce random noise and raise privacy concerns.
+In this paper, we propose FedRKG, a novel federated recommendation system,
+where a global knowledge graph (KG) is constructed and maintained on the server
+using publicly available item information, enabling higher-order user-item
+interactions. On the client side, a relation-aware GNN model leverages diverse
+KG relationships. To protect local interaction items and obscure gradients, we
+employ pseudo-labeling and Local Differential Privacy (LDP). Extensive
+experiments conducted on three real-world datasets demonstrate the competitive
+performance of our approach compared to centralized algorithms while ensuring
+privacy preservation. Moreover, FedRKG achieves an average accuracy improvement
+of 4% compared to existing federated learning baselines.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2401.10765v2">Starlit: Privacy-Preserving Federated Learning to Enhance Financial
   Fraud Detection</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2024-01-19T15:37:11Z</p>
@@ -2712,277 +2970,6 @@ thereby offering more nuanced and effective insights. We benchmark our method
 using text classification tasks on datasets such as CoLA, SST-2, and Rotten
 Tomatoes. Across different batch sizes and models, our approach consistently
 outperforms previous state-of-the-art results.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2312.05686v1">Privacy Preserving Multi-Agent Reinforcement Learning in Supply Chains</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2023-12-09T21:25:21Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ananta Mukherjee, Peeyush Kumar, Boling Yang, Nishanth Chandran, Divya Gupta</p>
-    <p><b>Summary:</b> This paper addresses privacy concerns in multi-agent reinforcement learning
-(MARL), specifically within the context of supply chains where individual
-strategic data must remain confidential. Organizations within the supply chain
-are modeled as agents, each seeking to optimize their own objectives while
-interacting with others. As each organization's strategy is contingent on
-neighboring strategies, maintaining privacy of state and action-related
-information is crucial. To tackle this challenge, we propose a game-theoretic,
-privacy-preserving mechanism, utilizing a secure multi-party computation (MPC)
-framework in MARL settings. Our major contribution is the successful
-implementation of a secure MPC framework, SecFloat on EzPC, to solve this
-problem. However, simply implementing policy gradient methods such as MADDPG
-operations using SecFloat, while conceptually feasible, would be
-programmatically intractable. To overcome this hurdle, we devise a novel
-approach that breaks down the forward and backward pass of the neural network
-into elementary operations compatible with SecFloat , creating efficient and
-secure versions of the MADDPG algorithm. Furthermore, we present a learning
-mechanism that carries out floating point operations in a privacy-preserving
-manner, an important feature for successful learning in MARL framework.
-Experiments reveal that there is on average 68.19% less supply chain wastage in
-2 PC compared to no data share, while also giving on average 42.27% better
-average cumulative revenue for each player. This work paves the way for
-practical, privacy-preserving MARL, promising significant improvements in
-secure computation within supply chain contexts and broadly.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2312.05659v1">Optimal Unbiased Randomizers for Regression with Label Differential
-  Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2023-12-09T19:58:34Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ashwinkumar Badanidiyuru, Badih Ghazi, Pritish Kamath, Ravi Kumar, Ethan Leeman, Pasin Manurangsi, Avinash V Varadarajan, Chiyuan Zhang</p>
-    <p><b>Summary:</b> We propose a new family of label randomizers for training regression models
-under the constraint of label differential privacy (DP). In particular, we
-leverage the trade-offs between bias and variance to construct better label
-randomizers depending on a privately estimated prior distribution over the
-labels. We demonstrate that these randomizers achieve state-of-the-art
-privacy-utility trade-offs on several datasets, highlighting the importance of
-reducing bias when training neural networks with label DP. We also provide
-theoretical results shedding light on the structural properties of the optimal
-unbiased randomizers.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2312.05436v1">Trading Off Scalability, Privacy, and Performance in Data Synthesis</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
-  <p><b>Published on:</b> 2023-12-09T02:04:25Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Xiao Ling, Tim Menzies, Christopher Hazard, Jack Shu, Jacob Beel</p>
-    <p><b>Summary:</b> Synthetic data has been widely applied in the real world recently. One
-typical example is the creation of synthetic data for privacy concerned
-datasets. In this scenario, synthetic data substitute the real data which
-contains the privacy information, and is used to public testing for machine
-learning models. Another typical example is the unbalance data over-sampling
-which the synthetic data is generated in the region of minority samples to
-balance the positive and negative ratio when training the machine learning
-models. In this study, we concentrate on the first example, and introduce (a)
-the Howso engine, and (b) our proposed random projection based synthetic data
-generation framework. We evaluate these two algorithms on the aspects of
-privacy preservation and accuracy, and compare them to the two state-of-the-art
-synthetic data generation algorithms DataSynthesizer and Synthetic Data Vault.
-We show that the synthetic data generated by Howso engine has good privacy and
-accuracy, which results the best overall score. On the other hand, our proposed
-random projection based framework can generate synthetic data with highest
-accuracy score, and has the fastest scalability.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2312.05183v1">A Privacy-Preserving Framework for Cloud-Based HVAC Control</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
-  <p><b>Published on:</b> 2023-12-08T17:09:54Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zhenan Feng, Ehsan Nekouei</p>
-    <p><b>Summary:</b> The objective of this work is (i) to develop an encrypted cloud-based HVAC
-control framework to ensure the privacy of occupancy information, (ii) to
-reduce the communication and computation costs of encrypted HVAC control.
-Occupancy of a building is sensitive and private information that can be
-accurately inferred by cloud-based HVAC controllers. To ensure the privacy of
-the privacy information, in our framework, the measurements of an HVAC system
-are encrypted by a fully homomorphic encryption prior to communication with the
-cloud controller. We first develop an encrypted fast gradient algorithm that
-allows the cloud controller to regulate the indoor temperature and CO$_2$ of a
-building by solving two model predictive control problems. We next develop an
-event-triggered control policy to reduce the communication and computation
-costs of the encrypted HVAC control. We cast the optimal design of the
-event-triggered policy as an optimal control problem wherein the objective is
-to minimize a linear combination of the control and communication costs. Using
-Bellman's optimality principle, we study the structural properties of the
-optimal event-triggered policy and show that the optimal triggering policy is a
-function of the current state, the last communicated state with the cloud, and
-the time since the last communication with the cloud. We also show that the
-optimal design of the event-triggered policy can be transformed into a Markov
-decision process by introducing two new states. We finally study the
-performance of the developed encrypted HVAC control framework using the TRNSYS
-simulator. Our numerical results show that the proposed framework not only
-ensures efficient control of the indoor temperature and CO$_2$ but also reduces
-the computation and communication costs of encrypted HVAC control by at least
-60%.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2312.05114v1">On the Inadequacy of Similarity-based Privacy Metrics: Reconstruction
-  Attacks against "Truly Anonymous Synthetic Data''</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2023-12-08T15:42:28Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Georgi Ganev, Emiliano De Cristofaro</p>
-    <p><b>Summary:</b> Training generative models to produce synthetic data is meant to provide a
-privacy-friendly approach to data release. However, we get robust guarantees
-only when models are trained to satisfy Differential Privacy (DP). Alas, this
-is not the standard in industry as many companies use ad-hoc strategies to
-empirically evaluate privacy based on the statistical similarity between
-synthetic and real data. In this paper, we review the privacy metrics offered
-by leading companies in this space and shed light on a few critical flaws in
-reasoning about privacy entirely via empirical evaluations. We analyze the
-undesirable properties of the most popular metrics and filters and demonstrate
-their unreliability and inconsistency through counter-examples. We then present
-a reconstruction attack, ReconSyn, which successfully recovers (i.e., leaks all
-attributes of) at least 78% of the low-density train records (or outliers) with
-only black-box access to a single fitted generative model and the privacy
-metrics. Finally, we show that applying DP only to the model or using
-low-utility generators does not mitigate ReconSyn as the privacy leakage
-predominantly comes from the metrics. Overall, our work serves as a warning to
-practitioners not to deviate from established privacy-preserving mechanisms.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2312.04903v1">Differential privacy statistical inference for a directed graph network
-  model with covariates</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36"> 
-  <p><b>Published on:</b> 2023-12-08T08:36:18Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jing Luo, Zhimeng Xu</p>
-    <p><b>Summary:</b> The real network has two characteristics: heterogeneity and homogeneity. A
-directed network model with covariates is proposed to analyze these two
-features, and the asymptotic theory of parameter Maximum likelihood
-estimators(MLEs) is established. However, in many practical cases, network data
-often carries a lot of sensitive information. How to achieve the trade-off
-between privacy and utility has become an important issue in network data
-analysis. In this paper, we study a directed $\beta$-model with covariates
-under differential privacy mechanism. It includes $2n$-dimensional node degree
-parameters $\boldsymbol{\theta}$ and a $p$-dimensional homogeneity parameter
-$\boldsymbol{\gamma}$ that describes the covariate effect. We use the discrete
-Laplace mechanism to release noise for the bi-degree sequences. Based on moment
-equations, we estimate the parameters of both degree heterogeneity and
-homogeneity in the model, and derive the consistency and asymptotic normality
-of the differentially private estimators as the number of nodes tends to
-infinity. Numerical simulations and case studies are provided to demonstrate
-the validity of our theoretical results.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2312.04738v1">DPI: Ensuring Strict Differential Privacy for Infinite Data Streaming</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2023-12-07T22:37:54Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shuya Feng, Meisam Mohammady, Han Wang, Xiaochen Li, Zhan Qin, Yuan Hong</p>
-    <p><b>Summary:</b> Streaming data, crucial for applications like crowdsourcing analytics,
-behavior studies, and real-time monitoring, faces significant privacy risks due
-to the large and diverse data linked to individuals. In particular, recent
-efforts to release data streams, using the rigorous privacy notion of
-differential privacy (DP), have encountered issues with unbounded privacy
-leakage. This challenge limits their applicability to only a finite number of
-time slots (''finite data stream'') or relaxation to protecting the events
-(''event or $w$-event DP'') rather than all the records of users. A persistent
-challenge is managing the sensitivity of outputs to inputs in situations where
-users contribute many activities and data distributions evolve over time. In
-this paper, we present a novel technique for Differentially Private data
-streaming over Infinite disclosure (DPI) that effectively bounds the total
-privacy leakage of each user in infinite data streams while enabling accurate
-data collection and analysis. Furthermore, we also maximize the accuracy of DPI
-via a novel boosting mechanism. Finally, extensive experiments across various
-streaming applications and real datasets (e.g., COVID-19, Network Traffic, and
-USDA Production), show that DPI maintains high utility for infinite data
-streams in diverse settings. Code for DPI is available at
-https://github.com/ShuyaFeng/DPI.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2312.04692v1">Diffence: Fencing Membership Privacy With Diffusion Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2023-12-07T20:45:09Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yuefeng Peng, Ali Naseh, Amir Houmansadr</p>
-    <p><b>Summary:</b> Deep learning models, while achieving remarkable performance across various
-tasks, are vulnerable to member inference attacks, wherein adversaries identify
-if a specific data point was part of a model's training set. This
-susceptibility raises substantial privacy concerns, especially when models are
-trained on sensitive datasets. Current defense methods often struggle to
-provide robust protection without hurting model utility, and they often require
-retraining the model or using extra data. In this work, we introduce a novel
-defense framework against membership attacks by leveraging generative models.
-The key intuition of our defense is to remove the differences between member
-and non-member inputs which can be used to perform membership attacks, by
-re-generating input samples before feeding them to the target model. Therefore,
-our defense works \emph{pre-inference}, which is unlike prior defenses that are
-either training-time (modify the model) or post-inference time (modify the
-model's output).
-  A unique feature of our defense is that it works on input samples only,
-without modifying the training or inference phase of the target model.
-Therefore, it can be cascaded with other defense mechanisms as we demonstrate
-through experiments. Through extensive experimentation, we show that our
-approach can serve as a robust plug-n-play defense mechanism, enhancing
-membership privacy without compromising model utility in both baseline and
-defended settings. For example, our method enhanced the effectiveness of recent
-state-of-the-art defenses, reducing attack accuracy by an average of 5.7\% to
-12.4\% across three datasets, without any impact on the model's accuracy. By
-integrating our method with prior defenses, we achieve new state-of-the-art
-performance in the privacy-utility trade-off.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2312.04447v1">Privacy-preserving quantum federated learning via gradient hiding</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2023-12-07T17:16:30Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Changhao Li, Niraj Kumar, Zhixin Song, Shouvanik Chakrabarti, Marco Pistoia</p>
-    <p><b>Summary:</b> Distributed quantum computing, particularly distributed quantum machine
-learning, has gained substantial prominence for its capacity to harness the
-collective power of distributed quantum resources, transcending the limitations
-of individual quantum nodes. Meanwhile, the critical concern of privacy within
-distributed computing protocols remains a significant challenge, particularly
-in standard classical federated learning (FL) scenarios where data of
-participating clients is susceptible to leakage via gradient inversion attacks
-by the server. This paper presents innovative quantum protocols with quantum
-communication designed to address the FL problem, strengthen privacy measures,
-and optimize communication efficiency. In contrast to previous works that
-leverage expressive variational quantum circuits or differential privacy
-techniques, we consider gradient information concealment using quantum states
-and propose two distinct FL protocols, one based on private inner-product
-estimation and the other on incremental learning. These protocols offer
-substantial advancements in privacy preservation with low communication
-resources, forging a path toward efficient quantum communication-assisted FL
-protocols and contributing to the development of secure distributed quantum
-machine learning, thus addressing critical privacy concerns in the quantum
-computing era.</p>
   </details>
 </div>
 
