@@ -2,6 +2,79 @@
 <h2>2024-01</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2401.12436v1">Wasserstein Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-01-23T02:08:20Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Chengyi Yang, Jiayin Qi, Aimin Zhou</p>
+    <p><b>Summary:</b> Differential privacy (DP) has achieved remarkable results in the field of
+privacy-preserving machine learning. However, existing DP frameworks do not
+satisfy all the conditions for becoming metrics, which prevents them from
+deriving better basic private properties and leads to exaggerated values on
+privacy budgets. We propose Wasserstein differential privacy (WDP), an
+alternative DP framework to measure the risk of privacy leakage, which
+satisfies the properties of symmetry and triangle inequality. We show and prove
+that WDP has 13 excellent properties, which can be theoretical supports for the
+better performance of WDP than other DP frameworks. In addition, we derive a
+general privacy accounting method called Wasserstein accountant, which enables
+WDP to be applied in stochastic gradient descent (SGD) scenarios containing
+sub-sampling. Experiments on basic mechanisms, compositions and deep learning
+show that the privacy budgets obtained by Wasserstein accountant are relatively
+stable and less influenced by order. Moreover, the overestimation on privacy
+budgets can be effectively alleviated. The code is available at
+https://github.com/Hifipsysta/WDP.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2401.12393v1">A Learning-based Declarative Privacy-Preserving Framework for Federated
+  Data Management</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-01-22T22:50:59Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Hong Guan, Summer Gautier, Deepti Gupta, Rajan Hari Ambrish, Yancheng Wang, Harsha Lakamsani, Dhanush Giriyan, Saajan Maslanka, Chaowei Xiao, Yingzhen Yang, Jia Zou</p>
+    <p><b>Summary:</b> It is challenging to balance the privacy and accuracy for federated query
+processing over multiple private data silos. In this work, we will demonstrate
+an end-to-end workflow for automating an emerging privacy-preserving technique
+that uses a deep learning model trained using the Differentially-Private
+Stochastic Gradient Descent (DP-SGD) algorithm to replace portions of actual
+data to answer a query. Our proposed novel declarative privacy-preserving
+workflow allows users to specify "what private information to protect" rather
+than "how to protect". Under the hood, the system automatically chooses
+query-model transformation plans as well as hyper-parameters. At the same time,
+the proposed workflow also allows human experts to review and tune the selected
+privacy-preserving mechanism for audit/compliance, and optimization purposes.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2401.12391v1">Approximation of Pufferfish Privacy for Gaussian Priors</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
+  <p><b>Published on:</b> 2024-01-22T22:43:38Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ni Ding</p>
+    <p><b>Summary:</b> This paper studies how to approximate pufferfish privacy when the adversary's
+prior belief of the published data is Gaussian distributed. Using Monge's
+optimal transport plan, we show that $(\epsilon, \delta)$-pufferfish privacy is
+attained if the additive Laplace noise is calibrated to the differences in mean
+and variance of the Gaussian distributions conditioned on every discriminative
+secret pair. A typical application is the private release of the summation (or
+average) query, for which sufficient conditions are derived for approximating
+$\epsilon$-statistical indistinguishability in individual's sensitive data. The
+result is then extended to arbitrary prior beliefs trained by Gaussian mixture
+models (GMMs): calibrating Laplace noise to a convex combination of differences
+in mean and variance between Gaussian components attains
+$(\epsilon,\delta)$-pufferfish privacy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2401.11983v1">Lightweight Protection for Privacy in Offloaded Speech Understanding</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Sound-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
   <p><b>Published on:</b> 2024-01-22T14:36:01Z</p>
@@ -2888,88 +2961,6 @@ protect data privacy, maintain the FL utility, and be efficient as well.
 Experimental results also show that TAPPFL outperforms the existing
 defenses\footnote{Source code and full version:
 \url{https://github.com/TAPPFL}}.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2312.06658v1">Mean estimation in the add-remove model of differential privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36">  
-  <p><b>Published on:</b> 2023-12-11T18:59:35Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Alex Kulesza, Ananda Theertha Suresh, Yuyan Wang</p>
-    <p><b>Summary:</b> Differential privacy is often studied under two different models of
-neighboring datasets: the add-remove model and the swap model. While the swap
-model is used extensively in the academic literature, many practical libraries
-use the more conservative add-remove model. However, analysis under the
-add-remove model can be cumbersome, and obtaining results with tight constants
-requires some additional work. Here, we study the problem of one-dimensional
-mean estimation under the add-remove model of differential privacy. We propose
-a new algorithm and show that it is min-max optimal, that it has the correct
-constant in the leading term of the mean squared error, and that this constant
-is the same as the optimal algorithm in the swap model. Our results show that,
-for mean estimation, the add-remove and swap model give nearly identical error
-even though the add-remove model cannot treat the size of the dataset as public
-information. In addition, we demonstrate empirically that our proposed
-algorithm yields a factor of two improvement in mean squared error over
-algorithms often used in practice.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2312.06717v1">Privacy Issues in Large Language Models: A Survey</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2023-12-11T01:26:53Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Seth Neel, Peter Chang</p>
-    <p><b>Summary:</b> This is the first survey of the active area of AI research that focuses on
-privacy issues in Large Language Models (LLMs). Specifically, we focus on work
-that red-teams models to highlight privacy risks, attempts to build privacy
-into the training or inference process, enables efficient data deletion from
-trained models to comply with existing privacy regulations, and tries to
-mitigate copyright issues. Our focus is on summarizing technical research that
-develops algorithms, proves theorems, and runs empirical evaluations. While
-there is an extensive body of legal and policy work addressing these challenges
-from a different angle, that is not the focus of our survey. Nevertheless,
-these works, along with recent legal developments do inform how these technical
-problems are formalized, and so we discuss them briefly in Section 1. While we
-have made our best effort to include all the relevant work, due to the fast
-moving nature of this research we may have missed some recent work. If we have
-missed some of your work please contact us, as we will attempt to keep this
-survey relatively up to date. We are maintaining a repository with the list of
-papers covered in this survey and any relevant code that was publicly available
-at https://github.com/safr-ml-lab/survey-llm.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2312.05720v2">Beyond Gradient and Priors in Privacy Attacks: Leveraging Pooler Layer
-  Inputs of Language Models in Federated Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2023-12-10T01:19:59Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jianwei Li, Sheng Liu, Qi Lei</p>
-    <p><b>Summary:</b> Federated learning (FL) emphasizes decentralized training by storing data
-locally and sending only model updates, underlining user privacy. Recently, a
-line of works on privacy attacks impairs user privacy by extracting sensitive
-training text from language models in the context of FL. Yet, these attack
-techniques face distinct hurdles: some work chiefly with limited batch sizes
-(e.g., batch size of 1), and others are easily detectable. This paper
-introduces an innovative approach that is challenging to detect, significantly
-enhancing the recovery rate of text in various batch-size settings. Building on
-fundamental gradient matching and domain prior knowledge, we enhance the attack
-by recovering the input of the Pooler layer of language models, which enables
-us to provide additional supervised signals at the feature level. Unlike
-gradient data, these signals do not average across sentences and tokens,
-thereby offering more nuanced and effective insights. We benchmark our method
-using text classification tasks on datasets such as CoLA, SST-2, and Rotten
-Tomatoes. Across different batch sizes and models, our approach consistently
-outperforms previous state-of-the-art results.</p>
   </details>
 </div>
 
