@@ -1438,5 +1438,90 @@
       "cs.LG",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.12436v1",
+    "title" : "Wasserstein Differential Privacy",
+    "summary" : "Differential privacy (DP) has achieved remarkable results in the field of\nprivacy-preserving machine learning. However, existing DP frameworks do not\nsatisfy all the conditions for becoming metrics, which prevents them from\nderiving better basic private properties and leads to exaggerated values on\nprivacy budgets. We propose Wasserstein differential privacy (WDP), an\nalternative DP framework to measure the risk of privacy leakage, which\nsatisfies the properties of symmetry and triangle inequality. We show and prove\nthat WDP has 13 excellent properties, which can be theoretical supports for the\nbetter performance of WDP than other DP frameworks. In addition, we derive a\ngeneral privacy accounting method called Wasserstein accountant, which enables\nWDP to be applied in stochastic gradient descent (SGD) scenarios containing\nsub-sampling. Experiments on basic mechanisms, compositions and deep learning\nshow that the privacy budgets obtained by Wasserstein accountant are relatively\nstable and less influenced by order. Moreover, the overestimation on privacy\nbudgets can be effectively alleviated. The code is available at\nhttps://github.com/Hifipsysta/WDP.",
+    "updated" : "2024-01-23T02:08:20Z",
+    "published" : "2024-01-23T02:08:20Z",
+    "authors" : [
+      {
+        "name" : "Chengyi Yang"
+      },
+      {
+        "name" : "Jiayin Qi"
+      },
+      {
+        "name" : "Aimin Zhou"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.12393v1",
+    "title" : "A Learning-based Declarative Privacy-Preserving Framework for Federated\n  Data Management",
+    "summary" : "It is challenging to balance the privacy and accuracy for federated query\nprocessing over multiple private data silos. In this work, we will demonstrate\nan end-to-end workflow for automating an emerging privacy-preserving technique\nthat uses a deep learning model trained using the Differentially-Private\nStochastic Gradient Descent (DP-SGD) algorithm to replace portions of actual\ndata to answer a query. Our proposed novel declarative privacy-preserving\nworkflow allows users to specify \"what private information to protect\" rather\nthan \"how to protect\". Under the hood, the system automatically chooses\nquery-model transformation plans as well as hyper-parameters. At the same time,\nthe proposed workflow also allows human experts to review and tune the selected\nprivacy-preserving mechanism for audit/compliance, and optimization purposes.",
+    "updated" : "2024-01-22T22:50:59Z",
+    "published" : "2024-01-22T22:50:59Z",
+    "authors" : [
+      {
+        "name" : "Hong Guan"
+      },
+      {
+        "name" : "Summer Gautier"
+      },
+      {
+        "name" : "Deepti Gupta"
+      },
+      {
+        "name" : "Rajan Hari Ambrish"
+      },
+      {
+        "name" : "Yancheng Wang"
+      },
+      {
+        "name" : "Harsha Lakamsani"
+      },
+      {
+        "name" : "Dhanush Giriyan"
+      },
+      {
+        "name" : "Saajan Maslanka"
+      },
+      {
+        "name" : "Chaowei Xiao"
+      },
+      {
+        "name" : "Yingzhen Yang"
+      },
+      {
+        "name" : "Jia Zou"
+      }
+    ],
+    "categories" : [
+      "cs.DB",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.12391v1",
+    "title" : "Approximation of Pufferfish Privacy for Gaussian Priors",
+    "summary" : "This paper studies how to approximate pufferfish privacy when the adversary's\nprior belief of the published data is Gaussian distributed. Using Monge's\noptimal transport plan, we show that $(\\epsilon, \\delta)$-pufferfish privacy is\nattained if the additive Laplace noise is calibrated to the differences in mean\nand variance of the Gaussian distributions conditioned on every discriminative\nsecret pair. A typical application is the private release of the summation (or\naverage) query, for which sufficient conditions are derived for approximating\n$\\epsilon$-statistical indistinguishability in individual's sensitive data. The\nresult is then extended to arbitrary prior beliefs trained by Gaussian mixture\nmodels (GMMs): calibrating Laplace noise to a convex combination of differences\nin mean and variance between Gaussian components attains\n$(\\epsilon,\\delta)$-pufferfish privacy.",
+    "updated" : "2024-01-22T22:43:38Z",
+    "published" : "2024-01-22T22:43:38Z",
+    "authors" : [
+      {
+        "name" : "Ni Ding"
+      }
+    ],
+    "categories" : [
+      "cs.IT",
+      "cs.CR",
+      "math.IT"
+    ]
   }
 ]
