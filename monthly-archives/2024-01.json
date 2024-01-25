@@ -1523,5 +1523,48 @@
       "cs.CR",
       "math.IT"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.13386v1",
+    "title" : "Privacy-Preserving Face Recognition in Hybrid Frequency-Color Domain",
+    "summary" : "Face recognition technology has been deployed in various real-life\napplications. The most sophisticated deep learning-based face recognition\nsystems rely on training millions of face images through complex deep neural\nnetworks to achieve high accuracy. It is quite common for clients to upload\nface images to the service provider in order to access the model inference.\nHowever, the face image is a type of sensitive biometric attribute tied to the\nidentity information of each user. Directly exposing the raw face image to the\nservice provider poses a threat to the user's privacy. Current\nprivacy-preserving approaches to face recognition focus on either concealing\nvisual information on model input or protecting model output face embedding.\nThe noticeable drop in recognition accuracy is a pitfall for most methods. This\npaper proposes a hybrid frequency-color fusion approach to reduce the input\ndimensionality of face recognition in the frequency domain. Moreover, sparse\ncolor information is also introduced to alleviate significant accuracy\ndegradation after adding differential privacy noise. Besides, an\nidentity-specific embedding mapping scheme is applied to protect original face\nembedding by enlarging the distance among identities. Lastly, secure multiparty\ncomputation is implemented for safely computing the embedding distance during\nmodel inference. The proposed method performs well on multiple widely used\nverification datasets. Moreover, it has around 2.6% to 4.2% higher accuracy\nthan the state-of-the-art in the 1:N verification scenario.",
+    "updated" : "2024-01-24T11:27:32Z",
+    "published" : "2024-01-24T11:27:32Z",
+    "authors" : [
+      {
+        "name" : "Dong Han"
+      },
+      {
+        "name" : "Yong Li"
+      },
+      {
+        "name" : "Joachim Denzler"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.13327v1",
+    "title" : "Generating Synthetic Health Sensor Data for Privacy-Preserving Wearable\n  Stress Detection",
+    "summary" : "Smartwatch health sensor data is increasingly utilized in smart health\napplications and patient monitoring, including stress detection. However, such\nmedical data often comprises sensitive personal information and is\nresource-intensive to acquire for research purposes. In response to this\nchallenge, we introduce the privacy-aware synthetization of multi-sensor\nsmartwatch health readings related to moments of stress. Our method involves\nthe generation of synthetic sequence data through Generative Adversarial\nNetworks (GANs), coupled with the implementation of Differential Privacy (DP)\nsafeguards for protecting patient information during model training. To ensure\nthe integrity of our synthetic data, we employ a range of quality assessments\nand monitor the plausibility between synthetic and original data. To test the\nusefulness, we create private machine learning models on a commonly used,\nalbeit small, stress detection dataset, exploring strategies for enhancing the\nexisting data foundation with our synthetic data. Through our GAN-based\naugmentation methods, we observe improvements in model performance, both in\nnon-private (0.45% F1) and private (11.90-15.48% F1) training scenarios. We\nunderline the potential of differentially private synthetic data in optimizing\nutility-privacy trade-offs, especially with limited availability of real\ntraining samples.",
+    "updated" : "2024-01-24T09:44:57Z",
+    "published" : "2024-01-24T09:44:57Z",
+    "authors" : [
+      {
+        "name" : "Lucas Lange"
+      },
+      {
+        "name" : "Nils Wenzlitschke"
+      },
+      {
+        "name" : "Erhard Rahm"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
   }
 ]
