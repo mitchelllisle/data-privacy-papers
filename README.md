@@ -2,6 +2,69 @@
 <h2>2024-01</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2401.13386v1">Privacy-Preserving Face Recognition in Hybrid Frequency-Color Domain</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2024-01-24T11:27:32Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Dong Han, Yong Li, Joachim Denzler</p>
+    <p><b>Summary:</b> Face recognition technology has been deployed in various real-life
+applications. The most sophisticated deep learning-based face recognition
+systems rely on training millions of face images through complex deep neural
+networks to achieve high accuracy. It is quite common for clients to upload
+face images to the service provider in order to access the model inference.
+However, the face image is a type of sensitive biometric attribute tied to the
+identity information of each user. Directly exposing the raw face image to the
+service provider poses a threat to the user's privacy. Current
+privacy-preserving approaches to face recognition focus on either concealing
+visual information on model input or protecting model output face embedding.
+The noticeable drop in recognition accuracy is a pitfall for most methods. This
+paper proposes a hybrid frequency-color fusion approach to reduce the input
+dimensionality of face recognition in the frequency domain. Moreover, sparse
+color information is also introduced to alleviate significant accuracy
+degradation after adding differential privacy noise. Besides, an
+identity-specific embedding mapping scheme is applied to protect original face
+embedding by enlarging the distance among identities. Lastly, secure multiparty
+computation is implemented for safely computing the embedding distance during
+model inference. The proposed method performs well on multiple widely used
+verification datasets. Moreover, it has around 2.6% to 4.2% higher accuracy
+than the state-of-the-art in the 1:N verification scenario.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2401.13327v1">Generating Synthetic Health Sensor Data for Privacy-Preserving Wearable
+  Stress Detection</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-01-24T09:44:57Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Lucas Lange, Nils Wenzlitschke, Erhard Rahm</p>
+    <p><b>Summary:</b> Smartwatch health sensor data is increasingly utilized in smart health
+applications and patient monitoring, including stress detection. However, such
+medical data often comprises sensitive personal information and is
+resource-intensive to acquire for research purposes. In response to this
+challenge, we introduce the privacy-aware synthetization of multi-sensor
+smartwatch health readings related to moments of stress. Our method involves
+the generation of synthetic sequence data through Generative Adversarial
+Networks (GANs), coupled with the implementation of Differential Privacy (DP)
+safeguards for protecting patient information during model training. To ensure
+the integrity of our synthetic data, we employ a range of quality assessments
+and monitor the plausibility between synthetic and original data. To test the
+usefulness, we create private machine learning models on a commonly used,
+albeit small, stress detection dataset, exploring strategies for enhancing the
+existing data foundation with our synthetic data. Through our GAN-based
+augmentation methods, we observe improvements in model performance, both in
+non-private (0.45% F1) and private (11.90-15.48% F1) training scenarios. We
+underline the potential of differentially private synthetic data in optimizing
+utility-privacy trade-offs, especially with limited availability of real
+training samples.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2401.12436v1">Wasserstein Differential Privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2024-01-23T02:08:20Z</p>
@@ -2899,68 +2962,6 @@ CIFAR-10, and CIFAR-100, and show that our proposed method outperforms the
 baselines in terms of learning performance under various privacy constraints.
 Moreover, we observe that dynamic privacy allocation yields additional accuracy
 improvements for the models compared to the fixed scheme.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2312.07055v1">Communication Cost Reduction for Subgraph Counting under Local
-  Differential Privacy via Hash Functions</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2023-12-12T08:12:18Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Quentin Hillebrand, Vorapong Suppakitpaisarn, Tetsuo Shibuya</p>
-    <p><b>Summary:</b> We suggest the use of hash functions to cut down the communication costs when
-counting subgraphs under edge local differential privacy. While various
-algorithms exist for computing graph statistics, including the count of
-subgraphs, under the edge local differential privacy, many suffer with high
-communication costs, making them less efficient for large graphs. Though data
-compression is a typical approach in differential privacy, its application in
-local differential privacy requires a form of compression that every node can
-reproduce. In our study, we introduce linear congruence hashing. With a
-sampling rate of $s$, our method can cut communication costs by a factor of
-$s^2$, albeit at the cost of increasing variance in the published graph
-statistic by a factor of $s$. The experimental results indicate that, when
-matched for communication costs, our method achieves a reduction in the
-$\ell_2$-error for triangle counts by up to 1000 times compared to the
-performance of leading algorithms.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2312.06989v1">Task-Agnostic Privacy-Preserving Representation Learning for Federated
-  Learning Against Attribute Inference Attacks</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2023-12-12T05:17:34Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Caridad Arroyo Arevalo, Sayedeh Leila Noorbakhsh, Yun Dong, Yuan Hong, Binghui Wang</p>
-    <p><b>Summary:</b> Federated learning (FL) has been widely studied recently due to its property
-to collaboratively train data from different devices without sharing the raw
-data. Nevertheless, recent studies show that an adversary can still be possible
-to infer private information about devices' data, e.g., sensitive attributes
-such as income, race, and sexual orientation. To mitigate the attribute
-inference attacks, various existing privacy-preserving FL methods can be
-adopted/adapted. However, all these existing methods have key limitations: they
-need to know the FL task in advance, or have intolerable computational
-overheads or utility losses, or do not have provable privacy guarantees.
-  We address these issues and design a task-agnostic privacy-preserving
-presentation learning method for FL ({\bf TAPPFL}) against attribute inference
-attacks. TAPPFL is formulated via information theory. Specifically, TAPPFL has
-two mutual information goals, where one goal learns task-agnostic data
-representations that contain the least information about the private attribute
-in each device's data, and the other goal ensures the learnt data
-representations include as much information as possible about the device data
-to maintain FL utility. We also derive privacy guarantees of TAPPFL against
-worst-case attribute inference attacks, as well as the inherent tradeoff
-between utility preservation and privacy protection. Extensive results on
-multiple datasets and applications validate the effectiveness of TAPPFL to
-protect data privacy, maintain the FL utility, and be efficient as well.
-Experimental results also show that TAPPFL outperforms the existing
-defenses\footnote{Source code and full version:
-\url{https://github.com/TAPPFL}}.</p>
   </details>
 </div>
 
