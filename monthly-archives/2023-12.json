@@ -2369,5 +2369,39 @@
       "cs.CR",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2312.16554v2",
+    "title" : "A Theoretical Analysis of Efficiency Constrained Utility-Privacy\n  Bi-Objective Optimization in Federated Learning",
+    "summary" : "Federated learning (FL) enables multiple clients to collaboratively learn a\nshared model without sharing their individual data. Concerns about utility,\nprivacy, and training efficiency in FL have garnered significant research\nattention. Differential privacy has emerged as a prevalent technique in FL,\nsafeguarding the privacy of individual user data while impacting utility and\ntraining efficiency. Within Differential Privacy Federated Learning (DPFL),\nprevious studies have primarily focused on the utility-privacy trade-off,\nneglecting training efficiency, which is crucial for timely completion.\nMoreover, differential privacy achieves privacy by introducing controlled\nrandomness (noise) on selected clients in each communication round. Previous\nwork has mainly examined the impact of noise level ($\\sigma$) and communication\nrounds ($T$) on the privacy-utility dynamic, overlooking other influential\nfactors like the sample ratio ($q$, the proportion of selected clients). This\npaper systematically formulates an efficiency-constrained utility-privacy\nbi-objective optimization problem in DPFL, focusing on $\\sigma$, $T$, and $q$.\nWe provide a comprehensive theoretical analysis, yielding analytical solutions\nfor the Pareto front. Extensive empirical experiments verify the validity and\nefficacy of our analysis, offering valuable guidance for low-cost parameter\ndesign in DPFL.",
+    "updated" : "2024-01-29T12:27:56Z",
+    "published" : "2023-12-27T12:37:55Z",
+    "authors" : [
+      {
+        "name" : "Hanlin Gu"
+      },
+      {
+        "name" : "Xinyuan Zhao"
+      },
+      {
+        "name" : "Gongxi Zhu"
+      },
+      {
+        "name" : "Yuxing Han"
+      },
+      {
+        "name" : "Yan Kang"
+      },
+      {
+        "name" : "Lixin Fan"
+      },
+      {
+        "name" : "Qiang Yang"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
   }
 ]
