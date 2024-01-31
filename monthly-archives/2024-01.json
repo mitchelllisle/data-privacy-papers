@@ -1956,5 +1956,86 @@
     "categories" : [
       "cs.HC"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.17127v1",
+    "title" : "Personalized Differential Privacy for Ridge Regression",
+    "summary" : "The increased application of machine learning (ML) in sensitive domains\nrequires protecting the training data through privacy frameworks, such as\ndifferential privacy (DP). DP requires to specify a uniform privacy level\n$\\varepsilon$ that expresses the maximum privacy loss that each data point in\nthe entire dataset is willing to tolerate. Yet, in practice, different data\npoints often have different privacy requirements. Having to set one uniform\nprivacy level is usually too restrictive, often forcing a learner to guarantee\nthe stringent privacy requirement, at a large cost to accuracy. To overcome\nthis limitation, we introduce our novel Personalized-DP Output Perturbation\nmethod (PDP-OP) that enables to train Ridge regression models with individual\nper data point privacy levels. We provide rigorous privacy proofs for our\nPDP-OP as well as accuracy guarantees for the resulting model. This work is the\nfirst to provide such theoretical accuracy guarantees when it comes to\npersonalized DP in machine learning, whereas previous work only provided\nempirical evaluations. We empirically evaluate PDP-OP on synthetic and real\ndatasets and with diverse privacy distributions. We show that by enabling each\ndata point to specify their own privacy requirement, we can significantly\nimprove the privacy-accuracy trade-offs in DP. We also show that PDP-OP\noutperforms the personalized privacy techniques of Jorgensen et al. (2015).",
+    "updated" : "2024-01-30T16:00:14Z",
+    "published" : "2024-01-30T16:00:14Z",
+    "authors" : [
+      {
+        "name" : "Krishna Acharya"
+      },
+      {
+        "name" : "Franziska Boenisch"
+      },
+      {
+        "name" : "Rakshit Naidu"
+      },
+      {
+        "name" : "Juba Ziani"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.16596v1",
+    "title" : "PrIsing: Privacy-Preserving Peer Effect Estimation via Ising Model",
+    "summary" : "The Ising model, originally developed as a spin-glass model for ferromagnetic\nelements, has gained popularity as a network-based model for capturing\ndependencies in agents' outputs. Its increasing adoption in healthcare and the\nsocial sciences has raised privacy concerns regarding the confidentiality of\nagents' responses. In this paper, we present a novel\n$(\\varepsilon,\\delta)$-differentially private algorithm specifically designed\nto protect the privacy of individual agents' outcomes. Our algorithm allows for\nprecise estimation of the natural parameter using a single network through an\nobjective perturbation technique. Furthermore, we establish regret bounds for\nthis algorithm and assess its performance on synthetic datasets and two\nreal-world networks: one involving HIV status in a social network and the other\nconcerning the political leaning of online blogs.",
+    "updated" : "2024-01-29T21:56:39Z",
+    "published" : "2024-01-29T21:56:39Z",
+    "authors" : [
+      {
+        "name" : "Abhinav Chakraborty"
+      },
+      {
+        "name" : "Anirban Chatterjee"
+      },
+      {
+        "name" : "Abhinandan Dalal"
+      }
+    ],
+    "categories" : [
+      "stat.ME",
+      "cs.CR",
+      "cs.SI",
+      "math.ST",
+      "stat.ML",
+      "stat.TH"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.16251v2",
+    "title" : "Cross-silo Federated Learning with Record-level Personalized\n  Differential Privacy",
+    "summary" : "Federated learning enhanced by differential privacy has emerged as a popular\napproach to better safeguard the privacy of client-side data by protecting\nclients' contributions during the training process. Existing solutions\ntypically assume a uniform privacy budget for all records and provide\none-size-fits-all solutions that may not be adequate to meet each record's\nprivacy requirement. In this paper, we explore the uncharted territory of\ncross-silo FL with record-level personalized differential privacy. We devise a\nnovel framework named rPDP-FL, employing a two-stage hybrid sampling scheme\nwith both client-level sampling and non-uniform record-level sampling to\naccommodate varying privacy requirements. A critical and non-trivial problem is\nto select the ideal per-record sampling probability q given the personalized\nprivacy budget {\\epsilon}. We introduce a versatile solution named\nSimulation-CurveFitting, allowing us to uncover a significant insight into the\nnonlinear correlation between q and {\\epsilon} and derive an elegant\nmathematical model to tackle the problem. Our evaluation demonstrates that our\nsolution can provide significant performance gains over the baselines that do\nnot consider personalized privacy preservation.",
+    "updated" : "2024-01-30T04:57:20Z",
+    "published" : "2024-01-29T16:01:46Z",
+    "authors" : [
+      {
+        "name" : "Junxu Liu"
+      },
+      {
+        "name" : "Jian Lou"
+      },
+      {
+        "name" : "Li Xiong"
+      },
+      {
+        "name" : "Jinfei Liu"
+      },
+      {
+        "name" : "Xiaofeng Meng"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG"
+    ]
   }
 ]
