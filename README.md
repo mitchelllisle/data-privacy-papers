@@ -2,7 +2,60 @@
 <h2>2024-01</h2>
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2401.16251v1">Cross-silo Federated Learning with Record-level Personalized
+  <h3><a href="http://arxiv.org/abs/2401.17127v1">Personalized Differential Privacy for Ridge Regression</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2024-01-30T16:00:14Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Krishna Acharya, Franziska Boenisch, Rakshit Naidu, Juba Ziani</p>
+    <p><b>Summary:</b> The increased application of machine learning (ML) in sensitive domains
+requires protecting the training data through privacy frameworks, such as
+differential privacy (DP). DP requires to specify a uniform privacy level
+$\varepsilon$ that expresses the maximum privacy loss that each data point in
+the entire dataset is willing to tolerate. Yet, in practice, different data
+points often have different privacy requirements. Having to set one uniform
+privacy level is usually too restrictive, often forcing a learner to guarantee
+the stringent privacy requirement, at a large cost to accuracy. To overcome
+this limitation, we introduce our novel Personalized-DP Output Perturbation
+method (PDP-OP) that enables to train Ridge regression models with individual
+per data point privacy levels. We provide rigorous privacy proofs for our
+PDP-OP as well as accuracy guarantees for the resulting model. This work is the
+first to provide such theoretical accuracy guarantees when it comes to
+personalized DP in machine learning, whereas previous work only provided
+empirical evaluations. We empirically evaluate PDP-OP on synthetic and real
+datasets and with diverse privacy distributions. We show that by enabling each
+data point to specify their own privacy requirement, we can significantly
+improve the privacy-accuracy trade-offs in DP. We also show that PDP-OP
+outperforms the personalized privacy techniques of Jorgensen et al. (2015).</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2401.16596v1">PrIsing: Privacy-Preserving Peer Effect Estimation via Ising Model</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Social and Information Networks-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36">  
+  <p><b>Published on:</b> 2024-01-29T21:56:39Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Abhinav Chakraborty, Anirban Chatterjee, Abhinandan Dalal</p>
+    <p><b>Summary:</b> The Ising model, originally developed as a spin-glass model for ferromagnetic
+elements, has gained popularity as a network-based model for capturing
+dependencies in agents' outputs. Its increasing adoption in healthcare and the
+social sciences has raised privacy concerns regarding the confidentiality of
+agents' responses. In this paper, we present a novel
+$(\varepsilon,\delta)$-differentially private algorithm specifically designed
+to protect the privacy of individual agents' outcomes. Our algorithm allows for
+precise estimation of the natural parameter using a single network through an
+objective perturbation technique. Furthermore, we establish regret bounds for
+this algorithm and assess its performance on synthetic datasets and two
+real-world networks: one involving HIV status in a social network and the other
+concerning the political leaning of online blogs.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2401.16251v2">Cross-silo Federated Learning with Record-level Personalized
   Differential Privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2024-01-29T16:01:46Z</p>
@@ -2868,63 +2921,6 @@ privacy, we achieve a two to ten-fold reduction in the infection rate of the
 virus. To the best of our knowledge, this presents the first contact tracing
 algorithm with differential privacy guarantees when revealing risk scores for
 COVID19.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2312.11575v1">Blind-Touch: Homomorphic Encryption-Based Distributed Neural Network
-  Inference for Privacy-Preserving Fingerprint Authentication</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2023-12-18T09:05:34Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Hyunmin Choi, Simon Woo, Hyoungshick Kim</p>
-    <p><b>Summary:</b> Fingerprint authentication is a popular security mechanism for smartphones
-and laptops. However, its adoption in web and cloud environments has been
-limited due to privacy concerns over storing and processing biometric data on
-servers. This paper introduces Blind-Touch, a novel machine learning-based
-fingerprint authentication system leveraging homomorphic encryption to address
-these privacy concerns. Homomorphic encryption allows computations on encrypted
-data without decrypting. Thus, Blind-Touch can keep fingerprint data encrypted
-on the server while performing machine learning operations. Blind-Touch
-combines three strategies to efficiently utilize homomorphic encryption in
-machine learning: (1) It optimizes the feature vector for a distributed
-architecture, processing the first fully connected layer (FC-16) in plaintext
-on the client side and the subsequent layer (FC-1) post-encryption on the
-server, thereby minimizing encrypted computations; (2) It employs a homomorphic
-encryptioncompatible data compression technique capable of handling 8,192
-authentication results concurrently; and (3) It utilizes a clustered server
-architecture to simultaneously process authentication results, thereby
-enhancing scalability with increasing user numbers. Blind-Touch achieves high
-accuracy on two benchmark fingerprint datasets, with a 93.6% F1- score for the
-PolyU dataset and a 98.2% F1-score for the SOKOTO dataset. Moreover,
-Blind-Touch can match a fingerprint among 5,000 in about 0.65 seconds. With its
-privacyfocused design, high accuracy, and efficiency, Blind-Touch is a
-promising alternative to conventional fingerprint authentication for web and
-cloud applications.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2312.10951v1">Viral Privacy: Contextual Integrity as a Lens to Understand Content
-  Creators' Privacy Perceptions and Needs After Sudden Attention</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Social and Information Networks-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2023-12-18T06:04:01Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Joseph S. Schafer, Annie Denton, Chloe Seelhoff, Jordyn Vo, Kate Starbird</p>
-    <p><b>Summary:</b> When designing multi-stakeholder privacy systems, it is important to consider
-how different groups of social media users have different goals and
-requirements for privacy. Additionally, we must acknowledge that it is
-important to keep in mind that even a single creator's needs can change as
-their online visibility and presence shifts, and that robust multi-stakeholder
-privacy systems should account for these shifts. Using the framework of
-contextual integrity, we explain a theoretical basis for how to evaluate the
-potential changing privacy needs of users as their profiles undergo a sudden
-rise in online attention, and ongoing projects to understand these potential
-shifts in perspectives.</p>
   </details>
 </div>
 
