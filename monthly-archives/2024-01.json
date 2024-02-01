@@ -2037,5 +2037,173 @@
       "cs.AI",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.17829v1",
+    "title" : "Evolving privacy: drift parameter estimation for discretely observed\n  i.i.d. diffusion processes under LDP",
+    "summary" : "The problem of estimating a parameter in the drift coefficient is addressed\nfor $N$ discretely observed independent and identically distributed stochastic\ndifferential equations (SDEs). This is done considering additional constraints,\nwherein only public data can be published and used for inference. The concept\nof local differential privacy (LDP) is formally introduced for a system of\nstochastic differential equations. The objective is to estimate the drift\nparameter by proposing a contrast function based on a pseudo-likelihood\napproach. A suitably scaled Laplace noise is incorporated to meet the privacy\nrequirements. Our key findings encompass the derivation of explicit conditions\ntied to the privacy level. Under these conditions, we establish the consistency\nand asymptotic normality of the associated estimator. Notably, the convergence\nrate is intricately linked to the privacy level, and is some situations may be\ncompletely different from the case where privacy constraints are ignored. Our\nresults hold true as the discretization step approaches zero and the number of\nprocesses $N$ tends to infinity.",
+    "updated" : "2024-01-31T13:41:23Z",
+    "published" : "2024-01-31T13:41:23Z",
+    "authors" : [
+      {
+        "name" : "Chiara Amorino"
+      },
+      {
+        "name" : "Arnaud Gloter"
+      },
+      {
+        "name" : "Hélène Halconruy"
+      }
+    ],
+    "categories" : [
+      "math.ST",
+      "cs.IT",
+      "math.IT",
+      "stat.TH",
+      "62F12, 62E20, 62M05, 60G07, 60H10"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.17823v1",
+    "title" : "Privacy-preserving data release leveraging optimal transport and\n  particle gradient descent",
+    "summary" : "We present a novel approach for differentially private data synthesis of\nprotected tabular datasets, a relevant task in highly sensitive domains such as\nhealthcare and government. Current state-of-the-art methods predominantly use\nmarginal-based approaches, where a dataset is generated from private estimates\nof the marginals. In this paper, we introduce PrivPGD, a new generation method\nfor marginal-based private data synthesis, leveraging tools from optimal\ntransport and particle gradient descent. Our algorithm outperforms existing\nmethods on a large range of datasets while being highly scalable and offering\nthe flexibility to incorporate additional domain-specific constraints.",
+    "updated" : "2024-01-31T13:28:07Z",
+    "published" : "2024-01-31T13:28:07Z",
+    "authors" : [
+      {
+        "name" : "Konstantin Donhauser"
+      },
+      {
+        "name" : "Javier Abad"
+      },
+      {
+        "name" : "Neha Hulkund"
+      },
+      {
+        "name" : "Fanny Yang"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.17630v1",
+    "title" : "Towards Personalized Privacy: User-Governed Data Contribution for\n  Federated Recommendation",
+    "summary" : "Federated recommender systems (FedRecs) have gained significant attention for\ntheir potential to protect user's privacy by keeping user privacy data locally\nand only communicating model parameters/gradients to the server. Nevertheless,\nthe currently existing architecture of FedRecs assumes that all users have the\nsame 0-privacy budget, i.e., they do not upload any data to the server, thus\noverlooking those users who are less concerned about privacy and are willing to\nupload data to get a better recommendation service. To bridge this gap, this\npaper explores a user-governed data contribution federated recommendation\narchitecture where users are free to take control of whether they share data\nand the proportion of data they share to the server. To this end, this paper\npresents a cloud-device collaborative graph neural network federated\nrecommendation model, named CDCGNNFed. It trains user-centric ego graphs\nlocally, and high-order graphs based on user-shared data in the server in a\ncollaborative manner via contrastive learning. Furthermore, a graph mending\nstrategy is utilized to predict missing links in the graph on the server, thus\nleveraging the capabilities of graph neural networks over high-order graphs.\nExtensive experiments were conducted on two public datasets, and the results\ndemonstrate the effectiveness of the proposed method.",
+    "updated" : "2024-01-31T07:20:56Z",
+    "published" : "2024-01-31T07:20:56Z",
+    "authors" : [
+      {
+        "name" : "Liang Qu"
+      },
+      {
+        "name" : "Wei Yuan"
+      },
+      {
+        "name" : "Ruiqi Zheng"
+      },
+      {
+        "name" : "Lizhen Cui"
+      },
+      {
+        "name" : "Yuhui Shi"
+      },
+      {
+        "name" : "Hongzhi Yin"
+      }
+    ],
+    "categories" : [
+      "cs.IR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.17628v1",
+    "title" : "Elephants Do Not Forget: Differential Privacy with State Continuity for\n  Privacy Budget",
+    "summary" : "Current implementations of differentially-private (DP) systems either lack\nsupport to track the global privacy budget consumed on a dataset, or fail to\nfaithfully maintain the state continuity of this budget. We show that failure\nto maintain a privacy budget enables an adversary to mount replay, rollback and\nfork attacks - obtaining answers to many more queries than what a secure system\nwould allow. As a result the attacker can reconstruct secret data that DP aims\nto protect - even if DP code runs in a Trusted Execution Environment (TEE). We\npropose ElephantDP, a system that aims to provide the same guarantees as a\ntrusted curator in the global DP model would, albeit set in an untrusted\nenvironment. Our system relies on a state continuity module to provide\nprotection for the privacy budget and a TEE to faithfully execute DP code and\nupdate the budget. To provide security, our protocol makes several design\nchoices including the content of the persistent state and the order between\nbudget updates and query answers. We prove that ElephantDP provides liveness\n(i.e., the protocol can restart from a correct state and respond to queries as\nlong as the budget is not exceeded) and DP confidentiality (i.e., an attacker\nlearns about a dataset as much as it would from interacting with a trusted\ncurator). Our implementation and evaluation of the protocol use Intel SGX as a\nTEE to run the DP code and a network of TEEs to maintain state continuity.\nCompared to an insecure baseline, we observe only 1.1-2$\\times$ overheads and\nlower relative overheads for larger datasets and complex DP queries.",
+    "updated" : "2024-01-31T07:08:14Z",
+    "published" : "2024-01-31T07:08:14Z",
+    "authors" : [
+      {
+        "name" : "Jiankai Jin"
+      },
+      {
+        "name" : "Chitchanok Chuengsatiansup"
+      },
+      {
+        "name" : "Toby Murray"
+      },
+      {
+        "name" : "Benjamin I. P. Rubinstein"
+      },
+      {
+        "name" : "Yuval Yarom"
+      },
+      {
+        "name" : "Olga Ohrimenko"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.17319v1",
+    "title" : "Decentralized Federated Learning: A Survey on Security and Privacy",
+    "summary" : "Federated learning has been rapidly evolving and gaining popularity in recent\nyears due to its privacy-preserving features, among other advantages.\nNevertheless, the exchange of model updates and gradients in this architecture\nprovides new attack surfaces for malicious users of the network which may\njeopardize the model performance and user and data privacy. For this reason,\none of the main motivations for decentralized federated learning is to\neliminate server-related threats by removing the server from the network and\ncompensating for it through technologies such as blockchain. However, this\nadvantage comes at the cost of challenging the system with new privacy threats.\nThus, performing a thorough security analysis in this new paradigm is\nnecessary. This survey studies possible variations of threats and adversaries\nin decentralized federated learning and overviews the potential defense\nmechanisms. Trustability and verifiability of decentralized federated learning\nare also considered in this study.",
+    "updated" : "2024-01-25T23:35:47Z",
+    "published" : "2024-01-25T23:35:47Z",
+    "authors" : [
+      {
+        "name" : "Ehsan Hallaji"
+      },
+      {
+        "name" : "Roozbeh Razavi-Far"
+      },
+      {
+        "name" : "Mehrdad Saif"
+      },
+      {
+        "name" : "Boyu Wang"
+      },
+      {
+        "name" : "Qiang Yang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.06657v2",
+    "title" : "Accelerating Tactile Internet with QUIC: A Security and Privacy\n  Perspective",
+    "summary" : "The Tactile Internet paradigm is set to revolutionize human society by\nenabling skill-set delivery and haptic communication over ultra-reliable,\nlow-latency networks. The emerging sixth-generation (6G) mobile communication\nsystems are envisioned to underpin this Tactile Internet ecosystem at the\nnetwork edge by providing ubiquitous global connectivity. However, apart from a\nmultitude of opportunities of the Tactile Internet, security and privacy\nchallenges emerge at the forefront. We believe that the recently standardized\nQUIC protocol, characterized by end-to-end encryption and reduced round-trip\ndelay would serve as the backbone of Tactile Internet. In this article, we\nenvision a futuristic scenario where a QUIC-enabled network uses the underlying\n6G communication infrastructure to achieve the requirements for Tactile\nInternet. Interestingly this requires a deeper investigation of a wide range of\nsecurity and privacy challenges in QUIC, that need to be mitigated for its\nadoption in Tactile Internet. Henceforth, this article reviews the existing\nsecurity and privacy attacks in QUIC and their implication on users. Followed\nby that, we discuss state-of-the-art attack mitigation strategies and\ninvestigate some of their drawbacks with possible directions for future work",
+    "updated" : "2024-01-31T16:48:28Z",
+    "published" : "2024-01-12T16:05:13Z",
+    "authors" : [
+      {
+        "name" : "Jayasree Sengupta"
+      },
+      {
+        "name" : "Debasmita Dey"
+      },
+      {
+        "name" : "Simone Ferlin"
+      },
+      {
+        "name" : "Nirnay Ghosh"
+      },
+      {
+        "name" : "Vaibhav Bajpai"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.NI"
+    ]
   }
 ]
