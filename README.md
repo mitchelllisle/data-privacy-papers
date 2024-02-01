@@ -2,6 +2,117 @@
 <h2>2024-01</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2401.17829v1">Evolving privacy: drift parameter estimation for discretely observed
+  i.i.d. diffusion processes under LDP</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36">   
+  <p><b>Published on:</b> 2024-01-31T13:41:23Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Chiara Amorino, Arnaud Gloter, Hélène Halconruy</p>
+    <p><b>Summary:</b> The problem of estimating a parameter in the drift coefficient is addressed
+for $N$ discretely observed independent and identically distributed stochastic
+differential equations (SDEs). This is done considering additional constraints,
+wherein only public data can be published and used for inference. The concept
+of local differential privacy (LDP) is formally introduced for a system of
+stochastic differential equations. The objective is to estimate the drift
+parameter by proposing a contrast function based on a pseudo-likelihood
+approach. A suitably scaled Laplace noise is incorporated to meet the privacy
+requirements. Our key findings encompass the derivation of explicit conditions
+tied to the privacy level. Under these conditions, we establish the consistency
+and asymptotic normality of the associated estimator. Notably, the convergence
+rate is intricately linked to the privacy level, and is some situations may be
+completely different from the case where privacy constraints are ignored. Our
+results hold true as the discretization step approaches zero and the number of
+processes $N$ tends to infinity.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2401.17823v1">Privacy-preserving data release leveraging optimal transport and
+  particle gradient descent</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-01-31T13:28:07Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Konstantin Donhauser, Javier Abad, Neha Hulkund, Fanny Yang</p>
+    <p><b>Summary:</b> We present a novel approach for differentially private data synthesis of
+protected tabular datasets, a relevant task in highly sensitive domains such as
+healthcare and government. Current state-of-the-art methods predominantly use
+marginal-based approaches, where a dataset is generated from private estimates
+of the marginals. In this paper, we introduce PrivPGD, a new generation method
+for marginal-based private data synthesis, leveraging tools from optimal
+transport and particle gradient descent. Our algorithm outperforms existing
+methods on a large range of datasets while being highly scalable and offering
+the flexibility to incorporate additional domain-specific constraints.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2401.17630v1">Towards Personalized Privacy: User-Governed Data Contribution for
+  Federated Recommendation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB">
+  <p><b>Published on:</b> 2024-01-31T07:20:56Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Liang Qu, Wei Yuan, Ruiqi Zheng, Lizhen Cui, Yuhui Shi, Hongzhi Yin</p>
+    <p><b>Summary:</b> Federated recommender systems (FedRecs) have gained significant attention for
+their potential to protect user's privacy by keeping user privacy data locally
+and only communicating model parameters/gradients to the server. Nevertheless,
+the currently existing architecture of FedRecs assumes that all users have the
+same 0-privacy budget, i.e., they do not upload any data to the server, thus
+overlooking those users who are less concerned about privacy and are willing to
+upload data to get a better recommendation service. To bridge this gap, this
+paper explores a user-governed data contribution federated recommendation
+architecture where users are free to take control of whether they share data
+and the proportion of data they share to the server. To this end, this paper
+presents a cloud-device collaborative graph neural network federated
+recommendation model, named CDCGNNFed. It trains user-centric ego graphs
+locally, and high-order graphs based on user-shared data in the server in a
+collaborative manner via contrastive learning. Furthermore, a graph mending
+strategy is utilized to predict missing links in the graph on the server, thus
+leveraging the capabilities of graph neural networks over high-order graphs.
+Extensive experiments were conducted on two public datasets, and the results
+demonstrate the effectiveness of the proposed method.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2401.17628v1">Elephants Do Not Forget: Differential Privacy with State Continuity for
+  Privacy Budget</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-01-31T07:08:14Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jiankai Jin, Chitchanok Chuengsatiansup, Toby Murray, Benjamin I. P. Rubinstein, Yuval Yarom, Olga Ohrimenko</p>
+    <p><b>Summary:</b> Current implementations of differentially-private (DP) systems either lack
+support to track the global privacy budget consumed on a dataset, or fail to
+faithfully maintain the state continuity of this budget. We show that failure
+to maintain a privacy budget enables an adversary to mount replay, rollback and
+fork attacks - obtaining answers to many more queries than what a secure system
+would allow. As a result the attacker can reconstruct secret data that DP aims
+to protect - even if DP code runs in a Trusted Execution Environment (TEE). We
+propose ElephantDP, a system that aims to provide the same guarantees as a
+trusted curator in the global DP model would, albeit set in an untrusted
+environment. Our system relies on a state continuity module to provide
+protection for the privacy budget and a TEE to faithfully execute DP code and
+update the budget. To provide security, our protocol makes several design
+choices including the content of the persistent state and the order between
+budget updates and query answers. We prove that ElephantDP provides liveness
+(i.e., the protocol can restart from a correct state and respond to queries as
+long as the budget is not exceeded) and DP confidentiality (i.e., an attacker
+learns about a dataset as much as it would from interacting with a trusted
+curator). Our implementation and evaluation of the protocol use Intel SGX as a
+TEE to run the DP code and a network of TEEs to maintain state continuity.
+Compared to an insecure baseline, we observe only 1.1-2$\times$ overheads and
+lower relative overheads for larger datasets and complex DP queries.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2401.17127v1">Personalized Differential Privacy for Ridge Regression</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
   <p><b>Published on:</b> 2024-01-30T16:00:14Z</p>
@@ -404,6 +515,31 @@ state-of-the-art face recognition systems. The model demonstrates adaptability
 across diverse inputs, from raw facial images to both derived or refined
 embeddings, and is competent in tasks such as classification, reconstruction,
 and generation.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2401.17319v1">Decentralized Federated Learning: A Survey on Security and Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
+  <p><b>Published on:</b> 2024-01-25T23:35:47Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ehsan Hallaji, Roozbeh Razavi-Far, Mehrdad Saif, Boyu Wang, Qiang Yang</p>
+    <p><b>Summary:</b> Federated learning has been rapidly evolving and gaining popularity in recent
+years due to its privacy-preserving features, among other advantages.
+Nevertheless, the exchange of model updates and gradients in this architecture
+provides new attack surfaces for malicious users of the network which may
+jeopardize the model performance and user and data privacy. For this reason,
+one of the main motivations for decentralized federated learning is to
+eliminate server-related threats by removing the server from the network and
+compensating for it through technologies such as blockchain. However, this
+advantage comes at the cost of challenging the system with new privacy threats.
+Thus, performing a thorough security analysis in this new paradigm is
+necessary. This survey studies possible variations of threats and adversaries
+in decentralized federated learning and overviews the potential defense
+mechanisms. Trustability and verifiability of decentralized federated learning
+are also considered in this study.</p>
   </details>
 </div>
 
@@ -1373,7 +1509,7 @@ open science.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2401.06657v1">Accelerating Tactile Internet with QUIC: A Security and Privacy
+  <h3><a href="http://arxiv.org/abs/2401.06657v2">Accelerating Tactile Internet with QUIC: A Security and Privacy
   Perspective</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
   <p><b>Published on:</b> 2024-01-12T16:05:13Z</p>
@@ -2769,158 +2905,6 @@ but highlight areas of potential improvements. We expect that the CAIR
 principles will foster agreement among researchers and organizations on which
 universal privacy evaluation metrics are appropriate for synthetic tabular
 data.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2312.12183v2">Poincaré Differential Privacy for Hierarchy-Aware Graph Embedding</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2023-12-19T14:15:20Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yuecen Wei, Haonan Yuan, Xingcheng Fu, Qingyun Sun, Hao Peng, Xianxian Li, Chunming Hu</p>
-    <p><b>Summary:</b> Hierarchy is an important and commonly observed topological property in
-real-world graphs that indicate the relationships between supervisors and
-subordinates or the organizational behavior of human groups. As hierarchy is
-introduced as a new inductive bias into the Graph Neural Networks (GNNs) in
-various tasks, it implies latent topological relations for attackers to improve
-their inference attack performance, leading to serious privacy leakage issues.
-In addition, existing privacy-preserving frameworks suffer from reduced
-protection ability in hierarchical propagation due to the deficiency of
-adaptive upper-bound estimation of the hierarchical perturbation boundary. It
-is of great urgency to effectively leverage the hierarchical property of data
-while satisfying privacy guarantees. To solve the problem, we propose the
-Poincar\'e Differential Privacy framework, named PoinDP, to protect the
-hierarchy-aware graph embedding based on hyperbolic geometry. Specifically,
-PoinDP first learns the hierarchy weights for each entity based on the
-Poincar\'e model in hyperbolic space. Then, the Personalized Hierarchy-aware
-Sensitivity is designed to measure the sensitivity of the hierarchical
-structure and adaptively allocate the privacy protection strength. Besides, the
-Hyperbolic Gaussian Mechanism (HGM) is proposed to extend the Gaussian
-mechanism in Euclidean space to hyperbolic space to realize random
-perturbations that satisfy differential privacy under the hyperbolic space
-metric. Extensive experiment results on five real-world datasets demonstrate
-the proposed PoinDP's advantages of effective privacy protection while
-maintaining good performance on the node classification task.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2312.11845v1">A Summary of Privacy-Preserving Data Publishing in the Local Setting</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2023-12-19T04:23:23Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Wenjun Lin, Jiahao Qian, Wenwen Liu, Lang Wu</p>
-    <p><b>Summary:</b> The exponential growth of collected, processed, and shared data has given
-rise to concerns about individuals' privacy. Consequently, various laws and
-regulations have been established to oversee how organizations handle and
-safeguard data. One such method is Statistical Disclosure Control, which aims
-to minimize the risk of exposing confidential information by de-identifying it.
-This de-identification is achieved through specific privacy-preserving
-techniques. However, a trade-off exists: de-identified data can often lead to a
-loss of information, which might impact the accuracy of data analysis and the
-predictive capability of models. The overarching goal remains to safeguard
-individual privacy while preserving the data's interpretability, meaning its
-overall usefulness. Despite advances in Statistical Disclosure Control, the
-field continues to evolve, with no definitive solution that strikes an optimal
-balance between privacy and utility. This survey delves into the intricate
-processes of de-identification. We outline the current privacy-preserving
-techniques employed in microdata de-identification, delve into privacy measures
-tailored for various disclosure scenarios, and assess metrics for information
-loss and predictive performance. Herein, we tackle the primary challenges posed
-by privacy constraints, overview predominant strategies to mitigate these
-challenges, categorize privacy-preserving techniques, offer a theoretical
-assessment of current comparative research, and highlight numerous unresolved
-issues in the domain.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2312.11712v1">A Simple and Practical Method for Reducing the Disparate Impact of
-  Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2023-12-18T21:19:35Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Lucas Rosenblatt, Julia Stoyanovich, Christopher Musco</p>
-    <p><b>Summary:</b> Differentially private (DP) mechanisms have been deployed in a variety of
-high-impact social settings (perhaps most notably by the U.S. Census). Since
-all DP mechanisms involve adding noise to results of statistical queries, they
-are expected to impact our ability to accurately analyze and learn from data,
-in effect trading off privacy with utility. Alarmingly, the impact of DP on
-utility can vary significantly among different sub-populations. A simple way to
-reduce this disparity is with stratification. First compute an independent
-private estimate for each group in the data set (which may be the intersection
-of several protected classes), then, to compute estimates of global statistics,
-appropriately recombine these group estimates. Our main observation is that
-naive stratification often yields high-accuracy estimates of population-level
-statistics, without the need for additional privacy budget. We support this
-observation theoretically and empirically. Our theoretical results center on
-the private mean estimation problem, while our empirical results center on
-extensive experiments on private data synthesis to demonstrate the
-effectiveness of stratification on a variety of private mechanisms. Overall, we
-argue that this straightforward approach provides a strong baseline against
-which future work on reducing utility disparities of DP mechanisms should be
-compared.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2312.11126v1">Harnessing Inherent Noises for Privacy Preservation in Quantum Machine
-  Learning</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2023-12-18T11:52:44Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Keyi Ju, Xiaoqi Qin, Hui Zhong, Xinyue Zhang, Miao Pan, Baoling Liu</p>
-    <p><b>Summary:</b> Quantum computing revolutionizes the way of solving complex problems and
-handling vast datasets, which shows great potential to accelerate the machine
-learning process. However, data leakage in quantum machine learning (QML) may
-present privacy risks. Although differential privacy (DP), which protects
-privacy through the injection of artificial noise, is a well-established
-approach, its application in the QML domain remains under-explored. In this
-paper, we propose to harness inherent quantum noises to protect data privacy in
-QML. Especially, considering the Noisy Intermediate-Scale Quantum (NISQ)
-devices, we leverage the unavoidable shot noise and incoherent noise in quantum
-computing to preserve the privacy of QML models for binary classification. We
-mathematically analyze that the gradient of quantum circuit parameters in QML
-satisfies a Gaussian distribution, and derive the upper and lower bounds on its
-variance, which can potentially provide the DP guarantee. Through simulations,
-we show that a target privacy protection level can be achieved by running the
-quantum circuit a different number of times.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2312.11581v1">Protect Your Score: Contact Tracing With Differential Privacy Guarantees</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2023-12-18T11:16:33Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Rob Romijnders, Christos Louizos, Yuki M. Asano, Max Welling</p>
-    <p><b>Summary:</b> The pandemic in 2020 and 2021 had enormous economic and societal
-consequences, and studies show that contact tracing algorithms can be key in
-the early containment of the virus. While large strides have been made towards
-more effective contact tracing algorithms, we argue that privacy concerns
-currently hold deployment back. The essence of a contact tracing algorithm
-constitutes the communication of a risk score. Yet, it is precisely the
-communication and release of this score to a user that an adversary can
-leverage to gauge the private health status of an individual. We pinpoint a
-realistic attack scenario and propose a contact tracing algorithm with
-differential privacy guarantees against this attack. The algorithm is tested on
-the two most widely used agent-based COVID19 simulators and demonstrates
-superior performance in a wide range of settings. Especially for realistic test
-scenarios and while releasing each risk score with epsilon=1 differential
-privacy, we achieve a two to ten-fold reduction in the infection rate of the
-virus. To the best of our knowledge, this presents the first contact tracing
-algorithm with differential privacy guarantees when revealing risk scores for
-COVID19.</p>
   </details>
 </div>
 
