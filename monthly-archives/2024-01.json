@@ -2205,5 +2205,65 @@
       "cs.CR",
       "cs.NI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.00205v1",
+    "title" : "Decentralised, Collaborative, and Privacy-preserving Machine Learning\n  for Multi-Hospital Data",
+    "summary" : "Machine Learning (ML) has demonstrated its great potential on medical data\nanalysis. Large datasets collected from diverse sources and settings are\nessential for ML models in healthcare to achieve better accuracy and\ngeneralizability. Sharing data across different healthcare institutions is\nchallenging because of complex and varying privacy and regulatory requirements.\nHence, it is hard but crucial to allow multiple parties to collaboratively\ntrain an ML model leveraging the private datasets available at each party\nwithout the need for direct sharing of those datasets or compromising the\nprivacy of the datasets through collaboration. In this paper, we address this\nchallenge by proposing Decentralized, Collaborative, and Privacy-preserving ML\nfor Multi-Hospital Data (DeCaPH). It offers the following key benefits: (1) it\nallows different parties to collaboratively train an ML model without\ntransferring their private datasets; (2) it safeguards patient privacy by\nlimiting the potential privacy leakage arising from any contents shared across\nthe parties during the training process; and (3) it facilitates the ML model\ntraining without relying on a centralized server. We demonstrate the\ngeneralizability and power of DeCaPH on three distinct tasks using real-world\ndistributed medical datasets: patient mortality prediction using electronic\nhealth records, cell-type classification using single-cell human genomes, and\npathology identification using chest radiology images. We demonstrate that the\nML models trained with DeCaPH framework have an improved utility-privacy\ntrade-off, showing it enables the models to have good performance while\npreserving the privacy of the training data points. In addition, the ML models\ntrained with DeCaPH framework in general outperform those trained solely with\nthe private datasets from individual parties, showing that DeCaPH enhances the\nmodel generalizability.",
+    "updated" : "2024-01-31T22:06:10Z",
+    "published" : "2024-01-31T22:06:10Z",
+    "authors" : [
+      {
+        "name" : "Congyu Fang"
+      },
+      {
+        "name" : "Adam Dziedzic"
+      },
+      {
+        "name" : "Lin Zhang"
+      },
+      {
+        "name" : "Laura Oliva"
+      },
+      {
+        "name" : "Amol Verma"
+      },
+      {
+        "name" : "Fahad Razak"
+      },
+      {
+        "name" : "Nicolas Papernot"
+      },
+      {
+        "name" : "Bo Wang"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.08224v3",
+    "title" : "Privacy Preserving Adaptive Experiment Design",
+    "summary" : "Adaptive experiment is widely adopted to estimate conditional average\ntreatment effect (CATE) in clinical trials and many other scenarios. While the\nprimary goal in experiment is to maximize estimation accuracy, due to the\nimperative of social welfare, it's also crucial to provide treatment with\nsuperior outcomes to patients, which is measured by regret in contextual bandit\nframework. These two objectives often lead to contrast optimal allocation\nmechanism. Furthermore, privacy concerns arise in clinical scenarios containing\nsensitive data like patients health records. Therefore, it's essential for the\ntreatment allocation mechanism to incorporate robust privacy protection\nmeasures. In this paper, we investigate the tradeoff between loss of social\nwelfare and statistical power in contextual bandit experiment. We propose a\nmatched upper and lower bound for the multi-objective optimization problem, and\nthen adopt the concept of Pareto optimality to mathematically characterize the\noptimality condition. Furthermore, we propose differentially private algorithms\nwhich still matches the lower bound, showing that privacy is \"almost free\".\nAdditionally, we derive the asymptotic normality of the estimator, which is\nessential in statistical inference and hypothesis testing.",
+    "updated" : "2024-02-01T15:02:55Z",
+    "published" : "2024-01-16T09:22:12Z",
+    "authors" : [
+      {
+        "name" : "Jiachun Li"
+      },
+      {
+        "name" : "Kaining Shi"
+      },
+      {
+        "name" : "David Simchi-Levi"
+      }
+    ],
+    "categories" : [
+      "stat.ME",
+      "cs.CR",
+      "cs.LG"
+    ]
   }
 ]
