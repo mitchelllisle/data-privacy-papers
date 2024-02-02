@@ -2,6 +2,44 @@
 <h2>2024-01</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2402.00205v1">Decentralised, Collaborative, and Privacy-preserving Machine Learning
+  for Multi-Hospital Data</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-01-31T22:06:10Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Congyu Fang, Adam Dziedzic, Lin Zhang, Laura Oliva, Amol Verma, Fahad Razak, Nicolas Papernot, Bo Wang</p>
+    <p><b>Summary:</b> Machine Learning (ML) has demonstrated its great potential on medical data
+analysis. Large datasets collected from diverse sources and settings are
+essential for ML models in healthcare to achieve better accuracy and
+generalizability. Sharing data across different healthcare institutions is
+challenging because of complex and varying privacy and regulatory requirements.
+Hence, it is hard but crucial to allow multiple parties to collaboratively
+train an ML model leveraging the private datasets available at each party
+without the need for direct sharing of those datasets or compromising the
+privacy of the datasets through collaboration. In this paper, we address this
+challenge by proposing Decentralized, Collaborative, and Privacy-preserving ML
+for Multi-Hospital Data (DeCaPH). It offers the following key benefits: (1) it
+allows different parties to collaboratively train an ML model without
+transferring their private datasets; (2) it safeguards patient privacy by
+limiting the potential privacy leakage arising from any contents shared across
+the parties during the training process; and (3) it facilitates the ML model
+training without relying on a centralized server. We demonstrate the
+generalizability and power of DeCaPH on three distinct tasks using real-world
+distributed medical datasets: patient mortality prediction using electronic
+health records, cell-type classification using single-cell human genomes, and
+pathology identification using chest radiology images. We demonstrate that the
+ML models trained with DeCaPH framework have an improved utility-privacy
+trade-off, showing it enables the models to have good performance while
+preserving the privacy of the training data points. In addition, the ML models
+trained with DeCaPH framework in general outperform those trained solely with
+the private datasets from individual parties, showing that DeCaPH enhances the
+model generalizability.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2401.17829v1">Evolving privacy: drift parameter estimation for discretely observed
   i.i.d. diffusion processes under LDP</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36">   
@@ -1210,6 +1248,34 @@ service quality.</p>
 
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2401.08224v3">Privacy Preserving Adaptive Experiment Design</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-01-16T09:22:12Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jiachun Li, Kaining Shi, David Simchi-Levi</p>
+    <p><b>Summary:</b> Adaptive experiment is widely adopted to estimate conditional average
+treatment effect (CATE) in clinical trials and many other scenarios. While the
+primary goal in experiment is to maximize estimation accuracy, due to the
+imperative of social welfare, it's also crucial to provide treatment with
+superior outcomes to patients, which is measured by regret in contextual bandit
+framework. These two objectives often lead to contrast optimal allocation
+mechanism. Furthermore, privacy concerns arise in clinical scenarios containing
+sensitive data like patients health records. Therefore, it's essential for the
+treatment allocation mechanism to incorporate robust privacy protection
+measures. In this paper, we investigate the tradeoff between loss of social
+welfare and statistical power in contextual bandit experiment. We propose a
+matched upper and lower bound for the multi-objective optimization problem, and
+then adopt the concept of Pareto optimality to mathematically characterize the
+optimality condition. Furthermore, we propose differentially private algorithms
+which still matches the lower bound, showing that privacy is "almost free".
+Additionally, we derive the asymptotic normality of the estimator, which is
+essential in statistical inference and hypothesis testing.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2401.08038v1">Calpric: Inclusive and Fine-grain Labeling of Privacy Policies with
   Crowdsourcing and Active Learning</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
@@ -2334,6 +2400,27 @@ design in DPFL.</p>
 
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2402.00013v1">No More Trade-Offs. GPT and Fully Informative Privacy Policies</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2023-12-27T11:09:26Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Przemysław Pałka, Marco Lippi, Francesca Lagioia, Rūta Liepiņa, Giovanni Sartor</p>
+    <p><b>Summary:</b> The paper reports the results of an experiment aimed at testing to what
+extent ChatGPT 3.5 and 4 is able to answer questions regarding privacy policies
+designed in the new format that we propose. In a world of human-only
+interpreters, there was a trade-off between comprehensiveness and
+comprehensibility of privacy policies, leading to the actual policies not
+containing enough information for users to learn anything meaningful. Having
+shown that GPT performs relatively well with the new format, we provide
+experimental evidence supporting our policy suggestion, namely that the law
+should require fully comprehensive privacy policies, even if this means they
+become less concise.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2312.15608v1">Federated learning-outcome prediction with multi-layer privacy
   protection</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">  
@@ -2775,136 +2862,25 @@ significantly degrade the accuracy of secondary data analysis.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2312.13389v1">Enhancing Trade-offs in Privacy, Utility, and Computational Efficiency
-  through MUltistage Sampling Technique (MUST)</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2023-12-20T19:38:29Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Xingyuan Zhao, Fang Liu</p>
-    <p><b>Summary:</b> Applying a randomized algorithm to a subset of a dataset rather than the
-entire dataset is a common approach to amplify its privacy guarantees in the
-released information. We propose a class of subsampling methods named
-MUltistage Sampling Technique (MUST) for privacy amplification (PA) in the
-context of differential privacy (DP). We conduct comprehensive analyses of the
-PA effects and utility for several 2-stage MUST procedures, namely, MUST.WO,
-MUST.OW, and MUST.WW that respectively represent sampling with (W), without
-(O), with (W) replacement from the original dataset in stage I and then
-sampling without (O), with (W), with (W) replacement in stage II from the
-subset drawn in stage I. We also provide the privacy composition analysis over
-repeated applications of MUST via the Fourier accountant algorithm. Our
-theoretical and empirical results suggest that MUST.OW and MUST.WW have
-stronger PA in $\epsilon$ than the common one-stage sampling procedures
-including Poisson sampling, sampling without replacement, and sampling with
-replacement, while the results on $\delta$ vary case by case. We also prove
-that MUST.WO is equivalent to sampling with replacement in PA. Furthermore, the
-final subset generated by a MUST procedure is a multiset that may contain
-multiple copies of the same data points due to sampling with replacement
-involved, which enhances the computational efficiency of algorithms that
-require complex function calculations on distinct data points (e.g., gradient
-descent). Our utility experiments show that MUST delivers similar or improved
-utility and stability in the privacy-preserving outputs compared to one-stage
-subsampling methods at similar privacy loss. MUST can be seamlessly integrated
-into stochastic optimization algorithms or procedures that involve parallel or
-simultaneous subsampling (e.g., bagging and subsampling bootstrap) when DP
-guarantees are necessary.</p>
-  </details>
-</div>
 
+<h2>2024-02</h2>
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2312.13334v1">Transparency and Privacy: The Role of Explainable AI and Federated
-  Learning in Financial Fraud Detection</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2023-12-20T18:26:59Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Tomisin Awosika, Raj Mani Shukla, Bernardi Pranggono</p>
-    <p><b>Summary:</b> Fraudulent transactions and how to detect them remain a significant problem
-for financial institutions around the world. The need for advanced fraud
-detection systems to safeguard assets and maintain customer trust is paramount
-for financial institutions, but some factors make the development of effective
-and efficient fraud detection systems a challenge. One of such factors is the
-fact that fraudulent transactions are rare and that many transaction datasets
-are imbalanced; that is, there are fewer significant samples of fraudulent
-transactions than legitimate ones. This data imbalance can affect the
-performance or reliability of the fraud detection model. Moreover, due to the
-data privacy laws that all financial institutions are subject to follow,
-sharing customer data to facilitate a higher-performing centralized model is
-impossible. Furthermore, the fraud detection technique should be transparent so
-that it does not affect the user experience. Hence, this research introduces a
-novel approach using Federated Learning (FL) and Explainable AI (XAI) to
-address these challenges. FL enables financial institutions to collaboratively
-train a model to detect fraudulent transactions without directly sharing
-customer data, thereby preserving data privacy and confidentiality. Meanwhile,
-the integration of XAI ensures that the predictions made by the model can be
-understood and interpreted by human experts, adding a layer of transparency and
-trust to the system. Experimental results, based on realistic transaction
-datasets, reveal that the FL-based fraud detection system consistently
-demonstrates high performance metrics. This study grounds FL's potential as an
-effective and privacy-preserving tool in the fight against fraud.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2312.13312v1">Multi-label Learning from Privacy-Label</a></h3>
+  <h3><a href="http://arxiv.org/abs/2402.00342v1">Survey of Privacy Threats and Countermeasures in Federated Learning</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2023-12-20T09:09:56Z</p>
+  <p><b>Published on:</b> 2024-02-01T05:13:14Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Zhongnian Li, Haotian Ren, Tongfeng Sun, Zhichen Li</p>
-    <p><b>Summary:</b> Multi-abel Learning (MLL) often involves the assignment of multiple relevant
-labels to each instance, which can lead to the leakage of sensitive information
-(such as smoking, diseases, etc.) about the instances. However, existing MLL
-suffer from failures in protection for sensitive information. In this paper, we
-propose a novel setting named Multi-Label Learning from Privacy-Label (MLLPL),
-which Concealing Labels via Privacy-Label Unit (CLPLU). Specifically, during
-the labeling phase, each privacy-label is randomly combined with a non-privacy
-label to form a Privacy-Label Unit (PLU). If any label within a PLU is
-positive, the unit is labeled as positive; otherwise, it is labeled negative,
-as shown in Figure 1. PLU ensures that only non-privacy labels are appear in
-the label set, while the privacy-labels remain concealed. Moreover, we further
-propose a Privacy-Label Unit Loss (PLUL) to learn the optimal classifier by
-minimizing the empirical risk of PLU. Experimental results on multiple
-benchmark datasets demonstrate the effectiveness and superiority of the
-proposed method.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2312.12216v1">Sharing is CAIRing: Characterizing Principles and Assessing Properties
-  of Universal Privacy Evaluation for Synthetic Tabular Data</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2023-12-19T15:05:52Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Tobias Hyrup, Anton Danholt Lautrup, Arthur Zimek, Peter Schneider-Kamp</p>
-    <p><b>Summary:</b> Data sharing is a necessity for innovative progress in many domains,
-especially in healthcare. However, the ability to share data is hindered by
-regulations protecting the privacy of natural persons. Synthetic tabular data
-provide a promising solution to address data sharing difficulties but does not
-inherently guarantee privacy. Still, there is a lack of agreement on
-appropriate methods for assessing the privacy-preserving capabilities of
-synthetic data, making it difficult to compare results across studies. To the
-best of our knowledge, this is the first work to identify properties that
-constitute good universal privacy evaluation metrics for synthetic tabular
-data. The goal of such metrics is to enable comparability across studies and to
-allow non-technical stakeholders to understand how privacy is protected. We
-identify four principles for the assessment of metrics: Comparability,
-Applicability, Interpretability, and Representativeness (CAIR). To quantify and
-rank the degree to which evaluation metrics conform to the CAIR principles, we
-design a rubric using a scale of 1-4. Each of the four properties is scored on
-four parameters, yielding 16 total dimensions. We study the applicability and
-usefulness of the CAIR principles and rubric by assessing a selection of
-metrics popular in other studies. The results provide granular insights into
-the strengths and weaknesses of existing metrics that not only rank the metrics
-but highlight areas of potential improvements. We expect that the CAIR
-principles will foster agreement among researchers and organizations on which
-universal privacy evaluation metrics are appropriate for synthetic tabular
-data.</p>
+    <p><b>Authors:</b> Masahiro Hayashitani, Junki Mori, Isamu Teranishi</p>
+    <p><b>Summary:</b> Federated learning is widely considered to be as a privacy-aware learning
+method because no training data is exchanged directly between clients.
+Nevertheless, there are threats to privacy in federated learning, and privacy
+countermeasures have been studied. However, we note that common and unique
+privacy threats among typical types of federated learning have not been
+categorized and described in a comprehensive and specific way. In this paper,
+we describe privacy threats and countermeasures for the typical types of
+federated learning; horizontal federated learning, vertical federated learning,
+and transfer federated learning.</p>
   </details>
 </div>
 
