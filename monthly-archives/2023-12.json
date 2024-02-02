@@ -2403,5 +2403,33 @@
       "cs.LG",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.00013v1",
+    "title" : "No More Trade-Offs. GPT and Fully Informative Privacy Policies",
+    "summary" : "The paper reports the results of an experiment aimed at testing to what\nextent ChatGPT 3.5 and 4 is able to answer questions regarding privacy policies\ndesigned in the new format that we propose. In a world of human-only\ninterpreters, there was a trade-off between comprehensiveness and\ncomprehensibility of privacy policies, leading to the actual policies not\ncontaining enough information for users to learn anything meaningful. Having\nshown that GPT performs relatively well with the new format, we provide\nexperimental evidence supporting our policy suggestion, namely that the law\nshould require fully comprehensive privacy policies, even if this means they\nbecome less concise.",
+    "updated" : "2023-12-27T11:09:26Z",
+    "published" : "2023-12-27T11:09:26Z",
+    "authors" : [
+      {
+        "name" : "Przemysław Pałka"
+      },
+      {
+        "name" : "Marco Lippi"
+      },
+      {
+        "name" : "Francesca Lagioia"
+      },
+      {
+        "name" : "Rūta Liepiņa"
+      },
+      {
+        "name" : "Giovanni Sartor"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.CR"
+    ]
   }
 ]
