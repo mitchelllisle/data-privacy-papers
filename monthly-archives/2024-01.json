@@ -2265,5 +2265,51 @@
       "cs.CR",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.00896v1",
+    "title" : "Privacy and Security Implications of Cloud-Based AI Services : A Survey",
+    "summary" : "This paper details the privacy and security landscape in today's cloud\necosystem and identifies that there is a gap in addressing the risks introduced\nby machine learning models. As machine learning algorithms continue to evolve\nand find applications across diverse domains, the need to categorize and\nquantify privacy and security risks becomes increasingly critical. With the\nemerging trend of AI-as-a-Service (AIaaS), machine learned AI models (or ML\nmodels) are deployed on the cloud by model providers and used by model\nconsumers. We first survey the AIaaS landscape to document the various kinds of\nliabilities that ML models, especially Deep Neural Networks pose and then\nintroduce a taxonomy to bridge this gap by holistically examining the risks\nthat creators and consumers of ML models are exposed to and their known\ndefences till date. Such a structured approach will be beneficial for ML model\nproviders to create robust solutions. Likewise, ML model consumers will find it\nvaluable to evaluate such solutions and understand the implications of their\nengagement with such services. The proposed taxonomies provide a foundational\nbasis for solutions in private, secure and robust ML, paving the way for more\ntransparent and resilient AI systems.",
+    "updated" : "2024-01-31T13:30:20Z",
+    "published" : "2024-01-31T13:30:20Z",
+    "authors" : [
+      {
+        "name" : "Alka Luqman"
+      },
+      {
+        "name" : "Riya Mahesh"
+      },
+      {
+        "name" : "Anupam Chattopadhyay"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.00888v1",
+    "title" : "Security and Privacy Challenges of Large Language Models: A Survey",
+    "summary" : "Large Language Models (LLMs) have demonstrated extraordinary capabilities and\ncontributed to multiple fields, such as generating and summarizing text,\nlanguage translation, and question-answering. Nowadays, LLM is becoming a very\npopular tool in computerized language processing tasks, with the capability to\nanalyze complicated linguistic patterns and provide relevant and appropriate\nresponses depending on the context. While offering significant advantages,\nthese models are also vulnerable to security and privacy attacks, such as\njailbreaking attacks, data poisoning attacks, and Personally Identifiable\nInformation (PII) leakage attacks. This survey provides a thorough review of\nthe security and privacy challenges of LLMs for both training data and users,\nalong with the application-based risks in various domains, such as\ntransportation, education, and healthcare. We assess the extent of LLM\nvulnerabilities, investigate emerging security and privacy attacks for LLMs,\nand review the potential defense mechanisms. Additionally, the survey outlines\nexisting research gaps in this domain and highlights future research\ndirections.",
+    "updated" : "2024-01-30T04:00:54Z",
+    "published" : "2024-01-30T04:00:54Z",
+    "authors" : [
+      {
+        "name" : "Badhan Chandra Das"
+      },
+      {
+        "name" : "M. Hadi Amini"
+      },
+      {
+        "name" : "Yanzhao Wu"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.AI",
+      "cs.CR"
+    ]
   }
 ]
