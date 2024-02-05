@@ -20,5 +20,207 @@
       "cs.LG",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.01546v1",
+    "title" : "Privacy-Preserving Distributed Learning for Residential Short-Term Load\n  Forecasting",
+    "summary" : "In the realm of power systems, the increasing involvement of residential\nusers in load forecasting applications has heightened concerns about data\nprivacy. Specifically, the load data can inadvertently reveal the daily\nroutines of residential users, thereby posing a risk to their property\nsecurity. While federated learning (FL) has been employed to safeguard user\nprivacy by enabling model training without the exchange of raw data, these FL\nmodels have shown vulnerabilities to emerging attack techniques, such as Deep\nLeakage from Gradients and poisoning attacks. To counteract these, we initially\nemploy a Secure-Aggregation (SecAgg) algorithm that leverages multiparty\ncomputation cryptographic techniques to mitigate the risk of gradient leakage.\nHowever, the introduction of SecAgg necessitates the deployment of additional\nsub-center servers for executing the multiparty computation protocol, thereby\nescalating computational complexity and reducing system robustness, especially\nin scenarios where one or more sub-centers are unavailable. To address these\nchallenges, we introduce a Markovian Switching-based distributed training\nframework, the convergence of which is substantiated through rigorous\ntheoretical analysis. The Distributed Markovian Switching (DMS) topology shows\nstrong robustness towards the poisoning attacks as well. Case studies employing\nreal-world power system load data validate the efficacy of our proposed\nalgorithm. It not only significantly minimizes communication complexity but\nalso maintains accuracy levels comparable to traditional FL methods, thereby\nenhancing the scalability of our load forecasting algorithm.",
+    "updated" : "2024-02-02T16:39:08Z",
+    "published" : "2024-02-02T16:39:08Z",
+    "authors" : [
+      {
+        "name" : "Yi Dong"
+      },
+      {
+        "name" : "Yingjie Wang"
+      },
+      {
+        "name" : "Mariana Gama"
+      },
+      {
+        "name" : "Mustafa A. Mustafa"
+      },
+      {
+        "name" : "Geert Deconinck"
+      },
+      {
+        "name" : "Xiaowei Huang"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR",
+      "cs.DC",
+      "cs.MA",
+      "cs.SY",
+      "eess.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.01296v1",
+    "title" : "Bi-CryptoNets: Leveraging Different-Level Privacy for Encrypted\n  Inference",
+    "summary" : "Privacy-preserving neural networks have attracted increasing attention in\nrecent years, and various algorithms have been developed to keep the balance\nbetween accuracy, computational complexity and information security from the\ncryptographic view. This work takes a different view from the input data and\nstructure of neural networks. We decompose the input data (e.g., some images)\ninto sensitive and insensitive segments according to importance and privacy.\nThe sensitive segment includes some important and private information such as\nhuman faces and we take strong homomorphic encryption to keep security, whereas\nthe insensitive one contains some background and we add perturbations. We\npropose the bi-CryptoNets, i.e., plaintext and ciphertext branches, to deal\nwith two segments, respectively, and ciphertext branch could utilize the\ninformation from plaintext branch by unidirectional connections. We adopt\nknowledge distillation for our bi-CryptoNets by transferring representations\nfrom a well-trained teacher neural network. Empirical studies show the\neffectiveness and decrease of inference latency for our bi-CryptoNets.",
+    "updated" : "2024-02-02T10:35:05Z",
+    "published" : "2024-02-02T10:35:05Z",
+    "authors" : [
+      {
+        "name" : "Man-Jie Yuan"
+      },
+      {
+        "name" : "Zheng Zou"
+      },
+      {
+        "name" : "Wei Gao"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.01226v1",
+    "title" : "HW-SW Optimization of DNNs for Privacy-preserving People Counting on\n  Low-resolution Infrared Arrays",
+    "summary" : "Low-resolution infrared (IR) array sensors enable people counting\napplications such as monitoring the occupancy of spaces and people flows while\npreserving privacy and minimizing energy consumption. Deep Neural Networks\n(DNNs) have been shown to be well-suited to process these sensor data in an\naccurate and efficient manner. Nevertheless, the space of DNNs' architectures\nis huge and its manual exploration is burdensome and often leads to sub-optimal\nsolutions. To overcome this problem, in this work, we propose a highly\nautomated full-stack optimization flow for DNNs that goes from neural\narchitecture search, mixed-precision quantization, and post-processing, down to\nthe realization of a new smart sensor prototype, including a Microcontroller\nwith a customized instruction set. Integrating these cross-layer optimizations,\nwe obtain a large set of Pareto-optimal solutions in the 3D-space of energy,\nmemory, and accuracy. Deploying such solutions on our hardware platform, we\nimprove the state-of-the-art achieving up to 4.2x model size reduction, 23.8x\ncode size reduction, and 15.38x energy reduction at iso-accuracy.",
+    "updated" : "2024-02-02T08:45:38Z",
+    "published" : "2024-02-02T08:45:38Z",
+    "authors" : [
+      {
+        "name" : "Matteo Risso"
+      },
+      {
+        "name" : "Chen Xie"
+      },
+      {
+        "name" : "Francesco Daghero"
+      },
+      {
+        "name" : "Alessio Burrello"
+      },
+      {
+        "name" : "Seyedmorteza Mollaei"
+      },
+      {
+        "name" : "Marco Castellano"
+      },
+      {
+        "name" : "Enrico Macii"
+      },
+      {
+        "name" : "Massimo Poncino"
+      },
+      {
+        "name" : "Daniele Jahier Pagliari"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.01198v1",
+    "title" : "Physical Layer Location Privacy in SIMO Communication Using Fake Paths\n  Injection",
+    "summary" : "Fake path injection is an emerging paradigm for inducing privacy over\nwireless networks. In this paper, fake paths are injected by the transmitter\ninto a SIMO multipath communication channel to preserve her physical location\nfrom an eavesdropper. A novel statistical privacy metric is defined as the\nratio between the largest (resp. smallest) eigenvalues of Bob's (resp. Eve's)\nCram\\'er-Rao lower bound on the SIMO multipath channel parameters to assess the\nprivacy enhancements. Leveraging the spectral properties of generalized\nVandermonde matrices, bounds on the privacy margin of the proposed scheme are\nderived. Specifically, it is shown that the privacy margin increases\nquadratically in the inverse of the separation between the true and the fake\npaths under Eve's perspective. Numerical simulations further showcase the\napproach's benefit.",
+    "updated" : "2024-02-02T07:52:32Z",
+    "published" : "2024-02-02T07:52:32Z",
+    "authors" : [
+      {
+        "name" : "Trong Duy Tran"
+      },
+      {
+        "name" : "Maxime Ferreira Da Costa"
+      },
+      {
+        "name" : "Linh Trung Nguyen"
+      }
+    ],
+    "categories" : [
+      "cs.IT",
+      "eess.SP",
+      "math.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.01096v1",
+    "title" : "Trustworthy Distributed AI Systems: Robustness, Privacy, and Governance",
+    "summary" : "Emerging Distributed AI systems are revolutionizing big data computing and\ndata processing capabilities with growing economic and societal impact.\nHowever, recent studies have identified new attack surfaces and risks caused by\nsecurity, privacy, and fairness issues in AI systems. In this paper, we review\nrepresentative techniques, algorithms, and theoretical foundations for\ntrustworthy distributed AI through robustness guarantee, privacy protection,\nand fairness awareness in distributed learning. We first provide a brief\noverview of alternative architectures for distributed learning, discuss\ninherent vulnerabilities for security, privacy, and fairness of AI algorithms\nin distributed learning, and analyze why these problems are present in\ndistributed learning regardless of specific architectures. Then we provide a\nunique taxonomy of countermeasures for trustworthy distributed AI, covering (1)\nrobustness to evasion attacks and irregular queries at inference, and\nrobustness to poisoning attacks, Byzantine attacks, and irregular data\ndistribution during training; (2) privacy protection during distributed\nlearning and model inference at deployment; and (3) AI fairness and governance\nwith respect to both data and models. We conclude with a discussion on open\nchallenges and future research directions toward trustworthy distributed AI,\nsuch as the need for trustworthy AI policy guidelines, the AI\nresponsibility-utility co-design, and incentives and compliance.",
+    "updated" : "2024-02-02T01:58:58Z",
+    "published" : "2024-02-02T01:58:58Z",
+    "authors" : [
+      {
+        "name" : "Wenqi Wei"
+      },
+      {
+        "name" : "Ling Liu"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR",
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.01001v1",
+    "title" : "Ensuring Data Privacy in AC Optimal Power Flow with a Distributed\n  Co-Simulation Framework",
+    "summary" : "During the energy transition, the significance of collaborative management\namong institutions is rising, confronting challenges posed by data privacy\nconcerns. Prevailing research on distributed approaches, as an alternative to\ncentralized management, often lacks numerical convergence guarantees or is\nlimited to single-machine numerical simulation. To address this, we present a\ndistributed approach for solving AC Optimal Power Flow (OPF) problems within a\ngeographically distributed environment. This involves integrating the energy\nsystem Co-Simulation (eCoSim) module in the eASiMOV framework with the\nconvergence-guaranteed distributed optimization algorithm, i.e., the Augmented\nLagrangian based Alternating Direction Inexact Newton method (ALADIN).\nComprehensive evaluations across multiple system scenarios reveal a marginal\nperformance slowdown compared to the centralized approach and the distributed\napproach executed on single machines -- a justified trade-off for enhanced data\nprivacy. This investigation serves as empirical validation of the successful\nexecution of distributed AC OPF within a geographically distributed\nenvironment, highlighting potential directions for future research.",
+    "updated" : "2024-02-01T20:31:08Z",
+    "published" : "2024-02-01T20:31:08Z",
+    "authors" : [
+      {
+        "name" : "Xinliang Dai"
+      },
+      {
+        "name" : "Alexander Kocher"
+      },
+      {
+        "name" : "Jovana Kovačević"
+      },
+      {
+        "name" : "Burak Dindar"
+      },
+      {
+        "name" : "Yuning Jiang"
+      },
+      {
+        "name" : "Colin N. Jones"
+      },
+      {
+        "name" : "Hüseyin Çakmak"
+      },
+      {
+        "name" : "Veit Hagenmeyer"
+      }
+    ],
+    "categories" : [
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.00906v1",
+    "title" : "BrainLeaks: On the Privacy-Preserving Properties of Neuromorphic\n  Architectures against Model Inversion Attacks",
+    "summary" : "With the mainstream integration of machine learning into security-sensitive\ndomains such as healthcare and finance, concerns about data privacy have\nintensified. Conventional artificial neural networks (ANNs) have been found\nvulnerable to several attacks that can leak sensitive data. Particularly, model\ninversion (MI) attacks enable the reconstruction of data samples that have been\nused to train the model. Neuromorphic architectures have emerged as a paradigm\nshift in neural computing, enabling asynchronous and energy-efficient\ncomputation. However, little to no existing work has investigated the privacy\nof neuromorphic architectures against model inversion. Our study is motivated\nby the intuition that the non-differentiable aspect of spiking neural networks\n(SNNs) might result in inherent privacy-preserving properties, especially\nagainst gradient-based attacks. To investigate this hypothesis, we propose a\nthorough exploration of SNNs' privacy-preserving capabilities. Specifically, we\ndevelop novel inversion attack strategies that are comprehensively designed to\ntarget SNNs, offering a comparative analysis with their conventional ANN\ncounterparts. Our experiments, conducted on diverse event-based and static\ndatasets, demonstrate the effectiveness of the proposed attack strategies and\ntherefore questions the assumption of inherent privacy-preserving in\nneuromorphic architectures.",
+    "updated" : "2024-02-01T03:16:40Z",
+    "published" : "2024-02-01T03:16:40Z",
+    "authors" : [
+      {
+        "name" : "Hamed Poursiami"
+      },
+      {
+        "name" : "Ihsen Alouani"
+      },
+      {
+        "name" : "Maryam Parsa"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG",
+      "cs.NE"
+    ]
   }
 ]
