@@ -222,5 +222,138 @@
       "cs.LG",
       "cs.NE"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.03114v1",
+    "title" : "Augmenting Security and Privacy in the Virtual Realm: An Analysis of\n  Extended Reality Devices",
+    "summary" : "In this work, we present a device-centric analysis of security and privacy\nattacks and defenses on Extended Reality (XR) devices, highlighting the need\nfor robust and privacy-aware security mechanisms. Based on our analysis, we\npresent future research directions and propose design considerations to help\nensure the security and privacy of XR devices.",
+    "updated" : "2024-02-05T15:45:11Z",
+    "published" : "2024-02-05T15:45:11Z",
+    "authors" : [
+      {
+        "name" : "Derin Cayir"
+      },
+      {
+        "name" : "Abbas Acar"
+      },
+      {
+        "name" : "Riccardo Lazzeretti"
+      },
+      {
+        "name" : "Marco Angelini"
+      },
+      {
+        "name" : "Mauro Conti"
+      },
+      {
+        "name" : "Selcuk Uluagac"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.02672v1",
+    "title" : "Estimation of conditional average treatment effects on distributed data:\n  A privacy-preserving approach",
+    "summary" : "Estimation of conditional average treatment effects (CATEs) is an important\ntopic in various fields such as medical and social sciences. CATEs can be\nestimated with high accuracy if distributed data across multiple parties can be\ncentralized. However, it is difficult to aggregate such data if they contain\nprivacy information. To address this issue, we proposed data collaboration\ndouble machine learning (DC-DML), a method that can estimate CATE models with\nprivacy preservation of distributed data, and evaluated the method through\nnumerical experiments. Our contributions are summarized in the following three\npoints. First, our method enables estimation and testing of semi-parametric\nCATE models without iterative communication on distributed data.\nSemi-parametric or non-parametric CATE models enable estimation and testing\nthat is more robust to model mis-specification than parametric models. However,\nto our knowledge, no communication-efficient method has been proposed for\nestimating and testing semi-parametric or non-parametric CATE models on\ndistributed data. Second, our method enables collaborative estimation between\ndifferent parties as well as multiple time points because the\ndimensionality-reduced intermediate representations can be accumulated. Third,\nour method performed as well or better than other methods in evaluation\nexperiments using synthetic, semi-synthetic and real-world datasets.",
+    "updated" : "2024-02-05T02:17:21Z",
+    "published" : "2024-02-05T02:17:21Z",
+    "authors" : [
+      {
+        "name" : "Yuji Kawamata"
+      },
+      {
+        "name" : "Ryoki Motai"
+      },
+      {
+        "name" : "Yukihiko Okada"
+      },
+      {
+        "name" : "Akira Imakura"
+      },
+      {
+        "name" : "Tetsuya Sakurai"
+      }
+    ],
+    "categories" : [
+      "stat.ME",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.02230v1",
+    "title" : "Federated Learning with Differential Privacy",
+    "summary" : "Federated learning (FL), as a type of distributed machine learning, is\ncapable of significantly preserving client's private data from being shared\namong different parties. Nevertheless, private information can still be\ndivulged by analyzing uploaded parameter weights from clients. In this report,\nwe showcase our empirical benchmark of the effect of the number of clients and\nthe addition of differential privacy (DP) mechanisms on the performance of the\nmodel on different types of data. Our results show that non-i.i.d and small\ndatasets have the highest decrease in performance in a distributed and\ndifferentially private setting.",
+    "updated" : "2024-02-03T18:21:38Z",
+    "published" : "2024-02-03T18:21:38Z",
+    "authors" : [
+      {
+        "name" : "Adrien Banse"
+      },
+      {
+        "name" : "Jan Kreischer"
+      },
+      {
+        "name" : "Xavier Oliva i Jürgens"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.DC",
+      "I.2.11"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.01994v1",
+    "title" : "Human-Centered Privacy Research in the Age of Large Language Models",
+    "summary" : "The emergence of large language models (LLMs), and their increased use in\nuser-facing systems, has led to substantial privacy concerns. To date, research\non these privacy concerns has been model-centered: exploring how LLMs lead to\nprivacy risks like memorization, or can be used to infer personal\ncharacteristics about people from their content. We argue that there is a need\nfor more research focusing on the human aspect of these privacy issues: e.g.,\nresearch on how design paradigms for LLMs affect users' disclosure behaviors,\nusers' mental models and preferences for privacy controls, and the design of\ntools, systems, and artifacts that empower end-users to reclaim ownership over\ntheir personal data. To build usable, efficient, and privacy-friendly systems\npowered by these models with imperfect privacy properties, our goal is to\ninitiate discussions to outline an agenda for conducting human-centered\nresearch on privacy issues in LLM-powered systems. This Special Interest Group\n(SIG) aims to bring together researchers with backgrounds in usable security\nand privacy, human-AI collaboration, NLP, or any other related domains to share\ntheir perspectives and experiences on this problem, to help our community\nestablish a collective understanding of the challenges, research opportunities,\nresearch methods, and strategies to collaborate with researchers outside of\nHCI.",
+    "updated" : "2024-02-03T02:32:45Z",
+    "published" : "2024-02-03T02:32:45Z",
+    "authors" : [
+      {
+        "name" : "Tianshi Li"
+      },
+      {
+        "name" : "Sauvik Das"
+      },
+      {
+        "name" : "Hao-Ping Lee"
+      },
+      {
+        "name" : "Dakuo Wang"
+      },
+      {
+        "name" : "Bingsheng Yao"
+      },
+      {
+        "name" : "Zhiping Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "cs.AI",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.01857v1",
+    "title" : "Position Paper: Assessing Robustness, Privacy, and Fairness in Federated\n  Learning Integrated with Foundation Models",
+    "summary" : "Federated Learning (FL), while a breakthrough in decentralized machine\nlearning, contends with significant challenges such as limited data\navailability and the variability of computational resources, which can stifle\nthe performance and scalability of the models. The integration of Foundation\nModels (FMs) into FL presents a compelling solution to these issues, with the\npotential to enhance data richness and reduce computational demands through\npre-training and data augmentation. However, this incorporation introduces\nnovel issues in terms of robustness, privacy, and fairness, which have not been\nsufficiently addressed in the existing research. We make a preliminary\ninvestigation into this field by systematically evaluating the implications of\nFM-FL integration across these dimensions. We analyze the trade-offs involved,\nuncover the threats and issues introduced by this integration, and propose a\nset of criteria and strategies for navigating these challenges. Furthermore, we\nidentify potential research directions for advancing this field, laying a\nfoundation for future development in creating reliable, secure, and equitable\nFL systems.",
+    "updated" : "2024-02-02T19:26:00Z",
+    "published" : "2024-02-02T19:26:00Z",
+    "authors" : [
+      {
+        "name" : "Xi Li"
+      },
+      {
+        "name" : "Jiaqi Wang"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
   }
 ]
