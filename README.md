@@ -346,7 +346,7 @@ computing.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2401.15906v1">Mean Estimation with User-Level Privacy for Spatio-Temporal IoT Datasets</a></h3>
+  <h3><a href="http://arxiv.org/abs/2401.15906v2">Mean Estimation with User-Level Privacy for Spatio-Temporal IoT Datasets</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36">  
   <p><b>Published on:</b> 2024-01-29T06:21:29Z</p>
   <details>
@@ -878,7 +878,7 @@ $(\epsilon,\delta)$-pufferfish privacy.</p>
   <p><b>Published on:</b> 2024-01-22T14:36:01Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Dongqi Cai, Shangguang Wang, Zeling Zhang, Felix Xiaozhu Lin, Mengwei Xu</p>
+    <p><b>Authors:</b> Dongqi Cai</p>
     <p><b>Summary:</b> Speech is a common input method for mobile embedded devices, but cloud-based
 speech recognition systems pose privacy risks. Disentanglement-based encoders,
 designed to safeguard user privacy by filtering sensitive information from
@@ -1303,7 +1303,7 @@ service quality.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2401.08224v3">Privacy Preserving Adaptive Experiment Design</a></h3>
+  <h3><a href="http://arxiv.org/abs/2401.08224v4">Privacy Preserving Adaptive Experiment Design</a></h3>
    <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2024-01-16T09:22:12Z</p>
   <details>
@@ -2475,171 +2475,134 @@ become less concise.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2312.15608v1">Federated learning-outcome prediction with multi-layer privacy
-  protection</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">  
-  <p><b>Published on:</b> 2023-12-25T04:29:05Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yupei Zhang, Yuxin Li, Yifei Wang, Shuangshuang Wei, Yunan Xu, Xuequn Shang</p>
-    <p><b>Summary:</b> Learning-outcome prediction (LOP) is a long-standing and critical problem in
-educational routes. Many studies have contributed to developing effective
-models while often suffering from data shortage and low generalization to
-various institutions due to the privacy-protection issue. To this end, this
-study proposes a distributed grade prediction model, dubbed FecMap, by
-exploiting the federated learning (FL) framework that preserves the private
-data of local clients and communicates with others through a global generalized
-model. FecMap considers local subspace learning (LSL), which explicitly learns
-the local features against the global features, and multi-layer privacy
-protection (MPP), which hierarchically protects the private features, including
-model-shareable features and not-allowably shared features, to achieve
-client-specific classifiers of high performance on LOP per institution. FecMap
-is then achieved in an iteration manner with all datasets distributed on
-clients by training a local neural network composed of a global part, a local
-part, and a classification head in clients and averaging the global parts from
-clients on the server. To evaluate the FecMap model, we collected three
-higher-educational datasets of student academic records from engineering
-majors. Experiment results manifest that FecMap benefits from the proposed LSL
-and MPP and achieves steady performance on the task of LOP, compared with the
-state-of-the-art models. This study makes a fresh attempt at the use of
-federated learning in the learning-analytical task, potentially paving the way
-to facilitating personalized education with privacy protection.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2312.15591v2">Privacy-Preserving Neural Graph Databases</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2023-12-25T02:32:05Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Qi Hu, Haoran Li, Jiaxin Bai, Yangqiu Song</p>
-    <p><b>Summary:</b> In the era of big data and rapidly evolving information systems, efficient
-and accurate data retrieval has become increasingly crucial. Neural graph
-databases (NGDBs) have emerged as a powerful paradigm that combines the
-strengths of graph databases (graph DBs) and neural networks to enable
-efficient storage, retrieval, and analysis of graph-structured data. The usage
-of neural embedding storage and complex neural logical query answering provides
-NGDBs with generalization ability. When the graph is incomplete, by extracting
-latent patterns and representations, neural graph databases can fill gaps in
-the graph structure, revealing hidden relationships and enabling accurate query
-answering. Nevertheless, this capability comes with inherent trade-offs, as it
-introduces additional privacy risks to the database. Malicious attackers can
-infer more sensitive information in the database using well-designed
-combinatorial queries, such as by comparing the answer sets of where Turing
-Award winners born before 1950 and after 1940 lived, the living places of
-Turing Award winner Hinton are probably exposed, although the living places may
-have been deleted in the training due to the privacy concerns. In this work,
-inspired by the privacy protection in graph embeddings, we propose a
-privacy-preserving neural graph database (P-NGDB) to alleviate the risks of
-privacy leakage in NGDBs. We introduce adversarial training techniques in the
-training stage to force the NGDBs to generate indistinguishable answers when
-queried with private information, enhancing the difficulty of inferring
-sensitive information through combinations of multiple innocuous queries.
-Extensive experiment results on three datasets show that P-NGDB can effectively
-protect private information in the graph database while delivering high-quality
-public answers responses to queries.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2312.15420v1">FedDMF: Privacy-Preserving User Attribute Prediction using Deep Matrix
-  Factorization</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2023-12-24T06:49:00Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ming Cheung</p>
-    <p><b>Summary:</b> User attribute prediction is a crucial task in various industries. However,
-sharing user data across different organizations faces challenges due to
-privacy concerns and legal requirements regarding personally identifiable
-information. Regulations such as the General Data Protection Regulation (GDPR)
-in the European Union and the Personal Information Protection Law of the
-People's Republic of China impose restrictions on data sharing. To address the
-need for utilizing features from multiple clients while adhering to legal
-requirements, federated learning algorithms have been proposed. These
-algorithms aim to predict user attributes without directly sharing the data.
-However, existing approaches typically rely on matching users across companies,
-which can result in dishonest partners discovering user lists or the inability
-to utilize all available features. In this paper, we propose a novel algorithm
-for predicting user attributes without requiring user matching. Our approach
-involves training deep matrix factorization models on different clients and
-sharing only the item vectors. This allows us to predict user attributes
-without sharing the user vectors themselves. The algorithm is evaluated using
-the publicly available MovieLens dataset and demonstrate that it achieves
-similar performance to the FedAvg algorithm, reaching 96% of a single model's
-accuracy. The proposed algorithm is particularly well-suited for improving
-customer targeting and enhancing the overall customer experience. This paper
-presents a valuable contribution to the field of user attribute prediction by
-offering a novel algorithm that addresses some of the most pressing privacy
-concerns in this area.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2312.15383v1">SoK: Technical Implementation and Human Impact of Internet Privacy
-  Regulations</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2023-12-24T01:48:07Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Eleanor Birrell, Jay Rodolitz, Angel Ding, Jenna Lee, Emily McReynolds, Jevan Hutson, Ada Lerner</p>
-    <p><b>Summary:</b> Growing recognition of the potential for exploitation of personal data and of
-the shortcomings of prior privacy regimes has led to the passage of a multitude
-of new online privacy regulations. Some of these laws -- notably the European
-Union's General Data Protection Regulation (GDPR) and the California Consumer
-Privacy Act (CCPA) -- have been the focus of large bodies of research by the
-computer science community, while others have received less attention. In this
-work, we analyze a set of Internet privacy and data protection regulations
-drawn from around the world -- both those that have frequently been studied by
-computer scientists and those that have not -- and develop a taxonomy of rights
-granted and obligations imposed by these laws. We then leverage this taxonomy
-to systematize 270 technical research papers published in computer science
-venues that investigate the impact of these laws and explore how technical
-solutions can complement legal protections. Finally, we analyze the results in
-this space through an interdisciplinary lens and make recommendations for
-future work at the intersection of computer science and legal privacy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2312.15375v1">An Empirical Study of Efficiency and Privacy of Federated Learning
-  Algorithms</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
-  <p><b>Published on:</b> 2023-12-24T00:13:41Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Sofia Zahri, Hajar Bennouri, Ahmed M. Abdelmoniem</p>
-    <p><b>Summary:</b> In today's world, the rapid expansion of IoT networks and the proliferation
-of smart devices in our daily lives, have resulted in the generation of
-substantial amounts of heterogeneous data. These data forms a stream which
-requires special handling. To handle this data effectively, advanced data
-processing technologies are necessary to guarantee the preservation of both
-privacy and efficiency. Federated learning emerged as a distributed learning
-method that trains models locally and aggregates them on a server to preserve
-data privacy. This paper showcases two illustrative scenarios that highlight
-the potential of federated learning (FL) as a key to delivering efficient and
-privacy-preserving machine learning within IoT networks. We first give the
-mathematical foundations for key aggregation algorithms in federated learning,
-i.e., FedAvg and FedProx. Then, we conduct simulations, using Flower Framework,
-to show the \textit{efficiency} of these algorithms by training deep neural
-networks on common datasets and show a comparison between the accuracy and loss
-metrics of FedAvg and FedProx. Then, we present the results highlighting the
-trade-off between maintaining privacy versus accuracy via simulations -
-involving the implementation of the differential privacy (DP) method - in
-Pytorch and Opacus ML frameworks on common FL datasets and data distributions
-for both FedAvg and FedProx strategies.</p>
-  </details>
-</div>
-
-
 
 <h2>2024-02</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2402.03114v1">Augmenting Security and Privacy in the Virtual Realm: An Analysis of
+  Extended Reality Devices</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-02-05T15:45:11Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Derin Cayir, Abbas Acar, Riccardo Lazzeretti, Marco Angelini, Mauro Conti, Selcuk Uluagac</p>
+    <p><b>Summary:</b> In this work, we present a device-centric analysis of security and privacy
+attacks and defenses on Extended Reality (XR) devices, highlighting the need
+for robust and privacy-aware security mechanisms. Based on our analysis, we
+present future research directions and propose design considerations to help
+ensure the security and privacy of XR devices.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2402.02672v1">Estimation of conditional average treatment effects on distributed data:
+  A privacy-preserving approach</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-02-05T02:17:21Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yuji Kawamata, Ryoki Motai, Yukihiko Okada, Akira Imakura, Tetsuya Sakurai</p>
+    <p><b>Summary:</b> Estimation of conditional average treatment effects (CATEs) is an important
+topic in various fields such as medical and social sciences. CATEs can be
+estimated with high accuracy if distributed data across multiple parties can be
+centralized. However, it is difficult to aggregate such data if they contain
+privacy information. To address this issue, we proposed data collaboration
+double machine learning (DC-DML), a method that can estimate CATE models with
+privacy preservation of distributed data, and evaluated the method through
+numerical experiments. Our contributions are summarized in the following three
+points. First, our method enables estimation and testing of semi-parametric
+CATE models without iterative communication on distributed data.
+Semi-parametric or non-parametric CATE models enable estimation and testing
+that is more robust to model mis-specification than parametric models. However,
+to our knowledge, no communication-efficient method has been proposed for
+estimating and testing semi-parametric or non-parametric CATE models on
+distributed data. Second, our method enables collaborative estimation between
+different parties as well as multiple time points because the
+dimensionality-reduced intermediate representations can be accumulated. Third,
+our method performed as well or better than other methods in evaluation
+experiments using synthetic, semi-synthetic and real-world datasets.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2402.02230v1">Federated Learning with Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> 
+  <p><b>Published on:</b> 2024-02-03T18:21:38Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Adrien Banse, Jan Kreischer, Xavier Oliva i Jürgens</p>
+    <p><b>Summary:</b> Federated learning (FL), as a type of distributed machine learning, is
+capable of significantly preserving client's private data from being shared
+among different parties. Nevertheless, private information can still be
+divulged by analyzing uploaded parameter weights from clients. In this report,
+we showcase our empirical benchmark of the effect of the number of clients and
+the addition of differential privacy (DP) mechanisms on the performance of the
+model on different types of data. Our results show that non-i.i.d and small
+datasets have the highest decrease in performance in a distributed and
+differentially private setting.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2402.01994v1">Human-Centered Privacy Research in the Age of Large Language Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-02-03T02:32:45Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Tianshi Li, Sauvik Das, Hao-Ping Lee, Dakuo Wang, Bingsheng Yao, Zhiping Zhang</p>
+    <p><b>Summary:</b> The emergence of large language models (LLMs), and their increased use in
+user-facing systems, has led to substantial privacy concerns. To date, research
+on these privacy concerns has been model-centered: exploring how LLMs lead to
+privacy risks like memorization, or can be used to infer personal
+characteristics about people from their content. We argue that there is a need
+for more research focusing on the human aspect of these privacy issues: e.g.,
+research on how design paradigms for LLMs affect users' disclosure behaviors,
+users' mental models and preferences for privacy controls, and the design of
+tools, systems, and artifacts that empower end-users to reclaim ownership over
+their personal data. To build usable, efficient, and privacy-friendly systems
+powered by these models with imperfect privacy properties, our goal is to
+initiate discussions to outline an agenda for conducting human-centered
+research on privacy issues in LLM-powered systems. This Special Interest Group
+(SIG) aims to bring together researchers with backgrounds in usable security
+and privacy, human-AI collaboration, NLP, or any other related domains to share
+their perspectives and experiences on this problem, to help our community
+establish a collective understanding of the challenges, research opportunities,
+research methods, and strategies to collaborate with researchers outside of
+HCI.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2402.01857v1">Position Paper: Assessing Robustness, Privacy, and Fairness in Federated
+  Learning Integrated with Foundation Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-02-02T19:26:00Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xi Li, Jiaqi Wang</p>
+    <p><b>Summary:</b> Federated Learning (FL), while a breakthrough in decentralized machine
+learning, contends with significant challenges such as limited data
+availability and the variability of computational resources, which can stifle
+the performance and scalability of the models. The integration of Foundation
+Models (FMs) into FL presents a compelling solution to these issues, with the
+potential to enhance data richness and reduce computational demands through
+pre-training and data augmentation. However, this incorporation introduces
+novel issues in terms of robustness, privacy, and fairness, which have not been
+sufficiently addressed in the existing research. We make a preliminary
+investigation into this field by systematically evaluating the implications of
+FM-FL integration across these dimensions. We analyze the trade-offs involved,
+uncover the threats and issues introduced by this integration, and propose a
+set of criteria and strategies for navigating these challenges. Furthermore, we
+identify potential research directions for advancing this field, laying a
+foundation for future development in creating reliable, secure, and equitable
+FL systems.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2402.01546v1">Privacy-Preserving Distributed Learning for Residential Short-Term Load
