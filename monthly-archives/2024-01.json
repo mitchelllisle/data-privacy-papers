@@ -2311,5 +2311,75 @@
       "cs.AI",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.15906v2",
+    "title" : "Mean Estimation with User-Level Privacy for Spatio-Temporal IoT Datasets",
+    "summary" : "This paper considers the problem of the private release of sample means of\nspeed values from traffic datasets. Our key contribution is the development of\nuser-level differentially private algorithms that incorporate carefully chosen\nparameter values to ensure low estimation errors on real-world datasets, while\nensuring privacy. We test our algorithms on ITMS (Intelligent Traffic\nManagement System) data from an Indian city, where the speeds of different\nbuses are drawn in a potentially non-i.i.d. manner from an unknown\ndistribution, and where the number of speed samples contributed by different\nbuses is potentially different. We then apply our algorithms to a synthetic\ndataset, generated based on the ITMS data, having either a large number of\nusers or a large number of samples per user. Here, we provide recommendations\nfor the choices of parameters and algorithm subroutines that result in low\nestimation errors, while guaranteeing user-level privacy.",
+    "updated" : "2024-02-03T06:06:09Z",
+    "published" : "2024-01-29T06:21:29Z",
+    "authors" : [
+      {
+        "name" : "V. Arvind Rameshwar"
+      },
+      {
+        "name" : "Anshoo Tandon"
+      },
+      {
+        "name" : "Prajjwal Gupta"
+      },
+      {
+        "name" : "Novoneel Chakraborty"
+      },
+      {
+        "name" : "Abhay Sharma"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.IT",
+      "math.IT",
+      "stat.AP"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.11983v1",
+    "title" : "Lightweight Protection for Privacy in Offloaded Speech Understanding",
+    "summary" : "Speech is a common input method for mobile embedded devices, but cloud-based\nspeech recognition systems pose privacy risks. Disentanglement-based encoders,\ndesigned to safeguard user privacy by filtering sensitive information from\nspeech signals, unfortunately require substantial memory and computational\nresources, which limits their use in less powerful devices. To overcome this,\nwe introduce a novel system, XXX, optimized for such devices. XXX is built on\nthe insight that speech understanding primarily relies on understanding the\nentire utterance's long-term dependencies, while privacy concerns are often\nlinked to short-term details. Therefore, XXX focuses on selectively masking\nthese short-term elements, preserving the quality of long-term speech\nunderstanding. The core of XXX is an innovative differential mask generator,\ngrounded in interpretable learning, which fine-tunes the masking process. We\ntested XXX on the STM32H7 microcontroller, assessing its performance in various\npotential attack scenarios. The results show that XXX maintains speech\nunderstanding accuracy and privacy at levels comparable to existing encoders,\nbut with a significant improvement in efficiency, achieving up to 53.3$\\times$\nfaster processing and a 134.1$\\times$ smaller memory footprint.",
+    "updated" : "2024-01-22T14:36:01Z",
+    "published" : "2024-01-22T14:36:01Z",
+    "authors" : [
+      {
+        "name" : "Dongqi Cai"
+      }
+    ],
+    "categories" : [
+      "cs.SD",
+      "cs.CR",
+      "eess.AS"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.08224v4",
+    "title" : "Privacy Preserving Adaptive Experiment Design",
+    "summary" : "Adaptive experiment is widely adopted to estimate conditional average\ntreatment effect (CATE) in clinical trials and many other scenarios. While the\nprimary goal in experiment is to maximize estimation accuracy, due to the\nimperative of social welfare, it's also crucial to provide treatment with\nsuperior outcomes to patients, which is measured by regret in contextual bandit\nframework. These two objectives often lead to contrast optimal allocation\nmechanism. Furthermore, privacy concerns arise in clinical scenarios containing\nsensitive data like patients health records. Therefore, it's essential for the\ntreatment allocation mechanism to incorporate robust privacy protection\nmeasures. In this paper, we investigate the tradeoff between loss of social\nwelfare and statistical power in contextual bandit experiment. We propose a\nmatched upper and lower bound for the multi-objective optimization problem, and\nthen adopt the concept of Pareto optimality to mathematically characterize the\noptimality condition. Furthermore, we propose differentially private algorithms\nwhich still matches the lower bound, showing that privacy is \"almost free\".\nAdditionally, we derive the asymptotic normality of the estimator, which is\nessential in statistical inference and hypothesis testing.",
+    "updated" : "2024-02-05T08:34:57Z",
+    "published" : "2024-01-16T09:22:12Z",
+    "authors" : [
+      {
+        "name" : "Jiachun Li"
+      },
+      {
+        "name" : "Kaining Shi"
+      },
+      {
+        "name" : "David Simchi-Levi"
+      }
+    ],
+    "categories" : [
+      "stat.ME",
+      "cs.CR",
+      "cs.LG"
+    ]
   }
 ]
