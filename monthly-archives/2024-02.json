@@ -355,5 +355,311 @@
       "cs.LG",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.04033v1",
+    "title" : "On provable privacy vulnerabilities of graph representations",
+    "summary" : "Graph representation learning (GRL) is critical for extracting insights from\ncomplex network structures, but it also raises security concerns due to\npotential privacy vulnerabilities in these representations. This paper\ninvestigates the structural vulnerabilities in graph neural models where\nsensitive topological information can be inferred through edge reconstruction\nattacks. Our research primarily addresses the theoretical underpinnings of\ncosine-similarity-based edge reconstruction attacks (COSERA), providing\ntheoretical and empirical evidence that such attacks can perfectly reconstruct\nsparse Erdos Renyi graphs with independent random features as graph size\nincreases. Conversely, we establish that sparsity is a critical factor for\nCOSERA's effectiveness, as demonstrated through analysis and experiments on\nstochastic block models. Finally, we explore the resilience of (provably)\nprivate graph representations produced via noisy aggregation (NAG) mechanism\nagainst COSERA. We empirically delineate instances wherein COSERA demonstrates\nboth efficacy and deficiency in its capacity to function as an instrument for\nelucidating the trade-off between privacy and utility.",
+    "updated" : "2024-02-06T14:26:22Z",
+    "published" : "2024-02-06T14:26:22Z",
+    "authors" : [
+      {
+        "name" : "Ruofan Wu"
+      },
+      {
+        "name" : "Guanhua Fang"
+      },
+      {
+        "name" : "Qiying Pan"
+      },
+      {
+        "name" : "Mingyang Zhang"
+      },
+      {
+        "name" : "Tengfei Liu"
+      },
+      {
+        "name" : "Weiqiang Wang"
+      },
+      {
+        "name" : "Wenbiao Zhao"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.04013v1",
+    "title" : "Privacy Leakage on DNNs: A Survey of Model Inversion Attacks and\n  Defenses",
+    "summary" : "Model Inversion (MI) attacks aim to disclose private information about the\ntraining data by abusing access to the pre-trained models. These attacks enable\nadversaries to reconstruct high-fidelity data that closely aligns with the\nprivate training data, which has raised significant privacy concerns. Despite\nthe rapid advances in the field, we lack a comprehensive overview of existing\nMI attacks and defenses. To fill this gap, this paper thoroughly investigates\nthis field and presents a holistic survey. Firstly, our work briefly reviews\nthe traditional MI on machine learning scenarios. We then elaborately analyze\nand compare numerous recent attacks and defenses on \\textbf{D}eep\n\\textbf{N}eural \\textbf{N}etworks (DNNs) across multiple modalities and\nlearning tasks.",
+    "updated" : "2024-02-06T14:06:23Z",
+    "published" : "2024-02-06T14:06:23Z",
+    "authors" : [
+      {
+        "name" : "Hao Fang"
+      },
+      {
+        "name" : "Yixiang Qiu"
+      },
+      {
+        "name" : "Hongyao Yu"
+      },
+      {
+        "name" : "Wenbo Yu"
+      },
+      {
+        "name" : "Jiawei Kong"
+      },
+      {
+        "name" : "Baoli Chong"
+      },
+      {
+        "name" : "Bin Chen"
+      },
+      {
+        "name" : "Xuan Wang"
+      },
+      {
+        "name" : "Shu-Tao Xia"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.03907v1",
+    "title" : "Embedding Large Language Models into Extended Reality: Opportunities and\n  Challenges for Inclusion, Engagement, and Privacy",
+    "summary" : "Recent developments in computer graphics, hardware, artificial intelligence\n(AI), and human-computer interaction likely lead to extended reality (XR)\ndevices and setups being more pervasive. While these devices and setups provide\nusers with interactive, engaging, and immersive experiences with different\nsensing modalities, such as eye and hand trackers, many non-player characters\nare utilized in a pre-scripted way or by conventional AI techniques. In this\npaper, we argue for using large language models (LLMs) in XR by embedding them\nin virtual avatars or as narratives to facilitate more inclusive experiences\nthrough prompt engineering according to user profiles and fine-tuning the LLMs\nfor particular purposes. We argue that such inclusion will facilitate diversity\nfor XR use. In addition, we believe that with the versatile conversational\ncapabilities of LLMs, users will engage more with XR environments, which might\nhelp XR be more used in everyday life. Lastly, we speculate that combining the\ninformation provided to LLM-powered environments by the users and the biometric\ndata obtained through the sensors might lead to novel privacy invasions. While\nstudying such possible privacy invasions, user privacy concerns and preferences\nshould also be investigated. In summary, despite some challenges, embedding\nLLMs into XR is a promising and novel research area with several opportunities.",
+    "updated" : "2024-02-06T11:19:40Z",
+    "published" : "2024-02-06T11:19:40Z",
+    "authors" : [
+      {
+        "name" : "Efe Bozkir"
+      },
+      {
+        "name" : "Süleyman Özdel"
+      },
+      {
+        "name" : "Ka Hei Carrie Lau"
+      },
+      {
+        "name" : "Mengdi Wang"
+      },
+      {
+        "name" : "Hong Gao"
+      },
+      {
+        "name" : "Enkelejda Kasneci"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.03702v1",
+    "title" : "On Learning Spatial Provenance in Privacy-Constrained Wireless Networks",
+    "summary" : "In Vehicle-to-Everything networks that involve multi-hop communication, the\nRoad Side Units (RSUs) typically aim to collect location information from the\nparticipating vehicles to provide security and network diagnostics features.\nWhile the vehicles commonly use the Global Positioning System (GPS) for\nnavigation, they may refrain from sharing their precise GPS coordinates with\nthe RSUs due to privacy concerns. Therefore, to jointly address the high\nlocalization requirements by the RSUs as well as the vehicles' privacy, we\npresent a novel spatial-provenance framework wherein each vehicle uses Bloom\nfilters to embed their partial location information when forwarding the\npackets. In this framework, the RSUs and the vehicles agree upon fragmenting\nthe coverage area into several smaller regions so that the vehicles can embed\nthe identity of their regions through Bloom filters. Given the probabilistic\nnature of Bloom filters, we derive an analytical expression on the error-rates\nin provenance recovery and then pose an optimization problem to choose the\nunderlying parameters. With the help of extensive simulation results, we show\nthat our method offers near-optimal Bloom filter parameters in learning spatial\nprovenance. Some interesting trade-offs between the communication-overhead,\nspatial privacy of the vehicles and the error rates in provenance recovery are\nalso discussed.",
+    "updated" : "2024-02-06T04:44:36Z",
+    "published" : "2024-02-06T04:44:36Z",
+    "authors" : [
+      {
+        "name" : "Manish Bansal"
+      },
+      {
+        "name" : "Pramsu Srivastava"
+      },
+      {
+        "name" : "J. Harshan"
+      }
+    ],
+    "categories" : [
+      "cs.IT",
+      "cs.NI",
+      "math.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.03688v1",
+    "title" : "A Survey of Privacy Threats and Defense in Vertical Federated Learning:\n  From Model Life Cycle Perspective",
+    "summary" : "Vertical Federated Learning (VFL) is a federated learning paradigm where\nmultiple participants, who share the same set of samples but hold different\nfeatures, jointly train machine learning models. Although VFL enables\ncollaborative machine learning without sharing raw data, it is still\nsusceptible to various privacy threats. In this paper, we conduct the first\ncomprehensive survey of the state-of-the-art in privacy attacks and defenses in\nVFL. We provide taxonomies for both attacks and defenses, based on their\ncharacterizations, and discuss open challenges and future research directions.\nSpecifically, our discussion is structured around the model's life cycle, by\ndelving into the privacy threats encountered during different stages of machine\nlearning and their corresponding countermeasures. This survey not only serves\nas a resource for the research community but also offers clear guidance and\nactionable insights for practitioners to safeguard data privacy throughout the\nmodel's life cycle.",
+    "updated" : "2024-02-06T04:22:44Z",
+    "published" : "2024-02-06T04:22:44Z",
+    "authors" : [
+      {
+        "name" : "Lei Yu"
+      },
+      {
+        "name" : "Meng Han"
+      },
+      {
+        "name" : "Yiming Li"
+      },
+      {
+        "name" : "Changting Lin"
+      },
+      {
+        "name" : "Yao Zhang"
+      },
+      {
+        "name" : "Mingyang Zhang"
+      },
+      {
+        "name" : "Yan Liu"
+      },
+      {
+        "name" : "Haiqin Weng"
+      },
+      {
+        "name" : "Yuseok Jeon"
+      },
+      {
+        "name" : "Ka-Ho Chow"
+      },
+      {
+        "name" : "Stacy Patterson"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.03612v1",
+    "title" : "Privacy risk in GeoData: A survey",
+    "summary" : "With the ubiquitous use of location-based services, large-scale\nindividual-level location data has been widely collected through\nlocation-awareness devices. The exposure of location data constitutes a\nsignificant privacy risk to users as it can lead to de-anonymisation, the\ninference of sensitive information, and even physical threats. Geoprivacy\nconcerns arise on the issues of user identity de-anonymisation and location\nexposure. In this survey, we analyse different geomasking techniques that have\nbeen proposed to protect the privacy of individuals in geodata. We present a\ntaxonomy to characterise these techniques along different dimensions, and\nconduct a survey of geomasking techniques. We then highlight shortcomings of\ncurrent techniques and discuss avenues for future research.",
+    "updated" : "2024-02-06T00:55:06Z",
+    "published" : "2024-02-06T00:55:06Z",
+    "authors" : [
+      {
+        "name" : "Mahrokh Abdollahi Lorestani"
+      },
+      {
+        "name" : "Thilina Ranbaduge"
+      },
+      {
+        "name" : "Thierry Rakotoarivelo"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.03582v1",
+    "title" : "Matcha: An IDE Plugin for Creating Accurate Privacy Nutrition Labels",
+    "summary" : "Apple and Google introduced their versions of privacy nutrition labels to the\nmobile app stores to better inform users of the apps' data practices. However,\nthese labels are self-reported by developers and have been found to contain\nmany inaccuracies due to misunderstandings of the label taxonomy. In this work,\nwe present Matcha, an IDE plugin that uses automated code analysis to help\ndevelopers create accurate Google Play data safety labels. Developers can\nbenefit from Matcha's ability to detect user data accesses and transmissions\nwhile staying in control of the generated label by adding custom Java\nannotations and modifying an auto-generated XML specification. Our evaluation\nwith 12 developers showed that Matcha helped our participants improved the\naccuracy of a label they created with Google's official tool for a real-world\napp they developed. We found that participants preferred Matcha for its\naccuracy benefits. Drawing on Matcha, we discuss general design recommendations\nfor developer tools used to create accurate standardized privacy notices.",
+    "updated" : "2024-02-05T23:17:08Z",
+    "published" : "2024-02-05T23:17:08Z",
+    "authors" : [
+      {
+        "name" : "Tianshi Li"
+      },
+      {
+        "name" : "Lorrie Faith Cranor"
+      },
+      {
+        "name" : "Yuvraj Agarwal"
+      },
+      {
+        "name" : "Jason I. Hong"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.03531v1",
+    "title" : "Fairness and Privacy Guarantees in Federated Contextual Bandits",
+    "summary" : "This paper considers the contextual multi-armed bandit (CMAB) problem with\nfairness and privacy guarantees in a federated environment. We consider\nmerit-based exposure as the desired fair outcome, which provides exposure to\neach action in proportion to the reward associated. We model the algorithm's\neffectiveness using fairness regret, which captures the difference between fair\noptimal policy and the policy output by the algorithm. Applying fair CMAB\nalgorithm to each agent individually leads to fairness regret linear in the\nnumber of agents. We propose that collaborative -- federated learning can be\nmore effective and provide the algorithm Fed-FairX-LinUCB that also ensures\ndifferential privacy. The primary challenge in extending the existing privacy\nframework is designing the communication protocol for communicating required\ninformation across agents. A naive protocol can either lead to weaker privacy\nguarantees or higher regret. We design a novel communication protocol that\nallows for (i) Sub-linear theoretical bounds on fairness regret for\nFed-FairX-LinUCB and comparable bounds for the private counterpart,\nPriv-FairX-LinUCB (relative to single-agent learning), (ii) Effective use of\nprivacy budget in Priv-FairX-LinUCB. We demonstrate the efficacy of our\nproposed algorithm with extensive simulations-based experiments. We show that\nboth Fed-FairX-LinUCB and Priv-FairX-LinUCB achieve near-optimal fairness\nregret.",
+    "updated" : "2024-02-05T21:38:23Z",
+    "published" : "2024-02-05T21:38:23Z",
+    "authors" : [
+      {
+        "name" : "Sambhav Solanki"
+      },
+      {
+        "name" : "Shweta Jain"
+      },
+      {
+        "name" : "Sujit Gujar"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.03435v1",
+    "title" : "Psychological Assessments with Large Language Models: A Privacy-Focused\n  and Cost-Effective Approach",
+    "summary" : "This study explores the use of Large Language Models (LLMs) to analyze text\ncomments from Reddit users, aiming to achieve two primary objectives: firstly,\nto pinpoint critical excerpts that support a predefined psychological\nassessment of suicidal risk; and secondly, to summarize the material to\nsubstantiate the preassigned suicidal risk level. The work is circumscribed to\nthe use of \"open-source\" LLMs that can be run locally, thereby enhancing data\nprivacy. Furthermore, it prioritizes models with low computational\nrequirements, making it accessible to both individuals and institutions\noperating on limited computing budgets. The implemented strategy only relies on\na carefully crafted prompt and a grammar to guide the LLM's text completion.\nDespite its simplicity, the evaluation metrics show outstanding results, making\nit a valuable privacy-focused and cost-effective approach. This work is part of\nthe Computational Linguistics and Clinical Psychology (CLPsych) 2024 shared\ntask.",
+    "updated" : "2024-02-05T19:00:02Z",
+    "published" : "2024-02-05T19:00:02Z",
+    "authors" : [
+      {
+        "name" : "Sergi Blanco-Cuaresma"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.AI",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.02672v1",
+    "title" : "Estimation of conditional average treatment effects on distributed data:\n  A privacy-preserving approach",
+    "summary" : "Estimation of conditional average treatment effects (CATEs) is an important\ntopic in various fields such as medical and social sciences. CATEs can be\nestimated with high accuracy if distributed data across multiple parties can be\ncentralized. However, it is difficult to aggregate such data if they contain\nprivacy information. To address this issue, we proposed data collaboration\ndouble machine learning (DC-DML), a method that can estimate CATE models with\nprivacy preservation of distributed data, and evaluated the method through\nnumerical experiments. Our contributions are summarized in the following three\npoints. First, our method enables estimation and testing of semi-parametric\nCATE models without iterative communication on distributed data.\nSemi-parametric or non-parametric CATE models enable estimation and testing\nthat is more robust to model mis-specification than parametric models. However,\nto our knowledge, no communication-efficient method has been proposed for\nestimating and testing semi-parametric or non-parametric CATE models on\ndistributed data. Second, our method enables collaborative estimation between\ndifferent parties as well as multiple time points because the\ndimensionality-reduced intermediate representations can be accumulated. Third,\nour method performed as well or better than other methods in evaluation\nexperiments using synthetic, semi-synthetic and real-world datasets.",
+    "updated" : "2024-02-05T02:17:21Z",
+    "published" : "2024-02-05T02:17:21Z",
+    "authors" : [
+      {
+        "name" : "Yuji Kawamata"
+      },
+      {
+        "name" : "Ryoki Motai"
+      },
+      {
+        "name" : "Yukihiko Okada"
+      },
+      {
+        "name" : "Akira Imakura"
+      },
+      {
+        "name" : "Tetsuya Sakurai"
+      }
+    ],
+    "categories" : [
+      "stat.ME",
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.01857v1",
+    "title" : "Position Paper: Assessing Robustness, Privacy, and Fairness in Federated\n  Learning Integrated with Foundation Models",
+    "summary" : "Federated Learning (FL), while a breakthrough in decentralized machine\nlearning, contends with significant challenges such as limited data\navailability and the variability of computational resources, which can stifle\nthe performance and scalability of the models. The integration of Foundation\nModels (FMs) into FL presents a compelling solution to these issues, with the\npotential to enhance data richness and reduce computational demands through\npre-training and data augmentation. However, this incorporation introduces\nnovel issues in terms of robustness, privacy, and fairness, which have not been\nsufficiently addressed in the existing research. We make a preliminary\ninvestigation into this field by systematically evaluating the implications of\nFM-FL integration across these dimensions. We analyze the trade-offs involved,\nuncover the threats and issues introduced by this integration, and propose a\nset of criteria and strategies for navigating these challenges. Furthermore, we\nidentify potential research directions for advancing this field, laying a\nfoundation for future development in creating reliable, secure, and equitable\nFL systems.",
+    "updated" : "2024-02-02T19:26:00Z",
+    "published" : "2024-02-02T19:26:00Z",
+    "authors" : [
+      {
+        "name" : "Xi Li"
+      },
+      {
+        "name" : "Jiaqi Wang"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "cs.CY"
+    ]
   }
 ]
