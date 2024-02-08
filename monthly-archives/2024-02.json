@@ -661,5 +661,57 @@
       "cs.CR",
       "cs.CY"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.04840v1",
+    "title" : "Efficient Estimation of a Gaussian Mean with Local Differential Privacy",
+    "summary" : "In this paper we study the problem of estimating the unknown mean $\\theta$ of\na unit variance Gaussian distribution in a locally differentially private (LDP)\nway. In the high-privacy regime ($\\epsilon\\le 0.67$), we identify the exact\noptimal privacy mechanism that minimizes the variance of the estimator\nasymptotically. It turns out to be the extraordinarily simple sign mechanism\nthat applies randomized response to the sign of $X_i-\\theta$. However, since\nthis optimal mechanism depends on the unknown mean $\\theta$, we employ a\ntwo-stage LDP parameter estimation procedure which requires splitting agents\ninto two groups. The first $n_1$ observations are used to consistently but not\nnecessarily efficiently estimate the parameter $\\theta$ by\n$\\tilde{\\theta}_{n_1}$. Then this estimate is updated by applying the sign\nmechanism with $\\tilde{\\theta}_{n_1}$ instead of $\\theta$ to the remaining\n$n-n_1$ observations, to obtain an LDP and efficient estimator of the unknown\nmean.",
+    "updated" : "2024-02-07T13:41:45Z",
+    "published" : "2024-02-07T13:41:45Z",
+    "authors" : [
+      {
+        "name" : "Nikita Kalinin"
+      },
+      {
+        "name" : "Lukas Steinberger"
+      }
+    ],
+    "categories" : [
+      "math.ST",
+      "stat.TH"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.04489v1",
+    "title" : "De-amplifying Bias from Differential Privacy in Language Model\n  Fine-tuning",
+    "summary" : "Fairness and privacy are two important values machine learning (ML)\npractitioners often seek to operationalize in models. Fairness aims to reduce\nmodel bias for social/demographic sub-groups. Privacy via differential privacy\n(DP) mechanisms, on the other hand, limits the impact of any individual's\ntraining data on the resulting model. The trade-offs between privacy and\nfairness goals of trustworthy ML pose a challenge to those wishing to address\nboth. We show that DP amplifies gender, racial, and religious bias when\nfine-tuning large language models (LLMs), producing models more biased than\nones fine-tuned without DP. We find the cause of the amplification to be a\ndisparity in convergence of gradients across sub-groups. Through the case of\nbinary gender bias, we demonstrate that Counterfactual Data Augmentation (CDA),\na known method for addressing bias, also mitigates bias amplification by DP. As\na consequence, DP and CDA together can be used to fine-tune models while\nmaintaining both fairness and privacy.",
+    "updated" : "2024-02-07T00:30:58Z",
+    "published" : "2024-02-07T00:30:58Z",
+    "authors" : [
+      {
+        "name" : "Sanjari Srivastava"
+      },
+      {
+        "name" : "Piotr Mardziel"
+      },
+      {
+        "name" : "Zhikhun Zhang"
+      },
+      {
+        "name" : "Archana Ahlawat"
+      },
+      {
+        "name" : "Anupam Datta"
+      },
+      {
+        "name" : "John C Mitchell"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "cs.CY",
+      "stat.ME"
+    ]
   }
 ]
