@@ -2178,72 +2178,59 @@ private datasets, we will also implement DP in the federated learning setting.</
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2401.00794v1">Privacy-Preserving Data in IoT-based Cloud Systems: A Comprehensive
-  Survey with AI Integration</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-01-01T15:48:39Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> D. Dhinakaran, S. M. Udhaya Sankar, D. Selvaraj, S. Edwin Raja</p>
-    <p><b>Summary:</b> As the integration of Internet of Things devices with cloud computing
-proliferates, the paramount importance of privacy preservation comes to the
-forefront. This survey paper meticulously explores the landscape of privacy
-issues in the dynamic intersection of IoT and cloud systems. The comprehensive
-literature review synthesizes existing research, illuminating key challenges
-and discerning emerging trends in privacy preserving techniques. The
-categorization of diverse approaches unveils a nuanced understanding of
-encryption techniques, anonymization strategies, access control mechanisms, and
-the burgeoning integration of artificial intelligence. Notable trends include
-the infusion of machine learning for dynamic anonymization, homomorphic
-encryption for secure computation, and AI-driven access control systems. The
-culmination of this survey contributes a holistic view, laying the groundwork
-for understanding the multifaceted strategies employed in securing sensitive
-data within IoT-based cloud environments. The insights garnered from this
-survey provide a valuable resource for researchers, practitioners, and
-policymakers navigating the complex terrain of privacy preservation in the
-evolving landscape of IoT and cloud computing</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2401.00793v2">SecFormer: Towards Fast and Accurate Privacy-Preserving Inference for
-  Large Language Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-01-01T15:40:35Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jinglong Luo, Yehong Zhang, Jiaqi Zhang, Xin Mu, Hui Wang, Yue Yu, Zenglin Xu</p>
-    <p><b>Summary:</b> With the growing use of large language models hosted on cloud platforms to
-offer inference services, privacy concerns are escalating, especially
-concerning sensitive data like investment plans and bank account details.
-Secure Multi-Party Computing (SMPC) emerges as a promising solution to protect
-the privacy of inference data and model parameters. However, the application of
-SMPC in Privacy-Preserving Inference (PPI) for large language models,
-particularly those based on the Transformer architecture, often leads to
-considerable slowdowns or declines in performance. This is largely due to the
-multitude of nonlinear operations in the Transformer architecture, which are
-not well-suited to SMPC and difficult to circumvent or optimize effectively. To
-address this concern, we introduce an advanced optimization framework called
-SecFormer, to achieve fast and accurate PPI for Transformer models. By
-implementing model design optimization, we successfully eliminate the high-cost
-exponential and maximum operations in PPI without sacrificing model
-performance. Additionally, we have developed a suite of efficient SMPC
-protocols that utilize segmented polynomials, Fourier series and Goldschmidt's
-method to handle other complex nonlinear functions within PPI, such as GeLU,
-LayerNorm, and Softmax. Our extensive experiments reveal that SecFormer
-outperforms MPCFormer in performance, showing improvements of $5.6\%$ and
-$24.2\%$ for BERT$_{\text{BASE}}$ and BERT$_{\text{LARGE}}$, respectively. In
-terms of efficiency, SecFormer is 3.56 and 3.58 times faster than Puma for
-BERT$_{\text{BASE}}$ and BERT$_{\text{LARGE}}$, demonstrating its effectiveness
-and speed.</p>
-  </details>
-</div>
-
-
 
 <h2>2024-02</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2402.04840v1">Efficient Estimation of a Gaussian Mean with Local Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36"> 
+  <p><b>Published on:</b> 2024-02-07T13:41:45Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Nikita Kalinin, Lukas Steinberger</p>
+    <p><b>Summary:</b> In this paper we study the problem of estimating the unknown mean $\theta$ of
+a unit variance Gaussian distribution in a locally differentially private (LDP)
+way. In the high-privacy regime ($\epsilon\le 0.67$), we identify the exact
+optimal privacy mechanism that minimizes the variance of the estimator
+asymptotically. It turns out to be the extraordinarily simple sign mechanism
+that applies randomized response to the sign of $X_i-\theta$. However, since
+this optimal mechanism depends on the unknown mean $\theta$, we employ a
+two-stage LDP parameter estimation procedure which requires splitting agents
+into two groups. The first $n_1$ observations are used to consistently but not
+necessarily efficiently estimate the parameter $\theta$ by
+$\tilde{\theta}_{n_1}$. Then this estimate is updated by applying the sign
+mechanism with $\tilde{\theta}_{n_1}$ instead of $\theta$ to the remaining
+$n-n_1$ observations, to obtain an LDP and efficient estimator of the unknown
+mean.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2402.04489v1">De-amplifying Bias from Differential Privacy in Language Model
+  Fine-tuning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> 
+  <p><b>Published on:</b> 2024-02-07T00:30:58Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Sanjari Srivastava, Piotr Mardziel, Zhikhun Zhang, Archana Ahlawat, Anupam Datta, John C Mitchell</p>
+    <p><b>Summary:</b> Fairness and privacy are two important values machine learning (ML)
+practitioners often seek to operationalize in models. Fairness aims to reduce
+model bias for social/demographic sub-groups. Privacy via differential privacy
+(DP) mechanisms, on the other hand, limits the impact of any individual's
+training data on the resulting model. The trade-offs between privacy and
+fairness goals of trustworthy ML pose a challenge to those wishing to address
+both. We show that DP amplifies gender, racial, and religious bias when
+fine-tuning large language models (LLMs), producing models more biased than
+ones fine-tuned without DP. We find the cause of the amplification to be a
+disparity in convergence of gradients across sub-groups. Through the case of
+binary gender bias, we demonstrate that Counterfactual Data Augmentation (CDA),
+a known method for addressing bias, also mitigates bias amplification by DP. As
+a consequence, DP and CDA together can be used to fine-tune models while
+maintaining both fairness and privacy.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2402.04033v1">On provable privacy vulnerabilities of graph representations</a></h3>
