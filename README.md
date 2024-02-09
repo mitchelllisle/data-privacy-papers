@@ -2099,87 +2099,95 @@ conduct experiments to verify the efficiency of our proposed FRAPPE algorithm.</
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2401.01204v2">PPBFL: A Privacy Protected Blockchain-based Federated Learning Model</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2024-01-02T13:13:28Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yang Li, Chunhe Xia, Wanshuang Lin, Tianbo Wang</p>
-    <p><b>Summary:</b> With the rapid development of machine learning and a growing concern for data
-privacy, federated learning has become a focal point of attention. However,
-attacks on model parameters and a lack of incentive mechanisms hinder the
-effectiveness of federated learning. Therefore, we propose A Privacy Protected
-Blockchain-based Federated Learning Model (PPBFL) to enhance the security of
-federated learning and encourage active participation of nodes in model
-training. Blockchain technology ensures the integrity of model parameters
-stored in the InterPlanetary File System (IPFS), providing protection against
-tampering. Within the blockchain, we introduce a Proof of Training Work (PoTW)
-consensus algorithm tailored for federated learning, aiming to incentive
-training nodes. This algorithm rewards nodes with greater computational power,
-promoting increased participation and effort in the federated learning process.
-A novel adaptive differential privacy algorithm is simultaneously applied to
-local and global models. This safeguards the privacy of local data at training
-clients, preventing malicious nodes from launching inference attacks.
-Additionally, it enhances the security of the global model, preventing
-potential security degradation resulting from the combination of numerous local
-models. The possibility of security degradation is derived from the composition
-theorem. By introducing reverse noise in the global model, a zero-bias estimate
-of differential privacy noise between local and global models is achieved.
-Furthermore, we propose a new mix transactions mechanism utilizing ring
-signature technology to better protect the identity privacy of local training
-clients. Security analysis and experimental results demonstrate that PPBFL,
-compared to baseline methods, not only exhibits superior model performance but
-also achieves higher security.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2401.01146v1">Privacy Preserving Personal Assistant with On-Device Diarization and
-  Spoken Dialogue System for Home and Beyond</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2024-01-02T10:56:24Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Gérard Chollet, Hugues Sansen, Yannis Tevissen, Jérôme Boudy, Mossaab Hariz, Christophe Lohr, Fathy Yassa</p>
-    <p><b>Summary:</b> In the age of personal voice assistants, the question of privacy arises.
-These digital companions often lack memory of past interactions, while relying
-heavily on the internet for speech processing, raising privacy concerns. Modern
-smartphones now enable on-device speech processing, making cloud-based
-solutions unnecessary. Personal assistants for the elderly should excel at
-memory recall, especially in medical examinations. The e-ViTA project developed
-a versatile conversational application with local processing and speaker
-recognition. This paper highlights the importance of speaker diarization
-enriched with sensor data fusion for contextualized conversation preservation.
-The use cases applied to the e-VITA project have shown that truly personalized
-dialogue is pivotal for individual voice assistants. Secure local processing
-and sensor data fusion ensure virtual companions meet individual user needs
-without compromising privacy or data security.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2401.00973v1">Facebook Report on Privacy of fNIRS data</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
-  <p><b>Published on:</b> 2024-01-01T23:30:31Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Md Imran Hossen, Sai Venkatesh Chilukoti, Liqun Shan, Vijay Srinivas Tida, Xiali Hei</p>
-    <p><b>Summary:</b> The primary goal of this project is to develop privacy-preserving machine
-learning model training techniques for fNIRS data. This project will build a
-local model in a centralized setting with both differential privacy (DP) and
-certified robustness. It will also explore collaborative federated learning to
-train a shared model between multiple clients without sharing local fNIRS
-datasets. To prevent unintentional private information leakage of such clients'
-private datasets, we will also implement DP in the federated learning setting.</p>
-  </details>
-</div>
-
-
 
 <h2>2024-02</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2402.05860v1">Privacy-Preserving Synthetic Continual Semantic Segmentation for Robotic
+  Surgery</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2024-02-08T17:44:06Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mengya Xu, Mobarakol Islam, Long Bai, Hongliang Ren</p>
+    <p><b>Summary:</b> Deep Neural Networks (DNNs) based semantic segmentation of the robotic
+instruments and tissues can enhance the precision of surgical activities in
+robot-assisted surgery. However, in biological learning, DNNs cannot learn
+incremental tasks over time and exhibit catastrophic forgetting, which refers
+to the sharp decline in performance on previously learned tasks after learning
+a new one. Specifically, when data scarcity is the issue, the model shows a
+rapid drop in performance on previously learned instruments after learning new
+data with new instruments. The problem becomes worse when it limits releasing
+the dataset of the old instruments for the old model due to privacy concerns
+and the unavailability of the data for the new or updated version of the
+instruments for the continual learning model. For this purpose, we develop a
+privacy-preserving synthetic continual semantic segmentation framework by
+blending and harmonizing (i) open-source old instruments foreground to the
+synthesized background without revealing real patient data in public and (ii)
+new instruments foreground to extensively augmented real background. To boost
+the balanced logit distillation from the old model to the continual learning
+model, we design overlapping class-aware temperature normalization (CAT) by
+controlling model learning utility. We also introduce multi-scale
+shifted-feature distillation (SD) to maintain long and short-range spatial
+relationships among the semantic objects where conventional short-range spatial
+features with limited information reduce the power of feature distillation. We
+demonstrate the effectiveness of our framework on the EndoVis 2017 and 2018
+instrument segmentation dataset with a generalized continual learning setting.
+Code is available at~\url{https://github.com/XuMengyaAmy/Synthetic_CAT_SD}.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2402.05690v1">Overcoming Noise Limitations in QKD with Quantum Privacy Amplification</a></h3>
+  
+  <p><b>Published on:</b> 2024-02-08T14:07:36Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Philipp Sohr, Sebastian Ecker, Lukas Bulla, Martin Bohmann, Rupert Ursin</p>
+    <p><b>Summary:</b> High-quality, distributed quantum entanglement is the distinctive resource
+for quantum communication and forms the foundation for the unequalled level of
+security that can be assured in quantum key distribution. While the
+entanglement provider does not need to be trusted, the secure key rate drops to
+zero if the entanglement used is too noisy. In this paper, we show
+experimentally that QPA is able to increase the secure key rate achievable with
+QKD by improving the quality of distributed entanglement, thus increasing the
+quantum advantage in QKD. Beyond that, we show that QPA enables key generation
+at noise levels that previously prevented key generation. These remarkable
+results were only made possible by the efficient implementation exploiting
+hyperentanglement in the polarisation and energy-time degrees of freedom. We
+provide a detailed characterisation of the gain in secure key rate achieved in
+our proof-of-principle experiment at different noise levels. The results are
+paramount for the implementation of a global quantum network linking quantum
+processors and ensuring future-proof data security.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2402.05453v1">Mitigating Privacy Risk in Membership Inference by Convex-Concave Loss</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-02-08T07:14:17Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zhenlong Liu, Lei Feng, Huiping Zhuang, Xiaofeng Cao, Hongxin Wei</p>
+    <p><b>Summary:</b> Machine learning models are susceptible to membership inference attacks
+(MIAs), which aim to infer whether a sample is in the training set. Existing
+work utilizes gradient ascent to enlarge the loss variance of training data,
+alleviating the privacy risk. However, optimizing toward a reverse direction
+may cause the model parameters to oscillate near local minima, leading to
+instability and suboptimal performance. In this work, we propose a novel method
+-- Convex-Concave Loss, which enables a high variance of training loss
+distribution by gradient descent. Our method is motivated by the theoretical
+analysis that convex losses tend to decrease the loss variance during training.
+Thus, our key idea behind CCL is to reduce the convexity of loss functions with
+a concave term. Trained with CCL, neural networks produce losses with high
+variance for training data, reinforcing the defense against MIAs. Extensive
+experiments demonstrate the superiority of CCL, achieving state-of-the-art
+balance in the privacy-utility trade-off.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2402.04840v1">Efficient Estimation of a Gaussian Mean with Local Differential Privacy</a></h3>
