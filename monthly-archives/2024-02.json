@@ -713,5 +713,84 @@
       "cs.CY",
       "stat.ME"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.05860v1",
+    "title" : "Privacy-Preserving Synthetic Continual Semantic Segmentation for Robotic\n  Surgery",
+    "summary" : "Deep Neural Networks (DNNs) based semantic segmentation of the robotic\ninstruments and tissues can enhance the precision of surgical activities in\nrobot-assisted surgery. However, in biological learning, DNNs cannot learn\nincremental tasks over time and exhibit catastrophic forgetting, which refers\nto the sharp decline in performance on previously learned tasks after learning\na new one. Specifically, when data scarcity is the issue, the model shows a\nrapid drop in performance on previously learned instruments after learning new\ndata with new instruments. The problem becomes worse when it limits releasing\nthe dataset of the old instruments for the old model due to privacy concerns\nand the unavailability of the data for the new or updated version of the\ninstruments for the continual learning model. For this purpose, we develop a\nprivacy-preserving synthetic continual semantic segmentation framework by\nblending and harmonizing (i) open-source old instruments foreground to the\nsynthesized background without revealing real patient data in public and (ii)\nnew instruments foreground to extensively augmented real background. To boost\nthe balanced logit distillation from the old model to the continual learning\nmodel, we design overlapping class-aware temperature normalization (CAT) by\ncontrolling model learning utility. We also introduce multi-scale\nshifted-feature distillation (SD) to maintain long and short-range spatial\nrelationships among the semantic objects where conventional short-range spatial\nfeatures with limited information reduce the power of feature distillation. We\ndemonstrate the effectiveness of our framework on the EndoVis 2017 and 2018\ninstrument segmentation dataset with a generalized continual learning setting.\nCode is available at~\\url{https://github.com/XuMengyaAmy/Synthetic_CAT_SD}.",
+    "updated" : "2024-02-08T17:44:06Z",
+    "published" : "2024-02-08T17:44:06Z",
+    "authors" : [
+      {
+        "name" : "Mengya Xu"
+      },
+      {
+        "name" : "Mobarakol Islam"
+      },
+      {
+        "name" : "Long Bai"
+      },
+      {
+        "name" : "Hongliang Ren"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.05690v1",
+    "title" : "Overcoming Noise Limitations in QKD with Quantum Privacy Amplification",
+    "summary" : "High-quality, distributed quantum entanglement is the distinctive resource\nfor quantum communication and forms the foundation for the unequalled level of\nsecurity that can be assured in quantum key distribution. While the\nentanglement provider does not need to be trusted, the secure key rate drops to\nzero if the entanglement used is too noisy. In this paper, we show\nexperimentally that QPA is able to increase the secure key rate achievable with\nQKD by improving the quality of distributed entanglement, thus increasing the\nquantum advantage in QKD. Beyond that, we show that QPA enables key generation\nat noise levels that previously prevented key generation. These remarkable\nresults were only made possible by the efficient implementation exploiting\nhyperentanglement in the polarisation and energy-time degrees of freedom. We\nprovide a detailed characterisation of the gain in secure key rate achieved in\nour proof-of-principle experiment at different noise levels. The results are\nparamount for the implementation of a global quantum network linking quantum\nprocessors and ensuring future-proof data security.",
+    "updated" : "2024-02-08T14:07:36Z",
+    "published" : "2024-02-08T14:07:36Z",
+    "authors" : [
+      {
+        "name" : "Philipp Sohr"
+      },
+      {
+        "name" : "Sebastian Ecker"
+      },
+      {
+        "name" : "Lukas Bulla"
+      },
+      {
+        "name" : "Martin Bohmann"
+      },
+      {
+        "name" : "Rupert Ursin"
+      }
+    ],
+    "categories" : [
+      "quant-ph"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.05453v1",
+    "title" : "Mitigating Privacy Risk in Membership Inference by Convex-Concave Loss",
+    "summary" : "Machine learning models are susceptible to membership inference attacks\n(MIAs), which aim to infer whether a sample is in the training set. Existing\nwork utilizes gradient ascent to enlarge the loss variance of training data,\nalleviating the privacy risk. However, optimizing toward a reverse direction\nmay cause the model parameters to oscillate near local minima, leading to\ninstability and suboptimal performance. In this work, we propose a novel method\n-- Convex-Concave Loss, which enables a high variance of training loss\ndistribution by gradient descent. Our method is motivated by the theoretical\nanalysis that convex losses tend to decrease the loss variance during training.\nThus, our key idea behind CCL is to reduce the convexity of loss functions with\na concave term. Trained with CCL, neural networks produce losses with high\nvariance for training data, reinforcing the defense against MIAs. Extensive\nexperiments demonstrate the superiority of CCL, achieving state-of-the-art\nbalance in the privacy-utility trade-off.",
+    "updated" : "2024-02-08T07:14:17Z",
+    "published" : "2024-02-08T07:14:17Z",
+    "authors" : [
+      {
+        "name" : "Zhenlong Liu"
+      },
+      {
+        "name" : "Lei Feng"
+      },
+      {
+        "name" : "Huiping Zhuang"
+      },
+      {
+        "name" : "Xiaofeng Cao"
+      },
+      {
+        "name" : "Hongxin Wei"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
   }
 ]
