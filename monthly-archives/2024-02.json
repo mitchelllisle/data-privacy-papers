@@ -792,5 +792,27 @@
       "cs.LG",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.06137v1",
+    "title" : "On the Privacy of Selection Mechanisms with Gaussian Noise",
+    "summary" : "Report Noisy Max and Above Threshold are two classical differentially private\n(DP) selection mechanisms. Their output is obtained by adding noise to a\nsequence of low-sensitivity queries and reporting the identity of the query\nwhose (noisy) answer satisfies a certain condition. Pure DP guarantees for\nthese mechanisms are easy to obtain when Laplace noise is added to the queries.\nOn the other hand, when instantiated using Gaussian noise, standard analyses\nonly yield approximate DP guarantees despite the fact that the outputs of these\nmechanisms lie in a discrete space. In this work, we revisit the analysis of\nReport Noisy Max and Above Threshold with Gaussian noise and show that, under\nthe additional assumption that the underlying queries are bounded, it is\npossible to provide pure ex-ante DP bounds for Report Noisy Max and pure\nex-post DP bounds for Above Threshold. The resulting bounds are tight and\ndepend on closed-form expressions that can be numerically evaluated using\nstandard methods. Empirically we find these lead to tighter privacy accounting\nin the high privacy, low data regime. Further, we propose a simple privacy\nfilter for composing pure ex-post DP guarantees, and use it to derive a fully\nadaptive Gaussian Sparse Vector Technique mechanism. Finally, we provide\nexperiments on mobility and energy consumption datasets demonstrating that our\nSparse Vector Technique is practically competitive with previous approaches and\nrequires less hyper-parameter tuning.",
+    "updated" : "2024-02-09T02:11:25Z",
+    "published" : "2024-02-09T02:11:25Z",
+    "authors" : [
+      {
+        "name" : "Jonathan Lebensold"
+      },
+      {
+        "name" : "Doina Precup"
+      },
+      {
+        "name" : "Borja Balle"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
   }
 ]
