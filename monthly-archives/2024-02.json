@@ -814,5 +814,180 @@
       "cs.LG",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.07687v1",
+    "title" : "Privacy-Preserving Gaze Data Streaming in Immersive Interactive Virtual\n  Reality: Robustness and User Experience",
+    "summary" : "Eye tracking is routinely being incorporated into virtual reality (VR)\nsystems. Prior research has shown that eye tracking data can be used for\nre-identification attacks. The state of our knowledge about currently existing\nprivacy mechanisms is limited to privacy-utility trade-off curves based on\ndata-centric metrics of utility, such as prediction error, and black-box threat\nmodels. We propose that for interactive VR applications, it is essential to\nconsider user-centric notions of utility and a variety of threat models. We\ndevelop a methodology to evaluate real-time privacy mechanisms for interactive\nVR applications that incorporate subjective user experience and task\nperformance metrics. We evaluate selected privacy mechanisms using this\nmethodology and find that re-identification accuracy can be decreased to as low\nas 14% while maintaining a high usability score and reasonable task\nperformance. Finally, we elucidate three threat scenarios (black-box, black-box\nwith exemplars, and white-box) and assess how well the different privacy\nmechanisms hold up to these adversarial scenarios. This work advances the state\nof the art in VR privacy by providing a methodology for end-to-end assessment\nof the risk of re-identification attacks and potential mitigating solutions.",
+    "updated" : "2024-02-12T14:53:12Z",
+    "published" : "2024-02-12T14:53:12Z",
+    "authors" : [
+      {
+        "name" : "Ethan Wilson"
+      },
+      {
+        "name" : "Azim Ibragimov"
+      },
+      {
+        "name" : "Michael J. Proulx"
+      },
+      {
+        "name" : "Sai Deep Tetali"
+      },
+      {
+        "name" : "Kevin Butler"
+      },
+      {
+        "name" : "Eakta Jain"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.07584v1",
+    "title" : "Privacy-Optimized Randomized Response for Sharing Multi-Attribute Data",
+    "summary" : "With the increasing amount of data in society, privacy concerns in data\nsharing have become widely recognized. Particularly, protecting personal\nattribute information is essential for a wide range of aims from crowdsourcing\nto realizing personalized medicine. Although various differentially private\nmethods based on randomized response have been proposed for single attribute\ninformation or specific analysis purposes such as frequency estimation, there\nis a lack of studies on the mechanism for sharing individuals' multiple\ncategorical information itself. The existing randomized response for sharing\nmulti-attribute data uses the Kronecker product to perturb each attribute\ninformation in turn according to the respective privacy level but achieves only\na weak privacy level for the entire dataset. Therefore, in this study, we\npropose a privacy-optimized randomized response that guarantees the strongest\nprivacy in sharing multi-attribute data. Furthermore, we present an efficient\nheuristic algorithm for constructing a near-optimal mechanism. The time\ncomplexity of our algorithm is O(k^2), where k is the number of attributes, and\nit can be performed in about 1 second even for large datasets with k = 1,000.\nThe experimental results demonstrate that both of our methods provide\nsignificantly stronger privacy guarantees for the entire dataset than the\nexisting method. In addition, we show an analysis example using genome\nstatistics to confirm that our methods can achieve less than half the output\nerror compared with that of the existing method. Overall, this study is an\nimportant step toward trustworthy sharing and analysis of multi-attribute data.\nThe Python implementation of our experiments and supplemental results are\navailable at https://github.com/ay0408/Optimized-RR.",
+    "updated" : "2024-02-12T11:34:42Z",
+    "published" : "2024-02-12T11:34:42Z",
+    "authors" : [
+      {
+        "name" : "Akito Yamamoto"
+      },
+      {
+        "name" : "Tetsuo Shibuya"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.07367v1",
+    "title" : "Utilizing Large LanguageModels to Detect Privacy Leaks in Mini-App Code",
+    "summary" : "Mini-applications, commonly referred to as mini-apps, are compact software\nprograms embedded within larger applications or platforms, offering targeted\nfunctionality without the need for separate installations. Typically web-based\nor cloud-hosted, these mini-apps streamline user experiences by providing\nfocused services accessible through web browsers or mobile apps. Their\nsimplicity, speed, and integration capabilities make them valuable additions to\nmessaging platforms, social media networks, e-commerce sites, and various\ndigital environments. WeChat Mini Programs, a prominent feature of China's\nleading messaging app, exemplify this trend, offering users a seamless array of\nservices without additional downloads. Leveraging WeChat's extensive user base\nand payment infrastructure, Mini Programs facilitate efficient transactions and\nbridge online and offline experiences, shaping China's digital landscape\nsignificantly. This paper investigates the potential of employing Large\nLanguage Models (LLMs) to detect privacy breaches within WeChat Mini Programs.\nGiven the widespread use of Mini Programs and growing concerns about data\nprivacy, this research seeks to determine if LLMs can effectively identify\ninstances of privacy leakage within this ecosystem. Through meticulous analysis\nand experimentation, we aim to highlight the efficacy of LLMs in safeguarding\nuser privacy and security within the WeChat Mini Program environment, thereby\ncontributing to a more secure digital landscape.",
+    "updated" : "2024-02-12T01:55:40Z",
+    "published" : "2024-02-12T01:55:40Z",
+    "authors" : [
+      {
+        "name" : "Liming Jiang"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.07180v1",
+    "title" : "MAGNETO: Edge AI for Human Activity Recognition -- Privacy and\n  Personalization",
+    "summary" : "Human activity recognition (HAR) is a well-established field, significantly\nadvanced by modern machine learning (ML) techniques. While companies have\nsuccessfully integrated HAR into consumer products, they typically rely on a\npredefined activity set, which limits personalizations at the user level (edge\ndevices). Despite advancements in Incremental Learning for updating models with\nnew data, this often occurs on the Cloud, necessitating regular data transfers\nbetween cloud and edge devices, thus leading to data privacy issues. In this\npaper, we propose MAGNETO, an Edge AI platform that pushes HAR tasks from the\nCloud to the Edge. MAGNETO allows incremental human activity learning directly\non the Edge devices, without any data exchange with the Cloud. This enables\nstrong privacy guarantees, low processing latency, and a high degree of\npersonalization for users. In particular, we demonstrate MAGNETO in an Android\ndevice, validating the whole pipeline from data collection to result\nvisualization.",
+    "updated" : "2024-02-11T12:29:16Z",
+    "published" : "2024-02-11T12:29:16Z",
+    "authors" : [
+      {
+        "name" : "Jingwei Zuo"
+      },
+      {
+        "name" : "George Arvanitakis"
+      },
+      {
+        "name" : "Mthandazo Ndhlovu"
+      },
+      {
+        "name" : "Hakim Hacid"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.07002v1",
+    "title" : "Clients Collaborate: Flexible Differentially Private Federated Learning\n  with Guaranteed Improvement of Utility-Privacy Trade-off",
+    "summary" : "To defend against privacy leakage of user data, differential privacy is\nwidely used in federated learning, but it is not free. The addition of noise\nrandomly disrupts the semantic integrity of the model and this disturbance\naccumulates with increased communication rounds. In this paper, we introduce a\nnovel federated learning framework with rigorous privacy guarantees, named\nFedCEO, designed to strike a trade-off between model utility and user privacy\nby letting clients ''Collaborate with Each Other''. Specifically, we perform\nefficient tensor low-rank proximal optimization on stacked local model\nparameters at the server, demonstrating its capability to flexibly truncate\nhigh-frequency components in spectral space. This implies that our FedCEO can\neffectively recover the disrupted semantic information by smoothing the global\nsemantic space for different privacy settings and continuous training\nprocesses. Moreover, we improve the SOTA utility-privacy trade-off bound by an\norder of $\\sqrt{d}$, where $d$ is the input dimension. We illustrate our\ntheoretical results with experiments on representative image datasets. It\nobserves significant performance improvements and strict privacy guarantees\nunder different privacy settings.",
+    "updated" : "2024-02-10T17:39:34Z",
+    "published" : "2024-02-10T17:39:34Z",
+    "authors" : [
+      {
+        "name" : "Yuecheng Li"
+      },
+      {
+        "name" : "Tong Wang"
+      },
+      {
+        "name" : "Chuan Chen"
+      },
+      {
+        "name" : "Jian Lou"
+      },
+      {
+        "name" : "Bin Chen"
+      },
+      {
+        "name" : "Lei Yang"
+      },
+      {
+        "name" : "Zibin Zheng"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.06701v1",
+    "title" : "Privacy Profiles for Private Selection",
+    "summary" : "Private selection mechanisms (e.g., Report Noisy Max, Sparse Vector) are\nfundamental primitives of differentially private (DP) data analysis with wide\napplications to private query release, voting, and hyperparameter tuning.\nRecent work (Liu and Talwar, 2019; Papernot and Steinke, 2022) has made\nsignificant progress in both generalizing private selection mechanisms and\ntightening their privacy analysis using modern numerical privacy accounting\ntools, e.g., R\\'enyi DP. But R\\'enyi DP is known to be lossy when\n$(\\epsilon,\\delta)$-DP is ultimately needed, and there is a trend to close the\ngap by directly handling privacy profiles, i.e., $\\delta$ as a function of\n$\\epsilon$ or its equivalent dual form known as $f$-DPs. In this paper, we work\nout an easy-to-use recipe that bounds the privacy profiles of ReportNoisyMax\nand PrivateTuning using the privacy profiles of the base algorithms they\ncorral. Numerically, our approach improves over the RDP-based accounting in all\nregimes of interest and leads to substantial benefits in end-to-end private\nlearning experiments. Our analysis also suggests new distributions, e.g.,\nbinomial distribution for randomizing the number of rounds that leads to more\nsubstantial improvements in certain regimes.",
+    "updated" : "2024-02-09T08:31:46Z",
+    "published" : "2024-02-09T08:31:46Z",
+    "authors" : [
+      {
+        "name" : "Antti Koskela"
+      },
+      {
+        "name" : "Rachel Redberg"
+      },
+      {
+        "name" : "Yu-Xiang Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.06674v1",
+    "title" : "Understanding Practical Membership Privacy of Deep Learning",
+    "summary" : "We apply a state-of-the-art membership inference attack (MIA) to\nsystematically test the practical privacy vulnerability of fine-tuning large\nimage classification models.We focus on understanding the properties of data\nsets and samples that make them vulnerable to membership inference. In terms of\ndata set properties, we find a strong power law dependence between the number\nof examples per class in the data and the MIA vulnerability, as measured by\ntrue positive rate of the attack at a low false positive rate. For an\nindividual sample, large gradients at the end of training are strongly\ncorrelated with MIA vulnerability.",
+    "updated" : "2024-02-07T14:23:01Z",
+    "published" : "2024-02-07T14:23:01Z",
+    "authors" : [
+      {
+        "name" : "Marlon Tobaben"
+      },
+      {
+        "name" : "Gauri Pradhan"
+      },
+      {
+        "name" : "Yuan He"
+      },
+      {
+        "name" : "Joonas Jälkö"
+      },
+      {
+        "name" : "Antti Honkela"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
   }
 ]
