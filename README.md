@@ -1744,124 +1744,127 @@ adversary.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2401.05126v2">Efficient Fine-Tuning with Domain Adaptation for Privacy-Preserving
-  Vision Transformer</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-01-10T12:46:31Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Teru Nagamori, Sayaka Shiota, Hitoshi Kiya</p>
-    <p><b>Summary:</b> We propose a novel method for privacy-preserving deep neural networks (DNNs)
-with the Vision Transformer (ViT). The method allows us not only to train
-models and test with visually protected images but to also avoid the
-performance degradation caused from the use of encrypted images, whereas
-conventional methods cannot avoid the influence of image encryption. A domain
-adaptation method is used to efficiently fine-tune ViT with encrypted images.
-In experiments, the method is demonstrated to outperform conventional methods
-in an image classification task on the CIFAR-10 and ImageNet datasets in terms
-of classification accuracy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2401.04423v1">Privacy-Preserving Sequential Recommendation with Collaborative
-  Confusion</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB">
-  <p><b>Published on:</b> 2024-01-09T08:30:50Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Wei Wang, Yujie Lin, Pengjie Ren, Zhumin Chen, Tsunenori Mine, Jianli Zhao, Qiang Zhao, Moyan Zhang, Xianye Ben, Yujun Li</p>
-    <p><b>Summary:</b> Sequential recommendation has attracted a lot of attention from both academia
-and industry, however the privacy risks associated to gathering and
-transferring users' personal interaction data are often underestimated or
-ignored. Existing privacy-preserving studies are mainly applied to traditional
-collaborative filtering or matrix factorization rather than sequential
-recommendation. Moreover, these studies are mostly based on differential
-privacy or federated learning, which often leads to significant performance
-degradation, or has high requirements for communication. In this work, we
-address privacy-preserving from a different perspective. Unlike existing
-research, we capture collaborative signals of neighbor interaction sequences
-and directly inject indistinguishable items into the target sequence before the
-recommendation process begins, thereby increasing the perplexity of the target
-sequence. Even if the target interaction sequence is obtained by attackers, it
-is difficult to discern which ones are the actual user interaction records. To
-achieve this goal, we propose a CoLlaborative-cOnfusion seqUential recommenDer,
-namely CLOUD, which incorporates a collaborative confusion mechanism to edit
-the raw interaction sequences before conducting recommendation. Specifically,
-CLOUD first calculates the similarity between the target interaction sequence
-and other neighbor sequences to find similar sequences. Then, CLOUD considers
-the shared representation of the target sequence and similar sequences to
-determine the operation to be performed: keep, delete, or insert. We design a
-copy mechanism to make items from similar sequences have a higher probability
-to be inserted into the target sequence. Finally, the modified sequence is used
-to train the recommender and predict the next item.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2401.04306v1">Renyi Differential Privacy in the Shuffle Model: Enhanced Amplification
-  Bounds</a></h3>
-  
-  <p><b>Published on:</b> 2024-01-09T01:47:46Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> E Chen, Yang Cao, Yifei Ge</p>
-    <p><b>Summary:</b> The shuffle model of Differential Privacy (DP) has gained significant
-attention in privacy-preserving data analysis due to its remarkable tradeoff
-between privacy and utility. It is characterized by adding a shuffling
-procedure after each user's locally differentially private perturbation, which
-leads to a privacy amplification effect, meaning that the privacy guarantee of
-a small level of noise, say $\epsilon_0$, can be enhanced to
-$O(\epsilon_0/\sqrt{n})$ (the smaller, the more private) after shuffling all
-$n$ users' perturbed data. Most studies in the shuffle DP focus on proving a
-tighter privacy guarantee of privacy amplification. However, the current
-results assume that the local privacy budget $\epsilon_0$ is within a limited
-range. In addition, there remains a gap between the tightest lower bound and
-the known upper bound of the privacy amplification. In this work, we push
-forward the state-of-the-art by making the following contributions. Firstly, we
-present the first asymptotically optimal analysis of Renyi Differential Privacy
-(RDP) in the shuffle model without constraints on $\epsilon_0$. Secondly, we
-introduce hypothesis testing for privacy amplification through shuffling,
-offering a distinct analysis technique and a tighter upper bound. Furthermore,
-we propose a DP-SGD algorithm based on RDP. Experiments demonstrate that our
-approach outperforms existing methods significantly at the same privacy level.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2401.13692v1">Local Privacy-preserving Mechanisms and Applications in Machine Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-01-08T22:29:00Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Likun Qin, Tianshuo Qiu</p>
-    <p><b>Summary:</b> The emergence and evolution of Local Differential Privacy (LDP) and its
-various adaptations play a pivotal role in tackling privacy issues related to
-the vast amounts of data generated by intelligent devices, which are crucial
-for data-informed decision-making in the realm of crowdsensing. Utilizing these
-extensive datasets can provide critical insights but also introduces
-substantial privacy concerns for the individuals involved. LDP, noted for its
-decentralized framework, excels in providing strong privacy protection for
-individual users during the stages of data collection and processing. The core
-principle of LDP lies in its technique of altering each user's data locally at
-the client end before it is sent to the server, thus preventing privacy
-violations at both stages. There are many LDP variances in the privacy research
-community aimed to improve the utility-privacy tradeoff. On the other hand, one
-of the major applications of the privacy-preserving mechanisms is machine
-learning. In this paper, we firstly delves into a comprehensive analysis of LDP
-and its variances, focusing on their various models, the diverse range of its
-adaptations, and the underlying structure of privacy mechanisms; then we
-discuss the state-of-art privacy mechanisms applications in machine learning.</p>
-  </details>
-</div>
-
-
 
 <h2>2024-02</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2402.08655v1">Assessing the Privacy Risk of Cross-Platform Identity Linkage using Eye
+  Movement Biometrics</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2024-02-13T18:37:23Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Samantha Aziz, Oleg Komogortsev</p>
+    <p><b>Summary:</b> The recent emergence of ubiquitous, multi-platform eye tracking has raised
+user privacy concerns over re-identification across platforms, where a person
+is re-identified across multiple eye tracking-enabled platforms using
+personally identifying information that is implicitly expressed through their
+eye movement. We present an empirical investigation quantifying a modern eye
+movement biometric model's ability to link subject identities across three
+different eye tracking devices using eye movement signals from each device. We
+show that a state-of-the art eye movement biometrics model demonstrates
+above-chance levels of biometric performance (34.99% equal error rate, 15%
+rank-1 identification rate) when linking user identities across one pair of
+devices, but not for the other. Considering these findings, we also discuss the
+impact that eye tracking signal quality has on the model's ability to
+meaningfully associate a subject's identity between two substantially different
+eye tracking devices. Our investigation advances a fundamental understanding of
+the privacy risks for identity linkage across platforms by employing both
+quantitative and qualitative measures of biometric performance, including a
+visualization of the model's ability to distinguish genuine and imposter
+authentication attempts across platforms.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2402.08227v1">Privacy-Preserving Language Model Inference with Instance Obfuscation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2024-02-13T05:36:54Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yixiang Yao, Fei Wang, Srivatsan Ravi, Muhao Chen</p>
+    <p><b>Summary:</b> Language Models as a Service (LMaaS) offers convenient access for developers
+and researchers to perform inference using pre-trained language models.
+Nonetheless, the input data and the inference results containing private
+information are exposed as plaintext during the service call, leading to
+privacy issues. Recent studies have started tackling the privacy issue by
+transforming input data into privacy-preserving representation from the
+user-end with the techniques such as noise addition and content perturbation,
+while the exploration of inference result protection, namely decision privacy,
+is still a blank page. In order to maintain the black-box manner of LMaaS,
+conducting data privacy protection, especially for the decision, is a
+challenging task because the process has to be seamless to the models and
+accompanied by limited communication and computation overhead. We thus propose
+Instance-Obfuscated Inference (IOI) method, which focuses on addressing the
+decision privacy issue of natural language understanding tasks in their
+complete life-cycle. Besides, we conduct comprehensive experiments to evaluate
+the performance as well as the privacy-protection strength of the proposed
+method on various benchmarking tasks.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2402.08223v1">The Limits of Price Discrimination Under Privacy Constraints</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Science and Game Theory-5BC0EB">
+  <p><b>Published on:</b> 2024-02-13T05:28:38Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Alireza Fallah, Michael I. Jordan, Ali Makhdoumi, Azarakhsh Malekian</p>
+    <p><b>Summary:</b> We consider a producer's problem of selling a product to a continuum of
+privacy-conscious consumers, where the producer can implement third-degree
+price discrimination, offering different prices to different market segments.
+In the absence of privacy constraints, Bergemann, Brooks, and Morris [2015]
+characterize the set of all possible consumer-producer utilities, showing that
+it is a triangle. We consider a privacy mechanism that provides a degree of
+protection by probabilistically masking each market segment, and we establish
+that the resultant set of all consumer-producer utilities forms a convex
+polygon, characterized explicitly as a linear mapping of a certain
+high-dimensional convex polytope into $\mathbb{R}^2$. This characterization
+enables us to investigate the impact of the privacy mechanism on both producer
+and consumer utilities. In particular, we establish that the privacy constraint
+always hurts the producer by reducing both the maximum and minimum utility
+achievable. From the consumer's perspective, although the privacy mechanism
+ensures an increase in the minimum utility compared to the non-private
+scenario, interestingly, it may reduce the maximum utility. Finally, we
+demonstrate that increasing the privacy level does not necessarily intensify
+these effects. For instance, the maximum utility for the producer or the
+minimum utility for the consumer may exhibit nonmonotonic behavior in response
+to an increase of the privacy level.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2402.08156v1">Group Decision-Making among Privacy-Aware Agents</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Multiagent Systems-662E9B"> 
+  <p><b>Published on:</b> 2024-02-13T01:38:01Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Marios Papachristou, M. Amin Rahimian</p>
+    <p><b>Summary:</b> How can individuals exchange information to learn from each other despite
+their privacy needs and security concerns? For example, consider individuals
+deliberating a contentious topic and being concerned about divulging their
+private experiences. Preserving individual privacy and enabling efficient
+social learning are both important desiderata but seem fundamentally at odds
+with each other and very hard to reconcile. We do so by controlling information
+leakage using rigorous statistical guarantees that are based on differential
+privacy (DP). Our agents use log-linear rules to update their beliefs after
+communicating with their neighbors. Adding DP randomization noise to beliefs
+provides communicating agents with plausible deniability with regard to their
+private information and their network neighborhoods. We consider two learning
+environments one for distributed maximum-likelihood estimation given a finite
+number of private signals and another for online learning from an infinite,
+intermittent signal stream. Noisy information aggregation in the finite case
+leads to interesting tradeoffs between rejecting low-quality states and making
+sure all high-quality states are accepted in the algorithm output. Our results
+flesh out the nature of the trade-offs in both cases between the quality of the
+group decision outcomes, learning accuracy, communication cost, and the level
+of privacy protections that the agents are afforded.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2402.07687v1">Privacy-Preserving Gaze Data Streaming in Immersive Interactive Virtual
