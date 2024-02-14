@@ -989,5 +989,94 @@
       "cs.CR",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.08655v1",
+    "title" : "Assessing the Privacy Risk of Cross-Platform Identity Linkage using Eye\n  Movement Biometrics",
+    "summary" : "The recent emergence of ubiquitous, multi-platform eye tracking has raised\nuser privacy concerns over re-identification across platforms, where a person\nis re-identified across multiple eye tracking-enabled platforms using\npersonally identifying information that is implicitly expressed through their\neye movement. We present an empirical investigation quantifying a modern eye\nmovement biometric model's ability to link subject identities across three\ndifferent eye tracking devices using eye movement signals from each device. We\nshow that a state-of-the art eye movement biometrics model demonstrates\nabove-chance levels of biometric performance (34.99% equal error rate, 15%\nrank-1 identification rate) when linking user identities across one pair of\ndevices, but not for the other. Considering these findings, we also discuss the\nimpact that eye tracking signal quality has on the model's ability to\nmeaningfully associate a subject's identity between two substantially different\neye tracking devices. Our investigation advances a fundamental understanding of\nthe privacy risks for identity linkage across platforms by employing both\nquantitative and qualitative measures of biometric performance, including a\nvisualization of the model's ability to distinguish genuine and imposter\nauthentication attempts across platforms.",
+    "updated" : "2024-02-13T18:37:23Z",
+    "published" : "2024-02-13T18:37:23Z",
+    "authors" : [
+      {
+        "name" : "Samantha Aziz"
+      },
+      {
+        "name" : "Oleg Komogortsev"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.08227v1",
+    "title" : "Privacy-Preserving Language Model Inference with Instance Obfuscation",
+    "summary" : "Language Models as a Service (LMaaS) offers convenient access for developers\nand researchers to perform inference using pre-trained language models.\nNonetheless, the input data and the inference results containing private\ninformation are exposed as plaintext during the service call, leading to\nprivacy issues. Recent studies have started tackling the privacy issue by\ntransforming input data into privacy-preserving representation from the\nuser-end with the techniques such as noise addition and content perturbation,\nwhile the exploration of inference result protection, namely decision privacy,\nis still a blank page. In order to maintain the black-box manner of LMaaS,\nconducting data privacy protection, especially for the decision, is a\nchallenging task because the process has to be seamless to the models and\naccompanied by limited communication and computation overhead. We thus propose\nInstance-Obfuscated Inference (IOI) method, which focuses on addressing the\ndecision privacy issue of natural language understanding tasks in their\ncomplete life-cycle. Besides, we conduct comprehensive experiments to evaluate\nthe performance as well as the privacy-protection strength of the proposed\nmethod on various benchmarking tasks.",
+    "updated" : "2024-02-13T05:36:54Z",
+    "published" : "2024-02-13T05:36:54Z",
+    "authors" : [
+      {
+        "name" : "Yixiang Yao"
+      },
+      {
+        "name" : "Fei Wang"
+      },
+      {
+        "name" : "Srivatsan Ravi"
+      },
+      {
+        "name" : "Muhao Chen"
+      }
+    ],
+    "categories" : [
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.08223v1",
+    "title" : "The Limits of Price Discrimination Under Privacy Constraints",
+    "summary" : "We consider a producer's problem of selling a product to a continuum of\nprivacy-conscious consumers, where the producer can implement third-degree\nprice discrimination, offering different prices to different market segments.\nIn the absence of privacy constraints, Bergemann, Brooks, and Morris [2015]\ncharacterize the set of all possible consumer-producer utilities, showing that\nit is a triangle. We consider a privacy mechanism that provides a degree of\nprotection by probabilistically masking each market segment, and we establish\nthat the resultant set of all consumer-producer utilities forms a convex\npolygon, characterized explicitly as a linear mapping of a certain\nhigh-dimensional convex polytope into $\\mathbb{R}^2$. This characterization\nenables us to investigate the impact of the privacy mechanism on both producer\nand consumer utilities. In particular, we establish that the privacy constraint\nalways hurts the producer by reducing both the maximum and minimum utility\nachievable. From the consumer's perspective, although the privacy mechanism\nensures an increase in the minimum utility compared to the non-private\nscenario, interestingly, it may reduce the maximum utility. Finally, we\ndemonstrate that increasing the privacy level does not necessarily intensify\nthese effects. For instance, the maximum utility for the producer or the\nminimum utility for the consumer may exhibit nonmonotonic behavior in response\nto an increase of the privacy level.",
+    "updated" : "2024-02-13T05:28:38Z",
+    "published" : "2024-02-13T05:28:38Z",
+    "authors" : [
+      {
+        "name" : "Alireza Fallah"
+      },
+      {
+        "name" : "Michael I. Jordan"
+      },
+      {
+        "name" : "Ali Makhdoumi"
+      },
+      {
+        "name" : "Azarakhsh Malekian"
+      }
+    ],
+    "categories" : [
+      "econ.TH",
+      "cs.GT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.08156v1",
+    "title" : "Group Decision-Making among Privacy-Aware Agents",
+    "summary" : "How can individuals exchange information to learn from each other despite\ntheir privacy needs and security concerns? For example, consider individuals\ndeliberating a contentious topic and being concerned about divulging their\nprivate experiences. Preserving individual privacy and enabling efficient\nsocial learning are both important desiderata but seem fundamentally at odds\nwith each other and very hard to reconcile. We do so by controlling information\nleakage using rigorous statistical guarantees that are based on differential\nprivacy (DP). Our agents use log-linear rules to update their beliefs after\ncommunicating with their neighbors. Adding DP randomization noise to beliefs\nprovides communicating agents with plausible deniability with regard to their\nprivate information and their network neighborhoods. We consider two learning\nenvironments one for distributed maximum-likelihood estimation given a finite\nnumber of private signals and another for online learning from an infinite,\nintermittent signal stream. Noisy information aggregation in the finite case\nleads to interesting tradeoffs between rejecting low-quality states and making\nsure all high-quality states are accepted in the algorithm output. Our results\nflesh out the nature of the trade-offs in both cases between the quality of the\ngroup decision outcomes, learning accuracy, communication cost, and the level\nof privacy protections that the agents are afforded.",
+    "updated" : "2024-02-13T01:38:01Z",
+    "published" : "2024-02-13T01:38:01Z",
+    "authors" : [
+      {
+        "name" : "Marios Papachristou"
+      },
+      {
+        "name" : "M. Amin Rahimian"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR",
+      "cs.MA",
+      "stat.ML"
+    ]
   }
 ]
