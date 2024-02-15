@@ -1658,94 +1658,96 @@ investigate some of their drawbacks with possible directions for future work</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2401.06601v1">A proposal to increase data utility on Global Differential Privacy data
-  based on data use predictions</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
-  <p><b>Published on:</b> 2024-01-12T14:34:30Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Henry C. Nunes, Marlon P. da Silva, Charles V. Neu, Avelino F. Zorzo</p>
-    <p><b>Summary:</b> This paper presents ongoing research focused on improving the utility of data
-protected by Global Differential Privacy(DP) in the scenario of summary
-statistics. Our approach is based on predictions on how an analyst will use
-statistics released under DP protection, so that a developer can optimise data
-utility on further usage of the data in the privacy budget allocation. This
-novel approach can potentially improve the utility of data without compromising
-privacy constraints. We also propose a metric that can be used by the developer
-to optimise the budget allocation process.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2401.05835v1">Privacy Analysis of Affine Transformations in Cloud-based MPC:
-  Vulnerability to Side-knowledge</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
-  <p><b>Published on:</b> 2024-01-11T11:08:20Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Teimour Hosseinalizadeh, Nils Schlüter, Moritz Schulze Darup, Nima Monshizadeh</p>
-    <p><b>Summary:</b> Search for the optimizer in computationally demanding model predictive
-control (MPC) setups can be facilitated by Cloud as a service provider in
-cyber-physical systems. This advantage introduces the risk that Cloud can
-obtain unauthorized access to the privacy-sensitive parameters of the system
-and cost function. To solve this issue, i.e., preventing Cloud from accessing
-the parameters while benefiting from Cloud computation, random affine
-transformations provide an exact yet light weight in computation solution. This
-research deals with analyzing privacy preserving properties of these
-transformations when they are adopted for MPC problems. We consider two common
-strategies for outsourcing the optimization required in MPC problems, namely
-separate and dense forms, and establish that random affine transformations
-utilized in these forms are vulnerable to side-knowledge from Cloud.
-Specifically, we prove that the privacy guarantees of these methods and their
-extensions for separate form are undermined when a mild side-knowledge about
-the problem in terms of structure of MPC cost function is available. In
-addition, while we prove that outsourcing the MPC problem in the dense form
-inherently leads to some degree of privacy for the system and cost function
-parameters, we also establish that affine transformations applied to this form
-are nevertheless prone to be undermined by a Cloud with mild side-knowledge.
-Numerical simulations confirm our results.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2401.05562v1">Brave: Byzantine-Resilient and Privacy-Preserving Peer-to-Peer Federated
-  Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
-  <p><b>Published on:</b> 2024-01-10T22:07:40Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zhangchen Xu, Fengqing Jiang, Luyao Niu, Jinyuan Jia, Radha Poovendran</p>
-    <p><b>Summary:</b> Federated learning (FL) enables multiple participants to train a global
-machine learning model without sharing their private training data.
-Peer-to-peer (P2P) FL advances existing centralized FL paradigms by eliminating
-the server that aggregates local models from participants and then updates the
-global model. However, P2P FL is vulnerable to (i) honest-but-curious
-participants whose objective is to infer private training data of other
-participants, and (ii) Byzantine participants who can transmit arbitrarily
-manipulated local models to corrupt the learning process. P2P FL schemes that
-simultaneously guarantee Byzantine resilience and preserve privacy have been
-less studied. In this paper, we develop Brave, a protocol that ensures
-Byzantine Resilience And privacy-preserving property for P2P FL in the presence
-of both types of adversaries. We show that Brave preserves privacy by
-establishing that any honest-but-curious adversary cannot infer other
-participants' private data by observing their models. We further prove that
-Brave is Byzantine-resilient, which guarantees that all benign participants
-converge to an identical model that deviates from a global model trained
-without Byzantine adversaries by a bounded distance. We evaluate Brave against
-three state-of-the-art adversaries on a P2P FL for image classification tasks
-on benchmark datasets CIFAR10 and MNIST. Our results show that the global model
-learned with Brave in the presence of adversaries achieves comparable
-classification accuracy to a global model trained in the absence of any
-adversary.</p>
-  </details>
-</div>
-
-
 
 <h2>2024-02</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2402.09316v1">Only My Model On My Data: A Privacy Preserving Approach Protecting one
+  Model and Deceiving Unauthorized Black-Box Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-02-14T17:11:52Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Weiheng Chai, Brian Testa, Huantao Ren, Asif Salekin, Senem Velipasalar</p>
+    <p><b>Summary:</b> Deep neural networks are extensively applied to real-world tasks, such as
+face recognition and medical image classification, where privacy and data
+protection are critical. Image data, if not protected, can be exploited to
+infer personal or contextual information. Existing privacy preservation
+methods, like encryption, generate perturbed images that are unrecognizable to
+even humans. Adversarial attack approaches prohibit automated inference even
+for authorized stakeholders, limiting practical incentives for commercial and
+widespread adaptation. This pioneering study tackles an unexplored practical
+privacy preservation use case by generating human-perceivable images that
+maintain accurate inference by an authorized model while evading other
+unauthorized black-box models of similar or dissimilar objectives, and
+addresses the previous research gaps. The datasets employed are ImageNet, for
+image classification, Celeba-HQ dataset, for identity classification, and
+AffectNet, for emotion classification. Our results show that the generated
+images can successfully maintain the accuracy of a protected model and degrade
+the average accuracy of the unauthorized black-box models to 11.97%, 6.63%, and
+55.51% on ImageNet, Celeba-HQ, and AffectNet datasets, respectively.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2402.08956v1">Seagull: Privacy preserving network verification system</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
+  <p><b>Published on:</b> 2024-02-14T05:56:51Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jaber Daneshamooz, Melody Yu, Sucheer Maddury</p>
+    <p><b>Summary:</b> The current routing protocol used in the internet backbone is based on manual
+configuration, making it susceptible to errors. To mitigate these
+configuration-related issues, it becomes imperative to validate the accuracy
+and convergence of the algorithm, ensuring a seamless operation devoid of
+problems. However, the process of network verification faces challenges related
+to privacy and scalability. This paper addresses these challenges by
+introducing a novel approach: leveraging privacy-preserving computation,
+specifically multiparty computation (MPC), to verify the correctness of
+configurations in the internet backbone, governed by the BGP protocol. Not only
+does our proposed solution effectively address scalability concerns, but it
+also establishes a robust privacy framework. Through rigorous analysis, we
+demonstrate that our approach maintains privacy by not disclosing any
+information beyond the query result, thus providing a comprehensive and secure
+solution to the intricacies associated with routing protocol verification in
+large-scale networks.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2402.08826v1">Equilibria of Data Marketplaces with Privacy-Aware Sellers under
+  Endogenous Privacy Costs</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Science and Game Theory-5BC0EB">
+  <p><b>Published on:</b> 2024-02-13T22:10:57Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Diptangshu Sen, Jingyan Wang, Juba Ziani</p>
+    <p><b>Summary:</b> We study a two-sided online data ecosystem comprised of an online platform,
+users on the platform, and downstream learners or data buyers. The learners can
+buy user data on the platform (to run a statistic or machine learning task).
+Potential users decide whether to join by looking at the trade-off between i)
+their benefit from joining the platform and interacting with other users and
+ii) the privacy costs they incur from sharing their data.
+  First, we introduce a novel modeling element for two-sided data platforms:
+the privacy costs of the users are endogenous and depend on how much of their
+data is purchased by the downstream learners. Then, we characterize marketplace
+equilibria in certain simple settings. In particular, we provide a full
+characterization in two variants of our model that correspond to different
+utility functions for the users: i) when each user gets a constant benefit for
+participating in the platform and ii) when each user's benefit is linearly
+increasing in the number of other users that participate. In both variants,
+equilibria in our setting are significantly different from equilibria when
+privacy costs are exogenous and fixed, highlighting the importance of taking
+endogeneity in the privacy costs into account. Finally, we provide simulations
+and semi-synthetic experiments to extend our results to more general
+assumptions. We experiment with different distributions of users' privacy costs
+and different functional forms of the users' utilities for joining the
+platform.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2402.08655v1">Assessing the Privacy Risk of Cross-Platform Identity Linkage using Eye
