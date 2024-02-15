@@ -1078,5 +1078,76 @@
       "cs.MA",
       "stat.ML"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.09316v1",
+    "title" : "Only My Model On My Data: A Privacy Preserving Approach Protecting one\n  Model and Deceiving Unauthorized Black-Box Models",
+    "summary" : "Deep neural networks are extensively applied to real-world tasks, such as\nface recognition and medical image classification, where privacy and data\nprotection are critical. Image data, if not protected, can be exploited to\ninfer personal or contextual information. Existing privacy preservation\nmethods, like encryption, generate perturbed images that are unrecognizable to\neven humans. Adversarial attack approaches prohibit automated inference even\nfor authorized stakeholders, limiting practical incentives for commercial and\nwidespread adaptation. This pioneering study tackles an unexplored practical\nprivacy preservation use case by generating human-perceivable images that\nmaintain accurate inference by an authorized model while evading other\nunauthorized black-box models of similar or dissimilar objectives, and\naddresses the previous research gaps. The datasets employed are ImageNet, for\nimage classification, Celeba-HQ dataset, for identity classification, and\nAffectNet, for emotion classification. Our results show that the generated\nimages can successfully maintain the accuracy of a protected model and degrade\nthe average accuracy of the unauthorized black-box models to 11.97%, 6.63%, and\n55.51% on ImageNet, Celeba-HQ, and AffectNet datasets, respectively.",
+    "updated" : "2024-02-14T17:11:52Z",
+    "published" : "2024-02-14T17:11:52Z",
+    "authors" : [
+      {
+        "name" : "Weiheng Chai"
+      },
+      {
+        "name" : "Brian Testa"
+      },
+      {
+        "name" : "Huantao Ren"
+      },
+      {
+        "name" : "Asif Salekin"
+      },
+      {
+        "name" : "Senem Velipasalar"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.08956v1",
+    "title" : "Seagull: Privacy preserving network verification system",
+    "summary" : "The current routing protocol used in the internet backbone is based on manual\nconfiguration, making it susceptible to errors. To mitigate these\nconfiguration-related issues, it becomes imperative to validate the accuracy\nand convergence of the algorithm, ensuring a seamless operation devoid of\nproblems. However, the process of network verification faces challenges related\nto privacy and scalability. This paper addresses these challenges by\nintroducing a novel approach: leveraging privacy-preserving computation,\nspecifically multiparty computation (MPC), to verify the correctness of\nconfigurations in the internet backbone, governed by the BGP protocol. Not only\ndoes our proposed solution effectively address scalability concerns, but it\nalso establishes a robust privacy framework. Through rigorous analysis, we\ndemonstrate that our approach maintains privacy by not disclosing any\ninformation beyond the query result, thus providing a comprehensive and secure\nsolution to the intricacies associated with routing protocol verification in\nlarge-scale networks.",
+    "updated" : "2024-02-14T05:56:51Z",
+    "published" : "2024-02-14T05:56:51Z",
+    "authors" : [
+      {
+        "name" : "Jaber Daneshamooz"
+      },
+      {
+        "name" : "Melody Yu"
+      },
+      {
+        "name" : "Sucheer Maddury"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.NI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.08826v1",
+    "title" : "Equilibria of Data Marketplaces with Privacy-Aware Sellers under\n  Endogenous Privacy Costs",
+    "summary" : "We study a two-sided online data ecosystem comprised of an online platform,\nusers on the platform, and downstream learners or data buyers. The learners can\nbuy user data on the platform (to run a statistic or machine learning task).\nPotential users decide whether to join by looking at the trade-off between i)\ntheir benefit from joining the platform and interacting with other users and\nii) the privacy costs they incur from sharing their data.\n  First, we introduce a novel modeling element for two-sided data platforms:\nthe privacy costs of the users are endogenous and depend on how much of their\ndata is purchased by the downstream learners. Then, we characterize marketplace\nequilibria in certain simple settings. In particular, we provide a full\ncharacterization in two variants of our model that correspond to different\nutility functions for the users: i) when each user gets a constant benefit for\nparticipating in the platform and ii) when each user's benefit is linearly\nincreasing in the number of other users that participate. In both variants,\nequilibria in our setting are significantly different from equilibria when\nprivacy costs are exogenous and fixed, highlighting the importance of taking\nendogeneity in the privacy costs into account. Finally, we provide simulations\nand semi-synthetic experiments to extend our results to more general\nassumptions. We experiment with different distributions of users' privacy costs\nand different functional forms of the users' utilities for joining the\nplatform.",
+    "updated" : "2024-02-13T22:10:57Z",
+    "published" : "2024-02-13T22:10:57Z",
+    "authors" : [
+      {
+        "name" : "Diptangshu Sen"
+      },
+      {
+        "name" : "Jingyan Wang"
+      },
+      {
+        "name" : "Juba Ziani"
+      }
+    ],
+    "categories" : [
+      "cs.GT"
+    ]
   }
 ]
