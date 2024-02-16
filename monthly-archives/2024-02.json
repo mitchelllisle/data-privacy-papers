@@ -1149,5 +1149,303 @@
     "categories" : [
       "cs.GT"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.10145v1",
+    "title" : "A chaotic maps-based privacy-preserving distributed deep learning for\n  incomplete and Non-IID datasets",
+    "summary" : "Federated Learning is a machine learning approach that enables the training\nof a deep learning model among several participants with sensitive data that\nwish to share their own knowledge without compromising the privacy of their\ndata. In this research, the authors employ a secured Federated Learning method\nwith an additional layer of privacy and proposes a method for addressing the\nnon-IID challenge. Moreover, differential privacy is compared with\nchaotic-based encryption as layer of privacy. The experimental approach\nassesses the performance of the federated deep learning model with differential\nprivacy using both IID and non-IID data. In each experiment, the Federated\nLearning process improves the average performance metrics of the deep neural\nnetwork, even in the case of non-IID data.",
+    "updated" : "2024-02-15T17:49:50Z",
+    "published" : "2024-02-15T17:49:50Z",
+    "authors" : [
+      {
+        "name" : "Irina Arévalo"
+      },
+      {
+        "name" : "Jose L. Salmeron"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.10102v1",
+    "title" : "A privacy-preserving, distributed and cooperative FCM-based learning\n  approach for Cancer Research",
+    "summary" : "Distributed Artificial Intelligence is attracting interest day by day. In\nthis paper, the authors introduce an innovative methodology for distributed\nlearning of Particle Swarm Optimization-based Fuzzy Cognitive Maps in a\nprivacy-preserving way. The authors design a training scheme for collaborative\nFCM learning that offers data privacy compliant with the current regulation.\nThis method is applied to a cancer detection problem, proving that the\nperformance of the model is improved by the Federated Learning process, and\nobtaining similar results to the ones that can be found in the literature.",
+    "updated" : "2024-02-15T16:56:25Z",
+    "published" : "2024-02-15T16:56:25Z",
+    "authors" : [
+      {
+        "name" : "Jose L. Salmeron"
+      },
+      {
+        "name" : "Irina Arévalo"
+      }
+    ],
+    "categories" : [
+      "cs.AI",
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.10065v1",
+    "title" : "How Much Does Each Datapoint Leak Your Privacy? Quantifying the\n  Per-datum Membership Leakage",
+    "summary" : "We study the per-datum Membership Inference Attacks (MIAs), where an attacker\naims to infer whether a fixed target datum has been included in the input\ndataset of an algorithm and thus, violates privacy. First, we define the\nmembership leakage of a datum as the advantage of the optimal adversary\ntargeting to identify it. Then, we quantify the per-datum membership leakage\nfor the empirical mean, and show that it depends on the Mahalanobis distance\nbetween the target datum and the data-generating distribution. We further\nassess the effect of two privacy defences, i.e. adding Gaussian noise and\nsub-sampling. We quantify exactly how both of them decrease the per-datum\nmembership leakage. Our analysis builds on a novel proof technique that\ncombines an Edgeworth expansion of the likelihood ratio test and a\nLindeberg-Feller central limit theorem. Our analysis connects the existing\nlikelihood ratio and scalar product attacks, and also justifies different\ncanary selection strategies used in the privacy auditing literature. Finally,\nour experiments demonstrate the impacts of the leakage score, the sub-sampling\nratio and the noise scale on the per-datum membership leakage as indicated by\nthe theory.",
+    "updated" : "2024-02-15T16:30:55Z",
+    "published" : "2024-02-15T16:30:55Z",
+    "authors" : [
+      {
+        "name" : "Achraf Azize"
+      },
+      {
+        "name" : "Debabrota Basu"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "math.ST",
+      "stat.ML",
+      "stat.TH"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.10001v1",
+    "title" : "Privacy Attacks in Decentralized Learning",
+    "summary" : "Decentralized Gradient Descent (D-GD) allows a set of users to perform\ncollaborative learning without sharing their data by iteratively averaging\nlocal model updates with their neighbors in a network graph. The absence of\ndirect communication between non-neighbor nodes might lead to the belief that\nusers cannot infer precise information about the data of others. In this work,\nwe demonstrate the opposite, by proposing the first attack against D-GD that\nenables a user (or set of users) to reconstruct the private data of other users\noutside their immediate neighborhood. Our approach is based on a reconstruction\nattack against the gossip averaging protocol, which we then extend to handle\nthe additional challenges raised by D-GD. We validate the effectiveness of our\nattack on real graphs and datasets, showing that the number of users\ncompromised by a single or a handful of attackers is often surprisingly large.\nWe empirically investigate some of the factors that affect the performance of\nthe attack, namely the graph topology, the number of attackers, and their\nposition in the graph.",
+    "updated" : "2024-02-15T15:06:33Z",
+    "published" : "2024-02-15T15:06:33Z",
+    "authors" : [
+      {
+        "name" : "Abdellah El Mrini"
+      },
+      {
+        "name" : "Edwige Cyffers"
+      },
+      {
+        "name" : "Aurélien Bellet"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.09716v1",
+    "title" : "User Privacy Harms and Risks in Conversational AI: A Proposed Framework",
+    "summary" : "This study presents a unique framework that applies and extends Solove\n(2006)'s taxonomy to address privacy concerns in interactions with text-based\nAI chatbots. As chatbot prevalence grows, concerns about user privacy have\nheightened. While existing literature highlights design elements compromising\nprivacy, a comprehensive framework is lacking. Through semi-structured\ninterviews with 13 participants interacting with two AI chatbots, this study\nidentifies 9 privacy harms and 9 privacy risks in text-based interactions.\nUsing a grounded theory approach for interview and chatlog analysis, the\nframework examines privacy implications at various interaction stages. The aim\nis to offer developers, policymakers, and researchers a tool for responsible\nand secure implementation of conversational AI, filling the existing gap in\naddressing privacy issues associated with text-based AI chatbots.",
+    "updated" : "2024-02-15T05:21:58Z",
+    "published" : "2024-02-15T05:21:58Z",
+    "authors" : [
+      {
+        "name" : "Ece Gumusel"
+      },
+      {
+        "name" : "Kyrie Zhixuan Zhou"
+      },
+      {
+        "name" : "Madelyn Rose Sanfilippo"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.09715v1",
+    "title" : "DPBalance: Efficient and Fair Privacy Budget Scheduling for Federated\n  Learning as a Service",
+    "summary" : "Federated learning (FL) has emerged as a prevalent distributed machine\nlearning scheme that enables collaborative model training without aggregating\nraw data. Cloud service providers further embrace Federated Learning as a\nService (FLaaS), allowing data analysts to execute their FL training pipelines\nover differentially-protected data. Due to the intrinsic properties of\ndifferential privacy, the enforced privacy level on data blocks can be viewed\nas a privacy budget that requires careful scheduling to cater to diverse\ntraining pipelines. Existing privacy budget scheduling studies prioritize\neither efficiency or fairness individually. In this paper, we propose\nDPBalance, a novel privacy budget scheduling mechanism that jointly optimizes\nboth efficiency and fairness. We first develop a comprehensive utility function\nincorporating data analyst-level dominant shares and FL-specific performance\nmetrics. A sequential allocation mechanism is then designed using the Lagrange\nmultiplier method and effective greedy heuristics. We theoretically prove that\nDPBalance satisfies Pareto Efficiency, Sharing Incentive, Envy-Freeness, and\nWeak Strategy Proofness. We also theoretically prove the existence of a\nfairness-efficiency tradeoff in privacy budgeting. Extensive experiments\ndemonstrate that DPBalance outperforms state-of-the-art solutions, achieving an\naverage efficiency improvement of $1.44\\times \\sim 3.49 \\times$, and an average\nfairness improvement of $1.37\\times \\sim 24.32 \\times$.",
+    "updated" : "2024-02-15T05:19:53Z",
+    "published" : "2024-02-15T05:19:53Z",
+    "authors" : [
+      {
+        "name" : "Yu Liu"
+      },
+      {
+        "name" : "Zibo Wang"
+      },
+      {
+        "name" : "Yifei Zhu"
+      },
+      {
+        "name" : "Chen Chen"
+      }
+    ],
+    "categories" : [
+      "cs.DC",
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.09710v1",
+    "title" : "Preserving Data Privacy for ML-driven Applications in Open Radio Access\n  Networks",
+    "summary" : "Deep learning offers a promising solution to improve spectrum access\ntechniques by utilizing data-driven approaches to manage and share limited\nspectrum resources for emerging applications. For several of these\napplications, the sensitive wireless data (such as spectrograms) are stored in\na shared database or multistakeholder cloud environment and are therefore prone\nto privacy leaks. This paper aims to address such privacy concerns by examining\nthe representative case study of shared database scenarios in 5G Open Radio\nAccess Network (O-RAN) networks where we have a shared database within the\nnear-real-time (near-RT) RAN intelligent controller. We focus on securing the\ndata that can be used by machine learning (ML) models for spectrum sharing and\ninterference mitigation applications without compromising the model and network\nperformances. The underlying idea is to leverage a (i) Shuffling-based\nlearnable encryption technique to encrypt the data, following which, (ii)\nemploy a custom Vision transformer (ViT) as the trained ML model that is\ncapable of performing accurate inferences on such encrypted data. The paper\noffers a thorough analysis and comparisons with analogous convolutional neural\nnetworks (CNN) as well as deeper architectures (such as ResNet-50) as\nbaselines. Our experiments showcase that the proposed approach significantly\noutperforms the baseline CNN with an improvement of 24.5% and 23.9% for the\npercent accuracy and F1-Score respectively when operated on encrypted data.\nThough deeper ResNet-50 architecture is obtained as a slightly more accurate\nmodel, with an increase of 4.4%, the proposed approach boasts a reduction of\nparameters by 99.32%, and thus, offers a much-improved prediction time by\nnearly 60%.",
+    "updated" : "2024-02-15T05:06:53Z",
+    "published" : "2024-02-15T05:06:53Z",
+    "authors" : [
+      {
+        "name" : "Pranshav Gajjar"
+      },
+      {
+        "name" : "Azuka Chiejina"
+      },
+      {
+        "name" : "Vijay K. Shah"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.09621v1",
+    "title" : "Schnorr Approval-Based Secure and Privacy-Preserving IoV Data\n  Aggregation",
+    "summary" : "Secure and privacy-preserving data aggregation in the Internet of Vehicles\n(IoV) continues to be a focal point of interest in both the industry and\nacademia. Aiming at tackling the challenges and solving the remaining\nlimitations of existing works, this paper introduces a novel Schnorr\napproval-based IoV data aggregation framework based on a two-layered\narchitecture. In this framework, a server can aggregate the IoV data from\nclusters without inferring the raw data, real identity and trajectories of\nvehicles. Notably, we avoid incorporating the widely-accepted techniques such\nas homomorphic encryption and digital pseudonym to avoid introducing high\ncomputation cost to vehicles. We propose a novel concept, data approval, based\non the Schnorr signature scheme. With the approval, the fake data injection\nattack carried out by a cluster head can be defended against. The separation of\nliability is achieved as well. The evaluation shows that the framework is\nsecure and lightweight for vehicles in terms of the computation and\ncommunication costs.",
+    "updated" : "2024-02-14T23:40:36Z",
+    "published" : "2024-02-14T23:40:36Z",
+    "authors" : [
+      {
+        "name" : "Rui Liu"
+      },
+      {
+        "name" : "Jianping Pan"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.NI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.09611v1",
+    "title" : "Towards Privacy-Aware Sign Language Translation at Scale",
+    "summary" : "A major impediment to the advancement of sign language translation (SLT) is\ndata scarcity. Much of the sign language data currently available on the web\ncannot be used for training supervised models due to the lack of aligned\ncaptions. Furthermore, scaling SLT using large-scale web-scraped datasets bears\nprivacy risks due to the presence of biometric information, which the\nresponsible development of SLT technologies should account for. In this work,\nwe propose a two-stage framework for privacy-aware SLT at scale that addresses\nboth of these issues. We introduce SSVP-SLT, which leverages self-supervised\nvideo pretraining on anonymized and unannotated videos, followed by supervised\nSLT finetuning on a curated parallel dataset. SSVP-SLT achieves\nstate-of-the-art finetuned and zero-shot gloss-free SLT performance on the\nHow2Sign dataset, outperforming the strongest respective baselines by over 3\nBLEU-4. Based on controlled experiments, we further discuss the advantages and\nlimitations of self-supervised pretraining and anonymization via facial\nobfuscation for SLT.",
+    "updated" : "2024-02-14T22:57:03Z",
+    "published" : "2024-02-14T22:57:03Z",
+    "authors" : [
+      {
+        "name" : "Phillip Rust"
+      },
+      {
+        "name" : "Bowen Shi"
+      },
+      {
+        "name" : "Skyler Wang"
+      },
+      {
+        "name" : "Necati Cihan Camgöz"
+      },
+      {
+        "name" : "Jean Maillard"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.AI",
+      "cs.CV",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.09540v1",
+    "title" : "Why Does Differential Privacy with Large Epsilon Defend Against\n  Practical Membership Inference Attacks?",
+    "summary" : "For small privacy parameter $\\epsilon$, $\\epsilon$-differential privacy (DP)\nprovides a strong worst-case guarantee that no membership inference attack\n(MIA) can succeed at determining whether a person's data was used to train a\nmachine learning model. The guarantee of DP is worst-case because: a) it holds\neven if the attacker already knows the records of all but one person in the\ndata set; and b) it holds uniformly over all data sets. In practical\napplications, such a worst-case guarantee may be overkill: practical attackers\nmay lack exact knowledge of (nearly all of) the private data, and our data set\nmight be easier to defend, in some sense, than the worst-case data set. Such\nconsiderations have motivated the industrial deployment of DP models with large\nprivacy parameter (e.g. $\\epsilon \\geq 7$), and it has been observed\nempirically that DP with large $\\epsilon$ can successfully defend against\nstate-of-the-art MIAs. Existing DP theory cannot explain these empirical\nfindings: e.g., the theoretical privacy guarantees of $\\epsilon \\geq 7$ are\nessentially vacuous. In this paper, we aim to close this gap between theory and\npractice and understand why a large DP parameter can prevent practical MIAs. To\ntackle this problem, we propose a new privacy notion called practical\nmembership privacy (PMP). PMP models a practical attacker's uncertainty about\nthe contents of the private data. The PMP parameter has a natural\ninterpretation in terms of the success rate of a practical MIA on a given data\nset. We quantitatively analyze the PMP parameter of two fundamental DP\nmechanisms: the exponential mechanism and Gaussian mechanism. Our analysis\nreveals that a large DP parameter often translates into a much smaller PMP\nparameter, which guarantees strong privacy against practical MIAs. Using our\nfindings, we offer principled guidance for practitioners in choosing the DP\nparameter.",
+    "updated" : "2024-02-14T19:31:45Z",
+    "published" : "2024-02-14T19:31:45Z",
+    "authors" : [
+      {
+        "name" : "Andrew Lowy"
+      },
+      {
+        "name" : "Zhuohang Li"
+      },
+      {
+        "name" : "Jing Liu"
+      },
+      {
+        "name" : "Toshiaki Koike-Akino"
+      },
+      {
+        "name" : "Kieran Parsons"
+      },
+      {
+        "name" : "Ye Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG",
+      "68P27"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.09477v1",
+    "title" : "PANORAMIA: Privacy Auditing of Machine Learning Models without\n  Retraining",
+    "summary" : "We introduce a privacy auditing scheme for ML models that relies on\nmembership inference attacks using generated data as \"non-members\". This\nscheme, which we call PANORAMIA, quantifies the privacy leakage for large-scale\nML models without control of the training process or model re-training and only\nrequires access to a subset of the training data. To demonstrate its\napplicability, we evaluate our auditing scheme across multiple ML domains,\nranging from image and tabular data classification to large-scale language\nmodels.",
+    "updated" : "2024-02-12T22:56:07Z",
+    "published" : "2024-02-12T22:56:07Z",
+    "authors" : [
+      {
+        "name" : "Mishaal Kazmi"
+      },
+      {
+        "name" : "Hadrien Lautraite"
+      },
+      {
+        "name" : "Alireza Akbari"
+      },
+      {
+        "name" : "Mauricio Soroco"
+      },
+      {
+        "name" : "Qiaoyue Tang"
+      },
+      {
+        "name" : "Tao Wang"
+      },
+      {
+        "name" : "Sébastien Gambs"
+      },
+      {
+        "name" : "Mathias Lécuyer"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.07180v2",
+    "title" : "MAGNETO: Edge AI for Human Activity Recognition -- Privacy and\n  Personalization",
+    "summary" : "Human activity recognition (HAR) is a well-established field, significantly\nadvanced by modern machine learning (ML) techniques. While companies have\nsuccessfully integrated HAR into consumer products, they typically rely on a\npredefined activity set, which limits personalizations at the user level (edge\ndevices). Despite advancements in Incremental Learning for updating models with\nnew data, this often occurs on the Cloud, necessitating regular data transfers\nbetween cloud and edge devices, thus leading to data privacy issues. In this\npaper, we propose MAGNETO, an Edge AI platform that pushes HAR tasks from the\nCloud to the Edge. MAGNETO allows incremental human activity learning directly\non the Edge devices, without any data exchange with the Cloud. This enables\nstrong privacy guarantees, low processing latency, and a high degree of\npersonalization for users. In particular, we demonstrate MAGNETO in an Android\ndevice, validating the whole pipeline from data collection to result\nvisualization.",
+    "updated" : "2024-02-14T19:59:13Z",
+    "published" : "2024-02-11T12:29:16Z",
+    "authors" : [
+      {
+        "name" : "Jingwei Zuo"
+      },
+      {
+        "name" : "George Arvanitakis"
+      },
+      {
+        "name" : "Mthandazo Ndhlovu"
+      },
+      {
+        "name" : "Hakim Hacid"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR"
+    ]
   }
 ]
