@@ -1447,5 +1447,28 @@
       "cs.AI",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.09710v1",
+    "title" : "Preserving Data Privacy for ML-driven Applications in Open Radio Access\n  Networks",
+    "summary" : "Deep learning offers a promising solution to improve spectrum access\ntechniques by utilizing data-driven approaches to manage and share limited\nspectrum resources for emerging applications. For several of these\napplications, the sensitive wireless data (such as spectrograms) are stored in\na shared database or multistakeholder cloud environment and are therefore prone\nto privacy leaks. This paper aims to address such privacy concerns by examining\nthe representative case study of shared database scenarios in 5G Open Radio\nAccess Network (O-RAN) networks where we have a shared database within the\nnear-real-time (near-RT) RAN intelligent controller. We focus on securing the\ndata that can be used by machine learning (ML) models for spectrum sharing and\ninterference mitigation applications without compromising the model and network\nperformances. The underlying idea is to leverage a (i) Shuffling-based\nlearnable encryption technique to encrypt the data, following which, (ii)\nemploy a custom Vision transformer (ViT) as the trained ML model that is\ncapable of performing accurate inferences on such encrypted data. The paper\noffers a thorough analysis and comparisons with analogous convolutional neural\nnetworks (CNN) as well as deeper architectures (such as ResNet-50) as\nbaselines. Our experiments showcase that the proposed approach significantly\noutperforms the baseline CNN with an improvement of 24.5% and 23.9% for the\npercent accuracy and F1-Score respectively when operated on encrypted data.\nThough deeper ResNet-50 architecture is obtained as a slightly more accurate\nmodel, with an increase of 4.4%, the proposed approach boasts a reduction of\nparameters by 99.32%, and thus, offers a much-improved prediction time by\nnearly 60%.",
+    "updated" : "2024-02-15T05:06:53Z",
+    "published" : "2024-02-15T05:06:53Z",
+    "authors" : [
+      {
+        "name" : "Pranshav Gajjar"
+      },
+      {
+        "name" : "Azuka Chiejina"
+      },
+      {
+        "name" : "Vijay K. Shah"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG",
+      "cs.NI"
+    ]
   }
 ]
