@@ -1489,7 +1489,7 @@ fairness improvement of $1.37\times \sim 24.32 \times$.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2402.09710v1">Preserving Data Privacy for ML-driven Applications in Open Radio Access
   Networks</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
   <p><b>Published on:</b> 2024-02-15T05:06:53Z</p>
   <details>
     <summary>More Details</summary>
