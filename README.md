@@ -1271,67 +1271,70 @@ promising new research directions toward a more robust FL.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2401.08723v1">HierSFL: Local Differential Privacy-aided Split Federated Learning in
-  Mobile Edge Computing</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-01-16T09:34:10Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Minh K. Quan, Dinh C. Nguyen, Van-Dinh Nguyen, Mayuri Wijayasundara, Sujeeva Setunge, Pubudu N. Pathirana</p>
-    <p><b>Summary:</b> Federated Learning is a promising approach for learning from user data while
-preserving data privacy. However, the high requirements of the model training
-process make it difficult for clients with limited memory or bandwidth to
-participate. To tackle this problem, Split Federated Learning is utilized,
-where clients upload their intermediate model training outcomes to a cloud
-server for collaborative server-client model training. This methodology
-facilitates resource-constrained clients' participation in model training but
-also increases the training time and communication overhead. To overcome these
-limitations, we propose a novel algorithm, called Hierarchical Split Federated
-Learning (HierSFL), that amalgamates models at the edge and cloud phases,
-presenting qualitative directives for determining the best aggregation
-timeframes to reduce computation and communication expenses. By implementing
-local differential privacy at the client and edge server levels, we enhance
-privacy during local model parameter updates. Our experiments using CIFAR-10
-and MNIST datasets show that HierSFL outperforms standard FL approaches with
-better training accuracy, training time, and communication-computing
-trade-offs. HierSFL offers a promising solution to mobile edge computing's
-challenges, ultimately leading to faster content delivery and improved mobile
-service quality.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2401.08224v4">Privacy Preserving Adaptive Experiment Design</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-01-16T09:22:12Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jiachun Li, Kaining Shi, David Simchi-Levi</p>
-    <p><b>Summary:</b> Adaptive experiment is widely adopted to estimate conditional average
-treatment effect (CATE) in clinical trials and many other scenarios. While the
-primary goal in experiment is to maximize estimation accuracy, due to the
-imperative of social welfare, it's also crucial to provide treatment with
-superior outcomes to patients, which is measured by regret in contextual bandit
-framework. These two objectives often lead to contrast optimal allocation
-mechanism. Furthermore, privacy concerns arise in clinical scenarios containing
-sensitive data like patients health records. Therefore, it's essential for the
-treatment allocation mechanism to incorporate robust privacy protection
-measures. In this paper, we investigate the tradeoff between loss of social
-welfare and statistical power in contextual bandit experiment. We propose a
-matched upper and lower bound for the multi-objective optimization problem, and
-then adopt the concept of Pareto optimality to mathematically characterize the
-optimality condition. Furthermore, we propose differentially private algorithms
-which still matches the lower bound, showing that privacy is "almost free".
-Additionally, we derive the asymptotic normality of the estimator, which is
-essential in statistical inference and hypothesis testing.</p>
-  </details>
-</div>
-
-
 
 <h2>2024-02</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2402.10473v1">Privacy for Fairness: Information Obfuscation for Fair Representation
+  Learning with Local Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
+  <p><b>Published on:</b> 2024-02-16T06:35:10Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Songjie Xie, Youlong Wu, Jiaxuan Li, Ming Ding, Khaled B. Letaief</p>
+    <p><b>Summary:</b> As machine learning (ML) becomes more prevalent in human-centric
+applications, there is a growing emphasis on algorithmic fairness and privacy
+protection. While previous research has explored these areas as separate
+objectives, there is a growing recognition of the complex relationship between
+privacy and fairness. However, previous works have primarily focused on
+examining the interplay between privacy and fairness through empirical
+investigations, with limited attention given to theoretical exploration. This
+study aims to bridge this gap by introducing a theoretical framework that
+enables a comprehensive examination of their interrelation. We shall develop
+and analyze an information bottleneck (IB) based information obfuscation method
+with local differential privacy (LDP) for fair representation learning. In
+contrast to many empirical studies on fairness in ML, we show that the
+incorporation of LDP randomizers during the encoding process can enhance the
+fairness of the learned representation. Our analysis will demonstrate that the
+disclosure of sensitive information is constrained by the privacy budget of the
+LDP randomizer, thereby enabling the optimization process within the IB
+framework to effectively suppress sensitive information while preserving the
+desired utility through obfuscation. Based on the proposed method, we further
+develop a variational representation encoding approach that simultaneously
+achieves fairness and LDP. Our variational encoding approach offers practical
+advantages. It is trained using a non-adversarial method and does not require
+the introduction of any variational prior. Extensive experiments will be
+presented to validate our theoretical results and demonstrate the ability of
+our proposed approach to achieve both LDP and fairness while preserving
+adequate utility.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2402.10423v1">Connect the dots: Dataset Condensation, Differential Privacy, and
+  Adversarial Uncertainty</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-02-16T03:12:22Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Kenneth Odoh</p>
+    <p><b>Summary:</b> Our work focuses on understanding the underpinning mechanism of dataset
+condensation by drawing connections with ($\epsilon$, $\delta$)-differential
+privacy where the optimal noise, $\epsilon$, is chosen by adversarial
+uncertainty \cite{Grining2017}. We can answer the question about the inner
+workings of the dataset condensation procedure. Previous work \cite{dong2022}
+proved the link between dataset condensation (DC) and ($\epsilon$,
+$\delta$)-differential privacy. However, it is unclear from existing works on
+ablating DC to obtain a lower-bound estimate of $\epsilon$ that will suffice
+for creating high-fidelity synthetic data. We suggest that adversarial
+uncertainty is the most appropriate method to achieve an optimal noise level,
+$\epsilon$. As part of the internal dynamics of dataset condensation, we adopt
+a satisfactory scheme for noise estimation that guarantees high-fidelity data
+while providing privacy.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2402.10145v1">A chaotic maps-based privacy-preserving distributed deep learning for
@@ -1791,7 +1794,7 @@ to an increase of the privacy level.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.08156v1">Group Decision-Making among Privacy-Aware Agents</a></h3>
+  <h3><a href="http://arxiv.org/abs/2402.08156v2">Group Decision-Making among Privacy-Aware Agents</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Multiagent Systems-662E9B"> 
   <p><b>Published on:</b> 2024-02-13T01:38:01Z</p>
   <details>
