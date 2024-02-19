@@ -1470,5 +1470,73 @@
       "cs.LG",
       "cs.NI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.10473v1",
+    "title" : "Privacy for Fairness: Information Obfuscation for Fair Representation\n  Learning with Local Differential Privacy",
+    "summary" : "As machine learning (ML) becomes more prevalent in human-centric\napplications, there is a growing emphasis on algorithmic fairness and privacy\nprotection. While previous research has explored these areas as separate\nobjectives, there is a growing recognition of the complex relationship between\nprivacy and fairness. However, previous works have primarily focused on\nexamining the interplay between privacy and fairness through empirical\ninvestigations, with limited attention given to theoretical exploration. This\nstudy aims to bridge this gap by introducing a theoretical framework that\nenables a comprehensive examination of their interrelation. We shall develop\nand analyze an information bottleneck (IB) based information obfuscation method\nwith local differential privacy (LDP) for fair representation learning. In\ncontrast to many empirical studies on fairness in ML, we show that the\nincorporation of LDP randomizers during the encoding process can enhance the\nfairness of the learned representation. Our analysis will demonstrate that the\ndisclosure of sensitive information is constrained by the privacy budget of the\nLDP randomizer, thereby enabling the optimization process within the IB\nframework to effectively suppress sensitive information while preserving the\ndesired utility through obfuscation. Based on the proposed method, we further\ndevelop a variational representation encoding approach that simultaneously\nachieves fairness and LDP. Our variational encoding approach offers practical\nadvantages. It is trained using a non-adversarial method and does not require\nthe introduction of any variational prior. Extensive experiments will be\npresented to validate our theoretical results and demonstrate the ability of\nour proposed approach to achieve both LDP and fairness while preserving\nadequate utility.",
+    "updated" : "2024-02-16T06:35:10Z",
+    "published" : "2024-02-16T06:35:10Z",
+    "authors" : [
+      {
+        "name" : "Songjie Xie"
+      },
+      {
+        "name" : "Youlong Wu"
+      },
+      {
+        "name" : "Jiaxuan Li"
+      },
+      {
+        "name" : "Ming Ding"
+      },
+      {
+        "name" : "Khaled B. Letaief"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "cs.IT",
+      "math.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.10423v1",
+    "title" : "Connect the dots: Dataset Condensation, Differential Privacy, and\n  Adversarial Uncertainty",
+    "summary" : "Our work focuses on understanding the underpinning mechanism of dataset\ncondensation by drawing connections with ($\\epsilon$, $\\delta$)-differential\nprivacy where the optimal noise, $\\epsilon$, is chosen by adversarial\nuncertainty \\cite{Grining2017}. We can answer the question about the inner\nworkings of the dataset condensation procedure. Previous work \\cite{dong2022}\nproved the link between dataset condensation (DC) and ($\\epsilon$,\n$\\delta$)-differential privacy. However, it is unclear from existing works on\nablating DC to obtain a lower-bound estimate of $\\epsilon$ that will suffice\nfor creating high-fidelity synthetic data. We suggest that adversarial\nuncertainty is the most appropriate method to achieve an optimal noise level,\n$\\epsilon$. As part of the internal dynamics of dataset condensation, we adopt\na satisfactory scheme for noise estimation that guarantees high-fidelity data\nwhile providing privacy.",
+    "updated" : "2024-02-16T03:12:22Z",
+    "published" : "2024-02-16T03:12:22Z",
+    "authors" : [
+      {
+        "name" : "Kenneth Odoh"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.08156v2",
+    "title" : "Group Decision-Making among Privacy-Aware Agents",
+    "summary" : "How can individuals exchange information to learn from each other despite\ntheir privacy needs and security concerns? For example, consider individuals\ndeliberating a contentious topic and being concerned about divulging their\nprivate experiences. Preserving individual privacy and enabling efficient\nsocial learning are both important desiderata but seem fundamentally at odds\nwith each other and very hard to reconcile. We do so by controlling information\nleakage using rigorous statistical guarantees that are based on differential\nprivacy (DP). Our agents use log-linear rules to update their beliefs after\ncommunicating with their neighbors. Adding DP randomization noise to beliefs\nprovides communicating agents with plausible deniability with regard to their\nprivate information and their network neighborhoods. We consider two learning\nenvironments one for distributed maximum-likelihood estimation given a finite\nnumber of private signals and another for online learning from an infinite,\nintermittent signal stream. Noisy information aggregation in the finite case\nleads to interesting tradeoffs between rejecting low-quality states and making\nsure all high-quality states are accepted in the algorithm output. Our results\nflesh out the nature of the trade-offs in both cases between the quality of the\ngroup decision outcomes, learning accuracy, communication cost, and the level\nof privacy protections that the agents are afforded.",
+    "updated" : "2024-02-15T21:50:57Z",
+    "published" : "2024-02-13T01:38:01Z",
+    "authors" : [
+      {
+        "name" : "Marios Papachristou"
+      },
+      {
+        "name" : "M. Amin Rahimian"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR",
+      "cs.MA",
+      "stat.ML"
+    ]
   }
 ]
