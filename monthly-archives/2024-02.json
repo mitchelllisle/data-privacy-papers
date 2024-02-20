@@ -1538,5 +1538,132 @@
       "cs.MA",
       "stat.ML"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.11989v1",
+    "title" : "Privacy-Preserving Low-Rank Adaptation for Latent Diffusion Models",
+    "summary" : "Low-rank adaptation (LoRA) is an efficient strategy for adapting latent\ndiffusion models (LDMs) on a training dataset to generate specific objects by\nminimizing the adaptation loss. However, adapted LDMs via LoRA are vulnerable\nto membership inference (MI) attacks that can judge whether a particular data\npoint belongs to private training datasets, thus facing severe risks of privacy\nleakage. To defend against MI attacks, we make the first effort to propose a\nstraightforward solution: privacy-preserving LoRA (PrivateLoRA). PrivateLoRA is\nformulated as a min-max optimization problem where a proxy attack model is\ntrained by maximizing its MI gain while the LDM is adapted by minimizing the\nsum of the adaptation loss and the proxy attack model's MI gain. However, we\nempirically disclose that PrivateLoRA has the issue of unstable optimization\ndue to the large fluctuation of the gradient scale which impedes adaptation. To\nmitigate this issue, we propose Stable PrivateLoRA that adapts the LDM by\nminimizing the ratio of the adaptation loss to the MI gain, which implicitly\nrescales the gradient and thus stabilizes the optimization. Our comprehensive\nempirical results corroborate that adapted LDMs via Stable PrivateLoRA can\neffectively defend against MI attacks while generating high-quality images. Our\ncode is available at https://github.com/WilliamLUO0/StablePrivateLoRA.",
+    "updated" : "2024-02-19T09:32:48Z",
+    "published" : "2024-02-19T09:32:48Z",
+    "authors" : [
+      {
+        "name" : "Zihao Luo"
+      },
+      {
+        "name" : "Xilie Xu"
+      },
+      {
+        "name" : "Feng Liu"
+      },
+      {
+        "name" : "Yun Sing Koh"
+      },
+      {
+        "name" : "Di Wang"
+      },
+      {
+        "name" : "Jingfeng Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.11582v1",
+    "title" : "Publicly auditable privacy-preserving electoral rolls",
+    "summary" : "While existing literature on electronic voting has extensively addressed\nverifiability of voting protocols, the vulnerability of electoral rolls in\nlarge public elections remains a critical concern. To ensure integrity of\nelectoral rolls, the current practice is to either make electoral rolls public\nor share them with the political parties. However, this enables construction of\ndetailed voter profiles and selective targeting and manipulation of voters,\nthereby undermining the fundamental principle of free and fair elections. In\nthis paper, we study the problem of designing publicly auditable yet\nprivacy-preserving electoral rolls. We first formulate a threat model and\nprovide formal security definitions. We then present a protocol for creation\nand maintenance of electoral rolls that mitigates the threats. Eligible voters\ncan verify their inclusion, whereas political parties and auditors can\nstatistically audit the electoral roll. The entire electoral roll is never\nrevealed, which prevents any large-scale systematic voter targeting and\nmanipulation.",
+    "updated" : "2024-02-18T13:11:48Z",
+    "published" : "2024-02-18T13:11:48Z",
+    "authors" : [
+      {
+        "name" : "Prashant Agrawal"
+      },
+      {
+        "name" : "Mahabir Prasad Jhanwar"
+      },
+      {
+        "name" : "Subodh Vishnu Sharma"
+      },
+      {
+        "name" : "Subhashis Banerjee"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.11526v1",
+    "title" : "Measuring Privacy Loss in Distributed Spatio-Temporal Data",
+    "summary" : "Statistics about traffic flow and people's movement gathered from multiple\ngeographical locations in a distributed manner are the driving force powering\nmany applications, such as traffic prediction, demand prediction, and\nrestaurant occupancy reports. However, these statistics are often based on\nsensitive location data of people, and hence privacy has to be preserved while\nreleasing them. The standard way to do this is via differential privacy, which\nguarantees a form of rigorous, worst-case, person-level privacy. In this work,\nmotivated by several counter-intuitive features of differential privacy in\ndistributed location applications, we propose an alternative privacy loss\nagainst location reconstruction attacks by an informed adversary. Our\nexperiments on real and synthetic data demonstrate that our privacy loss better\nreflects our intuitions on individual privacy violation in the distributed\nspatio-temporal setting.",
+    "updated" : "2024-02-18T09:53:14Z",
+    "published" : "2024-02-18T09:53:14Z",
+    "authors" : [
+      {
+        "name" : "Tatsuki Koga"
+      },
+      {
+        "name" : "Casey Meehan"
+      },
+      {
+        "name" : "Kamalika Chaudhuri"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.11193v1",
+    "title" : "Privacy Impact Assessments in the Wild: A Scoping Review",
+    "summary" : "Privacy Impact Assessments (PIAs) offer a systematic process for assessing\nthe privacy impacts of a project or system. As a privacy engineering strategy,\nPIAs are heralded as one of the main approaches to privacy by design,\nsupporting the early identification of threats and controls. However, there is\nstill a shortage of empirical evidence on their uptake and proven effectiveness\nin practice. To better understand the current state of literature and research,\nthis paper provides a comprehensive Scoping Review (ScR) on the topic of PIAs\n\"in the wild\", following the well-established Preferred Reporting Items for\nSystematic reviews and Meta-Analyses (PRISMA) guidelines. As a result, this ScR\nincludes 45 studies, providing an extensive synthesis of the existing body of\nknowledge, classifying types of research and publications, appraising the\nmethodological quality of primary research, and summarising the positive and\nnegative aspects of PIAs in practice, as reported by studies. This ScR also\nidentifies significant research gaps (e.g., evidence gaps from contradictory\nresults and methodological gaps from research design deficiencies), future\nresearch pathways, and implications for researchers, practitioners, and\npolicymakers developing and evaluating PIA frameworks. As we conclude, there is\nstill a significant need for more primary research on the topic, both\nqualitative and quantitative. A critical appraisal of qualitative studies\n(n=28) revealed deficiencies in the methodological quality, and only four\nquantitative studies were identified, suggesting that current primary research\nremains incipient. Nonetheless, PIAs can be regarded as a prominent sub-area in\nthe broader field of Empirical Privacy Engineering, warranting further research\ntoward more evidence-based practices.",
+    "updated" : "2024-02-17T05:07:10Z",
+    "published" : "2024-02-17T05:07:10Z",
+    "authors" : [
+      {
+        "name" : "Leonardo Horn Iwaya"
+      },
+      {
+        "name" : "Ala Sarah Alaqra"
+      },
+      {
+        "name" : "Marit Hansen"
+      },
+      {
+        "name" : "Simone Fischer-Hübner"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.08223v2",
+    "title" : "The Limits of Price Discrimination Under Privacy Constraints",
+    "summary" : "We consider a producer's problem of selling a product to a continuum of\nprivacy-conscious consumers, where the producer can implement third-degree\nprice discrimination, offering different prices to different market segments.\nIn the absence of privacy constraints, Bergemann, Brooks, and Morris [2015]\ncharacterize the set of all possible consumer-producer utilities, showing that\nit is a triangle. We consider a privacy mechanism that provides a degree of\nprotection by probabilistically masking each market segment, and we establish\nthat the resultant set of all consumer-producer utilities forms a convex\npolygon, characterized explicitly as a linear mapping of a certain\nhigh-dimensional convex polytope into $\\mathbb{R}^2$. This characterization\nenables us to investigate the impact of the privacy mechanism on both producer\nand consumer utilities. In particular, we establish that the privacy constraint\nalways hurts the producer by reducing both the maximum and minimum utility\nachievable. From the consumer's perspective, although the privacy mechanism\nensures an increase in the minimum utility compared to the non-private\nscenario, interestingly, it may reduce the maximum utility. Finally, we\ndemonstrate that increasing the privacy level does not necessarily intensify\nthese effects. For instance, the maximum utility for the producer or the\nminimum utility for the consumer may exhibit nonmonotonic behavior in response\nto an increase of the privacy level.",
+    "updated" : "2024-02-17T00:59:36Z",
+    "published" : "2024-02-13T05:28:38Z",
+    "authors" : [
+      {
+        "name" : "Alireza Fallah"
+      },
+      {
+        "name" : "Michael I. Jordan"
+      },
+      {
+        "name" : "Ali Makhdoumi"
+      },
+      {
+        "name" : "Azarakhsh Malekian"
+      }
+    ],
+    "categories" : [
+      "econ.TH",
+      "cs.GT"
+    ]
   }
 ]
