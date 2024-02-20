@@ -1160,119 +1160,122 @@ evaluation indicates Starlit's scalability, efficiency, and accuracy.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2401.09604v1">MedBlindTuner: Towards Privacy-preserving Fine-tuning on Biomedical
-  Images with Transformers and Fully Homomorphic Encryption</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-01-17T21:30:22Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Prajwal Panzade, Daniel Takabi, Zhipeng Cai</p>
-    <p><b>Summary:</b> Advancements in machine learning (ML) have significantly revolutionized
-medical image analysis, prompting hospitals to rely on external ML services.
-However, the exchange of sensitive patient data, such as chest X-rays, poses
-inherent privacy risks when shared with third parties. Addressing this concern,
-we propose MedBlindTuner, a privacy-preserving framework leveraging fully
-homomorphic encryption (FHE) and a data-efficient image transformer (DEiT).
-MedBlindTuner enables the training of ML models exclusively on FHE-encrypted
-medical images. Our experimental evaluation demonstrates that MedBlindTuner
-achieves comparable accuracy to models trained on non-encrypted images,
-offering a secure solution for outsourcing ML computations while preserving
-patient data privacy. To the best of our knowledge, this is the first work that
-uses data-efficient image transformers and fully homomorphic encryption in this
-domain.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2401.09519v1">Privacy Engineering in Smart Home (SH) Systems: A Comprehensive Privacy
-  Threat Analysis and Risk Management Approach</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-01-17T17:34:52Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Emmanuel Dare Alalade, Mohammed Mahyoub, Ashraf Matrawy</p>
-    <p><b>Summary:</b> Addressing trust concerns in Smart Home (SH) systems is imperative due to the
-limited study on preservation approaches that focus on analyzing and evaluating
-privacy threats for effective risk management. While most research focuses
-primarily on user privacy, device data privacy, especially identity privacy, is
-almost neglected, which can significantly impact overall user privacy within
-the SH system. To this end, our study incorporates privacy engineering (PE)
-principles in the SH system that consider user and device data privacy. We
-start with a comprehensive reference model for a typical SH system. Based on
-the initial stage of LINDDUN PRO for the PE framework, we present a data flow
-diagram (DFD) based on a typical SH reference model to better understand SH
-system operations. To identify potential areas of privacy threat and perform a
-privacy threat analysis (PTA), we employ the LINDDUN PRO threat model. Then, a
-privacy impact assessment (PIA) was carried out to implement privacy risk
-management by prioritizing privacy threats based on their likelihood of
-occurrence and potential consequences. Finally, we suggest possible privacy
-enhancement techniques (PETs) that can mitigate some of these threats. The
-study aims to elucidate the main threats to privacy, associated risks, and
-effective prioritization of privacy control in SH systems. The outcomes of this
-study are expected to benefit SH stakeholders, including vendors, cloud
-providers, users, researchers, and regulatory bodies in the SH systems domain.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2401.08935v1">Privacy Protected Contactless Cardio-respiratory Monitoring using
-  Defocused Cameras during Sleep</a></h3>
-  
-  <p><b>Published on:</b> 2024-01-17T03:05:24Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yingen Zhu, Jia Huang, Hongzhou Lu, Wenjin Wang</p>
-    <p><b>Summary:</b> The monitoring of vital signs such as heart rate (HR) and respiratory rate
-(RR) during sleep is important for the assessment of sleep quality and
-detection of sleep disorders. Camera-based HR and RR monitoring gained
-popularity in sleep monitoring in recent years. However, they are all facing
-with serious privacy issues when using a video camera in the sleeping scenario.
-In this paper, we propose to use the defocused camera to measure vital signs
-from optically blurred images, which can fundamentally eliminate the privacy
-invasion as face is difficult to be identified in obtained blurry images. A
-spatial-redundant framework involving living-skin detection is used to extract
-HR and RR from the defocused camera in NIR, and a motion metric is designed to
-exclude outliers caused by body motions. In the benchmark, the overall Mean
-Absolute Error (MAE) for HR measurement is 4.4 bpm, for RR measurement is 5.9
-bpm. Both have quality drops as compared to the measurement using a focused
-camera, but the degradation in HR is much less, i.e. HR measurement has strong
-correlation with the reference ($R \geq 0.90$). Preliminary experiments suggest
-that it is feasible to use a defocused camera for cardio-respiratory monitoring
-while protecting the privacy. Further improvement is needed for robust RR
-measurement, such as by PPG-modulation based RR extraction.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2401.08458v1">Security and Privacy Issues and Solutions in Federated Learning for
-  Digital Healthcare</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2024-01-16T16:07:53Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Hyejun Jeong, Tai-Myoung Chung</p>
-    <p><b>Summary:</b> The advent of Federated Learning has enabled the creation of a
-high-performing model as if it had been trained on a considerable amount of
-data. A multitude of participants and a server cooperatively train a model
-without the need for data disclosure or collection. The healthcare industry,
-where security and privacy are paramount, can substantially benefit from this
-new learning paradigm, as data collection is no longer feasible due to
-stringent data policies. Nonetheless, unaddressed challenges and insufficient
-attack mitigation are hampering its adoption. Attack surfaces differ from
-traditional centralized learning in that the server and clients communicate
-between each round of training. In this paper, we thus present vulnerabilities,
-attacks, and defenses based on the widened attack surfaces, as well as suggest
-promising new research directions toward a more robust FL.</p>
-  </details>
-</div>
-
-
 
 <h2>2024-02</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2402.11989v1">Privacy-Preserving Low-Rank Adaptation for Latent Diffusion Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2024-02-19T09:32:48Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zihao Luo, Xilie Xu, Feng Liu, Yun Sing Koh, Di Wang, Jingfeng Zhang</p>
+    <p><b>Summary:</b> Low-rank adaptation (LoRA) is an efficient strategy for adapting latent
+diffusion models (LDMs) on a training dataset to generate specific objects by
+minimizing the adaptation loss. However, adapted LDMs via LoRA are vulnerable
+to membership inference (MI) attacks that can judge whether a particular data
+point belongs to private training datasets, thus facing severe risks of privacy
+leakage. To defend against MI attacks, we make the first effort to propose a
+straightforward solution: privacy-preserving LoRA (PrivateLoRA). PrivateLoRA is
+formulated as a min-max optimization problem where a proxy attack model is
+trained by maximizing its MI gain while the LDM is adapted by minimizing the
+sum of the adaptation loss and the proxy attack model's MI gain. However, we
+empirically disclose that PrivateLoRA has the issue of unstable optimization
+due to the large fluctuation of the gradient scale which impedes adaptation. To
+mitigate this issue, we propose Stable PrivateLoRA that adapts the LDM by
+minimizing the ratio of the adaptation loss to the MI gain, which implicitly
+rescales the gradient and thus stabilizes the optimization. Our comprehensive
+empirical results corroborate that adapted LDMs via Stable PrivateLoRA can
+effectively defend against MI attacks while generating high-quality images. Our
+code is available at https://github.com/WilliamLUO0/StablePrivateLoRA.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2402.11582v1">Publicly auditable privacy-preserving electoral rolls</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2024-02-18T13:11:48Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Prashant Agrawal, Mahabir Prasad Jhanwar, Subodh Vishnu Sharma, Subhashis Banerjee</p>
+    <p><b>Summary:</b> While existing literature on electronic voting has extensively addressed
+verifiability of voting protocols, the vulnerability of electoral rolls in
+large public elections remains a critical concern. To ensure integrity of
+electoral rolls, the current practice is to either make electoral rolls public
+or share them with the political parties. However, this enables construction of
+detailed voter profiles and selective targeting and manipulation of voters,
+thereby undermining the fundamental principle of free and fair elections. In
+this paper, we study the problem of designing publicly auditable yet
+privacy-preserving electoral rolls. We first formulate a threat model and
+provide formal security definitions. We then present a protocol for creation
+and maintenance of electoral rolls that mitigates the threats. Eligible voters
+can verify their inclusion, whereas political parties and auditors can
+statistically audit the electoral roll. The entire electoral roll is never
+revealed, which prevents any large-scale systematic voter targeting and
+manipulation.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2402.11526v1">Measuring Privacy Loss in Distributed Spatio-Temporal Data</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-02-18T09:53:14Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Tatsuki Koga, Casey Meehan, Kamalika Chaudhuri</p>
+    <p><b>Summary:</b> Statistics about traffic flow and people's movement gathered from multiple
+geographical locations in a distributed manner are the driving force powering
+many applications, such as traffic prediction, demand prediction, and
+restaurant occupancy reports. However, these statistics are often based on
+sensitive location data of people, and hence privacy has to be preserved while
+releasing them. The standard way to do this is via differential privacy, which
+guarantees a form of rigorous, worst-case, person-level privacy. In this work,
+motivated by several counter-intuitive features of differential privacy in
+distributed location applications, we propose an alternative privacy loss
+against location reconstruction attacks by an informed adversary. Our
+experiments on real and synthetic data demonstrate that our privacy loss better
+reflects our intuitions on individual privacy violation in the distributed
+spatio-temporal setting.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2402.11193v1">Privacy Impact Assessments in the Wild: A Scoping Review</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-02-17T05:07:10Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Leonardo Horn Iwaya, Ala Sarah Alaqra, Marit Hansen, Simone Fischer-Hübner</p>
+    <p><b>Summary:</b> Privacy Impact Assessments (PIAs) offer a systematic process for assessing
+the privacy impacts of a project or system. As a privacy engineering strategy,
+PIAs are heralded as one of the main approaches to privacy by design,
+supporting the early identification of threats and controls. However, there is
+still a shortage of empirical evidence on their uptake and proven effectiveness
+in practice. To better understand the current state of literature and research,
+this paper provides a comprehensive Scoping Review (ScR) on the topic of PIAs
+"in the wild", following the well-established Preferred Reporting Items for
+Systematic reviews and Meta-Analyses (PRISMA) guidelines. As a result, this ScR
+includes 45 studies, providing an extensive synthesis of the existing body of
+knowledge, classifying types of research and publications, appraising the
+methodological quality of primary research, and summarising the positive and
+negative aspects of PIAs in practice, as reported by studies. This ScR also
+identifies significant research gaps (e.g., evidence gaps from contradictory
+results and methodological gaps from research design deficiencies), future
+research pathways, and implications for researchers, practitioners, and
+policymakers developing and evaluating PIA frameworks. As we conclude, there is
+still a significant need for more primary research on the topic, both
+qualitative and quantitative. A critical appraisal of qualitative studies
+(n=28) revealed deficiencies in the methodological quality, and only four
+quantitative studies were identified, suggesting that current primary research
+remains incipient. Nonetheless, PIAs can be regarded as a prominent sub-area in
+the broader field of Empirical Privacy Engineering, warranting further research
+toward more evidence-based practices.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2402.10473v1">Privacy for Fairness: Information Obfuscation for Fair Representation
@@ -1763,7 +1766,7 @@ method on various benchmarking tasks.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.08223v1">The Limits of Price Discrimination Under Privacy Constraints</a></h3>
+  <h3><a href="http://arxiv.org/abs/2402.08223v2">The Limits of Price Discrimination Under Privacy Constraints</a></h3>
    <img alt="Category Badge" src="https://img.shields.io/badge/Computer Science and Game Theory-5BC0EB">
   <p><b>Published on:</b> 2024-02-13T05:28:38Z</p>
   <details>
