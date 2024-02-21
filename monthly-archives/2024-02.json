@@ -1665,5 +1665,84 @@
       "econ.TH",
       "cs.GT"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.13087v1",
+    "title" : "How Does Selection Leak Privacy: Revisiting Private Selection and\n  Improved Results for Hyper-parameter Tuning",
+    "summary" : "We study the problem of guaranteeing Differential Privacy (DP) in\nhyper-parameter tuning, a crucial process in machine learning involving the\nselection of the best run from several. Unlike many private algorithms,\nincluding the prevalent DP-SGD, the privacy implications of tuning remain\ninsufficiently understood. Recent works propose a generic private solution for\nthe tuning process, yet a fundamental question still persists: is the current\nprivacy bound for this solution tight?\n  This paper contributes both positive and negative answers to this question.\nInitially, we provide studies affirming the current privacy analysis is indeed\ntight in a general sense. However, when we specifically study the\nhyper-parameter tuning problem, such tightness no longer holds. This is first\ndemonstrated by applying privacy audit on the tuning process. Our findings\nunderscore a substantial gap between the current theoretical privacy bound and\nthe empirical bound derived even under the strongest audit setup.\n  The gap found is not a fluke. Our subsequent study provides an improved\nprivacy result for private hyper-parameter tuning due to its distinct\nproperties. Our privacy results are also more generalizable compared to prior\nanalyses that are only easily applicable in specific setups.",
+    "updated" : "2024-02-20T15:29:49Z",
+    "published" : "2024-02-20T15:29:49Z",
+    "authors" : [
+      {
+        "name" : "Zihang Xiang"
+      },
+      {
+        "name" : "Chenglong Wang"
+      },
+      {
+        "name" : "Di Wang"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.12967v1",
+    "title" : "Quantifying Privacy via Information Density",
+    "summary" : "We examine the relationship between privacy metrics that utilize information\ndensity to measure information leakage between a private and a disclosed random\nvariable. Firstly, we prove that bounding the information density from above or\nbelow in turn implies a lower or upper bound on the information density,\nrespectively. Using this result, we establish new relationships between local\ninformation privacy, asymmetric local information privacy, pointwise maximal\nleakage and local differential privacy. We further provide applications of\nthese relations to privacy mechanism design. Furthermore, we provide statements\nshowing the equivalence between a lower bound on information density and\nrisk-averse adversaries. More specifically, we prove an equivalence between a\nguessing framework and a cost-function framework that result in the desired\nlower bound on the information density.",
+    "updated" : "2024-02-20T12:35:14Z",
+    "published" : "2024-02-20T12:35:14Z",
+    "authors" : [
+      {
+        "name" : "Leonhard Grosse"
+      },
+      {
+        "name" : "Sara Saeidian"
+      },
+      {
+        "name" : "Parastoo Sadeghi"
+      },
+      {
+        "name" : "Tobias J. Oechtering"
+      },
+      {
+        "name" : "Mikael Skoglund"
+      }
+    ],
+    "categories" : [
+      "cs.IT",
+      "cs.CR",
+      "math.IT",
+      "94A17",
+      "H.1.1"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.12500v1",
+    "title" : "Integrating kNN with Foundation Models for Adaptable and Privacy-Aware\n  Image Classification",
+    "summary" : "Traditional deep learning models implicity encode knowledge limiting their\ntransparency and ability to adapt to data changes. Yet, this adaptability is\nvital for addressing user data privacy concerns. We address this limitation by\nstoring embeddings of the underlying training data independently of the model\nweights, enabling dynamic data modifications without retraining. Specifically,\nour approach integrates the $k$-Nearest Neighbor ($k$-NN) classifier with a\nvision-based foundation model, pre-trained self-supervised on natural images,\nenhancing interpretability and adaptability. We share open-source\nimplementations of a previously unpublished baseline method as well as our\nperformance-improving contributions. Quantitative experiments confirm improved\nclassification across established benchmark datasets and the method's\napplicability to distinct medical image classification tasks. Additionally, we\nassess the method's robustness in continual learning and data removal\nscenarios. The approach exhibits great promise for bridging the gap between\nfoundation models' performance and challenges tied to data privacy. The source\ncode is available at\nhttps://github.com/TobArc/privacy-aware-image-classification-with-kNN.",
+    "updated" : "2024-02-19T20:08:13Z",
+    "published" : "2024-02-19T20:08:13Z",
+    "authors" : [
+      {
+        "name" : "Sebastian Doerrich"
+      },
+      {
+        "name" : "Tobias Archut"
+      },
+      {
+        "name" : "Francesco Di Salvo"
+      },
+      {
+        "name" : "Christian Ledig"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.LG",
+      "eess.IV"
+    ]
   }
 ]
