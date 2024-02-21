@@ -1070,98 +1070,90 @@ with AI but the difference is not statistically significant within the model.</p
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2401.11225v1">Protecting Personalized Trajectory with Differential Privacy under
-  Temporal Correlations</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-01-20T12:59:08Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mingge Cao, Haopeng Zhu, Minghui Min, Yulu Li, Shiyin Li, Hongliang Zhang, Zhu Han</p>
-    <p><b>Summary:</b> Location-based services (LBSs) in vehicular ad hoc networks (VANETs) offer
-users numerous conveniences. However, the extensive use of LBSs raises concerns
-about the privacy of users' trajectories, as adversaries can exploit temporal
-correlations between different locations to extract personal information.
-Additionally, users have varying privacy requirements depending on the time and
-location. To address these issues, this paper proposes a personalized
-trajectory privacy protection mechanism (PTPPM). This mechanism first uses the
-temporal correlation between trajectory locations to determine the possible
-location set for each time instant. We identify a protection location set (PLS)
-for each location by employing the Hilbert curve-based minimum distance search
-algorithm. This approach incorporates the complementary features of
-geo-indistinguishability and distortion privacy. We put forth a novel
-Permute-and-Flip mechanism for location perturbation, which maps its initial
-application in data publishing privacy protection to a location perturbation
-mechanism. This mechanism generates fake locations with smaller perturbation
-distances while improving the balance between privacy and quality of service
-(QoS). Simulation results show that our mechanism outperforms the benchmark by
-providing enhanced privacy protection while meeting user's QoS requirements.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2401.11089v1">FedRKG: A Privacy-preserving Federated Recommendation Framework via
-  Knowledge Graph Enhancement</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB">
-  <p><b>Published on:</b> 2024-01-20T02:38:21Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Dezhong Yao, Tongtong Liu, Qi Cao, Hai Jin</p>
-    <p><b>Summary:</b> Federated Learning (FL) has emerged as a promising approach for preserving
-data privacy in recommendation systems by training models locally. Recently,
-Graph Neural Networks (GNN) have gained popularity in recommendation tasks due
-to their ability to capture high-order interactions between users and items.
-However, privacy concerns prevent the global sharing of the entire user-item
-graph. To address this limitation, some methods create pseudo-interacted items
-or users in the graph to compensate for missing information for each client.
-Unfortunately, these methods introduce random noise and raise privacy concerns.
-In this paper, we propose FedRKG, a novel federated recommendation system,
-where a global knowledge graph (KG) is constructed and maintained on the server
-using publicly available item information, enabling higher-order user-item
-interactions. On the client side, a relation-aware GNN model leverages diverse
-KG relationships. To protect local interaction items and obscure gradients, we
-employ pseudo-labeling and Local Differential Privacy (LDP). Extensive
-experiments conducted on three real-world datasets demonstrate the competitive
-performance of our approach compared to centralized algorithms while ensuring
-privacy preservation. Moreover, FedRKG achieves an average accuracy improvement
-of 4% compared to existing federated learning baselines.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2401.10765v2">Starlit: Privacy-Preserving Federated Learning to Enhance Financial
-  Fraud Detection</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-01-19T15:37:11Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Aydin Abadi, Bradley Doyle, Francesco Gini, Kieron Guinamard, Sasi Kumar Murakonda, Jack Liddell, Paul Mellor, Steven J. Murdoch, Mohammad Naseri, Hector Page, George Theodorakopoulos, Suzanne Weller</p>
-    <p><b>Summary:</b> Federated Learning (FL) is a data-minimization approach enabling
-collaborative model training across diverse clients with local data, avoiding
-direct data exchange. However, state-of-the-art FL solutions to identify
-fraudulent financial transactions exhibit a subset of the following
-limitations. They (1) lack a formal security definition and proof, (2) assume
-prior freezing of suspicious customers' accounts by financial institutions
-(limiting the solutions' adoption), (3) scale poorly, involving either $O(n^2)$
-computationally expensive modular exponentiation (where $n$ is the total number
-of financial institutions) or highly inefficient fully homomorphic encryption,
-(4) assume the parties have already completed the identity alignment phase,
-hence excluding it from the implementation, performance evaluation, and
-security analysis, and (5) struggle to resist clients' dropouts. This work
-introduces Starlit, a novel scalable privacy-preserving FL mechanism that
-overcomes these limitations. It has various applications, such as enhancing
-financial fraud detection, mitigating terrorism, and enhancing digital health.
-We implemented Starlit and conducted a thorough performance analysis using
-synthetic data from a key player in global financial transactions. The
-evaluation indicates Starlit's scalability, efficiency, and accuracy.</p>
-  </details>
-</div>
-
-
 
 <h2>2024-02</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2402.13087v1">How Does Selection Leak Privacy: Revisiting Private Selection and
+  Improved Results for Hyper-parameter Tuning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-02-20T15:29:49Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zihang Xiang, Chenglong Wang, Di Wang</p>
+    <p><b>Summary:</b> We study the problem of guaranteeing Differential Privacy (DP) in
+hyper-parameter tuning, a crucial process in machine learning involving the
+selection of the best run from several. Unlike many private algorithms,
+including the prevalent DP-SGD, the privacy implications of tuning remain
+insufficiently understood. Recent works propose a generic private solution for
+the tuning process, yet a fundamental question still persists: is the current
+privacy bound for this solution tight?
+  This paper contributes both positive and negative answers to this question.
+Initially, we provide studies affirming the current privacy analysis is indeed
+tight in a general sense. However, when we specifically study the
+hyper-parameter tuning problem, such tightness no longer holds. This is first
+demonstrated by applying privacy audit on the tuning process. Our findings
+underscore a substantial gap between the current theoretical privacy bound and
+the empirical bound derived even under the strongest audit setup.
+  The gap found is not a fluke. Our subsequent study provides an improved
+privacy result for private hyper-parameter tuning due to its distinct
+properties. Our privacy results are also more generalizable compared to prior
+analyses that are only easily applicable in specific setups.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2402.12967v1">Quantifying Privacy via Information Density</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">   
+  <p><b>Published on:</b> 2024-02-20T12:35:14Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Leonhard Grosse, Sara Saeidian, Parastoo Sadeghi, Tobias J. Oechtering, Mikael Skoglund</p>
+    <p><b>Summary:</b> We examine the relationship between privacy metrics that utilize information
+density to measure information leakage between a private and a disclosed random
+variable. Firstly, we prove that bounding the information density from above or
+below in turn implies a lower or upper bound on the information density,
+respectively. Using this result, we establish new relationships between local
+information privacy, asymmetric local information privacy, pointwise maximal
+leakage and local differential privacy. We further provide applications of
+these relations to privacy mechanism design. Furthermore, we provide statements
+showing the equivalence between a lower bound on information density and
+risk-averse adversaries. More specifically, we prove an equivalence between a
+guessing framework and a cost-function framework that result in the desired
+lower bound on the information density.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2402.12500v1">Integrating kNN with Foundation Models for Adaptable and Privacy-Aware
+  Image Classification</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
+  <p><b>Published on:</b> 2024-02-19T20:08:13Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Sebastian Doerrich, Tobias Archut, Francesco Di Salvo, Christian Ledig</p>
+    <p><b>Summary:</b> Traditional deep learning models implicity encode knowledge limiting their
+transparency and ability to adapt to data changes. Yet, this adaptability is
+vital for addressing user data privacy concerns. We address this limitation by
+storing embeddings of the underlying training data independently of the model
+weights, enabling dynamic data modifications without retraining. Specifically,
+our approach integrates the $k$-Nearest Neighbor ($k$-NN) classifier with a
+vision-based foundation model, pre-trained self-supervised on natural images,
+enhancing interpretability and adaptability. We share open-source
+implementations of a previously unpublished baseline method as well as our
+performance-improving contributions. Quantitative experiments confirm improved
+classification across established benchmark datasets and the method's
+applicability to distinct medical image classification tasks. Additionally, we
+assess the method's robustness in continual learning and data removal
+scenarios. The approach exhibits great promise for bridging the gap between
+foundation models' performance and challenges tied to data privacy. The source
+code is available at
+https://github.com/TobArc/privacy-aware-image-classification-with-kNN.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2402.11989v1">Privacy-Preserving Low-Rank Adaptation for Latent Diffusion Models</a></h3>
