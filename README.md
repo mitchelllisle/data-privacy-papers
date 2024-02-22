@@ -1020,58 +1020,72 @@ privacy budgets, and validate the impact of network configuration on training.</
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2401.11305v1">Progress in Privacy Protection: A Review of Privacy Preserving
-  Techniques in Recommender Systems, Edge Computing, and Cloud Computing</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2024-01-20T19:32:56Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Syed Raza Bashir, Shaina Raza, Vojislav Misic</p>
-    <p><b>Summary:</b> As digital technology evolves, the increasing use of connected devices brings
-both challenges and opportunities in the areas of mobile crowdsourcing, edge
-computing, and recommender systems. This survey focuses on these dynamic
-fields, emphasizing the critical need for privacy protection in our
-increasingly data-oriented world. It explores the latest trends in these
-interconnected areas, with a special emphasis on privacy and data security. Our
-method involves an in-depth analysis of various academic works, which helps us
-to gain a comprehensive understanding of these sectors and their shifting focus
-towards privacy concerns. We present new insights and marks a significant
-advancement in addressing privacy issues within these technologies. The survey
-is a valuable resource for researchers, industry practitioners, and policy
-makers, offering an extensive overview of these fields and their related
-privacy challenges, catering to a wide audience in the modern digital era.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2401.11249v1">Evaluating if trust and personal information privacy concerns are
-  barriers to using health insurance that explicitly utilizes AI</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> 
-  <p><b>Published on:</b> 2024-01-20T15:02:56Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Alex Zarifis, Peter Kawalek, Aida Azadegan</p>
-    <p><b>Summary:</b> Trust and privacy have emerged as significant concerns in online
-transactions. Sharing information on health is especially sensitive but it is
-necessary for purchasing and utilizing health insurance. Evidence shows that
-consumers are increasingly comfortable with technology in place of humans, but
-the expanding use of AI potentially changes this. This research explores
-whether trust and privacy concern are barriers to the adoption of AI in health
-insurance. Two scenarios are compared: The first scenario has limited AI that
-is not in the interface and its presence is not explicitly revealed to the
-consumer. In the second scenario there is an AI interface and AI evaluation,
-and this is explicitly revealed to the consumer. The two scenarios were modeled
-and compared using SEM PLS-MGA. The findings show that trust is significantly
-lower in the second scenario where AI is visible. Privacy concerns are higher
-with AI but the difference is not statistically significant within the model.</p>
-  </details>
-</div>
-
-
 
 <h2>2024-02</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2402.13815v1">An Empirical Study on Oculus Virtual Reality Applications: Security and
+  Privacy Perspectives</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-02-21T13:53:25Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Hanyang Guo, Hong-Ning Dai, Xiapu Luo, Zibin Zheng, Gengyang Xu, Fengliang He</p>
+    <p><b>Summary:</b> Although Virtual Reality (VR) has accelerated its prevalent adoption in
+emerging metaverse applications, it is not a fundamentally new technology. On
+one hand, most VR operating systems (OS) are based on off-the-shelf mobile OS.
+As a result, VR apps also inherit privacy and security deficiencies from
+conventional mobile apps. On the other hand, in contrast to conventional mobile
+apps, VR apps can achieve immersive experience via diverse VR devices, such as
+head-mounted displays, body sensors, and controllers though achieving this
+requires the extensive collection of privacy-sensitive human biometrics.
+Moreover, VR apps have been typically implemented by 3D gaming engines (e.g.,
+Unity), which also contain intrinsic security vulnerabilities. Inappropriate
+use of these technologies may incur privacy leaks and security vulnerabilities
+although these issues have not received significant attention compared to the
+proliferation of diverse VR apps. In this paper, we develop a security and
+privacy assessment tool, namely the VR-SP detector for VR apps. The VR-SP
+detector has integrated program static analysis tools and privacy-policy
+analysis methods. Using the VR-SP detector, we conduct a comprehensive
+empirical study on 500 popular VR apps. We obtain the original apps from the
+popular Oculus and SideQuest app stores and extract APK files via the Meta
+Oculus Quest 2 device. We evaluate security vulnerabilities and privacy data
+leaks of these VR apps by VR app analysis, taint analysis, and privacy-policy
+analysis. We find that a number of security vulnerabilities and privacy leaks
+widely exist in VR apps. Moreover, our results also reveal conflicting
+representations in the privacy policies of these apps and inconsistencies of
+the actual data collection with the privacy-policy statements of the apps.
+Based on these findings, we make suggestions for the future development of VR
+apps.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2402.13659v1">Privacy-Preserving Instructions for Aligning Large Language Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2024-02-21T09:45:08Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Da Yu, Peter Kairouz, Sewoong Oh, Zheng Xu</p>
+    <p><b>Summary:</b> Service providers of large language model (LLM) applications collect user
+instructions in the wild and use them in further aligning LLMs with users'
+intentions. These instructions, which potentially contain sensitive
+information, are annotated by human workers in the process. This poses a new
+privacy risk not addressed by the typical private optimization. To this end, we
+propose using synthetic instructions to replace real instructions in data
+annotation and model fine-tuning. Formal differential privacy is guaranteed by
+generating those synthetic instructions using privately fine-tuned generators.
+Crucial in achieving the desired utility is our novel filtering algorithm that
+matches the distribution of the synthetic instructions to that of the real
+ones. In both supervised fine-tuning and reinforcement learning from human
+feedback, our extensive experiments demonstrate the high utility of the final
+set of synthetic instructions by showing comparable results to real
+instructions. In supervised fine-tuning, models trained with private synthetic
+instructions outperform leading open-source models such as Vicuna.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2402.13087v1">How Does Selection Leak Privacy: Revisiting Private Selection and
@@ -1185,7 +1199,7 @@ code is available at https://github.com/WilliamLUO0/StablePrivateLoRA.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.11582v1">Publicly auditable privacy-preserving electoral rolls</a></h3>
+  <h3><a href="http://arxiv.org/abs/2402.11582v2">Publicly auditable privacy-preserving electoral rolls</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
   <p><b>Published on:</b> 2024-02-18T13:11:48Z</p>
   <details>
@@ -1839,7 +1853,7 @@ models.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.07687v1">Privacy-Preserving Gaze Data Streaming in Immersive Interactive Virtual
+  <h3><a href="http://arxiv.org/abs/2402.07687v2">Privacy-Preserving Gaze Data Streaming in Immersive Interactive Virtual
   Reality: Robustness and User Experience</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2024-02-12T14:53:12Z</p>
@@ -1847,22 +1861,23 @@ models.</p>
     <summary>More Details</summary>
     <p><b>Authors:</b> Ethan Wilson, Azim Ibragimov, Michael J. Proulx, Sai Deep Tetali, Kevin Butler, Eakta Jain</p>
     <p><b>Summary:</b> Eye tracking is routinely being incorporated into virtual reality (VR)
-systems. Prior research has shown that eye tracking data can be used for
-re-identification attacks. The state of our knowledge about currently existing
-privacy mechanisms is limited to privacy-utility trade-off curves based on
-data-centric metrics of utility, such as prediction error, and black-box threat
-models. We propose that for interactive VR applications, it is essential to
-consider user-centric notions of utility and a variety of threat models. We
-develop a methodology to evaluate real-time privacy mechanisms for interactive
-VR applications that incorporate subjective user experience and task
-performance metrics. We evaluate selected privacy mechanisms using this
+systems. Prior research has shown that eye tracking data, if exposed, can be
+used for re-identification attacks. The state of our knowledge about currently
+existing privacy mechanisms is limited to privacy-utility trade-off curves
+based on data-centric metrics of utility, such as prediction error, and
+black-box threat models. We propose that for interactive VR applications, it is
+essential to consider user-centric notions of utility and a variety of threat
+models. We develop a methodology to evaluate real-time privacy mechanisms for
+interactive VR applications that incorporate subjective user experience and
+task performance metrics. We evaluate selected privacy mechanisms using this
 methodology and find that re-identification accuracy can be decreased to as low
 as 14% while maintaining a high usability score and reasonable task
 performance. Finally, we elucidate three threat scenarios (black-box, black-box
 with exemplars, and white-box) and assess how well the different privacy
-mechanisms hold up to these adversarial scenarios. This work advances the state
-of the art in VR privacy by providing a methodology for end-to-end assessment
-of the risk of re-identification attacks and potential mitigating solutions.</p>
+mechanisms hold up to these adversarial scenarios.
+  This work advances the state of the art in VR privacy by providing a
+methodology for end-to-end assessment of the risk of re-identification attacks
+and potential mitigating solutions.</p>
   </details>
 </div>
 
