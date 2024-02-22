@@ -1744,5 +1744,117 @@
       "cs.LG",
       "eess.IV"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.13815v1",
+    "title" : "An Empirical Study on Oculus Virtual Reality Applications: Security and\n  Privacy Perspectives",
+    "summary" : "Although Virtual Reality (VR) has accelerated its prevalent adoption in\nemerging metaverse applications, it is not a fundamentally new technology. On\none hand, most VR operating systems (OS) are based on off-the-shelf mobile OS.\nAs a result, VR apps also inherit privacy and security deficiencies from\nconventional mobile apps. On the other hand, in contrast to conventional mobile\napps, VR apps can achieve immersive experience via diverse VR devices, such as\nhead-mounted displays, body sensors, and controllers though achieving this\nrequires the extensive collection of privacy-sensitive human biometrics.\nMoreover, VR apps have been typically implemented by 3D gaming engines (e.g.,\nUnity), which also contain intrinsic security vulnerabilities. Inappropriate\nuse of these technologies may incur privacy leaks and security vulnerabilities\nalthough these issues have not received significant attention compared to the\nproliferation of diverse VR apps. In this paper, we develop a security and\nprivacy assessment tool, namely the VR-SP detector for VR apps. The VR-SP\ndetector has integrated program static analysis tools and privacy-policy\nanalysis methods. Using the VR-SP detector, we conduct a comprehensive\nempirical study on 500 popular VR apps. We obtain the original apps from the\npopular Oculus and SideQuest app stores and extract APK files via the Meta\nOculus Quest 2 device. We evaluate security vulnerabilities and privacy data\nleaks of these VR apps by VR app analysis, taint analysis, and privacy-policy\nanalysis. We find that a number of security vulnerabilities and privacy leaks\nwidely exist in VR apps. Moreover, our results also reveal conflicting\nrepresentations in the privacy policies of these apps and inconsistencies of\nthe actual data collection with the privacy-policy statements of the apps.\nBased on these findings, we make suggestions for the future development of VR\napps.",
+    "updated" : "2024-02-21T13:53:25Z",
+    "published" : "2024-02-21T13:53:25Z",
+    "authors" : [
+      {
+        "name" : "Hanyang Guo"
+      },
+      {
+        "name" : "Hong-Ning Dai"
+      },
+      {
+        "name" : "Xiapu Luo"
+      },
+      {
+        "name" : "Zibin Zheng"
+      },
+      {
+        "name" : "Gengyang Xu"
+      },
+      {
+        "name" : "Fengliang He"
+      }
+    ],
+    "categories" : [
+      "cs.SE",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.13659v1",
+    "title" : "Privacy-Preserving Instructions for Aligning Large Language Models",
+    "summary" : "Service providers of large language model (LLM) applications collect user\ninstructions in the wild and use them in further aligning LLMs with users'\nintentions. These instructions, which potentially contain sensitive\ninformation, are annotated by human workers in the process. This poses a new\nprivacy risk not addressed by the typical private optimization. To this end, we\npropose using synthetic instructions to replace real instructions in data\nannotation and model fine-tuning. Formal differential privacy is guaranteed by\ngenerating those synthetic instructions using privately fine-tuned generators.\nCrucial in achieving the desired utility is our novel filtering algorithm that\nmatches the distribution of the synthetic instructions to that of the real\nones. In both supervised fine-tuning and reinforcement learning from human\nfeedback, our extensive experiments demonstrate the high utility of the final\nset of synthetic instructions by showing comparable results to real\ninstructions. In supervised fine-tuning, models trained with private synthetic\ninstructions outperform leading open-source models such as Vicuna.",
+    "updated" : "2024-02-21T09:45:08Z",
+    "published" : "2024-02-21T09:45:08Z",
+    "authors" : [
+      {
+        "name" : "Da Yu"
+      },
+      {
+        "name" : "Peter Kairouz"
+      },
+      {
+        "name" : "Sewoong Oh"
+      },
+      {
+        "name" : "Zheng Xu"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.11582v2",
+    "title" : "Publicly auditable privacy-preserving electoral rolls",
+    "summary" : "While existing literature on electronic voting has extensively addressed\nverifiability of voting protocols, the vulnerability of electoral rolls in\nlarge public elections remains a critical concern. To ensure integrity of\nelectoral rolls, the current practice is to either make electoral rolls public\nor share them with the political parties. However, this enables construction of\ndetailed voter profiles and selective targeting and manipulation of voters,\nthereby undermining the fundamental principle of free and fair elections. In\nthis paper, we study the problem of designing publicly auditable yet\nprivacy-preserving electoral rolls. We first formulate a threat model and\nprovide formal security definitions. We then present a protocol for creation\nand maintenance of electoral rolls that mitigates the threats. Eligible voters\ncan verify their inclusion, whereas political parties and auditors can\nstatistically audit the electoral roll. The entire electoral roll is never\nrevealed, which prevents any large-scale systematic voter targeting and\nmanipulation.",
+    "updated" : "2024-02-21T05:49:24Z",
+    "published" : "2024-02-18T13:11:48Z",
+    "authors" : [
+      {
+        "name" : "Prashant Agrawal"
+      },
+      {
+        "name" : "Mahabir Prasad Jhanwar"
+      },
+      {
+        "name" : "Subodh Vishnu Sharma"
+      },
+      {
+        "name" : "Subhashis Banerjee"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.07687v2",
+    "title" : "Privacy-Preserving Gaze Data Streaming in Immersive Interactive Virtual\n  Reality: Robustness and User Experience",
+    "summary" : "Eye tracking is routinely being incorporated into virtual reality (VR)\nsystems. Prior research has shown that eye tracking data, if exposed, can be\nused for re-identification attacks. The state of our knowledge about currently\nexisting privacy mechanisms is limited to privacy-utility trade-off curves\nbased on data-centric metrics of utility, such as prediction error, and\nblack-box threat models. We propose that for interactive VR applications, it is\nessential to consider user-centric notions of utility and a variety of threat\nmodels. We develop a methodology to evaluate real-time privacy mechanisms for\ninteractive VR applications that incorporate subjective user experience and\ntask performance metrics. We evaluate selected privacy mechanisms using this\nmethodology and find that re-identification accuracy can be decreased to as low\nas 14% while maintaining a high usability score and reasonable task\nperformance. Finally, we elucidate three threat scenarios (black-box, black-box\nwith exemplars, and white-box) and assess how well the different privacy\nmechanisms hold up to these adversarial scenarios.\n  This work advances the state of the art in VR privacy by providing a\nmethodology for end-to-end assessment of the risk of re-identification attacks\nand potential mitigating solutions.",
+    "updated" : "2024-02-21T15:46:16Z",
+    "published" : "2024-02-12T14:53:12Z",
+    "authors" : [
+      {
+        "name" : "Ethan Wilson"
+      },
+      {
+        "name" : "Azim Ibragimov"
+      },
+      {
+        "name" : "Michael J. Proulx"
+      },
+      {
+        "name" : "Sai Deep Tetali"
+      },
+      {
+        "name" : "Kevin Butler"
+      },
+      {
+        "name" : "Eakta Jain"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "cs.CR"
+    ]
   }
 ]
