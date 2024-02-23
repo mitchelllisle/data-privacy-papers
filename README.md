@@ -993,35 +993,39 @@ sharing, sports racing and many more.</p>
 </div>
 
 
+
+<h2>2024-02</h2>
+
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2401.11592v1">Differential Privacy in Hierarchical Federated Learning: A Formal
-  Analysis and Evaluation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
-  <p><b>Published on:</b> 2024-01-21T20:46:21Z</p>
+  <h3><a href="http://arxiv.org/abs/2402.14544v1">{A New Hope}: Contextual Privacy Policies for Mobile Applications and An
+  Approach Toward Automated Generation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
+  <p><b>Published on:</b> 2024-02-22T13:32:33Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Frank Po-Chen Lin, Christopher Brinton</p>
-    <p><b>Summary:</b> While federated learning (FL) eliminates the transmission of raw data over a
-network, it is still vulnerable to privacy breaches from the communicated model
-parameters. In this work, we formalize Differentially Private Hierarchical
-Federated Learning (DP-HFL), a DP-enhanced FL methodology that seeks to improve
-the privacy-utility tradeoff inherent in FL. Building upon recent proposals for
-Hierarchical Differential Privacy (HDP), one of the key concepts of DP-HFL is
-adapting DP noise injection at different layers of an established FL hierarchy
--- edge devices, edge servers, and cloud servers -- according to the trust
-models within particular subnetworks. We conduct a comprehensive analysis of
-the convergence behavior of DP-HFL, revealing conditions on parameter tuning
-under which the model training process converges sublinearly to a stationarity
-gap, with this gap depending on the network hierarchy, trust model, and target
-privacy level. Subsequent numerical evaluations demonstrate that DP-HFL obtains
-substantial improvements in convergence speed over baselines for different
-privacy budgets, and validate the impact of network configuration on training.</p>
+    <p><b>Authors:</b> Shidong Pan, Zhen Tao, Thong Hoang, Dawen Zhang, Tianshi Li, Zhenchang Xing, Sherry Xu, Mark Staples, Thierry Rakotoarivelo, David Lo</p>
+    <p><b>Summary:</b> Privacy policies have emerged as the predominant approach to conveying
+privacy notices to mobile application users. In an effort to enhance both
+readability and user engagement, the concept of contextual privacy policies
+(CPPs) has been proposed by researchers. The aim of CPPs is to fragment privacy
+policies into concise snippets, displaying them only within the corresponding
+contexts within the application's graphical user interfaces (GUIs). In this
+paper, we first formulate CPP in mobile application scenario, and then present
+a novel multimodal framework, named SeePrivacy, specifically designed to
+automatically generate CPPs for mobile applications. This method uniquely
+integrates vision-based GUI understanding with privacy policy analysis,
+achieving 0.88 precision and 0.90 recall to detect contexts, as well as 0.98
+precision and 0.96 recall in extracting corresponding policy segments. A human
+evaluation shows that 77% of the extracted privacy policy segments were
+perceived as well-aligned with the detected contexts. These findings suggest
+that SeePrivacy could serve as a significant tool for bolstering user
+interaction with, and understanding of, privacy policies. Furthermore, our
+solution has the potential to make privacy notices more accessible and
+inclusive, thus appealing to a broader demographic. A demonstration of our work
+can be accessed at https://cpp4app.github.io/SeePrivacy/</p>
   </details>
 </div>
 
-
-
-<h2>2024-02</h2>
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2402.13815v1">An Empirical Study on Oculus Virtual Reality Applications: Security and
