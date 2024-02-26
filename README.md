@@ -930,71 +930,68 @@ https://voiceprivacy.github.io/Adeversarial-Speech-with-YourTTS.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2401.11836v1">Privacy-Preserving Data Fusion for Traffic State Estimation: A Vertical
-  Federated Learning Approach</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36"> 
-  <p><b>Published on:</b> 2024-01-22T10:52:22Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Qiqing Wang, Kaidi Yang</p>
-    <p><b>Summary:</b> This paper proposes a privacy-preserving data fusion method for traffic state
-estimation (TSE). Unlike existing works that assume all data sources to be
-accessible by a single trusted party, we explicitly address data privacy
-concerns that arise in the collaboration and data sharing between multiple data
-owners, such as municipal authorities (MAs) and mobility providers (MPs). To
-this end, we propose a novel vertical federated learning (FL) approach, FedTSE,
-that enables multiple data owners to collaboratively train and apply a TSE
-model without having to exchange their private data. To enhance the
-applicability of the proposed FedTSE in common TSE scenarios with limited
-availability of ground-truth data, we further propose a privacy-preserving
-physics-informed FL approach, i.e., FedTSE-PI, that integrates traffic models
-into FL. Real-world data validation shows that the proposed methods can protect
-privacy while yielding similar accuracy to the oracle method without privacy
-considerations.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2401.11735v1">zkLogin: Privacy-Preserving Blockchain Authentication with Existing
-  Credentials</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-01-22T07:23:58Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Foteini Baldimtsi, Konstantinos Kryptos Chalkias, Yan Ji, Jonas Lindstrøm, Deepak Maram, Ben Riva, Arnab Roy, Mahdi Sedaghat, Joy Wang</p>
-    <p><b>Summary:</b> For many users, a private key based wallet serves as the primary entry point
-to blockchains. Commonly recommended wallet authentication methods, such as
-mnemonics or hardware wallets, can be cumbersome. This difficulty in user
-onboarding has significantly hindered the adoption of blockchain-based
-applications.
-  We develop zkLogin, a novel technique that leverages identity tokens issued
-by popular platforms (any OpenID Connect enabled platform e.g. Google,
-Facebook, etc.) to authenticate transactions. At the heart of zkLogin lies a
-signature scheme allowing the signer to \textit{sign using their existing
-OpenID accounts} and nothing else. This improves the user experience
-significantly as users do not need to remember a new secret and can reuse their
-existing accounts.
-  zkLogin provides strong security and privacy guarantees. By design, zkLogin
-builds on top of the underlying platform's authentication mechanisms, and
-derives its security from there. Unlike prior related works however, zkLogin
-avoids the use of additional trusted parties (e.g., trusted hardware or
-oracles) for its security guarantees. zkLogin leverages zero-knowledge proofs
-(ZKP) to ensure that the link between a user's off-chain and on-chain
-identities is hidden, even from the platform itself.
-  We have implemented and deployed zkLogin on the Sui blockchain as an
-alternative to traditional digital signature-based addresses. Due to the ease
-of web3 on-boarding just with social login, without requiring mnemonics, many
-hundreds of thousands zkLogin accounts have already been generated in various
-industries such as gaming, DeFi, direct payments, NFT collections, ride
-sharing, sports racing and many more.</p>
-  </details>
-</div>
-
-
 
 <h2>2024-02</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2402.15006v1">opp/ai: Optimistic Privacy-Preserving AI on Blockchain</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-02-22T22:54:41Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Cathie So, KD Conway, Xiaohang Yu, Suning Yao, Kartin Wong</p>
+    <p><b>Summary:</b> The convergence of Artificial Intelligence (AI) and blockchain technology is
+reshaping the digital world, offering decentralized, secure, and efficient AI
+services on blockchain platforms. Despite the promise, the high computational
+demands of AI on blockchain raise significant privacy and efficiency concerns.
+The Optimistic Privacy-Preserving AI (opp/ai) framework is introduced as a
+pioneering solution to these issues, striking a balance between privacy
+protection and computational efficiency. The framework integrates
+Zero-Knowledge Machine Learning (zkML) for privacy with Optimistic Machine
+Learning (opML) for efficiency, creating a hybrid model tailored for blockchain
+AI services. This study presents the opp/ai framework, delves into the privacy
+features of zkML, and assesses the framework's performance and adaptability
+across different scenarios.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2402.14983v1">Privacy-Enhancing Collaborative Information Sharing through Federated
+  Learning -- A Case of the Insurance Industry</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
+  <p><b>Published on:</b> 2024-02-22T21:46:24Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Panyi Dong, Zhiyu Quan, Brandon Edwards, Shih-han Wang, Runhuan Feng, Tianyang Wang, Patrick Foley, Prashant Shah</p>
+    <p><b>Summary:</b> The report demonstrates the benefits (in terms of improved claims loss
+modeling) of harnessing the value of Federated Learning (FL) to learn a single
+model across multiple insurance industry datasets without requiring the
+datasets themselves to be shared from one company to another. The application
+of FL addresses two of the most pressing concerns: limited data volume and data
+variety, which are caused by privacy concerns, the rarity of claim events, the
+lack of informative rating factors, etc.. During each round of FL,
+collaborators compute improvements on the model using their local private data,
+and these insights are combined to update a global model. Such aggregation of
+insights allows for an increase to the effectiveness in forecasting claims
+losses compared to models individually trained at each collaborator.
+Critically, this approach enables machine learning collaboration without the
+need for raw data to leave the compute infrastructure of each respective data
+owner. Additionally, the open-source framework, OpenFL, that is used in our
+experiments is designed so that it can be run using confidential computing as
+well as with additional algorithmic protections against leakage of information
+via the shared model updates. In such a way, FL is implemented as a
+privacy-enhancing collaborative learning technique that addresses the
+challenges posed by the sensitivity and privacy of data in traditional machine
+learning solutions. This paper's application of FL can also be expanded to
+other areas including fraud detection, catastrophe modeling, etc., that have a
+similar need to incorporate data privacy into machine learning collaborations.
+Our framework and empirical results provide a foundation for future
+collaborations among insurers, regulators, academic researchers, and InsurTech
+experts.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2402.14544v1">{A New Hope}: Contextual Privacy Policies for Mobile Applications and An
