@@ -1899,5 +1899,71 @@
       "cs.CR",
       "cs.SE"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.15006v1",
+    "title" : "opp/ai: Optimistic Privacy-Preserving AI on Blockchain",
+    "summary" : "The convergence of Artificial Intelligence (AI) and blockchain technology is\nreshaping the digital world, offering decentralized, secure, and efficient AI\nservices on blockchain platforms. Despite the promise, the high computational\ndemands of AI on blockchain raise significant privacy and efficiency concerns.\nThe Optimistic Privacy-Preserving AI (opp/ai) framework is introduced as a\npioneering solution to these issues, striking a balance between privacy\nprotection and computational efficiency. The framework integrates\nZero-Knowledge Machine Learning (zkML) for privacy with Optimistic Machine\nLearning (opML) for efficiency, creating a hybrid model tailored for blockchain\nAI services. This study presents the opp/ai framework, delves into the privacy\nfeatures of zkML, and assesses the framework's performance and adaptability\nacross different scenarios.",
+    "updated" : "2024-02-22T22:54:41Z",
+    "published" : "2024-02-22T22:54:41Z",
+    "authors" : [
+      {
+        "name" : "Cathie So"
+      },
+      {
+        "name" : "KD Conway"
+      },
+      {
+        "name" : "Xiaohang Yu"
+      },
+      {
+        "name" : "Suning Yao"
+      },
+      {
+        "name" : "Kartin Wong"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.14983v1",
+    "title" : "Privacy-Enhancing Collaborative Information Sharing through Federated\n  Learning -- A Case of the Insurance Industry",
+    "summary" : "The report demonstrates the benefits (in terms of improved claims loss\nmodeling) of harnessing the value of Federated Learning (FL) to learn a single\nmodel across multiple insurance industry datasets without requiring the\ndatasets themselves to be shared from one company to another. The application\nof FL addresses two of the most pressing concerns: limited data volume and data\nvariety, which are caused by privacy concerns, the rarity of claim events, the\nlack of informative rating factors, etc.. During each round of FL,\ncollaborators compute improvements on the model using their local private data,\nand these insights are combined to update a global model. Such aggregation of\ninsights allows for an increase to the effectiveness in forecasting claims\nlosses compared to models individually trained at each collaborator.\nCritically, this approach enables machine learning collaboration without the\nneed for raw data to leave the compute infrastructure of each respective data\nowner. Additionally, the open-source framework, OpenFL, that is used in our\nexperiments is designed so that it can be run using confidential computing as\nwell as with additional algorithmic protections against leakage of information\nvia the shared model updates. In such a way, FL is implemented as a\nprivacy-enhancing collaborative learning technique that addresses the\nchallenges posed by the sensitivity and privacy of data in traditional machine\nlearning solutions. This paper's application of FL can also be expanded to\nother areas including fraud detection, catastrophe modeling, etc., that have a\nsimilar need to incorporate data privacy into machine learning collaborations.\nOur framework and empirical results provide a foundation for future\ncollaborations among insurers, regulators, academic researchers, and InsurTech\nexperts.",
+    "updated" : "2024-02-22T21:46:24Z",
+    "published" : "2024-02-22T21:46:24Z",
+    "authors" : [
+      {
+        "name" : "Panyi Dong"
+      },
+      {
+        "name" : "Zhiyu Quan"
+      },
+      {
+        "name" : "Brandon Edwards"
+      },
+      {
+        "name" : "Shih-han Wang"
+      },
+      {
+        "name" : "Runhuan Feng"
+      },
+      {
+        "name" : "Tianyang Wang"
+      },
+      {
+        "name" : "Patrick Foley"
+      },
+      {
+        "name" : "Prashant Shah"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "q-fin.RM"
+    ]
   }
 ]
