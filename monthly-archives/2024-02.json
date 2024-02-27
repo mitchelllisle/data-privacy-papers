@@ -1965,5 +1965,121 @@
       "cs.CR",
       "q-fin.RM"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.16028v1",
+    "title" : "FedFDP: Federated Learning with Fairness and Differential Privacy",
+    "summary" : "Federated learning (FL) is a new machine learning paradigm to overcome the\nchallenge of data silos and has garnered significant attention. However,\nthrough our observations, a globally effective trained model may performance\ndisparities in different clients. This implies that the jointly trained models\nby clients may lead to unfair outcomes. On the other hand, relevant studies\nindicate that the transmission of gradients or models in federated learning can\nalso give rise to privacy leakage issues, such as membership inference attacks.\n  To address the first issue mentioned above, we propose a federated algorithm\nwith fairness, termed FedFair. Building upon FedFair, we introduce privacy\nprotection to form the FedFDP algorithm to address the second issue mentioned\nabove. In FedFDP, we devise a fairness-aware clipping strategy to achieve\ndifferential privacy while adjusting fairness. Additionally, for the extra\nuploaded loss values, we present an adaptive clipping approach to maximize\nutility. Furthermore, we theoretically prove that our algorithm converges and\nensures differential privacy. Lastly, Extensive experimental results\ndemonstrate that FedFair and FedFDP significantly outperforms state-of-the-art\nsolutions in terms of model performance and fairness. The code is accessible at\nhttps://anonymous.4open.science/r/FedFDP-E754.",
+    "updated" : "2024-02-25T08:35:21Z",
+    "published" : "2024-02-25T08:35:21Z",
+    "authors" : [
+      {
+        "name" : "Xinpeng Ling"
+      },
+      {
+        "name" : "Jie Fu"
+      },
+      {
+        "name" : "Zhili Chen"
+      },
+      {
+        "name" : "Kuncan Wang"
+      },
+      {
+        "name" : "Huifa Li"
+      },
+      {
+        "name" : "Tong Cheng"
+      },
+      {
+        "name" : "Guanying Xu"
+      },
+      {
+        "name" : "Qin Li"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.15797v1",
+    "title" : "Gait-Based Privacy Protection for Smart Wearable Devices",
+    "summary" : "Smart wearable devices (SWDs) collect and store sensitive daily information\nof many people. Its primary method of identification is still the password\nunlocking method. However, several studies have shown serious security flaws in\nthat method, which makes the privacy and security concerns of SWDs particularly\nurgent. Gait identification is well suited for SWDs because its built-in\nsensors can provide data support for identification. However, existing gait\nidentification methods have low accuracy and neglect to protect the privacy of\ngait features. In addition, the SWD can be used as an internet of things device\nfor users to share data. But few studies have used gait feature-based\nencryption schemes to protect the privacy of message interactions between SWDs\nand other devices. In this paper, we propose a gait identification network, a\nbi-directional long short-term memory network with an attention mechanism\n(ABLSTM), to improve the identification accuracy and a stochastic orthogonal\ntransformation (SOT) scheme to protect the extracted gait features from\nleakage. In the experiments, ABLSTM achieves an accuracy of 95.28%, reducing\nprevious error rate by 19.3%. The SOT scheme is proved to be resistant to the\nchosen plaintext attack (CPA) and is 30% faster than previous methods. A\nbiometric-based encryption scheme is proposed to enable secure message\ninteractions using gait features as keys after the gait identification stage is\npassed, and offers better protection of the gait features compared to previous\nschemes.",
+    "updated" : "2024-02-24T12:05:42Z",
+    "published" : "2024-02-24T12:05:42Z",
+    "authors" : [
+      {
+        "name" : "Yu Su"
+      },
+      {
+        "name" : "Yongjiao Li"
+      },
+      {
+        "name" : "Zhu Cao"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.15780v1",
+    "title" : "Holding Secrets Accountable: Auditing Privacy-Preserving Machine\n  Learning",
+    "summary" : "Recent advancements in privacy-preserving machine learning are paving the way\nto extend the benefits of ML to highly sensitive data that, until now, have\nbeen hard to utilize due to privacy concerns and regulatory constraints.\nSimultaneously, there is a growing emphasis on enhancing the transparency and\naccountability of machine learning, including the ability to audit ML\ndeployments. While ML auditing and PPML have both been the subjects of\nintensive research, they have predominately been examined in isolation.\nHowever, their combination is becoming increasingly important. In this work, we\nintroduce Arc, an MPC framework for auditing privacy-preserving machine\nlearning. At the core of our framework is a new protocol for efficiently\nverifying MPC inputs against succinct commitments at scale. We evaluate the\nperformance of our framework when instantiated with our consistency protocol\nand compare it to hashing-based and homomorphic-commitment-based approaches,\ndemonstrating that it is up to 10^4x faster and up to 10^6x more concise.",
+    "updated" : "2024-02-24T10:04:22Z",
+    "published" : "2024-02-24T10:04:22Z",
+    "authors" : [
+      {
+        "name" : "Hidde Lycklama"
+      },
+      {
+        "name" : "Alexander Viand"
+      },
+      {
+        "name" : "Nicolas Küchler"
+      },
+      {
+        "name" : "Christian Knabenhans"
+      },
+      {
+        "name" : "Anwar Hithnawi"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.15738v1",
+    "title" : "Privacy-Preserving State Estimation in the Presence of Eavesdroppers: A\n  Survey",
+    "summary" : "Networked systems are increasingly the target of cyberattacks that exploit\nvulnerabilities within digital communications, embedded hardware, and software.\nArguably, the simplest class of attacks -- and often the first type before\nlaunching destructive integrity attacks -- are eavesdropping attacks, which aim\nto infer information by collecting system data and exploiting it for malicious\npurposes. A key technology of networked systems is state estimation, which\nleverages sensing and actuation data and first-principles models to enable\ntrajectory planning, real-time monitoring, and control. However, state\nestimation can also be exploited by eavesdroppers to identify models and\nreconstruct states with the aim of, e.g., launching integrity (stealthy)\nattacks and inferring sensitive information. It is therefore crucial to protect\ndisclosed system data to avoid an accurate state estimation by eavesdroppers.\nThis survey presents a comprehensive review of existing literature on\nprivacy-preserving state estimation methods, while also identifying potential\nlimitations and research gaps. Our primary focus revolves around three types of\nmethods: cryptography, data perturbation, and transmission scheduling, with\nparticular emphasis on Kalman-like filters. Within these categories, we delve\ninto the concepts of homomorphic encryption and differential privacy, which\nhave been extensively investigated in recent years in the context of\nprivacy-preserving state estimation. Finally, we shed light on several\ntechnical and fundamental challenges surrounding current methods and propose\npotential directions for future research.",
+    "updated" : "2024-02-24T06:32:07Z",
+    "published" : "2024-02-24T06:32:07Z",
+    "authors" : [
+      {
+        "name" : "Xinhao Yan"
+      },
+      {
+        "name" : "Guanzhong Zhou"
+      },
+      {
+        "name" : "Daniel E. Quevedo"
+      },
+      {
+        "name" : "Carlos Murguia"
+      },
+      {
+        "name" : "Bo Chen"
+      },
+      {
+        "name" : "Hailong Huang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.SY",
+      "eess.SY"
+    ]
   }
 ]
