@@ -346,7 +346,7 @@ computing.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2401.15906v2">Mean Estimation with User-Level Privacy for Spatio-Temporal IoT Datasets</a></h3>
+  <h3><a href="http://arxiv.org/abs/2401.15906v3">Mean Estimation with User-Level Privacy for Spatio-Temporal IoT Datasets</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36">  
   <p><b>Published on:</b> 2024-01-29T06:21:29Z</p>
   <details>
@@ -360,11 +360,14 @@ ensuring privacy. We test our algorithms on ITMS (Intelligent Traffic
 Management System) data from an Indian city, where the speeds of different
 buses are drawn in a potentially non-i.i.d. manner from an unknown
 distribution, and where the number of speed samples contributed by different
-buses is potentially different. We then apply our algorithms to a synthetic
-dataset, generated based on the ITMS data, having either a large number of
-users or a large number of samples per user. Here, we provide recommendations
-for the choices of parameters and algorithm subroutines that result in low
-estimation errors, while guaranteeing user-level privacy.</p>
+buses is potentially different. We then apply our algorithms to large synthetic
+datasets, generated based on the ITMS data. Here, we provide theoretical
+justification for the observed performance trends, and also provide
+recommendations for the choices of algorithm subroutines that result in low
+estimation errors. Finally, we characterize the best performance of pseudo-user
+creation-based algorithms on worst-case datasets via a minimax approach; this
+then gives rise to a novel procedure for the creation of pseudo-users, which
+optimizes the worst-case total estimation error.</p>
   </details>
 </div>
 
@@ -826,112 +829,129 @@ https://github.com/Hifipsysta/WDP.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2401.12393v1">A Learning-based Declarative Privacy-Preserving Framework for Federated
-  Data Management</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2024-01-22T22:50:59Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Hong Guan, Summer Gautier, Deepti Gupta, Rajan Hari Ambrish, Yancheng Wang, Harsha Lakamsani, Dhanush Giriyan, Saajan Maslanka, Chaowei Xiao, Yingzhen Yang, Jia Zou</p>
-    <p><b>Summary:</b> It is challenging to balance the privacy and accuracy for federated query
-processing over multiple private data silos. In this work, we will demonstrate
-an end-to-end workflow for automating an emerging privacy-preserving technique
-that uses a deep learning model trained using the Differentially-Private
-Stochastic Gradient Descent (DP-SGD) algorithm to replace portions of actual
-data to answer a query. Our proposed novel declarative privacy-preserving
-workflow allows users to specify "what private information to protect" rather
-than "how to protect". Under the hood, the system automatically chooses
-query-model transformation plans as well as hyper-parameters. At the same time,
-the proposed workflow also allows human experts to review and tune the selected
-privacy-preserving mechanism for audit/compliance, and optimization purposes.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2401.12391v1">Approximation of Pufferfish Privacy for Gaussian Priors</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
-  <p><b>Published on:</b> 2024-01-22T22:43:38Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ni Ding</p>
-    <p><b>Summary:</b> This paper studies how to approximate pufferfish privacy when the adversary's
-prior belief of the published data is Gaussian distributed. Using Monge's
-optimal transport plan, we show that $(\epsilon, \delta)$-pufferfish privacy is
-attained if the additive Laplace noise is calibrated to the differences in mean
-and variance of the Gaussian distributions conditioned on every discriminative
-secret pair. A typical application is the private release of the summation (or
-average) query, for which sufficient conditions are derived for approximating
-$\epsilon$-statistical indistinguishability in individual's sensitive data. The
-result is then extended to arbitrary prior beliefs trained by Gaussian mixture
-models (GMMs): calibrating Laplace noise to a convex combination of differences
-in mean and variance between Gaussian components attains
-$(\epsilon,\delta)$-pufferfish privacy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2401.11983v1">Lightweight Protection for Privacy in Offloaded Speech Understanding</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Sound-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
-  <p><b>Published on:</b> 2024-01-22T14:36:01Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Dongqi Cai</p>
-    <p><b>Summary:</b> Speech is a common input method for mobile embedded devices, but cloud-based
-speech recognition systems pose privacy risks. Disentanglement-based encoders,
-designed to safeguard user privacy by filtering sensitive information from
-speech signals, unfortunately require substantial memory and computational
-resources, which limits their use in less powerful devices. To overcome this,
-we introduce a novel system, XXX, optimized for such devices. XXX is built on
-the insight that speech understanding primarily relies on understanding the
-entire utterance's long-term dependencies, while privacy concerns are often
-linked to short-term details. Therefore, XXX focuses on selectively masking
-these short-term elements, preserving the quality of long-term speech
-understanding. The core of XXX is an innovative differential mask generator,
-grounded in interpretable learning, which fine-tunes the masking process. We
-tested XXX on the STM32H7 microcontroller, assessing its performance in various
-potential attack scenarios. The results show that XXX maintains speech
-understanding accuracy and privacy at levels comparable to existing encoders,
-but with a significant improvement in efficiency, achieving up to 53.3$\times$
-faster processing and a 134.1$\times$ smaller memory footprint.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2401.11857v1">Adversarial speech for voice privacy protection from Personalized Speech
-  generation</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Sound-D91E36">
-  <p><b>Published on:</b> 2024-01-22T11:26:59Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shihao Chen, Liping Chen, Jie Zhang, KongAik Lee, Zhenhua Ling, Lirong Dai</p>
-    <p><b>Summary:</b> The rapid progress in personalized speech generation technology, including
-personalized text-to-speech (TTS) and voice conversion (VC), poses a challenge
-in distinguishing between generated and real speech for human listeners,
-resulting in an urgent demand in protecting speakers' voices from malicious
-misuse. In this regard, we propose a speaker protection method based on
-adversarial attacks. The proposed method perturbs speech signals by minimally
-altering the original speech while rendering downstream speech generation
-models unable to accurately generate the voice of the target speaker. For
-validation, we employ the open-source pre-trained YourTTS model for speech
-generation and protect the target speaker's speech in the white-box scenario.
-Automatic speaker verification (ASV) evaluations were carried out on the
-generated speech as the assessment of the voice protection capability. Our
-experimental results show that we successfully perturbed the speaker encoder of
-the YourTTS model using the gradient-based I-FGSM adversarial perturbation
-method. Furthermore, the adversarial perturbation is effective in preventing
-the YourTTS model from generating the speech of the target speaker. Audio
-samples can be found in
-https://voiceprivacy.github.io/Adeversarial-Speech-with-YourTTS.</p>
-  </details>
-</div>
-
-
 
 <h2>2024-02</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2402.16028v1">FedFDP: Federated Learning with Fairness and Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-02-25T08:35:21Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xinpeng Ling, Jie Fu, Zhili Chen, Kuncan Wang, Huifa Li, Tong Cheng, Guanying Xu, Qin Li</p>
+    <p><b>Summary:</b> Federated learning (FL) is a new machine learning paradigm to overcome the
+challenge of data silos and has garnered significant attention. However,
+through our observations, a globally effective trained model may performance
+disparities in different clients. This implies that the jointly trained models
+by clients may lead to unfair outcomes. On the other hand, relevant studies
+indicate that the transmission of gradients or models in federated learning can
+also give rise to privacy leakage issues, such as membership inference attacks.
+  To address the first issue mentioned above, we propose a federated algorithm
+with fairness, termed FedFair. Building upon FedFair, we introduce privacy
+protection to form the FedFDP algorithm to address the second issue mentioned
+above. In FedFDP, we devise a fairness-aware clipping strategy to achieve
+differential privacy while adjusting fairness. Additionally, for the extra
+uploaded loss values, we present an adaptive clipping approach to maximize
+utility. Furthermore, we theoretically prove that our algorithm converges and
+ensures differential privacy. Lastly, Extensive experimental results
+demonstrate that FedFair and FedFDP significantly outperforms state-of-the-art
+solutions in terms of model performance and fairness. The code is accessible at
+https://anonymous.4open.science/r/FedFDP-E754.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2402.15797v1">Gait-Based Privacy Protection for Smart Wearable Devices</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-02-24T12:05:42Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yu Su, Yongjiao Li, Zhu Cao</p>
+    <p><b>Summary:</b> Smart wearable devices (SWDs) collect and store sensitive daily information
+of many people. Its primary method of identification is still the password
+unlocking method. However, several studies have shown serious security flaws in
+that method, which makes the privacy and security concerns of SWDs particularly
+urgent. Gait identification is well suited for SWDs because its built-in
+sensors can provide data support for identification. However, existing gait
+identification methods have low accuracy and neglect to protect the privacy of
+gait features. In addition, the SWD can be used as an internet of things device
+for users to share data. But few studies have used gait feature-based
+encryption schemes to protect the privacy of message interactions between SWDs
+and other devices. In this paper, we propose a gait identification network, a
+bi-directional long short-term memory network with an attention mechanism
+(ABLSTM), to improve the identification accuracy and a stochastic orthogonal
+transformation (SOT) scheme to protect the extracted gait features from
+leakage. In the experiments, ABLSTM achieves an accuracy of 95.28%, reducing
+previous error rate by 19.3%. The SOT scheme is proved to be resistant to the
+chosen plaintext attack (CPA) and is 30% faster than previous methods. A
+biometric-based encryption scheme is proposed to enable secure message
+interactions using gait features as keys after the gait identification stage is
+passed, and offers better protection of the gait features compared to previous
+schemes.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2402.15780v1">Holding Secrets Accountable: Auditing Privacy-Preserving Machine
+  Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-02-24T10:04:22Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Hidde Lycklama, Alexander Viand, Nicolas Küchler, Christian Knabenhans, Anwar Hithnawi</p>
+    <p><b>Summary:</b> Recent advancements in privacy-preserving machine learning are paving the way
+to extend the benefits of ML to highly sensitive data that, until now, have
+been hard to utilize due to privacy concerns and regulatory constraints.
+Simultaneously, there is a growing emphasis on enhancing the transparency and
+accountability of machine learning, including the ability to audit ML
+deployments. While ML auditing and PPML have both been the subjects of
+intensive research, they have predominately been examined in isolation.
+However, their combination is becoming increasingly important. In this work, we
+introduce Arc, an MPC framework for auditing privacy-preserving machine
+learning. At the core of our framework is a new protocol for efficiently
+verifying MPC inputs against succinct commitments at scale. We evaluate the
+performance of our framework when instantiated with our consistency protocol
+and compare it to hashing-based and homomorphic-commitment-based approaches,
+demonstrating that it is up to 10^4x faster and up to 10^6x more concise.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2402.15738v1">Privacy-Preserving State Estimation in the Presence of Eavesdroppers: A
+  Survey</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36"> 
+  <p><b>Published on:</b> 2024-02-24T06:32:07Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xinhao Yan, Guanzhong Zhou, Daniel E. Quevedo, Carlos Murguia, Bo Chen, Hailong Huang</p>
+    <p><b>Summary:</b> Networked systems are increasingly the target of cyberattacks that exploit
+vulnerabilities within digital communications, embedded hardware, and software.
+Arguably, the simplest class of attacks -- and often the first type before
+launching destructive integrity attacks -- are eavesdropping attacks, which aim
+to infer information by collecting system data and exploiting it for malicious
+purposes. A key technology of networked systems is state estimation, which
+leverages sensing and actuation data and first-principles models to enable
+trajectory planning, real-time monitoring, and control. However, state
+estimation can also be exploited by eavesdroppers to identify models and
+reconstruct states with the aim of, e.g., launching integrity (stealthy)
+attacks and inferring sensitive information. It is therefore crucial to protect
+disclosed system data to avoid an accurate state estimation by eavesdroppers.
+This survey presents a comprehensive review of existing literature on
+privacy-preserving state estimation methods, while also identifying potential
+limitations and research gaps. Our primary focus revolves around three types of
+methods: cryptography, data perturbation, and transmission scheduling, with
+particular emphasis on Kalman-like filters. Within these categories, we delve
+into the concepts of homomorphic encryption and differential privacy, which
+have been extensively investigated in recent years in the context of
+privacy-preserving state estimation. Finally, we shed light on several
+technical and fundamental challenges surrounding current methods and propose
+potential directions for future research.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2402.15006v1">opp/ai: Optimistic Privacy-Preserving AI on Blockchain</a></h3>
