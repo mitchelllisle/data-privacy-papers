@@ -2081,5 +2081,157 @@
       "cs.SY",
       "eess.SY"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.17191v1",
+    "title" : "AI-Driven Anonymization: Protecting Personal Data Privacy While\n  Leveraging Machine Learning",
+    "summary" : "The development of artificial intelligence has significantly transformed\npeople's lives. However, it has also posed a significant threat to privacy and\nsecurity, with numerous instances of personal information being exposed online\nand reports of criminal attacks and theft. Consequently, the need to achieve\nintelligent protection of personal information through machine learning\nalgorithms has become a paramount concern. Artificial intelligence leverages\nadvanced algorithms and technologies to effectively encrypt and anonymize\npersonal data, enabling valuable data analysis and utilization while\nsafeguarding privacy. This paper focuses on personal data privacy protection\nand the promotion of anonymity as its core research objectives. It achieves\npersonal data privacy protection and detection through the use of machine\nlearning's differential privacy protection algorithm. The paper also addresses\nexisting challenges in machine learning related to privacy and personal data\nprotection, offers improvement suggestions, and analyzes factors impacting\ndatasets to enable timely personal data privacy detection and protection.",
+    "updated" : "2024-02-27T04:12:25Z",
+    "published" : "2024-02-27T04:12:25Z",
+    "authors" : [
+      {
+        "name" : "Le Yang"
+      },
+      {
+        "name" : "Miao Tian"
+      },
+      {
+        "name" : "Duan Xin"
+      },
+      {
+        "name" : "Qishuo Cheng"
+      },
+      {
+        "name" : "Jiajian Zheng"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.17130v1",
+    "title" : "Privacy-Preserving Map-Free Exploration for Confirming the Absence of a\n  Radioactive Source",
+    "summary" : "Performing an inspection task while maintaining the privacy of the inspected\nsite is a challenging balancing act. In this work, we are motivated by the\nfuture of nuclear arms control verification, which requires both a high level\nof privacy and guaranteed correctness. For scenarios with limitations on\nsensors and stored information due to the potentially secret nature of\nobservable features, we propose a robotic verification procedure that provides\nmap-free exploration to perform a source verification task without requiring,\nnor revealing, any task-irrelevant, site-specific information. We provide\ntheoretical guarantees on the privacy and correctness of our approach,\nvalidated by extensive simulated and hardware experiments.",
+    "updated" : "2024-02-27T01:49:28Z",
+    "published" : "2024-02-27T01:49:28Z",
+    "authors" : [
+      {
+        "name" : "Eric Lepowsky"
+      },
+      {
+        "name" : "David Snyder"
+      },
+      {
+        "name" : "Alexander Glaser"
+      },
+      {
+        "name" : "Anirudha Majumdar"
+      }
+    ],
+    "categories" : [
+      "cs.RO"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.16982v1",
+    "title" : "Synthesizing Tight Privacy and Accuracy Bounds via Weighted Model\n  Counting",
+    "summary" : "Programmatically generating tight differential privacy (DP) bounds is a hard\nproblem. Two core challenges are (1) finding expressive, compact, and efficient\nencodings of the distributions of DP algorithms, and (2) state space explosion\nstemming from the multiple quantifiers and relational properties of the DP\ndefinition.\n  We address the first challenge by developing a method for tight privacy and\naccuracy bound synthesis using weighted model counting on binary decision\ndiagrams, a state of the art technique from the artificial intelligence and\nautomated reasoning communities for exactly computing probability\ndistributions. We address the second challenge by developing a framework for\nleveraging inherent symmetries in DP algorithms. Our solution benefits from\nongoing research in probabilistic programming languages, allowing us to\nsuccinctly and expressively represent different DP algorithms with approachable\nlanguage syntax that can be used by non-experts.\n  We provide a detailed case study of our solution on the binary randomized\nresponse algorithm. We also evaluate an implementation of our solution using\nthe Dice probabilistic programming language for the randomized response and\ntruncated geometric above threshold algorithms. We compare to prior work on\nexact DP verification using Markov chain probabilistic model checking. Very few\nexisting works consider mechanized analysis of accuracy guarantees for DP\nalgorithms. We additionally provide a detailed analysis using our technique for\nfinding tight accuracy bounds for DP algorithms.",
+    "updated" : "2024-02-26T19:29:46Z",
+    "published" : "2024-02-26T19:29:46Z",
+    "authors" : [
+      {
+        "name" : "Lisa Oakley"
+      },
+      {
+        "name" : "Steven Holtzen"
+      },
+      {
+        "name" : "Alina Oprea"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.PL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.16515v1",
+    "title" : "LLM-based Privacy Data Augmentation Guided by Knowledge Distillation\n  with a Distribution Tutor for Medical Text Classification",
+    "summary" : "As sufficient data are not always publically accessible for model training,\nresearchers exploit limited data with advanced learning algorithms or expand\nthe dataset via data augmentation (DA). Conducting DA in private domain\nrequires private protection approaches (i.e. anonymization and perturbation),\nbut those methods cannot provide protection guarantees. Differential privacy\n(DP) learning methods theoretically bound the protection but are not skilled at\ngenerating pseudo text samples with large models. In this paper, we transfer\nDP-based pseudo sample generation task to DP-based generated samples\ndiscrimination task, where we propose a DP-based DA method with a LLM and a\nDP-based discriminator for text classification on private domains. We construct\na knowledge distillation model as the DP-based discriminator: teacher models,\naccessing private data, teaches students how to select private samples with\ncalibrated noise to achieve DP. To constrain the distribution of DA's\ngeneration, we propose a DP-based tutor that models the noised private\ndistribution and controls samples' generation with a low privacy cost. We\ntheoretically analyze our model's privacy protection and empirically verify our\nmodel.",
+    "updated" : "2024-02-26T11:52:55Z",
+    "published" : "2024-02-26T11:52:55Z",
+    "authors" : [
+      {
+        "name" : "Yiping Song"
+      },
+      {
+        "name" : "Juhua Zhang"
+      },
+      {
+        "name" : "Zhiliang Tian"
+      },
+      {
+        "name" : "Yuxin Yang"
+      },
+      {
+        "name" : "Minlie Huang"
+      },
+      {
+        "name" : "Dongsheng Li"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.16893v1",
+    "title" : "The Good and The Bad: Exploring Privacy Issues in Retrieval-Augmented\n  Generation (RAG)",
+    "summary" : "Retrieval-augmented generation (RAG) is a powerful technique to facilitate\nlanguage model with proprietary and private data, where data privacy is a\npivotal concern. Whereas extensive research has demonstrated the privacy risks\nof large language models (LLMs), the RAG technique could potentially reshape\nthe inherent behaviors of LLM generation, posing new privacy issues that are\ncurrently under-explored. In this work, we conduct extensive empirical studies\nwith novel attack methods, which demonstrate the vulnerability of RAG systems\non leaking the private retrieval database. Despite the new risk brought by RAG\non the retrieval data, we further reveal that RAG can mitigate the leakage of\nthe LLMs' training data. Overall, we provide new insights in this paper for\nprivacy protection of retrieval-augmented LLMs, which benefit both LLMs and RAG\nsystems builders. Our code is available at\nhttps://github.com/phycholosogy/RAG-privacy.",
+    "updated" : "2024-02-23T18:35:15Z",
+    "published" : "2024-02-23T18:35:15Z",
+    "authors" : [
+      {
+        "name" : "Shenglai Zeng"
+      },
+      {
+        "name" : "Jiankun Zhang"
+      },
+      {
+        "name" : "Pengfei He"
+      },
+      {
+        "name" : "Yue Xing"
+      },
+      {
+        "name" : "Yiding Liu"
+      },
+      {
+        "name" : "Han Xu"
+      },
+      {
+        "name" : "Jie Ren"
+      },
+      {
+        "name" : "Shuaiqiang Wang"
+      },
+      {
+        "name" : "Dawei Yin"
+      },
+      {
+        "name" : "Yi Chang"
+      },
+      {
+        "name" : "Jiliang Tang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
   }
 ]
