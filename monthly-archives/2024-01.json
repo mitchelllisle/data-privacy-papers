@@ -2458,5 +2458,35 @@
       "math.IT",
       "stat.AP"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2401.15906v4",
+    "title" : "Mean Estimation with User-Level Privacy for Spatio-Temporal IoT Datasets",
+    "summary" : "This paper considers the problem of the private release of sample means of\nspeed values from traffic datasets. Our key contribution is the development of\nuser-level differentially private algorithms that incorporate carefully chosen\nparameter values to ensure low estimation errors on real-world datasets, while\nensuring privacy. We test our algorithms on ITMS (Intelligent Traffic\nManagement System) data from an Indian city, where the speeds of different\nbuses are drawn in a potentially non-i.i.d. manner from an unknown\ndistribution, and where the number of speed samples contributed by different\nbuses is potentially different. We then apply our algorithms to large synthetic\ndatasets, generated based on the ITMS data. Here, we provide theoretical\njustification for the observed performance trends, and also provide\nrecommendations for the choices of algorithm subroutines that result in low\nestimation errors. Finally, we characterize the best performance of pseudo-user\ncreation-based algorithms on worst-case datasets via a minimax approach; this\nthen gives rise to a novel procedure for the creation of pseudo-users, which\noptimizes the worst-case total estimation error. The algorithms discussed in\nthe paper are readily applicable to general spatio-temporal IoT datasets for\nreleasing a differentially private mean of a desired value.",
+    "updated" : "2024-02-27T16:03:06Z",
+    "published" : "2024-01-29T06:21:29Z",
+    "authors" : [
+      {
+        "name" : "V. Arvind Rameshwar"
+      },
+      {
+        "name" : "Anshoo Tandon"
+      },
+      {
+        "name" : "Prajjwal Gupta"
+      },
+      {
+        "name" : "Novoneel Chakraborty"
+      },
+      {
+        "name" : "Abhay Sharma"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.IT",
+      "math.IT",
+      "stat.AP"
+    ]
   }
 ]
