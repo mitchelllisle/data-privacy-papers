@@ -346,7 +346,7 @@ computing.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2401.15906v3">Mean Estimation with User-Level Privacy for Spatio-Temporal IoT Datasets</a></h3>
+  <h3><a href="http://arxiv.org/abs/2401.15906v4">Mean Estimation with User-Level Privacy for Spatio-Temporal IoT Datasets</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36">  
   <p><b>Published on:</b> 2024-01-29T06:21:29Z</p>
   <details>
@@ -367,7 +367,9 @@ recommendations for the choices of algorithm subroutines that result in low
 estimation errors. Finally, we characterize the best performance of pseudo-user
 creation-based algorithms on worst-case datasets via a minimax approach; this
 then gives rise to a novel procedure for the creation of pseudo-users, which
-optimizes the worst-case total estimation error.</p>
+optimizes the worst-case total estimation error. The algorithms discussed in
+the paper are readily applicable to general spatio-temporal IoT datasets for
+releasing a differentially private mean of a desired value.</p>
   </details>
 </div>
 
@@ -686,151 +688,120 @@ both, time savings and privacy protection</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2401.13952v1">Randomized Response with Gradual Release of Privacy Budget</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-01-25T05:18:47Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mingen Pan</p>
-    <p><b>Summary:</b> An algorithm is developed to gradually relax the Differential Privacy (DP)
-guarantee of a randomized response. The output from each relaxation maintains
-the same probability distribution as a standard randomized response with the
-equivalent DP guarantee, ensuring identical utility as the standard approach.
-The entire relaxation process is proven to have the same DP guarantee as the
-most recent relaxed guarantee.
-  The DP relaxation algorithm is adaptable to any Local Differential Privacy
-(LDP) mechanisms relying on randomized response. It has been seamlessly
-integrated into RAPPOR, an LDP crowdsourcing string-collecting tool, to
-optimize the utility of estimating the frequency of collected data.
-Additionally, it facilitates the relaxation of the DP guarantee for mean
-estimation based on randomized response. Finally, numerical experiments have
-been conducted to validate the utility and DP guarantee of the algorithm.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2401.13848v1">A V2X-based Privacy Preserving Federated Measuring and Learning System</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">   
-  <p><b>Published on:</b> 2024-01-24T23:11:11Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Levente Alekszejenkó, Tadeusz Dobrowiecki</p>
-    <p><b>Summary:</b> Future autonomous vehicles (AVs) will use a variety of sensors that generate
-a vast amount of data. Naturally, this data not only serves self-driving
-algorithms; but can also assist other vehicles or the infrastructure in
-real-time decision-making. Consequently, vehicles shall exchange their
-measurement data over Vehicle-to-Everything (V2X) technologies. Moreover,
-predicting the state of the road network might be beneficial too. With such a
-prediction, we might mitigate road congestion, balance parking lot usage, or
-optimize the traffic flow. That would decrease transportation costs as well as
-reduce its environmental impact.
-  In this paper, we propose a federated measurement and learning system that
-provides real-time data to fellow vehicles over Vehicle-to-Vehicle (V2V)
-communication while also operating a federated learning (FL) scheme over the
-Vehicle-to-Network (V2N) link to create a predictive model of the
-transportation network. As we are yet to have real-world AV data, we model it
-with a non-IID (independent and identically distributed) dataset to evaluate
-the capabilities of the proposed system in terms of performance and privacy.
-Results indicate that the proposed FL scheme improves learning performance and
-prevents eavesdropping at the aggregator server side.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2401.13386v1">Privacy-Preserving Face Recognition in Hybrid Frequency-Color Domain</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2024-01-24T11:27:32Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Dong Han, Yong Li, Joachim Denzler</p>
-    <p><b>Summary:</b> Face recognition technology has been deployed in various real-life
-applications. The most sophisticated deep learning-based face recognition
-systems rely on training millions of face images through complex deep neural
-networks to achieve high accuracy. It is quite common for clients to upload
-face images to the service provider in order to access the model inference.
-However, the face image is a type of sensitive biometric attribute tied to the
-identity information of each user. Directly exposing the raw face image to the
-service provider poses a threat to the user's privacy. Current
-privacy-preserving approaches to face recognition focus on either concealing
-visual information on model input or protecting model output face embedding.
-The noticeable drop in recognition accuracy is a pitfall for most methods. This
-paper proposes a hybrid frequency-color fusion approach to reduce the input
-dimensionality of face recognition in the frequency domain. Moreover, sparse
-color information is also introduced to alleviate significant accuracy
-degradation after adding differential privacy noise. Besides, an
-identity-specific embedding mapping scheme is applied to protect original face
-embedding by enlarging the distance among identities. Lastly, secure multiparty
-computation is implemented for safely computing the embedding distance during
-model inference. The proposed method performs well on multiple widely used
-verification datasets. Moreover, it has around 2.6% to 4.2% higher accuracy
-than the state-of-the-art in the 1:N verification scenario.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2401.13327v1">Generating Synthetic Health Sensor Data for Privacy-Preserving Wearable
-  Stress Detection</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-01-24T09:44:57Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Lucas Lange, Nils Wenzlitschke, Erhard Rahm</p>
-    <p><b>Summary:</b> Smartwatch health sensor data is increasingly utilized in smart health
-applications and patient monitoring, including stress detection. However, such
-medical data often comprises sensitive personal information and is
-resource-intensive to acquire for research purposes. In response to this
-challenge, we introduce the privacy-aware synthetization of multi-sensor
-smartwatch health readings related to moments of stress. Our method involves
-the generation of synthetic sequence data through Generative Adversarial
-Networks (GANs), coupled with the implementation of Differential Privacy (DP)
-safeguards for protecting patient information during model training. To ensure
-the integrity of our synthetic data, we employ a range of quality assessments
-and monitor the plausibility between synthetic and original data. To test the
-usefulness, we create private machine learning models on a commonly used,
-albeit small, stress detection dataset, exploring strategies for enhancing the
-existing data foundation with our synthetic data. Through our GAN-based
-augmentation methods, we observe improvements in model performance, both in
-non-private (0.45% F1) and private (11.90-15.48% F1) training scenarios. We
-underline the potential of differentially private synthetic data in optimizing
-utility-privacy trade-offs, especially with limited availability of real
-training samples.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2401.12436v1">Wasserstein Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-01-23T02:08:20Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Chengyi Yang, Jiayin Qi, Aimin Zhou</p>
-    <p><b>Summary:</b> Differential privacy (DP) has achieved remarkable results in the field of
-privacy-preserving machine learning. However, existing DP frameworks do not
-satisfy all the conditions for becoming metrics, which prevents them from
-deriving better basic private properties and leads to exaggerated values on
-privacy budgets. We propose Wasserstein differential privacy (WDP), an
-alternative DP framework to measure the risk of privacy leakage, which
-satisfies the properties of symmetry and triangle inequality. We show and prove
-that WDP has 13 excellent properties, which can be theoretical supports for the
-better performance of WDP than other DP frameworks. In addition, we derive a
-general privacy accounting method called Wasserstein accountant, which enables
-WDP to be applied in stochastic gradient descent (SGD) scenarios containing
-sub-sampling. Experiments on basic mechanisms, compositions and deep learning
-show that the privacy budgets obtained by Wasserstein accountant are relatively
-stable and less influenced by order. Moreover, the overestimation on privacy
-budgets can be effectively alleviated. The code is available at
-https://github.com/Hifipsysta/WDP.</p>
-  </details>
-</div>
-
-
 
 <h2>2024-02</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2402.17191v1">AI-Driven Anonymization: Protecting Personal Data Privacy While
+  Leveraging Machine Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-02-27T04:12:25Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Le Yang, Miao Tian, Duan Xin, Qishuo Cheng, Jiajian Zheng</p>
+    <p><b>Summary:</b> The development of artificial intelligence has significantly transformed
+people's lives. However, it has also posed a significant threat to privacy and
+security, with numerous instances of personal information being exposed online
+and reports of criminal attacks and theft. Consequently, the need to achieve
+intelligent protection of personal information through machine learning
+algorithms has become a paramount concern. Artificial intelligence leverages
+advanced algorithms and technologies to effectively encrypt and anonymize
+personal data, enabling valuable data analysis and utilization while
+safeguarding privacy. This paper focuses on personal data privacy protection
+and the promotion of anonymity as its core research objectives. It achieves
+personal data privacy protection and detection through the use of machine
+learning's differential privacy protection algorithm. The paper also addresses
+existing challenges in machine learning related to privacy and personal data
+protection, offers improvement suggestions, and analyzes factors impacting
+datasets to enable timely personal data privacy detection and protection.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2402.17130v1">Privacy-Preserving Map-Free Exploration for Confirming the Absence of a
+  Radioactive Source</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Robotics-F9C80E">
+  <p><b>Published on:</b> 2024-02-27T01:49:28Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Eric Lepowsky, David Snyder, Alexander Glaser, Anirudha Majumdar</p>
+    <p><b>Summary:</b> Performing an inspection task while maintaining the privacy of the inspected
+site is a challenging balancing act. In this work, we are motivated by the
+future of nuclear arms control verification, which requires both a high level
+of privacy and guaranteed correctness. For scenarios with limitations on
+sensors and stored information due to the potentially secret nature of
+observable features, we propose a robotic verification procedure that provides
+map-free exploration to perform a source verification task without requiring,
+nor revealing, any task-irrelevant, site-specific information. We provide
+theoretical guarantees on the privacy and correctness of our approach,
+validated by extensive simulated and hardware experiments.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2402.16982v1">Synthesizing Tight Privacy and Accuracy Bounds via Weighted Model
+  Counting</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Programming Languages-D91E36">
+  <p><b>Published on:</b> 2024-02-26T19:29:46Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Lisa Oakley, Steven Holtzen, Alina Oprea</p>
+    <p><b>Summary:</b> Programmatically generating tight differential privacy (DP) bounds is a hard
+problem. Two core challenges are (1) finding expressive, compact, and efficient
+encodings of the distributions of DP algorithms, and (2) state space explosion
+stemming from the multiple quantifiers and relational properties of the DP
+definition.
+  We address the first challenge by developing a method for tight privacy and
+accuracy bound synthesis using weighted model counting on binary decision
+diagrams, a state of the art technique from the artificial intelligence and
+automated reasoning communities for exactly computing probability
+distributions. We address the second challenge by developing a framework for
+leveraging inherent symmetries in DP algorithms. Our solution benefits from
+ongoing research in probabilistic programming languages, allowing us to
+succinctly and expressively represent different DP algorithms with approachable
+language syntax that can be used by non-experts.
+  We provide a detailed case study of our solution on the binary randomized
+response algorithm. We also evaluate an implementation of our solution using
+the Dice probabilistic programming language for the randomized response and
+truncated geometric above threshold algorithms. We compare to prior work on
+exact DP verification using Markov chain probabilistic model checking. Very few
+existing works consider mechanized analysis of accuracy guarantees for DP
+algorithms. We additionally provide a detailed analysis using our technique for
+finding tight accuracy bounds for DP algorithms.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2402.16515v1">LLM-based Privacy Data Augmentation Guided by Knowledge Distillation
+  with a Distribution Tutor for Medical Text Classification</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-02-26T11:52:55Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yiping Song, Juhua Zhang, Zhiliang Tian, Yuxin Yang, Minlie Huang, Dongsheng Li</p>
+    <p><b>Summary:</b> As sufficient data are not always publically accessible for model training,
+researchers exploit limited data with advanced learning algorithms or expand
+the dataset via data augmentation (DA). Conducting DA in private domain
+requires private protection approaches (i.e. anonymization and perturbation),
+but those methods cannot provide protection guarantees. Differential privacy
+(DP) learning methods theoretically bound the protection but are not skilled at
+generating pseudo text samples with large models. In this paper, we transfer
+DP-based pseudo sample generation task to DP-based generated samples
+discrimination task, where we propose a DP-based DA method with a LLM and a
+DP-based discriminator for text classification on private domains. We construct
+a knowledge distillation model as the DP-based discriminator: teacher models,
+accessing private data, teaches students how to select private samples with
+calibrated noise to achieve DP. To constrain the distribution of DA's
+generation, we propose a DP-based tutor that models the noised private
+distribution and controls samples' generation with a low privacy cost. We
+theoretically analyze our model's privacy protection and empirically verify our
+model.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2402.16028v1">FedFDP: Federated Learning with Fairness and Differential Privacy</a></h3>
@@ -949,6 +920,31 @@ have been extensively investigated in recent years in the context of
 privacy-preserving state estimation. Finally, we shed light on several
 technical and fundamental challenges surrounding current methods and propose
 potential directions for future research.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2402.16893v1">The Good and The Bad: Exploring Privacy Issues in Retrieval-Augmented
+  Generation (RAG)</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-02-23T18:35:15Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shenglai Zeng, Jiankun Zhang, Pengfei He, Yue Xing, Yiding Liu, Han Xu, Jie Ren, Shuaiqiang Wang, Dawei Yin, Yi Chang, Jiliang Tang</p>
+    <p><b>Summary:</b> Retrieval-augmented generation (RAG) is a powerful technique to facilitate
+language model with proprietary and private data, where data privacy is a
+pivotal concern. Whereas extensive research has demonstrated the privacy risks
+of large language models (LLMs), the RAG technique could potentially reshape
+the inherent behaviors of LLM generation, posing new privacy issues that are
+currently under-explored. In this work, we conduct extensive empirical studies
+with novel attack methods, which demonstrate the vulnerability of RAG systems
+on leaking the private retrieval database. Despite the new risk brought by RAG
+on the retrieval data, we further reveal that RAG can mitigate the leakage of
+the LLMs' training data. Overall, we provide new insights in this paper for
+privacy protection of retrieval-augmented LLMs, which benefit both LLMs and RAG
+systems builders. Our code is available at
+https://github.com/phycholosogy/RAG-privacy.</p>
   </details>
 </div>
 
