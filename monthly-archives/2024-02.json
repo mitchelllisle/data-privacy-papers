@@ -2233,5 +2233,65 @@
       "cs.CR",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.18321v1",
+    "title" : "Privacy Policies and Consent Management Platforms: Growth and Users'\n  Interactions over Time",
+    "summary" : "In response to growing concerns about user privacy, legislators have\nintroduced new regulations and laws such as the General Data Protection\nRegulation (GDPR) and the California Consumer Privacy Act (CCPA) that force\nwebsites to obtain user consent before activating personal data collection,\nfundamental to providing targeted advertising. The cornerstone of this\nconsent-seeking process involves the use of Privacy Banners, the technical\nmechanism to collect users' approval for data collection practices. Consent\nmanagement platforms (CMPs) have emerged as practical solutions to make it\neasier for website administrators to properly manage consent, allowing them to\noutsource the complexities of managing user consent and activating advertising\nfeatures.\n  This paper presents a detailed and longitudinal analysis of the evolution of\nCMPs spanning nine years. We take a twofold perspective: Firstly, thanks to the\nHTTP Archive dataset, we provide insights into the growth, market share, and\ngeographical spread of CMPs. Noteworthy observations include the substantial\nimpact of GDPR on the proliferation of CMPs in Europe. Secondly, we analyse\nmillions of user interactions with a medium-sized CMP present in thousands of\nwebsites worldwide. We observe how even small changes in the design of Privacy\nBanners have a critical impact on the user's giving or denying their consent to\ndata collection. For instance, over 60% of users do not consent when offered a\nsimple \"one-click reject-all\" option. Conversely, when opting out requires more\nthan one click, about 90% of users prefer to simply give their consent. The\nmain objective is in fact to eliminate the annoying privacy banner rather the\nmake an informed decision. Curiously, we observe iOS users exhibit a higher\ntendency to accept cookies compared to Android users, possibly indicating\ngreater confidence in the privacy offered by Apple devices.",
+    "updated" : "2024-02-28T13:36:27Z",
+    "published" : "2024-02-28T13:36:27Z",
+    "authors" : [
+      {
+        "name" : "Nikhil Jha"
+      },
+      {
+        "name" : "Martino Trevisan"
+      },
+      {
+        "name" : "Marco Mellia"
+      },
+      {
+        "name" : "Daniel Fernandez"
+      },
+      {
+        "name" : "Rodrigo Irarrazaval"
+      }
+    ],
+    "categories" : [
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.17838v1",
+    "title" : "Personalizing Smart Home Privacy Protection With Individuals' Regulatory\n  Focus: Would You Preserve or Enhance Your Information Privacy?",
+    "summary" : "In this study, we explore the effectiveness of persuasive messages endorsing\nthe adoption of a privacy protection technology (IoT Inspector) tailored to\nindividuals' regulatory focus (promotion or prevention). We explore if and how\nregulatory fit (i.e., tuning the goal-pursuit mechanism to individuals'\ninternal regulatory focus) can increase persuasion and adoption. We conducted a\nbetween-subject experiment (N = 236) presenting participants with the IoT\nInspector in gain (\"Privacy Enhancing Technology\" -- PET) or loss (\"Privacy\nPreserving Technology\" -- PPT) framing. Results show that the effect of\nregulatory fit on adoption is mediated by trust and privacy calculus processes:\nprevention-focused users who read the PPT message trust the tool more.\nFurthermore, privacy calculus favors using the tool when promotion-focused\nindividuals read the PET message. We discuss the contribution of understanding\nthe cognitive mechanisms behind regulatory fit in privacy decision-making to\nsupport privacy protection.",
+    "updated" : "2024-02-27T19:03:07Z",
+    "published" : "2024-02-27T19:03:07Z",
+    "authors" : [
+      {
+        "name" : "Reza Ghaiumy Anaraky"
+      },
+      {
+        "name" : "Yao Li"
+      },
+      {
+        "name" : "Hichang Cho"
+      },
+      {
+        "name" : "Danny Yuxing Huang"
+      },
+      {
+        "name" : "Kaileigh A. Byrne"
+      },
+      {
+        "name" : "Bart Knijnenburg"
+      },
+      {
+        "name" : "Oded Nov"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
   }
 ]
