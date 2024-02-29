@@ -642,54 +642,72 @@ are also considered in this study.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2401.14549v1">Privacy-preserving Quantile Treatment Effect Estimation for Randomized
-  Controlled Trials</a></h3>
-  
-  <p><b>Published on:</b> 2024-01-25T22:35:33Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Leon Yao, Paul Yiming Li, Jiannan Lu</p>
-    <p><b>Summary:</b> In accordance with the principle of "data minimization", many internet
-companies are opting to record less data. However, this is often at odds with
-A/B testing efficacy. For experiments with units with multiple observations,
-one popular data minimizing technique is to aggregate data for each unit.
-However, exact quantile estimation requires the full observation-level data. In
-this paper, we develop a method for approximate Quantile Treatment Effect (QTE)
-analysis using histogram aggregation. In addition, we can also achieve formal
-privacy guarantees using differential privacy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2401.14436v1">Trust model of privacy-concerned, emotionally-aware agents in a
-  cooperative logistics problem</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Multiagent Systems-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2024-01-25T13:31:43Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> J. Carbo, J. M. Molina</p>
-    <p><b>Summary:</b> In this paper we propose a trust model to be used into a hypothetical mixed
-environment where humans and unmanned vehicles cooperate. We address the
-inclusion of emotions inside a trust model in a coherent way to the practical
-approaches to the current psychology theories. The most innovative contribution
-is how privacy issues play a role in the cooperation decisions of the emotional
-trust model. Both, emotions and trust have been cognitively modeled and managed
-with the Beliefs, Desires and Intentions (BDI) paradigm into autonomous agents
-implemented in GAML (the programming language of GAMA agent platform) that
-communicates using the IEEE FIPA standard. The trusting behaviour of these
-emotional agents is tested in a cooperative logistics problem where: agents
-have to move objects to destinations and some of the objects and places have
-privacy issues. The execution of simulations of this logistic problem shows how
-emotions and trust contribute to improve the performance of agents in terms of
-both, time savings and privacy protection</p>
-  </details>
-</div>
-
-
 
 <h2>2024-02</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2402.18321v1">Privacy Policies and Consent Management Platforms: Growth and Users'
+  Interactions over Time</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2024-02-28T13:36:27Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Nikhil Jha, Martino Trevisan, Marco Mellia, Daniel Fernandez, Rodrigo Irarrazaval</p>
+    <p><b>Summary:</b> In response to growing concerns about user privacy, legislators have
+introduced new regulations and laws such as the General Data Protection
+Regulation (GDPR) and the California Consumer Privacy Act (CCPA) that force
+websites to obtain user consent before activating personal data collection,
+fundamental to providing targeted advertising. The cornerstone of this
+consent-seeking process involves the use of Privacy Banners, the technical
+mechanism to collect users' approval for data collection practices. Consent
+management platforms (CMPs) have emerged as practical solutions to make it
+easier for website administrators to properly manage consent, allowing them to
+outsource the complexities of managing user consent and activating advertising
+features.
+  This paper presents a detailed and longitudinal analysis of the evolution of
+CMPs spanning nine years. We take a twofold perspective: Firstly, thanks to the
+HTTP Archive dataset, we provide insights into the growth, market share, and
+geographical spread of CMPs. Noteworthy observations include the substantial
+impact of GDPR on the proliferation of CMPs in Europe. Secondly, we analyse
+millions of user interactions with a medium-sized CMP present in thousands of
+websites worldwide. We observe how even small changes in the design of Privacy
+Banners have a critical impact on the user's giving or denying their consent to
+data collection. For instance, over 60% of users do not consent when offered a
+simple "one-click reject-all" option. Conversely, when opting out requires more
+than one click, about 90% of users prefer to simply give their consent. The
+main objective is in fact to eliminate the annoying privacy banner rather the
+make an informed decision. Curiously, we observe iOS users exhibit a higher
+tendency to accept cookies compared to Android users, possibly indicating
+greater confidence in the privacy offered by Apple devices.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2402.17838v1">Personalizing Smart Home Privacy Protection With Individuals' Regulatory
+  Focus: Would You Preserve or Enhance Your Information Privacy?</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2024-02-27T19:03:07Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Reza Ghaiumy Anaraky, Yao Li, Hichang Cho, Danny Yuxing Huang, Kaileigh A. Byrne, Bart Knijnenburg, Oded Nov</p>
+    <p><b>Summary:</b> In this study, we explore the effectiveness of persuasive messages endorsing
+the adoption of a privacy protection technology (IoT Inspector) tailored to
+individuals' regulatory focus (promotion or prevention). We explore if and how
+regulatory fit (i.e., tuning the goal-pursuit mechanism to individuals'
+internal regulatory focus) can increase persuasion and adoption. We conducted a
+between-subject experiment (N = 236) presenting participants with the IoT
+Inspector in gain ("Privacy Enhancing Technology" -- PET) or loss ("Privacy
+Preserving Technology" -- PPT) framing. Results show that the effect of
+regulatory fit on adoption is mediated by trust and privacy calculus processes:
+prevention-focused users who read the PPT message trust the tool more.
+Furthermore, privacy calculus favors using the tool when promotion-focused
+individuals read the PET message. We discuss the contribution of understanding
+the cognitive mechanisms behind regulatory fit in privacy decision-making to
+support privacy protection.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2402.17191v1">AI-Driven Anonymization: Protecting Personal Data Privacy While
