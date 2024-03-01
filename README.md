@@ -464,189 +464,159 @@ subject of contention in the current literature.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2401.15369v1">Privacy-Preserving Cross-Domain Sequential Recommendation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB">
-  <p><b>Published on:</b> 2024-01-27T10:14:21Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zhaohao Lin, Weike Pan, Zhong Ming</p>
-    <p><b>Summary:</b> Cross-domain sequential recommendation is an important development direction
-of recommender systems. It combines the characteristics of sequential
-recommender systems and cross-domain recommender systems, which can capture the
-dynamic preferences of users and alleviate the problem of cold-start users.
-However, in recent years, people pay more and more attention to their privacy.
-They do not want other people to know what they just bought, what videos they
-just watched, and where they just came from. How to protect the users' privacy
-has become an urgent problem to be solved. In this paper, we propose a novel
-privacy-preserving cross-domain sequential recommender system (PriCDSR), which
-can provide users with recommendation services while preserving their privacy
-at the same time. Specifically, we define a new differential privacy on the
-data, taking into account both the ID information and the order information.
-Then, we design a random mechanism that satisfies this differential privacy and
-provide its theoretical proof. Our PriCDSR is a non-invasive method that can
-adopt any cross-domain sequential recommender system as a base model without
-any modification to it. To the best of our knowledge, our PriCDSR is the first
-work to investigate privacy issues in cross-domain sequential recommender
-systems. We conduct experiments on three domains, and the results demonstrate
-that our PriCDSR, despite introducing noise, still outperforms recommender
-systems that only use data from a single domain.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2401.15221v1">Designing and Testing a Mobile Application for Collecting WhatsApp Chat
-  Data While Preserving Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2024-01-26T22:18:28Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Brennan Schaffner, Archie Brohn, Jason Chee, K. J. Feng, Marshini Chetty</p>
-    <p><b>Summary:</b> It is common practice for researchers to join public WhatsApp chats and
-scrape their contents for analysis. However, research shows collecting data
-this way contradicts user expectations and preferences, even if the data is
-effectively public. To overcome these issues, we outline design considerations
-for collecting WhatsApp chat data with improved user privacy by heightening
-user control and oversight of data collection and taking care to minimize the
-data researchers collect and process off a user's device. We refer to these
-design principles as User-Centered Data Sharing (UCDS). To evaluate our UCDS
-principles, we implemented a mobile application representing one possible
-instance of these improved data collection techniques and evaluated the
-viability of using the app to collect WhatsApp chat data. Second, we surveyed
-WhatsApp users to gather user perceptions on common existing WhatsApp data
-collection methods as well as UCDS methods. Our results show that we were able
-to glean similar informative insights into WhatsApp chats using UCDS principles
-in our prototype app to common, less privacy-preserving methods. Our survey
-showed that methods following the UCDS principles are preferred by users
-because they offered users more control over the data collection process.
-Future user studies could further expand upon UCDS principles to overcome
-complications of researcher-to-group communication in research on WhatsApp
-chats and evaluate these principles in other data sharing contexts.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2401.14884v1">P3LS: Partial Least Squares under Privacy Preservation</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-01-26T14:08:43Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Du Nguyen Duy, Ramin Nikzad-Langerodi</p>
-    <p><b>Summary:</b> Modern manufacturing value chains require intelligent orchestration of
-processes across company borders in order to maximize profits while fostering
-social and environmental sustainability. However, the implementation of
-integrated, systems-level approaches for data-informed decision-making along
-value chains is currently hampered by privacy concerns associated with
-cross-organizational data exchange and integration. We here propose
-Privacy-Preserving Partial Least Squares (P3LS) regression, a novel federated
-learning technique that enables cross-organizational data integration and
-process modeling with privacy guarantees. P3LS involves a singular value
-decomposition (SVD) based PLS algorithm and employs removable, random masks
-generated by a trusted authority in order to protect the privacy of the data
-contributed by each data holder. We demonstrate the capability of P3LS to
-vertically integrate process data along a hypothetical value chain consisting
-of three parties and to improve the prediction performance on several
-process-related key performance indicators. Furthermore, we show the numerical
-equivalence of P3LS and PLS model components on simulated data and provide a
-thorough privacy analysis of the former. Moreover, we propose a mechanism for
-determining the relevance of the contributed data to the problem being
-addressed, thus creating a basis for quantifying the contribution of
-participants.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2401.14840v1">GuardML: Efficient Privacy-Preserving Machine Learning Services Through
-  Hybrid Homomorphic Encryption</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-01-26T13:12:52Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Eugene Frimpong, Khoa Nguyen, Mindaugas Budzys, Tanveer Khan, Antonis Michalas</p>
-    <p><b>Summary:</b> Machine Learning (ML) has emerged as one of data science's most
-transformative and influential domains. However, the widespread adoption of ML
-introduces privacy-related concerns owing to the increasing number of malicious
-attacks targeting ML models. To address these concerns, Privacy-Preserving
-Machine Learning (PPML) methods have been introduced to safeguard the privacy
-and security of ML models. One such approach is the use of Homomorphic
-Encryption (HE). However, the significant drawbacks and inefficiencies of
-traditional HE render it impractical for highly scalable scenarios.
-Fortunately, a modern cryptographic scheme, Hybrid Homomorphic Encryption
-(HHE), has recently emerged, combining the strengths of symmetric cryptography
-and HE to surmount these challenges. Our work seeks to introduce HHE to ML by
-designing a PPML scheme tailored for end devices. We leverage HHE as the
-fundamental building block to enable secure learning of classification outcomes
-over encrypted data, all while preserving the privacy of the input data and ML
-model. We demonstrate the real-world applicability of our construction by
-developing and evaluating an HHE-based PPML application for classifying heart
-disease based on sensitive ECG data. Notably, our evaluations revealed a slight
-reduction in accuracy compared to inference on plaintext data. Additionally,
-both the analyst and end devices experience minimal communication and
-computation costs, underscoring the practical viability of our approach. The
-successful integration of HHE into PPML provides a glimpse into a more secure
-and privacy-conscious future for machine learning on relatively constrained end
-devices.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2401.14792v1">Deep Variational Privacy Funnel: General Modeling with Applications in
-  Face Recognition</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
-  <p><b>Published on:</b> 2024-01-26T11:32:53Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Behrooz Razeghi, Parsa Rahimi, Sébastien Marcel</p>
-    <p><b>Summary:</b> In this study, we harness the information-theoretic Privacy Funnel (PF) model
-to develop a method for privacy-preserving representation learning using an
-end-to-end training framework. We rigorously address the trade-off between
-obfuscation and utility. Both are quantified through the logarithmic loss, a
-measure also recognized as self-information loss. This exploration deepens the
-interplay between information-theoretic privacy and representation learning,
-offering substantive insights into data protection mechanisms for both
-discriminative and generative models. Importantly, we apply our model to
-state-of-the-art face recognition systems. The model demonstrates adaptability
-across diverse inputs, from raw facial images to both derived or refined
-embeddings, and is competent in tasks such as classification, reconstruction,
-and generation.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2401.17319v1">Decentralized Federated Learning: A Survey on Security and Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
-  <p><b>Published on:</b> 2024-01-25T23:35:47Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ehsan Hallaji, Roozbeh Razavi-Far, Mehrdad Saif, Boyu Wang, Qiang Yang</p>
-    <p><b>Summary:</b> Federated learning has been rapidly evolving and gaining popularity in recent
-years due to its privacy-preserving features, among other advantages.
-Nevertheless, the exchange of model updates and gradients in this architecture
-provides new attack surfaces for malicious users of the network which may
-jeopardize the model performance and user and data privacy. For this reason,
-one of the main motivations for decentralized federated learning is to
-eliminate server-related threats by removing the server from the network and
-compensating for it through technologies such as blockchain. However, this
-advantage comes at the cost of challenging the system with new privacy threats.
-Thus, performing a thorough security analysis in this new paradigm is
-necessary. This survey studies possible variations of threats and adversaries
-in decentralized federated learning and overviews the potential defense
-mechanisms. Trustability and verifiability of decentralized federated learning
-are also considered in this study.</p>
-  </details>
-</div>
-
-
 
 <h2>2024-02</h2>
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.18321v1">Privacy Policies and Consent Management Platforms: Growth and Users'
+  <h3><a href="http://arxiv.org/abs/2402.19105v1">CollaFuse: Navigating Limited Resources and Privacy in Collaborative
+  Generative AI</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-02-29T12:36:10Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Domenique Zipperling, Simeon Allmendinger, Lukas Struppek, Niklas Kühl</p>
+    <p><b>Summary:</b> In the landscape of generative artificial intelligence, diffusion-based
+models present challenges for socio-technical systems in data requirements and
+privacy. Traditional approaches like federated learning distribute the learning
+process but strain individual clients, especially with constrained resources
+(e.g., edge devices). In response to these challenges, we introduce CollaFuse,
+a novel framework inspired by split learning. Tailored for efficient and
+collaborative use of denoising diffusion probabilistic models, CollaFuse
+enables shared server training and inference, alleviating client computational
+burdens. This is achieved by retaining data and computationally inexpensive GPU
+processes locally at each client while outsourcing the computationally
+expensive processes to the shared server. Demonstrated in a healthcare context,
+CollaFuse enhances privacy by highly reducing the need for sensitive
+information sharing. These capabilities hold the potential to impact various
+application areas, such as the design of edge computing solutions, healthcare
+research, or autonomous driving. In essence, our work advances distributed
+machine learning, shaping the future of collaborative GenAI networks.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2402.18973v1">Privacy Management and Interface Design for a Smart House</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
+  <p><b>Published on:</b> 2024-02-29T09:26:41Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ana-Maria Comeaga, Iuliana Marin</p>
+    <p><b>Summary:</b> In today's life, more and more people tend to opt for a smart house. In this
+way, the idea of including technology has become popular worldwide. Despite
+this concept's many benefits, managing security remains an essential problem
+due to the shared activities. The Internet of Things system behind a smart
+house is based on several sensors to measure temperature, humidity, air
+quality, and movement. Because of being supervised every day through sensors
+and controlling their house only with a simple click, many people can be afraid
+of this new approach in terms of their privacy, and this fact can constrain
+them from following their habits. The security aspects should be constantly
+analyzed to keep the data's confidentiality and make people feel safe in their
+own houses. In this context, the current paper puts light on an alternative
+design of a platform in which the safety of homeowners is the primary purpose,
+and they maintain complete control over the data generated by smart devices.
+The current research highlights the role of security and interface design in
+controlling a smart house. The study underscores the importance of providing an
+interface that can be used easily by any person to manage data and live
+activities in a modern residence in an era dominated by continuously developing
+technology.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2402.18864v1">Privacy-Preserving Autoencoder for Collaborative Object Detection</a></h3>
+  
+  <p><b>Published on:</b> 2024-02-29T05:27:03Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Bardia Azizian, Ivan Bajic</p>
+    <p><b>Summary:</b> Privacy is a crucial concern in collaborative machine vision where a part of
+a Deep Neural Network (DNN) model runs on the edge, and the rest is executed on
+the cloud. In such applications, the machine vision model does not need the
+exact visual content to perform its task. Taking advantage of this potential,
+private information could be removed from the data insofar as it does not
+significantly impair the accuracy of the machine vision system. In this paper,
+we present an autoencoder-style network integrated within an object detection
+pipeline, which generates a latent representation of the input image that
+preserves task-relevant information while removing private information. Our
+approach employs an adversarial training strategy that not only removes private
+information from the bottleneck of the autoencoder but also promotes improved
+compression efficiency for feature channels coded by conventional codecs like
+VVC-Intra. We assess the proposed system using a realistic evaluation framework
+for privacy, directly measuring face and license plate recognition accuracy.
+Experimental results show that our proposed method is able to reduce the
+bitrate significantly at the same object detection accuracy compared to coding
+the input images directly, while keeping the face and license plate recognition
+accuracy on the images recovered from the bottleneck features low, implying
+strong privacy protection.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2402.18786v1">OpticalDR: A Deep Optical Imaging Model for Privacy-Protective
+  Depression Recognition</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2024-02-29T01:20:29Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yuchen Pan, Junjun Jiang, Kui Jiang, Zhihao Wu, Keyuan Yu, Xianming Liu</p>
+    <p><b>Summary:</b> Depression Recognition (DR) poses a considerable challenge, especially in the
+context of the growing concerns surrounding privacy. Traditional automatic
+diagnosis of DR technology necessitates the use of facial images, undoubtedly
+expose the patient identity features and poses privacy risks. In order to
+mitigate the potential risks associated with the inappropriate disclosure of
+patient facial images, we design a new imaging system to erase the identity
+information of captured facial images while retain disease-relevant features.
+It is irreversible for identity information recovery while preserving essential
+disease-related characteristics necessary for accurate DR. More specifically,
+we try to record a de-identified facial image (erasing the identifiable
+features as much as possible) by a learnable lens, which is optimized in
+conjunction with the following DR task as well as a range of face analysis
+related auxiliary tasks in an end-to-end manner. These aforementioned
+strategies form our final Optical deep Depression Recognition network
+(OpticalDR). Experiments on CelebA, AVEC 2013, and AVEC 2014 datasets
+demonstrate that our OpticalDR has achieved state-of-the-art privacy protection
+performance with an average AUC of 0.51 on popular facial recognition models,
+and competitive results for DR with MAE/RMSE of 7.53/8.48 on AVEC 2013 and
+7.89/8.82 on AVEC 2014, respectively.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2402.18726v1">Unveiling Privacy, Memorization, and Input Curvature Links</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-02-28T22:02:10Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Deepak Ravikumar, Efstathia Soufleri, Abolfazl Hashemi, Kaushik Roy</p>
+    <p><b>Summary:</b> Deep Neural Nets (DNNs) have become a pervasive tool for solving many
+emerging problems. However, they tend to overfit to and memorize the training
+set. Memorization is of keen interest since it is closely related to several
+concepts such as generalization, noisy learning, and privacy. To study
+memorization, Feldman (2019) proposed a formal score, however its computational
+requirements limit its practical use. Recent research has shown empirical
+evidence linking input loss curvature (measured by the trace of the loss
+Hessian w.r.t inputs) and memorization. It was shown to be ~3 orders of
+magnitude more efficient than calculating the memorization score. However,
+there is a lack of theoretical understanding linking memorization with input
+loss curvature. In this paper, we not only investigate this connection but also
+extend our analysis to establish theoretical links between differential
+privacy, memorization, and input loss curvature. First, we derive an upper
+bound on memorization characterized by both differential privacy and input loss
+curvature. Second, we present a novel insight showing that input loss curvature
+is upper-bounded by the differential privacy parameter. Our theoretical
+findings are further empirically validated using deep models on CIFAR and
+ImageNet datasets, showing a strong correlation between our theoretical
+predictions and results observed in practice.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2402.18321v2">Privacy Policies and Consent Management Platforms: Growth and Users'
   Interactions over Time</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
   <p><b>Published on:</b> 2024-02-28T13:36:27Z</p>
@@ -679,6 +649,38 @@ main objective is in fact to eliminate the annoying privacy banner rather the
 make an informed decision. Curiously, we observe iOS users exhibit a higher
 tendency to accept cookies compared to Android users, possibly indicating
 greater confidence in the privacy offered by Apple devices.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2402.18607v1">Exploring Privacy and Fairness Risks in Sharing Diffusion Models: An
+  Adversarial Perspective</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-02-28T12:21:12Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xinjian Luo, Yangfan Jiang, Fei Wei, Yuncheng Wu, Xiaokui Xiao, Beng Chin Ooi</p>
+    <p><b>Summary:</b> Diffusion models have recently gained significant attention in both academia
+and industry due to their impressive generative performance in terms of both
+sampling quality and distribution coverage. Accordingly, proposals are made for
+sharing pre-trained diffusion models across different organizations, as a way
+of improving data utilization while enhancing privacy protection by avoiding
+sharing private data directly. However, the potential risks associated with
+such an approach have not been comprehensively examined.
+  In this paper, we take an adversarial perspective to investigate the
+potential privacy and fairness risks associated with the sharing of diffusion
+models. Specifically, we investigate the circumstances in which one party (the
+sharer) trains a diffusion model using private data and provides another party
+(the receiver) black-box access to the pre-trained model for downstream tasks.
+We demonstrate that the sharer can execute fairness poisoning attacks to
+undermine the receiver's downstream models by manipulating the training data
+distribution of the diffusion model. Meanwhile, the receiver can perform
+property inference attacks to reveal the distribution of sensitive features in
+the sharer's dataset. Our experiments conducted on real-world datasets
+demonstrate remarkable attack performance on different types of diffusion
+models, which highlights the critical importance of robust data auditing and
+privacy protection protocols in pertinent applications.</p>
   </details>
 </div>
 
@@ -759,7 +761,7 @@ validated by extensive simulated and hardware experiments.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.16982v1">Synthesizing Tight Privacy and Accuracy Bounds via Weighted Model
+  <h3><a href="http://arxiv.org/abs/2402.16982v2">Synthesizing Tight Privacy and Accuracy Bounds via Weighted Model
   Counting</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Programming Languages-D91E36">
   <p><b>Published on:</b> 2024-02-26T19:29:46Z</p>
