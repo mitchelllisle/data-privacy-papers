@@ -947,7 +947,7 @@ potential directions for future research.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2402.16893v1">The Good and The Bad: Exploring Privacy Issues in Retrieval-Augmented
   Generation (RAG)</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
   <p><b>Published on:</b> 2024-02-23T18:35:15Z</p>
   <details>
     <summary>More Details</summary>
