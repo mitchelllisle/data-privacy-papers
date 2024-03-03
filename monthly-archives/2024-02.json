@@ -2492,5 +2492,52 @@
       "cs.CR",
       "cs.PL"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.16893v1",
+    "title" : "The Good and The Bad: Exploring Privacy Issues in Retrieval-Augmented\n  Generation (RAG)",
+    "summary" : "Retrieval-augmented generation (RAG) is a powerful technique to facilitate\nlanguage model with proprietary and private data, where data privacy is a\npivotal concern. Whereas extensive research has demonstrated the privacy risks\nof large language models (LLMs), the RAG technique could potentially reshape\nthe inherent behaviors of LLM generation, posing new privacy issues that are\ncurrently under-explored. In this work, we conduct extensive empirical studies\nwith novel attack methods, which demonstrate the vulnerability of RAG systems\non leaking the private retrieval database. Despite the new risk brought by RAG\non the retrieval data, we further reveal that RAG can mitigate the leakage of\nthe LLMs' training data. Overall, we provide new insights in this paper for\nprivacy protection of retrieval-augmented LLMs, which benefit both LLMs and RAG\nsystems builders. Our code is available at\nhttps://github.com/phycholosogy/RAG-privacy.",
+    "updated" : "2024-02-23T18:35:15Z",
+    "published" : "2024-02-23T18:35:15Z",
+    "authors" : [
+      {
+        "name" : "Shenglai Zeng"
+      },
+      {
+        "name" : "Jiankun Zhang"
+      },
+      {
+        "name" : "Pengfei He"
+      },
+      {
+        "name" : "Yue Xing"
+      },
+      {
+        "name" : "Yiding Liu"
+      },
+      {
+        "name" : "Han Xu"
+      },
+      {
+        "name" : "Jie Ren"
+      },
+      {
+        "name" : "Shuaiqiang Wang"
+      },
+      {
+        "name" : "Dawei Yin"
+      },
+      {
+        "name" : "Yi Chang"
+      },
+      {
+        "name" : "Jiliang Tang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.CL"
+    ]
   }
 ]
