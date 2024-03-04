@@ -2539,5 +2539,30 @@
       "cs.AI",
       "cs.CL"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.08223v3",
+    "title" : "The Limits of Price Discrimination Under Privacy Constraints",
+    "summary" : "We consider a producer's problem of selling a product to a continuum of\nprivacy-conscious consumers, where the producer can implement third-degree\nprice discrimination, offering different prices to different market segments.\nIn the absence of privacy constraints, Bergemann, Brooks, and Morris [2015]\ncharacterize the set of all possible consumer-producer utilities, showing that\nit is a triangle. We consider a privacy mechanism that provides a degree of\nprotection by probabilistically masking each market segment, and we establish\nthat the resultant set of all consumer-producer utilities forms a convex\npolygon, characterized explicitly as a linear mapping of a certain\nhigh-dimensional convex polytope into $\\mathbb{R}^2$. This characterization\nenables us to investigate the impact of the privacy mechanism on both producer\nand consumer utilities. In particular, we establish that the privacy constraint\nalways hurts the producer by reducing both the maximum and minimum utility\nachievable. From the consumer's perspective, although the privacy mechanism\nensures an increase in the minimum utility compared to the non-private\nscenario, interestingly, it may reduce the maximum utility. Finally, we\ndemonstrate that increasing the privacy level does not necessarily intensify\nthese effects. For instance, the maximum utility for the producer or the\nminimum utility for the consumer may exhibit nonmonotonic behavior in response\nto an increase of the privacy level.",
+    "updated" : "2024-02-29T20:32:32Z",
+    "published" : "2024-02-13T05:28:38Z",
+    "authors" : [
+      {
+        "name" : "Alireza Fallah"
+      },
+      {
+        "name" : "Michael I. Jordan"
+      },
+      {
+        "name" : "Ali Makhdoumi"
+      },
+      {
+        "name" : "Azarakhsh Malekian"
+      }
+    ],
+    "categories" : [
+      "econ.TH",
+      "cs.GT"
+    ]
   }
 ]
