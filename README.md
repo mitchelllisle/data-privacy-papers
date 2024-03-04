@@ -1809,7 +1809,7 @@ method on various benchmarking tasks.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.08223v2">The Limits of Price Discrimination Under Privacy Constraints</a></h3>
+  <h3><a href="http://arxiv.org/abs/2402.08223v3">The Limits of Price Discrimination Under Privacy Constraints</a></h3>
    <img alt="Category Badge" src="https://img.shields.io/badge/Computer Science and Game Theory-5BC0EB">
   <p><b>Published on:</b> 2024-02-13T05:28:38Z</p>
   <details>
