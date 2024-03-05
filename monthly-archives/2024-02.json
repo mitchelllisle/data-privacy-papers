@@ -2564,5 +2564,142 @@
       "econ.TH",
       "cs.GT"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.00157v1",
+    "title" : "Privacy-Preserving Distributed Optimization and Learning",
+    "summary" : "Distributed optimization and learning has recently garnered great attention\ndue to its wide applications in sensor networks, smart grids, machine learning,\nand so forth. Despite rapid development, existing distributed optimization and\nlearning algorithms require each agent to exchange messages with its neighbors,\nwhich may expose sensitive information and raise significant privacy concerns.\nIn this survey paper, we overview privacy-preserving distributed optimization\nand learning methods. We first discuss cryptography, differential privacy, and\nother techniques that can be used for privacy preservation and indicate their\npros and cons for privacy protection in distributed optimization and learning.\nWe believe that among these approaches, differential privacy is most promising\ndue to its low computational and communication complexities, which are\nextremely appealing for modern learning based applications with high dimensions\nof optimization variables. We then introduce several differential-privacy\nalgorithms that can simultaneously ensure privacy and optimization accuracy.\nMoreover, we provide example applications in several machine learning problems\nto confirm the real-world effectiveness of these algorithms. Finally, we\nhighlight some challenges in this research domain and discuss future\ndirections.",
+    "updated" : "2024-02-29T22:18:05Z",
+    "published" : "2024-02-29T22:18:05Z",
+    "authors" : [
+      {
+        "name" : "Ziqin Chen"
+      },
+      {
+        "name" : "Yongqiang Wang"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "cs.GT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.00030v1",
+    "title" : "GraphPub: Generation of Differential Privacy Graph with High\n  Availability",
+    "summary" : "In recent years, with the rapid development of graph neural networks (GNN),\nmore and more graph datasets have been published for GNN tasks. However, when\nan upstream data owner publishes graph data, there are often many privacy\nconcerns, because many real-world graph data contain sensitive information like\nperson's friend list. Differential privacy (DP) is a common method to protect\nprivacy, but due to the complex topological structure of graph data, applying\nDP on graphs often affects the message passing and aggregation of GNN models,\nleading to a decrease in model accuracy. In this paper, we propose a novel\ngraph edge protection framework, graph publisher (GraphPub), which can protect\ngraph topology while ensuring that the availability of data is basically\nunchanged. Through reverse learning and the encoder-decoder mechanism, we\nsearch for some false edges that do not have a large negative impact on the\naggregation of node features, and use them to replace some real edges. The\nmodified graph will be published, which is difficult to distinguish between\nreal and false data. Sufficient experiments prove that our framework achieves\nmodel accuracy close to the original graph with an extremely low privacy\nbudget.",
+    "updated" : "2024-02-28T20:02:55Z",
+    "published" : "2024-02-28T20:02:55Z",
+    "authors" : [
+      {
+        "name" : "Wanghan Xu"
+      },
+      {
+        "name" : "Bin Shi"
+      },
+      {
+        "name" : "Ao Liu"
+      },
+      {
+        "name" : "Jiqiang Zhang"
+      },
+      {
+        "name" : "Bo Dong"
+      }
+    ],
+    "categories" : [
+      "cs.SI",
+      "cs.AI",
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.00028v1",
+    "title" : "Lower Bounds for Differential Privacy Under Continual Observation and\n  Online Threshold Queries",
+    "summary" : "One of the most basic problems for studying the \"price of privacy over time\"\nis the so called private counter problem, introduced by Dwork et al. (2010) and\nChan et al. (2010). In this problem, we aim to track the number of events that\noccur over time, while hiding the existence of every single event. More\nspecifically, in every time step $t\\in[T]$ we learn (in an online fashion) that\n$\\Delta_t\\geq 0$ new events have occurred, and must respond with an estimate\n$n_t\\approx\\sum_{j=1}^t \\Delta_j$. The privacy requirement is that all of the\noutputs together, across all time steps, satisfy event level differential\nprivacy. The main question here is how our error needs to depend on the total\nnumber of time steps $T$ and the total number of events $n$. Dwork et al.\n(2015) showed an upper bound of $O\\left(\\log(T)+\\log^2(n)\\right)$, and\nHenzinger et al. (2023) showed a lower bound of $\\Omega\\left(\\min\\{\\log n, \\log\nT\\}\\right)$. We show a new lower bound of $\\Omega\\left(\\min\\{n,\\log\nT\\}\\right)$, which is tight w.r.t. the dependence on $T$, and is tight in the\nsparse case where $\\log^2 n=O(\\log T)$. Our lower bound has the following\nimplications:\n  $\\bullet$ We show that our lower bound extends to the \"online thresholds\nproblem\", where the goal is to privately answer many \"quantile queries\" when\nthese queries are presented one-by-one. This resolves an open question of Bun\net al. (2017).\n  $\\bullet$ Our lower bound implies, for the first time, a separation between\nthe number of mistakes obtainable by a private online learner and a non-private\nonline learner. This partially resolves a COLT'22 open question published by\nSanyal and Ramponi.\n  $\\bullet$ Our lower bound also yields the first separation between the\nstandard model of private online learning and a recently proposed relaxed\nvariant of it, called private online prediction.",
+    "updated" : "2024-02-28T16:45:54Z",
+    "published" : "2024-02-28T16:45:54Z",
+    "authors" : [
+      {
+        "name" : "Edith Cohen"
+      },
+      {
+        "name" : "Xin Lyu"
+      },
+      {
+        "name" : "Jelani Nelson"
+      },
+      {
+        "name" : "Tamás Sarlós"
+      },
+      {
+        "name" : "Uri Stemmer"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.00023v1",
+    "title" : "Auditable Homomorphic-based Decentralized Collaborative AI with\n  Attribute-based Differential Privacy",
+    "summary" : "In recent years, the notion of federated learning (FL) has led to the new\nparadigm of distributed artificial intelligence (AI) with privacy preservation.\nHowever, most current FL systems suffer from data privacy issues due to the\nrequirement of a trusted third party. Although some previous works introduce\ndifferential privacy to protect the data, however, it may also significantly\ndeteriorate the model performance. To address these issues, we propose a novel\ndecentralized collaborative AI framework, named Auditable Homomorphic-based\nDecentralised Collaborative AI (AerisAI), to improve security with homomorphic\nencryption and fine-grained differential privacy. Our proposed AerisAI directly\naggregates the encrypted parameters with a blockchain-based smart contract to\nget rid of the need of a trusted third party. We also propose a brand-new\nconcept for eliminating the negative impacts of differential privacy for model\nperformance. Moreover, the proposed AerisAI also provides the broadcast-aware\ngroup key management based on ciphertext-policy attribute-based encryption\n(CPABE) to achieve fine-grained access control based on different service-level\nagreements. We provide a formal theoretical analysis of the proposed AerisAI as\nwell as the functionality comparison with the other baselines. We also conduct\nextensive experiments on real datasets to evaluate the proposed approach. The\nexperimental results indicate that our proposed AerisAI significantly\noutperforms the other state-of-the-art baselines.",
+    "updated" : "2024-02-28T14:51:18Z",
+    "published" : "2024-02-28T14:51:18Z",
+    "authors" : [
+      {
+        "name" : "Lo-Yao Yeh"
+      },
+      {
+        "name" : "Sheng-Po Tseng"
+      },
+      {
+        "name" : "Chia-Hsun Lu"
+      },
+      {
+        "name" : "Chih-Ya Shen"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG",
+      "68T01"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.18607v2",
+    "title" : "Exploring Privacy and Fairness Risks in Sharing Diffusion Models: An\n  Adversarial Perspective",
+    "summary" : "Diffusion models have recently gained significant attention in both academia\nand industry due to their impressive generative performance in terms of both\nsampling quality and distribution coverage. Accordingly, proposals are made for\nsharing pre-trained diffusion models across different organizations, as a way\nof improving data utilization while enhancing privacy protection by avoiding\nsharing private data directly. However, the potential risks associated with\nsuch an approach have not been comprehensively examined.\n  In this paper, we take an adversarial perspective to investigate the\npotential privacy and fairness risks associated with the sharing of diffusion\nmodels. Specifically, we investigate the circumstances in which one party (the\nsharer) trains a diffusion model using private data and provides another party\n(the receiver) black-box access to the pre-trained model for downstream tasks.\nWe demonstrate that the sharer can execute fairness poisoning attacks to\nundermine the receiver's downstream models by manipulating the training data\ndistribution of the diffusion model. Meanwhile, the receiver can perform\nproperty inference attacks to reveal the distribution of sensitive features in\nthe sharer's dataset. Our experiments conducted on real-world datasets\ndemonstrate remarkable attack performance on different types of diffusion\nmodels, which highlights the critical importance of robust data auditing and\nprivacy protection protocols in pertinent applications.",
+    "updated" : "2024-03-04T03:51:35Z",
+    "published" : "2024-02-28T12:21:12Z",
+    "authors" : [
+      {
+        "name" : "Xinjian Luo"
+      },
+      {
+        "name" : "Yangfan Jiang"
+      },
+      {
+        "name" : "Fei Wei"
+      },
+      {
+        "name" : "Yuncheng Wu"
+      },
+      {
+        "name" : "Xiaokui Xiao"
+      },
+      {
+        "name" : "Beng Chin Ooi"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR"
+    ]
   }
 ]
