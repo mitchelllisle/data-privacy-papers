@@ -2701,5 +2701,35 @@
       "cs.AI",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.00030v2",
+    "title" : "GraphPub: Generation of Differential Privacy Graph with High\n  Availability",
+    "summary" : "In recent years, with the rapid development of graph neural networks (GNN),\nmore and more graph datasets have been published for GNN tasks. However, when\nan upstream data owner publishes graph data, there are often many privacy\nconcerns, because many real-world graph data contain sensitive information like\nperson's friend list. Differential privacy (DP) is a common method to protect\nprivacy, but due to the complex topological structure of graph data, applying\nDP on graphs often affects the message passing and aggregation of GNN models,\nleading to a decrease in model accuracy. In this paper, we propose a novel\ngraph edge protection framework, graph publisher (GraphPub), which can protect\ngraph topology while ensuring that the availability of data is basically\nunchanged. Through reverse learning and the encoder-decoder mechanism, we\nsearch for some false edges that do not have a large negative impact on the\naggregation of node features, and use them to replace some real edges. The\nmodified graph will be published, which is difficult to distinguish between\nreal and false data. Sufficient experiments prove that our framework achieves\nmodel accuracy close to the original graph with an extremely low privacy\nbudget.",
+    "updated" : "2024-03-05T05:34:55Z",
+    "published" : "2024-02-28T20:02:55Z",
+    "authors" : [
+      {
+        "name" : "Wanghan Xu"
+      },
+      {
+        "name" : "Bin Shi"
+      },
+      {
+        "name" : "Ao Liu"
+      },
+      {
+        "name" : "Jiqiang Zhang"
+      },
+      {
+        "name" : "Bo Dong"
+      }
+    ],
+    "categories" : [
+      "cs.SI",
+      "cs.AI",
+      "cs.CR",
+      "cs.LG"
+    ]
   }
 ]
