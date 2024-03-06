@@ -103,5 +103,311 @@
       "stat.ML",
       "stat.TH"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.03126v1",
+    "title" : "A Federated Deep Learning Approach for Privacy-Preserving Real-Time\n  Transient Stability Predictions in Power Systems",
+    "summary" : "Maintaining the privacy of power system data is essential for protecting\nsensitive information and ensuring the operation security of critical\ninfrastructure. Therefore, the adoption of centralized deep learning (DL)\ntransient stability assessment (TSA) frameworks can introduce risks to electric\nutilities. This is because these frameworks make utility data susceptible to\ncyber threats and communication issues when transmitting data to a central\nserver for training a single TSA model. Additionally, the centralized approach\ndemands significant computational resources, which may not always be readily\navailable. In light of these challenges, this paper introduces a federated\nDL-based TSA framework designed to identify the operating states of the power\nsystem. Instead of local utilities transmitting their data to a central server\nfor centralized model training, they independently train their own TSA models\nusing their respective datasets. Subsequently, the parameters of each local TSA\nmodel are sent to a central server for model aggregation, and the resulting\nmodel is shared back with the local clients. This approach not only preserves\nthe integrity of local utility data, making it resilient against cyber threats\nbut also reduces the computational demands for local TSA model training. The\nproposed approach is tested on four local clients each having the IEEE 39-bus\ntest system.",
+    "updated" : "2024-03-05T17:12:42Z",
+    "published" : "2024-03-05T17:12:42Z",
+    "authors" : [
+      {
+        "name" : "Maeshal Hijazi"
+      },
+      {
+        "name" : "Payman Dehghanian"
+      }
+    ],
+    "categories" : [
+      "eess.SY",
+      "cs.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.03048v1",
+    "title" : "Design of Stochastic Quantizers for Privacy Preservation",
+    "summary" : "In this paper, we examine the role of stochastic quantizers for privacy\npreservation. We first employ a static stochastic quantizer and investigate its\ncorresponding privacy-preserving properties. Specifically, we demonstrate that\na sufficiently large quantization step guarantees $(0, \\delta)$ differential\nprivacy. Additionally, the degradation of control performance caused by\nquantization is evaluated as the tracking error of output regulation. These two\nanalyses characterize the trade-off between privacy and control performance,\ndetermined by the quantization step. This insight enables us to use\nquantization intentionally as a means to achieve the seemingly conflicting two\ngoals of maintaining control performance and preserving privacy at the same\ntime; towards this end, we further investigate a dynamic stochastic quantizer.\nUnder a stability assumption, the dynamic stochastic quantizer can enhance\nprivacy, more than the static one, while achieving the same control\nperformance. We further handle the unstable case by additionally applying input\nGaussian noise.",
+    "updated" : "2024-03-05T15:31:35Z",
+    "published" : "2024-03-05T15:31:35Z",
+    "authors" : [
+      {
+        "name" : "Le Liu"
+      },
+      {
+        "name" : "Yu Kawano"
+      },
+      {
+        "name" : "Ming Cao"
+      }
+    ],
+    "categories" : [
+      "eess.SY",
+      "cs.CR",
+      "cs.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.02694v1",
+    "title" : "Privacy-Aware Semantic Cache for Large Language Models",
+    "summary" : "Large Language Models (LLMs) like ChatGPT, Google Bard, Claude, and Llama 2\nhave revolutionized natural language processing and search engine dynamics.\nHowever, these models incur exceptionally high computational costs. For\ninstance, GPT-3 consists of 175 billion parameters and inference on these\nmodels also demands billions of floating-point operations. Caching is a natural\nsolution to reduce LLM inference costs on repeated queries. However, existing\ncaching methods are incapable of finding semantic similarities among LLM\nqueries, leading to unacceptable false hit-and-miss rates.\n  This paper introduces MeanCache, a semantic cache for LLMs that identifies\nsemantically similar queries to determine cache hit or miss. Using MeanCache,\nthe response to a user's semantically similar query can be retrieved from a\nlocal cache rather than re-querying the LLM, thus reducing costs, service\nprovider load, and environmental impact. MeanCache leverages Federated Learning\n(FL) to collaboratively train a query similarity model in a distributed manner\nacross numerous users without violating privacy. By placing a local cache in\neach user's device and using FL, MeanCache reduces the latency and costs and\nenhances model performance, resulting in lower cache false hit rates. Our\nexperiments, benchmarked against the GPTCache, reveal that MeanCache attains an\napproximately 17% higher F-score and a 20% increase in precision during\nsemantic cache hit-and-miss decisions. Furthermore, MeanCache reduces the\nstorage requirement by 83% and accelerates semantic cache hit-and-miss\ndecisions by 11%, while still surpassing GPTCache.",
+    "updated" : "2024-03-05T06:23:50Z",
+    "published" : "2024-03-05T06:23:50Z",
+    "authors" : [
+      {
+        "name" : "Waris Gill"
+      },
+      {
+        "name" : "Mohamed Elidrisi"
+      },
+      {
+        "name" : "Pallavi Kalapatapu"
+      },
+      {
+        "name" : "Ali Anwar"
+      },
+      {
+        "name" : "Muhammad Ali Gulzar"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL",
+      "cs.CR",
+      "cs.DC",
+      "I.2.7"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.02631v1",
+    "title" : "Privacy in Multi-agent Systems",
+    "summary" : "With the increasing awareness of privacy and the deployment of legislations\nin various multi-agent system application domains such as power systems and\nintelligent transportation, the privacy protection problem for multi-agent\nsystems is gaining increased traction in recent years. This article discusses\nsome of the representative advancements in the filed.",
+    "updated" : "2024-03-05T03:40:39Z",
+    "published" : "2024-03-05T03:40:39Z",
+    "authors" : [
+      {
+        "name" : "Yongqiang Wang"
+      }
+    ],
+    "categories" : [
+      "eess.SY",
+      "cs.SY",
+      "math.OC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.02409v1",
+    "title" : "Privacy-Respecting Type Error Telemetry at Scale",
+    "summary" : "Context: Roblox Studio lets millions of creators build interactive\nexperiences by programming in a variant of Lua called Luau. The creators form a\nbroad group, ranging from novices writing their first script to professional\ndevelopers; thus, Luau must support a wide audience. As part of its efforts to\nsupport all kinds of programmers, Luau includes an optional, gradual type\nsystem and goes to great lengths to minimize false positive errors.\n  Inquiry: Since Luau is currently being used by many creators, we want to\ncollect data to improve the language and, in particular, the type system. The\nstandard way to collect data is to deploy client-side telemetry; however, we\ncannot scrape personal data or proprietary information, which means we cannot\ncollect source code fragments, error messages, or even filepaths. The research\nquestions are thus about how to conduct telemetry that is not invasive and\nobtain insights from it about type errors.\n  Approach: We designed and implemented a pseudonymized, randomly-sampling\ntelemetry system for Luau. Telemetry records include a timestamp, a session id,\na reason for sending, and a numeric summary of the most recent type analyses.\nThis information lets us study type errors over time without revealing private\ndata. We deployed the system in Roblox Studio during Spring 2023 and collected\nover 1.5 million telemetry records from over 340,000 sessions.\n  Knowledge: We present several findings about Luau, all of which suggest that\ntelemetry is an effective way to study type error pragmatics. One of the\nless-surprising findings is that opt-in gradual types are unpopular: there is\nan 100x gap between the number of untyped Luau sessions and the number of typed\nones. One surprise is that the strict mode for type analysis is overly\nconservative about interactions with data assets. A reassuring finding is that\ntype analysis rarely hits its internal limits on problem size.\n  Grounding: Our findings are supported by a dataset of over 1.5 million\ntelemetry records. The data and scripts for analyzing it are available in an\nartifact.\n  Importance: Beyond the immediate benefits to Luau, our findings about types\nand type errors have implications for adoption and ergonomics in other gradual\nlanguages such as TypeScript, Elixir, and Typed Racket. Our telemetry design is\nof broad interest, as it reports on type errors without revealing sensitive\ninformation.",
+    "updated" : "2024-03-04T19:07:42Z",
+    "published" : "2024-03-04T19:07:42Z",
+    "authors" : [
+      {
+        "name" : "Ben Greenman"
+      },
+      {
+        "name" : "Alan Jeffrey"
+      },
+      {
+        "name" : "Shriram Krishnamurthi"
+      },
+      {
+        "name" : "Mitesh Shah"
+      }
+    ],
+    "categories" : [
+      "cs.PL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.02324v1",
+    "title" : "Preserving Smart Grid Integrity: A Differential Privacy Framework for\n  Secure Detection of False Data Injection Attacks in the Smart Grid",
+    "summary" : "In this paper, we present a framework based on differential privacy (DP) for\nquerying electric power measurements to detect system anomalies or bad data\ncaused by false data injections (FDIs). Our DP approach conceals consumption\nand system matrix data, while simultaneously enabling an untrusted third party\nto test hypotheses of anomalies, such as an FDI attack, by releasing a\nrandomized sufficient statistic for hypothesis-testing. We consider a\nmeasurement model corrupted by Gaussian noise and a sparse noise vector\nrepresenting the attack, and we observe that the optimal test statistic is a\nchi-square random variable. To detect possible attacks, we propose a novel DP\nchi-square noise mechanism that ensures the test does not reveal private\ninformation about power injections or the system matrix. The proposed framework\nprovides a robust solution for detecting FDIs while preserving the privacy of\nsensitive power system data.",
+    "updated" : "2024-03-04T18:55:16Z",
+    "published" : "2024-03-04T18:55:16Z",
+    "authors" : [
+      {
+        "name" : "Nikhil Ravi"
+      },
+      {
+        "name" : "Anna Scaglione"
+      },
+      {
+        "name" : "Sean Peisert"
+      },
+      {
+        "name" : "Parth Pradhan"
+      }
+    ],
+    "categories" : [
+      "eess.SP",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.02292v1",
+    "title" : "A Decade of Privacy-Relevant Android App Reviews: Large Scale Trends",
+    "summary" : "We present an analysis of 12 million instances of privacy-relevant reviews\npublicly visible on the Google Play Store that span a 10 year period. By\nleveraging state of the art NLP techniques, we can examine what users have been\nwriting about privacy along multiple dimensions: time, countries, app types,\ndiverse privacy topics, and even across a spectrum of emotions. We find\nconsistent growth of privacy-relevant reviews, and explore topics that are\ntrending (such as Data Deletion and Data Theft), as well as those on the\ndecline (such as privacy-relevant reviews on sensitive permissions). We find\nthat although privacy reviews come from more than 200 countries, 33 countries\nprovide 90% of privacy reviews. We conduct a comparison across countries by\nexamining the distribution of privacy topics a country's users write about, and\nfind that geographic proximity is not a reliable indicator that nearby\ncountries have similar privacy perspectives. We uncover some countries with\nunique patterns and explore those herein. Surprisingly, we uncover that it is\nnot uncommon for reviews that discuss privacy to be positive (32%); many users\nexpress pleasure about privacy features within apps or privacy-focused apps. We\nalso uncover some unexpected behaviors, such as the use of reviews to deliver\nprivacy disclaimers to developers. Finally, we demonstrate the value of\nanalyzing app reviews with our approach as a complement to existing methods for\nunderstanding users' perspectives about privacy.",
+    "updated" : "2024-03-04T18:21:56Z",
+    "published" : "2024-03-04T18:21:56Z",
+    "authors" : [
+      {
+        "name" : "Omer Akgul"
+      },
+      {
+        "name" : "Sai Teja Peddinti"
+      },
+      {
+        "name" : "Nina Taft"
+      },
+      {
+        "name" : "Michelle L. Mazurek"
+      },
+      {
+        "name" : "Hamza Harkous"
+      },
+      {
+        "name" : "Animesh Srivastava"
+      },
+      {
+        "name" : "Benoit Seguin"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.02116v1",
+    "title" : "Inf2Guard: An Information-Theoretic Framework for Learning\n  Privacy-Preserving Representations against Inference Attacks",
+    "summary" : "Machine learning (ML) is vulnerable to inference (e.g., membership inference,\nproperty inference, and data reconstruction) attacks that aim to infer the\nprivate information of training data or dataset. Existing defenses are only\ndesigned for one specific type of attack and sacrifice significant utility or\nare soon broken by adaptive attacks. We address these limitations by proposing\nan information-theoretic defense framework, called Inf2Guard, against the three\nmajor types of inference attacks. Our framework, inspired by the success of\nrepresentation learning, posits that learning shared representations not only\nsaves time/costs but also benefits numerous downstream tasks. Generally,\nInf2Guard involves two mutual information objectives, for privacy protection\nand utility preservation, respectively. Inf2Guard exhibits many merits: it\nfacilitates the design of customized objectives against the specific inference\nattack; it provides a general defense framework which can treat certain\nexisting defenses as special cases; and importantly, it aids in deriving\ntheoretical results, e.g., inherent utility-privacy tradeoff and guaranteed\nprivacy leakage. Extensive evaluations validate the effectiveness of Inf2Guard\nfor learning privacy-preserving representations against inference attacks and\ndemonstrate the superiority over the baselines.",
+    "updated" : "2024-03-04T15:20:19Z",
+    "published" : "2024-03-04T15:20:19Z",
+    "authors" : [
+      {
+        "name" : "Sayedeh Leila Noorbakhsh"
+      },
+      {
+        "name" : "Binghui Zhang"
+      },
+      {
+        "name" : "Yuan Hong"
+      },
+      {
+        "name" : "Binghui Wang"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.02051v1",
+    "title" : "Differential Privacy of Noisy (S)GD under Heavy-Tailed Perturbations",
+    "summary" : "Injecting heavy-tailed noise to the iterates of stochastic gradient descent\n(SGD) has received increasing attention over the past few years. While various\ntheoretical properties of the resulting algorithm have been analyzed mainly\nfrom learning theory and optimization perspectives, their privacy preservation\nproperties have not yet been established. Aiming to bridge this gap, we provide\ndifferential privacy (DP) guarantees for noisy SGD, when the injected noise\nfollows an $\\alpha$-stable distribution, which includes a spectrum of\nheavy-tailed distributions (with infinite variance) as well as the Gaussian\ndistribution. Considering the $(\\epsilon, \\delta)$-DP framework, we show that\nSGD with heavy-tailed perturbations achieves $(0, \\tilde{\\mathcal{O}}(1/n))$-DP\nfor a broad class of loss functions which can be non-convex, where $n$ is the\nnumber of data points. As a remarkable byproduct, contrary to prior work that\nnecessitates bounded sensitivity for the gradients or clipping the iterates,\nour theory reveals that under mild assumptions, such a projection step is not\nactually necessary. We illustrate that the heavy-tailed noising mechanism\nachieves similar DP guarantees compared to the Gaussian case, which suggests\nthat it can be a viable alternative to its light-tailed counterparts.",
+    "updated" : "2024-03-04T13:53:41Z",
+    "published" : "2024-03-04T13:53:41Z",
+    "authors" : [
+      {
+        "name" : "Umut Şimşekli"
+      },
+      {
+        "name" : "Mert Gürbüzbalaban"
+      },
+      {
+        "name" : "Sinan Yıldırım"
+      },
+      {
+        "name" : "Lingjiong Zhu"
+      }
+    ],
+    "categories" : [
+      "stat.ML",
+      "cs.CR",
+      "cs.LG",
+      "math.ST",
+      "stat.TH"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.01788v1",
+    "title" : "K-stars LDP: A Novel Framework for (p, q)-clique Enumeration under Local\n  Differential Privacy",
+    "summary" : "(p,q)-clique enumeration on a bipartite graph is critical for calculating\nclustering coefficient and detecting densest subgraph. It is necessary to carry\nout subgraph enumeration while protecting users' privacy from any potential\nattacker as the count of subgraph may contain sensitive information. Most\nrecent studies focus on the privacy protection algorithms based on edge LDP\n(Local Differential Privacy). However, these algorithms suffer a large\nestimation error due to the great amount of required noise. In this paper, we\npropose a novel idea of k-stars LDP and a novel k-stars LDP algorithm for (p,\nq)-clique enumeration with a small estimation error, where a k-stars is a\nstar-shaped graph with k nodes connecting to one node. The effectiveness of\nedge LDP relies on its capacity to obfuscate the existence of an edge between\nthe user and his one-hop neighbors. This is based on the premise that a user\nshould be aware of the existence of his one-hop neighbors. Similarly, we can\napply this premise to k-stars as well, where an edge is a specific genre of\n1-stars. Based on this fact, we first propose the k-stars neighboring list to\nenable our algorithm to obfuscate the existence of k-stars with Warner' s RR.\nThen, we propose the absolute value correction technique and the k-stars\nsampling technique to further reduce the estimation error. Finally, with the\ntwo-round user-collector interaction mechanism, we propose our k-stars LDP\nalgorithm to count the number of (p, q)-clique while successfully protecting\nusers' privacy. Both the theoretical analysis and experiments have showed the\nsuperiority of our algorithm over the algorithms based on edge LDP.",
+    "updated" : "2024-03-04T07:30:10Z",
+    "published" : "2024-03-04T07:30:10Z",
+    "authors" : [
+      {
+        "name" : "Henan Sun"
+      },
+      {
+        "name" : "Zhengyu Wu"
+      },
+      {
+        "name" : "Rong-Hua Li"
+      },
+      {
+        "name" : "Guoren Wang"
+      },
+      {
+        "name" : "Zening Li"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CY",
+      "cs.DS"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.01438v1",
+    "title" : "Privacy-Preserving Collaborative Split Learning Framework for Smart Grid\n  Load Forecasting",
+    "summary" : "Accurate load forecasting is crucial for energy management, infrastructure\nplanning, and demand-supply balancing. Smart meter data availability has led to\nthe demand for sensor-based load forecasting. Conventional ML allows training a\nsingle global model using data from multiple smart meters requiring data\ntransfer to a central server, raising concerns for network requirements,\nprivacy, and security. We propose a split learning-based framework for load\nforecasting to alleviate this issue. We split a deep neural network model into\ntwo parts, one for each Grid Station (GS) responsible for an entire\nneighbourhood's smart meters and the other for the Service Provider (SP).\nInstead of sharing their data, client smart meters use their respective GSs'\nmodel split for forward pass and only share their activations with the GS.\nUnder this framework, each GS is responsible for training a personalized model\nsplit for their respective neighbourhoods, whereas the SP can train a single\nglobal or personalized model for each GS. Experiments show that the proposed\nmodels match or exceed a centrally trained model's performance and generalize\nwell. Privacy is analyzed by assessing information leakage between data and\nshared activations of the GS model split. Additionally, differential privacy\nenhances local data privacy while examining its impact on performance. A\ntransformer model is used as our base learner.",
+    "updated" : "2024-03-03T08:24:39Z",
+    "published" : "2024-03-03T08:24:39Z",
+    "authors" : [
+      {
+        "name" : "Asif Iqbal"
+      },
+      {
+        "name" : "Prosanta Gope"
+      },
+      {
+        "name" : "Biplab Sikdar"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.01435v1",
+    "title" : "Distributed Least-Squares Optimization Solvers with Differential Privacy",
+    "summary" : "This paper studies the distributed least-squares optimization problem with\ndifferential privacy requirement of local cost functions, for which two\ndifferentially private distributed solvers are proposed. The first is\nestablished on the distributed gradient tracking algorithm, by appropriately\nperturbing the initial values and parameters that contain the privacy-sensitive\ndata with Gaussian and truncated Laplacian noises, respectively. Rigorous\nproofs are established to show the achievable trade-off between the\n({\\epsilon}, {\\delta})-differential privacy and the computation accuracy. The\nsecond solver is established on the combination of the distributed shuffling\nmechanism and the average consensus algorithm, which enables each agent to\nobtain a noisy version of parameters characterizing the global gradient. As a\nresult, the least-squares optimization problem can be eventually solved by each\nagent locally in such a way that any given ({\\epsilon}, {\\delta})-differential\nprivacy requirement can be preserved while the solution may be computed with\nthe accuracy independent of the network size, which makes the latter more\nsuitable for large-scale distributed least-squares problems. Numerical\nsimulations are presented to show the effectiveness of both solvers.",
+    "updated" : "2024-03-03T08:14:50Z",
+    "published" : "2024-03-03T08:14:50Z",
+    "authors" : [
+      {
+        "name" : "Weijia Liu"
+      },
+      {
+        "name" : "Lei Wang"
+      },
+      {
+        "name" : "Fanghong Guo"
+      },
+      {
+        "name" : "Zhengguang Wu"
+      },
+      {
+        "name" : "Hongye Su"
+      }
+    ],
+    "categories" : [
+      "math.OC",
+      "cs.SY",
+      "eess.SY"
+    ]
   }
 ]
