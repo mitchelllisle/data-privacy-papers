@@ -2258,148 +2258,174 @@ HCI.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.01857v1">Position Paper: Assessing Robustness, Privacy, and Fairness in Federated
-  Learning Integrated with Foundation Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2024-02-02T19:26:00Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Xi Li, Jiaqi Wang</p>
-    <p><b>Summary:</b> Federated Learning (FL), while a breakthrough in decentralized machine
-learning, contends with significant challenges such as limited data
-availability and the variability of computational resources, which can stifle
-the performance and scalability of the models. The integration of Foundation
-Models (FMs) into FL presents a compelling solution to these issues, with the
-potential to enhance data richness and reduce computational demands through
-pre-training and data augmentation. However, this incorporation introduces
-novel issues in terms of robustness, privacy, and fairness, which have not been
-sufficiently addressed in the existing research. We make a preliminary
-investigation into this field by systematically evaluating the implications of
-FM-FL integration across these dimensions. We analyze the trade-offs involved,
-uncover the threats and issues introduced by this integration, and propose a
-set of criteria and strategies for navigating these challenges. Furthermore, we
-identify potential research directions for advancing this field, laying a
-foundation for future development in creating reliable, secure, and equitable
-FL systems.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.01546v1">Privacy-Preserving Distributed Learning for Residential Short-Term Load
-  Forecasting</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Multiagent Systems-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36"> 
-  <p><b>Published on:</b> 2024-02-02T16:39:08Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yi Dong, Yingjie Wang, Mariana Gama, Mustafa A. Mustafa, Geert Deconinck, Xiaowei Huang</p>
-    <p><b>Summary:</b> In the realm of power systems, the increasing involvement of residential
-users in load forecasting applications has heightened concerns about data
-privacy. Specifically, the load data can inadvertently reveal the daily
-routines of residential users, thereby posing a risk to their property
-security. While federated learning (FL) has been employed to safeguard user
-privacy by enabling model training without the exchange of raw data, these FL
-models have shown vulnerabilities to emerging attack techniques, such as Deep
-Leakage from Gradients and poisoning attacks. To counteract these, we initially
-employ a Secure-Aggregation (SecAgg) algorithm that leverages multiparty
-computation cryptographic techniques to mitigate the risk of gradient leakage.
-However, the introduction of SecAgg necessitates the deployment of additional
-sub-center servers for executing the multiparty computation protocol, thereby
-escalating computational complexity and reducing system robustness, especially
-in scenarios where one or more sub-centers are unavailable. To address these
-challenges, we introduce a Markovian Switching-based distributed training
-framework, the convergence of which is substantiated through rigorous
-theoretical analysis. The Distributed Markovian Switching (DMS) topology shows
-strong robustness towards the poisoning attacks as well. Case studies employing
-real-world power system load data validate the efficacy of our proposed
-algorithm. It not only significantly minimizes communication complexity but
-also maintains accuracy levels comparable to traditional FL methods, thereby
-enhancing the scalability of our load forecasting algorithm.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.01296v1">Bi-CryptoNets: Leveraging Different-Level Privacy for Encrypted
-  Inference</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2024-02-02T10:35:05Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Man-Jie Yuan, Zheng Zou, Wei Gao</p>
-    <p><b>Summary:</b> Privacy-preserving neural networks have attracted increasing attention in
-recent years, and various algorithms have been developed to keep the balance
-between accuracy, computational complexity and information security from the
-cryptographic view. This work takes a different view from the input data and
-structure of neural networks. We decompose the input data (e.g., some images)
-into sensitive and insensitive segments according to importance and privacy.
-The sensitive segment includes some important and private information such as
-human faces and we take strong homomorphic encryption to keep security, whereas
-the insensitive one contains some background and we add perturbations. We
-propose the bi-CryptoNets, i.e., plaintext and ciphertext branches, to deal
-with two segments, respectively, and ciphertext branch could utilize the
-information from plaintext branch by unidirectional connections. We adopt
-knowledge distillation for our bi-CryptoNets by transferring representations
-from a well-trained teacher neural network. Empirical studies show the
-effectiveness and decrease of inference latency for our bi-CryptoNets.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.01226v1">HW-SW Optimization of DNNs for Privacy-preserving People Counting on
-  Low-resolution Infrared Arrays</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Hardware Architecture-04E762">
-  <p><b>Published on:</b> 2024-02-02T08:45:38Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Matteo Risso, Chen Xie, Francesco Daghero, Alessio Burrello, Seyedmorteza Mollaei, Marco Castellano, Enrico Macii, Massimo Poncino, Daniele Jahier Pagliari</p>
-    <p><b>Summary:</b> Low-resolution infrared (IR) array sensors enable people counting
-applications such as monitoring the occupancy of spaces and people flows while
-preserving privacy and minimizing energy consumption. Deep Neural Networks
-(DNNs) have been shown to be well-suited to process these sensor data in an
-accurate and efficient manner. Nevertheless, the space of DNNs' architectures
-is huge and its manual exploration is burdensome and often leads to sub-optimal
-solutions. To overcome this problem, in this work, we propose a highly
-automated full-stack optimization flow for DNNs that goes from neural
-architecture search, mixed-precision quantization, and post-processing, down to
-the realization of a new smart sensor prototype, including a Microcontroller
-with a customized instruction set. Integrating these cross-layer optimizations,
-we obtain a large set of Pareto-optimal solutions in the 3D-space of energy,
-memory, and accuracy. Deploying such solutions on our hardware platform, we
-improve the state-of-the-art achieving up to 4.2x model size reduction, 23.8x
-code size reduction, and 15.38x energy reduction at iso-accuracy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.01198v1">Physical Layer Location Privacy in SIMO Communication Using Fake Paths
-  Injection</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36">  
-  <p><b>Published on:</b> 2024-02-02T07:52:32Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Trong Duy Tran, Maxime Ferreira Da Costa, Linh Trung Nguyen</p>
-    <p><b>Summary:</b> Fake path injection is an emerging paradigm for inducing privacy over
-wireless networks. In this paper, fake paths are injected by the transmitter
-into a SIMO multipath communication channel to preserve her physical location
-from an eavesdropper. A novel statistical privacy metric is defined as the
-ratio between the largest (resp. smallest) eigenvalues of Bob's (resp. Eve's)
-Cram\'er-Rao lower bound on the SIMO multipath channel parameters to assess the
-privacy enhancements. Leveraging the spectral properties of generalized
-Vandermonde matrices, bounds on the privacy margin of the proposed scheme are
-derived. Specifically, it is shown that the privacy margin increases
-quadratically in the inverse of the separation between the true and the fake
-paths under Eve's perspective. Numerical simulations further showcase the
-approach's benefit.</p>
-  </details>
-</div>
-
-
 
 <h2>2024-03</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.03612v1">Using the Dual-Privacy Framework to Understand Consumers' Perceived
+  Privacy Violations Under Different Firm Practices in Online Advertising</a></h3>
+   
+  <p><b>Published on:</b> 2024-03-06T11:06:25Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Kinshuk Jerath, Klaus M. Miller</p>
+    <p><b>Summary:</b> In response to privacy concerns about collecting and using personal data, the
+online advertising industry has been developing privacy-enhancing technologies
+(PETs), e.g., under Google's Privacy Sandbox initiative. In this research, we
+use the dual-privacy framework, which postulates that consumers have intrinsic
+and instrumental preferences for privacy, to understand consumers' perceived
+privacy violations (PPVs) for current and proposed online advertising
+practices. The key idea is that different practices differ in whether
+individual data leaves the consumer's machine or not and in how they track and
+target consumers; these affect, respectively, the intrinsic and instrumental
+components of privacy preferences differently, leading to different PPVs for
+different practices. We conducted online studies focused on consumers in the
+United States to elicit PPVs for various advertising practices. Our findings
+confirm the intuition that tracking and targeting consumers under the industry
+status quo of behavioral targeting leads to high PPV. New technologies or
+proposals that ensure that data are kept on the consumer's machine lower PPV
+relative to behavioral targeting but, importantly, this decrease is small.
+Furthermore, group-level targeting does not differ significantly from
+individual-level targeting in reducing PPV. Under contextual targeting, where
+there is no tracking, PPV is significantly reduced. Interestingly, with respect
+to PPV, consumers are indifferent between seeing untargeted ads and no ads when
+they are not being tracked. We find that consumer perceptions of privacy
+violations under different tracking and targeting practices may differ from
+what technical definitions suggest. Therefore, rather than relying solely on
+technical perspectives, a consumer-centric approach to privacy is needed, based
+on, for instance, the dual-privacy framework.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.03610v1">Paying for Privacy: Pay-or-Tracking Walls</a></h3>
+   
+  <p><b>Published on:</b> 2024-03-06T10:59:49Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Timo Mueller-Tribbensee, Klaus M. Miller, Bernd Skiera</p>
+    <p><b>Summary:</b> Prestigious news publishers, and more recently, Meta, have begun to request
+that users pay for privacy. Specifically, users receive a notification banner,
+referred to as a pay-or-tracking wall, that requires them to (i) pay money to
+avoid being tracked or (ii) consent to being tracked. These walls have invited
+concerns that privacy might become a luxury. However, little is known about
+pay-or-tracking walls, which prevents a meaningful discussion about their
+appropriateness. This paper conducts several empirical studies and finds that
+top EU publishers use pay-or-tracking walls. Their implementations involve
+various approaches, including bundling the pay option with advertising-free
+access or additional content. The price for not being tracked exceeds the
+advertising revenue that publishers generate from a user who consents to being
+tracked. Notably, publishers' traffic does not decline when implementing a
+pay-or-tracking wall and most users consent to being tracked; only a few users
+pay. In short, pay-or-tracking walls seem to provide the means for expanding
+the practice of tracking. Publishers profit from pay-or-tracking walls and may
+observe a revenue increase of 16.4% due to tracking more users than under a
+cookie consent banner.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.03600v1">A Privacy-Preserving Framework with Multi-Modal Data for Cross-Domain
+  Recommendation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-03-06T10:40:08Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Li Wang, Lei Sang, Quangui Zhang, Qiang Wu, Min Xu</p>
+    <p><b>Summary:</b> Cross-domain recommendation (CDR) aims to enhance recommendation accuracy in
+a target domain with sparse data by leveraging rich information in a source
+domain, thereby addressing the data-sparsity problem. Some existing CDR methods
+highlight the advantages of extracting domain-common and domain-specific
+features to learn comprehensive user and item representations. However, these
+methods can't effectively disentangle these components as they often rely on
+simple user-item historical interaction information (such as ratings, clicks,
+and browsing), neglecting the rich multi-modal features. Additionally, they
+don't protect user-sensitive data from potential leakage during knowledge
+transfer between domains. To address these challenges, we propose a
+Privacy-Preserving Framework with Multi-Modal Data for Cross-Domain
+Recommendation, called P2M2-CDR. Specifically, we first design a multi-modal
+disentangled encoder that utilizes multi-modal information to disentangle more
+informative domain-common and domain-specific embeddings. Furthermore, we
+introduce a privacy-preserving decoder to mitigate user privacy leakage during
+knowledge transfer. Local differential privacy (LDP) is utilized to obfuscate
+the disentangled embeddings before inter-domain exchange, thereby enhancing
+privacy protection. To ensure both consistency and differentiation among these
+obfuscated disentangled embeddings, we incorporate contrastive learning-based
+domain-inter and domain-intra losses. Extensive Experiments conducted on four
+real-world datasets demonstrate that P2M2-CDR outperforms other
+state-of-the-art single-domain and cross-domain baselines.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.03592v1">Wildest Dreams: Reproducible Research in Privacy-preserving Neural
+  Network Training</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-03-06T10:25:36Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Tanveer Khan, Mindaugas Budzys, Khoa Nguyen, Antonis Michalas</p>
+    <p><b>Summary:</b> Machine Learning (ML), addresses a multitude of complex issues in multiple
+disciplines, including social sciences, finance, and medical research. ML
+models require substantial computing power and are only as powerful as the data
+utilized. Due to high computational cost of ML methods, data scientists
+frequently use Machine Learning-as-a-Service (MLaaS) to outsource computation
+to external servers. However, when working with private information, like
+financial data or health records, outsourcing the computation might result in
+privacy issues. Recent advances in Privacy-Preserving Techniques (PPTs) have
+enabled ML training and inference over protected data through the use of
+Privacy-Preserving Machine Learning (PPML). However, these techniques are still
+at a preliminary stage and their application in real-world situations is
+demanding. In order to comprehend discrepancy between theoretical research
+suggestions and actual applications, this work examines the past and present of
+PPML, focusing on Homomorphic Encryption (HE) and Secure Multi-party
+Computation (SMPC) applied to ML. This work primarily focuses on the ML model's
+training phase, where maintaining user data privacy is of utmost importance. We
+provide a solid theoretical background that eases the understanding of current
+approaches and their limitations. In addition, we present a SoK of the most
+recent PPML frameworks for model training and provide a comprehensive
+comparison in terms of the unique properties and performances on standard
+benchmarks. Also, we reproduce the results for some of the papers and examine
+at what level existing works in the field provide support for open science. We
+believe our work serves as a valuable contribution by raising awareness about
+the current gap between theoretical advancements and real-world applications in
+PPML, specifically regarding open-source availability, reproducibility, and
+usability.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.03337v1">Fine-Grained Privacy Guarantees for Coverage Problems</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-03-05T21:40:10Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Laxman Dhulipala, George Z. Li</p>
+    <p><b>Summary:</b> We introduce a new notion of neighboring databases for coverage problems such
+as Max Cover and Set Cover under differential privacy. In contrast to the
+standard privacy notion for these problems, which is analogous to node-privacy
+in graphs, our new definition gives a more fine-grained privacy guarantee,
+which is analogous to edge-privacy. We illustrate several scenarios of Set
+Cover and Max Cover where our privacy notion is desired one for the
+application.
+  Our main result is an $\epsilon$-edge differentially private algorithm for
+Max Cover which obtains an $(1-1/e-\eta,\tilde{O}(k/\epsilon))$-approximation
+with high probability. Furthermore, we show that this result is nearly tight:
+we give a lower bound show that an additive error of $\Omega(k/\epsilon)$ is
+necessary under edge-differential privacy. Via group privacy properties, this
+implies a new algorithm for $\epsilon$-node differentially private Max Cover
+which obtains an $(1-1/e-\eta,\tilde{O}(fk/\epsilon))$-approximation, where $f$
+is the maximum degree of an element in the set system. When $f\ll k$, this
+improves over the best known algorithm for Max Cover under pure (node)
+differential privacy, which obtains an
+$(1-1/e,\tilde{O}(k^2/\epsilon))$-approximation.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2403.03126v1">A Federated Deep Learning Approach for Privacy-Preserving Real-Time
