@@ -409,5 +409,117 @@
       "cs.SY",
       "eess.SY"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.03612v1",
+    "title" : "Using the Dual-Privacy Framework to Understand Consumers' Perceived\n  Privacy Violations Under Different Firm Practices in Online Advertising",
+    "summary" : "In response to privacy concerns about collecting and using personal data, the\nonline advertising industry has been developing privacy-enhancing technologies\n(PETs), e.g., under Google's Privacy Sandbox initiative. In this research, we\nuse the dual-privacy framework, which postulates that consumers have intrinsic\nand instrumental preferences for privacy, to understand consumers' perceived\nprivacy violations (PPVs) for current and proposed online advertising\npractices. The key idea is that different practices differ in whether\nindividual data leaves the consumer's machine or not and in how they track and\ntarget consumers; these affect, respectively, the intrinsic and instrumental\ncomponents of privacy preferences differently, leading to different PPVs for\ndifferent practices. We conducted online studies focused on consumers in the\nUnited States to elicit PPVs for various advertising practices. Our findings\nconfirm the intuition that tracking and targeting consumers under the industry\nstatus quo of behavioral targeting leads to high PPV. New technologies or\nproposals that ensure that data are kept on the consumer's machine lower PPV\nrelative to behavioral targeting but, importantly, this decrease is small.\nFurthermore, group-level targeting does not differ significantly from\nindividual-level targeting in reducing PPV. Under contextual targeting, where\nthere is no tracking, PPV is significantly reduced. Interestingly, with respect\nto PPV, consumers are indifferent between seeing untargeted ads and no ads when\nthey are not being tracked. We find that consumer perceptions of privacy\nviolations under different tracking and targeting practices may differ from\nwhat technical definitions suggest. Therefore, rather than relying solely on\ntechnical perspectives, a consumer-centric approach to privacy is needed, based\non, for instance, the dual-privacy framework.",
+    "updated" : "2024-03-06T11:06:25Z",
+    "published" : "2024-03-06T11:06:25Z",
+    "authors" : [
+      {
+        "name" : "Kinshuk Jerath"
+      },
+      {
+        "name" : "Klaus M. Miller"
+      }
+    ],
+    "categories" : [
+      "econ.GN",
+      "q-fin.EC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.03610v1",
+    "title" : "Paying for Privacy: Pay-or-Tracking Walls",
+    "summary" : "Prestigious news publishers, and more recently, Meta, have begun to request\nthat users pay for privacy. Specifically, users receive a notification banner,\nreferred to as a pay-or-tracking wall, that requires them to (i) pay money to\navoid being tracked or (ii) consent to being tracked. These walls have invited\nconcerns that privacy might become a luxury. However, little is known about\npay-or-tracking walls, which prevents a meaningful discussion about their\nappropriateness. This paper conducts several empirical studies and finds that\ntop EU publishers use pay-or-tracking walls. Their implementations involve\nvarious approaches, including bundling the pay option with advertising-free\naccess or additional content. The price for not being tracked exceeds the\nadvertising revenue that publishers generate from a user who consents to being\ntracked. Notably, publishers' traffic does not decline when implementing a\npay-or-tracking wall and most users consent to being tracked; only a few users\npay. In short, pay-or-tracking walls seem to provide the means for expanding\nthe practice of tracking. Publishers profit from pay-or-tracking walls and may\nobserve a revenue increase of 16.4% due to tracking more users than under a\ncookie consent banner.",
+    "updated" : "2024-03-06T10:59:49Z",
+    "published" : "2024-03-06T10:59:49Z",
+    "authors" : [
+      {
+        "name" : "Timo Mueller-Tribbensee"
+      },
+      {
+        "name" : "Klaus M. Miller"
+      },
+      {
+        "name" : "Bernd Skiera"
+      }
+    ],
+    "categories" : [
+      "econ.GN",
+      "q-fin.EC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.03600v1",
+    "title" : "A Privacy-Preserving Framework with Multi-Modal Data for Cross-Domain\n  Recommendation",
+    "summary" : "Cross-domain recommendation (CDR) aims to enhance recommendation accuracy in\na target domain with sparse data by leveraging rich information in a source\ndomain, thereby addressing the data-sparsity problem. Some existing CDR methods\nhighlight the advantages of extracting domain-common and domain-specific\nfeatures to learn comprehensive user and item representations. However, these\nmethods can't effectively disentangle these components as they often rely on\nsimple user-item historical interaction information (such as ratings, clicks,\nand browsing), neglecting the rich multi-modal features. Additionally, they\ndon't protect user-sensitive data from potential leakage during knowledge\ntransfer between domains. To address these challenges, we propose a\nPrivacy-Preserving Framework with Multi-Modal Data for Cross-Domain\nRecommendation, called P2M2-CDR. Specifically, we first design a multi-modal\ndisentangled encoder that utilizes multi-modal information to disentangle more\ninformative domain-common and domain-specific embeddings. Furthermore, we\nintroduce a privacy-preserving decoder to mitigate user privacy leakage during\nknowledge transfer. Local differential privacy (LDP) is utilized to obfuscate\nthe disentangled embeddings before inter-domain exchange, thereby enhancing\nprivacy protection. To ensure both consistency and differentiation among these\nobfuscated disentangled embeddings, we incorporate contrastive learning-based\ndomain-inter and domain-intra losses. Extensive Experiments conducted on four\nreal-world datasets demonstrate that P2M2-CDR outperforms other\nstate-of-the-art single-domain and cross-domain baselines.",
+    "updated" : "2024-03-06T10:40:08Z",
+    "published" : "2024-03-06T10:40:08Z",
+    "authors" : [
+      {
+        "name" : "Li Wang"
+      },
+      {
+        "name" : "Lei Sang"
+      },
+      {
+        "name" : "Quangui Zhang"
+      },
+      {
+        "name" : "Qiang Wu"
+      },
+      {
+        "name" : "Min Xu"
+      }
+    ],
+    "categories" : [
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.03592v1",
+    "title" : "Wildest Dreams: Reproducible Research in Privacy-preserving Neural\n  Network Training",
+    "summary" : "Machine Learning (ML), addresses a multitude of complex issues in multiple\ndisciplines, including social sciences, finance, and medical research. ML\nmodels require substantial computing power and are only as powerful as the data\nutilized. Due to high computational cost of ML methods, data scientists\nfrequently use Machine Learning-as-a-Service (MLaaS) to outsource computation\nto external servers. However, when working with private information, like\nfinancial data or health records, outsourcing the computation might result in\nprivacy issues. Recent advances in Privacy-Preserving Techniques (PPTs) have\nenabled ML training and inference over protected data through the use of\nPrivacy-Preserving Machine Learning (PPML). However, these techniques are still\nat a preliminary stage and their application in real-world situations is\ndemanding. In order to comprehend discrepancy between theoretical research\nsuggestions and actual applications, this work examines the past and present of\nPPML, focusing on Homomorphic Encryption (HE) and Secure Multi-party\nComputation (SMPC) applied to ML. This work primarily focuses on the ML model's\ntraining phase, where maintaining user data privacy is of utmost importance. We\nprovide a solid theoretical background that eases the understanding of current\napproaches and their limitations. In addition, we present a SoK of the most\nrecent PPML frameworks for model training and provide a comprehensive\ncomparison in terms of the unique properties and performances on standard\nbenchmarks. Also, we reproduce the results for some of the papers and examine\nat what level existing works in the field provide support for open science. We\nbelieve our work serves as a valuable contribution by raising awareness about\nthe current gap between theoretical advancements and real-world applications in\nPPML, specifically regarding open-source availability, reproducibility, and\nusability.",
+    "updated" : "2024-03-06T10:25:36Z",
+    "published" : "2024-03-06T10:25:36Z",
+    "authors" : [
+      {
+        "name" : "Tanveer Khan"
+      },
+      {
+        "name" : "Mindaugas Budzys"
+      },
+      {
+        "name" : "Khoa Nguyen"
+      },
+      {
+        "name" : "Antonis Michalas"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.03337v1",
+    "title" : "Fine-Grained Privacy Guarantees for Coverage Problems",
+    "summary" : "We introduce a new notion of neighboring databases for coverage problems such\nas Max Cover and Set Cover under differential privacy. In contrast to the\nstandard privacy notion for these problems, which is analogous to node-privacy\nin graphs, our new definition gives a more fine-grained privacy guarantee,\nwhich is analogous to edge-privacy. We illustrate several scenarios of Set\nCover and Max Cover where our privacy notion is desired one for the\napplication.\n  Our main result is an $\\epsilon$-edge differentially private algorithm for\nMax Cover which obtains an $(1-1/e-\\eta,\\tilde{O}(k/\\epsilon))$-approximation\nwith high probability. Furthermore, we show that this result is nearly tight:\nwe give a lower bound show that an additive error of $\\Omega(k/\\epsilon)$ is\nnecessary under edge-differential privacy. Via group privacy properties, this\nimplies a new algorithm for $\\epsilon$-node differentially private Max Cover\nwhich obtains an $(1-1/e-\\eta,\\tilde{O}(fk/\\epsilon))$-approximation, where $f$\nis the maximum degree of an element in the set system. When $f\\ll k$, this\nimproves over the best known algorithm for Max Cover under pure (node)\ndifferential privacy, which obtains an\n$(1-1/e,\\tilde{O}(k^2/\\epsilon))$-approximation.",
+    "updated" : "2024-03-05T21:40:10Z",
+    "published" : "2024-03-05T21:40:10Z",
+    "authors" : [
+      {
+        "name" : "Laxman Dhulipala"
+      },
+      {
+        "name" : "George Z. Li"
+      }
+    ],
+    "categories" : [
+      "cs.DS",
+      "cs.CR"
+    ]
   }
 ]
