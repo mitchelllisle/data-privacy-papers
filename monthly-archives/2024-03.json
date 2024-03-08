@@ -521,5 +521,162 @@
       "cs.DS",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.04485v1",
+    "title" : "Privacy in Cloud Computing through Immersion-based Coding",
+    "summary" : "Cloud computing enables users to process and store data remotely on\nhigh-performance computers and servers by sharing data over the Internet.\nHowever, transferring data to clouds causes unavoidable privacy concerns. Here,\nwe present a synthesis framework to design coding mechanisms that allow sharing\nand processing data in a privacy-preserving manner without sacrificing data\nutility and algorithmic performance. We consider the setup where the user aims\nto run an algorithm in the cloud using private data. The cloud then returns\nsome data utility back to the user (utility refers to the service that the\nalgorithm provides, e.g., classification, prediction, AI models, etc.). To\navoid privacy concerns, the proposed scheme provides tools to co-design: 1)\ncoding mechanisms to distort the original data and guarantee a prescribed\ndifferential privacy level; 2) an equivalent-but-different algorithm (referred\nhere to as the target algorithm) that runs on distorted data and produces\ndistorted utility; and 3) a decoding function that extracts the true utility\nfrom the distorted one with a negligible error. Then, instead of sharing the\noriginal data and algorithm with the cloud, only the distorted data and target\nalgorithm are disclosed, thereby avoiding privacy concerns. The proposed scheme\nis built on the synergy of differential privacy and system immersion tools from\ncontrol theory. The key underlying idea is to design a higher-dimensional\ntarget algorithm that embeds all trajectories of the original algorithm and\nworks on randomly encoded data to produce randomly encoded utility. We show\nthat the proposed scheme can be designed to offer any level of differential\nprivacy without degrading the algorithm's utility. We present two use cases to\nillustrate the performance of the developed tools: privacy in\noptimization/learning algorithms and a nonlinear networked control system.",
+    "updated" : "2024-03-07T13:38:18Z",
+    "published" : "2024-03-07T13:38:18Z",
+    "authors" : [
+      {
+        "name" : "Haleh Hayati"
+      },
+      {
+        "name" : "Nathan van de Wouw"
+      },
+      {
+        "name" : "Carlos Murguia"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.04468v1",
+    "title" : "A Survey of Graph Neural Networks in Real world: Imbalance, Noise,\n  Privacy and OOD Challenges",
+    "summary" : "Graph-structured data exhibits universality and widespread applicability\nacross diverse domains, such as social network analysis, biochemistry,\nfinancial fraud detection, and network security. Significant strides have been\nmade in leveraging Graph Neural Networks (GNNs) to achieve remarkable success\nin these areas. However, in real-world scenarios, the training environment for\nmodels is often far from ideal, leading to substantial performance degradation\nof GNN models due to various unfavorable factors, including imbalance in data\ndistribution, the presence of noise in erroneous data, privacy protection of\nsensitive information, and generalization capability for out-of-distribution\n(OOD) scenarios. To tackle these issues, substantial efforts have been devoted\nto improving the performance of GNN models in practical real-world scenarios,\nas well as enhancing their reliability and robustness. In this paper, we\npresent a comprehensive survey that systematically reviews existing GNN models,\nfocusing on solutions to the four mentioned real-world challenges including\nimbalance, noise, privacy, and OOD in practical scenarios that many existing\nreviews have not considered. Specifically, we first highlight the four key\nchallenges faced by existing GNNs, paving the way for our exploration of\nreal-world GNN models. Subsequently, we provide detailed discussions on these\nfour aspects, dissecting how these solutions contribute to enhancing the\nreliability and robustness of GNN models. Last but not least, we outline\npromising directions and offer future perspectives in the field.",
+    "updated" : "2024-03-07T13:10:37Z",
+    "published" : "2024-03-07T13:10:37Z",
+    "authors" : [
+      {
+        "name" : "Wei Ju"
+      },
+      {
+        "name" : "Siyu Yi"
+      },
+      {
+        "name" : "Yifan Wang"
+      },
+      {
+        "name" : "Zhiping Xiao"
+      },
+      {
+        "name" : "Zhengyang Mao"
+      },
+      {
+        "name" : "Hourun Li"
+      },
+      {
+        "name" : "Yiyang Gu"
+      },
+      {
+        "name" : "Yifang Qin"
+      },
+      {
+        "name" : "Nan Yin"
+      },
+      {
+        "name" : "Senzhang Wang"
+      },
+      {
+        "name" : "Xinwang Liu"
+      },
+      {
+        "name" : "Xiao Luo"
+      },
+      {
+        "name" : "Philip S. Yu"
+      },
+      {
+        "name" : "Ming Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.IR",
+      "cs.SI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.04451v1",
+    "title" : "Membership Inference Attacks and Privacy in Topic Modeling",
+    "summary" : "Recent research shows that large language models are susceptible to privacy\nattacks that infer aspects of the training data. However, it is unclear if\nsimpler generative models, like topic models, share similar vulnerabilities. In\nthis work, we propose an attack against topic models that can confidently\nidentify members of the training data in Latent Dirichlet Allocation. Our\nresults suggest that the privacy risks associated with generative modeling are\nnot restricted to large neural models. Additionally, to mitigate these\nvulnerabilities, we explore differentially private (DP) topic modeling. We\npropose a framework for private topic modeling that incorporates DP vocabulary\nselection as a pre-processing step, and show that it improves privacy while\nhaving limited effects on practical utility.",
+    "updated" : "2024-03-07T12:43:42Z",
+    "published" : "2024-03-07T12:43:42Z",
+    "authors" : [
+      {
+        "name" : "Nico Manzonelli"
+      },
+      {
+        "name" : "Wanrong Zhang"
+      },
+      {
+        "name" : "Salil Vadhan"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CL",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.04124v1",
+    "title" : "Privacy-preserving Fine-tuning of Large Language Models through Flatness",
+    "summary" : "The privacy concerns associated with the use of Large Language Models (LLMs)\nhave grown recently with the development of LLMs such as ChatGPT. Differential\nPrivacy (DP) techniques are explored in existing work to mitigate their privacy\nrisks at the cost of generalization degradation. Our paper reveals that the\nflatness of DP-trained models' loss landscape plays an essential role in the\ntrade-off between their privacy and generalization. We further propose a\nholistic framework to enforce appropriate weight flatness, which substantially\nimproves model generalization with competitive privacy preservation. It\ninnovates from three coarse-to-grained levels, including perturbation-aware\nmin-max optimization on model weights within a layer, flatness-guided sparse\nprefix-tuning on weights across layers, and weight knowledge distillation\nbetween DP \\& non-DP weights copies. Comprehensive experiments of both\nblack-box and white-box scenarios are conducted to demonstrate the\neffectiveness of our proposal in enhancing generalization and maintaining DP\ncharacteristics. For instance, on text classification dataset QNLI, DP-Flat\nachieves similar performance with non-private full fine-tuning but with DP\nguarantee under privacy budget $\\epsilon=3$, and even better performance given\nhigher privacy budgets. Codes are provided in the supplement.",
+    "updated" : "2024-03-07T00:44:11Z",
+    "published" : "2024-03-07T00:44:11Z",
+    "authors" : [
+      {
+        "name" : "Tiejin Chen"
+      },
+      {
+        "name" : "Longchao Da"
+      },
+      {
+        "name" : "Huixue Zhou"
+      },
+      {
+        "name" : "Pingzhi Li"
+      },
+      {
+        "name" : "Kaixiong Zhou"
+      },
+      {
+        "name" : "Tianlong Chen"
+      },
+      {
+        "name" : "Hua Wei"
+      }
+    ],
+    "categories" : [
+      "cs.AI",
+      "I.2"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.04024v1",
+    "title" : "Enhancing chest X-ray datasets with privacy-preserving large language\n  models and multi-type annotations: a data-driven approach for improved\n  classification",
+    "summary" : "In chest X-ray (CXR) image analysis, rule-based systems are usually employed\nto extract labels from reports, but concerns exist about label quality. These\ndatasets typically offer only presence labels, sometimes with binary\nuncertainty indicators, which limits their usefulness. In this work, we present\nMAPLEZ (Medical report Annotations with Privacy-preserving Large language model\nusing Expeditious Zero shot answers), a novel approach leveraging a locally\nexecutable Large Language Model (LLM) to extract and enhance findings labels on\nCXR reports. MAPLEZ extracts not only binary labels indicating the presence or\nabsence of a finding but also the location, severity, and radiologists'\nuncertainty about the finding. Over eight abnormalities from five test sets, we\nshow that our method can extract these annotations with an increase of 5\npercentage points (pp) in F1 score for categorical presence annotations and\nmore than 30 pp increase in F1 score for the location annotations over\ncompeting labelers. Additionally, using these improved annotations in\nclassification supervision, we demonstrate substantial advancements in model\nquality, with an increase of 1.7 pp in AUROC over models trained with\nannotations from the state-of-the-art approach. We share code and annotations.",
+    "updated" : "2024-03-06T20:10:41Z",
+    "published" : "2024-03-06T20:10:41Z",
+    "authors" : [
+      {
+        "name" : "Ricardo Bigolin Lanfredi"
+      },
+      {
+        "name" : "Pritam Mukherjee"
+      },
+      {
+        "name" : "Ronald Summers"
+      }
+    ],
+    "categories" : [
+      "eess.IV",
+      "cs.CV"
+    ]
   }
 ]
