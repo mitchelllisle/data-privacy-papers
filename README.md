@@ -2134,132 +2134,158 @@ regret.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.03435v1">Psychological Assessments with Large Language Models: A Privacy-Focused
-  and Cost-Effective Approach</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2024-02-05T19:00:02Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Sergi Blanco-Cuaresma</p>
-    <p><b>Summary:</b> This study explores the use of Large Language Models (LLMs) to analyze text
-comments from Reddit users, aiming to achieve two primary objectives: firstly,
-to pinpoint critical excerpts that support a predefined psychological
-assessment of suicidal risk; and secondly, to summarize the material to
-substantiate the preassigned suicidal risk level. The work is circumscribed to
-the use of "open-source" LLMs that can be run locally, thereby enhancing data
-privacy. Furthermore, it prioritizes models with low computational
-requirements, making it accessible to both individuals and institutions
-operating on limited computing budgets. The implemented strategy only relies on
-a carefully crafted prompt and a grammar to guide the LLM's text completion.
-Despite its simplicity, the evaluation metrics show outstanding results, making
-it a valuable privacy-focused and cost-effective approach. This work is part of
-the Computational Linguistics and Clinical Psychology (CLPsych) 2024 shared
-task.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.03114v1">Augmenting Security and Privacy in the Virtual Realm: An Analysis of
-  Extended Reality Devices</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-02-05T15:45:11Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Derin Cayir, Abbas Acar, Riccardo Lazzeretti, Marco Angelini, Mauro Conti, Selcuk Uluagac</p>
-    <p><b>Summary:</b> In this work, we present a device-centric analysis of security and privacy
-attacks and defenses on Extended Reality (XR) devices, highlighting the need
-for robust and privacy-aware security mechanisms. Based on our analysis, we
-present future research directions and propose design considerations to help
-ensure the security and privacy of XR devices.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.02672v1">Estimation of conditional average treatment effects on distributed data:
-  A privacy-preserving approach</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-02-05T02:17:21Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yuji Kawamata, Ryoki Motai, Yukihiko Okada, Akira Imakura, Tetsuya Sakurai</p>
-    <p><b>Summary:</b> Estimation of conditional average treatment effects (CATEs) is an important
-topic in various fields such as medical and social sciences. CATEs can be
-estimated with high accuracy if distributed data across multiple parties can be
-centralized. However, it is difficult to aggregate such data if they contain
-privacy information. To address this issue, we proposed data collaboration
-double machine learning (DC-DML), a method that can estimate CATE models with
-privacy preservation of distributed data, and evaluated the method through
-numerical experiments. Our contributions are summarized in the following three
-points. First, our method enables estimation and testing of semi-parametric
-CATE models without iterative communication on distributed data.
-Semi-parametric or non-parametric CATE models enable estimation and testing
-that is more robust to model mis-specification than parametric models. However,
-to our knowledge, no communication-efficient method has been proposed for
-estimating and testing semi-parametric or non-parametric CATE models on
-distributed data. Second, our method enables collaborative estimation between
-different parties as well as multiple time points because the
-dimensionality-reduced intermediate representations can be accumulated. Third,
-our method performed as well or better than other methods in evaluation
-experiments using synthetic, semi-synthetic and real-world datasets.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.02230v1">Federated Learning with Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> 
-  <p><b>Published on:</b> 2024-02-03T18:21:38Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Adrien Banse, Jan Kreischer, Xavier Oliva i Jürgens</p>
-    <p><b>Summary:</b> Federated learning (FL), as a type of distributed machine learning, is
-capable of significantly preserving client's private data from being shared
-among different parties. Nevertheless, private information can still be
-divulged by analyzing uploaded parameter weights from clients. In this report,
-we showcase our empirical benchmark of the effect of the number of clients and
-the addition of differential privacy (DP) mechanisms on the performance of the
-model on different types of data. Our results show that non-i.i.d and small
-datasets have the highest decrease in performance in a distributed and
-differentially private setting.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.01994v1">Human-Centered Privacy Research in the Age of Large Language Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-02-03T02:32:45Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Tianshi Li, Sauvik Das, Hao-Ping Lee, Dakuo Wang, Bingsheng Yao, Zhiping Zhang</p>
-    <p><b>Summary:</b> The emergence of large language models (LLMs), and their increased use in
-user-facing systems, has led to substantial privacy concerns. To date, research
-on these privacy concerns has been model-centered: exploring how LLMs lead to
-privacy risks like memorization, or can be used to infer personal
-characteristics about people from their content. We argue that there is a need
-for more research focusing on the human aspect of these privacy issues: e.g.,
-research on how design paradigms for LLMs affect users' disclosure behaviors,
-users' mental models and preferences for privacy controls, and the design of
-tools, systems, and artifacts that empower end-users to reclaim ownership over
-their personal data. To build usable, efficient, and privacy-friendly systems
-powered by these models with imperfect privacy properties, our goal is to
-initiate discussions to outline an agenda for conducting human-centered
-research on privacy issues in LLM-powered systems. This Special Interest Group
-(SIG) aims to bring together researchers with backgrounds in usable security
-and privacy, human-AI collaboration, NLP, or any other related domains to share
-their perspectives and experiences on this problem, to help our community
-establish a collective understanding of the challenges, research opportunities,
-research methods, and strategies to collaborate with researchers outside of
-HCI.</p>
-  </details>
-</div>
-
-
 
 <h2>2024-03</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.04485v1">Privacy in Cloud Computing through Immersion-based Coding</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-03-07T13:38:18Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Haleh Hayati, Nathan van de Wouw, Carlos Murguia</p>
+    <p><b>Summary:</b> Cloud computing enables users to process and store data remotely on
+high-performance computers and servers by sharing data over the Internet.
+However, transferring data to clouds causes unavoidable privacy concerns. Here,
+we present a synthesis framework to design coding mechanisms that allow sharing
+and processing data in a privacy-preserving manner without sacrificing data
+utility and algorithmic performance. We consider the setup where the user aims
+to run an algorithm in the cloud using private data. The cloud then returns
+some data utility back to the user (utility refers to the service that the
+algorithm provides, e.g., classification, prediction, AI models, etc.). To
+avoid privacy concerns, the proposed scheme provides tools to co-design: 1)
+coding mechanisms to distort the original data and guarantee a prescribed
+differential privacy level; 2) an equivalent-but-different algorithm (referred
+here to as the target algorithm) that runs on distorted data and produces
+distorted utility; and 3) a decoding function that extracts the true utility
+from the distorted one with a negligible error. Then, instead of sharing the
+original data and algorithm with the cloud, only the distorted data and target
+algorithm are disclosed, thereby avoiding privacy concerns. The proposed scheme
+is built on the synergy of differential privacy and system immersion tools from
+control theory. The key underlying idea is to design a higher-dimensional
+target algorithm that embeds all trajectories of the original algorithm and
+works on randomly encoded data to produce randomly encoded utility. We show
+that the proposed scheme can be designed to offer any level of differential
+privacy without degrading the algorithm's utility. We present two use cases to
+illustrate the performance of the developed tools: privacy in
+optimization/learning algorithms and a nonlinear networked control system.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.04468v1">A Survey of Graph Neural Networks in Real world: Imbalance, Noise,
+  Privacy and OOD Challenges</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Social and Information Networks-662E9B">
+  <p><b>Published on:</b> 2024-03-07T13:10:37Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Wei Ju, Siyu Yi, Yifan Wang, Zhiping Xiao, Zhengyang Mao, Hourun Li, Yiyang Gu, Yifang Qin, Nan Yin, Senzhang Wang, Xinwang Liu, Xiao Luo, Philip S. Yu, Ming Zhang</p>
+    <p><b>Summary:</b> Graph-structured data exhibits universality and widespread applicability
+across diverse domains, such as social network analysis, biochemistry,
+financial fraud detection, and network security. Significant strides have been
+made in leveraging Graph Neural Networks (GNNs) to achieve remarkable success
+in these areas. However, in real-world scenarios, the training environment for
+models is often far from ideal, leading to substantial performance degradation
+of GNN models due to various unfavorable factors, including imbalance in data
+distribution, the presence of noise in erroneous data, privacy protection of
+sensitive information, and generalization capability for out-of-distribution
+(OOD) scenarios. To tackle these issues, substantial efforts have been devoted
+to improving the performance of GNN models in practical real-world scenarios,
+as well as enhancing their reliability and robustness. In this paper, we
+present a comprehensive survey that systematically reviews existing GNN models,
+focusing on solutions to the four mentioned real-world challenges including
+imbalance, noise, privacy, and OOD in practical scenarios that many existing
+reviews have not considered. Specifically, we first highlight the four key
+challenges faced by existing GNNs, paving the way for our exploration of
+real-world GNN models. Subsequently, we provide detailed discussions on these
+four aspects, dissecting how these solutions contribute to enhancing the
+reliability and robustness of GNN models. Last but not least, we outline
+promising directions and offer future perspectives in the field.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.04451v1">Membership Inference Attacks and Privacy in Topic Modeling</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-03-07T12:43:42Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Nico Manzonelli, Wanrong Zhang, Salil Vadhan</p>
+    <p><b>Summary:</b> Recent research shows that large language models are susceptible to privacy
+attacks that infer aspects of the training data. However, it is unclear if
+simpler generative models, like topic models, share similar vulnerabilities. In
+this work, we propose an attack against topic models that can confidently
+identify members of the training data in Latent Dirichlet Allocation. Our
+results suggest that the privacy risks associated with generative modeling are
+not restricted to large neural models. Additionally, to mitigate these
+vulnerabilities, we explore differentially private (DP) topic modeling. We
+propose a framework for private topic modeling that incorporates DP vocabulary
+selection as a pre-processing step, and show that it improves privacy while
+having limited effects on practical utility.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.04124v1">Privacy-preserving Fine-tuning of Large Language Models through Flatness</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> 
+  <p><b>Published on:</b> 2024-03-07T00:44:11Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Tiejin Chen, Longchao Da, Huixue Zhou, Pingzhi Li, Kaixiong Zhou, Tianlong Chen, Hua Wei</p>
+    <p><b>Summary:</b> The privacy concerns associated with the use of Large Language Models (LLMs)
+have grown recently with the development of LLMs such as ChatGPT. Differential
+Privacy (DP) techniques are explored in existing work to mitigate their privacy
+risks at the cost of generalization degradation. Our paper reveals that the
+flatness of DP-trained models' loss landscape plays an essential role in the
+trade-off between their privacy and generalization. We further propose a
+holistic framework to enforce appropriate weight flatness, which substantially
+improves model generalization with competitive privacy preservation. It
+innovates from three coarse-to-grained levels, including perturbation-aware
+min-max optimization on model weights within a layer, flatness-guided sparse
+prefix-tuning on weights across layers, and weight knowledge distillation
+between DP \& non-DP weights copies. Comprehensive experiments of both
+black-box and white-box scenarios are conducted to demonstrate the
+effectiveness of our proposal in enhancing generalization and maintaining DP
+characteristics. For instance, on text classification dataset QNLI, DP-Flat
+achieves similar performance with non-private full fine-tuning but with DP
+guarantee under privacy budget $\epsilon=3$, and even better performance given
+higher privacy budgets. Codes are provided in the supplement.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.04024v1">Enhancing chest X-ray datasets with privacy-preserving large language
+  models and multi-type annotations: a data-driven approach for improved
+  classification</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2024-03-06T20:10:41Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ricardo Bigolin Lanfredi, Pritam Mukherjee, Ronald Summers</p>
+    <p><b>Summary:</b> In chest X-ray (CXR) image analysis, rule-based systems are usually employed
+to extract labels from reports, but concerns exist about label quality. These
+datasets typically offer only presence labels, sometimes with binary
+uncertainty indicators, which limits their usefulness. In this work, we present
+MAPLEZ (Medical report Annotations with Privacy-preserving Large language model
+using Expeditious Zero shot answers), a novel approach leveraging a locally
+executable Large Language Model (LLM) to extract and enhance findings labels on
+CXR reports. MAPLEZ extracts not only binary labels indicating the presence or
+absence of a finding but also the location, severity, and radiologists'
+uncertainty about the finding. Over eight abnormalities from five test sets, we
+show that our method can extract these annotations with an increase of 5
+percentage points (pp) in F1 score for categorical presence annotations and
+more than 30 pp increase in F1 score for the location annotations over
+competing labelers. Additionally, using these improved annotations in
+classification supervision, we demonstrate substantial advancements in model
+quality, with an increase of 1.7 pp in AUROC over models trained with
+annotations from the state-of-the-art approach. We share code and annotations.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2403.03612v1">Using the Dual-Privacy Framework to Understand Consumers' Perceived
