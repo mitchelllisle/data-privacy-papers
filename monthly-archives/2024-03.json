@@ -678,5 +678,217 @@
       "eess.IV",
       "cs.CV"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.05344v1",
+    "title" : "Federated Learning Method for Preserving Privacy in Face Recognition\n  System",
+    "summary" : "The state-of-the-art face recognition systems are typically trained on a\nsingle computer, utilizing extensive image datasets collected from various\nnumber of users. However, these datasets often contain sensitive personal\ninformation that users may hesitate to disclose. To address potential privacy\nconcerns, we explore the application of federated learning, both with and\nwithout secure aggregators, in the context of both supervised and unsupervised\nface recognition systems. Federated learning facilitates the training of a\nshared model without necessitating the sharing of individual private data,\nachieving this by training models on decentralized edge devices housing the\ndata. In our proposed system, each edge device independently trains its own\nmodel, which is subsequently transmitted either to a secure aggregator or\ndirectly to the central server. To introduce diverse data without the need for\ndata transmission, we employ generative adversarial networks to generate\nimposter data at the edge. Following this, the secure aggregator or central\nserver combines these individual models to construct a global model, which is\nthen relayed back to the edge devices. Experimental findings based on the\nCelebA datasets reveal that employing federated learning in both supervised and\nunsupervised face recognition systems offers dual benefits. Firstly, it\nsafeguards privacy since the original data remains on the edge devices.\nSecondly, the experimental results demonstrate that the aggregated model yields\nnearly identical performance compared to the individual models, particularly\nwhen the federated model does not utilize a secure aggregator. Hence, our\nresults shed light on the practical challenges associated with\nprivacy-preserving face image training, particularly in terms of the balance\nbetween privacy and accuracy.",
+    "updated" : "2024-03-08T14:21:43Z",
+    "published" : "2024-03-08T14:21:43Z",
+    "authors" : [
+      {
+        "name" : "Enoch Solomon"
+      },
+      {
+        "name" : "Abraham Woubie"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.05275v1",
+    "title" : "vSPACE: Voting in a Scalable, Privacy-Aware and Confidential Election",
+    "summary" : "The vSPACE experimental proof-of-concept (PoC) on the TrueElect[Anon][Creds]\nprotocol presents a novel approach to secure, private, and scalable elections,\nextending the TrueElect and ElectAnon protocols with the integration of\nAnonCreds SSI (Self-Sovereign Identity). Such a protocol PoC is situated within\na Zero-Trust Architecture (ZTA) and leverages confidential computing,\ncontinuous authentication, multi-party computation (MPC), and well-architected\nframework (WAF) principles to address the challenges of cybersecurity, privacy,\nand trust over IP (ToIP) protection. Employing a Kubernetes confidential\ncluster within an Enterprise-Scale Landing Zone (ESLZ), vSPACE integrates\nDistributed Ledger Technology (DLT) for immutable and certifiable audit trails.\nThe Infrastructure as Code (IaC) model ensures rapid deployment, consistent\nmanagement, and adherence to security standards, making vSPACE a future-proof\nsolution for digital voting systems.",
+    "updated" : "2024-03-08T12:56:10Z",
+    "published" : "2024-03-08T12:56:10Z",
+    "authors" : [
+      {
+        "name" : "Se Elnour"
+      },
+      {
+        "name" : "William J Buchanan"
+      },
+      {
+        "name" : "Paul Keating"
+      },
+      {
+        "name" : "Mwrwan Abubakar"
+      },
+      {
+        "name" : "Sirag Elnour"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.05156v1",
+    "title" : "On Protecting the Data Privacy of Large Language Models (LLMs): A Survey",
+    "summary" : "Large language models (LLMs) are complex artificial intelligence systems\ncapable of understanding, generating and translating human language. They learn\nlanguage patterns by analyzing large amounts of text data, allowing them to\nperform writing, conversation, summarizing and other language tasks. When LLMs\nprocess and generate large amounts of data, there is a risk of leaking\nsensitive information, which may threaten data privacy. This paper concentrates\non elucidating the data privacy concerns associated with LLMs to foster a\ncomprehensive understanding. Specifically, a thorough investigation is\nundertaken to delineate the spectrum of data privacy threats, encompassing both\npassive privacy leakage and active privacy attacks within LLMs. Subsequently,\nwe conduct an assessment of the privacy protection mechanisms employed by LLMs\nat various stages, followed by a detailed examination of their efficacy and\nconstraints. Finally, the discourse extends to delineate the challenges\nencountered and outline prospective directions for advancement in the realm of\nLLM privacy protection.",
+    "updated" : "2024-03-08T08:47:48Z",
+    "published" : "2024-03-08T08:47:48Z",
+    "authors" : [
+      {
+        "name" : "Biwei Yan"
+      },
+      {
+        "name" : "Kun Li"
+      },
+      {
+        "name" : "Minghui Xu"
+      },
+      {
+        "name" : "Yueyan Dong"
+      },
+      {
+        "name" : "Yue Zhang"
+      },
+      {
+        "name" : "Zhaochun Ren"
+      },
+      {
+        "name" : "Xiuzheng Cheng"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.05114v1",
+    "title" : "APPLE: Adversarial Privacy-aware Perturbations on Latent Embedding for\n  Unfairness Mitigation",
+    "summary" : "Ensuring fairness in deep-learning-based segmentors is crucial for health\nequity. Much effort has been dedicated to mitigating unfairness in the training\ndatasets or procedures. However, with the increasing prevalence of foundation\nmodels in medical image analysis, it is hard to train fair models from scratch\nwhile preserving utility. In this paper, we propose a novel method, Adversarial\nPrivacy-aware Perturbations on Latent Embedding (APPLE), that can improve the\nfairness of deployed segmentors by introducing a small latent feature perturber\nwithout updating the weights of the original model. By adding perturbation to\nthe latent vector, APPLE decorates the latent vector of segmentors such that no\nfairness-related features can be passed to the decoder of the segmentors while\npreserving the architecture and parameters of the segmentor. Experiments on two\nsegmentation datasets and five segmentors (three U-Net-like and two SAM-like)\nillustrate the effectiveness of our proposed method compared to several\nunfairness mitigation methods.",
+    "updated" : "2024-03-08T07:22:48Z",
+    "published" : "2024-03-08T07:22:48Z",
+    "authors" : [
+      {
+        "name" : "Zikang Xu"
+      },
+      {
+        "name" : "Fenghe Tang"
+      },
+      {
+        "name" : "Quan Quan"
+      },
+      {
+        "name" : "Qingsong Yao"
+      },
+      {
+        "name" : "S. Kevin Zhou"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.04867v1",
+    "title" : "Group Privacy Amplification and Unified Amplification by Subsampling for\n  Rényi Differential Privacy",
+    "summary" : "Differential privacy (DP) has various desirable properties, such as\nrobustness to post-processing, group privacy, and amplification by subsampling,\nwhich can be derived independently of each other. Our goal is to determine\nwhether stronger privacy guarantees can be obtained by considering multiple of\nthese properties jointly. To this end, we focus on the combination of group\nprivacy and amplification by subsampling. To provide guarantees that are\namenable to machine learning algorithms, we conduct our analysis in the\nframework of R\\'enyi-DP, which has more favorable composition properties than\n$(\\epsilon,\\delta)$-DP. As part of this analysis, we develop a unified\nframework for deriving amplification by subsampling guarantees for R\\'enyi-DP,\nwhich represents the first such framework for a privacy accounting method and\nis of independent interest. We find that it not only lets us improve upon and\ngeneralize existing amplification results for R\\'enyi-DP, but also derive\nprovably tight group privacy amplification guarantees stronger than existing\nprinciples. These results establish the joint study of different DP properties\nas a promising research direction.",
+    "updated" : "2024-03-07T19:36:05Z",
+    "published" : "2024-03-07T19:36:05Z",
+    "authors" : [
+      {
+        "name" : "Jan Schuchardt"
+      },
+      {
+        "name" : "Mihail Stoian"
+      },
+      {
+        "name" : "Arthur Kosmala"
+      },
+      {
+        "name" : "Stephan Günnemann"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.02292v2",
+    "title" : "A Decade of Privacy-Relevant Android App Reviews: Large Scale Trends",
+    "summary" : "We present an analysis of 12 million instances of privacy-relevant reviews\npublicly visible on the Google Play Store that span a 10 year period. By\nleveraging state of the art NLP techniques, we examine what users have been\nwriting about privacy along multiple dimensions: time, countries, app types,\ndiverse privacy topics, and even across a spectrum of emotions. We find\nconsistent growth of privacy-relevant reviews, and explore topics that are\ntrending (such as Data Deletion and Data Theft), as well as those on the\ndecline (such as privacy-relevant reviews on sensitive permissions). We find\nthat although privacy reviews come from more than 200 countries, 33 countries\nprovide 90% of privacy reviews. We conduct a comparison across countries by\nexamining the distribution of privacy topics a country's users write about, and\nfind that geographic proximity is not a reliable indicator that nearby\ncountries have similar privacy perspectives. We uncover some countries with\nunique patterns and explore those herein. Surprisingly, we uncover that it is\nnot uncommon for reviews that discuss privacy to be positive (32%); many users\nexpress pleasure about privacy features within apps or privacy-focused apps. We\nalso uncover some unexpected behaviors, such as the use of reviews to deliver\nprivacy disclaimers to developers. Finally, we demonstrate the value of\nanalyzing app reviews with our approach as a complement to existing methods for\nunderstanding users' perspectives about privacy",
+    "updated" : "2024-03-07T22:07:00Z",
+    "published" : "2024-03-04T18:21:56Z",
+    "authors" : [
+      {
+        "name" : "Omer Akgul"
+      },
+      {
+        "name" : "Sai Teja Peddinti"
+      },
+      {
+        "name" : "Nina Taft"
+      },
+      {
+        "name" : "Michelle L. Mazurek"
+      },
+      {
+        "name" : "Hamza Harkous"
+      },
+      {
+        "name" : "Animesh Srivastava"
+      },
+      {
+        "name" : "Benoit Seguin"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.04784v1",
+    "title" : "Analysis of Privacy Leakage in Federated Large Language Models",
+    "summary" : "With the rapid adoption of Federated Learning (FL) as the training and tuning\nprotocol for applications utilizing Large Language Models (LLMs), recent\nresearch highlights the need for significant modifications to FL to accommodate\nthe large-scale of LLMs. While substantial adjustments to the protocol have\nbeen introduced as a response, comprehensive privacy analysis for the adapted\nFL protocol is currently lacking.\n  To address this gap, our work delves into an extensive examination of the\nprivacy analysis of FL when used for training LLMs, both from theoretical and\npractical perspectives. In particular, we design two active membership\ninference attacks with guaranteed theoretical success rates to assess the\nprivacy leakages of various adapted FL configurations. Our theoretical findings\nare translated into practical attacks, revealing substantial privacy\nvulnerabilities in popular LLMs, including BERT, RoBERTa, DistilBERT, and\nOpenAI's GPTs, across multiple real-world language datasets. Additionally, we\nconduct thorough experiments to evaluate the privacy leakage of these models\nwhen data is protected by state-of-the-art differential privacy (DP)\nmechanisms.",
+    "updated" : "2024-03-02T20:25:38Z",
+    "published" : "2024-03-02T20:25:38Z",
+    "authors" : [
+      {
+        "name" : "Minh N. Vu"
+      },
+      {
+        "name" : "Truc Nguyen"
+      },
+      {
+        "name" : "Tre' R. Jeter"
+      },
+      {
+        "name" : "My T. Thai"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.04778v1",
+    "title" : "An Efficient Difference-of-Convex Solver for Privacy Funnel",
+    "summary" : "We propose an efficient solver for the privacy funnel (PF) method, leveraging\nits difference-of-convex (DC) structure. The proposed DC separation results in\na closed-form update equation, which allows straightforward application to both\nknown and unknown distribution settings. For known distribution case, we prove\nthe convergence (local stationary points) of the proposed non-greedy solver,\nand empirically show that it outperforms the state-of-the-art approaches in\ncharacterizing the privacy-utility trade-off. The insights of our DC approach\napply to unknown distribution settings where labeled empirical samples are\navailable instead. Leveraging the insights, our alternating minimization solver\nsatisfies the fundamental Markov relation of PF in contrast to previous\nvariational inference-based solvers. Empirically, we evaluate the proposed\nsolver with MNIST and Fashion-MNIST datasets. Our results show that under a\ncomparable reconstruction quality, an adversary suffers from higher prediction\nerror from clustering our compressed codes than that with the compared methods.\nMost importantly, our solver is independent to private information in inference\nphase contrary to the baselines.",
+    "updated" : "2024-03-02T01:05:25Z",
+    "published" : "2024-03-02T01:05:25Z",
+    "authors" : [
+      {
+        "name" : "Teng-Hui Huang"
+      },
+      {
+        "name" : "Hesham El Gamal"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "cs.IT",
+      "math.IT"
+    ]
   }
 ]
