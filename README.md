@@ -693,7 +693,7 @@ experts.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.14544v1">{A New Hope}: Contextual Privacy Policies for Mobile Applications and An
+  <h3><a href="http://arxiv.org/abs/2402.14544v2">{A New Hope}: Contextual Privacy Policies for Mobile Applications and An
   Approach Toward Automated Generation</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
   <p><b>Published on:</b> 2024-02-22T13:32:33Z</p>
@@ -1649,6 +1649,31 @@ contributing to a more secure digital landscape.</p>
 
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.05558v1">Ethical and Privacy Considerations with Location Based Data Research</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2024-02-11T14:50:32Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Leonardo Tonetto, Pauline Kister, Nitinder Mohan, Jörg Ott</p>
+    <p><b>Summary:</b> Networking research, especially focusing on human mobility, has evolved
+significantly in the last two decades and now relies on collection and
+analyzing larger datasets. The increasing sizes of datasets are enabled by
+larger automated efforts to collect data as well as by scalable methods to
+analyze and unveil insights, which was not possible many years ago. However,
+this fast expansion and innovation in human-centric research often comes at a
+cost of privacy or ethics. In this work, we review a vast corpus of scientific
+work on human mobility and how ethics and privacy were considered. We reviewed
+a total of 118 papers, including 149 datasets on individual mobility. We
+demonstrate that these ever growing collections, while enabling new and
+insightful studies, have not all consistently followed a pre-defined set of
+guidelines regarding acceptable practices in data governance as well as how
+their research was communicated. We conclude with a series of discussions on
+how data, privacy and ethics could be dealt within our community.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2402.07180v2">MAGNETO: Edge AI for Human Activity Recognition -- Privacy and
   Personalization</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
@@ -1703,252 +1728,178 @@ under different privacy settings.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.06701v1">Privacy Profiles for Private Selection</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-02-09T08:31:46Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Antti Koskela, Rachel Redberg, Yu-Xiang Wang</p>
-    <p><b>Summary:</b> Private selection mechanisms (e.g., Report Noisy Max, Sparse Vector) are
-fundamental primitives of differentially private (DP) data analysis with wide
-applications to private query release, voting, and hyperparameter tuning.
-Recent work (Liu and Talwar, 2019; Papernot and Steinke, 2022) has made
-significant progress in both generalizing private selection mechanisms and
-tightening their privacy analysis using modern numerical privacy accounting
-tools, e.g., R\'enyi DP. But R\'enyi DP is known to be lossy when
-$(\epsilon,\delta)$-DP is ultimately needed, and there is a trend to close the
-gap by directly handling privacy profiles, i.e., $\delta$ as a function of
-$\epsilon$ or its equivalent dual form known as $f$-DPs. In this paper, we work
-out an easy-to-use recipe that bounds the privacy profiles of ReportNoisyMax
-and PrivateTuning using the privacy profiles of the base algorithms they
-corral. Numerically, our approach improves over the RDP-based accounting in all
-regimes of interest and leads to substantial benefits in end-to-end private
-learning experiments. Our analysis also suggests new distributions, e.g.,
-binomial distribution for randomizing the number of rounds that leads to more
-substantial improvements in certain regimes.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.06137v1">On the Privacy of Selection Mechanisms with Gaussian Noise</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-02-09T02:11:25Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jonathan Lebensold, Doina Precup, Borja Balle</p>
-    <p><b>Summary:</b> Report Noisy Max and Above Threshold are two classical differentially private
-(DP) selection mechanisms. Their output is obtained by adding noise to a
-sequence of low-sensitivity queries and reporting the identity of the query
-whose (noisy) answer satisfies a certain condition. Pure DP guarantees for
-these mechanisms are easy to obtain when Laplace noise is added to the queries.
-On the other hand, when instantiated using Gaussian noise, standard analyses
-only yield approximate DP guarantees despite the fact that the outputs of these
-mechanisms lie in a discrete space. In this work, we revisit the analysis of
-Report Noisy Max and Above Threshold with Gaussian noise and show that, under
-the additional assumption that the underlying queries are bounded, it is
-possible to provide pure ex-ante DP bounds for Report Noisy Max and pure
-ex-post DP bounds for Above Threshold. The resulting bounds are tight and
-depend on closed-form expressions that can be numerically evaluated using
-standard methods. Empirically we find these lead to tighter privacy accounting
-in the high privacy, low data regime. Further, we propose a simple privacy
-filter for composing pure ex-post DP guarantees, and use it to derive a fully
-adaptive Gaussian Sparse Vector Technique mechanism. Finally, we provide
-experiments on mobility and energy consumption datasets demonstrating that our
-Sparse Vector Technique is practically competitive with previous approaches and
-requires less hyper-parameter tuning.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.05860v1">Privacy-Preserving Synthetic Continual Semantic Segmentation for Robotic
-  Surgery</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2024-02-08T17:44:06Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mengya Xu, Mobarakol Islam, Long Bai, Hongliang Ren</p>
-    <p><b>Summary:</b> Deep Neural Networks (DNNs) based semantic segmentation of the robotic
-instruments and tissues can enhance the precision of surgical activities in
-robot-assisted surgery. However, in biological learning, DNNs cannot learn
-incremental tasks over time and exhibit catastrophic forgetting, which refers
-to the sharp decline in performance on previously learned tasks after learning
-a new one. Specifically, when data scarcity is the issue, the model shows a
-rapid drop in performance on previously learned instruments after learning new
-data with new instruments. The problem becomes worse when it limits releasing
-the dataset of the old instruments for the old model due to privacy concerns
-and the unavailability of the data for the new or updated version of the
-instruments for the continual learning model. For this purpose, we develop a
-privacy-preserving synthetic continual semantic segmentation framework by
-blending and harmonizing (i) open-source old instruments foreground to the
-synthesized background without revealing real patient data in public and (ii)
-new instruments foreground to extensively augmented real background. To boost
-the balanced logit distillation from the old model to the continual learning
-model, we design overlapping class-aware temperature normalization (CAT) by
-controlling model learning utility. We also introduce multi-scale
-shifted-feature distillation (SD) to maintain long and short-range spatial
-relationships among the semantic objects where conventional short-range spatial
-features with limited information reduce the power of feature distillation. We
-demonstrate the effectiveness of our framework on the EndoVis 2017 and 2018
-instrument segmentation dataset with a generalized continual learning setting.
-Code is available at~\url{https://github.com/XuMengyaAmy/Synthetic_CAT_SD}.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.05690v1">Overcoming Noise Limitations in QKD with Quantum Privacy Amplification</a></h3>
-  
-  <p><b>Published on:</b> 2024-02-08T14:07:36Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Philipp Sohr, Sebastian Ecker, Lukas Bulla, Martin Bohmann, Rupert Ursin</p>
-    <p><b>Summary:</b> High-quality, distributed quantum entanglement is the distinctive resource
-for quantum communication and forms the foundation for the unequalled level of
-security that can be assured in quantum key distribution. While the
-entanglement provider does not need to be trusted, the secure key rate drops to
-zero if the entanglement used is too noisy. In this paper, we show
-experimentally that QPA is able to increase the secure key rate achievable with
-QKD by improving the quality of distributed entanglement, thus increasing the
-quantum advantage in QKD. Beyond that, we show that QPA enables key generation
-at noise levels that previously prevented key generation. These remarkable
-results were only made possible by the efficient implementation exploiting
-hyperentanglement in the polarisation and energy-time degrees of freedom. We
-provide a detailed characterisation of the gain in secure key rate achieved in
-our proof-of-principle experiment at different noise levels. The results are
-paramount for the implementation of a global quantum network linking quantum
-processors and ensuring future-proof data security.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.05453v1">Mitigating Privacy Risk in Membership Inference by Convex-Concave Loss</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-02-08T07:14:17Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zhenlong Liu, Lei Feng, Huiping Zhuang, Xiaofeng Cao, Hongxin Wei</p>
-    <p><b>Summary:</b> Machine learning models are susceptible to membership inference attacks
-(MIAs), which aim to infer whether a sample is in the training set. Existing
-work utilizes gradient ascent to enlarge the loss variance of training data,
-alleviating the privacy risk. However, optimizing toward a reverse direction
-may cause the model parameters to oscillate near local minima, leading to
-instability and suboptimal performance. In this work, we propose a novel method
--- Convex-Concave Loss, which enables a high variance of training loss
-distribution by gradient descent. Our method is motivated by the theoretical
-analysis that convex losses tend to decrease the loss variance during training.
-Thus, our key idea behind CCL is to reduce the convexity of loss functions with
-a concave term. Trained with CCL, neural networks produce losses with high
-variance for training data, reinforcing the defense against MIAs. Extensive
-experiments demonstrate the superiority of CCL, achieving state-of-the-art
-balance in the privacy-utility trade-off.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.06674v1">Understanding Practical Membership Privacy of Deep Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-02-07T14:23:01Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Marlon Tobaben, Gauri Pradhan, Yuan He, Joonas Jälkö, Antti Honkela</p>
-    <p><b>Summary:</b> We apply a state-of-the-art membership inference attack (MIA) to
-systematically test the practical privacy vulnerability of fine-tuning large
-image classification models.We focus on understanding the properties of data
-sets and samples that make them vulnerable to membership inference. In terms of
-data set properties, we find a strong power law dependence between the number
-of examples per class in the data and the MIA vulnerability, as measured by
-true positive rate of the attack at a low false positive rate. For an
-individual sample, large gradients at the end of training are strongly
-correlated with MIA vulnerability.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.04840v1">Efficient Estimation of a Gaussian Mean with Local Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36"> 
-  <p><b>Published on:</b> 2024-02-07T13:41:45Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Nikita Kalinin, Lukas Steinberger</p>
-    <p><b>Summary:</b> In this paper we study the problem of estimating the unknown mean $\theta$ of
-a unit variance Gaussian distribution in a locally differentially private (LDP)
-way. In the high-privacy regime ($\epsilon\le 0.67$), we identify the exact
-optimal privacy mechanism that minimizes the variance of the estimator
-asymptotically. It turns out to be the extraordinarily simple sign mechanism
-that applies randomized response to the sign of $X_i-\theta$. However, since
-this optimal mechanism depends on the unknown mean $\theta$, we employ a
-two-stage LDP parameter estimation procedure which requires splitting agents
-into two groups. The first $n_1$ observations are used to consistently but not
-necessarily efficiently estimate the parameter $\theta$ by
-$\tilde{\theta}_{n_1}$. Then this estimate is updated by applying the sign
-mechanism with $\tilde{\theta}_{n_1}$ instead of $\theta$ to the remaining
-$n-n_1$ observations, to obtain an LDP and efficient estimator of the unknown
-mean.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.04489v1">De-amplifying Bias from Differential Privacy in Language Model
-  Fine-tuning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> 
-  <p><b>Published on:</b> 2024-02-07T00:30:58Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Sanjari Srivastava, Piotr Mardziel, Zhikhun Zhang, Archana Ahlawat, Anupam Datta, John C Mitchell</p>
-    <p><b>Summary:</b> Fairness and privacy are two important values machine learning (ML)
-practitioners often seek to operationalize in models. Fairness aims to reduce
-model bias for social/demographic sub-groups. Privacy via differential privacy
-(DP) mechanisms, on the other hand, limits the impact of any individual's
-training data on the resulting model. The trade-offs between privacy and
-fairness goals of trustworthy ML pose a challenge to those wishing to address
-both. We show that DP amplifies gender, racial, and religious bias when
-fine-tuning large language models (LLMs), producing models more biased than
-ones fine-tuned without DP. We find the cause of the amplification to be a
-disparity in convergence of gradients across sub-groups. Through the case of
-binary gender bias, we demonstrate that Counterfactual Data Augmentation (CDA),
-a known method for addressing bias, also mitigates bias amplification by DP. As
-a consequence, DP and CDA together can be used to fine-tune models while
-maintaining both fairness and privacy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.04033v1">On provable privacy vulnerabilities of graph representations</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-02-06T14:26:22Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ruofan Wu, Guanhua Fang, Qiying Pan, Mingyang Zhang, Tengfei Liu, Weiqiang Wang, Wenbiao Zhao</p>
-    <p><b>Summary:</b> Graph representation learning (GRL) is critical for extracting insights from
-complex network structures, but it also raises security concerns due to
-potential privacy vulnerabilities in these representations. This paper
-investigates the structural vulnerabilities in graph neural models where
-sensitive topological information can be inferred through edge reconstruction
-attacks. Our research primarily addresses the theoretical underpinnings of
-cosine-similarity-based edge reconstruction attacks (COSERA), providing
-theoretical and empirical evidence that such attacks can perfectly reconstruct
-sparse Erdos Renyi graphs with independent random features as graph size
-increases. Conversely, we establish that sparsity is a critical factor for
-COSERA's effectiveness, as demonstrated through analysis and experiments on
-stochastic block models. Finally, we explore the resilience of (provably)
-private graph representations produced via noisy aggregation (NAG) mechanism
-against COSERA. We empirically delineate instances wherein COSERA demonstrates
-both efficacy and deficiency in its capacity to function as an instrument for
-elucidating the trade-off between privacy and utility.</p>
-  </details>
-</div>
-
-
 
 <h2>2024-03</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.06672v1">Provable Mutual Benefits from Federated Learning in Privacy-Sensitive
+  Domains</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Science and Game Theory-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-03-11T12:43:44Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Nikita Tsoy, Anna Mihalkova, Teodora Todorova, Nikola Konstantinov</p>
+    <p><b>Summary:</b> Cross-silo federated learning (FL) allows data owners to train accurate
+machine learning models by benefiting from each others private datasets.
+Unfortunately, the model accuracy benefits of collaboration are often
+undermined by privacy defenses. Therefore, to incentivize client participation
+in privacy-sensitive domains, a FL protocol should strike a delicate balance
+between privacy guarantees and end-model accuracy. In this paper, we study the
+question of when and how a server could design a FL protocol provably
+beneficial for all participants. First, we provide necessary and sufficient
+conditions for the existence of mutually beneficial protocols in the context of
+mean estimation and convex stochastic optimization. We also derive protocols
+that maximize the total clients' utility, given symmetric privacy preferences.
+Finally, we design protocols maximizing end-model accuracy and demonstrate
+their benefits in synthetic experiments.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.06172v1">Understanding Parents' Perceptions and Practices Toward Children's
+  Security and Privacy in Virtual Reality</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2024-03-10T10:54:44Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jiaxun Cao, Abhinaya S B, Anupam Das, Pardis Emami-Naeini</p>
+    <p><b>Summary:</b> Recent years have seen a sharp increase in underage users of virtual reality
+(VR), where security and privacy (S\&P) risks such as data surveillance and
+self-disclosure in social interaction have been increasingly prominent. Prior
+work shows children largely rely on parents to mitigate S\&P risks in their
+technology use. Therefore, understanding parents' S\&P knowledge, perceptions,
+and practices is critical for identifying the gaps for parents, technology
+designers, and policymakers to enhance children's S\&P. While such empirical
+knowledge is substantial in other consumer technologies, it remains largely
+unknown in the context of VR. To address the gap, we conducted in-depth
+semi-structured interviews with 20 parents of children under the age of 18 who
+use VR at home. Our findings highlight parents generally lack S\&P awareness
+due to the perception that VR is still in its infancy. To protect their
+children's interaction with VR, parents currently primarily rely on active
+strategies such as verbal education about S\&P. Passive strategies such as
+parental controls in VR are not commonly used among our interviewees, mainly
+due to their perceived technical constraints. Parents also highlight that a
+multi-stakeholder ecosystem must be established towards more S\&P support for
+children in VR. Based on the findings, we propose actionable S\&P
+recommendations for critical stakeholders, including parents, educators, VR
+companies, and governments.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.06131v1">FedPIT: Towards Privacy-preserving and Few-shot Federated Instruction
+  Tuning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-03-10T08:41:22Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zhuo Zhang, Jingyuan Zhang, Jintao Huang, Lizhen Qu, Hongzhi Zhang, Zenglin Xu</p>
+    <p><b>Summary:</b> Instruction tuning has proven essential for enhancing the performance of
+large language models (LLMs) in generating human-aligned responses. However,
+collecting diverse, high-quality instruction data for tuning poses challenges,
+particularly in privacy-sensitive domains. Federated instruction tuning (FedIT)
+has emerged as a solution, leveraging federated learning from multiple data
+owners while preserving privacy. Yet, it faces challenges due to limited
+instruction data and vulnerabilities to training data extraction attacks. To
+address these issues, we propose a novel federated algorithm, FedPIT, which
+utilizes LLMs' in-context learning capability to self-generate task-specific
+synthetic data for training autonomously. Our method employs parameter-isolated
+training to maintain global parameters trained on synthetic data and local
+parameters trained on augmented local data, effectively thwarting data
+extraction attacks. Extensive experiments on real-world medical data
+demonstrate the effectiveness of FedPIT in improving federated few-shot
+performance while preserving privacy and robustness against data heterogeneity.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.05864v1">PAPER-HILT: Personalized and Adaptive Privacy-Aware Early-Exit for
+  Reinforcement Learning in Human-in-the-Loop Systems</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">  
+  <p><b>Published on:</b> 2024-03-09T10:24:12Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mojtaba Taherisadr, Salma Elmalaki</p>
+    <p><b>Summary:</b> Reinforcement Learning (RL) has increasingly become a preferred method over
+traditional rule-based systems in diverse human-in-the-loop (HITL) applications
+due to its adaptability to the dynamic nature of human interactions. However,
+integrating RL in such settings raises significant privacy concerns, as it
+might inadvertently expose sensitive user information. Addressing this, our
+paper focuses on developing PAPER-HILT, an innovative, adaptive RL strategy
+through exploiting an early-exit approach designed explicitly for privacy
+preservation in HITL environments. This approach dynamically adjusts the
+tradeoff between privacy protection and system utility, tailoring its operation
+to individual behavioral patterns and preferences. We mainly highlight the
+challenge of dealing with the variable and evolving nature of human behavior,
+which renders static privacy models ineffective. PAPER-HILT's effectiveness is
+evaluated through its application in two distinct contexts: Smart Home
+environments and Virtual Reality (VR) Smart Classrooms. The empirical results
+demonstrate PAPER-HILT's capability to provide a personalized equilibrium
+between user privacy and application utility, adapting effectively to
+individual user needs and preferences. On average for both experiments, utility
+(performance) drops by 24%, and privacy (state prediction) improves by 31%.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.05794v1">Privacy-Preserving Diffusion Model Using Homomorphic Encryption</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-03-09T04:56:57Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yaojian Chen, Qiben Yan</p>
+    <p><b>Summary:</b> In this paper, we introduce a privacy-preserving stable diffusion framework
+leveraging homomorphic encryption, called HE-Diffusion, which primarily focuses
+on protecting the denoising phase of the diffusion process. HE-Diffusion is a
+tailored encryption framework specifically designed to align with the unique
+architecture of stable diffusion, ensuring both privacy and functionality. To
+address the inherent computational challenges, we propose a novel
+min-distortion method that enables efficient partial image encryption,
+significantly reducing the overhead without compromising the model's output
+quality. Furthermore, we adopt a sparse tensor representation to expedite
+computational operations, enhancing the overall efficiency of the
+privacy-preserving diffusion process. We successfully implement HE-based
+privacy-preserving stable diffusion inference. The experimental results show
+that HE-Diffusion achieves 500 times speedup compared with the baseline method,
+and reduces time cost of the homomorphically encrypted inference to the minute
+level. Both the performance and accuracy of the HE-Diffusion are on par with
+the plaintext counterpart. Our approach marks a significant step towards
+integrating advanced cryptographic techniques with state-of-the-art generative
+models, paving the way for privacy-preserving and efficient image generation in
+critical applications.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.05692v1">Privacy-Preserving Sharing of Data Analytics Runtime Metrics for
+  Performance Modeling</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
+  <p><b>Published on:</b> 2024-03-08T22:03:21Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jonathan Will, Dominik Scheinert, Jan Bode, Cedric Kring, Seraphin Zunzer, Lauritz Thamsen</p>
+    <p><b>Summary:</b> Performance modeling for large-scale data analytics workloads can improve the
+efficiency of cluster resource allocations and job scheduling. However, the
+performance of these workloads is influenced by numerous factors, such as job
+inputs and the assigned cluster resources. As a result, performance models
+require significant amounts of training data. This data can be obtained by
+exchanging runtime metrics between collaborating organizations. Yet, not all
+organizations may be inclined to publicly disclose such metadata.
+  We present a privacy-preserving approach for sharing runtime metrics based on
+differential privacy and data synthesis. Our evaluation on performance data
+from 736 Spark job executions indicates that fully anonymized training data
+largely maintains performance prediction accuracy, particularly when there is
+minimal original data available. With 30 or fewer available original data
+samples, the use of synthetic training data resulted only in a one percent
+reduction in performance model accuracy on average.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2403.05344v1">Federated Learning Method for Preserving Privacy in Face Recognition
@@ -2012,6 +1963,32 @@ solution for digital voting systems.</p>
 
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.05271v2">DID:RING: Ring Signatures using Decentralised Identifiers For
+  Privacy-Aware Identity</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-03-08T12:49:39Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Dimitrios Kasimatis, Sam Grierson, William J. Buchanan, Chris Eckl, Pavlos Papadopoulos, Nikolaos Pitropakis, Craig Thomson, Baraq Ghaleb</p>
+    <p><b>Summary:</b> Decentralised identifiers have become a standardised element of digital
+identity architecture, with supra-national organisations such as the European
+Union adopting them as a key component for a unified European digital identity
+ledger. This paper delves into enhancing security and privacy features within
+decentralised identifiers by integrating ring signatures as an alternative
+verification method. This allows users to identify themselves through digital
+signatures without revealing which public key they used. To this end, the study
+proposed a novel decentralised identity method showcased in a decentralised
+identifier-based architectural framework. Additionally, the investigation
+assesses the repercussions of employing this new method in the verification
+process, focusing specifically on privacy and security aspects. Although ring
+signatures are an established asset of cryptographic protocols, this paper
+seeks to leverage their capabilities in the evolving domain of digital
+identities.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2403.05156v1">On Protecting the Data Privacy of Large Language Models (LLMs): A Survey</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2024-03-08T08:47:48Z</p>
@@ -2059,6 +2036,31 @@ preserving the architecture and parameters of the segmentor. Experiments on two
 segmentation datasets and five segmentors (three U-Net-like and two SAM-like)
 illustrate the effectiveness of our proposed method compared to several
 unfairness mitigation methods.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.05598v1">Privacy Amplification for the Gaussian Mechanism via Bounded Support</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-03-07T21:22:07Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shengyuan Hu, Saeed Mahloujifar, Virginia Smith, Kamalika Chaudhuri, Chuan Guo</p>
+    <p><b>Summary:</b> Data-dependent privacy accounting frameworks such as per-instance
+differential privacy (pDP) and Fisher information loss (FIL) confer
+fine-grained privacy guarantees for individuals in a fixed training dataset.
+These guarantees can be desirable compared to vanilla DP in real world settings
+as they tightly upper-bound the privacy leakage for a $\textit{specific}$
+individual in an $\textit{actual}$ dataset, rather than considering worst-case
+datasets. While these frameworks are beginning to gain popularity, to date,
+there is a lack of private mechanisms that can fully leverage advantages of
+data-dependent accounting. To bridge this gap, we propose simple modifications
+of the Gaussian mechanism with bounded support, showing that they amplify
+privacy guarantees under data-dependent accounting. Experiments on model
+training with DP-SGD show that using bounded support Gaussian mechanisms can
+provide a reduction of the pDP bound $\epsilon$ by as much as 30% without
+negative effects on model utility.</p>
   </details>
 </div>
 
