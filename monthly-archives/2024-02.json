@@ -2731,5 +2731,72 @@
       "cs.CR",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2402.14544v2",
+    "title" : "{A New Hope}: Contextual Privacy Policies for Mobile Applications and An\n  Approach Toward Automated Generation",
+    "summary" : "Privacy policies have emerged as the predominant approach to conveying\nprivacy notices to mobile application users. In an effort to enhance both\nreadability and user engagement, the concept of contextual privacy policies\n(CPPs) has been proposed by researchers. The aim of CPPs is to fragment privacy\npolicies into concise snippets, displaying them only within the corresponding\ncontexts within the application's graphical user interfaces (GUIs). In this\npaper, we first formulate CPP in mobile application scenario, and then present\na novel multimodal framework, named SeePrivacy, specifically designed to\nautomatically generate CPPs for mobile applications. This method uniquely\nintegrates vision-based GUI understanding with privacy policy analysis,\nachieving 0.88 precision and 0.90 recall to detect contexts, as well as 0.98\nprecision and 0.96 recall in extracting corresponding policy segments. A human\nevaluation shows that 77% of the extracted privacy policy segments were\nperceived as well-aligned with the detected contexts. These findings suggest\nthat SeePrivacy could serve as a significant tool for bolstering user\ninteraction with, and understanding of, privacy policies. Furthermore, our\nsolution has the potential to make privacy notices more accessible and\ninclusive, thus appealing to a broader demographic. A demonstration of our work\ncan be accessed at https://cpp4app.github.io/SeePrivacy/",
+    "updated" : "2024-03-10T06:19:10Z",
+    "published" : "2024-02-22T13:32:33Z",
+    "authors" : [
+      {
+        "name" : "Shidong Pan"
+      },
+      {
+        "name" : "Zhen Tao"
+      },
+      {
+        "name" : "Thong Hoang"
+      },
+      {
+        "name" : "Dawen Zhang"
+      },
+      {
+        "name" : "Tianshi Li"
+      },
+      {
+        "name" : "Zhenchang Xing"
+      },
+      {
+        "name" : "Sherry Xu"
+      },
+      {
+        "name" : "Mark Staples"
+      },
+      {
+        "name" : "Thierry Rakotoarivelo"
+      },
+      {
+        "name" : "David Lo"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.SE"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.05558v1",
+    "title" : "Ethical and Privacy Considerations with Location Based Data Research",
+    "summary" : "Networking research, especially focusing on human mobility, has evolved\nsignificantly in the last two decades and now relies on collection and\nanalyzing larger datasets. The increasing sizes of datasets are enabled by\nlarger automated efforts to collect data as well as by scalable methods to\nanalyze and unveil insights, which was not possible many years ago. However,\nthis fast expansion and innovation in human-centric research often comes at a\ncost of privacy or ethics. In this work, we review a vast corpus of scientific\nwork on human mobility and how ethics and privacy were considered. We reviewed\na total of 118 papers, including 149 datasets on individual mobility. We\ndemonstrate that these ever growing collections, while enabling new and\ninsightful studies, have not all consistently followed a pre-defined set of\nguidelines regarding acceptable practices in data governance as well as how\ntheir research was communicated. We conclude with a series of discussions on\nhow data, privacy and ethics could be dealt within our community.",
+    "updated" : "2024-02-11T14:50:32Z",
+    "published" : "2024-02-11T14:50:32Z",
+    "authors" : [
+      {
+        "name" : "Leonardo Tonetto"
+      },
+      {
+        "name" : "Pauline Kister"
+      },
+      {
+        "name" : "Nitinder Mohan"
+      },
+      {
+        "name" : "Jörg Ott"
+      }
+    ],
+    "categories" : [
+      "cs.CY"
+    ]
   }
 ]
