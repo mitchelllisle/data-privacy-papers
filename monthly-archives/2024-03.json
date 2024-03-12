@@ -890,5 +890,222 @@
       "cs.IT",
       "math.IT"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.06672v1",
+    "title" : "Provable Mutual Benefits from Federated Learning in Privacy-Sensitive\n  Domains",
+    "summary" : "Cross-silo federated learning (FL) allows data owners to train accurate\nmachine learning models by benefiting from each others private datasets.\nUnfortunately, the model accuracy benefits of collaboration are often\nundermined by privacy defenses. Therefore, to incentivize client participation\nin privacy-sensitive domains, a FL protocol should strike a delicate balance\nbetween privacy guarantees and end-model accuracy. In this paper, we study the\nquestion of when and how a server could design a FL protocol provably\nbeneficial for all participants. First, we provide necessary and sufficient\nconditions for the existence of mutually beneficial protocols in the context of\nmean estimation and convex stochastic optimization. We also derive protocols\nthat maximize the total clients' utility, given symmetric privacy preferences.\nFinally, we design protocols maximizing end-model accuracy and demonstrate\ntheir benefits in synthetic experiments.",
+    "updated" : "2024-03-11T12:43:44Z",
+    "published" : "2024-03-11T12:43:44Z",
+    "authors" : [
+      {
+        "name" : "Nikita Tsoy"
+      },
+      {
+        "name" : "Anna Mihalkova"
+      },
+      {
+        "name" : "Teodora Todorova"
+      },
+      {
+        "name" : "Nikola Konstantinov"
+      }
+    ],
+    "categories" : [
+      "stat.ML",
+      "cs.CR",
+      "cs.GT",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.06172v1",
+    "title" : "Understanding Parents' Perceptions and Practices Toward Children's\n  Security and Privacy in Virtual Reality",
+    "summary" : "Recent years have seen a sharp increase in underage users of virtual reality\n(VR), where security and privacy (S\\&P) risks such as data surveillance and\nself-disclosure in social interaction have been increasingly prominent. Prior\nwork shows children largely rely on parents to mitigate S\\&P risks in their\ntechnology use. Therefore, understanding parents' S\\&P knowledge, perceptions,\nand practices is critical for identifying the gaps for parents, technology\ndesigners, and policymakers to enhance children's S\\&P. While such empirical\nknowledge is substantial in other consumer technologies, it remains largely\nunknown in the context of VR. To address the gap, we conducted in-depth\nsemi-structured interviews with 20 parents of children under the age of 18 who\nuse VR at home. Our findings highlight parents generally lack S\\&P awareness\ndue to the perception that VR is still in its infancy. To protect their\nchildren's interaction with VR, parents currently primarily rely on active\nstrategies such as verbal education about S\\&P. Passive strategies such as\nparental controls in VR are not commonly used among our interviewees, mainly\ndue to their perceived technical constraints. Parents also highlight that a\nmulti-stakeholder ecosystem must be established towards more S\\&P support for\nchildren in VR. Based on the findings, we propose actionable S\\&P\nrecommendations for critical stakeholders, including parents, educators, VR\ncompanies, and governments.",
+    "updated" : "2024-03-10T10:54:44Z",
+    "published" : "2024-03-10T10:54:44Z",
+    "authors" : [
+      {
+        "name" : "Jiaxun Cao"
+      },
+      {
+        "name" : "Abhinaya S B"
+      },
+      {
+        "name" : "Anupam Das"
+      },
+      {
+        "name" : "Pardis Emami-Naeini"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.06131v1",
+    "title" : "FedPIT: Towards Privacy-preserving and Few-shot Federated Instruction\n  Tuning",
+    "summary" : "Instruction tuning has proven essential for enhancing the performance of\nlarge language models (LLMs) in generating human-aligned responses. However,\ncollecting diverse, high-quality instruction data for tuning poses challenges,\nparticularly in privacy-sensitive domains. Federated instruction tuning (FedIT)\nhas emerged as a solution, leveraging federated learning from multiple data\nowners while preserving privacy. Yet, it faces challenges due to limited\ninstruction data and vulnerabilities to training data extraction attacks. To\naddress these issues, we propose a novel federated algorithm, FedPIT, which\nutilizes LLMs' in-context learning capability to self-generate task-specific\nsynthetic data for training autonomously. Our method employs parameter-isolated\ntraining to maintain global parameters trained on synthetic data and local\nparameters trained on augmented local data, effectively thwarting data\nextraction attacks. Extensive experiments on real-world medical data\ndemonstrate the effectiveness of FedPIT in improving federated few-shot\nperformance while preserving privacy and robustness against data heterogeneity.",
+    "updated" : "2024-03-10T08:41:22Z",
+    "published" : "2024-03-10T08:41:22Z",
+    "authors" : [
+      {
+        "name" : "Zhuo Zhang"
+      },
+      {
+        "name" : "Jingyuan Zhang"
+      },
+      {
+        "name" : "Jintao Huang"
+      },
+      {
+        "name" : "Lizhen Qu"
+      },
+      {
+        "name" : "Hongzhi Zhang"
+      },
+      {
+        "name" : "Zenglin Xu"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.05864v1",
+    "title" : "PAPER-HILT: Personalized and Adaptive Privacy-Aware Early-Exit for\n  Reinforcement Learning in Human-in-the-Loop Systems",
+    "summary" : "Reinforcement Learning (RL) has increasingly become a preferred method over\ntraditional rule-based systems in diverse human-in-the-loop (HITL) applications\ndue to its adaptability to the dynamic nature of human interactions. However,\nintegrating RL in such settings raises significant privacy concerns, as it\nmight inadvertently expose sensitive user information. Addressing this, our\npaper focuses on developing PAPER-HILT, an innovative, adaptive RL strategy\nthrough exploiting an early-exit approach designed explicitly for privacy\npreservation in HITL environments. This approach dynamically adjusts the\ntradeoff between privacy protection and system utility, tailoring its operation\nto individual behavioral patterns and preferences. We mainly highlight the\nchallenge of dealing with the variable and evolving nature of human behavior,\nwhich renders static privacy models ineffective. PAPER-HILT's effectiveness is\nevaluated through its application in two distinct contexts: Smart Home\nenvironments and Virtual Reality (VR) Smart Classrooms. The empirical results\ndemonstrate PAPER-HILT's capability to provide a personalized equilibrium\nbetween user privacy and application utility, adapting effectively to\nindividual user needs and preferences. On average for both experiments, utility\n(performance) drops by 24%, and privacy (state prediction) improves by 31%.",
+    "updated" : "2024-03-09T10:24:12Z",
+    "published" : "2024-03-09T10:24:12Z",
+    "authors" : [
+      {
+        "name" : "Mojtaba Taherisadr"
+      },
+      {
+        "name" : "Salma Elmalaki"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "cs.HC",
+      "F.2.2",
+      "I.2.7"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.05794v1",
+    "title" : "Privacy-Preserving Diffusion Model Using Homomorphic Encryption",
+    "summary" : "In this paper, we introduce a privacy-preserving stable diffusion framework\nleveraging homomorphic encryption, called HE-Diffusion, which primarily focuses\non protecting the denoising phase of the diffusion process. HE-Diffusion is a\ntailored encryption framework specifically designed to align with the unique\narchitecture of stable diffusion, ensuring both privacy and functionality. To\naddress the inherent computational challenges, we propose a novel\nmin-distortion method that enables efficient partial image encryption,\nsignificantly reducing the overhead without compromising the model's output\nquality. Furthermore, we adopt a sparse tensor representation to expedite\ncomputational operations, enhancing the overall efficiency of the\nprivacy-preserving diffusion process. We successfully implement HE-based\nprivacy-preserving stable diffusion inference. The experimental results show\nthat HE-Diffusion achieves 500 times speedup compared with the baseline method,\nand reduces time cost of the homomorphically encrypted inference to the minute\nlevel. Both the performance and accuracy of the HE-Diffusion are on par with\nthe plaintext counterpart. Our approach marks a significant step towards\nintegrating advanced cryptographic techniques with state-of-the-art generative\nmodels, paving the way for privacy-preserving and efficient image generation in\ncritical applications.",
+    "updated" : "2024-03-09T04:56:57Z",
+    "published" : "2024-03-09T04:56:57Z",
+    "authors" : [
+      {
+        "name" : "Yaojian Chen"
+      },
+      {
+        "name" : "Qiben Yan"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.05692v1",
+    "title" : "Privacy-Preserving Sharing of Data Analytics Runtime Metrics for\n  Performance Modeling",
+    "summary" : "Performance modeling for large-scale data analytics workloads can improve the\nefficiency of cluster resource allocations and job scheduling. However, the\nperformance of these workloads is influenced by numerous factors, such as job\ninputs and the assigned cluster resources. As a result, performance models\nrequire significant amounts of training data. This data can be obtained by\nexchanging runtime metrics between collaborating organizations. Yet, not all\norganizations may be inclined to publicly disclose such metadata.\n  We present a privacy-preserving approach for sharing runtime metrics based on\ndifferential privacy and data synthesis. Our evaluation on performance data\nfrom 736 Spark job executions indicates that fully anonymized training data\nlargely maintains performance prediction accuracy, particularly when there is\nminimal original data available. With 30 or fewer available original data\nsamples, the use of synthetic training data resulted only in a one percent\nreduction in performance model accuracy on average.",
+    "updated" : "2024-03-08T22:03:21Z",
+    "published" : "2024-03-08T22:03:21Z",
+    "authors" : [
+      {
+        "name" : "Jonathan Will"
+      },
+      {
+        "name" : "Dominik Scheinert"
+      },
+      {
+        "name" : "Jan Bode"
+      },
+      {
+        "name" : "Cedric Kring"
+      },
+      {
+        "name" : "Seraphin Zunzer"
+      },
+      {
+        "name" : "Lauritz Thamsen"
+      }
+    ],
+    "categories" : [
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.05271v2",
+    "title" : "DID:RING: Ring Signatures using Decentralised Identifiers For\n  Privacy-Aware Identity",
+    "summary" : "Decentralised identifiers have become a standardised element of digital\nidentity architecture, with supra-national organisations such as the European\nUnion adopting them as a key component for a unified European digital identity\nledger. This paper delves into enhancing security and privacy features within\ndecentralised identifiers by integrating ring signatures as an alternative\nverification method. This allows users to identify themselves through digital\nsignatures without revealing which public key they used. To this end, the study\nproposed a novel decentralised identity method showcased in a decentralised\nidentifier-based architectural framework. Additionally, the investigation\nassesses the repercussions of employing this new method in the verification\nprocess, focusing specifically on privacy and security aspects. Although ring\nsignatures are an established asset of cryptographic protocols, this paper\nseeks to leverage their capabilities in the evolving domain of digital\nidentities.",
+    "updated" : "2024-03-11T15:20:37Z",
+    "published" : "2024-03-08T12:49:39Z",
+    "authors" : [
+      {
+        "name" : "Dimitrios Kasimatis"
+      },
+      {
+        "name" : "Sam Grierson"
+      },
+      {
+        "name" : "William J. Buchanan"
+      },
+      {
+        "name" : "Chris Eckl"
+      },
+      {
+        "name" : "Pavlos Papadopoulos"
+      },
+      {
+        "name" : "Nikolaos Pitropakis"
+      },
+      {
+        "name" : "Craig Thomson"
+      },
+      {
+        "name" : "Baraq Ghaleb"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.05598v1",
+    "title" : "Privacy Amplification for the Gaussian Mechanism via Bounded Support",
+    "summary" : "Data-dependent privacy accounting frameworks such as per-instance\ndifferential privacy (pDP) and Fisher information loss (FIL) confer\nfine-grained privacy guarantees for individuals in a fixed training dataset.\nThese guarantees can be desirable compared to vanilla DP in real world settings\nas they tightly upper-bound the privacy leakage for a $\\textit{specific}$\nindividual in an $\\textit{actual}$ dataset, rather than considering worst-case\ndatasets. While these frameworks are beginning to gain popularity, to date,\nthere is a lack of private mechanisms that can fully leverage advantages of\ndata-dependent accounting. To bridge this gap, we propose simple modifications\nof the Gaussian mechanism with bounded support, showing that they amplify\nprivacy guarantees under data-dependent accounting. Experiments on model\ntraining with DP-SGD show that using bounded support Gaussian mechanisms can\nprovide a reduction of the pDP bound $\\epsilon$ by as much as 30% without\nnegative effects on model utility.",
+    "updated" : "2024-03-07T21:22:07Z",
+    "published" : "2024-03-07T21:22:07Z",
+    "authors" : [
+      {
+        "name" : "Shengyuan Hu"
+      },
+      {
+        "name" : "Saeed Mahloujifar"
+      },
+      {
+        "name" : "Virginia Smith"
+      },
+      {
+        "name" : "Kamalika Chaudhuri"
+      },
+      {
+        "name" : "Chuan Guo"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
   }
 ]
