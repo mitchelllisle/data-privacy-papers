@@ -1502,234 +1502,229 @@ to an increase of the privacy level.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.08156v2">Group Decision-Making among Privacy-Aware Agents</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Multiagent Systems-662E9B"> 
-  <p><b>Published on:</b> 2024-02-13T01:38:01Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Marios Papachristou, M. Amin Rahimian</p>
-    <p><b>Summary:</b> How can individuals exchange information to learn from each other despite
-their privacy needs and security concerns? For example, consider individuals
-deliberating a contentious topic and being concerned about divulging their
-private experiences. Preserving individual privacy and enabling efficient
-social learning are both important desiderata but seem fundamentally at odds
-with each other and very hard to reconcile. We do so by controlling information
-leakage using rigorous statistical guarantees that are based on differential
-privacy (DP). Our agents use log-linear rules to update their beliefs after
-communicating with their neighbors. Adding DP randomization noise to beliefs
-provides communicating agents with plausible deniability with regard to their
-private information and their network neighborhoods. We consider two learning
-environments one for distributed maximum-likelihood estimation given a finite
-number of private signals and another for online learning from an infinite,
-intermittent signal stream. Noisy information aggregation in the finite case
-leads to interesting tradeoffs between rejecting low-quality states and making
-sure all high-quality states are accepted in the algorithm output. Our results
-flesh out the nature of the trade-offs in both cases between the quality of the
-group decision outcomes, learning accuracy, communication cost, and the level
-of privacy protections that the agents are afforded.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.09477v1">PANORAMIA: Privacy Auditing of Machine Learning Models without
-  Retraining</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-02-12T22:56:07Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mishaal Kazmi, Hadrien Lautraite, Alireza Akbari, Mauricio Soroco, Qiaoyue Tang, Tao Wang, Sébastien Gambs, Mathias Lécuyer</p>
-    <p><b>Summary:</b> We introduce a privacy auditing scheme for ML models that relies on
-membership inference attacks using generated data as "non-members". This
-scheme, which we call PANORAMIA, quantifies the privacy leakage for large-scale
-ML models without control of the training process or model re-training and only
-requires access to a subset of the training data. To demonstrate its
-applicability, we evaluate our auditing scheme across multiple ML domains,
-ranging from image and tabular data classification to large-scale language
-models.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.07687v2">Privacy-Preserving Gaze Data Streaming in Immersive Interactive Virtual
-  Reality: Robustness and User Experience</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-02-12T14:53:12Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ethan Wilson, Azim Ibragimov, Michael J. Proulx, Sai Deep Tetali, Kevin Butler, Eakta Jain</p>
-    <p><b>Summary:</b> Eye tracking is routinely being incorporated into virtual reality (VR)
-systems. Prior research has shown that eye tracking data, if exposed, can be
-used for re-identification attacks. The state of our knowledge about currently
-existing privacy mechanisms is limited to privacy-utility trade-off curves
-based on data-centric metrics of utility, such as prediction error, and
-black-box threat models. We propose that for interactive VR applications, it is
-essential to consider user-centric notions of utility and a variety of threat
-models. We develop a methodology to evaluate real-time privacy mechanisms for
-interactive VR applications that incorporate subjective user experience and
-task performance metrics. We evaluate selected privacy mechanisms using this
-methodology and find that re-identification accuracy can be decreased to as low
-as 14% while maintaining a high usability score and reasonable task
-performance. Finally, we elucidate three threat scenarios (black-box, black-box
-with exemplars, and white-box) and assess how well the different privacy
-mechanisms hold up to these adversarial scenarios.
-  This work advances the state of the art in VR privacy by providing a
-methodology for end-to-end assessment of the risk of re-identification attacks
-and potential mitigating solutions.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.07584v1">Privacy-Optimized Randomized Response for Sharing Multi-Attribute Data</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-02-12T11:34:42Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Akito Yamamoto, Tetsuo Shibuya</p>
-    <p><b>Summary:</b> With the increasing amount of data in society, privacy concerns in data
-sharing have become widely recognized. Particularly, protecting personal
-attribute information is essential for a wide range of aims from crowdsourcing
-to realizing personalized medicine. Although various differentially private
-methods based on randomized response have been proposed for single attribute
-information or specific analysis purposes such as frequency estimation, there
-is a lack of studies on the mechanism for sharing individuals' multiple
-categorical information itself. The existing randomized response for sharing
-multi-attribute data uses the Kronecker product to perturb each attribute
-information in turn according to the respective privacy level but achieves only
-a weak privacy level for the entire dataset. Therefore, in this study, we
-propose a privacy-optimized randomized response that guarantees the strongest
-privacy in sharing multi-attribute data. Furthermore, we present an efficient
-heuristic algorithm for constructing a near-optimal mechanism. The time
-complexity of our algorithm is O(k^2), where k is the number of attributes, and
-it can be performed in about 1 second even for large datasets with k = 1,000.
-The experimental results demonstrate that both of our methods provide
-significantly stronger privacy guarantees for the entire dataset than the
-existing method. In addition, we show an analysis example using genome
-statistics to confirm that our methods can achieve less than half the output
-error compared with that of the existing method. Overall, this study is an
-important step toward trustworthy sharing and analysis of multi-attribute data.
-The Python implementation of our experiments and supplemental results are
-available at https://github.com/ay0408/Optimized-RR.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.07367v1">Utilizing Large LanguageModels to Detect Privacy Leaks in Mini-App Code</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-02-12T01:55:40Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Liming Jiang</p>
-    <p><b>Summary:</b> Mini-applications, commonly referred to as mini-apps, are compact software
-programs embedded within larger applications or platforms, offering targeted
-functionality without the need for separate installations. Typically web-based
-or cloud-hosted, these mini-apps streamline user experiences by providing
-focused services accessible through web browsers or mobile apps. Their
-simplicity, speed, and integration capabilities make them valuable additions to
-messaging platforms, social media networks, e-commerce sites, and various
-digital environments. WeChat Mini Programs, a prominent feature of China's
-leading messaging app, exemplify this trend, offering users a seamless array of
-services without additional downloads. Leveraging WeChat's extensive user base
-and payment infrastructure, Mini Programs facilitate efficient transactions and
-bridge online and offline experiences, shaping China's digital landscape
-significantly. This paper investigates the potential of employing Large
-Language Models (LLMs) to detect privacy breaches within WeChat Mini Programs.
-Given the widespread use of Mini Programs and growing concerns about data
-privacy, this research seeks to determine if LLMs can effectively identify
-instances of privacy leakage within this ecosystem. Through meticulous analysis
-and experimentation, we aim to highlight the efficacy of LLMs in safeguarding
-user privacy and security within the WeChat Mini Program environment, thereby
-contributing to a more secure digital landscape.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.05558v1">Ethical and Privacy Considerations with Location Based Data Research</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2024-02-11T14:50:32Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Leonardo Tonetto, Pauline Kister, Nitinder Mohan, Jörg Ott</p>
-    <p><b>Summary:</b> Networking research, especially focusing on human mobility, has evolved
-significantly in the last two decades and now relies on collection and
-analyzing larger datasets. The increasing sizes of datasets are enabled by
-larger automated efforts to collect data as well as by scalable methods to
-analyze and unveil insights, which was not possible many years ago. However,
-this fast expansion and innovation in human-centric research often comes at a
-cost of privacy or ethics. In this work, we review a vast corpus of scientific
-work on human mobility and how ethics and privacy were considered. We reviewed
-a total of 118 papers, including 149 datasets on individual mobility. We
-demonstrate that these ever growing collections, while enabling new and
-insightful studies, have not all consistently followed a pre-defined set of
-guidelines regarding acceptable practices in data governance as well as how
-their research was communicated. We conclude with a series of discussions on
-how data, privacy and ethics could be dealt within our community.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.07180v2">MAGNETO: Edge AI for Human Activity Recognition -- Privacy and
-  Personalization</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-02-11T12:29:16Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jingwei Zuo, George Arvanitakis, Mthandazo Ndhlovu, Hakim Hacid</p>
-    <p><b>Summary:</b> Human activity recognition (HAR) is a well-established field, significantly
-advanced by modern machine learning (ML) techniques. While companies have
-successfully integrated HAR into consumer products, they typically rely on a
-predefined activity set, which limits personalizations at the user level (edge
-devices). Despite advancements in Incremental Learning for updating models with
-new data, this often occurs on the Cloud, necessitating regular data transfers
-between cloud and edge devices, thus leading to data privacy issues. In this
-paper, we propose MAGNETO, an Edge AI platform that pushes HAR tasks from the
-Cloud to the Edge. MAGNETO allows incremental human activity learning directly
-on the Edge devices, without any data exchange with the Cloud. This enables
-strong privacy guarantees, low processing latency, and a high degree of
-personalization for users. In particular, we demonstrate MAGNETO in an Android
-device, validating the whole pipeline from data collection to result
-visualization.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.07002v1">Clients Collaborate: Flexible Differentially Private Federated Learning
-  with Guaranteed Improvement of Utility-Privacy Trade-off</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-02-10T17:39:34Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yuecheng Li, Tong Wang, Chuan Chen, Jian Lou, Bin Chen, Lei Yang, Zibin Zheng</p>
-    <p><b>Summary:</b> To defend against privacy leakage of user data, differential privacy is
-widely used in federated learning, but it is not free. The addition of noise
-randomly disrupts the semantic integrity of the model and this disturbance
-accumulates with increased communication rounds. In this paper, we introduce a
-novel federated learning framework with rigorous privacy guarantees, named
-FedCEO, designed to strike a trade-off between model utility and user privacy
-by letting clients ''Collaborate with Each Other''. Specifically, we perform
-efficient tensor low-rank proximal optimization on stacked local model
-parameters at the server, demonstrating its capability to flexibly truncate
-high-frequency components in spectral space. This implies that our FedCEO can
-effectively recover the disrupted semantic information by smoothing the global
-semantic space for different privacy settings and continuous training
-processes. Moreover, we improve the SOTA utility-privacy trade-off bound by an
-order of $\sqrt{d}$, where $d$ is the input dimension. We illustrate our
-theoretical results with experiments on representative image datasets. It
-observes significant performance improvements and strict privacy guarantees
-under different privacy settings.</p>
-  </details>
-</div>
-
-
 
 <h2>2024-03</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.07842v1">Quantifying and Mitigating Privacy Risks for Tabular Generative Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-03-12T17:27:49Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Chaoyi Zhu, Jiayi Tang, Hans Brouwer, Juan F. Pérez, Marten van Dijk, Lydia Y. Chen</p>
+    <p><b>Summary:</b> Synthetic data from generative models emerges as the privacy-preserving
+data-sharing solution. Such a synthetic data set shall resemble the original
+data without revealing identifiable private information. The backbone
+technology of tabular synthesizers is rooted in image generative models,
+ranging from Generative Adversarial Networks (GANs) to recent diffusion models.
+Recent prior work sheds light on the utility-privacy tradeoff on tabular data,
+revealing and quantifying privacy risks on synthetic data. We first conduct an
+exhaustive empirical analysis, highlighting the utility-privacy tradeoff of
+five state-of-the-art tabular synthesizers, against eight privacy attacks, with
+a special focus on membership inference attacks. Motivated by the observation
+of high data quality but also high privacy risk in tabular diffusion, we
+propose DP-TLDM, Differentially Private Tabular Latent Diffusion Model, which
+is composed of an autoencoder network to encode the tabular data and a latent
+diffusion model to synthesize the latent tables. Following the emerging f-DP
+framework, we apply DP-SGD to train the auto-encoder in combination with batch
+clipping and use the separation value as the privacy metric to better capture
+the privacy gain from DP algorithms. Our empirical evaluation demonstrates that
+DP-TLDM is capable of achieving a meaningful theoretical privacy guarantee
+while also significantly enhancing the utility of synthetic data. Specifically,
+compared to other DP-protected tabular generative models, DP-TLDM improves the
+synthetic quality by an average of 35% in data resemblance, 15% in the utility
+for downstream tasks, and 50% in data discriminability, all while preserving a
+comparable level of privacy risk.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.07838v1">MPCPA: Multi-Center Privacy Computing with Predictions Aggregation based
+  on Denoising Diffusion Probabilistic Model</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
+  <p><b>Published on:</b> 2024-03-12T17:21:46Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Guibo Luo, Hanwen Zhang, Xiuling Wang, Mingzhi Chen, Yuesheng Zhu</p>
+    <p><b>Summary:</b> Privacy-preserving computing is crucial for multi-center machine learning in
+many applications such as healthcare and finance. In this paper a Multi-center
+Privacy Computing framework with Predictions Aggregation (MPCPA) based on
+denoising diffusion probabilistic model (DDPM) is proposed, in which
+conditional diffusion model training, DDPM data generation, a classifier, and
+strategy of prediction aggregation are included. Compared to federated
+learning, this framework necessitates fewer communications and leverages
+high-quality generated data to support robust privacy computing. Experimental
+validation across multiple datasets demonstrates that the proposed framework
+outperforms classic federated learning and approaches the performance of
+centralized learning with original data. Moreover, our approach demonstrates
+robust security, effectively addressing challenges such as image memorization
+and membership inference attacks. Our experiments underscore the efficacy of
+the proposed framework in the realm of privacy computing, with the code set to
+be released soon.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.07817v1">UniHand: Privacy-preserving Universal Handover for Small-Cell Networks
+  in 5G-enabled Mobile Communication with KCI Resilience</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-03-12T16:56:31Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Rabiah Alnashwan, Prosanta Gope, Benjamin Dowling</p>
+    <p><b>Summary:</b> Introducing Small Cell Networks (SCN) has significantly improved wireless
+link quality, spectrum efficiency and network capacity, which has been viewed
+as one of the key technologies in the fifth-generation (5G) mobile network.
+However, this technology increases the frequency of handover (HO) procedures
+caused by the dense deployment of cells in the network with reduced cell
+coverage, bringing new security and privacy issues. The current 5G-AKA and HO
+protocols are vulnerable to security weaknesses, such as the lack of forward
+secrecy and identity confusion attacks. The high HO frequency of HOs might
+magnify these security and privacy concerns in the 5G mobile network. This work
+addresses these issues by proposing a secure privacy-preserving universal HO
+scheme ($\UniHand$) for SCNs in 5G mobile communication. $\UniHand$ can achieve
+mutual authentication, strong anonymity, perfect forward secrecy,
+key-escrow-free and key compromise impersonation (KCI) resilience. To the best
+of our knowledge, this is the \textit{first} scheme to achieve secure,
+privacy-preserving universal HO with \textit{KCI} resilience for roaming users
+in 5G environment. We demonstrate that our proposed scheme is resilient against
+all the essential security threats by performing a comprehensive formal
+security analysis and conducting relevant experiments to show the
+cost-effectiveness of the proposed scheme.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.07772v1">Privacy Guarantees in Posterior Sampling under Contamination</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36">  
+  <p><b>Published on:</b> 2024-03-12T15:58:53Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shenggang Hu, Louis Aslett, Hongsheng Dai, Murray Pollock, Gareth O. Roberts</p>
+    <p><b>Summary:</b> In recent years, differential privacy has been adopted by tech-companies and
+governmental agencies as the standard for measuring privacy in algorithms. We
+study the level of differential privacy in Bayesian posterior sampling setups.
+As opposed to the common privatization approach of injecting Laplace/Gaussian
+noise into the output, Huber's contamination model is considered, where we
+replace at random the data points with samples from a heavy-tailed
+distribution. We derived bounds for the differential privacy level
+$(\epsilon,\delta)$ for our approach while lifting the common restriction on
+assuming bounded observation and parameter space seen in the existing
+literature. We further consider the effect of sample size on privacy level and
+the convergence rate of $(\epsilon,\delta)$ to zero. Asymptotically, the
+contamination approach is fully private at no cost of information loss. We also
+provide some examples depicting inference models that our setup is applicable
+to with a theoretical estimation of convergence rate.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.07588v1">Visual Privacy Auditing with Diffusion Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-03-12T12:18:55Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Kristian Schwethelm, Johannes Kaiser, Moritz Knolle, Daniel Rueckert, Georgios Kaissis, Alexander Ziller</p>
+    <p><b>Summary:</b> Image reconstruction attacks on machine learning models pose a significant
+risk to privacy by potentially leaking sensitive information. Although
+defending against such attacks using differential privacy (DP) has proven
+effective, determining appropriate DP parameters remains challenging. Current
+formal guarantees on data reconstruction success suffer from overly theoretical
+assumptions regarding adversary knowledge about the target data, particularly
+in the image domain. In this work, we empirically investigate this discrepancy
+and find that the practicality of these assumptions strongly depends on the
+domain shift between the data prior and the reconstruction target. We propose a
+reconstruction attack based on diffusion models (DMs) that assumes adversary
+access to real-world image priors and assess its implications on privacy
+leakage under DP-SGD. We show that (1) real-world data priors significantly
+influence reconstruction success, (2) current reconstruction bounds do not
+model the risk posed by data priors well, and (3) DMs can serve as effective
+auditing tools for visualizing privacy leakage.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.07506v1">Robustness, Security, Privacy, Explainability, Efficiency, and Usability
+  of Large Language Models for Code</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
+  <p><b>Published on:</b> 2024-03-12T10:43:26Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zhou Yang, Zhensu Sun, Terry Zhuo Yue, Premkumar Devanbu, David Lo</p>
+    <p><b>Summary:</b> Large language models for code (LLM4Code), which demonstrate strong
+performance (e.g., high accuracy) in processing source code, have significantly
+transformed software engineering. Many studies separately investigate the
+non-functional properties of LM4Code, but there is no systematic review of how
+these properties are evaluated and enhanced. This paper fills this gap by
+thoroughly examining 146 relevant studies, thereby presenting the first
+systematic literature review to identify seven important properties beyond
+accuracy, including robustness, security, privacy, explainability, efficiency,
+and usability. We discuss the current state-of-the-art methods and trends,
+identify gaps in existing research, and present promising directions for future
+study.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.07288v1">Efficient and Model-Agnostic Parameter Estimation Under
+  Privacy-Preserving Post-randomization Data</a></h3>
+  
+  <p><b>Published on:</b> 2024-03-12T03:41:34Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Qinglong Tian, Jiwei Zhao</p>
+    <p><b>Summary:</b> Protecting individual privacy is crucial when releasing sensitive data for
+public use. While data de-identification helps, it is not enough. This paper
+addresses parameter estimation in scenarios where data are perturbed using the
+Post-Randomization Method (PRAM) to enhance privacy. Existing methods for
+parameter estimation under PRAM data suffer from limitations like being
+parameter-specific, model-dependent, and lacking efficiency guarantees. We
+propose a novel, efficient method that overcomes these limitations. Our method
+is applicable to general parameters defined through estimating equations and
+makes no assumptions about the underlying data model. We further prove that the
+proposed estimator achieves the semiparametric efficiency bound, making it
+optimal in terms of asymptotic variance.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.07218v1">SoK: Can Trajectory Generation Combine Privacy and Utility?</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-03-12T00:25:14Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Erik Buchholz, Alsharif Abuadbba, Shuo Wang, Surya Nepal, Salil S. Kanhere</p>
+    <p><b>Summary:</b> While location trajectories represent a valuable data source for analyses and
+location-based services, they can reveal sensitive information, such as
+political and religious preferences. Differentially private publication
+mechanisms have been proposed to allow for analyses under rigorous privacy
+guarantees. However, the traditional protection schemes suffer from a limiting
+privacy-utility trade-off and are vulnerable to correlation and reconstruction
+attacks. Synthetic trajectory data generation and release represent a promising
+alternative to protection algorithms. While initial proposals achieve
+remarkable utility, they fail to provide rigorous privacy guarantees. This
+paper proposes a framework for designing a privacy-preserving trajectory
+publication approach by defining five design goals, particularly stressing the
+importance of choosing an appropriate Unit of Privacy. Based on this framework,
+we briefly discuss the existing trajectory protection approaches, emphasising
+their shortcomings. This work focuses on the systematisation of the
+state-of-the-art generative models for trajectories in the context of the
+proposed framework. We find that no existing solution satisfies all
+requirements. Thus, we perform an experimental study evaluating the
+applicability of six sequential generative models to the trajectory domain.
+Finally, we conclude that a generative trajectory model providing semantic
+guarantees remains an open research question and propose concrete next steps
+for future research.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2403.06672v1">Provable Mutual Benefits from Federated Learning in Privacy-Sensitive
@@ -2709,7 +2704,7 @@ superiority of our algorithm over the algorithms based on edge LDP.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.01438v1">Privacy-Preserving Collaborative Split Learning Framework for Smart Grid
+  <h3><a href="http://arxiv.org/abs/2403.01438v2">Privacy-Preserving Collaborative Split Learning Framework for Smart Grid
   Load Forecasting</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2024-03-03T08:24:39Z</p>
@@ -2900,7 +2895,7 @@ to alleviate these issues.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.04778v1">An Efficient Difference-of-Convex Solver for Privacy Funnel</a></h3>
+  <h3><a href="http://arxiv.org/abs/2403.04778v2">An Efficient Difference-of-Convex Solver for Privacy Funnel</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
   <p><b>Published on:</b> 2024-03-02T01:05:25Z</p>
   <details>
