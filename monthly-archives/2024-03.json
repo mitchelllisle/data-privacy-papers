@@ -1107,5 +1107,259 @@
       "cs.CR",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.07842v1",
+    "title" : "Quantifying and Mitigating Privacy Risks for Tabular Generative Models",
+    "summary" : "Synthetic data from generative models emerges as the privacy-preserving\ndata-sharing solution. Such a synthetic data set shall resemble the original\ndata without revealing identifiable private information. The backbone\ntechnology of tabular synthesizers is rooted in image generative models,\nranging from Generative Adversarial Networks (GANs) to recent diffusion models.\nRecent prior work sheds light on the utility-privacy tradeoff on tabular data,\nrevealing and quantifying privacy risks on synthetic data. We first conduct an\nexhaustive empirical analysis, highlighting the utility-privacy tradeoff of\nfive state-of-the-art tabular synthesizers, against eight privacy attacks, with\na special focus on membership inference attacks. Motivated by the observation\nof high data quality but also high privacy risk in tabular diffusion, we\npropose DP-TLDM, Differentially Private Tabular Latent Diffusion Model, which\nis composed of an autoencoder network to encode the tabular data and a latent\ndiffusion model to synthesize the latent tables. Following the emerging f-DP\nframework, we apply DP-SGD to train the auto-encoder in combination with batch\nclipping and use the separation value as the privacy metric to better capture\nthe privacy gain from DP algorithms. Our empirical evaluation demonstrates that\nDP-TLDM is capable of achieving a meaningful theoretical privacy guarantee\nwhile also significantly enhancing the utility of synthetic data. Specifically,\ncompared to other DP-protected tabular generative models, DP-TLDM improves the\nsynthetic quality by an average of 35% in data resemblance, 15% in the utility\nfor downstream tasks, and 50% in data discriminability, all while preserving a\ncomparable level of privacy risk.",
+    "updated" : "2024-03-12T17:27:49Z",
+    "published" : "2024-03-12T17:27:49Z",
+    "authors" : [
+      {
+        "name" : "Chaoyi Zhu"
+      },
+      {
+        "name" : "Jiayi Tang"
+      },
+      {
+        "name" : "Hans Brouwer"
+      },
+      {
+        "name" : "Juan F. Pérez"
+      },
+      {
+        "name" : "Marten van Dijk"
+      },
+      {
+        "name" : "Lydia Y. Chen"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.07838v1",
+    "title" : "MPCPA: Multi-Center Privacy Computing with Predictions Aggregation based\n  on Denoising Diffusion Probabilistic Model",
+    "summary" : "Privacy-preserving computing is crucial for multi-center machine learning in\nmany applications such as healthcare and finance. In this paper a Multi-center\nPrivacy Computing framework with Predictions Aggregation (MPCPA) based on\ndenoising diffusion probabilistic model (DDPM) is proposed, in which\nconditional diffusion model training, DDPM data generation, a classifier, and\nstrategy of prediction aggregation are included. Compared to federated\nlearning, this framework necessitates fewer communications and leverages\nhigh-quality generated data to support robust privacy computing. Experimental\nvalidation across multiple datasets demonstrates that the proposed framework\noutperforms classic federated learning and approaches the performance of\ncentralized learning with original data. Moreover, our approach demonstrates\nrobust security, effectively addressing challenges such as image memorization\nand membership inference attacks. Our experiments underscore the efficacy of\nthe proposed framework in the realm of privacy computing, with the code set to\nbe released soon.",
+    "updated" : "2024-03-12T17:21:46Z",
+    "published" : "2024-03-12T17:21:46Z",
+    "authors" : [
+      {
+        "name" : "Guibo Luo"
+      },
+      {
+        "name" : "Hanwen Zhang"
+      },
+      {
+        "name" : "Xiuling Wang"
+      },
+      {
+        "name" : "Mingzhi Chen"
+      },
+      {
+        "name" : "Yuesheng Zhu"
+      }
+    ],
+    "categories" : [
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.07817v1",
+    "title" : "UniHand: Privacy-preserving Universal Handover for Small-Cell Networks\n  in 5G-enabled Mobile Communication with KCI Resilience",
+    "summary" : "Introducing Small Cell Networks (SCN) has significantly improved wireless\nlink quality, spectrum efficiency and network capacity, which has been viewed\nas one of the key technologies in the fifth-generation (5G) mobile network.\nHowever, this technology increases the frequency of handover (HO) procedures\ncaused by the dense deployment of cells in the network with reduced cell\ncoverage, bringing new security and privacy issues. The current 5G-AKA and HO\nprotocols are vulnerable to security weaknesses, such as the lack of forward\nsecrecy and identity confusion attacks. The high HO frequency of HOs might\nmagnify these security and privacy concerns in the 5G mobile network. This work\naddresses these issues by proposing a secure privacy-preserving universal HO\nscheme ($\\UniHand$) for SCNs in 5G mobile communication. $\\UniHand$ can achieve\nmutual authentication, strong anonymity, perfect forward secrecy,\nkey-escrow-free and key compromise impersonation (KCI) resilience. To the best\nof our knowledge, this is the \\textit{first} scheme to achieve secure,\nprivacy-preserving universal HO with \\textit{KCI} resilience for roaming users\nin 5G environment. We demonstrate that our proposed scheme is resilient against\nall the essential security threats by performing a comprehensive formal\nsecurity analysis and conducting relevant experiments to show the\ncost-effectiveness of the proposed scheme.",
+    "updated" : "2024-03-12T16:56:31Z",
+    "published" : "2024-03-12T16:56:31Z",
+    "authors" : [
+      {
+        "name" : "Rabiah Alnashwan"
+      },
+      {
+        "name" : "Prosanta Gope"
+      },
+      {
+        "name" : "Benjamin Dowling"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.07772v1",
+    "title" : "Privacy Guarantees in Posterior Sampling under Contamination",
+    "summary" : "In recent years, differential privacy has been adopted by tech-companies and\ngovernmental agencies as the standard for measuring privacy in algorithms. We\nstudy the level of differential privacy in Bayesian posterior sampling setups.\nAs opposed to the common privatization approach of injecting Laplace/Gaussian\nnoise into the output, Huber's contamination model is considered, where we\nreplace at random the data points with samples from a heavy-tailed\ndistribution. We derived bounds for the differential privacy level\n$(\\epsilon,\\delta)$ for our approach while lifting the common restriction on\nassuming bounded observation and parameter space seen in the existing\nliterature. We further consider the effect of sample size on privacy level and\nthe convergence rate of $(\\epsilon,\\delta)$ to zero. Asymptotically, the\ncontamination approach is fully private at no cost of information loss. We also\nprovide some examples depicting inference models that our setup is applicable\nto with a theoretical estimation of convergence rate.",
+    "updated" : "2024-03-12T15:58:53Z",
+    "published" : "2024-03-12T15:58:53Z",
+    "authors" : [
+      {
+        "name" : "Shenggang Hu"
+      },
+      {
+        "name" : "Louis Aslett"
+      },
+      {
+        "name" : "Hongsheng Dai"
+      },
+      {
+        "name" : "Murray Pollock"
+      },
+      {
+        "name" : "Gareth O. Roberts"
+      }
+    ],
+    "categories" : [
+      "math.ST",
+      "stat.TH",
+      "62F15, 62J12"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.07588v1",
+    "title" : "Visual Privacy Auditing with Diffusion Models",
+    "summary" : "Image reconstruction attacks on machine learning models pose a significant\nrisk to privacy by potentially leaking sensitive information. Although\ndefending against such attacks using differential privacy (DP) has proven\neffective, determining appropriate DP parameters remains challenging. Current\nformal guarantees on data reconstruction success suffer from overly theoretical\nassumptions regarding adversary knowledge about the target data, particularly\nin the image domain. In this work, we empirically investigate this discrepancy\nand find that the practicality of these assumptions strongly depends on the\ndomain shift between the data prior and the reconstruction target. We propose a\nreconstruction attack based on diffusion models (DMs) that assumes adversary\naccess to real-world image priors and assess its implications on privacy\nleakage under DP-SGD. We show that (1) real-world data priors significantly\ninfluence reconstruction success, (2) current reconstruction bounds do not\nmodel the risk posed by data priors well, and (3) DMs can serve as effective\nauditing tools for visualizing privacy leakage.",
+    "updated" : "2024-03-12T12:18:55Z",
+    "published" : "2024-03-12T12:18:55Z",
+    "authors" : [
+      {
+        "name" : "Kristian Schwethelm"
+      },
+      {
+        "name" : "Johannes Kaiser"
+      },
+      {
+        "name" : "Moritz Knolle"
+      },
+      {
+        "name" : "Daniel Rueckert"
+      },
+      {
+        "name" : "Georgios Kaissis"
+      },
+      {
+        "name" : "Alexander Ziller"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.07506v1",
+    "title" : "Robustness, Security, Privacy, Explainability, Efficiency, and Usability\n  of Large Language Models for Code",
+    "summary" : "Large language models for code (LLM4Code), which demonstrate strong\nperformance (e.g., high accuracy) in processing source code, have significantly\ntransformed software engineering. Many studies separately investigate the\nnon-functional properties of LM4Code, but there is no systematic review of how\nthese properties are evaluated and enhanced. This paper fills this gap by\nthoroughly examining 146 relevant studies, thereby presenting the first\nsystematic literature review to identify seven important properties beyond\naccuracy, including robustness, security, privacy, explainability, efficiency,\nand usability. We discuss the current state-of-the-art methods and trends,\nidentify gaps in existing research, and present promising directions for future\nstudy.",
+    "updated" : "2024-03-12T10:43:26Z",
+    "published" : "2024-03-12T10:43:26Z",
+    "authors" : [
+      {
+        "name" : "Zhou Yang"
+      },
+      {
+        "name" : "Zhensu Sun"
+      },
+      {
+        "name" : "Terry Zhuo Yue"
+      },
+      {
+        "name" : "Premkumar Devanbu"
+      },
+      {
+        "name" : "David Lo"
+      }
+    ],
+    "categories" : [
+      "cs.SE"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.07288v1",
+    "title" : "Efficient and Model-Agnostic Parameter Estimation Under\n  Privacy-Preserving Post-randomization Data",
+    "summary" : "Protecting individual privacy is crucial when releasing sensitive data for\npublic use. While data de-identification helps, it is not enough. This paper\naddresses parameter estimation in scenarios where data are perturbed using the\nPost-Randomization Method (PRAM) to enhance privacy. Existing methods for\nparameter estimation under PRAM data suffer from limitations like being\nparameter-specific, model-dependent, and lacking efficiency guarantees. We\npropose a novel, efficient method that overcomes these limitations. Our method\nis applicable to general parameters defined through estimating equations and\nmakes no assumptions about the underlying data model. We further prove that the\nproposed estimator achieves the semiparametric efficiency bound, making it\noptimal in terms of asymptotic variance.",
+    "updated" : "2024-03-12T03:41:34Z",
+    "published" : "2024-03-12T03:41:34Z",
+    "authors" : [
+      {
+        "name" : "Qinglong Tian"
+      },
+      {
+        "name" : "Jiwei Zhao"
+      }
+    ],
+    "categories" : [
+      "stat.ME"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.07218v1",
+    "title" : "SoK: Can Trajectory Generation Combine Privacy and Utility?",
+    "summary" : "While location trajectories represent a valuable data source for analyses and\nlocation-based services, they can reveal sensitive information, such as\npolitical and religious preferences. Differentially private publication\nmechanisms have been proposed to allow for analyses under rigorous privacy\nguarantees. However, the traditional protection schemes suffer from a limiting\nprivacy-utility trade-off and are vulnerable to correlation and reconstruction\nattacks. Synthetic trajectory data generation and release represent a promising\nalternative to protection algorithms. While initial proposals achieve\nremarkable utility, they fail to provide rigorous privacy guarantees. This\npaper proposes a framework for designing a privacy-preserving trajectory\npublication approach by defining five design goals, particularly stressing the\nimportance of choosing an appropriate Unit of Privacy. Based on this framework,\nwe briefly discuss the existing trajectory protection approaches, emphasising\ntheir shortcomings. This work focuses on the systematisation of the\nstate-of-the-art generative models for trajectories in the context of the\nproposed framework. We find that no existing solution satisfies all\nrequirements. Thus, we perform an experimental study evaluating the\napplicability of six sequential generative models to the trajectory domain.\nFinally, we conclude that a generative trajectory model providing semantic\nguarantees remains an open research question and propose concrete next steps\nfor future research.",
+    "updated" : "2024-03-12T00:25:14Z",
+    "published" : "2024-03-12T00:25:14Z",
+    "authors" : [
+      {
+        "name" : "Erik Buchholz"
+      },
+      {
+        "name" : "Alsharif Abuadbba"
+      },
+      {
+        "name" : "Shuo Wang"
+      },
+      {
+        "name" : "Surya Nepal"
+      },
+      {
+        "name" : "Salil S. Kanhere"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.01438v2",
+    "title" : "Privacy-Preserving Collaborative Split Learning Framework for Smart Grid\n  Load Forecasting",
+    "summary" : "Accurate load forecasting is crucial for energy management, infrastructure\nplanning, and demand-supply balancing. Smart meter data availability has led to\nthe demand for sensor-based load forecasting. Conventional ML allows training a\nsingle global model using data from multiple smart meters requiring data\ntransfer to a central server, raising concerns for network requirements,\nprivacy, and security. We propose a split learning-based framework for load\nforecasting to alleviate this issue. We split a deep neural network model into\ntwo parts, one for each Grid Station (GS) responsible for an entire\nneighbourhood's smart meters and the other for the Service Provider (SP).\nInstead of sharing their data, client smart meters use their respective GSs'\nmodel split for forward pass and only share their activations with the GS.\nUnder this framework, each GS is responsible for training a personalized model\nsplit for their respective neighbourhoods, whereas the SP can train a single\nglobal or personalized model for each GS. Experiments show that the proposed\nmodels match or exceed a centrally trained model's performance and generalize\nwell. Privacy is analyzed by assessing information leakage between data and\nshared activations of the GS model split. Additionally, differential privacy\nenhances local data privacy while examining its impact on performance. A\ntransformer model is used as our base learner.",
+    "updated" : "2024-03-12T05:37:07Z",
+    "published" : "2024-03-03T08:24:39Z",
+    "authors" : [
+      {
+        "name" : "Asif Iqbal"
+      },
+      {
+        "name" : "Prosanta Gope"
+      },
+      {
+        "name" : "Biplab Sikdar"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.04778v2",
+    "title" : "An Efficient Difference-of-Convex Solver for Privacy Funnel",
+    "summary" : "We propose an efficient solver for the privacy funnel (PF) method, leveraging\nits difference-of-convex (DC) structure. The proposed DC separation results in\na closed-form update equation, which allows straightforward application to both\nknown and unknown distribution settings. For known distribution case, we prove\nthe convergence (local stationary points) of the proposed non-greedy solver,\nand empirically show that it outperforms the state-of-the-art approaches in\ncharacterizing the privacy-utility trade-off. The insights of our DC approach\napply to unknown distribution settings where labeled empirical samples are\navailable instead. Leveraging the insights, our alternating minimization solver\nsatisfies the fundamental Markov relation of PF in contrast to previous\nvariational inference-based solvers. Empirically, we evaluate the proposed\nsolver with MNIST and Fashion-MNIST datasets. Our results show that under a\ncomparable reconstruction quality, an adversary suffers from higher prediction\nerror from clustering our compressed codes than that with the compared methods.\nMost importantly, our solver is independent to private information in inference\nphase contrary to the baselines.",
+    "updated" : "2024-03-12T13:47:52Z",
+    "published" : "2024-03-02T01:05:25Z",
+    "authors" : [
+      {
+        "name" : "Teng-Hui Huang"
+      },
+      {
+        "name" : "Hesham El Gamal"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "cs.IT",
+      "math.IT"
+    ]
   }
 ]
