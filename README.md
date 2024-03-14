@@ -1380,130 +1380,135 @@ large-scale networks.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.08826v1">Equilibria of Data Marketplaces with Privacy-Aware Sellers under
-  Endogenous Privacy Costs</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Science and Game Theory-5BC0EB">
-  <p><b>Published on:</b> 2024-02-13T22:10:57Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Diptangshu Sen, Jingyan Wang, Juba Ziani</p>
-    <p><b>Summary:</b> We study a two-sided online data ecosystem comprised of an online platform,
-users on the platform, and downstream learners or data buyers. The learners can
-buy user data on the platform (to run a statistic or machine learning task).
-Potential users decide whether to join by looking at the trade-off between i)
-their benefit from joining the platform and interacting with other users and
-ii) the privacy costs they incur from sharing their data.
-  First, we introduce a novel modeling element for two-sided data platforms:
-the privacy costs of the users are endogenous and depend on how much of their
-data is purchased by the downstream learners. Then, we characterize marketplace
-equilibria in certain simple settings. In particular, we provide a full
-characterization in two variants of our model that correspond to different
-utility functions for the users: i) when each user gets a constant benefit for
-participating in the platform and ii) when each user's benefit is linearly
-increasing in the number of other users that participate. In both variants,
-equilibria in our setting are significantly different from equilibria when
-privacy costs are exogenous and fixed, highlighting the importance of taking
-endogeneity in the privacy costs into account. Finally, we provide simulations
-and semi-synthetic experiments to extend our results to more general
-assumptions. We experiment with different distributions of users' privacy costs
-and different functional forms of the users' utilities for joining the
-platform.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.08655v1">Assessing the Privacy Risk of Cross-Platform Identity Linkage using Eye
-  Movement Biometrics</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2024-02-13T18:37:23Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Samantha Aziz, Oleg Komogortsev</p>
-    <p><b>Summary:</b> The recent emergence of ubiquitous, multi-platform eye tracking has raised
-user privacy concerns over re-identification across platforms, where a person
-is re-identified across multiple eye tracking-enabled platforms using
-personally identifying information that is implicitly expressed through their
-eye movement. We present an empirical investigation quantifying a modern eye
-movement biometric model's ability to link subject identities across three
-different eye tracking devices using eye movement signals from each device. We
-show that a state-of-the art eye movement biometrics model demonstrates
-above-chance levels of biometric performance (34.99% equal error rate, 15%
-rank-1 identification rate) when linking user identities across one pair of
-devices, but not for the other. Considering these findings, we also discuss the
-impact that eye tracking signal quality has on the model's ability to
-meaningfully associate a subject's identity between two substantially different
-eye tracking devices. Our investigation advances a fundamental understanding of
-the privacy risks for identity linkage across platforms by employing both
-quantitative and qualitative measures of biometric performance, including a
-visualization of the model's ability to distinguish genuine and imposter
-authentication attempts across platforms.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.08227v1">Privacy-Preserving Language Model Inference with Instance Obfuscation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2024-02-13T05:36:54Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yixiang Yao, Fei Wang, Srivatsan Ravi, Muhao Chen</p>
-    <p><b>Summary:</b> Language Models as a Service (LMaaS) offers convenient access for developers
-and researchers to perform inference using pre-trained language models.
-Nonetheless, the input data and the inference results containing private
-information are exposed as plaintext during the service call, leading to
-privacy issues. Recent studies have started tackling the privacy issue by
-transforming input data into privacy-preserving representation from the
-user-end with the techniques such as noise addition and content perturbation,
-while the exploration of inference result protection, namely decision privacy,
-is still a blank page. In order to maintain the black-box manner of LMaaS,
-conducting data privacy protection, especially for the decision, is a
-challenging task because the process has to be seamless to the models and
-accompanied by limited communication and computation overhead. We thus propose
-Instance-Obfuscated Inference (IOI) method, which focuses on addressing the
-decision privacy issue of natural language understanding tasks in their
-complete life-cycle. Besides, we conduct comprehensive experiments to evaluate
-the performance as well as the privacy-protection strength of the proposed
-method on various benchmarking tasks.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.08223v3">The Limits of Price Discrimination Under Privacy Constraints</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Science and Game Theory-5BC0EB">
-  <p><b>Published on:</b> 2024-02-13T05:28:38Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Alireza Fallah, Michael I. Jordan, Ali Makhdoumi, Azarakhsh Malekian</p>
-    <p><b>Summary:</b> We consider a producer's problem of selling a product to a continuum of
-privacy-conscious consumers, where the producer can implement third-degree
-price discrimination, offering different prices to different market segments.
-In the absence of privacy constraints, Bergemann, Brooks, and Morris [2015]
-characterize the set of all possible consumer-producer utilities, showing that
-it is a triangle. We consider a privacy mechanism that provides a degree of
-protection by probabilistically masking each market segment, and we establish
-that the resultant set of all consumer-producer utilities forms a convex
-polygon, characterized explicitly as a linear mapping of a certain
-high-dimensional convex polytope into $\mathbb{R}^2$. This characterization
-enables us to investigate the impact of the privacy mechanism on both producer
-and consumer utilities. In particular, we establish that the privacy constraint
-always hurts the producer by reducing both the maximum and minimum utility
-achievable. From the consumer's perspective, although the privacy mechanism
-ensures an increase in the minimum utility compared to the non-private
-scenario, interestingly, it may reduce the maximum utility. Finally, we
-demonstrate that increasing the privacy level does not necessarily intensify
-these effects. For instance, the maximum utility for the producer or the
-minimum utility for the consumer may exhibit nonmonotonic behavior in response
-to an increase of the privacy level.</p>
-  </details>
-</div>
-
-
 
 <h2>2024-03</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.08624v1">Towards a Privacy and Security-Aware Framework for Ethical AI: Guiding
+  the Development and Assessment of AI Systems</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2024-03-13T15:39:57Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Daria Korobenko, Anastasija Nikiforova, Rajesh Sharma</p>
+    <p><b>Summary:</b> As artificial intelligence continues its unprecedented global expansion,
+accompanied by a proliferation of benefits, an increasing apprehension about
+the privacy and security implications of AI-enabled systems emerges. The
+pivotal question of effectively controlling AI development at both
+jurisdictional and organizational levels has become a prominent theme in
+contemporary discourse. While the European Parliament and Council have taken a
+decisive step by reaching a political agreement on the EU AI Act, the first
+comprehensive AI law, organizations still find it challenging to adapt to the
+fast-evolving AI landscape, lacking a universal tool for evaluating the privacy
+and security dimensions of their AI models and systems. In response to this
+critical challenge, this study conducts a systematic literature review spanning
+the years 2020 to 2023, with a primary focus on establishing a unified
+definition of key concepts in AI Ethics, particularly emphasizing the domains
+of privacy and security. Through the synthesis of knowledge extracted from the
+SLR, this study presents a conceptual framework tailored for privacy- and
+security-aware AI systems. This framework is designed to assist diverse
+stakeholders, including organizations, academic institutions, and governmental
+bodies, in both the development and critical assessment of AI systems.
+Essentially, the proposed framework serves as a guide for ethical
+decision-making, fostering an environment wherein AI is developed and utilized
+with a strong commitment to ethical principles. In addition, the study unravels
+the key issues and challenges surrounding the privacy and security dimensions,
+delineating promising avenues for future research, thereby contributing to the
+ongoing dialogue on the globalization and democratization of AI ethics.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.08507v1">MobileAtlas: Geographically Decoupled Measurements in Cellular Networks
+  for Security and Privacy Research</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-03-13T13:15:13Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Gabriel Karl Gegenhuber, Wilfried Mayer, Edgar Weippl, Adrian Dabrowski</p>
+    <p><b>Summary:</b> Cellular networks are not merely data access networks to the Internet. Their
+distinct services and ability to form large complex compounds for roaming
+purposes make them an attractive research target in their own right. Their
+promise of providing a consistent service with comparable privacy and security
+across roaming partners falls apart at close inspection.
+  Thus, there is a need for controlled testbeds and measurement tools for
+cellular access networks doing justice to the technology's unique structure and
+global scope. Particularly, such measurements suffer from a combinatorial
+explosion of operators, mobile plans, and services. To cope with these
+challenges, we built a framework that geographically decouples the SIM from the
+cellular modem by selectively connecting both remotely. This allows testing any
+subscriber with any operator at any modem location within minutes without
+moving parts. The resulting GSM/UMTS/LTE measurement and testbed platform
+offers a controlled experimentation environment, which is scalable and
+cost-effective. The platform is extensible and fully open-sourced, allowing
+other researchers to contribute locations, SIM cards, and measurement scripts.
+  Using the above framework, our international experiments in commercial
+networks revealed exploitable inconsistencies in traffic metering, leading to
+multiple phreaking opportunities, i.e., fare-dodging. We also expose
+problematic IPv6 firewall configurations, hidden SIM card communication to the
+home network, and fingerprint dial progress tones to track victims across
+different roaming networks and countries with voice calls.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.08181v1">Differential Privacy in Nonlinear Dynamical Systems with Tracking
+  Performance Guarantees</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36"> 
+  <p><b>Published on:</b> 2024-03-13T02:10:46Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Dhrubajit Chowdhury, Raman Goyal, Shantanu Rane</p>
+    <p><b>Summary:</b> We introduce a novel approach to make the tracking error of a class of
+nonlinear systems differentially private in addition to guaranteeing the
+tracking error performance. We use funnel control to make the tracking error
+evolve within a performance funnel that is pre-specified by the user. We make
+the performance funnel differentially private by adding a bounded continuous
+noise generated from an Ornstein-Uhlenbeck-type process. Since the funnel
+controller is a function of the performance funnel, the noise adds randomized
+perturbation to the control input. We show that, as a consequence of the
+differential privacy of the performance funnel, the tracking error is also
+differentially private. As a result, the tracking error is bounded by the noisy
+funnel boundary while maintaining privacy. We show a simulation result to
+demonstrate the framework.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.08115v1">Legally Binding but Unfair? Towards Assessing Fairness of Privacy
+  Policies</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> 
+  <p><b>Published on:</b> 2024-03-12T22:53:32Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Vincent Freiberger, Erik Buchmann</p>
+    <p><b>Summary:</b> Privacy policies are expected to inform data subjects about their data
+protection rights. They should explain the data controller's data management
+practices, and make facts such as retention periods or data transfers to third
+parties transparent. Privacy policies only fulfill their purpose, if they are
+correctly perceived, interpreted, understood, and trusted by the data subject.
+Amongst others, this requires that a privacy policy is written in a fair way,
+e.g., it does not use polarizing terms, does not require a certain education,
+or does not assume a particular social background. In this work-in-progress
+paper, we outline our approach to assessing fairness in privacy policies. To
+this end, we identify from fundamental legal sources and fairness research, how
+the dimensions informational fairness, representational fairness and
+ethics/morality are related to privacy policies. We propose options to
+automatically assess policies in these fairness dimensions, based on text
+statistics, linguistic methods and artificial intelligence. Finally, we conduct
+initial experiments with German privacy policies to provide evidence that our
+approach is applicable. Our experiments indicate that there are indeed issues
+in all three dimensions of fairness. For example, our approach finds out if a
+policy discriminates against individuals with impaired reading skills or
+certain demographics, and identifies questionable ethics. This is important, as
+future privacy policies may be used in a corpus for legal artificial
+intelligence models.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2403.07842v1">Quantifying and Mitigating Privacy Risks for Tabular Generative Models</a></h3>
@@ -1871,7 +1876,7 @@ critical applications.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.05692v1">Privacy-Preserving Sharing of Data Analytics Runtime Metrics for
+  <h3><a href="http://arxiv.org/abs/2403.05692v2">Privacy-Preserving Sharing of Data Analytics Runtime Metrics for
   Performance Modeling</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
   <p><b>Published on:</b> 2024-03-08T22:03:21Z</p>
