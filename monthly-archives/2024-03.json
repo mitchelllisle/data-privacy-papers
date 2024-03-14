@@ -1361,5 +1361,124 @@
       "cs.IT",
       "math.IT"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.08624v1",
+    "title" : "Towards a Privacy and Security-Aware Framework for Ethical AI: Guiding\n  the Development and Assessment of AI Systems",
+    "summary" : "As artificial intelligence continues its unprecedented global expansion,\naccompanied by a proliferation of benefits, an increasing apprehension about\nthe privacy and security implications of AI-enabled systems emerges. The\npivotal question of effectively controlling AI development at both\njurisdictional and organizational levels has become a prominent theme in\ncontemporary discourse. While the European Parliament and Council have taken a\ndecisive step by reaching a political agreement on the EU AI Act, the first\ncomprehensive AI law, organizations still find it challenging to adapt to the\nfast-evolving AI landscape, lacking a universal tool for evaluating the privacy\nand security dimensions of their AI models and systems. In response to this\ncritical challenge, this study conducts a systematic literature review spanning\nthe years 2020 to 2023, with a primary focus on establishing a unified\ndefinition of key concepts in AI Ethics, particularly emphasizing the domains\nof privacy and security. Through the synthesis of knowledge extracted from the\nSLR, this study presents a conceptual framework tailored for privacy- and\nsecurity-aware AI systems. This framework is designed to assist diverse\nstakeholders, including organizations, academic institutions, and governmental\nbodies, in both the development and critical assessment of AI systems.\nEssentially, the proposed framework serves as a guide for ethical\ndecision-making, fostering an environment wherein AI is developed and utilized\nwith a strong commitment to ethical principles. In addition, the study unravels\nthe key issues and challenges surrounding the privacy and security dimensions,\ndelineating promising avenues for future research, thereby contributing to the\nongoing dialogue on the globalization and democratization of AI ethics.",
+    "updated" : "2024-03-13T15:39:57Z",
+    "published" : "2024-03-13T15:39:57Z",
+    "authors" : [
+      {
+        "name" : "Daria Korobenko"
+      },
+      {
+        "name" : "Anastasija Nikiforova"
+      },
+      {
+        "name" : "Rajesh Sharma"
+      }
+    ],
+    "categories" : [
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.08507v1",
+    "title" : "MobileAtlas: Geographically Decoupled Measurements in Cellular Networks\n  for Security and Privacy Research",
+    "summary" : "Cellular networks are not merely data access networks to the Internet. Their\ndistinct services and ability to form large complex compounds for roaming\npurposes make them an attractive research target in their own right. Their\npromise of providing a consistent service with comparable privacy and security\nacross roaming partners falls apart at close inspection.\n  Thus, there is a need for controlled testbeds and measurement tools for\ncellular access networks doing justice to the technology's unique structure and\nglobal scope. Particularly, such measurements suffer from a combinatorial\nexplosion of operators, mobile plans, and services. To cope with these\nchallenges, we built a framework that geographically decouples the SIM from the\ncellular modem by selectively connecting both remotely. This allows testing any\nsubscriber with any operator at any modem location within minutes without\nmoving parts. The resulting GSM/UMTS/LTE measurement and testbed platform\noffers a controlled experimentation environment, which is scalable and\ncost-effective. The platform is extensible and fully open-sourced, allowing\nother researchers to contribute locations, SIM cards, and measurement scripts.\n  Using the above framework, our international experiments in commercial\nnetworks revealed exploitable inconsistencies in traffic metering, leading to\nmultiple phreaking opportunities, i.e., fare-dodging. We also expose\nproblematic IPv6 firewall configurations, hidden SIM card communication to the\nhome network, and fingerprint dial progress tones to track victims across\ndifferent roaming networks and countries with voice calls.",
+    "updated" : "2024-03-13T13:15:13Z",
+    "published" : "2024-03-13T13:15:13Z",
+    "authors" : [
+      {
+        "name" : "Gabriel Karl Gegenhuber"
+      },
+      {
+        "name" : "Wilfried Mayer"
+      },
+      {
+        "name" : "Edgar Weippl"
+      },
+      {
+        "name" : "Adrian Dabrowski"
+      }
+    ],
+    "categories" : [
+      "cs.NI",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.08181v1",
+    "title" : "Differential Privacy in Nonlinear Dynamical Systems with Tracking\n  Performance Guarantees",
+    "summary" : "We introduce a novel approach to make the tracking error of a class of\nnonlinear systems differentially private in addition to guaranteeing the\ntracking error performance. We use funnel control to make the tracking error\nevolve within a performance funnel that is pre-specified by the user. We make\nthe performance funnel differentially private by adding a bounded continuous\nnoise generated from an Ornstein-Uhlenbeck-type process. Since the funnel\ncontroller is a function of the performance funnel, the noise adds randomized\nperturbation to the control input. We show that, as a consequence of the\ndifferential privacy of the performance funnel, the tracking error is also\ndifferentially private. As a result, the tracking error is bounded by the noisy\nfunnel boundary while maintaining privacy. We show a simulation result to\ndemonstrate the framework.",
+    "updated" : "2024-03-13T02:10:46Z",
+    "published" : "2024-03-13T02:10:46Z",
+    "authors" : [
+      {
+        "name" : "Dhrubajit Chowdhury"
+      },
+      {
+        "name" : "Raman Goyal"
+      },
+      {
+        "name" : "Shantanu Rane"
+      }
+    ],
+    "categories" : [
+      "cs.SY",
+      "eess.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.08115v1",
+    "title" : "Legally Binding but Unfair? Towards Assessing Fairness of Privacy\n  Policies",
+    "summary" : "Privacy policies are expected to inform data subjects about their data\nprotection rights. They should explain the data controller's data management\npractices, and make facts such as retention periods or data transfers to third\nparties transparent. Privacy policies only fulfill their purpose, if they are\ncorrectly perceived, interpreted, understood, and trusted by the data subject.\nAmongst others, this requires that a privacy policy is written in a fair way,\ne.g., it does not use polarizing terms, does not require a certain education,\nor does not assume a particular social background. In this work-in-progress\npaper, we outline our approach to assessing fairness in privacy policies. To\nthis end, we identify from fundamental legal sources and fairness research, how\nthe dimensions informational fairness, representational fairness and\nethics/morality are related to privacy policies. We propose options to\nautomatically assess policies in these fairness dimensions, based on text\nstatistics, linguistic methods and artificial intelligence. Finally, we conduct\ninitial experiments with German privacy policies to provide evidence that our\napproach is applicable. Our experiments indicate that there are indeed issues\nin all three dimensions of fairness. For example, our approach finds out if a\npolicy discriminates against individuals with impaired reading skills or\ncertain demographics, and identifies questionable ethics. This is important, as\nfuture privacy policies may be used in a corpus for legal artificial\nintelligence models.",
+    "updated" : "2024-03-12T22:53:32Z",
+    "published" : "2024-03-12T22:53:32Z",
+    "authors" : [
+      {
+        "name" : "Vincent Freiberger"
+      },
+      {
+        "name" : "Erik Buchmann"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.AI",
+      "cs.CL",
+      "K.4.m"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.05692v2",
+    "title" : "Privacy-Preserving Sharing of Data Analytics Runtime Metrics for\n  Performance Modeling",
+    "summary" : "Performance modeling for large-scale data analytics workloads can improve the\nefficiency of cluster resource allocations and job scheduling. However, the\nperformance of these workloads is influenced by numerous factors, such as job\ninputs and the assigned cluster resources. As a result, performance models\nrequire significant amounts of training data. This data can be obtained by\nexchanging runtime metrics between collaborating organizations. Yet, not all\norganizations may be inclined to publicly disclose such metadata.\n  We present a privacy-preserving approach for sharing runtime metrics based on\ndifferential privacy and data synthesis. Our evaluation on performance data\nfrom 736 Spark job executions indicates that fully anonymized training data\nlargely maintains performance prediction accuracy, particularly when there is\nminimal original data available. With 30 or fewer available original data\nsamples, the use of synthetic training data resulted only in a one percent\nreduction in performance model accuracy on average.",
+    "updated" : "2024-03-13T15:39:45Z",
+    "published" : "2024-03-08T22:03:21Z",
+    "authors" : [
+      {
+        "name" : "Jonathan Will"
+      },
+      {
+        "name" : "Dominik Scheinert"
+      },
+      {
+        "name" : "Jan Bode"
+      },
+      {
+        "name" : "Cedric Kring"
+      },
+      {
+        "name" : "Seraphin Zunzer"
+      },
+      {
+        "name" : "Lauritz Thamsen"
+      }
+    ],
+    "categories" : [
+      "cs.DC"
+    ]
   }
 ]
