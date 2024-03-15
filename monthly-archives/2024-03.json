@@ -1480,5 +1480,196 @@
     "categories" : [
       "cs.DC"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.09562v1",
+    "title" : "PreCurious: How Innocent Pre-Trained Language Models Turn into Privacy\n  Traps",
+    "summary" : "The pre-training and fine-tuning paradigm has demonstrated its effectiveness\nand has become the standard approach for tailoring language models to various\ntasks. Currently, community-based platforms offer easy access to various\npre-trained models, as anyone can publish without strict validation processes.\nHowever, a released pre-trained model can be a privacy trap for fine-tuning\ndatasets if it is carefully designed. In this work, we propose PreCurious\nframework to reveal the new attack surface where the attacker releases the\npre-trained model and gets a black-box access to the final fine-tuned model.\nPreCurious aims to escalate the general privacy risk of both membership\ninference and data extraction. The key intuition behind PreCurious is to\nmanipulate the memorization stage of the pre-trained model and guide\nfine-tuning with a seemingly legitimate configuration. The effectiveness of\ndefending against privacy attacks on a fine-tuned model seems promising, as\nempirical and theoretical evidence suggests that parameter-efficient and\ndifferentially private fine-tuning techniques are invulnerable to privacy\nattacks. But PreCurious demonstrates the possibility of breaking up\ninvulnerability in a stealthy manner compared to fine-tuning on a benign model.\nBy further leveraging a sanitized dataset, PreCurious can extract originally\nunexposed secrets under differentially private fine-tuning. Thus, PreCurious\nraises warnings for users who download pre-trained models from unknown sources,\nrely solely on tutorials or common-sense defenses, and previously release\nsanitized datasets even after perfect scrubbing.",
+    "updated" : "2024-03-14T16:54:17Z",
+    "published" : "2024-03-14T16:54:17Z",
+    "authors" : [
+      {
+        "name" : "Ruixuan Liu"
+      },
+      {
+        "name" : "Tianhao Wang"
+      },
+      {
+        "name" : "Yang Cao"
+      },
+      {
+        "name" : "Li Xiong"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.09450v1",
+    "title" : "Shake to Leak: Fine-tuning Diffusion Models Can Amplify the Generative\n  Privacy Risk",
+    "summary" : "While diffusion models have recently demonstrated remarkable progress in\ngenerating realistic images, privacy risks also arise: published models or APIs\ncould generate training images and thus leak privacy-sensitive training\ninformation. In this paper, we reveal a new risk, Shake-to-Leak (S2L), that\nfine-tuning the pre-trained models with manipulated data can amplify the\nexisting privacy risks. We demonstrate that S2L could occur in various standard\nfine-tuning strategies for diffusion models, including concept-injection\nmethods (DreamBooth and Textual Inversion) and parameter-efficient methods\n(LoRA and Hypernetwork), as well as their combinations. In the worst case, S2L\ncan amplify the state-of-the-art membership inference attack (MIA) on diffusion\nmodels by $5.4\\%$ (absolute difference) AUC and can increase extracted private\nsamples from almost $0$ samples to $16.3$ samples on average per target domain.\nThis discovery underscores that the privacy risk with diffusion models is even\nmore severe than previously recognized. Codes are available at\nhttps://github.com/VITA-Group/Shake-to-Leak.",
+    "updated" : "2024-03-14T14:48:37Z",
+    "published" : "2024-03-14T14:48:37Z",
+    "authors" : [
+      {
+        "name" : "Zhangheng Li"
+      },
+      {
+        "name" : "Junyuan Hong"
+      },
+      {
+        "name" : "Bo Li"
+      },
+      {
+        "name" : "Zhangyang Wang"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.09351v1",
+    "title" : "LDPRecover: Recovering Frequencies from Poisoning Attacks against Local\n  Differential Privacy",
+    "summary" : "Local differential privacy (LDP), which enables an untrusted server to\ncollect aggregated statistics from distributed users while protecting the\nprivacy of those users, has been widely deployed in practice. However, LDP\nprotocols for frequency estimation are vulnerable to poisoning attacks, in\nwhich an attacker can poison the aggregated frequencies by manipulating the\ndata sent from malicious users. Therefore, it is an open challenge to recover\nthe accurate aggregated frequencies from poisoned ones.\n  In this work, we propose LDPRecover, a method that can recover accurate\naggregated frequencies from poisoning attacks, even if the server does not\nlearn the details of the attacks. In LDPRecover, we establish a genuine\nfrequency estimator that theoretically guides the server to recover the\nfrequencies aggregated from genuine users' data by eliminating the impact of\nmalicious users' data in poisoned frequencies. Since the server has no idea of\nthe attacks, we propose an adaptive attack to unify existing attacks and learn\nthe statistics of the malicious data within this adaptive attack by exploiting\nthe properties of LDP protocols. By taking the estimator and the learning\nstatistics as constraints, we formulate the problem of recovering aggregated\nfrequencies to approach the genuine ones as a constraint inference (CI)\nproblem. Consequently, the server can obtain accurate aggregated frequencies by\nsolving this problem optimally. Moreover, LDPRecover can serve as a frequency\nrecovery paradigm that recovers more accurate aggregated frequencies by\nintegrating attack details as new constraints in the CI problem. Our evaluation\non two real-world datasets, three LDP protocols, and untargeted and targeted\npoisoning attacks shows that LDPRecover is both accurate and widely applicable\nagainst various poisoning attacks.",
+    "updated" : "2024-03-14T12:57:20Z",
+    "published" : "2024-03-14T12:57:20Z",
+    "authors" : [
+      {
+        "name" : "Xinyue Sun"
+      },
+      {
+        "name" : "Qingqing Ye"
+      },
+      {
+        "name" : "Haibo Hu"
+      },
+      {
+        "name" : "Jiawei Duan"
+      },
+      {
+        "name" : "Tianyu Wo"
+      },
+      {
+        "name" : "Jie Xu"
+      },
+      {
+        "name" : "Renyu Yang"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.09322v1",
+    "title" : "Privacy Preserving Anomaly Detection on Homomorphic Encrypted Data from\n  IoT Sensors",
+    "summary" : "IoT devices have become indispensable components of our lives, and the\nadvancement of AI technologies will make them even more pervasive, increasing\nthe vulnerability to malfunctions or cyberattacks and raising privacy concerns.\nEncryption can mitigate these challenges; however, most existing anomaly\ndetection techniques decrypt the data to perform the analysis, potentially\nundermining the encryption protection provided during transit or storage.\nHomomorphic encryption schemes are promising solutions as they enable the\nprocessing and execution of operations on IoT data while still encrypted,\nhowever, these schemes offer only limited operations, which poses challenges to\ntheir practical usage. In this paper, we propose a novel privacy-preserving\nanomaly detection solution designed for homomorphically encrypted data\ngenerated by IoT devices that efficiently detects abnormal values without\nperforming decryption. We have adapted the Histogram-based anomaly detection\ntechnique for TFHE scheme to address limitations related to the input size and\nthe depth of computation by implementing vectorized support operations. These\noperations include addition, value placement in buckets, labeling abnormal\nbuckets based on a threshold frequency, labeling abnormal values based on their\nrange, and bucket labels. Evaluation results show that the solution effectively\ndetects anomalies without requiring data decryption and achieves consistent\nresults comparable to the mechanism operating on plain data. Also, it shows\nrobustness and resilience against various challenges commonly encountered in\nIoT environments, such as noisy sensor data, adversarial attacks, communication\nfailures, and device malfunctions. Moreover, the time and computational\noverheads determined for several solution configurations, despite being large,\nare reasonable compared to those reported in existing literature.",
+    "updated" : "2024-03-14T12:11:25Z",
+    "published" : "2024-03-14T12:11:25Z",
+    "authors" : [
+      {
+        "name" : "Anca Hangan"
+      },
+      {
+        "name" : "Dragos Lazea"
+      },
+      {
+        "name" : "Tudor Cioara"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.09173v1",
+    "title" : "Bridging Quantum Computing and Differential Privacy: A Survey on Quantum\n  Computing Privacy",
+    "summary" : "Quantum computing has attracted significant attention in areas such as\ncryptography, cybersecurity, and drug discovery. Due to the advantage of\nparallel processing, quantum computing can speed up the response to complex\nchallenges and the processing of large-scale datasets. However, since quantum\ncomputing usually requires sensitive datasets, privacy breaches have become a\nvital concern. Differential privacy (DP) is a promising privacy-preserving\nmethod in classical computing and has been extended to the quantum domain in\nrecent years. In this survey, we categorize the existing literature based on\nwhether internal inherent noise or external artificial noise is used as a\nsource to achieve DP in quantum computing. We explore how these approaches are\napplied at different stages of a quantum algorithm (i.e., state preparation,\nquantum circuit, and quantum measurement). We also discuss challenges and\nfuture directions for DP in quantum computing. By summarizing recent\nadvancements, we hope to provide a comprehensive, up-to-date overview for\nresearchers venturing into this field.",
+    "updated" : "2024-03-14T08:40:30Z",
+    "published" : "2024-03-14T08:40:30Z",
+    "authors" : [
+      {
+        "name" : "Yusheng Zhao"
+      },
+      {
+        "name" : "Hui Zhong"
+      },
+      {
+        "name" : "Xinyue Zhang"
+      },
+      {
+        "name" : "Chi Zhang"
+      },
+      {
+        "name" : "Miao Pan"
+      }
+    ],
+    "categories" : [
+      "quant-ph",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.09172v1",
+    "title" : "SHAN: Object-Level Privacy Detection via Inference on Scene\n  Heterogeneous Graph",
+    "summary" : "With the rise of social platforms, protecting privacy has become an important\nissue. Privacy object detection aims to accurately locate private objects in\nimages. It is the foundation of safeguarding individuals' privacy rights and\nensuring responsible data handling practices in the digital age. Since privacy\nof object is not shift-invariant, the essence of the privacy object detection\ntask is inferring object privacy based on scene information. However, privacy\nobject detection has long been studied as a subproblem of common object\ndetection tasks. Therefore, existing methods suffer from serious deficiencies\nin accuracy, generalization, and interpretability. Moreover, creating\nlarge-scale privacy datasets is difficult due to legal constraints and existing\nprivacy datasets lack label granularity. The granularity of existing privacy\ndetection methods remains limited to the image level. To address the above two\nissues, we introduce two benchmark datasets for object-level privacy detection\nand propose SHAN, Scene Heterogeneous graph Attention Network, a model\nconstructs a scene heterogeneous graph from an image and utilizes\nself-attention mechanisms for scene inference to obtain object privacy. Through\nexperiments, we demonstrated that SHAN performs excellently in privacy object\ndetection tasks, with all metrics surpassing those of the baseline model.",
+    "updated" : "2024-03-14T08:32:14Z",
+    "published" : "2024-03-14T08:32:14Z",
+    "authors" : [
+      {
+        "name" : "Zhuohang Jiang"
+      },
+      {
+        "name" : "Bingkui Tong"
+      },
+      {
+        "name" : "Xia Du"
+      },
+      {
+        "name" : "Ahmed Alhammadi"
+      },
+      {
+        "name" : "Jizhe Zhou"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.05156v2",
+    "title" : "On Protecting the Data Privacy of Large Language Models (LLMs): A Survey",
+    "summary" : "Large language models (LLMs) are complex artificial intelligence systems\ncapable of understanding, generating and translating human language. They learn\nlanguage patterns by analyzing large amounts of text data, allowing them to\nperform writing, conversation, summarizing and other language tasks. When LLMs\nprocess and generate large amounts of data, there is a risk of leaking\nsensitive information, which may threaten data privacy. This paper concentrates\non elucidating the data privacy concerns associated with LLMs to foster a\ncomprehensive understanding. Specifically, a thorough investigation is\nundertaken to delineate the spectrum of data privacy threats, encompassing both\npassive privacy leakage and active privacy attacks within LLMs. Subsequently,\nwe conduct an assessment of the privacy protection mechanisms employed by LLMs\nat various stages, followed by a detailed examination of their efficacy and\nconstraints. Finally, the discourse extends to delineate the challenges\nencountered and outline prospective directions for advancement in the realm of\nLLM privacy protection.",
+    "updated" : "2024-03-14T14:17:57Z",
+    "published" : "2024-03-08T08:47:48Z",
+    "authors" : [
+      {
+        "name" : "Biwei Yan"
+      },
+      {
+        "name" : "Kun Li"
+      },
+      {
+        "name" : "Minghui Xu"
+      },
+      {
+        "name" : "Yueyan Dong"
+      },
+      {
+        "name" : "Yue Zhang"
+      },
+      {
+        "name" : "Zhaochun Ren"
+      },
+      {
+        "name" : "Xiuzhen Cheng"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
