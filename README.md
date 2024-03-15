@@ -1198,190 +1198,200 @@ fairness improvement of $1.37\times \sim 24.32 \times$.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.09710v1">Preserving Data Privacy for ML-driven Applications in Open Radio Access
-  Networks</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
-  <p><b>Published on:</b> 2024-02-15T05:06:53Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Pranshav Gajjar, Azuka Chiejina, Vijay K. Shah</p>
-    <p><b>Summary:</b> Deep learning offers a promising solution to improve spectrum access
-techniques by utilizing data-driven approaches to manage and share limited
-spectrum resources for emerging applications. For several of these
-applications, the sensitive wireless data (such as spectrograms) are stored in
-a shared database or multistakeholder cloud environment and are therefore prone
-to privacy leaks. This paper aims to address such privacy concerns by examining
-the representative case study of shared database scenarios in 5G Open Radio
-Access Network (O-RAN) networks where we have a shared database within the
-near-real-time (near-RT) RAN intelligent controller. We focus on securing the
-data that can be used by machine learning (ML) models for spectrum sharing and
-interference mitigation applications without compromising the model and network
-performances. The underlying idea is to leverage a (i) Shuffling-based
-learnable encryption technique to encrypt the data, following which, (ii)
-employ a custom Vision transformer (ViT) as the trained ML model that is
-capable of performing accurate inferences on such encrypted data. The paper
-offers a thorough analysis and comparisons with analogous convolutional neural
-networks (CNN) as well as deeper architectures (such as ResNet-50) as
-baselines. Our experiments showcase that the proposed approach significantly
-outperforms the baseline CNN with an improvement of 24.5% and 23.9% for the
-percent accuracy and F1-Score respectively when operated on encrypted data.
-Though deeper ResNet-50 architecture is obtained as a slightly more accurate
-model, with an increase of 4.4%, the proposed approach boasts a reduction of
-parameters by 99.32%, and thus, offers a much-improved prediction time by
-nearly 60%.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.09621v1">Schnorr Approval-Based Secure and Privacy-Preserving IoV Data
-  Aggregation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
-  <p><b>Published on:</b> 2024-02-14T23:40:36Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Rui Liu, Jianping Pan</p>
-    <p><b>Summary:</b> Secure and privacy-preserving data aggregation in the Internet of Vehicles
-(IoV) continues to be a focal point of interest in both the industry and
-academia. Aiming at tackling the challenges and solving the remaining
-limitations of existing works, this paper introduces a novel Schnorr
-approval-based IoV data aggregation framework based on a two-layered
-architecture. In this framework, a server can aggregate the IoV data from
-clusters without inferring the raw data, real identity and trajectories of
-vehicles. Notably, we avoid incorporating the widely-accepted techniques such
-as homomorphic encryption and digital pseudonym to avoid introducing high
-computation cost to vehicles. We propose a novel concept, data approval, based
-on the Schnorr signature scheme. With the approval, the fake data injection
-attack carried out by a cluster head can be defended against. The separation of
-liability is achieved as well. The evaluation shows that the framework is
-secure and lightweight for vehicles in terms of the computation and
-communication costs.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.09611v1">Towards Privacy-Aware Sign Language Translation at Scale</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-02-14T22:57:03Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Phillip Rust, Bowen Shi, Skyler Wang, Necati Cihan Camgöz, Jean Maillard</p>
-    <p><b>Summary:</b> A major impediment to the advancement of sign language translation (SLT) is
-data scarcity. Much of the sign language data currently available on the web
-cannot be used for training supervised models due to the lack of aligned
-captions. Furthermore, scaling SLT using large-scale web-scraped datasets bears
-privacy risks due to the presence of biometric information, which the
-responsible development of SLT technologies should account for. In this work,
-we propose a two-stage framework for privacy-aware SLT at scale that addresses
-both of these issues. We introduce SSVP-SLT, which leverages self-supervised
-video pretraining on anonymized and unannotated videos, followed by supervised
-SLT finetuning on a curated parallel dataset. SSVP-SLT achieves
-state-of-the-art finetuned and zero-shot gloss-free SLT performance on the
-How2Sign dataset, outperforming the strongest respective baselines by over 3
-BLEU-4. Based on controlled experiments, we further discuss the advantages and
-limitations of self-supervised pretraining and anonymization via facial
-obfuscation for SLT.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.09540v1">Why Does Differential Privacy with Large Epsilon Defend Against
-  Practical Membership Inference Attacks?</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
-  <p><b>Published on:</b> 2024-02-14T19:31:45Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Andrew Lowy, Zhuohang Li, Jing Liu, Toshiaki Koike-Akino, Kieran Parsons, Ye Wang</p>
-    <p><b>Summary:</b> For small privacy parameter $\epsilon$, $\epsilon$-differential privacy (DP)
-provides a strong worst-case guarantee that no membership inference attack
-(MIA) can succeed at determining whether a person's data was used to train a
-machine learning model. The guarantee of DP is worst-case because: a) it holds
-even if the attacker already knows the records of all but one person in the
-data set; and b) it holds uniformly over all data sets. In practical
-applications, such a worst-case guarantee may be overkill: practical attackers
-may lack exact knowledge of (nearly all of) the private data, and our data set
-might be easier to defend, in some sense, than the worst-case data set. Such
-considerations have motivated the industrial deployment of DP models with large
-privacy parameter (e.g. $\epsilon \geq 7$), and it has been observed
-empirically that DP with large $\epsilon$ can successfully defend against
-state-of-the-art MIAs. Existing DP theory cannot explain these empirical
-findings: e.g., the theoretical privacy guarantees of $\epsilon \geq 7$ are
-essentially vacuous. In this paper, we aim to close this gap between theory and
-practice and understand why a large DP parameter can prevent practical MIAs. To
-tackle this problem, we propose a new privacy notion called practical
-membership privacy (PMP). PMP models a practical attacker's uncertainty about
-the contents of the private data. The PMP parameter has a natural
-interpretation in terms of the success rate of a practical MIA on a given data
-set. We quantitatively analyze the PMP parameter of two fundamental DP
-mechanisms: the exponential mechanism and Gaussian mechanism. Our analysis
-reveals that a large DP parameter often translates into a much smaller PMP
-parameter, which guarantees strong privacy against practical MIAs. Using our
-findings, we offer principled guidance for practitioners in choosing the DP
-parameter.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.09316v1">Only My Model On My Data: A Privacy Preserving Approach Protecting one
-  Model and Deceiving Unauthorized Black-Box Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-02-14T17:11:52Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Weiheng Chai, Brian Testa, Huantao Ren, Asif Salekin, Senem Velipasalar</p>
-    <p><b>Summary:</b> Deep neural networks are extensively applied to real-world tasks, such as
-face recognition and medical image classification, where privacy and data
-protection are critical. Image data, if not protected, can be exploited to
-infer personal or contextual information. Existing privacy preservation
-methods, like encryption, generate perturbed images that are unrecognizable to
-even humans. Adversarial attack approaches prohibit automated inference even
-for authorized stakeholders, limiting practical incentives for commercial and
-widespread adaptation. This pioneering study tackles an unexplored practical
-privacy preservation use case by generating human-perceivable images that
-maintain accurate inference by an authorized model while evading other
-unauthorized black-box models of similar or dissimilar objectives, and
-addresses the previous research gaps. The datasets employed are ImageNet, for
-image classification, Celeba-HQ dataset, for identity classification, and
-AffectNet, for emotion classification. Our results show that the generated
-images can successfully maintain the accuracy of a protected model and degrade
-the average accuracy of the unauthorized black-box models to 11.97%, 6.63%, and
-55.51% on ImageNet, Celeba-HQ, and AffectNet datasets, respectively.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.08956v1">Seagull: Privacy preserving network verification system</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
-  <p><b>Published on:</b> 2024-02-14T05:56:51Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jaber Daneshamooz, Melody Yu, Sucheer Maddury</p>
-    <p><b>Summary:</b> The current routing protocol used in the internet backbone is based on manual
-configuration, making it susceptible to errors. To mitigate these
-configuration-related issues, it becomes imperative to validate the accuracy
-and convergence of the algorithm, ensuring a seamless operation devoid of
-problems. However, the process of network verification faces challenges related
-to privacy and scalability. This paper addresses these challenges by
-introducing a novel approach: leveraging privacy-preserving computation,
-specifically multiparty computation (MPC), to verify the correctness of
-configurations in the internet backbone, governed by the BGP protocol. Not only
-does our proposed solution effectively address scalability concerns, but it
-also establishes a robust privacy framework. Through rigorous analysis, we
-demonstrate that our approach maintains privacy by not disclosing any
-information beyond the query result, thus providing a comprehensive and secure
-solution to the intricacies associated with routing protocol verification in
-large-scale networks.</p>
-  </details>
-</div>
-
-
 
 <h2>2024-03</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.09562v1">PreCurious: How Innocent Pre-Trained Language Models Turn into Privacy
+  Traps</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-03-14T16:54:17Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ruixuan Liu, Tianhao Wang, Yang Cao, Li Xiong</p>
+    <p><b>Summary:</b> The pre-training and fine-tuning paradigm has demonstrated its effectiveness
+and has become the standard approach for tailoring language models to various
+tasks. Currently, community-based platforms offer easy access to various
+pre-trained models, as anyone can publish without strict validation processes.
+However, a released pre-trained model can be a privacy trap for fine-tuning
+datasets if it is carefully designed. In this work, we propose PreCurious
+framework to reveal the new attack surface where the attacker releases the
+pre-trained model and gets a black-box access to the final fine-tuned model.
+PreCurious aims to escalate the general privacy risk of both membership
+inference and data extraction. The key intuition behind PreCurious is to
+manipulate the memorization stage of the pre-trained model and guide
+fine-tuning with a seemingly legitimate configuration. The effectiveness of
+defending against privacy attacks on a fine-tuned model seems promising, as
+empirical and theoretical evidence suggests that parameter-efficient and
+differentially private fine-tuning techniques are invulnerable to privacy
+attacks. But PreCurious demonstrates the possibility of breaking up
+invulnerability in a stealthy manner compared to fine-tuning on a benign model.
+By further leveraging a sanitized dataset, PreCurious can extract originally
+unexposed secrets under differentially private fine-tuning. Thus, PreCurious
+raises warnings for users who download pre-trained models from unknown sources,
+rely solely on tutorials or common-sense defenses, and previously release
+sanitized datasets even after perfect scrubbing.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.09450v1">Shake to Leak: Fine-tuning Diffusion Models Can Amplify the Generative
+  Privacy Risk</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-03-14T14:48:37Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zhangheng Li, Junyuan Hong, Bo Li, Zhangyang Wang</p>
+    <p><b>Summary:</b> While diffusion models have recently demonstrated remarkable progress in
+generating realistic images, privacy risks also arise: published models or APIs
+could generate training images and thus leak privacy-sensitive training
+information. In this paper, we reveal a new risk, Shake-to-Leak (S2L), that
+fine-tuning the pre-trained models with manipulated data can amplify the
+existing privacy risks. We demonstrate that S2L could occur in various standard
+fine-tuning strategies for diffusion models, including concept-injection
+methods (DreamBooth and Textual Inversion) and parameter-efficient methods
+(LoRA and Hypernetwork), as well as their combinations. In the worst case, S2L
+can amplify the state-of-the-art membership inference attack (MIA) on diffusion
+models by $5.4\%$ (absolute difference) AUC and can increase extracted private
+samples from almost $0$ samples to $16.3$ samples on average per target domain.
+This discovery underscores that the privacy risk with diffusion models is even
+more severe than previously recognized. Codes are available at
+https://github.com/VITA-Group/Shake-to-Leak.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.09351v1">LDPRecover: Recovering Frequencies from Poisoning Attacks against Local
+  Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-03-14T12:57:20Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xinyue Sun, Qingqing Ye, Haibo Hu, Jiawei Duan, Tianyu Wo, Jie Xu, Renyu Yang</p>
+    <p><b>Summary:</b> Local differential privacy (LDP), which enables an untrusted server to
+collect aggregated statistics from distributed users while protecting the
+privacy of those users, has been widely deployed in practice. However, LDP
+protocols for frequency estimation are vulnerable to poisoning attacks, in
+which an attacker can poison the aggregated frequencies by manipulating the
+data sent from malicious users. Therefore, it is an open challenge to recover
+the accurate aggregated frequencies from poisoned ones.
+  In this work, we propose LDPRecover, a method that can recover accurate
+aggregated frequencies from poisoning attacks, even if the server does not
+learn the details of the attacks. In LDPRecover, we establish a genuine
+frequency estimator that theoretically guides the server to recover the
+frequencies aggregated from genuine users' data by eliminating the impact of
+malicious users' data in poisoned frequencies. Since the server has no idea of
+the attacks, we propose an adaptive attack to unify existing attacks and learn
+the statistics of the malicious data within this adaptive attack by exploiting
+the properties of LDP protocols. By taking the estimator and the learning
+statistics as constraints, we formulate the problem of recovering aggregated
+frequencies to approach the genuine ones as a constraint inference (CI)
+problem. Consequently, the server can obtain accurate aggregated frequencies by
+solving this problem optimally. Moreover, LDPRecover can serve as a frequency
+recovery paradigm that recovers more accurate aggregated frequencies by
+integrating attack details as new constraints in the CI problem. Our evaluation
+on two real-world datasets, three LDP protocols, and untargeted and targeted
+poisoning attacks shows that LDPRecover is both accurate and widely applicable
+against various poisoning attacks.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.09322v1">Privacy Preserving Anomaly Detection on Homomorphic Encrypted Data from
+  IoT Sensors</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-03-14T12:11:25Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Anca Hangan, Dragos Lazea, Tudor Cioara</p>
+    <p><b>Summary:</b> IoT devices have become indispensable components of our lives, and the
+advancement of AI technologies will make them even more pervasive, increasing
+the vulnerability to malfunctions or cyberattacks and raising privacy concerns.
+Encryption can mitigate these challenges; however, most existing anomaly
+detection techniques decrypt the data to perform the analysis, potentially
+undermining the encryption protection provided during transit or storage.
+Homomorphic encryption schemes are promising solutions as they enable the
+processing and execution of operations on IoT data while still encrypted,
+however, these schemes offer only limited operations, which poses challenges to
+their practical usage. In this paper, we propose a novel privacy-preserving
+anomaly detection solution designed for homomorphically encrypted data
+generated by IoT devices that efficiently detects abnormal values without
+performing decryption. We have adapted the Histogram-based anomaly detection
+technique for TFHE scheme to address limitations related to the input size and
+the depth of computation by implementing vectorized support operations. These
+operations include addition, value placement in buckets, labeling abnormal
+buckets based on a threshold frequency, labeling abnormal values based on their
+range, and bucket labels. Evaluation results show that the solution effectively
+detects anomalies without requiring data decryption and achieves consistent
+results comparable to the mechanism operating on plain data. Also, it shows
+robustness and resilience against various challenges commonly encountered in
+IoT environments, such as noisy sensor data, adversarial attacks, communication
+failures, and device malfunctions. Moreover, the time and computational
+overheads determined for several solution configurations, despite being large,
+are reasonable compared to those reported in existing literature.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.09173v1">Bridging Quantum Computing and Differential Privacy: A Survey on Quantum
+  Computing Privacy</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-03-14T08:40:30Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yusheng Zhao, Hui Zhong, Xinyue Zhang, Chi Zhang, Miao Pan</p>
+    <p><b>Summary:</b> Quantum computing has attracted significant attention in areas such as
+cryptography, cybersecurity, and drug discovery. Due to the advantage of
+parallel processing, quantum computing can speed up the response to complex
+challenges and the processing of large-scale datasets. However, since quantum
+computing usually requires sensitive datasets, privacy breaches have become a
+vital concern. Differential privacy (DP) is a promising privacy-preserving
+method in classical computing and has been extended to the quantum domain in
+recent years. In this survey, we categorize the existing literature based on
+whether internal inherent noise or external artificial noise is used as a
+source to achieve DP in quantum computing. We explore how these approaches are
+applied at different stages of a quantum algorithm (i.e., state preparation,
+quantum circuit, and quantum measurement). We also discuss challenges and
+future directions for DP in quantum computing. By summarizing recent
+advancements, we hope to provide a comprehensive, up-to-date overview for
+researchers venturing into this field.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.09172v1">SHAN: Object-Level Privacy Detection via Inference on Scene
+  Heterogeneous Graph</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2024-03-14T08:32:14Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zhuohang Jiang, Bingkui Tong, Xia Du, Ahmed Alhammadi, Jizhe Zhou</p>
+    <p><b>Summary:</b> With the rise of social platforms, protecting privacy has become an important
+issue. Privacy object detection aims to accurately locate private objects in
+images. It is the foundation of safeguarding individuals' privacy rights and
+ensuring responsible data handling practices in the digital age. Since privacy
+of object is not shift-invariant, the essence of the privacy object detection
+task is inferring object privacy based on scene information. However, privacy
+object detection has long been studied as a subproblem of common object
+detection tasks. Therefore, existing methods suffer from serious deficiencies
+in accuracy, generalization, and interpretability. Moreover, creating
+large-scale privacy datasets is difficult due to legal constraints and existing
+privacy datasets lack label granularity. The granularity of existing privacy
+detection methods remains limited to the image level. To address the above two
+issues, we introduce two benchmark datasets for object-level privacy detection
+and propose SHAN, Scene Heterogeneous graph Attention Network, a model
+constructs a scene heterogeneous graph from an image and utilizes
+self-attention mechanisms for scene inference to obtain object privacy. Through
+experiments, we demonstrated that SHAN performs excellently in privacy object
+detection tasks, with all metrics surpassing those of the baseline model.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2403.08624v1">Towards a Privacy and Security-Aware Framework for Ethical AI: Guiding
@@ -1989,12 +1999,12 @@ identities.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.05156v1">On Protecting the Data Privacy of Large Language Models (LLMs): A Survey</a></h3>
+  <h3><a href="http://arxiv.org/abs/2403.05156v2">On Protecting the Data Privacy of Large Language Models (LLMs): A Survey</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2024-03-08T08:47:48Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Biwei Yan, Kun Li, Minghui Xu, Yueyan Dong, Yue Zhang, Zhaochun Ren, Xiuzheng Cheng</p>
+    <p><b>Authors:</b> Biwei Yan, Kun Li, Minghui Xu, Yueyan Dong, Yue Zhang, Zhaochun Ren, Xiuzhen Cheng</p>
     <p><b>Summary:</b> Large language models (LLMs) are complex artificial intelligence systems
 capable of understanding, generating and translating human language. They learn
 language patterns by analyzing large amounts of text data, allowing them to
