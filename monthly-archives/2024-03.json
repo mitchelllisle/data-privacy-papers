@@ -1671,5 +1671,134 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.10408v1",
+    "title" : "SocialGenPod: Privacy-Friendly Generative AI Social Web Applications\n  with Decentralised Personal Data Stores",
+    "summary" : "We present SocialGenPod, a decentralised and privacy-friendly way of\ndeploying generative AI Web applications. Unlike centralised Web and data\narchitectures that keep user data tied to application and service providers, we\nshow how one can use Solid -- a decentralised Web specification -- to decouple\nuser data from generative AI applications. We demonstrate SocialGenPod using a\nprototype that allows users to converse with different Large Language Models,\noptionally leveraging Retrieval Augmented Generation to generate answers\ngrounded in private documents stored in any Solid Pod that the user is allowed\nto access, directly or indirectly. SocialGenPod makes use of Solid access\ncontrol mechanisms to give users full control of determining who has access to\ndata stored in their Pods. SocialGenPod keeps all user data (chat history, app\nconfiguration, personal documents, etc) securely in the user's personal Pod;\nseparate from specific model or application providers. Besides better privacy\ncontrols, this approach also enables portability across different services and\napplications. Finally, we discuss challenges, posed by the large compute\nrequirements of state-of-the-art models, that future research in this area\nshould address. Our prototype is open-source and available at:\nhttps://github.com/Vidminas/socialgenpod/.",
+    "updated" : "2024-03-15T15:43:02Z",
+    "published" : "2024-03-15T15:43:02Z",
+    "authors" : [
+      {
+        "name" : "Vidminas Vizgirda"
+      },
+      {
+        "name" : "Rui Zhao"
+      },
+      {
+        "name" : "Naman Goel"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CY",
+      "cs.IR",
+      "cs.LG",
+      "cs.SI",
+      "H.3.4; H.3.5; C.2.4; I.2.1; K.8.1"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.10307v1",
+    "title" : "Chernoff Information as a Privacy Constraint for Adversarial\n  Classification",
+    "summary" : "This work studies a privacy metric based on Chernoff information,\n\\textit{Chernoff differential privacy}, due to its significance in\ncharacterization of classifier performance. Adversarial classification, as any\nother classification problem is built around minimization of the (average or\ncorrect detection) probability of error in deciding on either of the classes in\nthe case of binary classification. Unlike the classical hypothesis testing\nproblem, where the false alarm and mis-detection probabilities are handled\nseparately resulting in an asymmetric behavior of the best error exponent, in\nthis work, we focus on the Bayesian setting and characterize the relationship\nbetween the best error exponent of the average error probability and\n$\\varepsilon-$differential privacy. Accordingly, we re-derive Chernoff\ndifferential privacy in terms of $\\varepsilon-$differential privacy using the\nRadon-Nikodym derivative and show that it satisfies the composition property.\nSubsequently, we present numerical evaluation results, which demonstrates that\nChernoff information outperforms Kullback-Leibler divergence as a function of\nthe privacy parameter $\\varepsilon$, the impact of the adversary's attack and\nglobal sensitivity for the problem of adversarial classification in Laplace\nmechanisms.",
+    "updated" : "2024-03-15T13:47:44Z",
+    "published" : "2024-03-15T13:47:44Z",
+    "authors" : [
+      {
+        "name" : "Ayşe Ünsal"
+      },
+      {
+        "name" : "Melek Önen"
+      }
+    ],
+    "categories" : [
+      "cs.IT",
+      "math.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.10116v1",
+    "title" : "Instance-optimal Clipping for Summation Problems in the Shuffle Model of\n  Differential Privacy",
+    "summary" : "Differentially private mechanisms achieving worst-case optimal error bounds\n(e.g., the classical Laplace mechanism) are well-studied in the literature.\nHowever, when typical data are far from the worst case,\n\\emph{instance-specific} error bounds -- which depend on the largest value in\nthe dataset -- are more meaningful. For example, consider the sum estimation\nproblem, where each user has an integer $x_i$ from the domain $\\{0,1,\\dots,U\\}$\nand we wish to estimate $\\sum_i x_i$. This has a worst-case optimal error of\n$O(U/\\varepsilon)$, while recent work has shown that the clipping mechanism can\nachieve an instance-optimal error of $O(\\max_i x_i \\cdot \\log\\log U\n/\\varepsilon)$. Under the shuffle model, known instance-optimal protocols are\nless communication-efficient. The clipping mechanism also works in the shuffle\nmodel, but requires two rounds: Round one finds the clipping threshold, and\nround two does the clipping and computes the noisy sum of the clipped data. In\nthis paper, we show how these two seemingly sequential steps can be done\nsimultaneously in one round using just $1+o(1)$ messages per user, while\nmaintaining the instance-optimal error bound. We also extend our technique to\nthe high-dimensional sum estimation problem and sparse vector aggregation\n(a.k.a. frequency estimation under user-level differential privacy). Our\nexperiments show order-of-magnitude improvements of our protocols in terms of\nerror compared with prior work.",
+    "updated" : "2024-03-15T09:04:00Z",
+    "published" : "2024-03-15T09:04:00Z",
+    "authors" : [
+      {
+        "name" : "Wei Dong"
+      },
+      {
+        "name" : "Qiyao Luo"
+      },
+      {
+        "name" : "Giulia Fanti"
+      },
+      {
+        "name" : "Elaine Shi"
+      },
+      {
+        "name" : "Ke Yi"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DS"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.09836v1",
+    "title" : "Empowering Healthcare through Privacy-Preserving MRI Analysis",
+    "summary" : "In the healthcare domain, Magnetic Resonance Imaging (MRI) assumes a pivotal\nrole, as it employs Artificial Intelligence (AI) and Machine Learning (ML)\nmethodologies to extract invaluable insights from imaging data. Nonetheless,\nthe imperative need for patient privacy poses significant challenges when\ncollecting data from diverse healthcare sources. Consequently, the Deep\nLearning (DL) communities occasionally face difficulties detecting rare\nfeatures. In this research endeavor, we introduce the Ensemble-Based Federated\nLearning (EBFL) Framework, an innovative solution tailored to address this\nchallenge. The EBFL framework deviates from the conventional approach by\nemphasizing model features over sharing sensitive patient data. This unique\nmethodology fosters a collaborative and privacy-conscious environment for\nhealthcare institutions, empowering them to harness the capabilities of a\ncentralized server for model refinement while upholding the utmost data privacy\nstandards.Conversely, a robust ensemble architecture boasts potent feature\nextraction capabilities, distinguishing itself from a single DL model. This\nquality makes it remarkably dependable for MRI analysis. By harnessing our\ngroundbreaking EBFL methodology, we have achieved remarkable precision in the\nclassification of brain tumors, including glioma, meningioma, pituitary, and\nnon-tumor instances, attaining a precision rate of 94% for the Global model and\nan impressive 96% for the Ensemble model. Our models underwent rigorous\nevaluation using conventional performance metrics such as Accuracy, Precision,\nRecall, and F1 Score. Integrating DL within the Federated Learning (FL)\nframework has yielded a methodology that offers precise and dependable\ndiagnostics for detecting brain tumors.",
+    "updated" : "2024-03-14T19:51:18Z",
+    "published" : "2024-03-14T19:51:18Z",
+    "authors" : [
+      {
+        "name" : "Al Amin"
+      },
+      {
+        "name" : "Kamrul Hasan"
+      },
+      {
+        "name" : "Saleh Zein-Sabatto"
+      },
+      {
+        "name" : "Deo Chimba"
+      },
+      {
+        "name" : "Liang Hong"
+      },
+      {
+        "name" : "Imtiaz Ahmed"
+      },
+      {
+        "name" : "Tariqul Islam"
+      }
+    ],
+    "categories" : [
+      "eess.IV",
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.09752v1",
+    "title" : "Explainable Machine Learning-Based Security and Privacy Protection\n  Framework for Internet of Medical Things Systems",
+    "summary" : "The Internet of Medical Things (IoMT) transcends traditional medical\nboundaries, enabling a transition from reactive treatment to proactive\nprevention. This innovative method revolutionizes healthcare by facilitating\nearly disease detection and tailored care, particularly in chronic disease\nmanagement, where IoMT automates treatments based on real-time health data\ncollection. Nonetheless, its benefits are countered by significant security\nchallenges that endanger the lives of its users due to the sensitivity and\nvalue of the processed data, thereby attracting malicious interests. Moreover,\nthe utilization of wireless communication for data transmission exposes medical\ndata to interception and tampering by cybercriminals. Additionally, anomalies\nmay arise due to human errors, network interference, or hardware malfunctions.\nIn this context, anomaly detection based on Machine Learning (ML) is an\ninteresting solution, but it comes up against obstacles in terms of\nexplicability and protection of privacy. To address these challenges, a new\nframework for Intrusion Detection Systems (IDS) is introduced, leveraging\nArtificial Neural Networks (ANN) for intrusion detection while utilizing\nFederated Learning (FL) for privacy preservation. Additionally, eXplainable\nArtificial Intelligence (XAI) methods are incorporated to enhance model\nexplanation and interpretation. The efficacy of the proposed framework is\nevaluated and compared with centralized approaches using multiple datasets\ncontaining network and medical data, simulating various attack types impacting\nthe confidentiality, integrity, and availability of medical and physiological\ndata. The results obtained offer compelling evidence that the FL method\nperforms comparably to the centralized method, demonstrating high performance.\nAdditionally, it affords the dual advantage of safeguarding privacy and\nproviding model explanation.",
+    "updated" : "2024-03-14T11:57:26Z",
+    "published" : "2024-03-14T11:57:26Z",
+    "authors" : [
+      {
+        "name" : "Ayoub Si-ahmed"
+      },
+      {
+        "name" : "Mohammed Ali Al-Garadi"
+      },
+      {
+        "name" : "Narhimene Boustia"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
   }
 ]
