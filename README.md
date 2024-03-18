@@ -1068,138 +1068,135 @@ network, even in the case of non-IID data.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.10102v1">A privacy-preserving, distributed and cooperative FCM-based learning
-  approach for Cancer Research</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
-  <p><b>Published on:</b> 2024-02-15T16:56:25Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jose L. Salmeron, Irina Arévalo</p>
-    <p><b>Summary:</b> Distributed Artificial Intelligence is attracting interest day by day. In
-this paper, the authors introduce an innovative methodology for distributed
-learning of Particle Swarm Optimization-based Fuzzy Cognitive Maps in a
-privacy-preserving way. The authors design a training scheme for collaborative
-FCM learning that offers data privacy compliant with the current regulation.
-This method is applied to a cancer detection problem, proving that the
-performance of the model is improved by the Federated Learning process, and
-obtaining similar results to the ones that can be found in the literature.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.10065v1">How Much Does Each Datapoint Leak Your Privacy? Quantifying the
-  Per-datum Membership Leakage</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36">  
-  <p><b>Published on:</b> 2024-02-15T16:30:55Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Achraf Azize, Debabrota Basu</p>
-    <p><b>Summary:</b> We study the per-datum Membership Inference Attacks (MIAs), where an attacker
-aims to infer whether a fixed target datum has been included in the input
-dataset of an algorithm and thus, violates privacy. First, we define the
-membership leakage of a datum as the advantage of the optimal adversary
-targeting to identify it. Then, we quantify the per-datum membership leakage
-for the empirical mean, and show that it depends on the Mahalanobis distance
-between the target datum and the data-generating distribution. We further
-assess the effect of two privacy defences, i.e. adding Gaussian noise and
-sub-sampling. We quantify exactly how both of them decrease the per-datum
-membership leakage. Our analysis builds on a novel proof technique that
-combines an Edgeworth expansion of the likelihood ratio test and a
-Lindeberg-Feller central limit theorem. Our analysis connects the existing
-likelihood ratio and scalar product attacks, and also justifies different
-canary selection strategies used in the privacy auditing literature. Finally,
-our experiments demonstrate the impacts of the leakage score, the sub-sampling
-ratio and the noise scale on the per-datum membership leakage as indicated by
-the theory.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.10001v1">Privacy Attacks in Decentralized Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-02-15T15:06:33Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Abdellah El Mrini, Edwige Cyffers, Aurélien Bellet</p>
-    <p><b>Summary:</b> Decentralized Gradient Descent (D-GD) allows a set of users to perform
-collaborative learning without sharing their data by iteratively averaging
-local model updates with their neighbors in a network graph. The absence of
-direct communication between non-neighbor nodes might lead to the belief that
-users cannot infer precise information about the data of others. In this work,
-we demonstrate the opposite, by proposing the first attack against D-GD that
-enables a user (or set of users) to reconstruct the private data of other users
-outside their immediate neighborhood. Our approach is based on a reconstruction
-attack against the gossip averaging protocol, which we then extend to handle
-the additional challenges raised by D-GD. We validate the effectiveness of our
-attack on real graphs and datasets, showing that the number of users
-compromised by a single or a handful of attackers is often surprisingly large.
-We empirically investigate some of the factors that affect the performance of
-the attack, namely the graph topology, the number of attackers, and their
-position in the graph.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.09716v1">User Privacy Harms and Risks in Conversational AI: A Proposed Framework</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2024-02-15T05:21:58Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ece Gumusel, Kyrie Zhixuan Zhou, Madelyn Rose Sanfilippo</p>
-    <p><b>Summary:</b> This study presents a unique framework that applies and extends Solove
-(2006)'s taxonomy to address privacy concerns in interactions with text-based
-AI chatbots. As chatbot prevalence grows, concerns about user privacy have
-heightened. While existing literature highlights design elements compromising
-privacy, a comprehensive framework is lacking. Through semi-structured
-interviews with 13 participants interacting with two AI chatbots, this study
-identifies 9 privacy harms and 9 privacy risks in text-based interactions.
-Using a grounded theory approach for interview and chatlog analysis, the
-framework examines privacy implications at various interaction stages. The aim
-is to offer developers, policymakers, and researchers a tool for responsible
-and secure implementation of conversational AI, filling the existing gap in
-addressing privacy issues associated with text-based AI chatbots.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.09715v1">DPBalance: Efficient and Fair Privacy Budget Scheduling for Federated
-  Learning as a Service</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-02-15T05:19:53Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yu Liu, Zibo Wang, Yifei Zhu, Chen Chen</p>
-    <p><b>Summary:</b> Federated learning (FL) has emerged as a prevalent distributed machine
-learning scheme that enables collaborative model training without aggregating
-raw data. Cloud service providers further embrace Federated Learning as a
-Service (FLaaS), allowing data analysts to execute their FL training pipelines
-over differentially-protected data. Due to the intrinsic properties of
-differential privacy, the enforced privacy level on data blocks can be viewed
-as a privacy budget that requires careful scheduling to cater to diverse
-training pipelines. Existing privacy budget scheduling studies prioritize
-either efficiency or fairness individually. In this paper, we propose
-DPBalance, a novel privacy budget scheduling mechanism that jointly optimizes
-both efficiency and fairness. We first develop a comprehensive utility function
-incorporating data analyst-level dominant shares and FL-specific performance
-metrics. A sequential allocation mechanism is then designed using the Lagrange
-multiplier method and effective greedy heuristics. We theoretically prove that
-DPBalance satisfies Pareto Efficiency, Sharing Incentive, Envy-Freeness, and
-Weak Strategy Proofness. We also theoretically prove the existence of a
-fairness-efficiency tradeoff in privacy budgeting. Extensive experiments
-demonstrate that DPBalance outperforms state-of-the-art solutions, achieving an
-average efficiency improvement of $1.44\times \sim 3.49 \times$, and an average
-fairness improvement of $1.37\times \sim 24.32 \times$.</p>
-  </details>
-</div>
-
-
 
 <h2>2024-03</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.10408v1">SocialGenPod: Privacy-Friendly Generative AI Social Web Applications
+  with Decentralised Personal Data Stores</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Social and Information Networks-662E9B"> 
+  <p><b>Published on:</b> 2024-03-15T15:43:02Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Vidminas Vizgirda, Rui Zhao, Naman Goel</p>
+    <p><b>Summary:</b> We present SocialGenPod, a decentralised and privacy-friendly way of
+deploying generative AI Web applications. Unlike centralised Web and data
+architectures that keep user data tied to application and service providers, we
+show how one can use Solid -- a decentralised Web specification -- to decouple
+user data from generative AI applications. We demonstrate SocialGenPod using a
+prototype that allows users to converse with different Large Language Models,
+optionally leveraging Retrieval Augmented Generation to generate answers
+grounded in private documents stored in any Solid Pod that the user is allowed
+to access, directly or indirectly. SocialGenPod makes use of Solid access
+control mechanisms to give users full control of determining who has access to
+data stored in their Pods. SocialGenPod keeps all user data (chat history, app
+configuration, personal documents, etc) securely in the user's personal Pod;
+separate from specific model or application providers. Besides better privacy
+controls, this approach also enables portability across different services and
+applications. Finally, we discuss challenges, posed by the large compute
+requirements of state-of-the-art models, that future research in this area
+should address. Our prototype is open-source and available at:
+https://github.com/Vidminas/socialgenpod/.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.10307v1">Chernoff Information as a Privacy Constraint for Adversarial
+  Classification</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
+  <p><b>Published on:</b> 2024-03-15T13:47:44Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ayşe Ünsal, Melek Önen</p>
+    <p><b>Summary:</b> This work studies a privacy metric based on Chernoff information,
+\textit{Chernoff differential privacy}, due to its significance in
+characterization of classifier performance. Adversarial classification, as any
+other classification problem is built around minimization of the (average or
+correct detection) probability of error in deciding on either of the classes in
+the case of binary classification. Unlike the classical hypothesis testing
+problem, where the false alarm and mis-detection probabilities are handled
+separately resulting in an asymmetric behavior of the best error exponent, in
+this work, we focus on the Bayesian setting and characterize the relationship
+between the best error exponent of the average error probability and
+$\varepsilon-$differential privacy. Accordingly, we re-derive Chernoff
+differential privacy in terms of $\varepsilon-$differential privacy using the
+Radon-Nikodym derivative and show that it satisfies the composition property.
+Subsequently, we present numerical evaluation results, which demonstrates that
+Chernoff information outperforms Kullback-Leibler divergence as a function of
+the privacy parameter $\varepsilon$, the impact of the adversary's attack and
+global sensitivity for the problem of adversarial classification in Laplace
+mechanisms.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.10116v1">Instance-optimal Clipping for Summation Problems in the Shuffle Model of
+  Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B">
+  <p><b>Published on:</b> 2024-03-15T09:04:00Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Wei Dong, Qiyao Luo, Giulia Fanti, Elaine Shi, Ke Yi</p>
+    <p><b>Summary:</b> Differentially private mechanisms achieving worst-case optimal error bounds
+(e.g., the classical Laplace mechanism) are well-studied in the literature.
+However, when typical data are far from the worst case,
+\emph{instance-specific} error bounds -- which depend on the largest value in
+the dataset -- are more meaningful. For example, consider the sum estimation
+problem, where each user has an integer $x_i$ from the domain $\{0,1,\dots,U\}$
+and we wish to estimate $\sum_i x_i$. This has a worst-case optimal error of
+$O(U/\varepsilon)$, while recent work has shown that the clipping mechanism can
+achieve an instance-optimal error of $O(\max_i x_i \cdot \log\log U
+/\varepsilon)$. Under the shuffle model, known instance-optimal protocols are
+less communication-efficient. The clipping mechanism also works in the shuffle
+model, but requires two rounds: Round one finds the clipping threshold, and
+round two does the clipping and computes the noisy sum of the clipped data. In
+this paper, we show how these two seemingly sequential steps can be done
+simultaneously in one round using just $1+o(1)$ messages per user, while
+maintaining the instance-optimal error bound. We also extend our technique to
+the high-dimensional sum estimation problem and sparse vector aggregation
+(a.k.a. frequency estimation under user-level differential privacy). Our
+experiments show order-of-magnitude improvements of our protocols in terms of
+error compared with prior work.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.09836v1">Empowering Healthcare through Privacy-Preserving MRI Analysis</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2024-03-14T19:51:18Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Al Amin, Kamrul Hasan, Saleh Zein-Sabatto, Deo Chimba, Liang Hong, Imtiaz Ahmed, Tariqul Islam</p>
+    <p><b>Summary:</b> In the healthcare domain, Magnetic Resonance Imaging (MRI) assumes a pivotal
+role, as it employs Artificial Intelligence (AI) and Machine Learning (ML)
+methodologies to extract invaluable insights from imaging data. Nonetheless,
+the imperative need for patient privacy poses significant challenges when
+collecting data from diverse healthcare sources. Consequently, the Deep
+Learning (DL) communities occasionally face difficulties detecting rare
+features. In this research endeavor, we introduce the Ensemble-Based Federated
+Learning (EBFL) Framework, an innovative solution tailored to address this
+challenge. The EBFL framework deviates from the conventional approach by
+emphasizing model features over sharing sensitive patient data. This unique
+methodology fosters a collaborative and privacy-conscious environment for
+healthcare institutions, empowering them to harness the capabilities of a
+centralized server for model refinement while upholding the utmost data privacy
+standards.Conversely, a robust ensemble architecture boasts potent feature
+extraction capabilities, distinguishing itself from a single DL model. This
+quality makes it remarkably dependable for MRI analysis. By harnessing our
+groundbreaking EBFL methodology, we have achieved remarkable precision in the
+classification of brain tumors, including glioma, meningioma, pituitary, and
+non-tumor instances, attaining a precision rate of 94% for the Global model and
+an impressive 96% for the Ensemble model. Our models underwent rigorous
+evaluation using conventional performance metrics such as Accuracy, Precision,
+Recall, and F1 Score. Integrating DL within the Federated Learning (FL)
+framework has yielded a methodology that offers precise and dependable
+diagnostics for detecting brain tumors.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2403.09562v1">PreCurious: How Innocent Pre-Trained Language Models Turn into Privacy
@@ -1332,6 +1329,44 @@ IoT environments, such as noisy sensor data, adversarial attacks, communication
 failures, and device malfunctions. Moreover, the time and computational
 overheads determined for several solution configurations, despite being large,
 are reasonable compared to those reported in existing literature.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.09752v1">Explainable Machine Learning-Based Security and Privacy Protection
+  Framework for Internet of Medical Things Systems</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-03-14T11:57:26Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ayoub Si-ahmed, Mohammed Ali Al-Garadi, Narhimene Boustia</p>
+    <p><b>Summary:</b> The Internet of Medical Things (IoMT) transcends traditional medical
+boundaries, enabling a transition from reactive treatment to proactive
+prevention. This innovative method revolutionizes healthcare by facilitating
+early disease detection and tailored care, particularly in chronic disease
+management, where IoMT automates treatments based on real-time health data
+collection. Nonetheless, its benefits are countered by significant security
+challenges that endanger the lives of its users due to the sensitivity and
+value of the processed data, thereby attracting malicious interests. Moreover,
+the utilization of wireless communication for data transmission exposes medical
+data to interception and tampering by cybercriminals. Additionally, anomalies
+may arise due to human errors, network interference, or hardware malfunctions.
+In this context, anomaly detection based on Machine Learning (ML) is an
+interesting solution, but it comes up against obstacles in terms of
+explicability and protection of privacy. To address these challenges, a new
+framework for Intrusion Detection Systems (IDS) is introduced, leveraging
+Artificial Neural Networks (ANN) for intrusion detection while utilizing
+Federated Learning (FL) for privacy preservation. Additionally, eXplainable
+Artificial Intelligence (XAI) methods are incorporated to enhance model
+explanation and interpretation. The efficacy of the proposed framework is
+evaluated and compared with centralized approaches using multiple datasets
+containing network and medical data, simulating various attack types impacting
+the confidentiality, integrity, and availability of medical and physiological
+data. The results obtained offer compelling evidence that the FL method
+performs comparably to the centralized method, demonstrating high performance.
+Additionally, it affords the dual advantage of safeguarding privacy and
+providing model explanation.</p>
   </details>
 </div>
 
