@@ -817,259 +817,217 @@ analyses that are only easily applicable in specific setups.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.12967v1">Quantifying Privacy via Information Density</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">   
-  <p><b>Published on:</b> 2024-02-20T12:35:14Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Leonhard Grosse, Sara Saeidian, Parastoo Sadeghi, Tobias J. Oechtering, Mikael Skoglund</p>
-    <p><b>Summary:</b> We examine the relationship between privacy metrics that utilize information
-density to measure information leakage between a private and a disclosed random
-variable. Firstly, we prove that bounding the information density from above or
-below in turn implies a lower or upper bound on the information density,
-respectively. Using this result, we establish new relationships between local
-information privacy, asymmetric local information privacy, pointwise maximal
-leakage and local differential privacy. We further provide applications of
-these relations to privacy mechanism design. Furthermore, we provide statements
-showing the equivalence between a lower bound on information density and
-risk-averse adversaries. More specifically, we prove an equivalence between a
-guessing framework and a cost-function framework that result in the desired
-lower bound on the information density.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.12500v1">Integrating kNN with Foundation Models for Adaptable and Privacy-Aware
-  Image Classification</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
-  <p><b>Published on:</b> 2024-02-19T20:08:13Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Sebastian Doerrich, Tobias Archut, Francesco Di Salvo, Christian Ledig</p>
-    <p><b>Summary:</b> Traditional deep learning models implicity encode knowledge limiting their
-transparency and ability to adapt to data changes. Yet, this adaptability is
-vital for addressing user data privacy concerns. We address this limitation by
-storing embeddings of the underlying training data independently of the model
-weights, enabling dynamic data modifications without retraining. Specifically,
-our approach integrates the $k$-Nearest Neighbor ($k$-NN) classifier with a
-vision-based foundation model, pre-trained self-supervised on natural images,
-enhancing interpretability and adaptability. We share open-source
-implementations of a previously unpublished baseline method as well as our
-performance-improving contributions. Quantitative experiments confirm improved
-classification across established benchmark datasets and the method's
-applicability to distinct medical image classification tasks. Additionally, we
-assess the method's robustness in continual learning and data removal
-scenarios. The approach exhibits great promise for bridging the gap between
-foundation models' performance and challenges tied to data privacy. The source
-code is available at
-https://github.com/TobArc/privacy-aware-image-classification-with-kNN.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.11989v1">Privacy-Preserving Low-Rank Adaptation for Latent Diffusion Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2024-02-19T09:32:48Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zihao Luo, Xilie Xu, Feng Liu, Yun Sing Koh, Di Wang, Jingfeng Zhang</p>
-    <p><b>Summary:</b> Low-rank adaptation (LoRA) is an efficient strategy for adapting latent
-diffusion models (LDMs) on a training dataset to generate specific objects by
-minimizing the adaptation loss. However, adapted LDMs via LoRA are vulnerable
-to membership inference (MI) attacks that can judge whether a particular data
-point belongs to private training datasets, thus facing severe risks of privacy
-leakage. To defend against MI attacks, we make the first effort to propose a
-straightforward solution: privacy-preserving LoRA (PrivateLoRA). PrivateLoRA is
-formulated as a min-max optimization problem where a proxy attack model is
-trained by maximizing its MI gain while the LDM is adapted by minimizing the
-sum of the adaptation loss and the proxy attack model's MI gain. However, we
-empirically disclose that PrivateLoRA has the issue of unstable optimization
-due to the large fluctuation of the gradient scale which impedes adaptation. To
-mitigate this issue, we propose Stable PrivateLoRA that adapts the LDM by
-minimizing the ratio of the adaptation loss to the MI gain, which implicitly
-rescales the gradient and thus stabilizes the optimization. Our comprehensive
-empirical results corroborate that adapted LDMs via Stable PrivateLoRA can
-effectively defend against MI attacks while generating high-quality images. Our
-code is available at https://github.com/WilliamLUO0/StablePrivateLoRA.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.11582v2">Publicly auditable privacy-preserving electoral rolls</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2024-02-18T13:11:48Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Prashant Agrawal, Mahabir Prasad Jhanwar, Subodh Vishnu Sharma, Subhashis Banerjee</p>
-    <p><b>Summary:</b> While existing literature on electronic voting has extensively addressed
-verifiability of voting protocols, the vulnerability of electoral rolls in
-large public elections remains a critical concern. To ensure integrity of
-electoral rolls, the current practice is to either make electoral rolls public
-or share them with the political parties. However, this enables construction of
-detailed voter profiles and selective targeting and manipulation of voters,
-thereby undermining the fundamental principle of free and fair elections. In
-this paper, we study the problem of designing publicly auditable yet
-privacy-preserving electoral rolls. We first formulate a threat model and
-provide formal security definitions. We then present a protocol for creation
-and maintenance of electoral rolls that mitigates the threats. Eligible voters
-can verify their inclusion, whereas political parties and auditors can
-statistically audit the electoral roll. The entire electoral roll is never
-revealed, which prevents any large-scale systematic voter targeting and
-manipulation.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.11526v1">Measuring Privacy Loss in Distributed Spatio-Temporal Data</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-02-18T09:53:14Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Tatsuki Koga, Casey Meehan, Kamalika Chaudhuri</p>
-    <p><b>Summary:</b> Statistics about traffic flow and people's movement gathered from multiple
-geographical locations in a distributed manner are the driving force powering
-many applications, such as traffic prediction, demand prediction, and
-restaurant occupancy reports. However, these statistics are often based on
-sensitive location data of people, and hence privacy has to be preserved while
-releasing them. The standard way to do this is via differential privacy, which
-guarantees a form of rigorous, worst-case, person-level privacy. In this work,
-motivated by several counter-intuitive features of differential privacy in
-distributed location applications, we propose an alternative privacy loss
-against location reconstruction attacks by an informed adversary. Our
-experiments on real and synthetic data demonstrate that our privacy loss better
-reflects our intuitions on individual privacy violation in the distributed
-spatio-temporal setting.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.11193v1">Privacy Impact Assessments in the Wild: A Scoping Review</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-02-17T05:07:10Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Leonardo Horn Iwaya, Ala Sarah Alaqra, Marit Hansen, Simone Fischer-Hübner</p>
-    <p><b>Summary:</b> Privacy Impact Assessments (PIAs) offer a systematic process for assessing
-the privacy impacts of a project or system. As a privacy engineering strategy,
-PIAs are heralded as one of the main approaches to privacy by design,
-supporting the early identification of threats and controls. However, there is
-still a shortage of empirical evidence on their uptake and proven effectiveness
-in practice. To better understand the current state of literature and research,
-this paper provides a comprehensive Scoping Review (ScR) on the topic of PIAs
-"in the wild", following the well-established Preferred Reporting Items for
-Systematic reviews and Meta-Analyses (PRISMA) guidelines. As a result, this ScR
-includes 45 studies, providing an extensive synthesis of the existing body of
-knowledge, classifying types of research and publications, appraising the
-methodological quality of primary research, and summarising the positive and
-negative aspects of PIAs in practice, as reported by studies. This ScR also
-identifies significant research gaps (e.g., evidence gaps from contradictory
-results and methodological gaps from research design deficiencies), future
-research pathways, and implications for researchers, practitioners, and
-policymakers developing and evaluating PIA frameworks. As we conclude, there is
-still a significant need for more primary research on the topic, both
-qualitative and quantitative. A critical appraisal of qualitative studies
-(n=28) revealed deficiencies in the methodological quality, and only four
-quantitative studies were identified, suggesting that current primary research
-remains incipient. Nonetheless, PIAs can be regarded as a prominent sub-area in
-the broader field of Empirical Privacy Engineering, warranting further research
-toward more evidence-based practices.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.10473v1">Privacy for Fairness: Information Obfuscation for Fair Representation
-  Learning with Local Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
-  <p><b>Published on:</b> 2024-02-16T06:35:10Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Songjie Xie, Youlong Wu, Jiaxuan Li, Ming Ding, Khaled B. Letaief</p>
-    <p><b>Summary:</b> As machine learning (ML) becomes more prevalent in human-centric
-applications, there is a growing emphasis on algorithmic fairness and privacy
-protection. While previous research has explored these areas as separate
-objectives, there is a growing recognition of the complex relationship between
-privacy and fairness. However, previous works have primarily focused on
-examining the interplay between privacy and fairness through empirical
-investigations, with limited attention given to theoretical exploration. This
-study aims to bridge this gap by introducing a theoretical framework that
-enables a comprehensive examination of their interrelation. We shall develop
-and analyze an information bottleneck (IB) based information obfuscation method
-with local differential privacy (LDP) for fair representation learning. In
-contrast to many empirical studies on fairness in ML, we show that the
-incorporation of LDP randomizers during the encoding process can enhance the
-fairness of the learned representation. Our analysis will demonstrate that the
-disclosure of sensitive information is constrained by the privacy budget of the
-LDP randomizer, thereby enabling the optimization process within the IB
-framework to effectively suppress sensitive information while preserving the
-desired utility through obfuscation. Based on the proposed method, we further
-develop a variational representation encoding approach that simultaneously
-achieves fairness and LDP. Our variational encoding approach offers practical
-advantages. It is trained using a non-adversarial method and does not require
-the introduction of any variational prior. Extensive experiments will be
-presented to validate our theoretical results and demonstrate the ability of
-our proposed approach to achieve both LDP and fairness while preserving
-adequate utility.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.10423v1">Connect the dots: Dataset Condensation, Differential Privacy, and
-  Adversarial Uncertainty</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2024-02-16T03:12:22Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Kenneth Odoh</p>
-    <p><b>Summary:</b> Our work focuses on understanding the underpinning mechanism of dataset
-condensation by drawing connections with ($\epsilon$, $\delta$)-differential
-privacy where the optimal noise, $\epsilon$, is chosen by adversarial
-uncertainty \cite{Grining2017}. We can answer the question about the inner
-workings of the dataset condensation procedure. Previous work \cite{dong2022}
-proved the link between dataset condensation (DC) and ($\epsilon$,
-$\delta$)-differential privacy. However, it is unclear from existing works on
-ablating DC to obtain a lower-bound estimate of $\epsilon$ that will suffice
-for creating high-fidelity synthetic data. We suggest that adversarial
-uncertainty is the most appropriate method to achieve an optimal noise level,
-$\epsilon$. As part of the internal dynamics of dataset condensation, we adopt
-a satisfactory scheme for noise estimation that guarantees high-fidelity data
-while providing privacy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.10145v1">A chaotic maps-based privacy-preserving distributed deep learning for
-  incomplete and Non-IID datasets</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
-  <p><b>Published on:</b> 2024-02-15T17:49:50Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Irina Arévalo, Jose L. Salmeron</p>
-    <p><b>Summary:</b> Federated Learning is a machine learning approach that enables the training
-of a deep learning model among several participants with sensitive data that
-wish to share their own knowledge without compromising the privacy of their
-data. In this research, the authors employ a secured Federated Learning method
-with an additional layer of privacy and proposes a method for addressing the
-non-IID challenge. Moreover, differential privacy is compared with
-chaotic-based encryption as layer of privacy. The experimental approach
-assesses the performance of the federated deep learning model with differential
-privacy using both IID and non-IID data. In each experiment, the Federated
-Learning process improves the average performance metrics of the deep neural
-network, even in the case of non-IID data.</p>
-  </details>
-</div>
-
-
 
 <h2>2024-03</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.11519v1">Efficient and Privacy-Preserving Federated Learning based on Full
+  Homomorphic Encryption</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-03-18T07:13:09Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yuqi Guo, Lin Li, Zhongxiang Zheng, Hanrui Yun, Ruoyan Zhang, Xiaolin Chang, Zhixuan Gao</p>
+    <p><b>Summary:</b> Since the first theoretically feasible full homomorphic encryption (FHE)
+scheme was proposed in 2009, great progress has been achieved. These
+improvements have made FHE schemes come off the paper and become quite useful
+in solving some practical problems. In this paper, we propose a set of novel
+Federated Learning Schemes by utilizing the latest homomorphic encryption
+technologies, so as to improve the security, functionality and practicality at
+the same time. Comparisons have been given in four practical data sets
+separately from medical, business, biometric and financial fields, covering
+both horizontal and vertical federated learning scenarios. The experiment
+results show that our scheme achieves significant improvements in security,
+efficiency and practicality, compared with classical horizontal and vertical
+federated learning schemes.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.11445v1">Budget Recycling Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B"> 
+  <p><b>Published on:</b> 2024-03-18T03:43:45Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Bo Jiang, Jian Du, Sagar Shamar, Qiang Yan</p>
+    <p><b>Summary:</b> Differential Privacy (DP) mechanisms usually {force} reduction in data
+utility by producing ``out-of-bound'' noisy results for a tight privacy budget.
+We introduce the Budget Recycling Differential Privacy (BR-DP) framework,
+designed to provide soft-bounded noisy outputs for a broad range of existing DP
+mechanisms. By ``soft-bounded," we refer to the mechanism's ability to release
+most outputs within a predefined error boundary, thereby improving utility and
+maintaining privacy simultaneously. The core of BR-DP consists of two
+components: a DP kernel responsible for generating a noisy answer per
+iteration, and a recycler that probabilistically recycles/regenerates or
+releases the noisy answer. We delve into the privacy accounting of BR-DP,
+culminating in the development of a budgeting principle that optimally
+sub-allocates the available budget between the DP kernel and the recycler.
+Furthermore, we introduce algorithms for tight BR-DP accounting in composition
+scenarios, and our findings indicate that BR-DP achieves reduced privacy
+leakage post-composition compared to DP. Additionally, we explore the concept
+of privacy amplification via subsampling within the BR-DP framework and propose
+optimal sampling rates for BR-DP across various queries. We experiment with
+real data, and the results demonstrate BR-DP's effectiveness in lifting the
+utility-privacy tradeoff provided by DP mechanisms.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.11343v1">Federated Transfer Learning with Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36">   
+  <p><b>Published on:</b> 2024-03-17T21:04:48Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mengchu Li, Ye Tian, Yang Feng, Yi Yu</p>
+    <p><b>Summary:</b> Federated learning is gaining increasing popularity, with data heterogeneity
+and privacy being two prominent challenges. In this paper, we address both
+issues within a federated transfer learning framework, aiming to enhance
+learning on a target data set by leveraging information from multiple
+heterogeneous source data sets while adhering to privacy constraints. We
+rigorously formulate the notion of \textit{federated differential privacy},
+which offers privacy guarantees for each data set without assuming a trusted
+central server. Under this privacy constraint, we study three classical
+statistical problems, namely univariate mean estimation, low-dimensional linear
+regression, and high-dimensional linear regression. By investigating the
+minimax rates and identifying the costs of privacy for these problems, we show
+that federated differential privacy is an intermediate privacy model between
+the well-established local and central models of differential privacy. Our
+analyses incorporate data heterogeneity and privacy, highlighting the
+fundamental costs of both in federated learning and underscoring the benefit of
+knowledge transfer across data sets.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.11171v1">A Tip for IOTA Privacy: IOTA Light Node Deanonymization via Tip
+  Selection</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-03-17T11:12:46Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Hojung Yang, Suhyeon Lee, Seungjoo Kim</p>
+    <p><b>Summary:</b> IOTA is a distributed ledger technology that uses a Directed Acyclic Graph
+(DAG) structure called the Tangle. It is known for its efficiency and is widely
+used in the Internet of Things (IoT) environment. Tangle can be configured by
+utilizing the tip selection process. Due to performance issues with light
+nodes, full nodes are being asked to perform the tip selections of light nodes.
+However, in this paper, we demonstrate that tip selection can be exploited to
+compromise users' privacy. An adversary full node can associate a transaction
+with the identity of a light node by comparing the light node's request with
+its ledger. We show that these types of attacks are not only viable in the
+current IOTA environment but also in IOTA 2.0 and the privacy improvement being
+studied. We also provide solutions to mitigate these attacks and propose ways
+to enhance anonymity in the IOTA network while maintaining efficiency and
+scalability.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.11088v1">Programming Frameworks for Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Programming Languages-D91E36">
+  <p><b>Published on:</b> 2024-03-17T04:44:48Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Marco Gaboardi, Michael Hay, Salil Vadhan</p>
+    <p><b>Summary:</b> Many programming frameworks have been introduced to support the development
+of differentially private software applications. In this chapter, we survey
+some of the conceptual ideas underlying these frameworks in a way that we hope
+will be helpful for both practitioners and researchers. For practitioners, the
+survey can provide a starting point for understanding what features may be
+valuable when selecting a programming framework. For researchers, it can help
+organize existing work in a unified way and provide context for understanding
+new features in future frameworks.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.11064v1">Double-Private Distributed Estimation Algorithm Using Differential
+  Privacy and a Key-Like Proportionate Matrix with Its Performance Analysis</a></h3>
+  
+  <p><b>Published on:</b> 2024-03-17T02:41:53Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mehdi Korki, Fatemehsadat Hosseiniamin, Hadi Zayyani, Mehdi Bekrani</p>
+    <p><b>Summary:</b> In this brief, we present an enhanced privacy-preserving distributed
+estimation algorithm, referred to as the ``Double-Private Algorithm," which
+combines the principles of both differential privacy (DP) and cryptography. The
+proposed algorithm enhances privacy by introducing DP noise into the
+intermediate estimations of neighboring nodes. Additionally, we employ an
+inverse of a closed-form reproducible proportionate gain matrix as the
+cryptographic key matrix to fortify the privacy protection within the proposed
+double private algorithm. \textcolor{blue}{We improve the algorithm by
+transmitting alternative variable vectors instead of raw measurements,
+resulting in enhanced key matrix reconstruction performance. This innovative
+approach mitigate noise impact, enhancing overall algorithm effectiveness.} We
+also establish an upper bound for the norm of the error between the non-private
+Diffusion Least Mean Square (DLMS) algorithm and our double private algorithm.
+Further, we determine a sufficient condition for the step-size to ensure the
+mean convergence of the proposed algorithm. Simulation results demonstrate the
+effectiveness of the proposed algorithm, particularly its ability to attain the
+final Mean Square Deviation (MSD) comparable to that of the non-private DLMS.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.10920v1">Batch-oriented Element-wise Approximate Activation for
+  Privacy-Preserving Neural Networks</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-03-16T13:26:33Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Peng Zhang, Ao Duan, Xianglu Zou, Yuhong Liu</p>
+    <p><b>Summary:</b> Privacy-Preserving Neural Networks (PPNN) are advanced to perform inference
+without breaching user privacy, which can serve as an essential tool for
+medical diagnosis to simultaneously achieve big data utility and privacy
+protection. As one of the key techniques to enable PPNN, Fully Homomorphic
+Encryption (FHE) is facing a great challenge that homomorphic operations cannot
+be easily adapted for non-linear activation calculations. In this paper,
+batch-oriented element-wise data packing and approximate activation are
+proposed, which train linear low-degree polynomials to approximate the
+non-linear activation function - ReLU. Compared with other approximate
+activation methods, the proposed fine-grained, trainable approximation scheme
+can effectively reduce the accuracy loss caused by approximation errors.
+Meanwhile, due to element-wise data packing, a large batch of images can be
+packed and inferred concurrently, leading to a much higher utility ratio of
+ciphertext slots. Therefore, although the total inference time increases
+sharply, the amortized time for each image actually decreases, especially when
+the batch size increases. Furthermore, knowledge distillation is adopted in the
+training process to further enhance the inference accuracy. Experiment results
+show that when ciphertext inference is performed on 4096 input images, compared
+with the current most efficient channel-wise method, the inference accuracy is
+improved by 1.65%, and the amortized inference time is reduced by 99.5%.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.10676v1">Secure Distributed Storage: Optimal Trade-Off Between Storage Rate and
+  Privacy Leakage</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
+  <p><b>Published on:</b> 2024-03-15T20:50:46Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Remi A. Chou, Joerg Kliewer</p>
+    <p><b>Summary:</b> Consider the problem of storing data in a distributed manner over $T$
+servers. Specifically, the data needs to (i) be recoverable from any $\tau$
+servers, and (ii) remain private from any $z$ colluding servers, where privacy
+is quantified in terms of mutual information between the data and all the
+information available at any $z$ colluding servers. For this model, our main
+results are (i) the fundamental trade-off between storage size and the level of
+desired privacy, and (ii) the optimal amount of local randomness necessary at
+the encoder. As a byproduct, our results provide an optimal lower bound on the
+individual share size of ramp secret sharing schemes under a more general
+leakage symmetry condition than the ones previously considered in the
+literature.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2403.10408v1">SocialGenPod: Privacy-Friendly Generative AI Social Web Applications
@@ -1424,6 +1382,41 @@ constructs a scene heterogeneous graph from an image and utilizes
 self-attention mechanisms for scene inference to obtain object privacy. Through
 experiments, we demonstrated that SHAN performs excellently in privacy object
 detection tasks, with all metrics surpassing those of the baseline model.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.10558v1">Adaptive Hybrid Masking Strategy for Privacy-Preserving Face Recognition
+  Against Model Inversion Attack</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-03-14T02:17:57Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yuanqing Huang, Yinggui Wang, Jianshu Li, Le Yang, Kai Song, Lei Wang</p>
+    <p><b>Summary:</b> The utilization of personal sensitive data in training face recognition (FR)
+models poses significant privacy concerns, as adversaries can employ model
+inversion attacks (MIA) to infer the original training data. Existing defense
+methods, such as data augmentation and differential privacy, have been employed
+to mitigate this issue. However, these methods often fail to strike an optimal
+balance between privacy and accuracy. To address this limitation, this paper
+introduces an adaptive hybrid masking algorithm against MIA. Specifically, face
+images are masked in the frequency domain using an adaptive MixUp strategy.
+Unlike the traditional MixUp algorithm, which is predominantly used for data
+augmentation, our modified approach incorporates frequency domain mixing.
+Previous studies have shown that increasing the number of images mixed in MixUp
+can enhance privacy preservation but at the expense of reduced face recognition
+accuracy. To overcome this trade-off, we develop an enhanced adaptive MixUp
+strategy based on reinforcement learning, which enables us to mix a larger
+number of images while maintaining satisfactory recognition accuracy. To
+optimize privacy protection, we propose maximizing the reward function (i.e.,
+the loss function of the FR system) during the training of the strategy
+network. While the loss function of the FR network is minimized in the phase of
+training the FR network. The strategy network and the face recognition network
+can be viewed as antagonistic entities in the training process, ultimately
+reaching a more balanced trade-off. Experimental results demonstrate that our
+proposed hybrid masking scheme outperforms existing defense algorithms in terms
+of privacy preservation and recognition accuracy against MIA.</p>
   </details>
 </div>
 
@@ -2631,7 +2624,7 @@ sensitive power system data.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.02292v2">A Decade of Privacy-Relevant Android App Reviews: Large Scale Trends</a></h3>
+  <h3><a href="http://arxiv.org/abs/2403.02292v3">A Decade of Privacy-Relevant Android App Reviews: Large Scale Trends</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
   <p><b>Published on:</b> 2024-03-04T18:21:56Z</p>
   <details>
