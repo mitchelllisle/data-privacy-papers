@@ -692,133 +692,113 @@ experts.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.14544v2">{A New Hope}: Contextual Privacy Policies for Mobile Applications and An
-  Approach Toward Automated Generation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
-  <p><b>Published on:</b> 2024-02-22T13:32:33Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shidong Pan, Zhen Tao, Thong Hoang, Dawen Zhang, Tianshi Li, Zhenchang Xing, Sherry Xu, Mark Staples, Thierry Rakotoarivelo, David Lo</p>
-    <p><b>Summary:</b> Privacy policies have emerged as the predominant approach to conveying
-privacy notices to mobile application users. In an effort to enhance both
-readability and user engagement, the concept of contextual privacy policies
-(CPPs) has been proposed by researchers. The aim of CPPs is to fragment privacy
-policies into concise snippets, displaying them only within the corresponding
-contexts within the application's graphical user interfaces (GUIs). In this
-paper, we first formulate CPP in mobile application scenario, and then present
-a novel multimodal framework, named SeePrivacy, specifically designed to
-automatically generate CPPs for mobile applications. This method uniquely
-integrates vision-based GUI understanding with privacy policy analysis,
-achieving 0.88 precision and 0.90 recall to detect contexts, as well as 0.98
-precision and 0.96 recall in extracting corresponding policy segments. A human
-evaluation shows that 77% of the extracted privacy policy segments were
-perceived as well-aligned with the detected contexts. These findings suggest
-that SeePrivacy could serve as a significant tool for bolstering user
-interaction with, and understanding of, privacy policies. Furthermore, our
-solution has the potential to make privacy notices more accessible and
-inclusive, thus appealing to a broader demographic. A demonstration of our work
-can be accessed at https://cpp4app.github.io/SeePrivacy/</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.13815v1">An Empirical Study on Oculus Virtual Reality Applications: Security and
-  Privacy Perspectives</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-02-21T13:53:25Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Hanyang Guo, Hong-Ning Dai, Xiapu Luo, Zibin Zheng, Gengyang Xu, Fengliang He</p>
-    <p><b>Summary:</b> Although Virtual Reality (VR) has accelerated its prevalent adoption in
-emerging metaverse applications, it is not a fundamentally new technology. On
-one hand, most VR operating systems (OS) are based on off-the-shelf mobile OS.
-As a result, VR apps also inherit privacy and security deficiencies from
-conventional mobile apps. On the other hand, in contrast to conventional mobile
-apps, VR apps can achieve immersive experience via diverse VR devices, such as
-head-mounted displays, body sensors, and controllers though achieving this
-requires the extensive collection of privacy-sensitive human biometrics.
-Moreover, VR apps have been typically implemented by 3D gaming engines (e.g.,
-Unity), which also contain intrinsic security vulnerabilities. Inappropriate
-use of these technologies may incur privacy leaks and security vulnerabilities
-although these issues have not received significant attention compared to the
-proliferation of diverse VR apps. In this paper, we develop a security and
-privacy assessment tool, namely the VR-SP detector for VR apps. The VR-SP
-detector has integrated program static analysis tools and privacy-policy
-analysis methods. Using the VR-SP detector, we conduct a comprehensive
-empirical study on 500 popular VR apps. We obtain the original apps from the
-popular Oculus and SideQuest app stores and extract APK files via the Meta
-Oculus Quest 2 device. We evaluate security vulnerabilities and privacy data
-leaks of these VR apps by VR app analysis, taint analysis, and privacy-policy
-analysis. We find that a number of security vulnerabilities and privacy leaks
-widely exist in VR apps. Moreover, our results also reveal conflicting
-representations in the privacy policies of these apps and inconsistencies of
-the actual data collection with the privacy-policy statements of the apps.
-Based on these findings, we make suggestions for the future development of VR
-apps.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.13659v1">Privacy-Preserving Instructions for Aligning Large Language Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2024-02-21T09:45:08Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Da Yu, Peter Kairouz, Sewoong Oh, Zheng Xu</p>
-    <p><b>Summary:</b> Service providers of large language model (LLM) applications collect user
-instructions in the wild and use them in further aligning LLMs with users'
-intentions. These instructions, which potentially contain sensitive
-information, are annotated by human workers in the process. This poses a new
-privacy risk not addressed by the typical private optimization. To this end, we
-propose using synthetic instructions to replace real instructions in data
-annotation and model fine-tuning. Formal differential privacy is guaranteed by
-generating those synthetic instructions using privately fine-tuned generators.
-Crucial in achieving the desired utility is our novel filtering algorithm that
-matches the distribution of the synthetic instructions to that of the real
-ones. In both supervised fine-tuning and reinforcement learning from human
-feedback, our extensive experiments demonstrate the high utility of the final
-set of synthetic instructions by showing comparable results to real
-instructions. In supervised fine-tuning, models trained with private synthetic
-instructions outperform leading open-source models such as Vicuna.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.13087v1">How Does Selection Leak Privacy: Revisiting Private Selection and
-  Improved Results for Hyper-parameter Tuning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-02-20T15:29:49Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zihang Xiang, Chenglong Wang, Di Wang</p>
-    <p><b>Summary:</b> We study the problem of guaranteeing Differential Privacy (DP) in
-hyper-parameter tuning, a crucial process in machine learning involving the
-selection of the best run from several. Unlike many private algorithms,
-including the prevalent DP-SGD, the privacy implications of tuning remain
-insufficiently understood. Recent works propose a generic private solution for
-the tuning process, yet a fundamental question still persists: is the current
-privacy bound for this solution tight?
-  This paper contributes both positive and negative answers to this question.
-Initially, we provide studies affirming the current privacy analysis is indeed
-tight in a general sense. However, when we specifically study the
-hyper-parameter tuning problem, such tightness no longer holds. This is first
-demonstrated by applying privacy audit on the tuning process. Our findings
-underscore a substantial gap between the current theoretical privacy bound and
-the empirical bound derived even under the strongest audit setup.
-  The gap found is not a fluke. Our subsequent study provides an improved
-privacy result for private hyper-parameter tuning due to its distinct
-properties. Our privacy results are also more generalizable compared to prior
-analyses that are only easily applicable in specific setups.</p>
-  </details>
-</div>
-
-
 
 <h2>2024-03</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.12710v1">Selective, Interpretable, and Motion Consistent Privacy Attribute
+  Obfuscation for Action Recognition</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-03-19T13:17:26Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Filip Ilic, He Zhao, Thomas Pock, Richard P. Wildes</p>
+    <p><b>Summary:</b> Concerns for the privacy of individuals captured in public imagery have led
+to privacy-preserving action recognition. Existing approaches often suffer from
+issues arising through obfuscation being applied globally and a lack of
+interpretability. Global obfuscation hides privacy sensitive regions, but also
+contextual regions important for action recognition. Lack of interpretability
+erodes trust in these new technologies. We highlight the limitations of current
+paradigms and propose a solution: Human selected privacy templates that yield
+interpretability by design, an obfuscation scheme that selectively hides
+attributes and also induces temporal consistency, which is important in action
+recognition. Our approach is architecture agnostic and directly modifies input
+imagery, while existing approaches generally require architecture training. Our
+approach offers more flexibility, as no retraining is required, and outperforms
+alternatives on three widely used datasets.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.12457v1">Privacy-Preserving Face Recognition Using Trainable Feature Subtraction</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2024-03-19T05:27:52Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yuxi Mi, Zhizhou Zhong, Yuge Huang, Jiazhen Ji, Jianqing Xu, Jun Wang, Shaoming Wang, Shouhong Ding, Shuigeng Zhou</p>
+    <p><b>Summary:</b> The widespread adoption of face recognition has led to increasing privacy
+concerns, as unauthorized access to face images can expose sensitive personal
+information. This paper explores face image protection against viewing and
+recovery attacks. Inspired by image compression, we propose creating a visually
+uninformative face image through feature subtraction between an original face
+and its model-produced regeneration. Recognizable identity features within the
+image are encouraged by co-training a recognition model on its high-dimensional
+feature representation. To enhance privacy, the high-dimensional representation
+is crafted through random channel shuffling, resulting in randomized
+recognizable images devoid of attacker-leverageable texture details. We distill
+our methodologies into a novel privacy-preserving face recognition method,
+MinusFace. Experiments demonstrate its high recognition accuracy and effective
+privacy protection. Its code is available at https://github.com/Tencent/TFace.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.12313v1">Improving LoRA in Privacy-preserving Federated Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
+  <p><b>Published on:</b> 2024-03-18T23:20:08Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Youbang Sun, Zitao Li, Yaliang Li, Bolin Ding</p>
+    <p><b>Summary:</b> Low-rank adaptation (LoRA) is one of the most popular task-specific
+parameter-efficient fine-tuning (PEFT) methods on pre-trained language models
+for its good performance and computational efficiency. LoRA injects a product
+of two trainable rank decomposition matrices over the top of each frozen
+pre-trained model module. However, when applied in the setting of
+privacy-preserving federated learning (FL), LoRA may become unstable due to the
+following facts: 1) the effects of data heterogeneity and multi-step local
+updates are non-negligible, 2) additive noise enforced on updating gradients to
+guarantee differential privacy (DP) can be amplified and 3) the final
+performance is susceptible to hyper-parameters. A key factor leading to these
+phenomena is the discordance between jointly optimizing the two low-rank
+matrices by local clients and separately aggregating them by the central
+server. Thus, this paper proposes an efficient and effective version of LoRA,
+Federated Freeze A LoRA (FFA-LoRA), to alleviate these challenges and further
+halve the communication cost of federated fine-tuning LLMs. The core idea of
+FFA-LoRA is to fix the randomly initialized non-zero matrices and only
+fine-tune the zero-initialized matrices. Compared to LoRA, FFA-LoRA is
+motivated by practical and theoretical benefits in privacy-preserved FL. Our
+experiments demonstrate that FFA-LoRA provides more consistent performance with
+better computational efficiency over vanilla LoRA in various FL tasks.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.11795v1">Low-Cost Privacy-Aware Decentralized Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
+  <p><b>Published on:</b> 2024-03-18T13:53:17Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Sayan Biswas, Davide Frey, Romaric Gaudel, Anne-Marie Kermarrec, Dimitri Lerévérend, Rafael Pires, Rishi Sharma, François Taïani</p>
+    <p><b>Summary:</b> This paper introduces ZIP-DL, a novel privacy-aware decentralized learning
+(DL) algorithm that relies on adding correlated noise to each model update
+during the model training process. This technique ensures that the added noise
+almost neutralizes itself during the aggregation process due to its
+correlation, thus minimizing the impact on model accuracy. In addition, ZIP-DL
+does not require multiple communication rounds for noise cancellation,
+addressing the common trade-off between privacy protection and communication
+overhead. We provide theoretical guarantees for both convergence speed and
+privacy guarantees, thereby making ZIP-DL applicable to practical scenarios.
+Our extensive experimental study shows that ZIP-DL achieves the best trade-off
+between vulnerability and accuracy. In particular, ZIP-DL (i) reduces the
+effectiveness of a linkability attack by up to 52 points compared to baseline
+DL, and (ii) achieves up to 37 more accuracy points for the same vulnerability
+under membership inference attacks against a privacy-preserving competitor</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2403.11519v1">Efficient and Privacy-Preserving Federated Learning based on Full
