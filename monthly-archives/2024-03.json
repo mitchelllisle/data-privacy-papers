@@ -2066,5 +2066,132 @@
       "cs.LG",
       "cs.HC"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.12710v1",
+    "title" : "Selective, Interpretable, and Motion Consistent Privacy Attribute\n  Obfuscation for Action Recognition",
+    "summary" : "Concerns for the privacy of individuals captured in public imagery have led\nto privacy-preserving action recognition. Existing approaches often suffer from\nissues arising through obfuscation being applied globally and a lack of\ninterpretability. Global obfuscation hides privacy sensitive regions, but also\ncontextual regions important for action recognition. Lack of interpretability\nerodes trust in these new technologies. We highlight the limitations of current\nparadigms and propose a solution: Human selected privacy templates that yield\ninterpretability by design, an obfuscation scheme that selectively hides\nattributes and also induces temporal consistency, which is important in action\nrecognition. Our approach is architecture agnostic and directly modifies input\nimagery, while existing approaches generally require architecture training. Our\napproach offers more flexibility, as no retraining is required, and outperforms\nalternatives on three widely used datasets.",
+    "updated" : "2024-03-19T13:17:26Z",
+    "published" : "2024-03-19T13:17:26Z",
+    "authors" : [
+      {
+        "name" : "Filip Ilic"
+      },
+      {
+        "name" : "He Zhao"
+      },
+      {
+        "name" : "Thomas Pock"
+      },
+      {
+        "name" : "Richard P. Wildes"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.12457v1",
+    "title" : "Privacy-Preserving Face Recognition Using Trainable Feature Subtraction",
+    "summary" : "The widespread adoption of face recognition has led to increasing privacy\nconcerns, as unauthorized access to face images can expose sensitive personal\ninformation. This paper explores face image protection against viewing and\nrecovery attacks. Inspired by image compression, we propose creating a visually\nuninformative face image through feature subtraction between an original face\nand its model-produced regeneration. Recognizable identity features within the\nimage are encouraged by co-training a recognition model on its high-dimensional\nfeature representation. To enhance privacy, the high-dimensional representation\nis crafted through random channel shuffling, resulting in randomized\nrecognizable images devoid of attacker-leverageable texture details. We distill\nour methodologies into a novel privacy-preserving face recognition method,\nMinusFace. Experiments demonstrate its high recognition accuracy and effective\nprivacy protection. Its code is available at https://github.com/Tencent/TFace.",
+    "updated" : "2024-03-19T05:27:52Z",
+    "published" : "2024-03-19T05:27:52Z",
+    "authors" : [
+      {
+        "name" : "Yuxi Mi"
+      },
+      {
+        "name" : "Zhizhou Zhong"
+      },
+      {
+        "name" : "Yuge Huang"
+      },
+      {
+        "name" : "Jiazhen Ji"
+      },
+      {
+        "name" : "Jianqing Xu"
+      },
+      {
+        "name" : "Jun Wang"
+      },
+      {
+        "name" : "Shaoming Wang"
+      },
+      {
+        "name" : "Shouhong Ding"
+      },
+      {
+        "name" : "Shuigeng Zhou"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.12313v1",
+    "title" : "Improving LoRA in Privacy-preserving Federated Learning",
+    "summary" : "Low-rank adaptation (LoRA) is one of the most popular task-specific\nparameter-efficient fine-tuning (PEFT) methods on pre-trained language models\nfor its good performance and computational efficiency. LoRA injects a product\nof two trainable rank decomposition matrices over the top of each frozen\npre-trained model module. However, when applied in the setting of\nprivacy-preserving federated learning (FL), LoRA may become unstable due to the\nfollowing facts: 1) the effects of data heterogeneity and multi-step local\nupdates are non-negligible, 2) additive noise enforced on updating gradients to\nguarantee differential privacy (DP) can be amplified and 3) the final\nperformance is susceptible to hyper-parameters. A key factor leading to these\nphenomena is the discordance between jointly optimizing the two low-rank\nmatrices by local clients and separately aggregating them by the central\nserver. Thus, this paper proposes an efficient and effective version of LoRA,\nFederated Freeze A LoRA (FFA-LoRA), to alleviate these challenges and further\nhalve the communication cost of federated fine-tuning LLMs. The core idea of\nFFA-LoRA is to fix the randomly initialized non-zero matrices and only\nfine-tune the zero-initialized matrices. Compared to LoRA, FFA-LoRA is\nmotivated by practical and theoretical benefits in privacy-preserved FL. Our\nexperiments demonstrate that FFA-LoRA provides more consistent performance with\nbetter computational efficiency over vanilla LoRA in various FL tasks.",
+    "updated" : "2024-03-18T23:20:08Z",
+    "published" : "2024-03-18T23:20:08Z",
+    "authors" : [
+      {
+        "name" : "Youbang Sun"
+      },
+      {
+        "name" : "Zitao Li"
+      },
+      {
+        "name" : "Yaliang Li"
+      },
+      {
+        "name" : "Bolin Ding"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.11795v1",
+    "title" : "Low-Cost Privacy-Aware Decentralized Learning",
+    "summary" : "This paper introduces ZIP-DL, a novel privacy-aware decentralized learning\n(DL) algorithm that relies on adding correlated noise to each model update\nduring the model training process. This technique ensures that the added noise\nalmost neutralizes itself during the aggregation process due to its\ncorrelation, thus minimizing the impact on model accuracy. In addition, ZIP-DL\ndoes not require multiple communication rounds for noise cancellation,\naddressing the common trade-off between privacy protection and communication\noverhead. We provide theoretical guarantees for both convergence speed and\nprivacy guarantees, thereby making ZIP-DL applicable to practical scenarios.\nOur extensive experimental study shows that ZIP-DL achieves the best trade-off\nbetween vulnerability and accuracy. In particular, ZIP-DL (i) reduces the\neffectiveness of a linkability attack by up to 52 points compared to baseline\nDL, and (ii) achieves up to 37 more accuracy points for the same vulnerability\nunder membership inference attacks against a privacy-preserving competitor",
+    "updated" : "2024-03-18T13:53:17Z",
+    "published" : "2024-03-18T13:53:17Z",
+    "authors" : [
+      {
+        "name" : "Sayan Biswas"
+      },
+      {
+        "name" : "Davide Frey"
+      },
+      {
+        "name" : "Romaric Gaudel"
+      },
+      {
+        "name" : "Anne-Marie Kermarrec"
+      },
+      {
+        "name" : "Dimitri Lerévérend"
+      },
+      {
+        "name" : "Rafael Pires"
+      },
+      {
+        "name" : "Rishi Sharma"
+      },
+      {
+        "name" : "François Taïani"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.DC"
+    ]
   }
 ]
