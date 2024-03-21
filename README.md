@@ -607,93 +607,84 @@ potential directions for future research.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.16893v1">The Good and The Bad: Exploring Privacy Issues in Retrieval-Augmented
-  Generation (RAG)</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2024-02-23T18:35:15Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shenglai Zeng, Jiankun Zhang, Pengfei He, Yue Xing, Yiding Liu, Han Xu, Jie Ren, Shuaiqiang Wang, Dawei Yin, Yi Chang, Jiliang Tang</p>
-    <p><b>Summary:</b> Retrieval-augmented generation (RAG) is a powerful technique to facilitate
-language model with proprietary and private data, where data privacy is a
-pivotal concern. Whereas extensive research has demonstrated the privacy risks
-of large language models (LLMs), the RAG technique could potentially reshape
-the inherent behaviors of LLM generation, posing new privacy issues that are
-currently under-explored. In this work, we conduct extensive empirical studies
-with novel attack methods, which demonstrate the vulnerability of RAG systems
-on leaking the private retrieval database. Despite the new risk brought by RAG
-on the retrieval data, we further reveal that RAG can mitigate the leakage of
-the LLMs' training data. Overall, we provide new insights in this paper for
-privacy protection of retrieval-augmented LLMs, which benefit both LLMs and RAG
-systems builders. Our code is available at
-https://github.com/phycholosogy/RAG-privacy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.15006v1">opp/ai: Optimistic Privacy-Preserving AI on Blockchain</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-02-22T22:54:41Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Cathie So, KD Conway, Xiaohang Yu, Suning Yao, Kartin Wong</p>
-    <p><b>Summary:</b> The convergence of Artificial Intelligence (AI) and blockchain technology is
-reshaping the digital world, offering decentralized, secure, and efficient AI
-services on blockchain platforms. Despite the promise, the high computational
-demands of AI on blockchain raise significant privacy and efficiency concerns.
-The Optimistic Privacy-Preserving AI (opp/ai) framework is introduced as a
-pioneering solution to these issues, striking a balance between privacy
-protection and computational efficiency. The framework integrates
-Zero-Knowledge Machine Learning (zkML) for privacy with Optimistic Machine
-Learning (opML) for efficiency, creating a hybrid model tailored for blockchain
-AI services. This study presents the opp/ai framework, delves into the privacy
-features of zkML, and assesses the framework's performance and adaptability
-across different scenarios.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.14983v1">Privacy-Enhancing Collaborative Information Sharing through Federated
-  Learning -- A Case of the Insurance Industry</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
-  <p><b>Published on:</b> 2024-02-22T21:46:24Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Panyi Dong, Zhiyu Quan, Brandon Edwards, Shih-han Wang, Runhuan Feng, Tianyang Wang, Patrick Foley, Prashant Shah</p>
-    <p><b>Summary:</b> The report demonstrates the benefits (in terms of improved claims loss
-modeling) of harnessing the value of Federated Learning (FL) to learn a single
-model across multiple insurance industry datasets without requiring the
-datasets themselves to be shared from one company to another. The application
-of FL addresses two of the most pressing concerns: limited data volume and data
-variety, which are caused by privacy concerns, the rarity of claim events, the
-lack of informative rating factors, etc.. During each round of FL,
-collaborators compute improvements on the model using their local private data,
-and these insights are combined to update a global model. Such aggregation of
-insights allows for an increase to the effectiveness in forecasting claims
-losses compared to models individually trained at each collaborator.
-Critically, this approach enables machine learning collaboration without the
-need for raw data to leave the compute infrastructure of each respective data
-owner. Additionally, the open-source framework, OpenFL, that is used in our
-experiments is designed so that it can be run using confidential computing as
-well as with additional algorithmic protections against leakage of information
-via the shared model updates. In such a way, FL is implemented as a
-privacy-enhancing collaborative learning technique that addresses the
-challenges posed by the sensitivity and privacy of data in traditional machine
-learning solutions. This paper's application of FL can also be expanded to
-other areas including fraud detection, catastrophe modeling, etc., that have a
-similar need to incorporate data privacy into machine learning collaborations.
-Our framework and empirical results provide a foundation for future
-collaborations among insurers, regulators, academic researchers, and InsurTech
-experts.</p>
-  </details>
-</div>
-
-
 
 <h2>2024-03</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.13743v1">Quantum-Secure Certificate-Less Conditional Privacy-Preserving
+  Authentication for VANET</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-03-20T16:50:36Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Girraj Kumar Verma, Nahida Majeed Wani, Prosanta Gope</p>
+    <p><b>Summary:</b> Vehicular Ad-hoc Networks (VANETs) marked a pronounced change in the
+Intelligent Transport System and Smart Cities through seamless vehicle
+communication to intensify safety and efficacy. However, a few authentication
+schemes have been devised in the literature to ensure the authenticity of the
+source and information in the post-quantum era. The most popular base for such
+construction is lattice-based cryptography. However, existing lattice-based
+authentication schemes fall short of addressing the potential challenges of the
+leakage of the master secret key and key-escrow problem. By ingeniously
+addressing both issues, the paper proposes the \emph{first} quantum secure
+authentication scheme to eliminate the flaws while maintaining the system's
+overall efficiency intact. Compared to the state-of-the-art schemes, the
+provable security and overall performance assessment highlight the suitability
+of the proposed approach.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.13346v1">A Control-Recoverable Added-Noise-based Privacy Scheme for LQ Control in
+  Networked Control Systems</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
+  <p><b>Published on:</b> 2024-03-20T07:10:22Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xuening Tang, Xianghui Cao, Wei Xing Zheng</p>
+    <p><b>Summary:</b> As networked control systems continue to evolve, ensuring the privacy of
+sensitive data becomes an increasingly pressing concern, especially in
+situations where the controller is physically separated from the plant. In this
+paper, we propose a secure control scheme for computing linear quadratic
+control in a networked control system utilizing two networked controllers, a
+privacy encoder and a control restorer. Specifically, the encoder generates two
+state signals blurred with random noise and sends them to the controllers,
+while the restorer reconstructs the correct control signal. The proposed design
+effectively preserves the privacy of the control system's state without
+sacrificing the control performance. We theoretically quantify the
+privacy-preserving performance in terms of the state estimation error of the
+controllers and the disclosure probability. Additionally, the proposed
+privacy-preserving scheme is also proven to satisfy differential privacy.
+Moreover, we extend the proposed privacy-preserving scheme and evaluation
+method to cases where collusion between two controllers occurs. Finally, we
+verify the validity of our proposed scheme through simulations.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.13041v1">Provable Privacy with Non-Private Pre-Processing</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
+  <p><b>Published on:</b> 2024-03-19T17:54:49Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yaxi Hu, Amartya Sanyal, Bernhard Schölkopf</p>
+    <p><b>Summary:</b> When analysing Differentially Private (DP) machine learning pipelines, the
+potential privacy cost of data-dependent pre-processing is frequently
+overlooked in privacy accounting. In this work, we propose a general framework
+to evaluate the additional privacy cost incurred by non-private data-dependent
+pre-processing algorithms. Our framework establishes upper bounds on the
+overall privacy guarantees by utilising two new technical notions: a variant of
+DP termed Smooth DP and the bounded sensitivity of the pre-processing
+algorithms. In addition to the generic framework, we provide explicit overall
+privacy guarantees for multiple data-dependent pre-processing algorithms, such
+as data imputation, quantization, deduplication and PCA, when used in
+combination with several DP algorithms. Notably, this framework is also simple
+to implement, allowing direct integration into existing DP pipelines.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2403.12710v1">Selective, Interpretable, and Motion Consistent Privacy Attribute
