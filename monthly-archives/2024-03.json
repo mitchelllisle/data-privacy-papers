@@ -2193,5 +2193,72 @@
       "cs.LG",
       "cs.DC"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.13743v1",
+    "title" : "Quantum-Secure Certificate-Less Conditional Privacy-Preserving\n  Authentication for VANET",
+    "summary" : "Vehicular Ad-hoc Networks (VANETs) marked a pronounced change in the\nIntelligent Transport System and Smart Cities through seamless vehicle\ncommunication to intensify safety and efficacy. However, a few authentication\nschemes have been devised in the literature to ensure the authenticity of the\nsource and information in the post-quantum era. The most popular base for such\nconstruction is lattice-based cryptography. However, existing lattice-based\nauthentication schemes fall short of addressing the potential challenges of the\nleakage of the master secret key and key-escrow problem. By ingeniously\naddressing both issues, the paper proposes the \\emph{first} quantum secure\nauthentication scheme to eliminate the flaws while maintaining the system's\noverall efficiency intact. Compared to the state-of-the-art schemes, the\nprovable security and overall performance assessment highlight the suitability\nof the proposed approach.",
+    "updated" : "2024-03-20T16:50:36Z",
+    "published" : "2024-03-20T16:50:36Z",
+    "authors" : [
+      {
+        "name" : "Girraj Kumar Verma"
+      },
+      {
+        "name" : "Nahida Majeed Wani"
+      },
+      {
+        "name" : "Prosanta Gope"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.13346v1",
+    "title" : "A Control-Recoverable Added-Noise-based Privacy Scheme for LQ Control in\n  Networked Control Systems",
+    "summary" : "As networked control systems continue to evolve, ensuring the privacy of\nsensitive data becomes an increasingly pressing concern, especially in\nsituations where the controller is physically separated from the plant. In this\npaper, we propose a secure control scheme for computing linear quadratic\ncontrol in a networked control system utilizing two networked controllers, a\nprivacy encoder and a control restorer. Specifically, the encoder generates two\nstate signals blurred with random noise and sends them to the controllers,\nwhile the restorer reconstructs the correct control signal. The proposed design\neffectively preserves the privacy of the control system's state without\nsacrificing the control performance. We theoretically quantify the\nprivacy-preserving performance in terms of the state estimation error of the\ncontrollers and the disclosure probability. Additionally, the proposed\nprivacy-preserving scheme is also proven to satisfy differential privacy.\nMoreover, we extend the proposed privacy-preserving scheme and evaluation\nmethod to cases where collusion between two controllers occurs. Finally, we\nverify the validity of our proposed scheme through simulations.",
+    "updated" : "2024-03-20T07:10:22Z",
+    "published" : "2024-03-20T07:10:22Z",
+    "authors" : [
+      {
+        "name" : "Xuening Tang"
+      },
+      {
+        "name" : "Xianghui Cao"
+      },
+      {
+        "name" : "Wei Xing Zheng"
+      }
+    ],
+    "categories" : [
+      "eess.SY",
+      "cs.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.13041v1",
+    "title" : "Provable Privacy with Non-Private Pre-Processing",
+    "summary" : "When analysing Differentially Private (DP) machine learning pipelines, the\npotential privacy cost of data-dependent pre-processing is frequently\noverlooked in privacy accounting. In this work, we propose a general framework\nto evaluate the additional privacy cost incurred by non-private data-dependent\npre-processing algorithms. Our framework establishes upper bounds on the\noverall privacy guarantees by utilising two new technical notions: a variant of\nDP termed Smooth DP and the bounded sensitivity of the pre-processing\nalgorithms. In addition to the generic framework, we provide explicit overall\nprivacy guarantees for multiple data-dependent pre-processing algorithms, such\nas data imputation, quantization, deduplication and PCA, when used in\ncombination with several DP algorithms. Notably, this framework is also simple\nto implement, allowing direct integration into existing DP pipelines.",
+    "updated" : "2024-03-19T17:54:49Z",
+    "published" : "2024-03-19T17:54:49Z",
+    "authors" : [
+      {
+        "name" : "Yaxi Hu"
+      },
+      {
+        "name" : "Amartya Sanyal"
+      },
+      {
+        "name" : "Bernhard Schölkopf"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG",
+      "stat.ML"
+    ]
   }
 ]
