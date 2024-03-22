@@ -2260,5 +2260,78 @@
       "cs.LG",
       "stat.ML"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.14450v1",
+    "title" : "Maximal $α$-Leakage for Quantum Privacy Mechanisms",
+    "summary" : "In this work, maximal $\\alpha$-leakage is introduced to quantify how much a\nquantum adversary can learn about any sensitive information of data upon\nobserving its disturbed version via a quantum privacy mechanism. We first show\nthat an adversary's maximal expected $\\alpha$-gain using optimal measurement is\ncharacterized by measured conditional R\\'enyi entropy. This can be viewed as a\nparametric generalization of K\\\"onig et al.'s famous guessing probability\nformula [IEEE Trans. Inf. Theory, 55(9), 2009]. Then, we prove that the\n$\\alpha$-leakage and maximal $\\alpha$-leakage for a quantum privacy mechanism\nare determined by measured Arimoto information and measured R\\'enyi capacity,\nrespectively. Various properties of maximal $\\alpha$-leakage, such as data\nprocessing inequality and composition property are established as well.\nMoreover, we show that regularized $\\alpha$-leakage and regularized maximal\n$\\alpha$-leakage for identical and independent quantum privacy mechanisms\ncoincide with $\\alpha$-tilted sandwiched R\\'enyi information and sandwiched\nR\\'enyi capacity, respectively.",
+    "updated" : "2024-03-21T14:58:07Z",
+    "published" : "2024-03-21T14:58:07Z",
+    "authors" : [
+      {
+        "name" : "Bo-Yu Yang"
+      },
+      {
+        "name" : "Hsuan Yu"
+      },
+      {
+        "name" : "Hao-Chung Cheng"
+      }
+    ],
+    "categories" : [
+      "quant-ph",
+      "cs.CR",
+      "cs.IT",
+      "math.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.14428v1",
+    "title" : "FHAUC: Privacy Preserving AUC Calculation for Federated Learning using\n  Fully Homomorphic Encryption",
+    "summary" : "Ensuring data privacy is a significant challenge for machine learning\napplications, not only during model training but also during evaluation.\nFederated learning has gained significant research interest in recent years as\na result. Current research on federated learning primarily focuses on\npreserving privacy during the training phase. However, model evaluation has not\nbeen adequately addressed, despite the potential for significant privacy leaks\nduring this phase as well. In this paper, we demonstrate that the\nstate-of-the-art AUC computation method for federated learning systems, which\nutilizes differential privacy, still leaks sensitive information about the test\ndata while also requiring a trusted central entity to perform the computations.\nMore importantly, we show that the performance of this method becomes\ncompletely unusable as the data size decreases. In this context, we propose an\nefficient, accurate, robust, and more secure evaluation algorithm capable of\ncomputing the AUC in horizontal federated learning systems. Our approach not\nonly enhances security compared to the current state-of-the-art but also\nsurpasses the state-of-the-art AUC computation method in both approximation\nperformance and computational robustness, as demonstrated by experimental\nresults. To illustrate, our approach can efficiently calculate the AUC of a\nfederated learning system involving 100 parties, achieving 99.93% accuracy in\njust 0.68 seconds, regardless of data size, while providing complete data\nprivacy.",
+    "updated" : "2024-03-21T14:36:55Z",
+    "published" : "2024-03-21T14:36:55Z",
+    "authors" : [
+      {
+        "name" : "Cem Ata Baykara"
+      },
+      {
+        "name" : "Ali Burak Ünal"
+      },
+      {
+        "name" : "Mete Akgün"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.14111v1",
+    "title" : "HETAL: Efficient Privacy-preserving Transfer Learning with Homomorphic\n  Encryption",
+    "summary" : "Transfer learning is a de facto standard method for efficiently training\nmachine learning models for data-scarce problems by adding and fine-tuning new\nclassification layers to a model pre-trained on large datasets. Although\nnumerous previous studies proposed to use homomorphic encryption to resolve the\ndata privacy issue in transfer learning in the machine learning as a service\nsetting, most of them only focused on encrypted inference. In this study, we\npresent HETAL, an efficient Homomorphic Encryption based Transfer Learning\nalgorithm, that protects the client's privacy in training tasks by encrypting\nthe client data using the CKKS homomorphic encryption scheme. HETAL is the\nfirst practical scheme that strictly provides encrypted training, adopting\nvalidation-based early stopping and achieving the accuracy of nonencrypted\ntraining. We propose an efficient encrypted matrix multiplication algorithm,\nwhich is 1.8 to 323 times faster than prior methods, and a highly precise\nsoftmax approximation algorithm with increased coverage. The experimental\nresults for five well-known benchmark datasets show total training times of\n567-3442 seconds, which is less than an hour.",
+    "updated" : "2024-03-21T03:47:26Z",
+    "published" : "2024-03-21T03:47:26Z",
+    "authors" : [
+      {
+        "name" : "Seewoo Lee"
+      },
+      {
+        "name" : "Garam Lee"
+      },
+      {
+        "name" : "Jung Woo Kim"
+      },
+      {
+        "name" : "Junbum Shin"
+      },
+      {
+        "name" : "Mun-Kyu Lee"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
   }
 ]
