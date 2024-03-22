@@ -515,100 +515,95 @@ https://anonymous.4open.science/r/FedFDP-E754.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.15797v1">Gait-Based Privacy Protection for Smart Wearable Devices</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-02-24T12:05:42Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yu Su, Yongjiao Li, Zhu Cao</p>
-    <p><b>Summary:</b> Smart wearable devices (SWDs) collect and store sensitive daily information
-of many people. Its primary method of identification is still the password
-unlocking method. However, several studies have shown serious security flaws in
-that method, which makes the privacy and security concerns of SWDs particularly
-urgent. Gait identification is well suited for SWDs because its built-in
-sensors can provide data support for identification. However, existing gait
-identification methods have low accuracy and neglect to protect the privacy of
-gait features. In addition, the SWD can be used as an internet of things device
-for users to share data. But few studies have used gait feature-based
-encryption schemes to protect the privacy of message interactions between SWDs
-and other devices. In this paper, we propose a gait identification network, a
-bi-directional long short-term memory network with an attention mechanism
-(ABLSTM), to improve the identification accuracy and a stochastic orthogonal
-transformation (SOT) scheme to protect the extracted gait features from
-leakage. In the experiments, ABLSTM achieves an accuracy of 95.28%, reducing
-previous error rate by 19.3%. The SOT scheme is proved to be resistant to the
-chosen plaintext attack (CPA) and is 30% faster than previous methods. A
-biometric-based encryption scheme is proposed to enable secure message
-interactions using gait features as keys after the gait identification stage is
-passed, and offers better protection of the gait features compared to previous
-schemes.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.15780v1">Holding Secrets Accountable: Auditing Privacy-Preserving Machine
-  Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-02-24T10:04:22Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Hidde Lycklama, Alexander Viand, Nicolas Küchler, Christian Knabenhans, Anwar Hithnawi</p>
-    <p><b>Summary:</b> Recent advancements in privacy-preserving machine learning are paving the way
-to extend the benefits of ML to highly sensitive data that, until now, have
-been hard to utilize due to privacy concerns and regulatory constraints.
-Simultaneously, there is a growing emphasis on enhancing the transparency and
-accountability of machine learning, including the ability to audit ML
-deployments. While ML auditing and PPML have both been the subjects of
-intensive research, they have predominately been examined in isolation.
-However, their combination is becoming increasingly important. In this work, we
-introduce Arc, an MPC framework for auditing privacy-preserving machine
-learning. At the core of our framework is a new protocol for efficiently
-verifying MPC inputs against succinct commitments at scale. We evaluate the
-performance of our framework when instantiated with our consistency protocol
-and compare it to hashing-based and homomorphic-commitment-based approaches,
-demonstrating that it is up to 10^4x faster and up to 10^6x more concise.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.15738v1">Privacy-Preserving State Estimation in the Presence of Eavesdroppers: A
-  Survey</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36"> 
-  <p><b>Published on:</b> 2024-02-24T06:32:07Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Xinhao Yan, Guanzhong Zhou, Daniel E. Quevedo, Carlos Murguia, Bo Chen, Hailong Huang</p>
-    <p><b>Summary:</b> Networked systems are increasingly the target of cyberattacks that exploit
-vulnerabilities within digital communications, embedded hardware, and software.
-Arguably, the simplest class of attacks -- and often the first type before
-launching destructive integrity attacks -- are eavesdropping attacks, which aim
-to infer information by collecting system data and exploiting it for malicious
-purposes. A key technology of networked systems is state estimation, which
-leverages sensing and actuation data and first-principles models to enable
-trajectory planning, real-time monitoring, and control. However, state
-estimation can also be exploited by eavesdroppers to identify models and
-reconstruct states with the aim of, e.g., launching integrity (stealthy)
-attacks and inferring sensitive information. It is therefore crucial to protect
-disclosed system data to avoid an accurate state estimation by eavesdroppers.
-This survey presents a comprehensive review of existing literature on
-privacy-preserving state estimation methods, while also identifying potential
-limitations and research gaps. Our primary focus revolves around three types of
-methods: cryptography, data perturbation, and transmission scheduling, with
-particular emphasis on Kalman-like filters. Within these categories, we delve
-into the concepts of homomorphic encryption and differential privacy, which
-have been extensively investigated in recent years in the context of
-privacy-preserving state estimation. Finally, we shed light on several
-technical and fundamental challenges surrounding current methods and propose
-potential directions for future research.</p>
-  </details>
-</div>
-
-
 
 <h2>2024-03</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.14450v1">Maximal $α$-Leakage for Quantum Privacy Mechanisms</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
+  <p><b>Published on:</b> 2024-03-21T14:58:07Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Bo-Yu Yang, Hsuan Yu, Hao-Chung Cheng</p>
+    <p><b>Summary:</b> In this work, maximal $\alpha$-leakage is introduced to quantify how much a
+quantum adversary can learn about any sensitive information of data upon
+observing its disturbed version via a quantum privacy mechanism. We first show
+that an adversary's maximal expected $\alpha$-gain using optimal measurement is
+characterized by measured conditional R\'enyi entropy. This can be viewed as a
+parametric generalization of K\"onig et al.'s famous guessing probability
+formula [IEEE Trans. Inf. Theory, 55(9), 2009]. Then, we prove that the
+$\alpha$-leakage and maximal $\alpha$-leakage for a quantum privacy mechanism
+are determined by measured Arimoto information and measured R\'enyi capacity,
+respectively. Various properties of maximal $\alpha$-leakage, such as data
+processing inequality and composition property are established as well.
+Moreover, we show that regularized $\alpha$-leakage and regularized maximal
+$\alpha$-leakage for identical and independent quantum privacy mechanisms
+coincide with $\alpha$-tilted sandwiched R\'enyi information and sandwiched
+R\'enyi capacity, respectively.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.14428v1">FHAUC: Privacy Preserving AUC Calculation for Federated Learning using
+  Fully Homomorphic Encryption</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-03-21T14:36:55Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Cem Ata Baykara, Ali Burak Ünal, Mete Akgün</p>
+    <p><b>Summary:</b> Ensuring data privacy is a significant challenge for machine learning
+applications, not only during model training but also during evaluation.
+Federated learning has gained significant research interest in recent years as
+a result. Current research on federated learning primarily focuses on
+preserving privacy during the training phase. However, model evaluation has not
+been adequately addressed, despite the potential for significant privacy leaks
+during this phase as well. In this paper, we demonstrate that the
+state-of-the-art AUC computation method for federated learning systems, which
+utilizes differential privacy, still leaks sensitive information about the test
+data while also requiring a trusted central entity to perform the computations.
+More importantly, we show that the performance of this method becomes
+completely unusable as the data size decreases. In this context, we propose an
+efficient, accurate, robust, and more secure evaluation algorithm capable of
+computing the AUC in horizontal federated learning systems. Our approach not
+only enhances security compared to the current state-of-the-art but also
+surpasses the state-of-the-art AUC computation method in both approximation
+performance and computational robustness, as demonstrated by experimental
+results. To illustrate, our approach can efficiently calculate the AUC of a
+federated learning system involving 100 parties, achieving 99.93% accuracy in
+just 0.68 seconds, regardless of data size, while providing complete data
+privacy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.14111v1">HETAL: Efficient Privacy-preserving Transfer Learning with Homomorphic
+  Encryption</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-03-21T03:47:26Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Seewoo Lee, Garam Lee, Jung Woo Kim, Junbum Shin, Mun-Kyu Lee</p>
+    <p><b>Summary:</b> Transfer learning is a de facto standard method for efficiently training
+machine learning models for data-scarce problems by adding and fine-tuning new
+classification layers to a model pre-trained on large datasets. Although
+numerous previous studies proposed to use homomorphic encryption to resolve the
+data privacy issue in transfer learning in the machine learning as a service
+setting, most of them only focused on encrypted inference. In this study, we
+present HETAL, an efficient Homomorphic Encryption based Transfer Learning
+algorithm, that protects the client's privacy in training tasks by encrypting
+the client data using the CKKS homomorphic encryption scheme. HETAL is the
+first practical scheme that strictly provides encrypted training, adopting
+validation-based early stopping and achieving the accuracy of nonencrypted
+training. We propose an efficient encrypted matrix multiplication algorithm,
+which is 1.8 to 323 times faster than prior methods, and a highly precise
+softmax approximation algorithm with increased coverage. The experimental
+results for five well-known benchmark datasets show total training times of
+567-3442 seconds, which is less than an hour.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2403.13743v1">Quantum-Secure Certificate-Less Conditional Privacy-Preserving
