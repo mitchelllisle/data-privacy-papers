@@ -2333,5 +2333,119 @@
       "cs.CR",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.15208v1",
+    "title" : "VPAS: Publicly Verifiable and Privacy-Preserving Aggregate Statistics on\n  Distributed Datasets",
+    "summary" : "Aggregate statistics play an important role in extracting meaningful insights\nfrom distributed data while preserving privacy. A growing number of application\ndomains, such as healthcare, utilize these statistics in advancing research and\nimproving patient care.\n  In this work, we explore the challenge of input validation and public\nverifiability within privacy-preserving aggregation protocols. We address the\nscenario in which a party receives data from multiple sources and must verify\nthe validity of the input and correctness of the computations over this data to\nthird parties, such as auditors, while ensuring input data privacy. To achieve\nthis, we propose the \"VPAS\" protocol, which satisfies these requirements. Our\nprotocol utilizes homomorphic encryption for data privacy, and employs\nZero-Knowledge Proofs (ZKP) and a blockchain system for input validation and\npublic verifiability. We constructed VPAS by extending existing verifiable\nencryption schemes into secure protocols that enable N clients to encrypt,\naggregate, and subsequently release the final result to a collector in a\nverifiable manner.\n  We implemented and experimentally evaluated VPAS with regard to encryption\ncosts, proof generation, and verification. The findings indicate that the\noverhead associated with verifiability in our protocol is 10x lower than that\nincurred by simply using conventional zkSNARKs. This enhanced efficiency makes\nit feasible to apply input validation with public verifiability across a wider\nrange of applications or use cases that can tolerate moderate computational\noverhead associated with proof generation.",
+    "updated" : "2024-03-22T13:50:22Z",
+    "published" : "2024-03-22T13:50:22Z",
+    "authors" : [
+      {
+        "name" : "Mohammed Alghazwi"
+      },
+      {
+        "name" : "Dewi Davies-Batista"
+      },
+      {
+        "name" : "Dimka Karastoyanova"
+      },
+      {
+        "name" : "Fatih Turkmen"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.15045v1",
+    "title" : "DP-Dueling: Learning from Preference Feedback without Compromising User\n  Privacy",
+    "summary" : "We consider the well-studied dueling bandit problem, where a learner aims to\nidentify near-optimal actions using pairwise comparisons, under the constraint\nof differential privacy. We consider a general class of utility-based\npreference matrices for large (potentially unbounded) decision spaces and give\nthe first differentially private dueling bandit algorithm for active learning\nwith user preferences. Our proposed algorithms are computationally efficient\nwith near-optimal performance, both in terms of the private and non-private\nregret bound. More precisely, we show that when the decision space is of finite\nsize $K$, our proposed algorithm yields order optimal $O\\Big(\\sum_{i =\n2}^K\\log\\frac{KT}{\\Delta_i} + \\frac{K}{\\epsilon}\\Big)$ regret bound for pure\n$\\epsilon$-DP, where $\\Delta_i$ denotes the suboptimality gap of the $i$-th\narm. We also present a matching lower bound analysis which proves the\noptimality of our algorithms. Finally, we extend our results to any general\ndecision space in $d$-dimensions with potentially infinite arms and design an\n$\\epsilon$-DP algorithm with regret $\\tilde{O} \\left( \\frac{d^6}{\\kappa\n\\epsilon } + \\frac{ d\\sqrt{T }}{\\kappa} \\right)$, providing privacy for free\nwhen $T \\gg d$.",
+    "updated" : "2024-03-22T09:02:12Z",
+    "published" : "2024-03-22T09:02:12Z",
+    "authors" : [
+      {
+        "name" : "Aadirupa Saha"
+      },
+      {
+        "name" : "Hilal Asi"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.14905v1",
+    "title" : "Adaptive Coded Federated Learning: Privacy Preservation and Straggler\n  Mitigation",
+    "summary" : "In this article, we address the problem of federated learning in the presence\nof stragglers. For this problem, a coded federated learning framework has been\nproposed, where the central server aggregates gradients received from the\nnon-stragglers and gradient computed from a privacy-preservation global coded\ndataset to mitigate the negative impact of the stragglers. However, when\naggregating these gradients, fixed weights are consistently applied across\niterations, neglecting the generation process of the global coded dataset and\nthe dynamic nature of the trained model over iterations. This oversight may\nresult in diminished learning performance. To overcome this drawback, we\npropose a new method named adaptive coded federated learning (ACFL). In ACFL,\nbefore the training, each device uploads a coded local dataset with additive\nnoise to the central server to generate a global coded dataset under privacy\npreservation requirements. During each iteration of the training, the central\nserver aggregates the gradients received from the non-stragglers and the\ngradient computed from the global coded dataset, where an adaptive policy for\nvarying the aggregation weights is designed. Under this policy, we optimize the\nperformance in terms of privacy and learning, where the learning performance is\nanalyzed through convergence analysis and the privacy performance is\ncharacterized via mutual information differential privacy. Finally, we perform\nsimulations to demonstrate the superiority of ACFL compared with the\nnon-adaptive methods.",
+    "updated" : "2024-03-22T01:51:48Z",
+    "published" : "2024-03-22T01:51:48Z",
+    "authors" : [
+      {
+        "name" : "Chengxi Li"
+      },
+      {
+        "name" : "Ming Xiao"
+      },
+      {
+        "name" : "Mikael Skoglund"
+      }
+    ],
+    "categories" : [
+      "eess.SP",
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.14724v1",
+    "title" : "Six Levels of Privacy: A Framework for Financial Synthetic Data",
+    "summary" : "Synthetic Data is increasingly important in financial applications. In\naddition to the benefits it provides, such as improved financial modeling and\nbetter testing procedures, it poses privacy risks as well. Such data may arise\nfrom client information, business information, or other proprietary sources\nthat must be protected. Even though the process by which Synthetic Data is\ngenerated serves to obscure the original data to some degree, the extent to\nwhich privacy is preserved is hard to assess. Accordingly, we introduce a\nhierarchy of ``levels'' of privacy that are useful for categorizing Synthetic\nData generation methods and the progressively improved protections they offer.\nWhile the six levels were devised in the context of financial applications,\nthey may also be appropriate for other industries as well. Our paper includes:\nA brief overview of Financial Synthetic Data, how it can be used, how its value\ncan be assessed, privacy risks, and privacy attacks. We close with details of\nthe ``Six Levels'' that include defenses against those attacks.",
+    "updated" : "2024-03-20T20:41:26Z",
+    "published" : "2024-03-20T20:41:26Z",
+    "authors" : [
+      {
+        "name" : "Tucker Balch"
+      },
+      {
+        "name" : "Vamsi K. Potluru"
+      },
+      {
+        "name" : "Deepak Paramanand"
+      },
+      {
+        "name" : "Manuela Veloso"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG",
+      "q-fin.ST"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.13346v2",
+    "title" : "A Control-Recoverable Added-Noise-based Privacy Scheme for LQ Control in\n  Networked Control Systems",
+    "summary" : "As networked control systems continue to evolve, ensuring the privacy of\nsensitive data becomes an increasingly pressing concern, especially in\nsituations where the controller is physically separated from the plant. In this\npaper, we propose a secure control scheme for computing linear quadratic\ncontrol in a networked control system utilizing two networked controllers, a\nprivacy encoder and a control restorer. Specifically, the encoder generates two\nstate signals blurred with random noise and sends them to the controllers,\nwhile the restorer reconstructs the correct control signal. The proposed design\neffectively preserves the privacy of the control system's state without\nsacrificing the control performance. We theoretically quantify the\nprivacy-preserving performance in terms of the state estimation error of the\ncontrollers and the disclosure probability. Additionally, the proposed\nprivacy-preserving scheme is also proven to satisfy differential privacy.\nMoreover, we extend the proposed privacy-preserving scheme and evaluation\nmethod to cases where collusion between two controllers occurs. Finally, we\nverify the validity of our proposed scheme through simulations.",
+    "updated" : "2024-03-22T14:39:26Z",
+    "published" : "2024-03-20T07:10:22Z",
+    "authors" : [
+      {
+        "name" : "Xuening Tang"
+      },
+      {
+        "name" : "Xianghui Cao"
+      },
+      {
+        "name" : "Wei Xing Zheng"
+      }
+    ],
+    "categories" : [
+      "eess.SY",
+      "cs.SY"
+    ]
   }
 ]
