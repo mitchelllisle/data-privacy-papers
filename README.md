@@ -401,122 +401,105 @@ datasets to enable timely personal data privacy detection and protection.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.17130v1">Privacy-Preserving Map-Free Exploration for Confirming the Absence of a
-  Radioactive Source</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Robotics-F9C80E">
-  <p><b>Published on:</b> 2024-02-27T01:49:28Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Eric Lepowsky, David Snyder, Alexander Glaser, Anirudha Majumdar</p>
-    <p><b>Summary:</b> Performing an inspection task while maintaining the privacy of the inspected
-site is a challenging balancing act. In this work, we are motivated by the
-future of nuclear arms control verification, which requires both a high level
-of privacy and guaranteed correctness. For scenarios with limitations on
-sensors and stored information due to the potentially secret nature of
-observable features, we propose a robotic verification procedure that provides
-map-free exploration to perform a source verification task without requiring,
-nor revealing, any task-irrelevant, site-specific information. We provide
-theoretical guarantees on the privacy and correctness of our approach,
-validated by extensive simulated and hardware experiments.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.16982v2">Synthesizing Tight Privacy and Accuracy Bounds via Weighted Model
-  Counting</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Programming Languages-D91E36">
-  <p><b>Published on:</b> 2024-02-26T19:29:46Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Lisa Oakley, Steven Holtzen, Alina Oprea</p>
-    <p><b>Summary:</b> Programmatically generating tight differential privacy (DP) bounds is a hard
-problem. Two core challenges are (1) finding expressive, compact, and efficient
-encodings of the distributions of DP algorithms, and (2) state space explosion
-stemming from the multiple quantifiers and relational properties of the DP
-definition.
-  We address the first challenge by developing a method for tight privacy and
-accuracy bound synthesis using weighted model counting on binary decision
-diagrams, a state of the art technique from the artificial intelligence and
-automated reasoning communities for exactly computing probability
-distributions. We address the second challenge by developing a framework for
-leveraging inherent symmetries in DP algorithms. Our solution benefits from
-ongoing research in probabilistic programming languages, allowing us to
-succinctly and expressively represent different DP algorithms with approachable
-language syntax that can be used by non-experts.
-  We provide a detailed case study of our solution on the binary randomized
-response algorithm. We also evaluate an implementation of our solution using
-the Dice probabilistic programming language for the randomized response and
-truncated geometric above threshold algorithms. We compare to prior work on
-exact DP verification using Markov chain probabilistic model checking. Very few
-existing works consider mechanized analysis of accuracy guarantees for DP
-algorithms. We additionally provide a detailed analysis using our technique for
-finding tight accuracy bounds for DP algorithms.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.16515v1">LLM-based Privacy Data Augmentation Guided by Knowledge Distillation
-  with a Distribution Tutor for Medical Text Classification</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-02-26T11:52:55Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yiping Song, Juhua Zhang, Zhiliang Tian, Yuxin Yang, Minlie Huang, Dongsheng Li</p>
-    <p><b>Summary:</b> As sufficient data are not always publically accessible for model training,
-researchers exploit limited data with advanced learning algorithms or expand
-the dataset via data augmentation (DA). Conducting DA in private domain
-requires private protection approaches (i.e. anonymization and perturbation),
-but those methods cannot provide protection guarantees. Differential privacy
-(DP) learning methods theoretically bound the protection but are not skilled at
-generating pseudo text samples with large models. In this paper, we transfer
-DP-based pseudo sample generation task to DP-based generated samples
-discrimination task, where we propose a DP-based DA method with a LLM and a
-DP-based discriminator for text classification on private domains. We construct
-a knowledge distillation model as the DP-based discriminator: teacher models,
-accessing private data, teaches students how to select private samples with
-calibrated noise to achieve DP. To constrain the distribution of DA's
-generation, we propose a DP-based tutor that models the noised private
-distribution and controls samples' generation with a low privacy cost. We
-theoretically analyze our model's privacy protection and empirically verify our
-model.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.16028v1">FedFDP: Federated Learning with Fairness and Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-02-25T08:35:21Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Xinpeng Ling, Jie Fu, Zhili Chen, Kuncan Wang, Huifa Li, Tong Cheng, Guanying Xu, Qin Li</p>
-    <p><b>Summary:</b> Federated learning (FL) is a new machine learning paradigm to overcome the
-challenge of data silos and has garnered significant attention. However,
-through our observations, a globally effective trained model may performance
-disparities in different clients. This implies that the jointly trained models
-by clients may lead to unfair outcomes. On the other hand, relevant studies
-indicate that the transmission of gradients or models in federated learning can
-also give rise to privacy leakage issues, such as membership inference attacks.
-  To address the first issue mentioned above, we propose a federated algorithm
-with fairness, termed FedFair. Building upon FedFair, we introduce privacy
-protection to form the FedFDP algorithm to address the second issue mentioned
-above. In FedFDP, we devise a fairness-aware clipping strategy to achieve
-differential privacy while adjusting fairness. Additionally, for the extra
-uploaded loss values, we present an adaptive clipping approach to maximize
-utility. Furthermore, we theoretically prove that our algorithm converges and
-ensures differential privacy. Lastly, Extensive experimental results
-demonstrate that FedFair and FedFDP significantly outperforms state-of-the-art
-solutions in terms of model performance and fairness. The code is accessible at
-https://anonymous.4open.science/r/FedFDP-E754.</p>
-  </details>
-</div>
-
-
 
 <h2>2024-03</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.15208v1">VPAS: Publicly Verifiable and Privacy-Preserving Aggregate Statistics on
+  Distributed Datasets</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-03-22T13:50:22Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mohammed Alghazwi, Dewi Davies-Batista, Dimka Karastoyanova, Fatih Turkmen</p>
+    <p><b>Summary:</b> Aggregate statistics play an important role in extracting meaningful insights
+from distributed data while preserving privacy. A growing number of application
+domains, such as healthcare, utilize these statistics in advancing research and
+improving patient care.
+  In this work, we explore the challenge of input validation and public
+verifiability within privacy-preserving aggregation protocols. We address the
+scenario in which a party receives data from multiple sources and must verify
+the validity of the input and correctness of the computations over this data to
+third parties, such as auditors, while ensuring input data privacy. To achieve
+this, we propose the "VPAS" protocol, which satisfies these requirements. Our
+protocol utilizes homomorphic encryption for data privacy, and employs
+Zero-Knowledge Proofs (ZKP) and a blockchain system for input validation and
+public verifiability. We constructed VPAS by extending existing verifiable
+encryption schemes into secure protocols that enable N clients to encrypt,
+aggregate, and subsequently release the final result to a collector in a
+verifiable manner.
+  We implemented and experimentally evaluated VPAS with regard to encryption
+costs, proof generation, and verification. The findings indicate that the
+overhead associated with verifiability in our protocol is 10x lower than that
+incurred by simply using conventional zkSNARKs. This enhanced efficiency makes
+it feasible to apply input validation with public verifiability across a wider
+range of applications or use cases that can tolerate moderate computational
+overhead associated with proof generation.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.15045v1">DP-Dueling: Learning from Preference Feedback without Compromising User
+  Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-03-22T09:02:12Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Aadirupa Saha, Hilal Asi</p>
+    <p><b>Summary:</b> We consider the well-studied dueling bandit problem, where a learner aims to
+identify near-optimal actions using pairwise comparisons, under the constraint
+of differential privacy. We consider a general class of utility-based
+preference matrices for large (potentially unbounded) decision spaces and give
+the first differentially private dueling bandit algorithm for active learning
+with user preferences. Our proposed algorithms are computationally efficient
+with near-optimal performance, both in terms of the private and non-private
+regret bound. More precisely, we show that when the decision space is of finite
+size $K$, our proposed algorithm yields order optimal $O\Big(\sum_{i =
+2}^K\log\frac{KT}{\Delta_i} + \frac{K}{\epsilon}\Big)$ regret bound for pure
+$\epsilon$-DP, where $\Delta_i$ denotes the suboptimality gap of the $i$-th
+arm. We also present a matching lower bound analysis which proves the
+optimality of our algorithms. Finally, we extend our results to any general
+decision space in $d$-dimensions with potentially infinite arms and design an
+$\epsilon$-DP algorithm with regret $\tilde{O} \left( \frac{d^6}{\kappa
+\epsilon } + \frac{ d\sqrt{T }}{\kappa} \right)$, providing privacy for free
+when $T \gg d$.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.14905v1">Adaptive Coded Federated Learning: Privacy Preservation and Straggler
+  Mitigation</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-03-22T01:51:48Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Chengxi Li, Ming Xiao, Mikael Skoglund</p>
+    <p><b>Summary:</b> In this article, we address the problem of federated learning in the presence
+of stragglers. For this problem, a coded federated learning framework has been
+proposed, where the central server aggregates gradients received from the
+non-stragglers and gradient computed from a privacy-preservation global coded
+dataset to mitigate the negative impact of the stragglers. However, when
+aggregating these gradients, fixed weights are consistently applied across
+iterations, neglecting the generation process of the global coded dataset and
+the dynamic nature of the trained model over iterations. This oversight may
+result in diminished learning performance. To overcome this drawback, we
+propose a new method named adaptive coded federated learning (ACFL). In ACFL,
+before the training, each device uploads a coded local dataset with additive
+noise to the central server to generate a global coded dataset under privacy
+preservation requirements. During each iteration of the training, the central
+server aggregates the gradients received from the non-stragglers and the
+gradient computed from the global coded dataset, where an adaptive policy for
+varying the aggregation weights is designed. Under this policy, we optimize the
+performance in terms of privacy and learning, where the learning performance is
+analyzed through convergence analysis and the privacy performance is
+characterized via mutual information differential privacy. Finally, we perform
+simulations to demonstrate the superiority of ACFL compared with the
+non-adaptive methods.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2403.14450v1">Maximal $α$-Leakage for Quantum Privacy Mechanisms</a></h3>
@@ -606,6 +589,31 @@ results for five well-known benchmark datasets show total training times of
 
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.14724v1">Six Levels of Privacy: A Framework for Financial Synthetic Data</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
+  <p><b>Published on:</b> 2024-03-20T20:41:26Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Tucker Balch, Vamsi K. Potluru, Deepak Paramanand, Manuela Veloso</p>
+    <p><b>Summary:</b> Synthetic Data is increasingly important in financial applications. In
+addition to the benefits it provides, such as improved financial modeling and
+better testing procedures, it poses privacy risks as well. Such data may arise
+from client information, business information, or other proprietary sources
+that must be protected. Even though the process by which Synthetic Data is
+generated serves to obscure the original data to some degree, the extent to
+which privacy is preserved is hard to assess. Accordingly, we introduce a
+hierarchy of ``levels'' of privacy that are useful for categorizing Synthetic
+Data generation methods and the progressively improved protections they offer.
+While the six levels were devised in the context of financial applications,
+they may also be appropriate for other industries as well. Our paper includes:
+A brief overview of Financial Synthetic Data, how it can be used, how its value
+can be assessed, privacy risks, and privacy attacks. We close with details of
+the ``Six Levels'' that include defenses against those attacks.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2403.13743v1">Quantum-Secure Certificate-Less Conditional Privacy-Preserving
   Authentication for VANET</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
@@ -631,7 +639,7 @@ of the proposed approach.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.13346v1">A Control-Recoverable Added-Noise-based Privacy Scheme for LQ Control in
+  <h3><a href="http://arxiv.org/abs/2403.13346v2">A Control-Recoverable Added-Noise-based Privacy Scheme for LQ Control in
   Networked Control Systems</a></h3>
    <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
   <p><b>Published on:</b> 2024-03-20T07:10:22Z</p>
