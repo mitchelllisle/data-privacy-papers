@@ -2447,5 +2447,120 @@
       "eess.SY",
       "cs.SY"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.16591v1",
+    "title" : "Deciphering the Interplay between Local Differential Privacy, Average\n  Bayesian Privacy, and Maximum Bayesian Privacy",
+    "summary" : "The swift evolution of machine learning has led to emergence of various\ndefinitions of privacy due to the threats it poses to privacy, including the\nconcept of local differential privacy (LDP). Although widely embraced and\nutilized across numerous domains, this conventional approach to measure privacy\nstill exhibits certain limitations, spanning from failure to prevent\ninferential disclosure to lack of consideration for the adversary's background\nknowledge. In this comprehensive study, we introduce Bayesian privacy and delve\ninto the intricate relationship between local differential privacy and its\nBayesian counterparts, unveiling novel insights into utility-privacy\ntrade-offs. We introduce a framework that encapsulates both attack and defense\nstrategies, highlighting their interplay and effectiveness. Our theoretical\ncontributions are anchored in the rigorous definitions and relationships\nbetween Average Bayesian Privacy (ABP) and Maximum Bayesian Privacy (MBP),\nencapsulated by equations $\\epsilon_{p,a} \\leq\n\\frac{1}{\\sqrt{2}}\\sqrt{(\\epsilon_{p,m} + \\epsilon)\\cdot(e^{\\epsilon_{p,m} +\n\\epsilon} - 1)}$ and the equivalence between $\\xi$-MBP and $2\\xi$-LDP\nestablished under uniform prior distribution. These relationships fortify our\nunderstanding of the privacy guarantees provided by various mechanisms, leading\nto the realization that a mechanism satisfying $\\xi$-LDP also confers\n$\\xi$-MBP, and vice versa. Our work not only lays the groundwork for future\nempirical exploration but also promises to enhance the design of\nprivacy-preserving algorithms that do not compromise on utility, thereby\nfostering the development of trustworthy machine learning solutions.",
+    "updated" : "2024-03-25T10:06:45Z",
+    "published" : "2024-03-25T10:06:45Z",
+    "authors" : [
+      {
+        "name" : "Xiaojin Zhang"
+      },
+      {
+        "name" : "Yulin Fei"
+      },
+      {
+        "name" : "Wei Chen"
+      },
+      {
+        "name" : "Hai Jin"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.16473v1",
+    "title" : "Plaintext-Free Deep Learning for Privacy-Preserving Medical Image\n  Analysis via Frequency Information Embedding",
+    "summary" : "In the fast-evolving field of medical image analysis, Deep Learning\n(DL)-based methods have achieved tremendous success. However, these methods\nrequire plaintext data for training and inference stages, raising privacy\nconcerns, especially in the sensitive area of medical data. To tackle these\nconcerns, this paper proposes a novel framework that uses surrogate images for\nanalysis, eliminating the need for plaintext images. This approach is called\nFrequency-domain Exchange Style Fusion (FESF). The framework includes two main\ncomponents: Image Hidden Module (IHM) and Image Quality Enhancement\nModule~(IQEM). The~IHM performs in the frequency domain, blending the features\nof plaintext medical images into host medical images, and then combines this\nwith IQEM to improve and create surrogate images effectively. During the\ndiagnostic model training process, only surrogate images are used, enabling\nanonymous analysis without any plaintext data during both training and\ninference stages. Extensive evaluations demonstrate that our framework\neffectively preserves the privacy of medical images and maintains diagnostic\naccuracy of DL models at a relatively high level, proving its effectiveness\nacross various datasets and DL-based models.",
+    "updated" : "2024-03-25T06:56:38Z",
+    "published" : "2024-03-25T06:56:38Z",
+    "authors" : [
+      {
+        "name" : "Mengyu Sun"
+      },
+      {
+        "name" : "Ziyuan Yang"
+      },
+      {
+        "name" : "Maosong Ran"
+      },
+      {
+        "name" : "Zhiwen Wang"
+      },
+      {
+        "name" : "Hui Yu"
+      },
+      {
+        "name" : "Yi Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "eess.IV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.16149v1",
+    "title" : "A Survey on Consumer IoT Traffic: Security and Privacy",
+    "summary" : "For the past few years, the Consumer Internet of Things (CIoT) has entered\npublic lives. While CIoT has improved the convenience of people's daily lives,\nit has also brought new security and privacy concerns. In this survey, we try\nto figure out what researchers can learn about the security and privacy of CIoT\nby traffic analysis, a popular method in the security community. From the\nsecurity and privacy perspective, this survey seeks out the new characteristics\nin CIoT traffic analysis, the state-of-the-art progress in CIoT traffic\nanalysis, and the challenges yet to be solved. We collected 310 papers from\nJanuary 2018 to December 2023 related to CIoT traffic analysis from the\nsecurity and privacy perspective and summarized the process of CIoT traffic\nanalysis in which the new characteristics of CIoT are identified. Then, we\ndetail existing works based on five application goals: device fingerprinting,\nuser activity inference, malicious traffic analysis, security analysis, and\nmeasurement. At last, we discuss the new challenges and future research\ndirections.",
+    "updated" : "2024-03-24T13:43:43Z",
+    "published" : "2024-03-24T13:43:43Z",
+    "authors" : [
+      {
+        "name" : "Yan Jia"
+      },
+      {
+        "name" : "Yuxin Song"
+      },
+      {
+        "name" : "Zihou Liu"
+      },
+      {
+        "name" : "Qingyin Tan"
+      },
+      {
+        "name" : "Fangming Wang"
+      },
+      {
+        "name" : "Yu Zhang"
+      },
+      {
+        "name" : "Zheli Liu"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.15510v1",
+    "title" : "Privacy-Preserving End-to-End Spoken Language Understanding",
+    "summary" : "Spoken language understanding (SLU), one of the key enabling technologies for\nhuman-computer interaction in IoT devices, provides an easy-to-use user\ninterface. Human speech can contain a lot of user-sensitive information, such\nas gender, identity, and sensitive content. New types of security and privacy\nbreaches have thus emerged. Users do not want to expose their personal\nsensitive information to malicious attacks by untrusted third parties. Thus,\nthe SLU system needs to ensure that a potential malicious attacker cannot\ndeduce the sensitive attributes of the users, while it should avoid greatly\ncompromising the SLU accuracy. To address the above challenge, this paper\nproposes a novel SLU multi-task privacy-preserving model to prevent both the\nspeech recognition (ASR) and identity recognition (IR) attacks. The model uses\nthe hidden layer separation technique so that SLU information is distributed\nonly in a specific portion of the hidden layer, and the other two types of\ninformation are removed to obtain a privacy-secure hidden layer. In order to\nachieve good balance between efficiency and privacy, we introduce a new\nmechanism of model pre-training, namely joint adversarial training, to further\nenhance the user privacy. Experiments over two SLU datasets show that the\nproposed method can reduce the accuracy of both the ASR and IR attacks close to\nthat of a random guess, while leaving the SLU performance largely unaffected.",
+    "updated" : "2024-03-22T03:41:57Z",
+    "published" : "2024-03-22T03:41:57Z",
+    "authors" : [
+      {
+        "name" : "Yinggui Wang"
+      },
+      {
+        "name" : "Wei Huang"
+      },
+      {
+        "name" : "Le Yang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG",
+      "eess.AS"
+    ]
   }
 ]
