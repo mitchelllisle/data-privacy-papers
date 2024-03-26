@@ -316,93 +316,98 @@ greater confidence in the privacy offered by Apple devices.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.18607v2">Exploring Privacy and Fairness Risks in Sharing Diffusion Models: An
-  Adversarial Perspective</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-02-28T12:21:12Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Xinjian Luo, Yangfan Jiang, Fei Wei, Yuncheng Wu, Xiaokui Xiao, Beng Chin Ooi</p>
-    <p><b>Summary:</b> Diffusion models have recently gained significant attention in both academia
-and industry due to their impressive generative performance in terms of both
-sampling quality and distribution coverage. Accordingly, proposals are made for
-sharing pre-trained diffusion models across different organizations, as a way
-of improving data utilization while enhancing privacy protection by avoiding
-sharing private data directly. However, the potential risks associated with
-such an approach have not been comprehensively examined.
-  In this paper, we take an adversarial perspective to investigate the
-potential privacy and fairness risks associated with the sharing of diffusion
-models. Specifically, we investigate the circumstances in which one party (the
-sharer) trains a diffusion model using private data and provides another party
-(the receiver) black-box access to the pre-trained model for downstream tasks.
-We demonstrate that the sharer can execute fairness poisoning attacks to
-undermine the receiver's downstream models by manipulating the training data
-distribution of the diffusion model. Meanwhile, the receiver can perform
-property inference attacks to reveal the distribution of sensitive features in
-the sharer's dataset. Our experiments conducted on real-world datasets
-demonstrate remarkable attack performance on different types of diffusion
-models, which highlights the critical importance of robust data auditing and
-privacy protection protocols in pertinent applications.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.17838v1">Personalizing Smart Home Privacy Protection With Individuals' Regulatory
-  Focus: Would You Preserve or Enhance Your Information Privacy?</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2024-02-27T19:03:07Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Reza Ghaiumy Anaraky, Yao Li, Hichang Cho, Danny Yuxing Huang, Kaileigh A. Byrne, Bart Knijnenburg, Oded Nov</p>
-    <p><b>Summary:</b> In this study, we explore the effectiveness of persuasive messages endorsing
-the adoption of a privacy protection technology (IoT Inspector) tailored to
-individuals' regulatory focus (promotion or prevention). We explore if and how
-regulatory fit (i.e., tuning the goal-pursuit mechanism to individuals'
-internal regulatory focus) can increase persuasion and adoption. We conducted a
-between-subject experiment (N = 236) presenting participants with the IoT
-Inspector in gain ("Privacy Enhancing Technology" -- PET) or loss ("Privacy
-Preserving Technology" -- PPT) framing. Results show that the effect of
-regulatory fit on adoption is mediated by trust and privacy calculus processes:
-prevention-focused users who read the PPT message trust the tool more.
-Furthermore, privacy calculus favors using the tool when promotion-focused
-individuals read the PET message. We discuss the contribution of understanding
-the cognitive mechanisms behind regulatory fit in privacy decision-making to
-support privacy protection.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.17191v1">AI-Driven Anonymization: Protecting Personal Data Privacy While
-  Leveraging Machine Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-02-27T04:12:25Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Le Yang, Miao Tian, Duan Xin, Qishuo Cheng, Jiajian Zheng</p>
-    <p><b>Summary:</b> The development of artificial intelligence has significantly transformed
-people's lives. However, it has also posed a significant threat to privacy and
-security, with numerous instances of personal information being exposed online
-and reports of criminal attacks and theft. Consequently, the need to achieve
-intelligent protection of personal information through machine learning
-algorithms has become a paramount concern. Artificial intelligence leverages
-advanced algorithms and technologies to effectively encrypt and anonymize
-personal data, enabling valuable data analysis and utilization while
-safeguarding privacy. This paper focuses on personal data privacy protection
-and the promotion of anonymity as its core research objectives. It achieves
-personal data privacy protection and detection through the use of machine
-learning's differential privacy protection algorithm. The paper also addresses
-existing challenges in machine learning related to privacy and personal data
-protection, offers improvement suggestions, and analyzes factors impacting
-datasets to enable timely personal data privacy detection and protection.</p>
-  </details>
-</div>
-
-
 
 <h2>2024-03</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.16591v1">Deciphering the Interplay between Local Differential Privacy, Average
+  Bayesian Privacy, and Maximum Bayesian Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-03-25T10:06:45Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xiaojin Zhang, Yulin Fei, Wei Chen, Hai Jin</p>
+    <p><b>Summary:</b> The swift evolution of machine learning has led to emergence of various
+definitions of privacy due to the threats it poses to privacy, including the
+concept of local differential privacy (LDP). Although widely embraced and
+utilized across numerous domains, this conventional approach to measure privacy
+still exhibits certain limitations, spanning from failure to prevent
+inferential disclosure to lack of consideration for the adversary's background
+knowledge. In this comprehensive study, we introduce Bayesian privacy and delve
+into the intricate relationship between local differential privacy and its
+Bayesian counterparts, unveiling novel insights into utility-privacy
+trade-offs. We introduce a framework that encapsulates both attack and defense
+strategies, highlighting their interplay and effectiveness. Our theoretical
+contributions are anchored in the rigorous definitions and relationships
+between Average Bayesian Privacy (ABP) and Maximum Bayesian Privacy (MBP),
+encapsulated by equations $\epsilon_{p,a} \leq
+\frac{1}{\sqrt{2}}\sqrt{(\epsilon_{p,m} + \epsilon)\cdot(e^{\epsilon_{p,m} +
+\epsilon} - 1)}$ and the equivalence between $\xi$-MBP and $2\xi$-LDP
+established under uniform prior distribution. These relationships fortify our
+understanding of the privacy guarantees provided by various mechanisms, leading
+to the realization that a mechanism satisfying $\xi$-LDP also confers
+$\xi$-MBP, and vice versa. Our work not only lays the groundwork for future
+empirical exploration but also promises to enhance the design of
+privacy-preserving algorithms that do not compromise on utility, thereby
+fostering the development of trustworthy machine learning solutions.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.16473v1">Plaintext-Free Deep Learning for Privacy-Preserving Medical Image
+  Analysis via Frequency Information Embedding</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
+  <p><b>Published on:</b> 2024-03-25T06:56:38Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mengyu Sun, Ziyuan Yang, Maosong Ran, Zhiwen Wang, Hui Yu, Yi Zhang</p>
+    <p><b>Summary:</b> In the fast-evolving field of medical image analysis, Deep Learning
+(DL)-based methods have achieved tremendous success. However, these methods
+require plaintext data for training and inference stages, raising privacy
+concerns, especially in the sensitive area of medical data. To tackle these
+concerns, this paper proposes a novel framework that uses surrogate images for
+analysis, eliminating the need for plaintext images. This approach is called
+Frequency-domain Exchange Style Fusion (FESF). The framework includes two main
+components: Image Hidden Module (IHM) and Image Quality Enhancement
+Module~(IQEM). The~IHM performs in the frequency domain, blending the features
+of plaintext medical images into host medical images, and then combines this
+with IQEM to improve and create surrogate images effectively. During the
+diagnostic model training process, only surrogate images are used, enabling
+anonymous analysis without any plaintext data during both training and
+inference stages. Extensive evaluations demonstrate that our framework
+effectively preserves the privacy of medical images and maintains diagnostic
+accuracy of DL models at a relatively high level, proving its effectiveness
+across various datasets and DL-based models.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.16149v1">A Survey on Consumer IoT Traffic: Security and Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-03-24T13:43:43Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yan Jia, Yuxin Song, Zihou Liu, Qingyin Tan, Fangming Wang, Yu Zhang, Zheli Liu</p>
+    <p><b>Summary:</b> For the past few years, the Consumer Internet of Things (CIoT) has entered
+public lives. While CIoT has improved the convenience of people's daily lives,
+it has also brought new security and privacy concerns. In this survey, we try
+to figure out what researchers can learn about the security and privacy of CIoT
+by traffic analysis, a popular method in the security community. From the
+security and privacy perspective, this survey seeks out the new characteristics
+in CIoT traffic analysis, the state-of-the-art progress in CIoT traffic
+analysis, and the challenges yet to be solved. We collected 310 papers from
+January 2018 to December 2023 related to CIoT traffic analysis from the
+security and privacy perspective and summarized the process of CIoT traffic
+analysis in which the new characteristics of CIoT are identified. Then, we
+detail existing works based on five application goals: device fingerprinting,
+user activity inference, malicious traffic analysis, security analysis, and
+measurement. At last, we discuss the new challenges and future research
+directions.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2403.15208v1">VPAS: Publicly Verifiable and Privacy-Preserving Aggregate Statistics on
@@ -464,6 +469,36 @@ decision space in $d$-dimensions with potentially infinite arms and design an
 $\epsilon$-DP algorithm with regret $\tilde{O} \left( \frac{d^6}{\kappa
 \epsilon } + \frac{ d\sqrt{T }}{\kappa} \right)$, providing privacy for free
 when $T \gg d$.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.15510v1">Privacy-Preserving End-to-End Spoken Language Understanding</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
+  <p><b>Published on:</b> 2024-03-22T03:41:57Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yinggui Wang, Wei Huang, Le Yang</p>
+    <p><b>Summary:</b> Spoken language understanding (SLU), one of the key enabling technologies for
+human-computer interaction in IoT devices, provides an easy-to-use user
+interface. Human speech can contain a lot of user-sensitive information, such
+as gender, identity, and sensitive content. New types of security and privacy
+breaches have thus emerged. Users do not want to expose their personal
+sensitive information to malicious attacks by untrusted third parties. Thus,
+the SLU system needs to ensure that a potential malicious attacker cannot
+deduce the sensitive attributes of the users, while it should avoid greatly
+compromising the SLU accuracy. To address the above challenge, this paper
+proposes a novel SLU multi-task privacy-preserving model to prevent both the
+speech recognition (ASR) and identity recognition (IR) attacks. The model uses
+the hidden layer separation technique so that SLU information is distributed
+only in a specific portion of the hidden layer, and the other two types of
+information are removed to obtain a privacy-secure hidden layer. In order to
+achieve good balance between efficiency and privacy, we introduce a new
+mechanism of model pre-training, namely joint adversarial training, to further
+enhance the user privacy. Experiments over two SLU datasets show that the
+proposed method can reduce the accuracy of both the ASR and IR attacks close to
+that of a random guess, while leaving the SLU performance largely unaffected.</p>
   </details>
 </div>
 
@@ -2568,31 +2603,6 @@ and type errors have implications for adoption and ergonomics in other gradual
 languages such as TypeScript, Elixir, and Typed Racket. Our telemetry design is
 of broad interest, as it reports on type errors without revealing sensitive
 information.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.02324v1">Preserving Smart Grid Integrity: A Differential Privacy Framework for
-  Secure Detection of False Data Injection Attacks in the Smart Grid</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-03-04T18:55:16Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Nikhil Ravi, Anna Scaglione, Sean Peisert, Parth Pradhan</p>
-    <p><b>Summary:</b> In this paper, we present a framework based on differential privacy (DP) for
-querying electric power measurements to detect system anomalies or bad data
-caused by false data injections (FDIs). Our DP approach conceals consumption
-and system matrix data, while simultaneously enabling an untrusted third party
-to test hypotheses of anomalies, such as an FDI attack, by releasing a
-randomized sufficient statistic for hypothesis-testing. We consider a
-measurement model corrupted by Gaussian noise and a sparse noise vector
-representing the attack, and we observe that the optimal test statistic is a
-chi-square random variable. To detect possible attacks, we propose a novel DP
-chi-square noise mechanism that ensures the test does not reveal private
-information about power injections or the system matrix. The proposed framework
-provides a robust solution for detecting FDIs while preserving the privacy of
-sensitive power system data.</p>
   </details>
 </div>
 
