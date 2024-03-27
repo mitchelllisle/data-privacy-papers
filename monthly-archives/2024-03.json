@@ -2562,5 +2562,192 @@
       "cs.LG",
       "eess.AS"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.17648v1",
+    "title" : "Healthcare Data Governance, Privacy, and Security - A Conceptual\n  Framework",
+    "summary" : "The abundance of data has transformed the world in every aspect. It has\nbecome the core element in decision making, problem solving, and innovation in\nalmost all areas of life, including business, science, healthcare, education,\nand many others. Despite all these advances, privacy and security remain\ncritical concerns of the healthcare industry. It is important to note that\nhealthcare data can also be a liability if it is not managed correctly. This\ndata mismanagement can have severe consequences for patients and healthcare\norganisations, including patient safety, legal liability, damage to reputation,\nfinancial loss, and operational inefficiency. Healthcare organisations must\ncomply with a range of regulations to protect patient data. We perform a\nclassification of data governance elements or components in a manner that\nthoroughly assesses the healthcare data chain from a privacy and security\nstandpoint. After deeply analysing the existing literature, we propose a\nconceptual privacy and security driven healthcare data governance framework.",
+    "updated" : "2024-03-26T12:29:56Z",
+    "published" : "2024-03-26T12:29:56Z",
+    "authors" : [
+      {
+        "name" : "Amen Faridoon"
+      },
+      {
+        "name" : "M. Tahar Kechadi"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.17572v1",
+    "title" : "Enhancing Privacy in Federated Learning through Local Training",
+    "summary" : "In this paper we propose the federated private local training algorithm\n(Fed-PLT) for federated learning, to overcome the challenges of (i) expensive\ncommunications and (ii) privacy preservation. We address (i) by allowing for\nboth partial participation and local training, which significantly reduce the\nnumber of communication rounds between the central coordinator and computing\nagents. The algorithm matches the state of the art in the sense that the use of\nlocal training demonstrably does not impact accuracy. Additionally, agents have\nthe flexibility to choose from various local training solvers, such as\n(stochastic) gradient descent and accelerated gradient descent. Further, we\ninvestigate how employing local training can enhance privacy, addressing point\n(ii). In particular, we derive differential privacy bounds and highlight their\ndependence on the number of local training epochs. We assess the effectiveness\nof the proposed algorithm by comparing it to alternative techniques,\nconsidering both theoretical analysis and numerical results from a\nclassification task.",
+    "updated" : "2024-03-26T10:25:21Z",
+    "published" : "2024-03-26T10:25:21Z",
+    "authors" : [
+      {
+        "name" : "Nicola Bastianello"
+      },
+      {
+        "name" : "Changxin Liu"
+      },
+      {
+        "name" : "Karl H. Johansson"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "math.OC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.17414v1",
+    "title" : "The Privacy Policy Permission Model: A Unified View of Privacy Policies",
+    "summary" : "Organizations use privacy policies to communicate their data collection\npractices to their clients. A privacy policy is a set of statements that\nspecifies how an organization gathers, uses, discloses, and maintains a\nclient's data. However, most privacy policies lack a clear, complete\nexplanation of how data providers' information is used. We propose a modeling\nmethodology, called the Privacy Policy Permission Model (PPPM), that provides a\nuniform, easy-to-understand representation of privacy policies, which can\naccurately and clearly show how data is used within an organization's practice.\nUsing this methodology, a privacy policy is captured as a diagram. The diagram\nis capable of highlighting inconsistencies and inaccuracies in the privacy\npolicy. The methodology supports privacy officers in properly and clearly\narticulating an organization's privacy policy.",
+    "updated" : "2024-03-26T06:12:38Z",
+    "published" : "2024-03-26T06:12:38Z",
+    "authors" : [
+      {
+        "name" : "Maryam Majedi"
+      },
+      {
+        "name" : "Ken Barker"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.17303v1",
+    "title" : "Two Birds with One Stone: Differential Privacy by Low-power SRAM Memory",
+    "summary" : "The software-based implementation of differential privacy mechanisms has been\nshown to be neither friendly for lightweight devices nor secure against\nside-channel attacks. In this work, we aim to develop a hardware-based\ntechnique to achieve differential privacy by design. In contrary to the\nconventional software-based noise generation and injection process, our design\nrealizes local differential privacy (LDP) by harnessing the inherent hardware\nnoise into controlled LDP noise when data is stored in the memory.\nSpecifically, the noise is tamed through a novel memory design and power\ndownscaling technique, which leads to double-faceted gains in privacy and power\nefficiency. A well-round study that consists of theoretical design and analysis\nand chip implementation and experiments is presented. The results confirm that\nthe developed technique is differentially private, saves 88.58% system power,\nspeeds up software-based DP mechanisms by more than 10^6 times, while only\nincurring 2.46% chip overhead and 7.81% estimation errors in data recovery.",
+    "updated" : "2024-03-26T01:14:55Z",
+    "published" : "2024-03-26T01:14:55Z",
+    "authors" : [
+      {
+        "name" : "Jianqing Liu"
+      },
+      {
+        "name" : "Na Gong"
+      },
+      {
+        "name" : "Hritom Das"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.17296v1",
+    "title" : "Hawk: Accurate and Fast Privacy-Preserving Machine Learning Using Secure\n  Lookup Table Computation",
+    "summary" : "Training machine learning models on data from multiple entities without\ndirect data sharing can unlock applications otherwise hindered by business,\nlegal, or ethical constraints. In this work, we design and implement new\nprivacy-preserving machine learning protocols for logistic regression and\nneural network models. We adopt a two-server model where data owners\nsecret-share their data between two servers that train and evaluate the model\non the joint data. A significant source of inefficiency and inaccuracy in\nexisting methods arises from using Yao's garbled circuits to compute non-linear\nactivation functions. We propose new methods for computing non-linear functions\nbased on secret-shared lookup tables, offering both computational efficiency\nand improved accuracy.\n  Beyond introducing leakage-free techniques, we initiate the exploration of\nrelaxed security measures for privacy-preserving machine learning. Instead of\nclaiming that the servers gain no knowledge during the computation, we contend\nthat while some information is revealed about access patterns to lookup tables,\nit maintains epsilon-dX-privacy. Leveraging this relaxation significantly\nreduces the computational resources needed for training. We present new\ncryptographic protocols tailored to this relaxed security paradigm and define\nand analyze the leakage. Our evaluations show that our logistic regression\nprotocol is up to 9x faster, and the neural network training is up to 688x\nfaster than SecureML. Notably, our neural network achieves an accuracy of 96.6%\non MNIST in 15 epochs, outperforming prior benchmarks that capped at 93.4%\nusing the same architecture.",
+    "updated" : "2024-03-26T00:51:12Z",
+    "published" : "2024-03-26T00:51:12Z",
+    "authors" : [
+      {
+        "name" : "Hamza Saleem"
+      },
+      {
+        "name" : "Amir Ziashahabi"
+      },
+      {
+        "name" : "Muhammad Naveed"
+      },
+      {
+        "name" : "Salman Avestimehr"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.17225v1",
+    "title" : "Measuring Compliance with the California Consumer Privacy Act Over Space\n  and Time",
+    "summary" : "The widespread sharing of consumers personal information with third parties\nraises significant privacy concerns. The California Consumer Privacy Act (CCPA)\nmandates that online businesses offer consumers the option to opt out of the\nsale and sharing of personal information. Our study automatically tracks the\npresence of the opt-out link longitudinally across multiple states after the\nCalifornia Privacy Rights Act (CPRA) went into effect. We categorize websites\nbased on whether they are subject to CCPA and investigate cases of potential\nnon-compliance. We find a number of websites that implement the opt-out link\nearly and across all examined states but also find a significant number of\nCCPA-subject websites that fail to offer any opt-out methods even when CCPA is\nin effect. Our findings can shed light on how websites are reacting to the CCPA\nand identify potential gaps in compliance and opt- out method designs that\nhinder consumers from exercising CCPA opt-out rights.",
+    "updated" : "2024-03-25T21:57:31Z",
+    "published" : "2024-03-25T21:57:31Z",
+    "authors" : [
+      {
+        "name" : "Van Tran"
+      },
+      {
+        "name" : "Aarushi Mehrotra"
+      },
+      {
+        "name" : "Marshini Chetty"
+      },
+      {
+        "name" : "Nick Feamster"
+      },
+      {
+        "name" : "Jens Frankenreiter"
+      },
+      {
+        "name" : "Lior Strahilevitz"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "cs.CR",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.16797v1",
+    "title" : "Privacy Preservation by Intermittent Transmission in Cooperative LQG\n  Control Systems",
+    "summary" : "In this paper, we study a cooperative linear quadratic Gaussian (LQG) control\nsystem with a single user and a server. In this system, the user runs a process\nand employs the server to meet the needs of computation. However, the user\nregards its state trajectories as privacy. Therefore, we propose a privacy\nscheme, in which the user sends data to the server intermittently. By this\nscheme, the server's received information of the user is reduced, and\nconsequently the user's privacy is preserved. In this paper, we consider a\nperiodic transmission scheme. We analyze the performance of privacy\npreservation and LQG control of different transmission periods. Under the given\nthreshold of the control performance loss, a trade-off optimization problem is\nproposed. Finally, we give the solution to the optimization problem.",
+    "updated" : "2024-03-25T14:14:39Z",
+    "published" : "2024-03-25T14:14:39Z",
+    "authors" : [
+      {
+        "name" : "Wenhao Lin"
+      },
+      {
+        "name" : "Yuqing Ni"
+      },
+      {
+        "name" : "Wen Yang"
+      },
+      {
+        "name" : "Chao Yang"
+      }
+    ],
+    "categories" : [
+      "eess.SY",
+      "cs.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.16773v1",
+    "title" : "Privacy-Protected Spatial Autoregressive Model",
+    "summary" : "Spatial autoregressive (SAR) models are important tools for studying network\neffects. However, with an increasing emphasis on data privacy, data providers\noften implement privacy protection measures that make classical SAR models\ninapplicable. In this study, we introduce a privacy-protected SAR model with\nnoise-added response and covariates to meet privacy-protection requirements.\nHowever, in this scenario, the traditional quasi-maximum likelihood estimator\nbecomes infeasible because the likelihood function cannot be formulated. To\naddress this issue, we first consider an explicit expression for the likelihood\nfunction with only noise-added responses. However, the derivatives are biased\nowing to the noise in the covariates. Therefore, we develop techniques that can\ncorrect the biases introduced by noise. Correspondingly, a Newton-Raphson-type\nalgorithm is proposed to obtain the estimator, leading to a corrected\nlikelihood estimator. To further enhance computational efficiency, we introduce\na corrected least squares estimator based on the idea of bias correction. These\ntwo estimation methods ensure both data security and the attainment of\nstatistically valid estimators. Theoretical analysis of both estimators is\ncarefully conducted, and statistical inference methods are discussed. The\nfinite sample performances of different methods are demonstrated through\nextensive simulations and the analysis of a real dataset.",
+    "updated" : "2024-03-25T13:51:22Z",
+    "published" : "2024-03-25T13:51:22Z",
+    "authors" : [
+      {
+        "name" : "Danyang Huang"
+      },
+      {
+        "name" : "Ziyi Kong"
+      },
+      {
+        "name" : "Shuyuan Wu"
+      },
+      {
+        "name" : "Hansheng Wang"
+      }
+    ],
+    "categories" : [
+      "stat.ME",
+      "econ.EM"
+    ]
   }
 ]
