@@ -1,68 +1,82 @@
 
-<h2>2024-02</h2>
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.00157v1">Privacy-Preserving Distributed Optimization and Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Science and Game Theory-5BC0EB">
-  <p><b>Published on:</b> 2024-02-29T22:18:05Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ziqin Chen, Yongqiang Wang</p>
-    <p><b>Summary:</b> Distributed optimization and learning has recently garnered great attention
-due to its wide applications in sensor networks, smart grids, machine learning,
-and so forth. Despite rapid development, existing distributed optimization and
-learning algorithms require each agent to exchange messages with its neighbors,
-which may expose sensitive information and raise significant privacy concerns.
-In this survey paper, we overview privacy-preserving distributed optimization
-and learning methods. We first discuss cryptography, differential privacy, and
-other techniques that can be used for privacy preservation and indicate their
-pros and cons for privacy protection in distributed optimization and learning.
-We believe that among these approaches, differential privacy is most promising
-due to its low computational and communication complexities, which are
-extremely appealing for modern learning based applications with high dimensions
-of optimization variables. We then introduce several differential-privacy
-algorithms that can simultaneously ensure privacy and optimization accuracy.
-Moreover, we provide example applications in several machine learning problems
-to confirm the real-world effectiveness of these algorithms. Finally, we
-highlight some challenges in this research domain and discuss future
-directions.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2402.19105v1">CollaFuse: Navigating Limited Resources and Privacy in Collaborative
-  Generative AI</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2024-02-29T12:36:10Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Domenique Zipperling, Simeon Allmendinger, Lukas Struppek, Niklas Kühl</p>
-    <p><b>Summary:</b> In the landscape of generative artificial intelligence, diffusion-based
-models present challenges for socio-technical systems in data requirements and
-privacy. Traditional approaches like federated learning distribute the learning
-process but strain individual clients, especially with constrained resources
-(e.g., edge devices). In response to these challenges, we introduce CollaFuse,
-a novel framework inspired by split learning. Tailored for efficient and
-collaborative use of denoising diffusion probabilistic models, CollaFuse
-enables shared server training and inference, alleviating client computational
-burdens. This is achieved by retaining data and computationally inexpensive GPU
-processes locally at each client while outsourcing the computationally
-expensive processes to the shared server. Demonstrated in a healthcare context,
-CollaFuse enhances privacy by highly reducing the need for sensitive
-information sharing. These capabilities hold the potential to impact various
-application areas, such as the design of edge computing solutions, healthcare
-research, or autonomous driving. In essence, our work advances distributed
-machine learning, shaping the future of collaborative GenAI networks.</p>
-  </details>
-</div>
-
-
-
 <h2>2024-03</h2>
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.17648v1">Healthcare Data Governance, Privacy, and Security - A Conceptual
+  <h3><a href="http://arxiv.org/abs/2403.18357v1">Minimax density estimation in the adversarial framework under local
+  differential privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36"> 
+  <p><b>Published on:</b> 2024-03-27T08:49:17Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mélisande Albert, Juliette Chevallier, Béatrice Laurent, Ousmane Sacko</p>
+    <p><b>Summary:</b> We consider the problem of nonparametric density estimation under privacy
+constraints in an adversarial framework. To this end, we study minimax rates
+under local differential privacy over Sobolev spaces. We first obtain a lower
+bound which allows us to quantify the impact of privacy compared with the
+classical framework. Next, we introduce a new Coordinate block privacy
+mechanism that guarantees local differential privacy, which, coupled with a
+projection estimator, achieves the minimax optimal rates.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.18326v1">Privacy-Preserving Distributed Nonnegative Matrix Factorization</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
+  <p><b>Published on:</b> 2024-03-27T08:07:07Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ehsan Lari, Reza Arablouei, Stefan Werner</p>
+    <p><b>Summary:</b> Nonnegative matrix factorization (NMF) is an effective data representation
+tool with numerous applications in signal processing and machine learning.
+However, deploying NMF in a decentralized manner over ad-hoc networks
+introduces privacy concerns due to the conventional approach of sharing raw
+data among network agents. To address this, we propose a privacy-preserving
+algorithm for fully-distributed NMF that decomposes a distributed large data
+matrix into left and right matrix factors while safeguarding each agent's local
+data privacy. It facilitates collaborative estimation of the left matrix factor
+among agents and enables them to estimate their respective right factors
+without exposing raw data. To ensure data privacy, we secure information
+exchanges between neighboring agents utilizing the Paillier cryptosystem, a
+probabilistic asymmetric algorithm for public-key cryptography that allows
+computations on encrypted data without decryption. Simulation results conducted
+on synthetic and real-world datasets demonstrate the effectiveness of the
+proposed algorithm in achieving privacy-preserving distributed NMF over ad-hoc
+networks.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.18205v1">Exploring the Privacy Protection Capabilities of Chinese Large Language
+  Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-03-27T02:31:54Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yuqi Yang, Xiaowen Huang, Jitao Sang</p>
+    <p><b>Summary:</b> Large language models (LLMs), renowned for their impressive capabilities in
+various tasks, have significantly advanced artificial intelligence. Yet, these
+advancements have raised growing concerns about privacy and security
+implications. To address these issues and explain the risks inherent in these
+models, we have devised a three-tiered progressive framework tailored for
+evaluating privacy in language systems. This framework consists of
+progressively complex and in-depth privacy test tasks at each tier. Our primary
+objective is to comprehensively evaluate the sensitivity of large language
+models to private information, examining how effectively they discern, manage,
+and safeguard sensitive data in diverse scenarios. This systematic evaluation
+helps us understand the degree to which these models comply with privacy
+protection guidelines and the effectiveness of their inherent safeguards
+against privacy breaches. Our observations indicate that existing Chinese large
+language models universally show privacy protection shortcomings. It seems that
+at the moment this widespread issue is unavoidable and may pose corresponding
+privacy risks in applications based on these models.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.17648v1">Healthcare Data Governance, Privacy, and Security -- A Conceptual
   Framework</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2024-03-26T12:29:56Z</p>
@@ -215,7 +229,7 @@ non-compliance. We find a number of websites that implement the opt-out link
 early and across all examined states but also find a significant number of
 CCPA-subject websites that fail to offer any opt-out methods even when CCPA is
 in effect. Our findings can shed light on how websites are reacting to the CCPA
-and identify potential gaps in compliance and opt- out method designs that
+and identify potential gaps in compliance and opt-out method designs that
 hinder consumers from exercising CCPA opt-out rights.</p>
   </details>
 </div>
@@ -2899,35 +2913,6 @@ comparable reconstruction quality, an adversary suffers from higher prediction
 error from clustering our compressed codes than that with the compared methods.
 Most importantly, our solver is independent to private information in inference
 phase contrary to the baselines.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.00278v1">Shifted Interpolation for Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Optimization and Control-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36">  
-  <p><b>Published on:</b> 2024-03-01T04:50:04Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jinho Bok, Weijie Su, Jason M. Altschuler</p>
-    <p><b>Summary:</b> Noisy gradient descent and its variants are the predominant algorithms for
-differentially private machine learning. It is a fundamental question to
-quantify their privacy leakage, yet tight characterizations remain open even in
-the foundational setting of convex losses. This paper improves over previous
-analyses by establishing (and refining) the "privacy amplification by
-iteration" phenomenon in the unifying framework of $f$-differential
-privacy--which tightly captures all aspects of the privacy loss and immediately
-implies tighter privacy accounting in other notions of differential privacy,
-e.g., $(\varepsilon,\delta)$-DP and Renyi DP. Our key technical insight is the
-construction of shifted interpolated processes that unravel the popular
-shifted-divergences argument, enabling generalizations beyond divergence-based
-relaxations of DP. Notably, this leads to the first exact privacy analysis in
-the foundational setting of strongly convex optimization. Our techniques extend
-to many settings: convex/strongly convex, constrained/unconstrained,
-full/cyclic/stochastic batches, and all combinations thereof. As an immediate
-corollary, we recover the $f$-DP characterization of the exponential mechanism
-for strongly convex optimization in Gopi et al. (2022), and moreover extend
-this result to more general settings.</p>
   </details>
 </div>
 
