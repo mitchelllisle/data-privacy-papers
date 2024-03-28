@@ -2749,5 +2749,125 @@
       "stat.ME",
       "econ.EM"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.18357v1",
+    "title" : "Minimax density estimation in the adversarial framework under local\n  differential privacy",
+    "summary" : "We consider the problem of nonparametric density estimation under privacy\nconstraints in an adversarial framework. To this end, we study minimax rates\nunder local differential privacy over Sobolev spaces. We first obtain a lower\nbound which allows us to quantify the impact of privacy compared with the\nclassical framework. Next, we introduce a new Coordinate block privacy\nmechanism that guarantees local differential privacy, which, coupled with a\nprojection estimator, achieves the minimax optimal rates.",
+    "updated" : "2024-03-27T08:49:17Z",
+    "published" : "2024-03-27T08:49:17Z",
+    "authors" : [
+      {
+        "name" : "Mélisande Albert"
+      },
+      {
+        "name" : "Juliette Chevallier"
+      },
+      {
+        "name" : "Béatrice Laurent"
+      },
+      {
+        "name" : "Ousmane Sacko"
+      }
+    ],
+    "categories" : [
+      "math.ST",
+      "stat.TH"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.18326v1",
+    "title" : "Privacy-Preserving Distributed Nonnegative Matrix Factorization",
+    "summary" : "Nonnegative matrix factorization (NMF) is an effective data representation\ntool with numerous applications in signal processing and machine learning.\nHowever, deploying NMF in a decentralized manner over ad-hoc networks\nintroduces privacy concerns due to the conventional approach of sharing raw\ndata among network agents. To address this, we propose a privacy-preserving\nalgorithm for fully-distributed NMF that decomposes a distributed large data\nmatrix into left and right matrix factors while safeguarding each agent's local\ndata privacy. It facilitates collaborative estimation of the left matrix factor\namong agents and enables them to estimate their respective right factors\nwithout exposing raw data. To ensure data privacy, we secure information\nexchanges between neighboring agents utilizing the Paillier cryptosystem, a\nprobabilistic asymmetric algorithm for public-key cryptography that allows\ncomputations on encrypted data without decryption. Simulation results conducted\non synthetic and real-world datasets demonstrate the effectiveness of the\nproposed algorithm in achieving privacy-preserving distributed NMF over ad-hoc\nnetworks.",
+    "updated" : "2024-03-27T08:07:07Z",
+    "published" : "2024-03-27T08:07:07Z",
+    "authors" : [
+      {
+        "name" : "Ehsan Lari"
+      },
+      {
+        "name" : "Reza Arablouei"
+      },
+      {
+        "name" : "Stefan Werner"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DC",
+      "cs.LG",
+      "eess.SP"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.18205v1",
+    "title" : "Exploring the Privacy Protection Capabilities of Chinese Large Language\n  Models",
+    "summary" : "Large language models (LLMs), renowned for their impressive capabilities in\nvarious tasks, have significantly advanced artificial intelligence. Yet, these\nadvancements have raised growing concerns about privacy and security\nimplications. To address these issues and explain the risks inherent in these\nmodels, we have devised a three-tiered progressive framework tailored for\nevaluating privacy in language systems. This framework consists of\nprogressively complex and in-depth privacy test tasks at each tier. Our primary\nobjective is to comprehensively evaluate the sensitivity of large language\nmodels to private information, examining how effectively they discern, manage,\nand safeguard sensitive data in diverse scenarios. This systematic evaluation\nhelps us understand the degree to which these models comply with privacy\nprotection guidelines and the effectiveness of their inherent safeguards\nagainst privacy breaches. Our observations indicate that existing Chinese large\nlanguage models universally show privacy protection shortcomings. It seems that\nat the moment this widespread issue is unavoidable and may pose corresponding\nprivacy risks in applications based on these models.",
+    "updated" : "2024-03-27T02:31:54Z",
+    "published" : "2024-03-27T02:31:54Z",
+    "authors" : [
+      {
+        "name" : "Yuqi Yang"
+      },
+      {
+        "name" : "Xiaowen Huang"
+      },
+      {
+        "name" : "Jitao Sang"
+      }
+    ],
+    "categories" : [
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.17648v1",
+    "title" : "Healthcare Data Governance, Privacy, and Security -- A Conceptual\n  Framework",
+    "summary" : "The abundance of data has transformed the world in every aspect. It has\nbecome the core element in decision making, problem solving, and innovation in\nalmost all areas of life, including business, science, healthcare, education,\nand many others. Despite all these advances, privacy and security remain\ncritical concerns of the healthcare industry. It is important to note that\nhealthcare data can also be a liability if it is not managed correctly. This\ndata mismanagement can have severe consequences for patients and healthcare\norganisations, including patient safety, legal liability, damage to reputation,\nfinancial loss, and operational inefficiency. Healthcare organisations must\ncomply with a range of regulations to protect patient data. We perform a\nclassification of data governance elements or components in a manner that\nthoroughly assesses the healthcare data chain from a privacy and security\nstandpoint. After deeply analysing the existing literature, we propose a\nconceptual privacy and security driven healthcare data governance framework.",
+    "updated" : "2024-03-26T12:29:56Z",
+    "published" : "2024-03-26T12:29:56Z",
+    "authors" : [
+      {
+        "name" : "Amen Faridoon"
+      },
+      {
+        "name" : "M. Tahar Kechadi"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.17225v1",
+    "title" : "Measuring Compliance with the California Consumer Privacy Act Over Space\n  and Time",
+    "summary" : "The widespread sharing of consumers personal information with third parties\nraises significant privacy concerns. The California Consumer Privacy Act (CCPA)\nmandates that online businesses offer consumers the option to opt out of the\nsale and sharing of personal information. Our study automatically tracks the\npresence of the opt-out link longitudinally across multiple states after the\nCalifornia Privacy Rights Act (CPRA) went into effect. We categorize websites\nbased on whether they are subject to CCPA and investigate cases of potential\nnon-compliance. We find a number of websites that implement the opt-out link\nearly and across all examined states but also find a significant number of\nCCPA-subject websites that fail to offer any opt-out methods even when CCPA is\nin effect. Our findings can shed light on how websites are reacting to the CCPA\nand identify potential gaps in compliance and opt-out method designs that\nhinder consumers from exercising CCPA opt-out rights.",
+    "updated" : "2024-03-25T21:57:31Z",
+    "published" : "2024-03-25T21:57:31Z",
+    "authors" : [
+      {
+        "name" : "Van Tran"
+      },
+      {
+        "name" : "Aarushi Mehrotra"
+      },
+      {
+        "name" : "Marshini Chetty"
+      },
+      {
+        "name" : "Nick Feamster"
+      },
+      {
+        "name" : "Jens Frankenreiter"
+      },
+      {
+        "name" : "Lior Strahilevitz"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "cs.CR",
+      "cs.CY"
+    ]
   }
 ]
