@@ -2,6 +2,37 @@
 <h2>2024-03</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.19178v1">Enhancing Trust and Privacy in Distributed Networks: A Comprehensive
+  Survey on Blockchain-based Federated Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-03-28T07:08:26Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ji Liu, Chunlu Chen, Yu Li, Lin Sun, Yulun Song, Jingbo Zhou, Bo Jing, Dejing Dou</p>
+    <p><b>Summary:</b> While centralized servers pose a risk of being a single point of failure,
+decentralized approaches like blockchain offer a compelling solution by
+implementing a consensus mechanism among multiple entities. Merging distributed
+computing with cryptographic techniques, decentralized technologies introduce a
+novel computing paradigm. Blockchain ensures secure, transparent, and
+tamper-proof data management by validating and recording transactions via
+consensus across network nodes. Federated Learning (FL), as a distributed
+machine learning framework, enables participants to collaboratively train
+models while safeguarding data privacy by avoiding direct raw data exchange.
+Despite the growing interest in decentralized methods, their application in FL
+remains underexplored. This paper presents a thorough investigation into
+Blockchain-based FL (BCFL), spotlighting the synergy between blockchain's
+security features and FL's privacy-preserving model training capabilities.
+First, we present the taxonomy of BCFL from three aspects, including
+decentralized, separate networks, and reputation-based architectures. Then, we
+summarize the general architecture of BCFL systems, providing a comprehensive
+perspective on FL architectures informed by blockchain. Afterward, we analyze
+the application of BCFL in healthcare, IoT, and other privacy-sensitive areas.
+Finally, we identify future research directions of BCFL.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2403.18357v1">Minimax density estimation in the adversarial framework under local
   differential privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36"> 
@@ -236,7 +267,7 @@ hinder consumers from exercising CCPA opt-out rights.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.16797v1">Privacy Preservation by Intermittent Transmission in Cooperative LQG
+  <h3><a href="http://arxiv.org/abs/2403.16797v2">Privacy Preservation by Intermittent Transmission in Cooperative LQG
   Control Systems</a></h3>
    <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
   <p><b>Published on:</b> 2024-03-25T14:14:39Z</p>
@@ -289,7 +320,7 @@ extensive simulations and the analysis of a real dataset.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.16591v1">Deciphering the Interplay between Local Differential Privacy, Average
+  <h3><a href="http://arxiv.org/abs/2403.16591v2">Deciphering the Interplay between Local Differential Privacy, Average
   Bayesian Privacy, and Maximum Bayesian Privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2024-03-25T10:06:45Z</p>
@@ -303,22 +334,22 @@ utilized across numerous domains, this conventional approach to measure privacy
 still exhibits certain limitations, spanning from failure to prevent
 inferential disclosure to lack of consideration for the adversary's background
 knowledge. In this comprehensive study, we introduce Bayesian privacy and delve
-into the intricate relationship between local differential privacy and its
-Bayesian counterparts, unveiling novel insights into utility-privacy
-trade-offs. We introduce a framework that encapsulates both attack and defense
-strategies, highlighting their interplay and effectiveness. Our theoretical
-contributions are anchored in the rigorous definitions and relationships
-between Average Bayesian Privacy (ABP) and Maximum Bayesian Privacy (MBP),
-encapsulated by equations $\epsilon_{p,a} \leq
-\frac{1}{\sqrt{2}}\sqrt{(\epsilon_{p,m} + \epsilon)\cdot(e^{\epsilon_{p,m} +
-\epsilon} - 1)}$ and the equivalence between $\xi$-MBP and $2\xi$-LDP
-established under uniform prior distribution. These relationships fortify our
-understanding of the privacy guarantees provided by various mechanisms, leading
-to the realization that a mechanism satisfying $\xi$-LDP also confers
-$\xi$-MBP, and vice versa. Our work not only lays the groundwork for future
-empirical exploration but also promises to enhance the design of
-privacy-preserving algorithms that do not compromise on utility, thereby
-fostering the development of trustworthy machine learning solutions.</p>
+into the intricate relationship between LDP and its Bayesian counterparts,
+unveiling novel insights into utility-privacy trade-offs. We introduce a
+framework that encapsulates both attack and defense strategies, highlighting
+their interplay and effectiveness. The relationship between LDP and Maximum
+Bayesian Privacy (MBP) is first revealed, demonstrating that under uniform
+prior distribution, a mechanism satisfying $\xi$-LDP will satisfy $\xi$-MBP and
+conversely $\xi$-MBP also confers 2$\xi$-LDP. Our next theoretical contribution
+are anchored in the rigorous definitions and relationships between Average
+Bayesian Privacy (ABP) and Maximum Bayesian Privacy (MBP), encapsulated by
+equations $\epsilon_{p,a} \leq \frac{1}{\sqrt{2}}\sqrt{(\epsilon_{p,m} +
+\epsilon)\cdot(e^{\epsilon_{p,m} + \epsilon} - 1)}$. These relationships
+fortify our understanding of the privacy guarantees provided by various
+mechanisms. Our work not only lays the groundwork for future empirical
+exploration but also promises to facilitate the design of privacy-preserving
+algorithms, thereby fostering the development of trustworthy machine learning
+solutions.</p>
   </details>
 </div>
 
@@ -2886,33 +2917,6 @@ equally protecting all examples using existing unlearning schemes, due to the
 different rates at which examples are unlearned. We demonstrate that naive
 attempts at tailoring unlearning stopping criteria to different examples fail
 to alleviate these issues.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.04778v2">An Efficient Difference-of-Convex Solver for Privacy Funnel</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
-  <p><b>Published on:</b> 2024-03-02T01:05:25Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Teng-Hui Huang, Hesham El Gamal</p>
-    <p><b>Summary:</b> We propose an efficient solver for the privacy funnel (PF) method, leveraging
-its difference-of-convex (DC) structure. The proposed DC separation results in
-a closed-form update equation, which allows straightforward application to both
-known and unknown distribution settings. For known distribution case, we prove
-the convergence (local stationary points) of the proposed non-greedy solver,
-and empirically show that it outperforms the state-of-the-art approaches in
-characterizing the privacy-utility trade-off. The insights of our DC approach
-apply to unknown distribution settings where labeled empirical samples are
-available instead. Leveraging the insights, our alternating minimization solver
-satisfies the fundamental Markov relation of PF in contrast to previous
-variational inference-based solvers. Empirically, we evaluate the proposed
-solver with MNIST and Fashion-MNIST datasets. Our results show that under a
-comparable reconstruction quality, an adversary suffers from higher prediction
-error from clustering our compressed codes than that with the compared methods.
-Most importantly, our solver is independent to private information in inference
-phase contrary to the baselines.</p>
   </details>
 </div>
 
