@@ -2869,5 +2869,95 @@
       "cs.CR",
       "cs.CY"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.19178v1",
+    "title" : "Enhancing Trust and Privacy in Distributed Networks: A Comprehensive\n  Survey on Blockchain-based Federated Learning",
+    "summary" : "While centralized servers pose a risk of being a single point of failure,\ndecentralized approaches like blockchain offer a compelling solution by\nimplementing a consensus mechanism among multiple entities. Merging distributed\ncomputing with cryptographic techniques, decentralized technologies introduce a\nnovel computing paradigm. Blockchain ensures secure, transparent, and\ntamper-proof data management by validating and recording transactions via\nconsensus across network nodes. Federated Learning (FL), as a distributed\nmachine learning framework, enables participants to collaboratively train\nmodels while safeguarding data privacy by avoiding direct raw data exchange.\nDespite the growing interest in decentralized methods, their application in FL\nremains underexplored. This paper presents a thorough investigation into\nBlockchain-based FL (BCFL), spotlighting the synergy between blockchain's\nsecurity features and FL's privacy-preserving model training capabilities.\nFirst, we present the taxonomy of BCFL from three aspects, including\ndecentralized, separate networks, and reputation-based architectures. Then, we\nsummarize the general architecture of BCFL systems, providing a comprehensive\nperspective on FL architectures informed by blockchain. Afterward, we analyze\nthe application of BCFL in healthcare, IoT, and other privacy-sensitive areas.\nFinally, we identify future research directions of BCFL.",
+    "updated" : "2024-03-28T07:08:26Z",
+    "published" : "2024-03-28T07:08:26Z",
+    "authors" : [
+      {
+        "name" : "Ji Liu"
+      },
+      {
+        "name" : "Chunlu Chen"
+      },
+      {
+        "name" : "Yu Li"
+      },
+      {
+        "name" : "Lin Sun"
+      },
+      {
+        "name" : "Yulun Song"
+      },
+      {
+        "name" : "Jingbo Zhou"
+      },
+      {
+        "name" : "Bo Jing"
+      },
+      {
+        "name" : "Dejing Dou"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.DC",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.16797v2",
+    "title" : "Privacy Preservation by Intermittent Transmission in Cooperative LQG\n  Control Systems",
+    "summary" : "In this paper, we study a cooperative linear quadratic Gaussian (LQG) control\nsystem with a single user and a server. In this system, the user runs a process\nand employs the server to meet the needs of computation. However, the user\nregards its state trajectories as privacy. Therefore, we propose a privacy\nscheme, in which the user sends data to the server intermittently. By this\nscheme, the server's received information of the user is reduced, and\nconsequently the user's privacy is preserved. In this paper, we consider a\nperiodic transmission scheme. We analyze the performance of privacy\npreservation and LQG control of different transmission periods. Under the given\nthreshold of the control performance loss, a trade-off optimization problem is\nproposed. Finally, we give the solution to the optimization problem.",
+    "updated" : "2024-03-28T08:11:05Z",
+    "published" : "2024-03-25T14:14:39Z",
+    "authors" : [
+      {
+        "name" : "Wenhao Lin"
+      },
+      {
+        "name" : "Yuqing Ni"
+      },
+      {
+        "name" : "Wen Yang"
+      },
+      {
+        "name" : "Chao Yang"
+      }
+    ],
+    "categories" : [
+      "eess.SY",
+      "cs.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.16591v2",
+    "title" : "Deciphering the Interplay between Local Differential Privacy, Average\n  Bayesian Privacy, and Maximum Bayesian Privacy",
+    "summary" : "The swift evolution of machine learning has led to emergence of various\ndefinitions of privacy due to the threats it poses to privacy, including the\nconcept of local differential privacy (LDP). Although widely embraced and\nutilized across numerous domains, this conventional approach to measure privacy\nstill exhibits certain limitations, spanning from failure to prevent\ninferential disclosure to lack of consideration for the adversary's background\nknowledge. In this comprehensive study, we introduce Bayesian privacy and delve\ninto the intricate relationship between LDP and its Bayesian counterparts,\nunveiling novel insights into utility-privacy trade-offs. We introduce a\nframework that encapsulates both attack and defense strategies, highlighting\ntheir interplay and effectiveness. The relationship between LDP and Maximum\nBayesian Privacy (MBP) is first revealed, demonstrating that under uniform\nprior distribution, a mechanism satisfying $\\xi$-LDP will satisfy $\\xi$-MBP and\nconversely $\\xi$-MBP also confers 2$\\xi$-LDP. Our next theoretical contribution\nare anchored in the rigorous definitions and relationships between Average\nBayesian Privacy (ABP) and Maximum Bayesian Privacy (MBP), encapsulated by\nequations $\\epsilon_{p,a} \\leq \\frac{1}{\\sqrt{2}}\\sqrt{(\\epsilon_{p,m} +\n\\epsilon)\\cdot(e^{\\epsilon_{p,m} + \\epsilon} - 1)}$. These relationships\nfortify our understanding of the privacy guarantees provided by various\nmechanisms. Our work not only lays the groundwork for future empirical\nexploration but also promises to facilitate the design of privacy-preserving\nalgorithms, thereby fostering the development of trustworthy machine learning\nsolutions.",
+    "updated" : "2024-03-28T15:27:38Z",
+    "published" : "2024-03-25T10:06:45Z",
+    "authors" : [
+      {
+        "name" : "Xiaojin Zhang"
+      },
+      {
+        "name" : "Yulin Fei"
+      },
+      {
+        "name" : "Wei Chen"
+      },
+      {
+        "name" : "Hai Jin"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR"
+    ]
   }
 ]
