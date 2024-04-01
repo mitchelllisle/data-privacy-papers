@@ -2,6 +2,29 @@
 <h2>2024-03</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2403.20120v1">Privacy-Preserving Data Aggregation Techniques for Enhanced Efficiency
+  and Security in Wireless Sensor Networks: A Comprehensive Analysis and
+  Evaluation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-03-29T11:09:22Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ayush Rastogi, Harsh Rastogi, Yash Rastogi, Divyansh Dubey</p>
+    <p><b>Summary:</b> In this paper, we present a multidimensional, highly effective method for
+aggregating data for wireless sensor networks while maintaining privacy. The
+suggested system is resistant to data loss and secure against both active and
+passive privacy compromising attacks, such as the coalition attack from a rogue
+base station and kidnapped sensor nodes. With regard to cluster size, it
+achieves consistent communication overhead, which is helpful in large-scale
+WSNs. Due to its constant size communication overhead, the suggested strategy
+outperforms the previous privacy-preserving data aggregation scheme not only in
+terms of privacy preservation but also in terms of communication complexity and
+energy costs.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2403.19178v1">Enhancing Trust and Privacy in Distributed Networks: A Comprehensive
   Survey on Blockchain-based Federated Learning</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
@@ -2879,44 +2902,6 @@ status detection methods, the availability of audio in REWIND makes it suitable
 for cross-modality studies not feasible with previous mingling datasets.
 Finally, our flexible data consent setup creates new challenges for multimodal
 systems under missing modalities.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.01218v1">Inexact Unlearning Needs More Careful Evaluations to Avoid a False Sense
-  of Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-03-02T14:22:40Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jamie Hayes, Ilia Shumailov, Eleni Triantafillou, Amr Khalifa, Nicolas Papernot</p>
-    <p><b>Summary:</b> The high cost of model training makes it increasingly desirable to develop
-techniques for unlearning. These techniques seek to remove the influence of a
-training example without having to retrain the model from scratch. Intuitively,
-once a model has unlearned, an adversary that interacts with the model should
-no longer be able to tell whether the unlearned example was included in the
-model's training set or not. In the privacy literature, this is known as
-membership inference. In this work, we discuss adaptations of Membership
-Inference Attacks (MIAs) to the setting of unlearning (leading to their
-``U-MIA'' counterparts). We propose a categorization of existing U-MIAs into
-``population U-MIAs'', where the same attacker is instantiated for all
-examples, and ``per-example U-MIAs'', where a dedicated attacker is
-instantiated for each example. We show that the latter category, wherein the
-attacker tailors its membership prediction to each example under attack, is
-significantly stronger. Indeed, our results show that the commonly used U-MIAs
-in the unlearning literature overestimate the privacy protection afforded by
-existing unlearning techniques on both vision and language models. Our
-investigation reveals a large variance in the vulnerability of different
-examples to per-example U-MIAs. In fact, several unlearning algorithms lead to
-a reduced vulnerability for some, but not all, examples that we wish to
-unlearn, at the expense of increasing it for other examples. Notably, we find
-that the privacy protection for the remaining training examples may worsen as a
-consequence of unlearning. We also discuss the fundamental difficulty of
-equally protecting all examples using existing unlearning schemes, due to the
-different rates at which examples are unlearned. We demonstrate that naive
-attempts at tailoring unlearning stopping criteria to different examples fail
-to alleviate these issues.</p>
   </details>
 </div>
 
