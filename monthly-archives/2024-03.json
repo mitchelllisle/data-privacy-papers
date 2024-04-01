@@ -2959,5 +2959,29 @@
       "cs.AI",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.20120v1",
+    "title" : "Privacy-Preserving Data Aggregation Techniques for Enhanced Efficiency\n  and Security in Wireless Sensor Networks: A Comprehensive Analysis and\n  Evaluation",
+    "summary" : "In this paper, we present a multidimensional, highly effective method for\naggregating data for wireless sensor networks while maintaining privacy. The\nsuggested system is resistant to data loss and secure against both active and\npassive privacy compromising attacks, such as the coalition attack from a rogue\nbase station and kidnapped sensor nodes. With regard to cluster size, it\nachieves consistent communication overhead, which is helpful in large-scale\nWSNs. Due to its constant size communication overhead, the suggested strategy\noutperforms the previous privacy-preserving data aggregation scheme not only in\nterms of privacy preservation but also in terms of communication complexity and\nenergy costs.",
+    "updated" : "2024-03-29T11:09:22Z",
+    "published" : "2024-03-29T11:09:22Z",
+    "authors" : [
+      {
+        "name" : "Ayush Rastogi"
+      },
+      {
+        "name" : "Harsh Rastogi"
+      },
+      {
+        "name" : "Yash Rastogi"
+      },
+      {
+        "name" : "Divyansh Dubey"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
