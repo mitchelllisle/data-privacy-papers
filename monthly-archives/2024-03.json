@@ -2983,5 +2983,220 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.00777v1",
+    "title" : "Privacy-preserving Optics for Enhancing Protection in Face\n  De-identification",
+    "summary" : "The modern surge in camera usage alongside widespread computer vision\ntechnology applications poses significant privacy and security concerns.\nCurrent artificial intelligence (AI) technologies aid in recognizing relevant\nevents and assisting in daily tasks in homes, offices, hospitals, etc. The need\nto access or process personal information for these purposes raises privacy\nconcerns. While software-level solutions like face de-identification provide a\ngood privacy/utility trade-off, they present vulnerabilities to sniffing\nattacks. In this paper, we propose a hardware-level face de-identification\nmethod to solve this vulnerability. Specifically, our approach first learns an\noptical encoder along with a regression model to obtain a face heatmap while\nhiding the face identity from the source image. We also propose an\nanonymization framework that generates a new face using the privacy-preserving\nimage, face heatmap, and a reference face image from a public dataset as input.\nWe validate our approach with extensive simulations and hardware experiments.",
+    "updated" : "2024-03-31T19:28:04Z",
+    "published" : "2024-03-31T19:28:04Z",
+    "authors" : [
+      {
+        "name" : "Jhon Lopez"
+      },
+      {
+        "name" : "Carlos Hinojosa"
+      },
+      {
+        "name" : "Henry Arguello"
+      },
+      {
+        "name" : "Bernard Ghanem"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI",
+      "cs.CR",
+      "cs.LG",
+      "eess.IV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.00696v1",
+    "title" : "Privacy Re-identification Attacks on Tabular GANs",
+    "summary" : "Generative models are subject to overfitting and thus may potentially leak\nsensitive information from the training data. In this work. we investigate the\nprivacy risks that can potentially arise from the use of generative adversarial\nnetworks (GANs) for creating tabular synthetic datasets. For the purpose, we\nanalyse the effects of re-identification attacks on synthetic data, i.e.,\nattacks which aim at selecting samples that are predicted to correspond to\nmemorised training samples based on their proximity to the nearest synthetic\nrecords. We thus consider multiple settings where different attackers might\nhave different access levels or knowledge of the generative model and\npredictive, and assess which information is potentially most useful for\nlaunching more successful re-identification attacks. In doing so we also\nconsider the situation for which re-identification attacks are formulated as\nreconstruction attacks, i.e., the situation where an attacker uses evolutionary\nmulti-objective optimisation for perturbing synthetic samples closer to the\ntraining space. The results indicate that attackers can indeed pose major\nprivacy risks by selecting synthetic samples that are likely representative of\nmemorised training samples. In addition, we notice that privacy threats\nconsiderably increase when the attacker either has knowledge or has black-box\naccess to the generative models. We also find that reconstruction attacks\nthrough multi-objective optimisation even increase the risk of identifying\nconfidential samples.",
+    "updated" : "2024-03-31T14:14:00Z",
+    "published" : "2024-03-31T14:14:00Z",
+    "authors" : [
+      {
+        "name" : "Abdallah Alshantti"
+      },
+      {
+        "name" : "Adil Rasheed"
+      },
+      {
+        "name" : "Frank Westad"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.00673v1",
+    "title" : "A Survey of Privacy-Preserving Model Explanations: Privacy Risks,\n  Attacks, and Countermeasures",
+    "summary" : "As the adoption of explainable AI (XAI) continues to expand, the urgency to\naddress its privacy implications intensifies. Despite a growing corpus of\nresearch in AI privacy and explainability, there is little attention on\nprivacy-preserving model explanations. This article presents the first thorough\nsurvey about privacy attacks on model explanations and their countermeasures.\nOur contribution to this field comprises a thorough analysis of research papers\nwith a connected taxonomy that facilitates the categorisation of privacy\nattacks and countermeasures based on the targeted explanations. This work also\nincludes an initial investigation into the causes of privacy leaks. Finally, we\ndiscuss unresolved issues and prospective research directions uncovered in our\nanalysis. This survey aims to be a valuable resource for the research community\nand offers clear insights for those new to this domain. To support ongoing\nresearch, we have established an online resource repository, which will be\ncontinuously updated with new and relevant findings. Interested readers are\nencouraged to access our repository at\nhttps://github.com/tamlhp/awesome-privex.",
+    "updated" : "2024-03-31T12:44:48Z",
+    "published" : "2024-03-31T12:44:48Z",
+    "authors" : [
+      {
+        "name" : "Thanh Tam Nguyen"
+      },
+      {
+        "name" : "Thanh Trung Huynh"
+      },
+      {
+        "name" : "Zhao Ren"
+      },
+      {
+        "name" : "Thanh Toan Nguyen"
+      },
+      {
+        "name" : "Phi Le Nguyen"
+      },
+      {
+        "name" : "Hongzhi Yin"
+      },
+      {
+        "name" : "Quoc Viet Hung Nguyen"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.CY",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.00600v2",
+    "title" : "AI Act and Large Language Models (LLMs): When critical issues and\n  privacy impact require human and ethical oversight",
+    "summary" : "The imposing evolution of artificial intelligence systems and, specifically,\nof Large Language Models (LLM) makes it necessary to carry out assessments of\ntheir level of risk and the impact they may have in the area of privacy,\npersonal data protection and at an ethical level, especially on the weakest and\nmost vulnerable. This contribution addresses human oversight, ethical\noversight, and privacy impact assessment.",
+    "updated" : "2024-04-02T06:05:29Z",
+    "published" : "2024-03-31T08:14:25Z",
+    "authors" : [
+      {
+        "name" : "Nicola Fabiano"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.AI",
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.00473v1",
+    "title" : "Privacy Backdoors: Stealing Data with Corrupted Pretrained Models",
+    "summary" : "Practitioners commonly download pretrained machine learning models from open\nrepositories and finetune them to fit specific applications. We show that this\npractice introduces a new risk of privacy backdoors. By tampering with a\npretrained model's weights, an attacker can fully compromise the privacy of the\nfinetuning data. We show how to build privacy backdoors for a variety of\nmodels, including transformers, which enable an attacker to reconstruct\nindividual finetuning samples, with a guaranteed success! We further show that\nbackdoored models allow for tight privacy attacks on models trained with\ndifferential privacy (DP). The common optimistic practice of training DP models\nwith loose privacy guarantees is thus insecure if the model is not trusted.\nOverall, our work highlights a crucial and overlooked supply chain attack on\nmachine learning privacy.",
+    "updated" : "2024-03-30T20:43:53Z",
+    "published" : "2024-03-30T20:43:53Z",
+    "authors" : [
+      {
+        "name" : "Shanglun Feng"
+      },
+      {
+        "name" : "Florian Tramèr"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.00235v1",
+    "title" : "Information Security and Privacy in the Digital World: Some Selected\n  Topics",
+    "summary" : "In the era of generative artificial intelligence and the Internet of Things,\nwhile there is explosive growth in the volume of data and the associated need\nfor processing, analysis, and storage, several new challenges are faced in\nidentifying spurious and fake information and protecting the privacy of\nsensitive data. This has led to an increasing demand for more robust and\nresilient schemes for authentication, integrity protection, encryption,\nnon-repudiation, and privacy-preservation of data. The chapters in this book\npresent some of the state-of-the-art research works in the field of\ncryptography and security in computing and communications.",
+    "updated" : "2024-03-30T03:52:58Z",
+    "published" : "2024-03-30T03:52:58Z",
+    "authors" : [
+      {
+        "name" : "Jaydip Sen"
+      },
+      {
+        "name" : "Joceli Mayer"
+      },
+      {
+        "name" : "Subhasis Dasgupta"
+      },
+      {
+        "name" : "Subrata Nandi"
+      },
+      {
+        "name" : "Srinivasan Krishnaswamy"
+      },
+      {
+        "name" : "Pinaki Mitra"
+      },
+      {
+        "name" : "Mahendra Pratap Singh"
+      },
+      {
+        "name" : "Naga Prasanthi Kundeti"
+      },
+      {
+        "name" : "Chandra Sekhara Rao MVP"
+      },
+      {
+        "name" : "Sudha Sree Chekuri"
+      },
+      {
+        "name" : "Seshu Babu Pallapothu"
+      },
+      {
+        "name" : "Preethi Nanjundan"
+      },
+      {
+        "name" : "Jossy P. George"
+      },
+      {
+        "name" : "Abdelhadi El Allahi"
+      },
+      {
+        "name" : "Ilham Morino"
+      },
+      {
+        "name" : "Salma AIT Oussous"
+      },
+      {
+        "name" : "Siham Beloualid"
+      },
+      {
+        "name" : "Ahmed Tamtaoui"
+      },
+      {
+        "name" : "Abderrahim Bajit"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.16591v3",
+    "title" : "Deciphering the Interplay between Local Differential Privacy, Average\n  Bayesian Privacy, and Maximum Bayesian Privacy",
+    "summary" : "The swift evolution of machine learning has led to emergence of various\ndefinitions of privacy due to the threats it poses to privacy, including the\nconcept of local differential privacy (LDP). Although widely embraced and\nutilized across numerous domains, this conventional approach to measure privacy\nstill exhibits certain limitations, spanning from failure to prevent\ninferential disclosure to lack of consideration for the adversary's background\nknowledge. In this comprehensive study, we introduce Bayesian privacy and delve\ninto the intricate relationship between LDP and its Bayesian counterparts,\nunveiling novel insights into utility-privacy trade-offs. We introduce a\nframework that encapsulates both attack and defense strategies, highlighting\ntheir interplay and effectiveness. The relationship between LDP and Maximum\nBayesian Privacy (MBP) is first revealed, demonstrating that under uniform\nprior distribution, a mechanism satisfying $\\xi$-LDP will satisfy $\\xi$-MBP and\nconversely $\\xi$-MBP also confers 2$\\xi$-LDP. Our next theoretical contribution\nare anchored in the rigorous definitions and relationships between Average\nBayesian Privacy (ABP) and Maximum Bayesian Privacy (MBP), encapsulated by\nequations $\\epsilon_{p,a} \\leq \\frac{1}{\\sqrt{2}}\\sqrt{(\\epsilon_{p,m} +\n\\epsilon)\\cdot(e^{\\epsilon_{p,m} + \\epsilon} - 1)}$. These relationships\nfortify our understanding of the privacy guarantees provided by various\nmechanisms. Our work not only lays the groundwork for future empirical\nexploration but also promises to facilitate the design of privacy-preserving\nalgorithms, thereby fostering the development of trustworthy machine learning\nsolutions.",
+    "updated" : "2024-04-02T14:28:06Z",
+    "published" : "2024-03-25T10:06:45Z",
+    "authors" : [
+      {
+        "name" : "Xiaojin Zhang"
+      },
+      {
+        "name" : "Yulin Fei"
+      },
+      {
+        "name" : "Wei Chen"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR"
+    ]
   }
 ]
