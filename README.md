@@ -2,6 +2,68 @@
 <h2>2024-04</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.02696v1">Deep Privacy Funnel Model: From a Discriminative to a Generative
+  Approach with an Application to Face Recognition</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-04-03T12:50:45Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Behrooz Razeghi, Parsa Rahimi, Sébastien Marcel</p>
+    <p><b>Summary:</b> In this study, we apply the information-theoretic Privacy Funnel (PF) model
+to the domain of face recognition, developing a novel method for
+privacy-preserving representation learning within an end-to-end training
+framework. Our approach addresses the trade-off between obfuscation and utility
+in data protection, quantified through logarithmic loss, also known as
+self-information loss. This research provides a foundational exploration into
+the integration of information-theoretic privacy principles with representation
+learning, focusing specifically on the face recognition systems. We
+particularly highlight the adaptability of our framework with recent
+advancements in face recognition networks, such as AdaFace and ArcFace. In
+addition, we introduce the Generative Privacy Funnel ($\mathsf{GenPF}$) model,
+a paradigm that extends beyond the traditional scope of the PF model, referred
+to as the Discriminative Privacy Funnel ($\mathsf{DisPF}$). This
+$\mathsf{GenPF}$ model brings new perspectives on data generation methods with
+estimation-theoretic and information-theoretic privacy guarantees.
+Complementing these developments, we also present the deep variational PF
+(DVPF) model. This model proposes a tractable variational bound for measuring
+information leakage, enhancing the understanding of privacy preservation
+challenges in deep representation learning. The DVPF model, associated with
+both $\mathsf{DisPF}$ and $\mathsf{GenPF}$ models, sheds light on connections
+with various generative models such as Variational Autoencoders (VAEs),
+Generative Adversarial Networks (GANs), and Diffusion models. Complementing our
+theoretical contributions, we release a reproducible PyTorch package,
+facilitating further exploration and application of these privacy-preserving
+methodologies in face recognition systems.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.02327v1">Robust Constrained Consensus and Inequality-constrained Distributed
+  Optimization with Guaranteed Differential Privacy and Accurate Convergence</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Optimization and Control-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36"> 
+  <p><b>Published on:</b> 2024-04-02T21:53:43Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yongqiang Wang, Angelia Nedic</p>
+    <p><b>Summary:</b> We address differential privacy for fully distributed optimization subject to
+a shared inequality constraint. By co-designing the distributed optimization
+mechanism and the differential-privacy noise injection mechanism, we propose
+the first distributed constrained optimization algorithm that can ensure both
+provable convergence to a global optimal solution and rigorous
+$\epsilon$-differential privacy, even when the number of iterations tends to
+infinity. Our approach does not require the Lagrangian function to be strictly
+convex/concave, and allows the global objective function to be non-separable.
+As a byproduct of the co-design, we also propose a new constrained consensus
+algorithm that can achieve rigorous $\epsilon$-differential privacy while
+maintaining accurate convergence, which, to our knowledge, has not been
+achieved before. Numerical simulation results on a demand response control
+problem in smart grid confirm the effectiveness of the proposed approach.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2404.01619v1">Making Privacy-preserving Federated Graph Analytics with Strong
   Guarantees Practical (for Certain Queries)</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Social and Information Networks-662E9B">
@@ -1168,17 +1230,17 @@ federated learning schemes.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.11445v1">Budget Recycling Differential Privacy</a></h3>
+  <h3><a href="http://arxiv.org/abs/2403.11445v2">Budget Recycling Differential Privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B"> 
   <p><b>Published on:</b> 2024-03-18T03:43:45Z</p>
   <details>
     <summary>More Details</summary>
     <p><b>Authors:</b> Bo Jiang, Jian Du, Sagar Shamar, Qiang Yan</p>
     <p><b>Summary:</b> Differential Privacy (DP) mechanisms usually {force} reduction in data
-utility by producing ``out-of-bound'' noisy results for a tight privacy budget.
+utility by producing "out-of-bound" noisy results for a tight privacy budget.
 We introduce the Budget Recycling Differential Privacy (BR-DP) framework,
 designed to provide soft-bounded noisy outputs for a broad range of existing DP
-mechanisms. By ``soft-bounded," we refer to the mechanism's ability to release
+mechanisms. By "soft-bounded," we refer to the mechanism's ability to release
 most outputs within a predefined error boundary, thereby improving utility and
 maintaining privacy simultaneously. The core of BR-DP consists of two
 components: a DP kernel responsible for generating a noisy answer per
@@ -2797,65 +2859,6 @@ the integrity of local utility data, making it resilient against cyber threats
 but also reduces the computational demands for local TSA model training. The
 proposed approach is tested on four local clients each having the IEEE 39-bus
 test system.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.03048v1">Design of Stochastic Quantizers for Privacy Preservation</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
-  <p><b>Published on:</b> 2024-03-05T15:31:35Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Le Liu, Yu Kawano, Ming Cao</p>
-    <p><b>Summary:</b> In this paper, we examine the role of stochastic quantizers for privacy
-preservation. We first employ a static stochastic quantizer and investigate its
-corresponding privacy-preserving properties. Specifically, we demonstrate that
-a sufficiently large quantization step guarantees $(0, \delta)$ differential
-privacy. Additionally, the degradation of control performance caused by
-quantization is evaluated as the tracking error of output regulation. These two
-analyses characterize the trade-off between privacy and control performance,
-determined by the quantization step. This insight enables us to use
-quantization intentionally as a means to achieve the seemingly conflicting two
-goals of maintaining control performance and preserving privacy at the same
-time; towards this end, we further investigate a dynamic stochastic quantizer.
-Under a stability assumption, the dynamic stochastic quantizer can enhance
-privacy, more than the static one, while achieving the same control
-performance. We further handle the unstable case by additionally applying input
-Gaussian noise.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.02694v1">Privacy-Aware Semantic Cache for Large Language Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> 
-  <p><b>Published on:</b> 2024-03-05T06:23:50Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Waris Gill, Mohamed Elidrisi, Pallavi Kalapatapu, Ali Anwar, Muhammad Ali Gulzar</p>
-    <p><b>Summary:</b> Large Language Models (LLMs) like ChatGPT, Google Bard, Claude, and Llama 2
-have revolutionized natural language processing and search engine dynamics.
-However, these models incur exceptionally high computational costs. For
-instance, GPT-3 consists of 175 billion parameters and inference on these
-models also demands billions of floating-point operations. Caching is a natural
-solution to reduce LLM inference costs on repeated queries. However, existing
-caching methods are incapable of finding semantic similarities among LLM
-queries, leading to unacceptable false hit-and-miss rates.
-  This paper introduces MeanCache, a semantic cache for LLMs that identifies
-semantically similar queries to determine cache hit or miss. Using MeanCache,
-the response to a user's semantically similar query can be retrieved from a
-local cache rather than re-querying the LLM, thus reducing costs, service
-provider load, and environmental impact. MeanCache leverages Federated Learning
-(FL) to collaboratively train a query similarity model in a distributed manner
-across numerous users without violating privacy. By placing a local cache in
-each user's device and using FL, MeanCache reduces the latency and costs and
-enhances model performance, resulting in lower cache false hit rates. Our
-experiments, benchmarked against the GPTCache, reveal that MeanCache attains an
-approximately 17% higher F-score and a 20% increase in precision during
-semantic cache hit-and-miss decisions. Furthermore, MeanCache reduces the
-storage requirement by 83% and accelerates semantic cache hit-and-miss
-decisions by 11%, while still surpassing GPTCache.</p>
   </details>
 </div>
 
