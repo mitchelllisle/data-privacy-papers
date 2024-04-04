@@ -3198,5 +3198,31 @@
       "cs.AI",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.11445v2",
+    "title" : "Budget Recycling Differential Privacy",
+    "summary" : "Differential Privacy (DP) mechanisms usually {force} reduction in data\nutility by producing \"out-of-bound\" noisy results for a tight privacy budget.\nWe introduce the Budget Recycling Differential Privacy (BR-DP) framework,\ndesigned to provide soft-bounded noisy outputs for a broad range of existing DP\nmechanisms. By \"soft-bounded,\" we refer to the mechanism's ability to release\nmost outputs within a predefined error boundary, thereby improving utility and\nmaintaining privacy simultaneously. The core of BR-DP consists of two\ncomponents: a DP kernel responsible for generating a noisy answer per\niteration, and a recycler that probabilistically recycles/regenerates or\nreleases the noisy answer. We delve into the privacy accounting of BR-DP,\nculminating in the development of a budgeting principle that optimally\nsub-allocates the available budget between the DP kernel and the recycler.\nFurthermore, we introduce algorithms for tight BR-DP accounting in composition\nscenarios, and our findings indicate that BR-DP achieves reduced privacy\nleakage post-composition compared to DP. Additionally, we explore the concept\nof privacy amplification via subsampling within the BR-DP framework and propose\noptimal sampling rates for BR-DP across various queries. We experiment with\nreal data, and the results demonstrate BR-DP's effectiveness in lifting the\nutility-privacy tradeoff provided by DP mechanisms.",
+    "updated" : "2024-04-02T22:50:16Z",
+    "published" : "2024-03-18T03:43:45Z",
+    "authors" : [
+      {
+        "name" : "Bo Jiang"
+      },
+      {
+        "name" : "Jian Du"
+      },
+      {
+        "name" : "Sagar Shamar"
+      },
+      {
+        "name" : "Qiang Yan"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DS",
+      "eess.SP"
+    ]
   }
 ]
