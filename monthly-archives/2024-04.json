@@ -120,5 +120,46 @@
     "categories" : [
       "cs.CV"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.02696v1",
+    "title" : "Deep Privacy Funnel Model: From a Discriminative to a Generative\n  Approach with an Application to Face Recognition",
+    "summary" : "In this study, we apply the information-theoretic Privacy Funnel (PF) model\nto the domain of face recognition, developing a novel method for\nprivacy-preserving representation learning within an end-to-end training\nframework. Our approach addresses the trade-off between obfuscation and utility\nin data protection, quantified through logarithmic loss, also known as\nself-information loss. This research provides a foundational exploration into\nthe integration of information-theoretic privacy principles with representation\nlearning, focusing specifically on the face recognition systems. We\nparticularly highlight the adaptability of our framework with recent\nadvancements in face recognition networks, such as AdaFace and ArcFace. In\naddition, we introduce the Generative Privacy Funnel ($\\mathsf{GenPF}$) model,\na paradigm that extends beyond the traditional scope of the PF model, referred\nto as the Discriminative Privacy Funnel ($\\mathsf{DisPF}$). This\n$\\mathsf{GenPF}$ model brings new perspectives on data generation methods with\nestimation-theoretic and information-theoretic privacy guarantees.\nComplementing these developments, we also present the deep variational PF\n(DVPF) model. This model proposes a tractable variational bound for measuring\ninformation leakage, enhancing the understanding of privacy preservation\nchallenges in deep representation learning. The DVPF model, associated with\nboth $\\mathsf{DisPF}$ and $\\mathsf{GenPF}$ models, sheds light on connections\nwith various generative models such as Variational Autoencoders (VAEs),\nGenerative Adversarial Networks (GANs), and Diffusion models. Complementing our\ntheoretical contributions, we release a reproducible PyTorch package,\nfacilitating further exploration and application of these privacy-preserving\nmethodologies in face recognition systems.",
+    "updated" : "2024-04-03T12:50:45Z",
+    "published" : "2024-04-03T12:50:45Z",
+    "authors" : [
+      {
+        "name" : "Behrooz Razeghi"
+      },
+      {
+        "name" : "Parsa Rahimi"
+      },
+      {
+        "name" : "Sébastien Marcel"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.02327v1",
+    "title" : "Robust Constrained Consensus and Inequality-constrained Distributed\n  Optimization with Guaranteed Differential Privacy and Accurate Convergence",
+    "summary" : "We address differential privacy for fully distributed optimization subject to\na shared inequality constraint. By co-designing the distributed optimization\nmechanism and the differential-privacy noise injection mechanism, we propose\nthe first distributed constrained optimization algorithm that can ensure both\nprovable convergence to a global optimal solution and rigorous\n$\\epsilon$-differential privacy, even when the number of iterations tends to\ninfinity. Our approach does not require the Lagrangian function to be strictly\nconvex/concave, and allows the global objective function to be non-separable.\nAs a byproduct of the co-design, we also propose a new constrained consensus\nalgorithm that can achieve rigorous $\\epsilon$-differential privacy while\nmaintaining accurate convergence, which, to our knowledge, has not been\nachieved before. Numerical simulation results on a demand response control\nproblem in smart grid confirm the effectiveness of the proposed approach.",
+    "updated" : "2024-04-02T21:53:43Z",
+    "published" : "2024-04-02T21:53:43Z",
+    "authors" : [
+      {
+        "name" : "Yongqiang Wang"
+      },
+      {
+        "name" : "Angelia Nedic"
+      }
+    ],
+    "categories" : [
+      "math.OC",
+      "cs.SY",
+      "eess.SY"
+    ]
   }
 ]
