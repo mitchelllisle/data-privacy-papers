@@ -2,6 +2,149 @@
 <h2>2024-04</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.03524v1">Approximate Gradient Coding for Privacy-Flexible Federated Learning with
+  Non-IID Data</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36">  
+  <p><b>Published on:</b> 2024-04-04T15:29:50Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Okko Makkonen, Sampo Niemelä, Camilla Hollanti, Serge Kas Hanna</p>
+    <p><b>Summary:</b> This work focuses on the challenges of non-IID data and stragglers/dropouts
+in federated learning. We introduce and explore a privacy-flexible paradigm
+that models parts of the clients' local data as non-private, offering a more
+versatile and business-oriented perspective on privacy. Within this framework,
+we propose a data-driven strategy for mitigating the effects of label
+heterogeneity and client straggling on federated learning. Our solution
+combines both offline data sharing and approximate gradient coding techniques.
+Through numerical simulations using the MNIST dataset, we demonstrate that our
+approach enables achieving a deliberate trade-off between privacy and utility,
+leading to improved model convergence and accuracy while using an adaptable
+portion of non-private data.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.03514v1">Learn When (not) to Trust Language Models: A Privacy-Centric Adaptive
+  Model-Aware Approach</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-04-04T15:21:22Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Chengkai Huang, Rui Wang, Kaige Xie, Tong Yu, Lina Yao</p>
+    <p><b>Summary:</b> Retrieval-augmented large language models (LLMs) have been remarkably
+competent in various NLP tasks. Despite their great success, the knowledge
+provided by the retrieval process is not always useful for improving the model
+prediction, since in some samples LLMs may already be quite knowledgeable and
+thus be able to answer the question correctly without retrieval. Aiming to save
+the cost of retrieval, previous work has proposed to determine when to do/skip
+the retrieval in a data-aware manner by analyzing the LLMs' pretraining data.
+However, these data-aware methods pose privacy risks and memory limitations,
+especially when requiring access to sensitive or extensive pretraining data.
+Moreover, these methods offer limited adaptability under fine-tuning or
+continual learning settings. We hypothesize that token embeddings are able to
+capture the model's intrinsic knowledge, which offers a safer and more
+straightforward way to judge the need for retrieval without the privacy risks
+associated with accessing pre-training data. Moreover, it alleviates the need
+to retain all the data utilized during model pre-training, necessitating only
+the upkeep of the token embeddings. Extensive experiments and in-depth analyses
+demonstrate the superiority of our model-aware approach.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.03509v1">Privacy-Enhancing Technologies for Artificial Intelligence-Enabled
+  Systems</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-04-04T15:14:40Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Liv d'Aliberti, Evan Gronberg, Joseph Kovba</p>
+    <p><b>Summary:</b> Artificial intelligence (AI) models introduce privacy vulnerabilities to
+systems. These vulnerabilities may impact model owners or system users; they
+exist during model development, deployment, and inference phases, and threats
+can be internal or external to the system. In this paper, we investigate
+potential threats and propose the use of several privacy-enhancing technologies
+(PETs) to defend AI-enabled systems. We then provide a framework for PETs
+evaluation for a AI-enabled systems and discuss the impact PETs may have on
+system-level variables.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.03442v1">Privacy Engineering From Principles to Practice: A Roadmap</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36"> 
+  <p><b>Published on:</b> 2024-04-04T13:39:49Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Frank Pallas, Katharina Koerner, Isabel Barberá, Jaap-Henk Hoepman, Meiko Jensen, Nandita Rao Narla, Nikita Samarin, Max-R. Ulbricht, Isabel Wagner, Kim Wuyts, Christian Zimmermann</p>
+    <p><b>Summary:</b> Privacy engineering is gaining momentum in industry and academia alike. So
+far, manifold low-level primitives and higher-level methods and strategies have
+successfully been established. Still, fostering adoption in real-world
+information systems calls for additional aspects to be consciously considered
+in research and practice.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.03324v1">A Comparative Analysis of Word-Level Metric Differential Privacy:
+  Benchmarking The Privacy-Utility Trade-off</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2024-04-04T09:48:14Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Stephen Meisenbacher, Nihildev Nandakumar, Alexandra Klymenko, Florian Matthes</p>
+    <p><b>Summary:</b> The application of Differential Privacy to Natural Language Processing
+techniques has emerged in relevance in recent years, with an increasing number
+of studies published in established NLP outlets. In particular, the adaptation
+of Differential Privacy for use in NLP tasks has first focused on the
+$\textit{word-level}$, where calibrated noise is added to word embedding
+vectors to achieve "noisy" representations. To this end, several
+implementations have appeared in the literature, each presenting an alternative
+method of achieving word-level Differential Privacy. Although each of these
+includes its own evaluation, no comparative analysis has been performed to
+investigate the performance of such methods relative to each other. In this
+work, we conduct such an analysis, comparing seven different algorithms on two
+NLP tasks with varying hyperparameters, including the $\textit{epsilon
+($\varepsilon$)}$ parameter, or privacy budget. In addition, we provide an
+in-depth analysis of the results with a focus on the privacy-utility trade-off,
+as well as open-source our implementation code for further reproduction. As a
+result of our analysis, we give insight into the benefits and challenges of
+word-level Differential Privacy, and accordingly, we suggest concrete steps
+forward for the research field.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.03165v1">Towards Collaborative Family-Centered Design for Online Safety, Privacy
+  and Security</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2024-04-04T02:34:46Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mamtaj Akter, Zainab Agha, Ashwaq Alsoubai, Naima Ali, Pamela Wisniewski</p>
+    <p><b>Summary:</b> Traditional online safety technologies often overly restrict teens and invade
+their privacy, while parents often lack knowledge regarding their digital
+privacy. As such, prior researchers have called for more collaborative
+approaches on adolescent online safety and networked privacy. In this paper, we
+propose family-centered approaches to foster parent-teen collaboration in
+ensuring their mobile privacy and online safety while respecting individual
+privacy, to enhance open discussion and teens' self-regulation. However,
+challenges such as power imbalances and conflicts with family values arise when
+implementing such approaches, making parent-teen collaboration difficult.
+Therefore, attending the family-centered design workshop will provide an
+invaluable opportunity for us to discuss these challenges and identify best
+research practices for the future of collaborative online safety and privacy
+within families.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2404.02696v1">Deep Privacy Funnel Model: From a Discriminative to a Generative
   Approach with an Application to Face Recognition</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
@@ -1995,7 +2138,7 @@ be released soon.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.07817v1">UniHand: Privacy-preserving Universal Handover for Small-Cell Networks
+  <h3><a href="http://arxiv.org/abs/2403.07817v2">UniHand: Privacy-preserving Universal Handover for Small-Cell Networks
   in 5G-enabled Mobile Communication with KCI Resilience</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2024-03-12T16:56:31Z</p>
@@ -2662,203 +2805,6 @@ competing labelers. Additionally, using these improved annotations in
 classification supervision, we demonstrate substantial advancements in model
 quality, with an increase of 1.7 pp in AUROC over models trained with
 annotations from the state-of-the-art approach. We share code and annotations.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.03612v1">Using the Dual-Privacy Framework to Understand Consumers' Perceived
-  Privacy Violations Under Different Firm Practices in Online Advertising</a></h3>
-   
-  <p><b>Published on:</b> 2024-03-06T11:06:25Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Kinshuk Jerath, Klaus M. Miller</p>
-    <p><b>Summary:</b> In response to privacy concerns about collecting and using personal data, the
-online advertising industry has been developing privacy-enhancing technologies
-(PETs), e.g., under Google's Privacy Sandbox initiative. In this research, we
-use the dual-privacy framework, which postulates that consumers have intrinsic
-and instrumental preferences for privacy, to understand consumers' perceived
-privacy violations (PPVs) for current and proposed online advertising
-practices. The key idea is that different practices differ in whether
-individual data leaves the consumer's machine or not and in how they track and
-target consumers; these affect, respectively, the intrinsic and instrumental
-components of privacy preferences differently, leading to different PPVs for
-different practices. We conducted online studies focused on consumers in the
-United States to elicit PPVs for various advertising practices. Our findings
-confirm the intuition that tracking and targeting consumers under the industry
-status quo of behavioral targeting leads to high PPV. New technologies or
-proposals that ensure that data are kept on the consumer's machine lower PPV
-relative to behavioral targeting but, importantly, this decrease is small.
-Furthermore, group-level targeting does not differ significantly from
-individual-level targeting in reducing PPV. Under contextual targeting, where
-there is no tracking, PPV is significantly reduced. Interestingly, with respect
-to PPV, consumers are indifferent between seeing untargeted ads and no ads when
-they are not being tracked. We find that consumer perceptions of privacy
-violations under different tracking and targeting practices may differ from
-what technical definitions suggest. Therefore, rather than relying solely on
-technical perspectives, a consumer-centric approach to privacy is needed, based
-on, for instance, the dual-privacy framework.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.03610v1">Paying for Privacy: Pay-or-Tracking Walls</a></h3>
-   
-  <p><b>Published on:</b> 2024-03-06T10:59:49Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Timo Mueller-Tribbensee, Klaus M. Miller, Bernd Skiera</p>
-    <p><b>Summary:</b> Prestigious news publishers, and more recently, Meta, have begun to request
-that users pay for privacy. Specifically, users receive a notification banner,
-referred to as a pay-or-tracking wall, that requires them to (i) pay money to
-avoid being tracked or (ii) consent to being tracked. These walls have invited
-concerns that privacy might become a luxury. However, little is known about
-pay-or-tracking walls, which prevents a meaningful discussion about their
-appropriateness. This paper conducts several empirical studies and finds that
-top EU publishers use pay-or-tracking walls. Their implementations involve
-various approaches, including bundling the pay option with advertising-free
-access or additional content. The price for not being tracked exceeds the
-advertising revenue that publishers generate from a user who consents to being
-tracked. Notably, publishers' traffic does not decline when implementing a
-pay-or-tracking wall and most users consent to being tracked; only a few users
-pay. In short, pay-or-tracking walls seem to provide the means for expanding
-the practice of tracking. Publishers profit from pay-or-tracking walls and may
-observe a revenue increase of 16.4% due to tracking more users than under a
-cookie consent banner.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.03600v1">A Privacy-Preserving Framework with Multi-Modal Data for Cross-Domain
-  Recommendation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2024-03-06T10:40:08Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Li Wang, Lei Sang, Quangui Zhang, Qiang Wu, Min Xu</p>
-    <p><b>Summary:</b> Cross-domain recommendation (CDR) aims to enhance recommendation accuracy in
-a target domain with sparse data by leveraging rich information in a source
-domain, thereby addressing the data-sparsity problem. Some existing CDR methods
-highlight the advantages of extracting domain-common and domain-specific
-features to learn comprehensive user and item representations. However, these
-methods can't effectively disentangle these components as they often rely on
-simple user-item historical interaction information (such as ratings, clicks,
-and browsing), neglecting the rich multi-modal features. Additionally, they
-don't protect user-sensitive data from potential leakage during knowledge
-transfer between domains. To address these challenges, we propose a
-Privacy-Preserving Framework with Multi-Modal Data for Cross-Domain
-Recommendation, called P2M2-CDR. Specifically, we first design a multi-modal
-disentangled encoder that utilizes multi-modal information to disentangle more
-informative domain-common and domain-specific embeddings. Furthermore, we
-introduce a privacy-preserving decoder to mitigate user privacy leakage during
-knowledge transfer. Local differential privacy (LDP) is utilized to obfuscate
-the disentangled embeddings before inter-domain exchange, thereby enhancing
-privacy protection. To ensure both consistency and differentiation among these
-obfuscated disentangled embeddings, we incorporate contrastive learning-based
-domain-inter and domain-intra losses. Extensive Experiments conducted on four
-real-world datasets demonstrate that P2M2-CDR outperforms other
-state-of-the-art single-domain and cross-domain baselines.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.03592v1">Wildest Dreams: Reproducible Research in Privacy-preserving Neural
-  Network Training</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2024-03-06T10:25:36Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Tanveer Khan, Mindaugas Budzys, Khoa Nguyen, Antonis Michalas</p>
-    <p><b>Summary:</b> Machine Learning (ML), addresses a multitude of complex issues in multiple
-disciplines, including social sciences, finance, and medical research. ML
-models require substantial computing power and are only as powerful as the data
-utilized. Due to high computational cost of ML methods, data scientists
-frequently use Machine Learning-as-a-Service (MLaaS) to outsource computation
-to external servers. However, when working with private information, like
-financial data or health records, outsourcing the computation might result in
-privacy issues. Recent advances in Privacy-Preserving Techniques (PPTs) have
-enabled ML training and inference over protected data through the use of
-Privacy-Preserving Machine Learning (PPML). However, these techniques are still
-at a preliminary stage and their application in real-world situations is
-demanding. In order to comprehend discrepancy between theoretical research
-suggestions and actual applications, this work examines the past and present of
-PPML, focusing on Homomorphic Encryption (HE) and Secure Multi-party
-Computation (SMPC) applied to ML. This work primarily focuses on the ML model's
-training phase, where maintaining user data privacy is of utmost importance. We
-provide a solid theoretical background that eases the understanding of current
-approaches and their limitations. In addition, we present a SoK of the most
-recent PPML frameworks for model training and provide a comprehensive
-comparison in terms of the unique properties and performances on standard
-benchmarks. Also, we reproduce the results for some of the papers and examine
-at what level existing works in the field provide support for open science. We
-believe our work serves as a valuable contribution by raising awareness about
-the current gap between theoretical advancements and real-world applications in
-PPML, specifically regarding open-source availability, reproducibility, and
-usability.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.03337v1">Fine-Grained Privacy Guarantees for Coverage Problems</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-03-05T21:40:10Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Laxman Dhulipala, George Z. Li</p>
-    <p><b>Summary:</b> We introduce a new notion of neighboring databases for coverage problems such
-as Max Cover and Set Cover under differential privacy. In contrast to the
-standard privacy notion for these problems, which is analogous to node-privacy
-in graphs, our new definition gives a more fine-grained privacy guarantee,
-which is analogous to edge-privacy. We illustrate several scenarios of Set
-Cover and Max Cover where our privacy notion is desired one for the
-application.
-  Our main result is an $\epsilon$-edge differentially private algorithm for
-Max Cover which obtains an $(1-1/e-\eta,\tilde{O}(k/\epsilon))$-approximation
-with high probability. Furthermore, we show that this result is nearly tight:
-we give a lower bound show that an additive error of $\Omega(k/\epsilon)$ is
-necessary under edge-differential privacy. Via group privacy properties, this
-implies a new algorithm for $\epsilon$-node differentially private Max Cover
-which obtains an $(1-1/e-\eta,\tilde{O}(fk/\epsilon))$-approximation, where $f$
-is the maximum degree of an element in the set system. When $f\ll k$, this
-improves over the best known algorithm for Max Cover under pure (node)
-differential privacy, which obtains an
-$(1-1/e,\tilde{O}(k^2/\epsilon))$-approximation.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.03126v1">A Federated Deep Learning Approach for Privacy-Preserving Real-Time
-  Transient Stability Predictions in Power Systems</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
-  <p><b>Published on:</b> 2024-03-05T17:12:42Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Maeshal Hijazi, Payman Dehghanian</p>
-    <p><b>Summary:</b> Maintaining the privacy of power system data is essential for protecting
-sensitive information and ensuring the operation security of critical
-infrastructure. Therefore, the adoption of centralized deep learning (DL)
-transient stability assessment (TSA) frameworks can introduce risks to electric
-utilities. This is because these frameworks make utility data susceptible to
-cyber threats and communication issues when transmitting data to a central
-server for training a single TSA model. Additionally, the centralized approach
-demands significant computational resources, which may not always be readily
-available. In light of these challenges, this paper introduces a federated
-DL-based TSA framework designed to identify the operating states of the power
-system. Instead of local utilities transmitting their data to a central server
-for centralized model training, they independently train their own TSA models
-using their respective datasets. Subsequently, the parameters of each local TSA
-model are sent to a central server for model aggregation, and the resulting
-model is shared back with the local clients. This approach not only preserves
-the integrity of local utility data, making it resilient against cyber threats
-but also reduces the computational demands for local TSA model training. The
-proposed approach is tested on four local clients each having the IEEE 39-bus
-test system.</p>
   </details>
 </div>
 
