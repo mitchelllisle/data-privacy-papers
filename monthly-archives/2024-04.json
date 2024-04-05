@@ -161,5 +161,182 @@
       "cs.SY",
       "eess.SY"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.03524v1",
+    "title" : "Approximate Gradient Coding for Privacy-Flexible Federated Learning with\n  Non-IID Data",
+    "summary" : "This work focuses on the challenges of non-IID data and stragglers/dropouts\nin federated learning. We introduce and explore a privacy-flexible paradigm\nthat models parts of the clients' local data as non-private, offering a more\nversatile and business-oriented perspective on privacy. Within this framework,\nwe propose a data-driven strategy for mitigating the effects of label\nheterogeneity and client straggling on federated learning. Our solution\ncombines both offline data sharing and approximate gradient coding techniques.\nThrough numerical simulations using the MNIST dataset, we demonstrate that our\napproach enables achieving a deliberate trade-off between privacy and utility,\nleading to improved model convergence and accuracy while using an adaptable\nportion of non-private data.",
+    "updated" : "2024-04-04T15:29:50Z",
+    "published" : "2024-04-04T15:29:50Z",
+    "authors" : [
+      {
+        "name" : "Okko Makkonen"
+      },
+      {
+        "name" : "Sampo Niemelä"
+      },
+      {
+        "name" : "Camilla Hollanti"
+      },
+      {
+        "name" : "Serge Kas Hanna"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "cs.DC",
+      "cs.IT",
+      "math.IT",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.03514v1",
+    "title" : "Learn When (not) to Trust Language Models: A Privacy-Centric Adaptive\n  Model-Aware Approach",
+    "summary" : "Retrieval-augmented large language models (LLMs) have been remarkably\ncompetent in various NLP tasks. Despite their great success, the knowledge\nprovided by the retrieval process is not always useful for improving the model\nprediction, since in some samples LLMs may already be quite knowledgeable and\nthus be able to answer the question correctly without retrieval. Aiming to save\nthe cost of retrieval, previous work has proposed to determine when to do/skip\nthe retrieval in a data-aware manner by analyzing the LLMs' pretraining data.\nHowever, these data-aware methods pose privacy risks and memory limitations,\nespecially when requiring access to sensitive or extensive pretraining data.\nMoreover, these methods offer limited adaptability under fine-tuning or\ncontinual learning settings. We hypothesize that token embeddings are able to\ncapture the model's intrinsic knowledge, which offers a safer and more\nstraightforward way to judge the need for retrieval without the privacy risks\nassociated with accessing pre-training data. Moreover, it alleviates the need\nto retain all the data utilized during model pre-training, necessitating only\nthe upkeep of the token embeddings. Extensive experiments and in-depth analyses\ndemonstrate the superiority of our model-aware approach.",
+    "updated" : "2024-04-04T15:21:22Z",
+    "published" : "2024-04-04T15:21:22Z",
+    "authors" : [
+      {
+        "name" : "Chengkai Huang"
+      },
+      {
+        "name" : "Rui Wang"
+      },
+      {
+        "name" : "Kaige Xie"
+      },
+      {
+        "name" : "Tong Yu"
+      },
+      {
+        "name" : "Lina Yao"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.03509v1",
+    "title" : "Privacy-Enhancing Technologies for Artificial Intelligence-Enabled\n  Systems",
+    "summary" : "Artificial intelligence (AI) models introduce privacy vulnerabilities to\nsystems. These vulnerabilities may impact model owners or system users; they\nexist during model development, deployment, and inference phases, and threats\ncan be internal or external to the system. In this paper, we investigate\npotential threats and propose the use of several privacy-enhancing technologies\n(PETs) to defend AI-enabled systems. We then provide a framework for PETs\nevaluation for a AI-enabled systems and discuss the impact PETs may have on\nsystem-level variables.",
+    "updated" : "2024-04-04T15:14:40Z",
+    "published" : "2024-04-04T15:14:40Z",
+    "authors" : [
+      {
+        "name" : "Liv d'Aliberti"
+      },
+      {
+        "name" : "Evan Gronberg"
+      },
+      {
+        "name" : "Joseph Kovba"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.03442v1",
+    "title" : "Privacy Engineering From Principles to Practice: A Roadmap",
+    "summary" : "Privacy engineering is gaining momentum in industry and academia alike. So\nfar, manifold low-level primitives and higher-level methods and strategies have\nsuccessfully been established. Still, fostering adoption in real-world\ninformation systems calls for additional aspects to be consciously considered\nin research and practice.",
+    "updated" : "2024-04-04T13:39:49Z",
+    "published" : "2024-04-04T13:39:49Z",
+    "authors" : [
+      {
+        "name" : "Frank Pallas"
+      },
+      {
+        "name" : "Katharina Koerner"
+      },
+      {
+        "name" : "Isabel Barberá"
+      },
+      {
+        "name" : "Jaap-Henk Hoepman"
+      },
+      {
+        "name" : "Meiko Jensen"
+      },
+      {
+        "name" : "Nandita Rao Narla"
+      },
+      {
+        "name" : "Nikita Samarin"
+      },
+      {
+        "name" : "Max-R. Ulbricht"
+      },
+      {
+        "name" : "Isabel Wagner"
+      },
+      {
+        "name" : "Kim Wuyts"
+      },
+      {
+        "name" : "Christian Zimmermann"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CY",
+      "cs.SE",
+      "K.5.0; H.1.0; D.2.1; D.2.2"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.03324v1",
+    "title" : "A Comparative Analysis of Word-Level Metric Differential Privacy:\n  Benchmarking The Privacy-Utility Trade-off",
+    "summary" : "The application of Differential Privacy to Natural Language Processing\ntechniques has emerged in relevance in recent years, with an increasing number\nof studies published in established NLP outlets. In particular, the adaptation\nof Differential Privacy for use in NLP tasks has first focused on the\n$\\textit{word-level}$, where calibrated noise is added to word embedding\nvectors to achieve \"noisy\" representations. To this end, several\nimplementations have appeared in the literature, each presenting an alternative\nmethod of achieving word-level Differential Privacy. Although each of these\nincludes its own evaluation, no comparative analysis has been performed to\ninvestigate the performance of such methods relative to each other. In this\nwork, we conduct such an analysis, comparing seven different algorithms on two\nNLP tasks with varying hyperparameters, including the $\\textit{epsilon\n($\\varepsilon$)}$ parameter, or privacy budget. In addition, we provide an\nin-depth analysis of the results with a focus on the privacy-utility trade-off,\nas well as open-source our implementation code for further reproduction. As a\nresult of our analysis, we give insight into the benefits and challenges of\nword-level Differential Privacy, and accordingly, we suggest concrete steps\nforward for the research field.",
+    "updated" : "2024-04-04T09:48:14Z",
+    "published" : "2024-04-04T09:48:14Z",
+    "authors" : [
+      {
+        "name" : "Stephen Meisenbacher"
+      },
+      {
+        "name" : "Nihildev Nandakumar"
+      },
+      {
+        "name" : "Alexandra Klymenko"
+      },
+      {
+        "name" : "Florian Matthes"
+      }
+    ],
+    "categories" : [
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.03165v1",
+    "title" : "Towards Collaborative Family-Centered Design for Online Safety, Privacy\n  and Security",
+    "summary" : "Traditional online safety technologies often overly restrict teens and invade\ntheir privacy, while parents often lack knowledge regarding their digital\nprivacy. As such, prior researchers have called for more collaborative\napproaches on adolescent online safety and networked privacy. In this paper, we\npropose family-centered approaches to foster parent-teen collaboration in\nensuring their mobile privacy and online safety while respecting individual\nprivacy, to enhance open discussion and teens' self-regulation. However,\nchallenges such as power imbalances and conflicts with family values arise when\nimplementing such approaches, making parent-teen collaboration difficult.\nTherefore, attending the family-centered design workshop will provide an\ninvaluable opportunity for us to discuss these challenges and identify best\nresearch practices for the future of collaborative online safety and privacy\nwithin families.",
+    "updated" : "2024-04-04T02:34:46Z",
+    "published" : "2024-04-04T02:34:46Z",
+    "authors" : [
+      {
+        "name" : "Mamtaj Akter"
+      },
+      {
+        "name" : "Zainab Agha"
+      },
+      {
+        "name" : "Ashwaq Alsoubai"
+      },
+      {
+        "name" : "Naima Ali"
+      },
+      {
+        "name" : "Pamela Wisniewski"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
   }
 ]
