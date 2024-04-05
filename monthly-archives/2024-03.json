@@ -3224,5 +3224,26 @@
       "cs.DS",
       "eess.SP"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.07817v2",
+    "title" : "UniHand: Privacy-preserving Universal Handover for Small-Cell Networks\n  in 5G-enabled Mobile Communication with KCI Resilience",
+    "summary" : "Introducing Small Cell Networks (SCN) has significantly improved wireless\nlink quality, spectrum efficiency and network capacity, which has been viewed\nas one of the key technologies in the fifth-generation (5G) mobile network.\nHowever, this technology increases the frequency of handover (HO) procedures\ncaused by the dense deployment of cells in the network with reduced cell\ncoverage, bringing new security and privacy issues. The current 5G-AKA and HO\nprotocols are vulnerable to security weaknesses, such as the lack of forward\nsecrecy and identity confusion attacks. The high HO frequency of HOs might\nmagnify these security and privacy concerns in the 5G mobile network. This work\naddresses these issues by proposing a secure privacy-preserving universal HO\nscheme ($\\UniHand$) for SCNs in 5G mobile communication. $\\UniHand$ can achieve\nmutual authentication, strong anonymity, perfect forward secrecy,\nkey-escrow-free and key compromise impersonation (KCI) resilience. To the best\nof our knowledge, this is the \\textit{first} scheme to achieve secure,\nprivacy-preserving universal HO with \\textit{KCI} resilience for roaming users\nin 5G environment. We demonstrate that our proposed scheme is resilient against\nall the essential security threats by performing a comprehensive formal\nsecurity analysis and conducting relevant experiments to show the\ncost-effectiveness of the proposed scheme.",
+    "updated" : "2024-04-04T16:46:23Z",
+    "published" : "2024-03-12T16:56:31Z",
+    "authors" : [
+      {
+        "name" : "Rabiah Alnashwan"
+      },
+      {
+        "name" : "Prosanta Gope"
+      },
+      {
+        "name" : "Benjamin Dowling"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
