@@ -338,5 +338,81 @@
     "categories" : [
       "cs.HC"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.04098v1",
+    "title" : "You Can Use But Cannot Recognize: Preserving Visual Privacy in Deep\n  Neural Networks",
+    "summary" : "Image data have been extensively used in Deep Neural Network (DNN) tasks in\nvarious scenarios, e.g., autonomous driving and medical image analysis, which\nincurs significant privacy concerns. Existing privacy protection techniques are\nunable to efficiently protect such data. For example, Differential Privacy (DP)\nthat is an emerging technique protects data with strong privacy guarantee\ncannot effectively protect visual features of exposed image dataset. In this\npaper, we propose a novel privacy-preserving framework VisualMixer that\nprotects the training data of visual DNN tasks by pixel shuffling, while not\ninjecting any noises. VisualMixer utilizes a new privacy metric called Visual\nFeature Entropy (VFE) to effectively quantify the visual features of an image\nfrom both biological and machine vision aspects. In VisualMixer, we devise a\ntask-agnostic image obfuscation method to protect the visual privacy of data\nfor DNN training and inference. For each image, it determines regions for pixel\nshuffling in the image and the sizes of these regions according to the desired\nVFE. It shuffles pixels both in the spatial domain and in the chromatic channel\nspace in the regions without injecting noises so that it can prevent visual\nfeatures from being discerned and recognized, while incurring negligible\naccuracy loss. Extensive experiments on real-world datasets demonstrate that\nVisualMixer can effectively preserve the visual privacy with negligible\naccuracy loss, i.e., at average 2.35 percentage points of model accuracy loss,\nand almost no performance degradation on model training.",
+    "updated" : "2024-04-05T13:49:27Z",
+    "published" : "2024-04-05T13:49:27Z",
+    "authors" : [
+      {
+        "name" : "Qiushi Li"
+      },
+      {
+        "name" : "Yan Zhang"
+      },
+      {
+        "name" : "Ju Ren"
+      },
+      {
+        "name" : "Qi Li"
+      },
+      {
+        "name" : "Yaoxue Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.04006v1",
+    "title" : "From Theory to Comprehension: A Comparative Study of Differential\n  Privacy and $k$-Anonymity",
+    "summary" : "The notion of $\\varepsilon$-differential privacy is a widely used concept of\nproviding quantifiable privacy to individuals. However, it is unclear how to\nexplain the level of privacy protection provided by a differential privacy\nmechanism with a set $\\varepsilon$. In this study, we focus on users'\ncomprehension of the privacy protection provided by a differential privacy\nmechanism. To do so, we study three variants of explaining the privacy\nprotection provided by differential privacy: (1) the original mathematical\ndefinition; (2) $\\varepsilon$ translated into a specific privacy risk; and (3)\nan explanation using the randomized response technique. We compare users'\ncomprehension of privacy protection employing these explanatory models with\ntheir comprehension of privacy protection of $k$-anonymity as baseline\ncomprehensibility. Our findings suggest that participants' comprehension of\ndifferential privacy protection is enhanced by the privacy risk model and the\nrandomized response-based model. Moreover, our results confirm our intuition\nthat privacy protection provided by $k$-anonymity is more comprehensible.",
+    "updated" : "2024-04-05T10:30:26Z",
+    "published" : "2024-04-05T10:30:26Z",
+    "authors" : [
+      {
+        "name" : "Saskia Nuñez von Voigt"
+      },
+      {
+        "name" : "Luise Mehner"
+      },
+      {
+        "name" : "Florian Tschorsch"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.03873v1",
+    "title" : "PrivShape: Extracting Shapes in Time Series under User-Level Local\n  Differential Privacy",
+    "summary" : "Time series have numerous applications in finance, healthcare, IoT, and smart\ncity. In many of these applications, time series typically contain personal\ndata, so privacy infringement may occur if they are released directly to the\npublic. Recently, local differential privacy (LDP) has emerged as the\nstate-of-the-art approach to protecting data privacy. However, existing works\non LDP-based collections cannot preserve the shape of time series. A recent\nwork, PatternLDP, attempts to address this problem, but it can only protect a\nfinite group of elements in a time series due to {\\omega}-event level privacy\nguarantee. In this paper, we propose PrivShape, a trie-based mechanism under\nuser-level LDP to protect all elements. PrivShape first transforms a time\nseries to reduce its length, and then adopts trie-expansion and two-level\nrefinement to improve utility. By extensive experiments on real-world datasets,\nwe demonstrate that PrivShape outperforms PatternLDP when adapted for offline\nuse, and can effectively extract frequent shapes.",
+    "updated" : "2024-04-05T03:22:47Z",
+    "published" : "2024-04-05T03:22:47Z",
+    "authors" : [
+      {
+        "name" : "Yulian Mao"
+      },
+      {
+        "name" : "Qingqing Ye"
+      },
+      {
+        "name" : "Haibo Hu"
+      },
+      {
+        "name" : "Qi Wang"
+      },
+      {
+        "name" : "Kai Huang"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
