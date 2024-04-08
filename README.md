@@ -2,6 +2,92 @@
 <h2>2024-04</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.04098v1">You Can Use But Cannot Recognize: Preserving Visual Privacy in Deep
+  Neural Networks</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-04-05T13:49:27Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Qiushi Li, Yan Zhang, Ju Ren, Qi Li, Yaoxue Zhang</p>
+    <p><b>Summary:</b> Image data have been extensively used in Deep Neural Network (DNN) tasks in
+various scenarios, e.g., autonomous driving and medical image analysis, which
+incurs significant privacy concerns. Existing privacy protection techniques are
+unable to efficiently protect such data. For example, Differential Privacy (DP)
+that is an emerging technique protects data with strong privacy guarantee
+cannot effectively protect visual features of exposed image dataset. In this
+paper, we propose a novel privacy-preserving framework VisualMixer that
+protects the training data of visual DNN tasks by pixel shuffling, while not
+injecting any noises. VisualMixer utilizes a new privacy metric called Visual
+Feature Entropy (VFE) to effectively quantify the visual features of an image
+from both biological and machine vision aspects. In VisualMixer, we devise a
+task-agnostic image obfuscation method to protect the visual privacy of data
+for DNN training and inference. For each image, it determines regions for pixel
+shuffling in the image and the sizes of these regions according to the desired
+VFE. It shuffles pixels both in the spatial domain and in the chromatic channel
+space in the regions without injecting noises so that it can prevent visual
+features from being discerned and recognized, while incurring negligible
+accuracy loss. Extensive experiments on real-world datasets demonstrate that
+VisualMixer can effectively preserve the visual privacy with negligible
+accuracy loss, i.e., at average 2.35 percentage points of model accuracy loss,
+and almost no performance degradation on model training.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.04006v1">From Theory to Comprehension: A Comparative Study of Differential
+  Privacy and $k$-Anonymity</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2024-04-05T10:30:26Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Saskia Nuñez von Voigt, Luise Mehner, Florian Tschorsch</p>
+    <p><b>Summary:</b> The notion of $\varepsilon$-differential privacy is a widely used concept of
+providing quantifiable privacy to individuals. However, it is unclear how to
+explain the level of privacy protection provided by a differential privacy
+mechanism with a set $\varepsilon$. In this study, we focus on users'
+comprehension of the privacy protection provided by a differential privacy
+mechanism. To do so, we study three variants of explaining the privacy
+protection provided by differential privacy: (1) the original mathematical
+definition; (2) $\varepsilon$ translated into a specific privacy risk; and (3)
+an explanation using the randomized response technique. We compare users'
+comprehension of privacy protection employing these explanatory models with
+their comprehension of privacy protection of $k$-anonymity as baseline
+comprehensibility. Our findings suggest that participants' comprehension of
+differential privacy protection is enhanced by the privacy risk model and the
+randomized response-based model. Moreover, our results confirm our intuition
+that privacy protection provided by $k$-anonymity is more comprehensible.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.03873v1">PrivShape: Extracting Shapes in Time Series under User-Level Local
+  Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-04-05T03:22:47Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yulian Mao, Qingqing Ye, Haibo Hu, Qi Wang, Kai Huang</p>
+    <p><b>Summary:</b> Time series have numerous applications in finance, healthcare, IoT, and smart
+city. In many of these applications, time series typically contain personal
+data, so privacy infringement may occur if they are released directly to the
+public. Recently, local differential privacy (LDP) has emerged as the
+state-of-the-art approach to protecting data privacy. However, existing works
+on LDP-based collections cannot preserve the shape of time series. A recent
+work, PatternLDP, attempts to address this problem, but it can only protect a
+finite group of elements in a time series due to {\omega}-event level privacy
+guarantee. In this paper, we propose PrivShape, a trie-based mechanism under
+user-level LDP to protect all elements. PrivShape first transforms a time
+series to reduce its length, and then adopts trie-expansion and two-level
+refinement to improve utility. By extensive experiments on real-world datasets,
+we demonstrate that PrivShape outperforms PatternLDP when adapted for offline
+use, and can effectively extract frequent shapes.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2404.03524v1">Approximate Gradient Coding for Privacy-Flexible Federated Learning with
   Non-IID Data</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36">  
@@ -2724,87 +2810,6 @@ real-world GNN models. Subsequently, we provide detailed discussions on these
 four aspects, dissecting how these solutions contribute to enhancing the
 reliability and robustness of GNN models. Last but not least, we outline
 promising directions and offer future perspectives in the field.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.04451v1">Membership Inference Attacks and Privacy in Topic Modeling</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-03-07T12:43:42Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Nico Manzonelli, Wanrong Zhang, Salil Vadhan</p>
-    <p><b>Summary:</b> Recent research shows that large language models are susceptible to privacy
-attacks that infer aspects of the training data. However, it is unclear if
-simpler generative models, like topic models, share similar vulnerabilities. In
-this work, we propose an attack against topic models that can confidently
-identify members of the training data in Latent Dirichlet Allocation. Our
-results suggest that the privacy risks associated with generative modeling are
-not restricted to large neural models. Additionally, to mitigate these
-vulnerabilities, we explore differentially private (DP) topic modeling. We
-propose a framework for private topic modeling that incorporates DP vocabulary
-selection as a pre-processing step, and show that it improves privacy while
-having limited effects on practical utility.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.04124v1">Privacy-preserving Fine-tuning of Large Language Models through Flatness</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> 
-  <p><b>Published on:</b> 2024-03-07T00:44:11Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Tiejin Chen, Longchao Da, Huixue Zhou, Pingzhi Li, Kaixiong Zhou, Tianlong Chen, Hua Wei</p>
-    <p><b>Summary:</b> The privacy concerns associated with the use of Large Language Models (LLMs)
-have grown recently with the development of LLMs such as ChatGPT. Differential
-Privacy (DP) techniques are explored in existing work to mitigate their privacy
-risks at the cost of generalization degradation. Our paper reveals that the
-flatness of DP-trained models' loss landscape plays an essential role in the
-trade-off between their privacy and generalization. We further propose a
-holistic framework to enforce appropriate weight flatness, which substantially
-improves model generalization with competitive privacy preservation. It
-innovates from three coarse-to-grained levels, including perturbation-aware
-min-max optimization on model weights within a layer, flatness-guided sparse
-prefix-tuning on weights across layers, and weight knowledge distillation
-between DP \& non-DP weights copies. Comprehensive experiments of both
-black-box and white-box scenarios are conducted to demonstrate the
-effectiveness of our proposal in enhancing generalization and maintaining DP
-characteristics. For instance, on text classification dataset QNLI, DP-Flat
-achieves similar performance with non-private full fine-tuning but with DP
-guarantee under privacy budget $\epsilon=3$, and even better performance given
-higher privacy budgets. Codes are provided in the supplement.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.04024v1">Enhancing chest X-ray datasets with privacy-preserving large language
-  models and multi-type annotations: a data-driven approach for improved
-  classification</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2024-03-06T20:10:41Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ricardo Bigolin Lanfredi, Pritam Mukherjee, Ronald Summers</p>
-    <p><b>Summary:</b> In chest X-ray (CXR) image analysis, rule-based systems are usually employed
-to extract labels from reports, but concerns exist about label quality. These
-datasets typically offer only presence labels, sometimes with binary
-uncertainty indicators, which limits their usefulness. In this work, we present
-MAPLEZ (Medical report Annotations with Privacy-preserving Large language model
-using Expeditious Zero shot answers), a novel approach leveraging a locally
-executable Large Language Model (LLM) to extract and enhance findings labels on
-CXR reports. MAPLEZ extracts not only binary labels indicating the presence or
-absence of a finding but also the location, severity, and radiologists'
-uncertainty about the finding. Over eight abnormalities from five test sets, we
-show that our method can extract these annotations with an increase of 5
-percentage points (pp) in F1 score for categorical presence annotations and
-more than 30 pp increase in F1 score for the location annotations over
-competing labelers. Additionally, using these improved annotations in
-classification supervision, we demonstrate substantial advancements in model
-quality, with an increase of 1.7 pp in AUROC over models trained with
-annotations from the state-of-the-art approach. We share code and annotations.</p>
   </details>
 </div>
 
