@@ -414,5 +414,223 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.05598v1",
+    "title" : "Hook-in Privacy Techniques for gRPC-based Microservice Communication",
+    "summary" : "gRPC is at the heart of modern distributed system architectures. Based on\nHTTP/2 and Protocol Buffers, it provides highly performant, standardized, and\npolyglot communication across loosely coupled microservices and is increasingly\npreferred over REST- or GraphQL-based service APIs in practice. Despite its\nwidespread adoption, gRPC lacks any advanced privacy techniques beyond\ntransport encryption and basic token-based authentication. Such advanced\ntechniques are, however, increasingly important for fulfilling regulatory\nrequirements. For instance, anonymizing or otherwise minimizing (personal) data\nbefore responding to requests, or pre-processing data based on the purpose of\nthe access may be crucial in certain usecases. In this paper, we therefore\npropose a novel approach for integrating such advanced privacy techniques into\nthe gRPC framework in a practically viable way. Specifically, we present a\ngeneral approach along with a working prototype that implements privacy\ntechniques, such as data minimization and purpose limitation, in a\nconfigurable, extensible, and gRPC-native way utilizing a gRPC interceptor. We\nalso showcase how to integrate this contribution into a realistic example of a\nfood delivery use case. Alongside these implementations, a preliminary\nperformance evaluation shows practical applicability with reasonable overheads.\nAltogether, we present a viable solution for integrating advanced privacy\ntechniques into real-world gRPC-based microservice architectures, thereby\nfacilitating regulatory compliance ``by design''.",
+    "updated" : "2024-04-08T15:18:42Z",
+    "published" : "2024-04-08T15:18:42Z",
+    "authors" : [
+      {
+        "name" : "Louis Loechel"
+      },
+      {
+        "name" : "Siar-Remzi Akbayin"
+      },
+      {
+        "name" : "Elias Grünewald"
+      },
+      {
+        "name" : "Jannis Kiesel"
+      },
+      {
+        "name" : "Inga Strelnikova"
+      },
+      {
+        "name" : "Thomas Janke"
+      },
+      {
+        "name" : "Frank Pallas"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CY",
+      "cs.DC",
+      "cs.SE"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.05257v1",
+    "title" : "Sensing-Resistance-Oriented Beamforming for Privacy Protection from ISAC\n  Devices",
+    "summary" : "With the evolution of integrated sensing and communication (ISAC) technology,\na growing number of devices go beyond conventional communication functions with\nsensing abilities. Therefore, future networks are divinable to encounter new\nprivacy concerns on sensing, such as the exposure of position information to\nunintended receivers. In contrast to traditional privacy preserving schemes\naiming to prevent eavesdropping, this contribution conceives a novel\nbeamforming design toward sensing resistance (SR). Specifically, we expect to\nguarantee the communication quality while masking the real direction of the SR\ntransmitter during the communication. To evaluate the SR performance, a metric\ntermed angular-domain peak-to-average ratio (ADPAR) is first defined and\nanalyzed. Then, we resort to the null-space technique to conceal the real\ndirection, hence to convert the optimization problem to a more tractable form.\nMoreover, semidefinite relaxation along with index optimization is further\nutilized to obtain the optimal beamformer. Finally, simulation results\ndemonstrate the feasibility of the proposed SR-oriented beamforming design\ntoward privacy protection from ISAC receivers.",
+    "updated" : "2024-04-08T07:45:10Z",
+    "published" : "2024-04-08T07:45:10Z",
+    "authors" : [
+      {
+        "name" : "Teng Ma"
+      },
+      {
+        "name" : "Yue Xiao"
+      },
+      {
+        "name" : "Xia Lei"
+      },
+      {
+        "name" : "Ming Xiao"
+      }
+    ],
+    "categories" : [
+      "eess.SP"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.05130v1",
+    "title" : "Enabling Privacy-Preserving Cyber Threat Detection with Federated\n  Learning",
+    "summary" : "Despite achieving good performance and wide adoption, machine learning based\nsecurity detection models (e.g., malware classifiers) are subject to concept\ndrift and evasive evolution of attackers, which renders up-to-date threat data\nas a necessity. However, due to enforcement of various privacy protection\nregulations (e.g., GDPR), it is becoming increasingly challenging or even\nprohibitive for security vendors to collect individual-relevant and\nprivacy-sensitive threat datasets, e.g., SMS spam/non-spam messages from mobile\ndevices. To address such obstacles, this study systematically profiles the\n(in)feasibility of federated learning for privacy-preserving cyber threat\ndetection in terms of effectiveness, byzantine resilience, and efficiency. This\nis made possible by the build-up of multiple threat datasets and threat\ndetection models, and more importantly, the design of realistic and\nsecurity-specific experiments.\n  We evaluate FL on two representative threat detection tasks, namely SMS spam\ndetection and Android malware detection. It shows that FL-trained detection\nmodels can achieve a performance that is comparable to centrally trained\ncounterparts. Also, most non-IID data distributions have either minor or\nnegligible impact on the model performance, while a label-based non-IID\ndistribution of a high extent can incur non-negligible fluctuation and delay in\nFL training. Then, under a realistic threat model, FL turns out to be\nadversary-resistant to attacks of both data poisoning and model poisoning.\nParticularly, the attacking impact of a practical data poisoning attack is no\nmore than 0.14\\% loss in model accuracy. Regarding FL efficiency, a\nbootstrapping strategy turns out to be effective to mitigate the training delay\nas observed in label-based non-IID scenarios.",
+    "updated" : "2024-04-08T01:16:56Z",
+    "published" : "2024-04-08T01:16:56Z",
+    "authors" : [
+      {
+        "name" : "Yu Bi"
+      },
+      {
+        "name" : "Yekai Li"
+      },
+      {
+        "name" : "Xuan Feng"
+      },
+      {
+        "name" : "Xianghang Mi"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.05049v1",
+    "title" : "PlateSegFL: A Privacy-Preserving License Plate Detection Using Federated\n  Segmentation Learning",
+    "summary" : "Automatic License Plate Recognition (ALPR) is an integral component of an\nintelligent transport system with extensive applications in secure\ntransportation, vehicle-to-vehicle communication, stolen vehicles detection,\ntraffic violations, and traffic flow management. The existing license plate\ndetection system focuses on one-shot learners or pre-trained models that\noperate with a geometric bounding box, limiting the model's performance.\nFurthermore, continuous video data streams uploaded to the central server\nresult in network and complexity issues. To combat this, PlateSegFL was\nintroduced, which implements U-Net-based segmentation along with Federated\nLearning (FL). U-Net is well-suited for multi-class image segmentation tasks\nbecause it can analyze a large number of classes and generate a pixel-level\nsegmentation map for each class. Federated Learning is used to reduce the\nquantity of data required while safeguarding the user's privacy. Different\ncomputing platforms, such as mobile phones, are able to collaborate on the\ndevelopment of a standard prediction model where it makes efficient use of\none's time; incorporates more diverse data; delivers projections in real-time;\nand requires no physical effort from the user; resulting around 95% F1 score.",
+    "updated" : "2024-04-07T19:10:02Z",
+    "published" : "2024-04-07T19:10:02Z",
+    "authors" : [
+      {
+        "name" : "Md. Shahriar Rahman Anuvab"
+      },
+      {
+        "name" : "Mishkat Sultana"
+      },
+      {
+        "name" : "Md. Atif Hossain"
+      },
+      {
+        "name" : "Shashwata Das"
+      },
+      {
+        "name" : "Suvarthi Chowdhury"
+      },
+      {
+        "name" : "Rafeed Rahman"
+      },
+      {
+        "name" : "Dibyo Fabian Dofadar"
+      },
+      {
+        "name" : "Shahriar Rahman Rana"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.05047v1",
+    "title" : "Initial Exploration of Zero-Shot Privacy Utility Tradeoffs in Tabular\n  Data Using GPT-4",
+    "summary" : "We investigate the application of large language models (LLMs), specifically\nGPT-4, to scenarios involving the tradeoff between privacy and utility in\ntabular data. Our approach entails prompting GPT-4 by transforming tabular data\npoints into textual format, followed by the inclusion of precise sanitization\ninstructions in a zero-shot manner. The primary objective is to sanitize the\ntabular data in such a way that it hinders existing machine learning models\nfrom accurately inferring private features while allowing models to accurately\ninfer utility-related attributes. We explore various sanitization instructions.\nNotably, we discover that this relatively simple approach yields performance\ncomparable to more complex adversarial optimization methods used for managing\nprivacy-utility tradeoffs. Furthermore, while the prompts successfully obscure\nprivate features from the detection capabilities of existing machine learning\nmodels, we observe that this obscuration alone does not necessarily meet a\nrange of fairness metrics. Nevertheless, our research indicates the potential\neffectiveness of LLMs in adhering to these fairness metrics, with some of our\nexperimental results aligning with those achieved by well-established\nadversarial optimization techniques.",
+    "updated" : "2024-04-07T19:02:50Z",
+    "published" : "2024-04-07T19:02:50Z",
+    "authors" : [
+      {
+        "name" : "Bishwas Mandal"
+      },
+      {
+        "name" : "George Amariucai"
+      },
+      {
+        "name" : "Shuangqing Wei"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.05043v1",
+    "title" : "Optimizing Privacy and Utility Tradeoffs for Group Interests Through\n  Harmonization",
+    "summary" : "We propose a novel problem formulation to address the privacy-utility\ntradeoff, specifically when dealing with two distinct user groups characterized\nby unique sets of private and utility attributes. Unlike previous studies that\nprimarily focus on scenarios where all users share identical private and\nutility attributes and often rely on auxiliary datasets or manual annotations,\nwe introduce a collaborative data-sharing mechanism between two user groups\nthrough a trusted third party. This third party uses adversarial privacy\ntechniques with our proposed data-sharing mechanism to internally sanitize data\nfor both groups and eliminates the need for manual annotation or auxiliary\ndatasets. Our methodology ensures that private attributes cannot be accurately\ninferred while enabling highly accurate predictions of utility features.\nImportantly, even if analysts or adversaries possess auxiliary datasets\ncontaining raw data, they are unable to accurately deduce private features.\nAdditionally, our data-sharing mechanism is compatible with various existing\nadversarially trained privacy techniques. We empirically demonstrate the\neffectiveness of our approach using synthetic and real-world datasets,\nshowcasing its ability to balance the conflicting goals of privacy and utility.",
+    "updated" : "2024-04-07T18:55:33Z",
+    "published" : "2024-04-07T18:55:33Z",
+    "authors" : [
+      {
+        "name" : "Bishwas Mandal"
+      },
+      {
+        "name" : "George Amariucai"
+      },
+      {
+        "name" : "Shuangqing Wei"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.04861v1",
+    "title" : "Privacy-Preserving Traceable Functional Encryption for Inner Product",
+    "summary" : "Functional encryption introduces a new paradigm of public key encryption that\ndecryption only reveals the function value of encrypted data. To curb key\nleakage issues and trace users in FE-IP, a new primitive called traceable\nfunctional encryption for inner product (TFE-IP) has been proposed. However,\nthe privacy protection of user's identities has not been considered in the\nexisting TFE-IP schemes. In order to balance privacy and accountability, we\npropose the concept of privacy-preserving traceable functional encryption for\ninner product (PPTFE-IP) and give a concrete construction. Our scheme provides\nthe following features: (1) To prevent key sharing, a user's key is bound with\nboth his/her identity and a vector; (2) The key generation center (KGC) and a\nuser execute a two-party secure computing protocol to generate a key without\nthe former knowing anything about the latter's identity; (3) Each user can\nverify the correctness of his/her key; (4) A user can calculate the inner\nproduct of the two vectors embedded in his/her key and in a ciphertext; (5)\nOnly the tracer can trace the identity embedded in a key. The security of our\nscheme is formally reduced to well-known complexity assumptions, and the\nimplementation is conducted to evaluate its efficiency. The novelty of our\nscheme is to protect users' privacy and provide traceability if required.",
+    "updated" : "2024-04-07T08:09:46Z",
+    "published" : "2024-04-07T08:09:46Z",
+    "authors" : [
+      {
+        "name" : "Muyao Qiu"
+      },
+      {
+        "name" : "Jinguang Han"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.04769v1",
+    "title" : "Safeguarding Voice Privacy: Harnessing Near-Ultrasonic Interference To\n  Protect Against Unauthorized Audio Recording",
+    "summary" : "The widespread adoption of voice-activated systems has modified routine\nhuman-machine interaction but has also introduced new vulnerabilities. This\npaper investigates the susceptibility of automatic speech recognition (ASR)\nalgorithms in these systems to interference from near-ultrasonic noise.\nBuilding upon prior research that demonstrated the ability of near-ultrasonic\nfrequencies (16 kHz - 22 kHz) to exploit the inherent properties of\nmicroelectromechanical systems (MEMS) microphones, our study explores\nalternative privacy enforcement means using this interference phenomenon. We\nexpose a critical vulnerability in the most common microphones used in modern\nvoice-activated devices, which inadvertently demodulate near-ultrasonic\nfrequencies into the audible spectrum, disrupting the ASR process. Through a\nsystematic analysis of the impact of near-ultrasonic noise on various ASR\nsystems, we demonstrate that this vulnerability is consistent across different\ndevices and under varying conditions, such as broadcast distance and specific\nphoneme structures. Our findings highlight the need to develop robust\ncountermeasures to protect voice-activated systems from malicious exploitation\nof this vulnerability. Furthermore, we explore the potential applications of\nthis phenomenon in enhancing privacy by disrupting unauthorized audio recording\nor eavesdropping. This research underscores the importance of a comprehensive\napproach to securing voice-activated systems, combining technological\ninnovation, responsible development practices, and informed policy decisions to\nensure the privacy and security of users in an increasingly connected world.",
+    "updated" : "2024-04-07T00:49:19Z",
+    "published" : "2024-04-07T00:49:19Z",
+    "authors" : [
+      {
+        "name" : "Forrest McKee"
+      },
+      {
+        "name" : "David Noever"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.04706v1",
+    "title" : "Advances in Differential Privacy and Differentially Private Machine\n  Learning",
+    "summary" : "There has been an explosion of research on differential privacy (DP) and its\nvarious applications in recent years, ranging from novel variants and\naccounting techniques in differential privacy to the thriving field of\ndifferentially private machine learning (DPML) to newer implementations in\npractice, like those by various companies and organisations such as census\nbureaus. Most recent surveys focus on the applications of differential privacy\nin particular contexts like data publishing, specific machine learning tasks,\nanalysis of unstructured data, location privacy, etc. This work thus seeks to\nfill the gap for a survey that primarily discusses recent developments in the\ntheory of differential privacy along with newer DP variants, viz. Renyi DP and\nConcentrated DP, novel mechanisms and techniques, and the theoretical\ndevelopments in differentially private machine learning in proper detail. In\naddition, this survey discusses its applications to privacy-preserving machine\nlearning in practice and a few practical implementations of DP.",
+    "updated" : "2024-04-06T18:49:24Z",
+    "published" : "2024-04-06T18:49:24Z",
+    "authors" : [
+      {
+        "name" : "Saswat Das"
+      },
+      {
+        "name" : "Subhankar Mishra"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
