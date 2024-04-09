@@ -2,6 +2,279 @@
 <h2>2024-04</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.05598v1">Hook-in Privacy Techniques for gRPC-based Microservice Communication</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
+  <p><b>Published on:</b> 2024-04-08T15:18:42Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Louis Loechel, Siar-Remzi Akbayin, Elias Grünewald, Jannis Kiesel, Inga Strelnikova, Thomas Janke, Frank Pallas</p>
+    <p><b>Summary:</b> gRPC is at the heart of modern distributed system architectures. Based on
+HTTP/2 and Protocol Buffers, it provides highly performant, standardized, and
+polyglot communication across loosely coupled microservices and is increasingly
+preferred over REST- or GraphQL-based service APIs in practice. Despite its
+widespread adoption, gRPC lacks any advanced privacy techniques beyond
+transport encryption and basic token-based authentication. Such advanced
+techniques are, however, increasingly important for fulfilling regulatory
+requirements. For instance, anonymizing or otherwise minimizing (personal) data
+before responding to requests, or pre-processing data based on the purpose of
+the access may be crucial in certain usecases. In this paper, we therefore
+propose a novel approach for integrating such advanced privacy techniques into
+the gRPC framework in a practically viable way. Specifically, we present a
+general approach along with a working prototype that implements privacy
+techniques, such as data minimization and purpose limitation, in a
+configurable, extensible, and gRPC-native way utilizing a gRPC interceptor. We
+also showcase how to integrate this contribution into a realistic example of a
+food delivery use case. Alongside these implementations, a preliminary
+performance evaluation shows practical applicability with reasonable overheads.
+Altogether, we present a viable solution for integrating advanced privacy
+techniques into real-world gRPC-based microservice architectures, thereby
+facilitating regulatory compliance ``by design''.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.05257v1">Sensing-Resistance-Oriented Beamforming for Privacy Protection from ISAC
+  Devices</a></h3>
+  
+  <p><b>Published on:</b> 2024-04-08T07:45:10Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Teng Ma, Yue Xiao, Xia Lei, Ming Xiao</p>
+    <p><b>Summary:</b> With the evolution of integrated sensing and communication (ISAC) technology,
+a growing number of devices go beyond conventional communication functions with
+sensing abilities. Therefore, future networks are divinable to encounter new
+privacy concerns on sensing, such as the exposure of position information to
+unintended receivers. In contrast to traditional privacy preserving schemes
+aiming to prevent eavesdropping, this contribution conceives a novel
+beamforming design toward sensing resistance (SR). Specifically, we expect to
+guarantee the communication quality while masking the real direction of the SR
+transmitter during the communication. To evaluate the SR performance, a metric
+termed angular-domain peak-to-average ratio (ADPAR) is first defined and
+analyzed. Then, we resort to the null-space technique to conceal the real
+direction, hence to convert the optimization problem to a more tractable form.
+Moreover, semidefinite relaxation along with index optimization is further
+utilized to obtain the optimal beamformer. Finally, simulation results
+demonstrate the feasibility of the proposed SR-oriented beamforming design
+toward privacy protection from ISAC receivers.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.05130v1">Enabling Privacy-Preserving Cyber Threat Detection with Federated
+  Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-04-08T01:16:56Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yu Bi, Yekai Li, Xuan Feng, Xianghang Mi</p>
+    <p><b>Summary:</b> Despite achieving good performance and wide adoption, machine learning based
+security detection models (e.g., malware classifiers) are subject to concept
+drift and evasive evolution of attackers, which renders up-to-date threat data
+as a necessity. However, due to enforcement of various privacy protection
+regulations (e.g., GDPR), it is becoming increasingly challenging or even
+prohibitive for security vendors to collect individual-relevant and
+privacy-sensitive threat datasets, e.g., SMS spam/non-spam messages from mobile
+devices. To address such obstacles, this study systematically profiles the
+(in)feasibility of federated learning for privacy-preserving cyber threat
+detection in terms of effectiveness, byzantine resilience, and efficiency. This
+is made possible by the build-up of multiple threat datasets and threat
+detection models, and more importantly, the design of realistic and
+security-specific experiments.
+  We evaluate FL on two representative threat detection tasks, namely SMS spam
+detection and Android malware detection. It shows that FL-trained detection
+models can achieve a performance that is comparable to centrally trained
+counterparts. Also, most non-IID data distributions have either minor or
+negligible impact on the model performance, while a label-based non-IID
+distribution of a high extent can incur non-negligible fluctuation and delay in
+FL training. Then, under a realistic threat model, FL turns out to be
+adversary-resistant to attacks of both data poisoning and model poisoning.
+Particularly, the attacking impact of a practical data poisoning attack is no
+more than 0.14\% loss in model accuracy. Regarding FL efficiency, a
+bootstrapping strategy turns out to be effective to mitigate the training delay
+as observed in label-based non-IID scenarios.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.05049v1">PlateSegFL: A Privacy-Preserving License Plate Detection Using Federated
+  Segmentation Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2024-04-07T19:10:02Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Md. Shahriar Rahman Anuvab, Mishkat Sultana, Md. Atif Hossain, Shashwata Das, Suvarthi Chowdhury, Rafeed Rahman, Dibyo Fabian Dofadar, Shahriar Rahman Rana</p>
+    <p><b>Summary:</b> Automatic License Plate Recognition (ALPR) is an integral component of an
+intelligent transport system with extensive applications in secure
+transportation, vehicle-to-vehicle communication, stolen vehicles detection,
+traffic violations, and traffic flow management. The existing license plate
+detection system focuses on one-shot learners or pre-trained models that
+operate with a geometric bounding box, limiting the model's performance.
+Furthermore, continuous video data streams uploaded to the central server
+result in network and complexity issues. To combat this, PlateSegFL was
+introduced, which implements U-Net-based segmentation along with Federated
+Learning (FL). U-Net is well-suited for multi-class image segmentation tasks
+because it can analyze a large number of classes and generate a pixel-level
+segmentation map for each class. Federated Learning is used to reduce the
+quantity of data required while safeguarding the user's privacy. Different
+computing platforms, such as mobile phones, are able to collaborate on the
+development of a standard prediction model where it makes efficient use of
+one's time; incorporates more diverse data; delivers projections in real-time;
+and requires no physical effort from the user; resulting around 95% F1 score.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.05047v1">Initial Exploration of Zero-Shot Privacy Utility Tradeoffs in Tabular
+  Data Using GPT-4</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-04-07T19:02:50Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Bishwas Mandal, George Amariucai, Shuangqing Wei</p>
+    <p><b>Summary:</b> We investigate the application of large language models (LLMs), specifically
+GPT-4, to scenarios involving the tradeoff between privacy and utility in
+tabular data. Our approach entails prompting GPT-4 by transforming tabular data
+points into textual format, followed by the inclusion of precise sanitization
+instructions in a zero-shot manner. The primary objective is to sanitize the
+tabular data in such a way that it hinders existing machine learning models
+from accurately inferring private features while allowing models to accurately
+infer utility-related attributes. We explore various sanitization instructions.
+Notably, we discover that this relatively simple approach yields performance
+comparable to more complex adversarial optimization methods used for managing
+privacy-utility tradeoffs. Furthermore, while the prompts successfully obscure
+private features from the detection capabilities of existing machine learning
+models, we observe that this obscuration alone does not necessarily meet a
+range of fairness metrics. Nevertheless, our research indicates the potential
+effectiveness of LLMs in adhering to these fairness metrics, with some of our
+experimental results aligning with those achieved by well-established
+adversarial optimization techniques.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.05043v1">Optimizing Privacy and Utility Tradeoffs for Group Interests Through
+  Harmonization</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-04-07T18:55:33Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Bishwas Mandal, George Amariucai, Shuangqing Wei</p>
+    <p><b>Summary:</b> We propose a novel problem formulation to address the privacy-utility
+tradeoff, specifically when dealing with two distinct user groups characterized
+by unique sets of private and utility attributes. Unlike previous studies that
+primarily focus on scenarios where all users share identical private and
+utility attributes and often rely on auxiliary datasets or manual annotations,
+we introduce a collaborative data-sharing mechanism between two user groups
+through a trusted third party. This third party uses adversarial privacy
+techniques with our proposed data-sharing mechanism to internally sanitize data
+for both groups and eliminates the need for manual annotation or auxiliary
+datasets. Our methodology ensures that private attributes cannot be accurately
+inferred while enabling highly accurate predictions of utility features.
+Importantly, even if analysts or adversaries possess auxiliary datasets
+containing raw data, they are unable to accurately deduce private features.
+Additionally, our data-sharing mechanism is compatible with various existing
+adversarially trained privacy techniques. We empirically demonstrate the
+effectiveness of our approach using synthetic and real-world datasets,
+showcasing its ability to balance the conflicting goals of privacy and utility.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.04861v1">Privacy-Preserving Traceable Functional Encryption for Inner Product</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-04-07T08:09:46Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Muyao Qiu, Jinguang Han</p>
+    <p><b>Summary:</b> Functional encryption introduces a new paradigm of public key encryption that
+decryption only reveals the function value of encrypted data. To curb key
+leakage issues and trace users in FE-IP, a new primitive called traceable
+functional encryption for inner product (TFE-IP) has been proposed. However,
+the privacy protection of user's identities has not been considered in the
+existing TFE-IP schemes. In order to balance privacy and accountability, we
+propose the concept of privacy-preserving traceable functional encryption for
+inner product (PPTFE-IP) and give a concrete construction. Our scheme provides
+the following features: (1) To prevent key sharing, a user's key is bound with
+both his/her identity and a vector; (2) The key generation center (KGC) and a
+user execute a two-party secure computing protocol to generate a key without
+the former knowing anything about the latter's identity; (3) Each user can
+verify the correctness of his/her key; (4) A user can calculate the inner
+product of the two vectors embedded in his/her key and in a ciphertext; (5)
+Only the tracer can trace the identity embedded in a key. The security of our
+scheme is formally reduced to well-known complexity assumptions, and the
+implementation is conducted to evaluate its efficiency. The novelty of our
+scheme is to protect users' privacy and provide traceability if required.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.04769v1">Safeguarding Voice Privacy: Harnessing Near-Ultrasonic Interference To
+  Protect Against Unauthorized Audio Recording</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-04-07T00:49:19Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Forrest McKee, David Noever</p>
+    <p><b>Summary:</b> The widespread adoption of voice-activated systems has modified routine
+human-machine interaction but has also introduced new vulnerabilities. This
+paper investigates the susceptibility of automatic speech recognition (ASR)
+algorithms in these systems to interference from near-ultrasonic noise.
+Building upon prior research that demonstrated the ability of near-ultrasonic
+frequencies (16 kHz - 22 kHz) to exploit the inherent properties of
+microelectromechanical systems (MEMS) microphones, our study explores
+alternative privacy enforcement means using this interference phenomenon. We
+expose a critical vulnerability in the most common microphones used in modern
+voice-activated devices, which inadvertently demodulate near-ultrasonic
+frequencies into the audible spectrum, disrupting the ASR process. Through a
+systematic analysis of the impact of near-ultrasonic noise on various ASR
+systems, we demonstrate that this vulnerability is consistent across different
+devices and under varying conditions, such as broadcast distance and specific
+phoneme structures. Our findings highlight the need to develop robust
+countermeasures to protect voice-activated systems from malicious exploitation
+of this vulnerability. Furthermore, we explore the potential applications of
+this phenomenon in enhancing privacy by disrupting unauthorized audio recording
+or eavesdropping. This research underscores the importance of a comprehensive
+approach to securing voice-activated systems, combining technological
+innovation, responsible development practices, and informed policy decisions to
+ensure the privacy and security of users in an increasingly connected world.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.04706v1">Advances in Differential Privacy and Differentially Private Machine
+  Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-04-06T18:49:24Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Saswat Das, Subhankar Mishra</p>
+    <p><b>Summary:</b> There has been an explosion of research on differential privacy (DP) and its
+various applications in recent years, ranging from novel variants and
+accounting techniques in differential privacy to the thriving field of
+differentially private machine learning (DPML) to newer implementations in
+practice, like those by various companies and organisations such as census
+bureaus. Most recent surveys focus on the applications of differential privacy
+in particular contexts like data publishing, specific machine learning tasks,
+analysis of unstructured data, location privacy, etc. This work thus seeks to
+fill the gap for a survey that primarily discusses recent developments in the
+theory of differential privacy along with newer DP variants, viz. Renyi DP and
+Concentrated DP, novel mechanisms and techniques, and the theoretical
+developments in differentially private machine learning in proper detail. In
+addition, this survey discusses its applications to privacy-preserving machine
+learning in practice and a few practical implementations of DP.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2404.04098v1">You Can Use But Cannot Recognize: Preserving Visual Privacy in Deep
   Neural Networks</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
@@ -1307,7 +1580,7 @@ verify the validity of our proposed scheme through simulations.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.13041v1">Provable Privacy with Non-Private Pre-Processing</a></h3>
+  <h3><a href="http://arxiv.org/abs/2403.13041v2">Provable Privacy with Non-Private Pre-Processing</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
   <p><b>Published on:</b> 2024-03-19T17:54:49Z</p>
   <details>
@@ -2549,267 +2822,6 @@ largely maintains performance prediction accuracy, particularly when there is
 minimal original data available. With 30 or fewer available original data
 samples, the use of synthetic training data resulted only in a one percent
 reduction in performance model accuracy on average.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.05344v1">Federated Learning Method for Preserving Privacy in Face Recognition
-  System</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2024-03-08T14:21:43Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Enoch Solomon, Abraham Woubie</p>
-    <p><b>Summary:</b> The state-of-the-art face recognition systems are typically trained on a
-single computer, utilizing extensive image datasets collected from various
-number of users. However, these datasets often contain sensitive personal
-information that users may hesitate to disclose. To address potential privacy
-concerns, we explore the application of federated learning, both with and
-without secure aggregators, in the context of both supervised and unsupervised
-face recognition systems. Federated learning facilitates the training of a
-shared model without necessitating the sharing of individual private data,
-achieving this by training models on decentralized edge devices housing the
-data. In our proposed system, each edge device independently trains its own
-model, which is subsequently transmitted either to a secure aggregator or
-directly to the central server. To introduce diverse data without the need for
-data transmission, we employ generative adversarial networks to generate
-imposter data at the edge. Following this, the secure aggregator or central
-server combines these individual models to construct a global model, which is
-then relayed back to the edge devices. Experimental findings based on the
-CelebA datasets reveal that employing federated learning in both supervised and
-unsupervised face recognition systems offers dual benefits. Firstly, it
-safeguards privacy since the original data remains on the edge devices.
-Secondly, the experimental results demonstrate that the aggregated model yields
-nearly identical performance compared to the individual models, particularly
-when the federated model does not utilize a secure aggregator. Hence, our
-results shed light on the practical challenges associated with
-privacy-preserving face image training, particularly in terms of the balance
-between privacy and accuracy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.05275v1">vSPACE: Voting in a Scalable, Privacy-Aware and Confidential Election</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2024-03-08T12:56:10Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Se Elnour, William J Buchanan, Paul Keating, Mwrwan Abubakar, Sirag Elnour</p>
-    <p><b>Summary:</b> The vSPACE experimental proof-of-concept (PoC) on the TrueElect[Anon][Creds]
-protocol presents a novel approach to secure, private, and scalable elections,
-extending the TrueElect and ElectAnon protocols with the integration of
-AnonCreds SSI (Self-Sovereign Identity). Such a protocol PoC is situated within
-a Zero-Trust Architecture (ZTA) and leverages confidential computing,
-continuous authentication, multi-party computation (MPC), and well-architected
-framework (WAF) principles to address the challenges of cybersecurity, privacy,
-and trust over IP (ToIP) protection. Employing a Kubernetes confidential
-cluster within an Enterprise-Scale Landing Zone (ESLZ), vSPACE integrates
-Distributed Ledger Technology (DLT) for immutable and certifiable audit trails.
-The Infrastructure as Code (IaC) model ensures rapid deployment, consistent
-management, and adherence to security standards, making vSPACE a future-proof
-solution for digital voting systems.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.05271v2">DID:RING: Ring Signatures using Decentralised Identifiers For
-  Privacy-Aware Identity</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-03-08T12:49:39Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Dimitrios Kasimatis, Sam Grierson, William J. Buchanan, Chris Eckl, Pavlos Papadopoulos, Nikolaos Pitropakis, Craig Thomson, Baraq Ghaleb</p>
-    <p><b>Summary:</b> Decentralised identifiers have become a standardised element of digital
-identity architecture, with supra-national organisations such as the European
-Union adopting them as a key component for a unified European digital identity
-ledger. This paper delves into enhancing security and privacy features within
-decentralised identifiers by integrating ring signatures as an alternative
-verification method. This allows users to identify themselves through digital
-signatures without revealing which public key they used. To this end, the study
-proposed a novel decentralised identity method showcased in a decentralised
-identifier-based architectural framework. Additionally, the investigation
-assesses the repercussions of employing this new method in the verification
-process, focusing specifically on privacy and security aspects. Although ring
-signatures are an established asset of cryptographic protocols, this paper
-seeks to leverage their capabilities in the evolving domain of digital
-identities.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.05156v2">On Protecting the Data Privacy of Large Language Models (LLMs): A Survey</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-03-08T08:47:48Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Biwei Yan, Kun Li, Minghui Xu, Yueyan Dong, Yue Zhang, Zhaochun Ren, Xiuzhen Cheng</p>
-    <p><b>Summary:</b> Large language models (LLMs) are complex artificial intelligence systems
-capable of understanding, generating and translating human language. They learn
-language patterns by analyzing large amounts of text data, allowing them to
-perform writing, conversation, summarizing and other language tasks. When LLMs
-process and generate large amounts of data, there is a risk of leaking
-sensitive information, which may threaten data privacy. This paper concentrates
-on elucidating the data privacy concerns associated with LLMs to foster a
-comprehensive understanding. Specifically, a thorough investigation is
-undertaken to delineate the spectrum of data privacy threats, encompassing both
-passive privacy leakage and active privacy attacks within LLMs. Subsequently,
-we conduct an assessment of the privacy protection mechanisms employed by LLMs
-at various stages, followed by a detailed examination of their efficacy and
-constraints. Finally, the discourse extends to delineate the challenges
-encountered and outline prospective directions for advancement in the realm of
-LLM privacy protection.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.05114v1">APPLE: Adversarial Privacy-aware Perturbations on Latent Embedding for
-  Unfairness Mitigation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2024-03-08T07:22:48Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zikang Xu, Fenghe Tang, Quan Quan, Qingsong Yao, S. Kevin Zhou</p>
-    <p><b>Summary:</b> Ensuring fairness in deep-learning-based segmentors is crucial for health
-equity. Much effort has been dedicated to mitigating unfairness in the training
-datasets or procedures. However, with the increasing prevalence of foundation
-models in medical image analysis, it is hard to train fair models from scratch
-while preserving utility. In this paper, we propose a novel method, Adversarial
-Privacy-aware Perturbations on Latent Embedding (APPLE), that can improve the
-fairness of deployed segmentors by introducing a small latent feature perturber
-without updating the weights of the original model. By adding perturbation to
-the latent vector, APPLE decorates the latent vector of segmentors such that no
-fairness-related features can be passed to the decoder of the segmentors while
-preserving the architecture and parameters of the segmentor. Experiments on two
-segmentation datasets and five segmentors (three U-Net-like and two SAM-like)
-illustrate the effectiveness of our proposed method compared to several
-unfairness mitigation methods.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.05598v1">Privacy Amplification for the Gaussian Mechanism via Bounded Support</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-03-07T21:22:07Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shengyuan Hu, Saeed Mahloujifar, Virginia Smith, Kamalika Chaudhuri, Chuan Guo</p>
-    <p><b>Summary:</b> Data-dependent privacy accounting frameworks such as per-instance
-differential privacy (pDP) and Fisher information loss (FIL) confer
-fine-grained privacy guarantees for individuals in a fixed training dataset.
-These guarantees can be desirable compared to vanilla DP in real world settings
-as they tightly upper-bound the privacy leakage for a $\textit{specific}$
-individual in an $\textit{actual}$ dataset, rather than considering worst-case
-datasets. While these frameworks are beginning to gain popularity, to date,
-there is a lack of private mechanisms that can fully leverage advantages of
-data-dependent accounting. To bridge this gap, we propose simple modifications
-of the Gaussian mechanism with bounded support, showing that they amplify
-privacy guarantees under data-dependent accounting. Experiments on model
-training with DP-SGD show that using bounded support Gaussian mechanisms can
-provide a reduction of the pDP bound $\epsilon$ by as much as 30% without
-negative effects on model utility.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.04867v1">Group Privacy Amplification and Unified Amplification by Subsampling for
-  Rényi Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
-  <p><b>Published on:</b> 2024-03-07T19:36:05Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jan Schuchardt, Mihail Stoian, Arthur Kosmala, Stephan Günnemann</p>
-    <p><b>Summary:</b> Differential privacy (DP) has various desirable properties, such as
-robustness to post-processing, group privacy, and amplification by subsampling,
-which can be derived independently of each other. Our goal is to determine
-whether stronger privacy guarantees can be obtained by considering multiple of
-these properties jointly. To this end, we focus on the combination of group
-privacy and amplification by subsampling. To provide guarantees that are
-amenable to machine learning algorithms, we conduct our analysis in the
-framework of R\'enyi-DP, which has more favorable composition properties than
-$(\epsilon,\delta)$-DP. As part of this analysis, we develop a unified
-framework for deriving amplification by subsampling guarantees for R\'enyi-DP,
-which represents the first such framework for a privacy accounting method and
-is of independent interest. We find that it not only lets us improve upon and
-generalize existing amplification results for R\'enyi-DP, but also derive
-provably tight group privacy amplification guarantees stronger than existing
-principles. These results establish the joint study of different DP properties
-as a promising research direction.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.04485v1">Privacy in Cloud Computing through Immersion-based Coding</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-03-07T13:38:18Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Haleh Hayati, Nathan van de Wouw, Carlos Murguia</p>
-    <p><b>Summary:</b> Cloud computing enables users to process and store data remotely on
-high-performance computers and servers by sharing data over the Internet.
-However, transferring data to clouds causes unavoidable privacy concerns. Here,
-we present a synthesis framework to design coding mechanisms that allow sharing
-and processing data in a privacy-preserving manner without sacrificing data
-utility and algorithmic performance. We consider the setup where the user aims
-to run an algorithm in the cloud using private data. The cloud then returns
-some data utility back to the user (utility refers to the service that the
-algorithm provides, e.g., classification, prediction, AI models, etc.). To
-avoid privacy concerns, the proposed scheme provides tools to co-design: 1)
-coding mechanisms to distort the original data and guarantee a prescribed
-differential privacy level; 2) an equivalent-but-different algorithm (referred
-here to as the target algorithm) that runs on distorted data and produces
-distorted utility; and 3) a decoding function that extracts the true utility
-from the distorted one with a negligible error. Then, instead of sharing the
-original data and algorithm with the cloud, only the distorted data and target
-algorithm are disclosed, thereby avoiding privacy concerns. The proposed scheme
-is built on the synergy of differential privacy and system immersion tools from
-control theory. The key underlying idea is to design a higher-dimensional
-target algorithm that embeds all trajectories of the original algorithm and
-works on randomly encoded data to produce randomly encoded utility. We show
-that the proposed scheme can be designed to offer any level of differential
-privacy without degrading the algorithm's utility. We present two use cases to
-illustrate the performance of the developed tools: privacy in
-optimization/learning algorithms and a nonlinear networked control system.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.04468v1">A Survey of Graph Neural Networks in Real world: Imbalance, Noise,
-  Privacy and OOD Challenges</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Social and Information Networks-662E9B">
-  <p><b>Published on:</b> 2024-03-07T13:10:37Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Wei Ju, Siyu Yi, Yifan Wang, Zhiping Xiao, Zhengyang Mao, Hourun Li, Yiyang Gu, Yifang Qin, Nan Yin, Senzhang Wang, Xinwang Liu, Xiao Luo, Philip S. Yu, Ming Zhang</p>
-    <p><b>Summary:</b> Graph-structured data exhibits universality and widespread applicability
-across diverse domains, such as social network analysis, biochemistry,
-financial fraud detection, and network security. Significant strides have been
-made in leveraging Graph Neural Networks (GNNs) to achieve remarkable success
-in these areas. However, in real-world scenarios, the training environment for
-models is often far from ideal, leading to substantial performance degradation
-of GNN models due to various unfavorable factors, including imbalance in data
-distribution, the presence of noise in erroneous data, privacy protection of
-sensitive information, and generalization capability for out-of-distribution
-(OOD) scenarios. To tackle these issues, substantial efforts have been devoted
-to improving the performance of GNN models in practical real-world scenarios,
-as well as enhancing their reliability and robustness. In this paper, we
-present a comprehensive survey that systematically reviews existing GNN models,
-focusing on solutions to the four mentioned real-world challenges including
-imbalance, noise, privacy, and OOD in practical scenarios that many existing
-reviews have not considered. Specifically, we first highlight the four key
-challenges faced by existing GNNs, paving the way for our exploration of
-real-world GNN models. Subsequently, we provide detailed discussions on these
-four aspects, dissecting how these solutions contribute to enhancing the
-reliability and robustness of GNN models. Last but not least, we outline
-promising directions and offer future perspectives in the field.</p>
   </details>
 </div>
 
