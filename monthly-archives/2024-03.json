@@ -3245,5 +3245,29 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.13041v2",
+    "title" : "Provable Privacy with Non-Private Pre-Processing",
+    "summary" : "When analysing Differentially Private (DP) machine learning pipelines, the\npotential privacy cost of data-dependent pre-processing is frequently\noverlooked in privacy accounting. In this work, we propose a general framework\nto evaluate the additional privacy cost incurred by non-private data-dependent\npre-processing algorithms. Our framework establishes upper bounds on the\noverall privacy guarantees by utilising two new technical notions: a variant of\nDP termed Smooth DP and the bounded sensitivity of the pre-processing\nalgorithms. In addition to the generic framework, we provide explicit overall\nprivacy guarantees for multiple data-dependent pre-processing algorithms, such\nas data imputation, quantization, deduplication and PCA, when used in\ncombination with several DP algorithms. Notably, this framework is also simple\nto implement, allowing direct integration into existing DP pipelines.",
+    "updated" : "2024-04-08T13:20:54Z",
+    "published" : "2024-03-19T17:54:49Z",
+    "authors" : [
+      {
+        "name" : "Yaxi Hu"
+      },
+      {
+        "name" : "Amartya Sanyal"
+      },
+      {
+        "name" : "Bernhard Schölkopf"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG",
+      "stat.ML"
+    ]
   }
 ]
