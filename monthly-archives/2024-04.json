@@ -632,5 +632,124 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.06216v1",
+    "title" : "Privacy-preserving Scanpath Comparison for Pervasive Eye Tracking",
+    "summary" : "As eye tracking becomes pervasive with screen-based devices and head-mounted\ndisplays, privacy concerns regarding eye-tracking data have escalated. While\nstate-of-the-art approaches for privacy-preserving eye tracking mostly involve\ndifferential privacy and empirical data manipulations, previous research has\nnot focused on methods for scanpaths. We introduce a novel privacy-preserving\nscanpath comparison protocol designed for the widely used Needleman-Wunsch\nalgorithm, a generalized version of the edit distance algorithm. Particularly,\nby incorporating the Paillier homomorphic encryption scheme, our protocol\nensures that no private information is revealed. Furthermore, we introduce a\nrandom processing strategy and a multi-layered masking method to obfuscate the\nvalues while preserving the original order of encrypted editing operation\ncosts. This minimizes communication overhead, requiring a single communication\nround for each iteration of the Needleman-Wunsch process. We demonstrate the\nefficiency and applicability of our protocol on three publicly available\ndatasets with comprehensive computational performance analyses and make our\nsource code publicly accessible.",
+    "updated" : "2024-04-09T11:07:57Z",
+    "published" : "2024-04-09T11:07:57Z",
+    "authors" : [
+      {
+        "name" : "Suleyman Ozdel"
+      },
+      {
+        "name" : "Efe Bozkir"
+      },
+      {
+        "name" : "Enkelejda Kasneci"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.06144v1",
+    "title" : "Differential Privacy for Anomaly Detection: Analyzing the Trade-off\n  Between Privacy and Explainability",
+    "summary" : "Anomaly detection (AD), also referred to as outlier detection, is a\nstatistical process aimed at identifying observations within a dataset that\nsignificantly deviate from the expected pattern of the majority of the data.\nSuch a process finds wide application in various fields, such as finance and\nhealthcare. While the primary objective of AD is to yield high detection\naccuracy, the requirements of explainability and privacy are also paramount.\nThe first ensures the transparency of the AD process, while the second\nguarantees that no sensitive information is leaked to untrusted parties. In\nthis work, we exploit the trade-off of applying Explainable AI (XAI) through\nSHapley Additive exPlanations (SHAP) and differential privacy (DP). We perform\nAD with different models and on various datasets, and we thoroughly evaluate\nthe cost of privacy in terms of decreased accuracy and explainability. Our\nresults show that the enforcement of privacy through DP has a significant\nimpact on detection accuracy and explainability, which depends on both the\ndataset and the considered AD model. We further show that the visual\ninterpretation of explanations is also influenced by the choice of the AD\nalgorithm.",
+    "updated" : "2024-04-09T09:09:36Z",
+    "published" : "2024-04-09T09:09:36Z",
+    "authors" : [
+      {
+        "name" : "Fatima Ezzeddine"
+      },
+      {
+        "name" : "Mirna Saad"
+      },
+      {
+        "name" : "Omran Ayoub"
+      },
+      {
+        "name" : "Davide Andreoletti"
+      },
+      {
+        "name" : "Martin Gjoreski"
+      },
+      {
+        "name" : "Ihab Sbeity"
+      },
+      {
+        "name" : "Marc Langheinrich"
+      },
+      {
+        "name" : "Silvia Giordano"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.06001v1",
+    "title" : "Privacy Preserving Prompt Engineering: A Survey",
+    "summary" : "Pre-trained language models (PLMs) have demonstrated significant proficiency\nin solving a wide range of general natural language processing (NLP) tasks.\nResearchers have observed a direct correlation between the performance of these\nmodels and their sizes. As a result, the sizes of these models have notably\nexpanded in recent years, persuading researchers to adopt the term large\nlanguage models (LLMs) to characterize the larger-sized PLMs. The increased\nsize is accompanied by a distinct capability known as in-context learning\n(ICL), which represents a specialized form of prompting. This enables the\nutilization of LLMs for specific downstream tasks by presenting them with\ndemonstration examples while keeping the model parameters frozen. Although\ninteresting, privacy concerns have become a major obstacle in its widespread\nusage. Multiple studies have examined the privacy risks linked to ICL and\nprompting in general, and have devised techniques to alleviate these risks.\nThus, there is a necessity to organize these mitigation techniques for the\nbenefit of the community. This survey provides a systematic overview of the\nprivacy protection methods employed during ICL and prompting in general. We\nreview, analyze, and compare different methods under this paradigm.\nFurthermore, we provide a summary of the resources accessible for the\ndevelopment of these frameworks. Finally, we discuss the limitations of these\nframeworks and offer a detailed examination of the promising areas that\nnecessitate further exploration.",
+    "updated" : "2024-04-09T04:11:25Z",
+    "published" : "2024-04-09T04:11:25Z",
+    "authors" : [
+      {
+        "name" : "Kennedy Edemacu"
+      },
+      {
+        "name" : "Xintao Wu"
+      }
+    ],
+    "categories" : [
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.05876v1",
+    "title" : "Privacy and Security of Women's Reproductive Health Apps in a Changing\n  Legal Landscape",
+    "summary" : "FemTech, a rising trend in mobile apps, empowers women to digitally manage\ntheir health and family planning. However, privacy and security vulnerabilities\nin period-tracking and fertility-monitoring apps present significant risks,\nsuch as unintended pregnancies and legal consequences. Our approach involves\nmanual observations of privacy policies and app permissions, along with dynamic\nand static analysis using multiple evaluation frameworks. Our research reveals\nthat many of these apps gather personally identifiable information (PII) and\nsensitive healthcare data. Furthermore, our analysis identifies that 61% of the\ncode vulnerabilities found in the apps are classified under the top-ten Open\nWeb Application Security Project (OWASP) vulnerabilities. Our research\nemphasizes the significance of tackling the privacy and security\nvulnerabilities present in period-tracking and fertility-monitoring mobile\napps. By highlighting these crucial risks, we aim to initiate a vital\ndiscussion and advocate for increased accountability and transparency of\ndigital tools for women's health. We encourage the industry to prioritize user\nprivacy and security, ultimately promoting a safer and more secure environment\nfor women's health management.",
+    "updated" : "2024-04-08T21:19:10Z",
+    "published" : "2024-04-08T21:19:10Z",
+    "authors" : [
+      {
+        "name" : "Shalini Saini"
+      },
+      {
+        "name" : "Nitesh Saxena"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.ET"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.05828v1",
+    "title" : "Privacy-Preserving Deep Learning Using Deformable Operators for Secure\n  Task Learning",
+    "summary" : "In the era of cloud computing and data-driven applications, it is crucial to\nprotect sensitive information to maintain data privacy, ensuring truly reliable\nsystems. As a result, preserving privacy in deep learning systems has become a\ncritical concern. Existing methods for privacy preservation rely on image\nencryption or perceptual transformation approaches. However, they often suffer\nfrom reduced task performance and high computational costs. To address these\nchallenges, we propose a novel Privacy-Preserving framework that uses a set of\ndeformable operators for secure task learning. Our method involves shuffling\npixels during the analog-to-digital conversion process to generate visually\nprotected data. Those are then fed into a well-known network enhanced with\ndeformable operators. Using our approach, users can achieve equivalent\nperformance to original images without additional training using a secret key.\nMoreover, our method enables access control against unauthorized users.\nExperimental results demonstrate the efficacy of our approach, showcasing its\npotential in cloud-based scenarios and privacy-sensitive applications.",
+    "updated" : "2024-04-08T19:46:20Z",
+    "published" : "2024-04-08T19:46:20Z",
+    "authors" : [
+      {
+        "name" : "Fabian Perez"
+      },
+      {
+        "name" : "Jhon Lopez"
+      },
+      {
+        "name" : "Henry Arguello"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.CR",
+      "eess.IV"
+    ]
   }
 ]
