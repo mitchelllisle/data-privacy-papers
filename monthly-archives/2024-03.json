@@ -3269,5 +3269,34 @@
       "cs.LG",
       "stat.ML"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2403.11343v2",
+    "title" : "Federated Transfer Learning with Differential Privacy",
+    "summary" : "Federated learning is gaining increasing popularity, with data heterogeneity\nand privacy being two prominent challenges. In this paper, we address both\nissues within a federated transfer learning framework, aiming to enhance\nlearning on a target data set by leveraging information from multiple\nheterogeneous source data sets while adhering to privacy constraints. We\nrigorously formulate the notion of \\textit{federated differential privacy},\nwhich offers privacy guarantees for each data set without assuming a trusted\ncentral server. Under this privacy constraint, we study three classical\nstatistical problems, namely univariate mean estimation, low-dimensional linear\nregression, and high-dimensional linear regression. By investigating the\nminimax rates and identifying the costs of privacy for these problems, we show\nthat federated differential privacy is an intermediate privacy model between\nthe well-established local and central models of differential privacy. Our\nanalyses incorporate data heterogeneity and privacy, highlighting the\nfundamental costs of both in federated learning and underscoring the benefit of\nknowledge transfer across data sets.",
+    "updated" : "2024-04-09T10:34:40Z",
+    "published" : "2024-03-17T21:04:48Z",
+    "authors" : [
+      {
+        "name" : "Mengchu Li"
+      },
+      {
+        "name" : "Ye Tian"
+      },
+      {
+        "name" : "Yang Feng"
+      },
+      {
+        "name" : "Yi Yu"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "math.ST",
+      "stat.ME",
+      "stat.ML",
+      "stat.TH"
+    ]
   }
 ]
