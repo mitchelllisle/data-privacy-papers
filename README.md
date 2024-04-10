@@ -2,6 +2,150 @@
 <h2>2024-04</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.06216v1">Privacy-preserving Scanpath Comparison for Pervasive Eye Tracking</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2024-04-09T11:07:57Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Suleyman Ozdel, Efe Bozkir, Enkelejda Kasneci</p>
+    <p><b>Summary:</b> As eye tracking becomes pervasive with screen-based devices and head-mounted
+displays, privacy concerns regarding eye-tracking data have escalated. While
+state-of-the-art approaches for privacy-preserving eye tracking mostly involve
+differential privacy and empirical data manipulations, previous research has
+not focused on methods for scanpaths. We introduce a novel privacy-preserving
+scanpath comparison protocol designed for the widely used Needleman-Wunsch
+algorithm, a generalized version of the edit distance algorithm. Particularly,
+by incorporating the Paillier homomorphic encryption scheme, our protocol
+ensures that no private information is revealed. Furthermore, we introduce a
+random processing strategy and a multi-layered masking method to obfuscate the
+values while preserving the original order of encrypted editing operation
+costs. This minimizes communication overhead, requiring a single communication
+round for each iteration of the Needleman-Wunsch process. We demonstrate the
+efficiency and applicability of our protocol on three publicly available
+datasets with comprehensive computational performance analyses and make our
+source code publicly accessible.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.06144v1">Differential Privacy for Anomaly Detection: Analyzing the Trade-off
+  Between Privacy and Explainability</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-04-09T09:09:36Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Fatima Ezzeddine, Mirna Saad, Omran Ayoub, Davide Andreoletti, Martin Gjoreski, Ihab Sbeity, Marc Langheinrich, Silvia Giordano</p>
+    <p><b>Summary:</b> Anomaly detection (AD), also referred to as outlier detection, is a
+statistical process aimed at identifying observations within a dataset that
+significantly deviate from the expected pattern of the majority of the data.
+Such a process finds wide application in various fields, such as finance and
+healthcare. While the primary objective of AD is to yield high detection
+accuracy, the requirements of explainability and privacy are also paramount.
+The first ensures the transparency of the AD process, while the second
+guarantees that no sensitive information is leaked to untrusted parties. In
+this work, we exploit the trade-off of applying Explainable AI (XAI) through
+SHapley Additive exPlanations (SHAP) and differential privacy (DP). We perform
+AD with different models and on various datasets, and we thoroughly evaluate
+the cost of privacy in terms of decreased accuracy and explainability. Our
+results show that the enforcement of privacy through DP has a significant
+impact on detection accuracy and explainability, which depends on both the
+dataset and the considered AD model. We further show that the visual
+interpretation of explanations is also influenced by the choice of the AD
+algorithm.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.06001v1">Privacy Preserving Prompt Engineering: A Survey</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2024-04-09T04:11:25Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Kennedy Edemacu, Xintao Wu</p>
+    <p><b>Summary:</b> Pre-trained language models (PLMs) have demonstrated significant proficiency
+in solving a wide range of general natural language processing (NLP) tasks.
+Researchers have observed a direct correlation between the performance of these
+models and their sizes. As a result, the sizes of these models have notably
+expanded in recent years, persuading researchers to adopt the term large
+language models (LLMs) to characterize the larger-sized PLMs. The increased
+size is accompanied by a distinct capability known as in-context learning
+(ICL), which represents a specialized form of prompting. This enables the
+utilization of LLMs for specific downstream tasks by presenting them with
+demonstration examples while keeping the model parameters frozen. Although
+interesting, privacy concerns have become a major obstacle in its widespread
+usage. Multiple studies have examined the privacy risks linked to ICL and
+prompting in general, and have devised techniques to alleviate these risks.
+Thus, there is a necessity to organize these mitigation techniques for the
+benefit of the community. This survey provides a systematic overview of the
+privacy protection methods employed during ICL and prompting in general. We
+review, analyze, and compare different methods under this paradigm.
+Furthermore, we provide a summary of the resources accessible for the
+development of these frameworks. Finally, we discuss the limitations of these
+frameworks and offer a detailed examination of the promising areas that
+necessitate further exploration.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.05876v1">Privacy and Security of Women's Reproductive Health Apps in a Changing
+  Legal Landscape</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E">
+  <p><b>Published on:</b> 2024-04-08T21:19:10Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shalini Saini, Nitesh Saxena</p>
+    <p><b>Summary:</b> FemTech, a rising trend in mobile apps, empowers women to digitally manage
+their health and family planning. However, privacy and security vulnerabilities
+in period-tracking and fertility-monitoring apps present significant risks,
+such as unintended pregnancies and legal consequences. Our approach involves
+manual observations of privacy policies and app permissions, along with dynamic
+and static analysis using multiple evaluation frameworks. Our research reveals
+that many of these apps gather personally identifiable information (PII) and
+sensitive healthcare data. Furthermore, our analysis identifies that 61% of the
+code vulnerabilities found in the apps are classified under the top-ten Open
+Web Application Security Project (OWASP) vulnerabilities. Our research
+emphasizes the significance of tackling the privacy and security
+vulnerabilities present in period-tracking and fertility-monitoring mobile
+apps. By highlighting these crucial risks, we aim to initiate a vital
+discussion and advocate for increased accountability and transparency of
+digital tools for women's health. We encourage the industry to prioritize user
+privacy and security, ultimately promoting a safer and more secure environment
+for women's health management.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.05828v1">Privacy-Preserving Deep Learning Using Deformable Operators for Secure
+  Task Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
+  <p><b>Published on:</b> 2024-04-08T19:46:20Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Fabian Perez, Jhon Lopez, Henry Arguello</p>
+    <p><b>Summary:</b> In the era of cloud computing and data-driven applications, it is crucial to
+protect sensitive information to maintain data privacy, ensuring truly reliable
+systems. As a result, preserving privacy in deep learning systems has become a
+critical concern. Existing methods for privacy preservation rely on image
+encryption or perceptual transformation approaches. However, they often suffer
+from reduced task performance and high computational costs. To address these
+challenges, we propose a novel Privacy-Preserving framework that uses a set of
+deformable operators for secure task learning. Our method involves shuffling
+pixels during the analog-to-digital conversion process to generate visually
+protected data. Those are then fed into a well-known network enhanced with
+deformable operators. Using our approach, users can achieve equivalent
+performance to original images without additional training using a secret key.
+Moreover, our method enables access control against unauthorized users.
+Experimental results demonstrate the efficacy of our approach, showcasing its
+potential in cloud-based scenarios and privacy-sensitive applications.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2404.05598v1">Hook-in Privacy Techniques for gRPC-based Microservice Communication</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
   <p><b>Published on:</b> 2024-04-08T15:18:42Z</p>
@@ -1762,7 +1906,7 @@ utility-privacy tradeoff provided by DP mechanisms.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.11343v1">Federated Transfer Learning with Differential Privacy</a></h3>
+  <h3><a href="http://arxiv.org/abs/2403.11343v2">Federated Transfer Learning with Differential Privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36">   
   <p><b>Published on:</b> 2024-03-17T21:04:48Z</p>
   <details>
@@ -2677,151 +2821,6 @@ mean estimation and convex stochastic optimization. We also derive protocols
 that maximize the total clients' utility, given symmetric privacy preferences.
 Finally, we design protocols maximizing end-model accuracy and demonstrate
 their benefits in synthetic experiments.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.06172v1">Understanding Parents' Perceptions and Practices Toward Children's
-  Security and Privacy in Virtual Reality</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2024-03-10T10:54:44Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jiaxun Cao, Abhinaya S B, Anupam Das, Pardis Emami-Naeini</p>
-    <p><b>Summary:</b> Recent years have seen a sharp increase in underage users of virtual reality
-(VR), where security and privacy (S\&P) risks such as data surveillance and
-self-disclosure in social interaction have been increasingly prominent. Prior
-work shows children largely rely on parents to mitigate S\&P risks in their
-technology use. Therefore, understanding parents' S\&P knowledge, perceptions,
-and practices is critical for identifying the gaps for parents, technology
-designers, and policymakers to enhance children's S\&P. While such empirical
-knowledge is substantial in other consumer technologies, it remains largely
-unknown in the context of VR. To address the gap, we conducted in-depth
-semi-structured interviews with 20 parents of children under the age of 18 who
-use VR at home. Our findings highlight parents generally lack S\&P awareness
-due to the perception that VR is still in its infancy. To protect their
-children's interaction with VR, parents currently primarily rely on active
-strategies such as verbal education about S\&P. Passive strategies such as
-parental controls in VR are not commonly used among our interviewees, mainly
-due to their perceived technical constraints. Parents also highlight that a
-multi-stakeholder ecosystem must be established towards more S\&P support for
-children in VR. Based on the findings, we propose actionable S\&P
-recommendations for critical stakeholders, including parents, educators, VR
-companies, and governments.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.06131v1">FedPIT: Towards Privacy-preserving and Few-shot Federated Instruction
-  Tuning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2024-03-10T08:41:22Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zhuo Zhang, Jingyuan Zhang, Jintao Huang, Lizhen Qu, Hongzhi Zhang, Zenglin Xu</p>
-    <p><b>Summary:</b> Instruction tuning has proven essential for enhancing the performance of
-large language models (LLMs) in generating human-aligned responses. However,
-collecting diverse, high-quality instruction data for tuning poses challenges,
-particularly in privacy-sensitive domains. Federated instruction tuning (FedIT)
-has emerged as a solution, leveraging federated learning from multiple data
-owners while preserving privacy. Yet, it faces challenges due to limited
-instruction data and vulnerabilities to training data extraction attacks. To
-address these issues, we propose a novel federated algorithm, FedPIT, which
-utilizes LLMs' in-context learning capability to self-generate task-specific
-synthetic data for training autonomously. Our method employs parameter-isolated
-training to maintain global parameters trained on synthetic data and local
-parameters trained on augmented local data, effectively thwarting data
-extraction attacks. Extensive experiments on real-world medical data
-demonstrate the effectiveness of FedPIT in improving federated few-shot
-performance while preserving privacy and robustness against data heterogeneity.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.05864v1">PAPER-HILT: Personalized and Adaptive Privacy-Aware Early-Exit for
-  Reinforcement Learning in Human-in-the-Loop Systems</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">  
-  <p><b>Published on:</b> 2024-03-09T10:24:12Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mojtaba Taherisadr, Salma Elmalaki</p>
-    <p><b>Summary:</b> Reinforcement Learning (RL) has increasingly become a preferred method over
-traditional rule-based systems in diverse human-in-the-loop (HITL) applications
-due to its adaptability to the dynamic nature of human interactions. However,
-integrating RL in such settings raises significant privacy concerns, as it
-might inadvertently expose sensitive user information. Addressing this, our
-paper focuses on developing PAPER-HILT, an innovative, adaptive RL strategy
-through exploiting an early-exit approach designed explicitly for privacy
-preservation in HITL environments. This approach dynamically adjusts the
-tradeoff between privacy protection and system utility, tailoring its operation
-to individual behavioral patterns and preferences. We mainly highlight the
-challenge of dealing with the variable and evolving nature of human behavior,
-which renders static privacy models ineffective. PAPER-HILT's effectiveness is
-evaluated through its application in two distinct contexts: Smart Home
-environments and Virtual Reality (VR) Smart Classrooms. The empirical results
-demonstrate PAPER-HILT's capability to provide a personalized equilibrium
-between user privacy and application utility, adapting effectively to
-individual user needs and preferences. On average for both experiments, utility
-(performance) drops by 24%, and privacy (state prediction) improves by 31%.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.05794v1">Privacy-Preserving Diffusion Model Using Homomorphic Encryption</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2024-03-09T04:56:57Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yaojian Chen, Qiben Yan</p>
-    <p><b>Summary:</b> In this paper, we introduce a privacy-preserving stable diffusion framework
-leveraging homomorphic encryption, called HE-Diffusion, which primarily focuses
-on protecting the denoising phase of the diffusion process. HE-Diffusion is a
-tailored encryption framework specifically designed to align with the unique
-architecture of stable diffusion, ensuring both privacy and functionality. To
-address the inherent computational challenges, we propose a novel
-min-distortion method that enables efficient partial image encryption,
-significantly reducing the overhead without compromising the model's output
-quality. Furthermore, we adopt a sparse tensor representation to expedite
-computational operations, enhancing the overall efficiency of the
-privacy-preserving diffusion process. We successfully implement HE-based
-privacy-preserving stable diffusion inference. The experimental results show
-that HE-Diffusion achieves 500 times speedup compared with the baseline method,
-and reduces time cost of the homomorphically encrypted inference to the minute
-level. Both the performance and accuracy of the HE-Diffusion are on par with
-the plaintext counterpart. Our approach marks a significant step towards
-integrating advanced cryptographic techniques with state-of-the-art generative
-models, paving the way for privacy-preserving and efficient image generation in
-critical applications.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.05692v2">Privacy-Preserving Sharing of Data Analytics Runtime Metrics for
-  Performance Modeling</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
-  <p><b>Published on:</b> 2024-03-08T22:03:21Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jonathan Will, Dominik Scheinert, Jan Bode, Cedric Kring, Seraphin Zunzer, Lauritz Thamsen</p>
-    <p><b>Summary:</b> Performance modeling for large-scale data analytics workloads can improve the
-efficiency of cluster resource allocations and job scheduling. However, the
-performance of these workloads is influenced by numerous factors, such as job
-inputs and the assigned cluster resources. As a result, performance models
-require significant amounts of training data. This data can be obtained by
-exchanging runtime metrics between collaborating organizations. Yet, not all
-organizations may be inclined to publicly disclose such metadata.
-  We present a privacy-preserving approach for sharing runtime metrics based on
-differential privacy and data synthesis. Our evaluation on performance data
-from 736 Spark job executions indicates that fully anonymized training data
-largely maintains performance prediction accuracy, particularly when there is
-minimal original data available. With 30 or fewer available original data
-samples, the use of synthetic training data resulted only in a one percent
-reduction in performance model accuracy on average.</p>
   </details>
 </div>
 
