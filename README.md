@@ -2,6 +2,111 @@
 <h2>2024-04</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.06868v1">The 'Sandwich' meta-framework for architecture agnostic deep
+  privacy-preserving transfer learning for non-invasive brainwave decoding</a></h3>
+  
+  <p><b>Published on:</b> 2024-04-10T09:47:14Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xiaoxi Wei, Jyotindra Narayan, A. Aldo Faisal</p>
+    <p><b>Summary:</b> Machine learning has enhanced the performance of decoding signals indicating
+human behaviour. EEG decoding, as an exemplar indicating neural activity and
+human thoughts non-invasively, has been helpful in neural activity analysis and
+aiding patients via brain-computer interfaces. However, training machine
+learning algorithms on EEG encounters two primary challenges: variability
+across data sets and privacy concerns using data from individuals and data
+centres. Our objective is to address these challenges by integrating transfer
+learning for data variability and federated learning for data privacy into a
+unified approach. We introduce the Sandwich as a novel deep privacy-preserving
+meta-framework combining transfer learning and federated learning. The Sandwich
+framework comprises three components: federated networks (first layers) that
+handle data set differences at the input level, a shared network (middle layer)
+learning common rules and applying transfer learning, and individual
+classifiers (final layers) for specific tasks of each data set. It enables the
+central network (central server) to benefit from multiple data sets, while
+local branches (local servers) maintain data and label privacy. We evaluated
+the `Sandwich' meta-architecture in various configurations using the BEETL
+motor imagery challenge, a benchmark for heterogeneous EEG data sets. Compared
+with baseline models, our `Sandwich' implementations showed superior
+performance. The best-performing model, the Inception Sandwich with deep set
+alignment (Inception-SD-Deepset), exceeded baseline methods by 9%. The
+`Sandwich' framework demonstrates significant advancements in federated deep
+transfer learning for diverse tasks and data sets. It outperforms conventional
+deep learning methods, showcasing the potential for effective use of larger,
+heterogeneous data sets with enhanced privacy as a model-agnostic
+meta-framework.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.06721v1">Poisoning Prevention in Federated Learning and Differential Privacy via
+  Stateful Proofs of Execution</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-04-10T04:18:26Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Norrathep Rattanavipanon, Ivan de Oliviera Nunes</p>
+    <p><b>Summary:</b> The rise in IoT-driven distributed data analytics, coupled with increasing
+privacy concerns, has led to a demand for effective privacy-preserving and
+federated data collection/model training mechanisms. In response, approaches
+such as Federated Learning (FL) and Local Differential Privacy (LDP) have been
+proposed and attracted much attention over the past few years. However, they
+still share the common limitation of being vulnerable to poisoning attacks
+wherein adversaries compromising edge devices feed forged (a.k.a. poisoned)
+data to aggregation back-ends, undermining the integrity of FL/LDP results.
+  In this work, we propose a system-level approach to remedy this issue based
+on a novel security notion of Proofs of Stateful Execution (PoSX) for
+IoT/embedded devices' software. To realize the PoSX concept, we design SLAPP: a
+System-Level Approach for Poisoning Prevention. SLAPP leverages commodity
+security features of embedded devices - in particular ARM TrustZoneM security
+extensions - to verifiably bind raw sensed data to their correct usage as part
+of FL/LDP edge device routines. As a consequence, it offers robust security
+guarantees against poisoning. Our evaluation, based on real-world prototypes
+featuring multiple cryptographic primitives and data collection schemes,
+showcases SLAPP's security and low overhead.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.06686v1">Atlas-X Equity Financing: Unlocking New Methods to Securely Obfuscate
+  Axe Inventory Data Based on Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-04-10T02:19:37Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Antigoni Polychroniadou, Gabriele Cipriani, Richard Hua, Tucker Balch</p>
+    <p><b>Summary:</b> Banks publish daily a list of available securities/assets (axe list) to
+selected clients to help them effectively locate Long (buy) or Short (sell)
+trades at reduced financing rates. This reduces costs for the bank, as the list
+aggregates the bank's internal firm inventory per asset for all clients of long
+as well as short trades. However, this is somewhat problematic: (1) the bank's
+inventory is revealed; (2) trades of clients who contribute to the aggregated
+list, particularly those deemed large, are revealed to other clients. Clients
+conducting sizable trades with the bank and possessing a portion of the
+aggregated asset exceeding $50\%$ are considered to be concentrated clients.
+This could potentially reveal a trading concentrated client's activity to their
+competitors, thus providing an unfair advantage over the market.
+  Atlas-X Axe Obfuscation, powered by new differential private methods, enables
+a bank to obfuscate its published axe list on a daily basis while under
+continual observation, thus maintaining an acceptable inventory Profit and Loss
+(P&L) cost pertaining to the noisy obfuscated axe list while reducing the
+clients' trading activity leakage. Our main differential private innovation is
+a differential private aggregator for streams (time series data) of both
+positive and negative integers under continual observation.
+  For the last two years, Atlas-X system has been live in production across
+three major regions-USA, Europe, and Asia-at J.P. Morgan, a major financial
+institution, facilitating significant profitability. To our knowledge, it is
+the first differential privacy solution to be deployed in the financial sector.
+We also report benchmarks of our algorithm based on (anonymous) real and
+synthetic data to showcase the quality of our obfuscation and its success in
+production.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2404.06216v1">Privacy-preserving Scanpath Comparison for Pervasive Eye Tracking</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
   <p><b>Published on:</b> 2024-04-09T11:07:57Z</p>
@@ -2741,86 +2846,6 @@ accuracy, including robustness, security, privacy, explainability, efficiency,
 and usability. We discuss the current state-of-the-art methods and trends,
 identify gaps in existing research, and present promising directions for future
 study.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.07288v1">Efficient and Model-Agnostic Parameter Estimation Under
-  Privacy-Preserving Post-randomization Data</a></h3>
-  
-  <p><b>Published on:</b> 2024-03-12T03:41:34Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Qinglong Tian, Jiwei Zhao</p>
-    <p><b>Summary:</b> Protecting individual privacy is crucial when releasing sensitive data for
-public use. While data de-identification helps, it is not enough. This paper
-addresses parameter estimation in scenarios where data are perturbed using the
-Post-Randomization Method (PRAM) to enhance privacy. Existing methods for
-parameter estimation under PRAM data suffer from limitations like being
-parameter-specific, model-dependent, and lacking efficiency guarantees. We
-propose a novel, efficient method that overcomes these limitations. Our method
-is applicable to general parameters defined through estimating equations and
-makes no assumptions about the underlying data model. We further prove that the
-proposed estimator achieves the semiparametric efficiency bound, making it
-optimal in terms of asymptotic variance.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.07218v1">SoK: Can Trajectory Generation Combine Privacy and Utility?</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-03-12T00:25:14Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Erik Buchholz, Alsharif Abuadbba, Shuo Wang, Surya Nepal, Salil S. Kanhere</p>
-    <p><b>Summary:</b> While location trajectories represent a valuable data source for analyses and
-location-based services, they can reveal sensitive information, such as
-political and religious preferences. Differentially private publication
-mechanisms have been proposed to allow for analyses under rigorous privacy
-guarantees. However, the traditional protection schemes suffer from a limiting
-privacy-utility trade-off and are vulnerable to correlation and reconstruction
-attacks. Synthetic trajectory data generation and release represent a promising
-alternative to protection algorithms. While initial proposals achieve
-remarkable utility, they fail to provide rigorous privacy guarantees. This
-paper proposes a framework for designing a privacy-preserving trajectory
-publication approach by defining five design goals, particularly stressing the
-importance of choosing an appropriate Unit of Privacy. Based on this framework,
-we briefly discuss the existing trajectory protection approaches, emphasising
-their shortcomings. This work focuses on the systematisation of the
-state-of-the-art generative models for trajectories in the context of the
-proposed framework. We find that no existing solution satisfies all
-requirements. Thus, we perform an experimental study evaluating the
-applicability of six sequential generative models to the trajectory domain.
-Finally, we conclude that a generative trajectory model providing semantic
-guarantees remains an open research question and propose concrete next steps
-for future research.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.06672v1">Provable Mutual Benefits from Federated Learning in Privacy-Sensitive
-  Domains</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Science and Game Theory-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-03-11T12:43:44Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Nikita Tsoy, Anna Mihalkova, Teodora Todorova, Nikola Konstantinov</p>
-    <p><b>Summary:</b> Cross-silo federated learning (FL) allows data owners to train accurate
-machine learning models by benefiting from each others private datasets.
-Unfortunately, the model accuracy benefits of collaboration are often
-undermined by privacy defenses. Therefore, to incentivize client participation
-in privacy-sensitive domains, a FL protocol should strike a delicate balance
-between privacy guarantees and end-model accuracy. In this paper, we study the
-question of when and how a server could design a FL protocol provably
-beneficial for all participants. First, we provide necessary and sufficient
-conditions for the existence of mutually beneficial protocols in the context of
-mean estimation and convex stochastic optimization. We also derive protocols
-that maximize the total clients' utility, given symmetric privacy preferences.
-Finally, we design protocols maximizing end-model accuracy and demonstrate
-their benefits in synthetic experiments.</p>
   </details>
 </div>
 
