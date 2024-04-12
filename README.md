@@ -2,6 +2,69 @@
 <h2>2024-04</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.07437v1">Privacy preserving layer partitioning for Deep Neural Network models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-04-11T02:39:48Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Kishore Rajasekar, Randolph Loh, Kar Wai Fok, Vrizlynn L. L. Thing</p>
+    <p><b>Summary:</b> MLaaS (Machine Learning as a Service) has become popular in the cloud
+computing domain, allowing users to leverage cloud resources for running
+private inference of ML models on their data. However, ensuring user input
+privacy and secure inference execution is essential. One of the approaches to
+protect data privacy and integrity is to use Trusted Execution Environments
+(TEEs) by enabling execution of programs in secure hardware enclave. Using TEEs
+can introduce significant performance overhead due to the additional layers of
+encryption, decryption, security and integrity checks. This can lead to slower
+inference times compared to running on unprotected hardware. In our work, we
+enhance the runtime performance of ML models by introducing layer partitioning
+technique and offloading computations to GPU. The technique comprises two
+distinct partitions: one executed within the TEE, and the other carried out
+using a GPU accelerator. Layer partitioning exposes intermediate feature maps
+in the clear which can lead to reconstruction attacks to recover the input. We
+conduct experiments to demonstrate the effectiveness of our approach in
+protecting against input reconstruction attacks developed using trained
+conditional Generative Adversarial Network(c-GAN). The evaluation is performed
+on widely used models such as VGG-16, ResNet-50, and EfficientNetB0, using two
+datasets: ImageNet for Image classification and TON IoT dataset for
+cybersecurity attack detection.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.07345v1">Indoor Location Fingerprinting Privacy: A Comprehensive Survey</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
+  <p><b>Published on:</b> 2024-04-10T21:02:58Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Amir Fathalizadeh, Vahideh Moghtadaiee, Mina Alishahi</p>
+    <p><b>Summary:</b> The pervasive integration of Indoor Positioning Systems (IPS) arises from the
+limitations of Global Navigation Satellite Systems (GNSS) in indoor
+environments, leading to the widespread adoption of Location-Based Services
+(LBS). Specifically, indoor location fingerprinting employs diverse signal
+fingerprints from user devices, enabling precise location identification by
+Location Service Providers (LSP). Despite its broad applications across various
+domains, indoor location fingerprinting introduces a notable privacy risk, as
+both LSP and potential adversaries inherently have access to this sensitive
+information, compromising users' privacy. Consequently, concerns regarding
+privacy vulnerabilities in this context necessitate a focused exploration of
+privacy-preserving mechanisms. In response to these concerns, this survey
+presents a comprehensive review of Privacy-Preserving Mechanisms in Indoor
+Location Fingerprinting (ILFPPM) based on cryptographic, anonymization,
+differential privacy (DP), and federated learning (FL) techniques. We also
+propose a distinctive and novel grouping of privacy vulnerabilities, adversary
+and attack models, and available evaluation metrics specific to indoor location
+fingerprinting systems. Given the identified limitations and research gaps in
+this survey, we highlight numerous prospective opportunities for future
+investigation, aiming to motivate researchers interested in advancing this
+field. This survey serves as a valuable reference for researchers and provides
+a clear overview for those beyond this specific research domain.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2404.06868v1">The 'Sandwich' meta-framework for architecture agnostic deep
   privacy-preserving transfer learning for non-invasive brainwave decoding</a></h3>
   
@@ -40,13 +103,13 @@ meta-framework.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.06721v1">Poisoning Prevention in Federated Learning and Differential Privacy via
+  <h3><a href="http://arxiv.org/abs/2404.06721v2">Poisoning Prevention in Federated Learning and Differential Privacy via
   Stateful Proofs of Execution</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2024-04-10T04:18:26Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Norrathep Rattanavipanon, Ivan de Oliviera Nunes</p>
+    <p><b>Authors:</b> Norrathep Rattanavipanon, Ivan De Oliveira Nunes</p>
     <p><b>Summary:</b> The rise in IoT-driven distributed data analytics, coupled with increasing
 privacy concerns, has led to a demand for effective privacy-preserving and
 federated data collection/model training mechanisms. In response, approaches
@@ -163,7 +226,7 @@ algorithm.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.06001v1">Privacy Preserving Prompt Engineering: A Survey</a></h3>
+  <h3><a href="http://arxiv.org/abs/2404.06001v2">Privacy Preserving Prompt Engineering: A Survey</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
   <p><b>Published on:</b> 2024-04-09T04:11:25Z</p>
   <details>
@@ -174,22 +237,21 @@ in solving a wide range of general natural language processing (NLP) tasks.
 Researchers have observed a direct correlation between the performance of these
 models and their sizes. As a result, the sizes of these models have notably
 expanded in recent years, persuading researchers to adopt the term large
-language models (LLMs) to characterize the larger-sized PLMs. The increased
-size is accompanied by a distinct capability known as in-context learning
-(ICL), which represents a specialized form of prompting. This enables the
-utilization of LLMs for specific downstream tasks by presenting them with
-demonstration examples while keeping the model parameters frozen. Although
-interesting, privacy concerns have become a major obstacle in its widespread
-usage. Multiple studies have examined the privacy risks linked to ICL and
-prompting in general, and have devised techniques to alleviate these risks.
-Thus, there is a necessity to organize these mitigation techniques for the
-benefit of the community. This survey provides a systematic overview of the
-privacy protection methods employed during ICL and prompting in general. We
-review, analyze, and compare different methods under this paradigm.
-Furthermore, we provide a summary of the resources accessible for the
-development of these frameworks. Finally, we discuss the limitations of these
-frameworks and offer a detailed examination of the promising areas that
-necessitate further exploration.</p>
+language models (LLMs) to characterize the larger-sized PLMs. The size
+expansion comes with a distinct capability called in-context learning (ICL),
+which represents a special form of prompting and allows the models to be
+utilized through the presentation of demonstration examples without
+modifications to the model parameters. Although interesting, privacy concerns
+have become a major obstacle in its widespread usage. Multiple studies have
+examined the privacy risks linked to ICL and prompting in general, and have
+devised techniques to alleviate these risks. Thus, there is a necessity to
+organize these mitigation techniques for the benefit of the community. This
+survey provides a systematic overview of the privacy protection methods
+employed during ICL and prompting in general. We review, analyze, and compare
+different methods under this paradigm. Furthermore, we provide a summary of the
+resources accessible for the development of these frameworks. Finally, we
+discuss the limitations of these frameworks and offer a detailed examination of
+the promising areas that necessitate further exploration.</p>
   </details>
 </div>
 
@@ -1829,7 +1891,7 @@ verify the validity of our proposed scheme through simulations.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.13041v2">Provable Privacy with Non-Private Pre-Processing</a></h3>
+  <h3><a href="http://arxiv.org/abs/2403.13041v3">Provable Privacy with Non-Private Pre-Processing</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
   <p><b>Published on:</b> 2024-03-19T17:54:49Z</p>
   <details>
@@ -2797,55 +2859,6 @@ the convergence rate of $(\epsilon,\delta)$ to zero. Asymptotically, the
 contamination approach is fully private at no cost of information loss. We also
 provide some examples depicting inference models that our setup is applicable
 to with a theoretical estimation of convergence rate.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.07588v1">Visual Privacy Auditing with Diffusion Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-03-12T12:18:55Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Kristian Schwethelm, Johannes Kaiser, Moritz Knolle, Daniel Rueckert, Georgios Kaissis, Alexander Ziller</p>
-    <p><b>Summary:</b> Image reconstruction attacks on machine learning models pose a significant
-risk to privacy by potentially leaking sensitive information. Although
-defending against such attacks using differential privacy (DP) has proven
-effective, determining appropriate DP parameters remains challenging. Current
-formal guarantees on data reconstruction success suffer from overly theoretical
-assumptions regarding adversary knowledge about the target data, particularly
-in the image domain. In this work, we empirically investigate this discrepancy
-and find that the practicality of these assumptions strongly depends on the
-domain shift between the data prior and the reconstruction target. We propose a
-reconstruction attack based on diffusion models (DMs) that assumes adversary
-access to real-world image priors and assess its implications on privacy
-leakage under DP-SGD. We show that (1) real-world data priors significantly
-influence reconstruction success, (2) current reconstruction bounds do not
-model the risk posed by data priors well, and (3) DMs can serve as effective
-auditing tools for visualizing privacy leakage.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.07506v1">Robustness, Security, Privacy, Explainability, Efficiency, and Usability
-  of Large Language Models for Code</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
-  <p><b>Published on:</b> 2024-03-12T10:43:26Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zhou Yang, Zhensu Sun, Terry Zhuo Yue, Premkumar Devanbu, David Lo</p>
-    <p><b>Summary:</b> Large language models for code (LLM4Code), which demonstrate strong
-performance (e.g., high accuracy) in processing source code, have significantly
-transformed software engineering. Many studies separately investigate the
-non-functional properties of LM4Code, but there is no systematic review of how
-these properties are evaluated and enhanced. This paper fills this gap by
-thoroughly examining 146 relevant studies, thereby presenting the first
-systematic literature review to identify seven important properties beyond
-accuracy, including robustness, security, privacy, explainability, efficiency,
-and usability. We discuss the current state-of-the-art methods and trends,
-identify gaps in existing research, and present promising directions for future
-study.</p>
   </details>
 </div>
 
