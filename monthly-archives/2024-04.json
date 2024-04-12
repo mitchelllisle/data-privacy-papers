@@ -814,5 +814,87 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.07437v1",
+    "title" : "Privacy preserving layer partitioning for Deep Neural Network models",
+    "summary" : "MLaaS (Machine Learning as a Service) has become popular in the cloud\ncomputing domain, allowing users to leverage cloud resources for running\nprivate inference of ML models on their data. However, ensuring user input\nprivacy and secure inference execution is essential. One of the approaches to\nprotect data privacy and integrity is to use Trusted Execution Environments\n(TEEs) by enabling execution of programs in secure hardware enclave. Using TEEs\ncan introduce significant performance overhead due to the additional layers of\nencryption, decryption, security and integrity checks. This can lead to slower\ninference times compared to running on unprotected hardware. In our work, we\nenhance the runtime performance of ML models by introducing layer partitioning\ntechnique and offloading computations to GPU. The technique comprises two\ndistinct partitions: one executed within the TEE, and the other carried out\nusing a GPU accelerator. Layer partitioning exposes intermediate feature maps\nin the clear which can lead to reconstruction attacks to recover the input. We\nconduct experiments to demonstrate the effectiveness of our approach in\nprotecting against input reconstruction attacks developed using trained\nconditional Generative Adversarial Network(c-GAN). The evaluation is performed\non widely used models such as VGG-16, ResNet-50, and EfficientNetB0, using two\ndatasets: ImageNet for Image classification and TON IoT dataset for\ncybersecurity attack detection.",
+    "updated" : "2024-04-11T02:39:48Z",
+    "published" : "2024-04-11T02:39:48Z",
+    "authors" : [
+      {
+        "name" : "Kishore Rajasekar"
+      },
+      {
+        "name" : "Randolph Loh"
+      },
+      {
+        "name" : "Kar Wai Fok"
+      },
+      {
+        "name" : "Vrizlynn L. L. Thing"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.07345v1",
+    "title" : "Indoor Location Fingerprinting Privacy: A Comprehensive Survey",
+    "summary" : "The pervasive integration of Indoor Positioning Systems (IPS) arises from the\nlimitations of Global Navigation Satellite Systems (GNSS) in indoor\nenvironments, leading to the widespread adoption of Location-Based Services\n(LBS). Specifically, indoor location fingerprinting employs diverse signal\nfingerprints from user devices, enabling precise location identification by\nLocation Service Providers (LSP). Despite its broad applications across various\ndomains, indoor location fingerprinting introduces a notable privacy risk, as\nboth LSP and potential adversaries inherently have access to this sensitive\ninformation, compromising users' privacy. Consequently, concerns regarding\nprivacy vulnerabilities in this context necessitate a focused exploration of\nprivacy-preserving mechanisms. In response to these concerns, this survey\npresents a comprehensive review of Privacy-Preserving Mechanisms in Indoor\nLocation Fingerprinting (ILFPPM) based on cryptographic, anonymization,\ndifferential privacy (DP), and federated learning (FL) techniques. We also\npropose a distinctive and novel grouping of privacy vulnerabilities, adversary\nand attack models, and available evaluation metrics specific to indoor location\nfingerprinting systems. Given the identified limitations and research gaps in\nthis survey, we highlight numerous prospective opportunities for future\ninvestigation, aiming to motivate researchers interested in advancing this\nfield. This survey serves as a valuable reference for researchers and provides\na clear overview for those beyond this specific research domain.",
+    "updated" : "2024-04-10T21:02:58Z",
+    "published" : "2024-04-10T21:02:58Z",
+    "authors" : [
+      {
+        "name" : "Amir Fathalizadeh"
+      },
+      {
+        "name" : "Vahideh Moghtadaiee"
+      },
+      {
+        "name" : "Mina Alishahi"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "eess.SP"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.06721v2",
+    "title" : "Poisoning Prevention in Federated Learning and Differential Privacy via\n  Stateful Proofs of Execution",
+    "summary" : "The rise in IoT-driven distributed data analytics, coupled with increasing\nprivacy concerns, has led to a demand for effective privacy-preserving and\nfederated data collection/model training mechanisms. In response, approaches\nsuch as Federated Learning (FL) and Local Differential Privacy (LDP) have been\nproposed and attracted much attention over the past few years. However, they\nstill share the common limitation of being vulnerable to poisoning attacks\nwherein adversaries compromising edge devices feed forged (a.k.a. poisoned)\ndata to aggregation back-ends, undermining the integrity of FL/LDP results.\n  In this work, we propose a system-level approach to remedy this issue based\non a novel security notion of Proofs of Stateful Execution (PoSX) for\nIoT/embedded devices' software. To realize the PoSX concept, we design SLAPP: a\nSystem-Level Approach for Poisoning Prevention. SLAPP leverages commodity\nsecurity features of embedded devices - in particular ARM TrustZoneM security\nextensions - to verifiably bind raw sensed data to their correct usage as part\nof FL/LDP edge device routines. As a consequence, it offers robust security\nguarantees against poisoning. Our evaluation, based on real-world prototypes\nfeaturing multiple cryptographic primitives and data collection schemes,\nshowcases SLAPP's security and low overhead.",
+    "updated" : "2024-04-11T12:05:52Z",
+    "published" : "2024-04-10T04:18:26Z",
+    "authors" : [
+      {
+        "name" : "Norrathep Rattanavipanon"
+      },
+      {
+        "name" : "Ivan De Oliveira Nunes"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.06001v2",
+    "title" : "Privacy Preserving Prompt Engineering: A Survey",
+    "summary" : "Pre-trained language models (PLMs) have demonstrated significant proficiency\nin solving a wide range of general natural language processing (NLP) tasks.\nResearchers have observed a direct correlation between the performance of these\nmodels and their sizes. As a result, the sizes of these models have notably\nexpanded in recent years, persuading researchers to adopt the term large\nlanguage models (LLMs) to characterize the larger-sized PLMs. The size\nexpansion comes with a distinct capability called in-context learning (ICL),\nwhich represents a special form of prompting and allows the models to be\nutilized through the presentation of demonstration examples without\nmodifications to the model parameters. Although interesting, privacy concerns\nhave become a major obstacle in its widespread usage. Multiple studies have\nexamined the privacy risks linked to ICL and prompting in general, and have\ndevised techniques to alleviate these risks. Thus, there is a necessity to\norganize these mitigation techniques for the benefit of the community. This\nsurvey provides a systematic overview of the privacy protection methods\nemployed during ICL and prompting in general. We review, analyze, and compare\ndifferent methods under this paradigm. Furthermore, we provide a summary of the\nresources accessible for the development of these frameworks. Finally, we\ndiscuss the limitations of these frameworks and offer a detailed examination of\nthe promising areas that necessitate further exploration.",
+    "updated" : "2024-04-11T00:17:18Z",
+    "published" : "2024-04-09T04:11:25Z",
+    "authors" : [
+      {
+        "name" : "Kennedy Edemacu"
+      },
+      {
+        "name" : "Xintao Wu"
+      }
+    ],
+    "categories" : [
+      "cs.CL"
+    ]
   }
 ]
