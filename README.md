@@ -2,6 +2,39 @@
 <h2>2024-04</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.08261v1">QI-DPFL: Quality-Aware and Incentive-Boosted Federated Learning with
+  Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Science and Game Theory-5BC0EB">
+  <p><b>Published on:</b> 2024-04-12T06:18:25Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Wenhao Yuan, Xuehe Wang</p>
+    <p><b>Summary:</b> Federated Learning (FL) has increasingly been recognized as an innovative and
+secure distributed model training paradigm, aiming to coordinate multiple edge
+clients to collaboratively train a shared model without uploading their private
+datasets. The challenge of encouraging mobile edge devices to participate
+zealously in FL model training procedures, while mitigating the privacy leakage
+risks during wireless transmission, remains comparatively unexplored so far. In
+this paper, we propose a novel approach, named QI-DPFL (Quality-Aware and
+Incentive-Boosted Federated Learning with Differential Privacy), to address the
+aforementioned intractable issue. To select clients with high-quality datasets,
+we first propose a quality-aware client selection mechanism based on the Earth
+Mover's Distance (EMD) metric. Furthermore, to attract high-quality data
+contributors, we design an incentive-boosted mechanism that constructs the
+interactions between the central server and the selected clients as a two-stage
+Stackelberg game, where the central server designs the time-dependent reward to
+minimize its cost by considering the trade-off between accuracy loss and total
+reward allocated, and each selected client decides the privacy budget to
+maximize its utility. The Nash Equilibrium of the Stackelberg game is derived
+to find the optimal solution in each global iteration. The extensive
+experimental results on different real-world datasets demonstrate the
+effectiveness of our proposed FL framework, by realizing the goal of privacy
+protection and incentive compatibility.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2404.07437v1">Privacy preserving layer partitioning for Deep Neural Network models</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2024-04-11T02:39:48Z</p>
@@ -2834,31 +2867,6 @@ in 5G environment. We demonstrate that our proposed scheme is resilient against
 all the essential security threats by performing a comprehensive formal
 security analysis and conducting relevant experiments to show the
 cost-effectiveness of the proposed scheme.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.07772v1">Privacy Guarantees in Posterior Sampling under Contamination</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36">  
-  <p><b>Published on:</b> 2024-03-12T15:58:53Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shenggang Hu, Louis Aslett, Hongsheng Dai, Murray Pollock, Gareth O. Roberts</p>
-    <p><b>Summary:</b> In recent years, differential privacy has been adopted by tech-companies and
-governmental agencies as the standard for measuring privacy in algorithms. We
-study the level of differential privacy in Bayesian posterior sampling setups.
-As opposed to the common privatization approach of injecting Laplace/Gaussian
-noise into the output, Huber's contamination model is considered, where we
-replace at random the data points with samples from a heavy-tailed
-distribution. We derived bounds for the differential privacy level
-$(\epsilon,\delta)$ for our approach while lifting the common restriction on
-assuming bounded observation and parameter space seen in the existing
-literature. We further consider the effect of sample size on privacy level and
-the convergence rate of $(\epsilon,\delta)$ to zero. Asymptotically, the
-contamination approach is fully private at no cost of information loss. We also
-provide some examples depicting inference models that our setup is applicable
-to with a theoretical estimation of convergence rate.</p>
   </details>
 </div>
 
