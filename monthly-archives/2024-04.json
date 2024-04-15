@@ -896,5 +896,23 @@
     "categories" : [
       "cs.CL"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.08261v1",
+    "title" : "QI-DPFL: Quality-Aware and Incentive-Boosted Federated Learning with\n  Differential Privacy",
+    "summary" : "Federated Learning (FL) has increasingly been recognized as an innovative and\nsecure distributed model training paradigm, aiming to coordinate multiple edge\nclients to collaboratively train a shared model without uploading their private\ndatasets. The challenge of encouraging mobile edge devices to participate\nzealously in FL model training procedures, while mitigating the privacy leakage\nrisks during wireless transmission, remains comparatively unexplored so far. In\nthis paper, we propose a novel approach, named QI-DPFL (Quality-Aware and\nIncentive-Boosted Federated Learning with Differential Privacy), to address the\naforementioned intractable issue. To select clients with high-quality datasets,\nwe first propose a quality-aware client selection mechanism based on the Earth\nMover's Distance (EMD) metric. Furthermore, to attract high-quality data\ncontributors, we design an incentive-boosted mechanism that constructs the\ninteractions between the central server and the selected clients as a two-stage\nStackelberg game, where the central server designs the time-dependent reward to\nminimize its cost by considering the trade-off between accuracy loss and total\nreward allocated, and each selected client decides the privacy budget to\nmaximize its utility. The Nash Equilibrium of the Stackelberg game is derived\nto find the optimal solution in each global iteration. The extensive\nexperimental results on different real-world datasets demonstrate the\neffectiveness of our proposed FL framework, by realizing the goal of privacy\nprotection and incentive compatibility.",
+    "updated" : "2024-04-12T06:18:25Z",
+    "published" : "2024-04-12T06:18:25Z",
+    "authors" : [
+      {
+        "name" : "Wenhao Yuan"
+      },
+      {
+        "name" : "Xuehe Wang"
+      }
+    ],
+    "categories" : [
+      "cs.GT"
+    ]
   }
 ]
