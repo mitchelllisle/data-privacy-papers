@@ -914,5 +914,244 @@
     "categories" : [
       "cs.GT"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.09724v1",
+    "title" : "Privacy-Preserving Federated Unlearning with Certified Client Removal",
+    "summary" : "In recent years, Federated Unlearning (FU) has gained attention for\naddressing the removal of a client's influence from the global model in\nFederated Learning (FL) systems, thereby ensuring the ``right to be forgotten\"\n(RTBF). State-of-the-art methods for unlearning use historical data from FL\nclients, such as gradients or locally trained models. However, studies have\nrevealed significant information leakage in this setting, with the possibility\nof reconstructing a user's local data from their uploaded information.\nAddressing this, we propose Starfish, a privacy-preserving federated unlearning\nscheme using Two-Party Computation (2PC) techniques and shared historical\nclient data between two non-colluding servers. Starfish builds upon existing FU\nmethods to ensure privacy in unlearning processes. To enhance the efficiency of\nprivacy-preserving FU evaluations, we suggest 2PC-friendly alternatives for\ncertain FU algorithm operations. We also implement strategies to reduce costs\nassociated with 2PC operations and lessen cumulative approximation errors.\nMoreover, we establish a theoretical bound for the difference between the\nunlearned global model via Starfish and a global model retrained from scratch\nfor certified client removal. Our theoretical and experimental analyses\ndemonstrate that Starfish achieves effective unlearning with reasonable\nefficiency, maintaining privacy and security in FL systems.",
+    "updated" : "2024-04-15T12:27:07Z",
+    "published" : "2024-04-15T12:27:07Z",
+    "authors" : [
+      {
+        "name" : "Ziyao Liu"
+      },
+      {
+        "name" : "Huanyi Ye"
+      },
+      {
+        "name" : "Yu Jiang"
+      },
+      {
+        "name" : "Jiyuan Shen"
+      },
+      {
+        "name" : "Jiale Guo"
+      },
+      {
+        "name" : "Ivan Tjuawinata"
+      },
+      {
+        "name" : "Kwok-Yan Lam"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.09625v1",
+    "title" : "Privacy-Preserving Intrusion Detection using Convolutional Neural\n  Networks",
+    "summary" : "Privacy-preserving analytics is designed to protect valuable assets. A common\nservice provision involves the input data from the client and the model on the\nanalyst's side. The importance of the privacy preservation is fuelled by legal\nobligations and intellectual property concerns. We explore the use case of a\nmodel owner providing an analytic service on customer's private data. No\ninformation about the data shall be revealed to the analyst and no information\nabout the model shall be leaked to the customer. Current methods involve costs:\naccuracy deterioration and computational complexity. The complexity, in turn,\nresults in a longer processing time, increased requirement on computing\nresources, and involves data communication between the client and the server.\nIn order to deploy such service architecture, we need to evaluate the optimal\nsetting that fits the constraints. And that is what this paper addresses. In\nthis work, we enhance an attack detection system based on Convolutional Neural\nNetworks with privacy-preserving technology based on PriMIA framework that is\ninitially designed for medical data.",
+    "updated" : "2024-04-15T09:56:36Z",
+    "published" : "2024-04-15T09:56:36Z",
+    "authors" : [
+      {
+        "name" : "Martin Kodys"
+      },
+      {
+        "name" : "Zhongmin Dai"
+      },
+      {
+        "name" : "Vrizlynn L. L. Thing"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.09536v1",
+    "title" : "Beyond Noise: Privacy-Preserving Decentralized Learning with Virtual\n  Nodes",
+    "summary" : "Decentralized learning (DL) enables collaborative learning without a server\nand without training data leaving the users' devices. However, the models\nshared in DL can still be used to infer training data. Conventional privacy\ndefenses such as differential privacy and secure aggregation fall short in\neffectively safeguarding user privacy in DL. We introduce Shatter, a novel DL\napproach in which nodes create virtual nodes (VNs) to disseminate chunks of\ntheir full model on their behalf. This enhances privacy by (i) preventing\nattackers from collecting full models from other nodes, and (ii) hiding the\nidentity of the original node that produced a given model chunk. We\ntheoretically prove the convergence of Shatter and provide a formal analysis\ndemonstrating how Shatter reduces the efficacy of attacks compared to when\nexchanging full models between participating nodes. We evaluate the convergence\nand attack resilience of Shatter with existing DL algorithms, with\nheterogeneous datasets, and against three standard privacy attacks, including\ngradient inversion. Our evaluation shows that Shatter not only renders these\nprivacy attacks infeasible when each node operates 16 VNs but also exhibits a\npositive impact on model convergence compared to standard DL. This enhanced\nprivacy comes with a manageable increase in communication volume.",
+    "updated" : "2024-04-15T07:59:11Z",
+    "published" : "2024-04-15T07:59:11Z",
+    "authors" : [
+      {
+        "name" : "Sayan Biswas"
+      },
+      {
+        "name" : "Mathieu Even"
+      },
+      {
+        "name" : "Anne-Marie Kermarrec"
+      },
+      {
+        "name" : "Laurent Massoulie"
+      },
+      {
+        "name" : "Rafael Pires"
+      },
+      {
+        "name" : "Rishi Sharma"
+      },
+      {
+        "name" : "Martijn de Vos"
+      }
+    ],
+    "categories" : [
+      "cs.DC",
+      "cs.AI",
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.09481v1",
+    "title" : "SpamDam: Towards Privacy-Preserving and Adversary-Resistant SMS Spam\n  Detection",
+    "summary" : "In this study, we introduce SpamDam, a SMS spam detection framework designed\nto overcome key challenges in detecting and understanding SMS spam, such as the\nlack of public SMS spam datasets, increasing privacy concerns of collecting SMS\ndata, and the need for adversary-resistant detection models. SpamDam comprises\nfour innovative modules: an SMS spam radar that identifies spam messages from\nonline social networks(OSNs); an SMS spam inspector for statistical analysis;\nSMS spam detectors(SSDs) that enable both central training and federated\nlearning; and an SSD analyzer that evaluates model resistance against\nadversaries in realistic scenarios. Leveraging SpamDam, we have compiled over\n76K SMS spam messages from Twitter and Weibo between 2018 and 2023, forming the\nlargest dataset of its kind. This dataset has enabled new insights into recent\nspam campaigns and the training of high-performing binary and multi-label\nclassifiers for spam detection. Furthermore, effectiveness of federated\nlearning has been well demonstrated to enable privacy-preserving SMS spam\ndetection. Additionally, we have rigorously tested the adversarial robustness\nof SMS spam detection models, introducing the novel reverse backdoor attack,\nwhich has shown effectiveness and stealthiness in practical tests.",
+    "updated" : "2024-04-15T06:07:10Z",
+    "published" : "2024-04-15T06:07:10Z",
+    "authors" : [
+      {
+        "name" : "Yekai Li"
+      },
+      {
+        "name" : "Rufan Zhang"
+      },
+      {
+        "name" : "Wenxin Rong"
+      },
+      {
+        "name" : "Xianghang Mi"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.09430v1",
+    "title" : "On the Efficiency of Privacy Attacks in Federated Learning",
+    "summary" : "Recent studies have revealed severe privacy risks in federated learning,\nrepresented by Gradient Leakage Attacks. However, existing studies mainly aim\nat increasing the privacy attack success rate and overlook the high computation\ncosts for recovering private data, making the privacy attack impractical in\nreal applications. In this study, we examine privacy attacks from the\nperspective of efficiency and propose a framework for improving the Efficiency\nof Privacy Attacks in Federated Learning (EPAFL). We make three novel\ncontributions. First, we systematically evaluate the computational costs for\nrepresentative privacy attacks in federated learning, which exhibits a high\npotential to optimize efficiency. Second, we propose three early-stopping\ntechniques to effectively reduce the computational costs of these privacy\nattacks. Third, we perform experiments on benchmark datasets and show that our\nproposed method can significantly reduce computational costs and maintain\ncomparable attack success rates for state-of-the-art privacy attacks in\nfederated learning. We provide the codes on GitHub at\nhttps://github.com/mlsysx/EPAFL.",
+    "updated" : "2024-04-15T03:04:37Z",
+    "published" : "2024-04-15T03:04:37Z",
+    "authors" : [
+      {
+        "name" : "Nawrin Tabassum"
+      },
+      {
+        "name" : "Ka-Ho Chow"
+      },
+      {
+        "name" : "Xuyu Wang"
+      },
+      {
+        "name" : "Wenbin Zhang"
+      },
+      {
+        "name" : "Yanzhao Wu"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.09391v1",
+    "title" : "Privacy at a Price: Exploring its Dual Impact on AI Fairness",
+    "summary" : "The worldwide adoption of machine learning (ML) and deep learning models,\nparticularly in critical sectors, such as healthcare and finance, presents\nsubstantial challenges in maintaining individual privacy and fairness. These\ntwo elements are vital to a trustworthy environment for learning systems. While\nnumerous studies have concentrated on protecting individual privacy through\ndifferential privacy (DP) mechanisms, emerging research indicates that\ndifferential privacy in machine learning models can unequally impact separate\ndemographic subgroups regarding prediction accuracy. This leads to a fairness\nconcern, and manifests as biased performance. Although the prevailing view is\nthat enhancing privacy intensifies fairness disparities, a smaller, yet\nsignificant, subset of research suggests the opposite view. In this article,\nwith extensive evaluation results, we demonstrate that the impact of\ndifferential privacy on fairness is not monotonous. Instead, we observe that\nthe accuracy disparity initially grows as more DP noise (enhanced privacy) is\nadded to the ML process, but subsequently diminishes at higher privacy levels\nwith even more noise. Moreover, implementing gradient clipping in the\ndifferentially private stochastic gradient descent ML method can mitigate the\nnegative impact of DP noise on fairness. This mitigation is achieved by\nmoderating the disparity growth through a lower clipping threshold.",
+    "updated" : "2024-04-15T00:23:41Z",
+    "published" : "2024-04-15T00:23:41Z",
+    "authors" : [
+      {
+        "name" : "Mengmeng Yang"
+      },
+      {
+        "name" : "Ming Ding"
+      },
+      {
+        "name" : "Youyang Qu"
+      },
+      {
+        "name" : "Wei Ni"
+      },
+      {
+        "name" : "David Smith"
+      },
+      {
+        "name" : "Thierry Rakotoarivelo"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.08686v1",
+    "title" : "Extractive text summarisation of Privacy Policy documents using machine\n  learning approaches",
+    "summary" : "This work demonstrates two Privacy Policy (PP) summarisation models based on\ntwo different clustering algorithms: K-means clustering and Pre-determined\nCentroid (PDC) clustering. K-means is decided to be used for the first model\nafter an extensive evaluation of ten commonly used clustering algorithms. The\nsummariser model based on the PDC-clustering algorithm summarises PP documents\nby segregating individual sentences by Euclidean distance from each sentence to\nthe pre-defined cluster centres. The cluster centres are defined according to\nGeneral Data Protection Regulation (GDPR)'s 14 essential topics that must be\nincluded in any privacy notices. The PDC model outperformed the K-means model\nfor two evaluation methods, Sum of Squared Distance (SSD) and ROUGE by some\nmargin (27% and 24% respectively). This result contrasts the K-means model's\nbetter performance in the general clustering of sentence vectors before running\nthe task-specific evaluation. This indicates the effectiveness of operating\ntask-specific fine-tuning measures on unsupervised machine-learning models. The\nsummarisation mechanisms implemented in this paper demonstrates an idea of how\nto efficiently extract essential sentences that should be included in any PP\ndocuments. The summariser models could be further developed to an application\nthat tests the GDPR-compliance (or any data privacy legislation) of PP\ndocuments.",
+    "updated" : "2024-04-09T04:54:08Z",
+    "published" : "2024-04-09T04:54:08Z",
+    "authors" : [
+      {
+        "name" : "Chanwoo Choi"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.04861v2",
+    "title" : "Privacy-Preserving Traceable Functional Encryption for Inner Product",
+    "summary" : "Functional encryption introduces a new paradigm of public key encryption that\ndecryption only reveals the function value of encrypted data. To curb key\nleakage issues and trace users in FE-IP, a new primitive called traceable\nfunctional encryption for inner product (TFE-IP) has been proposed. However,\nthe privacy protection of user's identities has not been considered in the\nexisting TFE-IP schemes. In order to balance privacy and accountability, we\npropose the concept of privacy-preserving traceable functional encryption for\ninner product (PPTFE-IP) and give a concrete construction. Our scheme provides\nthe following features: (1) To prevent key sharing, a user's key is bound with\nboth his/her identity and a vector; (2) The key generation center (KGC) and a\nuser execute a two-party secure computing protocol to generate a key without\nthe former knowing anything about the latter's identity; (3) Each user can\nverify the correctness of his/her key; (4) A user can calculate the inner\nproduct of the two vectors embedded in his/her key and in a ciphertext; (5)\nOnly the tracer can trace the identity embedded in a key. The security of our\nscheme is formally reduced to well-known complexity assumptions, and the\nimplementation is conducted to evaluate its efficiency. The novelty of our\nscheme is to protect users' privacy and provide traceability if required.",
+    "updated" : "2024-04-15T03:22:30Z",
+    "published" : "2024-04-07T08:09:46Z",
+    "authors" : [
+      {
+        "name" : "Muyao Qiu"
+      },
+      {
+        "name" : "Jinguang Han"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.03165v2",
+    "title" : "Towards Collaborative Family-Centered Design for Online Safety, Privacy\n  and Security",
+    "summary" : "Traditional online safety technologies often overly restrict teens and invade\ntheir privacy, while parents often lack knowledge regarding their digital\nprivacy. As such, prior researchers have called for more collaborative\napproaches on adolescent online safety and networked privacy. In this paper, we\npropose family-centered approaches to foster parent-teen collaboration in\nensuring their mobile privacy and online safety while respecting individual\nprivacy, to enhance open discussion and teens' self-regulation. However,\nchallenges such as power imbalances and conflicts with family values arise when\nimplementing such approaches, making parent-teen collaboration difficult.\nTherefore, attending the family-centered design workshop will provide an\ninvaluable opportunity for us to discuss these challenges and identify best\nresearch practices for the future of collaborative online safety and privacy\nwithin families.",
+    "updated" : "2024-04-15T00:06:49Z",
+    "published" : "2024-04-04T02:34:46Z",
+    "authors" : [
+      {
+        "name" : "Mamtaj Akter"
+      },
+      {
+        "name" : "Zainab Agha"
+      },
+      {
+        "name" : "Ashwaq Alsoubai"
+      },
+      {
+        "name" : "Naima Ali"
+      },
+      {
+        "name" : "Pamela Wisniewski"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
   }
 ]
