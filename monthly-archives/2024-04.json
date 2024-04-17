@@ -1153,5 +1153,175 @@
     "categories" : [
       "cs.HC"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.10767v1",
+    "title" : "Privacy Can Arise Endogenously in an Economic System with Learning\n  Agents",
+    "summary" : "We study price-discrimination games between buyers and a seller where privacy\narises endogenously--that is, utility maximization yields equilibrium\nstrategies where privacy occurs naturally. In this game, buyers with a high\nvaluation for a good have an incentive to keep their valuation private, lest\nthe seller charge them a higher price. This yields an equilibrium where some\nbuyers will send a signal that misrepresents their type with some probability;\nwe refer to this as buyer-induced privacy. When the seller is able to publicly\ncommit to providing a certain privacy level, we find that their equilibrium\nresponse is to commit to ignore buyers' signals with some positive probability;\nwe refer to this as seller-induced privacy. We then turn our attention to a\nrepeated interaction setting where the game parameters are unknown and the\nseller cannot credibly commit to a level of seller-induced privacy. In this\nsetting, players must learn strategies based on information revealed in past\nrounds. We find that, even without commitment ability, seller-induced privacy\narises as a result of reputation building. We characterize the resulting\nseller-induced privacy and seller's utility under no-regret and\nno-policy-regret learning algorithms and verify these results through\nsimulations.",
+    "updated" : "2024-04-16T17:51:40Z",
+    "published" : "2024-04-16T17:51:40Z",
+    "authors" : [
+      {
+        "name" : "Nivasini Ananthakrishnan"
+      },
+      {
+        "name" : "Tiffany Ding"
+      },
+      {
+        "name" : "Mariel Werner"
+      },
+      {
+        "name" : "Sai Praneeth Karimireddy"
+      },
+      {
+        "name" : "Michael I. Jordan"
+      }
+    ],
+    "categories" : [
+      "cs.GT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.10258v1",
+    "title" : "CO-oPS: A Mobile App for Community Oversight of Privacy and Security",
+    "summary" : "Smartphone users install numerous mobile apps that require access to\ndifferent information from their devices. Much of this information is very\nsensitive, and users often struggle to manage these accesses due to their lack\nof tech expertise and knowledge regarding mobile privacy. Thus, they often seek\nhelp from others to make decisions regarding their mobile privacy and security.\nWe embedded these social processes in a mobile app titled \"CO-oPS'' (\"Community\nOversight for Privacy and Security\"). CO-oPS allows trusted community members\nto review one another's apps installed and permissions granted to those apps.\nCommunity members can provide feedback to one another regarding their privacy\nbehaviors. Users are also allowed to hide some of their mobile apps that they\ndo not like others to see, ensuring their personal privacy.",
+    "updated" : "2024-04-16T03:25:43Z",
+    "published" : "2024-04-16T03:25:43Z",
+    "authors" : [
+      {
+        "name" : "Mamtaj Akter"
+      },
+      {
+        "name" : "Leena Alghamdi"
+      },
+      {
+        "name" : "Dylan Gillespie"
+      },
+      {
+        "name" : "Nazmus Miazi"
+      },
+      {
+        "name" : "Jess Kropczynski"
+      },
+      {
+        "name" : "Heather Lipford"
+      },
+      {
+        "name" : "Pamela Wisniewski"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.10255v1",
+    "title" : "Privacy-Preserving Training-as-a-Service for On-Device Intelligence:\n  Concept, Architectural Scheme, and Open Problems",
+    "summary" : "On-device intelligence (ODI) enables artificial intelligence (AI)\napplications to run on end devices, providing real-time and customized AI\nservices without relying on remote servers. However, training models for\non-device deployment face significant challenges due to the decentralized and\nprivacy-sensitive nature of users' data, along with end-side constraints\nrelated to network connectivity, computation efficiency, etc. Existing training\nparadigms, such as cloud-based training, federated learning, and transfer\nlearning, fail to sufficiently address these practical constraints that are\nprevalent for devices. To overcome these challenges, we propose\nPrivacy-Preserving Training-as-a-Service (PTaaS), a novel service computing\nparadigm that provides privacy-friendly, customized AI model training for end\ndevices. PTaaS outsources the core training process to remote and powerful\ncloud or edge servers, efficiently developing customized on-device models based\non uploaded anonymous queries, ensuring data privacy while reducing the\ncomputation load on individual devices. We explore the definition, goals, and\ndesign principles of PTaaS, alongside emerging technologies that support the\nPTaaS paradigm. An architectural scheme for PTaaS is also presented, followed\nby a series of open problems that set the stage for future research directions\nin the field of PTaaS.",
+    "updated" : "2024-04-16T03:18:27Z",
+    "published" : "2024-04-16T03:18:27Z",
+    "authors" : [
+      {
+        "name" : "Zhiyuan Wu"
+      },
+      {
+        "name" : "Sheng Sun"
+      },
+      {
+        "name" : "Yuwei Wang"
+      },
+      {
+        "name" : "Min Liu"
+      },
+      {
+        "name" : "Bo Gao"
+      },
+      {
+        "name" : "Tianliu He"
+      },
+      {
+        "name" : "Wen Wang"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.09816v1",
+    "title" : "FedP3: Federated Personalized and Privacy-friendly Network Pruning under\n  Model Heterogeneity",
+    "summary" : "The interest in federated learning has surged in recent research due to its\nunique ability to train a global model using privacy-secured information held\nlocally on each client. This paper pays particular attention to the issue of\nclient-side model heterogeneity, a pervasive challenge in the practical\nimplementation of FL that escalates its complexity. Assuming a scenario where\neach client possesses varied memory storage, processing capabilities and\nnetwork bandwidth - a phenomenon referred to as system heterogeneity - there is\na pressing need to customize a unique model for each client. In response to\nthis, we present an effective and adaptable federated framework FedP3,\nrepresenting Federated Personalized and Privacy-friendly network Pruning,\ntailored for model heterogeneity scenarios. Our proposed methodology can\nincorporate and adapt well-established techniques to its specific instances. We\noffer a theoretical interpretation of FedP3 and its locally\ndifferential-private variant, DP-FedP3, and theoretically validate their\nefficiencies.",
+    "updated" : "2024-04-15T14:14:05Z",
+    "published" : "2024-04-15T14:14:05Z",
+    "authors" : [
+      {
+        "name" : "Kai Yi"
+      },
+      {
+        "name" : "Nidham Gazagnadou"
+      },
+      {
+        "name" : "Peter Richtárik"
+      },
+      {
+        "name" : "Lingjuan Lyu"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.10029v1",
+    "title" : "Federated Learning on Riemannian Manifolds with Differential Privacy",
+    "summary" : "In recent years, federated learning (FL) has emerged as a prominent paradigm\nin distributed machine learning. Despite the partial safeguarding of agents'\ninformation within FL systems, a malicious adversary can potentially infer\nsensitive information through various means. In this paper, we propose a\ngeneric private FL framework defined on Riemannian manifolds (PriRFed) based on\nthe differential privacy (DP) technique. We analyze the privacy guarantee while\nestablishing the convergence properties. To the best of our knowledge, this is\nthe first federated learning framework on Riemannian manifold with a privacy\nguarantee and convergence results. Numerical simulations are performed on\nsynthetic and real-world datasets to showcase the efficacy of the proposed\nPriRFed approach.",
+    "updated" : "2024-04-15T12:32:20Z",
+    "published" : "2024-04-15T12:32:20Z",
+    "authors" : [
+      {
+        "name" : "Zhenwei Huang"
+      },
+      {
+        "name" : "Wen Huang"
+      },
+      {
+        "name" : "Pratik Jawanpuria"
+      },
+      {
+        "name" : "Bamdev Mishra"
+      }
+    ],
+    "categories" : [
+      "math.OC",
+      "cs.CR",
+      "cs.LG",
+      "68W15, 68P27, 90C30, 90C48"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.10026v1",
+    "title" : "Distributed Federated Learning-Based Deep Learning Model for Privacy MRI\n  Brain Tumor Detection",
+    "summary" : "Distributed training can facilitate the processing of large medical image\ndatasets, and improve the accuracy and efficiency of disease diagnosis while\nprotecting patient privacy, which is crucial for achieving efficient medical\nimage analysis and accelerating medical research progress. This paper presents\nan innovative approach to medical image classification, leveraging Federated\nLearning (FL) to address the dual challenges of data privacy and efficient\ndisease diagnosis. Traditional Centralized Machine Learning models, despite\ntheir widespread use in medical imaging for tasks such as disease diagnosis,\nraise significant privacy concerns due to the sensitive nature of patient data.\nAs an alternative, FL emerges as a promising solution by allowing the training\nof a collective global model across local clients without centralizing the\ndata, thus preserving privacy. Focusing on the application of FL in Magnetic\nResonance Imaging (MRI) brain tumor detection, this study demonstrates the\neffectiveness of the Federated Learning framework coupled with EfficientNet-B0\nand the FedAvg algorithm in enhancing both privacy and diagnostic accuracy.\nThrough a meticulous selection of preprocessing methods, algorithms, and\nhyperparameters, and a comparative analysis of various Convolutional Neural\nNetwork (CNN) architectures, the research uncovers optimal strategies for image\nclassification. The experimental results reveal that EfficientNet-B0\noutperforms other models like ResNet in handling data heterogeneity and\nachieving higher accuracy and lower loss, highlighting the potential of FL in\novercoming the limitations of traditional models. The study underscores the\nsignificance of addressing data heterogeneity and proposes further research\ndirections for broadening the applicability of FL in medical image analysis.",
+    "updated" : "2024-04-15T09:07:19Z",
+    "published" : "2024-04-15T09:07:19Z",
+    "authors" : [
+      {
+        "name" : "Lisang Zhou"
+      },
+      {
+        "name" : "Meng Wang"
+      },
+      {
+        "name" : "Ning Zhou"
+      }
+    ],
+    "categories" : [
+      "eess.IV",
+      "cs.CR",
+      "cs.LG"
+    ]
   }
 ]
