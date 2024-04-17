@@ -2,6 +2,138 @@
 <h2>2024-04</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.10767v1">Privacy Can Arise Endogenously in an Economic System with Learning
+  Agents</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Science and Game Theory-5BC0EB">
+  <p><b>Published on:</b> 2024-04-16T17:51:40Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Nivasini Ananthakrishnan, Tiffany Ding, Mariel Werner, Sai Praneeth Karimireddy, Michael I. Jordan</p>
+    <p><b>Summary:</b> We study price-discrimination games between buyers and a seller where privacy
+arises endogenously--that is, utility maximization yields equilibrium
+strategies where privacy occurs naturally. In this game, buyers with a high
+valuation for a good have an incentive to keep their valuation private, lest
+the seller charge them a higher price. This yields an equilibrium where some
+buyers will send a signal that misrepresents their type with some probability;
+we refer to this as buyer-induced privacy. When the seller is able to publicly
+commit to providing a certain privacy level, we find that their equilibrium
+response is to commit to ignore buyers' signals with some positive probability;
+we refer to this as seller-induced privacy. We then turn our attention to a
+repeated interaction setting where the game parameters are unknown and the
+seller cannot credibly commit to a level of seller-induced privacy. In this
+setting, players must learn strategies based on information revealed in past
+rounds. We find that, even without commitment ability, seller-induced privacy
+arises as a result of reputation building. We characterize the resulting
+seller-induced privacy and seller's utility under no-regret and
+no-policy-regret learning algorithms and verify these results through
+simulations.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.10258v1">CO-oPS: A Mobile App for Community Oversight of Privacy and Security</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2024-04-16T03:25:43Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mamtaj Akter, Leena Alghamdi, Dylan Gillespie, Nazmus Miazi, Jess Kropczynski, Heather Lipford, Pamela Wisniewski</p>
+    <p><b>Summary:</b> Smartphone users install numerous mobile apps that require access to
+different information from their devices. Much of this information is very
+sensitive, and users often struggle to manage these accesses due to their lack
+of tech expertise and knowledge regarding mobile privacy. Thus, they often seek
+help from others to make decisions regarding their mobile privacy and security.
+We embedded these social processes in a mobile app titled "CO-oPS'' ("Community
+Oversight for Privacy and Security"). CO-oPS allows trusted community members
+to review one another's apps installed and permissions granted to those apps.
+Community members can provide feedback to one another regarding their privacy
+behaviors. Users are also allowed to hide some of their mobile apps that they
+do not like others to see, ensuring their personal privacy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.10255v1">Privacy-Preserving Training-as-a-Service for On-Device Intelligence:
+  Concept, Architectural Scheme, and Open Problems</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
+  <p><b>Published on:</b> 2024-04-16T03:18:27Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zhiyuan Wu, Sheng Sun, Yuwei Wang, Min Liu, Bo Gao, Tianliu He, Wen Wang</p>
+    <p><b>Summary:</b> On-device intelligence (ODI) enables artificial intelligence (AI)
+applications to run on end devices, providing real-time and customized AI
+services without relying on remote servers. However, training models for
+on-device deployment face significant challenges due to the decentralized and
+privacy-sensitive nature of users' data, along with end-side constraints
+related to network connectivity, computation efficiency, etc. Existing training
+paradigms, such as cloud-based training, federated learning, and transfer
+learning, fail to sufficiently address these practical constraints that are
+prevalent for devices. To overcome these challenges, we propose
+Privacy-Preserving Training-as-a-Service (PTaaS), a novel service computing
+paradigm that provides privacy-friendly, customized AI model training for end
+devices. PTaaS outsources the core training process to remote and powerful
+cloud or edge servers, efficiently developing customized on-device models based
+on uploaded anonymous queries, ensuring data privacy while reducing the
+computation load on individual devices. We explore the definition, goals, and
+design principles of PTaaS, alongside emerging technologies that support the
+PTaaS paradigm. An architectural scheme for PTaaS is also presented, followed
+by a series of open problems that set the stage for future research directions
+in the field of PTaaS.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.09816v1">FedP3: Federated Personalized and Privacy-friendly Network Pruning under
+  Model Heterogeneity</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-04-15T14:14:05Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Kai Yi, Nidham Gazagnadou, Peter Richtárik, Lingjuan Lyu</p>
+    <p><b>Summary:</b> The interest in federated learning has surged in recent research due to its
+unique ability to train a global model using privacy-secured information held
+locally on each client. This paper pays particular attention to the issue of
+client-side model heterogeneity, a pervasive challenge in the practical
+implementation of FL that escalates its complexity. Assuming a scenario where
+each client possesses varied memory storage, processing capabilities and
+network bandwidth - a phenomenon referred to as system heterogeneity - there is
+a pressing need to customize a unique model for each client. In response to
+this, we present an effective and adaptable federated framework FedP3,
+representing Federated Personalized and Privacy-friendly network Pruning,
+tailored for model heterogeneity scenarios. Our proposed methodology can
+incorporate and adapt well-established techniques to its specific instances. We
+offer a theoretical interpretation of FedP3 and its locally
+differential-private variant, DP-FedP3, and theoretically validate their
+efficiencies.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.10029v1">Federated Learning on Riemannian Manifolds with Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Optimization and Control-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
+  <p><b>Published on:</b> 2024-04-15T12:32:20Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zhenwei Huang, Wen Huang, Pratik Jawanpuria, Bamdev Mishra</p>
+    <p><b>Summary:</b> In recent years, federated learning (FL) has emerged as a prominent paradigm
+in distributed machine learning. Despite the partial safeguarding of agents'
+information within FL systems, a malicious adversary can potentially infer
+sensitive information through various means. In this paper, we propose a
+generic private FL framework defined on Riemannian manifolds (PriRFed) based on
+the differential privacy (DP) technique. We analyze the privacy guarantee while
+establishing the convergence properties. To the best of our knowledge, this is
+the first federated learning framework on Riemannian manifold with a privacy
+guarantee and convergence results. Numerical simulations are performed on
+synthetic and real-world datasets to showcase the efficacy of the proposed
+PriRFed approach.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2404.09724v1">Privacy-Preserving Federated Unlearning with Certified Client Removal</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2024-04-15T12:27:07Z</p>
@@ -54,6 +186,42 @@ setting that fits the constraints. And that is what this paper addresses. In
 this work, we enhance an attack detection system based on Convolutional Neural
 Networks with privacy-preserving technology based on PriMIA framework that is
 initially designed for medical data.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.10026v1">Distributed Federated Learning-Based Deep Learning Model for Privacy MRI
+  Brain Tumor Detection</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-04-15T09:07:19Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Lisang Zhou, Meng Wang, Ning Zhou</p>
+    <p><b>Summary:</b> Distributed training can facilitate the processing of large medical image
+datasets, and improve the accuracy and efficiency of disease diagnosis while
+protecting patient privacy, which is crucial for achieving efficient medical
+image analysis and accelerating medical research progress. This paper presents
+an innovative approach to medical image classification, leveraging Federated
+Learning (FL) to address the dual challenges of data privacy and efficient
+disease diagnosis. Traditional Centralized Machine Learning models, despite
+their widespread use in medical imaging for tasks such as disease diagnosis,
+raise significant privacy concerns due to the sensitive nature of patient data.
+As an alternative, FL emerges as a promising solution by allowing the training
+of a collective global model across local clients without centralizing the
+data, thus preserving privacy. Focusing on the application of FL in Magnetic
+Resonance Imaging (MRI) brain tumor detection, this study demonstrates the
+effectiveness of the Federated Learning framework coupled with EfficientNet-B0
+and the FedAvg algorithm in enhancing both privacy and diagnostic accuracy.
+Through a meticulous selection of preprocessing methods, algorithms, and
+hyperparameters, and a comparative analysis of various Convolutional Neural
+Network (CNN) architectures, the research uncovers optimal strategies for image
+classification. The experimental results reveal that EfficientNet-B0
+outperforms other models like ResNet in handling data heterogeneity and
+achieving higher accuracy and lower loss, highlighting the potential of FL in
+overcoming the limitations of traditional models. The study underscores the
+significance of addressing data heterogeneity and proposes further research
+directions for broadening the applicability of FL in medical image analysis.</p>
   </details>
 </div>
 
@@ -2280,7 +2448,7 @@ federated learning schemes.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.11445v2">Budget Recycling Differential Privacy</a></h3>
+  <h3><a href="http://arxiv.org/abs/2403.11445v3">Budget Recycling Differential Privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B"> 
   <p><b>Published on:</b> 2024-03-18T03:43:45Z</p>
   <details>
@@ -2648,210 +2816,6 @@ samples from almost $0$ samples to $16.3$ samples on average per target domain.
 This discovery underscores that the privacy risk with diffusion models is even
 more severe than previously recognized. Codes are available at
 https://github.com/VITA-Group/Shake-to-Leak.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.09351v1">LDPRecover: Recovering Frequencies from Poisoning Attacks against Local
-  Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-03-14T12:57:20Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Xinyue Sun, Qingqing Ye, Haibo Hu, Jiawei Duan, Tianyu Wo, Jie Xu, Renyu Yang</p>
-    <p><b>Summary:</b> Local differential privacy (LDP), which enables an untrusted server to
-collect aggregated statistics from distributed users while protecting the
-privacy of those users, has been widely deployed in practice. However, LDP
-protocols for frequency estimation are vulnerable to poisoning attacks, in
-which an attacker can poison the aggregated frequencies by manipulating the
-data sent from malicious users. Therefore, it is an open challenge to recover
-the accurate aggregated frequencies from poisoned ones.
-  In this work, we propose LDPRecover, a method that can recover accurate
-aggregated frequencies from poisoning attacks, even if the server does not
-learn the details of the attacks. In LDPRecover, we establish a genuine
-frequency estimator that theoretically guides the server to recover the
-frequencies aggregated from genuine users' data by eliminating the impact of
-malicious users' data in poisoned frequencies. Since the server has no idea of
-the attacks, we propose an adaptive attack to unify existing attacks and learn
-the statistics of the malicious data within this adaptive attack by exploiting
-the properties of LDP protocols. By taking the estimator and the learning
-statistics as constraints, we formulate the problem of recovering aggregated
-frequencies to approach the genuine ones as a constraint inference (CI)
-problem. Consequently, the server can obtain accurate aggregated frequencies by
-solving this problem optimally. Moreover, LDPRecover can serve as a frequency
-recovery paradigm that recovers more accurate aggregated frequencies by
-integrating attack details as new constraints in the CI problem. Our evaluation
-on two real-world datasets, three LDP protocols, and untargeted and targeted
-poisoning attacks shows that LDPRecover is both accurate and widely applicable
-against various poisoning attacks.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.09322v1">Privacy Preserving Anomaly Detection on Homomorphic Encrypted Data from
-  IoT Sensors</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-03-14T12:11:25Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Anca Hangan, Dragos Lazea, Tudor Cioara</p>
-    <p><b>Summary:</b> IoT devices have become indispensable components of our lives, and the
-advancement of AI technologies will make them even more pervasive, increasing
-the vulnerability to malfunctions or cyberattacks and raising privacy concerns.
-Encryption can mitigate these challenges; however, most existing anomaly
-detection techniques decrypt the data to perform the analysis, potentially
-undermining the encryption protection provided during transit or storage.
-Homomorphic encryption schemes are promising solutions as they enable the
-processing and execution of operations on IoT data while still encrypted,
-however, these schemes offer only limited operations, which poses challenges to
-their practical usage. In this paper, we propose a novel privacy-preserving
-anomaly detection solution designed for homomorphically encrypted data
-generated by IoT devices that efficiently detects abnormal values without
-performing decryption. We have adapted the Histogram-based anomaly detection
-technique for TFHE scheme to address limitations related to the input size and
-the depth of computation by implementing vectorized support operations. These
-operations include addition, value placement in buckets, labeling abnormal
-buckets based on a threshold frequency, labeling abnormal values based on their
-range, and bucket labels. Evaluation results show that the solution effectively
-detects anomalies without requiring data decryption and achieves consistent
-results comparable to the mechanism operating on plain data. Also, it shows
-robustness and resilience against various challenges commonly encountered in
-IoT environments, such as noisy sensor data, adversarial attacks, communication
-failures, and device malfunctions. Moreover, the time and computational
-overheads determined for several solution configurations, despite being large,
-are reasonable compared to those reported in existing literature.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.09752v1">Explainable Machine Learning-Based Security and Privacy Protection
-  Framework for Internet of Medical Things Systems</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2024-03-14T11:57:26Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ayoub Si-ahmed, Mohammed Ali Al-Garadi, Narhimene Boustia</p>
-    <p><b>Summary:</b> The Internet of Medical Things (IoMT) transcends traditional medical
-boundaries, enabling a transition from reactive treatment to proactive
-prevention. This innovative method revolutionizes healthcare by facilitating
-early disease detection and tailored care, particularly in chronic disease
-management, where IoMT automates treatments based on real-time health data
-collection. Nonetheless, its benefits are countered by significant security
-challenges that endanger the lives of its users due to the sensitivity and
-value of the processed data, thereby attracting malicious interests. Moreover,
-the utilization of wireless communication for data transmission exposes medical
-data to interception and tampering by cybercriminals. Additionally, anomalies
-may arise due to human errors, network interference, or hardware malfunctions.
-In this context, anomaly detection based on Machine Learning (ML) is an
-interesting solution, but it comes up against obstacles in terms of
-explicability and protection of privacy. To address these challenges, a new
-framework for Intrusion Detection Systems (IDS) is introduced, leveraging
-Artificial Neural Networks (ANN) for intrusion detection while utilizing
-Federated Learning (FL) for privacy preservation. Additionally, eXplainable
-Artificial Intelligence (XAI) methods are incorporated to enhance model
-explanation and interpretation. The efficacy of the proposed framework is
-evaluated and compared with centralized approaches using multiple datasets
-containing network and medical data, simulating various attack types impacting
-the confidentiality, integrity, and availability of medical and physiological
-data. The results obtained offer compelling evidence that the FL method
-performs comparably to the centralized method, demonstrating high performance.
-Additionally, it affords the dual advantage of safeguarding privacy and
-providing model explanation.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.09173v1">Bridging Quantum Computing and Differential Privacy: A Survey on Quantum
-  Computing Privacy</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-03-14T08:40:30Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yusheng Zhao, Hui Zhong, Xinyue Zhang, Chi Zhang, Miao Pan</p>
-    <p><b>Summary:</b> Quantum computing has attracted significant attention in areas such as
-cryptography, cybersecurity, and drug discovery. Due to the advantage of
-parallel processing, quantum computing can speed up the response to complex
-challenges and the processing of large-scale datasets. However, since quantum
-computing usually requires sensitive datasets, privacy breaches have become a
-vital concern. Differential privacy (DP) is a promising privacy-preserving
-method in classical computing and has been extended to the quantum domain in
-recent years. In this survey, we categorize the existing literature based on
-whether internal inherent noise or external artificial noise is used as a
-source to achieve DP in quantum computing. We explore how these approaches are
-applied at different stages of a quantum algorithm (i.e., state preparation,
-quantum circuit, and quantum measurement). We also discuss challenges and
-future directions for DP in quantum computing. By summarizing recent
-advancements, we hope to provide a comprehensive, up-to-date overview for
-researchers venturing into this field.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.09172v1">SHAN: Object-Level Privacy Detection via Inference on Scene
-  Heterogeneous Graph</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2024-03-14T08:32:14Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zhuohang Jiang, Bingkui Tong, Xia Du, Ahmed Alhammadi, Jizhe Zhou</p>
-    <p><b>Summary:</b> With the rise of social platforms, protecting privacy has become an important
-issue. Privacy object detection aims to accurately locate private objects in
-images. It is the foundation of safeguarding individuals' privacy rights and
-ensuring responsible data handling practices in the digital age. Since privacy
-of object is not shift-invariant, the essence of the privacy object detection
-task is inferring object privacy based on scene information. However, privacy
-object detection has long been studied as a subproblem of common object
-detection tasks. Therefore, existing methods suffer from serious deficiencies
-in accuracy, generalization, and interpretability. Moreover, creating
-large-scale privacy datasets is difficult due to legal constraints and existing
-privacy datasets lack label granularity. The granularity of existing privacy
-detection methods remains limited to the image level. To address the above two
-issues, we introduce two benchmark datasets for object-level privacy detection
-and propose SHAN, Scene Heterogeneous graph Attention Network, a model
-constructs a scene heterogeneous graph from an image and utilizes
-self-attention mechanisms for scene inference to obtain object privacy. Through
-experiments, we demonstrated that SHAN performs excellently in privacy object
-detection tasks, with all metrics surpassing those of the baseline model.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.10558v1">Adaptive Hybrid Masking Strategy for Privacy-Preserving Face Recognition
-  Against Model Inversion Attack</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-03-14T02:17:57Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yuanqing Huang, Yinggui Wang, Jianshu Li, Le Yang, Kai Song, Lei Wang</p>
-    <p><b>Summary:</b> The utilization of personal sensitive data in training face recognition (FR)
-models poses significant privacy concerns, as adversaries can employ model
-inversion attacks (MIA) to infer the original training data. Existing defense
-methods, such as data augmentation and differential privacy, have been employed
-to mitigate this issue. However, these methods often fail to strike an optimal
-balance between privacy and accuracy. To address this limitation, this paper
-introduces an adaptive hybrid masking algorithm against MIA. Specifically, face
-images are masked in the frequency domain using an adaptive MixUp strategy.
-Unlike the traditional MixUp algorithm, which is predominantly used for data
-augmentation, our modified approach incorporates frequency domain mixing.
-Previous studies have shown that increasing the number of images mixed in MixUp
-can enhance privacy preservation but at the expense of reduced face recognition
-accuracy. To overcome this trade-off, we develop an enhanced adaptive MixUp
-strategy based on reinforcement learning, which enables us to mix a larger
-number of images while maintaining satisfactory recognition accuracy. To
-optimize privacy protection, we propose maximizing the reward function (i.e.,
-the loss function of the FR system) during the training of the strategy
-network. While the loss function of the FR network is minimized in the phase of
-training the FR network. The strategy network and the face recognition network
-can be viewed as antagonistic entities in the training process, ultimately
-reaching a more balanced trade-off. Experimental results demonstrate that our
-proposed hybrid masking scheme outperforms existing defense algorithms in terms
-of privacy preservation and recognition accuracy against MIA.</p>
   </details>
 </div>
 
