@@ -1323,5 +1323,133 @@
       "cs.CR",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.11515v1",
+    "title" : "Embedding Privacy in Computational Social Science and Artificial\n  Intelligence Research",
+    "summary" : "Privacy is a human right. It ensures that individuals are free to engage in\ndiscussions, participate in groups, and form relationships online or offline\nwithout fear of their data being inappropriately harvested, analyzed, or\notherwise used to harm them. Preserving privacy has emerged as a critical\nfactor in research, particularly in the computational social science (CSS),\nartificial intelligence (AI) and data science domains, given their reliance on\nindividuals' data for novel insights. The increasing use of advanced\ncomputational models stands to exacerbate privacy concerns because, if\ninappropriately used, they can quickly infringe privacy rights and lead to\nadverse effects for individuals - especially vulnerable groups - and society.\nWe have already witnessed a host of privacy issues emerge with the advent of\nlarge language models (LLMs), such as ChatGPT, which further demonstrate the\nimportance of embedding privacy from the start. This article contributes to the\nfield by discussing the role of privacy and the primary issues that researchers\nworking in CSS, AI, data science and related domains are likely to face. It\nthen presents several key considerations for researchers to ensure participant\nprivacy is best preserved in their research design, data collection and use,\nanalysis, and dissemination of research results.",
+    "updated" : "2024-04-17T16:07:53Z",
+    "published" : "2024-04-17T16:07:53Z",
+    "authors" : [
+      {
+        "name" : "Keenan Jones"
+      },
+      {
+        "name" : "Fatima Zahrah"
+      },
+      {
+        "name" : "Jason R. C. Nurse"
+      }
+    ],
+    "categories" : [
+      "cs.AI",
+      "cs.CY",
+      "cs.ET",
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.11470v1",
+    "title" : "A Federated Learning Approach to Privacy Preserving Offensive Language\n  Identification",
+    "summary" : "The spread of various forms of offensive speech online is an important\nconcern in social media. While platforms have been investing heavily in ways of\ncoping with this problem, the question of privacy remains largely unaddressed.\nModels trained to detect offensive language on social media are trained and/or\nfine-tuned using large amounts of data often stored in centralized servers.\nSince most social media data originates from end users, we propose a privacy\npreserving decentralized architecture for identifying offensive language online\nby introducing Federated Learning (FL) in the context of offensive language\nidentification. FL is a decentralized architecture that allows multiple models\nto be trained locally without the need for data sharing hence preserving users'\nprivacy. We propose a model fusion approach to perform FL. We trained multiple\ndeep learning models on four publicly available English benchmark datasets\n(AHSD, HASOC, HateXplain, OLID) and evaluated their performance in detail. We\nalso present initial cross-lingual experiments in English and Spanish. We show\nthat the proposed model fusion approach outperforms baselines in all the\ndatasets while preserving privacy.",
+    "updated" : "2024-04-17T15:23:12Z",
+    "published" : "2024-04-17T15:23:12Z",
+    "authors" : [
+      {
+        "name" : "Marcos Zampieri"
+      },
+      {
+        "name" : "Damith Premasiri"
+      },
+      {
+        "name" : "Tharindu Ranasinghe"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.11450v1",
+    "title" : "Real-Time Trajectory Synthesis with Local Differential Privacy",
+    "summary" : "Trajectory streams are being generated from location-aware devices, such as\nsmartphones and in-vehicle navigation systems. Due to the sensitive nature of\nthe location data, directly sharing user trajectories suffers from privacy\nleakage issues. Local differential privacy (LDP), which perturbs sensitive data\non the user side before it is shared or analyzed, emerges as a promising\nsolution for private trajectory stream collection and analysis. Unfortunately,\nexisting stream release approaches often neglect the rich spatial-temporal\ncontext information within trajectory streams, resulting in suboptimal utility\nand limited types of downstream applications. To this end, we propose RetraSyn,\na novel real-time trajectory synthesis framework, which is able to perform\non-the-fly trajectory synthesis based on the mobility patterns privately\nextracted from users' trajectory streams. Thus, the downstream trajectory\nanalysis can be performed on the high-utility synthesized data with privacy\nprotection. We also take the genuine behaviors of real-world mobile travelers\ninto consideration, ensuring authenticity and practicality. The key components\nof RetraSyn include the global mobility model, dynamic mobility update\nmechanism, real-time synthesis, and adaptive allocation strategy. We conduct\nextensive experiments on multiple real-world and synthetic trajectory datasets\nunder various location-based utility metrics, encompassing both streaming and\nhistorical scenarios. The empirical results demonstrate the superiority and\nversatility of our proposed framework.",
+    "updated" : "2024-04-17T14:55:49Z",
+    "published" : "2024-04-17T14:55:49Z",
+    "authors" : [
+      {
+        "name" : "Yujia Hu"
+      },
+      {
+        "name" : "Yuntao Du"
+      },
+      {
+        "name" : "Zhikun Zhang"
+      },
+      {
+        "name" : "Ziquan Fang"
+      },
+      {
+        "name" : "Lu Chen"
+      },
+      {
+        "name" : "Kai Zheng"
+      },
+      {
+        "name" : "Yunjun Gao"
+      }
+    ],
+    "categories" : [
+      "cs.DB",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.11388v1",
+    "title" : "Enhancing Data Privacy In Wireless Sensor Networks: Investigating\n  Techniques And Protocols To Protect Privacy Of Data Transmitted Over Wireless\n  Sensor Networks In Critical Applications Of Healthcare And National Security",
+    "summary" : "The article discusses the emergence of Wireless Sensor Networks (WSNs) as a\ngroundbreaking technology in data processing and communication. It outlines how\nWSNs, composed of dispersed autonomous sensors, are utilized to monitor\nphysical and environmental factors, transmitting data wirelessly for analysis.\nThe article explores various applications of WSNs in healthcare, national\nsecurity, emergency response, and infrastructure monitoring, highlighting their\nroles in enhancing patient care, public health surveillance, border security,\ndisaster management, and military operations. Additionally, it examines the\nfoundational concepts of data privacy in WSNs, focusing on encryption\ntechniques, authentication mechanisms, anonymization techniques, and access\ncontrol mechanisms. The article also addresses vulnerabilities, threats, and\nchallenges related to data privacy in healthcare and national security\ncontexts, emphasizing regulatory compliance, ethical considerations, and\nsocio-economic factors. Furthermore, it introduces the Diffusion of Innovation\nTheory as a framework for understanding the adoption of privacy-enhancing\ntechnologies in WSNs. Finally, the article reviews empirical studies\ndemonstrating the efficacy of security solutions in preserving data privacy in\nWSNs, offering insights into advancements in safeguarding sensitive\ninformation.",
+    "updated" : "2024-04-17T13:48:30Z",
+    "published" : "2024-04-17T13:48:30Z",
+    "authors" : [
+      {
+        "name" : "Akinsola Ahmed"
+      },
+      {
+        "name" : "Ejiofor Oluomachi"
+      },
+      {
+        "name" : "Akinde Abdullah"
+      },
+      {
+        "name" : "Njoku Tochukwu"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.NI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.10995v1",
+    "title" : "Clipped SGD Algorithms for Privacy Preserving Performative Prediction:\n  Bias Amplification and Remedies",
+    "summary" : "Clipped stochastic gradient descent (SGD) algorithms are among the most\npopular algorithms for privacy preserving optimization that reduces the leakage\nof users' identity in model training. This paper studies the convergence\nproperties of these algorithms in a performative prediction setting, where the\ndata distribution may shift due to the deployed prediction model. For example,\nthe latter is caused by strategical users during the training of loan policy\nfor banks. Our contributions are two-fold. First, we show that the\nstraightforward implementation of a projected clipped SGD (PCSGD) algorithm may\nconverge to a biased solution compared to the performative stable solution. We\nquantify the lower and upper bound for the magnitude of the bias and\ndemonstrate a bias amplification phenomenon where the bias grows with the\nsensitivity of the data distribution. Second, we suggest two remedies to the\nbias amplification effect. The first one utilizes an optimal step size design\nfor PCSGD that takes the privacy guarantee into account. The second one uses\nthe recently proposed DiceSGD algorithm [Zhang et al., 2024]. We show that the\nlatter can successfully remove the bias and converge to the performative stable\nsolution. Numerical experiments verify our analysis.",
+    "updated" : "2024-04-17T02:17:05Z",
+    "published" : "2024-04-17T02:17:05Z",
+    "authors" : [
+      {
+        "name" : "Qiang Li"
+      },
+      {
+        "name" : "Michal Yemini"
+      },
+      {
+        "name" : "Hoi-To Wai"
+      }
+    ],
+    "categories" : [
+      "math.OC",
+      "cs.CR",
+      "cs.LG"
+    ]
   }
 ]
