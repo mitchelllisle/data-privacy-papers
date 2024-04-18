@@ -2,6 +2,157 @@
 <h2>2024-04</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.11515v1">Embedding Privacy in Computational Social Science and Artificial
+  Intelligence Research</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2024-04-17T16:07:53Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Keenan Jones, Fatima Zahrah, Jason R. C. Nurse</p>
+    <p><b>Summary:</b> Privacy is a human right. It ensures that individuals are free to engage in
+discussions, participate in groups, and form relationships online or offline
+without fear of their data being inappropriately harvested, analyzed, or
+otherwise used to harm them. Preserving privacy has emerged as a critical
+factor in research, particularly in the computational social science (CSS),
+artificial intelligence (AI) and data science domains, given their reliance on
+individuals' data for novel insights. The increasing use of advanced
+computational models stands to exacerbate privacy concerns because, if
+inappropriately used, they can quickly infringe privacy rights and lead to
+adverse effects for individuals - especially vulnerable groups - and society.
+We have already witnessed a host of privacy issues emerge with the advent of
+large language models (LLMs), such as ChatGPT, which further demonstrate the
+importance of embedding privacy from the start. This article contributes to the
+field by discussing the role of privacy and the primary issues that researchers
+working in CSS, AI, data science and related domains are likely to face. It
+then presents several key considerations for researchers to ensure participant
+privacy is best preserved in their research design, data collection and use,
+analysis, and dissemination of research results.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.11470v1">A Federated Learning Approach to Privacy Preserving Offensive Language
+  Identification</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-04-17T15:23:12Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Marcos Zampieri, Damith Premasiri, Tharindu Ranasinghe</p>
+    <p><b>Summary:</b> The spread of various forms of offensive speech online is an important
+concern in social media. While platforms have been investing heavily in ways of
+coping with this problem, the question of privacy remains largely unaddressed.
+Models trained to detect offensive language on social media are trained and/or
+fine-tuned using large amounts of data often stored in centralized servers.
+Since most social media data originates from end users, we propose a privacy
+preserving decentralized architecture for identifying offensive language online
+by introducing Federated Learning (FL) in the context of offensive language
+identification. FL is a decentralized architecture that allows multiple models
+to be trained locally without the need for data sharing hence preserving users'
+privacy. We propose a model fusion approach to perform FL. We trained multiple
+deep learning models on four publicly available English benchmark datasets
+(AHSD, HASOC, HateXplain, OLID) and evaluated their performance in detail. We
+also present initial cross-lingual experiments in English and Spanish. We show
+that the proposed model fusion approach outperforms baselines in all the
+datasets while preserving privacy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.11450v1">Real-Time Trajectory Synthesis with Local Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-04-17T14:55:49Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yujia Hu, Yuntao Du, Zhikun Zhang, Ziquan Fang, Lu Chen, Kai Zheng, Yunjun Gao</p>
+    <p><b>Summary:</b> Trajectory streams are being generated from location-aware devices, such as
+smartphones and in-vehicle navigation systems. Due to the sensitive nature of
+the location data, directly sharing user trajectories suffers from privacy
+leakage issues. Local differential privacy (LDP), which perturbs sensitive data
+on the user side before it is shared or analyzed, emerges as a promising
+solution for private trajectory stream collection and analysis. Unfortunately,
+existing stream release approaches often neglect the rich spatial-temporal
+context information within trajectory streams, resulting in suboptimal utility
+and limited types of downstream applications. To this end, we propose RetraSyn,
+a novel real-time trajectory synthesis framework, which is able to perform
+on-the-fly trajectory synthesis based on the mobility patterns privately
+extracted from users' trajectory streams. Thus, the downstream trajectory
+analysis can be performed on the high-utility synthesized data with privacy
+protection. We also take the genuine behaviors of real-world mobile travelers
+into consideration, ensuring authenticity and practicality. The key components
+of RetraSyn include the global mobility model, dynamic mobility update
+mechanism, real-time synthesis, and adaptive allocation strategy. We conduct
+extensive experiments on multiple real-world and synthetic trajectory datasets
+under various location-based utility metrics, encompassing both streaming and
+historical scenarios. The empirical results demonstrate the superiority and
+versatility of our proposed framework.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.11388v1">Enhancing Data Privacy In Wireless Sensor Networks: Investigating
+  Techniques And Protocols To Protect Privacy Of Data Transmitted Over Wireless
+  Sensor Networks In Critical Applications Of Healthcare And National Security</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
+  <p><b>Published on:</b> 2024-04-17T13:48:30Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Akinsola Ahmed, Ejiofor Oluomachi, Akinde Abdullah, Njoku Tochukwu</p>
+    <p><b>Summary:</b> The article discusses the emergence of Wireless Sensor Networks (WSNs) as a
+groundbreaking technology in data processing and communication. It outlines how
+WSNs, composed of dispersed autonomous sensors, are utilized to monitor
+physical and environmental factors, transmitting data wirelessly for analysis.
+The article explores various applications of WSNs in healthcare, national
+security, emergency response, and infrastructure monitoring, highlighting their
+roles in enhancing patient care, public health surveillance, border security,
+disaster management, and military operations. Additionally, it examines the
+foundational concepts of data privacy in WSNs, focusing on encryption
+techniques, authentication mechanisms, anonymization techniques, and access
+control mechanisms. The article also addresses vulnerabilities, threats, and
+challenges related to data privacy in healthcare and national security
+contexts, emphasizing regulatory compliance, ethical considerations, and
+socio-economic factors. Furthermore, it introduces the Diffusion of Innovation
+Theory as a framework for understanding the adoption of privacy-enhancing
+technologies in WSNs. Finally, the article reviews empirical studies
+demonstrating the efficacy of security solutions in preserving data privacy in
+WSNs, offering insights into advancements in safeguarding sensitive
+information.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.10995v1">Clipped SGD Algorithms for Privacy Preserving Performative Prediction:
+  Bias Amplification and Remedies</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Optimization and Control-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-04-17T02:17:05Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Qiang Li, Michal Yemini, Hoi-To Wai</p>
+    <p><b>Summary:</b> Clipped stochastic gradient descent (SGD) algorithms are among the most
+popular algorithms for privacy preserving optimization that reduces the leakage
+of users' identity in model training. This paper studies the convergence
+properties of these algorithms in a performative prediction setting, where the
+data distribution may shift due to the deployed prediction model. For example,
+the latter is caused by strategical users during the training of loan policy
+for banks. Our contributions are two-fold. First, we show that the
+straightforward implementation of a projected clipped SGD (PCSGD) algorithm may
+converge to a biased solution compared to the performative stable solution. We
+quantify the lower and upper bound for the magnitude of the bias and
+demonstrate a bias amplification phenomenon where the bias grows with the
+sensitivity of the data distribution. Second, we suggest two remedies to the
+bias amplification effect. The first one utilizes an optimal step size design
+for PCSGD that takes the privacy guarantee into account. The second one uses
+the recently proposed DiceSGD algorithm [Zhang et al., 2024]. We show that the
+latter can successfully remove the bias and converge to the performative stable
+solution. Numerical experiments verify our analysis.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2404.10767v1">Privacy Can Arise Endogenously in an Economic System with Learning
   Agents</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Science and Game Theory-5BC0EB">
@@ -2658,164 +2809,6 @@ applications. Finally, we discuss challenges, posed by the large compute
 requirements of state-of-the-art models, that future research in this area
 should address. Our prototype is open-source and available at:
 https://github.com/Vidminas/socialgenpod/.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.10307v1">Chernoff Information as a Privacy Constraint for Adversarial
-  Classification</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
-  <p><b>Published on:</b> 2024-03-15T13:47:44Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ayşe Ünsal, Melek Önen</p>
-    <p><b>Summary:</b> This work studies a privacy metric based on Chernoff information,
-\textit{Chernoff differential privacy}, due to its significance in
-characterization of classifier performance. Adversarial classification, as any
-other classification problem is built around minimization of the (average or
-correct detection) probability of error in deciding on either of the classes in
-the case of binary classification. Unlike the classical hypothesis testing
-problem, where the false alarm and mis-detection probabilities are handled
-separately resulting in an asymmetric behavior of the best error exponent, in
-this work, we focus on the Bayesian setting and characterize the relationship
-between the best error exponent of the average error probability and
-$\varepsilon-$differential privacy. Accordingly, we re-derive Chernoff
-differential privacy in terms of $\varepsilon-$differential privacy using the
-Radon-Nikodym derivative and show that it satisfies the composition property.
-Subsequently, we present numerical evaluation results, which demonstrates that
-Chernoff information outperforms Kullback-Leibler divergence as a function of
-the privacy parameter $\varepsilon$, the impact of the adversary's attack and
-global sensitivity for the problem of adversarial classification in Laplace
-mechanisms.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.10116v1">Instance-optimal Clipping for Summation Problems in the Shuffle Model of
-  Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B">
-  <p><b>Published on:</b> 2024-03-15T09:04:00Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Wei Dong, Qiyao Luo, Giulia Fanti, Elaine Shi, Ke Yi</p>
-    <p><b>Summary:</b> Differentially private mechanisms achieving worst-case optimal error bounds
-(e.g., the classical Laplace mechanism) are well-studied in the literature.
-However, when typical data are far from the worst case,
-\emph{instance-specific} error bounds -- which depend on the largest value in
-the dataset -- are more meaningful. For example, consider the sum estimation
-problem, where each user has an integer $x_i$ from the domain $\{0,1,\dots,U\}$
-and we wish to estimate $\sum_i x_i$. This has a worst-case optimal error of
-$O(U/\varepsilon)$, while recent work has shown that the clipping mechanism can
-achieve an instance-optimal error of $O(\max_i x_i \cdot \log\log U
-/\varepsilon)$. Under the shuffle model, known instance-optimal protocols are
-less communication-efficient. The clipping mechanism also works in the shuffle
-model, but requires two rounds: Round one finds the clipping threshold, and
-round two does the clipping and computes the noisy sum of the clipped data. In
-this paper, we show how these two seemingly sequential steps can be done
-simultaneously in one round using just $1+o(1)$ messages per user, while
-maintaining the instance-optimal error bound. We also extend our technique to
-the high-dimensional sum estimation problem and sparse vector aggregation
-(a.k.a. frequency estimation under user-level differential privacy). Our
-experiments show order-of-magnitude improvements of our protocols in terms of
-error compared with prior work.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.09836v1">Empowering Healthcare through Privacy-Preserving MRI Analysis</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2024-03-14T19:51:18Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Al Amin, Kamrul Hasan, Saleh Zein-Sabatto, Deo Chimba, Liang Hong, Imtiaz Ahmed, Tariqul Islam</p>
-    <p><b>Summary:</b> In the healthcare domain, Magnetic Resonance Imaging (MRI) assumes a pivotal
-role, as it employs Artificial Intelligence (AI) and Machine Learning (ML)
-methodologies to extract invaluable insights from imaging data. Nonetheless,
-the imperative need for patient privacy poses significant challenges when
-collecting data from diverse healthcare sources. Consequently, the Deep
-Learning (DL) communities occasionally face difficulties detecting rare
-features. In this research endeavor, we introduce the Ensemble-Based Federated
-Learning (EBFL) Framework, an innovative solution tailored to address this
-challenge. The EBFL framework deviates from the conventional approach by
-emphasizing model features over sharing sensitive patient data. This unique
-methodology fosters a collaborative and privacy-conscious environment for
-healthcare institutions, empowering them to harness the capabilities of a
-centralized server for model refinement while upholding the utmost data privacy
-standards.Conversely, a robust ensemble architecture boasts potent feature
-extraction capabilities, distinguishing itself from a single DL model. This
-quality makes it remarkably dependable for MRI analysis. By harnessing our
-groundbreaking EBFL methodology, we have achieved remarkable precision in the
-classification of brain tumors, including glioma, meningioma, pituitary, and
-non-tumor instances, attaining a precision rate of 94% for the Global model and
-an impressive 96% for the Ensemble model. Our models underwent rigorous
-evaluation using conventional performance metrics such as Accuracy, Precision,
-Recall, and F1 Score. Integrating DL within the Federated Learning (FL)
-framework has yielded a methodology that offers precise and dependable
-diagnostics for detecting brain tumors.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.09562v1">PreCurious: How Innocent Pre-Trained Language Models Turn into Privacy
-  Traps</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-03-14T16:54:17Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ruixuan Liu, Tianhao Wang, Yang Cao, Li Xiong</p>
-    <p><b>Summary:</b> The pre-training and fine-tuning paradigm has demonstrated its effectiveness
-and has become the standard approach for tailoring language models to various
-tasks. Currently, community-based platforms offer easy access to various
-pre-trained models, as anyone can publish without strict validation processes.
-However, a released pre-trained model can be a privacy trap for fine-tuning
-datasets if it is carefully designed. In this work, we propose PreCurious
-framework to reveal the new attack surface where the attacker releases the
-pre-trained model and gets a black-box access to the final fine-tuned model.
-PreCurious aims to escalate the general privacy risk of both membership
-inference and data extraction. The key intuition behind PreCurious is to
-manipulate the memorization stage of the pre-trained model and guide
-fine-tuning with a seemingly legitimate configuration. The effectiveness of
-defending against privacy attacks on a fine-tuned model seems promising, as
-empirical and theoretical evidence suggests that parameter-efficient and
-differentially private fine-tuning techniques are invulnerable to privacy
-attacks. But PreCurious demonstrates the possibility of breaking up
-invulnerability in a stealthy manner compared to fine-tuning on a benign model.
-By further leveraging a sanitized dataset, PreCurious can extract originally
-unexposed secrets under differentially private fine-tuning. Thus, PreCurious
-raises warnings for users who download pre-trained models from unknown sources,
-rely solely on tutorials or common-sense defenses, and previously release
-sanitized datasets even after perfect scrubbing.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.09450v1">Shake to Leak: Fine-tuning Diffusion Models Can Amplify the Generative
-  Privacy Risk</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-03-14T14:48:37Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zhangheng Li, Junyuan Hong, Bo Li, Zhangyang Wang</p>
-    <p><b>Summary:</b> While diffusion models have recently demonstrated remarkable progress in
-generating realistic images, privacy risks also arise: published models or APIs
-could generate training images and thus leak privacy-sensitive training
-information. In this paper, we reveal a new risk, Shake-to-Leak (S2L), that
-fine-tuning the pre-trained models with manipulated data can amplify the
-existing privacy risks. We demonstrate that S2L could occur in various standard
-fine-tuning strategies for diffusion models, including concept-injection
-methods (DreamBooth and Textual Inversion) and parameter-efficient methods
-(LoRA and Hypernetwork), as well as their combinations. In the worst case, S2L
-can amplify the state-of-the-art membership inference attack (MIA) on diffusion
-models by $5.4\%$ (absolute difference) AUC and can increase extracted private
-samples from almost $0$ samples to $16.3$ samples on average per target domain.
-This discovery underscores that the privacy risk with diffusion models is even
-more severe than previously recognized. Codes are available at
-https://github.com/VITA-Group/Shake-to-Leak.</p>
   </details>
 </div>
 
