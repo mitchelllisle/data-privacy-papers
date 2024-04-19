@@ -2,6 +2,64 @@
 <h2>2024-04</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.12186v1">Privacy-Preserving UCB Decision Process Verification via zk-SNARKs</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-04-18T13:49:07Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xikun Jiang, He Lyu, Chenhao Ying, Yibin Xu, Boris Düdder, Yuan Luo</p>
+    <p><b>Summary:</b> With the increasingly widespread application of machine learning, how to
+strike a balance between protecting the privacy of data and algorithm
+parameters and ensuring the verifiability of machine learning has always been a
+challenge. This study explores the intersection of reinforcement learning and
+data privacy, specifically addressing the Multi-Armed Bandit (MAB) problem with
+the Upper Confidence Bound (UCB) algorithm. We introduce zkUCB, an innovative
+algorithm that employs the Zero-Knowledge Succinct Non-Interactive Argument of
+Knowledge (zk-SNARKs) to enhance UCB. zkUCB is carefully designed to safeguard
+the confidentiality of training data and algorithmic parameters, ensuring
+transparent UCB decision-making. Experiments highlight zkUCB's superior
+performance, attributing its enhanced reward to judicious quantization bit
+usage that reduces information entropy in the decision-making process. zkUCB's
+proof size and verification time scale linearly with the execution steps of
+zkUCB. This showcases zkUCB's adept balance between data security and
+operational efficiency. This approach contributes significantly to the ongoing
+discourse on reinforcing data privacy in complex decision-making processes,
+offering a promising solution for privacy-sensitive applications.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.11938v1">HyDiscGAN: A Hybrid Distributed cGAN for Audio-Visual Privacy
+  Preservation in Multimodal Sentiment Analysis</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Multimedia-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Sound-D91E36"> 
+  <p><b>Published on:</b> 2024-04-18T06:38:02Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zhuojia Wu, Qi Zhang, Duoqian Miao, Kun Yi, Wei Fan, Liang Hu</p>
+    <p><b>Summary:</b> Multimodal Sentiment Analysis (MSA) aims to identify speakers' sentiment
+tendencies in multimodal video content, raising serious concerns about privacy
+risks associated with multimodal data, such as voiceprints and facial images.
+Recent distributed collaborative learning has been verified as an effective
+paradigm for privacy preservation in multimodal tasks. However, they often
+overlook the privacy distinctions among different modalities, struggling to
+strike a balance between performance and privacy preservation. Consequently, it
+poses an intriguing question of maximizing multimodal utilization to improve
+performance while simultaneously protecting necessary modalities. This paper
+forms the first attempt at modality-specified (i.e., audio and visual) privacy
+preservation in MSA tasks. We propose a novel Hybrid Distributed cross-modality
+cGAN framework (HyDiscGAN), which learns multimodality alignment to generate
+fake audio and visual features conditioned on shareable de-identified textual
+data. The objective is to leverage the fake features to approximate real audio
+and visual content to guarantee privacy preservation while effectively
+enhancing performance. Extensive experiments show that compared with the
+state-of-the-art MSA model, HyDiscGAN can achieve superior or competitive
+performance while preserving privacy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2404.11515v1">Embedding Privacy in Computational Social Science and Artificial
   Intelligence Research</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
@@ -2756,59 +2814,6 @@ training process to further enhance the inference accuracy. Experiment results
 show that when ciphertext inference is performed on 4096 input images, compared
 with the current most efficient channel-wise method, the inference accuracy is
 improved by 1.65%, and the amortized inference time is reduced by 99.5%.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.10676v1">Secure Distributed Storage: Optimal Trade-Off Between Storage Rate and
-  Privacy Leakage</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
-  <p><b>Published on:</b> 2024-03-15T20:50:46Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Remi A. Chou, Joerg Kliewer</p>
-    <p><b>Summary:</b> Consider the problem of storing data in a distributed manner over $T$
-servers. Specifically, the data needs to (i) be recoverable from any $\tau$
-servers, and (ii) remain private from any $z$ colluding servers, where privacy
-is quantified in terms of mutual information between the data and all the
-information available at any $z$ colluding servers. For this model, our main
-results are (i) the fundamental trade-off between storage size and the level of
-desired privacy, and (ii) the optimal amount of local randomness necessary at
-the encoder. As a byproduct, our results provide an optimal lower bound on the
-individual share size of ramp secret sharing schemes under a more general
-leakage symmetry condition than the ones previously considered in the
-literature.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.10408v1">SocialGenPod: Privacy-Friendly Generative AI Social Web Applications
-  with Decentralised Personal Data Stores</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Social and Information Networks-662E9B"> 
-  <p><b>Published on:</b> 2024-03-15T15:43:02Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Vidminas Vizgirda, Rui Zhao, Naman Goel</p>
-    <p><b>Summary:</b> We present SocialGenPod, a decentralised and privacy-friendly way of
-deploying generative AI Web applications. Unlike centralised Web and data
-architectures that keep user data tied to application and service providers, we
-show how one can use Solid -- a decentralised Web specification -- to decouple
-user data from generative AI applications. We demonstrate SocialGenPod using a
-prototype that allows users to converse with different Large Language Models,
-optionally leveraging Retrieval Augmented Generation to generate answers
-grounded in private documents stored in any Solid Pod that the user is allowed
-to access, directly or indirectly. SocialGenPod makes use of Solid access
-control mechanisms to give users full control of determining who has access to
-data stored in their Pods. SocialGenPod keeps all user data (chat history, app
-configuration, personal documents, etc) securely in the user's personal Pod;
-separate from specific model or application providers. Besides better privacy
-controls, this approach also enables portability across different services and
-applications. Finally, we discuss challenges, posed by the large compute
-requirements of state-of-the-art models, that future research in this area
-should address. Our prototype is open-source and available at:
-https://github.com/Vidminas/socialgenpod/.</p>
   </details>
 </div>
 
