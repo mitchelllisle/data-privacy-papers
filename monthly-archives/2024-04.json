@@ -1451,5 +1451,69 @@
       "cs.CR",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.12186v1",
+    "title" : "Privacy-Preserving UCB Decision Process Verification via zk-SNARKs",
+    "summary" : "With the increasingly widespread application of machine learning, how to\nstrike a balance between protecting the privacy of data and algorithm\nparameters and ensuring the verifiability of machine learning has always been a\nchallenge. This study explores the intersection of reinforcement learning and\ndata privacy, specifically addressing the Multi-Armed Bandit (MAB) problem with\nthe Upper Confidence Bound (UCB) algorithm. We introduce zkUCB, an innovative\nalgorithm that employs the Zero-Knowledge Succinct Non-Interactive Argument of\nKnowledge (zk-SNARKs) to enhance UCB. zkUCB is carefully designed to safeguard\nthe confidentiality of training data and algorithmic parameters, ensuring\ntransparent UCB decision-making. Experiments highlight zkUCB's superior\nperformance, attributing its enhanced reward to judicious quantization bit\nusage that reduces information entropy in the decision-making process. zkUCB's\nproof size and verification time scale linearly with the execution steps of\nzkUCB. This showcases zkUCB's adept balance between data security and\noperational efficiency. This approach contributes significantly to the ongoing\ndiscourse on reinforcing data privacy in complex decision-making processes,\noffering a promising solution for privacy-sensitive applications.",
+    "updated" : "2024-04-18T13:49:07Z",
+    "published" : "2024-04-18T13:49:07Z",
+    "authors" : [
+      {
+        "name" : "Xikun Jiang"
+      },
+      {
+        "name" : "He Lyu"
+      },
+      {
+        "name" : "Chenhao Ying"
+      },
+      {
+        "name" : "Yibin Xu"
+      },
+      {
+        "name" : "Boris Düdder"
+      },
+      {
+        "name" : "Yuan Luo"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.11938v1",
+    "title" : "HyDiscGAN: A Hybrid Distributed cGAN for Audio-Visual Privacy\n  Preservation in Multimodal Sentiment Analysis",
+    "summary" : "Multimodal Sentiment Analysis (MSA) aims to identify speakers' sentiment\ntendencies in multimodal video content, raising serious concerns about privacy\nrisks associated with multimodal data, such as voiceprints and facial images.\nRecent distributed collaborative learning has been verified as an effective\nparadigm for privacy preservation in multimodal tasks. However, they often\noverlook the privacy distinctions among different modalities, struggling to\nstrike a balance between performance and privacy preservation. Consequently, it\nposes an intriguing question of maximizing multimodal utilization to improve\nperformance while simultaneously protecting necessary modalities. This paper\nforms the first attempt at modality-specified (i.e., audio and visual) privacy\npreservation in MSA tasks. We propose a novel Hybrid Distributed cross-modality\ncGAN framework (HyDiscGAN), which learns multimodality alignment to generate\nfake audio and visual features conditioned on shareable de-identified textual\ndata. The objective is to leverage the fake features to approximate real audio\nand visual content to guarantee privacy preservation while effectively\nenhancing performance. Extensive experiments show that compared with the\nstate-of-the-art MSA model, HyDiscGAN can achieve superior or competitive\nperformance while preserving privacy.",
+    "updated" : "2024-04-18T06:38:02Z",
+    "published" : "2024-04-18T06:38:02Z",
+    "authors" : [
+      {
+        "name" : "Zhuojia Wu"
+      },
+      {
+        "name" : "Qi Zhang"
+      },
+      {
+        "name" : "Duoqian Miao"
+      },
+      {
+        "name" : "Kun Yi"
+      },
+      {
+        "name" : "Wei Fan"
+      },
+      {
+        "name" : "Liang Hu"
+      }
+    ],
+    "categories" : [
+      "cs.MM",
+      "cs.DC",
+      "cs.SD",
+      "eess.AS"
+    ]
   }
 ]
