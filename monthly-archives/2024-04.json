@@ -1515,5 +1515,47 @@
       "cs.SD",
       "eess.AS"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.12837v1",
+    "title" : "Towards a decentralized data privacy protocol for self-sovereignty in\n  the digital world",
+    "summary" : "A typical user interacts with many digital services nowadays, providing these\nservices with their data. As of now, the management of privacy preferences is\nservice-centric: Users must manage their privacy preferences according to the\nrules of each service provider, meaning that every provider offers its unique\nmechanisms for users to control their privacy settings. However, managing\nprivacy preferences holistically (i.e., across multiple digital services) is\njust impractical. In this vision paper, we propose a paradigm shift towards an\nenriched user-centric approach for cross-service privacy preferences\nmanagement: the realization of a decentralized data privacy protocol.",
+    "updated" : "2024-04-19T12:19:04Z",
+    "published" : "2024-04-19T12:19:04Z",
+    "authors" : [
+      {
+        "name" : "Rodrigo Falcão"
+      },
+      {
+        "name" : "Arghavan Hosseinzadeh"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.SE"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.12730v1",
+    "title" : "PATE-TripleGAN: Privacy-Preserving Image Synthesis with Gaussian\n  Differential Privacy",
+    "summary" : "Conditional Generative Adversarial Networks (CGANs) exhibit significant\npotential in supervised learning model training by virtue of their ability to\ngenerate realistic labeled images. However, numerous studies have indicated the\nprivacy leakage risk in CGANs models. The solution DPCGAN, incorporating the\ndifferential privacy framework, faces challenges such as heavy reliance on\nlabeled data for model training and potential disruptions to original gradient\ninformation due to excessive gradient clipping, making it difficult to ensure\nmodel accuracy. To address these challenges, we present a privacy-preserving\ntraining framework called PATE-TripleGAN. This framework incorporates a\nclassifier to pre-classify unlabeled data, establishing a three-party min-max\ngame to reduce dependence on labeled data. Furthermore, we present a hybrid\ngradient desensitization algorithm based on the Private Aggregation of Teacher\nEnsembles (PATE) framework and Differential Private Stochastic Gradient Descent\n(DPSGD) method. This algorithm allows the model to retain gradient information\nmore effectively while ensuring privacy protection, thereby enhancing the\nmodel's utility. Privacy analysis and extensive experiments affirm that the\nPATE-TripleGAN model can generate a higher quality labeled image dataset while\nensuring the privacy of the training data.",
+    "updated" : "2024-04-19T09:22:20Z",
+    "published" : "2024-04-19T09:22:20Z",
+    "authors" : [
+      {
+        "name" : "Zepeng Jiang"
+      },
+      {
+        "name" : "Weiwei Ni"
+      },
+      {
+        "name" : "Yifan Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.CR",
+      "cs.LG"
+    ]
   }
 ]
