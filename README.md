@@ -2,6 +2,57 @@
 <h2>2024-04</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.12837v1">Towards a decentralized data privacy protocol for self-sovereignty in
+  the digital world</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
+  <p><b>Published on:</b> 2024-04-19T12:19:04Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Rodrigo Falcão, Arghavan Hosseinzadeh</p>
+    <p><b>Summary:</b> A typical user interacts with many digital services nowadays, providing these
+services with their data. As of now, the management of privacy preferences is
+service-centric: Users must manage their privacy preferences according to the
+rules of each service provider, meaning that every provider offers its unique
+mechanisms for users to control their privacy settings. However, managing
+privacy preferences holistically (i.e., across multiple digital services) is
+just impractical. In this vision paper, we propose a paradigm shift towards an
+enriched user-centric approach for cross-service privacy preferences
+management: the realization of a decentralized data privacy protocol.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.12730v1">PATE-TripleGAN: Privacy-Preserving Image Synthesis with Gaussian
+  Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-04-19T09:22:20Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zepeng Jiang, Weiwei Ni, Yifan Zhang</p>
+    <p><b>Summary:</b> Conditional Generative Adversarial Networks (CGANs) exhibit significant
+potential in supervised learning model training by virtue of their ability to
+generate realistic labeled images. However, numerous studies have indicated the
+privacy leakage risk in CGANs models. The solution DPCGAN, incorporating the
+differential privacy framework, faces challenges such as heavy reliance on
+labeled data for model training and potential disruptions to original gradient
+information due to excessive gradient clipping, making it difficult to ensure
+model accuracy. To address these challenges, we present a privacy-preserving
+training framework called PATE-TripleGAN. This framework incorporates a
+classifier to pre-classify unlabeled data, establishing a three-party min-max
+game to reduce dependence on labeled data. Furthermore, we present a hybrid
+gradient desensitization algorithm based on the Private Aggregation of Teacher
+Ensembles (PATE) framework and Differential Private Stochastic Gradient Descent
+(DPSGD) method. This algorithm allows the model to retain gradient information
+more effectively while ensuring privacy protection, thereby enhancing the
+model's utility. Privacy analysis and extensive experiments affirm that the
+PATE-TripleGAN model can generate a higher quality labeled image dataset while
+ensuring the privacy of the training data.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2404.12186v1">Privacy-Preserving UCB Decision Process Verification via zk-SNARKs</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2024-04-18T13:49:07Z</p>
@@ -2753,67 +2804,6 @@ survey can provide a starting point for understanding what features may be
 valuable when selecting a programming framework. For researchers, it can help
 organize existing work in a unified way and provide context for understanding
 new features in future frameworks.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.11064v1">Double-Private Distributed Estimation Algorithm Using Differential
-  Privacy and a Key-Like Proportionate Matrix with Its Performance Analysis</a></h3>
-  
-  <p><b>Published on:</b> 2024-03-17T02:41:53Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mehdi Korki, Fatemehsadat Hosseiniamin, Hadi Zayyani, Mehdi Bekrani</p>
-    <p><b>Summary:</b> In this brief, we present an enhanced privacy-preserving distributed
-estimation algorithm, referred to as the ``Double-Private Algorithm," which
-combines the principles of both differential privacy (DP) and cryptography. The
-proposed algorithm enhances privacy by introducing DP noise into the
-intermediate estimations of neighboring nodes. Additionally, we employ an
-inverse of a closed-form reproducible proportionate gain matrix as the
-cryptographic key matrix to fortify the privacy protection within the proposed
-double private algorithm. \textcolor{blue}{We improve the algorithm by
-transmitting alternative variable vectors instead of raw measurements,
-resulting in enhanced key matrix reconstruction performance. This innovative
-approach mitigate noise impact, enhancing overall algorithm effectiveness.} We
-also establish an upper bound for the norm of the error between the non-private
-Diffusion Least Mean Square (DLMS) algorithm and our double private algorithm.
-Further, we determine a sufficient condition for the step-size to ensure the
-mean convergence of the proposed algorithm. Simulation results demonstrate the
-effectiveness of the proposed algorithm, particularly its ability to attain the
-final Mean Square Deviation (MSD) comparable to that of the non-private DLMS.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.10920v1">Batch-oriented Element-wise Approximate Activation for
-  Privacy-Preserving Neural Networks</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-03-16T13:26:33Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Peng Zhang, Ao Duan, Xianglu Zou, Yuhong Liu</p>
-    <p><b>Summary:</b> Privacy-Preserving Neural Networks (PPNN) are advanced to perform inference
-without breaching user privacy, which can serve as an essential tool for
-medical diagnosis to simultaneously achieve big data utility and privacy
-protection. As one of the key techniques to enable PPNN, Fully Homomorphic
-Encryption (FHE) is facing a great challenge that homomorphic operations cannot
-be easily adapted for non-linear activation calculations. In this paper,
-batch-oriented element-wise data packing and approximate activation are
-proposed, which train linear low-degree polynomials to approximate the
-non-linear activation function - ReLU. Compared with other approximate
-activation methods, the proposed fine-grained, trainable approximation scheme
-can effectively reduce the accuracy loss caused by approximation errors.
-Meanwhile, due to element-wise data packing, a large batch of images can be
-packed and inferred concurrently, leading to a much higher utility ratio of
-ciphertext slots. Therefore, although the total inference time increases
-sharply, the amortized time for each image actually decreases, especially when
-the batch size increases. Furthermore, knowledge distillation is adopted in the
-training process to further enhance the inference accuracy. Experiment results
-show that when ciphertext inference is performed on 4096 input images, compared
-with the current most efficient channel-wise method, the inference accuracy is
-improved by 1.65%, and the amortized inference time is reduced by 99.5%.</p>
   </details>
 </div>
 
