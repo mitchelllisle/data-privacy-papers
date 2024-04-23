@@ -1557,5 +1557,132 @@
       "cs.CR",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.13426v1",
+    "title" : "Data Privacy Vocabulary (DPV) -- Version 2",
+    "summary" : "The Data Privacy Vocabulary (DPV), developed by the W3C Data Privacy\nVocabularies and Controls Community Group (DPVCG), enables the creation of\nmachine-readable, interoperable, and standards-based representations for\ndescribing the processing of personal data. The group has also published\nextensions to the DPV to describe specific applications to support legislative\nrequirements such as the EU's GDPR. The DPV fills a crucial niche in the state\nof the art by providing a vocabulary that can be embedded and used alongside\nother existing standards such as W3C ODRL, and which can be customised and\nextended for adapting to specifics of use-cases or domains. This article\ndescribes the version 2 iteration of the DPV in terms of its contents,\nmethodology, current adoptions and uses, and future potential. It also\ndescribes the relevance and role of DPV in acting as a common vocabulary to\nsupport various regulatory (e.g. EU's DGA and AI Act) and community initiatives\n(e.g. Solid) emerging across the globe.",
+    "updated" : "2024-04-20T17:24:33Z",
+    "published" : "2024-04-20T17:24:33Z",
+    "authors" : [
+      {
+        "name" : "Harshvardhan J. Pandit"
+      },
+      {
+        "name" : "Beatriz Esteves"
+      },
+      {
+        "name" : "Georg P. Krog"
+      },
+      {
+        "name" : "Paul Ryan"
+      },
+      {
+        "name" : "Delaram Golpayegani"
+      },
+      {
+        "name" : "Julian Flake"
+      }
+    ],
+    "categories" : [
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.13407v1",
+    "title" : "A Framework for Managing Multifaceted Privacy Leakage While Optimizing\n  Utility in Continuous LBS Interactions",
+    "summary" : "Privacy in Location-Based Services (LBS) has become a paramount concern with\nthe ubiquity of mobile devices and the increasing integration of location data\ninto various applications. In this paper, we present several novel\ncontributions aimed at advancing the understanding and management of privacy\nleakage in LBS. Our contributions provides a more comprehensive framework for\nanalyzing privacy concerns across different facets of location-based\ninteractions. Specifically, we introduce $(\\epsilon, \\delta)$-location privacy,\n$(\\epsilon, \\delta, \\theta)$-trajectory privacy, and $(\\epsilon, \\delta,\n\\theta)$-POI privacy, which offer refined mechanisms for quantifying privacy\nrisks associated with location, trajectory, and points of interest when\ncontinuously interacting with LBS. Furthermore, we establish fundamental\nconnections between these privacy notions, facilitating a holistic approach to\nprivacy preservation in LBS. Additionally, we present a lower bound analysis to\nevaluate the utility of the proposed privacy-preserving mechanisms, offering\ninsights into the trade-offs between privacy protection and data utility.\nFinally, we instantiate our framework with the Plannar Isotopic Mechanism to\ndemonstrate its practical applicability while ensuring optimal utility and\nquantifying privacy leakages across various dimensions. The conducted\nevaluations provide a comprehensive insight into the efficacy of our framework\nin capturing privacy loss on location, trajectory, and Points of Interest (POI)\nwhile facilitating quantification of the ensured accuracy.",
+    "updated" : "2024-04-20T15:20:01Z",
+    "published" : "2024-04-20T15:20:01Z",
+    "authors" : [
+      {
+        "name" : "Anis Bkakria"
+      },
+      {
+        "name" : "Reda Yaich"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.13220v1",
+    "title" : "Security and Privacy Product Inclusion",
+    "summary" : "In this paper, we explore the challenges of ensuring security and privacy for\nusers from diverse demographic backgrounds. We propose a threat modeling\napproach to identify potential risks and countermeasures for product inclusion\nin security and privacy. We discuss various factors that can affect a user's\nability to achieve a high level of security and privacy, including low-income\ndemographics, poor connectivity, shared device usage, ML fairness, etc. We\npresent results from a global security and privacy user experience survey and\ndiscuss the implications for product developers. Our work highlights the need\nfor a more inclusive approach to security and privacy and provides a framework\nfor researchers and practitioners to consider when designing products and\nservices for a diverse range of users.",
+    "updated" : "2024-04-20T00:36:54Z",
+    "published" : "2024-04-20T00:36:54Z",
+    "authors" : [
+      {
+        "name" : "Dave Kleidermacher"
+      },
+      {
+        "name" : "Emmanuel Arriaga"
+      },
+      {
+        "name" : "Eric Wang"
+      },
+      {
+        "name" : "Sebastian Porst"
+      },
+      {
+        "name" : "Roger Piqueras Jover"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.13194v1",
+    "title" : "Privacy-Preserving Debiasing using Data Augmentation and Machine\n  Unlearning",
+    "summary" : "Data augmentation is widely used to mitigate data bias in the training\ndataset. However, data augmentation exposes machine learning models to privacy\nattacks, such as membership inference attacks. In this paper, we propose an\neffective combination of data augmentation and machine unlearning, which can\nreduce data bias while providing a provable defense against known attacks.\nSpecifically, we maintain the fairness of the trained model with\ndiffusion-based data augmentation, and then utilize multi-shard unlearning to\nremove identifying information of original data from the ML model for\nprotection against privacy attacks. Experimental evaluation across diverse\ndatasets demonstrates that our approach can achieve significant improvements in\nbias reduction as well as robustness against state-of-the-art privacy attacks.",
+    "updated" : "2024-04-19T21:54:20Z",
+    "published" : "2024-04-19T21:54:20Z",
+    "authors" : [
+      {
+        "name" : "Zhixin Pan"
+      },
+      {
+        "name" : "Emma Andrews"
+      },
+      {
+        "name" : "Laura Chang"
+      },
+      {
+        "name" : "Prabhat Mishra"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.13087v1",
+    "title" : "Demystifying Legalese: An Automated Approach for Summarizing and\n  Analyzing Overlaps in Privacy Policies and Terms of Service",
+    "summary" : "The complexities of legalese in terms and policy documents can bind\nindividuals to contracts they do not fully comprehend, potentially leading to\nuninformed data sharing. Our work seeks to alleviate this issue by developing\nlanguage models that provide automated, accessible summaries and scores for\nsuch documents, aiming to enhance user understanding and facilitate informed\ndecisions. We compared transformer-based and conventional models during\ntraining on our dataset, and RoBERTa performed better overall with a remarkable\n0.74 F1-score. Leveraging our best-performing model, RoBERTa, we highlighted\nredundancies and potential guideline violations by identifying overlaps in\nGDPR-required documents, underscoring the necessity for stricter GDPR\ncompliance.",
+    "updated" : "2024-04-17T19:53:59Z",
+    "published" : "2024-04-17T19:53:59Z",
+    "authors" : [
+      {
+        "name" : "Shikha Soneji"
+      },
+      {
+        "name" : "Mitchell Hoesing"
+      },
+      {
+        "name" : "Sujay Koujalgi"
+      },
+      {
+        "name" : "Jonathan Dodge"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.LG"
+    ]
   }
 ]
