@@ -2,6 +2,109 @@
 <h2>2024-04</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.13426v1">Data Privacy Vocabulary (DPV) -- Version 2</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2024-04-20T17:24:33Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Harshvardhan J. Pandit, Beatriz Esteves, Georg P. Krog, Paul Ryan, Delaram Golpayegani, Julian Flake</p>
+    <p><b>Summary:</b> The Data Privacy Vocabulary (DPV), developed by the W3C Data Privacy
+Vocabularies and Controls Community Group (DPVCG), enables the creation of
+machine-readable, interoperable, and standards-based representations for
+describing the processing of personal data. The group has also published
+extensions to the DPV to describe specific applications to support legislative
+requirements such as the EU's GDPR. The DPV fills a crucial niche in the state
+of the art by providing a vocabulary that can be embedded and used alongside
+other existing standards such as W3C ODRL, and which can be customised and
+extended for adapting to specifics of use-cases or domains. This article
+describes the version 2 iteration of the DPV in terms of its contents,
+methodology, current adoptions and uses, and future potential. It also
+describes the relevance and role of DPV in acting as a common vocabulary to
+support various regulatory (e.g. EU's DGA and AI Act) and community initiatives
+(e.g. Solid) emerging across the globe.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.13407v1">A Framework for Managing Multifaceted Privacy Leakage While Optimizing
+  Utility in Continuous LBS Interactions</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-04-20T15:20:01Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Anis Bkakria, Reda Yaich</p>
+    <p><b>Summary:</b> Privacy in Location-Based Services (LBS) has become a paramount concern with
+the ubiquity of mobile devices and the increasing integration of location data
+into various applications. In this paper, we present several novel
+contributions aimed at advancing the understanding and management of privacy
+leakage in LBS. Our contributions provides a more comprehensive framework for
+analyzing privacy concerns across different facets of location-based
+interactions. Specifically, we introduce $(\epsilon, \delta)$-location privacy,
+$(\epsilon, \delta, \theta)$-trajectory privacy, and $(\epsilon, \delta,
+\theta)$-POI privacy, which offer refined mechanisms for quantifying privacy
+risks associated with location, trajectory, and points of interest when
+continuously interacting with LBS. Furthermore, we establish fundamental
+connections between these privacy notions, facilitating a holistic approach to
+privacy preservation in LBS. Additionally, we present a lower bound analysis to
+evaluate the utility of the proposed privacy-preserving mechanisms, offering
+insights into the trade-offs between privacy protection and data utility.
+Finally, we instantiate our framework with the Plannar Isotopic Mechanism to
+demonstrate its practical applicability while ensuring optimal utility and
+quantifying privacy leakages across various dimensions. The conducted
+evaluations provide a comprehensive insight into the efficacy of our framework
+in capturing privacy loss on location, trajectory, and Points of Interest (POI)
+while facilitating quantification of the ensured accuracy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.13220v1">Security and Privacy Product Inclusion</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-04-20T00:36:54Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Dave Kleidermacher, Emmanuel Arriaga, Eric Wang, Sebastian Porst, Roger Piqueras Jover</p>
+    <p><b>Summary:</b> In this paper, we explore the challenges of ensuring security and privacy for
+users from diverse demographic backgrounds. We propose a threat modeling
+approach to identify potential risks and countermeasures for product inclusion
+in security and privacy. We discuss various factors that can affect a user's
+ability to achieve a high level of security and privacy, including low-income
+demographics, poor connectivity, shared device usage, ML fairness, etc. We
+present results from a global security and privacy user experience survey and
+discuss the implications for product developers. Our work highlights the need
+for a more inclusive approach to security and privacy and provides a framework
+for researchers and practitioners to consider when designing products and
+services for a diverse range of users.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.13194v1">Privacy-Preserving Debiasing using Data Augmentation and Machine
+  Unlearning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2024-04-19T21:54:20Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zhixin Pan, Emma Andrews, Laura Chang, Prabhat Mishra</p>
+    <p><b>Summary:</b> Data augmentation is widely used to mitigate data bias in the training
+dataset. However, data augmentation exposes machine learning models to privacy
+attacks, such as membership inference attacks. In this paper, we propose an
+effective combination of data augmentation and machine unlearning, which can
+reduce data bias while providing a provable defense against known attacks.
+Specifically, we maintain the fairness of the trained model with
+diffusion-based data augmentation, and then utilize multi-shard unlearning to
+remove identifying information of original data from the ML model for
+protection against privacy attacks. Experimental evaluation across diverse
+datasets demonstrates that our approach can achieve significant improvements in
+bias reduction as well as robustness against state-of-the-art privacy attacks.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2404.12837v1">Towards a decentralized data privacy protocol for self-sovereignty in
   the digital world</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
@@ -106,6 +209,29 @@ and visual content to guarantee privacy preservation while effectively
 enhancing performance. Extensive experiments show that compared with the
 state-of-the-art MSA model, HyDiscGAN can achieve superior or competitive
 performance while preserving privacy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.13087v1">Demystifying Legalese: An Automated Approach for Summarizing and
+  Analyzing Overlaps in Privacy Policies and Terms of Service</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-04-17T19:53:59Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shikha Soneji, Mitchell Hoesing, Sujay Koujalgi, Jonathan Dodge</p>
+    <p><b>Summary:</b> The complexities of legalese in terms and policy documents can bind
+individuals to contracts they do not fully comprehend, potentially leading to
+uninformed data sharing. Our work seeks to alleviate this issue by developing
+language models that provide automated, accessible summaries and scores for
+such documents, aiming to enhance user understanding and facilitate informed
+decisions. We compared transformer-based and conventional models during
+training on our dataset, and RoBERTa performed better overall with a remarkable
+0.74 F1-score. Leveraging our best-performing model, RoBERTa, we highlighted
+redundancies and potential guideline violations by identifying overlaps in
+GDPR-required documents, underscoring the necessity for stricter GDPR
+compliance.</p>
   </details>
 </div>
 
@@ -2679,131 +2805,6 @@ between vulnerability and accuracy. In particular, ZIP-DL (i) reduces the
 effectiveness of a linkability attack by up to 52 points compared to baseline
 DL, and (ii) achieves up to 37 more accuracy points for the same vulnerability
 under membership inference attacks against a privacy-preserving competitor</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.11519v1">Efficient and Privacy-Preserving Federated Learning based on Full
-  Homomorphic Encryption</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-03-18T07:13:09Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yuqi Guo, Lin Li, Zhongxiang Zheng, Hanrui Yun, Ruoyan Zhang, Xiaolin Chang, Zhixuan Gao</p>
-    <p><b>Summary:</b> Since the first theoretically feasible full homomorphic encryption (FHE)
-scheme was proposed in 2009, great progress has been achieved. These
-improvements have made FHE schemes come off the paper and become quite useful
-in solving some practical problems. In this paper, we propose a set of novel
-Federated Learning Schemes by utilizing the latest homomorphic encryption
-technologies, so as to improve the security, functionality and practicality at
-the same time. Comparisons have been given in four practical data sets
-separately from medical, business, biometric and financial fields, covering
-both horizontal and vertical federated learning scenarios. The experiment
-results show that our scheme achieves significant improvements in security,
-efficiency and practicality, compared with classical horizontal and vertical
-federated learning schemes.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.11445v3">Budget Recycling Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B"> 
-  <p><b>Published on:</b> 2024-03-18T03:43:45Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Bo Jiang, Jian Du, Sagar Shamar, Qiang Yan</p>
-    <p><b>Summary:</b> Differential Privacy (DP) mechanisms usually {force} reduction in data
-utility by producing "out-of-bound" noisy results for a tight privacy budget.
-We introduce the Budget Recycling Differential Privacy (BR-DP) framework,
-designed to provide soft-bounded noisy outputs for a broad range of existing DP
-mechanisms. By "soft-bounded," we refer to the mechanism's ability to release
-most outputs within a predefined error boundary, thereby improving utility and
-maintaining privacy simultaneously. The core of BR-DP consists of two
-components: a DP kernel responsible for generating a noisy answer per
-iteration, and a recycler that probabilistically recycles/regenerates or
-releases the noisy answer. We delve into the privacy accounting of BR-DP,
-culminating in the development of a budgeting principle that optimally
-sub-allocates the available budget between the DP kernel and the recycler.
-Furthermore, we introduce algorithms for tight BR-DP accounting in composition
-scenarios, and our findings indicate that BR-DP achieves reduced privacy
-leakage post-composition compared to DP. Additionally, we explore the concept
-of privacy amplification via subsampling within the BR-DP framework and propose
-optimal sampling rates for BR-DP across various queries. We experiment with
-real data, and the results demonstrate BR-DP's effectiveness in lifting the
-utility-privacy tradeoff provided by DP mechanisms.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.11343v2">Federated Transfer Learning with Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36">   
-  <p><b>Published on:</b> 2024-03-17T21:04:48Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mengchu Li, Ye Tian, Yang Feng, Yi Yu</p>
-    <p><b>Summary:</b> Federated learning is gaining increasing popularity, with data heterogeneity
-and privacy being two prominent challenges. In this paper, we address both
-issues within a federated transfer learning framework, aiming to enhance
-learning on a target data set by leveraging information from multiple
-heterogeneous source data sets while adhering to privacy constraints. We
-rigorously formulate the notion of \textit{federated differential privacy},
-which offers privacy guarantees for each data set without assuming a trusted
-central server. Under this privacy constraint, we study three classical
-statistical problems, namely univariate mean estimation, low-dimensional linear
-regression, and high-dimensional linear regression. By investigating the
-minimax rates and identifying the costs of privacy for these problems, we show
-that federated differential privacy is an intermediate privacy model between
-the well-established local and central models of differential privacy. Our
-analyses incorporate data heterogeneity and privacy, highlighting the
-fundamental costs of both in federated learning and underscoring the benefit of
-knowledge transfer across data sets.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.11171v1">A Tip for IOTA Privacy: IOTA Light Node Deanonymization via Tip
-  Selection</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-03-17T11:12:46Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Hojung Yang, Suhyeon Lee, Seungjoo Kim</p>
-    <p><b>Summary:</b> IOTA is a distributed ledger technology that uses a Directed Acyclic Graph
-(DAG) structure called the Tangle. It is known for its efficiency and is widely
-used in the Internet of Things (IoT) environment. Tangle can be configured by
-utilizing the tip selection process. Due to performance issues with light
-nodes, full nodes are being asked to perform the tip selections of light nodes.
-However, in this paper, we demonstrate that tip selection can be exploited to
-compromise users' privacy. An adversary full node can associate a transaction
-with the identity of a light node by comparing the light node's request with
-its ledger. We show that these types of attacks are not only viable in the
-current IOTA environment but also in IOTA 2.0 and the privacy improvement being
-studied. We also provide solutions to mitigate these attacks and propose ways
-to enhance anonymity in the IOTA network while maintaining efficiency and
-scalability.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.11088v1">Programming Frameworks for Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Programming Languages-D91E36">
-  <p><b>Published on:</b> 2024-03-17T04:44:48Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Marco Gaboardi, Michael Hay, Salil Vadhan</p>
-    <p><b>Summary:</b> Many programming frameworks have been introduced to support the development
-of differentially private software applications. In this chapter, we survey
-some of the conceptual ideas underlying these frameworks in a way that we hope
-will be helpful for both practitioners and researchers. For practitioners, the
-survey can provide a starting point for understanding what features may be
-valuable when selecting a programming framework. For researchers, it can help
-organize existing work in a unified way and provide context for understanding
-new features in future frameworks.</p>
   </details>
 </div>
 
