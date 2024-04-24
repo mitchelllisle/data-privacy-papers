@@ -1684,5 +1684,86 @@
       "cs.CL",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.14983v1",
+    "title" : "Zero-Knowledge Location Privacy via Accurate Floating Point SNARKs",
+    "summary" : "This paper introduces Zero-Knowledge Location Privacy (ZKLP), enabling users\nto prove to third parties that they are within a specified geographical region\nwhile not disclosing their exact location. ZKLP supports varying levels of\ngranularity, allowing for customization depending on the use case. To realize\nZKLP, we introduce the first set of Zero-Knowledge Proof (ZKP) circuits that\nare fully compliant to the IEEE 754 standard for floating-point arithmetic.\n  Our results demonstrate that our floating point implementation scales\nefficiently, requiring only $69$ constraints per multiplication for $2^{15}$\nsingle-precision floating-point multiplications. We utilize our floating point\nimplementation to realize the ZKLP paradigm. In comparison to the\nstate-of-the-art, we find that our optimized implementation has $14.1 \\times$\nless constraints utilizing single precision floating-point values, and $11.2\n\\times$ less constraints when utilizing double precision floating-point values.\nWe demonstrate the practicability of ZKLP by building a protocol for privacy\npreserving peer-to-peer proximity testing - Alice can test if she is close to\nBob by receiving a single message, without either party revealing any other\ninformation about their location. In such a configuration, Bob can create a\nproof of (non-)proximity in $0.27 s$, whereas Alice can verify her distance to\nabout $250$ peers per second",
+    "updated" : "2024-04-23T12:38:51Z",
+    "published" : "2024-04-23T12:38:51Z",
+    "authors" : [
+      {
+        "name" : "Jens Ernstberger"
+      },
+      {
+        "name" : "Chengru Zhang"
+      },
+      {
+        "name" : "Luca Ciprian"
+      },
+      {
+        "name" : "Philipp Jovanovic"
+      },
+      {
+        "name" : "Sebastian Steinhorst"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.14895v1",
+    "title" : "Bayesian Approaches to Collaborative Data Analysis with Strict Privacy\n  Restrictions",
+    "summary" : "Collaborative data analysis between countries is crucial for enabling fast\nresponses to increasingly multi-country disease outbreaks. Often, data early in\noutbreaks are of sensitive nature and subject to strict privacy restrictions.\nThus, federated analysis, which implies decentralised collaborative analysis\nwhere no raw data sharing is required, emerged as a novel approach solving\nissues around data privacy and confidentiality. In the present study, we\npropose two approaches to federated analysis, based on simple Bayesian\nstatistics and exploit this simplicity to make them feasible for rapid\ncollaboration without the risks of data leaks and data reidentification, as\nthey require neither data sharing nor direct communication between devices. The\nfirst approach uses summaries from parameters' posteriors previously obtained\nat a different location to update truncated normal distributions approximating\npriors of a new model. The second approach uses the entire previously sampled\nposterior, approximating via a multivariate normal distribution. We test these\nmodels on simulated and on real outbreak data to estimate the incubation period\nof infectious diseases. Results indicate that both approaches can recover\nincubation period parameters accurately, but they differ in terms of\ninferential capacity. The posterior summary approach shows higher stability and\nprecision, but it cannot capture posterior correlations, meaning it is\ninferentially limited. The whole posterior approach can capture correlations,\nbut it shows less stability, and its applicability is limited to fewer prior\ndistributions. We discuss results in terms of the advantages of their\nsimplicity and privacy-preserving properties, and in terms of their limited\ngeneralisability to more complex analytical models.",
+    "updated" : "2024-04-23T10:22:08Z",
+    "published" : "2024-04-23T10:22:08Z",
+    "authors" : [
+      {
+        "name" : "Simon Busch-Moreno"
+      },
+      {
+        "name" : "Moritz U. G. Kraemer"
+      }
+    ],
+    "categories" : [
+      "stat.AP",
+      "62P10"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.14693v1",
+    "title" : "Double Privacy Guard: Robust Traceable Adversarial Watermarking against\n  Face Recognition",
+    "summary" : "The wide deployment of Face Recognition (FR) systems poses risks of privacy\nleakage. One countermeasure to address this issue is adversarial attacks, which\ndeceive malicious FR searches but simultaneously interfere the normal identity\nverification of trusted authorizers. In this paper, we propose the first Double\nPrivacy Guard (DPG) scheme based on traceable adversarial watermarking. DPG\nemploys a one-time watermark embedding to deceive unauthorized FR models and\nallows authorizers to perform identity verification by extracting the\nwatermark. Specifically, we propose an information-guided adversarial attack\nagainst FR models. The encoder embeds an identity-specific watermark into the\ndeep feature space of the carrier, guiding recognizable features of the image\nto deviate from the source identity. We further adopt a collaborative\nmeta-optimization strategy compatible with sub-tasks, which regularizes the\njoint optimization direction of the encoder and decoder. This strategy enhances\nthe representation of universal carrier features, mitigating multi-objective\noptimization conflicts in watermarking. Experiments confirm that DPG achieves\nsignificant attack success rates and traceability accuracy on state-of-the-art\nFR models, exhibiting remarkable robustness that outperforms the existing\nprivacy protection methods using adversarial attacks and deep watermarking, or\nsimple combinations of the two. Our work potentially opens up new insights into\nproactive protection for FR privacy.",
+    "updated" : "2024-04-23T02:50:38Z",
+    "published" : "2024-04-23T02:50:38Z",
+    "authors" : [
+      {
+        "name" : "Yunming Zhang"
+      },
+      {
+        "name" : "Dengpan Ye"
+      },
+      {
+        "name" : "Sipeng Shen"
+      },
+      {
+        "name" : "Caiyun Xie"
+      },
+      {
+        "name" : "Ziyi Liu"
+      },
+      {
+        "name" : "Jiacheng Deng"
+      },
+      {
+        "name" : "Long Tang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CV",
+      "eess.IV"
+    ]
   }
 ]
