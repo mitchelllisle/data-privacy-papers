@@ -2,6 +2,104 @@
 <h2>2024-04</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.14983v1">Zero-Knowledge Location Privacy via Accurate Floating Point SNARKs</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-04-23T12:38:51Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jens Ernstberger, Chengru Zhang, Luca Ciprian, Philipp Jovanovic, Sebastian Steinhorst</p>
+    <p><b>Summary:</b> This paper introduces Zero-Knowledge Location Privacy (ZKLP), enabling users
+to prove to third parties that they are within a specified geographical region
+while not disclosing their exact location. ZKLP supports varying levels of
+granularity, allowing for customization depending on the use case. To realize
+ZKLP, we introduce the first set of Zero-Knowledge Proof (ZKP) circuits that
+are fully compliant to the IEEE 754 standard for floating-point arithmetic.
+  Our results demonstrate that our floating point implementation scales
+efficiently, requiring only $69$ constraints per multiplication for $2^{15}$
+single-precision floating-point multiplications. We utilize our floating point
+implementation to realize the ZKLP paradigm. In comparison to the
+state-of-the-art, we find that our optimized implementation has $14.1 \times$
+less constraints utilizing single precision floating-point values, and $11.2
+\times$ less constraints when utilizing double precision floating-point values.
+We demonstrate the practicability of ZKLP by building a protocol for privacy
+preserving peer-to-peer proximity testing - Alice can test if she is close to
+Bob by receiving a single message, without either party revealing any other
+information about their location. In such a configuration, Bob can create a
+proof of (non-)proximity in $0.27 s$, whereas Alice can verify her distance to
+about $250$ peers per second</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.14895v1">Bayesian Approaches to Collaborative Data Analysis with Strict Privacy
+  Restrictions</a></h3>
+   
+  <p><b>Published on:</b> 2024-04-23T10:22:08Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Simon Busch-Moreno, Moritz U. G. Kraemer</p>
+    <p><b>Summary:</b> Collaborative data analysis between countries is crucial for enabling fast
+responses to increasingly multi-country disease outbreaks. Often, data early in
+outbreaks are of sensitive nature and subject to strict privacy restrictions.
+Thus, federated analysis, which implies decentralised collaborative analysis
+where no raw data sharing is required, emerged as a novel approach solving
+issues around data privacy and confidentiality. In the present study, we
+propose two approaches to federated analysis, based on simple Bayesian
+statistics and exploit this simplicity to make them feasible for rapid
+collaboration without the risks of data leaks and data reidentification, as
+they require neither data sharing nor direct communication between devices. The
+first approach uses summaries from parameters' posteriors previously obtained
+at a different location to update truncated normal distributions approximating
+priors of a new model. The second approach uses the entire previously sampled
+posterior, approximating via a multivariate normal distribution. We test these
+models on simulated and on real outbreak data to estimate the incubation period
+of infectious diseases. Results indicate that both approaches can recover
+incubation period parameters accurately, but they differ in terms of
+inferential capacity. The posterior summary approach shows higher stability and
+precision, but it cannot capture posterior correlations, meaning it is
+inferentially limited. The whole posterior approach can capture correlations,
+but it shows less stability, and its applicability is limited to fewer prior
+distributions. We discuss results in terms of the advantages of their
+simplicity and privacy-preserving properties, and in terms of their limited
+generalisability to more complex analytical models.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.14693v1">Double Privacy Guard: Robust Traceable Adversarial Watermarking against
+  Face Recognition</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> 
+  <p><b>Published on:</b> 2024-04-23T02:50:38Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yunming Zhang, Dengpan Ye, Sipeng Shen, Caiyun Xie, Ziyi Liu, Jiacheng Deng, Long Tang</p>
+    <p><b>Summary:</b> The wide deployment of Face Recognition (FR) systems poses risks of privacy
+leakage. One countermeasure to address this issue is adversarial attacks, which
+deceive malicious FR searches but simultaneously interfere the normal identity
+verification of trusted authorizers. In this paper, we propose the first Double
+Privacy Guard (DPG) scheme based on traceable adversarial watermarking. DPG
+employs a one-time watermark embedding to deceive unauthorized FR models and
+allows authorizers to perform identity verification by extracting the
+watermark. Specifically, we propose an information-guided adversarial attack
+against FR models. The encoder embeds an identity-specific watermark into the
+deep feature space of the carrier, guiding recognizable features of the image
+to deviate from the source identity. We further adopt a collaborative
+meta-optimization strategy compatible with sub-tasks, which regularizes the
+joint optimization direction of the encoder and decoder. This strategy enhances
+the representation of universal carrier features, mitigating multi-objective
+optimization conflicts in watermarking. Experiments confirm that DPG achieves
+significant attack success rates and traceability accuracy on state-of-the-art
+FR models, exhibiting remarkable robustness that outperforms the existing
+privacy protection methods using adversarial attacks and deep watermarking, or
+simple combinations of the two. Our work potentially opens up new insights into
+proactive protection for FR privacy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2404.13426v1">Data Privacy Vocabulary (DPV) -- Version 2</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
   <p><b>Published on:</b> 2024-04-20T17:24:33Z</p>
@@ -2725,86 +2823,6 @@ recognition. Our approach is architecture agnostic and directly modifies input
 imagery, while existing approaches generally require architecture training. Our
 approach offers more flexibility, as no retraining is required, and outperforms
 alternatives on three widely used datasets.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.12457v1">Privacy-Preserving Face Recognition Using Trainable Feature Subtraction</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2024-03-19T05:27:52Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yuxi Mi, Zhizhou Zhong, Yuge Huang, Jiazhen Ji, Jianqing Xu, Jun Wang, Shaoming Wang, Shouhong Ding, Shuigeng Zhou</p>
-    <p><b>Summary:</b> The widespread adoption of face recognition has led to increasing privacy
-concerns, as unauthorized access to face images can expose sensitive personal
-information. This paper explores face image protection against viewing and
-recovery attacks. Inspired by image compression, we propose creating a visually
-uninformative face image through feature subtraction between an original face
-and its model-produced regeneration. Recognizable identity features within the
-image are encouraged by co-training a recognition model on its high-dimensional
-feature representation. To enhance privacy, the high-dimensional representation
-is crafted through random channel shuffling, resulting in randomized
-recognizable images devoid of attacker-leverageable texture details. We distill
-our methodologies into a novel privacy-preserving face recognition method,
-MinusFace. Experiments demonstrate its high recognition accuracy and effective
-privacy protection. Its code is available at https://github.com/Tencent/TFace.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.12313v1">Improving LoRA in Privacy-preserving Federated Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
-  <p><b>Published on:</b> 2024-03-18T23:20:08Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Youbang Sun, Zitao Li, Yaliang Li, Bolin Ding</p>
-    <p><b>Summary:</b> Low-rank adaptation (LoRA) is one of the most popular task-specific
-parameter-efficient fine-tuning (PEFT) methods on pre-trained language models
-for its good performance and computational efficiency. LoRA injects a product
-of two trainable rank decomposition matrices over the top of each frozen
-pre-trained model module. However, when applied in the setting of
-privacy-preserving federated learning (FL), LoRA may become unstable due to the
-following facts: 1) the effects of data heterogeneity and multi-step local
-updates are non-negligible, 2) additive noise enforced on updating gradients to
-guarantee differential privacy (DP) can be amplified and 3) the final
-performance is susceptible to hyper-parameters. A key factor leading to these
-phenomena is the discordance between jointly optimizing the two low-rank
-matrices by local clients and separately aggregating them by the central
-server. Thus, this paper proposes an efficient and effective version of LoRA,
-Federated Freeze A LoRA (FFA-LoRA), to alleviate these challenges and further
-halve the communication cost of federated fine-tuning LLMs. The core idea of
-FFA-LoRA is to fix the randomly initialized non-zero matrices and only
-fine-tune the zero-initialized matrices. Compared to LoRA, FFA-LoRA is
-motivated by practical and theoretical benefits in privacy-preserved FL. Our
-experiments demonstrate that FFA-LoRA provides more consistent performance with
-better computational efficiency over vanilla LoRA in various FL tasks.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.11795v1">Low-Cost Privacy-Aware Decentralized Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
-  <p><b>Published on:</b> 2024-03-18T13:53:17Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Sayan Biswas, Davide Frey, Romaric Gaudel, Anne-Marie Kermarrec, Dimitri Lerévérend, Rafael Pires, Rishi Sharma, François Taïani</p>
-    <p><b>Summary:</b> This paper introduces ZIP-DL, a novel privacy-aware decentralized learning
-(DL) algorithm that relies on adding correlated noise to each model update
-during the model training process. This technique ensures that the added noise
-almost neutralizes itself during the aggregation process due to its
-correlation, thus minimizing the impact on model accuracy. In addition, ZIP-DL
-does not require multiple communication rounds for noise cancellation,
-addressing the common trade-off between privacy protection and communication
-overhead. We provide theoretical guarantees for both convergence speed and
-privacy guarantees, thereby making ZIP-DL applicable to practical scenarios.
-Our extensive experimental study shows that ZIP-DL achieves the best trade-off
-between vulnerability and accuracy. In particular, ZIP-DL (i) reduces the
-effectiveness of a linkability attack by up to 52 points compared to baseline
-DL, and (ii) achieves up to 37 more accuracy points for the same vulnerability
-under membership inference attacks against a privacy-preserving competitor</p>
   </details>
 </div>
 
