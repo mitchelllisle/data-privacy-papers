@@ -158,7 +158,7 @@ while facilitating quantification of the ensured accuracy.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.13220v1">Security and Privacy Product Inclusion</a></h3>
+  <h3><a href="http://arxiv.org/abs/2404.13220v2">Security and Privacy Product Inclusion</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2024-04-20T00:36:54Z</p>
   <details>
