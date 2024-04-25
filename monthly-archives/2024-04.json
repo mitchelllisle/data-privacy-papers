@@ -1765,5 +1765,33 @@
       "cs.CV",
       "eess.IV"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.13220v2",
+    "title" : "Security and Privacy Product Inclusion",
+    "summary" : "In this paper, we explore the challenges of ensuring security and privacy for\nusers from diverse demographic backgrounds. We propose a threat modeling\napproach to identify potential risks and countermeasures for product inclusion\nin security and privacy. We discuss various factors that can affect a user's\nability to achieve a high level of security and privacy, including low-income\ndemographics, poor connectivity, shared device usage, ML fairness, etc. We\npresent results from a global security and privacy user experience survey and\ndiscuss the implications for product developers. Our work highlights the need\nfor a more inclusive approach to security and privacy and provides a framework\nfor researchers and practitioners to consider when designing products and\nservices for a diverse range of users.",
+    "updated" : "2024-04-23T18:21:00Z",
+    "published" : "2024-04-20T00:36:54Z",
+    "authors" : [
+      {
+        "name" : "Dave Kleidermacher"
+      },
+      {
+        "name" : "Emmanuel Arriaga"
+      },
+      {
+        "name" : "Eric Wang"
+      },
+      {
+        "name" : "Sebastian Porst"
+      },
+      {
+        "name" : "Roger Piqueras Jover"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
   }
 ]
