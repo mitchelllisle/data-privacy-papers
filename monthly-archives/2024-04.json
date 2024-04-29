@@ -2010,5 +2010,74 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.17399v1",
+    "title" : "Evaluations of Machine Learning Privacy Defenses are Misleading",
+    "summary" : "Empirical defenses for machine learning privacy forgo the provable guarantees\nof differential privacy in the hope of achieving higher utility while resisting\nrealistic adversaries. We identify severe pitfalls in existing empirical\nprivacy evaluations (based on membership inference attacks) that result in\nmisleading conclusions. In particular, we show that prior evaluations fail to\ncharacterize the privacy leakage of the most vulnerable samples, use weak\nattacks, and avoid comparisons with practical differential privacy baselines.\nIn 5 case studies of empirical privacy defenses, we find that prior evaluations\nunderestimate privacy leakage by an order of magnitude. Under our stronger\nevaluation, none of the empirical defenses we study are competitive with a\nproperly tuned, high-utility DP-SGD baseline (with vacuous provable\nguarantees).",
+    "updated" : "2024-04-26T13:21:30Z",
+    "published" : "2024-04-26T13:21:30Z",
+    "authors" : [
+      {
+        "name" : "Michael Aerni"
+      },
+      {
+        "name" : "Jie Zhang"
+      },
+      {
+        "name" : "Florian Tramèr"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.17225v1",
+    "title" : "Enhancing Privacy and Security of Autonomous UAV Navigation",
+    "summary" : "Autonomous Unmanned Aerial Vehicles (UAVs) have become essential tools in\ndefense, law enforcement, disaster response, and product delivery. These\nautonomous navigation systems require a wireless communication network, and of\nlate are deep learning based. In critical scenarios such as border protection\nor disaster response, ensuring the secure navigation of autonomous UAVs is\nparamount. But, these autonomous UAVs are susceptible to adversarial attacks\nthrough the communication network or the deep learning models - eavesdropping /\nman-in-the-middle / membership inference / reconstruction. To address this\nsusceptibility, we propose an innovative approach that combines Reinforcement\nLearning (RL) and Fully Homomorphic Encryption (FHE) for secure autonomous UAV\nnavigation. This end-to-end secure framework is designed for real-time video\nfeeds captured by UAV cameras and utilizes FHE to perform inference on\nencrypted input images. While FHE allows computations on encrypted data,\ncertain computational operators are yet to be implemented. Convolutional neural\nnetworks, fully connected neural networks, activation functions and OpenAI Gym\nLibrary are meticulously adapted to the FHE domain to enable encrypted data\nprocessing. We demonstrate the efficacy of our proposed approach through\nextensive experimentation. Our proposed approach ensures security and privacy\nin autonomous UAV navigation with negligible loss in performance.",
+    "updated" : "2024-04-26T07:54:04Z",
+    "published" : "2024-04-26T07:54:04Z",
+    "authors" : [
+      {
+        "name" : "Vatsal Aggarwal"
+      },
+      {
+        "name" : "Arjun Ramesh Kaushik"
+      },
+      {
+        "name" : "Charanjit Jutla"
+      },
+      {
+        "name" : "Nalini Ratha"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.RO"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.16865v1",
+    "title" : "Improving Privacy-Preserving Techniques for Smart Grid using\n  Lattice-based Cryptography",
+    "summary" : "Advancements in communication and information tech birthed the Smart Grid,\noptimizing energy and data transmission. Yet, user privacy is at risk due to\nfrequent data collection. Existing privacy schemes face vulnerability with\nquantum machines. To tackle this, the LPM2DA scheme is introduced, utilizing\nlattice-based encryption and signatures for secure data aggregation. It ensures\nprivacy, integrity, and authentication, enabling statistical analysis while\npreserving user privacy. Traditional aggregation schemes suffer from weak\nnetwork models and centralization issues. Enter SPDBlock, a blockchain-based\nsolution ensuring privacy, integrity, and resistance to attacks. It detects and\nprosecutes malicious entities while efficiently handling multi-dimensional data\ntransmission. Through distributed decryption and secret sharing, only valid\ndata can be decrypted with minimal involvement from smart meters. Performance\ntests reveal SPDBlock's superiority in communication and computational\nefficiency over traditional schemes.",
+    "updated" : "2024-04-17T19:51:52Z",
+    "published" : "2024-04-17T19:51:52Z",
+    "authors" : [
+      {
+        "name" : "Saleh Darzi"
+      },
+      {
+        "name" : "Bahareh Akhbari"
+      },
+      {
+        "name" : "Hassan Khodaiemehr"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
