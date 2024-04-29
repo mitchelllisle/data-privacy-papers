@@ -2,6 +2,59 @@
 <h2>2024-04</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.17399v1">Evaluations of Machine Learning Privacy Defenses are Misleading</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-04-26T13:21:30Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Michael Aerni, Jie Zhang, Florian Tramèr</p>
+    <p><b>Summary:</b> Empirical defenses for machine learning privacy forgo the provable guarantees
+of differential privacy in the hope of achieving higher utility while resisting
+realistic adversaries. We identify severe pitfalls in existing empirical
+privacy evaluations (based on membership inference attacks) that result in
+misleading conclusions. In particular, we show that prior evaluations fail to
+characterize the privacy leakage of the most vulnerable samples, use weak
+attacks, and avoid comparisons with practical differential privacy baselines.
+In 5 case studies of empirical privacy defenses, we find that prior evaluations
+underestimate privacy leakage by an order of magnitude. Under our stronger
+evaluation, none of the empirical defenses we study are competitive with a
+properly tuned, high-utility DP-SGD baseline (with vacuous provable
+guarantees).</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.17225v1">Enhancing Privacy and Security of Autonomous UAV Navigation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Robotics-F9C80E">
+  <p><b>Published on:</b> 2024-04-26T07:54:04Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Vatsal Aggarwal, Arjun Ramesh Kaushik, Charanjit Jutla, Nalini Ratha</p>
+    <p><b>Summary:</b> Autonomous Unmanned Aerial Vehicles (UAVs) have become essential tools in
+defense, law enforcement, disaster response, and product delivery. These
+autonomous navigation systems require a wireless communication network, and of
+late are deep learning based. In critical scenarios such as border protection
+or disaster response, ensuring the secure navigation of autonomous UAVs is
+paramount. But, these autonomous UAVs are susceptible to adversarial attacks
+through the communication network or the deep learning models - eavesdropping /
+man-in-the-middle / membership inference / reconstruction. To address this
+susceptibility, we propose an innovative approach that combines Reinforcement
+Learning (RL) and Fully Homomorphic Encryption (FHE) for secure autonomous UAV
+navigation. This end-to-end secure framework is designed for real-time video
+feeds captured by UAV cameras and utilizes FHE to perform inference on
+encrypted input images. While FHE allows computations on encrypted data,
+certain computational operators are yet to be implemented. Convolutional neural
+networks, fully connected neural networks, activation functions and OpenAI Gym
+Library are meticulously adapted to the FHE domain to enable encrypted data
+processing. We demonstrate the efficacy of our proposed approach through
+extensive experimentation. Our proposed approach ensures security and privacy
+in autonomous UAV navigation with negligible loss in performance.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2404.16706v1">Efficient and Near-Optimal Noise Generation for Streaming Differential
   Privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computational Complexity-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
@@ -586,6 +639,32 @@ training on our dataset, and RoBERTa performed better overall with a remarkable
 redundancies and potential guideline violations by identifying overlaps in
 GDPR-required documents, underscoring the necessity for stricter GDPR
 compliance.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.16865v1">Improving Privacy-Preserving Techniques for Smart Grid using
+  Lattice-based Cryptography</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-04-17T19:51:52Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Saleh Darzi, Bahareh Akhbari, Hassan Khodaiemehr</p>
+    <p><b>Summary:</b> Advancements in communication and information tech birthed the Smart Grid,
+optimizing energy and data transmission. Yet, user privacy is at risk due to
+frequent data collection. Existing privacy schemes face vulnerability with
+quantum machines. To tackle this, the LPM2DA scheme is introduced, utilizing
+lattice-based encryption and signatures for secure data aggregation. It ensures
+privacy, integrity, and authentication, enabling statistical analysis while
+preserving user privacy. Traditional aggregation schemes suffer from weak
+network models and centralization issues. Enter SPDBlock, a blockchain-based
+solution ensuring privacy, integrity, and resistance to attacks. It detects and
+prosecutes malicious entities while efficiently handling multi-dimensional data
+transmission. Through distributed decryption and secret sharing, only valid
+data can be decrypted with minimal involvement from smart meters. Performance
+tests reveal SPDBlock's superiority in communication and computational
+efficiency over traditional schemes.</p>
   </details>
 </div>
 
@@ -2739,100 +2818,6 @@ detail existing works based on five application goals: device fingerprinting,
 user activity inference, malicious traffic analysis, security analysis, and
 measurement. At last, we discuss the new challenges and future research
 directions.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.15208v1">VPAS: Publicly Verifiable and Privacy-Preserving Aggregate Statistics on
-  Distributed Datasets</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-03-22T13:50:22Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mohammed Alghazwi, Dewi Davies-Batista, Dimka Karastoyanova, Fatih Turkmen</p>
-    <p><b>Summary:</b> Aggregate statistics play an important role in extracting meaningful insights
-from distributed data while preserving privacy. A growing number of application
-domains, such as healthcare, utilize these statistics in advancing research and
-improving patient care.
-  In this work, we explore the challenge of input validation and public
-verifiability within privacy-preserving aggregation protocols. We address the
-scenario in which a party receives data from multiple sources and must verify
-the validity of the input and correctness of the computations over this data to
-third parties, such as auditors, while ensuring input data privacy. To achieve
-this, we propose the "VPAS" protocol, which satisfies these requirements. Our
-protocol utilizes homomorphic encryption for data privacy, and employs
-Zero-Knowledge Proofs (ZKP) and a blockchain system for input validation and
-public verifiability. We constructed VPAS by extending existing verifiable
-encryption schemes into secure protocols that enable N clients to encrypt,
-aggregate, and subsequently release the final result to a collector in a
-verifiable manner.
-  We implemented and experimentally evaluated VPAS with regard to encryption
-costs, proof generation, and verification. The findings indicate that the
-overhead associated with verifiability in our protocol is 10x lower than that
-incurred by simply using conventional zkSNARKs. This enhanced efficiency makes
-it feasible to apply input validation with public verifiability across a wider
-range of applications or use cases that can tolerate moderate computational
-overhead associated with proof generation.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.15045v1">DP-Dueling: Learning from Preference Feedback without Compromising User
-  Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-03-22T09:02:12Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Aadirupa Saha, Hilal Asi</p>
-    <p><b>Summary:</b> We consider the well-studied dueling bandit problem, where a learner aims to
-identify near-optimal actions using pairwise comparisons, under the constraint
-of differential privacy. We consider a general class of utility-based
-preference matrices for large (potentially unbounded) decision spaces and give
-the first differentially private dueling bandit algorithm for active learning
-with user preferences. Our proposed algorithms are computationally efficient
-with near-optimal performance, both in terms of the private and non-private
-regret bound. More precisely, we show that when the decision space is of finite
-size $K$, our proposed algorithm yields order optimal $O\Big(\sum_{i =
-2}^K\log\frac{KT}{\Delta_i} + \frac{K}{\epsilon}\Big)$ regret bound for pure
-$\epsilon$-DP, where $\Delta_i$ denotes the suboptimality gap of the $i$-th
-arm. We also present a matching lower bound analysis which proves the
-optimality of our algorithms. Finally, we extend our results to any general
-decision space in $d$-dimensions with potentially infinite arms and design an
-$\epsilon$-DP algorithm with regret $\tilde{O} \left( \frac{d^6}{\kappa
-\epsilon } + \frac{ d\sqrt{T }}{\kappa} \right)$, providing privacy for free
-when $T \gg d$.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.15510v1">Privacy-Preserving End-to-End Spoken Language Understanding</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
-  <p><b>Published on:</b> 2024-03-22T03:41:57Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yinggui Wang, Wei Huang, Le Yang</p>
-    <p><b>Summary:</b> Spoken language understanding (SLU), one of the key enabling technologies for
-human-computer interaction in IoT devices, provides an easy-to-use user
-interface. Human speech can contain a lot of user-sensitive information, such
-as gender, identity, and sensitive content. New types of security and privacy
-breaches have thus emerged. Users do not want to expose their personal
-sensitive information to malicious attacks by untrusted third parties. Thus,
-the SLU system needs to ensure that a potential malicious attacker cannot
-deduce the sensitive attributes of the users, while it should avoid greatly
-compromising the SLU accuracy. To address the above challenge, this paper
-proposes a novel SLU multi-task privacy-preserving model to prevent both the
-speech recognition (ASR) and identity recognition (IR) attacks. The model uses
-the hidden layer separation technique so that SLU information is distributed
-only in a specific portion of the hidden layer, and the other two types of
-information are removed to obtain a privacy-secure hidden layer. In order to
-achieve good balance between efficiency and privacy, we introduce a new
-mechanism of model pre-training, namely joint adversarial training, to further
-enhance the user privacy. Experiments over two SLU datasets show that the
-proposed method can reduce the accuracy of both the ASR and IR attacks close to
-that of a random guess, while leaving the SLU performance largely unaffected.</p>
   </details>
 </div>
 
