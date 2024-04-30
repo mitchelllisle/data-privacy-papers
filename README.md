@@ -2,6 +2,120 @@
 <h2>2024-04</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.18814v1">Belt and Brace: When Federated Learning Meets Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-04-29T15:51:49Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xuebin Ren, Shusen Yang, Cong Zhao, Julie McCann, Zongben Xu</p>
+    <p><b>Summary:</b> Federated learning (FL) has great potential for large-scale machine learning
+(ML) without exposing raw data.Differential privacy (DP) is the de facto
+standard of privacy protection with provable guarantees.Advances in ML suggest
+that DP would be a perfect fit for FL with comprehensive privacy preservation.
+Hence, extensive efforts have been devoted to achieving practically usable FL
+with DP, which however is still challenging.Practitioners often not only are
+not fully aware of its development and categorization, but also face a hard
+choice between privacy and utility. Therefore, it calls for a holistic review
+of current advances and an investigation on the challenges and opportunities
+for highly usable FL systems with a DP guarantee. In this article, we first
+introduce the primary concepts of FL and DP, and highlight the benefits of
+integration. We then review the current developments by categorizing different
+paradigms and notions. Aiming at usable FL with DP, we present the optimization
+principles to seek a better tradeoff between model utility and privacy loss.
+Finally, we discuss future challenges in the emergent areas and relevant
+research topics.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.18002v1">Towards Privacy-Preserving Audio Classification Systems</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Sound-D91E36"> 
+  <p><b>Published on:</b> 2024-04-27T20:36:52Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Bhawana Chhaglani, Jeremy Gummeson, Prashant Shenoy</p>
+    <p><b>Summary:</b> Audio signals can reveal intimate details about a person's life, including
+their conversations, health status, emotions, location, and personal
+preferences. Unauthorized access or misuse of this information can have
+profound personal and social implications. In an era increasingly populated by
+devices capable of audio recording, safeguarding user privacy is a critical
+obligation. This work studies the ethical and privacy concerns in current audio
+classification systems. We discuss the challenges and research directions in
+designing privacy-preserving audio sensing systems. We propose
+privacy-preserving audio features that can be used to classify wide range of
+audio classes, while being privacy preserving.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.17984v1">Privacy-Preserving, Dropout-Resilient Aggregation in Decentralized
+  Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-04-27T19:17:02Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ali Reza Ghavamipour, Benjamin Zi Hao Zhao, Fatih Turkmen</p>
+    <p><b>Summary:</b> Decentralized learning (DL) offers a novel paradigm in machine learning by
+distributing training across clients without central aggregation, enhancing
+scalability and efficiency. However, DL's peer-to-peer model raises challenges
+in protecting against inference attacks and privacy leaks. By forgoing central
+bottlenecks, DL demands privacy-preserving aggregation methods to protect data
+from 'honest but curious' clients and adversaries, maintaining network-wide
+privacy. Privacy-preserving DL faces the additional hurdle of client dropout,
+clients not submitting updates due to connectivity problems or unavailability,
+further complicating aggregation.
+  This work proposes three secret sharing-based dropout resilience approaches
+for privacy-preserving DL. Our study evaluates the efficiency, performance, and
+accuracy of these protocols through experiments on datasets such as MNIST,
+Fashion-MNIST, SVHN, and CIFAR-10. We compare our protocols with traditional
+secret-sharing solutions across scenarios, including those with up to 1000
+clients. Evaluations show that our protocols significantly outperform
+conventional methods, especially in scenarios with up to 30% of clients dropout
+and model sizes of up to $10^6$ parameters. Our approaches demonstrate markedly
+high efficiency with larger models, higher dropout rates, and extensive client
+networks, highlighting their effectiveness in enhancing decentralized learning
+systems' privacy and dropout robustness.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.17970v1">Privacy-Preserving Aggregation for Decentralized Learning with
+  Byzantine-Robustness</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-04-27T18:17:36Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ali Reza Ghavamipour, Benjamin Zi Hao Zhao, Oguzhan Ersoy, Fatih Turkmen</p>
+    <p><b>Summary:</b> Decentralized machine learning (DL) has been receiving an increasing interest
+recently due to the elimination of a single point of failure, present in
+Federated learning setting. Yet, it is threatened by the looming threat of
+Byzantine clients who intentionally disrupt the learning process by
+broadcasting arbitrary model updates to other clients, seeking to degrade the
+performance of the global model. In response, robust aggregation schemes have
+emerged as promising solutions to defend against such Byzantine clients,
+thereby enhancing the robustness of Decentralized Learning. Defenses against
+Byzantine adversaries, however, typically require access to the updates of
+other clients, a counterproductive privacy trade-off that in turn increases the
+risk of inference attacks on those same model updates.
+  In this paper, we introduce SecureDL, a novel DL protocol designed to enhance
+the security and privacy of DL against Byzantine threats. SecureDL~facilitates
+a collaborative defense, while protecting the privacy of clients' model updates
+through secure multiparty computation. The protocol employs efficient
+computation of cosine similarity and normalization of updates to robustly
+detect and exclude model updates detrimental to model convergence. By using
+MNIST, Fashion-MNIST, SVHN and CIFAR-10 datasets, we evaluated SecureDL against
+various Byzantine attacks and compared its effectiveness with four existing
+defense mechanisms. Our experiments show that SecureDL is effective even in the
+case of attacks by the malicious majority (e.g., 80% Byzantine clients) while
+preserving high training accuracy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2404.17399v1">Evaluations of Machine Learning Privacy Defenses are Misleading</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2024-04-26T13:21:30Z</p>
@@ -55,13 +169,13 @@ in autonomous UAV navigation with negligible loss in performance.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.16706v1">Efficient and Near-Optimal Noise Generation for Streaming Differential
+  <h3><a href="http://arxiv.org/abs/2404.16706v2">Efficient and Near-Optimal Noise Generation for Streaming Differential
   Privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computational Complexity-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2024-04-25T16:11:46Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b>  Krishnamurthy,  Dvijotham, H. Brendan McMahan, Krishna Pillutla, Thomas Steinke, Abhradeep Thakurta</p>
+    <p><b>Authors:</b> Krishnamurthy Dvijotham, H. Brendan McMahan, Krishna Pillutla, Thomas Steinke, Abhradeep Thakurta</p>
     <p><b>Summary:</b> In the task of differentially private (DP) continual counting, we receive a
 stream of increments and our goal is to output an approximate running total of
 these increments, without revealing too much about any specific increment.
@@ -280,7 +394,7 @@ capabilities.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.15686v1">Noise Variance Optimization in Differential Privacy: A Game-Theoretic
+  <h3><a href="http://arxiv.org/abs/2404.15686v2">Noise Variance Optimization in Differential Privacy: A Game-Theoretic
   Approach Through Per-Instance Differential Privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2024-04-24T06:51:16Z</p>
@@ -873,7 +987,7 @@ do not like others to see, ensuring their personal privacy.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.10255v1">Privacy-Preserving Training-as-a-Service for On-Device Intelligence:
+  <h3><a href="http://arxiv.org/abs/2404.10255v2">Privacy-Enhanced Training-as-a-Service for On-Device Intelligence:
   Concept, Architectural Scheme, and Open Problems</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
   <p><b>Published on:</b> 2024-04-16T03:18:27Z</p>
@@ -882,18 +996,18 @@ do not like others to see, ensuring their personal privacy.</p>
     <p><b>Authors:</b> Zhiyuan Wu, Sheng Sun, Yuwei Wang, Min Liu, Bo Gao, Tianliu He, Wen Wang</p>
     <p><b>Summary:</b> On-device intelligence (ODI) enables artificial intelligence (AI)
 applications to run on end devices, providing real-time and customized AI
-services without relying on remote servers. However, training models for
+inference without relying on remote servers. However, training models for
 on-device deployment face significant challenges due to the decentralized and
 privacy-sensitive nature of users' data, along with end-side constraints
 related to network connectivity, computation efficiency, etc. Existing training
 paradigms, such as cloud-based training, federated learning, and transfer
 learning, fail to sufficiently address these practical constraints that are
 prevalent for devices. To overcome these challenges, we propose
-Privacy-Preserving Training-as-a-Service (PTaaS), a novel service computing
+Privacy-Enhanced Training-as-a-Service (PTaaS), a novel service computing
 paradigm that provides privacy-friendly, customized AI model training for end
 devices. PTaaS outsources the core training process to remote and powerful
 cloud or edge servers, efficiently developing customized on-device models based
-on uploaded anonymous queries, ensuring data privacy while reducing the
+on uploaded anonymous queries, enhancing data privacy while reducing the
 computation load on individual devices. We explore the definition, goals, and
 design principles of PTaaS, alongside emerging technologies that support the
 PTaaS paradigm. An architectural scheme for PTaaS is also presented, followed
@@ -2698,126 +2812,6 @@ periodic transmission scheme. We analyze the performance of privacy
 preservation and LQG control of different transmission periods. Under the given
 threshold of the control performance loss, a trade-off optimization problem is
 proposed. Finally, we give the solution to the optimization problem.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.16773v1">Privacy-Protected Spatial Autoregressive Model</a></h3>
-   
-  <p><b>Published on:</b> 2024-03-25T13:51:22Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Danyang Huang, Ziyi Kong, Shuyuan Wu, Hansheng Wang</p>
-    <p><b>Summary:</b> Spatial autoregressive (SAR) models are important tools for studying network
-effects. However, with an increasing emphasis on data privacy, data providers
-often implement privacy protection measures that make classical SAR models
-inapplicable. In this study, we introduce a privacy-protected SAR model with
-noise-added response and covariates to meet privacy-protection requirements.
-However, in this scenario, the traditional quasi-maximum likelihood estimator
-becomes infeasible because the likelihood function cannot be formulated. To
-address this issue, we first consider an explicit expression for the likelihood
-function with only noise-added responses. However, the derivatives are biased
-owing to the noise in the covariates. Therefore, we develop techniques that can
-correct the biases introduced by noise. Correspondingly, a Newton-Raphson-type
-algorithm is proposed to obtain the estimator, leading to a corrected
-likelihood estimator. To further enhance computational efficiency, we introduce
-a corrected least squares estimator based on the idea of bias correction. These
-two estimation methods ensure both data security and the attainment of
-statistically valid estimators. Theoretical analysis of both estimators is
-carefully conducted, and statistical inference methods are discussed. The
-finite sample performances of different methods are demonstrated through
-extensive simulations and the analysis of a real dataset.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.16591v3">Deciphering the Interplay between Local Differential Privacy, Average
-  Bayesian Privacy, and Maximum Bayesian Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-03-25T10:06:45Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Xiaojin Zhang, Yulin Fei, Wei Chen</p>
-    <p><b>Summary:</b> The swift evolution of machine learning has led to emergence of various
-definitions of privacy due to the threats it poses to privacy, including the
-concept of local differential privacy (LDP). Although widely embraced and
-utilized across numerous domains, this conventional approach to measure privacy
-still exhibits certain limitations, spanning from failure to prevent
-inferential disclosure to lack of consideration for the adversary's background
-knowledge. In this comprehensive study, we introduce Bayesian privacy and delve
-into the intricate relationship between LDP and its Bayesian counterparts,
-unveiling novel insights into utility-privacy trade-offs. We introduce a
-framework that encapsulates both attack and defense strategies, highlighting
-their interplay and effectiveness. The relationship between LDP and Maximum
-Bayesian Privacy (MBP) is first revealed, demonstrating that under uniform
-prior distribution, a mechanism satisfying $\xi$-LDP will satisfy $\xi$-MBP and
-conversely $\xi$-MBP also confers 2$\xi$-LDP. Our next theoretical contribution
-are anchored in the rigorous definitions and relationships between Average
-Bayesian Privacy (ABP) and Maximum Bayesian Privacy (MBP), encapsulated by
-equations $\epsilon_{p,a} \leq \frac{1}{\sqrt{2}}\sqrt{(\epsilon_{p,m} +
-\epsilon)\cdot(e^{\epsilon_{p,m} + \epsilon} - 1)}$. These relationships
-fortify our understanding of the privacy guarantees provided by various
-mechanisms. Our work not only lays the groundwork for future empirical
-exploration but also promises to facilitate the design of privacy-preserving
-algorithms, thereby fostering the development of trustworthy machine learning
-solutions.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.16473v1">Plaintext-Free Deep Learning for Privacy-Preserving Medical Image
-  Analysis via Frequency Information Embedding</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
-  <p><b>Published on:</b> 2024-03-25T06:56:38Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mengyu Sun, Ziyuan Yang, Maosong Ran, Zhiwen Wang, Hui Yu, Yi Zhang</p>
-    <p><b>Summary:</b> In the fast-evolving field of medical image analysis, Deep Learning
-(DL)-based methods have achieved tremendous success. However, these methods
-require plaintext data for training and inference stages, raising privacy
-concerns, especially in the sensitive area of medical data. To tackle these
-concerns, this paper proposes a novel framework that uses surrogate images for
-analysis, eliminating the need for plaintext images. This approach is called
-Frequency-domain Exchange Style Fusion (FESF). The framework includes two main
-components: Image Hidden Module (IHM) and Image Quality Enhancement
-Module~(IQEM). The~IHM performs in the frequency domain, blending the features
-of plaintext medical images into host medical images, and then combines this
-with IQEM to improve and create surrogate images effectively. During the
-diagnostic model training process, only surrogate images are used, enabling
-anonymous analysis without any plaintext data during both training and
-inference stages. Extensive evaluations demonstrate that our framework
-effectively preserves the privacy of medical images and maintains diagnostic
-accuracy of DL models at a relatively high level, proving its effectiveness
-across various datasets and DL-based models.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.16149v1">A Survey on Consumer IoT Traffic: Security and Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-03-24T13:43:43Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yan Jia, Yuxin Song, Zihou Liu, Qingyin Tan, Fangming Wang, Yu Zhang, Zheli Liu</p>
-    <p><b>Summary:</b> For the past few years, the Consumer Internet of Things (CIoT) has entered
-public lives. While CIoT has improved the convenience of people's daily lives,
-it has also brought new security and privacy concerns. In this survey, we try
-to figure out what researchers can learn about the security and privacy of CIoT
-by traffic analysis, a popular method in the security community. From the
-security and privacy perspective, this survey seeks out the new characteristics
-in CIoT traffic analysis, the state-of-the-art progress in CIoT traffic
-analysis, and the challenges yet to be solved. We collected 310 papers from
-January 2018 to December 2023 related to CIoT traffic analysis from the
-security and privacy perspective and summarized the process of CIoT traffic
-analysis in which the new characteristics of CIoT are identified. Then, we
-detail existing works based on five application goals: device fingerprinting,
-user activity inference, malicious traffic analysis, security analysis, and
-measurement. At last, we discuss the new challenges and future research
-directions.</p>
   </details>
 </div>
 
