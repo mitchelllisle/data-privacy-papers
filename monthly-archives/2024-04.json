@@ -2079,5 +2079,187 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.18814v1",
+    "title" : "Belt and Brace: When Federated Learning Meets Differential Privacy",
+    "summary" : "Federated learning (FL) has great potential for large-scale machine learning\n(ML) without exposing raw data.Differential privacy (DP) is the de facto\nstandard of privacy protection with provable guarantees.Advances in ML suggest\nthat DP would be a perfect fit for FL with comprehensive privacy preservation.\nHence, extensive efforts have been devoted to achieving practically usable FL\nwith DP, which however is still challenging.Practitioners often not only are\nnot fully aware of its development and categorization, but also face a hard\nchoice between privacy and utility. Therefore, it calls for a holistic review\nof current advances and an investigation on the challenges and opportunities\nfor highly usable FL systems with a DP guarantee. In this article, we first\nintroduce the primary concepts of FL and DP, and highlight the benefits of\nintegration. We then review the current developments by categorizing different\nparadigms and notions. Aiming at usable FL with DP, we present the optimization\nprinciples to seek a better tradeoff between model utility and privacy loss.\nFinally, we discuss future challenges in the emergent areas and relevant\nresearch topics.",
+    "updated" : "2024-04-29T15:51:49Z",
+    "published" : "2024-04-29T15:51:49Z",
+    "authors" : [
+      {
+        "name" : "Xuebin Ren"
+      },
+      {
+        "name" : "Shusen Yang"
+      },
+      {
+        "name" : "Cong Zhao"
+      },
+      {
+        "name" : "Julie McCann"
+      },
+      {
+        "name" : "Zongben Xu"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.18002v1",
+    "title" : "Towards Privacy-Preserving Audio Classification Systems",
+    "summary" : "Audio signals can reveal intimate details about a person's life, including\ntheir conversations, health status, emotions, location, and personal\npreferences. Unauthorized access or misuse of this information can have\nprofound personal and social implications. In an era increasingly populated by\ndevices capable of audio recording, safeguarding user privacy is a critical\nobligation. This work studies the ethical and privacy concerns in current audio\nclassification systems. We discuss the challenges and research directions in\ndesigning privacy-preserving audio sensing systems. We propose\nprivacy-preserving audio features that can be used to classify wide range of\naudio classes, while being privacy preserving.",
+    "updated" : "2024-04-27T20:36:52Z",
+    "published" : "2024-04-27T20:36:52Z",
+    "authors" : [
+      {
+        "name" : "Bhawana Chhaglani"
+      },
+      {
+        "name" : "Jeremy Gummeson"
+      },
+      {
+        "name" : "Prashant Shenoy"
+      }
+    ],
+    "categories" : [
+      "cs.SD",
+      "eess.AS"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.17984v1",
+    "title" : "Privacy-Preserving, Dropout-Resilient Aggregation in Decentralized\n  Learning",
+    "summary" : "Decentralized learning (DL) offers a novel paradigm in machine learning by\ndistributing training across clients without central aggregation, enhancing\nscalability and efficiency. However, DL's peer-to-peer model raises challenges\nin protecting against inference attacks and privacy leaks. By forgoing central\nbottlenecks, DL demands privacy-preserving aggregation methods to protect data\nfrom 'honest but curious' clients and adversaries, maintaining network-wide\nprivacy. Privacy-preserving DL faces the additional hurdle of client dropout,\nclients not submitting updates due to connectivity problems or unavailability,\nfurther complicating aggregation.\n  This work proposes three secret sharing-based dropout resilience approaches\nfor privacy-preserving DL. Our study evaluates the efficiency, performance, and\naccuracy of these protocols through experiments on datasets such as MNIST,\nFashion-MNIST, SVHN, and CIFAR-10. We compare our protocols with traditional\nsecret-sharing solutions across scenarios, including those with up to 1000\nclients. Evaluations show that our protocols significantly outperform\nconventional methods, especially in scenarios with up to 30% of clients dropout\nand model sizes of up to $10^6$ parameters. Our approaches demonstrate markedly\nhigh efficiency with larger models, higher dropout rates, and extensive client\nnetworks, highlighting their effectiveness in enhancing decentralized learning\nsystems' privacy and dropout robustness.",
+    "updated" : "2024-04-27T19:17:02Z",
+    "published" : "2024-04-27T19:17:02Z",
+    "authors" : [
+      {
+        "name" : "Ali Reza Ghavamipour"
+      },
+      {
+        "name" : "Benjamin Zi Hao Zhao"
+      },
+      {
+        "name" : "Fatih Turkmen"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.17970v1",
+    "title" : "Privacy-Preserving Aggregation for Decentralized Learning with\n  Byzantine-Robustness",
+    "summary" : "Decentralized machine learning (DL) has been receiving an increasing interest\nrecently due to the elimination of a single point of failure, present in\nFederated learning setting. Yet, it is threatened by the looming threat of\nByzantine clients who intentionally disrupt the learning process by\nbroadcasting arbitrary model updates to other clients, seeking to degrade the\nperformance of the global model. In response, robust aggregation schemes have\nemerged as promising solutions to defend against such Byzantine clients,\nthereby enhancing the robustness of Decentralized Learning. Defenses against\nByzantine adversaries, however, typically require access to the updates of\nother clients, a counterproductive privacy trade-off that in turn increases the\nrisk of inference attacks on those same model updates.\n  In this paper, we introduce SecureDL, a novel DL protocol designed to enhance\nthe security and privacy of DL against Byzantine threats. SecureDL~facilitates\na collaborative defense, while protecting the privacy of clients' model updates\nthrough secure multiparty computation. The protocol employs efficient\ncomputation of cosine similarity and normalization of updates to robustly\ndetect and exclude model updates detrimental to model convergence. By using\nMNIST, Fashion-MNIST, SVHN and CIFAR-10 datasets, we evaluated SecureDL against\nvarious Byzantine attacks and compared its effectiveness with four existing\ndefense mechanisms. Our experiments show that SecureDL is effective even in the\ncase of attacks by the malicious majority (e.g., 80% Byzantine clients) while\npreserving high training accuracy.",
+    "updated" : "2024-04-27T18:17:36Z",
+    "published" : "2024-04-27T18:17:36Z",
+    "authors" : [
+      {
+        "name" : "Ali Reza Ghavamipour"
+      },
+      {
+        "name" : "Benjamin Zi Hao Zhao"
+      },
+      {
+        "name" : "Oguzhan Ersoy"
+      },
+      {
+        "name" : "Fatih Turkmen"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.16706v2",
+    "title" : "Efficient and Near-Optimal Noise Generation for Streaming Differential\n  Privacy",
+    "summary" : "In the task of differentially private (DP) continual counting, we receive a\nstream of increments and our goal is to output an approximate running total of\nthese increments, without revealing too much about any specific increment.\nDespite its simplicity, differentially private continual counting has attracted\nsignificant attention both in theory and in practice. Existing algorithms for\ndifferentially private continual counting are either inefficient in terms of\ntheir space usage or add an excessive amount of noise, inducing suboptimal\nutility.\n  The most practical DP continual counting algorithms add carefully correlated\nGaussian noise to the values. The task of choosing the covariance for this\nnoise can be expressed in terms of factoring the lower-triangular matrix of\nones (which computes prefix sums). We present two approaches from this class\n(for different parameter regimes) that achieve near-optimal utility for DP\ncontinual counting and only require logarithmic or polylogarithmic space (and\ntime).\n  Our first approach is based on a space-efficient streaming matrix\nmultiplication algorithm for a class of Toeplitz matrices. We show that to\ninstantiate this algorithm for DP continual counting, it is sufficient to find\na low-degree rational function that approximates the square root on a circle in\nthe complex plane. We then apply and extend tools from approximation theory to\nachieve this. We also derive efficient closed-forms for the objective function\nfor arbitrarily many steps, and show direct numerical optimization yields a\nhighly practical solution to the problem. Our second approach combines our\nfirst approach with a recursive construction similar to the binary tree\nmechanism.",
+    "updated" : "2024-04-26T21:23:45Z",
+    "published" : "2024-04-25T16:11:46Z",
+    "authors" : [
+      {
+        "name" : "Krishnamurthy Dvijotham"
+      },
+      {
+        "name" : "H. Brendan McMahan"
+      },
+      {
+        "name" : "Krishna Pillutla"
+      },
+      {
+        "name" : "Thomas Steinke"
+      },
+      {
+        "name" : "Abhradeep Thakurta"
+      }
+    ],
+    "categories" : [
+      "cs.DS",
+      "cs.CC",
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.15686v2",
+    "title" : "Noise Variance Optimization in Differential Privacy: A Game-Theoretic\n  Approach Through Per-Instance Differential Privacy",
+    "summary" : "The concept of differential privacy (DP) can quantitatively measure privacy\nloss by observing the changes in the distribution caused by the inclusion of\nindividuals in the target dataset. The DP, which is generally used as a\nconstraint, has been prominent in safeguarding datasets in machine learning in\nindustry giants like Apple and Google. A common methodology for guaranteeing DP\nis incorporating appropriate noise into query outputs, thereby establishing\nstatistical defense systems against privacy attacks such as membership\ninference and linkage attacks. However, especially for small datasets, existing\nDP mechanisms occasionally add excessive amount of noise to query output,\nthereby discarding data utility. This is because the traditional DP computes\nprivacy loss based on the worst-case scenario, i.e., statistical outliers. In\nthis work, to tackle this challenge, we utilize per-instance DP (pDP) as a\nconstraint, measuring privacy loss for each data instance and optimizing noise\ntailored to individual instances. In a nutshell, we propose a per-instance\nnoise variance optimization (NVO) game, framed as a common interest sequential\ngame, and show that the Nash equilibrium (NE) points of it inherently guarantee\npDP for all data instances. Through extensive experiments, our proposed pDP\nalgorithm demonstrated an average performance improvement of up to 99.53%\ncompared to the conventional DP algorithm in terms of KL divergence.",
+    "updated" : "2024-04-27T10:36:12Z",
+    "published" : "2024-04-24T06:51:16Z",
+    "authors" : [
+      {
+        "name" : "Sehyun Ryu"
+      },
+      {
+        "name" : "Jonggyu Jang"
+      },
+      {
+        "name" : "Hyun Jong Yang"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.10255v2",
+    "title" : "Privacy-Enhanced Training-as-a-Service for On-Device Intelligence:\n  Concept, Architectural Scheme, and Open Problems",
+    "summary" : "On-device intelligence (ODI) enables artificial intelligence (AI)\napplications to run on end devices, providing real-time and customized AI\ninference without relying on remote servers. However, training models for\non-device deployment face significant challenges due to the decentralized and\nprivacy-sensitive nature of users' data, along with end-side constraints\nrelated to network connectivity, computation efficiency, etc. Existing training\nparadigms, such as cloud-based training, federated learning, and transfer\nlearning, fail to sufficiently address these practical constraints that are\nprevalent for devices. To overcome these challenges, we propose\nPrivacy-Enhanced Training-as-a-Service (PTaaS), a novel service computing\nparadigm that provides privacy-friendly, customized AI model training for end\ndevices. PTaaS outsources the core training process to remote and powerful\ncloud or edge servers, efficiently developing customized on-device models based\non uploaded anonymous queries, enhancing data privacy while reducing the\ncomputation load on individual devices. We explore the definition, goals, and\ndesign principles of PTaaS, alongside emerging technologies that support the\nPTaaS paradigm. An architectural scheme for PTaaS is also presented, followed\nby a series of open problems that set the stage for future research directions\nin the field of PTaaS.",
+    "updated" : "2024-04-27T12:39:28Z",
+    "published" : "2024-04-16T03:18:27Z",
+    "authors" : [
+      {
+        "name" : "Zhiyuan Wu"
+      },
+      {
+        "name" : "Sheng Sun"
+      },
+      {
+        "name" : "Yuwei Wang"
+      },
+      {
+        "name" : "Min Liu"
+      },
+      {
+        "name" : "Bo Gao"
+      },
+      {
+        "name" : "Tianliu He"
+      },
+      {
+        "name" : "Wen Wang"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "cs.DC"
+    ]
   }
 ]
