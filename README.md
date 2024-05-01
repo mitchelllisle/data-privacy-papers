@@ -2,6 +2,69 @@
 <h2>2024-04</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.19744v1">PrivComp-KG : Leveraging Knowledge Graph and Large Language Models for
+  Privacy Policy Compliance Verification</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-04-30T17:44:44Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Leon Garza, Lavanya Elluri, Anantaa Kotal, Aritran Piplai, Deepti Gupta, Anupam Joshi</p>
+    <p><b>Summary:</b> Data protection and privacy is becoming increasingly crucial in the digital
+era. Numerous companies depend on third-party vendors and service providers to
+carry out critical functions within their operations, encompassing tasks such
+as data handling and storage. However, this reliance introduces potential
+vulnerabilities, as these vendors' security measures and practices may not
+always align with the standards expected by regulatory bodies. Businesses are
+required, often under the penalty of law, to ensure compliance with the
+evolving regulatory rules. Interpreting and implementing these regulations pose
+challenges due to their complexity. Regulatory documents are extensive,
+demanding significant effort for interpretation, while vendor-drafted privacy
+policies often lack the detail required for full legal compliance, leading to
+ambiguity. To ensure a concise interpretation of the regulatory requirements
+and compliance of organizational privacy policy with said regulations, we
+propose a Large Language Model (LLM) and Semantic Web based approach for
+privacy compliance. In this paper, we develop the novel Privacy Policy
+Compliance Verification Knowledge Graph, PrivComp-KG. It is designed to
+efficiently store and retrieve comprehensive information concerning privacy
+policies, regulatory frameworks, and domain-specific knowledge pertaining to
+the legal landscape of privacy. Using Retrieval Augmented Generation, we
+identify the relevant sections in a privacy policy with corresponding
+regulatory rules. This information about individual privacy policies is
+populated into the PrivComp-KG. Combining this with the domain context and
+rules, the PrivComp-KG can be queried to check for compliance with privacy
+policies by each vendor against relevant policy regulations. We demonstrate the
+relevance of the PrivComp-KG, by verifying compliance of privacy policy
+documents for various organizations.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2404.19677v1">A Comprehensive Analysis of Pegasus Spyware and Its Implications for
+  Digital Privacy and Security</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-04-30T16:10:21Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Karwan Kareem</p>
+    <p><b>Summary:</b> This paper comprehensively analyzes the Pegasus spyware and its implications
+for digital privacy and security. The Israeli cyber intelligence company NSO
+Group's Pegasus has gained recognition as a potent surveillance tool capable of
+hacking into smartphones and extracting data without the user's knowledge [49],
+[50]. The research emphasizes the technical aspects of this spyware, its
+deployment methods, and the controversies surrounding its use. The research
+also emphasizes the growing worries surrounding digital privacy and security as
+a result of the prevalent use of advanced spyware. By delving into legal,
+ethical, and policy issues, the objective of this study is to deliver a
+holistic understanding of the challenges posed by Pegasus and similar spyware
+tools. Through a comprehensive examination of the subject, the paper presents
+potential solutions to mitigate the threats and protect users from invasive
+surveillance techniques.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2404.18814v1">Belt and Brace: When Federated Learning Meets Differential Privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2024-04-29T15:51:49Z</p>
@@ -2764,54 +2827,6 @@ protocol is up to 9x faster, and the neural network training is up to 688x
 faster than SecureML. Notably, our neural network achieves an accuracy of 96.6%
 on MNIST in 15 epochs, outperforming prior benchmarks that capped at 93.4%
 using the same architecture.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.17225v1">Measuring Compliance with the California Consumer Privacy Act Over Space
-  and Time</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2024-03-25T21:57:31Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Van Tran, Aarushi Mehrotra, Marshini Chetty, Nick Feamster, Jens Frankenreiter, Lior Strahilevitz</p>
-    <p><b>Summary:</b> The widespread sharing of consumers personal information with third parties
-raises significant privacy concerns. The California Consumer Privacy Act (CCPA)
-mandates that online businesses offer consumers the option to opt out of the
-sale and sharing of personal information. Our study automatically tracks the
-presence of the opt-out link longitudinally across multiple states after the
-California Privacy Rights Act (CPRA) went into effect. We categorize websites
-based on whether they are subject to CCPA and investigate cases of potential
-non-compliance. We find a number of websites that implement the opt-out link
-early and across all examined states but also find a significant number of
-CCPA-subject websites that fail to offer any opt-out methods even when CCPA is
-in effect. Our findings can shed light on how websites are reacting to the CCPA
-and identify potential gaps in compliance and opt-out method designs that
-hinder consumers from exercising CCPA opt-out rights.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.16797v2">Privacy Preservation by Intermittent Transmission in Cooperative LQG
-  Control Systems</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
-  <p><b>Published on:</b> 2024-03-25T14:14:39Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Wenhao Lin, Yuqing Ni, Wen Yang, Chao Yang</p>
-    <p><b>Summary:</b> In this paper, we study a cooperative linear quadratic Gaussian (LQG) control
-system with a single user and a server. In this system, the user runs a process
-and employs the server to meet the needs of computation. However, the user
-regards its state trajectories as privacy. Therefore, we propose a privacy
-scheme, in which the user sends data to the server intermittently. By this
-scheme, the server's received information of the user is reduced, and
-consequently the user's privacy is preserved. In this paper, we consider a
-periodic transmission scheme. We analyze the performance of privacy
-preservation and LQG control of different transmission periods. Under the given
-threshold of the control performance loss, a trade-off optimization problem is
-proposed. Finally, we give the solution to the optimization problem.</p>
   </details>
 </div>
 
