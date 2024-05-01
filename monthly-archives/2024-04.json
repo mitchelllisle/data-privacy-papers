@@ -2261,5 +2261,51 @@
       "cs.CR",
       "cs.DC"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.19744v1",
+    "title" : "PrivComp-KG : Leveraging Knowledge Graph and Large Language Models for\n  Privacy Policy Compliance Verification",
+    "summary" : "Data protection and privacy is becoming increasingly crucial in the digital\nera. Numerous companies depend on third-party vendors and service providers to\ncarry out critical functions within their operations, encompassing tasks such\nas data handling and storage. However, this reliance introduces potential\nvulnerabilities, as these vendors' security measures and practices may not\nalways align with the standards expected by regulatory bodies. Businesses are\nrequired, often under the penalty of law, to ensure compliance with the\nevolving regulatory rules. Interpreting and implementing these regulations pose\nchallenges due to their complexity. Regulatory documents are extensive,\ndemanding significant effort for interpretation, while vendor-drafted privacy\npolicies often lack the detail required for full legal compliance, leading to\nambiguity. To ensure a concise interpretation of the regulatory requirements\nand compliance of organizational privacy policy with said regulations, we\npropose a Large Language Model (LLM) and Semantic Web based approach for\nprivacy compliance. In this paper, we develop the novel Privacy Policy\nCompliance Verification Knowledge Graph, PrivComp-KG. It is designed to\nefficiently store and retrieve comprehensive information concerning privacy\npolicies, regulatory frameworks, and domain-specific knowledge pertaining to\nthe legal landscape of privacy. Using Retrieval Augmented Generation, we\nidentify the relevant sections in a privacy policy with corresponding\nregulatory rules. This information about individual privacy policies is\npopulated into the PrivComp-KG. Combining this with the domain context and\nrules, the PrivComp-KG can be queried to check for compliance with privacy\npolicies by each vendor against relevant policy regulations. We demonstrate the\nrelevance of the PrivComp-KG, by verifying compliance of privacy policy\ndocuments for various organizations.",
+    "updated" : "2024-04-30T17:44:44Z",
+    "published" : "2024-04-30T17:44:44Z",
+    "authors" : [
+      {
+        "name" : "Leon Garza"
+      },
+      {
+        "name" : "Lavanya Elluri"
+      },
+      {
+        "name" : "Anantaa Kotal"
+      },
+      {
+        "name" : "Aritran Piplai"
+      },
+      {
+        "name" : "Deepti Gupta"
+      },
+      {
+        "name" : "Anupam Joshi"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.19677v1",
+    "title" : "A Comprehensive Analysis of Pegasus Spyware and Its Implications for\n  Digital Privacy and Security",
+    "summary" : "This paper comprehensively analyzes the Pegasus spyware and its implications\nfor digital privacy and security. The Israeli cyber intelligence company NSO\nGroup's Pegasus has gained recognition as a potent surveillance tool capable of\nhacking into smartphones and extracting data without the user's knowledge [49],\n[50]. The research emphasizes the technical aspects of this spyware, its\ndeployment methods, and the controversies surrounding its use. The research\nalso emphasizes the growing worries surrounding digital privacy and security as\na result of the prevalent use of advanced spyware. By delving into legal,\nethical, and policy issues, the objective of this study is to deliver a\nholistic understanding of the challenges posed by Pegasus and similar spyware\ntools. Through a comprehensive examination of the subject, the paper presents\npotential solutions to mitigate the threats and protect users from invasive\nsurveillance techniques.",
+    "updated" : "2024-04-30T16:10:21Z",
+    "published" : "2024-04-30T16:10:21Z",
+    "authors" : [
+      {
+        "name" : "Karwan Kareem"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
