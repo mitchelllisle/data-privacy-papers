@@ -2748,85 +2748,80 @@ classification task.</p>
 </div>
 
 
+
+<h2>2024-05</h2>
+
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.17414v1">The Privacy Policy Permission Model: A Unified View of Privacy Policies</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2024-03-26T06:12:38Z</p>
+  <h3><a href="http://arxiv.org/abs/2405.00616v1">An Expectation-Maximization Relaxed Method for Privacy Funnel</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
+  <p><b>Published on:</b> 2024-05-01T16:35:44Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Maryam Majedi, Ken Barker</p>
-    <p><b>Summary:</b> Organizations use privacy policies to communicate their data collection
-practices to their clients. A privacy policy is a set of statements that
-specifies how an organization gathers, uses, discloses, and maintains a
-client's data. However, most privacy policies lack a clear, complete
-explanation of how data providers' information is used. We propose a modeling
-methodology, called the Privacy Policy Permission Model (PPPM), that provides a
-uniform, easy-to-understand representation of privacy policies, which can
-accurately and clearly show how data is used within an organization's practice.
-Using this methodology, a privacy policy is captured as a diagram. The diagram
-is capable of highlighting inconsistencies and inaccuracies in the privacy
-policy. The methodology supports privacy officers in properly and clearly
-articulating an organization's privacy policy.</p>
+    <p><b>Authors:</b> Lingyi Chen, Jiachuan Ye, Shitong Wu, Huihui Wu, Hao Wu, Wenyi Zhang</p>
+    <p><b>Summary:</b> The privacy funnel (PF) gives a framework of privacy-preserving data release,
+where the goal is to release useful data while also limiting the exposure of
+associated sensitive information. This framework has garnered significant
+interest due to its broad applications in characterization of the
+privacy-utility tradeoff. Hence, there is a strong motivation to develop
+numerical methods with high precision and theoretical convergence guarantees.
+In this paper, we propose a novel relaxation variant based on Jensen's
+inequality of the objective function for the computation of the PF problem.
+This model is proved to be equivalent to the original in terms of optimal
+solutions and optimal values. Based on our proposed model, we develop an
+accurate algorithm which only involves closed-form iterations. The convergence
+of our algorithm is theoretically guaranteed through descent estimation and
+Pinsker's inequality. Numerical results demonstrate the effectiveness of our
+proposed algorithm.</p>
   </details>
 </div>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.17303v1">Two Birds with One Stone: Differential Privacy by Low-power SRAM Memory</a></h3>
+  <h3><a href="http://arxiv.org/abs/2405.00596v1">Unbundle-Rewrite-Rebundle: Runtime Detection and Rewriting of
+  Privacy-Harming Code in JavaScript Bundles</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-03-26T01:14:55Z</p>
+  <p><b>Published on:</b> 2024-05-01T16:04:42Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Jianqing Liu, Na Gong, Hritom Das</p>
-    <p><b>Summary:</b> The software-based implementation of differential privacy mechanisms has been
-shown to be neither friendly for lightweight devices nor secure against
-side-channel attacks. In this work, we aim to develop a hardware-based
-technique to achieve differential privacy by design. In contrary to the
-conventional software-based noise generation and injection process, our design
-realizes local differential privacy (LDP) by harnessing the inherent hardware
-noise into controlled LDP noise when data is stored in the memory.
-Specifically, the noise is tamed through a novel memory design and power
-downscaling technique, which leads to double-faceted gains in privacy and power
-efficiency. A well-round study that consists of theoretical design and analysis
-and chip implementation and experiments is presented. The results confirm that
-the developed technique is differentially private, saves 88.58% system power,
-speeds up software-based DP mechanisms by more than 10^6 times, while only
-incurring 2.46% chip overhead and 7.81% estimation errors in data recovery.</p>
+    <p><b>Authors:</b> Mir Masood Ali, Peter Snyder, Chris Kanich, Hamed Haddadi</p>
+    <p><b>Summary:</b> This work presents Unbundle-Rewrite-Rebundle (URR), a system for detecting
+privacy-harming portions of bundled JavaScript code, and rewriting that code at
+runtime to remove the privacy harming behavior without breaking the surrounding
+code or overall application. URR is a novel solution to the problem of
+JavaScript bundles, where websites pre-compile multiple code units into a
+single file, making it impossible for content filters and ad-blockers to
+differentiate between desired and unwanted resources. Where traditional content
+filtering tools rely on URLs, URR analyzes the code at the AST level, and
+replaces harmful AST sub-trees with privacy-and-functionality maintaining
+alternatives.
+  We present an open-sourced implementation of URR as a Firefox extension, and
+evaluate it against JavaScript bundles generated by the most popular bundling
+system (Webpack) deployed on the Tranco 10k. We measure the performance,
+measured by precision (1.00), recall (0.95), and speed (0.43s per-script) when
+detecting and rewriting three representative privacy harming libraries often
+included in JavaScript bundles, and find URR to be an effective approach to a
+large-and-growing blind spot unaddressed by current privacy tools.</p>
   </details>
 </div>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.17296v1">Hawk: Accurate and Fast Privacy-Preserving Machine Learning Using Secure
-  Lookup Table Computation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-03-26T00:51:12Z</p>
+  <h3><a href="http://arxiv.org/abs/2405.00329v1">Metric geometry of the privacy-utility tradeoff</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Probability-5BC0EB">
+  <p><b>Published on:</b> 2024-05-01T05:31:53Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Hamza Saleem, Amir Ziashahabi, Muhammad Naveed, Salman Avestimehr</p>
-    <p><b>Summary:</b> Training machine learning models on data from multiple entities without
-direct data sharing can unlock applications otherwise hindered by business,
-legal, or ethical constraints. In this work, we design and implement new
-privacy-preserving machine learning protocols for logistic regression and
-neural network models. We adopt a two-server model where data owners
-secret-share their data between two servers that train and evaluate the model
-on the joint data. A significant source of inefficiency and inaccuracy in
-existing methods arises from using Yao's garbled circuits to compute non-linear
-activation functions. We propose new methods for computing non-linear functions
-based on secret-shared lookup tables, offering both computational efficiency
-and improved accuracy.
-  Beyond introducing leakage-free techniques, we initiate the exploration of
-relaxed security measures for privacy-preserving machine learning. Instead of
-claiming that the servers gain no knowledge during the computation, we contend
-that while some information is revealed about access patterns to lookup tables,
-it maintains epsilon-dX-privacy. Leveraging this relaxation significantly
-reduces the computational resources needed for training. We present new
-cryptographic protocols tailored to this relaxed security paradigm and define
-and analyze the leakage. Our evaluations show that our logistic regression
-protocol is up to 9x faster, and the neural network training is up to 688x
-faster than SecureML. Notably, our neural network achieves an accuracy of 96.6%
-on MNIST in 15 epochs, outperforming prior benchmarks that capped at 93.4%
-using the same architecture.</p>
+    <p><b>Authors:</b> March Boedihardjo, Thomas Strohmer, Roman Vershynin</p>
+    <p><b>Summary:</b> Synthetic data are an attractive concept to enable privacy in data sharing. A
+fundamental question is how similar the privacy-preserving synthetic data are
+compared to the true data. Using metric privacy, an effective generalization of
+differential privacy beyond the discrete setting, we raise the problem of
+characterizing the optimal privacy-accuracy tradeoff by the metric geometry of
+the underlying space. We provide a partial solution to this problem in terms of
+the "entropic scale", a quantity that captures the multiscale geometry of a
+metric space via the behavior of its packing numbers. We illustrate the
+applicability of our privacy-accuracy tradeoff framework via a diverse set of
+examples of metric spaces.</p>
   </details>
 </div>
 
