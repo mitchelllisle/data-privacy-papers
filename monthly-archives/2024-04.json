@@ -2307,5 +2307,46 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.00725v1",
+    "title" : "Federated Learning and Differential Privacy Techniques on Multi-hospital\n  Population-scale Electrocardiogram Data",
+    "summary" : "This research paper explores ways to apply Federated Learning (FL) and\nDifferential Privacy (DP) techniques to population-scale Electrocardiogram\n(ECG) data. The study learns a multi-label ECG classification model using FL\nand DP based on 1,565,849 ECG tracings from 7 hospitals in Alberta, Canada. The\nFL approach allowed collaborative model training without sharing raw data\nbetween hospitals while building robust ECG classification models for\ndiagnosing various cardiac conditions. These accurate ECG classification models\ncan facilitate the diagnoses while preserving patient confidentiality using FL\nand DP techniques. Our results show that the performance achieved using our\nimplementation of the FL approach is comparable to that of the pooled approach,\nwhere the model is trained over the aggregating data from all hospitals.\nFurthermore, our findings suggest that hospitals with limited ECGs for training\ncan benefit from adopting the FL model compared to single-site training. In\naddition, this study showcases the trade-off between model performance and data\nprivacy by employing DP during model training. Our code is available at\nhttps://github.com/vikhyatt/Hospital-FL-DP.",
+    "updated" : "2024-04-26T19:29:48Z",
+    "published" : "2024-04-26T19:29:48Z",
+    "authors" : [
+      {
+        "name" : "Vikhyat Agrawal"
+      },
+      {
+        "name" : "Sunil Vasu Kalmady"
+      },
+      {
+        "name" : "Venkataseetharam Manoj Malipeddi"
+      },
+      {
+        "name" : "Manisimha Varma Manthena"
+      },
+      {
+        "name" : "Weijie Sun"
+      },
+      {
+        "name" : "Saiful Islam"
+      },
+      {
+        "name" : "Abram Hindle"
+      },
+      {
+        "name" : "Padma Kaul"
+      },
+      {
+        "name" : "Russell Greiner"
+      }
+    ],
+    "categories" : [
+      "eess.SP",
+      "cs.CR",
+      "cs.LG"
+    ]
   }
 ]
