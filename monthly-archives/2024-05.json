@@ -76,5 +76,174 @@
       "cs.DS",
       "math.PR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.01494v1",
+    "title" : "Navigating Heterogeneity and Privacy in One-Shot Federated Learning with\n  Diffusion Models",
+    "summary" : "Federated learning (FL) enables multiple clients to train models collectively\nwhile preserving data privacy. However, FL faces challenges in terms of\ncommunication cost and data heterogeneity. One-shot federated learning has\nemerged as a solution by reducing communication rounds, improving efficiency,\nand providing better security against eavesdropping attacks. Nevertheless, data\nheterogeneity remains a significant challenge, impacting performance. This work\nexplores the effectiveness of diffusion models in one-shot FL, demonstrating\ntheir applicability in addressing data heterogeneity and improving FL\nperformance. Additionally, we investigate the utility of our diffusion model\napproach, FedDiff, compared to other one-shot FL methods under differential\nprivacy (DP). Furthermore, to improve generated sample quality under DP\nsettings, we propose a pragmatic Fourier Magnitude Filtering (FMF) method,\nenhancing the effectiveness of generated data for global model training.",
+    "updated" : "2024-05-02T17:26:52Z",
+    "published" : "2024-05-02T17:26:52Z",
+    "authors" : [
+      {
+        "name" : "Matias Mendieta"
+      },
+      {
+        "name" : "Guangyu Sun"
+      },
+      {
+        "name" : "Chen Chen"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.01492v1",
+    "title" : "Exploring Privacy Issues in Mission Critical Communication: Navigating\n  5G and Beyond Networks",
+    "summary" : "Mission critical communication (MCC) involves the exchange of information and\ndata among emergency services, including the police, fire brigade, and other\nfirst responders, particularly during emergencies, disasters, or critical\nincidents. The widely-adopted TETRA (Terrestrial Trunked Radio)-based\ncommunication for mission critical services faces challenges including limited\ndata capacity, coverage limitations, spectrum congestion, and security\nconcerns. Therefore, as an alternative, mission critical communication over\ncellular networks (4G and 5G) has emerged. While cellular-based MCC enables\nfeatures like real-time video streaming and high-speed data transmission, the\ninvolvement of network operators and application service providers in the MCC\narchitecture raises privacy concerns for mission critical users and services.\nFor instance, the disclosure of a policeman's location details to the network\noperator raises privacy concerns. To the best of our knowledge, no existing\nwork considers the privacy issues in mission critical system with respect to 5G\nand upcoming technologies. Therefore, in this paper, we analyse the 3GPP\nstandardised MCC architecture within the context of 5G core network concepts\nand assess the privacy implications for MC users, network entities, and MC\nservers. The privacy analysis adheres to the deployment strategies in the\nstandard for MCC. Additionally, we explore emerging 6G technologies, such as\noff-network communications, joint communication and sensing, and non-3GPP\ncommunications, to identify privacy challenges in MCC architecture. Finally, we\npropose privacy controls to establish a next-generation privacy-preserving MCC\narchitecture.",
+    "updated" : "2024-05-02T17:25:33Z",
+    "published" : "2024-05-02T17:25:33Z",
+    "authors" : [
+      {
+        "name" : "Prajnamaya Dass"
+      },
+      {
+        "name" : "Marcel Gräfenstein"
+      },
+      {
+        "name" : "Stefan Köpsell"
+      }
+    ],
+    "categories" : [
+      "cs.NI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.01411v1",
+    "title" : "IDPFilter: Mitigating Interdependent Privacy Issues in Third-Party Apps",
+    "summary" : "Third-party applications have become an essential part of today's online\necosystem, enhancing the functionality of popular platforms. However, the\nintensive data exchange underlying their proliferation has increased concerns\nabout interdependent privacy (IDP). This paper provides a comprehensive\ninvestigation into the previously underinvestigated IDP issues of third-party\napps. Specifically, first, we analyze the permission structure of multiple app\nplatforms, identifying permissions that have the potential to cause\ninterdependent privacy issues by enabling a user to share someone else's\npersonal data with an app. Second, we collect datasets and characterize the\nextent to which existing apps request these permissions, revealing the\nrelationship between characteristics such as the respective app platform, the\napp's type, and the number of interdependent privacy-related permissions it\nrequests. Third, we analyze the various reasons IDP is neglected by both data\nprotection regulations and app platforms and then devise principles that should\nbe followed when designing a mitigation solution. Finally, based on these\nprinciples and satisfying clearly defined objectives, we propose IDPFilter, a\nplatform-agnostic API that enables application providers to minimize collateral\ninformation collection by filtering out data collected from their users but\nimplicating others as data subjects. We implement a proof-of-concept prototype,\nIDPTextFilter, that implements the filtering logic on textual data, and provide\nits initial performance evaluation with regard to privacy, accuracy, and\nefficiency.",
+    "updated" : "2024-05-02T16:02:13Z",
+    "published" : "2024-05-02T16:02:13Z",
+    "authors" : [
+      {
+        "name" : "Shuaishuai Liu"
+      },
+      {
+        "name" : "Gergely Biczók"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.01312v1",
+    "title" : "Privacy-Enhanced Database Synthesis for Benchmark Publishing",
+    "summary" : "Benchmarking is crucial for evaluating a DBMS, yet existing benchmarks often\nfail to reflect the varied nature of user workloads. As a result, there is\nincreasing momentum toward creating databases that incorporate real-world user\ndata to more accurately mirror business environments. However, privacy concerns\ndeter users from directly sharing their data, underscoring the importance of\ncreating synthesized databases for benchmarking that also prioritize privacy\nprotection. Differential privacy has become a key method for safeguarding\nprivacy when sharing data, but the focus has largely been on minimizing errors\nin aggregate queries or classification tasks, with less attention given to\nbenchmarking factors like runtime performance. This paper delves into the\ncreation of privacy-preserving databases specifically for benchmarking, aiming\nto produce a differentially private database whose query performance closely\nresembles that of the original data. Introducing PrivBench, an innovative\nsynthesis framework, we support the generation of high-quality data that\nmaintains privacy. PrivBench uses sum-product networks (SPNs) to partition and\nsample data, enhancing data representation while securing privacy. The\nframework allows users to adjust the detail of SPN partitions and privacy\nsettings, crucial for customizing privacy levels. We validate our approach,\nwhich uses the Laplace and exponential mechanisms, in maintaining privacy. Our\ntests show that PrivBench effectively generates data that maintains privacy and\nexcels in query performance, consistently reducing errors in query execution\ntime, query cardinality, and KL divergence.",
+    "updated" : "2024-05-02T14:20:24Z",
+    "published" : "2024-05-02T14:20:24Z",
+    "authors" : [
+      {
+        "name" : "Yongrui Zhong"
+      },
+      {
+        "name" : "Yunqing Ge"
+      },
+      {
+        "name" : "Jianbin Qin"
+      },
+      {
+        "name" : "Shuyuan Zheng"
+      },
+      {
+        "name" : "Bo Tang"
+      },
+      {
+        "name" : "Yu-Xuan Qiu"
+      },
+      {
+        "name" : "Rui Mao"
+      },
+      {
+        "name" : "Ye Yuan"
+      },
+      {
+        "name" : "Makoto Onizuka"
+      },
+      {
+        "name" : "Chuan Xiao"
+      }
+    ],
+    "categories" : [
+      "cs.DB",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.01221v1",
+    "title" : "A Survey on Semantic Communication Networks: Architecture, Security, and\n  Privacy",
+    "summary" : "Semantic communication, emerging as a breakthrough beyond the classical\nShannon paradigm, aims to convey the essential meaning of source data rather\nthan merely focusing on precise yet content-agnostic bit transmission. By\ninterconnecting diverse intelligent agents (e.g., autonomous vehicles and VR\ndevices) via semantic communications, the semantic communication networks\n(SemComNet) supports semantic-oriented transmission, efficient spectrum\nutilization, and flexible networking among collaborative agents. Consequently,\nSemComNet stands out for enabling ever-increasing intelligent applications,\nsuch as autonomous driving and Metaverse. However, being built on a variety of\ncutting-edge technologies including AI and knowledge graphs, SemComNet\nintroduces diverse brand-new and unexpected threats, which pose obstacles to\nits widespread development. Besides, due to the intrinsic characteristics of\nSemComNet in terms of heterogeneous components, autonomous intelligence, and\nlarge-scale structure, a series of critical challenges emerge in securing\nSemComNet. In this paper, we provide a comprehensive and up-to-date survey of\nSemComNet from its fundamentals, security, and privacy aspects. Specifically,\nwe first introduce a novel three-layer architecture of SemComNet for\nmulti-agent interaction, which comprises the control layer, semantic\ntransmission layer, and cognitive sensing layer. Then, we discuss its working\nmodes and enabling technologies. Afterward, based on the layered architecture\nof SemComNet, we outline a taxonomy of security and privacy threats, while\ndiscussing state-of-the-art defense approaches. Finally, we present future\nresearch directions, clarifying the path toward building intelligent, robust,\nand green SemComNet. To our knowledge, this survey is the first to\ncomprehensively cover the fundamentals of SemComNet, alongside a detailed\nanalysis of its security and privacy issues.",
+    "updated" : "2024-05-02T12:04:35Z",
+    "published" : "2024-05-02T12:04:35Z",
+    "authors" : [
+      {
+        "name" : "Shaolong Guo"
+      },
+      {
+        "name" : "Yuntao Wang"
+      },
+      {
+        "name" : "Ning Zhang"
+      },
+      {
+        "name" : "Zhou Su"
+      },
+      {
+        "name" : "Tom H. Luan"
+      },
+      {
+        "name" : "Zhiyi Tian"
+      },
+      {
+        "name" : "Xuemin Shen"
+      }
+    ],
+    "categories" : [
+      "cs.NI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.01031v1",
+    "title" : "The Privacy Power of Correlated Noise in Decentralized Learning",
+    "summary" : "Decentralized learning is appealing as it enables the scalable usage of large\namounts of distributed data and resources (without resorting to any central\nentity), while promoting privacy since every user minimizes the direct exposure\nof their data. Yet, without additional precautions, curious users can still\nleverage models obtained from their peers to violate privacy. In this paper, we\npropose Decor, a variant of decentralized SGD with differential privacy (DP)\nguarantees. Essentially, in Decor, users securely exchange randomness seeds in\none communication round to generate pairwise-canceling correlated Gaussian\nnoises, which are injected to protect local models at every communication\nround. We theoretically and empirically show that, for arbitrary connected\ngraphs, Decor matches the central DP optimal privacy-utility trade-off. We do\nso under SecLDP, our new relaxation of local DP, which protects all user\ncommunications against an external eavesdropper and curious users, assuming\nthat every pair of connected users shares a secret, i.e., an information hidden\nto all others. The main theoretical challenge is to control the accumulation of\nnon-canceling correlated noise due to network sparsity. We also propose a\ncompanion SecLDP privacy accountant for public use.",
+    "updated" : "2024-05-02T06:14:56Z",
+    "published" : "2024-05-02T06:14:56Z",
+    "authors" : [
+      {
+        "name" : "Youssef Allouah"
+      },
+      {
+        "name" : "Anastasia Koloskova"
+      },
+      {
+        "name" : "Aymane El Firdoussi"
+      },
+      {
+        "name" : "Martin Jaggi"
+      },
+      {
+        "name" : "Rachid Guerraoui"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "cs.DC",
+      "math.OC",
+      "stat.ML"
+    ]
   }
 ]
