@@ -179,6 +179,34 @@ preserving high training accuracy.</p>
 
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.00725v1">Federated Learning and Differential Privacy Techniques on Multi-hospital
+  Population-scale Electrocardiogram Data</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-04-26T19:29:48Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Vikhyat Agrawal, Sunil Vasu Kalmady, Venkataseetharam Manoj Malipeddi, Manisimha Varma Manthena, Weijie Sun, Saiful Islam, Abram Hindle, Padma Kaul, Russell Greiner</p>
+    <p><b>Summary:</b> This research paper explores ways to apply Federated Learning (FL) and
+Differential Privacy (DP) techniques to population-scale Electrocardiogram
+(ECG) data. The study learns a multi-label ECG classification model using FL
+and DP based on 1,565,849 ECG tracings from 7 hospitals in Alberta, Canada. The
+FL approach allowed collaborative model training without sharing raw data
+between hospitals while building robust ECG classification models for
+diagnosing various cardiac conditions. These accurate ECG classification models
+can facilitate the diagnoses while preserving patient confidentiality using FL
+and DP techniques. Our results show that the performance achieved using our
+implementation of the FL approach is comparable to that of the pooled approach,
+where the model is trained over the aggregating data from all hospitals.
+Furthermore, our findings suggest that hospitals with limited ECGs for training
+can benefit from adopting the FL model compared to single-site training. In
+addition, this study showcases the trade-off between model performance and data
+privacy by employing DP during model training. Our code is available at
+https://github.com/vikhyatt/Hospital-FL-DP.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2404.17399v1">Evaluations of Machine Learning Privacy Defenses are Misleading</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2024-04-26T13:21:30Z</p>
@@ -2568,188 +2596,200 @@ cryptography and security in computing and communications.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.20120v1">Privacy-Preserving Data Aggregation Techniques for Enhanced Efficiency
-  and Security in Wireless Sensor Networks: A Comprehensive Analysis and
-  Evaluation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-03-29T11:09:22Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ayush Rastogi, Harsh Rastogi, Yash Rastogi, Divyansh Dubey</p>
-    <p><b>Summary:</b> In this paper, we present a multidimensional, highly effective method for
-aggregating data for wireless sensor networks while maintaining privacy. The
-suggested system is resistant to data loss and secure against both active and
-passive privacy compromising attacks, such as the coalition attack from a rogue
-base station and kidnapped sensor nodes. With regard to cluster size, it
-achieves consistent communication overhead, which is helpful in large-scale
-WSNs. Due to its constant size communication overhead, the suggested strategy
-outperforms the previous privacy-preserving data aggregation scheme not only in
-terms of privacy preservation but also in terms of communication complexity and
-energy costs.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.19178v1">Enhancing Trust and Privacy in Distributed Networks: A Comprehensive
-  Survey on Blockchain-based Federated Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-03-28T07:08:26Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ji Liu, Chunlu Chen, Yu Li, Lin Sun, Yulun Song, Jingbo Zhou, Bo Jing, Dejing Dou</p>
-    <p><b>Summary:</b> While centralized servers pose a risk of being a single point of failure,
-decentralized approaches like blockchain offer a compelling solution by
-implementing a consensus mechanism among multiple entities. Merging distributed
-computing with cryptographic techniques, decentralized technologies introduce a
-novel computing paradigm. Blockchain ensures secure, transparent, and
-tamper-proof data management by validating and recording transactions via
-consensus across network nodes. Federated Learning (FL), as a distributed
-machine learning framework, enables participants to collaboratively train
-models while safeguarding data privacy by avoiding direct raw data exchange.
-Despite the growing interest in decentralized methods, their application in FL
-remains underexplored. This paper presents a thorough investigation into
-Blockchain-based FL (BCFL), spotlighting the synergy between blockchain's
-security features and FL's privacy-preserving model training capabilities.
-First, we present the taxonomy of BCFL from three aspects, including
-decentralized, separate networks, and reputation-based architectures. Then, we
-summarize the general architecture of BCFL systems, providing a comprehensive
-perspective on FL architectures informed by blockchain. Afterward, we analyze
-the application of BCFL in healthcare, IoT, and other privacy-sensitive areas.
-Finally, we identify future research directions of BCFL.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.18357v1">Minimax density estimation in the adversarial framework under local
-  differential privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36"> 
-  <p><b>Published on:</b> 2024-03-27T08:49:17Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mélisande Albert, Juliette Chevallier, Béatrice Laurent, Ousmane Sacko</p>
-    <p><b>Summary:</b> We consider the problem of nonparametric density estimation under privacy
-constraints in an adversarial framework. To this end, we study minimax rates
-under local differential privacy over Sobolev spaces. We first obtain a lower
-bound which allows us to quantify the impact of privacy compared with the
-classical framework. Next, we introduce a new Coordinate block privacy
-mechanism that guarantees local differential privacy, which, coupled with a
-projection estimator, achieves the minimax optimal rates.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.18326v1">Privacy-Preserving Distributed Nonnegative Matrix Factorization</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
-  <p><b>Published on:</b> 2024-03-27T08:07:07Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ehsan Lari, Reza Arablouei, Stefan Werner</p>
-    <p><b>Summary:</b> Nonnegative matrix factorization (NMF) is an effective data representation
-tool with numerous applications in signal processing and machine learning.
-However, deploying NMF in a decentralized manner over ad-hoc networks
-introduces privacy concerns due to the conventional approach of sharing raw
-data among network agents. To address this, we propose a privacy-preserving
-algorithm for fully-distributed NMF that decomposes a distributed large data
-matrix into left and right matrix factors while safeguarding each agent's local
-data privacy. It facilitates collaborative estimation of the left matrix factor
-among agents and enables them to estimate their respective right factors
-without exposing raw data. To ensure data privacy, we secure information
-exchanges between neighboring agents utilizing the Paillier cryptosystem, a
-probabilistic asymmetric algorithm for public-key cryptography that allows
-computations on encrypted data without decryption. Simulation results conducted
-on synthetic and real-world datasets demonstrate the effectiveness of the
-proposed algorithm in achieving privacy-preserving distributed NMF over ad-hoc
-networks.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.18205v1">Exploring the Privacy Protection Capabilities of Chinese Large Language
-  Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2024-03-27T02:31:54Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yuqi Yang, Xiaowen Huang, Jitao Sang</p>
-    <p><b>Summary:</b> Large language models (LLMs), renowned for their impressive capabilities in
-various tasks, have significantly advanced artificial intelligence. Yet, these
-advancements have raised growing concerns about privacy and security
-implications. To address these issues and explain the risks inherent in these
-models, we have devised a three-tiered progressive framework tailored for
-evaluating privacy in language systems. This framework consists of
-progressively complex and in-depth privacy test tasks at each tier. Our primary
-objective is to comprehensively evaluate the sensitivity of large language
-models to private information, examining how effectively they discern, manage,
-and safeguard sensitive data in diverse scenarios. This systematic evaluation
-helps us understand the degree to which these models comply with privacy
-protection guidelines and the effectiveness of their inherent safeguards
-against privacy breaches. Our observations indicate that existing Chinese large
-language models universally show privacy protection shortcomings. It seems that
-at the moment this widespread issue is unavoidable and may pose corresponding
-privacy risks in applications based on these models.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.17648v1">Healthcare Data Governance, Privacy, and Security -- A Conceptual
-  Framework</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-03-26T12:29:56Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Amen Faridoon, M. Tahar Kechadi</p>
-    <p><b>Summary:</b> The abundance of data has transformed the world in every aspect. It has
-become the core element in decision making, problem solving, and innovation in
-almost all areas of life, including business, science, healthcare, education,
-and many others. Despite all these advances, privacy and security remain
-critical concerns of the healthcare industry. It is important to note that
-healthcare data can also be a liability if it is not managed correctly. This
-data mismanagement can have severe consequences for patients and healthcare
-organisations, including patient safety, legal liability, damage to reputation,
-financial loss, and operational inefficiency. Healthcare organisations must
-comply with a range of regulations to protect patient data. We perform a
-classification of data governance elements or components in a manner that
-thoroughly assesses the healthcare data chain from a privacy and security
-standpoint. After deeply analysing the existing literature, we propose a
-conceptual privacy and security driven healthcare data governance framework.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2403.17572v1">Enhancing Privacy in Federated Learning through Local Training</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Optimization and Control-F9C80E">
-  <p><b>Published on:</b> 2024-03-26T10:25:21Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Nicola Bastianello, Changxin Liu, Karl H. Johansson</p>
-    <p><b>Summary:</b> In this paper we propose the federated private local training algorithm
-(Fed-PLT) for federated learning, to overcome the challenges of (i) expensive
-communications and (ii) privacy preservation. We address (i) by allowing for
-both partial participation and local training, which significantly reduce the
-number of communication rounds between the central coordinator and computing
-agents. The algorithm matches the state of the art in the sense that the use of
-local training demonstrably does not impact accuracy. Additionally, agents have
-the flexibility to choose from various local training solvers, such as
-(stochastic) gradient descent and accelerated gradient descent. Further, we
-investigate how employing local training can enhance privacy, addressing point
-(ii). In particular, we derive differential privacy bounds and highlight their
-dependence on the number of local training epochs. We assess the effectiveness
-of the proposed algorithm by comparing it to alternative techniques,
-considering both theoretical analysis and numerical results from a
-classification task.</p>
-  </details>
-</div>
-
-
 
 <h2>2024-05</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.01494v1">Navigating Heterogeneity and Privacy in One-Shot Federated Learning with
+  Diffusion Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-05-02T17:26:52Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Matias Mendieta, Guangyu Sun, Chen Chen</p>
+    <p><b>Summary:</b> Federated learning (FL) enables multiple clients to train models collectively
+while preserving data privacy. However, FL faces challenges in terms of
+communication cost and data heterogeneity. One-shot federated learning has
+emerged as a solution by reducing communication rounds, improving efficiency,
+and providing better security against eavesdropping attacks. Nevertheless, data
+heterogeneity remains a significant challenge, impacting performance. This work
+explores the effectiveness of diffusion models in one-shot FL, demonstrating
+their applicability in addressing data heterogeneity and improving FL
+performance. Additionally, we investigate the utility of our diffusion model
+approach, FedDiff, compared to other one-shot FL methods under differential
+privacy (DP). Furthermore, to improve generated sample quality under DP
+settings, we propose a pragmatic Fourier Magnitude Filtering (FMF) method,
+enhancing the effectiveness of generated data for global model training.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.01492v1">Exploring Privacy Issues in Mission Critical Communication: Navigating
+  5G and Beyond Networks</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
+  <p><b>Published on:</b> 2024-05-02T17:25:33Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Prajnamaya Dass, Marcel Gräfenstein, Stefan Köpsell</p>
+    <p><b>Summary:</b> Mission critical communication (MCC) involves the exchange of information and
+data among emergency services, including the police, fire brigade, and other
+first responders, particularly during emergencies, disasters, or critical
+incidents. The widely-adopted TETRA (Terrestrial Trunked Radio)-based
+communication for mission critical services faces challenges including limited
+data capacity, coverage limitations, spectrum congestion, and security
+concerns. Therefore, as an alternative, mission critical communication over
+cellular networks (4G and 5G) has emerged. While cellular-based MCC enables
+features like real-time video streaming and high-speed data transmission, the
+involvement of network operators and application service providers in the MCC
+architecture raises privacy concerns for mission critical users and services.
+For instance, the disclosure of a policeman's location details to the network
+operator raises privacy concerns. To the best of our knowledge, no existing
+work considers the privacy issues in mission critical system with respect to 5G
+and upcoming technologies. Therefore, in this paper, we analyse the 3GPP
+standardised MCC architecture within the context of 5G core network concepts
+and assess the privacy implications for MC users, network entities, and MC
+servers. The privacy analysis adheres to the deployment strategies in the
+standard for MCC. Additionally, we explore emerging 6G technologies, such as
+off-network communications, joint communication and sensing, and non-3GPP
+communications, to identify privacy challenges in MCC architecture. Finally, we
+propose privacy controls to establish a next-generation privacy-preserving MCC
+architecture.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.01411v1">IDPFilter: Mitigating Interdependent Privacy Issues in Third-Party Apps</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-05-02T16:02:13Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shuaishuai Liu, Gergely Biczók</p>
+    <p><b>Summary:</b> Third-party applications have become an essential part of today's online
+ecosystem, enhancing the functionality of popular platforms. However, the
+intensive data exchange underlying their proliferation has increased concerns
+about interdependent privacy (IDP). This paper provides a comprehensive
+investigation into the previously underinvestigated IDP issues of third-party
+apps. Specifically, first, we analyze the permission structure of multiple app
+platforms, identifying permissions that have the potential to cause
+interdependent privacy issues by enabling a user to share someone else's
+personal data with an app. Second, we collect datasets and characterize the
+extent to which existing apps request these permissions, revealing the
+relationship between characteristics such as the respective app platform, the
+app's type, and the number of interdependent privacy-related permissions it
+requests. Third, we analyze the various reasons IDP is neglected by both data
+protection regulations and app platforms and then devise principles that should
+be followed when designing a mitigation solution. Finally, based on these
+principles and satisfying clearly defined objectives, we propose IDPFilter, a
+platform-agnostic API that enables application providers to minimize collateral
+information collection by filtering out data collected from their users but
+implicating others as data subjects. We implement a proof-of-concept prototype,
+IDPTextFilter, that implements the filtering logic on textual data, and provide
+its initial performance evaluation with regard to privacy, accuracy, and
+efficiency.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.01312v1">Privacy-Enhanced Database Synthesis for Benchmark Publishing</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-05-02T14:20:24Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yongrui Zhong, Yunqing Ge, Jianbin Qin, Shuyuan Zheng, Bo Tang, Yu-Xuan Qiu, Rui Mao, Ye Yuan, Makoto Onizuka, Chuan Xiao</p>
+    <p><b>Summary:</b> Benchmarking is crucial for evaluating a DBMS, yet existing benchmarks often
+fail to reflect the varied nature of user workloads. As a result, there is
+increasing momentum toward creating databases that incorporate real-world user
+data to more accurately mirror business environments. However, privacy concerns
+deter users from directly sharing their data, underscoring the importance of
+creating synthesized databases for benchmarking that also prioritize privacy
+protection. Differential privacy has become a key method for safeguarding
+privacy when sharing data, but the focus has largely been on minimizing errors
+in aggregate queries or classification tasks, with less attention given to
+benchmarking factors like runtime performance. This paper delves into the
+creation of privacy-preserving databases specifically for benchmarking, aiming
+to produce a differentially private database whose query performance closely
+resembles that of the original data. Introducing PrivBench, an innovative
+synthesis framework, we support the generation of high-quality data that
+maintains privacy. PrivBench uses sum-product networks (SPNs) to partition and
+sample data, enhancing data representation while securing privacy. The
+framework allows users to adjust the detail of SPN partitions and privacy
+settings, crucial for customizing privacy levels. We validate our approach,
+which uses the Laplace and exponential mechanisms, in maintaining privacy. Our
+tests show that PrivBench effectively generates data that maintains privacy and
+excels in query performance, consistently reducing errors in query execution
+time, query cardinality, and KL divergence.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.01221v1">A Survey on Semantic Communication Networks: Architecture, Security, and
+  Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
+  <p><b>Published on:</b> 2024-05-02T12:04:35Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shaolong Guo, Yuntao Wang, Ning Zhang, Zhou Su, Tom H. Luan, Zhiyi Tian, Xuemin Shen</p>
+    <p><b>Summary:</b> Semantic communication, emerging as a breakthrough beyond the classical
+Shannon paradigm, aims to convey the essential meaning of source data rather
+than merely focusing on precise yet content-agnostic bit transmission. By
+interconnecting diverse intelligent agents (e.g., autonomous vehicles and VR
+devices) via semantic communications, the semantic communication networks
+(SemComNet) supports semantic-oriented transmission, efficient spectrum
+utilization, and flexible networking among collaborative agents. Consequently,
+SemComNet stands out for enabling ever-increasing intelligent applications,
+such as autonomous driving and Metaverse. However, being built on a variety of
+cutting-edge technologies including AI and knowledge graphs, SemComNet
+introduces diverse brand-new and unexpected threats, which pose obstacles to
+its widespread development. Besides, due to the intrinsic characteristics of
+SemComNet in terms of heterogeneous components, autonomous intelligence, and
+large-scale structure, a series of critical challenges emerge in securing
+SemComNet. In this paper, we provide a comprehensive and up-to-date survey of
+SemComNet from its fundamentals, security, and privacy aspects. Specifically,
+we first introduce a novel three-layer architecture of SemComNet for
+multi-agent interaction, which comprises the control layer, semantic
+transmission layer, and cognitive sensing layer. Then, we discuss its working
+modes and enabling technologies. Afterward, based on the layered architecture
+of SemComNet, we outline a taxonomy of security and privacy threats, while
+discussing state-of-the-art defense approaches. Finally, we present future
+research directions, clarifying the path toward building intelligent, robust,
+and green SemComNet. To our knowledge, this survey is the first to
+comprehensively cover the fundamentals of SemComNet, alongside a detailed
+analysis of its security and privacy issues.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.01031v1">The Privacy Power of Correlated Noise in Decentralized Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Optimization and Control-F9C80E"> 
+  <p><b>Published on:</b> 2024-05-02T06:14:56Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Youssef Allouah, Anastasia Koloskova, Aymane El Firdoussi, Martin Jaggi, Rachid Guerraoui</p>
+    <p><b>Summary:</b> Decentralized learning is appealing as it enables the scalable usage of large
+amounts of distributed data and resources (without resorting to any central
+entity), while promoting privacy since every user minimizes the direct exposure
+of their data. Yet, without additional precautions, curious users can still
+leverage models obtained from their peers to violate privacy. In this paper, we
+propose Decor, a variant of decentralized SGD with differential privacy (DP)
+guarantees. Essentially, in Decor, users securely exchange randomness seeds in
+one communication round to generate pairwise-canceling correlated Gaussian
+noises, which are injected to protect local models at every communication
+round. We theoretically and empirically show that, for arbitrary connected
+graphs, Decor matches the central DP optimal privacy-utility trade-off. We do
+so under SecLDP, our new relaxation of local DP, which protects all user
+communications against an external eavesdropper and curious users, assuming
+that every pair of connected users shares a secret, i.e., an information hidden
+to all others. The main theoretical challenge is to control the accumulation of
+non-canceling correlated noise due to network sparsity. We also propose a
+companion SecLDP privacy accountant for public use.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2405.00616v1">An Expectation-Maximization Relaxed Method for Privacy Funnel</a></h3>
