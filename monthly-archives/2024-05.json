@@ -245,5 +245,199 @@
       "math.OC",
       "stat.ML"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.01844v1",
+    "title" : "A Survey on Privacy-Preserving Caching at Network Edge: Classification,\n  Solutions, and Challenges",
+    "summary" : "Caching content at the network edge is a popular and effective technique\nwidely deployed to alleviate the burden of network backhaul, shorten service\ndelay and improve service quality. However, there has been some controversy\nover privacy violations in caching content at the network edge. On the one\nhand, the multi-access open edge network provides an ideal surface for external\nattackers to obtain private data from the edge cache by extracting sensitive\ninformation. On the other hand, privacy can be infringed by curious edge\ncaching providers through caching trace analysis targeting to achieve better\ncaching performance or higher profits. Therefore, an in-depth understanding of\nprivacy issues in edge caching networks is vital and indispensable for creating\na privacy-preserving caching service at the network edge. In this article, we\nare among the first to fill in this gap by examining privacy-preserving\ntechniques for caching content at the network edge. Firstly, we provide an\nintroduction to the background of Privacy-Preserving Edge Caching (PPEC). Next,\nwe summarize the key privacy issues and present a taxonomy for caching at the\nnetwork edge from the perspective of private data. Additionally, we conduct a\nretrospective review of the state-of-the-art countermeasures against privacy\nleakage from content caching at the network edge. Finally, we conclude the\nsurvey and envision challenges for future research.",
+    "updated" : "2024-05-03T04:27:32Z",
+    "published" : "2024-05-03T04:27:32Z",
+    "authors" : [
+      {
+        "name" : "Xianzhi Zhang"
+      },
+      {
+        "name" : "Yipeng Zhou"
+      },
+      {
+        "name" : "Di Wu"
+      },
+      {
+        "name" : "Shazia Riaz"
+      },
+      {
+        "name" : "Quan Z. Sheng"
+      },
+      {
+        "name" : "Miao Hu"
+      },
+      {
+        "name" : "Linchang Xiao"
+      }
+    ],
+    "categories" : [
+      "cs.NI",
+      "cs.CR",
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.01742v1",
+    "title" : "Addressing Privacy Concerns in Joint Communication and Sensing for 6G\n  Networks: Challenges and Prospects",
+    "summary" : "The vision for 6G extends beyond mere communication, incorporating sensing\ncapabilities to facilitate a diverse array of novel applications and services.\nHowever, the advent of joint communication and sensing (JCAS) technology\nintroduces concerns regarding the handling of sensitive personally identifiable\ninformation (PII) pertaining to individuals and objects, along with external\nthird-party data and disclosure. Consequently, JCAS-based applications are\nsusceptible to privacy breaches, including location tracking, identity\ndisclosure, profiling, and misuse of sensor data, raising significant\nimplications under the European Union's General Data Protection Regulation\n(GDPR) as well as other applicable standards. This paper critically examines\nemergent JCAS architectures and underscores the necessity for network functions\nto enable privacy-specific features in the 6G systems. We propose an enhanced\nJCAS architecture with additional network functions and interfaces,\nfacilitating the management of sensing policies, consent information, and\ntransparency guidelines, alongside the integration of sensing-specific\nfunctions and storage for sensing processing sessions. Furthermore, we conduct\na comprehensive threat analysis for all interfaces, employing security threat\nmodel STRIDE and privacy threat model LINDDUN. We also summarise the identified\nthreats using standard Common Weakness Enumerations (CWEs). Finally, we suggest\nthe security and privacy controls as the mitigating strategies to counter the\nidentified threats stemming from the JCAS architecture.",
+    "updated" : "2024-05-02T21:25:24Z",
+    "published" : "2024-05-02T21:25:24Z",
+    "authors" : [
+      {
+        "name" : "Prajnamaya Dass"
+      },
+      {
+        "name" : "Sonika Ujjwal"
+      },
+      {
+        "name" : "Jiri Novotny"
+      },
+      {
+        "name" : "Yevhen Zolotavkin"
+      },
+      {
+        "name" : "Zakaria Laaroussi"
+      },
+      {
+        "name" : "Stefan Köpsell"
+      }
+    ],
+    "categories" : [
+      "cs.NI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.01716v1",
+    "title" : "ATTAXONOMY: Unpacking Differential Privacy Guarantees Against Practical\n  Adversaries",
+    "summary" : "Differential Privacy (DP) is a mathematical framework that is increasingly\ndeployed to mitigate privacy risks associated with machine learning and\nstatistical analyses. Despite the growing adoption of DP, its technical privacy\nparameters do not lend themselves to an intelligible description of the\nreal-world privacy risks associated with that deployment: the guarantee that\nmost naturally follows from the DP definition is protection against membership\ninference by an adversary who knows all but one data record and has unlimited\nauxiliary knowledge. In many settings, this adversary is far too strong to\ninform how to set real-world privacy parameters.\n  One approach for contextualizing privacy parameters is via defining and\nmeasuring the success of technical attacks, but doing so requires a systematic\ncategorization of the relevant attack space. In this work, we offer a detailed\ntaxonomy of attacks, showing the various dimensions of attacks and highlighting\nthat many real-world settings have been understudied. Our taxonomy provides a\nroadmap for analyzing real-world deployments and developing theoretical bounds\nfor more informative privacy attacks. We operationalize our taxonomy by using\nit to analyze a real-world case study, the Israeli Ministry of Health's recent\nrelease of a birth dataset using DP, showing how the taxonomy enables\nfine-grained threat modeling and provides insight towards making informed\nprivacy parameter choices. Finally, we leverage the taxonomy towards defining a\nmore realistic attack than previously considered in the literature, namely a\ndistributional reconstruction attack: we generalize Balle et al.'s notion of\nreconstruction robustness to a less-informed adversary with distributional\nuncertainty, and extend the worst-case guarantees of DP to this average-case\nsetting.",
+    "updated" : "2024-05-02T20:23:23Z",
+    "published" : "2024-05-02T20:23:23Z",
+    "authors" : [
+      {
+        "name" : "Rachel Cummings"
+      },
+      {
+        "name" : "Shlomi Hod"
+      },
+      {
+        "name" : "Jayshree Sarathy"
+      },
+      {
+        "name" : "Marika Swanberg"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.01704v1",
+    "title" : "Privacy-aware Berrut Approximated Coded Computing for Federated Learning",
+    "summary" : "Federated Learning (FL) is an interesting strategy that enables the\ncollaborative training of an AI model among different data owners without\nrevealing their private datasets. Even so, FL has some privacy vulnerabilities\nthat have been tried to be overcome by applying some techniques like\nDifferential Privacy (DP), Homomorphic Encryption (HE), or Secure Multi-Party\nComputation (SMPC). However, these techniques have some important drawbacks\nthat might narrow their range of application: problems to work with non-linear\nfunctions and to operate large matrix multiplications and high communication\nand computational costs to manage semi-honest nodes. In this context, we\npropose a solution to guarantee privacy in FL schemes that simultaneously\nsolves the previously mentioned problems. Our proposal is based on the Berrut\nApproximated Coded Computing, a technique from the Coded Distributed Computing\nparadigm, adapted to a Secret Sharing configuration, to provide input privacy\nto FL in a scalable way. It can be applied for computing non-linear functions\nand treats the special case of distributed matrix multiplication, a key\nprimitive at the core of many automated learning tasks. Because of these\ncharacteristics, it could be applied in a wide range of FL scenarios, since it\nis independent of the machine learning models or aggregation algorithms used in\nthe FL scheme. We provide analysis of the achieve privacy and complexity of our\nsolution and, due to the extensive numerical results performed, it can be\nobserved a good trade-off between privacy and precision.",
+    "updated" : "2024-05-02T20:03:13Z",
+    "published" : "2024-05-02T20:03:13Z",
+    "authors" : [
+      {
+        "name" : "Xavier Martínez Luaña"
+      },
+      {
+        "name" : "Rebeca P. Díaz Redondo"
+      },
+      {
+        "name" : "Manuel Fernández Veiga"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CC",
+      "cs.DC",
+      "cs.IT",
+      "math.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.01678v1",
+    "title" : "1-Diffractor: Efficient and Utility-Preserving Text Obfuscation\n  Leveraging Word-Level Metric Differential Privacy",
+    "summary" : "The study of privacy-preserving Natural Language Processing (NLP) has gained\nrising attention in recent years. One promising avenue studies the integration\nof Differential Privacy in NLP, which has brought about innovative methods in a\nvariety of application settings. Of particular note are $\\textit{word-level\nMetric Local Differential Privacy (MLDP)}$ mechanisms, which work to obfuscate\npotentially sensitive input text by performing word-by-word\n$\\textit{perturbations}$. Although these methods have shown promising results\nin empirical tests, there are two major drawbacks: (1) the inevitable loss of\nutility due to addition of noise, and (2) the computational expensiveness of\nrunning these mechanisms on high-dimensional word embeddings. In this work, we\naim to address these challenges by proposing $\\texttt{1-Diffractor}$, a new\nmechanism that boasts high speedups in comparison to previous mechanisms, while\nstill demonstrating strong utility- and privacy-preserving capabilities. We\nevaluate $\\texttt{1-Diffractor}$ for utility on several NLP tasks, for\ntheoretical and task-based privacy, and for efficiency in terms of speed and\nmemory. $\\texttt{1-Diffractor}$ shows significant improvements in efficiency,\nwhile still maintaining competitive utility and privacy scores across all\nconducted comparative tests against previous MLDP mechanisms. Our code is made\navailable at: https://github.com/sjmeis/Diffractor.",
+    "updated" : "2024-05-02T19:07:32Z",
+    "published" : "2024-05-02T19:07:32Z",
+    "authors" : [
+      {
+        "name" : "Stephen Meisenbacher"
+      },
+      {
+        "name" : "Maulik Chevli"
+      },
+      {
+        "name" : "Florian Matthes"
+      }
+    ],
+    "categories" : [
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.01646v1",
+    "title" : "Explaining models relating objects and privacy",
+    "summary" : "Accurately predicting whether an image is private before sharing it online is\ndifficult due to the vast variety of content and the subjective nature of\nprivacy itself. In this paper, we evaluate privacy models that use objects\nextracted from an image to determine why the image is predicted as private. To\nexplain the decision of these models, we use feature-attribution to identify\nand quantify which objects (and which of their features) are more relevant to\nprivacy classification with respect to a reference input (i.e., no objects\nlocalised in an image) predicted as public. We show that the presence of the\nperson category and its cardinality is the main factor for the privacy\ndecision. Therefore, these models mostly fail to identify private images\ndepicting documents with sensitive data, vehicle ownership, and internet\nactivity, or public images with people (e.g., an outdoor concert or people\nwalking in a public space next to a famous landmark). As baselines for future\nbenchmarks, we also devise two strategies that are based on the person presence\nand cardinality and achieve comparable classification performance of the\nprivacy models.",
+    "updated" : "2024-05-02T18:06:48Z",
+    "published" : "2024-05-02T18:06:48Z",
+    "authors" : [
+      {
+        "name" : "Alessio Xompero"
+      },
+      {
+        "name" : "Myriam Bontonou"
+      },
+      {
+        "name" : "Jean-Michel Arbona"
+      },
+      {
+        "name" : "Emmanouil Benetos"
+      },
+      {
+        "name" : "Andrea Cavallaro"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.01031v2",
+    "title" : "The Privacy Power of Correlated Noise in Decentralized Learning",
+    "summary" : "Decentralized learning is appealing as it enables the scalable usage of large\namounts of distributed data and resources (without resorting to any central\nentity), while promoting privacy since every user minimizes the direct exposure\nof their data. Yet, without additional precautions, curious users can still\nleverage models obtained from their peers to violate privacy. In this paper, we\npropose Decor, a variant of decentralized SGD with differential privacy (DP)\nguarantees. Essentially, in Decor, users securely exchange randomness seeds in\none communication round to generate pairwise-canceling correlated Gaussian\nnoises, which are injected to protect local models at every communication\nround. We theoretically and empirically show that, for arbitrary connected\ngraphs, Decor matches the central DP optimal privacy-utility trade-off. We do\nso under SecLDP, our new relaxation of local DP, which protects all user\ncommunications against an external eavesdropper and curious users, assuming\nthat every pair of connected users shares a secret, i.e., an information hidden\nto all others. The main theoretical challenge is to control the accumulation of\nnon-canceling correlated noise due to network sparsity. We also propose a\ncompanion SecLDP privacy accountant for public use.",
+    "updated" : "2024-05-03T08:14:22Z",
+    "published" : "2024-05-02T06:14:56Z",
+    "authors" : [
+      {
+        "name" : "Youssef Allouah"
+      },
+      {
+        "name" : "Anastasia Koloskova"
+      },
+      {
+        "name" : "Aymane El Firdoussi"
+      },
+      {
+        "name" : "Martin Jaggi"
+      },
+      {
+        "name" : "Rachid Guerraoui"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "cs.DC",
+      "math.OC",
+      "stat.ML"
+    ]
   }
 ]
