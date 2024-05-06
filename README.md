@@ -2446,158 +2446,198 @@ and codes are available here: https://github.com/AnasEmad11/CLAP</p>
 
 
 
-<h2>2024-03</h2>
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.00777v1">Privacy-preserving Optics for Enhancing Protection in Face
-  De-identification</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
-  <p><b>Published on:</b> 2024-03-31T19:28:04Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jhon Lopez, Carlos Hinojosa, Henry Arguello, Bernard Ghanem</p>
-    <p><b>Summary:</b> The modern surge in camera usage alongside widespread computer vision
-technology applications poses significant privacy and security concerns.
-Current artificial intelligence (AI) technologies aid in recognizing relevant
-events and assisting in daily tasks in homes, offices, hospitals, etc. The need
-to access or process personal information for these purposes raises privacy
-concerns. While software-level solutions like face de-identification provide a
-good privacy/utility trade-off, they present vulnerabilities to sniffing
-attacks. In this paper, we propose a hardware-level face de-identification
-method to solve this vulnerability. Specifically, our approach first learns an
-optical encoder along with a regression model to obtain a face heatmap while
-hiding the face identity from the source image. We also propose an
-anonymization framework that generates a new face using the privacy-preserving
-image, face heatmap, and a reference face image from a public dataset as input.
-We validate our approach with extensive simulations and hardware experiments.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.00696v1">Privacy Re-identification Attacks on Tabular GANs</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-03-31T14:14:00Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Abdallah Alshantti, Adil Rasheed, Frank Westad</p>
-    <p><b>Summary:</b> Generative models are subject to overfitting and thus may potentially leak
-sensitive information from the training data. In this work. we investigate the
-privacy risks that can potentially arise from the use of generative adversarial
-networks (GANs) for creating tabular synthetic datasets. For the purpose, we
-analyse the effects of re-identification attacks on synthetic data, i.e.,
-attacks which aim at selecting samples that are predicted to correspond to
-memorised training samples based on their proximity to the nearest synthetic
-records. We thus consider multiple settings where different attackers might
-have different access levels or knowledge of the generative model and
-predictive, and assess which information is potentially most useful for
-launching more successful re-identification attacks. In doing so we also
-consider the situation for which re-identification attacks are formulated as
-reconstruction attacks, i.e., the situation where an attacker uses evolutionary
-multi-objective optimisation for perturbing synthetic samples closer to the
-training space. The results indicate that attackers can indeed pose major
-privacy risks by selecting synthetic samples that are likely representative of
-memorised training samples. In addition, we notice that privacy threats
-considerably increase when the attacker either has knowledge or has black-box
-access to the generative models. We also find that reconstruction attacks
-through multi-objective optimisation even increase the risk of identifying
-confidential samples.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.00673v1">A Survey of Privacy-Preserving Model Explanations: Privacy Risks,
-  Attacks, and Countermeasures</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-03-31T12:44:48Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Thanh Tam Nguyen, Thanh Trung Huynh, Zhao Ren, Thanh Toan Nguyen, Phi Le Nguyen, Hongzhi Yin, Quoc Viet Hung Nguyen</p>
-    <p><b>Summary:</b> As the adoption of explainable AI (XAI) continues to expand, the urgency to
-address its privacy implications intensifies. Despite a growing corpus of
-research in AI privacy and explainability, there is little attention on
-privacy-preserving model explanations. This article presents the first thorough
-survey about privacy attacks on model explanations and their countermeasures.
-Our contribution to this field comprises a thorough analysis of research papers
-with a connected taxonomy that facilitates the categorisation of privacy
-attacks and countermeasures based on the targeted explanations. This work also
-includes an initial investigation into the causes of privacy leaks. Finally, we
-discuss unresolved issues and prospective research directions uncovered in our
-analysis. This survey aims to be a valuable resource for the research community
-and offers clear insights for those new to this domain. To support ongoing
-research, we have established an online resource repository, which will be
-continuously updated with new and relevant findings. Interested readers are
-encouraged to access our repository at
-https://github.com/tamlhp/awesome-privex.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.00600v2">AI Act and Large Language Models (LLMs): When critical issues and
-  privacy impact require human and ethical oversight</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2024-03-31T08:14:25Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Nicola Fabiano</p>
-    <p><b>Summary:</b> The imposing evolution of artificial intelligence systems and, specifically,
-of Large Language Models (LLM) makes it necessary to carry out assessments of
-their level of risk and the impact they may have in the area of privacy,
-personal data protection and at an ethical level, especially on the weakest and
-most vulnerable. This contribution addresses human oversight, ethical
-oversight, and privacy impact assessment.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.00473v1">Privacy Backdoors: Stealing Data with Corrupted Pretrained Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-03-30T20:43:53Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shanglun Feng, Florian Tramèr</p>
-    <p><b>Summary:</b> Practitioners commonly download pretrained machine learning models from open
-repositories and finetune them to fit specific applications. We show that this
-practice introduces a new risk of privacy backdoors. By tampering with a
-pretrained model's weights, an attacker can fully compromise the privacy of the
-finetuning data. We show how to build privacy backdoors for a variety of
-models, including transformers, which enable an attacker to reconstruct
-individual finetuning samples, with a guaranteed success! We further show that
-backdoored models allow for tight privacy attacks on models trained with
-differential privacy (DP). The common optimistic practice of training DP models
-with loose privacy guarantees is thus insecure if the model is not trusted.
-Overall, our work highlights a crucial and overlooked supply chain attack on
-machine learning privacy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.00235v1">Information Security and Privacy in the Digital World: Some Selected
-  Topics</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-03-30T03:52:58Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jaydip Sen, Joceli Mayer, Subhasis Dasgupta, Subrata Nandi, Srinivasan Krishnaswamy, Pinaki Mitra, Mahendra Pratap Singh, Naga Prasanthi Kundeti, Chandra Sekhara Rao MVP, Sudha Sree Chekuri, Seshu Babu Pallapothu, Preethi Nanjundan, Jossy P. George, Abdelhadi El Allahi, Ilham Morino, Salma AIT Oussous, Siham Beloualid, Ahmed Tamtaoui, Abderrahim Bajit</p>
-    <p><b>Summary:</b> In the era of generative artificial intelligence and the Internet of Things,
-while there is explosive growth in the volume of data and the associated need
-for processing, analysis, and storage, several new challenges are faced in
-identifying spurious and fake information and protecting the privacy of
-sensitive data. This has led to an increasing demand for more robust and
-resilient schemes for authentication, integrity protection, encryption,
-non-repudiation, and privacy-preservation of data. The chapters in this book
-present some of the state-of-the-art research works in the field of
-cryptography and security in computing and communications.</p>
-  </details>
-</div>
-
-
-
 <h2>2024-05</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.01844v1">A Survey on Privacy-Preserving Caching at Network Edge: Classification,
+  Solutions, and Challenges</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
+  <p><b>Published on:</b> 2024-05-03T04:27:32Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xianzhi Zhang, Yipeng Zhou, Di Wu, Shazia Riaz, Quan Z. Sheng, Miao Hu, Linchang Xiao</p>
+    <p><b>Summary:</b> Caching content at the network edge is a popular and effective technique
+widely deployed to alleviate the burden of network backhaul, shorten service
+delay and improve service quality. However, there has been some controversy
+over privacy violations in caching content at the network edge. On the one
+hand, the multi-access open edge network provides an ideal surface for external
+attackers to obtain private data from the edge cache by extracting sensitive
+information. On the other hand, privacy can be infringed by curious edge
+caching providers through caching trace analysis targeting to achieve better
+caching performance or higher profits. Therefore, an in-depth understanding of
+privacy issues in edge caching networks is vital and indispensable for creating
+a privacy-preserving caching service at the network edge. In this article, we
+are among the first to fill in this gap by examining privacy-preserving
+techniques for caching content at the network edge. Firstly, we provide an
+introduction to the background of Privacy-Preserving Edge Caching (PPEC). Next,
+we summarize the key privacy issues and present a taxonomy for caching at the
+network edge from the perspective of private data. Additionally, we conduct a
+retrospective review of the state-of-the-art countermeasures against privacy
+leakage from content caching at the network edge. Finally, we conclude the
+survey and envision challenges for future research.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.01742v1">Addressing Privacy Concerns in Joint Communication and Sensing for 6G
+  Networks: Challenges and Prospects</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
+  <p><b>Published on:</b> 2024-05-02T21:25:24Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Prajnamaya Dass, Sonika Ujjwal, Jiri Novotny, Yevhen Zolotavkin, Zakaria Laaroussi, Stefan Köpsell</p>
+    <p><b>Summary:</b> The vision for 6G extends beyond mere communication, incorporating sensing
+capabilities to facilitate a diverse array of novel applications and services.
+However, the advent of joint communication and sensing (JCAS) technology
+introduces concerns regarding the handling of sensitive personally identifiable
+information (PII) pertaining to individuals and objects, along with external
+third-party data and disclosure. Consequently, JCAS-based applications are
+susceptible to privacy breaches, including location tracking, identity
+disclosure, profiling, and misuse of sensor data, raising significant
+implications under the European Union's General Data Protection Regulation
+(GDPR) as well as other applicable standards. This paper critically examines
+emergent JCAS architectures and underscores the necessity for network functions
+to enable privacy-specific features in the 6G systems. We propose an enhanced
+JCAS architecture with additional network functions and interfaces,
+facilitating the management of sensing policies, consent information, and
+transparency guidelines, alongside the integration of sensing-specific
+functions and storage for sensing processing sessions. Furthermore, we conduct
+a comprehensive threat analysis for all interfaces, employing security threat
+model STRIDE and privacy threat model LINDDUN. We also summarise the identified
+threats using standard Common Weakness Enumerations (CWEs). Finally, we suggest
+the security and privacy controls as the mitigating strategies to counter the
+identified threats stemming from the JCAS architecture.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.01716v1">ATTAXONOMY: Unpacking Differential Privacy Guarantees Against Practical
+  Adversaries</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2024-05-02T20:23:23Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Rachel Cummings, Shlomi Hod, Jayshree Sarathy, Marika Swanberg</p>
+    <p><b>Summary:</b> Differential Privacy (DP) is a mathematical framework that is increasingly
+deployed to mitigate privacy risks associated with machine learning and
+statistical analyses. Despite the growing adoption of DP, its technical privacy
+parameters do not lend themselves to an intelligible description of the
+real-world privacy risks associated with that deployment: the guarantee that
+most naturally follows from the DP definition is protection against membership
+inference by an adversary who knows all but one data record and has unlimited
+auxiliary knowledge. In many settings, this adversary is far too strong to
+inform how to set real-world privacy parameters.
+  One approach for contextualizing privacy parameters is via defining and
+measuring the success of technical attacks, but doing so requires a systematic
+categorization of the relevant attack space. In this work, we offer a detailed
+taxonomy of attacks, showing the various dimensions of attacks and highlighting
+that many real-world settings have been understudied. Our taxonomy provides a
+roadmap for analyzing real-world deployments and developing theoretical bounds
+for more informative privacy attacks. We operationalize our taxonomy by using
+it to analyze a real-world case study, the Israeli Ministry of Health's recent
+release of a birth dataset using DP, showing how the taxonomy enables
+fine-grained threat modeling and provides insight towards making informed
+privacy parameter choices. Finally, we leverage the taxonomy towards defining a
+more realistic attack than previously considered in the literature, namely a
+distributional reconstruction attack: we generalize Balle et al.'s notion of
+reconstruction robustness to a less-informed adversary with distributional
+uncertainty, and extend the worst-case guarantees of DP to this average-case
+setting.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.01704v1">Privacy-aware Berrut Approximated Coded Computing for Federated Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computational Complexity-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
+  <p><b>Published on:</b> 2024-05-02T20:03:13Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xavier Martínez Luaña, Rebeca P. Díaz Redondo, Manuel Fernández Veiga</p>
+    <p><b>Summary:</b> Federated Learning (FL) is an interesting strategy that enables the
+collaborative training of an AI model among different data owners without
+revealing their private datasets. Even so, FL has some privacy vulnerabilities
+that have been tried to be overcome by applying some techniques like
+Differential Privacy (DP), Homomorphic Encryption (HE), or Secure Multi-Party
+Computation (SMPC). However, these techniques have some important drawbacks
+that might narrow their range of application: problems to work with non-linear
+functions and to operate large matrix multiplications and high communication
+and computational costs to manage semi-honest nodes. In this context, we
+propose a solution to guarantee privacy in FL schemes that simultaneously
+solves the previously mentioned problems. Our proposal is based on the Berrut
+Approximated Coded Computing, a technique from the Coded Distributed Computing
+paradigm, adapted to a Secret Sharing configuration, to provide input privacy
+to FL in a scalable way. It can be applied for computing non-linear functions
+and treats the special case of distributed matrix multiplication, a key
+primitive at the core of many automated learning tasks. Because of these
+characteristics, it could be applied in a wide range of FL scenarios, since it
+is independent of the machine learning models or aggregation algorithms used in
+the FL scheme. We provide analysis of the achieve privacy and complexity of our
+solution and, due to the extensive numerical results performed, it can be
+observed a good trade-off between privacy and precision.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.01678v1">1-Diffractor: Efficient and Utility-Preserving Text Obfuscation
+  Leveraging Word-Level Metric Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2024-05-02T19:07:32Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Stephen Meisenbacher, Maulik Chevli, Florian Matthes</p>
+    <p><b>Summary:</b> The study of privacy-preserving Natural Language Processing (NLP) has gained
+rising attention in recent years. One promising avenue studies the integration
+of Differential Privacy in NLP, which has brought about innovative methods in a
+variety of application settings. Of particular note are $\textit{word-level
+Metric Local Differential Privacy (MLDP)}$ mechanisms, which work to obfuscate
+potentially sensitive input text by performing word-by-word
+$\textit{perturbations}$. Although these methods have shown promising results
+in empirical tests, there are two major drawbacks: (1) the inevitable loss of
+utility due to addition of noise, and (2) the computational expensiveness of
+running these mechanisms on high-dimensional word embeddings. In this work, we
+aim to address these challenges by proposing $\texttt{1-Diffractor}$, a new
+mechanism that boasts high speedups in comparison to previous mechanisms, while
+still demonstrating strong utility- and privacy-preserving capabilities. We
+evaluate $\texttt{1-Diffractor}$ for utility on several NLP tasks, for
+theoretical and task-based privacy, and for efficiency in terms of speed and
+memory. $\texttt{1-Diffractor}$ shows significant improvements in efficiency,
+while still maintaining competitive utility and privacy scores across all
+conducted comparative tests against previous MLDP mechanisms. Our code is made
+available at: https://github.com/sjmeis/Diffractor.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.01646v1">Explaining models relating objects and privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2024-05-02T18:06:48Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Alessio Xompero, Myriam Bontonou, Jean-Michel Arbona, Emmanouil Benetos, Andrea Cavallaro</p>
+    <p><b>Summary:</b> Accurately predicting whether an image is private before sharing it online is
+difficult due to the vast variety of content and the subjective nature of
+privacy itself. In this paper, we evaluate privacy models that use objects
+extracted from an image to determine why the image is predicted as private. To
+explain the decision of these models, we use feature-attribution to identify
+and quantify which objects (and which of their features) are more relevant to
+privacy classification with respect to a reference input (i.e., no objects
+localised in an image) predicted as public. We show that the presence of the
+person category and its cardinality is the main factor for the privacy
+decision. Therefore, these models mostly fail to identify private images
+depicting documents with sensitive data, vehicle ownership, and internet
+activity, or public images with people (e.g., an outdoor concert or people
+walking in a public space next to a famous landmark). As baselines for future
+benchmarks, we also devise two strategies that are based on the person presence
+and cardinality and achieve comparable classification performance of the
+privacy models.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2405.01494v1">Navigating Heterogeneity and Privacy in One-Shot Federated Learning with
@@ -2764,7 +2804,7 @@ analysis of its security and privacy issues.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.01031v1">The Privacy Power of Correlated Noise in Decentralized Learning</a></h3>
+  <h3><a href="http://arxiv.org/abs/2405.01031v2">The Privacy Power of Correlated Noise in Decentralized Learning</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Optimization and Control-F9C80E"> 
   <p><b>Published on:</b> 2024-05-02T06:14:56Z</p>
   <details>
