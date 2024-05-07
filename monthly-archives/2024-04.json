@@ -2348,5 +2348,35 @@
       "cs.CR",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.16706v3",
+    "title" : "Efficient and Near-Optimal Noise Generation for Streaming Differential\n  Privacy",
+    "summary" : "In the task of differentially private (DP) continual counting, we receive a\nstream of increments and our goal is to output an approximate running total of\nthese increments, without revealing too much about any specific increment.\nDespite its simplicity, differentially private continual counting has attracted\nsignificant attention both in theory and in practice. Existing algorithms for\ndifferentially private continual counting are either inefficient in terms of\ntheir space usage or add an excessive amount of noise, inducing suboptimal\nutility.\n  The most practical DP continual counting algorithms add carefully correlated\nGaussian noise to the values. The task of choosing the covariance for this\nnoise can be expressed in terms of factoring the lower-triangular matrix of\nones (which computes prefix sums). We present two approaches from this class\n(for different parameter regimes) that achieve near-optimal utility for DP\ncontinual counting and only require logarithmic or polylogarithmic space (and\ntime).\n  Our first approach is based on a space-efficient streaming matrix\nmultiplication algorithm for a class of Toeplitz matrices. We show that to\ninstantiate this algorithm for DP continual counting, it is sufficient to find\na low-degree rational function that approximates the square root on a circle in\nthe complex plane. We then apply and extend tools from approximation theory to\nachieve this. We also derive efficient closed-forms for the objective function\nfor arbitrarily many steps, and show direct numerical optimization yields a\nhighly practical solution to the problem. Our second approach combines our\nfirst approach with a recursive construction similar to the binary tree\nmechanism.",
+    "updated" : "2024-05-06T16:19:09Z",
+    "published" : "2024-04-25T16:11:46Z",
+    "authors" : [
+      {
+        "name" : "Krishnamurthy Dvijotham"
+      },
+      {
+        "name" : "H. Brendan McMahan"
+      },
+      {
+        "name" : "Krishna Pillutla"
+      },
+      {
+        "name" : "Thomas Steinke"
+      },
+      {
+        "name" : "Abhradeep Thakurta"
+      }
+    ],
+    "categories" : [
+      "cs.DS",
+      "cs.CC",
+      "cs.CR",
+      "cs.LG"
+    ]
   }
 ]
