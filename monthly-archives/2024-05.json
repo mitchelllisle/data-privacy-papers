@@ -439,5 +439,170 @@
       "math.OC",
       "stat.ML"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.03636v1",
+    "title" : "Federated Learning Privacy: Attacks, Defenses, Applications, and Policy\n  Landscape - A Survey",
+    "summary" : "Deep learning has shown incredible potential across a vast array of tasks and\naccompanying this growth has been an insatiable appetite for data. However, a\nlarge amount of data needed for enabling deep learning is stored on personal\ndevices and recent concerns on privacy have further highlighted challenges for\naccessing such data. As a result, federated learning (FL) has emerged as an\nimportant privacy-preserving technology enabling collaborative training of\nmachine learning models without the need to send the raw, potentially\nsensitive, data to a central server. However, the fundamental premise that\nsending model updates to a server is privacy-preserving only holds if the\nupdates cannot be \"reverse engineered\" to infer information about the private\ntraining data. It has been shown under a wide variety of settings that this\npremise for privacy does {\\em not} hold.\n  In this survey paper, we provide a comprehensive literature review of the\ndifferent privacy attacks and defense methods in FL. We identify the current\nlimitations of these attacks and highlight the settings in which FL client\nprivacy can be broken. We dissect some of the successful industry applications\nof FL and draw lessons for future successful adoption. We survey the emerging\nlandscape of privacy regulation for FL. We conclude with future directions for\ntaking FL toward the cherished goal of generating accurate models while\npreserving the privacy of the data from its participants.",
+    "updated" : "2024-05-06T16:55:20Z",
+    "published" : "2024-05-06T16:55:20Z",
+    "authors" : [
+      {
+        "name" : "Joshua C. Zhao"
+      },
+      {
+        "name" : "Saurabh Bagchi"
+      },
+      {
+        "name" : "Salman Avestimehr"
+      },
+      {
+        "name" : "Kevin S. Chan"
+      },
+      {
+        "name" : "Somali Chaterji"
+      },
+      {
+        "name" : "Dimitris Dimitriadis"
+      },
+      {
+        "name" : "Jiacheng Li"
+      },
+      {
+        "name" : "Ninghui Li"
+      },
+      {
+        "name" : "Arash Nourian"
+      },
+      {
+        "name" : "Holger R. Roth"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG",
+      "I.2; H.4; I.5"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.03106v1",
+    "title" : "Compression-based Privacy Preservation for Distributed Nash Equilibrium\n  Seeking in Aggregative Games",
+    "summary" : "This paper explores distributed aggregative games in multi-agent systems.\nCurrent methods for finding distributed Nash equilibrium require players to\nsend original messages to their neighbors, leading to communication burden and\nprivacy issues. To jointly address these issues, we propose an algorithm that\nuses stochastic compression to save communication resources and conceal\ninformation through random errors induced by compression. Our theoretical\nanalysis shows that the algorithm guarantees convergence accuracy, even with\naggressive compression errors used to protect privacy. We prove that the\nalgorithm achieves differential privacy through a stochastic quantization\nscheme. Simulation results for energy consumption games support the\neffectiveness of our approach.",
+    "updated" : "2024-05-06T01:42:40Z",
+    "published" : "2024-05-06T01:42:40Z",
+    "authors" : [
+      {
+        "name" : "Wei Huo"
+      },
+      {
+        "name" : "Xiaomeng Chen"
+      },
+      {
+        "name" : "Kemi Ding"
+      },
+      {
+        "name" : "Subhrakanti Dey"
+      },
+      {
+        "name" : "Ling Shi"
+      }
+    ],
+    "categories" : [
+      "eess.SY",
+      "cs.GT",
+      "cs.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.03065v1",
+    "title" : "Powering the Future of IoT: Federated Learning for Optimized Power\n  Consumption and Enhanced Privacy",
+    "summary" : "The widespread use of the Internet of Things has led to the development of\nlarge amounts of perception data, making it necessary to develop effective and\nscalable data analysis tools. Federated Learning emerges as a promising\nparadigm to address the inherent challenges of power consumption and data\nprivacy in IoT environments. This paper explores the transformative potential\nof FL in enhancing the longevity of IoT devices by mitigating power consumption\nand enhancing privacy and security measures. We delve into the intricacies of\nFL, elucidating its components and applications within IoT ecosystems.\nAdditionally, we discuss the critical characteristics and challenges of IoT,\nhighlighting the need for such machine learning solutions in processing\nperception data. While FL introduces many benefits for IoT sustainability, it\nalso has limitations. Through a comprehensive discussion and analysis, this\npaper elucidates the opportunities and constraints of FL in shaping the future\nof sustainable and secure IoT systems. Our findings highlight the importance of\ndeveloping new approaches and conducting additional research to maximise the\nbenefits of FL in creating a secure and privacy-focused IoT environment.",
+    "updated" : "2024-05-05T22:18:22Z",
+    "published" : "2024-05-05T22:18:22Z",
+    "authors" : [
+      {
+        "name" : "Ghazaleh Shirvani"
+      },
+      {
+        "name" : "Saeid Ghasemshirazi"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.02665v1",
+    "title" : "Metric Differential Privacy at the User-Level",
+    "summary" : "Metric differential privacy (DP) provides heterogeneous privacy guarantees\nbased on a distance between the pair of inputs. It is a widely popular notion\nof privacy since it captures the natural privacy semantics for many\napplications (such as, for location data) and results in better utility than\nstandard DP. However, prior work in metric DP has primarily focused on the\n\\textit{item-level} setting where every user only reports a single data item. A\nmore realistic setting is that of user-level DP where each user contributes\nmultiple items and privacy is then desired at the granularity of the user's\n\\textit{entire} contribution. In this paper, we initiate the study of metric DP\nat the user-level. Specifically, we use the earth-mover's distance\n($d_\\textsf{EM}$) as our metric to obtain a notion of privacy as it captures\nboth the magnitude and spatial aspects of changes in a user's data.\n  We make three main technical contributions. First, we design two novel\nmechanisms under $d_\\textsf{EM}$-DP to answer linear queries and item-wise\nqueries. Specifically, our analysis for the latter involves a generalization of\nthe privacy amplification by shuffling result which may be of independent\ninterest. Second, we provide a black-box reduction from the general unbounded\nto bounded $d_\\textsf{EM}$-DP (size of the dataset is fixed and public) with a\nnovel sampling based mechanism. Third, we show that our proposed mechanisms can\nprovably provide improved utility over user-level DP, for certain types of\nlinear queries and frequency estimation.",
+    "updated" : "2024-05-04T13:29:11Z",
+    "published" : "2024-05-04T13:29:11Z",
+    "authors" : [
+      {
+        "name" : "Jacob Imola"
+      },
+      {
+        "name" : "Amrita Roy Chowdhury"
+      },
+      {
+        "name" : "Kamalika Chaudhuri"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.02437v1",
+    "title" : "FastLloyd: Federated, Accurate, Secure, and Tunable $k$-Means Clustering\n  with Differential Privacy",
+    "summary" : "We study the problem of privacy-preserving $k$-means clustering in the\nhorizontally federated setting. Existing federated approaches using secure\ncomputation, suffer from substantial overheads and do not offer output privacy.\nAt the same time, differentially private (DP) $k$-means algorithms assume a\ntrusted central curator and do not extend to federated settings. Naively\ncombining the secure and DP solutions results in a protocol with impractical\noverhead. Instead, our work provides enhancements to both the DP and secure\ncomputation components, resulting in a design that is faster, more private, and\nmore accurate than previous work. By utilizing the computational DP model, we\ndesign a lightweight, secure aggregation-based approach that achieves four\norders of magnitude speed-up over state-of-the-art related work. Furthermore,\nwe not only maintain the utility of the state-of-the-art in the central model\nof DP, but we improve the utility further by taking advantage of constrained\nclustering techniques.",
+    "updated" : "2024-05-03T19:04:37Z",
+    "published" : "2024-05-03T19:04:37Z",
+    "authors" : [
+      {
+        "name" : "Abdulrahman Diaa"
+      },
+      {
+        "name" : "Thomas Humphries"
+      },
+      {
+        "name" : "Florian Kerschbaum"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.02341v1",
+    "title" : "Improved Communication-Privacy Trade-offs in $L_2$ Mean Estimation under\n  Streaming Differential Privacy",
+    "summary" : "We study $L_2$ mean estimation under central differential privacy and\ncommunication constraints, and address two key challenges: firstly, existing\nmean estimation schemes that simultaneously handle both constraints are usually\noptimized for $L_\\infty$ geometry and rely on random rotation or Kashin's\nrepresentation to adapt to $L_2$ geometry, resulting in suboptimal leading\nconstants in mean square errors (MSEs); secondly, schemes achieving\norder-optimal communication-privacy trade-offs do not extend seamlessly to\nstreaming differential privacy (DP) settings (e.g., tree aggregation or matrix\nfactorization), rendering them incompatible with DP-FTRL type optimizers.\n  In this work, we tackle these issues by introducing a novel privacy\naccounting method for the sparsified Gaussian mechanism that incorporates the\nrandomness inherent in sparsification into the DP noise. Unlike previous\napproaches, our accounting algorithm directly operates in $L_2$ geometry,\nyielding MSEs that fast converge to those of the uncompressed Gaussian\nmechanism. Additionally, we extend the sparsification scheme to the matrix\nfactorization framework under streaming DP and provide a precise accountant\ntailored for DP-FTRL type optimizers. Empirically, our method demonstrates at\nleast a 100x improvement of compression for DP-SGD across various FL tasks.",
+    "updated" : "2024-05-02T03:48:47Z",
+    "published" : "2024-05-02T03:48:47Z",
+    "authors" : [
+      {
+        "name" : "Wei-Ning Chen"
+      },
+      {
+        "name" : "Berivan Isik"
+      },
+      {
+        "name" : "Peter Kairouz"
+      },
+      {
+        "name" : "Albert No"
+      },
+      {
+        "name" : "Sewoong Oh"
+      },
+      {
+        "name" : "Zheng Xu"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
   }
 ]
