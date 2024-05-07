@@ -260,7 +260,7 @@ in autonomous UAV navigation with negligible loss in performance.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.16706v2">Efficient and Near-Optimal Noise Generation for Streaming Differential
+  <h3><a href="http://arxiv.org/abs/2404.16706v3">Efficient and Near-Optimal Noise Generation for Streaming Differential
   Privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computational Complexity-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2024-04-25T16:11:46Z</p>
@@ -2280,173 +2280,149 @@ methodologies in face recognition systems.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.02327v1">Robust Constrained Consensus and Inequality-constrained Distributed
-  Optimization with Guaranteed Differential Privacy and Accurate Convergence</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Optimization and Control-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36"> 
-  <p><b>Published on:</b> 2024-04-02T21:53:43Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yongqiang Wang, Angelia Nedic</p>
-    <p><b>Summary:</b> We address differential privacy for fully distributed optimization subject to
-a shared inequality constraint. By co-designing the distributed optimization
-mechanism and the differential-privacy noise injection mechanism, we propose
-the first distributed constrained optimization algorithm that can ensure both
-provable convergence to a global optimal solution and rigorous
-$\epsilon$-differential privacy, even when the number of iterations tends to
-infinity. Our approach does not require the Lagrangian function to be strictly
-convex/concave, and allows the global objective function to be non-separable.
-As a byproduct of the co-design, we also propose a new constrained consensus
-algorithm that can achieve rigorous $\epsilon$-differential privacy while
-maintaining accurate convergence, which, to our knowledge, has not been
-achieved before. Numerical simulation results on a demand response control
-problem in smart grid confirm the effectiveness of the proposed approach.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.01619v1">Making Privacy-preserving Federated Graph Analytics with Strong
-  Guarantees Practical (for Certain Queries)</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Social and Information Networks-662E9B">
-  <p><b>Published on:</b> 2024-04-02T04:01:31Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Kunlong Liu, Trinabh Gupta</p>
-    <p><b>Summary:</b> Privacy-preserving federated graph analytics is an emerging area of research.
-The goal is to run graph analytics queries over a set of devices that are
-organized as a graph while keeping the raw data on the devices rather than
-centralizing it. Further, no entity may learn any new information except for
-the final query result. For instance, a device may not learn a neighbor's data.
-The state-of-the-art prior work for this problem provides privacy guarantees
-for a broad set of queries in a strong threat model where the devices can be
-malicious. However, it imposes an impractical overhead: each device locally
-requires over 8.79 hours of cpu time and 5.73 GiBs of network transfers per
-query. This paper presents Colo, a new, low-cost system for privacy-preserving
-federated graph analytics that requires minutes of cpu time and a few MiBs in
-network transfers, for a particular subset of queries. At the heart of Colo is
-a new secure computation protocol that enables a device to securely and
-efficiently evaluate a graph query in its local neighborhood while hiding
-device data, edge data, and topology data. An implementation and evaluation of
-Colo shows that for running a variety of COVID-19 queries over a population of
-1M devices, it requires less than 8.4 minutes of a device's CPU time and 4.93
-MiBs in network transfers - improvements of up to three orders of magnitude.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.01283v1">Evaluating Privacy Perceptions, Experience, and Behavior of Software
-  Development Teams</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2024-04-01T17:55:10Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Maxwell Prybylo, Sara Haghighi, Sai Teja Peddinti, Sepideh Ghanavati</p>
-    <p><b>Summary:</b> With the increase in the number of privacy regulations, small development
-teams are forced to make privacy decisions on their own. In this paper, we
-conduct a mixed-method survey study, including statistical and qualitative
-analysis, to evaluate the privacy perceptions, practices, and knowledge of
-members involved in various phases of software development (SDLC). Our survey
-includes 362 participants from 23 countries, encompassing roles such as product
-managers, developers, and testers. Our results show diverse definitions of
-privacy across SDLC roles, emphasizing the need for a holistic privacy approach
-throughout SDLC. We find that software teams, regardless of their region, are
-less familiar with privacy concepts (such as anonymization), relying on
-self-teaching and forums. Most participants are more familiar with GDPR and
-HIPAA than other regulations, with multi-jurisdictional compliance being their
-primary concern. Our results advocate the need for role-dependent solutions to
-address the privacy challenges, and we highlight research directions and
-educational takeaways to help improve privacy-aware software development.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.01270v1">Decentralized Collaborative Learning Framework with External Privacy
-  Leakage Analysis</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
-  <p><b>Published on:</b> 2024-04-01T17:46:17Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Tsuyoshi Idé, Dzung T. Phan, Rudy Raymond</p>
-    <p><b>Summary:</b> This paper presents two methodological advancements in decentralized
-multi-task learning under privacy constraints, aiming to pave the way for
-future developments in next-generation Blockchain platforms. First, we expand
-the existing framework for collaborative dictionary learning (CollabDict),
-which has previously been limited to Gaussian mixture models, by incorporating
-deep variational autoencoders (VAEs) into the framework, with a particular
-focus on anomaly detection. We demonstrate that the VAE-based anomaly score
-function shares the same mathematical structure as the non-deep model, and
-provide comprehensive qualitative comparison. Second, considering the
-widespread use of "pre-trained models," we provide a mathematical analysis on
-data privacy leakage when models trained with CollabDict are shared externally.
-We show that the CollabDict approach, when applied to Gaussian mixtures,
-adheres to a Renyi differential privacy criterion. Additionally, we propose a
-practical metric for monitoring internal privacy breaches during the learning
-process.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.01231v1">Privacy Backdoors: Enhancing Membership Inference through Poisoning
-  Pre-trained Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-04-01T16:50:54Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yuxin Wen, Leo Marchyok, Sanghyun Hong, Jonas Geiping, Tom Goldstein, Nicholas Carlini</p>
-    <p><b>Summary:</b> It is commonplace to produce application-specific models by fine-tuning large
-pre-trained models using a small bespoke dataset. The widespread availability
-of foundation model checkpoints on the web poses considerable risks, including
-the vulnerability to backdoor attacks. In this paper, we unveil a new
-vulnerability: the privacy backdoor attack. This black-box privacy attack aims
-to amplify the privacy leakage that arises when fine-tuning a model: when a
-victim fine-tunes a backdoored model, their training data will be leaked at a
-significantly higher rate than if they had fine-tuned a typical model. We
-conduct extensive experiments on various datasets and models, including both
-vision-language models (CLIP) and large language models, demonstrating the
-broad applicability and effectiveness of such an attack. Additionally, we carry
-out multiple ablation studies with different fine-tuning methods and inference
-strategies to thoroughly analyze this new threat. Our findings highlight a
-critical privacy concern within the machine learning community and call for a
-reevaluation of safety protocols in the use of open-source pre-trained models.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.00847v1">Collaborative Learning of Anomalies with Privacy (CLAP) for Unsupervised
-  Video Anomaly Detection: A New Baseline</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2024-04-01T01:25:06Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Anas Al-lahham, Muhammad Zaigham Zaheer, Nurbek Tastan, Karthik Nandakumar</p>
-    <p><b>Summary:</b> Unsupervised (US) video anomaly detection (VAD) in surveillance applications
-is gaining more popularity recently due to its practical real-world
-applications. As surveillance videos are privacy sensitive and the availability
-of large-scale video data may enable better US-VAD systems, collaborative
-learning can be highly rewarding in this setting. However, due to the extremely
-challenging nature of the US-VAD task, where learning is carried out without
-any annotations, privacy-preserving collaborative learning of US-VAD systems
-has not been studied yet. In this paper, we propose a new baseline for anomaly
-detection capable of localizing anomalous events in complex surveillance videos
-in a fully unsupervised fashion without any labels on a privacy-preserving
-participant-based distributed training configuration. Additionally, we propose
-three new evaluation protocols to benchmark anomaly detection approaches on
-various scenarios of collaborations and data availability. Based on these
-protocols, we modify existing VAD datasets to extensively evaluate our approach
-as well as existing US SOTA methods on two large-scale datasets including
-UCF-Crime and XD-Violence. All proposed evaluation protocols, dataset splits,
-and codes are available here: https://github.com/AnasEmad11/CLAP</p>
-  </details>
-</div>
-
-
 
 <h2>2024-05</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.03636v1">Federated Learning Privacy: Attacks, Defenses, Applications, and Policy
+  Landscape - A Survey</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
+  <p><b>Published on:</b> 2024-05-06T16:55:20Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Joshua C. Zhao, Saurabh Bagchi, Salman Avestimehr, Kevin S. Chan, Somali Chaterji, Dimitris Dimitriadis, Jiacheng Li, Ninghui Li, Arash Nourian, Holger R. Roth</p>
+    <p><b>Summary:</b> Deep learning has shown incredible potential across a vast array of tasks and
+accompanying this growth has been an insatiable appetite for data. However, a
+large amount of data needed for enabling deep learning is stored on personal
+devices and recent concerns on privacy have further highlighted challenges for
+accessing such data. As a result, federated learning (FL) has emerged as an
+important privacy-preserving technology enabling collaborative training of
+machine learning models without the need to send the raw, potentially
+sensitive, data to a central server. However, the fundamental premise that
+sending model updates to a server is privacy-preserving only holds if the
+updates cannot be "reverse engineered" to infer information about the private
+training data. It has been shown under a wide variety of settings that this
+premise for privacy does {\em not} hold.
+  In this survey paper, we provide a comprehensive literature review of the
+different privacy attacks and defense methods in FL. We identify the current
+limitations of these attacks and highlight the settings in which FL client
+privacy can be broken. We dissect some of the successful industry applications
+of FL and draw lessons for future successful adoption. We survey the emerging
+landscape of privacy regulation for FL. We conclude with future directions for
+taking FL toward the cherished goal of generating accurate models while
+preserving the privacy of the data from its participants.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.03106v1">Compression-based Privacy Preservation for Distributed Nash Equilibrium
+  Seeking in Aggregative Games</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Science and Game Theory-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
+  <p><b>Published on:</b> 2024-05-06T01:42:40Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Wei Huo, Xiaomeng Chen, Kemi Ding, Subhrakanti Dey, Ling Shi</p>
+    <p><b>Summary:</b> This paper explores distributed aggregative games in multi-agent systems.
+Current methods for finding distributed Nash equilibrium require players to
+send original messages to their neighbors, leading to communication burden and
+privacy issues. To jointly address these issues, we propose an algorithm that
+uses stochastic compression to save communication resources and conceal
+information through random errors induced by compression. Our theoretical
+analysis shows that the algorithm guarantees convergence accuracy, even with
+aggressive compression errors used to protect privacy. We prove that the
+algorithm achieves differential privacy through a stochastic quantization
+scheme. Simulation results for energy consumption games support the
+effectiveness of our approach.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.03065v1">Powering the Future of IoT: Federated Learning for Optimized Power
+  Consumption and Enhanced Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-05-05T22:18:22Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ghazaleh Shirvani, Saeid Ghasemshirazi</p>
+    <p><b>Summary:</b> The widespread use of the Internet of Things has led to the development of
+large amounts of perception data, making it necessary to develop effective and
+scalable data analysis tools. Federated Learning emerges as a promising
+paradigm to address the inherent challenges of power consumption and data
+privacy in IoT environments. This paper explores the transformative potential
+of FL in enhancing the longevity of IoT devices by mitigating power consumption
+and enhancing privacy and security measures. We delve into the intricacies of
+FL, elucidating its components and applications within IoT ecosystems.
+Additionally, we discuss the critical characteristics and challenges of IoT,
+highlighting the need for such machine learning solutions in processing
+perception data. While FL introduces many benefits for IoT sustainability, it
+also has limitations. Through a comprehensive discussion and analysis, this
+paper elucidates the opportunities and constraints of FL in shaping the future
+of sustainable and secure IoT systems. Our findings highlight the importance of
+developing new approaches and conducting additional research to maximise the
+benefits of FL in creating a secure and privacy-focused IoT environment.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.02665v1">Metric Differential Privacy at the User-Level</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-05-04T13:29:11Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jacob Imola, Amrita Roy Chowdhury, Kamalika Chaudhuri</p>
+    <p><b>Summary:</b> Metric differential privacy (DP) provides heterogeneous privacy guarantees
+based on a distance between the pair of inputs. It is a widely popular notion
+of privacy since it captures the natural privacy semantics for many
+applications (such as, for location data) and results in better utility than
+standard DP. However, prior work in metric DP has primarily focused on the
+\textit{item-level} setting where every user only reports a single data item. A
+more realistic setting is that of user-level DP where each user contributes
+multiple items and privacy is then desired at the granularity of the user's
+\textit{entire} contribution. In this paper, we initiate the study of metric DP
+at the user-level. Specifically, we use the earth-mover's distance
+($d_\textsf{EM}$) as our metric to obtain a notion of privacy as it captures
+both the magnitude and spatial aspects of changes in a user's data.
+  We make three main technical contributions. First, we design two novel
+mechanisms under $d_\textsf{EM}$-DP to answer linear queries and item-wise
+queries. Specifically, our analysis for the latter involves a generalization of
+the privacy amplification by shuffling result which may be of independent
+interest. Second, we provide a black-box reduction from the general unbounded
+to bounded $d_\textsf{EM}$-DP (size of the dataset is fixed and public) with a
+novel sampling based mechanism. Third, we show that our proposed mechanisms can
+provably provide improved utility over user-level DP, for certain types of
+linear queries and frequency estimation.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.02437v1">FastLloyd: Federated, Accurate, Secure, and Tunable $k$-Means Clustering
+  with Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-05-03T19:04:37Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Abdulrahman Diaa, Thomas Humphries, Florian Kerschbaum</p>
+    <p><b>Summary:</b> We study the problem of privacy-preserving $k$-means clustering in the
+horizontally federated setting. Existing federated approaches using secure
+computation, suffer from substantial overheads and do not offer output privacy.
+At the same time, differentially private (DP) $k$-means algorithms assume a
+trusted central curator and do not extend to federated settings. Naively
+combining the secure and DP solutions results in a protocol with impractical
+overhead. Instead, our work provides enhancements to both the DP and secure
+computation components, resulting in a design that is faster, more private, and
+more accurate than previous work. By utilizing the computational DP model, we
+design a lightweight, secure aggregation-based approach that achieves four
+orders of magnitude speed-up over state-of-the-art related work. Furthermore,
+we not only maintain the utility of the state-of-the-art in the central model
+of DP, but we improve the utility further by taking advantage of constrained
+clustering techniques.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2405.01844v1">A Survey on Privacy-Preserving Caching at Network Edge: Classification,
@@ -2827,6 +2803,36 @@ that every pair of connected users shares a secret, i.e., an information hidden
 to all others. The main theoretical challenge is to control the accumulation of
 non-canceling correlated noise due to network sparsity. We also propose a
 companion SecLDP privacy accountant for public use.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.02341v1">Improved Communication-Privacy Trade-offs in $L_2$ Mean Estimation under
+  Streaming Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-05-02T03:48:47Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Wei-Ning Chen, Berivan Isik, Peter Kairouz, Albert No, Sewoong Oh, Zheng Xu</p>
+    <p><b>Summary:</b> We study $L_2$ mean estimation under central differential privacy and
+communication constraints, and address two key challenges: firstly, existing
+mean estimation schemes that simultaneously handle both constraints are usually
+optimized for $L_\infty$ geometry and rely on random rotation or Kashin's
+representation to adapt to $L_2$ geometry, resulting in suboptimal leading
+constants in mean square errors (MSEs); secondly, schemes achieving
+order-optimal communication-privacy trade-offs do not extend seamlessly to
+streaming differential privacy (DP) settings (e.g., tree aggregation or matrix
+factorization), rendering them incompatible with DP-FTRL type optimizers.
+  In this work, we tackle these issues by introducing a novel privacy
+accounting method for the sparsified Gaussian mechanism that incorporates the
+randomness inherent in sparsification into the DP noise. Unlike previous
+approaches, our accounting algorithm directly operates in $L_2$ geometry,
+yielding MSEs that fast converge to those of the uncompressed Gaussian
+mechanism. Additionally, we extend the sparsification scheme to the matrix
+factorization framework under streaming DP and provide a precise accountant
+tailored for DP-FTRL type optimizers. Empirically, our method demonstrates at
+least a 100x improvement of compression for DP-SGD across various FL tasks.</p>
   </details>
 </div>
 
