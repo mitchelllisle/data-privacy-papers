@@ -604,5 +604,156 @@
       "cs.CR",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.04344v1",
+    "title" : "Enhancing Scalability of Metric Differential Privacy via Secret Dataset\n  Partitioning and Benders Decomposition",
+    "summary" : "Metric Differential Privacy (mDP) extends the concept of Differential Privacy\n(DP) to serve as a new paradigm of data perturbation. It is designed to protect\nsecret data represented in general metric space, such as text data encoded as\nword embeddings or geo-location data on the road network or grid maps. To\nderive an optimal data perturbation mechanism under mDP, a widely used method\nis linear programming (LP), which, however, might suffer from a polynomial\nexplosion of decision variables, rendering it impractical in large-scale mDP.\n  In this paper, our objective is to develop a new computation framework to\nenhance the scalability of the LP-based mDP. Considering the connections\nestablished by the mDP constraints among the secret records, we partition the\noriginal secret dataset into various subsets. Building upon the partition, we\nreformulate the LP problem for mDP and solve it via Benders Decomposition,\nwhich is composed of two stages: (1) a master program to manage the\nperturbation calculation across subsets and (2) a set of subproblems, each\nmanaging the perturbation derivation within a subset. Our experimental results\non multiple datasets, including geo-location data in the road network/grid\nmaps, text data, and synthetic data, underscore our proposed mechanism's\nsuperior scalability and efficiency.",
+    "updated" : "2024-05-07T14:19:09Z",
+    "published" : "2024-05-07T14:19:09Z",
+    "authors" : [
+      {
+        "name" : "Chenxi Qiu"
+      }
+    ],
+    "categories" : [
+      "cs.AI",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.04108v1",
+    "title" : "A2-DIDM: Privacy-preserving Accumulator-enabled Auditing for Distributed\n  Identity of DNN Model",
+    "summary" : "Recent booming development of Generative Artificial Intelligence (GenAI) has\nfacilitated an emerging model commercialization for the purpose of\nreinforcement on model performance, such as licensing or trading Deep Neural\nNetwork (DNN) models. However, DNN model trading may trigger concerns of the\nunauthorized replications or misuses over the model, so that the benefit of the\nmodel ownership will be violated. Model identity auditing is a challenging\nissue in protecting intellectual property of DNN models and verifying the\nintegrity and ownership of models for guaranteeing trusts in transactions is\none of the critical obstacles. In this paper, we focus on the above issue and\npropose a novel Accumulator-enabled Auditing for Distributed Identity of DNN\nModel (A2-DIDM) that utilizes blockchain and zero-knowledge techniques to\nprotect data and function privacy while ensuring the lightweight on-chain\nownership verification. The proposed model presents a scheme of identity\nrecords via configuring model weight checkpoints with corresponding\nzero-knowledge proofs, which incorporates predicates to capture incremental\nstate changes in model weight checkpoints. Our scheme ensures both\ncomputational integrity of DNN training process and programmability, so that\nthe uniqueness of the weight checkpoint sequence in a DNN model is preserved,\nensuring the correctness of the model identity auditing. In addition, A2-DIDM\nalso addresses privacy protections in distributed identity via a proposed\nmethod of accumulators. We systematically analyze the security and robustness\nof our proposed model and further evaluate the effectiveness and usability of\nauditing DNN model identities.",
+    "updated" : "2024-05-07T08:24:50Z",
+    "published" : "2024-05-07T08:24:50Z",
+    "authors" : [
+      {
+        "name" : "Tianxiu Xie"
+      },
+      {
+        "name" : "Keke Gai"
+      },
+      {
+        "name" : "Jing Yu"
+      },
+      {
+        "name" : "Liehuang Zhu"
+      },
+      {
+        "name" : "Kim-Kwang Raymond Choo"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.04029v1",
+    "title" : "Enabling Privacy-Preserving and Publicly Auditable Federated Learning",
+    "summary" : "Federated learning (FL) has attracted widespread attention because it\nsupports the joint training of models by multiple participants without moving\nprivate dataset. However, there are still many security issues in FL that\ndeserve discussion. In this paper, we consider three major issues: 1) how to\nensure that the training process can be publicly audited by any third party; 2)\nhow to avoid the influence of malicious participants on training; 3) how to\nensure that private gradients and models are not leaked to third parties. Many\nsolutions have been proposed to address these issues, while solving the above\nthree problems simultaneously is seldom considered. In this paper, we propose a\npublicly auditable and privacy-preserving federated learning scheme that is\nresistant to malicious participants uploading gradients with wrong directions\nand enables anyone to audit and verify the correctness of the training process.\nIn particular, we design a robust aggregation algorithm capable of detecting\ngradients with wrong directions from malicious participants. Then, we design a\nrandom vector generation algorithm and combine it with zero sharing and\nblockchain technologies to make the joint training process publicly auditable,\nmeaning anyone can verify the correctness of the training. Finally, we conduct\na series of experiments, and the experimental results show that the model\ngenerated by the protocol is comparable in accuracy to the original FL approach\nwhile keeping security advantages.",
+    "updated" : "2024-05-07T06:03:10Z",
+    "published" : "2024-05-07T06:03:10Z",
+    "authors" : [
+      {
+        "name" : "Huang Zeng"
+      },
+      {
+        "name" : "Anjia Yang"
+      },
+      {
+        "name" : "Jian Weng"
+      },
+      {
+        "name" : "Min-Rong Chen"
+      },
+      {
+        "name" : "Fengjun Xiao"
+      },
+      {
+        "name" : "Yi Liu"
+      },
+      {
+        "name" : "Ye Yao"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "C.2.2; C.2.4; E.3"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.03915v1",
+    "title" : "Motivating Users to Attend to Privacy: A Theory-Driven Design Study",
+    "summary" : "In modern technology environments, raising users' privacy awareness is\ncrucial. Existing efforts largely focused on privacy policy presentation and\nfailed to systematically address a radical challenge of user motivation for\ninitiating privacy awareness. Leveraging the Protection Motivation Theory\n(PMT), we proposed design ideas and categories dedicated to motivating users to\nengage with privacy-related information. Using these design ideas, we created a\nconceptual prototype, enhancing the current App Store product page. Results\nfrom an online experiment and follow-up interviews showed that our design\neffectively motivated participants to attend to privacy issues, raising both\nthe threat appraisal and coping appraisal, two main factors in PMT. Our work\nindicated that effective design should consider combining PMT components,\ncalibrating information content, and integrating other design elements, such as\nvisual cues and user familiarity. Overall, our study contributes valuable\ndesign considerations driven by the PMT to amplify the motivational aspect of\nprivacy communication.",
+    "updated" : "2024-05-07T00:23:42Z",
+    "published" : "2024-05-07T00:23:42Z",
+    "authors" : [
+      {
+        "name" : "Varun Shiri"
+      },
+      {
+        "name" : "Maggie Xiong"
+      },
+      {
+        "name" : "Jinghui Cheng"
+      },
+      {
+        "name" : "Jin L. C. Guo"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.03903v1",
+    "title" : "Unified Locational Differential Privacy Framework",
+    "summary" : "Aggregating statistics over geographical regions is important for many\napplications, such as analyzing income, election results, and disease spread.\nHowever, the sensitive nature of this data necessitates strong privacy\nprotections to safeguard individuals. In this work, we present a unified\nlocational differential privacy (DP) framework to enable private aggregation of\nvarious data types, including one-hot encoded, boolean, float, and integer\narrays, over geographical regions. Our framework employs local DP mechanisms\nsuch as randomized response, the exponential mechanism, and the Gaussian\nmechanism. We evaluate our approach on four datasets representing significant\nlocation data aggregation scenarios. Results demonstrate the utility of our\nframework in providing formal DP guarantees while enabling geographical data\nanalysis.",
+    "updated" : "2024-05-06T23:33:52Z",
+    "published" : "2024-05-06T23:33:52Z",
+    "authors" : [
+      {
+        "name" : "Aman Priyanshu"
+      },
+      {
+        "name" : "Yash Maurya"
+      },
+      {
+        "name" : "Suriya Ganesh"
+      },
+      {
+        "name" : "Vy Tran"
+      }
+    ],
+    "categories" : [
+      "cs.AI",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.00596v2",
+    "title" : "Unbundle-Rewrite-Rebundle: Runtime Detection and Rewriting of\n  Privacy-Harming Code in JavaScript Bundles",
+    "summary" : "This work presents Unbundle-Rewrite-Rebundle (URR), a system for detecting\nprivacy-harming portions of bundled JavaScript code, and rewriting that code at\nruntime to remove the privacy harming behavior without breaking the surrounding\ncode or overall application. URR is a novel solution to the problem of\nJavaScript bundles, where websites pre-compile multiple code units into a\nsingle file, making it impossible for content filters and ad-blockers to\ndifferentiate between desired and unwanted resources. Where traditional content\nfiltering tools rely on URLs, URR analyzes the code at the AST level, and\nreplaces harmful AST sub-trees with privacy-and-functionality maintaining\nalternatives.\n  We present an open-sourced implementation of URR as a Firefox extension, and\nevaluate it against JavaScript bundles generated by the most popular bundling\nsystem (Webpack) deployed on the Tranco 10k. We measure the performance,\nmeasured by precision (1.00), recall (0.95), and speed (0.43s per-script) when\ndetecting and rewriting three representative privacy harming libraries often\nincluded in JavaScript bundles, and find URR to be an effective approach to a\nlarge-and-growing blind spot unaddressed by current privacy tools.",
+    "updated" : "2024-05-07T15:38:20Z",
+    "published" : "2024-05-01T16:04:42Z",
+    "authors" : [
+      {
+        "name" : "Mir Masood Ali"
+      },
+      {
+        "name" : "Peter Snyder"
+      },
+      {
+        "name" : "Chris Kanich"
+      },
+      {
+        "name" : "Hamed Haddadi"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
