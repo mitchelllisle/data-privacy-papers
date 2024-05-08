@@ -2152,136 +2152,153 @@ demonstrate the superiority of our model-aware approach.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.03509v1">Privacy-Enhancing Technologies for Artificial Intelligence-Enabled
-  Systems</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-04-04T15:14:40Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Liv d'Aliberti, Evan Gronberg, Joseph Kovba</p>
-    <p><b>Summary:</b> Artificial intelligence (AI) models introduce privacy vulnerabilities to
-systems. These vulnerabilities may impact model owners or system users; they
-exist during model development, deployment, and inference phases, and threats
-can be internal or external to the system. In this paper, we investigate
-potential threats and propose the use of several privacy-enhancing technologies
-(PETs) to defend AI-enabled systems. We then provide a framework for PETs
-evaluation for a AI-enabled systems and discuss the impact PETs may have on
-system-level variables.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.03442v1">Privacy Engineering From Principles to Practice: A Roadmap</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36"> 
-  <p><b>Published on:</b> 2024-04-04T13:39:49Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Frank Pallas, Katharina Koerner, Isabel Barberá, Jaap-Henk Hoepman, Meiko Jensen, Nandita Rao Narla, Nikita Samarin, Max-R. Ulbricht, Isabel Wagner, Kim Wuyts, Christian Zimmermann</p>
-    <p><b>Summary:</b> Privacy engineering is gaining momentum in industry and academia alike. So
-far, manifold low-level primitives and higher-level methods and strategies have
-successfully been established. Still, fostering adoption in real-world
-information systems calls for additional aspects to be consciously considered
-in research and practice.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.03324v1">A Comparative Analysis of Word-Level Metric Differential Privacy:
-  Benchmarking The Privacy-Utility Trade-off</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2024-04-04T09:48:14Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Stephen Meisenbacher, Nihildev Nandakumar, Alexandra Klymenko, Florian Matthes</p>
-    <p><b>Summary:</b> The application of Differential Privacy to Natural Language Processing
-techniques has emerged in relevance in recent years, with an increasing number
-of studies published in established NLP outlets. In particular, the adaptation
-of Differential Privacy for use in NLP tasks has first focused on the
-$\textit{word-level}$, where calibrated noise is added to word embedding
-vectors to achieve "noisy" representations. To this end, several
-implementations have appeared in the literature, each presenting an alternative
-method of achieving word-level Differential Privacy. Although each of these
-includes its own evaluation, no comparative analysis has been performed to
-investigate the performance of such methods relative to each other. In this
-work, we conduct such an analysis, comparing seven different algorithms on two
-NLP tasks with varying hyperparameters, including the $\textit{epsilon
-($\varepsilon$)}$ parameter, or privacy budget. In addition, we provide an
-in-depth analysis of the results with a focus on the privacy-utility trade-off,
-as well as open-source our implementation code for further reproduction. As a
-result of our analysis, we give insight into the benefits and challenges of
-word-level Differential Privacy, and accordingly, we suggest concrete steps
-forward for the research field.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.03165v2">Towards Collaborative Family-Centered Design for Online Safety, Privacy
-  and Security</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2024-04-04T02:34:46Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mamtaj Akter, Zainab Agha, Ashwaq Alsoubai, Naima Ali, Pamela Wisniewski</p>
-    <p><b>Summary:</b> Traditional online safety technologies often overly restrict teens and invade
-their privacy, while parents often lack knowledge regarding their digital
-privacy. As such, prior researchers have called for more collaborative
-approaches on adolescent online safety and networked privacy. In this paper, we
-propose family-centered approaches to foster parent-teen collaboration in
-ensuring their mobile privacy and online safety while respecting individual
-privacy, to enhance open discussion and teens' self-regulation. However,
-challenges such as power imbalances and conflicts with family values arise when
-implementing such approaches, making parent-teen collaboration difficult.
-Therefore, attending the family-centered design workshop will provide an
-invaluable opportunity for us to discuss these challenges and identify best
-research practices for the future of collaborative online safety and privacy
-within families.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.02696v1">Deep Privacy Funnel Model: From a Discriminative to a Generative
-  Approach with an Application to Face Recognition</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-04-03T12:50:45Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Behrooz Razeghi, Parsa Rahimi, Sébastien Marcel</p>
-    <p><b>Summary:</b> In this study, we apply the information-theoretic Privacy Funnel (PF) model
-to the domain of face recognition, developing a novel method for
-privacy-preserving representation learning within an end-to-end training
-framework. Our approach addresses the trade-off between obfuscation and utility
-in data protection, quantified through logarithmic loss, also known as
-self-information loss. This research provides a foundational exploration into
-the integration of information-theoretic privacy principles with representation
-learning, focusing specifically on the face recognition systems. We
-particularly highlight the adaptability of our framework with recent
-advancements in face recognition networks, such as AdaFace and ArcFace. In
-addition, we introduce the Generative Privacy Funnel ($\mathsf{GenPF}$) model,
-a paradigm that extends beyond the traditional scope of the PF model, referred
-to as the Discriminative Privacy Funnel ($\mathsf{DisPF}$). This
-$\mathsf{GenPF}$ model brings new perspectives on data generation methods with
-estimation-theoretic and information-theoretic privacy guarantees.
-Complementing these developments, we also present the deep variational PF
-(DVPF) model. This model proposes a tractable variational bound for measuring
-information leakage, enhancing the understanding of privacy preservation
-challenges in deep representation learning. The DVPF model, associated with
-both $\mathsf{DisPF}$ and $\mathsf{GenPF}$ models, sheds light on connections
-with various generative models such as Variational Autoencoders (VAEs),
-Generative Adversarial Networks (GANs), and Diffusion models. Complementing our
-theoretical contributions, we release a reproducible PyTorch package,
-facilitating further exploration and application of these privacy-preserving
-methodologies in face recognition systems.</p>
-  </details>
-</div>
-
-
 
 <h2>2024-05</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.04344v1">Enhancing Scalability of Metric Differential Privacy via Secret Dataset
+  Partitioning and Benders Decomposition</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-05-07T14:19:09Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Chenxi Qiu</p>
+    <p><b>Summary:</b> Metric Differential Privacy (mDP) extends the concept of Differential Privacy
+(DP) to serve as a new paradigm of data perturbation. It is designed to protect
+secret data represented in general metric space, such as text data encoded as
+word embeddings or geo-location data on the road network or grid maps. To
+derive an optimal data perturbation mechanism under mDP, a widely used method
+is linear programming (LP), which, however, might suffer from a polynomial
+explosion of decision variables, rendering it impractical in large-scale mDP.
+  In this paper, our objective is to develop a new computation framework to
+enhance the scalability of the LP-based mDP. Considering the connections
+established by the mDP constraints among the secret records, we partition the
+original secret dataset into various subsets. Building upon the partition, we
+reformulate the LP problem for mDP and solve it via Benders Decomposition,
+which is composed of two stages: (1) a master program to manage the
+perturbation calculation across subsets and (2) a set of subproblems, each
+managing the perturbation derivation within a subset. Our experimental results
+on multiple datasets, including geo-location data in the road network/grid
+maps, text data, and synthetic data, underscore our proposed mechanism's
+superior scalability and efficiency.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.04108v1">A2-DIDM: Privacy-preserving Accumulator-enabled Auditing for Distributed
+  Identity of DNN Model</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-05-07T08:24:50Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Tianxiu Xie, Keke Gai, Jing Yu, Liehuang Zhu, Kim-Kwang Raymond Choo</p>
+    <p><b>Summary:</b> Recent booming development of Generative Artificial Intelligence (GenAI) has
+facilitated an emerging model commercialization for the purpose of
+reinforcement on model performance, such as licensing or trading Deep Neural
+Network (DNN) models. However, DNN model trading may trigger concerns of the
+unauthorized replications or misuses over the model, so that the benefit of the
+model ownership will be violated. Model identity auditing is a challenging
+issue in protecting intellectual property of DNN models and verifying the
+integrity and ownership of models for guaranteeing trusts in transactions is
+one of the critical obstacles. In this paper, we focus on the above issue and
+propose a novel Accumulator-enabled Auditing for Distributed Identity of DNN
+Model (A2-DIDM) that utilizes blockchain and zero-knowledge techniques to
+protect data and function privacy while ensuring the lightweight on-chain
+ownership verification. The proposed model presents a scheme of identity
+records via configuring model weight checkpoints with corresponding
+zero-knowledge proofs, which incorporates predicates to capture incremental
+state changes in model weight checkpoints. Our scheme ensures both
+computational integrity of DNN training process and programmability, so that
+the uniqueness of the weight checkpoint sequence in a DNN model is preserved,
+ensuring the correctness of the model identity auditing. In addition, A2-DIDM
+also addresses privacy protections in distributed identity via a proposed
+method of accumulators. We systematically analyze the security and robustness
+of our proposed model and further evaluate the effectiveness and usability of
+auditing DNN model identities.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.04029v1">Enabling Privacy-Preserving and Publicly Auditable Federated Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
+  <p><b>Published on:</b> 2024-05-07T06:03:10Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Huang Zeng, Anjia Yang, Jian Weng, Min-Rong Chen, Fengjun Xiao, Yi Liu, Ye Yao</p>
+    <p><b>Summary:</b> Federated learning (FL) has attracted widespread attention because it
+supports the joint training of models by multiple participants without moving
+private dataset. However, there are still many security issues in FL that
+deserve discussion. In this paper, we consider three major issues: 1) how to
+ensure that the training process can be publicly audited by any third party; 2)
+how to avoid the influence of malicious participants on training; 3) how to
+ensure that private gradients and models are not leaked to third parties. Many
+solutions have been proposed to address these issues, while solving the above
+three problems simultaneously is seldom considered. In this paper, we propose a
+publicly auditable and privacy-preserving federated learning scheme that is
+resistant to malicious participants uploading gradients with wrong directions
+and enables anyone to audit and verify the correctness of the training process.
+In particular, we design a robust aggregation algorithm capable of detecting
+gradients with wrong directions from malicious participants. Then, we design a
+random vector generation algorithm and combine it with zero sharing and
+blockchain technologies to make the joint training process publicly auditable,
+meaning anyone can verify the correctness of the training. Finally, we conduct
+a series of experiments, and the experimental results show that the model
+generated by the protocol is comparable in accuracy to the original FL approach
+while keeping security advantages.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.03915v1">Motivating Users to Attend to Privacy: A Theory-Driven Design Study</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2024-05-07T00:23:42Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Varun Shiri, Maggie Xiong, Jinghui Cheng, Jin L. C. Guo</p>
+    <p><b>Summary:</b> In modern technology environments, raising users' privacy awareness is
+crucial. Existing efforts largely focused on privacy policy presentation and
+failed to systematically address a radical challenge of user motivation for
+initiating privacy awareness. Leveraging the Protection Motivation Theory
+(PMT), we proposed design ideas and categories dedicated to motivating users to
+engage with privacy-related information. Using these design ideas, we created a
+conceptual prototype, enhancing the current App Store product page. Results
+from an online experiment and follow-up interviews showed that our design
+effectively motivated participants to attend to privacy issues, raising both
+the threat appraisal and coping appraisal, two main factors in PMT. Our work
+indicated that effective design should consider combining PMT components,
+calibrating information content, and integrating other design elements, such as
+visual cues and user familiarity. Overall, our study contributes valuable
+design considerations driven by the PMT to amplify the motivational aspect of
+privacy communication.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.03903v1">Unified Locational Differential Privacy Framework</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2024-05-06T23:33:52Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Aman Priyanshu, Yash Maurya, Suriya Ganesh, Vy Tran</p>
+    <p><b>Summary:</b> Aggregating statistics over geographical regions is important for many
+applications, such as analyzing income, election results, and disease spread.
+However, the sensitive nature of this data necessitates strong privacy
+protections to safeguard individuals. In this work, we present a unified
+locational differential privacy (DP) framework to enable private aggregation of
+various data types, including one-hot encoded, boolean, float, and integer
+arrays, over geographical regions. Our framework employs local DP mechanisms
+such as randomized response, the exponential mechanism, and the Gaussian
+mechanism. We evaluate our approach on four datasets representing significant
+location data aggregation scenarios. Results demonstrate the utility of our
+framework in providing formal DP guarantees while enabling geographical data
+analysis.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2405.03636v1">Federated Learning Privacy: Attacks, Defenses, Applications, and Policy
@@ -2863,7 +2880,7 @@ proposed algorithm.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.00596v1">Unbundle-Rewrite-Rebundle: Runtime Detection and Rewriting of
+  <h3><a href="http://arxiv.org/abs/2405.00596v2">Unbundle-Rewrite-Rebundle: Runtime Detection and Rewriting of
   Privacy-Harming Code in JavaScript Bundles</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2024-05-01T16:04:42Z</p>
