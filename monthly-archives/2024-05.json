@@ -755,5 +755,43 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.05175v1",
+    "title" : "Air Gap: Protecting Privacy-Conscious Conversational Agents",
+    "summary" : "The growing use of large language model (LLM)-based conversational agents to\nmanage sensitive user data raises significant privacy concerns. While these\nagents excel at understanding and acting on context, this capability can be\nexploited by malicious actors. We introduce a novel threat model where\nadversarial third-party apps manipulate the context of interaction to trick\nLLM-based agents into revealing private information not relevant to the task at\nhand.\n  Grounded in the framework of contextual integrity, we introduce AirGapAgent,\na privacy-conscious agent designed to prevent unintended data leakage by\nrestricting the agent's access to only the data necessary for a specific task.\nExtensive experiments using Gemini, GPT, and Mistral models as agents validate\nour approach's effectiveness in mitigating this form of context hijacking while\nmaintaining core agent functionality. For example, we show that a single-query\ncontext hijacking attack on a Gemini Ultra agent reduces its ability to protect\nuser data from 94% to 45%, while an AirGapAgent achieves 97% protection,\nrendering the same attack ineffective.",
+    "updated" : "2024-05-08T16:12:45Z",
+    "published" : "2024-05-08T16:12:45Z",
+    "authors" : [
+      {
+        "name" : "Eugene Bagdasaryan"
+      },
+      {
+        "name" : "Ren Yi"
+      },
+      {
+        "name" : "Sahra Ghalebikesabi"
+      },
+      {
+        "name" : "Peter Kairouz"
+      },
+      {
+        "name" : "Marco Gruteser"
+      },
+      {
+        "name" : "Sewoong Oh"
+      },
+      {
+        "name" : "Borja Balle"
+      },
+      {
+        "name" : "Daniel Ramage"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CL",
+      "cs.LG"
+    ]
   }
 ]
