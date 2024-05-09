@@ -2123,37 +2123,35 @@ portion of non-private data.</p>
 </div>
 
 
+
+<h2>2024-05</h2>
+
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.03514v1">Learn When (not) to Trust Language Models: A Privacy-Centric Adaptive
-  Model-Aware Approach</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2024-04-04T15:21:22Z</p>
+  <h3><a href="http://arxiv.org/abs/2405.05175v1">Air Gap: Protecting Privacy-Conscious Conversational Agents</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-05-08T16:12:45Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Chengkai Huang, Rui Wang, Kaige Xie, Tong Yu, Lina Yao</p>
-    <p><b>Summary:</b> Retrieval-augmented large language models (LLMs) have been remarkably
-competent in various NLP tasks. Despite their great success, the knowledge
-provided by the retrieval process is not always useful for improving the model
-prediction, since in some samples LLMs may already be quite knowledgeable and
-thus be able to answer the question correctly without retrieval. Aiming to save
-the cost of retrieval, previous work has proposed to determine when to do/skip
-the retrieval in a data-aware manner by analyzing the LLMs' pretraining data.
-However, these data-aware methods pose privacy risks and memory limitations,
-especially when requiring access to sensitive or extensive pretraining data.
-Moreover, these methods offer limited adaptability under fine-tuning or
-continual learning settings. We hypothesize that token embeddings are able to
-capture the model's intrinsic knowledge, which offers a safer and more
-straightforward way to judge the need for retrieval without the privacy risks
-associated with accessing pre-training data. Moreover, it alleviates the need
-to retain all the data utilized during model pre-training, necessitating only
-the upkeep of the token embeddings. Extensive experiments and in-depth analyses
-demonstrate the superiority of our model-aware approach.</p>
+    <p><b>Authors:</b> Eugene Bagdasaryan, Ren Yi, Sahra Ghalebikesabi, Peter Kairouz, Marco Gruteser, Sewoong Oh, Borja Balle, Daniel Ramage</p>
+    <p><b>Summary:</b> The growing use of large language model (LLM)-based conversational agents to
+manage sensitive user data raises significant privacy concerns. While these
+agents excel at understanding and acting on context, this capability can be
+exploited by malicious actors. We introduce a novel threat model where
+adversarial third-party apps manipulate the context of interaction to trick
+LLM-based agents into revealing private information not relevant to the task at
+hand.
+  Grounded in the framework of contextual integrity, we introduce AirGapAgent,
+a privacy-conscious agent designed to prevent unintended data leakage by
+restricting the agent's access to only the data necessary for a specific task.
+Extensive experiments using Gemini, GPT, and Mistral models as agents validate
+our approach's effectiveness in mitigating this form of context hijacking while
+maintaining core agent functionality. For example, we show that a single-query
+context hijacking attack on a Gemini Ultra agent reduces its ability to protect
+user data from 94% to 45%, while an AirGapAgent achieves 97% protection,
+rendering the same attack ineffective.</p>
   </details>
 </div>
 
-
-
-<h2>2024-05</h2>
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2405.04344v1">Enhancing Scalability of Metric Differential Privacy via Secret Dataset
