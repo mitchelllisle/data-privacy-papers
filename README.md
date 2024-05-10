@@ -516,6 +516,26 @@ compared to the conventional DP algorithm in terms of KL divergence.</p>
 
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.05924v1">Privacy Protection and Video Manipulation in Immersive Media</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2024-04-23T17:37:10Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Leslie Wöhler, Satoshi Ikehata, Kiyoharu Aizawa</p>
+    <p><b>Summary:</b> In comparison to traditional footage, 360{\deg} videos can convey engaging,
+immersive experiences and even be utilized to create interactive virtual
+environments. Like regular recordings, these videos need to consider the
+privacy of recorded people and could be targets for video manipulations.
+However, due to their properties like enhanced presence, the effects on users
+might differ from traditional, non-immersive content. Therefore, we are
+interested in how changes of real-world footage like adding privacy protection
+or applying video manipulations could mitigate or introduce harm in the
+resulting immersive media.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2404.14983v1">Zero-Knowledge Location Privacy via Accurate Floating Point SNARKs</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2024-04-23T12:38:51Z</p>
@@ -1988,143 +2008,129 @@ ensure the privacy and security of users in an increasingly connected world.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.04706v1">Advances in Differential Privacy and Differentially Private Machine
-  Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-04-06T18:49:24Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Saswat Das, Subhankar Mishra</p>
-    <p><b>Summary:</b> There has been an explosion of research on differential privacy (DP) and its
-various applications in recent years, ranging from novel variants and
-accounting techniques in differential privacy to the thriving field of
-differentially private machine learning (DPML) to newer implementations in
-practice, like those by various companies and organisations such as census
-bureaus. Most recent surveys focus on the applications of differential privacy
-in particular contexts like data publishing, specific machine learning tasks,
-analysis of unstructured data, location privacy, etc. This work thus seeks to
-fill the gap for a survey that primarily discusses recent developments in the
-theory of differential privacy along with newer DP variants, viz. Renyi DP and
-Concentrated DP, novel mechanisms and techniques, and the theoretical
-developments in differentially private machine learning in proper detail. In
-addition, this survey discusses its applications to privacy-preserving machine
-learning in practice and a few practical implementations of DP.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.04098v1">You Can Use But Cannot Recognize: Preserving Visual Privacy in Deep
-  Neural Networks</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-04-05T13:49:27Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Qiushi Li, Yan Zhang, Ju Ren, Qi Li, Yaoxue Zhang</p>
-    <p><b>Summary:</b> Image data have been extensively used in Deep Neural Network (DNN) tasks in
-various scenarios, e.g., autonomous driving and medical image analysis, which
-incurs significant privacy concerns. Existing privacy protection techniques are
-unable to efficiently protect such data. For example, Differential Privacy (DP)
-that is an emerging technique protects data with strong privacy guarantee
-cannot effectively protect visual features of exposed image dataset. In this
-paper, we propose a novel privacy-preserving framework VisualMixer that
-protects the training data of visual DNN tasks by pixel shuffling, while not
-injecting any noises. VisualMixer utilizes a new privacy metric called Visual
-Feature Entropy (VFE) to effectively quantify the visual features of an image
-from both biological and machine vision aspects. In VisualMixer, we devise a
-task-agnostic image obfuscation method to protect the visual privacy of data
-for DNN training and inference. For each image, it determines regions for pixel
-shuffling in the image and the sizes of these regions according to the desired
-VFE. It shuffles pixels both in the spatial domain and in the chromatic channel
-space in the regions without injecting noises so that it can prevent visual
-features from being discerned and recognized, while incurring negligible
-accuracy loss. Extensive experiments on real-world datasets demonstrate that
-VisualMixer can effectively preserve the visual privacy with negligible
-accuracy loss, i.e., at average 2.35 percentage points of model accuracy loss,
-and almost no performance degradation on model training.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.04006v1">From Theory to Comprehension: A Comparative Study of Differential
-  Privacy and $k$-Anonymity</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2024-04-05T10:30:26Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Saskia Nuñez von Voigt, Luise Mehner, Florian Tschorsch</p>
-    <p><b>Summary:</b> The notion of $\varepsilon$-differential privacy is a widely used concept of
-providing quantifiable privacy to individuals. However, it is unclear how to
-explain the level of privacy protection provided by a differential privacy
-mechanism with a set $\varepsilon$. In this study, we focus on users'
-comprehension of the privacy protection provided by a differential privacy
-mechanism. To do so, we study three variants of explaining the privacy
-protection provided by differential privacy: (1) the original mathematical
-definition; (2) $\varepsilon$ translated into a specific privacy risk; and (3)
-an explanation using the randomized response technique. We compare users'
-comprehension of privacy protection employing these explanatory models with
-their comprehension of privacy protection of $k$-anonymity as baseline
-comprehensibility. Our findings suggest that participants' comprehension of
-differential privacy protection is enhanced by the privacy risk model and the
-randomized response-based model. Moreover, our results confirm our intuition
-that privacy protection provided by $k$-anonymity is more comprehensible.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.03873v1">PrivShape: Extracting Shapes in Time Series under User-Level Local
-  Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-04-05T03:22:47Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yulian Mao, Qingqing Ye, Haibo Hu, Qi Wang, Kai Huang</p>
-    <p><b>Summary:</b> Time series have numerous applications in finance, healthcare, IoT, and smart
-city. In many of these applications, time series typically contain personal
-data, so privacy infringement may occur if they are released directly to the
-public. Recently, local differential privacy (LDP) has emerged as the
-state-of-the-art approach to protecting data privacy. However, existing works
-on LDP-based collections cannot preserve the shape of time series. A recent
-work, PatternLDP, attempts to address this problem, but it can only protect a
-finite group of elements in a time series due to {\omega}-event level privacy
-guarantee. In this paper, we propose PrivShape, a trie-based mechanism under
-user-level LDP to protect all elements. PrivShape first transforms a time
-series to reduce its length, and then adopts trie-expansion and two-level
-refinement to improve utility. By extensive experiments on real-world datasets,
-we demonstrate that PrivShape outperforms PatternLDP when adapted for offline
-use, and can effectively extract frequent shapes.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.03524v1">Approximate Gradient Coding for Privacy-Flexible Federated Learning with
-  Non-IID Data</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36">  
-  <p><b>Published on:</b> 2024-04-04T15:29:50Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Okko Makkonen, Sampo Niemelä, Camilla Hollanti, Serge Kas Hanna</p>
-    <p><b>Summary:</b> This work focuses on the challenges of non-IID data and stragglers/dropouts
-in federated learning. We introduce and explore a privacy-flexible paradigm
-that models parts of the clients' local data as non-private, offering a more
-versatile and business-oriented perspective on privacy. Within this framework,
-we propose a data-driven strategy for mitigating the effects of label
-heterogeneity and client straggling on federated learning. Our solution
-combines both offline data sharing and approximate gradient coding techniques.
-Through numerical simulations using the MNIST dataset, we demonstrate that our
-approach enables achieving a deliberate trade-off between privacy and utility,
-leading to improved model convergence and accuracy while using an adaptable
-portion of non-private data.</p>
-  </details>
-</div>
-
-
 
 <h2>2024-05</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.05930v1">Trustworthy AI-Generative Content in Intelligent 6G Network:
+  Adversarial, Privacy, and Fairness</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
+  <p><b>Published on:</b> 2024-05-09T17:16:20Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Siyuan Li, Xi Lin, Yaju Liu, Jianhua Li</p>
+    <p><b>Summary:</b> AI-generated content (AIGC) models, represented by large language models
+(LLM), have brought revolutionary changes to the content generation fields. The
+high-speed and extensive 6G technology is an ideal platform for providing
+powerful AIGC mobile service applications, while future 6G mobile networks also
+need to support intelligent and personalized mobile generation services.
+However, the significant ethical and security issues of current AIGC models,
+such as adversarial attacks, privacy, and fairness, greatly affect the
+credibility of 6G intelligent networks, especially in ensuring secure, private,
+and fair AIGC applications. In this paper, we propose TrustGAIN, a novel
+paradigm for trustworthy AIGC in 6G networks, to ensure trustworthy large-scale
+AIGC services in future 6G networks. We first discuss the adversarial attacks
+and privacy threats faced by AIGC systems in 6G networks, as well as the
+corresponding protection issues. Subsequently, we emphasize the importance of
+ensuring the unbiasedness and fairness of the mobile generative service in
+future intelligent networks. In particular, we conduct a use case to
+demonstrate that TrustGAIN can effectively guide the resistance against
+malicious or generated false information. We believe that TrustGAIN is a
+necessary paradigm for intelligent and trustworthy 6G networks to support AIGC
+services, ensuring the security, privacy, and fairness of AIGC network
+services.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.05789v1">High-Performance Privacy-Preserving Matrix Completion for Trajectory
+  Recovery</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Numerical Analysis-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Numerical Analysis-D91E36">
+  <p><b>Published on:</b> 2024-05-09T14:12:41Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jiahao Guo, An-Bao Xu</p>
+    <p><b>Summary:</b> Matrix completion has important applications in trajectory recovery and
+mobile social networks. However, sending raw data containing personal,
+sensitive information to cloud computing nodes may lead to privacy exposure
+issue.The privacy-preserving matrix completion is a useful approach to perform
+matrix completion while preserving privacy. In this paper, we propose a
+high-performance method for privacy-preserving matrix completion. First,we use
+a lightweight encryption scheme to encrypt the raw data and then perform matrix
+completion using alternating direction method of multipliers (ADMM). Then,the
+complemented matrix is decrypted and compared with the original matrix to
+calculate the error. This method has faster speed with higher accuracy. The
+results of numerical experiments reveal that the proposed method is faster than
+other algorithms.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.05611v1">Privacy-Preserving Edge Federated Learning for Intelligent Mobile-Health
+  Systems</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-05-09T08:15:31Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Amin Aminifar, Matin Shokri, Amir Aminifar</p>
+    <p><b>Summary:</b> Machine Learning (ML) algorithms are generally designed for scenarios in
+which all data is stored in one data center, where the training is performed.
+However, in many applications, e.g., in the healthcare domain, the training
+data is distributed among several entities, e.g., different hospitals or
+patients' mobile devices/sensors. At the same time, transferring the data to a
+central location for learning is certainly not an option, due to privacy
+concerns and legal issues, and in certain cases, because of the communication
+and computation overheads. Federated Learning (FL) is the state-of-the-art
+collaborative ML approach for training an ML model across multiple parties
+holding local data samples, without sharing them. However, enabling learning
+from distributed data over such edge Internet of Things (IoT) systems (e.g.,
+mobile-health and wearable technologies, involving sensitive personal/medical
+data) in a privacy-preserving fashion presents a major challenge mainly due to
+their stringent resource constraints, i.e., limited computing capacity,
+communication bandwidth, memory storage, and battery lifetime. In this paper,
+we propose a privacy-preserving edge FL framework for resource-constrained
+mobile-health and wearable technologies over the IoT infrastructure. We
+evaluate our proposed framework extensively and provide the implementation of
+our technique on Amazon's AWS cloud platform based on the seizure detection
+application in epilepsy monitoring using wearable technologies.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.05567v1">Perfect Subset Privacy in Polynomial Computation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
+  <p><b>Published on:</b> 2024-05-09T06:11:58Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b>  Zirui,  Deng, Vinayak Ramkumar, Netanel Raviv</p>
+    <p><b>Summary:</b> Delegating large-scale computations to service providers is a common practice
+which raises privacy concerns. This paper studies information-theoretic
+privacy-preserving delegation of data to a service provider, who may further
+delegate the computation to auxiliary worker nodes, in order to compute a
+polynomial over that data at a later point in time. We study techniques which
+are compatible with robust management of distributed computation systems, an
+area known as coded computing. Privacy in coded computing, however, has
+traditionally addressed the problem of colluding workers, and assumed that the
+server that administrates the computation is trusted. This viewpoint of privacy
+does not accurately reflect real-world privacy concerns, since normally, the
+service provider as a whole (i.e., the administrator and the worker nodes) form
+one cohesive entity which itself poses a privacy risk. This paper aims to shift
+the focus of privacy in coded computing to safeguarding the privacy of the user
+against the service provider as a whole, instead of merely against colluding
+workers inside the service provider. To this end, we leverage the recently
+defined notion of perfect subset privacy, which guarantees zero information
+leakage from all subsets of the data up to a certain size. Using known
+techniques from Reed-Muller decoding, we provide a scheme which enables
+polynomial computation with perfect subset privacy in straggler-free systems.
+Furthermore, by studying information super-sets in Reed-Muller codes, which may
+be of independent interest, we extend the previous scheme to tolerate
+straggling worker nodes inside the service provider.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2405.05175v1">Air Gap: Protecting Privacy-Conscious Conversational Agents</a></h3>
@@ -2154,7 +2160,7 @@ rendering the same attack ineffective.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.04344v1">Enhancing Scalability of Metric Differential Privacy via Secret Dataset
+  <h3><a href="http://arxiv.org/abs/2405.04344v2">Enhancing Scalability of Metric Differential Privacy via Secret Dataset
   Partitioning and Benders Decomposition</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2024-05-07T14:19:09Z</p>
