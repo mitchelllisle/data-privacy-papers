@@ -2378,5 +2378,26 @@
       "cs.CR",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.05924v1",
+    "title" : "Privacy Protection and Video Manipulation in Immersive Media",
+    "summary" : "In comparison to traditional footage, 360{\\deg} videos can convey engaging,\nimmersive experiences and even be utilized to create interactive virtual\nenvironments. Like regular recordings, these videos need to consider the\nprivacy of recorded people and could be targets for video manipulations.\nHowever, due to their properties like enhanced presence, the effects on users\nmight differ from traditional, non-immersive content. Therefore, we are\ninterested in how changes of real-world footage like adding privacy protection\nor applying video manipulations could mitigate or introduce harm in the\nresulting immersive media.",
+    "updated" : "2024-04-23T17:37:10Z",
+    "published" : "2024-04-23T17:37:10Z",
+    "authors" : [
+      {
+        "name" : "Leslie Wöhler"
+      },
+      {
+        "name" : "Satoshi Ikehata"
+      },
+      {
+        "name" : "Kiyoharu Aizawa"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
   }
 ]
