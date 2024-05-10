@@ -793,5 +793,114 @@
       "cs.CL",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.05930v1",
+    "title" : "Trustworthy AI-Generative Content in Intelligent 6G Network:\n  Adversarial, Privacy, and Fairness",
+    "summary" : "AI-generated content (AIGC) models, represented by large language models\n(LLM), have brought revolutionary changes to the content generation fields. The\nhigh-speed and extensive 6G technology is an ideal platform for providing\npowerful AIGC mobile service applications, while future 6G mobile networks also\nneed to support intelligent and personalized mobile generation services.\nHowever, the significant ethical and security issues of current AIGC models,\nsuch as adversarial attacks, privacy, and fairness, greatly affect the\ncredibility of 6G intelligent networks, especially in ensuring secure, private,\nand fair AIGC applications. In this paper, we propose TrustGAIN, a novel\nparadigm for trustworthy AIGC in 6G networks, to ensure trustworthy large-scale\nAIGC services in future 6G networks. We first discuss the adversarial attacks\nand privacy threats faced by AIGC systems in 6G networks, as well as the\ncorresponding protection issues. Subsequently, we emphasize the importance of\nensuring the unbiasedness and fairness of the mobile generative service in\nfuture intelligent networks. In particular, we conduct a use case to\ndemonstrate that TrustGAIN can effectively guide the resistance against\nmalicious or generated false information. We believe that TrustGAIN is a\nnecessary paradigm for intelligent and trustworthy 6G networks to support AIGC\nservices, ensuring the security, privacy, and fairness of AIGC network\nservices.",
+    "updated" : "2024-05-09T17:16:20Z",
+    "published" : "2024-05-09T17:16:20Z",
+    "authors" : [
+      {
+        "name" : "Siyuan Li"
+      },
+      {
+        "name" : "Xi Lin"
+      },
+      {
+        "name" : "Yaju Liu"
+      },
+      {
+        "name" : "Jianhua Li"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.NI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.05789v1",
+    "title" : "High-Performance Privacy-Preserving Matrix Completion for Trajectory\n  Recovery",
+    "summary" : "Matrix completion has important applications in trajectory recovery and\nmobile social networks. However, sending raw data containing personal,\nsensitive information to cloud computing nodes may lead to privacy exposure\nissue.The privacy-preserving matrix completion is a useful approach to perform\nmatrix completion while preserving privacy. In this paper, we propose a\nhigh-performance method for privacy-preserving matrix completion. First,we use\na lightweight encryption scheme to encrypt the raw data and then perform matrix\ncompletion using alternating direction method of multipliers (ADMM). Then,the\ncomplemented matrix is decrypted and compared with the original matrix to\ncalculate the error. This method has faster speed with higher accuracy. The\nresults of numerical experiments reveal that the proposed method is faster than\nother algorithms.",
+    "updated" : "2024-05-09T14:12:41Z",
+    "published" : "2024-05-09T14:12:41Z",
+    "authors" : [
+      {
+        "name" : "Jiahao Guo"
+      },
+      {
+        "name" : "An-Bao Xu"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.NA",
+      "math.NA"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.05611v1",
+    "title" : "Privacy-Preserving Edge Federated Learning for Intelligent Mobile-Health\n  Systems",
+    "summary" : "Machine Learning (ML) algorithms are generally designed for scenarios in\nwhich all data is stored in one data center, where the training is performed.\nHowever, in many applications, e.g., in the healthcare domain, the training\ndata is distributed among several entities, e.g., different hospitals or\npatients' mobile devices/sensors. At the same time, transferring the data to a\ncentral location for learning is certainly not an option, due to privacy\nconcerns and legal issues, and in certain cases, because of the communication\nand computation overheads. Federated Learning (FL) is the state-of-the-art\ncollaborative ML approach for training an ML model across multiple parties\nholding local data samples, without sharing them. However, enabling learning\nfrom distributed data over such edge Internet of Things (IoT) systems (e.g.,\nmobile-health and wearable technologies, involving sensitive personal/medical\ndata) in a privacy-preserving fashion presents a major challenge mainly due to\ntheir stringent resource constraints, i.e., limited computing capacity,\ncommunication bandwidth, memory storage, and battery lifetime. In this paper,\nwe propose a privacy-preserving edge FL framework for resource-constrained\nmobile-health and wearable technologies over the IoT infrastructure. We\nevaluate our proposed framework extensively and provide the implementation of\nour technique on Amazon's AWS cloud platform based on the seizure detection\napplication in epilepsy monitoring using wearable technologies.",
+    "updated" : "2024-05-09T08:15:31Z",
+    "published" : "2024-05-09T08:15:31Z",
+    "authors" : [
+      {
+        "name" : "Amin Aminifar"
+      },
+      {
+        "name" : "Matin Shokri"
+      },
+      {
+        "name" : "Amir Aminifar"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.05567v1",
+    "title" : "Perfect Subset Privacy in Polynomial Computation",
+    "summary" : "Delegating large-scale computations to service providers is a common practice\nwhich raises privacy concerns. This paper studies information-theoretic\nprivacy-preserving delegation of data to a service provider, who may further\ndelegate the computation to auxiliary worker nodes, in order to compute a\npolynomial over that data at a later point in time. We study techniques which\nare compatible with robust management of distributed computation systems, an\narea known as coded computing. Privacy in coded computing, however, has\ntraditionally addressed the problem of colluding workers, and assumed that the\nserver that administrates the computation is trusted. This viewpoint of privacy\ndoes not accurately reflect real-world privacy concerns, since normally, the\nservice provider as a whole (i.e., the administrator and the worker nodes) form\none cohesive entity which itself poses a privacy risk. This paper aims to shift\nthe focus of privacy in coded computing to safeguarding the privacy of the user\nagainst the service provider as a whole, instead of merely against colluding\nworkers inside the service provider. To this end, we leverage the recently\ndefined notion of perfect subset privacy, which guarantees zero information\nleakage from all subsets of the data up to a certain size. Using known\ntechniques from Reed-Muller decoding, we provide a scheme which enables\npolynomial computation with perfect subset privacy in straggler-free systems.\nFurthermore, by studying information super-sets in Reed-Muller codes, which may\nbe of independent interest, we extend the previous scheme to tolerate\nstraggling worker nodes inside the service provider.",
+    "updated" : "2024-05-09T06:11:58Z",
+    "published" : "2024-05-09T06:11:58Z",
+    "authors" : [
+      {
+        "name" : " Zirui"
+      },
+      {
+        "name" : " Deng"
+      },
+      {
+        "name" : "Vinayak Ramkumar"
+      },
+      {
+        "name" : "Netanel Raviv"
+      }
+    ],
+    "categories" : [
+      "cs.IT",
+      "math.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.04344v2",
+    "title" : "Enhancing Scalability of Metric Differential Privacy via Secret Dataset\n  Partitioning and Benders Decomposition",
+    "summary" : "Metric Differential Privacy (mDP) extends the concept of Differential Privacy\n(DP) to serve as a new paradigm of data perturbation. It is designed to protect\nsecret data represented in general metric space, such as text data encoded as\nword embeddings or geo-location data on the road network or grid maps. To\nderive an optimal data perturbation mechanism under mDP, a widely used method\nis linear programming (LP), which, however, might suffer from a polynomial\nexplosion of decision variables, rendering it impractical in large-scale mDP.\n  In this paper, our objective is to develop a new computation framework to\nenhance the scalability of the LP-based mDP. Considering the connections\nestablished by the mDP constraints among the secret records, we partition the\noriginal secret dataset into various subsets. Building upon the partition, we\nreformulate the LP problem for mDP and solve it via Benders Decomposition,\nwhich is composed of two stages: (1) a master program to manage the\nperturbation calculation across subsets and (2) a set of subproblems, each\nmanaging the perturbation derivation within a subset. Our experimental results\non multiple datasets, including geo-location data in the road network/grid\nmaps, text data, and synthetic data, underscore our proposed mechanism's\nsuperior scalability and efficiency.",
+    "updated" : "2024-05-09T04:36:12Z",
+    "published" : "2024-05-07T14:19:09Z",
+    "authors" : [
+      {
+        "name" : "Chenxi Qiu"
+      }
+    ],
+    "categories" : [
+      "cs.AI",
+      "cs.CR"
+    ]
   }
 ]
