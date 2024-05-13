@@ -902,5 +902,43 @@
       "cs.AI",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.06307v1",
+    "title" : "Smooth Sensitivity for Geo-Privacy",
+    "summary" : "Suppose each user $i$ holds a private value $x_i$ in some metric space $(U,\n\\mathrm{dist})$, and an untrusted data analyst wishes to compute $\\sum_i\nf(x_i)$ for some function $f : U \\rightarrow \\mathbb{R}$ by asking each user to\nsend in a privatized $f(x_i)$. This is a fundamental problem in\nprivacy-preserving population analytics, and the local model of differential\nprivacy (LDP) is the predominant model under which the problem has been\nstudied. However, LDP requires any two different $x_i, x'_i$ to be\n$\\varepsilon$-distinguishable, which can be overly strong for\ngeometric/numerical data. On the other hand, Geo-Privacy (GP) stipulates that\nthe level of distinguishability be proportional to $\\mathrm{dist}(x_i, x_i')$,\nproviding an attractive alternative notion of personal data privacy in a metric\nspace. However, existing GP mechanisms for this problem, which add a uniform\nnoise to either $x_i$ or $f(x_i)$, are not satisfactory. In this paper, we\ngeneralize the smooth sensitivity framework from Differential Privacy to\nGeo-Privacy, which allows us to add noise tailored to the hardness of the given\ninstance. We provide definitions, mechanisms, and a generic procedure for\ncomputing the smooth sensitivity under GP equipped with a general metric. Then\nwe present three applications: one-way and two-way threshold functions, and\nGaussian kernel density estimation, to demonstrate the applicability and\nutility of our smooth sensitivity framework.",
+    "updated" : "2024-05-10T08:32:07Z",
+    "published" : "2024-05-10T08:32:07Z",
+    "authors" : [
+      {
+        "name" : "Yuting Liang"
+      },
+      {
+        "name" : "Ke Yi"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.06261v1",
+    "title" : "Improving the Privacy Loss Under User-Level DP Composition for Fixed\n  Estimation Error",
+    "summary" : "This paper considers the private release of statistics of several disjoint\nsubsets of a datasets, under user-level $\\epsilon$-differential privacy (DP).\nIn particular, we consider the user-level differentially private release of\nsample means and variances of speed values in several grids in a city, in a\npotentially sequential manner. Traditional analysis of the privacy loss due to\nthe sequential composition of queries necessitates a privacy loss degradation\nby a factor that equals the total number of grids. Our main contribution is an\niterative, instance-dependent algorithm, based on clipping the number of user\ncontributions, which seeks to reduce the overall privacy loss degradation under\na canonical Laplace mechanism, while not increasing the {worst} estimation\nerror among the different grids. We test the performance of our algorithm on\nsynthetic datasets and demonstrate improvements in the privacy loss degradation\nfactor via our algorithm. We also demonstrate improvements in the worst-case\nerror using a simple extension of a pseudo-user creation-based mechanism. An\nimportant component of this analysis is our exact characterization of the\nsensitivities and the worst-case estimation errors of sample means and\nvariances incurred by clipping user contributions in an arbitrary fashion,\nwhich we believe is of independent interest.",
+    "updated" : "2024-05-10T06:24:35Z",
+    "published" : "2024-05-10T06:24:35Z",
+    "authors" : [
+      {
+        "name" : "V. Arvind Rameshwar"
+      },
+      {
+        "name" : "Anshoo Tandon"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.IT",
+      "math.IT"
+    ]
   }
 ]
