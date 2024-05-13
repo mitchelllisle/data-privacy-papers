@@ -1945,71 +1945,69 @@ showcasing its ability to balance the conflicting goals of privacy and utility.<
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.04861v2">Privacy-Preserving Traceable Functional Encryption for Inner Product</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-04-07T08:09:46Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Muyao Qiu, Jinguang Han</p>
-    <p><b>Summary:</b> Functional encryption introduces a new paradigm of public key encryption that
-decryption only reveals the function value of encrypted data. To curb key
-leakage issues and trace users in FE-IP, a new primitive called traceable
-functional encryption for inner product (TFE-IP) has been proposed. However,
-the privacy protection of user's identities has not been considered in the
-existing TFE-IP schemes. In order to balance privacy and accountability, we
-propose the concept of privacy-preserving traceable functional encryption for
-inner product (PPTFE-IP) and give a concrete construction. Our scheme provides
-the following features: (1) To prevent key sharing, a user's key is bound with
-both his/her identity and a vector; (2) The key generation center (KGC) and a
-user execute a two-party secure computing protocol to generate a key without
-the former knowing anything about the latter's identity; (3) Each user can
-verify the correctness of his/her key; (4) A user can calculate the inner
-product of the two vectors embedded in his/her key and in a ciphertext; (5)
-Only the tracer can trace the identity embedded in a key. The security of our
-scheme is formally reduced to well-known complexity assumptions, and the
-implementation is conducted to evaluate its efficiency. The novelty of our
-scheme is to protect users' privacy and provide traceability if required.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.04769v1">Safeguarding Voice Privacy: Harnessing Near-Ultrasonic Interference To
-  Protect Against Unauthorized Audio Recording</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-04-07T00:49:19Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Forrest McKee, David Noever</p>
-    <p><b>Summary:</b> The widespread adoption of voice-activated systems has modified routine
-human-machine interaction but has also introduced new vulnerabilities. This
-paper investigates the susceptibility of automatic speech recognition (ASR)
-algorithms in these systems to interference from near-ultrasonic noise.
-Building upon prior research that demonstrated the ability of near-ultrasonic
-frequencies (16 kHz - 22 kHz) to exploit the inherent properties of
-microelectromechanical systems (MEMS) microphones, our study explores
-alternative privacy enforcement means using this interference phenomenon. We
-expose a critical vulnerability in the most common microphones used in modern
-voice-activated devices, which inadvertently demodulate near-ultrasonic
-frequencies into the audible spectrum, disrupting the ASR process. Through a
-systematic analysis of the impact of near-ultrasonic noise on various ASR
-systems, we demonstrate that this vulnerability is consistent across different
-devices and under varying conditions, such as broadcast distance and specific
-phoneme structures. Our findings highlight the need to develop robust
-countermeasures to protect voice-activated systems from malicious exploitation
-of this vulnerability. Furthermore, we explore the potential applications of
-this phenomenon in enhancing privacy by disrupting unauthorized audio recording
-or eavesdropping. This research underscores the importance of a comprehensive
-approach to securing voice-activated systems, combining technological
-innovation, responsible development practices, and informed policy decisions to
-ensure the privacy and security of users in an increasingly connected world.</p>
-  </details>
-</div>
-
-
 
 <h2>2024-05</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.06307v1">Smooth Sensitivity for Geo-Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-05-10T08:32:07Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yuting Liang, Ke Yi</p>
+    <p><b>Summary:</b> Suppose each user $i$ holds a private value $x_i$ in some metric space $(U,
+\mathrm{dist})$, and an untrusted data analyst wishes to compute $\sum_i
+f(x_i)$ for some function $f : U \rightarrow \mathbb{R}$ by asking each user to
+send in a privatized $f(x_i)$. This is a fundamental problem in
+privacy-preserving population analytics, and the local model of differential
+privacy (LDP) is the predominant model under which the problem has been
+studied. However, LDP requires any two different $x_i, x'_i$ to be
+$\varepsilon$-distinguishable, which can be overly strong for
+geometric/numerical data. On the other hand, Geo-Privacy (GP) stipulates that
+the level of distinguishability be proportional to $\mathrm{dist}(x_i, x_i')$,
+providing an attractive alternative notion of personal data privacy in a metric
+space. However, existing GP mechanisms for this problem, which add a uniform
+noise to either $x_i$ or $f(x_i)$, are not satisfactory. In this paper, we
+generalize the smooth sensitivity framework from Differential Privacy to
+Geo-Privacy, which allows us to add noise tailored to the hardness of the given
+instance. We provide definitions, mechanisms, and a generic procedure for
+computing the smooth sensitivity under GP equipped with a general metric. Then
+we present three applications: one-way and two-way threshold functions, and
+Gaussian kernel density estimation, to demonstrate the applicability and
+utility of our smooth sensitivity framework.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.06261v1">Improving the Privacy Loss Under User-Level DP Composition for Fixed
+  Estimation Error</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
+  <p><b>Published on:</b> 2024-05-10T06:24:35Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> V. Arvind Rameshwar, Anshoo Tandon</p>
+    <p><b>Summary:</b> This paper considers the private release of statistics of several disjoint
+subsets of a datasets, under user-level $\epsilon$-differential privacy (DP).
+In particular, we consider the user-level differentially private release of
+sample means and variances of speed values in several grids in a city, in a
+potentially sequential manner. Traditional analysis of the privacy loss due to
+the sequential composition of queries necessitates a privacy loss degradation
+by a factor that equals the total number of grids. Our main contribution is an
+iterative, instance-dependent algorithm, based on clipping the number of user
+contributions, which seeks to reduce the overall privacy loss degradation under
+a canonical Laplace mechanism, while not increasing the {worst} estimation
+error among the different grids. We test the performance of our algorithm on
+synthetic datasets and demonstrate improvements in the privacy loss degradation
+factor via our algorithm. We also demonstrate improvements in the worst-case
+error using a simple extension of a pseudo-user creation-based mechanism. An
+important component of this analysis is our exact characterization of the
+sensitivities and the worst-case estimation errors of sample means and
+variances incurred by clipping user contributions in an arbitrary fashion,
+which we believe is of independent interest.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2405.05930v1">Trustworthy AI-Generative Content in Intelligent 6G Network:
