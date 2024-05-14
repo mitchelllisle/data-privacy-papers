@@ -1483,7 +1483,7 @@ a clear overview for those beyond this specific research domain.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.06868v1">The 'Sandwich' meta-framework for architecture agnostic deep
+  <h3><a href="http://arxiv.org/abs/2404.06868v2">The Sandwich meta-framework for architecture agnostic deep
   privacy-preserving transfer learning for non-invasive brainwave decoding</a></h3>
   
   <p><b>Published on:</b> 2024-04-10T09:47:14Z</p>
@@ -1858,95 +1858,100 @@ as observed in label-based non-IID scenarios.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.05049v1">PlateSegFL: A Privacy-Preserving License Plate Detection Using Federated
-  Segmentation Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2024-04-07T19:10:02Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Md. Shahriar Rahman Anuvab, Mishkat Sultana, Md. Atif Hossain, Shashwata Das, Suvarthi Chowdhury, Rafeed Rahman, Dibyo Fabian Dofadar, Shahriar Rahman Rana</p>
-    <p><b>Summary:</b> Automatic License Plate Recognition (ALPR) is an integral component of an
-intelligent transport system with extensive applications in secure
-transportation, vehicle-to-vehicle communication, stolen vehicles detection,
-traffic violations, and traffic flow management. The existing license plate
-detection system focuses on one-shot learners or pre-trained models that
-operate with a geometric bounding box, limiting the model's performance.
-Furthermore, continuous video data streams uploaded to the central server
-result in network and complexity issues. To combat this, PlateSegFL was
-introduced, which implements U-Net-based segmentation along with Federated
-Learning (FL). U-Net is well-suited for multi-class image segmentation tasks
-because it can analyze a large number of classes and generate a pixel-level
-segmentation map for each class. Federated Learning is used to reduce the
-quantity of data required while safeguarding the user's privacy. Different
-computing platforms, such as mobile phones, are able to collaborate on the
-development of a standard prediction model where it makes efficient use of
-one's time; incorporates more diverse data; delivers projections in real-time;
-and requires no physical effort from the user; resulting around 95% F1 score.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.05047v1">Initial Exploration of Zero-Shot Privacy Utility Tradeoffs in Tabular
-  Data Using GPT-4</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-04-07T19:02:50Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Bishwas Mandal, George Amariucai, Shuangqing Wei</p>
-    <p><b>Summary:</b> We investigate the application of large language models (LLMs), specifically
-GPT-4, to scenarios involving the tradeoff between privacy and utility in
-tabular data. Our approach entails prompting GPT-4 by transforming tabular data
-points into textual format, followed by the inclusion of precise sanitization
-instructions in a zero-shot manner. The primary objective is to sanitize the
-tabular data in such a way that it hinders existing machine learning models
-from accurately inferring private features while allowing models to accurately
-infer utility-related attributes. We explore various sanitization instructions.
-Notably, we discover that this relatively simple approach yields performance
-comparable to more complex adversarial optimization methods used for managing
-privacy-utility tradeoffs. Furthermore, while the prompts successfully obscure
-private features from the detection capabilities of existing machine learning
-models, we observe that this obscuration alone does not necessarily meet a
-range of fairness metrics. Nevertheless, our research indicates the potential
-effectiveness of LLMs in adhering to these fairness metrics, with some of our
-experimental results aligning with those achieved by well-established
-adversarial optimization techniques.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.05043v1">Optimizing Privacy and Utility Tradeoffs for Group Interests Through
-  Harmonization</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-04-07T18:55:33Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Bishwas Mandal, George Amariucai, Shuangqing Wei</p>
-    <p><b>Summary:</b> We propose a novel problem formulation to address the privacy-utility
-tradeoff, specifically when dealing with two distinct user groups characterized
-by unique sets of private and utility attributes. Unlike previous studies that
-primarily focus on scenarios where all users share identical private and
-utility attributes and often rely on auxiliary datasets or manual annotations,
-we introduce a collaborative data-sharing mechanism between two user groups
-through a trusted third party. This third party uses adversarial privacy
-techniques with our proposed data-sharing mechanism to internally sanitize data
-for both groups and eliminates the need for manual annotation or auxiliary
-datasets. Our methodology ensures that private attributes cannot be accurately
-inferred while enabling highly accurate predictions of utility features.
-Importantly, even if analysts or adversaries possess auxiliary datasets
-containing raw data, they are unable to accurately deduce private features.
-Additionally, our data-sharing mechanism is compatible with various existing
-adversarially trained privacy techniques. We empirically demonstrate the
-effectiveness of our approach using synthetic and real-world datasets,
-showcasing its ability to balance the conflicting goals of privacy and utility.</p>
-  </details>
-</div>
-
-
 
 <h2>2024-05</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.07596v1">Local Mutual-Information Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
+  <p><b>Published on:</b> 2024-05-13T09:58:45Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Khac-Hoang Ngo, Johan Östman, Alexandre Graell i Amat</p>
+    <p><b>Summary:</b> Local mutual-information differential privacy (LMIDP) is a privacy notion
+that aims to quantify the reduction of uncertainty about the input data when
+the output of a privacy-preserving mechanism is revealed. We study the relation
+of LMIDP with local differential privacy (LDP), the de facto standard notion of
+privacy in context-independent (CI) scenarios, and with local information
+privacy (LIP), the state-of-the-art notion for context-dependent settings. We
+establish explicit conversion rules, i.e., bounds on the privacy parameters for
+a LMIDP mechanism to also satisfy LDP/LIP, and vice versa. We use our bounds to
+formally verify that LMIDP is a weak privacy notion. We also show that
+uncorrelated Gaussian noise is the best-case noise in terms of CI-LMIDP if both
+the input data and the noise are subject to an average power constraint.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.07440v1">Maximizing Information Gain in Privacy-Aware Active Learning of Email
+  Anomalies</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-05-13T02:58:59Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mu-Huan Miles Chung, Sharon Li, Jaturong Kongmanee, Lu Wang, Yuhong Yang, Calvin Giang, Khilan Jerath, Abhay Raman, David Lie, Mark Chignell</p>
+    <p><b>Summary:</b> Redacted emails satisfy most privacy requirements but they make it more
+difficult to detect anomalous emails that may be indicative of data
+exfiltration. In this paper we develop an enhanced method of Active Learning
+using an information gain maximizing heuristic, and we evaluate its
+effectiveness in a real world setting where only redacted versions of email
+could be labeled by human analysts due to privacy concerns. In the first case
+study we examined how Active Learning should be carried out. We found that
+model performance was best when a single highly skilled (in terms of the
+labelling task) analyst provided the labels. In the second case study we used
+confidence ratings to estimate the labeling uncertainty of analysts and then
+prioritized instances for labeling based on the expected information gain (the
+difference between model uncertainty and analyst uncertainty) that would be
+provided by labelling each instance. We found that the information maximization
+gain heuristic improved model performance over existing sampling methods for
+Active Learning. Based on the results obtained, we recommend that analysts
+should be screened, and possibly trained, prior to implementation of Active
+Learning in cybersecurity applications. We also recommend that the information
+gain maximizing sample method (based on expert confidence) should be used in
+early stages of Active Learning, providing that well-calibrated confidence can
+be obtained. We also note that the expertise of analysts should be assessed
+prior to Active Learning, as we found that analysts with lower labelling skill
+had poorly calibrated (over-) confidence in their labels.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.07020v1">Adaptive Online Bayesian Estimation of Frequency Distributions with
+  Local Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
+  <p><b>Published on:</b> 2024-05-11T13:59:52Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Soner Aydin, Sinan Yildirim</p>
+    <p><b>Summary:</b> We propose a novel Bayesian approach for the adaptive and online estimation
+of the frequency distribution of a finite number of categories under the local
+differential privacy (LDP) framework. The proposed algorithm performs Bayesian
+parameter estimation via posterior sampling and adapts the randomization
+mechanism for LDP based on the obtained posterior samples. We propose a
+randomized mechanism for LDP which uses a subset of categories as an input and
+whose performance depends on the selected subset and the true frequency
+distribution. By using the posterior sample as an estimate of the frequency
+distribution, the algorithm performs a computationally tractable subset
+selection step to maximize the utility of the privatized response of the next
+user. We propose several utility functions related to well-known information
+metrics, such as (but not limited to) Fisher information matrix, total
+variation distance, and information entropy. We compare each of these utility
+metrics in terms of their computational complexity. We employ stochastic
+gradient Langevin dynamics for posterior sampling, a computationally efficient
+approximate Markov chain Monte Carlo method. We provide a theoretical analysis
+showing that (i) the posterior distribution targeted by the algorithm converges
+to the true parameter even for approximate posterior sampling, and (ii) the
+algorithm selects the optimal subset with high probability if posterior
+sampling is performed exactly. We also provide numerical results that
+empirically demonstrate the estimation accuracy of our algorithm where we
+compare it with nonadaptive and semi-adaptive approaches under experimental
+settings with various combinations of privacy parameters and population
+distribution parameters.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2405.06307v1">Smooth Sensitivity for Geo-Privacy</a></h3>
