@@ -2399,5 +2399,26 @@
     "categories" : [
       "cs.HC"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2404.06868v2",
+    "title" : "The Sandwich meta-framework for architecture agnostic deep\n  privacy-preserving transfer learning for non-invasive brainwave decoding",
+    "summary" : "Machine learning has enhanced the performance of decoding signals indicating\nhuman behaviour. EEG decoding, as an exemplar indicating neural activity and\nhuman thoughts non-invasively, has been helpful in neural activity analysis and\naiding patients via brain-computer interfaces. However, training machine\nlearning algorithms on EEG encounters two primary challenges: variability\nacross data sets and privacy concerns using data from individuals and data\ncentres. Our objective is to address these challenges by integrating transfer\nlearning for data variability and federated learning for data privacy into a\nunified approach. We introduce the Sandwich as a novel deep privacy-preserving\nmeta-framework combining transfer learning and federated learning. The Sandwich\nframework comprises three components: federated networks (first layers) that\nhandle data set differences at the input level, a shared network (middle layer)\nlearning common rules and applying transfer learning, and individual\nclassifiers (final layers) for specific tasks of each data set. It enables the\ncentral network (central server) to benefit from multiple data sets, while\nlocal branches (local servers) maintain data and label privacy. We evaluated\nthe `Sandwich' meta-architecture in various configurations using the BEETL\nmotor imagery challenge, a benchmark for heterogeneous EEG data sets. Compared\nwith baseline models, our `Sandwich' implementations showed superior\nperformance. The best-performing model, the Inception Sandwich with deep set\nalignment (Inception-SD-Deepset), exceeded baseline methods by 9%. The\n`Sandwich' framework demonstrates significant advancements in federated deep\ntransfer learning for diverse tasks and data sets. It outperforms conventional\ndeep learning methods, showcasing the potential for effective use of larger,\nheterogeneous data sets with enhanced privacy as a model-agnostic\nmeta-framework.",
+    "updated" : "2024-05-13T13:57:52Z",
+    "published" : "2024-04-10T09:47:14Z",
+    "authors" : [
+      {
+        "name" : "Xiaoxi Wei"
+      },
+      {
+        "name" : "Jyotindra Narayan"
+      },
+      {
+        "name" : "A. Aldo Faisal"
+      }
+    ],
+    "categories" : [
+      "eess.SP"
+    ]
   }
 ]
