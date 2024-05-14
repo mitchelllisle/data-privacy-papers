@@ -940,5 +940,91 @@
       "cs.IT",
       "math.IT"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.07596v1",
+    "title" : "Local Mutual-Information Differential Privacy",
+    "summary" : "Local mutual-information differential privacy (LMIDP) is a privacy notion\nthat aims to quantify the reduction of uncertainty about the input data when\nthe output of a privacy-preserving mechanism is revealed. We study the relation\nof LMIDP with local differential privacy (LDP), the de facto standard notion of\nprivacy in context-independent (CI) scenarios, and with local information\nprivacy (LIP), the state-of-the-art notion for context-dependent settings. We\nestablish explicit conversion rules, i.e., bounds on the privacy parameters for\na LMIDP mechanism to also satisfy LDP/LIP, and vice versa. We use our bounds to\nformally verify that LMIDP is a weak privacy notion. We also show that\nuncorrelated Gaussian noise is the best-case noise in terms of CI-LMIDP if both\nthe input data and the noise are subject to an average power constraint.",
+    "updated" : "2024-05-13T09:58:45Z",
+    "published" : "2024-05-13T09:58:45Z",
+    "authors" : [
+      {
+        "name" : "Khac-Hoang Ngo"
+      },
+      {
+        "name" : "Johan Östman"
+      },
+      {
+        "name" : "Alexandre Graell i Amat"
+      }
+    ],
+    "categories" : [
+      "cs.IT",
+      "math.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.07440v1",
+    "title" : "Maximizing Information Gain in Privacy-Aware Active Learning of Email\n  Anomalies",
+    "summary" : "Redacted emails satisfy most privacy requirements but they make it more\ndifficult to detect anomalous emails that may be indicative of data\nexfiltration. In this paper we develop an enhanced method of Active Learning\nusing an information gain maximizing heuristic, and we evaluate its\neffectiveness in a real world setting where only redacted versions of email\ncould be labeled by human analysts due to privacy concerns. In the first case\nstudy we examined how Active Learning should be carried out. We found that\nmodel performance was best when a single highly skilled (in terms of the\nlabelling task) analyst provided the labels. In the second case study we used\nconfidence ratings to estimate the labeling uncertainty of analysts and then\nprioritized instances for labeling based on the expected information gain (the\ndifference between model uncertainty and analyst uncertainty) that would be\nprovided by labelling each instance. We found that the information maximization\ngain heuristic improved model performance over existing sampling methods for\nActive Learning. Based on the results obtained, we recommend that analysts\nshould be screened, and possibly trained, prior to implementation of Active\nLearning in cybersecurity applications. We also recommend that the information\ngain maximizing sample method (based on expert confidence) should be used in\nearly stages of Active Learning, providing that well-calibrated confidence can\nbe obtained. We also note that the expertise of analysts should be assessed\nprior to Active Learning, as we found that analysts with lower labelling skill\nhad poorly calibrated (over-) confidence in their labels.",
+    "updated" : "2024-05-13T02:58:59Z",
+    "published" : "2024-05-13T02:58:59Z",
+    "authors" : [
+      {
+        "name" : "Mu-Huan Miles Chung"
+      },
+      {
+        "name" : "Sharon Li"
+      },
+      {
+        "name" : "Jaturong Kongmanee"
+      },
+      {
+        "name" : "Lu Wang"
+      },
+      {
+        "name" : "Yuhong Yang"
+      },
+      {
+        "name" : "Calvin Giang"
+      },
+      {
+        "name" : "Khilan Jerath"
+      },
+      {
+        "name" : "Abhay Raman"
+      },
+      {
+        "name" : "David Lie"
+      },
+      {
+        "name" : "Mark Chignell"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.07020v1",
+    "title" : "Adaptive Online Bayesian Estimation of Frequency Distributions with\n  Local Differential Privacy",
+    "summary" : "We propose a novel Bayesian approach for the adaptive and online estimation\nof the frequency distribution of a finite number of categories under the local\ndifferential privacy (LDP) framework. The proposed algorithm performs Bayesian\nparameter estimation via posterior sampling and adapts the randomization\nmechanism for LDP based on the obtained posterior samples. We propose a\nrandomized mechanism for LDP which uses a subset of categories as an input and\nwhose performance depends on the selected subset and the true frequency\ndistribution. By using the posterior sample as an estimate of the frequency\ndistribution, the algorithm performs a computationally tractable subset\nselection step to maximize the utility of the privatized response of the next\nuser. We propose several utility functions related to well-known information\nmetrics, such as (but not limited to) Fisher information matrix, total\nvariation distance, and information entropy. We compare each of these utility\nmetrics in terms of their computational complexity. We employ stochastic\ngradient Langevin dynamics for posterior sampling, a computationally efficient\napproximate Markov chain Monte Carlo method. We provide a theoretical analysis\nshowing that (i) the posterior distribution targeted by the algorithm converges\nto the true parameter even for approximate posterior sampling, and (ii) the\nalgorithm selects the optimal subset with high probability if posterior\nsampling is performed exactly. We also provide numerical results that\nempirically demonstrate the estimation accuracy of our algorithm where we\ncompare it with nonadaptive and semi-adaptive approaches under experimental\nsettings with various combinations of privacy parameters and population\ndistribution parameters.",
+    "updated" : "2024-05-11T13:59:52Z",
+    "published" : "2024-05-11T13:59:52Z",
+    "authors" : [
+      {
+        "name" : "Soner Aydin"
+      },
+      {
+        "name" : "Sinan Yildirim"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "stat.ML"
+    ]
   }
 ]
