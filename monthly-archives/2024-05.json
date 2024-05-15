@@ -1026,5 +1026,139 @@
       "cs.CR",
       "stat.ML"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.08801v1",
+    "title" : "Prospects of Privacy Advantage in Quantum Machine Learning",
+    "summary" : "Ensuring data privacy in machine learning models is critical, particularly in\ndistributed settings where model gradients are typically shared among multiple\nparties to allow collaborative learning. Motivated by the increasing success of\nrecovering input data from the gradients of classical models, this study\naddresses a central question: How hard is it to recover the input data from the\ngradients of quantum machine learning models? Focusing on variational quantum\ncircuits (VQC) as learning models, we uncover the crucial role played by the\ndynamical Lie algebra (DLA) of the VQC ansatz in determining privacy\nvulnerabilities. While the DLA has previously been linked to the classical\nsimulatability and trainability of VQC models, this work, for the first time,\nestablishes its connection to the privacy of VQC models. In particular, we show\nthat properties conducive to the trainability of VQCs, such as a\npolynomial-sized DLA, also facilitate the extraction of detailed snapshots of\nthe input. We term this a weak privacy breach, as the snapshots enable training\nVQC models for distinct learning tasks without direct access to the original\ninput. Further, we investigate the conditions for a strong privacy breach where\nthe original input data can be recovered from these snapshots by classical or\nquantum-assisted polynomial time methods. We establish conditions on the\nencoding map such as classical simulatability, overlap with DLA basis, and its\nFourier frequency characteristics that enable such a privacy breach of VQC\nmodels. Our findings thus play a crucial role in detailing the prospects of\nquantum privacy advantage by guiding the requirements for designing quantum\nmachine learning models that balance trainability with robust privacy\nprotection.",
+    "updated" : "2024-05-14T17:49:18Z",
+    "published" : "2024-05-14T17:49:18Z",
+    "authors" : [
+      {
+        "name" : "Jamie Heredge"
+      },
+      {
+        "name" : "Niraj Kumar"
+      },
+      {
+        "name" : "Dylan Herman"
+      },
+      {
+        "name" : "Shouvanik Chakrabarti"
+      },
+      {
+        "name" : "Romina Yalovetzky"
+      },
+      {
+        "name" : "Shree Hari Sureshbabu"
+      },
+      {
+        "name" : "Marco Pistoia"
+      }
+    ],
+    "categories" : [
+      "quant-ph",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.08698v1",
+    "title" : "Byzantine-Resilient Secure Aggregation for Federated Learning Without\n  Privacy Compromises",
+    "summary" : "Federated learning (FL) shows great promise in large scale machine learning,\nbut brings new risks in terms of privacy and security. We propose ByITFL, a\nnovel scheme for FL that provides resilience against Byzantine users while\nkeeping the users' data private from the federator and private from other\nusers. The scheme builds on the preexisting non-private FLTrust scheme, which\ntolerates malicious users through trust scores (TS) that attenuate or amplify\nthe users' gradients. The trust scores are based on the ReLU function, which we\napproximate by a polynomial. The distributed and privacy-preserving computation\nin ByITFL is designed using a combination of Lagrange coded computing,\nverifiable secret sharing and re-randomization steps. ByITFL is the first\nByzantine resilient scheme for FL with full information-theoretic privacy.",
+    "updated" : "2024-05-14T15:37:56Z",
+    "published" : "2024-05-14T15:37:56Z",
+    "authors" : [
+      {
+        "name" : "Yue Xia"
+      },
+      {
+        "name" : "Christoph Hofmeister"
+      },
+      {
+        "name" : "Maximilian Egger"
+      },
+      {
+        "name" : "Rawad Bitar"
+      }
+    ],
+    "categories" : [
+      "cs.IT",
+      "cs.CR",
+      "cs.DC",
+      "cs.LG",
+      "math.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.08518v1",
+    "title" : "Cryptography-Based Privacy-Preserving Method for Distributed\n  Optimization over Time-Varying Directed Graphs with Enhanced Efficiency",
+    "summary" : "In this paper, we study the privacy-preserving distributed optimization\nproblem, aiming to prevent attackers from stealing the private information of\nagents. For this purpose, we propose a novel privacy-preserving algorithm based\non the Advanced Encryption Standard (AES), which is both secure and\ncomputationally efficient. By appropriately constructing the underlying weight\nmatrices, our algorithm can be applied to time-varying directed networks. We\nshow that the proposed algorithm can protect an agent's privacy if the agent\nhas at least one legitimate neighbor at the initial iteration. Under the\nassumption that the objective function is strongly convex and Lipschitz smooth,\nwe rigorously prove that the proposed algorithm has a linear convergence rate.\nFinally, the effectiveness of the proposed algorithm is demonstrated by\nnumerical simulations of the canonical sensor fusion problem.",
+    "updated" : "2024-05-14T11:48:59Z",
+    "published" : "2024-05-14T11:48:59Z",
+    "authors" : [
+      {
+        "name" : "Bing Liu"
+      },
+      {
+        "name" : "Furan Xie"
+      },
+      {
+        "name" : "Li Chai"
+      }
+    ],
+    "categories" : [
+      "math.OC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.08356v1",
+    "title" : "A Model-oriented Reasoning Framework for Privacy Analysis of Complex\n  Systems",
+    "summary" : "This paper proposes a reasoning framework for privacy properties of systems\nand their environments that can capture any knowledge leaks on different\nlogical levels of the system to answer the question: which entity can learn\nwhat? With the term knowledge we refer to any kind of data, meta-data or\ninterpretation of those that might be relevant. To achieve this, we present a\nmodeling framework that forces the developers to explicitly describe which\nknowledge is available at which entity, which knowledge flows between entities\nand which knowledge can be inferred from other knowledge. In addition, privacy\nrequirements are specified as rules describing forbidden knowledge for\nentities. Our modeling approach is incremental, starting from an abstract view\nof the system and adding details through well-defined transformations. This\nwork is intended to complement existing approaches and introduces steps towards\nmore formal foundations for privacy oriented analyses while keeping them as\naccessible as possible. It is designed to be extensible through schemata and\nvocabulary to enable compatibility with external requirements and standards.",
+    "updated" : "2024-05-14T06:52:56Z",
+    "published" : "2024-05-14T06:52:56Z",
+    "authors" : [
+      {
+        "name" : "Sebastian Rehms"
+      },
+      {
+        "name" : "Stefan Köpsell"
+      },
+      {
+        "name" : "Verena Klös"
+      },
+      {
+        "name" : "Florian Tschorsch"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.08084v1",
+    "title" : "PrivFED -- A Framework for Privacy-Preserving Federated Learning in\n  Enhanced Breast Cancer Diagnosis",
+    "summary" : "In the day-to-day operations of healthcare institutions, a multitude of\nPersonally Identifiable Information (PII) data exchanges occur, exposing the\ndata to a spectrum of cybersecurity threats. This study introduces a federated\nlearning framework, trained on the Wisconsin dataset, to mitigate challenges\nsuch as data scarcity and imbalance. Techniques like the Synthetic Minority\nOver-sampling Technique (SMOTE) are incorporated to bolster robustness, while\nisolation forests are employed to fortify the model against outliers. Catboost\nserves as the classification tool across all devices. The identification of\noptimal features for heightened accuracy is pursued through Principal Component\nAnalysis (PCA),accentuating the significance of hyperparameter tuning, as\nunderscored in a comparative analysis. The model exhibits an average accuracy\nof 99.95% on edge devices and 98% on the central server.",
+    "updated" : "2024-05-13T18:01:57Z",
+    "published" : "2024-05-13T18:01:57Z",
+    "authors" : [
+      {
+        "name" : "Maithili Jha"
+      },
+      {
+        "name" : "S. Maitri"
+      },
+      {
+        "name" : "M. Lohithdakshan"
+      },
+      {
+        "name" : "Shiny Duela J"
+      },
+      {
+        "name" : "K. Raja"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
