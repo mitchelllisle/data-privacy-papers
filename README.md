@@ -1705,161 +1705,141 @@ the promising areas that necessitate further exploration.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.05876v1">Privacy and Security of Women's Reproductive Health Apps in a Changing
-  Legal Landscape</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E">
-  <p><b>Published on:</b> 2024-04-08T21:19:10Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shalini Saini, Nitesh Saxena</p>
-    <p><b>Summary:</b> FemTech, a rising trend in mobile apps, empowers women to digitally manage
-their health and family planning. However, privacy and security vulnerabilities
-in period-tracking and fertility-monitoring apps present significant risks,
-such as unintended pregnancies and legal consequences. Our approach involves
-manual observations of privacy policies and app permissions, along with dynamic
-and static analysis using multiple evaluation frameworks. Our research reveals
-that many of these apps gather personally identifiable information (PII) and
-sensitive healthcare data. Furthermore, our analysis identifies that 61% of the
-code vulnerabilities found in the apps are classified under the top-ten Open
-Web Application Security Project (OWASP) vulnerabilities. Our research
-emphasizes the significance of tackling the privacy and security
-vulnerabilities present in period-tracking and fertility-monitoring mobile
-apps. By highlighting these crucial risks, we aim to initiate a vital
-discussion and advocate for increased accountability and transparency of
-digital tools for women's health. We encourage the industry to prioritize user
-privacy and security, ultimately promoting a safer and more secure environment
-for women's health management.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.05828v1">Privacy-Preserving Deep Learning Using Deformable Operators for Secure
-  Task Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
-  <p><b>Published on:</b> 2024-04-08T19:46:20Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Fabian Perez, Jhon Lopez, Henry Arguello</p>
-    <p><b>Summary:</b> In the era of cloud computing and data-driven applications, it is crucial to
-protect sensitive information to maintain data privacy, ensuring truly reliable
-systems. As a result, preserving privacy in deep learning systems has become a
-critical concern. Existing methods for privacy preservation rely on image
-encryption or perceptual transformation approaches. However, they often suffer
-from reduced task performance and high computational costs. To address these
-challenges, we propose a novel Privacy-Preserving framework that uses a set of
-deformable operators for secure task learning. Our method involves shuffling
-pixels during the analog-to-digital conversion process to generate visually
-protected data. Those are then fed into a well-known network enhanced with
-deformable operators. Using our approach, users can achieve equivalent
-performance to original images without additional training using a secret key.
-Moreover, our method enables access control against unauthorized users.
-Experimental results demonstrate the efficacy of our approach, showcasing its
-potential in cloud-based scenarios and privacy-sensitive applications.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.05598v1">Hook-in Privacy Techniques for gRPC-based Microservice Communication</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
-  <p><b>Published on:</b> 2024-04-08T15:18:42Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Louis Loechel, Siar-Remzi Akbayin, Elias Grünewald, Jannis Kiesel, Inga Strelnikova, Thomas Janke, Frank Pallas</p>
-    <p><b>Summary:</b> gRPC is at the heart of modern distributed system architectures. Based on
-HTTP/2 and Protocol Buffers, it provides highly performant, standardized, and
-polyglot communication across loosely coupled microservices and is increasingly
-preferred over REST- or GraphQL-based service APIs in practice. Despite its
-widespread adoption, gRPC lacks any advanced privacy techniques beyond
-transport encryption and basic token-based authentication. Such advanced
-techniques are, however, increasingly important for fulfilling regulatory
-requirements. For instance, anonymizing or otherwise minimizing (personal) data
-before responding to requests, or pre-processing data based on the purpose of
-the access may be crucial in certain usecases. In this paper, we therefore
-propose a novel approach for integrating such advanced privacy techniques into
-the gRPC framework in a practically viable way. Specifically, we present a
-general approach along with a working prototype that implements privacy
-techniques, such as data minimization and purpose limitation, in a
-configurable, extensible, and gRPC-native way utilizing a gRPC interceptor. We
-also showcase how to integrate this contribution into a realistic example of a
-food delivery use case. Alongside these implementations, a preliminary
-performance evaluation shows practical applicability with reasonable overheads.
-Altogether, we present a viable solution for integrating advanced privacy
-techniques into real-world gRPC-based microservice architectures, thereby
-facilitating regulatory compliance ``by design''.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.05257v1">Sensing-Resistance-Oriented Beamforming for Privacy Protection from ISAC
-  Devices</a></h3>
-  
-  <p><b>Published on:</b> 2024-04-08T07:45:10Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Teng Ma, Yue Xiao, Xia Lei, Ming Xiao</p>
-    <p><b>Summary:</b> With the evolution of integrated sensing and communication (ISAC) technology,
-a growing number of devices go beyond conventional communication functions with
-sensing abilities. Therefore, future networks are divinable to encounter new
-privacy concerns on sensing, such as the exposure of position information to
-unintended receivers. In contrast to traditional privacy preserving schemes
-aiming to prevent eavesdropping, this contribution conceives a novel
-beamforming design toward sensing resistance (SR). Specifically, we expect to
-guarantee the communication quality while masking the real direction of the SR
-transmitter during the communication. To evaluate the SR performance, a metric
-termed angular-domain peak-to-average ratio (ADPAR) is first defined and
-analyzed. Then, we resort to the null-space technique to conceal the real
-direction, hence to convert the optimization problem to a more tractable form.
-Moreover, semidefinite relaxation along with index optimization is further
-utilized to obtain the optimal beamformer. Finally, simulation results
-demonstrate the feasibility of the proposed SR-oriented beamforming design
-toward privacy protection from ISAC receivers.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.05130v1">Enabling Privacy-Preserving Cyber Threat Detection with Federated
-  Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-04-08T01:16:56Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yu Bi, Yekai Li, Xuan Feng, Xianghang Mi</p>
-    <p><b>Summary:</b> Despite achieving good performance and wide adoption, machine learning based
-security detection models (e.g., malware classifiers) are subject to concept
-drift and evasive evolution of attackers, which renders up-to-date threat data
-as a necessity. However, due to enforcement of various privacy protection
-regulations (e.g., GDPR), it is becoming increasingly challenging or even
-prohibitive for security vendors to collect individual-relevant and
-privacy-sensitive threat datasets, e.g., SMS spam/non-spam messages from mobile
-devices. To address such obstacles, this study systematically profiles the
-(in)feasibility of federated learning for privacy-preserving cyber threat
-detection in terms of effectiveness, byzantine resilience, and efficiency. This
-is made possible by the build-up of multiple threat datasets and threat
-detection models, and more importantly, the design of realistic and
-security-specific experiments.
-  We evaluate FL on two representative threat detection tasks, namely SMS spam
-detection and Android malware detection. It shows that FL-trained detection
-models can achieve a performance that is comparable to centrally trained
-counterparts. Also, most non-IID data distributions have either minor or
-negligible impact on the model performance, while a label-based non-IID
-distribution of a high extent can incur non-negligible fluctuation and delay in
-FL training. Then, under a realistic threat model, FL turns out to be
-adversary-resistant to attacks of both data poisoning and model poisoning.
-Particularly, the attacking impact of a practical data poisoning attack is no
-more than 0.14\% loss in model accuracy. Regarding FL efficiency, a
-bootstrapping strategy turns out to be effective to mitigate the training delay
-as observed in label-based non-IID scenarios.</p>
-  </details>
-</div>
-
-
 
 <h2>2024-05</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.08801v1">Prospects of Privacy Advantage in Quantum Machine Learning</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-05-14T17:49:18Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jamie Heredge, Niraj Kumar, Dylan Herman, Shouvanik Chakrabarti, Romina Yalovetzky, Shree Hari Sureshbabu, Marco Pistoia</p>
+    <p><b>Summary:</b> Ensuring data privacy in machine learning models is critical, particularly in
+distributed settings where model gradients are typically shared among multiple
+parties to allow collaborative learning. Motivated by the increasing success of
+recovering input data from the gradients of classical models, this study
+addresses a central question: How hard is it to recover the input data from the
+gradients of quantum machine learning models? Focusing on variational quantum
+circuits (VQC) as learning models, we uncover the crucial role played by the
+dynamical Lie algebra (DLA) of the VQC ansatz in determining privacy
+vulnerabilities. While the DLA has previously been linked to the classical
+simulatability and trainability of VQC models, this work, for the first time,
+establishes its connection to the privacy of VQC models. In particular, we show
+that properties conducive to the trainability of VQCs, such as a
+polynomial-sized DLA, also facilitate the extraction of detailed snapshots of
+the input. We term this a weak privacy breach, as the snapshots enable training
+VQC models for distinct learning tasks without direct access to the original
+input. Further, we investigate the conditions for a strong privacy breach where
+the original input data can be recovered from these snapshots by classical or
+quantum-assisted polynomial time methods. We establish conditions on the
+encoding map such as classical simulatability, overlap with DLA basis, and its
+Fourier frequency characteristics that enable such a privacy breach of VQC
+models. Our findings thus play a crucial role in detailing the prospects of
+quantum privacy advantage by guiding the requirements for designing quantum
+machine learning models that balance trainability with robust privacy
+protection.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.08698v1">Byzantine-Resilient Secure Aggregation for Federated Learning Without
+  Privacy Compromises</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
+  <p><b>Published on:</b> 2024-05-14T15:37:56Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yue Xia, Christoph Hofmeister, Maximilian Egger, Rawad Bitar</p>
+    <p><b>Summary:</b> Federated learning (FL) shows great promise in large scale machine learning,
+but brings new risks in terms of privacy and security. We propose ByITFL, a
+novel scheme for FL that provides resilience against Byzantine users while
+keeping the users' data private from the federator and private from other
+users. The scheme builds on the preexisting non-private FLTrust scheme, which
+tolerates malicious users through trust scores (TS) that attenuate or amplify
+the users' gradients. The trust scores are based on the ReLU function, which we
+approximate by a polynomial. The distributed and privacy-preserving computation
+in ByITFL is designed using a combination of Lagrange coded computing,
+verifiable secret sharing and re-randomization steps. ByITFL is the first
+Byzantine resilient scheme for FL with full information-theoretic privacy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.08518v1">Cryptography-Based Privacy-Preserving Method for Distributed
+  Optimization over Time-Varying Directed Graphs with Enhanced Efficiency</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Optimization and Control-F9C80E">
+  <p><b>Published on:</b> 2024-05-14T11:48:59Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Bing Liu, Furan Xie, Li Chai</p>
+    <p><b>Summary:</b> In this paper, we study the privacy-preserving distributed optimization
+problem, aiming to prevent attackers from stealing the private information of
+agents. For this purpose, we propose a novel privacy-preserving algorithm based
+on the Advanced Encryption Standard (AES), which is both secure and
+computationally efficient. By appropriately constructing the underlying weight
+matrices, our algorithm can be applied to time-varying directed networks. We
+show that the proposed algorithm can protect an agent's privacy if the agent
+has at least one legitimate neighbor at the initial iteration. Under the
+assumption that the objective function is strongly convex and Lipschitz smooth,
+we rigorously prove that the proposed algorithm has a linear convergence rate.
+Finally, the effectiveness of the proposed algorithm is demonstrated by
+numerical simulations of the canonical sensor fusion problem.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.08356v1">A Model-oriented Reasoning Framework for Privacy Analysis of Complex
+  Systems</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-05-14T06:52:56Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Sebastian Rehms, Stefan Köpsell, Verena Klös, Florian Tschorsch</p>
+    <p><b>Summary:</b> This paper proposes a reasoning framework for privacy properties of systems
+and their environments that can capture any knowledge leaks on different
+logical levels of the system to answer the question: which entity can learn
+what? With the term knowledge we refer to any kind of data, meta-data or
+interpretation of those that might be relevant. To achieve this, we present a
+modeling framework that forces the developers to explicitly describe which
+knowledge is available at which entity, which knowledge flows between entities
+and which knowledge can be inferred from other knowledge. In addition, privacy
+requirements are specified as rules describing forbidden knowledge for
+entities. Our modeling approach is incremental, starting from an abstract view
+of the system and adding details through well-defined transformations. This
+work is intended to complement existing approaches and introduces steps towards
+more formal foundations for privacy oriented analyses while keeping them as
+accessible as possible. It is designed to be extensible through schemata and
+vocabulary to enable compatibility with external requirements and standards.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.08084v1">PrivFED -- A Framework for Privacy-Preserving Federated Learning in
+  Enhanced Breast Cancer Diagnosis</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-05-13T18:01:57Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Maithili Jha, S. Maitri, M. Lohithdakshan, Shiny Duela J, K. Raja</p>
+    <p><b>Summary:</b> In the day-to-day operations of healthcare institutions, a multitude of
+Personally Identifiable Information (PII) data exchanges occur, exposing the
+data to a spectrum of cybersecurity threats. This study introduces a federated
+learning framework, trained on the Wisconsin dataset, to mitigate challenges
+such as data scarcity and imbalance. Techniques like the Synthetic Minority
+Over-sampling Technique (SMOTE) are incorporated to bolster robustness, while
+isolation forests are employed to fortify the model against outliers. Catboost
+serves as the classification tool across all devices. The identification of
+optimal features for heightened accuracy is pursued through Principal Component
+Analysis (PCA),accentuating the significance of hyperparameter tuning, as
+underscored in a comparative analysis. The model exhibits an average accuracy
+of 99.95% on edge devices and 98% on the central server.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2405.07596v1">Local Mutual-Information Differential Privacy</a></h3>
