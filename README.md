@@ -179,7 +179,7 @@ preserving high training accuracy.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.00725v1">Federated Learning and Differential Privacy Techniques on Multi-hospital
+  <h3><a href="http://arxiv.org/abs/2405.00725v2">Federated Learning and Differential Privacy Techniques on Multi-hospital
   Population-scale Electrocardiogram Data</a></h3>
    <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2024-04-26T19:29:48Z</p>
@@ -1550,171 +1550,158 @@ showcases SLAPP's security and low overhead.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.06686v1">Atlas-X Equity Financing: Unlocking New Methods to Securely Obfuscate
-  Axe Inventory Data Based on Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-04-10T02:19:37Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Antigoni Polychroniadou, Gabriele Cipriani, Richard Hua, Tucker Balch</p>
-    <p><b>Summary:</b> Banks publish daily a list of available securities/assets (axe list) to
-selected clients to help them effectively locate Long (buy) or Short (sell)
-trades at reduced financing rates. This reduces costs for the bank, as the list
-aggregates the bank's internal firm inventory per asset for all clients of long
-as well as short trades. However, this is somewhat problematic: (1) the bank's
-inventory is revealed; (2) trades of clients who contribute to the aggregated
-list, particularly those deemed large, are revealed to other clients. Clients
-conducting sizable trades with the bank and possessing a portion of the
-aggregated asset exceeding $50\%$ are considered to be concentrated clients.
-This could potentially reveal a trading concentrated client's activity to their
-competitors, thus providing an unfair advantage over the market.
-  Atlas-X Axe Obfuscation, powered by new differential private methods, enables
-a bank to obfuscate its published axe list on a daily basis while under
-continual observation, thus maintaining an acceptable inventory Profit and Loss
-(P&L) cost pertaining to the noisy obfuscated axe list while reducing the
-clients' trading activity leakage. Our main differential private innovation is
-a differential private aggregator for streams (time series data) of both
-positive and negative integers under continual observation.
-  For the last two years, Atlas-X system has been live in production across
-three major regions-USA, Europe, and Asia-at J.P. Morgan, a major financial
-institution, facilitating significant profitability. To our knowledge, it is
-the first differential privacy solution to be deployed in the financial sector.
-We also report benchmarks of our algorithm based on (anonymous) real and
-synthetic data to showcase the quality of our obfuscation and its success in
-production.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.06216v1">Privacy-preserving Scanpath Comparison for Pervasive Eye Tracking</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2024-04-09T11:07:57Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Suleyman Ozdel, Efe Bozkir, Enkelejda Kasneci</p>
-    <p><b>Summary:</b> As eye tracking becomes pervasive with screen-based devices and head-mounted
-displays, privacy concerns regarding eye-tracking data have escalated. While
-state-of-the-art approaches for privacy-preserving eye tracking mostly involve
-differential privacy and empirical data manipulations, previous research has
-not focused on methods for scanpaths. We introduce a novel privacy-preserving
-scanpath comparison protocol designed for the widely used Needleman-Wunsch
-algorithm, a generalized version of the edit distance algorithm. Particularly,
-by incorporating the Paillier homomorphic encryption scheme, our protocol
-ensures that no private information is revealed. Furthermore, we introduce a
-random processing strategy and a multi-layered masking method to obfuscate the
-values while preserving the original order of encrypted editing operation
-costs. This minimizes communication overhead, requiring a single communication
-round for each iteration of the Needleman-Wunsch process. We demonstrate the
-efficiency and applicability of our protocol on three publicly available
-datasets with comprehensive computational performance analyses and make our
-source code publicly accessible.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.06144v1">Differential Privacy for Anomaly Detection: Analyzing the Trade-off
-  Between Privacy and Explainability</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2024-04-09T09:09:36Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Fatima Ezzeddine, Mirna Saad, Omran Ayoub, Davide Andreoletti, Martin Gjoreski, Ihab Sbeity, Marc Langheinrich, Silvia Giordano</p>
-    <p><b>Summary:</b> Anomaly detection (AD), also referred to as outlier detection, is a
-statistical process aimed at identifying observations within a dataset that
-significantly deviate from the expected pattern of the majority of the data.
-Such a process finds wide application in various fields, such as finance and
-healthcare. While the primary objective of AD is to yield high detection
-accuracy, the requirements of explainability and privacy are also paramount.
-The first ensures the transparency of the AD process, while the second
-guarantees that no sensitive information is leaked to untrusted parties. In
-this work, we exploit the trade-off of applying Explainable AI (XAI) through
-SHapley Additive exPlanations (SHAP) and differential privacy (DP). We perform
-AD with different models and on various datasets, and we thoroughly evaluate
-the cost of privacy in terms of decreased accuracy and explainability. Our
-results show that the enforcement of privacy through DP has a significant
-impact on detection accuracy and explainability, which depends on both the
-dataset and the considered AD model. We further show that the visual
-interpretation of explanations is also influenced by the choice of the AD
-algorithm.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.08686v1">Extractive text summarisation of Privacy Policy documents using machine
-  learning approaches</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-04-09T04:54:08Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Chanwoo Choi</p>
-    <p><b>Summary:</b> This work demonstrates two Privacy Policy (PP) summarisation models based on
-two different clustering algorithms: K-means clustering and Pre-determined
-Centroid (PDC) clustering. K-means is decided to be used for the first model
-after an extensive evaluation of ten commonly used clustering algorithms. The
-summariser model based on the PDC-clustering algorithm summarises PP documents
-by segregating individual sentences by Euclidean distance from each sentence to
-the pre-defined cluster centres. The cluster centres are defined according to
-General Data Protection Regulation (GDPR)'s 14 essential topics that must be
-included in any privacy notices. The PDC model outperformed the K-means model
-for two evaluation methods, Sum of Squared Distance (SSD) and ROUGE by some
-margin (27% and 24% respectively). This result contrasts the K-means model's
-better performance in the general clustering of sentence vectors before running
-the task-specific evaluation. This indicates the effectiveness of operating
-task-specific fine-tuning measures on unsupervised machine-learning models. The
-summarisation mechanisms implemented in this paper demonstrates an idea of how
-to efficiently extract essential sentences that should be included in any PP
-documents. The summariser models could be further developed to an application
-that tests the GDPR-compliance (or any data privacy legislation) of PP
-documents.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.06001v2">Privacy Preserving Prompt Engineering: A Survey</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2024-04-09T04:11:25Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Kennedy Edemacu, Xintao Wu</p>
-    <p><b>Summary:</b> Pre-trained language models (PLMs) have demonstrated significant proficiency
-in solving a wide range of general natural language processing (NLP) tasks.
-Researchers have observed a direct correlation between the performance of these
-models and their sizes. As a result, the sizes of these models have notably
-expanded in recent years, persuading researchers to adopt the term large
-language models (LLMs) to characterize the larger-sized PLMs. The size
-expansion comes with a distinct capability called in-context learning (ICL),
-which represents a special form of prompting and allows the models to be
-utilized through the presentation of demonstration examples without
-modifications to the model parameters. Although interesting, privacy concerns
-have become a major obstacle in its widespread usage. Multiple studies have
-examined the privacy risks linked to ICL and prompting in general, and have
-devised techniques to alleviate these risks. Thus, there is a necessity to
-organize these mitigation techniques for the benefit of the community. This
-survey provides a systematic overview of the privacy protection methods
-employed during ICL and prompting in general. We review, analyze, and compare
-different methods under this paradigm. Furthermore, we provide a summary of the
-resources accessible for the development of these frameworks. Finally, we
-discuss the limitations of these frameworks and offer a detailed examination of
-the promising areas that necessitate further exploration.</p>
-  </details>
-</div>
-
-
 
 <h2>2024-05</h2>
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.08801v1">Prospects of Privacy Advantage in Quantum Machine Learning</a></h3>
+  <h3><a href="http://arxiv.org/abs/2405.09306v1">Words Blending Boxes. Obfuscating Queries in Information Retrieval using
+  Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-05-15T12:51:36Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Francesco Luigi De Faveri, Guglielmo Faggioli, Nicola Ferro</p>
+    <p><b>Summary:</b> Ensuring the effectiveness of search queries while protecting user privacy
+remains an open issue. When an Information Retrieval System (IRS) does not
+protect the privacy of its users, sensitive information may be disclosed
+through the queries sent to the system. Recent improvements, especially in NLP,
+have shown the potential of using Differential Privacy to obfuscate texts while
+maintaining satisfactory effectiveness. However, such approaches may protect
+the user's privacy only from a theoretical perspective while, in practice, the
+real user's information need can still be inferred if perturbed terms are too
+semantically similar to the original ones. We overcome such limitations by
+proposing Word Blending Boxes, a novel differentially private mechanism for
+query obfuscation, which protects the words in the user queries by employing
+safe boxes. To measure the overall effectiveness of the proposed WBB mechanism,
+we measure the privacy obtained by the obfuscation process, i.e., the lexical
+and semantic similarity between original and obfuscated queries. Moreover, we
+assess the effectiveness of the privatized queries in retrieving relevant
+documents from the IRS. Our findings indicate that WBB can be integrated
+effectively into existing IRSs, offering a key to the challenge of protecting
+user privacy from both a theoretical and a practical point of view.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.09234v1">Enhancing Image Privacy in Semantic Communication over Wiretap Channels
+  leveraging Differential Privacy</a></h3>
+  
+  <p><b>Published on:</b> 2024-05-15T10:30:18Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Weixuan Chen, Shunpu Tang, Qianqian Yang</p>
+    <p><b>Summary:</b> Semantic communication (SemCom) enhances transmission efficiency by sending
+only task-relevant information compared to traditional methods. However,
+transmitting semantic-rich data over insecure or public channels poses security
+and privacy risks. This paper addresses the privacy problem of transmitting
+images over wiretap channels and proposes a novel SemCom approach ensuring
+privacy through a differential privacy (DP)-based image protection and
+deprotection mechanism. The method utilizes the GAN inversion technique to
+extract disentangled semantic features and applies a DP mechanism to protect
+sensitive features within the extracted semantic information. To address the
+non-invertibility of DP, we introduce two neural networks to approximate the DP
+application and removal processes, offering a privacy protection level close to
+that by the original DP process. Simulation results validate the effectiveness
+of our method in preventing eavesdroppers from obtaining sensitive information
+while maintaining high-fidelity image reconstruction at the legitimate
+receiver.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.09230v1">Reduce to the MACs -- Privacy Friendly Generic Probe Requests</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
+  <p><b>Published on:</b> 2024-05-15T10:18:30Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Johanna Ansohn McDougall, Alessandro Brighente, Anne Kunstmann, Niklas Zapatka, Hannes Federrath</p>
+    <p><b>Summary:</b> Abstract. Since the introduction of active discovery in Wi-Fi networks, users
+can be tracked via their probe requests. Although manufacturers typically try
+to conceal Media Access Control (MAC) addresses using MAC address
+randomisation, probe requests still contain Information Elements (IEs) that
+facilitate device identification. This paper introduces generic probe requests:
+By removing all unnecessary information from IEs, the requests become
+indistinguishable from one another, letting single devices disappear in the
+largest possible anonymity set. Conducting a comprehensive evaluation, we
+demonstrate that a large IE set contained within undirected probe requests does
+not necessarily imply fast connection establishment. Furthermore, we show that
+minimising IEs to nothing but Supported Rates would enable 82.55% of the
+devices to share the same anonymity set. Our contributions provide a
+significant advancement in the pursuit of robust privacy solutions for wireless
+networks, paving the way for more user anonymity and less surveillance in
+wireless communication ecosystems.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.09014v1">Feature-based Federated Transfer Learning: Communication Efficiency,
+  Robustness and Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Multiagent Systems-662E9B">
+  <p><b>Published on:</b> 2024-05-15T00:43:19Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Feng Wang, M. Cenk Gursoy, Senem Velipasalar</p>
+    <p><b>Summary:</b> In this paper, we propose feature-based federated transfer learning as a
+novel approach to improve communication efficiency by reducing the uplink
+payload by multiple orders of magnitude compared to that of existing approaches
+in federated learning and federated transfer learning. Specifically, in the
+proposed feature-based federated learning, we design the extracted features and
+outputs to be uploaded instead of parameter updates. For this distributed
+learning model, we determine the required payload and provide comparisons with
+the existing schemes. Subsequently, we analyze the robustness of feature-based
+federated transfer learning against packet loss, data insufficiency, and
+quantization. Finally, we address privacy considerations by defining and
+analyzing label privacy leakage and feature privacy leakage, and investigating
+mitigating approaches. For all aforementioned analyses, we evaluate the
+performance of the proposed learning scheme via experiments on an image
+classification task and a natural language processing task to demonstrate its
+effectiveness.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.08920v1">Neural Collapse Meets Differential Privacy: Curious Behaviors of NoisyGD
+  with Near-perfect Representation Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> 
+  <p><b>Published on:</b> 2024-05-14T19:18:19Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Chendi Wang, Yuqing Zhu, Weijie J. Su, Yu-Xiang Wang</p>
+    <p><b>Summary:</b> A recent study by De et al. (2022) has reported that large-scale
+representation learning through pre-training on a public dataset significantly
+enhances differentially private (DP) learning in downstream tasks, despite the
+high dimensionality of the feature space. To theoretically explain this
+phenomenon, we consider the setting of a layer-peeled model in representation
+learning, which results in interesting phenomena related to learned features in
+deep learning and transfer learning, known as Neural Collapse (NC).
+  Within the framework of NC, we establish an error bound indicating that the
+misclassification error is independent of dimension when the distance between
+actual features and the ideal ones is smaller than a threshold. Additionally,
+the quality of the features in the last layer is empirically evaluated under
+different pre-trained models within the framework of NC, showing that a more
+powerful transformer leads to a better feature representation. Furthermore, we
+reveal that DP fine-tuning is less robust compared to fine-tuning without DP,
+particularly in the presence of perturbations. These observations are supported
+by both theoretical analyses and experimental evaluation. Moreover, to enhance
+the robustness of DP fine-tuning, we suggest several strategies, such as
+feature normalization or employing dimension reduction methods like Principal
+Component Analysis (PCA). Empirically, we demonstrate a significant improvement
+in testing accuracy by conducting PCA on the last-layer features.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.08801v2">Prospects of Privacy Advantage in Quantum Machine Learning</a></h3>
    <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2024-05-14T17:49:18Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Jamie Heredge, Niraj Kumar, Dylan Herman, Shouvanik Chakrabarti, Romina Yalovetzky, Shree Hari Sureshbabu, Marco Pistoia</p>
+    <p><b>Authors:</b> Jamie Heredge, Niraj Kumar, Dylan Herman, Shouvanik Chakrabarti, Romina Yalovetzky, Shree Hari Sureshbabu, Changhao Li, Marco Pistoia</p>
     <p><b>Summary:</b> Ensuring data privacy in machine learning models is critical, particularly in
 distributed settings where model gradients are typically shared among multiple
 parties to allow collaborative learning. Motivated by the increasing success of
@@ -2088,7 +2075,7 @@ application in epilepsy monitoring using wearable technologies.</p>
   <p><b>Published on:</b> 2024-05-09T06:11:58Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b>  Zirui,  Deng, Vinayak Ramkumar, Netanel Raviv</p>
+    <p><b>Authors:</b> Zirui Deng, Vinayak Ramkumar, Netanel Raviv</p>
     <p><b>Summary:</b> Delegating large-scale computations to service providers is a common practice
 which raises privacy concerns. This paper studies information-theoretic
 privacy-preserving delegation of data to a service provider, who may further
