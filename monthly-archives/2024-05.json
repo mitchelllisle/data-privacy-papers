@@ -1160,5 +1160,184 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.09306v1",
+    "title" : "Words Blending Boxes. Obfuscating Queries in Information Retrieval using\n  Differential Privacy",
+    "summary" : "Ensuring the effectiveness of search queries while protecting user privacy\nremains an open issue. When an Information Retrieval System (IRS) does not\nprotect the privacy of its users, sensitive information may be disclosed\nthrough the queries sent to the system. Recent improvements, especially in NLP,\nhave shown the potential of using Differential Privacy to obfuscate texts while\nmaintaining satisfactory effectiveness. However, such approaches may protect\nthe user's privacy only from a theoretical perspective while, in practice, the\nreal user's information need can still be inferred if perturbed terms are too\nsemantically similar to the original ones. We overcome such limitations by\nproposing Word Blending Boxes, a novel differentially private mechanism for\nquery obfuscation, which protects the words in the user queries by employing\nsafe boxes. To measure the overall effectiveness of the proposed WBB mechanism,\nwe measure the privacy obtained by the obfuscation process, i.e., the lexical\nand semantic similarity between original and obfuscated queries. Moreover, we\nassess the effectiveness of the privatized queries in retrieving relevant\ndocuments from the IRS. Our findings indicate that WBB can be integrated\neffectively into existing IRSs, offering a key to the challenge of protecting\nuser privacy from both a theoretical and a practical point of view.",
+    "updated" : "2024-05-15T12:51:36Z",
+    "published" : "2024-05-15T12:51:36Z",
+    "authors" : [
+      {
+        "name" : "Francesco Luigi De Faveri"
+      },
+      {
+        "name" : "Guglielmo Faggioli"
+      },
+      {
+        "name" : "Nicola Ferro"
+      }
+    ],
+    "categories" : [
+      "cs.IR",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.09234v1",
+    "title" : "Enhancing Image Privacy in Semantic Communication over Wiretap Channels\n  leveraging Differential Privacy",
+    "summary" : "Semantic communication (SemCom) enhances transmission efficiency by sending\nonly task-relevant information compared to traditional methods. However,\ntransmitting semantic-rich data over insecure or public channels poses security\nand privacy risks. This paper addresses the privacy problem of transmitting\nimages over wiretap channels and proposes a novel SemCom approach ensuring\nprivacy through a differential privacy (DP)-based image protection and\ndeprotection mechanism. The method utilizes the GAN inversion technique to\nextract disentangled semantic features and applies a DP mechanism to protect\nsensitive features within the extracted semantic information. To address the\nnon-invertibility of DP, we introduce two neural networks to approximate the DP\napplication and removal processes, offering a privacy protection level close to\nthat by the original DP process. Simulation results validate the effectiveness\nof our method in preventing eavesdroppers from obtaining sensitive information\nwhile maintaining high-fidelity image reconstruction at the legitimate\nreceiver.",
+    "updated" : "2024-05-15T10:30:18Z",
+    "published" : "2024-05-15T10:30:18Z",
+    "authors" : [
+      {
+        "name" : "Weixuan Chen"
+      },
+      {
+        "name" : "Shunpu Tang"
+      },
+      {
+        "name" : "Qianqian Yang"
+      }
+    ],
+    "categories" : [
+      "eess.IV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.09230v1",
+    "title" : "Reduce to the MACs -- Privacy Friendly Generic Probe Requests",
+    "summary" : "Abstract. Since the introduction of active discovery in Wi-Fi networks, users\ncan be tracked via their probe requests. Although manufacturers typically try\nto conceal Media Access Control (MAC) addresses using MAC address\nrandomisation, probe requests still contain Information Elements (IEs) that\nfacilitate device identification. This paper introduces generic probe requests:\nBy removing all unnecessary information from IEs, the requests become\nindistinguishable from one another, letting single devices disappear in the\nlargest possible anonymity set. Conducting a comprehensive evaluation, we\ndemonstrate that a large IE set contained within undirected probe requests does\nnot necessarily imply fast connection establishment. Furthermore, we show that\nminimising IEs to nothing but Supported Rates would enable 82.55% of the\ndevices to share the same anonymity set. Our contributions provide a\nsignificant advancement in the pursuit of robust privacy solutions for wireless\nnetworks, paving the way for more user anonymity and less surveillance in\nwireless communication ecosystems.",
+    "updated" : "2024-05-15T10:18:30Z",
+    "published" : "2024-05-15T10:18:30Z",
+    "authors" : [
+      {
+        "name" : "Johanna Ansohn McDougall"
+      },
+      {
+        "name" : "Alessandro Brighente"
+      },
+      {
+        "name" : "Anne Kunstmann"
+      },
+      {
+        "name" : "Niklas Zapatka"
+      },
+      {
+        "name" : "Hannes Federrath"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.NI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.09014v1",
+    "title" : "Feature-based Federated Transfer Learning: Communication Efficiency,\n  Robustness and Privacy",
+    "summary" : "In this paper, we propose feature-based federated transfer learning as a\nnovel approach to improve communication efficiency by reducing the uplink\npayload by multiple orders of magnitude compared to that of existing approaches\nin federated learning and federated transfer learning. Specifically, in the\nproposed feature-based federated learning, we design the extracted features and\noutputs to be uploaded instead of parameter updates. For this distributed\nlearning model, we determine the required payload and provide comparisons with\nthe existing schemes. Subsequently, we analyze the robustness of feature-based\nfederated transfer learning against packet loss, data insufficiency, and\nquantization. Finally, we address privacy considerations by defining and\nanalyzing label privacy leakage and feature privacy leakage, and investigating\nmitigating approaches. For all aforementioned analyses, we evaluate the\nperformance of the proposed learning scheme via experiments on an image\nclassification task and a natural language processing task to demonstrate its\neffectiveness.",
+    "updated" : "2024-05-15T00:43:19Z",
+    "published" : "2024-05-15T00:43:19Z",
+    "authors" : [
+      {
+        "name" : "Feng Wang"
+      },
+      {
+        "name" : "M. Cenk Gursoy"
+      },
+      {
+        "name" : "Senem Velipasalar"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.MA"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.08920v1",
+    "title" : "Neural Collapse Meets Differential Privacy: Curious Behaviors of NoisyGD\n  with Near-perfect Representation Learning",
+    "summary" : "A recent study by De et al. (2022) has reported that large-scale\nrepresentation learning through pre-training on a public dataset significantly\nenhances differentially private (DP) learning in downstream tasks, despite the\nhigh dimensionality of the feature space. To theoretically explain this\nphenomenon, we consider the setting of a layer-peeled model in representation\nlearning, which results in interesting phenomena related to learned features in\ndeep learning and transfer learning, known as Neural Collapse (NC).\n  Within the framework of NC, we establish an error bound indicating that the\nmisclassification error is independent of dimension when the distance between\nactual features and the ideal ones is smaller than a threshold. Additionally,\nthe quality of the features in the last layer is empirically evaluated under\ndifferent pre-trained models within the framework of NC, showing that a more\npowerful transformer leads to a better feature representation. Furthermore, we\nreveal that DP fine-tuning is less robust compared to fine-tuning without DP,\nparticularly in the presence of perturbations. These observations are supported\nby both theoretical analyses and experimental evaluation. Moreover, to enhance\nthe robustness of DP fine-tuning, we suggest several strategies, such as\nfeature normalization or employing dimension reduction methods like Principal\nComponent Analysis (PCA). Empirically, we demonstrate a significant improvement\nin testing accuracy by conducting PCA on the last-layer features.",
+    "updated" : "2024-05-14T19:18:19Z",
+    "published" : "2024-05-14T19:18:19Z",
+    "authors" : [
+      {
+        "name" : "Chendi Wang"
+      },
+      {
+        "name" : "Yuqing Zhu"
+      },
+      {
+        "name" : "Weijie J. Su"
+      },
+      {
+        "name" : "Yu-Xiang Wang"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "cs.CV",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.08801v2",
+    "title" : "Prospects of Privacy Advantage in Quantum Machine Learning",
+    "summary" : "Ensuring data privacy in machine learning models is critical, particularly in\ndistributed settings where model gradients are typically shared among multiple\nparties to allow collaborative learning. Motivated by the increasing success of\nrecovering input data from the gradients of classical models, this study\naddresses a central question: How hard is it to recover the input data from the\ngradients of quantum machine learning models? Focusing on variational quantum\ncircuits (VQC) as learning models, we uncover the crucial role played by the\ndynamical Lie algebra (DLA) of the VQC ansatz in determining privacy\nvulnerabilities. While the DLA has previously been linked to the classical\nsimulatability and trainability of VQC models, this work, for the first time,\nestablishes its connection to the privacy of VQC models. In particular, we show\nthat properties conducive to the trainability of VQCs, such as a\npolynomial-sized DLA, also facilitate the extraction of detailed snapshots of\nthe input. We term this a weak privacy breach, as the snapshots enable training\nVQC models for distinct learning tasks without direct access to the original\ninput. Further, we investigate the conditions for a strong privacy breach where\nthe original input data can be recovered from these snapshots by classical or\nquantum-assisted polynomial time methods. We establish conditions on the\nencoding map such as classical simulatability, overlap with DLA basis, and its\nFourier frequency characteristics that enable such a privacy breach of VQC\nmodels. Our findings thus play a crucial role in detailing the prospects of\nquantum privacy advantage by guiding the requirements for designing quantum\nmachine learning models that balance trainability with robust privacy\nprotection.",
+    "updated" : "2024-05-15T17:46:34Z",
+    "published" : "2024-05-14T17:49:18Z",
+    "authors" : [
+      {
+        "name" : "Jamie Heredge"
+      },
+      {
+        "name" : "Niraj Kumar"
+      },
+      {
+        "name" : "Dylan Herman"
+      },
+      {
+        "name" : "Shouvanik Chakrabarti"
+      },
+      {
+        "name" : "Romina Yalovetzky"
+      },
+      {
+        "name" : "Shree Hari Sureshbabu"
+      },
+      {
+        "name" : "Changhao Li"
+      },
+      {
+        "name" : "Marco Pistoia"
+      }
+    ],
+    "categories" : [
+      "quant-ph",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.05567v1",
+    "title" : "Perfect Subset Privacy in Polynomial Computation",
+    "summary" : "Delegating large-scale computations to service providers is a common practice\nwhich raises privacy concerns. This paper studies information-theoretic\nprivacy-preserving delegation of data to a service provider, who may further\ndelegate the computation to auxiliary worker nodes, in order to compute a\npolynomial over that data at a later point in time. We study techniques which\nare compatible with robust management of distributed computation systems, an\narea known as coded computing. Privacy in coded computing, however, has\ntraditionally addressed the problem of colluding workers, and assumed that the\nserver that administrates the computation is trusted. This viewpoint of privacy\ndoes not accurately reflect real-world privacy concerns, since normally, the\nservice provider as a whole (i.e., the administrator and the worker nodes) form\none cohesive entity which itself poses a privacy risk. This paper aims to shift\nthe focus of privacy in coded computing to safeguarding the privacy of the user\nagainst the service provider as a whole, instead of merely against colluding\nworkers inside the service provider. To this end, we leverage the recently\ndefined notion of perfect subset privacy, which guarantees zero information\nleakage from all subsets of the data up to a certain size. Using known\ntechniques from Reed-Muller decoding, we provide a scheme which enables\npolynomial computation with perfect subset privacy in straggler-free systems.\nFurthermore, by studying information super-sets in Reed-Muller codes, which may\nbe of independent interest, we extend the previous scheme to tolerate\nstraggling worker nodes inside the service provider.",
+    "updated" : "2024-05-09T06:11:58Z",
+    "published" : "2024-05-09T06:11:58Z",
+    "authors" : [
+      {
+        "name" : "Zirui Deng"
+      },
+      {
+        "name" : "Vinayak Ramkumar"
+      },
+      {
+        "name" : "Netanel Raviv"
+      }
+    ],
+    "categories" : [
+      "cs.IT",
+      "math.IT"
+    ]
   }
 ]
