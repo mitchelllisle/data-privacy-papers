@@ -1482,76 +1482,72 @@ a clear overview for those beyond this specific research domain.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.06868v2">The Sandwich meta-framework for architecture agnostic deep
-  privacy-preserving transfer learning for non-invasive brainwave decoding</a></h3>
-  
-  <p><b>Published on:</b> 2024-04-10T09:47:14Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Xiaoxi Wei, Jyotindra Narayan, A. Aldo Faisal</p>
-    <p><b>Summary:</b> Machine learning has enhanced the performance of decoding signals indicating
-human behaviour. EEG decoding, as an exemplar indicating neural activity and
-human thoughts non-invasively, has been helpful in neural activity analysis and
-aiding patients via brain-computer interfaces. However, training machine
-learning algorithms on EEG encounters two primary challenges: variability
-across data sets and privacy concerns using data from individuals and data
-centres. Our objective is to address these challenges by integrating transfer
-learning for data variability and federated learning for data privacy into a
-unified approach. We introduce the Sandwich as a novel deep privacy-preserving
-meta-framework combining transfer learning and federated learning. The Sandwich
-framework comprises three components: federated networks (first layers) that
-handle data set differences at the input level, a shared network (middle layer)
-learning common rules and applying transfer learning, and individual
-classifiers (final layers) for specific tasks of each data set. It enables the
-central network (central server) to benefit from multiple data sets, while
-local branches (local servers) maintain data and label privacy. We evaluated
-the `Sandwich' meta-architecture in various configurations using the BEETL
-motor imagery challenge, a benchmark for heterogeneous EEG data sets. Compared
-with baseline models, our `Sandwich' implementations showed superior
-performance. The best-performing model, the Inception Sandwich with deep set
-alignment (Inception-SD-Deepset), exceeded baseline methods by 9%. The
-`Sandwich' framework demonstrates significant advancements in federated deep
-transfer learning for diverse tasks and data sets. It outperforms conventional
-deep learning methods, showcasing the potential for effective use of larger,
-heterogeneous data sets with enhanced privacy as a model-agnostic
-meta-framework.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.06721v2">Poisoning Prevention in Federated Learning and Differential Privacy via
-  Stateful Proofs of Execution</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-04-10T04:18:26Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Norrathep Rattanavipanon, Ivan De Oliveira Nunes</p>
-    <p><b>Summary:</b> The rise in IoT-driven distributed data analytics, coupled with increasing
-privacy concerns, has led to a demand for effective privacy-preserving and
-federated data collection/model training mechanisms. In response, approaches
-such as Federated Learning (FL) and Local Differential Privacy (LDP) have been
-proposed and attracted much attention over the past few years. However, they
-still share the common limitation of being vulnerable to poisoning attacks
-wherein adversaries compromising edge devices feed forged (a.k.a. poisoned)
-data to aggregation back-ends, undermining the integrity of FL/LDP results.
-  In this work, we propose a system-level approach to remedy this issue based
-on a novel security notion of Proofs of Stateful Execution (PoSX) for
-IoT/embedded devices' software. To realize the PoSX concept, we design SLAPP: a
-System-Level Approach for Poisoning Prevention. SLAPP leverages commodity
-security features of embedded devices - in particular ARM TrustZoneM security
-extensions - to verifiably bind raw sensed data to their correct usage as part
-of FL/LDP edge device routines. As a consequence, it offers robust security
-guarantees against poisoning. Our evaluation, based on real-world prototypes
-featuring multiple cryptographic primitives and data collection schemes,
-showcases SLAPP's security and low overhead.</p>
-  </details>
-</div>
-
-
 
 <h2>2024-05</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.10096v1">The Effect of Quantization in Federated Learning: A Rényi Differential
+  Privacy Perspective</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
+  <p><b>Published on:</b> 2024-05-16T13:50:46Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Tianqu Kang, Lumin Liu, Hengtao He, Jun Zhang, S. H. Song, Khaled B. Letaief</p>
+    <p><b>Summary:</b> Federated Learning (FL) is an emerging paradigm that holds great promise for
+privacy-preserving machine learning using distributed data. To enhance privacy,
+FL can be combined with Differential Privacy (DP), which involves adding
+Gaussian noise to the model weights. However, FL faces a significant challenge
+in terms of large communication overhead when transmitting these model weights.
+To address this issue, quantization is commonly employed. Nevertheless, the
+presence of quantized Gaussian noise introduces complexities in understanding
+privacy protection. This research paper investigates the impact of quantization
+on privacy in FL systems. We examine the privacy guarantees of quantized
+Gaussian mechanisms using R\'enyi Differential Privacy (RDP). By deriving the
+privacy budget of quantized Gaussian mechanisms, we demonstrate that lower
+quantization bit levels provide improved privacy protection. To validate our
+theoretical findings, we employ Membership Inference Attacks (MIA), which gauge
+the accuracy of privacy leakage. The numerical results align with our
+theoretical analysis, confirming that quantization can indeed enhance privacy
+protection. This study not only enhances our understanding of the correlation
+between privacy and communication in FL but also underscores the advantages of
+quantization in preserving privacy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.09882v1">DiffAM: Diffusion-based Adversarial Makeup Transfer for Facial Privacy
+  Protection</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-05-16T08:05:36Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yuhao Sun, Lingyun Yu, Hongtao Xie, Jiaming Li, Yongdong Zhang</p>
+    <p><b>Summary:</b> With the rapid development of face recognition (FR) systems, the privacy of
+face images on social media is facing severe challenges due to the abuse of
+unauthorized FR systems. Some studies utilize adversarial attack techniques to
+defend against malicious FR systems by generating adversarial examples.
+However, the generated adversarial examples, i.e., the protected face images,
+tend to suffer from subpar visual quality and low transferability. In this
+paper, we propose a novel face protection approach, dubbed DiffAM, which
+leverages the powerful generative ability of diffusion models to generate
+high-quality protected face images with adversarial makeup transferred from
+reference images. To be specific, we first introduce a makeup removal module to
+generate non-makeup images utilizing a fine-tuned diffusion model with guidance
+of textual prompts in CLIP space. As the inverse process of makeup transfer,
+makeup removal can make it easier to establish the deterministic relationship
+between makeup domain and non-makeup domain regardless of elaborate text
+prompts. Then, with this relationship, a CLIP-based makeup loss along with an
+ensemble attack strategy is introduced to jointly guide the direction of
+adversarial makeup domain, achieving the generation of protected face images
+with natural-looking makeup and high black-box transferability. Extensive
+experiments demonstrate that DiffAM achieves higher visual quality and attack
+success rates with a gain of 12.98% under black-box setting compared with the
+state of the arts. The code will be available at
+https://github.com/HansSunY/DiffAM.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2405.09306v1">Words Blending Boxes. Obfuscating Queries in Information Retrieval using
@@ -1664,7 +1660,7 @@ effectiveness.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.08920v1">Neural Collapse Meets Differential Privacy: Curious Behaviors of NoisyGD
+  <h3><a href="http://arxiv.org/abs/2405.08920v2">Neural Collapse Meets Differential Privacy: Curious Behaviors of NoisyGD
   with Near-perfect Representation Learning</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> 
   <p><b>Published on:</b> 2024-05-14T19:18:19Z</p>
