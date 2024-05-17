@@ -1339,5 +1339,92 @@
       "cs.IT",
       "math.IT"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.10096v1",
+    "title" : "The Effect of Quantization in Federated Learning: A Rényi Differential\n  Privacy Perspective",
+    "summary" : "Federated Learning (FL) is an emerging paradigm that holds great promise for\nprivacy-preserving machine learning using distributed data. To enhance privacy,\nFL can be combined with Differential Privacy (DP), which involves adding\nGaussian noise to the model weights. However, FL faces a significant challenge\nin terms of large communication overhead when transmitting these model weights.\nTo address this issue, quantization is commonly employed. Nevertheless, the\npresence of quantized Gaussian noise introduces complexities in understanding\nprivacy protection. This research paper investigates the impact of quantization\non privacy in FL systems. We examine the privacy guarantees of quantized\nGaussian mechanisms using R\\'enyi Differential Privacy (RDP). By deriving the\nprivacy budget of quantized Gaussian mechanisms, we demonstrate that lower\nquantization bit levels provide improved privacy protection. To validate our\ntheoretical findings, we employ Membership Inference Attacks (MIA), which gauge\nthe accuracy of privacy leakage. The numerical results align with our\ntheoretical analysis, confirming that quantization can indeed enhance privacy\nprotection. This study not only enhances our understanding of the correlation\nbetween privacy and communication in FL but also underscores the advantages of\nquantization in preserving privacy.",
+    "updated" : "2024-05-16T13:50:46Z",
+    "published" : "2024-05-16T13:50:46Z",
+    "authors" : [
+      {
+        "name" : "Tianqu Kang"
+      },
+      {
+        "name" : "Lumin Liu"
+      },
+      {
+        "name" : "Hengtao He"
+      },
+      {
+        "name" : "Jun Zhang"
+      },
+      {
+        "name" : "S. H. Song"
+      },
+      {
+        "name" : "Khaled B. Letaief"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.09882v1",
+    "title" : "DiffAM: Diffusion-based Adversarial Makeup Transfer for Facial Privacy\n  Protection",
+    "summary" : "With the rapid development of face recognition (FR) systems, the privacy of\nface images on social media is facing severe challenges due to the abuse of\nunauthorized FR systems. Some studies utilize adversarial attack techniques to\ndefend against malicious FR systems by generating adversarial examples.\nHowever, the generated adversarial examples, i.e., the protected face images,\ntend to suffer from subpar visual quality and low transferability. In this\npaper, we propose a novel face protection approach, dubbed DiffAM, which\nleverages the powerful generative ability of diffusion models to generate\nhigh-quality protected face images with adversarial makeup transferred from\nreference images. To be specific, we first introduce a makeup removal module to\ngenerate non-makeup images utilizing a fine-tuned diffusion model with guidance\nof textual prompts in CLIP space. As the inverse process of makeup transfer,\nmakeup removal can make it easier to establish the deterministic relationship\nbetween makeup domain and non-makeup domain regardless of elaborate text\nprompts. Then, with this relationship, a CLIP-based makeup loss along with an\nensemble attack strategy is introduced to jointly guide the direction of\nadversarial makeup domain, achieving the generation of protected face images\nwith natural-looking makeup and high black-box transferability. Extensive\nexperiments demonstrate that DiffAM achieves higher visual quality and attack\nsuccess rates with a gain of 12.98% under black-box setting compared with the\nstate of the arts. The code will be available at\nhttps://github.com/HansSunY/DiffAM.",
+    "updated" : "2024-05-16T08:05:36Z",
+    "published" : "2024-05-16T08:05:36Z",
+    "authors" : [
+      {
+        "name" : "Yuhao Sun"
+      },
+      {
+        "name" : "Lingyun Yu"
+      },
+      {
+        "name" : "Hongtao Xie"
+      },
+      {
+        "name" : "Jiaming Li"
+      },
+      {
+        "name" : "Yongdong Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.08920v2",
+    "title" : "Neural Collapse Meets Differential Privacy: Curious Behaviors of NoisyGD\n  with Near-perfect Representation Learning",
+    "summary" : "A recent study by De et al. (2022) has reported that large-scale\nrepresentation learning through pre-training on a public dataset significantly\nenhances differentially private (DP) learning in downstream tasks, despite the\nhigh dimensionality of the feature space. To theoretically explain this\nphenomenon, we consider the setting of a layer-peeled model in representation\nlearning, which results in interesting phenomena related to learned features in\ndeep learning and transfer learning, known as Neural Collapse (NC).\n  Within the framework of NC, we establish an error bound indicating that the\nmisclassification error is independent of dimension when the distance between\nactual features and the ideal ones is smaller than a threshold. Additionally,\nthe quality of the features in the last layer is empirically evaluated under\ndifferent pre-trained models within the framework of NC, showing that a more\npowerful transformer leads to a better feature representation. Furthermore, we\nreveal that DP fine-tuning is less robust compared to fine-tuning without DP,\nparticularly in the presence of perturbations. These observations are supported\nby both theoretical analyses and experimental evaluation. Moreover, to enhance\nthe robustness of DP fine-tuning, we suggest several strategies, such as\nfeature normalization or employing dimension reduction methods like Principal\nComponent Analysis (PCA). Empirically, we demonstrate a significant improvement\nin testing accuracy by conducting PCA on the last-layer features.",
+    "updated" : "2024-05-16T12:06:03Z",
+    "published" : "2024-05-14T19:18:19Z",
+    "authors" : [
+      {
+        "name" : "Chendi Wang"
+      },
+      {
+        "name" : "Yuqing Zhu"
+      },
+      {
+        "name" : "Weijie J. Su"
+      },
+      {
+        "name" : "Yu-Xiang Wang"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "cs.CV",
+      "stat.ML"
+    ]
   }
 ]
