@@ -1426,5 +1426,137 @@
       "cs.CV",
       "stat.ML"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.10904v1",
+    "title" : "Broadening Privacy and Surveillance: Eliciting Interconnected Values\n  with a Scenarios Workbook on Smart Home Cameras",
+    "summary" : "We use a design workbook of speculative scenarios as a values elicitation\nactivity with 14 participants. The workbook depicts use case scenarios with\nsmart home camera technologies that involve surveillance and uneven power\nrelations. The scenarios were initially designed by the researchers to explore\nscenarios of privacy and surveillance within three social relationships\ninvolving \"primary\" and \"non-primary\" users: Parents-Children,\nLandlords-Tenants, and Residents-Domestic Workers. When the scenarios were\nutilized as part of a values elicitation activity with participants, we found\nthat they reflected on a broader set of interconnected social values beyond\nprivacy and surveillance, including autonomy and agency, physical safety,\nproperty rights, trust and accountability, and fairness. The paper suggests\nthat future research about ethical issues in smart homes should conceptualize\nprivacy as interconnected with a broader set of social values (which can align\nor be in tension with privacy), and reflects on considerations for doing\nresearch with non-primary users.",
+    "updated" : "2024-05-17T16:50:49Z",
+    "published" : "2024-05-17T16:50:49Z",
+    "authors" : [
+      {
+        "name" : "Richmond Y. Wong"
+      },
+      {
+        "name" : "Jason Caleb Valdez"
+      },
+      {
+        "name" : "Ashten Alexander"
+      },
+      {
+        "name" : "Ariel Chiang"
+      },
+      {
+        "name" : "Olivia Quesada"
+      },
+      {
+        "name" : "James Pierce"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.10870v1",
+    "title" : "Multicenter Privacy-Preserving Model Training for Deep Learning Brain\n  Metastases Autosegmentation",
+    "summary" : "Objectives: This work aims to explore the impact of multicenter data\nheterogeneity on deep learning brain metastases (BM) autosegmentation\nperformance, and assess the efficacy of an incremental transfer learning\ntechnique, namely learning without forgetting (LWF), to improve model\ngeneralizability without sharing raw data.\n  Materials and methods: A total of six BM datasets from University Hospital\nErlangen (UKER), University Hospital Zurich (USZ), Stanford, UCSF, NYU and\nBraTS Challenge 2023 on BM segmentation were used for this evaluation. First,\nthe multicenter performance of a convolutional neural network (DeepMedic) for\nBM autosegmentation was established for exclusive single-center training and\nfor training on pooled data, respectively. Subsequently bilateral collaboration\nwas evaluated, where a UKER pretrained model is shared to another center for\nfurther training using transfer learning (TL) either with or without LWF.\n  Results: For single-center training, average F1 scores of BM detection range\nfrom 0.625 (NYU) to 0.876 (UKER) on respective single-center test data. Mixed\nmulticenter training notably improves F1 scores at Stanford and NYU, with\nnegligible improvement at other centers. When the UKER pretrained model is\napplied to USZ, LWF achieves a higher average F1 score (0.839) than naive TL\n(0.570) and single-center training (0.688) on combined UKER and USZ test data.\nNaive TL improves sensitivity and contouring accuracy, but compromises\nprecision. Conversely, LWF demonstrates commendable sensitivity, precision and\ncontouring accuracy. When applied to Stanford, similar performance was\nobserved.\n  Conclusion: Data heterogeneity results in varying performance in BM\nautosegmentation, posing challenges to model generalizability. LWF is a\npromising approach to peer-to-peer privacy-preserving model training.",
+    "updated" : "2024-05-17T16:01:11Z",
+    "published" : "2024-05-17T16:01:11Z",
+    "authors" : [
+      {
+        "name" : "Yixing Huang"
+      },
+      {
+        "name" : "Zahra Khodabakhshi"
+      },
+      {
+        "name" : "Ahmed Gomaa"
+      },
+      {
+        "name" : "Manuel Schmidt"
+      },
+      {
+        "name" : "Rainer Fietkau"
+      },
+      {
+        "name" : "Matthias Guckenberger"
+      },
+      {
+        "name" : "Nicolaus Andratschke"
+      },
+      {
+        "name" : "Christoph Bert"
+      },
+      {
+        "name" : "Stephanie Tanadini-Lang"
+      },
+      {
+        "name" : "Florian Putz"
+      }
+    ],
+    "categories" : [
+      "eess.IV",
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.10868v1",
+    "title" : "Air Signing and Privacy-Preserving Signature Verification for Digital\n  Documents",
+    "summary" : "This paper presents a novel approach to the digital signing of electronic\ndocuments through the use of a camera-based interaction system, single-finger\ntracking for sign recognition, and multi commands executing hand gestures. The\nproposed solution, referred to as \"Air Signature,\" involves writing the\nsignature in front of the camera, rather than relying on traditional methods\nsuch as mouse drawing or physically signing on paper and showing it to a web\ncamera. The goal is to develop a state-of-the-art method for detecting and\ntracking gestures and objects in real-time. The proposed methods include\napplying existing gesture recognition and object tracking systems, improving\naccuracy through smoothing and line drawing, and maintaining continuity during\nfast finger movements. An evaluation of the fingertip detection, sketching, and\noverall signing process is performed to assess the effectiveness of the\nproposed solution. The secondary objective of this research is to develop a\nmodel that can effectively recognize the unique signature of a user. This type\nof signature can be verified by neural cores that analyze the movement, speed,\nand stroke pixels of the signing in real time. The neural cores use machine\nlearning algorithms to match air signatures to the individual's stored\nsignatures, providing a secure and efficient method of verification. Our\nproposed System does not require sensors or any hardware other than the camera.",
+    "updated" : "2024-05-17T16:00:10Z",
+    "published" : "2024-05-17T16:00:10Z",
+    "authors" : [
+      {
+        "name" : "P. Sarveswarasarma"
+      },
+      {
+        "name" : "T. Sathulakjan"
+      },
+      {
+        "name" : "V. J. V. Godfrey"
+      },
+      {
+        "name" : "Thanuja D. Ambegoda"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.10521v1",
+    "title" : "Generative AI for Secure and Privacy-Preserving Mobile Crowdsensing",
+    "summary" : "Recently, generative AI has attracted much attention from both academic and\nindustrial fields, which has shown its potential, especially in the data\ngeneration and synthesis aspects. Simultaneously, secure and privacy-preserving\nmobile crowdsensing (SPPMCS) has been widely applied in data collection/\nacquirement due to an advantage on low deployment cost, flexible\nimplementation, and high adaptability. Since generative AI can generate new\nsynthetic data to replace the original data to be analyzed and processed, it\ncan lower data attacks and privacy leakage risks for the original data.\nTherefore, integrating generative AI into SPPMCS is feasible and significant.\nMoreover, this paper investigates an integration of generative AI in SPPMCS,\nwhere we present potential research focuses, solutions, and case studies.\nSpecifically, we firstly review the preliminaries for generative AI and SPPMCS,\nwhere their integration potential is presented. Then, we discuss research\nissues and solutions for generative AI-enabled SPPMCS, including security\ndefense of malicious data injection, illegal authorization, malicious spectrum\nmanipulation at the physical layer, and privacy protection on sensing data\ncontent, sensing terminals' identification and location. Next, we propose a\nframework for sensing data content protection with generative AI, and\nsimulations results have clearly demonstrated the effectiveness of the proposed\nframework. Finally, we present major research directions for generative\nAI-enabled SPPMCS.",
+    "updated" : "2024-05-17T04:00:58Z",
+    "published" : "2024-05-17T04:00:58Z",
+    "authors" : [
+      {
+        "name" : "Yaoqi Yang"
+      },
+      {
+        "name" : "Bangning Zhang"
+      },
+      {
+        "name" : "Daoxing Guo"
+      },
+      {
+        "name" : "Hongyang Du"
+      },
+      {
+        "name" : "Zehui Xiong"
+      },
+      {
+        "name" : "Dusit Niyato"
+      },
+      {
+        "name" : "Zhu Han"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
