@@ -1356,134 +1356,136 @@ https://github.com/mlsysx/EPAFL.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.09391v1">Privacy at a Price: Exploring its Dual Impact on AI Fairness</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2024-04-15T00:23:41Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mengmeng Yang, Ming Ding, Youyang Qu, Wei Ni, David Smith, Thierry Rakotoarivelo</p>
-    <p><b>Summary:</b> The worldwide adoption of machine learning (ML) and deep learning models,
-particularly in critical sectors, such as healthcare and finance, presents
-substantial challenges in maintaining individual privacy and fairness. These
-two elements are vital to a trustworthy environment for learning systems. While
-numerous studies have concentrated on protecting individual privacy through
-differential privacy (DP) mechanisms, emerging research indicates that
-differential privacy in machine learning models can unequally impact separate
-demographic subgroups regarding prediction accuracy. This leads to a fairness
-concern, and manifests as biased performance. Although the prevailing view is
-that enhancing privacy intensifies fairness disparities, a smaller, yet
-significant, subset of research suggests the opposite view. In this article,
-with extensive evaluation results, we demonstrate that the impact of
-differential privacy on fairness is not monotonous. Instead, we observe that
-the accuracy disparity initially grows as more DP noise (enhanced privacy) is
-added to the ML process, but subsequently diminishes at higher privacy levels
-with even more noise. Moreover, implementing gradient clipping in the
-differentially private stochastic gradient descent ML method can mitigate the
-negative impact of DP noise on fairness. This mitigation is achieved by
-moderating the disparity growth through a lower clipping threshold.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.08261v1">QI-DPFL: Quality-Aware and Incentive-Boosted Federated Learning with
-  Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Science and Game Theory-5BC0EB">
-  <p><b>Published on:</b> 2024-04-12T06:18:25Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Wenhao Yuan, Xuehe Wang</p>
-    <p><b>Summary:</b> Federated Learning (FL) has increasingly been recognized as an innovative and
-secure distributed model training paradigm, aiming to coordinate multiple edge
-clients to collaboratively train a shared model without uploading their private
-datasets. The challenge of encouraging mobile edge devices to participate
-zealously in FL model training procedures, while mitigating the privacy leakage
-risks during wireless transmission, remains comparatively unexplored so far. In
-this paper, we propose a novel approach, named QI-DPFL (Quality-Aware and
-Incentive-Boosted Federated Learning with Differential Privacy), to address the
-aforementioned intractable issue. To select clients with high-quality datasets,
-we first propose a quality-aware client selection mechanism based on the Earth
-Mover's Distance (EMD) metric. Furthermore, to attract high-quality data
-contributors, we design an incentive-boosted mechanism that constructs the
-interactions between the central server and the selected clients as a two-stage
-Stackelberg game, where the central server designs the time-dependent reward to
-minimize its cost by considering the trade-off between accuracy loss and total
-reward allocated, and each selected client decides the privacy budget to
-maximize its utility. The Nash Equilibrium of the Stackelberg game is derived
-to find the optimal solution in each global iteration. The extensive
-experimental results on different real-world datasets demonstrate the
-effectiveness of our proposed FL framework, by realizing the goal of privacy
-protection and incentive compatibility.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.07437v1">Privacy preserving layer partitioning for Deep Neural Network models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-04-11T02:39:48Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Kishore Rajasekar, Randolph Loh, Kar Wai Fok, Vrizlynn L. L. Thing</p>
-    <p><b>Summary:</b> MLaaS (Machine Learning as a Service) has become popular in the cloud
-computing domain, allowing users to leverage cloud resources for running
-private inference of ML models on their data. However, ensuring user input
-privacy and secure inference execution is essential. One of the approaches to
-protect data privacy and integrity is to use Trusted Execution Environments
-(TEEs) by enabling execution of programs in secure hardware enclave. Using TEEs
-can introduce significant performance overhead due to the additional layers of
-encryption, decryption, security and integrity checks. This can lead to slower
-inference times compared to running on unprotected hardware. In our work, we
-enhance the runtime performance of ML models by introducing layer partitioning
-technique and offloading computations to GPU. The technique comprises two
-distinct partitions: one executed within the TEE, and the other carried out
-using a GPU accelerator. Layer partitioning exposes intermediate feature maps
-in the clear which can lead to reconstruction attacks to recover the input. We
-conduct experiments to demonstrate the effectiveness of our approach in
-protecting against input reconstruction attacks developed using trained
-conditional Generative Adversarial Network(c-GAN). The evaluation is performed
-on widely used models such as VGG-16, ResNet-50, and EfficientNetB0, using two
-datasets: ImageNet for Image classification and TON IoT dataset for
-cybersecurity attack detection.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.07345v1">Indoor Location Fingerprinting Privacy: A Comprehensive Survey</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
-  <p><b>Published on:</b> 2024-04-10T21:02:58Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Amir Fathalizadeh, Vahideh Moghtadaiee, Mina Alishahi</p>
-    <p><b>Summary:</b> The pervasive integration of Indoor Positioning Systems (IPS) arises from the
-limitations of Global Navigation Satellite Systems (GNSS) in indoor
-environments, leading to the widespread adoption of Location-Based Services
-(LBS). Specifically, indoor location fingerprinting employs diverse signal
-fingerprints from user devices, enabling precise location identification by
-Location Service Providers (LSP). Despite its broad applications across various
-domains, indoor location fingerprinting introduces a notable privacy risk, as
-both LSP and potential adversaries inherently have access to this sensitive
-information, compromising users' privacy. Consequently, concerns regarding
-privacy vulnerabilities in this context necessitate a focused exploration of
-privacy-preserving mechanisms. In response to these concerns, this survey
-presents a comprehensive review of Privacy-Preserving Mechanisms in Indoor
-Location Fingerprinting (ILFPPM) based on cryptographic, anonymization,
-differential privacy (DP), and federated learning (FL) techniques. We also
-propose a distinctive and novel grouping of privacy vulnerabilities, adversary
-and attack models, and available evaluation metrics specific to indoor location
-fingerprinting systems. Given the identified limitations and research gaps in
-this survey, we highlight numerous prospective opportunities for future
-investigation, aiming to motivate researchers interested in advancing this
-field. This survey serves as a valuable reference for researchers and provides
-a clear overview for those beyond this specific research domain.</p>
-  </details>
-</div>
-
-
 
 <h2>2024-05</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.10904v1">Broadening Privacy and Surveillance: Eliciting Interconnected Values
+  with a Scenarios Workbook on Smart Home Cameras</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2024-05-17T16:50:49Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Richmond Y. Wong, Jason Caleb Valdez, Ashten Alexander, Ariel Chiang, Olivia Quesada, James Pierce</p>
+    <p><b>Summary:</b> We use a design workbook of speculative scenarios as a values elicitation
+activity with 14 participants. The workbook depicts use case scenarios with
+smart home camera technologies that involve surveillance and uneven power
+relations. The scenarios were initially designed by the researchers to explore
+scenarios of privacy and surveillance within three social relationships
+involving "primary" and "non-primary" users: Parents-Children,
+Landlords-Tenants, and Residents-Domestic Workers. When the scenarios were
+utilized as part of a values elicitation activity with participants, we found
+that they reflected on a broader set of interconnected social values beyond
+privacy and surveillance, including autonomy and agency, physical safety,
+property rights, trust and accountability, and fairness. The paper suggests
+that future research about ethical issues in smart homes should conceptualize
+privacy as interconnected with a broader set of social values (which can align
+or be in tension with privacy), and reflects on considerations for doing
+research with non-primary users.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.10870v1">Multicenter Privacy-Preserving Model Training for Deep Learning Brain
+  Metastases Autosegmentation</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2024-05-17T16:01:11Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yixing Huang, Zahra Khodabakhshi, Ahmed Gomaa, Manuel Schmidt, Rainer Fietkau, Matthias Guckenberger, Nicolaus Andratschke, Christoph Bert, Stephanie Tanadini-Lang, Florian Putz</p>
+    <p><b>Summary:</b> Objectives: This work aims to explore the impact of multicenter data
+heterogeneity on deep learning brain metastases (BM) autosegmentation
+performance, and assess the efficacy of an incremental transfer learning
+technique, namely learning without forgetting (LWF), to improve model
+generalizability without sharing raw data.
+  Materials and methods: A total of six BM datasets from University Hospital
+Erlangen (UKER), University Hospital Zurich (USZ), Stanford, UCSF, NYU and
+BraTS Challenge 2023 on BM segmentation were used for this evaluation. First,
+the multicenter performance of a convolutional neural network (DeepMedic) for
+BM autosegmentation was established for exclusive single-center training and
+for training on pooled data, respectively. Subsequently bilateral collaboration
+was evaluated, where a UKER pretrained model is shared to another center for
+further training using transfer learning (TL) either with or without LWF.
+  Results: For single-center training, average F1 scores of BM detection range
+from 0.625 (NYU) to 0.876 (UKER) on respective single-center test data. Mixed
+multicenter training notably improves F1 scores at Stanford and NYU, with
+negligible improvement at other centers. When the UKER pretrained model is
+applied to USZ, LWF achieves a higher average F1 score (0.839) than naive TL
+(0.570) and single-center training (0.688) on combined UKER and USZ test data.
+Naive TL improves sensitivity and contouring accuracy, but compromises
+precision. Conversely, LWF demonstrates commendable sensitivity, precision and
+contouring accuracy. When applied to Stanford, similar performance was
+observed.
+  Conclusion: Data heterogeneity results in varying performance in BM
+autosegmentation, posing challenges to model generalizability. LWF is a
+promising approach to peer-to-peer privacy-preserving model training.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.10868v1">Air Signing and Privacy-Preserving Signature Verification for Digital
+  Documents</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2024-05-17T16:00:10Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> P. Sarveswarasarma, T. Sathulakjan, V. J. V. Godfrey, Thanuja D. Ambegoda</p>
+    <p><b>Summary:</b> This paper presents a novel approach to the digital signing of electronic
+documents through the use of a camera-based interaction system, single-finger
+tracking for sign recognition, and multi commands executing hand gestures. The
+proposed solution, referred to as "Air Signature," involves writing the
+signature in front of the camera, rather than relying on traditional methods
+such as mouse drawing or physically signing on paper and showing it to a web
+camera. The goal is to develop a state-of-the-art method for detecting and
+tracking gestures and objects in real-time. The proposed methods include
+applying existing gesture recognition and object tracking systems, improving
+accuracy through smoothing and line drawing, and maintaining continuity during
+fast finger movements. An evaluation of the fingertip detection, sketching, and
+overall signing process is performed to assess the effectiveness of the
+proposed solution. The secondary objective of this research is to develop a
+model that can effectively recognize the unique signature of a user. This type
+of signature can be verified by neural cores that analyze the movement, speed,
+and stroke pixels of the signing in real time. The neural cores use machine
+learning algorithms to match air signatures to the individual's stored
+signatures, providing a secure and efficient method of verification. Our
+proposed System does not require sensors or any hardware other than the camera.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.10521v1">Generative AI for Secure and Privacy-Preserving Mobile Crowdsensing</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-05-17T04:00:58Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yaoqi Yang, Bangning Zhang, Daoxing Guo, Hongyang Du, Zehui Xiong, Dusit Niyato, Zhu Han</p>
+    <p><b>Summary:</b> Recently, generative AI has attracted much attention from both academic and
+industrial fields, which has shown its potential, especially in the data
+generation and synthesis aspects. Simultaneously, secure and privacy-preserving
+mobile crowdsensing (SPPMCS) has been widely applied in data collection/
+acquirement due to an advantage on low deployment cost, flexible
+implementation, and high adaptability. Since generative AI can generate new
+synthetic data to replace the original data to be analyzed and processed, it
+can lower data attacks and privacy leakage risks for the original data.
+Therefore, integrating generative AI into SPPMCS is feasible and significant.
+Moreover, this paper investigates an integration of generative AI in SPPMCS,
+where we present potential research focuses, solutions, and case studies.
+Specifically, we firstly review the preliminaries for generative AI and SPPMCS,
+where their integration potential is presented. Then, we discuss research
+issues and solutions for generative AI-enabled SPPMCS, including security
+defense of malicious data injection, illegal authorization, malicious spectrum
+manipulation at the physical layer, and privacy protection on sensing data
+content, sensing terminals' identification and location. Next, we propose a
+framework for sensing data content protection with generative AI, and
+simulations results have clearly demonstrated the effectiveness of the proposed
+framework. Finally, we present major research directions for generative
+AI-enabled SPPMCS.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2405.10096v1">The Effect of Quantization in Federated Learning: A Rényi Differential
