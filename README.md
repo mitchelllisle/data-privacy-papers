@@ -1128,236 +1128,214 @@ in the field of PTaaS.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.09816v1">FedP3: Federated Personalized and Privacy-friendly Network Pruning under
-  Model Heterogeneity</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-04-15T14:14:05Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Kai Yi, Nidham Gazagnadou, Peter Richtárik, Lingjuan Lyu</p>
-    <p><b>Summary:</b> The interest in federated learning has surged in recent research due to its
-unique ability to train a global model using privacy-secured information held
-locally on each client. This paper pays particular attention to the issue of
-client-side model heterogeneity, a pervasive challenge in the practical
-implementation of FL that escalates its complexity. Assuming a scenario where
-each client possesses varied memory storage, processing capabilities and
-network bandwidth - a phenomenon referred to as system heterogeneity - there is
-a pressing need to customize a unique model for each client. In response to
-this, we present an effective and adaptable federated framework FedP3,
-representing Federated Personalized and Privacy-friendly network Pruning,
-tailored for model heterogeneity scenarios. Our proposed methodology can
-incorporate and adapt well-established techniques to its specific instances. We
-offer a theoretical interpretation of FedP3 and its locally
-differential-private variant, DP-FedP3, and theoretically validate their
-efficiencies.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.10029v1">Federated Learning on Riemannian Manifolds with Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Optimization and Control-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
-  <p><b>Published on:</b> 2024-04-15T12:32:20Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zhenwei Huang, Wen Huang, Pratik Jawanpuria, Bamdev Mishra</p>
-    <p><b>Summary:</b> In recent years, federated learning (FL) has emerged as a prominent paradigm
-in distributed machine learning. Despite the partial safeguarding of agents'
-information within FL systems, a malicious adversary can potentially infer
-sensitive information through various means. In this paper, we propose a
-generic private FL framework defined on Riemannian manifolds (PriRFed) based on
-the differential privacy (DP) technique. We analyze the privacy guarantee while
-establishing the convergence properties. To the best of our knowledge, this is
-the first federated learning framework on Riemannian manifold with a privacy
-guarantee and convergence results. Numerical simulations are performed on
-synthetic and real-world datasets to showcase the efficacy of the proposed
-PriRFed approach.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.09724v1">Privacy-Preserving Federated Unlearning with Certified Client Removal</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-04-15T12:27:07Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ziyao Liu, Huanyi Ye, Yu Jiang, Jiyuan Shen, Jiale Guo, Ivan Tjuawinata, Kwok-Yan Lam</p>
-    <p><b>Summary:</b> In recent years, Federated Unlearning (FU) has gained attention for
-addressing the removal of a client's influence from the global model in
-Federated Learning (FL) systems, thereby ensuring the ``right to be forgotten"
-(RTBF). State-of-the-art methods for unlearning use historical data from FL
-clients, such as gradients or locally trained models. However, studies have
-revealed significant information leakage in this setting, with the possibility
-of reconstructing a user's local data from their uploaded information.
-Addressing this, we propose Starfish, a privacy-preserving federated unlearning
-scheme using Two-Party Computation (2PC) techniques and shared historical
-client data between two non-colluding servers. Starfish builds upon existing FU
-methods to ensure privacy in unlearning processes. To enhance the efficiency of
-privacy-preserving FU evaluations, we suggest 2PC-friendly alternatives for
-certain FU algorithm operations. We also implement strategies to reduce costs
-associated with 2PC operations and lessen cumulative approximation errors.
-Moreover, we establish a theoretical bound for the difference between the
-unlearned global model via Starfish and a global model retrained from scratch
-for certified client removal. Our theoretical and experimental analyses
-demonstrate that Starfish achieves effective unlearning with reasonable
-efficiency, maintaining privacy and security in FL systems.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.09625v1">Privacy-Preserving Intrusion Detection using Convolutional Neural
-  Networks</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-04-15T09:56:36Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Martin Kodys, Zhongmin Dai, Vrizlynn L. L. Thing</p>
-    <p><b>Summary:</b> Privacy-preserving analytics is designed to protect valuable assets. A common
-service provision involves the input data from the client and the model on the
-analyst's side. The importance of the privacy preservation is fuelled by legal
-obligations and intellectual property concerns. We explore the use case of a
-model owner providing an analytic service on customer's private data. No
-information about the data shall be revealed to the analyst and no information
-about the model shall be leaked to the customer. Current methods involve costs:
-accuracy deterioration and computational complexity. The complexity, in turn,
-results in a longer processing time, increased requirement on computing
-resources, and involves data communication between the client and the server.
-In order to deploy such service architecture, we need to evaluate the optimal
-setting that fits the constraints. And that is what this paper addresses. In
-this work, we enhance an attack detection system based on Convolutional Neural
-Networks with privacy-preserving technology based on PriMIA framework that is
-initially designed for medical data.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.10026v1">Distributed Federated Learning-Based Deep Learning Model for Privacy MRI
-  Brain Tumor Detection</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-04-15T09:07:19Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Lisang Zhou, Meng Wang, Ning Zhou</p>
-    <p><b>Summary:</b> Distributed training can facilitate the processing of large medical image
-datasets, and improve the accuracy and efficiency of disease diagnosis while
-protecting patient privacy, which is crucial for achieving efficient medical
-image analysis and accelerating medical research progress. This paper presents
-an innovative approach to medical image classification, leveraging Federated
-Learning (FL) to address the dual challenges of data privacy and efficient
-disease diagnosis. Traditional Centralized Machine Learning models, despite
-their widespread use in medical imaging for tasks such as disease diagnosis,
-raise significant privacy concerns due to the sensitive nature of patient data.
-As an alternative, FL emerges as a promising solution by allowing the training
-of a collective global model across local clients without centralizing the
-data, thus preserving privacy. Focusing on the application of FL in Magnetic
-Resonance Imaging (MRI) brain tumor detection, this study demonstrates the
-effectiveness of the Federated Learning framework coupled with EfficientNet-B0
-and the FedAvg algorithm in enhancing both privacy and diagnostic accuracy.
-Through a meticulous selection of preprocessing methods, algorithms, and
-hyperparameters, and a comparative analysis of various Convolutional Neural
-Network (CNN) architectures, the research uncovers optimal strategies for image
-classification. The experimental results reveal that EfficientNet-B0
-outperforms other models like ResNet in handling data heterogeneity and
-achieving higher accuracy and lower loss, highlighting the potential of FL in
-overcoming the limitations of traditional models. The study underscores the
-significance of addressing data heterogeneity and proposes further research
-directions for broadening the applicability of FL in medical image analysis.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.09536v1">Beyond Noise: Privacy-Preserving Decentralized Learning with Virtual
-  Nodes</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-04-15T07:59:11Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Sayan Biswas, Mathieu Even, Anne-Marie Kermarrec, Laurent Massoulie, Rafael Pires, Rishi Sharma, Martijn de Vos</p>
-    <p><b>Summary:</b> Decentralized learning (DL) enables collaborative learning without a server
-and without training data leaving the users' devices. However, the models
-shared in DL can still be used to infer training data. Conventional privacy
-defenses such as differential privacy and secure aggregation fall short in
-effectively safeguarding user privacy in DL. We introduce Shatter, a novel DL
-approach in which nodes create virtual nodes (VNs) to disseminate chunks of
-their full model on their behalf. This enhances privacy by (i) preventing
-attackers from collecting full models from other nodes, and (ii) hiding the
-identity of the original node that produced a given model chunk. We
-theoretically prove the convergence of Shatter and provide a formal analysis
-demonstrating how Shatter reduces the efficacy of attacks compared to when
-exchanging full models between participating nodes. We evaluate the convergence
-and attack resilience of Shatter with existing DL algorithms, with
-heterogeneous datasets, and against three standard privacy attacks, including
-gradient inversion. Our evaluation shows that Shatter not only renders these
-privacy attacks infeasible when each node operates 16 VNs but also exhibits a
-positive impact on model convergence compared to standard DL. This enhanced
-privacy comes with a manageable increase in communication volume.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.09481v1">SpamDam: Towards Privacy-Preserving and Adversary-Resistant SMS Spam
-  Detection</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-04-15T06:07:10Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yekai Li, Rufan Zhang, Wenxin Rong, Xianghang Mi</p>
-    <p><b>Summary:</b> In this study, we introduce SpamDam, a SMS spam detection framework designed
-to overcome key challenges in detecting and understanding SMS spam, such as the
-lack of public SMS spam datasets, increasing privacy concerns of collecting SMS
-data, and the need for adversary-resistant detection models. SpamDam comprises
-four innovative modules: an SMS spam radar that identifies spam messages from
-online social networks(OSNs); an SMS spam inspector for statistical analysis;
-SMS spam detectors(SSDs) that enable both central training and federated
-learning; and an SSD analyzer that evaluates model resistance against
-adversaries in realistic scenarios. Leveraging SpamDam, we have compiled over
-76K SMS spam messages from Twitter and Weibo between 2018 and 2023, forming the
-largest dataset of its kind. This dataset has enabled new insights into recent
-spam campaigns and the training of high-performing binary and multi-label
-classifiers for spam detection. Furthermore, effectiveness of federated
-learning has been well demonstrated to enable privacy-preserving SMS spam
-detection. Additionally, we have rigorously tested the adversarial robustness
-of SMS spam detection models, introducing the novel reverse backdoor attack,
-which has shown effectiveness and stealthiness in practical tests.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.09430v1">On the Efficiency of Privacy Attacks in Federated Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-04-15T03:04:37Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Nawrin Tabassum, Ka-Ho Chow, Xuyu Wang, Wenbin Zhang, Yanzhao Wu</p>
-    <p><b>Summary:</b> Recent studies have revealed severe privacy risks in federated learning,
-represented by Gradient Leakage Attacks. However, existing studies mainly aim
-at increasing the privacy attack success rate and overlook the high computation
-costs for recovering private data, making the privacy attack impractical in
-real applications. In this study, we examine privacy attacks from the
-perspective of efficiency and propose a framework for improving the Efficiency
-of Privacy Attacks in Federated Learning (EPAFL). We make three novel
-contributions. First, we systematically evaluate the computational costs for
-representative privacy attacks in federated learning, which exhibits a high
-potential to optimize efficiency. Second, we propose three early-stopping
-techniques to effectively reduce the computational costs of these privacy
-attacks. Third, we perform experiments on benchmark datasets and show that our
-proposed method can significantly reduce computational costs and maintain
-comparable attack success rates for state-of-the-art privacy attacks in
-federated learning. We provide the codes on GitHub at
-https://github.com/mlsysx/EPAFL.</p>
-  </details>
-</div>
-
-
 
 <h2>2024-05</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.11975v1">A Stochastic Sampling Approach to Privacy</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
+  <p><b>Published on:</b> 2024-05-20T12:10:26Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Chuanghong Weng, Ehsan Nekouei</p>
+    <p><b>Summary:</b> This paper proposes an optimal stochastic sampling approach to privacy, in
+which a sensor observes a process which is correlated to private information.
+In out set-up, a sampler decides to keep or discard the sensor's observations.
+The kept samples are shared with an adversary who might attempt to infer the
+private process based on the sampler's output. The privacy leakages are
+captured with the mutual information between the private process and sampler's
+output. We cast the optimal sampling design as an optimization problem with two
+objectives: (i) minimizing the reconstruction error of the observed process
+using the sampler's output, (ii) reducing the privacy leakages. We first show
+the optimal reconstruction policy is deterministic and can be obtained by
+solving a one-step optimization problem at each time step. We also derive the
+optimality equations of the privacy-sampler for a general class of processes
+via the dynamic decomposition method, and show the sampler controls the
+adversary's belief about the private input. Also, we propose a simplified
+design for linear Gaussian processes by restricting the sampling policy to a
+special collection. We show that the optimal reconstruction of the system state
+and the private process is similar to Kalman filter in the linear Gaussian
+case, and the objective of the sampler design problem can be analytically
+expressed based on a conditional mean and covariance matrix. Furthermore, we
+develop an numerical algorithm to optimize the sampling and reconstruction
+policies, wherein the policy gradient theorem for the optimal sampling design
+is derived based on the implicit function theorem. Finally, we verify our
+design and show it capabilities in state reconstruction, privacy protection and
+data size reduction via simulations.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.11923v1">Rate Optimality and Phase Transition for User-Level Local Differential
+  Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36">  
+  <p><b>Published on:</b> 2024-05-20T09:59:03Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Alexander Kent, Thomas B. Berrett, Yi Yu</p>
+    <p><b>Summary:</b> Most of the literature on differential privacy considers the item-level case
+where each user has a single observation, but a growing field of interest is
+that of user-level privacy where each of the $n$ users holds $T$ observations
+and wishes to maintain the privacy of their entire collection.
+  In this paper, we derive a general minimax lower bound, which shows that, for
+locally private user-level estimation problems, the risk cannot, in general, be
+made to vanish for a fixed number of users even when each user holds an
+arbitrarily large number of observations. We then derive matching, up to
+logarithmic factors, lower and upper bounds for univariate and multidimensional
+mean estimation, sparse mean estimation and non-parametric density estimation.
+In particular, with other model parameters held fixed, we observe phase
+transition phenomena in the minimax rates as $T$ the number of observations
+each user holds varies.
+  In the case of (non-sparse) mean estimation and density estimation, we see
+that, for $T$ below a phase transition boundary, the rate is the same as having
+$nT$ users in the item-level setting. Different behaviour is however observed
+in the case of $s$-sparse $d$-dimensional mean estimation, wherein consistent
+estimation is impossible when $d$ exceeds the number of observations in the
+item-level setting, but is possible in the user-level setting when $T \gtrsim s
+\log (d)$, up to logarithmic factors. This may be of independent interest for
+applications as an example of a high-dimensional problem that is feasible under
+local privacy constraints.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.11713v1">Decentralized Privacy Preservation for Critical Connections in Graphs</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B">
+  <p><b>Published on:</b> 2024-05-20T01:22:21Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Conggai Li, Wei Ni, Ming Ding, Youyang Qu, Jianjun Chen, David Smith, Wenjie Zhang, Thierry Rakotoarivelo</p>
+    <p><b>Summary:</b> Many real-world interconnections among entities can be characterized as
+graphs. Collecting local graph information with balanced privacy and data
+utility has garnered notable interest recently. This paper delves into the
+problem of identifying and protecting critical information of entity
+connections for individual participants in a graph based on cohesive subgraph
+searches. This problem has not been addressed in the literature. To address the
+problem, we propose to extract the critical connections of a queried vertex
+using a fortress-like cohesive subgraph model known as $p$-cohesion. A user's
+connections within a fortress are obfuscated when being released, to protect
+critical information about the user. Novel merit and penalty score functions
+are designed to measure each participant's critical connections in the minimal
+$p$-cohesion, facilitating effective identification of the connections. We
+further propose to preserve the privacy of a vertex enquired by only protecting
+its critical connections when responding to queries raised by data collectors.
+We prove that, under the decentralized differential privacy (DDP) mechanism,
+one's response satisfies $(\varepsilon, \delta)$-DDP when its critical
+connections are protected while the rest remains unperturbed. The effectiveness
+of our proposed method is demonstrated through extensive experiments on
+real-life graph datasets.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.11712v1">Trust, Because You Can't Verify:Privacy and Security Hurdles in
+  Education Technology Acquisition Practices</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2024-05-20T01:15:57Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Easton Kelso, Ananta Soneji, Sazzadur Rahaman, Yan Soshitaishvili, Rakibul Hasan</p>
+    <p><b>Summary:</b> The education technology (EdTech) landscape is expanding rapidly in higher
+education institutes (HEIs). This growth brings enormous complexity. Protecting
+the extensive data collected by these tools is crucial for HEIs. Privacy
+incidents of data breaches and misuses can have dire security and privacy
+consequences on the data subjects, particularly students, who are often
+compelled to use these tools. This urges an in-depth understanding of HEI and
+EdTech vendor dynamics, which is largely understudied.
+  To address this gap, we conduct a semi-structured interview study with 13
+participants who are in the EdTech leadership roles at seven HEIs. Our study
+uncovers the EdTech acquisition process in the HEI context, the consideration
+of security and privacy issues throughout that process, the pain points of HEI
+personnel in establishing adequate security and privacy protection mechanisms
+in service contracts, and their struggle in holding vendors accountable due to
+a lack of visibility into their system and power-asymmetry, among other
+reasons. We discuss certain observations about the status quo and conclude with
+recommendations to improve the situation.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.11580v1">Securing Health Data on the Blockchain: A Differential Privacy and
+  Federated Learning Framework</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-05-19T15:15:18Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Daniel Commey, Sena Hounsinou, Garth V. Crosby</p>
+    <p><b>Summary:</b> This study proposes a framework to enhance privacy in Blockchain-based
+Internet of Things (BIoT) systems used in the healthcare sector. The framework
+addresses the challenge of leveraging health data for analytics while
+protecting patient privacy. To achieve this, the study integrates Differential
+Privacy (DP) with Federated Learning (FL) to protect sensitive health data
+collected by IoT nodes. The proposed framework utilizes dynamic personalization
+and adaptive noise distribution strategies to balance privacy and data utility.
+Additionally, blockchain technology ensures secure and transparent aggregation
+and storage of model updates. Experimental results on the SVHN dataset
+demonstrate that the proposed framework achieves strong privacy guarantees
+against various attack scenarios while maintaining high accuracy in health
+analytics tasks. For 15 rounds of federated learning with an epsilon value of
+8.0, the model obtains an accuracy of 64.50%. The blockchain integration,
+utilizing Ethereum, Ganache, Web3.py, and IPFS, exhibits an average transaction
+latency of around 6 seconds and consistent gas consumption across rounds,
+validating the practicality and feasibility of the proposed approach.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.11419v1">Sketches-based join size estimation under local differential privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-05-19T01:21:54Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Meifan Zhang, Xin Liu, Lihua Yin</p>
+    <p><b>Summary:</b> Join size estimation on sensitive data poses a risk of privacy leakage. Local
+differential privacy (LDP) is a solution to preserve privacy while collecting
+sensitive data, but it introduces significant noise when dealing with sensitive
+join attributes that have large domains. Employing probabilistic structures
+such as sketches is a way to handle large domains, but it leads to
+hash-collision errors. To achieve accurate estimations, it is necessary to
+reduce both the noise error and hash-collision error. To tackle the noise error
+caused by protecting sensitive join values with large domains, we introduce a
+novel algorithm called LDPJoinSketch for sketch-based join size estimation
+under LDP. Additionally, to address the inherent hash-collision errors in
+sketches under LDP, we propose an enhanced method called LDPJoinSketch+. It
+utilizes a frequency-aware perturbation mechanism that effectively separates
+high-frequency and low-frequency items without compromising privacy. The
+proposed methods satisfy LDP, and the estimation error is bounded. Experimental
+results show that our method outperforms existing methods, effectively
+enhancing the accuracy of join size estimation under LDP.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.11341v1">A Secure and Privacy-Friendly Logging Scheme</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
+  <p><b>Published on:</b> 2024-05-18T17:10:48Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Andreas Aßmuth, Robert Duncan, Simon Liebl, Matthias Söllner</p>
+    <p><b>Summary:</b> Finding a robust security mechanism for audit trail logging has long been a
+poorly satisfied goal. There are many reasons for this. The most significant of
+these is that the audit trail is a highly sought after goal of attackers to
+ensure that they do not get caught. Thus they have an incredibly strong
+incentive to prevent companies from succeeding in this worthy aim. Regulation,
+such as the European Union General Data Protection Regulation, has brought a
+strong incentive for companies to achieve success in this area due to the
+punitive level of fines that can now be levied in the event of a successful
+breach by an attacker. We seek to resolve this issue through the use of an
+encrypted audit trail process that saves encrypted records to a true immutable
+database, which can ensure audit trail records are permanently retained in
+encrypted form, with no possibility of the records being compromised. This
+ensures compliance with the General Data Protection Regulation can be achieved.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2405.10904v1">Broadening Privacy and Surveillance: Eliciting Interconnected Values
@@ -1513,6 +1491,30 @@ theoretical analysis, confirming that quantization can indeed enhance privacy
 protection. This study not only enhances our understanding of the correlation
 between privacy and communication in FL but also underscores the advantages of
 quantization in preserving privacy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.10989v1">Learnable Privacy Neurons Localization in Language Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-05-16T08:11:08Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ruizhe Chen, Tianxiang Hu, Yang Feng, Zuozhu Liu</p>
+    <p><b>Summary:</b> Concerns regarding Large Language Models (LLMs) to memorize and disclose
+private information, particularly Personally Identifiable Information (PII),
+become prominent within the community. Many efforts have been made to mitigate
+the privacy risks. However, the mechanism through which LLMs memorize PII
+remains poorly understood. To bridge this gap, we introduce a pioneering method
+for pinpointing PII-sensitive neurons (privacy neurons) within LLMs. Our method
+employs learnable binary weight masks to localize specific neurons that account
+for the memorization of PII in LLMs through adversarial training. Our
+investigations discover that PII is memorized by a small subset of neurons
+across all layers, which shows the property of PII specificity. Furthermore, we
+propose to validate the potential in PII risk mitigation by deactivating the
+localized privacy neurons. Both quantitative and qualitative experiments
+demonstrate the effectiveness of our neuron localization algorithm.</p>
   </details>
 </div>
 
