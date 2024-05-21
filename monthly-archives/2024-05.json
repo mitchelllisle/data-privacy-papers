@@ -1558,5 +1558,209 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.11975v1",
+    "title" : "A Stochastic Sampling Approach to Privacy",
+    "summary" : "This paper proposes an optimal stochastic sampling approach to privacy, in\nwhich a sensor observes a process which is correlated to private information.\nIn out set-up, a sampler decides to keep or discard the sensor's observations.\nThe kept samples are shared with an adversary who might attempt to infer the\nprivate process based on the sampler's output. The privacy leakages are\ncaptured with the mutual information between the private process and sampler's\noutput. We cast the optimal sampling design as an optimization problem with two\nobjectives: (i) minimizing the reconstruction error of the observed process\nusing the sampler's output, (ii) reducing the privacy leakages. We first show\nthe optimal reconstruction policy is deterministic and can be obtained by\nsolving a one-step optimization problem at each time step. We also derive the\noptimality equations of the privacy-sampler for a general class of processes\nvia the dynamic decomposition method, and show the sampler controls the\nadversary's belief about the private input. Also, we propose a simplified\ndesign for linear Gaussian processes by restricting the sampling policy to a\nspecial collection. We show that the optimal reconstruction of the system state\nand the private process is similar to Kalman filter in the linear Gaussian\ncase, and the objective of the sampler design problem can be analytically\nexpressed based on a conditional mean and covariance matrix. Furthermore, we\ndevelop an numerical algorithm to optimize the sampling and reconstruction\npolicies, wherein the policy gradient theorem for the optimal sampling design\nis derived based on the implicit function theorem. Finally, we verify our\ndesign and show it capabilities in state reconstruction, privacy protection and\ndata size reduction via simulations.",
+    "updated" : "2024-05-20T12:10:26Z",
+    "published" : "2024-05-20T12:10:26Z",
+    "authors" : [
+      {
+        "name" : "Chuanghong Weng"
+      },
+      {
+        "name" : "Ehsan Nekouei"
+      }
+    ],
+    "categories" : [
+      "eess.SY",
+      "cs.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.11923v1",
+    "title" : "Rate Optimality and Phase Transition for User-Level Local Differential\n  Privacy",
+    "summary" : "Most of the literature on differential privacy considers the item-level case\nwhere each user has a single observation, but a growing field of interest is\nthat of user-level privacy where each of the $n$ users holds $T$ observations\nand wishes to maintain the privacy of their entire collection.\n  In this paper, we derive a general minimax lower bound, which shows that, for\nlocally private user-level estimation problems, the risk cannot, in general, be\nmade to vanish for a fixed number of users even when each user holds an\narbitrarily large number of observations. We then derive matching, up to\nlogarithmic factors, lower and upper bounds for univariate and multidimensional\nmean estimation, sparse mean estimation and non-parametric density estimation.\nIn particular, with other model parameters held fixed, we observe phase\ntransition phenomena in the minimax rates as $T$ the number of observations\neach user holds varies.\n  In the case of (non-sparse) mean estimation and density estimation, we see\nthat, for $T$ below a phase transition boundary, the rate is the same as having\n$nT$ users in the item-level setting. Different behaviour is however observed\nin the case of $s$-sparse $d$-dimensional mean estimation, wherein consistent\nestimation is impossible when $d$ exceeds the number of observations in the\nitem-level setting, but is possible in the user-level setting when $T \\gtrsim s\n\\log (d)$, up to logarithmic factors. This may be of independent interest for\napplications as an example of a high-dimensional problem that is feasible under\nlocal privacy constraints.",
+    "updated" : "2024-05-20T09:59:03Z",
+    "published" : "2024-05-20T09:59:03Z",
+    "authors" : [
+      {
+        "name" : "Alexander Kent"
+      },
+      {
+        "name" : "Thomas B. Berrett"
+      },
+      {
+        "name" : "Yi Yu"
+      }
+    ],
+    "categories" : [
+      "math.ST",
+      "stat.ME",
+      "stat.TH"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.11713v1",
+    "title" : "Decentralized Privacy Preservation for Critical Connections in Graphs",
+    "summary" : "Many real-world interconnections among entities can be characterized as\ngraphs. Collecting local graph information with balanced privacy and data\nutility has garnered notable interest recently. This paper delves into the\nproblem of identifying and protecting critical information of entity\nconnections for individual participants in a graph based on cohesive subgraph\nsearches. This problem has not been addressed in the literature. To address the\nproblem, we propose to extract the critical connections of a queried vertex\nusing a fortress-like cohesive subgraph model known as $p$-cohesion. A user's\nconnections within a fortress are obfuscated when being released, to protect\ncritical information about the user. Novel merit and penalty score functions\nare designed to measure each participant's critical connections in the minimal\n$p$-cohesion, facilitating effective identification of the connections. We\nfurther propose to preserve the privacy of a vertex enquired by only protecting\nits critical connections when responding to queries raised by data collectors.\nWe prove that, under the decentralized differential privacy (DDP) mechanism,\none's response satisfies $(\\varepsilon, \\delta)$-DDP when its critical\nconnections are protected while the rest remains unperturbed. The effectiveness\nof our proposed method is demonstrated through extensive experiments on\nreal-life graph datasets.",
+    "updated" : "2024-05-20T01:22:21Z",
+    "published" : "2024-05-20T01:22:21Z",
+    "authors" : [
+      {
+        "name" : "Conggai Li"
+      },
+      {
+        "name" : "Wei Ni"
+      },
+      {
+        "name" : "Ming Ding"
+      },
+      {
+        "name" : "Youyang Qu"
+      },
+      {
+        "name" : "Jianjun Chen"
+      },
+      {
+        "name" : "David Smith"
+      },
+      {
+        "name" : "Wenjie Zhang"
+      },
+      {
+        "name" : "Thierry Rakotoarivelo"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DS"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.11712v1",
+    "title" : "Trust, Because You Can't Verify:Privacy and Security Hurdles in\n  Education Technology Acquisition Practices",
+    "summary" : "The education technology (EdTech) landscape is expanding rapidly in higher\neducation institutes (HEIs). This growth brings enormous complexity. Protecting\nthe extensive data collected by these tools is crucial for HEIs. Privacy\nincidents of data breaches and misuses can have dire security and privacy\nconsequences on the data subjects, particularly students, who are often\ncompelled to use these tools. This urges an in-depth understanding of HEI and\nEdTech vendor dynamics, which is largely understudied.\n  To address this gap, we conduct a semi-structured interview study with 13\nparticipants who are in the EdTech leadership roles at seven HEIs. Our study\nuncovers the EdTech acquisition process in the HEI context, the consideration\nof security and privacy issues throughout that process, the pain points of HEI\npersonnel in establishing adequate security and privacy protection mechanisms\nin service contracts, and their struggle in holding vendors accountable due to\na lack of visibility into their system and power-asymmetry, among other\nreasons. We discuss certain observations about the status quo and conclude with\nrecommendations to improve the situation.",
+    "updated" : "2024-05-20T01:15:57Z",
+    "published" : "2024-05-20T01:15:57Z",
+    "authors" : [
+      {
+        "name" : "Easton Kelso"
+      },
+      {
+        "name" : "Ananta Soneji"
+      },
+      {
+        "name" : "Sazzadur Rahaman"
+      },
+      {
+        "name" : "Yan Soshitaishvili"
+      },
+      {
+        "name" : "Rakibul Hasan"
+      }
+    ],
+    "categories" : [
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.11580v1",
+    "title" : "Securing Health Data on the Blockchain: A Differential Privacy and\n  Federated Learning Framework",
+    "summary" : "This study proposes a framework to enhance privacy in Blockchain-based\nInternet of Things (BIoT) systems used in the healthcare sector. The framework\naddresses the challenge of leveraging health data for analytics while\nprotecting patient privacy. To achieve this, the study integrates Differential\nPrivacy (DP) with Federated Learning (FL) to protect sensitive health data\ncollected by IoT nodes. The proposed framework utilizes dynamic personalization\nand adaptive noise distribution strategies to balance privacy and data utility.\nAdditionally, blockchain technology ensures secure and transparent aggregation\nand storage of model updates. Experimental results on the SVHN dataset\ndemonstrate that the proposed framework achieves strong privacy guarantees\nagainst various attack scenarios while maintaining high accuracy in health\nanalytics tasks. For 15 rounds of federated learning with an epsilon value of\n8.0, the model obtains an accuracy of 64.50%. The blockchain integration,\nutilizing Ethereum, Ganache, Web3.py, and IPFS, exhibits an average transaction\nlatency of around 6 seconds and consistent gas consumption across rounds,\nvalidating the practicality and feasibility of the proposed approach.",
+    "updated" : "2024-05-19T15:15:18Z",
+    "published" : "2024-05-19T15:15:18Z",
+    "authors" : [
+      {
+        "name" : "Daniel Commey"
+      },
+      {
+        "name" : "Sena Hounsinou"
+      },
+      {
+        "name" : "Garth V. Crosby"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CY",
+      "cs.DC",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.11419v1",
+    "title" : "Sketches-based join size estimation under local differential privacy",
+    "summary" : "Join size estimation on sensitive data poses a risk of privacy leakage. Local\ndifferential privacy (LDP) is a solution to preserve privacy while collecting\nsensitive data, but it introduces significant noise when dealing with sensitive\njoin attributes that have large domains. Employing probabilistic structures\nsuch as sketches is a way to handle large domains, but it leads to\nhash-collision errors. To achieve accurate estimations, it is necessary to\nreduce both the noise error and hash-collision error. To tackle the noise error\ncaused by protecting sensitive join values with large domains, we introduce a\nnovel algorithm called LDPJoinSketch for sketch-based join size estimation\nunder LDP. Additionally, to address the inherent hash-collision errors in\nsketches under LDP, we propose an enhanced method called LDPJoinSketch+. It\nutilizes a frequency-aware perturbation mechanism that effectively separates\nhigh-frequency and low-frequency items without compromising privacy. The\nproposed methods satisfy LDP, and the estimation error is bounded. Experimental\nresults show that our method outperforms existing methods, effectively\nenhancing the accuracy of join size estimation under LDP.",
+    "updated" : "2024-05-19T01:21:54Z",
+    "published" : "2024-05-19T01:21:54Z",
+    "authors" : [
+      {
+        "name" : "Meifan Zhang"
+      },
+      {
+        "name" : "Xin Liu"
+      },
+      {
+        "name" : "Lihua Yin"
+      }
+    ],
+    "categories" : [
+      "cs.DB",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.11341v1",
+    "title" : "A Secure and Privacy-Friendly Logging Scheme",
+    "summary" : "Finding a robust security mechanism for audit trail logging has long been a\npoorly satisfied goal. There are many reasons for this. The most significant of\nthese is that the audit trail is a highly sought after goal of attackers to\nensure that they do not get caught. Thus they have an incredibly strong\nincentive to prevent companies from succeeding in this worthy aim. Regulation,\nsuch as the European Union General Data Protection Regulation, has brought a\nstrong incentive for companies to achieve success in this area due to the\npunitive level of fines that can now be levied in the event of a successful\nbreach by an attacker. We seek to resolve this issue through the use of an\nencrypted audit trail process that saves encrypted records to a true immutable\ndatabase, which can ensure audit trail records are permanently retained in\nencrypted form, with no possibility of the records being compromised. This\nensures compliance with the General Data Protection Regulation can be achieved.",
+    "updated" : "2024-05-18T17:10:48Z",
+    "published" : "2024-05-18T17:10:48Z",
+    "authors" : [
+      {
+        "name" : "Andreas Aßmuth"
+      },
+      {
+        "name" : "Robert Duncan"
+      },
+      {
+        "name" : "Simon Liebl"
+      },
+      {
+        "name" : "Matthias Söllner"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.10989v1",
+    "title" : "Learnable Privacy Neurons Localization in Language Models",
+    "summary" : "Concerns regarding Large Language Models (LLMs) to memorize and disclose\nprivate information, particularly Personally Identifiable Information (PII),\nbecome prominent within the community. Many efforts have been made to mitigate\nthe privacy risks. However, the mechanism through which LLMs memorize PII\nremains poorly understood. To bridge this gap, we introduce a pioneering method\nfor pinpointing PII-sensitive neurons (privacy neurons) within LLMs. Our method\nemploys learnable binary weight masks to localize specific neurons that account\nfor the memorization of PII in LLMs through adversarial training. Our\ninvestigations discover that PII is memorized by a small subset of neurons\nacross all layers, which shows the property of PII specificity. Furthermore, we\npropose to validate the potential in PII risk mitigation by deactivating the\nlocalized privacy neurons. Both quantitative and qualitative experiments\ndemonstrate the effectiveness of our neuron localization algorithm.",
+    "updated" : "2024-05-16T08:11:08Z",
+    "published" : "2024-05-16T08:11:08Z",
+    "authors" : [
+      {
+        "name" : "Ruizhe Chen"
+      },
+      {
+        "name" : "Tianxiang Hu"
+      },
+      {
+        "name" : "Yang Feng"
+      },
+      {
+        "name" : "Zuozhu Liu"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL",
+      "cs.CR"
+    ]
   }
 ]
