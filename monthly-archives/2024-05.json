@@ -1762,5 +1762,308 @@
       "cs.CL",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.14725v1",
+    "title" : "A Systematic and Formal Study of the Impact of Local Differential\n  Privacy on Fairness: Preliminary Results",
+    "summary" : "Machine learning (ML) algorithms rely primarily on the availability of\ntraining data, and, depending on the domain, these data may include sensitive\ninformation about the data providers, thus leading to significant privacy\nissues. Differential privacy (DP) is the predominant solution for\nprivacy-preserving ML, and the local model of DP is the preferred choice when\nthe server or the data collector are not trusted. Recent experimental studies\nhave shown that local DP can impact ML prediction for different subgroups of\nindividuals, thus affecting fair decision-making. However, the results are\nconflicting in the sense that some studies show a positive impact of privacy on\nfairness while others show a negative one. In this work, we conduct a\nsystematic and formal study of the effect of local DP on fairness.\nSpecifically, we perform a quantitative study of how the fairness of the\ndecisions made by the ML model changes under local DP for different levels of\nprivacy and data distributions. In particular, we provide bounds in terms of\nthe joint distributions and the privacy level, delimiting the extent to which\nlocal DP can impact the fairness of the model. We characterize the cases in\nwhich privacy reduces discrimination and those with the opposite effect. We\nvalidate our theoretical findings on synthetic and real-world datasets. Our\nresults are preliminary in the sense that, for now, we study only the case of\none sensitive attribute, and only statistical disparity, conditional\nstatistical disparity, and equal opportunity difference.",
+    "updated" : "2024-05-23T15:54:03Z",
+    "published" : "2024-05-23T15:54:03Z",
+    "authors" : [
+      {
+        "name" : "Karima Makhlouf"
+      },
+      {
+        "name" : "Tamara Stefanovic"
+      },
+      {
+        "name" : "Heber H. Arcolezi"
+      },
+      {
+        "name" : "Catuscia Palamidessi"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.14528v1",
+    "title" : "Towards Privacy-Aware and Personalised Assistive Robots: A User-Centred\n  Approach",
+    "summary" : "The global increase in the elderly population necessitates innovative\nlong-term care solutions to improve the quality of life for vulnerable\nindividuals while reducing caregiver burdens. Assistive robots, leveraging\nadvancements in Machine Learning, offer promising personalised support.\nHowever, their integration into daily life raises significant privacy concerns.\nWidely used frameworks like the Robot Operating System (ROS) historically lack\ninherent privacy mechanisms, complicating data-driven approaches in robotics.\nThis research pioneers user-centric, privacy-aware technologies such as\nFederated Learning (FL) to advance assistive robotics. FL enables collaborative\nlearning without sharing sensitive data, addressing privacy and scalability\nissues. This work includes developing solutions for smart wheelchair\nassistance, enhancing user independence and well-being. By tackling challenges\nrelated to non-stationary data and heterogeneous environments, the research\naims to improve personalisation and user experience. Ultimately, it seeks to\nlead the responsible integration of assistive robots into society, enhancing\nthe quality of life for elderly and care-dependent individuals.",
+    "updated" : "2024-05-23T13:14:08Z",
+    "published" : "2024-05-23T13:14:08Z",
+    "authors" : [
+      {
+        "name" : "Fernando E. Casado"
+      }
+    ],
+    "categories" : [
+      "cs.RO",
+      "cs.HC",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.14457v1",
+    "title" : "Tighter Privacy Auditing of DP-SGD in the Hidden State Threat Model",
+    "summary" : "Machine learning models can be trained with formal privacy guarantees via\ndifferentially private optimizers such as DP-SGD. In this work, we study such\nprivacy guarantees when the adversary only accesses the final model, i.e.,\nintermediate model updates are not released. In the existing literature, this\nhidden state threat model exhibits a significant gap between the lower bound\nprovided by empirical privacy auditing and the theoretical upper bound provided\nby privacy accounting. To challenge this gap, we propose to audit this threat\nmodel with adversaries that craft a gradient sequence to maximize the privacy\nloss of the final model without accessing intermediate models. We demonstrate\nexperimentally how this approach consistently outperforms prior attempts at\nauditing the hidden state model. When the crafted gradient is inserted at every\noptimization step, our results imply that releasing only the final model does\nnot amplify privacy, providing a novel negative result. On the other hand, when\nthe crafted gradient is not inserted at every step, we show strong evidence\nthat a privacy amplification phenomenon emerges in the general non-convex\nsetting (albeit weaker than in convex regimes), suggesting that existing\nprivacy upper bounds can be improved.",
+    "updated" : "2024-05-23T11:38:38Z",
+    "published" : "2024-05-23T11:38:38Z",
+    "authors" : [
+      {
+        "name" : "Tudor Cebere"
+      },
+      {
+        "name" : "Aurélien Bellet"
+      },
+      {
+        "name" : "Nicolas Papernot"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.14038v1",
+    "title" : "FLIPHAT: Joint Differential Privacy for High Dimensional Sparse Linear\n  Bandits",
+    "summary" : "High dimensional sparse linear bandits serve as an efficient model for\nsequential decision-making problems (e.g. personalized medicine), where high\ndimensional features (e.g. genomic data) on the users are available, but only a\nsmall subset of them are relevant. Motivated by data privacy concerns in these\napplications, we study the joint differentially private high dimensional sparse\nlinear bandits, where both rewards and contexts are considered as private data.\nFirst, to quantify the cost of privacy, we derive a lower bound on the regret\nachievable in this setting. To further address the problem, we design a\ncomputationally efficient bandit algorithm, \\textbf{F}orgetfu\\textbf{L}\n\\textbf{I}terative \\textbf{P}rivate \\textbf{HA}rd \\textbf{T}hresholding\n(FLIPHAT). Along with doubling of episodes and episodic forgetting, FLIPHAT\ndeploys a variant of Noisy Iterative Hard Thresholding (N-IHT) algorithm as a\nsparse linear regression oracle to ensure both privacy and regret-optimality.\nWe show that FLIPHAT achieves optimal regret up to logarithmic factors. We\nanalyze the regret by providing a novel refined analysis of the estimation\nerror of N-IHT, which is of parallel interest.",
+    "updated" : "2024-05-22T22:19:12Z",
+    "published" : "2024-05-22T22:19:12Z",
+    "authors" : [
+      {
+        "name" : "Sunrit Chakraborty"
+      },
+      {
+        "name" : "Saptarshi Roy"
+      },
+      {
+        "name" : "Debabrota Basu"
+      }
+    ],
+    "categories" : [
+      "stat.ML",
+      "cs.LG",
+      "math.ST",
+      "stat.TH"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.13857v1",
+    "title" : "What Do Privacy Advertisements Communicate to Consumers?",
+    "summary" : "When companies release marketing materials aimed at promoting their privacy\npractices or highlighting specific privacy features, what do they actually\ncommunicate to consumers? In this paper, we explore the impact of privacy\nmarketing materials on: (1) consumers' attitude towards the organizations\nproviding the campaigns, (2) overall privacy awareness, and (3) the\nactionability of suggested privacy advice. To this end, we investigated the\nimpact of four privacy advertising videos and one privacy game published by\nfive different technology companies. We conducted 24 semi-structured interviews\nwith participants randomly assigned to view one or two of the videos or play\nthe game. Our findings suggest that awareness of privacy features can\ncontribute to positive perceptions of a company or its products. The ads we\ntested were more successful in communicating the advertised privacy features\nthan the game we tested. We observed that advertising a single privacy feature\nusing a single metaphor in a short ad increased awareness of the advertised\nfeature. The game failed to communicate privacy features or motivate study\nparticipants to use the features. Our results also suggest that privacy\ncampaigns can be useful for raising awareness about privacy features and\nimproving brand image, but may not be the most effective way to teach viewers\nhow to use privacy features.",
+    "updated" : "2024-05-22T17:32:04Z",
+    "published" : "2024-05-22T17:32:04Z",
+    "authors" : [
+      {
+        "name" : "Xiaoxin Shen"
+      },
+      {
+        "name" : "Eman Alashwali"
+      },
+      {
+        "name" : "Lorrie Faith Cranor"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CY",
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.13847v1",
+    "title" : "AI-Protected Blockchain-based IoT environments: Harnessing the Future of\n  Network Security and Privacy",
+    "summary" : "Integrating blockchain technology with the Internet of Things offers\ntransformative possibilities for enhancing network security and privacy in the\ncontemporary digital landscape, where interconnected devices and expansive\nnetworks are ubiquitous. This paper explores the pivotal role of artificial\nintelligence in bolstering blockchain-enabled IoT systems, potentially marking\na significant leap forward in safeguarding data integrity and confidentiality\nacross networks. Blockchain technology provides a decentralized and immutable\nledger, ideal for the secure management of device identities and transactions\nin IoT networks. When coupled with AI, these systems gain the ability to not\nonly automate and optimize security protocols but also adaptively respond to\nnew and evolving cyber threats. This dual capability enhances the resilience of\nnetworks against cyber-attacks, a critical consideration as IoT devices\nincreasingly permeate critical infrastructures. The synergy between AI and\nblockchain in IoT is profound. AI algorithms can analyze vast amounts of data\nfrom IoT devices to detect patterns and anomalies that may signify security\nbreaches. Concurrently, blockchain can ensure that data records are\ntamper-proof, enhancing the reliability of AI-driven security measures.\nMoreover, this research evaluates the implications of AI-enhanced blockchain\nsystems on privacy protection within IoT networks. IoT devices often collect\nsensitive personal data, making privacy a paramount concern. AI can facilitate\nthe development of new protocols that ensure data privacy and user anonymity\nwithout compromising the functionality of IoT systems. Through comprehensive\nanalysis and case studies, this paper aims to provide an in-depth understanding\nof how AI-enhanced blockchain technology can revolutionize network security and\nprivacy in IoT environments.",
+    "updated" : "2024-05-22T17:14:19Z",
+    "published" : "2024-05-22T17:14:19Z",
+    "authors" : [
+      {
+        "name" : "Ali Mohammadi Ruzbahani"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.13804v1",
+    "title" : "Guarding Multiple Secrets: Enhanced Summary Statistic Privacy for Data\n  Sharing",
+    "summary" : "Data sharing enables critical advances in many research areas and business\napplications, but it may lead to inadvertent disclosure of sensitive summary\nstatistics (e.g., means or quantiles). Existing literature only focuses on\nprotecting a single confidential quantity, while in practice, data sharing\ninvolves multiple sensitive statistics. We propose a novel framework to define,\nanalyze, and protect multi-secret summary statistics privacy in data sharing.\nSpecifically, we measure the privacy risk of any data release mechanism by the\nworst-case probability of an attacker successfully inferring summary statistic\nsecrets. Given an attacker's objective spanning from inferring a subset to the\nentirety of summary statistic secrets, we systematically design and analyze\ntailored privacy metrics. Defining the distortion as the worst-case distance\nbetween the original and released data distribution, we analyze the tradeoff\nbetween privacy and distortion. Our contribution also includes designing and\nanalyzing data release mechanisms tailored for different data distributions and\nsecret types. Evaluations on real-world data demonstrate the effectiveness of\nour mechanisms in practical applications.",
+    "updated" : "2024-05-22T16:30:34Z",
+    "published" : "2024-05-22T16:30:34Z",
+    "authors" : [
+      {
+        "name" : "Shuaiqi Wang"
+      },
+      {
+        "name" : "Rongzhe Wei"
+      },
+      {
+        "name" : "Mohsen Ghassemi"
+      },
+      {
+        "name" : "Eleonora Kreacic"
+      },
+      {
+        "name" : "Vamsi K. Potluru"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.13801v1",
+    "title" : "Bayesian Inference Under Differential Privacy: Prior Selection\n  Considerations with Application to Univariate Gaussian Data and Regression",
+    "summary" : "We describe Bayesian inference for the mean and variance of bounded data\nprotected by differential privacy and modeled as Gaussian. Using this setting,\nwe demonstrate that analysts can and should take the constraints imposed by the\nbounds into account when specifying prior distributions. Additionally, we\nprovide theoretical and empirical results regarding what classes of default\npriors produce valid inference for a differentially private release in settings\nwhere substantial prior information is not available. We discuss how these\nresults can be applied to Bayesian inference for regression with differentially\nprivate data.",
+    "updated" : "2024-05-22T16:27:20Z",
+    "published" : "2024-05-22T16:27:20Z",
+    "authors" : [
+      {
+        "name" : "Zeki Kazan"
+      },
+      {
+        "name" : "Jerome P. Reiter"
+      }
+    ],
+    "categories" : [
+      "stat.ME",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.13744v1",
+    "title" : "A Privacy Measure Turned Upside Down? Investigating the Use of HTTP\n  Client Hints on the Web",
+    "summary" : "HTTP client hints are a set of standardized HTTP request headers designed to\nmodernize and potentially replace the traditional user agent string. While the\nuser agent string exposes a wide range of information about the client's\nbrowser and device, client hints provide a controlled and structured approach\nfor clients to selectively disclose their capabilities and preferences to\nservers. Essentially, client hints aim at more effective and privacy-friendly\ndisclosure of browser or client properties than the user agent string.\n  We present a first long-term study of the use of HTTP client hints in the\nwild. We found that despite being implemented in almost all web browsers,\nserver-side usage of client hints remains generally low. However, in the\ncontext of third-party websites, which are often linked to trackers, the\nadoption rate is significantly higher. This is concerning because client hints\nallow the retrieval of more data from the client than the user agent string\nprovides, and there are currently no mechanisms for users to detect or control\nthis potential data leakage. Our work provides valuable insights for web users,\nbrowser vendors, and researchers by exposing potential privacy violations via\nclient hints and providing help in developing remediation strategies as well as\nfurther research.",
+    "updated" : "2024-05-22T15:32:12Z",
+    "published" : "2024-05-22T15:32:12Z",
+    "authors" : [
+      {
+        "name" : "Stephan Wiefling"
+      },
+      {
+        "name" : "Marian Hönscheid"
+      },
+      {
+        "name" : "Luigi Lo Iacono"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.NI",
+      "cs.SI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.13453v1",
+    "title" : "A Huber Loss Minimization Approach to Mean Estimation under User-level\n  Differential Privacy",
+    "summary" : "Privacy protection of users' entire contribution of samples is important in\ndistributed systems. The most effective approach is the two-stage scheme, which\nfinds a small interval first and then gets a refined estimate by clipping\nsamples into the interval. However, the clipping operation induces bias, which\nis serious if the sample distribution is heavy-tailed. Besides, users with\nlarge local sample sizes can make the sensitivity much larger, thus the method\nis not suitable for imbalanced users. Motivated by these challenges, we propose\na Huber loss minimization approach to mean estimation under user-level\ndifferential privacy. The connecting points of Huber loss can be adaptively\nadjusted to deal with imbalanced users. Moreover, it avoids the clipping\noperation, thus significantly reducing the bias compared with the two-stage\napproach. We provide a theoretical analysis of our approach, which gives the\nnoise strength needed for privacy protection, as well as the bound of mean\nsquared error. The result shows that the new method is much less sensitive to\nthe imbalance of user-wise sample sizes and the tail of sample distributions.\nFinally, we perform numerical experiments to validate our theoretical analysis.",
+    "updated" : "2024-05-22T08:46:45Z",
+    "published" : "2024-05-22T08:46:45Z",
+    "authors" : [
+      {
+        "name" : "Puning Zhao"
+      },
+      {
+        "name" : "Lifeng Lai"
+      },
+      {
+        "name" : "Li Shen"
+      },
+      {
+        "name" : "Qingming Li"
+      },
+      {
+        "name" : "Jiafei Wu"
+      },
+      {
+        "name" : "Zhe Liu"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.13380v1",
+    "title" : "The Illusion of Anonymity: Uncovering the Impact of User Actions on\n  Privacy in Web3 Social Ecosystems",
+    "summary" : "The rise of Web3 social ecosystems signifies the dawn of a new chapter in\ndigital interaction, offering significant prospects for user engagement and\nfinancial advancement. Nonetheless, this progress is shadowed by potential\nprivacy concessions, especially as these platforms frequently merge with\nexisting Web2.0 social media accounts, amplifying data privacy risks for users.\n  In this study, we investigate the nuanced dynamics between user engagement on\nWeb3 social platforms and the consequent privacy concerns. We scrutinize the\nwidespread phenomenon of fabricated activities, which encompasses the\nestablishment of bogus accounts aimed at mimicking popularity and the\ndeliberate distortion of social interactions by some individuals to gain\nfinancial rewards. Such deceptive maneuvers not only distort the true measure\nof the active user base but also amplify privacy threats for all members of the\nuser community. We also find that, notwithstanding their attempts to limit\nsocial exposure, users remain entangled in privacy vulnerabilities. The actions\nof those highly engaged users, albeit often a minority group, can inadvertently\nbreach the privacy of the larger collective.\n  By casting light on the delicate interplay between user engagement, financial\nmotives, and privacy issues, we offer a comprehensive examination of the\nintrinsic challenges and hazards present in the Web3 social milieu. We\nhighlight the urgent need for more stringent privacy measures and ethical\nprotocols to navigate the complex web of social exchanges and financial\nambitions in the rapidly evolving Web3.",
+    "updated" : "2024-05-22T06:26:15Z",
+    "published" : "2024-05-22T06:26:15Z",
+    "authors" : [
+      {
+        "name" : "Bin Wang"
+      },
+      {
+        "name" : "Tianjian Liu"
+      },
+      {
+        "name" : "Wenqi Wang"
+      },
+      {
+        "name" : "Yuan Weng"
+      },
+      {
+        "name" : "Chao Li"
+      },
+      {
+        "name" : "Guangquan Xu"
+      },
+      {
+        "name" : "Meng Shen"
+      },
+      {
+        "name" : "Sencun Zhu"
+      },
+      {
+        "name" : "Wei Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.13156v1",
+    "title" : "A Privacy-Preserving DAO Model Using NFT Authentication for the\n  Punishment not Reward Blockchain Architecture",
+    "summary" : "\\This paper presents a novel decentralized autonomous organization (DAO)\nmodel leveraging non-fungible tokens (NFTs) for advanced access control and\nprivacy-preserving interactions within a Punishment not Reward (PnR) blockchain\nframework. The proposed model introduces a dual NFT architecture: Membership\nNFTs (\\(NFT_{auth}\\)) for authentication and access control, and Interaction\nNFTs (\\(NFT_{priv}\\)) for enabling private, encrypted interactions among\nparticipants. Governance is enforced through smart contracts that manage\nreputation and administer punitive measures, such as conditional identity\ndisclosure. By prioritizing privacy, security, and deterrence over financial\nrewards, this model addresses key challenges in existing blockchain incentive\nstructures, paving the way for more sustainable and decentralized governance\nframeworks.",
+    "updated" : "2024-05-21T18:53:15Z",
+    "published" : "2024-05-21T18:53:15Z",
+    "authors" : [
+      {
+        "name" : "Talgar Bayan"
+      },
+      {
+        "name" : "Richard Banach"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.SE"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.11975v2",
+    "title" : "A Stochastic Sampling Approach to Privacy",
+    "summary" : "This paper proposes an optimal stochastic sampling approach to privacy, in\nwhich a sensor observes a process which is correlated to private information,\nand a sampler decides to keep or discard the sensor's observations. The kept\nsamples are shared with an adversary who might attempt to infer the private\nprocess. The privacy leakages are captured with the mutual information between\nthe private process and sampler's output. We cast the optimal sampling design\nas an optimization problem that (i) minimizes the reconstruction error of the\nobserved process using the sampler's output, (ii) and reduces privacy leakages.\nWe first show the optimal reconstruction is obtained by solving a one-step\noptimization problem at each time step. We derive the optimality equations of\nthe sampler for a general processes via the dynamic decomposition method, and\nshow the sampler controls adversary's belief about the private input. Also, we\npropose a simplified design for linear Gaussian processes by restricting the\nsampling policy to a special collection. We show that the optimal\nreconstruction of states, the belief state and the optimization objective can\nbe analytically expressed based on a conditional mean and covariance matrix. We\ndevelop an numerical algorithm to optimize the sampling and reconstruction\npolicies based on the implicit function theorem. Finally, we verify our design\nand show its capabilities in state reconstruction, privacy protection and data\nsize reduction via simulations.",
+    "updated" : "2024-05-22T10:30:57Z",
+    "published" : "2024-05-20T12:10:26Z",
+    "authors" : [
+      {
+        "name" : "Chuanghong Weng"
+      },
+      {
+        "name" : "Ehsan Nekouei"
+      }
+    ],
+    "categories" : [
+      "eess.SY",
+      "cs.SY"
+    ]
   }
 ]
