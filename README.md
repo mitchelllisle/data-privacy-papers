@@ -691,104 +691,116 @@ while facilitating quantification of the ensured accuracy.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.13220v2">Security and Privacy Product Inclusion</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-04-20T00:36:54Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Dave Kleidermacher, Emmanuel Arriaga, Eric Wang, Sebastian Porst, Roger Piqueras Jover</p>
-    <p><b>Summary:</b> In this paper, we explore the challenges of ensuring security and privacy for
-users from diverse demographic backgrounds. We propose a threat modeling
-approach to identify potential risks and countermeasures for product inclusion
-in security and privacy. We discuss various factors that can affect a user's
-ability to achieve a high level of security and privacy, including low-income
-demographics, poor connectivity, shared device usage, ML fairness, etc. We
-present results from a global security and privacy user experience survey and
-discuss the implications for product developers. Our work highlights the need
-for a more inclusive approach to security and privacy and provides a framework
-for researchers and practitioners to consider when designing products and
-services for a diverse range of users.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.13194v1">Privacy-Preserving Debiasing using Data Augmentation and Machine
-  Unlearning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2024-04-19T21:54:20Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zhixin Pan, Emma Andrews, Laura Chang, Prabhat Mishra</p>
-    <p><b>Summary:</b> Data augmentation is widely used to mitigate data bias in the training
-dataset. However, data augmentation exposes machine learning models to privacy
-attacks, such as membership inference attacks. In this paper, we propose an
-effective combination of data augmentation and machine unlearning, which can
-reduce data bias while providing a provable defense against known attacks.
-Specifically, we maintain the fairness of the trained model with
-diffusion-based data augmentation, and then utilize multi-shard unlearning to
-remove identifying information of original data from the ML model for
-protection against privacy attacks. Experimental evaluation across diverse
-datasets demonstrates that our approach can achieve significant improvements in
-bias reduction as well as robustness against state-of-the-art privacy attacks.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.12837v1">Towards a decentralized data privacy protocol for self-sovereignty in
-  the digital world</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
-  <p><b>Published on:</b> 2024-04-19T12:19:04Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Rodrigo Falcão, Arghavan Hosseinzadeh</p>
-    <p><b>Summary:</b> A typical user interacts with many digital services nowadays, providing these
-services with their data. As of now, the management of privacy preferences is
-service-centric: Users must manage their privacy preferences according to the
-rules of each service provider, meaning that every provider offers its unique
-mechanisms for users to control their privacy settings. However, managing
-privacy preferences holistically (i.e., across multiple digital services) is
-just impractical. In this vision paper, we propose a paradigm shift towards an
-enriched user-centric approach for cross-service privacy preferences
-management: the realization of a decentralized data privacy protocol.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.12730v1">PATE-TripleGAN: Privacy-Preserving Image Synthesis with Gaussian
-  Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-04-19T09:22:20Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zepeng Jiang, Weiwei Ni, Yifan Zhang</p>
-    <p><b>Summary:</b> Conditional Generative Adversarial Networks (CGANs) exhibit significant
-potential in supervised learning model training by virtue of their ability to
-generate realistic labeled images. However, numerous studies have indicated the
-privacy leakage risk in CGANs models. The solution DPCGAN, incorporating the
-differential privacy framework, faces challenges such as heavy reliance on
-labeled data for model training and potential disruptions to original gradient
-information due to excessive gradient clipping, making it difficult to ensure
-model accuracy. To address these challenges, we present a privacy-preserving
-training framework called PATE-TripleGAN. This framework incorporates a
-classifier to pre-classify unlabeled data, establishing a three-party min-max
-game to reduce dependence on labeled data. Furthermore, we present a hybrid
-gradient desensitization algorithm based on the Private Aggregation of Teacher
-Ensembles (PATE) framework and Differential Private Stochastic Gradient Descent
-(DPSGD) method. This algorithm allows the model to retain gradient information
-more effectively while ensuring privacy protection, thereby enhancing the
-model's utility. Privacy analysis and extensive experiments affirm that the
-PATE-TripleGAN model can generate a higher quality labeled image dataset while
-ensuring the privacy of the training data.</p>
-  </details>
-</div>
-
-
 
 <h2>2024-05</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.15398v1">PriCE: Privacy-Preserving and Cost-Effective Scheduling for
+  Parallelizing the Large Medical Image Processing Workflow over Hybrid Clouds</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computational Engineering, Finance, and Science-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E">
+  <p><b>Published on:</b> 2024-05-24T09:52:00Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yuandou Wang, Neel Kanwal, Kjersti Engan, Chunming Rong, Paola Grosso, Zhiming Zhao</p>
+    <p><b>Summary:</b> Running deep neural networks for large medical images is a resource-hungry
+and time-consuming task with centralized computing. Outsourcing such medical
+image processing tasks to hybrid clouds has benefits, such as a significant
+reduction of execution time and monetary cost. However, due to privacy
+concerns, it is still challenging to process sensitive medical images over
+clouds, which would hinder their deployment in many real-world applications. To
+overcome this, we first formulate the overall optimization objectives of the
+privacy-preserving distributed system model, i.e., minimizing the amount of
+information about the private data learned by the adversaries throughout the
+process, reducing the maximum execution time and cost under the user budget
+constraint. We propose a novel privacy-preserving and cost-effective method
+called PriCE to solve this multi-objective optimization problem. We performed
+extensive simulation experiments for artifact detection tasks on medical images
+using an ensemble of five deep convolutional neural network inferences as the
+workflow task. Experimental results show that PriCE successfully splits a wide
+range of input gigapixel medical images with graph-coloring-based strategies,
+yielding desired output utility and lowering the privacy risk, makespan, and
+monetary cost under user's budget.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.15272v1">Physiological Data: Challenges for Privacy and Ethics</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> 
+  <p><b>Published on:</b> 2024-05-24T06:59:42Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Keith Davis, Tuukka Ruotsalo</p>
+    <p><b>Summary:</b> Wearable devices that measure and record physiological signals are now
+becoming widely available to the general public with ever-increasing
+affordability and signal quality. The data from these devices introduce serious
+ethical challenges that remain largely unaddressed. Users do not always
+understand how these data can be leveraged to reveal private information about
+them and developers of these devices may not fully grasp how physiological data
+collected today could be used in the future for completely different purposes.
+We discuss the potential for wearable devices, initially designed to help users
+improve their well-being or enhance the experience of some digital application,
+to be appropriated in ways that extend far beyond their original intended
+purpose. We identify how the currently available technology can be misused,
+discuss how pairing physiological data with non-physiological data can
+radically expand the predictive capacity of physiological wearables, and
+explore the implications of these expanded capacities for a variety of
+stakeholders.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.15150v1">Enhancing Learning with Label Differential Privacy by Vector
+  Approximation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-05-24T02:08:45Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Puning Zhao, Rongfei Fan, Huiwen Wu, Qingming Li, Jiafei Wu, Zhe Liu</p>
+    <p><b>Summary:</b> Label differential privacy (DP) is a framework that protects the privacy of
+labels in training datasets, while the feature vectors are public. Existing
+approaches protect the privacy of labels by flipping them randomly, and then
+train a model to make the output approximate the privatized label. However, as
+the number of classes $K$ increases, stronger randomization is needed, thus the
+performances of these methods become significantly worse. In this paper, we
+propose a vector approximation approach, which is easy to implement and
+introduces little additional computational overhead. Instead of flipping each
+label into a single scalar, our method converts each label into a random vector
+with $K$ components, whose expectations reflect class conditional
+probabilities. Intuitively, vector approximation retains more information than
+scalar labels. A brief theoretical analysis shows that the performance of our
+method only decays slightly with $K$. Finally, we conduct experiments on both
+synthesized and real datasets, which validate our theoretical analysis as well
+as the practical performance of our method.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.15140v1">Better Membership Inference Privacy Measurement through Discrepancy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-05-24T01:33:22Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ruihan Wu, Pengrun Huang, Kamalika Chaudhuri</p>
+    <p><b>Summary:</b> Membership Inference Attacks have emerged as a dominant method for
+empirically measuring privacy leakage from machine learning models. Here,
+privacy is measured by the {\em{advantage}} or gap between a score or a
+function computed on the training and the test data. A major barrier to the
+practical deployment of these attacks is that they do not scale to large
+well-generalized models -- either the advantage is relatively low, or the
+attack involves training multiple models which is highly compute-intensive. In
+this work, inspired by discrepancy theory, we propose a new empirical privacy
+metric that is an upper bound on the advantage of a family of membership
+inference attacks. We show that this metric does not involve training multiple
+models, can be applied to large Imagenet classification models in-the-wild, and
+has higher advantage than existing metrics on models trained with more recent
+and sophisticated training recipes. Motivated by our empirical results, we also
+propose new membership inference attacks tailored to these training losses.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2405.14725v1">A Systematic and Formal Study of the Impact of Local Differential
