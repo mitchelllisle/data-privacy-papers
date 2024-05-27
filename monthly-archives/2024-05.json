@@ -2065,5 +2065,109 @@
       "eess.SY",
       "cs.SY"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.15398v1",
+    "title" : "PriCE: Privacy-Preserving and Cost-Effective Scheduling for\n  Parallelizing the Large Medical Image Processing Workflow over Hybrid Clouds",
+    "summary" : "Running deep neural networks for large medical images is a resource-hungry\nand time-consuming task with centralized computing. Outsourcing such medical\nimage processing tasks to hybrid clouds has benefits, such as a significant\nreduction of execution time and monetary cost. However, due to privacy\nconcerns, it is still challenging to process sensitive medical images over\nclouds, which would hinder their deployment in many real-world applications. To\novercome this, we first formulate the overall optimization objectives of the\nprivacy-preserving distributed system model, i.e., minimizing the amount of\ninformation about the private data learned by the adversaries throughout the\nprocess, reducing the maximum execution time and cost under the user budget\nconstraint. We propose a novel privacy-preserving and cost-effective method\ncalled PriCE to solve this multi-objective optimization problem. We performed\nextensive simulation experiments for artifact detection tasks on medical images\nusing an ensemble of five deep convolutional neural network inferences as the\nworkflow task. Experimental results show that PriCE successfully splits a wide\nrange of input gigapixel medical images with graph-coloring-based strategies,\nyielding desired output utility and lowering the privacy risk, makespan, and\nmonetary cost under user's budget.",
+    "updated" : "2024-05-24T09:52:00Z",
+    "published" : "2024-05-24T09:52:00Z",
+    "authors" : [
+      {
+        "name" : "Yuandou Wang"
+      },
+      {
+        "name" : "Neel Kanwal"
+      },
+      {
+        "name" : "Kjersti Engan"
+      },
+      {
+        "name" : "Chunming Rong"
+      },
+      {
+        "name" : "Paola Grosso"
+      },
+      {
+        "name" : "Zhiming Zhao"
+      }
+    ],
+    "categories" : [
+      "cs.CE",
+      "cs.AI",
+      "cs.CV",
+      "cs.DC",
+      "cs.ET"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.15272v1",
+    "title" : "Physiological Data: Challenges for Privacy and Ethics",
+    "summary" : "Wearable devices that measure and record physiological signals are now\nbecoming widely available to the general public with ever-increasing\naffordability and signal quality. The data from these devices introduce serious\nethical challenges that remain largely unaddressed. Users do not always\nunderstand how these data can be leveraged to reveal private information about\nthem and developers of these devices may not fully grasp how physiological data\ncollected today could be used in the future for completely different purposes.\nWe discuss the potential for wearable devices, initially designed to help users\nimprove their well-being or enhance the experience of some digital application,\nto be appropriated in ways that extend far beyond their original intended\npurpose. We identify how the currently available technology can be misused,\ndiscuss how pairing physiological data with non-physiological data can\nradically expand the predictive capacity of physiological wearables, and\nexplore the implications of these expanded capacities for a variety of\nstakeholders.",
+    "updated" : "2024-05-24T06:59:42Z",
+    "published" : "2024-05-24T06:59:42Z",
+    "authors" : [
+      {
+        "name" : "Keith Davis"
+      },
+      {
+        "name" : "Tuukka Ruotsalo"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "K.4.0; K.4.1; K.4.2"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.15150v1",
+    "title" : "Enhancing Learning with Label Differential Privacy by Vector\n  Approximation",
+    "summary" : "Label differential privacy (DP) is a framework that protects the privacy of\nlabels in training datasets, while the feature vectors are public. Existing\napproaches protect the privacy of labels by flipping them randomly, and then\ntrain a model to make the output approximate the privatized label. However, as\nthe number of classes $K$ increases, stronger randomization is needed, thus the\nperformances of these methods become significantly worse. In this paper, we\npropose a vector approximation approach, which is easy to implement and\nintroduces little additional computational overhead. Instead of flipping each\nlabel into a single scalar, our method converts each label into a random vector\nwith $K$ components, whose expectations reflect class conditional\nprobabilities. Intuitively, vector approximation retains more information than\nscalar labels. A brief theoretical analysis shows that the performance of our\nmethod only decays slightly with $K$. Finally, we conduct experiments on both\nsynthesized and real datasets, which validate our theoretical analysis as well\nas the practical performance of our method.",
+    "updated" : "2024-05-24T02:08:45Z",
+    "published" : "2024-05-24T02:08:45Z",
+    "authors" : [
+      {
+        "name" : "Puning Zhao"
+      },
+      {
+        "name" : "Rongfei Fan"
+      },
+      {
+        "name" : "Huiwen Wu"
+      },
+      {
+        "name" : "Qingming Li"
+      },
+      {
+        "name" : "Jiafei Wu"
+      },
+      {
+        "name" : "Zhe Liu"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.15140v1",
+    "title" : "Better Membership Inference Privacy Measurement through Discrepancy",
+    "summary" : "Membership Inference Attacks have emerged as a dominant method for\nempirically measuring privacy leakage from machine learning models. Here,\nprivacy is measured by the {\\em{advantage}} or gap between a score or a\nfunction computed on the training and the test data. A major barrier to the\npractical deployment of these attacks is that they do not scale to large\nwell-generalized models -- either the advantage is relatively low, or the\nattack involves training multiple models which is highly compute-intensive. In\nthis work, inspired by discrepancy theory, we propose a new empirical privacy\nmetric that is an upper bound on the advantage of a family of membership\ninference attacks. We show that this metric does not involve training multiple\nmodels, can be applied to large Imagenet classification models in-the-wild, and\nhas higher advantage than existing metrics on models trained with more recent\nand sophisticated training recipes. Motivated by our empirical results, we also\npropose new membership inference attacks tailored to these training losses.",
+    "updated" : "2024-05-24T01:33:22Z",
+    "published" : "2024-05-24T01:33:22Z",
+    "authors" : [
+      {
+        "name" : "Ruihan Wu"
+      },
+      {
+        "name" : "Pengrun Huang"
+      },
+      {
+        "name" : "Kamalika Chaudhuri"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
   }
 ]
