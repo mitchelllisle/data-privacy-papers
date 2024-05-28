@@ -2169,5 +2169,137 @@
     "categories" : [
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.17423v1",
+    "title" : "Privacy-Aware Visual Language Models",
+    "summary" : "This paper aims to advance our understanding of how Visual Language Models\n(VLMs) handle privacy-sensitive information, a crucial concern as these\ntechnologies become integral to everyday life. To this end, we introduce a new\nbenchmark PrivBench, which contains images from 8 sensitive categories such as\npassports, or fingerprints. We evaluate 10 state-of-the-art VLMs on this\nbenchmark and observe a generally limited understanding of privacy,\nhighlighting a significant area for model improvement. Based on this we\nintroduce PrivTune, a new instruction-tuning dataset aimed at equipping VLMs\nwith knowledge about visual privacy. By tuning two pretrained VLMs, TinyLLaVa\nand MiniGPT-v2, on this small dataset, we achieve strong gains in their ability\nto recognize sensitive content, outperforming even GPT4-V. At the same time, we\nshow that privacy-tuning only minimally affects the VLMs performance on\nstandard benchmarks such as VQA. Overall, this paper lays out a crucial\nchallenge for making VLMs effective in handling real-world data safely and\nprovides a simple recipe that takes the first step towards building\nprivacy-aware VLMs.",
+    "updated" : "2024-05-27T17:59:25Z",
+    "published" : "2024-05-27T17:59:25Z",
+    "authors" : [
+      {
+        "name" : "Laurens Samson"
+      },
+      {
+        "name" : "Nimrod Barazani"
+      },
+      {
+        "name" : "Sennay Ghebreab"
+      },
+      {
+        "name" : "Yuki M. Asano"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.17079v1",
+    "title" : "Learning with User-Level Local Differential Privacy",
+    "summary" : "User-level privacy is important in distributed systems. Previous research\nprimarily focuses on the central model, while the local models have received\nmuch less attention. Under the central model, user-level DP is strictly\nstronger than the item-level one. However, under the local model, the\nrelationship between user-level and item-level LDP becomes more complex, thus\nthe analysis is crucially different. In this paper, we first analyze the mean\nestimation problem and then apply it to stochastic optimization,\nclassification, and regression. In particular, we propose adaptive strategies\nto achieve optimal performance at all privacy levels. Moreover, we also obtain\ninformation-theoretic lower bounds, which show that the proposed methods are\nminimax optimal up to logarithmic factors. Unlike the central DP model, where\nuser-level DP always leads to slower convergence, our result shows that under\nthe local model, the convergence rates are nearly the same between user-level\nand item-level cases for distributions with bounded support. For heavy-tailed\ndistributions, the user-level rate is even faster than the item-level one.",
+    "updated" : "2024-05-27T11:52:24Z",
+    "published" : "2024-05-27T11:52:24Z",
+    "authors" : [
+      {
+        "name" : "Puning Zhao"
+      },
+      {
+        "name" : "Li Shen"
+      },
+      {
+        "name" : "Rongfei Fan"
+      },
+      {
+        "name" : "Qingming Li"
+      },
+      {
+        "name" : "Huiwen Wu"
+      },
+      {
+        "name" : "Jiafei Wu"
+      },
+      {
+        "name" : "Zhe Liu"
+      }
+    ],
+    "categories" : [
+      "stat.ML",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.16905v1",
+    "title" : "Privacy and Security Trade-off in Interconnected Systems with Known or\n  Unknown Privacy Noise Covariance",
+    "summary" : "This paper is concerned with the security problem for interconnected systems,\nwhere each subsystem is required to detect local attacks using locally\navailable information and the information received from its neighboring\nsubsystems. Moreover, we consider that there exists an additional eavesdropper\nbeing able to infer the private information by eavesdropping transmitted data\nbetween subsystems. Then, a privacy-preserving method is employed by adding\nprivacy noise to transmitted data, and the privacy level is measured by mutual\ninformation. Nevertheless, adding privacy noise to transmitted data may affect\nthe detection performance metrics such as detection probability and false alarm\nprobability. Thus, we theoretically analyze the trade-off between the privacy\nand the detection performance. An optimization problem with maximizing both the\ndegree of privacy preservation and the detection probability is established to\nobtain the covariance of the privacy noise. In addition, the attack detector of\neach subsystem may not obtain all information about the privacy noise. We\nfurther theoretically analyze the trade-off between the privacy and the false\nalarm probability when the attack detector has no knowledge of the privacy\nnoise covariance. An optimization problem with maximizing the degree of privacy\npreservation with guaranteeing a bound of false alarm distortion level is\nestablished to obtain {\\color{black}{the covariance of the privacy noise}}.\nMoreover, to analyze the effect of the privacy noise on the detection\nprobability, we consider that each subsystem can estimate the unknown privacy\nnoise covariance by the secondary data. Based on the estimated covariance, we\nconstruct another attack detector and analyze how the privacy noise affects its\ndetection performance. Finally, a numerical example is provided to verify the\neffectiveness of theoretical results.",
+    "updated" : "2024-05-27T07:53:51Z",
+    "published" : "2024-05-27T07:53:51Z",
+    "authors" : [
+      {
+        "name" : "Haojun Wang"
+      },
+      {
+        "name" : "Kun Liu"
+      },
+      {
+        "name" : "Baojia Li"
+      },
+      {
+        "name" : "Emilia Fridman"
+      },
+      {
+        "name" : "Yuanqing Xia"
+      }
+    ],
+    "categories" : [
+      "eess.SY",
+      "cs.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.16895v1",
+    "title" : "Anonymization Prompt Learning for Facial Privacy-Preserving\n  Text-to-Image Generation",
+    "summary" : "Text-to-image diffusion models, such as Stable Diffusion, generate highly\nrealistic images from text descriptions. However, the generation of certain\ncontent at such high quality raises concerns. A prominent issue is the accurate\ndepiction of identifiable facial images, which could lead to malicious deepfake\ngeneration and privacy violations. In this paper, we propose Anonymization\nPrompt Learning (APL) to address this problem. Specifically, we train a\nlearnable prompt prefix for text-to-image diffusion models, which forces the\nmodel to generate anonymized facial identities, even when prompted to produce\nimages of specific individuals. Extensive quantitative and qualitative\nexperiments demonstrate the successful anonymization performance of APL, which\nanonymizes any specific individuals without compromising the quality of\nnon-identity-specific image generation. Furthermore, we reveal the\nplug-and-play property of the learned prompt prefix, enabling its effective\napplication across different pretrained text-to-image models for transferrable\nprivacy and security protection against the risks of deepfakes.",
+    "updated" : "2024-05-27T07:38:26Z",
+    "published" : "2024-05-27T07:38:26Z",
+    "authors" : [
+      {
+        "name" : "Liang Shi"
+      },
+      {
+        "name" : "Jie Zhang"
+      },
+      {
+        "name" : "Shiguang Shan"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.16058v1",
+    "title" : "A Novel Privacy Enhancement Scheme with Dynamic Quantization for\n  Federated Learning",
+    "summary" : "Federated learning (FL) has been widely regarded as a promising paradigm for\nprivacy preservation of raw data in machine learning. Although, the data\nprivacy in FL is locally protected to some extent, it is still a desideratum to\nenhance privacy and alleviate communication overhead caused by repetitively\ntransmitting model parameters. Typically, these challenges are addressed\nseparately, or jointly via a unified scheme that consists of noise-injected\nprivacy mechanism and communication compression, which may lead to model\ncorruption due to the introduced composite noise. In this work, we propose a\nnovel model-splitting privacy-preserving FL (MSP-FL) scheme to achieve private\nFL with precise accuracy guarantee. Based upon MSP-FL, we further propose a\nmodel-splitting privacy-preserving FL with dynamic quantization (MSPDQ-FL) to\nmitigate the communication overhead, which incorporates a shrinking\nquantization interval to reduce the quantization error. We provide privacy and\nconvergence analysis for both MSP-FL and MSPDQ-FL under non-i.i.d. dataset,\npartial clients participation and finite quantization level. Numerical results\nare presented to validate the superiority of the proposed schemes.",
+    "updated" : "2024-05-25T04:56:54Z",
+    "published" : "2024-05-25T04:56:54Z",
+    "authors" : [
+      {
+        "name" : "Yifan Wang"
+      },
+      {
+        "name" : "Xianghui Cao"
+      },
+      {
+        "name" : "Shi Jin"
+      },
+      {
+        "name" : "Mo-Yuen Chow"
+      }
+    ],
+    "categories" : [
+      "math.OC"
+    ]
   }
 ]
