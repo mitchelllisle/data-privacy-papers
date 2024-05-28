@@ -535,164 +535,153 @@ resulting immersive media.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.14983v1">Zero-Knowledge Location Privacy via Accurate Floating Point SNARKs</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-04-23T12:38:51Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jens Ernstberger, Chengru Zhang, Luca Ciprian, Philipp Jovanovic, Sebastian Steinhorst</p>
-    <p><b>Summary:</b> This paper introduces Zero-Knowledge Location Privacy (ZKLP), enabling users
-to prove to third parties that they are within a specified geographical region
-while not disclosing their exact location. ZKLP supports varying levels of
-granularity, allowing for customization depending on the use case. To realize
-ZKLP, we introduce the first set of Zero-Knowledge Proof (ZKP) circuits that
-are fully compliant to the IEEE 754 standard for floating-point arithmetic.
-  Our results demonstrate that our floating point implementation scales
-efficiently, requiring only $69$ constraints per multiplication for $2^{15}$
-single-precision floating-point multiplications. We utilize our floating point
-implementation to realize the ZKLP paradigm. In comparison to the
-state-of-the-art, we find that our optimized implementation has $14.1 \times$
-less constraints utilizing single precision floating-point values, and $11.2
-\times$ less constraints when utilizing double precision floating-point values.
-We demonstrate the practicability of ZKLP by building a protocol for privacy
-preserving peer-to-peer proximity testing - Alice can test if she is close to
-Bob by receiving a single message, without either party revealing any other
-information about their location. In such a configuration, Bob can create a
-proof of (non-)proximity in $0.27 s$, whereas Alice can verify her distance to
-about $250$ peers per second</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.14895v1">Bayesian Approaches to Collaborative Data Analysis with Strict Privacy
-  Restrictions</a></h3>
-   
-  <p><b>Published on:</b> 2024-04-23T10:22:08Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Simon Busch-Moreno, Moritz U. G. Kraemer</p>
-    <p><b>Summary:</b> Collaborative data analysis between countries is crucial for enabling fast
-responses to increasingly multi-country disease outbreaks. Often, data early in
-outbreaks are of sensitive nature and subject to strict privacy restrictions.
-Thus, federated analysis, which implies decentralised collaborative analysis
-where no raw data sharing is required, emerged as a novel approach solving
-issues around data privacy and confidentiality. In the present study, we
-propose two approaches to federated analysis, based on simple Bayesian
-statistics and exploit this simplicity to make them feasible for rapid
-collaboration without the risks of data leaks and data reidentification, as
-they require neither data sharing nor direct communication between devices. The
-first approach uses summaries from parameters' posteriors previously obtained
-at a different location to update truncated normal distributions approximating
-priors of a new model. The second approach uses the entire previously sampled
-posterior, approximating via a multivariate normal distribution. We test these
-models on simulated and on real outbreak data to estimate the incubation period
-of infectious diseases. Results indicate that both approaches can recover
-incubation period parameters accurately, but they differ in terms of
-inferential capacity. The posterior summary approach shows higher stability and
-precision, but it cannot capture posterior correlations, meaning it is
-inferentially limited. The whole posterior approach can capture correlations,
-but it shows less stability, and its applicability is limited to fewer prior
-distributions. We discuss results in terms of the advantages of their
-simplicity and privacy-preserving properties, and in terms of their limited
-generalisability to more complex analytical models.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.14693v1">Double Privacy Guard: Robust Traceable Adversarial Watermarking against
-  Face Recognition</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> 
-  <p><b>Published on:</b> 2024-04-23T02:50:38Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yunming Zhang, Dengpan Ye, Sipeng Shen, Caiyun Xie, Ziyi Liu, Jiacheng Deng, Long Tang</p>
-    <p><b>Summary:</b> The wide deployment of Face Recognition (FR) systems poses risks of privacy
-leakage. One countermeasure to address this issue is adversarial attacks, which
-deceive malicious FR searches but simultaneously interfere the normal identity
-verification of trusted authorizers. In this paper, we propose the first Double
-Privacy Guard (DPG) scheme based on traceable adversarial watermarking. DPG
-employs a one-time watermark embedding to deceive unauthorized FR models and
-allows authorizers to perform identity verification by extracting the
-watermark. Specifically, we propose an information-guided adversarial attack
-against FR models. The encoder embeds an identity-specific watermark into the
-deep feature space of the carrier, guiding recognizable features of the image
-to deviate from the source identity. We further adopt a collaborative
-meta-optimization strategy compatible with sub-tasks, which regularizes the
-joint optimization direction of the encoder and decoder. This strategy enhances
-the representation of universal carrier features, mitigating multi-objective
-optimization conflicts in watermarking. Experiments confirm that DPG achieves
-significant attack success rates and traceability accuracy on state-of-the-art
-FR models, exhibiting remarkable robustness that outperforms the existing
-privacy protection methods using adversarial attacks and deep watermarking, or
-simple combinations of the two. Our work potentially opens up new insights into
-proactive protection for FR privacy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.13426v1">Data Privacy Vocabulary (DPV) -- Version 2</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2024-04-20T17:24:33Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Harshvardhan J. Pandit, Beatriz Esteves, Georg P. Krog, Paul Ryan, Delaram Golpayegani, Julian Flake</p>
-    <p><b>Summary:</b> The Data Privacy Vocabulary (DPV), developed by the W3C Data Privacy
-Vocabularies and Controls Community Group (DPVCG), enables the creation of
-machine-readable, interoperable, and standards-based representations for
-describing the processing of personal data. The group has also published
-extensions to the DPV to describe specific applications to support legislative
-requirements such as the EU's GDPR. The DPV fills a crucial niche in the state
-of the art by providing a vocabulary that can be embedded and used alongside
-other existing standards such as W3C ODRL, and which can be customised and
-extended for adapting to specifics of use-cases or domains. This article
-describes the version 2 iteration of the DPV in terms of its contents,
-methodology, current adoptions and uses, and future potential. It also
-describes the relevance and role of DPV in acting as a common vocabulary to
-support various regulatory (e.g. EU's DGA and AI Act) and community initiatives
-(e.g. Solid) emerging across the globe.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.13407v1">A Framework for Managing Multifaceted Privacy Leakage While Optimizing
-  Utility in Continuous LBS Interactions</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-04-20T15:20:01Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Anis Bkakria, Reda Yaich</p>
-    <p><b>Summary:</b> Privacy in Location-Based Services (LBS) has become a paramount concern with
-the ubiquity of mobile devices and the increasing integration of location data
-into various applications. In this paper, we present several novel
-contributions aimed at advancing the understanding and management of privacy
-leakage in LBS. Our contributions provides a more comprehensive framework for
-analyzing privacy concerns across different facets of location-based
-interactions. Specifically, we introduce $(\epsilon, \delta)$-location privacy,
-$(\epsilon, \delta, \theta)$-trajectory privacy, and $(\epsilon, \delta,
-\theta)$-POI privacy, which offer refined mechanisms for quantifying privacy
-risks associated with location, trajectory, and points of interest when
-continuously interacting with LBS. Furthermore, we establish fundamental
-connections between these privacy notions, facilitating a holistic approach to
-privacy preservation in LBS. Additionally, we present a lower bound analysis to
-evaluate the utility of the proposed privacy-preserving mechanisms, offering
-insights into the trade-offs between privacy protection and data utility.
-Finally, we instantiate our framework with the Plannar Isotopic Mechanism to
-demonstrate its practical applicability while ensuring optimal utility and
-quantifying privacy leakages across various dimensions. The conducted
-evaluations provide a comprehensive insight into the efficacy of our framework
-in capturing privacy loss on location, trajectory, and Points of Interest (POI)
-while facilitating quantification of the ensured accuracy.</p>
-  </details>
-</div>
-
-
 
 <h2>2024-05</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.17423v1">Privacy-Aware Visual Language Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2024-05-27T17:59:25Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Laurens Samson, Nimrod Barazani, Sennay Ghebreab, Yuki M. Asano</p>
+    <p><b>Summary:</b> This paper aims to advance our understanding of how Visual Language Models
+(VLMs) handle privacy-sensitive information, a crucial concern as these
+technologies become integral to everyday life. To this end, we introduce a new
+benchmark PrivBench, which contains images from 8 sensitive categories such as
+passports, or fingerprints. We evaluate 10 state-of-the-art VLMs on this
+benchmark and observe a generally limited understanding of privacy,
+highlighting a significant area for model improvement. Based on this we
+introduce PrivTune, a new instruction-tuning dataset aimed at equipping VLMs
+with knowledge about visual privacy. By tuning two pretrained VLMs, TinyLLaVa
+and MiniGPT-v2, on this small dataset, we achieve strong gains in their ability
+to recognize sensitive content, outperforming even GPT4-V. At the same time, we
+show that privacy-tuning only minimally affects the VLMs performance on
+standard benchmarks such as VQA. Overall, this paper lays out a crucial
+challenge for making VLMs effective in handling real-world data safely and
+provides a simple recipe that takes the first step towards building
+privacy-aware VLMs.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.17079v1">Learning with User-Level Local Differential Privacy</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-05-27T11:52:24Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Puning Zhao, Li Shen, Rongfei Fan, Qingming Li, Huiwen Wu, Jiafei Wu, Zhe Liu</p>
+    <p><b>Summary:</b> User-level privacy is important in distributed systems. Previous research
+primarily focuses on the central model, while the local models have received
+much less attention. Under the central model, user-level DP is strictly
+stronger than the item-level one. However, under the local model, the
+relationship between user-level and item-level LDP becomes more complex, thus
+the analysis is crucially different. In this paper, we first analyze the mean
+estimation problem and then apply it to stochastic optimization,
+classification, and regression. In particular, we propose adaptive strategies
+to achieve optimal performance at all privacy levels. Moreover, we also obtain
+information-theoretic lower bounds, which show that the proposed methods are
+minimax optimal up to logarithmic factors. Unlike the central DP model, where
+user-level DP always leads to slower convergence, our result shows that under
+the local model, the convergence rates are nearly the same between user-level
+and item-level cases for distributions with bounded support. For heavy-tailed
+distributions, the user-level rate is even faster than the item-level one.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.16905v1">Privacy and Security Trade-off in Interconnected Systems with Known or
+  Unknown Privacy Noise Covariance</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
+  <p><b>Published on:</b> 2024-05-27T07:53:51Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Haojun Wang, Kun Liu, Baojia Li, Emilia Fridman, Yuanqing Xia</p>
+    <p><b>Summary:</b> This paper is concerned with the security problem for interconnected systems,
+where each subsystem is required to detect local attacks using locally
+available information and the information received from its neighboring
+subsystems. Moreover, we consider that there exists an additional eavesdropper
+being able to infer the private information by eavesdropping transmitted data
+between subsystems. Then, a privacy-preserving method is employed by adding
+privacy noise to transmitted data, and the privacy level is measured by mutual
+information. Nevertheless, adding privacy noise to transmitted data may affect
+the detection performance metrics such as detection probability and false alarm
+probability. Thus, we theoretically analyze the trade-off between the privacy
+and the detection performance. An optimization problem with maximizing both the
+degree of privacy preservation and the detection probability is established to
+obtain the covariance of the privacy noise. In addition, the attack detector of
+each subsystem may not obtain all information about the privacy noise. We
+further theoretically analyze the trade-off between the privacy and the false
+alarm probability when the attack detector has no knowledge of the privacy
+noise covariance. An optimization problem with maximizing the degree of privacy
+preservation with guaranteeing a bound of false alarm distortion level is
+established to obtain {\color{black}{the covariance of the privacy noise}}.
+Moreover, to analyze the effect of the privacy noise on the detection
+probability, we consider that each subsystem can estimate the unknown privacy
+noise covariance by the secondary data. Based on the estimated covariance, we
+construct another attack detector and analyze how the privacy noise affects its
+detection performance. Finally, a numerical example is provided to verify the
+effectiveness of theoretical results.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.16895v1">Anonymization Prompt Learning for Facial Privacy-Preserving
+  Text-to-Image Generation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2024-05-27T07:38:26Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Liang Shi, Jie Zhang, Shiguang Shan</p>
+    <p><b>Summary:</b> Text-to-image diffusion models, such as Stable Diffusion, generate highly
+realistic images from text descriptions. However, the generation of certain
+content at such high quality raises concerns. A prominent issue is the accurate
+depiction of identifiable facial images, which could lead to malicious deepfake
+generation and privacy violations. In this paper, we propose Anonymization
+Prompt Learning (APL) to address this problem. Specifically, we train a
+learnable prompt prefix for text-to-image diffusion models, which forces the
+model to generate anonymized facial identities, even when prompted to produce
+images of specific individuals. Extensive quantitative and qualitative
+experiments demonstrate the successful anonymization performance of APL, which
+anonymizes any specific individuals without compromising the quality of
+non-identity-specific image generation. Furthermore, we reveal the
+plug-and-play property of the learned prompt prefix, enabling its effective
+application across different pretrained text-to-image models for transferrable
+privacy and security protection against the risks of deepfakes.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.16058v1">A Novel Privacy Enhancement Scheme with Dynamic Quantization for
+  Federated Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Optimization and Control-F9C80E">
+  <p><b>Published on:</b> 2024-05-25T04:56:54Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yifan Wang, Xianghui Cao, Shi Jin, Mo-Yuen Chow</p>
+    <p><b>Summary:</b> Federated learning (FL) has been widely regarded as a promising paradigm for
+privacy preservation of raw data in machine learning. Although, the data
+privacy in FL is locally protected to some extent, it is still a desideratum to
+enhance privacy and alleviate communication overhead caused by repetitively
+transmitting model parameters. Typically, these challenges are addressed
+separately, or jointly via a unified scheme that consists of noise-injected
+privacy mechanism and communication compression, which may lead to model
+corruption due to the introduced composite noise. In this work, we propose a
+novel model-splitting privacy-preserving FL (MSP-FL) scheme to achieve private
+FL with precise accuracy guarantee. Based upon MSP-FL, we further propose a
+model-splitting privacy-preserving FL with dynamic quantization (MSPDQ-FL) to
+mitigate the communication overhead, which incorporates a shrinking
+quantization interval to reduce the quantization error. We provide privacy and
+convergence analysis for both MSP-FL and MSPDQ-FL under non-i.i.d. dataset,
+partial clients participation and finite quantization level. Numerical results
+are presented to validate the superiority of the proposed schemes.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2405.15398v1">PriCE: Privacy-Preserving and Cost-Effective Scheduling for
