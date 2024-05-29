@@ -484,59 +484,61 @@ capabilities.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.15686v2">Noise Variance Optimization in Differential Privacy: A Game-Theoretic
-  Approach Through Per-Instance Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-04-24T06:51:16Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Sehyun Ryu, Jonggyu Jang, Hyun Jong Yang</p>
-    <p><b>Summary:</b> The concept of differential privacy (DP) can quantitatively measure privacy
-loss by observing the changes in the distribution caused by the inclusion of
-individuals in the target dataset. The DP, which is generally used as a
-constraint, has been prominent in safeguarding datasets in machine learning in
-industry giants like Apple and Google. A common methodology for guaranteeing DP
-is incorporating appropriate noise into query outputs, thereby establishing
-statistical defense systems against privacy attacks such as membership
-inference and linkage attacks. However, especially for small datasets, existing
-DP mechanisms occasionally add excessive amount of noise to query output,
-thereby discarding data utility. This is because the traditional DP computes
-privacy loss based on the worst-case scenario, i.e., statistical outliers. In
-this work, to tackle this challenge, we utilize per-instance DP (pDP) as a
-constraint, measuring privacy loss for each data instance and optimizing noise
-tailored to individual instances. In a nutshell, we propose a per-instance
-noise variance optimization (NVO) game, framed as a common interest sequential
-game, and show that the Nash equilibrium (NE) points of it inherently guarantee
-pDP for all data instances. Through extensive experiments, our proposed pDP
-algorithm demonstrated an average performance improvement of up to 99.53%
-compared to the conventional DP algorithm in terms of KL divergence.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.05924v1">Privacy Protection and Video Manipulation in Immersive Media</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2024-04-23T17:37:10Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Leslie Wöhler, Satoshi Ikehata, Kiyoharu Aizawa</p>
-    <p><b>Summary:</b> In comparison to traditional footage, 360{\deg} videos can convey engaging,
-immersive experiences and even be utilized to create interactive virtual
-environments. Like regular recordings, these videos need to consider the
-privacy of recorded people and could be targets for video manipulations.
-However, due to their properties like enhanced presence, the effects on users
-might differ from traditional, non-immersive content. Therefore, we are
-interested in how changes of real-world footage like adding privacy protection
-or applying video manipulations could mitigate or introduce harm in the
-resulting immersive media.</p>
-  </details>
-</div>
-
-
 
 <h2>2024-05</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.18430v1">Feasibility of Privacy-Preserving Entity Resolution on Confidential
+  Healthcare Datasets Using Homomorphic Encryption</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computational Engineering, Finance, and Science-5BC0EB">
+  <p><b>Published on:</b> 2024-05-28T17:59:42Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yixiang Yao, Joseph Cecil, Praveen Angyan, Neil Bahroos, Srivatsan Ravi</p>
+    <p><b>Summary:</b> Patient datasets contain confidential information which is protected by laws
+and regulations such as HIPAA and GDPR. Ensuring comprehensive patient
+information necessitates privacy-preserving entity resolution (PPER), which
+identifies identical patient entities across multiple databases from different
+healthcare organizations while maintaining data privacy. Existing methods often
+lack cryptographic security or are computationally impractical for real-world
+datasets. We introduce a PPER pipeline based on AMPPERE, a secure abstract
+computation model utilizing cryptographic tools like homomorphic encryption.
+Our tailored approach incorporates extensive parallelization techniques and
+optimal parameters specifically for patient datasets. Experimental results
+demonstrate the proposed method's effectiveness in terms of accuracy and
+efficiency compared to various baselines.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2405.17971v1">A Qualitative Analysis Framework for mHealth Privacy Practices</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2024-05-28T08:57:52Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Thomas Cory, Wolf Rieder, Thu-My Huynh</p>
+    <p><b>Summary:</b> Mobile Health (mHealth) applications have become a crucial part of health
+monitoring and management. However, the proliferation of these applications has
+also raised concerns over the privacy and security of Personally Identifiable
+Information and Protected Health Information. Addressing these concerns, this
+paper introduces a novel framework for the qualitative evaluation of privacy
+practices in mHealth apps, particularly focusing on the handling and
+transmission of sensitive user data. Our investigation encompasses an analysis
+of 152 leading mHealth apps on the Android platform, leveraging the proposed
+framework to provide a multifaceted view of their data processing activities.
+Despite stringent regulations like the General Data Protection Regulation in
+the European Union and the Health Insurance Portability and Accountability Act
+in the United States, our findings indicate persistent issues with negligence
+and misuse of sensitive user information. We uncover significant instances of
+health information leakage to third-party trackers and a widespread neglect of
+privacy-by-design and transparency principles. Our research underscores the
+critical need for stricter enforcement of data protection laws and sets a
+foundation for future efforts aimed at enhancing user privacy within the
+mHealth ecosystem.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2405.17423v1">Privacy-Aware Visual Language Models</a></h3>
@@ -656,7 +658,7 @@ privacy and security protection against the risks of deepfakes.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.16058v1">A Novel Privacy Enhancement Scheme with Dynamic Quantization for
+  <h3><a href="http://arxiv.org/abs/2405.16058v2">A Novel Privacy Enhancement Scheme with Dynamic Quantization for
   Federated Learning</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Optimization and Control-F9C80E">
   <p><b>Published on:</b> 2024-05-25T04:56:54Z</p>
