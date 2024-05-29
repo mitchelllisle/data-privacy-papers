@@ -2301,5 +2301,77 @@
     "categories" : [
       "math.OC"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.18430v1",
+    "title" : "Feasibility of Privacy-Preserving Entity Resolution on Confidential\n  Healthcare Datasets Using Homomorphic Encryption",
+    "summary" : "Patient datasets contain confidential information which is protected by laws\nand regulations such as HIPAA and GDPR. Ensuring comprehensive patient\ninformation necessitates privacy-preserving entity resolution (PPER), which\nidentifies identical patient entities across multiple databases from different\nhealthcare organizations while maintaining data privacy. Existing methods often\nlack cryptographic security or are computationally impractical for real-world\ndatasets. We introduce a PPER pipeline based on AMPPERE, a secure abstract\ncomputation model utilizing cryptographic tools like homomorphic encryption.\nOur tailored approach incorporates extensive parallelization techniques and\noptimal parameters specifically for patient datasets. Experimental results\ndemonstrate the proposed method's effectiveness in terms of accuracy and\nefficiency compared to various baselines.",
+    "updated" : "2024-05-28T17:59:42Z",
+    "published" : "2024-05-28T17:59:42Z",
+    "authors" : [
+      {
+        "name" : "Yixiang Yao"
+      },
+      {
+        "name" : "Joseph Cecil"
+      },
+      {
+        "name" : "Praveen Angyan"
+      },
+      {
+        "name" : "Neil Bahroos"
+      },
+      {
+        "name" : "Srivatsan Ravi"
+      }
+    ],
+    "categories" : [
+      "cs.CE"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.17971v1",
+    "title" : "A Qualitative Analysis Framework for mHealth Privacy Practices",
+    "summary" : "Mobile Health (mHealth) applications have become a crucial part of health\nmonitoring and management. However, the proliferation of these applications has\nalso raised concerns over the privacy and security of Personally Identifiable\nInformation and Protected Health Information. Addressing these concerns, this\npaper introduces a novel framework for the qualitative evaluation of privacy\npractices in mHealth apps, particularly focusing on the handling and\ntransmission of sensitive user data. Our investigation encompasses an analysis\nof 152 leading mHealth apps on the Android platform, leveraging the proposed\nframework to provide a multifaceted view of their data processing activities.\nDespite stringent regulations like the General Data Protection Regulation in\nthe European Union and the Health Insurance Portability and Accountability Act\nin the United States, our findings indicate persistent issues with negligence\nand misuse of sensitive user information. We uncover significant instances of\nhealth information leakage to third-party trackers and a widespread neglect of\nprivacy-by-design and transparency principles. Our research underscores the\ncritical need for stricter enforcement of data protection laws and sets a\nfoundation for future efforts aimed at enhancing user privacy within the\nmHealth ecosystem.",
+    "updated" : "2024-05-28T08:57:52Z",
+    "published" : "2024-05-28T08:57:52Z",
+    "authors" : [
+      {
+        "name" : "Thomas Cory"
+      },
+      {
+        "name" : "Wolf Rieder"
+      },
+      {
+        "name" : "Thu-My Huynh"
+      }
+    ],
+    "categories" : [
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.16058v2",
+    "title" : "A Novel Privacy Enhancement Scheme with Dynamic Quantization for\n  Federated Learning",
+    "summary" : "Federated learning (FL) has been widely regarded as a promising paradigm for\nprivacy preservation of raw data in machine learning. Although, the data\nprivacy in FL is locally protected to some extent, it is still a desideratum to\nenhance privacy and alleviate communication overhead caused by repetitively\ntransmitting model parameters. Typically, these challenges are addressed\nseparately, or jointly via a unified scheme that consists of noise-injected\nprivacy mechanism and communication compression, which may lead to model\ncorruption due to the introduced composite noise. In this work, we propose a\nnovel model-splitting privacy-preserving FL (MSP-FL) scheme to achieve private\nFL with precise accuracy guarantee. Based upon MSP-FL, we further propose a\nmodel-splitting privacy-preserving FL with dynamic quantization (MSPDQ-FL) to\nmitigate the communication overhead, which incorporates a shrinking\nquantization interval to reduce the quantization error. We provide privacy and\nconvergence analysis for both MSP-FL and MSPDQ-FL under non-i.i.d. dataset,\npartial clients participation and finite quantization level. Numerical results\nare presented to validate the superiority of the proposed schemes.",
+    "updated" : "2024-05-28T03:15:22Z",
+    "published" : "2024-05-25T04:56:54Z",
+    "authors" : [
+      {
+        "name" : "Yifan Wang"
+      },
+      {
+        "name" : "Xianghui Cao"
+      },
+      {
+        "name" : "Shi Jin"
+      },
+      {
+        "name" : "Mo-Yuen Chow"
+      }
+    ],
+    "categories" : [
+      "math.OC"
+    ]
   }
 ]
