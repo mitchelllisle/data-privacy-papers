@@ -2373,5 +2373,177 @@
     "categories" : [
       "math.OC"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.19272v1",
+    "title" : "Mitigating Disparate Impact of Differential Privacy in Federated\n  Learning through Robust Clustering",
+    "summary" : "Federated Learning (FL) is a decentralized machine learning (ML) approach\nthat keeps data localized and often incorporates Differential Privacy (DP) to\nenhance privacy guarantees. Similar to previous work on DP in ML, we observed\nthat differentially private federated learning (DPFL) introduces performance\ndisparities, particularly affecting minority groups. Recent work has attempted\nto address performance fairness in vanilla FL through clustering, but this\nmethod remains sensitive and prone to errors, which are further exacerbated by\nthe DP noise in DPFL. To fill this gap, in this paper, we propose a novel\nclustered DPFL algorithm designed to effectively identify clients' clusters in\nhighly heterogeneous settings while maintaining high accuracy with DP\nguarantees. To this end, we propose to cluster clients based on both their\nmodel updates and training loss values. Our proposed approach also addresses\nthe server's uncertainties in clustering clients' model updates by employing\nlarger batch sizes along with Gaussian Mixture Model (GMM) to alleviate the\nimpact of noise and potential clustering errors, especially in\nprivacy-sensitive scenarios. We provide theoretical analysis of the\neffectiveness of our proposed approach. We also extensively evaluate our\napproach across diverse data distributions and privacy budgets and show its\neffectiveness in mitigating the disparate impact of DP in FL settings with a\nsmall computational cost.",
+    "updated" : "2024-05-29T17:03:31Z",
+    "published" : "2024-05-29T17:03:31Z",
+    "authors" : [
+      {
+        "name" : "Saber Malekmohammadi"
+      },
+      {
+        "name" : "Afaf Taik"
+      },
+      {
+        "name" : "Golnoosh Farnadi"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.19259v1",
+    "title" : "A Privacy-Preserving Graph Encryption Scheme Based on Oblivious RAM",
+    "summary" : "Graph encryption schemes play a crucial role in facilitating secure queries\non encrypted graphs hosted on untrusted servers. With applications spanning\nnavigation systems, network topology, and social networks, the need to\nsafeguard sensitive data becomes paramount. Existing graph encryption methods,\nhowever, exhibit vulnerabilities by inadvertently revealing aspects of the\ngraph structure and query patterns, posing threats to security and privacy. In\nresponse, we propose a novel graph encryption scheme designed to mitigate\naccess pattern and query pattern leakage through the integration of oblivious\nRAM and trusted execution environment techniques, exemplified by a Trusted\nExecution Environment (TEE). Our solution establishes two key security\nobjectives: (1) ensuring that adversaries, when presented with an encrypted\ngraph, remain oblivious to any information regarding the underlying graph, and\n(2) achieving query indistinguishability by concealing access patterns.\nAdditionally, we conducted experimentation to evaluate the efficiency of the\nproposed schemes when dealing with real-world location navigation services.",
+    "updated" : "2024-05-29T16:47:38Z",
+    "published" : "2024-05-29T16:47:38Z",
+    "authors" : [
+      {
+        "name" : "Seyni Kane"
+      },
+      {
+        "name" : "Anis Bkakria"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.19187v1",
+    "title" : "Algorithmic Transparency and Participation through the Handoff Lens:\n  Lessons Learned from the U.S. Census Bureau's Adoption of Differential\n  Privacy",
+    "summary" : "Emerging discussions on the responsible government use of algorithmic\ntechnologies propose transparency and public participation as key mechanisms\nfor preserving accountability and trust. But in practice, the adoption and use\nof any technology shifts the social, organizational, and political context in\nwhich it is embedded. Therefore translating transparency and participation\nefforts into meaningful, effective accountability must take into account these\nshifts. We adopt two theoretical frames, Mulligan and Nissenbaum's handoff\nmodel and Star and Griesemer's boundary objects, to reveal such shifts during\nthe U.S. Census Bureau's adoption of differential privacy (DP) in its updated\ndisclosure avoidance system (DAS) for the 2020 census. This update preserved\n(and arguably strengthened) the confidentiality protections that the Bureau is\nmandated to uphold, and the Bureau engaged in a range of activities to\nfacilitate public understanding of and participation in the system design\nprocess. Using publicly available documents concerning the Census'\nimplementation of DP, this case study seeks to expand our understanding of how\ntechnical shifts implicate values, how such shifts can afford (or fail to\nafford) greater transparency and participation in system design, and the\nimportance of localized expertise throughout. We present three lessons from\nthis case study toward grounding understandings of algorithmic transparency and\nparticipation: (1) efforts towards transparency and participation in\nalgorithmic governance must center values and policy decisions, not just\ntechnical design decisions; (2) the handoff model is a useful tool for\nrevealing how such values may be cloaked beneath technical decisions; and (3)\nboundary objects alone cannot bridge distant communities without trusted\nexperts traveling alongside to broker their adoption.",
+    "updated" : "2024-05-29T15:29:16Z",
+    "published" : "2024-05-29T15:29:16Z",
+    "authors" : [
+      {
+        "name" : "Amina A. Abdu"
+      },
+      {
+        "name" : "Lauren M. Chambers"
+      },
+      {
+        "name" : "Deirdre K. Mulligan"
+      },
+      {
+        "name" : "Abigail Z. Jacobs"
+      }
+    ],
+    "categories" : [
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.18888v1",
+    "title" : "Proactive Load-Shaping Strategies with Privacy-Cost Trade-offs in\n  Residential Households based on Deep Reinforcement Learning",
+    "summary" : "Smart meters play a crucial role in enhancing energy management and\nefficiency, but they raise significant privacy concerns by potentially\nrevealing detailed user behaviors through energy consumption patterns. Recent\nscholarly efforts have focused on developing battery-aided load-shaping\ntechniques to protect user privacy while balancing costs. This paper proposes a\nnovel deep reinforcement learning-based load-shaping algorithm (PLS-DQN)\ndesigned to protect user privacy by proactively creating artificial load\nsignatures that mislead potential attackers. We evaluate our proposed algorithm\nagainst a non-intrusive load monitoring (NILM) adversary. The results\ndemonstrate that our approach not only effectively conceals real energy usage\npatterns but also outperforms state-of-the-art methods in enhancing user\nprivacy while maintaining cost efficiency.",
+    "updated" : "2024-05-29T08:45:04Z",
+    "published" : "2024-05-29T08:45:04Z",
+    "authors" : [
+      {
+        "name" : "Ruichang Zhang"
+      },
+      {
+        "name" : "Youcheng Sun"
+      },
+      {
+        "name" : "Mustafa A. Mustafa"
+      }
+    ],
+    "categories" : [
+      "eess.SY",
+      "cs.LG",
+      "cs.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.18878v1",
+    "title" : "Privacy Preserving Data Imputation via Multi-party Computation for\n  Medical Applications",
+    "summary" : "Handling missing data is crucial in machine learning, but many datasets\ncontain gaps due to errors or non-response. Unlike traditional methods such as\nlistwise deletion, which are simple but inadequate, the literature offers more\nsophisticated and effective methods, thereby improving sample size and\naccuracy. However, these methods require accessing the whole dataset, which\ncontradicts the privacy regulations when the data is distributed among multiple\nsources. Especially in the medical and healthcare domain, such access reveals\nsensitive information about patients. This study addresses privacy-preserving\nimputation methods for sensitive data using secure multi-party computation,\nenabling secure computations without revealing any party's sensitive\ninformation. In this study, we realized the mean, median, regression, and kNN\nimputation methods in a privacy-preserving way. We specifically target the\nmedical and healthcare domains considering the significance of protection of\nthe patient data, showcasing our methods on a diabetes dataset. Experiments on\nthe diabetes dataset validated the correctness of our privacy-preserving\nimputation methods, yielding the largest error around $3 \\times 10^{-3}$,\nclosely matching plaintext methods. We also analyzed the scalability of our\nmethods to varying numbers of samples, showing their applicability to\nreal-world healthcare problems. Our analysis demonstrated that all our methods\nscale linearly with the number of samples. Except for kNN, the runtime of all\nour methods indicates that they can be utilized for large datasets.",
+    "updated" : "2024-05-29T08:36:42Z",
+    "published" : "2024-05-29T08:36:42Z",
+    "authors" : [
+      {
+        "name" : "Julia Jentsch"
+      },
+      {
+        "name" : "Ali Burak Ünal"
+      },
+      {
+        "name" : "Şeyma Selcan Mağara"
+      },
+      {
+        "name" : "Mete Akgün"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.18802v1",
+    "title" : "Enhancing Security and Privacy in Federated Learning using Update\n  Digests and Voting-Based Defense",
+    "summary" : "Federated Learning (FL) is a promising privacy-preserving machine learning\nparadigm that allows data owners to collaboratively train models while keeping\ntheir data localized. Despite its potential, FL faces challenges related to the\ntrustworthiness of both clients and servers, especially in the presence of\ncurious or malicious adversaries. In this paper, we introduce a novel framework\nnamed \\underline{\\textbf{F}}ederated \\underline{\\textbf{L}}earning with\n\\underline{\\textbf{U}}pdate \\underline{\\textbf{D}}igest (FLUD), which addresses\nthe critical issues of privacy preservation and resistance to Byzantine attacks\nwithin distributed learning environments. FLUD utilizes an innovative approach,\nthe $\\mathsf{LinfSample}$ method, allowing clients to compute the $l_{\\infty}$\nnorm across sliding windows of updates as an update digest. This digest enables\nthe server to calculate a shared distance matrix, significantly reducing the\noverhead associated with Secure Multi-Party Computation (SMPC) by three orders\nof magnitude while effectively distinguishing between benign and malicious\nupdates. Additionally, FLUD integrates a privacy-preserving, voting-based\ndefense mechanism that employs optimized SMPC protocols to minimize\ncommunication rounds. Our comprehensive experiments demonstrate FLUD's\neffectiveness in countering Byzantine adversaries while incurring low\ncommunication and runtime overhead. FLUD offers a scalable framework for secure\nand reliable FL in distributed environments, facilitating its application in\nscenarios requiring robust data management and security.",
+    "updated" : "2024-05-29T06:46:10Z",
+    "published" : "2024-05-29T06:46:10Z",
+    "authors" : [
+      {
+        "name" : "Wenjie Li"
+      },
+      {
+        "name" : "Kai Fan"
+      },
+      {
+        "name" : "Jingyuan Zhang"
+      },
+      {
+        "name" : "Hui Li"
+      },
+      {
+        "name" : "Wei Yang Bryan Lim"
+      },
+      {
+        "name" : "Qiang Yang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.18534v1",
+    "title" : "Individualized Privacy Accounting via Subsampling with Applications in\n  Combinatorial Optimization",
+    "summary" : "In this work, we give a new technique for analyzing individualized privacy\naccounting via the following simple observation: if an algorithm is one-sided\nadd-DP, then its subsampled variant satisfies two-sided DP. From this, we\nobtain several improved algorithms for private combinatorial optimization\nproblems, including decomposable submodular maximization and set cover. Our\nerror guarantees are asymptotically tight and our algorithm satisfies pure-DP\nwhile previously known algorithms (Gupta et al., 2010; Chaturvedi et al., 2021)\nare approximate-DP. We also show an application of our technique beyond\ncombinatorial optimization by giving a pure-DP algorithm for the shifting heavy\nhitter problem in a stream; previously, only an approximateDP algorithm was\nknown (Kaplan et al., 2021; Cohen & Lyu, 2023).",
+    "updated" : "2024-05-28T19:02:30Z",
+    "published" : "2024-05-28T19:02:30Z",
+    "authors" : [
+      {
+        "name" : "Badih Ghazi"
+      },
+      {
+        "name" : "Pritish Kamath"
+      },
+      {
+        "name" : "Ravi Kumar"
+      },
+      {
+        "name" : "Pasin Manurangsi"
+      },
+      {
+        "name" : "Adam Sealfon"
+      }
+    ],
+    "categories" : [
+      "cs.DS",
+      "cs.CR"
+    ]
   }
 ]
