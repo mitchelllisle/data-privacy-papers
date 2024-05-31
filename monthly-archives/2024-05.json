@@ -2545,5 +2545,23 @@
       "cs.DS",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.19831v1",
+    "title" : "Just Rewrite It Again: A Post-Processing Method for Enhanced Semantic\n  Similarity and Privacy Preservation of Differentially Private Rewritten Text",
+    "summary" : "The study of Differential Privacy (DP) in Natural Language Processing often\nviews the task of text privatization as a $\\textit{rewriting}$ task, in which\nsensitive input texts are rewritten to hide explicit or implicit private\ninformation. In order to evaluate the privacy-preserving capabilities of a DP\ntext rewriting mechanism, $\\textit{empirical privacy}$ tests are frequently\nemployed. In these tests, an adversary is modeled, who aims to infer sensitive\ninformation (e.g., gender) about the author behind a (privatized) text. Looking\nto improve the empirical protections provided by DP rewriting methods, we\npropose a simple post-processing method based on the goal of aligning rewritten\ntexts with their original counterparts, where DP rewritten texts are rewritten\n$\\textit{again}$. Our results shown that such an approach not only produces\noutputs that are more semantically reminiscent of the original inputs, but also\ntexts which score on average better in empirical privacy evaluations.\nTherefore, our approach raises the bar for DP rewriting methods in their\nempirical privacy evaluations, providing an extra layer of protection against\nmalicious adversaries.",
+    "updated" : "2024-05-30T08:41:33Z",
+    "published" : "2024-05-30T08:41:33Z",
+    "authors" : [
+      {
+        "name" : "Stephen Meisenbacher"
+      },
+      {
+        "name" : "Florian Matthes"
+      }
+    ],
+    "categories" : [
+      "cs.CL"
+    ]
   }
 ]
