@@ -259,45 +259,36 @@ in autonomous UAV navigation with negligible loss in performance.</p>
 </div>
 
 
+
+<h2>2024-05</h2>
+
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2404.16706v3">Efficient and Near-Optimal Noise Generation for Streaming Differential
-  Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computational Complexity-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-04-25T16:11:46Z</p>
+  <h3><a href="http://arxiv.org/abs/2405.19831v1">Just Rewrite It Again: A Post-Processing Method for Enhanced Semantic
+  Similarity and Privacy Preservation of Differentially Private Rewritten Text</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2024-05-30T08:41:33Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Krishnamurthy Dvijotham, H. Brendan McMahan, Krishna Pillutla, Thomas Steinke, Abhradeep Thakurta</p>
-    <p><b>Summary:</b> In the task of differentially private (DP) continual counting, we receive a
-stream of increments and our goal is to output an approximate running total of
-these increments, without revealing too much about any specific increment.
-Despite its simplicity, differentially private continual counting has attracted
-significant attention both in theory and in practice. Existing algorithms for
-differentially private continual counting are either inefficient in terms of
-their space usage or add an excessive amount of noise, inducing suboptimal
-utility.
-  The most practical DP continual counting algorithms add carefully correlated
-Gaussian noise to the values. The task of choosing the covariance for this
-noise can be expressed in terms of factoring the lower-triangular matrix of
-ones (which computes prefix sums). We present two approaches from this class
-(for different parameter regimes) that achieve near-optimal utility for DP
-continual counting and only require logarithmic or polylogarithmic space (and
-time).
-  Our first approach is based on a space-efficient streaming matrix
-multiplication algorithm for a class of Toeplitz matrices. We show that to
-instantiate this algorithm for DP continual counting, it is sufficient to find
-a low-degree rational function that approximates the square root on a circle in
-the complex plane. We then apply and extend tools from approximation theory to
-achieve this. We also derive efficient closed-forms for the objective function
-for arbitrarily many steps, and show direct numerical optimization yields a
-highly practical solution to the problem. Our second approach combines our
-first approach with a recursive construction similar to the binary tree
-mechanism.</p>
+    <p><b>Authors:</b> Stephen Meisenbacher, Florian Matthes</p>
+    <p><b>Summary:</b> The study of Differential Privacy (DP) in Natural Language Processing often
+views the task of text privatization as a $\textit{rewriting}$ task, in which
+sensitive input texts are rewritten to hide explicit or implicit private
+information. In order to evaluate the privacy-preserving capabilities of a DP
+text rewriting mechanism, $\textit{empirical privacy}$ tests are frequently
+employed. In these tests, an adversary is modeled, who aims to infer sensitive
+information (e.g., gender) about the author behind a (privatized) text. Looking
+to improve the empirical protections provided by DP rewriting methods, we
+propose a simple post-processing method based on the goal of aligning rewritten
+texts with their original counterparts, where DP rewritten texts are rewritten
+$\textit{again}$. Our results shown that such an approach not only produces
+outputs that are more semantically reminiscent of the original inputs, but also
+texts which score on average better in empirical privacy evaluations.
+Therefore, our approach raises the bar for DP rewriting methods in their
+empirical privacy evaluations, providing an extra layer of protection against
+malicious adversaries.</p>
   </details>
 </div>
 
-
-
-<h2>2024-05</h2>
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2405.19272v1">Mitigating Disparate Impact of Differential Privacy in Federated
