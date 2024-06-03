@@ -2563,5 +2563,282 @@
     "categories" : [
       "cs.CL"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.20914v1",
+    "title" : "RASE: Efficient Privacy-preserving Data Aggregation against Disclosure\n  Attacks for IoTs",
+    "summary" : "The growing popular awareness of personal privacy raises the following\nquandary: what is the new paradigm for collecting and protecting the data\nproduced by ever-increasing sensor devices. Most previous studies on co-design\nof data aggregation and privacy preservation assume that a trusted fusion\ncenter adheres to privacy regimes. Very recent work has taken steps towards\nrelaxing the assumption by allowing data contributors to locally perturb their\nown data. Although these solutions withhold some data content to mitigate\nprivacy risks, they have been shown to offer insufficient protection against\ndisclosure attacks. Aiming at providing a more rigorous data safeguard for the\nInternet of Things (IoTs), this paper initiates the study of privacy-preserving\ndata aggregation. We propose a novel paradigm (called RASE), which can be\ngeneralized into a 3-step sequential procedure, noise addition, followed by\nrandom permutation, and then parameter estimation. Specially, we design a\ndifferentially private randomizer, which carefully guides data contributors to\nobfuscate the truth. Then, a shuffler is employed to receive the noisy data\nfrom all data contributors. After that, it breaks the correct linkage between\nsenders and receivers by applying a random permutation. The estimation phase\ninvolves using inaccurate data to calculate an approximate aggregate value.\nExtensive simulations are provided to explore the privacy-utility landscape of\nour RASE.",
+    "updated" : "2024-05-31T15:21:38Z",
+    "published" : "2024-05-31T15:21:38Z",
+    "authors" : [
+      {
+        "name" : "Zuyan Wang"
+      },
+      {
+        "name" : "Jun Tao"
+      },
+      {
+        "name" : "Dika Zou"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.20900v1",
+    "title" : "Large Language Models: A New Approach for Privacy Policy Analysis at\n  Scale",
+    "summary" : "The number and dynamic nature of web and mobile applications presents\nsignificant challenges for assessing their compliance with data protection\nlaws. In this context, symbolic and statistical Natural Language Processing\n(NLP) techniques have been employed for the automated analysis of these\nsystems' privacy policies. However, these techniques typically require\nlabor-intensive and potentially error-prone manually annotated datasets for\ntraining and validation. This research proposes the application of Large\nLanguage Models (LLMs) as an alternative for effectively and efficiently\nextracting privacy practices from privacy policies at scale. Particularly, we\nleverage well-known LLMs such as ChatGPT and Llama 2, and offer guidance on the\noptimal design of prompts, parameters, and models, incorporating advanced\nstrategies such as few-shot learning. We further illustrate its capability to\ndetect detailed and varied privacy practices accurately. Using several renowned\ndatasets in the domain as a benchmark, our evaluation validates its exceptional\nperformance, achieving an F1 score exceeding 93%. Besides, it does so with\nreduced costs, faster processing times, and fewer technical knowledge\nrequirements. Consequently, we advocate for LLM-based solutions as a sound\nalternative to traditional NLP techniques for the automated analysis of privacy\npolicies at scale.",
+    "updated" : "2024-05-31T15:12:33Z",
+    "published" : "2024-05-31T15:12:33Z",
+    "authors" : [
+      {
+        "name" : "David Rodriguez"
+      },
+      {
+        "name" : "Ian Yang"
+      },
+      {
+        "name" : "Jose M. Del Alamo"
+      },
+      {
+        "name" : "Norman Sadeh"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.20761v1",
+    "title" : "Share Your Secrets for Privacy! Confidential Forecasting with Vertical\n  Federated Learning",
+    "summary" : "Vertical federated learning (VFL) is a promising area for time series\nforecasting in industrial applications, such as predictive maintenance and\nmachine control. Critical challenges to address in manufacturing include data\nprivacy and over-fitting on small and noisy datasets during both training and\ninference. Additionally, to increase industry adaptability, such forecasting\nmodels must scale well with the number of parties while ensuring strong\nconvergence and low-tuning complexity. We address those challenges and propose\n'Secret-shared Time Series Forecasting with VFL' (STV), a novel framework that\nexhibits the following key features: i) a privacy-preserving algorithm for\nforecasting with SARIMAX and autoregressive trees on vertically partitioned\ndata; ii) serverless forecasting using secret sharing and multi-party\ncomputation; iii) novel N-party algorithms for matrix multiplication and\ninverse operations for direct parameter optimization, giving strong convergence\nwith minimal hyperparameter tuning complexity. We conduct evaluations on six\nrepresentative datasets from public and industry-specific contexts. Our results\ndemonstrate that STV's forecasting accuracy is comparable to those of\ncentralized approaches. They also show that our direct optimization can\noutperform centralized methods, which include state-of-the-art diffusion models\nand long-short-term memory, by 23.81% on forecasting accuracy. We also conduct\na scalability analysis by examining the communication costs of direct and\niterative optimization to navigate the choice between the two. Code and\nappendix are available: https://github.com/adis98/STV",
+    "updated" : "2024-05-31T12:27:38Z",
+    "published" : "2024-05-31T12:27:38Z",
+    "authors" : [
+      {
+        "name" : "Aditya Shankar"
+      },
+      {
+        "name" : "Lydia Y. Chen"
+      },
+      {
+        "name" : "Jérémie Decouchant"
+      },
+      {
+        "name" : "Dimitra Gkorou"
+      },
+      {
+        "name" : "Rihan Hai"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.20681v1",
+    "title" : "No Free Lunch Theorem for Privacy-Preserving LLM Inference",
+    "summary" : "Individuals and businesses have been significantly benefited by Large\nLanguage Models (LLMs) including PaLM, Gemini and ChatGPT in various ways. For\nexample, LLMs enhance productivity, reduce costs, and enable us to focus on\nmore valuable tasks. Furthermore, LLMs possess the capacity to sift through\nextensive datasets, uncover underlying patterns, and furnish critical insights\nthat propel the frontiers of technology and science. However, LLMs also pose\nprivacy concerns. Users' interactions with LLMs may expose their sensitive\npersonal or company information. A lack of robust privacy safeguards and legal\nframeworks could permit the unwarranted intrusion or improper handling of\nindividual data, thereby risking infringements of privacy and the theft of\npersonal identities. To ensure privacy, it is essential to minimize the\ndependency between shared prompts and private information. Various\nrandomization approaches have been proposed to protect prompts' privacy, but\nthey may incur utility loss compared to unprotected LLMs prompting. Therefore,\nit is essential to evaluate the balance between the risk of privacy leakage and\nloss of utility when conducting effective protection mechanisms. The current\nstudy develops a framework for inferring privacy-protected Large Language\nModels (LLMs) and lays down a solid theoretical basis for examining the\ninterplay between privacy preservation and utility. The core insight is\nencapsulated within a theorem that is called as the NFL (abbreviation of the\nword No-Free-Lunch) Theorem.",
+    "updated" : "2024-05-31T08:22:53Z",
+    "published" : "2024-05-31T08:22:53Z",
+    "authors" : [
+      {
+        "name" : "Xiaojin Zhang"
+      },
+      {
+        "name" : "Yulin Fei"
+      },
+      {
+        "name" : "Yan Kang"
+      },
+      {
+        "name" : "Wei Chen"
+      },
+      {
+        "name" : "Lixin Fan"
+      },
+      {
+        "name" : "Hai Jin"
+      },
+      {
+        "name" : "Qiang Yang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.20576v1",
+    "title" : "Federated Graph Analytics with Differential Privacy",
+    "summary" : "Collaborative graph analysis across multiple institutions is becoming\nincreasingly popular. Realistic examples include social network analysis across\nvarious social platforms, financial transaction analysis across multiple banks,\nand analyzing the transmission of infectious diseases across multiple\nhospitals. We define the federated graph analytics, a new problem for\ncollaborative graph analytics under differential privacy. Although\ndifferentially private graph analysis has been widely studied, it fails to\nachieve a good tradeoff between utility and privacy in federated scenarios, due\nto the limited view of local clients and overlapping information across\nmultiple subgraphs. Motivated by this, we first propose a federated graph\nanalytic framework, named FEAT, which enables arbitrary downstream common graph\nstatistics while preserving individual privacy. Furthermore, we introduce an\noptimized framework based on our proposed degree-based partition algorithm,\ncalled FEAT+, which improves the overall utility by leveraging the true local\nsubgraphs. Finally, extensive experiments demonstrate that our FEAT and FEAT+\nsignificantly outperform the baseline approach by approximately one and four\norders of magnitude, respectively.",
+    "updated" : "2024-05-31T02:09:43Z",
+    "published" : "2024-05-31T02:09:43Z",
+    "authors" : [
+      {
+        "name" : "Shang Liu"
+      },
+      {
+        "name" : "Yang Cao"
+      },
+      {
+        "name" : "Takao Murakami"
+      },
+      {
+        "name" : "Weiran Liu"
+      },
+      {
+        "name" : "Seng Pei Liew"
+      },
+      {
+        "name" : "Tsubasa Takahashi"
+      },
+      {
+        "name" : "Jinfei Liu"
+      },
+      {
+        "name" : "Masatoshi Yoshikawa"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.20483v1",
+    "title" : "Hiding Your Awful Online Choices Made More Efficient and Secure: A New\n  Privacy-Aware Recommender System",
+    "summary" : "Recommender systems are an integral part of online platforms that recommend\nnew content to users with similar interests. However, they demand a\nconsiderable amount of user activity data where, if the data is not adequately\nprotected, constitute a critical threat to the user privacy. Privacy-aware\nrecommender systems enable protection of such sensitive user data while still\nmaintaining a similar recommendation accuracy compared to the traditional\nnon-private recommender systems. However, at present, the current privacy-aware\nrecommender systems suffer from a significant trade-off between privacy and\ncomputational efficiency. For instance, it is well known that architectures\nthat rely purely on cryptographic primitives offer the most robust privacy\nguarantees, however, they suffer from substantial computational and network\noverhead. Thus, it is crucial to improve this trade-off for better performance.\nThis paper presents a novel privacy-aware recommender system that combines\nprivacy-aware machine learning algorithms for practical scalability and\nefficiency with cryptographic primitives like Homomorphic Encryption and\nMulti-Party Computation - without assumptions like trusted-party or secure\nhardware - for solid privacy guarantees. Experiments on standard benchmark\ndatasets show that our approach results in time and memory gains by three\norders of magnitude compared to using cryptographic primitives in a standalone\nfor constructing a privacy-aware recommender system. Furthermore, for the first\ntime our method makes it feasible to compute private recommendations for\ndatasets containing 100 million entries, even on memory-constrained low-power\nSOC (System on Chip) devices.",
+    "updated" : "2024-05-30T21:08:42Z",
+    "published" : "2024-05-30T21:08:42Z",
+    "authors" : [
+      {
+        "name" : "Shibam Mukherjee"
+      },
+      {
+        "name" : "Roman Walch"
+      },
+      {
+        "name" : "Fredrik Meisingseth"
+      },
+      {
+        "name" : "Elisabeth Lex"
+      },
+      {
+        "name" : "Christian Rechberger"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.20405v1",
+    "title" : "Private Mean Estimation with Person-Level Differential Privacy",
+    "summary" : "We study differentially private (DP) mean estimation in the case where each\nperson holds multiple samples. Commonly referred to as the \"user-level\"\nsetting, DP here requires the usual notion of distributional stability when all\nof a person's datapoints can be modified. Informally, if $n$ people each have\n$m$ samples from an unknown $d$-dimensional distribution with bounded $k$-th\nmoments, we show that\n  \\[n = \\tilde \\Theta\\left(\\frac{d}{\\alpha^2 m} + \\frac{d }{ \\alpha m^{1/2}\n\\varepsilon} + \\frac{d}{\\alpha^{k/(k-1)} m \\varepsilon} +\n\\frac{d}{\\varepsilon}\\right)\\]\n  people are necessary and sufficient to estimate the mean up to distance\n$\\alpha$ in $\\ell_2$-norm under $\\varepsilon$-differential privacy (and its\ncommon relaxations). In the multivariate setting, we give computationally\nefficient algorithms under approximate DP (with slightly degraded sample\ncomplexity) and computationally inefficient algorithms under pure DP, and our\nnearly matching lower bounds hold for the most permissive case of approximate\nDP. Our computationally efficient estimators are based on the well known\nnoisy-clipped-mean approach, but the analysis for our setting requires new\nbounds on the tails of sums of independent, vector-valued, bounded-moments\nrandom variables, and a new argument for bounding the bias introduced by\nclipping.",
+    "updated" : "2024-05-30T18:20:35Z",
+    "published" : "2024-05-30T18:20:35Z",
+    "authors" : [
+      {
+        "name" : "Sushant Agarwal"
+      },
+      {
+        "name" : "Gautam Kamath"
+      },
+      {
+        "name" : "Mahbod Majid"
+      },
+      {
+        "name" : "Argyris Mouzakis"
+      },
+      {
+        "name" : "Rose Silver"
+      },
+      {
+        "name" : "Jonathan Ullman"
+      }
+    ],
+    "categories" : [
+      "cs.DS",
+      "cs.CR",
+      "cs.IT",
+      "cs.LG",
+      "math.IT",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.19831v2",
+    "title" : "Just Rewrite It Again: A Post-Processing Method for Enhanced Semantic\n  Similarity and Privacy Preservation of Differentially Private Rewritten Text",
+    "summary" : "The study of Differential Privacy (DP) in Natural Language Processing often\nviews the task of text privatization as a $\\textit{rewriting}$ task, in which\nsensitive input texts are rewritten to hide explicit or implicit private\ninformation. In order to evaluate the privacy-preserving capabilities of a DP\ntext rewriting mechanism, $\\textit{empirical privacy}$ tests are frequently\nemployed. In these tests, an adversary is modeled, who aims to infer sensitive\ninformation (e.g., gender) about the author behind a (privatized) text. Looking\nto improve the empirical protections provided by DP rewriting methods, we\npropose a simple post-processing method based on the goal of aligning rewritten\ntexts with their original counterparts, where DP rewritten texts are rewritten\n$\\textit{again}$. Our results show that such an approach not only produces\noutputs that are more semantically reminiscent of the original inputs, but also\ntexts which score on average better in empirical privacy evaluations.\nTherefore, our approach raises the bar for DP rewriting methods in their\nempirical privacy evaluations, providing an extra layer of protection against\nmalicious adversaries.",
+    "updated" : "2024-05-31T07:24:55Z",
+    "published" : "2024-05-30T08:41:33Z",
+    "authors" : [
+      {
+        "name" : "Stephen Meisenbacher"
+      },
+      {
+        "name" : "Florian Matthes"
+      }
+    ],
+    "categories" : [
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.20785v1",
+    "title" : "How the Future Works at SOUPS: Analyzing Future Work Statements and\n  Their Impact on Usable Security and Privacy Research",
+    "summary" : "Extending knowledge by identifying and investigating valuable research\nquestions and problems is a core function of research. Research publications\noften suggest avenues for future work to extend and build upon their results.\nConsidering these suggestions can contribute to developing research ideas that\nbuild upon previous work and produce results that tie into existing knowledge.\nUsable security and privacy researchers commonly add future work statements to\ntheir publications. However, our community lacks an in-depth understanding of\ntheir prevalence, quality, and impact on future research.\n  Our work aims to address this gap in the research literature. We reviewed all\n27 papers from the 2019 SOUPS proceedings and analyzed their future work\nstatements. Additionally, we analyzed 978 publications that cite any paper from\nSOUPS 2019 proceedings to assess their future work statements' impact. We find\nthat most papers from the SOUPS 2019 proceedings include future work\nstatements. However, they are often unspecific or ambiguous, and not always\neasy to find. Therefore, the citing publications often matched the future work\nstatements' content thematically, but rarely explicitly acknowledged them,\nindicating a limited impact. We conclude with recommendations for the usable\nsecurity and privacy community to improve the utility of future work statements\nby making them more tangible and actionable, and avenues for future work.",
+    "updated" : "2024-05-30T07:07:18Z",
+    "published" : "2024-05-30T07:07:18Z",
+    "authors" : [
+      {
+        "name" : "Jacques Suray"
+      },
+      {
+        "name" : "Jan H. Klemmer"
+      },
+      {
+        "name" : "Juliane Schmüser"
+      },
+      {
+        "name" : "Sascha Fahl"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.20769v1",
+    "title" : "Avoiding Pitfalls for Privacy Accounting of Subsampled Mechanisms under\n  Composition",
+    "summary" : "We consider the problem of computing tight privacy guarantees for the\ncomposition of subsampled differentially private mechanisms. Recent algorithms\ncan numerically compute the privacy parameters to arbitrary precision but must\nbe carefully applied.\n  Our main contribution is to address two common points of confusion. First,\nsome privacy accountants assume that the privacy guarantees for the composition\nof a subsampled mechanism are determined by self-composing the worst-case\ndatasets for the uncomposed mechanism. We show that this is not true in\ngeneral. Second, Poisson subsampling is sometimes assumed to have similar\nprivacy guarantees compared to sampling without replacement. We show that the\nprivacy guarantees may in fact differ significantly between the two sampling\nschemes. In particular, we give an example of hyperparameters that result in\n$\\varepsilon \\approx 1$ for Poisson subsampling and $\\varepsilon > 10$ for\nsampling without replacement. This occurs for some parameters that could\nrealistically be chosen for DP-SGD.",
+    "updated" : "2024-05-27T20:30:12Z",
+    "published" : "2024-05-27T20:30:12Z",
+    "authors" : [
+      {
+        "name" : "Christian Janos Lebeda"
+      },
+      {
+        "name" : "Matthew Regehr"
+      },
+      {
+        "name" : "Gautam Kamath"
+      },
+      {
+        "name" : "Thomas Steinke"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DS",
+      "cs.LG",
+      "stat.ML"
+    ]
   }
 ]
