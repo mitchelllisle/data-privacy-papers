@@ -626,7 +626,7 @@ distributions, the user-level rate is even faster than the item-level one.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.16905v1">Privacy and Security Trade-off in Interconnected Systems with Known or
+  <h3><a href="http://arxiv.org/abs/2405.16905v2">Privacy and Security Trade-off in Interconnected Systems with Known or
   Unknown Privacy Noise Covariance</a></h3>
    <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
   <p><b>Published on:</b> 2024-05-27T07:53:51Z</p>
