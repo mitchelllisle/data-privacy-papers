@@ -1,1 +1,379 @@
-[{"id":"http://arxiv.org/abs/2406.02520v1","title":"Digital Privacy for Migrants: Exploring Current Research Trends and\n  Future Prospects","summary":"This paper explores digital privacy challenges for migrants, analyzing trends\nfrom 2013 to 2023. Migrants face heightened risks such as government\nsurveillance and identity theft. Understanding these threats is vital for\nraising awareness and guiding research towards effective solutions and policies\nto protect migrant digital privacy.","updated":"2024-06-04T17:41:20Z","published":"2024-06-04T17:41:20Z","authors":[{"name":"Sarah Tabassum"},{"name":"Cori Faklaris"}],"categories":["cs.HC"]},{"id":"http://arxiv.org/abs/2406.02463v1","title":"Click Without Compromise: Online Advertising Measurement via Per User\n  Differential Privacy","summary":"Online advertising is a cornerstone of the Internet ecosystem, with\nadvertising measurement playing a crucial role in optimizing efficiency. Ad\nmeasurement entails attributing desired behaviors, such as purchases, to ad\nexposures across various platforms, necessitating the collection of user\nactivities across these platforms. As this practice faces increasing\nrestrictions due to rising privacy concerns, safeguarding user privacy in this\ncontext is imperative. Our work is the first to formulate the real-world\nchallenge of advertising measurement systems with real-time reporting of\nstreaming data in advertising campaigns. We introduce Ads-BPC, a novel\nuser-level differential privacy protection scheme for advertising measurement\nresults. This approach optimizes global noise power and results in a\nnon-identically distributed noise distribution that preserves differential\nprivacy while enhancing measurement accuracy. Through experiments on both\nreal-world advertising campaigns and synthetic datasets, Ads-BPC achieves a 25%\nto 50% increase in accuracy over existing streaming DP mechanisms applied to\nadvertising measurement. This highlights our method's effectiveness in\nachieving superior accuracy alongside a formal privacy guarantee, thereby\nadvancing the state-of-the-art in privacy-preserving advertising measurement.","updated":"2024-06-04T16:31:19Z","published":"2024-06-04T16:31:19Z","authors":[{"name":"Yingtai Xiao"},{"name":"Jian Du"},{"name":"Shikun Zhang"},{"name":"Qiang Yan"},{"name":"Danfeng Zhang"},{"name":"Daniel Kifer"}],"categories":["cs.CR"]},{"id":"http://arxiv.org/abs/2406.02424v1","title":"Contextual Dynamic Pricing: Algorithms, Optimality, and Local\n  Differential Privacy Constraints","summary":"We study the contextual dynamic pricing problem where a firm sells products\nto $T$ sequentially arriving consumers that behave according to an unknown\ndemand model. The firm aims to maximize its revenue, i.e. minimize its regret\nover a clairvoyant that knows the model in advance. The demand model is a\ngeneralized linear model (GLM), allowing for a stochastic feature vector in\n$\\mathbb R^d$ that encodes product and consumer information. We first show that\nthe optimal regret upper bound is of order $\\sqrt{dT}$, up to a logarithmic\nfactor, improving upon existing upper bounds in the literature by a $\\sqrt{d}$\nfactor. This sharper rate is materialised by two algorithms: a confidence\nbound-type (supCB) algorithm and an explore-then-commit (ETC) algorithm. A key\ninsight of our theoretical result is an intrinsic connection between dynamic\npricing and the contextual multi-armed bandit problem with many arms based on a\ncareful discretization. We further study contextual dynamic pricing under the\nlocal differential privacy (LDP) constraints. In particular, we propose a\nstochastic gradient descent based ETC algorithm that achieves an optimal regret\nupper bound of order $d\\sqrt{T}/\\epsilon$, up to a logarithmic factor, where\n$\\epsilon>0$ is the privacy parameter. The regret upper bounds with and without\nLDP constraints are accompanied by newly constructed minimax lower bounds,\nwhich further characterize the cost of privacy. Extensive numerical experiments\nand a real data application on online lending are conducted to illustrate the\nefficiency and practical value of the proposed algorithms in dynamic pricing.","updated":"2024-06-04T15:44:10Z","published":"2024-06-04T15:44:10Z","authors":[{"name":"Zifeng Zhao"},{"name":"Feiyu Jiang"},{"name":"Yi Yu"}],"categories":["cs.LG","math.ST","stat.ME","stat.TH"]},{"id":"http://arxiv.org/abs/2406.01811v1","title":"A Game-Theoretic Approach to Privacy-Utility Tradeoff in Sharing Genomic\n  Summary Statistics","summary":"The advent of online genomic data-sharing services has sought to enhance the\naccessibility of large genomic datasets by allowing queries about genetic\nvariants, such as summary statistics, aiding care providers in distinguishing\nbetween spurious genomic variations and those with clinical significance.\nHowever, numerous studies have demonstrated that even sharing summary genomic\ninformation exposes individual members of such datasets to a significant\nprivacy risk due to membership inference attacks. While several approaches have\nemerged that reduce privacy risks by adding noise or reducing the amount of\ninformation shared, these typically assume non-adaptive attacks that use\nlikelihood ratio test (LRT) statistics. We propose a Bayesian game-theoretic\nframework for optimal privacy-utility tradeoff in the sharing of genomic\nsummary statistics. Our first contribution is to prove that a very general\nBayesian attacker model that anchors our game-theoretic approach is more\npowerful than the conventional LRT-based threat models in that it induces worse\nprivacy loss for the defender who is modeled as a von Neumann-Morgenstern (vNM)\ndecision-maker. We show this to be true even when the attacker uses a\nnon-informative subjective prior. Next, we present an analytically tractable\napproach to compare the Bayesian attacks with arbitrary subjective priors and\nthe Neyman-Pearson optimal LRT attacks under the Gaussian mechanism common in\ndifferential privacy frameworks. Finally, we propose an approach for\napproximating Bayes-Nash equilibria of the game using deep neural network\ngenerators to implicitly represent player mixed strategies. Our experiments\ndemonstrate that the proposed game-theoretic framework yields both stronger\nattacks and stronger defense strategies than the state of the art.","updated":"2024-06-03T22:09:47Z","published":"2024-06-03T22:09:47Z","authors":[{"name":"Tao Zhang"},{"name":"Rajagopal Venkatesaramani"},{"name":"Rajat K. De"},{"name":"Bradley A. Malin"},{"name":"Yevgeniy Vorobeychik"}],"categories":["cs.CR"]},{"id":"http://arxiv.org/abs/2406.01394v1","title":"PrivacyRestore: Privacy-Preserving Inference in Large Language Models\n  via Privacy Removal and Restoration","summary":"The widespread usage of online Large Language Models (LLMs) inference\nservices has raised significant privacy concerns about the potential exposure\nof private information in user inputs to eavesdroppers or untrustworthy service\nproviders. Existing privacy protection methods for LLMs suffer from\ninsufficient privacy protection, performance degradation, or severe inference\ntime overhead. In this paper, we propose PrivacyRestore to protect the privacy\nof user inputs during LLM inference. PrivacyRestore directly removes privacy\nspans in user inputs and restores privacy information via activation steering\nduring inference. The privacy spans are encoded as restoration vectors. We\npropose Attention-aware Weighted Aggregation (AWA) which aggregates restoration\nvectors of all privacy spans in the input into a meta restoration vector. AWA\nnot only ensures proper representation of all privacy spans but also prevents\nattackers from inferring the privacy spans from the meta restoration vector\nalone. This meta restoration vector, along with the query with privacy spans\nremoved, is then sent to the server. The experimental results show that\nPrivacyRestore can protect private information while maintaining acceptable\nlevels of performance and inference efficiency.","updated":"2024-06-03T14:57:39Z","published":"2024-06-03T14:57:39Z","authors":[{"name":"Ziqian Zeng"},{"name":"Jianwei Wang"},{"name":"Zhengdong Lu"},{"name":"Huiping Zhuang"},{"name":"Cen Chen"}],"categories":["cs.CR","cs.AI"]},{"id":"http://arxiv.org/abs/2406.01363v1","title":"Privacy in LLM-based Recommendation: Recent Advances and Future\n  Directions","summary":"Nowadays, large language models (LLMs) have been integrated with conventional\nrecommendation models to improve recommendation performance. However, while\nmost of the existing works have focused on improving the model performance, the\nprivacy issue has only received comparatively less attention. In this paper, we\nreview recent advancements in privacy within LLM-based recommendation,\ncategorizing them into privacy attacks and protection mechanisms. Additionally,\nwe highlight several challenges and propose future directions for the community\nto address these critical problems.","updated":"2024-06-03T14:31:47Z","published":"2024-06-03T14:31:47Z","authors":[{"name":"Sichun Luo"},{"name":"Wei Shao"},{"name":"Yuxuan Yao"},{"name":"Jian Xu"},{"name":"Mingyang Liu"},{"name":"Qintong Li"},{"name":"Bowei He"},{"name":"Maolin Wang"},{"name":"Guanzhi Deng"},{"name":"Hanxu Hou"},{"name":"Xinyi Zhang"},{"name":"Linqi Song"}],"categories":["cs.CL","cs.IR"]},{"id":"http://arxiv.org/abs/2406.01085v1","title":"FedAdOb: Privacy-Preserving Federated Deep Learning with Adaptive\n  Obfuscation","summary":"Federated learning (FL) has emerged as a collaborative approach that allows\nmultiple clients to jointly learn a machine learning model without sharing\ntheir private data. The concern about privacy leakage, albeit demonstrated\nunder specific conditions, has triggered numerous follow-up research in\ndesigning powerful attacking methods and effective defending mechanisms aiming\nto thwart these attacking methods. Nevertheless, privacy-preserving mechanisms\nemployed in these defending methods invariably lead to compromised model\nperformances due to a fixed obfuscation applied to private data or gradients.\nIn this article, we, therefore, propose a novel adaptive obfuscation mechanism,\ncoined FedAdOb, to protect private data without yielding original model\nperformances. Technically, FedAdOb utilizes passport-based adaptive obfuscation\nto ensure data privacy in both horizontal and vertical federated learning\nsettings. The privacy-preserving capabilities of FedAdOb, specifically with\nregard to private features and labels, are theoretically proven through\nTheorems 1 and 2. Furthermore, extensive experimental evaluations conducted on\nvarious datasets and network architectures demonstrate the effectiveness of\nFedAdOb by manifesting its superior trade-off between privacy preservation and\nmodel performance, surpassing existing methods.","updated":"2024-06-03T08:12:09Z","published":"2024-06-03T08:12:09Z","authors":[{"name":"Hanlin Gu"},{"name":"Jiahuan Luo"},{"name":"Yan Kang"},{"name":"Yuan Yao"},{"name":"Gongxi Zhu"},{"name":"Bowen Li"},{"name":"Lixin Fan"},{"name":"Qiang Yang"}],"categories":["cs.CR","cs.AI"]},{"id":"http://arxiv.org/abs/2406.01080v1","title":"No Vandalism: Privacy-Preserving and Byzantine-Robust Federated Learning","summary":"Federated learning allows several clients to train one machine learning model\njointly without sharing private data, providing privacy protection. However,\ntraditional federated learning is vulnerable to poisoning attacks, which can\nnot only decrease the model performance, but also implant malicious backdoors.\nIn addition, direct submission of local model parameters can also lead to the\nprivacy leakage of the training dataset. In this paper, we aim to build a\nprivacy-preserving and Byzantine-robust federated learning scheme to provide an\nenvironment with no vandalism (NoV) against attacks from malicious\nparticipants. Specifically, we construct a model filter for poisoned local\nmodels, protecting the global model from data and model poisoning attacks. This\nmodel filter combines zero-knowledge proofs to provide further privacy\nprotection. Then, we adopt secret sharing to provide verifiable secure\naggregation, removing malicious clients that disrupting the aggregation\nprocess. Our formal analysis proves that NoV can protect data privacy and weed\nout Byzantine attackers. Our experiments illustrate that NoV can effectively\naddress data and model poisoning attacks, including PGD, and outperforms other\nrelated schemes.","updated":"2024-06-03T07:59:10Z","published":"2024-06-03T07:59:10Z","authors":[{"name":"Zhibo Xing"},{"name":"Zijian Zhang"},{"name":"Zi'ang Zhang"},{"name":"Jiamou Liu"},{"name":"Liehuang Zhu"},{"name":"Giovanni Russello"}],"categories":["cs.CR","cs.DC","cs.LG"]},{"id":"http://arxiv.org/abs/2406.00966v1","title":"Guaranteeing Data Privacy in Federated Unlearning with Dynamic User\n  Participation","summary":"Federated Unlearning (FU) is gaining prominence for its capacity to eliminate\ninfluences of Federated Learning (FL) users' data from trained global FL\nmodels. A straightforward FU method involves removing the unlearned users and\nsubsequently retraining a new global FL model from scratch with all remaining\nusers, a process that leads to considerable overhead. To enhance unlearning\nefficiency, a widely adopted strategy employs clustering, dividing FL users\ninto clusters, with each cluster maintaining its own FL model. The final\ninference is then determined by aggregating the majority vote from the\ninferences of these sub-models. This method confines unlearning processes to\nindividual clusters for removing a user, thereby enhancing unlearning\nefficiency by eliminating the need for participation from all remaining users.\nHowever, current clustering-based FU schemes mainly concentrate on refining\nclustering to boost unlearning efficiency but overlook the potential\ninformation leakage from FL users' gradients, a privacy concern that has been\nextensively studied. Typically, integrating secure aggregation (SecAgg) schemes\nwithin each cluster can facilitate a privacy-preserving FU. Nevertheless,\ncrafting a clustering methodology that seamlessly incorporates SecAgg schemes\nis challenging, particularly in scenarios involving adversarial users and\ndynamic users. In this connection, we systematically explore the integration of\nSecAgg protocols within the most widely used federated unlearning scheme, which\nis based on clustering, to establish a privacy-preserving FU framework, aimed\nat ensuring privacy while effectively managing dynamic user participation.\nComprehensive theoretical assessments and experimental results show that our\nproposed scheme achieves comparable unlearning effectiveness, alongside\noffering improved privacy protection and resilience in the face of varying user\nparticipation.","updated":"2024-06-03T03:39:07Z","published":"2024-06-03T03:39:07Z","authors":[{"name":"Ziyao Liu"},{"name":"Yu Jiang"},{"name":"Weifeng Jiang"},{"name":"Jiale Guo"},{"name":"Jun Zhao"},{"name":"Kwok-Yan Lam"}],"categories":["cs.CR"]},{"id":"http://arxiv.org/abs/2406.00808v1","title":"EchoNet-Synthetic: Privacy-preserving Video Generation for Safe Medical\n  Data Sharing","summary":"To make medical datasets accessible without sharing sensitive patient\ninformation, we introduce a novel end-to-end approach for generative\nde-identification of dynamic medical imaging data. Until now, generative\nmethods have faced constraints in terms of fidelity, spatio-temporal coherence,\nand the length of generation, failing to capture the complete details of\ndataset distributions. We present a model designed to produce high-fidelity,\nlong and complete data samples with near-real-time efficiency and explore our\napproach on a challenging task: generating echocardiogram videos. We develop\nour generation method based on diffusion models and introduce a protocol for\nmedical video dataset anonymization. As an exemplar, we present\nEchoNet-Synthetic, a fully synthetic, privacy-compliant echocardiogram dataset\nwith paired ejection fraction labels. As part of our de-identification\nprotocol, we evaluate the quality of the generated dataset and propose to use\nclinical downstream tasks as a measurement on top of widely used but\npotentially biased image quality metrics. Experimental outcomes demonstrate\nthat EchoNet-Synthetic achieves comparable dataset fidelity to the actual\ndataset, effectively supporting the ejection fraction regression task. Code,\nweights and dataset are available at\nhttps://github.com/HReynaud/EchoNet-Synthetic.","updated":"2024-06-02T17:18:06Z","published":"2024-06-02T17:18:06Z","authors":[{"name":"Hadrien Reynaud"},{"name":"Qingjie Meng"},{"name":"Mischa Dombrowski"},{"name":"Arijit Ghosh"},{"name":"Thomas Day"},{"name":"Alberto Gomez"},{"name":"Paul Leeson"},{"name":"Bernhard Kainz"}],"categories":["cs.CV"]},{"id":"http://arxiv.org/abs/2406.00359v1","title":"Location Privacy in B5G/6G: Systematization of Knowledge","summary":"As we transition into the era of B5G/6G networks, the promise of seamless,\nhigh-speed connectivity brings unprecedented opportunities and challenges.\nAmong the most critical concerns is the preservation of location privacy, given\nthe enhanced precision and pervasive connectivity of these advanced networks.\nThis paper systematically reviews the state of knowledge on location privacy in\nB5G/6G networks, highlighting the architectural advancements and\ninfrastructural complexities that contribute to increased privacy risks. The\nurgency of studying these technologies is underscored by the rapid adoption of\nB5G/6G and the growing sophistication of location tracking methods. We evaluate\ncurrent and emerging privacy-preserving mechanisms, exploring the implications\nof sophisticated tracking methods and the challenges posed by the complex\nnetwork infrastructures. Our findings reveal the effectiveness of various\nmitigation strategies and emphasize the important role of physical layer\nsecurity. Additionally, we propose innovative approaches, including\ndecentralized authentication systems and the potential of satellite\ncommunications, to enhance location privacy. By addressing these challenges,\nthis paper provides a comprehensive perspective on preserving user privacy in\nthe rapidly evolving landscape of modern communication networks.","updated":"2024-06-01T08:25:07Z","published":"2024-06-01T08:25:07Z","authors":[{"name":"Hannah B. Pasandi"},{"name":"Faith Parastar"}],"categories":["cs.NI"]},{"id":"http://arxiv.org/abs/2406.00256v1","title":"Over-the-Air Collaborative Inference with Feature Differential Privacy","summary":"Collaborative inference in next-generation networks can enhance Artificial\nIntelligence (AI) applications, including autonomous driving, personal\nidentification, and activity classification. This method involves a three-stage\nprocess: a) data acquisition through sensing, b) feature extraction, and c)\nfeature encoding for transmission. Transmission of the extracted features\nentails the potential risk of exposing sensitive personal data. To address this\nissue, in this work a new privacy-protecting collaborative inference mechanism\nis developed. Under this mechanism, each edge device in the network protects\nthe privacy of extracted features before transmitting them to a central server\nfor inference. This mechanism aims to achieve two main objectives while\nensuring effective inference performance: 1) reducing communication overhead,\nand 2) maintaining strict privacy guarantees during features transmission.","updated":"2024-06-01T01:39:44Z","published":"2024-06-01T01:39:44Z","authors":[{"name":"Mohamed Seif"},{"name":"Yuqi Nie"},{"name":"Andrea Goldsmith"},{"name":"Vincent Poor"}],"categories":["cs.IT","cs.CR","math.IT"]},{"id":"http://arxiv.org/abs/2406.00249v1","title":"Privacy Challenges in Meta-Learning: An Investigation on Model-Agnostic\n  Meta-Learning","summary":"Meta-learning involves multiple learners, each dedicated to specific tasks,\ncollaborating in a data-constrained setting. In current meta-learning methods,\ntask learners locally learn models from sensitive data, termed support sets.\nThese task learners subsequently share model-related information, such as\ngradients or loss values, which is computed using another part of the data\ntermed query set, with a meta-learner. The meta-learner employs this\ninformation to update its meta-knowledge. Despite the absence of explicit data\nsharing, privacy concerns persist. This paper examines potential data leakage\nin a prominent metalearning algorithm, specifically Model-Agnostic\nMeta-Learning (MAML). In MAML, gradients are shared between the metalearner and\ntask-learners. The primary objective is to scrutinize the gradient and the\ninformation it encompasses about the task dataset. Subsequently, we endeavor to\npropose membership inference attacks targeting the task dataset containing\nsupport and query sets. Finally, we explore various noise injection methods\ndesigned to safeguard the privacy of task data and thwart potential attacks.\nExperimental results demonstrate the effectiveness of these attacks on MAML and\nthe efficacy of proper noise injection methods in countering them.","updated":"2024-06-01T01:10:35Z","published":"2024-06-01T01:10:35Z","authors":[{"name":"Mina Rafiei"},{"name":"Mohammadmahdi Maheri"},{"name":"Hamid R. Rabiee"}],"categories":["cs.LG","cs.CR"]}]
+[
+  {
+    "id" : "http://arxiv.org/abs/2406.02520v1",
+    "title" : "Digital Privacy for Migrants: Exploring Current Research Trends and\n  Future Prospects",
+    "summary" : "This paper explores digital privacy challenges for migrants, analyzing trends\nfrom 2013 to 2023. Migrants face heightened risks such as government\nsurveillance and identity theft. Understanding these threats is vital for\nraising awareness and guiding research towards effective solutions and policies\nto protect migrant digital privacy.",
+    "updated" : "2024-06-04T17:41:20Z",
+    "published" : "2024-06-04T17:41:20Z",
+    "authors" : [
+      {
+        "name" : "Sarah Tabassum"
+      },
+      {
+        "name" : "Cori Faklaris"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.02463v1",
+    "title" : "Click Without Compromise: Online Advertising Measurement via Per User\n  Differential Privacy",
+    "summary" : "Online advertising is a cornerstone of the Internet ecosystem, with\nadvertising measurement playing a crucial role in optimizing efficiency. Ad\nmeasurement entails attributing desired behaviors, such as purchases, to ad\nexposures across various platforms, necessitating the collection of user\nactivities across these platforms. As this practice faces increasing\nrestrictions due to rising privacy concerns, safeguarding user privacy in this\ncontext is imperative. Our work is the first to formulate the real-world\nchallenge of advertising measurement systems with real-time reporting of\nstreaming data in advertising campaigns. We introduce Ads-BPC, a novel\nuser-level differential privacy protection scheme for advertising measurement\nresults. This approach optimizes global noise power and results in a\nnon-identically distributed noise distribution that preserves differential\nprivacy while enhancing measurement accuracy. Through experiments on both\nreal-world advertising campaigns and synthetic datasets, Ads-BPC achieves a 25%\nto 50% increase in accuracy over existing streaming DP mechanisms applied to\nadvertising measurement. This highlights our method's effectiveness in\nachieving superior accuracy alongside a formal privacy guarantee, thereby\nadvancing the state-of-the-art in privacy-preserving advertising measurement.",
+    "updated" : "2024-06-04T16:31:19Z",
+    "published" : "2024-06-04T16:31:19Z",
+    "authors" : [
+      {
+        "name" : "Yingtai Xiao"
+      },
+      {
+        "name" : "Jian Du"
+      },
+      {
+        "name" : "Shikun Zhang"
+      },
+      {
+        "name" : "Qiang Yan"
+      },
+      {
+        "name" : "Danfeng Zhang"
+      },
+      {
+        "name" : "Daniel Kifer"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.02424v1",
+    "title" : "Contextual Dynamic Pricing: Algorithms, Optimality, and Local\n  Differential Privacy Constraints",
+    "summary" : "We study the contextual dynamic pricing problem where a firm sells products\nto $T$ sequentially arriving consumers that behave according to an unknown\ndemand model. The firm aims to maximize its revenue, i.e. minimize its regret\nover a clairvoyant that knows the model in advance. The demand model is a\ngeneralized linear model (GLM), allowing for a stochastic feature vector in\n$\\mathbb R^d$ that encodes product and consumer information. We first show that\nthe optimal regret upper bound is of order $\\sqrt{dT}$, up to a logarithmic\nfactor, improving upon existing upper bounds in the literature by a $\\sqrt{d}$\nfactor. This sharper rate is materialised by two algorithms: a confidence\nbound-type (supCB) algorithm and an explore-then-commit (ETC) algorithm. A key\ninsight of our theoretical result is an intrinsic connection between dynamic\npricing and the contextual multi-armed bandit problem with many arms based on a\ncareful discretization. We further study contextual dynamic pricing under the\nlocal differential privacy (LDP) constraints. In particular, we propose a\nstochastic gradient descent based ETC algorithm that achieves an optimal regret\nupper bound of order $d\\sqrt{T}/\\epsilon$, up to a logarithmic factor, where\n$\\epsilon>0$ is the privacy parameter. The regret upper bounds with and without\nLDP constraints are accompanied by newly constructed minimax lower bounds,\nwhich further characterize the cost of privacy. Extensive numerical experiments\nand a real data application on online lending are conducted to illustrate the\nefficiency and practical value of the proposed algorithms in dynamic pricing.",
+    "updated" : "2024-06-04T15:44:10Z",
+    "published" : "2024-06-04T15:44:10Z",
+    "authors" : [
+      {
+        "name" : "Zifeng Zhao"
+      },
+      {
+        "name" : "Feiyu Jiang"
+      },
+      {
+        "name" : "Yi Yu"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "math.ST",
+      "stat.ME",
+      "stat.TH"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.01811v1",
+    "title" : "A Game-Theoretic Approach to Privacy-Utility Tradeoff in Sharing Genomic\n  Summary Statistics",
+    "summary" : "The advent of online genomic data-sharing services has sought to enhance the\naccessibility of large genomic datasets by allowing queries about genetic\nvariants, such as summary statistics, aiding care providers in distinguishing\nbetween spurious genomic variations and those with clinical significance.\nHowever, numerous studies have demonstrated that even sharing summary genomic\ninformation exposes individual members of such datasets to a significant\nprivacy risk due to membership inference attacks. While several approaches have\nemerged that reduce privacy risks by adding noise or reducing the amount of\ninformation shared, these typically assume non-adaptive attacks that use\nlikelihood ratio test (LRT) statistics. We propose a Bayesian game-theoretic\nframework for optimal privacy-utility tradeoff in the sharing of genomic\nsummary statistics. Our first contribution is to prove that a very general\nBayesian attacker model that anchors our game-theoretic approach is more\npowerful than the conventional LRT-based threat models in that it induces worse\nprivacy loss for the defender who is modeled as a von Neumann-Morgenstern (vNM)\ndecision-maker. We show this to be true even when the attacker uses a\nnon-informative subjective prior. Next, we present an analytically tractable\napproach to compare the Bayesian attacks with arbitrary subjective priors and\nthe Neyman-Pearson optimal LRT attacks under the Gaussian mechanism common in\ndifferential privacy frameworks. Finally, we propose an approach for\napproximating Bayes-Nash equilibria of the game using deep neural network\ngenerators to implicitly represent player mixed strategies. Our experiments\ndemonstrate that the proposed game-theoretic framework yields both stronger\nattacks and stronger defense strategies than the state of the art.",
+    "updated" : "2024-06-03T22:09:47Z",
+    "published" : "2024-06-03T22:09:47Z",
+    "authors" : [
+      {
+        "name" : "Tao Zhang"
+      },
+      {
+        "name" : "Rajagopal Venkatesaramani"
+      },
+      {
+        "name" : "Rajat K. De"
+      },
+      {
+        "name" : "Bradley A. Malin"
+      },
+      {
+        "name" : "Yevgeniy Vorobeychik"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.01394v1",
+    "title" : "PrivacyRestore: Privacy-Preserving Inference in Large Language Models\n  via Privacy Removal and Restoration",
+    "summary" : "The widespread usage of online Large Language Models (LLMs) inference\nservices has raised significant privacy concerns about the potential exposure\nof private information in user inputs to eavesdroppers or untrustworthy service\nproviders. Existing privacy protection methods for LLMs suffer from\ninsufficient privacy protection, performance degradation, or severe inference\ntime overhead. In this paper, we propose PrivacyRestore to protect the privacy\nof user inputs during LLM inference. PrivacyRestore directly removes privacy\nspans in user inputs and restores privacy information via activation steering\nduring inference. The privacy spans are encoded as restoration vectors. We\npropose Attention-aware Weighted Aggregation (AWA) which aggregates restoration\nvectors of all privacy spans in the input into a meta restoration vector. AWA\nnot only ensures proper representation of all privacy spans but also prevents\nattackers from inferring the privacy spans from the meta restoration vector\nalone. This meta restoration vector, along with the query with privacy spans\nremoved, is then sent to the server. The experimental results show that\nPrivacyRestore can protect private information while maintaining acceptable\nlevels of performance and inference efficiency.",
+    "updated" : "2024-06-03T14:57:39Z",
+    "published" : "2024-06-03T14:57:39Z",
+    "authors" : [
+      {
+        "name" : "Ziqian Zeng"
+      },
+      {
+        "name" : "Jianwei Wang"
+      },
+      {
+        "name" : "Zhengdong Lu"
+      },
+      {
+        "name" : "Huiping Zhuang"
+      },
+      {
+        "name" : "Cen Chen"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.01363v1",
+    "title" : "Privacy in LLM-based Recommendation: Recent Advances and Future\n  Directions",
+    "summary" : "Nowadays, large language models (LLMs) have been integrated with conventional\nrecommendation models to improve recommendation performance. However, while\nmost of the existing works have focused on improving the model performance, the\nprivacy issue has only received comparatively less attention. In this paper, we\nreview recent advancements in privacy within LLM-based recommendation,\ncategorizing them into privacy attacks and protection mechanisms. Additionally,\nwe highlight several challenges and propose future directions for the community\nto address these critical problems.",
+    "updated" : "2024-06-03T14:31:47Z",
+    "published" : "2024-06-03T14:31:47Z",
+    "authors" : [
+      {
+        "name" : "Sichun Luo"
+      },
+      {
+        "name" : "Wei Shao"
+      },
+      {
+        "name" : "Yuxuan Yao"
+      },
+      {
+        "name" : "Jian Xu"
+      },
+      {
+        "name" : "Mingyang Liu"
+      },
+      {
+        "name" : "Qintong Li"
+      },
+      {
+        "name" : "Bowei He"
+      },
+      {
+        "name" : "Maolin Wang"
+      },
+      {
+        "name" : "Guanzhi Deng"
+      },
+      {
+        "name" : "Hanxu Hou"
+      },
+      {
+        "name" : "Xinyi Zhang"
+      },
+      {
+        "name" : "Linqi Song"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.IR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.01085v1",
+    "title" : "FedAdOb: Privacy-Preserving Federated Deep Learning with Adaptive\n  Obfuscation",
+    "summary" : "Federated learning (FL) has emerged as a collaborative approach that allows\nmultiple clients to jointly learn a machine learning model without sharing\ntheir private data. The concern about privacy leakage, albeit demonstrated\nunder specific conditions, has triggered numerous follow-up research in\ndesigning powerful attacking methods and effective defending mechanisms aiming\nto thwart these attacking methods. Nevertheless, privacy-preserving mechanisms\nemployed in these defending methods invariably lead to compromised model\nperformances due to a fixed obfuscation applied to private data or gradients.\nIn this article, we, therefore, propose a novel adaptive obfuscation mechanism,\ncoined FedAdOb, to protect private data without yielding original model\nperformances. Technically, FedAdOb utilizes passport-based adaptive obfuscation\nto ensure data privacy in both horizontal and vertical federated learning\nsettings. The privacy-preserving capabilities of FedAdOb, specifically with\nregard to private features and labels, are theoretically proven through\nTheorems 1 and 2. Furthermore, extensive experimental evaluations conducted on\nvarious datasets and network architectures demonstrate the effectiveness of\nFedAdOb by manifesting its superior trade-off between privacy preservation and\nmodel performance, surpassing existing methods.",
+    "updated" : "2024-06-03T08:12:09Z",
+    "published" : "2024-06-03T08:12:09Z",
+    "authors" : [
+      {
+        "name" : "Hanlin Gu"
+      },
+      {
+        "name" : "Jiahuan Luo"
+      },
+      {
+        "name" : "Yan Kang"
+      },
+      {
+        "name" : "Yuan Yao"
+      },
+      {
+        "name" : "Gongxi Zhu"
+      },
+      {
+        "name" : "Bowen Li"
+      },
+      {
+        "name" : "Lixin Fan"
+      },
+      {
+        "name" : "Qiang Yang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.01080v1",
+    "title" : "No Vandalism: Privacy-Preserving and Byzantine-Robust Federated Learning",
+    "summary" : "Federated learning allows several clients to train one machine learning model\njointly without sharing private data, providing privacy protection. However,\ntraditional federated learning is vulnerable to poisoning attacks, which can\nnot only decrease the model performance, but also implant malicious backdoors.\nIn addition, direct submission of local model parameters can also lead to the\nprivacy leakage of the training dataset. In this paper, we aim to build a\nprivacy-preserving and Byzantine-robust federated learning scheme to provide an\nenvironment with no vandalism (NoV) against attacks from malicious\nparticipants. Specifically, we construct a model filter for poisoned local\nmodels, protecting the global model from data and model poisoning attacks. This\nmodel filter combines zero-knowledge proofs to provide further privacy\nprotection. Then, we adopt secret sharing to provide verifiable secure\naggregation, removing malicious clients that disrupting the aggregation\nprocess. Our formal analysis proves that NoV can protect data privacy and weed\nout Byzantine attackers. Our experiments illustrate that NoV can effectively\naddress data and model poisoning attacks, including PGD, and outperforms other\nrelated schemes.",
+    "updated" : "2024-06-03T07:59:10Z",
+    "published" : "2024-06-03T07:59:10Z",
+    "authors" : [
+      {
+        "name" : "Zhibo Xing"
+      },
+      {
+        "name" : "Zijian Zhang"
+      },
+      {
+        "name" : "Zi'ang Zhang"
+      },
+      {
+        "name" : "Jiamou Liu"
+      },
+      {
+        "name" : "Liehuang Zhu"
+      },
+      {
+        "name" : "Giovanni Russello"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DC",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.00966v1",
+    "title" : "Guaranteeing Data Privacy in Federated Unlearning with Dynamic User\n  Participation",
+    "summary" : "Federated Unlearning (FU) is gaining prominence for its capacity to eliminate\ninfluences of Federated Learning (FL) users' data from trained global FL\nmodels. A straightforward FU method involves removing the unlearned users and\nsubsequently retraining a new global FL model from scratch with all remaining\nusers, a process that leads to considerable overhead. To enhance unlearning\nefficiency, a widely adopted strategy employs clustering, dividing FL users\ninto clusters, with each cluster maintaining its own FL model. The final\ninference is then determined by aggregating the majority vote from the\ninferences of these sub-models. This method confines unlearning processes to\nindividual clusters for removing a user, thereby enhancing unlearning\nefficiency by eliminating the need for participation from all remaining users.\nHowever, current clustering-based FU schemes mainly concentrate on refining\nclustering to boost unlearning efficiency but overlook the potential\ninformation leakage from FL users' gradients, a privacy concern that has been\nextensively studied. Typically, integrating secure aggregation (SecAgg) schemes\nwithin each cluster can facilitate a privacy-preserving FU. Nevertheless,\ncrafting a clustering methodology that seamlessly incorporates SecAgg schemes\nis challenging, particularly in scenarios involving adversarial users and\ndynamic users. In this connection, we systematically explore the integration of\nSecAgg protocols within the most widely used federated unlearning scheme, which\nis based on clustering, to establish a privacy-preserving FU framework, aimed\nat ensuring privacy while effectively managing dynamic user participation.\nComprehensive theoretical assessments and experimental results show that our\nproposed scheme achieves comparable unlearning effectiveness, alongside\noffering improved privacy protection and resilience in the face of varying user\nparticipation.",
+    "updated" : "2024-06-03T03:39:07Z",
+    "published" : "2024-06-03T03:39:07Z",
+    "authors" : [
+      {
+        "name" : "Ziyao Liu"
+      },
+      {
+        "name" : "Yu Jiang"
+      },
+      {
+        "name" : "Weifeng Jiang"
+      },
+      {
+        "name" : "Jiale Guo"
+      },
+      {
+        "name" : "Jun Zhao"
+      },
+      {
+        "name" : "Kwok-Yan Lam"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.00808v1",
+    "title" : "EchoNet-Synthetic: Privacy-preserving Video Generation for Safe Medical\n  Data Sharing",
+    "summary" : "To make medical datasets accessible without sharing sensitive patient\ninformation, we introduce a novel end-to-end approach for generative\nde-identification of dynamic medical imaging data. Until now, generative\nmethods have faced constraints in terms of fidelity, spatio-temporal coherence,\nand the length of generation, failing to capture the complete details of\ndataset distributions. We present a model designed to produce high-fidelity,\nlong and complete data samples with near-real-time efficiency and explore our\napproach on a challenging task: generating echocardiogram videos. We develop\nour generation method based on diffusion models and introduce a protocol for\nmedical video dataset anonymization. As an exemplar, we present\nEchoNet-Synthetic, a fully synthetic, privacy-compliant echocardiogram dataset\nwith paired ejection fraction labels. As part of our de-identification\nprotocol, we evaluate the quality of the generated dataset and propose to use\nclinical downstream tasks as a measurement on top of widely used but\npotentially biased image quality metrics. Experimental outcomes demonstrate\nthat EchoNet-Synthetic achieves comparable dataset fidelity to the actual\ndataset, effectively supporting the ejection fraction regression task. Code,\nweights and dataset are available at\nhttps://github.com/HReynaud/EchoNet-Synthetic.",
+    "updated" : "2024-06-02T17:18:06Z",
+    "published" : "2024-06-02T17:18:06Z",
+    "authors" : [
+      {
+        "name" : "Hadrien Reynaud"
+      },
+      {
+        "name" : "Qingjie Meng"
+      },
+      {
+        "name" : "Mischa Dombrowski"
+      },
+      {
+        "name" : "Arijit Ghosh"
+      },
+      {
+        "name" : "Thomas Day"
+      },
+      {
+        "name" : "Alberto Gomez"
+      },
+      {
+        "name" : "Paul Leeson"
+      },
+      {
+        "name" : "Bernhard Kainz"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.00359v1",
+    "title" : "Location Privacy in B5G/6G: Systematization of Knowledge",
+    "summary" : "As we transition into the era of B5G/6G networks, the promise of seamless,\nhigh-speed connectivity brings unprecedented opportunities and challenges.\nAmong the most critical concerns is the preservation of location privacy, given\nthe enhanced precision and pervasive connectivity of these advanced networks.\nThis paper systematically reviews the state of knowledge on location privacy in\nB5G/6G networks, highlighting the architectural advancements and\ninfrastructural complexities that contribute to increased privacy risks. The\nurgency of studying these technologies is underscored by the rapid adoption of\nB5G/6G and the growing sophistication of location tracking methods. We evaluate\ncurrent and emerging privacy-preserving mechanisms, exploring the implications\nof sophisticated tracking methods and the challenges posed by the complex\nnetwork infrastructures. Our findings reveal the effectiveness of various\nmitigation strategies and emphasize the important role of physical layer\nsecurity. Additionally, we propose innovative approaches, including\ndecentralized authentication systems and the potential of satellite\ncommunications, to enhance location privacy. By addressing these challenges,\nthis paper provides a comprehensive perspective on preserving user privacy in\nthe rapidly evolving landscape of modern communication networks.",
+    "updated" : "2024-06-01T08:25:07Z",
+    "published" : "2024-06-01T08:25:07Z",
+    "authors" : [
+      {
+        "name" : "Hannah B. Pasandi"
+      },
+      {
+        "name" : "Faith Parastar"
+      }
+    ],
+    "categories" : [
+      "cs.NI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.00256v1",
+    "title" : "Over-the-Air Collaborative Inference with Feature Differential Privacy",
+    "summary" : "Collaborative inference in next-generation networks can enhance Artificial\nIntelligence (AI) applications, including autonomous driving, personal\nidentification, and activity classification. This method involves a three-stage\nprocess: a) data acquisition through sensing, b) feature extraction, and c)\nfeature encoding for transmission. Transmission of the extracted features\nentails the potential risk of exposing sensitive personal data. To address this\nissue, in this work a new privacy-protecting collaborative inference mechanism\nis developed. Under this mechanism, each edge device in the network protects\nthe privacy of extracted features before transmitting them to a central server\nfor inference. This mechanism aims to achieve two main objectives while\nensuring effective inference performance: 1) reducing communication overhead,\nand 2) maintaining strict privacy guarantees during features transmission.",
+    "updated" : "2024-06-01T01:39:44Z",
+    "published" : "2024-06-01T01:39:44Z",
+    "authors" : [
+      {
+        "name" : "Mohamed Seif"
+      },
+      {
+        "name" : "Yuqi Nie"
+      },
+      {
+        "name" : "Andrea Goldsmith"
+      },
+      {
+        "name" : "Vincent Poor"
+      }
+    ],
+    "categories" : [
+      "cs.IT",
+      "cs.CR",
+      "math.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.00249v1",
+    "title" : "Privacy Challenges in Meta-Learning: An Investigation on Model-Agnostic\n  Meta-Learning",
+    "summary" : "Meta-learning involves multiple learners, each dedicated to specific tasks,\ncollaborating in a data-constrained setting. In current meta-learning methods,\ntask learners locally learn models from sensitive data, termed support sets.\nThese task learners subsequently share model-related information, such as\ngradients or loss values, which is computed using another part of the data\ntermed query set, with a meta-learner. The meta-learner employs this\ninformation to update its meta-knowledge. Despite the absence of explicit data\nsharing, privacy concerns persist. This paper examines potential data leakage\nin a prominent metalearning algorithm, specifically Model-Agnostic\nMeta-Learning (MAML). In MAML, gradients are shared between the metalearner and\ntask-learners. The primary objective is to scrutinize the gradient and the\ninformation it encompasses about the task dataset. Subsequently, we endeavor to\npropose membership inference attacks targeting the task dataset containing\nsupport and query sets. Finally, we explore various noise injection methods\ndesigned to safeguard the privacy of task data and thwart potential attacks.\nExperimental results demonstrate the effectiveness of these attacks on MAML and\nthe efficacy of proper noise injection methods in countering them.",
+    "updated" : "2024-06-01T01:10:35Z",
+    "published" : "2024-06-01T01:10:35Z",
+    "authors" : [
+      {
+        "name" : "Mina Rafiei"
+      },
+      {
+        "name" : "Mohammadmahdi Maheri"
+      },
+      {
+        "name" : "Hamid R. Rabiee"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  }
+]
