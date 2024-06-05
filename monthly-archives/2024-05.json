@@ -2868,5 +2868,50 @@
       "eess.SY",
       "cs.SY"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.00073v1",
+    "title" : "A Novel Review of Stability Techniques for Improved Privacy-Preserving\n  Machine Learning",
+    "summary" : "Machine learning models have recently enjoyed a significant increase in size\nand popularity. However, this growth has created concerns about dataset\nprivacy. To counteract data leakage, various privacy frameworks guarantee that\nthe output of machine learning models does not compromise their training data.\nHowever, this privatization comes at a cost by adding random noise to the\ntraining process, which reduces model performance. By making models more\nresistant to small changes in input and thus more stable, the necessary amount\nof noise can be decreased while still protecting privacy. This paper\ninvestigates various techniques to enhance stability, thereby minimizing the\nnegative effects of privatization in machine learning.",
+    "updated" : "2024-05-31T00:30:29Z",
+    "published" : "2024-05-31T00:30:29Z",
+    "authors" : [
+      {
+        "name" : "Coleman DuPlessie"
+      },
+      {
+        "name" : "Aidan Gao"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.01603v1",
+    "title" : "Privacy-preserving recommender system using the data collaboration\n  analysis for distributed datasets",
+    "summary" : "In order to provide high-quality recommendations for users, it is desirable\nto share and integrate multiple datasets held by different parties. However,\nwhen sharing such distributed datasets, we need to protect personal and\nconfidential information contained in the datasets. To this end, we establish a\nframework for privacy-preserving recommender systems using the data\ncollaboration analysis of distributed datasets. Numerical experiments with two\npublic rating datasets demonstrate that our privacy-preserving method for\nrating prediction can improve the prediction accuracy for distributed datasets.\nThis study opens up new possibilities for privacy-preserving techniques in\nrecommender systems.",
+    "updated" : "2024-05-24T07:43:00Z",
+    "published" : "2024-05-24T07:43:00Z",
+    "authors" : [
+      {
+        "name" : "Tomoya Yanagi"
+      },
+      {
+        "name" : "Shunnosuke Ikeda"
+      },
+      {
+        "name" : "Noriyoshi Sukegawa"
+      },
+      {
+        "name" : "Yuichi Takano"
+      }
+    ],
+    "categories" : [
+      "cs.IR",
+      "cs.CR",
+      "cs.LG"
+    ]
   }
 ]
