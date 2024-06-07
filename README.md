@@ -2,6 +2,218 @@
 <h2>2024-06</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2406.04129v1">LenslessFace: An End-to-End Optimized Lensless System for
+  Privacy-Preserving Face Verification</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2024-06-06T14:50:15Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xin Cai, Hailong Zhang, Chenchen Wang, Wentao Liu, Jinwei Gu, Tianfan Xue</p>
+    <p><b>Summary:</b> Lensless cameras, innovatively replacing traditional lenses for ultra-thin,
+flat optics, encode light directly onto sensors, producing images that are not
+immediately recognizable. This compact, lightweight, and cost-effective imaging
+solution offers inherent privacy advantages, making it attractive for
+privacy-sensitive applications like face verification. Typical lensless face
+verification adopts a two-stage process of reconstruction followed by
+verification, incurring privacy risks from reconstructed faces and high
+computational costs. This paper presents an end-to-end optimization approach
+for privacy-preserving face verification directly on encoded lensless captures,
+ensuring that the entire software pipeline remains encoded with no visible
+faces as intermediate results. To achieve this, we propose several techniques
+to address unique challenges from the lensless setup which precludes
+traditional face detection and alignment. Specifically, we propose a face
+center alignment scheme, an augmentation curriculum to build robustness against
+variations, and a knowledge distillation method to smooth optimization and
+enhance performance. Evaluations under both simulation and real environment
+demonstrate our method outperforms two-stage lensless verification while
+enhancing privacy and efficiency. Project website:
+\url{lenslessface.github.io}.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2406.03820v1">A Survey on Intelligent Internet of Things: Applications, Security,
+  Privacy, and Future Directions</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-06-06T07:55:30Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ons Aouedi, Thai-Hoc Vu, Alessio Sacco, Dinh C. Nguyen, Kandaraj Piamrat, Guido Marchetto, Quoc-Viet Pham</p>
+    <p><b>Summary:</b> The rapid advances in the Internet of Things (IoT) have promoted a revolution
+in communication technology and offered various customer services. Artificial
+intelligence (AI) techniques have been exploited to facilitate IoT operations
+and maximize their potential in modern application scenarios. In particular,
+the convergence of IoT and AI has led to a new networking paradigm called
+Intelligent IoT (IIoT), which has the potential to significantly transform
+businesses and industrial domains. This paper presents a comprehensive survey
+of IIoT by investigating its significant applications in mobile networks, as
+well as its associated security and privacy issues. Specifically, we explore
+and discuss the roles of IIoT in a wide range of key application domains, from
+smart healthcare and smart cities to smart transportation and smart industries.
+Through such extensive discussions, we investigate important security issues in
+IIoT networks, where network attacks, confidentiality, integrity, and intrusion
+are analyzed, along with a discussion of potential countermeasures. Privacy
+issues in IIoT networks were also surveyed and discussed, including data,
+location, and model privacy leakage. Finally, we outline several key challenges
+and highlight potential research directions in this important area.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2406.03802v1">Continual Counting with Gradual Privacy Expiration</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B">
+  <p><b>Published on:</b> 2024-06-06T07:20:16Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Joel Daniel Andersson, Monika Henzinger, Rasmus Pagh, Teresa Anna Steiner, Jalaj Upadhyay</p>
+    <p><b>Summary:</b> Differential privacy with gradual expiration models the setting where data
+items arrive in a stream and at a given time $t$ the privacy loss guaranteed
+for a data item seen at time $(t-d)$ is $\epsilon g(d)$, where $g$ is a
+monotonically non-decreasing function. We study the fundamental
+$\textit{continual (binary) counting}$ problem where each data item consists of
+a bit, and the algorithm needs to output at each time step the sum of all the
+bits streamed so far. For a stream of length $T$ and privacy $\textit{without}$
+expiration continual counting is possible with maximum (over all time steps)
+additive error $O(\log^2(T)/\varepsilon)$ and the best known lower bound is
+$\Omega(\log(T)/\varepsilon)$; closing this gap is a challenging open problem.
+  We show that the situation is very different for privacy with gradual
+expiration by giving upper and lower bounds for a large set of expiration
+functions $g$. Specifically, our algorithm achieves an additive error of $
+O(\log(T)/\epsilon)$ for a large set of privacy expiration functions. We also
+give a lower bound that shows that if $C$ is the additive error of any
+$\epsilon$-DP algorithm for this problem, then the product of $C$ and the
+privacy expiration function after $2C$ steps must be
+$\Omega(\log(T)/\epsilon)$. Our algorithm matches this lower bound as its
+additive error is $O(\log(T)/\epsilon)$, even when $g(2C) = O(1)$.
+  Our empirical evaluation shows that we achieve a slowly growing privacy loss
+with significantly smaller empirical privacy loss for large values of $d$ than
+a natural baseline algorithm.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2406.03785v1">Count-mean Sketch as an Optimized Framework for Frequency Estimation
+  with Local Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-06-06T06:55:08Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mingen Pan</p>
+    <p><b>Summary:</b> This paper identifies that a group of state-of-the-art
+locally-differentially-private (LDP) algorithms for frequency estimation are
+equivalent to the private Count-Mean Sketch (CMS) algorithm with different
+parameters. Therefore, we revisit the private CMS, correct errors in the
+original CMS paper regarding expectation and variance, modify the CMS
+implementation to eliminate existing bias, and explore optimized parameters for
+CMS to achieve optimality in reducing the worst-case mean squared error (MSE),
+$l_1$ loss, and $l_2$ loss. Additionally, we prove that pairwise-independent
+hashing is sufficient for CMS, reducing its communication cost to the logarithm
+of the cardinality of all possible values (i.e., a dictionary). As a result,
+the aforementioned optimized CMS is proven theoretically and empirically to be
+the only algorithm optimized for reducing the worst-case MSE, $l_1$ loss, and
+$l_2$ loss when dealing with a very large dictionary. Furthermore, we
+demonstrate that randomness is necessary to ensure the correctness of CMS, and
+the communication cost of CMS, though low, is unavoidable despite the
+randomness being public or private.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2406.03766v1">Privacy Preserving Semi-Decentralized Mean Estimation over
+  Intermittently-Connected Networks</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">  
+  <p><b>Published on:</b> 2024-06-06T06:12:15Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Rajarshi Saha, Mohamed Seif, Michal Yemini, Andrea J. Goldsmith, H. Vincent Poor</p>
+    <p><b>Summary:</b> We consider the problem of privately estimating the mean of vectors
+distributed across different nodes of an unreliable wireless network, where
+communications between nodes can fail intermittently. We adopt a
+semi-decentralized setup, wherein to mitigate the impact of intermittently
+connected links, nodes can collaborate with their neighbors to compute a local
+consensus, which they relay to a central server. In such a setting, the
+communications between any pair of nodes must ensure that the privacy of the
+nodes is rigorously maintained to prevent unauthorized information leakage. We
+study the tradeoff between collaborative relaying and privacy leakage due to
+the data sharing among nodes and, subsequently, propose PriCER: Private
+Collaborative Estimation via Relaying -- a differentially private collaborative
+algorithm for mean estimation to optimize this tradeoff. The privacy guarantees
+of PriCER arise (i) implicitly, by exploiting the inherent stochasticity of the
+flaky network connections, and (ii) explicitly, by adding Gaussian
+perturbations to the estimates exchanged by the nodes. Local and central
+privacy guarantees are provided against eavesdroppers who can observe different
+signals, such as the communications amongst nodes during local consensus and
+(possibly multiple) transmissions from the relays to the central server. We
+substantiate our theoretical findings with numerical simulations. Our
+implementation is available at
+https://github.com/rajarshisaha95/private-collaborative-relaying.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2406.03749v1">NAP^2: A Benchmark for Naturalness and Privacy-Preserving Text Rewriting
+  by Learning from Human</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2024-06-06T05:07:44Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shuo Huang, William MacLean, Xiaoxi Kang, Anqi Wu, Lizhen Qu, Qiongkai Xu, Zhuang Li, Xingliang Yuan, Gholamreza Haffari</p>
+    <p><b>Summary:</b> Increasing concerns about privacy leakage issues in academia and industry
+arise when employing NLP models from third-party providers to process sensitive
+texts. To protect privacy before sending sensitive data to those models, we
+suggest sanitizing sensitive text using two common strategies used by humans:
+i) deleting sensitive expressions, and ii) obscuring sensitive details by
+abstracting them. To explore the issues and develop a tool for text rewriting,
+we curate the first corpus, coined NAP^2, through both crowdsourcing and the
+use of large language models (LLMs). Compared to the prior works based on
+differential privacy, which lead to a sharp drop in information utility and
+unnatural texts, the human-inspired approaches result in more natural rewrites
+and offer an improved balance between privacy protection and data utility, as
+demonstrated by our extensive experiments.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2406.03695v1">FACOS: Enabling Privacy Protection Through Fine-Grained Access Control
+  with On-chain and Off-chain System</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-06-06T02:23:12Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Chao Liu, Cankun Hou, Tianyu Jiang, Jianting Ning, Hui Qiao, Yusen Wu</p>
+    <p><b>Summary:</b> Data-driven landscape across finance, government, and healthcare, the
+continuous generation of information demands robust solutions for secure
+storage, efficient dissemination, and fine-grained access control. Blockchain
+technology emerges as a significant tool, offering decentralized storage while
+upholding the tenets of data security and accessibility. However, on-chain and
+off-chain strategies are still confronted with issues such as untrusted
+off-chain data storage, absence of data ownership, limited access control
+policy for clients, and a deficiency in data privacy and auditability. To solve
+these challenges, we propose a permissioned blockchain-based privacy-preserving
+fine-grained access control on-chain and off-chain system, namely FACOS. We
+applied three fine-grained access control solutions and comprehensively
+analyzed them in different aspects, which provides an intuitive perspective for
+system designers and clients to choose the appropriate access control method
+for their systems. Compared to similar work that only stores encrypted data in
+centralized or non-fault-tolerant IPFS systems, we enhanced off-chain data
+storage security and robustness by utilizing a highly efficient and secure
+asynchronous Byzantine fault tolerance (BFT) protocol in the off-chain
+environment. As each of the clients needs to be verified and authorized before
+accessing the data, we involved the Trusted Execution Environment (TEE)-based
+solution to verify the credentials of clients. Additionally, our evaluation
+results demonstrated that our system offers better scalability and practicality
+than other state-of-the-art designs.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2406.03187v1">Ariadne: a Privacy-Preserving Communication Protocol</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2024-06-05T12:20:12Z</p>
@@ -2690,211 +2902,6 @@ mobile-health and wearable technologies over the IoT infrastructure. We
 evaluate our proposed framework extensively and provide the implementation of
 our technique on Amazon's AWS cloud platform based on the seizure detection
 application in epilepsy monitoring using wearable technologies.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.05567v1">Perfect Subset Privacy in Polynomial Computation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
-  <p><b>Published on:</b> 2024-05-09T06:11:58Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zirui Deng, Vinayak Ramkumar, Netanel Raviv</p>
-    <p><b>Summary:</b> Delegating large-scale computations to service providers is a common practice
-which raises privacy concerns. This paper studies information-theoretic
-privacy-preserving delegation of data to a service provider, who may further
-delegate the computation to auxiliary worker nodes, in order to compute a
-polynomial over that data at a later point in time. We study techniques which
-are compatible with robust management of distributed computation systems, an
-area known as coded computing. Privacy in coded computing, however, has
-traditionally addressed the problem of colluding workers, and assumed that the
-server that administrates the computation is trusted. This viewpoint of privacy
-does not accurately reflect real-world privacy concerns, since normally, the
-service provider as a whole (i.e., the administrator and the worker nodes) form
-one cohesive entity which itself poses a privacy risk. This paper aims to shift
-the focus of privacy in coded computing to safeguarding the privacy of the user
-against the service provider as a whole, instead of merely against colluding
-workers inside the service provider. To this end, we leverage the recently
-defined notion of perfect subset privacy, which guarantees zero information
-leakage from all subsets of the data up to a certain size. Using known
-techniques from Reed-Muller decoding, we provide a scheme which enables
-polynomial computation with perfect subset privacy in straggler-free systems.
-Furthermore, by studying information super-sets in Reed-Muller codes, which may
-be of independent interest, we extend the previous scheme to tolerate
-straggling worker nodes inside the service provider.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.05175v1">Air Gap: Protecting Privacy-Conscious Conversational Agents</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-05-08T16:12:45Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Eugene Bagdasaryan, Ren Yi, Sahra Ghalebikesabi, Peter Kairouz, Marco Gruteser, Sewoong Oh, Borja Balle, Daniel Ramage</p>
-    <p><b>Summary:</b> The growing use of large language model (LLM)-based conversational agents to
-manage sensitive user data raises significant privacy concerns. While these
-agents excel at understanding and acting on context, this capability can be
-exploited by malicious actors. We introduce a novel threat model where
-adversarial third-party apps manipulate the context of interaction to trick
-LLM-based agents into revealing private information not relevant to the task at
-hand.
-  Grounded in the framework of contextual integrity, we introduce AirGapAgent,
-a privacy-conscious agent designed to prevent unintended data leakage by
-restricting the agent's access to only the data necessary for a specific task.
-Extensive experiments using Gemini, GPT, and Mistral models as agents validate
-our approach's effectiveness in mitigating this form of context hijacking while
-maintaining core agent functionality. For example, we show that a single-query
-context hijacking attack on a Gemini Ultra agent reduces its ability to protect
-user data from 94% to 45%, while an AirGapAgent achieves 97% protection,
-rendering the same attack ineffective.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.04344v2">Enhancing Scalability of Metric Differential Privacy via Secret Dataset
-  Partitioning and Benders Decomposition</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-05-07T14:19:09Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Chenxi Qiu</p>
-    <p><b>Summary:</b> Metric Differential Privacy (mDP) extends the concept of Differential Privacy
-(DP) to serve as a new paradigm of data perturbation. It is designed to protect
-secret data represented in general metric space, such as text data encoded as
-word embeddings or geo-location data on the road network or grid maps. To
-derive an optimal data perturbation mechanism under mDP, a widely used method
-is linear programming (LP), which, however, might suffer from a polynomial
-explosion of decision variables, rendering it impractical in large-scale mDP.
-  In this paper, our objective is to develop a new computation framework to
-enhance the scalability of the LP-based mDP. Considering the connections
-established by the mDP constraints among the secret records, we partition the
-original secret dataset into various subsets. Building upon the partition, we
-reformulate the LP problem for mDP and solve it via Benders Decomposition,
-which is composed of two stages: (1) a master program to manage the
-perturbation calculation across subsets and (2) a set of subproblems, each
-managing the perturbation derivation within a subset. Our experimental results
-on multiple datasets, including geo-location data in the road network/grid
-maps, text data, and synthetic data, underscore our proposed mechanism's
-superior scalability and efficiency.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.04108v1">A2-DIDM: Privacy-preserving Accumulator-enabled Auditing for Distributed
-  Identity of DNN Model</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2024-05-07T08:24:50Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Tianxiu Xie, Keke Gai, Jing Yu, Liehuang Zhu, Kim-Kwang Raymond Choo</p>
-    <p><b>Summary:</b> Recent booming development of Generative Artificial Intelligence (GenAI) has
-facilitated an emerging model commercialization for the purpose of
-reinforcement on model performance, such as licensing or trading Deep Neural
-Network (DNN) models. However, DNN model trading may trigger concerns of the
-unauthorized replications or misuses over the model, so that the benefit of the
-model ownership will be violated. Model identity auditing is a challenging
-issue in protecting intellectual property of DNN models and verifying the
-integrity and ownership of models for guaranteeing trusts in transactions is
-one of the critical obstacles. In this paper, we focus on the above issue and
-propose a novel Accumulator-enabled Auditing for Distributed Identity of DNN
-Model (A2-DIDM) that utilizes blockchain and zero-knowledge techniques to
-protect data and function privacy while ensuring the lightweight on-chain
-ownership verification. The proposed model presents a scheme of identity
-records via configuring model weight checkpoints with corresponding
-zero-knowledge proofs, which incorporates predicates to capture incremental
-state changes in model weight checkpoints. Our scheme ensures both
-computational integrity of DNN training process and programmability, so that
-the uniqueness of the weight checkpoint sequence in a DNN model is preserved,
-ensuring the correctness of the model identity auditing. In addition, A2-DIDM
-also addresses privacy protections in distributed identity via a proposed
-method of accumulators. We systematically analyze the security and robustness
-of our proposed model and further evaluate the effectiveness and usability of
-auditing DNN model identities.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.04029v1">Enabling Privacy-Preserving and Publicly Auditable Federated Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
-  <p><b>Published on:</b> 2024-05-07T06:03:10Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Huang Zeng, Anjia Yang, Jian Weng, Min-Rong Chen, Fengjun Xiao, Yi Liu, Ye Yao</p>
-    <p><b>Summary:</b> Federated learning (FL) has attracted widespread attention because it
-supports the joint training of models by multiple participants without moving
-private dataset. However, there are still many security issues in FL that
-deserve discussion. In this paper, we consider three major issues: 1) how to
-ensure that the training process can be publicly audited by any third party; 2)
-how to avoid the influence of malicious participants on training; 3) how to
-ensure that private gradients and models are not leaked to third parties. Many
-solutions have been proposed to address these issues, while solving the above
-three problems simultaneously is seldom considered. In this paper, we propose a
-publicly auditable and privacy-preserving federated learning scheme that is
-resistant to malicious participants uploading gradients with wrong directions
-and enables anyone to audit and verify the correctness of the training process.
-In particular, we design a robust aggregation algorithm capable of detecting
-gradients with wrong directions from malicious participants. Then, we design a
-random vector generation algorithm and combine it with zero sharing and
-blockchain technologies to make the joint training process publicly auditable,
-meaning anyone can verify the correctness of the training. Finally, we conduct
-a series of experiments, and the experimental results show that the model
-generated by the protocol is comparable in accuracy to the original FL approach
-while keeping security advantages.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.03915v1">Motivating Users to Attend to Privacy: A Theory-Driven Design Study</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2024-05-07T00:23:42Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Varun Shiri, Maggie Xiong, Jinghui Cheng, Jin L. C. Guo</p>
-    <p><b>Summary:</b> In modern technology environments, raising users' privacy awareness is
-crucial. Existing efforts largely focused on privacy policy presentation and
-failed to systematically address a radical challenge of user motivation for
-initiating privacy awareness. Leveraging the Protection Motivation Theory
-(PMT), we proposed design ideas and categories dedicated to motivating users to
-engage with privacy-related information. Using these design ideas, we created a
-conceptual prototype, enhancing the current App Store product page. Results
-from an online experiment and follow-up interviews showed that our design
-effectively motivated participants to attend to privacy issues, raising both
-the threat appraisal and coping appraisal, two main factors in PMT. Our work
-indicated that effective design should consider combining PMT components,
-calibrating information content, and integrating other design elements, such as
-visual cues and user familiarity. Overall, our study contributes valuable
-design considerations driven by the PMT to amplify the motivational aspect of
-privacy communication.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.03903v1">Unified Locational Differential Privacy Framework</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2024-05-06T23:33:52Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Aman Priyanshu, Yash Maurya, Suriya Ganesh, Vy Tran</p>
-    <p><b>Summary:</b> Aggregating statistics over geographical regions is important for many
-applications, such as analyzing income, election results, and disease spread.
-However, the sensitive nature of this data necessitates strong privacy
-protections to safeguard individuals. In this work, we present a unified
-locational differential privacy (DP) framework to enable private aggregation of
-various data types, including one-hot encoded, boolean, float, and integer
-arrays, over geographical regions. Our framework employs local DP mechanisms
-such as randomized response, the exponential mechanism, and the Gaussian
-mechanism. We evaluate our approach on four datasets representing significant
-location data aggregation scenarios. Results demonstrate the utility of our
-framework in providing formal DP guarantees while enabling geographical data
-analysis.</p>
   </details>
 </div>
 
