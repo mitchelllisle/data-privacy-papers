@@ -551,5 +551,217 @@
       "cs.CR",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.04129v1",
+    "title" : "LenslessFace: An End-to-End Optimized Lensless System for\n  Privacy-Preserving Face Verification",
+    "summary" : "Lensless cameras, innovatively replacing traditional lenses for ultra-thin,\nflat optics, encode light directly onto sensors, producing images that are not\nimmediately recognizable. This compact, lightweight, and cost-effective imaging\nsolution offers inherent privacy advantages, making it attractive for\nprivacy-sensitive applications like face verification. Typical lensless face\nverification adopts a two-stage process of reconstruction followed by\nverification, incurring privacy risks from reconstructed faces and high\ncomputational costs. This paper presents an end-to-end optimization approach\nfor privacy-preserving face verification directly on encoded lensless captures,\nensuring that the entire software pipeline remains encoded with no visible\nfaces as intermediate results. To achieve this, we propose several techniques\nto address unique challenges from the lensless setup which precludes\ntraditional face detection and alignment. Specifically, we propose a face\ncenter alignment scheme, an augmentation curriculum to build robustness against\nvariations, and a knowledge distillation method to smooth optimization and\nenhance performance. Evaluations under both simulation and real environment\ndemonstrate our method outperforms two-stage lensless verification while\nenhancing privacy and efficiency. Project website:\n\\url{lenslessface.github.io}.",
+    "updated" : "2024-06-06T14:50:15Z",
+    "published" : "2024-06-06T14:50:15Z",
+    "authors" : [
+      {
+        "name" : "Xin Cai"
+      },
+      {
+        "name" : "Hailong Zhang"
+      },
+      {
+        "name" : "Chenchen Wang"
+      },
+      {
+        "name" : "Wentao Liu"
+      },
+      {
+        "name" : "Jinwei Gu"
+      },
+      {
+        "name" : "Tianfan Xue"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.03820v1",
+    "title" : "A Survey on Intelligent Internet of Things: Applications, Security,\n  Privacy, and Future Directions",
+    "summary" : "The rapid advances in the Internet of Things (IoT) have promoted a revolution\nin communication technology and offered various customer services. Artificial\nintelligence (AI) techniques have been exploited to facilitate IoT operations\nand maximize their potential in modern application scenarios. In particular,\nthe convergence of IoT and AI has led to a new networking paradigm called\nIntelligent IoT (IIoT), which has the potential to significantly transform\nbusinesses and industrial domains. This paper presents a comprehensive survey\nof IIoT by investigating its significant applications in mobile networks, as\nwell as its associated security and privacy issues. Specifically, we explore\nand discuss the roles of IIoT in a wide range of key application domains, from\nsmart healthcare and smart cities to smart transportation and smart industries.\nThrough such extensive discussions, we investigate important security issues in\nIIoT networks, where network attacks, confidentiality, integrity, and intrusion\nare analyzed, along with a discussion of potential countermeasures. Privacy\nissues in IIoT networks were also surveyed and discussed, including data,\nlocation, and model privacy leakage. Finally, we outline several key challenges\nand highlight potential research directions in this important area.",
+    "updated" : "2024-06-06T07:55:30Z",
+    "published" : "2024-06-06T07:55:30Z",
+    "authors" : [
+      {
+        "name" : "Ons Aouedi"
+      },
+      {
+        "name" : "Thai-Hoc Vu"
+      },
+      {
+        "name" : "Alessio Sacco"
+      },
+      {
+        "name" : "Dinh C. Nguyen"
+      },
+      {
+        "name" : "Kandaraj Piamrat"
+      },
+      {
+        "name" : "Guido Marchetto"
+      },
+      {
+        "name" : "Quoc-Viet Pham"
+      }
+    ],
+    "categories" : [
+      "cs.NI",
+      "cs.AI",
+      "cs.CR",
+      "cs.ET",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.03802v1",
+    "title" : "Continual Counting with Gradual Privacy Expiration",
+    "summary" : "Differential privacy with gradual expiration models the setting where data\nitems arrive in a stream and at a given time $t$ the privacy loss guaranteed\nfor a data item seen at time $(t-d)$ is $\\epsilon g(d)$, where $g$ is a\nmonotonically non-decreasing function. We study the fundamental\n$\\textit{continual (binary) counting}$ problem where each data item consists of\na bit, and the algorithm needs to output at each time step the sum of all the\nbits streamed so far. For a stream of length $T$ and privacy $\\textit{without}$\nexpiration continual counting is possible with maximum (over all time steps)\nadditive error $O(\\log^2(T)/\\varepsilon)$ and the best known lower bound is\n$\\Omega(\\log(T)/\\varepsilon)$; closing this gap is a challenging open problem.\n  We show that the situation is very different for privacy with gradual\nexpiration by giving upper and lower bounds for a large set of expiration\nfunctions $g$. Specifically, our algorithm achieves an additive error of $\nO(\\log(T)/\\epsilon)$ for a large set of privacy expiration functions. We also\ngive a lower bound that shows that if $C$ is the additive error of any\n$\\epsilon$-DP algorithm for this problem, then the product of $C$ and the\nprivacy expiration function after $2C$ steps must be\n$\\Omega(\\log(T)/\\epsilon)$. Our algorithm matches this lower bound as its\nadditive error is $O(\\log(T)/\\epsilon)$, even when $g(2C) = O(1)$.\n  Our empirical evaluation shows that we achieve a slowly growing privacy loss\nwith significantly smaller empirical privacy loss for large values of $d$ than\na natural baseline algorithm.",
+    "updated" : "2024-06-06T07:20:16Z",
+    "published" : "2024-06-06T07:20:16Z",
+    "authors" : [
+      {
+        "name" : "Joel Daniel Andersson"
+      },
+      {
+        "name" : "Monika Henzinger"
+      },
+      {
+        "name" : "Rasmus Pagh"
+      },
+      {
+        "name" : "Teresa Anna Steiner"
+      },
+      {
+        "name" : "Jalaj Upadhyay"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DS"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.03785v1",
+    "title" : "Count-mean Sketch as an Optimized Framework for Frequency Estimation\n  with Local Differential Privacy",
+    "summary" : "This paper identifies that a group of state-of-the-art\nlocally-differentially-private (LDP) algorithms for frequency estimation are\nequivalent to the private Count-Mean Sketch (CMS) algorithm with different\nparameters. Therefore, we revisit the private CMS, correct errors in the\noriginal CMS paper regarding expectation and variance, modify the CMS\nimplementation to eliminate existing bias, and explore optimized parameters for\nCMS to achieve optimality in reducing the worst-case mean squared error (MSE),\n$l_1$ loss, and $l_2$ loss. Additionally, we prove that pairwise-independent\nhashing is sufficient for CMS, reducing its communication cost to the logarithm\nof the cardinality of all possible values (i.e., a dictionary). As a result,\nthe aforementioned optimized CMS is proven theoretically and empirically to be\nthe only algorithm optimized for reducing the worst-case MSE, $l_1$ loss, and\n$l_2$ loss when dealing with a very large dictionary. Furthermore, we\ndemonstrate that randomness is necessary to ensure the correctness of CMS, and\nthe communication cost of CMS, though low, is unavoidable despite the\nrandomness being public or private.",
+    "updated" : "2024-06-06T06:55:08Z",
+    "published" : "2024-06-06T06:55:08Z",
+    "authors" : [
+      {
+        "name" : "Mingen Pan"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.03766v1",
+    "title" : "Privacy Preserving Semi-Decentralized Mean Estimation over\n  Intermittently-Connected Networks",
+    "summary" : "We consider the problem of privately estimating the mean of vectors\ndistributed across different nodes of an unreliable wireless network, where\ncommunications between nodes can fail intermittently. We adopt a\nsemi-decentralized setup, wherein to mitigate the impact of intermittently\nconnected links, nodes can collaborate with their neighbors to compute a local\nconsensus, which they relay to a central server. In such a setting, the\ncommunications between any pair of nodes must ensure that the privacy of the\nnodes is rigorously maintained to prevent unauthorized information leakage. We\nstudy the tradeoff between collaborative relaying and privacy leakage due to\nthe data sharing among nodes and, subsequently, propose PriCER: Private\nCollaborative Estimation via Relaying -- a differentially private collaborative\nalgorithm for mean estimation to optimize this tradeoff. The privacy guarantees\nof PriCER arise (i) implicitly, by exploiting the inherent stochasticity of the\nflaky network connections, and (ii) explicitly, by adding Gaussian\nperturbations to the estimates exchanged by the nodes. Local and central\nprivacy guarantees are provided against eavesdroppers who can observe different\nsignals, such as the communications amongst nodes during local consensus and\n(possibly multiple) transmissions from the relays to the central server. We\nsubstantiate our theoretical findings with numerical simulations. Our\nimplementation is available at\nhttps://github.com/rajarshisaha95/private-collaborative-relaying.",
+    "updated" : "2024-06-06T06:12:15Z",
+    "published" : "2024-06-06T06:12:15Z",
+    "authors" : [
+      {
+        "name" : "Rajarshi Saha"
+      },
+      {
+        "name" : "Mohamed Seif"
+      },
+      {
+        "name" : "Michal Yemini"
+      },
+      {
+        "name" : "Andrea J. Goldsmith"
+      },
+      {
+        "name" : "H. Vincent Poor"
+      }
+    ],
+    "categories" : [
+      "eess.SP",
+      "cs.DC",
+      "cs.IT",
+      "cs.LG",
+      "cs.SY",
+      "eess.SY",
+      "math.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.03749v1",
+    "title" : "NAP^2: A Benchmark for Naturalness and Privacy-Preserving Text Rewriting\n  by Learning from Human",
+    "summary" : "Increasing concerns about privacy leakage issues in academia and industry\narise when employing NLP models from third-party providers to process sensitive\ntexts. To protect privacy before sending sensitive data to those models, we\nsuggest sanitizing sensitive text using two common strategies used by humans:\ni) deleting sensitive expressions, and ii) obscuring sensitive details by\nabstracting them. To explore the issues and develop a tool for text rewriting,\nwe curate the first corpus, coined NAP^2, through both crowdsourcing and the\nuse of large language models (LLMs). Compared to the prior works based on\ndifferential privacy, which lead to a sharp drop in information utility and\nunnatural texts, the human-inspired approaches result in more natural rewrites\nand offer an improved balance between privacy protection and data utility, as\ndemonstrated by our extensive experiments.",
+    "updated" : "2024-06-06T05:07:44Z",
+    "published" : "2024-06-06T05:07:44Z",
+    "authors" : [
+      {
+        "name" : "Shuo Huang"
+      },
+      {
+        "name" : "William MacLean"
+      },
+      {
+        "name" : "Xiaoxi Kang"
+      },
+      {
+        "name" : "Anqi Wu"
+      },
+      {
+        "name" : "Lizhen Qu"
+      },
+      {
+        "name" : "Qiongkai Xu"
+      },
+      {
+        "name" : "Zhuang Li"
+      },
+      {
+        "name" : "Xingliang Yuan"
+      },
+      {
+        "name" : "Gholamreza Haffari"
+      }
+    ],
+    "categories" : [
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.03695v1",
+    "title" : "FACOS: Enabling Privacy Protection Through Fine-Grained Access Control\n  with On-chain and Off-chain System",
+    "summary" : "Data-driven landscape across finance, government, and healthcare, the\ncontinuous generation of information demands robust solutions for secure\nstorage, efficient dissemination, and fine-grained access control. Blockchain\ntechnology emerges as a significant tool, offering decentralized storage while\nupholding the tenets of data security and accessibility. However, on-chain and\noff-chain strategies are still confronted with issues such as untrusted\noff-chain data storage, absence of data ownership, limited access control\npolicy for clients, and a deficiency in data privacy and auditability. To solve\nthese challenges, we propose a permissioned blockchain-based privacy-preserving\nfine-grained access control on-chain and off-chain system, namely FACOS. We\napplied three fine-grained access control solutions and comprehensively\nanalyzed them in different aspects, which provides an intuitive perspective for\nsystem designers and clients to choose the appropriate access control method\nfor their systems. Compared to similar work that only stores encrypted data in\ncentralized or non-fault-tolerant IPFS systems, we enhanced off-chain data\nstorage security and robustness by utilizing a highly efficient and secure\nasynchronous Byzantine fault tolerance (BFT) protocol in the off-chain\nenvironment. As each of the clients needs to be verified and authorized before\naccessing the data, we involved the Trusted Execution Environment (TEE)-based\nsolution to verify the credentials of clients. Additionally, our evaluation\nresults demonstrated that our system offers better scalability and practicality\nthan other state-of-the-art designs.",
+    "updated" : "2024-06-06T02:23:12Z",
+    "published" : "2024-06-06T02:23:12Z",
+    "authors" : [
+      {
+        "name" : "Chao Liu"
+      },
+      {
+        "name" : "Cankun Hou"
+      },
+      {
+        "name" : "Tianyu Jiang"
+      },
+      {
+        "name" : "Jianting Ning"
+      },
+      {
+        "name" : "Hui Qiao"
+      },
+      {
+        "name" : "Yusen Wu"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
