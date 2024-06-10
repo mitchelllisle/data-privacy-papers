@@ -763,5 +763,93 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.04827v1",
+    "title" : "Black Box Differential Privacy Auditing Using Total Variation Distance",
+    "summary" : "We present a practical method to audit the differential privacy (DP)\nguarantees of a machine learning model using a small hold-out dataset that is\nnot exposed to the model during the training. Having a score function such as\nthe loss function employed during the training, our method estimates the total\nvariation (TV) distance between scores obtained with a subset of the training\ndata and the hold-out dataset. With some meta information about the underlying\nDP training algorithm, these TV distance values can be converted to\n$(\\varepsilon,\\delta)$-guarantees for any $\\delta$. We show that these score\ndistributions asymptotically give lower bounds for the DP guarantees of the\nunderlying training algorithm, however, we perform a one-shot estimation for\npracticality reasons. We specify conditions that lead to lower bounds for the\nDP guarantees with high probability. To estimate the TV distance between the\nscore distributions, we use a simple density estimation method based on\nhistograms. We show that the TV distance gives a very close to optimally robust\nestimator and has an error rate $\\mathcal{O}(k^{-1/3})$, where $k$ is the total\nnumber of samples. Numerical experiments on benchmark datasets illustrate the\neffectiveness of our approach and show improvements over baseline methods for\nblack-box auditing.",
+    "updated" : "2024-06-07T10:52:15Z",
+    "published" : "2024-06-07T10:52:15Z",
+    "authors" : [
+      {
+        "name" : "Antti Koskela"
+      },
+      {
+        "name" : "Jafar Mohammadi"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.04702v1",
+    "title" : "Marking the Pace: A Blockchain-Enhanced Privacy-Traceable Strategy for\n  Federated Recommender Systems",
+    "summary" : "Federated recommender systems have been crucially enhanced through data\nsharing and continuous model updates, attributed to the pervasive connectivity\nand distributed computing capabilities of Internet of Things (IoT) devices.\nGiven the sensitivity of IoT data, transparent data processing in data sharing\nand model updates is paramount. However, existing methods fall short in tracing\nthe flow of shared data and the evolution of model updates. Consequently, data\nsharing is vulnerable to exploitation by malicious entities, raising\nsignificant data privacy concerns, while excluding data sharing will result in\nsub-optimal recommendations. To mitigate these concerns, we present LIBERATE, a\nprivacy-traceable federated recommender system. We design a blockchain-based\ntraceability mechanism, ensuring data privacy during data sharing and model\nupdates. We further enhance privacy protection by incorporating local\ndifferential privacy in user-server communication. Extensive evaluations with\nthe real-world dataset corroborate LIBERATE's capabilities in ensuring data\nprivacy during data sharing and model update while maintaining efficiency and\nperformance. Results underscore blockchain-based traceability mechanism as a\npromising solution for privacy-preserving in federated recommender systems.",
+    "updated" : "2024-06-07T07:21:21Z",
+    "published" : "2024-06-07T07:21:21Z",
+    "authors" : [
+      {
+        "name" : "Zhen Cai"
+      },
+      {
+        "name" : "Tao Tang"
+      },
+      {
+        "name" : "Shuo Yu"
+      },
+      {
+        "name" : "Yunpeng Xiao"
+      },
+      {
+        "name" : "Feng Xia"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.04610v1",
+    "title" : "Contrastive explainable clustering with differential privacy",
+    "summary" : "This paper presents a novel approach in Explainable AI (XAI), integrating\ncontrastive explanations with differential privacy in clustering methods. For\nseveral basic clustering problems, including $k$-median and $k$-means, we give\nefficient differential private contrastive explanations that achieve\nessentially the same explanations as those that non-private clustering\nexplanations can obtain. We define contrastive explanations as the utility\ndifference between the original clustering utility and utility from clustering\nwith a specifically fixed centroid. In each contrastive scenario, we designate\na specific data point as the fixed centroid position, enabling us to measure\nthe impact of this constraint on clustering utility under differential privacy.\nExtensive experiments across various datasets show our method's effectiveness\nin providing meaningful explanations without significantly compromising data\nprivacy or clustering utility. This underscores our contribution to\nprivacy-aware machine learning, demonstrating the feasibility of achieving a\nbalance between privacy and utility in the explanation of clustering tasks.",
+    "updated" : "2024-06-07T03:37:36Z",
+    "published" : "2024-06-07T03:37:36Z",
+    "authors" : [
+      {
+        "name" : "Dung Nguyen"
+      },
+      {
+        "name" : "Ariel Vetzler"
+      },
+      {
+        "name" : "Sarit Kraus"
+      },
+      {
+        "name" : "Anil Vullikanti"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.04535v1",
+    "title" : "Tangent differential privacy",
+    "summary" : "Differential privacy is a framework for protecting the identity of individual\ndata points in the decision-making process. In this note, we propose a new form\nof differential privacy called tangent differential privacy. Compared with the\nusual differential privacy that is defined uniformly across data distributions,\ntangent differential privacy is tailored towards a specific data distribution\nof interest. It also allows for general distribution distances such as total\nvariation distance and Wasserstein distance. In the case of risk minimization,\nwe show that entropic regularization guarantees tangent differential privacy\nunder rather general conditions on the risk function.",
+    "updated" : "2024-06-06T22:11:31Z",
+    "published" : "2024-06-06T22:11:31Z",
+    "authors" : [
+      {
+        "name" : "Lexing Ying"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
   }
 ]
