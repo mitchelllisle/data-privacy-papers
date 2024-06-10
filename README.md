@@ -2,6 +2,110 @@
 <h2>2024-06</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2406.04827v1">Black Box Differential Privacy Auditing Using Total Variation Distance</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
+  <p><b>Published on:</b> 2024-06-07T10:52:15Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Antti Koskela, Jafar Mohammadi</p>
+    <p><b>Summary:</b> We present a practical method to audit the differential privacy (DP)
+guarantees of a machine learning model using a small hold-out dataset that is
+not exposed to the model during the training. Having a score function such as
+the loss function employed during the training, our method estimates the total
+variation (TV) distance between scores obtained with a subset of the training
+data and the hold-out dataset. With some meta information about the underlying
+DP training algorithm, these TV distance values can be converted to
+$(\varepsilon,\delta)$-guarantees for any $\delta$. We show that these score
+distributions asymptotically give lower bounds for the DP guarantees of the
+underlying training algorithm, however, we perform a one-shot estimation for
+practicality reasons. We specify conditions that lead to lower bounds for the
+DP guarantees with high probability. To estimate the TV distance between the
+score distributions, we use a simple density estimation method based on
+histograms. We show that the TV distance gives a very close to optimally robust
+estimator and has an error rate $\mathcal{O}(k^{-1/3})$, where $k$ is the total
+number of samples. Numerical experiments on benchmark datasets illustrate the
+effectiveness of our approach and show improvements over baseline methods for
+black-box auditing.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2406.04702v1">Marking the Pace: A Blockchain-Enhanced Privacy-Traceable Strategy for
+  Federated Recommender Systems</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-06-07T07:21:21Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zhen Cai, Tao Tang, Shuo Yu, Yunpeng Xiao, Feng Xia</p>
+    <p><b>Summary:</b> Federated recommender systems have been crucially enhanced through data
+sharing and continuous model updates, attributed to the pervasive connectivity
+and distributed computing capabilities of Internet of Things (IoT) devices.
+Given the sensitivity of IoT data, transparent data processing in data sharing
+and model updates is paramount. However, existing methods fall short in tracing
+the flow of shared data and the evolution of model updates. Consequently, data
+sharing is vulnerable to exploitation by malicious entities, raising
+significant data privacy concerns, while excluding data sharing will result in
+sub-optimal recommendations. To mitigate these concerns, we present LIBERATE, a
+privacy-traceable federated recommender system. We design a blockchain-based
+traceability mechanism, ensuring data privacy during data sharing and model
+updates. We further enhance privacy protection by incorporating local
+differential privacy in user-server communication. Extensive evaluations with
+the real-world dataset corroborate LIBERATE's capabilities in ensuring data
+privacy during data sharing and model update while maintaining efficiency and
+performance. Results underscore blockchain-based traceability mechanism as a
+promising solution for privacy-preserving in federated recommender systems.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2406.04610v1">Contrastive explainable clustering with differential privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-06-07T03:37:36Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Dung Nguyen, Ariel Vetzler, Sarit Kraus, Anil Vullikanti</p>
+    <p><b>Summary:</b> This paper presents a novel approach in Explainable AI (XAI), integrating
+contrastive explanations with differential privacy in clustering methods. For
+several basic clustering problems, including $k$-median and $k$-means, we give
+efficient differential private contrastive explanations that achieve
+essentially the same explanations as those that non-private clustering
+explanations can obtain. We define contrastive explanations as the utility
+difference between the original clustering utility and utility from clustering
+with a specifically fixed centroid. In each contrastive scenario, we designate
+a specific data point as the fixed centroid position, enabling us to measure
+the impact of this constraint on clustering utility under differential privacy.
+Extensive experiments across various datasets show our method's effectiveness
+in providing meaningful explanations without significantly compromising data
+privacy or clustering utility. This underscores our contribution to
+privacy-aware machine learning, demonstrating the feasibility of achieving a
+balance between privacy and utility in the explanation of clustering tasks.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2406.04535v1">Tangent differential privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-06-06T22:11:31Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Lexing Ying</p>
+    <p><b>Summary:</b> Differential privacy is a framework for protecting the identity of individual
+data points in the decision-making process. In this note, we propose a new form
+of differential privacy called tangent differential privacy. Compared with the
+usual differential privacy that is defined uniformly across data distributions,
+tangent differential privacy is tailored towards a specific data distribution
+of interest. It also allows for general distribution distances such as total
+variation distance and Wasserstein distance. In the case of risk minimization,
+we show that entropic regularization guarantees tangent differential privacy
+under rather general conditions on the risk function.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2406.04129v1">LenslessFace: An End-to-End Optimized Lensless System for
   Privacy-Preserving Face Verification</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
@@ -2784,124 +2888,6 @@ computing the smooth sensitivity under GP equipped with a general metric. Then
 we present three applications: one-way and two-way threshold functions, and
 Gaussian kernel density estimation, to demonstrate the applicability and
 utility of our smooth sensitivity framework.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.06261v1">Improving the Privacy Loss Under User-Level DP Composition for Fixed
-  Estimation Error</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
-  <p><b>Published on:</b> 2024-05-10T06:24:35Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> V. Arvind Rameshwar, Anshoo Tandon</p>
-    <p><b>Summary:</b> This paper considers the private release of statistics of several disjoint
-subsets of a datasets, under user-level $\epsilon$-differential privacy (DP).
-In particular, we consider the user-level differentially private release of
-sample means and variances of speed values in several grids in a city, in a
-potentially sequential manner. Traditional analysis of the privacy loss due to
-the sequential composition of queries necessitates a privacy loss degradation
-by a factor that equals the total number of grids. Our main contribution is an
-iterative, instance-dependent algorithm, based on clipping the number of user
-contributions, which seeks to reduce the overall privacy loss degradation under
-a canonical Laplace mechanism, while not increasing the {worst} estimation
-error among the different grids. We test the performance of our algorithm on
-synthetic datasets and demonstrate improvements in the privacy loss degradation
-factor via our algorithm. We also demonstrate improvements in the worst-case
-error using a simple extension of a pseudo-user creation-based mechanism. An
-important component of this analysis is our exact characterization of the
-sensitivities and the worst-case estimation errors of sample means and
-variances incurred by clipping user contributions in an arbitrary fashion,
-which we believe is of independent interest.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.05930v1">Trustworthy AI-Generative Content in Intelligent 6G Network:
-  Adversarial, Privacy, and Fairness</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
-  <p><b>Published on:</b> 2024-05-09T17:16:20Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Siyuan Li, Xi Lin, Yaju Liu, Jianhua Li</p>
-    <p><b>Summary:</b> AI-generated content (AIGC) models, represented by large language models
-(LLM), have brought revolutionary changes to the content generation fields. The
-high-speed and extensive 6G technology is an ideal platform for providing
-powerful AIGC mobile service applications, while future 6G mobile networks also
-need to support intelligent and personalized mobile generation services.
-However, the significant ethical and security issues of current AIGC models,
-such as adversarial attacks, privacy, and fairness, greatly affect the
-credibility of 6G intelligent networks, especially in ensuring secure, private,
-and fair AIGC applications. In this paper, we propose TrustGAIN, a novel
-paradigm for trustworthy AIGC in 6G networks, to ensure trustworthy large-scale
-AIGC services in future 6G networks. We first discuss the adversarial attacks
-and privacy threats faced by AIGC systems in 6G networks, as well as the
-corresponding protection issues. Subsequently, we emphasize the importance of
-ensuring the unbiasedness and fairness of the mobile generative service in
-future intelligent networks. In particular, we conduct a use case to
-demonstrate that TrustGAIN can effectively guide the resistance against
-malicious or generated false information. We believe that TrustGAIN is a
-necessary paradigm for intelligent and trustworthy 6G networks to support AIGC
-services, ensuring the security, privacy, and fairness of AIGC network
-services.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.05789v1">High-Performance Privacy-Preserving Matrix Completion for Trajectory
-  Recovery</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Numerical Analysis-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Numerical Analysis-D91E36">
-  <p><b>Published on:</b> 2024-05-09T14:12:41Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jiahao Guo, An-Bao Xu</p>
-    <p><b>Summary:</b> Matrix completion has important applications in trajectory recovery and
-mobile social networks. However, sending raw data containing personal,
-sensitive information to cloud computing nodes may lead to privacy exposure
-issue.The privacy-preserving matrix completion is a useful approach to perform
-matrix completion while preserving privacy. In this paper, we propose a
-high-performance method for privacy-preserving matrix completion. First,we use
-a lightweight encryption scheme to encrypt the raw data and then perform matrix
-completion using alternating direction method of multipliers (ADMM). Then,the
-complemented matrix is decrypted and compared with the original matrix to
-calculate the error. This method has faster speed with higher accuracy. The
-results of numerical experiments reveal that the proposed method is faster than
-other algorithms.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.05611v1">Privacy-Preserving Edge Federated Learning for Intelligent Mobile-Health
-  Systems</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-05-09T08:15:31Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Amin Aminifar, Matin Shokri, Amir Aminifar</p>
-    <p><b>Summary:</b> Machine Learning (ML) algorithms are generally designed for scenarios in
-which all data is stored in one data center, where the training is performed.
-However, in many applications, e.g., in the healthcare domain, the training
-data is distributed among several entities, e.g., different hospitals or
-patients' mobile devices/sensors. At the same time, transferring the data to a
-central location for learning is certainly not an option, due to privacy
-concerns and legal issues, and in certain cases, because of the communication
-and computation overheads. Federated Learning (FL) is the state-of-the-art
-collaborative ML approach for training an ML model across multiple parties
-holding local data samples, without sharing them. However, enabling learning
-from distributed data over such edge Internet of Things (IoT) systems (e.g.,
-mobile-health and wearable technologies, involving sensitive personal/medical
-data) in a privacy-preserving fashion presents a major challenge mainly due to
-their stringent resource constraints, i.e., limited computing capacity,
-communication bandwidth, memory storage, and battery lifetime. In this paper,
-we propose a privacy-preserving edge FL framework for resource-constrained
-mobile-health and wearable technologies over the IoT infrastructure. We
-evaluate our proposed framework extensively and provide the implementation of
-our technique on Amazon's AWS cloud platform based on the seizure detection
-application in epilepsy monitoring using wearable technologies.</p>
   </details>
 </div>
 
