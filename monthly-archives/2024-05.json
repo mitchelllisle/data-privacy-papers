@@ -2913,5 +2913,32 @@
       "cs.CR",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.13804v2",
+    "title" : "Guarding Multiple Secrets: Enhanced Summary Statistic Privacy for Data\n  Sharing",
+    "summary" : "Data sharing enables critical advances in many research areas and business\napplications, but it may lead to inadvertent disclosure of sensitive summary\nstatistics (e.g., means or quantiles). Existing literature only focuses on\nprotecting a single confidential quantity, while in practice, data sharing\ninvolves multiple sensitive statistics. We propose a novel framework to define,\nanalyze, and protect multi-secret summary statistics privacy in data sharing.\nSpecifically, we measure the privacy risk of any data release mechanism by the\nworst-case probability of an attacker successfully inferring summary statistic\nsecrets. Given an attacker's objective spanning from inferring a subset to the\nentirety of summary statistic secrets, we systematically design and analyze\ntailored privacy metrics. Defining the distortion as the worst-case distance\nbetween the original and released data distribution, we analyze the tradeoff\nbetween privacy and distortion. Our contribution also includes designing and\nanalyzing data release mechanisms tailored for different data distributions and\nsecret types. Evaluations on real-world data demonstrate the effectiveness of\nour mechanisms in practical applications.",
+    "updated" : "2024-06-07T18:21:16Z",
+    "published" : "2024-05-22T16:30:34Z",
+    "authors" : [
+      {
+        "name" : "Shuaiqi Wang"
+      },
+      {
+        "name" : "Rongzhe Wei"
+      },
+      {
+        "name" : "Mohsen Ghassemi"
+      },
+      {
+        "name" : "Eleonora Kreacic"
+      },
+      {
+        "name" : "Vamsi K. Potluru"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
