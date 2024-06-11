@@ -851,5 +851,145 @@
       "cs.LG",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.06473v1",
+    "title" : "DiffAudit: Auditing Privacy Practices of Online Services for Children\n  and Adolescents",
+    "summary" : "Children's and adolescents' online data privacy are regulated by laws such as\nthe Children's Online Privacy Protection Act (COPPA) and the California\nConsumer Privacy Act (CCPA). Online services that are directed towards general\naudiences (i.e., including children, adolescents, and adults) must comply with\nthese laws. In this paper, first, we present DiffAudit, a platform-agnostic\nprivacy auditing methodology for general audience services. DiffAudit performs\ndifferential analysis of network traffic data flows to compare data processing\npractices (i) between child, adolescent, and adult users and (ii) before and\nafter consent is given and user age is disclosed. We also present a data type\nclassification method that utilizes GPT-4 and our data type ontology based on\nCOPPA and CCPA, allowing us to identify considerably more data types than prior\nwork. Second, we apply DiffAudit to a set of popular general audience mobile\nand web services and observe a rich set of behaviors extracted from over 440K\noutgoing requests, containing 3,968 unique data types we extracted and\nclassified. We reveal problematic data processing practices prior to consent\nand age disclosure, lack of differentiation between age-specific data flows,\ninconsistent privacy policy disclosures, and sharing of linkable data with\nthird parties, including advertising and tracking services.",
+    "updated" : "2024-06-10T17:14:53Z",
+    "published" : "2024-06-10T17:14:53Z",
+    "authors" : [
+      {
+        "name" : "Olivia Figueira"
+      },
+      {
+        "name" : "Rahmadi Trimananda"
+      },
+      {
+        "name" : "Athina Markopoulou"
+      },
+      {
+        "name" : "Scott Jordan"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.06186v1",
+    "title" : "A Survey on Machine Unlearning: Techniques and New Emerged Privacy Risks",
+    "summary" : "The explosive growth of machine learning has made it a critical\ninfrastructure in the era of artificial intelligence. The extensive use of data\nposes a significant threat to individual privacy. Various countries have\nimplemented corresponding laws, such as GDPR, to protect individuals' data\nprivacy and the right to be forgotten. This has made machine unlearning a\nresearch hotspot in the field of privacy protection in recent years, with the\naim of efficiently removing the contribution and impact of individual data from\ntrained models. The research in academia on machine unlearning has continuously\nenriched its theoretical foundation, and many methods have been proposed,\ntargeting different data removal requests in various application scenarios.\nHowever, recently researchers have found potential privacy leakages of various\nof machine unlearning approaches, making the privacy preservation on machine\nunlearning area a critical topic. This paper provides an overview and analysis\nof the existing research on machine unlearning, aiming to present the current\nvulnerabilities of machine unlearning approaches. We analyze privacy risks in\nvarious aspects, including definitions, implementation methods, and real-world\napplications. Compared to existing reviews, we analyze the new challenges posed\nby the latest malicious attack techniques on machine unlearning from the\nperspective of privacy threats. We hope that this survey can provide an initial\nbut comprehensive discussion on this new emerging area.",
+    "updated" : "2024-06-10T11:31:04Z",
+    "published" : "2024-06-10T11:31:04Z",
+    "authors" : [
+      {
+        "name" : "Hengzhu Liu"
+      },
+      {
+        "name" : "Ping Xiong"
+      },
+      {
+        "name" : "Tianqing Zhu"
+      },
+      {
+        "name" : "Philip S. Yu"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.05858v1",
+    "title" : "Comments on \"Federated Learning with Differential Privacy: Algorithms\n  and Performance Analysis\"",
+    "summary" : "In the paper by Wei et al. (\"Federated Learning with Differential Privacy:\nAlgorithms and Performance Analysis\"), the convergence performance of the\nproposed differential privacy algorithm in federated learning (FL), known as\nNoising before Model Aggregation FL (NbAFL), was studied. However, the\npresented convergence upper bound of NbAFL (Theorem 2) is incorrect. This\ncomment aims to present the correct form of the convergence upper bound for\nNbAFL.",
+    "updated" : "2024-06-09T17:03:56Z",
+    "published" : "2024-06-09T17:03:56Z",
+    "authors" : [
+      {
+        "name" : "Mahtab Talaei"
+      },
+      {
+        "name" : "Iman Izadi"
+      }
+    ],
+    "categories" : [
+      "cs.DC",
+      "cs.CR",
+      "cs.PF"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.05545v1",
+    "title" : "Privacy-Preserving Optimal Parameter Selection for Collaborative\n  Clustering",
+    "summary" : "This study investigates the optimal selection of parameters for collaborative\nclustering while ensuring data privacy. We focus on key clustering algorithms\nwithin a collaborative framework, where multiple data owners combine their\ndata. A semi-trusted server assists in recommending the most suitable\nclustering algorithm and its parameters. Our findings indicate that the privacy\nparameter ($\\epsilon$) minimally impacts the server's recommendations, but an\nincrease in $\\epsilon$ raises the risk of membership inference attacks, where\nsensitive information might be inferred. To mitigate these risks, we implement\ndifferential privacy techniques, particularly the Randomized Response\nmechanism, to add noise and protect data privacy. Our approach demonstrates\nthat high-quality clustering can be achieved while maintaining data\nconfidentiality, as evidenced by metrics such as the Adjusted Rand Index and\nSilhouette Score. This study contributes to privacy-aware data sharing, optimal\nalgorithm and parameter selection, and effective communication between data\nowners and the server.",
+    "updated" : "2024-06-08T18:21:12Z",
+    "published" : "2024-06-08T18:21:12Z",
+    "authors" : [
+      {
+        "name" : "Maryam Ghasemian"
+      },
+      {
+        "name" : "Erman Ayday"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.05459v1",
+    "title" : "PriviFy: Designing Tangible Interfaces for Configuring IoT Privacy\n  Preferences",
+    "summary" : "The Internet of Things (IoT) devices, such as smart speakers can collect\nsensitive user data, necessitating the need for users to manage their privacy\npreferences. However, configuring these preferences presents users with\nmultiple challenges. Existing privacy controls often lack transparency, are\nhard to understand, and do not provide meaningful choices. On top of that,\nusers struggle to locate privacy settings due to multiple menus or confusing\nlabeling, which discourages them from using these controls. We introduce\nPriviFy (Privacy Simplify-er), a novel and user-friendly tangible interface\nthat can simplify the configuration of smart devices privacy settings. PriviFy\nis designed to propose an enhancement to existing hardware by integrating\nadditional features that improve privacy management. We envision that positive\nfeedback and user experiences from our study will inspire consumer product\ndevelopers and smart device manufacturers to incorporate the useful design\nelements we have identified. Using fidelity prototyping, we iteratively\ndesigned PriviFy prototype with 20 participants to include interactive features\nsuch as knobs, buttons, lights, and notifications that allow users to configure\ntheir data privacy preferences and receive confirmation of their choices. We\nfurther evaluated PriviFy high-fidelity prototype with 20 more participants.\nOur results show that PriviFy helps simplify the complexity of privacy\npreferences configuration with a significant usability score at p < .05 (P =\n0.000000017, t = -8.8639). PriviFy successfully met users privacy needs and\nenabled them to regain control over their data. We conclude by recommending the\nimportance of designing specific privacy configuration options.",
+    "updated" : "2024-06-08T12:35:46Z",
+    "published" : "2024-06-08T12:35:46Z",
+    "authors" : [
+      {
+        "name" : "Bayan Al Muhander"
+      },
+      {
+        "name" : "Omer Rana"
+      },
+      {
+        "name" : "Charith Perera"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.ET"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.05451v1",
+    "title" : "PrivacyCube: Data Physicalization for Enhancing Privacy Awareness in IoT",
+    "summary" : "People are increasingly bringing Internet of Things (IoT) devices into their\nhomes without understanding how their data is gathered, processed, and used. We\ndescribe PrivacyCube, a novel data physicalization designed to increase privacy\nawareness within smart home environments. PrivacyCube visualizes IoT data\nconsumption by displaying privacy-related notices. PrivacyCube aims to assist\nsmart home occupants to (i) understand their data privacy better and (ii) have\nconversations around data management practices of IoT devices used within their\nhomes. Using PrivacyCube, households can learn and make informed privacy\ndecisions collectively. To evaluate PrivacyCube, we used multiple research\nmethods throughout the different stages of design. We first conducted a focus\ngroup study in two stages with six participants to compare PrivacyCube to text\nand state-of-the-art privacy policies. We then deployed PrivacyCube in a\n14-day-long field study with eight households. Our results show that\nPrivacyCube helps home occupants comprehend IoT privacy better with\nsignificantly increased privacy awareness at p < .05 (p=0.00041, t= -5.57).\nParticipants preferred PrivacyCube over text privacy policies because it was\ncomprehensive and easier to use. PrivacyCube and Privacy Label, a\nstate-of-the-art approach, both received positive reviews from participants,\nwith PrivacyCube being preferred for its interactivity and ability to encourage\nconversations. PrivacyCube was also considered by home occupants as a piece of\nhome furniture, encouraging them to socialize and discuss IoT privacy\nimplications using this device.",
+    "updated" : "2024-06-08T12:20:42Z",
+    "published" : "2024-06-08T12:20:42Z",
+    "authors" : [
+      {
+        "name" : "Bayan Al Muhander"
+      },
+      {
+        "name" : "Nalin Arachchilage"
+      },
+      {
+        "name" : "Yasar Majib"
+      },
+      {
+        "name" : "Mohammed Alosaimi"
+      },
+      {
+        "name" : "Omer Rana"
+      },
+      {
+        "name" : "Charith Perera"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.ET"
+    ]
   }
 ]
