@@ -2,6 +2,181 @@
 <h2>2024-06</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2406.06473v1">DiffAudit: Auditing Privacy Practices of Online Services for Children
+  and Adolescents</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-06-10T17:14:53Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Olivia Figueira, Rahmadi Trimananda, Athina Markopoulou, Scott Jordan</p>
+    <p><b>Summary:</b> Children's and adolescents' online data privacy are regulated by laws such as
+the Children's Online Privacy Protection Act (COPPA) and the California
+Consumer Privacy Act (CCPA). Online services that are directed towards general
+audiences (i.e., including children, adolescents, and adults) must comply with
+these laws. In this paper, first, we present DiffAudit, a platform-agnostic
+privacy auditing methodology for general audience services. DiffAudit performs
+differential analysis of network traffic data flows to compare data processing
+practices (i) between child, adolescent, and adult users and (ii) before and
+after consent is given and user age is disclosed. We also present a data type
+classification method that utilizes GPT-4 and our data type ontology based on
+COPPA and CCPA, allowing us to identify considerably more data types than prior
+work. Second, we apply DiffAudit to a set of popular general audience mobile
+and web services and observe a rich set of behaviors extracted from over 440K
+outgoing requests, containing 3,968 unique data types we extracted and
+classified. We reveal problematic data processing practices prior to consent
+and age disclosure, lack of differentiation between age-specific data flows,
+inconsistent privacy policy disclosures, and sharing of linkable data with
+third parties, including advertising and tracking services.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2406.06186v1">A Survey on Machine Unlearning: Techniques and New Emerged Privacy Risks</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-06-10T11:31:04Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Hengzhu Liu, Ping Xiong, Tianqing Zhu, Philip S. Yu</p>
+    <p><b>Summary:</b> The explosive growth of machine learning has made it a critical
+infrastructure in the era of artificial intelligence. The extensive use of data
+poses a significant threat to individual privacy. Various countries have
+implemented corresponding laws, such as GDPR, to protect individuals' data
+privacy and the right to be forgotten. This has made machine unlearning a
+research hotspot in the field of privacy protection in recent years, with the
+aim of efficiently removing the contribution and impact of individual data from
+trained models. The research in academia on machine unlearning has continuously
+enriched its theoretical foundation, and many methods have been proposed,
+targeting different data removal requests in various application scenarios.
+However, recently researchers have found potential privacy leakages of various
+of machine unlearning approaches, making the privacy preservation on machine
+unlearning area a critical topic. This paper provides an overview and analysis
+of the existing research on machine unlearning, aiming to present the current
+vulnerabilities of machine unlearning approaches. We analyze privacy risks in
+various aspects, including definitions, implementation methods, and real-world
+applications. Compared to existing reviews, we analyze the new challenges posed
+by the latest malicious attack techniques on machine unlearning from the
+perspective of privacy threats. We hope that this survey can provide an initial
+but comprehensive discussion on this new emerging area.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2406.05858v1">Comments on "Federated Learning with Differential Privacy: Algorithms
+  and Performance Analysis"</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Performance-F9C80E">
+  <p><b>Published on:</b> 2024-06-09T17:03:56Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mahtab Talaei, Iman Izadi</p>
+    <p><b>Summary:</b> In the paper by Wei et al. ("Federated Learning with Differential Privacy:
+Algorithms and Performance Analysis"), the convergence performance of the
+proposed differential privacy algorithm in federated learning (FL), known as
+Noising before Model Aggregation FL (NbAFL), was studied. However, the
+presented convergence upper bound of NbAFL (Theorem 2) is incorrect. This
+comment aims to present the correct form of the convergence upper bound for
+NbAFL.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2406.05545v1">Privacy-Preserving Optimal Parameter Selection for Collaborative
+  Clustering</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-06-08T18:21:12Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Maryam Ghasemian, Erman Ayday</p>
+    <p><b>Summary:</b> This study investigates the optimal selection of parameters for collaborative
+clustering while ensuring data privacy. We focus on key clustering algorithms
+within a collaborative framework, where multiple data owners combine their
+data. A semi-trusted server assists in recommending the most suitable
+clustering algorithm and its parameters. Our findings indicate that the privacy
+parameter ($\epsilon$) minimally impacts the server's recommendations, but an
+increase in $\epsilon$ raises the risk of membership inference attacks, where
+sensitive information might be inferred. To mitigate these risks, we implement
+differential privacy techniques, particularly the Randomized Response
+mechanism, to add noise and protect data privacy. Our approach demonstrates
+that high-quality clustering can be achieved while maintaining data
+confidentiality, as evidenced by metrics such as the Adjusted Rand Index and
+Silhouette Score. This study contributes to privacy-aware data sharing, optimal
+algorithm and parameter selection, and effective communication between data
+owners and the server.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2406.05459v1">PriviFy: Designing Tangible Interfaces for Configuring IoT Privacy
+  Preferences</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E">
+  <p><b>Published on:</b> 2024-06-08T12:35:46Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Bayan Al Muhander, Omer Rana, Charith Perera</p>
+    <p><b>Summary:</b> The Internet of Things (IoT) devices, such as smart speakers can collect
+sensitive user data, necessitating the need for users to manage their privacy
+preferences. However, configuring these preferences presents users with
+multiple challenges. Existing privacy controls often lack transparency, are
+hard to understand, and do not provide meaningful choices. On top of that,
+users struggle to locate privacy settings due to multiple menus or confusing
+labeling, which discourages them from using these controls. We introduce
+PriviFy (Privacy Simplify-er), a novel and user-friendly tangible interface
+that can simplify the configuration of smart devices privacy settings. PriviFy
+is designed to propose an enhancement to existing hardware by integrating
+additional features that improve privacy management. We envision that positive
+feedback and user experiences from our study will inspire consumer product
+developers and smart device manufacturers to incorporate the useful design
+elements we have identified. Using fidelity prototyping, we iteratively
+designed PriviFy prototype with 20 participants to include interactive features
+such as knobs, buttons, lights, and notifications that allow users to configure
+their data privacy preferences and receive confirmation of their choices. We
+further evaluated PriviFy high-fidelity prototype with 20 more participants.
+Our results show that PriviFy helps simplify the complexity of privacy
+preferences configuration with a significant usability score at p < .05 (P =
+0.000000017, t = -8.8639). PriviFy successfully met users privacy needs and
+enabled them to regain control over their data. We conclude by recommending the
+importance of designing specific privacy configuration options.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2406.05451v1">PrivacyCube: Data Physicalization for Enhancing Privacy Awareness in IoT</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E">
+  <p><b>Published on:</b> 2024-06-08T12:20:42Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Bayan Al Muhander, Nalin Arachchilage, Yasar Majib, Mohammed Alosaimi, Omer Rana, Charith Perera</p>
+    <p><b>Summary:</b> People are increasingly bringing Internet of Things (IoT) devices into their
+homes without understanding how their data is gathered, processed, and used. We
+describe PrivacyCube, a novel data physicalization designed to increase privacy
+awareness within smart home environments. PrivacyCube visualizes IoT data
+consumption by displaying privacy-related notices. PrivacyCube aims to assist
+smart home occupants to (i) understand their data privacy better and (ii) have
+conversations around data management practices of IoT devices used within their
+homes. Using PrivacyCube, households can learn and make informed privacy
+decisions collectively. To evaluate PrivacyCube, we used multiple research
+methods throughout the different stages of design. We first conducted a focus
+group study in two stages with six participants to compare PrivacyCube to text
+and state-of-the-art privacy policies. We then deployed PrivacyCube in a
+14-day-long field study with eight households. Our results show that
+PrivacyCube helps home occupants comprehend IoT privacy better with
+significantly increased privacy awareness at p < .05 (p=0.00041, t= -5.57).
+Participants preferred PrivacyCube over text privacy policies because it was
+comprehensive and easier to use. PrivacyCube and Privacy Label, a
+state-of-the-art approach, both received positive reviews from participants,
+with PrivacyCube being preferred for its interactivity and ability to encourage
+conversations. PrivacyCube was also considered by home occupants as a piece of
+home furniture, encouraging them to socialize and discuss IoT privacy
+implications using this device.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2406.04827v1">Black Box Differential Privacy Auditing Using Total Variation Distance</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
   <p><b>Published on:</b> 2024-06-07T10:52:15Z</p>
@@ -1912,7 +2087,7 @@ privacy in IoT environments.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.13804v1">Guarding Multiple Secrets: Enhanced Summary Statistic Privacy for Data
+  <h3><a href="http://arxiv.org/abs/2405.13804v2">Guarding Multiple Secrets: Enhanced Summary Statistic Privacy for Data
   Sharing</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2024-05-22T16:30:34Z</p>
@@ -2714,180 +2889,6 @@ assumption that the objective function is strongly convex and Lipschitz smooth,
 we rigorously prove that the proposed algorithm has a linear convergence rate.
 Finally, the effectiveness of the proposed algorithm is demonstrated by
 numerical simulations of the canonical sensor fusion problem.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.08356v1">A Model-oriented Reasoning Framework for Privacy Analysis of Complex
-  Systems</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-05-14T06:52:56Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Sebastian Rehms, Stefan Köpsell, Verena Klös, Florian Tschorsch</p>
-    <p><b>Summary:</b> This paper proposes a reasoning framework for privacy properties of systems
-and their environments that can capture any knowledge leaks on different
-logical levels of the system to answer the question: which entity can learn
-what? With the term knowledge we refer to any kind of data, meta-data or
-interpretation of those that might be relevant. To achieve this, we present a
-modeling framework that forces the developers to explicitly describe which
-knowledge is available at which entity, which knowledge flows between entities
-and which knowledge can be inferred from other knowledge. In addition, privacy
-requirements are specified as rules describing forbidden knowledge for
-entities. Our modeling approach is incremental, starting from an abstract view
-of the system and adding details through well-defined transformations. This
-work is intended to complement existing approaches and introduces steps towards
-more formal foundations for privacy oriented analyses while keeping them as
-accessible as possible. It is designed to be extensible through schemata and
-vocabulary to enable compatibility with external requirements and standards.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.08084v1">PrivFED -- A Framework for Privacy-Preserving Federated Learning in
-  Enhanced Breast Cancer Diagnosis</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-05-13T18:01:57Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Maithili Jha, S. Maitri, M. Lohithdakshan, Shiny Duela J, K. Raja</p>
-    <p><b>Summary:</b> In the day-to-day operations of healthcare institutions, a multitude of
-Personally Identifiable Information (PII) data exchanges occur, exposing the
-data to a spectrum of cybersecurity threats. This study introduces a federated
-learning framework, trained on the Wisconsin dataset, to mitigate challenges
-such as data scarcity and imbalance. Techniques like the Synthetic Minority
-Over-sampling Technique (SMOTE) are incorporated to bolster robustness, while
-isolation forests are employed to fortify the model against outliers. Catboost
-serves as the classification tool across all devices. The identification of
-optimal features for heightened accuracy is pursued through Principal Component
-Analysis (PCA),accentuating the significance of hyperparameter tuning, as
-underscored in a comparative analysis. The model exhibits an average accuracy
-of 99.95% on edge devices and 98% on the central server.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.07596v1">Local Mutual-Information Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
-  <p><b>Published on:</b> 2024-05-13T09:58:45Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Khac-Hoang Ngo, Johan Östman, Alexandre Graell i Amat</p>
-    <p><b>Summary:</b> Local mutual-information differential privacy (LMIDP) is a privacy notion
-that aims to quantify the reduction of uncertainty about the input data when
-the output of a privacy-preserving mechanism is revealed. We study the relation
-of LMIDP with local differential privacy (LDP), the de facto standard notion of
-privacy in context-independent (CI) scenarios, and with local information
-privacy (LIP), the state-of-the-art notion for context-dependent settings. We
-establish explicit conversion rules, i.e., bounds on the privacy parameters for
-a LMIDP mechanism to also satisfy LDP/LIP, and vice versa. We use our bounds to
-formally verify that LMIDP is a weak privacy notion. We also show that
-uncorrelated Gaussian noise is the best-case noise in terms of CI-LMIDP if both
-the input data and the noise are subject to an average power constraint.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.07440v1">Maximizing Information Gain in Privacy-Aware Active Learning of Email
-  Anomalies</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-05-13T02:58:59Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mu-Huan Miles Chung, Sharon Li, Jaturong Kongmanee, Lu Wang, Yuhong Yang, Calvin Giang, Khilan Jerath, Abhay Raman, David Lie, Mark Chignell</p>
-    <p><b>Summary:</b> Redacted emails satisfy most privacy requirements but they make it more
-difficult to detect anomalous emails that may be indicative of data
-exfiltration. In this paper we develop an enhanced method of Active Learning
-using an information gain maximizing heuristic, and we evaluate its
-effectiveness in a real world setting where only redacted versions of email
-could be labeled by human analysts due to privacy concerns. In the first case
-study we examined how Active Learning should be carried out. We found that
-model performance was best when a single highly skilled (in terms of the
-labelling task) analyst provided the labels. In the second case study we used
-confidence ratings to estimate the labeling uncertainty of analysts and then
-prioritized instances for labeling based on the expected information gain (the
-difference between model uncertainty and analyst uncertainty) that would be
-provided by labelling each instance. We found that the information maximization
-gain heuristic improved model performance over existing sampling methods for
-Active Learning. Based on the results obtained, we recommend that analysts
-should be screened, and possibly trained, prior to implementation of Active
-Learning in cybersecurity applications. We also recommend that the information
-gain maximizing sample method (based on expert confidence) should be used in
-early stages of Active Learning, providing that well-calibrated confidence can
-be obtained. We also note that the expertise of analysts should be assessed
-prior to Active Learning, as we found that analysts with lower labelling skill
-had poorly calibrated (over-) confidence in their labels.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.07020v1">Adaptive Online Bayesian Estimation of Frequency Distributions with
-  Local Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
-  <p><b>Published on:</b> 2024-05-11T13:59:52Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Soner Aydin, Sinan Yildirim</p>
-    <p><b>Summary:</b> We propose a novel Bayesian approach for the adaptive and online estimation
-of the frequency distribution of a finite number of categories under the local
-differential privacy (LDP) framework. The proposed algorithm performs Bayesian
-parameter estimation via posterior sampling and adapts the randomization
-mechanism for LDP based on the obtained posterior samples. We propose a
-randomized mechanism for LDP which uses a subset of categories as an input and
-whose performance depends on the selected subset and the true frequency
-distribution. By using the posterior sample as an estimate of the frequency
-distribution, the algorithm performs a computationally tractable subset
-selection step to maximize the utility of the privatized response of the next
-user. We propose several utility functions related to well-known information
-metrics, such as (but not limited to) Fisher information matrix, total
-variation distance, and information entropy. We compare each of these utility
-metrics in terms of their computational complexity. We employ stochastic
-gradient Langevin dynamics for posterior sampling, a computationally efficient
-approximate Markov chain Monte Carlo method. We provide a theoretical analysis
-showing that (i) the posterior distribution targeted by the algorithm converges
-to the true parameter even for approximate posterior sampling, and (ii) the
-algorithm selects the optimal subset with high probability if posterior
-sampling is performed exactly. We also provide numerical results that
-empirically demonstrate the estimation accuracy of our algorithm where we
-compare it with nonadaptive and semi-adaptive approaches under experimental
-settings with various combinations of privacy parameters and population
-distribution parameters.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.06307v1">Smooth Sensitivity for Geo-Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-05-10T08:32:07Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yuting Liang, Ke Yi</p>
-    <p><b>Summary:</b> Suppose each user $i$ holds a private value $x_i$ in some metric space $(U,
-\mathrm{dist})$, and an untrusted data analyst wishes to compute $\sum_i
-f(x_i)$ for some function $f : U \rightarrow \mathbb{R}$ by asking each user to
-send in a privatized $f(x_i)$. This is a fundamental problem in
-privacy-preserving population analytics, and the local model of differential
-privacy (LDP) is the predominant model under which the problem has been
-studied. However, LDP requires any two different $x_i, x'_i$ to be
-$\varepsilon$-distinguishable, which can be overly strong for
-geometric/numerical data. On the other hand, Geo-Privacy (GP) stipulates that
-the level of distinguishability be proportional to $\mathrm{dist}(x_i, x_i')$,
-providing an attractive alternative notion of personal data privacy in a metric
-space. However, existing GP mechanisms for this problem, which add a uniform
-noise to either $x_i$ or $f(x_i)$, are not satisfactory. In this paper, we
-generalize the smooth sensitivity framework from Differential Privacy to
-Geo-Privacy, which allows us to add noise tailored to the hardness of the given
-instance. We provide definitions, mechanisms, and a generic procedure for
-computing the smooth sensitivity under GP equipped with a general metric. Then
-we present three applications: one-way and two-way threshold functions, and
-Gaussian kernel density estimation, to demonstrate the applicability and
-utility of our smooth sensitivity framework.</p>
   </details>
 </div>
 
