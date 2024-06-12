@@ -991,5 +991,104 @@
       "cs.CR",
       "cs.ET"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.07314v1",
+    "title" : "Rethinking the impact of noisy labels in graph classification: A utility\n  and privacy perspective",
+    "summary" : "Graph neural networks based on message-passing mechanisms have achieved\nadvanced results in graph classification tasks. However, their generalization\nperformance degrades when noisy labels are present in the training data. Most\nexisting noisy labeling approaches focus on the visual domain or graph node\nclassification tasks and analyze the impact of noisy labels only from a utility\nperspective. Unlike existing work, in this paper, we measure the effects of\nnoise labels on graph classification from data privacy and model utility\nperspectives. We find that noise labels degrade the model's generalization\nperformance and enhance the ability of membership inference attacks on graph\ndata privacy. To this end, we propose the robust graph neural network approach\nwith noisy labeled graph classification. Specifically, we first accurately\nfilter the noisy samples by high-confidence samples and the first feature\nprincipal component vector of each class. Then, the robust principal component\nvectors and the model output under data augmentation are utilized to achieve\nnoise label correction guided by dual spatial information. Finally, supervised\ngraph contrastive learning is introduced to enhance the embedding quality of\nthe model and protect the privacy of the training graph data. The utility and\nprivacy of the proposed method are validated by comparing twelve different\nmethods on eight real graph classification datasets. Compared with the\nstate-of-the-art methods, the RGLC method achieves at most and at least 7.8%\nand 0.8% performance gain at 30% noisy labeling rate, respectively, and reduces\nthe accuracy of privacy attacks to below 60%.",
+    "updated" : "2024-06-11T14:44:37Z",
+    "published" : "2024-06-11T14:44:37Z",
+    "authors" : [
+      {
+        "name" : "De Li"
+      },
+      {
+        "name" : "Xianxian Li"
+      },
+      {
+        "name" : "Zeming Gan"
+      },
+      {
+        "name" : "Qiyu Li"
+      },
+      {
+        "name" : "Bin Qu"
+      },
+      {
+        "name" : "Jinyan Wang"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.06990v1",
+    "title" : "Privacy-Utility Tradeoff Based on $α$-lift",
+    "summary" : "Information density and its exponential form, known as lift, play a central\nrole in information privacy leakage measures. $\\alpha$-lift is the power-mean\nof lift, which is tunable between the worst-case measure max-lift\n($\\alpha=\\infty$) and more relaxed versions ($\\alpha<\\infty$). This paper\ninvestigates the optimization problem of the privacy-utility tradeoff where\n$\\alpha$-lift and mutual information are privacy and utility measures,\nrespectively. Due to the nonlinear nature of $\\alpha$-lift for $\\alpha<\\infty$,\nfinding the optimal solution is challenging. Therefore, we propose a heuristic\nalgorithm to estimate the optimal utility for each value of $\\alpha$, inspired\nby the optimal solution for $\\alpha=\\infty$. In proposing the algorithm, we\nprove and use the convexity of $\\alpha$-lift with respect to the lift.",
+    "updated" : "2024-06-11T06:39:57Z",
+    "published" : "2024-06-11T06:39:57Z",
+    "authors" : [
+      {
+        "name" : "Mohammad Amin Zarrabian"
+      },
+      {
+        "name" : "Parastoo Sadeghi"
+      }
+    ],
+    "categories" : [
+      "cs.IT",
+      "math.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.06755v1",
+    "title" : "Optimal Federated Learning for Nonparametric Regression with\n  Heterogeneous Distributed Differential Privacy Constraints",
+    "summary" : "This paper studies federated learning for nonparametric regression in the\ncontext of distributed samples across different servers, each adhering to\ndistinct differential privacy constraints. The setting we consider is\nheterogeneous, encompassing both varying sample sizes and differential privacy\nconstraints across servers. Within this framework, both global and pointwise\nestimation are considered, and optimal rates of convergence over the Besov\nspaces are established.\n  Distributed privacy-preserving estimators are proposed and their risk\nproperties are investigated. Matching minimax lower bounds, up to a logarithmic\nfactor, are established for both global and pointwise estimation. Together,\nthese findings shed light on the tradeoff between statistical accuracy and\nprivacy preservation. In particular, we characterize the compromise not only in\nterms of the privacy budget but also concerning the loss incurred by\ndistributing data within the privacy framework as a whole. This insight\ncaptures the folklore wisdom that it is easier to retain privacy in larger\nsamples, and explores the differences between pointwise and global estimation\nunder distributed privacy constraints.",
+    "updated" : "2024-06-10T19:34:07Z",
+    "published" : "2024-06-10T19:34:07Z",
+    "authors" : [
+      {
+        "name" : "T. Tony Cai"
+      },
+      {
+        "name" : "Abhinav Chakraborty"
+      },
+      {
+        "name" : "Lasse Vuursteen"
+      }
+    ],
+    "categories" : [
+      "math.ST",
+      "cs.LG",
+      "stat.ML",
+      "stat.TH",
+      "62G08, 62C20, 68P27, 62F30,"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.06749v1",
+    "title" : "Federated Nonparametric Hypothesis Testing with Differential Privacy\n  Constraints: Optimal Rates and Adaptive Tests",
+    "summary" : "Federated learning has attracted significant recent attention due to its\napplicability across a wide range of settings where data is collected and\nanalyzed across disparate locations. In this paper, we study federated\nnonparametric goodness-of-fit testing in the white-noise-with-drift model under\ndistributed differential privacy (DP) constraints.\n  We first establish matching lower and upper bounds, up to a logarithmic\nfactor, on the minimax separation rate. This optimal rate serves as a benchmark\nfor the difficulty of the testing problem, factoring in model characteristics\nsuch as the number of observations, noise level, and regularity of the signal\nclass, along with the strictness of the $(\\epsilon,\\delta)$-DP requirement. The\nresults demonstrate interesting and novel phase transition phenomena.\nFurthermore, the results reveal an interesting phenomenon that distributed\none-shot protocols with access to shared randomness outperform those without\naccess to shared randomness. We also construct a data-driven testing procedure\nthat possesses the ability to adapt to an unknown regularity parameter over a\nlarge collection of function classes with minimal additional cost, all while\nmaintaining adherence to the same set of DP constraints.",
+    "updated" : "2024-06-10T19:25:19Z",
+    "published" : "2024-06-10T19:25:19Z",
+    "authors" : [
+      {
+        "name" : "T. Tony Cai"
+      },
+      {
+        "name" : "Abhinav Chakraborty"
+      },
+      {
+        "name" : "Lasse Vuursteen"
+      }
+    ],
+    "categories" : [
+      "math.ST",
+      "cs.LG",
+      "stat.ML",
+      "stat.TH",
+      "62G10, 62C20, 68P27, 62F30"
+    ]
   }
 ]
