@@ -2,6 +2,120 @@
 <h2>2024-06</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2406.07314v1">Rethinking the impact of noisy labels in graph classification: A utility
+  and privacy perspective</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-06-11T14:44:37Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> De Li, Xianxian Li, Zeming Gan, Qiyu Li, Bin Qu, Jinyan Wang</p>
+    <p><b>Summary:</b> Graph neural networks based on message-passing mechanisms have achieved
+advanced results in graph classification tasks. However, their generalization
+performance degrades when noisy labels are present in the training data. Most
+existing noisy labeling approaches focus on the visual domain or graph node
+classification tasks and analyze the impact of noisy labels only from a utility
+perspective. Unlike existing work, in this paper, we measure the effects of
+noise labels on graph classification from data privacy and model utility
+perspectives. We find that noise labels degrade the model's generalization
+performance and enhance the ability of membership inference attacks on graph
+data privacy. To this end, we propose the robust graph neural network approach
+with noisy labeled graph classification. Specifically, we first accurately
+filter the noisy samples by high-confidence samples and the first feature
+principal component vector of each class. Then, the robust principal component
+vectors and the model output under data augmentation are utilized to achieve
+noise label correction guided by dual spatial information. Finally, supervised
+graph contrastive learning is introduced to enhance the embedding quality of
+the model and protect the privacy of the training graph data. The utility and
+privacy of the proposed method are validated by comparing twelve different
+methods on eight real graph classification datasets. Compared with the
+state-of-the-art methods, the RGLC method achieves at most and at least 7.8%
+and 0.8% performance gain at 30% noisy labeling rate, respectively, and reduces
+the accuracy of privacy attacks to below 60%.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2406.06990v1">Privacy-Utility Tradeoff Based on $α$-lift</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
+  <p><b>Published on:</b> 2024-06-11T06:39:57Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mohammad Amin Zarrabian, Parastoo Sadeghi</p>
+    <p><b>Summary:</b> Information density and its exponential form, known as lift, play a central
+role in information privacy leakage measures. $\alpha$-lift is the power-mean
+of lift, which is tunable between the worst-case measure max-lift
+($\alpha=\infty$) and more relaxed versions ($\alpha<\infty$). This paper
+investigates the optimization problem of the privacy-utility tradeoff where
+$\alpha$-lift and mutual information are privacy and utility measures,
+respectively. Due to the nonlinear nature of $\alpha$-lift for $\alpha<\infty$,
+finding the optimal solution is challenging. Therefore, we propose a heuristic
+algorithm to estimate the optimal utility for each value of $\alpha$, inspired
+by the optimal solution for $\alpha=\infty$. In proposing the algorithm, we
+prove and use the convexity of $\alpha$-lift with respect to the lift.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2406.06755v1">Optimal Federated Learning for Nonparametric Regression with
+  Heterogeneous Distributed Differential Privacy Constraints</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">   
+  <p><b>Published on:</b> 2024-06-10T19:34:07Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> T. Tony Cai, Abhinav Chakraborty, Lasse Vuursteen</p>
+    <p><b>Summary:</b> This paper studies federated learning for nonparametric regression in the
+context of distributed samples across different servers, each adhering to
+distinct differential privacy constraints. The setting we consider is
+heterogeneous, encompassing both varying sample sizes and differential privacy
+constraints across servers. Within this framework, both global and pointwise
+estimation are considered, and optimal rates of convergence over the Besov
+spaces are established.
+  Distributed privacy-preserving estimators are proposed and their risk
+properties are investigated. Matching minimax lower bounds, up to a logarithmic
+factor, are established for both global and pointwise estimation. Together,
+these findings shed light on the tradeoff between statistical accuracy and
+privacy preservation. In particular, we characterize the compromise not only in
+terms of the privacy budget but also concerning the loss incurred by
+distributing data within the privacy framework as a whole. This insight
+captures the folklore wisdom that it is easier to retain privacy in larger
+samples, and explores the differences between pointwise and global estimation
+under distributed privacy constraints.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2406.06749v1">Federated Nonparametric Hypothesis Testing with Differential Privacy
+  Constraints: Optimal Rates and Adaptive Tests</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">   
+  <p><b>Published on:</b> 2024-06-10T19:25:19Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> T. Tony Cai, Abhinav Chakraborty, Lasse Vuursteen</p>
+    <p><b>Summary:</b> Federated learning has attracted significant recent attention due to its
+applicability across a wide range of settings where data is collected and
+analyzed across disparate locations. In this paper, we study federated
+nonparametric goodness-of-fit testing in the white-noise-with-drift model under
+distributed differential privacy (DP) constraints.
+  We first establish matching lower and upper bounds, up to a logarithmic
+factor, on the minimax separation rate. This optimal rate serves as a benchmark
+for the difficulty of the testing problem, factoring in model characteristics
+such as the number of observations, noise level, and regularity of the signal
+class, along with the strictness of the $(\epsilon,\delta)$-DP requirement. The
+results demonstrate interesting and novel phase transition phenomena.
+Furthermore, the results reveal an interesting phenomenon that distributed
+one-shot protocols with access to shared randomness outperform those without
+access to shared randomness. We also construct a data-driven testing procedure
+that possesses the ability to adapt to an unknown regularity parameter over a
+large collection of function classes with minimal additional cost, all while
+maintaining adherence to the same set of DP constraints.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2406.06473v1">DiffAudit: Auditing Privacy Practices of Online Services for Children
   and Adolescents</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
@@ -2775,120 +2889,6 @@ mitigating approaches. For all aforementioned analyses, we evaluate the
 performance of the proposed learning scheme via experiments on an image
 classification task and a natural language processing task to demonstrate its
 effectiveness.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.08920v2">Neural Collapse Meets Differential Privacy: Curious Behaviors of NoisyGD
-  with Near-perfect Representation Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> 
-  <p><b>Published on:</b> 2024-05-14T19:18:19Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Chendi Wang, Yuqing Zhu, Weijie J. Su, Yu-Xiang Wang</p>
-    <p><b>Summary:</b> A recent study by De et al. (2022) has reported that large-scale
-representation learning through pre-training on a public dataset significantly
-enhances differentially private (DP) learning in downstream tasks, despite the
-high dimensionality of the feature space. To theoretically explain this
-phenomenon, we consider the setting of a layer-peeled model in representation
-learning, which results in interesting phenomena related to learned features in
-deep learning and transfer learning, known as Neural Collapse (NC).
-  Within the framework of NC, we establish an error bound indicating that the
-misclassification error is independent of dimension when the distance between
-actual features and the ideal ones is smaller than a threshold. Additionally,
-the quality of the features in the last layer is empirically evaluated under
-different pre-trained models within the framework of NC, showing that a more
-powerful transformer leads to a better feature representation. Furthermore, we
-reveal that DP fine-tuning is less robust compared to fine-tuning without DP,
-particularly in the presence of perturbations. These observations are supported
-by both theoretical analyses and experimental evaluation. Moreover, to enhance
-the robustness of DP fine-tuning, we suggest several strategies, such as
-feature normalization or employing dimension reduction methods like Principal
-Component Analysis (PCA). Empirically, we demonstrate a significant improvement
-in testing accuracy by conducting PCA on the last-layer features.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.08801v2">Prospects of Privacy Advantage in Quantum Machine Learning</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-05-14T17:49:18Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jamie Heredge, Niraj Kumar, Dylan Herman, Shouvanik Chakrabarti, Romina Yalovetzky, Shree Hari Sureshbabu, Changhao Li, Marco Pistoia</p>
-    <p><b>Summary:</b> Ensuring data privacy in machine learning models is critical, particularly in
-distributed settings where model gradients are typically shared among multiple
-parties to allow collaborative learning. Motivated by the increasing success of
-recovering input data from the gradients of classical models, this study
-addresses a central question: How hard is it to recover the input data from the
-gradients of quantum machine learning models? Focusing on variational quantum
-circuits (VQC) as learning models, we uncover the crucial role played by the
-dynamical Lie algebra (DLA) of the VQC ansatz in determining privacy
-vulnerabilities. While the DLA has previously been linked to the classical
-simulatability and trainability of VQC models, this work, for the first time,
-establishes its connection to the privacy of VQC models. In particular, we show
-that properties conducive to the trainability of VQCs, such as a
-polynomial-sized DLA, also facilitate the extraction of detailed snapshots of
-the input. We term this a weak privacy breach, as the snapshots enable training
-VQC models for distinct learning tasks without direct access to the original
-input. Further, we investigate the conditions for a strong privacy breach where
-the original input data can be recovered from these snapshots by classical or
-quantum-assisted polynomial time methods. We establish conditions on the
-encoding map such as classical simulatability, overlap with DLA basis, and its
-Fourier frequency characteristics that enable such a privacy breach of VQC
-models. Our findings thus play a crucial role in detailing the prospects of
-quantum privacy advantage by guiding the requirements for designing quantum
-machine learning models that balance trainability with robust privacy
-protection.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.08698v1">Byzantine-Resilient Secure Aggregation for Federated Learning Without
-  Privacy Compromises</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
-  <p><b>Published on:</b> 2024-05-14T15:37:56Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yue Xia, Christoph Hofmeister, Maximilian Egger, Rawad Bitar</p>
-    <p><b>Summary:</b> Federated learning (FL) shows great promise in large scale machine learning,
-but brings new risks in terms of privacy and security. We propose ByITFL, a
-novel scheme for FL that provides resilience against Byzantine users while
-keeping the users' data private from the federator and private from other
-users. The scheme builds on the preexisting non-private FLTrust scheme, which
-tolerates malicious users through trust scores (TS) that attenuate or amplify
-the users' gradients. The trust scores are based on the ReLU function, which we
-approximate by a polynomial. The distributed and privacy-preserving computation
-in ByITFL is designed using a combination of Lagrange coded computing,
-verifiable secret sharing and re-randomization steps. ByITFL is the first
-Byzantine resilient scheme for FL with full information-theoretic privacy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.08518v1">Cryptography-Based Privacy-Preserving Method for Distributed
-  Optimization over Time-Varying Directed Graphs with Enhanced Efficiency</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Optimization and Control-F9C80E">
-  <p><b>Published on:</b> 2024-05-14T11:48:59Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Bing Liu, Furan Xie, Li Chai</p>
-    <p><b>Summary:</b> In this paper, we study the privacy-preserving distributed optimization
-problem, aiming to prevent attackers from stealing the private information of
-agents. For this purpose, we propose a novel privacy-preserving algorithm based
-on the Advanced Encryption Standard (AES), which is both secure and
-computationally efficient. By appropriately constructing the underlying weight
-matrices, our algorithm can be applied to time-varying directed networks. We
-show that the proposed algorithm can protect an agent's privacy if the agent
-has at least one legitimate neighbor at the initial iteration. Under the
-assumption that the objective function is strongly convex and Lipschitz smooth,
-we rigorously prove that the proposed algorithm has a linear convergence rate.
-Finally, the effectiveness of the proposed algorithm is demonstrated by
-numerical simulations of the canonical sensor fusion problem.</p>
   </details>
 </div>
 
