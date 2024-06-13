@@ -1090,5 +1090,38 @@
       "stat.TH",
       "62G10, 62C20, 68P27, 62F30"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.07973v1",
+    "title" : "Unique Security and Privacy Threats of Large Language Model: A\n  Comprehensive Survey",
+    "summary" : "With the rapid development of artificial intelligence, large language models\n(LLMs) have made remarkable progress in natural language processing. These\nmodels are trained on large amounts of data to demonstrate powerful language\nunderstanding and generation capabilities for various applications, from\nmachine translation and chatbots to agents. However, LLMs have exposed a\nvariety of privacy and security issues during their life cycle, which have\nbecome the focus of academic and industrial attention. Moreover, these risks\nLLMs face are pretty different from previous traditional language models. Since\ncurrent surveys lack a clear taxonomy of unique threat models based on diverse\nscenarios, we highlight unique privacy and security issues based on five\nscenarios: pre-training, fine-tuning, RAG system, deploying, and LLM-based\nagent. Concerning the characteristics of each risk, this survey provides\npotential threats and countermeasures. The research on attack and defense\nsituations LLMs face can provide feasible research directions, making more\nareas reap LLMs' benefits.",
+    "updated" : "2024-06-12T07:55:32Z",
+    "published" : "2024-06-12T07:55:32Z",
+    "authors" : [
+      {
+        "name" : "Shang Wang"
+      },
+      {
+        "name" : "Tianqing Zhu"
+      },
+      {
+        "name" : "Bo Liu"
+      },
+      {
+        "name" : "Ding Ming"
+      },
+      {
+        "name" : "Xu Guo"
+      },
+      {
+        "name" : "Dayong Ye"
+      },
+      {
+        "name" : "Wanlei Zhou"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
