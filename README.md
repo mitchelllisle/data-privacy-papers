@@ -2,6 +2,33 @@
 <h2>2024-06</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2406.07973v1">Unique Security and Privacy Threats of Large Language Model: A
+  Comprehensive Survey</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-06-12T07:55:32Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shang Wang, Tianqing Zhu, Bo Liu, Ding Ming, Xu Guo, Dayong Ye, Wanlei Zhou</p>
+    <p><b>Summary:</b> With the rapid development of artificial intelligence, large language models
+(LLMs) have made remarkable progress in natural language processing. These
+models are trained on large amounts of data to demonstrate powerful language
+understanding and generation capabilities for various applications, from
+machine translation and chatbots to agents. However, LLMs have exposed a
+variety of privacy and security issues during their life cycle, which have
+become the focus of academic and industrial attention. Moreover, these risks
+LLMs face are pretty different from previous traditional language models. Since
+current surveys lack a clear taxonomy of unique threat models based on diverse
+scenarios, we highlight unique privacy and security issues based on five
+scenarios: pre-training, fine-tuning, RAG system, deploying, and LLM-based
+agent. Concerning the characteristics of each risk, this survey provides
+potential threats and countermeasures. The research on attack and defense
+situations LLMs face can provide feasible research directions, making more
+areas reap LLMs' benefits.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2406.07314v1">Rethinking the impact of noisy labels in graph classification: A utility
   and privacy perspective</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
@@ -2862,33 +2889,6 @@ devices to share the same anonymity set. Our contributions provide a
 significant advancement in the pursuit of robust privacy solutions for wireless
 networks, paving the way for more user anonymity and less surveillance in
 wireless communication ecosystems.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.09014v1">Feature-based Federated Transfer Learning: Communication Efficiency,
-  Robustness and Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Multiagent Systems-662E9B">
-  <p><b>Published on:</b> 2024-05-15T00:43:19Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Feng Wang, M. Cenk Gursoy, Senem Velipasalar</p>
-    <p><b>Summary:</b> In this paper, we propose feature-based federated transfer learning as a
-novel approach to improve communication efficiency by reducing the uplink
-payload by multiple orders of magnitude compared to that of existing approaches
-in federated learning and federated transfer learning. Specifically, in the
-proposed feature-based federated learning, we design the extracted features and
-outputs to be uploaded instead of parameter updates. For this distributed
-learning model, we determine the required payload and provide comparisons with
-the existing schemes. Subsequently, we analyze the robustness of feature-based
-federated transfer learning against packet loss, data insufficiency, and
-quantization. Finally, we address privacy considerations by defining and
-analyzing label privacy leakage and feature privacy leakage, and investigating
-mitigating approaches. For all aforementioned analyses, we evaluate the
-performance of the proposed learning scheme via experiments on an image
-classification task and a natural language processing task to demonstrate its
-effectiveness.</p>
   </details>
 </div>
 
