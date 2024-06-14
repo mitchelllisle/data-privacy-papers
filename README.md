@@ -2,6 +2,123 @@
 <h2>2024-06</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2406.09214v1">Applying Multi-Agent Negotiation to Solve the Production Routing Problem
+  With Privacy Preserving</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Multiagent Systems-662E9B">
+  <p><b>Published on:</b> 2024-06-13T15:15:34Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Luiza Pellin Biasoto, Vinicius Renan de Carvalho, Jaime Simão Sichman</p>
+    <p><b>Summary:</b> This paper presents a novel approach to address the Production Routing
+Problem with Privacy Preserving (PRPPP) in supply chain optimization. The
+integrated optimization of production, inventory, distribution, and routing
+decisions in real-world industry applications poses several challenges,
+including increased complexity, discrepancies between planning and execution,
+and constraints on information sharing. To mitigate these challenges, this
+paper proposes the use of intelligent agent negotiation within a hybrid
+Multi-Agent System (MAS) integrated with optimization algorithms. The MAS
+facilitates communication and coordination among entities, encapsulates private
+information, and enables negotiation. This, along with optimization algorithms,
+makes it a compelling framework for establishing optimal solutions. The
+approach is supported by real-world applications and synergies between MAS and
+optimization methods, demonstrating its effectiveness in addressing complex
+supply chain optimization problems.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2406.09037v1">Evaluating Privacy, Security, and Trust Perceptions in Conversational
+  AI: A Systematic Review</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">  
+  <p><b>Published on:</b> 2024-06-13T12:20:26Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Anna Leschanowsky, Silas Rech, Birgit Popp, Tom Bäckström</p>
+    <p><b>Summary:</b> Conversational AI (CAI) systems which encompass voice- and text-based
+assistants are on the rise and have been largely integrated into people's
+everyday lives. Despite their widespread adoption, users voice concerns
+regarding privacy, security and trust in these systems. However, the
+composition of these perceptions, their impact on technology adoption and usage
+and the relationship between privacy, security and trust perceptions in the CAI
+context remain open research challenges. This study contributes to the field by
+conducting a Systematic Literature Review and offers insights into the current
+state of research on privacy, security and trust perceptions in the context of
+CAI systems. The review covers application fields and user groups and sheds
+light on empirical methods and tools used for assessment. Moreover, it provides
+insights into the reliability and validity of privacy, security and trust
+scales, as well as extensively investigating the subconstructs of each item as
+well as additional concepts which are concurrently collected. We point out that
+the perceptions of trust, privacy and security overlap based on the
+subconstructs we identified. While the majority of studies investigate one of
+these concepts, only a few studies were found exploring privacy, security and
+trust perceptions jointly. Our research aims to inform on directions to develop
+and use reliable scales for users' privacy, security and trust perceptions and
+contribute to the development of trustworthy CAI systems.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2406.09005v1">Privacy Aware Memory Forensics</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-06-13T11:18:49Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Janardhan Kalikiri, Gaurav Varshney, Jaswinder Kour, Tarandeep Singh</p>
+    <p><b>Summary:</b> In recent years, insider threats and attacks have been increasing in terms of
+frequency and cost to the corporate business. The utilization of end-to-end
+encrypted instant messaging applications (WhatsApp, Telegram, VPN) by malicious
+insiders raised data breach incidents exponentially. The Securities and
+Exchange Board of India (SEBI) investigated reports on such data leak incidents
+and reported about twelve companies where earnings data and financial
+information were leaked using WhatsApp messages. Recent surveys indicate that
+60% of data breaches are primarily caused by malicious insider threats.
+Especially, in the case of the defense environment, information leaks by
+insiders will jeopardize the countrys national security. Sniffing of network
+and host-based activities will not work in an insider threat detection
+environment due to end-to-end encryption. Memory forensics allows access to the
+messages sent or received over an end-to-end encrypted environment but with a
+total compromise of the users privacy. In this research, we present a novel
+solution to detect data leakages by insiders in an organization. Our approach
+captures the RAM of the insiders device and analyses it for sensitive
+information leaks from a host system while maintaining the users privacy.
+Sensitive data leaks are identified with context using a deep learning model.
+The feasibility and effectiveness of the proposed idea have been demonstrated
+with the help of a military use case. The proposed architecture can however be
+used across various use cases with minor modifications.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2406.08918v1">Beyond the Calibration Point: Mechanism Comparison in Differential
+  Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36">  
+  <p><b>Published on:</b> 2024-06-13T08:30:29Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Georgios Kaissis, Stefan Kolek, Borja Balle, Jamie Hayes, Daniel Rueckert</p>
+    <p><b>Summary:</b> In differentially private (DP) machine learning, the privacy guarantees of DP
+mechanisms are often reported and compared on the basis of a single
+$(\varepsilon, \delta)$-pair. This practice overlooks that DP guarantees can
+vary substantially \emph{even between mechanisms sharing a given $(\varepsilon,
+\delta)$}, and potentially introduces privacy vulnerabilities which can remain
+undetected. This motivates the need for robust, rigorous methods for comparing
+DP guarantees in such cases. Here, we introduce the $\Delta$-divergence between
+mechanisms which quantifies the worst-case excess privacy vulnerability of
+choosing one mechanism over another in terms of $(\varepsilon, \delta)$, $f$-DP
+and in terms of a newly presented Bayesian interpretation. Moreover, as a
+generalisation of the Blackwell theorem, it is endowed with strong
+decision-theoretic foundations. Through application examples, we show that our
+techniques can facilitate informed decision-making and reveal gaps in the
+current understanding of privacy risks, as current practices in DP-SGD often
+result in choosing mechanisms with high excess privacy vulnerabilities.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2406.07973v1">Unique Security and Privacy Threats of Large Language Model: A
   Comprehensive Survey</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
@@ -403,7 +520,7 @@ balance between privacy and utility in the explanation of clustering tasks.</p>
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2406.04535v1">Tangent differential privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
   <p><b>Published on:</b> 2024-06-06T22:11:31Z</p>
   <details>
     <summary>More Details</summary>
@@ -2228,7 +2345,7 @@ privacy in IoT environments.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.13804v2">Guarding Multiple Secrets: Enhanced Summary Statistic Privacy for Data
+  <h3><a href="http://arxiv.org/abs/2405.13804v3">Guarding Multiple Secrets: Enhanced Summary Statistic Privacy for Data
   Sharing</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2024-05-22T16:30:34Z</p>
@@ -2772,123 +2889,6 @@ across all layers, which shows the property of PII specificity. Furthermore, we
 propose to validate the potential in PII risk mitigation by deactivating the
 localized privacy neurons. Both quantitative and qualitative experiments
 demonstrate the effectiveness of our neuron localization algorithm.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.09882v1">DiffAM: Diffusion-based Adversarial Makeup Transfer for Facial Privacy
-  Protection</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2024-05-16T08:05:36Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yuhao Sun, Lingyun Yu, Hongtao Xie, Jiaming Li, Yongdong Zhang</p>
-    <p><b>Summary:</b> With the rapid development of face recognition (FR) systems, the privacy of
-face images on social media is facing severe challenges due to the abuse of
-unauthorized FR systems. Some studies utilize adversarial attack techniques to
-defend against malicious FR systems by generating adversarial examples.
-However, the generated adversarial examples, i.e., the protected face images,
-tend to suffer from subpar visual quality and low transferability. In this
-paper, we propose a novel face protection approach, dubbed DiffAM, which
-leverages the powerful generative ability of diffusion models to generate
-high-quality protected face images with adversarial makeup transferred from
-reference images. To be specific, we first introduce a makeup removal module to
-generate non-makeup images utilizing a fine-tuned diffusion model with guidance
-of textual prompts in CLIP space. As the inverse process of makeup transfer,
-makeup removal can make it easier to establish the deterministic relationship
-between makeup domain and non-makeup domain regardless of elaborate text
-prompts. Then, with this relationship, a CLIP-based makeup loss along with an
-ensemble attack strategy is introduced to jointly guide the direction of
-adversarial makeup domain, achieving the generation of protected face images
-with natural-looking makeup and high black-box transferability. Extensive
-experiments demonstrate that DiffAM achieves higher visual quality and attack
-success rates with a gain of 12.98% under black-box setting compared with the
-state of the arts. The code will be available at
-https://github.com/HansSunY/DiffAM.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.09306v1">Words Blending Boxes. Obfuscating Queries in Information Retrieval using
-  Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-05-15T12:51:36Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Francesco Luigi De Faveri, Guglielmo Faggioli, Nicola Ferro</p>
-    <p><b>Summary:</b> Ensuring the effectiveness of search queries while protecting user privacy
-remains an open issue. When an Information Retrieval System (IRS) does not
-protect the privacy of its users, sensitive information may be disclosed
-through the queries sent to the system. Recent improvements, especially in NLP,
-have shown the potential of using Differential Privacy to obfuscate texts while
-maintaining satisfactory effectiveness. However, such approaches may protect
-the user's privacy only from a theoretical perspective while, in practice, the
-real user's information need can still be inferred if perturbed terms are too
-semantically similar to the original ones. We overcome such limitations by
-proposing Word Blending Boxes, a novel differentially private mechanism for
-query obfuscation, which protects the words in the user queries by employing
-safe boxes. To measure the overall effectiveness of the proposed WBB mechanism,
-we measure the privacy obtained by the obfuscation process, i.e., the lexical
-and semantic similarity between original and obfuscated queries. Moreover, we
-assess the effectiveness of the privatized queries in retrieving relevant
-documents from the IRS. Our findings indicate that WBB can be integrated
-effectively into existing IRSs, offering a key to the challenge of protecting
-user privacy from both a theoretical and a practical point of view.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.09234v1">Enhancing Image Privacy in Semantic Communication over Wiretap Channels
-  leveraging Differential Privacy</a></h3>
-  
-  <p><b>Published on:</b> 2024-05-15T10:30:18Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Weixuan Chen, Shunpu Tang, Qianqian Yang</p>
-    <p><b>Summary:</b> Semantic communication (SemCom) enhances transmission efficiency by sending
-only task-relevant information compared to traditional methods. However,
-transmitting semantic-rich data over insecure or public channels poses security
-and privacy risks. This paper addresses the privacy problem of transmitting
-images over wiretap channels and proposes a novel SemCom approach ensuring
-privacy through a differential privacy (DP)-based image protection and
-deprotection mechanism. The method utilizes the GAN inversion technique to
-extract disentangled semantic features and applies a DP mechanism to protect
-sensitive features within the extracted semantic information. To address the
-non-invertibility of DP, we introduce two neural networks to approximate the DP
-application and removal processes, offering a privacy protection level close to
-that by the original DP process. Simulation results validate the effectiveness
-of our method in preventing eavesdroppers from obtaining sensitive information
-while maintaining high-fidelity image reconstruction at the legitimate
-receiver.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.09230v1">Reduce to the MACs -- Privacy Friendly Generic Probe Requests</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
-  <p><b>Published on:</b> 2024-05-15T10:18:30Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Johanna Ansohn McDougall, Alessandro Brighente, Anne Kunstmann, Niklas Zapatka, Hannes Federrath</p>
-    <p><b>Summary:</b> Abstract. Since the introduction of active discovery in Wi-Fi networks, users
-can be tracked via their probe requests. Although manufacturers typically try
-to conceal Media Access Control (MAC) addresses using MAC address
-randomisation, probe requests still contain Information Elements (IEs) that
-facilitate device identification. This paper introduces generic probe requests:
-By removing all unnecessary information from IEs, the requests become
-indistinguishable from one another, letting single devices disappear in the
-largest possible anonymity set. Conducting a comprehensive evaluation, we
-demonstrate that a large IE set contained within undirected probe requests does
-not necessarily imply fast connection establishment. Furthermore, we show that
-minimising IEs to nothing but Supported Rates would enable 82.55% of the
-devices to share the same anonymity set. Our contributions provide a
-significant advancement in the pursuit of robust privacy solutions for wireless
-networks, paving the way for more user anonymity and less surveillance in
-wireless communication ecosystems.</p>
   </details>
 </div>
 
