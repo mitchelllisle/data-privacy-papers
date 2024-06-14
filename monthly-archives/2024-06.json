@@ -1123,5 +1123,126 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.09214v1",
+    "title" : "Applying Multi-Agent Negotiation to Solve the Production Routing Problem\n  With Privacy Preserving",
+    "summary" : "This paper presents a novel approach to address the Production Routing\nProblem with Privacy Preserving (PRPPP) in supply chain optimization. The\nintegrated optimization of production, inventory, distribution, and routing\ndecisions in real-world industry applications poses several challenges,\nincluding increased complexity, discrepancies between planning and execution,\nand constraints on information sharing. To mitigate these challenges, this\npaper proposes the use of intelligent agent negotiation within a hybrid\nMulti-Agent System (MAS) integrated with optimization algorithms. The MAS\nfacilitates communication and coordination among entities, encapsulates private\ninformation, and enables negotiation. This, along with optimization algorithms,\nmakes it a compelling framework for establishing optimal solutions. The\napproach is supported by real-world applications and synergies between MAS and\noptimization methods, demonstrating its effectiveness in addressing complex\nsupply chain optimization problems.",
+    "updated" : "2024-06-13T15:15:34Z",
+    "published" : "2024-06-13T15:15:34Z",
+    "authors" : [
+      {
+        "name" : "Luiza Pellin Biasoto"
+      },
+      {
+        "name" : "Vinicius Renan de Carvalho"
+      },
+      {
+        "name" : "Jaime Simão Sichman"
+      }
+    ],
+    "categories" : [
+      "cs.AI",
+      "cs.MA"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.09037v1",
+    "title" : "Evaluating Privacy, Security, and Trust Perceptions in Conversational\n  AI: A Systematic Review",
+    "summary" : "Conversational AI (CAI) systems which encompass voice- and text-based\nassistants are on the rise and have been largely integrated into people's\neveryday lives. Despite their widespread adoption, users voice concerns\nregarding privacy, security and trust in these systems. However, the\ncomposition of these perceptions, their impact on technology adoption and usage\nand the relationship between privacy, security and trust perceptions in the CAI\ncontext remain open research challenges. This study contributes to the field by\nconducting a Systematic Literature Review and offers insights into the current\nstate of research on privacy, security and trust perceptions in the context of\nCAI systems. The review covers application fields and user groups and sheds\nlight on empirical methods and tools used for assessment. Moreover, it provides\ninsights into the reliability and validity of privacy, security and trust\nscales, as well as extensively investigating the subconstructs of each item as\nwell as additional concepts which are concurrently collected. We point out that\nthe perceptions of trust, privacy and security overlap based on the\nsubconstructs we identified. While the majority of studies investigate one of\nthese concepts, only a few studies were found exploring privacy, security and\ntrust perceptions jointly. Our research aims to inform on directions to develop\nand use reliable scales for users' privacy, security and trust perceptions and\ncontribute to the development of trustworthy CAI systems.",
+    "updated" : "2024-06-13T12:20:26Z",
+    "published" : "2024-06-13T12:20:26Z",
+    "authors" : [
+      {
+        "name" : "Anna Leschanowsky"
+      },
+      {
+        "name" : "Silas Rech"
+      },
+      {
+        "name" : "Birgit Popp"
+      },
+      {
+        "name" : "Tom Bäckström"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "68-06",
+      "J.0"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.09005v1",
+    "title" : "Privacy Aware Memory Forensics",
+    "summary" : "In recent years, insider threats and attacks have been increasing in terms of\nfrequency and cost to the corporate business. The utilization of end-to-end\nencrypted instant messaging applications (WhatsApp, Telegram, VPN) by malicious\ninsiders raised data breach incidents exponentially. The Securities and\nExchange Board of India (SEBI) investigated reports on such data leak incidents\nand reported about twelve companies where earnings data and financial\ninformation were leaked using WhatsApp messages. Recent surveys indicate that\n60% of data breaches are primarily caused by malicious insider threats.\nEspecially, in the case of the defense environment, information leaks by\ninsiders will jeopardize the countrys national security. Sniffing of network\nand host-based activities will not work in an insider threat detection\nenvironment due to end-to-end encryption. Memory forensics allows access to the\nmessages sent or received over an end-to-end encrypted environment but with a\ntotal compromise of the users privacy. In this research, we present a novel\nsolution to detect data leakages by insiders in an organization. Our approach\ncaptures the RAM of the insiders device and analyses it for sensitive\ninformation leaks from a host system while maintaining the users privacy.\nSensitive data leaks are identified with context using a deep learning model.\nThe feasibility and effectiveness of the proposed idea have been demonstrated\nwith the help of a military use case. The proposed architecture can however be\nused across various use cases with minor modifications.",
+    "updated" : "2024-06-13T11:18:49Z",
+    "published" : "2024-06-13T11:18:49Z",
+    "authors" : [
+      {
+        "name" : "Janardhan Kalikiri"
+      },
+      {
+        "name" : "Gaurav Varshney"
+      },
+      {
+        "name" : "Jaswinder Kour"
+      },
+      {
+        "name" : "Tarandeep Singh"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.08918v1",
+    "title" : "Beyond the Calibration Point: Mechanism Comparison in Differential\n  Privacy",
+    "summary" : "In differentially private (DP) machine learning, the privacy guarantees of DP\nmechanisms are often reported and compared on the basis of a single\n$(\\varepsilon, \\delta)$-pair. This practice overlooks that DP guarantees can\nvary substantially \\emph{even between mechanisms sharing a given $(\\varepsilon,\n\\delta)$}, and potentially introduces privacy vulnerabilities which can remain\nundetected. This motivates the need for robust, rigorous methods for comparing\nDP guarantees in such cases. Here, we introduce the $\\Delta$-divergence between\nmechanisms which quantifies the worst-case excess privacy vulnerability of\nchoosing one mechanism over another in terms of $(\\varepsilon, \\delta)$, $f$-DP\nand in terms of a newly presented Bayesian interpretation. Moreover, as a\ngeneralisation of the Blackwell theorem, it is endowed with strong\ndecision-theoretic foundations. Through application examples, we show that our\ntechniques can facilitate informed decision-making and reveal gaps in the\ncurrent understanding of privacy risks, as current practices in DP-SGD often\nresult in choosing mechanisms with high excess privacy vulnerabilities.",
+    "updated" : "2024-06-13T08:30:29Z",
+    "published" : "2024-06-13T08:30:29Z",
+    "authors" : [
+      {
+        "name" : "Georgios Kaissis"
+      },
+      {
+        "name" : "Stefan Kolek"
+      },
+      {
+        "name" : "Borja Balle"
+      },
+      {
+        "name" : "Jamie Hayes"
+      },
+      {
+        "name" : "Daniel Rueckert"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG",
+      "math.ST",
+      "stat.ML",
+      "stat.TH"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.04535v1",
+    "title" : "Tangent differential privacy",
+    "summary" : "Differential privacy is a framework for protecting the identity of individual\ndata points in the decision-making process. In this note, we propose a new form\nof differential privacy called tangent differential privacy. Compared with the\nusual differential privacy that is defined uniformly across data distributions,\ntangent differential privacy is tailored towards a specific data distribution\nof interest. It also allows for general distribution distances such as total\nvariation distance and Wasserstein distance. In the case of risk minimization,\nwe show that entropic regularization guarantees tangent differential privacy\nunder rather general conditions on the risk function.",
+    "updated" : "2024-06-06T22:11:31Z",
+    "published" : "2024-06-06T22:11:31Z",
+    "authors" : [
+      {
+        "name" : "Lexing Ying"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "stat.ML"
+    ]
   }
 ]
