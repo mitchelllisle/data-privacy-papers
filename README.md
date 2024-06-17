@@ -2,6 +2,68 @@
 <h2>2024-06</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2406.09682v1">Privacy-preserving Quantification of Non-IID Degree in Federated
+  Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-06-14T03:08:53Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yuping Yan, Yizhi Wang, Yingchao Yu, Yaochu Jin</p>
+    <p><b>Summary:</b> Federated learning (FL) offers a privacy-preserving approach to machine
+learning for multiple collaborators without sharing raw data. However, the
+existence of non-independent and non-identically distributed (non-IID) datasets
+across different clients presents a significant challenge to FL, leading to a
+sharp drop in accuracy, reduced efficiency, and hindered implementation. To
+address the non-IID problem, various methods have been proposed, including
+clustering and personalized FL frameworks. Nevertheless, to date, a formal
+quantitative definition of the non-IID degree between different clients'
+datasets is still missing, hindering the clients from comparing and obtaining
+an overview of their data distributions with other clients. For the first time,
+this paper proposes a quantitative definition of the non-IID degree in the
+federated environment by employing the cumulative distribution function (CDF),
+called Fully Homomorphic Encryption-based Federated Cumulative Distribution
+Function (FHE-FCDF). This method utilizes cryptographic primitive fully
+homomorphic encryption to enable clients to estimate the non-IID degree while
+ensuring privacy preservation. The experiments conducted on the CIFAR-100
+non-IID dataset validate the effectiveness of our proposed method.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2406.09547v1">FLea: Addressing Data Scarcity and Label Skew in Federated Learning via
+  Privacy-preserving Feature Augmentation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
+  <p><b>Published on:</b> 2024-06-13T19:28:08Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Tong Xia, Abhirup Ghosh, Xinchi Qiu, Cecilia Mascolo</p>
+    <p><b>Summary:</b> Federated Learning (FL) enables model development by leveraging data
+distributed across numerous edge devices without transferring local data to a
+central server. However, existing FL methods still face challenges when dealing
+with scarce and label-skewed data across devices, resulting in local model
+overfitting and drift, consequently hindering the performance of the global
+model. In response to these challenges, we propose a pioneering framework
+called FLea, incorporating the following key components: i) A global feature
+buffer that stores activation-target pairs shared from multiple clients to
+support local training. This design mitigates local model drift caused by the
+absence of certain classes; ii) A feature augmentation approach based on local
+and global activation mix-ups for local training. This strategy enlarges the
+training samples, thereby reducing the risk of local overfitting; iii) An
+obfuscation method to minimize the correlation between intermediate activations
+and the source data, enhancing the privacy of shared features. To verify the
+superiority of FLea, we conduct extensive experiments using a wide range of
+data modalities, simulating different levels of local data scarcity and label
+skew. The results demonstrate that FLea consistently outperforms
+state-of-the-art FL counterparts (among 13 of the experimented 18 settings, the
+improvement is over 5% while concurrently mitigating the privacy
+vulnerabilities associated with shared features. Code is available at
+https://github.com/XTxiatong/FLea.git.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2406.09214v1">Applying Multi-Agent Negotiation to Solve the Production Routing Problem
   With Privacy Preserving</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Multiagent Systems-662E9B">
@@ -2835,60 +2897,6 @@ framework for sensing data content protection with generative AI, and
 simulations results have clearly demonstrated the effectiveness of the proposed
 framework. Finally, we present major research directions for generative
 AI-enabled SPPMCS.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.10096v1">The Effect of Quantization in Federated Learning: A Rényi Differential
-  Privacy Perspective</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
-  <p><b>Published on:</b> 2024-05-16T13:50:46Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Tianqu Kang, Lumin Liu, Hengtao He, Jun Zhang, S. H. Song, Khaled B. Letaief</p>
-    <p><b>Summary:</b> Federated Learning (FL) is an emerging paradigm that holds great promise for
-privacy-preserving machine learning using distributed data. To enhance privacy,
-FL can be combined with Differential Privacy (DP), which involves adding
-Gaussian noise to the model weights. However, FL faces a significant challenge
-in terms of large communication overhead when transmitting these model weights.
-To address this issue, quantization is commonly employed. Nevertheless, the
-presence of quantized Gaussian noise introduces complexities in understanding
-privacy protection. This research paper investigates the impact of quantization
-on privacy in FL systems. We examine the privacy guarantees of quantized
-Gaussian mechanisms using R\'enyi Differential Privacy (RDP). By deriving the
-privacy budget of quantized Gaussian mechanisms, we demonstrate that lower
-quantization bit levels provide improved privacy protection. To validate our
-theoretical findings, we employ Membership Inference Attacks (MIA), which gauge
-the accuracy of privacy leakage. The numerical results align with our
-theoretical analysis, confirming that quantization can indeed enhance privacy
-protection. This study not only enhances our understanding of the correlation
-between privacy and communication in FL but also underscores the advantages of
-quantization in preserving privacy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.10989v1">Learnable Privacy Neurons Localization in Language Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-05-16T08:11:08Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ruizhe Chen, Tianxiang Hu, Yang Feng, Zuozhu Liu</p>
-    <p><b>Summary:</b> Concerns regarding Large Language Models (LLMs) to memorize and disclose
-private information, particularly Personally Identifiable Information (PII),
-become prominent within the community. Many efforts have been made to mitigate
-the privacy risks. However, the mechanism through which LLMs memorize PII
-remains poorly understood. To bridge this gap, we introduce a pioneering method
-for pinpointing PII-sensitive neurons (privacy neurons) within LLMs. Our method
-employs learnable binary weight masks to localize specific neurons that account
-for the memorization of PII in LLMs through adversarial training. Our
-investigations discover that PII is memorized by a small subset of neurons
-across all layers, which shows the property of PII specificity. Furthermore, we
-propose to validate the potential in PII risk mitigation by deactivating the
-localized privacy neurons. Both quantitative and qualitative experiments
-demonstrate the effectiveness of our neuron localization algorithm.</p>
   </details>
 </div>
 
