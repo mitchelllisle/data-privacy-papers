@@ -1244,5 +1244,54 @@
       "cs.CR",
       "stat.ML"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.09682v1",
+    "title" : "Privacy-preserving Quantification of Non-IID Degree in Federated\n  Learning",
+    "summary" : "Federated learning (FL) offers a privacy-preserving approach to machine\nlearning for multiple collaborators without sharing raw data. However, the\nexistence of non-independent and non-identically distributed (non-IID) datasets\nacross different clients presents a significant challenge to FL, leading to a\nsharp drop in accuracy, reduced efficiency, and hindered implementation. To\naddress the non-IID problem, various methods have been proposed, including\nclustering and personalized FL frameworks. Nevertheless, to date, a formal\nquantitative definition of the non-IID degree between different clients'\ndatasets is still missing, hindering the clients from comparing and obtaining\nan overview of their data distributions with other clients. For the first time,\nthis paper proposes a quantitative definition of the non-IID degree in the\nfederated environment by employing the cumulative distribution function (CDF),\ncalled Fully Homomorphic Encryption-based Federated Cumulative Distribution\nFunction (FHE-FCDF). This method utilizes cryptographic primitive fully\nhomomorphic encryption to enable clients to estimate the non-IID degree while\nensuring privacy preservation. The experiments conducted on the CIFAR-100\nnon-IID dataset validate the effectiveness of our proposed method.",
+    "updated" : "2024-06-14T03:08:53Z",
+    "published" : "2024-06-14T03:08:53Z",
+    "authors" : [
+      {
+        "name" : "Yuping Yan"
+      },
+      {
+        "name" : "Yizhi Wang"
+      },
+      {
+        "name" : "Yingchao Yu"
+      },
+      {
+        "name" : "Yaochu Jin"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.09547v1",
+    "title" : "FLea: Addressing Data Scarcity and Label Skew in Federated Learning via\n  Privacy-preserving Feature Augmentation",
+    "summary" : "Federated Learning (FL) enables model development by leveraging data\ndistributed across numerous edge devices without transferring local data to a\ncentral server. However, existing FL methods still face challenges when dealing\nwith scarce and label-skewed data across devices, resulting in local model\noverfitting and drift, consequently hindering the performance of the global\nmodel. In response to these challenges, we propose a pioneering framework\ncalled FLea, incorporating the following key components: i) A global feature\nbuffer that stores activation-target pairs shared from multiple clients to\nsupport local training. This design mitigates local model drift caused by the\nabsence of certain classes; ii) A feature augmentation approach based on local\nand global activation mix-ups for local training. This strategy enlarges the\ntraining samples, thereby reducing the risk of local overfitting; iii) An\nobfuscation method to minimize the correlation between intermediate activations\nand the source data, enhancing the privacy of shared features. To verify the\nsuperiority of FLea, we conduct extensive experiments using a wide range of\ndata modalities, simulating different levels of local data scarcity and label\nskew. The results demonstrate that FLea consistently outperforms\nstate-of-the-art FL counterparts (among 13 of the experimented 18 settings, the\nimprovement is over 5% while concurrently mitigating the privacy\nvulnerabilities associated with shared features. Code is available at\nhttps://github.com/XTxiatong/FLea.git.",
+    "updated" : "2024-06-13T19:28:08Z",
+    "published" : "2024-06-13T19:28:08Z",
+    "authors" : [
+      {
+        "name" : "Tong Xia"
+      },
+      {
+        "name" : "Abhirup Ghosh"
+      },
+      {
+        "name" : "Xinchi Qiu"
+      },
+      {
+        "name" : "Cecilia Mascolo"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.DC"
+    ]
   }
 ]
