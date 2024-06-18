@@ -2,6 +2,262 @@
 <h2>2024-06</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2406.11323v1">Transparency, Privacy, and Fairness in Recommender Systems</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB">
+  <p><b>Published on:</b> 2024-06-17T08:37:14Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Dominik Kowald</p>
+    <p><b>Summary:</b> Recommender systems have become a pervasive part of our daily online
+experience, and are one of the most widely used applications of artificial
+intelligence and machine learning. Therefore, regulations and requirements for
+trustworthy artificial intelligence, for example, the European AI Act, which
+includes notions such as transparency, privacy, and fairness are also highly
+relevant for the design of recommender systems in practice. This habilitation
+elaborates on aspects related to these three notions in the light of
+recommender systems, namely: (i) transparency and cognitive models, (ii)
+privacy and limited preference information, and (iii) fairness and popularity
+bias in recommender systems. Specifically, with respect to aspect (i), we
+highlight the usefulness of incorporating psychological theories for a
+transparent design process of recommender systems. We term this type of systems
+psychology-informed recommender systems. In aspect (ii), we study and address
+the trade-off between accuracy and privacy in differentially-private
+recommendations. We design a novel recommendation approach for collaborative
+filtering based on an efficient neighborhood reuse concept, which reduces the
+number of users that need to be protected with differential privacy.
+Furthermore, we address the related issue of limited availability of user
+preference information, e.g., click data, in the settings of session-based and
+cold-start recommendations. With respect to aspect (iii), we analyze popularity
+bias in recommender systems. We find that the recommendation frequency of an
+item is positively correlated with this item's popularity. This also leads to
+the unfair treatment of users with little interest in popular content. Finally,
+we study long-term fairness dynamics in algorithmic decision support in the
+labor market using agent-based modeling techniques.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2406.11208v1">Privacy-preserving Pseudonym Schemes for Personalized 3D Avatars in
+  Mobile Social Metaverses</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
+  <p><b>Published on:</b> 2024-06-17T04:58:09Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Cheng Su, Xiaofeng Luo, Zhenmou Liu, Jiawen Kang, Min Hao, Zehui Xiong, Zhaohui Yang, Chongwen Huang</p>
+    <p><b>Summary:</b> The emergence of mobile social metaverses, a novel paradigm bridging physical
+and virtual realms, has led to the widespread adoption of avatars as digital
+representations for Social Metaverse Users (SMUs) within virtual spaces.
+Equipped with immersive devices, SMUs leverage Edge Servers (ESs) to deploy
+their avatars and engage with other SMUs in virtual spaces. To enhance
+immersion, SMUs incline to opt for 3D avatars for social interactions. However,
+existing 3D avatars are typically generated through scanning the real faces of
+SMUs, which can raise concerns regarding information privacy and security, such
+as profile identity leakages. To tackle this, we introduce a new framework for
+personalized 3D avatar construction, leveraging a two-layer network model that
+provides SMUs with the option to customize their personal avatars for privacy
+preservation. Specifically, our approach introduces avatar pseudonyms to
+jointly safeguard the profile and digital identity privacy of the generated
+avatars. Then, we design a novel metric named Privacy of Personalized Avatars
+(PoPA), to evaluate effectiveness of the avatar pseudonyms. To optimize
+pseudonym resource, we model the pseudonym distribution process as a
+Stackelberg game and employ Deep Reinforcement Learning (DRL) to learn
+equilibrium strategies under incomplete information. Simulation results
+validate the efficacy and feasibility of our proposed schemes for mobile social
+metaverses.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2406.11149v1">GoldCoin: Grounding Large Language Models in Privacy Laws via Contextual
+  Integrity Theory</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-06-17T02:27:32Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Wei Fan, Haoran Li, Zheye Deng, Weiqi Wang, Yangqiu Song</p>
+    <p><b>Summary:</b> Privacy issues arise prominently during the inappropriate transmission of
+information between entities. Existing research primarily studies privacy by
+exploring various privacy attacks, defenses, and evaluations within narrowly
+predefined patterns, while neglecting that privacy is not an isolated,
+context-free concept limited to traditionally sensitive data (e.g., social
+security numbers), but intertwined with intricate social contexts that
+complicate the identification and analysis of potential privacy violations. The
+advent of Large Language Models (LLMs) offers unprecedented opportunities for
+incorporating the nuanced scenarios outlined in privacy laws to tackle these
+complex privacy issues. However, the scarcity of open-source relevant case
+studies restricts the efficiency of LLMs in aligning with specific legal
+statutes. To address this challenge, we introduce a novel framework, GoldCoin,
+designed to efficiently ground LLMs in privacy laws for judicial assessing
+privacy violations. Our framework leverages the theory of contextual integrity
+as a bridge, creating numerous synthetic scenarios grounded in relevant privacy
+statutes (e.g., HIPAA), to assist LLMs in comprehending the complex contexts
+for identifying privacy risks in the real world. Extensive experimental results
+demonstrate that GoldCoin markedly enhances LLMs' capabilities in recognizing
+privacy risks across real court cases, surpassing the baselines on different
+judicial tasks.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2406.11087v1">MemDPT: Differential Privacy for Memory Efficient Language Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-06-16T22:11:41Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yanming Liu, Xinyue Peng, Jiannan Cao, Yuwei Zhang, Chen Ma, Songhang Deng, Mengchen Fu, Xuhong Zhang, Sheng Cheng, Xun Wang, Jianwei Yin, Tianyu Du</p>
+    <p><b>Summary:</b> Large language models have consistently demonstrated remarkable performance
+across a wide spectrum of applications. Nonetheless, the deployment of these
+models can inadvertently expose user privacy to potential risks. The
+substantial memory demands of these models during training represent a
+significant resource consumption challenge. The sheer size of these models
+imposes a considerable burden on memory resources, which is a matter of
+significant concern in practice. In this paper, we present an innovative
+training framework MemDPT that not only reduces the memory cost of large
+language models but also places a strong emphasis on safeguarding user data
+privacy. MemDPT provides edge network and reverse network designs to
+accommodate various differential privacy memory-efficient fine-tuning schemes.
+Our approach not only achieves $2 \sim 3 \times$ memory optimization but also
+provides robust privacy protection, ensuring that user data remains secure and
+confidential. Extensive experiments have demonstrated that MemDPT can
+effectively provide differential privacy efficient fine-tuning across various
+task scenarios.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2406.10976v1">Promoting Data and Model Privacy in Federated Learning through Quantized
+  LoRA</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-06-16T15:23:07Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> JianHao Zhu, Changze Lv, Xiaohua Wang, Muling Wu, Wenhao Liu, Tianlong Li, Zixuan Ling, Cenyuan Zhang, Xiaoqing Zheng, Xuanjing Huang</p>
+    <p><b>Summary:</b> Conventional federated learning primarily aims to secure the privacy of data
+distributed across multiple edge devices, with the global model dispatched to
+edge devices for parameter updates during the learning process. However, the
+development of large language models (LLMs) requires substantial data and
+computational resources, rendering them valuable intellectual properties for
+their developers and owners. To establish a mechanism that protects both data
+and model privacy in a federated learning context, we introduce a method that
+just needs to distribute a quantized version of the model's parameters during
+training. This method enables accurate gradient estimations for parameter
+updates while preventing clients from accessing a model whose performance is
+comparable to the centrally hosted one. Moreover, we combine this quantization
+strategy with LoRA, a popular and parameter-efficient fine-tuning method, to
+significantly reduce communication costs in federated learning. The proposed
+framework, named \textsc{FedLPP}, successfully ensures both data and model
+privacy in the federated learning context. Additionally, the learned central
+model exhibits good generalization and can be trained in a resource-efficient
+manner.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2406.10884v1">Linkage on Security, Privacy and Fairness in Federated Learning: New
+  Balances and New Perspectives</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
+  <p><b>Published on:</b> 2024-06-16T10:31:45Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Linlin Wang, Tianqing Zhu, Wanlei Zhou, Philip S. Yu</p>
+    <p><b>Summary:</b> Federated learning is fast becoming a popular paradigm for applications
+involving mobile devices, banking systems, healthcare, and IoT systems. Hence,
+over the past five years, researchers have undertaken extensive studies on the
+privacy leaks, security threats, and fairness associated with these emerging
+models. For the most part, these three critical concepts have been studied in
+isolation; however, recent research has revealed that there may be an intricate
+interplay between them. For instance, some researchers have discovered that
+pursuing fairness may compromise privacy, or that efforts to enhance security
+can impact fairness. These emerging insights shed light on the fundamental
+connections between privacy, security, and fairness within federated learning,
+and, by delving deeper into these interconnections, we may be able to
+significantly augment research and development across the field. Consequently,
+the aim of this survey is to offer comprehensive descriptions of the privacy,
+security, and fairness issues in federated learning. Moreover, we analyze the
+complex relationships between these three dimensions of cyber safety and
+pinpoint the fundamental elements that influence each of them. We contend that
+there exists a trade-off between privacy and fairness and between security and
+gradient sharing. On this basis, fairness can function as a bridge between
+privacy and security to build models that are either more secure or more
+private. Building upon our observations, we identify the trade-offs between
+privacy and fairness and between security and fairness within the context of
+federated learning. The survey then concludes with promising directions for
+future research in this vanguard field.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2406.10803v1">HiddenTables & PyQTax: A Cooperative Game and Dataset For TableQA to
+  Ensure Scale and Data Privacy Across a Myriad of Taxonomies</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB">
+  <p><b>Published on:</b> 2024-06-16T04:53:29Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> William Watson, Nicole Cho, Tucker Balch, Manuela Veloso</p>
+    <p><b>Summary:</b> A myriad of different Large Language Models (LLMs) face a common challenge in
+contextually analyzing table question-answering tasks. These challenges are
+engendered from (1) finite context windows for large tables, (2) multi-faceted
+discrepancies amongst tokenization patterns against cell boundaries, and (3)
+various limitations stemming from data confidentiality in the process of using
+external models such as gpt-3.5-turbo. We propose a cooperative game dubbed
+"HiddenTables" as a potential resolution to this challenge. In essence,
+"HiddenTables" is played between the code-generating LLM "Solver" and the
+"Oracle" which evaluates the ability of the LLM agents to solve Table QA tasks.
+This game is based on natural language schemas and importantly, ensures the
+security of the underlying data. We provide evidential experiments on a diverse
+set of tables that demonstrate an LLM's collective inability to generalize and
+perform on complex queries, handle compositional dependencies, and align
+natural language to programmatic commands when concrete table schemas are
+provided. Unlike encoder-based models, we have pushed the boundaries of
+"HiddenTables" to not be limited by the number of rows - therefore we exhibit
+improved efficiency in prompt and completion tokens. Our infrastructure has
+spawned a new dataset "PyQTax" that spans across 116,671 question-table-answer
+triplets and provides additional fine-grained breakdowns & labels for varying
+question taxonomies. Therefore, in tandem with our academic contributions
+regarding LLMs' deficiency in TableQA tasks, "HiddenTables" is a tactile
+manifestation of how LLMs can interact with massive datasets while ensuring
+data security and minimizing generation costs.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2406.10563v1">Privacy-Preserving Heterogeneous Federated Learning for Sensitive
+  Healthcare Data</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-06-15T08:43:40Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yukai Xu, Jingfeng Zhang, Yujie Gu</p>
+    <p><b>Summary:</b> In the realm of healthcare where decentralized facilities are prevalent,
+machine learning faces two major challenges concerning the protection of data
+and models. The data-level challenge concerns the data privacy leakage when
+centralizing data with sensitive personal information. While the model-level
+challenge arises from the heterogeneity of local models, which need to be
+collaboratively trained while ensuring their confidentiality to address
+intellectual property concerns. To tackle these challenges, we propose a new
+framework termed Abstention-Aware Federated Voting (AAFV) that can
+collaboratively and confidentially train heterogeneous local models while
+simultaneously protecting the data privacy. This is achieved by integrating a
+novel abstention-aware voting mechanism and a differential privacy mechanism
+onto local models' predictions. In particular, the proposed abstention-aware
+voting mechanism exploits a threshold-based abstention method to select
+high-confidence votes from heterogeneous local models, which not only enhances
+the learning utility but also protects model confidentiality. Furthermore, we
+implement AAFV on two practical prediction tasks of diabetes and in-hospital
+patient mortality. The experiments demonstrate the effectiveness and
+confidentiality of AAFV in testing accuracy and privacy protection.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2406.09682v1">Privacy-preserving Quantification of Non-IID Degree in Federated
   Learning</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
@@ -203,6 +459,28 @@ agent. Concerning the characteristics of each risk, this survey provides
 potential threats and countermeasures. The research on attack and defense
 situations LLMs face can provide feasible research directions, making more
 areas reap LLMs' benefits.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2406.10280v1">Transferable Embedding Inversion Attack: Uncovering Privacy Risks in
+  Text Embeddings without Model Queries</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-06-12T05:09:58Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yu-Hsiang Huang, Yuche Tsai, Hsiang Hsiao, Hong-Yi Lin, Shou-De Lin</p>
+    <p><b>Summary:</b> This study investigates the privacy risks associated with text embeddings,
+focusing on the scenario where attackers cannot access the original embedding
+model. Contrary to previous research requiring direct model access, we explore
+a more realistic threat model by developing a transfer attack method. This
+approach uses a surrogate model to mimic the victim model's behavior, allowing
+the attacker to infer sensitive information from text embeddings without direct
+access. Our experiments across various embedding models and a clinical dataset
+demonstrate that our transfer attack significantly outperforms traditional
+methods, revealing the potential privacy vulnerabilities in embedding
+technologies and emphasizing the need for enhanced security measures.</p>
   </details>
 </div>
 
@@ -2632,271 +2910,6 @@ item-level setting, but is possible in the user-level setting when $T \gtrsim s
 \log (d)$, up to logarithmic factors. This may be of independent interest for
 applications as an example of a high-dimensional problem that is feasible under
 local privacy constraints.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.11713v1">Decentralized Privacy Preservation for Critical Connections in Graphs</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B">
-  <p><b>Published on:</b> 2024-05-20T01:22:21Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Conggai Li, Wei Ni, Ming Ding, Youyang Qu, Jianjun Chen, David Smith, Wenjie Zhang, Thierry Rakotoarivelo</p>
-    <p><b>Summary:</b> Many real-world interconnections among entities can be characterized as
-graphs. Collecting local graph information with balanced privacy and data
-utility has garnered notable interest recently. This paper delves into the
-problem of identifying and protecting critical information of entity
-connections for individual participants in a graph based on cohesive subgraph
-searches. This problem has not been addressed in the literature. To address the
-problem, we propose to extract the critical connections of a queried vertex
-using a fortress-like cohesive subgraph model known as $p$-cohesion. A user's
-connections within a fortress are obfuscated when being released, to protect
-critical information about the user. Novel merit and penalty score functions
-are designed to measure each participant's critical connections in the minimal
-$p$-cohesion, facilitating effective identification of the connections. We
-further propose to preserve the privacy of a vertex enquired by only protecting
-its critical connections when responding to queries raised by data collectors.
-We prove that, under the decentralized differential privacy (DDP) mechanism,
-one's response satisfies $(\varepsilon, \delta)$-DDP when its critical
-connections are protected while the rest remains unperturbed. The effectiveness
-of our proposed method is demonstrated through extensive experiments on
-real-life graph datasets.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.11712v1">Trust, Because You Can't Verify:Privacy and Security Hurdles in
-  Education Technology Acquisition Practices</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2024-05-20T01:15:57Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Easton Kelso, Ananta Soneji, Sazzadur Rahaman, Yan Soshitaishvili, Rakibul Hasan</p>
-    <p><b>Summary:</b> The education technology (EdTech) landscape is expanding rapidly in higher
-education institutes (HEIs). This growth brings enormous complexity. Protecting
-the extensive data collected by these tools is crucial for HEIs. Privacy
-incidents of data breaches and misuses can have dire security and privacy
-consequences on the data subjects, particularly students, who are often
-compelled to use these tools. This urges an in-depth understanding of HEI and
-EdTech vendor dynamics, which is largely understudied.
-  To address this gap, we conduct a semi-structured interview study with 13
-participants who are in the EdTech leadership roles at seven HEIs. Our study
-uncovers the EdTech acquisition process in the HEI context, the consideration
-of security and privacy issues throughout that process, the pain points of HEI
-personnel in establishing adequate security and privacy protection mechanisms
-in service contracts, and their struggle in holding vendors accountable due to
-a lack of visibility into their system and power-asymmetry, among other
-reasons. We discuss certain observations about the status quo and conclude with
-recommendations to improve the situation.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.11580v1">Securing Health Data on the Blockchain: A Differential Privacy and
-  Federated Learning Framework</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-05-19T15:15:18Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Daniel Commey, Sena Hounsinou, Garth V. Crosby</p>
-    <p><b>Summary:</b> This study proposes a framework to enhance privacy in Blockchain-based
-Internet of Things (BIoT) systems used in the healthcare sector. The framework
-addresses the challenge of leveraging health data for analytics while
-protecting patient privacy. To achieve this, the study integrates Differential
-Privacy (DP) with Federated Learning (FL) to protect sensitive health data
-collected by IoT nodes. The proposed framework utilizes dynamic personalization
-and adaptive noise distribution strategies to balance privacy and data utility.
-Additionally, blockchain technology ensures secure and transparent aggregation
-and storage of model updates. Experimental results on the SVHN dataset
-demonstrate that the proposed framework achieves strong privacy guarantees
-against various attack scenarios while maintaining high accuracy in health
-analytics tasks. For 15 rounds of federated learning with an epsilon value of
-8.0, the model obtains an accuracy of 64.50%. The blockchain integration,
-utilizing Ethereum, Ganache, Web3.py, and IPFS, exhibits an average transaction
-latency of around 6 seconds and consistent gas consumption across rounds,
-validating the practicality and feasibility of the proposed approach.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.11419v1">Sketches-based join size estimation under local differential privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-05-19T01:21:54Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Meifan Zhang, Xin Liu, Lihua Yin</p>
-    <p><b>Summary:</b> Join size estimation on sensitive data poses a risk of privacy leakage. Local
-differential privacy (LDP) is a solution to preserve privacy while collecting
-sensitive data, but it introduces significant noise when dealing with sensitive
-join attributes that have large domains. Employing probabilistic structures
-such as sketches is a way to handle large domains, but it leads to
-hash-collision errors. To achieve accurate estimations, it is necessary to
-reduce both the noise error and hash-collision error. To tackle the noise error
-caused by protecting sensitive join values with large domains, we introduce a
-novel algorithm called LDPJoinSketch for sketch-based join size estimation
-under LDP. Additionally, to address the inherent hash-collision errors in
-sketches under LDP, we propose an enhanced method called LDPJoinSketch+. It
-utilizes a frequency-aware perturbation mechanism that effectively separates
-high-frequency and low-frequency items without compromising privacy. The
-proposed methods satisfy LDP, and the estimation error is bounded. Experimental
-results show that our method outperforms existing methods, effectively
-enhancing the accuracy of join size estimation under LDP.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.11341v1">A Secure and Privacy-Friendly Logging Scheme</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
-  <p><b>Published on:</b> 2024-05-18T17:10:48Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Andreas Aßmuth, Robert Duncan, Simon Liebl, Matthias Söllner</p>
-    <p><b>Summary:</b> Finding a robust security mechanism for audit trail logging has long been a
-poorly satisfied goal. There are many reasons for this. The most significant of
-these is that the audit trail is a highly sought after goal of attackers to
-ensure that they do not get caught. Thus they have an incredibly strong
-incentive to prevent companies from succeeding in this worthy aim. Regulation,
-such as the European Union General Data Protection Regulation, has brought a
-strong incentive for companies to achieve success in this area due to the
-punitive level of fines that can now be levied in the event of a successful
-breach by an attacker. We seek to resolve this issue through the use of an
-encrypted audit trail process that saves encrypted records to a true immutable
-database, which can ensure audit trail records are permanently retained in
-encrypted form, with no possibility of the records being compromised. This
-ensures compliance with the General Data Protection Regulation can be achieved.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.10904v1">Broadening Privacy and Surveillance: Eliciting Interconnected Values
-  with a Scenarios Workbook on Smart Home Cameras</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2024-05-17T16:50:49Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Richmond Y. Wong, Jason Caleb Valdez, Ashten Alexander, Ariel Chiang, Olivia Quesada, James Pierce</p>
-    <p><b>Summary:</b> We use a design workbook of speculative scenarios as a values elicitation
-activity with 14 participants. The workbook depicts use case scenarios with
-smart home camera technologies that involve surveillance and uneven power
-relations. The scenarios were initially designed by the researchers to explore
-scenarios of privacy and surveillance within three social relationships
-involving "primary" and "non-primary" users: Parents-Children,
-Landlords-Tenants, and Residents-Domestic Workers. When the scenarios were
-utilized as part of a values elicitation activity with participants, we found
-that they reflected on a broader set of interconnected social values beyond
-privacy and surveillance, including autonomy and agency, physical safety,
-property rights, trust and accountability, and fairness. The paper suggests
-that future research about ethical issues in smart homes should conceptualize
-privacy as interconnected with a broader set of social values (which can align
-or be in tension with privacy), and reflects on considerations for doing
-research with non-primary users.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.10870v1">Multicenter Privacy-Preserving Model Training for Deep Learning Brain
-  Metastases Autosegmentation</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2024-05-17T16:01:11Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yixing Huang, Zahra Khodabakhshi, Ahmed Gomaa, Manuel Schmidt, Rainer Fietkau, Matthias Guckenberger, Nicolaus Andratschke, Christoph Bert, Stephanie Tanadini-Lang, Florian Putz</p>
-    <p><b>Summary:</b> Objectives: This work aims to explore the impact of multicenter data
-heterogeneity on deep learning brain metastases (BM) autosegmentation
-performance, and assess the efficacy of an incremental transfer learning
-technique, namely learning without forgetting (LWF), to improve model
-generalizability without sharing raw data.
-  Materials and methods: A total of six BM datasets from University Hospital
-Erlangen (UKER), University Hospital Zurich (USZ), Stanford, UCSF, NYU and
-BraTS Challenge 2023 on BM segmentation were used for this evaluation. First,
-the multicenter performance of a convolutional neural network (DeepMedic) for
-BM autosegmentation was established for exclusive single-center training and
-for training on pooled data, respectively. Subsequently bilateral collaboration
-was evaluated, where a UKER pretrained model is shared to another center for
-further training using transfer learning (TL) either with or without LWF.
-  Results: For single-center training, average F1 scores of BM detection range
-from 0.625 (NYU) to 0.876 (UKER) on respective single-center test data. Mixed
-multicenter training notably improves F1 scores at Stanford and NYU, with
-negligible improvement at other centers. When the UKER pretrained model is
-applied to USZ, LWF achieves a higher average F1 score (0.839) than naive TL
-(0.570) and single-center training (0.688) on combined UKER and USZ test data.
-Naive TL improves sensitivity and contouring accuracy, but compromises
-precision. Conversely, LWF demonstrates commendable sensitivity, precision and
-contouring accuracy. When applied to Stanford, similar performance was
-observed.
-  Conclusion: Data heterogeneity results in varying performance in BM
-autosegmentation, posing challenges to model generalizability. LWF is a
-promising approach to peer-to-peer privacy-preserving model training.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.10868v1">Air Signing and Privacy-Preserving Signature Verification for Digital
-  Documents</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2024-05-17T16:00:10Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> P. Sarveswarasarma, T. Sathulakjan, V. J. V. Godfrey, Thanuja D. Ambegoda</p>
-    <p><b>Summary:</b> This paper presents a novel approach to the digital signing of electronic
-documents through the use of a camera-based interaction system, single-finger
-tracking for sign recognition, and multi commands executing hand gestures. The
-proposed solution, referred to as "Air Signature," involves writing the
-signature in front of the camera, rather than relying on traditional methods
-such as mouse drawing or physically signing on paper and showing it to a web
-camera. The goal is to develop a state-of-the-art method for detecting and
-tracking gestures and objects in real-time. The proposed methods include
-applying existing gesture recognition and object tracking systems, improving
-accuracy through smoothing and line drawing, and maintaining continuity during
-fast finger movements. An evaluation of the fingertip detection, sketching, and
-overall signing process is performed to assess the effectiveness of the
-proposed solution. The secondary objective of this research is to develop a
-model that can effectively recognize the unique signature of a user. This type
-of signature can be verified by neural cores that analyze the movement, speed,
-and stroke pixels of the signing in real time. The neural cores use machine
-learning algorithms to match air signatures to the individual's stored
-signatures, providing a secure and efficient method of verification. Our
-proposed System does not require sensors or any hardware other than the camera.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.10521v1">Generative AI for Secure and Privacy-Preserving Mobile Crowdsensing</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-05-17T04:00:58Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yaoqi Yang, Bangning Zhang, Daoxing Guo, Hongyang Du, Zehui Xiong, Dusit Niyato, Zhu Han</p>
-    <p><b>Summary:</b> Recently, generative AI has attracted much attention from both academic and
-industrial fields, which has shown its potential, especially in the data
-generation and synthesis aspects. Simultaneously, secure and privacy-preserving
-mobile crowdsensing (SPPMCS) has been widely applied in data collection/
-acquirement due to an advantage on low deployment cost, flexible
-implementation, and high adaptability. Since generative AI can generate new
-synthetic data to replace the original data to be analyzed and processed, it
-can lower data attacks and privacy leakage risks for the original data.
-Therefore, integrating generative AI into SPPMCS is feasible and significant.
-Moreover, this paper investigates an integration of generative AI in SPPMCS,
-where we present potential research focuses, solutions, and case studies.
-Specifically, we firstly review the preliminaries for generative AI and SPPMCS,
-where their integration potential is presented. Then, we discuss research
-issues and solutions for generative AI-enabled SPPMCS, including security
-defense of malicious data injection, illegal authorization, malicious spectrum
-manipulation at the physical layer, and privacy protection on sensing data
-content, sensing terminals' identification and location. Next, we propose a
-framework for sensing data content protection with generative AI, and
-simulations results have clearly demonstrated the effectiveness of the proposed
-framework. Finally, we present major research directions for generative
-AI-enabled SPPMCS.</p>
   </details>
 </div>
 
