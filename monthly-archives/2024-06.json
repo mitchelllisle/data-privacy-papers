@@ -1293,5 +1293,283 @@
       "cs.LG",
       "cs.DC"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.11323v1",
+    "title" : "Transparency, Privacy, and Fairness in Recommender Systems",
+    "summary" : "Recommender systems have become a pervasive part of our daily online\nexperience, and are one of the most widely used applications of artificial\nintelligence and machine learning. Therefore, regulations and requirements for\ntrustworthy artificial intelligence, for example, the European AI Act, which\nincludes notions such as transparency, privacy, and fairness are also highly\nrelevant for the design of recommender systems in practice. This habilitation\nelaborates on aspects related to these three notions in the light of\nrecommender systems, namely: (i) transparency and cognitive models, (ii)\nprivacy and limited preference information, and (iii) fairness and popularity\nbias in recommender systems. Specifically, with respect to aspect (i), we\nhighlight the usefulness of incorporating psychological theories for a\ntransparent design process of recommender systems. We term this type of systems\npsychology-informed recommender systems. In aspect (ii), we study and address\nthe trade-off between accuracy and privacy in differentially-private\nrecommendations. We design a novel recommendation approach for collaborative\nfiltering based on an efficient neighborhood reuse concept, which reduces the\nnumber of users that need to be protected with differential privacy.\nFurthermore, we address the related issue of limited availability of user\npreference information, e.g., click data, in the settings of session-based and\ncold-start recommendations. With respect to aspect (iii), we analyze popularity\nbias in recommender systems. We find that the recommendation frequency of an\nitem is positively correlated with this item's popularity. This also leads to\nthe unfair treatment of users with little interest in popular content. Finally,\nwe study long-term fairness dynamics in algorithmic decision support in the\nlabor market using agent-based modeling techniques.",
+    "updated" : "2024-06-17T08:37:14Z",
+    "published" : "2024-06-17T08:37:14Z",
+    "authors" : [
+      {
+        "name" : "Dominik Kowald"
+      }
+    ],
+    "categories" : [
+      "cs.IR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.11208v1",
+    "title" : "Privacy-preserving Pseudonym Schemes for Personalized 3D Avatars in\n  Mobile Social Metaverses",
+    "summary" : "The emergence of mobile social metaverses, a novel paradigm bridging physical\nand virtual realms, has led to the widespread adoption of avatars as digital\nrepresentations for Social Metaverse Users (SMUs) within virtual spaces.\nEquipped with immersive devices, SMUs leverage Edge Servers (ESs) to deploy\ntheir avatars and engage with other SMUs in virtual spaces. To enhance\nimmersion, SMUs incline to opt for 3D avatars for social interactions. However,\nexisting 3D avatars are typically generated through scanning the real faces of\nSMUs, which can raise concerns regarding information privacy and security, such\nas profile identity leakages. To tackle this, we introduce a new framework for\npersonalized 3D avatar construction, leveraging a two-layer network model that\nprovides SMUs with the option to customize their personal avatars for privacy\npreservation. Specifically, our approach introduces avatar pseudonyms to\njointly safeguard the profile and digital identity privacy of the generated\navatars. Then, we design a novel metric named Privacy of Personalized Avatars\n(PoPA), to evaluate effectiveness of the avatar pseudonyms. To optimize\npseudonym resource, we model the pseudonym distribution process as a\nStackelberg game and employ Deep Reinforcement Learning (DRL) to learn\nequilibrium strategies under incomplete information. Simulation results\nvalidate the efficacy and feasibility of our proposed schemes for mobile social\nmetaverses.",
+    "updated" : "2024-06-17T04:58:09Z",
+    "published" : "2024-06-17T04:58:09Z",
+    "authors" : [
+      {
+        "name" : "Cheng Su"
+      },
+      {
+        "name" : "Xiaofeng Luo"
+      },
+      {
+        "name" : "Zhenmou Liu"
+      },
+      {
+        "name" : "Jiawen Kang"
+      },
+      {
+        "name" : "Min Hao"
+      },
+      {
+        "name" : "Zehui Xiong"
+      },
+      {
+        "name" : "Zhaohui Yang"
+      },
+      {
+        "name" : "Chongwen Huang"
+      }
+    ],
+    "categories" : [
+      "cs.NI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.11149v1",
+    "title" : "GoldCoin: Grounding Large Language Models in Privacy Laws via Contextual\n  Integrity Theory",
+    "summary" : "Privacy issues arise prominently during the inappropriate transmission of\ninformation between entities. Existing research primarily studies privacy by\nexploring various privacy attacks, defenses, and evaluations within narrowly\npredefined patterns, while neglecting that privacy is not an isolated,\ncontext-free concept limited to traditionally sensitive data (e.g., social\nsecurity numbers), but intertwined with intricate social contexts that\ncomplicate the identification and analysis of potential privacy violations. The\nadvent of Large Language Models (LLMs) offers unprecedented opportunities for\nincorporating the nuanced scenarios outlined in privacy laws to tackle these\ncomplex privacy issues. However, the scarcity of open-source relevant case\nstudies restricts the efficiency of LLMs in aligning with specific legal\nstatutes. To address this challenge, we introduce a novel framework, GoldCoin,\ndesigned to efficiently ground LLMs in privacy laws for judicial assessing\nprivacy violations. Our framework leverages the theory of contextual integrity\nas a bridge, creating numerous synthetic scenarios grounded in relevant privacy\nstatutes (e.g., HIPAA), to assist LLMs in comprehending the complex contexts\nfor identifying privacy risks in the real world. Extensive experimental results\ndemonstrate that GoldCoin markedly enhances LLMs' capabilities in recognizing\nprivacy risks across real court cases, surpassing the baselines on different\njudicial tasks.",
+    "updated" : "2024-06-17T02:27:32Z",
+    "published" : "2024-06-17T02:27:32Z",
+    "authors" : [
+      {
+        "name" : "Wei Fan"
+      },
+      {
+        "name" : "Haoran Li"
+      },
+      {
+        "name" : "Zheye Deng"
+      },
+      {
+        "name" : "Weiqi Wang"
+      },
+      {
+        "name" : "Yangqiu Song"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.11087v1",
+    "title" : "MemDPT: Differential Privacy for Memory Efficient Language Models",
+    "summary" : "Large language models have consistently demonstrated remarkable performance\nacross a wide spectrum of applications. Nonetheless, the deployment of these\nmodels can inadvertently expose user privacy to potential risks. The\nsubstantial memory demands of these models during training represent a\nsignificant resource consumption challenge. The sheer size of these models\nimposes a considerable burden on memory resources, which is a matter of\nsignificant concern in practice. In this paper, we present an innovative\ntraining framework MemDPT that not only reduces the memory cost of large\nlanguage models but also places a strong emphasis on safeguarding user data\nprivacy. MemDPT provides edge network and reverse network designs to\naccommodate various differential privacy memory-efficient fine-tuning schemes.\nOur approach not only achieves $2 \\sim 3 \\times$ memory optimization but also\nprovides robust privacy protection, ensuring that user data remains secure and\nconfidential. Extensive experiments have demonstrated that MemDPT can\neffectively provide differential privacy efficient fine-tuning across various\ntask scenarios.",
+    "updated" : "2024-06-16T22:11:41Z",
+    "published" : "2024-06-16T22:11:41Z",
+    "authors" : [
+      {
+        "name" : "Yanming Liu"
+      },
+      {
+        "name" : "Xinyue Peng"
+      },
+      {
+        "name" : "Jiannan Cao"
+      },
+      {
+        "name" : "Yuwei Zhang"
+      },
+      {
+        "name" : "Chen Ma"
+      },
+      {
+        "name" : "Songhang Deng"
+      },
+      {
+        "name" : "Mengchen Fu"
+      },
+      {
+        "name" : "Xuhong Zhang"
+      },
+      {
+        "name" : "Sheng Cheng"
+      },
+      {
+        "name" : "Xun Wang"
+      },
+      {
+        "name" : "Jianwei Yin"
+      },
+      {
+        "name" : "Tianyu Du"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.CL",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.10976v1",
+    "title" : "Promoting Data and Model Privacy in Federated Learning through Quantized\n  LoRA",
+    "summary" : "Conventional federated learning primarily aims to secure the privacy of data\ndistributed across multiple edge devices, with the global model dispatched to\nedge devices for parameter updates during the learning process. However, the\ndevelopment of large language models (LLMs) requires substantial data and\ncomputational resources, rendering them valuable intellectual properties for\ntheir developers and owners. To establish a mechanism that protects both data\nand model privacy in a federated learning context, we introduce a method that\njust needs to distribute a quantized version of the model's parameters during\ntraining. This method enables accurate gradient estimations for parameter\nupdates while preventing clients from accessing a model whose performance is\ncomparable to the centrally hosted one. Moreover, we combine this quantization\nstrategy with LoRA, a popular and parameter-efficient fine-tuning method, to\nsignificantly reduce communication costs in federated learning. The proposed\nframework, named \\textsc{FedLPP}, successfully ensures both data and model\nprivacy in the federated learning context. Additionally, the learned central\nmodel exhibits good generalization and can be trained in a resource-efficient\nmanner.",
+    "updated" : "2024-06-16T15:23:07Z",
+    "published" : "2024-06-16T15:23:07Z",
+    "authors" : [
+      {
+        "name" : "JianHao Zhu"
+      },
+      {
+        "name" : "Changze Lv"
+      },
+      {
+        "name" : "Xiaohua Wang"
+      },
+      {
+        "name" : "Muling Wu"
+      },
+      {
+        "name" : "Wenhao Liu"
+      },
+      {
+        "name" : "Tianlong Li"
+      },
+      {
+        "name" : "Zixuan Ling"
+      },
+      {
+        "name" : "Cenyuan Zhang"
+      },
+      {
+        "name" : "Xiaoqing Zheng"
+      },
+      {
+        "name" : "Xuanjing Huang"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CL",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.10884v1",
+    "title" : "Linkage on Security, Privacy and Fairness in Federated Learning: New\n  Balances and New Perspectives",
+    "summary" : "Federated learning is fast becoming a popular paradigm for applications\ninvolving mobile devices, banking systems, healthcare, and IoT systems. Hence,\nover the past five years, researchers have undertaken extensive studies on the\nprivacy leaks, security threats, and fairness associated with these emerging\nmodels. For the most part, these three critical concepts have been studied in\nisolation; however, recent research has revealed that there may be an intricate\ninterplay between them. For instance, some researchers have discovered that\npursuing fairness may compromise privacy, or that efforts to enhance security\ncan impact fairness. These emerging insights shed light on the fundamental\nconnections between privacy, security, and fairness within federated learning,\nand, by delving deeper into these interconnections, we may be able to\nsignificantly augment research and development across the field. Consequently,\nthe aim of this survey is to offer comprehensive descriptions of the privacy,\nsecurity, and fairness issues in federated learning. Moreover, we analyze the\ncomplex relationships between these three dimensions of cyber safety and\npinpoint the fundamental elements that influence each of them. We contend that\nthere exists a trade-off between privacy and fairness and between security and\ngradient sharing. On this basis, fairness can function as a bridge between\nprivacy and security to build models that are either more secure or more\nprivate. Building upon our observations, we identify the trade-offs between\nprivacy and fairness and between security and fairness within the context of\nfederated learning. The survey then concludes with promising directions for\nfuture research in this vanguard field.",
+    "updated" : "2024-06-16T10:31:45Z",
+    "published" : "2024-06-16T10:31:45Z",
+    "authors" : [
+      {
+        "name" : "Linlin Wang"
+      },
+      {
+        "name" : "Tianqing Zhu"
+      },
+      {
+        "name" : "Wanlei Zhou"
+      },
+      {
+        "name" : "Philip S. Yu"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.10803v1",
+    "title" : "HiddenTables & PyQTax: A Cooperative Game and Dataset For TableQA to\n  Ensure Scale and Data Privacy Across a Myriad of Taxonomies",
+    "summary" : "A myriad of different Large Language Models (LLMs) face a common challenge in\ncontextually analyzing table question-answering tasks. These challenges are\nengendered from (1) finite context windows for large tables, (2) multi-faceted\ndiscrepancies amongst tokenization patterns against cell boundaries, and (3)\nvarious limitations stemming from data confidentiality in the process of using\nexternal models such as gpt-3.5-turbo. We propose a cooperative game dubbed\n\"HiddenTables\" as a potential resolution to this challenge. In essence,\n\"HiddenTables\" is played between the code-generating LLM \"Solver\" and the\n\"Oracle\" which evaluates the ability of the LLM agents to solve Table QA tasks.\nThis game is based on natural language schemas and importantly, ensures the\nsecurity of the underlying data. We provide evidential experiments on a diverse\nset of tables that demonstrate an LLM's collective inability to generalize and\nperform on complex queries, handle compositional dependencies, and align\nnatural language to programmatic commands when concrete table schemas are\nprovided. Unlike encoder-based models, we have pushed the boundaries of\n\"HiddenTables\" to not be limited by the number of rows - therefore we exhibit\nimproved efficiency in prompt and completion tokens. Our infrastructure has\nspawned a new dataset \"PyQTax\" that spans across 116,671 question-table-answer\ntriplets and provides additional fine-grained breakdowns & labels for varying\nquestion taxonomies. Therefore, in tandem with our academic contributions\nregarding LLMs' deficiency in TableQA tasks, \"HiddenTables\" is a tactile\nmanifestation of how LLMs can interact with massive datasets while ensuring\ndata security and minimizing generation costs.",
+    "updated" : "2024-06-16T04:53:29Z",
+    "published" : "2024-06-16T04:53:29Z",
+    "authors" : [
+      {
+        "name" : "William Watson"
+      },
+      {
+        "name" : "Nicole Cho"
+      },
+      {
+        "name" : "Tucker Balch"
+      },
+      {
+        "name" : "Manuela Veloso"
+      }
+    ],
+    "categories" : [
+      "cs.AI",
+      "cs.CL",
+      "cs.IR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.10563v1",
+    "title" : "Privacy-Preserving Heterogeneous Federated Learning for Sensitive\n  Healthcare Data",
+    "summary" : "In the realm of healthcare where decentralized facilities are prevalent,\nmachine learning faces two major challenges concerning the protection of data\nand models. The data-level challenge concerns the data privacy leakage when\ncentralizing data with sensitive personal information. While the model-level\nchallenge arises from the heterogeneity of local models, which need to be\ncollaboratively trained while ensuring their confidentiality to address\nintellectual property concerns. To tackle these challenges, we propose a new\nframework termed Abstention-Aware Federated Voting (AAFV) that can\ncollaboratively and confidentially train heterogeneous local models while\nsimultaneously protecting the data privacy. This is achieved by integrating a\nnovel abstention-aware voting mechanism and a differential privacy mechanism\nonto local models' predictions. In particular, the proposed abstention-aware\nvoting mechanism exploits a threshold-based abstention method to select\nhigh-confidence votes from heterogeneous local models, which not only enhances\nthe learning utility but also protects model confidentiality. Furthermore, we\nimplement AAFV on two practical prediction tasks of diabetes and in-hospital\npatient mortality. The experiments demonstrate the effectiveness and\nconfidentiality of AAFV in testing accuracy and privacy protection.",
+    "updated" : "2024-06-15T08:43:40Z",
+    "published" : "2024-06-15T08:43:40Z",
+    "authors" : [
+      {
+        "name" : "Yukai Xu"
+      },
+      {
+        "name" : "Jingfeng Zhang"
+      },
+      {
+        "name" : "Yujie Gu"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.10280v1",
+    "title" : "Transferable Embedding Inversion Attack: Uncovering Privacy Risks in\n  Text Embeddings without Model Queries",
+    "summary" : "This study investigates the privacy risks associated with text embeddings,\nfocusing on the scenario where attackers cannot access the original embedding\nmodel. Contrary to previous research requiring direct model access, we explore\na more realistic threat model by developing a transfer attack method. This\napproach uses a surrogate model to mimic the victim model's behavior, allowing\nthe attacker to infer sensitive information from text embeddings without direct\naccess. Our experiments across various embedding models and a clinical dataset\ndemonstrate that our transfer attack significantly outperforms traditional\nmethods, revealing the potential privacy vulnerabilities in embedding\ntechnologies and emphasizing the need for enhanced security measures.",
+    "updated" : "2024-06-12T05:09:58Z",
+    "published" : "2024-06-12T05:09:58Z",
+    "authors" : [
+      {
+        "name" : "Yu-Hsiang Huang"
+      },
+      {
+        "name" : "Yuche Tsai"
+      },
+      {
+        "name" : "Hsiang Hsiao"
+      },
+      {
+        "name" : "Hong-Yi Lin"
+      },
+      {
+        "name" : "Shou-De Lin"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CL",
+      "cs.LG"
+    ]
   }
 ]
