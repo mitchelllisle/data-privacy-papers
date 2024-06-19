@@ -1571,5 +1571,290 @@
       "cs.CL",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.12815v1",
+    "title" : "Privacy Preserving Federated Learning in Medical Imaging with\n  Uncertainty Estimation",
+    "summary" : "Machine learning (ML) and Artificial Intelligence (AI) have fueled remarkable\nadvancements, particularly in healthcare. Within medical imaging, ML models\nhold the promise of improving disease diagnoses, treatment planning, and\npost-treatment monitoring. Various computer vision tasks like image\nclassification, object detection, and image segmentation are poised to become\nroutine in clinical analysis. However, privacy concerns surrounding patient\ndata hinder the assembly of large training datasets needed for developing and\ntraining accurate, robust, and generalizable models. Federated Learning (FL)\nemerges as a compelling solution, enabling organizations to collaborate on ML\nmodel training by sharing model training information (gradients) rather than\ndata (e.g., medical images). FL's distributed learning framework facilitates\ninter-institutional collaboration while preserving patient privacy. However,\nFL, while robust in privacy preservation, faces several challenges. Sensitive\ninformation can still be gleaned from shared gradients that are passed on\nbetween organizations during model training. Additionally, in medical imaging,\nquantifying model confidence\\uncertainty accurately is crucial due to the noise\nand artifacts present in the data. Uncertainty estimation in FL encounters\nunique hurdles due to data heterogeneity across organizations. This paper\noffers a comprehensive review of FL, privacy preservation, and uncertainty\nestimation, with a focus on medical imaging. Alongside a survey of current\nresearch, we identify gaps in the field and suggest future directions for FL\nresearch to enhance privacy and address noisy medical imaging data challenges.",
+    "updated" : "2024-06-18T17:35:52Z",
+    "published" : "2024-06-18T17:35:52Z",
+    "authors" : [
+      {
+        "name" : "Nikolas Koutsoubis"
+      },
+      {
+        "name" : "Yasin Yilmaz"
+      },
+      {
+        "name" : "Ravi P. Ramachandran"
+      },
+      {
+        "name" : "Matthew Schabath"
+      },
+      {
+        "name" : "Ghulam Rasool"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.DC",
+      "eess.IV",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.12736v1",
+    "title" : "Beyond Visual Appearances: Privacy-sensitive Objects Identification via\n  Hybrid Graph Reasoning",
+    "summary" : "The Privacy-sensitive Object Identification (POI) task allocates bounding\nboxes for privacy-sensitive objects in a scene. The key to POI is settling an\nobject's privacy class (privacy-sensitive or non-privacy-sensitive). In\ncontrast to conventional object classes which are determined by the visual\nappearance of an object, one object's privacy class is derived from the scene\ncontexts and is subject to various implicit factors beyond its visual\nappearance. That is, visually similar objects may be totally opposite in their\nprivacy classes. To explicitly derive the objects' privacy class from the scene\ncontexts, in this paper, we interpret the POI task as a visual reasoning task\naimed at the privacy of each object in the scene. Following this\ninterpretation, we propose the PrivacyGuard framework for POI. PrivacyGuard\ncontains three stages. i) Structuring: an unstructured image is first converted\ninto a structured, heterogeneous scene graph that embeds rich scene contexts.\nii) Data Augmentation: a contextual perturbation oversampling strategy is\nproposed to create slightly perturbed privacy-sensitive objects in a scene\ngraph, thereby balancing the skewed distribution of privacy classes. iii)\nHybrid Graph Generation & Reasoning: the balanced, heterogeneous scene graph is\nthen transformed into a hybrid graph by endowing it with extra \"node-node\" and\n\"edge-edge\" homogeneous paths. These homogeneous paths allow direct message\npassing between nodes or edges, thereby accelerating reasoning and facilitating\nthe capturing of subtle context changes. Based on this hybrid graph... **For\nthe full abstract, see the original paper.**",
+    "updated" : "2024-06-18T15:58:22Z",
+    "published" : "2024-06-18T15:58:22Z",
+    "authors" : [
+      {
+        "name" : "Zhuohang Jiang"
+      },
+      {
+        "name" : "Bingkui Tong"
+      },
+      {
+        "name" : "Xia Du"
+      },
+      {
+        "name" : "Ahmed Alhammadi"
+      },
+      {
+        "name" : "Jizhe Zhou"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.12592v1",
+    "title" : "Unmasking the Veil: An Investigation into Concept Ablation for Privacy\n  and Copyright Protection in Images",
+    "summary" : "In this paper, we extend the study of concept ablation within pre-trained\nmodels as introduced in 'Ablating Concepts in Text-to-Image Diffusion Models'\nby (Kumari et al.,2022). Our work focuses on reproducing the results achieved\nby the different variants of concept ablation proposed and validated through\npredefined metrics. We also introduce a novel variant of concept ablation,\nnamely 'trademark ablation'. This variant combines the principles of\nmemorization and instance ablation to tackle the nuanced influence of\nproprietary or branded elements in model outputs. Further, our research\ncontributions include an observational analysis of the model's limitations.\nMoreover, we investigate the model's behavior in response to ablation\nleakage-inducing prompts, which aim to indirectly ablate concepts, revealing\ninsights into the model's resilience and adaptability. We also observe the\nmodel's performance degradation on images generated by concepts far from its\ntarget ablation concept, documented in the appendix.",
+    "updated" : "2024-06-18T13:22:29Z",
+    "published" : "2024-06-18T13:22:29Z",
+    "authors" : [
+      {
+        "name" : "Shivank Garg"
+      },
+      {
+        "name" : "Manyana Tiwari"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.12457v1",
+    "title" : "Data Trade and Consumer Privacy",
+    "summary" : "This paper studies optimal mechanisms for collecting and trading data.\nConsumers benefit from revealing information about their tastes to a service\nprovider because this improves the service. However, the information is also\nvaluable to a third party as it may extract more revenue from the consumer in\nanother market called the product market. The paper characterizes the\nconstrained optimal mechanism for the service provider subject to incentive\nfeasibility. It is shown that the service provider sometimes sells no\ninformation or only partial information in order to preserve profits in the\nservice market. In a general setup, the service provision distortion and\nno-price discrimination in the product market are exclusive. Moreover, a ban on\ndata trade may reduce social welfare because it makes it harder to price\ndiscriminate in the product market.",
+    "updated" : "2024-06-18T10:00:44Z",
+    "published" : "2024-06-18T10:00:44Z",
+    "authors" : [
+      {
+        "name" : "Jiadong Gu"
+      }
+    ],
+    "categories" : [
+      "econ.TH"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.12403v1",
+    "title" : "PDSS: A Privacy-Preserving Framework for Step-by-Step Distillation of\n  Large Language Models",
+    "summary" : "In the context of real-world applications, leveraging large language models\n(LLMs) for domain-specific tasks often faces two major challenges:\ndomain-specific knowledge privacy and constrained resources. To address these\nissues, we propose PDSS, a privacy-preserving framework for step-by-step\ndistillation of LLMs. PDSS works on a server-client architecture, wherein\nclient transmits perturbed prompts to the server's LLM for rationale\ngeneration. The generated rationales are then decoded by the client and used to\nenrich the training of task-specific small language model(SLM) within a\nmulti-task learning paradigm. PDSS introduces two privacy protection\nstrategies: the Exponential Mechanism Strategy and the Encoder-Decoder\nStrategy, balancing prompt privacy and rationale usability. Experiments\ndemonstrate the effectiveness of PDSS in various text generation tasks,\nenabling the training of task-specific SLM with enhanced performance while\nprioritizing data privacy protection.",
+    "updated" : "2024-06-18T08:48:14Z",
+    "published" : "2024-06-18T08:48:14Z",
+    "authors" : [
+      {
+        "name" : "Tao Fan"
+      },
+      {
+        "name" : "Yan Kang"
+      },
+      {
+        "name" : "Weijing Chen"
+      },
+      {
+        "name" : "Hanlin Gu"
+      },
+      {
+        "name" : "Yuanfeng Song"
+      },
+      {
+        "name" : "Lixin Fan"
+      },
+      {
+        "name" : "Kai Chen"
+      },
+      {
+        "name" : "Qiang Yang"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.12330v1",
+    "title" : "Security and Privacy of 6G Federated Learning-enabled Dynamic Spectrum\n  Sharing",
+    "summary" : "Spectrum sharing is increasingly vital in 6G wireless communication,\nfacilitating dynamic access to unused spectrum holes. Recently, there has been\na significant shift towards employing machine learning (ML) techniques for\nsensing spectrum holes. In this context, federated learning (FL)-enabled\nspectrum sensing technology has garnered wide attention, allowing for the\nconstruction of an aggregated ML model without disclosing the private spectrum\nsensing information of wireless user devices. However, the integrity of\ncollaborative training and the privacy of spectrum information from local users\nhave remained largely unexplored. This article first examines the latest\ndevelopments in FL-enabled spectrum sharing for prospective 6G scenarios. It\nthen identifies practical attack vectors in 6G to illustrate potential\nAI-powered security and privacy threats in these contexts. Finally, the study\noutlines future directions, including practical defense challenges and\nguidelines.",
+    "updated" : "2024-06-18T06:54:15Z",
+    "published" : "2024-06-18T06:54:15Z",
+    "authors" : [
+      {
+        "name" : "Viet Vo"
+      },
+      {
+        "name" : "Thusitha Dayaratne"
+      },
+      {
+        "name" : "Blake Haydon"
+      },
+      {
+        "name" : "Xingliang Yuan"
+      },
+      {
+        "name" : "Shangqi Lai"
+      },
+      {
+        "name" : "Sharif Abuadbba"
+      },
+      {
+        "name" : "Hajime Suzuki"
+      },
+      {
+        "name" : "Carsten Rudolph"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DC",
+      "cs.ET",
+      "cs.LG",
+      "cs.NI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.12238v1",
+    "title" : "PFID: Privacy First Inference Delegation Framework for LLMs",
+    "summary" : "This paper introduces a novel privacy-preservation framework named PFID for\nLLMs that addresses critical privacy concerns by localizing user data through\nmodel sharding and singular value decomposition. When users are interacting\nwith LLM systems, their prompts could be subject to being exposed to\neavesdroppers within or outside LLM system providers who are interested in\ncollecting users' input. In this work, we proposed a framework to camouflage\nuser input, so as to alleviate privacy issues. Our framework proposes to place\nmodel shards on the client and the public server, we sent compressed hidden\nstates instead of prompts to and from servers. Clients have held back\ninformation that can re-privatized the hidden states so that overall system\nperformance is comparable to traditional LLMs services. Our framework was\ndesigned to be communication efficient, computation can be delegated to the\nlocal client so that the server's computation burden can be lightened. We\nconduct extensive experiments on machine translation tasks to verify our\nframework's performance.",
+    "updated" : "2024-06-18T03:27:09Z",
+    "published" : "2024-06-18T03:27:09Z",
+    "authors" : [
+      {
+        "name" : "Haoyan Yang"
+      },
+      {
+        "name" : "Zhitao Li"
+      },
+      {
+        "name" : "Yong Zhang"
+      },
+      {
+        "name" : "Jianzong Wang"
+      },
+      {
+        "name" : "Ning Cheng"
+      },
+      {
+        "name" : "Ming Li"
+      },
+      {
+        "name" : "Jing Xiao"
+      }
+    ],
+    "categories" : [
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.12103v1",
+    "title" : "Centering Policy and Practice: Research Gaps around Usable Differential\n  Privacy",
+    "summary" : "As a mathematically rigorous framework that has amassed a rich theoretical\nliterature, differential privacy is considered by many experts to be the gold\nstandard for privacy-preserving data analysis. Others argue that while\ndifferential privacy is a clean formulation in theory, it poses significant\nchallenges in practice. Both perspectives are, in our view, valid and\nimportant. To bridge the gaps between differential privacy's promises and its\nreal-world usability, researchers and practitioners must work together to\nadvance policy and practice of this technology. In this paper, we outline\npressing open questions towards building usable differential privacy and offer\nrecommendations for the field, such as developing risk frameworks to align with\nuser needs, tailoring communications for different stakeholders, modeling the\nimpact of privacy-loss parameters, investing in effective user interfaces, and\nfacilitating algorithmic and procedural audits of differential privacy systems.",
+    "updated" : "2024-06-17T21:32:30Z",
+    "published" : "2024-06-17T21:32:30Z",
+    "authors" : [
+      {
+        "name" : "Rachel Cummings"
+      },
+      {
+        "name" : "Jayshree Sarathy"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CY",
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.12003v1",
+    "title" : "P3GNN: A Privacy-Preserving Provenance Graph-Based Model for APT\n  Detection in Software Defined Networking",
+    "summary" : "Software Defined Networking (SDN) has brought significant advancements in\nnetwork management and programmability. However, this evolution has also\nheightened vulnerability to Advanced Persistent Threats (APTs), sophisticated\nand stealthy cyberattacks that traditional detection methods often fail to\ncounter, especially in the face of zero-day exploits. A prevalent issue is the\ninadequacy of existing strategies to detect novel threats while addressing data\nprivacy concerns in collaborative learning scenarios. This paper presents P3GNN\n(privacy-preserving provenance graph-based graph neural network model), a novel\nmodel that synergizes Federated Learning (FL) with Graph Convolutional Networks\n(GCN) for effective APT detection in SDN environments. P3GNN utilizes\nunsupervised learning to analyze operational patterns within provenance graphs,\nidentifying deviations indicative of security breaches. Its core feature is the\nintegration of FL with homomorphic encryption, which fortifies data\nconfidentiality and gradient integrity during collaborative learning. This\napproach addresses the critical challenge of data privacy in shared learning\ncontexts. Key innovations of P3GNN include its ability to detect anomalies at\nthe node level within provenance graphs, offering a detailed view of attack\ntrajectories and enhancing security analysis. Furthermore, the models\nunsupervised learning capability enables it to identify zero-day attacks by\nlearning standard operational patterns. Empirical evaluation using the DARPA\nTCE3 dataset demonstrates P3GNNs exceptional performance, achieving an accuracy\nof 0.93 and a low false positive rate of 0.06.",
+    "updated" : "2024-06-17T18:14:03Z",
+    "published" : "2024-06-17T18:14:03Z",
+    "authors" : [
+      {
+        "name" : "Hedyeh Nazari"
+      },
+      {
+        "name" : "Abbas Yazdinejad"
+      },
+      {
+        "name" : "Ali Dehghantanha"
+      },
+      {
+        "name" : "Fattane Zarrinkalam"
+      },
+      {
+        "name" : "Gautam Srivastava"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.07973v2",
+    "title" : "Unique Security and Privacy Threats of Large Language Model: A\n  Comprehensive Survey",
+    "summary" : "With the rapid development of artificial intelligence, large language models\n(LLMs) have made remarkable advancements in natural language processing. These\nmodels are trained on vast datasets to exhibit powerful language understanding\nand generation capabilities across various applications, including machine\ntranslation, chatbots, and agents. However, LLMs have revealed a variety of\nprivacy and security issues throughout their life cycle, drawing significant\nacademic and industrial attention. Moreover, the risks faced by LLMs differ\nsignificantly from those encountered by traditional language models. Given that\ncurrent surveys lack a clear taxonomy of unique threat models across diverse\nscenarios, we emphasize the unique privacy and security threats associated with\nfive specific scenarios: pre-training, fine-tuning, retrieval-augmented\ngeneration systems, deployment, and LLM-based agents. Addressing the\ncharacteristics of each risk, this survey outlines potential threats and\ncountermeasures. Research on attack and defense situations can offer feasible\nresearch directions, enabling more areas to benefit from LLMs.",
+    "updated" : "2024-06-18T05:37:06Z",
+    "published" : "2024-06-12T07:55:32Z",
+    "authors" : [
+      {
+        "name" : "Shang Wang"
+      },
+      {
+        "name" : "Tianqing Zhu"
+      },
+      {
+        "name" : "Bo Liu"
+      },
+      {
+        "name" : "Ming Ding"
+      },
+      {
+        "name" : "Xu Guo"
+      },
+      {
+        "name" : "Dayong Ye"
+      },
+      {
+        "name" : "Wanlei Zhou"
+      },
+      {
+        "name" : "Philip S. Yu"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
