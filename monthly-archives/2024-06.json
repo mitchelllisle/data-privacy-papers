@@ -1856,5 +1856,260 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.14322v1",
+    "title" : "Mind the Privacy Unit! User-Level Differential Privacy for Language\n  Model Fine-Tuning",
+    "summary" : "Large language models (LLMs) have emerged as powerful tools for tackling\ncomplex tasks across diverse domains, but they also raise privacy concerns when\nfine-tuned on sensitive data due to potential memorization. While differential\nprivacy (DP) offers a promising solution by ensuring models are `almost\nindistinguishable' with or without any particular privacy unit, current\nevaluations on LLMs mostly treat each example (text record) as the privacy\nunit. This leads to uneven user privacy guarantees when contributions per user\nvary. We therefore study user-level DP motivated by applications where it\nnecessary to ensure uniform privacy protection across users. We present a\nsystematic evaluation of user-level DP for LLM fine-tuning on natural language\ngeneration tasks. Focusing on two mechanisms for achieving user-level DP\nguarantees, Group Privacy and User-wise DP-SGD, we investigate design choices\nlike data selection strategies and parameter tuning for the best\nprivacy-utility tradeoff.",
+    "updated" : "2024-06-20T13:54:32Z",
+    "published" : "2024-06-20T13:54:32Z",
+    "authors" : [
+      {
+        "name" : "Lynn Chua"
+      },
+      {
+        "name" : "Badih Ghazi"
+      },
+      {
+        "name" : "Yangsibo Huang"
+      },
+      {
+        "name" : "Pritish Kamath"
+      },
+      {
+        "name" : "Daogao Liu"
+      },
+      {
+        "name" : "Pasin Manurangsi"
+      },
+      {
+        "name" : "Amer Sinha"
+      },
+      {
+        "name" : "Chiyuan Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.14318v1",
+    "title" : "The Fire Thief Is Also the Keeper: Balancing Usability and Privacy in\n  Prompts",
+    "summary" : "The rapid adoption of online chatbots represents a significant advancement in\nartificial intelligence. However, this convenience brings considerable privacy\nconcerns, as prompts can inadvertently contain sensitive information exposed to\nlarge language models (LLMs). Limited by high computational costs, reduced task\nusability, and excessive system modifications, previous works based on local\ndeployment, embedding perturbation, and homomorphic encryption are inapplicable\nto online prompt-based LLM applications.\n  To address these issues, this paper introduces Prompt Privacy Sanitizer\n(i.e., ProSan), an end-to-end prompt privacy protection framework that can\nproduce anonymized prompts with contextual privacy removed while maintaining\ntask usability and human readability. It can also be seamlessly integrated into\nthe online LLM service pipeline. To achieve high usability and dynamic\nanonymity, ProSan flexibly adjusts its protection targets and strength based on\nthe importance of the words and the privacy leakage risk of the prompts.\nAdditionally, ProSan is capable of adapting to diverse computational resource\nconditions, ensuring privacy protection even for mobile devices with limited\ncomputing power. Our experiments demonstrate that ProSan effectively removes\nprivate information across various tasks, including question answering, text\nsummarization, and code generation, with minimal reduction in task performance.",
+    "updated" : "2024-06-20T13:52:25Z",
+    "published" : "2024-06-20T13:52:25Z",
+    "authors" : [
+      {
+        "name" : "Zhili Shen"
+      },
+      {
+        "name" : "Zihang Xi"
+      },
+      {
+        "name" : "Ying He"
+      },
+      {
+        "name" : "Wei Tong"
+      },
+      {
+        "name" : "Jingyu Hua"
+      },
+      {
+        "name" : "Sheng Zhong"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.14091v1",
+    "title" : "Protecting Privacy Through Approximating Optimal Parameters for Sequence\n  Unlearning in Language Models",
+    "summary" : "Although language models (LMs) demonstrate exceptional capabilities on\nvarious tasks, they are potentially vulnerable to extraction attacks, which\nrepresent a significant privacy risk. To mitigate the privacy concerns of LMs,\nmachine unlearning has emerged as an important research area, which is utilized\nto induce the LM to selectively forget about some of its training data. While\ncompletely retraining the model will guarantee successful unlearning and\nprivacy assurance, it is impractical for LMs, as it would be time-consuming and\nresource-intensive. Prior works efficiently unlearn the target token sequences,\nbut upon subsequent iterations, the LM displays significant degradation in\nperformance. In this work, we propose Privacy Protection via Optimal Parameters\n(POP), a novel unlearning method that effectively forgets the target token\nsequences from the pretrained LM by applying optimal gradient updates to the\nparameters. Inspired by the gradient derivation of complete retraining, we\napproximate the optimal training objective that successfully unlearns the\ntarget sequence while retaining the knowledge from the rest of the training\ndata. Experimental results demonstrate that POP exhibits remarkable retention\nperformance post-unlearning across 9 classification and 4 dialogue benchmarks,\noutperforming the state-of-the-art by a large margin. Furthermore, we introduce\nRemnant Memorization Accuracy that quantifies privacy risks based on token\nlikelihood and validate its effectiveness through both qualitative and\nquantitative analyses.",
+    "updated" : "2024-06-20T08:12:49Z",
+    "published" : "2024-06-20T08:12:49Z",
+    "authors" : [
+      {
+        "name" : "Dohyun Lee"
+      },
+      {
+        "name" : "Daniel Rim"
+      },
+      {
+        "name" : "Minseok Choi"
+      },
+      {
+        "name" : "Jaegul Choo"
+      }
+    ],
+    "categories" : [
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.13880v1",
+    "title" : "Privacy-Preserving ECG Data Analysis with Differential Privacy: A\n  Literature Review and A Case Study",
+    "summary" : "Differential privacy has become the preeminent technique to protect the\nprivacy of individuals in a database while allowing useful results from data\nanalysis to be shared. Notably, it guarantees the amount of privacy loss in the\nworst-case scenario. Although many theoretical research papers have been\npublished, practical real-life application of differential privacy demands\nestimating several important parameters without any clear solutions or\nguidelines. In the first part of the paper, we provide an overview of key\nconcepts in differential privacy, followed by a literature review and\ndiscussion of its application to ECG analysis. In the second part of the paper,\nwe explore how to implement differentially private query release on an\narrhythmia database using a six-step process. We provide guidelines and discuss\nthe related literature for all the steps involved, such as selection of the\n$\\epsilon$ value, distribution of the total $\\epsilon$ budget across the\nqueries, and estimation of the sensitivity for the query functions. At the end,\nwe discuss the shortcomings and challenges of applying differential privacy to\nECG datasets.",
+    "updated" : "2024-06-19T23:17:16Z",
+    "published" : "2024-06-19T23:17:16Z",
+    "authors" : [
+      {
+        "name" : "Arin Ghazarian"
+      },
+      {
+        "name" : "Jianwei Zheng"
+      },
+      {
+        "name" : "Cyril Rakovski"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.13433v1",
+    "title" : "Certificates of Differential Privacy and Unlearning for Gradient-Based\n  Training",
+    "summary" : "Proper data stewardship requires that model owners protect the privacy of\nindividuals' data used during training. Whether through anonymization with\ndifferential privacy or the use of unlearning in non-anonymized settings, the\ngold-standard techniques for providing privacy guarantees can come with\nsignificant performance penalties or be too weak to provide practical\nassurances. In part, this is due to the fact that the guarantee provided by\ndifferential privacy represents the worst-case privacy leakage for any\nindividual, while the true privacy leakage of releasing the prediction for a\ngiven individual might be substantially smaller or even, as we show,\nnon-existent. This work provides a novel framework based on convex relaxations\nand bounds propagation that can compute formal guarantees (certificates) that\nreleasing specific predictions satisfies $\\epsilon=0$ privacy guarantees or do\nnot depend on data that is subject to an unlearning request. Our framework\noffers a new verification-centric approach to privacy and unlearning\nguarantees, that can be used to further engender user trust with tighter\nprivacy guarantees, provide formal proofs of robustness to certain membership\ninference attacks, identify potentially vulnerable records, and enhance current\nunlearning approaches. We validate the effectiveness of our approach on tasks\nfrom financial services, medical imaging, and natural language processing.",
+    "updated" : "2024-06-19T10:47:00Z",
+    "published" : "2024-06-19T10:47:00Z",
+    "authors" : [
+      {
+        "name" : "Matthew Wicker"
+      },
+      {
+        "name" : "Philip Sosnin"
+      },
+      {
+        "name" : "Adrianna Janik"
+      },
+      {
+        "name" : "Mark N. Müller"
+      },
+      {
+        "name" : "Adrian Weller"
+      },
+      {
+        "name" : "Calvin Tsay"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.13221v1",
+    "title" : "Privacy-Preserving Logistic Regression Training on Large Datasets",
+    "summary" : "Privacy-preserving machine learning is one class of cryptographic methods\nthat aim to analyze private and sensitive data while keeping privacy, such as\nhomomorphic logistic regression training over large encrypted data. In this\npaper, we propose an efficient algorithm for logistic regression training on\nlarge encrypted data using Homomorphic Encryption (HE), which is the mini-batch\nversion of recent methods using a faster gradient variant called\n$\\texttt{quadratic gradient}$. It is claimed that $\\texttt{quadratic gradient}$\ncan integrate curve information (Hessian matrix) into the gradient and\ntherefore can effectively accelerate the first-order gradient (descent)\nalgorithms. We also implement the full-batch version of their method when the\nencrypted dataset is so large that it has to be encrypted in the mini-batch\nmanner. We compare our mini-batch algorithm with our full-batch implementation\nmethod on real financial data consisting of 422,108 samples with 200 freatures.\n%Our experiments show that Nesterov's accelerated gradient (NAG) Given the\ninefficiency of HEs, our results are inspiring and demonstrate that the\nlogistic regression training on large encrypted dataset is of practical\nfeasibility, marking a significant milestone in our understanding.",
+    "updated" : "2024-06-19T05:19:20Z",
+    "published" : "2024-06-19T05:19:20Z",
+    "authors" : [
+      {
+        "name" : "John Chiang"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.13183v1",
+    "title" : "Communication-Efficient and Privacy-Preserving Decentralized\n  Meta-Learning",
+    "summary" : "Distributed learning, which does not require gathering training data in a\ncentral location, has become increasingly important in the big-data era. In\nparticular, random-walk-based decentralized algorithms are flexible in that\nthey do not need a central server trusted by all clients and do not require all\nclients to be active in all iterations. However, existing distributed learning\nalgorithms assume that all learning clients share the same task. In this paper,\nwe consider the more difficult meta-learning setting, in which different\nclients perform different (but related) tasks with limited training data. To\nreduce communication cost and allow better privacy protection, we propose\nLoDMeta (Local Decentralized Meta-learning) with the use of local auxiliary\noptimization parameters and random perturbations on the model parameter.\nTheoretical results are provided on both convergence and privacy analysis.\nEmpirical results on a number of few-shot learning data sets demonstrate that\nLoDMeta has similar meta-learning accuracy as centralized meta-learning\nalgorithms, but does not require gathering data from each client and is able to\nbetter protect data privacy for each client.",
+    "updated" : "2024-06-19T03:29:51Z",
+    "published" : "2024-06-19T03:29:51Z",
+    "authors" : [
+      {
+        "name" : "Hansi Yang"
+      },
+      {
+        "name" : "James T. Kwok"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.13012v1",
+    "title" : "Data Plagiarism Index: Characterizing the Privacy Risk of Data-Copying\n  in Tabular Generative Models",
+    "summary" : "The promise of tabular generative models is to produce realistic synthetic\ndata that can be shared and safely used without dangerous leakage of\ninformation from the training set. In evaluating these models, a variety of\nmethods have been proposed to measure the tendency to copy data from the\ntraining dataset when generating a sample. However, these methods suffer from\neither not considering data-copying from a privacy threat perspective, not\nbeing motivated by recent results in the data-copying literature or being\ndifficult to make compatible with the high dimensional, mixed type nature of\ntabular data. This paper proposes a new similarity metric and Membership\nInference Attack called Data Plagiarism Index (DPI) for tabular data. We show\nthat DPI evaluates a new intuitive definition of data-copying and characterizes\nthe corresponding privacy risk. We show that the data-copying identified by DPI\nposes both privacy and fairness threats to common, high performing\narchitectures; underscoring the necessity for more sophisticated generative\nmodeling techniques to mitigate this issue.",
+    "updated" : "2024-06-18T19:05:24Z",
+    "published" : "2024-06-18T19:05:24Z",
+    "authors" : [
+      {
+        "name" : "Joshua Ward"
+      },
+      {
+        "name" : "Chi-Hua Wang"
+      },
+      {
+        "name" : "Guang Cheng"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.11087v2",
+    "title" : "MemDPT: Differential Privacy for Memory Efficient Language Models",
+    "summary" : "Large language models have consistently demonstrated remarkable performance\nacross a wide spectrum of applications. Nonetheless, the deployment of these\nmodels can inadvertently expose user privacy to potential risks. The\nsubstantial memory demands of these models during training represent a\nsignificant resource consumption challenge. The sheer size of these models\nimposes a considerable burden on memory resources, which is a matter of\nsignificant concern in practice. In this paper, we present an innovative\ntraining framework MemDPT that not only reduces the memory cost of large\nlanguage models but also places a strong emphasis on safeguarding user data\nprivacy. MemDPT provides edge network and reverse network designs to\naccommodate various differential privacy memory-efficient fine-tuning schemes.\nOur approach not only achieves $2 \\sim 3 \\times$ memory optimization but also\nprovides robust privacy protection, ensuring that user data remains secure and\nconfidential. Extensive experiments have demonstrated that MemDPT can\neffectively provide differential privacy efficient fine-tuning across various\ntask scenarios.",
+    "updated" : "2024-06-20T05:43:50Z",
+    "published" : "2024-06-16T22:11:41Z",
+    "authors" : [
+      {
+        "name" : "Yanming Liu"
+      },
+      {
+        "name" : "Xinyue Peng"
+      },
+      {
+        "name" : "Jiannan Cao"
+      },
+      {
+        "name" : "Yuwei Zhang"
+      },
+      {
+        "name" : "Chen Ma"
+      },
+      {
+        "name" : "Songhang Deng"
+      },
+      {
+        "name" : "Mengchen Fu"
+      },
+      {
+        "name" : "Xuhong Zhang"
+      },
+      {
+        "name" : "Sheng Cheng"
+      },
+      {
+        "name" : "Xun Wang"
+      },
+      {
+        "name" : "Jianwei Yin"
+      },
+      {
+        "name" : "Tianyu Du"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.CL",
+      "cs.LG"
+    ]
   }
 ]
