@@ -2967,5 +2967,26 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2405.16895v2",
+    "title" : "Anonymization Prompt Learning for Facial Privacy-Preserving\n  Text-to-Image Generation",
+    "summary" : "Text-to-image diffusion models, such as Stable Diffusion, generate highly\nrealistic images from text descriptions. However, the generation of certain\ncontent at such high quality raises concerns. A prominent issue is the accurate\ndepiction of identifiable facial images, which could lead to malicious deepfake\ngeneration and privacy violations. In this paper, we propose Anonymization\nPrompt Learning (APL) to address this problem. Specifically, we train a\nlearnable prompt prefix for text-to-image diffusion models, which forces the\nmodel to generate anonymized facial identities, even when prompted to produce\nimages of specific individuals. Extensive quantitative and qualitative\nexperiments demonstrate the successful anonymization performance of APL, which\nanonymizes any specific individuals without compromising the quality of\nnon-identity-specific image generation. Furthermore, we reveal the\nplug-and-play property of the learned prompt prefix, enabling its effective\napplication across different pretrained text-to-image models for transferrable\nprivacy and security protection against the risks of deepfakes.",
+    "updated" : "2024-06-20T03:45:23Z",
+    "published" : "2024-05-27T07:38:26Z",
+    "authors" : [
+      {
+        "name" : "Liang Shi"
+      },
+      {
+        "name" : "Jie Zhang"
+      },
+      {
+        "name" : "Shiguang Shan"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
   }
 ]
