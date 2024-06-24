@@ -2111,5 +2111,239 @@
       "cs.CL",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.15346v1",
+    "title" : "Privacy Preserved Blood Glucose Level Cross-Prediction: An Asynchronous\n  Decentralized Federated Learning Approach",
+    "summary" : "Newly diagnosed Type 1 Diabetes (T1D) patients often struggle to obtain\neffective Blood Glucose (BG) prediction models due to the lack of sufficient BG\ndata from Continuous Glucose Monitoring (CGM), presenting a significant \"cold\nstart\" problem in patient care. Utilizing population models to address this\nchallenge is a potential solution, but collecting patient data for training\npopulation models in a privacy-conscious manner is challenging, especially\ngiven that such data is often stored on personal devices. Considering the\nprivacy protection and addressing the \"cold start\" problem in diabetes care, we\npropose \"GluADFL\", blood Glucose prediction by Asynchronous Decentralized\nFederated Learning. We compared GluADFL with eight baseline methods using four\ndistinct T1D datasets, comprising 298 participants, which demonstrated its\nsuperior performance in accurately predicting BG levels for cross-patient\nanalysis. Furthermore, patients' data might be stored and shared across various\ncommunication networks in GluADFL, ranging from highly interconnected (e.g.,\nrandom, performs the best among others) to more structured topologies (e.g.,\ncluster and ring), suitable for various social networks. The asynchronous\ntraining framework supports flexible participation. By adjusting the ratios of\ninactive participants, we found it remains stable if less than 70% are\ninactive. Our results confirm that GluADFL offers a practical,\nprivacy-preserving solution for BG prediction in T1D, significantly enhancing\nthe quality of diabetes management.",
+    "updated" : "2024-06-21T17:57:39Z",
+    "published" : "2024-06-21T17:57:39Z",
+    "authors" : [
+      {
+        "name" : "Chengzhe Piao"
+      },
+      {
+        "name" : "Taiyu Zhu"
+      },
+      {
+        "name" : "Yu Wang"
+      },
+      {
+        "name" : "Stephanie E Baldeweg"
+      },
+      {
+        "name" : "Paul Taylor"
+      },
+      {
+        "name" : "Pantelis Georgiou"
+      },
+      {
+        "name" : "Jiahao Sun"
+      },
+      {
+        "name" : "Jun Wang"
+      },
+      {
+        "name" : "Kezhi Li"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.15309v1",
+    "title" : "The Privacy-Utility Trade-off in the Topics API",
+    "summary" : "The ongoing deprecation of third-party cookies by web browser vendors has\nsparked the proposal of alternative methods to support more privacy-preserving\npersonalized advertising on web browsers and applications. The Topics API is\nbeing proposed by Google to provide third-parties with \"coarse-grained\nadvertising topics that the page visitor might currently be interested in\". In\nthis paper, we analyze the re-identification risks for individual Internet\nusers and the utility provided to advertising companies by the Topics API, i.e.\nlearning the most popular topics and distinguishing between real and random\ntopics. We provide theoretical results dependent only on the API parameters\nthat can be readily applied to evaluate the privacy and utility implications of\nfuture API updates, including novel general upper-bounds that account for\nadversaries with access to unknown, arbitrary side information, the value of\nthe differential privacy parameter $\\epsilon$, and experimental results on\nreal-world data that validate our theoretical model.",
+    "updated" : "2024-06-21T17:01:23Z",
+    "published" : "2024-06-21T17:01:23Z",
+    "authors" : [
+      {
+        "name" : "Mário S. Alvim"
+      },
+      {
+        "name" : "Natasha Fernandes"
+      },
+      {
+        "name" : "Annabelle McIver"
+      },
+      {
+        "name" : "Gabriel H. Nunes"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.15074v1",
+    "title" : "Balancing The Perception of Cheating Detection, Privacy and Fairness: A\n  Mixed-Methods Study of Visual Data Obfuscation in Remote Proctoring",
+    "summary" : "Remote proctoring technology, a cheating-preventive measure, often raises\nprivacy and fairness concerns that may affect test-takers' experiences and the\nvalidity of test results. Our study explores how selectively obfuscating\ninformation in video recordings can protect test-takers' privacy while ensuring\neffective and fair cheating detection. Interviews with experts (N=9) identified\nfour key video regions indicative of potential cheating behaviors: the\ntest-taker's face, body, background and the presence of individuals in the\nbackground. Experts recommended specific obfuscation methods for each region\nbased on privacy significance and cheating behavior frequency, ranging from\nconventional blurring to advanced methods like replacement with deepfake, 3D\navatars and silhouetting. We then conducted a vignette experiment with\npotential test-takers (N=259, non-experts) to evaluate their perceptions of\ncheating detection, visual privacy and fairness, using descriptions and\nexamples of still images for each expert-recommended combination of video\nregions and obfuscation methods. Our results indicate that the effectiveness of\nobfuscation methods varies by region. Tailoring remote proctoring with\nregion-specific advanced obfuscation methods can improve the perceptions of\nprivacy and fairness compared to the conventional methods, though it may\ndecrease perceived information sufficiency for detecting cheating. However,\nnon-experts preferred conventional blurring for videos they were more willing\nto share, highlighting a gap between the perceived effectiveness of the\nadvanced obfuscation methods and their practical acceptance. This study\ncontributes to the field of user-centered privacy by suggesting promising\ndirections to address current remote proctoring challenges and guiding future\nresearch.",
+    "updated" : "2024-06-21T11:40:56Z",
+    "published" : "2024-06-21T11:40:56Z",
+    "authors" : [
+      {
+        "name" : "Suvadeep Mukherjee"
+      },
+      {
+        "name" : "Verena Distler"
+      },
+      {
+        "name" : "Gabriele Lenzini"
+      },
+      {
+        "name" : "Pedro Cardoso-Leite"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.14773v1",
+    "title" : "Mitigating the Privacy Issues in Retrieval-Augmented Generation (RAG)\n  via Pure Synthetic Data",
+    "summary" : "Retrieval-augmented generation (RAG) enhances the outputs of language models\nby integrating relevant information retrieved from external knowledge sources.\nHowever, when the retrieval process involves private data, RAG systems may face\nsevere privacy risks, potentially leading to the leakage of sensitive\ninformation. To address this issue, we propose using synthetic data as a\nprivacy-preserving alternative for the retrieval data. We propose SAGE, a novel\ntwo-stage synthetic data generation paradigm. In the stage-1, we employ an\nattribute-based extraction and generation approach to preserve key contextual\ninformation from the original data. In the stage-2, we further enhance the\nprivacy properties of the synthetic data through an agent-based iterative\nrefinement process. Extensive experiments demonstrate that using our synthetic\ndata as the retrieval context achieves comparable performance to using the\noriginal data while substantially reducing privacy risks. Our work takes the\nfirst step towards investigating the possibility of generating high-utility and\nprivacy-preserving synthetic data for RAG, opening up new opportunities for the\nsafe application of RAG systems in various domains.",
+    "updated" : "2024-06-20T22:53:09Z",
+    "published" : "2024-06-20T22:53:09Z",
+    "authors" : [
+      {
+        "name" : "Shenglai Zeng"
+      },
+      {
+        "name" : "Jiankun Zhang"
+      },
+      {
+        "name" : "Pengfei He"
+      },
+      {
+        "name" : "Jie Ren"
+      },
+      {
+        "name" : "Tianqi Zheng"
+      },
+      {
+        "name" : "Hanqing Lu"
+      },
+      {
+        "name" : "Han Xu"
+      },
+      {
+        "name" : "Hui Liu"
+      },
+      {
+        "name" : "Yue Xing"
+      },
+      {
+        "name" : "Jiliang Tang"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.14772v1",
+    "title" : "Consistent community detection in multi-layer networks with\n  heterogeneous differential privacy",
+    "summary" : "As network data has become increasingly prevalent, a substantial amount of\nattention has been paid to the privacy issue in publishing network data. One of\nthe critical challenges for data publishers is to preserve the topological\nstructures of the original network while protecting sensitive information. In\nthis paper, we propose a personalized edge flipping mechanism that allows data\npublishers to protect edge information based on each node's privacy preference.\nIt can achieve differential privacy while preserving the community structure\nunder the multi-layer degree-corrected stochastic block model after\nappropriately debiasing, and thus consistent community detection in the\nprivatized multi-layer networks is achievable. Theoretically, we establish the\nconsistency of community detection in the privatized multi-layer network and\nshow that better privacy protection of edges can be obtained for a proportion\nof nodes while allowing other nodes to give up their privacy. Furthermore, the\nadvantage of the proposed personalized edge-flipping mechanism is also\nsupported by its numerical performance on various synthetic networks and a\nreal-life multi-layer network.",
+    "updated" : "2024-06-20T22:49:55Z",
+    "published" : "2024-06-20T22:49:55Z",
+    "authors" : [
+      {
+        "name" : "Yaoming Zhen"
+      },
+      {
+        "name" : "Shirong Xu"
+      },
+      {
+        "name" : "Junhui Wang"
+      }
+    ],
+    "categories" : [
+      "stat.ME",
+      "cs.CR",
+      "cs.SI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.09547v2",
+    "title" : "FLea: Addressing Data Scarcity and Label Skew in Federated Learning via\n  Privacy-preserving Feature Augmentation",
+    "summary" : "Federated Learning (FL) enables model development by leveraging data\ndistributed across numerous edge devices without transferring local data to a\ncentral server. However, existing FL methods still face challenges when dealing\nwith scarce and label-skewed data across devices, resulting in local model\noverfitting and drift, consequently hindering the performance of the global\nmodel. In response to these challenges, we propose a pioneering framework\ncalled FLea, incorporating the following key components: i) A global feature\nbuffer that stores activation-target pairs shared from multiple clients to\nsupport local training. This design mitigates local model drift caused by the\nabsence of certain classes; ii) A feature augmentation approach based on local\nand global activation mix-ups for local training. This strategy enlarges the\ntraining samples, thereby reducing the risk of local overfitting; iii) An\nobfuscation method to minimize the correlation between intermediate activations\nand the source data, enhancing the privacy of shared features. To verify the\nsuperiority of FLea, we conduct extensive experiments using a wide range of\ndata modalities, simulating different levels of local data scarcity and label\nskew. The results demonstrate that FLea consistently outperforms\nstate-of-the-art FL counterparts (among 13 of the experimented 18 settings, the\nimprovement is over 5% while concurrently mitigating the privacy\nvulnerabilities associated with shared features. Code is available at\nhttps://github.com/XTxiatong/FLea.git.",
+    "updated" : "2024-06-18T11:49:36Z",
+    "published" : "2024-06-13T19:28:08Z",
+    "authors" : [
+      {
+        "name" : "Tong Xia"
+      },
+      {
+        "name" : "Abhirup Ghosh"
+      },
+      {
+        "name" : "Xinchi Qiu"
+      },
+      {
+        "name" : "Cecilia Mascolo"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.06990v2",
+    "title" : "Privacy-Utility Tradeoff Based on $α$-lift",
+    "summary" : "Information density and its exponential form, known as lift, play a central\nrole in information privacy leakage measures. $\\alpha$-lift is the power-mean\nof lift, which is tunable between the worst-case measure max-lift\n($\\alpha=\\infty$) and more relaxed versions ($\\alpha<\\infty$). This paper\ninvestigates the optimization problem of the privacy-utility tradeoff (PUT)\nwhere $\\alpha$-lift and mutual information are privacy and utility measures,\nrespectively. Due to the nonlinear nature of $\\alpha$-lift for $\\alpha<\\infty$,\nfinding the optimal solution is challenging. Therefore, we propose a heuristic\nalgorithm to estimate the optimal utility for each value of $\\alpha$, inspired\nby the optimal solution for $\\alpha=\\infty$ and the convexity of $\\alpha$-lift\nwith respect to the lift, which we prove. The numerical results show the\nefficacy of the algorithm and indicate the effective range of $\\alpha$ and\nprivacy budget $\\varepsilon$ with good PUT performance.",
+    "updated" : "2024-06-21T00:31:27Z",
+    "published" : "2024-06-11T06:39:57Z",
+    "authors" : [
+      {
+        "name" : "Mohammad Amin Zarrabian"
+      },
+      {
+        "name" : "Parastoo Sadeghi"
+      }
+    ],
+    "categories" : [
+      "cs.IT",
+      "math.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.03820v2",
+    "title" : "A Survey on Intelligent Internet of Things: Applications, Security,\n  Privacy, and Future Directions",
+    "summary" : "The rapid advances in the Internet of Things (IoT) have promoted a revolution\nin communication technology and offered various customer services. Artificial\nintelligence (AI) techniques have been exploited to facilitate IoT operations\nand maximize their potential in modern application scenarios. In particular,\nthe convergence of IoT and AI has led to a new networking paradigm called\nIntelligent IoT (IIoT), which has the potential to significantly transform\nbusinesses and industrial domains. This paper presents a comprehensive survey\nof IIoT by investigating its significant applications in mobile networks, as\nwell as its associated security and privacy issues. Specifically, we explore\nand discuss the roles of IIoT in a wide range of key application domains, from\nsmart healthcare and smart cities to smart transportation and smart industries.\nThrough such extensive discussions, we investigate important security issues in\nIIoT networks, where network attacks, confidentiality, integrity, and intrusion\nare analyzed, along with a discussion of potential countermeasures. Privacy\nissues in IIoT networks were also surveyed and discussed, including data,\nlocation, and model privacy leakage. Finally, we outline several key challenges\nand highlight potential research directions in this important area.",
+    "updated" : "2024-06-21T14:43:41Z",
+    "published" : "2024-06-06T07:55:30Z",
+    "authors" : [
+      {
+        "name" : "Ons Aouedi"
+      },
+      {
+        "name" : "Thai-Hoc Vu"
+      },
+      {
+        "name" : "Alessio Sacco"
+      },
+      {
+        "name" : "Dinh C. Nguyen"
+      },
+      {
+        "name" : "Kandaraj Piamrat"
+      },
+      {
+        "name" : "Guido Marchetto"
+      },
+      {
+        "name" : "Quoc-Viet Pham"
+      }
+    ],
+    "categories" : [
+      "cs.NI",
+      "cs.AI",
+      "cs.CR",
+      "cs.ET",
+      "cs.LG"
+    ]
   }
 ]
