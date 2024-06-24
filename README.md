@@ -2,6 +2,157 @@
 <h2>2024-06</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2406.15346v1">Privacy Preserved Blood Glucose Level Cross-Prediction: An Asynchronous
+  Decentralized Federated Learning Approach</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-06-21T17:57:39Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Chengzhe Piao, Taiyu Zhu, Yu Wang, Stephanie E Baldeweg, Paul Taylor, Pantelis Georgiou, Jiahao Sun, Jun Wang, Kezhi Li</p>
+    <p><b>Summary:</b> Newly diagnosed Type 1 Diabetes (T1D) patients often struggle to obtain
+effective Blood Glucose (BG) prediction models due to the lack of sufficient BG
+data from Continuous Glucose Monitoring (CGM), presenting a significant "cold
+start" problem in patient care. Utilizing population models to address this
+challenge is a potential solution, but collecting patient data for training
+population models in a privacy-conscious manner is challenging, especially
+given that such data is often stored on personal devices. Considering the
+privacy protection and addressing the "cold start" problem in diabetes care, we
+propose "GluADFL", blood Glucose prediction by Asynchronous Decentralized
+Federated Learning. We compared GluADFL with eight baseline methods using four
+distinct T1D datasets, comprising 298 participants, which demonstrated its
+superior performance in accurately predicting BG levels for cross-patient
+analysis. Furthermore, patients' data might be stored and shared across various
+communication networks in GluADFL, ranging from highly interconnected (e.g.,
+random, performs the best among others) to more structured topologies (e.g.,
+cluster and ring), suitable for various social networks. The asynchronous
+training framework supports flexible participation. By adjusting the ratios of
+inactive participants, we found it remains stable if less than 70% are
+inactive. Our results confirm that GluADFL offers a practical,
+privacy-preserving solution for BG prediction in T1D, significantly enhancing
+the quality of diabetes management.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2406.15309v1">The Privacy-Utility Trade-off in the Topics API</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-06-21T17:01:23Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mário S. Alvim, Natasha Fernandes, Annabelle McIver, Gabriel H. Nunes</p>
+    <p><b>Summary:</b> The ongoing deprecation of third-party cookies by web browser vendors has
+sparked the proposal of alternative methods to support more privacy-preserving
+personalized advertising on web browsers and applications. The Topics API is
+being proposed by Google to provide third-parties with "coarse-grained
+advertising topics that the page visitor might currently be interested in". In
+this paper, we analyze the re-identification risks for individual Internet
+users and the utility provided to advertising companies by the Topics API, i.e.
+learning the most popular topics and distinguishing between real and random
+topics. We provide theoretical results dependent only on the API parameters
+that can be readily applied to evaluate the privacy and utility implications of
+future API updates, including novel general upper-bounds that account for
+adversaries with access to unknown, arbitrary side information, the value of
+the differential privacy parameter $\epsilon$, and experimental results on
+real-world data that validate our theoretical model.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2406.15074v1">Balancing The Perception of Cheating Detection, Privacy and Fairness: A
+  Mixed-Methods Study of Visual Data Obfuscation in Remote Proctoring</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2024-06-21T11:40:56Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Suvadeep Mukherjee, Verena Distler, Gabriele Lenzini, Pedro Cardoso-Leite</p>
+    <p><b>Summary:</b> Remote proctoring technology, a cheating-preventive measure, often raises
+privacy and fairness concerns that may affect test-takers' experiences and the
+validity of test results. Our study explores how selectively obfuscating
+information in video recordings can protect test-takers' privacy while ensuring
+effective and fair cheating detection. Interviews with experts (N=9) identified
+four key video regions indicative of potential cheating behaviors: the
+test-taker's face, body, background and the presence of individuals in the
+background. Experts recommended specific obfuscation methods for each region
+based on privacy significance and cheating behavior frequency, ranging from
+conventional blurring to advanced methods like replacement with deepfake, 3D
+avatars and silhouetting. We then conducted a vignette experiment with
+potential test-takers (N=259, non-experts) to evaluate their perceptions of
+cheating detection, visual privacy and fairness, using descriptions and
+examples of still images for each expert-recommended combination of video
+regions and obfuscation methods. Our results indicate that the effectiveness of
+obfuscation methods varies by region. Tailoring remote proctoring with
+region-specific advanced obfuscation methods can improve the perceptions of
+privacy and fairness compared to the conventional methods, though it may
+decrease perceived information sufficiency for detecting cheating. However,
+non-experts preferred conventional blurring for videos they were more willing
+to share, highlighting a gap between the perceived effectiveness of the
+advanced obfuscation methods and their practical acceptance. This study
+contributes to the field of user-centered privacy by suggesting promising
+directions to address current remote proctoring challenges and guiding future
+research.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2406.14773v1">Mitigating the Privacy Issues in Retrieval-Augmented Generation (RAG)
+  via Pure Synthetic Data</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-06-20T22:53:09Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shenglai Zeng, Jiankun Zhang, Pengfei He, Jie Ren, Tianqi Zheng, Hanqing Lu, Han Xu, Hui Liu, Yue Xing, Jiliang Tang</p>
+    <p><b>Summary:</b> Retrieval-augmented generation (RAG) enhances the outputs of language models
+by integrating relevant information retrieved from external knowledge sources.
+However, when the retrieval process involves private data, RAG systems may face
+severe privacy risks, potentially leading to the leakage of sensitive
+information. To address this issue, we propose using synthetic data as a
+privacy-preserving alternative for the retrieval data. We propose SAGE, a novel
+two-stage synthetic data generation paradigm. In the stage-1, we employ an
+attribute-based extraction and generation approach to preserve key contextual
+information from the original data. In the stage-2, we further enhance the
+privacy properties of the synthetic data through an agent-based iterative
+refinement process. Extensive experiments demonstrate that using our synthetic
+data as the retrieval context achieves comparable performance to using the
+original data while substantially reducing privacy risks. Our work takes the
+first step towards investigating the possibility of generating high-utility and
+privacy-preserving synthetic data for RAG, opening up new opportunities for the
+safe application of RAG systems in various domains.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2406.14772v1">Consistent community detection in multi-layer networks with
+  heterogeneous differential privacy</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Social and Information Networks-662E9B">
+  <p><b>Published on:</b> 2024-06-20T22:49:55Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yaoming Zhen, Shirong Xu, Junhui Wang</p>
+    <p><b>Summary:</b> As network data has become increasingly prevalent, a substantial amount of
+attention has been paid to the privacy issue in publishing network data. One of
+the critical challenges for data publishers is to preserve the topological
+structures of the original network while protecting sensitive information. In
+this paper, we propose a personalized edge flipping mechanism that allows data
+publishers to protect edge information based on each node's privacy preference.
+It can achieve differential privacy while preserving the community structure
+under the multi-layer degree-corrected stochastic block model after
+appropriately debiasing, and thus consistent community detection in the
+privatized multi-layer networks is achievable. Theoretically, we establish the
+consistency of community detection in the privatized multi-layer network and
+show that better privacy protection of edges can be obtained for a proportion
+of nodes while allowing other nodes to give up their privacy. Furthermore, the
+advantage of the proposed personalized edge-flipping mechanism is also
+supported by its numerical performance on various synthetic networks and a
+real-life multi-layer network.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2406.14322v1">Mind the Privacy Unit! User-Level Differential Privacy for Language
   Model Fine-Tuning</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
@@ -773,7 +924,7 @@ non-IID dataset validate the effectiveness of our proposed method.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.09547v1">FLea: Addressing Data Scarcity and Label Skew in Federated Learning via
+  <h3><a href="http://arxiv.org/abs/2406.09547v2">FLea: Addressing Data Scarcity and Label Skew in Federated Learning via
   Privacy-preserving Feature Augmentation</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
   <p><b>Published on:</b> 2024-06-13T19:28:08Z</p>
@@ -1006,7 +1157,7 @@ the accuracy of privacy attacks to below 60%.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.06990v1">Privacy-Utility Tradeoff Based on $α$-lift</a></h3>
+  <h3><a href="http://arxiv.org/abs/2406.06990v2">Privacy-Utility Tradeoff Based on $α$-lift</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
   <p><b>Published on:</b> 2024-06-11T06:39:57Z</p>
   <details>
@@ -1016,13 +1167,15 @@ the accuracy of privacy attacks to below 60%.</p>
 role in information privacy leakage measures. $\alpha$-lift is the power-mean
 of lift, which is tunable between the worst-case measure max-lift
 ($\alpha=\infty$) and more relaxed versions ($\alpha<\infty$). This paper
-investigates the optimization problem of the privacy-utility tradeoff where
-$\alpha$-lift and mutual information are privacy and utility measures,
+investigates the optimization problem of the privacy-utility tradeoff (PUT)
+where $\alpha$-lift and mutual information are privacy and utility measures,
 respectively. Due to the nonlinear nature of $\alpha$-lift for $\alpha<\infty$,
 finding the optimal solution is challenging. Therefore, we propose a heuristic
 algorithm to estimate the optimal utility for each value of $\alpha$, inspired
-by the optimal solution for $\alpha=\infty$. In proposing the algorithm, we
-prove and use the convexity of $\alpha$-lift with respect to the lift.</p>
+by the optimal solution for $\alpha=\infty$ and the convexity of $\alpha$-lift
+with respect to the lift, which we prove. The numerical results show the
+efficacy of the algorithm and indicate the effective range of $\alpha$ and
+privacy budget $\varepsilon$ with good PUT performance.</p>
   </details>
 </div>
 
@@ -1396,7 +1549,7 @@ enhancing privacy and efficiency. Project website:
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.03820v1">A Survey on Intelligent Internet of Things: Applications, Security,
+  <h3><a href="http://arxiv.org/abs/2406.03820v2">A Survey on Intelligent Internet of Things: Applications, Security,
   Privacy, and Future Directions</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2024-06-06T07:55:30Z</p>
@@ -2760,150 +2913,6 @@ user-level DP always leads to slower convergence, our result shows that under
 the local model, the convergence rates are nearly the same between user-level
 and item-level cases for distributions with bounded support. For heavy-tailed
 distributions, the user-level rate is even faster than the item-level one.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.16905v2">Privacy and Security Trade-off in Interconnected Systems with Known or
-  Unknown Privacy Noise Covariance</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
-  <p><b>Published on:</b> 2024-05-27T07:53:51Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Haojun Wang, Kun Liu, Baojia Li, Emilia Fridman, Yuanqing Xia</p>
-    <p><b>Summary:</b> This paper is concerned with the security problem for interconnected systems,
-where each subsystem is required to detect local attacks using locally
-available information and the information received from its neighboring
-subsystems. Moreover, we consider that there exists an additional eavesdropper
-being able to infer the private information by eavesdropping transmitted data
-between subsystems. Then, a privacy-preserving method is employed by adding
-privacy noise to transmitted data, and the privacy level is measured by mutual
-information. Nevertheless, adding privacy noise to transmitted data may affect
-the detection performance metrics such as detection probability and false alarm
-probability. Thus, we theoretically analyze the trade-off between the privacy
-and the detection performance. An optimization problem with maximizing both the
-degree of privacy preservation and the detection probability is established to
-obtain the covariance of the privacy noise. In addition, the attack detector of
-each subsystem may not obtain all information about the privacy noise. We
-further theoretically analyze the trade-off between the privacy and the false
-alarm probability when the attack detector has no knowledge of the privacy
-noise covariance. An optimization problem with maximizing the degree of privacy
-preservation with guaranteeing a bound of false alarm distortion level is
-established to obtain {\color{black}{the covariance of the privacy noise}}.
-Moreover, to analyze the effect of the privacy noise on the detection
-probability, we consider that each subsystem can estimate the unknown privacy
-noise covariance by the secondary data. Based on the estimated covariance, we
-construct another attack detector and analyze how the privacy noise affects its
-detection performance. Finally, a numerical example is provided to verify the
-effectiveness of theoretical results.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.16895v2">Anonymization Prompt Learning for Facial Privacy-Preserving
-  Text-to-Image Generation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2024-05-27T07:38:26Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Liang Shi, Jie Zhang, Shiguang Shan</p>
-    <p><b>Summary:</b> Text-to-image diffusion models, such as Stable Diffusion, generate highly
-realistic images from text descriptions. However, the generation of certain
-content at such high quality raises concerns. A prominent issue is the accurate
-depiction of identifiable facial images, which could lead to malicious deepfake
-generation and privacy violations. In this paper, we propose Anonymization
-Prompt Learning (APL) to address this problem. Specifically, we train a
-learnable prompt prefix for text-to-image diffusion models, which forces the
-model to generate anonymized facial identities, even when prompted to produce
-images of specific individuals. Extensive quantitative and qualitative
-experiments demonstrate the successful anonymization performance of APL, which
-anonymizes any specific individuals without compromising the quality of
-non-identity-specific image generation. Furthermore, we reveal the
-plug-and-play property of the learned prompt prefix, enabling its effective
-application across different pretrained text-to-image models for transferrable
-privacy and security protection against the risks of deepfakes.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.16058v2">A Novel Privacy Enhancement Scheme with Dynamic Quantization for
-  Federated Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Optimization and Control-F9C80E">
-  <p><b>Published on:</b> 2024-05-25T04:56:54Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yifan Wang, Xianghui Cao, Shi Jin, Mo-Yuen Chow</p>
-    <p><b>Summary:</b> Federated learning (FL) has been widely regarded as a promising paradigm for
-privacy preservation of raw data in machine learning. Although, the data
-privacy in FL is locally protected to some extent, it is still a desideratum to
-enhance privacy and alleviate communication overhead caused by repetitively
-transmitting model parameters. Typically, these challenges are addressed
-separately, or jointly via a unified scheme that consists of noise-injected
-privacy mechanism and communication compression, which may lead to model
-corruption due to the introduced composite noise. In this work, we propose a
-novel model-splitting privacy-preserving FL (MSP-FL) scheme to achieve private
-FL with precise accuracy guarantee. Based upon MSP-FL, we further propose a
-model-splitting privacy-preserving FL with dynamic quantization (MSPDQ-FL) to
-mitigate the communication overhead, which incorporates a shrinking
-quantization interval to reduce the quantization error. We provide privacy and
-convergence analysis for both MSP-FL and MSPDQ-FL under non-i.i.d. dataset,
-partial clients participation and finite quantization level. Numerical results
-are presented to validate the superiority of the proposed schemes.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.15398v1">PriCE: Privacy-Preserving and Cost-Effective Scheduling for
-  Parallelizing the Large Medical Image Processing Workflow over Hybrid Clouds</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computational Engineering, Finance, and Science-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E">
-  <p><b>Published on:</b> 2024-05-24T09:52:00Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yuandou Wang, Neel Kanwal, Kjersti Engan, Chunming Rong, Paola Grosso, Zhiming Zhao</p>
-    <p><b>Summary:</b> Running deep neural networks for large medical images is a resource-hungry
-and time-consuming task with centralized computing. Outsourcing such medical
-image processing tasks to hybrid clouds has benefits, such as a significant
-reduction of execution time and monetary cost. However, due to privacy
-concerns, it is still challenging to process sensitive medical images over
-clouds, which would hinder their deployment in many real-world applications. To
-overcome this, we first formulate the overall optimization objectives of the
-privacy-preserving distributed system model, i.e., minimizing the amount of
-information about the private data learned by the adversaries throughout the
-process, reducing the maximum execution time and cost under the user budget
-constraint. We propose a novel privacy-preserving and cost-effective method
-called PriCE to solve this multi-objective optimization problem. We performed
-extensive simulation experiments for artifact detection tasks on medical images
-using an ensemble of five deep convolutional neural network inferences as the
-workflow task. Experimental results show that PriCE successfully splits a wide
-range of input gigapixel medical images with graph-coloring-based strategies,
-yielding desired output utility and lowering the privacy risk, makespan, and
-monetary cost under user's budget.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.01603v1">Privacy-preserving recommender system using the data collaboration
-  analysis for distributed datasets</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-05-24T07:43:00Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Tomoya Yanagi, Shunnosuke Ikeda, Noriyoshi Sukegawa, Yuichi Takano</p>
-    <p><b>Summary:</b> In order to provide high-quality recommendations for users, it is desirable
-to share and integrate multiple datasets held by different parties. However,
-when sharing such distributed datasets, we need to protect personal and
-confidential information contained in the datasets. To this end, we establish a
-framework for privacy-preserving recommender systems using the data
-collaboration analysis of distributed datasets. Numerical experiments with two
-public rating datasets demonstrate that our privacy-preserving method for
-rating prediction can improve the prediction accuracy for distributed datasets.
-This study opens up new possibilities for privacy-preserving techniques in
-recommender systems.</p>
   </details>
 </div>
 
