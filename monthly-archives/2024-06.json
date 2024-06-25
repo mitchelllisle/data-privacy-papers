@@ -2345,5 +2345,196 @@
       "cs.ET",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.16826v1",
+    "title" : "Practical privacy metrics for synthetic data",
+    "summary" : "This paper explains how the synthpop package for R has been extended to\ninclude functions to calculate measures of identity and attribute disclosure\nrisk for synthetic data that measure risks for the records used to create the\nsynthetic data. The basic function, disclosure, calculates identity disclosure\nfor a set of quasi-identifiers (keys) and attribute disclosure for one variable\nspecified as a target from the same set of keys. The second function,\ndisclosure.summary, is a wrapper for the first and presents summary results for\na set of targets. This short paper explains the measures of disclosure risk and\ndocuments how they are calculated. We recommend two measures: $RepU$\n(replicated uniques) for identity disclosure and $DiSCO$ (Disclosive in\nSynthetic Correct Original) for attribute disclosure. Both are expressed a \\%\nof the original records and each can be compared to similar measures calculated\nfrom the original data. Experience with using the functions on real data found\nthat some apparent disclosures could be identified as coming from relationships\nin the data that would be expected to be known to anyone familiar with its\nfeatures. We flag cases when this seems to have occurred and provide means of\nexcluding them.",
+    "updated" : "2024-06-24T17:35:44Z",
+    "published" : "2024-06-24T17:35:44Z",
+    "authors" : [
+      {
+        "name" : "Gillian M Raab"
+      },
+      {
+        "name" : "Beata Nowok"
+      },
+      {
+        "name" : "Chris Dibben"
+      }
+    ],
+    "categories" : [
+      "stat.AP"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.16456v1",
+    "title" : "Automated Privacy-Preserving Techniques via Meta-Learning",
+    "summary" : "Sharing private data for learning tasks is pivotal for transparent and secure\nmachine learning applications. Many privacy-preserving techniques have been\nproposed for this task aiming to transform the data while ensuring the privacy\nof individuals. Some of these techniques have been incorporated into tools,\nwhereas others are accessed through various online platforms. However, such\ntools require manual configuration, which can be complex and time-consuming.\nMoreover, they require substantial expertise, potentially restricting their use\nto those with advanced technical knowledge. In this paper, we propose AUTOPRIV,\nthe first automated privacy-preservation method, that eliminates the need for\nany manual configuration. AUTOPRIV employs meta-learning to automate the\nde-identification process, facilitating the secure release of data for machine\nlearning tasks. The main goal is to anticipate the predictive performance and\nprivacy risk of a large set of privacy configurations. We provide a ranked list\nof the most promising solutions, which are likely to achieve an optimal\napproximation within a new domain. AUTOPRIV is highly effective as it reduces\ncomputational complexity and energy consumption considerably.",
+    "updated" : "2024-06-24T08:53:45Z",
+    "published" : "2024-06-24T08:53:45Z",
+    "authors" : [
+      {
+        "name" : "Tânia Carvalho"
+      },
+      {
+        "name" : "Nuno Moniz"
+      },
+      {
+        "name" : "Luís Antunes"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.16313v1",
+    "title" : "Thinking Inside The Box: Privacy Against Stronger Adversaries",
+    "summary" : "In this thesis, we study extensions of statistical cryptographic primitives.\nIn particular we study leakage-resilient secret sharing, non-malleable\nextractors, and immunized ideal one-way functions. The thesis is divided into\nthree main chapters. In the first chapter, we show that 2-out-of-2 leakage\nresilient (and also non-malleable) secret sharing requires randomness sources\nthat are also extractable. This rules out the possibility of using min-entropic\nsources. In the second, we introduce collision-resistant seeded extractors and\nshow that any seeded extractor can be made collision resistant at a small\noverhead in seed length. We then use it to give a two-source non-malleable\nextractor with entropy rate 0.81 in one source and polylogarithmic in the\nother. The non-malleable extractor lead to the first statistical privacy\namplification protocol against memory tampering adversaries. In the final\nchapter, we study the hardness of the data structure variant of the 3SUM\nproblem which is motivated by a recent construction to immunise random oracles\nagainst pre-processing adversaries. We give worst-case data structure hardness\nfor the 3SUM problem matching known barriers in data structures for adaptive\nadversaries. We also give a slightly stronger lower bound in the case of\nnon-adaptivity. Lastly, we give a novel result in the bit-probe setting.",
+    "updated" : "2024-06-24T04:40:28Z",
+    "published" : "2024-06-24T04:40:28Z",
+    "authors" : [
+      {
+        "name" : "Eldon Chung"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.16305v1",
+    "title" : "On Computing Pairwise Statistics with Local Differential Privacy",
+    "summary" : "We study the problem of computing pairwise statistics, i.e., ones of the form\n$\\binom{n}{2}^{-1} \\sum_{i \\ne j} f(x_i, x_j)$, where $x_i$ denotes the input\nto the $i$th user, with differential privacy (DP) in the local model. This\nformulation captures important metrics such as Kendall's $\\tau$ coefficient,\nArea Under Curve, Gini's mean difference, Gini's entropy, etc. We give several\nnovel and generic algorithms for the problem, leveraging techniques from DP\nalgorithms for linear queries.",
+    "updated" : "2024-06-24T04:06:09Z",
+    "published" : "2024-06-24T04:06:09Z",
+    "authors" : [
+      {
+        "name" : "Badih Ghazi"
+      },
+      {
+        "name" : "Pritish Kamath"
+      },
+      {
+        "name" : "Ravi Kumar"
+      },
+      {
+        "name" : "Pasin Manurangsi"
+      },
+      {
+        "name" : "Adam Sealfon"
+      }
+    ],
+    "categories" : [
+      "cs.DS",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.16182v1",
+    "title" : "Privacy-Preserving and Trustworthy Localization in an IoT Environment",
+    "summary" : "The Internet of Things (IoT) is increasingly prevalent in various\napplications, such as healthcare and logistics. One significant service of IoT\ntechnologies that is essential for these applications is localization. The goal\nof this service is to determine the precise position of a specific target. The\nlocalization data often needs to be private, accessible only to specific\nentities, and must maintain authenticity and integrity to ensure\ntrustworthiness. IoT technology has evolved significantly, with Ultra-Wide Band\n(UWB) technology enhancing localization speed and precision. However, IoT\ndevice security remains a concern, as devices can be compromised or act\nmaliciously. Furthermore, localization data is typically stored centrally,\nwhich can also be a point of vulnerability. Our approach leverages the features\nof a permissioned blockchain, specifically Hyperledger Fabric, to address these\nchallenges. Hyperledger Fabric's collection feature ensures data privacy, and\nits smart contracts (chaincode) enhance trustworthiness. We tested our solution\nusing a network of devices known as CLOVES, demonstrating robust performance\ncharacteristics with UWB technology. Additionally, we evaluated our approach\nthrough an indoor localization use case.",
+    "updated" : "2024-06-23T18:13:53Z",
+    "published" : "2024-06-23T18:13:53Z",
+    "authors" : [
+      {
+        "name" : "Guglielmo Zocca"
+      },
+      {
+        "name" : "Omar Hasan"
+      }
+    ],
+    "categories" : [
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.15962v1",
+    "title" : "Privacy Preserving Machine Learning for Electronic Health Records using\n  Federated Learning and Differential Privacy",
+    "summary" : "An Electronic Health Record (EHR) is an electronic database used by\nhealthcare providers to store patients' medical records which may include\ndiagnoses, treatments, costs, and other personal information. Machine learning\n(ML) algorithms can be used to extract and analyze patient data to improve\npatient care. Patient records contain highly sensitive information, such as\nsocial security numbers (SSNs) and residential addresses, which introduces a\nneed to apply privacy-preserving techniques for these ML models using federated\nlearning and differential privacy.",
+    "updated" : "2024-06-23T00:01:03Z",
+    "published" : "2024-06-23T00:01:03Z",
+    "authors" : [
+      {
+        "name" : "Naif A. Ganadily"
+      },
+      {
+        "name" : "Han J. Xia"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "cs.ET"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.15842v1",
+    "title" : "Privacy Requirements and Realities of Digital Public Goods",
+    "summary" : "In the international development community, the term \"digital public goods\"\nis used to describe open-source digital products (e.g., software, datasets)\nthat aim to address the United Nations (UN) Sustainable Development Goals. DPGs\nare increasingly being used to deliver government services around the world\n(e.g., ID management, healthcare registration). Because DPGs may handle\nsensitive data, the UN has established user privacy as a first-order\nrequirement for DPGs. The privacy risks of DPGs are currently managed in part\nby the DPG standard, which includes a prerequisite questionnaire with questions\ndesigned to evaluate a DPG's privacy posture.\n  This study examines the effectiveness of the current DPG standard for\nensuring adequate privacy protections. We present a systematic assessment of\nresponses from DPGs regarding their protections of users' privacy. We also\npresent in-depth case studies from three widely-used DPGs to identify privacy\nthreats and compare this to their responses to the DPG standard. Our findings\nreveal limitations in the current DPG standard's evaluation approach. We\nconclude by presenting preliminary recommendations and suggestions for\nstrengthening the DPG standard as it relates to privacy. Additionally, we hope\nthis study encourages more usable privacy research on communicating privacy,\nnot only to end users but also third-party adopters of user-facing\ntechnologies.",
+    "updated" : "2024-06-22T13:06:13Z",
+    "published" : "2024-06-22T13:06:13Z",
+    "authors" : [
+      {
+        "name" : "Geetika Gopi"
+      },
+      {
+        "name" : "Aadyaa Maddi"
+      },
+      {
+        "name" : "Omkhar Arasaratnam"
+      },
+      {
+        "name" : "Giulia Fanti"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "cs.CR",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.15789v1",
+    "title" : "Privacy Implications of Explainable AI in Data-Driven Systems",
+    "summary" : "Machine learning (ML) models, demonstrably powerful, suffer from a lack of\ninterpretability. The absence of transparency, often referred to as the black\nbox nature of ML models, undermines trust and urges the need for efforts to\nenhance their explainability. Explainable AI (XAI) techniques address this\nchallenge by providing frameworks and methods to explain the internal\ndecision-making processes of these complex models. Techniques like\nCounterfactual Explanations (CF) and Feature Importance play a crucial role in\nachieving this goal. Furthermore, high-quality and diverse data remains the\nfoundational element for robust and trustworthy ML applications. In many\napplications, the data used to train ML and XAI explainers contain sensitive\ninformation. In this context, numerous privacy-preserving techniques can be\nemployed to safeguard sensitive information in the data, such as differential\nprivacy. Subsequently, a conflict between XAI and privacy solutions emerges due\nto their opposing goals. Since XAI techniques provide reasoning for the model\nbehavior, they reveal information relative to ML models, such as their decision\nboundaries, the values of features, or the gradients of deep learning models\nwhen explanations are exposed to a third entity. Attackers can initiate privacy\nbreaching attacks using these explanations, to perform model extraction,\ninference, and membership attacks. This dilemma underscores the challenge of\nfinding the right equilibrium between understanding ML decision-making and\nsafeguarding privacy.",
+    "updated" : "2024-06-22T08:51:58Z",
+    "published" : "2024-06-22T08:51:58Z",
+    "authors" : [
+      {
+        "name" : "Fatima Ezzeddine"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.15655v1",
+    "title" : "ProBE: Proportioning Privacy Budget for Complex Exploratory Decision\n  Support",
+    "summary" : "This paper studies privacy in the context of complex decision support queries\ncomposed of multiple conditions on different aggregate statistics combined\nusing disjunction and conjunction operators. Utility requirements for such\nqueries necessitate the need for private mechanisms that guarantee a bound on\nthe false negative and false positive errors. This paper formally defines\ncomplex decision support queries and their accuracy requirements, and provides\nalgorithms that proportion the existing budget to optimally minimize privacy\nloss while supporting a bounded guarantee on the accuracy. Our experimental\nresults on multiple real-life datasets show that our algorithms successfully\nmaintain such utility guarantees, while also minimizing privacy loss.",
+    "updated" : "2024-06-21T21:20:57Z",
+    "published" : "2024-06-21T21:20:57Z",
+    "authors" : [
+      {
+        "name" : "Nada Lahjouji"
+      },
+      {
+        "name" : "Sameera Ghayyur"
+      },
+      {
+        "name" : "Xi He"
+      },
+      {
+        "name" : "Sharad Mehrotra"
+      }
+    ],
+    "categories" : [
+      "cs.DB"
+    ]
   }
 ]
