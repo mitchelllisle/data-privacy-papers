@@ -2536,5 +2536,24 @@
     "categories" : [
       "cs.DB"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.17649v1",
+    "title" : "Privacy Preserving Reinforcement Learning for Population Processes",
+    "summary" : "We consider the problem of privacy protection in Reinforcement Learning (RL)\nalgorithms that operate over population processes, a practical but understudied\nsetting that includes, for example, the control of epidemics in large\npopulations of dynamically interacting individuals. In this setting, the RL\nalgorithm interacts with the population over $T$ time steps by receiving\npopulation-level statistics as state and performing actions which can affect\nthe entire population at each time step. An individual's data can be collected\nacross multiple interactions and their privacy must be protected at all times.\nWe clarify the Bayesian semantics of Differential Privacy (DP) in the presence\nof correlated data in population processes through a Pufferfish Privacy\nanalysis. We then give a meta algorithm that can take any RL algorithm as input\nand make it differentially private. This is achieved by taking an approach that\nuses DP mechanisms to privatize the state and reward signal at each time step\nbefore the RL algorithm receives them as input. Our main theoretical result\nshows that the value-function approximation error when applying standard RL\nalgorithms directly to the privatized states shrinks quickly as the population\nsize and privacy budget increase. This highlights that reasonable\nprivacy-utility trade-offs are possible for differentially private RL\nalgorithms in population processes. Our theoretical findings are validated by\nexperiments performed on a simulated epidemic control problem over large\npopulation sizes.",
+    "updated" : "2024-06-25T15:41:26Z",
+    "published" : "2024-06-25T15:41:26Z",
+    "authors" : [
+      {
+        "name" : "Samuel Yang-Zhao"
+      },
+      {
+        "name" : "Kee Siong Ng"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
   }
 ]
