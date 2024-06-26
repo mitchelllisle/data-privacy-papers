@@ -2,6 +2,38 @@
 <h2>2024-06</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2406.17649v1">Privacy Preserving Reinforcement Learning for Population Processes</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-06-25T15:41:26Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Samuel Yang-Zhao, Kee Siong Ng</p>
+    <p><b>Summary:</b> We consider the problem of privacy protection in Reinforcement Learning (RL)
+algorithms that operate over population processes, a practical but understudied
+setting that includes, for example, the control of epidemics in large
+populations of dynamically interacting individuals. In this setting, the RL
+algorithm interacts with the population over $T$ time steps by receiving
+population-level statistics as state and performing actions which can affect
+the entire population at each time step. An individual's data can be collected
+across multiple interactions and their privacy must be protected at all times.
+We clarify the Bayesian semantics of Differential Privacy (DP) in the presence
+of correlated data in population processes through a Pufferfish Privacy
+analysis. We then give a meta algorithm that can take any RL algorithm as input
+and make it differentially private. This is achieved by taking an approach that
+uses DP mechanisms to privatize the state and reward signal at each time step
+before the RL algorithm receives them as input. Our main theoretical result
+shows that the value-function approximation error when applying standard RL
+algorithms directly to the privatized states shrinks quickly as the population
+size and privacy budget increase. This highlights that reasonable
+privacy-utility trade-offs are possible for differentially private RL
+algorithms in population processes. Our theoretical findings are validated by
+experiments performed on a simulated epidemic control problem over large
+population sizes.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2406.16826v1">Practical privacy metrics for synthetic data</a></h3>
   
   <p><b>Published on:</b> 2024-06-24T17:35:44Z</p>
@@ -2864,44 +2896,6 @@ graph, remain oblivious to any information regarding the underlying graph, and
 (2) achieving query indistinguishability by concealing access patterns.
 Additionally, we conducted experimentation to evaluate the efficiency of the
 proposed schemes when dealing with real-world location navigation services.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.19187v1">Algorithmic Transparency and Participation through the Handoff Lens:
-  Lessons Learned from the U.S. Census Bureau's Adoption of Differential
-  Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2024-05-29T15:29:16Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Amina A. Abdu, Lauren M. Chambers, Deirdre K. Mulligan, Abigail Z. Jacobs</p>
-    <p><b>Summary:</b> Emerging discussions on the responsible government use of algorithmic
-technologies propose transparency and public participation as key mechanisms
-for preserving accountability and trust. But in practice, the adoption and use
-of any technology shifts the social, organizational, and political context in
-which it is embedded. Therefore translating transparency and participation
-efforts into meaningful, effective accountability must take into account these
-shifts. We adopt two theoretical frames, Mulligan and Nissenbaum's handoff
-model and Star and Griesemer's boundary objects, to reveal such shifts during
-the U.S. Census Bureau's adoption of differential privacy (DP) in its updated
-disclosure avoidance system (DAS) for the 2020 census. This update preserved
-(and arguably strengthened) the confidentiality protections that the Bureau is
-mandated to uphold, and the Bureau engaged in a range of activities to
-facilitate public understanding of and participation in the system design
-process. Using publicly available documents concerning the Census'
-implementation of DP, this case study seeks to expand our understanding of how
-technical shifts implicate values, how such shifts can afford (or fail to
-afford) greater transparency and participation in system design, and the
-importance of localized expertise throughout. We present three lessons from
-this case study toward grounding understandings of algorithmic transparency and
-participation: (1) efforts towards transparency and participation in
-algorithmic governance must center values and policy decisions, not just
-technical design decisions; (2) the handoff model is a useful tool for
-revealing how such values may be cloaked beneath technical decisions; and (3)
-boundary objects alone cannot bridge distant communities without trusted
-experts traveling alongside to broker their adoption.</p>
   </details>
 </div>
 
