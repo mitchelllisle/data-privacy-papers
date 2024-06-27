@@ -2555,5 +2555,83 @@
       "cs.LG",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.18491v1",
+    "title" : "Enhancing Federated Learning with Adaptive Differential Privacy and\n  Priority-Based Aggregation",
+    "summary" : "Federated learning (FL), a novel branch of distributed machine learning (ML),\ndevelops global models through a private procedure without direct access to\nlocal datasets. However, it is still possible to access the model updates\n(gradient updates of deep neural networks) transferred between clients and\nservers, potentially revealing sensitive local information to adversaries using\nmodel inversion attacks. Differential privacy (DP) offers a promising approach\nto addressing this issue by adding noise to the parameters. On the other hand,\nheterogeneities in data structure, storage, communication, and computational\ncapabilities of devices can cause convergence problems and delays in developing\nthe global model. A personalized weighted averaging of local parameters based\non the resources of each device can yield a better aggregated model in each\nround. In this paper, to efficiently preserve privacy, we propose a\npersonalized DP framework that injects noise based on clients' relative impact\nfactors and aggregates parameters while considering heterogeneities and\nadjusting properties. To fulfill the DP requirements, we first analyze the\nconvergence boundary of the FL algorithm when impact factors are personalized\nand fixed throughout the learning process. We then further study the\nconvergence property considering time-varying (adaptive) impact factors.",
+    "updated" : "2024-06-26T16:55:07Z",
+    "published" : "2024-06-26T16:55:07Z",
+    "authors" : [
+      {
+        "name" : "Mahtab Talaei"
+      },
+      {
+        "name" : "Iman Izadi"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.18221v1",
+    "title" : "Enhancing Data Privacy in Large Language Models through Private\n  Association Editing",
+    "summary" : "Large Language Models (LLMs) are powerful tools with extensive applications,\nbut their tendency to memorize private information raises significant concerns\nas private data leakage can easily happen. In this paper, we introduce Private\nAssociation Editing (PAE), a novel defense approach for private data leakage.\nPAE is designed to effectively remove Personally Identifiable Information (PII)\nwithout retraining the model. Our approach consists of a four-step procedure:\ndetecting memorized PII, applying PAE cards to mitigate memorization of private\ndata, verifying resilience to targeted data extraction (TDE) attacks, and\nensuring consistency in the post-edit LLMs. The versatility and efficiency of\nPAE, which allows for batch modifications, significantly enhance data privacy\nin LLMs. Experimental results demonstrate the effectiveness of PAE in\nmitigating private data leakage. We believe PAE will serve as a critical tool\nin the ongoing effort to protect data privacy in LLMs, encouraging the\ndevelopment of safer models for real-world applications.",
+    "updated" : "2024-06-26T10:08:47Z",
+    "published" : "2024-06-26T10:08:47Z",
+    "authors" : [
+      {
+        "name" : "Davide Venditti"
+      },
+      {
+        "name" : "Elena Sofia Ruzzetti"
+      },
+      {
+        "name" : "Giancarlo A. Xompero"
+      },
+      {
+        "name" : "Cristina Giannone"
+      },
+      {
+        "name" : "Andrea Favalli"
+      },
+      {
+        "name" : "Raniero Romagnoli"
+      },
+      {
+        "name" : "Fabio Massimo Zanzotto"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.18100v1",
+    "title" : "Natural Language but Omitted? On the Ineffectiveness of Large Language\n  Models' privacy policy from End-users' Perspective",
+    "summary" : "LLMs driven products were increasingly prevalent in our daily lives, With a\nnatural language based interaction style, people may potentially leak their\npersonal private information. Thus, privacy policy and user agreement played an\nimportant role in regulating and alerting people. However, there lacked the\nwork examining the reading of LLM's privacy policy. Thus, we conducted the\nfirst user study to let participants read the privacy policy and user agreement\nwith two different styles (a cursory and detailed style). We found users lack\nimportant information upon cursory reading and even detailed reading. Besides,\ntheir privacy concerns was not solved even upon detailed reading. We provided\nfour design implications based on the findings.",
+    "updated" : "2024-06-26T06:31:43Z",
+    "published" : "2024-06-26T06:31:43Z",
+    "authors" : [
+      {
+        "name" : "Shuning Zhang"
+      },
+      {
+        "name" : "Haobin Xing"
+      },
+      {
+        "name" : "Xin Yi"
+      },
+      {
+        "name" : "Hewu Li"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
   }
 ]
