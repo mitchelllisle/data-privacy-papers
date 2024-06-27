@@ -2,6 +2,84 @@
 <h2>2024-06</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2406.18491v1">Enhancing Federated Learning with Adaptive Differential Privacy and
+  Priority-Based Aggregation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
+  <p><b>Published on:</b> 2024-06-26T16:55:07Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mahtab Talaei, Iman Izadi</p>
+    <p><b>Summary:</b> Federated learning (FL), a novel branch of distributed machine learning (ML),
+develops global models through a private procedure without direct access to
+local datasets. However, it is still possible to access the model updates
+(gradient updates of deep neural networks) transferred between clients and
+servers, potentially revealing sensitive local information to adversaries using
+model inversion attacks. Differential privacy (DP) offers a promising approach
+to addressing this issue by adding noise to the parameters. On the other hand,
+heterogeneities in data structure, storage, communication, and computational
+capabilities of devices can cause convergence problems and delays in developing
+the global model. A personalized weighted averaging of local parameters based
+on the resources of each device can yield a better aggregated model in each
+round. In this paper, to efficiently preserve privacy, we propose a
+personalized DP framework that injects noise based on clients' relative impact
+factors and aggregates parameters while considering heterogeneities and
+adjusting properties. To fulfill the DP requirements, we first analyze the
+convergence boundary of the FL algorithm when impact factors are personalized
+and fixed throughout the learning process. We then further study the
+convergence property considering time-varying (adaptive) impact factors.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2406.18221v1">Enhancing Data Privacy in Large Language Models through Private
+  Association Editing</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-06-26T10:08:47Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Davide Venditti, Elena Sofia Ruzzetti, Giancarlo A. Xompero, Cristina Giannone, Andrea Favalli, Raniero Romagnoli, Fabio Massimo Zanzotto</p>
+    <p><b>Summary:</b> Large Language Models (LLMs) are powerful tools with extensive applications,
+but their tendency to memorize private information raises significant concerns
+as private data leakage can easily happen. In this paper, we introduce Private
+Association Editing (PAE), a novel defense approach for private data leakage.
+PAE is designed to effectively remove Personally Identifiable Information (PII)
+without retraining the model. Our approach consists of a four-step procedure:
+detecting memorized PII, applying PAE cards to mitigate memorization of private
+data, verifying resilience to targeted data extraction (TDE) attacks, and
+ensuring consistency in the post-edit LLMs. The versatility and efficiency of
+PAE, which allows for batch modifications, significantly enhance data privacy
+in LLMs. Experimental results demonstrate the effectiveness of PAE in
+mitigating private data leakage. We believe PAE will serve as a critical tool
+in the ongoing effort to protect data privacy in LLMs, encouraging the
+development of safer models for real-world applications.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2406.18100v1">Natural Language but Omitted? On the Ineffectiveness of Large Language
+  Models' privacy policy from End-users' Perspective</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2024-06-26T06:31:43Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shuning Zhang, Haobin Xing, Xin Yi, Hewu Li</p>
+    <p><b>Summary:</b> LLMs driven products were increasingly prevalent in our daily lives, With a
+natural language based interaction style, people may potentially leak their
+personal private information. Thus, privacy policy and user agreement played an
+important role in regulating and alerting people. However, there lacked the
+work examining the reading of LLM's privacy policy. Thus, we conducted the
+first user study to let participants read the privacy policy and user agreement
+with two different styles (a cursory and detailed style). We found users lack
+important information upon cursory reading and even detailed reading. Besides,
+their privacy concerns was not solved even upon detailed reading. We provided
+four design implications based on the findings.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2406.17649v1">Privacy Preserving Reinforcement Learning for Population Processes</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2024-06-25T15:41:26Z</p>
@@ -2807,95 +2885,6 @@ texts which score on average better in empirical privacy evaluations.
 Therefore, our approach raises the bar for DP rewriting methods in their
 empirical privacy evaluations, providing an extra layer of protection against
 malicious adversaries.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.20785v1">How the Future Works at SOUPS: Analyzing Future Work Statements and
-  Their Impact on Usable Security and Privacy Research</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2024-05-30T07:07:18Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jacques Suray, Jan H. Klemmer, Juliane Schmüser, Sascha Fahl</p>
-    <p><b>Summary:</b> Extending knowledge by identifying and investigating valuable research
-questions and problems is a core function of research. Research publications
-often suggest avenues for future work to extend and build upon their results.
-Considering these suggestions can contribute to developing research ideas that
-build upon previous work and produce results that tie into existing knowledge.
-Usable security and privacy researchers commonly add future work statements to
-their publications. However, our community lacks an in-depth understanding of
-their prevalence, quality, and impact on future research.
-  Our work aims to address this gap in the research literature. We reviewed all
-27 papers from the 2019 SOUPS proceedings and analyzed their future work
-statements. Additionally, we analyzed 978 publications that cite any paper from
-SOUPS 2019 proceedings to assess their future work statements' impact. We find
-that most papers from the SOUPS 2019 proceedings include future work
-statements. However, they are often unspecific or ambiguous, and not always
-easy to find. Therefore, the citing publications often matched the future work
-statements' content thematically, but rarely explicitly acknowledged them,
-indicating a limited impact. We conclude with recommendations for the usable
-security and privacy community to improve the utility of future work statements
-by making them more tangible and actionable, and avenues for future work.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.19272v1">Mitigating Disparate Impact of Differential Privacy in Federated
-  Learning through Robust Clustering</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
-  <p><b>Published on:</b> 2024-05-29T17:03:31Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Saber Malekmohammadi, Afaf Taik, Golnoosh Farnadi</p>
-    <p><b>Summary:</b> Federated Learning (FL) is a decentralized machine learning (ML) approach
-that keeps data localized and often incorporates Differential Privacy (DP) to
-enhance privacy guarantees. Similar to previous work on DP in ML, we observed
-that differentially private federated learning (DPFL) introduces performance
-disparities, particularly affecting minority groups. Recent work has attempted
-to address performance fairness in vanilla FL through clustering, but this
-method remains sensitive and prone to errors, which are further exacerbated by
-the DP noise in DPFL. To fill this gap, in this paper, we propose a novel
-clustered DPFL algorithm designed to effectively identify clients' clusters in
-highly heterogeneous settings while maintaining high accuracy with DP
-guarantees. To this end, we propose to cluster clients based on both their
-model updates and training loss values. Our proposed approach also addresses
-the server's uncertainties in clustering clients' model updates by employing
-larger batch sizes along with Gaussian Mixture Model (GMM) to alleviate the
-impact of noise and potential clustering errors, especially in
-privacy-sensitive scenarios. We provide theoretical analysis of the
-effectiveness of our proposed approach. We also extensively evaluate our
-approach across diverse data distributions and privacy budgets and show its
-effectiveness in mitigating the disparate impact of DP in FL settings with a
-small computational cost.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.19259v1">A Privacy-Preserving Graph Encryption Scheme Based on Oblivious RAM</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-05-29T16:47:38Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Seyni Kane, Anis Bkakria</p>
-    <p><b>Summary:</b> Graph encryption schemes play a crucial role in facilitating secure queries
-on encrypted graphs hosted on untrusted servers. With applications spanning
-navigation systems, network topology, and social networks, the need to
-safeguard sensitive data becomes paramount. Existing graph encryption methods,
-however, exhibit vulnerabilities by inadvertently revealing aspects of the
-graph structure and query patterns, posing threats to security and privacy. In
-response, we propose a novel graph encryption scheme designed to mitigate
-access pattern and query pattern leakage through the integration of oblivious
-RAM and trusted execution environment techniques, exemplified by a Trusted
-Execution Environment (TEE). Our solution establishes two key security
-objectives: (1) ensuring that adversaries, when presented with an encrypted
-graph, remain oblivious to any information regarding the underlying graph, and
-(2) achieving query indistinguishability by concealing access patterns.
-Additionally, we conducted experimentation to evaluate the efficiency of the
-proposed schemes when dealing with real-world location navigation services.</p>
   </details>
 </div>
 
