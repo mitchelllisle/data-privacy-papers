@@ -2633,5 +2633,104 @@
     "categories" : [
       "cs.HC"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.19035v1",
+    "title" : "SD-BLS: Privacy Preserving Selective Disclosure and Unlinkable\n  Revocation of Verifiable Credentials",
+    "summary" : "It is of critical importance to design digital identity systems that ensure\nthe privacy of citizens as well as protecting them from issuer corruption.\nUnfortunately, what Europe's and USA's public sectors are currently developing\ndoes not offer such basic protections. We aim to solve this issue and propose a\nmethod for untraceable selective disclosure and privacy preserving revocation\nof digital credentials, using the unique homomorphic characteristics of second\norder Elliptic Curves and Boneh-Lynn-Shacham (BLS) signatures. Our approach\nensures that users can selectively reveal only the necessary credentials, while\nprotecting their privacy across multiple presentations. We also aim to protect\nusers from issuer corruption, by making it possible to apply a threshold for\nrevocation to require collective agreement among multiple revocation issuers.",
+    "updated" : "2024-06-27T09:41:13Z",
+    "published" : "2024-06-27T09:41:13Z",
+    "authors" : [
+      {
+        "name" : "Denis Roio"
+      },
+      {
+        "name" : "Rebecca Selvaggini"
+      },
+      {
+        "name" : "Andrea D'Intino"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.18940v1",
+    "title" : "Efficient Verifiable Differential Privacy with Input Authenticity in the\n  Local and Shuffle Model",
+    "summary" : "Local differential privacy (LDP) is an efficient solution for providing\nprivacy to client's sensitive data while simultaneously releasing aggregate\nstatistics without relying on a trusted central server (aggregator) as in the\ncentral model of differential privacy. The shuffle model with LDP provides an\nadditional layer of privacy, by disconnecting the link between clients and the\naggregator, further improving the utility of LDP. However, LDP has been shown\nto be vulnerable to malicious clients who can perform both input and output\nmanipulation attacks, i.e., before and after applying the LDP mechanism, to\nskew the aggregator's results. In this work, we show how to prevent malicious\nclients from compromising LDP schemes. Specifically, we give efficient\nconstructions to prevent both input \\'and output manipulation attacks from\nmalicious clients for generic LDP algorithms. Our proposed schemes for\nverifiable LDP (VLDP), completely protect from output manipulation attacks, and\nprevent input attacks using signed data, requiring only one-time interaction\nbetween client and server, unlike existing alternatives [28, 33]. Most\nimportantly, we are the first to provide an efficient scheme for VLDP in the\nshuffle model. We describe and prove secure, two schemes for VLDP in the\nregular model, and one in the shuffle model. We show that all schemes are\nhighly practical, with client runtimes of < 2 seconds, and server runtimes of\n5-7 milliseconds per client.",
+    "updated" : "2024-06-27T07:12:28Z",
+    "published" : "2024-06-27T07:12:28Z",
+    "authors" : [
+      {
+        "name" : "Tariq Bontekoe"
+      },
+      {
+        "name" : "Hassan Jameel Asghar"
+      },
+      {
+        "name" : "Fatih Turkmen"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.18812v1",
+    "title" : "A Survey on Privacy Attacks Against Digital Twin Systems in AI-Robotics",
+    "summary" : "Industry 4.0 has witnessed the rise of complex robots fueled by the\nintegration of Artificial Intelligence/Machine Learning (AI/ML) and Digital\nTwin (DT) technologies. While these technologies offer numerous benefits, they\nalso introduce potential privacy and security risks. This paper surveys privacy\nattacks targeting robots enabled by AI and DT models. Exfiltration and data\nleakage of ML models are discussed in addition to the potential extraction of\nmodels derived from first-principles (e.g., physics-based). We also discuss\ndesign considerations with DT-integrated robotics touching on the impact of ML\nmodel training, responsible AI and DT safeguards, data governance and ethical\nconsiderations on the effectiveness of these attacks. We advocate for a trusted\nautonomy approach, emphasizing the need to combine robotics, AI, and DT\ntechnologies with robust ethical frameworks and trustworthiness principles for\nsecure and reliable AI robotic systems.",
+    "updated" : "2024-06-27T00:59:20Z",
+    "published" : "2024-06-27T00:59:20Z",
+    "authors" : [
+      {
+        "name" : "Ivan A. Fernandez"
+      },
+      {
+        "name" : "Subash Neupane"
+      },
+      {
+        "name" : "Trisha Chakraborty"
+      },
+      {
+        "name" : "Shaswata Mitra"
+      },
+      {
+        "name" : "Sudip Mittal"
+      },
+      {
+        "name" : "Nisha Pillai"
+      },
+      {
+        "name" : "Jingdao Chen"
+      },
+      {
+        "name" : "Shahram Rahimi"
+      }
+    ],
+    "categories" : [
+      "cs.RO",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.18731v1",
+    "title" : "WavRx: a Disease-Agnostic, Generalizable, and Privacy-Preserving Speech\n  Health Diagnostic Model",
+    "summary" : "Speech is known to carry health-related attributes, which has emerged as a\nnovel venue for remote and long-term health monitoring. However, existing\nmodels are usually tailored for a specific type of disease, and have been shown\nto lack generalizability across datasets. Furthermore, concerns have been\nraised recently towards the leakage of speaker identity from health embeddings.\nTo mitigate these limitations, we propose WavRx, a speech health diagnostics\nmodel that captures the respiration and articulation related dynamics from a\nuniversal speech representation. Our in-domain and cross-domain experiments on\nsix pathological speech datasets demonstrate WavRx as a new state-of-the-art\nhealth diagnostic model. Furthermore, we show that the amount of speaker\nidentity entailed in the WavRx health embeddings is significantly reduced\nwithout extra guidance during training. An in-depth analysis of the model was\nperformed, thus providing physiological interpretation of its improved\ngeneralizability and privacy-preserving ability.",
+    "updated" : "2024-06-26T19:59:21Z",
+    "published" : "2024-06-26T19:59:21Z",
+    "authors" : [
+      {
+        "name" : "Yi Zhu"
+      },
+      {
+        "name" : "Tiago Falk"
+      }
+    ],
+    "categories" : [
+      "eess.AS",
+      "cs.AI",
+      "cs.CL"
+    ]
   }
 ]
