@@ -2,6 +2,111 @@
 <h2>2024-06</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2406.19035v1">SD-BLS: Privacy Preserving Selective Disclosure and Unlinkable
+  Revocation of Verifiable Credentials</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-06-27T09:41:13Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Denis Roio, Rebecca Selvaggini, Andrea D'Intino</p>
+    <p><b>Summary:</b> It is of critical importance to design digital identity systems that ensure
+the privacy of citizens as well as protecting them from issuer corruption.
+Unfortunately, what Europe's and USA's public sectors are currently developing
+does not offer such basic protections. We aim to solve this issue and propose a
+method for untraceable selective disclosure and privacy preserving revocation
+of digital credentials, using the unique homomorphic characteristics of second
+order Elliptic Curves and Boneh-Lynn-Shacham (BLS) signatures. Our approach
+ensures that users can selectively reveal only the necessary credentials, while
+protecting their privacy across multiple presentations. We also aim to protect
+users from issuer corruption, by making it possible to apply a threshold for
+revocation to require collective agreement among multiple revocation issuers.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2406.18940v1">Efficient Verifiable Differential Privacy with Input Authenticity in the
+  Local and Shuffle Model</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-06-27T07:12:28Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Tariq Bontekoe, Hassan Jameel Asghar, Fatih Turkmen</p>
+    <p><b>Summary:</b> Local differential privacy (LDP) is an efficient solution for providing
+privacy to client's sensitive data while simultaneously releasing aggregate
+statistics without relying on a trusted central server (aggregator) as in the
+central model of differential privacy. The shuffle model with LDP provides an
+additional layer of privacy, by disconnecting the link between clients and the
+aggregator, further improving the utility of LDP. However, LDP has been shown
+to be vulnerable to malicious clients who can perform both input and output
+manipulation attacks, i.e., before and after applying the LDP mechanism, to
+skew the aggregator's results. In this work, we show how to prevent malicious
+clients from compromising LDP schemes. Specifically, we give efficient
+constructions to prevent both input \'and output manipulation attacks from
+malicious clients for generic LDP algorithms. Our proposed schemes for
+verifiable LDP (VLDP), completely protect from output manipulation attacks, and
+prevent input attacks using signed data, requiring only one-time interaction
+between client and server, unlike existing alternatives [28, 33]. Most
+importantly, we are the first to provide an efficient scheme for VLDP in the
+shuffle model. We describe and prove secure, two schemes for VLDP in the
+regular model, and one in the shuffle model. We show that all schemes are
+highly practical, with client runtimes of < 2 seconds, and server runtimes of
+5-7 milliseconds per client.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2406.18812v1">A Survey on Privacy Attacks Against Digital Twin Systems in AI-Robotics</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Robotics-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-06-27T00:59:20Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ivan A. Fernandez, Subash Neupane, Trisha Chakraborty, Shaswata Mitra, Sudip Mittal, Nisha Pillai, Jingdao Chen, Shahram Rahimi</p>
+    <p><b>Summary:</b> Industry 4.0 has witnessed the rise of complex robots fueled by the
+integration of Artificial Intelligence/Machine Learning (AI/ML) and Digital
+Twin (DT) technologies. While these technologies offer numerous benefits, they
+also introduce potential privacy and security risks. This paper surveys privacy
+attacks targeting robots enabled by AI and DT models. Exfiltration and data
+leakage of ML models are discussed in addition to the potential extraction of
+models derived from first-principles (e.g., physics-based). We also discuss
+design considerations with DT-integrated robotics touching on the impact of ML
+model training, responsible AI and DT safeguards, data governance and ethical
+considerations on the effectiveness of these attacks. We advocate for a trusted
+autonomy approach, emphasizing the need to combine robotics, AI, and DT
+technologies with robust ethical frameworks and trustworthiness principles for
+secure and reliable AI robotic systems.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2406.18731v1">WavRx: a Disease-Agnostic, Generalizable, and Privacy-Preserving Speech
+  Health Diagnostic Model</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2024-06-26T19:59:21Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yi Zhu, Tiago Falk</p>
+    <p><b>Summary:</b> Speech is known to carry health-related attributes, which has emerged as a
+novel venue for remote and long-term health monitoring. However, existing
+models are usually tailored for a specific type of disease, and have been shown
+to lack generalizability across datasets. Furthermore, concerns have been
+raised recently towards the leakage of speaker identity from health embeddings.
+To mitigate these limitations, we propose WavRx, a speech health diagnostics
+model that captures the respiration and articulation related dynamics from a
+universal speech representation. Our in-domain and cross-domain experiments on
+six pathological speech datasets demonstrate WavRx as a new state-of-the-art
+health diagnostic model. Furthermore, we show that the amount of speaker
+identity entailed in the WavRx health embeddings is significantly reduced
+without extra guidance during training. An in-depth analysis of the model was
+performed, thus providing physiological interpretation of its improved
+generalizability and privacy-preserving ability.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2406.18491v1">Enhancing Federated Learning with Adaptive Differential Privacy and
   Priority-Based Aggregation</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
@@ -2769,122 +2874,6 @@ called FEAT+, which improves the overall utility by leveraging the true local
 subgraphs. Finally, extensive experiments demonstrate that our FEAT and FEAT+
 significantly outperform the baseline approach by approximately one and four
 orders of magnitude, respectively.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.00073v1">A Novel Review of Stability Techniques for Improved Privacy-Preserving
-  Machine Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-05-31T00:30:29Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Coleman DuPlessie, Aidan Gao</p>
-    <p><b>Summary:</b> Machine learning models have recently enjoyed a significant increase in size
-and popularity. However, this growth has created concerns about dataset
-privacy. To counteract data leakage, various privacy frameworks guarantee that
-the output of machine learning models does not compromise their training data.
-However, this privatization comes at a cost by adding random noise to the
-training process, which reduces model performance. By making models more
-resistant to small changes in input and thus more stable, the necessary amount
-of noise can be decreased while still protecting privacy. This paper
-investigates various techniques to enhance stability, thereby minimizing the
-negative effects of privatization in machine learning.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.20483v1">Hiding Your Awful Online Choices Made More Efficient and Secure: A New
-  Privacy-Aware Recommender System</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-05-30T21:08:42Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shibam Mukherjee, Roman Walch, Fredrik Meisingseth, Elisabeth Lex, Christian Rechberger</p>
-    <p><b>Summary:</b> Recommender systems are an integral part of online platforms that recommend
-new content to users with similar interests. However, they demand a
-considerable amount of user activity data where, if the data is not adequately
-protected, constitute a critical threat to the user privacy. Privacy-aware
-recommender systems enable protection of such sensitive user data while still
-maintaining a similar recommendation accuracy compared to the traditional
-non-private recommender systems. However, at present, the current privacy-aware
-recommender systems suffer from a significant trade-off between privacy and
-computational efficiency. For instance, it is well known that architectures
-that rely purely on cryptographic primitives offer the most robust privacy
-guarantees, however, they suffer from substantial computational and network
-overhead. Thus, it is crucial to improve this trade-off for better performance.
-This paper presents a novel privacy-aware recommender system that combines
-privacy-aware machine learning algorithms for practical scalability and
-efficiency with cryptographic primitives like Homomorphic Encryption and
-Multi-Party Computation - without assumptions like trusted-party or secure
-hardware - for solid privacy guarantees. Experiments on standard benchmark
-datasets show that our approach results in time and memory gains by three
-orders of magnitude compared to using cryptographic primitives in a standalone
-for constructing a privacy-aware recommender system. Furthermore, for the first
-time our method makes it feasible to compute private recommendations for
-datasets containing 100 million entries, even on memory-constrained low-power
-SOC (System on Chip) devices.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.20405v1">Private Mean Estimation with Person-Level Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">  
-  <p><b>Published on:</b> 2024-05-30T18:20:35Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Sushant Agarwal, Gautam Kamath, Mahbod Majid, Argyris Mouzakis, Rose Silver, Jonathan Ullman</p>
-    <p><b>Summary:</b> We study differentially private (DP) mean estimation in the case where each
-person holds multiple samples. Commonly referred to as the "user-level"
-setting, DP here requires the usual notion of distributional stability when all
-of a person's datapoints can be modified. Informally, if $n$ people each have
-$m$ samples from an unknown $d$-dimensional distribution with bounded $k$-th
-moments, we show that
-  \[n = \tilde \Theta\left(\frac{d}{\alpha^2 m} + \frac{d }{ \alpha m^{1/2}
-\varepsilon} + \frac{d}{\alpha^{k/(k-1)} m \varepsilon} +
-\frac{d}{\varepsilon}\right)\]
-  people are necessary and sufficient to estimate the mean up to distance
-$\alpha$ in $\ell_2$-norm under $\varepsilon$-differential privacy (and its
-common relaxations). In the multivariate setting, we give computationally
-efficient algorithms under approximate DP (with slightly degraded sample
-complexity) and computationally inefficient algorithms under pure DP, and our
-nearly matching lower bounds hold for the most permissive case of approximate
-DP. Our computationally efficient estimators are based on the well known
-noisy-clipped-mean approach, but the analysis for our setting requires new
-bounds on the tails of sums of independent, vector-valued, bounded-moments
-random variables, and a new argument for bounding the bias introduced by
-clipping.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.19831v2">Just Rewrite It Again: A Post-Processing Method for Enhanced Semantic
-  Similarity and Privacy Preservation of Differentially Private Rewritten Text</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2024-05-30T08:41:33Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Stephen Meisenbacher, Florian Matthes</p>
-    <p><b>Summary:</b> The study of Differential Privacy (DP) in Natural Language Processing often
-views the task of text privatization as a $\textit{rewriting}$ task, in which
-sensitive input texts are rewritten to hide explicit or implicit private
-information. In order to evaluate the privacy-preserving capabilities of a DP
-text rewriting mechanism, $\textit{empirical privacy}$ tests are frequently
-employed. In these tests, an adversary is modeled, who aims to infer sensitive
-information (e.g., gender) about the author behind a (privatized) text. Looking
-to improve the empirical protections provided by DP rewriting methods, we
-propose a simple post-processing method based on the goal of aligning rewritten
-texts with their original counterparts, where DP rewritten texts are rewritten
-$\textit{again}$. Our results show that such an approach not only produces
-outputs that are more semantically reminiscent of the original inputs, but also
-texts which score on average better in empirical privacy evaluations.
-Therefore, our approach raises the bar for DP rewriting methods in their
-empirical privacy evaluations, providing an extra layer of protection against
-malicious adversaries.</p>
   </details>
 </div>
 
