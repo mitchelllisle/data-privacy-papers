@@ -2732,5 +2732,141 @@
       "cs.AI",
       "cs.CL"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.20088v1",
+    "title" : "Minimax And Adaptive Transfer Learning for Nonparametric Classification\n  under Distributed Differential Privacy Constraints",
+    "summary" : "This paper considers minimax and adaptive transfer learning for nonparametric\nclassification under the posterior drift model with distributed differential\nprivacy constraints. Our study is conducted within a heterogeneous framework,\nencompassing diverse sample sizes, varying privacy parameters, and data\nheterogeneity across different servers. We first establish the minimax\nmisclassification rate, precisely characterizing the effects of privacy\nconstraints, source samples, and target samples on classification accuracy. The\nresults reveal interesting phase transition phenomena and highlight the\nintricate trade-offs between preserving privacy and achieving classification\naccuracy. We then develop a data-driven adaptive classifier that achieves the\noptimal rate within a logarithmic factor across a large collection of parameter\nspaces while satisfying the same set of differential privacy constraints.\nSimulation studies and real-world data applications further elucidate the\ntheoretical analysis with numerical results.",
+    "updated" : "2024-06-28T17:55:41Z",
+    "published" : "2024-06-28T17:55:41Z",
+    "authors" : [
+      {
+        "name" : "Arnab Auddy"
+      },
+      {
+        "name" : "T. Tony Cai"
+      },
+      {
+        "name" : "Abhinav Chakraborty"
+      }
+    ],
+    "categories" : [
+      "math.ST",
+      "stat.ME",
+      "stat.ML",
+      "stat.TH",
+      "62G08, 62G20"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.19964v1",
+    "title" : "Secure Outsourced Decryption for HE-based Privacy-preserving Cloud\n  Computing System",
+    "summary" : "The demand for processing vast volumes of data has surged dramatically due to\nthe advancement of machine learning technology. Large-scale data processing\nnecessitates substantial computational resources, prompting individuals and\nenterprises to turn to cloud services. Accompanying this trend is a growing\nconcern regarding data leakage and misuse. Homomorphic encryption (HE) is one\nsolution for safeguarding data privacy, enabling encrypted data to be processed\nsecurely in the cloud. However, we observe that encryption and decryption\nroutines of some HE schemes require considerable computational resources,\npresenting non-trivial work for clients. In this paper, we propose an\noutsourced decryption protocol for RLWE-based HE schemes, which splits the\noriginal decryption into two routines, with the computationally intensive part\nexecuted remotely by the cloud. Its security relies on an invariant of the\nNTRU-search problem with a newly designed secret distribution. Cryptographic\nanalyses are conducted to configure protocol parameters across varying security\nlevels. Our experiments demonstrate that the proposed protocol achieves up to a\n$67\\%$ acceleration in the client's local decryption, accompanied by a $50\\%$\nreduction in space usage.",
+    "updated" : "2024-06-28T14:51:36Z",
+    "published" : "2024-06-28T14:51:36Z",
+    "authors" : [
+      {
+        "name" : "Xirong Ma"
+      },
+      {
+        "name" : "Chuan Li"
+      },
+      {
+        "name" : "Yuchang Hu"
+      },
+      {
+        "name" : "Yunting Tao"
+      },
+      {
+        "name" : "Yali Jiang"
+      },
+      {
+        "name" : "Yanbin Li"
+      },
+      {
+        "name" : "Fanyu Kong"
+      },
+      {
+        "name" : "Chunpeng Ge"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.19642v1",
+    "title" : "IDT: Dual-Task Adversarial Attacks for Privacy Protection",
+    "summary" : "Natural language processing (NLP) models may leak private information in\ndifferent ways, including membership inference, reconstruction or attribute\ninference attacks. Sensitive information may not be explicit in the text, but\nhidden in underlying writing characteristics. Methods to protect privacy can\ninvolve using representations inside models that are demonstrated not to detect\nsensitive attributes or -- for instance, in cases where users might not trust a\nmodel, the sort of scenario of interest here -- changing the raw text before\nmodels can have access to it. The goal is to rewrite text to prevent someone\nfrom inferring a sensitive attribute (e.g. the gender of the author, or their\nlocation by the writing style) whilst keeping the text useful for its original\nintention (e.g. the sentiment of a product review). The few works tackling this\nhave focused on generative techniques. However, these often create extensively\ndifferent texts from the original ones or face problems such as mode collapse.\nThis paper explores a novel adaptation of adversarial attack techniques to\nmanipulate a text to deceive a classifier w.r.t one task (privacy) whilst\nkeeping the predictions of another classifier trained for another task\n(utility) unchanged. We propose IDT, a method that analyses predictions made by\nauxiliary and interpretable models to identify which tokens are important to\nchange for the privacy task, and which ones should be kept for the utility\ntask. We evaluate different datasets for NLP suitable for different tasks.\nAutomatic and human evaluations show that IDT retains the utility of text,\nwhile also outperforming existing methods when deceiving a classifier w.r.t\nprivacy task.",
+    "updated" : "2024-06-28T04:14:35Z",
+    "published" : "2024-06-28T04:14:35Z",
+    "authors" : [
+      {
+        "name" : "Pedro Faustini"
+      },
+      {
+        "name" : "Shakila Mahjabin Tonni"
+      },
+      {
+        "name" : "Annabelle McIver"
+      },
+      {
+        "name" : "Qiongkai Xu"
+      },
+      {
+        "name" : "Mark Dras"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.19418v1",
+    "title" : "A Quantization-based Technique for Privacy Preserving Distributed\n  Learning",
+    "summary" : "The massive deployment of Machine Learning (ML) models raises serious\nconcerns about data protection. Privacy-enhancing technologies (PETs) offer a\npromising first step, but hard challenges persist in achieving confidentiality\nand differential privacy in distributed learning. In this paper, we describe a\nnovel, regulation-compliant data protection technique for the distributed\ntraining of ML models, applicable throughout the ML life cycle regardless of\nthe underlying ML architecture. Designed from the data owner's perspective, our\nmethod protects both training data and ML model parameters by employing a\nprotocol based on a quantized multi-hash data representation Hash-Comb combined\nwith randomization. The hyper-parameters of our scheme can be shared using\nstandard Secure Multi-Party computation protocols. Our experimental results\ndemonstrate the robustness and accuracy-preserving properties of our approach.",
+    "updated" : "2024-06-26T14:54:12Z",
+    "published" : "2024-06-26T14:54:12Z",
+    "authors" : [
+      {
+        "name" : "Maurizio Colombo"
+      },
+      {
+        "name" : "Rasool Asal"
+      },
+      {
+        "name" : "Ernesto Damiani"
+      },
+      {
+        "name" : "Lamees Mahmoud AlQassem"
+      },
+      {
+        "name" : "Al Anoud Almemari"
+      },
+      {
+        "name" : "Yousof Alhammadi"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.11323v2",
+    "title" : "Transparency, Privacy, and Fairness in Recommender Systems",
+    "summary" : "Recommender systems have become a pervasive part of our daily online\nexperience, and are one of the most widely used applications of artificial\nintelligence and machine learning. Therefore, regulations and requirements for\ntrustworthy artificial intelligence, for example, the European AI Act, which\nincludes notions such as transparency, privacy, and fairness are also highly\nrelevant for the design of recommender systems in practice. This habilitation\nelaborates on aspects related to these three notions in the light of\nrecommender systems, namely: (i) transparency and cognitive models, (ii)\nprivacy and limited preference information, and (iii) fairness and popularity\nbias in recommender systems. Specifically, with respect to aspect (i), we\nhighlight the usefulness of incorporating psychological theories for a\ntransparent design process of recommender systems. We term this type of systems\npsychology-informed recommender systems. In aspect (ii), we study and address\nthe trade-off between accuracy and privacy in differentially-private\nrecommendations. We design a novel recommendation approach for collaborative\nfiltering based on an efficient neighborhood reuse concept, which reduces the\nnumber of users that need to be protected with differential privacy.\nFurthermore, we address the related issue of limited availability of user\npreference information, e.g., click data, in the settings of session-based and\ncold-start recommendations. With respect to aspect (iii), we analyze popularity\nbias in recommender systems. We find that the recommendation frequency of an\nitem is positively correlated with this item's popularity. This also leads to\nthe unfair treatment of users with little interest in popular content. Finally,\nwe study long-term fairness dynamics in algorithmic decision support in the\nlabor market using agent-based modeling techniques.",
+    "updated" : "2024-06-28T10:43:01Z",
+    "published" : "2024-06-17T08:37:14Z",
+    "authors" : [
+      {
+        "name" : "Dominik Kowald"
+      }
+    ],
+    "categories" : [
+      "cs.IR"
+    ]
   }
 ]
