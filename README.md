@@ -2,6 +2,95 @@
 <h2>2024-06</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2406.20088v1">Minimax And Adaptive Transfer Learning for Nonparametric Classification
+  under Distributed Differential Privacy Constraints</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36">    
+  <p><b>Published on:</b> 2024-06-28T17:55:41Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Arnab Auddy, T. Tony Cai, Abhinav Chakraborty</p>
+    <p><b>Summary:</b> This paper considers minimax and adaptive transfer learning for nonparametric
+classification under the posterior drift model with distributed differential
+privacy constraints. Our study is conducted within a heterogeneous framework,
+encompassing diverse sample sizes, varying privacy parameters, and data
+heterogeneity across different servers. We first establish the minimax
+misclassification rate, precisely characterizing the effects of privacy
+constraints, source samples, and target samples on classification accuracy. The
+results reveal interesting phase transition phenomena and highlight the
+intricate trade-offs between preserving privacy and achieving classification
+accuracy. We then develop a data-driven adaptive classifier that achieves the
+optimal rate within a logarithmic factor across a large collection of parameter
+spaces while satisfying the same set of differential privacy constraints.
+Simulation studies and real-world data applications further elucidate the
+theoretical analysis with numerical results.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2406.19964v1">Secure Outsourced Decryption for HE-based Privacy-preserving Cloud
+  Computing System</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-06-28T14:51:36Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xirong Ma, Chuan Li, Yuchang Hu, Yunting Tao, Yali Jiang, Yanbin Li, Fanyu Kong, Chunpeng Ge</p>
+    <p><b>Summary:</b> The demand for processing vast volumes of data has surged dramatically due to
+the advancement of machine learning technology. Large-scale data processing
+necessitates substantial computational resources, prompting individuals and
+enterprises to turn to cloud services. Accompanying this trend is a growing
+concern regarding data leakage and misuse. Homomorphic encryption (HE) is one
+solution for safeguarding data privacy, enabling encrypted data to be processed
+securely in the cloud. However, we observe that encryption and decryption
+routines of some HE schemes require considerable computational resources,
+presenting non-trivial work for clients. In this paper, we propose an
+outsourced decryption protocol for RLWE-based HE schemes, which splits the
+original decryption into two routines, with the computationally intensive part
+executed remotely by the cloud. Its security relies on an invariant of the
+NTRU-search problem with a newly designed secret distribution. Cryptographic
+analyses are conducted to configure protocol parameters across varying security
+levels. Our experiments demonstrate that the proposed protocol achieves up to a
+$67\%$ acceleration in the client's local decryption, accompanied by a $50\%$
+reduction in space usage.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2406.19642v1">IDT: Dual-Task Adversarial Attacks for Privacy Protection</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-06-28T04:14:35Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Pedro Faustini, Shakila Mahjabin Tonni, Annabelle McIver, Qiongkai Xu, Mark Dras</p>
+    <p><b>Summary:</b> Natural language processing (NLP) models may leak private information in
+different ways, including membership inference, reconstruction or attribute
+inference attacks. Sensitive information may not be explicit in the text, but
+hidden in underlying writing characteristics. Methods to protect privacy can
+involve using representations inside models that are demonstrated not to detect
+sensitive attributes or -- for instance, in cases where users might not trust a
+model, the sort of scenario of interest here -- changing the raw text before
+models can have access to it. The goal is to rewrite text to prevent someone
+from inferring a sensitive attribute (e.g. the gender of the author, or their
+location by the writing style) whilst keeping the text useful for its original
+intention (e.g. the sentiment of a product review). The few works tackling this
+have focused on generative techniques. However, these often create extensively
+different texts from the original ones or face problems such as mode collapse.
+This paper explores a novel adaptation of adversarial attack techniques to
+manipulate a text to deceive a classifier w.r.t one task (privacy) whilst
+keeping the predictions of another classifier trained for another task
+(utility) unchanged. We propose IDT, a method that analyses predictions made by
+auxiliary and interpretable models to identify which tokens are important to
+change for the privacy task, and which ones should be kept for the utility
+task. We evaluate different datasets for NLP suitable for different tasks.
+Automatic and human evaluations show that IDT retains the utility of text,
+while also outperforming existing methods when deceiving a classifier w.r.t
+privacy task.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2406.19035v1">SD-BLS: Privacy Preserving Selective Disclosure and Unlinkable
   Revocation of Verifiable Credentials</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
@@ -132,6 +221,30 @@ adjusting properties. To fulfill the DP requirements, we first analyze the
 convergence boundary of the FL algorithm when impact factors are personalized
 and fixed throughout the learning process. We then further study the
 convergence property considering time-varying (adaptive) impact factors.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2406.19418v1">A Quantization-based Technique for Privacy Preserving Distributed
+  Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-06-26T14:54:12Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Maurizio Colombo, Rasool Asal, Ernesto Damiani, Lamees Mahmoud AlQassem, Al Anoud Almemari, Yousof Alhammadi</p>
+    <p><b>Summary:</b> The massive deployment of Machine Learning (ML) models raises serious
+concerns about data protection. Privacy-enhancing technologies (PETs) offer a
+promising first step, but hard challenges persist in achieving confidentiality
+and differential privacy in distributed learning. In this paper, we describe a
+novel, regulation-compliant data protection technique for the distributed
+training of ML models, applicable throughout the ML life cycle regardless of
+the underlying ML architecture. Designed from the data owner's perspective, our
+method protects both training data and ML model parameters by employing a
+protocol based on a quantized multi-hash data representation Hash-Comb combined
+with randomization. The hyper-parameters of our scheme can be shared using
+standard Secure Multi-Party computation protocols. Our experimental results
+demonstrate the robustness and accuracy-preserving properties of our approach.</p>
   </details>
 </div>
 
@@ -1089,7 +1202,7 @@ of 0.93 and a low false positive rate of 0.06.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.11323v1">Transparency, Privacy, and Fairness in Recommender Systems</a></h3>
+  <h3><a href="http://arxiv.org/abs/2406.11323v2">Transparency, Privacy, and Fairness in Recommender Systems</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB">
   <p><b>Published on:</b> 2024-06-17T08:37:14Z</p>
   <details>
@@ -2749,131 +2862,6 @@ senders and receivers by applying a random permutation. The estimation phase
 involves using inaccurate data to calculate an approximate aggregate value.
 Extensive simulations are provided to explore the privacy-utility landscape of
 our RASE.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.20900v1">Large Language Models: A New Approach for Privacy Policy Analysis at
-  Scale</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2024-05-31T15:12:33Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> David Rodriguez, Ian Yang, Jose M. Del Alamo, Norman Sadeh</p>
-    <p><b>Summary:</b> The number and dynamic nature of web and mobile applications presents
-significant challenges for assessing their compliance with data protection
-laws. In this context, symbolic and statistical Natural Language Processing
-(NLP) techniques have been employed for the automated analysis of these
-systems' privacy policies. However, these techniques typically require
-labor-intensive and potentially error-prone manually annotated datasets for
-training and validation. This research proposes the application of Large
-Language Models (LLMs) as an alternative for effectively and efficiently
-extracting privacy practices from privacy policies at scale. Particularly, we
-leverage well-known LLMs such as ChatGPT and Llama 2, and offer guidance on the
-optimal design of prompts, parameters, and models, incorporating advanced
-strategies such as few-shot learning. We further illustrate its capability to
-detect detailed and varied privacy practices accurately. Using several renowned
-datasets in the domain as a benchmark, our evaluation validates its exceptional
-performance, achieving an F1 score exceeding 93%. Besides, it does so with
-reduced costs, faster processing times, and fewer technical knowledge
-requirements. Consequently, we advocate for LLM-based solutions as a sound
-alternative to traditional NLP techniques for the automated analysis of privacy
-policies at scale.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.20761v1">Share Your Secrets for Privacy! Confidential Forecasting with Vertical
-  Federated Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
-  <p><b>Published on:</b> 2024-05-31T12:27:38Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Aditya Shankar, Lydia Y. Chen, Jérémie Decouchant, Dimitra Gkorou, Rihan Hai</p>
-    <p><b>Summary:</b> Vertical federated learning (VFL) is a promising area for time series
-forecasting in industrial applications, such as predictive maintenance and
-machine control. Critical challenges to address in manufacturing include data
-privacy and over-fitting on small and noisy datasets during both training and
-inference. Additionally, to increase industry adaptability, such forecasting
-models must scale well with the number of parties while ensuring strong
-convergence and low-tuning complexity. We address those challenges and propose
-'Secret-shared Time Series Forecasting with VFL' (STV), a novel framework that
-exhibits the following key features: i) a privacy-preserving algorithm for
-forecasting with SARIMAX and autoregressive trees on vertically partitioned
-data; ii) serverless forecasting using secret sharing and multi-party
-computation; iii) novel N-party algorithms for matrix multiplication and
-inverse operations for direct parameter optimization, giving strong convergence
-with minimal hyperparameter tuning complexity. We conduct evaluations on six
-representative datasets from public and industry-specific contexts. Our results
-demonstrate that STV's forecasting accuracy is comparable to those of
-centralized approaches. They also show that our direct optimization can
-outperform centralized methods, which include state-of-the-art diffusion models
-and long-short-term memory, by 23.81% on forecasting accuracy. We also conduct
-a scalability analysis by examining the communication costs of direct and
-iterative optimization to navigate the choice between the two. Code and
-appendix are available: https://github.com/adis98/STV</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.20681v1">No Free Lunch Theorem for Privacy-Preserving LLM Inference</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2024-05-31T08:22:53Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Xiaojin Zhang, Yulin Fei, Yan Kang, Wei Chen, Lixin Fan, Hai Jin, Qiang Yang</p>
-    <p><b>Summary:</b> Individuals and businesses have been significantly benefited by Large
-Language Models (LLMs) including PaLM, Gemini and ChatGPT in various ways. For
-example, LLMs enhance productivity, reduce costs, and enable us to focus on
-more valuable tasks. Furthermore, LLMs possess the capacity to sift through
-extensive datasets, uncover underlying patterns, and furnish critical insights
-that propel the frontiers of technology and science. However, LLMs also pose
-privacy concerns. Users' interactions with LLMs may expose their sensitive
-personal or company information. A lack of robust privacy safeguards and legal
-frameworks could permit the unwarranted intrusion or improper handling of
-individual data, thereby risking infringements of privacy and the theft of
-personal identities. To ensure privacy, it is essential to minimize the
-dependency between shared prompts and private information. Various
-randomization approaches have been proposed to protect prompts' privacy, but
-they may incur utility loss compared to unprotected LLMs prompting. Therefore,
-it is essential to evaluate the balance between the risk of privacy leakage and
-loss of utility when conducting effective protection mechanisms. The current
-study develops a framework for inferring privacy-protected Large Language
-Models (LLMs) and lays down a solid theoretical basis for examining the
-interplay between privacy preservation and utility. The core insight is
-encapsulated within a theorem that is called as the NFL (abbreviation of the
-word No-Free-Lunch) Theorem.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2405.20576v1">Federated Graph Analytics with Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-05-31T02:09:43Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shang Liu, Yang Cao, Takao Murakami, Weiran Liu, Seng Pei Liew, Tsubasa Takahashi, Jinfei Liu, Masatoshi Yoshikawa</p>
-    <p><b>Summary:</b> Collaborative graph analysis across multiple institutions is becoming
-increasingly popular. Realistic examples include social network analysis across
-various social platforms, financial transaction analysis across multiple banks,
-and analyzing the transmission of infectious diseases across multiple
-hospitals. We define the federated graph analytics, a new problem for
-collaborative graph analytics under differential privacy. Although
-differentially private graph analysis has been widely studied, it fails to
-achieve a good tradeoff between utility and privacy in federated scenarios, due
-to the limited view of local clients and overlapping information across
-multiple subgraphs. Motivated by this, we first propose a federated graph
-analytic framework, named FEAT, which enables arbitrary downstream common graph
-statistics while preserving individual privacy. Furthermore, we introduce an
-optimized framework based on our proposed degree-based partition algorithm,
-called FEAT+, which improves the overall utility by leveraging the true local
-subgraphs. Finally, extensive experiments demonstrate that our FEAT and FEAT+
-significantly outperform the baseline approach by approximately one and four
-orders of magnitude, respectively.</p>
   </details>
 </div>
 
