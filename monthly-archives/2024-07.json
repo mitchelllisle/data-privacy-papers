@@ -1,1 +1,230 @@
-[{"id":"http://arxiv.org/abs/2407.02268v1","title":"Footprints of Data in a Classifier Model: The Privacy Issues and Their\n  Mitigation through Data Obfuscation","summary":"The avalanche of AI deployment and its security-privacy concerns are two\nsides of the same coin. Article 17 of GDPR calls for the Right to Erasure; data\nhas to be obliterated from a system to prevent its compromise. Extant research\nin this aspect focuses on effacing sensitive data attributes. However, several\npassive modes of data compromise are yet to be recognized and redressed. The\nembedding of footprints of training data in a prediction model is one such\nfacet; the difference in performance quality in test and training data causes\npassive identification of data that have trained the model. This research\nfocuses on addressing the vulnerability arising from the data footprints. The\nthree main aspects are -- i] exploring the vulnerabilities of different\nclassifiers (to segregate the vulnerable and the non-vulnerable ones), ii]\nreducing the vulnerability of vulnerable classifiers (through data obfuscation)\nto preserve model and data privacy, and iii] exploring the privacy-performance\ntradeoff to study the usability of the data obfuscation techniques. An\nempirical study is conducted on three datasets and eight classifiers to explore\nthe above objectives. The results of the initial research identify the\nvulnerability in classifiers and segregate the vulnerable and non-vulnerable\nclassifiers. The additional experiments on data obfuscation techniques reveal\ntheir utility to render data and model privacy and also their capability to\nchalk out a privacy-performance tradeoff in most scenarios. The results can aid\nthe practitioners with their choice of classifiers in different scenarios and\ncontexts.","updated":"2024-07-02T13:56:37Z","published":"2024-07-02T13:56:37Z","authors":[{"name":"Payel Sadhukhan"},{"name":"Tanujit Chakraborty"}],"categories":["cs.CR","cs.AI"]},{"id":"http://arxiv.org/abs/2407.02226v1","title":"RollupTheCrowd: Leveraging ZkRollups for a Scalable and\n  Privacy-Preserving Reputation-based Crowdsourcing Platform","summary":"Current blockchain-based reputation solutions for crowdsourcing fail to\ntackle the challenge of ensuring both efficiency and privacy without\ncompromising the scalability of the blockchain. Developing an effective,\ntransparent, and privacy-preserving reputation model necessitates on-chain\nimplementation using smart contracts. However, managing task evaluation and\nreputation updates alongside crowdsourcing transactions on-chain substantially\nstrains system scalability and performance. This paper introduces\nRollupTheCrowd, a novel blockchain-powered crowdsourcing framework that\nleverages zkRollups to enhance system scalability while protecting user\nprivacy. Our framework includes an effective and privacy-preserving reputation\nmodel that gauges workers' trustworthiness by assessing their crowdsourcing\ninteractions. To alleviate the load on our blockchain, we employ an off-chain\nstorage scheme, optimizing RollupTheCrowd's performance. Utilizing smart\ncontracts and zero-knowledge proofs, our Rollup layer achieves a significant\n20x reduction in gas consumption. To prove the feasibility of the proposed\nframework, we developed a proof-of-concept implementation using cutting-edge\ntools. The experimental results presented in this paper demonstrate the\neffectiveness and scalability of RollupTheCrowd, validating its potential for\nreal-world application scenarios.","updated":"2024-07-02T12:51:32Z","published":"2024-07-02T12:51:32Z","authors":[{"name":"Ahmed Mounsf Rafik Bendada"},{"name":"Mouhamed Amine Bouchiha"},{"name":"Mourad Rabah"},{"name":"Yacine Ghamri-Doudane"}],"categories":["cs.CR"]},{"id":"http://arxiv.org/abs/2407.02191v1","title":"Attack-Aware Noise Calibration for Differential Privacy","summary":"Differential privacy (DP) is a widely used approach for mitigating privacy\nrisks when training machine learning models on sensitive data. DP mechanisms\nadd noise during training to limit the risk of information leakage. The scale\nof the added noise is critical, as it determines the trade-off between privacy\nand utility. The standard practice is to select the noise scale in terms of a\nprivacy budget parameter $\\epsilon$. This parameter is in turn interpreted in\nterms of operational attack risk, such as accuracy, or sensitivity and\nspecificity of inference attacks against the privacy of the data. We\ndemonstrate that this two-step procedure of first calibrating the noise scale\nto a privacy budget $\\epsilon$, and then translating $\\epsilon$ to attack risk\nleads to overly conservative risk assessments and unnecessarily low utility. We\npropose methods to directly calibrate the noise scale to a desired attack risk\nlevel, bypassing the intermediate step of choosing $\\epsilon$. For a target\nattack risk, our approach significantly decreases noise scale, leading to\nincreased utility at the same level of privacy. We empirically demonstrate that\ncalibrating noise to attack sensitivity/specificity, rather than $\\epsilon$,\nwhen training privacy-preserving ML models substantially improves model\naccuracy for the same risk level. Our work provides a principled and practical\nway to improve the utility of privacy-preserving ML without compromising on\nprivacy.","updated":"2024-07-02T11:49:59Z","published":"2024-07-02T11:49:59Z","authors":[{"name":"Bogdan Kulynych"},{"name":"Juan Felipe Gomez"},{"name":"Georgios Kaissis"},{"name":"Flavio du Pin Calmon"},{"name":"Carmela Troncoso"}],"categories":["cs.LG","cs.AI","cs.CR","math.ST","stat.ML","stat.TH"]},{"id":"http://arxiv.org/abs/2407.02027v1","title":"Privacy Risks of General-Purpose AI Systems: A Foundation for\n  Investigating Practitioner Perspectives","summary":"The rise of powerful AI models, more formally $\\textit{General-Purpose AI\nSystems}$ (GPAIS), has led to impressive leaps in performance across a wide\nrange of tasks. At the same time, researchers and practitioners alike have\nraised a number of privacy concerns, resulting in a wealth of literature\ncovering various privacy risks and vulnerabilities of AI models. Works\nsurveying such risks provide differing focuses, leading to disparate sets of\nprivacy risks with no clear unifying taxonomy. We conduct a systematic review\nof these survey papers to provide a concise and usable overview of privacy\nrisks in GPAIS, as well as proposed mitigation strategies. The developed\nprivacy framework strives to unify the identified privacy risks and mitigations\nat a technical level that is accessible to non-experts. This serves as the\nbasis for a practitioner-focused interview study to assess technical\nstakeholder perceptions of privacy risks and mitigations in GPAIS.","updated":"2024-07-02T07:49:48Z","published":"2024-07-02T07:49:48Z","authors":[{"name":"Stephen Meisenbacher"},{"name":"Alexandra Klymenko"},{"name":"Patrick Gage Kelley"},{"name":"Sai Teja Peddinti"},{"name":"Kurt Thomas"},{"name":"Florian Matthes"}],"categories":["cs.CY"]},{"id":"http://arxiv.org/abs/2407.01817v1","title":"Race and Privacy in Broadcast Police Communications","summary":"Radios are essential for the operations of modern police departments, and\nthey function as both a collaborative communication technology and a\nsociotechnical system. However, little prior research has examined their usage\nor their connections to individual privacy and the role of race in policing,\ntwo growing topics of concern in the US. As a case study, we examine the\nChicago Police Department's (CPD's) use of broadcast police communications\n(BPC) to coordinate the activity of law enforcement officers (LEOs) in the\ncity. From a recently assembled archive of 80,775 hours of BPC associated with\nCPD operations, we analyze text transcripts of radio transmissions broadcast\n9:00 AM to 5:00 PM on August 10th, 2018 in one majority Black, one majority\nwhite, and one majority Hispanic area of the city (24 hours of audio) to\nexplore three research questions: (1) Do BPC reflect reported racial\ndisparities in policing? (2) How and when is gender, race/ethnicity, and age\nmentioned in BPC? (3) To what extent do BPC include sensitive information, and\nwho is put at most risk by this practice? (4) To what extent can large language\nmodels (LLMs) heighten this risk? We explore the vocabulary and speech acts\nused by police in BPC, comparing mentions of personal characteristics to local\ndemographics, the personal information shared over BPC, and the privacy\nconcerns that it poses. Analysis indicates (a) policing professionals in the\ncity of Chicago exhibit disproportionate attention to Black members of the\npublic regardless of context, (b) sociodemographic characteristics like gender,\nrace/ethnicity, and age are primarily mentioned in BPC about event information,\nand (c) disproportionate attention introduces disproportionate privacy risks\nfor Black members of the public.","updated":"2024-07-01T21:34:51Z","published":"2024-07-01T21:34:51Z","authors":[{"name":"Pranav Narayanan Venkit"},{"name":"Christopher Graziul"},{"name":"Miranda Ardith Goodman"},{"name":"Samantha Nicole Kenny"},{"name":"Shomir Wilson"}],"categories":["cs.CL","cs.CY","cs.HC"]},{"id":"http://arxiv.org/abs/2407.01334v1","title":"Protecting Privacy in Classifiers by Token Manipulation","summary":"Using language models as a remote service entails sending private information\nto an untrusted provider. In addition, potential eavesdroppers can intercept\nthe messages, thereby exposing the information. In this work, we explore the\nprospects of avoiding such data exposure at the level of text manipulation. We\nfocus on text classification models, examining various token mapping and\ncontextualized manipulation functions in order to see whether classifier\naccuracy may be maintained while keeping the original text unrecoverable. We\nfind that although some token mapping functions are easy and straightforward to\nimplement, they heavily influence performance on the downstream task, and via a\nsophisticated attacker can be reconstructed. In comparison, the contextualized\nmanipulation provides an improvement in performance.","updated":"2024-07-01T14:41:59Z","published":"2024-07-01T14:41:59Z","authors":[{"name":"Re'em Harel"},{"name":"Yair Elboher"},{"name":"Yuval Pinter"}],"categories":["cs.CL","cs.CR"]},{"id":"http://arxiv.org/abs/2407.01167v1","title":"Information Density Bounds for Privacy","summary":"This paper explores the implications of guaranteeing privacy by imposing a\nlower bound on the information density between the private and the public data.\nWe introduce an operationally meaningful privacy measure called pointwise\nmaximal cost (PMC) and demonstrate that imposing an upper bound on PMC is\nequivalent to enforcing a lower bound on the information density. PMC\nquantifies the information leakage about a secret to adversaries who aim to\nminimize non-negative cost functions after observing the outcome of a privacy\nmechanism. When restricted to finite alphabets, PMC can equivalently be defined\nas the information leakage to adversaries aiming to minimize the probability of\nincorrectly guessing randomized functions of the secret. We study the\nproperties of PMC and apply it to standard privacy mechanisms to demonstrate\nits practical relevance. Through a detailed examination, we connect PMC with\nother privacy measures that impose upper or lower bounds on the information\ndensity. Our results highlight that lower bounding the information density is a\nmore stringent requirement than upper bounding it. Overall, our work\nsignificantly bridges the gaps in understanding the relationships between\nvarious privacy frameworks and provides insights for selecting a suitable\nframework for a given application.","updated":"2024-07-01T10:38:02Z","published":"2024-07-01T10:38:02Z","authors":[{"name":"Sara Saeidian"},{"name":"Leonhard Grosse"},{"name":"Parastoo Sadeghi"},{"name":"Mikael Skoglund"},{"name":"Tobias J. Oechtering"}],"categories":["cs.IT","cs.CR","math.IT"]},{"id":"http://arxiv.org/abs/2407.00991v1","title":"Pre-capture Privacy via Adaptive Single-Pixel Imaging","summary":"As cameras become ubiquitous in our living environment, invasion of privacy\nis becoming a growing concern. A common approach to privacy preservation is to\nremove personally identifiable information from a captured image, but there is\na risk of the original image being leaked. In this paper, we propose a\npre-capture privacy-aware imaging method that captures images from which the\ndetails of a pre-specified anonymized target have been eliminated. The proposed\nmethod applies a single-pixel imaging framework in which we introduce a\nfeedback mechanism called an aperture pattern generator. The introduced\naperture pattern generator adaptively outputs the next aperture pattern to\navoid sampling the anonymized target by exploiting the data already acquired as\na clue. Furthermore, the anonymized target can be set to any object without\nchanging hardware. Except for detailed features which have been removed from\nthe anonymized target, the captured images are of comparable quality to those\ncaptured by a general camera and can be used for various computer vision\napplications. In our work, we target faces and license plates and\nexperimentally show that the proposed method can capture clear images in which\ndetailed features of the anonymized target are eliminated to achieve both\nprivacy and utility.","updated":"2024-07-01T06:05:12Z","published":"2024-07-01T06:05:12Z","authors":[{"name":"Yoko Sogabe"},{"name":"Shiori Sugimoto"},{"name":"Ayumi Matsumoto"},{"name":"Masaki Kitahara"}],"categories":["eess.IV"]},{"id":"http://arxiv.org/abs/2407.00873v1","title":"Privacy-First Crowdsourcing: Blockchain and Local Differential Privacy\n  in Crowdsourced Drone Services","summary":"We introduce a privacy-preserving framework for integrating consumer-grade\ndrones into bushfire management. This system creates a marketplace where\nbushfire management authorities obtain essential data from drone operators. Key\nfeatures include local differential privacy to protect data providers and a\nblockchain-based solution ensuring fair data exchanges and accountability. The\nframework is validated through a proof-of-concept implementation, demonstrating\nits scalability and potential for various large-scale data collection\nscenarios. This approach addresses privacy concerns and compliance with\nregulations like Australia's Privacy Act 1988, offering a practical solution\nfor enhancing bushfire detection and management through crowdsourced drone\nservices.","updated":"2024-07-01T00:46:25Z","published":"2024-07-01T00:46:25Z","authors":[{"name":"Junaid Akram"},{"name":"Ali Anaissi"}],"categories":["cs.CR","cs.DC"]}]
+[
+  {
+    "id" : "http://arxiv.org/abs/2407.02268v1",
+    "title" : "Footprints of Data in a Classifier Model: The Privacy Issues and Their\n  Mitigation through Data Obfuscation",
+    "summary" : "The avalanche of AI deployment and its security-privacy concerns are two\nsides of the same coin. Article 17 of GDPR calls for the Right to Erasure; data\nhas to be obliterated from a system to prevent its compromise. Extant research\nin this aspect focuses on effacing sensitive data attributes. However, several\npassive modes of data compromise are yet to be recognized and redressed. The\nembedding of footprints of training data in a prediction model is one such\nfacet; the difference in performance quality in test and training data causes\npassive identification of data that have trained the model. This research\nfocuses on addressing the vulnerability arising from the data footprints. The\nthree main aspects are -- i] exploring the vulnerabilities of different\nclassifiers (to segregate the vulnerable and the non-vulnerable ones), ii]\nreducing the vulnerability of vulnerable classifiers (through data obfuscation)\nto preserve model and data privacy, and iii] exploring the privacy-performance\ntradeoff to study the usability of the data obfuscation techniques. An\nempirical study is conducted on three datasets and eight classifiers to explore\nthe above objectives. The results of the initial research identify the\nvulnerability in classifiers and segregate the vulnerable and non-vulnerable\nclassifiers. The additional experiments on data obfuscation techniques reveal\ntheir utility to render data and model privacy and also their capability to\nchalk out a privacy-performance tradeoff in most scenarios. The results can aid\nthe practitioners with their choice of classifiers in different scenarios and\ncontexts.",
+    "updated" : "2024-07-02T13:56:37Z",
+    "published" : "2024-07-02T13:56:37Z",
+    "authors" : [
+      {
+        "name" : "Payel Sadhukhan"
+      },
+      {
+        "name" : "Tanujit Chakraborty"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.02226v1",
+    "title" : "RollupTheCrowd: Leveraging ZkRollups for a Scalable and\n  Privacy-Preserving Reputation-based Crowdsourcing Platform",
+    "summary" : "Current blockchain-based reputation solutions for crowdsourcing fail to\ntackle the challenge of ensuring both efficiency and privacy without\ncompromising the scalability of the blockchain. Developing an effective,\ntransparent, and privacy-preserving reputation model necessitates on-chain\nimplementation using smart contracts. However, managing task evaluation and\nreputation updates alongside crowdsourcing transactions on-chain substantially\nstrains system scalability and performance. This paper introduces\nRollupTheCrowd, a novel blockchain-powered crowdsourcing framework that\nleverages zkRollups to enhance system scalability while protecting user\nprivacy. Our framework includes an effective and privacy-preserving reputation\nmodel that gauges workers' trustworthiness by assessing their crowdsourcing\ninteractions. To alleviate the load on our blockchain, we employ an off-chain\nstorage scheme, optimizing RollupTheCrowd's performance. Utilizing smart\ncontracts and zero-knowledge proofs, our Rollup layer achieves a significant\n20x reduction in gas consumption. To prove the feasibility of the proposed\nframework, we developed a proof-of-concept implementation using cutting-edge\ntools. The experimental results presented in this paper demonstrate the\neffectiveness and scalability of RollupTheCrowd, validating its potential for\nreal-world application scenarios.",
+    "updated" : "2024-07-02T12:51:32Z",
+    "published" : "2024-07-02T12:51:32Z",
+    "authors" : [
+      {
+        "name" : "Ahmed Mounsf Rafik Bendada"
+      },
+      {
+        "name" : "Mouhamed Amine Bouchiha"
+      },
+      {
+        "name" : "Mourad Rabah"
+      },
+      {
+        "name" : "Yacine Ghamri-Doudane"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.02191v1",
+    "title" : "Attack-Aware Noise Calibration for Differential Privacy",
+    "summary" : "Differential privacy (DP) is a widely used approach for mitigating privacy\nrisks when training machine learning models on sensitive data. DP mechanisms\nadd noise during training to limit the risk of information leakage. The scale\nof the added noise is critical, as it determines the trade-off between privacy\nand utility. The standard practice is to select the noise scale in terms of a\nprivacy budget parameter $\\epsilon$. This parameter is in turn interpreted in\nterms of operational attack risk, such as accuracy, or sensitivity and\nspecificity of inference attacks against the privacy of the data. We\ndemonstrate that this two-step procedure of first calibrating the noise scale\nto a privacy budget $\\epsilon$, and then translating $\\epsilon$ to attack risk\nleads to overly conservative risk assessments and unnecessarily low utility. We\npropose methods to directly calibrate the noise scale to a desired attack risk\nlevel, bypassing the intermediate step of choosing $\\epsilon$. For a target\nattack risk, our approach significantly decreases noise scale, leading to\nincreased utility at the same level of privacy. We empirically demonstrate that\ncalibrating noise to attack sensitivity/specificity, rather than $\\epsilon$,\nwhen training privacy-preserving ML models substantially improves model\naccuracy for the same risk level. Our work provides a principled and practical\nway to improve the utility of privacy-preserving ML without compromising on\nprivacy.",
+    "updated" : "2024-07-02T11:49:59Z",
+    "published" : "2024-07-02T11:49:59Z",
+    "authors" : [
+      {
+        "name" : "Bogdan Kulynych"
+      },
+      {
+        "name" : "Juan Felipe Gomez"
+      },
+      {
+        "name" : "Georgios Kaissis"
+      },
+      {
+        "name" : "Flavio du Pin Calmon"
+      },
+      {
+        "name" : "Carmela Troncoso"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR",
+      "math.ST",
+      "stat.ML",
+      "stat.TH"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.02027v1",
+    "title" : "Privacy Risks of General-Purpose AI Systems: A Foundation for\n  Investigating Practitioner Perspectives",
+    "summary" : "The rise of powerful AI models, more formally $\\textit{General-Purpose AI\nSystems}$ (GPAIS), has led to impressive leaps in performance across a wide\nrange of tasks. At the same time, researchers and practitioners alike have\nraised a number of privacy concerns, resulting in a wealth of literature\ncovering various privacy risks and vulnerabilities of AI models. Works\nsurveying such risks provide differing focuses, leading to disparate sets of\nprivacy risks with no clear unifying taxonomy. We conduct a systematic review\nof these survey papers to provide a concise and usable overview of privacy\nrisks in GPAIS, as well as proposed mitigation strategies. The developed\nprivacy framework strives to unify the identified privacy risks and mitigations\nat a technical level that is accessible to non-experts. This serves as the\nbasis for a practitioner-focused interview study to assess technical\nstakeholder perceptions of privacy risks and mitigations in GPAIS.",
+    "updated" : "2024-07-02T07:49:48Z",
+    "published" : "2024-07-02T07:49:48Z",
+    "authors" : [
+      {
+        "name" : "Stephen Meisenbacher"
+      },
+      {
+        "name" : "Alexandra Klymenko"
+      },
+      {
+        "name" : "Patrick Gage Kelley"
+      },
+      {
+        "name" : "Sai Teja Peddinti"
+      },
+      {
+        "name" : "Kurt Thomas"
+      },
+      {
+        "name" : "Florian Matthes"
+      }
+    ],
+    "categories" : [
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.01817v1",
+    "title" : "Race and Privacy in Broadcast Police Communications",
+    "summary" : "Radios are essential for the operations of modern police departments, and\nthey function as both a collaborative communication technology and a\nsociotechnical system. However, little prior research has examined their usage\nor their connections to individual privacy and the role of race in policing,\ntwo growing topics of concern in the US. As a case study, we examine the\nChicago Police Department's (CPD's) use of broadcast police communications\n(BPC) to coordinate the activity of law enforcement officers (LEOs) in the\ncity. From a recently assembled archive of 80,775 hours of BPC associated with\nCPD operations, we analyze text transcripts of radio transmissions broadcast\n9:00 AM to 5:00 PM on August 10th, 2018 in one majority Black, one majority\nwhite, and one majority Hispanic area of the city (24 hours of audio) to\nexplore three research questions: (1) Do BPC reflect reported racial\ndisparities in policing? (2) How and when is gender, race/ethnicity, and age\nmentioned in BPC? (3) To what extent do BPC include sensitive information, and\nwho is put at most risk by this practice? (4) To what extent can large language\nmodels (LLMs) heighten this risk? We explore the vocabulary and speech acts\nused by police in BPC, comparing mentions of personal characteristics to local\ndemographics, the personal information shared over BPC, and the privacy\nconcerns that it poses. Analysis indicates (a) policing professionals in the\ncity of Chicago exhibit disproportionate attention to Black members of the\npublic regardless of context, (b) sociodemographic characteristics like gender,\nrace/ethnicity, and age are primarily mentioned in BPC about event information,\nand (c) disproportionate attention introduces disproportionate privacy risks\nfor Black members of the public.",
+    "updated" : "2024-07-01T21:34:51Z",
+    "published" : "2024-07-01T21:34:51Z",
+    "authors" : [
+      {
+        "name" : "Pranav Narayanan Venkit"
+      },
+      {
+        "name" : "Christopher Graziul"
+      },
+      {
+        "name" : "Miranda Ardith Goodman"
+      },
+      {
+        "name" : "Samantha Nicole Kenny"
+      },
+      {
+        "name" : "Shomir Wilson"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.CY",
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.01334v1",
+    "title" : "Protecting Privacy in Classifiers by Token Manipulation",
+    "summary" : "Using language models as a remote service entails sending private information\nto an untrusted provider. In addition, potential eavesdroppers can intercept\nthe messages, thereby exposing the information. In this work, we explore the\nprospects of avoiding such data exposure at the level of text manipulation. We\nfocus on text classification models, examining various token mapping and\ncontextualized manipulation functions in order to see whether classifier\naccuracy may be maintained while keeping the original text unrecoverable. We\nfind that although some token mapping functions are easy and straightforward to\nimplement, they heavily influence performance on the downstream task, and via a\nsophisticated attacker can be reconstructed. In comparison, the contextualized\nmanipulation provides an improvement in performance.",
+    "updated" : "2024-07-01T14:41:59Z",
+    "published" : "2024-07-01T14:41:59Z",
+    "authors" : [
+      {
+        "name" : "Re'em Harel"
+      },
+      {
+        "name" : "Yair Elboher"
+      },
+      {
+        "name" : "Yuval Pinter"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.01167v1",
+    "title" : "Information Density Bounds for Privacy",
+    "summary" : "This paper explores the implications of guaranteeing privacy by imposing a\nlower bound on the information density between the private and the public data.\nWe introduce an operationally meaningful privacy measure called pointwise\nmaximal cost (PMC) and demonstrate that imposing an upper bound on PMC is\nequivalent to enforcing a lower bound on the information density. PMC\nquantifies the information leakage about a secret to adversaries who aim to\nminimize non-negative cost functions after observing the outcome of a privacy\nmechanism. When restricted to finite alphabets, PMC can equivalently be defined\nas the information leakage to adversaries aiming to minimize the probability of\nincorrectly guessing randomized functions of the secret. We study the\nproperties of PMC and apply it to standard privacy mechanisms to demonstrate\nits practical relevance. Through a detailed examination, we connect PMC with\nother privacy measures that impose upper or lower bounds on the information\ndensity. Our results highlight that lower bounding the information density is a\nmore stringent requirement than upper bounding it. Overall, our work\nsignificantly bridges the gaps in understanding the relationships between\nvarious privacy frameworks and provides insights for selecting a suitable\nframework for a given application.",
+    "updated" : "2024-07-01T10:38:02Z",
+    "published" : "2024-07-01T10:38:02Z",
+    "authors" : [
+      {
+        "name" : "Sara Saeidian"
+      },
+      {
+        "name" : "Leonhard Grosse"
+      },
+      {
+        "name" : "Parastoo Sadeghi"
+      },
+      {
+        "name" : "Mikael Skoglund"
+      },
+      {
+        "name" : "Tobias J. Oechtering"
+      }
+    ],
+    "categories" : [
+      "cs.IT",
+      "cs.CR",
+      "math.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.00991v1",
+    "title" : "Pre-capture Privacy via Adaptive Single-Pixel Imaging",
+    "summary" : "As cameras become ubiquitous in our living environment, invasion of privacy\nis becoming a growing concern. A common approach to privacy preservation is to\nremove personally identifiable information from a captured image, but there is\na risk of the original image being leaked. In this paper, we propose a\npre-capture privacy-aware imaging method that captures images from which the\ndetails of a pre-specified anonymized target have been eliminated. The proposed\nmethod applies a single-pixel imaging framework in which we introduce a\nfeedback mechanism called an aperture pattern generator. The introduced\naperture pattern generator adaptively outputs the next aperture pattern to\navoid sampling the anonymized target by exploiting the data already acquired as\na clue. Furthermore, the anonymized target can be set to any object without\nchanging hardware. Except for detailed features which have been removed from\nthe anonymized target, the captured images are of comparable quality to those\ncaptured by a general camera and can be used for various computer vision\napplications. In our work, we target faces and license plates and\nexperimentally show that the proposed method can capture clear images in which\ndetailed features of the anonymized target are eliminated to achieve both\nprivacy and utility.",
+    "updated" : "2024-07-01T06:05:12Z",
+    "published" : "2024-07-01T06:05:12Z",
+    "authors" : [
+      {
+        "name" : "Yoko Sogabe"
+      },
+      {
+        "name" : "Shiori Sugimoto"
+      },
+      {
+        "name" : "Ayumi Matsumoto"
+      },
+      {
+        "name" : "Masaki Kitahara"
+      }
+    ],
+    "categories" : [
+      "eess.IV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.00873v1",
+    "title" : "Privacy-First Crowdsourcing: Blockchain and Local Differential Privacy\n  in Crowdsourced Drone Services",
+    "summary" : "We introduce a privacy-preserving framework for integrating consumer-grade\ndrones into bushfire management. This system creates a marketplace where\nbushfire management authorities obtain essential data from drone operators. Key\nfeatures include local differential privacy to protect data providers and a\nblockchain-based solution ensuring fair data exchanges and accountability. The\nframework is validated through a proof-of-concept implementation, demonstrating\nits scalability and potential for various large-scale data collection\nscenarios. This approach addresses privacy concerns and compliance with\nregulations like Australia's Privacy Act 1988, offering a practical solution\nfor enhancing bushfire detection and management through crowdsourced drone\nservices.",
+    "updated" : "2024-07-01T00:46:25Z",
+    "published" : "2024-07-01T00:46:25Z",
+    "authors" : [
+      {
+        "name" : "Junaid Akram"
+      },
+      {
+        "name" : "Ali Anaissi"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DC"
+    ]
+  }
+]
