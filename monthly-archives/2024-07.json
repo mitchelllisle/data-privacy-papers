@@ -226,5 +226,158 @@
       "cs.CR",
       "cs.DC"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.03289v1",
+    "title" : "Correlated Privacy Mechanisms for Differentially Private Distributed\n  Mean Estimation",
+    "summary" : "Differentially private distributed mean estimation (DP-DME) is a fundamental\nbuilding block in privacy-preserving federated learning, where a central server\nestimates the mean of $d$-dimensional vectors held by $n$ users while ensuring\n$(\\epsilon,\\delta)$-DP. Local differential privacy (LDP) and distributed DP\nwith secure aggregation (SecAgg) are the most common notions of DP used in\nDP-DME settings with an untrusted server. LDP provides strong resilience to\ndropouts, colluding users, and malicious server attacks, but suffers from poor\nutility. In contrast, SecAgg-based DP-DME achieves an $O(n)$ utility gain over\nLDP in DME, but requires increased communication and computation overheads and\ncomplex multi-round protocols to handle dropouts and malicious attacks. In this\nwork, we propose CorDP-DME, a novel DP-DME mechanism that spans the gap between\nDME with LDP and distributed DP, offering a favorable balance between utility\nand resilience to dropout and collusion. CorDP-DME is based on correlated\nGaussian noise, ensuring DP without the perfect conditional privacy guarantees\nof SecAgg-based approaches. We provide an information-theoretic analysis of\nCorDP-DME, and derive theoretical guarantees for utility under any given\nprivacy parameters and dropout/colluding user thresholds. Our results\ndemonstrate that (anti) correlated Gaussian DP mechanisms can significantly\nimprove utility in mean estimation tasks compared to LDP -- even in adversarial\nsettings -- while maintaining better resilience to dropouts and attacks\ncompared to distributed DP.",
+    "updated" : "2024-07-03T17:22:33Z",
+    "published" : "2024-07-03T17:22:33Z",
+    "authors" : [
+      {
+        "name" : "Sajani Vithana"
+      },
+      {
+        "name" : "Viveck R. Cadambe"
+      },
+      {
+        "name" : "Flavio P. Calmon"
+      },
+      {
+        "name" : "Haewon Jeong"
+      }
+    ],
+    "categories" : [
+      "cs.IT",
+      "cs.CR",
+      "cs.LG",
+      "math.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.02956v1",
+    "title" : "IncogniText: Privacy-enhancing Conditional Text Anonymization via\n  LLM-based Private Attribute Randomization",
+    "summary" : "In this work, we address the problem of text anonymization where the goal is\nto prevent adversaries from correctly inferring private attributes of the\nauthor, while keeping the text utility, i.e., meaning and semantics. We propose\nIncogniText, a technique that anonymizes the text to mislead a potential\nadversary into predicting a wrong private attribute value. Our empirical\nevaluation shows a reduction of private attribute leakage by more than 90%.\nFinally, we demonstrate the maturity of IncogniText for real-world applications\nby distilling its anonymization capability into a set of LoRA parameters\nassociated with an on-device model.",
+    "updated" : "2024-07-03T09:49:03Z",
+    "published" : "2024-07-03T09:49:03Z",
+    "authors" : [
+      {
+        "name" : "Ahmed Frikha"
+      },
+      {
+        "name" : "Nassim Walha"
+      },
+      {
+        "name" : "Krishna Kanth Nakka"
+      },
+      {
+        "name" : "Ricardo Mendes"
+      },
+      {
+        "name" : "Xue Jiang"
+      },
+      {
+        "name" : "Xuebing Zhou"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.CL",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.02766v1",
+    "title" : "Balancing Patient Privacy and Health Data Security: The Role of\n  Compliance in Protected Health Information (PHI) Sharing",
+    "summary" : "Protected Health Information (PHI) sharing significantly enhances patient\ncare quality and coordination, contributing to more accurate diagnoses,\nefficient treatment plans, and a comprehensive understanding of patient\nhistory. Compliance with strict privacy and security policies, such as those\nrequired by laws like HIPAA, is critical to protect PHI. Blockchain technology,\nwhich offers a decentralized and tamper-evident ledger system, hold promise in\npolicy compliance. This system ensures the authenticity and integrity of PHI\nwhile facilitating patient consent management. In this work, we propose a\nblockchain technology that integrates smart contracts to partially automate\nconsent-related processes and ensuring that PHI access and sharing follow\npatient preferences and legal requirements.",
+    "updated" : "2024-07-03T02:49:33Z",
+    "published" : "2024-07-03T02:49:33Z",
+    "authors" : [
+      {
+        "name" : "Md Al Amin"
+      },
+      {
+        "name" : "Hemanth Tummala"
+      },
+      {
+        "name" : "Rushabh Shah"
+      },
+      {
+        "name" : "Indrajit Ray"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.02747v1",
+    "title" : "Curvature Clues: Decoding Deep Learning Privacy with Input Loss\n  Curvature",
+    "summary" : "In this paper, we explore the properties of loss curvature with respect to\ninput data in deep neural networks. Curvature of loss with respect to input\n(termed input loss curvature) is the trace of the Hessian of the loss with\nrespect to the input. We investigate how input loss curvature varies between\ntrain and test sets, and its implications for train-test distinguishability. We\ndevelop a theoretical framework that derives an upper bound on the train-test\ndistinguishability based on privacy and the size of the training set. This\nnovel insight fuels the development of a new black box membership inference\nattack utilizing input loss curvature. We validate our theoretical findings\nthrough experiments in computer vision classification tasks, demonstrating that\ninput loss curvature surpasses existing methods in membership inference\neffectiveness. Our analysis highlights how the performance of membership\ninference attack (MIA) methods varies with the size of the training set,\nshowing that curvature-based MIA outperforms other methods on sufficiently\nlarge datasets. This condition is often met by real datasets, as demonstrated\nby our results on CIFAR10, CIFAR100, and ImageNet. These findings not only\nadvance our understanding of deep neural network behavior but also improve the\nability to test privacy-preserving techniques in machine learning.",
+    "updated" : "2024-07-03T01:47:46Z",
+    "published" : "2024-07-03T01:47:46Z",
+    "authors" : [
+      {
+        "name" : "Deepak Ravikumar"
+      },
+      {
+        "name" : "Efstathia Soufleri"
+      },
+      {
+        "name" : "Kaushik Roy"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.02226v1",
+    "title" : "RollupTheCrowd: Leveraging ZkRollups for a Scalable and\n  Privacy-Preserving Reputation-based Crowdsourcing Platform",
+    "summary" : "Current blockchain-based reputation solutions for crowdsourcing fail to\ntackle the challenge of ensuring both efficiency and privacy without\ncompromising the scalability of the blockchain. Developing an effective,\ntransparent, and privacy-preserving reputation model necessitates on-chain\nimplementation using smart contracts. However, managing task evaluation and\nreputation updates alongside crowdsourcing transactions on-chain substantially\nstrains system scalability and performance. This paper introduces\nRollupTheCrowd, a novel blockchain-powered crowdsourcing framework that\nleverages zkRollups to enhance system scalability while protecting user\nprivacy. Our framework includes an effective and privacy-preserving reputation\nmodel that gauges workers' trustworthiness by assessing their crowdsourcing\ninteractions. To alleviate the load on our blockchain, we employ an off-chain\nstorage scheme, optimizing RollupTheCrowd's performance. Utilizing smart\ncontracts and zero-knowledge proofs, our Rollup layer achieves a significant\n20x reduction in gas consumption. To prove the feasibility of the proposed\nframework, we developed a proof-of-concept implementation using cutting-edge\ntools. The experimental results presented in this paper demonstrate the\neffectiveness and scalability of RollupTheCrowd, validating its potential for\nreal-world application scenarios.",
+    "updated" : "2024-07-02T12:51:32Z",
+    "published" : "2024-07-02T12:51:32Z",
+    "authors" : [
+      {
+        "name" : "Ahmed Mounsf Rafik Bendada"
+      },
+      {
+        "name" : "Mouhamed Amine Bouchiha"
+      },
+      {
+        "name" : "Mourad Rabah"
+      },
+      {
+        "name" : "Yacine Ghamri-Doudane"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.01334v2",
+    "title" : "Protecting Privacy in Classifiers by Token Manipulation",
+    "summary" : "Using language models as a remote service entails sending private information\nto an untrusted provider. In addition, potential eavesdroppers can intercept\nthe messages, thereby exposing the information. In this work, we explore the\nprospects of avoiding such data exposure at the level of text manipulation. We\nfocus on text classification models, examining various token mapping and\ncontextualized manipulation functions in order to see whether classifier\naccuracy may be maintained while keeping the original text unrecoverable. We\nfind that although some token mapping functions are easy and straightforward to\nimplement, they heavily influence performance on the downstream task, and via a\nsophisticated attacker can be reconstructed. In comparison, the contextualized\nmanipulation provides an improvement in performance.",
+    "updated" : "2024-07-03T16:31:52Z",
+    "published" : "2024-07-01T14:41:59Z",
+    "authors" : [
+      {
+        "name" : "Re'em Harel"
+      },
+      {
+        "name" : "Yair Elboher"
+      },
+      {
+        "name" : "Yuval Pinter"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.CR"
+    ]
   }
 ]
