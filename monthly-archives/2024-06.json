@@ -2957,5 +2957,46 @@
       "cs.CR",
       "stat.ME"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.14322v2",
+    "title" : "Mind the Privacy Unit! User-Level Differential Privacy for Language\n  Model Fine-Tuning",
+    "summary" : "Large language models (LLMs) have emerged as powerful tools for tackling\ncomplex tasks across diverse domains, but they also raise privacy concerns when\nfine-tuned on sensitive data due to potential memorization. While differential\nprivacy (DP) offers a promising solution by ensuring models are 'almost\nindistinguishable' with or without any particular privacy unit, current\nevaluations on LLMs mostly treat each example (text record) as the privacy\nunit. This leads to uneven user privacy guarantees when contributions per user\nvary. We therefore study user-level DP motivated by applications where it\nnecessary to ensure uniform privacy protection across users. We present a\nsystematic evaluation of user-level DP for LLM fine-tuning on natural language\ngeneration tasks. Focusing on two mechanisms for achieving user-level DP\nguarantees, Group Privacy and User-wise DP-SGD, we investigate design choices\nlike data selection strategies and parameter tuning for the best\nprivacy-utility tradeoff.",
+    "updated" : "2024-07-03T14:05:20Z",
+    "published" : "2024-06-20T13:54:32Z",
+    "authors" : [
+      {
+        "name" : "Lynn Chua"
+      },
+      {
+        "name" : "Badih Ghazi"
+      },
+      {
+        "name" : "Yangsibo Huang"
+      },
+      {
+        "name" : "Pritish Kamath"
+      },
+      {
+        "name" : "Ravi Kumar"
+      },
+      {
+        "name" : "Daogao Liu"
+      },
+      {
+        "name" : "Pasin Manurangsi"
+      },
+      {
+        "name" : "Amer Sinha"
+      },
+      {
+        "name" : "Chiyuan Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.CR",
+      "cs.LG"
+    ]
   }
 ]
