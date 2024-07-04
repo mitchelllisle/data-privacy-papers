@@ -2,6 +2,113 @@
 <h2>2024-07</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.03289v1">Correlated Privacy Mechanisms for Differentially Private Distributed
+  Mean Estimation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
+  <p><b>Published on:</b> 2024-07-03T17:22:33Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Sajani Vithana, Viveck R. Cadambe, Flavio P. Calmon, Haewon Jeong</p>
+    <p><b>Summary:</b> Differentially private distributed mean estimation (DP-DME) is a fundamental
+building block in privacy-preserving federated learning, where a central server
+estimates the mean of $d$-dimensional vectors held by $n$ users while ensuring
+$(\epsilon,\delta)$-DP. Local differential privacy (LDP) and distributed DP
+with secure aggregation (SecAgg) are the most common notions of DP used in
+DP-DME settings with an untrusted server. LDP provides strong resilience to
+dropouts, colluding users, and malicious server attacks, but suffers from poor
+utility. In contrast, SecAgg-based DP-DME achieves an $O(n)$ utility gain over
+LDP in DME, but requires increased communication and computation overheads and
+complex multi-round protocols to handle dropouts and malicious attacks. In this
+work, we propose CorDP-DME, a novel DP-DME mechanism that spans the gap between
+DME with LDP and distributed DP, offering a favorable balance between utility
+and resilience to dropout and collusion. CorDP-DME is based on correlated
+Gaussian noise, ensuring DP without the perfect conditional privacy guarantees
+of SecAgg-based approaches. We provide an information-theoretic analysis of
+CorDP-DME, and derive theoretical guarantees for utility under any given
+privacy parameters and dropout/colluding user thresholds. Our results
+demonstrate that (anti) correlated Gaussian DP mechanisms can significantly
+improve utility in mean estimation tasks compared to LDP -- even in adversarial
+settings -- while maintaining better resilience to dropouts and attacks
+compared to distributed DP.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.02956v1">IncogniText: Privacy-enhancing Conditional Text Anonymization via
+  LLM-based Private Attribute Randomization</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-07-03T09:49:03Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ahmed Frikha, Nassim Walha, Krishna Kanth Nakka, Ricardo Mendes, Xue Jiang, Xuebing Zhou</p>
+    <p><b>Summary:</b> In this work, we address the problem of text anonymization where the goal is
+to prevent adversaries from correctly inferring private attributes of the
+author, while keeping the text utility, i.e., meaning and semantics. We propose
+IncogniText, a technique that anonymizes the text to mislead a potential
+adversary into predicting a wrong private attribute value. Our empirical
+evaluation shows a reduction of private attribute leakage by more than 90%.
+Finally, we demonstrate the maturity of IncogniText for real-world applications
+by distilling its anonymization capability into a set of LoRA parameters
+associated with an on-device model.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.02766v1">Balancing Patient Privacy and Health Data Security: The Role of
+  Compliance in Protected Health Information (PHI) Sharing</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-07-03T02:49:33Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Md Al Amin, Hemanth Tummala, Rushabh Shah, Indrajit Ray</p>
+    <p><b>Summary:</b> Protected Health Information (PHI) sharing significantly enhances patient
+care quality and coordination, contributing to more accurate diagnoses,
+efficient treatment plans, and a comprehensive understanding of patient
+history. Compliance with strict privacy and security policies, such as those
+required by laws like HIPAA, is critical to protect PHI. Blockchain technology,
+which offers a decentralized and tamper-evident ledger system, hold promise in
+policy compliance. This system ensures the authenticity and integrity of PHI
+while facilitating patient consent management. In this work, we propose a
+blockchain technology that integrates smart contracts to partially automate
+consent-related processes and ensuring that PHI access and sharing follow
+patient preferences and legal requirements.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.02747v1">Curvature Clues: Decoding Deep Learning Privacy with Input Loss
+  Curvature</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-07-03T01:47:46Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Deepak Ravikumar, Efstathia Soufleri, Kaushik Roy</p>
+    <p><b>Summary:</b> In this paper, we explore the properties of loss curvature with respect to
+input data in deep neural networks. Curvature of loss with respect to input
+(termed input loss curvature) is the trace of the Hessian of the loss with
+respect to the input. We investigate how input loss curvature varies between
+train and test sets, and its implications for train-test distinguishability. We
+develop a theoretical framework that derives an upper bound on the train-test
+distinguishability based on privacy and the size of the training set. This
+novel insight fuels the development of a new black box membership inference
+attack utilizing input loss curvature. We validate our theoretical findings
+through experiments in computer vision classification tasks, demonstrating that
+input loss curvature surpasses existing methods in membership inference
+effectiveness. Our analysis highlights how the performance of membership
+inference attack (MIA) methods varies with the size of the training set,
+showing that curvature-based MIA outperforms other methods on sufficiently
+large datasets. This condition is often met by real datasets, as demonstrated
+by our results on CIFAR10, CIFAR100, and ImageNet. These findings not only
+advance our understanding of deep neural network behavior but also improve the
+ability to test privacy-preserving techniques in machine learning.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2407.02268v1">Footprints of Data in a Classifier Model: The Privacy Issues and Their
   Mitigation through Data Obfuscation</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
@@ -38,7 +145,7 @@ contexts.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2407.02226v1">RollupTheCrowd: Leveraging ZkRollups for a Scalable and
   Privacy-Preserving Reputation-based Crowdsourcing Platform</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
   <p><b>Published on:</b> 2024-07-02T12:51:32Z</p>
   <details>
     <summary>More Details</summary>
@@ -158,7 +265,7 @@ for Black members of the public.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.01334v1">Protecting Privacy in Classifiers by Token Manipulation</a></h3>
+  <h3><a href="http://arxiv.org/abs/2407.01334v2">Protecting Privacy in Classifiers by Token Manipulation</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2024-07-01T14:41:59Z</p>
   <details>
@@ -1084,17 +1191,17 @@ real-life multi-layer network.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.14322v1">Mind the Privacy Unit! User-Level Differential Privacy for Language
+  <h3><a href="http://arxiv.org/abs/2406.14322v2">Mind the Privacy Unit! User-Level Differential Privacy for Language
   Model Fine-Tuning</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2024-06-20T13:54:32Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Lynn Chua, Badih Ghazi, Yangsibo Huang, Pritish Kamath, Daogao Liu, Pasin Manurangsi, Amer Sinha, Chiyuan Zhang</p>
+    <p><b>Authors:</b> Lynn Chua, Badih Ghazi, Yangsibo Huang, Pritish Kamath, Ravi Kumar, Daogao Liu, Pasin Manurangsi, Amer Sinha, Chiyuan Zhang</p>
     <p><b>Summary:</b> Large language models (LLMs) have emerged as powerful tools for tackling
 complex tasks across diverse domains, but they also raise privacy concerns when
 fine-tuned on sensitive data due to potential memorization. While differential
-privacy (DP) offers a promising solution by ensuring models are `almost
+privacy (DP) offers a promising solution by ensuring models are 'almost
 indistinguishable' with or without any particular privacy unit, current
 evaluations on LLMs mostly treat each example (text record) as the privacy
 unit. This leads to uneven user privacy guarantees when contributions per user
@@ -2732,113 +2839,6 @@ demonstrate its performance through numerical simulations and its practical
 application to real-world data. This work represents a significant step forward
 in balancing accurate community membership estimation with stringent privacy
 preservation in network data analysis.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.02520v1">Digital Privacy for Migrants: Exploring Current Research Trends and
-  Future Prospects</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2024-06-04T17:41:20Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Sarah Tabassum, Cori Faklaris</p>
-    <p><b>Summary:</b> This paper explores digital privacy challenges for migrants, analyzing trends
-from 2013 to 2023. Migrants face heightened risks such as government
-surveillance and identity theft. Understanding these threats is vital for
-raising awareness and guiding research towards effective solutions and policies
-to protect migrant digital privacy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.02463v1">Click Without Compromise: Online Advertising Measurement via Per User
-  Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-06-04T16:31:19Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yingtai Xiao, Jian Du, Shikun Zhang, Qiang Yan, Danfeng Zhang, Daniel Kifer</p>
-    <p><b>Summary:</b> Online advertising is a cornerstone of the Internet ecosystem, with
-advertising measurement playing a crucial role in optimizing efficiency. Ad
-measurement entails attributing desired behaviors, such as purchases, to ad
-exposures across various platforms, necessitating the collection of user
-activities across these platforms. As this practice faces increasing
-restrictions due to rising privacy concerns, safeguarding user privacy in this
-context is imperative. Our work is the first to formulate the real-world
-challenge of advertising measurement systems with real-time reporting of
-streaming data in advertising campaigns. We introduce Ads-BPC, a novel
-user-level differential privacy protection scheme for advertising measurement
-results. This approach optimizes global noise power and results in a
-non-identically distributed noise distribution that preserves differential
-privacy while enhancing measurement accuracy. Through experiments on both
-real-world advertising campaigns and synthetic datasets, Ads-BPC achieves a 25%
-to 50% increase in accuracy over existing streaming DP mechanisms applied to
-advertising measurement. This highlights our method's effectiveness in
-achieving superior accuracy alongside a formal privacy guarantee, thereby
-advancing the state-of-the-art in privacy-preserving advertising measurement.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.02424v1">Contextual Dynamic Pricing: Algorithms, Optimality, and Local
-  Differential Privacy Constraints</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36">  
-  <p><b>Published on:</b> 2024-06-04T15:44:10Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zifeng Zhao, Feiyu Jiang, Yi Yu</p>
-    <p><b>Summary:</b> We study the contextual dynamic pricing problem where a firm sells products
-to $T$ sequentially arriving consumers that behave according to an unknown
-demand model. The firm aims to maximize its revenue, i.e. minimize its regret
-over a clairvoyant that knows the model in advance. The demand model is a
-generalized linear model (GLM), allowing for a stochastic feature vector in
-$\mathbb R^d$ that encodes product and consumer information. We first show that
-the optimal regret upper bound is of order $\sqrt{dT}$, up to a logarithmic
-factor, improving upon existing upper bounds in the literature by a $\sqrt{d}$
-factor. This sharper rate is materialised by two algorithms: a confidence
-bound-type (supCB) algorithm and an explore-then-commit (ETC) algorithm. A key
-insight of our theoretical result is an intrinsic connection between dynamic
-pricing and the contextual multi-armed bandit problem with many arms based on a
-careful discretization. We further study contextual dynamic pricing under the
-local differential privacy (LDP) constraints. In particular, we propose a
-stochastic gradient descent based ETC algorithm that achieves an optimal regret
-upper bound of order $d\sqrt{T}/\epsilon$, up to a logarithmic factor, where
-$\epsilon>0$ is the privacy parameter. The regret upper bounds with and without
-LDP constraints are accompanied by newly constructed minimax lower bounds,
-which further characterize the cost of privacy. Extensive numerical experiments
-and a real data application on online lending are conducted to illustrate the
-efficiency and practical value of the proposed algorithms in dynamic pricing.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.03404v1">ST-DPGAN: A Privacy-preserving Framework for Spatiotemporal Data
-  Generation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-06-04T04:43:54Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Wei Shao, Rongyi Zhu, Cai Yang, Chandra Thapa, Muhammad Ejaz Ahmed, Seyit Camtepe, Rui Zhang, DuYong Kim, Hamid Menouar, Flora D. Salim</p>
-    <p><b>Summary:</b> Spatiotemporal data is prevalent in a wide range of edge devices, such as
-those used in personal communication and financial transactions. Recent
-advancements have sparked a growing interest in integrating spatiotemporal
-analysis with large-scale language models. However, spatiotemporal data often
-contains sensitive information, making it unsuitable for open third-party
-access. To address this challenge, we propose a Graph-GAN-based model for
-generating privacy-protected spatiotemporal data. Our approach incorporates
-spatial and temporal attention blocks in the discriminator and a spatiotemporal
-deconvolution structure in the generator. These enhancements enable efficient
-training under Gaussian noise to achieve differential privacy. Extensive
-experiments conducted on three real-world spatiotemporal datasets validate the
-efficacy of our model. Our method provides a privacy guarantee while
-maintaining the data utility. The prediction model trained on our generated
-data maintains a competitive performance compared to the model trained on the
-original data.</p>
   </details>
 </div>
 
