@@ -2998,5 +2998,49 @@
       "cs.CR",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.19035v2",
+    "title" : "SD-BLS: Privacy Preserving Selective Disclosure of Verifiable\n  Credentials with Unlinkable Threshold Revocation",
+    "summary" : "It is of critical importance to design digital identity systems that ensure\nthe privacy of citizens as well as protecting them from issuer corruption. We\naim to solve this issue and propose a method for selective disclosure and\nprivacy preserving revocation of digital credentials, using the unique\nhomomorphic characteristics of second order Elliptic Curves and\nBoneh-Lynn-Shacham (BLS) signatures. Our approach ensures that users can\nselectively reveal credentials signed by a certain issuer, which can be\ninteractively revoked by a quorum of other agreeing issuers without revealing\nthe identity of users. Our goal is to protect users from issuer corruption by\nrequiring collective agreement among multiple revocation issuers.",
+    "updated" : "2024-07-03T21:57:25Z",
+    "published" : "2024-06-27T09:41:13Z",
+    "authors" : [
+      {
+        "name" : "Denis Roio"
+      },
+      {
+        "name" : "Rebecca Selvaggini"
+      },
+      {
+        "name" : "Andrea D'Intino"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.10563v2",
+    "title" : "Privacy-Preserving Heterogeneous Federated Learning for Sensitive\n  Healthcare Data",
+    "summary" : "In the realm of healthcare where decentralized facilities are prevalent,\nmachine learning faces two major challenges concerning the protection of data\nand models. The data-level challenge concerns the data privacy leakage when\ncentralizing data with sensitive personal information. While the model-level\nchallenge arises from the heterogeneity of local models, which need to be\ncollaboratively trained while ensuring their confidentiality to address\nintellectual property concerns. To tackle these challenges, we propose a new\nframework termed Abstention-Aware Federated Voting (AAFV) that can\ncollaboratively and confidentially train heterogeneous local models while\nsimultaneously protecting the data privacy. This is achieved by integrating a\nnovel abstention-aware voting mechanism and a differential privacy mechanism\nonto local models' predictions. In particular, the proposed abstention-aware\nvoting mechanism exploits a threshold-based abstention method to select\nhigh-confidence votes from heterogeneous local models, which not only enhances\nthe learning utility but also protects model confidentiality. Furthermore, we\nimplement AAFV on two practical prediction tasks of diabetes and in-hospital\npatient mortality. The experiments demonstrate the effectiveness and\nconfidentiality of AAFV in testing accuracy and privacy protection.",
+    "updated" : "2024-07-04T14:10:00Z",
+    "published" : "2024-06-15T08:43:40Z",
+    "authors" : [
+      {
+        "name" : "Yukai Xu"
+      },
+      {
+        "name" : "Jingfeng Zhang"
+      },
+      {
+        "name" : "Yujie Gu"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR"
+    ]
   }
 ]
