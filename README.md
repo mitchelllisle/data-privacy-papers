@@ -2,6 +2,120 @@
 <h2>2024-07</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.03732v1">Collection, usage and privacy of mobility data in the enterprise and
+  public administrations</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-07-04T08:29:27Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Alexandra Kapp</p>
+    <p><b>Summary:</b> Human mobility data is a crucial resource for urban mobility management, but
+it does not come without personal reference. The implementation of security
+measures such as anonymization is thus needed to protect individuals' privacy.
+Often, a trade-off arises as such techniques potentially decrease the utility
+of the data and limit its use. While much research on anonymization techniques
+exists, there is little information on the actual implementations by
+practitioners, especially outside the big tech context. Within our study, we
+conducted expert interviews to gain insights into practices in the field. We
+categorize purposes, data sources, analysis, and modeling tasks to provide a
+profound understanding of the context such data is used in. We survey
+privacy-enhancing methods in use, which generally do not comply with
+state-of-the-art standards of differential privacy. We provide groundwork for
+further research on practice-oriented research by identifying privacy needs of
+practitioners and extracting relevant mobility characteristics for future
+standardized evaluations of privacy-enhancing methods.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.03496v1">Releasing Large-Scale Human Mobility Histograms with Differential
+  Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
+  <p><b>Published on:</b> 2024-07-03T20:54:00Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Christopher Bian, Albert Cheu, Yannis Guzman, Marco Gruteser, Peter Kairouz, Ryan McKenna, Edo Roth</p>
+    <p><b>Summary:</b> Environmental Insights Explorer (EIE) is a Google product that reports
+aggregate statistics about human mobility, including various methods of transit
+used by people across roughly 50,000 regions globally. These statistics are
+used to estimate carbon emissions and provided to policymakers to inform their
+decisions on transportation policy and infrastructure. Due to the inherent
+sensitivity of this type of user data, it is crucial that the statistics
+derived and released from it are computed with appropriate privacy protections.
+In this work, we use a combination of federated analytics and differential
+privacy to release these required statistics, while operating under strict
+error constraints to ensure utility for downstream stakeholders. In this work,
+we propose a new mechanism that achieves $ \epsilon \approx 2 $-DP while
+satisfying these strict utility constraints, greatly improving over natural
+baselines. We believe this mechanism may be of more general interest for the
+broad class of group-by-sum workloads.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.03470v1">Prosody-Driven Privacy-Preserving Dementia Detection</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Sound-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
+  <p><b>Published on:</b> 2024-07-03T19:34:47Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Dominika Woszczyk, Ranya Aloufi, Soteris Demetriou</p>
+    <p><b>Summary:</b> Speaker embeddings extracted from voice recordings have been proven valuable
+for dementia detection. However, by their nature, these embeddings contain
+identifiable information which raises privacy concerns. In this work, we aim to
+anonymize embeddings while preserving the diagnostic utility for dementia
+detection. Previous studies rely on adversarial learning and models trained on
+the target attribute and struggle in limited-resource settings. We propose a
+novel approach that leverages domain knowledge to disentangle prosody features
+relevant to dementia from speaker embeddings without relying on a dementia
+classifier. Our experiments show the effectiveness of our approach in
+preserving speaker privacy (speaker recognition F1-score .01%) while
+maintaining high dementia detection score F1-score of 74% on the ADReSS
+dataset. Our results are also on par with a more constrained
+classifier-dependent system on ADReSSo (.01% and .66%), and have no impact on
+synthesized speech naturalness.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.03451v1">The Role of Privacy Guarantees in Voluntary Donation of Private Data for
+  Altruistic Goals</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2024-07-03T18:50:48Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ruizhe Wang, Roberta De Viti, Aarushi Dubey, Elissa M. Redmiles</p>
+    <p><b>Summary:</b> Voluntary donation of private information for altruistic purposes, such as
+advancing research, is common. However, concerns about data misuse and leakage
+may deter individuals from donating their information. While prior research has
+indicated that Privacy Enhancement Technologies (PETs) can alleviate these
+concerns, the extent to which these techniques influence willingness to donate
+data remains unclear.
+  This study conducts a vignette survey (N=485) to examine people's willingness
+to donate medical data for developing new treatments under four privacy
+guarantees: data expiration, anonymization, use restriction, and access
+control. The study explores two mechanisms for verifying these guarantees:
+self-auditing and expert auditing, and evaluates the impact on two types of
+data recipient entities: for-profit and non-profit institutions.
+  Our findings reveal that the type of entity collecting data strongly
+influences respondents' privacy expectations, which in part influence their
+willingness to donate data. Respondents have such high expectations of the
+privacy provided by non-profit entities that explicitly stating the privacy
+protections provided makes little adjustment to those expectations. In
+contrast, statements about privacy bring respondents' expectations of the
+privacy provided by for-profit entities nearly in-line with non-profit
+expectations. We highlight the risks of these respective results as well as the
+need for future research to better align technical community and end-user
+perceptions about the effectiveness of auditing PETs and to effectively set
+expectations about the efficacy of PETs in the face of end-user concerns about
+data breaches.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2407.03289v1">Correlated Privacy Mechanisms for Differentially Private Distributed
   Mean Estimation</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
@@ -566,24 +680,23 @@ privacy task.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.19035v1">SD-BLS: Privacy Preserving Selective Disclosure and Unlinkable
-  Revocation of Verifiable Credentials</a></h3>
+  <h3><a href="http://arxiv.org/abs/2406.19035v2">SD-BLS: Privacy Preserving Selective Disclosure of Verifiable
+  Credentials with Unlinkable Threshold Revocation</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2024-06-27T09:41:13Z</p>
   <details>
     <summary>More Details</summary>
     <p><b>Authors:</b> Denis Roio, Rebecca Selvaggini, Andrea D'Intino</p>
     <p><b>Summary:</b> It is of critical importance to design digital identity systems that ensure
-the privacy of citizens as well as protecting them from issuer corruption.
-Unfortunately, what Europe's and USA's public sectors are currently developing
-does not offer such basic protections. We aim to solve this issue and propose a
-method for untraceable selective disclosure and privacy preserving revocation
-of digital credentials, using the unique homomorphic characteristics of second
-order Elliptic Curves and Boneh-Lynn-Shacham (BLS) signatures. Our approach
-ensures that users can selectively reveal only the necessary credentials, while
-protecting their privacy across multiple presentations. We also aim to protect
-users from issuer corruption, by making it possible to apply a threshold for
-revocation to require collective agreement among multiple revocation issuers.</p>
+the privacy of citizens as well as protecting them from issuer corruption. We
+aim to solve this issue and propose a method for selective disclosure and
+privacy preserving revocation of digital credentials, using the unique
+homomorphic characteristics of second order Elliptic Curves and
+Boneh-Lynn-Shacham (BLS) signatures. Our approach ensures that users can
+selectively reveal credentials signed by a certain issuer, which can be
+interactively revoked by a quorum of other agreeing issuers without revealing
+the identity of users. Our goal is to protect users from issuer corruption by
+requiring collective agreement among multiple revocation issuers.</p>
   </details>
 </div>
 
@@ -1903,7 +2016,7 @@ data security and minimizing generation costs.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.10563v1">Privacy-Preserving Heterogeneous Federated Learning for Sensitive
+  <h3><a href="http://arxiv.org/abs/2406.10563v2">Privacy-Preserving Heterogeneous Federated Learning for Sensitive
   Healthcare Data</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2024-06-15T08:43:40Z</p>
@@ -2729,116 +2842,6 @@ differential privacy, which lead to a sharp drop in information utility and
 unnatural texts, the human-inspired approaches result in more natural rewrites
 and offer an improved balance between privacy protection and data utility, as
 demonstrated by our extensive experiments.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.03695v1">FACOS: Enabling Privacy Protection Through Fine-Grained Access Control
-  with On-chain and Off-chain System</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-06-06T02:23:12Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Chao Liu, Cankun Hou, Tianyu Jiang, Jianting Ning, Hui Qiao, Yusen Wu</p>
-    <p><b>Summary:</b> Data-driven landscape across finance, government, and healthcare, the
-continuous generation of information demands robust solutions for secure
-storage, efficient dissemination, and fine-grained access control. Blockchain
-technology emerges as a significant tool, offering decentralized storage while
-upholding the tenets of data security and accessibility. However, on-chain and
-off-chain strategies are still confronted with issues such as untrusted
-off-chain data storage, absence of data ownership, limited access control
-policy for clients, and a deficiency in data privacy and auditability. To solve
-these challenges, we propose a permissioned blockchain-based privacy-preserving
-fine-grained access control on-chain and off-chain system, namely FACOS. We
-applied three fine-grained access control solutions and comprehensively
-analyzed them in different aspects, which provides an intuitive perspective for
-system designers and clients to choose the appropriate access control method
-for their systems. Compared to similar work that only stores encrypted data in
-centralized or non-fault-tolerant IPFS systems, we enhanced off-chain data
-storage security and robustness by utilizing a highly efficient and secure
-asynchronous Byzantine fault tolerance (BFT) protocol in the off-chain
-environment. As each of the clients needs to be verified and authorized before
-accessing the data, we involved the Trusted Execution Environment (TEE)-based
-solution to verify the credentials of clients. Additionally, our evaluation
-results demonstrated that our system offers better scalability and practicality
-than other state-of-the-art designs.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.03187v1">Ariadne: a Privacy-Preserving Communication Protocol</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-06-05T12:20:12Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Antoine Fressancourt, Luigi Iannone, Mael Kerichard</p>
-    <p><b>Summary:</b> In this article, we present Ariadne, a privacy-preserving communication
-network layer protocol that uses a source routing approach to avoid relying on
-trusted third parties. In Ariadne, a source node willing to send anonymized
-network traffic to a destination uses a path consisting in nodes with which it
-has pre-shared symmetric keys. Temporary keys derived from those pre-shared
-keys to protect communication privacy using onion routing techniques, ensuring
-session unlinkability for packets following the same path.
-  Ariadne enhances previous approaches to preserve communication privacy by
-introducing two novelties. First, the source route is encoded in a fixed size,
-sequentially encrypted vector of routing information elements, in which the
-elements' positions in the vector are pseudo-randomly permuted. Second, the
-temporary keys used to process the packets on the path are referenced using
-mutually known encrypted patterns. This avoids the use of an explicit key
-reference that could be used to de-anonymize the communications.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.02797v1">Auditing Privacy Mechanisms via Label Inference Attacks</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-06-04T21:48:30Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Róbert István Busa-Fekete, Travis Dick, Claudio Gentile, Andrés Muñoz Medina, Adam Smith, Marika Swanberg</p>
-    <p><b>Summary:</b> We propose reconstruction advantage measures to audit label privatization
-mechanisms. A reconstruction advantage measure quantifies the increase in an
-attacker's ability to infer the true label of an unlabeled example when
-provided with a private version of the labels in a dataset (e.g., aggregate of
-labels from different users or noisy labels output by randomized response),
-compared to an attacker that only observes the feature vectors, but may have
-prior knowledge of the correlation between features and labels. We consider two
-such auditing measures: one additive, and one multiplicative. These incorporate
-previous approaches taken in the literature on empirical auditing and
-differential privacy. The measures allow us to place a variety of proposed
-privatization schemes -- some differentially private, some not -- on the same
-footing. We analyze these measures theoretically under a distributional model
-which encapsulates reasonable adversarial settings. We also quantify their
-behavior empirically on real and simulated prediction tasks. Across a range of
-experimental settings, we find that differentially private schemes dominate or
-match the privacy-utility tradeoff of more heuristic approaches.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.02794v1">PriME: Privacy-aware Membership profile Estimation in networks</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Social and Information Networks-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36"> 
-  <p><b>Published on:</b> 2024-06-04T21:43:49Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Abhinav Chakraborty, Sayak Chatterjee, Sagnik Nandy</p>
-    <p><b>Summary:</b> This paper presents a novel approach to estimating community membership
-probabilities for network vertices generated by the Degree Corrected Mixed
-Membership Stochastic Block Model while preserving individual edge privacy.
-Operating within the $\varepsilon$-edge local differential privacy framework,
-we introduce an optimal private algorithm based on a symmetric edge flip
-mechanism and spectral clustering for accurate estimation of vertex community
-memberships. We conduct a comprehensive analysis of the estimation risk and
-establish the optimality of our procedure by providing matching lower bounds to
-the minimax risk under privacy constraints. To validate our approach, we
-demonstrate its performance through numerical simulations and its practical
-application to real-world data. This work represents a significant step forward
-in balancing accurate community membership estimation with stringent privacy
-preservation in network data analysis.</p>
   </details>
 </div>
 
