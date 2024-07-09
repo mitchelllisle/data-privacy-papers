@@ -478,5 +478,222 @@
       "cs.CR",
       "cs.HC"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.05450v1",
+    "title" : "Understanding Professional Needs to Create Privacy-Preserving and Secure\n  Emergent Digital Artworks",
+    "summary" : "In recent years, immersive art installations featuring interactive artworks\nhave been on the rise. These installations are an integral part of museums and\nart centers like selfie museums, teamLab Borderless, ARTECHOUSE, and Meow Wolf.\nMoreover, immersive art have also been increasingly incorporated into\ntraditional museums as well. However, immersive art requires active user\nparticipation and often captures information from viewers and participants\nthrough cameras, sensors, microphones, embodied interaction devices,\nsurveillance, and kinetic mirrors. Therefore, we propose a new line of research\nto examine the security and privacy postures of immersive artworks. In our\npilot study, we conducted a semi-structured interview with five experienced\npractitioners from either the art (2) or cybersecurity (3) fields. Our aim was\nto understand their current security and privacy practices, along with their\nneeds when it comes to immersive art. From their responses, we created a list\nof security and privacy parameters, such as, providing opt-in mechanics for\ndata collection, knowledge of data collection tools such as proximity sensors,\nand creating security awareness amongst participants by communicating security\nprotocols and threat models. These parameters allow us to build\nprivacy-preserving, secure, and accessible software for individuals working in\nmedia arts, who often have no background on security and privacy. In the\nfuture, we plan to utilize these parameters to develop software in response to\nthose needs and then host an art exhibition of immersive artworks utilizing the\nplatform.",
+    "updated" : "2024-07-07T17:21:38Z",
+    "published" : "2024-07-07T17:21:38Z",
+    "authors" : [
+      {
+        "name" : "Kathryn Lichlyter"
+      },
+      {
+        "name" : "Urvashi Kishnani"
+      },
+      {
+        "name" : "Kate Hollenbach"
+      },
+      {
+        "name" : "Sanchari Das"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.05446v1",
+    "title" : "Towards Perceived Security, Perceived Privacy, and the Universal Design\n  of E-Payment Applications",
+    "summary" : "With the growth of digital monetary transactions and cashless payments,\nencouraged by the COVID-19 pandemic, use of e-payment applications is on the\nrise. It is thus imperative to understand and evaluate the current posture of\ne-payment applications from three major user-facing angles: security, privacy,\nand usability. To this, we created a high-fidelity prototype of an e-payment\napplication that encompassed features that we wanted to test with users. We\nthen conducted a pilot study where we recruited 12 participants who tested our\nprototype. We find that both security and privacy are important for users of\ne-payment applications. Additionally, some participants perceive the strength\nof security and privacy based on the usability of the application. We provide\nrecommendations such as universal design of e-payment applications.",
+    "updated" : "2024-07-07T17:15:09Z",
+    "published" : "2024-07-07T17:15:09Z",
+    "authors" : [
+      {
+        "name" : "Urvashi Kishnani"
+      },
+      {
+        "name" : "Isabella Cardenas"
+      },
+      {
+        "name" : "Jailene Castillo"
+      },
+      {
+        "name" : "Rosalyn Conry"
+      },
+      {
+        "name" : "Lukas Rodwin"
+      },
+      {
+        "name" : "Rika Ruiz"
+      },
+      {
+        "name" : "Matthew Walther"
+      },
+      {
+        "name" : "Sanchari Das"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.05237v1",
+    "title" : "Privacy of the last iterate in cyclically-sampled DP-SGD on nonconvex\n  composite losses",
+    "summary" : "Differentially private stochastic gradient descent (DP-SGD) refers to a\nfamily of optimization algorithms that provide a guaranteed level of\ndifferential privacy (DP) through DP accounting techniques. However, current\naccounting techniques make assumptions that diverge significantly from\npractical DP-SGD implementations. For example, they may assume the loss\nfunction is Lipschitz continuous and convex, sample the batches randomly with\nreplacement, or omit the gradient clipping step.\n  In this work, we analyze the most commonly used variant of DP-SGD, in which\nwe sample batches cyclically with replacement, perform gradient clipping, and\nonly release the last DP-SGD iterate. More specifically - without assuming\nconvexity, smoothness, or Lipschitz continuity of the loss function - we\nestablish new R\\'enyi differential privacy (RDP) bounds for the last DP-SGD\niterate under the mild assumption that (i) the DP-SGD stepsize is small\nrelative to the topological constants in the loss function, and (ii) the loss\nfunction is weakly-convex. Moreover, we show that our bounds converge to\npreviously established convex bounds when the weak-convexity parameter of the\nobjective function approaches zero. In the case of non-Lipschitz smooth loss\nfunctions, we provide a weaker bound that scales well in terms of the number of\nDP-SGD iterations.",
+    "updated" : "2024-07-07T02:35:55Z",
+    "published" : "2024-07-07T02:35:55Z",
+    "authors" : [
+      {
+        "name" : "Weiwei Kong"
+      },
+      {
+        "name" : "Mónica Ribero"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "cs.DS",
+      "math.OC",
+      "stat.ML",
+      "65K10 (Primary), 60G15, 68P27",
+      "G.3; G.1.6"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.05045v1",
+    "title" : "Robust Skin Color Driven Privacy Preserving Face Recognition via\n  Function Secret Sharing",
+    "summary" : "In this work, we leverage the pure skin color patch from the face image as\nthe additional information to train an auxiliary skin color feature extractor\nand face recognition model in parallel to improve performance of\nstate-of-the-art (SOTA) privacy-preserving face recognition (PPFR) systems. Our\nsolution is robust against black-box attacking and well-established generative\nadversarial network (GAN) based image restoration. We analyze the potential\nrisk in previous work, where the proposed cosine similarity computation might\ndirectly leak the protected precomputed embedding stored on the server side. We\npropose a Function Secret Sharing (FSS) based face embedding comparison\nprotocol without any intermediate result leakage. In addition, we show in\nexperiments that the proposed protocol is more efficient compared to the Secret\nSharing (SS) based protocol.",
+    "updated" : "2024-07-06T10:51:35Z",
+    "published" : "2024-07-06T10:51:35Z",
+    "authors" : [
+      {
+        "name" : "Dong Han"
+      },
+      {
+        "name" : "Yufan Jiang"
+      },
+      {
+        "name" : "Yong Li"
+      },
+      {
+        "name" : "Ricardo Mendes"
+      },
+      {
+        "name" : "Joachim Denzler"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.04952v1",
+    "title" : "Granular Privacy Control for Geolocation with Vision Language Models",
+    "summary" : "Vision Language Models (VLMs) are rapidly advancing in their capability to\nanswer information-seeking questions. As these models are widely deployed in\nconsumer applications, they could lead to new privacy risks due to emergent\nabilities to identify people in photos, geolocate images, etc. As we\ndemonstrate, somewhat surprisingly, current open-source and proprietary VLMs\nare very capable image geolocators, making widespread geolocation with VLMs an\nimmediate privacy risk, rather than merely a theoretical future concern. As a\nfirst step to address this challenge, we develop a new benchmark, GPTGeoChat,\nto test the ability of VLMs to moderate geolocation dialogues with users. We\ncollect a set of 1,000 image geolocation conversations between in-house\nannotators and GPT-4v, which are annotated with the granularity of location\ninformation revealed at each turn. Using this new dataset, we evaluate the\nability of various VLMs to moderate GPT-4v geolocation conversations by\ndetermining when too much location information has been revealed. We find that\ncustom fine-tuned models perform on par with prompted API-based models when\nidentifying leaked location information at the country or city level; however,\nfine-tuning on supervised data appears to be needed to accurately moderate\nfiner granularities, such as the name of a restaurant or building.",
+    "updated" : "2024-07-06T04:06:55Z",
+    "published" : "2024-07-06T04:06:55Z",
+    "authors" : [
+      {
+        "name" : "Ethan Mendes"
+      },
+      {
+        "name" : "Yang Chen"
+      },
+      {
+        "name" : "James Hays"
+      },
+      {
+        "name" : "Sauvik Das"
+      },
+      {
+        "name" : "Wei Xu"
+      },
+      {
+        "name" : "Alan Ritter"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.04906v1",
+    "title" : "Privacy or Transparency? Negotiated Smartphone Access as a Signifier of\n  Trust in Romantic Relationships",
+    "summary" : "In this work, we analyze two large-scale surveys to examine how individuals\nthink about sharing smartphone access with romantic partners as a function of\ntrust in relationships. We find that the majority of couples have access to\neach others' devices, but may have explicit or implicit boundaries on how this\naccess is to be used. Investigating these boundaries and related social norms,\nwe find that there is little consensus about the level of smartphone access\n(i.e., transparency), or lack thereof (i.e., privacy) that is desirable in\nromantic contexts. However, there is broad agreement that the level of access\nshould be mutual and consensual. Most individuals understand trust to be the\nbasis of their decisions about transparency and privacy. Furthermore, we find\nindividuals have crossed these boundaries, violating their partners' privacy\nand betraying their trust. We examine how, when, why, and by whom these\nbetrayals occur. We consider the ramifications of these boundary violations in\nthe case of intimate partner violence. Finally, we provide recommendations for\ndesign changes to enable technological enforcement of boundaries currently\nenforced by trust, bringing access control in line with users' sharing\npreferences.",
+    "updated" : "2024-07-06T00:52:34Z",
+    "published" : "2024-07-06T00:52:34Z",
+    "authors" : [
+      {
+        "name" : "Periwinkle Doerfler"
+      },
+      {
+        "name" : "Kieron Ivy Turk"
+      },
+      {
+        "name" : "Chris Geeng"
+      },
+      {
+        "name" : "Damon McCoy"
+      },
+      {
+        "name" : "Jeffrey Ackerman"
+      },
+      {
+        "name" : "Molly Dragiewicz"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.04776v1",
+    "title" : "Quantifying Privacy Risks of Public Statistics to Residents of\n  Subsidized Housing",
+    "summary" : "As the U.S. Census Bureau implements its controversial new disclosure\navoidance system, researchers and policymakers debate the necessity of new\nprivacy protections for public statistics. With experiments on both published\nstatistics and synthetic data, we explore a particular privacy concern:\nrespondents in subsidized housing may deliberately not mention unauthorized\nchildren and other household members for fear of being evicted. By combining\npublic statistics from the Decennial Census and the Department of Housing and\nUrban Development, we demonstrate a simple, inexpensive reconstruction attack\nthat could identify subsidized households living in violation of occupancy\nguidelines in 2010. Experiments on synthetic data suggest that a random\nswapping mechanism similar to the Census Bureau's 2010 disclosure avoidance\nmeasures does not significantly reduce the precision of this attack, while a\ndifferentially private mechanism similar to the 2020 disclosure avoidance\nsystem does. Our results provide a valuable example for policymakers seeking a\ntrustworthy, accurate census.",
+    "updated" : "2024-07-05T18:00:02Z",
+    "published" : "2024-07-05T18:00:02Z",
+    "authors" : [
+      {
+        "name" : "Ryan Steed"
+      },
+      {
+        "name" : "Diana Qing"
+      },
+      {
+        "name" : "Zhiwei Steven Wu"
+      }
+    ],
+    "categories" : [
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.04751v1",
+    "title" : "A Unified Learn-to-Distort-Data Framework for Privacy-Utility Trade-off\n  in Trustworthy Federated Learning",
+    "summary" : "In this paper, we first give an introduction to the theoretical basis of the\nprivacy-utility equilibrium in federated learning based on Bayesian privacy\ndefinitions and total variation distance privacy definitions. We then present\nthe \\textit{Learn-to-Distort-Data} framework, which provides a principled\napproach to navigate the privacy-utility equilibrium by explicitly modeling the\ndistortion introduced by the privacy-preserving mechanism as a learnable\nvariable and optimizing it jointly with the model parameters. We demonstrate\nthe applicability of our framework to a variety of privacy-preserving\nmechanisms on the basis of data distortion and highlight its connections to\nrelated areas such as adversarial training, input robustness, and unlearnable\nexamples. These connections enable leveraging techniques from these areas to\ndesign effective algorithms for privacy-utility equilibrium in federated\nlearning under the \\textit{Learn-to-Distort-Data} framework.",
+    "updated" : "2024-07-05T08:15:09Z",
+    "published" : "2024-07-05T08:15:09Z",
+    "authors" : [
+      {
+        "name" : "Xiaojin Zhang"
+      },
+      {
+        "name" : "Mingcong Xu"
+      },
+      {
+        "name" : "Wei Chen"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR"
+    ]
   }
 ]
