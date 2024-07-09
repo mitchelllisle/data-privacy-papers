@@ -3042,5 +3042,40 @@
       "cs.AI",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.12457v2",
+    "title" : "Data Trade and Consumer Privacy",
+    "summary" : "This paper studies optimal mechanisms for collecting and trading data.\nConsumers benefit from revealing information about their tastes to a service\nprovider because this improves the service. However, the information is also\nvaluable to a third party as it may extract more revenue from the consumer in\nanother market called the product market. The paper characterizes the\nconstrained optimal mechanism for the service provider subject to incentive\nfeasibility. It is shown that the service provider sometimes sells no\ninformation or only partial information in order to preserve profits in the\nservice market. In a general setup, the service provision distortion and\nno-price discrimination in the product market are exclusive. Moreover, a ban on\ndata trade may reduce social welfare because it makes it harder to price\ndiscriminate in the product market.",
+    "updated" : "2024-07-06T08:11:53Z",
+    "published" : "2024-06-18T10:00:44Z",
+    "authors" : [
+      {
+        "name" : "Jiadong Gu"
+      }
+    ],
+    "categories" : [
+      "econ.TH"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.04827v2",
+    "title" : "Black Box Differential Privacy Auditing Using Total Variation Distance",
+    "summary" : "We present a practical method to audit the differential privacy (DP)\nguarantees of a machine learning model using a small hold-out dataset that is\nnot exposed to the model during the training. Having a score function such as\nthe loss function employed during the training, our method estimates the total\nvariation (TV) distance between scores obtained with a subset of the training\ndata and the hold-out dataset. With some meta information about the underlying\nDP training algorithm, these TV distance values can be converted to\n$(\\varepsilon,\\delta)$-guarantees for any $\\delta$. We show that these score\ndistributions asymptotically give lower bounds for the DP guarantees of the\nunderlying training algorithm, however, we perform a one-shot estimation for\npracticality reasons. We specify conditions that lead to lower bounds for the\nDP guarantees with high probability. To estimate the TV distance between the\nscore distributions, we use a simple density estimation method based on\nhistograms. We show that the TV distance gives a very close to optimally robust\nestimator and has an error rate $\\mathcal{O}(k^{-1/3})$, where $k$ is the total\nnumber of samples. Numerical experiments on benchmark datasets illustrate the\neffectiveness of our approach and show improvements over baseline methods for\nblack-box auditing.",
+    "updated" : "2024-07-05T21:38:38Z",
+    "published" : "2024-06-07T10:52:15Z",
+    "authors" : [
+      {
+        "name" : "Antti Koskela"
+      },
+      {
+        "name" : "Jafar Mohammadi"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "stat.ML"
+    ]
   }
 ]
