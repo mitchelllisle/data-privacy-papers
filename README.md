@@ -2,6 +2,228 @@
 <h2>2024-07</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.05450v1">Understanding Professional Needs to Create Privacy-Preserving and Secure
+  Emergent Digital Artworks</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2024-07-07T17:21:38Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Kathryn Lichlyter, Urvashi Kishnani, Kate Hollenbach, Sanchari Das</p>
+    <p><b>Summary:</b> In recent years, immersive art installations featuring interactive artworks
+have been on the rise. These installations are an integral part of museums and
+art centers like selfie museums, teamLab Borderless, ARTECHOUSE, and Meow Wolf.
+Moreover, immersive art have also been increasingly incorporated into
+traditional museums as well. However, immersive art requires active user
+participation and often captures information from viewers and participants
+through cameras, sensors, microphones, embodied interaction devices,
+surveillance, and kinetic mirrors. Therefore, we propose a new line of research
+to examine the security and privacy postures of immersive artworks. In our
+pilot study, we conducted a semi-structured interview with five experienced
+practitioners from either the art (2) or cybersecurity (3) fields. Our aim was
+to understand their current security and privacy practices, along with their
+needs when it comes to immersive art. From their responses, we created a list
+of security and privacy parameters, such as, providing opt-in mechanics for
+data collection, knowledge of data collection tools such as proximity sensors,
+and creating security awareness amongst participants by communicating security
+protocols and threat models. These parameters allow us to build
+privacy-preserving, secure, and accessible software for individuals working in
+media arts, who often have no background on security and privacy. In the
+future, we plan to utilize these parameters to develop software in response to
+those needs and then host an art exhibition of immersive artworks utilizing the
+platform.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.05446v1">Towards Perceived Security, Perceived Privacy, and the Universal Design
+  of E-Payment Applications</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-07-07T17:15:09Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Urvashi Kishnani, Isabella Cardenas, Jailene Castillo, Rosalyn Conry, Lukas Rodwin, Rika Ruiz, Matthew Walther, Sanchari Das</p>
+    <p><b>Summary:</b> With the growth of digital monetary transactions and cashless payments,
+encouraged by the COVID-19 pandemic, use of e-payment applications is on the
+rise. It is thus imperative to understand and evaluate the current posture of
+e-payment applications from three major user-facing angles: security, privacy,
+and usability. To this, we created a high-fidelity prototype of an e-payment
+application that encompassed features that we wanted to test with users. We
+then conducted a pilot study where we recruited 12 participants who tested our
+prototype. We find that both security and privacy are important for users of
+e-payment applications. Additionally, some participants perceive the strength
+of security and privacy based on the usability of the application. We provide
+recommendations such as universal design of e-payment applications.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.05237v1">Privacy of the last iterate in cyclically-sampled DP-SGD on nonconvex
+  composite losses</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Optimization and Control-F9C80E">   
+  <p><b>Published on:</b> 2024-07-07T02:35:55Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Weiwei Kong, Mónica Ribero</p>
+    <p><b>Summary:</b> Differentially private stochastic gradient descent (DP-SGD) refers to a
+family of optimization algorithms that provide a guaranteed level of
+differential privacy (DP) through DP accounting techniques. However, current
+accounting techniques make assumptions that diverge significantly from
+practical DP-SGD implementations. For example, they may assume the loss
+function is Lipschitz continuous and convex, sample the batches randomly with
+replacement, or omit the gradient clipping step.
+  In this work, we analyze the most commonly used variant of DP-SGD, in which
+we sample batches cyclically with replacement, perform gradient clipping, and
+only release the last DP-SGD iterate. More specifically - without assuming
+convexity, smoothness, or Lipschitz continuity of the loss function - we
+establish new R\'enyi differential privacy (RDP) bounds for the last DP-SGD
+iterate under the mild assumption that (i) the DP-SGD stepsize is small
+relative to the topological constants in the loss function, and (ii) the loss
+function is weakly-convex. Moreover, we show that our bounds converge to
+previously established convex bounds when the weak-convexity parameter of the
+objective function approaches zero. In the case of non-Lipschitz smooth loss
+functions, we provide a weaker bound that scales well in terms of the number of
+DP-SGD iterations.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.05045v1">Robust Skin Color Driven Privacy Preserving Face Recognition via
+  Function Secret Sharing</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2024-07-06T10:51:35Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Dong Han, Yufan Jiang, Yong Li, Ricardo Mendes, Joachim Denzler</p>
+    <p><b>Summary:</b> In this work, we leverage the pure skin color patch from the face image as
+the additional information to train an auxiliary skin color feature extractor
+and face recognition model in parallel to improve performance of
+state-of-the-art (SOTA) privacy-preserving face recognition (PPFR) systems. Our
+solution is robust against black-box attacking and well-established generative
+adversarial network (GAN) based image restoration. We analyze the potential
+risk in previous work, where the proposed cosine similarity computation might
+directly leak the protected precomputed embedding stored on the server side. We
+propose a Function Secret Sharing (FSS) based face embedding comparison
+protocol without any intermediate result leakage. In addition, we show in
+experiments that the proposed protocol is more efficient compared to the Secret
+Sharing (SS) based protocol.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.04952v1">Granular Privacy Control for Geolocation with Vision Language Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2024-07-06T04:06:55Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ethan Mendes, Yang Chen, James Hays, Sauvik Das, Wei Xu, Alan Ritter</p>
+    <p><b>Summary:</b> Vision Language Models (VLMs) are rapidly advancing in their capability to
+answer information-seeking questions. As these models are widely deployed in
+consumer applications, they could lead to new privacy risks due to emergent
+abilities to identify people in photos, geolocate images, etc. As we
+demonstrate, somewhat surprisingly, current open-source and proprietary VLMs
+are very capable image geolocators, making widespread geolocation with VLMs an
+immediate privacy risk, rather than merely a theoretical future concern. As a
+first step to address this challenge, we develop a new benchmark, GPTGeoChat,
+to test the ability of VLMs to moderate geolocation dialogues with users. We
+collect a set of 1,000 image geolocation conversations between in-house
+annotators and GPT-4v, which are annotated with the granularity of location
+information revealed at each turn. Using this new dataset, we evaluate the
+ability of various VLMs to moderate GPT-4v geolocation conversations by
+determining when too much location information has been revealed. We find that
+custom fine-tuned models perform on par with prompted API-based models when
+identifying leaked location information at the country or city level; however,
+fine-tuning on supervised data appears to be needed to accurately moderate
+finer granularities, such as the name of a restaurant or building.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.04906v1">Privacy or Transparency? Negotiated Smartphone Access as a Signifier of
+  Trust in Romantic Relationships</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-07-06T00:52:34Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Periwinkle Doerfler, Kieron Ivy Turk, Chris Geeng, Damon McCoy, Jeffrey Ackerman, Molly Dragiewicz</p>
+    <p><b>Summary:</b> In this work, we analyze two large-scale surveys to examine how individuals
+think about sharing smartphone access with romantic partners as a function of
+trust in relationships. We find that the majority of couples have access to
+each others' devices, but may have explicit or implicit boundaries on how this
+access is to be used. Investigating these boundaries and related social norms,
+we find that there is little consensus about the level of smartphone access
+(i.e., transparency), or lack thereof (i.e., privacy) that is desirable in
+romantic contexts. However, there is broad agreement that the level of access
+should be mutual and consensual. Most individuals understand trust to be the
+basis of their decisions about transparency and privacy. Furthermore, we find
+individuals have crossed these boundaries, violating their partners' privacy
+and betraying their trust. We examine how, when, why, and by whom these
+betrayals occur. We consider the ramifications of these boundary violations in
+the case of intimate partner violence. Finally, we provide recommendations for
+design changes to enable technological enforcement of boundaries currently
+enforced by trust, bringing access control in line with users' sharing
+preferences.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.04776v1">Quantifying Privacy Risks of Public Statistics to Residents of
+  Subsidized Housing</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2024-07-05T18:00:02Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ryan Steed, Diana Qing, Zhiwei Steven Wu</p>
+    <p><b>Summary:</b> As the U.S. Census Bureau implements its controversial new disclosure
+avoidance system, researchers and policymakers debate the necessity of new
+privacy protections for public statistics. With experiments on both published
+statistics and synthetic data, we explore a particular privacy concern:
+respondents in subsidized housing may deliberately not mention unauthorized
+children and other household members for fear of being evicted. By combining
+public statistics from the Decennial Census and the Department of Housing and
+Urban Development, we demonstrate a simple, inexpensive reconstruction attack
+that could identify subsidized households living in violation of occupancy
+guidelines in 2010. Experiments on synthetic data suggest that a random
+swapping mechanism similar to the Census Bureau's 2010 disclosure avoidance
+measures does not significantly reduce the precision of this attack, while a
+differentially private mechanism similar to the 2020 disclosure avoidance
+system does. Our results provide a valuable example for policymakers seeking a
+trustworthy, accurate census.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.04751v1">A Unified Learn-to-Distort-Data Framework for Privacy-Utility Trade-off
+  in Trustworthy Federated Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-07-05T08:15:09Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xiaojin Zhang, Mingcong Xu, Wei Chen</p>
+    <p><b>Summary:</b> In this paper, we first give an introduction to the theoretical basis of the
+privacy-utility equilibrium in federated learning based on Bayesian privacy
+definitions and total variation distance privacy definitions. We then present
+the \textit{Learn-to-Distort-Data} framework, which provides a principled
+approach to navigate the privacy-utility equilibrium by explicitly modeling the
+distortion introduced by the privacy-preserving mechanism as a learnable
+variable and optimizing it jointly with the model parameters. We demonstrate
+the applicability of our framework to a variety of privacy-preserving
+mechanisms on the basis of data distortion and highlight its connections to
+related areas such as adversarial training, input robustness, and unlearnable
+examples. These connections enable leveraging techniques from these areas to
+design effective algorithms for privacy-utility equilibrium in federated
+learning under the \textit{Learn-to-Distort-Data} framework.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2407.03732v1">Collection, usage and privacy of mobility data in the enterprise and
   public administrations</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
@@ -1630,7 +1852,7 @@ target ablation concept, documented in the appendix.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.12457v1">Data Trade and Consumer Privacy</a></h3>
+  <h3><a href="http://arxiv.org/abs/2406.12457v2">Data Trade and Consumer Privacy</a></h3>
   
   <p><b>Published on:</b> 2024-06-18T10:00:44Z</p>
   <details>
@@ -2565,7 +2787,7 @@ implications using this device.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.04827v1">Black Box Differential Privacy Auditing Using Total Variation Distance</a></h3>
+  <h3><a href="http://arxiv.org/abs/2406.04827v2">Black Box Differential Privacy Auditing Using Total Variation Distance</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
   <p><b>Published on:</b> 2024-06-07T10:52:15Z</p>
   <details>
@@ -2618,230 +2840,6 @@ the real-world dataset corroborate LIBERATE's capabilities in ensuring data
 privacy during data sharing and model update while maintaining efficiency and
 performance. Results underscore blockchain-based traceability mechanism as a
 promising solution for privacy-preserving in federated recommender systems.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.04610v1">Contrastive explainable clustering with differential privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-06-07T03:37:36Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Dung Nguyen, Ariel Vetzler, Sarit Kraus, Anil Vullikanti</p>
-    <p><b>Summary:</b> This paper presents a novel approach in Explainable AI (XAI), integrating
-contrastive explanations with differential privacy in clustering methods. For
-several basic clustering problems, including $k$-median and $k$-means, we give
-efficient differential private contrastive explanations that achieve
-essentially the same explanations as those that non-private clustering
-explanations can obtain. We define contrastive explanations as the utility
-difference between the original clustering utility and utility from clustering
-with a specifically fixed centroid. In each contrastive scenario, we designate
-a specific data point as the fixed centroid position, enabling us to measure
-the impact of this constraint on clustering utility under differential privacy.
-Extensive experiments across various datasets show our method's effectiveness
-in providing meaningful explanations without significantly compromising data
-privacy or clustering utility. This underscores our contribution to
-privacy-aware machine learning, demonstrating the feasibility of achieving a
-balance between privacy and utility in the explanation of clustering tasks.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.04535v1">Tangent differential privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
-  <p><b>Published on:</b> 2024-06-06T22:11:31Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Lexing Ying</p>
-    <p><b>Summary:</b> Differential privacy is a framework for protecting the identity of individual
-data points in the decision-making process. In this note, we propose a new form
-of differential privacy called tangent differential privacy. Compared with the
-usual differential privacy that is defined uniformly across data distributions,
-tangent differential privacy is tailored towards a specific data distribution
-of interest. It also allows for general distribution distances such as total
-variation distance and Wasserstein distance. In the case of risk minimization,
-we show that entropic regularization guarantees tangent differential privacy
-under rather general conditions on the risk function.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.04129v1">LenslessFace: An End-to-End Optimized Lensless System for
-  Privacy-Preserving Face Verification</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2024-06-06T14:50:15Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Xin Cai, Hailong Zhang, Chenchen Wang, Wentao Liu, Jinwei Gu, Tianfan Xue</p>
-    <p><b>Summary:</b> Lensless cameras, innovatively replacing traditional lenses for ultra-thin,
-flat optics, encode light directly onto sensors, producing images that are not
-immediately recognizable. This compact, lightweight, and cost-effective imaging
-solution offers inherent privacy advantages, making it attractive for
-privacy-sensitive applications like face verification. Typical lensless face
-verification adopts a two-stage process of reconstruction followed by
-verification, incurring privacy risks from reconstructed faces and high
-computational costs. This paper presents an end-to-end optimization approach
-for privacy-preserving face verification directly on encoded lensless captures,
-ensuring that the entire software pipeline remains encoded with no visible
-faces as intermediate results. To achieve this, we propose several techniques
-to address unique challenges from the lensless setup which precludes
-traditional face detection and alignment. Specifically, we propose a face
-center alignment scheme, an augmentation curriculum to build robustness against
-variations, and a knowledge distillation method to smooth optimization and
-enhance performance. Evaluations under both simulation and real environment
-demonstrate our method outperforms two-stage lensless verification while
-enhancing privacy and efficiency. Project website:
-\url{lenslessface.github.io}.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.03820v2">A Survey on Intelligent Internet of Things: Applications, Security,
-  Privacy, and Future Directions</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-06-06T07:55:30Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ons Aouedi, Thai-Hoc Vu, Alessio Sacco, Dinh C. Nguyen, Kandaraj Piamrat, Guido Marchetto, Quoc-Viet Pham</p>
-    <p><b>Summary:</b> The rapid advances in the Internet of Things (IoT) have promoted a revolution
-in communication technology and offered various customer services. Artificial
-intelligence (AI) techniques have been exploited to facilitate IoT operations
-and maximize their potential in modern application scenarios. In particular,
-the convergence of IoT and AI has led to a new networking paradigm called
-Intelligent IoT (IIoT), which has the potential to significantly transform
-businesses and industrial domains. This paper presents a comprehensive survey
-of IIoT by investigating its significant applications in mobile networks, as
-well as its associated security and privacy issues. Specifically, we explore
-and discuss the roles of IIoT in a wide range of key application domains, from
-smart healthcare and smart cities to smart transportation and smart industries.
-Through such extensive discussions, we investigate important security issues in
-IIoT networks, where network attacks, confidentiality, integrity, and intrusion
-are analyzed, along with a discussion of potential countermeasures. Privacy
-issues in IIoT networks were also surveyed and discussed, including data,
-location, and model privacy leakage. Finally, we outline several key challenges
-and highlight potential research directions in this important area.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.03802v1">Continual Counting with Gradual Privacy Expiration</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B">
-  <p><b>Published on:</b> 2024-06-06T07:20:16Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Joel Daniel Andersson, Monika Henzinger, Rasmus Pagh, Teresa Anna Steiner, Jalaj Upadhyay</p>
-    <p><b>Summary:</b> Differential privacy with gradual expiration models the setting where data
-items arrive in a stream and at a given time $t$ the privacy loss guaranteed
-for a data item seen at time $(t-d)$ is $\epsilon g(d)$, where $g$ is a
-monotonically non-decreasing function. We study the fundamental
-$\textit{continual (binary) counting}$ problem where each data item consists of
-a bit, and the algorithm needs to output at each time step the sum of all the
-bits streamed so far. For a stream of length $T$ and privacy $\textit{without}$
-expiration continual counting is possible with maximum (over all time steps)
-additive error $O(\log^2(T)/\varepsilon)$ and the best known lower bound is
-$\Omega(\log(T)/\varepsilon)$; closing this gap is a challenging open problem.
-  We show that the situation is very different for privacy with gradual
-expiration by giving upper and lower bounds for a large set of expiration
-functions $g$. Specifically, our algorithm achieves an additive error of $
-O(\log(T)/\epsilon)$ for a large set of privacy expiration functions. We also
-give a lower bound that shows that if $C$ is the additive error of any
-$\epsilon$-DP algorithm for this problem, then the product of $C$ and the
-privacy expiration function after $2C$ steps must be
-$\Omega(\log(T)/\epsilon)$. Our algorithm matches this lower bound as its
-additive error is $O(\log(T)/\epsilon)$, even when $g(2C) = O(1)$.
-  Our empirical evaluation shows that we achieve a slowly growing privacy loss
-with significantly smaller empirical privacy loss for large values of $d$ than
-a natural baseline algorithm.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.03785v1">Count-mean Sketch as an Optimized Framework for Frequency Estimation
-  with Local Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-06-06T06:55:08Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mingen Pan</p>
-    <p><b>Summary:</b> This paper identifies that a group of state-of-the-art
-locally-differentially-private (LDP) algorithms for frequency estimation are
-equivalent to the private Count-Mean Sketch (CMS) algorithm with different
-parameters. Therefore, we revisit the private CMS, correct errors in the
-original CMS paper regarding expectation and variance, modify the CMS
-implementation to eliminate existing bias, and explore optimized parameters for
-CMS to achieve optimality in reducing the worst-case mean squared error (MSE),
-$l_1$ loss, and $l_2$ loss. Additionally, we prove that pairwise-independent
-hashing is sufficient for CMS, reducing its communication cost to the logarithm
-of the cardinality of all possible values (i.e., a dictionary). As a result,
-the aforementioned optimized CMS is proven theoretically and empirically to be
-the only algorithm optimized for reducing the worst-case MSE, $l_1$ loss, and
-$l_2$ loss when dealing with a very large dictionary. Furthermore, we
-demonstrate that randomness is necessary to ensure the correctness of CMS, and
-the communication cost of CMS, though low, is unavoidable despite the
-randomness being public or private.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.03766v1">Privacy Preserving Semi-Decentralized Mean Estimation over
-  Intermittently-Connected Networks</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">  
-  <p><b>Published on:</b> 2024-06-06T06:12:15Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Rajarshi Saha, Mohamed Seif, Michal Yemini, Andrea J. Goldsmith, H. Vincent Poor</p>
-    <p><b>Summary:</b> We consider the problem of privately estimating the mean of vectors
-distributed across different nodes of an unreliable wireless network, where
-communications between nodes can fail intermittently. We adopt a
-semi-decentralized setup, wherein to mitigate the impact of intermittently
-connected links, nodes can collaborate with their neighbors to compute a local
-consensus, which they relay to a central server. In such a setting, the
-communications between any pair of nodes must ensure that the privacy of the
-nodes is rigorously maintained to prevent unauthorized information leakage. We
-study the tradeoff between collaborative relaying and privacy leakage due to
-the data sharing among nodes and, subsequently, propose PriCER: Private
-Collaborative Estimation via Relaying -- a differentially private collaborative
-algorithm for mean estimation to optimize this tradeoff. The privacy guarantees
-of PriCER arise (i) implicitly, by exploiting the inherent stochasticity of the
-flaky network connections, and (ii) explicitly, by adding Gaussian
-perturbations to the estimates exchanged by the nodes. Local and central
-privacy guarantees are provided against eavesdroppers who can observe different
-signals, such as the communications amongst nodes during local consensus and
-(possibly multiple) transmissions from the relays to the central server. We
-substantiate our theoretical findings with numerical simulations. Our
-implementation is available at
-https://github.com/rajarshisaha95/private-collaborative-relaying.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.03749v1">NAP^2: A Benchmark for Naturalness and Privacy-Preserving Text Rewriting
-  by Learning from Human</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2024-06-06T05:07:44Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shuo Huang, William MacLean, Xiaoxi Kang, Anqi Wu, Lizhen Qu, Qiongkai Xu, Zhuang Li, Xingliang Yuan, Gholamreza Haffari</p>
-    <p><b>Summary:</b> Increasing concerns about privacy leakage issues in academia and industry
-arise when employing NLP models from third-party providers to process sensitive
-texts. To protect privacy before sending sensitive data to those models, we
-suggest sanitizing sensitive text using two common strategies used by humans:
-i) deleting sensitive expressions, and ii) obscuring sensitive details by
-abstracting them. To explore the issues and develop a tool for text rewriting,
-we curate the first corpus, coined NAP^2, through both crowdsourcing and the
-use of large language models (LLMs). Compared to the prior works based on
-differential privacy, which lead to a sharp drop in information utility and
-unnatural texts, the human-inspired approaches result in more natural rewrites
-and offer an improved balance between privacy protection and data utility, as
-demonstrated by our extensive experiments.</p>
   </details>
 </div>
 
