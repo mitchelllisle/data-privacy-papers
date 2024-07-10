@@ -2,6 +2,159 @@
 <h2>2024-07</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.07066v1">Explainable Hyperdimensional Computing for Balancing Privacy and
+  Transparency in Additive Manufacturing Monitoring</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2024-07-09T17:42:26Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Fardin Jalil Piran, Prathyush P. Poduval, Hamza Errahmouni Barkam, Mohsen Imani, Farhad Imani</p>
+    <p><b>Summary:</b> In-situ sensing, in conjunction with learning models, presents a unique
+opportunity to address persistent defect issues in Additive Manufacturing (AM)
+processes. However, this integration introduces significant data privacy
+concerns, such as data leakage, sensor data compromise, and model inversion
+attacks, revealing critical details about part design, material composition,
+and machine parameters. Differential Privacy (DP) models, which inject noise
+into data under mathematical guarantees, offer a nuanced balance between data
+utility and privacy by obscuring traces of sensing data. However, the
+introduction of noise into learning models, often functioning as black boxes,
+complicates the prediction of how specific noise levels impact model accuracy.
+This study introduces the Differential Privacy-HyperDimensional computing
+(DP-HD) framework, leveraging the explainability of the vector symbolic
+paradigm to predict the noise impact on the accuracy of in-situ monitoring,
+safeguarding sensitive data while maintaining operational efficiency.
+Experimental results on real-world high-speed melt pool data of AM for
+detecting overhang anomalies demonstrate that DP-HD achieves superior
+operational efficiency, prediction accuracy, and robust privacy protection,
+outperforming state-of-the-art Machine Learning (ML) models. For example, when
+implementing the same level of privacy protection (with a privacy budget set at
+1), our model achieved an accuracy of 94.43\%, surpassing the performance of
+traditional models such as ResNet50 (52.30\%), GoogLeNet (23.85\%), AlexNet
+(55.78\%), DenseNet201 (69.13\%), and EfficientNet B2 (40.81\%). Notably, DP-HD
+maintains high performance under substantial noise additions designed to
+enhance privacy, unlike current models that suffer significant accuracy
+declines under high privacy constraints.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.06778v1">A BERT-based Empirical Study of Privacy Policies' Compliance with GDPR</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-07-09T11:47:52Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Lu Zhang, Nabil Moukafih, Hamad Alamri, Gregory Epiphaniou, Carsten Maple</p>
+    <p><b>Summary:</b> Since its implementation in May 2018, the General Data Protection Regulation
+(GDPR) has prompted businesses to revisit and revise their data handling
+practices to ensure compliance. The privacy policy, which serves as the primary
+means of informing users about their privacy rights and the data practices of
+companies, has been significantly updated by numerous businesses post-GDPR
+implementation. However, many privacy policies remain packed with technical
+jargon, lengthy explanations, and vague descriptions of data practices and user
+rights. This makes it a challenging task for users and regulatory authorities
+to manually verify the GDPR compliance of these privacy policies. In this
+study, we aim to address the challenge of compliance analysis between GDPR
+(Article 13) and privacy policies for 5G networks. We manually collected
+privacy policies from almost 70 different 5G MNOs, and we utilized an automated
+BERT-based model for classification. We show that an encouraging 51$\%$ of
+companies demonstrate a strong adherence to GDPR. In addition, we present the
+first study that provides current empirical evidence on the readability of
+privacy policies for 5G network. we adopted readability analysis toolset that
+incorporates various established readability metrics. The findings empirically
+show that the readability of the majority of current privacy policies remains a
+significant challenge. Hence, 5G providers need to invest considerable effort
+into revising these documents to enhance both their utility and the overall
+user experience.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.06496v1">It's Our Loss: No Privacy Amplification for Hidden State DP-SGD With
+  Non-Convex Loss</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-07-09T01:58:19Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Meenatchi Sundaram Muthu Selva Annamalai</p>
+    <p><b>Summary:</b> Differentially Private Stochastic Gradient Descent (DP-SGD) is a popular
+iterative algorithm used to train machine learning models while formally
+guaranteeing the privacy of users. However the privacy analysis of DP-SGD makes
+the unrealistic assumption that all intermediate iterates (aka internal state)
+of the algorithm are released since in practice, only the final trained model,
+i.e., the final iterate of the algorithm is released. In this hidden state
+setting, prior work has provided tighter analyses, albeit only when the loss
+function is constrained, e.g., strongly convex and smooth or linear. On the
+other hand, the privacy leakage observed empirically from hidden state DP-SGD,
+even when using non-convex loss functions suggest that there is in fact a gap
+between the theoretical privacy analysis and the privacy guarantees achieved in
+practice. Therefore, it remains an open question whether privacy amplification
+for DP-SGD is possible in the hidden state setting for general loss functions.
+  Unfortunately, this work answers the aforementioned research question
+negatively. By carefully constructing a loss function for DP-SGD, we show that
+for specific loss functions, the final iterate of DP-SGD alone leaks as much
+information as the sequence of all iterates combined. Furthermore, we
+empirically verify this result by evaluating the privacy leakage from the final
+iterate of DP-SGD with our loss function and show that this matches the
+theoretical upper bound guaranteed by DP exactly. Therefore, we show that the
+current privacy analysis fo DP-SGD is tight for general loss functions and
+conclude that no privacy amplification is possible for DP-SGD in general for
+all (possibly non-convex) loss functions.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.06495v1">Impact Evaluation on the European Privacy Laws governing generative-AI
+  models -- Evidence in Relation between Internet Censorship and the Ban of
+  ChatGPT in Italy</a></h3>
+    
+  <p><b>Published on:</b> 2024-07-09T01:56:42Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Tatsuru Kikuchi</p>
+    <p><b>Summary:</b> We proceed an impact evaluation on the European Privacy Laws governing
+generative-AI models, especially, focusing on the effects of the Ban of ChatGPT
+in Italy. We investigate on the causal relationship between Internet Censorship
+Data and the Ban of ChatGPT in Italy during the period from March 27, 2023 to
+April 11, 2023. We analyze the relation based on the hidden Markov model with
+Poisson emissions. We find out that the HTTP Invalid Requests, which decreased
+during those period, can be explained with seven-state model. Our findings
+shows the apparent inability for the users in the internet accesses as a result
+of EU regulations on the generative-AI.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.06443v1">Exposing Privacy Gaps: Membership Inference Attack on Preference Data
+  for LLM Alignment</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-07-08T22:53:23Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Qizhang Feng, Siva Rajesh Kasa, Hyokun Yun, Choon Hui Teo, Sravan Babu Bodapati</p>
+    <p><b>Summary:</b> Large Language Models (LLMs) have seen widespread adoption due to their
+remarkable natural language capabilities. However, when deploying them in
+real-world settings, it is important to align LLMs to generate texts according
+to acceptable human standards. Methods such as Proximal Policy Optimization
+(PPO) and Direct Preference Optimization (DPO) have made significant progress
+in refining LLMs using human preference data. However, the privacy concerns
+inherent in utilizing such preference data have yet to be adequately studied.
+In this paper, we investigate the vulnerability of LLMs aligned using human
+preference datasets to membership inference attacks (MIAs), highlighting the
+shortcomings of previous MIA approaches with respect to preference data. Our
+study has two main contributions: first, we introduce a novel reference-based
+attack framework specifically for analyzing preference data called PREMIA
+(\uline{Pre}ference data \uline{MIA}); second, we provide empirical evidence
+that DPO models are more vulnerable to MIA compared to PPO models. Our findings
+highlight gaps in current privacy-preserving practices for LLM alignment.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2407.05450v1">Understanding Professional Needs to Create Privacy-Preserving and Secure
   Emergent Digital Artworks</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
@@ -199,7 +352,7 @@ trustworthy, accurate census.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.04751v1">A Unified Learn-to-Distort-Data Framework for Privacy-Utility Trade-off
+  <h3><a href="http://arxiv.org/abs/2407.04751v2">A Unified Learn-to-Distort-Data Framework for Privacy-Utility Trade-off
   in Trustworthy Federated Learning</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2024-07-05T08:15:09Z</p>
@@ -839,8 +992,8 @@ theoretical analysis with numerical results.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.19964v1">Secure Outsourced Decryption for HE-based Privacy-preserving Cloud
-  Computing System</a></h3>
+  <h3><a href="http://arxiv.org/abs/2406.19964v2">Secure Outsourced Decryption for FHE-based Privacy-preserving Cloud
+  Computing</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2024-06-28T14:51:36Z</p>
   <details>
@@ -852,17 +1005,17 @@ necessitates substantial computational resources, prompting individuals and
 enterprises to turn to cloud services. Accompanying this trend is a growing
 concern regarding data leakage and misuse. Homomorphic encryption (HE) is one
 solution for safeguarding data privacy, enabling encrypted data to be processed
-securely in the cloud. However, we observe that encryption and decryption
-routines of some HE schemes require considerable computational resources,
-presenting non-trivial work for clients. In this paper, we propose an
-outsourced decryption protocol for RLWE-based HE schemes, which splits the
-original decryption into two routines, with the computationally intensive part
-executed remotely by the cloud. Its security relies on an invariant of the
-NTRU-search problem with a newly designed secret distribution. Cryptographic
-analyses are conducted to configure protocol parameters across varying security
-levels. Our experiments demonstrate that the proposed protocol achieves up to a
-$67\%$ acceleration in the client's local decryption, accompanied by a $50\%$
-reduction in space usage.</p>
+securely in the cloud. However, the encryption and decryption routines of some
+HE schemes require considerable computational resources, presenting non-trivial
+work for clients. In this paper, we propose an outsourced decryption protocol
+for the prevailing RLWE-based fully homomorphic encryption schemes. The
+protocol splits the original decryption into two routines, with the
+computationally intensive part executed remotely by the cloud. Its security
+relies on an invariant of the NTRU-search problem with a newly designed
+blinding key distribution. Cryptographic analyses are conducted to configure
+protocol parameters across varying security levels. Our experiments demonstrate
+that the proposed protocol achieves up to a $67\%$ acceleration in the client's
+local decryption, accompanied by a $50\%$ reduction in space usage.</p>
   </details>
 </div>
 
@@ -902,23 +1055,24 @@ privacy task.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.19035v2">SD-BLS: Privacy Preserving Selective Disclosure of Verifiable
+  <h3><a href="http://arxiv.org/abs/2406.19035v3">SD-BLS: Privacy Preserving Selective Disclosure of Verifiable
   Credentials with Unlinkable Threshold Revocation</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2024-06-27T09:41:13Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Denis Roio, Rebecca Selvaggini, Andrea D'Intino</p>
-    <p><b>Summary:</b> It is of critical importance to design digital identity systems that ensure
-the privacy of citizens as well as protecting them from issuer corruption. We
-aim to solve this issue and propose a method for selective disclosure and
-privacy preserving revocation of digital credentials, using the unique
-homomorphic characteristics of second order Elliptic Curves and
-Boneh-Lynn-Shacham (BLS) signatures. Our approach ensures that users can
-selectively reveal credentials signed by a certain issuer, which can be
-interactively revoked by a quorum of other agreeing issuers without revealing
-the identity of users. Our goal is to protect users from issuer corruption by
-requiring collective agreement among multiple revocation issuers.</p>
+    <p><b>Authors:</b> Denis Roio, Rebecca Selvaggini, Gabriele Bellini, Andrea D'Intino</p>
+    <p><b>Summary:</b> Ensuring privacy and protection from issuer corruption in digital identity
+systems is crucial. We propose a method for selective disclosure and
+privacy-preserving revocation of digital credentials using second-order
+Elliptic Curves and Boneh-Lynn-Shacham (BLS) signatures. We make holders able
+to present proofs of possession of selected credentials without disclosing
+them, and we protect their presentations from replay attacks. Revocations may
+be distributed among multiple revocation issuers using publicly verifiable
+secret sharing (PVSS) and activated only by configurable consensus, ensuring
+robust protection against issuer corruption. Our system's unique design enables
+extremely fast revocation checks, even with large revocation lists, leveraging
+optimized hash map lookups.</p>
   </details>
 </div>
 
@@ -1978,7 +2132,7 @@ facilitating algorithmic and procedural audits of differential privacy systems.<
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.12003v1">P3GNN: A Privacy-Preserving Provenance Graph-Based Model for APT
+  <h3><a href="http://arxiv.org/abs/2406.12003v2">P3GNN: A Privacy-Preserving Provenance Graph-Based Model for APT
   Detection in Software Defined Networking</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2024-06-17T18:14:03Z</p>
@@ -2687,159 +2841,6 @@ Noising before Model Aggregation FL (NbAFL), was studied. However, the
 presented convergence upper bound of NbAFL (Theorem 2) is incorrect. This
 comment aims to present the correct form of the convergence upper bound for
 NbAFL.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.05545v1">Privacy-Preserving Optimal Parameter Selection for Collaborative
-  Clustering</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-06-08T18:21:12Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Maryam Ghasemian, Erman Ayday</p>
-    <p><b>Summary:</b> This study investigates the optimal selection of parameters for collaborative
-clustering while ensuring data privacy. We focus on key clustering algorithms
-within a collaborative framework, where multiple data owners combine their
-data. A semi-trusted server assists in recommending the most suitable
-clustering algorithm and its parameters. Our findings indicate that the privacy
-parameter ($\epsilon$) minimally impacts the server's recommendations, but an
-increase in $\epsilon$ raises the risk of membership inference attacks, where
-sensitive information might be inferred. To mitigate these risks, we implement
-differential privacy techniques, particularly the Randomized Response
-mechanism, to add noise and protect data privacy. Our approach demonstrates
-that high-quality clustering can be achieved while maintaining data
-confidentiality, as evidenced by metrics such as the Adjusted Rand Index and
-Silhouette Score. This study contributes to privacy-aware data sharing, optimal
-algorithm and parameter selection, and effective communication between data
-owners and the server.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.05459v1">PriviFy: Designing Tangible Interfaces for Configuring IoT Privacy
-  Preferences</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E">
-  <p><b>Published on:</b> 2024-06-08T12:35:46Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Bayan Al Muhander, Omer Rana, Charith Perera</p>
-    <p><b>Summary:</b> The Internet of Things (IoT) devices, such as smart speakers can collect
-sensitive user data, necessitating the need for users to manage their privacy
-preferences. However, configuring these preferences presents users with
-multiple challenges. Existing privacy controls often lack transparency, are
-hard to understand, and do not provide meaningful choices. On top of that,
-users struggle to locate privacy settings due to multiple menus or confusing
-labeling, which discourages them from using these controls. We introduce
-PriviFy (Privacy Simplify-er), a novel and user-friendly tangible interface
-that can simplify the configuration of smart devices privacy settings. PriviFy
-is designed to propose an enhancement to existing hardware by integrating
-additional features that improve privacy management. We envision that positive
-feedback and user experiences from our study will inspire consumer product
-developers and smart device manufacturers to incorporate the useful design
-elements we have identified. Using fidelity prototyping, we iteratively
-designed PriviFy prototype with 20 participants to include interactive features
-such as knobs, buttons, lights, and notifications that allow users to configure
-their data privacy preferences and receive confirmation of their choices. We
-further evaluated PriviFy high-fidelity prototype with 20 more participants.
-Our results show that PriviFy helps simplify the complexity of privacy
-preferences configuration with a significant usability score at p < .05 (P =
-0.000000017, t = -8.8639). PriviFy successfully met users privacy needs and
-enabled them to regain control over their data. We conclude by recommending the
-importance of designing specific privacy configuration options.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.05451v1">PrivacyCube: Data Physicalization for Enhancing Privacy Awareness in IoT</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E">
-  <p><b>Published on:</b> 2024-06-08T12:20:42Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Bayan Al Muhander, Nalin Arachchilage, Yasar Majib, Mohammed Alosaimi, Omer Rana, Charith Perera</p>
-    <p><b>Summary:</b> People are increasingly bringing Internet of Things (IoT) devices into their
-homes without understanding how their data is gathered, processed, and used. We
-describe PrivacyCube, a novel data physicalization designed to increase privacy
-awareness within smart home environments. PrivacyCube visualizes IoT data
-consumption by displaying privacy-related notices. PrivacyCube aims to assist
-smart home occupants to (i) understand their data privacy better and (ii) have
-conversations around data management practices of IoT devices used within their
-homes. Using PrivacyCube, households can learn and make informed privacy
-decisions collectively. To evaluate PrivacyCube, we used multiple research
-methods throughout the different stages of design. We first conducted a focus
-group study in two stages with six participants to compare PrivacyCube to text
-and state-of-the-art privacy policies. We then deployed PrivacyCube in a
-14-day-long field study with eight households. Our results show that
-PrivacyCube helps home occupants comprehend IoT privacy better with
-significantly increased privacy awareness at p < .05 (p=0.00041, t= -5.57).
-Participants preferred PrivacyCube over text privacy policies because it was
-comprehensive and easier to use. PrivacyCube and Privacy Label, a
-state-of-the-art approach, both received positive reviews from participants,
-with PrivacyCube being preferred for its interactivity and ability to encourage
-conversations. PrivacyCube was also considered by home occupants as a piece of
-home furniture, encouraging them to socialize and discuss IoT privacy
-implications using this device.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.04827v2">Black Box Differential Privacy Auditing Using Total Variation Distance</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
-  <p><b>Published on:</b> 2024-06-07T10:52:15Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Antti Koskela, Jafar Mohammadi</p>
-    <p><b>Summary:</b> We present a practical method to audit the differential privacy (DP)
-guarantees of a machine learning model using a small hold-out dataset that is
-not exposed to the model during the training. Having a score function such as
-the loss function employed during the training, our method estimates the total
-variation (TV) distance between scores obtained with a subset of the training
-data and the hold-out dataset. With some meta information about the underlying
-DP training algorithm, these TV distance values can be converted to
-$(\varepsilon,\delta)$-guarantees for any $\delta$. We show that these score
-distributions asymptotically give lower bounds for the DP guarantees of the
-underlying training algorithm, however, we perform a one-shot estimation for
-practicality reasons. We specify conditions that lead to lower bounds for the
-DP guarantees with high probability. To estimate the TV distance between the
-score distributions, we use a simple density estimation method based on
-histograms. We show that the TV distance gives a very close to optimally robust
-estimator and has an error rate $\mathcal{O}(k^{-1/3})$, where $k$ is the total
-number of samples. Numerical experiments on benchmark datasets illustrate the
-effectiveness of our approach and show improvements over baseline methods for
-black-box auditing.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.04702v1">Marking the Pace: A Blockchain-Enhanced Privacy-Traceable Strategy for
-  Federated Recommender Systems</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-06-07T07:21:21Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zhen Cai, Tao Tang, Shuo Yu, Yunpeng Xiao, Feng Xia</p>
-    <p><b>Summary:</b> Federated recommender systems have been crucially enhanced through data
-sharing and continuous model updates, attributed to the pervasive connectivity
-and distributed computing capabilities of Internet of Things (IoT) devices.
-Given the sensitivity of IoT data, transparent data processing in data sharing
-and model updates is paramount. However, existing methods fall short in tracing
-the flow of shared data and the evolution of model updates. Consequently, data
-sharing is vulnerable to exploitation by malicious entities, raising
-significant data privacy concerns, while excluding data sharing will result in
-sub-optimal recommendations. To mitigate these concerns, we present LIBERATE, a
-privacy-traceable federated recommender system. We design a blockchain-based
-traceability mechanism, ensuring data privacy during data sharing and model
-updates. We further enhance privacy protection by incorporating local
-differential privacy in user-server communication. Extensive evaluations with
-the real-world dataset corroborate LIBERATE's capabilities in ensuring data
-privacy during data sharing and model update while maintaining efficiency and
-performance. Results underscore blockchain-based traceability mechanism as a
-promising solution for privacy-preserving in federated recommender systems.</p>
   </details>
 </div>
 
