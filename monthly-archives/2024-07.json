@@ -695,5 +695,145 @@
       "cs.AI",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.07066v1",
+    "title" : "Explainable Hyperdimensional Computing for Balancing Privacy and\n  Transparency in Additive Manufacturing Monitoring",
+    "summary" : "In-situ sensing, in conjunction with learning models, presents a unique\nopportunity to address persistent defect issues in Additive Manufacturing (AM)\nprocesses. However, this integration introduces significant data privacy\nconcerns, such as data leakage, sensor data compromise, and model inversion\nattacks, revealing critical details about part design, material composition,\nand machine parameters. Differential Privacy (DP) models, which inject noise\ninto data under mathematical guarantees, offer a nuanced balance between data\nutility and privacy by obscuring traces of sensing data. However, the\nintroduction of noise into learning models, often functioning as black boxes,\ncomplicates the prediction of how specific noise levels impact model accuracy.\nThis study introduces the Differential Privacy-HyperDimensional computing\n(DP-HD) framework, leveraging the explainability of the vector symbolic\nparadigm to predict the noise impact on the accuracy of in-situ monitoring,\nsafeguarding sensitive data while maintaining operational efficiency.\nExperimental results on real-world high-speed melt pool data of AM for\ndetecting overhang anomalies demonstrate that DP-HD achieves superior\noperational efficiency, prediction accuracy, and robust privacy protection,\noutperforming state-of-the-art Machine Learning (ML) models. For example, when\nimplementing the same level of privacy protection (with a privacy budget set at\n1), our model achieved an accuracy of 94.43\\%, surpassing the performance of\ntraditional models such as ResNet50 (52.30\\%), GoogLeNet (23.85\\%), AlexNet\n(55.78\\%), DenseNet201 (69.13\\%), and EfficientNet B2 (40.81\\%). Notably, DP-HD\nmaintains high performance under substantial noise additions designed to\nenhance privacy, unlike current models that suffer significant accuracy\ndeclines under high privacy constraints.",
+    "updated" : "2024-07-09T17:42:26Z",
+    "published" : "2024-07-09T17:42:26Z",
+    "authors" : [
+      {
+        "name" : "Fardin Jalil Piran"
+      },
+      {
+        "name" : "Prathyush P. Poduval"
+      },
+      {
+        "name" : "Hamza Errahmouni Barkam"
+      },
+      {
+        "name" : "Mohsen Imani"
+      },
+      {
+        "name" : "Farhad Imani"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.06778v1",
+    "title" : "A BERT-based Empirical Study of Privacy Policies' Compliance with GDPR",
+    "summary" : "Since its implementation in May 2018, the General Data Protection Regulation\n(GDPR) has prompted businesses to revisit and revise their data handling\npractices to ensure compliance. The privacy policy, which serves as the primary\nmeans of informing users about their privacy rights and the data practices of\ncompanies, has been significantly updated by numerous businesses post-GDPR\nimplementation. However, many privacy policies remain packed with technical\njargon, lengthy explanations, and vague descriptions of data practices and user\nrights. This makes it a challenging task for users and regulatory authorities\nto manually verify the GDPR compliance of these privacy policies. In this\nstudy, we aim to address the challenge of compliance analysis between GDPR\n(Article 13) and privacy policies for 5G networks. We manually collected\nprivacy policies from almost 70 different 5G MNOs, and we utilized an automated\nBERT-based model for classification. We show that an encouraging 51$\\%$ of\ncompanies demonstrate a strong adherence to GDPR. In addition, we present the\nfirst study that provides current empirical evidence on the readability of\nprivacy policies for 5G network. we adopted readability analysis toolset that\nincorporates various established readability metrics. The findings empirically\nshow that the readability of the majority of current privacy policies remains a\nsignificant challenge. Hence, 5G providers need to invest considerable effort\ninto revising these documents to enhance both their utility and the overall\nuser experience.",
+    "updated" : "2024-07-09T11:47:52Z",
+    "published" : "2024-07-09T11:47:52Z",
+    "authors" : [
+      {
+        "name" : "Lu Zhang"
+      },
+      {
+        "name" : "Nabil Moukafih"
+      },
+      {
+        "name" : "Hamad Alamri"
+      },
+      {
+        "name" : "Gregory Epiphaniou"
+      },
+      {
+        "name" : "Carsten Maple"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.06496v1",
+    "title" : "It's Our Loss: No Privacy Amplification for Hidden State DP-SGD With\n  Non-Convex Loss",
+    "summary" : "Differentially Private Stochastic Gradient Descent (DP-SGD) is a popular\niterative algorithm used to train machine learning models while formally\nguaranteeing the privacy of users. However the privacy analysis of DP-SGD makes\nthe unrealistic assumption that all intermediate iterates (aka internal state)\nof the algorithm are released since in practice, only the final trained model,\ni.e., the final iterate of the algorithm is released. In this hidden state\nsetting, prior work has provided tighter analyses, albeit only when the loss\nfunction is constrained, e.g., strongly convex and smooth or linear. On the\nother hand, the privacy leakage observed empirically from hidden state DP-SGD,\neven when using non-convex loss functions suggest that there is in fact a gap\nbetween the theoretical privacy analysis and the privacy guarantees achieved in\npractice. Therefore, it remains an open question whether privacy amplification\nfor DP-SGD is possible in the hidden state setting for general loss functions.\n  Unfortunately, this work answers the aforementioned research question\nnegatively. By carefully constructing a loss function for DP-SGD, we show that\nfor specific loss functions, the final iterate of DP-SGD alone leaks as much\ninformation as the sequence of all iterates combined. Furthermore, we\nempirically verify this result by evaluating the privacy leakage from the final\niterate of DP-SGD with our loss function and show that this matches the\ntheoretical upper bound guaranteed by DP exactly. Therefore, we show that the\ncurrent privacy analysis fo DP-SGD is tight for general loss functions and\nconclude that no privacy amplification is possible for DP-SGD in general for\nall (possibly non-convex) loss functions.",
+    "updated" : "2024-07-09T01:58:19Z",
+    "published" : "2024-07-09T01:58:19Z",
+    "authors" : [
+      {
+        "name" : "Meenatchi Sundaram Muthu Selva Annamalai"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.06495v1",
+    "title" : "Impact Evaluation on the European Privacy Laws governing generative-AI\n  models -- Evidence in Relation between Internet Censorship and the Ban of\n  ChatGPT in Italy",
+    "summary" : "We proceed an impact evaluation on the European Privacy Laws governing\ngenerative-AI models, especially, focusing on the effects of the Ban of ChatGPT\nin Italy. We investigate on the causal relationship between Internet Censorship\nData and the Ban of ChatGPT in Italy during the period from March 27, 2023 to\nApril 11, 2023. We analyze the relation based on the hidden Markov model with\nPoisson emissions. We find out that the HTTP Invalid Requests, which decreased\nduring those period, can be explained with seven-state model. Our findings\nshows the apparent inability for the users in the internet accesses as a result\nof EU regulations on the generative-AI.",
+    "updated" : "2024-07-09T01:56:42Z",
+    "published" : "2024-07-09T01:56:42Z",
+    "authors" : [
+      {
+        "name" : "Tatsuru Kikuchi"
+      }
+    ],
+    "categories" : [
+      "econ.GN",
+      "q-fin.EC",
+      "stat.AP"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.06443v1",
+    "title" : "Exposing Privacy Gaps: Membership Inference Attack on Preference Data\n  for LLM Alignment",
+    "summary" : "Large Language Models (LLMs) have seen widespread adoption due to their\nremarkable natural language capabilities. However, when deploying them in\nreal-world settings, it is important to align LLMs to generate texts according\nto acceptable human standards. Methods such as Proximal Policy Optimization\n(PPO) and Direct Preference Optimization (DPO) have made significant progress\nin refining LLMs using human preference data. However, the privacy concerns\ninherent in utilizing such preference data have yet to be adequately studied.\nIn this paper, we investigate the vulnerability of LLMs aligned using human\npreference datasets to membership inference attacks (MIAs), highlighting the\nshortcomings of previous MIA approaches with respect to preference data. Our\nstudy has two main contributions: first, we introduce a novel reference-based\nattack framework specifically for analyzing preference data called PREMIA\n(\\uline{Pre}ference data \\uline{MIA}); second, we provide empirical evidence\nthat DPO models are more vulnerable to MIA compared to PPO models. Our findings\nhighlight gaps in current privacy-preserving practices for LLM alignment.",
+    "updated" : "2024-07-08T22:53:23Z",
+    "published" : "2024-07-08T22:53:23Z",
+    "authors" : [
+      {
+        "name" : "Qizhang Feng"
+      },
+      {
+        "name" : "Siva Rajesh Kasa"
+      },
+      {
+        "name" : "Hyokun Yun"
+      },
+      {
+        "name" : "Choon Hui Teo"
+      },
+      {
+        "name" : "Sravan Babu Bodapati"
+      }
+    ],
+    "categories" : [
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.04751v2",
+    "title" : "A Unified Learn-to-Distort-Data Framework for Privacy-Utility Trade-off\n  in Trustworthy Federated Learning",
+    "summary" : "In this paper, we first give an introduction to the theoretical basis of the\nprivacy-utility equilibrium in federated learning based on Bayesian privacy\ndefinitions and total variation distance privacy definitions. We then present\nthe \\textit{Learn-to-Distort-Data} framework, which provides a principled\napproach to navigate the privacy-utility equilibrium by explicitly modeling the\ndistortion introduced by the privacy-preserving mechanism as a learnable\nvariable and optimizing it jointly with the model parameters. We demonstrate\nthe applicability of our framework to a variety of privacy-preserving\nmechanisms on the basis of data distortion and highlight its connections to\nrelated areas such as adversarial training, input robustness, and unlearnable\nexamples. These connections enable leveraging techniques from these areas to\ndesign effective algorithms for privacy-utility equilibrium in federated\nlearning under the \\textit{Learn-to-Distort-Data} framework.",
+    "updated" : "2024-07-09T16:11:04Z",
+    "published" : "2024-07-05T08:15:09Z",
+    "authors" : [
+      {
+        "name" : "Xiaojin Zhang"
+      },
+      {
+        "name" : "Mingcong Xu"
+      },
+      {
+        "name" : "Wei Chen"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR"
+    ]
   }
 ]
