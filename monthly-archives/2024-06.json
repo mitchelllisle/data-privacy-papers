@@ -3077,5 +3077,92 @@
       "cs.CR",
       "stat.ML"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.19964v2",
+    "title" : "Secure Outsourced Decryption for FHE-based Privacy-preserving Cloud\n  Computing",
+    "summary" : "The demand for processing vast volumes of data has surged dramatically due to\nthe advancement of machine learning technology. Large-scale data processing\nnecessitates substantial computational resources, prompting individuals and\nenterprises to turn to cloud services. Accompanying this trend is a growing\nconcern regarding data leakage and misuse. Homomorphic encryption (HE) is one\nsolution for safeguarding data privacy, enabling encrypted data to be processed\nsecurely in the cloud. However, the encryption and decryption routines of some\nHE schemes require considerable computational resources, presenting non-trivial\nwork for clients. In this paper, we propose an outsourced decryption protocol\nfor the prevailing RLWE-based fully homomorphic encryption schemes. The\nprotocol splits the original decryption into two routines, with the\ncomputationally intensive part executed remotely by the cloud. Its security\nrelies on an invariant of the NTRU-search problem with a newly designed\nblinding key distribution. Cryptographic analyses are conducted to configure\nprotocol parameters across varying security levels. Our experiments demonstrate\nthat the proposed protocol achieves up to a $67\\%$ acceleration in the client's\nlocal decryption, accompanied by a $50\\%$ reduction in space usage.",
+    "updated" : "2024-07-09T09:40:52Z",
+    "published" : "2024-06-28T14:51:36Z",
+    "authors" : [
+      {
+        "name" : "Xirong Ma"
+      },
+      {
+        "name" : "Chuan Li"
+      },
+      {
+        "name" : "Yuchang Hu"
+      },
+      {
+        "name" : "Yunting Tao"
+      },
+      {
+        "name" : "Yali Jiang"
+      },
+      {
+        "name" : "Yanbin Li"
+      },
+      {
+        "name" : "Fanyu Kong"
+      },
+      {
+        "name" : "Chunpeng Ge"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.19035v3",
+    "title" : "SD-BLS: Privacy Preserving Selective Disclosure of Verifiable\n  Credentials with Unlinkable Threshold Revocation",
+    "summary" : "Ensuring privacy and protection from issuer corruption in digital identity\nsystems is crucial. We propose a method for selective disclosure and\nprivacy-preserving revocation of digital credentials using second-order\nElliptic Curves and Boneh-Lynn-Shacham (BLS) signatures. We make holders able\nto present proofs of possession of selected credentials without disclosing\nthem, and we protect their presentations from replay attacks. Revocations may\nbe distributed among multiple revocation issuers using publicly verifiable\nsecret sharing (PVSS) and activated only by configurable consensus, ensuring\nrobust protection against issuer corruption. Our system's unique design enables\nextremely fast revocation checks, even with large revocation lists, leveraging\noptimized hash map lookups.",
+    "updated" : "2024-07-08T23:37:55Z",
+    "published" : "2024-06-27T09:41:13Z",
+    "authors" : [
+      {
+        "name" : "Denis Roio"
+      },
+      {
+        "name" : "Rebecca Selvaggini"
+      },
+      {
+        "name" : "Gabriele Bellini"
+      },
+      {
+        "name" : "Andrea D'Intino"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.12003v2",
+    "title" : "P3GNN: A Privacy-Preserving Provenance Graph-Based Model for APT\n  Detection in Software Defined Networking",
+    "summary" : "Software Defined Networking (SDN) has brought significant advancements in\nnetwork management and programmability. However, this evolution has also\nheightened vulnerability to Advanced Persistent Threats (APTs), sophisticated\nand stealthy cyberattacks that traditional detection methods often fail to\ncounter, especially in the face of zero-day exploits. A prevalent issue is the\ninadequacy of existing strategies to detect novel threats while addressing data\nprivacy concerns in collaborative learning scenarios. This paper presents P3GNN\n(privacy-preserving provenance graph-based graph neural network model), a novel\nmodel that synergizes Federated Learning (FL) with Graph Convolutional Networks\n(GCN) for effective APT detection in SDN environments. P3GNN utilizes\nunsupervised learning to analyze operational patterns within provenance graphs,\nidentifying deviations indicative of security breaches. Its core feature is the\nintegration of FL with homomorphic encryption, which fortifies data\nconfidentiality and gradient integrity during collaborative learning. This\napproach addresses the critical challenge of data privacy in shared learning\ncontexts. Key innovations of P3GNN include its ability to detect anomalies at\nthe node level within provenance graphs, offering a detailed view of attack\ntrajectories and enhancing security analysis. Furthermore, the models\nunsupervised learning capability enables it to identify zero-day attacks by\nlearning standard operational patterns. Empirical evaluation using the DARPA\nTCE3 dataset demonstrates P3GNNs exceptional performance, achieving an accuracy\nof 0.93 and a low false positive rate of 0.06.",
+    "updated" : "2024-07-08T19:50:26Z",
+    "published" : "2024-06-17T18:14:03Z",
+    "authors" : [
+      {
+        "name" : "Hedyeh Nazari"
+      },
+      {
+        "name" : "Abbas Yazdinejad"
+      },
+      {
+        "name" : "Ali Dehghantanha"
+      },
+      {
+        "name" : "Fattane Zarrinkalam"
+      },
+      {
+        "name" : "Gautam Srivastava"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
