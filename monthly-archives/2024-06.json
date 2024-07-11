@@ -3164,5 +3164,37 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2406.08918v2",
+    "title" : "Beyond the Calibration Point: Mechanism Comparison in Differential\n  Privacy",
+    "summary" : "In differentially private (DP) machine learning, the privacy guarantees of DP\nmechanisms are often reported and compared on the basis of a single\n$(\\varepsilon, \\delta)$-pair. This practice overlooks that DP guarantees can\nvary substantially even between mechanisms sharing a given $(\\varepsilon,\n\\delta)$, and potentially introduces privacy vulnerabilities which can remain\nundetected. This motivates the need for robust, rigorous methods for comparing\nDP guarantees in such cases. Here, we introduce the $\\Delta$-divergence between\nmechanisms which quantifies the worst-case excess privacy vulnerability of\nchoosing one mechanism over another in terms of $(\\varepsilon, \\delta)$, $f$-DP\nand in terms of a newly presented Bayesian interpretation. Moreover, as a\ngeneralisation of the Blackwell theorem, it is endowed with strong\ndecision-theoretic foundations. Through application examples, we show that our\ntechniques can facilitate informed decision-making and reveal gaps in the\ncurrent understanding of privacy risks, as current practices in DP-SGD often\nresult in choosing mechanisms with high excess privacy vulnerabilities.",
+    "updated" : "2024-07-10T08:01:26Z",
+    "published" : "2024-06-13T08:30:29Z",
+    "authors" : [
+      {
+        "name" : "Georgios Kaissis"
+      },
+      {
+        "name" : "Stefan Kolek"
+      },
+      {
+        "name" : "Borja Balle"
+      },
+      {
+        "name" : "Jamie Hayes"
+      },
+      {
+        "name" : "Daniel Rueckert"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG",
+      "math.ST",
+      "stat.ML",
+      "stat.TH"
+    ]
   }
 ]
