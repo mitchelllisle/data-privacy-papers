@@ -2,7 +2,55 @@
 <h2>2024-07</h2>
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.07066v1">Explainable Hyperdimensional Computing for Balancing Privacy and
+  <h3><a href="http://arxiv.org/abs/2407.07737v1">Fine-Tuning Large Language Models with User-Level Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
+  <p><b>Published on:</b> 2024-07-10T15:07:58Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zachary Charles, Arun Ganesh, Ryan McKenna, H. Brendan McMahan, Nicole Mitchell, Krishna Pillutla, Keith Rush</p>
+    <p><b>Summary:</b> We investigate practical and scalable algorithms for training large language
+models (LLMs) with user-level differential privacy (DP) in order to provably
+safeguard all the examples contributed by each user. We study two variants of
+DP-SGD with: (1) example-level sampling (ELS) and per-example gradient
+clipping, and (2) user-level sampling (ULS) and per-user gradient clipping. We
+derive a novel user-level DP accountant that allows us to compute provably
+tight privacy guarantees for ELS. Using this, we show that while ELS can
+outperform ULS in specific settings, ULS generally yields better results when
+each user has a diverse collection of examples. We validate our findings
+through experiments in synthetic mean estimation and LLM fine-tuning tasks
+under fixed compute budgets. We find that ULS is significantly better in
+settings where either (1) strong privacy guarantees are required, or (2) the
+compute budget is large. Notably, our focus on LLM-compatible training
+algorithms allows us to scale to models with hundreds of millions of parameters
+and datasets with hundreds of thousands of users.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.07262v1">Differential privacy and Sublinear time are incompatible sometimes</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-07-09T22:33:57Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jeremiah Blocki, Hendrik Fichtenberger, Elena Grigorescu, Tamalika Mukherjee</p>
+    <p><b>Summary:</b> Differential privacy and sublinear algorithms are both rapidly emerging
+algorithmic themes in times of big data analysis. Although recent works have
+shown the existence of differentially private sublinear algorithms for many
+problems including graph parameter estimation and clustering, little is known
+regarding hardness results on these algorithms. In this paper, we initiate the
+study of lower bounds for problems that aim for both differentially-private and
+sublinear-time algorithms. Our main result is the incompatibility of both the
+desiderata in the general case. In particular, we prove that a simple problem
+based on one-way marginals yields both a differentially-private algorithm, as
+well as a sublinear-time algorithm, but does not admit a ``strictly''
+sublinear-time algorithm that is also differentially private.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.07066v2">Explainable Hyperdimensional Computing for Balancing Privacy and
   Transparency in Additive Manufacturing Monitoring</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
   <p><b>Published on:</b> 2024-07-09T17:42:26Z</p>
@@ -28,9 +76,9 @@ detecting overhang anomalies demonstrate that DP-HD achieves superior
 operational efficiency, prediction accuracy, and robust privacy protection,
 outperforming state-of-the-art Machine Learning (ML) models. For example, when
 implementing the same level of privacy protection (with a privacy budget set at
-1), our model achieved an accuracy of 94.43\%, surpassing the performance of
-traditional models such as ResNet50 (52.30\%), GoogLeNet (23.85\%), AlexNet
-(55.78\%), DenseNet201 (69.13\%), and EfficientNet B2 (40.81\%). Notably, DP-HD
+1), our model achieved an accuracy of 94.43%, surpassing the performance of
+traditional models such as ResNet50 (52.30%), GoogLeNet (23.85%), AlexNet
+(55.78%), DenseNet201 (69.13%), and EfficientNet B2 (40.81%). Notably, DP-HD
 maintains high performance under substantial noise additions designed to
 enhance privacy, unlike current models that suffer significant accuracy
 declines under high privacy constraints.</p>
@@ -2574,7 +2622,7 @@ used across various use cases with minor modifications.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.08918v1">Beyond the Calibration Point: Mechanism Comparison in Differential
+  <h3><a href="http://arxiv.org/abs/2406.08918v2">Beyond the Calibration Point: Mechanism Comparison in Differential
   Privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36">  
   <p><b>Published on:</b> 2024-06-13T08:30:29Z</p>
@@ -2584,8 +2632,8 @@ used across various use cases with minor modifications.</p>
     <p><b>Summary:</b> In differentially private (DP) machine learning, the privacy guarantees of DP
 mechanisms are often reported and compared on the basis of a single
 $(\varepsilon, \delta)$-pair. This practice overlooks that DP guarantees can
-vary substantially \emph{even between mechanisms sharing a given $(\varepsilon,
-\delta)$}, and potentially introduces privacy vulnerabilities which can remain
+vary substantially even between mechanisms sharing a given $(\varepsilon,
+\delta)$, and potentially introduces privacy vulnerabilities which can remain
 undetected. This motivates the need for robust, rigorous methods for comparing
 DP guarantees in such cases. Here, we introduce the $\Delta$-divergence between
 mechanisms which quantifies the worst-case excess privacy vulnerability of
@@ -2791,56 +2839,6 @@ classified. We reveal problematic data processing practices prior to consent
 and age disclosure, lack of differentiation between age-specific data flows,
 inconsistent privacy policy disclosures, and sharing of linkable data with
 third parties, including advertising and tracking services.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.06186v1">A Survey on Machine Unlearning: Techniques and New Emerged Privacy Risks</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-06-10T11:31:04Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Hengzhu Liu, Ping Xiong, Tianqing Zhu, Philip S. Yu</p>
-    <p><b>Summary:</b> The explosive growth of machine learning has made it a critical
-infrastructure in the era of artificial intelligence. The extensive use of data
-poses a significant threat to individual privacy. Various countries have
-implemented corresponding laws, such as GDPR, to protect individuals' data
-privacy and the right to be forgotten. This has made machine unlearning a
-research hotspot in the field of privacy protection in recent years, with the
-aim of efficiently removing the contribution and impact of individual data from
-trained models. The research in academia on machine unlearning has continuously
-enriched its theoretical foundation, and many methods have been proposed,
-targeting different data removal requests in various application scenarios.
-However, recently researchers have found potential privacy leakages of various
-of machine unlearning approaches, making the privacy preservation on machine
-unlearning area a critical topic. This paper provides an overview and analysis
-of the existing research on machine unlearning, aiming to present the current
-vulnerabilities of machine unlearning approaches. We analyze privacy risks in
-various aspects, including definitions, implementation methods, and real-world
-applications. Compared to existing reviews, we analyze the new challenges posed
-by the latest malicious attack techniques on machine unlearning from the
-perspective of privacy threats. We hope that this survey can provide an initial
-but comprehensive discussion on this new emerging area.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.05858v1">Comments on "Federated Learning with Differential Privacy: Algorithms
-  and Performance Analysis"</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Performance-F9C80E">
-  <p><b>Published on:</b> 2024-06-09T17:03:56Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mahtab Talaei, Iman Izadi</p>
-    <p><b>Summary:</b> In the paper by Wei et al. ("Federated Learning with Differential Privacy:
-Algorithms and Performance Analysis"), the convergence performance of the
-proposed differential privacy algorithm in federated learning (FL), known as
-Noising before Model Aggregation FL (NbAFL), was studied. However, the
-presented convergence upper bound of NbAFL (Theorem 2) is incorrect. This
-comment aims to present the correct form of the convergence upper bound for
-NbAFL.</p>
   </details>
 </div>
 
