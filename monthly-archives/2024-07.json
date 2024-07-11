@@ -835,5 +835,95 @@
       "cs.AI",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.07737v1",
+    "title" : "Fine-Tuning Large Language Models with User-Level Differential Privacy",
+    "summary" : "We investigate practical and scalable algorithms for training large language\nmodels (LLMs) with user-level differential privacy (DP) in order to provably\nsafeguard all the examples contributed by each user. We study two variants of\nDP-SGD with: (1) example-level sampling (ELS) and per-example gradient\nclipping, and (2) user-level sampling (ULS) and per-user gradient clipping. We\nderive a novel user-level DP accountant that allows us to compute provably\ntight privacy guarantees for ELS. Using this, we show that while ELS can\noutperform ULS in specific settings, ULS generally yields better results when\neach user has a diverse collection of examples. We validate our findings\nthrough experiments in synthetic mean estimation and LLM fine-tuning tasks\nunder fixed compute budgets. We find that ULS is significantly better in\nsettings where either (1) strong privacy guarantees are required, or (2) the\ncompute budget is large. Notably, our focus on LLM-compatible training\nalgorithms allows us to scale to models with hundreds of millions of parameters\nand datasets with hundreds of thousands of users.",
+    "updated" : "2024-07-10T15:07:58Z",
+    "published" : "2024-07-10T15:07:58Z",
+    "authors" : [
+      {
+        "name" : "Zachary Charles"
+      },
+      {
+        "name" : "Arun Ganesh"
+      },
+      {
+        "name" : "Ryan McKenna"
+      },
+      {
+        "name" : "H. Brendan McMahan"
+      },
+      {
+        "name" : "Nicole Mitchell"
+      },
+      {
+        "name" : "Krishna Pillutla"
+      },
+      {
+        "name" : "Keith Rush"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CL",
+      "cs.CR",
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.07262v1",
+    "title" : "Differential privacy and Sublinear time are incompatible sometimes",
+    "summary" : "Differential privacy and sublinear algorithms are both rapidly emerging\nalgorithmic themes in times of big data analysis. Although recent works have\nshown the existence of differentially private sublinear algorithms for many\nproblems including graph parameter estimation and clustering, little is known\nregarding hardness results on these algorithms. In this paper, we initiate the\nstudy of lower bounds for problems that aim for both differentially-private and\nsublinear-time algorithms. Our main result is the incompatibility of both the\ndesiderata in the general case. In particular, we prove that a simple problem\nbased on one-way marginals yields both a differentially-private algorithm, as\nwell as a sublinear-time algorithm, but does not admit a ``strictly''\nsublinear-time algorithm that is also differentially private.",
+    "updated" : "2024-07-09T22:33:57Z",
+    "published" : "2024-07-09T22:33:57Z",
+    "authors" : [
+      {
+        "name" : "Jeremiah Blocki"
+      },
+      {
+        "name" : "Hendrik Fichtenberger"
+      },
+      {
+        "name" : "Elena Grigorescu"
+      },
+      {
+        "name" : "Tamalika Mukherjee"
+      }
+    ],
+    "categories" : [
+      "cs.DS",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.07066v2",
+    "title" : "Explainable Hyperdimensional Computing for Balancing Privacy and\n  Transparency in Additive Manufacturing Monitoring",
+    "summary" : "In-situ sensing, in conjunction with learning models, presents a unique\nopportunity to address persistent defect issues in Additive Manufacturing (AM)\nprocesses. However, this integration introduces significant data privacy\nconcerns, such as data leakage, sensor data compromise, and model inversion\nattacks, revealing critical details about part design, material composition,\nand machine parameters. Differential Privacy (DP) models, which inject noise\ninto data under mathematical guarantees, offer a nuanced balance between data\nutility and privacy by obscuring traces of sensing data. However, the\nintroduction of noise into learning models, often functioning as black boxes,\ncomplicates the prediction of how specific noise levels impact model accuracy.\nThis study introduces the Differential Privacy-HyperDimensional computing\n(DP-HD) framework, leveraging the explainability of the vector symbolic\nparadigm to predict the noise impact on the accuracy of in-situ monitoring,\nsafeguarding sensitive data while maintaining operational efficiency.\nExperimental results on real-world high-speed melt pool data of AM for\ndetecting overhang anomalies demonstrate that DP-HD achieves superior\noperational efficiency, prediction accuracy, and robust privacy protection,\noutperforming state-of-the-art Machine Learning (ML) models. For example, when\nimplementing the same level of privacy protection (with a privacy budget set at\n1), our model achieved an accuracy of 94.43%, surpassing the performance of\ntraditional models such as ResNet50 (52.30%), GoogLeNet (23.85%), AlexNet\n(55.78%), DenseNet201 (69.13%), and EfficientNet B2 (40.81%). Notably, DP-HD\nmaintains high performance under substantial noise additions designed to\nenhance privacy, unlike current models that suffer significant accuracy\ndeclines under high privacy constraints.",
+    "updated" : "2024-07-10T01:37:05Z",
+    "published" : "2024-07-09T17:42:26Z",
+    "authors" : [
+      {
+        "name" : "Fardin Jalil Piran"
+      },
+      {
+        "name" : "Prathyush P. Poduval"
+      },
+      {
+        "name" : "Hamza Errahmouni Barkam"
+      },
+      {
+        "name" : "Mohsen Imani"
+      },
+      {
+        "name" : "Farhad Imani"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "cs.CV"
+    ]
   }
 ]
