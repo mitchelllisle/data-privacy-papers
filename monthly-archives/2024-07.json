@@ -925,5 +925,87 @@
       "cs.CR",
       "cs.CV"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.08529v1",
+    "title" : "Enhancing Privacy of Spatiotemporal Federated Learning against Gradient\n  Inversion Attacks",
+    "summary" : "Spatiotemporal federated learning has recently raised intensive studies due\nto its ability to train valuable models with only shared gradients in various\nlocation-based services. On the other hand, recent studies have shown that\nshared gradients may be subject to gradient inversion attacks (GIA) on images\nor texts. However, so far there has not been any systematic study of the\ngradient inversion attacks in spatiotemporal federated learning. In this paper,\nwe explore the gradient attack problem in spatiotemporal federated learning\nfrom attack and defense perspectives. To understand privacy risks in\nspatiotemporal federated learning, we first propose Spatiotemporal Gradient\nInversion Attack (ST-GIA), a gradient attack algorithm tailored to\nspatiotemporal data that successfully reconstructs the original location from\ngradients. Furthermore, we design an adaptive defense strategy to mitigate\ngradient inversion attacks in spatiotemporal federated learning. By dynamically\nadjusting the perturbation levels, we can offer tailored protection for varying\nrounds of training data, thereby achieving a better trade-off between privacy\nand utility than current state-of-the-art methods. Through intensive\nexperimental analysis on three real-world datasets, we reveal that the proposed\ndefense strategy can well preserve the utility of spatiotemporal federated\nlearning with effective security protection.",
+    "updated" : "2024-07-11T14:17:02Z",
+    "published" : "2024-07-11T14:17:02Z",
+    "authors" : [
+      {
+        "name" : "Lele Zheng"
+      },
+      {
+        "name" : "Yang Cao"
+      },
+      {
+        "name" : "Renhe Jiang"
+      },
+      {
+        "name" : "Kenjiro Taura"
+      },
+      {
+        "name" : "Yulong Shen"
+      },
+      {
+        "name" : "Sheng Li"
+      },
+      {
+        "name" : "Masatoshi Yoshikawa"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.08152v1",
+    "title" : "Privacy-Preserving Data Deduplication for Enhancing Federated Learning\n  of Language Models",
+    "summary" : "Deduplication is a vital preprocessing step that enhances machine learning\nmodel performance and saves training time and energy. However, enhancing\nfederated learning through deduplication poses challenges, especially regarding\nscalability and potential privacy violations if deduplication involves sharing\nall clients' data. In this paper, we address the problem of deduplication in a\nfederated setup by introducing a pioneering protocol, Efficient\nPrivacy-Preserving Multi-Party Deduplication (EP-MPD). It efficiently removes\nduplicates from multiple clients' datasets without compromising data privacy.\nEP-MPD is constructed in a modular fashion, utilizing two novel variants of the\nPrivate Set Intersection protocol. Our extensive experiments demonstrate the\nsignificant benefits of deduplication in federated learning of large language\nmodels. For instance, we observe up to 19.61% improvement in perplexity and up\nto 27.95% reduction in running time. EP-MPD effectively balances privacy and\nperformance in federated learning, making it a valuable solution for\nlarge-scale applications.",
+    "updated" : "2024-07-11T03:10:27Z",
+    "published" : "2024-07-11T03:10:27Z",
+    "authors" : [
+      {
+        "name" : "Aydin Abadi"
+      },
+      {
+        "name" : "Vishnu Asutosh Dasu"
+      },
+      {
+        "name" : "Sumanta Sarkar"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.CL",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.07926v1",
+    "title" : "Synthetic Data: Revisiting the Privacy-Utility Trade-off",
+    "summary" : "Synthetic data has been considered a better privacy-preserving alternative to\ntraditionally sanitized data across various applications. However, a recent\narticle challenges this notion, stating that synthetic data does not provide a\nbetter trade-off between privacy and utility than traditional anonymization\ntechniques, and that it leads to unpredictable utility loss and highly\nunpredictable privacy gain. The article also claims to have identified a breach\nin the differential privacy guarantees provided by PATEGAN and PrivBayes. When\na study claims to refute or invalidate prior findings, it is crucial to verify\nand validate the study. In our work, we analyzed the implementation of the\nprivacy game described in the article and found that it operated in a highly\nspecialized and constrained environment, which limits the applicability of its\nfindings to general cases. Our exploration also revealed that the game did not\nsatisfy a crucial precondition concerning data distributions, which contributed\nto the perceived violation of the differential privacy guarantees offered by\nPATEGAN and PrivBayes. We also conducted a privacy-utility trade-off analysis\nin a more general and unconstrained environment. Our experimentation\ndemonstrated that synthetic data achieves a more favorable privacy-utility\ntrade-off compared to the provided implementation of k-anonymization, thereby\nreaffirming earlier conclusions.",
+    "updated" : "2024-07-09T14:48:43Z",
+    "published" : "2024-07-09T14:48:43Z",
+    "authors" : [
+      {
+        "name" : "Fatima Jahan Sarmin"
+      },
+      {
+        "name" : "Atiquer Rahman Sarkar"
+      },
+      {
+        "name" : "Yang Wang"
+      },
+      {
+        "name" : "Noman Mohammed"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
   }
 ]
