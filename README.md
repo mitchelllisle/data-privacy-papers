@@ -2,6 +2,64 @@
 <h2>2024-07</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.08529v1">Enhancing Privacy of Spatiotemporal Federated Learning against Gradient
+  Inversion Attacks</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-07-11T14:17:02Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Lele Zheng, Yang Cao, Renhe Jiang, Kenjiro Taura, Yulong Shen, Sheng Li, Masatoshi Yoshikawa</p>
+    <p><b>Summary:</b> Spatiotemporal federated learning has recently raised intensive studies due
+to its ability to train valuable models with only shared gradients in various
+location-based services. On the other hand, recent studies have shown that
+shared gradients may be subject to gradient inversion attacks (GIA) on images
+or texts. However, so far there has not been any systematic study of the
+gradient inversion attacks in spatiotemporal federated learning. In this paper,
+we explore the gradient attack problem in spatiotemporal federated learning
+from attack and defense perspectives. To understand privacy risks in
+spatiotemporal federated learning, we first propose Spatiotemporal Gradient
+Inversion Attack (ST-GIA), a gradient attack algorithm tailored to
+spatiotemporal data that successfully reconstructs the original location from
+gradients. Furthermore, we design an adaptive defense strategy to mitigate
+gradient inversion attacks in spatiotemporal federated learning. By dynamically
+adjusting the perturbation levels, we can offer tailored protection for varying
+rounds of training data, thereby achieving a better trade-off between privacy
+and utility than current state-of-the-art methods. Through intensive
+experimental analysis on three real-world datasets, we reveal that the proposed
+defense strategy can well preserve the utility of spatiotemporal federated
+learning with effective security protection.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.08152v1">Privacy-Preserving Data Deduplication for Enhancing Federated Learning
+  of Language Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-07-11T03:10:27Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Aydin Abadi, Vishnu Asutosh Dasu, Sumanta Sarkar</p>
+    <p><b>Summary:</b> Deduplication is a vital preprocessing step that enhances machine learning
+model performance and saves training time and energy. However, enhancing
+federated learning through deduplication poses challenges, especially regarding
+scalability and potential privacy violations if deduplication involves sharing
+all clients' data. In this paper, we address the problem of deduplication in a
+federated setup by introducing a pioneering protocol, Efficient
+Privacy-Preserving Multi-Party Deduplication (EP-MPD). It efficiently removes
+duplicates from multiple clients' datasets without compromising data privacy.
+EP-MPD is constructed in a modular fashion, utilizing two novel variants of the
+Private Set Intersection protocol. Our extensive experiments demonstrate the
+significant benefits of deduplication in federated learning of large language
+models. For instance, we observe up to 19.61% improvement in perplexity and up
+to 27.95% reduction in running time. EP-MPD effectively balances privacy and
+performance in federated learning, making it a valuable solution for
+large-scale applications.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2407.07737v1">Fine-Tuning Large Language Models with User-Level Differential Privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
   <p><b>Published on:</b> 2024-07-10T15:07:58Z</p>
@@ -82,6 +140,36 @@ traditional models such as ResNet50 (52.30%), GoogLeNet (23.85%), AlexNet
 maintains high performance under substantial noise additions designed to
 enhance privacy, unlike current models that suffer significant accuracy
 declines under high privacy constraints.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.07926v1">Synthetic Data: Revisiting the Privacy-Utility Trade-off</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-07-09T14:48:43Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Fatima Jahan Sarmin, Atiquer Rahman Sarkar, Yang Wang, Noman Mohammed</p>
+    <p><b>Summary:</b> Synthetic data has been considered a better privacy-preserving alternative to
+traditionally sanitized data across various applications. However, a recent
+article challenges this notion, stating that synthetic data does not provide a
+better trade-off between privacy and utility than traditional anonymization
+techniques, and that it leads to unpredictable utility loss and highly
+unpredictable privacy gain. The article also claims to have identified a breach
+in the differential privacy guarantees provided by PATEGAN and PrivBayes. When
+a study claims to refute or invalidate prior findings, it is crucial to verify
+and validate the study. In our work, we analyzed the implementation of the
+privacy game described in the article and found that it operated in a highly
+specialized and constrained environment, which limits the applicability of its
+findings to general cases. Our exploration also revealed that the game did not
+satisfy a crucial precondition concerning data distributions, which contributed
+to the perceived violation of the differential privacy guarantees offered by
+PATEGAN and PrivBayes. We also conducted a privacy-utility trade-off analysis
+in a more general and unconstrained environment. Our experimentation
+demonstrated that synthetic data achieves a more favorable privacy-utility
+trade-off compared to the provided implementation of k-anonymization, thereby
+reaffirming earlier conclusions.</p>
   </details>
 </div>
 
@@ -2751,94 +2839,6 @@ by the optimal solution for $\alpha=\infty$ and the convexity of $\alpha$-lift
 with respect to the lift, which we prove. The numerical results show the
 efficacy of the algorithm and indicate the effective range of $\alpha$ and
 privacy budget $\varepsilon$ with good PUT performance.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.06755v1">Optimal Federated Learning for Nonparametric Regression with
-  Heterogeneous Distributed Differential Privacy Constraints</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">   
-  <p><b>Published on:</b> 2024-06-10T19:34:07Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> T. Tony Cai, Abhinav Chakraborty, Lasse Vuursteen</p>
-    <p><b>Summary:</b> This paper studies federated learning for nonparametric regression in the
-context of distributed samples across different servers, each adhering to
-distinct differential privacy constraints. The setting we consider is
-heterogeneous, encompassing both varying sample sizes and differential privacy
-constraints across servers. Within this framework, both global and pointwise
-estimation are considered, and optimal rates of convergence over the Besov
-spaces are established.
-  Distributed privacy-preserving estimators are proposed and their risk
-properties are investigated. Matching minimax lower bounds, up to a logarithmic
-factor, are established for both global and pointwise estimation. Together,
-these findings shed light on the tradeoff between statistical accuracy and
-privacy preservation. In particular, we characterize the compromise not only in
-terms of the privacy budget but also concerning the loss incurred by
-distributing data within the privacy framework as a whole. This insight
-captures the folklore wisdom that it is easier to retain privacy in larger
-samples, and explores the differences between pointwise and global estimation
-under distributed privacy constraints.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.06749v1">Federated Nonparametric Hypothesis Testing with Differential Privacy
-  Constraints: Optimal Rates and Adaptive Tests</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">   
-  <p><b>Published on:</b> 2024-06-10T19:25:19Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> T. Tony Cai, Abhinav Chakraborty, Lasse Vuursteen</p>
-    <p><b>Summary:</b> Federated learning has attracted significant recent attention due to its
-applicability across a wide range of settings where data is collected and
-analyzed across disparate locations. In this paper, we study federated
-nonparametric goodness-of-fit testing in the white-noise-with-drift model under
-distributed differential privacy (DP) constraints.
-  We first establish matching lower and upper bounds, up to a logarithmic
-factor, on the minimax separation rate. This optimal rate serves as a benchmark
-for the difficulty of the testing problem, factoring in model characteristics
-such as the number of observations, noise level, and regularity of the signal
-class, along with the strictness of the $(\epsilon,\delta)$-DP requirement. The
-results demonstrate interesting and novel phase transition phenomena.
-Furthermore, the results reveal an interesting phenomenon that distributed
-one-shot protocols with access to shared randomness outperform those without
-access to shared randomness. We also construct a data-driven testing procedure
-that possesses the ability to adapt to an unknown regularity parameter over a
-large collection of function classes with minimal additional cost, all while
-maintaining adherence to the same set of DP constraints.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.06473v1">DiffAudit: Auditing Privacy Practices of Online Services for Children
-  and Adolescents</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-06-10T17:14:53Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Olivia Figueira, Rahmadi Trimananda, Athina Markopoulou, Scott Jordan</p>
-    <p><b>Summary:</b> Children's and adolescents' online data privacy are regulated by laws such as
-the Children's Online Privacy Protection Act (COPPA) and the California
-Consumer Privacy Act (CCPA). Online services that are directed towards general
-audiences (i.e., including children, adolescents, and adults) must comply with
-these laws. In this paper, first, we present DiffAudit, a platform-agnostic
-privacy auditing methodology for general audience services. DiffAudit performs
-differential analysis of network traffic data flows to compare data processing
-practices (i) between child, adolescent, and adult users and (ii) before and
-after consent is given and user age is disclosed. We also present a data type
-classification method that utilizes GPT-4 and our data type ontology based on
-COPPA and CCPA, allowing us to identify considerably more data types than prior
-work. Second, we apply DiffAudit to a set of popular general audience mobile
-and web services and observe a rich set of behaviors extracted from over 440K
-outgoing requests, containing 3,968 unique data types we extracted and
-classified. We reveal problematic data processing practices prior to consent
-and age disclosure, lack of differentiation between age-specific data flows,
-inconsistent privacy policy disclosures, and sharing of linkable data with
-third parties, including advertising and tracking services.</p>
   </details>
 </div>
 
