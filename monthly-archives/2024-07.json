@@ -1007,5 +1007,185 @@
       "cs.CR",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.09324v1",
+    "title" : "Provable Privacy Advantages of Decentralized Federated Learning via\n  Distributed Optimization",
+    "summary" : "Federated learning (FL) emerged as a paradigm designed to improve data\nprivacy by enabling data to reside at its source, thus embedding privacy as a\ncore consideration in FL architectures, whether centralized or decentralized.\nContrasting with recent findings by Pasquini et al., which suggest that\ndecentralized FL does not empirically offer any additional privacy or security\nbenefits over centralized models, our study provides compelling evidence to the\ncontrary. We demonstrate that decentralized FL, when deploying distributed\noptimization, provides enhanced privacy protection - both theoretically and\nempirically - compared to centralized approaches. The challenge of quantifying\nprivacy loss through iterative processes has traditionally constrained the\ntheoretical exploration of FL protocols. We overcome this by conducting a\npioneering in-depth information-theoretical privacy analysis for both\nframeworks. Our analysis, considering both eavesdropping and passive adversary\nmodels, successfully establishes bounds on privacy leakage. We show information\ntheoretically that the privacy loss in decentralized FL is upper bounded by the\nloss in centralized FL. Compared to the centralized case where local gradients\nof individual participants are directly revealed, a key distinction of\noptimization-based decentralized FL is that the relevant information includes\ndifferences of local gradients over successive iterations and the aggregated\nsum of different nodes' gradients over the network. This information\ncomplicates the adversary's attempt to infer private data. To bridge our\ntheoretical insights with practical applications, we present detailed case\nstudies involving logistic regression and deep neural networks. These examples\ndemonstrate that while privacy leakage remains comparable in simpler models,\ncomplex models like deep neural networks exhibit lower privacy risks under\ndecentralized FL.",
+    "updated" : "2024-07-12T15:01:09Z",
+    "published" : "2024-07-12T15:01:09Z",
+    "authors" : [
+      {
+        "name" : "Wenrui Yu"
+      },
+      {
+        "name" : "Qiongxiu Li"
+      },
+      {
+        "name" : "Milan Lopuhaä-Zwakenberg"
+      },
+      {
+        "name" : "Mads Græsbøll Christensen"
+      },
+      {
+        "name" : "Richard Heusdens"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.IT",
+      "math.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.09239v1",
+    "title" : "FedVAE: Trajectory privacy preserving based on Federated Variational\n  AutoEncoder",
+    "summary" : "The use of trajectory data with abundant spatial-temporal information is\npivotal in Intelligent Transport Systems (ITS) and various traffic system\ntasks. Location-Based Services (LBS) capitalize on this trajectory data to\noffer users personalized services tailored to their location information.\nHowever, this trajectory data contains sensitive information about users'\nmovement patterns and habits, necessitating confidentiality and protection from\nunknown collectors. To address this challenge, privacy-preserving methods like\nK-anonymity and Differential Privacy have been proposed to safeguard private\ninformation in the dataset. Despite their effectiveness, these methods can\nimpact the original features by introducing perturbations or generating\nunrealistic trajectory data, leading to suboptimal performance in downstream\ntasks. To overcome these limitations, we propose a Federated Variational\nAutoEncoder (FedVAE) approach, which effectively generates a new trajectory\ndataset while preserving the confidentiality of private information and\nretaining the structure of the original features. In addition, FedVAE leverages\nVariational AutoEncoder (VAE) to maintain the original feature space and\ngenerate new trajectory data, and incorporates Federated Learning (FL) during\nthe training stage, ensuring that users' data remains locally stored to protect\ntheir personal information. The results demonstrate its superior performance\ncompared to other existing methods, affirming FedVAE as a promising solution\nfor enhancing data privacy and utility in location-based applications.",
+    "updated" : "2024-07-12T13:10:59Z",
+    "published" : "2024-07-12T13:10:59Z",
+    "authors" : [
+      {
+        "name" : "Yuchen Jiang"
+      },
+      {
+        "name" : "Ying Wu"
+      },
+      {
+        "name" : "Shiyao Zhang"
+      },
+      {
+        "name" : "James J. Q. Yu"
+      }
+    ],
+    "categories" : [
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.09004v1",
+    "title" : "Privacy-Preserving Collaborative Genomic Research: A Real-Life\n  Deployment and Vision",
+    "summary" : "The data revolution holds significant promise for the health sector. Vast\namounts of data collected from individuals will be transformed into knowledge,\nAI models, predictive systems, and best practices. One area of health that\nstands to benefit greatly is the genomic domain. Progress in AI, machine\nlearning, and data science has opened new opportunities for genomic research,\npromising breakthroughs in personalized medicine. However, increasing awareness\nof privacy and cybersecurity necessitates robust solutions to protect sensitive\ndata in collaborative research. This paper presents a practical deployment of a\nprivacy-preserving framework for genomic research, developed in collaboration\nwith Lynx.MD, a platform for secure health data collaboration. The framework\naddresses critical cybersecurity and privacy challenges, enabling the\nprivacy-preserving sharing and analysis of genomic data while mitigating risks\nassociated with data breaches. By integrating advanced privacy-preserving\nalgorithms, the solution ensures the protection of individual privacy without\ncompromising data utility. A unique feature of the system is its ability to\nbalance trade-offs between data sharing and privacy, providing stakeholders\ntools to quantify privacy risks and make informed decisions. Implementing the\nframework within Lynx.MD involves encoding genomic data into binary formats and\napplying noise through controlled perturbation techniques. This approach\npreserves essential statistical properties of the data, facilitating effective\nresearch and analysis. Moreover, the system incorporates real-time data\nmonitoring and advanced visualization tools, enhancing user experience and\ndecision-making. The paper highlights the need for tailored privacy attacks and\ndefenses specific to genomic data. Addressing these challenges fosters\ncollaboration in genomic research, advancing personalized medicine and public\nhealth.",
+    "updated" : "2024-07-12T05:43:13Z",
+    "published" : "2024-07-12T05:43:13Z",
+    "authors" : [
+      {
+        "name" : "Zahra Rahmani"
+      },
+      {
+        "name" : "Nahal Shahini"
+      },
+      {
+        "name" : "Nadav Gat"
+      },
+      {
+        "name" : "Zebin Yun"
+      },
+      {
+        "name" : "Yuzhou Jiang"
+      },
+      {
+        "name" : "Ofir Farchy"
+      },
+      {
+        "name" : "Yaniv Harel"
+      },
+      {
+        "name" : "Vipin Chaudhary"
+      },
+      {
+        "name" : "Mahmood Sharif"
+      },
+      {
+        "name" : "Erman Ayday"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.08977v1",
+    "title" : "CURE: Privacy-Preserving Split Learning Done Right",
+    "summary" : "Training deep neural networks often requires large-scale datasets,\nnecessitating storage and processing on cloud servers due to computational\nconstraints. The procedures must follow strict privacy regulations in domains\nlike healthcare. Split Learning (SL), a framework that divides model layers\nbetween client(s) and server(s), is widely adopted for distributed model\ntraining. While Split Learning reduces privacy risks by limiting server access\nto the full parameter set, previous research has identified that intermediate\noutputs exchanged between server and client can compromise client's data\nprivacy. Homomorphic encryption (HE)-based solutions exist for this scenario\nbut often impose prohibitive computational burdens.\n  To address these challenges, we propose CURE, a novel system based on HE,\nthat encrypts only the server side of the model and optionally the data. CURE\nenables secure SL while substantially improving communication and\nparallelization through advanced packing techniques. We propose two packing\nschemes that consume one HE level for one-layer networks and generalize our\nsolutions to n-layer neural networks. We demonstrate that CURE can achieve\nsimilar accuracy to plaintext SL while being 16x more efficient in terms of the\nruntime compared to the state-of-the-art privacy-preserving alternatives.",
+    "updated" : "2024-07-12T04:10:19Z",
+    "published" : "2024-07-12T04:10:19Z",
+    "authors" : [
+      {
+        "name" : "Halil Ibrahim Kanpak"
+      },
+      {
+        "name" : "Aqsa Shabbir"
+      },
+      {
+        "name" : "Esra Genç"
+      },
+      {
+        "name" : "Alptekin Küpçü"
+      },
+      {
+        "name" : "Sinem Sav"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.08954v1",
+    "title" : "PriRoAgg: Achieving Robust Model Aggregation with Minimum Privacy\n  Leakage for Federated Learning",
+    "summary" : "Federated learning (FL) has recently gained significant momentum due to its\npotential to leverage large-scale distributed user data while preserving user\nprivacy. However, the typical paradigm of FL faces challenges of both privacy\nand robustness: the transmitted model updates can potentially leak sensitive\nuser information, and the lack of central control of the local training process\nleaves the global model susceptible to malicious manipulations on model\nupdates. Current solutions attempting to address both problems under the\none-server FL setting fall short in the following aspects: 1) designed for\nsimple validity checks that are insufficient against advanced attacks (e.g.,\nchecking norm of individual update); and 2) partial privacy leakage for more\ncomplicated robust aggregation algorithms (e.g., distances between model\nupdates are leaked for multi-Krum). In this work, we formalize a novel security\nnotion of aggregated privacy that characterizes the minimum amount of user\ninformation, in the form of some aggregated statistics of users' updates, that\nis necessary to be revealed to accomplish more advanced robust aggregation. We\ndevelop a general framework PriRoAgg, utilizing Lagrange coded computing and\ndistributed zero-knowledge proof, to execute a wide range of robust aggregation\nalgorithms while satisfying aggregated privacy. As concrete instantiations of\nPriRoAgg, we construct two secure and robust protocols based on\nstate-of-the-art robust algorithms, for which we provide full theoretical\nanalyses on security and complexity. Extensive experiments are conducted for\nthese protocols, demonstrating their robustness against various model integrity\nattacks, and their efficiency advantages over baselines.",
+    "updated" : "2024-07-12T03:18:08Z",
+    "published" : "2024-07-12T03:18:08Z",
+    "authors" : [
+      {
+        "name" : "Sizai Hou"
+      },
+      {
+        "name" : "Songze Li"
+      },
+      {
+        "name" : "Tayyebeh Jahani-Nezhad"
+      },
+      {
+        "name" : "Giuseppe Caire"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.08529v2",
+    "title" : "Enhancing Privacy of Spatiotemporal Federated Learning against Gradient\n  Inversion Attacks",
+    "summary" : "Spatiotemporal federated learning has recently raised intensive studies due\nto its ability to train valuable models with only shared gradients in various\nlocation-based services. On the other hand, recent studies have shown that\nshared gradients may be subject to gradient inversion attacks (GIA) on images\nor texts. However, so far there has not been any systematic study of the\ngradient inversion attacks in spatiotemporal federated learning. In this paper,\nwe explore the gradient attack problem in spatiotemporal federated learning\nfrom attack and defense perspectives. To understand privacy risks in\nspatiotemporal federated learning, we first propose Spatiotemporal Gradient\nInversion Attack (ST-GIA), a gradient attack algorithm tailored to\nspatiotemporal data that successfully reconstructs the original location from\ngradients. Furthermore, we design an adaptive defense strategy to mitigate\ngradient inversion attacks in spatiotemporal federated learning. By dynamically\nadjusting the perturbation levels, we can offer tailored protection for varying\nrounds of training data, thereby achieving a better trade-off between privacy\nand utility than current state-of-the-art methods. Through intensive\nexperimental analysis on three real-world datasets, we reveal that the proposed\ndefense strategy can well preserve the utility of spatiotemporal federated\nlearning with effective security protection.",
+    "updated" : "2024-07-12T01:37:44Z",
+    "published" : "2024-07-11T14:17:02Z",
+    "authors" : [
+      {
+        "name" : "Lele Zheng"
+      },
+      {
+        "name" : "Yang Cao"
+      },
+      {
+        "name" : "Renhe Jiang"
+      },
+      {
+        "name" : "Kenjiro Taura"
+      },
+      {
+        "name" : "Yulong Shen"
+      },
+      {
+        "name" : "Sheng Li"
+      },
+      {
+        "name" : "Masatoshi Yoshikawa"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
