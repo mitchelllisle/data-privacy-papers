@@ -2,7 +2,180 @@
 <h2>2024-07</h2>
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.08529v1">Enhancing Privacy of Spatiotemporal Federated Learning against Gradient
+  <h3><a href="http://arxiv.org/abs/2407.09324v1">Provable Privacy Advantages of Decentralized Federated Learning via
+  Distributed Optimization</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
+  <p><b>Published on:</b> 2024-07-12T15:01:09Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Wenrui Yu, Qiongxiu Li, Milan Lopuhaä-Zwakenberg, Mads Græsbøll Christensen, Richard Heusdens</p>
+    <p><b>Summary:</b> Federated learning (FL) emerged as a paradigm designed to improve data
+privacy by enabling data to reside at its source, thus embedding privacy as a
+core consideration in FL architectures, whether centralized or decentralized.
+Contrasting with recent findings by Pasquini et al., which suggest that
+decentralized FL does not empirically offer any additional privacy or security
+benefits over centralized models, our study provides compelling evidence to the
+contrary. We demonstrate that decentralized FL, when deploying distributed
+optimization, provides enhanced privacy protection - both theoretically and
+empirically - compared to centralized approaches. The challenge of quantifying
+privacy loss through iterative processes has traditionally constrained the
+theoretical exploration of FL protocols. We overcome this by conducting a
+pioneering in-depth information-theoretical privacy analysis for both
+frameworks. Our analysis, considering both eavesdropping and passive adversary
+models, successfully establishes bounds on privacy leakage. We show information
+theoretically that the privacy loss in decentralized FL is upper bounded by the
+loss in centralized FL. Compared to the centralized case where local gradients
+of individual participants are directly revealed, a key distinction of
+optimization-based decentralized FL is that the relevant information includes
+differences of local gradients over successive iterations and the aggregated
+sum of different nodes' gradients over the network. This information
+complicates the adversary's attempt to infer private data. To bridge our
+theoretical insights with practical applications, we present detailed case
+studies involving logistic regression and deep neural networks. These examples
+demonstrate that while privacy leakage remains comparable in simpler models,
+complex models like deep neural networks exhibit lower privacy risks under
+decentralized FL.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.09239v1">FedVAE: Trajectory privacy preserving based on Federated Variational
+  AutoEncoder</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-07-12T13:10:59Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yuchen Jiang, Ying Wu, Shiyao Zhang, James J. Q. Yu</p>
+    <p><b>Summary:</b> The use of trajectory data with abundant spatial-temporal information is
+pivotal in Intelligent Transport Systems (ITS) and various traffic system
+tasks. Location-Based Services (LBS) capitalize on this trajectory data to
+offer users personalized services tailored to their location information.
+However, this trajectory data contains sensitive information about users'
+movement patterns and habits, necessitating confidentiality and protection from
+unknown collectors. To address this challenge, privacy-preserving methods like
+K-anonymity and Differential Privacy have been proposed to safeguard private
+information in the dataset. Despite their effectiveness, these methods can
+impact the original features by introducing perturbations or generating
+unrealistic trajectory data, leading to suboptimal performance in downstream
+tasks. To overcome these limitations, we propose a Federated Variational
+AutoEncoder (FedVAE) approach, which effectively generates a new trajectory
+dataset while preserving the confidentiality of private information and
+retaining the structure of the original features. In addition, FedVAE leverages
+Variational AutoEncoder (VAE) to maintain the original feature space and
+generate new trajectory data, and incorporates Federated Learning (FL) during
+the training stage, ensuring that users' data remains locally stored to protect
+their personal information. The results demonstrate its superior performance
+compared to other existing methods, affirming FedVAE as a promising solution
+for enhancing data privacy and utility in location-based applications.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.09004v1">Privacy-Preserving Collaborative Genomic Research: A Real-Life
+  Deployment and Vision</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-07-12T05:43:13Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zahra Rahmani, Nahal Shahini, Nadav Gat, Zebin Yun, Yuzhou Jiang, Ofir Farchy, Yaniv Harel, Vipin Chaudhary, Mahmood Sharif, Erman Ayday</p>
+    <p><b>Summary:</b> The data revolution holds significant promise for the health sector. Vast
+amounts of data collected from individuals will be transformed into knowledge,
+AI models, predictive systems, and best practices. One area of health that
+stands to benefit greatly is the genomic domain. Progress in AI, machine
+learning, and data science has opened new opportunities for genomic research,
+promising breakthroughs in personalized medicine. However, increasing awareness
+of privacy and cybersecurity necessitates robust solutions to protect sensitive
+data in collaborative research. This paper presents a practical deployment of a
+privacy-preserving framework for genomic research, developed in collaboration
+with Lynx.MD, a platform for secure health data collaboration. The framework
+addresses critical cybersecurity and privacy challenges, enabling the
+privacy-preserving sharing and analysis of genomic data while mitigating risks
+associated with data breaches. By integrating advanced privacy-preserving
+algorithms, the solution ensures the protection of individual privacy without
+compromising data utility. A unique feature of the system is its ability to
+balance trade-offs between data sharing and privacy, providing stakeholders
+tools to quantify privacy risks and make informed decisions. Implementing the
+framework within Lynx.MD involves encoding genomic data into binary formats and
+applying noise through controlled perturbation techniques. This approach
+preserves essential statistical properties of the data, facilitating effective
+research and analysis. Moreover, the system incorporates real-time data
+monitoring and advanced visualization tools, enhancing user experience and
+decision-making. The paper highlights the need for tailored privacy attacks and
+defenses specific to genomic data. Addressing these challenges fosters
+collaboration in genomic research, advancing personalized medicine and public
+health.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.08977v1">CURE: Privacy-Preserving Split Learning Done Right</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-07-12T04:10:19Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Halil Ibrahim Kanpak, Aqsa Shabbir, Esra Genç, Alptekin Küpçü, Sinem Sav</p>
+    <p><b>Summary:</b> Training deep neural networks often requires large-scale datasets,
+necessitating storage and processing on cloud servers due to computational
+constraints. The procedures must follow strict privacy regulations in domains
+like healthcare. Split Learning (SL), a framework that divides model layers
+between client(s) and server(s), is widely adopted for distributed model
+training. While Split Learning reduces privacy risks by limiting server access
+to the full parameter set, previous research has identified that intermediate
+outputs exchanged between server and client can compromise client's data
+privacy. Homomorphic encryption (HE)-based solutions exist for this scenario
+but often impose prohibitive computational burdens.
+  To address these challenges, we propose CURE, a novel system based on HE,
+that encrypts only the server side of the model and optionally the data. CURE
+enables secure SL while substantially improving communication and
+parallelization through advanced packing techniques. We propose two packing
+schemes that consume one HE level for one-layer networks and generalize our
+solutions to n-layer neural networks. We demonstrate that CURE can achieve
+similar accuracy to plaintext SL while being 16x more efficient in terms of the
+runtime compared to the state-of-the-art privacy-preserving alternatives.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.08954v1">PriRoAgg: Achieving Robust Model Aggregation with Minimum Privacy
+  Leakage for Federated Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-07-12T03:18:08Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Sizai Hou, Songze Li, Tayyebeh Jahani-Nezhad, Giuseppe Caire</p>
+    <p><b>Summary:</b> Federated learning (FL) has recently gained significant momentum due to its
+potential to leverage large-scale distributed user data while preserving user
+privacy. However, the typical paradigm of FL faces challenges of both privacy
+and robustness: the transmitted model updates can potentially leak sensitive
+user information, and the lack of central control of the local training process
+leaves the global model susceptible to malicious manipulations on model
+updates. Current solutions attempting to address both problems under the
+one-server FL setting fall short in the following aspects: 1) designed for
+simple validity checks that are insufficient against advanced attacks (e.g.,
+checking norm of individual update); and 2) partial privacy leakage for more
+complicated robust aggregation algorithms (e.g., distances between model
+updates are leaked for multi-Krum). In this work, we formalize a novel security
+notion of aggregated privacy that characterizes the minimum amount of user
+information, in the form of some aggregated statistics of users' updates, that
+is necessary to be revealed to accomplish more advanced robust aggregation. We
+develop a general framework PriRoAgg, utilizing Lagrange coded computing and
+distributed zero-knowledge proof, to execute a wide range of robust aggregation
+algorithms while satisfying aggregated privacy. As concrete instantiations of
+PriRoAgg, we construct two secure and robust protocols based on
+state-of-the-art robust algorithms, for which we provide full theoretical
+analyses on security and complexity. Extensive experiments are conducted for
+these protocols, demonstrating their robustness against various model integrity
+attacks, and their efficiency advantages over baselines.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.08529v2">Enhancing Privacy of Spatiotemporal Federated Learning against Gradient
   Inversion Attacks</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2024-07-11T14:17:02Z</p>
@@ -2705,140 +2878,6 @@ Sensitive data leaks are identified with context using a deep learning model.
 The feasibility and effectiveness of the proposed idea have been demonstrated
 with the help of a military use case. The proposed architecture can however be
 used across various use cases with minor modifications.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.08918v2">Beyond the Calibration Point: Mechanism Comparison in Differential
-  Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36">  
-  <p><b>Published on:</b> 2024-06-13T08:30:29Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Georgios Kaissis, Stefan Kolek, Borja Balle, Jamie Hayes, Daniel Rueckert</p>
-    <p><b>Summary:</b> In differentially private (DP) machine learning, the privacy guarantees of DP
-mechanisms are often reported and compared on the basis of a single
-$(\varepsilon, \delta)$-pair. This practice overlooks that DP guarantees can
-vary substantially even between mechanisms sharing a given $(\varepsilon,
-\delta)$, and potentially introduces privacy vulnerabilities which can remain
-undetected. This motivates the need for robust, rigorous methods for comparing
-DP guarantees in such cases. Here, we introduce the $\Delta$-divergence between
-mechanisms which quantifies the worst-case excess privacy vulnerability of
-choosing one mechanism over another in terms of $(\varepsilon, \delta)$, $f$-DP
-and in terms of a newly presented Bayesian interpretation. Moreover, as a
-generalisation of the Blackwell theorem, it is endowed with strong
-decision-theoretic foundations. Through application examples, we show that our
-techniques can facilitate informed decision-making and reveal gaps in the
-current understanding of privacy risks, as current practices in DP-SGD often
-result in choosing mechanisms with high excess privacy vulnerabilities.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.07973v2">Unique Security and Privacy Threats of Large Language Model: A
-  Comprehensive Survey</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-06-12T07:55:32Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shang Wang, Tianqing Zhu, Bo Liu, Ming Ding, Xu Guo, Dayong Ye, Wanlei Zhou, Philip S. Yu</p>
-    <p><b>Summary:</b> With the rapid development of artificial intelligence, large language models
-(LLMs) have made remarkable advancements in natural language processing. These
-models are trained on vast datasets to exhibit powerful language understanding
-and generation capabilities across various applications, including machine
-translation, chatbots, and agents. However, LLMs have revealed a variety of
-privacy and security issues throughout their life cycle, drawing significant
-academic and industrial attention. Moreover, the risks faced by LLMs differ
-significantly from those encountered by traditional language models. Given that
-current surveys lack a clear taxonomy of unique threat models across diverse
-scenarios, we emphasize the unique privacy and security threats associated with
-five specific scenarios: pre-training, fine-tuning, retrieval-augmented
-generation systems, deployment, and LLM-based agents. Addressing the
-characteristics of each risk, this survey outlines potential threats and
-countermeasures. Research on attack and defense situations can offer feasible
-research directions, enabling more areas to benefit from LLMs.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.10280v1">Transferable Embedding Inversion Attack: Uncovering Privacy Risks in
-  Text Embeddings without Model Queries</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-06-12T05:09:58Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yu-Hsiang Huang, Yuche Tsai, Hsiang Hsiao, Hong-Yi Lin, Shou-De Lin</p>
-    <p><b>Summary:</b> This study investigates the privacy risks associated with text embeddings,
-focusing on the scenario where attackers cannot access the original embedding
-model. Contrary to previous research requiring direct model access, we explore
-a more realistic threat model by developing a transfer attack method. This
-approach uses a surrogate model to mimic the victim model's behavior, allowing
-the attacker to infer sensitive information from text embeddings without direct
-access. Our experiments across various embedding models and a clinical dataset
-demonstrate that our transfer attack significantly outperforms traditional
-methods, revealing the potential privacy vulnerabilities in embedding
-technologies and emphasizing the need for enhanced security measures.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.07314v1">Rethinking the impact of noisy labels in graph classification: A utility
-  and privacy perspective</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-06-11T14:44:37Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> De Li, Xianxian Li, Zeming Gan, Qiyu Li, Bin Qu, Jinyan Wang</p>
-    <p><b>Summary:</b> Graph neural networks based on message-passing mechanisms have achieved
-advanced results in graph classification tasks. However, their generalization
-performance degrades when noisy labels are present in the training data. Most
-existing noisy labeling approaches focus on the visual domain or graph node
-classification tasks and analyze the impact of noisy labels only from a utility
-perspective. Unlike existing work, in this paper, we measure the effects of
-noise labels on graph classification from data privacy and model utility
-perspectives. We find that noise labels degrade the model's generalization
-performance and enhance the ability of membership inference attacks on graph
-data privacy. To this end, we propose the robust graph neural network approach
-with noisy labeled graph classification. Specifically, we first accurately
-filter the noisy samples by high-confidence samples and the first feature
-principal component vector of each class. Then, the robust principal component
-vectors and the model output under data augmentation are utilized to achieve
-noise label correction guided by dual spatial information. Finally, supervised
-graph contrastive learning is introduced to enhance the embedding quality of
-the model and protect the privacy of the training graph data. The utility and
-privacy of the proposed method are validated by comparing twelve different
-methods on eight real graph classification datasets. Compared with the
-state-of-the-art methods, the RGLC method achieves at most and at least 7.8%
-and 0.8% performance gain at 30% noisy labeling rate, respectively, and reduces
-the accuracy of privacy attacks to below 60%.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.06990v2">Privacy-Utility Tradeoff Based on $α$-lift</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
-  <p><b>Published on:</b> 2024-06-11T06:39:57Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mohammad Amin Zarrabian, Parastoo Sadeghi</p>
-    <p><b>Summary:</b> Information density and its exponential form, known as lift, play a central
-role in information privacy leakage measures. $\alpha$-lift is the power-mean
-of lift, which is tunable between the worst-case measure max-lift
-($\alpha=\infty$) and more relaxed versions ($\alpha<\infty$). This paper
-investigates the optimization problem of the privacy-utility tradeoff (PUT)
-where $\alpha$-lift and mutual information are privacy and utility measures,
-respectively. Due to the nonlinear nature of $\alpha$-lift for $\alpha<\infty$,
-finding the optimal solution is challenging. Therefore, we propose a heuristic
-algorithm to estimate the optimal utility for each value of $\alpha$, inspired
-by the optimal solution for $\alpha=\infty$ and the convexity of $\alpha$-lift
-with respect to the lift, which we prove. The numerical results show the
-efficacy of the algorithm and indicate the effective range of $\alpha$ and
-privacy budget $\varepsilon$ with good PUT performance.</p>
   </details>
 </div>
 
