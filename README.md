@@ -2,6 +2,115 @@
 <h2>2024-07</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.10094v1">Work-From-Home and Privacy: What Do Workers Face and What are They Doing
+  About it?</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2024-07-14T06:15:28Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Eman Alashwali, Joanne Peca, Mandy Lanyon, Lorrie Cranor</p>
+    <p><b>Summary:</b> The COVID-19 pandemic has reshaped the way people work, normalizing the
+practice of working from home (WFH). However, WFH can cause a blurring of
+personal and professional boundaries, surfacing new privacy issues, especially
+when workers take work meetings from their homes. As WFH arrangements are now
+standard practice in many organizations, addressing the associated privacy
+concerns should be a key part of creating healthy work environments for
+workers. To this end, we conducted a scenario-based survey with 214 US-based
+workers who currently work from home regularly. Our results suggest that
+privacy invasions are commonly experienced while working from home and cause
+discomfort to many workers. However, only a minority said that the discomfort
+escalated to cause harm to them or others, and the harm was almost always
+psychological. While scenarios that restrict worker autonomy (prohibit turning
+off camera or microphone) are the least experienced scenarios, they are
+associated with the highest reported discomfort. In addition, participants
+reported measures that violated or would violate their employer's
+autonomy-restricting rules to protect their privacy. We also find that
+conference tool settings that can prevent privacy invasions are not widely used
+compared to manual privacy-protective measures. Our findings provide better
+understanding of the privacy challenges landscape that WFH workers face and how
+they address them. Furthermore, our discussion raised open questions that can
+inspire future work.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.10058v1">Learning to Refuse: Towards Mitigating Privacy Risks in LLMs</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-07-14T03:05:53Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zhenhua Liu, Tong Zhu, Chuanyuan Tan, Wenliang Chen</p>
+    <p><b>Summary:</b> Large language models (LLMs) exhibit remarkable capabilities in understanding
+and generating natural language. However, these models can inadvertently
+memorize private information, posing significant privacy risks. This study
+addresses the challenge of enabling LLMs to protect specific individuals'
+private data without the need for complete retraining. We propose \return, a
+Real-world pErsonal daTa UnleaRNing dataset, comprising 2,492 individuals from
+Wikipedia with associated QA pairs, to evaluate machine unlearning (MU) methods
+for protecting personal data in a realistic scenario. Additionally, we
+introduce the Name-Aware Unlearning Framework (NAUF) for Privacy Protection,
+which enables the model to learn which individuals' information should be
+protected without affecting its ability to answer questions related to other
+unrelated individuals. Our extensive experiments demonstrate that NAUF achieves
+a state-of-the-art average unlearning score, surpassing the best baseline
+method by 5.65 points, effectively protecting target individuals' personal data
+while maintaining the model's general capabilities.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.09809v1">Preserving the Privacy of Reward Functions in MDPs through Deception</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-07-13T09:03:22Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shashank Reddy Chirra, Pradeep Varakantham, Praveen Paruchuri</p>
+    <p><b>Summary:</b> Preserving the privacy of preferences (or rewards) of a sequential
+decision-making agent when decisions are observable is crucial in many physical
+and cybersecurity domains. For instance, in wildlife monitoring, agents must
+allocate patrolling resources without revealing animal locations to poachers.
+This paper addresses privacy preservation in planning over a sequence of
+actions in MDPs, where the reward function represents the preference structure
+to be protected. Observers can use Inverse RL (IRL) to learn these preferences,
+making this a challenging task.
+  Current research on differential privacy in reward functions fails to ensure
+guarantee on the minimum expected reward and offers theoretical guarantees that
+are inadequate against IRL-based observers. To bridge this gap, we propose a
+novel approach rooted in the theory of deception. Deception includes two
+models: dissimulation (hiding the truth) and simulation (showing the wrong).
+Our first contribution theoretically demonstrates significant privacy leaks in
+existing dissimulation-based methods. Our second contribution is a novel
+RL-based planning algorithm that uses simulation to effectively address these
+privacy concerns while ensuring a guarantee on the expected reward. Experiments
+on multiple benchmark problems show that our approach outperforms previous
+methods in preserving reward function privacy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.09771v1">Protecting Data Buyer Privacy in Data Markets</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
+  <p><b>Published on:</b> 2024-07-13T04:45:06Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Minxing Zhang, Jian Pei</p>
+    <p><b>Summary:</b> Data markets serve as crucial platforms facilitating data discovery,
+exchange, sharing, and integration among data users and providers. However, the
+paramount concern of privacy has predominantly centered on protecting privacy
+of data owners and third parties, neglecting the challenges associated with
+protecting the privacy of data buyers. In this article, we address this gap by
+modeling the intricacies of data buyer privacy protection and investigating the
+delicate balance between privacy and purchase cost. Through comprehensive
+experimentation, our results yield valuable insights, shedding light on the
+efficacy and efficiency of our proposed approaches.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2407.09324v1">Provable Privacy Advantages of Decentralized Federated Learning via
   Distributed Optimization</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
@@ -89,7 +198,7 @@ promising breakthroughs in personalized medicine. However, increasing awareness
 of privacy and cybersecurity necessitates robust solutions to protect sensitive
 data in collaborative research. This paper presents a practical deployment of a
 privacy-preserving framework for genomic research, developed in collaboration
-with Lynx.MD, a platform for secure health data collaboration. The framework
+with Lynx$.$MD, a platform for secure health data collaboration. The framework
 addresses critical cybersecurity and privacy challenges, enabling the
 privacy-preserving sharing and analysis of genomic data while mitigating risks
 associated with data breaches. By integrating advanced privacy-preserving
@@ -97,8 +206,8 @@ algorithms, the solution ensures the protection of individual privacy without
 compromising data utility. A unique feature of the system is its ability to
 balance trade-offs between data sharing and privacy, providing stakeholders
 tools to quantify privacy risks and make informed decisions. Implementing the
-framework within Lynx.MD involves encoding genomic data into binary formats and
-applying noise through controlled perturbation techniques. This approach
+framework within Lynx$.$MD involves encoding genomic data into binary formats
+and applying noise through controlled perturbation techniques. This approach
 preserves essential statistical properties of the data, facilitating effective
 research and analysis. Moreover, the system incorporates real-time data
 monitoring and advanced visualization tools, enhancing user experience and
@@ -175,7 +284,7 @@ attacks, and their efficiency advantages over baselines.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.08529v2">Enhancing Privacy of Spatiotemporal Federated Learning against Gradient
+  <h3><a href="http://arxiv.org/abs/2407.08529v3">Enhancing Privacy of Spatiotemporal Federated Learning against Gradient
   Inversion Attacks</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2024-07-11T14:17:02Z</p>
@@ -2755,129 +2864,6 @@ Function (FHE-FCDF). This method utilizes cryptographic primitive fully
 homomorphic encryption to enable clients to estimate the non-IID degree while
 ensuring privacy preservation. The experiments conducted on the CIFAR-100
 non-IID dataset validate the effectiveness of our proposed method.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.09547v2">FLea: Addressing Data Scarcity and Label Skew in Federated Learning via
-  Privacy-preserving Feature Augmentation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
-  <p><b>Published on:</b> 2024-06-13T19:28:08Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Tong Xia, Abhirup Ghosh, Xinchi Qiu, Cecilia Mascolo</p>
-    <p><b>Summary:</b> Federated Learning (FL) enables model development by leveraging data
-distributed across numerous edge devices without transferring local data to a
-central server. However, existing FL methods still face challenges when dealing
-with scarce and label-skewed data across devices, resulting in local model
-overfitting and drift, consequently hindering the performance of the global
-model. In response to these challenges, we propose a pioneering framework
-called FLea, incorporating the following key components: i) A global feature
-buffer that stores activation-target pairs shared from multiple clients to
-support local training. This design mitigates local model drift caused by the
-absence of certain classes; ii) A feature augmentation approach based on local
-and global activation mix-ups for local training. This strategy enlarges the
-training samples, thereby reducing the risk of local overfitting; iii) An
-obfuscation method to minimize the correlation between intermediate activations
-and the source data, enhancing the privacy of shared features. To verify the
-superiority of FLea, we conduct extensive experiments using a wide range of
-data modalities, simulating different levels of local data scarcity and label
-skew. The results demonstrate that FLea consistently outperforms
-state-of-the-art FL counterparts (among 13 of the experimented 18 settings, the
-improvement is over 5% while concurrently mitigating the privacy
-vulnerabilities associated with shared features. Code is available at
-https://github.com/XTxiatong/FLea.git.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.09214v1">Applying Multi-Agent Negotiation to Solve the Production Routing Problem
-  With Privacy Preserving</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Multiagent Systems-662E9B">
-  <p><b>Published on:</b> 2024-06-13T15:15:34Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Luiza Pellin Biasoto, Vinicius Renan de Carvalho, Jaime Simão Sichman</p>
-    <p><b>Summary:</b> This paper presents a novel approach to address the Production Routing
-Problem with Privacy Preserving (PRPPP) in supply chain optimization. The
-integrated optimization of production, inventory, distribution, and routing
-decisions in real-world industry applications poses several challenges,
-including increased complexity, discrepancies between planning and execution,
-and constraints on information sharing. To mitigate these challenges, this
-paper proposes the use of intelligent agent negotiation within a hybrid
-Multi-Agent System (MAS) integrated with optimization algorithms. The MAS
-facilitates communication and coordination among entities, encapsulates private
-information, and enables negotiation. This, along with optimization algorithms,
-makes it a compelling framework for establishing optimal solutions. The
-approach is supported by real-world applications and synergies between MAS and
-optimization methods, demonstrating its effectiveness in addressing complex
-supply chain optimization problems.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.09037v1">Evaluating Privacy, Security, and Trust Perceptions in Conversational
-  AI: A Systematic Review</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">  
-  <p><b>Published on:</b> 2024-06-13T12:20:26Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Anna Leschanowsky, Silas Rech, Birgit Popp, Tom Bäckström</p>
-    <p><b>Summary:</b> Conversational AI (CAI) systems which encompass voice- and text-based
-assistants are on the rise and have been largely integrated into people's
-everyday lives. Despite their widespread adoption, users voice concerns
-regarding privacy, security and trust in these systems. However, the
-composition of these perceptions, their impact on technology adoption and usage
-and the relationship between privacy, security and trust perceptions in the CAI
-context remain open research challenges. This study contributes to the field by
-conducting a Systematic Literature Review and offers insights into the current
-state of research on privacy, security and trust perceptions in the context of
-CAI systems. The review covers application fields and user groups and sheds
-light on empirical methods and tools used for assessment. Moreover, it provides
-insights into the reliability and validity of privacy, security and trust
-scales, as well as extensively investigating the subconstructs of each item as
-well as additional concepts which are concurrently collected. We point out that
-the perceptions of trust, privacy and security overlap based on the
-subconstructs we identified. While the majority of studies investigate one of
-these concepts, only a few studies were found exploring privacy, security and
-trust perceptions jointly. Our research aims to inform on directions to develop
-and use reliable scales for users' privacy, security and trust perceptions and
-contribute to the development of trustworthy CAI systems.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.09005v1">Privacy Aware Memory Forensics</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-06-13T11:18:49Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Janardhan Kalikiri, Gaurav Varshney, Jaswinder Kour, Tarandeep Singh</p>
-    <p><b>Summary:</b> In recent years, insider threats and attacks have been increasing in terms of
-frequency and cost to the corporate business. The utilization of end-to-end
-encrypted instant messaging applications (WhatsApp, Telegram, VPN) by malicious
-insiders raised data breach incidents exponentially. The Securities and
-Exchange Board of India (SEBI) investigated reports on such data leak incidents
-and reported about twelve companies where earnings data and financial
-information were leaked using WhatsApp messages. Recent surveys indicate that
-60% of data breaches are primarily caused by malicious insider threats.
-Especially, in the case of the defense environment, information leaks by
-insiders will jeopardize the countrys national security. Sniffing of network
-and host-based activities will not work in an insider threat detection
-environment due to end-to-end encryption. Memory forensics allows access to the
-messages sent or received over an end-to-end encrypted environment but with a
-total compromise of the users privacy. In this research, we present a novel
-solution to detect data leakages by insiders in an organization. Our approach
-captures the RAM of the insiders device and analyses it for sensitive
-information leaks from a host system while maintaining the users privacy.
-Sensitive data leaks are identified with context using a deep learning model.
-The feasibility and effectiveness of the proposed idea have been demonstrated
-with the help of a military use case. The proposed architecture can however be
-used across various use cases with minor modifications.</p>
   </details>
 </div>
 
