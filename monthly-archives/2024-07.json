@@ -1187,5 +1187,169 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.10094v1",
+    "title" : "Work-From-Home and Privacy: What Do Workers Face and What are They Doing\n  About it?",
+    "summary" : "The COVID-19 pandemic has reshaped the way people work, normalizing the\npractice of working from home (WFH). However, WFH can cause a blurring of\npersonal and professional boundaries, surfacing new privacy issues, especially\nwhen workers take work meetings from their homes. As WFH arrangements are now\nstandard practice in many organizations, addressing the associated privacy\nconcerns should be a key part of creating healthy work environments for\nworkers. To this end, we conducted a scenario-based survey with 214 US-based\nworkers who currently work from home regularly. Our results suggest that\nprivacy invasions are commonly experienced while working from home and cause\ndiscomfort to many workers. However, only a minority said that the discomfort\nescalated to cause harm to them or others, and the harm was almost always\npsychological. While scenarios that restrict worker autonomy (prohibit turning\noff camera or microphone) are the least experienced scenarios, they are\nassociated with the highest reported discomfort. In addition, participants\nreported measures that violated or would violate their employer's\nautonomy-restricting rules to protect their privacy. We also find that\nconference tool settings that can prevent privacy invasions are not widely used\ncompared to manual privacy-protective measures. Our findings provide better\nunderstanding of the privacy challenges landscape that WFH workers face and how\nthey address them. Furthermore, our discussion raised open questions that can\ninspire future work.",
+    "updated" : "2024-07-14T06:15:28Z",
+    "published" : "2024-07-14T06:15:28Z",
+    "authors" : [
+      {
+        "name" : "Eman Alashwali"
+      },
+      {
+        "name" : "Joanne Peca"
+      },
+      {
+        "name" : "Mandy Lanyon"
+      },
+      {
+        "name" : "Lorrie Cranor"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.10058v1",
+    "title" : "Learning to Refuse: Towards Mitigating Privacy Risks in LLMs",
+    "summary" : "Large language models (LLMs) exhibit remarkable capabilities in understanding\nand generating natural language. However, these models can inadvertently\nmemorize private information, posing significant privacy risks. This study\naddresses the challenge of enabling LLMs to protect specific individuals'\nprivate data without the need for complete retraining. We propose \\return, a\nReal-world pErsonal daTa UnleaRNing dataset, comprising 2,492 individuals from\nWikipedia with associated QA pairs, to evaluate machine unlearning (MU) methods\nfor protecting personal data in a realistic scenario. Additionally, we\nintroduce the Name-Aware Unlearning Framework (NAUF) for Privacy Protection,\nwhich enables the model to learn which individuals' information should be\nprotected without affecting its ability to answer questions related to other\nunrelated individuals. Our extensive experiments demonstrate that NAUF achieves\na state-of-the-art average unlearning score, surpassing the best baseline\nmethod by 5.65 points, effectively protecting target individuals' personal data\nwhile maintaining the model's general capabilities.",
+    "updated" : "2024-07-14T03:05:53Z",
+    "published" : "2024-07-14T03:05:53Z",
+    "authors" : [
+      {
+        "name" : "Zhenhua Liu"
+      },
+      {
+        "name" : "Tong Zhu"
+      },
+      {
+        "name" : "Chuanyuan Tan"
+      },
+      {
+        "name" : "Wenliang Chen"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.09809v1",
+    "title" : "Preserving the Privacy of Reward Functions in MDPs through Deception",
+    "summary" : "Preserving the privacy of preferences (or rewards) of a sequential\ndecision-making agent when decisions are observable is crucial in many physical\nand cybersecurity domains. For instance, in wildlife monitoring, agents must\nallocate patrolling resources without revealing animal locations to poachers.\nThis paper addresses privacy preservation in planning over a sequence of\nactions in MDPs, where the reward function represents the preference structure\nto be protected. Observers can use Inverse RL (IRL) to learn these preferences,\nmaking this a challenging task.\n  Current research on differential privacy in reward functions fails to ensure\nguarantee on the minimum expected reward and offers theoretical guarantees that\nare inadequate against IRL-based observers. To bridge this gap, we propose a\nnovel approach rooted in the theory of deception. Deception includes two\nmodels: dissimulation (hiding the truth) and simulation (showing the wrong).\nOur first contribution theoretically demonstrates significant privacy leaks in\nexisting dissimulation-based methods. Our second contribution is a novel\nRL-based planning algorithm that uses simulation to effectively address these\nprivacy concerns while ensuring a guarantee on the expected reward. Experiments\non multiple benchmark problems show that our approach outperforms previous\nmethods in preserving reward function privacy.",
+    "updated" : "2024-07-13T09:03:22Z",
+    "published" : "2024-07-13T09:03:22Z",
+    "authors" : [
+      {
+        "name" : "Shashank Reddy Chirra"
+      },
+      {
+        "name" : "Pradeep Varakantham"
+      },
+      {
+        "name" : "Praveen Paruchuri"
+      }
+    ],
+    "categories" : [
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.09771v1",
+    "title" : "Protecting Data Buyer Privacy in Data Markets",
+    "summary" : "Data markets serve as crucial platforms facilitating data discovery,\nexchange, sharing, and integration among data users and providers. However, the\nparamount concern of privacy has predominantly centered on protecting privacy\nof data owners and third parties, neglecting the challenges associated with\nprotecting the privacy of data buyers. In this article, we address this gap by\nmodeling the intricacies of data buyer privacy protection and investigating the\ndelicate balance between privacy and purchase cost. Through comprehensive\nexperimentation, our results yield valuable insights, shedding light on the\nefficacy and efficiency of our proposed approaches.",
+    "updated" : "2024-07-13T04:45:06Z",
+    "published" : "2024-07-13T04:45:06Z",
+    "authors" : [
+      {
+        "name" : "Minxing Zhang"
+      },
+      {
+        "name" : "Jian Pei"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DB"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.09004v1",
+    "title" : "Privacy-Preserving Collaborative Genomic Research: A Real-Life\n  Deployment and Vision",
+    "summary" : "The data revolution holds significant promise for the health sector. Vast\namounts of data collected from individuals will be transformed into knowledge,\nAI models, predictive systems, and best practices. One area of health that\nstands to benefit greatly is the genomic domain. Progress in AI, machine\nlearning, and data science has opened new opportunities for genomic research,\npromising breakthroughs in personalized medicine. However, increasing awareness\nof privacy and cybersecurity necessitates robust solutions to protect sensitive\ndata in collaborative research. This paper presents a practical deployment of a\nprivacy-preserving framework for genomic research, developed in collaboration\nwith Lynx$.$MD, a platform for secure health data collaboration. The framework\naddresses critical cybersecurity and privacy challenges, enabling the\nprivacy-preserving sharing and analysis of genomic data while mitigating risks\nassociated with data breaches. By integrating advanced privacy-preserving\nalgorithms, the solution ensures the protection of individual privacy without\ncompromising data utility. A unique feature of the system is its ability to\nbalance trade-offs between data sharing and privacy, providing stakeholders\ntools to quantify privacy risks and make informed decisions. Implementing the\nframework within Lynx$.$MD involves encoding genomic data into binary formats\nand applying noise through controlled perturbation techniques. This approach\npreserves essential statistical properties of the data, facilitating effective\nresearch and analysis. Moreover, the system incorporates real-time data\nmonitoring and advanced visualization tools, enhancing user experience and\ndecision-making. The paper highlights the need for tailored privacy attacks and\ndefenses specific to genomic data. Addressing these challenges fosters\ncollaboration in genomic research, advancing personalized medicine and public\nhealth.",
+    "updated" : "2024-07-12T05:43:13Z",
+    "published" : "2024-07-12T05:43:13Z",
+    "authors" : [
+      {
+        "name" : "Zahra Rahmani"
+      },
+      {
+        "name" : "Nahal Shahini"
+      },
+      {
+        "name" : "Nadav Gat"
+      },
+      {
+        "name" : "Zebin Yun"
+      },
+      {
+        "name" : "Yuzhou Jiang"
+      },
+      {
+        "name" : "Ofir Farchy"
+      },
+      {
+        "name" : "Yaniv Harel"
+      },
+      {
+        "name" : "Vipin Chaudhary"
+      },
+      {
+        "name" : "Mahmood Sharif"
+      },
+      {
+        "name" : "Erman Ayday"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.08529v3",
+    "title" : "Enhancing Privacy of Spatiotemporal Federated Learning against Gradient\n  Inversion Attacks",
+    "summary" : "Spatiotemporal federated learning has recently raised intensive studies due\nto its ability to train valuable models with only shared gradients in various\nlocation-based services. On the other hand, recent studies have shown that\nshared gradients may be subject to gradient inversion attacks (GIA) on images\nor texts. However, so far there has not been any systematic study of the\ngradient inversion attacks in spatiotemporal federated learning. In this paper,\nwe explore the gradient attack problem in spatiotemporal federated learning\nfrom attack and defense perspectives. To understand privacy risks in\nspatiotemporal federated learning, we first propose Spatiotemporal Gradient\nInversion Attack (ST-GIA), a gradient attack algorithm tailored to\nspatiotemporal data that successfully reconstructs the original location from\ngradients. Furthermore, we design an adaptive defense strategy to mitigate\ngradient inversion attacks in spatiotemporal federated learning. By dynamically\nadjusting the perturbation levels, we can offer tailored protection for varying\nrounds of training data, thereby achieving a better trade-off between privacy\nand utility than current state-of-the-art methods. Through intensive\nexperimental analysis on three real-world datasets, we reveal that the proposed\ndefense strategy can well preserve the utility of spatiotemporal federated\nlearning with effective security protection.",
+    "updated" : "2024-07-15T06:42:31Z",
+    "published" : "2024-07-11T14:17:02Z",
+    "authors" : [
+      {
+        "name" : "Lele Zheng"
+      },
+      {
+        "name" : "Yang Cao"
+      },
+      {
+        "name" : "Renhe Jiang"
+      },
+      {
+        "name" : "Kenjiro Taura"
+      },
+      {
+        "name" : "Yulong Shen"
+      },
+      {
+        "name" : "Sheng Li"
+      },
+      {
+        "name" : "Masatoshi Yoshikawa"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
