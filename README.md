@@ -2,6 +2,32 @@
 <h2>2024-07</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.11274v1">Empirical Mean and Frequency Estimation Under Heterogeneous Privacy: A
+  Worst-Case Analysis</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
+  <p><b>Published on:</b> 2024-07-15T22:46:02Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Syomantak Chaudhuri, Thomas A. Courtade</p>
+    <p><b>Summary:</b> Differential Privacy (DP) is the current gold-standard for measuring privacy.
+Estimation problems under DP constraints appearing in the literature have
+largely focused on providing equal privacy to all users. We consider the
+problems of empirical mean estimation for univariate data and frequency
+estimation for categorical data, two pillars of data analysis in the industry,
+subject to heterogeneous privacy constraints. Each user, contributing a sample
+to the dataset, is allowed to have a different privacy demand. The dataset
+itself is assumed to be worst-case and we study both the problems in two
+different formulations -- the correlated and the uncorrelated setting. In the
+former setting, the privacy demand and the user data can be arbitrarily
+correlated while in the latter setting, there is no correlation between the
+dataset and the privacy demand. We prove some optimality results, under both
+PAC error and mean-squared error, for our proposed algorithms and demonstrate
+superior performance over other baseline techniques experimentally.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2407.10094v1">Work-From-Home and Privacy: What Do Workers Face and What are They Doing
   About it?</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
@@ -2835,35 +2861,6 @@ the learning utility but also protects model confidentiality. Furthermore, we
 implement AAFV on two practical prediction tasks of diabetes and in-hospital
 patient mortality. The experiments demonstrate the effectiveness and
 confidentiality of AAFV in testing accuracy and privacy protection.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.09682v1">Privacy-preserving Quantification of Non-IID Degree in Federated
-  Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-06-14T03:08:53Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yuping Yan, Yizhi Wang, Yingchao Yu, Yaochu Jin</p>
-    <p><b>Summary:</b> Federated learning (FL) offers a privacy-preserving approach to machine
-learning for multiple collaborators without sharing raw data. However, the
-existence of non-independent and non-identically distributed (non-IID) datasets
-across different clients presents a significant challenge to FL, leading to a
-sharp drop in accuracy, reduced efficiency, and hindered implementation. To
-address the non-IID problem, various methods have been proposed, including
-clustering and personalized FL frameworks. Nevertheless, to date, a formal
-quantitative definition of the non-IID degree between different clients'
-datasets is still missing, hindering the clients from comparing and obtaining
-an overview of their data distributions with other clients. For the first time,
-this paper proposes a quantitative definition of the non-IID degree in the
-federated environment by employing the cumulative distribution function (CDF),
-called Fully Homomorphic Encryption-based Federated Cumulative Distribution
-Function (FHE-FCDF). This method utilizes cryptographic primitive fully
-homomorphic encryption to enable clients to estimate the non-IID degree while
-ensuring privacy preservation. The experiments conducted on the CIFAR-100
-non-IID dataset validate the effectiveness of our proposed method.</p>
   </details>
 </div>
 
