@@ -1436,5 +1436,138 @@
     "categories" : [
       "cs.CV"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.13725v1",
+    "title" : "Scalable Optimization for Locally Relevant Geo-Location Privacy",
+    "summary" : "Geo-obfuscation functions as a location privacy protection mechanism (LPPM),\nenabling mobile users to share obfuscated locations with servers instead of\ntheir exact locations. This technique protects users' location privacy during\nserver-side data breaches since the obfuscation process is irreversible. To\nminimize the utility loss caused by data obfuscation, linear programming (LP)\nis widely used. However, LP can face a polynomial explosion in decision\nvariables, making it impractical for large-scale geo-obfuscation applications.\nIn this paper, we propose a new LPPM called Locally Relevant Geo-obfuscation\n(LR-Geo) to optimize geo-obfuscation using LP more efficiently. This is\naccomplished by restricting the geo-obfuscation calculations for each user to\nlocally relevant (LR) locations near the user's actual location. To prevent LR\nlocations from inadvertently revealing a user's true whereabouts, users compute\nthe LP coefficients locally and upload only these coefficients to the server,\nrather than the LR locations themselves. The server then solves the LP problem\nusing the provided coefficients. Additionally, we enhance the LP framework with\nan exponential obfuscation mechanism to ensure that the obfuscation\ndistribution is indistinguishable across multiple users. By leveraging the\nconstraint structure of the LP formulation, we apply Benders' decomposition to\nfurther boost computational efficiency. Our theoretical analysis confirms that,\neven though geo-obfuscation is calculated independently for each user, it still\nadheres to geo-indistinguishability constraints across multiple users with high\nprobability. Finally, experimental results using a real-world dataset\ndemonstrate that LR-Geo outperforms existing geo-obfuscation methods in terms\nof computational time, data utility, and privacy protection.",
+    "updated" : "2024-07-18T17:25:08Z",
+    "published" : "2024-07-18T17:25:08Z",
+    "authors" : [
+      {
+        "name" : "Chenxi Qiu"
+      },
+      {
+        "name" : "Ruiyao Liu"
+      },
+      {
+        "name" : "Primal Pappachan"
+      },
+      {
+        "name" : "Anna Squicciarini"
+      },
+      {
+        "name" : "Xinpeng Xie"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.13621v1",
+    "title" : "Differential Privacy Mechanisms in Neural Tangent Kernel Regression",
+    "summary" : "Training data privacy is a fundamental problem in modern Artificial\nIntelligence (AI) applications, such as face recognition, recommendation\nsystems, language generation, and many others, as it may contain sensitive user\ninformation related to legal issues. To fundamentally understand how privacy\nmechanisms work in AI applications, we study differential privacy (DP) in the\nNeural Tangent Kernel (NTK) regression setting, where DP is one of the most\npowerful tools for measuring privacy under statistical learning, and NTK is one\nof the most popular analysis frameworks for studying the learning mechanisms of\ndeep neural networks. In our work, we can show provable guarantees for both\ndifferential privacy and test accuracy of our NTK regression. Furthermore, we\nconduct experiments on the basic image classification dataset CIFAR10 to\ndemonstrate that NTK regression can preserve good accuracy under a modest\nprivacy budget, supporting the validity of our analysis. To our knowledge, this\nis the first work to provide a DP guarantee for NTK regression.",
+    "updated" : "2024-07-18T15:57:55Z",
+    "published" : "2024-07-18T15:57:55Z",
+    "authors" : [
+      {
+        "name" : "Jiuxiang Gu"
+      },
+      {
+        "name" : "Yingyu Liang"
+      },
+      {
+        "name" : "Zhizhou Sha"
+      },
+      {
+        "name" : "Zhenmei Shi"
+      },
+      {
+        "name" : "Zhao Song"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.13532v1",
+    "title" : "PriPL-Tree: Accurate Range Query for Arbitrary Distribution under Local\n  Differential Privacy",
+    "summary" : "Answering range queries in the context of Local Differential Privacy (LDP) is\na widely studied problem in Online Analytical Processing (OLAP). Existing LDP\nsolutions all assume a uniform data distribution within each domain partition,\nwhich may not align with real-world scenarios where data distribution is\nvaried, resulting in inaccurate estimates. To address this problem, we\nintroduce PriPL-Tree, a novel data structure that combines hierarchical tree\nstructures with piecewise linear (PL) functions to answer range queries for\narbitrary distributions. PriPL-Tree precisely models the underlying data\ndistribution with a few line segments, leading to more accurate results for\nrange queries. Furthermore, we extend it to multi-dimensional cases with novel\ndata-aware adaptive grids. These grids leverage the insights from marginal\ndistributions obtained through PriPL-Trees to partition the grids adaptively,\nadapting the density of underlying distributions. Our extensive experiments on\nboth real and synthetic datasets demonstrate the effectiveness and superiority\nof PriPL-Tree over state-of-the-art solutions in answering range queries across\narbitrary data distributions.",
+    "updated" : "2024-07-18T14:05:35Z",
+    "published" : "2024-07-18T14:05:35Z",
+    "authors" : [
+      {
+        "name" : "Leixia Wang"
+      },
+      {
+        "name" : "Qingqing Ye"
+      },
+      {
+        "name" : "Haibo Hu"
+      },
+      {
+        "name" : "Xiaofeng Meng"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DB"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.13516v1",
+    "title" : "Optimal Mechanisms for Quantum Local Differential Privacy",
+    "summary" : "In recent years, centralized differential privacy has been successfully\nextended to quantum computing and information processing to safeguard privacy\nand prevent leaks in neighboring relationships of quantum states. This paper\nintroduces a framework known as quantum local differential privacy (QLDP) and\ninitializes the algorithmic study of QLDP. QLDP utilizes a parameter $\\epsilon$\nto manage privacy leaks and ensure the privacy of individual quantum states.\nThe optimization of the QLDP value $\\epsilon$, denoted as $\\epsilon^*$, for any\nquantum mechanism is addressed as an optimization problem. The introduction of\nquantum noise is shown to provide privacy protections similar to classical\nscenarios, with quantum depolarizing noise identified as the optimal unital\nprivatization mechanism within the QLDP framework. Unital mechanisms represent\na diverse set of quantum mechanisms that encompass frequently employed quantum\nnoise types. Quantum depolarizing noise optimizes both fidelity and trace\ndistance utilities, which are crucial metrics in the field of quantum\ncomputation and information, and can be viewed as a quantum counterpart to\nclassical randomized response methods. Additionally, a composition theorem is\npresented for the application of QLDP framework in distributed (spatially\nseparated) quantum systems, ensuring the validity (additivity of QLDP value)\nirrespective of the states' independence, classical correlation, or\nentanglement (quantum correlation). The study further explores the trade-off\nbetween utility and privacy across different quantum noise mechanisms,\nincluding unital and non-unital quantum noise mechanisms, through both\nanalytical and numerically experimental approaches. Meanwhile, this highlights\nthe optimization of quantum depolarizing noise in QLDP framework.",
+    "updated" : "2024-07-18T13:46:16Z",
+    "published" : "2024-07-18T13:46:16Z",
+    "authors" : [
+      {
+        "name" : "Ji Guan"
+      }
+    ],
+    "categories" : [
+      "quant-ph"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.13153v1",
+    "title" : "Preset-Voice Matching for Privacy Regulated Speech-to-Speech Translation\n  Systems",
+    "summary" : "In recent years, there has been increased demand for speech-to-speech\ntranslation (S2ST) systems in industry settings. Although successfully\ncommercialized, cloning-based S2ST systems expose their distributors to\nliabilities when misused by individuals and can infringe on personality rights\nwhen exploited by media organizations. This work proposes a regulated S2ST\nframework called Preset-Voice Matching (PVM). PVM removes cross-lingual voice\ncloning in S2ST by first matching the input voice to a similar prior consenting\nspeaker voice in the target-language. With this separation, PVM avoids cloning\nthe input speaker, ensuring PVM systems comply with regulations and reduce risk\nof misuse. Our results demonstrate PVM can significantly improve S2ST system\nrun-time in multi-speaker settings and the naturalness of S2ST synthesized\nspeech. To our knowledge, PVM is the first explicitly regulated S2ST framework\nleveraging similarly-matched preset-voices for dynamic S2ST tasks.",
+    "updated" : "2024-07-18T04:42:01Z",
+    "published" : "2024-07-18T04:42:01Z",
+    "authors" : [
+      {
+        "name" : "Daniel Platnick"
+      },
+      {
+        "name" : "Bishoy Abdelnour"
+      },
+      {
+        "name" : "Eamon Earl"
+      },
+      {
+        "name" : "Rahul Kumar"
+      },
+      {
+        "name" : "Zahra Rezaei"
+      },
+      {
+        "name" : "Thomas Tsangaris"
+      },
+      {
+        "name" : "Faraj Lagum"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.CR",
+      "cs.LG",
+      "cs.SD",
+      "eess.AS"
+    ]
   }
 ]
