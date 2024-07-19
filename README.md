@@ -2,6 +2,154 @@
 <h2>2024-07</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.13725v1">Scalable Optimization for Locally Relevant Geo-Location Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-07-18T17:25:08Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Chenxi Qiu, Ruiyao Liu, Primal Pappachan, Anna Squicciarini, Xinpeng Xie</p>
+    <p><b>Summary:</b> Geo-obfuscation functions as a location privacy protection mechanism (LPPM),
+enabling mobile users to share obfuscated locations with servers instead of
+their exact locations. This technique protects users' location privacy during
+server-side data breaches since the obfuscation process is irreversible. To
+minimize the utility loss caused by data obfuscation, linear programming (LP)
+is widely used. However, LP can face a polynomial explosion in decision
+variables, making it impractical for large-scale geo-obfuscation applications.
+In this paper, we propose a new LPPM called Locally Relevant Geo-obfuscation
+(LR-Geo) to optimize geo-obfuscation using LP more efficiently. This is
+accomplished by restricting the geo-obfuscation calculations for each user to
+locally relevant (LR) locations near the user's actual location. To prevent LR
+locations from inadvertently revealing a user's true whereabouts, users compute
+the LP coefficients locally and upload only these coefficients to the server,
+rather than the LR locations themselves. The server then solves the LP problem
+using the provided coefficients. Additionally, we enhance the LP framework with
+an exponential obfuscation mechanism to ensure that the obfuscation
+distribution is indistinguishable across multiple users. By leveraging the
+constraint structure of the LP formulation, we apply Benders' decomposition to
+further boost computational efficiency. Our theoretical analysis confirms that,
+even though geo-obfuscation is calculated independently for each user, it still
+adheres to geo-indistinguishability constraints across multiple users with high
+probability. Finally, experimental results using a real-world dataset
+demonstrate that LR-Geo outperforms existing geo-obfuscation methods in terms
+of computational time, data utility, and privacy protection.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.13621v1">Differential Privacy Mechanisms in Neural Tangent Kernel Regression</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-07-18T15:57:55Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jiuxiang Gu, Yingyu Liang, Zhizhou Sha, Zhenmei Shi, Zhao Song</p>
+    <p><b>Summary:</b> Training data privacy is a fundamental problem in modern Artificial
+Intelligence (AI) applications, such as face recognition, recommendation
+systems, language generation, and many others, as it may contain sensitive user
+information related to legal issues. To fundamentally understand how privacy
+mechanisms work in AI applications, we study differential privacy (DP) in the
+Neural Tangent Kernel (NTK) regression setting, where DP is one of the most
+powerful tools for measuring privacy under statistical learning, and NTK is one
+of the most popular analysis frameworks for studying the learning mechanisms of
+deep neural networks. In our work, we can show provable guarantees for both
+differential privacy and test accuracy of our NTK regression. Furthermore, we
+conduct experiments on the basic image classification dataset CIFAR10 to
+demonstrate that NTK regression can preserve good accuracy under a modest
+privacy budget, supporting the validity of our analysis. To our knowledge, this
+is the first work to provide a DP guarantee for NTK regression.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.13532v1">PriPL-Tree: Accurate Range Query for Arbitrary Distribution under Local
+  Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
+  <p><b>Published on:</b> 2024-07-18T14:05:35Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Leixia Wang, Qingqing Ye, Haibo Hu, Xiaofeng Meng</p>
+    <p><b>Summary:</b> Answering range queries in the context of Local Differential Privacy (LDP) is
+a widely studied problem in Online Analytical Processing (OLAP). Existing LDP
+solutions all assume a uniform data distribution within each domain partition,
+which may not align with real-world scenarios where data distribution is
+varied, resulting in inaccurate estimates. To address this problem, we
+introduce PriPL-Tree, a novel data structure that combines hierarchical tree
+structures with piecewise linear (PL) functions to answer range queries for
+arbitrary distributions. PriPL-Tree precisely models the underlying data
+distribution with a few line segments, leading to more accurate results for
+range queries. Furthermore, we extend it to multi-dimensional cases with novel
+data-aware adaptive grids. These grids leverage the insights from marginal
+distributions obtained through PriPL-Trees to partition the grids adaptively,
+adapting the density of underlying distributions. Our extensive experiments on
+both real and synthetic datasets demonstrate the effectiveness and superiority
+of PriPL-Tree over state-of-the-art solutions in answering range queries across
+arbitrary data distributions.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.13516v1">Optimal Mechanisms for Quantum Local Differential Privacy</a></h3>
+  
+  <p><b>Published on:</b> 2024-07-18T13:46:16Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ji Guan</p>
+    <p><b>Summary:</b> In recent years, centralized differential privacy has been successfully
+extended to quantum computing and information processing to safeguard privacy
+and prevent leaks in neighboring relationships of quantum states. This paper
+introduces a framework known as quantum local differential privacy (QLDP) and
+initializes the algorithmic study of QLDP. QLDP utilizes a parameter $\epsilon$
+to manage privacy leaks and ensure the privacy of individual quantum states.
+The optimization of the QLDP value $\epsilon$, denoted as $\epsilon^*$, for any
+quantum mechanism is addressed as an optimization problem. The introduction of
+quantum noise is shown to provide privacy protections similar to classical
+scenarios, with quantum depolarizing noise identified as the optimal unital
+privatization mechanism within the QLDP framework. Unital mechanisms represent
+a diverse set of quantum mechanisms that encompass frequently employed quantum
+noise types. Quantum depolarizing noise optimizes both fidelity and trace
+distance utilities, which are crucial metrics in the field of quantum
+computation and information, and can be viewed as a quantum counterpart to
+classical randomized response methods. Additionally, a composition theorem is
+presented for the application of QLDP framework in distributed (spatially
+separated) quantum systems, ensuring the validity (additivity of QLDP value)
+irrespective of the states' independence, classical correlation, or
+entanglement (quantum correlation). The study further explores the trade-off
+between utility and privacy across different quantum noise mechanisms,
+including unital and non-unital quantum noise mechanisms, through both
+analytical and numerically experimental approaches. Meanwhile, this highlights
+the optimization of quantum depolarizing noise in QLDP framework.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.13153v1">Preset-Voice Matching for Privacy Regulated Speech-to-Speech Translation
+  Systems</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Sound-D91E36"> 
+  <p><b>Published on:</b> 2024-07-18T04:42:01Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Daniel Platnick, Bishoy Abdelnour, Eamon Earl, Rahul Kumar, Zahra Rezaei, Thomas Tsangaris, Faraj Lagum</p>
+    <p><b>Summary:</b> In recent years, there has been increased demand for speech-to-speech
+translation (S2ST) systems in industry settings. Although successfully
+commercialized, cloning-based S2ST systems expose their distributors to
+liabilities when misused by individuals and can infringe on personality rights
+when exploited by media organizations. This work proposes a regulated S2ST
+framework called Preset-Voice Matching (PVM). PVM removes cross-lingual voice
+cloning in S2ST by first matching the input voice to a similar prior consenting
+speaker voice in the target-language. With this separation, PVM avoids cloning
+the input speaker, ensuring PVM systems comply with regulations and reduce risk
+of misuse. Our results demonstrate PVM can significantly improve S2ST system
+run-time in multi-speaker settings and the naturalness of S2ST synthesized
+speech. To our knowledge, PVM is the first explicitly regulated S2ST framework
+leveraging similarly-matched preset-voices for dynamic S2ST tasks.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2407.12669v1">Enhancing the Utility of Privacy-Preserving Cancer Classification using
   Synthetic Data</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
@@ -2704,161 +2852,6 @@ item is positively correlated with this item's popularity. This also leads to
 the unfair treatment of users with little interest in popular content. Finally,
 we study long-term fairness dynamics in algorithmic decision support in the
 labor market using agent-based modeling techniques.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.11208v1">Privacy-preserving Pseudonym Schemes for Personalized 3D Avatars in
-  Mobile Social Metaverses</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
-  <p><b>Published on:</b> 2024-06-17T04:58:09Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Cheng Su, Xiaofeng Luo, Zhenmou Liu, Jiawen Kang, Min Hao, Zehui Xiong, Zhaohui Yang, Chongwen Huang</p>
-    <p><b>Summary:</b> The emergence of mobile social metaverses, a novel paradigm bridging physical
-and virtual realms, has led to the widespread adoption of avatars as digital
-representations for Social Metaverse Users (SMUs) within virtual spaces.
-Equipped with immersive devices, SMUs leverage Edge Servers (ESs) to deploy
-their avatars and engage with other SMUs in virtual spaces. To enhance
-immersion, SMUs incline to opt for 3D avatars for social interactions. However,
-existing 3D avatars are typically generated through scanning the real faces of
-SMUs, which can raise concerns regarding information privacy and security, such
-as profile identity leakages. To tackle this, we introduce a new framework for
-personalized 3D avatar construction, leveraging a two-layer network model that
-provides SMUs with the option to customize their personal avatars for privacy
-preservation. Specifically, our approach introduces avatar pseudonyms to
-jointly safeguard the profile and digital identity privacy of the generated
-avatars. Then, we design a novel metric named Privacy of Personalized Avatars
-(PoPA), to evaluate effectiveness of the avatar pseudonyms. To optimize
-pseudonym resource, we model the pseudonym distribution process as a
-Stackelberg game and employ Deep Reinforcement Learning (DRL) to learn
-equilibrium strategies under incomplete information. Simulation results
-validate the efficacy and feasibility of our proposed schemes for mobile social
-metaverses.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.11149v1">GoldCoin: Grounding Large Language Models in Privacy Laws via Contextual
-  Integrity Theory</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-06-17T02:27:32Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Wei Fan, Haoran Li, Zheye Deng, Weiqi Wang, Yangqiu Song</p>
-    <p><b>Summary:</b> Privacy issues arise prominently during the inappropriate transmission of
-information between entities. Existing research primarily studies privacy by
-exploring various privacy attacks, defenses, and evaluations within narrowly
-predefined patterns, while neglecting that privacy is not an isolated,
-context-free concept limited to traditionally sensitive data (e.g., social
-security numbers), but intertwined with intricate social contexts that
-complicate the identification and analysis of potential privacy violations. The
-advent of Large Language Models (LLMs) offers unprecedented opportunities for
-incorporating the nuanced scenarios outlined in privacy laws to tackle these
-complex privacy issues. However, the scarcity of open-source relevant case
-studies restricts the efficiency of LLMs in aligning with specific legal
-statutes. To address this challenge, we introduce a novel framework, GoldCoin,
-designed to efficiently ground LLMs in privacy laws for judicial assessing
-privacy violations. Our framework leverages the theory of contextual integrity
-as a bridge, creating numerous synthetic scenarios grounded in relevant privacy
-statutes (e.g., HIPAA), to assist LLMs in comprehending the complex contexts
-for identifying privacy risks in the real world. Extensive experimental results
-demonstrate that GoldCoin markedly enhances LLMs' capabilities in recognizing
-privacy risks across real court cases, surpassing the baselines on different
-judicial tasks.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.11087v2">MemDPT: Differential Privacy for Memory Efficient Language Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-06-16T22:11:41Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yanming Liu, Xinyue Peng, Jiannan Cao, Yuwei Zhang, Chen Ma, Songhang Deng, Mengchen Fu, Xuhong Zhang, Sheng Cheng, Xun Wang, Jianwei Yin, Tianyu Du</p>
-    <p><b>Summary:</b> Large language models have consistently demonstrated remarkable performance
-across a wide spectrum of applications. Nonetheless, the deployment of these
-models can inadvertently expose user privacy to potential risks. The
-substantial memory demands of these models during training represent a
-significant resource consumption challenge. The sheer size of these models
-imposes a considerable burden on memory resources, which is a matter of
-significant concern in practice. In this paper, we present an innovative
-training framework MemDPT that not only reduces the memory cost of large
-language models but also places a strong emphasis on safeguarding user data
-privacy. MemDPT provides edge network and reverse network designs to
-accommodate various differential privacy memory-efficient fine-tuning schemes.
-Our approach not only achieves $2 \sim 3 \times$ memory optimization but also
-provides robust privacy protection, ensuring that user data remains secure and
-confidential. Extensive experiments have demonstrated that MemDPT can
-effectively provide differential privacy efficient fine-tuning across various
-task scenarios.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.10976v1">Promoting Data and Model Privacy in Federated Learning through Quantized
-  LoRA</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-06-16T15:23:07Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> JianHao Zhu, Changze Lv, Xiaohua Wang, Muling Wu, Wenhao Liu, Tianlong Li, Zixuan Ling, Cenyuan Zhang, Xiaoqing Zheng, Xuanjing Huang</p>
-    <p><b>Summary:</b> Conventional federated learning primarily aims to secure the privacy of data
-distributed across multiple edge devices, with the global model dispatched to
-edge devices for parameter updates during the learning process. However, the
-development of large language models (LLMs) requires substantial data and
-computational resources, rendering them valuable intellectual properties for
-their developers and owners. To establish a mechanism that protects both data
-and model privacy in a federated learning context, we introduce a method that
-just needs to distribute a quantized version of the model's parameters during
-training. This method enables accurate gradient estimations for parameter
-updates while preventing clients from accessing a model whose performance is
-comparable to the centrally hosted one. Moreover, we combine this quantization
-strategy with LoRA, a popular and parameter-efficient fine-tuning method, to
-significantly reduce communication costs in federated learning. The proposed
-framework, named \textsc{FedLPP}, successfully ensures both data and model
-privacy in the federated learning context. Additionally, the learned central
-model exhibits good generalization and can be trained in a resource-efficient
-manner.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.10884v1">Linkage on Security, Privacy and Fairness in Federated Learning: New
-  Balances and New Perspectives</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
-  <p><b>Published on:</b> 2024-06-16T10:31:45Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Linlin Wang, Tianqing Zhu, Wanlei Zhou, Philip S. Yu</p>
-    <p><b>Summary:</b> Federated learning is fast becoming a popular paradigm for applications
-involving mobile devices, banking systems, healthcare, and IoT systems. Hence,
-over the past five years, researchers have undertaken extensive studies on the
-privacy leaks, security threats, and fairness associated with these emerging
-models. For the most part, these three critical concepts have been studied in
-isolation; however, recent research has revealed that there may be an intricate
-interplay between them. For instance, some researchers have discovered that
-pursuing fairness may compromise privacy, or that efforts to enhance security
-can impact fairness. These emerging insights shed light on the fundamental
-connections between privacy, security, and fairness within federated learning,
-and, by delving deeper into these interconnections, we may be able to
-significantly augment research and development across the field. Consequently,
-the aim of this survey is to offer comprehensive descriptions of the privacy,
-security, and fairness issues in federated learning. Moreover, we analyze the
-complex relationships between these three dimensions of cyber safety and
-pinpoint the fundamental elements that influence each of them. We contend that
-there exists a trade-off between privacy and fairness and between security and
-gradient sharing. On this basis, fairness can function as a bridge between
-privacy and security to build models that are either more secure or more
-private. Building upon our observations, we identify the trade-offs between
-privacy and fairness and between security and fairness within the context of
-federated learning. The survey then concludes with promising directions for
-future research in this vanguard field.</p>
   </details>
 </div>
 
