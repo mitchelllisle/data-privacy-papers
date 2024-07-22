@@ -2,6 +2,62 @@
 <h2>2024-07</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.13975v1">Personalized Privacy Protection Mask Against Unauthorized Facial
+  Recognition</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2024-07-19T01:59:00Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ka-Ho Chow, Sihao Hu, Tiansheng Huang, Ling Liu</p>
+    <p><b>Summary:</b> Face recognition (FR) can be abused for privacy intrusion. Governments,
+private companies, or even individual attackers can collect facial images by
+web scraping to build an FR system identifying human faces without their
+consent. This paper introduces Chameleon, which learns to generate a
+user-centric personalized privacy protection mask, coined as P3-Mask, to
+protect facial images against unauthorized FR with three salient features.
+First, we use a cross-image optimization to generate one P3-Mask for each user
+instead of tailoring facial perturbation for each facial image of a user. It
+enables efficient and instant protection even for users with limited computing
+resources. Second, we incorporate a perceptibility optimization to preserve the
+visual quality of the protected facial images. Third, we strengthen the
+robustness of P3-Mask against unknown FR models by integrating focal
+diversity-optimized ensemble learning into the mask generation process.
+Extensive experiments on two benchmark datasets show that Chameleon outperforms
+three state-of-the-art methods with instant protection and minimal degradation
+of image quality. Furthermore, Chameleon enables cost-effective FR
+authorization using the P3-Mask as a personalized de-obfuscation key, and it
+demonstrates high resilience against adaptive adversaries.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.13881v1">Privacy-preserving gradient-based fair federated learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36"> 
+  <p><b>Published on:</b> 2024-07-18T19:56:39Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Janis Adamek, Moritz Schulze Darup</p>
+    <p><b>Summary:</b> Federated learning (FL) schemes allow multiple participants to
+collaboratively train neural networks without the need to directly share the
+underlying data.However, in early schemes, all participants eventually obtain
+the same model. Moreover, the aggregation is typically carried out by a third
+party, who obtains combined gradients or weights, which may reveal the model.
+These downsides underscore the demand for fair and privacy-preserving FL
+schemes. Here, collaborative fairness asks for individual model quality
+depending on the individual data contribution. Privacy is demanded with respect
+to any kind of data outsourced to the third party. Now, there already exist
+some approaches aiming for either fair or privacy-preserving FL and a few works
+even address both features. In our paper, we build upon these seminal works and
+present a novel, fair and privacy-preserving FL scheme. Our approach, which
+mainly relies on homomorphic encryption, stands out for exclusively using local
+gradients. This increases the usability in comparison to state-of-the-art
+approaches and thereby opens the door to applications in control.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2407.13725v1">Scalable Optimization for Locally Relevant Geo-Location Privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2024-07-18T17:25:08Z</p>
@@ -2782,76 +2838,6 @@ recommendations for the field, such as developing risk frameworks to align with
 user needs, tailoring communications for different stakeholders, modeling the
 impact of privacy-loss parameters, investing in effective user interfaces, and
 facilitating algorithmic and procedural audits of differential privacy systems.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.12003v2">P3GNN: A Privacy-Preserving Provenance Graph-Based Model for APT
-  Detection in Software Defined Networking</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-06-17T18:14:03Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Hedyeh Nazari, Abbas Yazdinejad, Ali Dehghantanha, Fattane Zarrinkalam, Gautam Srivastava</p>
-    <p><b>Summary:</b> Software Defined Networking (SDN) has brought significant advancements in
-network management and programmability. However, this evolution has also
-heightened vulnerability to Advanced Persistent Threats (APTs), sophisticated
-and stealthy cyberattacks that traditional detection methods often fail to
-counter, especially in the face of zero-day exploits. A prevalent issue is the
-inadequacy of existing strategies to detect novel threats while addressing data
-privacy concerns in collaborative learning scenarios. This paper presents P3GNN
-(privacy-preserving provenance graph-based graph neural network model), a novel
-model that synergizes Federated Learning (FL) with Graph Convolutional Networks
-(GCN) for effective APT detection in SDN environments. P3GNN utilizes
-unsupervised learning to analyze operational patterns within provenance graphs,
-identifying deviations indicative of security breaches. Its core feature is the
-integration of FL with homomorphic encryption, which fortifies data
-confidentiality and gradient integrity during collaborative learning. This
-approach addresses the critical challenge of data privacy in shared learning
-contexts. Key innovations of P3GNN include its ability to detect anomalies at
-the node level within provenance graphs, offering a detailed view of attack
-trajectories and enhancing security analysis. Furthermore, the models
-unsupervised learning capability enables it to identify zero-day attacks by
-learning standard operational patterns. Empirical evaluation using the DARPA
-TCE3 dataset demonstrates P3GNNs exceptional performance, achieving an accuracy
-of 0.93 and a low false positive rate of 0.06.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.11323v2">Transparency, Privacy, and Fairness in Recommender Systems</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB">
-  <p><b>Published on:</b> 2024-06-17T08:37:14Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Dominik Kowald</p>
-    <p><b>Summary:</b> Recommender systems have become a pervasive part of our daily online
-experience, and are one of the most widely used applications of artificial
-intelligence and machine learning. Therefore, regulations and requirements for
-trustworthy artificial intelligence, for example, the European AI Act, which
-includes notions such as transparency, privacy, and fairness are also highly
-relevant for the design of recommender systems in practice. This habilitation
-elaborates on aspects related to these three notions in the light of
-recommender systems, namely: (i) transparency and cognitive models, (ii)
-privacy and limited preference information, and (iii) fairness and popularity
-bias in recommender systems. Specifically, with respect to aspect (i), we
-highlight the usefulness of incorporating psychological theories for a
-transparent design process of recommender systems. We term this type of systems
-psychology-informed recommender systems. In aspect (ii), we study and address
-the trade-off between accuracy and privacy in differentially-private
-recommendations. We design a novel recommendation approach for collaborative
-filtering based on an efficient neighborhood reuse concept, which reduces the
-number of users that need to be protected with differential privacy.
-Furthermore, we address the related issue of limited availability of user
-preference information, e.g., click data, in the settings of session-based and
-cold-start recommendations. With respect to aspect (iii), we analyze popularity
-bias in recommender systems. We find that the recommendation frequency of an
-item is positively correlated with this item's popularity. This also leads to
-the unfair treatment of users with little interest in popular content. Finally,
-we study long-term fairness dynamics in algorithmic decision support in the
-labor market using agent-based modeling techniques.</p>
   </details>
 </div>
 
