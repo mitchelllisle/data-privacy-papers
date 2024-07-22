@@ -1569,5 +1569,50 @@
       "cs.SD",
       "eess.AS"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.13975v1",
+    "title" : "Personalized Privacy Protection Mask Against Unauthorized Facial\n  Recognition",
+    "summary" : "Face recognition (FR) can be abused for privacy intrusion. Governments,\nprivate companies, or even individual attackers can collect facial images by\nweb scraping to build an FR system identifying human faces without their\nconsent. This paper introduces Chameleon, which learns to generate a\nuser-centric personalized privacy protection mask, coined as P3-Mask, to\nprotect facial images against unauthorized FR with three salient features.\nFirst, we use a cross-image optimization to generate one P3-Mask for each user\ninstead of tailoring facial perturbation for each facial image of a user. It\nenables efficient and instant protection even for users with limited computing\nresources. Second, we incorporate a perceptibility optimization to preserve the\nvisual quality of the protected facial images. Third, we strengthen the\nrobustness of P3-Mask against unknown FR models by integrating focal\ndiversity-optimized ensemble learning into the mask generation process.\nExtensive experiments on two benchmark datasets show that Chameleon outperforms\nthree state-of-the-art methods with instant protection and minimal degradation\nof image quality. Furthermore, Chameleon enables cost-effective FR\nauthorization using the P3-Mask as a personalized de-obfuscation key, and it\ndemonstrates high resilience against adaptive adversaries.",
+    "updated" : "2024-07-19T01:59:00Z",
+    "published" : "2024-07-19T01:59:00Z",
+    "authors" : [
+      {
+        "name" : "Ka-Ho Chow"
+      },
+      {
+        "name" : "Sihao Hu"
+      },
+      {
+        "name" : "Tiansheng Huang"
+      },
+      {
+        "name" : "Ling Liu"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.13881v1",
+    "title" : "Privacy-preserving gradient-based fair federated learning",
+    "summary" : "Federated learning (FL) schemes allow multiple participants to\ncollaboratively train neural networks without the need to directly share the\nunderlying data.However, in early schemes, all participants eventually obtain\nthe same model. Moreover, the aggregation is typically carried out by a third\nparty, who obtains combined gradients or weights, which may reveal the model.\nThese downsides underscore the demand for fair and privacy-preserving FL\nschemes. Here, collaborative fairness asks for individual model quality\ndepending on the individual data contribution. Privacy is demanded with respect\nto any kind of data outsourced to the third party. Now, there already exist\nsome approaches aiming for either fair or privacy-preserving FL and a few works\neven address both features. In our paper, we build upon these seminal works and\npresent a novel, fair and privacy-preserving FL scheme. Our approach, which\nmainly relies on homomorphic encryption, stands out for exclusively using local\ngradients. This increases the usability in comparison to state-of-the-art\napproaches and thereby opens the door to applications in control.",
+    "updated" : "2024-07-18T19:56:39Z",
+    "published" : "2024-07-18T19:56:39Z",
+    "authors" : [
+      {
+        "name" : "Janis Adamek"
+      },
+      {
+        "name" : "Moritz Schulze Darup"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "cs.SY",
+      "eess.SY"
+    ]
   }
 ]
