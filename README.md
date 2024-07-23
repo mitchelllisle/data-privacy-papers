@@ -2,6 +2,236 @@
 <h2>2024-07</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.15407v1">A Solution toward Transparent and Practical AI Regulation: Privacy
+  Nutrition Labels for Open-source Generative AI-based Applications</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
+  <p><b>Published on:</b> 2024-07-22T06:24:13Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Meixue Si, Shidong Pan, Dianshu Liao, Xiaoyu Sun, Zhen Tao, Wenchang Shi, Zhenchang Xing</p>
+    <p><b>Summary:</b> The rapid development and widespread adoption of Generative Artificial
+Intelligence-based (GAI) applications have greatly enriched our daily lives,
+benefiting people by enhancing creativity, personalizing experiences, improving
+accessibility, and fostering innovation and efficiency across various domains.
+However, along with the development of GAI applications, concerns have been
+raised about transparency in their privacy practices. Traditional privacy
+policies often fail to effectively communicate essential privacy information
+due to their complexity and length, and open-source community developers often
+neglect privacy practices even more. Only 12.2% of examined open-source GAI
+apps provide a privacy policy. To address this, we propose a regulation-driven
+GAI Privacy Label and introduce Repo2Label, a novel framework for automatically
+generating these labels based on code repositories. Our user study indicates a
+common endorsement of the proposed GAI privacy label format. Additionally,
+Repo2Label achieves a precision of 0.81, recall of 0.88, and F1-score of 0.84
+based on the benchmark dataset, significantly outperforming the developer
+self-declared privacy notices. We also discuss the common regulatory
+(in)compliance of open-source GAI apps, comparison with other privacy notices,
+and broader impacts to different stakeholders. Our findings suggest that
+Repo2Label could serve as a significant tool for bolstering the privacy
+transparency of GAI apps and make them more practical and responsible.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.15224v1">PUFFLE: Balancing Privacy, Utility, and Fairness in Federated Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2024-07-21T17:22:18Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Luca Corbucci, Mikko A Heikkila, David Solans Noguero, Anna Monreale, Nicolas Kourtellis</p>
+    <p><b>Summary:</b> Training and deploying Machine Learning models that simultaneously adhere to
+principles of fairness and privacy while ensuring good utility poses a
+significant challenge. The interplay between these three factors of
+trustworthiness is frequently underestimated and remains insufficiently
+explored. Consequently, many efforts focus on ensuring only two of these
+factors, neglecting one in the process. The decentralization of the datasets
+and the variations in distributions among the clients exacerbate the complexity
+of achieving this ethical trade-off in the context of Federated Learning (FL).
+For the first time in FL literature, we address these three factors of
+trustworthiness. We introduce PUFFLE, a high-level parameterised approach that
+can help in the exploration of the balance between utility, privacy, and
+fairness in FL scenarios. We prove that PUFFLE can be effective across diverse
+datasets, models, and data distributions, reducing the model unfairness up to
+75%, with a maximum reduction in the utility of 17% in the worst-case scenario,
+while maintaining strict privacy guarantees during the FL training.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.15220v1">Privacy-Preserving Multi-Center Differential Protein Abundance Analysis
+  with FedProt</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-07-21T17:09:20Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yuliya Burankova, Miriam Abele, Mohammad Bakhtiari, Christine von Törne, Teresa Barth, Lisa Schweizer, Pieter Giesbertz, Johannes R. Schmidt, Stefan Kalkhof, Janina Müller-Deile, Peter A van Veelen, Yassene Mohammed, Elke Hammer, Lis Arend, Klaudia Adamowicz, Tanja Laske, Anne Hartebrodt, Tobias Frisch, Chen Meng, Julian Matschinske, Julian Späth, Richard Röttger, Veit Schwämmle, Stefanie M. Hauck, Stefan Lichtenthaler, Axel Imhof, Matthias Mann, Christina Ludwig, Bernhard Kuster, Jan Baumbach, Olga Zolotareva</p>
+    <p><b>Summary:</b> Quantitative mass spectrometry has revolutionized proteomics by enabling
+simultaneous quantification of thousands of proteins. Pooling patient-derived
+data from multiple institutions enhances statistical power but raises
+significant privacy concerns. Here we introduce FedProt, the first
+privacy-preserving tool for collaborative differential protein abundance
+analysis of distributed data, which utilizes federated learning and additive
+secret sharing. In the absence of a multicenter patient-derived dataset for
+evaluation, we created two, one at five centers from LFQ E.coli experiments and
+one at three centers from TMT human serum. Evaluations using these datasets
+confirm that FedProt achieves accuracy equivalent to DEqMS applied to pooled
+data, with completely negligible absolute differences no greater than $\text{$4
+\times 10^{-12}$}$. In contrast, -log10(p-values) computed by the most accurate
+meta-analysis methods diverged from the centralized analysis results by up to
+25-27. FedProt is available as a web tool with detailed documentation as a
+FeatureCloud App.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.14938v1">From Ad Identifiers to Global Privacy Control: The Status Quo and Future
+  of Opting Out of Ad Tracking on Android</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2024-07-20T17:06:23Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Sebastian Zimmeck, Nishant Aggarwal, Zachary Liu, Konrad Kollnig</p>
+    <p><b>Summary:</b> Apps and their integrated third party libraries often collect a variety of
+data from people to show them personalized ads. This practice is often
+privacy-invasive. Since 2013, Google has therefore allowed users to limit ad
+tracking on Android via system settings. Further, under the 2018 California
+Consumer Privacy Act (CCPA), apps must honor opt-outs from ad tracking under
+the Global Privacy Control (GPC). The efficacy of these two methods to limit ad
+tracking has not been studied in prior work. Our legal and technical analysis
+details how the GPC applies to mobile apps and how it could be integrated
+directly into Android, thereby developing a reference design for GPC on
+Android. Our empirical analysis of 1,896 top-ranked Android apps shows that
+both the Android system-level opt-out and the GPC signal rarely restrict ad
+tracking. In our view, deleting the AdID and opting out under the CCPA has the
+same meaning. Thus, the current AdID setting and APIs should be evolved towards
+GPC and integrated into Android's Privacy Sandbox.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.14719v1">Universal Medical Imaging Model for Domain Generalization with Data
+  Privacy</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2024-07-20T01:24:15Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ahmed Radwan, Islam Osman, Mohamed S. Shehata</p>
+    <p><b>Summary:</b> Achieving domain generalization in medical imaging poses a significant
+challenge, primarily due to the limited availability of publicly labeled
+datasets in this domain. This limitation arises from concerns related to data
+privacy and the necessity for medical expertise to accurately label the data.
+In this paper, we propose a federated learning approach to transfer knowledge
+from multiple local models to a global model, eliminating the need for direct
+access to the local datasets used to train each model. The primary objective is
+to train a global model capable of performing a wide variety of medical imaging
+tasks. This is done while ensuring the confidentiality of the private datasets
+utilized during the training of these models. To validate the effectiveness of
+our approach, extensive experiments were conducted on eight datasets, each
+corresponding to a different medical imaging application. The client's data
+distribution in our experiments varies significantly as they originate from
+diverse domains. Despite this variation, we demonstrate a statistically
+significant improvement over a state-of-the-art baseline utilizing masked image
+modeling over a diverse pre-training dataset that spans different body parts
+and scanning types. This improvement is achieved by curating information
+learned from clients without accessing any labeled dataset on the server.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.14717v1">Differential Privacy of Cross-Attention with Provable Guarantee</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-07-20T01:02:27Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jiuxiang Gu, Yingyu Liang, Zhenmei Shi, Zhao Song, Yufa Zhou</p>
+    <p><b>Summary:</b> Cross-attention has become a fundamental module nowadays in many important
+artificial intelligence applications, e.g., retrieval-augmented generation
+(RAG), system prompt, guided stable diffusion, and many so on. Ensuring
+cross-attention privacy is crucial and urgently needed because its key and
+value matrices may contain sensitive information about companies and their
+users, many of which profit solely from their system prompts or RAG data. In
+this work, we design a novel differential privacy (DP) data structure to
+address the privacy security of cross-attention with a theoretical guarantee.
+In detail, let $n$ be the input token length of system prompt/RAG data, $d$ be
+the feature dimension, $0 < \alpha \le 1$ be the relative error parameter, $R$
+be the maximum value of the query and key matrices, $R_w$ be the maximum value
+of the value matrix, and $r,s,\epsilon_s$ be parameters of polynomial kernel
+methods. Then, our data structure requires $\widetilde{O}(ndr^2)$ memory
+consumption with $\widetilde{O}(nr^2)$ initialization time complexity and
+$\widetilde{O}(\alpha^{-1} r^2)$ query time complexity for a single token
+query. In addition, our data structure can guarantee that the user query is
+$(\epsilon, \delta)$-DP with $\widetilde{O}(n^{-1} \epsilon^{-1} \alpha^{-1/2}
+R^{2s} R_w r^2)$ additive error and $n^{-1} (\alpha + \epsilon_s)$ relative
+error between our output and the true answer. Furthermore, our result is robust
+to adaptive queries in which users can intentionally attack the cross-attention
+system. To our knowledge, this is the first work to provide DP for
+cross-attention. We believe it can inspire more privacy algorithm design in
+large generative models (LGMs).</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.14710v1">Universally Harmonizing Differential Privacy Mechanisms for Federated
+  Learning: Boosting Accuracy and Convergence</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-07-20T00:11:59Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shuya Feng, Meisam Mohammady, Hanbin Hong, Shenao Yan, Ashish Kundu, Binghui Wang, Yuan Hong</p>
+    <p><b>Summary:</b> Differentially private federated learning (DP-FL) is a promising technique
+for collaborative model training while ensuring provable privacy for clients.
+However, optimizing the tradeoff between privacy and accuracy remains a
+critical challenge. To our best knowledge, we propose the first DP-FL framework
+(namely UDP-FL), which universally harmonizes any randomization mechanism
+(e.g., an optimal one) with the Gaussian Moments Accountant (viz. DP-SGD) to
+significantly boost accuracy and convergence. Specifically, UDP-FL demonstrates
+enhanced model performance by mitigating the reliance on Gaussian noise. The
+key mediator variable in this transformation is the R\'enyi Differential
+Privacy notion, which is carefully used to harmonize privacy budgets. We also
+propose an innovative method to theoretically analyze the convergence for DP-FL
+(including our UDP-FL ) based on mode connectivity analysis. Moreover, we
+evaluate our UDP-FL through extensive experiments benchmarked against
+state-of-the-art (SOTA) methods, demonstrating superior performance on both
+privacy guarantees and model performance. Notably, UDP-FL exhibits substantial
+resilience against different inference attacks, indicating a significant
+advance in safeguarding sensitive data in federated learning environments.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.14641v1">Differential Privacy with Multiple Selections</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-07-19T19:34:51Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ashish Goel, Zhihao Jiang, Aleksandra Korolova, Kamesh Munagala, Sahasrajit Sarmasarkar</p>
+    <p><b>Summary:</b> We consider the setting where a user with sensitive features wishes to obtain
+a recommendation from a server in a differentially private fashion. We propose
+a ``multi-selection'' architecture where the server can send back multiple
+recommendations and the user chooses one from these that matches best with
+their private features. When the user feature is one-dimensional -- on an
+infinite line -- and the accuracy measure is defined w.r.t some increasing
+function $\mathfrak{h}(.)$ of the distance on the line, we precisely
+characterize the optimal mechanism that satisfies differential privacy. The
+specification of the optimal mechanism includes both the distribution of the
+noise that the user adds to its private value, and the algorithm used by the
+server to determine the set of results to send back as a response and further
+show that Laplace is an optimal noise distribution. We further show that this
+optimal mechanism results in an error that is inversely proportional to the
+number of results returned when the function $\mathfrak{h}(.)$ is the identity
+function.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2407.13975v1">Personalized Privacy Protection Mask Against Unauthorized Facial
   Recognition</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
@@ -2618,226 +2848,6 @@ the corresponding privacy risk. We show that the data-copying identified by DPI
 poses both privacy and fairness threats to common, high performing
 architectures; underscoring the necessity for more sophisticated generative
 modeling techniques to mitigate this issue.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.12815v1">Privacy Preserving Federated Learning in Medical Imaging with
-  Uncertainty Estimation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">  
-  <p><b>Published on:</b> 2024-06-18T17:35:52Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Nikolas Koutsoubis, Yasin Yilmaz, Ravi P. Ramachandran, Matthew Schabath, Ghulam Rasool</p>
-    <p><b>Summary:</b> Machine learning (ML) and Artificial Intelligence (AI) have fueled remarkable
-advancements, particularly in healthcare. Within medical imaging, ML models
-hold the promise of improving disease diagnoses, treatment planning, and
-post-treatment monitoring. Various computer vision tasks like image
-classification, object detection, and image segmentation are poised to become
-routine in clinical analysis. However, privacy concerns surrounding patient
-data hinder the assembly of large training datasets needed for developing and
-training accurate, robust, and generalizable models. Federated Learning (FL)
-emerges as a compelling solution, enabling organizations to collaborate on ML
-model training by sharing model training information (gradients) rather than
-data (e.g., medical images). FL's distributed learning framework facilitates
-inter-institutional collaboration while preserving patient privacy. However,
-FL, while robust in privacy preservation, faces several challenges. Sensitive
-information can still be gleaned from shared gradients that are passed on
-between organizations during model training. Additionally, in medical imaging,
-quantifying model confidence\uncertainty accurately is crucial due to the noise
-and artifacts present in the data. Uncertainty estimation in FL encounters
-unique hurdles due to data heterogeneity across organizations. This paper
-offers a comprehensive review of FL, privacy preservation, and uncertainty
-estimation, with a focus on medical imaging. Alongside a survey of current
-research, we identify gaps in the field and suggest future directions for FL
-research to enhance privacy and address noisy medical imaging data challenges.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.12736v1">Beyond Visual Appearances: Privacy-sensitive Objects Identification via
-  Hybrid Graph Reasoning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2024-06-18T15:58:22Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zhuohang Jiang, Bingkui Tong, Xia Du, Ahmed Alhammadi, Jizhe Zhou</p>
-    <p><b>Summary:</b> The Privacy-sensitive Object Identification (POI) task allocates bounding
-boxes for privacy-sensitive objects in a scene. The key to POI is settling an
-object's privacy class (privacy-sensitive or non-privacy-sensitive). In
-contrast to conventional object classes which are determined by the visual
-appearance of an object, one object's privacy class is derived from the scene
-contexts and is subject to various implicit factors beyond its visual
-appearance. That is, visually similar objects may be totally opposite in their
-privacy classes. To explicitly derive the objects' privacy class from the scene
-contexts, in this paper, we interpret the POI task as a visual reasoning task
-aimed at the privacy of each object in the scene. Following this
-interpretation, we propose the PrivacyGuard framework for POI. PrivacyGuard
-contains three stages. i) Structuring: an unstructured image is first converted
-into a structured, heterogeneous scene graph that embeds rich scene contexts.
-ii) Data Augmentation: a contextual perturbation oversampling strategy is
-proposed to create slightly perturbed privacy-sensitive objects in a scene
-graph, thereby balancing the skewed distribution of privacy classes. iii)
-Hybrid Graph Generation & Reasoning: the balanced, heterogeneous scene graph is
-then transformed into a hybrid graph by endowing it with extra "node-node" and
-"edge-edge" homogeneous paths. These homogeneous paths allow direct message
-passing between nodes or edges, thereby accelerating reasoning and facilitating
-the capturing of subtle context changes. Based on this hybrid graph... **For
-the full abstract, see the original paper.**</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.12592v1">Unmasking the Veil: An Investigation into Concept Ablation for Privacy
-  and Copyright Protection in Images</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2024-06-18T13:22:29Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shivank Garg, Manyana Tiwari</p>
-    <p><b>Summary:</b> In this paper, we extend the study of concept ablation within pre-trained
-models as introduced in 'Ablating Concepts in Text-to-Image Diffusion Models'
-by (Kumari et al.,2022). Our work focuses on reproducing the results achieved
-by the different variants of concept ablation proposed and validated through
-predefined metrics. We also introduce a novel variant of concept ablation,
-namely 'trademark ablation'. This variant combines the principles of
-memorization and instance ablation to tackle the nuanced influence of
-proprietary or branded elements in model outputs. Further, our research
-contributions include an observational analysis of the model's limitations.
-Moreover, we investigate the model's behavior in response to ablation
-leakage-inducing prompts, which aim to indirectly ablate concepts, revealing
-insights into the model's resilience and adaptability. We also observe the
-model's performance degradation on images generated by concepts far from its
-target ablation concept, documented in the appendix.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.12457v2">Data Trade and Consumer Privacy</a></h3>
-  
-  <p><b>Published on:</b> 2024-06-18T10:00:44Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jiadong Gu</p>
-    <p><b>Summary:</b> This paper studies optimal mechanisms for collecting and trading data.
-Consumers benefit from revealing information about their tastes to a service
-provider because this improves the service. However, the information is also
-valuable to a third party as it may extract more revenue from the consumer in
-another market called the product market. The paper characterizes the
-constrained optimal mechanism for the service provider subject to incentive
-feasibility. It is shown that the service provider sometimes sells no
-information or only partial information in order to preserve profits in the
-service market. In a general setup, the service provision distortion and
-no-price discrimination in the product market are exclusive. Moreover, a ban on
-data trade may reduce social welfare because it makes it harder to price
-discriminate in the product market.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.12403v1">PDSS: A Privacy-Preserving Framework for Step-by-Step Distillation of
-  Large Language Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2024-06-18T08:48:14Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Tao Fan, Yan Kang, Weijing Chen, Hanlin Gu, Yuanfeng Song, Lixin Fan, Kai Chen, Qiang Yang</p>
-    <p><b>Summary:</b> In the context of real-world applications, leveraging large language models
-(LLMs) for domain-specific tasks often faces two major challenges:
-domain-specific knowledge privacy and constrained resources. To address these
-issues, we propose PDSS, a privacy-preserving framework for step-by-step
-distillation of LLMs. PDSS works on a server-client architecture, wherein
-client transmits perturbed prompts to the server's LLM for rationale
-generation. The generated rationales are then decoded by the client and used to
-enrich the training of task-specific small language model(SLM) within a
-multi-task learning paradigm. PDSS introduces two privacy protection
-strategies: the Exponential Mechanism Strategy and the Encoder-Decoder
-Strategy, balancing prompt privacy and rationale usability. Experiments
-demonstrate the effectiveness of PDSS in various text generation tasks,
-enabling the training of task-specific SLM with enhanced performance while
-prioritizing data privacy protection.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.12330v1">Security and Privacy of 6G Federated Learning-enabled Dynamic Spectrum
-  Sharing</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
-  <p><b>Published on:</b> 2024-06-18T06:54:15Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Viet Vo, Thusitha Dayaratne, Blake Haydon, Xingliang Yuan, Shangqi Lai, Sharif Abuadbba, Hajime Suzuki, Carsten Rudolph</p>
-    <p><b>Summary:</b> Spectrum sharing is increasingly vital in 6G wireless communication,
-facilitating dynamic access to unused spectrum holes. Recently, there has been
-a significant shift towards employing machine learning (ML) techniques for
-sensing spectrum holes. In this context, federated learning (FL)-enabled
-spectrum sensing technology has garnered wide attention, allowing for the
-construction of an aggregated ML model without disclosing the private spectrum
-sensing information of wireless user devices. However, the integrity of
-collaborative training and the privacy of spectrum information from local users
-have remained largely unexplored. This article first examines the latest
-developments in FL-enabled spectrum sharing for prospective 6G scenarios. It
-then identifies practical attack vectors in 6G to illustrate potential
-AI-powered security and privacy threats in these contexts. Finally, the study
-outlines future directions, including practical defense challenges and
-guidelines.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.12238v1">PFID: Privacy First Inference Delegation Framework for LLMs</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2024-06-18T03:27:09Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Haoyan Yang, Zhitao Li, Yong Zhang, Jianzong Wang, Ning Cheng, Ming Li, Jing Xiao</p>
-    <p><b>Summary:</b> This paper introduces a novel privacy-preservation framework named PFID for
-LLMs that addresses critical privacy concerns by localizing user data through
-model sharding and singular value decomposition. When users are interacting
-with LLM systems, their prompts could be subject to being exposed to
-eavesdroppers within or outside LLM system providers who are interested in
-collecting users' input. In this work, we proposed a framework to camouflage
-user input, so as to alleviate privacy issues. Our framework proposes to place
-model shards on the client and the public server, we sent compressed hidden
-states instead of prompts to and from servers. Clients have held back
-information that can re-privatized the hidden states so that overall system
-performance is comparable to traditional LLMs services. Our framework was
-designed to be communication efficient, computation can be delegated to the
-local client so that the server's computation burden can be lightened. We
-conduct extensive experiments on machine translation tasks to verify our
-framework's performance.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.12103v1">Centering Policy and Practice: Research Gaps around Usable Differential
-  Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2024-06-17T21:32:30Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Rachel Cummings, Jayshree Sarathy</p>
-    <p><b>Summary:</b> As a mathematically rigorous framework that has amassed a rich theoretical
-literature, differential privacy is considered by many experts to be the gold
-standard for privacy-preserving data analysis. Others argue that while
-differential privacy is a clean formulation in theory, it poses significant
-challenges in practice. Both perspectives are, in our view, valid and
-important. To bridge the gaps between differential privacy's promises and its
-real-world usability, researchers and practitioners must work together to
-advance policy and practice of this technology. In this paper, we outline
-pressing open questions towards building usable differential privacy and offer
-recommendations for the field, such as developing risk frameworks to align with
-user needs, tailoring communications for different stakeholders, modeling the
-impact of privacy-loss parameters, investing in effective user interfaces, and
-facilitating algorithmic and procedural audits of differential privacy systems.</p>
   </details>
 </div>
 
