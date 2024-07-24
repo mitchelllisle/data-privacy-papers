@@ -2,6 +2,90 @@
 <h2>2024-07</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.16166v1">Robust Privacy Amidst Innovation with Large Language Models Through a
+  Critical Assessment of the Risks</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2024-07-23T04:20:14Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yao-Shun Chuang, Atiquer Rahman Sarkar, Noman Mohammed, Xiaoqian Jiang</p>
+    <p><b>Summary:</b> This study examines integrating EHRs and NLP with large language models
+(LLMs) to improve healthcare data management and patient care. It focuses on
+using advanced models to create secure, HIPAA-compliant synthetic patient notes
+for biomedical research. The study used de-identified and re-identified MIMIC
+III datasets with GPT-3.5, GPT-4, and Mistral 7B to generate synthetic notes.
+Text generation employed templates and keyword extraction for contextually
+relevant notes, with one-shot generation for comparison. Privacy assessment
+checked PHI occurrence, while text utility was tested using an ICD-9 coding
+task. Text quality was evaluated with ROUGE and cosine similarity metrics to
+measure semantic similarity with source notes. Analysis of PHI occurrence and
+text utility via the ICD-9 coding task showed that the keyword-based method had
+low risk and good performance. One-shot generation showed the highest PHI
+exposure and PHI co-occurrence, especially in geographic location and date
+categories. The Normalized One-shot method achieved the highest classification
+accuracy. Privacy analysis revealed a critical balance between data utility and
+privacy protection, influencing future data use and sharing. Re-identified data
+consistently outperformed de-identified data. This study demonstrates the
+effectiveness of keyword-based methods in generating privacy-protecting
+synthetic clinical notes that retain data usability, potentially transforming
+clinical data-sharing practices. The superior performance of re-identified over
+de-identified data suggests a shift towards methods that enhance utility and
+privacy by using dummy PHIs to perplex privacy attacks.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.16164v1">Representation Magnitude has a Liability to Privacy Vulnerability</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2024-07-23T04:13:52Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xingli Fang, Jung-Eun Kim</p>
+    <p><b>Summary:</b> The privacy-preserving approaches to machine learning (ML) models have made
+substantial progress in recent years. However, it is still opaque in which
+circumstances and conditions the model becomes privacy-vulnerable, leading to a
+challenge for ML models to maintain both performance and privacy. In this
+paper, we first explore the disparity between member and non-member data in the
+representation of models under common training frameworks. We identify how the
+representation magnitude disparity correlates with privacy vulnerability and
+address how this correlation impacts privacy vulnerability. Based on the
+observations, we propose Saturn Ring Classifier Module (SRCM), a plug-in
+model-level solution to mitigate membership privacy leakage. Through a confined
+yet effective representation space, our approach ameliorates models' privacy
+vulnerability while maintaining generalizability. The code of this work can be
+found here: \url{https://github.com/JEKimLab/AIES2024_SRCM}</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.15957v1">Escalation of Commitment: A Case Study of the United States Census
+  Bureau Efforts to Implement Differential Privacy for the 2020 Decennial
+  Census</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
+  <p><b>Published on:</b> 2024-07-22T18:13:52Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Krish Muralidhar, Steven Ruggles</p>
+    <p><b>Summary:</b> In 2017, the United States Census Bureau announced that because of high
+disclosure risk in the methodology (data swapping) used to produce tabular data
+for the 2010 census, a different protection mechanism based on differential
+privacy would be used for the 2020 census. While there have been many studies
+evaluating the result of this change, there has been no rigorous examination of
+disclosure risk claims resulting from the released 2010 tabular data. In this
+study we perform such an evaluation. We show that the procedures used to
+evaluate disclosure risk are unreliable and resulted in inflated disclosure
+risk. Demonstration data products released using the new procedure were also
+shown to have poor utility. However, since the Census Bureau had already
+committed to a different procedure, they had no option except to escalate their
+commitment. The result of such escalation is that the 2020 tabular data release
+offers neither privacy nor accuracy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2407.15407v1">A Solution toward Transparent and Practical AI Regulation: Privacy
   Nutrition Labels for Open-source Generative AI-based Applications</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
@@ -431,6 +515,34 @@ of misuse. Our results demonstrate PVM can significantly improve S2ST system
 run-time in multi-speaker settings and the naturalness of S2ST synthesized
 speech. To our knowledge, PVM is the first explicitly regulated S2ST framework
 leveraging similarly-matched preset-voices for dynamic S2ST tasks.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.15868v1">A Survey on Differential Privacy for SpatioTemporal Data in
+  Transportation Research</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">  
+  <p><b>Published on:</b> 2024-07-18T03:19:29Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Rahul Bhadani</p>
+    <p><b>Summary:</b> With low-cost computing devices, improved sensor technology, and the
+proliferation of data-driven algorithms, we have more data than we know what to
+do with. In transportation, we are seeing a surge in spatiotemporal data
+collection. At the same time, concerns over user privacy have led to research
+on differential privacy in applied settings. In this paper, we look at some
+recent developments in differential privacy in the context of spatiotemporal
+data. Spatiotemporal data contain not only features about users but also the
+geographical locations of their frequent visits. Hence, the public release of
+such data carries extreme risks. To address the need for such data in research
+and inference without exposing private information, significant work has been
+proposed. This survey paper aims to summarize these efforts and provide a
+review of differential privacy mechanisms and related software. We also discuss
+related work in transportation where such mechanisms have been applied.
+Furthermore, we address the challenges in the deployment and mass adoption of
+differential privacy in transportation spatiotemporal data for downstream
+analyses.</p>
   </details>
 </div>
 
@@ -2734,120 +2846,6 @@ $\epsilon$ value, distribution of the total $\epsilon$ budget across the
 queries, and estimation of the sensitivity for the query functions. At the end,
 we discuss the shortcomings and challenges of applying differential privacy to
 ECG datasets.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.13433v1">Certificates of Differential Privacy and Unlearning for Gradient-Based
-  Training</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2024-06-19T10:47:00Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Matthew Wicker, Philip Sosnin, Adrianna Janik, Mark N. Müller, Adrian Weller, Calvin Tsay</p>
-    <p><b>Summary:</b> Proper data stewardship requires that model owners protect the privacy of
-individuals' data used during training. Whether through anonymization with
-differential privacy or the use of unlearning in non-anonymized settings, the
-gold-standard techniques for providing privacy guarantees can come with
-significant performance penalties or be too weak to provide practical
-assurances. In part, this is due to the fact that the guarantee provided by
-differential privacy represents the worst-case privacy leakage for any
-individual, while the true privacy leakage of releasing the prediction for a
-given individual might be substantially smaller or even, as we show,
-non-existent. This work provides a novel framework based on convex relaxations
-and bounds propagation that can compute formal guarantees (certificates) that
-releasing specific predictions satisfies $\epsilon=0$ privacy guarantees or do
-not depend on data that is subject to an unlearning request. Our framework
-offers a new verification-centric approach to privacy and unlearning
-guarantees, that can be used to further engender user trust with tighter
-privacy guarantees, provide formal proofs of robustness to certain membership
-inference attacks, identify potentially vulnerable records, and enhance current
-unlearning approaches. We validate the effectiveness of our approach on tasks
-from financial services, medical imaging, and natural language processing.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.13221v1">Privacy-Preserving Logistic Regression Training on Large Datasets</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-06-19T05:19:20Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> John Chiang</p>
-    <p><b>Summary:</b> Privacy-preserving machine learning is one class of cryptographic methods
-that aim to analyze private and sensitive data while keeping privacy, such as
-homomorphic logistic regression training over large encrypted data. In this
-paper, we propose an efficient algorithm for logistic regression training on
-large encrypted data using Homomorphic Encryption (HE), which is the mini-batch
-version of recent methods using a faster gradient variant called
-$\texttt{quadratic gradient}$. It is claimed that $\texttt{quadratic gradient}$
-can integrate curve information (Hessian matrix) into the gradient and
-therefore can effectively accelerate the first-order gradient (descent)
-algorithms. We also implement the full-batch version of their method when the
-encrypted dataset is so large that it has to be encrypted in the mini-batch
-manner. We compare our mini-batch algorithm with our full-batch implementation
-method on real financial data consisting of 422,108 samples with 200 freatures.
-%Our experiments show that Nesterov's accelerated gradient (NAG) Given the
-inefficiency of HEs, our results are inspiring and demonstrate that the
-logistic regression training on large encrypted dataset is of practical
-feasibility, marking a significant milestone in our understanding.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.13183v1">Communication-Efficient and Privacy-Preserving Decentralized
-  Meta-Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
-  <p><b>Published on:</b> 2024-06-19T03:29:51Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Hansi Yang, James T. Kwok</p>
-    <p><b>Summary:</b> Distributed learning, which does not require gathering training data in a
-central location, has become increasingly important in the big-data era. In
-particular, random-walk-based decentralized algorithms are flexible in that
-they do not need a central server trusted by all clients and do not require all
-clients to be active in all iterations. However, existing distributed learning
-algorithms assume that all learning clients share the same task. In this paper,
-we consider the more difficult meta-learning setting, in which different
-clients perform different (but related) tasks with limited training data. To
-reduce communication cost and allow better privacy protection, we propose
-LoDMeta (Local Decentralized Meta-learning) with the use of local auxiliary
-optimization parameters and random perturbations on the model parameter.
-Theoretical results are provided on both convergence and privacy analysis.
-Empirical results on a number of few-shot learning data sets demonstrate that
-LoDMeta has similar meta-learning accuracy as centralized meta-learning
-algorithms, but does not require gathering data from each client and is able to
-better protect data privacy for each client.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.13012v1">Data Plagiarism Index: Characterizing the Privacy Risk of Data-Copying
-  in Tabular Generative Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
-  <p><b>Published on:</b> 2024-06-18T19:05:24Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Joshua Ward, Chi-Hua Wang, Guang Cheng</p>
-    <p><b>Summary:</b> The promise of tabular generative models is to produce realistic synthetic
-data that can be shared and safely used without dangerous leakage of
-information from the training set. In evaluating these models, a variety of
-methods have been proposed to measure the tendency to copy data from the
-training dataset when generating a sample. However, these methods suffer from
-either not considering data-copying from a privacy threat perspective, not
-being motivated by recent results in the data-copying literature or being
-difficult to make compatible with the high dimensional, mixed type nature of
-tabular data. This paper proposes a new similarity metric and Membership
-Inference Attack called Data Plagiarism Index (DPI) for tabular data. We show
-that DPI evaluates a new intuitive definition of data-copying and characterizes
-the corresponding privacy risk. We show that the data-copying identified by DPI
-poses both privacy and fairness threats to common, high performing
-architectures; underscoring the necessity for more sophisticated generative
-modeling techniques to mitigate this issue.</p>
   </details>
 </div>
 
