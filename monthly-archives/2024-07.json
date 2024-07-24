@@ -1922,5 +1922,87 @@
       "cs.DS",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.16166v1",
+    "title" : "Robust Privacy Amidst Innovation with Large Language Models Through a\n  Critical Assessment of the Risks",
+    "summary" : "This study examines integrating EHRs and NLP with large language models\n(LLMs) to improve healthcare data management and patient care. It focuses on\nusing advanced models to create secure, HIPAA-compliant synthetic patient notes\nfor biomedical research. The study used de-identified and re-identified MIMIC\nIII datasets with GPT-3.5, GPT-4, and Mistral 7B to generate synthetic notes.\nText generation employed templates and keyword extraction for contextually\nrelevant notes, with one-shot generation for comparison. Privacy assessment\nchecked PHI occurrence, while text utility was tested using an ICD-9 coding\ntask. Text quality was evaluated with ROUGE and cosine similarity metrics to\nmeasure semantic similarity with source notes. Analysis of PHI occurrence and\ntext utility via the ICD-9 coding task showed that the keyword-based method had\nlow risk and good performance. One-shot generation showed the highest PHI\nexposure and PHI co-occurrence, especially in geographic location and date\ncategories. The Normalized One-shot method achieved the highest classification\naccuracy. Privacy analysis revealed a critical balance between data utility and\nprivacy protection, influencing future data use and sharing. Re-identified data\nconsistently outperformed de-identified data. This study demonstrates the\neffectiveness of keyword-based methods in generating privacy-protecting\nsynthetic clinical notes that retain data usability, potentially transforming\nclinical data-sharing practices. The superior performance of re-identified over\nde-identified data suggests a shift towards methods that enhance utility and\nprivacy by using dummy PHIs to perplex privacy attacks.",
+    "updated" : "2024-07-23T04:20:14Z",
+    "published" : "2024-07-23T04:20:14Z",
+    "authors" : [
+      {
+        "name" : "Yao-Shun Chuang"
+      },
+      {
+        "name" : "Atiquer Rahman Sarkar"
+      },
+      {
+        "name" : "Noman Mohammed"
+      },
+      {
+        "name" : "Xiaoqian Jiang"
+      }
+    ],
+    "categories" : [
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.16164v1",
+    "title" : "Representation Magnitude has a Liability to Privacy Vulnerability",
+    "summary" : "The privacy-preserving approaches to machine learning (ML) models have made\nsubstantial progress in recent years. However, it is still opaque in which\ncircumstances and conditions the model becomes privacy-vulnerable, leading to a\nchallenge for ML models to maintain both performance and privacy. In this\npaper, we first explore the disparity between member and non-member data in the\nrepresentation of models under common training frameworks. We identify how the\nrepresentation magnitude disparity correlates with privacy vulnerability and\naddress how this correlation impacts privacy vulnerability. Based on the\nobservations, we propose Saturn Ring Classifier Module (SRCM), a plug-in\nmodel-level solution to mitigate membership privacy leakage. Through a confined\nyet effective representation space, our approach ameliorates models' privacy\nvulnerability while maintaining generalizability. The code of this work can be\nfound here: \\url{https://github.com/JEKimLab/AIES2024_SRCM}",
+    "updated" : "2024-07-23T04:13:52Z",
+    "published" : "2024-07-23T04:13:52Z",
+    "authors" : [
+      {
+        "name" : "Xingli Fang"
+      },
+      {
+        "name" : "Jung-Eun Kim"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR",
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.15957v1",
+    "title" : "Escalation of Commitment: A Case Study of the United States Census\n  Bureau Efforts to Implement Differential Privacy for the 2020 Decennial\n  Census",
+    "summary" : "In 2017, the United States Census Bureau announced that because of high\ndisclosure risk in the methodology (data swapping) used to produce tabular data\nfor the 2010 census, a different protection mechanism based on differential\nprivacy would be used for the 2020 census. While there have been many studies\nevaluating the result of this change, there has been no rigorous examination of\ndisclosure risk claims resulting from the released 2010 tabular data. In this\nstudy we perform such an evaluation. We show that the procedures used to\nevaluate disclosure risk are unreliable and resulted in inflated disclosure\nrisk. Demonstration data products released using the new procedure were also\nshown to have poor utility. However, since the Census Bureau had already\ncommitted to a different procedure, they had no option except to escalate their\ncommitment. The result of such escalation is that the 2020 tabular data release\noffers neither privacy nor accuracy.",
+    "updated" : "2024-07-22T18:13:52Z",
+    "published" : "2024-07-22T18:13:52Z",
+    "authors" : [
+      {
+        "name" : "Krish Muralidhar"
+      },
+      {
+        "name" : "Steven Ruggles"
+      }
+    ],
+    "categories" : [
+      "cs.DB"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.15868v1",
+    "title" : "A Survey on Differential Privacy for SpatioTemporal Data in\n  Transportation Research",
+    "summary" : "With low-cost computing devices, improved sensor technology, and the\nproliferation of data-driven algorithms, we have more data than we know what to\ndo with. In transportation, we are seeing a surge in spatiotemporal data\ncollection. At the same time, concerns over user privacy have led to research\non differential privacy in applied settings. In this paper, we look at some\nrecent developments in differential privacy in the context of spatiotemporal\ndata. Spatiotemporal data contain not only features about users but also the\ngeographical locations of their frequent visits. Hence, the public release of\nsuch data carries extreme risks. To address the need for such data in research\nand inference without exposing private information, significant work has been\nproposed. This survey paper aims to summarize these efforts and provide a\nreview of differential privacy mechanisms and related software. We also discuss\nrelated work in transportation where such mechanisms have been applied.\nFurthermore, we address the challenges in the deployment and mass adoption of\ndifferential privacy in transportation spatiotemporal data for downstream\nanalyses.",
+    "updated" : "2024-07-18T03:19:29Z",
+    "published" : "2024-07-18T03:19:29Z",
+    "authors" : [
+      {
+        "name" : "Rahul Bhadani"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CY",
+      "cs.LG",
+      "stat.ME",
+      "stat.ML"
+    ]
   }
 ]
