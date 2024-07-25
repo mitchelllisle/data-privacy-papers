@@ -2004,5 +2004,123 @@
       "stat.ME",
       "stat.ML"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.17021v1",
+    "title" : "The EU-US Data Privacy Framework: Is the Dragon Eating its Own Tail?",
+    "summary" : "The European Commission adequacy decision on the EU US Data Privacy\nFramework, adopted on July 10th, 2023, marks a crucial moment in transatlantic\ndata protection. Following an Executive Order issued by President Biden in\nOctober 2022, this decision confirms that the United States meets European\nUnion standards for personal data protection. The decision extends to all\ntransfers from the European Economic Area to US entities participating in the\nframework, promoting privacy rights while facilitating data exchange. Key\naspects include oversight of US public authorities access to transferred data,\nthe introduction of a dual tier redress mechanism, and granting new rights to\nEU individuals, encompassing data access and rectification. However, the\nframework presents both promise and challenges in health data transfers. While\nstreamlining exchange and aligning legal standards, it grapples with the\ncomplexities of divergent privacy laws. The recent bill for the introduction of\na US federal privacy law emphasizes the urgent need for ongoing reform.\nLingering concerns persist regarding the framework resilience, especially amid\npotential legal battles before the Court of Justice of the EU. The history of\ntransatlantic data transfers between the EU and the US is riddled with\nvulnerabilities, reminiscent of the Ouroboros, an ancient symbol of a serpent\nor dragon eating its own tail, hinting at the looming possibility of the\nframework facing invalidation once again. This article delves into the main\nrequirements of the framework and offers insights on how healthcare\norganizations can navigate it effectively.",
+    "updated" : "2024-07-24T06:00:47Z",
+    "published" : "2024-07-24T06:00:47Z",
+    "authors" : [
+      {
+        "name" : "Marcelo Corrales Compagnucci"
+      }
+    ],
+    "categories" : [
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.16929v1",
+    "title" : "Synthetic Data, Similarity-based Privacy Metrics, and Regulatory\n  (Non-)Compliance",
+    "summary" : "In this paper, we argue that similarity-based privacy metrics cannot ensure\nregulatory compliance of synthetic data. Our analysis and counter-examples show\nthat they do not protect against singling out and linkability and, among other\nfundamental issues, completely ignore the motivated intruder test.",
+    "updated" : "2024-07-24T01:45:41Z",
+    "published" : "2024-07-24T01:45:41Z",
+    "authors" : [
+      {
+        "name" : "Georgi Ganev"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.16735v1",
+    "title" : "Theoretical Analysis of Privacy Leakage in Trustworthy Federated\n  Learning: A Perspective from Linear Algebra and Optimization Theory",
+    "summary" : "Federated learning has emerged as a promising paradigm for collaborative\nmodel training while preserving data privacy. However, recent studies have\nshown that it is vulnerable to various privacy attacks, such as data\nreconstruction attacks. In this paper, we provide a theoretical analysis of\nprivacy leakage in federated learning from two perspectives: linear algebra and\noptimization theory. From the linear algebra perspective, we prove that when\nthe Jacobian matrix of the batch data is not full rank, there exist different\nbatches of data that produce the same model update, thereby ensuring a level of\nprivacy. We derive a sufficient condition on the batch size to prevent data\nreconstruction attacks. From the optimization theory perspective, we establish\nan upper bound on the privacy leakage in terms of the batch size, the\ndistortion extent, and several other factors. Our analysis provides insights\ninto the relationship between privacy leakage and various aspects of federated\nlearning, offering a theoretical foundation for designing privacy-preserving\nfederated learning algorithms.",
+    "updated" : "2024-07-23T16:23:38Z",
+    "published" : "2024-07-23T16:23:38Z",
+    "authors" : [
+      {
+        "name" : "Xiaojin Zhang"
+      },
+      {
+        "name" : "Wei Chen"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.16729v1",
+    "title" : "PateGail: A Privacy-Preserving Mobility Trajectory Generator with\n  Imitation Learning",
+    "summary" : "Generating human mobility trajectories is of great importance to solve the\nlack of large-scale trajectory data in numerous applications, which is caused\nby privacy concerns. However, existing mobility trajectory generation methods\nstill require real-world human trajectories centrally collected as the training\ndata, where there exists an inescapable risk of privacy leakage. To overcome\nthis limitation, in this paper, we propose PateGail, a privacy-preserving\nimitation learning model to generate mobility trajectories, which utilizes the\npowerful generative adversary imitation learning model to simulate the\ndecision-making process of humans. Further, in order to protect user privacy,\nwe train this model collectively based on decentralized mobility data stored in\nuser devices, where personal discriminators are trained locally to distinguish\nand reward the real and generated human trajectories. In the training process,\nonly the generated trajectories and their rewards obtained based on personal\ndiscriminators are shared between the server and devices, whose privacy is\nfurther preserved by our proposed perturbation mechanisms with theoretical\nproof to satisfy differential privacy. Further, to better model the human\ndecision-making process, we propose a novel aggregation mechanism of the\nrewards obtained from personal discriminators. We theoretically prove that\nunder the reward obtained based on the aggregation mechanism, our proposed\nmodel maximizes the lower bound of the discounted total rewards of users.\nExtensive experiments show that the trajectories generated by our model are\nable to resemble real-world trajectories in terms of five key statistical\nmetrics, outperforming state-of-the-art algorithms by over 48.03%. Furthermore,\nwe demonstrate that the synthetic trajectories are able to efficiently support\npractical applications, including mobility prediction and location\nrecommendation.",
+    "updated" : "2024-07-23T14:59:23Z",
+    "published" : "2024-07-23T14:59:23Z",
+    "authors" : [
+      {
+        "name" : "Huandong Wang"
+      },
+      {
+        "name" : "Changzheng Gao"
+      },
+      {
+        "name" : "Yuchen Wu"
+      },
+      {
+        "name" : "Depeng Jin"
+      },
+      {
+        "name" : "Lina Yao"
+      },
+      {
+        "name" : "Yong Li"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.14710v2",
+    "title" : "Universally Harmonizing Differential Privacy Mechanisms for Federated\n  Learning: Boosting Accuracy and Convergence",
+    "summary" : "Differentially private federated learning (DP-FL) is a promising technique\nfor collaborative model training while ensuring provable privacy for clients.\nHowever, optimizing the tradeoff between privacy and accuracy remains a\ncritical challenge. To our best knowledge, we propose the first DP-FL framework\n(namely UDP-FL), which universally harmonizes any randomization mechanism\n(e.g., an optimal one) with the Gaussian Moments Accountant (viz. DP-SGD) to\nsignificantly boost accuracy and convergence. Specifically, UDP-FL demonstrates\nenhanced model performance by mitigating the reliance on Gaussian noise. The\nkey mediator variable in this transformation is the R\\'enyi Differential\nPrivacy notion, which is carefully used to harmonize privacy budgets. We also\npropose an innovative method to theoretically analyze the convergence for DP-FL\n(including our UDP-FL ) based on mode connectivity analysis. Moreover, we\nevaluate our UDP-FL through extensive experiments benchmarked against\nstate-of-the-art (SOTA) methods, demonstrating superior performance on both\nprivacy guarantees and model performance. Notably, UDP-FL exhibits substantial\nresilience against different inference attacks, indicating a significant\nadvance in safeguarding sensitive data in federated learning environments.",
+    "updated" : "2024-07-24T01:15:40Z",
+    "published" : "2024-07-20T00:11:59Z",
+    "authors" : [
+      {
+        "name" : "Shuya Feng"
+      },
+      {
+        "name" : "Meisam Mohammady"
+      },
+      {
+        "name" : "Hanbin Hong"
+      },
+      {
+        "name" : "Shenao Yan"
+      },
+      {
+        "name" : "Ashish Kundu"
+      },
+      {
+        "name" : "Binghui Wang"
+      },
+      {
+        "name" : "Yuan Hong"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
   }
 ]
