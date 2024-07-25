@@ -2,6 +2,120 @@
 <h2>2024-07</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.17021v1">The EU-US Data Privacy Framework: Is the Dragon Eating its Own Tail?</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2024-07-24T06:00:47Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Marcelo Corrales Compagnucci</p>
+    <p><b>Summary:</b> The European Commission adequacy decision on the EU US Data Privacy
+Framework, adopted on July 10th, 2023, marks a crucial moment in transatlantic
+data protection. Following an Executive Order issued by President Biden in
+October 2022, this decision confirms that the United States meets European
+Union standards for personal data protection. The decision extends to all
+transfers from the European Economic Area to US entities participating in the
+framework, promoting privacy rights while facilitating data exchange. Key
+aspects include oversight of US public authorities access to transferred data,
+the introduction of a dual tier redress mechanism, and granting new rights to
+EU individuals, encompassing data access and rectification. However, the
+framework presents both promise and challenges in health data transfers. While
+streamlining exchange and aligning legal standards, it grapples with the
+complexities of divergent privacy laws. The recent bill for the introduction of
+a US federal privacy law emphasizes the urgent need for ongoing reform.
+Lingering concerns persist regarding the framework resilience, especially amid
+potential legal battles before the Court of Justice of the EU. The history of
+transatlantic data transfers between the EU and the US is riddled with
+vulnerabilities, reminiscent of the Ouroboros, an ancient symbol of a serpent
+or dragon eating its own tail, hinting at the looming possibility of the
+framework facing invalidation once again. This article delves into the main
+requirements of the framework and offers insights on how healthcare
+organizations can navigate it effectively.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.16929v1">Synthetic Data, Similarity-based Privacy Metrics, and Regulatory
+  (Non-)Compliance</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2024-07-24T01:45:41Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Georgi Ganev</p>
+    <p><b>Summary:</b> In this paper, we argue that similarity-based privacy metrics cannot ensure
+regulatory compliance of synthetic data. Our analysis and counter-examples show
+that they do not protect against singling out and linkability and, among other
+fundamental issues, completely ignore the motivated intruder test.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.16735v1">Theoretical Analysis of Privacy Leakage in Trustworthy Federated
+  Learning: A Perspective from Linear Algebra and Optimization Theory</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
+  <p><b>Published on:</b> 2024-07-23T16:23:38Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xiaojin Zhang, Wei Chen</p>
+    <p><b>Summary:</b> Federated learning has emerged as a promising paradigm for collaborative
+model training while preserving data privacy. However, recent studies have
+shown that it is vulnerable to various privacy attacks, such as data
+reconstruction attacks. In this paper, we provide a theoretical analysis of
+privacy leakage in federated learning from two perspectives: linear algebra and
+optimization theory. From the linear algebra perspective, we prove that when
+the Jacobian matrix of the batch data is not full rank, there exist different
+batches of data that produce the same model update, thereby ensuring a level of
+privacy. We derive a sufficient condition on the batch size to prevent data
+reconstruction attacks. From the optimization theory perspective, we establish
+an upper bound on the privacy leakage in terms of the batch size, the
+distortion extent, and several other factors. Our analysis provides insights
+into the relationship between privacy leakage and various aspects of federated
+learning, offering a theoretical foundation for designing privacy-preserving
+federated learning algorithms.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.16729v1">PateGail: A Privacy-Preserving Mobility Trajectory Generator with
+  Imitation Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-07-23T14:59:23Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Huandong Wang, Changzheng Gao, Yuchen Wu, Depeng Jin, Lina Yao, Yong Li</p>
+    <p><b>Summary:</b> Generating human mobility trajectories is of great importance to solve the
+lack of large-scale trajectory data in numerous applications, which is caused
+by privacy concerns. However, existing mobility trajectory generation methods
+still require real-world human trajectories centrally collected as the training
+data, where there exists an inescapable risk of privacy leakage. To overcome
+this limitation, in this paper, we propose PateGail, a privacy-preserving
+imitation learning model to generate mobility trajectories, which utilizes the
+powerful generative adversary imitation learning model to simulate the
+decision-making process of humans. Further, in order to protect user privacy,
+we train this model collectively based on decentralized mobility data stored in
+user devices, where personal discriminators are trained locally to distinguish
+and reward the real and generated human trajectories. In the training process,
+only the generated trajectories and their rewards obtained based on personal
+discriminators are shared between the server and devices, whose privacy is
+further preserved by our proposed perturbation mechanisms with theoretical
+proof to satisfy differential privacy. Further, to better model the human
+decision-making process, we propose a novel aggregation mechanism of the
+rewards obtained from personal discriminators. We theoretically prove that
+under the reward obtained based on the aggregation mechanism, our proposed
+model maximizes the lower bound of the discounted total rewards of users.
+Extensive experiments show that the trajectories generated by our model are
+able to resemble real-world trajectories in terms of five key statistical
+metrics, outperforming state-of-the-art algorithms by over 48.03%. Furthermore,
+we demonstrate that the synthetic trajectories are able to efficiently support
+practical applications, including mobility prediction and location
+recommendation.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2407.16166v1">Robust Privacy Amidst Innovation with Large Language Models Through a
   Critical Assessment of the Risks</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
@@ -261,7 +375,7 @@ large generative models (LGMs).</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.14710v1">Universally Harmonizing Differential Privacy Mechanisms for Federated
+  <h3><a href="http://arxiv.org/abs/2407.14710v2">Universally Harmonizing Differential Privacy Mechanisms for Federated
   Learning: Boosting Accuracy and Convergence</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2024-07-20T00:11:59Z</p>
@@ -2728,124 +2842,6 @@ of nodes while allowing other nodes to give up their privacy. Furthermore, the
 advantage of the proposed personalized edge-flipping mechanism is also
 supported by its numerical performance on various synthetic networks and a
 real-life multi-layer network.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.14322v2">Mind the Privacy Unit! User-Level Differential Privacy for Language
-  Model Fine-Tuning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-06-20T13:54:32Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Lynn Chua, Badih Ghazi, Yangsibo Huang, Pritish Kamath, Ravi Kumar, Daogao Liu, Pasin Manurangsi, Amer Sinha, Chiyuan Zhang</p>
-    <p><b>Summary:</b> Large language models (LLMs) have emerged as powerful tools for tackling
-complex tasks across diverse domains, but they also raise privacy concerns when
-fine-tuned on sensitive data due to potential memorization. While differential
-privacy (DP) offers a promising solution by ensuring models are 'almost
-indistinguishable' with or without any particular privacy unit, current
-evaluations on LLMs mostly treat each example (text record) as the privacy
-unit. This leads to uneven user privacy guarantees when contributions per user
-vary. We therefore study user-level DP motivated by applications where it
-necessary to ensure uniform privacy protection across users. We present a
-systematic evaluation of user-level DP for LLM fine-tuning on natural language
-generation tasks. Focusing on two mechanisms for achieving user-level DP
-guarantees, Group Privacy and User-wise DP-SGD, we investigate design choices
-like data selection strategies and parameter tuning for the best
-privacy-utility tradeoff.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.14318v1">The Fire Thief Is Also the Keeper: Balancing Usability and Privacy in
-  Prompts</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2024-06-20T13:52:25Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zhili Shen, Zihang Xi, Ying He, Wei Tong, Jingyu Hua, Sheng Zhong</p>
-    <p><b>Summary:</b> The rapid adoption of online chatbots represents a significant advancement in
-artificial intelligence. However, this convenience brings considerable privacy
-concerns, as prompts can inadvertently contain sensitive information exposed to
-large language models (LLMs). Limited by high computational costs, reduced task
-usability, and excessive system modifications, previous works based on local
-deployment, embedding perturbation, and homomorphic encryption are inapplicable
-to online prompt-based LLM applications.
-  To address these issues, this paper introduces Prompt Privacy Sanitizer
-(i.e., ProSan), an end-to-end prompt privacy protection framework that can
-produce anonymized prompts with contextual privacy removed while maintaining
-task usability and human readability. It can also be seamlessly integrated into
-the online LLM service pipeline. To achieve high usability and dynamic
-anonymity, ProSan flexibly adjusts its protection targets and strength based on
-the importance of the words and the privacy leakage risk of the prompts.
-Additionally, ProSan is capable of adapting to diverse computational resource
-conditions, ensuring privacy protection even for mobile devices with limited
-computing power. Our experiments demonstrate that ProSan effectively removes
-private information across various tasks, including question answering, text
-summarization, and code generation, with minimal reduction in task performance.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.14091v1">Protecting Privacy Through Approximating Optimal Parameters for Sequence
-  Unlearning in Language Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2024-06-20T08:12:49Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Dohyun Lee, Daniel Rim, Minseok Choi, Jaegul Choo</p>
-    <p><b>Summary:</b> Although language models (LMs) demonstrate exceptional capabilities on
-various tasks, they are potentially vulnerable to extraction attacks, which
-represent a significant privacy risk. To mitigate the privacy concerns of LMs,
-machine unlearning has emerged as an important research area, which is utilized
-to induce the LM to selectively forget about some of its training data. While
-completely retraining the model will guarantee successful unlearning and
-privacy assurance, it is impractical for LMs, as it would be time-consuming and
-resource-intensive. Prior works efficiently unlearn the target token sequences,
-but upon subsequent iterations, the LM displays significant degradation in
-performance. In this work, we propose Privacy Protection via Optimal Parameters
-(POP), a novel unlearning method that effectively forgets the target token
-sequences from the pretrained LM by applying optimal gradient updates to the
-parameters. Inspired by the gradient derivation of complete retraining, we
-approximate the optimal training objective that successfully unlearns the
-target sequence while retaining the knowledge from the rest of the training
-data. Experimental results demonstrate that POP exhibits remarkable retention
-performance post-unlearning across 9 classification and 4 dialogue benchmarks,
-outperforming the state-of-the-art by a large margin. Furthermore, we introduce
-Remnant Memorization Accuracy that quantifies privacy risks based on token
-likelihood and validate its effectiveness through both qualitative and
-quantitative analyses.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.13880v1">Privacy-Preserving ECG Data Analysis with Differential Privacy: A
-  Literature Review and A Case Study</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-06-19T23:17:16Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Arin Ghazarian, Jianwei Zheng, Cyril Rakovski</p>
-    <p><b>Summary:</b> Differential privacy has become the preeminent technique to protect the
-privacy of individuals in a database while allowing useful results from data
-analysis to be shared. Notably, it guarantees the amount of privacy loss in the
-worst-case scenario. Although many theoretical research papers have been
-published, practical real-life application of differential privacy demands
-estimating several important parameters without any clear solutions or
-guidelines. In the first part of the paper, we provide an overview of key
-concepts in differential privacy, followed by a literature review and
-discussion of its application to ECG analysis. In the second part of the paper,
-we explore how to implement differentially private query release on an
-arrhythmia database using a six-step process. We provide guidelines and discuss
-the related literature for all the steps involved, such as selection of the
-$\epsilon$ value, distribution of the total $\epsilon$ budget across the
-queries, and estimation of the sensitivity for the query functions. At the end,
-we discuss the shortcomings and challenges of applying differential privacy to
-ECG datasets.</p>
   </details>
 </div>
 
