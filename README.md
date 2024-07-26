@@ -2,6 +2,104 @@
 <h2>2024-07</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.18157v1">Enhanced Privacy Bound for Shuffle Model with Personalized Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
+  <p><b>Published on:</b> 2024-07-25T16:11:56Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yixuan Liu, Yuhan Liu, Li Xiong, Yujie Gu, Hong Chen</p>
+    <p><b>Summary:</b> The shuffle model of Differential Privacy (DP) is an enhanced privacy
+protocol which introduces an intermediate trusted server between local users
+and a central data curator. It significantly amplifies the central DP guarantee
+by anonymizing and shuffling the local randomized data. Yet, deriving a tight
+privacy bound is challenging due to its complicated randomization protocol.
+While most existing work are focused on unified local privacy settings, this
+work focuses on deriving the central privacy bound for a more practical setting
+where personalized local privacy is required by each user. To bound the privacy
+after shuffling, we first need to capture the probability of each user
+generating clones of the neighboring data points. Second, we need to quantify
+the indistinguishability between two distributions of the number of clones on
+neighboring datasets. Existing works either inaccurately capture the
+probability, or underestimate the indistinguishability between neighboring
+datasets. Motivated by this, we develop a more precise analysis, which yields a
+general and tighter bound for arbitrary DP mechanisms. Firstly, we derive the
+clone-generating probability by hypothesis testing %from a randomizer-specific
+perspective, which leads to a more accurate characterization of the
+probability. Secondly, we analyze the indistinguishability in the context of
+$f$-DP, where the convexity of the distributions is leveraged to achieve a
+tighter privacy bound. Theoretical and numerical results demonstrate that our
+bound remarkably outperforms the existing results in the literature.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.18096v1">Privacy Threats and Countermeasures in Federated Learning for Internet
+  of Things: A Systematic Review</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-07-25T15:01:56Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Adel ElZemity, Budi Arief</p>
+    <p><b>Summary:</b> Federated Learning (FL) in the Internet of Things (IoT) environments can
+enhance machine learning by utilising decentralised data, but at the same time,
+it might introduce significant privacy and security concerns due to the
+constrained nature of IoT devices. This represents a research challenge that we
+aim to address in this paper. We systematically analysed recent literature to
+identify privacy threats in FL within IoT environments, and evaluate the
+defensive measures that can be employed to mitigate these threats. Using a
+Systematic Literature Review (SLR) approach, we searched five publication
+databases (Scopus, IEEE Xplore, Wiley, ACM, and Science Direct), collating
+relevant papers published between 2017 and April 2024, a period which spans
+from the introduction of FL until now. Guided by the PRISMA protocol, we
+selected 49 papers to focus our systematic review on. We analysed these papers,
+paying special attention to the privacy threats and defensive measures --
+specifically within the context of IoT -- using inclusion and exclusion
+criteria tailored to highlight recent advances and critical insights. We
+identified various privacy threats, including inference attacks, poisoning
+attacks, and eavesdropping, along with defensive measures such as Differential
+Privacy and Secure Multi-Party Computation. These defences were evaluated for
+their effectiveness in protecting privacy without compromising the functional
+integrity of FL in IoT settings. Our review underscores the necessity for
+robust and efficient privacy-preserving strategies tailored for IoT
+environments. Notably, there is a need for strategies against replay, evasion,
+and model stealing attacks. Exploring lightweight defensive measures and
+emerging technologies such as blockchain may help improve the privacy of FL in
+IoT, leading to the creation of FL models that can operate under variable
+network conditions.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.17663v1">Explaining the Model, Protecting Your Data: Revealing and Mitigating the
+  Data Privacy Risks of Post-Hoc Model Explanations via Membership Inference</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-07-24T22:16:37Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Catherine Huang, Martin Pawelczyk, Himabindu Lakkaraju</p>
+    <p><b>Summary:</b> Predictive machine learning models are becoming increasingly deployed in
+high-stakes contexts involving sensitive personal data; in these contexts,
+there is a trade-off between model explainability and data privacy. In this
+work, we push the boundaries of this trade-off: with a focus on foundation
+models for image classification fine-tuning, we reveal unforeseen privacy risks
+of post-hoc model explanations and subsequently offer mitigation strategies for
+such risks. First, we construct VAR-LRT and L1/L2-LRT, two new membership
+inference attacks based on feature attribution explanations that are
+significantly more successful than existing explanation-leveraging attacks,
+particularly in the low false-positive rate regime that allows an adversary to
+identify specific training set members with confidence. Second, we find
+empirically that optimized differentially private fine-tuning substantially
+diminishes the success of the aforementioned attacks, while maintaining high
+model accuracy. We carry out a systematic empirical investigation of our 2 new
+attacks with 5 vision transformer architectures, 5 benchmark datasets, 4
+state-of-the-art post-hoc explanation methods, and 4 privacy strength settings.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2407.17021v1">The EU-US Data Privacy Framework: Is the Dragon Eating its Own Tail?</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
   <p><b>Published on:</b> 2024-07-24T06:00:47Z</p>
@@ -2749,99 +2847,6 @@ future API updates, including novel general upper-bounds that account for
 adversaries with access to unknown, arbitrary side information, the value of
 the differential privacy parameter $\epsilon$, and experimental results on
 real-world data that validate our theoretical model.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.15074v1">Balancing The Perception of Cheating Detection, Privacy and Fairness: A
-  Mixed-Methods Study of Visual Data Obfuscation in Remote Proctoring</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2024-06-21T11:40:56Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Suvadeep Mukherjee, Verena Distler, Gabriele Lenzini, Pedro Cardoso-Leite</p>
-    <p><b>Summary:</b> Remote proctoring technology, a cheating-preventive measure, often raises
-privacy and fairness concerns that may affect test-takers' experiences and the
-validity of test results. Our study explores how selectively obfuscating
-information in video recordings can protect test-takers' privacy while ensuring
-effective and fair cheating detection. Interviews with experts (N=9) identified
-four key video regions indicative of potential cheating behaviors: the
-test-taker's face, body, background and the presence of individuals in the
-background. Experts recommended specific obfuscation methods for each region
-based on privacy significance and cheating behavior frequency, ranging from
-conventional blurring to advanced methods like replacement with deepfake, 3D
-avatars and silhouetting. We then conducted a vignette experiment with
-potential test-takers (N=259, non-experts) to evaluate their perceptions of
-cheating detection, visual privacy and fairness, using descriptions and
-examples of still images for each expert-recommended combination of video
-regions and obfuscation methods. Our results indicate that the effectiveness of
-obfuscation methods varies by region. Tailoring remote proctoring with
-region-specific advanced obfuscation methods can improve the perceptions of
-privacy and fairness compared to the conventional methods, though it may
-decrease perceived information sufficiency for detecting cheating. However,
-non-experts preferred conventional blurring for videos they were more willing
-to share, highlighting a gap between the perceived effectiveness of the
-advanced obfuscation methods and their practical acceptance. This study
-contributes to the field of user-centered privacy by suggesting promising
-directions to address current remote proctoring challenges and guiding future
-research.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.14773v1">Mitigating the Privacy Issues in Retrieval-Augmented Generation (RAG)
-  via Pure Synthetic Data</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-06-20T22:53:09Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shenglai Zeng, Jiankun Zhang, Pengfei He, Jie Ren, Tianqi Zheng, Hanqing Lu, Han Xu, Hui Liu, Yue Xing, Jiliang Tang</p>
-    <p><b>Summary:</b> Retrieval-augmented generation (RAG) enhances the outputs of language models
-by integrating relevant information retrieved from external knowledge sources.
-However, when the retrieval process involves private data, RAG systems may face
-severe privacy risks, potentially leading to the leakage of sensitive
-information. To address this issue, we propose using synthetic data as a
-privacy-preserving alternative for the retrieval data. We propose SAGE, a novel
-two-stage synthetic data generation paradigm. In the stage-1, we employ an
-attribute-based extraction and generation approach to preserve key contextual
-information from the original data. In the stage-2, we further enhance the
-privacy properties of the synthetic data through an agent-based iterative
-refinement process. Extensive experiments demonstrate that using our synthetic
-data as the retrieval context achieves comparable performance to using the
-original data while substantially reducing privacy risks. Our work takes the
-first step towards investigating the possibility of generating high-utility and
-privacy-preserving synthetic data for RAG, opening up new opportunities for the
-safe application of RAG systems in various domains.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.14772v1">Consistent community detection in multi-layer networks with
-  heterogeneous differential privacy</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Social and Information Networks-662E9B">
-  <p><b>Published on:</b> 2024-06-20T22:49:55Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yaoming Zhen, Shirong Xu, Junhui Wang</p>
-    <p><b>Summary:</b> As network data has become increasingly prevalent, a substantial amount of
-attention has been paid to the privacy issue in publishing network data. One of
-the critical challenges for data publishers is to preserve the topological
-structures of the original network while protecting sensitive information. In
-this paper, we propose a personalized edge flipping mechanism that allows data
-publishers to protect edge information based on each node's privacy preference.
-It can achieve differential privacy while preserving the community structure
-under the multi-layer degree-corrected stochastic block model after
-appropriately debiasing, and thus consistent community detection in the
-privatized multi-layer networks is achievable. Theoretically, we establish the
-consistency of community detection in the privatized multi-layer network and
-show that better privacy protection of edges can be obtained for a proportion
-of nodes while allowing other nodes to give up their privacy. Furthermore, the
-advantage of the proposed personalized edge-flipping mechanism is also
-supported by its numerical performance on various synthetic networks and a
-real-life multi-layer network.</p>
   </details>
 </div>
 
