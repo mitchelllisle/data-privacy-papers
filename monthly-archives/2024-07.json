@@ -2122,5 +2122,73 @@
       "cs.LG",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.18157v1",
+    "title" : "Enhanced Privacy Bound for Shuffle Model with Personalized Privacy",
+    "summary" : "The shuffle model of Differential Privacy (DP) is an enhanced privacy\nprotocol which introduces an intermediate trusted server between local users\nand a central data curator. It significantly amplifies the central DP guarantee\nby anonymizing and shuffling the local randomized data. Yet, deriving a tight\nprivacy bound is challenging due to its complicated randomization protocol.\nWhile most existing work are focused on unified local privacy settings, this\nwork focuses on deriving the central privacy bound for a more practical setting\nwhere personalized local privacy is required by each user. To bound the privacy\nafter shuffling, we first need to capture the probability of each user\ngenerating clones of the neighboring data points. Second, we need to quantify\nthe indistinguishability between two distributions of the number of clones on\nneighboring datasets. Existing works either inaccurately capture the\nprobability, or underestimate the indistinguishability between neighboring\ndatasets. Motivated by this, we develop a more precise analysis, which yields a\ngeneral and tighter bound for arbitrary DP mechanisms. Firstly, we derive the\nclone-generating probability by hypothesis testing %from a randomizer-specific\nperspective, which leads to a more accurate characterization of the\nprobability. Secondly, we analyze the indistinguishability in the context of\n$f$-DP, where the convexity of the distributions is leveraged to achieve a\ntighter privacy bound. Theoretical and numerical results demonstrate that our\nbound remarkably outperforms the existing results in the literature.",
+    "updated" : "2024-07-25T16:11:56Z",
+    "published" : "2024-07-25T16:11:56Z",
+    "authors" : [
+      {
+        "name" : "Yixuan Liu"
+      },
+      {
+        "name" : "Yuhan Liu"
+      },
+      {
+        "name" : "Li Xiong"
+      },
+      {
+        "name" : "Yujie Gu"
+      },
+      {
+        "name" : "Hong Chen"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DB"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.18096v1",
+    "title" : "Privacy Threats and Countermeasures in Federated Learning for Internet\n  of Things: A Systematic Review",
+    "summary" : "Federated Learning (FL) in the Internet of Things (IoT) environments can\nenhance machine learning by utilising decentralised data, but at the same time,\nit might introduce significant privacy and security concerns due to the\nconstrained nature of IoT devices. This represents a research challenge that we\naim to address in this paper. We systematically analysed recent literature to\nidentify privacy threats in FL within IoT environments, and evaluate the\ndefensive measures that can be employed to mitigate these threats. Using a\nSystematic Literature Review (SLR) approach, we searched five publication\ndatabases (Scopus, IEEE Xplore, Wiley, ACM, and Science Direct), collating\nrelevant papers published between 2017 and April 2024, a period which spans\nfrom the introduction of FL until now. Guided by the PRISMA protocol, we\nselected 49 papers to focus our systematic review on. We analysed these papers,\npaying special attention to the privacy threats and defensive measures --\nspecifically within the context of IoT -- using inclusion and exclusion\ncriteria tailored to highlight recent advances and critical insights. We\nidentified various privacy threats, including inference attacks, poisoning\nattacks, and eavesdropping, along with defensive measures such as Differential\nPrivacy and Secure Multi-Party Computation. These defences were evaluated for\ntheir effectiveness in protecting privacy without compromising the functional\nintegrity of FL in IoT settings. Our review underscores the necessity for\nrobust and efficient privacy-preserving strategies tailored for IoT\nenvironments. Notably, there is a need for strategies against replay, evasion,\nand model stealing attacks. Exploring lightweight defensive measures and\nemerging technologies such as blockchain may help improve the privacy of FL in\nIoT, leading to the creation of FL models that can operate under variable\nnetwork conditions.",
+    "updated" : "2024-07-25T15:01:56Z",
+    "published" : "2024-07-25T15:01:56Z",
+    "authors" : [
+      {
+        "name" : "Adel ElZemity"
+      },
+      {
+        "name" : "Budi Arief"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.17663v1",
+    "title" : "Explaining the Model, Protecting Your Data: Revealing and Mitigating the\n  Data Privacy Risks of Post-Hoc Model Explanations via Membership Inference",
+    "summary" : "Predictive machine learning models are becoming increasingly deployed in\nhigh-stakes contexts involving sensitive personal data; in these contexts,\nthere is a trade-off between model explainability and data privacy. In this\nwork, we push the boundaries of this trade-off: with a focus on foundation\nmodels for image classification fine-tuning, we reveal unforeseen privacy risks\nof post-hoc model explanations and subsequently offer mitigation strategies for\nsuch risks. First, we construct VAR-LRT and L1/L2-LRT, two new membership\ninference attacks based on feature attribution explanations that are\nsignificantly more successful than existing explanation-leveraging attacks,\nparticularly in the low false-positive rate regime that allows an adversary to\nidentify specific training set members with confidence. Second, we find\nempirically that optimized differentially private fine-tuning substantially\ndiminishes the success of the aforementioned attacks, while maintaining high\nmodel accuracy. We carry out a systematic empirical investigation of our 2 new\nattacks with 5 vision transformer architectures, 5 benchmark datasets, 4\nstate-of-the-art post-hoc explanation methods, and 4 privacy strength settings.",
+    "updated" : "2024-07-24T22:16:37Z",
+    "published" : "2024-07-24T22:16:37Z",
+    "authors" : [
+      {
+        "name" : "Catherine Huang"
+      },
+      {
+        "name" : "Martin Pawelczyk"
+      },
+      {
+        "name" : "Himabindu Lakkaraju"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
