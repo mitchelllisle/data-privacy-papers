@@ -2190,5 +2190,167 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.18789v1",
+    "title" : "Granularity is crucial when applying differential privacy to text: An\n  investigation for neural machine translation",
+    "summary" : "Applying differential privacy (DP) by means of the DP-SGD algorithm to\nprotect individual data points during training is becoming increasingly popular\nin NLP. However, the choice of granularity at which DP is applied is often\nneglected. For example, neural machine translation (NMT) typically operates on\nthe sentence-level granularity. From the perspective of DP, this setup assumes\nthat each sentence belongs to a single person and any two sentences in the\ntraining dataset are independent. This assumption is however violated in many\nreal-world NMT datasets, e.g. those including dialogues. For proper application\nof DP we thus must shift from sentences to entire documents. In this paper, we\ninvestigate NMT at both the sentence and document levels, analyzing the\nprivacy/utility trade-off for both scenarios, and evaluating the risks of not\nusing the appropriate privacy granularity in terms of leaking personally\nidentifiable information (PII). Our findings indicate that the document-level\nNMT system is more resistant to membership inference attacks, emphasizing the\nsignificance of using the appropriate granularity when working with DP.",
+    "updated" : "2024-07-26T14:52:37Z",
+    "published" : "2024-07-26T14:52:37Z",
+    "authors" : [
+      {
+        "name" : "Doan Nam Long Vu"
+      },
+      {
+        "name" : "Timour Igamberdiev"
+      },
+      {
+        "name" : "Ivan Habernal"
+      }
+    ],
+    "categories" : [
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.18564v1",
+    "title" : "Unveiling Privacy Vulnerabilities: Investigating the Role of Structure\n  in Graph Data",
+    "summary" : "The public sharing of user information opens the door for adversaries to\ninfer private data, leading to privacy breaches and facilitating malicious\nactivities. While numerous studies have concentrated on privacy leakage via\npublic user attributes, the threats associated with the exposure of user\nrelationships, particularly through network structure, are often neglected.\nThis study aims to fill this critical gap by advancing the understanding and\nprotection against privacy risks emanating from network structure, moving\nbeyond direct connections with neighbors to include the broader implications of\nindirect network structural patterns. To achieve this, we first investigate the\nproblem of Graph Privacy Leakage via Structure (GPS), and introduce a novel\nmeasure, the Generalized Homophily Ratio, to quantify the various mechanisms\ncontributing to privacy breach risks in GPS. Based on this insight, we develop\na novel graph private attribute inference attack, which acts as a pivotal tool\nfor evaluating the potential for privacy leakage through network structures\nunder worst-case scenarios. To protect users' private data from such\nvulnerabilities, we propose a graph data publishing method incorporating a\nlearnable graph sampling technique, effectively transforming the original graph\ninto a privacy-preserving version. Extensive experiments demonstrate that our\nattack model poses a significant threat to user privacy, and our graph data\npublishing method successfully achieves the optimal privacy-utility trade-off\ncompared to baselines.",
+    "updated" : "2024-07-26T07:40:54Z",
+    "published" : "2024-07-26T07:40:54Z",
+    "authors" : [
+      {
+        "name" : "Hanyang Yuan"
+      },
+      {
+        "name" : "Jiarong Xu"
+      },
+      {
+        "name" : "Cong Wang"
+      },
+      {
+        "name" : "Ziqi Yang"
+      },
+      {
+        "name" : "Chunping Wang"
+      },
+      {
+        "name" : "Keting Yin"
+      },
+      {
+        "name" : "Yang Yang"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.SI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.18503v1",
+    "title" : "Homomorphic Encryption-Enabled Federated Learning for Privacy-Preserving\n  Intrusion Detection in Resource-Constrained IoV Networks",
+    "summary" : "This paper aims to propose a novel framework to address the data privacy\nissue for Federated Learning (FL)-based Intrusion Detection Systems (IDSs) in\nInternet-of-Vehicles(IoVs) with limited computational resources. In particular,\nin conventional FL systems, it is usually assumed that the computing nodes have\nsufficient computational resources to process the training tasks. However, in\npractical IoV systems, vehicles usually have limited computational resources to\nprocess intensive training tasks, compromising the effectiveness of deploying\nFL in IDSs. While offloading data from vehicles to the cloud can mitigate this\nissue, it introduces significant privacy concerns for vehicle users (VUs). To\nresolve this issue, we first propose a highly-effective framework using\nhomomorphic encryption to secure data that requires offloading to a centralized\nserver for processing. Furthermore, we develop an effective training algorithm\ntailored to handle the challenges of FL-based systems with encrypted data. This\nalgorithm allows the centralized server to directly compute on quantum-secure\nencrypted ciphertexts without needing decryption. This approach not only\nsafeguards data privacy during the offloading process from VUs to the\ncentralized server but also enhances the efficiency of utilizing FL for IDSs in\nIoV systems. Our simulation results show that our proposed approach can achieve\na performance that is as close to that of the solution without encryption, with\na gap of less than 0.8%.",
+    "updated" : "2024-07-26T04:19:37Z",
+    "published" : "2024-07-26T04:19:37Z",
+    "authors" : [
+      {
+        "name" : "Bui Duc Manh"
+      },
+      {
+        "name" : "Chi-Hieu Nguyen"
+      },
+      {
+        "name" : "Dinh Thai Hoang"
+      },
+      {
+        "name" : "Diep N. Nguyen"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.18433v1",
+    "title" : "Investigating the Privacy Risk of Using Robot Vacuum Cleaners in Smart\n  Environments",
+    "summary" : "Robot vacuum cleaners have become increasingly popular and are widely used in\nvarious smart environments. To improve user convenience, manufacturers also\nintroduced smartphone applications that enable users to customize cleaning\nsettings or access information about their robot vacuum cleaners. While this\nintegration enhances the interaction between users and their robot vacuum\ncleaners, it results in potential privacy concerns because users' personal\ninformation may be exposed. To address these concerns, end-to-end encryption is\nimplemented between the application, cloud service, and robot vacuum cleaners\nto secure the exchanged information. Nevertheless, network header metadata\nremains unencrypted and it is still vulnerable to network eavesdropping. In\nthis paper, we investigate the potential risk of private information exposure\nthrough such metadata. A popular robot vacuum cleaner was deployed in a real\nsmart environment where passive network eavesdropping was conducted during\nseveral selected cleaning events. Our extensive analysis, based on Association\nRule Learning, demonstrates that it is feasible to identify certain events\nusing only the captured Internet traffic metadata, thereby potentially exposing\nprivate user information and raising privacy concerns.",
+    "updated" : "2024-07-26T00:00:53Z",
+    "published" : "2024-07-26T00:00:53Z",
+    "authors" : [
+      {
+        "name" : "Benjamin Ulsmaag"
+      },
+      {
+        "name" : "Jia-Chun Lin"
+      },
+      {
+        "name" : "Ming-Chang Lee"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.18353v1",
+    "title" : "Privacy-Preserving Model-Distributed Inference at the Edge",
+    "summary" : "This paper focuses on designing a privacy-preserving Machine Learning (ML)\ninference protocol for a hierarchical setup, where clients own/generate data,\nmodel owners (cloud servers) have a pre-trained ML model, and edge servers\nperform ML inference on clients' data using the cloud server's ML model. Our\ngoal is to speed up ML inference while providing privacy to both data and the\nML model. Our approach (i) uses model-distributed inference (model\nparallelization) at the edge servers and (ii) reduces the amount of\ncommunication to/from the cloud server. Our privacy-preserving hierarchical\nmodel-distributed inference, privateMDI design uses additive secret sharing and\nlinearly homomorphic encryption to handle linear calculations in the ML\ninference, and garbled circuit and a novel three-party oblivious transfer are\nused to handle non-linear functions. privateMDI consists of offline and online\nphases. We designed these phases in a way that most of the data exchange is\ndone in the offline phase while the communication overhead of the online phase\nis reduced. In particular, there is no communication to/from the cloud server\nin the online phase, and the amount of communication between the client and\nedge servers is minimized. The experimental results demonstrate that privateMDI\nsignificantly reduces the ML inference time as compared to the baselines.",
+    "updated" : "2024-07-25T19:39:03Z",
+    "published" : "2024-07-25T19:39:03Z",
+    "authors" : [
+      {
+        "name" : "Fatemeh Jafarian Dehkordi"
+      },
+      {
+        "name" : "Yasaman Keshtkarjahromi"
+      },
+      {
+        "name" : "Hulya Seferoglu"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.17663v1",
+    "title" : "Explaining the Model, Protecting Your Data: Revealing and Mitigating the\n  Data Privacy Risks of Post-Hoc Model Explanations via Membership Inference",
+    "summary" : "Predictive machine learning models are becoming increasingly deployed in\nhigh-stakes contexts involving sensitive personal data; in these contexts,\nthere is a trade-off between model explainability and data privacy. In this\nwork, we push the boundaries of this trade-off: with a focus on foundation\nmodels for image classification fine-tuning, we reveal unforeseen privacy risks\nof post-hoc model explanations and subsequently offer mitigation strategies for\nsuch risks. First, we construct VAR-LRT and L1/L2-LRT, two new membership\ninference attacks based on feature attribution explanations that are\nsignificantly more successful than existing explanation-leveraging attacks,\nparticularly in the low false-positive rate regime that allows an adversary to\nidentify specific training set members with confidence. Second, we find\nempirically that optimized differentially private fine-tuning substantially\ndiminishes the success of the aforementioned attacks, while maintaining high\nmodel accuracy. We carry out a systematic empirical investigation of our 2 new\nattacks with 5 vision transformer architectures, 5 benchmark datasets, 4\nstate-of-the-art post-hoc explanation methods, and 4 privacy strength settings.",
+    "updated" : "2024-07-24T22:16:37Z",
+    "published" : "2024-07-24T22:16:37Z",
+    "authors" : [
+      {
+        "name" : "Catherine Huang"
+      },
+      {
+        "name" : "Martin Pawelczyk"
+      },
+      {
+        "name" : "Himabindu Lakkaraju"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.16929v2",
+    "title" : "Synthetic Data, Similarity-based Privacy Metrics, and Regulatory\n  (Non-)Compliance",
+    "summary" : "In this paper, we argue that similarity-based privacy metrics cannot ensure\nregulatory compliance of synthetic data. Our analysis and counter-examples show\nthat they do not protect against singling out and linkability and, among other\nfundamental issues, completely ignore the motivated intruder test.",
+    "updated" : "2024-07-26T03:30:05Z",
+    "published" : "2024-07-24T01:45:41Z",
+    "authors" : [
+      {
+        "name" : "Georgi Ganev"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.CY"
+    ]
   }
 ]
