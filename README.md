@@ -2,6 +2,156 @@
 <h2>2024-07</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.18789v1">Granularity is crucial when applying differential privacy to text: An
+  investigation for neural machine translation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2024-07-26T14:52:37Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Doan Nam Long Vu, Timour Igamberdiev, Ivan Habernal</p>
+    <p><b>Summary:</b> Applying differential privacy (DP) by means of the DP-SGD algorithm to
+protect individual data points during training is becoming increasingly popular
+in NLP. However, the choice of granularity at which DP is applied is often
+neglected. For example, neural machine translation (NMT) typically operates on
+the sentence-level granularity. From the perspective of DP, this setup assumes
+that each sentence belongs to a single person and any two sentences in the
+training dataset are independent. This assumption is however violated in many
+real-world NMT datasets, e.g. those including dialogues. For proper application
+of DP we thus must shift from sentences to entire documents. In this paper, we
+investigate NMT at both the sentence and document levels, analyzing the
+privacy/utility trade-off for both scenarios, and evaluating the risks of not
+using the appropriate privacy granularity in terms of leaking personally
+identifiable information (PII). Our findings indicate that the document-level
+NMT system is more resistant to membership inference attacks, emphasizing the
+significance of using the appropriate granularity when working with DP.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.18564v1">Unveiling Privacy Vulnerabilities: Investigating the Role of Structure
+  in Graph Data</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Social and Information Networks-662E9B">
+  <p><b>Published on:</b> 2024-07-26T07:40:54Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Hanyang Yuan, Jiarong Xu, Cong Wang, Ziqi Yang, Chunping Wang, Keting Yin, Yang Yang</p>
+    <p><b>Summary:</b> The public sharing of user information opens the door for adversaries to
+infer private data, leading to privacy breaches and facilitating malicious
+activities. While numerous studies have concentrated on privacy leakage via
+public user attributes, the threats associated with the exposure of user
+relationships, particularly through network structure, are often neglected.
+This study aims to fill this critical gap by advancing the understanding and
+protection against privacy risks emanating from network structure, moving
+beyond direct connections with neighbors to include the broader implications of
+indirect network structural patterns. To achieve this, we first investigate the
+problem of Graph Privacy Leakage via Structure (GPS), and introduce a novel
+measure, the Generalized Homophily Ratio, to quantify the various mechanisms
+contributing to privacy breach risks in GPS. Based on this insight, we develop
+a novel graph private attribute inference attack, which acts as a pivotal tool
+for evaluating the potential for privacy leakage through network structures
+under worst-case scenarios. To protect users' private data from such
+vulnerabilities, we propose a graph data publishing method incorporating a
+learnable graph sampling technique, effectively transforming the original graph
+into a privacy-preserving version. Extensive experiments demonstrate that our
+attack model poses a significant threat to user privacy, and our graph data
+publishing method successfully achieves the optimal privacy-utility trade-off
+compared to baselines.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.18503v1">Homomorphic Encryption-Enabled Federated Learning for Privacy-Preserving
+  Intrusion Detection in Resource-Constrained IoV Networks</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-07-26T04:19:37Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Bui Duc Manh, Chi-Hieu Nguyen, Dinh Thai Hoang, Diep N. Nguyen</p>
+    <p><b>Summary:</b> This paper aims to propose a novel framework to address the data privacy
+issue for Federated Learning (FL)-based Intrusion Detection Systems (IDSs) in
+Internet-of-Vehicles(IoVs) with limited computational resources. In particular,
+in conventional FL systems, it is usually assumed that the computing nodes have
+sufficient computational resources to process the training tasks. However, in
+practical IoV systems, vehicles usually have limited computational resources to
+process intensive training tasks, compromising the effectiveness of deploying
+FL in IDSs. While offloading data from vehicles to the cloud can mitigate this
+issue, it introduces significant privacy concerns for vehicle users (VUs). To
+resolve this issue, we first propose a highly-effective framework using
+homomorphic encryption to secure data that requires offloading to a centralized
+server for processing. Furthermore, we develop an effective training algorithm
+tailored to handle the challenges of FL-based systems with encrypted data. This
+algorithm allows the centralized server to directly compute on quantum-secure
+encrypted ciphertexts without needing decryption. This approach not only
+safeguards data privacy during the offloading process from VUs to the
+centralized server but also enhances the efficiency of utilizing FL for IDSs in
+IoV systems. Our simulation results show that our proposed approach can achieve
+a performance that is as close to that of the solution without encryption, with
+a gap of less than 0.8%.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.18433v1">Investigating the Privacy Risk of Using Robot Vacuum Cleaners in Smart
+  Environments</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-07-26T00:00:53Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Benjamin Ulsmaag, Jia-Chun Lin, Ming-Chang Lee</p>
+    <p><b>Summary:</b> Robot vacuum cleaners have become increasingly popular and are widely used in
+various smart environments. To improve user convenience, manufacturers also
+introduced smartphone applications that enable users to customize cleaning
+settings or access information about their robot vacuum cleaners. While this
+integration enhances the interaction between users and their robot vacuum
+cleaners, it results in potential privacy concerns because users' personal
+information may be exposed. To address these concerns, end-to-end encryption is
+implemented between the application, cloud service, and robot vacuum cleaners
+to secure the exchanged information. Nevertheless, network header metadata
+remains unencrypted and it is still vulnerable to network eavesdropping. In
+this paper, we investigate the potential risk of private information exposure
+through such metadata. A popular robot vacuum cleaner was deployed in a real
+smart environment where passive network eavesdropping was conducted during
+several selected cleaning events. Our extensive analysis, based on Association
+Rule Learning, demonstrates that it is feasible to identify certain events
+using only the captured Internet traffic metadata, thereby potentially exposing
+private user information and raising privacy concerns.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.18353v1">Privacy-Preserving Model-Distributed Inference at the Edge</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-07-25T19:39:03Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Fatemeh Jafarian Dehkordi, Yasaman Keshtkarjahromi, Hulya Seferoglu</p>
+    <p><b>Summary:</b> This paper focuses on designing a privacy-preserving Machine Learning (ML)
+inference protocol for a hierarchical setup, where clients own/generate data,
+model owners (cloud servers) have a pre-trained ML model, and edge servers
+perform ML inference on clients' data using the cloud server's ML model. Our
+goal is to speed up ML inference while providing privacy to both data and the
+ML model. Our approach (i) uses model-distributed inference (model
+parallelization) at the edge servers and (ii) reduces the amount of
+communication to/from the cloud server. Our privacy-preserving hierarchical
+model-distributed inference, privateMDI design uses additive secret sharing and
+linearly homomorphic encryption to handle linear calculations in the ML
+inference, and garbled circuit and a novel three-party oblivious transfer are
+used to handle non-linear functions. privateMDI consists of offline and online
+phases. We designed these phases in a way that most of the data exchange is
+done in the offline phase while the communication overhead of the online phase
+is reduced. In particular, there is no communication to/from the cloud server
+in the online phase, and the amount of communication between the client and
+edge servers is minimized. The experimental results demonstrate that privateMDI
+significantly reduces the ML inference time as compared to the baselines.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2407.18157v1">Enhanced Privacy Bound for Shuffle Model with Personalized Privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
   <p><b>Published on:</b> 2024-07-25T16:11:56Z</p>
@@ -74,7 +224,7 @@ network conditions.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2407.17663v1">Explaining the Model, Protecting Your Data: Revealing and Mitigating the
   Data Privacy Risks of Post-Hoc Model Explanations via Membership Inference</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2024-07-24T22:16:37Z</p>
   <details>
     <summary>More Details</summary>
@@ -133,7 +283,7 @@ organizations can navigate it effectively.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.16929v1">Synthetic Data, Similarity-based Privacy Metrics, and Regulatory
+  <h3><a href="http://arxiv.org/abs/2407.16929v2">Synthetic Data, Similarity-based Privacy Metrics, and Regulatory
   (Non-)Compliance</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
   <p><b>Published on:</b> 2024-07-24T01:45:41Z</p>
@@ -2704,149 +2854,6 @@ patient care. Patient records contain highly sensitive information, such as
 social security numbers (SSNs) and residential addresses, which introduces a
 need to apply privacy-preserving techniques for these ML models using federated
 learning and differential privacy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.15842v1">Privacy Requirements and Realities of Digital Public Goods</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2024-06-22T13:06:13Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Geetika Gopi, Aadyaa Maddi, Omkhar Arasaratnam, Giulia Fanti</p>
-    <p><b>Summary:</b> In the international development community, the term "digital public goods"
-is used to describe open-source digital products (e.g., software, datasets)
-that aim to address the United Nations (UN) Sustainable Development Goals. DPGs
-are increasingly being used to deliver government services around the world
-(e.g., ID management, healthcare registration). Because DPGs may handle
-sensitive data, the UN has established user privacy as a first-order
-requirement for DPGs. The privacy risks of DPGs are currently managed in part
-by the DPG standard, which includes a prerequisite questionnaire with questions
-designed to evaluate a DPG's privacy posture.
-  This study examines the effectiveness of the current DPG standard for
-ensuring adequate privacy protections. We present a systematic assessment of
-responses from DPGs regarding their protections of users' privacy. We also
-present in-depth case studies from three widely-used DPGs to identify privacy
-threats and compare this to their responses to the DPG standard. Our findings
-reveal limitations in the current DPG standard's evaluation approach. We
-conclude by presenting preliminary recommendations and suggestions for
-strengthening the DPG standard as it relates to privacy. Additionally, we hope
-this study encourages more usable privacy research on communicating privacy,
-not only to end users but also third-party adopters of user-facing
-technologies.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.15789v1">Privacy Implications of Explainable AI in Data-Driven Systems</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-06-22T08:51:58Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Fatima Ezzeddine</p>
-    <p><b>Summary:</b> Machine learning (ML) models, demonstrably powerful, suffer from a lack of
-interpretability. The absence of transparency, often referred to as the black
-box nature of ML models, undermines trust and urges the need for efforts to
-enhance their explainability. Explainable AI (XAI) techniques address this
-challenge by providing frameworks and methods to explain the internal
-decision-making processes of these complex models. Techniques like
-Counterfactual Explanations (CF) and Feature Importance play a crucial role in
-achieving this goal. Furthermore, high-quality and diverse data remains the
-foundational element for robust and trustworthy ML applications. In many
-applications, the data used to train ML and XAI explainers contain sensitive
-information. In this context, numerous privacy-preserving techniques can be
-employed to safeguard sensitive information in the data, such as differential
-privacy. Subsequently, a conflict between XAI and privacy solutions emerges due
-to their opposing goals. Since XAI techniques provide reasoning for the model
-behavior, they reveal information relative to ML models, such as their decision
-boundaries, the values of features, or the gradients of deep learning models
-when explanations are exposed to a third entity. Attackers can initiate privacy
-breaching attacks using these explanations, to perform model extraction,
-inference, and membership attacks. This dilemma underscores the challenge of
-finding the right equilibrium between understanding ML decision-making and
-safeguarding privacy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.15655v1">ProBE: Proportioning Privacy Budget for Complex Exploratory Decision
-  Support</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
-  <p><b>Published on:</b> 2024-06-21T21:20:57Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Nada Lahjouji, Sameera Ghayyur, Xi He, Sharad Mehrotra</p>
-    <p><b>Summary:</b> This paper studies privacy in the context of complex decision support queries
-composed of multiple conditions on different aggregate statistics combined
-using disjunction and conjunction operators. Utility requirements for such
-queries necessitate the need for private mechanisms that guarantee a bound on
-the false negative and false positive errors. This paper formally defines
-complex decision support queries and their accuracy requirements, and provides
-algorithms that proportion the existing budget to optimally minimize privacy
-loss while supporting a bounded guarantee on the accuracy. Our experimental
-results on multiple real-life datasets show that our algorithms successfully
-maintain such utility guarantees, while also minimizing privacy loss.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.15346v1">Privacy Preserved Blood Glucose Level Cross-Prediction: An Asynchronous
-  Decentralized Federated Learning Approach</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2024-06-21T17:57:39Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Chengzhe Piao, Taiyu Zhu, Yu Wang, Stephanie E Baldeweg, Paul Taylor, Pantelis Georgiou, Jiahao Sun, Jun Wang, Kezhi Li</p>
-    <p><b>Summary:</b> Newly diagnosed Type 1 Diabetes (T1D) patients often struggle to obtain
-effective Blood Glucose (BG) prediction models due to the lack of sufficient BG
-data from Continuous Glucose Monitoring (CGM), presenting a significant "cold
-start" problem in patient care. Utilizing population models to address this
-challenge is a potential solution, but collecting patient data for training
-population models in a privacy-conscious manner is challenging, especially
-given that such data is often stored on personal devices. Considering the
-privacy protection and addressing the "cold start" problem in diabetes care, we
-propose "GluADFL", blood Glucose prediction by Asynchronous Decentralized
-Federated Learning. We compared GluADFL with eight baseline methods using four
-distinct T1D datasets, comprising 298 participants, which demonstrated its
-superior performance in accurately predicting BG levels for cross-patient
-analysis. Furthermore, patients' data might be stored and shared across various
-communication networks in GluADFL, ranging from highly interconnected (e.g.,
-random, performs the best among others) to more structured topologies (e.g.,
-cluster and ring), suitable for various social networks. The asynchronous
-training framework supports flexible participation. By adjusting the ratios of
-inactive participants, we found it remains stable if less than 70% are
-inactive. Our results confirm that GluADFL offers a practical,
-privacy-preserving solution for BG prediction in T1D, significantly enhancing
-the quality of diabetes management.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.15309v1">The Privacy-Utility Trade-off in the Topics API</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-06-21T17:01:23Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mário S. Alvim, Natasha Fernandes, Annabelle McIver, Gabriel H. Nunes</p>
-    <p><b>Summary:</b> The ongoing deprecation of third-party cookies by web browser vendors has
-sparked the proposal of alternative methods to support more privacy-preserving
-personalized advertising on web browsers and applications. The Topics API is
-being proposed by Google to provide third-parties with "coarse-grained
-advertising topics that the page visitor might currently be interested in". In
-this paper, we analyze the re-identification risks for individual Internet
-users and the utility provided to advertising companies by the Topics API, i.e.
-learning the most popular topics and distinguishing between real and random
-topics. We provide theoretical results dependent only on the API parameters
-that can be readily applied to evaluate the privacy and utility implications of
-future API updates, including novel general upper-bounds that account for
-adversaries with access to unknown, arbitrary side information, the value of
-the differential privacy parameter $\epsilon$, and experimental results on
-real-world data that validate our theoretical model.</p>
   </details>
 </div>
 
