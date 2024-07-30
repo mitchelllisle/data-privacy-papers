@@ -2352,5 +2352,282 @@
       "cs.AI",
       "cs.CY"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.19828v1",
+    "title" : "Federated Learning based Latent Factorization of Tensors for\n  Privacy-Preserving QoS Prediction",
+    "summary" : "In applications related to big data and service computing, dynamic\nconnections tend to be encountered, especially the dynamic data of\nuser-perspective quality of service (QoS) in Web services. They are transformed\ninto high-dimensional and incomplete (HDI) tensors which include abundant\ntemporal pattern information. Latent factorization of tensors (LFT) is an\nextremely efficient and typical approach for extracting such patterns from an\nHDI tensor. However, current LFT models require the QoS data to be maintained\nin a central place (e.g., a central server), which is impossible for\nincreasingly privacy-sensitive users. To address this problem, this article\ncreatively designs a federated learning based on latent factorization of\ntensors (FL-LFT). It builds a data-density -oriented federated learning model\nto enable isolated users to collaboratively train a global LFT model while\nprotecting user's privacy. Extensive experiments on a QoS dataset collected\nfrom the real world verify that FL-LFT shows a remarkable increase in\nprediction accuracy when compared to state-of-the-art federated learning (FL)\napproaches.",
+    "updated" : "2024-07-29T09:30:00Z",
+    "published" : "2024-07-29T09:30:00Z",
+    "authors" : [
+      {
+        "name" : "Shuai Zhong"
+      },
+      {
+        "name" : "Zengtong Tang"
+      },
+      {
+        "name" : "Di Wu"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.19703v1",
+    "title" : "Efficient Byzantine-Robust and Provably Privacy-Preserving Federated\n  Learning",
+    "summary" : "Federated learning (FL) is an emerging distributed learning paradigm without\nsharing participating clients' private data. However, existing works show that\nFL is vulnerable to both Byzantine (security) attacks and data reconstruction\n(privacy) attacks. Almost all the existing FL defenses only address one of the\ntwo attacks. A few defenses address the two attacks, but they are not efficient\nand effective enough. We propose BPFL, an efficient Byzantine-robust and\nprovably privacy-preserving FL method that addresses all the issues.\nSpecifically, we draw on state-of-the-art Byzantine-robust FL methods and use\nsimilarity metrics to measure the robustness of each participating client in\nFL. The validity of clients are formulated as circuit constraints on similarity\nmetrics and verified via a zero-knowledge proof. Moreover, the client models\nare masked by a shared random vector, which is generated based on homomorphic\nencryption. In doing so, the server receives the masked client models rather\nthan the true ones, which are proven to be private. BPFL is also efficient due\nto the usage of non-interactive zero-knowledge proof. Experimental results on\nvarious datasets show that our BPFL is efficient, Byzantine-robust, and\nprivacy-preserving.",
+    "updated" : "2024-07-29T04:55:30Z",
+    "published" : "2024-07-29T04:55:30Z",
+    "authors" : [
+      {
+        "name" : "Chenfei Nie"
+      },
+      {
+        "name" : "Qiang Li"
+      },
+      {
+        "name" : "Yuxin Yang"
+      },
+      {
+        "name" : "Yuede Ji"
+      },
+      {
+        "name" : "Binghui Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.19677v1",
+    "title" : "Navigating the United States Legislative Landscape on Voice Privacy:\n  Existing Laws, Proposed Bills, Protection for Children, and Synthetic Data\n  for AI",
+    "summary" : "Privacy is a hot topic for policymakers across the globe, including the\nUnited States. Evolving advances in AI and emerging concerns about the misuse\nof personal data have pushed policymakers to draft legislation on trustworthy\nAI and privacy protection for its citizens. This paper presents the state of\nthe privacy legislation at the U.S. Congress and outlines how voice data is\nconsidered as part of the legislation definition. This paper also reviews\nadditional privacy protection for children. This paper presents a holistic\nreview of enacted and proposed privacy laws, and consideration for voice data,\nincluding guidelines for processing children's data, in those laws across the\nfifty U.S. states. As a groundbreaking alternative to actual human data,\nethically generated synthetic data allows much flexibility to keep AI\ninnovation in progress. Given the consideration of synthetic data in AI\nlegislation by policymakers to be relatively new, as compared to that of\nprivacy laws, this paper reviews regulatory considerations for synthetic data.",
+    "updated" : "2024-07-29T03:43:16Z",
+    "published" : "2024-07-29T03:43:16Z",
+    "authors" : [
+      {
+        "name" : "Satwik Dutta"
+      },
+      {
+        "name" : "John H. L. Hansen"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.CR",
+      "cs.SD",
+      "eess.AS",
+      "I.2; J.1"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.19401v1",
+    "title" : "Complete Security and Privacy for AI Inference in Decentralized Systems",
+    "summary" : "The need for data security and model integrity has been accentuated by the\nrapid adoption of AI and ML in data-driven domains including healthcare,\nfinance, and security. Large models are crucial for tasks like diagnosing\ndiseases and forecasting finances but tend to be delicate and not very\nscalable. Decentralized systems solve this issue by distributing the workload\nand reducing central points of failure. Yet, data and processes spread across\ndifferent nodes can be at risk of unauthorized access, especially when they\ninvolve sensitive information. Nesa solves these challenges with a\ncomprehensive framework using multiple techniques to protect data and model\noutputs. This includes zero-knowledge proofs for secure model verification. The\nframework also introduces consensus-based verification checks for consistent\noutputs across nodes and confirms model integrity. Split Learning divides\nmodels into segments processed by different nodes for data privacy by\npreventing full data access at any single point. For hardware-based security,\ntrusted execution environments are used to protect data and computations within\nsecure zones. Nesa's state-of-the-art proofs and principles demonstrate the\nframework's effectiveness, making it a promising approach for securely\ndemocratizing artificial intelligence.",
+    "updated" : "2024-07-28T05:09:17Z",
+    "published" : "2024-07-28T05:09:17Z",
+    "authors" : [
+      {
+        "name" : "Hongyang Zhang"
+      },
+      {
+        "name" : "Yue Zhao"
+      },
+      {
+        "name" : "Claudio Angione"
+      },
+      {
+        "name" : "Harry Yang"
+      },
+      {
+        "name" : "James Buban"
+      },
+      {
+        "name" : "Ahmad Farhan"
+      },
+      {
+        "name" : "Fielding Johnston"
+      },
+      {
+        "name" : "Patrick Colangelo"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.19364v1",
+    "title" : "Defogger: A Visual Analysis Approach for Data Exploration of Sensitive\n  Data Protected by Differential Privacy",
+    "summary" : "Differential privacy ensures the security of individual privacy but poses\nchallenges to data exploration processes because the limited privacy budget\nincapacitates the flexibility of exploration and the noisy feedback of data\nrequests leads to confusing uncertainty. In this study, we take the lead in\ndescribing corresponding exploration scenarios, including underlying\nrequirements and available exploration strategies. To facilitate practical\napplications, we propose a visual analysis approach to the formulation of\nexploration strategies. Our approach applies a reinforcement learning model to\nprovide diverse suggestions for exploration strategies according to the\nexploration intent of users. A novel visual design for representing uncertainty\nin correlation patterns is integrated into our prototype system to support the\nproposed approach. Finally, we implemented a user study and two case studies.\nThe results of these studies verified that our approach can help develop\nstrategies that satisfy the exploration intent of users.",
+    "updated" : "2024-07-28T02:14:12Z",
+    "published" : "2024-07-28T02:14:12Z",
+    "authors" : [
+      {
+        "name" : "Xumeng Wang"
+      },
+      {
+        "name" : "Shuangcheng Jiao"
+      },
+      {
+        "name" : "Chris Bryan"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.19354v1",
+    "title" : "The Emerged Security and Privacy of LLM Agent: A Survey with Case\n  Studies",
+    "summary" : "Inspired by the rapid development of Large Language Models (LLMs), LLM agents\nhave evolved to perform complex tasks. LLM agents are now extensively applied\nacross various domains, handling vast amounts of data to interact with humans\nand execute tasks. The widespread applications of LLM agents demonstrate their\nsignificant commercial value; however, they also expose security and privacy\nvulnerabilities. At the current stage, comprehensive research on the security\nand privacy of LLM agents is highly needed. This survey aims to provide a\ncomprehensive overview of the newly emerged privacy and security issues faced\nby LLM agents. We begin by introducing the fundamental knowledge of LLM agents,\nfollowed by a categorization and analysis of the threats. We then discuss the\nimpacts of these threats on humans, environment, and other agents.\nSubsequently, we review existing defensive strategies, and finally explore\nfuture trends. Additionally, the survey incorporates diverse case studies to\nfacilitate a more accessible understanding. By highlighting these critical\nsecurity and privacy issues, the survey seeks to stimulate future research\ntowards enhancing the security and privacy of LLM agents, thereby increasing\ntheir reliability and trustworthiness in future applications.",
+    "updated" : "2024-07-28T00:26:24Z",
+    "published" : "2024-07-28T00:26:24Z",
+    "authors" : [
+      {
+        "name" : "Feng He"
+      },
+      {
+        "name" : "Tianqing Zhu"
+      },
+      {
+        "name" : "Dayong Ye"
+      },
+      {
+        "name" : "Bo Liu"
+      },
+      {
+        "name" : "Wanlei Zhou"
+      },
+      {
+        "name" : "Philip S. Yu"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.19147v1",
+    "title" : "Reexamination of the realtime protection for user privacy in practical\n  quantum private query",
+    "summary" : "Quantum private query (QPQ) is the quantum version for symmetrically private\nretrieval. However, the user privacy in QPQ is generally guarded in the\nnon-realtime and cheat sensitive way. That is, the dishonest database holder's\ncheating to elicit user privacy can only be discovered after the protocol is\nfinished (when the user finds some errors in the retrieved database item). Such\ndelayed detection may cause very unpleasant results for the user in real-life\napplications. Current efforts to protect user privacy in realtime in existing\nQPQ protocols mainly use two techniques, i.e., adding an honesty checking on\nthe database or allowing the user to reorder the qubits. We reexamine these two\nkinds of QPQ protocols and find neither of them can work well. We give concrete\ncheating strategies for both participants and show that honesty checking of\ninner participant should be dealt more carefully in for example the choosing of\nchecking qubits. We hope such discussion can supply new concerns when detection\nof dishonest participant is considered in quantum multi-party secure\ncomputations.",
+    "updated" : "2024-07-27T02:19:35Z",
+    "published" : "2024-07-27T02:19:35Z",
+    "authors" : [
+      {
+        "name" : "Chun-Yan Wei"
+      },
+      {
+        "name" : "Xiao-Qiu Cai"
+      },
+      {
+        "name" : "Tian-Yin Wang"
+      }
+    ],
+    "categories" : [
+      "quant-ph",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.19119v1",
+    "title" : "Accuracy-Privacy Trade-off in the Mitigation of Membership Inference\n  Attack in Federated Learning",
+    "summary" : "Over the last few years, federated learning (FL) has emerged as a prominent\nmethod in machine learning, emphasizing privacy preservation by allowing\nmultiple clients to collaboratively build a model while keeping their training\ndata private. Despite this focus on privacy, FL models are susceptible to\nvarious attacks, including membership inference attacks (MIAs), posing a\nserious threat to data confidentiality. In a recent study, Rezaei \\textit{et\nal.} revealed the existence of an accuracy-privacy trade-off in deep ensembles\nand proposed a few fusion strategies to overcome it. In this paper, we aim to\nexplore the relationship between deep ensembles and FL. Specifically, we\ninvestigate whether confidence-based metrics derived from deep ensembles apply\nto FL and whether there is a trade-off between accuracy and privacy in FL with\nrespect to MIA. Empirical investigations illustrate a lack of a non-monotonic\ncorrelation between the number of clients and the accuracy-privacy trade-off.\nBy experimenting with different numbers of federated clients, datasets, and\nconfidence-metric-based fusion strategies, we identify and analytically justify\nthe clear existence of the accuracy-privacy trade-off.",
+    "updated" : "2024-07-26T22:44:41Z",
+    "published" : "2024-07-26T22:44:41Z",
+    "authors" : [
+      {
+        "name" : "Sayyed Farid Ahamed"
+      },
+      {
+        "name" : "Soumya Banerjee"
+      },
+      {
+        "name" : "Sandip Roy"
+      },
+      {
+        "name" : "Devin Quinn"
+      },
+      {
+        "name" : "Marc Vucovich"
+      },
+      {
+        "name" : "Kevin Choi"
+      },
+      {
+        "name" : "Abdul Rahman"
+      },
+      {
+        "name" : "Alison Hu"
+      },
+      {
+        "name" : "Edward Bowen"
+      },
+      {
+        "name" : "Sachin Shetty"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.18982v1",
+    "title" : "Low-Latency Privacy-Preserving Deep Learning Design via Secure MPC",
+    "summary" : "Secure multi-party computation (MPC) facilitates privacy-preserving\ncomputation between multiple parties without leaking private information. While\nmost secure deep learning techniques utilize MPC operations to achieve feasible\nprivacy-preserving machine learning on downstream tasks, the overhead of the\ncomputation and communication still hampers their practical application. This\nwork proposes a low-latency secret-sharing-based MPC design that reduces\nunnecessary communication rounds during the execution of MPC protocols. We also\npresent a method for improving the computation of commonly used nonlinear\nfunctions in deep learning by integrating multivariate multiplication and\ncoalescing different packets into one to maximize network utilization. Our\nexperimental results indicate that our method is effective in a variety of\nsettings, with a speedup in communication latency of $10\\sim20\\%$.",
+    "updated" : "2024-07-24T07:01:21Z",
+    "published" : "2024-07-24T07:01:21Z",
+    "authors" : [
+      {
+        "name" : "Ke Lin"
+      },
+      {
+        "name" : "Yasir Glani"
+      },
+      {
+        "name" : "Ping Luo"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.DC",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.18923v1",
+    "title" : "Towards a Novel Privacy-Preserving Distributed Multiparty Data\n  Outsourcing Scheme for Cloud Computing with Quantum Key Distribution",
+    "summary" : "The intersection of cloud computing, blockchain technology, and the impending\nera of quantum computing presents a critical juncture for data security. This\nresearch addresses the escalating vulnerabilities by proposing a comprehensive\nframework that integrates Quantum Key Distribution (QKD), CRYSTALS Kyber, and\nZero-Knowledge Proofs (ZKPs) for securing data in cloud-based blockchain\nsystems. The primary objective is to fortify data against quantum threats\nthrough the implementation of QKD, a quantum-safe cryptographic protocol. We\nleverage the lattice-based cryptographic mechanism, CRYSTALS Kyber, known for\nits resilience against quantum attacks. Additionally, ZKPs are introduced to\nenhance data privacy and verification processes within the cloud and blockchain\nenvironment. A significant focus of this research is the performance evaluation\nof the proposed framework. Rigorous analyses encompass encryption and\ndecryption processes, quantum key generation rates, and overall system\nefficiency. Practical implications are scrutinized, considering factors such as\nfile size, response time, and computational overhead. The evaluation sheds\nlight on the framework's viability in real-world cloud environments,\nemphasizing its efficiency in mitigating quantum threats. The findings\ncontribute a robust quantum-safe and ZKP-integrated security framework tailored\nfor cloud-based blockchain storage. By addressing critical gaps in theoretical\nadvancements, this research offers practical insights for organizations seeking\nto secure their data against quantum threats. The framework's efficiency and\nscalability underscore its practical feasibility, serving as a guide for\nimplementing enhanced data security in the evolving landscape of quantum\ncomputing and blockchain integration within cloud environments.",
+    "updated" : "2024-07-09T15:53:04Z",
+    "published" : "2024-07-09T15:53:04Z",
+    "authors" : [
+      {
+        "name" : "D. Dhinakaran"
+      },
+      {
+        "name" : "D. Selvaraj"
+      },
+      {
+        "name" : "N. Dharini"
+      },
+      {
+        "name" : "S. Edwin Raja"
+      },
+      {
+        "name" : "C. Sakthi Lakshmi Priya"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
