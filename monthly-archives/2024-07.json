@@ -2629,5 +2629,46 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.20830v1",
+    "title" : "Federated Knowledge Recycling: Privacy-Preserving Synthetic Data Sharing",
+    "summary" : "Federated learning has emerged as a paradigm for collaborative learning,\nenabling the development of robust models without the need to centralise\nsensitive data. However, conventional federated learning techniques have\nprivacy and security vulnerabilities due to the exposure of models, parameters\nor updates, which can be exploited as an attack surface. This paper presents\nFederated Knowledge Recycling (FedKR), a cross-silo federated learning approach\nthat uses locally generated synthetic data to facilitate collaboration between\ninstitutions. FedKR combines advanced data generation techniques with a dynamic\naggregation process to provide greater security against privacy attacks than\nexisting methods, significantly reducing the attack surface. Experimental\nresults on generic and medical datasets show that FedKR achieves competitive\nperformance, with an average improvement in accuracy of 4.24% compared to\ntraining models from local data, demonstrating particular effectiveness in data\nscarcity scenarios.",
+    "updated" : "2024-07-30T13:56:26Z",
+    "published" : "2024-07-30T13:56:26Z",
+    "authors" : [
+      {
+        "name" : "Eugenio Lomurno"
+      },
+      {
+        "name" : "Matteo Matteucci"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2407.20640v1",
+    "title" : "Improved Bounds for Pure Private Agnostic Learning: Item-Level and\n  User-Level Privacy",
+    "summary" : "Machine Learning has made remarkable progress in a wide range of fields. In\nmany scenarios, learning is performed on datasets involving sensitive\ninformation, in which privacy protection is essential for learning algorithms.\nIn this work, we study pure private learning in the agnostic model -- a\nframework reflecting the learning process in practice. We examine the number of\nusers required under item-level (where each user contributes one example) and\nuser-level (where each user contributes multiple examples) privacy and derive\nseveral improved upper bounds. For item-level privacy, our algorithm achieves a\nnear optimal bound for general concept classes. We extend this to the\nuser-level setting, rendering a tighter upper bound than the one proved by\nGhazi et al. (2023). Lastly, we consider the problem of learning thresholds\nunder user-level privacy and present an algorithm with a nearly tight user\ncomplexity.",
+    "updated" : "2024-07-30T08:35:26Z",
+    "published" : "2024-07-30T08:35:26Z",
+    "authors" : [
+      {
+        "name" : "Bo Li"
+      },
+      {
+        "name" : "Wei Wang"
+      },
+      {
+        "name" : "Peng Ye"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
   }
 ]
