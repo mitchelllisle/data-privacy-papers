@@ -2,6 +2,56 @@
 <h2>2024-07</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.20830v1">Federated Knowledge Recycling: Privacy-Preserving Synthetic Data Sharing</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2024-07-30T13:56:26Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Eugenio Lomurno, Matteo Matteucci</p>
+    <p><b>Summary:</b> Federated learning has emerged as a paradigm for collaborative learning,
+enabling the development of robust models without the need to centralise
+sensitive data. However, conventional federated learning techniques have
+privacy and security vulnerabilities due to the exposure of models, parameters
+or updates, which can be exploited as an attack surface. This paper presents
+Federated Knowledge Recycling (FedKR), a cross-silo federated learning approach
+that uses locally generated synthetic data to facilitate collaboration between
+institutions. FedKR combines advanced data generation techniques with a dynamic
+aggregation process to provide greater security against privacy attacks than
+existing methods, significantly reducing the attack surface. Experimental
+results on generic and medical datasets show that FedKR achieves competitive
+performance, with an average improvement in accuracy of 4.24% compared to
+training models from local data, demonstrating particular effectiveness in data
+scarcity scenarios.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.20640v1">Improved Bounds for Pure Private Agnostic Learning: Item-Level and
+  User-Level Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-07-30T08:35:26Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Bo Li, Wei Wang, Peng Ye</p>
+    <p><b>Summary:</b> Machine Learning has made remarkable progress in a wide range of fields. In
+many scenarios, learning is performed on datasets involving sensitive
+information, in which privacy protection is essential for learning algorithms.
+In this work, we study pure private learning in the agnostic model -- a
+framework reflecting the learning process in practice. We examine the number of
+users required under item-level (where each user contributes one example) and
+user-level (where each user contributes multiple examples) privacy and derive
+several improved upper bounds. For item-level privacy, our algorithm achieves a
+near optimal bound for general concept classes. We extend this to the
+user-level setting, rendering a tighter upper bound than the one proved by
+Ghazi et al. (2023). Lastly, we consider the problem of learning thresholds
+under user-level privacy and present an algorithm with a nearly tight user
+complexity.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2407.19828v1">Federated Learning based Latent Factorization of Tensors for
   Privacy-Preserving QoS Prediction</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
@@ -2826,62 +2876,6 @@ considerations on the effectiveness of these attacks. We advocate for a trusted
 autonomy approach, emphasizing the need to combine robotics, AI, and DT
 technologies with robust ethical frameworks and trustworthiness principles for
 secure and reliable AI robotic systems.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.18731v1">WavRx: a Disease-Agnostic, Generalizable, and Privacy-Preserving Speech
-  Health Diagnostic Model</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2024-06-26T19:59:21Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yi Zhu, Tiago Falk</p>
-    <p><b>Summary:</b> Speech is known to carry health-related attributes, which has emerged as a
-novel venue for remote and long-term health monitoring. However, existing
-models are usually tailored for a specific type of disease, and have been shown
-to lack generalizability across datasets. Furthermore, concerns have been
-raised recently towards the leakage of speaker identity from health embeddings.
-To mitigate these limitations, we propose WavRx, a speech health diagnostics
-model that captures the respiration and articulation related dynamics from a
-universal speech representation. Our in-domain and cross-domain experiments on
-six pathological speech datasets demonstrate WavRx as a new state-of-the-art
-health diagnostic model. Furthermore, we show that the amount of speaker
-identity entailed in the WavRx health embeddings is significantly reduced
-without extra guidance during training. An in-depth analysis of the model was
-performed, thus providing physiological interpretation of its improved
-generalizability and privacy-preserving ability.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.18491v1">Enhancing Federated Learning with Adaptive Differential Privacy and
-  Priority-Based Aggregation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
-  <p><b>Published on:</b> 2024-06-26T16:55:07Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mahtab Talaei, Iman Izadi</p>
-    <p><b>Summary:</b> Federated learning (FL), a novel branch of distributed machine learning (ML),
-develops global models through a private procedure without direct access to
-local datasets. However, it is still possible to access the model updates
-(gradient updates of deep neural networks) transferred between clients and
-servers, potentially revealing sensitive local information to adversaries using
-model inversion attacks. Differential privacy (DP) offers a promising approach
-to addressing this issue by adding noise to the parameters. On the other hand,
-heterogeneities in data structure, storage, communication, and computational
-capabilities of devices can cause convergence problems and delays in developing
-the global model. A personalized weighted averaging of local parameters based
-on the resources of each device can yield a better aggregated model in each
-round. In this paper, to efficiently preserve privacy, we propose a
-personalized DP framework that injects noise based on clients' relative impact
-factors and aggregates parameters while considering heterogeneities and
-adjusting properties. To fulfill the DP requirements, we first analyze the
-convergence boundary of the FL algorithm when impact factors are personalized
-and fixed throughout the learning process. We then further study the
-convergence property considering time-varying (adaptive) impact factors.</p>
   </details>
 </div>
 
