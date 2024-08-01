@@ -2,6 +2,97 @@
 <h2>2024-07</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.21691v1">Explainable Artificial Intelligence for Quantifying Interfering and
+  High-Risk Behaviors in Autism Spectrum Disorder in a Real-World Classroom
+  Environment Using Privacy-Preserving Video Analysis</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2024-07-31T15:37:52Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Barun Das, Conor Anderson, Tania Villavicencio, Johanna Lantz, Jenny Foster, Theresa Hamlin, Ali Bahrami Rad, Gari D. Clifford, Hyeokhyen Kwon</p>
+    <p><b>Summary:</b> Rapid identification and accurate documentation of interfering and high-risk
+behaviors in ASD, such as aggression, self-injury, disruption, and restricted
+repetitive behaviors, are important in daily classroom environments for
+tracking intervention effectiveness and allocating appropriate resources to
+manage care needs. However, having a staff dedicated solely to observing is
+costly and uncommon in most educational settings. Recently, multiple research
+studies have explored developing automated, continuous, and objective tools
+using machine learning models to quantify behaviors in ASD. However, the
+majority of the work was conducted under a controlled environment and has not
+been validated for real-world conditions. In this work, we demonstrate that the
+latest advances in video-based group activity recognition techniques can
+quantify behaviors in ASD in real-world activities in classroom environments
+while preserving privacy. Our explainable model could detect the episode of
+problem behaviors with a 77% F1-score and capture distinctive behavior features
+in different types of behaviors in ASD. To the best of our knowledge, this is
+the first work that shows the promise of objectively quantifying behaviors in
+ASD in a real-world environment, which is an important step toward the
+development of a practical tool that can ease the burden of data collection for
+classroom staff.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.21624v1">Grid-Based Decompositions for Spatial Data under Local Differential
+  Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-07-31T14:17:44Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Berkay Kemal Balioglu, Alireza Khodaie, Ameer Taweel, Mehmet Emre Gursoy</p>
+    <p><b>Summary:</b> Local differential privacy (LDP) has recently emerged as a popular privacy
+standard. With the growing popularity of LDP, several recent works have applied
+LDP to spatial data, and grid-based decompositions have been a common building
+block in the collection and analysis of spatial data under DP and LDP. In this
+paper, we study three grid-based decomposition methods for spatial data under
+LDP: Uniform Grid (UG), PrivAG, and AAG. UG is a static approach that consists
+of equal-sized cells. To enable data-dependent decomposition, PrivAG was
+proposed by Yang et al. as the most recent adaptive grid method. To advance the
+state-of-the-art in adaptive grids, in this paper we propose the Advanced
+Adaptive Grid (AAG) method. For each grid cell, following the intuition that
+the cell's intra-cell density distribution will be affected by its neighbors,
+AAG performs uneven cell divisions depending on the neighboring cells'
+densities. We experimentally compare UG, PrivAG, and AAG using three real-world
+location datasets, varying privacy budgets, and query sizes. Results show that
+AAG provides higher utility than PrivAG, demonstrating the superiority of our
+proposed approach. Furthermore, UG's performance is heavily dependent on the
+choice of grid size. When the grid size is chosen optimally in UG, AAG still
+beats UG for small queries, but UG beats AAG for large (coarse-grained)
+queries.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2407.21141v1">FL-DECO-BC: A Privacy-Preserving, Provably Secure, and
+  Provenance-Preserving Federated Learning Framework with Decentralized Oracles
+  on Blockchain for VANETs</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-07-30T19:09:10Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Sathwik Narkedimilli, Rayachoti Arun Kumar, N. V. Saran Kumar, Ramapathruni Praneeth Reddy, Pavan Kumar C</p>
+    <p><b>Summary:</b> Vehicular Ad-Hoc Networks (VANETs) hold immense potential for improving
+traffic safety and efficiency. However, traditional centralized approaches for
+machine learning in VANETs raise concerns about data privacy and security.
+Federated Learning (FL) offers a solution that enables collaborative model
+training without sharing raw data. This paper proposes FL-DECO-BC as a novel
+privacy-preserving, provably secure, and provenance-preserving federated
+learning framework specifically designed for VANETs. FL-DECO-BC leverages
+decentralized oracles on blockchain to securely access external data sources
+while ensuring data privacy through advanced techniques. The framework
+guarantees provable security through cryptographic primitives and formal
+verification methods. Furthermore, FL-DECO-BC incorporates a
+provenance-preserving design to track data origin and history, fostering trust
+and accountability. This combination of features empowers VANETs with secure
+and privacy-conscious machine-learning capabilities, paving the way for
+advanced traffic management and safety applications.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2407.20830v1">Federated Knowledge Recycling: Privacy-Preserving Synthetic Data Sharing</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
   <p><b>Published on:</b> 2024-07-30T13:56:26Z</p>
@@ -2797,85 +2888,6 @@ task. We evaluate different datasets for NLP suitable for different tasks.
 Automatic and human evaluations show that IDT retains the utility of text,
 while also outperforming existing methods when deceiving a classifier w.r.t
 privacy task.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.19035v3">SD-BLS: Privacy Preserving Selective Disclosure of Verifiable
-  Credentials with Unlinkable Threshold Revocation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-06-27T09:41:13Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Denis Roio, Rebecca Selvaggini, Gabriele Bellini, Andrea D'Intino</p>
-    <p><b>Summary:</b> Ensuring privacy and protection from issuer corruption in digital identity
-systems is crucial. We propose a method for selective disclosure and
-privacy-preserving revocation of digital credentials using second-order
-Elliptic Curves and Boneh-Lynn-Shacham (BLS) signatures. We make holders able
-to present proofs of possession of selected credentials without disclosing
-them, and we protect their presentations from replay attacks. Revocations may
-be distributed among multiple revocation issuers using publicly verifiable
-secret sharing (PVSS) and activated only by configurable consensus, ensuring
-robust protection against issuer corruption. Our system's unique design enables
-extremely fast revocation checks, even with large revocation lists, leveraging
-optimized hash map lookups.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.18940v1">Efficient Verifiable Differential Privacy with Input Authenticity in the
-  Local and Shuffle Model</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-06-27T07:12:28Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Tariq Bontekoe, Hassan Jameel Asghar, Fatih Turkmen</p>
-    <p><b>Summary:</b> Local differential privacy (LDP) is an efficient solution for providing
-privacy to client's sensitive data while simultaneously releasing aggregate
-statistics without relying on a trusted central server (aggregator) as in the
-central model of differential privacy. The shuffle model with LDP provides an
-additional layer of privacy, by disconnecting the link between clients and the
-aggregator, further improving the utility of LDP. However, LDP has been shown
-to be vulnerable to malicious clients who can perform both input and output
-manipulation attacks, i.e., before and after applying the LDP mechanism, to
-skew the aggregator's results. In this work, we show how to prevent malicious
-clients from compromising LDP schemes. Specifically, we give efficient
-constructions to prevent both input \'and output manipulation attacks from
-malicious clients for generic LDP algorithms. Our proposed schemes for
-verifiable LDP (VLDP), completely protect from output manipulation attacks, and
-prevent input attacks using signed data, requiring only one-time interaction
-between client and server, unlike existing alternatives [28, 33]. Most
-importantly, we are the first to provide an efficient scheme for VLDP in the
-shuffle model. We describe and prove secure, two schemes for VLDP in the
-regular model, and one in the shuffle model. We show that all schemes are
-highly practical, with client runtimes of < 2 seconds, and server runtimes of
-5-7 milliseconds per client.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.18812v1">A Survey on Privacy Attacks Against Digital Twin Systems in AI-Robotics</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Robotics-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2024-06-27T00:59:20Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ivan A. Fernandez, Subash Neupane, Trisha Chakraborty, Shaswata Mitra, Sudip Mittal, Nisha Pillai, Jingdao Chen, Shahram Rahimi</p>
-    <p><b>Summary:</b> Industry 4.0 has witnessed the rise of complex robots fueled by the
-integration of Artificial Intelligence/Machine Learning (AI/ML) and Digital
-Twin (DT) technologies. While these technologies offer numerous benefits, they
-also introduce potential privacy and security risks. This paper surveys privacy
-attacks targeting robots enabled by AI and DT models. Exfiltration and data
-leakage of ML models are discussed in addition to the potential extraction of
-models derived from first-principles (e.g., physics-based). We also discuss
-design considerations with DT-integrated robotics touching on the impact of ML
-model training, responsible AI and DT safeguards, data governance and ethical
-considerations on the effectiveness of these attacks. We advocate for a trusted
-autonomy approach, emphasizing the need to combine robotics, AI, and DT
-technologies with robust ethical frameworks and trustworthiness principles for
-secure and reliable AI robotic systems.</p>
   </details>
 </div>
 
