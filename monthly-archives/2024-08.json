@@ -1,1 +1,77 @@
-[{"id":"http://arxiv.org/abs/2408.00639v1","title":"Privacy-preserving datasets by capturing feature distributions with\n  Conditional VAEs","summary":"Large and well-annotated datasets are essential for advancing deep learning\napplications, however often costly or impossible to obtain by a single entity.\nIn many areas, including the medical domain, approaches relying on data sharing\nhave become critical to address those challenges. While effective in increasing\ndataset size and diversity, data sharing raises significant privacy concerns.\nCommonly employed anonymization methods based on the k-anonymity paradigm often\nfail to preserve data diversity, affecting model robustness. This work\nintroduces a novel approach using Conditional Variational Autoencoders (CVAEs)\ntrained on feature vectors extracted from large pre-trained vision foundation\nmodels. Foundation models effectively detect and represent complex patterns\nacross diverse domains, allowing the CVAE to faithfully capture the embedding\nspace of a given data distribution to generate (sample) a diverse,\nprivacy-respecting, and potentially unbounded set of synthetic feature vectors.\nOur method notably outperforms traditional approaches in both medical and\nnatural image domains, exhibiting greater dataset diversity and higher\nrobustness against perturbations while preserving sample privacy. These results\nunderscore the potential of generative models to significantly impact deep\nlearning applications in data-scarce and privacy-sensitive environments. The\nsource code is available at\nhttps://github.com/francescodisalvo05/cvae-anonymization .","updated":"2024-08-01T15:26:24Z","published":"2024-08-01T15:26:24Z","authors":[{"name":"Francesco Di Salvo"},{"name":"David Tafler"},{"name":"Sebastian Doerrich"},{"name":"Christian Ledig"}],"categories":["cs.LG","cs.CV","eess.IV"]},{"id":"http://arxiv.org/abs/2408.00382v1","title":"Long-Term Conversation Analysis: Privacy-Utility Trade-off under Noise\n  and Reverberation","summary":"Recordings in everyday life require privacy preservation of the speech\ncontent and speaker identity. This contribution explores the influence of noise\nand reverberation on the trade-off between privacy and utility for low-cost\nprivacy-preserving methods feasible for edge computing. These methods\ncompromise spectral and temporal smoothing, speaker anonymization using the\nMcAdams coefficient, sampling with a very low sampling rate, and combinations.\nPrivacy is assessed by automatic speech and speaker recognition, while our\nutility considers voice activity detection and speaker diarization. Overall,\nour evaluation shows that additional noise degrades the performance of all\nmodels more than reverberation. This degradation corresponds to enhanced speech\nprivacy, while utility is less deteriorated for some methods.","updated":"2024-08-01T08:43:46Z","published":"2024-08-01T08:43:46Z","authors":[{"name":"Jule Pohlhausen"},{"name":"Francesco Nespoli"},{"name":"Joerg Bitzer"}],"categories":["eess.AS"]},{"id":"http://arxiv.org/abs/2408.00294v1","title":"RDP: Ranked Differential Privacy for Facial Feature Protection in\n  Multiscale Sparsified Subspace","summary":"With the widespread sharing of personal face images in applications' public\ndatabases, face recognition systems faces real threat of being breached by\npotential adversaries who are able to access users' face images and use them to\nintrude the face recognition systems. In this paper, we propose a novel privacy\nprotection method in the multiscale sparsified feature subspaces to protect\nsensitive facial features, by taking care of the influence or weight ranked\nfeature coefficients on the privacy budget, named \"Ranked Differential Privacy\n(RDP)\". After the multiscale feature decomposition, the lightweight Laplacian\nnoise is added to the dimension-reduced sparsified feature coefficients\naccording to the geometric superposition method. Then, we rigorously prove that\nthe RDP satisfies Differential Privacy. After that, the nonlinear Lagrange\nMultiplier (LM) method is formulated for the constraint optimization problem of\nmaximizing the utility of the visualization quality protected face images with\nsanitizing noise, under a given facial features privacy budget. Then, two\nmethods are proposed to solve the nonlinear LM problem and obtain the optimal\nnoise scale parameters: 1) the analytical Normalization Approximation (NA)\nmethod with identical average noise scale parameter for real-time online\napplications; and 2) the LM optimization Gradient Descent (LMGD) numerical\nmethod to obtain the nonlinear solution through iterative updating for more\naccurate offline applications. Experimental results on two real-world datasets\nshow that our proposed RDP outperforms other state-of-the-art methods: at a\nprivacy budget of 0.2, the PSNR (Peak Signal-to-Noise Ratio) of the RDP is\nabout ~10 dB higher than (10 times as high as) the highest PSNR of all compared\nmethods.","updated":"2024-08-01T05:41:59Z","published":"2024-08-01T05:41:59Z","authors":[{"name":"Lu Ou"},{"name":"Shaolin Liao"},{"name":"Shihui Gao"},{"name":"Guandong Huang"},{"name":"Zheng Qi"}],"categories":["cs.CV","cs.IR"]}]
+[
+  {
+    "id" : "http://arxiv.org/abs/2408.00639v1",
+    "title" : "Privacy-preserving datasets by capturing feature distributions with\n  Conditional VAEs",
+    "summary" : "Large and well-annotated datasets are essential for advancing deep learning\napplications, however often costly or impossible to obtain by a single entity.\nIn many areas, including the medical domain, approaches relying on data sharing\nhave become critical to address those challenges. While effective in increasing\ndataset size and diversity, data sharing raises significant privacy concerns.\nCommonly employed anonymization methods based on the k-anonymity paradigm often\nfail to preserve data diversity, affecting model robustness. This work\nintroduces a novel approach using Conditional Variational Autoencoders (CVAEs)\ntrained on feature vectors extracted from large pre-trained vision foundation\nmodels. Foundation models effectively detect and represent complex patterns\nacross diverse domains, allowing the CVAE to faithfully capture the embedding\nspace of a given data distribution to generate (sample) a diverse,\nprivacy-respecting, and potentially unbounded set of synthetic feature vectors.\nOur method notably outperforms traditional approaches in both medical and\nnatural image domains, exhibiting greater dataset diversity and higher\nrobustness against perturbations while preserving sample privacy. These results\nunderscore the potential of generative models to significantly impact deep\nlearning applications in data-scarce and privacy-sensitive environments. The\nsource code is available at\nhttps://github.com/francescodisalvo05/cvae-anonymization .",
+    "updated" : "2024-08-01T15:26:24Z",
+    "published" : "2024-08-01T15:26:24Z",
+    "authors" : [
+      {
+        "name" : "Francesco Di Salvo"
+      },
+      {
+        "name" : "David Tafler"
+      },
+      {
+        "name" : "Sebastian Doerrich"
+      },
+      {
+        "name" : "Christian Ledig"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CV",
+      "eess.IV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2408.00382v1",
+    "title" : "Long-Term Conversation Analysis: Privacy-Utility Trade-off under Noise\n  and Reverberation",
+    "summary" : "Recordings in everyday life require privacy preservation of the speech\ncontent and speaker identity. This contribution explores the influence of noise\nand reverberation on the trade-off between privacy and utility for low-cost\nprivacy-preserving methods feasible for edge computing. These methods\ncompromise spectral and temporal smoothing, speaker anonymization using the\nMcAdams coefficient, sampling with a very low sampling rate, and combinations.\nPrivacy is assessed by automatic speech and speaker recognition, while our\nutility considers voice activity detection and speaker diarization. Overall,\nour evaluation shows that additional noise degrades the performance of all\nmodels more than reverberation. This degradation corresponds to enhanced speech\nprivacy, while utility is less deteriorated for some methods.",
+    "updated" : "2024-08-01T08:43:46Z",
+    "published" : "2024-08-01T08:43:46Z",
+    "authors" : [
+      {
+        "name" : "Jule Pohlhausen"
+      },
+      {
+        "name" : "Francesco Nespoli"
+      },
+      {
+        "name" : "Joerg Bitzer"
+      }
+    ],
+    "categories" : [
+      "eess.AS"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2408.00294v1",
+    "title" : "RDP: Ranked Differential Privacy for Facial Feature Protection in\n  Multiscale Sparsified Subspace",
+    "summary" : "With the widespread sharing of personal face images in applications' public\ndatabases, face recognition systems faces real threat of being breached by\npotential adversaries who are able to access users' face images and use them to\nintrude the face recognition systems. In this paper, we propose a novel privacy\nprotection method in the multiscale sparsified feature subspaces to protect\nsensitive facial features, by taking care of the influence or weight ranked\nfeature coefficients on the privacy budget, named \"Ranked Differential Privacy\n(RDP)\". After the multiscale feature decomposition, the lightweight Laplacian\nnoise is added to the dimension-reduced sparsified feature coefficients\naccording to the geometric superposition method. Then, we rigorously prove that\nthe RDP satisfies Differential Privacy. After that, the nonlinear Lagrange\nMultiplier (LM) method is formulated for the constraint optimization problem of\nmaximizing the utility of the visualization quality protected face images with\nsanitizing noise, under a given facial features privacy budget. Then, two\nmethods are proposed to solve the nonlinear LM problem and obtain the optimal\nnoise scale parameters: 1) the analytical Normalization Approximation (NA)\nmethod with identical average noise scale parameter for real-time online\napplications; and 2) the LM optimization Gradient Descent (LMGD) numerical\nmethod to obtain the nonlinear solution through iterative updating for more\naccurate offline applications. Experimental results on two real-world datasets\nshow that our proposed RDP outperforms other state-of-the-art methods: at a\nprivacy budget of 0.2, the PSNR (Peak Signal-to-Noise Ratio) of the RDP is\nabout ~10 dB higher than (10 times as high as) the highest PSNR of all compared\nmethods.",
+    "updated" : "2024-08-01T05:41:59Z",
+    "published" : "2024-08-01T05:41:59Z",
+    "authors" : [
+      {
+        "name" : "Lu Ou"
+      },
+      {
+        "name" : "Shaolin Liao"
+      },
+      {
+        "name" : "Shihui Gao"
+      },
+      {
+        "name" : "Guandong Huang"
+      },
+      {
+        "name" : "Zheng Qi"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.IR"
+    ]
+  }
+]
