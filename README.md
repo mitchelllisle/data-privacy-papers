@@ -1,4 +1,98 @@
 
+<h2>2024-08</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.00639v1">Privacy-preserving datasets by capturing feature distributions with
+  Conditional VAEs</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> 
+  <p><b>Published on:</b> 2024-08-01T15:26:24Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Francesco Di Salvo, David Tafler, Sebastian Doerrich, Christian Ledig</p>
+    <p><b>Summary:</b> Large and well-annotated datasets are essential for advancing deep learning
+applications, however often costly or impossible to obtain by a single entity.
+In many areas, including the medical domain, approaches relying on data sharing
+have become critical to address those challenges. While effective in increasing
+dataset size and diversity, data sharing raises significant privacy concerns.
+Commonly employed anonymization methods based on the k-anonymity paradigm often
+fail to preserve data diversity, affecting model robustness. This work
+introduces a novel approach using Conditional Variational Autoencoders (CVAEs)
+trained on feature vectors extracted from large pre-trained vision foundation
+models. Foundation models effectively detect and represent complex patterns
+across diverse domains, allowing the CVAE to faithfully capture the embedding
+space of a given data distribution to generate (sample) a diverse,
+privacy-respecting, and potentially unbounded set of synthetic feature vectors.
+Our method notably outperforms traditional approaches in both medical and
+natural image domains, exhibiting greater dataset diversity and higher
+robustness against perturbations while preserving sample privacy. These results
+underscore the potential of generative models to significantly impact deep
+learning applications in data-scarce and privacy-sensitive environments. The
+source code is available at
+https://github.com/francescodisalvo05/cvae-anonymization .</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.00382v1">Long-Term Conversation Analysis: Privacy-Utility Trade-off under Noise
+  and Reverberation</a></h3>
+  
+  <p><b>Published on:</b> 2024-08-01T08:43:46Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jule Pohlhausen, Francesco Nespoli, Joerg Bitzer</p>
+    <p><b>Summary:</b> Recordings in everyday life require privacy preservation of the speech
+content and speaker identity. This contribution explores the influence of noise
+and reverberation on the trade-off between privacy and utility for low-cost
+privacy-preserving methods feasible for edge computing. These methods
+compromise spectral and temporal smoothing, speaker anonymization using the
+McAdams coefficient, sampling with a very low sampling rate, and combinations.
+Privacy is assessed by automatic speech and speaker recognition, while our
+utility considers voice activity detection and speaker diarization. Overall,
+our evaluation shows that additional noise degrades the performance of all
+models more than reverberation. This degradation corresponds to enhanced speech
+privacy, while utility is less deteriorated for some methods.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.00294v1">RDP: Ranked Differential Privacy for Facial Feature Protection in
+  Multiscale Sparsified Subspace</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB">
+  <p><b>Published on:</b> 2024-08-01T05:41:59Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Lu Ou, Shaolin Liao, Shihui Gao, Guandong Huang, Zheng Qi</p>
+    <p><b>Summary:</b> With the widespread sharing of personal face images in applications' public
+databases, face recognition systems faces real threat of being breached by
+potential adversaries who are able to access users' face images and use them to
+intrude the face recognition systems. In this paper, we propose a novel privacy
+protection method in the multiscale sparsified feature subspaces to protect
+sensitive facial features, by taking care of the influence or weight ranked
+feature coefficients on the privacy budget, named "Ranked Differential Privacy
+(RDP)". After the multiscale feature decomposition, the lightweight Laplacian
+noise is added to the dimension-reduced sparsified feature coefficients
+according to the geometric superposition method. Then, we rigorously prove that
+the RDP satisfies Differential Privacy. After that, the nonlinear Lagrange
+Multiplier (LM) method is formulated for the constraint optimization problem of
+maximizing the utility of the visualization quality protected face images with
+sanitizing noise, under a given facial features privacy budget. Then, two
+methods are proposed to solve the nonlinear LM problem and obtain the optimal
+noise scale parameters: 1) the analytical Normalization Approximation (NA)
+method with identical average noise scale parameter for real-time online
+applications; and 2) the LM optimization Gradient Descent (LMGD) numerical
+method to obtain the nonlinear solution through iterative updating for more
+accurate offline applications. Experimental results on two real-world datasets
+show that our proposed RDP outperforms other state-of-the-art methods: at a
+privacy budget of 0.2, the PSNR (Peak Signal-to-Noise Ratio) of the RDP is
+about ~10 dB higher than (10 times as high as) the highest PSNR of all compared
+methods.</p>
+  </details>
+</div>
+
+
+
 <h2>2024-07</h2>
 
 <div class="arxiv-entry">
@@ -2799,95 +2893,6 @@ Specifically, we show how to obtain $(\epsilon, \delta)$-probabilistic
 differential privacy guarantees via the Poisson distribution's cumulative
 distribution function. We demonstrate this empirically with the synthesis of an
 administrative-type confidential database.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.20088v1">Minimax And Adaptive Transfer Learning for Nonparametric Classification
-  under Distributed Differential Privacy Constraints</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36">    
-  <p><b>Published on:</b> 2024-06-28T17:55:41Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Arnab Auddy, T. Tony Cai, Abhinav Chakraborty</p>
-    <p><b>Summary:</b> This paper considers minimax and adaptive transfer learning for nonparametric
-classification under the posterior drift model with distributed differential
-privacy constraints. Our study is conducted within a heterogeneous framework,
-encompassing diverse sample sizes, varying privacy parameters, and data
-heterogeneity across different servers. We first establish the minimax
-misclassification rate, precisely characterizing the effects of privacy
-constraints, source samples, and target samples on classification accuracy. The
-results reveal interesting phase transition phenomena and highlight the
-intricate trade-offs between preserving privacy and achieving classification
-accuracy. We then develop a data-driven adaptive classifier that achieves the
-optimal rate within a logarithmic factor across a large collection of parameter
-spaces while satisfying the same set of differential privacy constraints.
-Simulation studies and real-world data applications further elucidate the
-theoretical analysis with numerical results.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.19964v2">Secure Outsourced Decryption for FHE-based Privacy-preserving Cloud
-  Computing</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-06-28T14:51:36Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Xirong Ma, Chuan Li, Yuchang Hu, Yunting Tao, Yali Jiang, Yanbin Li, Fanyu Kong, Chunpeng Ge</p>
-    <p><b>Summary:</b> The demand for processing vast volumes of data has surged dramatically due to
-the advancement of machine learning technology. Large-scale data processing
-necessitates substantial computational resources, prompting individuals and
-enterprises to turn to cloud services. Accompanying this trend is a growing
-concern regarding data leakage and misuse. Homomorphic encryption (HE) is one
-solution for safeguarding data privacy, enabling encrypted data to be processed
-securely in the cloud. However, the encryption and decryption routines of some
-HE schemes require considerable computational resources, presenting non-trivial
-work for clients. In this paper, we propose an outsourced decryption protocol
-for the prevailing RLWE-based fully homomorphic encryption schemes. The
-protocol splits the original decryption into two routines, with the
-computationally intensive part executed remotely by the cloud. Its security
-relies on an invariant of the NTRU-search problem with a newly designed
-blinding key distribution. Cryptographic analyses are conducted to configure
-protocol parameters across varying security levels. Our experiments demonstrate
-that the proposed protocol achieves up to a $67\%$ acceleration in the client's
-local decryption, accompanied by a $50\%$ reduction in space usage.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2406.19642v1">IDT: Dual-Task Adversarial Attacks for Privacy Protection</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-06-28T04:14:35Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Pedro Faustini, Shakila Mahjabin Tonni, Annabelle McIver, Qiongkai Xu, Mark Dras</p>
-    <p><b>Summary:</b> Natural language processing (NLP) models may leak private information in
-different ways, including membership inference, reconstruction or attribute
-inference attacks. Sensitive information may not be explicit in the text, but
-hidden in underlying writing characteristics. Methods to protect privacy can
-involve using representations inside models that are demonstrated not to detect
-sensitive attributes or -- for instance, in cases where users might not trust a
-model, the sort of scenario of interest here -- changing the raw text before
-models can have access to it. The goal is to rewrite text to prevent someone
-from inferring a sensitive attribute (e.g. the gender of the author, or their
-location by the writing style) whilst keeping the text useful for its original
-intention (e.g. the sentiment of a product review). The few works tackling this
-have focused on generative techniques. However, these often create extensively
-different texts from the original ones or face problems such as mode collapse.
-This paper explores a novel adaptation of adversarial attack techniques to
-manipulate a text to deceive a classifier w.r.t one task (privacy) whilst
-keeping the predictions of another classifier trained for another task
-(utility) unchanged. We propose IDT, a method that analyses predictions made by
-auxiliary and interpretable models to identify which tokens are important to
-change for the privacy task, and which ones should be kept for the utility
-task. We evaluate different datasets for NLP suitable for different tasks.
-Automatic and human evaluations show that IDT retains the utility of text,
-while also outperforming existing methods when deceiving a classifier w.r.t
-privacy task.</p>
   </details>
 </div>
 
