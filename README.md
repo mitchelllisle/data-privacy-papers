@@ -2,6 +2,93 @@
 <h2>2024-08</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.01228v1">The Phantom Menace: Unmasking Privacy Leakages in Vision-Language Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2024-08-02T12:36:13Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Simone Caldarella, Massimiliano Mancini, Elisa Ricci, Rahaf Aljundi</p>
+    <p><b>Summary:</b> Vision-Language Models (VLMs) combine visual and textual understanding,
+rendering them well-suited for diverse tasks like generating image captions and
+answering visual questions across various domains. However, these capabilities
+are built upon training on large amount of uncurated data crawled from the web.
+The latter may include sensitive information that VLMs could memorize and leak,
+raising significant privacy concerns. In this paper, we assess whether these
+vulnerabilities exist, focusing on identity leakage. Our study leads to three
+key findings: (i) VLMs leak identity information, even when the vision-language
+alignment and the fine-tuning use anonymized data; (ii) context has little
+influence on identity leakage; (iii) simple, widely used anonymization
+techniques, like blurring, are not sufficient to address the problem. These
+findings underscore the urgent need for robust privacy protection strategies
+when deploying VLMs. Ethical awareness and responsible development practices
+are essential to mitigate these risks.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.01040v1">Privacy-Preserving Split Learning with Vision Transformers using
+  Patch-Wise Random and Noisy CutMix</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-08-02T06:24:39Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Seungeun Oh, Sihun Baek, Jihong Park, Hyelin Nam, Praneeth Vepakomma, Ramesh Raskar, Mehdi Bennis, Seong-Lyun Kim</p>
+    <p><b>Summary:</b> In computer vision, the vision transformer (ViT) has increasingly superseded
+the convolutional neural network (CNN) for improved accuracy and robustness.
+However, ViT's large model sizes and high sample complexity make it difficult
+to train on resource-constrained edge devices. Split learning (SL) emerges as a
+viable solution, leveraging server-side resources to train ViTs while utilizing
+private data from distributed devices. However, SL requires additional
+information exchange for weight updates between the device and the server,
+which can be exposed to various attacks on private training data. To mitigate
+the risk of data breaches in classification tasks, inspired from the CutMix
+regularization, we propose a novel privacy-preserving SL framework that injects
+Gaussian noise into smashed data and mixes randomly chosen patches of smashed
+data across clients, coined DP-CutMixSL. Our analysis demonstrates that
+DP-CutMixSL is a differentially private (DP) mechanism that strengthens privacy
+protection against membership inference attacks during forward propagation.
+Through simulations, we show that DP-CutMixSL improves privacy protection
+against membership inference attacks, reconstruction attacks, and label
+inference attacks, while also improving accuracy compared to DP-SL and
+DP-MixSL.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.00950v1">PrivateGaze: Preserving User Privacy in Black-box Mobile Gaze Tracking
+  Services</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2024-08-01T23:11:03Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Lingyu Du, Jinyuan Jia, Xucong Zhang, Guohao Lan</p>
+    <p><b>Summary:</b> Eye gaze contains rich information about human attention and cognitive
+processes. This capability makes the underlying technology, known as gaze
+tracking, a critical enabler for many ubiquitous applications and has triggered
+the development of easy-to-use gaze estimation services. Indeed, by utilizing
+the ubiquitous cameras on tablets and smartphones, users can readily access
+many gaze estimation services. In using these services, users must provide
+their full-face images to the gaze estimator, which is often a black box. This
+poses significant privacy threats to the users, especially when a malicious
+service provider gathers a large collection of face images to classify
+sensitive user attributes. In this work, we present PrivateGaze, the first
+approach that can effectively preserve users' privacy in black-box gaze
+tracking services without compromising gaze estimation performance.
+Specifically, we proposed a novel framework to train a privacy preserver that
+converts full-face images into obfuscated counterparts, which are effective for
+gaze estimation while containing no privacy information. Evaluation on four
+datasets shows that the obfuscated image can protect users' private
+information, such as identity and gender, against unauthorized attribute
+classification. Meanwhile, when used directly by the black-box gaze estimator
+as inputs, the obfuscated images lead to comparable tracking performance to the
+conventional, unprotected full-face images.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2408.00639v1">Privacy-preserving datasets by capturing feature distributions with
   Conditional VAEs</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> 
@@ -2810,89 +2897,6 @@ degrees of privacy, our study reveals that while stereotypical bias generally
 diminishes when privacy is tightened, text privatization does not uniformly
 equate to diminishing bias across all social domains. This highlights the need
 for careful diagnosis of bias in LMs that undergo text privatization.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.00638v1">A Collocation-based Method for Addressing Challenges in Word-level
-  Metric Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2024-06-30T09:37:34Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Stephen Meisenbacher, Maulik Chevli, Florian Matthes</p>
-    <p><b>Summary:</b> Applications of Differential Privacy (DP) in NLP must distinguish between the
-syntactic level on which a proposed mechanism operates, often taking the form
-of $\textit{word-level}$ or $\textit{document-level}$ privatization. Recently,
-several word-level $\textit{Metric}$ Differential Privacy approaches have been
-proposed, which rely on this generalized DP notion for operating in word
-embedding spaces. These approaches, however, often fail to produce semantically
-coherent textual outputs, and their application at the sentence- or
-document-level is only possible by a basic composition of word perturbations.
-In this work, we strive to address these challenges by operating
-$\textit{between}$ the word and sentence levels, namely with
-$\textit{collocations}$. By perturbing n-grams rather than single words, we
-devise a method where composed privatized outputs have higher semantic
-coherence and variable length. This is accomplished by constructing an
-embedding model based on frequently occurring word groups, in which unigram
-words co-exist with bi- and trigram collocations. We evaluate our method in
-utility and privacy tests, which make a clear case for tokenization strategies
-beyond the word level.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.00538v1">Privacy-Preserving and Trustworthy Deep Learning for Medical Imaging</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> 
-  <p><b>Published on:</b> 2024-06-29T22:26:05Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Kiarash Sedghighadikolaei, Attila A Yavuz</p>
-    <p><b>Summary:</b> The shift towards efficient and automated data analysis through Machine
-Learning (ML) has notably impacted healthcare systems, particularly Radiomics.
-Radiomics leverages ML to analyze medical images accurately and efficiently for
-precision medicine. Current methods rely on Deep Learning (DL) to improve
-performance and accuracy (Deep Radiomics). Given the sensitivity of medical
-images, ensuring privacy throughout the Deep Radiomics pipeline-from data
-generation and collection to model training and inference-is essential,
-especially when outsourced. Thus, Privacy-Enhancing Technologies (PETs) are
-crucial tools for Deep Radiomics. Previous studies and systematization efforts
-have either broadly overviewed PETs and their applications or mainly focused on
-subsets of PETs for ML algorithms. In Deep Radiomics, where efficiency,
-accuracy, and privacy are crucial, many PETs, while theoretically applicable,
-may not be practical without specialized optimizations or hybrid designs.
-Additionally, not all DL models are suitable for Radiomics. Consequently, there
-is a need for specialized studies that investigate and systematize the
-effective and practical integration of PETs into the Deep Radiomics pipeline.
-This work addresses this research gap by (1) classifying existing PETs,
-presenting practical hybrid PETS constructions, and a taxonomy illustrating
-their potential integration with the Deep Radiomics pipeline, with comparative
-analyses detailing assumptions, architectural suitability, and security, (2)
-Offering technical insights, describing potential challenges and means of
-combining PETs into the Deep Radiomics pipeline, including integration
-strategies, subtilities, and potential challenges, (3) Proposing potential
-research directions, identifying challenges, and suggesting solutions to
-enhance the PETs in Deep Radiomics.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.00417v1">Obtaining $(ε,δ)$-differential privacy guarantees when using
-  a Poisson mechanism to synthesize contingency tables</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
-  <p><b>Published on:</b> 2024-06-29T11:57:24Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> James Jackson, Robin Mitra, Brian Francis, Iain Dove</p>
-    <p><b>Summary:</b> We show that differential privacy type guarantees can be obtained when using
-a Poisson synthesis mechanism to protect counts in contingency tables.
-Specifically, we show how to obtain $(\epsilon, \delta)$-probabilistic
-differential privacy guarantees via the Poisson distribution's cumulative
-distribution function. We demonstrate this empirically with the synthesis of an
-administrative-type confidential database.</p>
   </details>
 </div>
 
