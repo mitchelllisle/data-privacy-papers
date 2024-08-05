@@ -73,5 +73,92 @@
       "cs.CV",
       "cs.IR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2408.01228v1",
+    "title" : "The Phantom Menace: Unmasking Privacy Leakages in Vision-Language Models",
+    "summary" : "Vision-Language Models (VLMs) combine visual and textual understanding,\nrendering them well-suited for diverse tasks like generating image captions and\nanswering visual questions across various domains. However, these capabilities\nare built upon training on large amount of uncurated data crawled from the web.\nThe latter may include sensitive information that VLMs could memorize and leak,\nraising significant privacy concerns. In this paper, we assess whether these\nvulnerabilities exist, focusing on identity leakage. Our study leads to three\nkey findings: (i) VLMs leak identity information, even when the vision-language\nalignment and the fine-tuning use anonymized data; (ii) context has little\ninfluence on identity leakage; (iii) simple, widely used anonymization\ntechniques, like blurring, are not sufficient to address the problem. These\nfindings underscore the urgent need for robust privacy protection strategies\nwhen deploying VLMs. Ethical awareness and responsible development practices\nare essential to mitigate these risks.",
+    "updated" : "2024-08-02T12:36:13Z",
+    "published" : "2024-08-02T12:36:13Z",
+    "authors" : [
+      {
+        "name" : "Simone Caldarella"
+      },
+      {
+        "name" : "Massimiliano Mancini"
+      },
+      {
+        "name" : "Elisa Ricci"
+      },
+      {
+        "name" : "Rahaf Aljundi"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2408.01040v1",
+    "title" : "Privacy-Preserving Split Learning with Vision Transformers using\n  Patch-Wise Random and Noisy CutMix",
+    "summary" : "In computer vision, the vision transformer (ViT) has increasingly superseded\nthe convolutional neural network (CNN) for improved accuracy and robustness.\nHowever, ViT's large model sizes and high sample complexity make it difficult\nto train on resource-constrained edge devices. Split learning (SL) emerges as a\nviable solution, leveraging server-side resources to train ViTs while utilizing\nprivate data from distributed devices. However, SL requires additional\ninformation exchange for weight updates between the device and the server,\nwhich can be exposed to various attacks on private training data. To mitigate\nthe risk of data breaches in classification tasks, inspired from the CutMix\nregularization, we propose a novel privacy-preserving SL framework that injects\nGaussian noise into smashed data and mixes randomly chosen patches of smashed\ndata across clients, coined DP-CutMixSL. Our analysis demonstrates that\nDP-CutMixSL is a differentially private (DP) mechanism that strengthens privacy\nprotection against membership inference attacks during forward propagation.\nThrough simulations, we show that DP-CutMixSL improves privacy protection\nagainst membership inference attacks, reconstruction attacks, and label\ninference attacks, while also improving accuracy compared to DP-SL and\nDP-MixSL.",
+    "updated" : "2024-08-02T06:24:39Z",
+    "published" : "2024-08-02T06:24:39Z",
+    "authors" : [
+      {
+        "name" : "Seungeun Oh"
+      },
+      {
+        "name" : "Sihun Baek"
+      },
+      {
+        "name" : "Jihong Park"
+      },
+      {
+        "name" : "Hyelin Nam"
+      },
+      {
+        "name" : "Praneeth Vepakomma"
+      },
+      {
+        "name" : "Ramesh Raskar"
+      },
+      {
+        "name" : "Mehdi Bennis"
+      },
+      {
+        "name" : "Seong-Lyun Kim"
+      }
+    ],
+    "categories" : [
+      "cs.DC",
+      "cs.CR",
+      "cs.CV",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2408.00950v1",
+    "title" : "PrivateGaze: Preserving User Privacy in Black-box Mobile Gaze Tracking\n  Services",
+    "summary" : "Eye gaze contains rich information about human attention and cognitive\nprocesses. This capability makes the underlying technology, known as gaze\ntracking, a critical enabler for many ubiquitous applications and has triggered\nthe development of easy-to-use gaze estimation services. Indeed, by utilizing\nthe ubiquitous cameras on tablets and smartphones, users can readily access\nmany gaze estimation services. In using these services, users must provide\ntheir full-face images to the gaze estimator, which is often a black box. This\nposes significant privacy threats to the users, especially when a malicious\nservice provider gathers a large collection of face images to classify\nsensitive user attributes. In this work, we present PrivateGaze, the first\napproach that can effectively preserve users' privacy in black-box gaze\ntracking services without compromising gaze estimation performance.\nSpecifically, we proposed a novel framework to train a privacy preserver that\nconverts full-face images into obfuscated counterparts, which are effective for\ngaze estimation while containing no privacy information. Evaluation on four\ndatasets shows that the obfuscated image can protect users' private\ninformation, such as identity and gender, against unauthorized attribute\nclassification. Meanwhile, when used directly by the black-box gaze estimator\nas inputs, the obfuscated images lead to comparable tracking performance to the\nconventional, unprotected full-face images.",
+    "updated" : "2024-08-01T23:11:03Z",
+    "published" : "2024-08-01T23:11:03Z",
+    "authors" : [
+      {
+        "name" : "Lingyu Du"
+      },
+      {
+        "name" : "Jinyuan Jia"
+      },
+      {
+        "name" : "Xucong Zhang"
+      },
+      {
+        "name" : "Guohao Lan"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
   }
 ]
