@@ -160,5 +160,104 @@
     "categories" : [
       "cs.CV"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2408.02373v1",
+    "title" : "Operationalizing Contextual Integrity in Privacy-Conscious Assistants",
+    "summary" : "Advanced AI assistants combine frontier LLMs and tool access to autonomously\nperform complex tasks on behalf of users. While the helpfulness of such\nassistants can increase dramatically with access to user information including\nemails and documents, this raises privacy concerns about assistants sharing\ninappropriate information with third parties without user supervision. To steer\ninformation-sharing assistants to behave in accordance with privacy\nexpectations, we propose to operationalize $\\textit{contextual integrity}$\n(CI), a framework that equates privacy with the appropriate flow of information\nin a given context. In particular, we design and evaluate a number of\nstrategies to steer assistants' information-sharing actions to be CI compliant.\nOur evaluation is based on a novel form filling benchmark composed of synthetic\ndata and human annotations, and it reveals that prompting frontier LLMs to\nperform CI-based reasoning yields strong results.",
+    "updated" : "2024-08-05T10:53:51Z",
+    "published" : "2024-08-05T10:53:51Z",
+    "authors" : [
+      {
+        "name" : "Sahra Ghalebikesabi"
+      },
+      {
+        "name" : "Eugene Bagdasaryan"
+      },
+      {
+        "name" : "Ren Yi"
+      },
+      {
+        "name" : "Itay Yona"
+      },
+      {
+        "name" : "Ilia Shumailov"
+      },
+      {
+        "name" : "Aneesh Pappu"
+      },
+      {
+        "name" : "Chongyang Shi"
+      },
+      {
+        "name" : "Laura Weidinger"
+      },
+      {
+        "name" : "Robert Stanforth"
+      },
+      {
+        "name" : "Leonard Berrada"
+      },
+      {
+        "name" : "Pushmeet Kohli"
+      },
+      {
+        "name" : "Po-Sen Huang"
+      },
+      {
+        "name" : "Borja Balle"
+      }
+    ],
+    "categories" : [
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2408.01711v1",
+    "title" : "Privacy in networks of quantum sensors",
+    "summary" : "We treat privacy in a network of quantum sensors where accessible information\nis limited to specific functions of the network parameters, and all other\ninformation remains private. We develop an analysis of privacy in terms of a\nmanipulation of the quantum Fisher information matrix, and find the optimal\nstate achieving maximum privacy in the estimation of linear combination of the\nunknown parameters in a network of quantum sensors. We also discuss the effect\nof uncorrelated noise on the privacy of the network. Moreover, we illustrate\nour results with an example where the goal is to estimate the average value of\nthe unknown parameters in the network. In this example, we also introduce the\nnotion of quasi-privacy ($\\epsilon$-privacy), quantifying how close the state\nis to being private.",
+    "updated" : "2024-08-03T08:39:44Z",
+    "published" : "2024-08-03T08:39:44Z",
+    "authors" : [
+      {
+        "name" : "Majid Hassani"
+      },
+      {
+        "name" : "Santiago Scheiner"
+      },
+      {
+        "name" : "Matteo G. A. Paris"
+      },
+      {
+        "name" : "Damian Markham"
+      }
+    ],
+    "categories" : [
+      "quant-ph"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2408.01609v1",
+    "title" : "Fed-RD: Privacy-Preserving Federated Learning for Financial Crime\n  Detection",
+    "summary" : "We introduce Federated Learning for Relational Data (Fed-RD), a novel\nprivacy-preserving federated learning algorithm specifically developed for\nfinancial transaction datasets partitioned vertically and horizontally across\nparties. Fed-RD strategically employs differential privacy and secure\nmultiparty computation to guarantee the privacy of training data. We provide\ntheoretical analysis of the end-to-end privacy of the training algorithm and\npresent experimental results on realistic synthetic datasets. Our results\ndemonstrate that Fed-RD achieves high model accuracy with minimal degradation\nas privacy increases, while consistently surpassing benchmark results.",
+    "updated" : "2024-08-03T00:07:10Z",
+    "published" : "2024-08-03T00:07:10Z",
+    "authors" : [
+      {
+        "name" : "Md. Saikat Islam Khan"
+      },
+      {
+        "name" : "Aparna Gupta"
+      },
+      {
+        "name" : "Oshani Seneviratne"
+      },
+      {
+        "name" : "Stacy Patterson"
+      }
+    ],
+    "categories" : [
+      "cs.CE"
+    ]
   }
 ]
