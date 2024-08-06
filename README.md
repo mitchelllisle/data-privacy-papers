@@ -2,6 +2,73 @@
 <h2>2024-08</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.02373v1">Operationalizing Contextual Integrity in Privacy-Conscious Assistants</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-08-05T10:53:51Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Sahra Ghalebikesabi, Eugene Bagdasaryan, Ren Yi, Itay Yona, Ilia Shumailov, Aneesh Pappu, Chongyang Shi, Laura Weidinger, Robert Stanforth, Leonard Berrada, Pushmeet Kohli, Po-Sen Huang, Borja Balle</p>
+    <p><b>Summary:</b> Advanced AI assistants combine frontier LLMs and tool access to autonomously
+perform complex tasks on behalf of users. While the helpfulness of such
+assistants can increase dramatically with access to user information including
+emails and documents, this raises privacy concerns about assistants sharing
+inappropriate information with third parties without user supervision. To steer
+information-sharing assistants to behave in accordance with privacy
+expectations, we propose to operationalize $\textit{contextual integrity}$
+(CI), a framework that equates privacy with the appropriate flow of information
+in a given context. In particular, we design and evaluate a number of
+strategies to steer assistants' information-sharing actions to be CI compliant.
+Our evaluation is based on a novel form filling benchmark composed of synthetic
+data and human annotations, and it reveals that prompting frontier LLMs to
+perform CI-based reasoning yields strong results.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.01711v1">Privacy in networks of quantum sensors</a></h3>
+  
+  <p><b>Published on:</b> 2024-08-03T08:39:44Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Majid Hassani, Santiago Scheiner, Matteo G. A. Paris, Damian Markham</p>
+    <p><b>Summary:</b> We treat privacy in a network of quantum sensors where accessible information
+is limited to specific functions of the network parameters, and all other
+information remains private. We develop an analysis of privacy in terms of a
+manipulation of the quantum Fisher information matrix, and find the optimal
+state achieving maximum privacy in the estimation of linear combination of the
+unknown parameters in a network of quantum sensors. We also discuss the effect
+of uncorrelated noise on the privacy of the network. Moreover, we illustrate
+our results with an example where the goal is to estimate the average value of
+the unknown parameters in the network. In this example, we also introduce the
+notion of quasi-privacy ($\epsilon$-privacy), quantifying how close the state
+is to being private.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.01609v1">Fed-RD: Privacy-Preserving Federated Learning for Financial Crime
+  Detection</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computational Engineering, Finance, and Science-5BC0EB">
+  <p><b>Published on:</b> 2024-08-03T00:07:10Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Md. Saikat Islam Khan, Aparna Gupta, Oshani Seneviratne, Stacy Patterson</p>
+    <p><b>Summary:</b> We introduce Federated Learning for Relational Data (Fed-RD), a novel
+privacy-preserving federated learning algorithm specifically developed for
+financial transaction datasets partitioned vertically and horizontally across
+parties. Fed-RD strategically employs differential privacy and secure
+multiparty computation to guarantee the privacy of training data. We provide
+theoretical analysis of the end-to-end privacy of the training algorithm and
+present experimental results on realistic synthetic datasets. Our results
+demonstrate that Fed-RD achieves high model accuracy with minimal degradation
+as privacy increases, while consistently surpassing benchmark results.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2408.01228v1">The Phantom Menace: Unmasking Privacy Leakages in Vision-Language Models</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
   <p><b>Published on:</b> 2024-08-02T12:36:13Z</p>
@@ -1478,6 +1545,40 @@ analyses.</p>
 
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.01428v1">Transferable Adversarial Facial Images for Privacy Protection</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-07-18T02:16:11Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Minghui Li, Jiangxiong Wang, Hao Zhang, Ziqi Zhou, Shengshan Hu, Xiaobing Pei</p>
+    <p><b>Summary:</b> The success of deep face recognition (FR) systems has raised serious privacy
+concerns due to their ability to enable unauthorized tracking of users in the
+digital world. Previous studies proposed introducing imperceptible adversarial
+noises into face images to deceive those face recognition models, thus
+achieving the goal of enhancing facial privacy protection. Nevertheless, they
+heavily rely on user-chosen references to guide the generation of adversarial
+noises, and cannot simultaneously construct natural and highly transferable
+adversarial face images in black-box scenarios. In light of this, we present a
+novel face privacy protection scheme with improved transferability while
+maintain high visual quality. We propose shaping the entire face space directly
+instead of exploiting one kind of facial characteristic like makeup information
+to integrate adversarial noises. To achieve this goal, we first exploit global
+adversarial latent search to traverse the latent space of the generative model,
+thereby creating natural adversarial face images with high transferability. We
+then introduce a key landmark regularization module to preserve the visual
+identity information. Finally, we investigate the impacts of various kinds of
+latent spaces and find that $\mathcal{F}$ latent space benefits the trade-off
+between visual naturalness and adversarial transferability. Extensive
+experiments over two datasets demonstrate that our approach significantly
+enhances attack transferability while maintaining high visual quality,
+outperforming state-of-the-art methods by an average 25% improvement in deep FR
+models and 10% improvement on commercial FR APIs, including Face++, Aliyun, and
+Tencent.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2407.12669v1">Enhancing the Utility of Privacy-Preserving Cancer Classification using
   Synthetic Data</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
@@ -2790,113 +2891,6 @@ find that although some token mapping functions are easy and straightforward to
 implement, they heavily influence performance on the downstream task, and via a
 sophisticated attacker can be reconstructed. In comparison, the contextualized
 manipulation provides an improvement in performance.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.01167v1">Information Density Bounds for Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
-  <p><b>Published on:</b> 2024-07-01T10:38:02Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Sara Saeidian, Leonhard Grosse, Parastoo Sadeghi, Mikael Skoglund, Tobias J. Oechtering</p>
-    <p><b>Summary:</b> This paper explores the implications of guaranteeing privacy by imposing a
-lower bound on the information density between the private and the public data.
-We introduce an operationally meaningful privacy measure called pointwise
-maximal cost (PMC) and demonstrate that imposing an upper bound on PMC is
-equivalent to enforcing a lower bound on the information density. PMC
-quantifies the information leakage about a secret to adversaries who aim to
-minimize non-negative cost functions after observing the outcome of a privacy
-mechanism. When restricted to finite alphabets, PMC can equivalently be defined
-as the information leakage to adversaries aiming to minimize the probability of
-incorrectly guessing randomized functions of the secret. We study the
-properties of PMC and apply it to standard privacy mechanisms to demonstrate
-its practical relevance. Through a detailed examination, we connect PMC with
-other privacy measures that impose upper or lower bounds on the information
-density. Our results highlight that lower bounding the information density is a
-more stringent requirement than upper bounding it. Overall, our work
-significantly bridges the gaps in understanding the relationships between
-various privacy frameworks and provides insights for selecting a suitable
-framework for a given application.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.00991v1">Pre-capture Privacy via Adaptive Single-Pixel Imaging</a></h3>
-  
-  <p><b>Published on:</b> 2024-07-01T06:05:12Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yoko Sogabe, Shiori Sugimoto, Ayumi Matsumoto, Masaki Kitahara</p>
-    <p><b>Summary:</b> As cameras become ubiquitous in our living environment, invasion of privacy
-is becoming a growing concern. A common approach to privacy preservation is to
-remove personally identifiable information from a captured image, but there is
-a risk of the original image being leaked. In this paper, we propose a
-pre-capture privacy-aware imaging method that captures images from which the
-details of a pre-specified anonymized target have been eliminated. The proposed
-method applies a single-pixel imaging framework in which we introduce a
-feedback mechanism called an aperture pattern generator. The introduced
-aperture pattern generator adaptively outputs the next aperture pattern to
-avoid sampling the anonymized target by exploiting the data already acquired as
-a clue. Furthermore, the anonymized target can be set to any object without
-changing hardware. Except for detailed features which have been removed from
-the anonymized target, the captured images are of comparable quality to those
-captured by a general camera and can be used for various computer vision
-applications. In our work, we target faces and license plates and
-experimentally show that the proposed method can capture clear images in which
-detailed features of the anonymized target are eliminated to achieve both
-privacy and utility.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.00873v1">Privacy-First Crowdsourcing: Blockchain and Local Differential Privacy
-  in Crowdsourced Drone Services</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
-  <p><b>Published on:</b> 2024-07-01T00:46:25Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Junaid Akram, Ali Anaissi</p>
-    <p><b>Summary:</b> We introduce a privacy-preserving framework for integrating consumer-grade
-drones into bushfire management. This system creates a marketplace where
-bushfire management authorities obtain essential data from drone operators. Key
-features include local differential privacy to protect data providers and a
-blockchain-based solution ensuring fair data exchanges and accountability. The
-framework is validated through a proof-of-concept implementation, demonstrating
-its scalability and potential for various large-scale data collection
-scenarios. This approach addresses privacy concerns and compliance with
-regulations like Australia's Privacy Act 1988, offering a practical solution
-for enhancing bushfire detection and management through crowdsourced drone
-services.</p>
-  </details>
-</div>
-
-
-
-<h2>2024-06</h2>
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.00764v1">Characterizing Stereotypical Bias from Privacy-preserving Pre-Training</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2024-06-30T16:54:43Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Stefan Arnold, Rene Gröbner, Annika Schreiner</p>
-    <p><b>Summary:</b> Differential Privacy (DP) can be applied to raw text by exploiting the
-spatial arrangement of words in an embedding space. We investigate the
-implications of such text privatization on Language Models (LMs) and their
-tendency towards stereotypical associations. Since previous studies documented
-that linguistic proficiency correlates with stereotypical bias, one could
-assume that techniques for text privatization, which are known to degrade
-language modeling capabilities, would cancel out undesirable biases. By testing
-BERT models trained on texts containing biased statements primed with varying
-degrees of privacy, our study reveals that while stereotypical bias generally
-diminishes when privacy is tightened, text privatization does not uniformly
-equate to diminishing bias across all social domains. This highlights the need
-for careful diagnosis of bias in LMs that undergo text privatization.</p>
   </details>
 </div>
 
