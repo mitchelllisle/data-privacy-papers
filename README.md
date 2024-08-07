@@ -2,6 +2,97 @@
 <h2>2024-08</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.03185v1">MaskAnyone Toolkit: Offering Strategies for Minimizing Privacy Risks and
+  Maximizing Utility in Audio-Visual Data Archiving</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Multimedia-5BC0EB">
+  <p><b>Published on:</b> 2024-08-06T13:35:27Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Babajide Alamu Owoyele, Martin Schilling, Rohan Sawahn, Niklas Kaemer, Pavel Zherebenkov, Bhuvanesh Verma, Wim Pouw, Gerard de Melo</p>
+    <p><b>Summary:</b> This paper introduces MaskAnyone, a novel toolkit designed to navigate some
+privacy and ethical concerns of sharing audio-visual data in research.
+MaskAnyone offers a scalable, user-friendly solution for de-identifying
+individuals in video and audio content through face-swapping and voice
+alteration, supporting multi-person masking and real-time bulk processing. By
+integrating this tool within research practices, we aim to enhance data
+reproducibility and utility in social science research. Our approach draws on
+Design Science Research, proposing that MaskAnyone can facilitate safer data
+sharing and potentially reduce the storage of fully identifiable data. We
+discuss the development and capabilities of MaskAnyone, explore its integration
+into ethical research practices, and consider the broader implications of
+audio-visual data masking, including issues of consent and the risk of misuse.
+The paper concludes with a preliminary evaluation framework for assessing the
+effectiveness and ethical integration of masking tools in such research
+settings.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.02927v1">HARMONIC: Harnessing LLMs for Tabular Data Synthesis and Privacy
+  Protection</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-08-06T03:21:13Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yuxin Wang, Duanyu Feng, Yongfu Dai, Zhengyu Chen, Jimin Huang, Sophia Ananiadou, Qianqian Xie, Hao Wang</p>
+    <p><b>Summary:</b> Data serves as the fundamental foundation for advancing deep learning,
+particularly tabular data presented in a structured format, which is highly
+conducive to modeling. However, even in the era of LLM, obtaining tabular data
+from sensitive domains remains a challenge due to privacy or copyright
+concerns. Hence, exploring how to effectively use models like LLMs to generate
+realistic and privacy-preserving synthetic tabular data is urgent. In this
+paper, we take a step forward to explore LLMs for tabular data synthesis and
+privacy protection, by introducing a new framework HARMONIC for tabular data
+generation and evaluation. In the tabular data generation of our framework,
+unlike previous small-scale LLM-based methods that rely on continued
+pre-training, we explore the larger-scale LLMs with fine-tuning to generate
+tabular data and enhance privacy. Based on idea of the k-nearest neighbors
+algorithm, an instruction fine-tuning dataset is constructed to inspire LLMs to
+discover inter-row relationships. Then, with fine-tuning, LLMs are trained to
+remember the format and connections of the data rather than the data itself,
+which reduces the risk of privacy leakage. In the evaluation part of our
+framework, we develop specific privacy risk metrics DLT for LLM synthetic data
+generation, as well as performance evaluation metrics LLE for downstream LLM
+tasks. Our experiments find that this tabular data generation framework
+achieves equivalent performance to existing methods with better privacy, which
+also demonstrates our evaluation framework for the effectiveness of synthetic
+data and privacy risks in LLM scenarios.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.02750v1">Privacy-Safe Iris Presentation Attack Detection</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> 
+  <p><b>Published on:</b> 2024-08-05T18:09:02Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mahsa Mitcheff, Patrick Tinsley, Adam Czajka</p>
+    <p><b>Summary:</b> This paper proposes a framework for a privacy-safe iris presentation attack
+detection (PAD) method, designed solely with synthetically-generated,
+identity-leakage-free iris images. Once trained, the method is evaluated in a
+classical way using state-of-the-art iris PAD benchmarks. We designed two
+generative models for the synthesis of ISO/IEC 19794-6-compliant iris images.
+The first model synthesizes bona fide-looking samples. To avoid ``identity
+leakage,'' the generated samples that accidentally matched those used in the
+model's training were excluded. The second model synthesizes images of irises
+with textured contact lenses and is conditioned by a given contact lens brand
+to have better control over textured contact lens appearance when forming the
+training set. Our experiments demonstrate that models trained solely on
+synthetic data achieve a lower but still reasonable performance when compared
+to solutions trained with iris images collected from human subjects. This is
+the first-of-its-kind attempt to use solely synthetic data to train a
+fully-functional iris PAD solution, and despite the performance gap between
+regular and the proposed methods, this study demonstrates that with the
+increasing fidelity of generative models, creating such privacy-safe iris PAD
+methods may be possible. The source codes and generative models trained for
+this work are offered along with the paper.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2408.02373v1">Operationalizing Contextual Integrity in Privacy-Conscious Assistants</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
   <p><b>Published on:</b> 2024-08-05T10:53:51Z</p>
@@ -2809,88 +2900,6 @@ when training privacy-preserving ML models substantially improves model
 accuracy for the same risk level. Our work provides a principled and practical
 way to improve the utility of privacy-preserving ML without compromising on
 privacy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.02027v1">Privacy Risks of General-Purpose AI Systems: A Foundation for
-  Investigating Practitioner Perspectives</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2024-07-02T07:49:48Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Stephen Meisenbacher, Alexandra Klymenko, Patrick Gage Kelley, Sai Teja Peddinti, Kurt Thomas, Florian Matthes</p>
-    <p><b>Summary:</b> The rise of powerful AI models, more formally $\textit{General-Purpose AI
-Systems}$ (GPAIS), has led to impressive leaps in performance across a wide
-range of tasks. At the same time, researchers and practitioners alike have
-raised a number of privacy concerns, resulting in a wealth of literature
-covering various privacy risks and vulnerabilities of AI models. Works
-surveying such risks provide differing focuses, leading to disparate sets of
-privacy risks with no clear unifying taxonomy. We conduct a systematic review
-of these survey papers to provide a concise and usable overview of privacy
-risks in GPAIS, as well as proposed mitigation strategies. The developed
-privacy framework strives to unify the identified privacy risks and mitigations
-at a technical level that is accessible to non-experts. This serves as the
-basis for a practitioner-focused interview study to assess technical
-stakeholder perceptions of privacy risks and mitigations in GPAIS.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.01817v1">Race and Privacy in Broadcast Police Communications</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2024-07-01T21:34:51Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Pranav Narayanan Venkit, Christopher Graziul, Miranda Ardith Goodman, Samantha Nicole Kenny, Shomir Wilson</p>
-    <p><b>Summary:</b> Radios are essential for the operations of modern police departments, and
-they function as both a collaborative communication technology and a
-sociotechnical system. However, little prior research has examined their usage
-or their connections to individual privacy and the role of race in policing,
-two growing topics of concern in the US. As a case study, we examine the
-Chicago Police Department's (CPD's) use of broadcast police communications
-(BPC) to coordinate the activity of law enforcement officers (LEOs) in the
-city. From a recently assembled archive of 80,775 hours of BPC associated with
-CPD operations, we analyze text transcripts of radio transmissions broadcast
-9:00 AM to 5:00 PM on August 10th, 2018 in one majority Black, one majority
-white, and one majority Hispanic area of the city (24 hours of audio) to
-explore three research questions: (1) Do BPC reflect reported racial
-disparities in policing? (2) How and when is gender, race/ethnicity, and age
-mentioned in BPC? (3) To what extent do BPC include sensitive information, and
-who is put at most risk by this practice? (4) To what extent can large language
-models (LLMs) heighten this risk? We explore the vocabulary and speech acts
-used by police in BPC, comparing mentions of personal characteristics to local
-demographics, the personal information shared over BPC, and the privacy
-concerns that it poses. Analysis indicates (a) policing professionals in the
-city of Chicago exhibit disproportionate attention to Black members of the
-public regardless of context, (b) sociodemographic characteristics like gender,
-race/ethnicity, and age are primarily mentioned in BPC about event information,
-and (c) disproportionate attention introduces disproportionate privacy risks
-for Black members of the public.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.01334v2">Protecting Privacy in Classifiers by Token Manipulation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-07-01T14:41:59Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Re'em Harel, Yair Elboher, Yuval Pinter</p>
-    <p><b>Summary:</b> Using language models as a remote service entails sending private information
-to an untrusted provider. In addition, potential eavesdroppers can intercept
-the messages, thereby exposing the information. In this work, we explore the
-prospects of avoiding such data exposure at the level of text manipulation. We
-focus on text classification models, examining various token mapping and
-contextualized manipulation functions in order to see whether classifier
-accuracy may be maintained while keeping the original text unrecoverable. We
-find that although some token mapping functions are easy and straightforward to
-implement, they heavily influence performance on the downstream task, and via a
-sophisticated attacker can be reconstructed. In comparison, the contextualized
-manipulation provides an improvement in performance.</p>
   </details>
 </div>
 
