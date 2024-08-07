@@ -259,5 +259,103 @@
     "categories" : [
       "cs.CE"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2408.03185v1",
+    "title" : "MaskAnyone Toolkit: Offering Strategies for Minimizing Privacy Risks and\n  Maximizing Utility in Audio-Visual Data Archiving",
+    "summary" : "This paper introduces MaskAnyone, a novel toolkit designed to navigate some\nprivacy and ethical concerns of sharing audio-visual data in research.\nMaskAnyone offers a scalable, user-friendly solution for de-identifying\nindividuals in video and audio content through face-swapping and voice\nalteration, supporting multi-person masking and real-time bulk processing. By\nintegrating this tool within research practices, we aim to enhance data\nreproducibility and utility in social science research. Our approach draws on\nDesign Science Research, proposing that MaskAnyone can facilitate safer data\nsharing and potentially reduce the storage of fully identifiable data. We\ndiscuss the development and capabilities of MaskAnyone, explore its integration\ninto ethical research practices, and consider the broader implications of\naudio-visual data masking, including issues of consent and the risk of misuse.\nThe paper concludes with a preliminary evaluation framework for assessing the\neffectiveness and ethical integration of masking tools in such research\nsettings.",
+    "updated" : "2024-08-06T13:35:27Z",
+    "published" : "2024-08-06T13:35:27Z",
+    "authors" : [
+      {
+        "name" : "Babajide Alamu Owoyele"
+      },
+      {
+        "name" : "Martin Schilling"
+      },
+      {
+        "name" : "Rohan Sawahn"
+      },
+      {
+        "name" : "Niklas Kaemer"
+      },
+      {
+        "name" : "Pavel Zherebenkov"
+      },
+      {
+        "name" : "Bhuvanesh Verma"
+      },
+      {
+        "name" : "Wim Pouw"
+      },
+      {
+        "name" : "Gerard de Melo"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.MM"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2408.02927v1",
+    "title" : "HARMONIC: Harnessing LLMs for Tabular Data Synthesis and Privacy\n  Protection",
+    "summary" : "Data serves as the fundamental foundation for advancing deep learning,\nparticularly tabular data presented in a structured format, which is highly\nconducive to modeling. However, even in the era of LLM, obtaining tabular data\nfrom sensitive domains remains a challenge due to privacy or copyright\nconcerns. Hence, exploring how to effectively use models like LLMs to generate\nrealistic and privacy-preserving synthetic tabular data is urgent. In this\npaper, we take a step forward to explore LLMs for tabular data synthesis and\nprivacy protection, by introducing a new framework HARMONIC for tabular data\ngeneration and evaluation. In the tabular data generation of our framework,\nunlike previous small-scale LLM-based methods that rely on continued\npre-training, we explore the larger-scale LLMs with fine-tuning to generate\ntabular data and enhance privacy. Based on idea of the k-nearest neighbors\nalgorithm, an instruction fine-tuning dataset is constructed to inspire LLMs to\ndiscover inter-row relationships. Then, with fine-tuning, LLMs are trained to\nremember the format and connections of the data rather than the data itself,\nwhich reduces the risk of privacy leakage. In the evaluation part of our\nframework, we develop specific privacy risk metrics DLT for LLM synthetic data\ngeneration, as well as performance evaluation metrics LLE for downstream LLM\ntasks. Our experiments find that this tabular data generation framework\nachieves equivalent performance to existing methods with better privacy, which\nalso demonstrates our evaluation framework for the effectiveness of synthetic\ndata and privacy risks in LLM scenarios.",
+    "updated" : "2024-08-06T03:21:13Z",
+    "published" : "2024-08-06T03:21:13Z",
+    "authors" : [
+      {
+        "name" : "Yuxin Wang"
+      },
+      {
+        "name" : "Duanyu Feng"
+      },
+      {
+        "name" : "Yongfu Dai"
+      },
+      {
+        "name" : "Zhengyu Chen"
+      },
+      {
+        "name" : "Jimin Huang"
+      },
+      {
+        "name" : "Sophia Ananiadou"
+      },
+      {
+        "name" : "Qianqian Xie"
+      },
+      {
+        "name" : "Hao Wang"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2408.02750v1",
+    "title" : "Privacy-Safe Iris Presentation Attack Detection",
+    "summary" : "This paper proposes a framework for a privacy-safe iris presentation attack\ndetection (PAD) method, designed solely with synthetically-generated,\nidentity-leakage-free iris images. Once trained, the method is evaluated in a\nclassical way using state-of-the-art iris PAD benchmarks. We designed two\ngenerative models for the synthesis of ISO/IEC 19794-6-compliant iris images.\nThe first model synthesizes bona fide-looking samples. To avoid ``identity\nleakage,'' the generated samples that accidentally matched those used in the\nmodel's training were excluded. The second model synthesizes images of irises\nwith textured contact lenses and is conditioned by a given contact lens brand\nto have better control over textured contact lens appearance when forming the\ntraining set. Our experiments demonstrate that models trained solely on\nsynthetic data achieve a lower but still reasonable performance when compared\nto solutions trained with iris images collected from human subjects. This is\nthe first-of-its-kind attempt to use solely synthetic data to train a\nfully-functional iris PAD solution, and despite the performance gap between\nregular and the proposed methods, this study demonstrates that with the\nincreasing fidelity of generative models, creating such privacy-safe iris PAD\nmethods may be possible. The source codes and generative models trained for\nthis work are offered along with the paper.",
+    "updated" : "2024-08-05T18:09:02Z",
+    "published" : "2024-08-05T18:09:02Z",
+    "authors" : [
+      {
+        "name" : "Mahsa Mitcheff"
+      },
+      {
+        "name" : "Patrick Tinsley"
+      },
+      {
+        "name" : "Adam Czajka"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "eess.IV"
+    ]
   }
 ]
