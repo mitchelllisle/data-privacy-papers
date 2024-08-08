@@ -2,6 +2,55 @@
 <h2>2024-08</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.03897v1">Speech privacy-preserving methods using secret key for convolutional
+  neural network models and their robustness evaluation</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Sound-D91E36">
+  <p><b>Published on:</b> 2024-08-07T16:51:39Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shoko Niwa, Sayaka Shiota, Hitoshi Kiya</p>
+    <p><b>Summary:</b> In this paper, we propose privacy-preserving methods with a secret key for
+convolutional neural network (CNN)-based models in speech processing tasks. In
+environments where untrusted third parties, like cloud servers, provide
+CNN-based systems, ensuring the privacy of speech queries becomes essential.
+This paper proposes encryption methods for speech queries using secret keys and
+a model structure that allows for encrypted queries to be accepted without
+decryption. Our approach introduces three types of secret keys: Shuffling,
+Flipping, and random orthogonal matrix (ROM). In experiments, we demonstrate
+that when the proposed methods are used with the correct key, identification
+performance did not degrade. Conversely, when an incorrect key is used, the
+performance significantly decreased. Particularly, with the use of ROM, we show
+that even with a relatively small key space, high privacy-preserving
+performance can be maintained many speech processing tasks. Furthermore, we
+also demonstrate the difficulty of recovering original speech from encrypted
+queries in various robustness evaluations.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.03578v1">Unraveling Privacy Threat Modeling Complexity: Conceptual Privacy
+  Analysis Layers</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-08-07T06:30:20Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Kim Wuyts, Avi Douglen</p>
+    <p><b>Summary:</b> Analyzing privacy threats in software products is an essential part of
+software development to ensure systems are privacy-respecting; yet it is still
+a far from trivial activity. While there have been many advancements in the
+past decade, they tend to focus on describing 'what' the threats are. What
+isn't entirely clear yet is 'how' to actually find these threats. Privacy is a
+complex domain. We propose to use four conceptual layers (feature, ecosystem,
+business context, and environment) to capture this privacy complexity. These
+layers can be used as a frame to structure and specify the privacy analysis
+support in a more tangible and actionable way, thereby improving applicability
+of the analysis process.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2408.03185v1">MaskAnyone Toolkit: Offering Strategies for Minimizing Privacy Risks and
   Maximizing Utility in Audio-Visual Data Archiving</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Multimedia-5BC0EB">
@@ -2838,68 +2887,6 @@ their utility to render data and model privacy and also their capability to
 chalk out a privacy-performance tradeoff in most scenarios. The results can aid
 the practitioners with their choice of classifiers in different scenarios and
 contexts.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.02226v1">RollupTheCrowd: Leveraging ZkRollups for a Scalable and
-  Privacy-Preserving Reputation-based Crowdsourcing Platform</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
-  <p><b>Published on:</b> 2024-07-02T12:51:32Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ahmed Mounsf Rafik Bendada, Mouhamed Amine Bouchiha, Mourad Rabah, Yacine Ghamri-Doudane</p>
-    <p><b>Summary:</b> Current blockchain-based reputation solutions for crowdsourcing fail to
-tackle the challenge of ensuring both efficiency and privacy without
-compromising the scalability of the blockchain. Developing an effective,
-transparent, and privacy-preserving reputation model necessitates on-chain
-implementation using smart contracts. However, managing task evaluation and
-reputation updates alongside crowdsourcing transactions on-chain substantially
-strains system scalability and performance. This paper introduces
-RollupTheCrowd, a novel blockchain-powered crowdsourcing framework that
-leverages zkRollups to enhance system scalability while protecting user
-privacy. Our framework includes an effective and privacy-preserving reputation
-model that gauges workers' trustworthiness by assessing their crowdsourcing
-interactions. To alleviate the load on our blockchain, we employ an off-chain
-storage scheme, optimizing RollupTheCrowd's performance. Utilizing smart
-contracts and zero-knowledge proofs, our Rollup layer achieves a significant
-20x reduction in gas consumption. To prove the feasibility of the proposed
-framework, we developed a proof-of-concept implementation using cutting-edge
-tools. The experimental results presented in this paper demonstrate the
-effectiveness and scalability of RollupTheCrowd, validating its potential for
-real-world application scenarios.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.02191v1">Attack-Aware Noise Calibration for Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36">  
-  <p><b>Published on:</b> 2024-07-02T11:49:59Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Bogdan Kulynych, Juan Felipe Gomez, Georgios Kaissis, Flavio du Pin Calmon, Carmela Troncoso</p>
-    <p><b>Summary:</b> Differential privacy (DP) is a widely used approach for mitigating privacy
-risks when training machine learning models on sensitive data. DP mechanisms
-add noise during training to limit the risk of information leakage. The scale
-of the added noise is critical, as it determines the trade-off between privacy
-and utility. The standard practice is to select the noise scale in terms of a
-privacy budget parameter $\epsilon$. This parameter is in turn interpreted in
-terms of operational attack risk, such as accuracy, or sensitivity and
-specificity of inference attacks against the privacy of the data. We
-demonstrate that this two-step procedure of first calibrating the noise scale
-to a privacy budget $\epsilon$, and then translating $\epsilon$ to attack risk
-leads to overly conservative risk assessments and unnecessarily low utility. We
-propose methods to directly calibrate the noise scale to a desired attack risk
-level, bypassing the intermediate step of choosing $\epsilon$. For a target
-attack risk, our approach significantly decreases noise scale, leading to
-increased utility at the same level of privacy. We empirically demonstrate that
-calibrating noise to attack sensitivity/specificity, rather than $\epsilon$,
-when training privacy-preserving ML models substantially improves model
-accuracy for the same risk level. Our work provides a principled and practical
-way to improve the utility of privacy-preserving ML without compromising on
-privacy.</p>
   </details>
 </div>
 
