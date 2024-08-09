@@ -398,5 +398,63 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2408.04315v1",
+    "title" : "Federated Cubic Regularized Newton Learning with\n  Sparsification-amplified Differential Privacy",
+    "summary" : "This paper investigates the use of the cubic-regularized Newton method within\na federated learning framework while addressing two major concerns that\ncommonly arise in federated learning: privacy leakage and communication\nbottleneck. We introduce a federated learning algorithm called Differentially\nPrivate Federated Cubic Regularized Newton (DP-FCRN). By leveraging\nsecond-order techniques, our algorithm achieves lower iteration complexity\ncompared to first-order methods. We also incorporate noise perturbation during\nlocal computations to ensure privacy. Furthermore, we employ sparsification in\nuplink transmission, which not only reduces the communication costs but also\namplifies the privacy guarantee. Specifically, this approach reduces the\nnecessary noise intensity without compromising privacy protection. We analyze\nthe convergence properties of our algorithm and establish the privacy\nguarantee. Finally, we validate the effectiveness of the proposed algorithm\nthrough experiments on a benchmark dataset.",
+    "updated" : "2024-08-08T08:48:54Z",
+    "published" : "2024-08-08T08:48:54Z",
+    "authors" : [
+      {
+        "name" : "Wei Huo"
+      },
+      {
+        "name" : "Changxin Liu"
+      },
+      {
+        "name" : "Kemi Ding"
+      },
+      {
+        "name" : "Karl Henrik Johansson"
+      },
+      {
+        "name" : "Ling Shi"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.SY",
+      "eess.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2408.04188v1",
+    "title" : "Trustworthy Semantic-Enabled 6G Communication: A Task-oriented and\n  Privacy-preserving Perspective",
+    "summary" : "Trustworthy task-oriented semantic communication (ToSC) emerges as an\ninnovative approach in the 6G landscape, characterized by the transmission of\nonly vital information that is directly pertinent to a specific task. While\nToSC offers an efficient mode of communication, it concurrently raises concerns\nregarding privacy, as sophisticated adversaries might possess the capability to\nreconstruct the original data from the transmitted features. This article\nprovides an in-depth analysis of privacy-preserving strategies specifically\ndesigned for ToSC relying on deep neural network-based joint source and channel\ncoding (DeepJSCC). The study encompasses a detailed comparative assessment of\ntrustworthy feature perturbation methods such as differential privacy and\nencryption, alongside intrinsic security incorporation approaches like\nadversarial learning to train the JSCC and learning-based vector quantization\n(LBVQ). This comparative analysis underscores the integration of advanced\nexplainable learning algorithms into communication systems, positing a new\nbenchmark for privacy standards in the forthcoming 6G era.",
+    "updated" : "2024-08-08T03:16:42Z",
+    "published" : "2024-08-08T03:16:42Z",
+    "authors" : [
+      {
+        "name" : "Shuaishuai Guo"
+      },
+      {
+        "name" : "Anbang Zhang"
+      },
+      {
+        "name" : "Yanhu Wang"
+      },
+      {
+        "name" : "Chenyuan Feng"
+      },
+      {
+        "name" : "Tony Q. S. Quek"
+      }
+    ],
+    "categories" : [
+      "eess.SP",
+      "cs.SY",
+      "eess.SY"
+    ]
   }
 ]
