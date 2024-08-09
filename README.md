@@ -2,6 +2,59 @@
 <h2>2024-08</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.04315v1">Federated Cubic Regularized Newton Learning with
+  Sparsification-amplified Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36"> 
+  <p><b>Published on:</b> 2024-08-08T08:48:54Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Wei Huo, Changxin Liu, Kemi Ding, Karl Henrik Johansson, Ling Shi</p>
+    <p><b>Summary:</b> This paper investigates the use of the cubic-regularized Newton method within
+a federated learning framework while addressing two major concerns that
+commonly arise in federated learning: privacy leakage and communication
+bottleneck. We introduce a federated learning algorithm called Differentially
+Private Federated Cubic Regularized Newton (DP-FCRN). By leveraging
+second-order techniques, our algorithm achieves lower iteration complexity
+compared to first-order methods. We also incorporate noise perturbation during
+local computations to ensure privacy. Furthermore, we employ sparsification in
+uplink transmission, which not only reduces the communication costs but also
+amplifies the privacy guarantee. Specifically, this approach reduces the
+necessary noise intensity without compromising privacy protection. We analyze
+the convergence properties of our algorithm and establish the privacy
+guarantee. Finally, we validate the effectiveness of the proposed algorithm
+through experiments on a benchmark dataset.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.04188v1">Trustworthy Semantic-Enabled 6G Communication: A Task-oriented and
+  Privacy-preserving Perspective</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36"> 
+  <p><b>Published on:</b> 2024-08-08T03:16:42Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shuaishuai Guo, Anbang Zhang, Yanhu Wang, Chenyuan Feng, Tony Q. S. Quek</p>
+    <p><b>Summary:</b> Trustworthy task-oriented semantic communication (ToSC) emerges as an
+innovative approach in the 6G landscape, characterized by the transmission of
+only vital information that is directly pertinent to a specific task. While
+ToSC offers an efficient mode of communication, it concurrently raises concerns
+regarding privacy, as sophisticated adversaries might possess the capability to
+reconstruct the original data from the transmitted features. This article
+provides an in-depth analysis of privacy-preserving strategies specifically
+designed for ToSC relying on deep neural network-based joint source and channel
+coding (DeepJSCC). The study encompasses a detailed comparative assessment of
+trustworthy feature perturbation methods such as differential privacy and
+encryption, alongside intrinsic security incorporation approaches like
+adversarial learning to train the JSCC and learning-based vector quantization
+(LBVQ). This comparative analysis underscores the integration of advanced
+explainable learning algorithms into communication systems, positing a new
+benchmark for privacy standards in the forthcoming 6G era.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2408.03897v1">Speech privacy-preserving methods using secret key for convolutional
   neural network models and their robustness evaluation</a></h3>
    <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Sound-D91E36">
@@ -2823,70 +2876,6 @@ while facilitating patient consent management. In this work, we propose a
 blockchain technology that integrates smart contracts to partially automate
 consent-related processes and ensuring that PHI access and sharing follow
 patient preferences and legal requirements.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.02747v1">Curvature Clues: Decoding Deep Learning Privacy with Input Loss
-  Curvature</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-07-03T01:47:46Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Deepak Ravikumar, Efstathia Soufleri, Kaushik Roy</p>
-    <p><b>Summary:</b> In this paper, we explore the properties of loss curvature with respect to
-input data in deep neural networks. Curvature of loss with respect to input
-(termed input loss curvature) is the trace of the Hessian of the loss with
-respect to the input. We investigate how input loss curvature varies between
-train and test sets, and its implications for train-test distinguishability. We
-develop a theoretical framework that derives an upper bound on the train-test
-distinguishability based on privacy and the size of the training set. This
-novel insight fuels the development of a new black box membership inference
-attack utilizing input loss curvature. We validate our theoretical findings
-through experiments in computer vision classification tasks, demonstrating that
-input loss curvature surpasses existing methods in membership inference
-effectiveness. Our analysis highlights how the performance of membership
-inference attack (MIA) methods varies with the size of the training set,
-showing that curvature-based MIA outperforms other methods on sufficiently
-large datasets. This condition is often met by real datasets, as demonstrated
-by our results on CIFAR10, CIFAR100, and ImageNet. These findings not only
-advance our understanding of deep neural network behavior but also improve the
-ability to test privacy-preserving techniques in machine learning.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.02268v1">Footprints of Data in a Classifier Model: The Privacy Issues and Their
-  Mitigation through Data Obfuscation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2024-07-02T13:56:37Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Payel Sadhukhan, Tanujit Chakraborty</p>
-    <p><b>Summary:</b> The avalanche of AI deployment and its security-privacy concerns are two
-sides of the same coin. Article 17 of GDPR calls for the Right to Erasure; data
-has to be obliterated from a system to prevent its compromise. Extant research
-in this aspect focuses on effacing sensitive data attributes. However, several
-passive modes of data compromise are yet to be recognized and redressed. The
-embedding of footprints of training data in a prediction model is one such
-facet; the difference in performance quality in test and training data causes
-passive identification of data that have trained the model. This research
-focuses on addressing the vulnerability arising from the data footprints. The
-three main aspects are -- i] exploring the vulnerabilities of different
-classifiers (to segregate the vulnerable and the non-vulnerable ones), ii]
-reducing the vulnerability of vulnerable classifiers (through data obfuscation)
-to preserve model and data privacy, and iii] exploring the privacy-performance
-tradeoff to study the usability of the data obfuscation techniques. An
-empirical study is conducted on three datasets and eight classifiers to explore
-the above objectives. The results of the initial research identify the
-vulnerability in classifiers and segregate the vulnerable and non-vulnerable
-classifiers. The additional experiments on data obfuscation techniques reveal
-their utility to render data and model privacy and also their capability to
-chalk out a privacy-performance tradeoff in most scenarios. The results can aid
-the practitioners with their choice of classifiers in different scenarios and
-contexts.</p>
   </details>
 </div>
 
