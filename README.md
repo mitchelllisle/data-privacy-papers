@@ -2,6 +2,146 @@
 <h2>2024-08</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.05212v1">Preserving Privacy in Large Language Models: A Survey on Current Threats
+  and Solutions</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-08-10T05:41:19Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Michele Miranda, Elena Sofia Ruzzetti, Andrea Santilli, Fabio Massimo Zanzotto, Sébastien Bratières, Emanuele Rodolà</p>
+    <p><b>Summary:</b> Large Language Models (LLMs) represent a significant advancement in
+artificial intelligence, finding applications across various domains. However,
+their reliance on massive internet-sourced datasets for training brings notable
+privacy issues, which are exacerbated in critical domains (e.g., healthcare).
+Moreover, certain application-specific scenarios may require fine-tuning these
+models on private data. This survey critically examines the privacy threats
+associated with LLMs, emphasizing the potential for these models to memorize
+and inadvertently reveal sensitive information. We explore current threats by
+reviewing privacy attacks on LLMs and propose comprehensive solutions for
+integrating privacy mechanisms throughout the entire learning pipeline. These
+solutions range from anonymizing training datasets to implementing differential
+privacy during training or inference and machine unlearning after training. Our
+comprehensive review of existing literature highlights ongoing challenges,
+available tools, and future directions for preserving privacy in LLMs. This
+work aims to guide the development of more secure and trustworthy AI systems by
+providing a thorough understanding of privacy preservation methods and their
+effectiveness in mitigating risks.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.05092v1">PriPHiT: Privacy-Preserving Hierarchical Training of Deep Neural
+  Networks</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">  
+  <p><b>Published on:</b> 2024-08-09T14:33:34Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yamin Sepehri, Pedram Pad, Pascal Frossard, L. Andrea Dunbar</p>
+    <p><b>Summary:</b> The training phase of deep neural networks requires substantial resources and
+as such is often performed on cloud servers. However, this raises privacy
+concerns when the training dataset contains sensitive content, e.g., face
+images. In this work, we propose a method to perform the training phase of a
+deep learning model on both an edge device and a cloud server that prevents
+sensitive content being transmitted to the cloud while retaining the desired
+information. The proposed privacy-preserving method uses adversarial early
+exits to suppress the sensitive content at the edge and transmits the
+task-relevant information to the cloud. This approach incorporates noise
+addition during the training phase to provide a differential privacy guarantee.
+We extensively test our method on different facial datasets with diverse face
+attributes using various deep learning architectures, showcasing its
+outstanding performance. We also demonstrate the effectiveness of privacy
+preservation through successful defenses against different white-box and deep
+reconstruction attacks.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.04931v1">Privacy-Preserved Taxi Demand Prediction System Utilizing Distributed
+  Data</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2024-08-09T08:24:47Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ren Ozeki, Haruki Yonekura, Hamada Rizk, Hirozumi Yamaguchi</p>
+    <p><b>Summary:</b> Accurate taxi-demand prediction is essential for optimizing taxi operations
+and enhancing urban transportation services. However, using customers' data in
+these systems raises significant privacy and security concerns. Traditional
+federated learning addresses some privacy issues by enabling model training
+without direct data exchange but often struggles with accuracy due to varying
+data distributions across different regions or service providers. In this
+paper, we propose CC-Net: a novel approach using collaborative learning
+enhanced with contrastive learning for taxi-demand prediction. Our method
+ensures high performance by enabling multiple parties to collaboratively train
+a demand-prediction model through hierarchical federated learning. In this
+approach, similar parties are clustered together, and federated learning is
+applied within each cluster. The similarity is defined without data exchange,
+ensuring privacy and security. We evaluated our approach using real-world data
+from five taxi service providers in Japan over fourteen months. The results
+demonstrate that CC-Net maintains the privacy of customers' data while
+improving prediction accuracy by at least 2.2% compared to existing techniques.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.04888v1">Locally Private Histograms in All Privacy Regimes</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Discrete Mathematics-04E762">
+  <p><b>Published on:</b> 2024-08-09T06:22:45Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Clément L. Canonne, Abigail Gentle</p>
+    <p><b>Summary:</b> Frequency estimation, a.k.a. histograms, is a workhorse of data analysis, and
+as such has been thoroughly studied under differentially privacy. In
+particular, computing histograms in the local model of privacy has been the
+focus of a fruitful recent line of work, and various algorithms have been
+proposed, achieving the order-optimal $\ell_\infty$ error in the high-privacy
+(small $\varepsilon$) regime while balancing other considerations such as time-
+and communication-efficiency. However, to the best of our knowledge, the
+picture is much less clear when it comes to the medium- or low-privacy regime
+(large $\varepsilon$), despite its increased relevance in practice. In this
+paper, we investigate locally private histograms, and the very related
+distribution learning task, in this medium-to-low privacy regime, and establish
+near-tight (and somewhat unexpected) bounds on the $\ell_\infty$ error
+achievable. Our theoretical findings emerge from a novel analysis, which
+appears to improve bounds across the board for the locally private histogram
+problem. We back our theoretical findings by an empirical comparison of
+existing algorithms in all privacy regimes, to assess their typical performance
+and behaviour beyond the worst-case setting.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.04684v1">Moving beyond privacy and airspace safety: Guidelines for just drones in
+  policing</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2024-08-08T09:04:01Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mateusz Dolata, Gerhard Schwabe</p>
+    <p><b>Summary:</b> The use of drones offers police forces potential gains in efficiency and
+safety. However, their use may also harm public perception of the police if
+drones are refused. Therefore, police forces should consider the perception of
+bystanders and broader society to maximize drones' potential. This article
+examines the concerns expressed by members of the public during a field trial
+involving 52 test participants. Analysis of the group interviews suggests that
+their worries go beyond airspace safety and privacy, broadly discussed in
+existing literature and regulations. The interpretation of the results
+indicates that the perceived justice of drone use is a significant factor in
+acceptance. Leveraging the concept of organizational justice and data
+collected, we propose a catalogue of guidelines for just operation of drones to
+supplement the existing policy. We present the organizational justice
+perspective as a framework to integrate the concerns of the public and
+bystanders into legal work. Finally, we discuss the relevance of justice for
+the legitimacy of the police's actions and provide implications for research
+and practice.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2408.04315v1">Federated Cubic Regularized Newton Learning with
   Sparsification-amplified Differential Privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36"> 
@@ -2738,144 +2878,6 @@ we propose a new mechanism that achieves $ \epsilon \approx 2 $-DP while
 satisfying these strict utility constraints, greatly improving over natural
 baselines. We believe this mechanism may be of more general interest for the
 broad class of group-by-sum workloads.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.03470v1">Prosody-Driven Privacy-Preserving Dementia Detection</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Sound-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
-  <p><b>Published on:</b> 2024-07-03T19:34:47Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Dominika Woszczyk, Ranya Aloufi, Soteris Demetriou</p>
-    <p><b>Summary:</b> Speaker embeddings extracted from voice recordings have been proven valuable
-for dementia detection. However, by their nature, these embeddings contain
-identifiable information which raises privacy concerns. In this work, we aim to
-anonymize embeddings while preserving the diagnostic utility for dementia
-detection. Previous studies rely on adversarial learning and models trained on
-the target attribute and struggle in limited-resource settings. We propose a
-novel approach that leverages domain knowledge to disentangle prosody features
-relevant to dementia from speaker embeddings without relying on a dementia
-classifier. Our experiments show the effectiveness of our approach in
-preserving speaker privacy (speaker recognition F1-score .01%) while
-maintaining high dementia detection score F1-score of 74% on the ADReSS
-dataset. Our results are also on par with a more constrained
-classifier-dependent system on ADReSSo (.01% and .66%), and have no impact on
-synthesized speech naturalness.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.03451v1">The Role of Privacy Guarantees in Voluntary Donation of Private Data for
-  Altruistic Goals</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2024-07-03T18:50:48Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ruizhe Wang, Roberta De Viti, Aarushi Dubey, Elissa M. Redmiles</p>
-    <p><b>Summary:</b> Voluntary donation of private information for altruistic purposes, such as
-advancing research, is common. However, concerns about data misuse and leakage
-may deter individuals from donating their information. While prior research has
-indicated that Privacy Enhancement Technologies (PETs) can alleviate these
-concerns, the extent to which these techniques influence willingness to donate
-data remains unclear.
-  This study conducts a vignette survey (N=485) to examine people's willingness
-to donate medical data for developing new treatments under four privacy
-guarantees: data expiration, anonymization, use restriction, and access
-control. The study explores two mechanisms for verifying these guarantees:
-self-auditing and expert auditing, and evaluates the impact on two types of
-data recipient entities: for-profit and non-profit institutions.
-  Our findings reveal that the type of entity collecting data strongly
-influences respondents' privacy expectations, which in part influence their
-willingness to donate data. Respondents have such high expectations of the
-privacy provided by non-profit entities that explicitly stating the privacy
-protections provided makes little adjustment to those expectations. In
-contrast, statements about privacy bring respondents' expectations of the
-privacy provided by for-profit entities nearly in-line with non-profit
-expectations. We highlight the risks of these respective results as well as the
-need for future research to better align technical community and end-user
-perceptions about the effectiveness of auditing PETs and to effectively set
-expectations about the efficacy of PETs in the face of end-user concerns about
-data breaches.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.03289v1">Correlated Privacy Mechanisms for Differentially Private Distributed
-  Mean Estimation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
-  <p><b>Published on:</b> 2024-07-03T17:22:33Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Sajani Vithana, Viveck R. Cadambe, Flavio P. Calmon, Haewon Jeong</p>
-    <p><b>Summary:</b> Differentially private distributed mean estimation (DP-DME) is a fundamental
-building block in privacy-preserving federated learning, where a central server
-estimates the mean of $d$-dimensional vectors held by $n$ users while ensuring
-$(\epsilon,\delta)$-DP. Local differential privacy (LDP) and distributed DP
-with secure aggregation (SecAgg) are the most common notions of DP used in
-DP-DME settings with an untrusted server. LDP provides strong resilience to
-dropouts, colluding users, and malicious server attacks, but suffers from poor
-utility. In contrast, SecAgg-based DP-DME achieves an $O(n)$ utility gain over
-LDP in DME, but requires increased communication and computation overheads and
-complex multi-round protocols to handle dropouts and malicious attacks. In this
-work, we propose CorDP-DME, a novel DP-DME mechanism that spans the gap between
-DME with LDP and distributed DP, offering a favorable balance between utility
-and resilience to dropout and collusion. CorDP-DME is based on correlated
-Gaussian noise, ensuring DP without the perfect conditional privacy guarantees
-of SecAgg-based approaches. We provide an information-theoretic analysis of
-CorDP-DME, and derive theoretical guarantees for utility under any given
-privacy parameters and dropout/colluding user thresholds. Our results
-demonstrate that (anti) correlated Gaussian DP mechanisms can significantly
-improve utility in mean estimation tasks compared to LDP -- even in adversarial
-settings -- while maintaining better resilience to dropouts and attacks
-compared to distributed DP.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.02956v1">IncogniText: Privacy-enhancing Conditional Text Anonymization via
-  LLM-based Private Attribute Randomization</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-07-03T09:49:03Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ahmed Frikha, Nassim Walha, Krishna Kanth Nakka, Ricardo Mendes, Xue Jiang, Xuebing Zhou</p>
-    <p><b>Summary:</b> In this work, we address the problem of text anonymization where the goal is
-to prevent adversaries from correctly inferring private attributes of the
-author, while keeping the text utility, i.e., meaning and semantics. We propose
-IncogniText, a technique that anonymizes the text to mislead a potential
-adversary into predicting a wrong private attribute value. Our empirical
-evaluation shows a reduction of private attribute leakage by more than 90%.
-Finally, we demonstrate the maturity of IncogniText for real-world applications
-by distilling its anonymization capability into a set of LoRA parameters
-associated with an on-device model.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.02766v1">Balancing Patient Privacy and Health Data Security: The Role of
-  Compliance in Protected Health Information (PHI) Sharing</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-07-03T02:49:33Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Md Al Amin, Hemanth Tummala, Rushabh Shah, Indrajit Ray</p>
-    <p><b>Summary:</b> Protected Health Information (PHI) sharing significantly enhances patient
-care quality and coordination, contributing to more accurate diagnoses,
-efficient treatment plans, and a comprehensive understanding of patient
-history. Compliance with strict privacy and security policies, such as those
-required by laws like HIPAA, is critical to protect PHI. Blockchain technology,
-which offers a decentralized and tamper-evident ledger system, hold promise in
-policy compliance. This system ensures the authenticity and integrity of PHI
-while facilitating patient consent management. In this work, we propose a
-blockchain technology that integrates smart contracts to partially automate
-consent-related processes and ensuring that PHI access and sharing follow
-patient preferences and legal requirements.</p>
   </details>
 </div>
 
