@@ -456,5 +456,130 @@
       "cs.SY",
       "eess.SY"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2408.05212v1",
+    "title" : "Preserving Privacy in Large Language Models: A Survey on Current Threats\n  and Solutions",
+    "summary" : "Large Language Models (LLMs) represent a significant advancement in\nartificial intelligence, finding applications across various domains. However,\ntheir reliance on massive internet-sourced datasets for training brings notable\nprivacy issues, which are exacerbated in critical domains (e.g., healthcare).\nMoreover, certain application-specific scenarios may require fine-tuning these\nmodels on private data. This survey critically examines the privacy threats\nassociated with LLMs, emphasizing the potential for these models to memorize\nand inadvertently reveal sensitive information. We explore current threats by\nreviewing privacy attacks on LLMs and propose comprehensive solutions for\nintegrating privacy mechanisms throughout the entire learning pipeline. These\nsolutions range from anonymizing training datasets to implementing differential\nprivacy during training or inference and machine unlearning after training. Our\ncomprehensive review of existing literature highlights ongoing challenges,\navailable tools, and future directions for preserving privacy in LLMs. This\nwork aims to guide the development of more secure and trustworthy AI systems by\nproviding a thorough understanding of privacy preservation methods and their\neffectiveness in mitigating risks.",
+    "updated" : "2024-08-10T05:41:19Z",
+    "published" : "2024-08-10T05:41:19Z",
+    "authors" : [
+      {
+        "name" : "Michele Miranda"
+      },
+      {
+        "name" : "Elena Sofia Ruzzetti"
+      },
+      {
+        "name" : "Andrea Santilli"
+      },
+      {
+        "name" : "Fabio Massimo Zanzotto"
+      },
+      {
+        "name" : "Sébastien Bratières"
+      },
+      {
+        "name" : "Emanuele Rodolà"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.CL",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2408.05092v1",
+    "title" : "PriPHiT: Privacy-Preserving Hierarchical Training of Deep Neural\n  Networks",
+    "summary" : "The training phase of deep neural networks requires substantial resources and\nas such is often performed on cloud servers. However, this raises privacy\nconcerns when the training dataset contains sensitive content, e.g., face\nimages. In this work, we propose a method to perform the training phase of a\ndeep learning model on both an edge device and a cloud server that prevents\nsensitive content being transmitted to the cloud while retaining the desired\ninformation. The proposed privacy-preserving method uses adversarial early\nexits to suppress the sensitive content at the edge and transmits the\ntask-relevant information to the cloud. This approach incorporates noise\naddition during the training phase to provide a differential privacy guarantee.\nWe extensively test our method on different facial datasets with diverse face\nattributes using various deep learning architectures, showcasing its\noutstanding performance. We also demonstrate the effectiveness of privacy\npreservation through successful defenses against different white-box and deep\nreconstruction attacks.",
+    "updated" : "2024-08-09T14:33:34Z",
+    "published" : "2024-08-09T14:33:34Z",
+    "authors" : [
+      {
+        "name" : "Yamin Sepehri"
+      },
+      {
+        "name" : "Pedram Pad"
+      },
+      {
+        "name" : "Pascal Frossard"
+      },
+      {
+        "name" : "L. Andrea Dunbar"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.CR",
+      "cs.DC",
+      "cs.LG",
+      "eess.IV",
+      "I.2.10; I.2.6; I.2.11; K.4.1"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2408.04931v1",
+    "title" : "Privacy-Preserved Taxi Demand Prediction System Utilizing Distributed\n  Data",
+    "summary" : "Accurate taxi-demand prediction is essential for optimizing taxi operations\nand enhancing urban transportation services. However, using customers' data in\nthese systems raises significant privacy and security concerns. Traditional\nfederated learning addresses some privacy issues by enabling model training\nwithout direct data exchange but often struggles with accuracy due to varying\ndata distributions across different regions or service providers. In this\npaper, we propose CC-Net: a novel approach using collaborative learning\nenhanced with contrastive learning for taxi-demand prediction. Our method\nensures high performance by enabling multiple parties to collaboratively train\na demand-prediction model through hierarchical federated learning. In this\napproach, similar parties are clustered together, and federated learning is\napplied within each cluster. The similarity is defined without data exchange,\nensuring privacy and security. We evaluated our approach using real-world data\nfrom five taxi service providers in Japan over fourteen months. The results\ndemonstrate that CC-Net maintains the privacy of customers' data while\nimproving prediction accuracy by at least 2.2% compared to existing techniques.",
+    "updated" : "2024-08-09T08:24:47Z",
+    "published" : "2024-08-09T08:24:47Z",
+    "authors" : [
+      {
+        "name" : "Ren Ozeki"
+      },
+      {
+        "name" : "Haruki Yonekura"
+      },
+      {
+        "name" : "Hamada Rizk"
+      },
+      {
+        "name" : "Hirozumi Yamaguchi"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2408.04888v1",
+    "title" : "Locally Private Histograms in All Privacy Regimes",
+    "summary" : "Frequency estimation, a.k.a. histograms, is a workhorse of data analysis, and\nas such has been thoroughly studied under differentially privacy. In\nparticular, computing histograms in the local model of privacy has been the\nfocus of a fruitful recent line of work, and various algorithms have been\nproposed, achieving the order-optimal $\\ell_\\infty$ error in the high-privacy\n(small $\\varepsilon$) regime while balancing other considerations such as time-\nand communication-efficiency. However, to the best of our knowledge, the\npicture is much less clear when it comes to the medium- or low-privacy regime\n(large $\\varepsilon$), despite its increased relevance in practice. In this\npaper, we investigate locally private histograms, and the very related\ndistribution learning task, in this medium-to-low privacy regime, and establish\nnear-tight (and somewhat unexpected) bounds on the $\\ell_\\infty$ error\nachievable. Our theoretical findings emerge from a novel analysis, which\nappears to improve bounds across the board for the locally private histogram\nproblem. We back our theoretical findings by an empirical comparison of\nexisting algorithms in all privacy regimes, to assess their typical performance\nand behaviour beyond the worst-case setting.",
+    "updated" : "2024-08-09T06:22:45Z",
+    "published" : "2024-08-09T06:22:45Z",
+    "authors" : [
+      {
+        "name" : "Clément L. Canonne"
+      },
+      {
+        "name" : "Abigail Gentle"
+      }
+    ],
+    "categories" : [
+      "cs.DS",
+      "cs.CR",
+      "cs.DM"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2408.04684v1",
+    "title" : "Moving beyond privacy and airspace safety: Guidelines for just drones in\n  policing",
+    "summary" : "The use of drones offers police forces potential gains in efficiency and\nsafety. However, their use may also harm public perception of the police if\ndrones are refused. Therefore, police forces should consider the perception of\nbystanders and broader society to maximize drones' potential. This article\nexamines the concerns expressed by members of the public during a field trial\ninvolving 52 test participants. Analysis of the group interviews suggests that\ntheir worries go beyond airspace safety and privacy, broadly discussed in\nexisting literature and regulations. The interpretation of the results\nindicates that the perceived justice of drone use is a significant factor in\nacceptance. Leveraging the concept of organizational justice and data\ncollected, we propose a catalogue of guidelines for just operation of drones to\nsupplement the existing policy. We present the organizational justice\nperspective as a framework to integrate the concerns of the public and\nbystanders into legal work. Finally, we discuss the relevance of justice for\nthe legitimacy of the police's actions and provide implications for research\nand practice.",
+    "updated" : "2024-08-08T09:04:01Z",
+    "published" : "2024-08-08T09:04:01Z",
+    "authors" : [
+      {
+        "name" : "Mateusz Dolata"
+      },
+      {
+        "name" : "Gerhard Schwabe"
+      }
+    ],
+    "categories" : [
+      "cs.CY"
+    ]
   }
 ]
