@@ -2,6 +2,122 @@
 <h2>2024-08</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.06197v1">Lancelot: Towards Efficient and Privacy-Preserving Byzantine-Robust
+  Federated Learning within Fully Homomorphic Encryption</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
+  <p><b>Published on:</b> 2024-08-12T14:48:25Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Siyang Jiang, Hao Yang, Qipeng Xie, Chuan Ma, Sen Wang, Guoliang Xing</p>
+    <p><b>Summary:</b> In sectors such as finance and healthcare, where data governance is subject
+to rigorous regulatory requirements, the exchange and utilization of data are
+particularly challenging. Federated Learning (FL) has risen as a pioneering
+distributed machine learning paradigm that enables collaborative model training
+across multiple institutions while maintaining data decentralization. Despite
+its advantages, FL is vulnerable to adversarial threats, particularly poisoning
+attacks during model aggregation, a process typically managed by a central
+server. However, in these systems, neural network models still possess the
+capacity to inadvertently memorize and potentially expose individual training
+instances. This presents a significant privacy risk, as attackers could
+reconstruct private data by leveraging the information contained in the model
+itself. Existing solutions fall short of providing a viable, privacy-preserving
+BRFL system that is both completely secure against information leakage and
+computationally efficient. To address these concerns, we propose Lancelot, an
+innovative and computationally efficient BRFL framework that employs fully
+homomorphic encryption (FHE) to safeguard against malicious client activities
+while preserving data privacy. Our extensive testing, which includes medical
+imaging diagnostics and widely-used public image datasets, demonstrates that
+Lancelot significantly outperforms existing methods, offering more than a
+twenty-fold increase in processing speed, all while maintaining data privacy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.06167v1">Blind-Match: Efficient Homomorphic Encryption-Based 1:N Matching for
+  Privacy-Preserving Biometric Identification</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-08-12T14:13:08Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Hyunmin Choi, Jiwon Kim, Chiyoung Song, Simon S. Woo, Hyoungshick Kim</p>
+    <p><b>Summary:</b> We present Blind-Match, a novel biometric identification system that
+leverages homomorphic encryption (HE) for efficient and privacy-preserving 1:N
+matching. Blind-Match introduces a HE-optimized cosine similarity computation
+method, where the key idea is to divide the feature vector into smaller parts
+for processing rather than computing the entire vector at once. By optimizing
+the number of these parts, Blind-Match minimizes execution time while ensuring
+data privacy through HE. Blind-Match achieves superior performance compared to
+state-of-the-art methods across various biometric datasets. On the LFW face
+dataset, Blind-Match attains a 99.63% Rank-1 accuracy with a 128-dimensional
+feature vector, demonstrating its robustness in face recognition tasks. For
+fingerprint identification, Blind-Match achieves a remarkable 99.55% Rank-1
+accuracy on the PolyU dataset, even with a compact 16-dimensional feature
+vector, significantly outperforming the state-of-the-art method, Blind-Touch,
+which achieves only 59.17%. Furthermore, Blind-Match showcases practical
+efficiency in large-scale biometric identification scenarios, such as Naver
+Cloud's FaceSign, by processing 6,144 biometric samples in 0.74 seconds using a
+128-dimensional feature vector.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.05723v1">Deep Learning with Data Privacy via Residual Perturbation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2024-08-11T08:26:43Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Wenqi Tao, Huaming Ling, Zuoqiang Shi, Bao Wang</p>
+    <p><b>Summary:</b> Protecting data privacy in deep learning (DL) is of crucial importance.
+Several celebrated privacy notions have been established and used for
+privacy-preserving DL. However, many existing mechanisms achieve privacy at the
+cost of significant utility degradation and computational overhead. In this
+paper, we propose a stochastic differential equation-based residual
+perturbation for privacy-preserving DL, which injects Gaussian noise into each
+residual mapping of ResNets. Theoretically, we prove that residual perturbation
+guarantees differential privacy (DP) and reduces the generalization gap of DL.
+Empirically, we show that residual perturbation is computationally efficient
+and outperforms the state-of-the-art differentially private stochastic gradient
+descent (DPSGD) in utility maintenance without sacrificing membership privacy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.05543v1">PixelFade: Privacy-preserving Person Re-identification with Noise-guided
+  Progressive Replacement</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2024-08-10T12:52:54Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Delong Zhang, Yi-Xing Peng, Xiao-Ming Wu, Ancong Wu, Wei-Shi Zheng</p>
+    <p><b>Summary:</b> Online person re-identification services face privacy breaches from potential
+data leakage and recovery attacks, exposing cloud-stored images to malicious
+attackers and triggering public concern. The privacy protection of pedestrian
+images is crucial. Previous privacy-preserving person re-identification methods
+are unable to resist recovery attacks and compromise accuracy. In this paper,
+we propose an iterative method (PixelFade) to optimize pedestrian images into
+noise-like images to resist recovery attacks. We first give an in-depth study
+of protected images from previous privacy methods, which reveal that the chaos
+of protected images can disrupt the learning of recovery models. Accordingly,
+Specifically, we propose Noise-guided Objective Function with the feature
+constraints of a specific authorization model, optimizing pedestrian images to
+normal-distributed noise images while preserving their original identity
+information as per the authorization model. To solve the above non-convex
+optimization problem, we propose a heuristic optimization algorithm that
+alternately performs the Constraint Operation and the Partial Replacement
+Operation. This strategy not only safeguards that original pixels are replaced
+with noises to protect privacy, but also guides the images towards an improved
+optimization direction to effectively preserve discriminative features.
+Extensive experiments demonstrate that our PixelFade outperforms previous
+methods in resisting recovery attacks and Re-ID performance. The code is
+available at https://github.com/iSEE-Laboratory/PixelFade.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2408.05212v1">Preserving Privacy in Large Language Models: A Survey on Current Threats
   and Solutions</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
@@ -1162,6 +1278,26 @@ and model stealing attacks. Exploring lightweight defensive measures and
 emerging technologies such as blockchain may help improve the privacy of FL in
 IoT, leading to the creation of FL models that can operate under variable
 network conditions.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.05218v1">Comment on "An Efficient Privacy-Preserving Ranked Multi-Keyword
+  Retrieval for Multiple Data Owners in Outsourced Cloud"</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-07-25T05:01:07Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Uma Sankararao Varri</p>
+    <p><b>Summary:</b> Protecting the privacy of keywords in the field of search over outsourced
+cloud data is a challenging task. In IEEE Transactions on Services Computing
+(Vol. 17 No. 2, March/April 2024), Li et al. proposed PRMKR: efficient
+privacy-preserving ranked multi-keyword retrieval scheme, which was claimed to
+resist keyword guessing attack. However, we show that the scheme fails to
+resist keyword guessing attack, index privacy, and trapdoor privacy. Further,
+we propose a solution to address the above said issues by correcting the errors
+in the important equations of the scheme.</p>
   </details>
 </div>
 
@@ -2744,140 +2880,6 @@ custom fine-tuned models perform on par with prompted API-based models when
 identifying leaked location information at the country or city level; however,
 fine-tuning on supervised data appears to be needed to accurately moderate
 finer granularities, such as the name of a restaurant or building.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.04906v1">Privacy or Transparency? Negotiated Smartphone Access as a Signifier of
-  Trust in Romantic Relationships</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-07-06T00:52:34Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Periwinkle Doerfler, Kieron Ivy Turk, Chris Geeng, Damon McCoy, Jeffrey Ackerman, Molly Dragiewicz</p>
-    <p><b>Summary:</b> In this work, we analyze two large-scale surveys to examine how individuals
-think about sharing smartphone access with romantic partners as a function of
-trust in relationships. We find that the majority of couples have access to
-each others' devices, but may have explicit or implicit boundaries on how this
-access is to be used. Investigating these boundaries and related social norms,
-we find that there is little consensus about the level of smartphone access
-(i.e., transparency), or lack thereof (i.e., privacy) that is desirable in
-romantic contexts. However, there is broad agreement that the level of access
-should be mutual and consensual. Most individuals understand trust to be the
-basis of their decisions about transparency and privacy. Furthermore, we find
-individuals have crossed these boundaries, violating their partners' privacy
-and betraying their trust. We examine how, when, why, and by whom these
-betrayals occur. We consider the ramifications of these boundary violations in
-the case of intimate partner violence. Finally, we provide recommendations for
-design changes to enable technological enforcement of boundaries currently
-enforced by trust, bringing access control in line with users' sharing
-preferences.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.04776v1">Quantifying Privacy Risks of Public Statistics to Residents of
-  Subsidized Housing</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2024-07-05T18:00:02Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ryan Steed, Diana Qing, Zhiwei Steven Wu</p>
-    <p><b>Summary:</b> As the U.S. Census Bureau implements its controversial new disclosure
-avoidance system, researchers and policymakers debate the necessity of new
-privacy protections for public statistics. With experiments on both published
-statistics and synthetic data, we explore a particular privacy concern:
-respondents in subsidized housing may deliberately not mention unauthorized
-children and other household members for fear of being evicted. By combining
-public statistics from the Decennial Census and the Department of Housing and
-Urban Development, we demonstrate a simple, inexpensive reconstruction attack
-that could identify subsidized households living in violation of occupancy
-guidelines in 2010. Experiments on synthetic data suggest that a random
-swapping mechanism similar to the Census Bureau's 2010 disclosure avoidance
-measures does not significantly reduce the precision of this attack, while a
-differentially private mechanism similar to the 2020 disclosure avoidance
-system does. Our results provide a valuable example for policymakers seeking a
-trustworthy, accurate census.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.04751v2">A Unified Learn-to-Distort-Data Framework for Privacy-Utility Trade-off
-  in Trustworthy Federated Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-07-05T08:15:09Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Xiaojin Zhang, Mingcong Xu, Wei Chen</p>
-    <p><b>Summary:</b> In this paper, we first give an introduction to the theoretical basis of the
-privacy-utility equilibrium in federated learning based on Bayesian privacy
-definitions and total variation distance privacy definitions. We then present
-the \textit{Learn-to-Distort-Data} framework, which provides a principled
-approach to navigate the privacy-utility equilibrium by explicitly modeling the
-distortion introduced by the privacy-preserving mechanism as a learnable
-variable and optimizing it jointly with the model parameters. We demonstrate
-the applicability of our framework to a variety of privacy-preserving
-mechanisms on the basis of data distortion and highlight its connections to
-related areas such as adversarial training, input robustness, and unlearnable
-examples. These connections enable leveraging techniques from these areas to
-design effective algorithms for privacy-utility equilibrium in federated
-learning under the \textit{Learn-to-Distort-Data} framework.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.03732v1">Collection, usage and privacy of mobility data in the enterprise and
-  public administrations</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-07-04T08:29:27Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Alexandra Kapp</p>
-    <p><b>Summary:</b> Human mobility data is a crucial resource for urban mobility management, but
-it does not come without personal reference. The implementation of security
-measures such as anonymization is thus needed to protect individuals' privacy.
-Often, a trade-off arises as such techniques potentially decrease the utility
-of the data and limit its use. While much research on anonymization techniques
-exists, there is little information on the actual implementations by
-practitioners, especially outside the big tech context. Within our study, we
-conducted expert interviews to gain insights into practices in the field. We
-categorize purposes, data sources, analysis, and modeling tasks to provide a
-profound understanding of the context such data is used in. We survey
-privacy-enhancing methods in use, which generally do not comply with
-state-of-the-art standards of differential privacy. We provide groundwork for
-further research on practice-oriented research by identifying privacy needs of
-practitioners and extracting relevant mobility characteristics for future
-standardized evaluations of privacy-enhancing methods.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.03496v1">Releasing Large-Scale Human Mobility Histograms with Differential
-  Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
-  <p><b>Published on:</b> 2024-07-03T20:54:00Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Christopher Bian, Albert Cheu, Yannis Guzman, Marco Gruteser, Peter Kairouz, Ryan McKenna, Edo Roth</p>
-    <p><b>Summary:</b> Environmental Insights Explorer (EIE) is a Google product that reports
-aggregate statistics about human mobility, including various methods of transit
-used by people across roughly 50,000 regions globally. These statistics are
-used to estimate carbon emissions and provided to policymakers to inform their
-decisions on transportation policy and infrastructure. Due to the inherent
-sensitivity of this type of user data, it is crucial that the statistics
-derived and released from it are computed with appropriate privacy protections.
-In this work, we use a combination of federated analytics and differential
-privacy to release these required statistics, while operating under strict
-error constraints to ensure utility for downstream stakeholders. In this work,
-we propose a new mechanism that achieves $ \epsilon \approx 2 $-DP while
-satisfying these strict utility constraints, greatly improving over natural
-baselines. We believe this mechanism may be of more general interest for the
-broad class of group-by-sum workloads.</p>
   </details>
 </div>
 
