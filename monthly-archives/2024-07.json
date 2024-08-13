@@ -2791,5 +2791,20 @@
       "cs.CV",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2408.05218v1",
+    "title" : "Comment on \"An Efficient Privacy-Preserving Ranked Multi-Keyword\n  Retrieval for Multiple Data Owners in Outsourced Cloud\"",
+    "summary" : "Protecting the privacy of keywords in the field of search over outsourced\ncloud data is a challenging task. In IEEE Transactions on Services Computing\n(Vol. 17 No. 2, March/April 2024), Li et al. proposed PRMKR: efficient\nprivacy-preserving ranked multi-keyword retrieval scheme, which was claimed to\nresist keyword guessing attack. However, we show that the scheme fails to\nresist keyword guessing attack, index privacy, and trapdoor privacy. Further,\nwe propose a solution to address the above said issues by correcting the errors\nin the important equations of the scheme.",
+    "updated" : "2024-07-25T05:01:07Z",
+    "published" : "2024-07-25T05:01:07Z",
+    "authors" : [
+      {
+        "name" : "Uma Sankararao Varri"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
