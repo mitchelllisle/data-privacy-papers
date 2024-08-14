@@ -2,6 +2,113 @@
 <h2>2024-08</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.07021v1">Improved Counting under Continual Observation with Pure Differential
+  Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B">
+  <p><b>Published on:</b> 2024-08-13T16:36:33Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Joel Daniel Andersson, Rasmus Pagh, Sahel Torkamani</p>
+    <p><b>Summary:</b> Counting under continual observation is a well-studied problem in the area of
+differential privacy. Given a stream of updates $x_1,x_2,\dots,x_T \in \{0,1\}$
+the problem is to continuously release estimates of the prefix sums
+$\sum_{i=1}^t x_i$ for $t=1,\dots,T$ while protecting each input $x_i$ in the
+stream with differential privacy. Recently, significant leaps have been made in
+our understanding of this problem under $\textit{approximate}$ differential
+privacy, aka. $(\varepsilon,\delta)$$\textit{-differential privacy}$. However,
+for the classical case of $\varepsilon$-differential privacy, we are not aware
+of any improvement in mean squared error since the work of Honaker (TPDP 2015).
+In this paper we present such an improvement, reducing the mean squared error
+by a factor of about 4, asymptotically. The key technique is a new
+generalization of the binary tree mechanism that uses a $k$-ary number system
+with $\textit{negative digits}$ to improve the privacy-accuracy trade-off. Our
+mechanism improves the mean squared error over all 'optimal'
+$(\varepsilon,\delta)$-differentially private factorization mechanisms based on
+Gaussian noise whenever $\delta$ is sufficiently small. Specifically, using
+$k=19$ we get an asymptotic improvement over the bound given in the work by
+Henzinger, Upadhyay and Upadhyay (SODA 2023) when $\delta = O(T^{-0.92})$.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.07006v1">The Complexities of Differential Privacy for Survey Data</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-08-13T16:15:42Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jörg Drechsler, James Bailie</p>
+    <p><b>Summary:</b> The concept of differential privacy (DP) has gained substantial attention in
+recent years, most notably since the U.S. Census Bureau announced the adoption
+of the concept for its 2020 Decennial Census. However, despite its attractive
+theoretical properties, implementing DP in practice remains challenging,
+especially when it comes to survey data. In this paper we present some results
+from an ongoing project funded by the U.S. Census Bureau that is exploring the
+possibilities and limitations of DP for survey data. Specifically, we identify
+five aspects that need to be considered when adopting DP in the survey context:
+the multi-staged nature of data production; the limited privacy amplification
+from complex sampling designs; the implications of survey-weighted estimates;
+the weighting adjustments for nonresponse and other data deficiencies, and the
+imputation of missing values. We summarize the project's key findings with
+respect to each of these aspects and also discuss some of the challenges that
+still need to be addressed before DP could become the new data protection
+standard at statistical agencies.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.07004v1">Casper: Prompt Sanitization for Protecting User Privacy in Web-Based
+  Large Language Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-08-13T16:08:37Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Chun Jie Chong, Chenxi Hou, Zhihao Yao, Seyed Mohammadjavad Seyed Talebi</p>
+    <p><b>Summary:</b> Web-based Large Language Model (LLM) services have been widely adopted and
+have become an integral part of our Internet experience. Third-party plugins
+enhance the functionalities of LLM by enabling access to real-world data and
+services. However, the privacy consequences associated with these services and
+their third-party plugins are not well understood. Sensitive prompt data are
+stored, processed, and shared by cloud-based LLM providers and third-party
+plugins. In this paper, we propose Casper, a prompt sanitization technique that
+aims to protect user privacy by detecting and removing sensitive information
+from user inputs before sending them to LLM services. Casper runs entirely on
+the user's device as a browser extension and does not require any changes to
+the online LLM services. At the core of Casper is a three-layered sanitization
+mechanism consisting of a rule-based filter, a Machine Learning (ML)-based
+named entity recognizer, and a browser-based local LLM topic identifier. We
+evaluate Casper on a dataset of 4000 synthesized prompts and show that it can
+effectively filter out Personal Identifiable Information (PII) and
+privacy-sensitive topics with high accuracy, at 98.5% and 89.9%, respectively.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.06460v1">Evaluating Privacy Measures for Load Hiding</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36">   
+  <p><b>Published on:</b> 2024-08-12T19:21:34Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Vadim Arzamasov, Klemens Böhm</p>
+    <p><b>Summary:</b> In smart grids, the use of smart meters to measure electricity consumption at
+a household level raises privacy concerns. To address them, researchers have
+designed various load hiding algorithms that manipulate the electricity
+consumption measured. To compare how well these algorithms preserve privacy,
+various privacy measures have been proposed. However, there currently is no
+consensus on which privacy measure is most appropriate to use. In this study,
+we aim to identify the most effective privacy measure(s) for load hiding
+algorithms. We have crafted a series of experiments to assess the effectiveness
+of these measures. found 20 of the 25 measures studied to be ineffective. Next,
+focused on the well-known "appliance usage" secret, we have designed synthetic
+data to find the measure that best deals with this secret. We observe that such
+a measure, a variant of mutual information, actually exists.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2408.06197v1">Lancelot: Towards Efficient and Privacy-Preserving Byzantine-Robust
   Federated Learning within Fully Homomorphic Encryption</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
@@ -58,6 +165,38 @@ which achieves only 59.17%. Furthermore, Blind-Match showcases practical
 efficiency in large-scale biometric identification scenarios, such as Naver
 Cloud's FaceSign, by processing 6,144 biometric samples in 0.74 seconds using a
 128-dimensional feature vector.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.06395v1">Fast John Ellipsoid Computation with Differential Privacy Optimization</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-08-12T03:47:55Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jiuxiang Gu, Xiaoyu Li, Yingyu Liang, Zhenmei Shi, Zhao Song, Junwei Yu</p>
+    <p><b>Summary:</b> Determining the John ellipsoid - the largest volume ellipsoid contained
+within a convex polytope - is a fundamental problem with applications in
+machine learning, optimization, and data analytics. Recent work has developed
+fast algorithms for approximating the John ellipsoid using sketching and
+leverage score sampling techniques. However, these algorithms do not provide
+privacy guarantees for sensitive input data. In this paper, we present the
+first differentially private algorithm for fast John ellipsoid computation. Our
+method integrates noise perturbation with sketching and leverage score sampling
+to achieve both efficiency and privacy. We prove that (1) our algorithm
+provides $(\epsilon,\delta)$-differential privacy, and the privacy guarantee
+holds for neighboring datasets that are $\epsilon_0$-close, allowing
+flexibility in the privacy definition; (2) our algorithm still converges to a
+$(1+\xi)$-approximation of the optimal John ellipsoid in
+$O(\xi^{-2}(\log(n/\delta_0) + (L\epsilon_0)^{-2}))$ iterations where $n$ is
+the number of data point, $L$ is the Lipschitz constant, $\delta_0$ is the
+failure probability, and $\epsilon_0$ is the closeness of neighboring input
+datasets. Our theoretical analysis demonstrates the algorithm's convergence and
+privacy properties, providing a robust approach for balancing utility and
+privacy in John ellipsoid computation. This is the first differentially private
+algorithm for fast John ellipsoid computation, opening avenues for future
+research in privacy-preserving optimization techniques.</p>
   </details>
 </div>
 
@@ -2739,147 +2878,6 @@ attack framework specifically for analyzing preference data called PREMIA
 (\uline{Pre}ference data \uline{MIA}); second, we provide empirical evidence
 that DPO models are more vulnerable to MIA compared to PPO models. Our findings
 highlight gaps in current privacy-preserving practices for LLM alignment.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.05450v1">Understanding Professional Needs to Create Privacy-Preserving and Secure
-  Emergent Digital Artworks</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2024-07-07T17:21:38Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Kathryn Lichlyter, Urvashi Kishnani, Kate Hollenbach, Sanchari Das</p>
-    <p><b>Summary:</b> In recent years, immersive art installations featuring interactive artworks
-have been on the rise. These installations are an integral part of museums and
-art centers like selfie museums, teamLab Borderless, ARTECHOUSE, and Meow Wolf.
-Moreover, immersive art have also been increasingly incorporated into
-traditional museums as well. However, immersive art requires active user
-participation and often captures information from viewers and participants
-through cameras, sensors, microphones, embodied interaction devices,
-surveillance, and kinetic mirrors. Therefore, we propose a new line of research
-to examine the security and privacy postures of immersive artworks. In our
-pilot study, we conducted a semi-structured interview with five experienced
-practitioners from either the art (2) or cybersecurity (3) fields. Our aim was
-to understand their current security and privacy practices, along with their
-needs when it comes to immersive art. From their responses, we created a list
-of security and privacy parameters, such as, providing opt-in mechanics for
-data collection, knowledge of data collection tools such as proximity sensors,
-and creating security awareness amongst participants by communicating security
-protocols and threat models. These parameters allow us to build
-privacy-preserving, secure, and accessible software for individuals working in
-media arts, who often have no background on security and privacy. In the
-future, we plan to utilize these parameters to develop software in response to
-those needs and then host an art exhibition of immersive artworks utilizing the
-platform.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.05446v1">Towards Perceived Security, Perceived Privacy, and the Universal Design
-  of E-Payment Applications</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-07-07T17:15:09Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Urvashi Kishnani, Isabella Cardenas, Jailene Castillo, Rosalyn Conry, Lukas Rodwin, Rika Ruiz, Matthew Walther, Sanchari Das</p>
-    <p><b>Summary:</b> With the growth of digital monetary transactions and cashless payments,
-encouraged by the COVID-19 pandemic, use of e-payment applications is on the
-rise. It is thus imperative to understand and evaluate the current posture of
-e-payment applications from three major user-facing angles: security, privacy,
-and usability. To this, we created a high-fidelity prototype of an e-payment
-application that encompassed features that we wanted to test with users. We
-then conducted a pilot study where we recruited 12 participants who tested our
-prototype. We find that both security and privacy are important for users of
-e-payment applications. Additionally, some participants perceive the strength
-of security and privacy based on the usability of the application. We provide
-recommendations such as universal design of e-payment applications.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.05237v1">Privacy of the last iterate in cyclically-sampled DP-SGD on nonconvex
-  composite losses</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Optimization and Control-F9C80E">   
-  <p><b>Published on:</b> 2024-07-07T02:35:55Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Weiwei Kong, Mónica Ribero</p>
-    <p><b>Summary:</b> Differentially private stochastic gradient descent (DP-SGD) refers to a
-family of optimization algorithms that provide a guaranteed level of
-differential privacy (DP) through DP accounting techniques. However, current
-accounting techniques make assumptions that diverge significantly from
-practical DP-SGD implementations. For example, they may assume the loss
-function is Lipschitz continuous and convex, sample the batches randomly with
-replacement, or omit the gradient clipping step.
-  In this work, we analyze the most commonly used variant of DP-SGD, in which
-we sample batches cyclically with replacement, perform gradient clipping, and
-only release the last DP-SGD iterate. More specifically - without assuming
-convexity, smoothness, or Lipschitz continuity of the loss function - we
-establish new R\'enyi differential privacy (RDP) bounds for the last DP-SGD
-iterate under the mild assumption that (i) the DP-SGD stepsize is small
-relative to the topological constants in the loss function, and (ii) the loss
-function is weakly-convex. Moreover, we show that our bounds converge to
-previously established convex bounds when the weak-convexity parameter of the
-objective function approaches zero. In the case of non-Lipschitz smooth loss
-functions, we provide a weaker bound that scales well in terms of the number of
-DP-SGD iterations.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.05045v1">Robust Skin Color Driven Privacy Preserving Face Recognition via
-  Function Secret Sharing</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2024-07-06T10:51:35Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Dong Han, Yufan Jiang, Yong Li, Ricardo Mendes, Joachim Denzler</p>
-    <p><b>Summary:</b> In this work, we leverage the pure skin color patch from the face image as
-the additional information to train an auxiliary skin color feature extractor
-and face recognition model in parallel to improve performance of
-state-of-the-art (SOTA) privacy-preserving face recognition (PPFR) systems. Our
-solution is robust against black-box attacking and well-established generative
-adversarial network (GAN) based image restoration. We analyze the potential
-risk in previous work, where the proposed cosine similarity computation might
-directly leak the protected precomputed embedding stored on the server side. We
-propose a Function Secret Sharing (FSS) based face embedding comparison
-protocol without any intermediate result leakage. In addition, we show in
-experiments that the proposed protocol is more efficient compared to the Secret
-Sharing (SS) based protocol.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.04952v1">Granular Privacy Control for Geolocation with Vision Language Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2024-07-06T04:06:55Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ethan Mendes, Yang Chen, James Hays, Sauvik Das, Wei Xu, Alan Ritter</p>
-    <p><b>Summary:</b> Vision Language Models (VLMs) are rapidly advancing in their capability to
-answer information-seeking questions. As these models are widely deployed in
-consumer applications, they could lead to new privacy risks due to emergent
-abilities to identify people in photos, geolocate images, etc. As we
-demonstrate, somewhat surprisingly, current open-source and proprietary VLMs
-are very capable image geolocators, making widespread geolocation with VLMs an
-immediate privacy risk, rather than merely a theoretical future concern. As a
-first step to address this challenge, we develop a new benchmark, GPTGeoChat,
-to test the ability of VLMs to moderate geolocation dialogues with users. We
-collect a set of 1,000 image geolocation conversations between in-house
-annotators and GPT-4v, which are annotated with the granularity of location
-information revealed at each turn. Using this new dataset, we evaluate the
-ability of various VLMs to moderate GPT-4v geolocation conversations by
-determining when too much location information has been revealed. We find that
-custom fine-tuned models perform on par with prompted API-based models when
-identifying leaked location information at the country or city level; however,
-fine-tuning on supervised data appears to be needed to accurately moderate
-finer granularities, such as the name of a restaurant or building.</p>
   </details>
 </div>
 
