@@ -693,5 +693,125 @@
     "categories" : [
       "cs.CV"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2408.07021v1",
+    "title" : "Improved Counting under Continual Observation with Pure Differential\n  Privacy",
+    "summary" : "Counting under continual observation is a well-studied problem in the area of\ndifferential privacy. Given a stream of updates $x_1,x_2,\\dots,x_T \\in \\{0,1\\}$\nthe problem is to continuously release estimates of the prefix sums\n$\\sum_{i=1}^t x_i$ for $t=1,\\dots,T$ while protecting each input $x_i$ in the\nstream with differential privacy. Recently, significant leaps have been made in\nour understanding of this problem under $\\textit{approximate}$ differential\nprivacy, aka. $(\\varepsilon,\\delta)$$\\textit{-differential privacy}$. However,\nfor the classical case of $\\varepsilon$-differential privacy, we are not aware\nof any improvement in mean squared error since the work of Honaker (TPDP 2015).\nIn this paper we present such an improvement, reducing the mean squared error\nby a factor of about 4, asymptotically. The key technique is a new\ngeneralization of the binary tree mechanism that uses a $k$-ary number system\nwith $\\textit{negative digits}$ to improve the privacy-accuracy trade-off. Our\nmechanism improves the mean squared error over all 'optimal'\n$(\\varepsilon,\\delta)$-differentially private factorization mechanisms based on\nGaussian noise whenever $\\delta$ is sufficiently small. Specifically, using\n$k=19$ we get an asymptotic improvement over the bound given in the work by\nHenzinger, Upadhyay and Upadhyay (SODA 2023) when $\\delta = O(T^{-0.92})$.",
+    "updated" : "2024-08-13T16:36:33Z",
+    "published" : "2024-08-13T16:36:33Z",
+    "authors" : [
+      {
+        "name" : "Joel Daniel Andersson"
+      },
+      {
+        "name" : "Rasmus Pagh"
+      },
+      {
+        "name" : "Sahel Torkamani"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DS"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2408.07006v1",
+    "title" : "The Complexities of Differential Privacy for Survey Data",
+    "summary" : "The concept of differential privacy (DP) has gained substantial attention in\nrecent years, most notably since the U.S. Census Bureau announced the adoption\nof the concept for its 2020 Decennial Census. However, despite its attractive\ntheoretical properties, implementing DP in practice remains challenging,\nespecially when it comes to survey data. In this paper we present some results\nfrom an ongoing project funded by the U.S. Census Bureau that is exploring the\npossibilities and limitations of DP for survey data. Specifically, we identify\nfive aspects that need to be considered when adopting DP in the survey context:\nthe multi-staged nature of data production; the limited privacy amplification\nfrom complex sampling designs; the implications of survey-weighted estimates;\nthe weighting adjustments for nonresponse and other data deficiencies, and the\nimputation of missing values. We summarize the project's key findings with\nrespect to each of these aspects and also discuss some of the challenges that\nstill need to be addressed before DP could become the new data protection\nstandard at statistical agencies.",
+    "updated" : "2024-08-13T16:15:42Z",
+    "published" : "2024-08-13T16:15:42Z",
+    "authors" : [
+      {
+        "name" : "Jörg Drechsler"
+      },
+      {
+        "name" : "James Bailie"
+      }
+    ],
+    "categories" : [
+      "stat.ME",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2408.07004v1",
+    "title" : "Casper: Prompt Sanitization for Protecting User Privacy in Web-Based\n  Large Language Models",
+    "summary" : "Web-based Large Language Model (LLM) services have been widely adopted and\nhave become an integral part of our Internet experience. Third-party plugins\nenhance the functionalities of LLM by enabling access to real-world data and\nservices. However, the privacy consequences associated with these services and\ntheir third-party plugins are not well understood. Sensitive prompt data are\nstored, processed, and shared by cloud-based LLM providers and third-party\nplugins. In this paper, we propose Casper, a prompt sanitization technique that\naims to protect user privacy by detecting and removing sensitive information\nfrom user inputs before sending them to LLM services. Casper runs entirely on\nthe user's device as a browser extension and does not require any changes to\nthe online LLM services. At the core of Casper is a three-layered sanitization\nmechanism consisting of a rule-based filter, a Machine Learning (ML)-based\nnamed entity recognizer, and a browser-based local LLM topic identifier. We\nevaluate Casper on a dataset of 4000 synthesized prompts and show that it can\neffectively filter out Personal Identifiable Information (PII) and\nprivacy-sensitive topics with high accuracy, at 98.5% and 89.9%, respectively.",
+    "updated" : "2024-08-13T16:08:37Z",
+    "published" : "2024-08-13T16:08:37Z",
+    "authors" : [
+      {
+        "name" : "Chun Jie Chong"
+      },
+      {
+        "name" : "Chenxi Hou"
+      },
+      {
+        "name" : "Zhihao Yao"
+      },
+      {
+        "name" : "Seyed Mohammadjavad Seyed Talebi"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2408.06460v1",
+    "title" : "Evaluating Privacy Measures for Load Hiding",
+    "summary" : "In smart grids, the use of smart meters to measure electricity consumption at\na household level raises privacy concerns. To address them, researchers have\ndesigned various load hiding algorithms that manipulate the electricity\nconsumption measured. To compare how well these algorithms preserve privacy,\nvarious privacy measures have been proposed. However, there currently is no\nconsensus on which privacy measure is most appropriate to use. In this study,\nwe aim to identify the most effective privacy measure(s) for load hiding\nalgorithms. We have crafted a series of experiments to assess the effectiveness\nof these measures. found 20 of the 25 measures studied to be ineffective. Next,\nfocused on the well-known \"appliance usage\" secret, we have designed synthetic\ndata to find the measure that best deals with this secret. We observe that such\na measure, a variant of mutual information, actually exists.",
+    "updated" : "2024-08-12T19:21:34Z",
+    "published" : "2024-08-12T19:21:34Z",
+    "authors" : [
+      {
+        "name" : "Vadim Arzamasov"
+      },
+      {
+        "name" : "Klemens Böhm"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.IT",
+      "math.IT",
+      "94A60, 93A14",
+      "K.6.5; H.3.5"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2408.06395v1",
+    "title" : "Fast John Ellipsoid Computation with Differential Privacy Optimization",
+    "summary" : "Determining the John ellipsoid - the largest volume ellipsoid contained\nwithin a convex polytope - is a fundamental problem with applications in\nmachine learning, optimization, and data analytics. Recent work has developed\nfast algorithms for approximating the John ellipsoid using sketching and\nleverage score sampling techniques. However, these algorithms do not provide\nprivacy guarantees for sensitive input data. In this paper, we present the\nfirst differentially private algorithm for fast John ellipsoid computation. Our\nmethod integrates noise perturbation with sketching and leverage score sampling\nto achieve both efficiency and privacy. We prove that (1) our algorithm\nprovides $(\\epsilon,\\delta)$-differential privacy, and the privacy guarantee\nholds for neighboring datasets that are $\\epsilon_0$-close, allowing\nflexibility in the privacy definition; (2) our algorithm still converges to a\n$(1+\\xi)$-approximation of the optimal John ellipsoid in\n$O(\\xi^{-2}(\\log(n/\\delta_0) + (L\\epsilon_0)^{-2}))$ iterations where $n$ is\nthe number of data point, $L$ is the Lipschitz constant, $\\delta_0$ is the\nfailure probability, and $\\epsilon_0$ is the closeness of neighboring input\ndatasets. Our theoretical analysis demonstrates the algorithm's convergence and\nprivacy properties, providing a robust approach for balancing utility and\nprivacy in John ellipsoid computation. This is the first differentially private\nalgorithm for fast John ellipsoid computation, opening avenues for future\nresearch in privacy-preserving optimization techniques.",
+    "updated" : "2024-08-12T03:47:55Z",
+    "published" : "2024-08-12T03:47:55Z",
+    "authors" : [
+      {
+        "name" : "Jiuxiang Gu"
+      },
+      {
+        "name" : "Xiaoyu Li"
+      },
+      {
+        "name" : "Yingyu Liang"
+      },
+      {
+        "name" : "Zhenmei Shi"
+      },
+      {
+        "name" : "Zhao Song"
+      },
+      {
+        "name" : "Junwei Yu"
+      }
+    ],
+    "categories" : [
+      "cs.DS",
+      "cs.CR",
+      "cs.LG"
+    ]
   }
 ]
