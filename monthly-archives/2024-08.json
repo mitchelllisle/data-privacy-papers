@@ -813,5 +813,26 @@
       "cs.CR",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2408.07614v1",
+    "title" : "Practical Considerations for Differential Privacy",
+    "summary" : "Differential privacy is the gold standard for statistical data release. Used\nby governments, companies, and academics, its mathematically rigorous\nguarantees and worst-case assumptions on the strength and knowledge of\nattackers make it a robust and compelling framework for reasoning about\nprivacy. However, even with landmark successes, differential privacy has not\nachieved widespread adoption in everyday data use and data protection. In this\nwork we examine some of the practical obstacles that stand in the way.",
+    "updated" : "2024-08-14T15:28:28Z",
+    "published" : "2024-08-14T15:28:28Z",
+    "authors" : [
+      {
+        "name" : "Kareem Amin"
+      },
+      {
+        "name" : "Alex Kulesza"
+      },
+      {
+        "name" : "Sergei Vassilvitskii"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
