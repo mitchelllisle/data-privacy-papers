@@ -2,6 +2,24 @@
 <h2>2024-08</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.07614v1">Practical Considerations for Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-08-14T15:28:28Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Kareem Amin, Alex Kulesza, Sergei Vassilvitskii</p>
+    <p><b>Summary:</b> Differential privacy is the gold standard for statistical data release. Used
+by governments, companies, and academics, its mathematically rigorous
+guarantees and worst-case assumptions on the strength and knowledge of
+attackers make it a robust and compelling framework for reasoning about
+privacy. However, even with landmark successes, differential privacy has not
+achieved widespread adoption in everyday data use and data protection. In this
+work we examine some of the practical obstacles that stand in the way.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2408.07021v1">Improved Counting under Continual Observation with Pure Differential
   Privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B">
@@ -2851,33 +2869,6 @@ Poisson emissions. We find out that the HTTP Invalid Requests, which decreased
 during those period, can be explained with seven-state model. Our findings
 shows the apparent inability for the users in the internet accesses as a result
 of EU regulations on the generative-AI.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.06443v1">Exposing Privacy Gaps: Membership Inference Attack on Preference Data
-  for LLM Alignment</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2024-07-08T22:53:23Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Qizhang Feng, Siva Rajesh Kasa, Hyokun Yun, Choon Hui Teo, Sravan Babu Bodapati</p>
-    <p><b>Summary:</b> Large Language Models (LLMs) have seen widespread adoption due to their
-remarkable natural language capabilities. However, when deploying them in
-real-world settings, it is important to align LLMs to generate texts according
-to acceptable human standards. Methods such as Proximal Policy Optimization
-(PPO) and Direct Preference Optimization (DPO) have made significant progress
-in refining LLMs using human preference data. However, the privacy concerns
-inherent in utilizing such preference data have yet to be adequately studied.
-In this paper, we investigate the vulnerability of LLMs aligned using human
-preference datasets to membership inference attacks (MIAs), highlighting the
-shortcomings of previous MIA approaches with respect to preference data. Our
-study has two main contributions: first, we introduce a novel reference-based
-attack framework specifically for analyzing preference data called PREMIA
-(\uline{Pre}ference data \uline{MIA}); second, we provide empirical evidence
-that DPO models are more vulnerable to MIA compared to PPO models. Our findings
-highlight gaps in current privacy-preserving practices for LLM alignment.</p>
   </details>
 </div>
 
