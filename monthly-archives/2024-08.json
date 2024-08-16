@@ -834,5 +834,150 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2408.08107v1",
+    "title" : "Communication-robust and Privacy-safe Distributed Estimation for\n  Heterogeneous Community-level Behind-the-meter Solar Power Generation",
+    "summary" : "The rapid growth of behind-the-meter (BTM) solar power generation systems\npresents challenges for distribution system planning and scheduling due to\ninvisible solar power generation. To address the data leakage problem of\ncentralized machine-learning methods in BTM solar power generation estimation,\nthe federated learning (FL) method has been investigated for its distributed\nlearning capability. However, the conventional FL method has encountered\nvarious challenges, including heterogeneity, communication failures, and\nmalicious privacy attacks. To overcome these challenges, this study proposes a\ncommunication-robust and privacy-safe distributed estimation method for\nheterogeneous community-level BTM solar power generation. Specifically, this\nstudy adopts multi-task FL as the main structure and learns the common and\nunique features of all communities. Simultaneously, it embeds an updated\nparameters estimation method into the multi-task FL, automatically identifies\nsimilarities between any two clients, and estimates the updated parameters for\nunavailable clients to mitigate the negative effects of communication failures.\nFinally, this study adopts a differential privacy mechanism under the dynamic\nprivacy budget allocation strategy to combat malicious privacy attacks and\nimprove model training efficiency. Case studies show that in the presence of\nheterogeneity and communication failures, the proposed method exhibits better\nestimation accuracy and convergence performance as compared with traditional FL\nand localized learning methods, while providing stronger privacy protection.",
+    "updated" : "2024-08-15T12:11:03Z",
+    "published" : "2024-08-15T12:11:03Z",
+    "authors" : [
+      {
+        "name" : "Jinglei Feng"
+      },
+      {
+        "name" : "Zhengshuo Li"
+      }
+    ],
+    "categories" : [
+      "eess.SY",
+      "cs.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2408.08002v1",
+    "title" : "Practical Privacy-Preserving Identity Verification using Third-Party\n  Cloud Services and FHE (Role of Data Encoding in Circuit Depth Management)",
+    "summary" : "National digital identity verification systems have played a critical role in\nthe effective distribution of goods and services, particularly, in developing\ncountries. Due to the cost involved in deploying and maintaining such systems,\ncombined with a lack of in-house technical expertise, governments seek to\noutsource this service to third-party cloud service providers to the extent\npossible. This leads to increased concerns regarding the privacy of users'\npersonal data. In this work, we propose a practical privacy-preserving digital\nidentity (ID) verification protocol where the third-party cloud services\nprocess the identity data encrypted using a (single-key) Fully Homomorphic\nEncryption (FHE) scheme such as BFV. Though the role of a trusted entity such\nas government is not completely eliminated, our protocol does significantly\nreduces the computation load on such parties.\n  A challenge in implementing a privacy-preserving ID verification protocol\nusing FHE is to support various types of queries such as exact and/or fuzzy\ndemographic and biometric matches including secure age comparisons. From a\ncryptographic engineering perspective, our main technical contribution is a\nuser data encoding scheme that encodes demographic and biometric user data in\nonly two BFV ciphertexts and yet facilitates us to outsource various types of\nID verification queries to a third-party cloud. Our encoding scheme also\nensures that the only computation done by the trusted entity is a\nquery-agnostic \"extended\" decryption. This is in stark contrast with recent\nworks that outsource all the non-arithmetic operations to a trusted server. We\nimplement our protocol using the Microsoft SEAL FHE library and demonstrate its\npracticality.",
+    "updated" : "2024-08-15T08:12:07Z",
+    "published" : "2024-08-15T08:12:07Z",
+    "authors" : [
+      {
+        "name" : "Deep Inder Mohan"
+      },
+      {
+        "name" : "Srinivas Vivek"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2408.07892v1",
+    "title" : "Personhood credentials: Artificial intelligence and the value of\n  privacy-preserving tools to distinguish who is real online",
+    "summary" : "Anonymity is an important principle online. However, malicious actors have\nlong used misleading identities to conduct fraud, spread disinformation, and\ncarry out other deceptive schemes. With the advent of increasingly capable AI,\nbad actors can amplify the potential scale and effectiveness of their\noperations, intensifying the challenge of balancing anonymity and\ntrustworthiness online. In this paper, we analyze the value of a new tool to\naddress this challenge: \"personhood credentials\" (PHCs), digital credentials\nthat empower users to demonstrate that they are real people -- not AIs -- to\nonline services, without disclosing any personal information. Such credentials\ncan be issued by a range of trusted institutions -- governments or otherwise. A\nPHC system, according to our definition, could be local or global, and does not\nneed to be biometrics-based. Two trends in AI contribute to the urgency of the\nchallenge: AI's increasing indistinguishability (i.e., lifelike content and\navatars, agentic activity) from people online, and AI's increasing scalability\n(i.e., cost-effectiveness, accessibility). Drawing on a long history of\nresearch into anonymous credentials and \"proof-of-personhood\" systems,\npersonhood credentials give people a way to signal their trustworthiness on\nonline platforms, and offer service providers new tools for reducing misuse by\nbad actors. In contrast, existing countermeasures to automated deception --\nsuch as CAPTCHAs -- are inadequate against sophisticated AI, while stringent\nidentity verification solutions are insufficiently private for many use-cases.\nAfter surveying the benefits of personhood credentials, we also examine\ndeployment risks and design challenges. We conclude with actionable next steps\nfor policymakers, technologists, and standards bodies to consider in\nconsultation with the public.",
+    "updated" : "2024-08-15T02:41:25Z",
+    "published" : "2024-08-15T02:41:25Z",
+    "authors" : [
+      {
+        "name" : "Steven Adler"
+      },
+      {
+        "name" : "Zoë Hitzig"
+      },
+      {
+        "name" : "Shrey Jain"
+      },
+      {
+        "name" : "Catherine Brewer"
+      },
+      {
+        "name" : "Wayne Chang"
+      },
+      {
+        "name" : "Renée DiResta"
+      },
+      {
+        "name" : "Eddy Lazzarin"
+      },
+      {
+        "name" : "Sean McGregor"
+      },
+      {
+        "name" : "Wendy Seltzer"
+      },
+      {
+        "name" : "Divya Siddarth"
+      },
+      {
+        "name" : "Nouran Soliman"
+      },
+      {
+        "name" : "Tobin South"
+      },
+      {
+        "name" : "Connor Spelliscy"
+      },
+      {
+        "name" : "Manu Sporny"
+      },
+      {
+        "name" : "Varya Srivastava"
+      },
+      {
+        "name" : "John Bailey"
+      },
+      {
+        "name" : "Brian Christian"
+      },
+      {
+        "name" : "Andrew Critch"
+      },
+      {
+        "name" : "Ronnie Falcon"
+      },
+      {
+        "name" : "Heather Flanagan"
+      },
+      {
+        "name" : "Kim Hamilton Duffy"
+      },
+      {
+        "name" : "Eric Ho"
+      },
+      {
+        "name" : "Claire R. Leibowicz"
+      },
+      {
+        "name" : "Srikanth Nadhamuni"
+      },
+      {
+        "name" : "Alan Z. Rozenshtein"
+      },
+      {
+        "name" : "David Schnurr"
+      },
+      {
+        "name" : "Evan Shapiro"
+      },
+      {
+        "name" : "Lacey Strahm"
+      },
+      {
+        "name" : "Andrew Trask"
+      },
+      {
+        "name" : "Zoe Weinberg"
+      },
+      {
+        "name" : "Cedric Whitney"
+      },
+      {
+        "name" : "Tom Zick"
+      }
+    ],
+    "categories" : [
+      "cs.CY"
+    ]
   }
 ]
