@@ -2,6 +2,112 @@
 <h2>2024-08</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.08107v1">Communication-robust and Privacy-safe Distributed Estimation for
+  Heterogeneous Community-level Behind-the-meter Solar Power Generation</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
+  <p><b>Published on:</b> 2024-08-15T12:11:03Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jinglei Feng, Zhengshuo Li</p>
+    <p><b>Summary:</b> The rapid growth of behind-the-meter (BTM) solar power generation systems
+presents challenges for distribution system planning and scheduling due to
+invisible solar power generation. To address the data leakage problem of
+centralized machine-learning methods in BTM solar power generation estimation,
+the federated learning (FL) method has been investigated for its distributed
+learning capability. However, the conventional FL method has encountered
+various challenges, including heterogeneity, communication failures, and
+malicious privacy attacks. To overcome these challenges, this study proposes a
+communication-robust and privacy-safe distributed estimation method for
+heterogeneous community-level BTM solar power generation. Specifically, this
+study adopts multi-task FL as the main structure and learns the common and
+unique features of all communities. Simultaneously, it embeds an updated
+parameters estimation method into the multi-task FL, automatically identifies
+similarities between any two clients, and estimates the updated parameters for
+unavailable clients to mitigate the negative effects of communication failures.
+Finally, this study adopts a differential privacy mechanism under the dynamic
+privacy budget allocation strategy to combat malicious privacy attacks and
+improve model training efficiency. Case studies show that in the presence of
+heterogeneity and communication failures, the proposed method exhibits better
+estimation accuracy and convergence performance as compared with traditional FL
+and localized learning methods, while providing stronger privacy protection.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.08002v1">Practical Privacy-Preserving Identity Verification using Third-Party
+  Cloud Services and FHE (Role of Data Encoding in Circuit Depth Management)</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-08-15T08:12:07Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Deep Inder Mohan, Srinivas Vivek</p>
+    <p><b>Summary:</b> National digital identity verification systems have played a critical role in
+the effective distribution of goods and services, particularly, in developing
+countries. Due to the cost involved in deploying and maintaining such systems,
+combined with a lack of in-house technical expertise, governments seek to
+outsource this service to third-party cloud service providers to the extent
+possible. This leads to increased concerns regarding the privacy of users'
+personal data. In this work, we propose a practical privacy-preserving digital
+identity (ID) verification protocol where the third-party cloud services
+process the identity data encrypted using a (single-key) Fully Homomorphic
+Encryption (FHE) scheme such as BFV. Though the role of a trusted entity such
+as government is not completely eliminated, our protocol does significantly
+reduces the computation load on such parties.
+  A challenge in implementing a privacy-preserving ID verification protocol
+using FHE is to support various types of queries such as exact and/or fuzzy
+demographic and biometric matches including secure age comparisons. From a
+cryptographic engineering perspective, our main technical contribution is a
+user data encoding scheme that encodes demographic and biometric user data in
+only two BFV ciphertexts and yet facilitates us to outsource various types of
+ID verification queries to a third-party cloud. Our encoding scheme also
+ensures that the only computation done by the trusted entity is a
+query-agnostic "extended" decryption. This is in stark contrast with recent
+works that outsource all the non-arithmetic operations to a trusted server. We
+implement our protocol using the Microsoft SEAL FHE library and demonstrate its
+practicality.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.07892v1">Personhood credentials: Artificial intelligence and the value of
+  privacy-preserving tools to distinguish who is real online</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2024-08-15T02:41:25Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Steven Adler, Zoë Hitzig, Shrey Jain, Catherine Brewer, Wayne Chang, Renée DiResta, Eddy Lazzarin, Sean McGregor, Wendy Seltzer, Divya Siddarth, Nouran Soliman, Tobin South, Connor Spelliscy, Manu Sporny, Varya Srivastava, John Bailey, Brian Christian, Andrew Critch, Ronnie Falcon, Heather Flanagan, Kim Hamilton Duffy, Eric Ho, Claire R. Leibowicz, Srikanth Nadhamuni, Alan Z. Rozenshtein, David Schnurr, Evan Shapiro, Lacey Strahm, Andrew Trask, Zoe Weinberg, Cedric Whitney, Tom Zick</p>
+    <p><b>Summary:</b> Anonymity is an important principle online. However, malicious actors have
+long used misleading identities to conduct fraud, spread disinformation, and
+carry out other deceptive schemes. With the advent of increasingly capable AI,
+bad actors can amplify the potential scale and effectiveness of their
+operations, intensifying the challenge of balancing anonymity and
+trustworthiness online. In this paper, we analyze the value of a new tool to
+address this challenge: "personhood credentials" (PHCs), digital credentials
+that empower users to demonstrate that they are real people -- not AIs -- to
+online services, without disclosing any personal information. Such credentials
+can be issued by a range of trusted institutions -- governments or otherwise. A
+PHC system, according to our definition, could be local or global, and does not
+need to be biometrics-based. Two trends in AI contribute to the urgency of the
+challenge: AI's increasing indistinguishability (i.e., lifelike content and
+avatars, agentic activity) from people online, and AI's increasing scalability
+(i.e., cost-effectiveness, accessibility). Drawing on a long history of
+research into anonymous credentials and "proof-of-personhood" systems,
+personhood credentials give people a way to signal their trustworthiness on
+online platforms, and offer service providers new tools for reducing misuse by
+bad actors. In contrast, existing countermeasures to automated deception --
+such as CAPTCHAs -- are inadequate against sophisticated AI, while stringent
+identity verification solutions are insufficiently private for many use-cases.
+After surveying the benefits of personhood credentials, we also examine
+deployment risks and design challenges. We conclude with actionable next steps
+for policymakers, technologists, and standards bodies to consider in
+consultation with the public.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2408.07614v1">Practical Considerations for Differential Privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2024-08-14T15:28:28Z</p>
@@ -2780,95 +2886,6 @@ in a more general and unconstrained environment. Our experimentation
 demonstrated that synthetic data achieves a more favorable privacy-utility
 trade-off compared to the provided implementation of k-anonymization, thereby
 reaffirming earlier conclusions.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.06778v1">A BERT-based Empirical Study of Privacy Policies' Compliance with GDPR</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2024-07-09T11:47:52Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Lu Zhang, Nabil Moukafih, Hamad Alamri, Gregory Epiphaniou, Carsten Maple</p>
-    <p><b>Summary:</b> Since its implementation in May 2018, the General Data Protection Regulation
-(GDPR) has prompted businesses to revisit and revise their data handling
-practices to ensure compliance. The privacy policy, which serves as the primary
-means of informing users about their privacy rights and the data practices of
-companies, has been significantly updated by numerous businesses post-GDPR
-implementation. However, many privacy policies remain packed with technical
-jargon, lengthy explanations, and vague descriptions of data practices and user
-rights. This makes it a challenging task for users and regulatory authorities
-to manually verify the GDPR compliance of these privacy policies. In this
-study, we aim to address the challenge of compliance analysis between GDPR
-(Article 13) and privacy policies for 5G networks. We manually collected
-privacy policies from almost 70 different 5G MNOs, and we utilized an automated
-BERT-based model for classification. We show that an encouraging 51$\%$ of
-companies demonstrate a strong adherence to GDPR. In addition, we present the
-first study that provides current empirical evidence on the readability of
-privacy policies for 5G network. we adopted readability analysis toolset that
-incorporates various established readability metrics. The findings empirically
-show that the readability of the majority of current privacy policies remains a
-significant challenge. Hence, 5G providers need to invest considerable effort
-into revising these documents to enhance both their utility and the overall
-user experience.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.06496v1">It's Our Loss: No Privacy Amplification for Hidden State DP-SGD With
-  Non-Convex Loss</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-07-09T01:58:19Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Meenatchi Sundaram Muthu Selva Annamalai</p>
-    <p><b>Summary:</b> Differentially Private Stochastic Gradient Descent (DP-SGD) is a popular
-iterative algorithm used to train machine learning models while formally
-guaranteeing the privacy of users. However the privacy analysis of DP-SGD makes
-the unrealistic assumption that all intermediate iterates (aka internal state)
-of the algorithm are released since in practice, only the final trained model,
-i.e., the final iterate of the algorithm is released. In this hidden state
-setting, prior work has provided tighter analyses, albeit only when the loss
-function is constrained, e.g., strongly convex and smooth or linear. On the
-other hand, the privacy leakage observed empirically from hidden state DP-SGD,
-even when using non-convex loss functions suggest that there is in fact a gap
-between the theoretical privacy analysis and the privacy guarantees achieved in
-practice. Therefore, it remains an open question whether privacy amplification
-for DP-SGD is possible in the hidden state setting for general loss functions.
-  Unfortunately, this work answers the aforementioned research question
-negatively. By carefully constructing a loss function for DP-SGD, we show that
-for specific loss functions, the final iterate of DP-SGD alone leaks as much
-information as the sequence of all iterates combined. Furthermore, we
-empirically verify this result by evaluating the privacy leakage from the final
-iterate of DP-SGD with our loss function and show that this matches the
-theoretical upper bound guaranteed by DP exactly. Therefore, we show that the
-current privacy analysis fo DP-SGD is tight for general loss functions and
-conclude that no privacy amplification is possible for DP-SGD in general for
-all (possibly non-convex) loss functions.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.06495v1">Impact Evaluation on the European Privacy Laws governing generative-AI
-  models -- Evidence in Relation between Internet Censorship and the Ban of
-  ChatGPT in Italy</a></h3>
-    
-  <p><b>Published on:</b> 2024-07-09T01:56:42Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Tatsuru Kikuchi</p>
-    <p><b>Summary:</b> We proceed an impact evaluation on the European Privacy Laws governing
-generative-AI models, especially, focusing on the effects of the Ban of ChatGPT
-in Italy. We investigate on the causal relationship between Internet Censorship
-Data and the Ban of ChatGPT in Italy during the period from March 27, 2023 to
-April 11, 2023. We analyze the relation based on the hidden Markov model with
-Poisson emissions. We find out that the HTTP Invalid Requests, which decreased
-during those period, can be explained with seven-state model. Our findings
-shows the apparent inability for the users in the internet accesses as a result
-of EU regulations on the generative-AI.</p>
   </details>
 </div>
 
