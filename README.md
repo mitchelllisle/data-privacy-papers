@@ -2,6 +2,136 @@
 <h2>2024-08</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.08722v1">A Novel Buffered Federated Learning Framework for Privacy-Driven Anomaly
+  Detection in IIoT</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-08-16T13:01:59Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Samira Kamali Poorazad, Chafika Benzaid, Tarik Taleb</p>
+    <p><b>Summary:</b> Industrial Internet of Things (IIoT) is highly sensitive to data privacy and
+cybersecurity threats. Federated Learning (FL) has emerged as a solution for
+preserving privacy, enabling private data to remain on local IIoT clients while
+cooperatively training models to detect network anomalies. However, both
+synchronous and asynchronous FL architectures exhibit limitations, particularly
+when dealing with clients with varying speeds due to data heterogeneity and
+resource constraints. Synchronous architecture suffers from straggler effects,
+while asynchronous methods encounter communication bottlenecks. Additionally,
+FL models are prone to adversarial inference attacks aimed at disclosing
+private training data. To address these challenges, we propose a Buffered FL
+(BFL) framework empowered by homomorphic encryption for anomaly detection in
+heterogeneous IIoT environments. BFL utilizes a novel weighted average time
+approach to mitigate both straggler effects and communication bottlenecks,
+ensuring fairness between clients with varying processing speeds through
+collaboration with a buffer-based server. The performance results, derived from
+two datasets, show the superiority of BFL compared to state-of-the-art FL
+methods, demonstrating improved accuracy and convergence speed while enhancing
+privacy preservation.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.08666v1">A Multivocal Literature Review on Privacy and Fairness in Federated
+  Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-08-16T11:15:52Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Beatrice Balbierer, Lukas Heinlein, Domenique Zipperling, Niklas Kühl</p>
+    <p><b>Summary:</b> Federated Learning presents a way to revolutionize AI applications by
+eliminating the necessity for data sharing. Yet, research has shown that
+information can still be extracted during training, making additional
+privacy-preserving measures such as differential privacy imperative. To
+implement real-world federated learning applications, fairness, ranging from a
+fair distribution of performance to non-discriminative behaviour, must be
+considered. Particularly in high-risk applications (e.g. healthcare), avoiding
+the repetition of past discriminatory errors is paramount. As recent research
+has demonstrated an inherent tension between privacy and fairness, we conduct a
+multivocal literature review to examine the current methods to integrate
+privacy and fairness in federated learning. Our analyses illustrate that the
+relationship between privacy and fairness has been neglected, posing a critical
+risk for real-world applications. We highlight the need to explore the
+relationship between privacy, fairness, and performance, advocating for the
+creation of integrated federated learning frameworks.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.08642v1">The Power of Bias: Optimizing Client Selection in Federated Learning
+  with Heterogeneous Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-08-16T10:19:27Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jiating Ma, Yipeng Zhou, Qi Li, Quan Z. Sheng, Laizhong Cui, Jiangchuan Liu</p>
+    <p><b>Summary:</b> To preserve the data privacy, the federated learning (FL) paradigm emerges in
+which clients only expose model gradients rather than original data for
+conducting model training. To enhance the protection of model gradients in FL,
+differentially private federated learning (DPFL) is proposed which incorporates
+differentially private (DP) noises to obfuscate gradients before they are
+exposed. Yet, an essential but largely overlooked problem in DPFL is the
+heterogeneity of clients' privacy requirement, which can vary significantly
+between clients and extremely complicates the client selection problem in DPFL.
+In other words, both the data quality and the influence of DP noises should be
+taken into account when selecting clients. To address this problem, we conduct
+convergence analysis of DPFL under heterogeneous privacy, a generic client
+selection strategy, popular DP mechanisms and convex loss. Based on convergence
+analysis, we formulate the client selection problem to minimize the value of
+loss function in DPFL with heterogeneous privacy, which is a convex
+optimization problem and can be solved efficiently. Accordingly, we propose the
+DPFL-BCS (biased client selection) algorithm. The extensive experiment results
+with real datasets under both convex and non-convex loss functions indicate
+that DPFL-BCS can remarkably improve model utility compared with the SOTA
+baselines.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.08529v1">Privacy-Preserving Vision Transformer Using Images Encrypted with
+  Restricted Random Permutation Matrices</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2024-08-16T04:57:21Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Kouki Horio, Kiyoshi Nishikawa, Hitoshi Kiya</p>
+    <p><b>Summary:</b> We propose a novel method for privacy-preserving fine-tuning vision
+transformers (ViTs) with encrypted images. Conventional methods using encrypted
+images degrade model performance compared with that of using plain images due
+to the influence of image encryption. In contrast, the proposed encryption
+method using restricted random permutation matrices can provide a higher
+performance than the conventional ones.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.08475v1">Models Matter: Setting Accurate Privacy Expectations for Local and
+  Central Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2024-08-16T01:21:57Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mary Anne Smart, Priyanka Nanayakkara, Rachel Cummings, Gabriel Kaptchuk, Elissa Redmiles</p>
+    <p><b>Summary:</b> Differential privacy is a popular privacy-enhancing technology that has been
+deployed both in industry and government agencies. Unfortunately, existing
+explanations of differential privacy fail to set accurate privacy expectations
+for data subjects, which depend on the choice of deployment model. We design
+and evaluate new explanations of differential privacy for the local and central
+models, drawing inspiration from prior work explaining other privacy-enhancing
+technologies. We find that consequences-focused explanations in the style of
+privacy nutrition labels that lay out the implications of differential privacy
+are a promising approach for setting accurate privacy expectations. Further, we
+find that while process-focused explanations are not enough to set accurate
+privacy expectations, combining consequences-focused explanations with a brief
+description of how differential privacy works leads to greater trust.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2408.08107v1">Communication-robust and Privacy-safe Distributed Estimation for
   Heterogeneous Community-level Behind-the-meter Solar Power Generation</a></h3>
    <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
@@ -2735,157 +2865,6 @@ models. For instance, we observe up to 19.61% improvement in perplexity and up
 to 27.95% reduction in running time. EP-MPD effectively balances privacy and
 performance in federated learning, making it a valuable solution for
 large-scale applications.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.07737v1">Fine-Tuning Large Language Models with User-Level Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
-  <p><b>Published on:</b> 2024-07-10T15:07:58Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zachary Charles, Arun Ganesh, Ryan McKenna, H. Brendan McMahan, Nicole Mitchell, Krishna Pillutla, Keith Rush</p>
-    <p><b>Summary:</b> We investigate practical and scalable algorithms for training large language
-models (LLMs) with user-level differential privacy (DP) in order to provably
-safeguard all the examples contributed by each user. We study two variants of
-DP-SGD with: (1) example-level sampling (ELS) and per-example gradient
-clipping, and (2) user-level sampling (ULS) and per-user gradient clipping. We
-derive a novel user-level DP accountant that allows us to compute provably
-tight privacy guarantees for ELS. Using this, we show that while ELS can
-outperform ULS in specific settings, ULS generally yields better results when
-each user has a diverse collection of examples. We validate our findings
-through experiments in synthetic mean estimation and LLM fine-tuning tasks
-under fixed compute budgets. We find that ULS is significantly better in
-settings where either (1) strong privacy guarantees are required, or (2) the
-compute budget is large. Notably, our focus on LLM-compatible training
-algorithms allows us to scale to models with hundreds of millions of parameters
-and datasets with hundreds of thousands of users.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.07262v1">Differential privacy and Sublinear time are incompatible sometimes</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-07-09T22:33:57Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jeremiah Blocki, Hendrik Fichtenberger, Elena Grigorescu, Tamalika Mukherjee</p>
-    <p><b>Summary:</b> Differential privacy and sublinear algorithms are both rapidly emerging
-algorithmic themes in times of big data analysis. Although recent works have
-shown the existence of differentially private sublinear algorithms for many
-problems including graph parameter estimation and clustering, little is known
-regarding hardness results on these algorithms. In this paper, we initiate the
-study of lower bounds for problems that aim for both differentially-private and
-sublinear-time algorithms. Our main result is the incompatibility of both the
-desiderata in the general case. In particular, we prove that a simple problem
-based on one-way marginals yields both a differentially-private algorithm, as
-well as a sublinear-time algorithm, but does not admit a ``strictly''
-sublinear-time algorithm that is also differentially private.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.07066v2">Explainable Hyperdimensional Computing for Balancing Privacy and
-  Transparency in Additive Manufacturing Monitoring</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2024-07-09T17:42:26Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Fardin Jalil Piran, Prathyush P. Poduval, Hamza Errahmouni Barkam, Mohsen Imani, Farhad Imani</p>
-    <p><b>Summary:</b> In-situ sensing, in conjunction with learning models, presents a unique
-opportunity to address persistent defect issues in Additive Manufacturing (AM)
-processes. However, this integration introduces significant data privacy
-concerns, such as data leakage, sensor data compromise, and model inversion
-attacks, revealing critical details about part design, material composition,
-and machine parameters. Differential Privacy (DP) models, which inject noise
-into data under mathematical guarantees, offer a nuanced balance between data
-utility and privacy by obscuring traces of sensing data. However, the
-introduction of noise into learning models, often functioning as black boxes,
-complicates the prediction of how specific noise levels impact model accuracy.
-This study introduces the Differential Privacy-HyperDimensional computing
-(DP-HD) framework, leveraging the explainability of the vector symbolic
-paradigm to predict the noise impact on the accuracy of in-situ monitoring,
-safeguarding sensitive data while maintaining operational efficiency.
-Experimental results on real-world high-speed melt pool data of AM for
-detecting overhang anomalies demonstrate that DP-HD achieves superior
-operational efficiency, prediction accuracy, and robust privacy protection,
-outperforming state-of-the-art Machine Learning (ML) models. For example, when
-implementing the same level of privacy protection (with a privacy budget set at
-1), our model achieved an accuracy of 94.43%, surpassing the performance of
-traditional models such as ResNet50 (52.30%), GoogLeNet (23.85%), AlexNet
-(55.78%), DenseNet201 (69.13%), and EfficientNet B2 (40.81%). Notably, DP-HD
-maintains high performance under substantial noise additions designed to
-enhance privacy, unlike current models that suffer significant accuracy
-declines under high privacy constraints.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.18923v1">Towards a Novel Privacy-Preserving Distributed Multiparty Data
-  Outsourcing Scheme for Cloud Computing with Quantum Key Distribution</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-07-09T15:53:04Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> D. Dhinakaran, D. Selvaraj, N. Dharini, S. Edwin Raja, C. Sakthi Lakshmi Priya</p>
-    <p><b>Summary:</b> The intersection of cloud computing, blockchain technology, and the impending
-era of quantum computing presents a critical juncture for data security. This
-research addresses the escalating vulnerabilities by proposing a comprehensive
-framework that integrates Quantum Key Distribution (QKD), CRYSTALS Kyber, and
-Zero-Knowledge Proofs (ZKPs) for securing data in cloud-based blockchain
-systems. The primary objective is to fortify data against quantum threats
-through the implementation of QKD, a quantum-safe cryptographic protocol. We
-leverage the lattice-based cryptographic mechanism, CRYSTALS Kyber, known for
-its resilience against quantum attacks. Additionally, ZKPs are introduced to
-enhance data privacy and verification processes within the cloud and blockchain
-environment. A significant focus of this research is the performance evaluation
-of the proposed framework. Rigorous analyses encompass encryption and
-decryption processes, quantum key generation rates, and overall system
-efficiency. Practical implications are scrutinized, considering factors such as
-file size, response time, and computational overhead. The evaluation sheds
-light on the framework's viability in real-world cloud environments,
-emphasizing its efficiency in mitigating quantum threats. The findings
-contribute a robust quantum-safe and ZKP-integrated security framework tailored
-for cloud-based blockchain storage. By addressing critical gaps in theoretical
-advancements, this research offers practical insights for organizations seeking
-to secure their data against quantum threats. The framework's efficiency and
-scalability underscore its practical feasibility, serving as a guide for
-implementing enhanced data security in the evolving landscape of quantum
-computing and blockchain integration within cloud environments.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.07926v1">Synthetic Data: Revisiting the Privacy-Utility Trade-off</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-07-09T14:48:43Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Fatima Jahan Sarmin, Atiquer Rahman Sarkar, Yang Wang, Noman Mohammed</p>
-    <p><b>Summary:</b> Synthetic data has been considered a better privacy-preserving alternative to
-traditionally sanitized data across various applications. However, a recent
-article challenges this notion, stating that synthetic data does not provide a
-better trade-off between privacy and utility than traditional anonymization
-techniques, and that it leads to unpredictable utility loss and highly
-unpredictable privacy gain. The article also claims to have identified a breach
-in the differential privacy guarantees provided by PATEGAN and PrivBayes. When
-a study claims to refute or invalidate prior findings, it is crucial to verify
-and validate the study. In our work, we analyzed the implementation of the
-privacy game described in the article and found that it operated in a highly
-specialized and constrained environment, which limits the applicability of its
-findings to general cases. Our exploration also revealed that the game did not
-satisfy a crucial precondition concerning data distributions, which contributed
-to the perceived violation of the differential privacy guarantees offered by
-PATEGAN and PrivBayes. We also conducted a privacy-utility trade-off analysis
-in a more general and unconstrained environment. Our experimentation
-demonstrated that synthetic data achieves a more favorable privacy-utility
-trade-off compared to the provided implementation of k-anonymization, thereby
-reaffirming earlier conclusions.</p>
   </details>
 </div>
 
