@@ -979,5 +979,130 @@
     "categories" : [
       "cs.CY"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2408.08722v1",
+    "title" : "A Novel Buffered Federated Learning Framework for Privacy-Driven Anomaly\n  Detection in IIoT",
+    "summary" : "Industrial Internet of Things (IIoT) is highly sensitive to data privacy and\ncybersecurity threats. Federated Learning (FL) has emerged as a solution for\npreserving privacy, enabling private data to remain on local IIoT clients while\ncooperatively training models to detect network anomalies. However, both\nsynchronous and asynchronous FL architectures exhibit limitations, particularly\nwhen dealing with clients with varying speeds due to data heterogeneity and\nresource constraints. Synchronous architecture suffers from straggler effects,\nwhile asynchronous methods encounter communication bottlenecks. Additionally,\nFL models are prone to adversarial inference attacks aimed at disclosing\nprivate training data. To address these challenges, we propose a Buffered FL\n(BFL) framework empowered by homomorphic encryption for anomaly detection in\nheterogeneous IIoT environments. BFL utilizes a novel weighted average time\napproach to mitigate both straggler effects and communication bottlenecks,\nensuring fairness between clients with varying processing speeds through\ncollaboration with a buffer-based server. The performance results, derived from\ntwo datasets, show the superiority of BFL compared to state-of-the-art FL\nmethods, demonstrating improved accuracy and convergence speed while enhancing\nprivacy preservation.",
+    "updated" : "2024-08-16T13:01:59Z",
+    "published" : "2024-08-16T13:01:59Z",
+    "authors" : [
+      {
+        "name" : "Samira Kamali Poorazad"
+      },
+      {
+        "name" : "Chafika Benzaid"
+      },
+      {
+        "name" : "Tarik Taleb"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2408.08666v1",
+    "title" : "A Multivocal Literature Review on Privacy and Fairness in Federated\n  Learning",
+    "summary" : "Federated Learning presents a way to revolutionize AI applications by\neliminating the necessity for data sharing. Yet, research has shown that\ninformation can still be extracted during training, making additional\nprivacy-preserving measures such as differential privacy imperative. To\nimplement real-world federated learning applications, fairness, ranging from a\nfair distribution of performance to non-discriminative behaviour, must be\nconsidered. Particularly in high-risk applications (e.g. healthcare), avoiding\nthe repetition of past discriminatory errors is paramount. As recent research\nhas demonstrated an inherent tension between privacy and fairness, we conduct a\nmultivocal literature review to examine the current methods to integrate\nprivacy and fairness in federated learning. Our analyses illustrate that the\nrelationship between privacy and fairness has been neglected, posing a critical\nrisk for real-world applications. We highlight the need to explore the\nrelationship between privacy, fairness, and performance, advocating for the\ncreation of integrated federated learning frameworks.",
+    "updated" : "2024-08-16T11:15:52Z",
+    "published" : "2024-08-16T11:15:52Z",
+    "authors" : [
+      {
+        "name" : "Beatrice Balbierer"
+      },
+      {
+        "name" : "Lukas Heinlein"
+      },
+      {
+        "name" : "Domenique Zipperling"
+      },
+      {
+        "name" : "Niklas Kühl"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2408.08642v1",
+    "title" : "The Power of Bias: Optimizing Client Selection in Federated Learning\n  with Heterogeneous Differential Privacy",
+    "summary" : "To preserve the data privacy, the federated learning (FL) paradigm emerges in\nwhich clients only expose model gradients rather than original data for\nconducting model training. To enhance the protection of model gradients in FL,\ndifferentially private federated learning (DPFL) is proposed which incorporates\ndifferentially private (DP) noises to obfuscate gradients before they are\nexposed. Yet, an essential but largely overlooked problem in DPFL is the\nheterogeneity of clients' privacy requirement, which can vary significantly\nbetween clients and extremely complicates the client selection problem in DPFL.\nIn other words, both the data quality and the influence of DP noises should be\ntaken into account when selecting clients. To address this problem, we conduct\nconvergence analysis of DPFL under heterogeneous privacy, a generic client\nselection strategy, popular DP mechanisms and convex loss. Based on convergence\nanalysis, we formulate the client selection problem to minimize the value of\nloss function in DPFL with heterogeneous privacy, which is a convex\noptimization problem and can be solved efficiently. Accordingly, we propose the\nDPFL-BCS (biased client selection) algorithm. The extensive experiment results\nwith real datasets under both convex and non-convex loss functions indicate\nthat DPFL-BCS can remarkably improve model utility compared with the SOTA\nbaselines.",
+    "updated" : "2024-08-16T10:19:27Z",
+    "published" : "2024-08-16T10:19:27Z",
+    "authors" : [
+      {
+        "name" : "Jiating Ma"
+      },
+      {
+        "name" : "Yipeng Zhou"
+      },
+      {
+        "name" : "Qi Li"
+      },
+      {
+        "name" : "Quan Z. Sheng"
+      },
+      {
+        "name" : "Laizhong Cui"
+      },
+      {
+        "name" : "Jiangchuan Liu"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2408.08529v1",
+    "title" : "Privacy-Preserving Vision Transformer Using Images Encrypted with\n  Restricted Random Permutation Matrices",
+    "summary" : "We propose a novel method for privacy-preserving fine-tuning vision\ntransformers (ViTs) with encrypted images. Conventional methods using encrypted\nimages degrade model performance compared with that of using plain images due\nto the influence of image encryption. In contrast, the proposed encryption\nmethod using restricted random permutation matrices can provide a higher\nperformance than the conventional ones.",
+    "updated" : "2024-08-16T04:57:21Z",
+    "published" : "2024-08-16T04:57:21Z",
+    "authors" : [
+      {
+        "name" : "Kouki Horio"
+      },
+      {
+        "name" : "Kiyoshi Nishikawa"
+      },
+      {
+        "name" : "Hitoshi Kiya"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2408.08475v1",
+    "title" : "Models Matter: Setting Accurate Privacy Expectations for Local and\n  Central Differential Privacy",
+    "summary" : "Differential privacy is a popular privacy-enhancing technology that has been\ndeployed both in industry and government agencies. Unfortunately, existing\nexplanations of differential privacy fail to set accurate privacy expectations\nfor data subjects, which depend on the choice of deployment model. We design\nand evaluate new explanations of differential privacy for the local and central\nmodels, drawing inspiration from prior work explaining other privacy-enhancing\ntechnologies. We find that consequences-focused explanations in the style of\nprivacy nutrition labels that lay out the implications of differential privacy\nare a promising approach for setting accurate privacy expectations. Further, we\nfind that while process-focused explanations are not enough to set accurate\nprivacy expectations, combining consequences-focused explanations with a brief\ndescription of how differential privacy works leads to greater trust.",
+    "updated" : "2024-08-16T01:21:57Z",
+    "published" : "2024-08-16T01:21:57Z",
+    "authors" : [
+      {
+        "name" : "Mary Anne Smart"
+      },
+      {
+        "name" : "Priyanka Nanayakkara"
+      },
+      {
+        "name" : "Rachel Cummings"
+      },
+      {
+        "name" : "Gabriel Kaptchuk"
+      },
+      {
+        "name" : "Elissa Redmiles"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.HC"
+    ]
   }
 ]
