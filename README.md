@@ -2,6 +2,94 @@
 <h2>2024-08</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.11649v1">Video-to-Text Pedestrian Monitoring (VTPM): Leveraging Computer Vision
+  and Large Language Models for Privacy-Preserve Pedestrian Activity Monitoring
+  at Intersections</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-08-21T14:21:53Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ahmed S. Abdelrahman, Mohamed Abdel-Aty, Dongdong Wang</p>
+    <p><b>Summary:</b> Computer vision has advanced research methodologies, enhancing system
+services across various fields. It is a core component in traffic monitoring
+systems for improving road safety; however, these monitoring systems don't
+preserve the privacy of pedestrians who appear in the videos, potentially
+revealing their identities. Addressing this issue, our paper introduces
+Video-to-Text Pedestrian Monitoring (VTPM), which monitors pedestrian movements
+at intersections and generates real-time textual reports, including traffic
+signal and weather information. VTPM uses computer vision models for pedestrian
+detection and tracking, achieving a latency of 0.05 seconds per video frame.
+Additionally, it detects crossing violations with 90.2% accuracy by
+incorporating traffic signal data. The proposed framework is equipped with
+Phi-3 mini-4k to generate real-time textual reports of pedestrian activity
+while stating safety concerns like crossing violations, conflicts, and the
+impact of weather on their behavior with latency of 0.33 seconds. To enhance
+comprehensive analysis of the generated textual reports, Phi-3 medium is
+fine-tuned for historical analysis of these generated textual reports. This
+fine-tuning enables more reliable analysis about the pedestrian safety at
+intersections, effectively detecting patterns and safety critical events. The
+proposed VTPM offers a more efficient alternative to video footage by using
+textual reports reducing memory usage, saving up to 253 million percent,
+eliminating privacy issues, and enabling comprehensive interactive historical
+analysis.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.11290v1">Privacy Preservation in Delay-Based Localization Systems: Artificial
+  Noise or Artificial Multipath?</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
+  <p><b>Published on:</b> 2024-08-21T02:38:44Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yuchen Zhang, Hui Chen, Henk Wymeersch</p>
+    <p><b>Summary:</b> Localization plays an increasingly pivotal role in 5G/6G systems, enabling
+various applications. This paper focuses on the privacy concerns associated
+with delay-based localization, where unauthorized base stations attempt to
+infer the location of the end user. We propose a method to disrupt localization
+at unauthorized nodes by injecting artificial components into the pilot signal,
+exploiting model mismatches inherent in these nodes. Specifically, we
+investigate the effectiveness of two techniques, namely artificial multipath
+(AM) and artificial noise (AN), in mitigating location leakage. By leveraging
+the misspecified Cram\'er-Rao bound framework, we evaluate the impact of these
+techniques on unauthorized localization performance. Our results demonstrate
+that pilot manipulation significantly degrades the accuracy of unauthorized
+localization while minimally affecting legitimate localization. Moreover, we
+find that the superiority of AM over AN varies depending on the specific
+scenario.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.11263v1">Privacy-Preserving Data Management using Blockchains</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
+  <p><b>Published on:</b> 2024-08-21T01:10:39Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Michael Mireku Kwakye</p>
+    <p><b>Summary:</b> Privacy-preservation policies are guidelines formulated to protect data
+providers private data. Previous privacy-preservation methodologies have
+addressed privacy in which data are permanently stored in repositories and
+disconnected from changing data provider privacy preferences. This occurrence
+becomes evident as data moves to another data repository. Hence, the need for
+data providers to control and flexibly update their existing privacy
+preferences due to changing data usage continues to remain a problem. This
+paper proposes a blockchain-based methodology for preserving data providers
+private and sensitive data. The research proposes to tightly couple data
+providers private attribute data element to privacy preferences and data
+accessor data element into a privacy tuple. The implementation presents a
+framework of tightly-coupled relational database and blockchains. This delivers
+secure, tamper-resistant, and query-efficient platform for data management and
+query processing. The evaluation analysis from the implementation validates
+efficient query processing of privacy-aware queries on the privacy
+infrastructure.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2408.10715v1">Fine-Tuning a Local LLaMA-3 Large Language Model for Automated
   Privacy-Preserving Physician Letter Generation in Radiation Oncology</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
@@ -93,7 +181,7 @@ privacy and reducing the success rate of membership inference attacks.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2408.10468v1">Tracing Privacy Leakage of Language Models to Training Data via Adjusted
+  <h3><a href="http://arxiv.org/abs/2408.10468v2">Tracing Privacy Leakage of Language Models to Training Data via Adjusted
   Influence Functions</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2024-08-20T00:40:49Z</p>
@@ -2786,95 +2874,6 @@ enhances attack transferability while maintaining high visual quality,
 outperforming state-of-the-art methods by an average 25% improvement in deep FR
 models and 10% improvement on commercial FR APIs, including Face++, Aliyun, and
 Tencent.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.12669v1">Enhancing the Utility of Privacy-Preserving Cancer Classification using
-  Synthetic Data</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-07-17T15:52:45Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Richard Osuala, Daniel M. Lang, Anneliese Riess, Georgios Kaissis, Zuzanna Szafranowska, Grzegorz Skorupko, Oliver Diaz, Julia A. Schnabel, Karim Lekadir</p>
-    <p><b>Summary:</b> Deep learning holds immense promise for aiding radiologists in breast cancer
-detection. However, achieving optimal model performance is hampered by
-limitations in availability and sharing of data commonly associated to patient
-privacy concerns. Such concerns are further exacerbated, as traditional deep
-learning models can inadvertently leak sensitive training information. This
-work addresses these challenges exploring and quantifying the utility of
-privacy-preserving deep learning techniques, concretely, (i) differentially
-private stochastic gradient descent (DP-SGD) and (ii) fully synthetic training
-data generated by our proposed malignancy-conditioned generative adversarial
-network. We assess these methods via downstream malignancy classification of
-mammography masses using a transformer model. Our experimental results depict
-that synthetic data augmentation can improve privacy-utility tradeoffs in
-differentially private model training. Further, model pretraining on synthetic
-data achieves remarkable performance, which can be further increased with
-DP-SGD fine-tuning across all privacy guarantees. With this first in-depth
-exploration of privacy-preserving deep learning in breast imaging, we address
-current and emerging clinical privacy requirements and pave the way towards the
-adoption of private high-utility deep diagnostic models. Our reproducible
-codebase is publicly available at https://github.com/RichardObi/mammo_dp.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.12589v1">Privacy-Preserving Adaptive Re-Identification without Image Transfer</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2024-07-17T14:12:44Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Hamza Rami, Jhony H. Giraldo, Nicolas Winckler, Stéphane Lathuilière</p>
-    <p><b>Summary:</b> Re-Identification systems (Re-ID) are crucial for public safety but face the
-challenge of having to adapt to environments that differ from their training
-distribution. Furthermore, rigorous privacy protocols in public places are
-being enforced as apprehensions regarding individual freedom rise, adding
-layers of complexity to the deployment of accurate Re-ID systems in new
-environments. For example, in the European Union, the principles of ``Data
-Minimization'' and ``Purpose Limitation'' restrict the retention and processing
-of images to what is strictly necessary. These regulations pose a challenge to
-the conventional Re-ID training schemes that rely on centralizing data on
-servers. In this work, we present a novel setting for privacy-preserving
-Distributed Unsupervised Domain Adaptation for person Re-ID (DUDA-Rid) to
-address the problem of domain shift without requiring any image transfer
-outside the camera devices. To address this setting, we introduce Fed-Protoid,
-a novel solution that adapts person Re-ID models directly within the edge
-devices. Our proposed solution employs prototypes derived from the source
-domain to align feature statistics within edge devices. Those source prototypes
-are distributed across the edge devices to minimize a distributed Maximum Mean
-Discrepancy (MMD) loss tailored for the DUDA-Rid setting. Our experiments
-provide compelling evidence that Fed-Protoid outperforms all evaluated methods
-in terms of both accuracy and communication efficiency, all while maintaining
-data privacy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.11274v1">Empirical Mean and Frequency Estimation Under Heterogeneous Privacy: A
-  Worst-Case Analysis</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
-  <p><b>Published on:</b> 2024-07-15T22:46:02Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Syomantak Chaudhuri, Thomas A. Courtade</p>
-    <p><b>Summary:</b> Differential Privacy (DP) is the current gold-standard for measuring privacy.
-Estimation problems under DP constraints appearing in the literature have
-largely focused on providing equal privacy to all users. We consider the
-problems of empirical mean estimation for univariate data and frequency
-estimation for categorical data, two pillars of data analysis in the industry,
-subject to heterogeneous privacy constraints. Each user, contributing a sample
-to the dataset, is allowed to have a different privacy demand. The dataset
-itself is assumed to be worst-case and we study both the problems in two
-different formulations -- the correlated and the uncorrelated setting. In the
-former setting, the privacy demand and the user data can be arbitrarily
-correlated while in the latter setting, there is no correlation between the
-dataset and the privacy demand. We prove some optimality results, under both
-PAC error and mean-squared error, for our proposed algorithms and demonstrate
-superior performance over other baseline techniques experimentally.</p>
   </details>
 </div>
 
