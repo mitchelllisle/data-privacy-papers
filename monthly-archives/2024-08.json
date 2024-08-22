@@ -1473,5 +1473,86 @@
       "cs.AI",
       "cs.CV"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2408.11649v1",
+    "title" : "Video-to-Text Pedestrian Monitoring (VTPM): Leveraging Computer Vision\n  and Large Language Models for Privacy-Preserve Pedestrian Activity Monitoring\n  at Intersections",
+    "summary" : "Computer vision has advanced research methodologies, enhancing system\nservices across various fields. It is a core component in traffic monitoring\nsystems for improving road safety; however, these monitoring systems don't\npreserve the privacy of pedestrians who appear in the videos, potentially\nrevealing their identities. Addressing this issue, our paper introduces\nVideo-to-Text Pedestrian Monitoring (VTPM), which monitors pedestrian movements\nat intersections and generates real-time textual reports, including traffic\nsignal and weather information. VTPM uses computer vision models for pedestrian\ndetection and tracking, achieving a latency of 0.05 seconds per video frame.\nAdditionally, it detects crossing violations with 90.2% accuracy by\nincorporating traffic signal data. The proposed framework is equipped with\nPhi-3 mini-4k to generate real-time textual reports of pedestrian activity\nwhile stating safety concerns like crossing violations, conflicts, and the\nimpact of weather on their behavior with latency of 0.33 seconds. To enhance\ncomprehensive analysis of the generated textual reports, Phi-3 medium is\nfine-tuned for historical analysis of these generated textual reports. This\nfine-tuning enables more reliable analysis about the pedestrian safety at\nintersections, effectively detecting patterns and safety critical events. The\nproposed VTPM offers a more efficient alternative to video footage by using\ntextual reports reducing memory usage, saving up to 253 million percent,\neliminating privacy issues, and enabling comprehensive interactive historical\nanalysis.",
+    "updated" : "2024-08-21T14:21:53Z",
+    "published" : "2024-08-21T14:21:53Z",
+    "authors" : [
+      {
+        "name" : "Ahmed S. Abdelrahman"
+      },
+      {
+        "name" : "Mohamed Abdel-Aty"
+      },
+      {
+        "name" : "Dongdong Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2408.11290v1",
+    "title" : "Privacy Preservation in Delay-Based Localization Systems: Artificial\n  Noise or Artificial Multipath?",
+    "summary" : "Localization plays an increasingly pivotal role in 5G/6G systems, enabling\nvarious applications. This paper focuses on the privacy concerns associated\nwith delay-based localization, where unauthorized base stations attempt to\ninfer the location of the end user. We propose a method to disrupt localization\nat unauthorized nodes by injecting artificial components into the pilot signal,\nexploiting model mismatches inherent in these nodes. Specifically, we\ninvestigate the effectiveness of two techniques, namely artificial multipath\n(AM) and artificial noise (AN), in mitigating location leakage. By leveraging\nthe misspecified Cram\\'er-Rao bound framework, we evaluate the impact of these\ntechniques on unauthorized localization performance. Our results demonstrate\nthat pilot manipulation significantly degrades the accuracy of unauthorized\nlocalization while minimally affecting legitimate localization. Moreover, we\nfind that the superiority of AM over AN varies depending on the specific\nscenario.",
+    "updated" : "2024-08-21T02:38:44Z",
+    "published" : "2024-08-21T02:38:44Z",
+    "authors" : [
+      {
+        "name" : "Yuchen Zhang"
+      },
+      {
+        "name" : "Hui Chen"
+      },
+      {
+        "name" : "Henk Wymeersch"
+      }
+    ],
+    "categories" : [
+      "eess.SP",
+      "cs.IT",
+      "math.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2408.11263v1",
+    "title" : "Privacy-Preserving Data Management using Blockchains",
+    "summary" : "Privacy-preservation policies are guidelines formulated to protect data\nproviders private data. Previous privacy-preservation methodologies have\naddressed privacy in which data are permanently stored in repositories and\ndisconnected from changing data provider privacy preferences. This occurrence\nbecomes evident as data moves to another data repository. Hence, the need for\ndata providers to control and flexibly update their existing privacy\npreferences due to changing data usage continues to remain a problem. This\npaper proposes a blockchain-based methodology for preserving data providers\nprivate and sensitive data. The research proposes to tightly couple data\nproviders private attribute data element to privacy preferences and data\naccessor data element into a privacy tuple. The implementation presents a\nframework of tightly-coupled relational database and blockchains. This delivers\nsecure, tamper-resistant, and query-efficient platform for data management and\nquery processing. The evaluation analysis from the implementation validates\nefficient query processing of privacy-aware queries on the privacy\ninfrastructure.",
+    "updated" : "2024-08-21T01:10:39Z",
+    "published" : "2024-08-21T01:10:39Z",
+    "authors" : [
+      {
+        "name" : "Michael Mireku Kwakye"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DB"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2408.10468v2",
+    "title" : "Tracing Privacy Leakage of Language Models to Training Data via Adjusted\n  Influence Functions",
+    "summary" : "The responses generated by Large Language Models (LLMs) can include sensitive\ninformation from individuals and organizations, leading to potential privacy\nleakage. This work implements Influence Functions (IFs) to trace privacy\nleakage back to the training data, thereby mitigating privacy concerns of\nLanguage Models (LMs). However, we notice that current IFs struggle to\naccurately estimate the influence of tokens with large gradient norms,\npotentially overestimating their influence. When tracing the most influential\nsamples, this leads to frequently tracing back to samples with large gradient\nnorm tokens, overshadowing the actual most influential samples even if their\ninfluences are well estimated. To address this issue, we propose Heuristically\nAdjusted IF (HAIF), which reduces the weight of tokens with large gradient\nnorms, thereby significantly improving the accuracy of tracing the most\ninfluential samples. To establish easily obtained groundtruth for tracing\nprivacy leakage, we construct two datasets, PII-E and PII-CR, representing two\ndistinct scenarios: one with identical text in the model outputs and\npre-training data, and the other where models leverage their reasoning\nabilities to generate text divergent from pre-training data. HAIF significantly\nimproves tracing accuracy, enhancing it by 20.96\\% to 73.71\\% on the PII-E\ndataset and 3.21\\% to 45.93\\% on the PII-CR dataset, compared to the best SOTA\nIFs against various GPT-2 and QWen-1.5 models. HAIF also outperforms SOTA IFs\non real-world pretraining data CLUECorpus2020, demonstrating strong robustness\nregardless prompt and response lengths.",
+    "updated" : "2024-08-21T14:35:48Z",
+    "published" : "2024-08-20T00:40:49Z",
+    "authors" : [
+      {
+        "name" : "Jinxin Liu"
+      },
+      {
+        "name" : "Zao Yang"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CL",
+      "cs.CR"
+    ]
   }
 ]
