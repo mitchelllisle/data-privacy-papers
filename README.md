@@ -2,6 +2,92 @@
 <h2>2024-08</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.12385v1">Sharper Bounds for Chebyshev Moment Matching with Applications to
+  Differential Privacy and Beyond</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-08-22T13:26:41Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Cameron Musco, Christopher Musco, Lucas Rosenblatt, Apoorv Vikram Singh</p>
+    <p><b>Summary:</b> We study the problem of approximately recovering a probability distribution
+given noisy measurements of its Chebyshev polynomial moments. We sharpen prior
+work, proving that accurate recovery in the Wasserstein distance is possible
+with more noise than previously known.
+  As a main application, our result yields a simple "linear query" algorithm
+for constructing a differentially private synthetic data distribution with
+Wasserstein-1 error $\tilde{O}(1/n)$ based on a dataset of $n$ points in
+$[-1,1]$. This bound is optimal up to log factors and matches a recent
+breakthrough of Boedihardjo, Strohmer, and Vershynin [Probab. Theory. Rel.,
+2024], which uses a more complex "superregular random walk" method to beat an
+$O(1/\sqrt{n})$ accuracy barrier inherent to earlier approaches.
+  We illustrate a second application of our new moment-based recovery bound in
+numerical linear algebra: by improving an approach of Braverman, Krishnan, and
+Musco [STOC 2022], our result yields a faster algorithm for estimating the
+spectral density of a symmetric matrix up to small error in the Wasserstein
+distance.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.12353v1">Distributed quasi-Newton robust estimation under differential privacy</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36"> 
+  <p><b>Published on:</b> 2024-08-22T12:51:28Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Chuhan Wang, Lixing Zhu, Xuehu Zhu</p>
+    <p><b>Summary:</b> For distributed computing with Byzantine machines under Privacy Protection
+(PP) constraints, this paper develops a robust PP distributed quasi-Newton
+estimation, which only requires the node machines to transmit five vectors to
+the central processor with high asymptotic relative efficiency. Compared with
+the gradient descent strategy which requires more rounds of transmission and
+the Newton iteration strategy which requires the entire Hessian matrix to be
+transmitted, the novel quasi-Newton iteration has advantages in reducing
+privacy budgeting and transmission cost. Moreover, our PP algorithm does not
+depend on the boundedness of gradients and second-order derivatives. When
+gradients and second-order derivatives follow sub-exponential distributions, we
+offer a mechanism that can ensure PP with a sufficiently high probability.
+Furthermore, this novel estimator can achieve the optimal convergence rate and
+the asymptotic normality. The numerical studies on synthetic and real data sets
+evaluate the performance of the proposed algorithm.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.12010v1">Confounding Privacy and Inverse Composition</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-08-21T21:45:13Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Tao Zhang, Bradley A. Malin, Netanel Raviv, Yevgeniy Vorobeychik</p>
+    <p><b>Summary:</b> We introduce a novel privacy notion of ($\epsilon, \delta$)-confounding
+privacy that generalizes both differential privacy and Pufferfish privacy. In
+differential privacy, sensitive information is contained in the dataset while
+in Pufferfish privacy, sensitive information determines data distribution.
+Consequently, both assume a chain-rule relationship between the sensitive
+information and the output of privacy mechanisms. Confounding privacy, in
+contrast, considers general causal relationships between the dataset and
+sensitive information. One of the key properties of differential privacy is
+that it can be easily composed over multiple interactions with the mechanism
+that maps private data to publicly shared information. In contrast, we show
+that the quantification of the privacy loss under the composition of
+independent ($\epsilon, \delta$)-confounding private mechanisms using the
+optimal composition of differential privacy \emph{underestimates} true privacy
+loss. To address this, we characterize an inverse composition framework to
+tightly implement a target global ($\epsilon_{g}, \delta_{g}$)-confounding
+privacy under composition while keeping individual mechanisms independent and
+private. In particular, we propose a novel copula-perturbation method which
+ensures that (1) each individual mechanism $i$ satisfies a target local
+($\epsilon_{i}, \delta_{i}$)-confounding privacy and (2) the target global
+($\epsilon_{g}, \delta_{g}$)-confounding privacy is tightly implemented by
+solving an optimization problem. Finally, we study inverse composition
+empirically on real datasets.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2408.11649v1">Video-to-Text Pedestrian Monitoring (VTPM): Leveraging Computer Vision
   and Large Language Models for Privacy-Preserve Pedestrian Activity Monitoring
   at Intersections</a></h3>
@@ -85,6 +171,42 @@ secure, tamper-resistant, and query-efficient platform for data management and
 query processing. The evaluation analysis from the implementation validates
 efficient query processing of privacy-aware queries on the privacy
 infrastructure.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.12387v1">Makeup-Guided Facial Privacy Protection via Untrained Neural Network
+  Priors</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-08-20T17:59:39Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Fahad Shamshad, Muzammal Naseer, Karthik Nandakumar</p>
+    <p><b>Summary:</b> Deep learning-based face recognition (FR) systems pose significant privacy
+risks by tracking users without their consent. While adversarial attacks can
+protect privacy, they often produce visible artifacts compromising user
+experience. To mitigate this issue, recent facial privacy protection approaches
+advocate embedding adversarial noise into the natural looking makeup styles.
+However, these methods require training on large-scale makeup datasets that are
+not always readily available. In addition, these approaches also suffer from
+dataset bias. For instance, training on makeup data that predominantly contains
+female faces could compromise protection efficacy for male faces. To handle
+these issues, we propose a test-time optimization approach that solely
+optimizes an untrained neural network to transfer makeup style from a reference
+to a source image in an adversarial manner. We introduce two key modules: a
+correspondence module that aligns regions between reference and source images
+in latent space, and a decoder with conditional makeup layers. The untrained
+decoder, optimized via carefully designed structural and makeup consistency
+losses, generates a protected image that resembles the source but incorporates
+adversarial makeup to deceive FR models. As our approach does not rely on
+training with makeup face datasets, it avoids potential male/female dataset
+biases while providing effective protection. We further extend the proposed
+approach to videos by leveraging on temporal correlations. Experiments on
+benchmark datasets demonstrate superior performance in face verification and
+identification tasks and effectiveness against commercial FR systems. Our code
+and models will be available at
+https://github.com/fahadshamshad/deep-facial-privacy-prior</p>
   </details>
 </div>
 
@@ -2752,128 +2874,6 @@ adapting the density of underlying distributions. Our extensive experiments on
 both real and synthetic datasets demonstrate the effectiveness and superiority
 of PriPL-Tree over state-of-the-art solutions in answering range queries across
 arbitrary data distributions.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.13516v1">Optimal Mechanisms for Quantum Local Differential Privacy</a></h3>
-  
-  <p><b>Published on:</b> 2024-07-18T13:46:16Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ji Guan</p>
-    <p><b>Summary:</b> In recent years, centralized differential privacy has been successfully
-extended to quantum computing and information processing to safeguard privacy
-and prevent leaks in neighboring relationships of quantum states. This paper
-introduces a framework known as quantum local differential privacy (QLDP) and
-initializes the algorithmic study of QLDP. QLDP utilizes a parameter $\epsilon$
-to manage privacy leaks and ensure the privacy of individual quantum states.
-The optimization of the QLDP value $\epsilon$, denoted as $\epsilon^*$, for any
-quantum mechanism is addressed as an optimization problem. The introduction of
-quantum noise is shown to provide privacy protections similar to classical
-scenarios, with quantum depolarizing noise identified as the optimal unital
-privatization mechanism within the QLDP framework. Unital mechanisms represent
-a diverse set of quantum mechanisms that encompass frequently employed quantum
-noise types. Quantum depolarizing noise optimizes both fidelity and trace
-distance utilities, which are crucial metrics in the field of quantum
-computation and information, and can be viewed as a quantum counterpart to
-classical randomized response methods. Additionally, a composition theorem is
-presented for the application of QLDP framework in distributed (spatially
-separated) quantum systems, ensuring the validity (additivity of QLDP value)
-irrespective of the states' independence, classical correlation, or
-entanglement (quantum correlation). The study further explores the trade-off
-between utility and privacy across different quantum noise mechanisms,
-including unital and non-unital quantum noise mechanisms, through both
-analytical and numerically experimental approaches. Meanwhile, this highlights
-the optimization of quantum depolarizing noise in QLDP framework.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.13153v1">Preset-Voice Matching for Privacy Regulated Speech-to-Speech Translation
-  Systems</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Sound-D91E36"> 
-  <p><b>Published on:</b> 2024-07-18T04:42:01Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Daniel Platnick, Bishoy Abdelnour, Eamon Earl, Rahul Kumar, Zahra Rezaei, Thomas Tsangaris, Faraj Lagum</p>
-    <p><b>Summary:</b> In recent years, there has been increased demand for speech-to-speech
-translation (S2ST) systems in industry settings. Although successfully
-commercialized, cloning-based S2ST systems expose their distributors to
-liabilities when misused by individuals and can infringe on personality rights
-when exploited by media organizations. This work proposes a regulated S2ST
-framework called Preset-Voice Matching (PVM). PVM removes cross-lingual voice
-cloning in S2ST by first matching the input voice to a similar prior consenting
-speaker voice in the target-language. With this separation, PVM avoids cloning
-the input speaker, ensuring PVM systems comply with regulations and reduce risk
-of misuse. Our results demonstrate PVM can significantly improve S2ST system
-run-time in multi-speaker settings and the naturalness of S2ST synthesized
-speech. To our knowledge, PVM is the first explicitly regulated S2ST framework
-leveraging similarly-matched preset-voices for dynamic S2ST tasks.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.15868v1">A Survey on Differential Privacy for SpatioTemporal Data in
-  Transportation Research</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">  
-  <p><b>Published on:</b> 2024-07-18T03:19:29Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Rahul Bhadani</p>
-    <p><b>Summary:</b> With low-cost computing devices, improved sensor technology, and the
-proliferation of data-driven algorithms, we have more data than we know what to
-do with. In transportation, we are seeing a surge in spatiotemporal data
-collection. At the same time, concerns over user privacy have led to research
-on differential privacy in applied settings. In this paper, we look at some
-recent developments in differential privacy in the context of spatiotemporal
-data. Spatiotemporal data contain not only features about users but also the
-geographical locations of their frequent visits. Hence, the public release of
-such data carries extreme risks. To address the need for such data in research
-and inference without exposing private information, significant work has been
-proposed. This survey paper aims to summarize these efforts and provide a
-review of differential privacy mechanisms and related software. We also discuss
-related work in transportation where such mechanisms have been applied.
-Furthermore, we address the challenges in the deployment and mass adoption of
-differential privacy in transportation spatiotemporal data for downstream
-analyses.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2408.01428v1">Transferable Adversarial Facial Images for Privacy Protection</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2024-07-18T02:16:11Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Minghui Li, Jiangxiong Wang, Hao Zhang, Ziqi Zhou, Shengshan Hu, Xiaobing Pei</p>
-    <p><b>Summary:</b> The success of deep face recognition (FR) systems has raised serious privacy
-concerns due to their ability to enable unauthorized tracking of users in the
-digital world. Previous studies proposed introducing imperceptible adversarial
-noises into face images to deceive those face recognition models, thus
-achieving the goal of enhancing facial privacy protection. Nevertheless, they
-heavily rely on user-chosen references to guide the generation of adversarial
-noises, and cannot simultaneously construct natural and highly transferable
-adversarial face images in black-box scenarios. In light of this, we present a
-novel face privacy protection scheme with improved transferability while
-maintain high visual quality. We propose shaping the entire face space directly
-instead of exploiting one kind of facial characteristic like makeup information
-to integrate adversarial noises. To achieve this goal, we first exploit global
-adversarial latent search to traverse the latent space of the generative model,
-thereby creating natural adversarial face images with high transferability. We
-then introduce a key landmark regularization module to preserve the visual
-identity information. Finally, we investigate the impacts of various kinds of
-latent spaces and find that $\mathcal{F}$ latent space benefits the trade-off
-between visual naturalness and adversarial transferability. Extensive
-experiments over two datasets demonstrate that our approach significantly
-enhances attack transferability while maintaining high visual quality,
-outperforming state-of-the-art methods by an average 25% improvement in deep FR
-models and 10% improvement on commercial FR APIs, including Face++, Aliyun, and
-Tencent.</p>
   </details>
 </div>
 
