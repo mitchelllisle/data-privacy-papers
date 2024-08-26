@@ -2,6 +2,69 @@
 <h2>2024-08</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.13038v1">Improving the Classification Effect of Clinical Images of Diseases for
+  Multi-Source Privacy Protection</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2024-08-23T12:52:24Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Tian Bowen, Xu Zhengyang, Yin Zhihao, Wang Jingying, Yue Yutao</p>
+    <p><b>Summary:</b> Privacy data protection in the medical field poses challenges to data
+sharing, limiting the ability to integrate data across hospitals for training
+high-precision auxiliary diagnostic models. Traditional centralized training
+methods are difficult to apply due to violations of privacy protection
+principles. Federated learning, as a distributed machine learning framework,
+helps address this issue, but it requires multiple hospitals to participate in
+training simultaneously, which is hard to achieve in practice. To address these
+challenges, we propose a medical privacy data training framework based on data
+vectors. This framework allows each hospital to fine-tune pre-trained models on
+private data, calculate data vectors (representing the optimization direction
+of model parameters in the solution space), and sum them up to generate
+synthetic weights that integrate model information from multiple hospitals.
+This approach enhances model performance without exchanging private data or
+requiring synchronous training. Experimental results demonstrate that this
+method effectively utilizes dispersed private data resources while protecting
+patient privacy. The auxiliary diagnostic model trained using this approach
+significantly outperforms models trained independently by a single hospital,
+providing a new perspective for resolving the conflict between medical data
+privacy protection and model training and advancing the development of medical
+intelligence.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.12787v1">LLM-PBE: Assessing Data Privacy in Large Language Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-08-23T01:37:29Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Qinbin Li, Junyuan Hong, Chulin Xie, Jeffrey Tan, Rachel Xin, Junyi Hou, Xavier Yin, Zhun Wang, Dan Hendrycks, Zhangyang Wang, Bo Li, Bingsheng He, Dawn Song</p>
+    <p><b>Summary:</b> Large Language Models (LLMs) have become integral to numerous domains,
+significantly advancing applications in data management, mining, and analysis.
+Their profound capabilities in processing and interpreting complex language
+data, however, bring to light pressing concerns regarding data privacy,
+especially the risk of unintentional training data leakage. Despite the
+critical nature of this issue, there has been no existing literature to offer a
+comprehensive assessment of data privacy risks in LLMs. Addressing this gap,
+our paper introduces LLM-PBE, a toolkit crafted specifically for the systematic
+evaluation of data privacy risks in LLMs. LLM-PBE is designed to analyze
+privacy across the entire lifecycle of LLMs, incorporating diverse attack and
+defense strategies, and handling various data types and metrics. Through
+detailed experimentation with multiple LLMs, LLM-PBE facilitates an in-depth
+exploration of data privacy concerns, shedding light on influential factors
+such as model size, data characteristics, and evolving temporal dimensions.
+This study not only enriches the understanding of privacy issues in LLMs but
+also serves as a vital resource for future research in the field. Aimed at
+enhancing the breadth of knowledge in this area, the findings, resources, and
+our full technical report are made available at https://llm-pbe.github.io/,
+providing an open platform for academic and practical advancements in LLM
+privacy assessment.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2408.12385v1">Sharper Bounds for Chebyshev Moment Matching with Applications to
   Differential Privacy and Beyond</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
@@ -706,7 +769,7 @@ practicality.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2408.07892v1">Personhood credentials: Artificial intelligence and the value of
+  <h3><a href="http://arxiv.org/abs/2408.07892v2">Personhood credentials: Artificial intelligence and the value of
   privacy-preserving tools to distinguish who is real online</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
   <p><b>Published on:</b> 2024-08-15T02:41:25Z</p>
@@ -725,19 +788,19 @@ online services, without disclosing any personal information. Such credentials
 can be issued by a range of trusted institutions -- governments or otherwise. A
 PHC system, according to our definition, could be local or global, and does not
 need to be biometrics-based. Two trends in AI contribute to the urgency of the
-challenge: AI's increasing indistinguishability (i.e., lifelike content and
-avatars, agentic activity) from people online, and AI's increasing scalability
-(i.e., cost-effectiveness, accessibility). Drawing on a long history of
-research into anonymous credentials and "proof-of-personhood" systems,
-personhood credentials give people a way to signal their trustworthiness on
-online platforms, and offer service providers new tools for reducing misuse by
-bad actors. In contrast, existing countermeasures to automated deception --
-such as CAPTCHAs -- are inadequate against sophisticated AI, while stringent
-identity verification solutions are insufficiently private for many use-cases.
-After surveying the benefits of personhood credentials, we also examine
-deployment risks and design challenges. We conclude with actionable next steps
-for policymakers, technologists, and standards bodies to consider in
-consultation with the public.</p>
+challenge: AI's increasing indistinguishability from people online (i.e.,
+lifelike content and avatars, agentic activity), and AI's increasing
+scalability (i.e., cost-effectiveness, accessibility). Drawing on a long
+history of research into anonymous credentials and "proof-of-personhood"
+systems, personhood credentials give people a way to signal their
+trustworthiness on online platforms, and offer service providers new tools for
+reducing misuse by bad actors. In contrast, existing countermeasures to
+automated deception -- such as CAPTCHAs -- are inadequate against sophisticated
+AI, while stringent identity verification solutions are insufficiently private
+for many use-cases. After surveying the benefits of personhood credentials, we
+also examine deployment risks and design challenges. We conclude with
+actionable next steps for policymakers, technologists, and standards bodies to
+consider in consultation with the public.</p>
   </details>
 </div>
 
@@ -2821,59 +2884,6 @@ adheres to geo-indistinguishability constraints across multiple users with high
 probability. Finally, experimental results using a real-world dataset
 demonstrate that LR-Geo outperforms existing geo-obfuscation methods in terms
 of computational time, data utility, and privacy protection.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.13621v1">Differential Privacy Mechanisms in Neural Tangent Kernel Regression</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-07-18T15:57:55Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jiuxiang Gu, Yingyu Liang, Zhizhou Sha, Zhenmei Shi, Zhao Song</p>
-    <p><b>Summary:</b> Training data privacy is a fundamental problem in modern Artificial
-Intelligence (AI) applications, such as face recognition, recommendation
-systems, language generation, and many others, as it may contain sensitive user
-information related to legal issues. To fundamentally understand how privacy
-mechanisms work in AI applications, we study differential privacy (DP) in the
-Neural Tangent Kernel (NTK) regression setting, where DP is one of the most
-powerful tools for measuring privacy under statistical learning, and NTK is one
-of the most popular analysis frameworks for studying the learning mechanisms of
-deep neural networks. In our work, we can show provable guarantees for both
-differential privacy and test accuracy of our NTK regression. Furthermore, we
-conduct experiments on the basic image classification dataset CIFAR10 to
-demonstrate that NTK regression can preserve good accuracy under a modest
-privacy budget, supporting the validity of our analysis. To our knowledge, this
-is the first work to provide a DP guarantee for NTK regression.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.13532v1">PriPL-Tree: Accurate Range Query for Arbitrary Distribution under Local
-  Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
-  <p><b>Published on:</b> 2024-07-18T14:05:35Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Leixia Wang, Qingqing Ye, Haibo Hu, Xiaofeng Meng</p>
-    <p><b>Summary:</b> Answering range queries in the context of Local Differential Privacy (LDP) is
-a widely studied problem in Online Analytical Processing (OLAP). Existing LDP
-solutions all assume a uniform data distribution within each domain partition,
-which may not align with real-world scenarios where data distribution is
-varied, resulting in inaccurate estimates. To address this problem, we
-introduce PriPL-Tree, a novel data structure that combines hierarchical tree
-structures with piecewise linear (PL) functions to answer range queries for
-arbitrary distributions. PriPL-Tree precisely models the underlying data
-distribution with a few line segments, leading to more accurate results for
-range queries. Furthermore, we extend it to multi-dimensional cases with novel
-data-aware adaptive grids. These grids leverage the insights from marginal
-distributions obtained through PriPL-Trees to partition the grids adaptively,
-adapting the density of underlying distributions. Our extensive experiments on
-both real and synthetic datasets demonstrate the effectiveness and superiority
-of PriPL-Tree over state-of-the-art solutions in answering range queries across
-arbitrary data distributions.</p>
   </details>
 </div>
 
