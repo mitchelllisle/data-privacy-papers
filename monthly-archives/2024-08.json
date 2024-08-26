@@ -1649,5 +1649,192 @@
       "cs.CV",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2408.13038v1",
+    "title" : "Improving the Classification Effect of Clinical Images of Diseases for\n  Multi-Source Privacy Protection",
+    "summary" : "Privacy data protection in the medical field poses challenges to data\nsharing, limiting the ability to integrate data across hospitals for training\nhigh-precision auxiliary diagnostic models. Traditional centralized training\nmethods are difficult to apply due to violations of privacy protection\nprinciples. Federated learning, as a distributed machine learning framework,\nhelps address this issue, but it requires multiple hospitals to participate in\ntraining simultaneously, which is hard to achieve in practice. To address these\nchallenges, we propose a medical privacy data training framework based on data\nvectors. This framework allows each hospital to fine-tune pre-trained models on\nprivate data, calculate data vectors (representing the optimization direction\nof model parameters in the solution space), and sum them up to generate\nsynthetic weights that integrate model information from multiple hospitals.\nThis approach enhances model performance without exchanging private data or\nrequiring synchronous training. Experimental results demonstrate that this\nmethod effectively utilizes dispersed private data resources while protecting\npatient privacy. The auxiliary diagnostic model trained using this approach\nsignificantly outperforms models trained independently by a single hospital,\nproviding a new perspective for resolving the conflict between medical data\nprivacy protection and model training and advancing the development of medical\nintelligence.",
+    "updated" : "2024-08-23T12:52:24Z",
+    "published" : "2024-08-23T12:52:24Z",
+    "authors" : [
+      {
+        "name" : "Tian Bowen"
+      },
+      {
+        "name" : "Xu Zhengyang"
+      },
+      {
+        "name" : "Yin Zhihao"
+      },
+      {
+        "name" : "Wang Jingying"
+      },
+      {
+        "name" : "Yue Yutao"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2408.12787v1",
+    "title" : "LLM-PBE: Assessing Data Privacy in Large Language Models",
+    "summary" : "Large Language Models (LLMs) have become integral to numerous domains,\nsignificantly advancing applications in data management, mining, and analysis.\nTheir profound capabilities in processing and interpreting complex language\ndata, however, bring to light pressing concerns regarding data privacy,\nespecially the risk of unintentional training data leakage. Despite the\ncritical nature of this issue, there has been no existing literature to offer a\ncomprehensive assessment of data privacy risks in LLMs. Addressing this gap,\nour paper introduces LLM-PBE, a toolkit crafted specifically for the systematic\nevaluation of data privacy risks in LLMs. LLM-PBE is designed to analyze\nprivacy across the entire lifecycle of LLMs, incorporating diverse attack and\ndefense strategies, and handling various data types and metrics. Through\ndetailed experimentation with multiple LLMs, LLM-PBE facilitates an in-depth\nexploration of data privacy concerns, shedding light on influential factors\nsuch as model size, data characteristics, and evolving temporal dimensions.\nThis study not only enriches the understanding of privacy issues in LLMs but\nalso serves as a vital resource for future research in the field. Aimed at\nenhancing the breadth of knowledge in this area, the findings, resources, and\nour full technical report are made available at https://llm-pbe.github.io/,\nproviding an open platform for academic and practical advancements in LLM\nprivacy assessment.",
+    "updated" : "2024-08-23T01:37:29Z",
+    "published" : "2024-08-23T01:37:29Z",
+    "authors" : [
+      {
+        "name" : "Qinbin Li"
+      },
+      {
+        "name" : "Junyuan Hong"
+      },
+      {
+        "name" : "Chulin Xie"
+      },
+      {
+        "name" : "Jeffrey Tan"
+      },
+      {
+        "name" : "Rachel Xin"
+      },
+      {
+        "name" : "Junyi Hou"
+      },
+      {
+        "name" : "Xavier Yin"
+      },
+      {
+        "name" : "Zhun Wang"
+      },
+      {
+        "name" : "Dan Hendrycks"
+      },
+      {
+        "name" : "Zhangyang Wang"
+      },
+      {
+        "name" : "Bo Li"
+      },
+      {
+        "name" : "Bingsheng He"
+      },
+      {
+        "name" : "Dawn Song"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2408.07892v2",
+    "title" : "Personhood credentials: Artificial intelligence and the value of\n  privacy-preserving tools to distinguish who is real online",
+    "summary" : "Anonymity is an important principle online. However, malicious actors have\nlong used misleading identities to conduct fraud, spread disinformation, and\ncarry out other deceptive schemes. With the advent of increasingly capable AI,\nbad actors can amplify the potential scale and effectiveness of their\noperations, intensifying the challenge of balancing anonymity and\ntrustworthiness online. In this paper, we analyze the value of a new tool to\naddress this challenge: \"personhood credentials\" (PHCs), digital credentials\nthat empower users to demonstrate that they are real people -- not AIs -- to\nonline services, without disclosing any personal information. Such credentials\ncan be issued by a range of trusted institutions -- governments or otherwise. A\nPHC system, according to our definition, could be local or global, and does not\nneed to be biometrics-based. Two trends in AI contribute to the urgency of the\nchallenge: AI's increasing indistinguishability from people online (i.e.,\nlifelike content and avatars, agentic activity), and AI's increasing\nscalability (i.e., cost-effectiveness, accessibility). Drawing on a long\nhistory of research into anonymous credentials and \"proof-of-personhood\"\nsystems, personhood credentials give people a way to signal their\ntrustworthiness on online platforms, and offer service providers new tools for\nreducing misuse by bad actors. In contrast, existing countermeasures to\nautomated deception -- such as CAPTCHAs -- are inadequate against sophisticated\nAI, while stringent identity verification solutions are insufficiently private\nfor many use-cases. After surveying the benefits of personhood credentials, we\nalso examine deployment risks and design challenges. We conclude with\nactionable next steps for policymakers, technologists, and standards bodies to\nconsider in consultation with the public.",
+    "updated" : "2024-08-23T00:38:34Z",
+    "published" : "2024-08-15T02:41:25Z",
+    "authors" : [
+      {
+        "name" : "Steven Adler"
+      },
+      {
+        "name" : "Zoë Hitzig"
+      },
+      {
+        "name" : "Shrey Jain"
+      },
+      {
+        "name" : "Catherine Brewer"
+      },
+      {
+        "name" : "Wayne Chang"
+      },
+      {
+        "name" : "Renée DiResta"
+      },
+      {
+        "name" : "Eddy Lazzarin"
+      },
+      {
+        "name" : "Sean McGregor"
+      },
+      {
+        "name" : "Wendy Seltzer"
+      },
+      {
+        "name" : "Divya Siddarth"
+      },
+      {
+        "name" : "Nouran Soliman"
+      },
+      {
+        "name" : "Tobin South"
+      },
+      {
+        "name" : "Connor Spelliscy"
+      },
+      {
+        "name" : "Manu Sporny"
+      },
+      {
+        "name" : "Varya Srivastava"
+      },
+      {
+        "name" : "John Bailey"
+      },
+      {
+        "name" : "Brian Christian"
+      },
+      {
+        "name" : "Andrew Critch"
+      },
+      {
+        "name" : "Ronnie Falcon"
+      },
+      {
+        "name" : "Heather Flanagan"
+      },
+      {
+        "name" : "Kim Hamilton Duffy"
+      },
+      {
+        "name" : "Eric Ho"
+      },
+      {
+        "name" : "Claire R. Leibowicz"
+      },
+      {
+        "name" : "Srikanth Nadhamuni"
+      },
+      {
+        "name" : "Alan Z. Rozenshtein"
+      },
+      {
+        "name" : "David Schnurr"
+      },
+      {
+        "name" : "Evan Shapiro"
+      },
+      {
+        "name" : "Lacey Strahm"
+      },
+      {
+        "name" : "Andrew Trask"
+      },
+      {
+        "name" : "Zoe Weinberg"
+      },
+      {
+        "name" : "Cedric Whitney"
+      },
+      {
+        "name" : "Tom Zick"
+      }
+    ],
+    "categories" : [
+      "cs.CY"
+    ]
   }
 ]
