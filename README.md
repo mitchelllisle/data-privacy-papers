@@ -2,6 +2,96 @@
 <h2>2024-08</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.14329v1">PHEVA: A Privacy-preserving Human-centric Video Anomaly Detection
+  Dataset</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-08-26T14:55:23Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ghazal Alinezhad Noghre, Shanle Yao, Armin Danesh Pazho, Babak Rahimi Ardabili, Vinit Katariya, Hamed Tabkhi</p>
+    <p><b>Summary:</b> PHEVA, a Privacy-preserving Human-centric Ethical Video Anomaly detection
+dataset. By removing pixel information and providing only de-identified human
+annotations, PHEVA safeguards personally identifiable information. The dataset
+includes seven indoor/outdoor scenes, featuring one novel, context-specific
+camera, and offers over 5x the pose-annotated frames compared to the largest
+previous dataset. This study benchmarks state-of-the-art methods on PHEVA using
+a comprehensive set of metrics, including the 10% Error Rate (10ER), a metric
+used for anomaly detection for the first time providing insights relevant to
+real-world deployment. As the first of its kind, PHEVA bridges the gap between
+conventional training and real-world deployment by introducing continual
+learning benchmarks, with models outperforming traditional methods in 82.14% of
+cases. The dataset is publicly available at
+https://github.com/TeCSAR-UNCC/PHEVA.git.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.13460v1">DOPPLER: Differentially Private Optimizers with Low-pass Filter for
+  Privacy Noise Reduction</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
+  <p><b>Published on:</b> 2024-08-24T04:27:07Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xinwei Zhang, Zhiqi Bu, Mingyi Hong, Meisam Razaviyayn</p>
+    <p><b>Summary:</b> Privacy is a growing concern in modern deep-learning systems and
+applications. Differentially private (DP) training prevents the leakage of
+sensitive information in the collected training data from the trained machine
+learning models. DP optimizers, including DP stochastic gradient descent
+(DPSGD) and its variants, privatize the training procedure by gradient clipping
+and DP noise injection. However, in practice, DP models trained using DPSGD and
+its variants often suffer from significant model performance degradation. Such
+degradation prevents the application of DP optimization in many key tasks, such
+as foundation model pretraining. In this paper, we provide a novel signal
+processing perspective to the design and analysis of DP optimizers. We show
+that a ``frequency domain'' operation called low-pass filtering can be used to
+effectively reduce the impact of DP noise. More specifically, by defining the
+``frequency domain'' for both the gradient and differential privacy (DP) noise,
+we have developed a new component, called DOPPLER. This component is designed
+for DP algorithms and works by effectively amplifying the gradient while
+suppressing DP noise within this frequency domain. As a result, it maintains
+privacy guarantees and enhances the quality of the DP-protected model. Our
+experiments show that the proposed DP optimizers with a low-pass filter
+outperform their counterparts without the filter by 3%-10% in test accuracy on
+various models and datasets. Both theoretical and practical evidence suggest
+that the DOPPLER is effective in closing the gap between DP and non-DP
+training.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.13424v1">Enabling Humanitarian Applications with Targeted Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-08-24T01:34:37Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Nitin Kohli, Joshua Blumenstock</p>
+    <p><b>Summary:</b> The proliferation of mobile phones in low- and middle-income countries has
+suddenly and dramatically increased the extent to which the world's poorest and
+most vulnerable populations can be observed and tracked by governments and
+corporations. Millions of historically "off the grid" individuals are now
+passively generating digital data; these data, in turn, are being used to make
+life-altering decisions about those individuals -- including whether or not
+they receive government benefits, and whether they qualify for a consumer loan.
+  This paper develops an approach to implementing algorithmic decisions based
+on personal data, while also providing formal privacy guarantees to data
+subjects. The approach adapts differential privacy to applications that require
+decisions about individuals, and gives decision makers granular control over
+the level of privacy guaranteed to data subjects. We show that stronger privacy
+guarantees typically come at some cost, and use data from two real-world
+applications -- an anti-poverty program in Togo and a consumer lending platform
+in Nigeria -- to illustrate those costs. Our empirical results quantify the
+tradeoff between privacy and predictive accuracy, and characterize how
+different privacy guarantees impact overall program effectiveness. More
+broadly, our results demonstrate a way for humanitarian programs to responsibly
+use personal data, and better equip program designers to make informed
+decisions about data privacy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2408.13038v1">Improving the Classification Effect of Clinical Images of Diseases for
   Multi-Source Privacy Protection</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
@@ -366,7 +456,7 @@ privacy and reducing the success rate of membership inference attacks.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2408.10468v2">Tracing Privacy Leakage of Language Models to Training Data via Adjusted
+  <h3><a href="http://arxiv.org/abs/2408.10468v3">Tracing Privacy Leakage of Language Models to Training Data via Adjusted
   Influence Functions</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2024-08-20T00:40:49Z</p>
@@ -390,8 +480,8 @@ privacy leakage, we construct two datasets, PII-E and PII-CR, representing two
 distinct scenarios: one with identical text in the model outputs and
 pre-training data, and the other where models leverage their reasoning
 abilities to generate text divergent from pre-training data. HAIF significantly
-improves tracing accuracy, enhancing it by 20.96\% to 73.71\% on the PII-E
-dataset and 3.21\% to 45.93\% on the PII-CR dataset, compared to the best SOTA
+improves tracing accuracy, enhancing it by 20.96% to 73.71% on the PII-E
+dataset and 3.21% to 45.93% on the PII-CR dataset, compared to the best SOTA
 IFs against various GPT-2 and QWen-1.5 models. HAIF also outperforms SOTA IFs
 on real-world pretraining data CLUECorpus2020, demonstrating strong robustness
 regardless prompt and response lengths.</p>
@@ -471,7 +561,7 @@ privacy research to cover more privacy regulations, social norms and standards.<
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2408.09943v1">Calibrating Noise for Group Privacy in Subsampled Mechanisms</a></h3>
+  <h3><a href="http://arxiv.org/abs/2408.09943v2">Calibrating Noise for Group Privacy in Subsampled Mechanisms</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2024-08-19T12:32:50Z</p>
   <details>
@@ -2793,97 +2883,6 @@ show that Laplace is an optimal noise distribution. We further show that this
 optimal mechanism results in an error that is inversely proportional to the
 number of results returned when the function $\mathfrak{h}(.)$ is the identity
 function.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.13975v1">Personalized Privacy Protection Mask Against Unauthorized Facial
-  Recognition</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2024-07-19T01:59:00Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ka-Ho Chow, Sihao Hu, Tiansheng Huang, Ling Liu</p>
-    <p><b>Summary:</b> Face recognition (FR) can be abused for privacy intrusion. Governments,
-private companies, or even individual attackers can collect facial images by
-web scraping to build an FR system identifying human faces without their
-consent. This paper introduces Chameleon, which learns to generate a
-user-centric personalized privacy protection mask, coined as P3-Mask, to
-protect facial images against unauthorized FR with three salient features.
-First, we use a cross-image optimization to generate one P3-Mask for each user
-instead of tailoring facial perturbation for each facial image of a user. It
-enables efficient and instant protection even for users with limited computing
-resources. Second, we incorporate a perceptibility optimization to preserve the
-visual quality of the protected facial images. Third, we strengthen the
-robustness of P3-Mask against unknown FR models by integrating focal
-diversity-optimized ensemble learning into the mask generation process.
-Extensive experiments on two benchmark datasets show that Chameleon outperforms
-three state-of-the-art methods with instant protection and minimal degradation
-of image quality. Furthermore, Chameleon enables cost-effective FR
-authorization using the P3-Mask as a personalized de-obfuscation key, and it
-demonstrates high resilience against adaptive adversaries.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.13881v1">Privacy-preserving gradient-based fair federated learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36"> 
-  <p><b>Published on:</b> 2024-07-18T19:56:39Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Janis Adamek, Moritz Schulze Darup</p>
-    <p><b>Summary:</b> Federated learning (FL) schemes allow multiple participants to
-collaboratively train neural networks without the need to directly share the
-underlying data.However, in early schemes, all participants eventually obtain
-the same model. Moreover, the aggregation is typically carried out by a third
-party, who obtains combined gradients or weights, which may reveal the model.
-These downsides underscore the demand for fair and privacy-preserving FL
-schemes. Here, collaborative fairness asks for individual model quality
-depending on the individual data contribution. Privacy is demanded with respect
-to any kind of data outsourced to the third party. Now, there already exist
-some approaches aiming for either fair or privacy-preserving FL and a few works
-even address both features. In our paper, we build upon these seminal works and
-present a novel, fair and privacy-preserving FL scheme. Our approach, which
-mainly relies on homomorphic encryption, stands out for exclusively using local
-gradients. This increases the usability in comparison to state-of-the-art
-approaches and thereby opens the door to applications in control.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.13725v1">Scalable Optimization for Locally Relevant Geo-Location Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-07-18T17:25:08Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Chenxi Qiu, Ruiyao Liu, Primal Pappachan, Anna Squicciarini, Xinpeng Xie</p>
-    <p><b>Summary:</b> Geo-obfuscation functions as a location privacy protection mechanism (LPPM),
-enabling mobile users to share obfuscated locations with servers instead of
-their exact locations. This technique protects users' location privacy during
-server-side data breaches since the obfuscation process is irreversible. To
-minimize the utility loss caused by data obfuscation, linear programming (LP)
-is widely used. However, LP can face a polynomial explosion in decision
-variables, making it impractical for large-scale geo-obfuscation applications.
-In this paper, we propose a new LPPM called Locally Relevant Geo-obfuscation
-(LR-Geo) to optimize geo-obfuscation using LP more efficiently. This is
-accomplished by restricting the geo-obfuscation calculations for each user to
-locally relevant (LR) locations near the user's actual location. To prevent LR
-locations from inadvertently revealing a user's true whereabouts, users compute
-the LP coefficients locally and upload only these coefficients to the server,
-rather than the LR locations themselves. The server then solves the LP problem
-using the provided coefficients. Additionally, we enhance the LP framework with
-an exponential obfuscation mechanism to ensure that the obfuscation
-distribution is indistinguishable across multiple users. By leveraging the
-constraint structure of the LP formulation, we apply Benders' decomposition to
-further boost computational efficiency. Our theoretical analysis confirms that,
-even though geo-obfuscation is calculated independently for each user, it still
-adheres to geo-indistinguishability constraints across multiple users with high
-probability. Finally, experimental results using a real-world dataset
-demonstrate that LR-Geo outperforms existing geo-obfuscation methods in terms
-of computational time, data utility, and privacy protection.</p>
   </details>
 </div>
 
