@@ -2,6 +2,168 @@
 <h2>2024-08</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.15077v1">MMASD+: A Novel Dataset for Privacy-Preserving Behavior Analysis of
+  Children with Autism Spectrum Disorder</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-08-27T14:05:48Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Pavan Uttej Ravva, Behdokht Kiafar, Pinar Kullu, Jicheng Li, Anjana Bhat, Roghayeh Leila Barmaki</p>
+    <p><b>Summary:</b> Autism spectrum disorder (ASD) is characterized by significant challenges in
+social interaction and comprehending communication signals. Recently,
+therapeutic interventions for ASD have increasingly utilized Deep learning
+powered-computer vision techniques to monitor individual progress over time.
+These models are trained on private, non-public datasets from the autism
+community, creating challenges in comparing results across different models due
+to privacy-preserving data-sharing issues. This work introduces MMASD+. MMASD+
+consists of diverse data modalities, including 3D-Skeleton, 3D Body Mesh, and
+Optical Flow data. It integrates the capabilities of Yolov8 and Deep SORT
+algorithms to distinguish between the therapist and children, addressing a
+significant barrier in the original dataset. Additionally, a Multimodal
+Transformer framework is proposed to predict 11 action types and the presence
+of ASD. This framework achieves an accuracy of 95.03% for predicting action
+types and 96.42% for predicting ASD presence, demonstrating over a 10%
+improvement compared to models trained on single data modalities. These
+findings highlight the advantages of integrating multiple data modalities
+within the Multimodal Transformer framework.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.14830v1">PolicyLR: A Logic Representation For Privacy Policies</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2024-08-27T07:27:16Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ashish Hooda, Rishabh Khandelwal, Prasad Chalasani, Kassem Fawaz, Somesh Jha</p>
+    <p><b>Summary:</b> Privacy policies are crucial in the online ecosystem, defining how services
+handle user data and adhere to regulations such as GDPR and CCPA. However,
+their complexity and frequent updates often make them difficult for
+stakeholders to understand and analyze. Current automated analysis methods,
+which utilize natural language processing, have limitations. They typically
+focus on individual tasks and fail to capture the full context of the policies.
+We propose PolicyLR, a new paradigm that offers a comprehensive
+machine-readable representation of privacy policies, serving as an all-in-one
+solution for multiple downstream tasks. PolicyLR converts privacy policies into
+a machine-readable format using valuations of atomic formulae, allowing for
+formal definitions of tasks like compliance and consistency. We have developed
+a compiler that transforms unstructured policy text into this format using
+off-the-shelf Large Language Models (LLMs). This compiler breaks down the
+transformation task into a two-stage translation and entailment procedure. This
+procedure considers the full context of the privacy policy to infer a complex
+formula, where each formula consists of simpler atomic formulae. The advantage
+of this model is that PolicyLR is interpretable by design and grounded in
+segments of the privacy policy. We evaluated the compiler using ToS;DR, a
+community-annotated privacy policy entailment dataset. Utilizing open-source
+LLMs, our compiler achieves precision and recall values of 0.91 and 0.88,
+respectively. Finally, we demonstrate the utility of PolicyLR in three privacy
+tasks: Policy Compliance, Inconsistency Detection, and Privacy Comparison
+Shopping.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.14753v1">CoopASD: Cooperative Machine Anomalous Sound Detection with Privacy
+  Concerns</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Sound-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> 
+  <p><b>Published on:</b> 2024-08-27T03:07:03Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Anbai Jiang, Yuchen Shi, Pingyi Fan, Wei-Qiang Zhang, Jia Liu</p>
+    <p><b>Summary:</b> Machine anomalous sound detection (ASD) has emerged as one of the most
+promising applications in the Industrial Internet of Things (IIoT) due to its
+unprecedented efficacy in mitigating risks of malfunctions and promoting
+production efficiency. Previous works mainly investigated the machine ASD task
+under centralized settings. However, developing the ASD system under
+decentralized settings is crucial in practice, since the machine data are
+dispersed in various factories and the data should not be explicitly shared due
+to privacy concerns. To enable these factories to cooperatively develop a
+scalable ASD model while preserving their privacy, we propose a novel framework
+named CoopASD, where each factory trains an ASD model on its local dataset, and
+a central server aggregates these local models periodically. We employ a
+pre-trained model as the backbone of the ASD model to improve its robustness
+and develop specialized techniques to stabilize the model under a completely
+non-iid and domain shift setting. Compared with previous state-of-the-art
+(SOTA) models trained in centralized settings, CoopASD showcases competitive
+results with negligible degradation of 0.08%. We also conduct extensive
+ablation studies to demonstrate the effectiveness of CoopASD.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.14735v1">PPVF: An Efficient Privacy-Preserving Online Video Fetching Framework
+  with Correlated Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Multimedia-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
+  <p><b>Published on:</b> 2024-08-27T02:03:36Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xianzhi Zhang, Yipeng Zhou, Di Wu, Quan Z. Sheng, Miao Hu, Linchang Xiao</p>
+    <p><b>Summary:</b> Online video streaming has evolved into an integral component of the
+contemporary Internet landscape. Yet, the disclosure of user requests presents
+formidable privacy challenges. As users stream their preferred online videos,
+their requests are automatically seized by video content providers, potentially
+leaking users' privacy.
+  Unfortunately, current protection methods are not well-suited to preserving
+user request privacy from content providers while maintaining high-quality
+online video services. To tackle this challenge, we introduce a novel
+Privacy-Preserving Video Fetching (PPVF) framework, which utilizes trusted edge
+devices to pre-fetch and cache videos, ensuring the privacy of users' requests
+while optimizing the efficiency of edge caching. More specifically, we design
+PPVF with three core components: (1) \textit{Online privacy budget scheduler},
+which employs a theoretically guaranteed online algorithm to select
+non-requested videos as candidates with assigned privacy budgets. Alternative
+videos are chosen by an online algorithm that is theoretically guaranteed to
+consider both video utilities and available privacy budgets. (2) \textit{Noisy
+video request generator}, which generates redundant video requests (in addition
+to original ones) utilizing correlated differential privacy to obfuscate
+request privacy. (3) \textit{Online video utility predictor}, which leverages
+federated learning to collaboratively evaluate video utility in an online
+fashion, aiding in video selection in (1) and noise generation in (2). Finally,
+we conduct extensive experiments using real-world video request traces from
+Tencent Video. The results demonstrate that PPVF effectively safeguards user
+request privacy while upholding high video caching performance.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.14689v1">Federated User Preference Modeling for Privacy-Preserving Cross-Domain
+  Recommendation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB">
+  <p><b>Published on:</b> 2024-08-26T23:29:03Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Li Wang, Shoujin Wang, Quangui Zhang, Qiang Wu, Min Xu</p>
+    <p><b>Summary:</b> Cross-domain recommendation (CDR) aims to address the data-sparsity problem
+by transferring knowledge across domains. Existing CDR methods generally assume
+that the user-item interaction data is shareable between domains, which leads
+to privacy leakage. Recently, some privacy-preserving CDR (PPCDR) models have
+been proposed to solve this problem. However, they primarily transfer simple
+representations learned only from user-item interaction histories, overlooking
+other useful side information, leading to inaccurate user preferences.
+Additionally, they transfer differentially private user-item interaction
+matrices or embeddings across domains to protect privacy. However, these
+methods offer limited privacy protection, as attackers may exploit external
+information to infer the original data. To address these challenges, we propose
+a novel Federated User Preference Modeling (FUPM) framework. In FUPM, first, a
+novel comprehensive preference exploration module is proposed to learn users'
+comprehensive preferences from both interaction data and additional data
+including review texts and potentially positive items. Next, a private
+preference transfer module is designed to first learn differentially private
+local and global prototypes, and then privately transfer the global prototypes
+using a federated learning strategy. These prototypes are generalized
+representations of user groups, making it difficult for attackers to infer
+individual information. Extensive experiments on four CDR tasks conducted on
+the Amazon and Douban datasets validate the superiority of FUPM over SOTA
+baselines. Code is available at https://github.com/Lili1013/FUPM.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2408.14329v1">PHEVA: A Privacy-preserving Human-centric Video Anomaly Detection
   Dataset</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
@@ -29,7 +191,7 @@ https://github.com/TeCSAR-UNCC/PHEVA.git.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2408.13460v1">DOPPLER: Differentially Private Optimizers with Low-pass Filter for
   Privacy Noise Reduction</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
   <p><b>Published on:</b> 2024-08-24T04:27:07Z</p>
   <details>
     <summary>More Details</summary>
@@ -859,7 +1021,7 @@ practicality.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2408.07892v2">Personhood credentials: Artificial intelligence and the value of
+  <h3><a href="http://arxiv.org/abs/2408.07892v3">Personhood credentials: Artificial intelligence and the value of
   privacy-preserving tools to distinguish who is real online</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
   <p><b>Published on:</b> 2024-08-15T02:41:25Z</p>
@@ -2738,151 +2900,6 @@ data, with completely negligible absolute differences no greater than $\text{$4
 meta-analysis methods diverged from the centralized analysis results by up to
 25-27. FedProt is available as a web tool with detailed documentation as a
 FeatureCloud App.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.14938v1">From Ad Identifiers to Global Privacy Control: The Status Quo and Future
-  of Opting Out of Ad Tracking on Android</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2024-07-20T17:06:23Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Sebastian Zimmeck, Nishant Aggarwal, Zachary Liu, Konrad Kollnig</p>
-    <p><b>Summary:</b> Apps and their integrated third party libraries often collect a variety of
-data from people to show them personalized ads. This practice is often
-privacy-invasive. Since 2013, Google has therefore allowed users to limit ad
-tracking on Android via system settings. Further, under the 2018 California
-Consumer Privacy Act (CCPA), apps must honor opt-outs from ad tracking under
-the Global Privacy Control (GPC). The efficacy of these two methods to limit ad
-tracking has not been studied in prior work. Our legal and technical analysis
-details how the GPC applies to mobile apps and how it could be integrated
-directly into Android, thereby developing a reference design for GPC on
-Android. Our empirical analysis of 1,896 top-ranked Android apps shows that
-both the Android system-level opt-out and the GPC signal rarely restrict ad
-tracking. In our view, deleting the AdID and opting out under the CCPA has the
-same meaning. Thus, the current AdID setting and APIs should be evolved towards
-GPC and integrated into Android's Privacy Sandbox.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.14719v1">Universal Medical Imaging Model for Domain Generalization with Data
-  Privacy</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2024-07-20T01:24:15Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ahmed Radwan, Islam Osman, Mohamed S. Shehata</p>
-    <p><b>Summary:</b> Achieving domain generalization in medical imaging poses a significant
-challenge, primarily due to the limited availability of publicly labeled
-datasets in this domain. This limitation arises from concerns related to data
-privacy and the necessity for medical expertise to accurately label the data.
-In this paper, we propose a federated learning approach to transfer knowledge
-from multiple local models to a global model, eliminating the need for direct
-access to the local datasets used to train each model. The primary objective is
-to train a global model capable of performing a wide variety of medical imaging
-tasks. This is done while ensuring the confidentiality of the private datasets
-utilized during the training of these models. To validate the effectiveness of
-our approach, extensive experiments were conducted on eight datasets, each
-corresponding to a different medical imaging application. The client's data
-distribution in our experiments varies significantly as they originate from
-diverse domains. Despite this variation, we demonstrate a statistically
-significant improvement over a state-of-the-art baseline utilizing masked image
-modeling over a diverse pre-training dataset that spans different body parts
-and scanning types. This improvement is achieved by curating information
-learned from clients without accessing any labeled dataset on the server.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.14717v1">Differential Privacy of Cross-Attention with Provable Guarantee</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-07-20T01:02:27Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jiuxiang Gu, Yingyu Liang, Zhenmei Shi, Zhao Song, Yufa Zhou</p>
-    <p><b>Summary:</b> Cross-attention has become a fundamental module nowadays in many important
-artificial intelligence applications, e.g., retrieval-augmented generation
-(RAG), system prompt, guided stable diffusion, and many so on. Ensuring
-cross-attention privacy is crucial and urgently needed because its key and
-value matrices may contain sensitive information about companies and their
-users, many of which profit solely from their system prompts or RAG data. In
-this work, we design a novel differential privacy (DP) data structure to
-address the privacy security of cross-attention with a theoretical guarantee.
-In detail, let $n$ be the input token length of system prompt/RAG data, $d$ be
-the feature dimension, $0 < \alpha \le 1$ be the relative error parameter, $R$
-be the maximum value of the query and key matrices, $R_w$ be the maximum value
-of the value matrix, and $r,s,\epsilon_s$ be parameters of polynomial kernel
-methods. Then, our data structure requires $\widetilde{O}(ndr^2)$ memory
-consumption with $\widetilde{O}(nr^2)$ initialization time complexity and
-$\widetilde{O}(\alpha^{-1} r^2)$ query time complexity for a single token
-query. In addition, our data structure can guarantee that the user query is
-$(\epsilon, \delta)$-DP with $\widetilde{O}(n^{-1} \epsilon^{-1} \alpha^{-1/2}
-R^{2s} R_w r^2)$ additive error and $n^{-1} (\alpha + \epsilon_s)$ relative
-error between our output and the true answer. Furthermore, our result is robust
-to adaptive queries in which users can intentionally attack the cross-attention
-system. To our knowledge, this is the first work to provide DP for
-cross-attention. We believe it can inspire more privacy algorithm design in
-large generative models (LGMs).</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.14710v2">Universally Harmonizing Differential Privacy Mechanisms for Federated
-  Learning: Boosting Accuracy and Convergence</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-07-20T00:11:59Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shuya Feng, Meisam Mohammady, Hanbin Hong, Shenao Yan, Ashish Kundu, Binghui Wang, Yuan Hong</p>
-    <p><b>Summary:</b> Differentially private federated learning (DP-FL) is a promising technique
-for collaborative model training while ensuring provable privacy for clients.
-However, optimizing the tradeoff between privacy and accuracy remains a
-critical challenge. To our best knowledge, we propose the first DP-FL framework
-(namely UDP-FL), which universally harmonizes any randomization mechanism
-(e.g., an optimal one) with the Gaussian Moments Accountant (viz. DP-SGD) to
-significantly boost accuracy and convergence. Specifically, UDP-FL demonstrates
-enhanced model performance by mitigating the reliance on Gaussian noise. The
-key mediator variable in this transformation is the R\'enyi Differential
-Privacy notion, which is carefully used to harmonize privacy budgets. We also
-propose an innovative method to theoretically analyze the convergence for DP-FL
-(including our UDP-FL ) based on mode connectivity analysis. Moreover, we
-evaluate our UDP-FL through extensive experiments benchmarked against
-state-of-the-art (SOTA) methods, demonstrating superior performance on both
-privacy guarantees and model performance. Notably, UDP-FL exhibits substantial
-resilience against different inference attacks, indicating a significant
-advance in safeguarding sensitive data in federated learning environments.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.14641v1">Differential Privacy with Multiple Selections</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-07-19T19:34:51Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ashish Goel, Zhihao Jiang, Aleksandra Korolova, Kamesh Munagala, Sahasrajit Sarmasarkar</p>
-    <p><b>Summary:</b> We consider the setting where a user with sensitive features wishes to obtain
-a recommendation from a server in a differentially private fashion. We propose
-a ``multi-selection'' architecture where the server can send back multiple
-recommendations and the user chooses one from these that matches best with
-their private features. When the user feature is one-dimensional -- on an
-infinite line -- and the accuracy measure is defined w.r.t some increasing
-function $\mathfrak{h}(.)$ of the distance on the line, we precisely
-characterize the optimal mechanism that satisfies differential privacy. The
-specification of the optimal mechanism includes both the distribution of the
-noise that the user adds to its private value, and the algorithm used by the
-server to determine the set of results to send back as a response and further
-show that Laplace is an optimal noise distribution. We further show that this
-optimal mechanism results in an error that is inversely proportional to the
-number of results returned when the function $\mathfrak{h}(.)$ is the identity
-function.</p>
   </details>
 </div>
 
