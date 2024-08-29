@@ -2,6 +2,132 @@
 <h2>2024-08</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.15694v1">Protecting Privacy in Federated Time Series Analysis: A Pragmatic
+  Technology Review for Application Developers</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-08-28T10:41:31Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Daniel Bachlechner, Ruben Hetfleisch, Stephan Krenn, Thomas Lorünser, Michael Rader</p>
+    <p><b>Summary:</b> The federated analysis of sensitive time series has huge potential in various
+domains, such as healthcare or manufacturing. Yet, to fully unlock this
+potential, requirements imposed by various stakeholders must be fulfilled,
+regarding, e.g., efficiency or trust assumptions. While many of these
+requirements can be addressed by deploying advanced secure computation
+paradigms such as fully homomorphic encryption, certain aspects require an
+integration with additional privacy-preserving technologies.
+  In this work, we perform a qualitative requirements elicitation based on
+selected real-world use cases. We match the derived requirements categories
+against the features and guarantees provided by available technologies. For
+each technology, we additionally perform a maturity assessment, including the
+state of standardization and availability on the market. Furthermore, we
+provide a decision tree supporting application developers in identifying the
+most promising technologies available matching their needs. Finally, existing
+gaps are identified, highlighting research potential to advance the field.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.15688v1">PDSR: A Privacy-Preserving Diversified Service Recommendation Method on
+  Distributed Data</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB">
+  <p><b>Published on:</b> 2024-08-28T10:25:36Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Lina Wang, Huan Yang, Yiran Shen, Chao Liu, Lianyong Qi, Xiuzhen Cheng, Feng Li</p>
+    <p><b>Summary:</b> The last decade has witnessed a tremendous growth of service computing, while
+efficient service recommendation methods are desired to recommend high-quality
+services to users. It is well known that collaborative filtering is one of the
+most popular methods for service recommendation based on QoS, and many existing
+proposals focus on improving recommendation accuracy, i.e., recommending
+high-quality redundant services. Nevertheless, users may have different
+requirements on QoS, and hence diversified recommendation has been attracting
+increasing attention in recent years to fulfill users' diverse demands and to
+explore potential services. Unfortunately, the recommendation performances
+relies on a large volume of data (e.g., QoS data), whereas the data may be
+distributed across multiple platforms. Therefore, to enable data sharing across
+the different platforms for diversified service recommendation, we propose a
+Privacy-preserving Diversified Service Recommendation (PDSR) method.
+Specifically, we innovate in leveraging the Locality-Sensitive Hashing (LSH)
+mechanism such that privacy-preserved data sharing across different platforms
+is enabled to construct a service similarity graph. Based on the similarity
+graph, we propose a novel accuracy-diversity metric and design a
+$2$-approximation algorithm to select $K$ services to recommend by maximizing
+the accuracy-diversity measure. Extensive experiments on real datasets are
+conducted to verify the efficacy of our PDSR method.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.15621v1">Convergent Differential Privacy Analysis for General Federated Learning:
+  the f-DP Perspective</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-08-28T08:22:21Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yan Sun, Li Shen, Dacheng Tao</p>
+    <p><b>Summary:</b> Federated learning (FL) is an efficient collaborative training paradigm
+extensively developed with a focus on local privacy protection, and
+differential privacy (DP) is a classical approach to capture and ensure the
+reliability of local privacy. The powerful cooperation of FL and DP provides a
+promising learning framework for large-scale private clients, juggling both
+privacy securing and trustworthy learning. As the predominant algorithm of DP,
+the noisy perturbation has been widely studied and incorporated into various
+federated algorithms, theoretically proven to offer significant privacy
+protections. However, existing analyses in noisy FL-DP mostly rely on the
+composition theorem and cannot tightly quantify the privacy leakage challenges,
+which is nearly tight for small numbers of communication rounds but yields an
+arbitrarily loose and divergent bound under the large communication rounds.
+This implies a counterintuitive judgment, suggesting that FL may not provide
+adequate privacy protection during long-term training. To further investigate
+the convergent privacy and reliability of the FL-DP framework, in this paper,
+we comprehensively evaluate the worst privacy of two classical methods under
+the non-convex and smooth objectives based on the f-DP analysis, i.e.
+Noisy-FedAvg and Noisy-FedProx methods. With the aid of the
+shifted-interpolation technique, we successfully prove that the worst privacy
+of the Noisy-FedAvg method achieves a tight convergent lower bound. Moreover,
+in the Noisy-FedProx method, with the regularization of the proxy term, the
+worst privacy has a stable constant lower bound. Our analysis further provides
+a solid theoretical foundation for the reliability of privacy protection in
+FL-DP. Meanwhile, our conclusions can also be losslessly converted to other
+classical DP analytical frameworks, e.g. $(\epsilon,\delta)$-DP and
+R$\acute{\text{e}}$nyi-DP (RDP).</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.15391v1">Examining the Interplay Between Privacy and Fairness for Speech
+  Processing: A Review and Perspective</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Sound-D91E36">
+  <p><b>Published on:</b> 2024-08-27T20:32:01Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Anna Leschanowsky, Sneha Das</p>
+    <p><b>Summary:</b> Speech technology has been increasingly deployed in various areas of daily
+life including sensitive domains such as healthcare and law enforcement. For
+these technologies to be effective, they must work reliably for all users while
+preserving individual privacy. Although tradeoffs between privacy and utility,
+as well as fairness and utility, have been extensively researched, the specific
+interplay between privacy and fairness in speech processing remains
+underexplored. This review and position paper offers an overview of emerging
+privacy-fairness tradeoffs throughout the entire machine learning lifecycle for
+speech processing. By drawing on well-established frameworks on fairness and
+privacy, we examine existing biases and sources of privacy harm that coexist
+during the development of speech processing models. We then highlight how
+corresponding privacy-enhancing technologies have the potential to
+inadvertently increase these biases and how bias mitigation strategies may
+conversely reduce privacy. By raising open questions, we advocate for a
+comprehensive evaluation of privacy-fairness tradeoffs for speech technology
+and the development of privacy-enhancing and fairness-aware algorithms in this
+domain.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2408.15077v1">MMASD+: A Novel Dataset for Privacy-Preserving Behavior Analysis of
   Children with Autism Spectrum Disorder</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
@@ -2789,117 +2915,6 @@ model-level solution to mitigate membership privacy leakage. Through a confined
 yet effective representation space, our approach ameliorates models' privacy
 vulnerability while maintaining generalizability. The code of this work can be
 found here: \url{https://github.com/JEKimLab/AIES2024_SRCM}</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.15957v1">Escalation of Commitment: A Case Study of the United States Census
-  Bureau Efforts to Implement Differential Privacy for the 2020 Decennial
-  Census</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
-  <p><b>Published on:</b> 2024-07-22T18:13:52Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Krish Muralidhar, Steven Ruggles</p>
-    <p><b>Summary:</b> In 2017, the United States Census Bureau announced that because of high
-disclosure risk in the methodology (data swapping) used to produce tabular data
-for the 2010 census, a different protection mechanism based on differential
-privacy would be used for the 2020 census. While there have been many studies
-evaluating the result of this change, there has been no rigorous examination of
-disclosure risk claims resulting from the released 2010 tabular data. In this
-study we perform such an evaluation. We show that the procedures used to
-evaluate disclosure risk are unreliable and resulted in inflated disclosure
-risk. Demonstration data products released using the new procedure were also
-shown to have poor utility. However, since the Census Bureau had already
-committed to a different procedure, they had no option except to escalate their
-commitment. The result of such escalation is that the 2020 tabular data release
-offers neither privacy nor accuracy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.15407v1">A Solution toward Transparent and Practical AI Regulation: Privacy
-  Nutrition Labels for Open-source Generative AI-based Applications</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
-  <p><b>Published on:</b> 2024-07-22T06:24:13Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Meixue Si, Shidong Pan, Dianshu Liao, Xiaoyu Sun, Zhen Tao, Wenchang Shi, Zhenchang Xing</p>
-    <p><b>Summary:</b> The rapid development and widespread adoption of Generative Artificial
-Intelligence-based (GAI) applications have greatly enriched our daily lives,
-benefiting people by enhancing creativity, personalizing experiences, improving
-accessibility, and fostering innovation and efficiency across various domains.
-However, along with the development of GAI applications, concerns have been
-raised about transparency in their privacy practices. Traditional privacy
-policies often fail to effectively communicate essential privacy information
-due to their complexity and length, and open-source community developers often
-neglect privacy practices even more. Only 12.2% of examined open-source GAI
-apps provide a privacy policy. To address this, we propose a regulation-driven
-GAI Privacy Label and introduce Repo2Label, a novel framework for automatically
-generating these labels based on code repositories. Our user study indicates a
-common endorsement of the proposed GAI privacy label format. Additionally,
-Repo2Label achieves a precision of 0.81, recall of 0.88, and F1-score of 0.84
-based on the benchmark dataset, significantly outperforming the developer
-self-declared privacy notices. We also discuss the common regulatory
-(in)compliance of open-source GAI apps, comparison with other privacy notices,
-and broader impacts to different stakeholders. Our findings suggest that
-Repo2Label could serve as a significant tool for bolstering the privacy
-transparency of GAI apps and make them more practical and responsible.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.15224v1">PUFFLE: Balancing Privacy, Utility, and Fairness in Federated Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2024-07-21T17:22:18Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Luca Corbucci, Mikko A Heikkila, David Solans Noguero, Anna Monreale, Nicolas Kourtellis</p>
-    <p><b>Summary:</b> Training and deploying Machine Learning models that simultaneously adhere to
-principles of fairness and privacy while ensuring good utility poses a
-significant challenge. The interplay between these three factors of
-trustworthiness is frequently underestimated and remains insufficiently
-explored. Consequently, many efforts focus on ensuring only two of these
-factors, neglecting one in the process. The decentralization of the datasets
-and the variations in distributions among the clients exacerbate the complexity
-of achieving this ethical trade-off in the context of Federated Learning (FL).
-For the first time in FL literature, we address these three factors of
-trustworthiness. We introduce PUFFLE, a high-level parameterised approach that
-can help in the exploration of the balance between utility, privacy, and
-fairness in FL scenarios. We prove that PUFFLE can be effective across diverse
-datasets, models, and data distributions, reducing the model unfairness up to
-75%, with a maximum reduction in the utility of 17% in the worst-case scenario,
-while maintaining strict privacy guarantees during the FL training.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.15220v1">Privacy-Preserving Multi-Center Differential Protein Abundance Analysis
-  with FedProt</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-07-21T17:09:20Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yuliya Burankova, Miriam Abele, Mohammad Bakhtiari, Christine von Törne, Teresa Barth, Lisa Schweizer, Pieter Giesbertz, Johannes R. Schmidt, Stefan Kalkhof, Janina Müller-Deile, Peter A van Veelen, Yassene Mohammed, Elke Hammer, Lis Arend, Klaudia Adamowicz, Tanja Laske, Anne Hartebrodt, Tobias Frisch, Chen Meng, Julian Matschinske, Julian Späth, Richard Röttger, Veit Schwämmle, Stefanie M. Hauck, Stefan Lichtenthaler, Axel Imhof, Matthias Mann, Christina Ludwig, Bernhard Kuster, Jan Baumbach, Olga Zolotareva</p>
-    <p><b>Summary:</b> Quantitative mass spectrometry has revolutionized proteomics by enabling
-simultaneous quantification of thousands of proteins. Pooling patient-derived
-data from multiple institutions enhances statistical power but raises
-significant privacy concerns. Here we introduce FedProt, the first
-privacy-preserving tool for collaborative differential protein abundance
-analysis of distributed data, which utilizes federated learning and additive
-secret sharing. In the absence of a multicenter patient-derived dataset for
-evaluation, we created two, one at five centers from LFQ E.coli experiments and
-one at three centers from TMT human serum. Evaluations using these datasets
-confirm that FedProt achieves accuracy equivalent to DEqMS applied to pooled
-data, with completely negligible absolute differences no greater than $\text{$4
-\times 10^{-12}$}$. In contrast, -log10(p-values) computed by the most accurate
-meta-analysis methods diverged from the centralized analysis results by up to
-25-27. FedProt is available as a web tool with detailed documentation as a
-FeatureCloud App.</p>
   </details>
 </div>
 
