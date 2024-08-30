@@ -2,6 +2,37 @@
 <h2>2024-08</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.16304v1">Understanding Privacy Norms through Web Forms</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-08-29T07:11:09Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Hao Cui, Rahmadi Trimananda, Athina Markopoulou</p>
+    <p><b>Summary:</b> Web forms are one of the primary ways to collect personal information online,
+yet they are relatively under-studied. Unlike web tracking, data collection
+through web forms is explicit and contextualized. Users (i) are asked to input
+specific personal information types, and (ii) know the specific context (i.e.,
+on which website and for what purpose). For web forms to be trusted by users,
+they must meet the common sense standards of appropriate data collection
+practices within a particular context (i.e., privacy norms). In this paper, we
+extract the privacy norms embedded within web forms through a measurement
+study. First, we build a specialized crawler to discover web forms on websites.
+We run it on 11,500 popular websites, and we create a dataset of 293K web
+forms. Second, to process data of this scale, we develop a cost-efficient way
+to annotate web forms with form types and personal information types, using
+text classifiers trained with assistance of large language models (LLMs).
+Third, by analyzing the annotated dataset, we reveal common patterns of data
+collection practices. We find that (i) these patterns are explained by
+functional necessities and legal obligations, thus reflecting privacy norms,
+and that (ii) deviations from the observed norms often signal unnecessary data
+collection. In addition, we analyze the privacy policies that accompany web
+forms. We show that, despite their wide adoption and use, there is a disconnect
+between privacy policy disclosures and the observed privacy norms.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2408.15694v1">Protecting Privacy in Federated Time Series Analysis: A Pragmatic
   Technology Review for Application Developers</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
@@ -128,7 +159,7 @@ domain.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2408.15077v1">MMASD+: A Novel Dataset for Privacy-Preserving Behavior Analysis of
+  <h3><a href="http://arxiv.org/abs/2408.15077v2">MMASD+: A Novel Dataset for Privacy-Preserving Behavior Analysis of
   Children with Autism Spectrum Disorder</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2024-08-27T14:05:48Z</p>
@@ -141,14 +172,15 @@ therapeutic interventions for ASD have increasingly utilized Deep learning
 powered-computer vision techniques to monitor individual progress over time.
 These models are trained on private, non-public datasets from the autism
 community, creating challenges in comparing results across different models due
-to privacy-preserving data-sharing issues. This work introduces MMASD+. MMASD+
-consists of diverse data modalities, including 3D-Skeleton, 3D Body Mesh, and
-Optical Flow data. It integrates the capabilities of Yolov8 and Deep SORT
-algorithms to distinguish between the therapist and children, addressing a
-significant barrier in the original dataset. Additionally, a Multimodal
-Transformer framework is proposed to predict 11 action types and the presence
-of ASD. This framework achieves an accuracy of 95.03% for predicting action
-types and 96.42% for predicting ASD presence, demonstrating over a 10%
+to privacy-preserving data-sharing issues. This work introduces MMASD+, an
+enhanced version of the novel open-source dataset called Multimodal ASD
+(MMASD). MMASD+ consists of diverse data modalities, including 3D-Skeleton, 3D
+Body Mesh, and Optical Flow data. It integrates the capabilities of Yolov8 and
+Deep SORT algorithms to distinguish between the therapist and children,
+addressing a significant barrier in the original dataset. Additionally, a
+Multimodal Transformer framework is proposed to predict 11 action types and the
+presence of ASD. This framework achieves an accuracy of 95.03% for predicting
+action types and 96.42% for predicting ASD presence, demonstrating over a 10%
 improvement compared to models trained on single data modalities. These
 findings highlight the advantages of integrating multiple data modalities
 within the Multimodal Transformer framework.</p>
@@ -2891,30 +2923,6 @@ synthetic clinical notes that retain data usability, potentially transforming
 clinical data-sharing practices. The superior performance of re-identified over
 de-identified data suggests a shift towards methods that enhance utility and
 privacy by using dummy PHIs to perplex privacy attacks.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.16164v1">Representation Magnitude has a Liability to Privacy Vulnerability</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2024-07-23T04:13:52Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Xingli Fang, Jung-Eun Kim</p>
-    <p><b>Summary:</b> The privacy-preserving approaches to machine learning (ML) models have made
-substantial progress in recent years. However, it is still opaque in which
-circumstances and conditions the model becomes privacy-vulnerable, leading to a
-challenge for ML models to maintain both performance and privacy. In this
-paper, we first explore the disparity between member and non-member data in the
-representation of models under common training frameworks. We identify how the
-representation magnitude disparity correlates with privacy vulnerability and
-address how this correlation impacts privacy vulnerability. Based on the
-observations, we propose Saturn Ring Classifier Module (SRCM), a plug-in
-model-level solution to mitigate membership privacy leakage. Through a confined
-yet effective representation space, our approach ameliorates models' privacy
-vulnerability while maintaining generalizability. The code of this work can be
-found here: \url{https://github.com/JEKimLab/AIES2024_SRCM}</p>
   </details>
 </div>
 
