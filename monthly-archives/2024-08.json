@@ -2338,5 +2338,58 @@
       "eess.AS",
       "cs.SD"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2408.16304v1",
+    "title" : "Understanding Privacy Norms through Web Forms",
+    "summary" : "Web forms are one of the primary ways to collect personal information online,\nyet they are relatively under-studied. Unlike web tracking, data collection\nthrough web forms is explicit and contextualized. Users (i) are asked to input\nspecific personal information types, and (ii) know the specific context (i.e.,\non which website and for what purpose). For web forms to be trusted by users,\nthey must meet the common sense standards of appropriate data collection\npractices within a particular context (i.e., privacy norms). In this paper, we\nextract the privacy norms embedded within web forms through a measurement\nstudy. First, we build a specialized crawler to discover web forms on websites.\nWe run it on 11,500 popular websites, and we create a dataset of 293K web\nforms. Second, to process data of this scale, we develop a cost-efficient way\nto annotate web forms with form types and personal information types, using\ntext classifiers trained with assistance of large language models (LLMs).\nThird, by analyzing the annotated dataset, we reveal common patterns of data\ncollection practices. We find that (i) these patterns are explained by\nfunctional necessities and legal obligations, thus reflecting privacy norms,\nand that (ii) deviations from the observed norms often signal unnecessary data\ncollection. In addition, we analyze the privacy policies that accompany web\nforms. We show that, despite their wide adoption and use, there is a disconnect\nbetween privacy policy disclosures and the observed privacy norms.",
+    "updated" : "2024-08-29T07:11:09Z",
+    "published" : "2024-08-29T07:11:09Z",
+    "authors" : [
+      {
+        "name" : "Hao Cui"
+      },
+      {
+        "name" : "Rahmadi Trimananda"
+      },
+      {
+        "name" : "Athina Markopoulou"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2408.15077v2",
+    "title" : "MMASD+: A Novel Dataset for Privacy-Preserving Behavior Analysis of\n  Children with Autism Spectrum Disorder",
+    "summary" : "Autism spectrum disorder (ASD) is characterized by significant challenges in\nsocial interaction and comprehending communication signals. Recently,\ntherapeutic interventions for ASD have increasingly utilized Deep learning\npowered-computer vision techniques to monitor individual progress over time.\nThese models are trained on private, non-public datasets from the autism\ncommunity, creating challenges in comparing results across different models due\nto privacy-preserving data-sharing issues. This work introduces MMASD+, an\nenhanced version of the novel open-source dataset called Multimodal ASD\n(MMASD). MMASD+ consists of diverse data modalities, including 3D-Skeleton, 3D\nBody Mesh, and Optical Flow data. It integrates the capabilities of Yolov8 and\nDeep SORT algorithms to distinguish between the therapist and children,\naddressing a significant barrier in the original dataset. Additionally, a\nMultimodal Transformer framework is proposed to predict 11 action types and the\npresence of ASD. This framework achieves an accuracy of 95.03% for predicting\naction types and 96.42% for predicting ASD presence, demonstrating over a 10%\nimprovement compared to models trained on single data modalities. These\nfindings highlight the advantages of integrating multiple data modalities\nwithin the Multimodal Transformer framework.",
+    "updated" : "2024-08-28T20:30:29Z",
+    "published" : "2024-08-27T14:05:48Z",
+    "authors" : [
+      {
+        "name" : "Pavan Uttej Ravva"
+      },
+      {
+        "name" : "Behdokht Kiafar"
+      },
+      {
+        "name" : "Pinar Kullu"
+      },
+      {
+        "name" : "Jicheng Li"
+      },
+      {
+        "name" : "Anjana Bhat"
+      },
+      {
+        "name" : "Roghayeh Leila Barmaki"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI",
+      "cs.LG"
+    ]
   }
 ]
