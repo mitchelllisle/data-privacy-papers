@@ -2391,5 +2391,158 @@
       "cs.AI",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2408.17378v1",
+    "title" : "Empowering Open Data Sharing for Social Good: A Privacy-Aware Approach",
+    "summary" : "The Covid-19 pandemic has affected the world at multiple levels. Data sharing\nwas pivotal for advancing research to understand the underlying causes and\nimplement effective containment strategies. In response, many countries have\npromoted the availability of daily cases to support research initiatives,\nfostering collaboration between organisations and making such data available to\nthe public through open data platforms. Despite the several advantages of data\nsharing, one of the major concerns before releasing health data is its impact\non individuals' privacy. Such a sharing process should be based on\nstate-of-the-art methods in Data Protection by Design and by Default. In this\npaper, we use a data set related to Covid-19 cases in the second largest\nhospital in Portugal to show how it is feasible to ensure data privacy while\nimproving the quality and maintaining the utility of the data. Our goal is to\ndemonstrate how knowledge exchange in multidisciplinary teams of healthcare\npractitioners, data privacy, and data science experts is crucial to\nco-developing strategies that ensure high utility of de-identified data.",
+    "updated" : "2024-08-30T16:14:32Z",
+    "published" : "2024-08-30T16:14:32Z",
+    "authors" : [
+      {
+        "name" : "Tânia Carvalho"
+      },
+      {
+        "name" : "Luís Antunes"
+      },
+      {
+        "name" : "Cristina Costa"
+      },
+      {
+        "name" : "Nuno Moniz"
+      }
+    ],
+    "categories" : [
+      "cs.DB"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2408.17354v1",
+    "title" : "Forget to Flourish: Leveraging Machine-Unlearning on Pretrained Language\n  Models for Privacy Leakage",
+    "summary" : "Fine-tuning large language models on private data for downstream applications\nposes significant privacy risks in potentially exposing sensitive information.\nSeveral popular community platforms now offer convenient distribution of a\nlarge variety of pre-trained models, allowing anyone to publish without\nrigorous verification. This scenario creates a privacy threat, as pre-trained\nmodels can be intentionally crafted to compromise the privacy of fine-tuning\ndatasets. In this study, we introduce a novel poisoning technique that uses\nmodel-unlearning as an attack tool. This approach manipulates a pre-trained\nlanguage model to increase the leakage of private data during the fine-tuning\nprocess. Our method enhances both membership inference and data extraction\nattacks while preserving model utility. Experimental results across different\nmodels, datasets, and fine-tuning setups demonstrate that our attacks\nsignificantly surpass baseline performance. This work serves as a cautionary\nnote for users who download pre-trained models from unverified sources,\nhighlighting the potential risks involved.",
+    "updated" : "2024-08-30T15:35:09Z",
+    "published" : "2024-08-30T15:35:09Z",
+    "authors" : [
+      {
+        "name" : "Md Rafi Ur Rashid"
+      },
+      {
+        "name" : "Jing Liu"
+      },
+      {
+        "name" : "Toshiaki Koike-Akino"
+      },
+      {
+        "name" : "Shagufta Mehnaz"
+      },
+      {
+        "name" : "Ye Wang"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2408.17263v1",
+    "title" : "Privacy-Preserving Set-Based Estimation Using Differential Privacy and\n  Zonotopes",
+    "summary" : "For large-scale cyber-physical systems, the collaboration of spatially\ndistributed sensors is often needed to perform the state estimation process.\nPrivacy concerns arise from disclosing sensitive measurements to a cloud\nestimator. To solve this issue, we propose a differentially private set-based\nestimation protocol that guarantees true state containment in the estimated set\nand differential privacy for the sensitive measurements throughout the\nset-based state estimation process within the central and local differential\nprivacy models. Zonotopes are employed in the proposed differentially private\nset-based estimator, offering computational advantages in set operations. We\nconsider a plant of a non-linear discrete-time dynamical system with bounded\nmodeling uncertainties, sensors that provide sensitive measurements with\nbounded measurement uncertainties, and a cloud estimator that predicts the\nsystem's state. The privacy-preserving noise perturbs the centers of\nmeasurement zonotopes, thereby concealing the precise position of these\nzonotopes, i.e., ensuring privacy preservation for the sets containing\nsensitive measurements. Compared to existing research, our approach achieves\nless privacy loss and utility loss through the central and local differential\nprivacy models by leveraging a numerically optimized truncated noise\ndistribution. The proposed estimator is perturbed by weaker noise than the\nanalytical approaches in the literature to guarantee the same level of privacy,\ntherefore improving the estimation utility. Numerical and comparison\nexperiments with truncated Laplace noise are presented to support our approach.",
+    "updated" : "2024-08-30T13:05:38Z",
+    "published" : "2024-08-30T13:05:38Z",
+    "authors" : [
+      {
+        "name" : "Mohammed M. Dawoud"
+      },
+      {
+        "name" : "Changxin Liu"
+      },
+      {
+        "name" : "Karl H. Johansson"
+      },
+      {
+        "name" : "Amr Alanwar"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2408.17151v1",
+    "title" : "Investigating Privacy Leakage in Dimensionality Reduction Methods via\n  Reconstruction Attack",
+    "summary" : "This study investigates privacy leakage in dimensionality reduction methods\nthrough a novel machine learning-based reconstruction attack. Employing an\n\\emph{informed adversary} threat model, we develop a neural network capable of\nreconstructing high-dimensional data from low-dimensional embeddings.\n  We evaluate six popular dimensionality reduction techniques: PCA, sparse\nrandom projection (SRP), multidimensional scaling (MDS), Isomap, $t$-SNE, and\nUMAP. Using both MNIST and NIH Chest X-ray datasets, we perform a qualitative\nanalysis to identify key factors affecting reconstruction quality. Furthermore,\nwe assess the effectiveness of an additive noise mechanism in mitigating these\nreconstruction attacks.",
+    "updated" : "2024-08-30T09:40:52Z",
+    "published" : "2024-08-30T09:40:52Z",
+    "authors" : [
+      {
+        "name" : "Chayadon Lumbut"
+      },
+      {
+        "name" : "Donlapark Ponnoprat"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2408.17049v1",
+    "title" : "SPOQchain: Platform for Secure, Scalable, and Privacy-Preserving Supply\n  Chain Tracing and Counterfeit Protection",
+    "summary" : "Product lifecycle tracing is increasingly in the focus of regulators and\nproducers, as shown with the initiative of the Digital Product Pass. Likewise,\nnew methods of counterfeit detection are developed that are, e.g., based on\nPhysical Unclonable Functions (PUFs). In order to ensure trust and integrity of\nproduct lifecycle data, multiple existing supply chain tracing systems are\nbuilt on blockchain technology. However, only few solutions employ secure\nidentifiers such as PUFs. Furthermore, existing systems that publish the data\nof individual products, in part fully transparently, have a detrimental impact\non scalability and the privacy of users. This work proposes SPOQchain, a novel\nblockchain-based platform that provides comprehensive lifecycle traceability\nand originality verification while ensuring high efficiency and user privacy.\nThe improved efficiency is achieved by a sophisticated batching mechanism that\nremoves lifecycle redundancies. In addition to the successful evaluation of\nSPOQchain's scalability, this work provides a comprehensive analysis of privacy\nand security aspects, demonstrating the need and qualification of SPOQchain for\nthe future of supply chain tracing.",
+    "updated" : "2024-08-30T07:15:43Z",
+    "published" : "2024-08-30T07:15:43Z",
+    "authors" : [
+      {
+        "name" : "Moritz Finke"
+      },
+      {
+        "name" : "Alexandra Dmitrienko"
+      },
+      {
+        "name" : "Jasper Stang"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2408.16913v1",
+    "title" : "Analyzing Inference Privacy Risks Through Gradients in Machine Learning",
+    "summary" : "In distributed learning settings, models are iteratively updated with shared\ngradients computed from potentially sensitive user data. While previous work\nhas studied various privacy risks of sharing gradients, our paper aims to\nprovide a systematic approach to analyze private information leakage from\ngradients. We present a unified game-based framework that encompasses a broad\nrange of attacks including attribute, property, distributional, and user\ndisclosures. We investigate how different uncertainties of the adversary affect\ntheir inferential power via extensive experiments on five datasets across\nvarious data modalities. Our results demonstrate the inefficacy of solely\nrelying on data aggregation to achieve privacy against inference attacks in\ndistributed learning. We further evaluate five types of defenses, namely,\ngradient pruning, signed gradient descent, adversarial perturbations,\nvariational information bottleneck, and differential privacy, under both static\nand adaptive adversary settings. We provide an information-theoretic view for\nanalyzing the effectiveness of these defenses against inference from gradients.\nFinally, we introduce a method for auditing attribute inference privacy,\nimproving the empirical estimation of worst-case privacy through crafting\nadversarial canary records.",
+    "updated" : "2024-08-29T21:21:53Z",
+    "published" : "2024-08-29T21:21:53Z",
+    "authors" : [
+      {
+        "name" : "Zhuohang Li"
+      },
+      {
+        "name" : "Andrew Lowy"
+      },
+      {
+        "name" : "Jing Liu"
+      },
+      {
+        "name" : "Toshiaki Koike-Akino"
+      },
+      {
+        "name" : "Kieran Parsons"
+      },
+      {
+        "name" : "Bradley Malin"
+      },
+      {
+        "name" : "Ye Wang"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR",
+      "stat.ML"
+    ]
   }
 ]
