@@ -2,6 +2,172 @@
 <h2>2024-08</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.17378v1">Empowering Open Data Sharing for Social Good: A Privacy-Aware Approach</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
+  <p><b>Published on:</b> 2024-08-30T16:14:32Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Tânia Carvalho, Luís Antunes, Cristina Costa, Nuno Moniz</p>
+    <p><b>Summary:</b> The Covid-19 pandemic has affected the world at multiple levels. Data sharing
+was pivotal for advancing research to understand the underlying causes and
+implement effective containment strategies. In response, many countries have
+promoted the availability of daily cases to support research initiatives,
+fostering collaboration between organisations and making such data available to
+the public through open data platforms. Despite the several advantages of data
+sharing, one of the major concerns before releasing health data is its impact
+on individuals' privacy. Such a sharing process should be based on
+state-of-the-art methods in Data Protection by Design and by Default. In this
+paper, we use a data set related to Covid-19 cases in the second largest
+hospital in Portugal to show how it is feasible to ensure data privacy while
+improving the quality and maintaining the utility of the data. Our goal is to
+demonstrate how knowledge exchange in multidisciplinary teams of healthcare
+practitioners, data privacy, and data science experts is crucial to
+co-developing strategies that ensure high utility of de-identified data.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.17354v1">Forget to Flourish: Leveraging Machine-Unlearning on Pretrained Language
+  Models for Privacy Leakage</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-08-30T15:35:09Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Md Rafi Ur Rashid, Jing Liu, Toshiaki Koike-Akino, Shagufta Mehnaz, Ye Wang</p>
+    <p><b>Summary:</b> Fine-tuning large language models on private data for downstream applications
+poses significant privacy risks in potentially exposing sensitive information.
+Several popular community platforms now offer convenient distribution of a
+large variety of pre-trained models, allowing anyone to publish without
+rigorous verification. This scenario creates a privacy threat, as pre-trained
+models can be intentionally crafted to compromise the privacy of fine-tuning
+datasets. In this study, we introduce a novel poisoning technique that uses
+model-unlearning as an attack tool. This approach manipulates a pre-trained
+language model to increase the leakage of private data during the fine-tuning
+process. Our method enhances both membership inference and data extraction
+attacks while preserving model utility. Experimental results across different
+models, datasets, and fine-tuning setups demonstrate that our attacks
+significantly surpass baseline performance. This work serves as a cautionary
+note for users who download pre-trained models from unverified sources,
+highlighting the potential risks involved.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.17263v1">Privacy-Preserving Set-Based Estimation Using Differential Privacy and
+  Zonotopes</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-08-30T13:05:38Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mohammed M. Dawoud, Changxin Liu, Karl H. Johansson, Amr Alanwar</p>
+    <p><b>Summary:</b> For large-scale cyber-physical systems, the collaboration of spatially
+distributed sensors is often needed to perform the state estimation process.
+Privacy concerns arise from disclosing sensitive measurements to a cloud
+estimator. To solve this issue, we propose a differentially private set-based
+estimation protocol that guarantees true state containment in the estimated set
+and differential privacy for the sensitive measurements throughout the
+set-based state estimation process within the central and local differential
+privacy models. Zonotopes are employed in the proposed differentially private
+set-based estimator, offering computational advantages in set operations. We
+consider a plant of a non-linear discrete-time dynamical system with bounded
+modeling uncertainties, sensors that provide sensitive measurements with
+bounded measurement uncertainties, and a cloud estimator that predicts the
+system's state. The privacy-preserving noise perturbs the centers of
+measurement zonotopes, thereby concealing the precise position of these
+zonotopes, i.e., ensuring privacy preservation for the sets containing
+sensitive measurements. Compared to existing research, our approach achieves
+less privacy loss and utility loss through the central and local differential
+privacy models by leveraging a numerically optimized truncated noise
+distribution. The proposed estimator is perturbed by weaker noise than the
+analytical approaches in the literature to guarantee the same level of privacy,
+therefore improving the estimation utility. Numerical and comparison
+experiments with truncated Laplace noise are presented to support our approach.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.17151v1">Investigating Privacy Leakage in Dimensionality Reduction Methods via
+  Reconstruction Attack</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-08-30T09:40:52Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Chayadon Lumbut, Donlapark Ponnoprat</p>
+    <p><b>Summary:</b> This study investigates privacy leakage in dimensionality reduction methods
+through a novel machine learning-based reconstruction attack. Employing an
+\emph{informed adversary} threat model, we develop a neural network capable of
+reconstructing high-dimensional data from low-dimensional embeddings.
+  We evaluate six popular dimensionality reduction techniques: PCA, sparse
+random projection (SRP), multidimensional scaling (MDS), Isomap, $t$-SNE, and
+UMAP. Using both MNIST and NIH Chest X-ray datasets, we perform a qualitative
+analysis to identify key factors affecting reconstruction quality. Furthermore,
+we assess the effectiveness of an additive noise mechanism in mitigating these
+reconstruction attacks.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.17049v1">SPOQchain: Platform for Secure, Scalable, and Privacy-Preserving Supply
+  Chain Tracing and Counterfeit Protection</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-08-30T07:15:43Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Moritz Finke, Alexandra Dmitrienko, Jasper Stang</p>
+    <p><b>Summary:</b> Product lifecycle tracing is increasingly in the focus of regulators and
+producers, as shown with the initiative of the Digital Product Pass. Likewise,
+new methods of counterfeit detection are developed that are, e.g., based on
+Physical Unclonable Functions (PUFs). In order to ensure trust and integrity of
+product lifecycle data, multiple existing supply chain tracing systems are
+built on blockchain technology. However, only few solutions employ secure
+identifiers such as PUFs. Furthermore, existing systems that publish the data
+of individual products, in part fully transparently, have a detrimental impact
+on scalability and the privacy of users. This work proposes SPOQchain, a novel
+blockchain-based platform that provides comprehensive lifecycle traceability
+and originality verification while ensuring high efficiency and user privacy.
+The improved efficiency is achieved by a sophisticated batching mechanism that
+removes lifecycle redundancies. In addition to the successful evaluation of
+SPOQchain's scalability, this work provides a comprehensive analysis of privacy
+and security aspects, demonstrating the need and qualification of SPOQchain for
+the future of supply chain tracing.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2408.16913v1">Analyzing Inference Privacy Risks Through Gradients in Machine Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
+  <p><b>Published on:</b> 2024-08-29T21:21:53Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zhuohang Li, Andrew Lowy, Jing Liu, Toshiaki Koike-Akino, Kieran Parsons, Bradley Malin, Ye Wang</p>
+    <p><b>Summary:</b> In distributed learning settings, models are iteratively updated with shared
+gradients computed from potentially sensitive user data. While previous work
+has studied various privacy risks of sharing gradients, our paper aims to
+provide a systematic approach to analyze private information leakage from
+gradients. We present a unified game-based framework that encompasses a broad
+range of attacks including attribute, property, distributional, and user
+disclosures. We investigate how different uncertainties of the adversary affect
+their inferential power via extensive experiments on five datasets across
+various data modalities. Our results demonstrate the inefficacy of solely
+relying on data aggregation to achieve privacy against inference attacks in
+distributed learning. We further evaluate five types of defenses, namely,
+gradient pruning, signed gradient descent, adversarial perturbations,
+variational information bottleneck, and differential privacy, under both static
+and adaptive adversary settings. We provide an information-theoretic view for
+analyzing the effectiveness of these defenses against inference from gradients.
+Finally, we introduce a method for auditing attribute inference privacy,
+improving the empirical estimation of worst-case privacy through crafting
+adversarial canary records.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2408.16304v1">Understanding Privacy Norms through Web Forms</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2024-08-29T07:11:09Z</p>
@@ -2752,177 +2918,6 @@ diminishes the success of the aforementioned attacks, while maintaining high
 model accuracy. We carry out a systematic empirical investigation of our 2 new
 attacks with 5 vision transformer architectures, 5 benchmark datasets, 4
 state-of-the-art post-hoc explanation methods, and 4 privacy strength settings.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.18982v1">Low-Latency Privacy-Preserving Deep Learning Design via Secure MPC</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-07-24T07:01:21Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ke Lin, Yasir Glani, Ping Luo</p>
-    <p><b>Summary:</b> Secure multi-party computation (MPC) facilitates privacy-preserving
-computation between multiple parties without leaking private information. While
-most secure deep learning techniques utilize MPC operations to achieve feasible
-privacy-preserving machine learning on downstream tasks, the overhead of the
-computation and communication still hampers their practical application. This
-work proposes a low-latency secret-sharing-based MPC design that reduces
-unnecessary communication rounds during the execution of MPC protocols. We also
-present a method for improving the computation of commonly used nonlinear
-functions in deep learning by integrating multivariate multiplication and
-coalescing different packets into one to maximize network utilization. Our
-experimental results indicate that our method is effective in a variety of
-settings, with a speedup in communication latency of $10\sim20\%$.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.17021v1">The EU-US Data Privacy Framework: Is the Dragon Eating its Own Tail?</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2024-07-24T06:00:47Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Marcelo Corrales Compagnucci</p>
-    <p><b>Summary:</b> The European Commission adequacy decision on the EU US Data Privacy
-Framework, adopted on July 10th, 2023, marks a crucial moment in transatlantic
-data protection. Following an Executive Order issued by President Biden in
-October 2022, this decision confirms that the United States meets European
-Union standards for personal data protection. The decision extends to all
-transfers from the European Economic Area to US entities participating in the
-framework, promoting privacy rights while facilitating data exchange. Key
-aspects include oversight of US public authorities access to transferred data,
-the introduction of a dual tier redress mechanism, and granting new rights to
-EU individuals, encompassing data access and rectification. However, the
-framework presents both promise and challenges in health data transfers. While
-streamlining exchange and aligning legal standards, it grapples with the
-complexities of divergent privacy laws. The recent bill for the introduction of
-a US federal privacy law emphasizes the urgent need for ongoing reform.
-Lingering concerns persist regarding the framework resilience, especially amid
-potential legal battles before the Court of Justice of the EU. The history of
-transatlantic data transfers between the EU and the US is riddled with
-vulnerabilities, reminiscent of the Ouroboros, an ancient symbol of a serpent
-or dragon eating its own tail, hinting at the looming possibility of the
-framework facing invalidation once again. This article delves into the main
-requirements of the framework and offers insights on how healthcare
-organizations can navigate it effectively.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.16929v2">Synthetic Data, Similarity-based Privacy Metrics, and Regulatory
-  (Non-)Compliance</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2024-07-24T01:45:41Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Georgi Ganev</p>
-    <p><b>Summary:</b> In this paper, we argue that similarity-based privacy metrics cannot ensure
-regulatory compliance of synthetic data. Our analysis and counter-examples show
-that they do not protect against singling out and linkability and, among other
-fundamental issues, completely ignore the motivated intruder test.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.16735v1">Theoretical Analysis of Privacy Leakage in Trustworthy Federated
-  Learning: A Perspective from Linear Algebra and Optimization Theory</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
-  <p><b>Published on:</b> 2024-07-23T16:23:38Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Xiaojin Zhang, Wei Chen</p>
-    <p><b>Summary:</b> Federated learning has emerged as a promising paradigm for collaborative
-model training while preserving data privacy. However, recent studies have
-shown that it is vulnerable to various privacy attacks, such as data
-reconstruction attacks. In this paper, we provide a theoretical analysis of
-privacy leakage in federated learning from two perspectives: linear algebra and
-optimization theory. From the linear algebra perspective, we prove that when
-the Jacobian matrix of the batch data is not full rank, there exist different
-batches of data that produce the same model update, thereby ensuring a level of
-privacy. We derive a sufficient condition on the batch size to prevent data
-reconstruction attacks. From the optimization theory perspective, we establish
-an upper bound on the privacy leakage in terms of the batch size, the
-distortion extent, and several other factors. Our analysis provides insights
-into the relationship between privacy leakage and various aspects of federated
-learning, offering a theoretical foundation for designing privacy-preserving
-federated learning algorithms.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.16729v1">PateGail: A Privacy-Preserving Mobility Trajectory Generator with
-  Imitation Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2024-07-23T14:59:23Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Huandong Wang, Changzheng Gao, Yuchen Wu, Depeng Jin, Lina Yao, Yong Li</p>
-    <p><b>Summary:</b> Generating human mobility trajectories is of great importance to solve the
-lack of large-scale trajectory data in numerous applications, which is caused
-by privacy concerns. However, existing mobility trajectory generation methods
-still require real-world human trajectories centrally collected as the training
-data, where there exists an inescapable risk of privacy leakage. To overcome
-this limitation, in this paper, we propose PateGail, a privacy-preserving
-imitation learning model to generate mobility trajectories, which utilizes the
-powerful generative adversary imitation learning model to simulate the
-decision-making process of humans. Further, in order to protect user privacy,
-we train this model collectively based on decentralized mobility data stored in
-user devices, where personal discriminators are trained locally to distinguish
-and reward the real and generated human trajectories. In the training process,
-only the generated trajectories and their rewards obtained based on personal
-discriminators are shared between the server and devices, whose privacy is
-further preserved by our proposed perturbation mechanisms with theoretical
-proof to satisfy differential privacy. Further, to better model the human
-decision-making process, we propose a novel aggregation mechanism of the
-rewards obtained from personal discriminators. We theoretically prove that
-under the reward obtained based on the aggregation mechanism, our proposed
-model maximizes the lower bound of the discounted total rewards of users.
-Extensive experiments show that the trajectories generated by our model are
-able to resemble real-world trajectories in terms of five key statistical
-metrics, outperforming state-of-the-art algorithms by over 48.03%. Furthermore,
-we demonstrate that the synthetic trajectories are able to efficiently support
-practical applications, including mobility prediction and location
-recommendation.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.16166v1">Robust Privacy Amidst Innovation with Large Language Models Through a
-  Critical Assessment of the Risks</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2024-07-23T04:20:14Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yao-Shun Chuang, Atiquer Rahman Sarkar, Noman Mohammed, Xiaoqian Jiang</p>
-    <p><b>Summary:</b> This study examines integrating EHRs and NLP with large language models
-(LLMs) to improve healthcare data management and patient care. It focuses on
-using advanced models to create secure, HIPAA-compliant synthetic patient notes
-for biomedical research. The study used de-identified and re-identified MIMIC
-III datasets with GPT-3.5, GPT-4, and Mistral 7B to generate synthetic notes.
-Text generation employed templates and keyword extraction for contextually
-relevant notes, with one-shot generation for comparison. Privacy assessment
-checked PHI occurrence, while text utility was tested using an ICD-9 coding
-task. Text quality was evaluated with ROUGE and cosine similarity metrics to
-measure semantic similarity with source notes. Analysis of PHI occurrence and
-text utility via the ICD-9 coding task showed that the keyword-based method had
-low risk and good performance. One-shot generation showed the highest PHI
-exposure and PHI co-occurrence, especially in geographic location and date
-categories. The Normalized One-shot method achieved the highest classification
-accuracy. Privacy analysis revealed a critical balance between data utility and
-privacy protection, influencing future data use and sharing. Re-identified data
-consistently outperformed de-identified data. This study demonstrates the
-effectiveness of keyword-based methods in generating privacy-protecting
-synthetic clinical notes that retain data usability, potentially transforming
-clinical data-sharing practices. The superior performance of re-identified over
-de-identified data suggests a shift towards methods that enhance utility and
-privacy by using dummy PHIs to perplex privacy attacks.</p>
   </details>
 </div>
 
