@@ -1,1 +1,400 @@
-[{"id":"http://arxiv.org/abs/2409.02614v1","title":"Evaluating the Effects of Digital Privacy Regulations on User Trust","summary":"In today's digital society, issues related to digital privacy have become\nincreasingly important. Issues such as data breaches result in misuse of data,\nfinancial loss, and cyberbullying, which leads to less user trust in digital\nservices. This research investigates the impact of digital privacy laws on user\ntrust by comparing the regulations in the Netherlands, Ghana, and Malaysia. The\nstudy employs a comparative case study method, involving interviews with\ndigital privacy law experts, IT educators, and consumers from each country. The\nmain findings reveal that while the General Data Protection Regulation (GDPR)\nin the Netherlands is strict, its practical impact is limited by enforcement\nchallenges. In Ghana, the Data Protection Act is underutilized due to low\npublic awareness and insufficient enforcement, leading to reliance on personal\nprotective measures. In Malaysia, trust in digital services is largely\ndependent on the security practices of individual platforms rather than the\nPersonal Data Protection Act. The study highlights the importance of public\nawareness, effective enforcement, and cultural considerations in shaping the\neffectiveness of digital privacy laws. Based on these insights, a\nrecommendation framework is proposed to enhance digital privacy practices, also\naiming to provide valuable guidance for policymakers, businesses, and citizens\nin navigating the challenges of digitalization.","updated":"2024-09-04T11:11:41Z","published":"2024-09-04T11:11:41Z","authors":[{"name":"Mehmet Berk Cetin"}],"categories":["cs.CY"]},{"id":"http://arxiv.org/abs/2409.02404v1","title":"Learning Privacy-Preserving Student Networks via\n  Discriminative-Generative Distillation","summary":"While deep models have proved successful in learning rich knowledge from\nmassive well-annotated data, they may pose a privacy leakage risk in practical\ndeployment. It is necessary to find an effective trade-off between high utility\nand strong privacy. In this work, we propose a discriminative-generative\ndistillation approach to learn privacy-preserving deep models. Our key idea is\ntaking models as bridge to distill knowledge from private data and then\ntransfer it to learn a student network via two streams. First, discriminative\nstream trains a baseline classifier on private data and an ensemble of teachers\non multiple disjoint private subsets, respectively. Then, generative stream\ntakes the classifier as a fixed discriminator and trains a generator in a\ndata-free manner. After that, the generator is used to generate massive\nsynthetic data which are further applied to train a variational autoencoder\n(VAE). Among these synthetic data, a few of them are fed into the teacher\nensemble to query labels via differentially private aggregation, while most of\nthem are embedded to the trained VAE for reconstructing synthetic data.\nFinally, a semi-supervised student learning is performed to simultaneously\nhandle two tasks: knowledge transfer from the teachers with distillation on few\nprivately labeled synthetic data, and knowledge enhancement with tangent-normal\nadversarial regularization on many triples of reconstructed synthetic data. In\nthis way, our approach can control query cost over private data and mitigate\naccuracy degradation in a unified manner, leading to a privacy-preserving\nstudent model. Extensive experiments and analysis clearly show the\neffectiveness of the proposed approach.","updated":"2024-09-04T03:06:13Z","published":"2024-09-04T03:06:13Z","authors":[{"name":"Shiming Ge"},{"name":"Bochao Liu"},{"name":"Pengju Wang"},{"name":"Yong Li"},{"name":"Dan Zeng"}],"categories":["cs.LG","cs.AI","cs.CR"]},{"id":"http://arxiv.org/abs/2409.02375v1","title":"How Privacy-Savvy Are Large Language Models? A Case Study on Compliance\n  and Privacy Technical Review","summary":"The recent advances in large language models (LLMs) have significantly\nexpanded their applications across various fields such as language generation,\nsummarization, and complex question answering. However, their application to\nprivacy compliance and technical privacy reviews remains under-explored,\nraising critical concerns about their ability to adhere to global privacy\nstandards and protect sensitive user data. This paper seeks to address this gap\nby providing a comprehensive case study evaluating LLMs' performance in\nprivacy-related tasks such as privacy information extraction (PIE), legal and\nregulatory key point detection (KPD), and question answering (QA) with respect\nto privacy policies and data protection regulations. We introduce a Privacy\nTechnical Review (PTR) framework, highlighting its role in mitigating privacy\nrisks during the software development life-cycle. Through an empirical\nassessment, we investigate the capacity of several prominent LLMs, including\nBERT, GPT-3.5, GPT-4, and custom models, in executing privacy compliance checks\nand technical privacy reviews. Our experiments benchmark the models across\nmultiple dimensions, focusing on their precision, recall, and F1-scores in\nextracting privacy-sensitive information and detecting key regulatory\ncompliance points. While LLMs show promise in automating privacy reviews and\nidentifying regulatory discrepancies, significant gaps persist in their ability\nto fully comply with evolving legal standards. We provide actionable\nrecommendations for enhancing LLMs' capabilities in privacy compliance,\nemphasizing the need for robust model improvements and better integration with\nlegal and regulatory requirements. This study underscores the growing\nimportance of developing privacy-aware LLMs that can both support businesses in\ncompliance efforts and safeguard user privacy rights.","updated":"2024-09-04T01:51:37Z","published":"2024-09-04T01:51:37Z","authors":[{"name":"Xichou Zhu"},{"name":"Yang Liu"},{"name":"Zhou Shen"},{"name":"Yi Liu"},{"name":"Min Li"},{"name":"Yujun Chen"},{"name":"Benzi John"},{"name":"Zhenzhen Ma"},{"name":"Tao Hu"},{"name":"Bolong Yang"},{"name":"Manman Wang"},{"name":"Zongxing Xie"},{"name":"Peng Liu"},{"name":"Dan Cai"},{"name":"Junhui Wang"}],"categories":["cs.CL"]},{"id":"http://arxiv.org/abs/2409.02364v1","title":"Examining Caregiving Roles to Differentiate the Effects of Using a\n  Mobile App for Community Oversight for Privacy and Security","summary":"We conducted a 4-week field study with 101 smartphone users who\nself-organized into 22 small groups of family, friends, and neighbors to use\n``CO-oPS,'' a mobile app for co-managing mobile privacy and security. We\ndifferentiated between those who provided oversight (i.e., caregivers) and\nthose who did not (i.e., caregivees) to examine differential effects on their\nexperiences and behaviors while using CO-oPS. Caregivers reported higher power\nuse, community trust, belonging, collective efficacy, and self-efficacy than\ncaregivees. Both groups' self-efficacy and collective efficacy for mobile\nprivacy and security increased after using CO-oPS. However, this increase was\nsignificantly stronger for caregivees. Our research demonstrates how\ncommunity-based approaches can benefit people who need additional help managing\ntheir digital privacy and security. We provide recommendations to support\ncommunity-based oversight for managing privacy and security within communities\nof different roles and skills.","updated":"2024-09-04T01:21:56Z","published":"2024-09-04T01:21:56Z","authors":[{"name":"Mamtaj Akter"},{"name":"Jess Kropczynski"},{"name":"Heather Lipford"},{"name":"Pamela Wisniewski"}],"categories":["cs.HC"]},{"id":"http://arxiv.org/abs/2409.02044v1","title":"FedMinds: Privacy-Preserving Personalized Brain Visual Decoding","summary":"Exploring the mysteries of the human brain is a long-term research topic in\nneuroscience. With the help of deep learning, decoding visual information from\nhuman brain activity fMRI has achieved promising performance. However, these\ndecoding models require centralized storage of fMRI data to conduct training,\nleading to potential privacy security issues. In this paper, we focus on\nprivacy preservation in multi-individual brain visual decoding. To this end, we\nintroduce a novel framework called FedMinds, which utilizes federated learning\nto protect individuals' privacy during model training. In addition, we deploy\nindividual adapters for each subject, thus allowing personalized visual\ndecoding. We conduct experiments on the authoritative NSD datasets to evaluate\nthe performance of the proposed framework. The results demonstrate that our\nframework achieves high-precision visual decoding along with privacy\nprotection.","updated":"2024-09-03T16:46:29Z","published":"2024-09-03T16:46:29Z","authors":[{"name":"Guangyin Bao"},{"name":"Duoqian Miao"}],"categories":["q-bio.NC","cs.CV","cs.DC","eess.IV"]},{"id":"http://arxiv.org/abs/2409.01924v1","title":"Privacy-Preserving and Post-Quantum Counter Denial of Service Framework\n  for Wireless Networks","summary":"As network services progress and mobile and IoT environments expand, numerous\nsecurity concerns have surfaced for spectrum access systems. The omnipresent\nrisk of Denial-of-Service (DoS) attacks and raising concerns about user privacy\n(e.g., location privacy, anonymity) are among such cyber threats. These\nsecurity and privacy risks increase due to the threat of quantum computers that\ncan compromise long-term security by circumventing conventional cryptosystems\nand increasing the cost of countermeasures. While some defense mechanisms exist\nagainst these threats in isolation, there is a significant gap in the state of\nthe art on a holistic solution against DoS attacks with privacy and anonymity\nfor spectrum management systems, especially when post-quantum (PQ) security is\nin mind. In this paper, we propose a new cybersecurity framework PACDoSQ, which\nis (to the best of our knowledge) the first to offer location privacy and\nanonymity for spectrum management with counter DoS and PQ security\nsimultaneously. Our solution introduces the private spectrum bastion (database)\nconcept to exploit existing architectural features of spectrum management\nsystems and then synergizes them with multi-server private information\nretrieval and PQ-secure Tor to guarantee a location-private and anonymous\nacquisition of spectrum information together with hash-based client-server\npuzzles for counter DoS. We prove that PACDoSQ achieves its security\nobjectives, and show its feasibility via a comprehensive performance\nevaluation.","updated":"2024-09-03T14:14:41Z","published":"2024-09-03T14:14:41Z","authors":[{"name":"Saleh Darzi"},{"name":"Attila Altay Yavuz"}],"categories":["cs.CR"]},{"id":"http://arxiv.org/abs/2409.01710v1","title":"Privacy-Preserving Multimedia Mobile Cloud Computing Using Protective\n  Perturbation","summary":"Mobile cloud computing has been adopted in many multimedia applications,\nwhere the resource-constrained mobile device sends multimedia data (e.g.,\nimages) to remote cloud servers to request computation-intensive multimedia\nservices (e.g., image recognition). While significantly improving the\nperformance of the mobile applications, the cloud-based mechanism often causes\nprivacy concerns as the multimedia data and services are offloaded from the\ntrusted user device to untrusted cloud servers. Several recent studies have\nproposed perturbation-based privacy preserving mechanisms, which obfuscate the\noffloaded multimedia data to eliminate privacy exposures without affecting the\nfunctionality of the remote multimedia services. However, the existing privacy\nprotection approaches require the deployment of computation-intensive\nperturbation generation on the resource-constrained mobile devices. Also, the\nobfuscated images are typically not compliant with the standard image\ncompression algorithms and suffer from significant bandwidth consumption. In\nthis paper, we develop a novel privacy-preserving multimedia mobile cloud\ncomputing framework, namely $PMC^2$, to address the resource and bandwidth\nchallenges. $PMC^2$ employs secure confidential computing in the cloud to\ndeploy the perturbation generator, which addresses the resource challenge while\nmaintaining the privacy. Furthermore, we develop a neural compressor\nspecifically trained to compress the perturbed images in order to address the\nbandwidth challenge. We implement $PMC^2$ in an end-to-end mobile cloud\ncomputing system, based on which our evaluations demonstrate superior latency,\npower efficiency, and bandwidth consumption achieved by $PMC^2$ while\nmaintaining high accuracy in the target multimedia service.","updated":"2024-09-03T08:47:17Z","published":"2024-09-03T08:47:17Z","authors":[{"name":"Zhongze Tang"},{"name":"Mengmei Ye"},{"name":"Yao Liu"},{"name":"Sheng Wei"}],"categories":["cs.MM"]},{"id":"http://arxiv.org/abs/2409.01661v1","title":"$S^2$NeRF: Privacy-preserving Training Framework for NeRF","summary":"Neural Radiance Fields (NeRF) have revolutionized 3D computer vision and\ngraphics, facilitating novel view synthesis and influencing sectors like\nextended reality and e-commerce. However, NeRF's dependence on extensive data\ncollection, including sensitive scene image data, introduces significant\nprivacy risks when users upload this data for model training. To address this\nconcern, we first propose SplitNeRF, a training framework that incorporates\nsplit learning (SL) techniques to enable privacy-preserving collaborative model\ntraining between clients and servers without sharing local data. Despite its\nbenefits, we identify vulnerabilities in SplitNeRF by developing two attack\nmethods, Surrogate Model Attack and Scene-aided Surrogate Model Attack, which\nexploit the shared gradient data and a few leaked scene images to reconstruct\nprivate scene information. To counter these threats, we introduce $S^2$NeRF,\nsecure SplitNeRF that integrates effective defense mechanisms. By introducing\ndecaying noise related to the gradient norm into the shared gradient\ninformation, $S^2$NeRF preserves privacy while maintaining a high utility of\nthe NeRF model. Our extensive evaluations across multiple datasets demonstrate\nthe effectiveness of $S^2$NeRF against privacy breaches, confirming its\nviability for secure NeRF training in sensitive applications.","updated":"2024-09-03T07:08:30Z","published":"2024-09-03T07:08:30Z","authors":[{"name":"Bokang Zhang"},{"name":"Yanglin Zhang"},{"name":"Zhikun Zhang"},{"name":"Jinglan Yang"},{"name":"Lingying Huang"},{"name":"Junfeng Wu"}],"categories":["cs.CR","cs.CV","cs.LG"]},{"id":"http://arxiv.org/abs/2409.01329v1","title":"Assessing the Impact of Image Dataset Features on Privacy-Preserving\n  Machine Learning","summary":"Machine Learning (ML) is crucial in many sectors, including computer vision.\nHowever, ML models trained on sensitive data face security challenges, as they\ncan be attacked and leak information. Privacy-Preserving Machine Learning\n(PPML) addresses this by using Differential Privacy (DP) to balance utility and\nprivacy. This study identifies image dataset characteristics that affect the\nutility and vulnerability of private and non-private Convolutional Neural\nNetwork (CNN) models. Through analyzing multiple datasets and privacy budgets,\nwe find that imbalanced datasets increase vulnerability in minority classes,\nbut DP mitigates this issue. Datasets with fewer classes improve both model\nutility and privacy, while high entropy or low Fisher Discriminant Ratio (FDR)\ndatasets deteriorate the utility-privacy trade-off. These insights offer\nvaluable guidance for practitioners and researchers in estimating and\noptimizing the utility-privacy trade-off in image datasets, helping to inform\ndata and privacy modifications for better outcomes based on dataset\ncharacteristics.","updated":"2024-09-02T15:30:27Z","published":"2024-09-02T15:30:27Z","authors":[{"name":"Lucas Lange"},{"name":"Maurice-Maximilian Heykeroth"},{"name":"Erhard Rahm"}],"categories":["cs.LG","cs.CR","cs.CV"]},{"id":"http://arxiv.org/abs/2409.01088v1","title":"Towards Split Learning-based Privacy-Preserving Record Linkage","summary":"Split Learning has been recently introduced to facilitate applications where\nuser data privacy is a requirement. However, it has not been thoroughly studied\nin the context of Privacy-Preserving Record Linkage, a problem in which the\nsame real-world entity should be identified among databases from different\ndataholders, but without disclosing any additional information. In this paper,\nwe investigate the potentials of Split Learning for Privacy-Preserving Record\nMatching, by introducing a novel training method through the utilization of\nReference Sets, which are publicly available data corpora, showcasing minimal\nmatching impact against a traditional centralized SVM-based technique.","updated":"2024-09-02T09:17:05Z","published":"2024-09-02T09:17:05Z","authors":[{"name":"Michail Zervas"},{"name":"Alexandros Karakasidis"}],"categories":["cs.CR","cs.DB","cs.LG"]},{"id":"http://arxiv.org/abs/2409.00974v1","title":"Enhancing Privacy in Federated Learning: Secure Aggregation for\n  Real-World Healthcare Applications","summary":"Deploying federated learning (FL) in real-world scenarios, particularly in\nhealthcare, poses challenges in communication and security. In particular, with\nrespect to the federated aggregation procedure, researchers have been focusing\non the study of secure aggregation (SA) schemes to provide privacy guarantees\nover the model's parameters transmitted by the clients. Nevertheless, the\npractical availability of SA in currently available FL frameworks is currently\nlimited, due to computational and communication bottlenecks. To fill this gap,\nthis study explores the implementation of SA within the open-source Fed-BioMed\nframework. We implement and compare two SA protocols, Joye-Libert (JL) and Low\nOverhead Masking (LOM), by providing extensive benchmarks in a panel of\nhealthcare data analysis problems. Our theoretical and experimental evaluations\non four datasets demonstrate that SA protocols effectively protect privacy\nwhile maintaining task accuracy. Computational overhead during training is less\nthan 1% on a CPU and less than 50% on a GPU for large models, with protection\nphases taking less than 10 seconds. Incorporating SA into Fed-BioMed impacts\ntask accuracy by no more than 2% compared to non-SA scenarios. Overall this\nstudy demonstrates the feasibility of SA in real-world healthcare applications\nand contributes in reducing the gap towards the adoption of privacy-preserving\ntechnologies in sensitive applications.","updated":"2024-09-02T06:43:22Z","published":"2024-09-02T06:43:22Z","authors":[{"name":"Riccardo Taiello"},{"name":"Sergen Cansiz"},{"name":"Marc Vesin"},{"name":"Francesco Cremonesi"},{"name":"Lucia Innocenti"},{"name":"Melek Önen"},{"name":"Marco Lorenzi"}],"categories":["cs.CR","cs.AI"]},{"id":"http://arxiv.org/abs/2409.00740v1","title":"VPVet: Vetting Privacy Policies of Virtual Reality Apps","summary":"Virtual reality (VR) apps can harvest a wider range of user data than\nweb/mobile apps running on personal computers or smartphones. Existing law and\nprivacy regulations emphasize that VR developers should inform users of what\ndata are collected/used/shared (CUS) through privacy policies. However, privacy\npolicies in the VR ecosystem are still in their early stages, and many\ndevelopers fail to write appropriate privacy policies that comply with\nregulations and meet user expectations. In this paper, we propose VPVet to\nautomatically vet privacy policy compliance issues for VR apps. VPVet first\nanalyzes the availability and completeness of a VR privacy policy and then\nrefines its analysis based on three key criteria: granularity, minimization,\nand consistency of CUS statements. Our study establishes the first and\ncurrently largest VR privacy policy dataset named VRPP, consisting of privacy\npolicies of 11,923 different VR apps from 10 mainstream platforms. Our vetting\nresults reveal severe privacy issues within the VR ecosystem, including the\nlimited availability and poor quality of privacy policies, along with their\ncoarse granularity, lack of adaptation to VR traits and the inconsistency\nbetween CUS statements in privacy policies and their actual behaviors. We\nopen-source VPVet system along with our findings at repository\nhttps://github.com/kalamoo/PPAudit, aiming to raise awareness within the VR\ncommunity and pave the way for further research in this field.","updated":"2024-09-01T15:07:11Z","published":"2024-09-01T15:07:11Z","authors":[{"name":"Yuxia Zhan"},{"name":"Yan Meng"},{"name":"Lu Zhou"},{"name":"Yichang Xiong"},{"name":"Xiaokuan Zhang"},{"name":"Lichuan Ma"},{"name":"Guoxing Chen"},{"name":"Qingqi Pei"},{"name":"Haojin Zhu"}],"categories":["cs.CR"]},{"id":"http://arxiv.org/abs/2409.00739v1","title":"Designing and Evaluating Scalable Privacy Awareness and Control User\n  Interfaces for Mixed Reality","summary":"As Mixed Reality (MR) devices become increasingly popular across industries,\nthey raise significant privacy and ethical concerns due to their capacity to\ncollect extensive data on users and their environments. This paper highlights\nthe urgent need for privacy-aware user interfaces that educate and empower both\nusers and bystanders, enabling them to understand, control, and manage data\ncollection and sharing. Key research questions include improving user awareness\nof privacy implications, developing usable privacy controls, and evaluating the\neffectiveness of these measures in real-world settings. The proposed research\nroadmap aims to embed privacy considerations into the design and development of\nMR technologies, promoting responsible innovation that safeguards user privacy\nwhile preserving the functionality and appeal of these emerging technologies.","updated":"2024-09-01T15:06:40Z","published":"2024-09-01T15:06:40Z","authors":[{"name":"Marvin Strauss"},{"name":"Viktorija Paneva"},{"name":"Florian Alt"},{"name":"Stefan Schneegass"}],"categories":["cs.HC"]},{"id":"http://arxiv.org/abs/2409.02715v1","title":"Recoverable Anonymization for Pose Estimation: A Privacy-Enhancing\n  Approach","summary":"Human pose estimation (HPE) is crucial for various applications. However,\ndeploying HPE algorithms in surveillance contexts raises significant privacy\nconcerns due to the potential leakage of sensitive personal information (SPI)\nsuch as facial features, and ethnicity. Existing privacy-enhancing methods\noften compromise either privacy or performance, or they require costly\nadditional modalities. We propose a novel privacy-enhancing system that\ngenerates privacy-enhanced portraits while maintaining high HPE performance.\nOur key innovations include the reversible recovery of SPI for authorized\npersonnel and the preservation of contextual information. By jointly optimizing\na privacy-enhancing module, a privacy recovery module, and a pose estimator,\nour system ensures robust privacy protection, efficient SPI recovery, and\nhigh-performance HPE. Experimental results demonstrate the system's robust\nperformance in privacy enhancement, SPI recovery, and HPE.","updated":"2024-09-01T05:58:00Z","published":"2024-09-01T05:58:00Z","authors":[{"name":"Wenjun Huang"},{"name":"Yang Ni"},{"name":"Arghavan Rezvani"},{"name":"SungHeon Jeong"},{"name":"Hanning Chen"},{"name":"Yezi Liu"},{"name":"Fei Wen"},{"name":"Mohsen Imani"}],"categories":["cs.CV","cs.CR","cs.LG"]}]
+[
+  {
+    "id" : "http://arxiv.org/abs/2409.02614v1",
+    "title" : "Evaluating the Effects of Digital Privacy Regulations on User Trust",
+    "summary" : "In today's digital society, issues related to digital privacy have become\nincreasingly important. Issues such as data breaches result in misuse of data,\nfinancial loss, and cyberbullying, which leads to less user trust in digital\nservices. This research investigates the impact of digital privacy laws on user\ntrust by comparing the regulations in the Netherlands, Ghana, and Malaysia. The\nstudy employs a comparative case study method, involving interviews with\ndigital privacy law experts, IT educators, and consumers from each country. The\nmain findings reveal that while the General Data Protection Regulation (GDPR)\nin the Netherlands is strict, its practical impact is limited by enforcement\nchallenges. In Ghana, the Data Protection Act is underutilized due to low\npublic awareness and insufficient enforcement, leading to reliance on personal\nprotective measures. In Malaysia, trust in digital services is largely\ndependent on the security practices of individual platforms rather than the\nPersonal Data Protection Act. The study highlights the importance of public\nawareness, effective enforcement, and cultural considerations in shaping the\neffectiveness of digital privacy laws. Based on these insights, a\nrecommendation framework is proposed to enhance digital privacy practices, also\naiming to provide valuable guidance for policymakers, businesses, and citizens\nin navigating the challenges of digitalization.",
+    "updated" : "2024-09-04T11:11:41Z",
+    "published" : "2024-09-04T11:11:41Z",
+    "authors" : [
+      {
+        "name" : "Mehmet Berk Cetin"
+      }
+    ],
+    "categories" : [
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.02404v1",
+    "title" : "Learning Privacy-Preserving Student Networks via\n  Discriminative-Generative Distillation",
+    "summary" : "While deep models have proved successful in learning rich knowledge from\nmassive well-annotated data, they may pose a privacy leakage risk in practical\ndeployment. It is necessary to find an effective trade-off between high utility\nand strong privacy. In this work, we propose a discriminative-generative\ndistillation approach to learn privacy-preserving deep models. Our key idea is\ntaking models as bridge to distill knowledge from private data and then\ntransfer it to learn a student network via two streams. First, discriminative\nstream trains a baseline classifier on private data and an ensemble of teachers\non multiple disjoint private subsets, respectively. Then, generative stream\ntakes the classifier as a fixed discriminator and trains a generator in a\ndata-free manner. After that, the generator is used to generate massive\nsynthetic data which are further applied to train a variational autoencoder\n(VAE). Among these synthetic data, a few of them are fed into the teacher\nensemble to query labels via differentially private aggregation, while most of\nthem are embedded to the trained VAE for reconstructing synthetic data.\nFinally, a semi-supervised student learning is performed to simultaneously\nhandle two tasks: knowledge transfer from the teachers with distillation on few\nprivately labeled synthetic data, and knowledge enhancement with tangent-normal\nadversarial regularization on many triples of reconstructed synthetic data. In\nthis way, our approach can control query cost over private data and mitigate\naccuracy degradation in a unified manner, leading to a privacy-preserving\nstudent model. Extensive experiments and analysis clearly show the\neffectiveness of the proposed approach.",
+    "updated" : "2024-09-04T03:06:13Z",
+    "published" : "2024-09-04T03:06:13Z",
+    "authors" : [
+      {
+        "name" : "Shiming Ge"
+      },
+      {
+        "name" : "Bochao Liu"
+      },
+      {
+        "name" : "Pengju Wang"
+      },
+      {
+        "name" : "Yong Li"
+      },
+      {
+        "name" : "Dan Zeng"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.02375v1",
+    "title" : "How Privacy-Savvy Are Large Language Models? A Case Study on Compliance\n  and Privacy Technical Review",
+    "summary" : "The recent advances in large language models (LLMs) have significantly\nexpanded their applications across various fields such as language generation,\nsummarization, and complex question answering. However, their application to\nprivacy compliance and technical privacy reviews remains under-explored,\nraising critical concerns about their ability to adhere to global privacy\nstandards and protect sensitive user data. This paper seeks to address this gap\nby providing a comprehensive case study evaluating LLMs' performance in\nprivacy-related tasks such as privacy information extraction (PIE), legal and\nregulatory key point detection (KPD), and question answering (QA) with respect\nto privacy policies and data protection regulations. We introduce a Privacy\nTechnical Review (PTR) framework, highlighting its role in mitigating privacy\nrisks during the software development life-cycle. Through an empirical\nassessment, we investigate the capacity of several prominent LLMs, including\nBERT, GPT-3.5, GPT-4, and custom models, in executing privacy compliance checks\nand technical privacy reviews. Our experiments benchmark the models across\nmultiple dimensions, focusing on their precision, recall, and F1-scores in\nextracting privacy-sensitive information and detecting key regulatory\ncompliance points. While LLMs show promise in automating privacy reviews and\nidentifying regulatory discrepancies, significant gaps persist in their ability\nto fully comply with evolving legal standards. We provide actionable\nrecommendations for enhancing LLMs' capabilities in privacy compliance,\nemphasizing the need for robust model improvements and better integration with\nlegal and regulatory requirements. This study underscores the growing\nimportance of developing privacy-aware LLMs that can both support businesses in\ncompliance efforts and safeguard user privacy rights.",
+    "updated" : "2024-09-04T01:51:37Z",
+    "published" : "2024-09-04T01:51:37Z",
+    "authors" : [
+      {
+        "name" : "Xichou Zhu"
+      },
+      {
+        "name" : "Yang Liu"
+      },
+      {
+        "name" : "Zhou Shen"
+      },
+      {
+        "name" : "Yi Liu"
+      },
+      {
+        "name" : "Min Li"
+      },
+      {
+        "name" : "Yujun Chen"
+      },
+      {
+        "name" : "Benzi John"
+      },
+      {
+        "name" : "Zhenzhen Ma"
+      },
+      {
+        "name" : "Tao Hu"
+      },
+      {
+        "name" : "Bolong Yang"
+      },
+      {
+        "name" : "Manman Wang"
+      },
+      {
+        "name" : "Zongxing Xie"
+      },
+      {
+        "name" : "Peng Liu"
+      },
+      {
+        "name" : "Dan Cai"
+      },
+      {
+        "name" : "Junhui Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.02364v1",
+    "title" : "Examining Caregiving Roles to Differentiate the Effects of Using a\n  Mobile App for Community Oversight for Privacy and Security",
+    "summary" : "We conducted a 4-week field study with 101 smartphone users who\nself-organized into 22 small groups of family, friends, and neighbors to use\n``CO-oPS,'' a mobile app for co-managing mobile privacy and security. We\ndifferentiated between those who provided oversight (i.e., caregivers) and\nthose who did not (i.e., caregivees) to examine differential effects on their\nexperiences and behaviors while using CO-oPS. Caregivers reported higher power\nuse, community trust, belonging, collective efficacy, and self-efficacy than\ncaregivees. Both groups' self-efficacy and collective efficacy for mobile\nprivacy and security increased after using CO-oPS. However, this increase was\nsignificantly stronger for caregivees. Our research demonstrates how\ncommunity-based approaches can benefit people who need additional help managing\ntheir digital privacy and security. We provide recommendations to support\ncommunity-based oversight for managing privacy and security within communities\nof different roles and skills.",
+    "updated" : "2024-09-04T01:21:56Z",
+    "published" : "2024-09-04T01:21:56Z",
+    "authors" : [
+      {
+        "name" : "Mamtaj Akter"
+      },
+      {
+        "name" : "Jess Kropczynski"
+      },
+      {
+        "name" : "Heather Lipford"
+      },
+      {
+        "name" : "Pamela Wisniewski"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.02044v1",
+    "title" : "FedMinds: Privacy-Preserving Personalized Brain Visual Decoding",
+    "summary" : "Exploring the mysteries of the human brain is a long-term research topic in\nneuroscience. With the help of deep learning, decoding visual information from\nhuman brain activity fMRI has achieved promising performance. However, these\ndecoding models require centralized storage of fMRI data to conduct training,\nleading to potential privacy security issues. In this paper, we focus on\nprivacy preservation in multi-individual brain visual decoding. To this end, we\nintroduce a novel framework called FedMinds, which utilizes federated learning\nto protect individuals' privacy during model training. In addition, we deploy\nindividual adapters for each subject, thus allowing personalized visual\ndecoding. We conduct experiments on the authoritative NSD datasets to evaluate\nthe performance of the proposed framework. The results demonstrate that our\nframework achieves high-precision visual decoding along with privacy\nprotection.",
+    "updated" : "2024-09-03T16:46:29Z",
+    "published" : "2024-09-03T16:46:29Z",
+    "authors" : [
+      {
+        "name" : "Guangyin Bao"
+      },
+      {
+        "name" : "Duoqian Miao"
+      }
+    ],
+    "categories" : [
+      "q-bio.NC",
+      "cs.CV",
+      "cs.DC",
+      "eess.IV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.01924v1",
+    "title" : "Privacy-Preserving and Post-Quantum Counter Denial of Service Framework\n  for Wireless Networks",
+    "summary" : "As network services progress and mobile and IoT environments expand, numerous\nsecurity concerns have surfaced for spectrum access systems. The omnipresent\nrisk of Denial-of-Service (DoS) attacks and raising concerns about user privacy\n(e.g., location privacy, anonymity) are among such cyber threats. These\nsecurity and privacy risks increase due to the threat of quantum computers that\ncan compromise long-term security by circumventing conventional cryptosystems\nand increasing the cost of countermeasures. While some defense mechanisms exist\nagainst these threats in isolation, there is a significant gap in the state of\nthe art on a holistic solution against DoS attacks with privacy and anonymity\nfor spectrum management systems, especially when post-quantum (PQ) security is\nin mind. In this paper, we propose a new cybersecurity framework PACDoSQ, which\nis (to the best of our knowledge) the first to offer location privacy and\nanonymity for spectrum management with counter DoS and PQ security\nsimultaneously. Our solution introduces the private spectrum bastion (database)\nconcept to exploit existing architectural features of spectrum management\nsystems and then synergizes them with multi-server private information\nretrieval and PQ-secure Tor to guarantee a location-private and anonymous\nacquisition of spectrum information together with hash-based client-server\npuzzles for counter DoS. We prove that PACDoSQ achieves its security\nobjectives, and show its feasibility via a comprehensive performance\nevaluation.",
+    "updated" : "2024-09-03T14:14:41Z",
+    "published" : "2024-09-03T14:14:41Z",
+    "authors" : [
+      {
+        "name" : "Saleh Darzi"
+      },
+      {
+        "name" : "Attila Altay Yavuz"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.01710v1",
+    "title" : "Privacy-Preserving Multimedia Mobile Cloud Computing Using Protective\n  Perturbation",
+    "summary" : "Mobile cloud computing has been adopted in many multimedia applications,\nwhere the resource-constrained mobile device sends multimedia data (e.g.,\nimages) to remote cloud servers to request computation-intensive multimedia\nservices (e.g., image recognition). While significantly improving the\nperformance of the mobile applications, the cloud-based mechanism often causes\nprivacy concerns as the multimedia data and services are offloaded from the\ntrusted user device to untrusted cloud servers. Several recent studies have\nproposed perturbation-based privacy preserving mechanisms, which obfuscate the\noffloaded multimedia data to eliminate privacy exposures without affecting the\nfunctionality of the remote multimedia services. However, the existing privacy\nprotection approaches require the deployment of computation-intensive\nperturbation generation on the resource-constrained mobile devices. Also, the\nobfuscated images are typically not compliant with the standard image\ncompression algorithms and suffer from significant bandwidth consumption. In\nthis paper, we develop a novel privacy-preserving multimedia mobile cloud\ncomputing framework, namely $PMC^2$, to address the resource and bandwidth\nchallenges. $PMC^2$ employs secure confidential computing in the cloud to\ndeploy the perturbation generator, which addresses the resource challenge while\nmaintaining the privacy. Furthermore, we develop a neural compressor\nspecifically trained to compress the perturbed images in order to address the\nbandwidth challenge. We implement $PMC^2$ in an end-to-end mobile cloud\ncomputing system, based on which our evaluations demonstrate superior latency,\npower efficiency, and bandwidth consumption achieved by $PMC^2$ while\nmaintaining high accuracy in the target multimedia service.",
+    "updated" : "2024-09-03T08:47:17Z",
+    "published" : "2024-09-03T08:47:17Z",
+    "authors" : [
+      {
+        "name" : "Zhongze Tang"
+      },
+      {
+        "name" : "Mengmei Ye"
+      },
+      {
+        "name" : "Yao Liu"
+      },
+      {
+        "name" : "Sheng Wei"
+      }
+    ],
+    "categories" : [
+      "cs.MM"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.01661v1",
+    "title" : "$S^2$NeRF: Privacy-preserving Training Framework for NeRF",
+    "summary" : "Neural Radiance Fields (NeRF) have revolutionized 3D computer vision and\ngraphics, facilitating novel view synthesis and influencing sectors like\nextended reality and e-commerce. However, NeRF's dependence on extensive data\ncollection, including sensitive scene image data, introduces significant\nprivacy risks when users upload this data for model training. To address this\nconcern, we first propose SplitNeRF, a training framework that incorporates\nsplit learning (SL) techniques to enable privacy-preserving collaborative model\ntraining between clients and servers without sharing local data. Despite its\nbenefits, we identify vulnerabilities in SplitNeRF by developing two attack\nmethods, Surrogate Model Attack and Scene-aided Surrogate Model Attack, which\nexploit the shared gradient data and a few leaked scene images to reconstruct\nprivate scene information. To counter these threats, we introduce $S^2$NeRF,\nsecure SplitNeRF that integrates effective defense mechanisms. By introducing\ndecaying noise related to the gradient norm into the shared gradient\ninformation, $S^2$NeRF preserves privacy while maintaining a high utility of\nthe NeRF model. Our extensive evaluations across multiple datasets demonstrate\nthe effectiveness of $S^2$NeRF against privacy breaches, confirming its\nviability for secure NeRF training in sensitive applications.",
+    "updated" : "2024-09-03T07:08:30Z",
+    "published" : "2024-09-03T07:08:30Z",
+    "authors" : [
+      {
+        "name" : "Bokang Zhang"
+      },
+      {
+        "name" : "Yanglin Zhang"
+      },
+      {
+        "name" : "Zhikun Zhang"
+      },
+      {
+        "name" : "Jinglan Yang"
+      },
+      {
+        "name" : "Lingying Huang"
+      },
+      {
+        "name" : "Junfeng Wu"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CV",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.01329v1",
+    "title" : "Assessing the Impact of Image Dataset Features on Privacy-Preserving\n  Machine Learning",
+    "summary" : "Machine Learning (ML) is crucial in many sectors, including computer vision.\nHowever, ML models trained on sensitive data face security challenges, as they\ncan be attacked and leak information. Privacy-Preserving Machine Learning\n(PPML) addresses this by using Differential Privacy (DP) to balance utility and\nprivacy. This study identifies image dataset characteristics that affect the\nutility and vulnerability of private and non-private Convolutional Neural\nNetwork (CNN) models. Through analyzing multiple datasets and privacy budgets,\nwe find that imbalanced datasets increase vulnerability in minority classes,\nbut DP mitigates this issue. Datasets with fewer classes improve both model\nutility and privacy, while high entropy or low Fisher Discriminant Ratio (FDR)\ndatasets deteriorate the utility-privacy trade-off. These insights offer\nvaluable guidance for practitioners and researchers in estimating and\noptimizing the utility-privacy trade-off in image datasets, helping to inform\ndata and privacy modifications for better outcomes based on dataset\ncharacteristics.",
+    "updated" : "2024-09-02T15:30:27Z",
+    "published" : "2024-09-02T15:30:27Z",
+    "authors" : [
+      {
+        "name" : "Lucas Lange"
+      },
+      {
+        "name" : "Maurice-Maximilian Heykeroth"
+      },
+      {
+        "name" : "Erhard Rahm"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.01088v1",
+    "title" : "Towards Split Learning-based Privacy-Preserving Record Linkage",
+    "summary" : "Split Learning has been recently introduced to facilitate applications where\nuser data privacy is a requirement. However, it has not been thoroughly studied\nin the context of Privacy-Preserving Record Linkage, a problem in which the\nsame real-world entity should be identified among databases from different\ndataholders, but without disclosing any additional information. In this paper,\nwe investigate the potentials of Split Learning for Privacy-Preserving Record\nMatching, by introducing a novel training method through the utilization of\nReference Sets, which are publicly available data corpora, showcasing minimal\nmatching impact against a traditional centralized SVM-based technique.",
+    "updated" : "2024-09-02T09:17:05Z",
+    "published" : "2024-09-02T09:17:05Z",
+    "authors" : [
+      {
+        "name" : "Michail Zervas"
+      },
+      {
+        "name" : "Alexandros Karakasidis"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DB",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.00974v1",
+    "title" : "Enhancing Privacy in Federated Learning: Secure Aggregation for\n  Real-World Healthcare Applications",
+    "summary" : "Deploying federated learning (FL) in real-world scenarios, particularly in\nhealthcare, poses challenges in communication and security. In particular, with\nrespect to the federated aggregation procedure, researchers have been focusing\non the study of secure aggregation (SA) schemes to provide privacy guarantees\nover the model's parameters transmitted by the clients. Nevertheless, the\npractical availability of SA in currently available FL frameworks is currently\nlimited, due to computational and communication bottlenecks. To fill this gap,\nthis study explores the implementation of SA within the open-source Fed-BioMed\nframework. We implement and compare two SA protocols, Joye-Libert (JL) and Low\nOverhead Masking (LOM), by providing extensive benchmarks in a panel of\nhealthcare data analysis problems. Our theoretical and experimental evaluations\non four datasets demonstrate that SA protocols effectively protect privacy\nwhile maintaining task accuracy. Computational overhead during training is less\nthan 1% on a CPU and less than 50% on a GPU for large models, with protection\nphases taking less than 10 seconds. Incorporating SA into Fed-BioMed impacts\ntask accuracy by no more than 2% compared to non-SA scenarios. Overall this\nstudy demonstrates the feasibility of SA in real-world healthcare applications\nand contributes in reducing the gap towards the adoption of privacy-preserving\ntechnologies in sensitive applications.",
+    "updated" : "2024-09-02T06:43:22Z",
+    "published" : "2024-09-02T06:43:22Z",
+    "authors" : [
+      {
+        "name" : "Riccardo Taiello"
+      },
+      {
+        "name" : "Sergen Cansiz"
+      },
+      {
+        "name" : "Marc Vesin"
+      },
+      {
+        "name" : "Francesco Cremonesi"
+      },
+      {
+        "name" : "Lucia Innocenti"
+      },
+      {
+        "name" : "Melek Önen"
+      },
+      {
+        "name" : "Marco Lorenzi"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.00740v1",
+    "title" : "VPVet: Vetting Privacy Policies of Virtual Reality Apps",
+    "summary" : "Virtual reality (VR) apps can harvest a wider range of user data than\nweb/mobile apps running on personal computers or smartphones. Existing law and\nprivacy regulations emphasize that VR developers should inform users of what\ndata are collected/used/shared (CUS) through privacy policies. However, privacy\npolicies in the VR ecosystem are still in their early stages, and many\ndevelopers fail to write appropriate privacy policies that comply with\nregulations and meet user expectations. In this paper, we propose VPVet to\nautomatically vet privacy policy compliance issues for VR apps. VPVet first\nanalyzes the availability and completeness of a VR privacy policy and then\nrefines its analysis based on three key criteria: granularity, minimization,\nand consistency of CUS statements. Our study establishes the first and\ncurrently largest VR privacy policy dataset named VRPP, consisting of privacy\npolicies of 11,923 different VR apps from 10 mainstream platforms. Our vetting\nresults reveal severe privacy issues within the VR ecosystem, including the\nlimited availability and poor quality of privacy policies, along with their\ncoarse granularity, lack of adaptation to VR traits and the inconsistency\nbetween CUS statements in privacy policies and their actual behaviors. We\nopen-source VPVet system along with our findings at repository\nhttps://github.com/kalamoo/PPAudit, aiming to raise awareness within the VR\ncommunity and pave the way for further research in this field.",
+    "updated" : "2024-09-01T15:07:11Z",
+    "published" : "2024-09-01T15:07:11Z",
+    "authors" : [
+      {
+        "name" : "Yuxia Zhan"
+      },
+      {
+        "name" : "Yan Meng"
+      },
+      {
+        "name" : "Lu Zhou"
+      },
+      {
+        "name" : "Yichang Xiong"
+      },
+      {
+        "name" : "Xiaokuan Zhang"
+      },
+      {
+        "name" : "Lichuan Ma"
+      },
+      {
+        "name" : "Guoxing Chen"
+      },
+      {
+        "name" : "Qingqi Pei"
+      },
+      {
+        "name" : "Haojin Zhu"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.00739v1",
+    "title" : "Designing and Evaluating Scalable Privacy Awareness and Control User\n  Interfaces for Mixed Reality",
+    "summary" : "As Mixed Reality (MR) devices become increasingly popular across industries,\nthey raise significant privacy and ethical concerns due to their capacity to\ncollect extensive data on users and their environments. This paper highlights\nthe urgent need for privacy-aware user interfaces that educate and empower both\nusers and bystanders, enabling them to understand, control, and manage data\ncollection and sharing. Key research questions include improving user awareness\nof privacy implications, developing usable privacy controls, and evaluating the\neffectiveness of these measures in real-world settings. The proposed research\nroadmap aims to embed privacy considerations into the design and development of\nMR technologies, promoting responsible innovation that safeguards user privacy\nwhile preserving the functionality and appeal of these emerging technologies.",
+    "updated" : "2024-09-01T15:06:40Z",
+    "published" : "2024-09-01T15:06:40Z",
+    "authors" : [
+      {
+        "name" : "Marvin Strauss"
+      },
+      {
+        "name" : "Viktorija Paneva"
+      },
+      {
+        "name" : "Florian Alt"
+      },
+      {
+        "name" : "Stefan Schneegass"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.02715v1",
+    "title" : "Recoverable Anonymization for Pose Estimation: A Privacy-Enhancing\n  Approach",
+    "summary" : "Human pose estimation (HPE) is crucial for various applications. However,\ndeploying HPE algorithms in surveillance contexts raises significant privacy\nconcerns due to the potential leakage of sensitive personal information (SPI)\nsuch as facial features, and ethnicity. Existing privacy-enhancing methods\noften compromise either privacy or performance, or they require costly\nadditional modalities. We propose a novel privacy-enhancing system that\ngenerates privacy-enhanced portraits while maintaining high HPE performance.\nOur key innovations include the reversible recovery of SPI for authorized\npersonnel and the preservation of contextual information. By jointly optimizing\na privacy-enhancing module, a privacy recovery module, and a pose estimator,\nour system ensures robust privacy protection, efficient SPI recovery, and\nhigh-performance HPE. Experimental results demonstrate the system's robust\nperformance in privacy enhancement, SPI recovery, and HPE.",
+    "updated" : "2024-09-01T05:58:00Z",
+    "published" : "2024-09-01T05:58:00Z",
+    "authors" : [
+      {
+        "name" : "Wenjun Huang"
+      },
+      {
+        "name" : "Yang Ni"
+      },
+      {
+        "name" : "Arghavan Rezvani"
+      },
+      {
+        "name" : "SungHeon Jeong"
+      },
+      {
+        "name" : "Hanning Chen"
+      },
+      {
+        "name" : "Yezi Liu"
+      },
+      {
+        "name" : "Fei Wen"
+      },
+      {
+        "name" : "Mohsen Imani"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.CR",
+      "cs.LG"
+    ]
+  }
+]
