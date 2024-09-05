@@ -2544,5 +2544,83 @@
       "cs.CR",
       "stat.ML"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.00327v1",
+    "title" : "Demo: FedCampus: A Real-world Privacy-preserving Mobile Application for\n  Smart Campus via Federated Learning & Analytics",
+    "summary" : "In this demo, we introduce FedCampus, a privacy-preserving mobile application\nfor smart \\underline{campus} with \\underline{fed}erated learning (FL) and\nfederated analytics (FA). FedCampus enables cross-platform on-device FL/FA for\nboth iOS and Android, supporting continuously models and algorithms deployment\n(MLOps). Our app integrates privacy-preserving processed data via differential\nprivacy (DP) from smartwatches, where the processed parameters are used for\nFL/FA through the FedCampus backend platform. We distributed 100 smartwatches\nto volunteers at Duke Kunshan University and have successfully completed a\nseries of smart campus tasks featuring capabilities such as sleep tracking,\nphysical activity monitoring, personalized recommendations, and heavy hitters.\nOur project is opensourced at https://github.com/FedCampus/FedCampus_Flutter.\nSee the FedCampus video at https://youtu.be/k5iu46IjA38.",
+    "updated" : "2024-08-31T01:58:36Z",
+    "published" : "2024-08-31T01:58:36Z",
+    "authors" : [
+      {
+        "name" : "Jiaxiang Geng"
+      },
+      {
+        "name" : "Beilong Tang"
+      },
+      {
+        "name" : "Boyan Zhang"
+      },
+      {
+        "name" : "Jiaqi Shao"
+      },
+      {
+        "name" : "Bing Luo"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.00138v1",
+    "title" : "PrivacyLens: Evaluating Privacy Norm Awareness of Language Models in\n  Action",
+    "summary" : "As language models (LMs) are widely utilized in personalized communication\nscenarios (e.g., sending emails, writing social media posts) and endowed with a\ncertain level of agency, ensuring they act in accordance with the contextual\nprivacy norms becomes increasingly critical. However, quantifying the privacy\nnorm awareness of LMs and the emerging privacy risk in LM-mediated\ncommunication is challenging due to (1) the contextual and long-tailed nature\nof privacy-sensitive cases, and (2) the lack of evaluation approaches that\ncapture realistic application scenarios. To address these challenges, we\npropose PrivacyLens, a novel framework designed to extend privacy-sensitive\nseeds into expressive vignettes and further into agent trajectories, enabling\nmulti-level evaluation of privacy leakage in LM agents' actions. We instantiate\nPrivacyLens with a collection of privacy norms grounded in privacy literature\nand crowdsourced seeds. Using this dataset, we reveal a discrepancy between LM\nperformance in answering probing questions and their actual behavior when\nexecuting user instructions in an agent setup. State-of-the-art LMs, like GPT-4\nand Llama-3-70B, leak sensitive information in 25.68% and 38.69% of cases, even\nwhen prompted with privacy-enhancing instructions. We also demonstrate the\ndynamic nature of PrivacyLens by extending each seed into multiple trajectories\nto red-team LM privacy leakage risk. Dataset and code are available at\nhttps://github.com/SALT-NLP/PrivacyLens.",
+    "updated" : "2024-08-29T17:58:38Z",
+    "published" : "2024-08-29T17:58:38Z",
+    "authors" : [
+      {
+        "name" : "Yijia Shao"
+      },
+      {
+        "name" : "Tianshi Li"
+      },
+      {
+        "name" : "Weiyan Shi"
+      },
+      {
+        "name" : "Yanchen Liu"
+      },
+      {
+        "name" : "Diyi Yang"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.AI",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2408.04888v2",
+    "title" : "Locally Private Histograms in All Privacy Regimes",
+    "summary" : "Frequency estimation, a.k.a. histograms, is a workhorse of data analysis, and\nas such has been thoroughly studied under differentially privacy. In\nparticular, computing histograms in the \\emph{local} model of privacy has been\nthe focus of a fruitful recent line of work, and various algorithms have been\nproposed, achieving the order-optimal $\\ell_\\infty$ error in the high-privacy\n(small $\\varepsilon$) regime while balancing other considerations such as time-\nand communication-efficiency. However, to the best of our knowledge, the\npicture is much less clear when it comes to the medium- or low-privacy regime\n(large $\\varepsilon$), despite its increased relevance in practice. In this\npaper, we investigate locally private histograms, and the very related\ndistribution learning task, in this medium-to-low privacy regime, and establish\nnear-tight (and somewhat unexpected) bounds on the $\\ell_\\infty$ error\nachievable. As a direct corollary of our results, we obtain a protocol for\nhistograms in the \\emph{shuffle} model of differential privacy, with accuracy\nmatching previous algorithms but significantly better message and communication\ncomplexity.\n  Our theoretical findings emerge from a novel analysis, which appears to\nimprove bounds across the board for the locally private histogram problem. We\nback our theoretical findings by an empirical comparison of existing algorithms\nin all privacy regimes, to assess their typical performance and behaviour\nbeyond the worst-case setting.",
+    "updated" : "2024-09-04T07:12:41Z",
+    "published" : "2024-08-09T06:22:45Z",
+    "authors" : [
+      {
+        "name" : "Clément L. Canonne"
+      },
+      {
+        "name" : "Abigail Gentle"
+      }
+    ],
+    "categories" : [
+      "cs.DS",
+      "cs.CR",
+      "cs.DM"
+    ]
   }
 ]
