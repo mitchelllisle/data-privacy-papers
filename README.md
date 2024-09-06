@@ -352,7 +352,7 @@ R$\acute{\text{e}}$nyi-DP (RDP).</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2408.15391v1">Examining the Interplay Between Privacy and Fairness for Speech
+  <h3><a href="http://arxiv.org/abs/2408.15391v2">Examining the Interplay Between Privacy and Fairness for Speech
   Processing: A Review and Perspective</a></h3>
    <img alt="Category Badge" src="https://img.shields.io/badge/Sound-D91E36">
   <p><b>Published on:</b> 2024-08-27T20:32:01Z</p>
@@ -998,7 +998,7 @@ privacy and reducing the success rate of membership inference attacks.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2408.10468v3">Tracing Privacy Leakage of Language Models to Training Data via Adjusted
+  <h3><a href="http://arxiv.org/abs/2408.10468v4">Tracing Privacy Leakage of Language Models to Training Data via Adjusted
   Influence Functions</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2024-08-20T00:40:49Z</p>
@@ -2348,179 +2348,180 @@ methods.</p>
 
 
 
-<h2>2024-07</h2>
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.21691v1">Explainable Artificial Intelligence for Quantifying Interfering and
-  High-Risk Behaviors in Autism Spectrum Disorder in a Real-World Classroom
-  Environment Using Privacy-Preserving Video Analysis</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2024-07-31T15:37:52Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Barun Das, Conor Anderson, Tania Villavicencio, Johanna Lantz, Jenny Foster, Theresa Hamlin, Ali Bahrami Rad, Gari D. Clifford, Hyeokhyen Kwon</p>
-    <p><b>Summary:</b> Rapid identification and accurate documentation of interfering and high-risk
-behaviors in ASD, such as aggression, self-injury, disruption, and restricted
-repetitive behaviors, are important in daily classroom environments for
-tracking intervention effectiveness and allocating appropriate resources to
-manage care needs. However, having a staff dedicated solely to observing is
-costly and uncommon in most educational settings. Recently, multiple research
-studies have explored developing automated, continuous, and objective tools
-using machine learning models to quantify behaviors in ASD. However, the
-majority of the work was conducted under a controlled environment and has not
-been validated for real-world conditions. In this work, we demonstrate that the
-latest advances in video-based group activity recognition techniques can
-quantify behaviors in ASD in real-world activities in classroom environments
-while preserving privacy. Our explainable model could detect the episode of
-problem behaviors with a 77% F1-score and capture distinctive behavior features
-in different types of behaviors in ASD. To the best of our knowledge, this is
-the first work that shows the promise of objectively quantifying behaviors in
-ASD in a real-world environment, which is an important step toward the
-development of a practical tool that can ease the burden of data collection for
-classroom staff.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.21624v1">Grid-Based Decompositions for Spatial Data under Local Differential
-  Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-07-31T14:17:44Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Berkay Kemal Balioglu, Alireza Khodaie, Ameer Taweel, Mehmet Emre Gursoy</p>
-    <p><b>Summary:</b> Local differential privacy (LDP) has recently emerged as a popular privacy
-standard. With the growing popularity of LDP, several recent works have applied
-LDP to spatial data, and grid-based decompositions have been a common building
-block in the collection and analysis of spatial data under DP and LDP. In this
-paper, we study three grid-based decomposition methods for spatial data under
-LDP: Uniform Grid (UG), PrivAG, and AAG. UG is a static approach that consists
-of equal-sized cells. To enable data-dependent decomposition, PrivAG was
-proposed by Yang et al. as the most recent adaptive grid method. To advance the
-state-of-the-art in adaptive grids, in this paper we propose the Advanced
-Adaptive Grid (AAG) method. For each grid cell, following the intuition that
-the cell's intra-cell density distribution will be affected by its neighbors,
-AAG performs uneven cell divisions depending on the neighboring cells'
-densities. We experimentally compare UG, PrivAG, and AAG using three real-world
-location datasets, varying privacy budgets, and query sizes. Results show that
-AAG provides higher utility than PrivAG, demonstrating the superiority of our
-proposed approach. Furthermore, UG's performance is heavily dependent on the
-choice of grid size. When the grid size is chosen optimally in UG, AAG still
-beats UG for small queries, but UG beats AAG for large (coarse-grained)
-queries.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.21141v1">FL-DECO-BC: A Privacy-Preserving, Provably Secure, and
-  Provenance-Preserving Federated Learning Framework with Decentralized Oracles
-  on Blockchain for VANETs</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-07-30T19:09:10Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Sathwik Narkedimilli, Rayachoti Arun Kumar, N. V. Saran Kumar, Ramapathruni Praneeth Reddy, Pavan Kumar C</p>
-    <p><b>Summary:</b> Vehicular Ad-Hoc Networks (VANETs) hold immense potential for improving
-traffic safety and efficiency. However, traditional centralized approaches for
-machine learning in VANETs raise concerns about data privacy and security.
-Federated Learning (FL) offers a solution that enables collaborative model
-training without sharing raw data. This paper proposes FL-DECO-BC as a novel
-privacy-preserving, provably secure, and provenance-preserving federated
-learning framework specifically designed for VANETs. FL-DECO-BC leverages
-decentralized oracles on blockchain to securely access external data sources
-while ensuring data privacy through advanced techniques. The framework
-guarantees provable security through cryptographic primitives and formal
-verification methods. Furthermore, FL-DECO-BC incorporates a
-provenance-preserving design to track data origin and history, fostering trust
-and accountability. This combination of features empowers VANETs with secure
-and privacy-conscious machine-learning capabilities, paving the way for
-advanced traffic management and safety applications.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.20830v1">Federated Knowledge Recycling: Privacy-Preserving Synthetic Data Sharing</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2024-07-30T13:56:26Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Eugenio Lomurno, Matteo Matteucci</p>
-    <p><b>Summary:</b> Federated learning has emerged as a paradigm for collaborative learning,
-enabling the development of robust models without the need to centralise
-sensitive data. However, conventional federated learning techniques have
-privacy and security vulnerabilities due to the exposure of models, parameters
-or updates, which can be exploited as an attack surface. This paper presents
-Federated Knowledge Recycling (FedKR), a cross-silo federated learning approach
-that uses locally generated synthetic data to facilitate collaboration between
-institutions. FedKR combines advanced data generation techniques with a dynamic
-aggregation process to provide greater security against privacy attacks than
-existing methods, significantly reducing the attack surface. Experimental
-results on generic and medical datasets show that FedKR achieves competitive
-performance, with an average improvement in accuracy of 4.24% compared to
-training models from local data, demonstrating particular effectiveness in data
-scarcity scenarios.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.20640v1">Improved Bounds for Pure Private Agnostic Learning: Item-Level and
-  User-Level Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-07-30T08:35:26Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Bo Li, Wei Wang, Peng Ye</p>
-    <p><b>Summary:</b> Machine Learning has made remarkable progress in a wide range of fields. In
-many scenarios, learning is performed on datasets involving sensitive
-information, in which privacy protection is essential for learning algorithms.
-In this work, we study pure private learning in the agnostic model -- a
-framework reflecting the learning process in practice. We examine the number of
-users required under item-level (where each user contributes one example) and
-user-level (where each user contributes multiple examples) privacy and derive
-several improved upper bounds. For item-level privacy, our algorithm achieves a
-near optimal bound for general concept classes. We extend this to the
-user-level setting, rendering a tighter upper bound than the one proved by
-Ghazi et al. (2023). Lastly, we consider the problem of learning thresholds
-under user-level privacy and present an algorithm with a nearly tight user
-complexity.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2407.19828v1">Federated Learning based Latent Factorization of Tensors for
-  Privacy-Preserving QoS Prediction</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-07-29T09:30:00Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shuai Zhong, Zengtong Tang, Di Wu</p>
-    <p><b>Summary:</b> In applications related to big data and service computing, dynamic
-connections tend to be encountered, especially the dynamic data of
-user-perspective quality of service (QoS) in Web services. They are transformed
-into high-dimensional and incomplete (HDI) tensors which include abundant
-temporal pattern information. Latent factorization of tensors (LFT) is an
-extremely efficient and typical approach for extracting such patterns from an
-HDI tensor. However, current LFT models require the QoS data to be maintained
-in a central place (e.g., a central server), which is impossible for
-increasingly privacy-sensitive users. To address this problem, this article
-creatively designs a federated learning based on latent factorization of
-tensors (FL-LFT). It builds a data-density -oriented federated learning model
-to enable isolated users to collaboratively train a global LFT model while
-protecting user's privacy. Extensive experiments on a QoS dataset collected
-from the real world verify that FL-LFT shows a remarkable increase in
-prediction accuracy when compared to state-of-the-art federated learning (FL)
-approaches.</p>
-  </details>
-</div>
-
-
-
 <h2>2024-09</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2409.03707v1">A Different Level Text Protection Mechanism With Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-09-05T17:13:38Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Qingwen Fu</p>
+    <p><b>Summary:</b> The article introduces a method for extracting words of different degrees of
+importance based on the BERT pre-training model and proves the effectiveness of
+this method. The article also discusses the impact of maintaining the same
+perturbation results for words of different importance on the overall text
+utility. This method can be applied to long text protection.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2409.03655v1">Privacy versus Emotion Preservation Trade-offs in Emotion-Preserving
+  Speaker Anonymization</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-09-05T16:10:31Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zexin Cai, Henry Li Xinyuan, Ashi Garg, Leibny Paola García-Perera, Kevin Duh, Sanjeev Khudanpur, Nicholas Andrews, Matthew Wiesner</p>
+    <p><b>Summary:</b> Advances in speech technology now allow unprecedented access to personally
+identifiable information through speech. To protect such information, the
+differential privacy field has explored ways to anonymize speech while
+preserving its utility, including linguistic and paralinguistic aspects.
+However, anonymizing speech while maintaining emotional state remains
+challenging. We explore this problem in the context of the VoicePrivacy 2024
+challenge. Specifically, we developed various speaker anonymization pipelines
+and find that approaches either excel at anonymization or preserving emotion
+state, but not both simultaneously. Achieving both would require an in-domain
+emotion recognizer. Additionally, we found that it is feasible to train a
+semi-effective speaker verification system using only emotion representations,
+demonstrating the challenge of separating these two modalities.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2409.03568v1">Enabling Practical and Privacy-Preserving Image Processing</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
+  <p><b>Published on:</b> 2024-09-05T14:22:02Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Chao Wang, Shubing Yang, Xiaoyan Sun, Jun Dai, Dongfang Zhao</p>
+    <p><b>Summary:</b> Fully Homomorphic Encryption (FHE) enables computations on encrypted data,
+preserving confidentiality without the need for decryption. However, FHE is
+often hindered by significant performance overhead, particularly for
+high-precision and complex data like images. Due to serious efficiency issues,
+traditional FHE methods often encrypt images by monolithic data blocks (such as
+pixel rows), instead of pixels. However, this strategy compromises the
+advantages of homomorphic operations and disables pixel-level image processing.
+In this study, we address these challenges by proposing and implementing a
+pixel-level homomorphic encryption approach, iCHEETAH, based on the CKKS
+scheme. To enhance computational efficiency, we introduce three novel caching
+mechanisms to pre-encrypt radix values or frequently occurring pixel values,
+substantially reducing redundant encryption operations. Extensive experiments
+demonstrate that our approach achieves up to a 19-fold improvement in
+encryption speed compared to the original CKKS, while maintaining high image
+quality. Additionally, real-world image applications such as mean filtering,
+brightness enhancement, image matching and watermarking are tested based on
+FHE, showcasing up to a 91.53% speed improvement. We also proved that our
+method is IND-CPA (Indistinguishability under Chosen Plaintext Attack) secure,
+providing strong encryption security. These results underscore the practicality
+and efficiency of iCHEETAH, marking a significant advancement in
+privacy-preserving image processing at scale.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2409.03344v1">Rethinking Improved Privacy-Utility Trade-off with Pre-existing
+  Knowledge for DP Training</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-09-05T08:40:54Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yu Zheng, Wenchao Zhang, Yonggang Zhang, Wei Song, Kai Zhou, Bo Han</p>
+    <p><b>Summary:</b> Differential privacy (DP) provides a provable framework for protecting
+individuals by customizing a random mechanism over a privacy-sensitive dataset.
+Deep learning models have demonstrated privacy risks in model exposure as an
+established learning model unintentionally records membership-level privacy
+leakage. Differentially private stochastic gradient descent (DP- SGD) has been
+proposed to safeguard training individuals by adding random Gaussian noise to
+gradient updates in the backpropagation. Researchers identify that DP-SGD
+typically causes utility loss since the injected homogeneous noise alters the
+gradient updates calculated at each iteration. Namely, all elements in the
+gradient are contaminated regardless of their importance in updating model
+parameters. In this work, we argue that the utility loss mainly results from
+the homogeneity of injected noise. Consequently, we propose a generic
+differential privacy framework with heterogeneous noise (DP-Hero) by defining a
+heterogeneous random mechanism to abstract its property. The insight of DP-Hero
+is to leverage the knowledge encoded in the previously trained model to guide
+the subsequent allocation of noise heterogeneity, thereby leveraging the
+statistical perturbation and achieving enhanced utility. Atop DP-Hero, we
+instantiate a heterogeneous version of DP-SGD, where the noise injected into
+gradients is heterogeneous and guided by prior-established model parameters. We
+conduct comprehensive experiments to verify and explain the effectiveness of
+the proposed DP-Hero, showing improved training accuracy compared with
+state-of-the-art works. Broadly, we shed light on improving the privacy-utility
+space by learning the noise guidance from the pre-existing leaked knowledge
+encoded in the previously trained model, showing a different perspective of
+understanding the utility-improved DP training.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2409.03326v1">Enhancing User-Centric Privacy Protection: An Interactive Framework
+  through Diffusion Models and Machine Unlearning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2024-09-05T07:55:55Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Huaxi Huang, Xin Yuan, Qiyu Liao, Dadong Wang, Tongliang Liu</p>
+    <p><b>Summary:</b> In the realm of multimedia data analysis, the extensive use of image datasets
+has escalated concerns over privacy protection within such data. Current
+research predominantly focuses on privacy protection either in data sharing or
+upon the release of trained machine learning models. Our study pioneers a
+comprehensive privacy protection framework that safeguards image data privacy
+concurrently during data sharing and model publication. We propose an
+interactive image privacy protection framework that utilizes generative machine
+learning models to modify image information at the attribute level and employs
+machine unlearning algorithms for the privacy preservation of model parameters.
+This user-interactive framework allows for adjustments in privacy protection
+intensity based on user feedback on generated images, striking a balance
+between maximal privacy safeguarding and maintaining model performance. Within
+this framework, we instantiate two modules: a differential privacy diffusion
+model for protecting attribute information in images and a feature unlearning
+algorithm for efficient updates of the trained model on the revised image
+dataset. Our approach demonstrated superiority over existing methods on facial
+datasets across various attribute classifications.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2409.03294v1">Federated Prototype-based Contrastive Learning for Privacy-Preserving
+  Cross-domain Recommendation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB">
+  <p><b>Published on:</b> 2024-09-05T06:59:56Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Li Wang, Quangui Zhang, Lei Sang, Qiang Wu, Min Xu</p>
+    <p><b>Summary:</b> Cross-domain recommendation (CDR) aims to improve recommendation accuracy in
+sparse domains by transferring knowledge from data-rich domains. However,
+existing CDR methods often assume the availability of user-item interaction
+data across domains, overlooking user privacy concerns. Furthermore, these
+methods suffer from performance degradation in scenarios with sparse
+overlapping users, as they typically depend on a large number of fully shared
+users for effective knowledge transfer. To address these challenges, we propose
+a Federated Prototype-based Contrastive Learning (CL) method for
+Privacy-Preserving CDR, named FedPCL-CDR. This approach utilizes
+non-overlapping user information and prototypes to improve multi-domain
+performance while protecting user privacy. FedPCL-CDR comprises two modules:
+local domain (client) learning and global server aggregation. In the local
+domain, FedPCL-CDR clusters all user data to learn representative prototypes,
+effectively utilizing non-overlapping user information and addressing the
+sparse overlapping user issue. It then facilitates knowledge transfer by
+employing both local and global prototypes returned from the server in a CL
+manner. Simultaneously, the global server aggregates representative prototypes
+from local domains to learn both local and global prototypes. The combination
+of prototypes and federated learning (FL) ensures that sensitive user data
+remains decentralized, with only prototypes being shared across domains,
+thereby protecting user privacy. Extensive experiments on four CDR tasks using
+two real-world datasets demonstrate that FedPCL-CDR outperforms the
+state-of-the-art baselines.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2409.02614v1">Evaluating the Effects of Digital Privacy Regulations on User Trust</a></h3>
