@@ -396,5 +396,170 @@
       "cs.CR",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.03707v1",
+    "title" : "A Different Level Text Protection Mechanism With Differential Privacy",
+    "summary" : "The article introduces a method for extracting words of different degrees of\nimportance based on the BERT pre-training model and proves the effectiveness of\nthis method. The article also discusses the impact of maintaining the same\nperturbation results for words of different importance on the overall text\nutility. This method can be applied to long text protection.",
+    "updated" : "2024-09-05T17:13:38Z",
+    "published" : "2024-09-05T17:13:38Z",
+    "authors" : [
+      {
+        "name" : "Qingwen Fu"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.03655v1",
+    "title" : "Privacy versus Emotion Preservation Trade-offs in Emotion-Preserving\n  Speaker Anonymization",
+    "summary" : "Advances in speech technology now allow unprecedented access to personally\nidentifiable information through speech. To protect such information, the\ndifferential privacy field has explored ways to anonymize speech while\npreserving its utility, including linguistic and paralinguistic aspects.\nHowever, anonymizing speech while maintaining emotional state remains\nchallenging. We explore this problem in the context of the VoicePrivacy 2024\nchallenge. Specifically, we developed various speaker anonymization pipelines\nand find that approaches either excel at anonymization or preserving emotion\nstate, but not both simultaneously. Achieving both would require an in-domain\nemotion recognizer. Additionally, we found that it is feasible to train a\nsemi-effective speaker verification system using only emotion representations,\ndemonstrating the challenge of separating these two modalities.",
+    "updated" : "2024-09-05T16:10:31Z",
+    "published" : "2024-09-05T16:10:31Z",
+    "authors" : [
+      {
+        "name" : "Zexin Cai"
+      },
+      {
+        "name" : "Henry Li Xinyuan"
+      },
+      {
+        "name" : "Ashi Garg"
+      },
+      {
+        "name" : "Leibny Paola García-Perera"
+      },
+      {
+        "name" : "Kevin Duh"
+      },
+      {
+        "name" : "Sanjeev Khudanpur"
+      },
+      {
+        "name" : "Nicholas Andrews"
+      },
+      {
+        "name" : "Matthew Wiesner"
+      }
+    ],
+    "categories" : [
+      "eess.AS",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.03568v1",
+    "title" : "Enabling Practical and Privacy-Preserving Image Processing",
+    "summary" : "Fully Homomorphic Encryption (FHE) enables computations on encrypted data,\npreserving confidentiality without the need for decryption. However, FHE is\noften hindered by significant performance overhead, particularly for\nhigh-precision and complex data like images. Due to serious efficiency issues,\ntraditional FHE methods often encrypt images by monolithic data blocks (such as\npixel rows), instead of pixels. However, this strategy compromises the\nadvantages of homomorphic operations and disables pixel-level image processing.\nIn this study, we address these challenges by proposing and implementing a\npixel-level homomorphic encryption approach, iCHEETAH, based on the CKKS\nscheme. To enhance computational efficiency, we introduce three novel caching\nmechanisms to pre-encrypt radix values or frequently occurring pixel values,\nsubstantially reducing redundant encryption operations. Extensive experiments\ndemonstrate that our approach achieves up to a 19-fold improvement in\nencryption speed compared to the original CKKS, while maintaining high image\nquality. Additionally, real-world image applications such as mean filtering,\nbrightness enhancement, image matching and watermarking are tested based on\nFHE, showcasing up to a 91.53% speed improvement. We also proved that our\nmethod is IND-CPA (Indistinguishability under Chosen Plaintext Attack) secure,\nproviding strong encryption security. These results underscore the practicality\nand efficiency of iCHEETAH, marking a significant advancement in\nprivacy-preserving image processing at scale.",
+    "updated" : "2024-09-05T14:22:02Z",
+    "published" : "2024-09-05T14:22:02Z",
+    "authors" : [
+      {
+        "name" : "Chao Wang"
+      },
+      {
+        "name" : "Shubing Yang"
+      },
+      {
+        "name" : "Xiaoyan Sun"
+      },
+      {
+        "name" : "Jun Dai"
+      },
+      {
+        "name" : "Dongfang Zhao"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "C.2.0; K.6.5"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.03344v1",
+    "title" : "Rethinking Improved Privacy-Utility Trade-off with Pre-existing\n  Knowledge for DP Training",
+    "summary" : "Differential privacy (DP) provides a provable framework for protecting\nindividuals by customizing a random mechanism over a privacy-sensitive dataset.\nDeep learning models have demonstrated privacy risks in model exposure as an\nestablished learning model unintentionally records membership-level privacy\nleakage. Differentially private stochastic gradient descent (DP- SGD) has been\nproposed to safeguard training individuals by adding random Gaussian noise to\ngradient updates in the backpropagation. Researchers identify that DP-SGD\ntypically causes utility loss since the injected homogeneous noise alters the\ngradient updates calculated at each iteration. Namely, all elements in the\ngradient are contaminated regardless of their importance in updating model\nparameters. In this work, we argue that the utility loss mainly results from\nthe homogeneity of injected noise. Consequently, we propose a generic\ndifferential privacy framework with heterogeneous noise (DP-Hero) by defining a\nheterogeneous random mechanism to abstract its property. The insight of DP-Hero\nis to leverage the knowledge encoded in the previously trained model to guide\nthe subsequent allocation of noise heterogeneity, thereby leveraging the\nstatistical perturbation and achieving enhanced utility. Atop DP-Hero, we\ninstantiate a heterogeneous version of DP-SGD, where the noise injected into\ngradients is heterogeneous and guided by prior-established model parameters. We\nconduct comprehensive experiments to verify and explain the effectiveness of\nthe proposed DP-Hero, showing improved training accuracy compared with\nstate-of-the-art works. Broadly, we shed light on improving the privacy-utility\nspace by learning the noise guidance from the pre-existing leaked knowledge\nencoded in the previously trained model, showing a different perspective of\nunderstanding the utility-improved DP training.",
+    "updated" : "2024-09-05T08:40:54Z",
+    "published" : "2024-09-05T08:40:54Z",
+    "authors" : [
+      {
+        "name" : "Yu Zheng"
+      },
+      {
+        "name" : "Wenchao Zhang"
+      },
+      {
+        "name" : "Yonggang Zhang"
+      },
+      {
+        "name" : "Wei Song"
+      },
+      {
+        "name" : "Kai Zhou"
+      },
+      {
+        "name" : "Bo Han"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.03326v1",
+    "title" : "Enhancing User-Centric Privacy Protection: An Interactive Framework\n  through Diffusion Models and Machine Unlearning",
+    "summary" : "In the realm of multimedia data analysis, the extensive use of image datasets\nhas escalated concerns over privacy protection within such data. Current\nresearch predominantly focuses on privacy protection either in data sharing or\nupon the release of trained machine learning models. Our study pioneers a\ncomprehensive privacy protection framework that safeguards image data privacy\nconcurrently during data sharing and model publication. We propose an\ninteractive image privacy protection framework that utilizes generative machine\nlearning models to modify image information at the attribute level and employs\nmachine unlearning algorithms for the privacy preservation of model parameters.\nThis user-interactive framework allows for adjustments in privacy protection\nintensity based on user feedback on generated images, striking a balance\nbetween maximal privacy safeguarding and maintaining model performance. Within\nthis framework, we instantiate two modules: a differential privacy diffusion\nmodel for protecting attribute information in images and a feature unlearning\nalgorithm for efficient updates of the trained model on the revised image\ndataset. Our approach demonstrated superiority over existing methods on facial\ndatasets across various attribute classifications.",
+    "updated" : "2024-09-05T07:55:55Z",
+    "published" : "2024-09-05T07:55:55Z",
+    "authors" : [
+      {
+        "name" : "Huaxi Huang"
+      },
+      {
+        "name" : "Xin Yuan"
+      },
+      {
+        "name" : "Qiyu Liao"
+      },
+      {
+        "name" : "Dadong Wang"
+      },
+      {
+        "name" : "Tongliang Liu"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.03294v1",
+    "title" : "Federated Prototype-based Contrastive Learning for Privacy-Preserving\n  Cross-domain Recommendation",
+    "summary" : "Cross-domain recommendation (CDR) aims to improve recommendation accuracy in\nsparse domains by transferring knowledge from data-rich domains. However,\nexisting CDR methods often assume the availability of user-item interaction\ndata across domains, overlooking user privacy concerns. Furthermore, these\nmethods suffer from performance degradation in scenarios with sparse\noverlapping users, as they typically depend on a large number of fully shared\nusers for effective knowledge transfer. To address these challenges, we propose\na Federated Prototype-based Contrastive Learning (CL) method for\nPrivacy-Preserving CDR, named FedPCL-CDR. This approach utilizes\nnon-overlapping user information and prototypes to improve multi-domain\nperformance while protecting user privacy. FedPCL-CDR comprises two modules:\nlocal domain (client) learning and global server aggregation. In the local\ndomain, FedPCL-CDR clusters all user data to learn representative prototypes,\neffectively utilizing non-overlapping user information and addressing the\nsparse overlapping user issue. It then facilitates knowledge transfer by\nemploying both local and global prototypes returned from the server in a CL\nmanner. Simultaneously, the global server aggregates representative prototypes\nfrom local domains to learn both local and global prototypes. The combination\nof prototypes and federated learning (FL) ensures that sensitive user data\nremains decentralized, with only prototypes being shared across domains,\nthereby protecting user privacy. Extensive experiments on four CDR tasks using\ntwo real-world datasets demonstrate that FedPCL-CDR outperforms the\nstate-of-the-art baselines.",
+    "updated" : "2024-09-05T06:59:56Z",
+    "published" : "2024-09-05T06:59:56Z",
+    "authors" : [
+      {
+        "name" : "Li Wang"
+      },
+      {
+        "name" : "Quangui Zhang"
+      },
+      {
+        "name" : "Lei Sang"
+      },
+      {
+        "name" : "Qiang Wu"
+      },
+      {
+        "name" : "Min Xu"
+      }
+    ],
+    "categories" : [
+      "cs.IR"
+    ]
   }
 ]
