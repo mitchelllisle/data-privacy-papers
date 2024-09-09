@@ -561,5 +561,209 @@
     "categories" : [
       "cs.IR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.04366v1",
+    "title" : "Deanonymizing Ethereum Validators: The P2P Network Has a Privacy Issue",
+    "summary" : "Many blockchain networks aim to preserve the anonymity of validators in the\npeer-to-peer (P2P) network, ensuring that no adversary can link a validator's\nidentifier to the IP address of a peer due to associated privacy and security\nconcerns. This work demonstrates that the Ethereum P2P network does not offer\nthis anonymity. We present a methodology that enables any node in the network\nto identify validators hosted on connected peers and empirically verify the\nfeasibility of our proposed method. Using data collected from four nodes over\nthree days, we locate more than 15% of Ethereum validators in the P2P network.\nThe insights gained from our deanonymization technique provide valuable\ninformation on the distribution of validators across peers, their geographic\nlocations, and hosting organizations. We further discuss the implications and\nrisks associated with the lack of anonymity in the P2P network and propose\nmethods to help validators protect their privacy. The Ethereum Foundation has\nawarded us a bug bounty, acknowledging the impact of our results.",
+    "updated" : "2024-09-06T15:57:43Z",
+    "published" : "2024-09-06T15:57:43Z",
+    "authors" : [
+      {
+        "name" : "Lioba Heimbach"
+      },
+      {
+        "name" : "Yann Vonlanthen"
+      },
+      {
+        "name" : "Juan Villacis"
+      },
+      {
+        "name" : "Lucianna Kiffer"
+      },
+      {
+        "name" : "Roger Wattenhofer"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.04257v1",
+    "title" : "Privacy risk from synthetic data: practical proposals",
+    "summary" : "This paper proposes and compares measures of identity and attribute\ndisclosure risk for synthetic data. Data custodians can use the methods\nproposed here to inform the decision as to whether to release synthetic\nversions of confidential data. Different measures are evaluated on two data\nsets. Insight into the measures is obtained by examining the details of the\nrecords identified as posing a disclosure risk. This leads to methods to\nidentify, and possibly exclude, apparently risky records where the\nidentification or attribution would be expected by someone with background\nknowledge of the data. The methods described are available as part of the\n\\textbf{synthpop} package for \\textbf{R}.",
+    "updated" : "2024-09-06T13:10:40Z",
+    "published" : "2024-09-06T13:10:40Z",
+    "authors" : [
+      {
+        "name" : "Gillian M Raab"
+      }
+    ],
+    "categories" : [
+      "stat.AP"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.04194v1",
+    "title" : "Towards Privacy-Preserving Relational Data Synthesis via Probabilistic\n  Relational Models",
+    "summary" : "Probabilistic relational models provide a well-established formalism to\ncombine first-order logic and probabilistic models, thereby allowing to\nrepresent relationships between objects in a relational domain. At the same\ntime, the field of artificial intelligence requires increasingly large amounts\nof relational training data for various machine learning tasks. Collecting\nreal-world data, however, is often challenging due to privacy concerns, data\nprotection regulations, high costs, and so on. To mitigate these challenges,\nthe generation of synthetic data is a promising approach. In this paper, we\nsolve the problem of generating synthetic relational data via probabilistic\nrelational models. In particular, we propose a fully-fledged pipeline to go\nfrom relational database to probabilistic relational model, which can then be\nused to sample new synthetic relational data points from its underlying\nprobability distribution. As part of our proposed pipeline, we introduce a\nlearning algorithm to construct a probabilistic relational model from a given\nrelational database.",
+    "updated" : "2024-09-06T11:24:25Z",
+    "published" : "2024-09-06T11:24:25Z",
+    "authors" : [
+      {
+        "name" : "Malte Luttermann"
+      },
+      {
+        "name" : "Ralf Möller"
+      },
+      {
+        "name" : "Mattis Hartwig"
+      }
+    ],
+    "categories" : [
+      "cs.AI",
+      "cs.DB",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.04173v1",
+    "title" : "NPU-NTU System for Voice Privacy 2024 Challenge",
+    "summary" : "Speaker anonymization is an effective privacy protection solution that\nconceals the speaker's identity while preserving the linguistic content and\nparalinguistic information of the original speech. To establish a fair\nbenchmark and facilitate comparison of speaker anonymization systems, the\nVoicePrivacy Challenge (VPC) was held in 2020 and 2022, with a new edition\nplanned for 2024. In this paper, we describe our proposed speaker anonymization\nsystem for VPC 2024. Our system employs a disentangled neural codec\narchitecture and a serial disentanglement strategy to gradually disentangle the\nglobal speaker identity and time-variant linguistic content and paralinguistic\ninformation. We introduce multiple distillation methods to disentangle\nlinguistic content, speaker identity, and emotion. These methods include\nsemantic distillation, supervised speaker distillation, and frame-level emotion\ndistillation. Based on these distillations, we anonymize the original speaker\nidentity using a weighted sum of a set of candidate speaker identities and a\nrandomly generated speaker identity. Our system achieves the best trade-off of\nprivacy protection and emotion preservation in VPC 2024.",
+    "updated" : "2024-09-06T10:32:42Z",
+    "published" : "2024-09-06T10:32:42Z",
+    "authors" : [
+      {
+        "name" : "Jixun Yao"
+      },
+      {
+        "name" : "Nikita Kuzmin"
+      },
+      {
+        "name" : "Qing Wang"
+      },
+      {
+        "name" : "Pengcheng Guo"
+      },
+      {
+        "name" : "Ziqian Ning"
+      },
+      {
+        "name" : "Dake Guo"
+      },
+      {
+        "name" : "Kong Aik Lee"
+      },
+      {
+        "name" : "Eng-Siong Chng"
+      },
+      {
+        "name" : "Lei Xie"
+      }
+    ],
+    "categories" : [
+      "eess.AS"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.04167v1",
+    "title" : "Do Android App Developers Accurately Report Collection of\n  Privacy-Related Data?",
+    "summary" : "Many Android applications collect data from users. The European Union's\nGeneral Data Protection Regulation (GDPR) requires vendors to faithfully\ndisclose which data their apps collect. This task is complicated because many\napps use third-party code for which the same information is not readily\navailable. Hence we ask: how accurately do current Android apps fulfill these\nrequirements?\n  In this work, we first expose a multi-layered definition of privacy-related\ndata to correctly report data collection in Android apps. We further create a\ndataset of privacy-sensitive data classes that may be used as input by an\nAndroid app. This dataset takes into account data collected both through the\nuser interface and system APIs.\n  We manually examine the data safety sections of 70 Android apps to observe\nhow data collection is reported, identifying instances of over- and\nunder-reporting. Additionally, we develop a prototype to statically extract and\nlabel privacy-related data collected via app source code, user interfaces, and\npermissions. Comparing the prototype's results with the data safety sections of\n20 apps reveals reporting discrepancies. Using the results from two Messaging\nand Social Media apps (Signal and Instagram), we discuss how app developers\nunder-report and over-report data collection, respectively, and identify\ninaccurately reported data categories.\n  Our results show that app developers struggle to accurately report data\ncollection, either due to Google's abstract definition of collected data or\ninsufficient existing tool support.",
+    "updated" : "2024-09-06T10:05:45Z",
+    "published" : "2024-09-06T10:05:45Z",
+    "authors" : [
+      {
+        "name" : "Mugdha Khedkar"
+      },
+      {
+        "name" : "Ambuj Kumar Mondal"
+      },
+      {
+        "name" : "Eric Bodden"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.04048v1",
+    "title" : "Exploring User Privacy Awareness on GitHub: An Empirical Study",
+    "summary" : "GitHub provides developers with a practical way to distribute source code and\ncollaboratively work on common projects. To enhance account security and\nprivacy, GitHub allows its users to manage access permissions, review audit\nlogs, and enable two-factor authentication. However, despite the endless\neffort, the platform still faces various issues related to the privacy of its\nusers. This paper presents an empirical study delving into the GitHub\necosystem. Our focus is on investigating the utilization of privacy settings on\nthe platform and identifying various types of sensitive information disclosed\nby users. Leveraging a dataset comprising 6,132 developers, we report and\nanalyze their activities by means of comments on pull requests. Our findings\nindicate an active engagement by users with the available privacy settings on\nGitHub. Notably, we observe the disclosure of different forms of private\ninformation within pull request comments. This observation has prompted our\nexploration into sensitivity detection using a large language model and BERT,\nto pave the way for a personalized privacy assistant. Our work provides\ninsights into the utilization of existing privacy protection tools, such as\nprivacy settings, along with their inherent limitations. Essentially, we aim to\nadvance research in this field by providing both the motivation for creating\nsuch privacy protection tools and a proposed methodology for personalizing\nthem.",
+    "updated" : "2024-09-06T06:41:46Z",
+    "published" : "2024-09-06T06:41:46Z",
+    "authors" : [
+      {
+        "name" : "Costanza Alfieri"
+      },
+      {
+        "name" : "Juri Di Rocco"
+      },
+      {
+        "name" : "Phuong T. Nguyen"
+      },
+      {
+        "name" : "Paola Inverardi"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.SE"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.04026v1",
+    "title" : "Efficient Fault-Tolerant Quantum Protocol for Differential Privacy in\n  the Shuffle Model",
+    "summary" : "We present a quantum protocol which securely and implicitly implements a\nrandom shuffle to realize differential privacy in the shuffle model. The\nshuffle model of differential privacy amplifies privacy achievable via local\ndifferential privacy by randomly permuting the tuple of outcomes from data\ncontributors. In practice, one needs to address how this shuffle is\nimplemented. Examples include implementing the shuffle via mix-networks, or\nshuffling via a trusted third-party. These implementation specific issues raise\nnon-trivial computational and trust requirements in a classical system. We\npropose a quantum version of the protocol using entanglement of quantum states\nand show that the shuffle can be implemented without these extra requirements.\nOur protocol implements k-ary randomized response, for any value of k > 2, and\nfurthermore, can be efficiently implemented using fault-tolerant computation.",
+    "updated" : "2024-09-06T04:53:19Z",
+    "published" : "2024-09-06T04:53:19Z",
+    "authors" : [
+      {
+        "name" : "Hassan Jameel Asghar"
+      },
+      {
+        "name" : "Arghya Mukherjee"
+      },
+      {
+        "name" : "Gavin K. Brennen"
+      }
+    ],
+    "categories" : [
+      "quant-ph",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.03796v1",
+    "title" : "Protecting Activity Sensing Data Privacy Using Hierarchical Information\n  Dissociation",
+    "summary" : "Smartphones and wearable devices have been integrated into our daily lives,\noffering personalized services. However, many apps become overprivileged as\ntheir collected sensing data contains unnecessary sensitive information. For\nexample, mobile sensing data could reveal private attributes (e.g., gender and\nage) and unintended sensitive features (e.g., hand gestures when entering\npasswords). To prevent sensitive information leakage, existing methods must\nobtain private labels and users need to specify privacy policies. However, they\nonly achieve limited control over information disclosure. In this work, we\npresent Hippo to dissociate hierarchical information including private metadata\nand multi-grained activity information from the sensing data. Hippo achieves\nfine-grained control over the disclosure of sensitive information without\nrequiring private labels. Specifically, we design a latent guidance-based\ndiffusion model, which generates multi-grained versions of raw sensor data\nconditioned on hierarchical latent activity features. Hippo enables users to\ncontrol the disclosure of sensitive information in sensing data, ensuring their\nprivacy while preserving the necessary features to meet the utility\nrequirements of applications. Hippo is the first unified model that achieves\ntwo goals: perturbing the sensitive attributes and controlling the disclosure\nof sensitive information in mobile sensing data. Extensive experiments show\nthat Hippo can anonymize personal attributes and transform activity information\nat various resolutions across different types of sensing data.",
+    "updated" : "2024-09-04T15:38:00Z",
+    "published" : "2024-09-04T15:38:00Z",
+    "authors" : [
+      {
+        "name" : "Guangjing Wang"
+      },
+      {
+        "name" : "Hanqing Guo"
+      },
+      {
+        "name" : "Yuanda Wang"
+      },
+      {
+        "name" : "Bocheng Chen"
+      },
+      {
+        "name" : "Ce Zhou"
+      },
+      {
+        "name" : "Qiben Yan"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG"
+    ]
   }
 ]
