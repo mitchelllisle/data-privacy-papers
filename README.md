@@ -666,7 +666,7 @@ intelligence.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2408.12787v1">LLM-PBE: Assessing Data Privacy in Large Language Models</a></h3>
+  <h3><a href="http://arxiv.org/abs/2408.12787v2">LLM-PBE: Assessing Data Privacy in Large Language Models</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
   <p><b>Published on:</b> 2024-08-23T01:37:29Z</p>
   <details>
@@ -2126,229 +2126,198 @@ perform CI-based reasoning yields strong results.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2408.01711v1">Privacy in networks of quantum sensors</a></h3>
-  
-  <p><b>Published on:</b> 2024-08-03T08:39:44Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Majid Hassani, Santiago Scheiner, Matteo G. A. Paris, Damian Markham</p>
-    <p><b>Summary:</b> We treat privacy in a network of quantum sensors where accessible information
-is limited to specific functions of the network parameters, and all other
-information remains private. We develop an analysis of privacy in terms of a
-manipulation of the quantum Fisher information matrix, and find the optimal
-state achieving maximum privacy in the estimation of linear combination of the
-unknown parameters in a network of quantum sensors. We also discuss the effect
-of uncorrelated noise on the privacy of the network. Moreover, we illustrate
-our results with an example where the goal is to estimate the average value of
-the unknown parameters in the network. In this example, we also introduce the
-notion of quasi-privacy ($\epsilon$-privacy), quantifying how close the state
-is to being private.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2408.01609v1">Fed-RD: Privacy-Preserving Federated Learning for Financial Crime
-  Detection</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computational Engineering, Finance, and Science-5BC0EB">
-  <p><b>Published on:</b> 2024-08-03T00:07:10Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Md. Saikat Islam Khan, Aparna Gupta, Oshani Seneviratne, Stacy Patterson</p>
-    <p><b>Summary:</b> We introduce Federated Learning for Relational Data (Fed-RD), a novel
-privacy-preserving federated learning algorithm specifically developed for
-financial transaction datasets partitioned vertically and horizontally across
-parties. Fed-RD strategically employs differential privacy and secure
-multiparty computation to guarantee the privacy of training data. We provide
-theoretical analysis of the end-to-end privacy of the training algorithm and
-present experimental results on realistic synthetic datasets. Our results
-demonstrate that Fed-RD achieves high model accuracy with minimal degradation
-as privacy increases, while consistently surpassing benchmark results.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2408.01228v2">The Phantom Menace: Unmasking Privacy Leakages in Vision-Language Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2024-08-02T12:36:13Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Simone Caldarella, Massimiliano Mancini, Elisa Ricci, Rahaf Aljundi</p>
-    <p><b>Summary:</b> Vision-Language Models (VLMs) combine visual and textual understanding,
-rendering them well-suited for diverse tasks like generating image captions and
-answering visual questions across various domains. However, these capabilities
-are built upon training on large amount of uncurated data crawled from the web.
-The latter may include sensitive information that VLMs could memorize and leak,
-raising significant privacy concerns. In this paper, we assess whether these
-vulnerabilities exist, focusing on identity leakage. Our study leads to three
-key findings: (i) VLMs leak identity information, even when the vision-language
-alignment and the fine-tuning use anonymized data; (ii) context has little
-influence on identity leakage; (iii) simple, widely used anonymization
-techniques, like blurring, are not sufficient to address the problem. These
-findings underscore the urgent need for robust privacy protection strategies
-when deploying VLMs. Ethical awareness and responsible development practices
-are essential to mitigate these risks.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2408.01040v1">Privacy-Preserving Split Learning with Vision Transformers using
-  Patch-Wise Random and Noisy CutMix</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-08-02T06:24:39Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Seungeun Oh, Sihun Baek, Jihong Park, Hyelin Nam, Praneeth Vepakomma, Ramesh Raskar, Mehdi Bennis, Seong-Lyun Kim</p>
-    <p><b>Summary:</b> In computer vision, the vision transformer (ViT) has increasingly superseded
-the convolutional neural network (CNN) for improved accuracy and robustness.
-However, ViT's large model sizes and high sample complexity make it difficult
-to train on resource-constrained edge devices. Split learning (SL) emerges as a
-viable solution, leveraging server-side resources to train ViTs while utilizing
-private data from distributed devices. However, SL requires additional
-information exchange for weight updates between the device and the server,
-which can be exposed to various attacks on private training data. To mitigate
-the risk of data breaches in classification tasks, inspired from the CutMix
-regularization, we propose a novel privacy-preserving SL framework that injects
-Gaussian noise into smashed data and mixes randomly chosen patches of smashed
-data across clients, coined DP-CutMixSL. Our analysis demonstrates that
-DP-CutMixSL is a differentially private (DP) mechanism that strengthens privacy
-protection against membership inference attacks during forward propagation.
-Through simulations, we show that DP-CutMixSL improves privacy protection
-against membership inference attacks, reconstruction attacks, and label
-inference attacks, while also improving accuracy compared to DP-SL and
-DP-MixSL.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2408.00950v1">PrivateGaze: Preserving User Privacy in Black-box Mobile Gaze Tracking
-  Services</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2024-08-01T23:11:03Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Lingyu Du, Jinyuan Jia, Xucong Zhang, Guohao Lan</p>
-    <p><b>Summary:</b> Eye gaze contains rich information about human attention and cognitive
-processes. This capability makes the underlying technology, known as gaze
-tracking, a critical enabler for many ubiquitous applications and has triggered
-the development of easy-to-use gaze estimation services. Indeed, by utilizing
-the ubiquitous cameras on tablets and smartphones, users can readily access
-many gaze estimation services. In using these services, users must provide
-their full-face images to the gaze estimator, which is often a black box. This
-poses significant privacy threats to the users, especially when a malicious
-service provider gathers a large collection of face images to classify
-sensitive user attributes. In this work, we present PrivateGaze, the first
-approach that can effectively preserve users' privacy in black-box gaze
-tracking services without compromising gaze estimation performance.
-Specifically, we proposed a novel framework to train a privacy preserver that
-converts full-face images into obfuscated counterparts, which are effective for
-gaze estimation while containing no privacy information. Evaluation on four
-datasets shows that the obfuscated image can protect users' private
-information, such as identity and gender, against unauthorized attribute
-classification. Meanwhile, when used directly by the black-box gaze estimator
-as inputs, the obfuscated images lead to comparable tracking performance to the
-conventional, unprotected full-face images.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2408.00639v1">Privacy-preserving datasets by capturing feature distributions with
-  Conditional VAEs</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> 
-  <p><b>Published on:</b> 2024-08-01T15:26:24Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Francesco Di Salvo, David Tafler, Sebastian Doerrich, Christian Ledig</p>
-    <p><b>Summary:</b> Large and well-annotated datasets are essential for advancing deep learning
-applications, however often costly or impossible to obtain by a single entity.
-In many areas, including the medical domain, approaches relying on data sharing
-have become critical to address those challenges. While effective in increasing
-dataset size and diversity, data sharing raises significant privacy concerns.
-Commonly employed anonymization methods based on the k-anonymity paradigm often
-fail to preserve data diversity, affecting model robustness. This work
-introduces a novel approach using Conditional Variational Autoencoders (CVAEs)
-trained on feature vectors extracted from large pre-trained vision foundation
-models. Foundation models effectively detect and represent complex patterns
-across diverse domains, allowing the CVAE to faithfully capture the embedding
-space of a given data distribution to generate (sample) a diverse,
-privacy-respecting, and potentially unbounded set of synthetic feature vectors.
-Our method notably outperforms traditional approaches in both medical and
-natural image domains, exhibiting greater dataset diversity and higher
-robustness against perturbations while preserving sample privacy. These results
-underscore the potential of generative models to significantly impact deep
-learning applications in data-scarce and privacy-sensitive environments. The
-source code is available at
-https://github.com/francescodisalvo05/cvae-anonymization .</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2408.00382v1">Long-Term Conversation Analysis: Privacy-Utility Trade-off under Noise
-  and Reverberation</a></h3>
-  
-  <p><b>Published on:</b> 2024-08-01T08:43:46Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jule Pohlhausen, Francesco Nespoli, Joerg Bitzer</p>
-    <p><b>Summary:</b> Recordings in everyday life require privacy preservation of the speech
-content and speaker identity. This contribution explores the influence of noise
-and reverberation on the trade-off between privacy and utility for low-cost
-privacy-preserving methods feasible for edge computing. These methods
-compromise spectral and temporal smoothing, speaker anonymization using the
-McAdams coefficient, sampling with a very low sampling rate, and combinations.
-Privacy is assessed by automatic speech and speaker recognition, while our
-utility considers voice activity detection and speaker diarization. Overall,
-our evaluation shows that additional noise degrades the performance of all
-models more than reverberation. This degradation corresponds to enhanced speech
-privacy, while utility is less deteriorated for some methods.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2408.00294v1">RDP: Ranked Differential Privacy for Facial Feature Protection in
-  Multiscale Sparsified Subspace</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB">
-  <p><b>Published on:</b> 2024-08-01T05:41:59Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Lu Ou, Shaolin Liao, Shihui Gao, Guandong Huang, Zheng Qi</p>
-    <p><b>Summary:</b> With the widespread sharing of personal face images in applications' public
-databases, face recognition systems faces real threat of being breached by
-potential adversaries who are able to access users' face images and use them to
-intrude the face recognition systems. In this paper, we propose a novel privacy
-protection method in the multiscale sparsified feature subspaces to protect
-sensitive facial features, by taking care of the influence or weight ranked
-feature coefficients on the privacy budget, named "Ranked Differential Privacy
-(RDP)". After the multiscale feature decomposition, the lightweight Laplacian
-noise is added to the dimension-reduced sparsified feature coefficients
-according to the geometric superposition method. Then, we rigorously prove that
-the RDP satisfies Differential Privacy. After that, the nonlinear Lagrange
-Multiplier (LM) method is formulated for the constraint optimization problem of
-maximizing the utility of the visualization quality protected face images with
-sanitizing noise, under a given facial features privacy budget. Then, two
-methods are proposed to solve the nonlinear LM problem and obtain the optimal
-noise scale parameters: 1) the analytical Normalization Approximation (NA)
-method with identical average noise scale parameter for real-time online
-applications; and 2) the LM optimization Gradient Descent (LMGD) numerical
-method to obtain the nonlinear solution through iterative updating for more
-accurate offline applications. Experimental results on two real-world datasets
-show that our proposed RDP outperforms other state-of-the-art methods: at a
-privacy budget of 0.2, the PSNR (Peak Signal-to-Noise Ratio) of the RDP is
-about ~10 dB higher than (10 times as high as) the highest PSNR of all compared
-methods.</p>
-  </details>
-</div>
-
-
 
 <h2>2024-09</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2409.04366v1">Deanonymizing Ethereum Validators: The P2P Network Has a Privacy Issue</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-09-06T15:57:43Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Lioba Heimbach, Yann Vonlanthen, Juan Villacis, Lucianna Kiffer, Roger Wattenhofer</p>
+    <p><b>Summary:</b> Many blockchain networks aim to preserve the anonymity of validators in the
+peer-to-peer (P2P) network, ensuring that no adversary can link a validator's
+identifier to the IP address of a peer due to associated privacy and security
+concerns. This work demonstrates that the Ethereum P2P network does not offer
+this anonymity. We present a methodology that enables any node in the network
+to identify validators hosted on connected peers and empirically verify the
+feasibility of our proposed method. Using data collected from four nodes over
+three days, we locate more than 15% of Ethereum validators in the P2P network.
+The insights gained from our deanonymization technique provide valuable
+information on the distribution of validators across peers, their geographic
+locations, and hosting organizations. We further discuss the implications and
+risks associated with the lack of anonymity in the P2P network and propose
+methods to help validators protect their privacy. The Ethereum Foundation has
+awarded us a bug bounty, acknowledging the impact of our results.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2409.04257v1">Privacy risk from synthetic data: practical proposals</a></h3>
+  
+  <p><b>Published on:</b> 2024-09-06T13:10:40Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Gillian M Raab</p>
+    <p><b>Summary:</b> This paper proposes and compares measures of identity and attribute
+disclosure risk for synthetic data. Data custodians can use the methods
+proposed here to inform the decision as to whether to release synthetic
+versions of confidential data. Different measures are evaluated on two data
+sets. Insight into the measures is obtained by examining the details of the
+records identified as posing a disclosure risk. This leads to methods to
+identify, and possibly exclude, apparently risky records where the
+identification or attribution would be expected by someone with background
+knowledge of the data. The methods described are available as part of the
+\textbf{synthpop} package for \textbf{R}.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2409.04194v1">Towards Privacy-Preserving Relational Data Synthesis via Probabilistic
+  Relational Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-09-06T11:24:25Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Malte Luttermann, Ralf Möller, Mattis Hartwig</p>
+    <p><b>Summary:</b> Probabilistic relational models provide a well-established formalism to
+combine first-order logic and probabilistic models, thereby allowing to
+represent relationships between objects in a relational domain. At the same
+time, the field of artificial intelligence requires increasingly large amounts
+of relational training data for various machine learning tasks. Collecting
+real-world data, however, is often challenging due to privacy concerns, data
+protection regulations, high costs, and so on. To mitigate these challenges,
+the generation of synthetic data is a promising approach. In this paper, we
+solve the problem of generating synthetic relational data via probabilistic
+relational models. In particular, we propose a fully-fledged pipeline to go
+from relational database to probabilistic relational model, which can then be
+used to sample new synthetic relational data points from its underlying
+probability distribution. As part of our proposed pipeline, we introduce a
+learning algorithm to construct a probabilistic relational model from a given
+relational database.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2409.04173v1">NPU-NTU System for Voice Privacy 2024 Challenge</a></h3>
+  
+  <p><b>Published on:</b> 2024-09-06T10:32:42Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jixun Yao, Nikita Kuzmin, Qing Wang, Pengcheng Guo, Ziqian Ning, Dake Guo, Kong Aik Lee, Eng-Siong Chng, Lei Xie</p>
+    <p><b>Summary:</b> Speaker anonymization is an effective privacy protection solution that
+conceals the speaker's identity while preserving the linguistic content and
+paralinguistic information of the original speech. To establish a fair
+benchmark and facilitate comparison of speaker anonymization systems, the
+VoicePrivacy Challenge (VPC) was held in 2020 and 2022, with a new edition
+planned for 2024. In this paper, we describe our proposed speaker anonymization
+system for VPC 2024. Our system employs a disentangled neural codec
+architecture and a serial disentanglement strategy to gradually disentangle the
+global speaker identity and time-variant linguistic content and paralinguistic
+information. We introduce multiple distillation methods to disentangle
+linguistic content, speaker identity, and emotion. These methods include
+semantic distillation, supervised speaker distillation, and frame-level emotion
+distillation. Based on these distillations, we anonymize the original speaker
+identity using a weighted sum of a set of candidate speaker identities and a
+randomly generated speaker identity. Our system achieves the best trade-off of
+privacy protection and emotion preservation in VPC 2024.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2409.04167v1">Do Android App Developers Accurately Report Collection of
+  Privacy-Related Data?</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-09-06T10:05:45Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mugdha Khedkar, Ambuj Kumar Mondal, Eric Bodden</p>
+    <p><b>Summary:</b> Many Android applications collect data from users. The European Union's
+General Data Protection Regulation (GDPR) requires vendors to faithfully
+disclose which data their apps collect. This task is complicated because many
+apps use third-party code for which the same information is not readily
+available. Hence we ask: how accurately do current Android apps fulfill these
+requirements?
+  In this work, we first expose a multi-layered definition of privacy-related
+data to correctly report data collection in Android apps. We further create a
+dataset of privacy-sensitive data classes that may be used as input by an
+Android app. This dataset takes into account data collected both through the
+user interface and system APIs.
+  We manually examine the data safety sections of 70 Android apps to observe
+how data collection is reported, identifying instances of over- and
+under-reporting. Additionally, we develop a prototype to statically extract and
+label privacy-related data collected via app source code, user interfaces, and
+permissions. Comparing the prototype's results with the data safety sections of
+20 apps reveals reporting discrepancies. Using the results from two Messaging
+and Social Media apps (Signal and Instagram), we discuss how app developers
+under-report and over-report data collection, respectively, and identify
+inaccurately reported data categories.
+  Our results show that app developers struggle to accurately report data
+collection, either due to Google's abstract definition of collected data or
+insufficient existing tool support.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2409.04048v1">Exploring User Privacy Awareness on GitHub: An Empirical Study</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
+  <p><b>Published on:</b> 2024-09-06T06:41:46Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Costanza Alfieri, Juri Di Rocco, Phuong T. Nguyen, Paola Inverardi</p>
+    <p><b>Summary:</b> GitHub provides developers with a practical way to distribute source code and
+collaboratively work on common projects. To enhance account security and
+privacy, GitHub allows its users to manage access permissions, review audit
+logs, and enable two-factor authentication. However, despite the endless
+effort, the platform still faces various issues related to the privacy of its
+users. This paper presents an empirical study delving into the GitHub
+ecosystem. Our focus is on investigating the utilization of privacy settings on
+the platform and identifying various types of sensitive information disclosed
+by users. Leveraging a dataset comprising 6,132 developers, we report and
+analyze their activities by means of comments on pull requests. Our findings
+indicate an active engagement by users with the available privacy settings on
+GitHub. Notably, we observe the disclosure of different forms of private
+information within pull request comments. This observation has prompted our
+exploration into sensitivity detection using a large language model and BERT,
+to pave the way for a personalized privacy assistant. Our work provides
+insights into the utilization of existing privacy protection tools, such as
+privacy settings, along with their inherent limitations. Essentially, we aim to
+advance research in this field by providing both the motivation for creating
+such privacy protection tools and a proposed methodology for personalizing
+them.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2409.04026v1">Efficient Fault-Tolerant Quantum Protocol for Differential Privacy in
+  the Shuffle Model</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-09-06T04:53:19Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Hassan Jameel Asghar, Arghya Mukherjee, Gavin K. Brennen</p>
+    <p><b>Summary:</b> We present a quantum protocol which securely and implicitly implements a
+random shuffle to realize differential privacy in the shuffle model. The
+shuffle model of differential privacy amplifies privacy achievable via local
+differential privacy by randomly permuting the tuple of outcomes from data
+contributors. In practice, one needs to address how this shuffle is
+implemented. Examples include implementing the shuffle via mix-networks, or
+shuffling via a trusted third-party. These implementation specific issues raise
+non-trivial computational and trust requirements in a classical system. We
+propose a quantum version of the protocol using entanglement of quantum states
+and show that the shuffle can be implemented without these extra requirements.
+Our protocol implements k-ary randomized response, for any value of k > 2, and
+furthermore, can be efficiently implemented using fault-tolerant computation.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2409.03707v1">A Different Level Text Protection Mechanism With Differential Privacy</a></h3>
@@ -2519,6 +2488,39 @@ remains decentralized, with only prototypes being shared across domains,
 thereby protecting user privacy. Extensive experiments on four CDR tasks using
 two real-world datasets demonstrate that FedPCL-CDR outperforms the
 state-of-the-art baselines.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2409.03796v1">Protecting Activity Sensing Data Privacy Using Hierarchical Information
+  Dissociation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-09-04T15:38:00Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Guangjing Wang, Hanqing Guo, Yuanda Wang, Bocheng Chen, Ce Zhou, Qiben Yan</p>
+    <p><b>Summary:</b> Smartphones and wearable devices have been integrated into our daily lives,
+offering personalized services. However, many apps become overprivileged as
+their collected sensing data contains unnecessary sensitive information. For
+example, mobile sensing data could reveal private attributes (e.g., gender and
+age) and unintended sensitive features (e.g., hand gestures when entering
+passwords). To prevent sensitive information leakage, existing methods must
+obtain private labels and users need to specify privacy policies. However, they
+only achieve limited control over information disclosure. In this work, we
+present Hippo to dissociate hierarchical information including private metadata
+and multi-grained activity information from the sensing data. Hippo achieves
+fine-grained control over the disclosure of sensitive information without
+requiring private labels. Specifically, we design a latent guidance-based
+diffusion model, which generates multi-grained versions of raw sensor data
+conditioned on hierarchical latent activity features. Hippo enables users to
+control the disclosure of sensitive information in sensing data, ensuring their
+privacy while preserving the necessary features to meet the utility
+requirements of applications. Hippo is the first unified model that achieves
+two goals: perturbing the sensitive attributes and controlling the disclosure
+of sensitive information in mobile sensing data. Extensive experiments show
+that Hippo can anonymize personal attributes and transform activity information
+at various resolutions across different types of sensing data.</p>
   </details>
 </div>
 
