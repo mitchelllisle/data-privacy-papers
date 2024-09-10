@@ -1989,145 +1989,161 @@ queries in various robustness evaluations.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2408.03578v1">Unraveling Privacy Threat Modeling Complexity: Conceptual Privacy
-  Analysis Layers</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-08-07T06:30:20Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Kim Wuyts, Avi Douglen</p>
-    <p><b>Summary:</b> Analyzing privacy threats in software products is an essential part of
-software development to ensure systems are privacy-respecting; yet it is still
-a far from trivial activity. While there have been many advancements in the
-past decade, they tend to focus on describing 'what' the threats are. What
-isn't entirely clear yet is 'how' to actually find these threats. Privacy is a
-complex domain. We propose to use four conceptual layers (feature, ecosystem,
-business context, and environment) to capture this privacy complexity. These
-layers can be used as a frame to structure and specify the privacy analysis
-support in a more tangible and actionable way, thereby improving applicability
-of the analysis process.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2408.03185v1">MaskAnyone Toolkit: Offering Strategies for Minimizing Privacy Risks and
-  Maximizing Utility in Audio-Visual Data Archiving</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Multimedia-5BC0EB">
-  <p><b>Published on:</b> 2024-08-06T13:35:27Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Babajide Alamu Owoyele, Martin Schilling, Rohan Sawahn, Niklas Kaemer, Pavel Zherebenkov, Bhuvanesh Verma, Wim Pouw, Gerard de Melo</p>
-    <p><b>Summary:</b> This paper introduces MaskAnyone, a novel toolkit designed to navigate some
-privacy and ethical concerns of sharing audio-visual data in research.
-MaskAnyone offers a scalable, user-friendly solution for de-identifying
-individuals in video and audio content through face-swapping and voice
-alteration, supporting multi-person masking and real-time bulk processing. By
-integrating this tool within research practices, we aim to enhance data
-reproducibility and utility in social science research. Our approach draws on
-Design Science Research, proposing that MaskAnyone can facilitate safer data
-sharing and potentially reduce the storage of fully identifiable data. We
-discuss the development and capabilities of MaskAnyone, explore its integration
-into ethical research practices, and consider the broader implications of
-audio-visual data masking, including issues of consent and the risk of misuse.
-The paper concludes with a preliminary evaluation framework for assessing the
-effectiveness and ethical integration of masking tools in such research
-settings.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2408.02927v1">HARMONIC: Harnessing LLMs for Tabular Data Synthesis and Privacy
-  Protection</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-08-06T03:21:13Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yuxin Wang, Duanyu Feng, Yongfu Dai, Zhengyu Chen, Jimin Huang, Sophia Ananiadou, Qianqian Xie, Hao Wang</p>
-    <p><b>Summary:</b> Data serves as the fundamental foundation for advancing deep learning,
-particularly tabular data presented in a structured format, which is highly
-conducive to modeling. However, even in the era of LLM, obtaining tabular data
-from sensitive domains remains a challenge due to privacy or copyright
-concerns. Hence, exploring how to effectively use models like LLMs to generate
-realistic and privacy-preserving synthetic tabular data is urgent. In this
-paper, we take a step forward to explore LLMs for tabular data synthesis and
-privacy protection, by introducing a new framework HARMONIC for tabular data
-generation and evaluation. In the tabular data generation of our framework,
-unlike previous small-scale LLM-based methods that rely on continued
-pre-training, we explore the larger-scale LLMs with fine-tuning to generate
-tabular data and enhance privacy. Based on idea of the k-nearest neighbors
-algorithm, an instruction fine-tuning dataset is constructed to inspire LLMs to
-discover inter-row relationships. Then, with fine-tuning, LLMs are trained to
-remember the format and connections of the data rather than the data itself,
-which reduces the risk of privacy leakage. In the evaluation part of our
-framework, we develop specific privacy risk metrics DLT for LLM synthetic data
-generation, as well as performance evaluation metrics LLE for downstream LLM
-tasks. Our experiments find that this tabular data generation framework
-achieves equivalent performance to existing methods with better privacy, which
-also demonstrates our evaluation framework for the effectiveness of synthetic
-data and privacy risks in LLM scenarios.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2408.02750v1">Privacy-Safe Iris Presentation Attack Detection</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> 
-  <p><b>Published on:</b> 2024-08-05T18:09:02Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mahsa Mitcheff, Patrick Tinsley, Adam Czajka</p>
-    <p><b>Summary:</b> This paper proposes a framework for a privacy-safe iris presentation attack
-detection (PAD) method, designed solely with synthetically-generated,
-identity-leakage-free iris images. Once trained, the method is evaluated in a
-classical way using state-of-the-art iris PAD benchmarks. We designed two
-generative models for the synthesis of ISO/IEC 19794-6-compliant iris images.
-The first model synthesizes bona fide-looking samples. To avoid ``identity
-leakage,'' the generated samples that accidentally matched those used in the
-model's training were excluded. The second model synthesizes images of irises
-with textured contact lenses and is conditioned by a given contact lens brand
-to have better control over textured contact lens appearance when forming the
-training set. Our experiments demonstrate that models trained solely on
-synthetic data achieve a lower but still reasonable performance when compared
-to solutions trained with iris images collected from human subjects. This is
-the first-of-its-kind attempt to use solely synthetic data to train a
-fully-functional iris PAD solution, and despite the performance gap between
-regular and the proposed methods, this study demonstrates that with the
-increasing fidelity of generative models, creating such privacy-safe iris PAD
-methods may be possible. The source codes and generative models trained for
-this work are offered along with the paper.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2408.02373v1">Operationalizing Contextual Integrity in Privacy-Conscious Assistants</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2024-08-05T10:53:51Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Sahra Ghalebikesabi, Eugene Bagdasaryan, Ren Yi, Itay Yona, Ilia Shumailov, Aneesh Pappu, Chongyang Shi, Laura Weidinger, Robert Stanforth, Leonard Berrada, Pushmeet Kohli, Po-Sen Huang, Borja Balle</p>
-    <p><b>Summary:</b> Advanced AI assistants combine frontier LLMs and tool access to autonomously
-perform complex tasks on behalf of users. While the helpfulness of such
-assistants can increase dramatically with access to user information including
-emails and documents, this raises privacy concerns about assistants sharing
-inappropriate information with third parties without user supervision. To steer
-information-sharing assistants to behave in accordance with privacy
-expectations, we propose to operationalize $\textit{contextual integrity}$
-(CI), a framework that equates privacy with the appropriate flow of information
-in a given context. In particular, we design and evaluate a number of
-strategies to steer assistants' information-sharing actions to be CI compliant.
-Our evaluation is based on a novel form filling benchmark composed of synthetic
-data and human annotations, and it reveals that prompting frontier LLMs to
-perform CI-based reasoning yields strong results.</p>
-  </details>
-</div>
-
-
 
 <h2>2024-09</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2409.05623v1">A Framework for Differential Privacy Against Timing Attacks</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-09-09T13:56:04Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zachary Ratliff, Salil Vadhan</p>
+    <p><b>Summary:</b> The standard definition of differential privacy (DP) ensures that a
+mechanism's output distribution on adjacent datasets is indistinguishable.
+However, real-world implementations of DP can, and often do, reveal information
+through their runtime distributions, making them susceptible to timing attacks.
+In this work, we establish a general framework for ensuring differential
+privacy in the presence of timing side channels. We define a new notion of
+timing privacy, which captures programs that remain differentially private to
+an adversary that observes the program's runtime in addition to the output. Our
+framework enables chaining together component programs that are timing-stable
+followed by a random delay to obtain DP programs that achieve timing privacy.
+Importantly, our definitions allow for measuring timing privacy and output
+privacy using different privacy measures. We illustrate how to instantiate our
+framework by giving programs for standard DP computations in the RAM and Word
+RAM models of computation. Furthermore, we show how our framework can be
+realized in code through a natural extension of the OpenDP Programming
+Framework.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2409.05249v1">NetDPSyn: Synthesizing Network Traces under Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
+  <p><b>Published on:</b> 2024-09-08T23:54:00Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Danyu Sun, Joann Qiongna Chen, Chen Gong, Tianhao Wang, Zhou Li</p>
+    <p><b>Summary:</b> As the utilization of network traces for the network measurement research
+becomes increasingly prevalent, concerns regarding privacy leakage from network
+traces have garnered the public's attention. To safeguard network traces,
+researchers have proposed the trace synthesis that retains the essential
+properties of the raw data. However, previous works also show that synthesis
+traces with generative models are vulnerable under linkage attacks.
+  This paper introduces NetDPSyn, the first system to synthesize high-fidelity
+network traces under privacy guarantees. NetDPSyn is built with the
+Differential Privacy (DP) framework as its core, which is significantly
+different from prior works that apply DP when training the generative model.
+The experiments conducted on three flow and two packet datasets indicate that
+NetDPSyn achieves much better data utility in downstream tasks like anomaly
+detection. NetDPSyn is also 2.5 times faster than the other methods on average
+in data synthesis.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2409.04877v1">Strong Privacy-Preserving Universally Composable AKA Protocol with
+  Seamless Handover Support for Mobile Virtual Network Operator</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-09-07T18:04:54Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Rabiah Alnashwan, Yang Yang, Yilu Dong, Prosanta Gope, Behzad Abdolmaleki, Syed Rafiul Hussain</p>
+    <p><b>Summary:</b> Consumers seeking a new mobile plan have many choices in the present mobile
+landscape. The Mobile Virtual Network Operator (MVNO) has recently gained
+considerable attention among these options. MVNOs offer various benefits,
+making them an appealing choice for a majority of consumers. These advantages
+encompass flexibility, access to cutting-edge technologies, enhanced coverage,
+superior customer service, and substantial cost savings. Even though MVNO
+offers several advantages, it also creates some security and privacy concerns
+for the customer simultaneously. For instance, in the existing solution, MVNO
+needs to hand over all the sensitive details, including the users' identities
+and master secret keys of their customers, to a mobile operator (MNO) to
+validate the customers while offering any services. This allows MNOs to have
+unrestricted access to the MVNO subscribers' location and mobile data,
+including voice calls, SMS, and Internet, which the MNOs frequently sell to
+third parties (e.g., advertisement companies and surveillance agencies) for
+more profit. Although critical for mass users, such privacy loss has been
+historically ignored due to the lack of practical and privacy-preserving
+solutions for registration and handover procedures in cellular networks. In
+this paper, we propose a universally composable authentication and handover
+scheme with strong user privacy support, where each MVNO user can validate a
+mobile operator (MNO) and vice-versa without compromising user anonymity and
+unlinkability support. Here, we anticipate that our proposed solution will most
+likely be deployed by the MVNO(s) to ensure enhanced privacy support to their
+customer(s).</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2409.04716v1">Privacy enhanced collaborative inference in the Cox proportional hazards
+  model for distributed data</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36"> 
+  <p><b>Published on:</b> 2024-09-07T05:32:34Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mengtong Hu, Xu Shi, Peter X. -K. Song</p>
+    <p><b>Summary:</b> Data sharing barriers are paramount challenges arising from multicenter
+clinical studies where multiple data sources are stored in a distributed
+fashion at different local study sites. Particularly in the case of
+time-to-event analysis when global risk sets are needed for the Cox
+proportional hazards model, access to a centralized database is typically
+necessary. Merging such data sources into a common data storage for a
+centralized statistical analysis requires a data use agreement, which is often
+time-consuming. Furthermore, the construction and distribution of risk sets to
+participating clinical centers for subsequent calculations may pose a risk of
+revealing individual-level information. We propose a new collaborative Cox
+model that eliminates the need for accessing the centralized database and
+constructing global risk sets but needs only the sharing of summary statistics
+with significantly smaller dimensions than risk sets. Thus, the proposed
+collaborative inference enjoys maximal protection of data privacy. We show
+theoretically and numerically that the new distributed proportional hazards
+model approach has little loss of statistical power when compared to the
+centralized method that requires merging the entire data. We present a
+renewable sieve method to establish large-sample properties for the proposed
+method. We illustrate its performance through simulation experiments and a
+real-world data example from patients with kidney transplantation in the Organ
+Procurement and Transplantation Network (OPTN) to understand the factors
+associated with the 5-year death-censored graft failure (DCGF) for patients who
+underwent kidney transplants in the US.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2409.04652v1">Privacy-Preserving Race/Ethnicity Estimation for Algorithmic Bias
+  Measurement in the U.S</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-09-06T23:29:18Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Saikrishna Badrinarayanan, Osonde Osoba, Miao Cheng, Ryan Rogers, Sakshi Jain, Rahul Tandra, Natesh S. Pillai</p>
+    <p><b>Summary:</b> AI fairness measurements, including tests for equal treatment, often take the
+form of disaggregated evaluations of AI systems. Such measurements are an
+important part of Responsible AI operations. These measurements compare system
+performance across demographic groups or sub-populations and typically require
+member-level demographic signals such as gender, race, ethnicity, and location.
+However, sensitive member-level demographic attributes like race and ethnicity
+can be challenging to obtain and use due to platform choices, legal
+constraints, and cultural norms. In this paper, we focus on the task of
+enabling AI fairness measurements on race/ethnicity for \emph{U.S. LinkedIn
+members} in a privacy-preserving manner. We present the Privacy-Preserving
+Probabilistic Race/Ethnicity Estimation (PPRE) method for performing this task.
+PPRE combines the Bayesian Improved Surname Geocoding (BISG) model, a sparse
+LinkedIn survey sample of self-reported demographics, and privacy-enhancing
+technologies like secure two-party computation and differential privacy to
+enable meaningful fairness measurements while preserving member privacy. We
+provide details of the PPRE method and its privacy guarantees. We then
+illustrate sample measurement operations. We conclude with a review of open
+research and engineering challenges for expanding our privacy-preserving
+fairness measurement capabilities.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2409.04366v1">Deanonymizing Ethereum Validators: The P2P Network Has a Privacy Issue</a></h3>
