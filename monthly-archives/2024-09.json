@@ -765,5 +765,139 @@
       "cs.AI",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.05623v1",
+    "title" : "A Framework for Differential Privacy Against Timing Attacks",
+    "summary" : "The standard definition of differential privacy (DP) ensures that a\nmechanism's output distribution on adjacent datasets is indistinguishable.\nHowever, real-world implementations of DP can, and often do, reveal information\nthrough their runtime distributions, making them susceptible to timing attacks.\nIn this work, we establish a general framework for ensuring differential\nprivacy in the presence of timing side channels. We define a new notion of\ntiming privacy, which captures programs that remain differentially private to\nan adversary that observes the program's runtime in addition to the output. Our\nframework enables chaining together component programs that are timing-stable\nfollowed by a random delay to obtain DP programs that achieve timing privacy.\nImportantly, our definitions allow for measuring timing privacy and output\nprivacy using different privacy measures. We illustrate how to instantiate our\nframework by giving programs for standard DP computations in the RAM and Word\nRAM models of computation. Furthermore, we show how our framework can be\nrealized in code through a natural extension of the OpenDP Programming\nFramework.",
+    "updated" : "2024-09-09T13:56:04Z",
+    "published" : "2024-09-09T13:56:04Z",
+    "authors" : [
+      {
+        "name" : "Zachary Ratliff"
+      },
+      {
+        "name" : "Salil Vadhan"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.05249v1",
+    "title" : "NetDPSyn: Synthesizing Network Traces under Differential Privacy",
+    "summary" : "As the utilization of network traces for the network measurement research\nbecomes increasingly prevalent, concerns regarding privacy leakage from network\ntraces have garnered the public's attention. To safeguard network traces,\nresearchers have proposed the trace synthesis that retains the essential\nproperties of the raw data. However, previous works also show that synthesis\ntraces with generative models are vulnerable under linkage attacks.\n  This paper introduces NetDPSyn, the first system to synthesize high-fidelity\nnetwork traces under privacy guarantees. NetDPSyn is built with the\nDifferential Privacy (DP) framework as its core, which is significantly\ndifferent from prior works that apply DP when training the generative model.\nThe experiments conducted on three flow and two packet datasets indicate that\nNetDPSyn achieves much better data utility in downstream tasks like anomaly\ndetection. NetDPSyn is also 2.5 times faster than the other methods on average\nin data synthesis.",
+    "updated" : "2024-09-08T23:54:00Z",
+    "published" : "2024-09-08T23:54:00Z",
+    "authors" : [
+      {
+        "name" : "Danyu Sun"
+      },
+      {
+        "name" : "Joann Qiongna Chen"
+      },
+      {
+        "name" : "Chen Gong"
+      },
+      {
+        "name" : "Tianhao Wang"
+      },
+      {
+        "name" : "Zhou Li"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DB",
+      "cs.NI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.04877v1",
+    "title" : "Strong Privacy-Preserving Universally Composable AKA Protocol with\n  Seamless Handover Support for Mobile Virtual Network Operator",
+    "summary" : "Consumers seeking a new mobile plan have many choices in the present mobile\nlandscape. The Mobile Virtual Network Operator (MVNO) has recently gained\nconsiderable attention among these options. MVNOs offer various benefits,\nmaking them an appealing choice for a majority of consumers. These advantages\nencompass flexibility, access to cutting-edge technologies, enhanced coverage,\nsuperior customer service, and substantial cost savings. Even though MVNO\noffers several advantages, it also creates some security and privacy concerns\nfor the customer simultaneously. For instance, in the existing solution, MVNO\nneeds to hand over all the sensitive details, including the users' identities\nand master secret keys of their customers, to a mobile operator (MNO) to\nvalidate the customers while offering any services. This allows MNOs to have\nunrestricted access to the MVNO subscribers' location and mobile data,\nincluding voice calls, SMS, and Internet, which the MNOs frequently sell to\nthird parties (e.g., advertisement companies and surveillance agencies) for\nmore profit. Although critical for mass users, such privacy loss has been\nhistorically ignored due to the lack of practical and privacy-preserving\nsolutions for registration and handover procedures in cellular networks. In\nthis paper, we propose a universally composable authentication and handover\nscheme with strong user privacy support, where each MVNO user can validate a\nmobile operator (MNO) and vice-versa without compromising user anonymity and\nunlinkability support. Here, we anticipate that our proposed solution will most\nlikely be deployed by the MVNO(s) to ensure enhanced privacy support to their\ncustomer(s).",
+    "updated" : "2024-09-07T18:04:54Z",
+    "published" : "2024-09-07T18:04:54Z",
+    "authors" : [
+      {
+        "name" : "Rabiah Alnashwan"
+      },
+      {
+        "name" : "Yang Yang"
+      },
+      {
+        "name" : "Yilu Dong"
+      },
+      {
+        "name" : "Prosanta Gope"
+      },
+      {
+        "name" : "Behzad Abdolmaleki"
+      },
+      {
+        "name" : "Syed Rafiul Hussain"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.04716v1",
+    "title" : "Privacy enhanced collaborative inference in the Cox proportional hazards\n  model for distributed data",
+    "summary" : "Data sharing barriers are paramount challenges arising from multicenter\nclinical studies where multiple data sources are stored in a distributed\nfashion at different local study sites. Particularly in the case of\ntime-to-event analysis when global risk sets are needed for the Cox\nproportional hazards model, access to a centralized database is typically\nnecessary. Merging such data sources into a common data storage for a\ncentralized statistical analysis requires a data use agreement, which is often\ntime-consuming. Furthermore, the construction and distribution of risk sets to\nparticipating clinical centers for subsequent calculations may pose a risk of\nrevealing individual-level information. We propose a new collaborative Cox\nmodel that eliminates the need for accessing the centralized database and\nconstructing global risk sets but needs only the sharing of summary statistics\nwith significantly smaller dimensions than risk sets. Thus, the proposed\ncollaborative inference enjoys maximal protection of data privacy. We show\ntheoretically and numerically that the new distributed proportional hazards\nmodel approach has little loss of statistical power when compared to the\ncentralized method that requires merging the entire data. We present a\nrenewable sieve method to establish large-sample properties for the proposed\nmethod. We illustrate its performance through simulation experiments and a\nreal-world data example from patients with kidney transplantation in the Organ\nProcurement and Transplantation Network (OPTN) to understand the factors\nassociated with the 5-year death-censored graft failure (DCGF) for patients who\nunderwent kidney transplants in the US.",
+    "updated" : "2024-09-07T05:32:34Z",
+    "published" : "2024-09-07T05:32:34Z",
+    "authors" : [
+      {
+        "name" : "Mengtong Hu"
+      },
+      {
+        "name" : "Xu Shi"
+      },
+      {
+        "name" : "Peter X. -K. Song"
+      }
+    ],
+    "categories" : [
+      "stat.AP",
+      "math.ST",
+      "stat.TH"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.04652v1",
+    "title" : "Privacy-Preserving Race/Ethnicity Estimation for Algorithmic Bias\n  Measurement in the U.S",
+    "summary" : "AI fairness measurements, including tests for equal treatment, often take the\nform of disaggregated evaluations of AI systems. Such measurements are an\nimportant part of Responsible AI operations. These measurements compare system\nperformance across demographic groups or sub-populations and typically require\nmember-level demographic signals such as gender, race, ethnicity, and location.\nHowever, sensitive member-level demographic attributes like race and ethnicity\ncan be challenging to obtain and use due to platform choices, legal\nconstraints, and cultural norms. In this paper, we focus on the task of\nenabling AI fairness measurements on race/ethnicity for \\emph{U.S. LinkedIn\nmembers} in a privacy-preserving manner. We present the Privacy-Preserving\nProbabilistic Race/Ethnicity Estimation (PPRE) method for performing this task.\nPPRE combines the Bayesian Improved Surname Geocoding (BISG) model, a sparse\nLinkedIn survey sample of self-reported demographics, and privacy-enhancing\ntechnologies like secure two-party computation and differential privacy to\nenable meaningful fairness measurements while preserving member privacy. We\nprovide details of the PPRE method and its privacy guarantees. We then\nillustrate sample measurement operations. We conclude with a review of open\nresearch and engineering challenges for expanding our privacy-preserving\nfairness measurement capabilities.",
+    "updated" : "2024-09-06T23:29:18Z",
+    "published" : "2024-09-06T23:29:18Z",
+    "authors" : [
+      {
+        "name" : "Saikrishna Badrinarayanan"
+      },
+      {
+        "name" : "Osonde Osoba"
+      },
+      {
+        "name" : "Miao Cheng"
+      },
+      {
+        "name" : "Ryan Rogers"
+      },
+      {
+        "name" : "Sakshi Jain"
+      },
+      {
+        "name" : "Rahul Tandra"
+      },
+      {
+        "name" : "Natesh S. Pillai"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
   }
 ]
