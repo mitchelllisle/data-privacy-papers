@@ -1821,176 +1821,183 @@ reconstruction attacks.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2408.04931v1">Privacy-Preserved Taxi Demand Prediction System Utilizing Distributed
-  Data</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2024-08-09T08:24:47Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ren Ozeki, Haruki Yonekura, Hamada Rizk, Hirozumi Yamaguchi</p>
-    <p><b>Summary:</b> Accurate taxi-demand prediction is essential for optimizing taxi operations
-and enhancing urban transportation services. However, using customers' data in
-these systems raises significant privacy and security concerns. Traditional
-federated learning addresses some privacy issues by enabling model training
-without direct data exchange but often struggles with accuracy due to varying
-data distributions across different regions or service providers. In this
-paper, we propose CC-Net: a novel approach using collaborative learning
-enhanced with contrastive learning for taxi-demand prediction. Our method
-ensures high performance by enabling multiple parties to collaboratively train
-a demand-prediction model through hierarchical federated learning. In this
-approach, similar parties are clustered together, and federated learning is
-applied within each cluster. The similarity is defined without data exchange,
-ensuring privacy and security. We evaluated our approach using real-world data
-from five taxi service providers in Japan over fourteen months. The results
-demonstrate that CC-Net maintains the privacy of customers' data while
-improving prediction accuracy by at least 2.2% compared to existing techniques.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2408.04888v2">Locally Private Histograms in All Privacy Regimes</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Discrete Mathematics-04E762">
-  <p><b>Published on:</b> 2024-08-09T06:22:45Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Clément L. Canonne, Abigail Gentle</p>
-    <p><b>Summary:</b> Frequency estimation, a.k.a. histograms, is a workhorse of data analysis, and
-as such has been thoroughly studied under differentially privacy. In
-particular, computing histograms in the \emph{local} model of privacy has been
-the focus of a fruitful recent line of work, and various algorithms have been
-proposed, achieving the order-optimal $\ell_\infty$ error in the high-privacy
-(small $\varepsilon$) regime while balancing other considerations such as time-
-and communication-efficiency. However, to the best of our knowledge, the
-picture is much less clear when it comes to the medium- or low-privacy regime
-(large $\varepsilon$), despite its increased relevance in practice. In this
-paper, we investigate locally private histograms, and the very related
-distribution learning task, in this medium-to-low privacy regime, and establish
-near-tight (and somewhat unexpected) bounds on the $\ell_\infty$ error
-achievable. As a direct corollary of our results, we obtain a protocol for
-histograms in the \emph{shuffle} model of differential privacy, with accuracy
-matching previous algorithms but significantly better message and communication
-complexity.
-  Our theoretical findings emerge from a novel analysis, which appears to
-improve bounds across the board for the locally private histogram problem. We
-back our theoretical findings by an empirical comparison of existing algorithms
-in all privacy regimes, to assess their typical performance and behaviour
-beyond the worst-case setting.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2408.04684v1">Moving beyond privacy and airspace safety: Guidelines for just drones in
-  policing</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2024-08-08T09:04:01Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mateusz Dolata, Gerhard Schwabe</p>
-    <p><b>Summary:</b> The use of drones offers police forces potential gains in efficiency and
-safety. However, their use may also harm public perception of the police if
-drones are refused. Therefore, police forces should consider the perception of
-bystanders and broader society to maximize drones' potential. This article
-examines the concerns expressed by members of the public during a field trial
-involving 52 test participants. Analysis of the group interviews suggests that
-their worries go beyond airspace safety and privacy, broadly discussed in
-existing literature and regulations. The interpretation of the results
-indicates that the perceived justice of drone use is a significant factor in
-acceptance. Leveraging the concept of organizational justice and data
-collected, we propose a catalogue of guidelines for just operation of drones to
-supplement the existing policy. We present the organizational justice
-perspective as a framework to integrate the concerns of the public and
-bystanders into legal work. Finally, we discuss the relevance of justice for
-the legitimacy of the police's actions and provide implications for research
-and practice.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2408.04315v1">Federated Cubic Regularized Newton Learning with
-  Sparsification-amplified Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36"> 
-  <p><b>Published on:</b> 2024-08-08T08:48:54Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Wei Huo, Changxin Liu, Kemi Ding, Karl Henrik Johansson, Ling Shi</p>
-    <p><b>Summary:</b> This paper investigates the use of the cubic-regularized Newton method within
-a federated learning framework while addressing two major concerns that
-commonly arise in federated learning: privacy leakage and communication
-bottleneck. We introduce a federated learning algorithm called Differentially
-Private Federated Cubic Regularized Newton (DP-FCRN). By leveraging
-second-order techniques, our algorithm achieves lower iteration complexity
-compared to first-order methods. We also incorporate noise perturbation during
-local computations to ensure privacy. Furthermore, we employ sparsification in
-uplink transmission, which not only reduces the communication costs but also
-amplifies the privacy guarantee. Specifically, this approach reduces the
-necessary noise intensity without compromising privacy protection. We analyze
-the convergence properties of our algorithm and establish the privacy
-guarantee. Finally, we validate the effectiveness of the proposed algorithm
-through experiments on a benchmark dataset.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2408.04188v1">Trustworthy Semantic-Enabled 6G Communication: A Task-oriented and
-  Privacy-preserving Perspective</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36"> 
-  <p><b>Published on:</b> 2024-08-08T03:16:42Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shuaishuai Guo, Anbang Zhang, Yanhu Wang, Chenyuan Feng, Tony Q. S. Quek</p>
-    <p><b>Summary:</b> Trustworthy task-oriented semantic communication (ToSC) emerges as an
-innovative approach in the 6G landscape, characterized by the transmission of
-only vital information that is directly pertinent to a specific task. While
-ToSC offers an efficient mode of communication, it concurrently raises concerns
-regarding privacy, as sophisticated adversaries might possess the capability to
-reconstruct the original data from the transmitted features. This article
-provides an in-depth analysis of privacy-preserving strategies specifically
-designed for ToSC relying on deep neural network-based joint source and channel
-coding (DeepJSCC). The study encompasses a detailed comparative assessment of
-trustworthy feature perturbation methods such as differential privacy and
-encryption, alongside intrinsic security incorporation approaches like
-adversarial learning to train the JSCC and learning-based vector quantization
-(LBVQ). This comparative analysis underscores the integration of advanced
-explainable learning algorithms into communication systems, positing a new
-benchmark for privacy standards in the forthcoming 6G era.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2408.03897v1">Speech privacy-preserving methods using secret key for convolutional
-  neural network models and their robustness evaluation</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Sound-D91E36">
-  <p><b>Published on:</b> 2024-08-07T16:51:39Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shoko Niwa, Sayaka Shiota, Hitoshi Kiya</p>
-    <p><b>Summary:</b> In this paper, we propose privacy-preserving methods with a secret key for
-convolutional neural network (CNN)-based models in speech processing tasks. In
-environments where untrusted third parties, like cloud servers, provide
-CNN-based systems, ensuring the privacy of speech queries becomes essential.
-This paper proposes encryption methods for speech queries using secret keys and
-a model structure that allows for encrypted queries to be accepted without
-decryption. Our approach introduces three types of secret keys: Shuffling,
-Flipping, and random orthogonal matrix (ROM). In experiments, we demonstrate
-that when the proposed methods are used with the correct key, identification
-performance did not degrade. Conversely, when an incorrect key is used, the
-performance significantly decreased. Particularly, with the use of ROM, we show
-that even with a relatively small key space, high privacy-preserving
-performance can be maintained many speech processing tasks. Furthermore, we
-also demonstrate the difficulty of recovering original speech from encrypted
-queries in various robustness evaluations.</p>
-  </details>
-</div>
-
-
 
 <h2>2024-09</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2409.06564v1">Advancing Android Privacy Assessments with Automation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-09-10T14:56:51Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mugdha Khedkar, Michael Schlichtig, Eric Bodden</p>
+    <p><b>Summary:</b> Android apps collecting data from users must comply with legal frameworks to
+ensure data protection. This requirement has become even more important since
+the implementation of the General Data Protection Regulation (GDPR) by the
+European Union in 2018. Moreover, with the proposed Cyber Resilience Act on the
+horizon, stakeholders will soon need to assess software against even more
+stringent security and privacy standards. Effective privacy assessments require
+collaboration among groups with diverse expertise to function effectively as a
+cohesive unit.
+  This paper motivates the need for an automated approach that enhances
+understanding of data protection in Android apps and improves communication
+between the various parties involved in privacy assessments. We propose the
+Assessor View, a tool designed to bridge the knowledge gap between these
+parties, facilitating more effective privacy assessments of Android
+applications.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2409.06455v1">Continual Domain Incremental Learning for Privacy-aware Digital
+  Pathology</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2024-09-10T12:21:54Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Pratibha Kumari, Daniel Reisenbüchler, Lucas Luttner, Nadine S. Schaadt, Friedrich Feuerhake, Dorit Merhof</p>
+    <p><b>Summary:</b> In recent years, there has been remarkable progress in the field of digital
+pathology, driven by the ability to model complex tissue patterns using
+advanced deep-learning algorithms. However, the robustness of these models is
+often severely compromised in the presence of data shifts (e.g., different
+stains, organs, centers, etc.). Alternatively, continual learning (CL)
+techniques aim to reduce the forgetting of past data when learning new data
+with distributional shift conditions. Specifically, rehearsal-based CL
+techniques, which store some past data in a buffer and then replay it with new
+data, have proven effective in medical image analysis tasks. However, privacy
+concerns arise as these approaches store past data, prompting the development
+of our novel Generative Latent Replay-based CL (GLRCL) approach. GLRCL captures
+the previous distribution through Gaussian Mixture Models instead of storing
+past samples, which are then utilized to generate features and perform latent
+replay with new data. We systematically evaluate our proposed framework under
+different shift conditions in histopathology data, including stain and organ
+shift. Our approach significantly outperforms popular buffer-free CL approaches
+and performs similarly to rehearsal-based CL approaches that require large
+buffers causing serious privacy violations.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2409.06422v1">A Pervasive, Efficient and Private Future: Realizing Privacy-Preserving
+  Machine Learning Through Hybrid Homomorphic Encryption</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-09-10T11:04:14Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Khoa Nguyen, Mindaugas Budzys, Eugene Frimpong, Tanveer Khan, Antonis Michalas</p>
+    <p><b>Summary:</b> Machine Learning (ML) has become one of the most impactful fields of data
+science in recent years. However, a significant concern with ML is its privacy
+risks due to rising attacks against ML models. Privacy-Preserving Machine
+Learning (PPML) methods have been proposed to mitigate the privacy and security
+risks of ML models. A popular approach to achieving PPML uses Homomorphic
+Encryption (HE). However, the highly publicized inefficiencies of HE make it
+unsuitable for highly scalable scenarios with resource-constrained devices.
+Hence, Hybrid Homomorphic Encryption (HHE) -- a modern encryption scheme that
+combines symmetric cryptography with HE -- has recently been introduced to
+overcome these challenges. HHE potentially provides a foundation to build new
+efficient and privacy-preserving services that transfer expensive HE operations
+to the cloud. This work introduces HHE to the ML field by proposing
+resource-friendly PPML protocols for edge devices. More precisely, we utilize
+HHE as the primary building block of our PPML protocols. We assess the
+performance of our protocols by first extensively evaluating each party's
+communication and computational cost on a dummy dataset and show the efficiency
+of our protocols by comparing them with similar protocols implemented using
+plain BFV. Subsequently, we demonstrate the real-world applicability of our
+construction by building an actual PPML application that uses HHE as its
+foundation to classify heart disease based on sensitive ECG data.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2409.06360v1">SoK: Evaluating 5G Protocols Against Legacy and Emerging Privacy and
+  Security Attacks</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
+  <p><b>Published on:</b> 2024-09-10T09:30:37Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Stavros Eleftherakis, Domenico Giustiniano, Nicolas Kourtellis</p>
+    <p><b>Summary:</b> Ensuring user privacy remains a critical concern within mobile cellular
+networks, particularly given the proliferation of interconnected devices and
+services. In fact, a lot of user privacy issues have been raised in 2G, 3G,
+4G/LTE networks. Recognizing this general concern, 3GPP has prioritized
+addressing these issues in the development of 5G, implementing numerous
+modifications to enhance user privacy since 5G Release 15. In this
+systematization of knowledge paper, we first provide a framework for studying
+privacy and security related attacks in cellular networks, setting as privacy
+objective the User Identity Confidentiality defined in 3GPP standards. Using
+this framework, we discuss existing privacy and security attacks in pre-5G
+networks, analyzing the weaknesses that lead to these attacks. Furthermore, we
+thoroughly study the security characteristics of 5G up to the new Release 19,
+and examine mitigation mechanisms of 5G to the identified pre-5G attacks.
+Afterwards, we analyze how recent 5G attacks try to overcome these mitigation
+mechanisms. Finally, we identify current limitations and open problems in
+security of 5G, and propose directions for future work.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2409.06233v1">VBIT: Towards Enhancing Privacy Control Over IoT Devices</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2024-09-10T06:00:50Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jad Al Aaraj, Olivia Figueira, Tu Le, Isabela Figueira, Rahmadi Trimananda, Athina Markopoulou</p>
+    <p><b>Summary:</b> Internet-of-Things (IoT) devices are increasingly deployed at home, at work,
+and in other shared and public spaces. IoT devices collect and share data with
+service providers and third parties, which poses privacy concerns. Although
+privacy enhancing tools are quite advanced in other applications domains (\eg~
+advertising and tracker blockers for browsers), users have currently no
+convenient way to know or manage what and how data is collected and shared by
+IoT devices. In this paper, we present VBIT, an interactive system combining
+Mixed Reality (MR) and web-based applications that allows users to: (1) uncover
+and visualize tracking services by IoT devices in an instrumented space and (2)
+take action to stop or limit that tracking. We design and implement VBIT to
+operate at the network traffic level, and we show that it has negligible
+performance overhead, and offers flexibility and good usability. We perform a
+mixed-method user study consisting of an online survey and an in-person
+interview study. We show that VBIT users appreciate VBIT's transparency,
+control, and customization features, and they become significantly more willing
+to install an IoT advertising and tracking blocker, after using VBIT. In the
+process, we obtain design insights that can be used to further iterate and
+improve the design of VBIT and other systems for IoT transparency and control.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2409.06069v1">Privacy-Preserving Data Linkage Across Private and Public Datasets for
+  Collaborative Agriculture Research</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2024-09-09T21:07:13Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Osama Zafar, Rosemarie Santa Gonzalez, Gabriel Wilkins, Alfonso Morales, Erman Ayday</p>
+    <p><b>Summary:</b> Digital agriculture leverages technology to enhance crop yield, disease
+resilience, and soil health, playing a critical role in agricultural research.
+However, it raises privacy concerns such as adverse pricing, price
+discrimination, higher insurance costs, and manipulation of resources,
+deterring farm operators from sharing data due to potential misuse. This study
+introduces a privacy-preserving framework that addresses these risks while
+allowing secure data sharing for digital agriculture. Our framework enables
+comprehensive data analysis while protecting privacy. It allows stakeholders to
+harness research-driven policies that link public and private datasets. The
+proposed algorithm achieves this by: (1) identifying similar farmers based on
+private datasets, (2) providing aggregate information like time and location,
+(3) determining trends in price and product availability, and (4) correlating
+trends with public policy data, such as food insecurity statistics. We validate
+the framework with real-world Farmer's Market datasets, demonstrating its
+efficacy through machine learning models trained on linked privacy-preserved
+data. The results support policymakers and researchers in addressing food
+insecurity and pricing issues. This work significantly contributes to digital
+agriculture by providing a secure method for integrating and analyzing data,
+driving advancements in agricultural technology and development.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2409.05623v1">A Framework for Differential Privacy Against Timing Attacks</a></h3>
@@ -2281,12 +2288,12 @@ insufficient existing tool support.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.04048v1">Exploring User Privacy Awareness on GitHub: An Empirical Study</a></h3>
+  <h3><a href="http://arxiv.org/abs/2409.04048v2">Exploring User Privacy Awareness on GitHub: An Empirical Study</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
   <p><b>Published on:</b> 2024-09-06T06:41:46Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Costanza Alfieri, Juri Di Rocco, Phuong T. Nguyen, Paola Inverardi</p>
+    <p><b>Authors:</b> Costanza Alfieri, Juri Di Rocco, Paola Inverardi, Phuong T. Nguyen</p>
     <p><b>Summary:</b> GitHub provides developers with a practical way to distribute source code and
 collaboratively work on common projects. To enhance account security and
 privacy, GitHub allows its users to manage access permissions, review audit
