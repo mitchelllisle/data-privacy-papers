@@ -899,5 +899,190 @@
       "cs.LG",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.06564v1",
+    "title" : "Advancing Android Privacy Assessments with Automation",
+    "summary" : "Android apps collecting data from users must comply with legal frameworks to\nensure data protection. This requirement has become even more important since\nthe implementation of the General Data Protection Regulation (GDPR) by the\nEuropean Union in 2018. Moreover, with the proposed Cyber Resilience Act on the\nhorizon, stakeholders will soon need to assess software against even more\nstringent security and privacy standards. Effective privacy assessments require\ncollaboration among groups with diverse expertise to function effectively as a\ncohesive unit.\n  This paper motivates the need for an automated approach that enhances\nunderstanding of data protection in Android apps and improves communication\nbetween the various parties involved in privacy assessments. We propose the\nAssessor View, a tool designed to bridge the knowledge gap between these\nparties, facilitating more effective privacy assessments of Android\napplications.",
+    "updated" : "2024-09-10T14:56:51Z",
+    "published" : "2024-09-10T14:56:51Z",
+    "authors" : [
+      {
+        "name" : "Mugdha Khedkar"
+      },
+      {
+        "name" : "Michael Schlichtig"
+      },
+      {
+        "name" : "Eric Bodden"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.06455v1",
+    "title" : "Continual Domain Incremental Learning for Privacy-aware Digital\n  Pathology",
+    "summary" : "In recent years, there has been remarkable progress in the field of digital\npathology, driven by the ability to model complex tissue patterns using\nadvanced deep-learning algorithms. However, the robustness of these models is\noften severely compromised in the presence of data shifts (e.g., different\nstains, organs, centers, etc.). Alternatively, continual learning (CL)\ntechniques aim to reduce the forgetting of past data when learning new data\nwith distributional shift conditions. Specifically, rehearsal-based CL\ntechniques, which store some past data in a buffer and then replay it with new\ndata, have proven effective in medical image analysis tasks. However, privacy\nconcerns arise as these approaches store past data, prompting the development\nof our novel Generative Latent Replay-based CL (GLRCL) approach. GLRCL captures\nthe previous distribution through Gaussian Mixture Models instead of storing\npast samples, which are then utilized to generate features and perform latent\nreplay with new data. We systematically evaluate our proposed framework under\ndifferent shift conditions in histopathology data, including stain and organ\nshift. Our approach significantly outperforms popular buffer-free CL approaches\nand performs similarly to rehearsal-based CL approaches that require large\nbuffers causing serious privacy violations.",
+    "updated" : "2024-09-10T12:21:54Z",
+    "published" : "2024-09-10T12:21:54Z",
+    "authors" : [
+      {
+        "name" : "Pratibha Kumari"
+      },
+      {
+        "name" : "Daniel Reisenbüchler"
+      },
+      {
+        "name" : "Lucas Luttner"
+      },
+      {
+        "name" : "Nadine S. Schaadt"
+      },
+      {
+        "name" : "Friedrich Feuerhake"
+      },
+      {
+        "name" : "Dorit Merhof"
+      }
+    ],
+    "categories" : [
+      "eess.IV",
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.06422v1",
+    "title" : "A Pervasive, Efficient and Private Future: Realizing Privacy-Preserving\n  Machine Learning Through Hybrid Homomorphic Encryption",
+    "summary" : "Machine Learning (ML) has become one of the most impactful fields of data\nscience in recent years. However, a significant concern with ML is its privacy\nrisks due to rising attacks against ML models. Privacy-Preserving Machine\nLearning (PPML) methods have been proposed to mitigate the privacy and security\nrisks of ML models. A popular approach to achieving PPML uses Homomorphic\nEncryption (HE). However, the highly publicized inefficiencies of HE make it\nunsuitable for highly scalable scenarios with resource-constrained devices.\nHence, Hybrid Homomorphic Encryption (HHE) -- a modern encryption scheme that\ncombines symmetric cryptography with HE -- has recently been introduced to\novercome these challenges. HHE potentially provides a foundation to build new\nefficient and privacy-preserving services that transfer expensive HE operations\nto the cloud. This work introduces HHE to the ML field by proposing\nresource-friendly PPML protocols for edge devices. More precisely, we utilize\nHHE as the primary building block of our PPML protocols. We assess the\nperformance of our protocols by first extensively evaluating each party's\ncommunication and computational cost on a dummy dataset and show the efficiency\nof our protocols by comparing them with similar protocols implemented using\nplain BFV. Subsequently, we demonstrate the real-world applicability of our\nconstruction by building an actual PPML application that uses HHE as its\nfoundation to classify heart disease based on sensitive ECG data.",
+    "updated" : "2024-09-10T11:04:14Z",
+    "published" : "2024-09-10T11:04:14Z",
+    "authors" : [
+      {
+        "name" : "Khoa Nguyen"
+      },
+      {
+        "name" : "Mindaugas Budzys"
+      },
+      {
+        "name" : "Eugene Frimpong"
+      },
+      {
+        "name" : "Tanveer Khan"
+      },
+      {
+        "name" : "Antonis Michalas"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.06360v1",
+    "title" : "SoK: Evaluating 5G Protocols Against Legacy and Emerging Privacy and\n  Security Attacks",
+    "summary" : "Ensuring user privacy remains a critical concern within mobile cellular\nnetworks, particularly given the proliferation of interconnected devices and\nservices. In fact, a lot of user privacy issues have been raised in 2G, 3G,\n4G/LTE networks. Recognizing this general concern, 3GPP has prioritized\naddressing these issues in the development of 5G, implementing numerous\nmodifications to enhance user privacy since 5G Release 15. In this\nsystematization of knowledge paper, we first provide a framework for studying\nprivacy and security related attacks in cellular networks, setting as privacy\nobjective the User Identity Confidentiality defined in 3GPP standards. Using\nthis framework, we discuss existing privacy and security attacks in pre-5G\nnetworks, analyzing the weaknesses that lead to these attacks. Furthermore, we\nthoroughly study the security characteristics of 5G up to the new Release 19,\nand examine mitigation mechanisms of 5G to the identified pre-5G attacks.\nAfterwards, we analyze how recent 5G attacks try to overcome these mitigation\nmechanisms. Finally, we identify current limitations and open problems in\nsecurity of 5G, and propose directions for future work.",
+    "updated" : "2024-09-10T09:30:37Z",
+    "published" : "2024-09-10T09:30:37Z",
+    "authors" : [
+      {
+        "name" : "Stavros Eleftherakis"
+      },
+      {
+        "name" : "Domenico Giustiniano"
+      },
+      {
+        "name" : "Nicolas Kourtellis"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.NI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.06233v1",
+    "title" : "VBIT: Towards Enhancing Privacy Control Over IoT Devices",
+    "summary" : "Internet-of-Things (IoT) devices are increasingly deployed at home, at work,\nand in other shared and public spaces. IoT devices collect and share data with\nservice providers and third parties, which poses privacy concerns. Although\nprivacy enhancing tools are quite advanced in other applications domains (\\eg~\nadvertising and tracker blockers for browsers), users have currently no\nconvenient way to know or manage what and how data is collected and shared by\nIoT devices. In this paper, we present VBIT, an interactive system combining\nMixed Reality (MR) and web-based applications that allows users to: (1) uncover\nand visualize tracking services by IoT devices in an instrumented space and (2)\ntake action to stop or limit that tracking. We design and implement VBIT to\noperate at the network traffic level, and we show that it has negligible\nperformance overhead, and offers flexibility and good usability. We perform a\nmixed-method user study consisting of an online survey and an in-person\ninterview study. We show that VBIT users appreciate VBIT's transparency,\ncontrol, and customization features, and they become significantly more willing\nto install an IoT advertising and tracking blocker, after using VBIT. In the\nprocess, we obtain design insights that can be used to further iterate and\nimprove the design of VBIT and other systems for IoT transparency and control.",
+    "updated" : "2024-09-10T06:00:50Z",
+    "published" : "2024-09-10T06:00:50Z",
+    "authors" : [
+      {
+        "name" : "Jad Al Aaraj"
+      },
+      {
+        "name" : "Olivia Figueira"
+      },
+      {
+        "name" : "Tu Le"
+      },
+      {
+        "name" : "Isabela Figueira"
+      },
+      {
+        "name" : "Rahmadi Trimananda"
+      },
+      {
+        "name" : "Athina Markopoulou"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.06069v1",
+    "title" : "Privacy-Preserving Data Linkage Across Private and Public Datasets for\n  Collaborative Agriculture Research",
+    "summary" : "Digital agriculture leverages technology to enhance crop yield, disease\nresilience, and soil health, playing a critical role in agricultural research.\nHowever, it raises privacy concerns such as adverse pricing, price\ndiscrimination, higher insurance costs, and manipulation of resources,\ndeterring farm operators from sharing data due to potential misuse. This study\nintroduces a privacy-preserving framework that addresses these risks while\nallowing secure data sharing for digital agriculture. Our framework enables\ncomprehensive data analysis while protecting privacy. It allows stakeholders to\nharness research-driven policies that link public and private datasets. The\nproposed algorithm achieves this by: (1) identifying similar farmers based on\nprivate datasets, (2) providing aggregate information like time and location,\n(3) determining trends in price and product availability, and (4) correlating\ntrends with public policy data, such as food insecurity statistics. We validate\nthe framework with real-world Farmer's Market datasets, demonstrating its\nefficacy through machine learning models trained on linked privacy-preserved\ndata. The results support policymakers and researchers in addressing food\ninsecurity and pricing issues. This work significantly contributes to digital\nagriculture by providing a secure method for integrating and analyzing data,\ndriving advancements in agricultural technology and development.",
+    "updated" : "2024-09-09T21:07:13Z",
+    "published" : "2024-09-09T21:07:13Z",
+    "authors" : [
+      {
+        "name" : "Osama Zafar"
+      },
+      {
+        "name" : "Rosemarie Santa Gonzalez"
+      },
+      {
+        "name" : "Gabriel Wilkins"
+      },
+      {
+        "name" : "Alfonso Morales"
+      },
+      {
+        "name" : "Erman Ayday"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.04048v2",
+    "title" : "Exploring User Privacy Awareness on GitHub: An Empirical Study",
+    "summary" : "GitHub provides developers with a practical way to distribute source code and\ncollaboratively work on common projects. To enhance account security and\nprivacy, GitHub allows its users to manage access permissions, review audit\nlogs, and enable two-factor authentication. However, despite the endless\neffort, the platform still faces various issues related to the privacy of its\nusers. This paper presents an empirical study delving into the GitHub\necosystem. Our focus is on investigating the utilization of privacy settings on\nthe platform and identifying various types of sensitive information disclosed\nby users. Leveraging a dataset comprising 6,132 developers, we report and\nanalyze their activities by means of comments on pull requests. Our findings\nindicate an active engagement by users with the available privacy settings on\nGitHub. Notably, we observe the disclosure of different forms of private\ninformation within pull request comments. This observation has prompted our\nexploration into sensitivity detection using a large language model and BERT,\nto pave the way for a personalized privacy assistant. Our work provides\ninsights into the utilization of existing privacy protection tools, such as\nprivacy settings, along with their inherent limitations. Essentially, we aim to\nadvance research in this field by providing both the motivation for creating\nsuch privacy protection tools and a proposed methodology for personalizing\nthem.",
+    "updated" : "2024-09-10T09:35:53Z",
+    "published" : "2024-09-06T06:41:46Z",
+    "authors" : [
+      {
+        "name" : "Costanza Alfieri"
+      },
+      {
+        "name" : "Juri Di Rocco"
+      },
+      {
+        "name" : "Paola Inverardi"
+      },
+      {
+        "name" : "Phuong T. Nguyen"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.SE"
+    ]
   }
 ]
