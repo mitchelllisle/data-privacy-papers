@@ -1084,5 +1084,205 @@
       "cs.CR",
       "cs.SE"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.07444v1",
+    "title" : "Echoes of Privacy: Uncovering the Profiling Practices of Voice\n  Assistants",
+    "summary" : "Many companies, including Google, Amazon, and Apple, offer voice assistants\nas a convenient solution for answering general voice queries and accessing\ntheir services. These voice assistants have gained popularity and can be easily\naccessed through various smart devices such as smartphones, smart speakers,\nsmartwatches, and an increasing array of other devices. However, this\nconvenience comes with potential privacy risks. For instance, while companies\nvaguely mention in their privacy policies that they may use voice interactions\nfor user profiling, it remains unclear to what extent this profiling occurs and\nwhether voice interactions pose greater privacy risks compared to other\ninteraction modalities.\n  In this paper, we conduct 1171 experiments involving a total of 24530 queries\nwith different personas and interaction modalities over the course of 20 months\nto characterize how the three most popular voice assistants profile their\nusers. We analyze factors such as the labels assigned to users, their accuracy,\nthe time taken to assign these labels, differences between voice and web\ninteractions, and the effectiveness of profiling remediation tools offered by\neach voice assistant. Our findings reveal that profiling can happen without\ninteraction, can be incorrect and inconsistent at times, may take several days\nto weeks for changes to occur, and can be influenced by the interaction\nmodality.",
+    "updated" : "2024-09-11T17:44:41Z",
+    "published" : "2024-09-11T17:44:41Z",
+    "authors" : [
+      {
+        "name" : "Tina Khezresmaeilzadeh"
+      },
+      {
+        "name" : "Elaine Zhu"
+      },
+      {
+        "name" : "Kiersten Grieco"
+      },
+      {
+        "name" : "Daniel J. Dubois"
+      },
+      {
+        "name" : "Konstantinos Psounis"
+      },
+      {
+        "name" : "David Choffnes"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "cs.NI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.07415v1",
+    "title" : "SoK: Security and Privacy Risks of Medical AI",
+    "summary" : "The integration of technology and healthcare has ushered in a new era where\nsoftware systems, powered by artificial intelligence and machine learning, have\nbecome essential components of medical products and services. While these\nadvancements hold great promise for enhancing patient care and healthcare\ndelivery efficiency, they also expose sensitive medical data and system\nintegrity to potential cyberattacks. This paper explores the security and\nprivacy threats posed by AI/ML applications in healthcare. Through a thorough\nexamination of existing research across a range of medical domains, we have\nidentified significant gaps in understanding the adversarial attacks targeting\nmedical AI systems. By outlining specific adversarial threat models for medical\nsettings and identifying vulnerable application domains, we lay the groundwork\nfor future research that investigates the security and resilience of AI-driven\nmedical systems. Through our analysis of different threat models and\nfeasibility studies on adversarial attacks in different medical domains, we\nprovide compelling insights into the pressing need for cybersecurity research\nin the rapidly evolving field of AI healthcare technology.",
+    "updated" : "2024-09-11T16:59:58Z",
+    "published" : "2024-09-11T16:59:58Z",
+    "authors" : [
+      {
+        "name" : "Yuanhaur Chang"
+      },
+      {
+        "name" : "Han Liu"
+      },
+      {
+        "name" : "Evin Jaff"
+      },
+      {
+        "name" : "Chenyang Lu"
+      },
+      {
+        "name" : "Ning Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.07224v1",
+    "title" : "Analytic Class Incremental Learning for Sound Source Localization with\n  Privacy Protection",
+    "summary" : "Sound Source Localization (SSL) enabling technology for applications such as\nsurveillance and robotics. While traditional Signal Processing (SP)-based SSL\nmethods provide analytic solutions under specific signal and noise assumptions,\nrecent Deep Learning (DL)-based methods have significantly outperformed them.\nHowever, their success depends on extensive training data and substantial\ncomputational resources. Moreover, they often rely on large-scale annotated\nspatial data and may struggle when adapting to evolving sound classes. To\nmitigate these challenges, we propose a novel Class Incremental Learning (CIL)\napproach, termed SSL-CIL, which avoids serious accuracy degradation due to\ncatastrophic forgetting by incrementally updating the DL-based SSL model\nthrough a closed-form analytic solution. In particular, data privacy is ensured\nsince the learning process does not revisit any historical data\n(exemplar-free), which is more suitable for smart home scenarios. Empirical\nresults in the public SSLR dataset demonstrate the superior performance of our\nproposal, achieving a localization accuracy of 90.9%, surpassing other\ncompetitive methods.",
+    "updated" : "2024-09-11T12:31:07Z",
+    "published" : "2024-09-11T12:31:07Z",
+    "authors" : [
+      {
+        "name" : "Xinyuan Qian"
+      },
+      {
+        "name" : "Xianghu Yue"
+      },
+      {
+        "name" : "Jiadong Wang"
+      },
+      {
+        "name" : "Huiping Zhuang"
+      },
+      {
+        "name" : "Haizhou Li"
+      }
+    ],
+    "categories" : [
+      "cs.SD",
+      "eess.AS"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.07187v1",
+    "title" : "A Simple Linear Space Data Structure for ANN with Application in\n  Differential Privacy",
+    "summary" : "Locality Sensitive Filters are known for offering a quasi-linear space data\nstructure with rigorous guarantees for the Approximate Near Neighbor search\nproblem. Building on Locality Sensitive Filters, we derive a simple data\nstructure for the Approximate Near Neighbor Counting problem under differential\nprivacy. Moreover, we provide a simple analysis leveraging a connection with\nconcomitant statistics and extreme value theory. Our approach achieves the same\nperformance as the recent findings of Andoni et al. (NeurIPS 2023) but with a\nmore straightforward method. As a side result, the paper provides a more\ncompact description and analysis of Locality Sensitive Filters for Approximate\nNear Neighbor Search under inner product similarity, improving a previous\nresult in Aum\\\"{u}ller et al. (TODS 2022).",
+    "updated" : "2024-09-11T11:14:33Z",
+    "published" : "2024-09-11T11:14:33Z",
+    "authors" : [
+      {
+        "name" : "Martin Aumüller"
+      },
+      {
+        "name" : "Fabrizio Boninsegna"
+      },
+      {
+        "name" : "Francesco Silvestri"
+      }
+    ],
+    "categories" : [
+      "cs.DS"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.06955v1",
+    "title" : "Privacy-Preserving Federated Learning with Consistency via Knowledge\n  Distillation Using Conditional Generator",
+    "summary" : "Federated Learning (FL) is gaining popularity as a distributed learning\nframework that only shares model parameters or gradient updates and keeps\nprivate data locally. However, FL is at risk of privacy leakage caused by\nprivacy inference attacks. And most existing privacy-preserving mechanisms in\nFL conflict with achieving high performance and efficiency. Therefore, we\npropose FedMD-CG, a novel FL method with highly competitive performance and\nhigh-level privacy preservation, which decouples each client's local model into\na feature extractor and a classifier, and utilizes a conditional generator\ninstead of the feature extractor to perform server-side model aggregation. To\nensure the consistency of local generators and classifiers, FedMD-CG leverages\nknowledge distillation to train local models and generators at both the latent\nfeature level and the logit level. Also, we construct additional classification\nlosses and design new diversity losses to enhance client-side training.\nFedMD-CG is robust to data heterogeneity and does not require training extra\ndiscriminators (like cGAN). We conduct extensive experiments on various image\nclassification tasks to validate the superiority of FedMD-CG.",
+    "updated" : "2024-09-11T02:36:36Z",
+    "published" : "2024-09-11T02:36:36Z",
+    "authors" : [
+      {
+        "name" : "Kangyang Luo"
+      },
+      {
+        "name" : "Shuai Wang"
+      },
+      {
+        "name" : "Xiang Li"
+      },
+      {
+        "name" : "Yunshi Lan"
+      },
+      {
+        "name" : "Ming Gao"
+      },
+      {
+        "name" : "Jinlong Shu"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.06233v1",
+    "title" : "VBIT: Towards Enhancing Privacy Control Over IoT Devices",
+    "summary" : "Internet-of-Things (IoT) devices are increasingly deployed at home, at work,\nand in other shared and public spaces. IoT devices collect and share data with\nservice providers and third parties, which poses privacy concerns. Although\nprivacy enhancing tools are quite advanced in other applications domains (\\eg~\nadvertising and tracker blockers for browsers), users have currently no\nconvenient way to know or manage what and how data is collected and shared by\nIoT devices. In this paper, we present VBIT, an interactive system combining\nMixed Reality (MR) and web-based applications that allows users to: (1) uncover\nand visualize tracking services by IoT devices in an instrumented space and (2)\ntake action to stop or limit that tracking. We design and implement VBIT to\noperate at the network traffic level, and we show that it has negligible\nperformance overhead, and offers flexibility and good usability. We perform a\nmixed-method user study consisting of an online survey and an in-person\ninterview study. We show that VBIT users appreciate VBIT's transparency,\ncontrol, and customization features, and they become significantly more willing\nto install an IoT advertising and tracking blocker, after using VBIT. In the\nprocess, we obtain design insights that can be used to further iterate and\nimprove the design of VBIT and other systems for IoT transparency and control.",
+    "updated" : "2024-09-10T06:00:50Z",
+    "published" : "2024-09-10T06:00:50Z",
+    "authors" : [
+      {
+        "name" : "Jad Al Aaraj"
+      },
+      {
+        "name" : "Olivia Figueira"
+      },
+      {
+        "name" : "Tu Le"
+      },
+      {
+        "name" : "Isabela Figueira"
+      },
+      {
+        "name" : "Rahmadi Trimananda"
+      },
+      {
+        "name" : "Athina Markopoulou"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.06069v1",
+    "title" : "Privacy-Preserving Data Linkage Across Private and Public Datasets for\n  Collaborative Agriculture Research",
+    "summary" : "Digital agriculture leverages technology to enhance crop yield, disease\nresilience, and soil health, playing a critical role in agricultural research.\nHowever, it raises privacy concerns such as adverse pricing, price\ndiscrimination, higher insurance costs, and manipulation of resources,\ndeterring farm operators from sharing data due to potential misuse. This study\nintroduces a privacy-preserving framework that addresses these risks while\nallowing secure data sharing for digital agriculture. Our framework enables\ncomprehensive data analysis while protecting privacy. It allows stakeholders to\nharness research-driven policies that link public and private datasets. The\nproposed algorithm achieves this by: (1) identifying similar farmers based on\nprivate datasets, (2) providing aggregate information like time and location,\n(3) determining trends in price and product availability, and (4) correlating\ntrends with public policy data, such as food insecurity statistics. We validate\nthe framework with real-world Farmer's Market datasets, demonstrating its\nefficacy through machine learning models trained on linked privacy-preserved\ndata. The results support policymakers and researchers in addressing food\ninsecurity and pricing issues. This work significantly contributes to digital\nagriculture by providing a secure method for integrating and analyzing data,\ndriving advancements in agricultural technology and development.",
+    "updated" : "2024-09-09T21:07:13Z",
+    "published" : "2024-09-09T21:07:13Z",
+    "authors" : [
+      {
+        "name" : "Osama Zafar"
+      },
+      {
+        "name" : "Rosemarie Santa Gonzalez"
+      },
+      {
+        "name" : "Gabriel Wilkins"
+      },
+      {
+        "name" : "Alfonso Morales"
+      },
+      {
+        "name" : "Erman Ayday"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "cs.CY"
+    ]
   }
 ]
