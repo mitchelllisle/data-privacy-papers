@@ -1418,5 +1418,145 @@
       "cs.LG",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.08913v1",
+    "title" : "HLTCOE JHU Submission to the Voice Privacy Challenge 2024",
+    "summary" : "We present a number of systems for the Voice Privacy Challenge, including\nvoice conversion based systems such as the kNN-VC method and the WavLM voice\nConversion method, and text-to-speech (TTS) based systems including\nWhisper-VITS. We found that while voice conversion systems better preserve\nemotional content, they struggle to conceal speaker identity in semi-white-box\nattack scenarios; conversely, TTS methods perform better at anonymization and\nworse at emotion preservation. Finally, we propose a random admixture system\nwhich seeks to balance out the strengths and weaknesses of the two category of\nsystems, achieving a strong EER of over 40% while maintaining UAR at a\nrespectable 47%.",
+    "updated" : "2024-09-13T15:29:37Z",
+    "published" : "2024-09-13T15:29:37Z",
+    "authors" : [
+      {
+        "name" : "Henry Li Xinyuan"
+      },
+      {
+        "name" : "Zexin Cai"
+      },
+      {
+        "name" : "Ashi Garg"
+      },
+      {
+        "name" : "Kevin Duh"
+      },
+      {
+        "name" : "Leibny Paola García-Perera"
+      },
+      {
+        "name" : "Sanjeev Khudanpur"
+      },
+      {
+        "name" : "Nicholas Andrews"
+      },
+      {
+        "name" : "Matthew Wiesner"
+      }
+    ],
+    "categories" : [
+      "eess.AS",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.08636v1",
+    "title" : "Utilizing Data Fingerprints for Privacy-Preserving Algorithm Selection\n  in Time Series Classification: Performance and Uncertainty Estimation on\n  Unseen Datasets",
+    "summary" : "The selection of algorithms is a crucial step in designing AI services for\nreal-world time series classification use cases. Traditional methods such as\nneural architecture search, automated machine learning, combined algorithm\nselection, and hyperparameter optimizations are effective but require\nconsiderable computational resources and necessitate access to all data points\nto run their optimizations. In this work, we introduce a novel data fingerprint\nthat describes any time series classification dataset in a privacy-preserving\nmanner and provides insight into the algorithm selection problem without\nrequiring training on the (unseen) dataset. By decomposing the multi-target\nregression problem, only our data fingerprints are used to estimate algorithm\nperformance and uncertainty in a scalable and adaptable manner. Our approach is\nevaluated on the 112 University of California riverside benchmark datasets,\ndemonstrating its effectiveness in predicting the performance of 35\nstate-of-the-art algorithms and providing valuable insights for effective\nalgorithm selection in time series classification service systems, improving a\nnaive baseline by 7.32% on average in estimating the mean performance and\n15.81% in estimating the uncertainty.",
+    "updated" : "2024-09-13T08:43:42Z",
+    "published" : "2024-09-13T08:43:42Z",
+    "authors" : [
+      {
+        "name" : "Lars Böcking"
+      },
+      {
+        "name" : "Leopold Müller"
+      },
+      {
+        "name" : "Niklas Kühl"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.08538v1",
+    "title" : "An Efficient Privacy-aware Split Learning Framework for Satellite\n  Communications",
+    "summary" : "In the rapidly evolving domain of satellite communications, integrating\nadvanced machine learning techniques, particularly split learning, is crucial\nfor enhancing data processing and model training efficiency across satellites,\nspace stations, and ground stations. Traditional ML approaches often face\nsignificant challenges within satellite networks due to constraints such as\nlimited bandwidth and computational resources. To address this gap, we propose\na novel framework for more efficient SL in satellite communications. Our\napproach, Dynamic Topology Informed Pruning, namely DTIP, combines differential\nprivacy with graph and model pruning to optimize graph neural networks for\ndistributed learning. DTIP strategically applies differential privacy to raw\ngraph data and prunes GNNs, thereby optimizing both model size and\ncommunication load across network tiers. Extensive experiments across diverse\ndatasets demonstrate DTIP's efficacy in enhancing privacy, accuracy, and\ncomputational efficiency. Specifically, on Amazon2M dataset, DTIP maintains an\naccuracy of 0.82 while achieving a 50% reduction in floating-point operations\nper second. Similarly, on ArXiv dataset, DTIP achieves an accuracy of 0.85\nunder comparable conditions. Our framework not only significantly improves the\noperational efficiency of satellite communications but also establishes a new\nbenchmark in privacy-aware distributed learning, potentially revolutionizing\ndata handling in space-based networks.",
+    "updated" : "2024-09-13T04:59:35Z",
+    "published" : "2024-09-13T04:59:35Z",
+    "authors" : [
+      {
+        "name" : "Jianfei Sun"
+      },
+      {
+        "name" : "Cong Wu"
+      },
+      {
+        "name" : "Shahid Mumtaz"
+      },
+      {
+        "name" : "Junyi Tao"
+      },
+      {
+        "name" : "Mingsheng Cao"
+      },
+      {
+        "name" : "Mei Wang"
+      },
+      {
+        "name" : "Valerio Frascolla"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.08503v1",
+    "title" : "Enhancing Privacy in ControlNet and Stable Diffusion via Split Learning",
+    "summary" : "With the emerging trend of large generative models, ControlNet is introduced\nto enable users to fine-tune pre-trained models with their own data for various\nuse cases. A natural question arises: how can we train ControlNet models while\nensuring users' data privacy across distributed devices? Exploring different\ndistributed training schemes, we find conventional federated learning and split\nlearning unsuitable. Instead, we propose a new distributed learning structure\nthat eliminates the need for the server to send gradients back. Through a\ncomprehensive evaluation of existing threats, we discover that in the context\nof training ControlNet with split learning, most existing attacks are\nineffective, except for two mentioned in previous literature. To counter these\nthreats, we leverage the properties of diffusion models and design a new\ntimestep sampling policy during forward processes. We further propose a\nprivacy-preserving activation function and a method to prevent private text\nprompts from leaving clients, tailored for image generation with diffusion\nmodels. Our experimental results demonstrate that our algorithms and systems\ngreatly enhance the efficiency of distributed training for ControlNet while\nensuring users' data privacy without compromising image generation quality.",
+    "updated" : "2024-09-13T02:55:22Z",
+    "published" : "2024-09-13T02:55:22Z",
+    "authors" : [
+      {
+        "name" : "Dixi Yao"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.07444v2",
+    "title" : "Echoes of Privacy: Uncovering the Profiling Practices of Voice\n  Assistants",
+    "summary" : "Many companies, including Google, Amazon, and Apple, offer voice assistants\nas a convenient solution for answering general voice queries and accessing\ntheir services. These voice assistants have gained popularity and can be easily\naccessed through various smart devices such as smartphones, smart speakers,\nsmartwatches, and an increasing array of other devices. However, this\nconvenience comes with potential privacy risks. For instance, while companies\nvaguely mention in their privacy policies that they may use voice interactions\nfor user profiling, it remains unclear to what extent this profiling occurs and\nwhether voice interactions pose greater privacy risks compared to other\ninteraction modalities.\n  In this paper, we conduct 1171 experiments involving a total of 24530 queries\nwith different personas and interaction modalities over the course of 20 months\nto characterize how the three most popular voice assistants profile their\nusers. We analyze factors such as the labels assigned to users, their accuracy,\nthe time taken to assign these labels, differences between voice and web\ninteractions, and the effectiveness of profiling remediation tools offered by\neach voice assistant. Our findings reveal that profiling can happen without\ninteraction, can be incorrect and inconsistent at times, may take several days\nto weeks for changes to occur, and can be influenced by the interaction\nmodality.",
+    "updated" : "2024-09-13T08:55:21Z",
+    "published" : "2024-09-11T17:44:41Z",
+    "authors" : [
+      {
+        "name" : "Tina Khezresmaeilzadeh"
+      },
+      {
+        "name" : "Elaine Zhu"
+      },
+      {
+        "name" : "Kiersten Grieco"
+      },
+      {
+        "name" : "Daniel J. Dubois"
+      },
+      {
+        "name" : "Konstantinos Psounis"
+      },
+      {
+        "name" : "David Choffnes"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "cs.NI"
+    ]
   }
 ]
