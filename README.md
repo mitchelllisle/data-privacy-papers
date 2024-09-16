@@ -1455,117 +1455,119 @@ work we examine some of the practical obstacles that stand in the way.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2408.07021v1">Improved Counting under Continual Observation with Pure Differential
-  Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B">
-  <p><b>Published on:</b> 2024-08-13T16:36:33Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Joel Daniel Andersson, Rasmus Pagh, Sahel Torkamani</p>
-    <p><b>Summary:</b> Counting under continual observation is a well-studied problem in the area of
-differential privacy. Given a stream of updates $x_1,x_2,\dots,x_T \in \{0,1\}$
-the problem is to continuously release estimates of the prefix sums
-$\sum_{i=1}^t x_i$ for $t=1,\dots,T$ while protecting each input $x_i$ in the
-stream with differential privacy. Recently, significant leaps have been made in
-our understanding of this problem under $\textit{approximate}$ differential
-privacy, aka. $(\varepsilon,\delta)$$\textit{-differential privacy}$. However,
-for the classical case of $\varepsilon$-differential privacy, we are not aware
-of any improvement in mean squared error since the work of Honaker (TPDP 2015).
-In this paper we present such an improvement, reducing the mean squared error
-by a factor of about 4, asymptotically. The key technique is a new
-generalization of the binary tree mechanism that uses a $k$-ary number system
-with $\textit{negative digits}$ to improve the privacy-accuracy trade-off. Our
-mechanism improves the mean squared error over all 'optimal'
-$(\varepsilon,\delta)$-differentially private factorization mechanisms based on
-Gaussian noise whenever $\delta$ is sufficiently small. Specifically, using
-$k=19$ we get an asymptotic improvement over the bound given in the work by
-Henzinger, Upadhyay and Upadhyay (SODA 2023) when $\delta = O(T^{-0.92})$.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2408.07006v1">The Complexities of Differential Privacy for Survey Data</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-08-13T16:15:42Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jörg Drechsler, James Bailie</p>
-    <p><b>Summary:</b> The concept of differential privacy (DP) has gained substantial attention in
-recent years, most notably since the U.S. Census Bureau announced the adoption
-of the concept for its 2020 Decennial Census. However, despite its attractive
-theoretical properties, implementing DP in practice remains challenging,
-especially when it comes to survey data. In this paper we present some results
-from an ongoing project funded by the U.S. Census Bureau that is exploring the
-possibilities and limitations of DP for survey data. Specifically, we identify
-five aspects that need to be considered when adopting DP in the survey context:
-the multi-staged nature of data production; the limited privacy amplification
-from complex sampling designs; the implications of survey-weighted estimates;
-the weighting adjustments for nonresponse and other data deficiencies, and the
-imputation of missing values. We summarize the project's key findings with
-respect to each of these aspects and also discuss some of the challenges that
-still need to be addressed before DP could become the new data protection
-standard at statistical agencies.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2408.07004v1">Casper: Prompt Sanitization for Protecting User Privacy in Web-Based
-  Large Language Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2024-08-13T16:08:37Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Chun Jie Chong, Chenxi Hou, Zhihao Yao, Seyed Mohammadjavad Seyed Talebi</p>
-    <p><b>Summary:</b> Web-based Large Language Model (LLM) services have been widely adopted and
-have become an integral part of our Internet experience. Third-party plugins
-enhance the functionalities of LLM by enabling access to real-world data and
-services. However, the privacy consequences associated with these services and
-their third-party plugins are not well understood. Sensitive prompt data are
-stored, processed, and shared by cloud-based LLM providers and third-party
-plugins. In this paper, we propose Casper, a prompt sanitization technique that
-aims to protect user privacy by detecting and removing sensitive information
-from user inputs before sending them to LLM services. Casper runs entirely on
-the user's device as a browser extension and does not require any changes to
-the online LLM services. At the core of Casper is a three-layered sanitization
-mechanism consisting of a rule-based filter, a Machine Learning (ML)-based
-named entity recognizer, and a browser-based local LLM topic identifier. We
-evaluate Casper on a dataset of 4000 synthesized prompts and show that it can
-effectively filter out Personal Identifiable Information (PII) and
-privacy-sensitive topics with high accuracy, at 98.5% and 89.9%, respectively.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2408.08909v1">An Adaptive Differential Privacy Method Based on Federated Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
-  <p><b>Published on:</b> 2024-08-13T13:08:11Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zhiqiang Wang, Xinyue Yu, Qianli Huang, Yongguang Gong</p>
-    <p><b>Summary:</b> Differential privacy is one of the methods to solve the problem of privacy
-protection in federated learning. Setting the same privacy budget for each
-round will result in reduced accuracy in training. The existing methods of the
-adjustment of privacy budget consider fewer influencing factors and tend to
-ignore the boundaries, resulting in unreasonable privacy budgets. Therefore, we
-proposed an adaptive differential privacy method based on federated learning.
-The method sets the adjustment coefficient and scoring function according to
-accuracy, loss, training rounds, and the number of datasets and clients. And
-the privacy budget is adjusted based on them. Then the local model update is
-processed according to the scaling factor and the noise. Fi-nally, the server
-aggregates the noised local model update and distributes the noised global
-model. The range of parameters and the privacy of the method are analyzed.
-Through the experimental evaluation, it can reduce the privacy budget by about
-16%, while the accuracy remains roughly the same.</p>
-  </details>
-</div>
-
-
 
 <h2>2024-09</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2409.08913v1">HLTCOE JHU Submission to the Voice Privacy Challenge 2024</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-09-13T15:29:37Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Henry Li Xinyuan, Zexin Cai, Ashi Garg, Kevin Duh, Leibny Paola García-Perera, Sanjeev Khudanpur, Nicholas Andrews, Matthew Wiesner</p>
+    <p><b>Summary:</b> We present a number of systems for the Voice Privacy Challenge, including
+voice conversion based systems such as the kNN-VC method and the WavLM voice
+Conversion method, and text-to-speech (TTS) based systems including
+Whisper-VITS. We found that while voice conversion systems better preserve
+emotional content, they struggle to conceal speaker identity in semi-white-box
+attack scenarios; conversely, TTS methods perform better at anonymization and
+worse at emotion preservation. Finally, we propose a random admixture system
+which seeks to balance out the strengths and weaknesses of the two category of
+systems, achieving a strong EER of over 40% while maintaining UAR at a
+respectable 47%.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2409.08636v1">Utilizing Data Fingerprints for Privacy-Preserving Algorithm Selection
+  in Time Series Classification: Performance and Uncertainty Estimation on
+  Unseen Datasets</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-09-13T08:43:42Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Lars Böcking, Leopold Müller, Niklas Kühl</p>
+    <p><b>Summary:</b> The selection of algorithms is a crucial step in designing AI services for
+real-world time series classification use cases. Traditional methods such as
+neural architecture search, automated machine learning, combined algorithm
+selection, and hyperparameter optimizations are effective but require
+considerable computational resources and necessitate access to all data points
+to run their optimizations. In this work, we introduce a novel data fingerprint
+that describes any time series classification dataset in a privacy-preserving
+manner and provides insight into the algorithm selection problem without
+requiring training on the (unseen) dataset. By decomposing the multi-target
+regression problem, only our data fingerprints are used to estimate algorithm
+performance and uncertainty in a scalable and adaptable manner. Our approach is
+evaluated on the 112 University of California riverside benchmark datasets,
+demonstrating its effectiveness in predicting the performance of 35
+state-of-the-art algorithms and providing valuable insights for effective
+algorithm selection in time series classification service systems, improving a
+naive baseline by 7.32% on average in estimating the mean performance and
+15.81% in estimating the uncertainty.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2409.08538v1">An Efficient Privacy-aware Split Learning Framework for Satellite
+  Communications</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-09-13T04:59:35Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jianfei Sun, Cong Wu, Shahid Mumtaz, Junyi Tao, Mingsheng Cao, Mei Wang, Valerio Frascolla</p>
+    <p><b>Summary:</b> In the rapidly evolving domain of satellite communications, integrating
+advanced machine learning techniques, particularly split learning, is crucial
+for enhancing data processing and model training efficiency across satellites,
+space stations, and ground stations. Traditional ML approaches often face
+significant challenges within satellite networks due to constraints such as
+limited bandwidth and computational resources. To address this gap, we propose
+a novel framework for more efficient SL in satellite communications. Our
+approach, Dynamic Topology Informed Pruning, namely DTIP, combines differential
+privacy with graph and model pruning to optimize graph neural networks for
+distributed learning. DTIP strategically applies differential privacy to raw
+graph data and prunes GNNs, thereby optimizing both model size and
+communication load across network tiers. Extensive experiments across diverse
+datasets demonstrate DTIP's efficacy in enhancing privacy, accuracy, and
+computational efficiency. Specifically, on Amazon2M dataset, DTIP maintains an
+accuracy of 0.82 while achieving a 50% reduction in floating-point operations
+per second. Similarly, on ArXiv dataset, DTIP achieves an accuracy of 0.85
+under comparable conditions. Our framework not only significantly improves the
+operational efficiency of satellite communications but also establishes a new
+benchmark in privacy-aware distributed learning, potentially revolutionizing
+data handling in space-based networks.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2409.08503v1">Enhancing Privacy in ControlNet and Stable Diffusion via Split Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-09-13T02:55:22Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Dixi Yao</p>
+    <p><b>Summary:</b> With the emerging trend of large generative models, ControlNet is introduced
+to enable users to fine-tune pre-trained models with their own data for various
+use cases. A natural question arises: how can we train ControlNet models while
+ensuring users' data privacy across distributed devices? Exploring different
+distributed training schemes, we find conventional federated learning and split
+learning unsuitable. Instead, we propose a new distributed learning structure
+that eliminates the need for the server to send gradients back. Through a
+comprehensive evaluation of existing threats, we discover that in the context
+of training ControlNet with split learning, most existing attacks are
+ineffective, except for two mentioned in previous literature. To counter these
+threats, we leverage the properties of diffusion models and design a new
+timestep sampling policy during forward processes. We further propose a
+privacy-preserving activation function and a method to prevent private text
+prompts from leaving clients, tailored for image generation with diffusion
+models. Our experimental results demonstrate that our algorithms and systems
+greatly enhance the efficiency of distributed training for ControlNet while
+ensuring users' data privacy without compromising image generation quality.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2409.07997v1">Privacy-preserving federated prediction of pain intensity change based
@@ -1698,7 +1700,7 @@ achieves over 7 times speedup compared to the naive method.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.07444v1">Echoes of Privacy: Uncovering the Profiling Practices of Voice
+  <h3><a href="http://arxiv.org/abs/2409.07444v2">Echoes of Privacy: Uncovering the Profiling Practices of Voice
   Assistants</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
   <p><b>Published on:</b> 2024-09-11T17:44:41Z</p>
