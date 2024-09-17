@@ -1558,5 +1558,375 @@
       "cs.HC",
       "cs.NI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.10411v1",
+    "title" : "A Large-Scale Privacy Assessment of Android Third-Party SDKs",
+    "summary" : "Third-party Software Development Kits (SDKs) are widely adopted in Android\napp development, to effortlessly accelerate development pipelines and enhance\napp functionality. However, this convenience raises substantial concerns about\nunauthorized access to users' privacy-sensitive information, which could be\nfurther abused for illegitimate purposes like user tracking or monetization.\nOur study offers a targeted analysis of user privacy protection among Android\nthird-party SDKs, filling a critical gap in the Android software supply chain.\nIt focuses on two aspects of their privacy practices, including data\nexfiltration and behavior-policy compliance (or privacy compliance), utilizing\ntechniques of taint analysis and large language models. It covers 158\nwidely-used SDKs from two key SDK release platforms, the official one and a\nlarge alternative one. From them, we identified 338 instances of privacy data\nexfiltration. On the privacy compliance, our study reveals that more than 30%\nof the examined SDKs fail to provide a privacy policy to disclose their data\nhandling practices. Among those that provide privacy policies, 37% of them\nover-collect user data, and 88% falsely claim access to sensitive data. We\nrevisit the latest versions of the SDKs after 12 months. Our analysis\ndemonstrates a persistent lack of improvement in these concerning trends. Based\non our findings, we propose three actionable recommendations to mitigate the\nprivacy leakage risks and enhance privacy protection for Android users. Our\nresearch not only serves as an urgent call for industry attention but also\nprovides crucial insights for future regulatory interventions.",
+    "updated" : "2024-09-16T15:44:43Z",
+    "published" : "2024-09-16T15:44:43Z",
+    "authors" : [
+      {
+        "name" : "Mark Huasong Meng"
+      },
+      {
+        "name" : "Chuan Yan"
+      },
+      {
+        "name" : "Yun Hao"
+      },
+      {
+        "name" : "Qing Zhang"
+      },
+      {
+        "name" : "Zeyu Wang"
+      },
+      {
+        "name" : "Kailong Wang"
+      },
+      {
+        "name" : "Sin Gee Teo"
+      },
+      {
+        "name" : "Guangdong Bai"
+      },
+      {
+        "name" : "Jin Song Dong"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.SE"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.10337v1",
+    "title" : "Security, Trust and Privacy challenges in AI-driven 6G Networks",
+    "summary" : "The advent of 6G networks promises unprecedented advancements in wireless\ncommunication, offering wider bandwidth and lower latency compared to its\npredecessors. This article explores the evolving infrastructure of 6G networks,\nemphasizing the transition towards a more disaggregated structure and the\nintegration of artificial intelligence (AI) technologies. Furthermore, it\nexplores the security, trust and privacy challenges and attacks in 6G networks,\nparticularly those related to the use of AI. It presents a classification of\nnetwork attacks stemming from its AI-centric architecture and explores\ntechnologies designed to detect or mitigate these emerging threats. The paper\nconcludes by examining the implications and risks linked to the utilization of\nAI in ensuring a robust network.",
+    "updated" : "2024-09-16T14:48:20Z",
+    "published" : "2024-09-16T14:48:20Z",
+    "authors" : [
+      {
+        "name" : "Helena Rifa-Pous"
+      },
+      {
+        "name" : "Victor Garcia-Font"
+      },
+      {
+        "name" : "Carlos Nunez-Gomez"
+      },
+      {
+        "name" : "Julian Salas"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.NI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.10226v1",
+    "title" : "Privacy-Preserving Distributed Maximum Consensus Without Accuracy Loss",
+    "summary" : "In distributed networks, calculating the maximum element is a fundamental\ntask in data analysis, known as the distributed maximum consensus problem.\nHowever, the sensitive nature of the data involved makes privacy protection\nessential. Despite its importance, privacy in distributed maximum consensus has\nreceived limited attention in the literature. Traditional privacy-preserving\nmethods typically add noise to updates, degrading the accuracy of the final\nresult. To overcome these limitations, we propose a novel distributed\noptimization-based approach that preserves privacy without sacrificing\naccuracy. Our method introduces virtual nodes to form an augmented graph and\nleverages a carefully designed initialization process to ensure the privacy of\nhonest participants, even when all their neighboring nodes are dishonest.\nThrough a comprehensive information-theoretical analysis, we derive a\nsufficient condition to protect private data against both passive and\neavesdropping adversaries. Extensive experiments validate the effectiveness of\nour approach, demonstrating that it not only preserves perfect privacy but also\nmaintains accuracy, outperforming existing noise-based methods that typically\nsuffer from accuracy loss.",
+    "updated" : "2024-09-16T12:21:04Z",
+    "published" : "2024-09-16T12:21:04Z",
+    "authors" : [
+      {
+        "name" : "Wenrui Yu"
+      },
+      {
+        "name" : "Richard Heusdens"
+      },
+      {
+        "name" : "Jun Pang"
+      },
+      {
+        "name" : "Qiongxiu Li"
+      }
+    ],
+    "categories" : [
+      "cs.DC",
+      "cs.CR",
+      "cs.IT",
+      "eess.SP",
+      "math.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.10192v1",
+    "title" : "PrePaMS: Privacy-Preserving Participant Management System for Studies\n  with Rewards and Prerequisites",
+    "summary" : "Taking part in surveys, experiments, and studies is often compensated by\nrewards to increase the number of participants and encourage attendance. While\nprivacy requirements are usually considered for participation, privacy aspects\nof the reward procedure are mostly ignored. To this end, we introduce PrePaMS,\nan efficient participation management system that supports prerequisite checks\nand participation rewards in a privacy-preserving way. Our system organizes\nparticipations with potential (dis-)qualifying dependencies and enables secure\nreward payoffs. By leveraging a set of proven cryptographic primitives and\nmechanisms such as anonymous credentials and zero-knowledge proofs,\nparticipations are protected so that service providers and organizers cannot\nderive the identity of participants even within the reward process. In this\npaper, we have designed and implemented a prototype of PrePaMS to show its\neffectiveness and evaluated its performance under realistic workloads. PrePaMS\ncovers the information whether subjects have participated in surveys,\nexperiments, or studies. When combined with other secure solutions for the\nactual data collection within these events, PrePaMS can represent a cornerstone\nfor more privacy-preserving empirical research.",
+    "updated" : "2024-09-16T11:35:17Z",
+    "published" : "2024-09-16T11:35:17Z",
+    "authors" : [
+      {
+        "name" : "Echo Meißner"
+      },
+      {
+        "name" : "Frank Kargl"
+      },
+      {
+        "name" : "Benjamin Erb"
+      },
+      {
+        "name" : "Felix Engelmann"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.10057v1",
+    "title" : "A Response to: A Note on \"Privacy Preserving n-Party Scalar Product\n  Protocol\"",
+    "summary" : "We reply to the comments on our proposed privacy preserving n-party scalar\nproduct protocol made by Liu. In their comment Liu raised concerns regarding\nthe security and scalability of the $n$-party scalar product protocol. In this\nreply, we show that their concerns are unfounded and that the $n$-party scalar\nproduct protocol is safe for its intended purposes. Their concerns regarding\nthe security are based on a misunderstanding of the protocol. Additionally,\nwhile the scalability of the protocol puts limitations on its use, the protocol\nstill has numerous practical applications when applied in the correct\nscenarios. Specifically within vertically partitioned scenarios, which often\ninvolve few parties, the protocol remains practical. In this reply we clarify\nLiu's misunderstanding. Additionally, we explain why the protocols scaling is\nnot a practical problem in its intended application.",
+    "updated" : "2024-09-16T07:36:37Z",
+    "published" : "2024-09-16T07:36:37Z",
+    "authors" : [
+      {
+        "name" : "Florian van Daalen"
+      },
+      {
+        "name" : "Lianne Ippel"
+      },
+      {
+        "name" : "Andre Dekker"
+      },
+      {
+        "name" : "Inigo Bermejo"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.09972v1",
+    "title" : "Securing the Future: Exploring Privacy Risks and Security Questions in\n  Robotic Systems",
+    "summary" : "The integration of artificial intelligence, especially large language models\nin robotics, has led to rapid advancements in the field. We are now observing\nan unprecedented surge in the use of robots in our daily lives. The development\nand continual improvements of robots are moving at an astonishing pace.\nAlthough these remarkable improvements facilitate and enhance our lives,\nseveral security and privacy concerns have not been resolved yet. Therefore, it\nhas become crucial to address the privacy and security threats of robotic\nsystems while improving our experiences. In this paper, we aim to present\nexisting applications and threats of robotics, anticipated future evolution,\nand the security and privacy issues they may imply. We present a series of open\nquestions for researchers and practitioners to explore further.",
+    "updated" : "2024-09-16T04:10:24Z",
+    "published" : "2024-09-16T04:10:24Z",
+    "authors" : [
+      {
+        "name" : "Diba Afroze"
+      },
+      {
+        "name" : "Yazhou Tu"
+      },
+      {
+        "name" : "Xiali Hei"
+      }
+    ],
+    "categories" : [
+      "cs.RO",
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.09558v1",
+    "title" : "A Statistical Viewpoint on Differential Privacy: Hypothesis Testing,\n  Representation and Blackwell's Theorem",
+    "summary" : "Differential privacy is widely considered the formal privacy for\nprivacy-preserving data analysis due to its robust and rigorous guarantees,\nwith increasingly broad adoption in public services, academia, and industry.\nDespite originating in the cryptographic context, in this review paper we argue\nthat, fundamentally, differential privacy can be considered a \\textit{pure}\nstatistical concept. By leveraging a theorem due to David Blackwell, our focus\nis to demonstrate that the definition of differential privacy can be formally\nmotivated from a hypothesis testing perspective, thereby showing that\nhypothesis testing is not merely convenient but also the right language for\nreasoning about differential privacy. This insight leads to the definition of\n$f$-differential privacy, which extends other differential privacy definitions\nthrough a representation theorem. We review techniques that render\n$f$-differential privacy a unified framework for analyzing privacy bounds in\ndata analysis and machine learning. Applications of this differential privacy\ndefinition to private deep learning, private convex optimization, shuffled\nmechanisms, and U.S.~Census data are discussed to highlight the benefits of\nanalyzing privacy bounds under this framework compared to existing\nalternatives.",
+    "updated" : "2024-09-14T23:47:22Z",
+    "published" : "2024-09-14T23:47:22Z",
+    "authors" : [
+      {
+        "name" : "Weijie J. Su"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG",
+      "math.ST",
+      "stat.ML",
+      "stat.TH"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.09532v1",
+    "title" : "Using Synthetic Data to Mitigate Unfairness and Preserve Privacy through\n  Single-Shot Federated Learning",
+    "summary" : "To address unfairness issues in federated learning (FL), contemporary\napproaches typically use frequent model parameter updates and transmissions\nbetween the clients and server. In such a process, client-specific information\n(e.g., local dataset size or data-related fairness metrics) must be sent to the\nserver to compute, e.g., aggregation weights. All of this results in high\ntransmission costs and the potential leakage of client information. As an\nalternative, we propose a strategy that promotes fair predictions across\nclients without the need to pass information between the clients and server\niteratively and prevents client data leakage. For each client, we first use\ntheir local dataset to obtain a synthetic dataset by solving a bilevel\noptimization problem that addresses unfairness concerns during the learning\nprocess. We then pass each client's synthetic dataset to the server, the\ncollection of which is used to train the server model using conventional\nmachine learning techniques (that do not take fairness metrics into account).\nThus, we eliminate the need to handle fairness-specific aggregation weights\nwhile preserving client privacy. Our approach requires only a single\ncommunication between the clients and the server, thus making it\ncomputationally cost-effective, able to maintain privacy, and able to ensuring\nfairness. We present empirical evidence to demonstrate the advantages of our\napproach. The results illustrate that our method effectively uses synthetic\ndata as a means to mitigate unfairness and preserve client privacy.",
+    "updated" : "2024-09-14T21:04:11Z",
+    "published" : "2024-09-14T21:04:11Z",
+    "authors" : [
+      {
+        "name" : "Chia-Yuan Wu"
+      },
+      {
+        "name" : "Frank E. Curtis"
+      },
+      {
+        "name" : "Daniel P. Robinson"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CY",
+      "math.OC",
+      "G.1.6; I.2.6; C.2.4; K.4.1; D.4.6"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.09510v1",
+    "title" : "Comparing Retrieval-Augmentation and Parameter-Efficient Fine-Tuning for\n  Privacy-Preserving Personalization of Large Language Models",
+    "summary" : "Privacy-preserving methods for personalizing large language models (LLMs) are\nrelatively under-explored. There are two schools of thought on this topic: (1)\ngenerating personalized outputs by personalizing the input prompt through\nretrieval augmentation from the user's personal information (RAG-based\nmethods), and (2) parameter-efficient fine-tuning of LLMs per user that\nconsiders efficiency and space limitations (PEFT-based methods). This paper\npresents the first systematic comparison between two approaches on a wide range\nof personalization tasks using seven diverse datasets. Our results indicate\nthat RAG-based and PEFT-based personalization methods on average yield 14.92%\nand 1.07% improvements over the non-personalized LLM, respectively. We find\nthat combining RAG with PEFT elevates these improvements to 15.98%.\nAdditionally, we identify a positive correlation between the amount of user\ndata and PEFT's effectiveness, indicating that RAG is a better choice for\ncold-start users (i.e., user's with limited personal data).",
+    "updated" : "2024-09-14T19:18:26Z",
+    "published" : "2024-09-14T19:18:26Z",
+    "authors" : [
+      {
+        "name" : "Alireza Salemi"
+      },
+      {
+        "name" : "Hamed Zamani"
+      }
+    ],
+    "categories" : [
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.09495v1",
+    "title" : "Protecting Vehicle Location Privacy with Contextually-Driven Synthetic\n  Location Generation",
+    "summary" : "Geo-obfuscation is a Location Privacy Protection Mechanism used in\nlocation-based services that allows users to report obfuscated locations\ninstead of exact ones. A formal privacy criterion, geoindistinguishability\n(Geo-Ind), requires real locations to be hard to distinguish from nearby\nlocations (by attackers) based on their obfuscated representations. However,\nGeo-Ind often fails to consider context, such as road networks and vehicle\ntraffic conditions, making it less effective in protecting the location privacy\nof vehicles, of which the mobility are heavily influenced by these factors.\n  In this paper, we introduce VehiTrack, a new threat model to demonstrate the\nvulnerability of Geo-Ind in protecting vehicle location privacy from\ncontext-aware inference attacks. Our experiments demonstrate that VehiTrack can\naccurately determine exact vehicle locations from obfuscated data, reducing\naverage inference errors by 61.20% with Laplacian noise and 47.35% with linear\nprogramming (LP) compared to traditional Bayesian attacks. By using contextual\ndata like road networks and traffic flow, VehiTrack effectively eliminates a\nsignificant number of seemingly \"impossible\" locations during its search for\nthe actual location of the vehicles. Based on these insights, we propose\nTransProtect, a new geo-obfuscation approach that limits obfuscation to\nrealistic vehicle movement patterns, complicating attackers' ability to\ndifferentiate obfuscated from actual locations. Our results show that\nTransProtect increases VehiTrack's inference error by 57.75% with Laplacian\nnoise and 27.21% with LP, significantly enhancing protection against these\nattacks.",
+    "updated" : "2024-09-14T17:47:23Z",
+    "published" : "2024-09-14T17:47:23Z",
+    "authors" : [
+      {
+        "name" : "Sourabh Yadav"
+      },
+      {
+        "name" : "Chenyang Yu"
+      },
+      {
+        "name" : "Xinpeng Xie"
+      },
+      {
+        "name" : "Yan Huang"
+      },
+      {
+        "name" : "Chenxi Qiu"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.09363v1",
+    "title" : "Security and Privacy Perspectives of People Living in Shared Home\n  Environments",
+    "summary" : "Security and privacy perspectives of people in a multi-user home are a\ngrowing area of research, with many researchers reflecting on the complicated\npower imbalance and challenging access control issues of the devices involved.\nHowever, these studies primarily focused on the multi-user scenarios in\ntraditional family home settings, leaving other types of multi-user home\nenvironments, such as homes shared by co-habitants without a familial\nrelationship, under-studied. This paper closes this research gap via\nquantitative and qualitative analysis of results from an online survey and\ncontent analysis of sampled online posts on Reddit. It explores the complex\nroles of shared home users, which depend on various factors unique to the\nshared home environment, e.g., who owns what home devices, how home devices are\nused by multiple users, and more complicated relationships between the landlord\nand people in the shared home and among co-habitants. Half (50.7%) of our\nsurvey participants thought that devices in a shared home are less secure than\nin a traditional family home. This perception was found statistically\nsignificantly associated with factors such as the fear of devices being\ntampered with in their absence and (lack of) trust in other co-habitants and\ntheir visitors. Our study revealed new user types and relationships in a\nmulti-user environment such as ExternalPrimary-InternalPrimary while analysing\nthe landlord and shared home resident relationship with regard to shared home\ndevice use. We propose a threat actor model for shared home environments, which\nhas a focus on possible malicious behaviours of current and past co-habitants\nof a shared home, as a special type of insider threat in a home environment. We\nalso recommend further research to understand the complex roles co-habitants\ncan play in navigating and adapting to a shared home environment's security and\nprivacy landscape.",
+    "updated" : "2024-09-14T08:34:57Z",
+    "published" : "2024-09-14T08:34:57Z",
+    "authors" : [
+      {
+        "name" : "Nandita Pattnaik"
+      },
+      {
+        "name" : "Shujun Li"
+      },
+      {
+        "name" : "Jason R. C. Nurse"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.09272v1",
+    "title" : "SafeEar: Content Privacy-Preserving Audio Deepfake Detection",
+    "summary" : "Text-to-Speech (TTS) and Voice Conversion (VC) models have exhibited\nremarkable performance in generating realistic and natural audio. However,\ntheir dark side, audio deepfake poses a significant threat to both society and\nindividuals. Existing countermeasures largely focus on determining the\ngenuineness of speech based on complete original audio recordings, which\nhowever often contain private content. This oversight may refrain deepfake\ndetection from many applications, particularly in scenarios involving sensitive\ninformation like business secrets. In this paper, we propose SafeEar, a novel\nframework that aims to detect deepfake audios without relying on accessing the\nspeech content within. Our key idea is to devise a neural audio codec into a\nnovel decoupling model that well separates the semantic and acoustic\ninformation from audio samples, and only use the acoustic information (e.g.,\nprosody and timbre) for deepfake detection. In this way, no semantic content\nwill be exposed to the detector. To overcome the challenge of identifying\ndiverse deepfake audio without semantic clues, we enhance our deepfake detector\nwith real-world codec augmentation. Extensive experiments conducted on four\nbenchmark datasets demonstrate SafeEar's effectiveness in detecting various\ndeepfake techniques with an equal error rate (EER) down to 2.02%.\nSimultaneously, it shields five-language speech content from being deciphered\nby both machine and human auditory analysis, demonstrated by word error rates\n(WERs) all above 93.93% and our user study. Furthermore, our benchmark\nconstructed for anti-deepfake and anti-content recovery evaluation helps\nprovide a basis for future research in the realms of audio privacy preservation\nand deepfake detection.",
+    "updated" : "2024-09-14T02:45:09Z",
+    "published" : "2024-09-14T02:45:09Z",
+    "authors" : [
+      {
+        "name" : "Xinfeng Li"
+      },
+      {
+        "name" : "Kai Li"
+      },
+      {
+        "name" : "Yifan Zheng"
+      },
+      {
+        "name" : "Chen Yan"
+      },
+      {
+        "name" : "Xiaoyu Ji"
+      },
+      {
+        "name" : "Wenyuan Xu"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.MM",
+      "cs.SD",
+      "eess.AS"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.09222v1",
+    "title" : "Dark Patterns in the Opt-Out Process and Compliance with the California\n  Consumer Privacy Act (CCPA)",
+    "summary" : "To protect consumer privacy, the California Consumer Privacy Act (CCPA)\nmandates that businesses provide consumers with a straightforward way to opt\nout of the sale and sharing of their personal information. However, the control\nthat businesses enjoy over the opt-out process allows them to impose hurdles on\nconsumers aiming to opt out, including by employing dark patterns. Motivated by\nthe enactment of the California Privacy Rights Act (CPRA), which strengthens\nthe CCPA and explicitly forbids certain dark patterns in the opt-out process,\nwe investigate how dark patterns are used in opt-out processes and assess their\ncompliance with CCPA regulations. Our research reveals that websites employ a\nvariety of dark patterns. Some of these patterns are explicitly prohibited\nunder the CCPA; others evidently take advantage of legal loopholes. Despite the\ninitial efforts to restrict dark patterns by policymakers, there is more work\nto be done.",
+    "updated" : "2024-09-13T22:20:43Z",
+    "published" : "2024-09-13T22:20:43Z",
+    "authors" : [
+      {
+        "name" : "Van Hong Tran"
+      },
+      {
+        "name" : "Aarushi Mehrotra"
+      },
+      {
+        "name" : "Ranya Sharma"
+      },
+      {
+        "name" : "Marshini Chetty"
+      },
+      {
+        "name" : "Nick Feamster"
+      },
+      {
+        "name" : "Jens Frankenreiter"
+      },
+      {
+        "name" : "Lior Strahilevitz"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.06955v2",
+    "title" : "Privacy-Preserving Federated Learning with Consistency via Knowledge\n  Distillation Using Conditional Generator",
+    "summary" : "Federated Learning (FL) is gaining popularity as a distributed learning\nframework that only shares model parameters or gradient updates and keeps\nprivate data locally. However, FL is at risk of privacy leakage caused by\nprivacy inference attacks. And most existing privacy-preserving mechanisms in\nFL conflict with achieving high performance and efficiency. Therefore, we\npropose FedMD-CG, a novel FL method with highly competitive performance and\nhigh-level privacy preservation, which decouples each client's local model into\na feature extractor and a classifier, and utilizes a conditional generator\ninstead of the feature extractor to perform server-side model aggregation. To\nensure the consistency of local generators and classifiers, FedMD-CG leverages\nknowledge distillation to train local models and generators at both the latent\nfeature level and the logit level. Also, we construct additional classification\nlosses and design new diversity losses to enhance client-side training.\nFedMD-CG is robust to data heterogeneity and does not require training extra\ndiscriminators (like cGAN). We conduct extensive experiments on various image\nclassification tasks to validate the superiority of FedMD-CG.",
+    "updated" : "2024-09-16T08:23:09Z",
+    "published" : "2024-09-11T02:36:36Z",
+    "authors" : [
+      {
+        "name" : "Kangyang Luo"
+      },
+      {
+        "name" : "Shuai Wang"
+      },
+      {
+        "name" : "Xiang Li"
+      },
+      {
+        "name" : "Yunshi Lan"
+      },
+      {
+        "name" : "Ming Gao"
+      },
+      {
+        "name" : "Jinlong Shu"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.DC"
+    ]
   }
 ]
