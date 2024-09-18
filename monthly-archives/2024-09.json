@@ -1928,5 +1928,136 @@
       "cs.LG",
       "cs.DC"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.11295v1",
+    "title" : "EIA: Environmental Injection Attack on Generalist Web Agents for Privacy\n  Leakage",
+    "summary" : "Generalist web agents have evolved rapidly and demonstrated remarkable\npotential. However, there are unprecedented safety risks associated with these\nthem, which are nearly unexplored so far. In this work, we aim to narrow this\ngap by conducting the first study on the privacy risks of generalist web agents\nin adversarial environments. First, we present a threat model that discusses\nthe adversarial targets, constraints, and attack scenarios. Particularly, we\nconsider two types of adversarial targets: stealing users' specific personally\nidentifiable information (PII) or stealing the entire user request. To achieve\nthese objectives, we propose a novel attack method, termed Environmental\nInjection Attack (EIA). This attack injects malicious content designed to adapt\nwell to different environments where the agents operate, causing them to\nperform unintended actions. This work instantiates EIA specifically for the\nprivacy scenario. It inserts malicious web elements alongside persuasive\ninstructions that mislead web agents into leaking private information, and can\nfurther leverage CSS and JavaScript features to remain stealthy. We collect 177\nactions steps that involve diverse PII categories on realistic websites from\nthe Mind2Web dataset, and conduct extensive experiments using one of the most\ncapable generalist web agent frameworks to date, SeeAct. The results\ndemonstrate that EIA achieves up to 70% ASR in stealing users' specific PII.\nStealing full user requests is more challenging, but a relaxed version of EIA\ncan still achieve 16% ASR. Despite these concerning results, it is important to\nnote that the attack can still be detectable through careful human inspection,\nhighlighting a trade-off between high autonomy and security. This leads to our\ndetailed discussion on the efficacy of EIA under different levels of human\nsupervision as well as implications on defenses for generalist web agents.",
+    "updated" : "2024-09-17T15:49:44Z",
+    "published" : "2024-09-17T15:49:44Z",
+    "authors" : [
+      {
+        "name" : "Zeyi Liao"
+      },
+      {
+        "name" : "Lingbo Mo"
+      },
+      {
+        "name" : "Chejian Xu"
+      },
+      {
+        "name" : "Mintong Kang"
+      },
+      {
+        "name" : "Jiawei Zhang"
+      },
+      {
+        "name" : "Chaowei Xiao"
+      },
+      {
+        "name" : "Yuan Tian"
+      },
+      {
+        "name" : "Bo Li"
+      },
+      {
+        "name" : "Huan Sun"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.CL",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.10667v1",
+    "title" : "Benchmarking Secure Sampling Protocols for Differential Privacy",
+    "summary" : "Differential privacy (DP) is widely employed to provide privacy protection\nfor individuals by limiting information leakage from the aggregated data. Two\nwell-known models of DP are the central model and the local model. The former\nrequires a trustworthy server for data aggregation, while the latter requires\nindividuals to add noise, significantly decreasing the utility of aggregated\nresults. Recently, many studies have proposed to achieve DP with Secure\nMulti-party Computation (MPC) in distributed settings, namely, the distributed\nmodel, which has utility comparable to central model while, under specific\nsecurity assumptions, preventing parties from obtaining others' information.\nOne challenge of realizing DP in distributed model is efficiently sampling\nnoise with MPC. Although many secure sampling methods have been proposed, they\nhave different security assumptions and isolated theoretical analyses. There is\na lack of experimental evaluations to measure and compare their performances.\nWe fill this gap by benchmarking existing sampling protocols in MPC and\nperforming comprehensive measurements of their efficiency. First, we present a\ntaxonomy of the underlying techniques of these sampling protocols. Second, we\nextend widely used distributed noise generation protocols to be resilient\nagainst Byzantine attackers. Third, we implement discrete sampling protocols\nand align their security settings for a fair comparison. We then conduct an\nextensive evaluation to study their efficiency and utility.",
+    "updated" : "2024-09-16T19:04:47Z",
+    "published" : "2024-09-16T19:04:47Z",
+    "authors" : [
+      {
+        "name" : "Yucheng Fu"
+      },
+      {
+        "name" : "Tianhao Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.08913v2",
+    "title" : "HLTCOE JHU Submission to the Voice Privacy Challenge 2024",
+    "summary" : "We present a number of systems for the Voice Privacy Challenge, including\nvoice conversion based systems such as the kNN-VC method and the WavLM voice\nConversion method, and text-to-speech (TTS) based systems including\nWhisper-VITS. We found that while voice conversion systems better preserve\nemotional content, they struggle to conceal speaker identity in semi-white-box\nattack scenarios; conversely, TTS methods perform better at anonymization and\nworse at emotion preservation. Finally, we propose a random admixture system\nwhich seeks to balance out the strengths and weaknesses of the two category of\nsystems, achieving a strong EER of over 40% while maintaining UAR at a\nrespectable 47%.",
+    "updated" : "2024-09-17T14:39:44Z",
+    "published" : "2024-09-13T15:29:37Z",
+    "authors" : [
+      {
+        "name" : "Henry Li Xinyuan"
+      },
+      {
+        "name" : "Zexin Cai"
+      },
+      {
+        "name" : "Ashi Garg"
+      },
+      {
+        "name" : "Kevin Duh"
+      },
+      {
+        "name" : "Leibny Paola García-Perera"
+      },
+      {
+        "name" : "Sanjeev Khudanpur"
+      },
+      {
+        "name" : "Nicholas Andrews"
+      },
+      {
+        "name" : "Matthew Wiesner"
+      }
+    ],
+    "categories" : [
+      "eess.AS",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.04652v2",
+    "title" : "Privacy-Preserving Race/Ethnicity Estimation for Algorithmic Bias\n  Measurement in the U.S",
+    "summary" : "AI fairness measurements, including tests for equal treatment, often take the\nform of disaggregated evaluations of AI systems. Such measurements are an\nimportant part of Responsible AI operations. These measurements compare system\nperformance across demographic groups or sub-populations and typically require\nmember-level demographic signals such as gender, race, ethnicity, and location.\nHowever, sensitive member-level demographic attributes like race and ethnicity\ncan be challenging to obtain and use due to platform choices, legal\nconstraints, and cultural norms. In this paper, we focus on the task of\nenabling AI fairness measurements on race/ethnicity for \\emph{U.S. LinkedIn\nmembers} in a privacy-preserving manner. We present the Privacy-Preserving\nProbabilistic Race/Ethnicity Estimation (PPRE) method for performing this task.\nPPRE combines the Bayesian Improved Surname Geocoding (BISG) model, a sparse\nLinkedIn survey sample of self-reported demographics, and privacy-enhancing\ntechnologies like secure two-party computation and differential privacy to\nenable meaningful fairness measurements while preserving member privacy. We\nprovide details of the PPRE method and its privacy guarantees. We then\nillustrate sample measurement operations. We conclude with a review of open\nresearch and engineering challenges for expanding our privacy-preserving\nfairness measurement capabilities.",
+    "updated" : "2024-09-16T18:15:18Z",
+    "published" : "2024-09-06T23:29:18Z",
+    "authors" : [
+      {
+        "name" : "Saikrishna Badrinarayanan"
+      },
+      {
+        "name" : "Osonde Osoba"
+      },
+      {
+        "name" : "Miao Cheng"
+      },
+      {
+        "name" : "Ryan Rogers"
+      },
+      {
+        "name" : "Sakshi Jain"
+      },
+      {
+        "name" : "Rahul Tandra"
+      },
+      {
+        "name" : "Natesh S. Pillai"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
   }
 ]
