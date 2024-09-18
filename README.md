@@ -26,6 +26,32 @@ See the FedCampus video at https://youtu.be/k5iu46IjA38.</p>
 
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2409.10533v1">Ethical Challenges in Computer Vision: Ensuring Privacy and Mitigating
+  Bias in Publicly Available Datasets</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2024-08-31T00:59:29Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ghalib Ahmed Tahir</p>
+    <p><b>Summary:</b> This paper aims to shed light on the ethical problems of creating and
+deploying computer vision tech, particularly in using publicly available
+datasets. Due to the rapid growth of machine learning and artificial
+intelligence, computer vision has become a vital tool in many industries,
+including medical care, security systems, and trade. However, extensive use of
+visual data that is often collected without consent due to an informed
+discussion of its ramifications raises significant concerns about privacy and
+bias. The paper also examines these issues by analyzing popular datasets such
+as COCO, LFW, ImageNet, CelebA, PASCAL VOC, etc., that are usually used for
+training computer vision models. We offer a comprehensive ethical framework
+that addresses these challenges regarding the protection of individual rights,
+minimization of bias as well as openness and responsibility. We aim to
+encourage AI development that will take into account societal values as well as
+ethical standards to avoid any public harm.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2408.17378v1">Empowering Open Data Sharing for Social Good: A Privacy-Aware Approach</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
   <p><b>Published on:</b> 2024-08-30T16:14:32Z</p>
@@ -966,107 +992,76 @@ approach aims to balance data origin and reduce cheating risks.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2408.10647v1">Privacy-preserving Universal Adversarial Defense for Black-box Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
-  <p><b>Published on:</b> 2024-08-20T08:40:39Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Qiao Li, Cong Wu, Jing Chen, Zijun Zhang, Kun He, Ruiying Du, Xinxin Wang, Qingchuang Zhao, Yang Liu</p>
-    <p><b>Summary:</b> Deep neural networks (DNNs) are increasingly used in critical applications
-such as identity authentication and autonomous driving, where robustness
-against adversarial attacks is crucial. These attacks can exploit minor
-perturbations to cause significant prediction errors, making it essential to
-enhance the resilience of DNNs. Traditional defense methods often rely on
-access to detailed model information, which raises privacy concerns, as model
-owners may be reluctant to share such data. In contrast, existing black-box
-defense methods fail to offer a universal defense against various types of
-adversarial attacks. To address these challenges, we introduce DUCD, a
-universal black-box defense method that does not require access to the target
-model's parameters or architecture. Our approach involves distilling the target
-model by querying it with data, creating a white-box surrogate while preserving
-data privacy. We further enhance this surrogate model using a certified defense
-based on randomized smoothing and optimized noise selection, enabling robust
-defense against a broad range of adversarial attacks. Comparative evaluations
-between the certified defenses of the surrogate and target models demonstrate
-the effectiveness of our approach. Experiments on multiple image classification
-datasets show that DUCD not only outperforms existing black-box defenses but
-also matches the accuracy of white-box defenses, all while enhancing data
-privacy and reducing the success rate of membership inference attacks.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2408.10468v4">Tracing Privacy Leakage of Language Models to Training Data via Adjusted
-  Influence Functions</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-08-20T00:40:49Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jinxin Liu, Zao Yang</p>
-    <p><b>Summary:</b> The responses generated by Large Language Models (LLMs) can include sensitive
-information from individuals and organizations, leading to potential privacy
-leakage. This work implements Influence Functions (IFs) to trace privacy
-leakage back to the training data, thereby mitigating privacy concerns of
-Language Models (LMs). However, we notice that current IFs struggle to
-accurately estimate the influence of tokens with large gradient norms,
-potentially overestimating their influence. When tracing the most influential
-samples, this leads to frequently tracing back to samples with large gradient
-norm tokens, overshadowing the actual most influential samples even if their
-influences are well estimated. To address this issue, we propose Heuristically
-Adjusted IF (HAIF), which reduces the weight of tokens with large gradient
-norms, thereby significantly improving the accuracy of tracing the most
-influential samples. To establish easily obtained groundtruth for tracing
-privacy leakage, we construct two datasets, PII-E and PII-CR, representing two
-distinct scenarios: one with identical text in the model outputs and
-pre-training data, and the other where models leverage their reasoning
-abilities to generate text divergent from pre-training data. HAIF significantly
-improves tracing accuracy, enhancing it by 20.96% to 73.71% on the PII-E
-dataset and 3.21% to 45.93% on the PII-CR dataset, compared to the best SOTA
-IFs against various GPT-2 and QWen-1.5 models. HAIF also outperforms SOTA IFs
-on real-world pretraining data CLUECorpus2020, demonstrating strong robustness
-regardless prompt and response lengths.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2408.10442v1">Feasibility of assessing cognitive impairment via distributed camera
-  network and privacy-preserving edge computing</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2024-08-19T22:34:43Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Chaitra Hegde, Yashar Kiarashi, Allan I Levey, Amy D Rodriguez, Hyeokhyen Kwon, Gari D Clifford</p>
-    <p><b>Summary:</b> INTRODUCTION: Mild cognitive impairment (MCI) is characterized by a decline
-in cognitive functions beyond typical age and education-related expectations.
-Since, MCI has been linked to reduced social interactions and increased aimless
-movements, we aimed to automate the capture of these behaviors to enhance
-longitudinal monitoring.
-  METHODS: Using a privacy-preserving distributed camera network, we collected
-movement and social interaction data from groups of individuals with MCI
-undergoing therapy within a 1700$m^2$ space. We developed movement and social
-interaction features, which were then used to train a series of machine
-learning algorithms to distinguish between higher and lower cognitive
-functioning MCI groups.
-  RESULTS: A Wilcoxon rank-sum test revealed statistically significant
-differences between high and low-functioning cohorts in features such as linear
-path length, walking speed, change in direction while walking, entropy of
-velocity and direction change, and number of group formations in the indoor
-space. Despite lacking individual identifiers to associate with specific levels
-of MCI, a machine learning approach using the most significant features
-provided a 71% accuracy.
-  DISCUSSION: We provide evidence to show that a privacy-preserving low-cost
-camera network using edge computing framework has the potential to distinguish
-between different levels of cognitive impairment from the movements and social
-interactions captured during group activities.</p>
-  </details>
-</div>
-
-
 
 <h2>2024-09</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2409.11295v1">EIA: Environmental Injection Attack on Generalist Web Agents for Privacy
+  Leakage</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-09-17T15:49:44Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zeyi Liao, Lingbo Mo, Chejian Xu, Mintong Kang, Jiawei Zhang, Chaowei Xiao, Yuan Tian, Bo Li, Huan Sun</p>
+    <p><b>Summary:</b> Generalist web agents have evolved rapidly and demonstrated remarkable
+potential. However, there are unprecedented safety risks associated with these
+them, which are nearly unexplored so far. In this work, we aim to narrow this
+gap by conducting the first study on the privacy risks of generalist web agents
+in adversarial environments. First, we present a threat model that discusses
+the adversarial targets, constraints, and attack scenarios. Particularly, we
+consider two types of adversarial targets: stealing users' specific personally
+identifiable information (PII) or stealing the entire user request. To achieve
+these objectives, we propose a novel attack method, termed Environmental
+Injection Attack (EIA). This attack injects malicious content designed to adapt
+well to different environments where the agents operate, causing them to
+perform unintended actions. This work instantiates EIA specifically for the
+privacy scenario. It inserts malicious web elements alongside persuasive
+instructions that mislead web agents into leaking private information, and can
+further leverage CSS and JavaScript features to remain stealthy. We collect 177
+actions steps that involve diverse PII categories on realistic websites from
+the Mind2Web dataset, and conduct extensive experiments using one of the most
+capable generalist web agent frameworks to date, SeeAct. The results
+demonstrate that EIA achieves up to 70% ASR in stealing users' specific PII.
+Stealing full user requests is more challenging, but a relaxed version of EIA
+can still achieve 16% ASR. Despite these concerning results, it is important to
+note that the attack can still be detectable through careful human inspection,
+highlighting a trade-off between high autonomy and security. This leads to our
+detailed discussion on the efficacy of EIA under different levels of human
+supervision as well as implications on defenses for generalist web agents.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2409.10667v1">Benchmarking Secure Sampling Protocols for Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-09-16T19:04:47Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yucheng Fu, Tianhao Wang</p>
+    <p><b>Summary:</b> Differential privacy (DP) is widely employed to provide privacy protection
+for individuals by limiting information leakage from the aggregated data. Two
+well-known models of DP are the central model and the local model. The former
+requires a trustworthy server for data aggregation, while the latter requires
+individuals to add noise, significantly decreasing the utility of aggregated
+results. Recently, many studies have proposed to achieve DP with Secure
+Multi-party Computation (MPC) in distributed settings, namely, the distributed
+model, which has utility comparable to central model while, under specific
+security assumptions, preventing parties from obtaining others' information.
+One challenge of realizing DP in distributed model is efficiently sampling
+noise with MPC. Although many secure sampling methods have been proposed, they
+have different security assumptions and isolated theoretical analyses. There is
+a lack of experimental evaluations to measure and compare their performances.
+We fill this gap by benchmarking existing sampling protocols in MPC and
+performing comprehensive measurements of their efficiency. First, we present a
+taxonomy of the underlying techniques of these sampling protocols. Second, we
+extend widely used distributed noise generation protocols to be resilient
+against Byzantine attackers. Third, we implement discrete sampling protocols
+and align their security settings for a fair comparison. We then conduct an
+extensive evaluation to study their efficiency and utility.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2409.10411v1">A Large-Scale Privacy Assessment of Android Third-Party SDKs</a></h3>
@@ -1450,7 +1445,7 @@ to be done.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.08913v1">HLTCOE JHU Submission to the Voice Privacy Challenge 2024</a></h3>
+  <h3><a href="http://arxiv.org/abs/2409.08913v2">HLTCOE JHU Submission to the Voice Privacy Challenge 2024</a></h3>
    <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2024-09-13T15:29:37Z</p>
   <details>
@@ -2126,7 +2121,7 @@ underwent kidney transplants in the US.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.04652v1">Privacy-Preserving Race/Ethnicity Estimation for Algorithmic Bias
+  <h3><a href="http://arxiv.org/abs/2409.04652v2">Privacy-Preserving Race/Ethnicity Estimation for Algorithmic Bias
   Measurement in the U.S</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2024-09-06T23:29:18Z</p>
