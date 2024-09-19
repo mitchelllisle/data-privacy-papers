@@ -26,7 +26,7 @@ See the FedCampus video at https://youtu.be/k5iu46IjA38.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.10533v1">Ethical Challenges in Computer Vision: Ensuring Privacy and Mitigating
+  <h3><a href="http://arxiv.org/abs/2409.10533v2">Ethical Challenges in Computer Vision: Ensuring Privacy and Mitigating
   Bias in Publicly Available Datasets</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
   <p><b>Published on:</b> 2024-08-31T00:59:29Z</p>
@@ -775,225 +775,152 @@ evaluate the performance of the proposed algorithm.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2408.12010v1">Confounding Privacy and Inverse Composition</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-08-21T21:45:13Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Tao Zhang, Bradley A. Malin, Netanel Raviv, Yevgeniy Vorobeychik</p>
-    <p><b>Summary:</b> We introduce a novel privacy notion of ($\epsilon, \delta$)-confounding
-privacy that generalizes both differential privacy and Pufferfish privacy. In
-differential privacy, sensitive information is contained in the dataset while
-in Pufferfish privacy, sensitive information determines data distribution.
-Consequently, both assume a chain-rule relationship between the sensitive
-information and the output of privacy mechanisms. Confounding privacy, in
-contrast, considers general causal relationships between the dataset and
-sensitive information. One of the key properties of differential privacy is
-that it can be easily composed over multiple interactions with the mechanism
-that maps private data to publicly shared information. In contrast, we show
-that the quantification of the privacy loss under the composition of
-independent ($\epsilon, \delta$)-confounding private mechanisms using the
-optimal composition of differential privacy \emph{underestimates} true privacy
-loss. To address this, we characterize an inverse composition framework to
-tightly implement a target global ($\epsilon_{g}, \delta_{g}$)-confounding
-privacy under composition while keeping individual mechanisms independent and
-private. In particular, we propose a novel copula-perturbation method which
-ensures that (1) each individual mechanism $i$ satisfies a target local
-($\epsilon_{i}, \delta_{i}$)-confounding privacy and (2) the target global
-($\epsilon_{g}, \delta_{g}$)-confounding privacy is tightly implemented by
-solving an optimization problem. Finally, we study inverse composition
-empirically on real datasets.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2408.11649v1">Video-to-Text Pedestrian Monitoring (VTPM): Leveraging Computer Vision
-  and Large Language Models for Privacy-Preserve Pedestrian Activity Monitoring
-  at Intersections</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2024-08-21T14:21:53Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ahmed S. Abdelrahman, Mohamed Abdel-Aty, Dongdong Wang</p>
-    <p><b>Summary:</b> Computer vision has advanced research methodologies, enhancing system
-services across various fields. It is a core component in traffic monitoring
-systems for improving road safety; however, these monitoring systems don't
-preserve the privacy of pedestrians who appear in the videos, potentially
-revealing their identities. Addressing this issue, our paper introduces
-Video-to-Text Pedestrian Monitoring (VTPM), which monitors pedestrian movements
-at intersections and generates real-time textual reports, including traffic
-signal and weather information. VTPM uses computer vision models for pedestrian
-detection and tracking, achieving a latency of 0.05 seconds per video frame.
-Additionally, it detects crossing violations with 90.2% accuracy by
-incorporating traffic signal data. The proposed framework is equipped with
-Phi-3 mini-4k to generate real-time textual reports of pedestrian activity
-while stating safety concerns like crossing violations, conflicts, and the
-impact of weather on their behavior with latency of 0.33 seconds. To enhance
-comprehensive analysis of the generated textual reports, Phi-3 medium is
-fine-tuned for historical analysis of these generated textual reports. This
-fine-tuning enables more reliable analysis about the pedestrian safety at
-intersections, effectively detecting patterns and safety critical events. The
-proposed VTPM offers a more efficient alternative to video footage by using
-textual reports reducing memory usage, saving up to 253 million percent,
-eliminating privacy issues, and enabling comprehensive interactive historical
-analysis.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2408.11290v1">Privacy Preservation in Delay-Based Localization Systems: Artificial
-  Noise or Artificial Multipath?</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
-  <p><b>Published on:</b> 2024-08-21T02:38:44Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yuchen Zhang, Hui Chen, Henk Wymeersch</p>
-    <p><b>Summary:</b> Localization plays an increasingly pivotal role in 5G/6G systems, enabling
-various applications. This paper focuses on the privacy concerns associated
-with delay-based localization, where unauthorized base stations attempt to
-infer the location of the end user. We propose a method to disrupt localization
-at unauthorized nodes by injecting artificial components into the pilot signal,
-exploiting model mismatches inherent in these nodes. Specifically, we
-investigate the effectiveness of two techniques, namely artificial multipath
-(AM) and artificial noise (AN), in mitigating location leakage. By leveraging
-the misspecified Cram\'er-Rao bound framework, we evaluate the impact of these
-techniques on unauthorized localization performance. Our results demonstrate
-that pilot manipulation significantly degrades the accuracy of unauthorized
-localization while minimally affecting legitimate localization. Moreover, we
-find that the superiority of AM over AN varies depending on the specific
-scenario.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2408.11263v1">Privacy-Preserving Data Management using Blockchains</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
-  <p><b>Published on:</b> 2024-08-21T01:10:39Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Michael Mireku Kwakye</p>
-    <p><b>Summary:</b> Privacy-preservation policies are guidelines formulated to protect data
-providers private data. Previous privacy-preservation methodologies have
-addressed privacy in which data are permanently stored in repositories and
-disconnected from changing data provider privacy preferences. This occurrence
-becomes evident as data moves to another data repository. Hence, the need for
-data providers to control and flexibly update their existing privacy
-preferences due to changing data usage continues to remain a problem. This
-paper proposes a blockchain-based methodology for preserving data providers
-private and sensitive data. The research proposes to tightly couple data
-providers private attribute data element to privacy preferences and data
-accessor data element into a privacy tuple. The implementation presents a
-framework of tightly-coupled relational database and blockchains. This delivers
-secure, tamper-resistant, and query-efficient platform for data management and
-query processing. The evaluation analysis from the implementation validates
-efficient query processing of privacy-aware queries on the privacy
-infrastructure.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2408.12387v1">Makeup-Guided Facial Privacy Protection via Untrained Neural Network
-  Priors</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-08-20T17:59:39Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Fahad Shamshad, Muzammal Naseer, Karthik Nandakumar</p>
-    <p><b>Summary:</b> Deep learning-based face recognition (FR) systems pose significant privacy
-risks by tracking users without their consent. While adversarial attacks can
-protect privacy, they often produce visible artifacts compromising user
-experience. To mitigate this issue, recent facial privacy protection approaches
-advocate embedding adversarial noise into the natural looking makeup styles.
-However, these methods require training on large-scale makeup datasets that are
-not always readily available. In addition, these approaches also suffer from
-dataset bias. For instance, training on makeup data that predominantly contains
-female faces could compromise protection efficacy for male faces. To handle
-these issues, we propose a test-time optimization approach that solely
-optimizes an untrained neural network to transfer makeup style from a reference
-to a source image in an adversarial manner. We introduce two key modules: a
-correspondence module that aligns regions between reference and source images
-in latent space, and a decoder with conditional makeup layers. The untrained
-decoder, optimized via carefully designed structural and makeup consistency
-losses, generates a protected image that resembles the source but incorporates
-adversarial makeup to deceive FR models. As our approach does not rely on
-training with makeup face datasets, it avoids potential male/female dataset
-biases while providing effective protection. We further extend the proposed
-approach to videos by leveraging on temporal correlations. Experiments on
-benchmark datasets demonstrate superior performance in face verification and
-identification tasks and effectiveness against commercial FR systems. Our code
-and models will be available at
-https://github.com/fahadshamshad/deep-facial-privacy-prior</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2408.10715v1">Fine-Tuning a Local LLaMA-3 Large Language Model for Automated
-  Privacy-Preserving Physician Letter Generation in Radiation Oncology</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2024-08-20T10:31:36Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yihao Hou, Christoph Bert, Ahmed Gomaa, Godehard Lahmer, Daniel Hoefler, Thomas Weissmann, Raphaela Voigt, Philipp Schubert, Charlotte Schmitter, Alina Depardon, Sabine Semrau, Andreas Maier, Rainer Fietkau, Yixing Huang, Florian Putz</p>
-    <p><b>Summary:</b> Generating physician letters is a time-consuming task in daily clinical
-practice. This study investigates local fine-tuning of large language models
-(LLMs), specifically LLaMA models, for physician letter generation in a
-privacy-preserving manner within the field of radiation oncology. Our findings
-demonstrate that base LLaMA models, without fine-tuning, are inadequate for
-effectively generating physician letters. The QLoRA algorithm provides an
-efficient method for local intra-institutional fine-tuning of LLMs with limited
-computational resources (i.e., a single 48 GB GPU workstation within the
-hospital). The fine-tuned LLM successfully learns radiation oncology-specific
-information and generates physician letters in an institution-specific style.
-ROUGE scores of the generated summary reports highlight the superiority of the
-8B LLaMA-3 model over the 13B LLaMA-2 model. Further multidimensional physician
-evaluations of 10 cases reveal that, although the fine-tuned LLaMA-3 model has
-limited capacity to generate content beyond the provided input data, it
-successfully generates salutations, diagnoses and treatment histories,
-recommendations for further treatment, and planned schedules. Overall, clinical
-benefit was rated highly by the clinical experts (average score of 3.44 on a
-4-point scale). With careful physician review and correction, automated
-LLM-based physician letter generation has significant practical value.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2408.10648v1">Smart Contract Coordinated Privacy Preserving Crowd-Sensing Campaigns</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
-  <p><b>Published on:</b> 2024-08-20T08:41:57Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Luca Bedogni, Stefano Ferretti</p>
-    <p><b>Summary:</b> Crowd-sensing has emerged as a powerful data retrieval model, enabling
-diverse applications by leveraging active user participation. However, data
-availability and privacy concerns pose significant challenges. Traditional
-methods like data encryption and anonymization, while essential, may not fully
-address these issues. For instance, in sparsely populated areas, anonymized
-data can still be traced back to individual users. Additionally, the volume of
-data generated by users can reveal their identities. To develop credible
-crowd-sensing systems, data must be anonymized, aggregated and separated into
-uniformly sized chunks. Furthermore, decentralizing the data management
-process, rather than relying on a single server, can enhance security and
-trust. This paper proposes a system utilizing smart contracts and blockchain
-technologies to manage crowd-sensing campaigns. The smart contract handles user
-subscriptions, data encryption, and decentralized storage, creating a secure
-data marketplace. Incentive policies within the smart contract encourage user
-participation and data diversity. Simulation results confirm the system's
-viability, highlighting the importance of user participation for data
-credibility and the impact of geographical data scarcity on rewards. This
-approach aims to balance data origin and reduce cheating risks.</p>
-  </details>
-</div>
-
-
 
 <h2>2024-09</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2409.11845v1">Law-based and standards-oriented approach for privacy impact assessment
+  in medical devices: a topic for lawyers, engineers and healthcare
+  practitioners in MedTech</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2024-09-18T09:56:19Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yuri R. Ladeia, David M. Pereira</p>
+    <p><b>Summary:</b> Background: The integration of the General Data Protection Regulation (GDPR)
+and the Medical Device Regulation (MDR) creates complexities in conducting Data
+Protection Impact Assessments (DPIAs) for medical devices. The adoption of
+non-binding standards like ISO and IEC can harmonize these processes by
+enhancing accountability and privacy by design. Methods: This study employs a
+multidisciplinary literature review, focusing on GDPR and MDR intersection in
+medical devices that process personal health data. It evaluates key standards,
+including ISO/IEC 29134 and IEC 62304, to propose a unified approach for DPIAs
+that aligns with legal and technical frameworks. Results: The analysis reveals
+the benefits of integrating ISO/IEC standards into DPIAs, which provide
+detailed guidance on implementing privacy by design, risk assessment, and
+mitigation strategies specific to medical devices. The proposed framework
+ensures that DPIAs are living documents, continuously updated to adapt to
+evolving data protection challenges. Conclusions: A unified approach combining
+European Union (EU) regulations and international standards offers a robust
+framework for conducting DPIAs in medical devices. This integration balances
+security, innovation, and privacy, enhancing compliance and fostering trust in
+medical technologies. The study advocates for leveraging both hard law and
+standards to systematically address privacy and safety in the design and
+operation of medical devices, thereby raising the maturity of the MedTech
+ecosystem.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2409.11805v1">Inside Out or Not: Privacy Implications of Emotional Disclosure</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2024-09-18T08:42:45Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Elham Naghizade, Kaixin Ji, Benjamin Tag, Flora Salim</p>
+    <p><b>Summary:</b> Privacy is dynamic, sensitive, and contextual, much like our emotions.
+Previous studies have explored the interplay between privacy and context,
+privacy and emotion, and emotion and context. However, there remains a
+significant gap in understanding the interplay of these aspects simultaneously.
+In this paper, we present a preliminary study investigating the role of
+emotions in driving individuals' information sharing behaviour, particularly in
+relation to urban locations and social ties. We adopt a novel methodology that
+integrates context (location and time), emotion, and personal information
+sharing behaviour, providing a comprehensive analysis of how contextual
+emotions affect privacy. The emotions are assessed with both self-reporting and
+electrodermal activity (EDA). Our findings reveal that self-reported emotions
+influence personal information-sharing behaviour with distant social groups,
+while neutral emotions lead individuals to share less precise information with
+close social circles, a pattern is potentially detectable with wrist-worn EDA.
+Our study helps lay the foundation for personalised emotion-aware strategies to
+mitigate oversharing risks and enhance user privacy in the digital age.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2409.11680v1">What to Consider When Considering Differential Privacy for Policy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-09-18T03:41:15Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Priyanka Nanayakkara, Jessica Hullman</p>
+    <p><b>Summary:</b> Differential privacy (DP) is a mathematical definition of privacy that can be
+widely applied when publishing data. DP has been recognized as a potential
+means of adhering to various privacy-related legal requirements. However, it
+can be difficult to reason about whether DP may be appropriate for a given
+context due to tensions that arise when it is brought from theory into
+practice. To aid policymaking around privacy concerns, we identify three
+categories of challenges to understanding DP along with associated questions
+that policymakers can ask about the potential deployment context to anticipate
+its impacts.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2409.11663v1">GReDP: A More Robust Approach for Differential Privacy Training with
+  Gradient-Preserving Noise Reduction</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-09-18T03:01:27Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Haodi Wang, Tangyu Jiang, Yu Guo, Xiaohua Jia, Chengjun Cai</p>
+    <p><b>Summary:</b> Deep learning models have been extensively adopted in various regions due to
+their ability to represent hierarchical features, which highly rely on the
+training set and procedures. Thus, protecting the training process and deep
+learning algorithms is paramount in privacy preservation. Although Differential
+Privacy (DP) as a powerful cryptographic primitive has achieved satisfying
+results in deep learning training, the existing schemes still fall short in
+preserving model utility, i.e., they either invoke a high noise scale or
+inevitably harm the original gradients. To address the above issues, in this
+paper, we present a more robust approach for DP training called GReDP.
+Specifically, we compute the model gradients in the frequency domain and adopt
+a new approach to reduce the noise level. Unlike the previous work, our GReDP
+only requires half of the noise scale compared to DPSGD [1] while keeping all
+the gradient information intact. We present a detailed analysis of our method
+both theoretically and empirically. The experimental results show that our
+GReDP works consistently better than the baselines on all models and training
+settings.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2409.11536v1">Obfuscation Based Privacy Preserving Representations are Recoverable
+  Using Neighborhood Information</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2024-09-17T20:13:54Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Kunal Chelani, Assia Benbihi, Fredrik Kahl, Torsten Sattler, Zuzana Kukelova</p>
+    <p><b>Summary:</b> Rapid growth in the popularity of AR/VR/MR applications and cloud-based
+visual localization systems has given rise to an increased focus on the privacy
+of user content in the localization process.
+  This privacy concern has been further escalated by the ability of deep neural
+networks to recover detailed images of a scene from a sparse set of 3D or 2D
+points and their descriptors - the so-called inversion attacks.
+  Research on privacy-preserving localization has therefore focused on
+preventing these inversion attacks on both the query image keypoints and the 3D
+points of the scene map.
+  To this end, several geometry obfuscation techniques that lift points to
+higher-dimensional spaces, i.e., lines or planes, or that swap coordinates
+between points % have been proposed.
+  In this paper, we point to a common weakness of these obfuscations that
+allows to recover approximations of the original point positions under the
+assumption of known neighborhoods.
+  We further show that these neighborhoods can be computed by learning to
+identify descriptors that co-occur in neighborhoods.
+  Extensive experiments show that our approach for point recovery is
+practically applicable to all existing geometric obfuscation schemes.
+  Our results show that these schemes should not be considered
+privacy-preserving, even though they are claimed to be privacy-preserving.
+  Code will be available at
+\url{https://github.com/kunalchelani/RecoverPointsNeighborhood}.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2409.11295v1">EIA: Environmental Injection Attack on Generalist Web Agents for Privacy
@@ -1420,6 +1347,33 @@ and deepfake detection.</p>
 
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2409.11430v1">Federated Learning with Quantum Computing and Fully Homomorphic
+  Encryption: A Novel Computing Paradigm Shift in Privacy-Preserving ML</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Neural and Evolutionary Computing-5BC0EB">
+  <p><b>Published on:</b> 2024-09-14T01:23:26Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Siddhant Dutta, Pavana P Karanth, Pedro Maciel Xavier, Iago Leal de Freitas, Nouhaila Innan, Sadok Ben Yahia, Muhammad Shafique, David E. Bernal Neira</p>
+    <p><b>Summary:</b> The widespread deployment of products powered by machine learning models is
+raising concerns around data privacy and information security worldwide. To
+address this issue, Federated Learning was first proposed as a
+privacy-preserving alternative to conventional methods that allow multiple
+learning clients to share model knowledge without disclosing private data. A
+complementary approach known as Fully Homomorphic Encryption (FHE) is a
+quantum-safe cryptographic system that enables operations to be performed on
+encrypted weights. However, implementing mechanisms such as these in practice
+often comes with significant computational overhead and can expose potential
+security threats. Novel computing paradigms, such as analog, quantum, and
+specialized digital hardware, present opportunities for implementing
+privacy-preserving machine learning systems while enhancing security and
+mitigating performance loss. This work instantiates these ideas by applying the
+FHE scheme to a Federated Learning Neural Network architecture that integrates
+both classical and quantum layers.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2409.09222v1">Dark Patterns in the Opt-Out Process and Compliance with the California
   Consumer Privacy Act (CCPA)</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
@@ -1586,6 +1540,39 @@ In SHARE, the federated model (AC 0.78, AUROC: 0.71) and centralized model (AC
 0.74, AUROC: 0.69). Conclusion: Federated learning enables the training of
 prognostic models from multi-center surveys without compromising privacy and
 with only minimal or no compromise regarding model performance.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2409.11423v1">Generated Data with Fake Privacy: Hidden Dangers of Fine-tuning Large
+  Language Models on Generated Data</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-09-12T10:14:12Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Atilla Akkus, Mingjie Li, Junjie Chu, Michael Backes, Yang Zhang, Sinem Sav</p>
+    <p><b>Summary:</b> Large language models (LLMs) have shown considerable success in a range of
+domain-specific tasks, especially after fine-tuning. However, fine-tuning with
+real-world data usually leads to privacy risks, particularly when the
+fine-tuning samples exist in the pre-training data. To avoid the shortcomings
+of real data, developers often employ methods to automatically generate
+synthetic data for fine-tuning, as data generated by traditional models are
+often far away from the real-world pertaining data. However, given the advanced
+capabilities of LLMs, the distinction between real data and LLM-generated data
+has become negligible, which may also lead to privacy risks like real data. In
+this paper, we present an empirical analysis of this underexplored issue by
+investigating a key question: "Does fine-tuning with LLM-generated data enhance
+privacy, or does it pose additional privacy risks?" Based on the structure of
+LLM's generated data, our research focuses on two primary approaches to
+fine-tuning with generated data: supervised fine-tuning with unstructured
+generated data and self-instruct tuning. The number of successful Personal
+Information Identifier (PII) extractions for Pythia after fine-tuning our
+generated data raised over $20\%$. Furthermore, the ROC-AUC score of membership
+inference attacks for Pythia-6.9b after self-instruct methods also achieves
+more than $40\%$ improvements on ROC-AUC score than base models. The results
+indicate the potential privacy risks in LLMs when fine-tuning with the
+generated data.</p>
   </details>
 </div>
 
