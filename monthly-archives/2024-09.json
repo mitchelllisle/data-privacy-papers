@@ -2059,5 +2059,192 @@
       "cs.LG",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.11845v1",
+    "title" : "Law-based and standards-oriented approach for privacy impact assessment\n  in medical devices: a topic for lawyers, engineers and healthcare\n  practitioners in MedTech",
+    "summary" : "Background: The integration of the General Data Protection Regulation (GDPR)\nand the Medical Device Regulation (MDR) creates complexities in conducting Data\nProtection Impact Assessments (DPIAs) for medical devices. The adoption of\nnon-binding standards like ISO and IEC can harmonize these processes by\nenhancing accountability and privacy by design. Methods: This study employs a\nmultidisciplinary literature review, focusing on GDPR and MDR intersection in\nmedical devices that process personal health data. It evaluates key standards,\nincluding ISO/IEC 29134 and IEC 62304, to propose a unified approach for DPIAs\nthat aligns with legal and technical frameworks. Results: The analysis reveals\nthe benefits of integrating ISO/IEC standards into DPIAs, which provide\ndetailed guidance on implementing privacy by design, risk assessment, and\nmitigation strategies specific to medical devices. The proposed framework\nensures that DPIAs are living documents, continuously updated to adapt to\nevolving data protection challenges. Conclusions: A unified approach combining\nEuropean Union (EU) regulations and international standards offers a robust\nframework for conducting DPIAs in medical devices. This integration balances\nsecurity, innovation, and privacy, enhancing compliance and fostering trust in\nmedical technologies. The study advocates for leveraging both hard law and\nstandards to systematically address privacy and safety in the design and\noperation of medical devices, thereby raising the maturity of the MedTech\necosystem.",
+    "updated" : "2024-09-18T09:56:19Z",
+    "published" : "2024-09-18T09:56:19Z",
+    "authors" : [
+      {
+        "name" : "Yuri R. Ladeia"
+      },
+      {
+        "name" : "David M. Pereira"
+      }
+    ],
+    "categories" : [
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.11805v1",
+    "title" : "Inside Out or Not: Privacy Implications of Emotional Disclosure",
+    "summary" : "Privacy is dynamic, sensitive, and contextual, much like our emotions.\nPrevious studies have explored the interplay between privacy and context,\nprivacy and emotion, and emotion and context. However, there remains a\nsignificant gap in understanding the interplay of these aspects simultaneously.\nIn this paper, we present a preliminary study investigating the role of\nemotions in driving individuals' information sharing behaviour, particularly in\nrelation to urban locations and social ties. We adopt a novel methodology that\nintegrates context (location and time), emotion, and personal information\nsharing behaviour, providing a comprehensive analysis of how contextual\nemotions affect privacy. The emotions are assessed with both self-reporting and\nelectrodermal activity (EDA). Our findings reveal that self-reported emotions\ninfluence personal information-sharing behaviour with distant social groups,\nwhile neutral emotions lead individuals to share less precise information with\nclose social circles, a pattern is potentially detectable with wrist-worn EDA.\nOur study helps lay the foundation for personalised emotion-aware strategies to\nmitigate oversharing risks and enhance user privacy in the digital age.",
+    "updated" : "2024-09-18T08:42:45Z",
+    "published" : "2024-09-18T08:42:45Z",
+    "authors" : [
+      {
+        "name" : "Elham Naghizade"
+      },
+      {
+        "name" : "Kaixin Ji"
+      },
+      {
+        "name" : "Benjamin Tag"
+      },
+      {
+        "name" : "Flora Salim"
+      }
+    ],
+    "categories" : [
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.11680v1",
+    "title" : "What to Consider When Considering Differential Privacy for Policy",
+    "summary" : "Differential privacy (DP) is a mathematical definition of privacy that can be\nwidely applied when publishing data. DP has been recognized as a potential\nmeans of adhering to various privacy-related legal requirements. However, it\ncan be difficult to reason about whether DP may be appropriate for a given\ncontext due to tensions that arise when it is brought from theory into\npractice. To aid policymaking around privacy concerns, we identify three\ncategories of challenges to understanding DP along with associated questions\nthat policymakers can ask about the potential deployment context to anticipate\nits impacts.",
+    "updated" : "2024-09-18T03:41:15Z",
+    "published" : "2024-09-18T03:41:15Z",
+    "authors" : [
+      {
+        "name" : "Priyanka Nanayakkara"
+      },
+      {
+        "name" : "Jessica Hullman"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.11663v1",
+    "title" : "GReDP: A More Robust Approach for Differential Privacy Training with\n  Gradient-Preserving Noise Reduction",
+    "summary" : "Deep learning models have been extensively adopted in various regions due to\ntheir ability to represent hierarchical features, which highly rely on the\ntraining set and procedures. Thus, protecting the training process and deep\nlearning algorithms is paramount in privacy preservation. Although Differential\nPrivacy (DP) as a powerful cryptographic primitive has achieved satisfying\nresults in deep learning training, the existing schemes still fall short in\npreserving model utility, i.e., they either invoke a high noise scale or\ninevitably harm the original gradients. To address the above issues, in this\npaper, we present a more robust approach for DP training called GReDP.\nSpecifically, we compute the model gradients in the frequency domain and adopt\na new approach to reduce the noise level. Unlike the previous work, our GReDP\nonly requires half of the noise scale compared to DPSGD [1] while keeping all\nthe gradient information intact. We present a detailed analysis of our method\nboth theoretically and empirically. The experimental results show that our\nGReDP works consistently better than the baselines on all models and training\nsettings.",
+    "updated" : "2024-09-18T03:01:27Z",
+    "published" : "2024-09-18T03:01:27Z",
+    "authors" : [
+      {
+        "name" : "Haodi Wang"
+      },
+      {
+        "name" : "Tangyu Jiang"
+      },
+      {
+        "name" : "Yu Guo"
+      },
+      {
+        "name" : "Xiaohua Jia"
+      },
+      {
+        "name" : "Chengjun Cai"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.11536v1",
+    "title" : "Obfuscation Based Privacy Preserving Representations are Recoverable\n  Using Neighborhood Information",
+    "summary" : "Rapid growth in the popularity of AR/VR/MR applications and cloud-based\nvisual localization systems has given rise to an increased focus on the privacy\nof user content in the localization process.\n  This privacy concern has been further escalated by the ability of deep neural\nnetworks to recover detailed images of a scene from a sparse set of 3D or 2D\npoints and their descriptors - the so-called inversion attacks.\n  Research on privacy-preserving localization has therefore focused on\npreventing these inversion attacks on both the query image keypoints and the 3D\npoints of the scene map.\n  To this end, several geometry obfuscation techniques that lift points to\nhigher-dimensional spaces, i.e., lines or planes, or that swap coordinates\nbetween points % have been proposed.\n  In this paper, we point to a common weakness of these obfuscations that\nallows to recover approximations of the original point positions under the\nassumption of known neighborhoods.\n  We further show that these neighborhoods can be computed by learning to\nidentify descriptors that co-occur in neighborhoods.\n  Extensive experiments show that our approach for point recovery is\npractically applicable to all existing geometric obfuscation schemes.\n  Our results show that these schemes should not be considered\nprivacy-preserving, even though they are claimed to be privacy-preserving.\n  Code will be available at\n\\url{https://github.com/kunalchelani/RecoverPointsNeighborhood}.",
+    "updated" : "2024-09-17T20:13:54Z",
+    "published" : "2024-09-17T20:13:54Z",
+    "authors" : [
+      {
+        "name" : "Kunal Chelani"
+      },
+      {
+        "name" : "Assia Benbihi"
+      },
+      {
+        "name" : "Fredrik Kahl"
+      },
+      {
+        "name" : "Torsten Sattler"
+      },
+      {
+        "name" : "Zuzana Kukelova"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.11430v1",
+    "title" : "Federated Learning with Quantum Computing and Fully Homomorphic\n  Encryption: A Novel Computing Paradigm Shift in Privacy-Preserving ML",
+    "summary" : "The widespread deployment of products powered by machine learning models is\nraising concerns around data privacy and information security worldwide. To\naddress this issue, Federated Learning was first proposed as a\nprivacy-preserving alternative to conventional methods that allow multiple\nlearning clients to share model knowledge without disclosing private data. A\ncomplementary approach known as Fully Homomorphic Encryption (FHE) is a\nquantum-safe cryptographic system that enables operations to be performed on\nencrypted weights. However, implementing mechanisms such as these in practice\noften comes with significant computational overhead and can expose potential\nsecurity threats. Novel computing paradigms, such as analog, quantum, and\nspecialized digital hardware, present opportunities for implementing\nprivacy-preserving machine learning systems while enhancing security and\nmitigating performance loss. This work instantiates these ideas by applying the\nFHE scheme to a Federated Learning Neural Network architecture that integrates\nboth classical and quantum layers.",
+    "updated" : "2024-09-14T01:23:26Z",
+    "published" : "2024-09-14T01:23:26Z",
+    "authors" : [
+      {
+        "name" : "Siddhant Dutta"
+      },
+      {
+        "name" : "Pavana P Karanth"
+      },
+      {
+        "name" : "Pedro Maciel Xavier"
+      },
+      {
+        "name" : "Iago Leal de Freitas"
+      },
+      {
+        "name" : "Nouhaila Innan"
+      },
+      {
+        "name" : "Sadok Ben Yahia"
+      },
+      {
+        "name" : "Muhammad Shafique"
+      },
+      {
+        "name" : "David E. Bernal Neira"
+      }
+    ],
+    "categories" : [
+      "quant-ph",
+      "cs.AI",
+      "cs.CR",
+      "cs.LG",
+      "cs.NE"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.11423v1",
+    "title" : "Generated Data with Fake Privacy: Hidden Dangers of Fine-tuning Large\n  Language Models on Generated Data",
+    "summary" : "Large language models (LLMs) have shown considerable success in a range of\ndomain-specific tasks, especially after fine-tuning. However, fine-tuning with\nreal-world data usually leads to privacy risks, particularly when the\nfine-tuning samples exist in the pre-training data. To avoid the shortcomings\nof real data, developers often employ methods to automatically generate\nsynthetic data for fine-tuning, as data generated by traditional models are\noften far away from the real-world pertaining data. However, given the advanced\ncapabilities of LLMs, the distinction between real data and LLM-generated data\nhas become negligible, which may also lead to privacy risks like real data. In\nthis paper, we present an empirical analysis of this underexplored issue by\ninvestigating a key question: \"Does fine-tuning with LLM-generated data enhance\nprivacy, or does it pose additional privacy risks?\" Based on the structure of\nLLM's generated data, our research focuses on two primary approaches to\nfine-tuning with generated data: supervised fine-tuning with unstructured\ngenerated data and self-instruct tuning. The number of successful Personal\nInformation Identifier (PII) extractions for Pythia after fine-tuning our\ngenerated data raised over $20\\%$. Furthermore, the ROC-AUC score of membership\ninference attacks for Pythia-6.9b after self-instruct methods also achieves\nmore than $40\\%$ improvements on ROC-AUC score than base models. The results\nindicate the potential privacy risks in LLMs when fine-tuning with the\ngenerated data.",
+    "updated" : "2024-09-12T10:14:12Z",
+    "published" : "2024-09-12T10:14:12Z",
+    "authors" : [
+      {
+        "name" : "Atilla Akkus"
+      },
+      {
+        "name" : "Mingjie Li"
+      },
+      {
+        "name" : "Junjie Chu"
+      },
+      {
+        "name" : "Michael Backes"
+      },
+      {
+        "name" : "Yang Zhang"
+      },
+      {
+        "name" : "Sinem Sav"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
   }
 ]
