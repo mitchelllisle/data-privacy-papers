@@ -2246,5 +2246,66 @@
       "cs.CR",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.09363v2",
+    "title" : "Security and Privacy Perspectives of People Living in Shared Home\n  Environments",
+    "summary" : "Security and privacy perspectives of people in a multi-user home are a\ngrowing area of research, with many researchers reflecting on the complicated\npower imbalance and challenging access control issues of the devices involved.\nHowever, these studies primarily focused on the multi-user scenarios in\ntraditional family home settings, leaving other types of multi-user home\nenvironments, such as homes shared by co-habitants without a familial\nrelationship, under-studied. This paper closes this research gap via\nquantitative and qualitative analysis of results from an online survey and\ncontent analysis of sampled online posts on Reddit. It explores the complex\nroles of shared home users, which depend on various factors unique to the\nshared home environment, e.g., who owns what home devices, how home devices are\nused by multiple users, and more complicated relationships between the landlord\nand people in the shared home and among co-habitants. Half (50.7%) of our\nsurvey participants thought that devices in a shared home are less secure than\nin a traditional family home. This perception was found statistically\nsignificantly associated with factors such as the fear of devices being\ntampered with in their absence and (lack of) trust in other co-habitants and\ntheir visitors. Our study revealed new user types and relationships in a\nmulti-user environment such as ExternalPrimary-InternalPrimary while analysing\nthe landlord and shared home resident relationship with regard to shared home\ndevice use. We propose a threat actor model for shared home environments, which\nhas a focus on possible malicious behaviours of current and past co-habitants\nof a shared home, as a special type of insider threat in a home environment. We\nalso recommend further research to understand the complex roles co-habitants\ncan play in navigating and adapting to a shared home environment's security and\nprivacy landscape.",
+    "updated" : "2024-09-19T08:05:16Z",
+    "published" : "2024-09-14T08:34:57Z",
+    "authors" : [
+      {
+        "name" : "Nandita Pattnaik"
+      },
+      {
+        "name" : "Shujun Li"
+      },
+      {
+        "name" : "Jason R. C. Nurse"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.11430v2",
+    "title" : "Federated Learning with Quantum Computing and Fully Homomorphic\n  Encryption: A Novel Computing Paradigm Shift in Privacy-Preserving ML",
+    "summary" : "The widespread deployment of products powered by machine learning models is\nraising concerns around data privacy and information security worldwide. To\naddress this issue, Federated Learning was first proposed as a\nprivacy-preserving alternative to conventional methods that allow multiple\nlearning clients to share model knowledge without disclosing private data. A\ncomplementary approach known as Fully Homomorphic Encryption (FHE) is a\nquantum-safe cryptographic system that enables operations to be performed on\nencrypted weights. However, implementing mechanisms such as these in practice\noften comes with significant computational overhead and can expose potential\nsecurity threats. Novel computing paradigms, such as analog, quantum, and\nspecialized digital hardware, present opportunities for implementing\nprivacy-preserving machine learning systems while enhancing security and\nmitigating performance loss. This work instantiates these ideas by applying the\nFHE scheme to a Federated Learning Neural Network architecture that integrates\nboth classical and quantum layers.",
+    "updated" : "2024-09-19T03:05:48Z",
+    "published" : "2024-09-14T01:23:26Z",
+    "authors" : [
+      {
+        "name" : "Siddhant Dutta"
+      },
+      {
+        "name" : "Pavana P Karanth"
+      },
+      {
+        "name" : "Pedro Maciel Xavier"
+      },
+      {
+        "name" : "Iago Leal de Freitas"
+      },
+      {
+        "name" : "Nouhaila Innan"
+      },
+      {
+        "name" : "Sadok Ben Yahia"
+      },
+      {
+        "name" : "Muhammad Shafique"
+      },
+      {
+        "name" : "David E. Bernal Neira"
+      }
+    ],
+    "categories" : [
+      "quant-ph",
+      "cs.AI",
+      "cs.CR",
+      "cs.LG",
+      "cs.NE"
+    ]
   }
 ]
