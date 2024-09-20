@@ -1274,7 +1274,7 @@ attacks.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.09363v1">Security and Privacy Perspectives of People Living in Shared Home
+  <h3><a href="http://arxiv.org/abs/2409.09363v2">Security and Privacy Perspectives of People Living in Shared Home
   Environments</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
   <p><b>Published on:</b> 2024-09-14T08:34:57Z</p>
@@ -1347,7 +1347,7 @@ and deepfake detection.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.11430v1">Federated Learning with Quantum Computing and Fully Homomorphic
+  <h3><a href="http://arxiv.org/abs/2409.11430v2">Federated Learning with Quantum Computing and Fully Homomorphic
   Encryption: A Novel Computing Paradigm Shift in Privacy-Preserving ML</a></h3>
    <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Neural and Evolutionary Computing-5BC0EB">
   <p><b>Published on:</b> 2024-09-14T01:23:26Z</p>
