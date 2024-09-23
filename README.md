@@ -2600,13 +2600,13 @@ effectiveness of the proposed approach.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.02375v1">How Privacy-Savvy Are Large Language Models? A Case Study on Compliance
+  <h3><a href="http://arxiv.org/abs/2409.02375v2">How Privacy-Savvy Are Large Language Models? A Case Study on Compliance
   and Privacy Technical Review</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
   <p><b>Published on:</b> 2024-09-04T01:51:37Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Xichou Zhu, Yang Liu, Zhou Shen, Yi Liu, Min Li, Yujun Chen, Benzi John, Zhenzhen Ma, Tao Hu, Bolong Yang, Manman Wang, Zongxing Xie, Peng Liu, Dan Cai, Junhui Wang</p>
+    <p><b>Authors:</b> Xichou Zhu, Yang Liu, Zhou Shen, Yi Liu, Min Li, Yujun Chen, Benzi John, Zhenzhen Ma, Zhi Li, Tao Hu, Bolong Yang, Manman Wang, Zongxing Xie, Peng Liu, Dan Cai, Junhui Wang</p>
     <p><b>Summary:</b> The recent advances in large language models (LLMs) have significantly
 expanded their applications across various fields such as language generation,
 summarization, and complex question answering. However, their application to
