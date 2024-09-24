@@ -26,7 +26,7 @@ See the FedCampus video at https://youtu.be/k5iu46IjA38.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.10533v2">Ethical Challenges in Computer Vision: Ensuring Privacy and Mitigating
+  <h3><a href="http://arxiv.org/abs/2409.10533v3">Ethical Challenges in Computer Vision: Ensuring Privacy and Mitigating
   Bias in Publicly Available Datasets</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
   <p><b>Published on:</b> 2024-08-31T00:59:29Z</p>
@@ -860,13 +860,13 @@ its impacts.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.11663v1">GReDP: A More Robust Approach for Differential Privacy Training with
+  <h3><a href="http://arxiv.org/abs/2409.11663v2">GReDP: A More Robust Approach for Differential Private Training with
   Gradient-Preserving Noise Reduction</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
   <p><b>Published on:</b> 2024-09-18T03:01:27Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Haodi Wang, Tangyu Jiang, Yu Guo, Xiaohua Jia, Chengjun Cai</p>
+    <p><b>Authors:</b> Haodi Wang, Tangyu Jiang, Yu Guo, Chengjun Cai, Cong Wang, Xiaohua Jia</p>
     <p><b>Summary:</b> Deep learning models have been extensively adopted in various regions due to
 their ability to represent hierarchical features, which highly rely on the
 training set and procedures. Thus, protecting the training process and deep
@@ -2600,13 +2600,13 @@ effectiveness of the proposed approach.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.02375v2">How Privacy-Savvy Are Large Language Models? A Case Study on Compliance
+  <h3><a href="http://arxiv.org/abs/2409.02375v3">How Privacy-Savvy Are Large Language Models? A Case Study on Compliance
   and Privacy Technical Review</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
   <p><b>Published on:</b> 2024-09-04T01:51:37Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Xichou Zhu, Yang Liu, Zhou Shen, Yi Liu, Min Li, Yujun Chen, Benzi John, Zhenzhen Ma, Zhi Li, Tao Hu, Bolong Yang, Manman Wang, Zongxing Xie, Peng Liu, Dan Cai, Junhui Wang</p>
+    <p><b>Authors:</b> Xichou Zhu, Yang Liu, Zhou Shen, Yi Liu, Min Li, Yujun Chen, Benzi John, Zhenzhen Ma, Tao Hu, Zhi Li, Bolong Yang, Manman Wang, Zongxing Xie, Peng Liu, Dan Cai, Junhui Wang</p>
     <p><b>Summary:</b> The recent advances in large language models (LLMs) have significantly
 expanded their applications across various fields such as language generation,
 summarization, and complex question answering. However, their application to
