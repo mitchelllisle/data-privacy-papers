@@ -2747,5 +2747,22 @@
       "cs.CR",
       "cs.CY"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.10533v3",
+    "title" : "Ethical Challenges in Computer Vision: Ensuring Privacy and Mitigating\n  Bias in Publicly Available Datasets",
+    "summary" : "This paper aims to shed light on the ethical problems of creating and\ndeploying computer vision tech, particularly in using publicly available\ndatasets. Due to the rapid growth of machine learning and artificial\nintelligence, computer vision has become a vital tool in many industries,\nincluding medical care, security systems, and trade. However, extensive use of\nvisual data that is often collected without consent due to an informed\ndiscussion of its ramifications raises significant concerns about privacy and\nbias. The paper also examines these issues by analyzing popular datasets such\nas COCO, LFW, ImageNet, CelebA, PASCAL VOC, etc., that are usually used for\ntraining computer vision models. We offer a comprehensive ethical framework\nthat addresses these challenges regarding the protection of individual rights,\nminimization of bias as well as openness and responsibility. We aim to\nencourage AI development that will take into account societal values as well as\nethical standards to avoid any public harm.",
+    "updated" : "2024-09-22T16:40:09Z",
+    "published" : "2024-08-31T00:59:29Z",
+    "authors" : [
+      {
+        "name" : "Ghalib Ahmed Tahir"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.CR",
+      "cs.CY"
+    ]
   }
 ]
