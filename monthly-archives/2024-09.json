@@ -2367,5 +2367,96 @@
     "categories" : [
       "cs.CL"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.11663v2",
+    "title" : "GReDP: A More Robust Approach for Differential Private Training with\n  Gradient-Preserving Noise Reduction",
+    "summary" : "Deep learning models have been extensively adopted in various regions due to\ntheir ability to represent hierarchical features, which highly rely on the\ntraining set and procedures. Thus, protecting the training process and deep\nlearning algorithms is paramount in privacy preservation. Although Differential\nPrivacy (DP) as a powerful cryptographic primitive has achieved satisfying\nresults in deep learning training, the existing schemes still fall short in\npreserving model utility, i.e., they either invoke a high noise scale or\ninevitably harm the original gradients. To address the above issues, in this\npaper, we present a more robust approach for DP training called GReDP.\nSpecifically, we compute the model gradients in the frequency domain and adopt\na new approach to reduce the noise level. Unlike the previous work, our GReDP\nonly requires half of the noise scale compared to DPSGD [1] while keeping all\nthe gradient information intact. We present a detailed analysis of our method\nboth theoretically and empirically. The experimental results show that our\nGReDP works consistently better than the baselines on all models and training\nsettings.",
+    "updated" : "2024-09-21T04:06:00Z",
+    "published" : "2024-09-18T03:01:27Z",
+    "authors" : [
+      {
+        "name" : "Haodi Wang"
+      },
+      {
+        "name" : "Tangyu Jiang"
+      },
+      {
+        "name" : "Yu Guo"
+      },
+      {
+        "name" : "Chengjun Cai"
+      },
+      {
+        "name" : "Cong Wang"
+      },
+      {
+        "name" : "Xiaohua Jia"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.02375v3",
+    "title" : "How Privacy-Savvy Are Large Language Models? A Case Study on Compliance\n  and Privacy Technical Review",
+    "summary" : "The recent advances in large language models (LLMs) have significantly\nexpanded their applications across various fields such as language generation,\nsummarization, and complex question answering. However, their application to\nprivacy compliance and technical privacy reviews remains under-explored,\nraising critical concerns about their ability to adhere to global privacy\nstandards and protect sensitive user data. This paper seeks to address this gap\nby providing a comprehensive case study evaluating LLMs' performance in\nprivacy-related tasks such as privacy information extraction (PIE), legal and\nregulatory key point detection (KPD), and question answering (QA) with respect\nto privacy policies and data protection regulations. We introduce a Privacy\nTechnical Review (PTR) framework, highlighting its role in mitigating privacy\nrisks during the software development life-cycle. Through an empirical\nassessment, we investigate the capacity of several prominent LLMs, including\nBERT, GPT-3.5, GPT-4, and custom models, in executing privacy compliance checks\nand technical privacy reviews. Our experiments benchmark the models across\nmultiple dimensions, focusing on their precision, recall, and F1-scores in\nextracting privacy-sensitive information and detecting key regulatory\ncompliance points. While LLMs show promise in automating privacy reviews and\nidentifying regulatory discrepancies, significant gaps persist in their ability\nto fully comply with evolving legal standards. We provide actionable\nrecommendations for enhancing LLMs' capabilities in privacy compliance,\nemphasizing the need for robust model improvements and better integration with\nlegal and regulatory requirements. This study underscores the growing\nimportance of developing privacy-aware LLMs that can both support businesses in\ncompliance efforts and safeguard user privacy rights.",
+    "updated" : "2024-09-23T02:30:21Z",
+    "published" : "2024-09-04T01:51:37Z",
+    "authors" : [
+      {
+        "name" : "Xichou Zhu"
+      },
+      {
+        "name" : "Yang Liu"
+      },
+      {
+        "name" : "Zhou Shen"
+      },
+      {
+        "name" : "Yi Liu"
+      },
+      {
+        "name" : "Min Li"
+      },
+      {
+        "name" : "Yujun Chen"
+      },
+      {
+        "name" : "Benzi John"
+      },
+      {
+        "name" : "Zhenzhen Ma"
+      },
+      {
+        "name" : "Tao Hu"
+      },
+      {
+        "name" : "Zhi Li"
+      },
+      {
+        "name" : "Bolong Yang"
+      },
+      {
+        "name" : "Manman Wang"
+      },
+      {
+        "name" : "Zongxing Xie"
+      },
+      {
+        "name" : "Peng Liu"
+      },
+      {
+        "name" : "Dan Cai"
+      },
+      {
+        "name" : "Junhui Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CL"
+    ]
   }
 ]
