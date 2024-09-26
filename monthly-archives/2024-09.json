@@ -2458,5 +2458,595 @@
     "categories" : [
       "cs.CL"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.17144v1",
+    "title" : "Differential Privacy Regularization: Protecting Training Data Through\n  Loss Function Regularization",
+    "summary" : "Training machine learning models based on neural networks requires large\ndatasets, which may contain sensitive information. The models, however, should\nnot expose private information from these datasets. Differentially private SGD\n[DP-SGD] requires the modification of the standard stochastic gradient descent\n[SGD] algorithm for training new models. In this short paper, a novel\nregularization strategy is proposed to achieve the same goal in a more\nefficient manner.",
+    "updated" : "2024-09-25T17:59:32Z",
+    "published" : "2024-09-25T17:59:32Z",
+    "authors" : [
+      {
+        "name" : "Francisco Aguilera-Martínez"
+      },
+      {
+        "name" : "Fernando Berzal"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR",
+      "cs.NE"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.16777v1",
+    "title" : "PhD Forum: Efficient Privacy-Preserving Processing via Memory-Centric\n  Computing",
+    "summary" : "Privacy-preserving computation techniques like homomorphic encryption (HE)\nand secure multi-party computation (SMPC) enhance data security by enabling\nprocessing on encrypted data. However, the significant computational and\nCPU-DRAM data movement overhead resulting from the underlying cryptographic\nalgorithms impedes the adoption of these techniques in practice. Existing\napproaches focus on improving computational overhead using specialized hardware\nlike GPUs and FPGAs, but these methods still suffer from the same\nprocessor-DRAM overhead. Novel hardware technologies that support in-memory\nprocessing have the potential to address this problem. Memory-centric\ncomputing, or processing-in-memory (PIM), brings computation closer to data by\nintroducing low-power processors called data processing units (DPUs) into\nmemory. Besides its in-memory computation capability, PIM provides extensive\nparallelism, resulting in significant performance improvement over\nstate-of-the-art approaches. We propose a framework that uses recently\navailable PIM hardware to achieve efficient privacy-preserving computation. Our\ndesign consists of a four-layer architecture: (1) an application layer that\ndecouples privacy-preserving applications from the underlying protocols and\nhardware; (2) a protocol layer that implements existing secure computation\nprotocols (HE and MPC); (3) a data orchestration layer that leverages data\ncompression techniques to mitigate the data transfer overhead between DPUs and\nhost memory; (4) a computation layer which implements DPU kernels on which\nsecure computation algorithms are built.",
+    "updated" : "2024-09-25T09:37:50Z",
+    "published" : "2024-09-25T09:37:50Z",
+    "authors" : [
+      {
+        "name" : "Mpoki Mwaisela"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AR",
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.16688v1",
+    "title" : "Cycle Counting under Local Differential Privacy for Degeneracy-bounded\n  Graphs",
+    "summary" : "We propose an algorithm for counting the number of cycles under local\ndifferential privacy for degeneracy-bounded input graphs. Numerous studies have\nfocused on counting the number of triangles under the privacy notion,\ndemonstrating that the expected \\(\\ell_2\\)-error of these algorithms is\n\\(\\Omega(n^{1.5})\\), where \\(n\\) is the number of nodes in the graph. When\nparameterized by the number of cycles of length four (\\(C_4\\)), the best\nexisting triangle counting algorithm has an error of \\(O(n^{1.5} + \\sqrt{C_4})\n= O(n^2)\\). In this paper, we introduce an algorithm with an expected\n\\(\\ell_2\\)-error of \\(O(\\delta^{1.5} n^{0.5} + \\delta^{0.5} d_{\\max}^{0.5}\nn^{0.5})\\), where \\(\\delta\\) is the degeneracy and \\(d_{\\max}\\) is the maximum\ndegree of the graph. For degeneracy-bounded graphs (\\(\\delta \\in \\Theta(1)\\))\ncommonly found in practical social networks, our algorithm achieves an expected\n\\(\\ell_2\\)-error of \\(O(d_{\\max}^{0.5} n^{0.5}) = O(n)\\). Our algorithm's core\nidea is a precise count of triangles following a preprocessing step that\napproximately sorts the degree of all nodes. This approach can be extended to\napproximate the number of cycles of length \\(k\\), maintaining a similar\n\\(\\ell_2\\)-error, namely $O(\\delta^{(k-2)/2} d_{\\max}^{0.5} n^{(k-2)/2} +\n\\delta^{k/2} n^{(k-2)/2})$ or $O(d_{\\max}^{0.5} n^{(k-2)/2}) = O(n^{(k-1)/2})$\nfor degeneracy-bounded graphs.",
+    "updated" : "2024-09-25T07:23:58Z",
+    "published" : "2024-09-25T07:23:58Z",
+    "authors" : [
+      {
+        "name" : "Quentin Hillebrand"
+      },
+      {
+        "name" : "Vorapong Suppakitpaisarn"
+      },
+      {
+        "name" : "Tetsuo Shibuya"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DS"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.16621v1",
+    "title" : "Entailment-Driven Privacy Policy Classification with LLMs",
+    "summary" : "While many online services provide privacy policies for end users to read and\nunderstand what personal data are being collected, these documents are often\nlengthy and complicated. As a result, the vast majority of users do not read\nthem at all, leading to data collection under uninformed consent. Several\nattempts have been made to make privacy policies more user friendly by\nsummarising them, providing automatic annotations or labels for key sections,\nor by offering chat interfaces to ask specific questions. With recent advances\nin Large Language Models (LLMs), there is an opportunity to develop more\neffective tools to parse privacy policies and help users make informed\ndecisions. In this paper, we propose an entailment-driven LLM based framework\nto classify paragraphs of privacy policies into meaningful labels that are\neasily understood by users. The results demonstrate that our framework\noutperforms traditional LLM methods, improving the F1 score in average by\n11.2%. Additionally, our framework provides inherently explainable and\nmeaningful predictions.",
+    "updated" : "2024-09-25T05:07:05Z",
+    "published" : "2024-09-25T05:07:05Z",
+    "authors" : [
+      {
+        "name" : "Bhanuka Silva"
+      },
+      {
+        "name" : "Dishanika Denipitiyage"
+      },
+      {
+        "name" : "Suranga Seneviratne"
+      },
+      {
+        "name" : "Anirban Mahanti"
+      },
+      {
+        "name" : "Aruna Seneviratne"
+      }
+    ],
+    "categories" : [
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.16340v1",
+    "title" : "Future-Proofing Medical Imaging with Privacy-Preserving Federated\n  Learning and Uncertainty Quantification: A Review",
+    "summary" : "Artificial Intelligence (AI) has demonstrated significant potential in\nautomating various medical imaging tasks, which could soon become routine in\nclinical practice for disease diagnosis, prognosis, treatment planning, and\npost-treatment surveillance. However, the privacy concerns surrounding patient\ndata present a major barrier to the widespread adoption of AI in medical\nimaging, as large, diverse training datasets are essential for developing\naccurate, generalizable, and robust Artificial intelligence models. Federated\nLearning (FL) offers a solution that enables organizations to train AI models\ncollaboratively without sharing sensitive data. federated learning exchanges\nmodel training information, such as gradients, between the participating sites.\nDespite its promise, federated learning is still in its developmental stages\nand faces several challenges. Notably, sensitive information can still be\ninferred from the gradients shared during model training. Quantifying AI\nmodels' uncertainty is vital due to potential data distribution shifts\npost-deployment, which can affect model performance. Uncertainty quantification\n(UQ) in FL is particularly challenging due to data heterogeneity across\nparticipating sites. This review provides a comprehensive examination of FL,\nprivacy-preserving FL (PPFL), and UQ in FL. We identify key gaps in current FL\nmethodologies and propose future research directions to enhance data privacy\nand trustworthiness in medical imaging applications.",
+    "updated" : "2024-09-24T16:55:32Z",
+    "published" : "2024-09-24T16:55:32Z",
+    "authors" : [
+      {
+        "name" : "Nikolas Koutsoubis"
+      },
+      {
+        "name" : "Asim Waqas"
+      },
+      {
+        "name" : "Yasin Yilmaz"
+      },
+      {
+        "name" : "Ravi P. Ramachandran"
+      },
+      {
+        "name" : "Matthew Schabath"
+      },
+      {
+        "name" : "Ghulam Rasool"
+      }
+    ],
+    "categories" : [
+      "eess.IV",
+      "cs.AI",
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.16106v1",
+    "title" : "Scenario of Use Scheme: Threat Model Specification for Speaker Privacy\n  Protection in the Medical Domain",
+    "summary" : "Speech recordings are being more frequently used to detect and monitor\ndisease, leading to privacy concerns. Beyond cryptography, protection of speech\ncan be addressed by approaches, such as perturbation, disentanglement, and\nre-synthesis, that eliminate sensitive information of the speaker, leaving the\ninformation necessary for medical analysis purposes. In order for such privacy\nprotective approaches to be developed, clear and systematic specifications of\nassumptions concerning medical settings and the needs of medical professionals\nare necessary. In this paper, we propose a Scenario of Use Scheme that\nincorporates an Attacker Model, which characterizes the adversary against whom\nthe speaker's privacy must be defended, and a Protector Model, which specifies\nthe defense. We discuss the connection of the scheme with previous work on\nspeech privacy. Finally, we present a concrete example of a specified Scenario\nof Use and a set of experiments about protecting speaker data against gender\ninference attacks while maintaining utility for Parkinson's detection.",
+    "updated" : "2024-09-24T14:07:47Z",
+    "published" : "2024-09-24T14:07:47Z",
+    "authors" : [
+      {
+        "name" : "Mehtab Ur Rahman"
+      },
+      {
+        "name" : "Martha Larson"
+      },
+      {
+        "name" : "Louis ten Bosch"
+      },
+      {
+        "name" : "Cristian Tejedor-García"
+      }
+    ],
+    "categories" : [
+      "eess.AS",
+      "cs.AI",
+      "cs.CR",
+      "cs.SD"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.15868v2",
+    "title" : "Privacy Evaluation Benchmarks for NLP Models",
+    "summary" : "By inducing privacy attacks on NLP models, attackers can obtain sensitive\ninformation such as training data and model parameters, etc. Although\nresearchers have studied, in-depth, several kinds of attacks in NLP models,\nthey are non-systematic analyses. It lacks a comprehensive understanding of the\nimpact caused by the attacks. For example, we must consider which scenarios can\napply to which attacks, what the common factors are that affect the performance\nof different attacks, the nature of the relationships between different\nattacks, and the influence of various datasets and models on the effectiveness\nof the attacks, etc. Therefore, we need a benchmark to holistically assess the\nprivacy risks faced by NLP models. In this paper, we present a privacy attack\nand defense evaluation benchmark in the field of NLP, which includes the\nconventional/small models and large language models (LLMs). This benchmark\nsupports a variety of models, datasets, and protocols, along with standardized\nmodules for comprehensive evaluation of attacks and defense strategies. Based\non the above framework, we present a study on the association between auxiliary\ndata from different domains and the strength of privacy attacks. And we provide\nan improved attack method in this scenario with the help of Knowledge\nDistillation (KD). Furthermore, we propose a chained framework for privacy\nattacks. Allowing a practitioner to chain multiple attacks to achieve a\nhigher-level attack objective. Based on this, we provide some defense and\nenhanced attack strategies. The code for reproducing the results can be found\nat https://github.com/user2311717757/nlp_doctor.",
+    "updated" : "2024-09-25T07:03:05Z",
+    "published" : "2024-09-24T08:41:26Z",
+    "authors" : [
+      {
+        "name" : "Wei Huang"
+      },
+      {
+        "name" : "Yinggui Wang"
+      },
+      {
+        "name" : "Cen Chen"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.15656v1",
+    "title" : "Identified-and-Targeted: The First Early Evidence of the\n  Privacy-Invasive Use of Browser Fingerprinting for Online Tracking",
+    "summary" : "While advertising has become commonplace in today's online interactions,\nthere is a notable dearth of research investigating the extent to which browser\nfingerprinting is harnessed for user tracking and targeted advertising. Prior\nstudies only measured whether fingerprinting-related scripts are being run on\nthe websites but that in itself does not necessarily mean that fingerprinting\nis being used for the privacy-invasive purpose of online tracking because\nfingerprinting might be deployed for the defensive purposes of bot/fraud\ndetection and user authentication. It is imperative to address the mounting\nconcerns regarding the utilization of browser fingerprinting in the realm of\nonline advertising.\n  To understand the privacy-invasive use of fingerprinting for user tracking,\nthis paper introduces a new framework ``FPTrace'' (fingerprinting-based\ntracking assessment and comprehensive evaluation framework) designed to\nidentify alterations in advertisements resulting from adjustments in browser\nfingerprinting settings. Our approach involves emulating genuine user\ninteractions, capturing advertiser bid data, and closely monitoring HTTP\ninformation. Using FPTrace we conduct a large-scale measurement study to\nidentify whether browser fingerprinting is being used for the purpose of user\ntracking and ad targeting. The results we have obtained provide robust evidence\nsupporting the utilization of browser fingerprinting for the purposes of\nadvertisement tracking and targeting. This is substantiated by significant\ndisparities in bid values and a reduction in HTTP records subsequent to changes\nin fingerprinting. In conclusion, our research unveils the widespread\nemployment of browser fingerprinting in online advertising, prompting critical\nconsiderations regarding user privacy and data security within the digital\nadvertising landscape.",
+    "updated" : "2024-09-24T01:39:16Z",
+    "published" : "2024-09-24T01:39:16Z",
+    "authors" : [
+      {
+        "name" : "Zengrui Liu"
+      },
+      {
+        "name" : "Jimmy Dani"
+      },
+      {
+        "name" : "Shujiang Wu"
+      },
+      {
+        "name" : "Yinzhi Cao"
+      },
+      {
+        "name" : "Nitesh Saxena"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.15561v1",
+    "title" : "Analyzing Privacy Implications of Data Collection in Android Automotive\n  OS",
+    "summary" : "Modern vehicles have become sophisticated computation and sensor systems, as\nevidenced by advanced driver assistance systems, in-car infotainment, and\nautonomous driving capabilities. They collect and process vast amounts of data\nthrough various embedded subsystems. One significant player in this landscape\nis Android Automotive OS (AAOS), which has been integrated into over 100M\nvehicles and has become a dominant force in the in-vehicle infotainment market.\nWith this extensive data collection, privacy has become increasingly crucial.\nThe volume of data gathered by these systems raises questions about how this\ninformation is stored, used, and protected, making privacy a critical issue for\nmanufacturers and consumers. However, very little has been done on vehicle data\nprivacy. This paper focuses on the privacy implications of AAOS, examining the\nexact nature and scope of data collection and the corresponding privacy\npolicies from the original equipment manufacturers (OEMs). We develop a novel\nautomotive privacy analysis tool called PriDrive which employs three\nmethodological approaches: network traffic inspection, and both static and\ndynamic analyses of Android images using rooted emulators from various OEMs.\nThese methodologies are followed by an assessment of whether the collected data\ntypes were properly disclosed in OEMs and 3rd party apps' privacy policies (to\nidentify any discrepancies or violations). Our evaluation on three different\nOEM platforms reveals that vehicle speed is collected at a sampling rate of\nroughly 25 Hz. Other properties such as model info, climate & AC, and seat data\nare collected in a batch 30 seconds into vehicle startup. In addition, several\nvehicle property types were collected without disclosure in their respective\nprivacy policies. For example, OEM A's policies only covers 110 vehicle\nproperties or 13.02% of the properties found in our static analysis.",
+    "updated" : "2024-09-23T21:35:40Z",
+    "published" : "2024-09-23T21:35:40Z",
+    "authors" : [
+      {
+        "name" : "Bulut Gözübüyük"
+      },
+      {
+        "name" : "Brian Tang"
+      },
+      {
+        "name" : "Kang G. Shin"
+      },
+      {
+        "name" : "Mert D. Pesé"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.14919v1",
+    "title" : "Voice Conversion-based Privacy through Adversarial Information Hiding",
+    "summary" : "Privacy-preserving voice conversion aims to remove only the attributes of\nspeech audio that convey identity information, keeping other speech\ncharacteristics intact. This paper presents a mechanism for privacy-preserving\nvoice conversion that allows controlling the leakage of identity-bearing\ninformation using adversarial information hiding. This enables a deliberate\ntrade-off between maintaining source-speech characteristics and modification of\nspeaker identity. As such, the approach improves on voice-conversion techniques\nlike CycleGAN and StarGAN, which were not designed for privacy, meaning that\nconverted speech may leak personal information in unpredictable ways. Our\napproach is also more flexible than ASR-TTS voice conversion pipelines, which\nby design discard all prosodic information linked to textual content.\nEvaluations show that the proposed system successfully modifies perceived\nspeaker identity whilst well maintaining source lexical content.",
+    "updated" : "2024-09-23T11:16:49Z",
+    "published" : "2024-09-23T11:16:49Z",
+    "authors" : [
+      {
+        "name" : "Jacob J Webber"
+      },
+      {
+        "name" : "Oliver Watts"
+      },
+      {
+        "name" : "Gustav Eje Henter"
+      },
+      {
+        "name" : "Jennifer Williams"
+      },
+      {
+        "name" : "Simon King"
+      }
+    ],
+    "categories" : [
+      "cs.SD",
+      "eess.AS"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.14879v1",
+    "title" : "Privacy Policy Analysis through Prompt Engineering for LLMs",
+    "summary" : "Privacy policies are often obfuscated by their complexity, which impedes\ntransparency and informed consent. Conventional machine learning approaches for\nautomatically analyzing these policies demand significant resources and\nsubstantial domain-specific training, causing adaptability issues. Moreover,\nthey depend on extensive datasets that may require regular maintenance due to\nchanging privacy concerns.\n  In this paper, we propose, apply, and assess PAPEL (Privacy Policy Analysis\nthrough Prompt Engineering for LLMs), a framework harnessing the power of Large\nLanguage Models (LLMs) through prompt engineering to automate the analysis of\nprivacy policies. PAPEL aims to streamline the extraction, annotation, and\nsummarization of information from these policies, enhancing their accessibility\nand comprehensibility without requiring additional model training. By\nintegrating zero-shot, one-shot, and few-shot learning approaches and the\nchain-of-thought prompting in creating predefined prompts and prompt templates,\nPAPEL guides LLMs to efficiently dissect, interpret, and synthesize the\ncritical aspects of privacy policies into user-friendly summaries. We\ndemonstrate the effectiveness of PAPEL with two applications: (i) annotation\nand (ii) contradiction analysis. We assess the ability of several LLaMa and GPT\nmodels to identify and articulate data handling practices, offering insights\ncomparable to existing automated analysis approaches while reducing training\nefforts and increasing the adaptability to new analytical needs. The\nexperiments demonstrate that the LLMs PAPEL utilizes (LLaMA and Chat GPT\nmodels) achieve robust performance in privacy policy annotation, with F1 scores\nreaching 0.8 and above (using the OPP-115 gold standard), underscoring the\neffectiveness of simpler prompts across various advanced language models.",
+    "updated" : "2024-09-23T10:23:31Z",
+    "published" : "2024-09-23T10:23:31Z",
+    "authors" : [
+      {
+        "name" : "Arda Goknil"
+      },
+      {
+        "name" : "Femke B. Gelderblom"
+      },
+      {
+        "name" : "Simeon Tverdal"
+      },
+      {
+        "name" : "Shukun Tokas"
+      },
+      {
+        "name" : "Hui Song"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.CY",
+      "cs.SE"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.14798v1",
+    "title" : "PrivaMatch: A Privacy-Preserving DNA Matching Scheme for Forensic\n  Investigation",
+    "summary" : "DNA fingerprinting and matching for identifying suspects has been a common\npractice in criminal investigation. Such proceedings involve multiple parties\nsuch as investigating agencies, suspects and forensic labs. A major challenge\nin such settings is to carry out the matching process between the suspects' DNA\nsamples and the samples obtained from the crime scene without compromising the\nprivacy of the suspects' DNA profiles. Additionally, it is necessary that\nsensitive details pertaining to the investigation such as the identities of the\nsuspects and evidence obtained from the crime scene must be kept private to the\ninvestigating agency. We present a novel DNA matching scheme, termed as\nPrivaMatch, which addresses multiple concerns about privacy of the suspects'\nDNA profiles and the crime scene evidence. In the proposed scheme, the\ninvestigating agencies oblivious transfer and zero-knowledge proofs to\nprivately obtain the DNA profiles of the suspects from the forensic lab's\ndatabase.In addition, we present a clever data obfuscation technique using\nhomomorphic encryption and modular arithmetic for the investigating agency to\nprivately obtain the DNA profile of the crime scene's sample, keeping the\nprofile oblivious from the forensic lab. The DNA profile of the crime scene\nsample is operated on using a homomorphic cryptosystem such that neither of the\nparties (e.g., the investigation agency, forensic labs, DNA database owners)\nlearns about the private data of the other parties. The proposed scheme is\nanalysed formally and the practicality of its security strengths is verified\nusing simulations under standard assumptions.",
+    "updated" : "2024-09-23T08:22:31Z",
+    "published" : "2024-09-23T08:22:31Z",
+    "authors" : [
+      {
+        "name" : "Sankha Das"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.14499v1",
+    "title" : "A Review of Scalable and Privacy-Preserving Multi-Agent Frameworks for\n  Distributed Energy Resource Control",
+    "summary" : "Distributed energy resources (DERs) are gaining prominence due to their\nadvantages in improving energy efficiency, reducing carbon emissions, and\nenhancing grid resilience. Despite the increasing deployment, the potential of\nDERs has yet to be fully explored and exploited. A fundamental question\nrestrains the management of numerous DERs in large-scale power systems, \"How\nshould DER data be securely processed and DER operations be efficiently\noptimized?\" To address this question, this paper considers two critical issues,\nnamely privacy for processing DER data and scalability in optimizing DER\noperations, then surveys existing and emerging solutions from a multi-agent\nframework perspective. In the context of scalability, this paper reviews\nstate-of-the-art research that relies on parallel control, optimization, and\nlearning within distributed and/or decentralized information exchange\nstructures, while in the context of privacy, it identifies privacy preservation\nmeasures that can be synthesized into the aforementioned scalable structures.\nDespite research advances in these areas, challenges remain because these\nhighly interdisciplinary studies blend a wide variety of scalable computing\narchitectures and privacy preservation techniques from different fields, making\nthem difficult to adapt in practice. To mitigate this issue, this paper\nprovides a holistic review of trending strategies that orchestrate privacy and\nscalability for large-scale power system operations from a multi-agent\nperspective, particularly for DER control problems. Furthermore, this review\nextrapolates new approaches for future scalable, privacy-aware, and cybersecure\npathways to unlock the full potential of DERs through controlling, optimizing,\nand learning generic multi-agent-based cyber-physical systems.",
+    "updated" : "2024-09-22T15:52:47Z",
+    "published" : "2024-09-22T15:52:47Z",
+    "authors" : [
+      {
+        "name" : "Xiang Huo"
+      },
+      {
+        "name" : "Hao Huang"
+      },
+      {
+        "name" : "Katherine R. Davis"
+      },
+      {
+        "name" : "H. Vincent Poor"
+      },
+      {
+        "name" : "Mingxi Liu"
+      }
+    ],
+    "categories" : [
+      "eess.SY",
+      "cs.SY",
+      "math.OC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.14472v1",
+    "title" : "Blockchain Based Information Security and Privacy Protection: Challenges\n  and Future Directions using Computational Literature Review",
+    "summary" : "Blockchain technology is an emerging digital innovation that has gained\nimmense popularity in enhancing individual security and privacy within\nInformation Systems (IS). This surge in interest is reflected in the\nexponential increase in research articles published on blockchain technology,\nhighlighting its growing significance in the digital landscape. However, the\nrapid proliferation of published research presents significant challenges for\nmanual analysis and synthesis due to the vast volume of information. The\ncomplexity and breadth of topics, combined with the inherent limitations of\nhuman data processing capabilities, make it difficult to comprehensively\nanalyze and draw meaningful insights from the literature. To this end, we\nadopted the Computational Literature Review (CLR) to analyze pertinent\nliterature impact and topic modelling using the Latent Dirichlet Allocation\n(LDA) technique. We identified 10 topics related to security and privacy and\nprovided a detailed description of each topic. From the critical analysis, we\nhave observed several limitations, and several future directions are provided\nas an outcome of this review.",
+    "updated" : "2024-09-22T14:41:43Z",
+    "published" : "2024-09-22T14:41:43Z",
+    "authors" : [
+      {
+        "name" : "Gauri Shankar"
+      },
+      {
+        "name" : "Md Raihan Uddin"
+      },
+      {
+        "name" : "Saddam Mukta"
+      },
+      {
+        "name" : "Prabhat Kumar"
+      },
+      {
+        "name" : "Shareeful Islam"
+      },
+      {
+        "name" : "A. K. M. Najmul Islam"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.14457v1",
+    "title" : "Large Model Agents: State-of-the-Art, Cooperation Paradigms, Security\n  and Privacy, and Future Trends",
+    "summary" : "Large Model (LM) agents, powered by large foundation models such as GPT-4 and\nDALL-E 2, represent a significant step towards achieving Artificial General\nIntelligence (AGI). LM agents exhibit key characteristics of autonomy,\nembodiment, and connectivity, allowing them to operate across physical,\nvirtual, and mixed-reality environments while interacting seamlessly with\nhumans, other agents, and their surroundings. This paper provides a\ncomprehensive survey of the state-of-the-art in LM agents, focusing on the\narchitecture, cooperation paradigms, security, privacy, and future prospects.\nSpecifically, we first explore the foundational principles of LM agents,\nincluding general architecture, key components, enabling technologies, and\nmodern applications. Then, we discuss practical collaboration paradigms from\ndata, computation, and knowledge perspectives towards connected intelligence of\nLM agents. Furthermore, we systematically analyze the security vulnerabilities\nand privacy breaches associated with LM agents, particularly in multi-agent\nsettings. We also explore their underlying mechanisms and review existing and\npotential countermeasures. Finally, we outline future research directions for\nbuilding robust and secure LM agent ecosystems.",
+    "updated" : "2024-09-22T14:09:49Z",
+    "published" : "2024-09-22T14:09:49Z",
+    "authors" : [
+      {
+        "name" : "Yuntao Wang"
+      },
+      {
+        "name" : "Yanghe Pan"
+      },
+      {
+        "name" : "Quan Zhao"
+      },
+      {
+        "name" : "Yi Deng"
+      },
+      {
+        "name" : "Zhou Su"
+      },
+      {
+        "name" : "Linkang Du"
+      },
+      {
+        "name" : "Tom H. Luan"
+      }
+    ],
+    "categories" : [
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.14261v1",
+    "title" : "Re-Evaluating Privacy in Centralized and Decentralized Learning: An\n  Information-Theoretical and Empirical Study",
+    "summary" : "Decentralized Federated Learning (DFL) has garnered attention for its\nrobustness and scalability compared to Centralized Federated Learning (CFL).\nWhile DFL is commonly believed to offer privacy advantages due to the\ndecentralized control of sensitive data, recent work by Pasquini et, al.\nchallenges this view, demonstrating that DFL does not inherently improve\nprivacy against empirical attacks under certain assumptions. For investigating\nfully this issue, a formal theoretical framework is required. Our study offers\na novel perspective by conducting a rigorous information-theoretical analysis\nof privacy leakage in FL using mutual information. We further investigate the\neffectiveness of privacy-enhancing techniques like Secure Aggregation (SA) in\nboth CFL and DFL. Our simulations and real-world experiments show that DFL\ngenerally offers stronger privacy preservation than CFL in practical scenarios\nwhere a fully trusted server is not available. We address discrepancies in\nprevious research by highlighting limitations in their assumptions about graph\ntopology and privacy attacks, which inadequately capture information leakage in\nFL.",
+    "updated" : "2024-09-21T23:05:50Z",
+    "published" : "2024-09-21T23:05:50Z",
+    "authors" : [
+      {
+        "name" : "Changlong Ji"
+      },
+      {
+        "name" : "Stephane Maag"
+      },
+      {
+        "name" : "Richard Heusdens"
+      },
+      {
+        "name" : "Qiongxiu Li"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.14039v1",
+    "title" : "Towards Lightweight and Privacy-preserving Data Provision in Digital\n  Forensics for Driverless Taxi",
+    "summary" : "Data provision, referring to the data upload and data access, is one key\nphase in vehicular digital forensics. The unique features of Driverless Taxi\n(DT) bring new issues to this phase: 1) efficient verification of data\nintegrity when diverse Data Providers (DPs) upload data; 2) DP privacy\npreservation during data upload; and 3) privacy preservation of both data and\nINvestigator (IN) under complex data ownership when accessing data. To this\nend, we propose a novel Lightweight and Privacy-preserving Data Provision\n(LPDP) approach consisting of three mechanisms: 1) the Privacy-friendly Batch\nVerification Mechanism (PBVm) based on elliptic curve cryptography, 2) Data\nAccess Control Mechanism (DACm) based on ciphertext-policy attribute-based\nencryption, and 3) Decentralized IN Warrant Issuance Mechanism (DIWIm) based on\nsecret sharing. Privacy preservation of data provision is achieved through: 1)\nensuring the DP privacy preservation in terms of the location privacy and\nunlinkability of data upload requests by PBVm, 2) ensuring data privacy\npreservation by DACm and DIWIm, and 3) ensuring the identity privacy of IN in\nterms of the anonymity and unlinkability of data access requests without\nsacrificing the traceability. Lightweight of data provision is achieved\nthrough: 1) ensuring scalable verification of data integrity by PBVm, and 2)\nensuring low-overhead warrant update with respect to DIWIm. Security analysis\nand performance evaluation are conducted to validate the security and\nperformance features of LPDP.",
+    "updated" : "2024-09-21T06:51:26Z",
+    "published" : "2024-09-21T06:51:26Z",
+    "authors" : [
+      {
+        "name" : "Yanwei Gong"
+      },
+      {
+        "name" : "Xiaolin Chang"
+      },
+      {
+        "name" : "Jelena Mišić"
+      },
+      {
+        "name" : "Vojislav B. Mišić"
+      },
+      {
+        "name" : "Junchao Fan"
+      },
+      {
+        "name" : "Kaiwen Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.13953v1",
+    "title" : "Training Large ASR Encoders with Differential Privacy",
+    "summary" : "Self-supervised learning (SSL) methods for large speech models have proven to\nbe highly effective at ASR. With the interest in public deployment of large\npre-trained models, there is a rising concern for unintended memorization and\nleakage of sensitive data points from the training data. In this paper, we\napply differentially private (DP) pre-training to a SOTA Conformer-based\nencoder, and study its performance on a downstream ASR task assuming the\nfine-tuning data is public. This paper is the first to apply DP to SSL for ASR,\ninvestigating the DP noise tolerance of the BEST-RQ pre-training method.\nNotably, we introduce a novel variant of model pruning called gradient-based\nlayer freezing that provides strong improvements in privacy-utility-compute\ntrade-offs. Our approach yields a LibriSpeech test-clean/other WER (%) of 3.78/\n8.41 with ($10$, 1e^-9)-DP for extrapolation towards low dataset scales, and\n2.81/ 5.89 with (10, 7.9e^-11)-DP for extrapolation towards high scales.",
+    "updated" : "2024-09-21T00:01:49Z",
+    "published" : "2024-09-21T00:01:49Z",
+    "authors" : [
+      {
+        "name" : "Geeticka Chauhan"
+      },
+      {
+        "name" : "Steve Chien"
+      },
+      {
+        "name" : "Om Thakkar"
+      },
+      {
+        "name" : "Abhradeep Thakurta"
+      },
+      {
+        "name" : "Arun Narayanan"
+      }
+    ],
+    "categories" : [
+      "cs.SD",
+      "cs.CR",
+      "cs.LG",
+      "eess.AS"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.13875v1",
+    "title" : "Data Distribution Shifts in (Industrial) Federated Learning as a Privacy\n  Issue",
+    "summary" : "We consider industrial federated learning, a collaboration between a small\nnumber of powerful, potentially competing industrial players, mediated by a\nthird party aspiring to improve the service it provides to its customers. We\nargue that this configuration harbours covert privacy risks that do not arise\nin e.g. cross-device settings. Companies are very protective of their\nintellectual property and production processes. Information about changes to\ntheir production and the timing of which is to be kept private. We study a\nscenario in which one of the collaborators infers changes to their competitors'\nproduction by detecting potentially subtle temporal data distribution shifts.\nIn this framing, a data distribution shift is always problematic, even if it\nhas no negative effect on training convergence. Thus, our goal is to find means\nthat allow the detection of distributional shifts better than customary\nevaluation metrics. Based on the assumption that even minor shifts translate\ninto the collaboratively learned machine learning model, the attacker tracks\nthe shared models' internal state with a selection of metrics from literature\nin order to pick up on relevant changes. In an empirical study on benchmark\ndatasets, we show an honest-but-curious attacker to be capable of detecting\nsubtle distributional shifts on other clients, in some cases long before they\nbecome obvious in evaluation.",
+    "updated" : "2024-09-20T20:09:19Z",
+    "published" : "2024-09-20T20:09:19Z",
+    "authors" : [
+      {
+        "name" : "David Brunner"
+      },
+      {
+        "name" : "Alessio Montuoro"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.12874v1",
+    "title" : "Privacy-Preserving Framework for Cell-Free MIMO ISAC Systems",
+    "summary" : "Integrated Sensing and Communication (ISAC) systems are prone to privacy\nviolations, once they aim at handling sensitive identifiable information in\nseveral applications. This paper raises the necessity of implementing\nprivacy-preservation measures on the design of cell-free massive multiple-input\nmultiple-output ISAC systems. To that purpose, given an adversary model, we\npropose an iterative framework of two blocks, precoder design and access point\nselection. The precoder design aims at maximizing the\nsignal-to-interference-plus-noise ratio at the sensing receivers given\ncommunication constraints. The access point selection aims at minimizing the\nmutual information between the received signal at users and the sensing signal,\nby rearranging the access points that transmit ISAC-signals and the sensing\nreceivers. Results show that a reduction in the probability of detection by the\nadversary is obtained with this method.",
+    "updated" : "2024-09-19T16:13:54Z",
+    "published" : "2024-09-19T16:13:54Z",
+    "authors" : [
+      {
+        "name" : "Henrik Åkesson"
+      },
+      {
+        "name" : "Diana Pamela Moya Osorio"
+      }
+    ],
+    "categories" : [
+      "eess.SP"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.12651v1",
+    "title" : "A Deep Dive into Fairness, Bias, Threats, and Privacy in Recommender\n  Systems: Insights and Future Research",
+    "summary" : "Recommender systems are essential for personalizing digital experiences on\ne-commerce sites, streaming services, and social media platforms. While these\nsystems are necessary for modern digital interactions, they face fairness,\nbias, threats, and privacy challenges. Bias in recommender systems can result\nin unfair treatment of specific users and item groups, and fairness concerns\ndemand that recommendations be equitable for all users and items. These systems\nare also vulnerable to various threats that compromise reliability and\nsecurity. Furthermore, privacy issues arise from the extensive use of personal\ndata, making it crucial to have robust protection mechanisms to safeguard user\ninformation. This study explores fairness, bias, threats, and privacy in\nrecommender systems. It examines how algorithmic decisions can unintentionally\nreinforce biases or marginalize specific user and item groups, emphasizing the\nneed for fair recommendation strategies. The study also looks at the range of\nthreats in the form of attacks that can undermine system integrity and\ndiscusses advanced privacy-preserving techniques. By addressing these critical\nareas, the study highlights current limitations and suggests future research\ndirections to improve recommender systems' robustness, fairness, and privacy.\nUltimately, this research aims to help develop more trustworthy and ethical\nrecommender systems that better serve diverse user populations.",
+    "updated" : "2024-09-19T11:00:35Z",
+    "published" : "2024-09-19T11:00:35Z",
+    "authors" : [
+      {
+        "name" : "Falguni Roy"
+      },
+      {
+        "name" : "Xiaofeng Ding"
+      },
+      {
+        "name" : "K. -K. R. Choo"
+      },
+      {
+        "name" : "Pan Zhou"
+      }
+    ],
+    "categories" : [
+      "cs.IR",
+      "cs.CR",
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.12384v1",
+    "title" : "Privacy-Preserving Student Learning with Differentially Private\n  Data-Free Distillation",
+    "summary" : "Deep learning models can achieve high inference accuracy by extracting rich\nknowledge from massive well-annotated data, but may pose the risk of data\nprivacy leakage in practical deployment. In this paper, we present an effective\nteacher-student learning approach to train privacy-preserving deep learning\nmodels via differentially private data-free distillation. The main idea is\ngenerating synthetic data to learn a student that can mimic the ability of a\nteacher well-trained on private data. In the approach, a generator is first\npretrained in a data-free manner by incorporating the teacher as a fixed\ndiscriminator. With the generator, massive synthetic data can be generated for\nmodel training without exposing data privacy. Then, the synthetic data is fed\ninto the teacher to generate private labels. Towards this end, we propose a\nlabel differential privacy algorithm termed selective randomized response to\nprotect the label information. Finally, a student is trained on the synthetic\ndata with the supervision of private labels. In this way, both data privacy and\nlabel privacy are well protected in a unified framework, leading to\nprivacy-preserving models. Extensive experiments and analysis clearly\ndemonstrate the effectiveness of our approach.",
+    "updated" : "2024-09-19T01:00:18Z",
+    "published" : "2024-09-19T01:00:18Z",
+    "authors" : [
+      {
+        "name" : "Bochao Liu"
+      },
+      {
+        "name" : "Jianghu Lu"
+      },
+      {
+        "name" : "Pengju Wang"
+      },
+      {
+        "name" : "Junjie Zhang"
+      },
+      {
+        "name" : "Dan Zeng"
+      },
+      {
+        "name" : "Zhenxing Qian"
+      },
+      {
+        "name" : "Shiming Ge"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR",
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.12341v1",
+    "title" : "Provable Privacy Guarantee for Individual Identities and Locations in\n  Large-Scale Contact Tracing",
+    "summary" : "The task of infectious disease contact tracing is crucial yet challenging,\nespecially when meeting strict privacy requirements. Previous attempts in this\narea have had limitations in terms of applicable scenarios and efficiency. Our\npaper proposes a highly scalable, practical contact tracing system called\nPREVENT that can work with a variety of location collection methods to gain a\ncomprehensive overview of a person's trajectory while ensuring the privacy of\nindividuals being tracked, without revealing their plain text locations to any\nparty, including servers. Our system is very efficient and can provide\nreal-time query services for large-scale datasets with millions of locations.\nThis is made possible by a newly designed secret-sharing based architecture\nthat is tightly integrated into unique private space partitioning trees.\nNotably, our experimental results on both real and synthetic datasets\ndemonstrate that our system introduces negligible performance overhead compared\nto traditional contact tracing methods. PREVENT could be a game-changer in the\nfight against infectious diseases and set a new standard for privacy-preserving\nlocation tracking.",
+    "updated" : "2024-09-18T22:19:48Z",
+    "published" : "2024-09-18T22:19:48Z",
+    "authors" : [
+      {
+        "name" : "Tyler Nicewarner"
+      },
+      {
+        "name" : "Wei Jiang"
+      },
+      {
+        "name" : "Aniruddha Gokhale"
+      },
+      {
+        "name" : "Dan Lin"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
