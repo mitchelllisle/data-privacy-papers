@@ -3048,5 +3048,425 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.18118v1",
+    "title" : "Slowly Scaling Per-Record Differential Privacy",
+    "summary" : "We develop formal privacy mechanisms for releasing statistics from data with\nmany outlying values, such as income data. These mechanisms ensure that a\nper-record differential privacy guarantee degrades slowly in the protected\nrecords' influence on the statistics being released.\n  Formal privacy mechanisms generally add randomness, or \"noise,\" to published\nstatistics. If a noisy statistic's distribution changes little with the\naddition or deletion of a single record in the underlying dataset, an attacker\nlooking at this statistic will find it plausible that any particular record was\npresent or absent, preserving the records' privacy. More influential records --\nthose whose addition or deletion would change the statistics' distribution more\n-- typically suffer greater privacy loss. The per-record differential privacy\nframework quantifies these record-specific privacy guarantees, but existing\nmechanisms let these guarantees degrade rapidly (linearly or quadratically)\nwith influence. While this may be acceptable in cases with some moderately\ninfluential records, it results in unacceptably high privacy losses when\nrecords' influence varies widely, as is common in economic data.\n  We develop mechanisms with privacy guarantees that instead degrade as slowly\nas logarithmically with influence. These mechanisms allow for the accurate,\nunbiased release of statistics, while providing meaningful protection for\nhighly influential records. As an example, we consider the private release of\nsums of unbounded establishment data such as payroll, where our mechanisms\nextend meaningful privacy protection even to very large establishments. We\nevaluate these mechanisms empirically and demonstrate their utility.",
+    "updated" : "2024-09-26T17:56:11Z",
+    "published" : "2024-09-26T17:56:11Z",
+    "authors" : [
+      {
+        "name" : "Brian Finley"
+      },
+      {
+        "name" : "Anthony M Caruso"
+      },
+      {
+        "name" : "Justin C Doty"
+      },
+      {
+        "name" : "Ashwin Machanavajjhala"
+      },
+      {
+        "name" : "Mikaela R Meyer"
+      },
+      {
+        "name" : "David Pujol"
+      },
+      {
+        "name" : "William Sexton"
+      },
+      {
+        "name" : "Zachary Terner"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "stat.ME"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.17886v1",
+    "title" : "Upper-Body Pose-based Gaze Estimation for Privacy-Preserving 3D Gaze\n  Target Detection",
+    "summary" : "Gaze Target Detection (GTD), i.e., determining where a person is looking\nwithin a scene from an external viewpoint, is a challenging task, particularly\nin 3D space. Existing approaches heavily rely on analyzing the person's\nappearance, primarily focusing on their face to predict the gaze target. This\npaper presents a novel approach to tackle this problem by utilizing the\nperson's upper-body pose and available depth maps to extract a 3D gaze\ndirection and employing a multi-stage or an end-to-end pipeline to predict the\ngazed target. When predicted accurately, the human body pose can provide\nvaluable information about the head pose, which is a good approximation of the\ngaze direction, as well as the position of the arms and hands, which are linked\nto the activity the person is performing and the objects they are likely\nfocusing on. Consequently, in addition to performing gaze estimation in 3D, we\nare also able to perform GTD simultaneously. We demonstrate state-of-the-art\nresults on the most comprehensive publicly accessible 3D gaze target detection\ndataset without requiring images of the person's face, thus promoting privacy\npreservation in various application contexts. The code is available at\nhttps://github.com/intelligolabs/privacy-gtd-3D.",
+    "updated" : "2024-09-26T14:35:06Z",
+    "published" : "2024-09-26T14:35:06Z",
+    "authors" : [
+      {
+        "name" : "Andrea Toaiari"
+      },
+      {
+        "name" : "Vittorio Murino"
+      },
+      {
+        "name" : "Marco Cristani"
+      },
+      {
+        "name" : "Cigdem Beyan"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.17744v1",
+    "title" : "Privacy for Quantum Annealing. Attack on Spin Reversal Transformations\n  in the case of cryptanalysis",
+    "summary" : "This paper demonstrates that applying spin reversal transformations (SRT),\ncommonly known as a sufficient method for privacy enhancing in problems solved\nusing quantum annealing, does not guarantee privacy for all possible problems.\nWe show how to recover the original problem from the Ising problem obtained\nusing SRT when the resulting problem in Ising form represents the algebraic\nattack on the $E_0$ stream cipher. A small example is used to illustrate how to\nretrieve the original problem from the one transformed by SRT. Moreover, it is\nshown that our method is efficient even for full-scale problems.",
+    "updated" : "2024-09-26T11:17:47Z",
+    "published" : "2024-09-26T11:17:47Z",
+    "authors" : [
+      {
+        "name" : "Mateusz Leśniak"
+      },
+      {
+        "name" : "Michał Wroński"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.17742v1",
+    "title" : "TADAR: Thermal Array-based Detection and Ranging for Privacy-Preserving\n  Human Sensing",
+    "summary" : "Human sensing has gained increasing attention in various applications. Among\nthe available technologies, visual images offer high accuracy, while sensing on\nthe RF spectrum preserves privacy, creating a conflict between imaging\nresolution and privacy preservation. In this paper, we explore thermal array\nsensors as an emerging modality that strikes an excellent resolution-privacy\nbalance for ubiquitous sensing. To this end, we present TADAR, the first\nmulti-user Thermal Array-based Detection and Ranging system that estimates the\ninherently missing range information, extending thermal array outputs from 2D\nthermal pixels to 3D depths and empowering them as a promising modality for\nubiquitous privacy-preserving human sensing. We prototype TADAR using a single\ncommodity thermal array sensor and conduct extensive experiments in different\nindoor environments. Our results show that TADAR achieves a mean F1 score of\n88.8% for multi-user detection and a mean accuracy of 32.0 cm for multi-user\nranging, which further improves to 20.1 cm for targets located within 3 m. We\nconduct two case studies on fall detection and occupancy estimation to showcase\nthe potential applications of TADAR. We hope TADAR will inspire the vast\ncommunity to explore new directions of thermal array sensing, beyond wireless\nand acoustic sensing. TADAR is open-sourced on GitHub:\nhttps://github.com/aiot-lab/TADAR.",
+    "updated" : "2024-09-26T11:17:41Z",
+    "published" : "2024-09-26T11:17:41Z",
+    "authors" : [
+      {
+        "name" : "Xie Zhang"
+      },
+      {
+        "name" : "Chenshu Wu"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.17705v1",
+    "title" : "On the Output Redundancy of LTI Systems: A Geometric Approach with\n  Application to Privacy",
+    "summary" : "This paper examines the properties of output-redundant systems, that is,\nsystems possessing a larger number of outputs than inputs, through the lenses\nof the geometric approach of Wonham et al. We begin by formulating a simple\noutput allocation synthesis problem, which involves ``concealing\" input\ninformation from a malicious eavesdropper having access to the system output,\nwhile still allowing for a legitimate user to reconstruct it. It is shown that\nthe solvability of this problem requires the availability of a redundant set of\noutputs. This very problem is instrumental to unveiling the fundamental\ngeometric properties of output-redundant systems, which form the basis for our\nsubsequent constructions and results. As a direct application, we demonstrate\nhow output allocation can be employed to effectively protect the information of\ninput information from certain output eavesdroppers with guaranteed results.",
+    "updated" : "2024-09-26T10:21:39Z",
+    "published" : "2024-09-26T10:21:39Z",
+    "authors" : [
+      {
+        "name" : "Guitao Yang"
+      },
+      {
+        "name" : "Alexander J. Gallo"
+      },
+      {
+        "name" : "Angelo Barboni"
+      },
+      {
+        "name" : "Riccardo M. G. Ferrari"
+      },
+      {
+        "name" : "Andrea Serrani"
+      },
+      {
+        "name" : "Thomas Parisini"
+      }
+    ],
+    "categories" : [
+      "eess.SY",
+      "cs.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.17700v1",
+    "title" : "Demystifying Privacy in 5G Stand Alone Networks",
+    "summary" : "Ensuring user privacy remains critical in mobile networks, particularly with\nthe rise of connected devices and denser 5G infrastructure. Privacy concerns\nhave persisted across 2G, 3G, and 4G/LTE networks. Recognizing these concerns,\nthe 3rd Generation Partnership Project (3GPP) has made privacy enhancements in\n5G Release 15. However, the extent of operator adoption remains unclear,\nespecially as most networks operate in 5G Non Stand Alone (NSA) mode, relying\non 4G Core Networks. This study provides the first qualitative and experimental\ncomparison between 5G NSA and Stand Alone (SA) in real operator networks,\nfocusing on privacy enhancements addressing top eight pre-5G attacks based on\nrecent academic literature. Additionally, it evaluates the privacy levels of\nOpenAirInterface (OAI), a leading open-source software for 5G, against real\nnetwork deployments for the same attacks. The analysis reveals two new 5G\nprivacy vulnerabilities, underscoring the need for further research and\nstricter standards.",
+    "updated" : "2024-09-26T10:14:12Z",
+    "published" : "2024-09-26T10:14:12Z",
+    "authors" : [
+      {
+        "name" : "Stavros Eleftherakis"
+      },
+      {
+        "name" : "Timothy Otim"
+      },
+      {
+        "name" : "Giuseppe Santaromita"
+      },
+      {
+        "name" : "Almudena Diaz Zayas"
+      },
+      {
+        "name" : "Domenico Giustiniano"
+      },
+      {
+        "name" : "Nicolas Kourtellis"
+      }
+    ],
+    "categories" : [
+      "cs.NI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.17642v1",
+    "title" : "AI Delegates with a Dual Focus: Ensuring Privacy and Strategic\n  Self-Disclosure",
+    "summary" : "Large language model (LLM)-based AI delegates are increasingly utilized to\nact on behalf of users, assisting them with a wide range of tasks through\nconversational interfaces. Despite their advantages, concerns arise regarding\nthe potential risk of privacy leaks, particularly in scenarios involving social\ninteractions. While existing research has focused on protecting privacy by\nlimiting the access of AI delegates to sensitive user information, many social\nscenarios require disclosing private details to achieve desired outcomes,\nnecessitating a balance between privacy protection and disclosure. To address\nthis challenge, we conduct a pilot study to investigate user preferences for AI\ndelegates across various social relations and task scenarios, and then propose\na novel AI delegate system that enables privacy-conscious self-disclosure. Our\nuser study demonstrates that the proposed AI delegate strategically protects\nprivacy, pioneering its use in diverse and dynamic social interactions.",
+    "updated" : "2024-09-26T08:45:15Z",
+    "published" : "2024-09-26T08:45:15Z",
+    "authors" : [
+      {
+        "name" : "Xi Chen"
+      },
+      {
+        "name" : "Zhiyang Zhang"
+      },
+      {
+        "name" : "Fangkai Yang"
+      },
+      {
+        "name" : "Xiaoting Qin"
+      },
+      {
+        "name" : "Chao Du"
+      },
+      {
+        "name" : "Xi Cheng"
+      },
+      {
+        "name" : "Hangxin Liu"
+      },
+      {
+        "name" : "Qingwei Lin"
+      },
+      {
+        "name" : "Saravan Rajmohan"
+      },
+      {
+        "name" : "Dongmei Zhang"
+      },
+      {
+        "name" : "Qi Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.AI",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.17623v1",
+    "title" : "Fully Dynamic Graph Algorithms with Edge Differential Privacy",
+    "summary" : "We study differentially private algorithms for analyzing graphs in the\nchallenging setting of continual release with fully dynamic updates, where\nedges are inserted and deleted over time, and the algorithm is required to\nupdate the solution at every time step. Previous work has presented\ndifferentially private algorithms for many graph problems that can handle\ninsertions only or deletions only (called partially dynamic algorithms) and\nobtained some hardness results for the fully dynamic setting. The only\nalgorithms in the latter setting were for the edge count, given by\nFichtenberger, Henzinger, and Ost (ESA 21), and for releasing the values of all\ngraph cuts, given by Fichtenberger, Henzinger, and Upadhyay (ICML 23). We\nprovide the first differentially private and fully dynamic graph algorithms for\nseveral other fundamental graph statistics (including the triangle count, the\nnumber of connected components, the size of the maximum matching, and the\ndegree histogram), analyze their error and show strong lower bounds on the\nerror for all algorithms in this setting. We study two variants of edge\ndifferential privacy for fully dynamic graph algorithms: event-level and\nitem-level. We give upper and lower bounds on the error of both event-level and\nitem-level fully dynamic algorithms for several fundamental graph problems. No\nfully dynamic algorithms that are private at the item-level (the more stringent\nof the two notions) were known before. In the case of item-level privacy, for\nseveral problems, our algorithms match our lower bounds.",
+    "updated" : "2024-09-26T08:17:49Z",
+    "published" : "2024-09-26T08:17:49Z",
+    "authors" : [
+      {
+        "name" : "Sofya Raskhodnikova"
+      },
+      {
+        "name" : "Teresa Anna Steiner"
+      }
+    ],
+    "categories" : [
+      "cs.DS",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.17578v1",
+    "title" : "Expanding Perspectives on Data Privacy: Insights from Rural Togo",
+    "summary" : "Passively collected \"big\" data sources are increasingly used to inform\ncritical development policy decisions in low- and middle-income countries.\nWhile prior work highlights how such approaches may reveal sensitive\ninformation, enable surveillance, and centralize power, less is known about the\ncorresponding privacy concerns, hopes, and fears of the people directly\nimpacted by these policies -- people sometimes referred to as experiential\nexperts. To understand the perspectives of experiential experts, we conducted\nsemi-structured interviews with people living in rural villages in Togo shortly\nafter an entirely digital cash transfer program was launched that used machine\nlearning and mobile phone metadata to determine program eligibility. This paper\ndocuments participants' privacy concerns surrounding the introduction of big\ndata approaches in development policy. We find that the privacy concerns of our\nexperiential experts differ from those raised by privacy and development domain\nexperts. To facilitate a more robust and constructive account of privacy, we\ndiscuss implications for policies and designs that take seriously the privacy\nconcerns raised by both experiential experts and domain experts.",
+    "updated" : "2024-09-26T06:47:16Z",
+    "published" : "2024-09-26T06:47:16Z",
+    "authors" : [
+      {
+        "name" : "Zoe Kahn"
+      },
+      {
+        "name" : "Meyebinesso Farida Carelle Pere"
+      },
+      {
+        "name" : "Emily Aiken"
+      },
+      {
+        "name" : "Nitin Kohli"
+      },
+      {
+        "name" : "Joshua E. Blumenstock"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.17538v1",
+    "title" : "On the Implicit Relation Between Low-Rank Adaptation and Differential\n  Privacy",
+    "summary" : "A significant approach in natural language processing involves large-scale\npre-training on general domain data followed by adaptation to specific tasks or\ndomains. As models grow in size, full fine-tuning all parameters becomes\nincreasingly impractical. To address this, some methods for low-rank task\nadaptation of language models have been proposed, e.g. LoRA and FLoRA. These\nmethods keep the pre-trained model weights fixed and incorporate trainable\nlow-rank decomposition matrices into some layers of the transformer\narchitecture, called adapters. This approach significantly reduces the number\nof trainable parameters required for downstream tasks compared to full\nfine-tuning all parameters. In this work, we look at low-rank adaptation from\nthe lens of data privacy. We show theoretically that the low-rank adaptation\nused in LoRA and FLoRA is equivalent to injecting some random noise into the\nbatch gradients w.r.t the adapter parameters coming from their full\nfine-tuning, and we quantify the variance of the injected noise. By\nestablishing a Berry-Esseen type bound on the total variation distance between\nthe noise distribution and a Gaussian distribution with the same variance, we\nshow that the dynamics of LoRA and FLoRA are very close to differentially\nprivate full fine-tuning the adapters, which suggests that low-rank adaptation\nimplicitly provides privacy w.r.t the fine-tuning data. Finally, using\nJohnson-Lindenstrauss lemma, we show that when augmented with gradient\nclipping, low-rank adaptation is almost equivalent to differentially private\nfull fine-tuning adapters with a fixed noise scale.",
+    "updated" : "2024-09-26T04:56:49Z",
+    "published" : "2024-09-26T04:56:49Z",
+    "authors" : [
+      {
+        "name" : "Saber Malekmohammadi"
+      },
+      {
+        "name" : "Golnoosh Farnadi"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.17535v1",
+    "title" : "Privacy-Preserving Redaction of Diagnosis Data through Source Code\n  Analysis",
+    "summary" : "Protecting sensitive information in diagnostic data such as logs, is a\ncritical concern in the industrial software diagnosis and debugging process.\nWhile there are many tools developed to automatically redact the logs for\nidentifying and removing sensitive information, they have severe limitations\nwhich can cause either over redaction and loss of critical diagnostic\ninformation (false positives), or disclosure of sensitive information (false\nnegatives), or both. To address the problem, in this paper, we argue for a\nsource code analysis approach for log redaction. To identify a log message\ncontaining sensitive information, our method locates the corresponding log\nstatement in the source code with logger code augmentation, and checks if the\nlog statement outputs data from sensitive sources by using the data flow graph\nbuilt from the source code. Appropriate redaction rules are further applied\ndepending on the sensitiveness of the data sources to preserve the privacy\ninformation in the logs. We conducted experimental evaluation and comparison\nwith other popular baselines. The results demonstrate that our approach can\nsignificantly improve the detection precision of the sensitive information and\nreduce both false positives and negatives.",
+    "updated" : "2024-09-26T04:41:55Z",
+    "published" : "2024-09-26T04:41:55Z",
+    "authors" : [
+      {
+        "name" : "Lixi Zhou"
+      },
+      {
+        "name" : "Lei Yu"
+      },
+      {
+        "name" : "Jia Zou"
+      },
+      {
+        "name" : "Hong Min"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.17509v1",
+    "title" : "BioZero: An Efficient and Privacy-Preserving Decentralized Biometric\n  Authentication Protocol on Open Blockchain",
+    "summary" : "Digital identity plays a vital role in enabling secure access to resources\nand services in the digital world. Traditional identity authentication methods,\nsuch as password-based and biometric authentications, have limitations in terms\nof security, privacy, and scalability. Decentralized authentication approaches\nleveraging blockchain technology have emerged as a promising solution. However,\nexisting decentralized authentication methods often rely on indirect identity\nverification (e.g. using passwords or digital signatures as authentication\ncredentials) and face challenges such as Sybil attacks. In this paper, we\npropose BioZero, an efficient and privacy-preserving decentralized biometric\nauthentication protocol that can be implemented on open blockchain. BioZero\nleverages Pedersen commitment and homomorphic computation to protect user\nbiometric privacy while enabling efficient verification. We enhance the\nprotocol with non-interactive homomorphic computation and employ zero-knowledge\nproofs for secure on-chain verification. The unique aspect of BioZero is that\nit is fully decentralized and can be executed by blockchain smart contracts in\na very efficient way. We analyze the security of BioZero and validate its\nperformance through a prototype implementation. The results demonstrate the\neffectiveness, efficiency, and security of BioZero in decentralized\nauthentication scenarios. Our work contributes to the advancement of\ndecentralized identity authentication using biometrics.",
+    "updated" : "2024-09-26T03:37:35Z",
+    "published" : "2024-09-26T03:37:35Z",
+    "authors" : [
+      {
+        "name" : "Junhao Lai"
+      },
+      {
+        "name" : "Taotao Wang"
+      },
+      {
+        "name" : "Shengli Zhang"
+      },
+      {
+        "name" : "Qing Yang"
+      },
+      {
+        "name" : "Soung Chang Liew"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.17315v1",
+    "title" : "KIPPS: Knowledge infusion in Privacy Preserving Synthetic Data\n  Generation",
+    "summary" : "The integration of privacy measures, including differential privacy\ntechniques, ensures a provable privacy guarantee for the synthetic data.\nHowever, challenges arise for Generative Deep Learning models when tasked with\ngenerating realistic data, especially in critical domains such as Cybersecurity\nand Healthcare. Generative Models optimized for continuous data struggle to\nmodel discrete and non-Gaussian features that have domain constraints.\nChallenges increase when the training datasets are limited and not diverse. In\nsuch cases, generative models create synthetic data that repeats sensitive\nfeatures, which is a privacy risk. Moreover, generative models face\ndifficulties comprehending attribute constraints in specialized domains. This\nleads to the generation of unrealistic data that impacts downstream accuracy.\nTo address these issues, this paper proposes a novel model, KIPPS, that infuses\nDomain and Regulatory Knowledge from Knowledge Graphs into Generative Deep\nLearning models for enhanced Privacy Preserving Synthetic data generation. The\nnovel framework augments the training of generative models with supplementary\ncontext about attribute values and enforces domain constraints during training.\nThis added guidance enhances the model's capacity to generate realistic and\ndomain-compliant synthetic data. The proposed model is evaluated on real-world\ndatasets, specifically in the domains of Cybersecurity and Healthcare, where\ndomain constraints and rules add to the complexity of the data. Our experiments\nevaluate the privacy resilience and downstream accuracy of the model against\nbenchmark methods, demonstrating its effectiveness in addressing the balance\nbetween privacy preservation and data accuracy in complex domains.",
+    "updated" : "2024-09-25T19:50:03Z",
+    "published" : "2024-09-25T19:50:03Z",
+    "authors" : [
+      {
+        "name" : "Anantaa Kotal"
+      },
+      {
+        "name" : "Anupam Joshi"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.17283v1",
+    "title" : "Investigating Privacy Attacks in the Gray-Box Setting to Enhance\n  Collaborative Learning Schemes",
+    "summary" : "The notion that collaborative machine learning can ensure privacy by just\nwithholding the raw data is widely acknowledged to be flawed. Over the past\nseven years, the literature has revealed several privacy attacks that enable\nadversaries to extract information about a model's training dataset by\nexploiting access to model parameters during or after training. In this work,\nwe study privacy attacks in the gray-box setting, where the attacker has only\nlimited access - in terms of view and actions - to the model. The findings of\nour investigation provide new insights for the development of\nprivacy-preserving collaborative learning solutions. We deploy SmartCryptNN, a\nframework that tailors homomorphic encryption to protect the portions of the\nmodel posing higher privacy risks. Our solution offers a trade-off between\nprivacy and efficiency, which varies based on the extent and selection of the\nmodel components we choose to protect. We explore it on dense neural networks,\nwhere through extensive evaluation of diverse datasets and architectures, we\nuncover instances where a favorable sweet spot in the trade-off can be achieved\nby safeguarding only a single layer of the network. In one of such instances,\nour approach trains ~4 times faster compared to fully encrypted solutions,\nwhile reducing membership leakage by 17.8 times compared to plaintext\nsolutions.",
+    "updated" : "2024-09-25T18:49:21Z",
+    "published" : "2024-09-25T18:49:21Z",
+    "authors" : [
+      {
+        "name" : "Federico Mazzone"
+      },
+      {
+        "name" : "Ahmad Al Badawi"
+      },
+      {
+        "name" : "Yuriy Polyakov"
+      },
+      {
+        "name" : "Maarten Everts"
+      },
+      {
+        "name" : "Florian Hahn"
+      },
+      {
+        "name" : "Andreas Peter"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.17201v1",
+    "title" : "Immersion and Invariance-based Coding for Privacy-Preserving Federated\n  Learning",
+    "summary" : "Federated learning (FL) has emerged as a method to preserve privacy in\ncollaborative distributed learning. In FL, clients train AI models directly on\ntheir devices rather than sharing data with a centralized server, which can\npose privacy risks. However, it has been shown that despite FL's partial\nprotection of local data privacy, information about clients' data can still be\ninferred from shared model updates during training. In recent years, several\nprivacy-preserving approaches have been developed to mitigate this privacy\nleakage in FL, though they often provide privacy at the cost of model\nperformance or system efficiency. Balancing these trade-offs presents a\nsignificant challenge in implementing FL schemes. In this manuscript, we\nintroduce a privacy-preserving FL framework that combines differential privacy\nand system immersion tools from control theory. The core idea is to treat the\noptimization algorithms used in standard FL schemes (e.g., gradient-based\nalgorithms) as a dynamical system that we seek to immerse into a\nhigher-dimensional system (referred to as the target optimization algorithm).\nThe target algorithm's dynamics are designed such that, first, the model\nparameters of the original algorithm are immersed in its parameters; second, it\noperates on distorted parameters; and third, it converges to an encoded version\nof the true model parameters from the original algorithm. These encoded\nparameters can then be decoded at the server to retrieve the original model\nparameters. We demonstrate that the proposed privacy-preserving scheme can be\ntailored to offer any desired level of differential privacy for both local and\nglobal model parameters, while maintaining the same accuracy and convergence\nrate as standard FL algorithms.",
+    "updated" : "2024-09-25T15:04:42Z",
+    "published" : "2024-09-25T15:04:42Z",
+    "authors" : [
+      {
+        "name" : "Haleh Hayati"
+      },
+      {
+        "name" : "Carlos Murguia"
+      },
+      {
+        "name" : "Nathan van de Wouw"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.16106v2",
+    "title" : "Scenario of Use Scheme: Threat Model Specification for Speaker Privacy\n  Protection in the Medical Domain",
+    "summary" : "Speech recordings are being more frequently used to detect and monitor\ndisease, leading to privacy concerns. Beyond cryptography, protection of speech\ncan be addressed by approaches, such as perturbation, disentanglement, and\nre-synthesis, that eliminate sensitive information of the speaker, leaving the\ninformation necessary for medical analysis purposes. In order for such privacy\nprotective approaches to be developed, clear and systematic specifications of\nassumptions concerning medical settings and the needs of medical professionals\nare necessary. In this paper, we propose a Scenario of Use Scheme that\nincorporates an Attacker Model, which characterizes the adversary against whom\nthe speaker's privacy must be defended, and a Protector Model, which specifies\nthe defense. We discuss the connection of the scheme with previous work on\nspeech privacy. Finally, we present a concrete example of a specified Scenario\nof Use and a set of experiments about protecting speaker data against gender\ninference attacks while maintaining utility for Parkinson's detection.",
+    "updated" : "2024-09-26T13:05:36Z",
+    "published" : "2024-09-24T14:07:47Z",
+    "authors" : [
+      {
+        "name" : "Mehtab Ur Rahman"
+      },
+      {
+        "name" : "Martha Larson"
+      },
+      {
+        "name" : "Louis ten Bosch"
+      },
+      {
+        "name" : "Cristian Tejedor-García"
+      }
+    ],
+    "categories" : [
+      "eess.AS",
+      "cs.AI",
+      "cs.CR",
+      "cs.SD"
+    ]
   }
 ]
