@@ -3468,5 +3468,191 @@
       "cs.CR",
       "cs.SD"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.18907v1",
+    "title" : "In-depth Analysis of Privacy Threats in Federated Learning for Medical\n  Data",
+    "summary" : "Federated learning is emerging as a promising machine learning technique in\nthe medical field for analyzing medical images, as it is considered an\neffective method to safeguard sensitive patient data and comply with privacy\nregulations. However, recent studies have revealed that the default settings of\nfederated learning may inadvertently expose private training data to privacy\nattacks. Thus, the intensity of such privacy risks and potential mitigation\nstrategies in the medical domain remain unclear. In this paper, we make three\noriginal contributions to privacy risk analysis and mitigation in federated\nlearning for medical data. First, we propose a holistic framework, MedPFL, for\nanalyzing privacy risks in processing medical data in the federated learning\nenvironment and developing effective mitigation strategies for protecting\nprivacy. Second, through our empirical analysis, we demonstrate the severe\nprivacy risks in federated learning to process medical images, where\nadversaries can accurately reconstruct private medical images by performing\nprivacy attacks. Third, we illustrate that the prevalent defense mechanism of\nadding random noises may not always be effective in protecting medical images\nagainst privacy attacks in federated learning, which poses unique and pressing\nchallenges related to protecting the privacy of medical data. Furthermore, the\npaper discusses several unique research questions related to the privacy\nprotection of medical data in the federated learning environment. We conduct\nextensive experiments on several benchmark medical image datasets to analyze\nand mitigate the privacy risks associated with federated learning for medical\ndata.",
+    "updated" : "2024-09-27T16:45:35Z",
+    "published" : "2024-09-27T16:45:35Z",
+    "authors" : [
+      {
+        "name" : "Badhan Chandra Das"
+      },
+      {
+        "name" : "M. Hadi Amini"
+      },
+      {
+        "name" : "Yanzhao Wu"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.18674v1",
+    "title" : "Image-guided topic modeling for interpretable privacy classification",
+    "summary" : "Predicting and explaining the private information contained in an image in\nhuman-understandable terms is a complex and contextual task. This task is\nchallenging even for large language models. To facilitate the understanding of\nprivacy decisions, we propose to predict image privacy based on a set of\nnatural language content descriptors. These content descriptors are associated\nwith privacy scores that reflect how people perceive image content. We generate\ndescriptors with our novel Image-guided Topic Modeling (ITM) approach. ITM\nleverages, via multimodality alignment, both vision information and image\ntextual descriptions from a vision language model. We use the ITM-generated\ndescriptors to learn a privacy predictor, Priv$\\times$ITM, whose decisions are\ninterpretable by design. Our Priv$\\times$ITM classifier outperforms the\nreference interpretable method by 5 percentage points in accuracy and performs\ncomparably to the current non-interpretable state-of-the-art model.",
+    "updated" : "2024-09-27T12:02:28Z",
+    "published" : "2024-09-27T12:02:28Z",
+    "authors" : [
+      {
+        "name" : "Alina Elena Baia"
+      },
+      {
+        "name" : "Andrea Cavallaro"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.18611v1",
+    "title" : "Differentially Private Non Parametric Copulas: Generating synthetic data\n  with non parametric copulas under privacy guarantees",
+    "summary" : "Creation of synthetic data models has represented a significant advancement\nacross diverse scientific fields, but this technology also brings important\nprivacy considerations for users. This work focuses on enhancing a\nnon-parametric copula-based synthetic data generation model, DPNPC, by\nincorporating Differential Privacy through an Enhanced Fourier Perturbation\nmethod. The model generates synthetic data for mixed tabular databases while\npreserving privacy. We compare DPNPC with three other models (PrivBayes,\nDP-Copula, and DP-Histogram) across three public datasets, evaluating privacy,\nutility, and execution time. DPNPC outperforms others in modeling multivariate\ndependencies, maintaining privacy for small $\\epsilon$ values, and reducing\ntraining times. However, limitations include the need to assess the model's\nperformance with different encoding methods and consider additional privacy\nattacks. Future research should address these areas to enhance\nprivacy-preserving synthetic data generation.",
+    "updated" : "2024-09-27T10:18:14Z",
+    "published" : "2024-09-27T10:18:14Z",
+    "authors" : [
+      {
+        "name" : "Pablo A. Osorio-Marulanda"
+      },
+      {
+        "name" : "John Esteban Castro Ramirez"
+      },
+      {
+        "name" : "Mikel Hernández Jiménez"
+      },
+      {
+        "name" : "Nicolas Moreno Reyes"
+      },
+      {
+        "name" : "Gorka Epelde Unanue"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.DB",
+      "62H05, 62G32",
+      "I.2.6; H.2.8; G.3"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.18601v1",
+    "title" : "Privacy-Preserving Quantum Annealing for Quadratic Unconstrained Binary\n  Optimization (QUBO) Problems",
+    "summary" : "Quantum annealers offer a promising approach to solve Quadratic Unconstrained\nBinary Optimization (QUBO) problems, which have a wide range of applications.\nHowever, when a user submits its QUBO problem to a third-party quantum\nannealer, the problem itself may disclose the user's private information to the\nquantum annealing service provider. To mitigate this risk, we introduce a\nprivacy-preserving QUBO framework and propose a novel solution method. Our\napproach employs a combination of digit-wise splitting and matrix permutation\nto obfuscate the QUBO problem's model matrix $Q$, effectively concealing the\nmatrix elements. In addition, based on the solution to the obfuscated version\nof the QUBO problem, we can reconstruct the solution to the original problem\nwith high accuracy. Theoretical analysis and empirical tests confirm the\nefficacy and efficiency of our proposed technique, demonstrating its potential\nfor preserving user privacy in quantum annealing services.",
+    "updated" : "2024-09-27T10:05:08Z",
+    "published" : "2024-09-27T10:05:08Z",
+    "authors" : [
+      {
+        "name" : "Moyang Xie"
+      },
+      {
+        "name" : "Yuan Zhang"
+      },
+      {
+        "name" : "Sheng Zhong"
+      },
+      {
+        "name" : "Qun Li"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "quant-ph"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.18360v1",
+    "title" : "Architecture for Protecting Data Privacy in Decentralized Social\n  Networks",
+    "summary" : "Centralized social networks have experienced a transformative impact on our\ndigital era communication, connection, and information-sharing information.\nHowever, it has also raised significant concerns regarding users' privacy and\nindividual rights. In response to these concerns, this paper proposes a novel\nDecentralized Social Network employing Blockchain technology and Decentralized\nStorage Networks completed by Access Control Smart Contracts. The initial phase\ncomprises a comprehensive literature review, delving into decentralized social\nnetworks, explaining the review methodology, and presenting the resulting\nfindings. Building upon these findings and an analysis of previous research\ngaps, we propose a novel architecture for decentralized social networks. In\nconclusion, the principal results highlight the benefit of our decentralized\nsocial network to protect user privacy. Moreover, the users have all rights to\ntheir posted information following the General Data Protection Regulation\n(GDPR).",
+    "updated" : "2024-09-27T00:35:02Z",
+    "published" : "2024-09-27T00:35:02Z",
+    "authors" : [
+      {
+        "name" : "Quang Cao"
+      },
+      {
+        "name" : "Katerina Vgena"
+      },
+      {
+        "name" : "Aikaterini-Georgia Mavroeidi"
+      },
+      {
+        "name" : "Christos Kalloniatis"
+      },
+      {
+        "name" : "Xun Yi"
+      },
+      {
+        "name" : "Son Hoang Dau"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.18356v1",
+    "title" : "FedDCL: a federated data collaboration learning as a hybrid-type\n  privacy-preserving framework based on federated learning and data\n  collaboration",
+    "summary" : "Recently, federated learning has attracted much attention as a\nprivacy-preserving integrated analysis that enables integrated analysis of data\nheld by multiple institutions without sharing raw data. On the other hand,\nfederated learning requires iterative communication across institutions and has\na big challenge for implementation in situations where continuous communication\nwith the outside world is extremely difficult. In this study, we propose a\nfederated data collaboration learning (FedDCL), which solves such communication\nissues by combining federated learning with recently proposed non-model\nshare-type federated learning named as data collaboration analysis. In the\nproposed FedDCL framework, each user institution independently constructs\ndimensionality-reduced intermediate representations and shares them with\nneighboring institutions on intra-group DC servers. On each intra-group DC\nserver, intermediate representations are transformed to incorporable forms\ncalled collaboration representations. Federated learning is then conducted\nbetween intra-group DC servers. The proposed FedDCL framework does not require\niterative communication by user institutions and can be implemented in\nsituations where continuous communication with the outside world is extremely\ndifficult. The experimental results show that the performance of the proposed\nFedDCL is comparable to that of existing federated learning.",
+    "updated" : "2024-09-27T00:22:38Z",
+    "published" : "2024-09-27T00:22:38Z",
+    "authors" : [
+      {
+        "name" : "Akira Imakura"
+      },
+      {
+        "name" : "Tetsuya Sakurai"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.18245v1",
+    "title" : "PDFed: Privacy-Preserving and Decentralized Asynchronous Federated\n  Learning for Diffusion Models",
+    "summary" : "We present PDFed, a decentralized, aggregator-free, and asynchronous\nfederated learning protocol for training image diffusion models using a public\nblockchain. In general, diffusion models are prone to memorization of training\ndata, raising privacy and ethical concerns (e.g., regurgitation of private\ntraining data in generated images). Federated learning (FL) offers a partial\nsolution via collaborative model training across distributed nodes that\nsafeguard local data privacy. PDFed proposes a novel sample-based score that\nmeasures the novelty and quality of generated samples, incorporating these into\na blockchain-based federated learning protocol that we show reduces private\ndata memorization in the collaboratively trained model. In addition, PDFed\nenables asynchronous collaboration among participants with varying hardware\ncapabilities, facilitating broader participation. The protocol records the\nprovenance of AI models, improving transparency and auditability, while also\nconsidering automated incentive and reward mechanisms for participants. PDFed\naims to empower artists and creators by protecting the privacy of creative\nworks and enabling decentralized, peer-to-peer collaboration. The protocol\npositively impacts the creative economy by opening up novel revenue streams and\nfostering innovative ways for artists to benefit from their contributions to\nthe AI space.",
+    "updated" : "2024-09-26T19:38:44Z",
+    "published" : "2024-09-26T19:38:44Z",
+    "authors" : [
+      {
+        "name" : "Kar Balan"
+      },
+      {
+        "name" : "Andrew Gilbert"
+      },
+      {
+        "name" : "John Collomosse"
+      }
+    ],
+    "categories" : [
+      "eess.IV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.16688v2",
+    "title" : "Cycle Counting under Local Differential Privacy for Degeneracy-bounded\n  Graphs",
+    "summary" : "We propose an algorithm for counting the number of cycles under local\ndifferential privacy for degeneracy-bounded input graphs. Numerous studies have\nfocused on counting the number of triangles under the privacy notion,\ndemonstrating that the expected $\\ell_2$-error of these algorithms is\n$\\Omega(n^{1.5})$, where $n$ is the number of nodes in the graph. When\nparameterized by the number of cycles of length four ($C_4$), the best existing\ntriangle counting algorithm has an error of $O(n^{1.5} + \\sqrt{C_4}) = O(n^2)$.\nIn this paper, we introduce an algorithm with an expected $\\ell_2$-error of\n$O(\\delta^{1.5} n^{0.5} + \\delta^{0.5} d_{\\max}^{0.5} n^{0.5})$, where $\\delta$\nis the degeneracy and $d_{\\max}$ is the maximum degree of the graph. For\ndegeneracy-bounded graphs ($\\delta \\in \\Theta(1)$) commonly found in practical\nsocial networks, our algorithm achieves an expected $\\ell_2$-error of\n$O(d_{\\max}^{0.5} n^{0.5}) = O(n)$. Our algorithm's core idea is a precise\ncount of triangles following a preprocessing step that approximately sorts the\ndegree of all nodes. This approach can be extended to approximate the number of\ncycles of length $k$, maintaining a similar $\\ell_2$-error, namely\n$O(\\delta^{(k-2)/2} d_{\\max}^{0.5} n^{(k-2)/2} + \\delta^{k/2} n^{(k-2)/2})$ or\n$O(d_{\\max}^{0.5} n^{(k-2)/2}) = O(n^{(k-1)/2})$ for degeneracy-bounded graphs.",
+    "updated" : "2024-09-27T03:48:50Z",
+    "published" : "2024-09-25T07:23:58Z",
+    "authors" : [
+      {
+        "name" : "Quentin Hillebrand"
+      },
+      {
+        "name" : "Vorapong Suppakitpaisarn"
+      },
+      {
+        "name" : "Tetsuo Shibuya"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DS"
+    ]
   }
 ]
