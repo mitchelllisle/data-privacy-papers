@@ -2,6 +2,205 @@
 <h2>2024-09</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2409.18907v1">In-depth Analysis of Privacy Threats in Federated Learning for Medical
+  Data</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-09-27T16:45:35Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Badhan Chandra Das, M. Hadi Amini, Yanzhao Wu</p>
+    <p><b>Summary:</b> Federated learning is emerging as a promising machine learning technique in
+the medical field for analyzing medical images, as it is considered an
+effective method to safeguard sensitive patient data and comply with privacy
+regulations. However, recent studies have revealed that the default settings of
+federated learning may inadvertently expose private training data to privacy
+attacks. Thus, the intensity of such privacy risks and potential mitigation
+strategies in the medical domain remain unclear. In this paper, we make three
+original contributions to privacy risk analysis and mitigation in federated
+learning for medical data. First, we propose a holistic framework, MedPFL, for
+analyzing privacy risks in processing medical data in the federated learning
+environment and developing effective mitigation strategies for protecting
+privacy. Second, through our empirical analysis, we demonstrate the severe
+privacy risks in federated learning to process medical images, where
+adversaries can accurately reconstruct private medical images by performing
+privacy attacks. Third, we illustrate that the prevalent defense mechanism of
+adding random noises may not always be effective in protecting medical images
+against privacy attacks in federated learning, which poses unique and pressing
+challenges related to protecting the privacy of medical data. Furthermore, the
+paper discusses several unique research questions related to the privacy
+protection of medical data in the federated learning environment. We conduct
+extensive experiments on several benchmark medical image datasets to analyze
+and mitigate the privacy risks associated with federated learning for medical
+data.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2409.18674v1">Image-guided topic modeling for interpretable privacy classification</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2024-09-27T12:02:28Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Alina Elena Baia, Andrea Cavallaro</p>
+    <p><b>Summary:</b> Predicting and explaining the private information contained in an image in
+human-understandable terms is a complex and contextual task. This task is
+challenging even for large language models. To facilitate the understanding of
+privacy decisions, we propose to predict image privacy based on a set of
+natural language content descriptors. These content descriptors are associated
+with privacy scores that reflect how people perceive image content. We generate
+descriptors with our novel Image-guided Topic Modeling (ITM) approach. ITM
+leverages, via multimodality alignment, both vision information and image
+textual descriptions from a vision language model. We use the ITM-generated
+descriptors to learn a privacy predictor, Priv$\times$ITM, whose decisions are
+interpretable by design. Our Priv$\times$ITM classifier outperforms the
+reference interpretable method by 5 percentage points in accuracy and performs
+comparably to the current non-interpretable state-of-the-art model.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2409.18611v1">Differentially Private Non Parametric Copulas: Generating synthetic data
+  with non parametric copulas under privacy guarantees</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">  
+  <p><b>Published on:</b> 2024-09-27T10:18:14Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Pablo A. Osorio-Marulanda, John Esteban Castro Ramirez, Mikel Hernández Jiménez, Nicolas Moreno Reyes, Gorka Epelde Unanue</p>
+    <p><b>Summary:</b> Creation of synthetic data models has represented a significant advancement
+across diverse scientific fields, but this technology also brings important
+privacy considerations for users. This work focuses on enhancing a
+non-parametric copula-based synthetic data generation model, DPNPC, by
+incorporating Differential Privacy through an Enhanced Fourier Perturbation
+method. The model generates synthetic data for mixed tabular databases while
+preserving privacy. We compare DPNPC with three other models (PrivBayes,
+DP-Copula, and DP-Histogram) across three public datasets, evaluating privacy,
+utility, and execution time. DPNPC outperforms others in modeling multivariate
+dependencies, maintaining privacy for small $\epsilon$ values, and reducing
+training times. However, limitations include the need to assess the model's
+performance with different encoding methods and consider additional privacy
+attacks. Future research should address these areas to enhance
+privacy-preserving synthetic data generation.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2409.18601v1">Privacy-Preserving Quantum Annealing for Quadratic Unconstrained Binary
+  Optimization (QUBO) Problems</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
+  <p><b>Published on:</b> 2024-09-27T10:05:08Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Moyang Xie, Yuan Zhang, Sheng Zhong, Qun Li</p>
+    <p><b>Summary:</b> Quantum annealers offer a promising approach to solve Quadratic Unconstrained
+Binary Optimization (QUBO) problems, which have a wide range of applications.
+However, when a user submits its QUBO problem to a third-party quantum
+annealer, the problem itself may disclose the user's private information to the
+quantum annealing service provider. To mitigate this risk, we introduce a
+privacy-preserving QUBO framework and propose a novel solution method. Our
+approach employs a combination of digit-wise splitting and matrix permutation
+to obfuscate the QUBO problem's model matrix $Q$, effectively concealing the
+matrix elements. In addition, based on the solution to the obfuscated version
+of the QUBO problem, we can reconstruct the solution to the original problem
+with high accuracy. Theoretical analysis and empirical tests confirm the
+efficacy and efficiency of our proposed technique, demonstrating its potential
+for preserving user privacy in quantum annealing services.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2409.18360v1">Architecture for Protecting Data Privacy in Decentralized Social
+  Networks</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-09-27T00:35:02Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Quang Cao, Katerina Vgena, Aikaterini-Georgia Mavroeidi, Christos Kalloniatis, Xun Yi, Son Hoang Dau</p>
+    <p><b>Summary:</b> Centralized social networks have experienced a transformative impact on our
+digital era communication, connection, and information-sharing information.
+However, it has also raised significant concerns regarding users' privacy and
+individual rights. In response to these concerns, this paper proposes a novel
+Decentralized Social Network employing Blockchain technology and Decentralized
+Storage Networks completed by Access Control Smart Contracts. The initial phase
+comprises a comprehensive literature review, delving into decentralized social
+networks, explaining the review methodology, and presenting the resulting
+findings. Building upon these findings and an analysis of previous research
+gaps, we propose a novel architecture for decentralized social networks. In
+conclusion, the principal results highlight the benefit of our decentralized
+social network to protect user privacy. Moreover, the users have all rights to
+their posted information following the General Data Protection Regulation
+(GDPR).</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2409.18356v1">FedDCL: a federated data collaboration learning as a hybrid-type
+  privacy-preserving framework based on federated learning and data
+  collaboration</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-09-27T00:22:38Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Akira Imakura, Tetsuya Sakurai</p>
+    <p><b>Summary:</b> Recently, federated learning has attracted much attention as a
+privacy-preserving integrated analysis that enables integrated analysis of data
+held by multiple institutions without sharing raw data. On the other hand,
+federated learning requires iterative communication across institutions and has
+a big challenge for implementation in situations where continuous communication
+with the outside world is extremely difficult. In this study, we propose a
+federated data collaboration learning (FedDCL), which solves such communication
+issues by combining federated learning with recently proposed non-model
+share-type federated learning named as data collaboration analysis. In the
+proposed FedDCL framework, each user institution independently constructs
+dimensionality-reduced intermediate representations and shares them with
+neighboring institutions on intra-group DC servers. On each intra-group DC
+server, intermediate representations are transformed to incorporable forms
+called collaboration representations. Federated learning is then conducted
+between intra-group DC servers. The proposed FedDCL framework does not require
+iterative communication by user institutions and can be implemented in
+situations where continuous communication with the outside world is extremely
+difficult. The experimental results show that the performance of the proposed
+FedDCL is comparable to that of existing federated learning.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2409.18245v1">PDFed: Privacy-Preserving and Decentralized Asynchronous Federated
+  Learning for Diffusion Models</a></h3>
+  
+  <p><b>Published on:</b> 2024-09-26T19:38:44Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Kar Balan, Andrew Gilbert, John Collomosse</p>
+    <p><b>Summary:</b> We present PDFed, a decentralized, aggregator-free, and asynchronous
+federated learning protocol for training image diffusion models using a public
+blockchain. In general, diffusion models are prone to memorization of training
+data, raising privacy and ethical concerns (e.g., regurgitation of private
+training data in generated images). Federated learning (FL) offers a partial
+solution via collaborative model training across distributed nodes that
+safeguard local data privacy. PDFed proposes a novel sample-based score that
+measures the novelty and quality of generated samples, incorporating these into
+a blockchain-based federated learning protocol that we show reduces private
+data memorization in the collaboratively trained model. In addition, PDFed
+enables asynchronous collaboration among participants with varying hardware
+capabilities, facilitating broader participation. The protocol records the
+provenance of AI models, improving transparency and auditability, while also
+considering automated incentive and reward mechanisms for participants. PDFed
+aims to empower artists and creators by protecting the privacy of creative
+works and enabling decentralized, peer-to-peer collaboration. The protocol
+positively impacts the creative economy by opening up novel revenue streams and
+fostering innovative ways for artists to benefit from their contributions to
+the AI space.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2409.18118v1">Slowly Scaling Per-Record Differential Privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
   <p><b>Published on:</b> 2024-09-26T17:56:11Z</p>
@@ -499,7 +698,7 @@ secure computation algorithms are built.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.16688v1">Cycle Counting under Local Differential Privacy for Degeneracy-bounded
+  <h3><a href="http://arxiv.org/abs/2409.16688v2">Cycle Counting under Local Differential Privacy for Degeneracy-bounded
   Graphs</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B">
   <p><b>Published on:</b> 2024-09-25T07:23:58Z</p>
@@ -509,22 +708,21 @@ secure computation algorithms are built.</p>
     <p><b>Summary:</b> We propose an algorithm for counting the number of cycles under local
 differential privacy for degeneracy-bounded input graphs. Numerous studies have
 focused on counting the number of triangles under the privacy notion,
-demonstrating that the expected \(\ell_2\)-error of these algorithms is
-\(\Omega(n^{1.5})\), where \(n\) is the number of nodes in the graph. When
-parameterized by the number of cycles of length four (\(C_4\)), the best
-existing triangle counting algorithm has an error of \(O(n^{1.5} + \sqrt{C_4})
-= O(n^2)\). In this paper, we introduce an algorithm with an expected
-\(\ell_2\)-error of \(O(\delta^{1.5} n^{0.5} + \delta^{0.5} d_{\max}^{0.5}
-n^{0.5})\), where \(\delta\) is the degeneracy and \(d_{\max}\) is the maximum
-degree of the graph. For degeneracy-bounded graphs (\(\delta \in \Theta(1)\))
-commonly found in practical social networks, our algorithm achieves an expected
-\(\ell_2\)-error of \(O(d_{\max}^{0.5} n^{0.5}) = O(n)\). Our algorithm's core
-idea is a precise count of triangles following a preprocessing step that
-approximately sorts the degree of all nodes. This approach can be extended to
-approximate the number of cycles of length \(k\), maintaining a similar
-\(\ell_2\)-error, namely $O(\delta^{(k-2)/2} d_{\max}^{0.5} n^{(k-2)/2} +
-\delta^{k/2} n^{(k-2)/2})$ or $O(d_{\max}^{0.5} n^{(k-2)/2}) = O(n^{(k-1)/2})$
-for degeneracy-bounded graphs.</p>
+demonstrating that the expected $\ell_2$-error of these algorithms is
+$\Omega(n^{1.5})$, where $n$ is the number of nodes in the graph. When
+parameterized by the number of cycles of length four ($C_4$), the best existing
+triangle counting algorithm has an error of $O(n^{1.5} + \sqrt{C_4}) = O(n^2)$.
+In this paper, we introduce an algorithm with an expected $\ell_2$-error of
+$O(\delta^{1.5} n^{0.5} + \delta^{0.5} d_{\max}^{0.5} n^{0.5})$, where $\delta$
+is the degeneracy and $d_{\max}$ is the maximum degree of the graph. For
+degeneracy-bounded graphs ($\delta \in \Theta(1)$) commonly found in practical
+social networks, our algorithm achieves an expected $\ell_2$-error of
+$O(d_{\max}^{0.5} n^{0.5}) = O(n)$. Our algorithm's core idea is a precise
+count of triangles following a preprocessing step that approximately sorts the
+degree of all nodes. This approach can be extended to approximate the number of
+cycles of length $k$, maintaining a similar $\ell_2$-error, namely
+$O(\delta^{(k-2)/2} d_{\max}^{0.5} n^{(k-2)/2} + \delta^{k/2} n^{(k-2)/2})$ or
+$O(d_{\max}^{0.5} n^{(k-2)/2}) = O(n^{(k-1)/2})$ for degeneracy-bounded graphs.</p>
   </details>
 </div>
 
@@ -2726,242 +2924,6 @@ method is IND-CPA (Indistinguishability under Chosen Plaintext Attack) secure,
 providing strong encryption security. These results underscore the practicality
 and efficiency of iCHEETAH, marking a significant advancement in
 privacy-preserving image processing at scale.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.03344v1">Rethinking Improved Privacy-Utility Trade-off with Pre-existing
-  Knowledge for DP Training</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-09-05T08:40:54Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yu Zheng, Wenchao Zhang, Yonggang Zhang, Wei Song, Kai Zhou, Bo Han</p>
-    <p><b>Summary:</b> Differential privacy (DP) provides a provable framework for protecting
-individuals by customizing a random mechanism over a privacy-sensitive dataset.
-Deep learning models have demonstrated privacy risks in model exposure as an
-established learning model unintentionally records membership-level privacy
-leakage. Differentially private stochastic gradient descent (DP- SGD) has been
-proposed to safeguard training individuals by adding random Gaussian noise to
-gradient updates in the backpropagation. Researchers identify that DP-SGD
-typically causes utility loss since the injected homogeneous noise alters the
-gradient updates calculated at each iteration. Namely, all elements in the
-gradient are contaminated regardless of their importance in updating model
-parameters. In this work, we argue that the utility loss mainly results from
-the homogeneity of injected noise. Consequently, we propose a generic
-differential privacy framework with heterogeneous noise (DP-Hero) by defining a
-heterogeneous random mechanism to abstract its property. The insight of DP-Hero
-is to leverage the knowledge encoded in the previously trained model to guide
-the subsequent allocation of noise heterogeneity, thereby leveraging the
-statistical perturbation and achieving enhanced utility. Atop DP-Hero, we
-instantiate a heterogeneous version of DP-SGD, where the noise injected into
-gradients is heterogeneous and guided by prior-established model parameters. We
-conduct comprehensive experiments to verify and explain the effectiveness of
-the proposed DP-Hero, showing improved training accuracy compared with
-state-of-the-art works. Broadly, we shed light on improving the privacy-utility
-space by learning the noise guidance from the pre-existing leaked knowledge
-encoded in the previously trained model, showing a different perspective of
-understanding the utility-improved DP training.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.03326v1">Enhancing User-Centric Privacy Protection: An Interactive Framework
-  through Diffusion Models and Machine Unlearning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2024-09-05T07:55:55Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Huaxi Huang, Xin Yuan, Qiyu Liao, Dadong Wang, Tongliang Liu</p>
-    <p><b>Summary:</b> In the realm of multimedia data analysis, the extensive use of image datasets
-has escalated concerns over privacy protection within such data. Current
-research predominantly focuses on privacy protection either in data sharing or
-upon the release of trained machine learning models. Our study pioneers a
-comprehensive privacy protection framework that safeguards image data privacy
-concurrently during data sharing and model publication. We propose an
-interactive image privacy protection framework that utilizes generative machine
-learning models to modify image information at the attribute level and employs
-machine unlearning algorithms for the privacy preservation of model parameters.
-This user-interactive framework allows for adjustments in privacy protection
-intensity based on user feedback on generated images, striking a balance
-between maximal privacy safeguarding and maintaining model performance. Within
-this framework, we instantiate two modules: a differential privacy diffusion
-model for protecting attribute information in images and a feature unlearning
-algorithm for efficient updates of the trained model on the revised image
-dataset. Our approach demonstrated superiority over existing methods on facial
-datasets across various attribute classifications.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.03294v1">Federated Prototype-based Contrastive Learning for Privacy-Preserving
-  Cross-domain Recommendation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB">
-  <p><b>Published on:</b> 2024-09-05T06:59:56Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Li Wang, Quangui Zhang, Lei Sang, Qiang Wu, Min Xu</p>
-    <p><b>Summary:</b> Cross-domain recommendation (CDR) aims to improve recommendation accuracy in
-sparse domains by transferring knowledge from data-rich domains. However,
-existing CDR methods often assume the availability of user-item interaction
-data across domains, overlooking user privacy concerns. Furthermore, these
-methods suffer from performance degradation in scenarios with sparse
-overlapping users, as they typically depend on a large number of fully shared
-users for effective knowledge transfer. To address these challenges, we propose
-a Federated Prototype-based Contrastive Learning (CL) method for
-Privacy-Preserving CDR, named FedPCL-CDR. This approach utilizes
-non-overlapping user information and prototypes to improve multi-domain
-performance while protecting user privacy. FedPCL-CDR comprises two modules:
-local domain (client) learning and global server aggregation. In the local
-domain, FedPCL-CDR clusters all user data to learn representative prototypes,
-effectively utilizing non-overlapping user information and addressing the
-sparse overlapping user issue. It then facilitates knowledge transfer by
-employing both local and global prototypes returned from the server in a CL
-manner. Simultaneously, the global server aggregates representative prototypes
-from local domains to learn both local and global prototypes. The combination
-of prototypes and federated learning (FL) ensures that sensitive user data
-remains decentralized, with only prototypes being shared across domains,
-thereby protecting user privacy. Extensive experiments on four CDR tasks using
-two real-world datasets demonstrate that FedPCL-CDR outperforms the
-state-of-the-art baselines.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.03796v1">Protecting Activity Sensing Data Privacy Using Hierarchical Information
-  Dissociation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-09-04T15:38:00Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Guangjing Wang, Hanqing Guo, Yuanda Wang, Bocheng Chen, Ce Zhou, Qiben Yan</p>
-    <p><b>Summary:</b> Smartphones and wearable devices have been integrated into our daily lives,
-offering personalized services. However, many apps become overprivileged as
-their collected sensing data contains unnecessary sensitive information. For
-example, mobile sensing data could reveal private attributes (e.g., gender and
-age) and unintended sensitive features (e.g., hand gestures when entering
-passwords). To prevent sensitive information leakage, existing methods must
-obtain private labels and users need to specify privacy policies. However, they
-only achieve limited control over information disclosure. In this work, we
-present Hippo to dissociate hierarchical information including private metadata
-and multi-grained activity information from the sensing data. Hippo achieves
-fine-grained control over the disclosure of sensitive information without
-requiring private labels. Specifically, we design a latent guidance-based
-diffusion model, which generates multi-grained versions of raw sensor data
-conditioned on hierarchical latent activity features. Hippo enables users to
-control the disclosure of sensitive information in sensing data, ensuring their
-privacy while preserving the necessary features to meet the utility
-requirements of applications. Hippo is the first unified model that achieves
-two goals: perturbing the sensitive attributes and controlling the disclosure
-of sensitive information in mobile sensing data. Extensive experiments show
-that Hippo can anonymize personal attributes and transform activity information
-at various resolutions across different types of sensing data.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.02614v1">Evaluating the Effects of Digital Privacy Regulations on User Trust</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2024-09-04T11:11:41Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mehmet Berk Cetin</p>
-    <p><b>Summary:</b> In today's digital society, issues related to digital privacy have become
-increasingly important. Issues such as data breaches result in misuse of data,
-financial loss, and cyberbullying, which leads to less user trust in digital
-services. This research investigates the impact of digital privacy laws on user
-trust by comparing the regulations in the Netherlands, Ghana, and Malaysia. The
-study employs a comparative case study method, involving interviews with
-digital privacy law experts, IT educators, and consumers from each country. The
-main findings reveal that while the General Data Protection Regulation (GDPR)
-in the Netherlands is strict, its practical impact is limited by enforcement
-challenges. In Ghana, the Data Protection Act is underutilized due to low
-public awareness and insufficient enforcement, leading to reliance on personal
-protective measures. In Malaysia, trust in digital services is largely
-dependent on the security practices of individual platforms rather than the
-Personal Data Protection Act. The study highlights the importance of public
-awareness, effective enforcement, and cultural considerations in shaping the
-effectiveness of digital privacy laws. Based on these insights, a
-recommendation framework is proposed to enhance digital privacy practices, also
-aiming to provide valuable guidance for policymakers, businesses, and citizens
-in navigating the challenges of digitalization.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.02404v1">Learning Privacy-Preserving Student Networks via
-  Discriminative-Generative Distillation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-09-04T03:06:13Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shiming Ge, Bochao Liu, Pengju Wang, Yong Li, Dan Zeng</p>
-    <p><b>Summary:</b> While deep models have proved successful in learning rich knowledge from
-massive well-annotated data, they may pose a privacy leakage risk in practical
-deployment. It is necessary to find an effective trade-off between high utility
-and strong privacy. In this work, we propose a discriminative-generative
-distillation approach to learn privacy-preserving deep models. Our key idea is
-taking models as bridge to distill knowledge from private data and then
-transfer it to learn a student network via two streams. First, discriminative
-stream trains a baseline classifier on private data and an ensemble of teachers
-on multiple disjoint private subsets, respectively. Then, generative stream
-takes the classifier as a fixed discriminator and trains a generator in a
-data-free manner. After that, the generator is used to generate massive
-synthetic data which are further applied to train a variational autoencoder
-(VAE). Among these synthetic data, a few of them are fed into the teacher
-ensemble to query labels via differentially private aggregation, while most of
-them are embedded to the trained VAE for reconstructing synthetic data.
-Finally, a semi-supervised student learning is performed to simultaneously
-handle two tasks: knowledge transfer from the teachers with distillation on few
-privately labeled synthetic data, and knowledge enhancement with tangent-normal
-adversarial regularization on many triples of reconstructed synthetic data. In
-this way, our approach can control query cost over private data and mitigate
-accuracy degradation in a unified manner, leading to a privacy-preserving
-student model. Extensive experiments and analysis clearly show the
-effectiveness of the proposed approach.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.02375v3">How Privacy-Savvy Are Large Language Models? A Case Study on Compliance
-  and Privacy Technical Review</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2024-09-04T01:51:37Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Xichou Zhu, Yang Liu, Zhou Shen, Yi Liu, Min Li, Yujun Chen, Benzi John, Zhenzhen Ma, Tao Hu, Zhi Li, Bolong Yang, Manman Wang, Zongxing Xie, Peng Liu, Dan Cai, Junhui Wang</p>
-    <p><b>Summary:</b> The recent advances in large language models (LLMs) have significantly
-expanded their applications across various fields such as language generation,
-summarization, and complex question answering. However, their application to
-privacy compliance and technical privacy reviews remains under-explored,
-raising critical concerns about their ability to adhere to global privacy
-standards and protect sensitive user data. This paper seeks to address this gap
-by providing a comprehensive case study evaluating LLMs' performance in
-privacy-related tasks such as privacy information extraction (PIE), legal and
-regulatory key point detection (KPD), and question answering (QA) with respect
-to privacy policies and data protection regulations. We introduce a Privacy
-Technical Review (PTR) framework, highlighting its role in mitigating privacy
-risks during the software development life-cycle. Through an empirical
-assessment, we investigate the capacity of several prominent LLMs, including
-BERT, GPT-3.5, GPT-4, and custom models, in executing privacy compliance checks
-and technical privacy reviews. Our experiments benchmark the models across
-multiple dimensions, focusing on their precision, recall, and F1-scores in
-extracting privacy-sensitive information and detecting key regulatory
-compliance points. While LLMs show promise in automating privacy reviews and
-identifying regulatory discrepancies, significant gaps persist in their ability
-to fully comply with evolving legal standards. We provide actionable
-recommendations for enhancing LLMs' capabilities in privacy compliance,
-emphasizing the need for robust model improvements and better integration with
-legal and regulatory requirements. This study underscores the growing
-importance of developing privacy-aware LLMs that can both support businesses in
-compliance efforts and safeguard user privacy rights.</p>
   </details>
 </div>
 
