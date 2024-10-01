@@ -3654,5 +3654,253 @@
       "cs.CR",
       "cs.DS"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.19988v1",
+    "title" : "Enhancing Security Using Random Binary Weights in Privacy-Preserving\n  Federated Learning",
+    "summary" : "In this paper, we propose a novel method for enhancing security in\nprivacy-preserving federated learning using the Vision Transformer. In\nfederated learning, learning is performed by collecting updated information\nwithout collecting raw data from each client. However, the problem is that this\nraw data may be inferred from the updated information. Conventional\ndata-guessing countermeasures (security enhancement methods) for addressing\nthis issue have a trade-off relationship between privacy protection strength\nand learning efficiency, and they generally degrade model performance. In this\npaper, we propose a novel method of federated learning that does not degrade\nmodel performance and that is robust against data-guessing attacks on updated\ninformation. In the proposed method, each client independently prepares a\nsequence of binary (0 or 1) random numbers, multiplies it by the updated\ninformation, and sends it to a server for model learning. In experiments, the\neffectiveness of the proposed method is confirmed in terms of model performance\nand resistance to the APRIL (Attention PRIvacy Leakage) restoration attack.",
+    "updated" : "2024-09-30T06:28:49Z",
+    "published" : "2024-09-30T06:28:49Z",
+    "authors" : [
+      {
+        "name" : "Hiroto Sawada"
+      },
+      {
+        "name" : "Shoko Imaizumi"
+      },
+      {
+        "name" : "Hitoshi Kiya"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.19964v1",
+    "title" : "Comments on \"Privacy-Enhanced Federated Learning Against Poisoning\n  Adversaries\"",
+    "summary" : "In August 2021, Liu et al. (IEEE TIFS'21) proposed a privacy-enhanced\nframework named PEFL to efficiently detect poisoning behaviours in Federated\nLearning (FL) using homomorphic encryption. In this article, we show that PEFL\ndoes not preserve privacy. In particular, we illustrate that PEFL reveals the\nentire gradient vector of all users in clear to one of the participating\nentities, thereby violating privacy. Furthermore, we clearly show that an\nimmediate fix for this issue is still insufficient to achieve privacy by\npointing out multiple flaws in the proposed system.\n  Note: Although our privacy issues mentioned in Section II have been published\nin January 2023 (Schneider et. al., IEEE TIFS'23), several subsequent papers\ncontinued to reference Liu et al. (IEEE TIFS'21) as a potential solution for\nprivate federated learning. While a few works have acknowledged the privacy\nconcerns we raised, several of subsequent works either propagate these errors\nor adopt the constructions from Liu et al. (IEEE TIFS'21), thereby\nunintentionally inheriting the same privacy vulnerabilities. We believe this\noversight is partly due to the limited visibility of our comments paper at\nTIFS'23 (Schneider et. al., IEEE TIFS'23). Consequently, to prevent the\ncontinued propagation of the flawed algorithms in Liu et al. (IEEE TIFS'21)\ninto future research, we also put this article to an ePrint.",
+    "updated" : "2024-09-30T05:34:20Z",
+    "published" : "2024-09-30T05:34:20Z",
+    "authors" : [
+      {
+        "name" : "Thomas Schneider"
+      },
+      {
+        "name" : "Ajith Suresh"
+      },
+      {
+        "name" : "Hossein Yalame"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.19756v1",
+    "title" : "Advances in Privacy Preserving Federated Learning to Realize a Truly\n  Learning Healthcare System",
+    "summary" : "The concept of a learning healthcare system (LHS) envisions a self-improving\nnetwork where multimodal data from patient care are continuously analyzed to\nenhance future healthcare outcomes. However, realizing this vision faces\nsignificant challenges in data sharing and privacy protection.\nPrivacy-Preserving Federated Learning (PPFL) is a transformative and promising\napproach that has the potential to address these challenges by enabling\ncollaborative learning from decentralized data while safeguarding patient\nprivacy. This paper proposes a vision for integrating PPFL into the healthcare\necosystem to achieve a truly LHS as defined by the Institute of Medicine (IOM)\nRoundtable.",
+    "updated" : "2024-09-29T20:02:40Z",
+    "published" : "2024-09-29T20:02:40Z",
+    "authors" : [
+      {
+        "name" : "Ravi Madduri"
+      },
+      {
+        "name" : "Zilinghan Li"
+      },
+      {
+        "name" : "Tarak Nandi"
+      },
+      {
+        "name" : "Kibaek Kim"
+      },
+      {
+        "name" : "Minseok Ryu"
+      },
+      {
+        "name" : "Alex Rodriguez"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.19413v1",
+    "title" : "Membership Privacy Evaluation in Deep Spiking Neural Networks",
+    "summary" : "Artificial Neural Networks (ANNs), commonly mimicking neurons with non-linear\nfunctions to output floating-point numbers, consistently receive the same\nsignals of a data point during its forward time. Unlike ANNs, Spiking Neural\nNetworks (SNNs) get various input signals in the forward time of a data point\nand simulate neurons in a biologically plausible way, i.e., producing a spike\n(a binary value) if the accumulated membrane potential of a neuron is larger\nthan a threshold. Even though ANNs have achieved remarkable success in multiple\ntasks, e.g., face recognition and object detection, SNNs have recently obtained\nattention due to their low power consumption, fast inference, and event-driven\nproperties. While privacy threats against ANNs are widely explored, much less\nwork has been done on SNNs. For instance, it is well-known that ANNs are\nvulnerable to the Membership Inference Attack (MIA), but whether the same\napplies to SNNs is not explored.\n  In this paper, we evaluate the membership privacy of SNNs by considering\neight MIAs, seven of which are inspired by MIAs against ANNs. Our evaluation\nresults show that SNNs are more vulnerable (maximum 10% higher in terms of\nbalanced attack accuracy) than ANNs when both are trained with neuromorphic\ndatasets (with time dimension). On the other hand, when training ANNs or SNNs\nwith static datasets (without time dimension), the vulnerability depends on the\ndataset used. If we convert ANNs trained with static datasets to SNNs, the\naccuracy of MIAs drops (maximum 11.5% with a reduction of 7.6% on the test\naccuracy of the target model). Next, we explore the impact factors of MIAs on\nSNNs by conducting a hyperparameter study. Finally, we show that the basic data\naugmentation method for static data and two recent data augmentation methods\nfor neuromorphic data can considerably (maximum reduction of 25.7%) decrease\nMIAs' performance on SNNs.",
+    "updated" : "2024-09-28T17:13:04Z",
+    "published" : "2024-09-28T17:13:04Z",
+    "authors" : [
+      {
+        "name" : "Jiaxin Li"
+      },
+      {
+        "name" : "Gorka Abad"
+      },
+      {
+        "name" : "Stjepan Picek"
+      },
+      {
+        "name" : "Mauro Conti"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.19334v1",
+    "title" : "OnePath: Efficient and Privacy-Preserving Decision Tree Inference in the\n  Cloud",
+    "summary" : "The expansive storage capacity and robust computational power of cloud\nservers have led to the widespread outsourcing of machine learning inference\nservices to the cloud. While this practice offers significant operational\nbenefits, it also poses substantial privacy risks, including the exposure of\nproprietary models and sensitive user data. In this paper, we introduce\nOnePath, a framework designed for secure and efficient decision tree inference\nin cloud environments. Unlike existing schemes that require traversing all\ninternal nodes of a decision tree, our protocol securely identifies and\nprocesses only the nodes on the prediction path, maintaining data privacy under\nciphertext throughout the inference process. This selective traversal enhances\nboth security and efficiency. To further optimize privacy and performance,\nOnePath employs lightweight cryptographic techniques, such as functional\nencryption, during the online phase of secure inference. Notably, our protocol\nallows both providers and clients to perform secure inference without the need\nto remain online continuously, a critical advantage for real-world\napplications. We substantiate the security of our framework with formal proofs,\ndemonstrating that OnePath robustly protects the privacy of decision tree\nclassifiers and user data. Experimental results highlight the efficiency of our\napproach, with our scheme processing query data in mere microseconds on the\ntested dataset. Through OnePath, we provide a practical solution that balances\nthe needs for security and efficiency in cloud-based decision tree inference,\nmaking it a promising option for a variety of applications.",
+    "updated" : "2024-09-28T12:35:32Z",
+    "published" : "2024-09-28T12:35:32Z",
+    "authors" : [
+      {
+        "name" : "Shuai Yuan"
+      },
+      {
+        "name" : "Hongwei Li"
+      },
+      {
+        "name" : "Xinyuan Qian"
+      },
+      {
+        "name" : "Wenbo Jiang"
+      },
+      {
+        "name" : "Guowen Xu"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.19306v1",
+    "title" : "CausalVE: Face Video Privacy Encryption via Causal Video Prediction",
+    "summary" : "Advanced facial recognition technologies and recommender systems with\ninadequate privacy technologies and policies for facial interactions increase\nconcerns about bioprivacy violations. With the proliferation of video and\nlive-streaming websites, public-face video distribution and interactions pose\ngreater privacy risks. Existing techniques typically address the risk of\nsensitive biometric information leakage through various privacy enhancement\nmethods but pose a higher security risk by corrupting the information to be\nconveyed by the interaction data, or by leaving certain biometric features\nintact that allow an attacker to infer sensitive biometric information from\nthem. To address these shortcomings, in this paper, we propose a neural network\nframework, CausalVE. We obtain cover images by adopting a diffusion model to\nachieve face swapping with face guidance and use the speech sequence features\nand spatiotemporal sequence features of the secret video for dynamic video\ninference and prediction to obtain a cover video with the same number of frames\nas the secret video. In addition, we hide the secret video by using reversible\nneural networks for video hiding so that the video can also disseminate secret\ndata. Numerous experiments prove that our CausalVE has good security in public\nvideo dissemination and outperforms state-of-the-art methods from a\nqualitative, quantitative, and visual point of view.",
+    "updated" : "2024-09-28T10:34:22Z",
+    "published" : "2024-09-28T10:34:22Z",
+    "authors" : [
+      {
+        "name" : "Yubo Huang"
+      },
+      {
+        "name" : "Wenhao Feng"
+      },
+      {
+        "name" : "Xin Lai"
+      },
+      {
+        "name" : "Zixi Wang"
+      },
+      {
+        "name" : "Jingzehua Xu"
+      },
+      {
+        "name" : "Shuai Zhang"
+      },
+      {
+        "name" : "Hongjie He"
+      },
+      {
+        "name" : "Fan Chen"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.19301v1",
+    "title" : "Privacy Attack in Federated Learning is Not Easy: An Experimental Study",
+    "summary" : "Federated learning (FL) is an emerging distributed machine learning paradigm\nproposed for privacy preservation. Unlike traditional centralized learning\napproaches, FL enables multiple users to collaboratively train a shared global\nmodel without disclosing their own data, thereby significantly reducing the\npotential risk of privacy leakage. However, recent studies have indicated that\nFL cannot entirely guarantee privacy protection, and attackers may still be\nable to extract users' private data through the communicated model gradients.\nAlthough numerous privacy attack FL algorithms have been developed, most are\ndesigned to reconstruct private data from a single step of calculated\ngradients. It remains uncertain whether these methods are effective in\nrealistic federated environments or if they have other limitations. In this\npaper, we aim to help researchers better understand and evaluate the\neffectiveness of privacy attacks on FL. We analyze and discuss recent research\npapers on this topic and conduct experiments in a real FL environment to\ncompare the performance of various attack methods. Our experimental results\nreveal that none of the existing state-of-the-art privacy attack algorithms can\neffectively breach private client data in realistic FL settings, even in the\nabsence of defense strategies. This suggests that privacy attacks in FL are\nmore challenging than initially anticipated.",
+    "updated" : "2024-09-28T10:06:34Z",
+    "published" : "2024-09-28T10:06:34Z",
+    "authors" : [
+      {
+        "name" : "Hangyu Zhu"
+      },
+      {
+        "name" : "Liyuan Huang"
+      },
+      {
+        "name" : "Zhenping Xie"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.19092v1",
+    "title" : "Federated Online Prediction from Experts with Differential Privacy:\n  Separations and Regret Speed-ups",
+    "summary" : "We study the problems of differentially private federated online prediction\nfrom experts against both stochastic adversaries and oblivious adversaries. We\naim to minimize the average regret on $m$ clients working in parallel over time\nhorizon $T$ with explicit differential privacy (DP) guarantees. With stochastic\nadversaries, we propose a Fed-DP-OPE-Stoch algorithm that achieves\n$\\sqrt{m}$-fold speed-up of the per-client regret compared to the single-player\ncounterparts under both pure DP and approximate DP constraints, while\nmaintaining logarithmic communication costs. With oblivious adversaries, we\nestablish non-trivial lower bounds indicating that collaboration among clients\ndoes not lead to regret speed-up with general oblivious adversaries. We then\nconsider a special case of the oblivious adversaries setting, where there\nexists a low-loss expert. We design a new algorithm Fed-SVT and show that it\nachieves an $m$-fold regret speed-up under both pure DP and approximate DP\nconstraints over the single-player counterparts. Our lower bound indicates that\nFed-SVT is nearly optimal up to logarithmic factors. Experiments demonstrate\nthe effectiveness of our proposed algorithms. To the best of our knowledge,\nthis is the first work examining the differentially private online prediction\nfrom experts in the federated setting.",
+    "updated" : "2024-09-27T18:43:24Z",
+    "published" : "2024-09-27T18:43:24Z",
+    "authors" : [
+      {
+        "name" : "Fengyu Gao"
+      },
+      {
+        "name" : "Ruiquan Huang"
+      },
+      {
+        "name" : "Jing Yang"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.19078v1",
+    "title" : "Differential privacy for protecting patient data in speech disorder\n  detection using deep learning",
+    "summary" : "Speech pathology has impacts on communication abilities and quality of life.\nWhile deep learning-based models have shown potential in diagnosing these\ndisorders, the use of sensitive data raises critical privacy concerns. Although\ndifferential privacy (DP) has been explored in the medical imaging domain, its\napplication in pathological speech analysis remains largely unexplored despite\nthe equally critical privacy concerns. This study is the first to investigate\nDP's impact on pathological speech data, focusing on the trade-offs between\nprivacy, diagnostic accuracy, and fairness. Using a large, real-world dataset\nof 200 hours of recordings from 2,839 German-speaking participants, we observed\na maximum accuracy reduction of 3.85% when training with DP with a privacy\nbudget, denoted by {\\epsilon}, of 7.51. To generalize our findings, we\nvalidated our approach on a smaller dataset of Spanish-speaking Parkinson's\ndisease patients, demonstrating that careful pretraining on large-scale\ntask-specific datasets can maintain or even improve model accuracy under DP\nconstraints. We also conducted a comprehensive fairness analysis, revealing\nthat reasonable privacy levels (2<{\\epsilon}<10) do not introduce significant\ngender bias, though age-related disparities may require further attention. Our\nresults suggest that DP can effectively balance privacy and utility in speech\ndisorder detection, but also highlight the unique challenges in the speech\ndomain, particularly regarding the privacy-fairness trade-off. This provides a\nfoundation for future work to refine DP methodologies and address fairness\nacross diverse patient groups in real-world deployments.",
+    "updated" : "2024-09-27T18:25:54Z",
+    "published" : "2024-09-27T18:25:54Z",
+    "authors" : [
+      {
+        "name" : "Soroosh Tayebi Arasteh"
+      },
+      {
+        "name" : "Mahshad Lotfinia"
+      },
+      {
+        "name" : "Paula Andrea Perez-Toro"
+      },
+      {
+        "name" : "Tomas Arias-Vergara"
+      },
+      {
+        "name" : "Juan Rafael Orozco-Arroyave"
+      },
+      {
+        "name" : "Maria Schuster"
+      },
+      {
+        "name" : "Andreas Maier"
+      },
+      {
+        "name" : "Seung Hee Yang"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR",
+      "cs.SD",
+      "eess.AS"
+    ]
   }
 ]
