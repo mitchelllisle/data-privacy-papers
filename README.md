@@ -2,6 +2,281 @@
 <h2>2024-09</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2409.19988v1">Enhancing Security Using Random Binary Weights in Privacy-Preserving
+  Federated Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-09-30T06:28:49Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Hiroto Sawada, Shoko Imaizumi, Hitoshi Kiya</p>
+    <p><b>Summary:</b> In this paper, we propose a novel method for enhancing security in
+privacy-preserving federated learning using the Vision Transformer. In
+federated learning, learning is performed by collecting updated information
+without collecting raw data from each client. However, the problem is that this
+raw data may be inferred from the updated information. Conventional
+data-guessing countermeasures (security enhancement methods) for addressing
+this issue have a trade-off relationship between privacy protection strength
+and learning efficiency, and they generally degrade model performance. In this
+paper, we propose a novel method of federated learning that does not degrade
+model performance and that is robust against data-guessing attacks on updated
+information. In the proposed method, each client independently prepares a
+sequence of binary (0 or 1) random numbers, multiplies it by the updated
+information, and sends it to a server for model learning. In experiments, the
+effectiveness of the proposed method is confirmed in terms of model performance
+and resistance to the APRIL (Attention PRIvacy Leakage) restoration attack.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2409.19964v1">Comments on "Privacy-Enhanced Federated Learning Against Poisoning
+  Adversaries"</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-09-30T05:34:20Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Thomas Schneider, Ajith Suresh, Hossein Yalame</p>
+    <p><b>Summary:</b> In August 2021, Liu et al. (IEEE TIFS'21) proposed a privacy-enhanced
+framework named PEFL to efficiently detect poisoning behaviours in Federated
+Learning (FL) using homomorphic encryption. In this article, we show that PEFL
+does not preserve privacy. In particular, we illustrate that PEFL reveals the
+entire gradient vector of all users in clear to one of the participating
+entities, thereby violating privacy. Furthermore, we clearly show that an
+immediate fix for this issue is still insufficient to achieve privacy by
+pointing out multiple flaws in the proposed system.
+  Note: Although our privacy issues mentioned in Section II have been published
+in January 2023 (Schneider et. al., IEEE TIFS'23), several subsequent papers
+continued to reference Liu et al. (IEEE TIFS'21) as a potential solution for
+private federated learning. While a few works have acknowledged the privacy
+concerns we raised, several of subsequent works either propagate these errors
+or adopt the constructions from Liu et al. (IEEE TIFS'21), thereby
+unintentionally inheriting the same privacy vulnerabilities. We believe this
+oversight is partly due to the limited visibility of our comments paper at
+TIFS'23 (Schneider et. al., IEEE TIFS'23). Consequently, to prevent the
+continued propagation of the flawed algorithms in Liu et al. (IEEE TIFS'21)
+into future research, we also put this article to an ePrint.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2409.19756v1">Advances in Privacy Preserving Federated Learning to Realize a Truly
+  Learning Healthcare System</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
+  <p><b>Published on:</b> 2024-09-29T20:02:40Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ravi Madduri, Zilinghan Li, Tarak Nandi, Kibaek Kim, Minseok Ryu, Alex Rodriguez</p>
+    <p><b>Summary:</b> The concept of a learning healthcare system (LHS) envisions a self-improving
+network where multimodal data from patient care are continuously analyzed to
+enhance future healthcare outcomes. However, realizing this vision faces
+significant challenges in data sharing and privacy protection.
+Privacy-Preserving Federated Learning (PPFL) is a transformative and promising
+approach that has the potential to address these challenges by enabling
+collaborative learning from decentralized data while safeguarding patient
+privacy. This paper proposes a vision for integrating PPFL into the healthcare
+ecosystem to achieve a truly LHS as defined by the Institute of Medicine (IOM)
+Roundtable.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2409.19413v1">Membership Privacy Evaluation in Deep Spiking Neural Networks</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-09-28T17:13:04Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jiaxin Li, Gorka Abad, Stjepan Picek, Mauro Conti</p>
+    <p><b>Summary:</b> Artificial Neural Networks (ANNs), commonly mimicking neurons with non-linear
+functions to output floating-point numbers, consistently receive the same
+signals of a data point during its forward time. Unlike ANNs, Spiking Neural
+Networks (SNNs) get various input signals in the forward time of a data point
+and simulate neurons in a biologically plausible way, i.e., producing a spike
+(a binary value) if the accumulated membrane potential of a neuron is larger
+than a threshold. Even though ANNs have achieved remarkable success in multiple
+tasks, e.g., face recognition and object detection, SNNs have recently obtained
+attention due to their low power consumption, fast inference, and event-driven
+properties. While privacy threats against ANNs are widely explored, much less
+work has been done on SNNs. For instance, it is well-known that ANNs are
+vulnerable to the Membership Inference Attack (MIA), but whether the same
+applies to SNNs is not explored.
+  In this paper, we evaluate the membership privacy of SNNs by considering
+eight MIAs, seven of which are inspired by MIAs against ANNs. Our evaluation
+results show that SNNs are more vulnerable (maximum 10% higher in terms of
+balanced attack accuracy) than ANNs when both are trained with neuromorphic
+datasets (with time dimension). On the other hand, when training ANNs or SNNs
+with static datasets (without time dimension), the vulnerability depends on the
+dataset used. If we convert ANNs trained with static datasets to SNNs, the
+accuracy of MIAs drops (maximum 11.5% with a reduction of 7.6% on the test
+accuracy of the target model). Next, we explore the impact factors of MIAs on
+SNNs by conducting a hyperparameter study. Finally, we show that the basic data
+augmentation method for static data and two recent data augmentation methods
+for neuromorphic data can considerably (maximum reduction of 25.7%) decrease
+MIAs' performance on SNNs.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2409.19334v1">OnePath: Efficient and Privacy-Preserving Decision Tree Inference in the
+  Cloud</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-09-28T12:35:32Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shuai Yuan, Hongwei Li, Xinyuan Qian, Wenbo Jiang, Guowen Xu</p>
+    <p><b>Summary:</b> The expansive storage capacity and robust computational power of cloud
+servers have led to the widespread outsourcing of machine learning inference
+services to the cloud. While this practice offers significant operational
+benefits, it also poses substantial privacy risks, including the exposure of
+proprietary models and sensitive user data. In this paper, we introduce
+OnePath, a framework designed for secure and efficient decision tree inference
+in cloud environments. Unlike existing schemes that require traversing all
+internal nodes of a decision tree, our protocol securely identifies and
+processes only the nodes on the prediction path, maintaining data privacy under
+ciphertext throughout the inference process. This selective traversal enhances
+both security and efficiency. To further optimize privacy and performance,
+OnePath employs lightweight cryptographic techniques, such as functional
+encryption, during the online phase of secure inference. Notably, our protocol
+allows both providers and clients to perform secure inference without the need
+to remain online continuously, a critical advantage for real-world
+applications. We substantiate the security of our framework with formal proofs,
+demonstrating that OnePath robustly protects the privacy of decision tree
+classifiers and user data. Experimental results highlight the efficiency of our
+approach, with our scheme processing query data in mere microseconds on the
+tested dataset. Through OnePath, we provide a practical solution that balances
+the needs for security and efficiency in cloud-based decision tree inference,
+making it a promising option for a variety of applications.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2409.19306v1">CausalVE: Face Video Privacy Encryption via Causal Video Prediction</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-09-28T10:34:22Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yubo Huang, Wenhao Feng, Xin Lai, Zixi Wang, Jingzehua Xu, Shuai Zhang, Hongjie He, Fan Chen</p>
+    <p><b>Summary:</b> Advanced facial recognition technologies and recommender systems with
+inadequate privacy technologies and policies for facial interactions increase
+concerns about bioprivacy violations. With the proliferation of video and
+live-streaming websites, public-face video distribution and interactions pose
+greater privacy risks. Existing techniques typically address the risk of
+sensitive biometric information leakage through various privacy enhancement
+methods but pose a higher security risk by corrupting the information to be
+conveyed by the interaction data, or by leaving certain biometric features
+intact that allow an attacker to infer sensitive biometric information from
+them. To address these shortcomings, in this paper, we propose a neural network
+framework, CausalVE. We obtain cover images by adopting a diffusion model to
+achieve face swapping with face guidance and use the speech sequence features
+and spatiotemporal sequence features of the secret video for dynamic video
+inference and prediction to obtain a cover video with the same number of frames
+as the secret video. In addition, we hide the secret video by using reversible
+neural networks for video hiding so that the video can also disseminate secret
+data. Numerous experiments prove that our CausalVE has good security in public
+video dissemination and outperforms state-of-the-art methods from a
+qualitative, quantitative, and visual point of view.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2409.19301v1">Privacy Attack in Federated Learning is Not Easy: An Experimental Study</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-09-28T10:06:34Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Hangyu Zhu, Liyuan Huang, Zhenping Xie</p>
+    <p><b>Summary:</b> Federated learning (FL) is an emerging distributed machine learning paradigm
+proposed for privacy preservation. Unlike traditional centralized learning
+approaches, FL enables multiple users to collaboratively train a shared global
+model without disclosing their own data, thereby significantly reducing the
+potential risk of privacy leakage. However, recent studies have indicated that
+FL cannot entirely guarantee privacy protection, and attackers may still be
+able to extract users' private data through the communicated model gradients.
+Although numerous privacy attack FL algorithms have been developed, most are
+designed to reconstruct private data from a single step of calculated
+gradients. It remains uncertain whether these methods are effective in
+realistic federated environments or if they have other limitations. In this
+paper, we aim to help researchers better understand and evaluate the
+effectiveness of privacy attacks on FL. We analyze and discuss recent research
+papers on this topic and conduct experiments in a real FL environment to
+compare the performance of various attack methods. Our experimental results
+reveal that none of the existing state-of-the-art privacy attack algorithms can
+effectively breach private client data in realistic FL settings, even in the
+absence of defense strategies. This suggests that privacy attacks in FL are
+more challenging than initially anticipated.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2409.19092v1">Federated Online Prediction from Experts with Differential Privacy:
+  Separations and Regret Speed-ups</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
+  <p><b>Published on:</b> 2024-09-27T18:43:24Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Fengyu Gao, Ruiquan Huang, Jing Yang</p>
+    <p><b>Summary:</b> We study the problems of differentially private federated online prediction
+from experts against both stochastic adversaries and oblivious adversaries. We
+aim to minimize the average regret on $m$ clients working in parallel over time
+horizon $T$ with explicit differential privacy (DP) guarantees. With stochastic
+adversaries, we propose a Fed-DP-OPE-Stoch algorithm that achieves
+$\sqrt{m}$-fold speed-up of the per-client regret compared to the single-player
+counterparts under both pure DP and approximate DP constraints, while
+maintaining logarithmic communication costs. With oblivious adversaries, we
+establish non-trivial lower bounds indicating that collaboration among clients
+does not lead to regret speed-up with general oblivious adversaries. We then
+consider a special case of the oblivious adversaries setting, where there
+exists a low-loss expert. We design a new algorithm Fed-SVT and show that it
+achieves an $m$-fold regret speed-up under both pure DP and approximate DP
+constraints over the single-player counterparts. Our lower bound indicates that
+Fed-SVT is nearly optimal up to logarithmic factors. Experiments demonstrate
+the effectiveness of our proposed algorithms. To the best of our knowledge,
+this is the first work examining the differentially private online prediction
+from experts in the federated setting.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2409.19078v1">Differential privacy for protecting patient data in speech disorder
+  detection using deep learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Sound-D91E36"> 
+  <p><b>Published on:</b> 2024-09-27T18:25:54Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Soroosh Tayebi Arasteh, Mahshad Lotfinia, Paula Andrea Perez-Toro, Tomas Arias-Vergara, Juan Rafael Orozco-Arroyave, Maria Schuster, Andreas Maier, Seung Hee Yang</p>
+    <p><b>Summary:</b> Speech pathology has impacts on communication abilities and quality of life.
+While deep learning-based models have shown potential in diagnosing these
+disorders, the use of sensitive data raises critical privacy concerns. Although
+differential privacy (DP) has been explored in the medical imaging domain, its
+application in pathological speech analysis remains largely unexplored despite
+the equally critical privacy concerns. This study is the first to investigate
+DP's impact on pathological speech data, focusing on the trade-offs between
+privacy, diagnostic accuracy, and fairness. Using a large, real-world dataset
+of 200 hours of recordings from 2,839 German-speaking participants, we observed
+a maximum accuracy reduction of 3.85% when training with DP with a privacy
+budget, denoted by {\epsilon}, of 7.51. To generalize our findings, we
+validated our approach on a smaller dataset of Spanish-speaking Parkinson's
+disease patients, demonstrating that careful pretraining on large-scale
+task-specific datasets can maintain or even improve model accuracy under DP
+constraints. We also conducted a comprehensive fairness analysis, revealing
+that reasonable privacy levels (2<{\epsilon}<10) do not introduce significant
+gender bias, though age-related disparities may require further attention. Our
+results suggest that DP can effectively balance privacy and utility in speech
+disorder detection, but also highlight the unique challenges in the speech
+domain, particularly regarding the privacy-fairness trade-off. This provides a
+foundation for future work to refine DP methodologies and address fairness
+across diverse patient groups in real-world deployments.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2409.18907v1">In-depth Analysis of Privacy Threats in Federated Learning for Medical
   Data</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
@@ -2687,243 +2962,6 @@ locations, and hosting organizations. We further discuss the implications and
 risks associated with the lack of anonymity in the P2P network and propose
 methods to help validators protect their privacy. The Ethereum Foundation has
 awarded us a bug bounty, acknowledging the impact of our results.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.04257v1">Privacy risk from synthetic data: practical proposals</a></h3>
-  
-  <p><b>Published on:</b> 2024-09-06T13:10:40Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Gillian M Raab</p>
-    <p><b>Summary:</b> This paper proposes and compares measures of identity and attribute
-disclosure risk for synthetic data. Data custodians can use the methods
-proposed here to inform the decision as to whether to release synthetic
-versions of confidential data. Different measures are evaluated on two data
-sets. Insight into the measures is obtained by examining the details of the
-records identified as posing a disclosure risk. This leads to methods to
-identify, and possibly exclude, apparently risky records where the
-identification or attribution would be expected by someone with background
-knowledge of the data. The methods described are available as part of the
-\textbf{synthpop} package for \textbf{R}.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.04194v1">Towards Privacy-Preserving Relational Data Synthesis via Probabilistic
-  Relational Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-09-06T11:24:25Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Malte Luttermann, Ralf Möller, Mattis Hartwig</p>
-    <p><b>Summary:</b> Probabilistic relational models provide a well-established formalism to
-combine first-order logic and probabilistic models, thereby allowing to
-represent relationships between objects in a relational domain. At the same
-time, the field of artificial intelligence requires increasingly large amounts
-of relational training data for various machine learning tasks. Collecting
-real-world data, however, is often challenging due to privacy concerns, data
-protection regulations, high costs, and so on. To mitigate these challenges,
-the generation of synthetic data is a promising approach. In this paper, we
-solve the problem of generating synthetic relational data via probabilistic
-relational models. In particular, we propose a fully-fledged pipeline to go
-from relational database to probabilistic relational model, which can then be
-used to sample new synthetic relational data points from its underlying
-probability distribution. As part of our proposed pipeline, we introduce a
-learning algorithm to construct a probabilistic relational model from a given
-relational database.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.04173v1">NPU-NTU System for Voice Privacy 2024 Challenge</a></h3>
-  
-  <p><b>Published on:</b> 2024-09-06T10:32:42Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jixun Yao, Nikita Kuzmin, Qing Wang, Pengcheng Guo, Ziqian Ning, Dake Guo, Kong Aik Lee, Eng-Siong Chng, Lei Xie</p>
-    <p><b>Summary:</b> Speaker anonymization is an effective privacy protection solution that
-conceals the speaker's identity while preserving the linguistic content and
-paralinguistic information of the original speech. To establish a fair
-benchmark and facilitate comparison of speaker anonymization systems, the
-VoicePrivacy Challenge (VPC) was held in 2020 and 2022, with a new edition
-planned for 2024. In this paper, we describe our proposed speaker anonymization
-system for VPC 2024. Our system employs a disentangled neural codec
-architecture and a serial disentanglement strategy to gradually disentangle the
-global speaker identity and time-variant linguistic content and paralinguistic
-information. We introduce multiple distillation methods to disentangle
-linguistic content, speaker identity, and emotion. These methods include
-semantic distillation, supervised speaker distillation, and frame-level emotion
-distillation. Based on these distillations, we anonymize the original speaker
-identity using a weighted sum of a set of candidate speaker identities and a
-randomly generated speaker identity. Our system achieves the best trade-off of
-privacy protection and emotion preservation in VPC 2024.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.04167v1">Do Android App Developers Accurately Report Collection of
-  Privacy-Related Data?</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-09-06T10:05:45Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mugdha Khedkar, Ambuj Kumar Mondal, Eric Bodden</p>
-    <p><b>Summary:</b> Many Android applications collect data from users. The European Union's
-General Data Protection Regulation (GDPR) requires vendors to faithfully
-disclose which data their apps collect. This task is complicated because many
-apps use third-party code for which the same information is not readily
-available. Hence we ask: how accurately do current Android apps fulfill these
-requirements?
-  In this work, we first expose a multi-layered definition of privacy-related
-data to correctly report data collection in Android apps. We further create a
-dataset of privacy-sensitive data classes that may be used as input by an
-Android app. This dataset takes into account data collected both through the
-user interface and system APIs.
-  We manually examine the data safety sections of 70 Android apps to observe
-how data collection is reported, identifying instances of over- and
-under-reporting. Additionally, we develop a prototype to statically extract and
-label privacy-related data collected via app source code, user interfaces, and
-permissions. Comparing the prototype's results with the data safety sections of
-20 apps reveals reporting discrepancies. Using the results from two Messaging
-and Social Media apps (Signal and Instagram), we discuss how app developers
-under-report and over-report data collection, respectively, and identify
-inaccurately reported data categories.
-  Our results show that app developers struggle to accurately report data
-collection, either due to Google's abstract definition of collected data or
-insufficient existing tool support.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.04048v2">Exploring User Privacy Awareness on GitHub: An Empirical Study</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
-  <p><b>Published on:</b> 2024-09-06T06:41:46Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Costanza Alfieri, Juri Di Rocco, Paola Inverardi, Phuong T. Nguyen</p>
-    <p><b>Summary:</b> GitHub provides developers with a practical way to distribute source code and
-collaboratively work on common projects. To enhance account security and
-privacy, GitHub allows its users to manage access permissions, review audit
-logs, and enable two-factor authentication. However, despite the endless
-effort, the platform still faces various issues related to the privacy of its
-users. This paper presents an empirical study delving into the GitHub
-ecosystem. Our focus is on investigating the utilization of privacy settings on
-the platform and identifying various types of sensitive information disclosed
-by users. Leveraging a dataset comprising 6,132 developers, we report and
-analyze their activities by means of comments on pull requests. Our findings
-indicate an active engagement by users with the available privacy settings on
-GitHub. Notably, we observe the disclosure of different forms of private
-information within pull request comments. This observation has prompted our
-exploration into sensitivity detection using a large language model and BERT,
-to pave the way for a personalized privacy assistant. Our work provides
-insights into the utilization of existing privacy protection tools, such as
-privacy settings, along with their inherent limitations. Essentially, we aim to
-advance research in this field by providing both the motivation for creating
-such privacy protection tools and a proposed methodology for personalizing
-them.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.04026v1">Efficient Fault-Tolerant Quantum Protocol for Differential Privacy in
-  the Shuffle Model</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-09-06T04:53:19Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Hassan Jameel Asghar, Arghya Mukherjee, Gavin K. Brennen</p>
-    <p><b>Summary:</b> We present a quantum protocol which securely and implicitly implements a
-random shuffle to realize differential privacy in the shuffle model. The
-shuffle model of differential privacy amplifies privacy achievable via local
-differential privacy by randomly permuting the tuple of outcomes from data
-contributors. In practice, one needs to address how this shuffle is
-implemented. Examples include implementing the shuffle via mix-networks, or
-shuffling via a trusted third-party. These implementation specific issues raise
-non-trivial computational and trust requirements in a classical system. We
-propose a quantum version of the protocol using entanglement of quantum states
-and show that the shuffle can be implemented without these extra requirements.
-Our protocol implements k-ary randomized response, for any value of k > 2, and
-furthermore, can be efficiently implemented using fault-tolerant computation.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.03707v1">A Different Level Text Protection Mechanism With Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2024-09-05T17:13:38Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Qingwen Fu</p>
-    <p><b>Summary:</b> The article introduces a method for extracting words of different degrees of
-importance based on the BERT pre-training model and proves the effectiveness of
-this method. The article also discusses the impact of maintaining the same
-perturbation results for words of different importance on the overall text
-utility. This method can be applied to long text protection.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.03655v1">Privacy versus Emotion Preservation Trade-offs in Emotion-Preserving
-  Speaker Anonymization</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-09-05T16:10:31Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zexin Cai, Henry Li Xinyuan, Ashi Garg, Leibny Paola García-Perera, Kevin Duh, Sanjeev Khudanpur, Nicholas Andrews, Matthew Wiesner</p>
-    <p><b>Summary:</b> Advances in speech technology now allow unprecedented access to personally
-identifiable information through speech. To protect such information, the
-differential privacy field has explored ways to anonymize speech while
-preserving its utility, including linguistic and paralinguistic aspects.
-However, anonymizing speech while maintaining emotional state remains
-challenging. We explore this problem in the context of the VoicePrivacy 2024
-challenge. Specifically, we developed various speaker anonymization pipelines
-and find that approaches either excel at anonymization or preserving emotion
-state, but not both simultaneously. Achieving both would require an in-domain
-emotion recognizer. Additionally, we found that it is feasible to train a
-semi-effective speaker verification system using only emotion representations,
-demonstrating the challenge of separating these two modalities.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.03568v1">Enabling Practical and Privacy-Preserving Image Processing</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
-  <p><b>Published on:</b> 2024-09-05T14:22:02Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Chao Wang, Shubing Yang, Xiaoyan Sun, Jun Dai, Dongfang Zhao</p>
-    <p><b>Summary:</b> Fully Homomorphic Encryption (FHE) enables computations on encrypted data,
-preserving confidentiality without the need for decryption. However, FHE is
-often hindered by significant performance overhead, particularly for
-high-precision and complex data like images. Due to serious efficiency issues,
-traditional FHE methods often encrypt images by monolithic data blocks (such as
-pixel rows), instead of pixels. However, this strategy compromises the
-advantages of homomorphic operations and disables pixel-level image processing.
-In this study, we address these challenges by proposing and implementing a
-pixel-level homomorphic encryption approach, iCHEETAH, based on the CKKS
-scheme. To enhance computational efficiency, we introduce three novel caching
-mechanisms to pre-encrypt radix values or frequently occurring pixel values,
-substantially reducing redundant encryption operations. Extensive experiments
-demonstrate that our approach achieves up to a 19-fold improvement in
-encryption speed compared to the original CKKS, while maintaining high image
-quality. Additionally, real-world image applications such as mean filtering,
-brightness enhancement, image matching and watermarking are tested based on
-FHE, showcasing up to a 91.53% speed improvement. We also proved that our
-method is IND-CPA (Indistinguishability under Chosen Plaintext Attack) secure,
-providing strong encryption security. These results underscore the practicality
-and efficiency of iCHEETAH, marking a significant advancement in
-privacy-preserving image processing at scale.</p>
   </details>
 </div>
 
