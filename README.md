@@ -1087,7 +1087,7 @@ inference attacks while maintaining utility for Parkinson's detection.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.15868v2">Privacy Evaluation Benchmarks for NLP Models</a></h3>
+  <h3><a href="http://arxiv.org/abs/2409.15868v3">Privacy Evaluation Benchmarks for NLP Models</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2024-09-24T08:41:26Z</p>
   <details>
@@ -2223,7 +2223,7 @@ respectable 47%.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.08636v1">Utilizing Data Fingerprints for Privacy-Preserving Algorithm Selection
+  <h3><a href="http://arxiv.org/abs/2409.08636v2">Utilizing Data Fingerprints for Privacy-Preserving Algorithm Selection
   in Time Series Classification: Performance and Uncertainty Estimation on
   Unseen Datasets</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
