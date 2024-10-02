@@ -3902,5 +3902,49 @@
       "cs.SD",
       "eess.AS"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.15868v3",
+    "title" : "Privacy Evaluation Benchmarks for NLP Models",
+    "summary" : "By inducing privacy attacks on NLP models, attackers can obtain sensitive\ninformation such as training data and model parameters, etc. Although\nresearchers have studied, in-depth, several kinds of attacks in NLP models,\nthey are non-systematic analyses. It lacks a comprehensive understanding of the\nimpact caused by the attacks. For example, we must consider which scenarios can\napply to which attacks, what the common factors are that affect the performance\nof different attacks, the nature of the relationships between different\nattacks, and the influence of various datasets and models on the effectiveness\nof the attacks, etc. Therefore, we need a benchmark to holistically assess the\nprivacy risks faced by NLP models. In this paper, we present a privacy attack\nand defense evaluation benchmark in the field of NLP, which includes the\nconventional/small models and large language models (LLMs). This benchmark\nsupports a variety of models, datasets, and protocols, along with standardized\nmodules for comprehensive evaluation of attacks and defense strategies. Based\non the above framework, we present a study on the association between auxiliary\ndata from different domains and the strength of privacy attacks. And we provide\nan improved attack method in this scenario with the help of Knowledge\nDistillation (KD). Furthermore, we propose a chained framework for privacy\nattacks. Allowing a practitioner to chain multiple attacks to achieve a\nhigher-level attack objective. Based on this, we provide some defense and\nenhanced attack strategies. The code for reproducing the results can be found\nat https://github.com/user2311717757/nlp_doctor.",
+    "updated" : "2024-10-01T03:12:35Z",
+    "published" : "2024-09-24T08:41:26Z",
+    "authors" : [
+      {
+        "name" : "Wei Huang"
+      },
+      {
+        "name" : "Yinggui Wang"
+      },
+      {
+        "name" : "Cen Chen"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.08636v2",
+    "title" : "Utilizing Data Fingerprints for Privacy-Preserving Algorithm Selection\n  in Time Series Classification: Performance and Uncertainty Estimation on\n  Unseen Datasets",
+    "summary" : "The selection of algorithms is a crucial step in designing AI services for\nreal-world time series classification use cases. Traditional methods such as\nneural architecture search, automated machine learning, combined algorithm\nselection, and hyperparameter optimizations are effective but require\nconsiderable computational resources and necessitate access to all data points\nto run their optimizations. In this work, we introduce a novel data fingerprint\nthat describes any time series classification dataset in a privacy-preserving\nmanner and provides insight into the algorithm selection problem without\nrequiring training on the (unseen) dataset. By decomposing the multi-target\nregression problem, only our data fingerprints are used to estimate algorithm\nperformance and uncertainty in a scalable and adaptable manner. Our approach is\nevaluated on the 112 University of California riverside benchmark datasets,\ndemonstrating its effectiveness in predicting the performance of 35\nstate-of-the-art algorithms and providing valuable insights for effective\nalgorithm selection in time series classification service systems, improving a\nnaive baseline by 7.32% on average in estimating the mean performance and\n15.81% in estimating the uncertainty.",
+    "updated" : "2024-09-30T21:14:27Z",
+    "published" : "2024-09-13T08:43:42Z",
+    "authors" : [
+      {
+        "name" : "Lars Böcking"
+      },
+      {
+        "name" : "Leopold Müller"
+      },
+      {
+        "name" : "Niklas Kühl"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
   }
 ]
