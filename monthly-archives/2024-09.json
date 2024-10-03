@@ -3946,5 +3946,33 @@
       "cs.LG",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.00069v1",
+    "title" : "An interdisciplinary exploration of trade-offs between energy, privacy\n  and accuracy aspects of data",
+    "summary" : "The digital era has raised many societal challenges, including ICT's rising\nenergy consumption and protecting privacy of personal data processing. This\npaper considers both aspects in relation to machine learning accuracy in an\ninterdisciplinary exploration. We first present a method to measure the effects\nof privacy-enhancing techniques on data utility and energy consumption. The\nenvironmental-privacy-accuracy trade-offs are discovered through an\nexperimental set-up. We subsequently take a storytelling approach to translate\nthese technical findings to experts in non-ICT fields. We draft two examples\nfor a governmental and auditing setting to contextualise our results.\nUltimately, users face the task of optimising their data processing operations\nin a trade-off between energy, privacy, and accuracy considerations where the\nimpact of their decisions is context-sensitive.",
+    "updated" : "2024-09-30T10:01:14Z",
+    "published" : "2024-09-30T10:01:14Z",
+    "authors" : [
+      {
+        "name" : "Pepijn de Reus"
+      },
+      {
+        "name" : "Kyra Dresen"
+      },
+      {
+        "name" : "Ana Oprescu"
+      },
+      {
+        "name" : "Kristina Irion"
+      },
+      {
+        "name" : "Ans Kolk"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
   }
 ]
