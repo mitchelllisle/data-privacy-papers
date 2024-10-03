@@ -1,5 +1,211 @@
 
+<h2>2024-10</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.01068v1">Convergent Privacy Loss of Noisy-SGD without Convexity and Smoothness</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-10-01T20:52:08Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Eli Chien, Pan Li</p>
+    <p><b>Summary:</b> We study the Differential Privacy (DP) guarantee of hidden-state Noisy-SGD
+algorithms over a bounded domain. Standard privacy analysis for Noisy-SGD
+assumes all internal states are revealed, which leads to a divergent R'enyi DP
+bound with respect to the number of iterations. Ye & Shokri (2022) and
+Altschuler & Talwar (2022) proved convergent bounds for smooth (strongly)
+convex losses, and raise open questions about whether these assumptions can be
+relaxed. We provide positive answers by proving convergent R'enyi DP bound for
+non-convex non-smooth losses, where we show that requiring losses to have
+H\"older continuous gradient is sufficient. We also provide a strictly better
+privacy bound compared to state-of-the-art results for smooth strongly convex
+losses. Our analysis relies on the improvement of shifted divergence analysis
+in multiple aspects, including forward Wasserstein distance tracking,
+identifying the optimal shifts allocation, and the H"older reduction lemma. Our
+results further elucidate the benefit of hidden-state analysis for DP and its
+applicability.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.00897v1">The Gradient of Health Data Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> 
+  <p><b>Published on:</b> 2024-10-01T17:35:18Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Baihan Lin</p>
+    <p><b>Summary:</b> In the era of digital health and artificial intelligence, the management of
+patient data privacy has become increasingly complex, with significant
+implications for global health equity and patient trust. This paper introduces
+a novel "privacy gradient" approach to health data governance, offering a more
+nuanced and adaptive framework than traditional binary privacy models. Our
+multidimensional concept considers factors such as data sensitivity,
+stakeholder relationships, purpose of use, and temporal aspects, allowing for
+context-sensitive privacy protections. Through policy analyses, ethical
+considerations, and case studies spanning adolescent health, integrated care,
+and genomic research, we demonstrate how this approach can address critical
+privacy challenges in diverse healthcare settings worldwide. The privacy
+gradient model has the potential to enhance patient engagement, improve care
+coordination, and accelerate medical research while safeguarding individual
+privacy rights. We provide policy recommendations for implementing this
+approach, considering its impact on healthcare systems, research
+infrastructures, and global health initiatives. This work aims to inform
+policymakers, healthcare leaders, and digital health innovators, contributing
+to a more equitable, trustworthy, and effective global health data ecosystem in
+the digital age.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.00836v1">Towards Fairness and Privacy: A Novel Data Pre-processing Optimization
+  Framework for Non-binary Protected Attributes</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2024-10-01T16:17:43Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Manh Khoi Duong, Stefan Conrad</p>
+    <p><b>Summary:</b> The reason behind the unfair outcomes of AI is often rooted in biased
+datasets. Therefore, this work presents a framework for addressing fairness by
+debiasing datasets containing a (non-)binary protected attribute. The framework
+proposes a combinatorial optimization problem where heuristics such as genetic
+algorithms can be used to solve for the stated fairness objectives. The
+framework addresses this by finding a data subset that minimizes a certain
+discrimination measure. Depending on a user-defined setting, the framework
+enables different use cases, such as data removal, the addition of synthetic
+data, or exclusive use of synthetic data. The exclusive use of synthetic data
+in particular enhances the framework's ability to preserve privacy while
+optimizing for fairness. In a comprehensive evaluation, we demonstrate that
+under our framework, genetic algorithms can effectively yield fairer datasets
+compared to the original data. In contrast to prior work, the framework
+exhibits a high degree of flexibility as it is metric- and task-agnostic, can
+be applied to both binary or non-binary protected attributes, and demonstrates
+efficient runtime.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.00751v1">Thinking Outside of the Differential Privacy Box: A Case Study in Text
+  Privatization with Language Model Prompting</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2024-10-01T14:46:15Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Stephen Meisenbacher, Florian Matthes</p>
+    <p><b>Summary:</b> The field of privacy-preserving Natural Language Processing has risen in
+popularity, particularly at a time when concerns about privacy grow with the
+proliferation of Large Language Models. One solution consistently appearing in
+recent literature has been the integration of Differential Privacy (DP) into
+NLP techniques. In this paper, we take these approaches into critical view,
+discussing the restrictions that DP integration imposes, as well as bring to
+light the challenges that such restrictions entail. To accomplish this, we
+focus on $\textbf{DP-Prompt}$, a recent method for text privatization
+leveraging language models to rewrite texts. In particular, we explore this
+rewriting task in multiple scenarios, both with DP and without DP. To drive the
+discussion on the merits of DP in NLP, we conduct empirical utility and privacy
+experiments. Our results demonstrate the need for more discussion on the
+usability of DP in NLP and its benefits over non-DP approaches.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.00542v1">Differentially Private Active Learning: Balancing Effective Data
+  Selection and Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-10-01T09:34:06Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Kristian Schwethelm, Johannes Kaiser, Jonas Kuntzer, Mehmet Yigitsoy, Daniel Rueckert, Georgios Kaissis</p>
+    <p><b>Summary:</b> Active learning (AL) is a widely used technique for optimizing data labeling
+in machine learning by iteratively selecting, labeling, and training on the
+most informative data. However, its integration with formal privacy-preserving
+methods, particularly differential privacy (DP), remains largely underexplored.
+While some works have explored differentially private AL for specialized
+scenarios like online learning, the fundamental challenge of combining AL with
+DP in standard learning settings has remained unaddressed, severely limiting
+AL's applicability in privacy-sensitive domains. This work addresses this gap
+by introducing differentially private active learning (DP-AL) for standard
+learning settings. We demonstrate that naively integrating DP-SGD training into
+AL presents substantial challenges in privacy budget allocation and data
+utilization. To overcome these challenges, we propose step amplification, which
+leverages individual sampling probabilities in batch creation to maximize data
+point participation in training steps, thus optimizing data utilization.
+Additionally, we investigate the effectiveness of various acquisition functions
+for data selection under privacy constraints, revealing that many commonly used
+functions become impractical. Our experiments on vision and natural language
+processing tasks show that DP-AL can improve performance for specific datasets
+and model architectures. However, our findings also highlight the limitations
+of AL in privacy-constrained environments, emphasizing the trade-offs between
+privacy, model accuracy, and data selection accuracy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.00433v1">PrivTuner with Homomorphic Encryption and LoRA: A P3EFT Scheme for
+  Privacy-Preserving Parameter-Efficient Fine-Tuning of AI Foundation Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-10-01T06:30:06Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yang Li, Wenhan Yu, Jun Zhao</p>
+    <p><b>Summary:</b> AI foundation models have recently demonstrated impressive capabilities
+across a wide range of tasks. Fine-tuning (FT) is a method of customizing a
+pre-trained AI foundation model by further training it on a smaller, targeted
+dataset. In this paper, we initiate the study of the Privacy-Preserving
+Parameter-Efficient FT (P3EFT) framework, which can be viewed as the
+intersection of Parameter-Efficient FT (PEFT) and Privacy-Preserving FT (PPFT).
+PEFT modifies only a small subset of the model's parameters to achieve FT
+(i.e., adapting a pre-trained model to a specific dataset), while PPFT uses
+privacy-preserving technologies to protect the confidentiality of the model
+during the FT process. There have been many studies on PEFT or PPFT but very
+few on their fusion, which motivates our work on P3EFT to achieve both
+parameter efficiency and model privacy. To exemplify our P3EFT, we present the
+PrivTuner scheme, which incorporates Fully Homomorphic Encryption (FHE) enabled
+privacy protection into LoRA (short for ``Low-Rank Adapter''). Intuitively
+speaking, PrivTuner allows the model owner and the external data owners to
+collaboratively implement PEFT with encrypted data. After describing PrivTuner
+in detail, we further investigate its energy consumption and privacy
+protection. Then, we consider a PrivTuner system over wireless communications
+and formulate a joint optimization problem to adaptively minimize energy while
+maximizing privacy protection, with the optimization variables including FDMA
+bandwidth allocation, wireless transmission power, computational resource
+allocation, and privacy protection. A resource allocation algorithm is devised
+to solve the problem. Experiments demonstrate that our algorithm can
+significantly reduce energy consumption while adapting to different privacy
+requirements.</p>
+  </details>
+</div>
+
+
+
 <h2>2024-09</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.00069v1">An interdisciplinary exploration of trade-offs between energy, privacy
+  and accuracy aspects of data</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-09-30T10:01:14Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Pepijn de Reus, Kyra Dresen, Ana Oprescu, Kristina Irion, Ans Kolk</p>
+    <p><b>Summary:</b> The digital era has raised many societal challenges, including ICT's rising
+energy consumption and protecting privacy of personal data processing. This
+paper considers both aspects in relation to machine learning accuracy in an
+interdisciplinary exploration. We first present a method to measure the effects
+of privacy-enhancing techniques on data utility and energy consumption. The
+environmental-privacy-accuracy trade-offs are discovered through an
+experimental set-up. We subsequently take a storytelling approach to translate
+these technical findings to experts in non-ICT fields. We draft two examples
+for a governmental and auditing setting to contextualise our results.
+Ultimately, users face the task of optimising their data processing operations
+in a trade-off between energy, privacy, and accuracy considerations where the
+impact of their decisions is context-sensitive.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2409.19988v1">Enhancing Security Using Random Binary Weights in Privacy-Preserving
@@ -2753,215 +2959,6 @@ control, and customization features, and they become significantly more willing
 to install an IoT advertising and tracking blocker, after using VBIT. In the
 process, we obtain design insights that can be used to further iterate and
 improve the design of VBIT and other systems for IoT transparency and control.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.06069v1">Privacy-Preserving Data Linkage Across Private and Public Datasets for
-  Collaborative Agriculture Research</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2024-09-09T21:07:13Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Osama Zafar, Rosemarie Santa Gonzalez, Gabriel Wilkins, Alfonso Morales, Erman Ayday</p>
-    <p><b>Summary:</b> Digital agriculture leverages technology to enhance crop yield, disease
-resilience, and soil health, playing a critical role in agricultural research.
-However, it raises privacy concerns such as adverse pricing, price
-discrimination, higher insurance costs, and manipulation of resources,
-deterring farm operators from sharing data due to potential misuse. This study
-introduces a privacy-preserving framework that addresses these risks while
-allowing secure data sharing for digital agriculture. Our framework enables
-comprehensive data analysis while protecting privacy. It allows stakeholders to
-harness research-driven policies that link public and private datasets. The
-proposed algorithm achieves this by: (1) identifying similar farmers based on
-private datasets, (2) providing aggregate information like time and location,
-(3) determining trends in price and product availability, and (4) correlating
-trends with public policy data, such as food insecurity statistics. We validate
-the framework with real-world Farmer's Market datasets, demonstrating its
-efficacy through machine learning models trained on linked privacy-preserved
-data. The results support policymakers and researchers in addressing food
-insecurity and pricing issues. This work significantly contributes to digital
-agriculture by providing a secure method for integrating and analyzing data,
-driving advancements in agricultural technology and development.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.05623v1">A Framework for Differential Privacy Against Timing Attacks</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-09-09T13:56:04Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zachary Ratliff, Salil Vadhan</p>
-    <p><b>Summary:</b> The standard definition of differential privacy (DP) ensures that a
-mechanism's output distribution on adjacent datasets is indistinguishable.
-However, real-world implementations of DP can, and often do, reveal information
-through their runtime distributions, making them susceptible to timing attacks.
-In this work, we establish a general framework for ensuring differential
-privacy in the presence of timing side channels. We define a new notion of
-timing privacy, which captures programs that remain differentially private to
-an adversary that observes the program's runtime in addition to the output. Our
-framework enables chaining together component programs that are timing-stable
-followed by a random delay to obtain DP programs that achieve timing privacy.
-Importantly, our definitions allow for measuring timing privacy and output
-privacy using different privacy measures. We illustrate how to instantiate our
-framework by giving programs for standard DP computations in the RAM and Word
-RAM models of computation. Furthermore, we show how our framework can be
-realized in code through a natural extension of the OpenDP Programming
-Framework.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.05249v1">NetDPSyn: Synthesizing Network Traces under Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
-  <p><b>Published on:</b> 2024-09-08T23:54:00Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Danyu Sun, Joann Qiongna Chen, Chen Gong, Tianhao Wang, Zhou Li</p>
-    <p><b>Summary:</b> As the utilization of network traces for the network measurement research
-becomes increasingly prevalent, concerns regarding privacy leakage from network
-traces have garnered the public's attention. To safeguard network traces,
-researchers have proposed the trace synthesis that retains the essential
-properties of the raw data. However, previous works also show that synthesis
-traces with generative models are vulnerable under linkage attacks.
-  This paper introduces NetDPSyn, the first system to synthesize high-fidelity
-network traces under privacy guarantees. NetDPSyn is built with the
-Differential Privacy (DP) framework as its core, which is significantly
-different from prior works that apply DP when training the generative model.
-The experiments conducted on three flow and two packet datasets indicate that
-NetDPSyn achieves much better data utility in downstream tasks like anomaly
-detection. NetDPSyn is also 2.5 times faster than the other methods on average
-in data synthesis.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.04877v1">Strong Privacy-Preserving Universally Composable AKA Protocol with
-  Seamless Handover Support for Mobile Virtual Network Operator</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-09-07T18:04:54Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Rabiah Alnashwan, Yang Yang, Yilu Dong, Prosanta Gope, Behzad Abdolmaleki, Syed Rafiul Hussain</p>
-    <p><b>Summary:</b> Consumers seeking a new mobile plan have many choices in the present mobile
-landscape. The Mobile Virtual Network Operator (MVNO) has recently gained
-considerable attention among these options. MVNOs offer various benefits,
-making them an appealing choice for a majority of consumers. These advantages
-encompass flexibility, access to cutting-edge technologies, enhanced coverage,
-superior customer service, and substantial cost savings. Even though MVNO
-offers several advantages, it also creates some security and privacy concerns
-for the customer simultaneously. For instance, in the existing solution, MVNO
-needs to hand over all the sensitive details, including the users' identities
-and master secret keys of their customers, to a mobile operator (MNO) to
-validate the customers while offering any services. This allows MNOs to have
-unrestricted access to the MVNO subscribers' location and mobile data,
-including voice calls, SMS, and Internet, which the MNOs frequently sell to
-third parties (e.g., advertisement companies and surveillance agencies) for
-more profit. Although critical for mass users, such privacy loss has been
-historically ignored due to the lack of practical and privacy-preserving
-solutions for registration and handover procedures in cellular networks. In
-this paper, we propose a universally composable authentication and handover
-scheme with strong user privacy support, where each MVNO user can validate a
-mobile operator (MNO) and vice-versa without compromising user anonymity and
-unlinkability support. Here, we anticipate that our proposed solution will most
-likely be deployed by the MVNO(s) to ensure enhanced privacy support to their
-customer(s).</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.04716v1">Privacy enhanced collaborative inference in the Cox proportional hazards
-  model for distributed data</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36"> 
-  <p><b>Published on:</b> 2024-09-07T05:32:34Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mengtong Hu, Xu Shi, Peter X. -K. Song</p>
-    <p><b>Summary:</b> Data sharing barriers are paramount challenges arising from multicenter
-clinical studies where multiple data sources are stored in a distributed
-fashion at different local study sites. Particularly in the case of
-time-to-event analysis when global risk sets are needed for the Cox
-proportional hazards model, access to a centralized database is typically
-necessary. Merging such data sources into a common data storage for a
-centralized statistical analysis requires a data use agreement, which is often
-time-consuming. Furthermore, the construction and distribution of risk sets to
-participating clinical centers for subsequent calculations may pose a risk of
-revealing individual-level information. We propose a new collaborative Cox
-model that eliminates the need for accessing the centralized database and
-constructing global risk sets but needs only the sharing of summary statistics
-with significantly smaller dimensions than risk sets. Thus, the proposed
-collaborative inference enjoys maximal protection of data privacy. We show
-theoretically and numerically that the new distributed proportional hazards
-model approach has little loss of statistical power when compared to the
-centralized method that requires merging the entire data. We present a
-renewable sieve method to establish large-sample properties for the proposed
-method. We illustrate its performance through simulation experiments and a
-real-world data example from patients with kidney transplantation in the Organ
-Procurement and Transplantation Network (OPTN) to understand the factors
-associated with the 5-year death-censored graft failure (DCGF) for patients who
-underwent kidney transplants in the US.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.04652v2">Privacy-Preserving Race/Ethnicity Estimation for Algorithmic Bias
-  Measurement in the U.S</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-09-06T23:29:18Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Saikrishna Badrinarayanan, Osonde Osoba, Miao Cheng, Ryan Rogers, Sakshi Jain, Rahul Tandra, Natesh S. Pillai</p>
-    <p><b>Summary:</b> AI fairness measurements, including tests for equal treatment, often take the
-form of disaggregated evaluations of AI systems. Such measurements are an
-important part of Responsible AI operations. These measurements compare system
-performance across demographic groups or sub-populations and typically require
-member-level demographic signals such as gender, race, ethnicity, and location.
-However, sensitive member-level demographic attributes like race and ethnicity
-can be challenging to obtain and use due to platform choices, legal
-constraints, and cultural norms. In this paper, we focus on the task of
-enabling AI fairness measurements on race/ethnicity for \emph{U.S. LinkedIn
-members} in a privacy-preserving manner. We present the Privacy-Preserving
-Probabilistic Race/Ethnicity Estimation (PPRE) method for performing this task.
-PPRE combines the Bayesian Improved Surname Geocoding (BISG) model, a sparse
-LinkedIn survey sample of self-reported demographics, and privacy-enhancing
-technologies like secure two-party computation and differential privacy to
-enable meaningful fairness measurements while preserving member privacy. We
-provide details of the PPRE method and its privacy guarantees. We then
-illustrate sample measurement operations. We conclude with a review of open
-research and engineering challenges for expanding our privacy-preserving
-fairness measurement capabilities.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.04366v1">Deanonymizing Ethereum Validators: The P2P Network Has a Privacy Issue</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-09-06T15:57:43Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Lioba Heimbach, Yann Vonlanthen, Juan Villacis, Lucianna Kiffer, Roger Wattenhofer</p>
-    <p><b>Summary:</b> Many blockchain networks aim to preserve the anonymity of validators in the
-peer-to-peer (P2P) network, ensuring that no adversary can link a validator's
-identifier to the IP address of a peer due to associated privacy and security
-concerns. This work demonstrates that the Ethereum P2P network does not offer
-this anonymity. We present a methodology that enables any node in the network
-to identify validators hosted on connected peers and empirically verify the
-feasibility of our proposed method. Using data collected from four nodes over
-three days, we locate more than 15% of Ethereum validators in the P2P network.
-The insights gained from our deanonymization technique provide valuable
-information on the distribution of validators across peers, their geographic
-locations, and hosting organizations. We further discuss the implications and
-risks associated with the lack of anonymity in the P2P network and propose
-methods to help validators protect their privacy. The Ethereum Foundation has
-awarded us a bug bounty, acknowledging the impact of our results.</p>
   </details>
 </div>
 
