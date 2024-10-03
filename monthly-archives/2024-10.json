@@ -1,1 +1,128 @@
-[{"id":"http://arxiv.org/abs/2410.01068v1","title":"Convergent Privacy Loss of Noisy-SGD without Convexity and Smoothness","summary":"We study the Differential Privacy (DP) guarantee of hidden-state Noisy-SGD\nalgorithms over a bounded domain. Standard privacy analysis for Noisy-SGD\nassumes all internal states are revealed, which leads to a divergent R'enyi DP\nbound with respect to the number of iterations. Ye & Shokri (2022) and\nAltschuler & Talwar (2022) proved convergent bounds for smooth (strongly)\nconvex losses, and raise open questions about whether these assumptions can be\nrelaxed. We provide positive answers by proving convergent R'enyi DP bound for\nnon-convex non-smooth losses, where we show that requiring losses to have\nH\\\"older continuous gradient is sufficient. We also provide a strictly better\nprivacy bound compared to state-of-the-art results for smooth strongly convex\nlosses. Our analysis relies on the improvement of shifted divergence analysis\nin multiple aspects, including forward Wasserstein distance tracking,\nidentifying the optimal shifts allocation, and the H\"older reduction lemma. Our\nresults further elucidate the benefit of hidden-state analysis for DP and its\napplicability.","updated":"2024-10-01T20:52:08Z","published":"2024-10-01T20:52:08Z","authors":[{"name":"Eli Chien"},{"name":"Pan Li"}],"categories":["cs.LG","cs.CR"]},{"id":"http://arxiv.org/abs/2410.00897v1","title":"The Gradient of Health Data Privacy","summary":"In the era of digital health and artificial intelligence, the management of\npatient data privacy has become increasingly complex, with significant\nimplications for global health equity and patient trust. This paper introduces\na novel \"privacy gradient\" approach to health data governance, offering a more\nnuanced and adaptive framework than traditional binary privacy models. Our\nmultidimensional concept considers factors such as data sensitivity,\nstakeholder relationships, purpose of use, and temporal aspects, allowing for\ncontext-sensitive privacy protections. Through policy analyses, ethical\nconsiderations, and case studies spanning adolescent health, integrated care,\nand genomic research, we demonstrate how this approach can address critical\nprivacy challenges in diverse healthcare settings worldwide. The privacy\ngradient model has the potential to enhance patient engagement, improve care\ncoordination, and accelerate medical research while safeguarding individual\nprivacy rights. We provide policy recommendations for implementing this\napproach, considering its impact on healthcare systems, research\ninfrastructures, and global health initiatives. This work aims to inform\npolicymakers, healthcare leaders, and digital health innovators, contributing\nto a more equitable, trustworthy, and effective global health data ecosystem in\nthe digital age.","updated":"2024-10-01T17:35:18Z","published":"2024-10-01T17:35:18Z","authors":[{"name":"Baihan Lin"}],"categories":["cs.CY","cs.AI","cs.HC","q-bio.OT"]},{"id":"http://arxiv.org/abs/2410.00836v1","title":"Towards Fairness and Privacy: A Novel Data Pre-processing Optimization\n  Framework for Non-binary Protected Attributes","summary":"The reason behind the unfair outcomes of AI is often rooted in biased\ndatasets. Therefore, this work presents a framework for addressing fairness by\ndebiasing datasets containing a (non-)binary protected attribute. The framework\nproposes a combinatorial optimization problem where heuristics such as genetic\nalgorithms can be used to solve for the stated fairness objectives. The\nframework addresses this by finding a data subset that minimizes a certain\ndiscrimination measure. Depending on a user-defined setting, the framework\nenables different use cases, such as data removal, the addition of synthetic\ndata, or exclusive use of synthetic data. The exclusive use of synthetic data\nin particular enhances the framework's ability to preserve privacy while\noptimizing for fairness. In a comprehensive evaluation, we demonstrate that\nunder our framework, genetic algorithms can effectively yield fairer datasets\ncompared to the original data. In contrast to prior work, the framework\nexhibits a high degree of flexibility as it is metric- and task-agnostic, can\nbe applied to both binary or non-binary protected attributes, and demonstrates\nefficient runtime.","updated":"2024-10-01T16:17:43Z","published":"2024-10-01T16:17:43Z","authors":[{"name":"Manh Khoi Duong"},{"name":"Stefan Conrad"}],"categories":["cs.LG","cs.CY"]},{"id":"http://arxiv.org/abs/2410.00751v1","title":"Thinking Outside of the Differential Privacy Box: A Case Study in Text\n  Privatization with Language Model Prompting","summary":"The field of privacy-preserving Natural Language Processing has risen in\npopularity, particularly at a time when concerns about privacy grow with the\nproliferation of Large Language Models. One solution consistently appearing in\nrecent literature has been the integration of Differential Privacy (DP) into\nNLP techniques. In this paper, we take these approaches into critical view,\ndiscussing the restrictions that DP integration imposes, as well as bring to\nlight the challenges that such restrictions entail. To accomplish this, we\nfocus on $\\textbf{DP-Prompt}$, a recent method for text privatization\nleveraging language models to rewrite texts. In particular, we explore this\nrewriting task in multiple scenarios, both with DP and without DP. To drive the\ndiscussion on the merits of DP in NLP, we conduct empirical utility and privacy\nexperiments. Our results demonstrate the need for more discussion on the\nusability of DP in NLP and its benefits over non-DP approaches.","updated":"2024-10-01T14:46:15Z","published":"2024-10-01T14:46:15Z","authors":[{"name":"Stephen Meisenbacher"},{"name":"Florian Matthes"}],"categories":["cs.CL"]},{"id":"http://arxiv.org/abs/2410.00542v1","title":"Differentially Private Active Learning: Balancing Effective Data\n  Selection and Privacy","summary":"Active learning (AL) is a widely used technique for optimizing data labeling\nin machine learning by iteratively selecting, labeling, and training on the\nmost informative data. However, its integration with formal privacy-preserving\nmethods, particularly differential privacy (DP), remains largely underexplored.\nWhile some works have explored differentially private AL for specialized\nscenarios like online learning, the fundamental challenge of combining AL with\nDP in standard learning settings has remained unaddressed, severely limiting\nAL's applicability in privacy-sensitive domains. This work addresses this gap\nby introducing differentially private active learning (DP-AL) for standard\nlearning settings. We demonstrate that naively integrating DP-SGD training into\nAL presents substantial challenges in privacy budget allocation and data\nutilization. To overcome these challenges, we propose step amplification, which\nleverages individual sampling probabilities in batch creation to maximize data\npoint participation in training steps, thus optimizing data utilization.\nAdditionally, we investigate the effectiveness of various acquisition functions\nfor data selection under privacy constraints, revealing that many commonly used\nfunctions become impractical. Our experiments on vision and natural language\nprocessing tasks show that DP-AL can improve performance for specific datasets\nand model architectures. However, our findings also highlight the limitations\nof AL in privacy-constrained environments, emphasizing the trade-offs between\nprivacy, model accuracy, and data selection accuracy.","updated":"2024-10-01T09:34:06Z","published":"2024-10-01T09:34:06Z","authors":[{"name":"Kristian Schwethelm"},{"name":"Johannes Kaiser"},{"name":"Jonas Kuntzer"},{"name":"Mehmet Yigitsoy"},{"name":"Daniel Rueckert"},{"name":"Georgios Kaissis"}],"categories":["cs.LG","cs.CR"]},{"id":"http://arxiv.org/abs/2410.00433v1","title":"PrivTuner with Homomorphic Encryption and LoRA: A P3EFT Scheme for\n  Privacy-Preserving Parameter-Efficient Fine-Tuning of AI Foundation Models","summary":"AI foundation models have recently demonstrated impressive capabilities\nacross a wide range of tasks. Fine-tuning (FT) is a method of customizing a\npre-trained AI foundation model by further training it on a smaller, targeted\ndataset. In this paper, we initiate the study of the Privacy-Preserving\nParameter-Efficient FT (P3EFT) framework, which can be viewed as the\nintersection of Parameter-Efficient FT (PEFT) and Privacy-Preserving FT (PPFT).\nPEFT modifies only a small subset of the model's parameters to achieve FT\n(i.e., adapting a pre-trained model to a specific dataset), while PPFT uses\nprivacy-preserving technologies to protect the confidentiality of the model\nduring the FT process. There have been many studies on PEFT or PPFT but very\nfew on their fusion, which motivates our work on P3EFT to achieve both\nparameter efficiency and model privacy. To exemplify our P3EFT, we present the\nPrivTuner scheme, which incorporates Fully Homomorphic Encryption (FHE) enabled\nprivacy protection into LoRA (short for ``Low-Rank Adapter''). Intuitively\nspeaking, PrivTuner allows the model owner and the external data owners to\ncollaboratively implement PEFT with encrypted data. After describing PrivTuner\nin detail, we further investigate its energy consumption and privacy\nprotection. Then, we consider a PrivTuner system over wireless communications\nand formulate a joint optimization problem to adaptively minimize energy while\nmaximizing privacy protection, with the optimization variables including FDMA\nbandwidth allocation, wireless transmission power, computational resource\nallocation, and privacy protection. A resource allocation algorithm is devised\nto solve the problem. Experiments demonstrate that our algorithm can\nsignificantly reduce energy consumption while adapting to different privacy\nrequirements.","updated":"2024-10-01T06:30:06Z","published":"2024-10-01T06:30:06Z","authors":[{"name":"Yang Li"},{"name":"Wenhan Yu"},{"name":"Jun Zhao"}],"categories":["cs.CR"]}]
+[
+  {
+    "id" : "http://arxiv.org/abs/2410.01068v1",
+    "title" : "Convergent Privacy Loss of Noisy-SGD without Convexity and Smoothness",
+    "summary" : "We study the Differential Privacy (DP) guarantee of hidden-state Noisy-SGD\nalgorithms over a bounded domain. Standard privacy analysis for Noisy-SGD\nassumes all internal states are revealed, which leads to a divergent R'enyi DP\nbound with respect to the number of iterations. Ye & Shokri (2022) and\nAltschuler & Talwar (2022) proved convergent bounds for smooth (strongly)\nconvex losses, and raise open questions about whether these assumptions can be\nrelaxed. We provide positive answers by proving convergent R'enyi DP bound for\nnon-convex non-smooth losses, where we show that requiring losses to have\nH\\\"older continuous gradient is sufficient. We also provide a strictly better\nprivacy bound compared to state-of-the-art results for smooth strongly convex\nlosses. Our analysis relies on the improvement of shifted divergence analysis\nin multiple aspects, including forward Wasserstein distance tracking,\nidentifying the optimal shifts allocation, and the H\"older reduction lemma. Our\nresults further elucidate the benefit of hidden-state analysis for DP and its\napplicability.",
+    "updated" : "2024-10-01T20:52:08Z",
+    "published" : "2024-10-01T20:52:08Z",
+    "authors" : [
+      {
+        "name" : "Eli Chien"
+      },
+      {
+        "name" : "Pan Li"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.00897v1",
+    "title" : "The Gradient of Health Data Privacy",
+    "summary" : "In the era of digital health and artificial intelligence, the management of\npatient data privacy has become increasingly complex, with significant\nimplications for global health equity and patient trust. This paper introduces\na novel \"privacy gradient\" approach to health data governance, offering a more\nnuanced and adaptive framework than traditional binary privacy models. Our\nmultidimensional concept considers factors such as data sensitivity,\nstakeholder relationships, purpose of use, and temporal aspects, allowing for\ncontext-sensitive privacy protections. Through policy analyses, ethical\nconsiderations, and case studies spanning adolescent health, integrated care,\nand genomic research, we demonstrate how this approach can address critical\nprivacy challenges in diverse healthcare settings worldwide. The privacy\ngradient model has the potential to enhance patient engagement, improve care\ncoordination, and accelerate medical research while safeguarding individual\nprivacy rights. We provide policy recommendations for implementing this\napproach, considering its impact on healthcare systems, research\ninfrastructures, and global health initiatives. This work aims to inform\npolicymakers, healthcare leaders, and digital health innovators, contributing\nto a more equitable, trustworthy, and effective global health data ecosystem in\nthe digital age.",
+    "updated" : "2024-10-01T17:35:18Z",
+    "published" : "2024-10-01T17:35:18Z",
+    "authors" : [
+      {
+        "name" : "Baihan Lin"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.AI",
+      "cs.HC",
+      "q-bio.OT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.00836v1",
+    "title" : "Towards Fairness and Privacy: A Novel Data Pre-processing Optimization\n  Framework for Non-binary Protected Attributes",
+    "summary" : "The reason behind the unfair outcomes of AI is often rooted in biased\ndatasets. Therefore, this work presents a framework for addressing fairness by\ndebiasing datasets containing a (non-)binary protected attribute. The framework\nproposes a combinatorial optimization problem where heuristics such as genetic\nalgorithms can be used to solve for the stated fairness objectives. The\nframework addresses this by finding a data subset that minimizes a certain\ndiscrimination measure. Depending on a user-defined setting, the framework\nenables different use cases, such as data removal, the addition of synthetic\ndata, or exclusive use of synthetic data. The exclusive use of synthetic data\nin particular enhances the framework's ability to preserve privacy while\noptimizing for fairness. In a comprehensive evaluation, we demonstrate that\nunder our framework, genetic algorithms can effectively yield fairer datasets\ncompared to the original data. In contrast to prior work, the framework\nexhibits a high degree of flexibility as it is metric- and task-agnostic, can\nbe applied to both binary or non-binary protected attributes, and demonstrates\nefficient runtime.",
+    "updated" : "2024-10-01T16:17:43Z",
+    "published" : "2024-10-01T16:17:43Z",
+    "authors" : [
+      {
+        "name" : "Manh Khoi Duong"
+      },
+      {
+        "name" : "Stefan Conrad"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.00751v1",
+    "title" : "Thinking Outside of the Differential Privacy Box: A Case Study in Text\n  Privatization with Language Model Prompting",
+    "summary" : "The field of privacy-preserving Natural Language Processing has risen in\npopularity, particularly at a time when concerns about privacy grow with the\nproliferation of Large Language Models. One solution consistently appearing in\nrecent literature has been the integration of Differential Privacy (DP) into\nNLP techniques. In this paper, we take these approaches into critical view,\ndiscussing the restrictions that DP integration imposes, as well as bring to\nlight the challenges that such restrictions entail. To accomplish this, we\nfocus on $\\textbf{DP-Prompt}$, a recent method for text privatization\nleveraging language models to rewrite texts. In particular, we explore this\nrewriting task in multiple scenarios, both with DP and without DP. To drive the\ndiscussion on the merits of DP in NLP, we conduct empirical utility and privacy\nexperiments. Our results demonstrate the need for more discussion on the\nusability of DP in NLP and its benefits over non-DP approaches.",
+    "updated" : "2024-10-01T14:46:15Z",
+    "published" : "2024-10-01T14:46:15Z",
+    "authors" : [
+      {
+        "name" : "Stephen Meisenbacher"
+      },
+      {
+        "name" : "Florian Matthes"
+      }
+    ],
+    "categories" : [
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.00542v1",
+    "title" : "Differentially Private Active Learning: Balancing Effective Data\n  Selection and Privacy",
+    "summary" : "Active learning (AL) is a widely used technique for optimizing data labeling\nin machine learning by iteratively selecting, labeling, and training on the\nmost informative data. However, its integration with formal privacy-preserving\nmethods, particularly differential privacy (DP), remains largely underexplored.\nWhile some works have explored differentially private AL for specialized\nscenarios like online learning, the fundamental challenge of combining AL with\nDP in standard learning settings has remained unaddressed, severely limiting\nAL's applicability in privacy-sensitive domains. This work addresses this gap\nby introducing differentially private active learning (DP-AL) for standard\nlearning settings. We demonstrate that naively integrating DP-SGD training into\nAL presents substantial challenges in privacy budget allocation and data\nutilization. To overcome these challenges, we propose step amplification, which\nleverages individual sampling probabilities in batch creation to maximize data\npoint participation in training steps, thus optimizing data utilization.\nAdditionally, we investigate the effectiveness of various acquisition functions\nfor data selection under privacy constraints, revealing that many commonly used\nfunctions become impractical. Our experiments on vision and natural language\nprocessing tasks show that DP-AL can improve performance for specific datasets\nand model architectures. However, our findings also highlight the limitations\nof AL in privacy-constrained environments, emphasizing the trade-offs between\nprivacy, model accuracy, and data selection accuracy.",
+    "updated" : "2024-10-01T09:34:06Z",
+    "published" : "2024-10-01T09:34:06Z",
+    "authors" : [
+      {
+        "name" : "Kristian Schwethelm"
+      },
+      {
+        "name" : "Johannes Kaiser"
+      },
+      {
+        "name" : "Jonas Kuntzer"
+      },
+      {
+        "name" : "Mehmet Yigitsoy"
+      },
+      {
+        "name" : "Daniel Rueckert"
+      },
+      {
+        "name" : "Georgios Kaissis"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.00433v1",
+    "title" : "PrivTuner with Homomorphic Encryption and LoRA: A P3EFT Scheme for\n  Privacy-Preserving Parameter-Efficient Fine-Tuning of AI Foundation Models",
+    "summary" : "AI foundation models have recently demonstrated impressive capabilities\nacross a wide range of tasks. Fine-tuning (FT) is a method of customizing a\npre-trained AI foundation model by further training it on a smaller, targeted\ndataset. In this paper, we initiate the study of the Privacy-Preserving\nParameter-Efficient FT (P3EFT) framework, which can be viewed as the\nintersection of Parameter-Efficient FT (PEFT) and Privacy-Preserving FT (PPFT).\nPEFT modifies only a small subset of the model's parameters to achieve FT\n(i.e., adapting a pre-trained model to a specific dataset), while PPFT uses\nprivacy-preserving technologies to protect the confidentiality of the model\nduring the FT process. There have been many studies on PEFT or PPFT but very\nfew on their fusion, which motivates our work on P3EFT to achieve both\nparameter efficiency and model privacy. To exemplify our P3EFT, we present the\nPrivTuner scheme, which incorporates Fully Homomorphic Encryption (FHE) enabled\nprivacy protection into LoRA (short for ``Low-Rank Adapter''). Intuitively\nspeaking, PrivTuner allows the model owner and the external data owners to\ncollaboratively implement PEFT with encrypted data. After describing PrivTuner\nin detail, we further investigate its energy consumption and privacy\nprotection. Then, we consider a PrivTuner system over wireless communications\nand formulate a joint optimization problem to adaptively minimize energy while\nmaximizing privacy protection, with the optimization variables including FDMA\nbandwidth allocation, wireless transmission power, computational resource\nallocation, and privacy protection. A resource allocation algorithm is devised\nto solve the problem. Experiments demonstrate that our algorithm can\nsignificantly reduce energy consumption while adapting to different privacy\nrequirements.",
+    "updated" : "2024-10-01T06:30:06Z",
+    "published" : "2024-10-01T06:30:06Z",
+    "authors" : [
+      {
+        "name" : "Yang Li"
+      },
+      {
+        "name" : "Wenhan Yu"
+      },
+      {
+        "name" : "Jun Zhao"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  }
+]
