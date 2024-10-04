@@ -124,5 +124,86 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.02547v1",
+    "title" : "Personalized Quantum Federated Learning for Privacy Image Classification",
+    "summary" : "Quantum federated learning has brought about the improvement of privacy image\nclassification, while the lack of personality of the client model may\ncontribute to the suboptimal of quantum federated learning. A personalized\nquantum federated learning algorithm for privacy image classification is\nproposed to enhance the personality of the client model in the case of an\nimbalanced distribution of images. First, a personalized quantum federated\nlearning model is constructed, in which a personalized layer is set for the\nclient model to maintain the personalized parameters. Second, a personalized\nquantum federated learning algorithm is introduced to secure the information\nexchanged between the client and server.Third, the personalized federated\nlearning is applied to image classification on the FashionMNIST dataset, and\nthe experimental results indicate that the personalized quantum federated\nlearning algorithm can obtain global and local models with excellent\nperformance, even in situations where local training samples are imbalanced.\nThe server's accuracy is 100% with 8 clients and a distribution parameter of\n100, outperforming the non-personalized model by 7%. The average client\naccuracy is 2.9% higher than that of the non-personalized model with 2 clients\nand a distribution parameter of 1. Compared to previous quantum federated\nlearning algorithms, the proposed personalized quantum federated learning\nalgorithm eliminates the need for additional local training while safeguarding\nboth model and data privacy.It may facilitate broader adoption and application\nof quantum technologies, and pave the way for more secure, scalable, and\nefficient quantum distribute machine learning solutions.",
+    "updated" : "2024-10-03T14:53:04Z",
+    "published" : "2024-10-03T14:53:04Z",
+    "authors" : [
+      {
+        "name" : "Jinjing Shi"
+      },
+      {
+        "name" : "Tian Chen"
+      },
+      {
+        "name" : "Shichao Zhang"
+      },
+      {
+        "name" : "Xuelong Li"
+      }
+    ],
+    "categories" : [
+      "quant-ph",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.02371v1",
+    "title" : "NTU-NPU System for Voice Privacy 2024 Challenge",
+    "summary" : "In this work, we describe our submissions for the Voice Privacy Challenge\n2024. Rather than proposing a novel speech anonymization system, we enhance the\nprovided baselines to meet all required conditions and improve evaluated\nmetrics. Specifically, we implement emotion embedding and experiment with WavLM\nand ECAPA2 speaker embedders for the B3 baseline. Additionally, we compare\ndifferent speaker and prosody anonymization techniques. Furthermore, we\nintroduce Mean Reversion F0 for B5, which helps to enhance privacy without a\nloss in utility. Finally, we explore disentanglement models, namely $\\beta$-VAE\nand NaturalSpeech3 FACodec.",
+    "updated" : "2024-10-03T10:45:10Z",
+    "published" : "2024-10-03T10:45:10Z",
+    "authors" : [
+      {
+        "name" : "Nikita Kuzmin"
+      },
+      {
+        "name" : "Hieu-Thi Luong"
+      },
+      {
+        "name" : "Jixun Yao"
+      },
+      {
+        "name" : "Lei Xie"
+      },
+      {
+        "name" : "Kong Aik Lee"
+      },
+      {
+        "name" : "Eng Siong Chng"
+      }
+    ],
+    "categories" : [
+      "eess.AS",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.02246v1",
+    "title" : "PFGuard: A Generative Framework with Privacy and Fairness Safeguards",
+    "summary" : "Generative models must ensure both privacy and fairness for Trustworthy AI.\nWhile these goals have been pursued separately, recent studies propose to\ncombine existing privacy and fairness techniques to achieve both goals.\nHowever, naively combining these techniques can be insufficient due to\nprivacy-fairness conflicts, where a sample in a minority group may be amplified\nfor fairness, only to be suppressed for privacy. We demonstrate how these\nconflicts lead to adverse effects, such as privacy violations and unexpected\nfairness-utility tradeoffs. To mitigate these risks, we propose PFGuard, a\ngenerative framework with privacy and fairness safeguards, which simultaneously\naddresses privacy, fairness, and utility. By using an ensemble of multiple\nteacher models, PFGuard balances privacy-fairness conflicts between fair and\nprivate training stages and achieves high utility based on ensemble learning.\nExtensive experiments show that PFGuard successfully generates synthetic data\non high-dimensional data while providing both fairness convergence and strict\nDP guarantees - the first of its kind to our knowledge.",
+    "updated" : "2024-10-03T06:37:16Z",
+    "published" : "2024-10-03T06:37:16Z",
+    "authors" : [
+      {
+        "name" : "Soyeon Kim"
+      },
+      {
+        "name" : "Yuji Roh"
+      },
+      {
+        "name" : "Geon Heo"
+      },
+      {
+        "name" : "Steven Euijong Whang"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
   }
 ]
