@@ -2,6 +2,86 @@
 <h2>2024-10</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.02547v1">Personalized Quantum Federated Learning for Privacy Image Classification</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-10-03T14:53:04Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jinjing Shi, Tian Chen, Shichao Zhang, Xuelong Li</p>
+    <p><b>Summary:</b> Quantum federated learning has brought about the improvement of privacy image
+classification, while the lack of personality of the client model may
+contribute to the suboptimal of quantum federated learning. A personalized
+quantum federated learning algorithm for privacy image classification is
+proposed to enhance the personality of the client model in the case of an
+imbalanced distribution of images. First, a personalized quantum federated
+learning model is constructed, in which a personalized layer is set for the
+client model to maintain the personalized parameters. Second, a personalized
+quantum federated learning algorithm is introduced to secure the information
+exchanged between the client and server.Third, the personalized federated
+learning is applied to image classification on the FashionMNIST dataset, and
+the experimental results indicate that the personalized quantum federated
+learning algorithm can obtain global and local models with excellent
+performance, even in situations where local training samples are imbalanced.
+The server's accuracy is 100% with 8 clients and a distribution parameter of
+100, outperforming the non-personalized model by 7%. The average client
+accuracy is 2.9% higher than that of the non-personalized model with 2 clients
+and a distribution parameter of 1. Compared to previous quantum federated
+learning algorithms, the proposed personalized quantum federated learning
+algorithm eliminates the need for additional local training while safeguarding
+both model and data privacy.It may facilitate broader adoption and application
+of quantum technologies, and pave the way for more secure, scalable, and
+efficient quantum distribute machine learning solutions.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.02371v1">NTU-NPU System for Voice Privacy 2024 Challenge</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-10-03T10:45:10Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Nikita Kuzmin, Hieu-Thi Luong, Jixun Yao, Lei Xie, Kong Aik Lee, Eng Siong Chng</p>
+    <p><b>Summary:</b> In this work, we describe our submissions for the Voice Privacy Challenge
+2024. Rather than proposing a novel speech anonymization system, we enhance the
+provided baselines to meet all required conditions and improve evaluated
+metrics. Specifically, we implement emotion embedding and experiment with WavLM
+and ECAPA2 speaker embedders for the B3 baseline. Additionally, we compare
+different speaker and prosody anonymization techniques. Furthermore, we
+introduce Mean Reversion F0 for B5, which helps to enhance privacy without a
+loss in utility. Finally, we explore disentanglement models, namely $\beta$-VAE
+and NaturalSpeech3 FACodec.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.02246v1">PFGuard: A Generative Framework with Privacy and Fairness Safeguards</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-10-03T06:37:16Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Soyeon Kim, Yuji Roh, Geon Heo, Steven Euijong Whang</p>
+    <p><b>Summary:</b> Generative models must ensure both privacy and fairness for Trustworthy AI.
+While these goals have been pursued separately, recent studies propose to
+combine existing privacy and fairness techniques to achieve both goals.
+However, naively combining these techniques can be insufficient due to
+privacy-fairness conflicts, where a sample in a minority group may be amplified
+for fairness, only to be suppressed for privacy. We demonstrate how these
+conflicts lead to adverse effects, such as privacy violations and unexpected
+fairness-utility tradeoffs. To mitigate these risks, we propose PFGuard, a
+generative framework with privacy and fairness safeguards, which simultaneously
+addresses privacy, fairness, and utility. By using an ensemble of multiple
+teacher models, PFGuard balances privacy-fairness conflicts between fair and
+private training stages and achieves high utility based on ensemble learning.
+Extensive experiments show that PFGuard successfully generates synthetic data
+on high-dimensional data while providing both fairness convergence and strict
+DP guarantees - the first of its kind to our knowledge.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2410.01068v1">Convergent Privacy Loss of Noisy-SGD without Convexity and Smoothness</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2024-10-01T20:52:08Z</p>
@@ -1932,38 +2012,66 @@ privacy-preserving, even though they are claimed to be privacy-preserving.
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.11295v1">EIA: Environmental Injection Attack on Generalist Web Agents for Privacy
+  <h3><a href="http://arxiv.org/abs/2409.11295v2">EIA: Environmental Injection Attack on Generalist Web Agents for Privacy
   Leakage</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2024-09-17T15:49:44Z</p>
   <details>
     <summary>More Details</summary>
     <p><b>Authors:</b> Zeyi Liao, Lingbo Mo, Chejian Xu, Mintong Kang, Jiawei Zhang, Chaowei Xiao, Yuan Tian, Bo Li, Huan Sun</p>
-    <p><b>Summary:</b> Generalist web agents have evolved rapidly and demonstrated remarkable
-potential. However, there are unprecedented safety risks associated with these
-them, which are nearly unexplored so far. In this work, we aim to narrow this
-gap by conducting the first study on the privacy risks of generalist web agents
-in adversarial environments. First, we present a threat model that discusses
-the adversarial targets, constraints, and attack scenarios. Particularly, we
-consider two types of adversarial targets: stealing users' specific personally
-identifiable information (PII) or stealing the entire user request. To achieve
-these objectives, we propose a novel attack method, termed Environmental
-Injection Attack (EIA). This attack injects malicious content designed to adapt
-well to different environments where the agents operate, causing them to
-perform unintended actions. This work instantiates EIA specifically for the
-privacy scenario. It inserts malicious web elements alongside persuasive
-instructions that mislead web agents into leaking private information, and can
-further leverage CSS and JavaScript features to remain stealthy. We collect 177
-actions steps that involve diverse PII categories on realistic websites from
-the Mind2Web dataset, and conduct extensive experiments using one of the most
-capable generalist web agent frameworks to date, SeeAct. The results
-demonstrate that EIA achieves up to 70% ASR in stealing users' specific PII.
-Stealing full user requests is more challenging, but a relaxed version of EIA
-can still achieve 16% ASR. Despite these concerning results, it is important to
-note that the attack can still be detectable through careful human inspection,
-highlighting a trade-off between high autonomy and security. This leads to our
-detailed discussion on the efficacy of EIA under different levels of human
-supervision as well as implications on defenses for generalist web agents.</p>
+    <p><b>Summary:</b> Generalist web agents have demonstrated remarkable potential in autonomously
+completing a wide range of tasks on real websites, significantly boosting human
+productivity. However, web tasks, such as booking flights, usually involve
+users' PII, which may be exposed to potential privacy risks if web agents
+accidentally interact with compromised websites, a scenario that remains
+largely unexplored in the literature. In this work, we narrow this gap by
+conducting the first study on the privacy risks of generalist web agents in
+adversarial environments. First, we present a realistic threat model for
+attacks on the website, where we consider two adversarial targets: stealing
+users' specific PII or the entire user request. Then, we propose a novel attack
+method, termed Environmental Injection Attack (EIA). EIA injects malicious
+content designed to adapt well to environments where the agents operate and our
+work instantiates EIA specifically for privacy scenarios in web environments.
+We collect 177 action steps that involve diverse PII categories on realistic
+websites from the Mind2Web, and conduct experiments using one of the most
+capable generalist web agent frameworks to date. The results demonstrate that
+EIA achieves up to 70% ASR in stealing specific PII and 16% ASR for full user
+request. Additionally, by accessing the stealthiness and experimenting with a
+defensive system prompt, we indicate that EIA is hard to detect and mitigate.
+Notably, attacks that are not well adapted for a webpage can be detected via
+human inspection, leading to our discussion about the trade-off between
+security and autonomy. However, extra attackers' efforts can make EIA
+seamlessly adapted, rendering such supervision ineffective. Thus, we further
+discuss the defenses at the pre- and post-deployment stages of the websites
+without relying on human supervision and call for more advanced defense
+strategies.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.02462v1">Scalable Differential Privacy Mechanisms for Real-Time Machine Learning
+  Applications</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-09-16T20:52:04Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jessica Smith, David Williams, Emily Brown</p>
+    <p><b>Summary:</b> Large language models (LLMs) are increasingly integrated into real-time
+machine learning applications, where safeguarding user privacy is paramount.
+Traditional differential privacy mechanisms often struggle to balance privacy
+and accuracy, particularly in fast-changing environments with continuously
+flowing data. To address these issues, we introduce Scalable Differential
+Privacy (SDP), a framework tailored for real-time machine learning that
+emphasizes both robust privacy guarantees and enhanced model performance. SDP
+employs a hierarchical architecture to facilitate efficient noise aggregation
+across various learning agents. By integrating adaptive noise scheduling and
+gradient compression methods, our approach minimizes performance degradation
+while ensuring significant privacy protection. Extensive experiments on diverse
+datasets reveal that SDP maintains high accuracy levels while applying
+differential privacy effectively, showcasing its suitability for deployment in
+sensitive domains. This advancement points towards the potential for widespread
+adoption of privacy-preserving techniques in machine learning workflows.</p>
   </details>
 </div>
 
@@ -2278,6 +2386,43 @@ differentiate obfuscated from actual locations. Our results show that
 TransProtect increases VehiTrack's inference error by 57.75% with Laplacian
 noise and 27.21% with LP, significantly enhancing protection against these
 attacks.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.01813v1">Privacy-Preserving SAM Quantization for Efficient Edge Intelligence in
+  Healthcare</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-09-14T10:43:35Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zhikai Li, Jing Zhang, Qingyi Gu</p>
+    <p><b>Summary:</b> The disparity in healthcare personnel expertise and medical resources across
+different regions of the world is a pressing social issue. Artificial
+intelligence technology offers new opportunities to alleviate this issue.
+Segment Anything Model (SAM), which excels in intelligent image segmentation,
+has demonstrated exceptional performance in medical monitoring and assisted
+diagnosis. Unfortunately, the huge computational and storage overhead of SAM
+poses significant challenges for deployment on resource-limited edge devices.
+Quantization is an effective solution for model compression; however,
+traditional methods rely heavily on original data for calibration, which raises
+widespread concerns about medical data privacy and security. In this paper, we
+propose a data-free quantization framework for SAM, called DFQ-SAM, which
+learns and calibrates quantization parameters without any original data, thus
+effectively preserving data privacy during model compression. Specifically, we
+propose pseudo-positive label evolution for segmentation, combined with patch
+similarity, to fully leverage the semantic and distribution priors in
+pre-trained models, which facilitates high-quality data synthesis as a
+substitute for real data. Furthermore, we introduce scale reparameterization to
+ensure the accuracy of low-bit quantization. We perform extensive segmentation
+experiments on various datasets, and DFQ-SAM consistently provides significant
+performance on low-bit quantization. DFQ-SAM eliminates the need for data
+transfer in cloud-edge collaboration, thereby protecting sensitive data from
+potential attacks. It enables secure, fast, and personalized healthcare
+services at the edge, which enhances system efficiency and optimizes resource
+allocation, and thus facilitating the pervasive application of artificial
+intelligence in worldwide healthcare.</p>
   </details>
 </div>
 
@@ -2815,150 +2960,6 @@ losses and design new diversity losses to enhance client-side training.
 FedMD-CG is robust to data heterogeneity and does not require training extra
 discriminators (like cGAN). We conduct extensive experiments on various image
 classification tasks to validate the superiority of FedMD-CG.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.06564v1">Advancing Android Privacy Assessments with Automation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-09-10T14:56:51Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mugdha Khedkar, Michael Schlichtig, Eric Bodden</p>
-    <p><b>Summary:</b> Android apps collecting data from users must comply with legal frameworks to
-ensure data protection. This requirement has become even more important since
-the implementation of the General Data Protection Regulation (GDPR) by the
-European Union in 2018. Moreover, with the proposed Cyber Resilience Act on the
-horizon, stakeholders will soon need to assess software against even more
-stringent security and privacy standards. Effective privacy assessments require
-collaboration among groups with diverse expertise to function effectively as a
-cohesive unit.
-  This paper motivates the need for an automated approach that enhances
-understanding of data protection in Android apps and improves communication
-between the various parties involved in privacy assessments. We propose the
-Assessor View, a tool designed to bridge the knowledge gap between these
-parties, facilitating more effective privacy assessments of Android
-applications.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.06455v1">Continual Domain Incremental Learning for Privacy-aware Digital
-  Pathology</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2024-09-10T12:21:54Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Pratibha Kumari, Daniel Reisenbüchler, Lucas Luttner, Nadine S. Schaadt, Friedrich Feuerhake, Dorit Merhof</p>
-    <p><b>Summary:</b> In recent years, there has been remarkable progress in the field of digital
-pathology, driven by the ability to model complex tissue patterns using
-advanced deep-learning algorithms. However, the robustness of these models is
-often severely compromised in the presence of data shifts (e.g., different
-stains, organs, centers, etc.). Alternatively, continual learning (CL)
-techniques aim to reduce the forgetting of past data when learning new data
-with distributional shift conditions. Specifically, rehearsal-based CL
-techniques, which store some past data in a buffer and then replay it with new
-data, have proven effective in medical image analysis tasks. However, privacy
-concerns arise as these approaches store past data, prompting the development
-of our novel Generative Latent Replay-based CL (GLRCL) approach. GLRCL captures
-the previous distribution through Gaussian Mixture Models instead of storing
-past samples, which are then utilized to generate features and perform latent
-replay with new data. We systematically evaluate our proposed framework under
-different shift conditions in histopathology data, including stain and organ
-shift. Our approach significantly outperforms popular buffer-free CL approaches
-and performs similarly to rehearsal-based CL approaches that require large
-buffers causing serious privacy violations.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.06422v1">A Pervasive, Efficient and Private Future: Realizing Privacy-Preserving
-  Machine Learning Through Hybrid Homomorphic Encryption</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-09-10T11:04:14Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Khoa Nguyen, Mindaugas Budzys, Eugene Frimpong, Tanveer Khan, Antonis Michalas</p>
-    <p><b>Summary:</b> Machine Learning (ML) has become one of the most impactful fields of data
-science in recent years. However, a significant concern with ML is its privacy
-risks due to rising attacks against ML models. Privacy-Preserving Machine
-Learning (PPML) methods have been proposed to mitigate the privacy and security
-risks of ML models. A popular approach to achieving PPML uses Homomorphic
-Encryption (HE). However, the highly publicized inefficiencies of HE make it
-unsuitable for highly scalable scenarios with resource-constrained devices.
-Hence, Hybrid Homomorphic Encryption (HHE) -- a modern encryption scheme that
-combines symmetric cryptography with HE -- has recently been introduced to
-overcome these challenges. HHE potentially provides a foundation to build new
-efficient and privacy-preserving services that transfer expensive HE operations
-to the cloud. This work introduces HHE to the ML field by proposing
-resource-friendly PPML protocols for edge devices. More precisely, we utilize
-HHE as the primary building block of our PPML protocols. We assess the
-performance of our protocols by first extensively evaluating each party's
-communication and computational cost on a dummy dataset and show the efficiency
-of our protocols by comparing them with similar protocols implemented using
-plain BFV. Subsequently, we demonstrate the real-world applicability of our
-construction by building an actual PPML application that uses HHE as its
-foundation to classify heart disease based on sensitive ECG data.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.06360v1">SoK: Evaluating 5G Protocols Against Legacy and Emerging Privacy and
-  Security Attacks</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
-  <p><b>Published on:</b> 2024-09-10T09:30:37Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Stavros Eleftherakis, Domenico Giustiniano, Nicolas Kourtellis</p>
-    <p><b>Summary:</b> Ensuring user privacy remains a critical concern within mobile cellular
-networks, particularly given the proliferation of interconnected devices and
-services. In fact, a lot of user privacy issues have been raised in 2G, 3G,
-4G/LTE networks. Recognizing this general concern, 3GPP has prioritized
-addressing these issues in the development of 5G, implementing numerous
-modifications to enhance user privacy since 5G Release 15. In this
-systematization of knowledge paper, we first provide a framework for studying
-privacy and security related attacks in cellular networks, setting as privacy
-objective the User Identity Confidentiality defined in 3GPP standards. Using
-this framework, we discuss existing privacy and security attacks in pre-5G
-networks, analyzing the weaknesses that lead to these attacks. Furthermore, we
-thoroughly study the security characteristics of 5G up to the new Release 19,
-and examine mitigation mechanisms of 5G to the identified pre-5G attacks.
-Afterwards, we analyze how recent 5G attacks try to overcome these mitigation
-mechanisms. Finally, we identify current limitations and open problems in
-security of 5G, and propose directions for future work.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.06233v1">VBIT: Towards Enhancing Privacy Control Over IoT Devices</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-09-10T06:00:50Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jad Al Aaraj, Olivia Figueira, Tu Le, Isabela Figueira, Rahmadi Trimananda, Athina Markopoulou</p>
-    <p><b>Summary:</b> Internet-of-Things (IoT) devices are increasingly deployed at home, at work,
-and in other shared and public spaces. IoT devices collect and share data with
-service providers and third parties, which poses privacy concerns. Although
-privacy enhancing tools are quite advanced in other applications domains (\eg~
-advertising and tracker blockers for browsers), users have currently no
-convenient way to know or manage what and how data is collected and shared by
-IoT devices. In this paper, we present VBIT, an interactive system combining
-Mixed Reality (MR) and web-based applications that allows users to: (1) uncover
-and visualize tracking services by IoT devices in an instrumented space and (2)
-take action to stop or limit that tracking. We design and implement VBIT to
-operate at the network traffic level, and we show that it has negligible
-performance overhead, and offers flexibility and good usability. We perform a
-mixed-method user study consisting of an online survey and an in-person
-interview study. We show that VBIT users appreciate VBIT's transparency,
-control, and customization features, and they become significantly more willing
-to install an IoT advertising and tracking blocker, after using VBIT. In the
-process, we obtain design insights that can be used to further iterate and
-improve the design of VBIT and other systems for IoT transparency and control.</p>
   </details>
 </div>
 
