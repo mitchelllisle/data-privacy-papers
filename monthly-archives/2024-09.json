@@ -4059,5 +4059,47 @@
       "cs.CV",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.11295v3",
+    "title" : "EIA: Environmental Injection Attack on Generalist Web Agents for Privacy\n  Leakage",
+    "summary" : "Generalist web agents have demonstrated remarkable potential in autonomously\ncompleting a wide range of tasks on real websites, significantly boosting human\nproductivity. However, web tasks, such as booking flights, usually involve\nusers' PII, which may be exposed to potential privacy risks if web agents\naccidentally interact with compromised websites, a scenario that remains\nlargely unexplored in the literature. In this work, we narrow this gap by\nconducting the first study on the privacy risks of generalist web agents in\nadversarial environments. First, we present a realistic threat model for\nattacks on the website, where we consider two adversarial targets: stealing\nusers' specific PII or the entire user request. Then, we propose a novel attack\nmethod, termed Environmental Injection Attack (EIA). EIA injects malicious\ncontent designed to adapt well to environments where the agents operate and our\nwork instantiates EIA specifically for privacy scenarios in web environments.\nWe collect 177 action steps that involve diverse PII categories on realistic\nwebsites from the Mind2Web, and conduct experiments using one of the most\ncapable generalist web agent frameworks to date. The results demonstrate that\nEIA achieves up to 70% ASR in stealing specific PII and 16% ASR for full user\nrequest. Additionally, by accessing the stealthiness and experimenting with a\ndefensive system prompt, we indicate that EIA is hard to detect and mitigate.\nNotably, attacks that are not well adapted for a webpage can be detected via\nhuman inspection, leading to our discussion about the trade-off between\nsecurity and autonomy. However, extra attackers' efforts can make EIA\nseamlessly adapted, rendering such supervision ineffective. Thus, we further\ndiscuss the defenses at the pre- and post-deployment stages of the websites\nwithout relying on human supervision and call for more advanced defense\nstrategies.",
+    "updated" : "2024-10-04T02:08:57Z",
+    "published" : "2024-09-17T15:49:44Z",
+    "authors" : [
+      {
+        "name" : "Zeyi Liao"
+      },
+      {
+        "name" : "Lingbo Mo"
+      },
+      {
+        "name" : "Chejian Xu"
+      },
+      {
+        "name" : "Mintong Kang"
+      },
+      {
+        "name" : "Jiawei Zhang"
+      },
+      {
+        "name" : "Chaowei Xiao"
+      },
+      {
+        "name" : "Yuan Tian"
+      },
+      {
+        "name" : "Bo Li"
+      },
+      {
+        "name" : "Huan Sun"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.CL",
+      "cs.LG"
+    ]
   }
 ]
