@@ -205,5 +205,104 @@
       "cs.LG",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.03621v1",
+    "title" : "A Global Medical Data Security and Privacy Preserving Standards\n  Identification Framework for Electronic Healthcare Consumers",
+    "summary" : "Electronic Health Records (EHR) are crucial for the success of digital\nhealthcare, with a focus on putting consumers at the center of this\ntransformation. However, the digitalization of healthcare records brings along\nsecurity and privacy risks for personal data. The major concern is that\ndifferent countries have varying standards for the security and privacy of\nmedical data. This paper proposed a novel and comprehensive framework to\nstandardize these rules globally, bringing them together on a common platform.\nTo support this proposal, the study reviews existing literature to understand\nthe research interest in this issue. It also examines six key laws and\nstandards related to security and privacy, identifying twenty concepts. The\nproposed framework utilized K-means clustering to categorize these concepts and\nidentify five key factors. Finally, an Ordinal Priority Approach is applied to\ndetermine the preferred implementation of these factors in the context of EHRs.\nThe proposed study provides a descriptive then prescriptive framework for the\nimplementation of privacy and security in the context of electronic health\nrecords. Therefore, the findings of the proposed framework are useful for\nprofessionals and policymakers in improving the security and privacy associated\nwith EHRs.",
+    "updated" : "2024-10-04T17:22:55Z",
+    "published" : "2024-10-04T17:22:55Z",
+    "authors" : [
+      {
+        "name" : "Vinaytosh Mishra"
+      },
+      {
+        "name" : "Kishu Gupta"
+      },
+      {
+        "name" : "Deepika Saxena"
+      },
+      {
+        "name" : "Ashutosh Kumar Singh"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.03407v1",
+    "title" : "Camel: Communication-Efficient and Maliciously Secure Federated Learning\n  in the Shuffle Model of Differential Privacy",
+    "summary" : "Federated learning (FL) has rapidly become a compelling paradigm that enables\nmultiple clients to jointly train a model by sharing only gradient updates for\naggregation, without revealing their local private data. In order to protect\nthe gradient updates which could also be privacy-sensitive, there has been a\nline of work studying local differential privacy (LDP) mechanisms to provide a\nformal privacy guarantee. With LDP mechanisms, clients locally perturb their\ngradient updates before sharing them out for aggregation. However, such\napproaches are known for greatly degrading the model utility, due to heavy\nnoise addition. To enable a better privacy-utility tradeoff, a recently\nemerging trend is to apply the shuffle model of DP in FL, which relies on an\nintermediate shuffling operation on the perturbed gradient updates to achieve\nprivacy amplification. Following this trend, in this paper, we present Camel, a\nnew communication-efficient and maliciously secure FL framework in the shuffle\nmodel of DP. Camel first departs from existing works by ambitiously supporting\nintegrity check for the shuffle computation, achieving security against\nmalicious adversary. Specifically, Camel builds on the trending cryptographic\nprimitive of secret-shared shuffle, with custom techniques we develop for\noptimizing system-wide communication efficiency, and for lightweight integrity\nchecks to harden the security of server-side computation. In addition, we also\nderive a significantly tighter bound on the privacy loss through analyzing the\nRenyi differential privacy (RDP) of the overall FL process. Extensive\nexperiments demonstrate that Camel achieves better privacy-utility trade-offs\nthan the state-of-the-art work, with promising performance.",
+    "updated" : "2024-10-04T13:13:44Z",
+    "published" : "2024-10-04T13:13:44Z",
+    "authors" : [
+      {
+        "name" : "Shuangqing Xu"
+      },
+      {
+        "name" : "Yifeng Zheng"
+      },
+      {
+        "name" : "Zhongyun Hua"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.03069v1",
+    "title" : "Interactive GDPR-Compliant Privacy Policy Generation for Software\n  Applications",
+    "summary" : "Software applications are designed to assist users in conducting a wide range\nof tasks or interactions. They have become prevalent and play an integral part\nin people's lives in this digital era. To use those software applications,\nusers are sometimes requested to provide their personal information. As privacy\nhas become a significant concern and many data protection regulations exist\nworldwide, software applications must provide users with a privacy policy\ndetailing how their personal information is collected and processed. We propose\nan approach that generates a comprehensive and compliant privacy policy with\nrespect to the General Data Protection Regulation (GDPR) for diverse software\napplications. To support this, we first built a library of privacy clauses\nbased on existing privacy policy analysis. We then developed an interactive\nrule-based system that prompts software developers with a series of questions\nand uses their answers to generate a customised privacy policy for a given\nsoftware application. We evaluated privacy policies generated by our approach\nin terms of readability, completeness and coverage and compared them to privacy\npolicies generated by three existing privacy policy generators and a Generative\nAI-based tool. Our evaluation results show that the privacy policy generated by\nour approach is the most complete and comprehensive.",
+    "updated" : "2024-10-04T01:22:16Z",
+    "published" : "2024-10-04T01:22:16Z",
+    "authors" : [
+      {
+        "name" : "Pattaraporn Sangaroonsilp"
+      },
+      {
+        "name" : "Hoa Khanh Dam"
+      },
+      {
+        "name" : "Omar Haggag"
+      },
+      {
+        "name" : "John Grundy"
+      }
+    ],
+    "categories" : [
+      "cs.SE"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.02912v1",
+    "title" : "Fine-Tuning Language Models with Differential Privacy through Adaptive\n  Noise Allocation",
+    "summary" : "Language models are capable of memorizing detailed patterns and information,\nleading to a double-edged effect: they achieve impressive modeling performance\non downstream tasks with the stored knowledge but also raise significant\nprivacy concerns. Traditional differential privacy based training approaches\noffer robust safeguards by employing a uniform noise distribution across all\nparameters. However, this overlooks the distinct sensitivities and\ncontributions of individual parameters in privacy protection and often results\nin suboptimal models. To address these limitations, we propose ANADP, a novel\nalgorithm that adaptively allocates additive noise based on the importance of\nmodel parameters. We demonstrate that ANADP narrows the performance gap between\nregular fine-tuning and traditional DP fine-tuning on a series of datasets\nwhile maintaining the required privacy constraints.",
+    "updated" : "2024-10-03T19:02:50Z",
+    "published" : "2024-10-03T19:02:50Z",
+    "authors" : [
+      {
+        "name" : "Xianzhi Li"
+      },
+      {
+        "name" : "Ran Zmigrod"
+      },
+      {
+        "name" : "Zhiqiang Ma"
+      },
+      {
+        "name" : "Xiaomo Liu"
+      },
+      {
+        "name" : "Xiaodan Zhu"
+      }
+    ],
+    "categories" : [
+      "cs.AI",
+      "cs.CL",
+      "cs.CR",
+      "cs.LG"
+    ]
   }
 ]
