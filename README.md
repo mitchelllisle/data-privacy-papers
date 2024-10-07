@@ -2,6 +2,125 @@
 <h2>2024-10</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.03621v1">A Global Medical Data Security and Privacy Preserving Standards
+  Identification Framework for Electronic Healthcare Consumers</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-10-04T17:22:55Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Vinaytosh Mishra, Kishu Gupta, Deepika Saxena, Ashutosh Kumar Singh</p>
+    <p><b>Summary:</b> Electronic Health Records (EHR) are crucial for the success of digital
+healthcare, with a focus on putting consumers at the center of this
+transformation. However, the digitalization of healthcare records brings along
+security and privacy risks for personal data. The major concern is that
+different countries have varying standards for the security and privacy of
+medical data. This paper proposed a novel and comprehensive framework to
+standardize these rules globally, bringing them together on a common platform.
+To support this proposal, the study reviews existing literature to understand
+the research interest in this issue. It also examines six key laws and
+standards related to security and privacy, identifying twenty concepts. The
+proposed framework utilized K-means clustering to categorize these concepts and
+identify five key factors. Finally, an Ordinal Priority Approach is applied to
+determine the preferred implementation of these factors in the context of EHRs.
+The proposed study provides a descriptive then prescriptive framework for the
+implementation of privacy and security in the context of electronic health
+records. Therefore, the findings of the proposed framework are useful for
+professionals and policymakers in improving the security and privacy associated
+with EHRs.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.03407v1">Camel: Communication-Efficient and Maliciously Secure Federated Learning
+  in the Shuffle Model of Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-10-04T13:13:44Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shuangqing Xu, Yifeng Zheng, Zhongyun Hua</p>
+    <p><b>Summary:</b> Federated learning (FL) has rapidly become a compelling paradigm that enables
+multiple clients to jointly train a model by sharing only gradient updates for
+aggregation, without revealing their local private data. In order to protect
+the gradient updates which could also be privacy-sensitive, there has been a
+line of work studying local differential privacy (LDP) mechanisms to provide a
+formal privacy guarantee. With LDP mechanisms, clients locally perturb their
+gradient updates before sharing them out for aggregation. However, such
+approaches are known for greatly degrading the model utility, due to heavy
+noise addition. To enable a better privacy-utility tradeoff, a recently
+emerging trend is to apply the shuffle model of DP in FL, which relies on an
+intermediate shuffling operation on the perturbed gradient updates to achieve
+privacy amplification. Following this trend, in this paper, we present Camel, a
+new communication-efficient and maliciously secure FL framework in the shuffle
+model of DP. Camel first departs from existing works by ambitiously supporting
+integrity check for the shuffle computation, achieving security against
+malicious adversary. Specifically, Camel builds on the trending cryptographic
+primitive of secret-shared shuffle, with custom techniques we develop for
+optimizing system-wide communication efficiency, and for lightweight integrity
+checks to harden the security of server-side computation. In addition, we also
+derive a significantly tighter bound on the privacy loss through analyzing the
+Renyi differential privacy (RDP) of the overall FL process. Extensive
+experiments demonstrate that Camel achieves better privacy-utility trade-offs
+than the state-of-the-art work, with promising performance.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.03069v1">Interactive GDPR-Compliant Privacy Policy Generation for Software
+  Applications</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
+  <p><b>Published on:</b> 2024-10-04T01:22:16Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Pattaraporn Sangaroonsilp, Hoa Khanh Dam, Omar Haggag, John Grundy</p>
+    <p><b>Summary:</b> Software applications are designed to assist users in conducting a wide range
+of tasks or interactions. They have become prevalent and play an integral part
+in people's lives in this digital era. To use those software applications,
+users are sometimes requested to provide their personal information. As privacy
+has become a significant concern and many data protection regulations exist
+worldwide, software applications must provide users with a privacy policy
+detailing how their personal information is collected and processed. We propose
+an approach that generates a comprehensive and compliant privacy policy with
+respect to the General Data Protection Regulation (GDPR) for diverse software
+applications. To support this, we first built a library of privacy clauses
+based on existing privacy policy analysis. We then developed an interactive
+rule-based system that prompts software developers with a series of questions
+and uses their answers to generate a customised privacy policy for a given
+software application. We evaluated privacy policies generated by our approach
+in terms of readability, completeness and coverage and compared them to privacy
+policies generated by three existing privacy policy generators and a Generative
+AI-based tool. Our evaluation results show that the privacy policy generated by
+our approach is the most complete and comprehensive.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.02912v1">Fine-Tuning Language Models with Differential Privacy through Adaptive
+  Noise Allocation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-10-03T19:02:50Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xianzhi Li, Ran Zmigrod, Zhiqiang Ma, Xiaomo Liu, Xiaodan Zhu</p>
+    <p><b>Summary:</b> Language models are capable of memorizing detailed patterns and information,
+leading to a double-edged effect: they achieve impressive modeling performance
+on downstream tasks with the stored knowledge but also raise significant
+privacy concerns. Traditional differential privacy based training approaches
+offer robust safeguards by employing a uniform noise distribution across all
+parameters. However, this overlooks the distinct sensitivities and
+contributions of individual parameters in privacy protection and often results
+in suboptimal models. To address these limitations, we propose ANADP, a novel
+algorithm that adaptively allocates additive noise based on the importance of
+model parameters. We demonstrate that ANADP narrows the performance gap between
+regular fine-tuning and traditional DP fine-tuning on a series of datasets
+while maintaining the required privacy constraints.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2410.02547v1">Personalized Quantum Federated Learning for Privacy Image Classification</a></h3>
    <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
   <p><b>Published on:</b> 2024-10-03T14:53:04Z</p>
@@ -2012,7 +2131,7 @@ privacy-preserving, even though they are claimed to be privacy-preserving.
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.11295v2">EIA: Environmental Injection Attack on Generalist Web Agents for Privacy
+  <h3><a href="http://arxiv.org/abs/2409.11295v3">EIA: Environmental Injection Attack on Generalist Web Agents for Privacy
   Leakage</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2024-09-17T15:49:44Z</p>
@@ -2854,112 +2973,6 @@ each voice assistant. Our findings reveal that profiling can happen without
 interaction, can be incorrect and inconsistent at times, may take several days
 to weeks for changes to occur, and can be influenced by the interaction
 modality.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.07415v1">SoK: Security and Privacy Risks of Medical AI</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-09-11T16:59:58Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yuanhaur Chang, Han Liu, Evin Jaff, Chenyang Lu, Ning Zhang</p>
-    <p><b>Summary:</b> The integration of technology and healthcare has ushered in a new era where
-software systems, powered by artificial intelligence and machine learning, have
-become essential components of medical products and services. While these
-advancements hold great promise for enhancing patient care and healthcare
-delivery efficiency, they also expose sensitive medical data and system
-integrity to potential cyberattacks. This paper explores the security and
-privacy threats posed by AI/ML applications in healthcare. Through a thorough
-examination of existing research across a range of medical domains, we have
-identified significant gaps in understanding the adversarial attacks targeting
-medical AI systems. By outlining specific adversarial threat models for medical
-settings and identifying vulnerable application domains, we lay the groundwork
-for future research that investigates the security and resilience of AI-driven
-medical systems. Through our analysis of different threat models and
-feasibility studies on adversarial attacks in different medical domains, we
-provide compelling insights into the pressing need for cybersecurity research
-in the rapidly evolving field of AI healthcare technology.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.07224v1">Analytic Class Incremental Learning for Sound Source Localization with
-  Privacy Protection</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Sound-D91E36"> 
-  <p><b>Published on:</b> 2024-09-11T12:31:07Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Xinyuan Qian, Xianghu Yue, Jiadong Wang, Huiping Zhuang, Haizhou Li</p>
-    <p><b>Summary:</b> Sound Source Localization (SSL) enabling technology for applications such as
-surveillance and robotics. While traditional Signal Processing (SP)-based SSL
-methods provide analytic solutions under specific signal and noise assumptions,
-recent Deep Learning (DL)-based methods have significantly outperformed them.
-However, their success depends on extensive training data and substantial
-computational resources. Moreover, they often rely on large-scale annotated
-spatial data and may struggle when adapting to evolving sound classes. To
-mitigate these challenges, we propose a novel Class Incremental Learning (CIL)
-approach, termed SSL-CIL, which avoids serious accuracy degradation due to
-catastrophic forgetting by incrementally updating the DL-based SSL model
-through a closed-form analytic solution. In particular, data privacy is ensured
-since the learning process does not revisit any historical data
-(exemplar-free), which is more suitable for smart home scenarios. Empirical
-results in the public SSLR dataset demonstrate the superior performance of our
-proposal, achieving a localization accuracy of 90.9%, surpassing other
-competitive methods.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.07187v1">A Simple Linear Space Data Structure for ANN with Application in
-  Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B">
-  <p><b>Published on:</b> 2024-09-11T11:14:33Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Martin Aumüller, Fabrizio Boninsegna, Francesco Silvestri</p>
-    <p><b>Summary:</b> Locality Sensitive Filters are known for offering a quasi-linear space data
-structure with rigorous guarantees for the Approximate Near Neighbor search
-problem. Building on Locality Sensitive Filters, we derive a simple data
-structure for the Approximate Near Neighbor Counting problem under differential
-privacy. Moreover, we provide a simple analysis leveraging a connection with
-concomitant statistics and extreme value theory. Our approach achieves the same
-performance as the recent findings of Andoni et al. (NeurIPS 2023) but with a
-more straightforward method. As a side result, the paper provides a more
-compact description and analysis of Locality Sensitive Filters for Approximate
-Near Neighbor Search under inner product similarity, improving a previous
-result in Aum\"{u}ller et al. (TODS 2022).</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.06955v2">Privacy-Preserving Federated Learning with Consistency via Knowledge
-  Distillation Using Conditional Generator</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
-  <p><b>Published on:</b> 2024-09-11T02:36:36Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Kangyang Luo, Shuai Wang, Xiang Li, Yunshi Lan, Ming Gao, Jinlong Shu</p>
-    <p><b>Summary:</b> Federated Learning (FL) is gaining popularity as a distributed learning
-framework that only shares model parameters or gradient updates and keeps
-private data locally. However, FL is at risk of privacy leakage caused by
-privacy inference attacks. And most existing privacy-preserving mechanisms in
-FL conflict with achieving high performance and efficiency. Therefore, we
-propose FedMD-CG, a novel FL method with highly competitive performance and
-high-level privacy preservation, which decouples each client's local model into
-a feature extractor and a classifier, and utilizes a conditional generator
-instead of the feature extractor to perform server-side model aggregation. To
-ensure the consistency of local generators and classifiers, FedMD-CG leverages
-knowledge distillation to train local models and generators at both the latent
-feature level and the logit level. Also, we construct additional classification
-losses and design new diversity losses to enhance client-side training.
-FedMD-CG is robust to data heterogeneity and does not require training extra
-discriminators (like cGAN). We conduct extensive experiments on various image
-classification tasks to validate the superiority of FedMD-CG.</p>
   </details>
 </div>
 
