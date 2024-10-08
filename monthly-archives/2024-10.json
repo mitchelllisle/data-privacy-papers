@@ -304,5 +304,173 @@
       "cs.CR",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.05033v1",
+    "title" : "Extended Functional Representation Lemma: A Tool For Privacy, Semantic\n  Representation, Caching, and Compression Design",
+    "summary" : "This paper provides an overview of a problem in information-theoretic privacy\nmechanism design, addressing two scenarios in which private data is either\nobservable or hidden. In each scenario, different privacy measures are used,\nincluding bounded mutual information and two types of per-letter privacy\nconstraints. Considering the first scenario, an agent observes useful data that\nis correlated with private data, and wants to disclose the useful information\nto a user. Due to the privacy concerns, direct disclosure is prohibited. Hence,\na privacy mechanism is designed to generate disclosed data which maximizes the\nrevealed information about the useful data while satisfying a privacy\nconstraint. In the second scenario, the agent has additionally access to the\nprivate data. We discuss how the Functional Representation Lemma, the Strong\nFunctional Representation Lemma, and their extended versions are useful for\ndesigning low-complexity privacy mechanisms that achieve optimal\nprivacy-utility trade-offs under certain constraints. Furthermore, another\nprivacy design problem is presented where part of the private attribute is more\nprivate than the remaining part. Finally, we provide applications including\nsemantic communications, caching and delivery, and compression designs, where\nthe approach can be applied.",
+    "updated" : "2024-10-07T13:33:23Z",
+    "published" : "2024-10-07T13:33:23Z",
+    "authors" : [
+      {
+        "name" : "Amirreza Zamani"
+      },
+      {
+        "name" : "Mikael Skoglund"
+      }
+    ],
+    "categories" : [
+      "cs.IT",
+      "math.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.05020v1",
+    "title" : "FRIDA: Free-Rider Detection using Privacy Attacks",
+    "summary" : "Federated learning is increasingly popular as it enables multiple parties\nwith limited datasets and resources to train a high-performing machine learning\nmodel collaboratively. However, similarly to other collaborative systems,\nfederated learning is vulnerable to free-riders -- participants who do not\ncontribute to the training but still benefit from the shared model. Free-riders\nnot only compromise the integrity of the learning process but also slow down\nthe convergence of the global model, resulting in increased costs for the\nhonest participants.\n  To address this challenge, we propose FRIDA: free-rider detection using\nprivacy attacks, a framework that leverages inference attacks to detect\nfree-riders. Unlike traditional methods that only capture the implicit effects\nof free-riding, FRIDA directly infers details of the underlying training\ndatasets, revealing characteristics that indicate free-rider behaviour. Through\nextensive experiments, we demonstrate that membership and property inference\nattacks are effective for this purpose. Our evaluation shows that FRIDA\noutperforms state-of-the-art methods, especially in non-IID settings.",
+    "updated" : "2024-10-07T13:20:26Z",
+    "published" : "2024-10-07T13:20:26Z",
+    "authors" : [
+      {
+        "name" : "Pol G. Recasens"
+      },
+      {
+        "name" : "Ádám Horváth"
+      },
+      {
+        "name" : "Alberto Gutierrez-Torre"
+      },
+      {
+        "name" : "Jordi Torres"
+      },
+      {
+        "name" : "Josep Ll. Berral"
+      },
+      {
+        "name" : "Balázs Pejó"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.04754v1",
+    "title" : "A Comprehensive Study on GDPR-Oriented Analysis of Privacy Policies:\n  Taxonomy, Corpus and GDPR Concept Classifiers",
+    "summary" : "Machine learning based classifiers that take a privacy policy as the input\nand predict relevant concepts are useful in different applications such as\n(semi-)automated compliance analysis against requirements of the EU GDPR. In\nall past studies, such classifiers produce a concept label per segment (e.g.,\nsentence or paragraph) and their performances were evaluated by using a dataset\nof labeled segments without considering the privacy policy they belong to.\nHowever, such an approach could overestimate the performance in real-world\nsettings, where all segments in a new privacy policy are supposed to be unseen.\nAdditionally, we also observed other research gaps, including the lack of a\nmore complete GDPR taxonomy and the less consideration of hierarchical\ninformation in privacy policies. To fill such research gaps, we developed a\nmore complete GDPR taxonomy, created the first corpus of labeled privacy\npolicies with hierarchical information, and conducted the most comprehensive\nperformance evaluation of GDPR concept classifiers for privacy policies. Our\nwork leads to multiple novel findings, including the confirmed\ninappropriateness of splitting training and test sets at the segment level, the\nbenefits of considering hierarchical information, and the limitations of the\n\"one size fits all\" approach, and the significance of testing cross-corpus\ngeneralizability.",
+    "updated" : "2024-10-07T05:19:12Z",
+    "published" : "2024-10-07T05:19:12Z",
+    "authors" : [
+      {
+        "name" : "Peng Tang"
+      },
+      {
+        "name" : "Xin Li"
+      },
+      {
+        "name" : "Yuxin Chen"
+      },
+      {
+        "name" : "Weidong Qiu"
+      },
+      {
+        "name" : "Haochen Mei"
+      },
+      {
+        "name" : "Allison Holmes"
+      },
+      {
+        "name" : "Fenghua Li"
+      },
+      {
+        "name" : "Shujun Li"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.04606v1",
+    "title" : "Privacy's Peril: Unmasking the Unregulated Underground Market of Data\n  Brokers and the Suggested Framework",
+    "summary" : "The internet is a common place for businesses to collect and store as much\nclient data as possible and computer storage capacity has increased\nexponentially due to this trend. Businesses utilize this data to enhance\ncustomer satisfaction, generate revenue, boost sales, and increase profile.\nHowever, the emerging sector of data brokers is plagued with legal challenges.\nIn part I, we will look at what a data broker is, how it collects information,\nthe data industry, and some of the difficulties it encounters. In Part II, we\nwill look at potential options for regulating data brokers. All options are\nprovided in light of the EU General Data Protection Regulation (GDPR). In Part\nIII, we shall present our analysis and findings.",
+    "updated" : "2024-10-06T19:51:31Z",
+    "published" : "2024-10-06T19:51:31Z",
+    "authors" : [
+      {
+        "name" : "Rabia Bajwa"
+      },
+      {
+        "name" : "Farah Tasnur Meem"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.04302v1",
+    "title" : "PANav: Toward Privacy-Aware Robot Navigation via Vision-Language Models",
+    "summary" : "Navigating robots discreetly in human work environments while considering the\npossible privacy implications of robotic tasks presents significant challenges.\nSuch scenarios are increasingly common, for instance, when robots transport\nsensitive objects that demand high levels of privacy in spaces crowded with\nhuman activities. While extensive research has been conducted on robotic path\nplanning and social awareness, current robotic systems still lack the\nfunctionality of privacy-aware navigation in public environments. To address\nthis, we propose a new framework for mobile robot navigation that leverages\nvision-language models to incorporate privacy awareness into adaptive path\nplanning. Specifically, all potential paths from the starting point to the\ndestination are generated using the A* algorithm. Concurrently, the\nvision-language model is used to infer the optimal path for privacy-awareness,\ngiven the environmental layout and the navigational instruction. This approach\naims to minimize the robot's exposure to human activities and preserve the\nprivacy of the robot and its surroundings. Experimental results on the S3DIS\ndataset demonstrate that our framework significantly enhances mobile robots'\nprivacy awareness of navigation in human-shared public environments.\nFurthermore, we demonstrate the practical applicability of our framework by\nsuccessfully navigating a robotic platform through real-world office\nenvironments. The supplementary video and code can be accessed via the\nfollowing link: https://sites.google.com/view/privacy-aware-nav.",
+    "updated" : "2024-10-05T22:54:31Z",
+    "published" : "2024-10-05T22:54:31Z",
+    "authors" : [
+      {
+        "name" : "Bangguo Yu"
+      },
+      {
+        "name" : "Hamidreza Kasaei"
+      },
+      {
+        "name" : "Ming Cao"
+      }
+    ],
+    "categories" : [
+      "cs.RO"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.03925v1",
+    "title" : "C3PA: An Open Dataset of Expert-Annotated and Regulation-Aware Privacy\n  Policies to Enable Scalable Regulatory Compliance Audits",
+    "summary" : "The development of tools and techniques to analyze and extract organizations\ndata habits from privacy policies are critical for scalable regulatory\ncompliance audits. Unfortunately, these tools are becoming increasingly limited\nin their ability to identify compliance issues and fixes. After all, most were\ndeveloped using regulation-agnostic datasets of annotated privacy policies\nobtained from a time before the introduction of landmark privacy regulations\nsuch as EUs GDPR and Californias CCPA. In this paper, we describe the first\nopen regulation-aware dataset of expert-annotated privacy policies, C3PA (CCPA\nPrivacy Policy Provision Annotations), aimed to address this challenge. C3PA\ncontains over 48K expert-labeled privacy policy text segments associated with\nresponses to CCPA-specific disclosure mandates from 411 unique organizations.\nWe demonstrate that the C3PA dataset is uniquely suited for aiding automated\naudits of compliance with CCPA-related disclosure mandates.",
+    "updated" : "2024-10-04T21:04:39Z",
+    "published" : "2024-10-04T21:04:39Z",
+    "authors" : [
+      {
+        "name" : "Maaz Bin Musa"
+      },
+      {
+        "name" : "Steven M. Winston"
+      },
+      {
+        "name" : "Garrison Allen"
+      },
+      {
+        "name" : "Jacob Schiller"
+      },
+      {
+        "name" : "Kevin Moore"
+      },
+      {
+        "name" : "Sean Quick"
+      },
+      {
+        "name" : "Johnathan Melvin"
+      },
+      {
+        "name" : "Padmini Srinivasan"
+      },
+      {
+        "name" : "Mihailis E. Diamantis"
+      },
+      {
+        "name" : "Rishab Nithyanand"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.IR"
+    ]
   }
 ]
