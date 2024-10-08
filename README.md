@@ -2,6 +2,173 @@
 <h2>2024-10</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.05033v1">Extended Functional Representation Lemma: A Tool For Privacy, Semantic
+  Representation, Caching, and Compression Design</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
+  <p><b>Published on:</b> 2024-10-07T13:33:23Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Amirreza Zamani, Mikael Skoglund</p>
+    <p><b>Summary:</b> This paper provides an overview of a problem in information-theoretic privacy
+mechanism design, addressing two scenarios in which private data is either
+observable or hidden. In each scenario, different privacy measures are used,
+including bounded mutual information and two types of per-letter privacy
+constraints. Considering the first scenario, an agent observes useful data that
+is correlated with private data, and wants to disclose the useful information
+to a user. Due to the privacy concerns, direct disclosure is prohibited. Hence,
+a privacy mechanism is designed to generate disclosed data which maximizes the
+revealed information about the useful data while satisfying a privacy
+constraint. In the second scenario, the agent has additionally access to the
+private data. We discuss how the Functional Representation Lemma, the Strong
+Functional Representation Lemma, and their extended versions are useful for
+designing low-complexity privacy mechanisms that achieve optimal
+privacy-utility trade-offs under certain constraints. Furthermore, another
+privacy design problem is presented where part of the private attribute is more
+private than the remaining part. Finally, we provide applications including
+semantic communications, caching and delivery, and compression designs, where
+the approach can be applied.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.05020v1">FRIDA: Free-Rider Detection using Privacy Attacks</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-10-07T13:20:26Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Pol G. Recasens, Ádám Horváth, Alberto Gutierrez-Torre, Jordi Torres, Josep Ll. Berral, Balázs Pejó</p>
+    <p><b>Summary:</b> Federated learning is increasingly popular as it enables multiple parties
+with limited datasets and resources to train a high-performing machine learning
+model collaboratively. However, similarly to other collaborative systems,
+federated learning is vulnerable to free-riders -- participants who do not
+contribute to the training but still benefit from the shared model. Free-riders
+not only compromise the integrity of the learning process but also slow down
+the convergence of the global model, resulting in increased costs for the
+honest participants.
+  To address this challenge, we propose FRIDA: free-rider detection using
+privacy attacks, a framework that leverages inference attacks to detect
+free-riders. Unlike traditional methods that only capture the implicit effects
+of free-riding, FRIDA directly infers details of the underlying training
+datasets, revealing characteristics that indicate free-rider behaviour. Through
+extensive experiments, we demonstrate that membership and property inference
+attacks are effective for this purpose. Our evaluation shows that FRIDA
+outperforms state-of-the-art methods, especially in non-IID settings.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.04754v1">A Comprehensive Study on GDPR-Oriented Analysis of Privacy Policies:
+  Taxonomy, Corpus and GDPR Concept Classifiers</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-10-07T05:19:12Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Peng Tang, Xin Li, Yuxin Chen, Weidong Qiu, Haochen Mei, Allison Holmes, Fenghua Li, Shujun Li</p>
+    <p><b>Summary:</b> Machine learning based classifiers that take a privacy policy as the input
+and predict relevant concepts are useful in different applications such as
+(semi-)automated compliance analysis against requirements of the EU GDPR. In
+all past studies, such classifiers produce a concept label per segment (e.g.,
+sentence or paragraph) and their performances were evaluated by using a dataset
+of labeled segments without considering the privacy policy they belong to.
+However, such an approach could overestimate the performance in real-world
+settings, where all segments in a new privacy policy are supposed to be unseen.
+Additionally, we also observed other research gaps, including the lack of a
+more complete GDPR taxonomy and the less consideration of hierarchical
+information in privacy policies. To fill such research gaps, we developed a
+more complete GDPR taxonomy, created the first corpus of labeled privacy
+policies with hierarchical information, and conducted the most comprehensive
+performance evaluation of GDPR concept classifiers for privacy policies. Our
+work leads to multiple novel findings, including the confirmed
+inappropriateness of splitting training and test sets at the segment level, the
+benefits of considering hierarchical information, and the limitations of the
+"one size fits all" approach, and the significance of testing cross-corpus
+generalizability.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.04606v1">Privacy's Peril: Unmasking the Unregulated Underground Market of Data
+  Brokers and the Suggested Framework</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-10-06T19:51:31Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Rabia Bajwa, Farah Tasnur Meem</p>
+    <p><b>Summary:</b> The internet is a common place for businesses to collect and store as much
+client data as possible and computer storage capacity has increased
+exponentially due to this trend. Businesses utilize this data to enhance
+customer satisfaction, generate revenue, boost sales, and increase profile.
+However, the emerging sector of data brokers is plagued with legal challenges.
+In part I, we will look at what a data broker is, how it collects information,
+the data industry, and some of the difficulties it encounters. In Part II, we
+will look at potential options for regulating data brokers. All options are
+provided in light of the EU General Data Protection Regulation (GDPR). In Part
+III, we shall present our analysis and findings.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.04302v1">PANav: Toward Privacy-Aware Robot Navigation via Vision-Language Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Robotics-F9C80E">
+  <p><b>Published on:</b> 2024-10-05T22:54:31Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Bangguo Yu, Hamidreza Kasaei, Ming Cao</p>
+    <p><b>Summary:</b> Navigating robots discreetly in human work environments while considering the
+possible privacy implications of robotic tasks presents significant challenges.
+Such scenarios are increasingly common, for instance, when robots transport
+sensitive objects that demand high levels of privacy in spaces crowded with
+human activities. While extensive research has been conducted on robotic path
+planning and social awareness, current robotic systems still lack the
+functionality of privacy-aware navigation in public environments. To address
+this, we propose a new framework for mobile robot navigation that leverages
+vision-language models to incorporate privacy awareness into adaptive path
+planning. Specifically, all potential paths from the starting point to the
+destination are generated using the A* algorithm. Concurrently, the
+vision-language model is used to infer the optimal path for privacy-awareness,
+given the environmental layout and the navigational instruction. This approach
+aims to minimize the robot's exposure to human activities and preserve the
+privacy of the robot and its surroundings. Experimental results on the S3DIS
+dataset demonstrate that our framework significantly enhances mobile robots'
+privacy awareness of navigation in human-shared public environments.
+Furthermore, we demonstrate the practical applicability of our framework by
+successfully navigating a robotic platform through real-world office
+environments. The supplementary video and code can be accessed via the
+following link: https://sites.google.com/view/privacy-aware-nav.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.03925v1">C3PA: An Open Dataset of Expert-Annotated and Regulation-Aware Privacy
+  Policies to Enable Scalable Regulatory Compliance Audits</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB">
+  <p><b>Published on:</b> 2024-10-04T21:04:39Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Maaz Bin Musa, Steven M. Winston, Garrison Allen, Jacob Schiller, Kevin Moore, Sean Quick, Johnathan Melvin, Padmini Srinivasan, Mihailis E. Diamantis, Rishab Nithyanand</p>
+    <p><b>Summary:</b> The development of tools and techniques to analyze and extract organizations
+data habits from privacy policies are critical for scalable regulatory
+compliance audits. Unfortunately, these tools are becoming increasingly limited
+in their ability to identify compliance issues and fixes. After all, most were
+developed using regulation-agnostic datasets of annotated privacy policies
+obtained from a time before the introduction of landmark privacy regulations
+such as EUs GDPR and Californias CCPA. In this paper, we describe the first
+open regulation-aware dataset of expert-annotated privacy policies, C3PA (CCPA
+Privacy Policy Provision Annotations), aimed to address this challenge. C3PA
+contains over 48K expert-labeled privacy policy text segments associated with
+responses to CCPA-specific disclosure mandates from 411 unique organizations.
+We demonstrate that the C3PA dataset is uniquely suited for aiding automated
+audits of compliance with CCPA-related disclosure mandates.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2410.03621v1">A Global Medical Data Security and Privacy Preserving Standards
   Identification Framework for Electronic Healthcare Consumers</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
@@ -1044,7 +1211,7 @@ stricter standards.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.17642v1">AI Delegates with a Dual Focus: Ensuring Privacy and Strategic
+  <h3><a href="http://arxiv.org/abs/2409.17642v2">AI Delegates with a Dual Focus: Ensuring Privacy and Strategic
   Self-Disclosure</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
   <p><b>Published on:</b> 2024-09-26T08:45:15Z</p>
@@ -2778,201 +2945,6 @@ prompts from leaving clients, tailored for image generation with diffusion
 models. Our experimental results demonstrate that our algorithms and systems
 greatly enhance the efficiency of distributed training for ControlNet while
 ensuring users' data privacy without compromising image generation quality.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.07997v1">Privacy-preserving federated prediction of pain intensity change based
-  on multi-center survey data</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-09-12T12:41:58Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Supratim Das, Mahdie Rafie, Paula Kammer, Søren T. Skou, Dorte T. Grønne, Ewa M. Roos, André Hajek, Hans-Helmut König, Md Shihab Ullaha, Niklas Probul, Jan Baumbacha, Linda Baumbach</p>
-    <p><b>Summary:</b> Background: Patient-reported survey data are used to train prognostic models
-aimed at improving healthcare. However, such data are typically available
-multi-centric and, for privacy reasons, cannot easily be centralized in one
-data repository. Models trained locally are less accurate, robust, and
-generalizable. We present and apply privacy-preserving federated machine
-learning techniques for prognostic model building, where local survey data
-never leaves the legally safe harbors of the medical centers. Methods: We used
-centralized, local, and federated learning techniques on two healthcare
-datasets (GLA:D data from the five health regions of Denmark and international
-SHARE data of 27 countries) to predict two different health outcomes. We
-compared linear regression, random forest regression, and random forest
-classification models trained on local data with those trained on the entire
-data in a centralized and in a federated fashion. Results: In GLA:D data,
-federated linear regression (R2 0.34, RMSE 18.2) and federated random forest
-regression (R2 0.34, RMSE 18.3) models outperform their local counterparts
-(i.e., R2 0.32, RMSE 18.6, R2 0.30, RMSE 18.8) with statistical significance.
-We also found that centralized models (R2 0.34, RMSE 18.2, R2 0.32, RMSE 18.5,
-respectively) did not perform significantly better than the federated models.
-In SHARE, the federated model (AC 0.78, AUROC: 0.71) and centralized model (AC
-0.84, AUROC: 0.66) perform significantly better than the local models (AC:
-0.74, AUROC: 0.69). Conclusion: Federated learning enables the training of
-prognostic models from multi-center surveys without compromising privacy and
-with only minimal or no compromise regarding model performance.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.11423v1">Generated Data with Fake Privacy: Hidden Dangers of Fine-tuning Large
-  Language Models on Generated Data</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-09-12T10:14:12Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Atilla Akkus, Mingjie Li, Junjie Chu, Michael Backes, Yang Zhang, Sinem Sav</p>
-    <p><b>Summary:</b> Large language models (LLMs) have shown considerable success in a range of
-domain-specific tasks, especially after fine-tuning. However, fine-tuning with
-real-world data usually leads to privacy risks, particularly when the
-fine-tuning samples exist in the pre-training data. To avoid the shortcomings
-of real data, developers often employ methods to automatically generate
-synthetic data for fine-tuning, as data generated by traditional models are
-often far away from the real-world pertaining data. However, given the advanced
-capabilities of LLMs, the distinction between real data and LLM-generated data
-has become negligible, which may also lead to privacy risks like real data. In
-this paper, we present an empirical analysis of this underexplored issue by
-investigating a key question: "Does fine-tuning with LLM-generated data enhance
-privacy, or does it pose additional privacy risks?" Based on the structure of
-LLM's generated data, our research focuses on two primary approaches to
-fine-tuning with generated data: supervised fine-tuning with unstructured
-generated data and self-instruct tuning. The number of successful Personal
-Information Identifier (PII) extractions for Pythia after fine-tuning our
-generated data raised over $20\%$. Furthermore, the ROC-AUC score of membership
-inference attacks for Pythia-6.9b after self-instruct methods also achieves
-more than $40\%$ improvements on ROC-AUC score than base models. The results
-indicate the potential privacy risks in LLMs when fine-tuning with the
-generated data.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.07809v1">Controllable Synthetic Clinical Note Generation with Privacy Guarantees</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-09-12T07:38:34Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Tal Baumel, Andre Manoel, Daniel Jones, Shize Su, Huseyin Inan,  Aaron,  Bornstein, Robert Sim</p>
-    <p><b>Summary:</b> In the field of machine learning, domain-specific annotated data is an
-invaluable resource for training effective models. However, in the medical
-domain, this data often includes Personal Health Information (PHI), raising
-significant privacy concerns. The stringent regulations surrounding PHI limit
-the availability and sharing of medical datasets, which poses a substantial
-challenge for researchers and practitioners aiming to develop advanced machine
-learning models. In this paper, we introduce a novel method to "clone" datasets
-containing PHI. Our approach ensures that the cloned datasets retain the
-essential characteristics and utility of the original data without compromising
-patient privacy. By leveraging differential-privacy techniques and a novel
-fine-tuning task, our method produces datasets that are free from identifiable
-information while preserving the statistical properties necessary for model
-training. We conduct utility testing to evaluate the performance of machine
-learning models trained on the cloned datasets. The results demonstrate that
-our cloned datasets not only uphold privacy standards but also enhance model
-performance compared to those trained on traditional anonymized datasets. This
-work offers a viable solution for the ethical and effective utilization of
-sensitive medical data in machine learning, facilitating progress in medical
-research and the development of robust predictive models.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.07773v1">PDC-FRS: Privacy-preserving Data Contribution for Federated Recommender
-  System</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB">
-  <p><b>Published on:</b> 2024-09-12T06:13:07Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Chaoqun Yang, Wei Yuan, Liang Qu, Thanh Tam Nguyen</p>
-    <p><b>Summary:</b> Federated recommender systems (FedRecs) have emerged as a popular research
-direction for protecting users' privacy in on-device recommendations. In
-FedRecs, users keep their data locally and only contribute their local
-collaborative information by uploading model parameters to a central server.
-While this rigid framework protects users' raw data during training, it
-severely compromises the recommendation model's performance due to the
-following reasons: (1) Due to the power law distribution nature of user
-behavior data, individual users have few data points to train a recommendation
-model, resulting in uploaded model updates that may be far from optimal; (2) As
-each user's uploaded parameters are learned from local data, which lacks global
-collaborative information, relying solely on parameter aggregation methods such
-as FedAvg to fuse global collaborative information may be suboptimal. To bridge
-this performance gap, we propose a novel federated recommendation framework,
-PDC-FRS. Specifically, we design a privacy-preserving data contribution
-mechanism that allows users to share their data with a differential privacy
-guarantee. Based on the shared but perturbed data, an auxiliary model is
-trained in parallel with the original federated recommendation process. This
-auxiliary model enhances FedRec by augmenting each user's local dataset and
-integrating global collaborative information. To demonstrate the effectiveness
-of PDC-FRS, we conduct extensive experiments on two widely used recommendation
-datasets. The empirical results showcase the superiority of PDC-FRS compared to
-baseline methods.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.07751v1">Efficient Privacy-Preserving KAN Inference Using Homomorphic Encryption</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-09-12T04:51:27Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zhizheng Lai, Yufei Zhou, Peijia Zheng, Lin Chen</p>
-    <p><b>Summary:</b> The recently proposed Kolmogorov-Arnold Networks (KANs) offer enhanced
-interpretability and greater model expressiveness. However, KANs also present
-challenges related to privacy leakage during inference. Homomorphic encryption
-(HE) facilitates privacy-preserving inference for deep learning models,
-enabling resource-limited users to benefit from deep learning services while
-ensuring data security. Yet, the complex structure of KANs, incorporating
-nonlinear elements like the SiLU activation function and B-spline functions,
-renders existing privacy-preserving inference techniques inadequate. To address
-this issue, we propose an accurate and efficient privacy-preserving inference
-scheme tailored for KANs. Our approach introduces a task-specific polynomial
-approximation for the SiLU activation function, dynamically adjusting the
-approximation range to ensure high accuracy on real-world datasets.
-Additionally, we develop an efficient method for computing B-spline functions
-within the HE domain, leveraging techniques such as repeat packing, lazy
-combination, and comparison functions. We evaluate the effectiveness of our
-privacy-preserving KAN inference scheme on both symbolic formula evaluation and
-image classification. The experimental results show that our model achieves
-accuracy comparable to plaintext KANs across various datasets and outperforms
-plaintext MLPs. Additionally, on the CIFAR-10 dataset, our inference latency
-achieves over 7 times speedup compared to the naive method.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.07444v2">Echoes of Privacy: Uncovering the Profiling Practices of Voice
-  Assistants</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
-  <p><b>Published on:</b> 2024-09-11T17:44:41Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Tina Khezresmaeilzadeh, Elaine Zhu, Kiersten Grieco, Daniel J. Dubois, Konstantinos Psounis, David Choffnes</p>
-    <p><b>Summary:</b> Many companies, including Google, Amazon, and Apple, offer voice assistants
-as a convenient solution for answering general voice queries and accessing
-their services. These voice assistants have gained popularity and can be easily
-accessed through various smart devices such as smartphones, smart speakers,
-smartwatches, and an increasing array of other devices. However, this
-convenience comes with potential privacy risks. For instance, while companies
-vaguely mention in their privacy policies that they may use voice interactions
-for user profiling, it remains unclear to what extent this profiling occurs and
-whether voice interactions pose greater privacy risks compared to other
-interaction modalities.
-  In this paper, we conduct 1171 experiments involving a total of 24530 queries
-with different personas and interaction modalities over the course of 20 months
-to characterize how the three most popular voice assistants profile their
-users. We analyze factors such as the labels assigned to users, their accuracy,
-the time taken to assign these labels, differences between voice and web
-interactions, and the effectiveness of profiling remediation tools offered by
-each voice assistant. Our findings reveal that profiling can happen without
-interaction, can be incorrect and inconsistent at times, may take several days
-to weeks for changes to occur, and can be influenced by the interaction
-modality.</p>
   </details>
 </div>
 
