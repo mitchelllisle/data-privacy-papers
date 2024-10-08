@@ -4101,5 +4101,51 @@
       "cs.CL",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.17642v2",
+    "title" : "AI Delegates with a Dual Focus: Ensuring Privacy and Strategic\n  Self-Disclosure",
+    "summary" : "Large language model (LLM)-based AI delegates are increasingly utilized to\nact on behalf of users, assisting them with a wide range of tasks through\nconversational interfaces. Despite their advantages, concerns arise regarding\nthe potential risk of privacy leaks, particularly in scenarios involving social\ninteractions. While existing research has focused on protecting privacy by\nlimiting the access of AI delegates to sensitive user information, many social\nscenarios require disclosing private details to achieve desired outcomes,\nnecessitating a balance between privacy protection and disclosure. To address\nthis challenge, we conduct a pilot study to investigate user preferences for AI\ndelegates across various social relations and task scenarios, and then propose\na novel AI delegate system that enables privacy-conscious self-disclosure. Our\nuser study demonstrates that the proposed AI delegate strategically protects\nprivacy, pioneering its use in diverse and dynamic social interactions.",
+    "updated" : "2024-10-07T06:29:54Z",
+    "published" : "2024-09-26T08:45:15Z",
+    "authors" : [
+      {
+        "name" : "Xi Chen"
+      },
+      {
+        "name" : "Zhiyang Zhang"
+      },
+      {
+        "name" : "Fangkai Yang"
+      },
+      {
+        "name" : "Xiaoting Qin"
+      },
+      {
+        "name" : "Chao Du"
+      },
+      {
+        "name" : "Xi Cheng"
+      },
+      {
+        "name" : "Hangxin Liu"
+      },
+      {
+        "name" : "Qingwei Lin"
+      },
+      {
+        "name" : "Saravan Rajmohan"
+      },
+      {
+        "name" : "Dongmei Zhang"
+      },
+      {
+        "name" : "Qi Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.AI",
+      "cs.CY"
+    ]
   }
 ]
