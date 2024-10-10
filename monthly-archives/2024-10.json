@@ -472,5 +472,229 @@
       "cs.CL",
       "cs.IR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.06814v1",
+    "title" : "Defending Membership Inference Attacks via Privacy-aware Sparsity Tuning",
+    "summary" : "Over-parameterized models are typically vulnerable to membership inference\nattacks, which aim to determine whether a specific sample is included in the\ntraining of a given model. Previous Weight regularizations (e.g., L1\nregularization) typically impose uniform penalties on all parameters, leading\nto a suboptimal tradeoff between model utility and privacy. In this work, we\nfirst show that only a small fraction of parameters substantially impact the\nprivacy risk. In light of this, we propose Privacy-aware Sparsity Tuning\n(PAST), a simple fix to the L1 Regularization, by employing adaptive penalties\nto different parameters. Our key idea behind PAST is to promote sparsity in\nparameters that significantly contribute to privacy leakage. In particular, we\nconstruct the adaptive weight for each parameter based on its privacy\nsensitivity, i.e., the gradient of the loss gap with respect to the parameter.\nUsing PAST, the network shrinks the loss gap between members and non-members,\nleading to strong resistance to privacy attacks. Extensive experiments\ndemonstrate the superiority of PAST, achieving a state-of-the-art balance in\nthe privacy-utility trade-off.",
+    "updated" : "2024-10-09T12:13:49Z",
+    "published" : "2024-10-09T12:13:49Z",
+    "authors" : [
+      {
+        "name" : "Qiang Hu"
+      },
+      {
+        "name" : "Hengxiang Zhang"
+      },
+      {
+        "name" : "Hongxin Wei"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.06587v1",
+    "title" : "Bots can Snoop: Uncovering and Mitigating Privacy Risks of Bots in Group\n  Chats",
+    "summary" : "New privacy concerns arise with chatbots on group messaging platforms.\nChatbots may access information beyond their intended functionalities, such as\nmessages unintended for chatbots or sender's identities. Chatbot operators may\nexploit such information to infer personal information and link users across\ngroups, potentially leading to personal data breaches, pervasive tracking, and\ntargeted advertising. Our analysis of conversation datasets shows that (1)\nchatbots often access far more messages than needed, and (2) when a user joins\na new group with chatbots, there is a 3.4% chance that at least one of the\nchatbots can recognize and associate the user with their previous interactions\nin other groups. Although state-of-the-art group messaging protocols provide\nrobust end-to-end security and some platforms have implemented policies to\nlimit chatbot access, no platforms successfully combine these features. This\npaper introduces SnoopGuard, a secure group messaging protocol that ensures\nuser privacy against chatbots while maintaining strong end-to-end security. Our\nmethod offers selective message access, preventing chatbots from accessing\nunrelated messages, and ensures sender anonymity within the group. SnoopGuard\nachieves $O(\\log n + m)$ message-sending complexity for a group of $n$ users\nand $m$ chatbots, compared to $O(\\log(n + m))$ in state-of-the-art protocols,\nwith acceptable overhead for enhanced privacy. Our prototype implementation\nshows that sending a message in a group of 50 users and 10 chatbots takes about\n30 milliseconds when integrated with Message Layer Security (MLS).",
+    "updated" : "2024-10-09T06:37:41Z",
+    "published" : "2024-10-09T06:37:41Z",
+    "authors" : [
+      {
+        "name" : "Kai-Hsiang Chou"
+      },
+      {
+        "name" : "Yi-Min Lin"
+      },
+      {
+        "name" : "Yi-An Wang"
+      },
+      {
+        "name" : "Jonathan Weiping Li"
+      },
+      {
+        "name" : "Tiffany Hyun-Jin Kim"
+      },
+      {
+        "name" : "Hsu-Chun Hsiao"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.06266v1",
+    "title" : "Near Exact Privacy Amplification for Matrix Mechanisms",
+    "summary" : "We study the problem of computing the privacy parameters for DP machine\nlearning when using privacy amplification via random batching and noise\ncorrelated across rounds via a correlation matrix $\\textbf{C}$ (i.e., the\nmatrix mechanism). Past work on this problem either only applied to banded\n$\\textbf{C}$, or gave loose privacy parameters. In this work, we give a\nframework for computing near-exact privacy parameters for any lower-triangular,\nnon-negative $\\textbf{C}$. Our framework allows us to optimize the correlation\nmatrix $\\textbf{C}$ while accounting for amplification, whereas past work could\nnot. Empirically, we show this lets us achieve smaller RMSE on prefix sums than\nthe previous state-of-the-art (SOTA). We also show that we can improve on the\nSOTA performance on deep learning tasks. Our two main technical tools are (i)\nusing Monte Carlo accounting to bypass composition, which was the main\ntechnical challenge for past work, and (ii) a \"balls-in-bins\" batching scheme\nthat enables easy privacy analysis and is closer to practical random batching\nthan Poisson sampling.",
+    "updated" : "2024-10-08T18:05:56Z",
+    "published" : "2024-10-08T18:05:56Z",
+    "authors" : [
+      {
+        "name" : "Christopher A. Choquette-Choo"
+      },
+      {
+        "name" : "Arun Ganesh"
+      },
+      {
+        "name" : "Saminul Haque"
+      },
+      {
+        "name" : "Thomas Steinke"
+      },
+      {
+        "name" : "Abhradeep Thakurta"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.05930v1",
+    "title" : "Fortify Your Foundations: Practical Privacy and Security for Foundation\n  Model Deployments In The Cloud",
+    "summary" : "Foundation Models (FMs) display exceptional performance in tasks such as\nnatural language processing and are being applied across a growing range of\ndisciplines. Although typically trained on large public datasets, FMs are often\nfine-tuned or integrated into Retrieval-Augmented Generation (RAG) systems,\nwhich rely on private data. This access, along with their size and costly\ntraining, heightens the risk of intellectual property theft. Moreover,\nmultimodal FMs may expose sensitive information. In this work, we examine the\nFM threat model and discuss the practicality and comprehensiveness of various\napproaches for securing against them, such as ML-based methods and trusted\nexecution environments (TEEs). We demonstrate that TEEs offer an effective\nbalance between strong security properties, usability, and performance.\nSpecifically, we present a solution achieving less than 10\\% overhead versus\nbare metal for the full Llama2 7B and 13B inference pipelines running inside\n\\intel\\ SGX and \\intel\\ TDX. We also share our configuration files and insights\nfrom our implementation. To our knowledge, our work is the first to show the\npracticality of TEEs for securing FMs.",
+    "updated" : "2024-10-08T11:33:09Z",
+    "published" : "2024-10-08T11:33:09Z",
+    "authors" : [
+      {
+        "name" : "Marcin Chrapek"
+      },
+      {
+        "name" : "Anjo Vahldiek-Oberwagner"
+      },
+      {
+        "name" : "Marcin Spoczynski"
+      },
+      {
+        "name" : "Scott Constable"
+      },
+      {
+        "name" : "Mona Vij"
+      },
+      {
+        "name" : "Torsten Hoefler"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.05907v1",
+    "title" : "Privacy-Enhanced Over-the-Air Federated Learning via Client-Driven Power\n  Balancing",
+    "summary" : "This paper introduces a novel privacy-enhanced over-the-air Federated\nLearning (OTA-FL) framework using client-driven power balancing (CDPB) to\naddress privacy concerns in OTA-FL systems. In recent studies, a server\ndetermines the power balancing based on the continuous transmission of channel\nstate information (CSI) from each client. Furthermore, they concentrate on\nfulfilling privacy requirements in every global iteration, which can heighten\nthe risk of privacy exposure as the learning process extends. To mitigate these\nrisks, we propose two CDPB strategies -- CDPB-n (noisy) and CDPB-i (idle) --\nallowing clients to adjust transmission power independently, without sharing\nCSI. CDPB-n transmits noise during poor conditions, while CDPB-i pauses\ntransmission until conditions improve. To further enhance privacy and learning\nefficiency, we show a mixed strategy, CDPB-mixed, which combines CDPB-n and\nCDPB-i. Our experimental results show that CDPB outperforms traditional\napproaches in terms of model accuracy and privacy guarantees, providing a\npractical solution for enhancing OTA-FL in resource-constrained environments.",
+    "updated" : "2024-10-08T11:05:37Z",
+    "published" : "2024-10-08T11:05:37Z",
+    "authors" : [
+      {
+        "name" : "Bumjun Kim"
+      },
+      {
+        "name" : "Hyowoon Seo"
+      },
+      {
+        "name" : "Wan Choi"
+      }
+    ],
+    "categories" : [
+      "eess.SP"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.05842v1",
+    "title" : "Privacy-aware Fully Model-Free Event-triggered Cloud-based HVAC Control",
+    "summary" : "Privacy is a major concern when computing-as-a-service (CaaS) platforms,\ne.g., cloud-computing platforms, are utilized for building automation, as CaaS\nplatforms can infer sensitive information, such as occupancy, using the sensor\nmeasurements of a building. Although the existing encrypted model-based control\nalgorithms can ensure the security and privacy of sensor measurements, they are\nhighly complex to implement and require high computational resources, which\nresult in a high cost of using CaaS platforms. To address these issues, in this\npaper, we propose an encrypted fully model-free event-triggered cloud-based\nHVAC control framework that ensures the privacy of occupancy information and\nminimizes the communication and computation overhead associated with encrypted\nHVAC control. To this end, we first develop a model-free controller for\nregulating indoor temperature and CO2 levels. We then design a model-free\nevent-triggering unit which reduces the communication and computation costs of\nencrypted HVAC control using an optimal triggering policy. Finally, we evaluate\nthe performance of the proposed encrypted fully model-free event-triggered\ncloud-based HVAC control framework using the TRNSYS simulator, comparing it to\nan encrypted model-based event-triggered control framework, which uses model\npredictive control to regulate the indoor climate. Our numerical results\ndemonstrate that, compared to the encrypted model-based method, the proposed\nfully model-free framework improves the control performance while reducing the\ncommunication and computation costs. More specifically, it reduces the\ncommunication between the system and the CaaS platform by 64% amount, and its\ncomputation time is 75% less than that of the model-based control.",
+    "updated" : "2024-10-08T09:15:21Z",
+    "published" : "2024-10-08T09:15:21Z",
+    "authors" : [
+      {
+        "name" : "Zhenan Feng"
+      },
+      {
+        "name" : "Ehsan Nekouei"
+      }
+    ],
+    "categories" : [
+      "eess.SY",
+      "cs.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.05725v1",
+    "title" : "KnowledgeSG: Privacy-Preserving Synthetic Text Generation with Knowledge\n  Distillation from Server",
+    "summary" : "The success of large language models (LLMs) facilitate many parties to\nfine-tune LLMs on their own private data. However, this practice raises privacy\nconcerns due to the memorization of LLMs. Existing solutions, such as utilizing\nsynthetic data for substitution, struggle to simultaneously improve performance\nand preserve privacy. They either rely on a local model for generation,\nresulting in a performance decline, or take advantage of APIs, directly\nexposing the data to API servers. To address this issue, we propose\n\\textit{KnowledgeSG}, a novel client-server framework which enhances synthetic\ndata quality and improves model performance while ensuring privacy. We achieve\nthis by learning local knowledge from the private data with differential\nprivacy (DP) and distilling professional knowledge from the server.\nAdditionally, inspired by federated learning, we transmit models rather than\ndata between the client and server to prevent privacy leakage. Extensive\nexperiments in medical and financial domains demonstrate the effectiveness of\nKnowledgeSG. Our code is now publicly available at\nhttps://github.com/wwh0411/KnowledgeSG.",
+    "updated" : "2024-10-08T06:42:28Z",
+    "published" : "2024-10-08T06:42:28Z",
+    "authors" : [
+      {
+        "name" : "Wenhao Wang"
+      },
+      {
+        "name" : "Xiaoyu Liang"
+      },
+      {
+        "name" : "Rui Ye"
+      },
+      {
+        "name" : "Jingyi Chai"
+      },
+      {
+        "name" : "Siheng Chen"
+      },
+      {
+        "name" : "Yanfeng Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.05653v1",
+    "title" : "A Blockchain-Enhanced Framework for Privacy and Data Integrity in\n  Crowdsourced Drone Services",
+    "summary" : "We present an innovative framework that integrates consumer-grade drones into\nbushfire management, addressing both service improvement and data privacy\nconcerns under Australia's Privacy Act 1988. This system establishes a\nmarketplace where bushfire management authorities, as data consumers, access\ncritical information from drone operators, who serve as data providers. The\nframework employs local differential privacy to safeguard the privacy of data\nproviders from all system entities, ensuring compliance with privacy standards.\nAdditionally, a blockchain-based solution facilitates fair data and fee\nexchanges while maintaining immutable records for enhanced accountability.\nValidated through a proof-of-concept implementation, the framework's\nscalability and adaptability make it well-suited for large-scale, real-world\napplications in bushfire management.",
+    "updated" : "2024-10-08T03:08:47Z",
+    "published" : "2024-10-08T03:08:47Z",
+    "authors" : [
+      {
+        "name" : "Junaid Akram"
+      },
+      {
+        "name" : "Ali Anaissi"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.05506v1",
+    "title" : "Privacy Vulnerabilities in Marginals-based Synthetic Data",
+    "summary" : "When acting as a privacy-enhancing technology, synthetic data generation\n(SDG) aims to maintain a resemblance to the real data while excluding\npersonally-identifiable information. Many SDG algorithms provide robust\ndifferential privacy (DP) guarantees to this end. However, we show that the\nstrongest class of SDG algorithms--those that preserve \\textit{marginal\nprobabilities}, or similar statistics, from the underlying data--leak\ninformation about individuals that can be recovered more efficiently than\npreviously understood. We demonstrate this by presenting a novel membership\ninference attack, MAMA-MIA, and evaluate it against three seminal DP SDG\nalgorithms: MST, PrivBayes, and Private-GSD. MAMA-MIA leverages knowledge of\nwhich SDG algorithm was used, allowing it to learn information about the hidden\ndata more accurately, and orders-of-magnitude faster, than other leading\nattacks. We use MAMA-MIA to lend insight into existing SDG vulnerabilities. Our\napproach went on to win the first SNAKE (SaNitization Algorithm under attacK\n... $\\varepsilon$) competition.",
+    "updated" : "2024-10-07T21:24:22Z",
+    "published" : "2024-10-07T21:24:22Z",
+    "authors" : [
+      {
+        "name" : "Steven Golob"
+      },
+      {
+        "name" : "Sikha Pentyala"
+      },
+      {
+        "name" : "Anuar Maratkhan"
+      },
+      {
+        "name" : "Martine De Cock"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
   }
 ]
