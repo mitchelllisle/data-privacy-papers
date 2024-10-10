@@ -2,6 +2,259 @@
 <h2>2024-10</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.06814v1">Defending Membership Inference Attacks via Privacy-aware Sparsity Tuning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-10-09T12:13:49Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Qiang Hu, Hengxiang Zhang, Hongxin Wei</p>
+    <p><b>Summary:</b> Over-parameterized models are typically vulnerable to membership inference
+attacks, which aim to determine whether a specific sample is included in the
+training of a given model. Previous Weight regularizations (e.g., L1
+regularization) typically impose uniform penalties on all parameters, leading
+to a suboptimal tradeoff between model utility and privacy. In this work, we
+first show that only a small fraction of parameters substantially impact the
+privacy risk. In light of this, we propose Privacy-aware Sparsity Tuning
+(PAST), a simple fix to the L1 Regularization, by employing adaptive penalties
+to different parameters. Our key idea behind PAST is to promote sparsity in
+parameters that significantly contribute to privacy leakage. In particular, we
+construct the adaptive weight for each parameter based on its privacy
+sensitivity, i.e., the gradient of the loss gap with respect to the parameter.
+Using PAST, the network shrinks the loss gap between members and non-members,
+leading to strong resistance to privacy attacks. Extensive experiments
+demonstrate the superiority of PAST, achieving a state-of-the-art balance in
+the privacy-utility trade-off.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.06587v1">Bots can Snoop: Uncovering and Mitigating Privacy Risks of Bots in Group
+  Chats</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-10-09T06:37:41Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Kai-Hsiang Chou, Yi-Min Lin, Yi-An Wang, Jonathan Weiping Li, Tiffany Hyun-Jin Kim, Hsu-Chun Hsiao</p>
+    <p><b>Summary:</b> New privacy concerns arise with chatbots on group messaging platforms.
+Chatbots may access information beyond their intended functionalities, such as
+messages unintended for chatbots or sender's identities. Chatbot operators may
+exploit such information to infer personal information and link users across
+groups, potentially leading to personal data breaches, pervasive tracking, and
+targeted advertising. Our analysis of conversation datasets shows that (1)
+chatbots often access far more messages than needed, and (2) when a user joins
+a new group with chatbots, there is a 3.4% chance that at least one of the
+chatbots can recognize and associate the user with their previous interactions
+in other groups. Although state-of-the-art group messaging protocols provide
+robust end-to-end security and some platforms have implemented policies to
+limit chatbot access, no platforms successfully combine these features. This
+paper introduces SnoopGuard, a secure group messaging protocol that ensures
+user privacy against chatbots while maintaining strong end-to-end security. Our
+method offers selective message access, preventing chatbots from accessing
+unrelated messages, and ensures sender anonymity within the group. SnoopGuard
+achieves $O(\log n + m)$ message-sending complexity for a group of $n$ users
+and $m$ chatbots, compared to $O(\log(n + m))$ in state-of-the-art protocols,
+with acceptable overhead for enhanced privacy. Our prototype implementation
+shows that sending a message in a group of 50 users and 10 chatbots takes about
+30 milliseconds when integrated with Message Layer Security (MLS).</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.06266v1">Near Exact Privacy Amplification for Matrix Mechanisms</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-10-08T18:05:56Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Christopher A. Choquette-Choo, Arun Ganesh, Saminul Haque, Thomas Steinke, Abhradeep Thakurta</p>
+    <p><b>Summary:</b> We study the problem of computing the privacy parameters for DP machine
+learning when using privacy amplification via random batching and noise
+correlated across rounds via a correlation matrix $\textbf{C}$ (i.e., the
+matrix mechanism). Past work on this problem either only applied to banded
+$\textbf{C}$, or gave loose privacy parameters. In this work, we give a
+framework for computing near-exact privacy parameters for any lower-triangular,
+non-negative $\textbf{C}$. Our framework allows us to optimize the correlation
+matrix $\textbf{C}$ while accounting for amplification, whereas past work could
+not. Empirically, we show this lets us achieve smaller RMSE on prefix sums than
+the previous state-of-the-art (SOTA). We also show that we can improve on the
+SOTA performance on deep learning tasks. Our two main technical tools are (i)
+using Monte Carlo accounting to bypass composition, which was the main
+technical challenge for past work, and (ii) a "balls-in-bins" batching scheme
+that enables easy privacy analysis and is closer to practical random batching
+than Poisson sampling.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.05930v1">Fortify Your Foundations: Practical Privacy and Security for Foundation
+  Model Deployments In The Cloud</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-10-08T11:33:09Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Marcin Chrapek, Anjo Vahldiek-Oberwagner, Marcin Spoczynski, Scott Constable, Mona Vij, Torsten Hoefler</p>
+    <p><b>Summary:</b> Foundation Models (FMs) display exceptional performance in tasks such as
+natural language processing and are being applied across a growing range of
+disciplines. Although typically trained on large public datasets, FMs are often
+fine-tuned or integrated into Retrieval-Augmented Generation (RAG) systems,
+which rely on private data. This access, along with their size and costly
+training, heightens the risk of intellectual property theft. Moreover,
+multimodal FMs may expose sensitive information. In this work, we examine the
+FM threat model and discuss the practicality and comprehensiveness of various
+approaches for securing against them, such as ML-based methods and trusted
+execution environments (TEEs). We demonstrate that TEEs offer an effective
+balance between strong security properties, usability, and performance.
+Specifically, we present a solution achieving less than 10\% overhead versus
+bare metal for the full Llama2 7B and 13B inference pipelines running inside
+\intel\ SGX and \intel\ TDX. We also share our configuration files and insights
+from our implementation. To our knowledge, our work is the first to show the
+practicality of TEEs for securing FMs.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.05907v1">Privacy-Enhanced Over-the-Air Federated Learning via Client-Driven Power
+  Balancing</a></h3>
+  
+  <p><b>Published on:</b> 2024-10-08T11:05:37Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Bumjun Kim, Hyowoon Seo, Wan Choi</p>
+    <p><b>Summary:</b> This paper introduces a novel privacy-enhanced over-the-air Federated
+Learning (OTA-FL) framework using client-driven power balancing (CDPB) to
+address privacy concerns in OTA-FL systems. In recent studies, a server
+determines the power balancing based on the continuous transmission of channel
+state information (CSI) from each client. Furthermore, they concentrate on
+fulfilling privacy requirements in every global iteration, which can heighten
+the risk of privacy exposure as the learning process extends. To mitigate these
+risks, we propose two CDPB strategies -- CDPB-n (noisy) and CDPB-i (idle) --
+allowing clients to adjust transmission power independently, without sharing
+CSI. CDPB-n transmits noise during poor conditions, while CDPB-i pauses
+transmission until conditions improve. To further enhance privacy and learning
+efficiency, we show a mixed strategy, CDPB-mixed, which combines CDPB-n and
+CDPB-i. Our experimental results show that CDPB outperforms traditional
+approaches in terms of model accuracy and privacy guarantees, providing a
+practical solution for enhancing OTA-FL in resource-constrained environments.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.05842v1">Privacy-aware Fully Model-Free Event-triggered Cloud-based HVAC Control</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
+  <p><b>Published on:</b> 2024-10-08T09:15:21Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zhenan Feng, Ehsan Nekouei</p>
+    <p><b>Summary:</b> Privacy is a major concern when computing-as-a-service (CaaS) platforms,
+e.g., cloud-computing platforms, are utilized for building automation, as CaaS
+platforms can infer sensitive information, such as occupancy, using the sensor
+measurements of a building. Although the existing encrypted model-based control
+algorithms can ensure the security and privacy of sensor measurements, they are
+highly complex to implement and require high computational resources, which
+result in a high cost of using CaaS platforms. To address these issues, in this
+paper, we propose an encrypted fully model-free event-triggered cloud-based
+HVAC control framework that ensures the privacy of occupancy information and
+minimizes the communication and computation overhead associated with encrypted
+HVAC control. To this end, we first develop a model-free controller for
+regulating indoor temperature and CO2 levels. We then design a model-free
+event-triggering unit which reduces the communication and computation costs of
+encrypted HVAC control using an optimal triggering policy. Finally, we evaluate
+the performance of the proposed encrypted fully model-free event-triggered
+cloud-based HVAC control framework using the TRNSYS simulator, comparing it to
+an encrypted model-based event-triggered control framework, which uses model
+predictive control to regulate the indoor climate. Our numerical results
+demonstrate that, compared to the encrypted model-based method, the proposed
+fully model-free framework improves the control performance while reducing the
+communication and computation costs. More specifically, it reduces the
+communication between the system and the CaaS platform by 64% amount, and its
+computation time is 75% less than that of the model-based control.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.05725v1">KnowledgeSG: Privacy-Preserving Synthetic Text Generation with Knowledge
+  Distillation from Server</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-10-08T06:42:28Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Wenhao Wang, Xiaoyu Liang, Rui Ye, Jingyi Chai, Siheng Chen, Yanfeng Wang</p>
+    <p><b>Summary:</b> The success of large language models (LLMs) facilitate many parties to
+fine-tune LLMs on their own private data. However, this practice raises privacy
+concerns due to the memorization of LLMs. Existing solutions, such as utilizing
+synthetic data for substitution, struggle to simultaneously improve performance
+and preserve privacy. They either rely on a local model for generation,
+resulting in a performance decline, or take advantage of APIs, directly
+exposing the data to API servers. To address this issue, we propose
+\textit{KnowledgeSG}, a novel client-server framework which enhances synthetic
+data quality and improves model performance while ensuring privacy. We achieve
+this by learning local knowledge from the private data with differential
+privacy (DP) and distilling professional knowledge from the server.
+Additionally, inspired by federated learning, we transmit models rather than
+data between the client and server to prevent privacy leakage. Extensive
+experiments in medical and financial domains demonstrate the effectiveness of
+KnowledgeSG. Our code is now publicly available at
+https://github.com/wwh0411/KnowledgeSG.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.05653v1">A Blockchain-Enhanced Framework for Privacy and Data Integrity in
+  Crowdsourced Drone Services</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-10-08T03:08:47Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Junaid Akram, Ali Anaissi</p>
+    <p><b>Summary:</b> We present an innovative framework that integrates consumer-grade drones into
+bushfire management, addressing both service improvement and data privacy
+concerns under Australia's Privacy Act 1988. This system establishes a
+marketplace where bushfire management authorities, as data consumers, access
+critical information from drone operators, who serve as data providers. The
+framework employs local differential privacy to safeguard the privacy of data
+providers from all system entities, ensuring compliance with privacy standards.
+Additionally, a blockchain-based solution facilitates fair data and fee
+exchanges while maintaining immutable records for enhanced accountability.
+Validated through a proof-of-concept implementation, the framework's
+scalability and adaptability make it well-suited for large-scale, real-world
+applications in bushfire management.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.05506v1">Privacy Vulnerabilities in Marginals-based Synthetic Data</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-10-07T21:24:22Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Steven Golob, Sikha Pentyala, Anuar Maratkhan, Martine De Cock</p>
+    <p><b>Summary:</b> When acting as a privacy-enhancing technology, synthetic data generation
+(SDG) aims to maintain a resemblance to the real data while excluding
+personally-identifiable information. Many SDG algorithms provide robust
+differential privacy (DP) guarantees to this end. However, we show that the
+strongest class of SDG algorithms--those that preserve \textit{marginal
+probabilities}, or similar statistics, from the underlying data--leak
+information about individuals that can be recovered more efficiently than
+previously understood. We demonstrate this by presenting a novel membership
+inference attack, MAMA-MIA, and evaluate it against three seminal DP SDG
+algorithms: MST, PrivBayes, and Private-GSD. MAMA-MIA leverages knowledge of
+which SDG algorithm was used, allowing it to learn information about the hidden
+data more accurately, and orders-of-magnitude faster, than other leading
+attacks. We use MAMA-MIA to lend insight into existing SDG vulnerabilities. Our
+approach went on to win the first SNAKE (SaNitization Algorithm under attacK
+... $\varepsilon$) competition.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2410.05033v1">Extended Functional Representation Lemma: A Tool For Privacy, Semantic
   Representation, Caching, and Compression Design</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
@@ -2672,279 +2925,6 @@ differentiate obfuscated from actual locations. Our results show that
 TransProtect increases VehiTrack's inference error by 57.75% with Laplacian
 noise and 27.21% with LP, significantly enhancing protection against these
 attacks.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.01813v1">Privacy-Preserving SAM Quantization for Efficient Edge Intelligence in
-  Healthcare</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2024-09-14T10:43:35Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zhikai Li, Jing Zhang, Qingyi Gu</p>
-    <p><b>Summary:</b> The disparity in healthcare personnel expertise and medical resources across
-different regions of the world is a pressing social issue. Artificial
-intelligence technology offers new opportunities to alleviate this issue.
-Segment Anything Model (SAM), which excels in intelligent image segmentation,
-has demonstrated exceptional performance in medical monitoring and assisted
-diagnosis. Unfortunately, the huge computational and storage overhead of SAM
-poses significant challenges for deployment on resource-limited edge devices.
-Quantization is an effective solution for model compression; however,
-traditional methods rely heavily on original data for calibration, which raises
-widespread concerns about medical data privacy and security. In this paper, we
-propose a data-free quantization framework for SAM, called DFQ-SAM, which
-learns and calibrates quantization parameters without any original data, thus
-effectively preserving data privacy during model compression. Specifically, we
-propose pseudo-positive label evolution for segmentation, combined with patch
-similarity, to fully leverage the semantic and distribution priors in
-pre-trained models, which facilitates high-quality data synthesis as a
-substitute for real data. Furthermore, we introduce scale reparameterization to
-ensure the accuracy of low-bit quantization. We perform extensive segmentation
-experiments on various datasets, and DFQ-SAM consistently provides significant
-performance on low-bit quantization. DFQ-SAM eliminates the need for data
-transfer in cloud-edge collaboration, thereby protecting sensitive data from
-potential attacks. It enables secure, fast, and personalized healthcare
-services at the edge, which enhances system efficiency and optimizes resource
-allocation, and thus facilitating the pervasive application of artificial
-intelligence in worldwide healthcare.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.09363v2">Security and Privacy Perspectives of People Living in Shared Home
-  Environments</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2024-09-14T08:34:57Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Nandita Pattnaik, Shujun Li, Jason R. C. Nurse</p>
-    <p><b>Summary:</b> Security and privacy perspectives of people in a multi-user home are a
-growing area of research, with many researchers reflecting on the complicated
-power imbalance and challenging access control issues of the devices involved.
-However, these studies primarily focused on the multi-user scenarios in
-traditional family home settings, leaving other types of multi-user home
-environments, such as homes shared by co-habitants without a familial
-relationship, under-studied. This paper closes this research gap via
-quantitative and qualitative analysis of results from an online survey and
-content analysis of sampled online posts on Reddit. It explores the complex
-roles of shared home users, which depend on various factors unique to the
-shared home environment, e.g., who owns what home devices, how home devices are
-used by multiple users, and more complicated relationships between the landlord
-and people in the shared home and among co-habitants. Half (50.7%) of our
-survey participants thought that devices in a shared home are less secure than
-in a traditional family home. This perception was found statistically
-significantly associated with factors such as the fear of devices being
-tampered with in their absence and (lack of) trust in other co-habitants and
-their visitors. Our study revealed new user types and relationships in a
-multi-user environment such as ExternalPrimary-InternalPrimary while analysing
-the landlord and shared home resident relationship with regard to shared home
-device use. We propose a threat actor model for shared home environments, which
-has a focus on possible malicious behaviours of current and past co-habitants
-of a shared home, as a special type of insider threat in a home environment. We
-also recommend further research to understand the complex roles co-habitants
-can play in navigating and adapting to a shared home environment's security and
-privacy landscape.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.09272v1">SafeEar: Content Privacy-Preserving Audio Deepfake Detection</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Multimedia-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Sound-D91E36"> 
-  <p><b>Published on:</b> 2024-09-14T02:45:09Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Xinfeng Li, Kai Li, Yifan Zheng, Chen Yan, Xiaoyu Ji, Wenyuan Xu</p>
-    <p><b>Summary:</b> Text-to-Speech (TTS) and Voice Conversion (VC) models have exhibited
-remarkable performance in generating realistic and natural audio. However,
-their dark side, audio deepfake poses a significant threat to both society and
-individuals. Existing countermeasures largely focus on determining the
-genuineness of speech based on complete original audio recordings, which
-however often contain private content. This oversight may refrain deepfake
-detection from many applications, particularly in scenarios involving sensitive
-information like business secrets. In this paper, we propose SafeEar, a novel
-framework that aims to detect deepfake audios without relying on accessing the
-speech content within. Our key idea is to devise a neural audio codec into a
-novel decoupling model that well separates the semantic and acoustic
-information from audio samples, and only use the acoustic information (e.g.,
-prosody and timbre) for deepfake detection. In this way, no semantic content
-will be exposed to the detector. To overcome the challenge of identifying
-diverse deepfake audio without semantic clues, we enhance our deepfake detector
-with real-world codec augmentation. Extensive experiments conducted on four
-benchmark datasets demonstrate SafeEar's effectiveness in detecting various
-deepfake techniques with an equal error rate (EER) down to 2.02%.
-Simultaneously, it shields five-language speech content from being deciphered
-by both machine and human auditory analysis, demonstrated by word error rates
-(WERs) all above 93.93% and our user study. Furthermore, our benchmark
-constructed for anti-deepfake and anti-content recovery evaluation helps
-provide a basis for future research in the realms of audio privacy preservation
-and deepfake detection.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.11430v2">Federated Learning with Quantum Computing and Fully Homomorphic
-  Encryption: A Novel Computing Paradigm Shift in Privacy-Preserving ML</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Neural and Evolutionary Computing-5BC0EB">
-  <p><b>Published on:</b> 2024-09-14T01:23:26Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Siddhant Dutta, Pavana P Karanth, Pedro Maciel Xavier, Iago Leal de Freitas, Nouhaila Innan, Sadok Ben Yahia, Muhammad Shafique, David E. Bernal Neira</p>
-    <p><b>Summary:</b> The widespread deployment of products powered by machine learning models is
-raising concerns around data privacy and information security worldwide. To
-address this issue, Federated Learning was first proposed as a
-privacy-preserving alternative to conventional methods that allow multiple
-learning clients to share model knowledge without disclosing private data. A
-complementary approach known as Fully Homomorphic Encryption (FHE) is a
-quantum-safe cryptographic system that enables operations to be performed on
-encrypted weights. However, implementing mechanisms such as these in practice
-often comes with significant computational overhead and can expose potential
-security threats. Novel computing paradigms, such as analog, quantum, and
-specialized digital hardware, present opportunities for implementing
-privacy-preserving machine learning systems while enhancing security and
-mitigating performance loss. This work instantiates these ideas by applying the
-FHE scheme to a Federated Learning Neural Network architecture that integrates
-both classical and quantum layers.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.09222v1">Dark Patterns in the Opt-Out Process and Compliance with the California
-  Consumer Privacy Act (CCPA)</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2024-09-13T22:20:43Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Van Hong Tran, Aarushi Mehrotra, Ranya Sharma, Marshini Chetty, Nick Feamster, Jens Frankenreiter, Lior Strahilevitz</p>
-    <p><b>Summary:</b> To protect consumer privacy, the California Consumer Privacy Act (CCPA)
-mandates that businesses provide consumers with a straightforward way to opt
-out of the sale and sharing of their personal information. However, the control
-that businesses enjoy over the opt-out process allows them to impose hurdles on
-consumers aiming to opt out, including by employing dark patterns. Motivated by
-the enactment of the California Privacy Rights Act (CPRA), which strengthens
-the CCPA and explicitly forbids certain dark patterns in the opt-out process,
-we investigate how dark patterns are used in opt-out processes and assess their
-compliance with CCPA regulations. Our research reveals that websites employ a
-variety of dark patterns. Some of these patterns are explicitly prohibited
-under the CCPA; others evidently take advantage of legal loopholes. Despite the
-initial efforts to restrict dark patterns by policymakers, there is more work
-to be done.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.08913v2">HLTCOE JHU Submission to the Voice Privacy Challenge 2024</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-09-13T15:29:37Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Henry Li Xinyuan, Zexin Cai, Ashi Garg, Kevin Duh, Leibny Paola García-Perera, Sanjeev Khudanpur, Nicholas Andrews, Matthew Wiesner</p>
-    <p><b>Summary:</b> We present a number of systems for the Voice Privacy Challenge, including
-voice conversion based systems such as the kNN-VC method and the WavLM voice
-Conversion method, and text-to-speech (TTS) based systems including
-Whisper-VITS. We found that while voice conversion systems better preserve
-emotional content, they struggle to conceal speaker identity in semi-white-box
-attack scenarios; conversely, TTS methods perform better at anonymization and
-worse at emotion preservation. Finally, we propose a random admixture system
-which seeks to balance out the strengths and weaknesses of the two category of
-systems, achieving a strong EER of over 40% while maintaining UAR at a
-respectable 47%.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.08636v2">Utilizing Data Fingerprints for Privacy-Preserving Algorithm Selection
-  in Time Series Classification: Performance and Uncertainty Estimation on
-  Unseen Datasets</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2024-09-13T08:43:42Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Lars Böcking, Leopold Müller, Niklas Kühl</p>
-    <p><b>Summary:</b> The selection of algorithms is a crucial step in designing AI services for
-real-world time series classification use cases. Traditional methods such as
-neural architecture search, automated machine learning, combined algorithm
-selection, and hyperparameter optimizations are effective but require
-considerable computational resources and necessitate access to all data points
-to run their optimizations. In this work, we introduce a novel data fingerprint
-that describes any time series classification dataset in a privacy-preserving
-manner and provides insight into the algorithm selection problem without
-requiring training on the (unseen) dataset. By decomposing the multi-target
-regression problem, only our data fingerprints are used to estimate algorithm
-performance and uncertainty in a scalable and adaptable manner. Our approach is
-evaluated on the 112 University of California riverside benchmark datasets,
-demonstrating its effectiveness in predicting the performance of 35
-state-of-the-art algorithms and providing valuable insights for effective
-algorithm selection in time series classification service systems, improving a
-naive baseline by 7.32% on average in estimating the mean performance and
-15.81% in estimating the uncertainty.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.08538v1">An Efficient Privacy-aware Split Learning Framework for Satellite
-  Communications</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-09-13T04:59:35Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jianfei Sun, Cong Wu, Shahid Mumtaz, Junyi Tao, Mingsheng Cao, Mei Wang, Valerio Frascolla</p>
-    <p><b>Summary:</b> In the rapidly evolving domain of satellite communications, integrating
-advanced machine learning techniques, particularly split learning, is crucial
-for enhancing data processing and model training efficiency across satellites,
-space stations, and ground stations. Traditional ML approaches often face
-significant challenges within satellite networks due to constraints such as
-limited bandwidth and computational resources. To address this gap, we propose
-a novel framework for more efficient SL in satellite communications. Our
-approach, Dynamic Topology Informed Pruning, namely DTIP, combines differential
-privacy with graph and model pruning to optimize graph neural networks for
-distributed learning. DTIP strategically applies differential privacy to raw
-graph data and prunes GNNs, thereby optimizing both model size and
-communication load across network tiers. Extensive experiments across diverse
-datasets demonstrate DTIP's efficacy in enhancing privacy, accuracy, and
-computational efficiency. Specifically, on Amazon2M dataset, DTIP maintains an
-accuracy of 0.82 while achieving a 50% reduction in floating-point operations
-per second. Similarly, on ArXiv dataset, DTIP achieves an accuracy of 0.85
-under comparable conditions. Our framework not only significantly improves the
-operational efficiency of satellite communications but also establishes a new
-benchmark in privacy-aware distributed learning, potentially revolutionizing
-data handling in space-based networks.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.08503v1">Enhancing Privacy in ControlNet and Stable Diffusion via Split Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-09-13T02:55:22Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Dixi Yao</p>
-    <p><b>Summary:</b> With the emerging trend of large generative models, ControlNet is introduced
-to enable users to fine-tune pre-trained models with their own data for various
-use cases. A natural question arises: how can we train ControlNet models while
-ensuring users' data privacy across distributed devices? Exploring different
-distributed training schemes, we find conventional federated learning and split
-learning unsuitable. Instead, we propose a new distributed learning structure
-that eliminates the need for the server to send gradients back. Through a
-comprehensive evaluation of existing threats, we discover that in the context
-of training ControlNet with split learning, most existing attacks are
-ineffective, except for two mentioned in previous literature. To counter these
-threats, we leverage the properties of diffusion models and design a new
-timestep sampling policy during forward processes. We further propose a
-privacy-preserving activation function and a method to prevent private text
-prompts from leaving clients, tailored for image generation with diffusion
-models. Our experimental results demonstrate that our algorithms and systems
-greatly enhance the efficiency of distributed training for ControlNet while
-ensuring users' data privacy without compromising image generation quality.</p>
   </details>
 </div>
 
