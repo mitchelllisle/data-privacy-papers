@@ -2,6 +2,134 @@
 <h2>2024-10</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.08122v1">PP-GWAS: Privacy Preserving Multi-Site Genome-wide Association Studies</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-10-10T17:07:57Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Arjhun Swaminathan, Anika Hannemann, Ali Burak Ünal, Nico Pfeifer, Mete Akgün</p>
+    <p><b>Summary:</b> Genome-wide association studies are pivotal in understanding the genetic
+underpinnings of complex traits and diseases. Collaborative, multi-site GWAS
+aim to enhance statistical power but face obstacles due to the sensitive nature
+of genomic data sharing. Current state-of-the-art methods provide a
+privacy-focused approach utilizing computationally expensive methods such as
+Secure Multi-Party Computation and Homomorphic Encryption. In this context, we
+present a novel algorithm PP-GWAS designed to improve upon existing standards
+in terms of computational efficiency and scalability without sacrificing data
+privacy. This algorithm employs randomized encoding within a distributed
+architecture to perform stacked ridge regression on a Linear Mixed Model to
+ensure rigorous analysis. Experimental evaluation with real world and synthetic
+data indicates that PP-GWAS can achieve computational speeds twice as fast as
+similar state-of-the-art algorithms while using lesser computational resources,
+all while adhering to a robust security model that caters to an all-but-one
+semi-honest adversary setting. We have assessed its performance using various
+datasets, emphasizing its potential in facilitating more efficient and private
+genomic analyses.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.07900v1">CL3: A Collaborative Learning Framework for the Medical Data Ensuring
+  Data Privacy in the Hyperconnected Environment</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-10-10T13:29:12Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mohamamd Zavid Parvez, Rafiqul Islam, Md Zahidul Islam</p>
+    <p><b>Summary:</b> In a hyperconnected environment, medical institutions are particularly
+concerned with data privacy when sharing and transmitting sensitive patient
+information due to the risk of data breaches, where malicious actors could
+intercept sensitive information. A collaborative learning framework, including
+transfer, federated, and incremental learning, can generate efficient, secure,
+and scalable models while requiring less computation, maintaining patient data
+privacy, and ensuring an up-to-date model. This study aims to address the
+detection of COVID-19 using chest X-ray images through a proposed collaborative
+learning framework called CL3. Initially, transfer learning is employed,
+leveraging knowledge from a pre-trained model as the starting global model.
+Local models from different medical institutes are then integrated, and a new
+global model is constructed to adapt to any data drift observed in the local
+models. Additionally, incremental learning is considered, allowing continuous
+adaptation to new medical data without forgetting previously learned
+information. Experimental results demonstrate that the CL3 framework achieved a
+global accuracy of 89.99\% when using Xception with a batch size of 16 after
+being trained for six federated communication rounds.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.07772v1">Towards Quantifying The Privacy Of Redacted Text</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-10-10T10:00:27Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Vaibhav Gusain, Douglas Leith</p>
+    <p><b>Summary:</b> In this paper we propose use of a k-anonymity-like approach for evaluating
+the privacy of redacted text. Given a piece of redacted text we use a state of
+the art transformer-based deep learning network to reconstruct the original
+text. This generates multiple full texts that are consistent with the redacted
+text, i.e. which are grammatical, have the same non-redacted words etc, and
+represents each of these using an embedding vector that captures sentence
+similarity. In this way we can estimate the number, diversity and quality of
+full text consistent with the redacted text and so evaluate privacy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.07632v1">Provable Privacy Attacks on Trained Shallow Neural Networks</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-10-10T05:54:01Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Guy Smorodinsky, Gal Vardi, Itay Safran</p>
+    <p><b>Summary:</b> We study what provable privacy attacks can be shown on trained, 2-layer ReLU
+neural networks. We explore two types of attacks; data reconstruction attacks,
+and membership inference attacks. We prove that theoretical results on the
+implicit bias of 2-layer neural networks can be used to provably reconstruct a
+set of which at least a constant fraction are training points in a univariate
+setting, and can also be used to identify with high probability whether a given
+point was used in the training set in a high dimensional setting. To the best
+of our knowledge, our work is the first to show provable vulnerabilities in
+this setting.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.07414v1">Bayes-Nash Generative Privacy Protection Against Membership Inference
+  Attacks</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-10-09T20:29:04Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Tao Zhang, Rajagopal Venkatesaraman, Rajat K. De, Bradley A. Malin, Yevgeniy Vorobeychik</p>
+    <p><b>Summary:</b> An ability to share data, even in aggregated form, is critical to advancing
+both conventional and data science. However, insofar as such datasets are
+comprised of individuals, their membership in these datasets is often viewed as
+sensitive, with membership inference attacks (MIAs) threatening to violate
+their privacy. We propose a Bayesian game model for privacy-preserving
+publishing of data-sharing mechanism outputs (for example, summary statistics
+for sharing genomic data). In this game, the defender minimizes a combination
+of expected utility and privacy loss, with the latter being maximized by a
+Bayes-rational attacker. We propose a GAN-style algorithm to approximate a
+Bayes-Nash equilibrium of this game, and introduce the notions of Bayes-Nash
+generative privacy (BNGP) and Bayes generative privacy (BGP) risk that aims to
+optimally balance the defender's privacy and utility in a way that is robust to
+the attacker's heterogeneous preferences with respect to true and false
+positives. We demonstrate the properties of composition and post-processing for
+BGP risk and establish conditions under which BNGP and pure differential
+privacy (PDP) are equivalent. We apply our method to sharing summary
+statistics, where MIAs can re-identify individuals even from aggregated data.
+Theoretical analysis and empirical results demonstrate that our Bayesian
+game-theoretic method outperforms state-of-the-art approaches for
+privacy-preserving sharing of summary statistics.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2410.06814v1">Defending Membership Inference Attacks via Privacy-aware Sparsity Tuning</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
   <p><b>Published on:</b> 2024-10-09T12:13:49Z</p>
@@ -177,7 +305,7 @@ computation time is 75% less than that of the model-based control.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.05725v1">KnowledgeSG: Privacy-Preserving Synthetic Text Generation with Knowledge
+  <h3><a href="http://arxiv.org/abs/2410.05725v2">KnowledgeSG: Privacy-Preserving Synthetic Text Generation with Knowledge
   Distillation from Server</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
   <p><b>Published on:</b> 2024-10-08T06:42:28Z</p>
@@ -191,15 +319,14 @@ synthetic data for substitution, struggle to simultaneously improve performance
 and preserve privacy. They either rely on a local model for generation,
 resulting in a performance decline, or take advantage of APIs, directly
 exposing the data to API servers. To address this issue, we propose
-\textit{KnowledgeSG}, a novel client-server framework which enhances synthetic
-data quality and improves model performance while ensuring privacy. We achieve
-this by learning local knowledge from the private data with differential
-privacy (DP) and distilling professional knowledge from the server.
-Additionally, inspired by federated learning, we transmit models rather than
-data between the client and server to prevent privacy leakage. Extensive
-experiments in medical and financial domains demonstrate the effectiveness of
-KnowledgeSG. Our code is now publicly available at
-https://github.com/wwh0411/KnowledgeSG.</p>
+KnowledgeSG, a novel client-server framework which enhances synthetic data
+quality and improves model performance while ensuring privacy. We achieve this
+by learning local knowledge from the private data with differential privacy
+(DP) and distilling professional knowledge from the server. Additionally,
+inspired by federated learning, we transmit models rather than data between the
+client and server to prevent privacy leakage. Extensive experiments in medical
+and financial domains demonstrate the effectiveness of KnowledgeSG. Our code is
+now publicly available at https://github.com/wwh0411/KnowledgeSG.</p>
   </details>
 </div>
 
@@ -2778,153 +2905,6 @@ scenarios. Specifically within vertically partitioned scenarios, which often
 involve few parties, the protocol remains practical. In this reply we clarify
 Liu's misunderstanding. Additionally, we explain why the protocols scaling is
 not a practical problem in its intended application.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.09972v1">Securing the Future: Exploring Privacy Risks and Security Questions in
-  Robotic Systems</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Robotics-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2024-09-16T04:10:24Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Diba Afroze, Yazhou Tu, Xiali Hei</p>
-    <p><b>Summary:</b> The integration of artificial intelligence, especially large language models
-in robotics, has led to rapid advancements in the field. We are now observing
-an unprecedented surge in the use of robots in our daily lives. The development
-and continual improvements of robots are moving at an astonishing pace.
-Although these remarkable improvements facilitate and enhance our lives,
-several security and privacy concerns have not been resolved yet. Therefore, it
-has become crucial to address the privacy and security threats of robotic
-systems while improving our experiences. In this paper, we aim to present
-existing applications and threats of robotics, anticipated future evolution,
-and the security and privacy issues they may imply. We present a series of open
-questions for researchers and practitioners to explore further.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.09558v1">A Statistical Viewpoint on Differential Privacy: Hypothesis Testing,
-  Representation and Blackwell's Theorem</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36">  
-  <p><b>Published on:</b> 2024-09-14T23:47:22Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Weijie J. Su</p>
-    <p><b>Summary:</b> Differential privacy is widely considered the formal privacy for
-privacy-preserving data analysis due to its robust and rigorous guarantees,
-with increasingly broad adoption in public services, academia, and industry.
-Despite originating in the cryptographic context, in this review paper we argue
-that, fundamentally, differential privacy can be considered a \textit{pure}
-statistical concept. By leveraging a theorem due to David Blackwell, our focus
-is to demonstrate that the definition of differential privacy can be formally
-motivated from a hypothesis testing perspective, thereby showing that
-hypothesis testing is not merely convenient but also the right language for
-reasoning about differential privacy. This insight leads to the definition of
-$f$-differential privacy, which extends other differential privacy definitions
-through a representation theorem. We review techniques that render
-$f$-differential privacy a unified framework for analyzing privacy bounds in
-data analysis and machine learning. Applications of this differential privacy
-definition to private deep learning, private convex optimization, shuffled
-mechanisms, and U.S.~Census data are discussed to highlight the benefits of
-analyzing privacy bounds under this framework compared to existing
-alternatives.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.09532v1">Using Synthetic Data to Mitigate Unfairness and Preserve Privacy through
-  Single-Shot Federated Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Optimization and Control-F9C80E"> 
-  <p><b>Published on:</b> 2024-09-14T21:04:11Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Chia-Yuan Wu, Frank E. Curtis, Daniel P. Robinson</p>
-    <p><b>Summary:</b> To address unfairness issues in federated learning (FL), contemporary
-approaches typically use frequent model parameter updates and transmissions
-between the clients and server. In such a process, client-specific information
-(e.g., local dataset size or data-related fairness metrics) must be sent to the
-server to compute, e.g., aggregation weights. All of this results in high
-transmission costs and the potential leakage of client information. As an
-alternative, we propose a strategy that promotes fair predictions across
-clients without the need to pass information between the clients and server
-iteratively and prevents client data leakage. For each client, we first use
-their local dataset to obtain a synthetic dataset by solving a bilevel
-optimization problem that addresses unfairness concerns during the learning
-process. We then pass each client's synthetic dataset to the server, the
-collection of which is used to train the server model using conventional
-machine learning techniques (that do not take fairness metrics into account).
-Thus, we eliminate the need to handle fairness-specific aggregation weights
-while preserving client privacy. Our approach requires only a single
-communication between the clients and the server, thus making it
-computationally cost-effective, able to maintain privacy, and able to ensuring
-fairness. We present empirical evidence to demonstrate the advantages of our
-approach. The results illustrate that our method effectively uses synthetic
-data as a means to mitigate unfairness and preserve client privacy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.09510v1">Comparing Retrieval-Augmentation and Parameter-Efficient Fine-Tuning for
-  Privacy-Preserving Personalization of Large Language Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2024-09-14T19:18:26Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Alireza Salemi, Hamed Zamani</p>
-    <p><b>Summary:</b> Privacy-preserving methods for personalizing large language models (LLMs) are
-relatively under-explored. There are two schools of thought on this topic: (1)
-generating personalized outputs by personalizing the input prompt through
-retrieval augmentation from the user's personal information (RAG-based
-methods), and (2) parameter-efficient fine-tuning of LLMs per user that
-considers efficiency and space limitations (PEFT-based methods). This paper
-presents the first systematic comparison between two approaches on a wide range
-of personalization tasks using seven diverse datasets. Our results indicate
-that RAG-based and PEFT-based personalization methods on average yield 14.92%
-and 1.07% improvements over the non-personalized LLM, respectively. We find
-that combining RAG with PEFT elevates these improvements to 15.98%.
-Additionally, we identify a positive correlation between the amount of user
-data and PEFT's effectiveness, indicating that RAG is a better choice for
-cold-start users (i.e., user's with limited personal data).</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.09495v1">Protecting Vehicle Location Privacy with Contextually-Driven Synthetic
-  Location Generation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-09-14T17:47:23Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Sourabh Yadav, Chenyang Yu, Xinpeng Xie, Yan Huang, Chenxi Qiu</p>
-    <p><b>Summary:</b> Geo-obfuscation is a Location Privacy Protection Mechanism used in
-location-based services that allows users to report obfuscated locations
-instead of exact ones. A formal privacy criterion, geoindistinguishability
-(Geo-Ind), requires real locations to be hard to distinguish from nearby
-locations (by attackers) based on their obfuscated representations. However,
-Geo-Ind often fails to consider context, such as road networks and vehicle
-traffic conditions, making it less effective in protecting the location privacy
-of vehicles, of which the mobility are heavily influenced by these factors.
-  In this paper, we introduce VehiTrack, a new threat model to demonstrate the
-vulnerability of Geo-Ind in protecting vehicle location privacy from
-context-aware inference attacks. Our experiments demonstrate that VehiTrack can
-accurately determine exact vehicle locations from obfuscated data, reducing
-average inference errors by 61.20% with Laplacian noise and 47.35% with linear
-programming (LP) compared to traditional Bayesian attacks. By using contextual
-data like road networks and traffic flow, VehiTrack effectively eliminates a
-significant number of seemingly "impossible" locations during its search for
-the actual location of the vehicles. Based on these insights, we propose
-TransProtect, a new geo-obfuscation approach that limits obfuscation to
-realistic vehicle movement patterns, complicating attackers' ability to
-differentiate obfuscated from actual locations. Our results show that
-TransProtect increases VehiTrack's inference error by 57.75% with Laplacian
-noise and 27.21% with LP, significantly enhancing protection against these
-attacks.</p>
   </details>
 </div>
 
