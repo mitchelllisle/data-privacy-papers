@@ -696,5 +696,151 @@
       "cs.CR",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.08122v1",
+    "title" : "PP-GWAS: Privacy Preserving Multi-Site Genome-wide Association Studies",
+    "summary" : "Genome-wide association studies are pivotal in understanding the genetic\nunderpinnings of complex traits and diseases. Collaborative, multi-site GWAS\naim to enhance statistical power but face obstacles due to the sensitive nature\nof genomic data sharing. Current state-of-the-art methods provide a\nprivacy-focused approach utilizing computationally expensive methods such as\nSecure Multi-Party Computation and Homomorphic Encryption. In this context, we\npresent a novel algorithm PP-GWAS designed to improve upon existing standards\nin terms of computational efficiency and scalability without sacrificing data\nprivacy. This algorithm employs randomized encoding within a distributed\narchitecture to perform stacked ridge regression on a Linear Mixed Model to\nensure rigorous analysis. Experimental evaluation with real world and synthetic\ndata indicates that PP-GWAS can achieve computational speeds twice as fast as\nsimilar state-of-the-art algorithms while using lesser computational resources,\nall while adhering to a robust security model that caters to an all-but-one\nsemi-honest adversary setting. We have assessed its performance using various\ndatasets, emphasizing its potential in facilitating more efficient and private\ngenomic analyses.",
+    "updated" : "2024-10-10T17:07:57Z",
+    "published" : "2024-10-10T17:07:57Z",
+    "authors" : [
+      {
+        "name" : "Arjhun Swaminathan"
+      },
+      {
+        "name" : "Anika Hannemann"
+      },
+      {
+        "name" : "Ali Burak Ünal"
+      },
+      {
+        "name" : "Nico Pfeifer"
+      },
+      {
+        "name" : "Mete Akgün"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.07900v1",
+    "title" : "CL3: A Collaborative Learning Framework for the Medical Data Ensuring\n  Data Privacy in the Hyperconnected Environment",
+    "summary" : "In a hyperconnected environment, medical institutions are particularly\nconcerned with data privacy when sharing and transmitting sensitive patient\ninformation due to the risk of data breaches, where malicious actors could\nintercept sensitive information. A collaborative learning framework, including\ntransfer, federated, and incremental learning, can generate efficient, secure,\nand scalable models while requiring less computation, maintaining patient data\nprivacy, and ensuring an up-to-date model. This study aims to address the\ndetection of COVID-19 using chest X-ray images through a proposed collaborative\nlearning framework called CL3. Initially, transfer learning is employed,\nleveraging knowledge from a pre-trained model as the starting global model.\nLocal models from different medical institutes are then integrated, and a new\nglobal model is constructed to adapt to any data drift observed in the local\nmodels. Additionally, incremental learning is considered, allowing continuous\nadaptation to new medical data without forgetting previously learned\ninformation. Experimental results demonstrate that the CL3 framework achieved a\nglobal accuracy of 89.99\\% when using Xception with a batch size of 16 after\nbeing trained for six federated communication rounds.",
+    "updated" : "2024-10-10T13:29:12Z",
+    "published" : "2024-10-10T13:29:12Z",
+    "authors" : [
+      {
+        "name" : "Mohamamd Zavid Parvez"
+      },
+      {
+        "name" : "Rafiqul Islam"
+      },
+      {
+        "name" : "Md Zahidul Islam"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.07772v1",
+    "title" : "Towards Quantifying The Privacy Of Redacted Text",
+    "summary" : "In this paper we propose use of a k-anonymity-like approach for evaluating\nthe privacy of redacted text. Given a piece of redacted text we use a state of\nthe art transformer-based deep learning network to reconstruct the original\ntext. This generates multiple full texts that are consistent with the redacted\ntext, i.e. which are grammatical, have the same non-redacted words etc, and\nrepresents each of these using an embedding vector that captures sentence\nsimilarity. In this way we can estimate the number, diversity and quality of\nfull text consistent with the redacted text and so evaluate privacy.",
+    "updated" : "2024-10-10T10:00:27Z",
+    "published" : "2024-10-10T10:00:27Z",
+    "authors" : [
+      {
+        "name" : "Vaibhav Gusain"
+      },
+      {
+        "name" : "Douglas Leith"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.07632v1",
+    "title" : "Provable Privacy Attacks on Trained Shallow Neural Networks",
+    "summary" : "We study what provable privacy attacks can be shown on trained, 2-layer ReLU\nneural networks. We explore two types of attacks; data reconstruction attacks,\nand membership inference attacks. We prove that theoretical results on the\nimplicit bias of 2-layer neural networks can be used to provably reconstruct a\nset of which at least a constant fraction are training points in a univariate\nsetting, and can also be used to identify with high probability whether a given\npoint was used in the training set in a high dimensional setting. To the best\nof our knowledge, our work is the first to show provable vulnerabilities in\nthis setting.",
+    "updated" : "2024-10-10T05:54:01Z",
+    "published" : "2024-10-10T05:54:01Z",
+    "authors" : [
+      {
+        "name" : "Guy Smorodinsky"
+      },
+      {
+        "name" : "Gal Vardi"
+      },
+      {
+        "name" : "Itay Safran"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.07414v1",
+    "title" : "Bayes-Nash Generative Privacy Protection Against Membership Inference\n  Attacks",
+    "summary" : "An ability to share data, even in aggregated form, is critical to advancing\nboth conventional and data science. However, insofar as such datasets are\ncomprised of individuals, their membership in these datasets is often viewed as\nsensitive, with membership inference attacks (MIAs) threatening to violate\ntheir privacy. We propose a Bayesian game model for privacy-preserving\npublishing of data-sharing mechanism outputs (for example, summary statistics\nfor sharing genomic data). In this game, the defender minimizes a combination\nof expected utility and privacy loss, with the latter being maximized by a\nBayes-rational attacker. We propose a GAN-style algorithm to approximate a\nBayes-Nash equilibrium of this game, and introduce the notions of Bayes-Nash\ngenerative privacy (BNGP) and Bayes generative privacy (BGP) risk that aims to\noptimally balance the defender's privacy and utility in a way that is robust to\nthe attacker's heterogeneous preferences with respect to true and false\npositives. We demonstrate the properties of composition and post-processing for\nBGP risk and establish conditions under which BNGP and pure differential\nprivacy (PDP) are equivalent. We apply our method to sharing summary\nstatistics, where MIAs can re-identify individuals even from aggregated data.\nTheoretical analysis and empirical results demonstrate that our Bayesian\ngame-theoretic method outperforms state-of-the-art approaches for\nprivacy-preserving sharing of summary statistics.",
+    "updated" : "2024-10-09T20:29:04Z",
+    "published" : "2024-10-09T20:29:04Z",
+    "authors" : [
+      {
+        "name" : "Tao Zhang"
+      },
+      {
+        "name" : "Rajagopal Venkatesaraman"
+      },
+      {
+        "name" : "Rajat K. De"
+      },
+      {
+        "name" : "Bradley A. Malin"
+      },
+      {
+        "name" : "Yevgeniy Vorobeychik"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.05725v2",
+    "title" : "KnowledgeSG: Privacy-Preserving Synthetic Text Generation with Knowledge\n  Distillation from Server",
+    "summary" : "The success of large language models (LLMs) facilitate many parties to\nfine-tune LLMs on their own private data. However, this practice raises privacy\nconcerns due to the memorization of LLMs. Existing solutions, such as utilizing\nsynthetic data for substitution, struggle to simultaneously improve performance\nand preserve privacy. They either rely on a local model for generation,\nresulting in a performance decline, or take advantage of APIs, directly\nexposing the data to API servers. To address this issue, we propose\nKnowledgeSG, a novel client-server framework which enhances synthetic data\nquality and improves model performance while ensuring privacy. We achieve this\nby learning local knowledge from the private data with differential privacy\n(DP) and distilling professional knowledge from the server. Additionally,\ninspired by federated learning, we transmit models rather than data between the\nclient and server to prevent privacy leakage. Extensive experiments in medical\nand financial domains demonstrate the effectiveness of KnowledgeSG. Our code is\nnow publicly available at https://github.com/wwh0411/KnowledgeSG.",
+    "updated" : "2024-10-10T03:58:35Z",
+    "published" : "2024-10-08T06:42:28Z",
+    "authors" : [
+      {
+        "name" : "Wenhao Wang"
+      },
+      {
+        "name" : "Xiaoyu Liang"
+      },
+      {
+        "name" : "Rui Ye"
+      },
+      {
+        "name" : "Jingyi Chai"
+      },
+      {
+        "name" : "Siheng Chen"
+      },
+      {
+        "name" : "Yanfeng Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
   }
 ]
