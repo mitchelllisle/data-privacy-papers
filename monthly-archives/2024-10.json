@@ -842,5 +842,179 @@
       "cs.CR",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.08756v1",
+    "title" : "Privacy-Preserving Optimal State Estimation with Low Complexity via\n  Cramér-Rao Lower Bound Approach",
+    "summary" : "This paper addresses the optimal state estimation problem for dynamic systems\nwhile preserving private information against an adversary. To dominate the\nadversary's estimation accuracy about private information in the mean square\nerror (MSE) sense, the Cram\\'er-Rao lower bound (CRLB) is employed to evaluate\nprivacy level. The problem is formulated as a constrained optimization, which\nminimizes the MSE of the state estimate with a constraint on privacy level,\nachieving a trade-off between privacy and utility. To solve the constrained\noptimization problem, an explicit expression for CRLB is first provided using\nthe information inequality. To overcome the increasing sizes of the involved\nmatrices over time, a low-complexity approach is then proposed to achieve\nonline calculation for CRLB, significantly reducing computational complexity.\nNext, the optimization problem is relaxed to a semi-definite programming\nproblem, and a relaxed solution is provided. Finally, a privacy-preserving\nstate estimation algorithm with low complexity is developed and proved to\nachieve differential privacy. Two illustrative examples, including a practical\ncase of building occupancy, demonstrate the effectiveness of the proposed\nalgorithm.",
+    "updated" : "2024-10-11T12:15:25Z",
+    "published" : "2024-10-11T12:15:25Z",
+    "authors" : [
+      {
+        "name" : "Liping Guo"
+      },
+      {
+        "name" : "Jimin Wang"
+      },
+      {
+        "name" : "Yanlong Zhao"
+      },
+      {
+        "name" : "Ji-Feng Zhang"
+      }
+    ],
+    "categories" : [
+      "eess.SY",
+      "cs.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.08755v1",
+    "title" : "PILLAR: an AI-Powered Privacy Threat Modeling Tool",
+    "summary" : "The rapid evolution of Large Language Models (LLMs) has unlocked new\npossibilities for applying artificial intelligence across a wide range of\nfields, including privacy engineering. As modern applications increasingly\nhandle sensitive user data, safeguarding privacy has become more critical than\never. To protect privacy effectively, potential threats need to be identified\nand addressed early in the system development process. Frameworks like LINDDUN\noffer structured approaches for uncovering these risks, but despite their\nvalue, they often demand substantial manual effort, expert input, and detailed\nsystem knowledge. This makes the process time-consuming and prone to errors.\nCurrent privacy threat modeling methods, such as LINDDUN, typically rely on\ncreating and analyzing complex data flow diagrams (DFDs) and system\ndescriptions to pinpoint potential privacy issues. While these approaches are\nthorough, they can be cumbersome, relying heavily on the precision of the data\nprovided by users. Moreover, they often generate a long list of threats without\nclear guidance on how to prioritize them, leaving developers unsure of where to\nfocus their efforts. In response to these challenges, we introduce PILLAR\n(Privacy risk Identification with LINDDUN and LLM Analysis Report), a new tool\nthat integrates LLMs with the LINDDUN framework to streamline and enhance\nprivacy threat modeling. PILLAR automates key parts of the LINDDUN process,\nsuch as generating DFDs, classifying threats, and prioritizing risks. By\nleveraging the capabilities of LLMs, PILLAR can take natural language\ndescriptions of systems and transform them into comprehensive threat models\nwith minimal input from users, reducing the workload on developers and privacy\nexperts while improving the efficiency and accuracy of the process.",
+    "updated" : "2024-10-11T12:13:03Z",
+    "published" : "2024-10-11T12:13:03Z",
+    "authors" : [
+      {
+        "name" : "Majid Mollaeefar"
+      },
+      {
+        "name" : "Andrea Bissoli"
+      },
+      {
+        "name" : "Silvio Ranise"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.MA"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.08555v1",
+    "title" : "Design of Secure, Privacy-focused, and Accessible E-Payment Applications\n  for Older Adults",
+    "summary" : "E-payments are essential for transactional convenience in today's digital\neconomy and are becoming increasingly important for older adults, emphasizing\nthe need for enhanced security, privacy, and usability. To address this, we\nconducted a survey-based study with 400 older adults aged 65 and above to\nevaluate a high-fidelity prototype of an e-payment mobile application, which\nincluded features such as multi-factor authentication (MFA) and QR code-based\nrecipient addition. Based on our findings, we developed a tailored \\b{eta}\nversion of the application to meet the specific needs of this demographic.\nNotably, approximately 91% of participants preferred traditional\nknowledge-based and single-mode authentication compared to expert-recommended\nMFA. We concluded by providing recommendations aimed at developing inclusive\ne-payment solutions that address the security, privacy, and usability\nrequirements of older adults.",
+    "updated" : "2024-10-11T06:12:18Z",
+    "published" : "2024-10-11T06:12:18Z",
+    "authors" : [
+      {
+        "name" : "Sanchari Das"
+      }
+    ],
+    "categories" : [
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.08553v1",
+    "title" : "Balancing Innovation and Privacy: Data Security Strategies in Natural\n  Language Processing Applications",
+    "summary" : "This research addresses privacy protection in Natural Language Processing\n(NLP) by introducing a novel algorithm based on differential privacy, aimed at\nsafeguarding user data in common applications such as chatbots, sentiment\nanalysis, and machine translation. With the widespread application of NLP\ntechnology, the security and privacy protection of user data have become\nimportant issues that need to be solved urgently. This paper proposes a new\nprivacy protection algorithm designed to effectively prevent the leakage of\nuser sensitive information. By introducing a differential privacy mechanism,\nour model ensures the accuracy and reliability of data analysis results while\nadding random noise. This method not only reduces the risk caused by data\nleakage but also achieves effective processing of data while protecting user\nprivacy. Compared to traditional privacy methods like data anonymization and\nhomomorphic encryption, our approach offers significant advantages in terms of\ncomputational efficiency and scalability while maintaining high accuracy in\ndata analysis. The proposed algorithm's efficacy is demonstrated through\nperformance metrics such as accuracy (0.89), precision (0.85), and recall\n(0.88), outperforming other methods in balancing privacy and utility. As\nprivacy protection regulations become increasingly stringent, enterprises and\ndevelopers must take effective measures to deal with privacy risks. Our\nresearch provides an important reference for the application of privacy\nprotection technology in the field of NLP, emphasizing the need to achieve a\nbalance between technological innovation and user privacy. In the future, with\nthe continuous advancement of technology, privacy protection will become a core\nelement of data-driven applications and promote the healthy development of the\nentire industry.",
+    "updated" : "2024-10-11T06:05:10Z",
+    "published" : "2024-10-11T06:05:10Z",
+    "authors" : [
+      {
+        "name" : "Shaobo Liu"
+      },
+      {
+        "name" : "Guiran Liu"
+      },
+      {
+        "name" : "Binrong Zhu"
+      },
+      {
+        "name" : "Yuanshuai Luo"
+      },
+      {
+        "name" : "Linxiao Wu"
+      },
+      {
+        "name" : "Rui Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.08462v1",
+    "title" : "Driving Privacy Forward: Mitigating Information Leakage within Smart\n  Vehicles through Synthetic Data Generation",
+    "summary" : "Smart vehicles produce large amounts of data, much of which is sensitive and\nat risk of privacy breaches. As attackers increasingly exploit anonymised\nmetadata within these datasets to profile drivers, it's important to find\nsolutions that mitigate this information leakage without hindering innovation\nand ongoing research. Synthetic data has emerged as a promising tool to address\nthese privacy concerns, as it allows for the replication of real-world data\nrelationships while minimising the risk of revealing sensitive information. In\nthis paper, we examine the use of synthetic data to tackle these challenges. We\nstart by proposing a comprehensive taxonomy of 14 in-vehicle sensors,\nidentifying potential attacks and categorising their vulnerability. We then\nfocus on the most vulnerable signals, using the Passive Vehicular Sensor (PVS)\ndataset to generate synthetic data with a Tabular Variational Autoencoder\n(TVAE) model, which included over 1 million data points. Finally, we evaluate\nthis against 3 core metrics: fidelity, utility, and privacy. Our results show\nthat we achieved 90.1% statistical similarity and 78% classification accuracy\nwhen tested on its original intent while also preventing the profiling of the\ndriver. The code can be found at\nhttps://github.com/krish-parikh/Synthetic-Data-Generation",
+    "updated" : "2024-10-11T02:28:27Z",
+    "published" : "2024-10-11T02:28:27Z",
+    "authors" : [
+      {
+        "name" : "Krish Parikh"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.08381v1",
+    "title" : "Assessing Privacy Policies with AI: Ethical, Legal, and Technical\n  Challenges",
+    "summary" : "The growing use of Machine Learning and Artificial Intelligence (AI),\nparticularly Large Language Models (LLMs) like OpenAI's GPT series, leads to\ndisruptive changes across organizations. At the same time, there is a growing\nconcern about how organizations handle personal data. Thus, privacy policies\nare essential for transparency in data processing practices, enabling users to\nassess privacy risks. However, these policies are often long and complex. This\nmight lead to user confusion and consent fatigue, where users accept data\npractices against their interests, and abusive or unfair practices might go\nunnoticed. LLMss can be used to assess privacy policies for users\nautomatically. In this interdisciplinary work, we explore the challenges of\nthis approach in three pillars, namely technical feasibility, ethical\nimplications, and legal compatibility of using LLMs to assess privacy policies.\nOur findings aim to identify potential for future research, and to foster a\ndiscussion on the use of LLM technologies for enabling users to fulfil their\nimportant role as decision-makers in a constantly developing AI-driven digital\neconomy.",
+    "updated" : "2024-10-10T21:36:35Z",
+    "published" : "2024-10-10T21:36:35Z",
+    "authors" : [
+      {
+        "name" : "Irem Aydin"
+      },
+      {
+        "name" : "Hermann Diebel-Fischer"
+      },
+      {
+        "name" : "Vincent Freiberger"
+      },
+      {
+        "name" : "Julia Möller-Klapperich"
+      },
+      {
+        "name" : "Erik Buchmann"
+      },
+      {
+        "name" : "Michael Färber"
+      },
+      {
+        "name" : "Anne Lauber-Rönsberg"
+      },
+      {
+        "name" : "Birte Platow"
+      }
+    ],
+    "categories" : [
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.08302v1",
+    "title" : "A Framework to Audit Email Address Privacy and Analyze Email Marketing\n  Practices of Online Services and Apps",
+    "summary" : "This study explores the widespread perception that personal data, such as\nemail addresses, may be shared or sold without informed user consent,\ninvestigating whether these concerns are reflected in actual practices of\npopular online services and apps. Over the course of a year, we collected and\nanalyzed the source, volume, frequency, and content of emails received by users\nafter signing up for the 150 most popular online services and apps across\nvarious sectors. By examining patterns in email communications, we aim to\nidentify consistent strategies used across industries, including potential\nsigns of third-party data sharing. This analysis provides a critical evaluation\nof how email marketing tactics may intersect with data-sharing practices, with\nimportant implications for consumer privacy and regulatory oversight. Our study\nfindings, conducted post-CCPA and GDPR, indicate that while no third-party spam\nemail was detected, internal email marketing practices were pervasive, with\ncompanies frequently sending promotional and CRM emails despite opt-out\npreferences. The framework established in this work is designed to be scalable,\nallowing for continuous monitoring, and can be extended to include a more\ndiverse set of apps and services for broader analysis, ultimately contributing\nto improved user perception of data privacy practices.",
+    "updated" : "2024-10-10T18:44:18Z",
+    "published" : "2024-10-10T18:44:18Z",
+    "authors" : [
+      {
+        "name" : "Scott Seidenberger"
+      },
+      {
+        "name" : "Oluwasijibomi Ajisegiri"
+      },
+      {
+        "name" : "Noah Pursell"
+      },
+      {
+        "name" : "Fazil Raja"
+      },
+      {
+        "name" : "Anindya Maiti"
+      }
+    ],
+    "categories" : [
+      "cs.SI",
+      "cs.CR"
+    ]
   }
 ]
