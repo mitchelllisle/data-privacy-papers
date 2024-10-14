@@ -2,6 +2,220 @@
 <h2>2024-10</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.08756v1">Privacy-Preserving Optimal State Estimation with Low Complexity via
+  Cramér-Rao Lower Bound Approach</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
+  <p><b>Published on:</b> 2024-10-11T12:15:25Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Liping Guo, Jimin Wang, Yanlong Zhao, Ji-Feng Zhang</p>
+    <p><b>Summary:</b> This paper addresses the optimal state estimation problem for dynamic systems
+while preserving private information against an adversary. To dominate the
+adversary's estimation accuracy about private information in the mean square
+error (MSE) sense, the Cram\'er-Rao lower bound (CRLB) is employed to evaluate
+privacy level. The problem is formulated as a constrained optimization, which
+minimizes the MSE of the state estimate with a constraint on privacy level,
+achieving a trade-off between privacy and utility. To solve the constrained
+optimization problem, an explicit expression for CRLB is first provided using
+the information inequality. To overcome the increasing sizes of the involved
+matrices over time, a low-complexity approach is then proposed to achieve
+online calculation for CRLB, significantly reducing computational complexity.
+Next, the optimization problem is relaxed to a semi-definite programming
+problem, and a relaxed solution is provided. Finally, a privacy-preserving
+state estimation algorithm with low complexity is developed and proved to
+achieve differential privacy. Two illustrative examples, including a practical
+case of building occupancy, demonstrate the effectiveness of the proposed
+algorithm.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.08755v1">PILLAR: an AI-Powered Privacy Threat Modeling Tool</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Multiagent Systems-662E9B">
+  <p><b>Published on:</b> 2024-10-11T12:13:03Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Majid Mollaeefar, Andrea Bissoli, Silvio Ranise</p>
+    <p><b>Summary:</b> The rapid evolution of Large Language Models (LLMs) has unlocked new
+possibilities for applying artificial intelligence across a wide range of
+fields, including privacy engineering. As modern applications increasingly
+handle sensitive user data, safeguarding privacy has become more critical than
+ever. To protect privacy effectively, potential threats need to be identified
+and addressed early in the system development process. Frameworks like LINDDUN
+offer structured approaches for uncovering these risks, but despite their
+value, they often demand substantial manual effort, expert input, and detailed
+system knowledge. This makes the process time-consuming and prone to errors.
+Current privacy threat modeling methods, such as LINDDUN, typically rely on
+creating and analyzing complex data flow diagrams (DFDs) and system
+descriptions to pinpoint potential privacy issues. While these approaches are
+thorough, they can be cumbersome, relying heavily on the precision of the data
+provided by users. Moreover, they often generate a long list of threats without
+clear guidance on how to prioritize them, leaving developers unsure of where to
+focus their efforts. In response to these challenges, we introduce PILLAR
+(Privacy risk Identification with LINDDUN and LLM Analysis Report), a new tool
+that integrates LLMs with the LINDDUN framework to streamline and enhance
+privacy threat modeling. PILLAR automates key parts of the LINDDUN process,
+such as generating DFDs, classifying threats, and prioritizing risks. By
+leveraging the capabilities of LLMs, PILLAR can take natural language
+descriptions of systems and transform them into comprehensive threat models
+with minimal input from users, reducing the workload on developers and privacy
+experts while improving the efficiency and accuracy of the process.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.08555v1">Design of Secure, Privacy-focused, and Accessible E-Payment Applications
+  for Older Adults</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2024-10-11T06:12:18Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Sanchari Das</p>
+    <p><b>Summary:</b> E-payments are essential for transactional convenience in today's digital
+economy and are becoming increasingly important for older adults, emphasizing
+the need for enhanced security, privacy, and usability. To address this, we
+conducted a survey-based study with 400 older adults aged 65 and above to
+evaluate a high-fidelity prototype of an e-payment mobile application, which
+included features such as multi-factor authentication (MFA) and QR code-based
+recipient addition. Based on our findings, we developed a tailored \b{eta}
+version of the application to meet the specific needs of this demographic.
+Notably, approximately 91% of participants preferred traditional
+knowledge-based and single-mode authentication compared to expert-recommended
+MFA. We concluded by providing recommendations aimed at developing inclusive
+e-payment solutions that address the security, privacy, and usability
+requirements of older adults.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.08553v1">Balancing Innovation and Privacy: Data Security Strategies in Natural
+  Language Processing Applications</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2024-10-11T06:05:10Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shaobo Liu, Guiran Liu, Binrong Zhu, Yuanshuai Luo, Linxiao Wu, Rui Wang</p>
+    <p><b>Summary:</b> This research addresses privacy protection in Natural Language Processing
+(NLP) by introducing a novel algorithm based on differential privacy, aimed at
+safeguarding user data in common applications such as chatbots, sentiment
+analysis, and machine translation. With the widespread application of NLP
+technology, the security and privacy protection of user data have become
+important issues that need to be solved urgently. This paper proposes a new
+privacy protection algorithm designed to effectively prevent the leakage of
+user sensitive information. By introducing a differential privacy mechanism,
+our model ensures the accuracy and reliability of data analysis results while
+adding random noise. This method not only reduces the risk caused by data
+leakage but also achieves effective processing of data while protecting user
+privacy. Compared to traditional privacy methods like data anonymization and
+homomorphic encryption, our approach offers significant advantages in terms of
+computational efficiency and scalability while maintaining high accuracy in
+data analysis. The proposed algorithm's efficacy is demonstrated through
+performance metrics such as accuracy (0.89), precision (0.85), and recall
+(0.88), outperforming other methods in balancing privacy and utility. As
+privacy protection regulations become increasingly stringent, enterprises and
+developers must take effective measures to deal with privacy risks. Our
+research provides an important reference for the application of privacy
+protection technology in the field of NLP, emphasizing the need to achieve a
+balance between technological innovation and user privacy. In the future, with
+the continuous advancement of technology, privacy protection will become a core
+element of data-driven applications and promote the healthy development of the
+entire industry.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.08462v1">Driving Privacy Forward: Mitigating Information Leakage within Smart
+  Vehicles through Synthetic Data Generation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-10-11T02:28:27Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Krish Parikh</p>
+    <p><b>Summary:</b> Smart vehicles produce large amounts of data, much of which is sensitive and
+at risk of privacy breaches. As attackers increasingly exploit anonymised
+metadata within these datasets to profile drivers, it's important to find
+solutions that mitigate this information leakage without hindering innovation
+and ongoing research. Synthetic data has emerged as a promising tool to address
+these privacy concerns, as it allows for the replication of real-world data
+relationships while minimising the risk of revealing sensitive information. In
+this paper, we examine the use of synthetic data to tackle these challenges. We
+start by proposing a comprehensive taxonomy of 14 in-vehicle sensors,
+identifying potential attacks and categorising their vulnerability. We then
+focus on the most vulnerable signals, using the Passive Vehicular Sensor (PVS)
+dataset to generate synthetic data with a Tabular Variational Autoencoder
+(TVAE) model, which included over 1 million data points. Finally, we evaluate
+this against 3 core metrics: fidelity, utility, and privacy. Our results show
+that we achieved 90.1% statistical similarity and 78% classification accuracy
+when tested on its original intent while also preventing the profiling of the
+driver. The code can be found at
+https://github.com/krish-parikh/Synthetic-Data-Generation</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.08381v1">Assessing Privacy Policies with AI: Ethical, Legal, and Technical
+  Challenges</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2024-10-10T21:36:35Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Irem Aydin, Hermann Diebel-Fischer, Vincent Freiberger, Julia Möller-Klapperich, Erik Buchmann, Michael Färber, Anne Lauber-Rönsberg, Birte Platow</p>
+    <p><b>Summary:</b> The growing use of Machine Learning and Artificial Intelligence (AI),
+particularly Large Language Models (LLMs) like OpenAI's GPT series, leads to
+disruptive changes across organizations. At the same time, there is a growing
+concern about how organizations handle personal data. Thus, privacy policies
+are essential for transparency in data processing practices, enabling users to
+assess privacy risks. However, these policies are often long and complex. This
+might lead to user confusion and consent fatigue, where users accept data
+practices against their interests, and abusive or unfair practices might go
+unnoticed. LLMss can be used to assess privacy policies for users
+automatically. In this interdisciplinary work, we explore the challenges of
+this approach in three pillars, namely technical feasibility, ethical
+implications, and legal compatibility of using LLMs to assess privacy policies.
+Our findings aim to identify potential for future research, and to foster a
+discussion on the use of LLM technologies for enabling users to fulfil their
+important role as decision-makers in a constantly developing AI-driven digital
+economy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.08302v1">A Framework to Audit Email Address Privacy and Analyze Email Marketing
+  Practices of Online Services and Apps</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Social and Information Networks-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-10-10T18:44:18Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Scott Seidenberger, Oluwasijibomi Ajisegiri, Noah Pursell, Fazil Raja, Anindya Maiti</p>
+    <p><b>Summary:</b> This study explores the widespread perception that personal data, such as
+email addresses, may be shared or sold without informed user consent,
+investigating whether these concerns are reflected in actual practices of
+popular online services and apps. Over the course of a year, we collected and
+analyzed the source, volume, frequency, and content of emails received by users
+after signing up for the 150 most popular online services and apps across
+various sectors. By examining patterns in email communications, we aim to
+identify consistent strategies used across industries, including potential
+signs of third-party data sharing. This analysis provides a critical evaluation
+of how email marketing tactics may intersect with data-sharing practices, with
+important implications for consumer privacy and regulatory oversight. Our study
+findings, conducted post-CCPA and GDPR, indicate that while no third-party spam
+email was detected, internal email marketing practices were pervasive, with
+companies frequently sending promotional and CRM emails despite opt-out
+preferences. The framework established in this work is designed to be scalable,
+allowing for continuous monitoring, and can be extended to include a more
+diverse set of apps and services for broader analysis, ultimately contributing
+to improved user perception of data privacy practices.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2410.08122v1">PP-GWAS: Privacy Preserving Multi-Site Genome-wide Association Studies</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2024-10-10T17:07:57Z</p>
@@ -2711,200 +2925,6 @@ seamlessly adapted, rendering such supervision ineffective. Thus, we further
 discuss the defenses at the pre- and post-deployment stages of the websites
 without relying on human supervision and call for more advanced defense
 strategies.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.02462v1">Scalable Differential Privacy Mechanisms for Real-Time Machine Learning
-  Applications</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-09-16T20:52:04Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jessica Smith, David Williams, Emily Brown</p>
-    <p><b>Summary:</b> Large language models (LLMs) are increasingly integrated into real-time
-machine learning applications, where safeguarding user privacy is paramount.
-Traditional differential privacy mechanisms often struggle to balance privacy
-and accuracy, particularly in fast-changing environments with continuously
-flowing data. To address these issues, we introduce Scalable Differential
-Privacy (SDP), a framework tailored for real-time machine learning that
-emphasizes both robust privacy guarantees and enhanced model performance. SDP
-employs a hierarchical architecture to facilitate efficient noise aggregation
-across various learning agents. By integrating adaptive noise scheduling and
-gradient compression methods, our approach minimizes performance degradation
-while ensuring significant privacy protection. Extensive experiments on diverse
-datasets reveal that SDP maintains high accuracy levels while applying
-differential privacy effectively, showcasing its suitability for deployment in
-sensitive domains. This advancement points towards the potential for widespread
-adoption of privacy-preserving techniques in machine learning workflows.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.10667v1">Benchmarking Secure Sampling Protocols for Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-09-16T19:04:47Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yucheng Fu, Tianhao Wang</p>
-    <p><b>Summary:</b> Differential privacy (DP) is widely employed to provide privacy protection
-for individuals by limiting information leakage from the aggregated data. Two
-well-known models of DP are the central model and the local model. The former
-requires a trustworthy server for data aggregation, while the latter requires
-individuals to add noise, significantly decreasing the utility of aggregated
-results. Recently, many studies have proposed to achieve DP with Secure
-Multi-party Computation (MPC) in distributed settings, namely, the distributed
-model, which has utility comparable to central model while, under specific
-security assumptions, preventing parties from obtaining others' information.
-One challenge of realizing DP in distributed model is efficiently sampling
-noise with MPC. Although many secure sampling methods have been proposed, they
-have different security assumptions and isolated theoretical analyses. There is
-a lack of experimental evaluations to measure and compare their performances.
-We fill this gap by benchmarking existing sampling protocols in MPC and
-performing comprehensive measurements of their efficiency. First, we present a
-taxonomy of the underlying techniques of these sampling protocols. Second, we
-extend widely used distributed noise generation protocols to be resilient
-against Byzantine attackers. Third, we implement discrete sampling protocols
-and align their security settings for a fair comparison. We then conduct an
-extensive evaluation to study their efficiency and utility.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.10411v1">A Large-Scale Privacy Assessment of Android Third-Party SDKs</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
-  <p><b>Published on:</b> 2024-09-16T15:44:43Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mark Huasong Meng, Chuan Yan, Yun Hao, Qing Zhang, Zeyu Wang, Kailong Wang, Sin Gee Teo, Guangdong Bai, Jin Song Dong</p>
-    <p><b>Summary:</b> Third-party Software Development Kits (SDKs) are widely adopted in Android
-app development, to effortlessly accelerate development pipelines and enhance
-app functionality. However, this convenience raises substantial concerns about
-unauthorized access to users' privacy-sensitive information, which could be
-further abused for illegitimate purposes like user tracking or monetization.
-Our study offers a targeted analysis of user privacy protection among Android
-third-party SDKs, filling a critical gap in the Android software supply chain.
-It focuses on two aspects of their privacy practices, including data
-exfiltration and behavior-policy compliance (or privacy compliance), utilizing
-techniques of taint analysis and large language models. It covers 158
-widely-used SDKs from two key SDK release platforms, the official one and a
-large alternative one. From them, we identified 338 instances of privacy data
-exfiltration. On the privacy compliance, our study reveals that more than 30%
-of the examined SDKs fail to provide a privacy policy to disclose their data
-handling practices. Among those that provide privacy policies, 37% of them
-over-collect user data, and 88% falsely claim access to sensitive data. We
-revisit the latest versions of the SDKs after 12 months. Our analysis
-demonstrates a persistent lack of improvement in these concerning trends. Based
-on our findings, we propose three actionable recommendations to mitigate the
-privacy leakage risks and enhance privacy protection for Android users. Our
-research not only serves as an urgent call for industry attention but also
-provides crucial insights for future regulatory interventions.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.10337v1">Security, Trust and Privacy challenges in AI-driven 6G Networks</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
-  <p><b>Published on:</b> 2024-09-16T14:48:20Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Helena Rifa-Pous, Victor Garcia-Font, Carlos Nunez-Gomez, Julian Salas</p>
-    <p><b>Summary:</b> The advent of 6G networks promises unprecedented advancements in wireless
-communication, offering wider bandwidth and lower latency compared to its
-predecessors. This article explores the evolving infrastructure of 6G networks,
-emphasizing the transition towards a more disaggregated structure and the
-integration of artificial intelligence (AI) technologies. Furthermore, it
-explores the security, trust and privacy challenges and attacks in 6G networks,
-particularly those related to the use of AI. It presents a classification of
-network attacks stemming from its AI-centric architecture and explores
-technologies designed to detect or mitigate these emerging threats. The paper
-concludes by examining the implications and risks linked to the utilization of
-AI in ensuring a robust network.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.10226v1">Privacy-Preserving Distributed Maximum Consensus Without Accuracy Loss</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36">  
-  <p><b>Published on:</b> 2024-09-16T12:21:04Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Wenrui Yu, Richard Heusdens, Jun Pang, Qiongxiu Li</p>
-    <p><b>Summary:</b> In distributed networks, calculating the maximum element is a fundamental
-task in data analysis, known as the distributed maximum consensus problem.
-However, the sensitive nature of the data involved makes privacy protection
-essential. Despite its importance, privacy in distributed maximum consensus has
-received limited attention in the literature. Traditional privacy-preserving
-methods typically add noise to updates, degrading the accuracy of the final
-result. To overcome these limitations, we propose a novel distributed
-optimization-based approach that preserves privacy without sacrificing
-accuracy. Our method introduces virtual nodes to form an augmented graph and
-leverages a carefully designed initialization process to ensure the privacy of
-honest participants, even when all their neighboring nodes are dishonest.
-Through a comprehensive information-theoretical analysis, we derive a
-sufficient condition to protect private data against both passive and
-eavesdropping adversaries. Extensive experiments validate the effectiveness of
-our approach, demonstrating that it not only preserves perfect privacy but also
-maintains accuracy, outperforming existing noise-based methods that typically
-suffer from accuracy loss.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.10192v1">PrePaMS: Privacy-Preserving Participant Management System for Studies
-  with Rewards and Prerequisites</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-09-16T11:35:17Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Echo Meißner, Frank Kargl, Benjamin Erb, Felix Engelmann</p>
-    <p><b>Summary:</b> Taking part in surveys, experiments, and studies is often compensated by
-rewards to increase the number of participants and encourage attendance. While
-privacy requirements are usually considered for participation, privacy aspects
-of the reward procedure are mostly ignored. To this end, we introduce PrePaMS,
-an efficient participation management system that supports prerequisite checks
-and participation rewards in a privacy-preserving way. Our system organizes
-participations with potential (dis-)qualifying dependencies and enables secure
-reward payoffs. By leveraging a set of proven cryptographic primitives and
-mechanisms such as anonymous credentials and zero-knowledge proofs,
-participations are protected so that service providers and organizers cannot
-derive the identity of participants even within the reward process. In this
-paper, we have designed and implemented a prototype of PrePaMS to show its
-effectiveness and evaluated its performance under realistic workloads. PrePaMS
-covers the information whether subjects have participated in surveys,
-experiments, or studies. When combined with other secure solutions for the
-actual data collection within these events, PrePaMS can represent a cornerstone
-for more privacy-preserving empirical research.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.10057v1">A Response to: A Note on "Privacy Preserving n-Party Scalar Product
-  Protocol"</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-09-16T07:36:37Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Florian van Daalen, Lianne Ippel, Andre Dekker, Inigo Bermejo</p>
-    <p><b>Summary:</b> We reply to the comments on our proposed privacy preserving n-party scalar
-product protocol made by Liu. In their comment Liu raised concerns regarding
-the security and scalability of the $n$-party scalar product protocol. In this
-reply, we show that their concerns are unfounded and that the $n$-party scalar
-product protocol is safe for its intended purposes. Their concerns regarding
-the security are based on a misunderstanding of the protocol. Additionally,
-while the scalability of the protocol puts limitations on its use, the protocol
-still has numerous practical applications when applied in the correct
-scenarios. Specifically within vertically partitioned scenarios, which often
-involve few parties, the protocol remains practical. In this reply we clarify
-Liu's misunderstanding. Additionally, we explain why the protocols scaling is
-not a practical problem in its intended application.</p>
   </details>
 </div>
 
