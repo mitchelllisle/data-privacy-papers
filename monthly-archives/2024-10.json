@@ -1016,5 +1016,54 @@
       "cs.SI",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.09721v1",
+    "title" : "\"I inherently just trust that it works\": Investigating Mental Models of\n  Open-Source Libraries for Differential Privacy",
+    "summary" : "Differential privacy (DP) is a promising framework for privacy-preserving\ndata science, but recent studies have exposed challenges in bringing this\ntheoretical framework for privacy into practice. These tensions are\nparticularly salient in the context of open-source software libraries for DP\ndata analysis, which are emerging tools to help data stewards and analysts\nbuild privacy-preserving data pipelines for their applications. While there has\nbeen significant investment into such libraries, we need further inquiry into\nthe role of these libraries in promoting understanding of and trust in DP, and\nin turn, the ways in which design of these open-source libraries can shed light\non the challenges of creating trustworthy data infrastructures in practice. In\nthis study, we use qualitative methods and mental models approaches to analyze\nthe differences between conceptual models used to design open-source DP\nlibraries and mental models of DP held by users. Through a two-stage study\ndesign involving formative interviews with 5 developers of open-source DP\nlibraries and user studies with 17 data analysts, we find that DP libraries\noften struggle to bridge the gaps between developer and user mental models. In\nparticular, we highlight the tension DP libraries face in maintaining rigorous\nDP implementations and facilitating user interaction. We conclude by offering\npractical recommendations for further development of DP libraries.",
+    "updated" : "2024-10-13T04:24:09Z",
+    "published" : "2024-10-13T04:24:09Z",
+    "authors" : [
+      {
+        "name" : "Patrick Song"
+      },
+      {
+        "name" : "Jayshree Sarathy"
+      },
+      {
+        "name" : "Michael Shoemate"
+      },
+      {
+        "name" : "Salil Vadhan"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.09506v1",
+    "title" : "Distribution-Aware Mean Estimation under User-level Local Differential\n  Privacy",
+    "summary" : "We consider the problem of mean estimation under user-level local\ndifferential privacy, where $n$ users are contributing through their local pool\nof data samples. Previous work assume that the number of data samples is the\nsame across users. In contrast, we consider a more general and realistic\nscenario where each user $u \\in [n]$ owns $m_u$ data samples drawn from some\ngenerative distribution $\\mu$; $m_u$ being unknown to the statistician but\ndrawn from a known distribution $M$ over $\\mathbb{N}^\\star$. Based on a\ndistribution-aware mean estimation algorithm, we establish an $M$-dependent\nupper bounds on the worst-case risk over $\\mu$ for the task of mean estimation.\nWe then derive a lower bound. The two bounds are asymptotically matching up to\nlogarithmic factors and reduce to known bounds when $m_u = m$ for any user $u$.",
+    "updated" : "2024-10-12T11:57:52Z",
+    "published" : "2024-10-12T11:57:52Z",
+    "authors" : [
+      {
+        "name" : "Corentin Pla"
+      },
+      {
+        "name" : "Hugo Richard"
+      },
+      {
+        "name" : "Maxime Vono"
+      }
+    ],
+    "categories" : [
+      "stat.ME",
+      "cs.AI",
+      "cs.CR",
+      "cs.LG",
+      "stat.ML"
+    ]
   }
 ]
