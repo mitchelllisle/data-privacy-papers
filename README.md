@@ -2,6 +2,60 @@
 <h2>2024-10</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.09721v1">"I inherently just trust that it works": Investigating Mental Models of
+  Open-Source Libraries for Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2024-10-13T04:24:09Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Patrick Song, Jayshree Sarathy, Michael Shoemate, Salil Vadhan</p>
+    <p><b>Summary:</b> Differential privacy (DP) is a promising framework for privacy-preserving
+data science, but recent studies have exposed challenges in bringing this
+theoretical framework for privacy into practice. These tensions are
+particularly salient in the context of open-source software libraries for DP
+data analysis, which are emerging tools to help data stewards and analysts
+build privacy-preserving data pipelines for their applications. While there has
+been significant investment into such libraries, we need further inquiry into
+the role of these libraries in promoting understanding of and trust in DP, and
+in turn, the ways in which design of these open-source libraries can shed light
+on the challenges of creating trustworthy data infrastructures in practice. In
+this study, we use qualitative methods and mental models approaches to analyze
+the differences between conceptual models used to design open-source DP
+libraries and mental models of DP held by users. Through a two-stage study
+design involving formative interviews with 5 developers of open-source DP
+libraries and user studies with 17 data analysts, we find that DP libraries
+often struggle to bridge the gaps between developer and user mental models. In
+particular, we highlight the tension DP libraries face in maintaining rigorous
+DP implementations and facilitating user interaction. We conclude by offering
+practical recommendations for further development of DP libraries.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.09506v1">Distribution-Aware Mean Estimation under User-level Local Differential
+  Privacy</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
+  <p><b>Published on:</b> 2024-10-12T11:57:52Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Corentin Pla, Hugo Richard, Maxime Vono</p>
+    <p><b>Summary:</b> We consider the problem of mean estimation under user-level local
+differential privacy, where $n$ users are contributing through their local pool
+of data samples. Previous work assume that the number of data samples is the
+same across users. In contrast, we consider a more general and realistic
+scenario where each user $u \in [n]$ owns $m_u$ data samples drawn from some
+generative distribution $\mu$; $m_u$ being unknown to the statistician but
+drawn from a known distribution $M$ over $\mathbb{N}^\star$. Based on a
+distribution-aware mean estimation algorithm, we establish an $M$-dependent
+upper bounds on the worst-case risk over $\mu$ for the task of mean estimation.
+We then derive a lower bound. The two bounds are asymptotically matching up to
+logarithmic factors and reduce to known bounds when $m_u = m$ for any user $u$.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2410.08756v1">Privacy-Preserving Optimal State Estimation with Low Complexity via
   Cramér-Rao Lower Bound Approach</a></h3>
    <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
@@ -1144,7 +1198,7 @@ requirements.</p>
 <h2>2024-09</h2>
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.00069v1">An interdisciplinary exploration of trade-offs between energy, privacy
+  <h3><a href="http://arxiv.org/abs/2410.00069v2">An interdisciplinary exploration of trade-offs between energy, privacy
   and accuracy aspects of data</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2024-09-30T10:01:14Z</p>
@@ -1497,6 +1551,40 @@ descriptors to learn a privacy predictor, Priv$\times$ITM, whose decisions are
 interpretable by design. Our Priv$\times$ITM classifier outperforms the
 reference interpretable method by 5 percentage points in accuracy and performs
 comparably to the current non-interpretable state-of-the-art model.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2409.18632v5">Differentially Private and Byzantine-Resilient Decentralized Nonconvex
+  Optimization: System Modeling, Utility, Resilience, and Privacy Analysis</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Optimization and Control-F9C80E">
+  <p><b>Published on:</b> 2024-09-27T10:59:31Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jinhui Hu, Guo Chen, Huaqing Li, Huqiang Cheng, Xiaoyu Guo, Tingwen Huang</p>
+    <p><b>Summary:</b> Privacy leakage and Byzantine failures are two adverse factors to the
+intelligent decision-making process of multi-agent systems (MASs). Considering
+the presence of these two issues, this paper targets the resolution of a class
+of nonconvex optimization problems under the Polyak-{\L}ojasiewicz (P-{\L})
+condition. To address this problem, we first identify and construct the
+adversary system model. To enhance the robustness of stochastic gradient
+descent methods, we mask the local gradients with Gaussian noises and adopt a
+resilient aggregation method self-centered clipping (SCC) to design a
+differentially private (DP) decentralized Byzantine-resilient algorithm, namely
+DP-SCC-PL, which simultaneously achieves differential privacy and Byzantine
+resilience. The convergence analysis of DP-SCC-PL is challenging since the
+convergence error can be contributed jointly by privacy-preserving and
+Byzantine-resilient mechanisms, as well as the nonconvex relaxation, which is
+addressed via seeking the contraction relationships among the disagreement
+measure of reliable agents before and after aggregation, together with the
+optimal gap. Theoretical results reveal that DP-SCC-PL achieves consensus among
+all reliable agents and sublinear (inexact) convergence with well-designed
+step-sizes. It has also been proved that if there are no privacy issues and
+Byzantine agents, then the asymptotic exact convergence can be recovered.
+Numerical experiments verify the utility, resilience, and differential privacy
+of DP-SCC-PL by tackling a nonconvex optimization problem satisfying the P-{\L}
+condition under various Byzantine attacks.</p>
   </details>
 </div>
 
@@ -2832,99 +2920,6 @@ while neutral emotions lead individuals to share less precise information with
 close social circles, a pattern is potentially detectable with wrist-worn EDA.
 Our study helps lay the foundation for personalised emotion-aware strategies to
 mitigate oversharing risks and enhance user privacy in the digital age.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.11680v1">What to Consider When Considering Differential Privacy for Policy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-09-18T03:41:15Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Priyanka Nanayakkara, Jessica Hullman</p>
-    <p><b>Summary:</b> Differential privacy (DP) is a mathematical definition of privacy that can be
-widely applied when publishing data. DP has been recognized as a potential
-means of adhering to various privacy-related legal requirements. However, it
-can be difficult to reason about whether DP may be appropriate for a given
-context due to tensions that arise when it is brought from theory into
-practice. To aid policymaking around privacy concerns, we identify three
-categories of challenges to understanding DP along with associated questions
-that policymakers can ask about the potential deployment context to anticipate
-its impacts.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.11536v1">Obfuscation Based Privacy Preserving Representations are Recoverable
-  Using Neighborhood Information</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2024-09-17T20:13:54Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Kunal Chelani, Assia Benbihi, Fredrik Kahl, Torsten Sattler, Zuzana Kukelova</p>
-    <p><b>Summary:</b> Rapid growth in the popularity of AR/VR/MR applications and cloud-based
-visual localization systems has given rise to an increased focus on the privacy
-of user content in the localization process.
-  This privacy concern has been further escalated by the ability of deep neural
-networks to recover detailed images of a scene from a sparse set of 3D or 2D
-points and their descriptors - the so-called inversion attacks.
-  Research on privacy-preserving localization has therefore focused on
-preventing these inversion attacks on both the query image keypoints and the 3D
-points of the scene map.
-  To this end, several geometry obfuscation techniques that lift points to
-higher-dimensional spaces, i.e., lines or planes, or that swap coordinates
-between points % have been proposed.
-  In this paper, we point to a common weakness of these obfuscations that
-allows to recover approximations of the original point positions under the
-assumption of known neighborhoods.
-  We further show that these neighborhoods can be computed by learning to
-identify descriptors that co-occur in neighborhoods.
-  Extensive experiments show that our approach for point recovery is
-practically applicable to all existing geometric obfuscation schemes.
-  Our results show that these schemes should not be considered
-privacy-preserving, even though they are claimed to be privacy-preserving.
-  Code will be available at
-\url{https://github.com/kunalchelani/RecoverPointsNeighborhood}.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.11295v3">EIA: Environmental Injection Attack on Generalist Web Agents for Privacy
-  Leakage</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-09-17T15:49:44Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zeyi Liao, Lingbo Mo, Chejian Xu, Mintong Kang, Jiawei Zhang, Chaowei Xiao, Yuan Tian, Bo Li, Huan Sun</p>
-    <p><b>Summary:</b> Generalist web agents have demonstrated remarkable potential in autonomously
-completing a wide range of tasks on real websites, significantly boosting human
-productivity. However, web tasks, such as booking flights, usually involve
-users' PII, which may be exposed to potential privacy risks if web agents
-accidentally interact with compromised websites, a scenario that remains
-largely unexplored in the literature. In this work, we narrow this gap by
-conducting the first study on the privacy risks of generalist web agents in
-adversarial environments. First, we present a realistic threat model for
-attacks on the website, where we consider two adversarial targets: stealing
-users' specific PII or the entire user request. Then, we propose a novel attack
-method, termed Environmental Injection Attack (EIA). EIA injects malicious
-content designed to adapt well to environments where the agents operate and our
-work instantiates EIA specifically for privacy scenarios in web environments.
-We collect 177 action steps that involve diverse PII categories on realistic
-websites from the Mind2Web, and conduct experiments using one of the most
-capable generalist web agent frameworks to date. The results demonstrate that
-EIA achieves up to 70% ASR in stealing specific PII and 16% ASR for full user
-request. Additionally, by accessing the stealthiness and experimenting with a
-defensive system prompt, we indicate that EIA is hard to detect and mitigate.
-Notably, attacks that are not well adapted for a webpage can be detected via
-human inspection, leading to our discussion about the trade-off between
-security and autonomy. However, extra attackers' efforts can make EIA
-seamlessly adapted, rendering such supervision ineffective. Thus, we further
-discuss the defenses at the pre- and post-deployment stages of the websites
-without relying on human supervision and call for more advanced defense
-strategies.</p>
   </details>
 </div>
 
