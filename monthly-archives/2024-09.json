@@ -4147,5 +4147,63 @@
       "cs.AI",
       "cs.CY"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.00069v2",
+    "title" : "An interdisciplinary exploration of trade-offs between energy, privacy\n  and accuracy aspects of data",
+    "summary" : "The digital era has raised many societal challenges, including ICT's rising\nenergy consumption and protecting privacy of personal data processing. This\npaper considers both aspects in relation to machine learning accuracy in an\ninterdisciplinary exploration. We first present a method to measure the effects\nof privacy-enhancing techniques on data utility and energy consumption. The\nenvironmental-privacy-accuracy trade-offs are discovered through an\nexperimental set-up. We subsequently take a storytelling approach to translate\nthese technical findings to experts in non-ICT fields. We draft two examples\nfor a governmental and auditing setting to contextualise our results.\nUltimately, users face the task of optimising their data processing operations\nin a trade-off between energy, privacy, and accuracy considerations where the\nimpact of their decisions is context-sensitive.",
+    "updated" : "2024-10-12T14:38:49Z",
+    "published" : "2024-09-30T10:01:14Z",
+    "authors" : [
+      {
+        "name" : "Pepijn de Reus"
+      },
+      {
+        "name" : "Kyra Dresen"
+      },
+      {
+        "name" : "Ana Oprescu"
+      },
+      {
+        "name" : "Kristina Irion"
+      },
+      {
+        "name" : "Ans Kolk"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2409.18632v5",
+    "title" : "Differentially Private and Byzantine-Resilient Decentralized Nonconvex\n  Optimization: System Modeling, Utility, Resilience, and Privacy Analysis",
+    "summary" : "Privacy leakage and Byzantine failures are two adverse factors to the\nintelligent decision-making process of multi-agent systems (MASs). Considering\nthe presence of these two issues, this paper targets the resolution of a class\nof nonconvex optimization problems under the Polyak-{\\L}ojasiewicz (P-{\\L})\ncondition. To address this problem, we first identify and construct the\nadversary system model. To enhance the robustness of stochastic gradient\ndescent methods, we mask the local gradients with Gaussian noises and adopt a\nresilient aggregation method self-centered clipping (SCC) to design a\ndifferentially private (DP) decentralized Byzantine-resilient algorithm, namely\nDP-SCC-PL, which simultaneously achieves differential privacy and Byzantine\nresilience. The convergence analysis of DP-SCC-PL is challenging since the\nconvergence error can be contributed jointly by privacy-preserving and\nByzantine-resilient mechanisms, as well as the nonconvex relaxation, which is\naddressed via seeking the contraction relationships among the disagreement\nmeasure of reliable agents before and after aggregation, together with the\noptimal gap. Theoretical results reveal that DP-SCC-PL achieves consensus among\nall reliable agents and sublinear (inexact) convergence with well-designed\nstep-sizes. It has also been proved that if there are no privacy issues and\nByzantine agents, then the asymptotic exact convergence can be recovered.\nNumerical experiments verify the utility, resilience, and differential privacy\nof DP-SCC-PL by tackling a nonconvex optimization problem satisfying the P-{\\L}\ncondition under various Byzantine attacks.",
+    "updated" : "2024-10-12T11:52:26Z",
+    "published" : "2024-09-27T10:59:31Z",
+    "authors" : [
+      {
+        "name" : "Jinhui Hu"
+      },
+      {
+        "name" : "Guo Chen"
+      },
+      {
+        "name" : "Huaqing Li"
+      },
+      {
+        "name" : "Huqiang Cheng"
+      },
+      {
+        "name" : "Xiaoyu Guo"
+      },
+      {
+        "name" : "Tingwen Huang"
+      }
+    ],
+    "categories" : [
+      "math.OC"
+    ]
   }
 ]
