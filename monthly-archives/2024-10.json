@@ -1065,5 +1065,204 @@
       "cs.LG",
       "stat.ML"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.12514v1",
+    "title" : "Generating Synthetic Functional Data for Privacy-Preserving GPS\n  Trajectories",
+    "summary" : "This research presents FDASynthesis, a novel algorithm designed to generate\nsynthetic GPS trajectory data while preserving privacy. After pre-processing\nthe input GPS data, human mobility traces are modeled as multidimensional\ncurves using Functional Data Analysis (FDA). Then, the synthesis process\nidentifies the K-nearest trajectories and averages their Square-Root Velocity\nFunctions (SRVFs) to generate synthetic data. This results in synthetic\ntrajectories that maintain the utility of the original data while ensuring\nprivacy. Although applied for human mobility research, FDASynthesis is highly\nadaptable to different types of functional data, offering a scalable solution\nin various application domains.",
+    "updated" : "2024-10-16T12:47:09Z",
+    "published" : "2024-10-16T12:47:09Z",
+    "authors" : [
+      {
+        "name" : "Arianna Burzacchi"
+      },
+      {
+        "name" : "Lise Bellanger"
+      },
+      {
+        "name" : "Klervi Le Gall"
+      },
+      {
+        "name" : "Aymeric Stamm"
+      },
+      {
+        "name" : "Simone Vantini"
+      }
+    ],
+    "categories" : [
+      "stat.AP"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.12418v1",
+    "title" : "Privacy-Preserving Synthetically Augmented Knowledge Graphs with\n  Semantic Utility",
+    "summary" : "Knowledge Graphs (KGs) have recently gained relevant attention in many\napplication domains, from healthcare to biotechnology, from logistics to\nfinance. Financial organisations, central banks, economic research entities,\nand national supervision authorities apply ontological reasoning on KGs to\naddress crucial business tasks, such as economic policymaking, banking\nsupervision, anti-money laundering, and economic research. Reasoning allows for\nthe generation of derived knowledge capturing complex business semantics and\nthe set up of effective business processes. A major obstacle in KGs sharing is\nrepresented by privacy considerations since the identity of the data subjects\nand their sensitive or company-confidential information may be improperly\nexposed.\n  In this paper, we propose a novel framework to enable KGs sharing while\nensuring that information that should remain private is not directly released\nnor indirectly exposed via derived knowledge, while maintaining the embedded\nknowledge of the KGs to support business downstream tasks. Our approach\nproduces a privacy-preserving synthetic KG as an augmentation of the input one\nvia the introduction of structural anonymisation. We introduce a novel privacy\nmeasure for KGs, which considers derived knowledge and a new utility metric\nthat captures the business semantics we want to preserve, and propose two novel\nanonymization algorithms. Our extensive experimental evaluation, with both\nsynthetic graphs and real-world datasets, confirms the effectiveness of our\napproach achieving up to a 70% improvement in the privacy of entities compared\nto existing methods not specifically designed for KGs.",
+    "updated" : "2024-10-16T10:04:02Z",
+    "published" : "2024-10-16T10:04:02Z",
+    "authors" : [
+      {
+        "name" : "Luigi Bellomarini"
+      },
+      {
+        "name" : "Costanza Catalano"
+      },
+      {
+        "name" : "Andrea Coletta"
+      },
+      {
+        "name" : "Michela Iezzi"
+      },
+      {
+        "name" : "Pierangela Samarati"
+      }
+    ],
+    "categories" : [
+      "cs.DB",
+      "cs.AI",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.12402v1",
+    "title" : "De-Identification of Medical Imaging Data: A Comprehensive Tool for\n  Ensuring Patient Privacy",
+    "summary" : "Medical data employed in research frequently comprises sensitive patient\nhealth information (PHI), which is subject to rigorous legal frameworks such as\nthe General Data Protection Regulation (GDPR) or the Health Insurance\nPortability and Accountability Act (HIPAA). Consequently, these types of data\nmust be pseudonymized prior to utilisation, which presents a significant\nchallenge for many researchers. Given the vast array of medical data, it is\nnecessary to employ a variety of de-identification techniques. To facilitate\nthe anonymization process for medical imaging data, we have developed an\nopen-source tool that can be used to de-identify DICOM magnetic resonance\nimages, computer tomography images, whole slide images and magnetic resonance\ntwix raw data. Furthermore, the implementation of a neural network enables the\nremoval of text within the images. The proposed tool automates an elaborate\nanonymization pipeline for multiple types of inputs, reducing the need for\nadditional tools used for de-identification of imaging data. We make our code\npublicly available at\nhttps://github.com/code-lukas/medical_image_deidentification.",
+    "updated" : "2024-10-16T09:31:24Z",
+    "published" : "2024-10-16T09:31:24Z",
+    "authors" : [
+      {
+        "name" : "Moritz Rempe"
+      },
+      {
+        "name" : "Lukas Heine"
+      },
+      {
+        "name" : "Constantin Seibold"
+      },
+      {
+        "name" : "Fabian Hörst"
+      },
+      {
+        "name" : "Jens Kleesiek"
+      }
+    ],
+    "categories" : [
+      "eess.IV",
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.12336v1",
+    "title" : "Privacy by Design: Bringing User Awareness to Privacy Risks in Internet\n  of Things",
+    "summary" : "This paper aims to cover and summarize the field of IoT and related privacy\nconcerns through the lens of privacy by design. With the ever-increasing\nincorporation of technology within our daily lives and an ever-growing active\nresearch into smart devices and technologies, privacy concerns are inevitable.\nWe intend to briefly cover the broad topic of privacy in the IoT space, the\ninherent challenges and risks in such systems, and a few recent techniques that\nintend to resolve these issues on the subdomain level and a system scale level.\nWe then proceed to approach this situation through design thinking and\nprivacy-by-design, given that most of the prior efforts are based on resolving\nprivacy concerns on technical grounds with system-level design. We participated\nin a co-design workshop for the privacy of a content creation platform and used\nthose findings to deploy a survey-based mechanism to tackle some key concern\nareas for user groups and formulate design principles for privacy that promote\ntransparent, user-centered, and awareness-provoking privacy design.",
+    "updated" : "2024-10-16T07:57:22Z",
+    "published" : "2024-10-16T07:57:22Z",
+    "authors" : [
+      {
+        "name" : "Usama Younus"
+      },
+      {
+        "name" : "Rie Kamikubo"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.12309v1",
+    "title" : "Correction to Local Information Privacy and Its Applications to Data\n  Aggregation",
+    "summary" : "In our previous works, we defined Local Information Privacy (LIP) as a\ncontext-aware privacy notion and presented the corresponding privacy-preserving\nmechanism. Then we claim that the mechanism satisfies epsilon-LIP for any\nepsilon>0 for arbitrary Px. However, this claim is not completely correct. In\nthis document, we provide a correction to the valid range of privacy parameters\nof our previously proposed LIP mechanism. Further, we propose efficient\nalgorithms to expand the range of valid privacy parameters. Finally, we discuss\nthe impact of updated results on our original paper's experiments, the\nrationale of the proposed correction and corrected results.",
+    "updated" : "2024-10-16T07:22:53Z",
+    "published" : "2024-10-16T07:22:53Z",
+    "authors" : [
+      {
+        "name" : "Bo Jiang"
+      },
+      {
+        "name" : "Ming Li"
+      },
+      {
+        "name" : "Ravi Tandon"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.12045v1",
+    "title" : "Differential Privacy on Trust Graphs",
+    "summary" : "We study differential privacy (DP) in a multi-party setting where each party\nonly trusts a (known) subset of the other parties with its data. Specifically,\ngiven a trust graph where vertices correspond to parties and neighbors are\nmutually trusting, we give a DP algorithm for aggregation with a much better\nprivacy-utility trade-off than in the well-studied local model of DP (where\neach party trusts no other party). We further study a robust variant where each\nparty trusts all but an unknown subset of at most $t$ of its neighbors (where\n$t$ is a given parameter), and give an algorithm for this setting. We\ncomplement our algorithms with lower bounds, and discuss implications of our\nwork to other tasks in private learning and analytics.",
+    "updated" : "2024-10-15T20:31:04Z",
+    "published" : "2024-10-15T20:31:04Z",
+    "authors" : [
+      {
+        "name" : "Badih Ghazi"
+      },
+      {
+        "name" : "Ravi Kumar"
+      },
+      {
+        "name" : "Pasin Manurangsi"
+      },
+      {
+        "name" : "Serena Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DS",
+      "cs.LG",
+      "cs.SI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.11906v1",
+    "title" : "Empowering Users in Digital Privacy Management through Interactive\n  LLM-Based Agents",
+    "summary" : "This paper presents a novel application of large language models (LLMs) to\nenhance user comprehension of privacy policies through an interactive dialogue\nagent. We demonstrate that LLMs significantly outperform traditional models in\ntasks like Data Practice Identification, Choice Identification, Policy\nSummarization, and Privacy Question Answering, setting new benchmarks in\nprivacy policy analysis. Building on these findings, we introduce an innovative\nLLM-based agent that functions as an expert system for processing website\nprivacy policies, guiding users through complex legal language without\nrequiring them to pose specific questions. A user study with 100 participants\nshowed that users assisted by the agent had higher comprehension levels (mean\nscore of 2.6 out of 3 vs. 1.8 in the control group), reduced cognitive load\n(task difficulty ratings of 3.2 out of 10 vs. 7.8), increased confidence in\nmanaging privacy, and completed tasks in less time (5.5 minutes vs. 15.8\nminutes). This work highlights the potential of LLM-based agents to transform\nuser interaction with privacy policies, leading to more informed consent and\nempowering users in the digital services landscape.",
+    "updated" : "2024-10-15T02:16:59Z",
+    "published" : "2024-10-15T02:16:59Z",
+    "authors" : [
+      {
+        "name" : "Bolun Sun"
+      },
+      {
+        "name" : "Yifan Zhou"
+      },
+      {
+        "name" : "Haiyun Jiang"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "cs.AI",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.11876v1",
+    "title" : "Rescriber: Smaller-LLM-Powered User-Led Data Minimization for Navigating\n  Privacy Trade-offs in LLM-Based Conversational Agent",
+    "summary" : "The proliferation of LLM-based conversational agents has resulted in\nexcessive disclosure of identifiable or sensitive information. However,\nexisting technologies fail to offer perceptible control or account for users'\npersonal preferences about privacy-utility tradeoffs due to the lack of user\ninvolvement. To bridge this gap, we designed, built, and evaluated Rescriber, a\nbrowser extension that supports user-led data minimization in LLM-based\nconversational agents by helping users detect and sanitize personal information\nin their prompts. Our studies (N=12) showed that Rescriber helped users reduce\nunnecessary disclosure and addressed their privacy concerns. Users' subjective\nperceptions of the system powered by Llama3-8B were on par with that by GPT-4.\nThe comprehensiveness and consistency of the detection and sanitization emerge\nas essential factors that affect users' trust and perceived protection. Our\nfindings confirm the viability of smaller-LLM-powered, user-facing, on-device\nprivacy controls, presenting a promising approach to address the privacy and\ntrust challenges of AI.",
+    "updated" : "2024-10-10T01:23:16Z",
+    "published" : "2024-10-10T01:23:16Z",
+    "authors" : [
+      {
+        "name" : "Jijie Zhou"
+      },
+      {
+        "name" : "Eryue Xu"
+      },
+      {
+        "name" : "Yaoyao Wu"
+      },
+      {
+        "name" : "Tianshi Li"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "cs.AI",
+      "cs.CR"
+    ]
   }
 ]
