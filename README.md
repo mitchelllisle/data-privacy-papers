@@ -2,6 +2,187 @@
 <h2>2024-10</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.12514v1">Generating Synthetic Functional Data for Privacy-Preserving GPS
+  Trajectories</a></h3>
+  
+  <p><b>Published on:</b> 2024-10-16T12:47:09Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Arianna Burzacchi, Lise Bellanger, Klervi Le Gall, Aymeric Stamm, Simone Vantini</p>
+    <p><b>Summary:</b> This research presents FDASynthesis, a novel algorithm designed to generate
+synthetic GPS trajectory data while preserving privacy. After pre-processing
+the input GPS data, human mobility traces are modeled as multidimensional
+curves using Functional Data Analysis (FDA). Then, the synthesis process
+identifies the K-nearest trajectories and averages their Square-Root Velocity
+Functions (SRVFs) to generate synthetic data. This results in synthetic
+trajectories that maintain the utility of the original data while ensuring
+privacy. Although applied for human mobility research, FDASynthesis is highly
+adaptable to different types of functional data, offering a scalable solution
+in various application domains.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.12418v1">Privacy-Preserving Synthetically Augmented Knowledge Graphs with
+  Semantic Utility</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-10-16T10:04:02Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Luigi Bellomarini, Costanza Catalano, Andrea Coletta, Michela Iezzi, Pierangela Samarati</p>
+    <p><b>Summary:</b> Knowledge Graphs (KGs) have recently gained relevant attention in many
+application domains, from healthcare to biotechnology, from logistics to
+finance. Financial organisations, central banks, economic research entities,
+and national supervision authorities apply ontological reasoning on KGs to
+address crucial business tasks, such as economic policymaking, banking
+supervision, anti-money laundering, and economic research. Reasoning allows for
+the generation of derived knowledge capturing complex business semantics and
+the set up of effective business processes. A major obstacle in KGs sharing is
+represented by privacy considerations since the identity of the data subjects
+and their sensitive or company-confidential information may be improperly
+exposed.
+  In this paper, we propose a novel framework to enable KGs sharing while
+ensuring that information that should remain private is not directly released
+nor indirectly exposed via derived knowledge, while maintaining the embedded
+knowledge of the KGs to support business downstream tasks. Our approach
+produces a privacy-preserving synthetic KG as an augmentation of the input one
+via the introduction of structural anonymisation. We introduce a novel privacy
+measure for KGs, which considers derived knowledge and a new utility metric
+that captures the business semantics we want to preserve, and propose two novel
+anonymization algorithms. Our extensive experimental evaluation, with both
+synthetic graphs and real-world datasets, confirms the effectiveness of our
+approach achieving up to a 70% improvement in the privacy of entities compared
+to existing methods not specifically designed for KGs.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.12402v1">De-Identification of Medical Imaging Data: A Comprehensive Tool for
+  Ensuring Patient Privacy</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2024-10-16T09:31:24Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Moritz Rempe, Lukas Heine, Constantin Seibold, Fabian Hörst, Jens Kleesiek</p>
+    <p><b>Summary:</b> Medical data employed in research frequently comprises sensitive patient
+health information (PHI), which is subject to rigorous legal frameworks such as
+the General Data Protection Regulation (GDPR) or the Health Insurance
+Portability and Accountability Act (HIPAA). Consequently, these types of data
+must be pseudonymized prior to utilisation, which presents a significant
+challenge for many researchers. Given the vast array of medical data, it is
+necessary to employ a variety of de-identification techniques. To facilitate
+the anonymization process for medical imaging data, we have developed an
+open-source tool that can be used to de-identify DICOM magnetic resonance
+images, computer tomography images, whole slide images and magnetic resonance
+twix raw data. Furthermore, the implementation of a neural network enables the
+removal of text within the images. The proposed tool automates an elaborate
+anonymization pipeline for multiple types of inputs, reducing the need for
+additional tools used for de-identification of imaging data. We make our code
+publicly available at
+https://github.com/code-lukas/medical_image_deidentification.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.12336v1">Privacy by Design: Bringing User Awareness to Privacy Risks in Internet
+  of Things</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2024-10-16T07:57:22Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Usama Younus, Rie Kamikubo</p>
+    <p><b>Summary:</b> This paper aims to cover and summarize the field of IoT and related privacy
+concerns through the lens of privacy by design. With the ever-increasing
+incorporation of technology within our daily lives and an ever-growing active
+research into smart devices and technologies, privacy concerns are inevitable.
+We intend to briefly cover the broad topic of privacy in the IoT space, the
+inherent challenges and risks in such systems, and a few recent techniques that
+intend to resolve these issues on the subdomain level and a system scale level.
+We then proceed to approach this situation through design thinking and
+privacy-by-design, given that most of the prior efforts are based on resolving
+privacy concerns on technical grounds with system-level design. We participated
+in a co-design workshop for the privacy of a content creation platform and used
+those findings to deploy a survey-based mechanism to tackle some key concern
+areas for user groups and formulate design principles for privacy that promote
+transparent, user-centered, and awareness-provoking privacy design.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.12309v1">Correction to Local Information Privacy and Its Applications to Data
+  Aggregation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-10-16T07:22:53Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Bo Jiang, Ming Li, Ravi Tandon</p>
+    <p><b>Summary:</b> In our previous works, we defined Local Information Privacy (LIP) as a
+context-aware privacy notion and presented the corresponding privacy-preserving
+mechanism. Then we claim that the mechanism satisfies epsilon-LIP for any
+epsilon>0 for arbitrary Px. However, this claim is not completely correct. In
+this document, we provide a correction to the valid range of privacy parameters
+of our previously proposed LIP mechanism. Further, we propose efficient
+algorithms to expand the range of valid privacy parameters. Finally, we discuss
+the impact of updated results on our original paper's experiments, the
+rationale of the proposed correction and corrected results.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.12045v1">Differential Privacy on Trust Graphs</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Social and Information Networks-662E9B">
+  <p><b>Published on:</b> 2024-10-15T20:31:04Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Badih Ghazi, Ravi Kumar, Pasin Manurangsi, Serena Wang</p>
+    <p><b>Summary:</b> We study differential privacy (DP) in a multi-party setting where each party
+only trusts a (known) subset of the other parties with its data. Specifically,
+given a trust graph where vertices correspond to parties and neighbors are
+mutually trusting, we give a DP algorithm for aggregation with a much better
+privacy-utility trade-off than in the well-studied local model of DP (where
+each party trusts no other party). We further study a robust variant where each
+party trusts all but an unknown subset of at most $t$ of its neighbors (where
+$t$ is a given parameter), and give an algorithm for this setting. We
+complement our algorithms with lower bounds, and discuss implications of our
+work to other tasks in private learning and analytics.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.11906v1">Empowering Users in Digital Privacy Management through Interactive
+  LLM-Based Agents</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-10-15T02:16:59Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Bolun Sun, Yifan Zhou, Haiyun Jiang</p>
+    <p><b>Summary:</b> This paper presents a novel application of large language models (LLMs) to
+enhance user comprehension of privacy policies through an interactive dialogue
+agent. We demonstrate that LLMs significantly outperform traditional models in
+tasks like Data Practice Identification, Choice Identification, Policy
+Summarization, and Privacy Question Answering, setting new benchmarks in
+privacy policy analysis. Building on these findings, we introduce an innovative
+LLM-based agent that functions as an expert system for processing website
+privacy policies, guiding users through complex legal language without
+requiring them to pose specific questions. A user study with 100 participants
+showed that users assisted by the agent had higher comprehension levels (mean
+score of 2.6 out of 3 vs. 1.8 in the control group), reduced cognitive load
+(task difficulty ratings of 3.2 out of 10 vs. 7.8), increased confidence in
+managing privacy, and completed tasks in less time (5.5 minutes vs. 15.8
+minutes). This work highlights the potential of LLM-based agents to transform
+user interaction with privacy policies, leading to more informed consent and
+empowering users in the digital services landscape.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2410.09721v1">"I inherently just trust that it works": Investigating Mental Models of
   Open-Source Libraries for Differential Privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
@@ -361,6 +542,33 @@ setting, and can also be used to identify with high probability whether a given
 point was used in the training set in a high dimensional setting. To the best
 of our knowledge, our work is the first to show provable vulnerabilities in
 this setting.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.11876v1">Rescriber: Smaller-LLM-Powered User-Led Data Minimization for Navigating
+  Privacy Trade-offs in LLM-Based Conversational Agent</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-10-10T01:23:16Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jijie Zhou, Eryue Xu, Yaoyao Wu, Tianshi Li</p>
+    <p><b>Summary:</b> The proliferation of LLM-based conversational agents has resulted in
+excessive disclosure of identifiable or sensitive information. However,
+existing technologies fail to offer perceptible control or account for users'
+personal preferences about privacy-utility tradeoffs due to the lack of user
+involvement. To bridge this gap, we designed, built, and evaluated Rescriber, a
+browser extension that supports user-led data minimization in LLM-based
+conversational agents by helping users detect and sanitize personal information
+in their prompts. Our studies (N=12) showed that Rescriber helped users reduce
+unnecessary disclosure and addressed their privacy concerns. Users' subjective
+perceptions of the system powered by Llama3-8B were on par with that by GPT-4.
+The comprehensiveness and consistency of the detection and sanitization emerge
+as essential factors that affect users' trust and perceived protection. Our
+findings confirm the viability of smaller-LLM-powered, user-facing, on-device
+privacy controls, presenting a promising approach to address the privacy and
+trust challenges of AI.</p>
   </details>
 </div>
 
@@ -2692,234 +2900,6 @@ through: 1) ensuring scalable verification of data integrity by PBVm, and 2)
 ensuring low-overhead warrant update with respect to DIWIm. Security analysis
 and performance evaluation are conducted to validate the security and
 performance features of LPDP.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.13953v1">Training Large ASR Encoders with Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Sound-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
-  <p><b>Published on:</b> 2024-09-21T00:01:49Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Geeticka Chauhan, Steve Chien, Om Thakkar, Abhradeep Thakurta, Arun Narayanan</p>
-    <p><b>Summary:</b> Self-supervised learning (SSL) methods for large speech models have proven to
-be highly effective at ASR. With the interest in public deployment of large
-pre-trained models, there is a rising concern for unintended memorization and
-leakage of sensitive data points from the training data. In this paper, we
-apply differentially private (DP) pre-training to a SOTA Conformer-based
-encoder, and study its performance on a downstream ASR task assuming the
-fine-tuning data is public. This paper is the first to apply DP to SSL for ASR,
-investigating the DP noise tolerance of the BEST-RQ pre-training method.
-Notably, we introduce a novel variant of model pruning called gradient-based
-layer freezing that provides strong improvements in privacy-utility-compute
-trade-offs. Our approach yields a LibriSpeech test-clean/other WER (%) of 3.78/
-8.41 with ($10$, 1e^-9)-DP for extrapolation towards low dataset scales, and
-2.81/ 5.89 with (10, 7.9e^-11)-DP for extrapolation towards high scales.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.13875v1">Data Distribution Shifts in (Industrial) Federated Learning as a Privacy
-  Issue</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-09-20T20:09:19Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> David Brunner, Alessio Montuoro</p>
-    <p><b>Summary:</b> We consider industrial federated learning, a collaboration between a small
-number of powerful, potentially competing industrial players, mediated by a
-third party aspiring to improve the service it provides to its customers. We
-argue that this configuration harbours covert privacy risks that do not arise
-in e.g. cross-device settings. Companies are very protective of their
-intellectual property and production processes. Information about changes to
-their production and the timing of which is to be kept private. We study a
-scenario in which one of the collaborators infers changes to their competitors'
-production by detecting potentially subtle temporal data distribution shifts.
-In this framing, a data distribution shift is always problematic, even if it
-has no negative effect on training convergence. Thus, our goal is to find means
-that allow the detection of distributional shifts better than customary
-evaluation metrics. Based on the assumption that even minor shifts translate
-into the collaboratively learned machine learning model, the attacker tracks
-the shared models' internal state with a selection of metrics from literature
-in order to pick up on relevant changes. In an empirical study on benchmark
-datasets, we show an honest-but-curious attacker to be capable of detecting
-subtle distributional shifts on other clients, in some cases long before they
-become obvious in evaluation.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.12874v1">Privacy-Preserving Framework for Cell-Free MIMO ISAC Systems</a></h3>
-  
-  <p><b>Published on:</b> 2024-09-19T16:13:54Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Henrik Åkesson, Diana Pamela Moya Osorio</p>
-    <p><b>Summary:</b> Integrated Sensing and Communication (ISAC) systems are prone to privacy
-violations, once they aim at handling sensitive identifiable information in
-several applications. This paper raises the necessity of implementing
-privacy-preservation measures on the design of cell-free massive multiple-input
-multiple-output ISAC systems. To that purpose, given an adversary model, we
-propose an iterative framework of two blocks, precoder design and access point
-selection. The precoder design aims at maximizing the
-signal-to-interference-plus-noise ratio at the sensing receivers given
-communication constraints. The access point selection aims at minimizing the
-mutual information between the received signal at users and the sensing signal,
-by rearranging the access points that transmit ISAC-signals and the sensing
-receivers. Results show that a reduction in the probability of detection by the
-adversary is obtained with this method.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.12651v1">A Deep Dive into Fairness, Bias, Threats, and Privacy in Recommender
-  Systems: Insights and Future Research</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2024-09-19T11:00:35Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Falguni Roy, Xiaofeng Ding, K. -K. R. Choo, Pan Zhou</p>
-    <p><b>Summary:</b> Recommender systems are essential for personalizing digital experiences on
-e-commerce sites, streaming services, and social media platforms. While these
-systems are necessary for modern digital interactions, they face fairness,
-bias, threats, and privacy challenges. Bias in recommender systems can result
-in unfair treatment of specific users and item groups, and fairness concerns
-demand that recommendations be equitable for all users and items. These systems
-are also vulnerable to various threats that compromise reliability and
-security. Furthermore, privacy issues arise from the extensive use of personal
-data, making it crucial to have robust protection mechanisms to safeguard user
-information. This study explores fairness, bias, threats, and privacy in
-recommender systems. It examines how algorithmic decisions can unintentionally
-reinforce biases or marginalize specific user and item groups, emphasizing the
-need for fair recommendation strategies. The study also looks at the range of
-threats in the form of attacks that can undermine system integrity and
-discusses advanced privacy-preserving techniques. By addressing these critical
-areas, the study highlights current limitations and suggests future research
-directions to improve recommender systems' robustness, fairness, and privacy.
-Ultimately, this research aims to help develop more trustworthy and ethical
-recommender systems that better serve diverse user populations.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.12384v1">Privacy-Preserving Student Learning with Differentially Private
-  Data-Free Distillation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2024-09-19T01:00:18Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Bochao Liu, Jianghu Lu, Pengju Wang, Junjie Zhang, Dan Zeng, Zhenxing Qian, Shiming Ge</p>
-    <p><b>Summary:</b> Deep learning models can achieve high inference accuracy by extracting rich
-knowledge from massive well-annotated data, but may pose the risk of data
-privacy leakage in practical deployment. In this paper, we present an effective
-teacher-student learning approach to train privacy-preserving deep learning
-models via differentially private data-free distillation. The main idea is
-generating synthetic data to learn a student that can mimic the ability of a
-teacher well-trained on private data. In the approach, a generator is first
-pretrained in a data-free manner by incorporating the teacher as a fixed
-discriminator. With the generator, massive synthetic data can be generated for
-model training without exposing data privacy. Then, the synthetic data is fed
-into the teacher to generate private labels. Towards this end, we propose a
-label differential privacy algorithm termed selective randomized response to
-protect the label information. Finally, a student is trained on the synthetic
-data with the supervision of private labels. In this way, both data privacy and
-label privacy are well protected in a unified framework, leading to
-privacy-preserving models. Extensive experiments and analysis clearly
-demonstrate the effectiveness of our approach.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.12341v1">Provable Privacy Guarantee for Individual Identities and Locations in
-  Large-Scale Contact Tracing</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-09-18T22:19:48Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Tyler Nicewarner, Wei Jiang, Aniruddha Gokhale, Dan Lin</p>
-    <p><b>Summary:</b> The task of infectious disease contact tracing is crucial yet challenging,
-especially when meeting strict privacy requirements. Previous attempts in this
-area have had limitations in terms of applicable scenarios and efficiency. Our
-paper proposes a highly scalable, practical contact tracing system called
-PREVENT that can work with a variety of location collection methods to gain a
-comprehensive overview of a person's trajectory while ensuring the privacy of
-individuals being tracked, without revealing their plain text locations to any
-party, including servers. Our system is very efficient and can provide
-real-time query services for large-scale datasets with millions of locations.
-This is made possible by a newly designed secret-sharing based architecture
-that is tightly integrated into unique private space partitioning trees.
-Notably, our experimental results on both real and synthetic datasets
-demonstrate that our system introduces negligible performance overhead compared
-to traditional contact tracing methods. PREVENT could be a game-changer in the
-fight against infectious diseases and set a new standard for privacy-preserving
-location tracking.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.11845v1">Law-based and standards-oriented approach for privacy impact assessment
-  in medical devices: a topic for lawyers, engineers and healthcare
-  practitioners in MedTech</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2024-09-18T09:56:19Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yuri R. Ladeia, David M. Pereira</p>
-    <p><b>Summary:</b> Background: The integration of the General Data Protection Regulation (GDPR)
-and the Medical Device Regulation (MDR) creates complexities in conducting Data
-Protection Impact Assessments (DPIAs) for medical devices. The adoption of
-non-binding standards like ISO and IEC can harmonize these processes by
-enhancing accountability and privacy by design. Methods: This study employs a
-multidisciplinary literature review, focusing on GDPR and MDR intersection in
-medical devices that process personal health data. It evaluates key standards,
-including ISO/IEC 29134 and IEC 62304, to propose a unified approach for DPIAs
-that aligns with legal and technical frameworks. Results: The analysis reveals
-the benefits of integrating ISO/IEC standards into DPIAs, which provide
-detailed guidance on implementing privacy by design, risk assessment, and
-mitigation strategies specific to medical devices. The proposed framework
-ensures that DPIAs are living documents, continuously updated to adapt to
-evolving data protection challenges. Conclusions: A unified approach combining
-European Union (EU) regulations and international standards offers a robust
-framework for conducting DPIAs in medical devices. This integration balances
-security, innovation, and privacy, enhancing compliance and fostering trust in
-medical technologies. The study advocates for leveraging both hard law and
-standards to systematically address privacy and safety in the design and
-operation of medical devices, thereby raising the maturity of the MedTech
-ecosystem.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.11805v1">Inside Out or Not: Privacy Implications of Emotional Disclosure</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2024-09-18T08:42:45Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Elham Naghizade, Kaixin Ji, Benjamin Tag, Flora Salim</p>
-    <p><b>Summary:</b> Privacy is dynamic, sensitive, and contextual, much like our emotions.
-Previous studies have explored the interplay between privacy and context,
-privacy and emotion, and emotion and context. However, there remains a
-significant gap in understanding the interplay of these aspects simultaneously.
-In this paper, we present a preliminary study investigating the role of
-emotions in driving individuals' information sharing behaviour, particularly in
-relation to urban locations and social ties. We adopt a novel methodology that
-integrates context (location and time), emotion, and personal information
-sharing behaviour, providing a comprehensive analysis of how contextual
-emotions affect privacy. The emotions are assessed with both self-reporting and
-electrodermal activity (EDA). Our findings reveal that self-reported emotions
-influence personal information-sharing behaviour with distant social groups,
-while neutral emotions lead individuals to share less precise information with
-close social circles, a pattern is potentially detectable with wrist-worn EDA.
-Our study helps lay the foundation for personalised emotion-aware strategies to
-mitigate oversharing risks and enhance user privacy in the digital age.</p>
   </details>
 </div>
 
