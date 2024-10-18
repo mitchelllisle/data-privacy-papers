@@ -2,6 +2,159 @@
 <h2>2024-10</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.13753v1">DPFedBank: Crafting a Privacy-Preserving Federated Learning Framework
+  for Financial Institutions with Policy Pillars</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computational Engineering, Finance, and Science-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2024-10-17T16:51:56Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Peilin He, Chenkai Lin, Isabella Montoya</p>
+    <p><b>Summary:</b> In recent years, the financial sector has faced growing pressure to adopt
+advanced machine learning models to derive valuable insights while preserving
+data privacy. However, the highly sensitive nature of financial data presents
+significant challenges to sharing and collaboration. This paper presents
+DPFedBank, an innovative framework enabling financial institutions to
+collaboratively develop machine learning models while ensuring robust data
+privacy through Local Differential Privacy (LDP) mechanisms. DPFedBank is
+designed to address the unique privacy and security challenges associated with
+financial data, allowing institutions to share insights without exposing
+sensitive information. By leveraging LDP, the framework ensures that data
+remains confidential even during collaborative processes, providing a crucial
+solution for privacy-aware machine learning in finance. We conducted an
+in-depth evaluation of the potential vulnerabilities within this framework and
+developed a comprehensive set of policies aimed at mitigating these risks. The
+proposed policies effectively address threats posed by malicious clients,
+compromised servers, inherent weaknesses in existing Differential
+Privacy-Federated Learning (DP-FL) frameworks, and sophisticated external
+adversaries. Unlike existing DP-FL approaches, DPFedBank introduces a novel
+combination of adaptive LDP mechanisms and advanced cryptographic techniques
+specifically tailored for financial data, which significantly enhances privacy
+while maintaining model utility. Key security enhancements include the
+implementation of advanced authentication protocols, encryption techniques for
+secure data exchange, and continuous monitoring systems to detect and respond
+to malicious activities in real-time.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.13752v1">Privacy-Preserving Decentralized AI with Confidential Computing</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-10-17T16:50:48Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Dayeol Lee, Jorge Antonio, Hisham Khan</p>
+    <p><b>Summary:</b> This paper addresses privacy protection in decentralized Artificial
+Intelligence (AI) using Confidential Computing (CC) within the Atoma Network, a
+decentralized AI platform designed for the Web3 domain. Decentralized AI
+distributes AI services among multiple entities without centralized oversight,
+fostering transparency and robustness. However, this structure introduces
+significant privacy challenges, as sensitive assets such as proprietary models
+and personal data may be exposed to untrusted participants. Cryptography-based
+privacy protection techniques such as zero-knowledge machine learning (zkML)
+suffers prohibitive computational overhead. To address the limitation, we
+propose leveraging Confidential Computing (CC). Confidential Computing
+leverages hardware-based Trusted Execution Environments (TEEs) to provide
+isolation for processing sensitive data, ensuring that both model parameters
+and user data remain secure, even in decentralized, potentially untrusted
+environments. While TEEs face a few limitations, we believe they can bridge the
+privacy gap in decentralized AI. We explore how we can integrate TEEs into
+Atoma's decentralized framework.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.13387v1">CLEAR: Towards Contextual LLM-Empowered Privacy Policy Analysis and Risk
+  Generation for Large Language Model Applications</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2024-10-17T09:39:10Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Chaoran Chen, Daodao Zhou, Yanfang Ye, Yaxing Yao, Toby Jia-jun Li</p>
+    <p><b>Summary:</b> The rise of end-user applications powered by large language models (LLMs),
+including both conversational interfaces and add-ons to existing graphical user
+interfaces (GUIs), introduces new privacy challenges. However, many users
+remain unaware of the risks. This paper explores methods to increase user
+awareness of privacy risks associated with LLMs in end-user applications. We
+conducted five co-design workshops to uncover user privacy concerns and their
+demand for contextual privacy information within LLMs. Based on these insights,
+we developed CLEAR (Contextual LLM-Empowered Privacy Policy Analysis and Risk
+Generation), a just-in-time contextual assistant designed to help users
+identify sensitive information, summarize relevant privacy policies, and
+highlight potential risks when sharing information with LLMs. We evaluated the
+usability and usefulness of CLEAR across in two example domains: ChatGPT and
+the Gemini plugin in Gmail. Our findings demonstrated that CLEAR is easy to use
+and improves user understanding of data practices and privacy risks. We also
+discussed LLM's duality in posing and mitigating privacy risks, offering design
+and policy implications.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.13221v1">Investigating Effective Speaker Property Privacy Protection in Federated
+  Learning for Speech Emotion Recognition</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Sound-D91E36">
+  <p><b>Published on:</b> 2024-10-17T05:03:34Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Chao Tan, Sheng Li, Yang Cao, Zhao Ren, Tanja Schultz</p>
+    <p><b>Summary:</b> Federated Learning (FL) is a privacy-preserving approach that allows servers
+to aggregate distributed models transmitted from local clients rather than
+training on user data. More recently, FL has been applied to Speech Emotion
+Recognition (SER) for secure human-computer interaction applications. Recent
+research has found that FL is still vulnerable to inference attacks. To this
+end, this paper focuses on investigating the security of FL for SER concerning
+property inference attacks. We propose a novel method to protect the property
+information in speech data by decomposing various properties in the sound and
+adding perturbations to these properties. Our experiments show that the
+proposed method offers better privacy-utility trade-offs than existing methods.
+The trade-offs enable more effective attack prevention while maintaining
+similar FL utility levels. This work can guide future work on privacy
+protection methods in speech processing.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.12926v1">DEeR: Deviation Eliminating and Noise Regulating for Privacy-preserving
+  Federated Low-rank Adaptation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2024-10-16T18:11:52Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Meilu Zhu, Axiu Mao, Jun Liu, Yixuan Yuan</p>
+    <p><b>Summary:</b> Integrating low-rank adaptation (LoRA) with federated learning (FL) has
+received widespread attention recently, aiming to adapt pretrained foundation
+models (FMs) to downstream medical tasks via privacy-preserving decentralized
+training. However, owing to the direct combination of LoRA and FL, current
+methods generally undergo two problems, i.e., aggregation deviation, and
+differential privacy (DP) noise amplification effect. To address these
+problems, we propose a novel privacy-preserving federated finetuning framework
+called \underline{D}eviation \underline{E}liminating and Nois\underline{e}
+\underline{R}egulating (DEeR). Specifically, we firstly theoretically prove
+that the necessary condition to eliminate aggregation deviation is guaranteing
+the equivalence between LoRA parameters of clients. Based on the theoretical
+insight, a deviation eliminator is designed to utilize alternating minimization
+algorithm to iteratively optimize the zero-initialized and non-zero-initialized
+parameter matrices of LoRA, ensuring that aggregation deviation always be zeros
+during training. Furthermore, we also conduct an in-depth analysis of the noise
+amplification effect and find that this problem is mainly caused by the
+``linear relationship'' between DP noise and LoRA parameters. To suppress the
+noise amplification effect, we propose a noise regulator that exploits two
+regulator factors to decouple relationship between DP and LoRA, thereby
+achieving robust privacy protection and excellent finetuning performance.
+Additionally, we perform comprehensive ablated experiments to verify the
+effectiveness of the deviation eliminator and noise regulator. DEeR shows
+better performance on public medical datasets in comparison with
+state-of-the-art approaches. The code is available at
+https://github.com/CUHK-AIM-Group/DEeR.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2410.12514v1">Generating Synthetic Functional Data for Privacy-Preserving GPS
   Trajectories</a></h3>
   
@@ -479,7 +632,7 @@ genomic analyses.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.07900v1">CL3: A Collaborative Learning Framework for the Medical Data Ensuring
+  <h3><a href="http://arxiv.org/abs/2410.07900v2">CL3: A Collaborative Learning Framework for the Medical Data Ensuring
   Data Privacy in the Hyperconnected Environment</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2024-10-10T13:29:12Z</p>
@@ -501,8 +654,11 @@ global model is constructed to adapt to any data drift observed in the local
 models. Additionally, incremental learning is considered, allowing continuous
 adaptation to new medical data without forgetting previously learned
 information. Experimental results demonstrate that the CL3 framework achieved a
-global accuracy of 89.99\% when using Xception with a batch size of 16 after
-being trained for six federated communication rounds.</p>
+global accuracy of 89.99% when using Xception with a batch size of 16 after
+being trained for six federated communication rounds. A demo of the CL3
+framework is available at
+https://github.com/zavidparvez/CL3-Collaborative-Approach to ensure
+reproducibility.</p>
   </details>
 </div>
 
@@ -2746,160 +2902,6 @@ parties (e.g., the investigation agency, forensic labs, DNA database owners)
 learns about the private data of the other parties. The proposed scheme is
 analysed formally and the practicality of its security strengths is verified
 using simulations under standard assumptions.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.14499v1">A Review of Scalable and Privacy-Preserving Multi-Agent Frameworks for
-  Distributed Energy Resource Control</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Optimization and Control-F9C80E">
-  <p><b>Published on:</b> 2024-09-22T15:52:47Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Xiang Huo, Hao Huang, Katherine R. Davis, H. Vincent Poor, Mingxi Liu</p>
-    <p><b>Summary:</b> Distributed energy resources (DERs) are gaining prominence due to their
-advantages in improving energy efficiency, reducing carbon emissions, and
-enhancing grid resilience. Despite the increasing deployment, the potential of
-DERs has yet to be fully explored and exploited. A fundamental question
-restrains the management of numerous DERs in large-scale power systems, "How
-should DER data be securely processed and DER operations be efficiently
-optimized?" To address this question, this paper considers two critical issues,
-namely privacy for processing DER data and scalability in optimizing DER
-operations, then surveys existing and emerging solutions from a multi-agent
-framework perspective. In the context of scalability, this paper reviews
-state-of-the-art research that relies on parallel control, optimization, and
-learning within distributed and/or decentralized information exchange
-structures, while in the context of privacy, it identifies privacy preservation
-measures that can be synthesized into the aforementioned scalable structures.
-Despite research advances in these areas, challenges remain because these
-highly interdisciplinary studies blend a wide variety of scalable computing
-architectures and privacy preservation techniques from different fields, making
-them difficult to adapt in practice. To mitigate this issue, this paper
-provides a holistic review of trending strategies that orchestrate privacy and
-scalability for large-scale power system operations from a multi-agent
-perspective, particularly for DER control problems. Furthermore, this review
-extrapolates new approaches for future scalable, privacy-aware, and cybersecure
-pathways to unlock the full potential of DERs through controlling, optimizing,
-and learning generic multi-agent-based cyber-physical systems.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.14472v1">Blockchain Based Information Security and Privacy Protection: Challenges
-  and Future Directions using Computational Literature Review</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-09-22T14:41:43Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Gauri Shankar, Md Raihan Uddin, Saddam Mukta, Prabhat Kumar, Shareeful Islam, A. K. M. Najmul Islam</p>
-    <p><b>Summary:</b> Blockchain technology is an emerging digital innovation that has gained
-immense popularity in enhancing individual security and privacy within
-Information Systems (IS). This surge in interest is reflected in the
-exponential increase in research articles published on blockchain technology,
-highlighting its growing significance in the digital landscape. However, the
-rapid proliferation of published research presents significant challenges for
-manual analysis and synthesis due to the vast volume of information. The
-complexity and breadth of topics, combined with the inherent limitations of
-human data processing capabilities, make it difficult to comprehensively
-analyze and draw meaningful insights from the literature. To this end, we
-adopted the Computational Literature Review (CLR) to analyze pertinent
-literature impact and topic modelling using the Latent Dirichlet Allocation
-(LDA) technique. We identified 10 topics related to security and privacy and
-provided a detailed description of each topic. From the critical analysis, we
-have observed several limitations, and several future directions are provided
-as an outcome of this review.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.14457v1">Large Model Agents: State-of-the-Art, Cooperation Paradigms, Security
-  and Privacy, and Future Trends</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2024-09-22T14:09:49Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yuntao Wang, Yanghe Pan, Quan Zhao, Yi Deng, Zhou Su, Linkang Du, Tom H. Luan</p>
-    <p><b>Summary:</b> Large Model (LM) agents, powered by large foundation models such as GPT-4 and
-DALL-E 2, represent a significant step towards achieving Artificial General
-Intelligence (AGI). LM agents exhibit key characteristics of autonomy,
-embodiment, and connectivity, allowing them to operate across physical,
-virtual, and mixed-reality environments while interacting seamlessly with
-humans, other agents, and their surroundings. This paper provides a
-comprehensive survey of the state-of-the-art in LM agents, focusing on the
-architecture, cooperation paradigms, security, privacy, and future prospects.
-Specifically, we first explore the foundational principles of LM agents,
-including general architecture, key components, enabling technologies, and
-modern applications. Then, we discuss practical collaboration paradigms from
-data, computation, and knowledge perspectives towards connected intelligence of
-LM agents. Furthermore, we systematically analyze the security vulnerabilities
-and privacy breaches associated with LM agents, particularly in multi-agent
-settings. We also explore their underlying mechanisms and review existing and
-potential countermeasures. Finally, we outline future research directions for
-building robust and secure LM agent ecosystems.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.14261v1">Re-Evaluating Privacy in Centralized and Decentralized Learning: An
-  Information-Theoretical and Empirical Study</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-09-21T23:05:50Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Changlong Ji, Stephane Maag, Richard Heusdens, Qiongxiu Li</p>
-    <p><b>Summary:</b> Decentralized Federated Learning (DFL) has garnered attention for its
-robustness and scalability compared to Centralized Federated Learning (CFL).
-While DFL is commonly believed to offer privacy advantages due to the
-decentralized control of sensitive data, recent work by Pasquini et, al.
-challenges this view, demonstrating that DFL does not inherently improve
-privacy against empirical attacks under certain assumptions. For investigating
-fully this issue, a formal theoretical framework is required. Our study offers
-a novel perspective by conducting a rigorous information-theoretical analysis
-of privacy leakage in FL using mutual information. We further investigate the
-effectiveness of privacy-enhancing techniques like Secure Aggregation (SA) in
-both CFL and DFL. Our simulations and real-world experiments show that DFL
-generally offers stronger privacy preservation than CFL in practical scenarios
-where a fully trusted server is not available. We address discrepancies in
-previous research by highlighting limitations in their assumptions about graph
-topology and privacy attacks, which inadequately capture information leakage in
-FL.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.14039v1">Towards Lightweight and Privacy-preserving Data Provision in Digital
-  Forensics for Driverless Taxi</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-09-21T06:51:26Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yanwei Gong, Xiaolin Chang, Jelena Mišić, Vojislav B. Mišić, Junchao Fan, Kaiwen Wang</p>
-    <p><b>Summary:</b> Data provision, referring to the data upload and data access, is one key
-phase in vehicular digital forensics. The unique features of Driverless Taxi
-(DT) bring new issues to this phase: 1) efficient verification of data
-integrity when diverse Data Providers (DPs) upload data; 2) DP privacy
-preservation during data upload; and 3) privacy preservation of both data and
-INvestigator (IN) under complex data ownership when accessing data. To this
-end, we propose a novel Lightweight and Privacy-preserving Data Provision
-(LPDP) approach consisting of three mechanisms: 1) the Privacy-friendly Batch
-Verification Mechanism (PBVm) based on elliptic curve cryptography, 2) Data
-Access Control Mechanism (DACm) based on ciphertext-policy attribute-based
-encryption, and 3) Decentralized IN Warrant Issuance Mechanism (DIWIm) based on
-secret sharing. Privacy preservation of data provision is achieved through: 1)
-ensuring the DP privacy preservation in terms of the location privacy and
-unlinkability of data upload requests by PBVm, 2) ensuring data privacy
-preservation by DACm and DIWIm, and 3) ensuring the identity privacy of IN in
-terms of the anonymity and unlinkability of data access requests without
-sacrificing the traceability. Lightweight of data provision is achieved
-through: 1) ensuring scalable verification of data integrity by PBVm, and 2)
-ensuring low-overhead warrant update with respect to DIWIm. Security analysis
-and performance evaluation are conducted to validate the security and
-performance features of LPDP.</p>
   </details>
 </div>
 
