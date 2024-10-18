@@ -1264,5 +1264,150 @@
       "cs.AI",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.13753v1",
+    "title" : "DPFedBank: Crafting a Privacy-Preserving Federated Learning Framework\n  for Financial Institutions with Policy Pillars",
+    "summary" : "In recent years, the financial sector has faced growing pressure to adopt\nadvanced machine learning models to derive valuable insights while preserving\ndata privacy. However, the highly sensitive nature of financial data presents\nsignificant challenges to sharing and collaboration. This paper presents\nDPFedBank, an innovative framework enabling financial institutions to\ncollaboratively develop machine learning models while ensuring robust data\nprivacy through Local Differential Privacy (LDP) mechanisms. DPFedBank is\ndesigned to address the unique privacy and security challenges associated with\nfinancial data, allowing institutions to share insights without exposing\nsensitive information. By leveraging LDP, the framework ensures that data\nremains confidential even during collaborative processes, providing a crucial\nsolution for privacy-aware machine learning in finance. We conducted an\nin-depth evaluation of the potential vulnerabilities within this framework and\ndeveloped a comprehensive set of policies aimed at mitigating these risks. The\nproposed policies effectively address threats posed by malicious clients,\ncompromised servers, inherent weaknesses in existing Differential\nPrivacy-Federated Learning (DP-FL) frameworks, and sophisticated external\nadversaries. Unlike existing DP-FL approaches, DPFedBank introduces a novel\ncombination of adaptive LDP mechanisms and advanced cryptographic techniques\nspecifically tailored for financial data, which significantly enhances privacy\nwhile maintaining model utility. Key security enhancements include the\nimplementation of advanced authentication protocols, encryption techniques for\nsecure data exchange, and continuous monitoring systems to detect and respond\nto malicious activities in real-time.",
+    "updated" : "2024-10-17T16:51:56Z",
+    "published" : "2024-10-17T16:51:56Z",
+    "authors" : [
+      {
+        "name" : "Peilin He"
+      },
+      {
+        "name" : "Chenkai Lin"
+      },
+      {
+        "name" : "Isabella Montoya"
+      }
+    ],
+    "categories" : [
+      "cs.CE",
+      "cs.CR",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.13752v1",
+    "title" : "Privacy-Preserving Decentralized AI with Confidential Computing",
+    "summary" : "This paper addresses privacy protection in decentralized Artificial\nIntelligence (AI) using Confidential Computing (CC) within the Atoma Network, a\ndecentralized AI platform designed for the Web3 domain. Decentralized AI\ndistributes AI services among multiple entities without centralized oversight,\nfostering transparency and robustness. However, this structure introduces\nsignificant privacy challenges, as sensitive assets such as proprietary models\nand personal data may be exposed to untrusted participants. Cryptography-based\nprivacy protection techniques such as zero-knowledge machine learning (zkML)\nsuffers prohibitive computational overhead. To address the limitation, we\npropose leveraging Confidential Computing (CC). Confidential Computing\nleverages hardware-based Trusted Execution Environments (TEEs) to provide\nisolation for processing sensitive data, ensuring that both model parameters\nand user data remain secure, even in decentralized, potentially untrusted\nenvironments. While TEEs face a few limitations, we believe they can bridge the\nprivacy gap in decentralized AI. We explore how we can integrate TEEs into\nAtoma's decentralized framework.",
+    "updated" : "2024-10-17T16:50:48Z",
+    "published" : "2024-10-17T16:50:48Z",
+    "authors" : [
+      {
+        "name" : "Dayeol Lee"
+      },
+      {
+        "name" : "Jorge Antonio"
+      },
+      {
+        "name" : "Hisham Khan"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.13387v1",
+    "title" : "CLEAR: Towards Contextual LLM-Empowered Privacy Policy Analysis and Risk\n  Generation for Large Language Model Applications",
+    "summary" : "The rise of end-user applications powered by large language models (LLMs),\nincluding both conversational interfaces and add-ons to existing graphical user\ninterfaces (GUIs), introduces new privacy challenges. However, many users\nremain unaware of the risks. This paper explores methods to increase user\nawareness of privacy risks associated with LLMs in end-user applications. We\nconducted five co-design workshops to uncover user privacy concerns and their\ndemand for contextual privacy information within LLMs. Based on these insights,\nwe developed CLEAR (Contextual LLM-Empowered Privacy Policy Analysis and Risk\nGeneration), a just-in-time contextual assistant designed to help users\nidentify sensitive information, summarize relevant privacy policies, and\nhighlight potential risks when sharing information with LLMs. We evaluated the\nusability and usefulness of CLEAR across in two example domains: ChatGPT and\nthe Gemini plugin in Gmail. Our findings demonstrated that CLEAR is easy to use\nand improves user understanding of data practices and privacy risks. We also\ndiscussed LLM's duality in posing and mitigating privacy risks, offering design\nand policy implications.",
+    "updated" : "2024-10-17T09:39:10Z",
+    "published" : "2024-10-17T09:39:10Z",
+    "authors" : [
+      {
+        "name" : "Chaoran Chen"
+      },
+      {
+        "name" : "Daodao Zhou"
+      },
+      {
+        "name" : "Yanfang Ye"
+      },
+      {
+        "name" : "Yaxing Yao"
+      },
+      {
+        "name" : "Toby Jia-jun Li"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.13221v1",
+    "title" : "Investigating Effective Speaker Property Privacy Protection in Federated\n  Learning for Speech Emotion Recognition",
+    "summary" : "Federated Learning (FL) is a privacy-preserving approach that allows servers\nto aggregate distributed models transmitted from local clients rather than\ntraining on user data. More recently, FL has been applied to Speech Emotion\nRecognition (SER) for secure human-computer interaction applications. Recent\nresearch has found that FL is still vulnerable to inference attacks. To this\nend, this paper focuses on investigating the security of FL for SER concerning\nproperty inference attacks. We propose a novel method to protect the property\ninformation in speech data by decomposing various properties in the sound and\nadding perturbations to these properties. Our experiments show that the\nproposed method offers better privacy-utility trade-offs than existing methods.\nThe trade-offs enable more effective attack prevention while maintaining\nsimilar FL utility levels. This work can guide future work on privacy\nprotection methods in speech processing.",
+    "updated" : "2024-10-17T05:03:34Z",
+    "published" : "2024-10-17T05:03:34Z",
+    "authors" : [
+      {
+        "name" : "Chao Tan"
+      },
+      {
+        "name" : "Sheng Li"
+      },
+      {
+        "name" : "Yang Cao"
+      },
+      {
+        "name" : "Zhao Ren"
+      },
+      {
+        "name" : "Tanja Schultz"
+      }
+    ],
+    "categories" : [
+      "eess.AS",
+      "cs.SD"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.12926v1",
+    "title" : "DEeR: Deviation Eliminating and Noise Regulating for Privacy-preserving\n  Federated Low-rank Adaptation",
+    "summary" : "Integrating low-rank adaptation (LoRA) with federated learning (FL) has\nreceived widespread attention recently, aiming to adapt pretrained foundation\nmodels (FMs) to downstream medical tasks via privacy-preserving decentralized\ntraining. However, owing to the direct combination of LoRA and FL, current\nmethods generally undergo two problems, i.e., aggregation deviation, and\ndifferential privacy (DP) noise amplification effect. To address these\nproblems, we propose a novel privacy-preserving federated finetuning framework\ncalled \\underline{D}eviation \\underline{E}liminating and Nois\\underline{e}\n\\underline{R}egulating (DEeR). Specifically, we firstly theoretically prove\nthat the necessary condition to eliminate aggregation deviation is guaranteing\nthe equivalence between LoRA parameters of clients. Based on the theoretical\ninsight, a deviation eliminator is designed to utilize alternating minimization\nalgorithm to iteratively optimize the zero-initialized and non-zero-initialized\nparameter matrices of LoRA, ensuring that aggregation deviation always be zeros\nduring training. Furthermore, we also conduct an in-depth analysis of the noise\namplification effect and find that this problem is mainly caused by the\n``linear relationship'' between DP noise and LoRA parameters. To suppress the\nnoise amplification effect, we propose a noise regulator that exploits two\nregulator factors to decouple relationship between DP and LoRA, thereby\nachieving robust privacy protection and excellent finetuning performance.\nAdditionally, we perform comprehensive ablated experiments to verify the\neffectiveness of the deviation eliminator and noise regulator. DEeR shows\nbetter performance on public medical datasets in comparison with\nstate-of-the-art approaches. The code is available at\nhttps://github.com/CUHK-AIM-Group/DEeR.",
+    "updated" : "2024-10-16T18:11:52Z",
+    "published" : "2024-10-16T18:11:52Z",
+    "authors" : [
+      {
+        "name" : "Meilu Zhu"
+      },
+      {
+        "name" : "Axiu Mao"
+      },
+      {
+        "name" : "Jun Liu"
+      },
+      {
+        "name" : "Yixuan Yuan"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.07900v2",
+    "title" : "CL3: A Collaborative Learning Framework for the Medical Data Ensuring\n  Data Privacy in the Hyperconnected Environment",
+    "summary" : "In a hyperconnected environment, medical institutions are particularly\nconcerned with data privacy when sharing and transmitting sensitive patient\ninformation due to the risk of data breaches, where malicious actors could\nintercept sensitive information. A collaborative learning framework, including\ntransfer, federated, and incremental learning, can generate efficient, secure,\nand scalable models while requiring less computation, maintaining patient data\nprivacy, and ensuring an up-to-date model. This study aims to address the\ndetection of COVID-19 using chest X-ray images through a proposed collaborative\nlearning framework called CL3. Initially, transfer learning is employed,\nleveraging knowledge from a pre-trained model as the starting global model.\nLocal models from different medical institutes are then integrated, and a new\nglobal model is constructed to adapt to any data drift observed in the local\nmodels. Additionally, incremental learning is considered, allowing continuous\nadaptation to new medical data without forgetting previously learned\ninformation. Experimental results demonstrate that the CL3 framework achieved a\nglobal accuracy of 89.99% when using Xception with a batch size of 16 after\nbeing trained for six federated communication rounds. A demo of the CL3\nframework is available at\nhttps://github.com/zavidparvez/CL3-Collaborative-Approach to ensure\nreproducibility.",
+    "updated" : "2024-10-17T11:33:40Z",
+    "published" : "2024-10-10T13:29:12Z",
+    "authors" : [
+      {
+        "name" : "Mohamamd Zavid Parvez"
+      },
+      {
+        "name" : "Rafiqul Islam"
+      },
+      {
+        "name" : "Md Zahidul Islam"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
   }
 ]
