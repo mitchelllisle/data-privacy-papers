@@ -2,6 +2,66 @@
 <h2>2024-10</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.14607v1">Evaluating Privacy Measures in Healthcare Apps Predominantly Used by
+  Older Adults</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2024-10-18T17:01:14Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Saka Suleiman, Sanchari Das</p>
+    <p><b>Summary:</b> The widespread adoption of telehealth systems has led to a significant
+increase in the use of healthcare apps among older adults, but this rapid
+growth has also heightened concerns about the privacy of their health
+information. While HIPAA in the US and GDPR in the EU establish essential
+privacy protections for health information, limited research exists on the
+effectiveness of healthcare app privacy policies, particularly those used
+predominantly by older adults. To address this, we evaluated 28 healthcare apps
+across multiple dimensions, including regulatory compliance, data handling
+practices, and privacy-focused usability. To do this, we created a Privacy Risk
+Assessment Framework (PRAF) and used it to evaluate the privacy risks
+associated with these healthcare apps designed for older adults. Our analysis
+revealed significant gaps in compliance with privacy standards to such, only
+25% of apps explicitly state compliance with HIPAA, and only 18% mention GDPR.
+Surprisingly, 79% of these applications lack breach protocols, putting older
+adults at risk in the event of a data breach.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.14023v1">Identifying Privacy Personas</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2024-10-17T20:49:46Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Olena Hrynenko, Andrea Cavallaro</p>
+    <p><b>Summary:</b> Privacy personas capture the differences in user segments with respect to
+one's knowledge, behavioural patterns, level of self-efficacy, and perception
+of the importance of privacy protection. Modelling these differences is
+essential for appropriately choosing personalised communication about privacy
+(e.g. to increase literacy) and for defining suitable choices for privacy
+enhancing technologies (PETs). While various privacy personas have been derived
+in the literature, they group together people who differ from each other in
+terms of important attributes such as perceived or desired level of control,
+and motivation to use PET. To address this lack of granularity and
+comprehensiveness in describing personas, we propose eight personas that we
+derive by combining qualitative and quantitative analysis of the responses to
+an interactive educational questionnaire. We design an analysis pipeline that
+uses divisive hierarchical clustering and Boschloo's statistical test of
+homogeneity of proportions to ensure that the elicited clusters differ from
+each other based on a statistical measure. Additionally, we propose a new
+measure for calculating distances between questionnaire responses, that
+accounts for the type of the question (closed- vs open-ended) used to derive
+traits. We show that the proposed privacy personas statistically differ from
+each other. We statistically validate the proposed personas and also compare
+them with personas in the literature, showing that they provide a more granular
+and comprehensive understanding of user segments, which will allow to better
+assist users with their privacy needs.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2410.13753v1">DPFedBank: Crafting a Privacy-Preserving Federated Learning Framework
   for Financial Institutions with Policy Pillars</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computational Engineering, Finance, and Science-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
@@ -38,12 +98,12 @@ to malicious activities in real-time.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.13752v1">Privacy-Preserving Decentralized AI with Confidential Computing</a></h3>
+  <h3><a href="http://arxiv.org/abs/2410.13752v2">Privacy-Preserving Decentralized AI with Confidential Computing</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
   <p><b>Published on:</b> 2024-10-17T16:50:48Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Dayeol Lee, Jorge Antonio, Hisham Khan</p>
+    <p><b>Authors:</b> Dayeol Lee, Jorge António, Hisham Khan</p>
     <p><b>Summary:</b> This paper addresses privacy protection in decentralized Artificial
 Intelligence (AI) using Confidential Computing (CC) within the Atoma Network, a
 decentralized AI platform designed for the Web3 domain. Decentralized AI
@@ -172,6 +232,35 @@ trajectories that maintain the utility of the original data while ensuring
 privacy. Although applied for human mobility research, FDASynthesis is highly
 adaptable to different types of functional data, offering a scalable solution
 in various application domains.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.13905v1">P4GCN: Vertical Federated Social Recommendation with Privacy-Preserving
+  Two-Party Graph Convolution Networks</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Social and Information Networks-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-10-16T12:29:22Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zheng Wang, Wanwan Wang, Yimin Huang, Zhaopeng Peng, Ziqi Yang, Cheng Wang, Xiaoliang Fan</p>
+    <p><b>Summary:</b> In recent years, graph neural networks (GNNs) have been commonly utilized for
+social recommendation systems. However, real-world scenarios often present
+challenges related to user privacy and business constraints, inhibiting direct
+access to valuable social information from other platforms. While many existing
+methods have tackled matrix factorization-based social recommendations without
+direct social data access, developing GNN-based federated social recommendation
+models under similar conditions remains largely unexplored. To address this
+issue, we propose a novel vertical federated social recommendation method
+leveraging privacy-preserving two-party graph convolution networks (P4GCN) to
+enhance recommendation accuracy without requiring direct access to sensitive
+social information. First, we introduce a Sandwich-Encryption module to ensure
+comprehensive data privacy during the collaborative computing process. Second,
+we provide a thorough theoretical analysis of the privacy guarantees,
+considering the participation of both curious and honest parties. Extensive
+experiments on four real-world datasets demonstrate that P4GCN outperforms
+state-of-the-art methods in terms of recommendation accuracy. The code is
+available at https://github.com/WwZzz/P4GCN.</p>
   </details>
 </div>
 
@@ -2808,100 +2897,6 @@ are collected in a batch 30 seconds into vehicle startup. In addition, several
 vehicle property types were collected without disclosure in their respective
 privacy policies. For example, OEM A's policies only covers 110 vehicle
 properties or 13.02% of the properties found in our static analysis.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.14919v1">Voice Conversion-based Privacy through Adversarial Information Hiding</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Sound-D91E36"> 
-  <p><b>Published on:</b> 2024-09-23T11:16:49Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jacob J Webber, Oliver Watts, Gustav Eje Henter, Jennifer Williams, Simon King</p>
-    <p><b>Summary:</b> Privacy-preserving voice conversion aims to remove only the attributes of
-speech audio that convey identity information, keeping other speech
-characteristics intact. This paper presents a mechanism for privacy-preserving
-voice conversion that allows controlling the leakage of identity-bearing
-information using adversarial information hiding. This enables a deliberate
-trade-off between maintaining source-speech characteristics and modification of
-speaker identity. As such, the approach improves on voice-conversion techniques
-like CycleGAN and StarGAN, which were not designed for privacy, meaning that
-converted speech may leak personal information in unpredictable ways. Our
-approach is also more flexible than ASR-TTS voice conversion pipelines, which
-by design discard all prosodic information linked to textual content.
-Evaluations show that the proposed system successfully modifies perceived
-speaker identity whilst well maintaining source lexical content.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.14879v1">Privacy Policy Analysis through Prompt Engineering for LLMs</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
-  <p><b>Published on:</b> 2024-09-23T10:23:31Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Arda Goknil, Femke B. Gelderblom, Simeon Tverdal, Shukun Tokas, Hui Song</p>
-    <p><b>Summary:</b> Privacy policies are often obfuscated by their complexity, which impedes
-transparency and informed consent. Conventional machine learning approaches for
-automatically analyzing these policies demand significant resources and
-substantial domain-specific training, causing adaptability issues. Moreover,
-they depend on extensive datasets that may require regular maintenance due to
-changing privacy concerns.
-  In this paper, we propose, apply, and assess PAPEL (Privacy Policy Analysis
-through Prompt Engineering for LLMs), a framework harnessing the power of Large
-Language Models (LLMs) through prompt engineering to automate the analysis of
-privacy policies. PAPEL aims to streamline the extraction, annotation, and
-summarization of information from these policies, enhancing their accessibility
-and comprehensibility without requiring additional model training. By
-integrating zero-shot, one-shot, and few-shot learning approaches and the
-chain-of-thought prompting in creating predefined prompts and prompt templates,
-PAPEL guides LLMs to efficiently dissect, interpret, and synthesize the
-critical aspects of privacy policies into user-friendly summaries. We
-demonstrate the effectiveness of PAPEL with two applications: (i) annotation
-and (ii) contradiction analysis. We assess the ability of several LLaMa and GPT
-models to identify and articulate data handling practices, offering insights
-comparable to existing automated analysis approaches while reducing training
-efforts and increasing the adaptability to new analytical needs. The
-experiments demonstrate that the LLMs PAPEL utilizes (LLaMA and Chat GPT
-models) achieve robust performance in privacy policy annotation, with F1 scores
-reaching 0.8 and above (using the OPP-115 gold standard), underscoring the
-effectiveness of simpler prompts across various advanced language models.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.14798v1">PrivaMatch: A Privacy-Preserving DNA Matching Scheme for Forensic
-  Investigation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-09-23T08:22:31Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Sankha Das</p>
-    <p><b>Summary:</b> DNA fingerprinting and matching for identifying suspects has been a common
-practice in criminal investigation. Such proceedings involve multiple parties
-such as investigating agencies, suspects and forensic labs. A major challenge
-in such settings is to carry out the matching process between the suspects' DNA
-samples and the samples obtained from the crime scene without compromising the
-privacy of the suspects' DNA profiles. Additionally, it is necessary that
-sensitive details pertaining to the investigation such as the identities of the
-suspects and evidence obtained from the crime scene must be kept private to the
-investigating agency. We present a novel DNA matching scheme, termed as
-PrivaMatch, which addresses multiple concerns about privacy of the suspects'
-DNA profiles and the crime scene evidence. In the proposed scheme, the
-investigating agencies oblivious transfer and zero-knowledge proofs to
-privately obtain the DNA profiles of the suspects from the forensic lab's
-database.In addition, we present a clever data obfuscation technique using
-homomorphic encryption and modular arithmetic for the investigating agency to
-privately obtain the DNA profile of the crime scene's sample, keeping the
-profile oblivious from the forensic lab. The DNA profile of the crime scene
-sample is operated on using a homomorphic cryptosystem such that neither of the
-parties (e.g., the investigation agency, forensic labs, DNA database owners)
-learns about the private data of the other parties. The proposed scheme is
-analysed formally and the practicality of its security strengths is verified
-using simulations under standard assumptions.</p>
   </details>
 </div>
 
