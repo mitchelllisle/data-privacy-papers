@@ -1409,5 +1409,101 @@
     "categories" : [
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.14607v1",
+    "title" : "Evaluating Privacy Measures in Healthcare Apps Predominantly Used by\n  Older Adults",
+    "summary" : "The widespread adoption of telehealth systems has led to a significant\nincrease in the use of healthcare apps among older adults, but this rapid\ngrowth has also heightened concerns about the privacy of their health\ninformation. While HIPAA in the US and GDPR in the EU establish essential\nprivacy protections for health information, limited research exists on the\neffectiveness of healthcare app privacy policies, particularly those used\npredominantly by older adults. To address this, we evaluated 28 healthcare apps\nacross multiple dimensions, including regulatory compliance, data handling\npractices, and privacy-focused usability. To do this, we created a Privacy Risk\nAssessment Framework (PRAF) and used it to evaluate the privacy risks\nassociated with these healthcare apps designed for older adults. Our analysis\nrevealed significant gaps in compliance with privacy standards to such, only\n25% of apps explicitly state compliance with HIPAA, and only 18% mention GDPR.\nSurprisingly, 79% of these applications lack breach protocols, putting older\nadults at risk in the event of a data breach.",
+    "updated" : "2024-10-18T17:01:14Z",
+    "published" : "2024-10-18T17:01:14Z",
+    "authors" : [
+      {
+        "name" : "Saka Suleiman"
+      },
+      {
+        "name" : "Sanchari Das"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.14023v1",
+    "title" : "Identifying Privacy Personas",
+    "summary" : "Privacy personas capture the differences in user segments with respect to\none's knowledge, behavioural patterns, level of self-efficacy, and perception\nof the importance of privacy protection. Modelling these differences is\nessential for appropriately choosing personalised communication about privacy\n(e.g. to increase literacy) and for defining suitable choices for privacy\nenhancing technologies (PETs). While various privacy personas have been derived\nin the literature, they group together people who differ from each other in\nterms of important attributes such as perceived or desired level of control,\nand motivation to use PET. To address this lack of granularity and\ncomprehensiveness in describing personas, we propose eight personas that we\nderive by combining qualitative and quantitative analysis of the responses to\nan interactive educational questionnaire. We design an analysis pipeline that\nuses divisive hierarchical clustering and Boschloo's statistical test of\nhomogeneity of proportions to ensure that the elicited clusters differ from\neach other based on a statistical measure. Additionally, we propose a new\nmeasure for calculating distances between questionnaire responses, that\naccounts for the type of the question (closed- vs open-ended) used to derive\ntraits. We show that the proposed privacy personas statistically differ from\neach other. We statistically validate the proposed personas and also compare\nthem with personas in the literature, showing that they provide a more granular\nand comprehensive understanding of user segments, which will allow to better\nassist users with their privacy needs.",
+    "updated" : "2024-10-17T20:49:46Z",
+    "published" : "2024-10-17T20:49:46Z",
+    "authors" : [
+      {
+        "name" : "Olena Hrynenko"
+      },
+      {
+        "name" : "Andrea Cavallaro"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.13752v2",
+    "title" : "Privacy-Preserving Decentralized AI with Confidential Computing",
+    "summary" : "This paper addresses privacy protection in decentralized Artificial\nIntelligence (AI) using Confidential Computing (CC) within the Atoma Network, a\ndecentralized AI platform designed for the Web3 domain. Decentralized AI\ndistributes AI services among multiple entities without centralized oversight,\nfostering transparency and robustness. However, this structure introduces\nsignificant privacy challenges, as sensitive assets such as proprietary models\nand personal data may be exposed to untrusted participants. Cryptography-based\nprivacy protection techniques such as zero-knowledge machine learning (zkML)\nsuffers prohibitive computational overhead. To address the limitation, we\npropose leveraging Confidential Computing (CC). Confidential Computing\nleverages hardware-based Trusted Execution Environments (TEEs) to provide\nisolation for processing sensitive data, ensuring that both model parameters\nand user data remain secure, even in decentralized, potentially untrusted\nenvironments. While TEEs face a few limitations, we believe they can bridge the\nprivacy gap in decentralized AI. We explore how we can integrate TEEs into\nAtoma's decentralized framework.",
+    "updated" : "2024-10-18T16:33:05Z",
+    "published" : "2024-10-17T16:50:48Z",
+    "authors" : [
+      {
+        "name" : "Dayeol Lee"
+      },
+      {
+        "name" : "Jorge António"
+      },
+      {
+        "name" : "Hisham Khan"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.13905v1",
+    "title" : "P4GCN: Vertical Federated Social Recommendation with Privacy-Preserving\n  Two-Party Graph Convolution Networks",
+    "summary" : "In recent years, graph neural networks (GNNs) have been commonly utilized for\nsocial recommendation systems. However, real-world scenarios often present\nchallenges related to user privacy and business constraints, inhibiting direct\naccess to valuable social information from other platforms. While many existing\nmethods have tackled matrix factorization-based social recommendations without\ndirect social data access, developing GNN-based federated social recommendation\nmodels under similar conditions remains largely unexplored. To address this\nissue, we propose a novel vertical federated social recommendation method\nleveraging privacy-preserving two-party graph convolution networks (P4GCN) to\nenhance recommendation accuracy without requiring direct access to sensitive\nsocial information. First, we introduce a Sandwich-Encryption module to ensure\ncomprehensive data privacy during the collaborative computing process. Second,\nwe provide a thorough theoretical analysis of the privacy guarantees,\nconsidering the participation of both curious and honest parties. Extensive\nexperiments on four real-world datasets demonstrate that P4GCN outperforms\nstate-of-the-art methods in terms of recommendation accuracy. The code is\navailable at https://github.com/WwZzz/P4GCN.",
+    "updated" : "2024-10-16T12:29:22Z",
+    "published" : "2024-10-16T12:29:22Z",
+    "authors" : [
+      {
+        "name" : "Zheng Wang"
+      },
+      {
+        "name" : "Wanwan Wang"
+      },
+      {
+        "name" : "Yimin Huang"
+      },
+      {
+        "name" : "Zhaopeng Peng"
+      },
+      {
+        "name" : "Ziqi Yang"
+      },
+      {
+        "name" : "Cheng Wang"
+      },
+      {
+        "name" : "Xiaoliang Fan"
+      }
+    ],
+    "categories" : [
+      "cs.SI",
+      "cs.AI",
+      "cs.IR",
+      "cs.LG"
+    ]
   }
 ]
