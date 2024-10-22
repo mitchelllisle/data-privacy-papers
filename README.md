@@ -2,6 +2,271 @@
 <h2>2024-10</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.16137v1">Privacy as Social Norm: Systematically Reducing Dysfunctional Privacy
+  Concerns on Social Media</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2024-10-21T16:03:18Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> JaeWon Kim, Soobin Cho, Robert Wolfe, Jishnu Hari Nair, Alexis Hiniker</p>
+    <p><b>Summary:</b> Privacy is essential to fully enjoying the benefits of social media. While
+fear around privacy risks can sometimes motivate privacy management, the
+negative impact of such fear, particularly when it is perceived as
+unaddressable (i.e., "dysfunctional" fear), can significantly harm teen
+well-being. In a co-design study with 136 participants aged 13-18, we explored
+how teens can protect their privacy without experiencing heightened fear. We
+identified seven different sources of dysfunctional fear, such as `fear of a
+hostile environment' and `fear of overstepping privacy norms.' We also
+evaluated ten designs, co-created with teen participants, that address these
+fears. Our findings suggest that social media platforms can mitigate
+dysfunctional fear without compromising privacy by creating a culture where
+privacy protection is the norm through default privacy-protective features.
+However, we also found that even the most effective privacy features are not
+likely to be adopted unless they balance the multifaceted and diverse needs of
+teens. Individual teens have different needs -- for example, public and private
+account users have different needs -- and teens often want to enjoy the
+benefits they get from slightly reducing privacy and widening their social
+reach. Given these considerations, augmenting default privacy features by
+allowing them to be toggled on and off will allow individual users to choose
+their own balance while still maintaining a privacy-focused norm.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.15954v1">TS-ACL: A Time Series Analytic Continual Learning Framework for
+  Privacy-Preserving and Class-Incremental Pattern Recognition</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> 
+  <p><b>Published on:</b> 2024-10-21T12:34:02Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Kejia Fan, Jiaxu Li, Songning Lai, Linpu Lv, Anfeng Liu, Jianheng Tang, Houbing Herbert Song, Huiping Zhuang</p>
+    <p><b>Summary:</b> Class-incremental Learning (CIL) in Time Series Classification (TSC) aims to
+incrementally train models using the streaming time series data that arrives
+continuously. The main problem in this scenario is catastrophic forgetting,
+i.e., training models with new samples inevitably leads to the forgetting of
+previously learned knowledge. Among existing methods, the replay-based methods
+achieve satisfactory performance but compromise privacy, while exemplar-free
+methods protect privacy but suffer from low accuracy. However, more critically,
+owing to their reliance on gradient-based update techniques, these existing
+methods fundamentally cannot solve the catastrophic forgetting problem. In TSC
+scenarios with continuously arriving data and temporally shifting
+distributions, these methods become even less practical. In this paper, we
+propose a Time Series Analytic Continual Learning framework, called TS-ACL.
+Inspired by analytical learning, TS-ACL transforms neural network updates into
+gradient-free linear regression problems, thereby fundamentally mitigating
+catastrophic forgetting. Specifically, employing a pre-trained and frozen
+feature extraction encoder, TS-ACL only needs to update its analytic classifier
+recursively in a lightweight manner that is highly suitable for real-time
+applications and large-scale data processing. Additionally, we theoretically
+demonstrate that the model obtained recursively through the TS-ACL is exactly
+equivalent to a model trained on the complete dataset in a centralized manner,
+thereby establishing the property of absolute knowledge memory. Extensive
+experiments validate the superior performance of our TS-ACL.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.15942v1">A Low-Cost Privacy-Preserving Digital Wallet for Humanitarian Aid
+  Distribution</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-10-21T12:15:03Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Eva Luvison, Sylvain Chatel, Justinas Sukaitis, Vincent Graf Narbel, Carmela Troncoso, Wouter Lueks</p>
+    <p><b>Summary:</b> Humanitarian organizations distribute aid to people affected by armed
+conflicts or natural disasters. Digitalization has the potential to increase
+the efficiency and fairness of aid-distribution systems, and recent work by
+Wang et al. has shown that these benefits are possible without creating privacy
+harms for aid recipients. However, their work only provides a solution for one
+particular aid-distribution scenario in which aid recipients receive a
+pre-defined set of goods. Yet, in many situations it is desirable to enable
+recipients to decide which items they need at each moment to satisfy their
+specific needs. We formalize these needs into functional, deployment, security,
+and privacy requirements, and design a privacy-preserving digital wallet for
+aid distribution. Our smart-card-based solution enables aid recipients to spend
+a pre-defined budget at different vendors to obtain the items that they need.
+We prove our solution's security and privacy properties, and show it is
+practical at scale.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.15386v1">Formalization of Differential Privacy in Isabelle/HOL</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Programming Languages-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-10-20T13:06:13Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Tetsuya Sato, Yasuhiko Minamide</p>
+    <p><b>Summary:</b> Differential privacy is a statistical definition of privacy that has
+attracted the interest of both academia and industry. Its formulations are easy
+to understand, but the differential privacy of databases is complicated to
+determine. One of the reasons for this is that small changes in database
+programs can break their differential privacy. Therefore, formal verification
+of differential privacy has been studied for over a decade.
+  In this paper, we propose an Isabelle/HOL library for formalizing
+differential privacy in a general setting. To our knowledge, it is the first
+formalization of differential privacy that supports continuous probability
+distributions. First, we formalize the standard definition of differential
+privacy and its basic properties. Second, we formalize the Laplace mechanism
+and its differential privacy. Finally, we formalize the differential privacy of
+the report noisy max mechanism.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.15369v1">Ethical AI in Retail: Consumer Privacy and Fairness</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-10-20T12:00:14Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Anthonette Adanyin</p>
+    <p><b>Summary:</b> The adoption of artificial intelligence (AI) in retail has significantly
+transformed the industry, enabling more personalized services and efficient
+operations. However, the rapid implementation of AI technologies raises ethical
+concerns, particularly regarding consumer privacy and fairness. This study aims
+to analyze the ethical challenges of AI applications in retail, explore ways
+retailers can implement AI technologies ethically while remaining competitive,
+and provide recommendations on ethical AI practices. A descriptive survey
+design was used to collect data from 300 respondents across major e-commerce
+platforms. Data were analyzed using descriptive statistics, including
+percentages and mean scores. Findings shows a high level of concerns among
+consumers regarding the amount of personal data collected by AI-driven retail
+applications, with many expressing a lack of trust in how their data is
+managed. Also, fairness is another major issue, as a majority believe AI
+systems do not treat consumers equally, raising concerns about algorithmic
+bias. It was also found that AI can enhance business competitiveness and
+efficiency without compromising ethical principles, such as data privacy and
+fairness. Data privacy and transparency were highlighted as critical areas
+where retailers need to focus their efforts, indicating a strong demand for
+stricter data protection protocols and ongoing scrutiny of AI systems. The
+study concludes that retailers must prioritize transparency, fairness, and data
+protection when deploying AI systems. The study recommends ensuring
+transparency in AI processes, conducting regular audits to address biases,
+incorporating consumer feedback in AI development, and emphasizing consumer
+data privacy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.15044v1">Adanonymizer: Interactively Navigating and Balancing the Duality of
+  Privacy and Output Performance in Human-LLM Interaction</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2024-10-19T09:04:01Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shuning Zhang, Xin Yi, Haobin Xing, Lyumanshan Ye, Yongquan Hu, Hewu Li</p>
+    <p><b>Summary:</b> Current Large Language Models (LLMs) cannot support users to precisely
+balance privacy protection and output performance during individual
+consultations. We introduce Adanonymizer, an anonymization plug-in that allows
+users to control this balance by navigating a trade-off curve. A survey (N=221)
+revealed a privacy paradox, where users frequently disclosed sensitive
+information despite acknowledging privacy risks. The study further demonstrated
+that privacy risks were not significantly correlated with model output
+performance, highlighting the potential to navigate this trade-off.
+Adanonymizer normalizes privacy and utility ratings by type and automates the
+pseudonymization of sensitive terms based on user preferences, significantly
+reducing user effort. Its 2D color palette interface visualizes the
+privacy-utility trade-off, allowing users to adjust the balance by manipulating
+a point. An evaluation (N=36) compared Adanonymizer with ablation methods and
+differential privacy techniques, where Adanonymizer significantly reduced
+modification time, achieved better perceived model performance and overall user
+preference.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.14960v1">Dual-Technique Privacy & Security Analysis for E-Commerce Websites
+  Through Automated and Manual Implementation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2024-10-19T03:25:48Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Urvashi Kishnani, Sanchari Das</p>
+    <p><b>Summary:</b> As e-commerce continues to expand, the urgency for stronger privacy and
+security measures becomes increasingly critical, particularly on platforms
+frequented by younger users who are often less aware of potential risks. In our
+analysis of 90 US-based e-commerce websites, we employed a dual-technique
+approach, combining automated tools with manual evaluations. Tools like
+CookieServe and PrivacyCheck revealed that 38.5% of the websites deployed over
+50 cookies per session, many of which were categorized as unnecessary or
+unclear in function, posing significant risks to users' Personally Identifiable
+Information (PII). Our manual assessment further uncovered critical gaps in
+standard security practices, including the absence of mandatory multi-factor
+authentication (MFA) and breach notification protocols. Additionally, we
+observed inadequate input validation, which compromises the integrity of user
+data and transactions. Based on these findings, we recommend targeted
+improvements to privacy policies, enhanced transparency in cookie usage, and
+the implementation of stronger authentication protocols. These measures are
+essential for ensuring compliance with CCPA and COPPA, thereby fostering more
+secure online environments, particularly for younger users.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.14931v1">"Ghost of the past": identifying and resolving privacy leakage from
+  LLM's memory through proactive user interaction</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2024-10-19T01:35:26Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shuning Zhang, Lyumanshan Ye, Xin Yi, Jingyu Tang, Bo Shui, Haobin Xing, Pengfei Liu, Hewu Li</p>
+    <p><b>Summary:</b> Memories, encompassing past inputs in context window and retrieval-augmented
+generation (RAG), frequently surface during human-LLM interactions, yet users
+are often unaware of their presence and the associated privacy risks. To
+address this, we propose MemoAnalyzer, a system for identifying, visualizing,
+and managing private information within memories. A semi-structured interview
+(N=40) revealed that low privacy awareness was the primary challenge, while
+proactive privacy control emerged as the most common user need. MemoAnalyzer
+uses a prompt-based method to infer and identify sensitive information from
+aggregated past inputs, allowing users to easily modify sensitive content.
+Background color temperature and transparency are mapped to inference
+confidence and sensitivity, streamlining privacy adjustments. A 5-day
+evaluation (N=36) comparing MemoAnalyzer with the default GPT setting and a
+manual modification baseline showed MemoAnalyzer significantly improved privacy
+awareness and protection without compromising interaction speed. Our study
+contributes to privacy-conscious LLM design, offering insights into privacy
+protection for Human-AI interactions.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.14787v1">Privacy for Free in the Over-Parameterized Regime</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-10-18T18:01:11Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Simone Bombari, Marco Mondelli</p>
+    <p><b>Summary:</b> Differentially private gradient descent (DP-GD) is a popular algorithm to
+train deep learning models with provable guarantees on the privacy of the
+training data. In the last decade, the problem of understanding its performance
+cost with respect to standard GD has received remarkable attention from the
+research community, which formally derived upper bounds on the excess
+population risk $R_{P}$ in different learning settings. However, existing
+bounds typically degrade with over-parameterization, i.e., as the number of
+parameters $p$ gets larger than the number of training samples $n$ -- a regime
+which is ubiquitous in current deep-learning practice. As a result, the lack of
+theoretical insights leaves practitioners without clear guidance, leading some
+to reduce the effective number of trainable parameters to improve performance,
+while others use larger models to achieve better results through scale. In this
+work, we show that in the popular random features model with quadratic loss,
+for any sufficiently large $p$, privacy can be obtained for free, i.e.,
+$\left|R_{P} \right| = o(1)$, not only when the privacy parameter $\varepsilon$
+has constant order, but also in the strongly private setting $\varepsilon =
+o(1)$. This challenges the common wisdom that over-parameterization inherently
+hinders performance in private learning.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2410.14607v1">Evaluating Privacy Measures in Healthcare Apps Predominantly Used by
   Older Adults</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
@@ -2605,298 +2870,6 @@ not expose private information from these datasets. Differentially private SGD
 [SGD] algorithm for training new models. In this short paper, a novel
 regularization strategy is proposed to achieve the same goal in a more
 efficient manner.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.17201v1">Immersion and Invariance-based Coding for Privacy-Preserving Federated
-  Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-09-25T15:04:42Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Haleh Hayati, Carlos Murguia, Nathan van de Wouw</p>
-    <p><b>Summary:</b> Federated learning (FL) has emerged as a method to preserve privacy in
-collaborative distributed learning. In FL, clients train AI models directly on
-their devices rather than sharing data with a centralized server, which can
-pose privacy risks. However, it has been shown that despite FL's partial
-protection of local data privacy, information about clients' data can still be
-inferred from shared model updates during training. In recent years, several
-privacy-preserving approaches have been developed to mitigate this privacy
-leakage in FL, though they often provide privacy at the cost of model
-performance or system efficiency. Balancing these trade-offs presents a
-significant challenge in implementing FL schemes. In this manuscript, we
-introduce a privacy-preserving FL framework that combines differential privacy
-and system immersion tools from control theory. The core idea is to treat the
-optimization algorithms used in standard FL schemes (e.g., gradient-based
-algorithms) as a dynamical system that we seek to immerse into a
-higher-dimensional system (referred to as the target optimization algorithm).
-The target algorithm's dynamics are designed such that, first, the model
-parameters of the original algorithm are immersed in its parameters; second, it
-operates on distorted parameters; and third, it converges to an encoded version
-of the true model parameters from the original algorithm. These encoded
-parameters can then be decoded at the server to retrieve the original model
-parameters. We demonstrate that the proposed privacy-preserving scheme can be
-tailored to offer any desired level of differential privacy for both local and
-global model parameters, while maintaining the same accuracy and convergence
-rate as standard FL algorithms.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.16777v1">PhD Forum: Efficient Privacy-Preserving Processing via Memory-Centric
-  Computing</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Hardware Architecture-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
-  <p><b>Published on:</b> 2024-09-25T09:37:50Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mpoki Mwaisela</p>
-    <p><b>Summary:</b> Privacy-preserving computation techniques like homomorphic encryption (HE)
-and secure multi-party computation (SMPC) enhance data security by enabling
-processing on encrypted data. However, the significant computational and
-CPU-DRAM data movement overhead resulting from the underlying cryptographic
-algorithms impedes the adoption of these techniques in practice. Existing
-approaches focus on improving computational overhead using specialized hardware
-like GPUs and FPGAs, but these methods still suffer from the same
-processor-DRAM overhead. Novel hardware technologies that support in-memory
-processing have the potential to address this problem. Memory-centric
-computing, or processing-in-memory (PIM), brings computation closer to data by
-introducing low-power processors called data processing units (DPUs) into
-memory. Besides its in-memory computation capability, PIM provides extensive
-parallelism, resulting in significant performance improvement over
-state-of-the-art approaches. We propose a framework that uses recently
-available PIM hardware to achieve efficient privacy-preserving computation. Our
-design consists of a four-layer architecture: (1) an application layer that
-decouples privacy-preserving applications from the underlying protocols and
-hardware; (2) a protocol layer that implements existing secure computation
-protocols (HE and MPC); (3) a data orchestration layer that leverages data
-compression techniques to mitigate the data transfer overhead between DPUs and
-host memory; (4) a computation layer which implements DPU kernels on which
-secure computation algorithms are built.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.16688v2">Cycle Counting under Local Differential Privacy for Degeneracy-bounded
-  Graphs</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B">
-  <p><b>Published on:</b> 2024-09-25T07:23:58Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Quentin Hillebrand, Vorapong Suppakitpaisarn, Tetsuo Shibuya</p>
-    <p><b>Summary:</b> We propose an algorithm for counting the number of cycles under local
-differential privacy for degeneracy-bounded input graphs. Numerous studies have
-focused on counting the number of triangles under the privacy notion,
-demonstrating that the expected $\ell_2$-error of these algorithms is
-$\Omega(n^{1.5})$, where $n$ is the number of nodes in the graph. When
-parameterized by the number of cycles of length four ($C_4$), the best existing
-triangle counting algorithm has an error of $O(n^{1.5} + \sqrt{C_4}) = O(n^2)$.
-In this paper, we introduce an algorithm with an expected $\ell_2$-error of
-$O(\delta^{1.5} n^{0.5} + \delta^{0.5} d_{\max}^{0.5} n^{0.5})$, where $\delta$
-is the degeneracy and $d_{\max}$ is the maximum degree of the graph. For
-degeneracy-bounded graphs ($\delta \in \Theta(1)$) commonly found in practical
-social networks, our algorithm achieves an expected $\ell_2$-error of
-$O(d_{\max}^{0.5} n^{0.5}) = O(n)$. Our algorithm's core idea is a precise
-count of triangles following a preprocessing step that approximately sorts the
-degree of all nodes. This approach can be extended to approximate the number of
-cycles of length $k$, maintaining a similar $\ell_2$-error, namely
-$O(\delta^{(k-2)/2} d_{\max}^{0.5} n^{(k-2)/2} + \delta^{k/2} n^{(k-2)/2})$ or
-$O(d_{\max}^{0.5} n^{(k-2)/2}) = O(n^{(k-1)/2})$ for degeneracy-bounded graphs.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.16621v1">Entailment-Driven Privacy Policy Classification with LLMs</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2024-09-25T05:07:05Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Bhanuka Silva, Dishanika Denipitiyage, Suranga Seneviratne, Anirban Mahanti, Aruna Seneviratne</p>
-    <p><b>Summary:</b> While many online services provide privacy policies for end users to read and
-understand what personal data are being collected, these documents are often
-lengthy and complicated. As a result, the vast majority of users do not read
-them at all, leading to data collection under uninformed consent. Several
-attempts have been made to make privacy policies more user friendly by
-summarising them, providing automatic annotations or labels for key sections,
-or by offering chat interfaces to ask specific questions. With recent advances
-in Large Language Models (LLMs), there is an opportunity to develop more
-effective tools to parse privacy policies and help users make informed
-decisions. In this paper, we propose an entailment-driven LLM based framework
-to classify paragraphs of privacy policies into meaningful labels that are
-easily understood by users. The results demonstrate that our framework
-outperforms traditional LLM methods, improving the F1 score in average by
-11.2%. Additionally, our framework provides inherently explainable and
-meaningful predictions.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.16340v1">Future-Proofing Medical Imaging with Privacy-Preserving Federated
-  Learning and Uncertainty Quantification: A Review</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2024-09-24T16:55:32Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Nikolas Koutsoubis, Asim Waqas, Yasin Yilmaz, Ravi P. Ramachandran, Matthew Schabath, Ghulam Rasool</p>
-    <p><b>Summary:</b> Artificial Intelligence (AI) has demonstrated significant potential in
-automating various medical imaging tasks, which could soon become routine in
-clinical practice for disease diagnosis, prognosis, treatment planning, and
-post-treatment surveillance. However, the privacy concerns surrounding patient
-data present a major barrier to the widespread adoption of AI in medical
-imaging, as large, diverse training datasets are essential for developing
-accurate, generalizable, and robust Artificial intelligence models. Federated
-Learning (FL) offers a solution that enables organizations to train AI models
-collaboratively without sharing sensitive data. federated learning exchanges
-model training information, such as gradients, between the participating sites.
-Despite its promise, federated learning is still in its developmental stages
-and faces several challenges. Notably, sensitive information can still be
-inferred from the gradients shared during model training. Quantifying AI
-models' uncertainty is vital due to potential data distribution shifts
-post-deployment, which can affect model performance. Uncertainty quantification
-(UQ) in FL is particularly challenging due to data heterogeneity across
-participating sites. This review provides a comprehensive examination of FL,
-privacy-preserving FL (PPFL), and UQ in FL. We identify key gaps in current FL
-methodologies and propose future research directions to enhance data privacy
-and trustworthiness in medical imaging applications.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.16106v2">Scenario of Use Scheme: Threat Model Specification for Speaker Privacy
-  Protection in the Medical Domain</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Sound-D91E36">
-  <p><b>Published on:</b> 2024-09-24T14:07:47Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mehtab Ur Rahman, Martha Larson, Louis ten Bosch, Cristian Tejedor-García</p>
-    <p><b>Summary:</b> Speech recordings are being more frequently used to detect and monitor
-disease, leading to privacy concerns. Beyond cryptography, protection of speech
-can be addressed by approaches, such as perturbation, disentanglement, and
-re-synthesis, that eliminate sensitive information of the speaker, leaving the
-information necessary for medical analysis purposes. In order for such privacy
-protective approaches to be developed, clear and systematic specifications of
-assumptions concerning medical settings and the needs of medical professionals
-are necessary. In this paper, we propose a Scenario of Use Scheme that
-incorporates an Attacker Model, which characterizes the adversary against whom
-the speaker's privacy must be defended, and a Protector Model, which specifies
-the defense. We discuss the connection of the scheme with previous work on
-speech privacy. Finally, we present a concrete example of a specified Scenario
-of Use and a set of experiments about protecting speaker data against gender
-inference attacks while maintaining utility for Parkinson's detection.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.15868v3">Privacy Evaluation Benchmarks for NLP Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-09-24T08:41:26Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Wei Huang, Yinggui Wang, Cen Chen</p>
-    <p><b>Summary:</b> By inducing privacy attacks on NLP models, attackers can obtain sensitive
-information such as training data and model parameters, etc. Although
-researchers have studied, in-depth, several kinds of attacks in NLP models,
-they are non-systematic analyses. It lacks a comprehensive understanding of the
-impact caused by the attacks. For example, we must consider which scenarios can
-apply to which attacks, what the common factors are that affect the performance
-of different attacks, the nature of the relationships between different
-attacks, and the influence of various datasets and models on the effectiveness
-of the attacks, etc. Therefore, we need a benchmark to holistically assess the
-privacy risks faced by NLP models. In this paper, we present a privacy attack
-and defense evaluation benchmark in the field of NLP, which includes the
-conventional/small models and large language models (LLMs). This benchmark
-supports a variety of models, datasets, and protocols, along with standardized
-modules for comprehensive evaluation of attacks and defense strategies. Based
-on the above framework, we present a study on the association between auxiliary
-data from different domains and the strength of privacy attacks. And we provide
-an improved attack method in this scenario with the help of Knowledge
-Distillation (KD). Furthermore, we propose a chained framework for privacy
-attacks. Allowing a practitioner to chain multiple attacks to achieve a
-higher-level attack objective. Based on this, we provide some defense and
-enhanced attack strategies. The code for reproducing the results can be found
-at https://github.com/user2311717757/nlp_doctor.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.15656v1">Identified-and-Targeted: The First Early Evidence of the
-  Privacy-Invasive Use of Browser Fingerprinting for Online Tracking</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-09-24T01:39:16Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zengrui Liu, Jimmy Dani, Shujiang Wu, Yinzhi Cao, Nitesh Saxena</p>
-    <p><b>Summary:</b> While advertising has become commonplace in today's online interactions,
-there is a notable dearth of research investigating the extent to which browser
-fingerprinting is harnessed for user tracking and targeted advertising. Prior
-studies only measured whether fingerprinting-related scripts are being run on
-the websites but that in itself does not necessarily mean that fingerprinting
-is being used for the privacy-invasive purpose of online tracking because
-fingerprinting might be deployed for the defensive purposes of bot/fraud
-detection and user authentication. It is imperative to address the mounting
-concerns regarding the utilization of browser fingerprinting in the realm of
-online advertising.
-  To understand the privacy-invasive use of fingerprinting for user tracking,
-this paper introduces a new framework ``FPTrace'' (fingerprinting-based
-tracking assessment and comprehensive evaluation framework) designed to
-identify alterations in advertisements resulting from adjustments in browser
-fingerprinting settings. Our approach involves emulating genuine user
-interactions, capturing advertiser bid data, and closely monitoring HTTP
-information. Using FPTrace we conduct a large-scale measurement study to
-identify whether browser fingerprinting is being used for the purpose of user
-tracking and ad targeting. The results we have obtained provide robust evidence
-supporting the utilization of browser fingerprinting for the purposes of
-advertisement tracking and targeting. This is substantiated by significant
-disparities in bid values and a reduction in HTTP records subsequent to changes
-in fingerprinting. In conclusion, our research unveils the widespread
-employment of browser fingerprinting in online advertising, prompting critical
-considerations regarding user privacy and data security within the digital
-advertising landscape.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.15561v1">Analyzing Privacy Implications of Data Collection in Android Automotive
-  OS</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-09-23T21:35:40Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Bulut Gözübüyük, Brian Tang, Kang G. Shin, Mert D. Pesé</p>
-    <p><b>Summary:</b> Modern vehicles have become sophisticated computation and sensor systems, as
-evidenced by advanced driver assistance systems, in-car infotainment, and
-autonomous driving capabilities. They collect and process vast amounts of data
-through various embedded subsystems. One significant player in this landscape
-is Android Automotive OS (AAOS), which has been integrated into over 100M
-vehicles and has become a dominant force in the in-vehicle infotainment market.
-With this extensive data collection, privacy has become increasingly crucial.
-The volume of data gathered by these systems raises questions about how this
-information is stored, used, and protected, making privacy a critical issue for
-manufacturers and consumers. However, very little has been done on vehicle data
-privacy. This paper focuses on the privacy implications of AAOS, examining the
-exact nature and scope of data collection and the corresponding privacy
-policies from the original equipment manufacturers (OEMs). We develop a novel
-automotive privacy analysis tool called PriDrive which employs three
-methodological approaches: network traffic inspection, and both static and
-dynamic analyses of Android images using rooted emulators from various OEMs.
-These methodologies are followed by an assessment of whether the collected data
-types were properly disclosed in OEMs and 3rd party apps' privacy policies (to
-identify any discrepancies or violations). Our evaluation on three different
-OEM platforms reveals that vehicle speed is collected at a sampling rate of
-roughly 25 Hz. Other properties such as model info, climate & AC, and seat data
-are collected in a batch 30 seconds into vehicle startup. In addition, several
-vehicle property types were collected without disclosure in their respective
-privacy policies. For example, OEM A's policies only covers 110 vehicle
-properties or 13.02% of the properties found in our static analysis.</p>
   </details>
 </div>
 
