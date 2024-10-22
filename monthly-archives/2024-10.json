@@ -1505,5 +1505,240 @@
       "cs.IR",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.16137v1",
+    "title" : "Privacy as Social Norm: Systematically Reducing Dysfunctional Privacy\n  Concerns on Social Media",
+    "summary" : "Privacy is essential to fully enjoying the benefits of social media. While\nfear around privacy risks can sometimes motivate privacy management, the\nnegative impact of such fear, particularly when it is perceived as\nunaddressable (i.e., \"dysfunctional\" fear), can significantly harm teen\nwell-being. In a co-design study with 136 participants aged 13-18, we explored\nhow teens can protect their privacy without experiencing heightened fear. We\nidentified seven different sources of dysfunctional fear, such as `fear of a\nhostile environment' and `fear of overstepping privacy norms.' We also\nevaluated ten designs, co-created with teen participants, that address these\nfears. Our findings suggest that social media platforms can mitigate\ndysfunctional fear without compromising privacy by creating a culture where\nprivacy protection is the norm through default privacy-protective features.\nHowever, we also found that even the most effective privacy features are not\nlikely to be adopted unless they balance the multifaceted and diverse needs of\nteens. Individual teens have different needs -- for example, public and private\naccount users have different needs -- and teens often want to enjoy the\nbenefits they get from slightly reducing privacy and widening their social\nreach. Given these considerations, augmenting default privacy features by\nallowing them to be toggled on and off will allow individual users to choose\ntheir own balance while still maintaining a privacy-focused norm.",
+    "updated" : "2024-10-21T16:03:18Z",
+    "published" : "2024-10-21T16:03:18Z",
+    "authors" : [
+      {
+        "name" : "JaeWon Kim"
+      },
+      {
+        "name" : "Soobin Cho"
+      },
+      {
+        "name" : "Robert Wolfe"
+      },
+      {
+        "name" : "Jishnu Hari Nair"
+      },
+      {
+        "name" : "Alexis Hiniker"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.15954v1",
+    "title" : "TS-ACL: A Time Series Analytic Continual Learning Framework for\n  Privacy-Preserving and Class-Incremental Pattern Recognition",
+    "summary" : "Class-incremental Learning (CIL) in Time Series Classification (TSC) aims to\nincrementally train models using the streaming time series data that arrives\ncontinuously. The main problem in this scenario is catastrophic forgetting,\ni.e., training models with new samples inevitably leads to the forgetting of\npreviously learned knowledge. Among existing methods, the replay-based methods\nachieve satisfactory performance but compromise privacy, while exemplar-free\nmethods protect privacy but suffer from low accuracy. However, more critically,\nowing to their reliance on gradient-based update techniques, these existing\nmethods fundamentally cannot solve the catastrophic forgetting problem. In TSC\nscenarios with continuously arriving data and temporally shifting\ndistributions, these methods become even less practical. In this paper, we\npropose a Time Series Analytic Continual Learning framework, called TS-ACL.\nInspired by analytical learning, TS-ACL transforms neural network updates into\ngradient-free linear regression problems, thereby fundamentally mitigating\ncatastrophic forgetting. Specifically, employing a pre-trained and frozen\nfeature extraction encoder, TS-ACL only needs to update its analytic classifier\nrecursively in a lightweight manner that is highly suitable for real-time\napplications and large-scale data processing. Additionally, we theoretically\ndemonstrate that the model obtained recursively through the TS-ACL is exactly\nequivalent to a model trained on the complete dataset in a centralized manner,\nthereby establishing the property of absolute knowledge memory. Extensive\nexperiments validate the superior performance of our TS-ACL.",
+    "updated" : "2024-10-21T12:34:02Z",
+    "published" : "2024-10-21T12:34:02Z",
+    "authors" : [
+      {
+        "name" : "Kejia Fan"
+      },
+      {
+        "name" : "Jiaxu Li"
+      },
+      {
+        "name" : "Songning Lai"
+      },
+      {
+        "name" : "Linpu Lv"
+      },
+      {
+        "name" : "Anfeng Liu"
+      },
+      {
+        "name" : "Jianheng Tang"
+      },
+      {
+        "name" : "Houbing Herbert Song"
+      },
+      {
+        "name" : "Huiping Zhuang"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "I.2.6"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.15942v1",
+    "title" : "A Low-Cost Privacy-Preserving Digital Wallet for Humanitarian Aid\n  Distribution",
+    "summary" : "Humanitarian organizations distribute aid to people affected by armed\nconflicts or natural disasters. Digitalization has the potential to increase\nthe efficiency and fairness of aid-distribution systems, and recent work by\nWang et al. has shown that these benefits are possible without creating privacy\nharms for aid recipients. However, their work only provides a solution for one\nparticular aid-distribution scenario in which aid recipients receive a\npre-defined set of goods. Yet, in many situations it is desirable to enable\nrecipients to decide which items they need at each moment to satisfy their\nspecific needs. We formalize these needs into functional, deployment, security,\nand privacy requirements, and design a privacy-preserving digital wallet for\naid distribution. Our smart-card-based solution enables aid recipients to spend\na pre-defined budget at different vendors to obtain the items that they need.\nWe prove our solution's security and privacy properties, and show it is\npractical at scale.",
+    "updated" : "2024-10-21T12:15:03Z",
+    "published" : "2024-10-21T12:15:03Z",
+    "authors" : [
+      {
+        "name" : "Eva Luvison"
+      },
+      {
+        "name" : "Sylvain Chatel"
+      },
+      {
+        "name" : "Justinas Sukaitis"
+      },
+      {
+        "name" : "Vincent Graf Narbel"
+      },
+      {
+        "name" : "Carmela Troncoso"
+      },
+      {
+        "name" : "Wouter Lueks"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.15386v1",
+    "title" : "Formalization of Differential Privacy in Isabelle/HOL",
+    "summary" : "Differential privacy is a statistical definition of privacy that has\nattracted the interest of both academia and industry. Its formulations are easy\nto understand, but the differential privacy of databases is complicated to\ndetermine. One of the reasons for this is that small changes in database\nprograms can break their differential privacy. Therefore, formal verification\nof differential privacy has been studied for over a decade.\n  In this paper, we propose an Isabelle/HOL library for formalizing\ndifferential privacy in a general setting. To our knowledge, it is the first\nformalization of differential privacy that supports continuous probability\ndistributions. First, we formalize the standard definition of differential\nprivacy and its basic properties. Second, we formalize the Laplace mechanism\nand its differential privacy. Finally, we formalize the differential privacy of\nthe report noisy max mechanism.",
+    "updated" : "2024-10-20T13:06:13Z",
+    "published" : "2024-10-20T13:06:13Z",
+    "authors" : [
+      {
+        "name" : "Tetsuya Sato"
+      },
+      {
+        "name" : "Yasuhiko Minamide"
+      }
+    ],
+    "categories" : [
+      "cs.PL",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.15369v1",
+    "title" : "Ethical AI in Retail: Consumer Privacy and Fairness",
+    "summary" : "The adoption of artificial intelligence (AI) in retail has significantly\ntransformed the industry, enabling more personalized services and efficient\noperations. However, the rapid implementation of AI technologies raises ethical\nconcerns, particularly regarding consumer privacy and fairness. This study aims\nto analyze the ethical challenges of AI applications in retail, explore ways\nretailers can implement AI technologies ethically while remaining competitive,\nand provide recommendations on ethical AI practices. A descriptive survey\ndesign was used to collect data from 300 respondents across major e-commerce\nplatforms. Data were analyzed using descriptive statistics, including\npercentages and mean scores. Findings shows a high level of concerns among\nconsumers regarding the amount of personal data collected by AI-driven retail\napplications, with many expressing a lack of trust in how their data is\nmanaged. Also, fairness is another major issue, as a majority believe AI\nsystems do not treat consumers equally, raising concerns about algorithmic\nbias. It was also found that AI can enhance business competitiveness and\nefficiency without compromising ethical principles, such as data privacy and\nfairness. Data privacy and transparency were highlighted as critical areas\nwhere retailers need to focus their efforts, indicating a strong demand for\nstricter data protection protocols and ongoing scrutiny of AI systems. The\nstudy concludes that retailers must prioritize transparency, fairness, and data\nprotection when deploying AI systems. The study recommends ensuring\ntransparency in AI processes, conducting regular audits to address biases,\nincorporating consumer feedback in AI development, and emphasizing consumer\ndata privacy.",
+    "updated" : "2024-10-20T12:00:14Z",
+    "published" : "2024-10-20T12:00:14Z",
+    "authors" : [
+      {
+        "name" : "Anthonette Adanyin"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.15044v1",
+    "title" : "Adanonymizer: Interactively Navigating and Balancing the Duality of\n  Privacy and Output Performance in Human-LLM Interaction",
+    "summary" : "Current Large Language Models (LLMs) cannot support users to precisely\nbalance privacy protection and output performance during individual\nconsultations. We introduce Adanonymizer, an anonymization plug-in that allows\nusers to control this balance by navigating a trade-off curve. A survey (N=221)\nrevealed a privacy paradox, where users frequently disclosed sensitive\ninformation despite acknowledging privacy risks. The study further demonstrated\nthat privacy risks were not significantly correlated with model output\nperformance, highlighting the potential to navigate this trade-off.\nAdanonymizer normalizes privacy and utility ratings by type and automates the\npseudonymization of sensitive terms based on user preferences, significantly\nreducing user effort. Its 2D color palette interface visualizes the\nprivacy-utility trade-off, allowing users to adjust the balance by manipulating\na point. An evaluation (N=36) compared Adanonymizer with ablation methods and\ndifferential privacy techniques, where Adanonymizer significantly reduced\nmodification time, achieved better perceived model performance and overall user\npreference.",
+    "updated" : "2024-10-19T09:04:01Z",
+    "published" : "2024-10-19T09:04:01Z",
+    "authors" : [
+      {
+        "name" : "Shuning Zhang"
+      },
+      {
+        "name" : "Xin Yi"
+      },
+      {
+        "name" : "Haobin Xing"
+      },
+      {
+        "name" : "Lyumanshan Ye"
+      },
+      {
+        "name" : "Yongquan Hu"
+      },
+      {
+        "name" : "Hewu Li"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.14960v1",
+    "title" : "Dual-Technique Privacy & Security Analysis for E-Commerce Websites\n  Through Automated and Manual Implementation",
+    "summary" : "As e-commerce continues to expand, the urgency for stronger privacy and\nsecurity measures becomes increasingly critical, particularly on platforms\nfrequented by younger users who are often less aware of potential risks. In our\nanalysis of 90 US-based e-commerce websites, we employed a dual-technique\napproach, combining automated tools with manual evaluations. Tools like\nCookieServe and PrivacyCheck revealed that 38.5% of the websites deployed over\n50 cookies per session, many of which were categorized as unnecessary or\nunclear in function, posing significant risks to users' Personally Identifiable\nInformation (PII). Our manual assessment further uncovered critical gaps in\nstandard security practices, including the absence of mandatory multi-factor\nauthentication (MFA) and breach notification protocols. Additionally, we\nobserved inadequate input validation, which compromises the integrity of user\ndata and transactions. Based on these findings, we recommend targeted\nimprovements to privacy policies, enhanced transparency in cookie usage, and\nthe implementation of stronger authentication protocols. These measures are\nessential for ensuring compliance with CCPA and COPPA, thereby fostering more\nsecure online environments, particularly for younger users.",
+    "updated" : "2024-10-19T03:25:48Z",
+    "published" : "2024-10-19T03:25:48Z",
+    "authors" : [
+      {
+        "name" : "Urvashi Kishnani"
+      },
+      {
+        "name" : "Sanchari Das"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.14931v1",
+    "title" : "\"Ghost of the past\": identifying and resolving privacy leakage from\n  LLM's memory through proactive user interaction",
+    "summary" : "Memories, encompassing past inputs in context window and retrieval-augmented\ngeneration (RAG), frequently surface during human-LLM interactions, yet users\nare often unaware of their presence and the associated privacy risks. To\naddress this, we propose MemoAnalyzer, a system for identifying, visualizing,\nand managing private information within memories. A semi-structured interview\n(N=40) revealed that low privacy awareness was the primary challenge, while\nproactive privacy control emerged as the most common user need. MemoAnalyzer\nuses a prompt-based method to infer and identify sensitive information from\naggregated past inputs, allowing users to easily modify sensitive content.\nBackground color temperature and transparency are mapped to inference\nconfidence and sensitivity, streamlining privacy adjustments. A 5-day\nevaluation (N=36) comparing MemoAnalyzer with the default GPT setting and a\nmanual modification baseline showed MemoAnalyzer significantly improved privacy\nawareness and protection without compromising interaction speed. Our study\ncontributes to privacy-conscious LLM design, offering insights into privacy\nprotection for Human-AI interactions.",
+    "updated" : "2024-10-19T01:35:26Z",
+    "published" : "2024-10-19T01:35:26Z",
+    "authors" : [
+      {
+        "name" : "Shuning Zhang"
+      },
+      {
+        "name" : "Lyumanshan Ye"
+      },
+      {
+        "name" : "Xin Yi"
+      },
+      {
+        "name" : "Jingyu Tang"
+      },
+      {
+        "name" : "Bo Shui"
+      },
+      {
+        "name" : "Haobin Xing"
+      },
+      {
+        "name" : "Pengfei Liu"
+      },
+      {
+        "name" : "Hewu Li"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.14787v1",
+    "title" : "Privacy for Free in the Over-Parameterized Regime",
+    "summary" : "Differentially private gradient descent (DP-GD) is a popular algorithm to\ntrain deep learning models with provable guarantees on the privacy of the\ntraining data. In the last decade, the problem of understanding its performance\ncost with respect to standard GD has received remarkable attention from the\nresearch community, which formally derived upper bounds on the excess\npopulation risk $R_{P}$ in different learning settings. However, existing\nbounds typically degrade with over-parameterization, i.e., as the number of\nparameters $p$ gets larger than the number of training samples $n$ -- a regime\nwhich is ubiquitous in current deep-learning practice. As a result, the lack of\ntheoretical insights leaves practitioners without clear guidance, leading some\nto reduce the effective number of trainable parameters to improve performance,\nwhile others use larger models to achieve better results through scale. In this\nwork, we show that in the popular random features model with quadratic loss,\nfor any sufficiently large $p$, privacy can be obtained for free, i.e.,\n$\\left|R_{P} \\right| = o(1)$, not only when the privacy parameter $\\varepsilon$\nhas constant order, but also in the strongly private setting $\\varepsilon =\no(1)$. This challenges the common wisdom that over-parameterization inherently\nhinders performance in private learning.",
+    "updated" : "2024-10-18T18:01:11Z",
+    "published" : "2024-10-18T18:01:11Z",
+    "authors" : [
+      {
+        "name" : "Simone Bombari"
+      },
+      {
+        "name" : "Marco Mondelli"
+      }
+    ],
+    "categories" : [
+      "stat.ML",
+      "cs.CR",
+      "cs.LG"
+    ]
   }
 ]
