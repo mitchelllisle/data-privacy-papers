@@ -1740,5 +1740,236 @@
       "cs.CR",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.17127v1",
+    "title" : "PAPILLON: PrivAcy Preservation from Internet-based and Local Language\n  MOdel ENsembles",
+    "summary" : "Users can divulge sensitive information to proprietary LLM providers, raising\nsignificant privacy concerns. While open-source models, hosted locally on the\nuser's machine, alleviate some concerns, models that users can host locally are\noften less capable than proprietary frontier models. Toward preserving user\nprivacy while retaining the best quality, we propose Privacy-Conscious\nDelegation, a novel task for chaining API-based and local models. We utilize\nrecent public collections of user-LLM interactions to construct a natural\nbenchmark called PUPA, which contains personally identifiable information\n(PII). To study potential approaches, we devise PAPILLON, a multi-stage LLM\npipeline that uses prompt optimization to address a simpler version of our\ntask. Our best pipeline maintains high response quality for 85.5% of user\nqueries while restricting privacy leakage to only 7.5%. We still leave a large\nmargin to the generation quality of proprietary LLMs for future work. Our data\nand code will be available at https://github.com/siyan-sylvia-li/PAPILLON.",
+    "updated" : "2024-10-22T16:00:26Z",
+    "published" : "2024-10-22T16:00:26Z",
+    "authors" : [
+      {
+        "name" : "Li Siyan"
+      },
+      {
+        "name" : "Vethavikashini Chithrra Raghuram"
+      },
+      {
+        "name" : "Omar Khattab"
+      },
+      {
+        "name" : "Julia Hirschberg"
+      },
+      {
+        "name" : "Zhou Yu"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.17098v1",
+    "title" : "Masked Differential Privacy",
+    "summary" : "Privacy-preserving computer vision is an important emerging problem in\nmachine learning and artificial intelligence. The prevalent methods tackling\nthis problem use differential privacy or anonymization and obfuscation\ntechniques to protect the privacy of individuals. In both cases, the utility of\nthe trained model is sacrificed heavily in this process. In this work, we\npropose an effective approach called masked differential privacy (MaskDP),\nwhich allows for controlling sensitive regions where differential privacy is\napplied, in contrast to applying DP on the entire input. Our method operates\nselectively on the data and allows for defining non-sensitive spatio-temporal\nregions without DP application or combining differential privacy with other\nprivacy techniques within data samples. Experiments on four challenging action\nrecognition datasets demonstrate that our proposed techniques result in better\nutility-privacy trade-offs compared to standard differentially private training\nin the especially demanding $\\epsilon<1$ regime.",
+    "updated" : "2024-10-22T15:22:53Z",
+    "published" : "2024-10-22T15:22:53Z",
+    "authors" : [
+      {
+        "name" : "David Schneider"
+      },
+      {
+        "name" : "Sina Sajadmanesh"
+      },
+      {
+        "name" : "Vikash Sehwag"
+      },
+      {
+        "name" : "Saquib Sarfraz"
+      },
+      {
+        "name" : "Rainer Stiefelhagen"
+      },
+      {
+        "name" : "Lingjuan Lyu"
+      },
+      {
+        "name" : "Vivek Sharma"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "68T45",
+      "I.4.m"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.16975v1",
+    "title" : "Publishing Neural Networks in Drug Discovery Might Compromise Training\n  Data Privacy",
+    "summary" : "This study investigates the risks of exposing confidential chemical\nstructures when machine learning models trained on these structures are made\npublicly available. We use membership inference attacks, a common method to\nassess privacy that is largely unexplored in the context of drug discovery, to\nexamine neural networks for molecular property prediction in a black-box\nsetting. Our results reveal significant privacy risks across all evaluated\ndatasets and neural network architectures. Combining multiple attacks increases\nthese risks. Molecules from minority classes, often the most valuable in drug\ndiscovery, are particularly vulnerable. We also found that representing\nmolecules as graphs and using message-passing neural networks may mitigate\nthese risks. We provide a framework to assess privacy risks of classification\nmodels and molecular representations. Our findings highlight the need for\ncareful consideration when sharing neural networks trained on proprietary\nchemical structures, informing organisations and researchers about the\ntrade-offs between data confidentiality and model openness.",
+    "updated" : "2024-10-22T12:55:02Z",
+    "published" : "2024-10-22T12:55:02Z",
+    "authors" : [
+      {
+        "name" : "Fabian P. Krüger"
+      },
+      {
+        "name" : "Johan Östman"
+      },
+      {
+        "name" : "Lewis Mervin"
+      },
+      {
+        "name" : "Igor V. Tetko"
+      },
+      {
+        "name" : "Ola Engkvist"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.16705v1",
+    "title" : "Privacy-hardened and hallucination-resistant synthetic data generation\n  with logic-solvers",
+    "summary" : "Machine-generated data is a valuable resource for training Artificial\nIntelligence algorithms, evaluating rare workflows, and sharing data under\nstricter data legislations. The challenge is to generate data that is accurate\nand private. Current statistical and deep learning methods struggle with large\ndata volumes, are prone to hallucinating scenarios incompatible with reality,\nand seldom quantify privacy meaningfully. Here we introduce Genomator, a logic\nsolving approach (SAT solving), which efficiently produces private and\nrealistic representations of the original data. We demonstrate the method on\ngenomic data, which arguably is the most complex and private information.\nSynthetic genomes hold great potential for balancing underrepresented\npopulations in medical research and advancing global data exchange. We\nbenchmark Genomator against state-of-the-art methodologies (Markov generation,\nRestricted Boltzmann Machine, Generative Adversarial Network and Conditional\nRestricted Boltzmann Machines), demonstrating an 84-93% accuracy improvement\nand 95-98% higher privacy. Genomator is also 1000-1600 times more efficient,\nmaking it the only tested method that scales to whole genomes. We show the\nuniversal trade-off between privacy and accuracy, and use Genomator's tuning\ncapability to cater to all applications along the spectrum, from provable\nprivate representations of sensitive cohorts, to datasets with\nindistinguishable pharmacogenomic profiles. Demonstrating the production-scale\ngeneration of tuneable synthetic data can increase trust and pave the way into\nthe clinic.",
+    "updated" : "2024-10-22T05:20:21Z",
+    "published" : "2024-10-22T05:20:21Z",
+    "authors" : [
+      {
+        "name" : "Mark A. Burgess"
+      },
+      {
+        "name" : "Brendan Hosking"
+      },
+      {
+        "name" : "Roc Reguant"
+      },
+      {
+        "name" : "Anubhav Kaphle"
+      },
+      {
+        "name" : "Mitchell J. O'Brien"
+      },
+      {
+        "name" : "Letitia M. F. Sng"
+      },
+      {
+        "name" : "Yatish Jain"
+      },
+      {
+        "name" : "Denis C. Bauer"
+      }
+    ],
+    "categories" : [
+      "cs.AI",
+      "cs.CR",
+      "cs.CY",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.16672v1",
+    "title" : "DEAN: Deactivating the Coupled Neurons to Mitigate Fairness-Privacy\n  Conflicts in Large Language Models",
+    "summary" : "Ensuring awareness of fairness and privacy in Large Language Models (LLMs) is\ncritical. Interestingly, we discover a counter-intuitive trade-off phenomenon\nthat enhancing an LLM's privacy awareness through Supervised Fine-Tuning (SFT)\nmethods significantly decreases its fairness awareness with thousands of\nsamples. To address this issue, inspired by the information theory, we\nintroduce a training-free method to \\textbf{DEA}ctivate the fairness and\nprivacy coupled \\textbf{N}eurons (\\textbf{DEAN}), which theoretically and\nempirically decrease the mutual information between fairness and privacy\nawareness. Extensive experimental results demonstrate that DEAN eliminates the\ntrade-off phenomenon and significantly improves LLMs' fairness and privacy\nawareness simultaneously, \\eg improving Qwen-2-7B-Instruct's fairness awareness\nby 12.2\\% and privacy awareness by 14.0\\%. More crucially, DEAN remains robust\nand effective with limited annotated data or even when only malicious\nfine-tuning data is available, whereas SFT methods may fail to perform properly\nin such scenarios. We hope this study provides valuable insights into\nconcurrently addressing fairness and privacy concerns in LLMs and can be\nintegrated into comprehensive frameworks to develop more ethical and\nresponsible AI systems. Our code is available at\n\\url{https://github.com/ChnQ/DEAN}.",
+    "updated" : "2024-10-22T04:08:27Z",
+    "published" : "2024-10-22T04:08:27Z",
+    "authors" : [
+      {
+        "name" : "Chen Qian"
+      },
+      {
+        "name" : "Dongrui Liu"
+      },
+      {
+        "name" : "Jie Zhang"
+      },
+      {
+        "name" : "Yong Liu"
+      },
+      {
+        "name" : "Jing Shao"
+      }
+    ],
+    "categories" : [
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.16423v1",
+    "title" : "Position: Challenges and Opportunities for Differential Privacy in the\n  U.S. Federal Government",
+    "summary" : "In this article, we seek to elucidate challenges and opportunities for\ndifferential privacy within the federal government setting, as seen by a team\nof differential privacy researchers, privacy lawyers, and data scientists\nworking closely with the U.S. government. After introducing differential\nprivacy, we highlight three significant challenges which currently restrict the\nuse of differential privacy in the U.S. government. We then provide two\nexamples where differential privacy can enhance the capabilities of government\nagencies. The first example highlights how the quantitative nature of\ndifferential privacy allows policy security officers to release multiple\nversions of analyses with different levels of privacy. The second example,\nwhich we believe is a novel realization, indicates that differential privacy\ncan be used to improve staffing efficiency in classified applications. We hope\nthat this article can serve as a nontechnical resource which can help frame\nfuture action from the differential privacy community, privacy regulators,\nsecurity officers, and lawmakers.",
+    "updated" : "2024-10-21T18:46:05Z",
+    "published" : "2024-10-21T18:46:05Z",
+    "authors" : [
+      {
+        "name" : "Amol Khanna"
+      },
+      {
+        "name" : "Adam McCormick"
+      },
+      {
+        "name" : "Andre Nguyen"
+      },
+      {
+        "name" : "Chris Aguirre"
+      },
+      {
+        "name" : "Edward Raff"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.16410v1",
+    "title" : "Subword Embedding from Bytes Gains Privacy without Sacrificing Accuracy\n  and Complexity",
+    "summary" : "While NLP models significantly impact our lives, there are rising concerns\nabout privacy invasion. Although federated learning enhances privacy, attackers\nmay recover private training data by exploiting model parameters and gradients.\nTherefore, protecting against such embedding attacks remains an open challenge.\nTo address this, we propose Subword Embedding from Bytes (SEB) and encode\nsubwords to byte sequences using deep neural networks, making input text\nrecovery harder. Importantly, our method requires a smaller memory with $256$\nbytes of vocabulary while keeping efficiency with the same input length. Thus,\nour solution outperforms conventional approaches by preserving privacy without\nsacrificing efficiency or accuracy. Our experiments show SEB can effectively\nprotect against embedding-based attacks from recovering original sentences in\nfederated learning. Meanwhile, we verify that SEB obtains comparable and even\nbetter results over standard subword embedding methods in machine translation,\nsentiment analysis, and language modeling with even lower time and space\ncomplexity.",
+    "updated" : "2024-10-21T18:25:24Z",
+    "published" : "2024-10-21T18:25:24Z",
+    "authors" : [
+      {
+        "name" : "Mengjiao Zhang"
+      },
+      {
+        "name" : "Jia Xu"
+      }
+    ],
+    "categories" : [
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.13387v2",
+    "title" : "CLEAR: Towards Contextual LLM-Empowered Privacy Policy Analysis and Risk\n  Generation for Large Language Model Applications",
+    "summary" : "The rise of end-user applications powered by large language models (LLMs),\nincluding both conversational interfaces and add-ons to existing graphical user\ninterfaces (GUIs), introduces new privacy challenges. However, many users\nremain unaware of the risks. This paper explores methods to increase user\nawareness of privacy risks associated with LLMs in end-user applications. We\nconducted five co-design workshops to uncover user privacy concerns and their\ndemand for contextual privacy information within LLMs. Based on these insights,\nwe developed CLEAR (Contextual LLM-Empowered Privacy Policy Analysis and Risk\nGeneration), a just-in-time contextual assistant designed to help users\nidentify sensitive information, summarize relevant privacy policies, and\nhighlight potential risks when sharing information with LLMs. We evaluated the\nusability and usefulness of CLEAR across in two example domains: ChatGPT and\nthe Gemini plugin in Gmail. Our findings demonstrated that CLEAR is easy to use\nand improves user understanding of data practices and privacy risks. We also\ndiscussed LLM's duality in posing and mitigating privacy risks, offering design\nand policy implications.",
+    "updated" : "2024-10-22T15:17:08Z",
+    "published" : "2024-10-17T09:39:10Z",
+    "authors" : [
+      {
+        "name" : "Chaoran Chen"
+      },
+      {
+        "name" : "Daodao Zhou"
+      },
+      {
+        "name" : "Yanfang Ye"
+      },
+      {
+        "name" : "Toby Jia-jun Li"
+      },
+      {
+        "name" : "Yaxing Yao"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
   }
 ]
