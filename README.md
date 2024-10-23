@@ -2,6 +2,203 @@
 <h2>2024-10</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.17127v1">PAPILLON: PrivAcy Preservation from Internet-based and Local Language
+  MOdel ENsembles</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2024-10-22T16:00:26Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Li Siyan, Vethavikashini Chithrra Raghuram, Omar Khattab, Julia Hirschberg, Zhou Yu</p>
+    <p><b>Summary:</b> Users can divulge sensitive information to proprietary LLM providers, raising
+significant privacy concerns. While open-source models, hosted locally on the
+user's machine, alleviate some concerns, models that users can host locally are
+often less capable than proprietary frontier models. Toward preserving user
+privacy while retaining the best quality, we propose Privacy-Conscious
+Delegation, a novel task for chaining API-based and local models. We utilize
+recent public collections of user-LLM interactions to construct a natural
+benchmark called PUPA, which contains personally identifiable information
+(PII). To study potential approaches, we devise PAPILLON, a multi-stage LLM
+pipeline that uses prompt optimization to address a simpler version of our
+task. Our best pipeline maintains high response quality for 85.5% of user
+queries while restricting privacy leakage to only 7.5%. We still leave a large
+margin to the generation quality of proprietary LLMs for future work. Our data
+and code will be available at https://github.com/siyan-sylvia-li/PAPILLON.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.17098v1">Masked Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">  
+  <p><b>Published on:</b> 2024-10-22T15:22:53Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> David Schneider, Sina Sajadmanesh, Vikash Sehwag, Saquib Sarfraz, Rainer Stiefelhagen, Lingjuan Lyu, Vivek Sharma</p>
+    <p><b>Summary:</b> Privacy-preserving computer vision is an important emerging problem in
+machine learning and artificial intelligence. The prevalent methods tackling
+this problem use differential privacy or anonymization and obfuscation
+techniques to protect the privacy of individuals. In both cases, the utility of
+the trained model is sacrificed heavily in this process. In this work, we
+propose an effective approach called masked differential privacy (MaskDP),
+which allows for controlling sensitive regions where differential privacy is
+applied, in contrast to applying DP on the entire input. Our method operates
+selectively on the data and allows for defining non-sensitive spatio-temporal
+regions without DP application or combining differential privacy with other
+privacy techniques within data samples. Experiments on four challenging action
+recognition datasets demonstrate that our proposed techniques result in better
+utility-privacy trade-offs compared to standard differentially private training
+in the especially demanding $\epsilon<1$ regime.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.16975v1">Publishing Neural Networks in Drug Discovery Might Compromise Training
+  Data Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-10-22T12:55:02Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Fabian P. Krüger, Johan Östman, Lewis Mervin, Igor V. Tetko, Ola Engkvist</p>
+    <p><b>Summary:</b> This study investigates the risks of exposing confidential chemical
+structures when machine learning models trained on these structures are made
+publicly available. We use membership inference attacks, a common method to
+assess privacy that is largely unexplored in the context of drug discovery, to
+examine neural networks for molecular property prediction in a black-box
+setting. Our results reveal significant privacy risks across all evaluated
+datasets and neural network architectures. Combining multiple attacks increases
+these risks. Molecules from minority classes, often the most valuable in drug
+discovery, are particularly vulnerable. We also found that representing
+molecules as graphs and using message-passing neural networks may mitigate
+these risks. We provide a framework to assess privacy risks of classification
+models and molecular representations. Our findings highlight the need for
+careful consideration when sharing neural networks trained on proprietary
+chemical structures, informing organisations and researchers about the
+trade-offs between data confidentiality and model openness.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.16705v1">Privacy-hardened and hallucination-resistant synthetic data generation
+  with logic-solvers</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-10-22T05:20:21Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mark A. Burgess, Brendan Hosking, Roc Reguant, Anubhav Kaphle, Mitchell J. O'Brien, Letitia M. F. Sng, Yatish Jain, Denis C. Bauer</p>
+    <p><b>Summary:</b> Machine-generated data is a valuable resource for training Artificial
+Intelligence algorithms, evaluating rare workflows, and sharing data under
+stricter data legislations. The challenge is to generate data that is accurate
+and private. Current statistical and deep learning methods struggle with large
+data volumes, are prone to hallucinating scenarios incompatible with reality,
+and seldom quantify privacy meaningfully. Here we introduce Genomator, a logic
+solving approach (SAT solving), which efficiently produces private and
+realistic representations of the original data. We demonstrate the method on
+genomic data, which arguably is the most complex and private information.
+Synthetic genomes hold great potential for balancing underrepresented
+populations in medical research and advancing global data exchange. We
+benchmark Genomator against state-of-the-art methodologies (Markov generation,
+Restricted Boltzmann Machine, Generative Adversarial Network and Conditional
+Restricted Boltzmann Machines), demonstrating an 84-93% accuracy improvement
+and 95-98% higher privacy. Genomator is also 1000-1600 times more efficient,
+making it the only tested method that scales to whole genomes. We show the
+universal trade-off between privacy and accuracy, and use Genomator's tuning
+capability to cater to all applications along the spectrum, from provable
+private representations of sensitive cohorts, to datasets with
+indistinguishable pharmacogenomic profiles. Demonstrating the production-scale
+generation of tuneable synthetic data can increase trust and pave the way into
+the clinic.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.16672v1">DEAN: Deactivating the Coupled Neurons to Mitigate Fairness-Privacy
+  Conflicts in Large Language Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-10-22T04:08:27Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Chen Qian, Dongrui Liu, Jie Zhang, Yong Liu, Jing Shao</p>
+    <p><b>Summary:</b> Ensuring awareness of fairness and privacy in Large Language Models (LLMs) is
+critical. Interestingly, we discover a counter-intuitive trade-off phenomenon
+that enhancing an LLM's privacy awareness through Supervised Fine-Tuning (SFT)
+methods significantly decreases its fairness awareness with thousands of
+samples. To address this issue, inspired by the information theory, we
+introduce a training-free method to \textbf{DEA}ctivate the fairness and
+privacy coupled \textbf{N}eurons (\textbf{DEAN}), which theoretically and
+empirically decrease the mutual information between fairness and privacy
+awareness. Extensive experimental results demonstrate that DEAN eliminates the
+trade-off phenomenon and significantly improves LLMs' fairness and privacy
+awareness simultaneously, \eg improving Qwen-2-7B-Instruct's fairness awareness
+by 12.2\% and privacy awareness by 14.0\%. More crucially, DEAN remains robust
+and effective with limited annotated data or even when only malicious
+fine-tuning data is available, whereas SFT methods may fail to perform properly
+in such scenarios. We hope this study provides valuable insights into
+concurrently addressing fairness and privacy concerns in LLMs and can be
+integrated into comprehensive frameworks to develop more ethical and
+responsible AI systems. Our code is available at
+\url{https://github.com/ChnQ/DEAN}.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.16423v1">Position: Challenges and Opportunities for Differential Privacy in the
+  U.S. Federal Government</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-10-21T18:46:05Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Amol Khanna, Adam McCormick, Andre Nguyen, Chris Aguirre, Edward Raff</p>
+    <p><b>Summary:</b> In this article, we seek to elucidate challenges and opportunities for
+differential privacy within the federal government setting, as seen by a team
+of differential privacy researchers, privacy lawyers, and data scientists
+working closely with the U.S. government. After introducing differential
+privacy, we highlight three significant challenges which currently restrict the
+use of differential privacy in the U.S. government. We then provide two
+examples where differential privacy can enhance the capabilities of government
+agencies. The first example highlights how the quantitative nature of
+differential privacy allows policy security officers to release multiple
+versions of analyses with different levels of privacy. The second example,
+which we believe is a novel realization, indicates that differential privacy
+can be used to improve staffing efficiency in classified applications. We hope
+that this article can serve as a nontechnical resource which can help frame
+future action from the differential privacy community, privacy regulators,
+security officers, and lawmakers.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.16410v1">Subword Embedding from Bytes Gains Privacy without Sacrificing Accuracy
+  and Complexity</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-10-21T18:25:24Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mengjiao Zhang, Jia Xu</p>
+    <p><b>Summary:</b> While NLP models significantly impact our lives, there are rising concerns
+about privacy invasion. Although federated learning enhances privacy, attackers
+may recover private training data by exploiting model parameters and gradients.
+Therefore, protecting against such embedding attacks remains an open challenge.
+To address this, we propose Subword Embedding from Bytes (SEB) and encode
+subwords to byte sequences using deep neural networks, making input text
+recovery harder. Importantly, our method requires a smaller memory with $256$
+bytes of vocabulary while keeping efficiency with the same input length. Thus,
+our solution outperforms conventional approaches by preserving privacy without
+sacrificing efficiency or accuracy. Our experiments show SEB can effectively
+protect against embedding-based attacks from recovering original sentences in
+federated learning. Meanwhile, we verify that SEB obtains comparable and even
+better results over standard subword embedding methods in machine translation,
+sentiment analysis, and language modeling with even lower time and space
+complexity.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2410.16137v1">Privacy as Social Norm: Systematically Reducing Dysfunctional Privacy
   Concerns on Social Media</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
@@ -390,13 +587,13 @@ Atoma's decentralized framework.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.13387v1">CLEAR: Towards Contextual LLM-Empowered Privacy Policy Analysis and Risk
+  <h3><a href="http://arxiv.org/abs/2410.13387v2">CLEAR: Towards Contextual LLM-Empowered Privacy Policy Analysis and Risk
   Generation for Large Language Model Applications</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
   <p><b>Published on:</b> 2024-10-17T09:39:10Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Chaoran Chen, Daodao Zhou, Yanfang Ye, Yaxing Yao, Toby Jia-jun Li</p>
+    <p><b>Authors:</b> Chaoran Chen, Daodao Zhou, Yanfang Ye, Toby Jia-jun Li, Yaxing Yao</p>
     <p><b>Summary:</b> The rise of end-user applications powered by large language models (LLMs),
 including both conversational interfaces and add-ons to existing graphical user
 interfaces (GUIs), introduces new privacy challenges. However, many users
@@ -2663,213 +2860,6 @@ item-level fully dynamic algorithms for several fundamental graph problems. No
 fully dynamic algorithms that are private at the item-level (the more stringent
 of the two notions) were known before. In the case of item-level privacy, for
 several problems, our algorithms match our lower bounds.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.17578v1">Expanding Perspectives on Data Privacy: Insights from Rural Togo</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2024-09-26T06:47:16Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zoe Kahn, Meyebinesso Farida Carelle Pere, Emily Aiken, Nitin Kohli, Joshua E. Blumenstock</p>
-    <p><b>Summary:</b> Passively collected "big" data sources are increasingly used to inform
-critical development policy decisions in low- and middle-income countries.
-While prior work highlights how such approaches may reveal sensitive
-information, enable surveillance, and centralize power, less is known about the
-corresponding privacy concerns, hopes, and fears of the people directly
-impacted by these policies -- people sometimes referred to as experiential
-experts. To understand the perspectives of experiential experts, we conducted
-semi-structured interviews with people living in rural villages in Togo shortly
-after an entirely digital cash transfer program was launched that used machine
-learning and mobile phone metadata to determine program eligibility. This paper
-documents participants' privacy concerns surrounding the introduction of big
-data approaches in development policy. We find that the privacy concerns of our
-experiential experts differ from those raised by privacy and development domain
-experts. To facilitate a more robust and constructive account of privacy, we
-discuss implications for policies and designs that take seriously the privacy
-concerns raised by both experiential experts and domain experts.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.17538v1">On the Implicit Relation Between Low-Rank Adaptation and Differential
-  Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2024-09-26T04:56:49Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Saber Malekmohammadi, Golnoosh Farnadi</p>
-    <p><b>Summary:</b> A significant approach in natural language processing involves large-scale
-pre-training on general domain data followed by adaptation to specific tasks or
-domains. As models grow in size, full fine-tuning all parameters becomes
-increasingly impractical. To address this, some methods for low-rank task
-adaptation of language models have been proposed, e.g. LoRA and FLoRA. These
-methods keep the pre-trained model weights fixed and incorporate trainable
-low-rank decomposition matrices into some layers of the transformer
-architecture, called adapters. This approach significantly reduces the number
-of trainable parameters required for downstream tasks compared to full
-fine-tuning all parameters. In this work, we look at low-rank adaptation from
-the lens of data privacy. We show theoretically that the low-rank adaptation
-used in LoRA and FLoRA is equivalent to injecting some random noise into the
-batch gradients w.r.t the adapter parameters coming from their full
-fine-tuning, and we quantify the variance of the injected noise. By
-establishing a Berry-Esseen type bound on the total variation distance between
-the noise distribution and a Gaussian distribution with the same variance, we
-show that the dynamics of LoRA and FLoRA are very close to differentially
-private full fine-tuning the adapters, which suggests that low-rank adaptation
-implicitly provides privacy w.r.t the fine-tuning data. Finally, using
-Johnson-Lindenstrauss lemma, we show that when augmented with gradient
-clipping, low-rank adaptation is almost equivalent to differentially private
-full fine-tuning adapters with a fixed noise scale.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.17535v1">Privacy-Preserving Redaction of Diagnosis Data through Source Code
-  Analysis</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-09-26T04:41:55Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Lixi Zhou, Lei Yu, Jia Zou, Hong Min</p>
-    <p><b>Summary:</b> Protecting sensitive information in diagnostic data such as logs, is a
-critical concern in the industrial software diagnosis and debugging process.
-While there are many tools developed to automatically redact the logs for
-identifying and removing sensitive information, they have severe limitations
-which can cause either over redaction and loss of critical diagnostic
-information (false positives), or disclosure of sensitive information (false
-negatives), or both. To address the problem, in this paper, we argue for a
-source code analysis approach for log redaction. To identify a log message
-containing sensitive information, our method locates the corresponding log
-statement in the source code with logger code augmentation, and checks if the
-log statement outputs data from sensitive sources by using the data flow graph
-built from the source code. Appropriate redaction rules are further applied
-depending on the sensitiveness of the data sources to preserve the privacy
-information in the logs. We conducted experimental evaluation and comparison
-with other popular baselines. The results demonstrate that our approach can
-significantly improve the detection precision of the sensitive information and
-reduce both false positives and negatives.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.17509v1">BioZero: An Efficient and Privacy-Preserving Decentralized Biometric
-  Authentication Protocol on Open Blockchain</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-09-26T03:37:35Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Junhao Lai, Taotao Wang, Shengli Zhang, Qing Yang, Soung Chang Liew</p>
-    <p><b>Summary:</b> Digital identity plays a vital role in enabling secure access to resources
-and services in the digital world. Traditional identity authentication methods,
-such as password-based and biometric authentications, have limitations in terms
-of security, privacy, and scalability. Decentralized authentication approaches
-leveraging blockchain technology have emerged as a promising solution. However,
-existing decentralized authentication methods often rely on indirect identity
-verification (e.g. using passwords or digital signatures as authentication
-credentials) and face challenges such as Sybil attacks. In this paper, we
-propose BioZero, an efficient and privacy-preserving decentralized biometric
-authentication protocol that can be implemented on open blockchain. BioZero
-leverages Pedersen commitment and homomorphic computation to protect user
-biometric privacy while enabling efficient verification. We enhance the
-protocol with non-interactive homomorphic computation and employ zero-knowledge
-proofs for secure on-chain verification. The unique aspect of BioZero is that
-it is fully decentralized and can be executed by blockchain smart contracts in
-a very efficient way. We analyze the security of BioZero and validate its
-performance through a prototype implementation. The results demonstrate the
-effectiveness, efficiency, and security of BioZero in decentralized
-authentication scenarios. Our work contributes to the advancement of
-decentralized identity authentication using biometrics.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.17315v1">KIPPS: Knowledge infusion in Privacy Preserving Synthetic Data
-  Generation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-09-25T19:50:03Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Anantaa Kotal, Anupam Joshi</p>
-    <p><b>Summary:</b> The integration of privacy measures, including differential privacy
-techniques, ensures a provable privacy guarantee for the synthetic data.
-However, challenges arise for Generative Deep Learning models when tasked with
-generating realistic data, especially in critical domains such as Cybersecurity
-and Healthcare. Generative Models optimized for continuous data struggle to
-model discrete and non-Gaussian features that have domain constraints.
-Challenges increase when the training datasets are limited and not diverse. In
-such cases, generative models create synthetic data that repeats sensitive
-features, which is a privacy risk. Moreover, generative models face
-difficulties comprehending attribute constraints in specialized domains. This
-leads to the generation of unrealistic data that impacts downstream accuracy.
-To address these issues, this paper proposes a novel model, KIPPS, that infuses
-Domain and Regulatory Knowledge from Knowledge Graphs into Generative Deep
-Learning models for enhanced Privacy Preserving Synthetic data generation. The
-novel framework augments the training of generative models with supplementary
-context about attribute values and enforces domain constraints during training.
-This added guidance enhances the model's capacity to generate realistic and
-domain-compliant synthetic data. The proposed model is evaluated on real-world
-datasets, specifically in the domains of Cybersecurity and Healthcare, where
-domain constraints and rules add to the complexity of the data. Our experiments
-evaluate the privacy resilience and downstream accuracy of the model against
-benchmark methods, demonstrating its effectiveness in addressing the balance
-between privacy preservation and data accuracy in complex domains.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.17283v1">Investigating Privacy Attacks in the Gray-Box Setting to Enhance
-  Collaborative Learning Schemes</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-09-25T18:49:21Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Federico Mazzone, Ahmad Al Badawi, Yuriy Polyakov, Maarten Everts, Florian Hahn, Andreas Peter</p>
-    <p><b>Summary:</b> The notion that collaborative machine learning can ensure privacy by just
-withholding the raw data is widely acknowledged to be flawed. Over the past
-seven years, the literature has revealed several privacy attacks that enable
-adversaries to extract information about a model's training dataset by
-exploiting access to model parameters during or after training. In this work,
-we study privacy attacks in the gray-box setting, where the attacker has only
-limited access - in terms of view and actions - to the model. The findings of
-our investigation provide new insights for the development of
-privacy-preserving collaborative learning solutions. We deploy SmartCryptNN, a
-framework that tailors homomorphic encryption to protect the portions of the
-model posing higher privacy risks. Our solution offers a trade-off between
-privacy and efficiency, which varies based on the extent and selection of the
-model components we choose to protect. We explore it on dense neural networks,
-where through extensive evaluation of diverse datasets and architectures, we
-uncover instances where a favorable sweet spot in the trade-off can be achieved
-by safeguarding only a single layer of the network. In one of such instances,
-our approach trains ~4 times faster compared to fully encrypted solutions,
-while reducing membership leakage by 17.8 times compared to plaintext
-solutions.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.17144v1">Differential Privacy Regularization: Protecting Training Data Through
-  Loss Function Regularization</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Neural and Evolutionary Computing-5BC0EB">
-  <p><b>Published on:</b> 2024-09-25T17:59:32Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Francisco Aguilera-Martínez, Fernando Berzal</p>
-    <p><b>Summary:</b> Training machine learning models based on neural networks requires large
-datasets, which may contain sensitive information. The models, however, should
-not expose private information from these datasets. Differentially private SGD
-[DP-SGD] requires the modification of the standard stochastic gradient descent
-[SGD] algorithm for training new models. In this short paper, a novel
-regularization strategy is proposed to achieve the same goal in a more
-efficient manner.</p>
   </details>
 </div>
 
