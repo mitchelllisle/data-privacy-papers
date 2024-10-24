@@ -1971,5 +1971,89 @@
     "categories" : [
       "cs.HC"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.17468v1",
+    "title" : "Formal Privacy Guarantees with Invariant Statistics",
+    "summary" : "Motivated by the 2020 US Census products, this paper extends differential\nprivacy (DP) to address the joint release of DP outputs and nonprivate\nstatistics, referred to as invariant. Our framework, Semi-DP, redefines\nadjacency by focusing on datasets that conform to the given invariant, ensuring\nindistinguishability between adjacent datasets within invariant-conforming\ndatasets. We further develop customized mechanisms that satisfy Semi-DP,\nincluding the Gaussian mechanism and the optimal $K$-norm mechanism for\nrank-deficient sensitivity spaces. Our framework is applied to contingency\ntable analysis which is relevant to the 2020 US Census, illustrating how\nSemi-DP enables the release of private outputs given the one-way margins as the\ninvariant. Additionally, we provide a privacy analysis of the 2020 US Decennial\nCensus using the Semi-DP framework, revealing that the effective privacy\nguarantees are weaker than advertised.",
+    "updated" : "2024-10-22T22:50:17Z",
+    "published" : "2024-10-22T22:50:17Z",
+    "authors" : [
+      {
+        "name" : "Young Hyun Cho"
+      },
+      {
+        "name" : "Jordan Awan"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "stat.AP"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.17459v1",
+    "title" : "Data Obfuscation through Latent Space Projection (LSP) for\n  Privacy-Preserving AI Governance: Case Studies in Medical Diagnosis and\n  Finance Fraud Detection",
+    "summary" : "As AI systems increasingly integrate into critical societal sectors, the\ndemand for robust privacy-preserving methods has escalated. This paper\nintroduces Data Obfuscation through Latent Space Projection (LSP), a novel\ntechnique aimed at enhancing AI governance and ensuring Responsible AI\ncompliance. LSP uses machine learning to project sensitive data into a latent\nspace, effectively obfuscating it while preserving essential features for model\ntraining and inference. Unlike traditional privacy methods like differential\nprivacy or homomorphic encryption, LSP transforms data into an abstract,\nlower-dimensional form, achieving a delicate balance between data utility and\nprivacy. Leveraging autoencoders and adversarial training, LSP separates\nsensitive from non-sensitive information, allowing for precise control over\nprivacy-utility trade-offs. We validate LSP's effectiveness through experiments\non benchmark datasets and two real-world case studies: healthcare cancer\ndiagnosis and financial fraud analysis. Our results show LSP achieves high\nperformance (98.7% accuracy in image classification) while providing strong\nprivacy (97.3% protection against sensitive attribute inference), outperforming\ntraditional anonymization and privacy-preserving methods. The paper also\nexamines LSP's alignment with global AI governance frameworks, such as GDPR,\nCCPA, and HIPAA, highlighting its contribution to fairness, transparency, and\naccountability. By embedding privacy within the machine learning pipeline, LSP\noffers a promising approach to developing AI systems that respect privacy while\ndelivering valuable insights. We conclude by discussing future research\ndirections, including theoretical privacy guarantees, integration with\nfederated learning, and enhancing latent space interpretability, positioning\nLSP as a critical tool for ethical AI advancement.",
+    "updated" : "2024-10-22T22:31:03Z",
+    "published" : "2024-10-22T22:31:03Z",
+    "authors" : [
+      {
+        "name" : "Mahesh Vaijainthymala Krishnamoorthy"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR",
+      "cs.CY",
+      "F.2.1; E.3"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.17353v1",
+    "title" : "Preserving Privacy in Cloud-based Data-Driven Stabilization",
+    "summary" : "In the recent years, we have observed three significant trends in control\nsystems: a renewed interest in data-driven control design, the abundance of\ncloud computational services and the importance of preserving privacy for the\nsystem under control. Motivated by these factors, this work investigates\nprivacy-preserving outsourcing for the design of a stabilizing controller for\nunknown linear time-invariant systems.The main objective of this research is to\npreserve the privacy for the system dynamics by designing an outsourcing\nmechanism. To achieve this goal, we propose a scheme that combines\ntransformation-based techniques and robust data-driven control design methods.\nThe scheme preserves the privacy of both the open-loop and closed-loop system\nmatrices while stabilizing the system under control.The scheme is applicable to\nboth data with and without disturbance and is lightweight in terms of\ncomputational overhead. Numerical investigations for a case study demonstrate\nthe impacts of our mechanism and its role in hindering malicious adversaries\nfrom achieving their goals.",
+    "updated" : "2024-10-22T18:44:46Z",
+    "published" : "2024-10-22T18:44:46Z",
+    "authors" : [
+      {
+        "name" : "Teimour Hosseinalizadeh"
+      },
+      {
+        "name" : "Nima Monshizadeh"
+      }
+    ],
+    "categories" : [
+      "eess.SY",
+      "cs.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.16137v2",
+    "title" : "Privacy as Social Norm: Systematically Reducing Dysfunctional Privacy\n  Concerns on Social Media",
+    "summary" : "Privacy is essential to fully enjoying the benefits of social media. While\nfear around privacy risks can sometimes motivate privacy management, the\nnegative impact of such fear, particularly when it is perceived as\nunaddressable (i.e., \"dysfunctional\" fear), can significantly harm teen\nwell-being. In a co-design study with 136 participants aged 13-18, we explored\nhow teens can protect their privacy without experiencing heightened fear. We\nidentified seven different sources of dysfunctional fear, such as `fear of a\nhostile environment' and `fear of overstepping privacy norms.' We also\nevaluated ten designs, co-created with teen participants, that address these\nfears. Our findings suggest that social media platforms can mitigate\ndysfunctional fear without compromising privacy by creating a culture where\nprivacy protection is the norm through default privacy-protective features.\nHowever, we also found that even the most effective privacy features are not\nlikely to be adopted unless they balance the multifaceted and diverse needs of\nteens. Individual teens have different needs -- for example, public and private\naccount users have different needs -- and teens often want to enjoy the\nbenefits they get from slightly reducing privacy and widening their social\nreach. Given these considerations, augmenting default privacy features by\nallowing them to be toggled on and off will allow individual users to choose\ntheir own balance while still maintaining a privacy-focused norm.",
+    "updated" : "2024-10-23T09:36:20Z",
+    "published" : "2024-10-21T16:03:18Z",
+    "authors" : [
+      {
+        "name" : "JaeWon Kim"
+      },
+      {
+        "name" : "Soobin Cho"
+      },
+      {
+        "name" : "Robert Wolfe"
+      },
+      {
+        "name" : "Jishnu Hari Nair"
+      },
+      {
+        "name" : "Alexis Hiniker"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
   }
 ]
