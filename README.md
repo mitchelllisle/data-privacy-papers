@@ -2,6 +2,94 @@
 <h2>2024-10</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.17468v1">Formal Privacy Guarantees with Invariant Statistics</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
+  <p><b>Published on:</b> 2024-10-22T22:50:17Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Young Hyun Cho, Jordan Awan</p>
+    <p><b>Summary:</b> Motivated by the 2020 US Census products, this paper extends differential
+privacy (DP) to address the joint release of DP outputs and nonprivate
+statistics, referred to as invariant. Our framework, Semi-DP, redefines
+adjacency by focusing on datasets that conform to the given invariant, ensuring
+indistinguishability between adjacent datasets within invariant-conforming
+datasets. We further develop customized mechanisms that satisfy Semi-DP,
+including the Gaussian mechanism and the optimal $K$-norm mechanism for
+rank-deficient sensitivity spaces. Our framework is applied to contingency
+table analysis which is relevant to the 2020 US Census, illustrating how
+Semi-DP enables the release of private outputs given the one-way margins as the
+invariant. Additionally, we provide a privacy analysis of the 2020 US Decennial
+Census using the Semi-DP framework, revealing that the effective privacy
+guarantees are weaker than advertised.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.17459v1">Data Obfuscation through Latent Space Projection (LSP) for
+  Privacy-Preserving AI Governance: Case Studies in Medical Diagnosis and
+  Finance Fraud Detection</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> 
+  <p><b>Published on:</b> 2024-10-22T22:31:03Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mahesh Vaijainthymala Krishnamoorthy</p>
+    <p><b>Summary:</b> As AI systems increasingly integrate into critical societal sectors, the
+demand for robust privacy-preserving methods has escalated. This paper
+introduces Data Obfuscation through Latent Space Projection (LSP), a novel
+technique aimed at enhancing AI governance and ensuring Responsible AI
+compliance. LSP uses machine learning to project sensitive data into a latent
+space, effectively obfuscating it while preserving essential features for model
+training and inference. Unlike traditional privacy methods like differential
+privacy or homomorphic encryption, LSP transforms data into an abstract,
+lower-dimensional form, achieving a delicate balance between data utility and
+privacy. Leveraging autoencoders and adversarial training, LSP separates
+sensitive from non-sensitive information, allowing for precise control over
+privacy-utility trade-offs. We validate LSP's effectiveness through experiments
+on benchmark datasets and two real-world case studies: healthcare cancer
+diagnosis and financial fraud analysis. Our results show LSP achieves high
+performance (98.7% accuracy in image classification) while providing strong
+privacy (97.3% protection against sensitive attribute inference), outperforming
+traditional anonymization and privacy-preserving methods. The paper also
+examines LSP's alignment with global AI governance frameworks, such as GDPR,
+CCPA, and HIPAA, highlighting its contribution to fairness, transparency, and
+accountability. By embedding privacy within the machine learning pipeline, LSP
+offers a promising approach to developing AI systems that respect privacy while
+delivering valuable insights. We conclude by discussing future research
+directions, including theoretical privacy guarantees, integration with
+federated learning, and enhancing latent space interpretability, positioning
+LSP as a critical tool for ethical AI advancement.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.17353v1">Preserving Privacy in Cloud-based Data-Driven Stabilization</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
+  <p><b>Published on:</b> 2024-10-22T18:44:46Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Teimour Hosseinalizadeh, Nima Monshizadeh</p>
+    <p><b>Summary:</b> In the recent years, we have observed three significant trends in control
+systems: a renewed interest in data-driven control design, the abundance of
+cloud computational services and the importance of preserving privacy for the
+system under control. Motivated by these factors, this work investigates
+privacy-preserving outsourcing for the design of a stabilizing controller for
+unknown linear time-invariant systems.The main objective of this research is to
+preserve the privacy for the system dynamics by designing an outsourcing
+mechanism. To achieve this goal, we propose a scheme that combines
+transformation-based techniques and robust data-driven control design methods.
+The scheme preserves the privacy of both the open-loop and closed-loop system
+matrices while stabilizing the system under control.The scheme is applicable to
+both data with and without disturbance and is lightweight in terms of
+computational overhead. Numerical investigations for a case study demonstrate
+the impacts of our mechanism and its role in hindering malicious adversaries
+from achieving their goals.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2410.17127v1">PAPILLON: PrivAcy Preservation from Internet-based and Local Language
   MOdel ENsembles</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
@@ -199,7 +287,7 @@ complexity.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.16137v1">Privacy as Social Norm: Systematically Reducing Dysfunctional Privacy
+  <h3><a href="http://arxiv.org/abs/2410.16137v2">Privacy as Social Norm: Systematically Reducing Dysfunctional Privacy
   Concerns on Social Media</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
   <p><b>Published on:</b> 2024-10-21T16:03:18Z</p>
@@ -2778,88 +2866,6 @@ geometric properties of output-redundant systems, which form the basis for our
 subsequent constructions and results. As a direct application, we demonstrate
 how output allocation can be employed to effectively protect the information of
 input information from certain output eavesdroppers with guaranteed results.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.17700v1">Demystifying Privacy in 5G Stand Alone Networks</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
-  <p><b>Published on:</b> 2024-09-26T10:14:12Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Stavros Eleftherakis, Timothy Otim, Giuseppe Santaromita, Almudena Diaz Zayas, Domenico Giustiniano, Nicolas Kourtellis</p>
-    <p><b>Summary:</b> Ensuring user privacy remains critical in mobile networks, particularly with
-the rise of connected devices and denser 5G infrastructure. Privacy concerns
-have persisted across 2G, 3G, and 4G/LTE networks. Recognizing these concerns,
-the 3rd Generation Partnership Project (3GPP) has made privacy enhancements in
-5G Release 15. However, the extent of operator adoption remains unclear,
-especially as most networks operate in 5G Non Stand Alone (NSA) mode, relying
-on 4G Core Networks. This study provides the first qualitative and experimental
-comparison between 5G NSA and Stand Alone (SA) in real operator networks,
-focusing on privacy enhancements addressing top eight pre-5G attacks based on
-recent academic literature. Additionally, it evaluates the privacy levels of
-OpenAirInterface (OAI), a leading open-source software for 5G, against real
-network deployments for the same attacks. The analysis reveals two new 5G
-privacy vulnerabilities, underscoring the need for further research and
-stricter standards.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.17642v2">AI Delegates with a Dual Focus: Ensuring Privacy and Strategic
-  Self-Disclosure</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2024-09-26T08:45:15Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Xi Chen, Zhiyang Zhang, Fangkai Yang, Xiaoting Qin, Chao Du, Xi Cheng, Hangxin Liu, Qingwei Lin, Saravan Rajmohan, Dongmei Zhang, Qi Zhang</p>
-    <p><b>Summary:</b> Large language model (LLM)-based AI delegates are increasingly utilized to
-act on behalf of users, assisting them with a wide range of tasks through
-conversational interfaces. Despite their advantages, concerns arise regarding
-the potential risk of privacy leaks, particularly in scenarios involving social
-interactions. While existing research has focused on protecting privacy by
-limiting the access of AI delegates to sensitive user information, many social
-scenarios require disclosing private details to achieve desired outcomes,
-necessitating a balance between privacy protection and disclosure. To address
-this challenge, we conduct a pilot study to investigate user preferences for AI
-delegates across various social relations and task scenarios, and then propose
-a novel AI delegate system that enables privacy-conscious self-disclosure. Our
-user study demonstrates that the proposed AI delegate strategically protects
-privacy, pioneering its use in diverse and dynamic social interactions.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.17623v1">Fully Dynamic Graph Algorithms with Edge Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-09-26T08:17:49Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Sofya Raskhodnikova, Teresa Anna Steiner</p>
-    <p><b>Summary:</b> We study differentially private algorithms for analyzing graphs in the
-challenging setting of continual release with fully dynamic updates, where
-edges are inserted and deleted over time, and the algorithm is required to
-update the solution at every time step. Previous work has presented
-differentially private algorithms for many graph problems that can handle
-insertions only or deletions only (called partially dynamic algorithms) and
-obtained some hardness results for the fully dynamic setting. The only
-algorithms in the latter setting were for the edge count, given by
-Fichtenberger, Henzinger, and Ost (ESA 21), and for releasing the values of all
-graph cuts, given by Fichtenberger, Henzinger, and Upadhyay (ICML 23). We
-provide the first differentially private and fully dynamic graph algorithms for
-several other fundamental graph statistics (including the triangle count, the
-number of connected components, the size of the maximum matching, and the
-degree histogram), analyze their error and show strong lower bounds on the
-error for all algorithms in this setting. We study two variants of edge
-differential privacy for fully dynamic graph algorithms: event-level and
-item-level. We give upper and lower bounds on the error of both event-level and
-item-level fully dynamic algorithms for several fundamental graph problems. No
-fully dynamic algorithms that are private at the item-level (the more stringent
-of the two notions) were known before. In the case of item-level privacy, for
-several problems, our algorithms match our lower bounds.</p>
   </details>
 </div>
 
