@@ -2,6 +2,169 @@
 <h2>2024-10</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.18824v1">PSY: Posterior Sampling Based Privacy Enhancer in Large Language Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-10-24T15:15:42Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yulian Sun, Li Duan, Yong Li</p>
+    <p><b>Summary:</b> Privacy vulnerabilities in LLMs, such as leakage from memorization, have been
+constantly identified, and various mitigation proposals have been proposed.
+LoRA is usually used in fine-tuning LLMs and a good entry point to insert
+privacy-enhancing modules. In this ongoing research, we introduce PSY, a
+Posterior Sampling based PrivacY enhancer that can be used in LoRA. We propose
+a simple yet effective realization of PSY using posterior sampling, which
+effectively prevents privacy leakage from intermediate information and, in
+turn, preserves the privacy of data owners. We evaluate LoRA extended with PSY
+against state-of-the-art membership inference and data extraction attacks. The
+experiments are executed on three different LLM architectures fine-tuned on
+three datasets with LoRA. In contrast to the commonly used differential privacy
+method, we find that our proposed modification consistently reduces the attack
+success rate. Meanwhile, our method has almost no negative impact on model
+fine-tuning or final performance. Most importantly, PSY reveals a promising
+path toward privacy enhancement with latent space extensions.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.18749v1">Does Differential Privacy Impact Bias in Pretrained NLP Models?</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-10-24T13:59:03Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Md. Khairul Islam, Andrew Wang, Tianhao Wang, Yangfeng Ji, Judy Fox, Jieyu Zhao</p>
+    <p><b>Summary:</b> Differential privacy (DP) is applied when fine-tuning pre-trained large
+language models (LLMs) to limit leakage of training examples. While most DP
+research has focused on improving a model's privacy-utility tradeoff, some find
+that DP can be unfair to or biased against underrepresented groups. In this
+work, we show the impact of DP on bias in LLMs through empirical analysis.
+Differentially private training can increase the model bias against protected
+groups w.r.t AUC-based bias metrics. DP makes it more difficult for the model
+to differentiate between the positive and negative examples from the protected
+groups and other groups in the rest of the population. Our results also show
+that the impact of DP on bias is not only affected by the privacy protection
+level but also the underlying distribution of the dataset.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.18717v1">Low-Latency Video Anonymization for Crowd Anomaly Detection: Privacy vs.
+  Performance</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-10-24T13:22:33Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mulugeta Weldezgina Asres, Lei Jiao, Christian Walter Omlin</p>
+    <p><b>Summary:</b> Recent advancements in artificial intelligence promise ample potential in
+monitoring applications with surveillance cameras. However, concerns about
+privacy and model bias have made it challenging to utilize them in public.
+Although de-identification approaches have been proposed in the literature,
+aiming to achieve a certain level of anonymization, most of them employ deep
+learning models that are computationally demanding for real-time edge
+deployment. In this study, we revisit conventional anonymization solutions for
+privacy protection and real-time video anomaly detection (VAD) applications. We
+propose a novel lightweight adaptive anonymization for VAD (LA3D) that employs
+dynamic adjustment to enhance privacy protection. We evaluated the approaches
+on publicly available privacy and VAD data sets to examine the strengths and
+weaknesses of the different anonymization techniques and highlight the
+promising efficacy of our approach. Our experiment demonstrates that LA3D
+enables substantial improvement in the privacy anonymization capability without
+majorly degrading VAD efficacy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.18666v1">DreamClear: High-Capacity Real-World Image Restoration with Privacy-Safe
+  Dataset Curation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2024-10-24T11:57:20Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yuang Ai, Xiaoqiang Zhou, Huaibo Huang, Xiaotian Han, Zhengyu Chen, Quanzeng You, Hongxia Yang</p>
+    <p><b>Summary:</b> Image restoration (IR) in real-world scenarios presents significant
+challenges due to the lack of high-capacity models and comprehensive datasets.
+To tackle these issues, we present a dual strategy: GenIR, an innovative data
+curation pipeline, and DreamClear, a cutting-edge Diffusion Transformer
+(DiT)-based image restoration model. GenIR, our pioneering contribution, is a
+dual-prompt learning pipeline that overcomes the limitations of existing
+datasets, which typically comprise only a few thousand images and thus offer
+limited generalizability for larger models. GenIR streamlines the process into
+three stages: image-text pair construction, dual-prompt based fine-tuning, and
+data generation & filtering. This approach circumvents the laborious data
+crawling process, ensuring copyright compliance and providing a cost-effective,
+privacy-safe solution for IR dataset construction. The result is a large-scale
+dataset of one million high-quality images. Our second contribution,
+DreamClear, is a DiT-based image restoration model. It utilizes the generative
+priors of text-to-image (T2I) diffusion models and the robust perceptual
+capabilities of multi-modal large language models (MLLMs) to achieve
+photorealistic restoration. To boost the model's adaptability to diverse
+real-world degradations, we introduce the Mixture of Adaptive Modulator (MoAM).
+It employs token-wise degradation priors to dynamically integrate various
+restoration experts, thereby expanding the range of degradations the model can
+address. Our exhaustive experiments confirm DreamClear's superior performance,
+underlining the efficacy of our dual strategy for real-world image restoration.
+Code and pre-trained models will be available at:
+https://github.com/shallowdream204/DreamClear.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.18418v1">Knowledge-Assisted Privacy Preserving in Semantic Communication</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-10-24T04:05:20Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xuesong Liu, Yao Sun, Runze Cheng, Le Xia, Hanaa Abumarshoud, Lei Zhang, Muhammad Ali Imran</p>
+    <p><b>Summary:</b> Semantic communication (SC) offers promising advancements in data
+transmission efficiency and reliability by focusing on delivering true meaning
+rather than solely binary bits of messages. However, privacy concerns in SC
+might become outstanding. Eavesdroppers equipped with advanced semantic coding
+models and extensive knowledge could be capable of correctly decoding and
+reasoning sensitive semantics from just a few stolen bits. To this end, this
+article explores utilizing knowledge to enhance data privacy in SC networks.
+Specifically, we first identify the potential attacks in SC based on the
+analysis of knowledge. Then, we propose a knowledge-assisted privacy preserving
+SC framework, which consists of a data transmission layer for precisely
+encoding and decoding source messages, and a knowledge management layer
+responsible for injecting appropriate knowledge into the transmission pair.
+Moreover, we elaborate on the transceiver design in the proposed SC framework
+to explain how knowledge should be utilized properly. Finally, some challenges
+of the proposed SC framework are discussed to expedite the practical
+implementation.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.18404v1">Enhancing Feature-Specific Data Protection via Bayesian Coordinate
+  Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
+  <p><b>Published on:</b> 2024-10-24T03:39:55Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Maryam Aliakbarpour, Syomantak Chaudhuri, Thomas A. Courtade, Alireza Fallah, Michael I. Jordan</p>
+    <p><b>Summary:</b> Local Differential Privacy (LDP) offers strong privacy guarantees without
+requiring users to trust external parties. However, LDP applies uniform
+protection to all data features, including less sensitive ones, which degrades
+performance of downstream tasks. To overcome this limitation, we propose a
+Bayesian framework, Bayesian Coordinate Differential Privacy (BCDP), that
+enables feature-specific privacy quantification. This more nuanced approach
+complements LDP by adjusting privacy protection according to the sensitivity of
+each feature, enabling improved performance of downstream tasks without
+compromising privacy. We characterize the properties of BCDP and articulate its
+connections with standard non-Bayesian privacy frameworks. We further apply our
+BCDP framework to the problems of private mean estimation and ordinary
+least-squares regression. The BCDP-based approach obtains improved accuracy
+compared to a purely LDP-based approach, without compromising on privacy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2410.17468v1">Formal Privacy Guarantees with Invariant Statistics</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
   <p><b>Published on:</b> 2024-10-22T22:50:17Z</p>
@@ -380,7 +543,7 @@ practical at scale.</p>
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2410.15386v1">Formalization of Differential Privacy in Isabelle/HOL</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Programming Languages-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Logic in Computer Science-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Programming Languages-D91E36">
   <p><b>Published on:</b> 2024-10-20T13:06:13Z</p>
   <details>
     <summary>More Details</summary>
@@ -2697,175 +2860,6 @@ iterative communication by user institutions and can be implemented in
 situations where continuous communication with the outside world is extremely
 difficult. The experimental results show that the performance of the proposed
 FedDCL is comparable to that of existing federated learning.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.18245v1">PDFed: Privacy-Preserving and Decentralized Asynchronous Federated
-  Learning for Diffusion Models</a></h3>
-  
-  <p><b>Published on:</b> 2024-09-26T19:38:44Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Kar Balan, Andrew Gilbert, John Collomosse</p>
-    <p><b>Summary:</b> We present PDFed, a decentralized, aggregator-free, and asynchronous
-federated learning protocol for training image diffusion models using a public
-blockchain. In general, diffusion models are prone to memorization of training
-data, raising privacy and ethical concerns (e.g., regurgitation of private
-training data in generated images). Federated learning (FL) offers a partial
-solution via collaborative model training across distributed nodes that
-safeguard local data privacy. PDFed proposes a novel sample-based score that
-measures the novelty and quality of generated samples, incorporating these into
-a blockchain-based federated learning protocol that we show reduces private
-data memorization in the collaboratively trained model. In addition, PDFed
-enables asynchronous collaboration among participants with varying hardware
-capabilities, facilitating broader participation. The protocol records the
-provenance of AI models, improving transparency and auditability, while also
-considering automated incentive and reward mechanisms for participants. PDFed
-aims to empower artists and creators by protecting the privacy of creative
-works and enabling decentralized, peer-to-peer collaboration. The protocol
-positively impacts the creative economy by opening up novel revenue streams and
-fostering innovative ways for artists to benefit from their contributions to
-the AI space.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.18118v1">Slowly Scaling Per-Record Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
-  <p><b>Published on:</b> 2024-09-26T17:56:11Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Brian Finley, Anthony M Caruso, Justin C Doty, Ashwin Machanavajjhala, Mikaela R Meyer, David Pujol, William Sexton, Zachary Terner</p>
-    <p><b>Summary:</b> We develop formal privacy mechanisms for releasing statistics from data with
-many outlying values, such as income data. These mechanisms ensure that a
-per-record differential privacy guarantee degrades slowly in the protected
-records' influence on the statistics being released.
-  Formal privacy mechanisms generally add randomness, or "noise," to published
-statistics. If a noisy statistic's distribution changes little with the
-addition or deletion of a single record in the underlying dataset, an attacker
-looking at this statistic will find it plausible that any particular record was
-present or absent, preserving the records' privacy. More influential records --
-those whose addition or deletion would change the statistics' distribution more
--- typically suffer greater privacy loss. The per-record differential privacy
-framework quantifies these record-specific privacy guarantees, but existing
-mechanisms let these guarantees degrade rapidly (linearly or quadratically)
-with influence. While this may be acceptable in cases with some moderately
-influential records, it results in unacceptably high privacy losses when
-records' influence varies widely, as is common in economic data.
-  We develop mechanisms with privacy guarantees that instead degrade as slowly
-as logarithmically with influence. These mechanisms allow for the accurate,
-unbiased release of statistics, while providing meaningful protection for
-highly influential records. As an example, we consider the private release of
-sums of unbounded establishment data such as payroll, where our mechanisms
-extend meaningful privacy protection even to very large establishments. We
-evaluate these mechanisms empirically and demonstrate their utility.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.17886v1">Upper-Body Pose-based Gaze Estimation for Privacy-Preserving 3D Gaze
-  Target Detection</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2024-09-26T14:35:06Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Andrea Toaiari, Vittorio Murino, Marco Cristani, Cigdem Beyan</p>
-    <p><b>Summary:</b> Gaze Target Detection (GTD), i.e., determining where a person is looking
-within a scene from an external viewpoint, is a challenging task, particularly
-in 3D space. Existing approaches heavily rely on analyzing the person's
-appearance, primarily focusing on their face to predict the gaze target. This
-paper presents a novel approach to tackle this problem by utilizing the
-person's upper-body pose and available depth maps to extract a 3D gaze
-direction and employing a multi-stage or an end-to-end pipeline to predict the
-gazed target. When predicted accurately, the human body pose can provide
-valuable information about the head pose, which is a good approximation of the
-gaze direction, as well as the position of the arms and hands, which are linked
-to the activity the person is performing and the objects they are likely
-focusing on. Consequently, in addition to performing gaze estimation in 3D, we
-are also able to perform GTD simultaneously. We demonstrate state-of-the-art
-results on the most comprehensive publicly accessible 3D gaze target detection
-dataset without requiring images of the person's face, thus promoting privacy
-preservation in various application contexts. The code is available at
-https://github.com/intelligolabs/privacy-gtd-3D.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.17744v1">Privacy for Quantum Annealing. Attack on Spin Reversal Transformations
-  in the case of cryptanalysis</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-09-26T11:17:47Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mateusz Leśniak, Michał Wroński</p>
-    <p><b>Summary:</b> This paper demonstrates that applying spin reversal transformations (SRT),
-commonly known as a sufficient method for privacy enhancing in problems solved
-using quantum annealing, does not guarantee privacy for all possible problems.
-We show how to recover the original problem from the Ising problem obtained
-using SRT when the resulting problem in Ising form represents the algebraic
-attack on the $E_0$ stream cipher. A small example is used to illustrate how to
-retrieve the original problem from the one transformed by SRT. Moreover, it is
-shown that our method is efficient even for full-scale problems.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.17742v1">TADAR: Thermal Array-based Detection and Ranging for Privacy-Preserving
-  Human Sensing</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2024-09-26T11:17:41Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Xie Zhang, Chenshu Wu</p>
-    <p><b>Summary:</b> Human sensing has gained increasing attention in various applications. Among
-the available technologies, visual images offer high accuracy, while sensing on
-the RF spectrum preserves privacy, creating a conflict between imaging
-resolution and privacy preservation. In this paper, we explore thermal array
-sensors as an emerging modality that strikes an excellent resolution-privacy
-balance for ubiquitous sensing. To this end, we present TADAR, the first
-multi-user Thermal Array-based Detection and Ranging system that estimates the
-inherently missing range information, extending thermal array outputs from 2D
-thermal pixels to 3D depths and empowering them as a promising modality for
-ubiquitous privacy-preserving human sensing. We prototype TADAR using a single
-commodity thermal array sensor and conduct extensive experiments in different
-indoor environments. Our results show that TADAR achieves a mean F1 score of
-88.8% for multi-user detection and a mean accuracy of 32.0 cm for multi-user
-ranging, which further improves to 20.1 cm for targets located within 3 m. We
-conduct two case studies on fall detection and occupancy estimation to showcase
-the potential applications of TADAR. We hope TADAR will inspire the vast
-community to explore new directions of thermal array sensing, beyond wireless
-and acoustic sensing. TADAR is open-sourced on GitHub:
-https://github.com/aiot-lab/TADAR.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.17705v1">On the Output Redundancy of LTI Systems: A Geometric Approach with
-  Application to Privacy</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
-  <p><b>Published on:</b> 2024-09-26T10:21:39Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Guitao Yang, Alexander J. Gallo, Angelo Barboni, Riccardo M. G. Ferrari, Andrea Serrani, Thomas Parisini</p>
-    <p><b>Summary:</b> This paper examines the properties of output-redundant systems, that is,
-systems possessing a larger number of outputs than inputs, through the lenses
-of the geometric approach of Wonham et al. We begin by formulating a simple
-output allocation synthesis problem, which involves ``concealing" input
-information from a malicious eavesdropper having access to the system output,
-while still allowing for a legitimate user to reconstruct it. It is shown that
-the solvability of this problem requires the availability of a redundant set of
-outputs. This very problem is instrumental to unveiling the fundamental
-geometric properties of output-redundant systems, which form the basis for our
-subsequent constructions and results. As a direct application, we demonstrate
-how output allocation can be employed to effectively protect the information of
-input information from certain output eavesdroppers with guaranteed results.</p>
   </details>
 </div>
 
