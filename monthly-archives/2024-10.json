@@ -2055,5 +2055,195 @@
     "categories" : [
       "cs.HC"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.18824v1",
+    "title" : "PSY: Posterior Sampling Based Privacy Enhancer in Large Language Models",
+    "summary" : "Privacy vulnerabilities in LLMs, such as leakage from memorization, have been\nconstantly identified, and various mitigation proposals have been proposed.\nLoRA is usually used in fine-tuning LLMs and a good entry point to insert\nprivacy-enhancing modules. In this ongoing research, we introduce PSY, a\nPosterior Sampling based PrivacY enhancer that can be used in LoRA. We propose\na simple yet effective realization of PSY using posterior sampling, which\neffectively prevents privacy leakage from intermediate information and, in\nturn, preserves the privacy of data owners. We evaluate LoRA extended with PSY\nagainst state-of-the-art membership inference and data extraction attacks. The\nexperiments are executed on three different LLM architectures fine-tuned on\nthree datasets with LoRA. In contrast to the commonly used differential privacy\nmethod, we find that our proposed modification consistently reduces the attack\nsuccess rate. Meanwhile, our method has almost no negative impact on model\nfine-tuning or final performance. Most importantly, PSY reveals a promising\npath toward privacy enhancement with latent space extensions.",
+    "updated" : "2024-10-24T15:15:42Z",
+    "published" : "2024-10-24T15:15:42Z",
+    "authors" : [
+      {
+        "name" : "Yulian Sun"
+      },
+      {
+        "name" : "Li Duan"
+      },
+      {
+        "name" : "Yong Li"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.18749v1",
+    "title" : "Does Differential Privacy Impact Bias in Pretrained NLP Models?",
+    "summary" : "Differential privacy (DP) is applied when fine-tuning pre-trained large\nlanguage models (LLMs) to limit leakage of training examples. While most DP\nresearch has focused on improving a model's privacy-utility tradeoff, some find\nthat DP can be unfair to or biased against underrepresented groups. In this\nwork, we show the impact of DP on bias in LLMs through empirical analysis.\nDifferentially private training can increase the model bias against protected\ngroups w.r.t AUC-based bias metrics. DP makes it more difficult for the model\nto differentiate between the positive and negative examples from the protected\ngroups and other groups in the rest of the population. Our results also show\nthat the impact of DP on bias is not only affected by the privacy protection\nlevel but also the underlying distribution of the dataset.",
+    "updated" : "2024-10-24T13:59:03Z",
+    "published" : "2024-10-24T13:59:03Z",
+    "authors" : [
+      {
+        "name" : "Md. Khairul Islam"
+      },
+      {
+        "name" : "Andrew Wang"
+      },
+      {
+        "name" : "Tianhao Wang"
+      },
+      {
+        "name" : "Yangfeng Ji"
+      },
+      {
+        "name" : "Judy Fox"
+      },
+      {
+        "name" : "Jieyu Zhao"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.18717v1",
+    "title" : "Low-Latency Video Anonymization for Crowd Anomaly Detection: Privacy vs.\n  Performance",
+    "summary" : "Recent advancements in artificial intelligence promise ample potential in\nmonitoring applications with surveillance cameras. However, concerns about\nprivacy and model bias have made it challenging to utilize them in public.\nAlthough de-identification approaches have been proposed in the literature,\naiming to achieve a certain level of anonymization, most of them employ deep\nlearning models that are computationally demanding for real-time edge\ndeployment. In this study, we revisit conventional anonymization solutions for\nprivacy protection and real-time video anomaly detection (VAD) applications. We\npropose a novel lightweight adaptive anonymization for VAD (LA3D) that employs\ndynamic adjustment to enhance privacy protection. We evaluated the approaches\non publicly available privacy and VAD data sets to examine the strengths and\nweaknesses of the different anonymization techniques and highlight the\npromising efficacy of our approach. Our experiment demonstrates that LA3D\nenables substantial improvement in the privacy anonymization capability without\nmajorly degrading VAD efficacy.",
+    "updated" : "2024-10-24T13:22:33Z",
+    "published" : "2024-10-24T13:22:33Z",
+    "authors" : [
+      {
+        "name" : "Mulugeta Weldezgina Asres"
+      },
+      {
+        "name" : "Lei Jiao"
+      },
+      {
+        "name" : "Christian Walter Omlin"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.18666v1",
+    "title" : "DreamClear: High-Capacity Real-World Image Restoration with Privacy-Safe\n  Dataset Curation",
+    "summary" : "Image restoration (IR) in real-world scenarios presents significant\nchallenges due to the lack of high-capacity models and comprehensive datasets.\nTo tackle these issues, we present a dual strategy: GenIR, an innovative data\ncuration pipeline, and DreamClear, a cutting-edge Diffusion Transformer\n(DiT)-based image restoration model. GenIR, our pioneering contribution, is a\ndual-prompt learning pipeline that overcomes the limitations of existing\ndatasets, which typically comprise only a few thousand images and thus offer\nlimited generalizability for larger models. GenIR streamlines the process into\nthree stages: image-text pair construction, dual-prompt based fine-tuning, and\ndata generation & filtering. This approach circumvents the laborious data\ncrawling process, ensuring copyright compliance and providing a cost-effective,\nprivacy-safe solution for IR dataset construction. The result is a large-scale\ndataset of one million high-quality images. Our second contribution,\nDreamClear, is a DiT-based image restoration model. It utilizes the generative\npriors of text-to-image (T2I) diffusion models and the robust perceptual\ncapabilities of multi-modal large language models (MLLMs) to achieve\nphotorealistic restoration. To boost the model's adaptability to diverse\nreal-world degradations, we introduce the Mixture of Adaptive Modulator (MoAM).\nIt employs token-wise degradation priors to dynamically integrate various\nrestoration experts, thereby expanding the range of degradations the model can\naddress. Our exhaustive experiments confirm DreamClear's superior performance,\nunderlining the efficacy of our dual strategy for real-world image restoration.\nCode and pre-trained models will be available at:\nhttps://github.com/shallowdream204/DreamClear.",
+    "updated" : "2024-10-24T11:57:20Z",
+    "published" : "2024-10-24T11:57:20Z",
+    "authors" : [
+      {
+        "name" : "Yuang Ai"
+      },
+      {
+        "name" : "Xiaoqiang Zhou"
+      },
+      {
+        "name" : "Huaibo Huang"
+      },
+      {
+        "name" : "Xiaotian Han"
+      },
+      {
+        "name" : "Zhengyu Chen"
+      },
+      {
+        "name" : "Quanzeng You"
+      },
+      {
+        "name" : "Hongxia Yang"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.18418v1",
+    "title" : "Knowledge-Assisted Privacy Preserving in Semantic Communication",
+    "summary" : "Semantic communication (SC) offers promising advancements in data\ntransmission efficiency and reliability by focusing on delivering true meaning\nrather than solely binary bits of messages. However, privacy concerns in SC\nmight become outstanding. Eavesdroppers equipped with advanced semantic coding\nmodels and extensive knowledge could be capable of correctly decoding and\nreasoning sensitive semantics from just a few stolen bits. To this end, this\narticle explores utilizing knowledge to enhance data privacy in SC networks.\nSpecifically, we first identify the potential attacks in SC based on the\nanalysis of knowledge. Then, we propose a knowledge-assisted privacy preserving\nSC framework, which consists of a data transmission layer for precisely\nencoding and decoding source messages, and a knowledge management layer\nresponsible for injecting appropriate knowledge into the transmission pair.\nMoreover, we elaborate on the transceiver design in the proposed SC framework\nto explain how knowledge should be utilized properly. Finally, some challenges\nof the proposed SC framework are discussed to expedite the practical\nimplementation.",
+    "updated" : "2024-10-24T04:05:20Z",
+    "published" : "2024-10-24T04:05:20Z",
+    "authors" : [
+      {
+        "name" : "Xuesong Liu"
+      },
+      {
+        "name" : "Yao Sun"
+      },
+      {
+        "name" : "Runze Cheng"
+      },
+      {
+        "name" : "Le Xia"
+      },
+      {
+        "name" : "Hanaa Abumarshoud"
+      },
+      {
+        "name" : "Lei Zhang"
+      },
+      {
+        "name" : "Muhammad Ali Imran"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.18404v1",
+    "title" : "Enhancing Feature-Specific Data Protection via Bayesian Coordinate\n  Differential Privacy",
+    "summary" : "Local Differential Privacy (LDP) offers strong privacy guarantees without\nrequiring users to trust external parties. However, LDP applies uniform\nprotection to all data features, including less sensitive ones, which degrades\nperformance of downstream tasks. To overcome this limitation, we propose a\nBayesian framework, Bayesian Coordinate Differential Privacy (BCDP), that\nenables feature-specific privacy quantification. This more nuanced approach\ncomplements LDP by adjusting privacy protection according to the sensitivity of\neach feature, enabling improved performance of downstream tasks without\ncompromising privacy. We characterize the properties of BCDP and articulate its\nconnections with standard non-Bayesian privacy frameworks. We further apply our\nBCDP framework to the problems of private mean estimation and ordinary\nleast-squares regression. The BCDP-based approach obtains improved accuracy\ncompared to a purely LDP-based approach, without compromising on privacy.",
+    "updated" : "2024-10-24T03:39:55Z",
+    "published" : "2024-10-24T03:39:55Z",
+    "authors" : [
+      {
+        "name" : "Maryam Aliakbarpour"
+      },
+      {
+        "name" : "Syomantak Chaudhuri"
+      },
+      {
+        "name" : "Thomas A. Courtade"
+      },
+      {
+        "name" : "Alireza Fallah"
+      },
+      {
+        "name" : "Michael I. Jordan"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.15386v1",
+    "title" : "Formalization of Differential Privacy in Isabelle/HOL",
+    "summary" : "Differential privacy is a statistical definition of privacy that has\nattracted the interest of both academia and industry. Its formulations are easy\nto understand, but the differential privacy of databases is complicated to\ndetermine. One of the reasons for this is that small changes in database\nprograms can break their differential privacy. Therefore, formal verification\nof differential privacy has been studied for over a decade.\n  In this paper, we propose an Isabelle/HOL library for formalizing\ndifferential privacy in a general setting. To our knowledge, it is the first\nformalization of differential privacy that supports continuous probability\ndistributions. First, we formalize the standard definition of differential\nprivacy and its basic properties. Second, we formalize the Laplace mechanism\nand its differential privacy. Finally, we formalize the differential privacy of\nthe report noisy max mechanism.",
+    "updated" : "2024-10-20T13:06:13Z",
+    "published" : "2024-10-20T13:06:13Z",
+    "authors" : [
+      {
+        "name" : "Tetsuya Sato"
+      },
+      {
+        "name" : "Yasuhiko Minamide"
+      }
+    ],
+    "categories" : [
+      "cs.LO",
+      "cs.CR",
+      "cs.PL"
+    ]
   }
 ]
