@@ -2,6 +2,57 @@
 <h2>2024-10</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.19548v1">FLiP: Privacy-Preserving Federated Learning based on the Principle of
+  Least Privileg</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-10-25T13:20:40Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> ShiMao Xu, Xiaopeng Ke, Xing Su, Shucheng Li, Hao wu, Fengyuan Xu, Sheng Zhong</p>
+    <p><b>Summary:</b> Federated Learning (FL) allows users to share knowledge instead of raw data
+to train a model with high accuracy. Unfortunately, during the training, users
+lose control over the knowledge shared, which causes serious data privacy
+issues. We hold that users are only willing and need to share the essential
+knowledge to the training task to obtain the FL model with high accuracy.
+However, existing efforts cannot help users minimize the shared knowledge
+according to the user intention in the FL training procedure. This work
+proposes FLiP, which aims to bring the principle of least privilege (PoLP) to
+FL training. The key design of FLiP is applying elaborate information reduction
+on the training data through a local-global dataset distillation design. We
+measure the privacy performance through attribute inference and membership
+inference attacks. Extensive experiments show that FLiP strikes a good balance
+between model accuracy and privacy protection.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.19338v1">Privacy-preserving server-supported decryption</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-10-25T06:47:53Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Peeter Laud, Alisa Pankova, Jelizaveta Vakarjuk</p>
+    <p><b>Summary:</b> In this paper, we consider encryption systems with two-out-of-two threshold
+decryption, where one of the parties (the client) initiates the decryption and
+the other one (the server) assists. Existing threshold decryption schemes
+disclose to the server the ciphertext that is being decrypted. We give a
+construction, where the identity of the ciphertext is not leaked to the server,
+and the client's privacy is thus preserved. While showing the security of this
+construction, we run into the issue of defining the security of a scheme with
+blindly assisted decryption. We discuss previously proposed security
+definitions for similar cryptographic functionalities and argue why they do not
+capture the expected meaning of security. We propose an ideal functionality for
+the encryption with server-supported blind threshold decryption in the
+universal composability model, carefully balancing between the meaning of
+privacy, and the ability to implement it. We construct a protocol and show that
+it is a secure implementation of the proposed functionality in the random
+oracle model.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2410.18824v1">PSY: Posterior Sampling Based Privacy Enhancer in Large Language Models</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2024-10-24T15:15:42Z</p>
@@ -248,6 +299,32 @@ both data with and without disturbance and is lightweight in terms of
 computational overhead. Numerical investigations for a case study demonstrate
 the impacts of our mechanism and its role in hindering malicious adversaries
 from achieving their goals.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.19012v1">Privacy-Computation trade-offs in Private Repetition and Metaselection</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-10-22T18:33:02Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Kunal Talwar</p>
+    <p><b>Summary:</b> A Private Repetition algorithm takes as input a differentially private
+algorithm with constant success probability and boosts it to one that succeeds
+with high probability. These algorithms are closely related to private
+metaselection algorithms that compete with the best of many private algorithms,
+and private hyperparameter tuning algorithms that compete with the best
+hyperparameter settings for a private learning algorithm. Existing algorithms
+for these tasks pay either a large overhead in privacy cost, or a large
+overhead in computational cost. In this work, we show strong lower bounds for
+problems of this kind, showing in particular that for any algorithm that
+preserves the privacy cost up to a constant factor, the failure probability can
+only fall polynomially in the computational overhead. This is in stark contrast
+with the non-private setting, where the failure probability falls exponentially
+in the computational overhead. By carefully combining existing algorithms for
+metaselection, we prove computation-privacy tradeoffs that nearly match our
+lower bounds.</p>
   </details>
 </div>
 
@@ -2777,89 +2854,6 @@ training times. However, limitations include the need to assess the model's
 performance with different encoding methods and consider additional privacy
 attacks. Future research should address these areas to enhance
 privacy-preserving synthetic data generation.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.18601v1">Privacy-Preserving Quantum Annealing for Quadratic Unconstrained Binary
-  Optimization (QUBO) Problems</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
-  <p><b>Published on:</b> 2024-09-27T10:05:08Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Moyang Xie, Yuan Zhang, Sheng Zhong, Qun Li</p>
-    <p><b>Summary:</b> Quantum annealers offer a promising approach to solve Quadratic Unconstrained
-Binary Optimization (QUBO) problems, which have a wide range of applications.
-However, when a user submits its QUBO problem to a third-party quantum
-annealer, the problem itself may disclose the user's private information to the
-quantum annealing service provider. To mitigate this risk, we introduce a
-privacy-preserving QUBO framework and propose a novel solution method. Our
-approach employs a combination of digit-wise splitting and matrix permutation
-to obfuscate the QUBO problem's model matrix $Q$, effectively concealing the
-matrix elements. In addition, based on the solution to the obfuscated version
-of the QUBO problem, we can reconstruct the solution to the original problem
-with high accuracy. Theoretical analysis and empirical tests confirm the
-efficacy and efficiency of our proposed technique, demonstrating its potential
-for preserving user privacy in quantum annealing services.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.18360v1">Architecture for Protecting Data Privacy in Decentralized Social
-  Networks</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-09-27T00:35:02Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Quang Cao, Katerina Vgena, Aikaterini-Georgia Mavroeidi, Christos Kalloniatis, Xun Yi, Son Hoang Dau</p>
-    <p><b>Summary:</b> Centralized social networks have experienced a transformative impact on our
-digital era communication, connection, and information-sharing information.
-However, it has also raised significant concerns regarding users' privacy and
-individual rights. In response to these concerns, this paper proposes a novel
-Decentralized Social Network employing Blockchain technology and Decentralized
-Storage Networks completed by Access Control Smart Contracts. The initial phase
-comprises a comprehensive literature review, delving into decentralized social
-networks, explaining the review methodology, and presenting the resulting
-findings. Building upon these findings and an analysis of previous research
-gaps, we propose a novel architecture for decentralized social networks. In
-conclusion, the principal results highlight the benefit of our decentralized
-social network to protect user privacy. Moreover, the users have all rights to
-their posted information following the General Data Protection Regulation
-(GDPR).</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.18356v1">FedDCL: a federated data collaboration learning as a hybrid-type
-  privacy-preserving framework based on federated learning and data
-  collaboration</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-09-27T00:22:38Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Akira Imakura, Tetsuya Sakurai</p>
-    <p><b>Summary:</b> Recently, federated learning has attracted much attention as a
-privacy-preserving integrated analysis that enables integrated analysis of data
-held by multiple institutions without sharing raw data. On the other hand,
-federated learning requires iterative communication across institutions and has
-a big challenge for implementation in situations where continuous communication
-with the outside world is extremely difficult. In this study, we propose a
-federated data collaboration learning (FedDCL), which solves such communication
-issues by combining federated learning with recently proposed non-model
-share-type federated learning named as data collaboration analysis. In the
-proposed FedDCL framework, each user institution independently constructs
-dimensionality-reduced intermediate representations and shares them with
-neighboring institutions on intra-group DC servers. On each intra-group DC
-server, intermediate representations are transformed to incorporable forms
-called collaboration representations. Federated learning is then conducted
-between intra-group DC servers. The proposed FedDCL framework does not require
-iterative communication by user institutions and can be implemented in
-situations where continuous communication with the outside world is extremely
-difficult. The experimental results show that the performance of the proposed
-FedDCL is comparable to that of existing federated learning.</p>
   </details>
 </div>
 
