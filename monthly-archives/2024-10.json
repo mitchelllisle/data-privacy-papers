@@ -2316,5 +2316,159 @@
       "cs.DS",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.21177v1",
+    "title" : "Privacy-Preserving for Images in Satellite Communications: A\n  Comprehensive Review of Chaos-Based Encryption",
+    "summary" : "In an era where global connectivity has become critical, satellite\ncommunication is essential for businesses, governments, and individuals. Widely\nused services with satellite communication such as climate change monitoring,\nmilitary surveillance and real-time event broadcasting, involve data in the\nform of images rather text. Therefore, securing image transmission in satellite\ncommunication using efficient and effective encryption approaches, has gained a\nsignificant attention from academia as well as the industry. In this paper, we\nspecifically focus on chaos based image encryption as one of the key\nprivacy-preserving techniques for satellite communication. While there are\nseveral privacy enhancing techniques for protecting image data but chaos based\nencryption has distinct advantages such as high flexibility, high security,\nless computational overheads, less computing power and ease of implementation.\nFirst, we present a solid background about satellite communication and image\nencryption in satellite communication, covering theoretical aspects of chaotic\nsystems and their practical usage for image encryption. Next we present a\ncomprehensive literature review on all state-of-the-art studies specifically\nfor chaos based satellite image encryption, with a detailed analysis of the\nevaluation process, including evaluation parameters and conditions. Finally, we\ndiscuss about existing challenges and open research problems for chaos based\nsatellite image encryption.",
+    "updated" : "2024-10-28T16:17:07Z",
+    "published" : "2024-10-28T16:17:07Z",
+    "authors" : [
+      {
+        "name" : "Farrukh Bin Rashid"
+      },
+      {
+        "name" : "Windhya Rankothge"
+      },
+      {
+        "name" : "Somayeh Sadeghi"
+      },
+      {
+        "name" : "Hesamodin Mohammadian"
+      },
+      {
+        "name" : "Ali Ghorbani"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.20555v1",
+    "title" : "Privacy-Enhanced Adaptive Authentication: User Profiling with Privacy\n  Guarantees",
+    "summary" : "User profiling is a critical component of adaptive risk-based authentication,\nyet it raises significant privacy concerns, particularly when handling\nsensitive data. Profiling involves collecting and aggregating various user\nfeatures, potentially creating quasi-identifiers that can reveal identities and\ncompromise privacy. Even anonymized profiling methods remain vulnerable to\nre-identification attacks through these quasi-identifiers. This paper\nintroduces a novel privacy-enhanced adaptive authentication protocol that\nleverages Oblivious Pseudorandom Functions (OPRF), anonymous tokens, and\nDifferential Privacy (DP) to provide robust privacy guarantees. Our proposed\napproach dynamically adjusts authentication requirements based on real-time\nrisk assessments, enhancing security while safeguarding user privacy. By\nintegrating privacy considerations into the core of adaptive risk-based\nadaptive authentication, this approach addresses a gap often overlooked in\ntraditional models. Advanced cryptographic techniques ensure confidentiality,\nintegrity, and unlinkability of user data, while differential privacy\nmechanisms minimize the impact of individual data points on overall analysis.\nFormal security and privacy proofs demonstrate the protocol's resilience\nagainst various threats and its ability to provide strong privacy guarantees.\nAdditionally, a comprehensive performance evaluation reveals that the\ncomputational and communication overheads are manageable, making the protocol\npractical for real-world deployment. By adhering to data protection regulations\nsuch as GDPR and CCPA, our protocol not only enhances security but also fosters\nuser trust and compliance with legal standards.",
+    "updated" : "2024-10-27T19:11:33Z",
+    "published" : "2024-10-27T19:11:33Z",
+    "authors" : [
+      {
+        "name" : "Yaser Baseri"
+      },
+      {
+        "name" : "Abdelhakim Senhaji Hafid"
+      },
+      {
+        "name" : "Dimitrios Makrakis"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.20259v1",
+    "title" : "FL-DABE-BC: A Privacy-Enhanced, Decentralized Authentication, and Secure\n  Communication for Federated Learning Framework with Decentralized\n  Attribute-Based Encryption and Blockchain for IoT Scenarios",
+    "summary" : "This study proposes an advanced Federated Learning (FL) framework designed to\nenhance data privacy and security in IoT environments by integrating\nDecentralized Attribute-Based Encryption (DABE), Homomorphic Encryption (HE),\nSecure Multi-Party Computation (SMPC), and Blockchain technology. Unlike\ntraditional FL, our framework enables secure, decentralized authentication and\nencryption directly on IoT devices using DABE, allowing sensitive data to\nremain locally encrypted. Homomorphic Encryption permits computations on\nencrypted data, and SMPC ensures privacy in collaborative computations, while\nBlockchain technology provides transparent, immutable record-keeping for all\ntransactions and model updates. Local model weights are encrypted and\ntransmitted to fog layers for aggregation using HE and SMPC, then iteratively\nrefined by the central server using differential privacy to safeguard against\ndata leakage. This secure, privacy-preserving FL framework delivers a robust\nsolution for efficient model training and real-time analytics across\ndistributed IoT devices, offering significant advancements in secure\ndecentralized learning for IoT applications.",
+    "updated" : "2024-10-26T19:30:53Z",
+    "published" : "2024-10-26T19:30:53Z",
+    "authors" : [
+      {
+        "name" : "Sathwik Narkedimilli"
+      },
+      {
+        "name" : "Amballa Venkata Sriram"
+      },
+      {
+        "name" : "Satvik Raghav"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.19941v1",
+    "title" : "Privacy without Noisy Gradients: Slicing Mechanism for Generative Model\n  Training",
+    "summary" : "Training generative models with differential privacy (DP) typically involves\ninjecting noise into gradient updates or adapting the discriminator's training\nprocedure. As a result, such approaches often struggle with hyper-parameter\ntuning and convergence. We consider the slicing privacy mechanism that injects\nnoise into random low-dimensional projections of the private data, and provide\nstrong privacy guarantees for it. These noisy projections are used for training\ngenerative models. To enable optimizing generative models using this DP\napproach, we introduce the smoothed-sliced $f$-divergence and show it enjoys\nstatistical consistency. Moreover, we present a kernel-based estimator for this\ndivergence, circumventing the need for adversarial training. Extensive\nnumerical experiments demonstrate that our approach can generate synthetic data\nof higher quality compared with baselines. Beyond performance improvement, our\nmethod, by sidestepping the need for noisy gradients, offers data scientists\nthe flexibility to adjust generator architecture and hyper-parameters, run the\noptimization over any number of epochs, and even restart the optimization\nprocess -- all without incurring additional privacy costs.",
+    "updated" : "2024-10-25T19:32:58Z",
+    "published" : "2024-10-25T19:32:58Z",
+    "authors" : [
+      {
+        "name" : "Kristjan Greenewald"
+      },
+      {
+        "name" : "Yuancheng Yu"
+      },
+      {
+        "name" : "Hao Wang"
+      },
+      {
+        "name" : "Kai Xu"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.19917v1",
+    "title" : "Collaborative Inference over Wireless Channels with Feature Differential\n  Privacy",
+    "summary" : "Collaborative inference among multiple wireless edge devices has the\npotential to significantly enhance Artificial Intelligence (AI) applications,\nparticularly for sensing and computer vision. This approach typically involves\na three-stage process: a) data acquisition through sensing, b) feature\nextraction, and c) feature encoding for transmission. However, transmitting the\nextracted features poses a significant privacy risk, as sensitive personal data\ncan be exposed during the process. To address this challenge, we propose a\nnovel privacy-preserving collaborative inference mechanism, wherein each edge\ndevice in the network secures the privacy of extracted features before\ntransmitting them to a central server for inference. Our approach is designed\nto achieve two primary objectives: 1) reducing communication overhead and 2)\nensuring strict privacy guarantees during feature transmission, while\nmaintaining effective inference performance. Additionally, we introduce an\nover-the-air pooling scheme specifically designed for classification tasks,\nwhich provides formal guarantees on the privacy of transmitted features and\nestablishes a lower bound on classification accuracy.",
+    "updated" : "2024-10-25T18:11:02Z",
+    "published" : "2024-10-25T18:11:02Z",
+    "authors" : [
+      {
+        "name" : "Mohamed Seif"
+      },
+      {
+        "name" : "Yuqi Nie"
+      },
+      {
+        "name" : "Andrea J. Goldsmith"
+      },
+      {
+        "name" : "H. Vincent Poor"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.IT",
+      "cs.LG",
+      "math.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.19548v2",
+    "title" : "FLiP: Privacy-Preserving Federated Learning based on the Principle of\n  Least Privileg",
+    "summary" : "Federated Learning (FL) allows users to share knowledge instead of raw data\nto train a model with high accuracy. Unfortunately, during the training, users\nlose control over the knowledge shared, which causes serious data privacy\nissues. We hold that users are only willing and need to share the essential\nknowledge to the training task to obtain the FL model with high accuracy.\nHowever, existing efforts cannot help users minimize the shared knowledge\naccording to the user intention in the FL training procedure. This work\nproposes FLiP, which aims to bring the principle of least privilege (PoLP) to\nFL training. The key design of FLiP is applying elaborate information reduction\non the training data through a local-global dataset distillation design. We\nmeasure the privacy performance through attribute inference and membership\ninference attacks. Extensive experiments show that FLiP strikes a good balance\nbetween model accuracy and privacy protection.",
+    "updated" : "2024-10-28T12:22:08Z",
+    "published" : "2024-10-25T13:20:40Z",
+    "authors" : [
+      {
+        "name" : "ShiMao Xu"
+      },
+      {
+        "name" : "Xiaopeng Ke"
+      },
+      {
+        "name" : "Xing Su"
+      },
+      {
+        "name" : "Shucheng Li"
+      },
+      {
+        "name" : "Hao Wu"
+      },
+      {
+        "name" : "Sheng Zhong"
+      },
+      {
+        "name" : "Fengyuan Xu"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
   }
 ]
