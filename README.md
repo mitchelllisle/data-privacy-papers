@@ -2,13 +2,165 @@
 <h2>2024-10</h2>
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.19548v1">FLiP: Privacy-Preserving Federated Learning based on the Principle of
+  <h3><a href="http://arxiv.org/abs/2410.21177v1">Privacy-Preserving for Images in Satellite Communications: A
+  Comprehensive Review of Chaos-Based Encryption</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-10-28T16:17:07Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Farrukh Bin Rashid, Windhya Rankothge, Somayeh Sadeghi, Hesamodin Mohammadian, Ali Ghorbani</p>
+    <p><b>Summary:</b> In an era where global connectivity has become critical, satellite
+communication is essential for businesses, governments, and individuals. Widely
+used services with satellite communication such as climate change monitoring,
+military surveillance and real-time event broadcasting, involve data in the
+form of images rather text. Therefore, securing image transmission in satellite
+communication using efficient and effective encryption approaches, has gained a
+significant attention from academia as well as the industry. In this paper, we
+specifically focus on chaos based image encryption as one of the key
+privacy-preserving techniques for satellite communication. While there are
+several privacy enhancing techniques for protecting image data but chaos based
+encryption has distinct advantages such as high flexibility, high security,
+less computational overheads, less computing power and ease of implementation.
+First, we present a solid background about satellite communication and image
+encryption in satellite communication, covering theoretical aspects of chaotic
+systems and their practical usage for image encryption. Next we present a
+comprehensive literature review on all state-of-the-art studies specifically
+for chaos based satellite image encryption, with a detailed analysis of the
+evaluation process, including evaluation parameters and conditions. Finally, we
+discuss about existing challenges and open research problems for chaos based
+satellite image encryption.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.20555v1">Privacy-Enhanced Adaptive Authentication: User Profiling with Privacy
+  Guarantees</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-10-27T19:11:33Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yaser Baseri, Abdelhakim Senhaji Hafid, Dimitrios Makrakis</p>
+    <p><b>Summary:</b> User profiling is a critical component of adaptive risk-based authentication,
+yet it raises significant privacy concerns, particularly when handling
+sensitive data. Profiling involves collecting and aggregating various user
+features, potentially creating quasi-identifiers that can reveal identities and
+compromise privacy. Even anonymized profiling methods remain vulnerable to
+re-identification attacks through these quasi-identifiers. This paper
+introduces a novel privacy-enhanced adaptive authentication protocol that
+leverages Oblivious Pseudorandom Functions (OPRF), anonymous tokens, and
+Differential Privacy (DP) to provide robust privacy guarantees. Our proposed
+approach dynamically adjusts authentication requirements based on real-time
+risk assessments, enhancing security while safeguarding user privacy. By
+integrating privacy considerations into the core of adaptive risk-based
+adaptive authentication, this approach addresses a gap often overlooked in
+traditional models. Advanced cryptographic techniques ensure confidentiality,
+integrity, and unlinkability of user data, while differential privacy
+mechanisms minimize the impact of individual data points on overall analysis.
+Formal security and privacy proofs demonstrate the protocol's resilience
+against various threats and its ability to provide strong privacy guarantees.
+Additionally, a comprehensive performance evaluation reveals that the
+computational and communication overheads are manageable, making the protocol
+practical for real-world deployment. By adhering to data protection regulations
+such as GDPR and CCPA, our protocol not only enhances security but also fosters
+user trust and compliance with legal standards.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.20259v1">FL-DABE-BC: A Privacy-Enhanced, Decentralized Authentication, and Secure
+  Communication for Federated Learning Framework with Decentralized
+  Attribute-Based Encryption and Blockchain for IoT Scenarios</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-10-26T19:30:53Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Sathwik Narkedimilli, Amballa Venkata Sriram, Satvik Raghav</p>
+    <p><b>Summary:</b> This study proposes an advanced Federated Learning (FL) framework designed to
+enhance data privacy and security in IoT environments by integrating
+Decentralized Attribute-Based Encryption (DABE), Homomorphic Encryption (HE),
+Secure Multi-Party Computation (SMPC), and Blockchain technology. Unlike
+traditional FL, our framework enables secure, decentralized authentication and
+encryption directly on IoT devices using DABE, allowing sensitive data to
+remain locally encrypted. Homomorphic Encryption permits computations on
+encrypted data, and SMPC ensures privacy in collaborative computations, while
+Blockchain technology provides transparent, immutable record-keeping for all
+transactions and model updates. Local model weights are encrypted and
+transmitted to fog layers for aggregation using HE and SMPC, then iteratively
+refined by the central server using differential privacy to safeguard against
+data leakage. This secure, privacy-preserving FL framework delivers a robust
+solution for efficient model training and real-time analytics across
+distributed IoT devices, offering significant advancements in secure
+decentralized learning for IoT applications.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.19941v1">Privacy without Noisy Gradients: Slicing Mechanism for Generative Model
+  Training</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-10-25T19:32:58Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Kristjan Greenewald, Yuancheng Yu, Hao Wang, Kai Xu</p>
+    <p><b>Summary:</b> Training generative models with differential privacy (DP) typically involves
+injecting noise into gradient updates or adapting the discriminator's training
+procedure. As a result, such approaches often struggle with hyper-parameter
+tuning and convergence. We consider the slicing privacy mechanism that injects
+noise into random low-dimensional projections of the private data, and provide
+strong privacy guarantees for it. These noisy projections are used for training
+generative models. To enable optimizing generative models using this DP
+approach, we introduce the smoothed-sliced $f$-divergence and show it enjoys
+statistical consistency. Moreover, we present a kernel-based estimator for this
+divergence, circumventing the need for adversarial training. Extensive
+numerical experiments demonstrate that our approach can generate synthetic data
+of higher quality compared with baselines. Beyond performance improvement, our
+method, by sidestepping the need for noisy gradients, offers data scientists
+the flexibility to adjust generator architecture and hyper-parameters, run the
+optimization over any number of epochs, and even restart the optimization
+process -- all without incurring additional privacy costs.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.19917v1">Collaborative Inference over Wireless Channels with Feature Differential
+  Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
+  <p><b>Published on:</b> 2024-10-25T18:11:02Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mohamed Seif, Yuqi Nie, Andrea J. Goldsmith, H. Vincent Poor</p>
+    <p><b>Summary:</b> Collaborative inference among multiple wireless edge devices has the
+potential to significantly enhance Artificial Intelligence (AI) applications,
+particularly for sensing and computer vision. This approach typically involves
+a three-stage process: a) data acquisition through sensing, b) feature
+extraction, and c) feature encoding for transmission. However, transmitting the
+extracted features poses a significant privacy risk, as sensitive personal data
+can be exposed during the process. To address this challenge, we propose a
+novel privacy-preserving collaborative inference mechanism, wherein each edge
+device in the network secures the privacy of extracted features before
+transmitting them to a central server for inference. Our approach is designed
+to achieve two primary objectives: 1) reducing communication overhead and 2)
+ensuring strict privacy guarantees during feature transmission, while
+maintaining effective inference performance. Additionally, we introduce an
+over-the-air pooling scheme specifically designed for classification tasks,
+which provides formal guarantees on the privacy of transmitted features and
+establishes a lower bound on classification accuracy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.19548v2">FLiP: Privacy-Preserving Federated Learning based on the Principle of
   Least Privileg</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2024-10-25T13:20:40Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> ShiMao Xu, Xiaopeng Ke, Xing Su, Shucheng Li, Hao wu, Fengyuan Xu, Sheng Zhong</p>
+    <p><b>Authors:</b> ShiMao Xu, Xiaopeng Ke, Xing Su, Shucheng Li, Hao Wu, Sheng Zhong, Fengyuan Xu</p>
     <p><b>Summary:</b> Federated Learning (FL) allows users to share knowledge instead of raw data
 to train a model with high accuracy. Unfortunately, during the training, users
 lose control over the knowledge shared, which causes serious data privacy
@@ -2701,159 +2853,6 @@ Fed-SVT is nearly optimal up to logarithmic factors. Experiments demonstrate
 the effectiveness of our proposed algorithms. To the best of our knowledge,
 this is the first work examining the differentially private online prediction
 from experts in the federated setting.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.19078v1">Differential privacy for protecting patient data in speech disorder
-  detection using deep learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Sound-D91E36"> 
-  <p><b>Published on:</b> 2024-09-27T18:25:54Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Soroosh Tayebi Arasteh, Mahshad Lotfinia, Paula Andrea Perez-Toro, Tomas Arias-Vergara, Juan Rafael Orozco-Arroyave, Maria Schuster, Andreas Maier, Seung Hee Yang</p>
-    <p><b>Summary:</b> Speech pathology has impacts on communication abilities and quality of life.
-While deep learning-based models have shown potential in diagnosing these
-disorders, the use of sensitive data raises critical privacy concerns. Although
-differential privacy (DP) has been explored in the medical imaging domain, its
-application in pathological speech analysis remains largely unexplored despite
-the equally critical privacy concerns. This study is the first to investigate
-DP's impact on pathological speech data, focusing on the trade-offs between
-privacy, diagnostic accuracy, and fairness. Using a large, real-world dataset
-of 200 hours of recordings from 2,839 German-speaking participants, we observed
-a maximum accuracy reduction of 3.85% when training with DP with a privacy
-budget, denoted by {\epsilon}, of 7.51. To generalize our findings, we
-validated our approach on a smaller dataset of Spanish-speaking Parkinson's
-disease patients, demonstrating that careful pretraining on large-scale
-task-specific datasets can maintain or even improve model accuracy under DP
-constraints. We also conducted a comprehensive fairness analysis, revealing
-that reasonable privacy levels (2<{\epsilon}<10) do not introduce significant
-gender bias, though age-related disparities may require further attention. Our
-results suggest that DP can effectively balance privacy and utility in speech
-disorder detection, but also highlight the unique challenges in the speech
-domain, particularly regarding the privacy-fairness trade-off. This provides a
-foundation for future work to refine DP methodologies and address fairness
-across diverse patient groups in real-world deployments.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.18907v1">In-depth Analysis of Privacy Threats in Federated Learning for Medical
-  Data</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-09-27T16:45:35Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Badhan Chandra Das, M. Hadi Amini, Yanzhao Wu</p>
-    <p><b>Summary:</b> Federated learning is emerging as a promising machine learning technique in
-the medical field for analyzing medical images, as it is considered an
-effective method to safeguard sensitive patient data and comply with privacy
-regulations. However, recent studies have revealed that the default settings of
-federated learning may inadvertently expose private training data to privacy
-attacks. Thus, the intensity of such privacy risks and potential mitigation
-strategies in the medical domain remain unclear. In this paper, we make three
-original contributions to privacy risk analysis and mitigation in federated
-learning for medical data. First, we propose a holistic framework, MedPFL, for
-analyzing privacy risks in processing medical data in the federated learning
-environment and developing effective mitigation strategies for protecting
-privacy. Second, through our empirical analysis, we demonstrate the severe
-privacy risks in federated learning to process medical images, where
-adversaries can accurately reconstruct private medical images by performing
-privacy attacks. Third, we illustrate that the prevalent defense mechanism of
-adding random noises may not always be effective in protecting medical images
-against privacy attacks in federated learning, which poses unique and pressing
-challenges related to protecting the privacy of medical data. Furthermore, the
-paper discusses several unique research questions related to the privacy
-protection of medical data in the federated learning environment. We conduct
-extensive experiments on several benchmark medical image datasets to analyze
-and mitigate the privacy risks associated with federated learning for medical
-data.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.18674v1">Image-guided topic modeling for interpretable privacy classification</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2024-09-27T12:02:28Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Alina Elena Baia, Andrea Cavallaro</p>
-    <p><b>Summary:</b> Predicting and explaining the private information contained in an image in
-human-understandable terms is a complex and contextual task. This task is
-challenging even for large language models. To facilitate the understanding of
-privacy decisions, we propose to predict image privacy based on a set of
-natural language content descriptors. These content descriptors are associated
-with privacy scores that reflect how people perceive image content. We generate
-descriptors with our novel Image-guided Topic Modeling (ITM) approach. ITM
-leverages, via multimodality alignment, both vision information and image
-textual descriptions from a vision language model. We use the ITM-generated
-descriptors to learn a privacy predictor, Priv$\times$ITM, whose decisions are
-interpretable by design. Our Priv$\times$ITM classifier outperforms the
-reference interpretable method by 5 percentage points in accuracy and performs
-comparably to the current non-interpretable state-of-the-art model.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.18632v5">Differentially Private and Byzantine-Resilient Decentralized Nonconvex
-  Optimization: System Modeling, Utility, Resilience, and Privacy Analysis</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Optimization and Control-F9C80E">
-  <p><b>Published on:</b> 2024-09-27T10:59:31Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jinhui Hu, Guo Chen, Huaqing Li, Huqiang Cheng, Xiaoyu Guo, Tingwen Huang</p>
-    <p><b>Summary:</b> Privacy leakage and Byzantine failures are two adverse factors to the
-intelligent decision-making process of multi-agent systems (MASs). Considering
-the presence of these two issues, this paper targets the resolution of a class
-of nonconvex optimization problems under the Polyak-{\L}ojasiewicz (P-{\L})
-condition. To address this problem, we first identify and construct the
-adversary system model. To enhance the robustness of stochastic gradient
-descent methods, we mask the local gradients with Gaussian noises and adopt a
-resilient aggregation method self-centered clipping (SCC) to design a
-differentially private (DP) decentralized Byzantine-resilient algorithm, namely
-DP-SCC-PL, which simultaneously achieves differential privacy and Byzantine
-resilience. The convergence analysis of DP-SCC-PL is challenging since the
-convergence error can be contributed jointly by privacy-preserving and
-Byzantine-resilient mechanisms, as well as the nonconvex relaxation, which is
-addressed via seeking the contraction relationships among the disagreement
-measure of reliable agents before and after aggregation, together with the
-optimal gap. Theoretical results reveal that DP-SCC-PL achieves consensus among
-all reliable agents and sublinear (inexact) convergence with well-designed
-step-sizes. It has also been proved that if there are no privacy issues and
-Byzantine agents, then the asymptotic exact convergence can be recovered.
-Numerical experiments verify the utility, resilience, and differential privacy
-of DP-SCC-PL by tackling a nonconvex optimization problem satisfying the P-{\L}
-condition under various Byzantine attacks.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.18611v1">Differentially Private Non Parametric Copulas: Generating synthetic data
-  with non parametric copulas under privacy guarantees</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">  
-  <p><b>Published on:</b> 2024-09-27T10:18:14Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Pablo A. Osorio-Marulanda, John Esteban Castro Ramirez, Mikel Hernández Jiménez, Nicolas Moreno Reyes, Gorka Epelde Unanue</p>
-    <p><b>Summary:</b> Creation of synthetic data models has represented a significant advancement
-across diverse scientific fields, but this technology also brings important
-privacy considerations for users. This work focuses on enhancing a
-non-parametric copula-based synthetic data generation model, DPNPC, by
-incorporating Differential Privacy through an Enhanced Fourier Perturbation
-method. The model generates synthetic data for mixed tabular databases while
-preserving privacy. We compare DPNPC with three other models (PrivBayes,
-DP-Copula, and DP-Histogram) across three public datasets, evaluating privacy,
-utility, and execution time. DPNPC outperforms others in modeling multivariate
-dependencies, maintaining privacy for small $\epsilon$ values, and reducing
-training times. However, limitations include the need to assess the model's
-performance with different encoding methods and consider additional privacy
-attacks. Future research should address these areas to enhance
-privacy-preserving synthetic data generation.</p>
   </details>
 </div>
 
