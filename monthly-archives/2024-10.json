@@ -2470,5 +2470,198 @@
     "categories" : [
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.22235v1",
+    "title" : "Auditing $f$-Differential Privacy in One Run",
+    "summary" : "Empirical auditing has emerged as a means of catching some of the flaws in\nthe implementation of privacy-preserving algorithms. Existing auditing\nmechanisms, however, are either computationally inefficient requiring multiple\nruns of the machine learning algorithms or suboptimal in calculating an\nempirical privacy. In this work, we present a tight and efficient auditing\nprocedure and analysis that can effectively assess the privacy of mechanisms.\nOur approach is efficient; similar to the recent work of Steinke, Nasr, and\nJagielski (2023), our auditing procedure leverages the randomness of examples\nin the input dataset and requires only a single run of the target mechanism.\nAnd it is more accurate; we provide a novel analysis that enables us to achieve\ntight empirical privacy estimates by using the hypothesized $f$-DP curve of the\nmechanism, which provides a more accurate measure of privacy than the\ntraditional $\\epsilon,\\delta$ differential privacy parameters. We use our\nauditing procure and analysis to obtain empirical privacy, demonstrating that\nour auditing procedure delivers tighter privacy estimates.",
+    "updated" : "2024-10-29T17:02:22Z",
+    "published" : "2024-10-29T17:02:22Z",
+    "authors" : [
+      {
+        "name" : "Saeed Mahloujifar"
+      },
+      {
+        "name" : "Luca Melis"
+      },
+      {
+        "name" : "Kamalika Chaudhuri"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.22108v1",
+    "title" : "Protecting Privacy in Multimodal Large Language Models with MLLMU-Bench",
+    "summary" : "Generative models such as Large Language Models (LLM) and Multimodal Large\nLanguage models (MLLMs) trained on massive web corpora can memorize and\ndisclose individuals' confidential and private data, raising legal and ethical\nconcerns. While many previous works have addressed this issue in LLM via\nmachine unlearning, it remains largely unexplored for MLLMs. To tackle this\nchallenge, we introduce Multimodal Large Language Model Unlearning Benchmark\n(MLLMU-Bench), a novel benchmark aimed at advancing the understanding of\nmultimodal machine unlearning. MLLMU-Bench consists of 500 fictitious profiles\nand 153 profiles for public celebrities, each profile feature over 14\ncustomized question-answer pairs, evaluated from both multimodal (image+text)\nand unimodal (text) perspectives. The benchmark is divided into four sets to\nassess unlearning algorithms in terms of efficacy, generalizability, and model\nutility. Finally, we provide baseline results using existing generative model\nunlearning algorithms. Surprisingly, our experiments show that unimodal\nunlearning algorithms excel in generation and cloze tasks, while multimodal\nunlearning approaches perform better in classification tasks with multimodal\ninputs.",
+    "updated" : "2024-10-29T15:07:23Z",
+    "published" : "2024-10-29T15:07:23Z",
+    "authors" : [
+      {
+        "name" : "Zheyuan Liu"
+      },
+      {
+        "name" : "Guangyao Dou"
+      },
+      {
+        "name" : "Mengzhao Jia"
+      },
+      {
+        "name" : "Zhaoxuan Tan"
+      },
+      {
+        "name" : "Qingkai Zeng"
+      },
+      {
+        "name" : "Yongle Yuan"
+      },
+      {
+        "name" : "Meng Jiang"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.21675v1",
+    "title" : "BF-Meta: Secure Blockchain-enhanced Privacy-preserving Federated\n  Learning for Metaverse",
+    "summary" : "The metaverse, emerging as a revolutionary platform for social and economic\nactivities, provides various virtual services while posing security and privacy\nchallenges. Wearable devices serve as bridges between the real world and the\nmetaverse. To provide intelligent services without revealing users' privacy in\nthe metaverse, leveraging federated learning (FL) to train models on local\nwearable devices is a promising solution. However, centralized model\naggregation in traditional FL may suffer from external attacks, resulting in a\nsingle point of failure. Furthermore, the absence of incentive mechanisms may\nweaken users' participation during FL training, leading to degraded performance\nof the trained model and reduced quality of intelligent services. In this\npaper, we propose BF-Meta, a secure blockchain-empowered FL framework with\ndecentralized model aggregation, to mitigate the negative influence of\nmalicious users and provide secure virtual services in the metaverse. In\naddition, we design an incentive mechanism to give feedback to users based on\ntheir behaviors. Experiments conducted on five datasets demonstrate the\neffectiveness and applicability of BF-Meta.",
+    "updated" : "2024-10-29T02:52:49Z",
+    "published" : "2024-10-29T02:52:49Z",
+    "authors" : [
+      {
+        "name" : "Wenbo Liu"
+      },
+      {
+        "name" : "Handi Chen"
+      },
+      {
+        "name" : "Edith C. H. Ngai"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.21605v1",
+    "title" : "Accelerating Privacy-Preserving Medical Record Linkage: A Three-Party\n  MPC Approach",
+    "summary" : "Motivation: Record linkage is a crucial concept for integrating data from\nmultiple sources, particularly when datasets lack exact identifiers, and it has\ndiverse applications in real-world data analysis. Privacy-Preserving Record\nLinkage (PPRL) ensures this integration occurs securely, protecting sensitive\ninformation from unauthorized access. This is especially important in sectors\nsuch as healthcare, where datasets include private identity information (IDAT)\ngoverned by strict privacy laws. However, maintaining both privacy and\nefficiency in large-scale record linkage poses significant challenges.\nConsequently, researchers must develop advanced methods to protect data privacy\nwhile optimizing processing performance. This paper presents a novel and\nefficient PPRL method based on a secure 3-party computation (MPC) framework.\nOur approach allows multiple parties to compute linkage results without\nexposing their private inputs and significantly improves the speed of linkage\nprocess compared to existing privacy-preserving solutions. Results: We\ndemonstrated that our method preserves the linkage quality of the\nstate-of-the-art PPRL method while achieving up to 14 times faster performance.\nFor example, linking a record against a database of 10,000 records takes just\n8.74 seconds in a realistic network with 700 Mbps bandwidth and 60 ms latency.\nEven on a slower internet connection with 100 Mbps bandwidth and 60 ms latency,\nthe linkage completes in 28 seconds, highlighting the scalability and\nefficiency of our solution.",
+    "updated" : "2024-10-28T23:13:01Z",
+    "published" : "2024-10-28T23:13:01Z",
+    "authors" : [
+      {
+        "name" : "Şeyma Selcan Mağara"
+      },
+      {
+        "name" : "Noah Dietrich"
+      },
+      {
+        "name" : "Ali Burak Ünal"
+      },
+      {
+        "name" : "Mete Akgün"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DB"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.18666v2",
+    "title" : "DreamClear: High-Capacity Real-World Image Restoration with Privacy-Safe\n  Dataset Curation",
+    "summary" : "Image restoration (IR) in real-world scenarios presents significant\nchallenges due to the lack of high-capacity models and comprehensive datasets.\nTo tackle these issues, we present a dual strategy: GenIR, an innovative data\ncuration pipeline, and DreamClear, a cutting-edge Diffusion Transformer\n(DiT)-based image restoration model. GenIR, our pioneering contribution, is a\ndual-prompt learning pipeline that overcomes the limitations of existing\ndatasets, which typically comprise only a few thousand images and thus offer\nlimited generalizability for larger models. GenIR streamlines the process into\nthree stages: image-text pair construction, dual-prompt based fine-tuning, and\ndata generation & filtering. This approach circumvents the laborious data\ncrawling process, ensuring copyright compliance and providing a cost-effective,\nprivacy-safe solution for IR dataset construction. The result is a large-scale\ndataset of one million high-quality images. Our second contribution,\nDreamClear, is a DiT-based image restoration model. It utilizes the generative\npriors of text-to-image (T2I) diffusion models and the robust perceptual\ncapabilities of multi-modal large language models (MLLMs) to achieve\nphotorealistic restoration. To boost the model's adaptability to diverse\nreal-world degradations, we introduce the Mixture of Adaptive Modulator (MoAM).\nIt employs token-wise degradation priors to dynamically integrate various\nrestoration experts, thereby expanding the range of degradations the model can\naddress. Our exhaustive experiments confirm DreamClear's superior performance,\nunderlining the efficacy of our dual strategy for real-world image restoration.\nCode and pre-trained models are available at:\nhttps://github.com/shallowdream204/DreamClear.",
+    "updated" : "2024-10-29T05:50:12Z",
+    "published" : "2024-10-24T11:57:20Z",
+    "authors" : [
+      {
+        "name" : "Yuang Ai"
+      },
+      {
+        "name" : "Xiaoqiang Zhou"
+      },
+      {
+        "name" : "Huaibo Huang"
+      },
+      {
+        "name" : "Xiaotian Han"
+      },
+      {
+        "name" : "Zhengyu Chen"
+      },
+      {
+        "name" : "Quanzeng You"
+      },
+      {
+        "name" : "Hongxia Yang"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.21986v1",
+    "title" : "From 5G to 6G: A Survey on Security, Privacy, and Standardization\n  Pathways",
+    "summary" : "The vision for 6G aims to enhance network capabilities with faster data\nrates, near-zero latency, and higher capacity, supporting more connected\ndevices and seamless experiences within an intelligent digital ecosystem where\nartificial intelligence (AI) plays a crucial role in network management and\ndata analysis. This advancement seeks to enable immersive mixed-reality\nexperiences, holographic communications, and smart city infrastructures.\nHowever, the expansion of 6G raises critical security and privacy concerns,\nsuch as unauthorized access and data breaches. This is due to the increased\nintegration of IoT devices, edge computing, and AI-driven analytics. This paper\nprovides a comprehensive overview of 6G protocols, focusing on security and\nprivacy, identifying risks, and presenting mitigation strategies. The survey\nexamines current risk assessment frameworks and advocates for tailored 6G\nsolutions. We further discuss industry visions, government projects, and\nstandardization efforts to balance technological innovation with robust\nsecurity and privacy measures.",
+    "updated" : "2024-10-04T03:03:44Z",
+    "published" : "2024-10-04T03:03:44Z",
+    "authors" : [
+      {
+        "name" : "Mengmeng Yang"
+      },
+      {
+        "name" : "Youyang Qu"
+      },
+      {
+        "name" : "Thilina Ranbaduge"
+      },
+      {
+        "name" : "Chandra Thapa"
+      },
+      {
+        "name" : "Nazatul Sultan"
+      },
+      {
+        "name" : "Ming Ding"
+      },
+      {
+        "name" : "Hajime Suzuki"
+      },
+      {
+        "name" : "Wei Ni"
+      },
+      {
+        "name" : "Sharif Abuadbba"
+      },
+      {
+        "name" : "David Smith"
+      },
+      {
+        "name" : "Paul Tyler"
+      },
+      {
+        "name" : "Josef Pieprzyk"
+      },
+      {
+        "name" : "Thierry Rakotoarivelo"
+      },
+      {
+        "name" : "Xinlong Guan"
+      },
+      {
+        "name" : "Sirine M'rabet"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
