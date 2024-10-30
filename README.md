@@ -2,6 +2,121 @@
 <h2>2024-10</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.22235v1">Auditing $f$-Differential Privacy in One Run</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-10-29T17:02:22Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Saeed Mahloujifar, Luca Melis, Kamalika Chaudhuri</p>
+    <p><b>Summary:</b> Empirical auditing has emerged as a means of catching some of the flaws in
+the implementation of privacy-preserving algorithms. Existing auditing
+mechanisms, however, are either computationally inefficient requiring multiple
+runs of the machine learning algorithms or suboptimal in calculating an
+empirical privacy. In this work, we present a tight and efficient auditing
+procedure and analysis that can effectively assess the privacy of mechanisms.
+Our approach is efficient; similar to the recent work of Steinke, Nasr, and
+Jagielski (2023), our auditing procedure leverages the randomness of examples
+in the input dataset and requires only a single run of the target mechanism.
+And it is more accurate; we provide a novel analysis that enables us to achieve
+tight empirical privacy estimates by using the hypothesized $f$-DP curve of the
+mechanism, which provides a more accurate measure of privacy than the
+traditional $\epsilon,\delta$ differential privacy parameters. We use our
+auditing procure and analysis to obtain empirical privacy, demonstrating that
+our auditing procedure delivers tighter privacy estimates.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.22108v1">Protecting Privacy in Multimodal Large Language Models with MLLMU-Bench</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-10-29T15:07:23Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zheyuan Liu, Guangyao Dou, Mengzhao Jia, Zhaoxuan Tan, Qingkai Zeng, Yongle Yuan, Meng Jiang</p>
+    <p><b>Summary:</b> Generative models such as Large Language Models (LLM) and Multimodal Large
+Language models (MLLMs) trained on massive web corpora can memorize and
+disclose individuals' confidential and private data, raising legal and ethical
+concerns. While many previous works have addressed this issue in LLM via
+machine unlearning, it remains largely unexplored for MLLMs. To tackle this
+challenge, we introduce Multimodal Large Language Model Unlearning Benchmark
+(MLLMU-Bench), a novel benchmark aimed at advancing the understanding of
+multimodal machine unlearning. MLLMU-Bench consists of 500 fictitious profiles
+and 153 profiles for public celebrities, each profile feature over 14
+customized question-answer pairs, evaluated from both multimodal (image+text)
+and unimodal (text) perspectives. The benchmark is divided into four sets to
+assess unlearning algorithms in terms of efficacy, generalizability, and model
+utility. Finally, we provide baseline results using existing generative model
+unlearning algorithms. Surprisingly, our experiments show that unimodal
+unlearning algorithms excel in generation and cloze tasks, while multimodal
+unlearning approaches perform better in classification tasks with multimodal
+inputs.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.21675v1">BF-Meta: Secure Blockchain-enhanced Privacy-preserving Federated
+  Learning for Metaverse</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-10-29T02:52:49Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Wenbo Liu, Handi Chen, Edith C. H. Ngai</p>
+    <p><b>Summary:</b> The metaverse, emerging as a revolutionary platform for social and economic
+activities, provides various virtual services while posing security and privacy
+challenges. Wearable devices serve as bridges between the real world and the
+metaverse. To provide intelligent services without revealing users' privacy in
+the metaverse, leveraging federated learning (FL) to train models on local
+wearable devices is a promising solution. However, centralized model
+aggregation in traditional FL may suffer from external attacks, resulting in a
+single point of failure. Furthermore, the absence of incentive mechanisms may
+weaken users' participation during FL training, leading to degraded performance
+of the trained model and reduced quality of intelligent services. In this
+paper, we propose BF-Meta, a secure blockchain-empowered FL framework with
+decentralized model aggregation, to mitigate the negative influence of
+malicious users and provide secure virtual services in the metaverse. In
+addition, we design an incentive mechanism to give feedback to users based on
+their behaviors. Experiments conducted on five datasets demonstrate the
+effectiveness and applicability of BF-Meta.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.21605v1">Accelerating Privacy-Preserving Medical Record Linkage: A Three-Party
+  MPC Approach</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
+  <p><b>Published on:</b> 2024-10-28T23:13:01Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Şeyma Selcan Mağara, Noah Dietrich, Ali Burak Ünal, Mete Akgün</p>
+    <p><b>Summary:</b> Motivation: Record linkage is a crucial concept for integrating data from
+multiple sources, particularly when datasets lack exact identifiers, and it has
+diverse applications in real-world data analysis. Privacy-Preserving Record
+Linkage (PPRL) ensures this integration occurs securely, protecting sensitive
+information from unauthorized access. This is especially important in sectors
+such as healthcare, where datasets include private identity information (IDAT)
+governed by strict privacy laws. However, maintaining both privacy and
+efficiency in large-scale record linkage poses significant challenges.
+Consequently, researchers must develop advanced methods to protect data privacy
+while optimizing processing performance. This paper presents a novel and
+efficient PPRL method based on a secure 3-party computation (MPC) framework.
+Our approach allows multiple parties to compute linkage results without
+exposing their private inputs and significantly improves the speed of linkage
+process compared to existing privacy-preserving solutions. Results: We
+demonstrated that our method preserves the linkage quality of the
+state-of-the-art PPRL method while achieving up to 14 times faster performance.
+For example, linking a record against a database of 10,000 records takes just
+8.74 seconds in a realistic network with 700 Mbps bandwidth and 60 ms latency.
+Even on a slower internet connection with 100 Mbps bandwidth and 60 ms latency,
+the linkage completes in 28 seconds, highlighting the scalability and
+efficiency of our solution.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2410.21177v1">Privacy-Preserving for Images in Satellite Communications: A
   Comprehensive Review of Chaos-Based Encryption</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
@@ -280,7 +395,7 @@ majorly degrading VAD efficacy.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.18666v1">DreamClear: High-Capacity Real-World Image Restoration with Privacy-Safe
+  <h3><a href="http://arxiv.org/abs/2410.18666v2">DreamClear: High-Capacity Real-World Image Restoration with Privacy-Safe
   Dataset Curation</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
   <p><b>Published on:</b> 2024-10-24T11:57:20Z</p>
@@ -309,7 +424,7 @@ It employs token-wise degradation priors to dynamically integrate various
 restoration experts, thereby expanding the range of degradations the model can
 address. Our exhaustive experiments confirm DreamClear's superior performance,
 underlining the efficacy of our dual strategy for real-world image restoration.
-Code and pre-trained models will be available at:
+Code and pre-trained models are available at:
 https://github.com/shallowdream204/DreamClear.</p>
   </details>
 </div>
@@ -2277,6 +2392,33 @@ than the state-of-the-art work, with promising performance.</p>
 
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.21986v1">From 5G to 6G: A Survey on Security, Privacy, and Standardization
+  Pathways</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-10-04T03:03:44Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mengmeng Yang, Youyang Qu, Thilina Ranbaduge, Chandra Thapa, Nazatul Sultan, Ming Ding, Hajime Suzuki, Wei Ni, Sharif Abuadbba, David Smith, Paul Tyler, Josef Pieprzyk, Thierry Rakotoarivelo, Xinlong Guan, Sirine M'rabet</p>
+    <p><b>Summary:</b> The vision for 6G aims to enhance network capabilities with faster data
+rates, near-zero latency, and higher capacity, supporting more connected
+devices and seamless experiences within an intelligent digital ecosystem where
+artificial intelligence (AI) plays a crucial role in network management and
+data analysis. This advancement seeks to enable immersive mixed-reality
+experiences, holographic communications, and smart city infrastructures.
+However, the expansion of 6G raises critical security and privacy concerns,
+such as unauthorized access and data breaches. This is due to the increased
+integration of IoT devices, edge computing, and AI-driven analytics. This paper
+provides a comprehensive overview of 6G protocols, focusing on security and
+privacy, identifying risks, and presenting mitigation strategies. The survey
+examines current risk assessment frameworks and advocates for tailored 6G
+solutions. We further discuss industry visions, government projects, and
+standardization efforts to balance technological innovation with robust
+security and privacy measures.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2410.03069v1">Interactive GDPR-Compliant Privacy Policy Generation for Software
   Applications</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
@@ -2692,167 +2834,6 @@ collaborative learning from decentralized data while safeguarding patient
 privacy. This paper proposes a vision for integrating PPFL into the healthcare
 ecosystem to achieve a truly LHS as defined by the Institute of Medicine (IOM)
 Roundtable.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.19413v1">Membership Privacy Evaluation in Deep Spiking Neural Networks</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2024-09-28T17:13:04Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jiaxin Li, Gorka Abad, Stjepan Picek, Mauro Conti</p>
-    <p><b>Summary:</b> Artificial Neural Networks (ANNs), commonly mimicking neurons with non-linear
-functions to output floating-point numbers, consistently receive the same
-signals of a data point during its forward time. Unlike ANNs, Spiking Neural
-Networks (SNNs) get various input signals in the forward time of a data point
-and simulate neurons in a biologically plausible way, i.e., producing a spike
-(a binary value) if the accumulated membrane potential of a neuron is larger
-than a threshold. Even though ANNs have achieved remarkable success in multiple
-tasks, e.g., face recognition and object detection, SNNs have recently obtained
-attention due to their low power consumption, fast inference, and event-driven
-properties. While privacy threats against ANNs are widely explored, much less
-work has been done on SNNs. For instance, it is well-known that ANNs are
-vulnerable to the Membership Inference Attack (MIA), but whether the same
-applies to SNNs is not explored.
-  In this paper, we evaluate the membership privacy of SNNs by considering
-eight MIAs, seven of which are inspired by MIAs against ANNs. Our evaluation
-results show that SNNs are more vulnerable (maximum 10% higher in terms of
-balanced attack accuracy) than ANNs when both are trained with neuromorphic
-datasets (with time dimension). On the other hand, when training ANNs or SNNs
-with static datasets (without time dimension), the vulnerability depends on the
-dataset used. If we convert ANNs trained with static datasets to SNNs, the
-accuracy of MIAs drops (maximum 11.5% with a reduction of 7.6% on the test
-accuracy of the target model). Next, we explore the impact factors of MIAs on
-SNNs by conducting a hyperparameter study. Finally, we show that the basic data
-augmentation method for static data and two recent data augmentation methods
-for neuromorphic data can considerably (maximum reduction of 25.7%) decrease
-MIAs' performance on SNNs.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.19334v1">OnePath: Efficient and Privacy-Preserving Decision Tree Inference in the
-  Cloud</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-09-28T12:35:32Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shuai Yuan, Hongwei Li, Xinyuan Qian, Wenbo Jiang, Guowen Xu</p>
-    <p><b>Summary:</b> The expansive storage capacity and robust computational power of cloud
-servers have led to the widespread outsourcing of machine learning inference
-services to the cloud. While this practice offers significant operational
-benefits, it also poses substantial privacy risks, including the exposure of
-proprietary models and sensitive user data. In this paper, we introduce
-OnePath, a framework designed for secure and efficient decision tree inference
-in cloud environments. Unlike existing schemes that require traversing all
-internal nodes of a decision tree, our protocol securely identifies and
-processes only the nodes on the prediction path, maintaining data privacy under
-ciphertext throughout the inference process. This selective traversal enhances
-both security and efficiency. To further optimize privacy and performance,
-OnePath employs lightweight cryptographic techniques, such as functional
-encryption, during the online phase of secure inference. Notably, our protocol
-allows both providers and clients to perform secure inference without the need
-to remain online continuously, a critical advantage for real-world
-applications. We substantiate the security of our framework with formal proofs,
-demonstrating that OnePath robustly protects the privacy of decision tree
-classifiers and user data. Experimental results highlight the efficiency of our
-approach, with our scheme processing query data in mere microseconds on the
-tested dataset. Through OnePath, we provide a practical solution that balances
-the needs for security and efficiency in cloud-based decision tree inference,
-making it a promising option for a variety of applications.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.19306v1">CausalVE: Face Video Privacy Encryption via Causal Video Prediction</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2024-09-28T10:34:22Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yubo Huang, Wenhao Feng, Xin Lai, Zixi Wang, Jingzehua Xu, Shuai Zhang, Hongjie He, Fan Chen</p>
-    <p><b>Summary:</b> Advanced facial recognition technologies and recommender systems with
-inadequate privacy technologies and policies for facial interactions increase
-concerns about bioprivacy violations. With the proliferation of video and
-live-streaming websites, public-face video distribution and interactions pose
-greater privacy risks. Existing techniques typically address the risk of
-sensitive biometric information leakage through various privacy enhancement
-methods but pose a higher security risk by corrupting the information to be
-conveyed by the interaction data, or by leaving certain biometric features
-intact that allow an attacker to infer sensitive biometric information from
-them. To address these shortcomings, in this paper, we propose a neural network
-framework, CausalVE. We obtain cover images by adopting a diffusion model to
-achieve face swapping with face guidance and use the speech sequence features
-and spatiotemporal sequence features of the secret video for dynamic video
-inference and prediction to obtain a cover video with the same number of frames
-as the secret video. In addition, we hide the secret video by using reversible
-neural networks for video hiding so that the video can also disseminate secret
-data. Numerous experiments prove that our CausalVE has good security in public
-video dissemination and outperforms state-of-the-art methods from a
-qualitative, quantitative, and visual point of view.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.19301v1">Privacy Attack in Federated Learning is Not Easy: An Experimental Study</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2024-09-28T10:06:34Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Hangyu Zhu, Liyuan Huang, Zhenping Xie</p>
-    <p><b>Summary:</b> Federated learning (FL) is an emerging distributed machine learning paradigm
-proposed for privacy preservation. Unlike traditional centralized learning
-approaches, FL enables multiple users to collaboratively train a shared global
-model without disclosing their own data, thereby significantly reducing the
-potential risk of privacy leakage. However, recent studies have indicated that
-FL cannot entirely guarantee privacy protection, and attackers may still be
-able to extract users' private data through the communicated model gradients.
-Although numerous privacy attack FL algorithms have been developed, most are
-designed to reconstruct private data from a single step of calculated
-gradients. It remains uncertain whether these methods are effective in
-realistic federated environments or if they have other limitations. In this
-paper, we aim to help researchers better understand and evaluate the
-effectiveness of privacy attacks on FL. We analyze and discuss recent research
-papers on this topic and conduct experiments in a real FL environment to
-compare the performance of various attack methods. Our experimental results
-reveal that none of the existing state-of-the-art privacy attack algorithms can
-effectively breach private client data in realistic FL settings, even in the
-absence of defense strategies. This suggests that privacy attacks in FL are
-more challenging than initially anticipated.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.19092v1">Federated Online Prediction from Experts with Differential Privacy:
-  Separations and Regret Speed-ups</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
-  <p><b>Published on:</b> 2024-09-27T18:43:24Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Fengyu Gao, Ruiquan Huang, Jing Yang</p>
-    <p><b>Summary:</b> We study the problems of differentially private federated online prediction
-from experts against both stochastic adversaries and oblivious adversaries. We
-aim to minimize the average regret on $m$ clients working in parallel over time
-horizon $T$ with explicit differential privacy (DP) guarantees. With stochastic
-adversaries, we propose a Fed-DP-OPE-Stoch algorithm that achieves
-$\sqrt{m}$-fold speed-up of the per-client regret compared to the single-player
-counterparts under both pure DP and approximate DP constraints, while
-maintaining logarithmic communication costs. With oblivious adversaries, we
-establish non-trivial lower bounds indicating that collaboration among clients
-does not lead to regret speed-up with general oblivious adversaries. We then
-consider a special case of the oblivious adversaries setting, where there
-exists a low-loss expert. We design a new algorithm Fed-SVT and show that it
-achieves an $m$-fold regret speed-up under both pure DP and approximate DP
-constraints over the single-player counterparts. Our lower bound indicates that
-Fed-SVT is nearly optimal up to logarithmic factors. Experiments demonstrate
-the effectiveness of our proposed algorithms. To the best of our knowledge,
-this is the first work examining the differentially private online prediction
-from experts in the federated setting.</p>
   </details>
 </div>
 
