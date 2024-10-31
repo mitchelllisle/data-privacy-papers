@@ -2663,5 +2663,117 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.22784v1",
+    "title" : "Contrastive Learning and Adversarial Disentanglement for\n  Privacy-Preserving Task-Oriented Semantic Communications",
+    "summary" : "Task-oriented semantic communication systems have emerged as a promising\napproach to achieving efficient and intelligent data transmission, where only\ninformation relevant to a specific task is communicated. However, existing\nmethods struggle to fully disentangle task-relevant and task-irrelevant\ninformation, leading to privacy concerns and subpar performance. To address\nthis, we propose an information-bottleneck method, named CLAD (contrastive\nlearning and adversarial disentanglement). CLAD leverages contrastive learning\nto effectively capture task-relevant features while employing adversarial\ndisentanglement to discard task-irrelevant information. Additionally, due to\nthe lack of reliable and reproducible methods to gain insight into the\ninformativeness and minimality of the encoded feature vectors, we introduce a\nnew technique to compute the information retention index (IRI), a comparative\nmetric used as a proxy for the mutual information between the encoded features\nand the input, reflecting the minimality of the encoded features. The IRI\nquantifies the minimality and informativeness of the encoded feature vectors\nacross different task-oriented communication techniques. Our extensive\nexperiments demonstrate that CLAD outperforms state-of-the-art baselines in\nterms of task performance, privacy preservation, and IRI. CLAD achieves a\npredictive performance improvement of around 2.5-3%, along with a 77-90%\nreduction in IRI and a 57-76% decrease in adversarial accuracy.",
+    "updated" : "2024-10-30T07:59:52Z",
+    "published" : "2024-10-30T07:59:52Z",
+    "authors" : [
+      {
+        "name" : "Omar Erak"
+      },
+      {
+        "name" : "Omar Alhussein"
+      },
+      {
+        "name" : "Wen Tong"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CV",
+      "cs.IT",
+      "eess.IV",
+      "math.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.22673v1",
+    "title" : "Calibrating Practical Privacy Risks for Differentially Private Machine\n  Learning",
+    "summary" : "Differential privacy quantifies privacy through the privacy budget\n$\\epsilon$, yet its practical interpretation is complicated by variations\nacross models and datasets. Recent research on differentially private machine\nlearning and membership inference has highlighted that with the same\ntheoretical $\\epsilon$ setting, the likelihood-ratio-based membership inference\n(LiRA) attacking success rate (ASR) may vary according to specific datasets and\nmodels, which might be a better indicator for evaluating real-world privacy\nrisks. Inspired by this practical privacy measure, we study the approaches that\ncan lower the attacking success rate to allow for more flexible privacy budget\nsettings in model training. We find that by selectively suppressing\nprivacy-sensitive features, we can achieve lower ASR values without\ncompromising application-specific data utility. We use the SHAP and LIME model\nexplainer to evaluate feature sensitivities and develop feature-masking\nstrategies. Our findings demonstrate that the LiRA $ASR^M$ on model $M$ can\nproperly indicate the inherent privacy risk of a dataset for modeling, and it's\npossible to modify datasets to enable the use of larger theoretical $\\epsilon$\nsettings to achieve equivalent practical privacy protection. We have conducted\nextensive experiments to show the inherent link between ASR and the dataset's\nprivacy risk. By carefully selecting features to mask, we can preserve more\ndata utility with equivalent practical privacy protection and relaxed\n$\\epsilon$ settings. The implementation details are shared online at the\nprovided GitHub URL\n\\url{https://anonymous.4open.science/r/On-sensitive-features-and-empirical-epsilon-lower-bounds-BF67/}.",
+    "updated" : "2024-10-30T03:52:01Z",
+    "published" : "2024-10-30T03:52:01Z",
+    "authors" : [
+      {
+        "name" : "Yuechun Gu"
+      },
+      {
+        "name" : "Keke Chen"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.22651v1",
+    "title" : "FT-PrivacyScore: Personalized Privacy Scoring Service for Machine\n  Learning Participation",
+    "summary" : "Training data privacy has been a top concern in AI modeling. While methods\nlike differentiated private learning allow data contributors to quantify\nacceptable privacy loss, model utility is often significantly damaged. In\npractice, controlled data access remains a mainstream method for protecting\ndata privacy in many industrial and research environments. In controlled data\naccess, authorized model builders work in a restricted environment to access\nsensitive data, which can fully preserve data utility with reduced risk of data\nleak. However, unlike differential privacy, there is no quantitative measure\nfor individual data contributors to tell their privacy risk before\nparticipating in a machine learning task. We developed the demo prototype\nFT-PrivacyScore to show that it's possible to efficiently and quantitatively\nestimate the privacy risk of participating in a model fine-tuning task. The\ndemo source code will be available at\n\\url{https://github.com/RhincodonE/demo_privacy_scoring}.",
+    "updated" : "2024-10-30T02:41:26Z",
+    "published" : "2024-10-30T02:41:26Z",
+    "authors" : [
+      {
+        "name" : "Yuechun Gu"
+      },
+      {
+        "name" : "Jiajie He"
+      },
+      {
+        "name" : "Keke Chen"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.22623v1",
+    "title" : "PV-VTT: A Privacy-Centric Dataset for Mission-Specific Anomaly Detection\n  and Natural Language Interpretation",
+    "summary" : "Video crime detection is a significant application of computer vision and\nartificial intelligence. However, existing datasets primarily focus on\ndetecting severe crimes by analyzing entire video clips, often neglecting the\nprecursor activities (i.e., privacy violations) that could potentially prevent\nthese crimes. To address this limitation, we present PV-VTT (Privacy Violation\nVideo To Text), a unique multimodal dataset aimed at identifying privacy\nviolations. PV-VTT provides detailed annotations for both video and text in\nscenarios. To ensure the privacy of individuals in the videos, we only provide\nvideo feature vectors, avoiding the release of any raw video data. This\nprivacy-focused approach allows researchers to use the dataset while protecting\nparticipant confidentiality. Recognizing that privacy violations are often\nambiguous and context-dependent, we propose a Graph Neural Network (GNN)-based\nvideo description model. Our model generates a GNN-based prompt with image for\nLarge Language Model (LLM), which deliver cost-effective and high-quality video\ndescriptions. By leveraging a single video frame along with relevant text, our\nmethod reduces the number of input tokens required, maintaining descriptive\nquality while optimizing LLM API-usage. Extensive experiments validate the\neffectiveness and interpretability of our approach in video description tasks\nand flexibility of our PV-VTT dataset.",
+    "updated" : "2024-10-30T01:02:20Z",
+    "published" : "2024-10-30T01:02:20Z",
+    "authors" : [
+      {
+        "name" : "Ryozo Masukawa"
+      },
+      {
+        "name" : "Sanggeon Yun"
+      },
+      {
+        "name" : "Yoshiki Yamaguchi"
+      },
+      {
+        "name" : "Mohsen Imani"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.22488v1",
+    "title" : "Privacy-Preserving Dynamic Assortment Selection",
+    "summary" : "With the growing demand for personalized assortment recommendations, concerns\nover data privacy have intensified, highlighting the urgent need for effective\nprivacy-preserving strategies. This paper presents a novel framework for\nprivacy-preserving dynamic assortment selection using the multinomial logit\n(MNL) bandits model. Our approach employs a perturbed upper confidence bound\nmethod, integrating calibrated noise into user utility estimates to balance\nbetween exploration and exploitation while ensuring robust privacy protection.\nWe rigorously prove that our policy satisfies Joint Differential Privacy (JDP),\nwhich better suits dynamic environments than traditional differential privacy,\neffectively mitigating inference attack risks. This analysis is built upon a\nnovel objective perturbation technique tailored for MNL bandits, which is also\nof independent interest. Theoretically, we derive a near-optimal regret bound\nof $\\tilde{O}(\\sqrt{T})$ for our policy and explicitly quantify how privacy\nprotection impacts regret. Through extensive simulations and an application to\nthe Expedia hotel dataset, we demonstrate substantial performance enhancements\nover the benchmark method.",
+    "updated" : "2024-10-29T19:28:01Z",
+    "published" : "2024-10-29T19:28:01Z",
+    "authors" : [
+      {
+        "name" : "Young Hyun Cho"
+      },
+      {
+        "name" : "Will Wei Sun"
+      }
+    ],
+    "categories" : [
+      "stat.ML",
+      "cs.AI",
+      "cs.CR",
+      "cs.LG"
+    ]
   }
 ]
