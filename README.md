@@ -2,6 +2,157 @@
 <h2>2024-10</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.22784v1">Contrastive Learning and Adversarial Disentanglement for
+  Privacy-Preserving Task-Oriented Semantic Communications</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36">  
+  <p><b>Published on:</b> 2024-10-30T07:59:52Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Omar Erak, Omar Alhussein, Wen Tong</p>
+    <p><b>Summary:</b> Task-oriented semantic communication systems have emerged as a promising
+approach to achieving efficient and intelligent data transmission, where only
+information relevant to a specific task is communicated. However, existing
+methods struggle to fully disentangle task-relevant and task-irrelevant
+information, leading to privacy concerns and subpar performance. To address
+this, we propose an information-bottleneck method, named CLAD (contrastive
+learning and adversarial disentanglement). CLAD leverages contrastive learning
+to effectively capture task-relevant features while employing adversarial
+disentanglement to discard task-irrelevant information. Additionally, due to
+the lack of reliable and reproducible methods to gain insight into the
+informativeness and minimality of the encoded feature vectors, we introduce a
+new technique to compute the information retention index (IRI), a comparative
+metric used as a proxy for the mutual information between the encoded features
+and the input, reflecting the minimality of the encoded features. The IRI
+quantifies the minimality and informativeness of the encoded feature vectors
+across different task-oriented communication techniques. Our extensive
+experiments demonstrate that CLAD outperforms state-of-the-art baselines in
+terms of task performance, privacy preservation, and IRI. CLAD achieves a
+predictive performance improvement of around 2.5-3%, along with a 77-90%
+reduction in IRI and a 57-76% decrease in adversarial accuracy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.22673v1">Calibrating Practical Privacy Risks for Differentially Private Machine
+  Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-10-30T03:52:01Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yuechun Gu, Keke Chen</p>
+    <p><b>Summary:</b> Differential privacy quantifies privacy through the privacy budget
+$\epsilon$, yet its practical interpretation is complicated by variations
+across models and datasets. Recent research on differentially private machine
+learning and membership inference has highlighted that with the same
+theoretical $\epsilon$ setting, the likelihood-ratio-based membership inference
+(LiRA) attacking success rate (ASR) may vary according to specific datasets and
+models, which might be a better indicator for evaluating real-world privacy
+risks. Inspired by this practical privacy measure, we study the approaches that
+can lower the attacking success rate to allow for more flexible privacy budget
+settings in model training. We find that by selectively suppressing
+privacy-sensitive features, we can achieve lower ASR values without
+compromising application-specific data utility. We use the SHAP and LIME model
+explainer to evaluate feature sensitivities and develop feature-masking
+strategies. Our findings demonstrate that the LiRA $ASR^M$ on model $M$ can
+properly indicate the inherent privacy risk of a dataset for modeling, and it's
+possible to modify datasets to enable the use of larger theoretical $\epsilon$
+settings to achieve equivalent practical privacy protection. We have conducted
+extensive experiments to show the inherent link between ASR and the dataset's
+privacy risk. By carefully selecting features to mask, we can preserve more
+data utility with equivalent practical privacy protection and relaxed
+$\epsilon$ settings. The implementation details are shared online at the
+provided GitHub URL
+\url{https://anonymous.4open.science/r/On-sensitive-features-and-empirical-epsilon-lower-bounds-BF67/}.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.22651v1">FT-PrivacyScore: Personalized Privacy Scoring Service for Machine
+  Learning Participation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-10-30T02:41:26Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yuechun Gu, Jiajie He, Keke Chen</p>
+    <p><b>Summary:</b> Training data privacy has been a top concern in AI modeling. While methods
+like differentiated private learning allow data contributors to quantify
+acceptable privacy loss, model utility is often significantly damaged. In
+practice, controlled data access remains a mainstream method for protecting
+data privacy in many industrial and research environments. In controlled data
+access, authorized model builders work in a restricted environment to access
+sensitive data, which can fully preserve data utility with reduced risk of data
+leak. However, unlike differential privacy, there is no quantitative measure
+for individual data contributors to tell their privacy risk before
+participating in a machine learning task. We developed the demo prototype
+FT-PrivacyScore to show that it's possible to efficiently and quantitatively
+estimate the privacy risk of participating in a model fine-tuning task. The
+demo source code will be available at
+\url{https://github.com/RhincodonE/demo_privacy_scoring}.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.22623v1">PV-VTT: A Privacy-Centric Dataset for Mission-Specific Anomaly Detection
+  and Natural Language Interpretation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2024-10-30T01:02:20Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ryozo Masukawa, Sanggeon Yun, Yoshiki Yamaguchi, Mohsen Imani</p>
+    <p><b>Summary:</b> Video crime detection is a significant application of computer vision and
+artificial intelligence. However, existing datasets primarily focus on
+detecting severe crimes by analyzing entire video clips, often neglecting the
+precursor activities (i.e., privacy violations) that could potentially prevent
+these crimes. To address this limitation, we present PV-VTT (Privacy Violation
+Video To Text), a unique multimodal dataset aimed at identifying privacy
+violations. PV-VTT provides detailed annotations for both video and text in
+scenarios. To ensure the privacy of individuals in the videos, we only provide
+video feature vectors, avoiding the release of any raw video data. This
+privacy-focused approach allows researchers to use the dataset while protecting
+participant confidentiality. Recognizing that privacy violations are often
+ambiguous and context-dependent, we propose a Graph Neural Network (GNN)-based
+video description model. Our model generates a GNN-based prompt with image for
+Large Language Model (LLM), which deliver cost-effective and high-quality video
+descriptions. By leveraging a single video frame along with relevant text, our
+method reduces the number of input tokens required, maintaining descriptive
+quality while optimizing LLM API-usage. Extensive experiments validate the
+effectiveness and interpretability of our approach in video description tasks
+and flexibility of our PV-VTT dataset.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.22488v1">Privacy-Preserving Dynamic Assortment Selection</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-10-29T19:28:01Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Young Hyun Cho, Will Wei Sun</p>
+    <p><b>Summary:</b> With the growing demand for personalized assortment recommendations, concerns
+over data privacy have intensified, highlighting the urgent need for effective
+privacy-preserving strategies. This paper presents a novel framework for
+privacy-preserving dynamic assortment selection using the multinomial logit
+(MNL) bandits model. Our approach employs a perturbed upper confidence bound
+method, integrating calibrated noise into user utility estimates to balance
+between exploration and exploitation while ensuring robust privacy protection.
+We rigorously prove that our policy satisfies Joint Differential Privacy (JDP),
+which better suits dynamic environments than traditional differential privacy,
+effectively mitigating inference attack risks. This analysis is built upon a
+novel objective perturbation technique tailored for MNL bandits, which is also
+of independent interest. Theoretically, we derive a near-optimal regret bound
+of $\tilde{O}(\sqrt{T})$ for our policy and explicitly quantify how privacy
+protection impacts regret. Through extensive simulations and an application to
+the Expedia hotel dataset, we demonstrate substantial performance enhancements
+over the benchmark method.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2410.22235v1">Auditing $f$-Differential Privacy in One Run</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2024-10-29T17:02:22Z</p>
@@ -2690,150 +2841,6 @@ processing tasks show that DP-AL can improve performance for specific datasets
 and model architectures. However, our findings also highlight the limitations
 of AL in privacy-constrained environments, emphasizing the trade-offs between
 privacy, model accuracy, and data selection accuracy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.00433v1">PrivTuner with Homomorphic Encryption and LoRA: A P3EFT Scheme for
-  Privacy-Preserving Parameter-Efficient Fine-Tuning of AI Foundation Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-10-01T06:30:06Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yang Li, Wenhan Yu, Jun Zhao</p>
-    <p><b>Summary:</b> AI foundation models have recently demonstrated impressive capabilities
-across a wide range of tasks. Fine-tuning (FT) is a method of customizing a
-pre-trained AI foundation model by further training it on a smaller, targeted
-dataset. In this paper, we initiate the study of the Privacy-Preserving
-Parameter-Efficient FT (P3EFT) framework, which can be viewed as the
-intersection of Parameter-Efficient FT (PEFT) and Privacy-Preserving FT (PPFT).
-PEFT modifies only a small subset of the model's parameters to achieve FT
-(i.e., adapting a pre-trained model to a specific dataset), while PPFT uses
-privacy-preserving technologies to protect the confidentiality of the model
-during the FT process. There have been many studies on PEFT or PPFT but very
-few on their fusion, which motivates our work on P3EFT to achieve both
-parameter efficiency and model privacy. To exemplify our P3EFT, we present the
-PrivTuner scheme, which incorporates Fully Homomorphic Encryption (FHE) enabled
-privacy protection into LoRA (short for ``Low-Rank Adapter''). Intuitively
-speaking, PrivTuner allows the model owner and the external data owners to
-collaboratively implement PEFT with encrypted data. After describing PrivTuner
-in detail, we further investigate its energy consumption and privacy
-protection. Then, we consider a PrivTuner system over wireless communications
-and formulate a joint optimization problem to adaptively minimize energy while
-maximizing privacy protection, with the optimization variables including FDMA
-bandwidth allocation, wireless transmission power, computational resource
-allocation, and privacy protection. A resource allocation algorithm is devised
-to solve the problem. Experiments demonstrate that our algorithm can
-significantly reduce energy consumption while adapting to different privacy
-requirements.</p>
-  </details>
-</div>
-
-
-
-<h2>2024-09</h2>
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.00069v2">An interdisciplinary exploration of trade-offs between energy, privacy
-  and accuracy aspects of data</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-09-30T10:01:14Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Pepijn de Reus, Kyra Dresen, Ana Oprescu, Kristina Irion, Ans Kolk</p>
-    <p><b>Summary:</b> The digital era has raised many societal challenges, including ICT's rising
-energy consumption and protecting privacy of personal data processing. This
-paper considers both aspects in relation to machine learning accuracy in an
-interdisciplinary exploration. We first present a method to measure the effects
-of privacy-enhancing techniques on data utility and energy consumption. The
-environmental-privacy-accuracy trade-offs are discovered through an
-experimental set-up. We subsequently take a storytelling approach to translate
-these technical findings to experts in non-ICT fields. We draft two examples
-for a governmental and auditing setting to contextualise our results.
-Ultimately, users face the task of optimising their data processing operations
-in a trade-off between energy, privacy, and accuracy considerations where the
-impact of their decisions is context-sensitive.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.19988v1">Enhancing Security Using Random Binary Weights in Privacy-Preserving
-  Federated Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-09-30T06:28:49Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Hiroto Sawada, Shoko Imaizumi, Hitoshi Kiya</p>
-    <p><b>Summary:</b> In this paper, we propose a novel method for enhancing security in
-privacy-preserving federated learning using the Vision Transformer. In
-federated learning, learning is performed by collecting updated information
-without collecting raw data from each client. However, the problem is that this
-raw data may be inferred from the updated information. Conventional
-data-guessing countermeasures (security enhancement methods) for addressing
-this issue have a trade-off relationship between privacy protection strength
-and learning efficiency, and they generally degrade model performance. In this
-paper, we propose a novel method of federated learning that does not degrade
-model performance and that is robust against data-guessing attacks on updated
-information. In the proposed method, each client independently prepares a
-sequence of binary (0 or 1) random numbers, multiplies it by the updated
-information, and sends it to a server for model learning. In experiments, the
-effectiveness of the proposed method is confirmed in terms of model performance
-and resistance to the APRIL (Attention PRIvacy Leakage) restoration attack.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.19964v1">Comments on "Privacy-Enhanced Federated Learning Against Poisoning
-  Adversaries"</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-09-30T05:34:20Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Thomas Schneider, Ajith Suresh, Hossein Yalame</p>
-    <p><b>Summary:</b> In August 2021, Liu et al. (IEEE TIFS'21) proposed a privacy-enhanced
-framework named PEFL to efficiently detect poisoning behaviours in Federated
-Learning (FL) using homomorphic encryption. In this article, we show that PEFL
-does not preserve privacy. In particular, we illustrate that PEFL reveals the
-entire gradient vector of all users in clear to one of the participating
-entities, thereby violating privacy. Furthermore, we clearly show that an
-immediate fix for this issue is still insufficient to achieve privacy by
-pointing out multiple flaws in the proposed system.
-  Note: Although our privacy issues mentioned in Section II have been published
-in January 2023 (Schneider et. al., IEEE TIFS'23), several subsequent papers
-continued to reference Liu et al. (IEEE TIFS'21) as a potential solution for
-private federated learning. While a few works have acknowledged the privacy
-concerns we raised, several of subsequent works either propagate these errors
-or adopt the constructions from Liu et al. (IEEE TIFS'21), thereby
-unintentionally inheriting the same privacy vulnerabilities. We believe this
-oversight is partly due to the limited visibility of our comments paper at
-TIFS'23 (Schneider et. al., IEEE TIFS'23). Consequently, to prevent the
-continued propagation of the flawed algorithms in Liu et al. (IEEE TIFS'21)
-into future research, we also put this article to an ePrint.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2409.19756v1">Advances in Privacy Preserving Federated Learning to Realize a Truly
-  Learning Healthcare System</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
-  <p><b>Published on:</b> 2024-09-29T20:02:40Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ravi Madduri, Zilinghan Li, Tarak Nandi, Kibaek Kim, Minseok Ryu, Alex Rodriguez</p>
-    <p><b>Summary:</b> The concept of a learning healthcare system (LHS) envisions a self-improving
-network where multimodal data from patient care are continuously analyzed to
-enhance future healthcare outcomes. However, realizing this vision faces
-significant challenges in data sharing and privacy protection.
-Privacy-Preserving Federated Learning (PPFL) is a transformative and promising
-approach that has the potential to address these challenges by enabling
-collaborative learning from decentralized data while safeguarding patient
-privacy. This paper proposes a vision for integrating PPFL into the healthcare
-ecosystem to achieve a truly LHS as defined by the Institute of Medicine (IOM)
-Roundtable.</p>
   </details>
 </div>
 
