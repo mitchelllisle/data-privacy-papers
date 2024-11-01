@@ -2775,5 +2775,60 @@
       "cs.CR",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.24066v1",
+    "title" : "Cough-E: A multimodal, privacy-preserving cough detection algorithm for\n  the edge",
+    "summary" : "Continuous cough monitors can greatly aid doctors in home monitoring and\ntreatment of respiratory diseases. Although many algorithms have been proposed,\nthey still face limitations in data privacy and short-term monitoring. Edge-AI\noffers a promising solution by processing privacy-sensitive data near the\nsource, but challenges arise in deploying resource-intensive algorithms on\nconstrained devices. From a suitable selection of audio and kinematic signals,\nour methodology aims at the optimal selection of features via Recursive Feature\nElimination with Cross-Validation (RFECV), which exploits the explainability of\nthe selected XGB model. Additionally, it analyzes the use of Mel spectrogram\nfeatures, instead of the more common MFCC. Moreover, a set of hyperparameters\nfor a multimodal implementation of the classifier is explored. Finally, it\nevaluates the performance based on clinically relevant event-based metrics. We\napply our methodology to develop Cough-E, an energy-efficient, multimodal and\nedge AI cough detection algorithm. It exploits audio and kinematic data in two\ndistinct classifiers, jointly cooperating for a balanced energy and performance\ntrade-off. We demonstrate that our algorithm can be executed in real-time on an\nARM Cortex M33 microcontroller. Cough-E achieves a 70.56\\% energy saving when\ncompared to the audio-only approach, at the cost of a 1.26\\% relative\nperformance drop, resulting in a 0.78 F1-score. Both Cough-E and the edge-aware\nmodel optimization methodology are publicly available as open-source code. This\napproach demonstrates the benefits of the proposed hardware-aware methodology\nto enable privacy-preserving cough monitors on the edge, paving the way to\nefficient cough monitoring.",
+    "updated" : "2024-10-31T16:00:19Z",
+    "published" : "2024-10-31T16:00:19Z",
+    "authors" : [
+      {
+        "name" : "Stefano Albini"
+      },
+      {
+        "name" : "Lara Orlandic"
+      },
+      {
+        "name" : "Jonathan Dan"
+      },
+      {
+        "name" : "Jérôme Thevenot"
+      },
+      {
+        "name" : "Tomas Teijeiro"
+      },
+      {
+        "name" : "Denisa Andreea Constantinescu"
+      },
+      {
+        "name" : "David Atienza"
+      }
+    ],
+    "categories" : [
+      "eess.AS",
+      "eess.SP"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.23759v1",
+    "title" : "Converting BPMN Diagrams to Privacy Calculus",
+    "summary" : "The ecosystem of Privacy Calculus is a formal framework for privacy\ncomprising (a) the Privacy Calculus, a Turing-complete language of\nmessage-exchanging processes based on the pi-calculus, (b) a privacy policy\nlanguage, and (c) a type checker that checks adherence of Privacy Calculus\nterms to privacy policies. BPMN is a standard for the graphical description of\nbusiness processes which aims to be understandable by all business users, from\nthose with no technical background to those implementing software. This paper\npresents how (a subset of) BPMN diagrams can be converted to Privacy Calculus\nterms, in the hope that it will serve as a small piece of larger workflows for\nbuilding privacy-preserving software. The conversion is described\nmathematically in the paper, but has also been implemented as a software tool.",
+    "updated" : "2024-10-31T09:25:23Z",
+    "published" : "2024-10-31T09:25:23Z",
+    "authors" : [
+      {
+        "name" : "Georgios V. Pitsiladis"
+      },
+      {
+        "name" : "Petros S. Stefaneas"
+      }
+    ],
+    "categories" : [
+      "cs.LO",
+      "cs.CY",
+      "cs.SE",
+      "K.4.1;D.2.4;F.3.1;I.2.2"
+    ]
   }
 ]
