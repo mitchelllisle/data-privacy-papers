@@ -2,6 +2,63 @@
 <h2>2024-10</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.24066v1">Cough-E: A multimodal, privacy-preserving cough detection algorithm for
+  the edge</a></h3>
+   
+  <p><b>Published on:</b> 2024-10-31T16:00:19Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Stefano Albini, Lara Orlandic, Jonathan Dan, Jérôme Thevenot, Tomas Teijeiro, Denisa Andreea Constantinescu, David Atienza</p>
+    <p><b>Summary:</b> Continuous cough monitors can greatly aid doctors in home monitoring and
+treatment of respiratory diseases. Although many algorithms have been proposed,
+they still face limitations in data privacy and short-term monitoring. Edge-AI
+offers a promising solution by processing privacy-sensitive data near the
+source, but challenges arise in deploying resource-intensive algorithms on
+constrained devices. From a suitable selection of audio and kinematic signals,
+our methodology aims at the optimal selection of features via Recursive Feature
+Elimination with Cross-Validation (RFECV), which exploits the explainability of
+the selected XGB model. Additionally, it analyzes the use of Mel spectrogram
+features, instead of the more common MFCC. Moreover, a set of hyperparameters
+for a multimodal implementation of the classifier is explored. Finally, it
+evaluates the performance based on clinically relevant event-based metrics. We
+apply our methodology to develop Cough-E, an energy-efficient, multimodal and
+edge AI cough detection algorithm. It exploits audio and kinematic data in two
+distinct classifiers, jointly cooperating for a balanced energy and performance
+trade-off. We demonstrate that our algorithm can be executed in real-time on an
+ARM Cortex M33 microcontroller. Cough-E achieves a 70.56\% energy saving when
+compared to the audio-only approach, at the cost of a 1.26\% relative
+performance drop, resulting in a 0.78 F1-score. Both Cough-E and the edge-aware
+model optimization methodology are publicly available as open-source code. This
+approach demonstrates the benefits of the proposed hardware-aware methodology
+to enable privacy-preserving cough monitors on the edge, paving the way to
+efficient cough monitoring.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2410.23759v1">Converting BPMN Diagrams to Privacy Calculus</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Logic in Computer Science-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36"> 
+  <p><b>Published on:</b> 2024-10-31T09:25:23Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Georgios V. Pitsiladis, Petros S. Stefaneas</p>
+    <p><b>Summary:</b> The ecosystem of Privacy Calculus is a formal framework for privacy
+comprising (a) the Privacy Calculus, a Turing-complete language of
+message-exchanging processes based on the pi-calculus, (b) a privacy policy
+language, and (c) a type checker that checks adherence of Privacy Calculus
+terms to privacy policies. BPMN is a standard for the graphical description of
+business processes which aims to be understandable by all business users, from
+those with no technical background to those implementing software. This paper
+presents how (a subset of) BPMN diagrams can be converted to Privacy Calculus
+terms, in the hope that it will serve as a small piece of larger workflows for
+building privacy-preserving software. The conversion is described
+mathematically in the paper, but has also been implemented as a software tool.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2410.22784v1">Contrastive Learning and Adversarial Disentanglement for
   Privacy-Preserving Task-Oriented Semantic Communications</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36">  
@@ -2783,64 +2840,6 @@ compared to the original data. In contrast to prior work, the framework
 exhibits a high degree of flexibility as it is metric- and task-agnostic, can
 be applied to both binary or non-binary protected attributes, and demonstrates
 efficient runtime.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.00751v1">Thinking Outside of the Differential Privacy Box: A Case Study in Text
-  Privatization with Language Model Prompting</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2024-10-01T14:46:15Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Stephen Meisenbacher, Florian Matthes</p>
-    <p><b>Summary:</b> The field of privacy-preserving Natural Language Processing has risen in
-popularity, particularly at a time when concerns about privacy grow with the
-proliferation of Large Language Models. One solution consistently appearing in
-recent literature has been the integration of Differential Privacy (DP) into
-NLP techniques. In this paper, we take these approaches into critical view,
-discussing the restrictions that DP integration imposes, as well as bring to
-light the challenges that such restrictions entail. To accomplish this, we
-focus on $\textbf{DP-Prompt}$, a recent method for text privatization
-leveraging language models to rewrite texts. In particular, we explore this
-rewriting task in multiple scenarios, both with DP and without DP. To drive the
-discussion on the merits of DP in NLP, we conduct empirical utility and privacy
-experiments. Our results demonstrate the need for more discussion on the
-usability of DP in NLP and its benefits over non-DP approaches.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.00542v1">Differentially Private Active Learning: Balancing Effective Data
-  Selection and Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-10-01T09:34:06Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Kristian Schwethelm, Johannes Kaiser, Jonas Kuntzer, Mehmet Yigitsoy, Daniel Rueckert, Georgios Kaissis</p>
-    <p><b>Summary:</b> Active learning (AL) is a widely used technique for optimizing data labeling
-in machine learning by iteratively selecting, labeling, and training on the
-most informative data. However, its integration with formal privacy-preserving
-methods, particularly differential privacy (DP), remains largely underexplored.
-While some works have explored differentially private AL for specialized
-scenarios like online learning, the fundamental challenge of combining AL with
-DP in standard learning settings has remained unaddressed, severely limiting
-AL's applicability in privacy-sensitive domains. This work addresses this gap
-by introducing differentially private active learning (DP-AL) for standard
-learning settings. We demonstrate that naively integrating DP-SGD training into
-AL presents substantial challenges in privacy budget allocation and data
-utilization. To overcome these challenges, we propose step amplification, which
-leverages individual sampling probabilities in batch creation to maximize data
-point participation in training steps, thus optimizing data utilization.
-Additionally, we investigate the effectiveness of various acquisition functions
-for data selection under privacy constraints, revealing that many commonly used
-functions become impractical. Our experiments on vision and natural language
-processing tasks show that DP-AL can improve performance for specific datasets
-and model architectures. However, our findings also highlight the limitations
-of AL in privacy-constrained environments, emphasizing the trade-offs between
-privacy, model accuracy, and data selection accuracy.</p>
   </details>
 </div>
 
