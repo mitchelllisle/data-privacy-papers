@@ -1273,7 +1273,7 @@ hinders performance in private learning.</p>
   <p><b>Published on:</b> 2024-10-18T17:01:14Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Saka Suleiman, Sanchari Das</p>
+    <p><b>Authors:</b> Suleiman Saka, Sanchari Das</p>
     <p><b>Summary:</b> The widespread adoption of telehealth systems has led to a significant
 increase in the use of healthcare apps among older adults, but this rapid
 growth has also heightened concerns about the privacy of their health
