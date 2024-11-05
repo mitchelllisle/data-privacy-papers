@@ -1,1 +1,233 @@
-[{"id":"http://arxiv.org/abs/2411.01583v1","title":"Trustworthy Federated Learning: Privacy, Security, and Beyond","summary":"While recent years have witnessed the advancement in big data and Artificial\nIntelligence (AI), it is of much importance to safeguard data privacy and\nsecurity. As an innovative approach, Federated Learning (FL) addresses these\nconcerns by facilitating collaborative model training across distributed data\nsources without transferring raw data. However, the challenges of robust\nsecurity and privacy across decentralized networks catch significant attention\nin dealing with the distributed data in FL. In this paper, we conduct an\nextensive survey of the security and privacy issues prevalent in FL,\nunderscoring the vulnerability of communication links and the potential for\ncyber threats. We delve into various defensive strategies to mitigate these\nrisks, explore the applications of FL across different sectors, and propose\nresearch directions. We identify the intricate security challenges that arise\nwithin the FL frameworks, aiming to contribute to the development of secure and\nefficient FL systems.","updated":"2024-11-03T14:18:01Z","published":"2024-11-03T14:18:01Z","authors":[{"name":"Chunlu Chen"},{"name":"Ji Liu"},{"name":"Haowen Tan"},{"name":"Xingjian Li"},{"name":"Kevin I-Kai Wang"},{"name":"Peng Li"},{"name":"Kouichi Sakurai"},{"name":"Dejing Dou"}],"categories":["cs.CR","cs.AI","cs.DC"]},{"id":"http://arxiv.org/abs/2411.01471v1","title":"A Practical and Privacy-Preserving Framework for Real-World Large\n  Language Model Services","summary":"Large language models (LLMs) have demonstrated exceptional capabilities in\ntext understanding and generation, and they are increasingly being utilized\nacross various domains to enhance productivity. However, due to the high costs\nof training and maintaining these models, coupled with the fact that some LLMs\nare proprietary, individuals often rely on online AI as a Service (AIaaS)\nprovided by LLM companies. This business model poses significant privacy risks,\nas service providers may exploit users' trace patterns and behavioral data. In\nthis paper, we propose a practical and privacy-preserving framework that\nensures user anonymity by preventing service providers from linking requests to\nthe individuals who submit them. Our framework is built on partially blind\nsignatures, which guarantee the unlinkability of user requests. Furthermore, we\nintroduce two strategies tailored to both subscription-based and API-based\nservice models, ensuring the protection of both users' privacy and service\nproviders' interests. The framework is designed to integrate seamlessly with\nexisting LLM systems, as it does not require modifications to the underlying\narchitectures. Experimental results demonstrate that our framework incurs\nminimal computation and communication overhead, making it a feasible solution\nfor real-world applications.","updated":"2024-11-03T07:40:28Z","published":"2024-11-03T07:40:28Z","authors":[{"name":"Yu Mao"},{"name":"Xueping Liao"},{"name":"Wei Liu"},{"name":"Anjia Yang"}],"categories":["cs.CR"]},{"id":"http://arxiv.org/abs/2411.01447v1","title":"Privacy-Preserving Customer Churn Prediction Model in the Context of\n  Telecommunication Industry","summary":"Data is the main fuel of a successful machine learning model. A dataset may\ncontain sensitive individual records e.g. personal health records, financial\ndata, industrial information, etc. Training a model using this sensitive data\nhas become a new privacy concern when someone uses third-party cloud computing.\nTrained models also suffer privacy attacks which leads to the leaking of\nsensitive information of the training data. This study is conducted to preserve\nthe privacy of training data in the context of customer churn prediction\nmodeling for the telecommunications industry (TCI). In this work, we propose a\nframework for privacy-preserving customer churn prediction (PPCCP) model in the\ncloud environment. We have proposed a novel approach which is a combination of\nGenerative Adversarial Networks (GANs) and adaptive Weight-of-Evidence (aWOE).\nSynthetic data is generated from GANs, and aWOE is applied on the synthetic\ntraining dataset before feeding the data to the classification algorithms. Our\nexperiments were carried out using eight different machine learning (ML)\nclassifiers on three openly accessible datasets from the telecommunication\nsector. We then evaluated the performance using six commonly employed\nevaluation metrics. In addition to presenting a data privacy analysis, we also\nperformed a statistical significance test. The training and prediction\nprocesses achieve data privacy and the prediction classifiers achieve high\nprediction performance (87.1\\% in terms of F-Measure for GANs-aWOE based\nNa\\\"{\\i}ve Bayes model). In contrast to earlier studies, our suggested approach\ndemonstrates a prediction enhancement of up to 28.9\\% and 27.9\\% in terms of\naccuracy and F-measure, respectively.","updated":"2024-11-03T06:08:59Z","published":"2024-11-03T06:08:59Z","authors":[{"name":"Joydeb Kumar Sana"},{"name":"M Sohel Rahman"},{"name":"M Saifur Rahman"}],"categories":["cs.LG","cs.CR"]},{"id":"http://arxiv.org/abs/2411.01357v1","title":"WaKA: Data Attribution using K-Nearest Neighbors and Membership Privacy\n  Principles","summary":"In this paper, we introduce WaKA (Wasserstein K-nearest neighbors\nAttribution), a novel attribution method that leverages principles from the\nLiRA (Likelihood Ratio Attack) framework and applies them to \\( k \\)-nearest\nneighbors classifiers (\\( k \\)-NN). WaKA efficiently measures the contribution\nof individual data points to the model's loss distribution, analyzing every\npossible \\( k \\)-NN that can be constructed using the training set, without\nrequiring sampling or shadow model training. WaKA can be used \\emph{a\nposteriori} as a membership inference attack (MIA) to assess privacy risks, and\n\\emph{a priori} for data minimization and privacy influence measurement. Thus,\nWaKA can be seen as bridging the gap between data attribution and membership\ninference attack (MIA) literature by distinguishing between the value of a data\npoint and its privacy risk. For instance, we show that self-attribution values\nare more strongly correlated with the attack success rate than the contribution\nof a point to model generalization. WaKA's different usages were also evaluated\nacross diverse real-world datasets, demonstrating performance very close to\nLiRA when used as an MIA on \\( k \\)-NN classifiers, but with greater\ncomputational efficiency.","updated":"2024-11-02T20:27:51Z","published":"2024-11-02T20:27:51Z","authors":[{"name":"Patrick Mesana"},{"name":"Clément Bénesse"},{"name":"Hadrien Lautraite"},{"name":"Gilles Caporossi"},{"name":"Sébastien Gambs"}],"categories":["cs.LG","cs.CR"]},{"id":"http://arxiv.org/abs/2411.01344v1","title":"Can Humans Oversee Agents to Prevent Privacy Leakage? A Study on Privacy\n  Awareness, Preferences, and Trust in Language Model Agents","summary":"Language model (LM) agents that act on users' behalf for personal tasks can\nboost productivity, but are also susceptible to unintended privacy leakage\nrisks. We present the first study on people's capacity to oversee the privacy\nimplications of the LM agents. By conducting a task-based survey (N=300), we\ninvestigate how people react to and assess the response generated by LM agents\nfor asynchronous interpersonal communication tasks, compared with a response\nthey wrote. We found that people may favor the agent response with more privacy\nleakage over the response they drafted or consider both good, leading to an\nincreased harmful disclosure from 15.7% to 55.0%. We further uncovered distinct\npatterns of privacy behaviors, attitudes, and preferences, and the nuanced\ninteractions between privacy considerations and other factors. Our findings\nshed light on designing agentic systems that enable privacy-preserving\ninteractions and achieve bidirectional alignment on privacy preferences to help\nusers calibrate trust.","updated":"2024-11-02T19:15:42Z","published":"2024-11-02T19:15:42Z","authors":[{"name":"Zhiping Zhang"},{"name":"Bingcan Guo"},{"name":"Tianshi Li"}],"categories":["cs.HC","cs.AI","cs.CR"]},{"id":"http://arxiv.org/abs/2411.01308v1","title":"ECG-PPS: Privacy Preserving Disease Diagnosis and Monitoring System for\n  Real-Time ECG Signal","summary":"This study introduces the development of a state of the art, real time ECG\nmonitoring and analysis system, incorporating cutting edge medical technology\nand innovative data security measures. Our system performs three distinct\nfunctions thaat real time ECG monitoring and disease detection, encrypted\nstorage and synchronized visualization, and statistical analysis on encrypted\ndata. At its core, the system uses a three lead ECG preamplifier connected\nthrough a serial port to capture, display, and record real time ECG data. These\nsignals are securely stored in the cloud using robust encryption methods.\nAuthorized medical personnel can access and decrypt this data on their\ncomputers, with AES encryption ensuring synchronized real time data tracking\nand visualization. Furthermore, the system performs statistical operations on\nthe ECG data stored in the cloud without decrypting it, using Fully Homomorphic\nEncryption (FHE). This enables privacy preserving data analysis while ensuring\nthe security and confidentiality of patient information. By integrating these\nindependent functions, our system significantly enhances the security and\nefficiency of health monitoring. It supports critical tasks such as disease\ndetection, patient monitoring, and preliminary intervention, all while\nupholding stringent data privacy standards. We provided detailed discussions on\nthe system's architecture, hardware configuration, software implementation, and\nclinical performance. The results highlight the potential of this system to\nimprove patient care through secure and efficient ECG monitoring and analysis.\nThis work represents a significant leap forward in medical technology. By\nincorporating FHE into both data transmission and storage processes, we ensure\ncontinuous encryption of data throughout its lifecycle while enabling real time\ndisease diagnosis.","updated":"2024-11-02T17:03:25Z","published":"2024-11-02T17:03:25Z","authors":[{"name":"Beyazit Bestami Yuksel"},{"name":"Ayse Yilmazer Metin"}],"categories":["cs.CR"]},{"id":"http://arxiv.org/abs/2411.01140v1","title":"Privacy-Preserving Federated Learning with Differentially Private\n  Hyperdimensional Computing","summary":"Federated Learning (FL) is essential for efficient data exchange in Internet\nof Things (IoT) environments, as it trains Machine Learning (ML) models locally\nand shares only model updates. However, FL is vulnerable to privacy threats\nlike model inversion and membership inference attacks, which can expose\nsensitive training data. To address these privacy concerns, Differential\nPrivacy (DP) mechanisms are often applied. Yet, adding DP noise to black-box ML\nmodels degrades performance, especially in dynamic IoT systems where\ncontinuous, lifelong FL learning accumulates excessive noise over time. To\nmitigate this issue, we introduce Federated HyperDimensional computing with\nPrivacy-preserving (FedHDPrivacy), an eXplainable Artificial Intelligence (XAI)\nframework that combines the neuro-symbolic paradigm with DP. FedHDPrivacy\ncarefully manages the balance between privacy and performance by theoretically\ntracking cumulative noise from previous rounds and adding only the necessary\nincremental noise to meet privacy requirements. In a real-world case study\ninvolving in-process monitoring of manufacturing machining operations,\nFedHDPrivacy demonstrates robust performance, outperforming standard FL\nframeworks-including Federated Averaging (FedAvg), Federated Stochastic\nGradient Descent (FedSGD), Federated Proximal (FedProx), Federated Normalized\nAveraging (FedNova), and Federated Adam (FedAdam)-by up to 38%. FedHDPrivacy\nalso shows potential for future enhancements, such as multimodal data fusion.","updated":"2024-11-02T05:00:44Z","published":"2024-11-02T05:00:44Z","authors":[{"name":"Fardin Jalil Piran"},{"name":"Zhiling Chen"},{"name":"Mohsen Imani"},{"name":"Farhad Imani"}],"categories":["cs.LG","cs.AI","cs.CR","stat.ML"]},{"id":"http://arxiv.org/abs/2411.01076v1","title":"Privacy Risks of Speculative Decoding in Large Language Models","summary":"Speculative decoding in large language models (LLMs) accelerates token\ngeneration by speculatively predicting multiple tokens cheaply and verifying\nthem in parallel, and has been widely deployed. In this paper, we provide the\nfirst study demonstrating the privacy risks of speculative decoding. We observe\nthat input-dependent patterns of correct and incorrect predictions can be\nleaked out to an adversary monitoring token generation times and packet sizes,\nleading to privacy breaches. By observing the pattern of correctly and\nincorrectly speculated tokens, we show that a malicious adversary can\nfingerprint queries and learn private user inputs with more than $90\\%$\naccuracy across three different speculative decoding techniques - BiLD (almost\n$100\\%$ accuracy), LADE (up to $92\\%$ accuracy), and REST (up to $95\\%$\naccuracy). We show that an adversary can also leak out confidential\nintellectual property used to design these techniques, such as data from\ndata-stores used for prediction (in REST) at a rate of more than $25$ tokens\nper second, or even hyper-parameters used for prediction (in LADE). We also\ndiscuss mitigation strategies, such as aggregating tokens across multiple\niterations and padding packets with additional bytes, to avoid such privacy or\nconfidentiality breaches.","updated":"2024-11-01T23:14:30Z","published":"2024-11-01T23:14:30Z","authors":[{"name":"Jiankun Wei"},{"name":"Abdulrahman Abdulrazzag"},{"name":"Tianchen Zhang"},{"name":"Adel Muursepp"},{"name":"Gururaj Saileshwar"}],"categories":["cs.CL","cs.AI","cs.CR","cs.DC","cs.LG"]},{"id":"http://arxiv.org/abs/2411.01050v1","title":"BACSA: A Bias-Aware Client Selection Algorithm for Privacy-Preserving\n  Federated Learning in Wireless Healthcare Networks","summary":"Federated Learning (FL) has emerged as a transformative approach in\nhealthcare, enabling collaborative model training across decentralized data\nsources while preserving user privacy. However, performance of FL rapidly\ndegrades in practical scenarios due to the inherent bias in non Independent and\nIdentically distributed (non-IID) data among participating clients, which poses\nsignificant challenges to model accuracy and generalization. Therefore, we\npropose the Bias-Aware Client Selection Algorithm (BACSA), which detects user\nbias and strategically selects clients based on their bias profiles. In\naddition, the proposed algorithm considers privacy preservation, fairness and\nconstraints of wireless network environments, making it suitable for sensitive\nhealthcare applications where Quality of Service (QoS), privacy and security\nare paramount. Our approach begins with a novel method for detecting user bias\nby analyzing model parameters and correlating them with the distribution of\nclass-specific data samples. We then formulate a mixed-integer non-linear\nclient selection problem leveraging the detected bias, alongside wireless\nnetwork constraints, to optimize FL performance. We demonstrate that BACSA\nimproves convergence and accuracy, compared to existing benchmarks, through\nevaluations on various data distributions, including Dirichlet and\nclass-constrained scenarios. Additionally, we explore the trade-offs between\naccuracy, fairness, and network constraints, indicating the adaptability and\nrobustness of BACSA to address diverse healthcare applications.","updated":"2024-11-01T21:34:43Z","published":"2024-11-01T21:34:43Z","authors":[{"name":"Sushilkumar Yadav"},{"name":"Irem Bor-Yaliniz"}],"categories":["cs.LG","cs.AI","cs.CR"]}]
+[
+  {
+    "id" : "http://arxiv.org/abs/2411.01583v1",
+    "title" : "Trustworthy Federated Learning: Privacy, Security, and Beyond",
+    "summary" : "While recent years have witnessed the advancement in big data and Artificial\nIntelligence (AI), it is of much importance to safeguard data privacy and\nsecurity. As an innovative approach, Federated Learning (FL) addresses these\nconcerns by facilitating collaborative model training across distributed data\nsources without transferring raw data. However, the challenges of robust\nsecurity and privacy across decentralized networks catch significant attention\nin dealing with the distributed data in FL. In this paper, we conduct an\nextensive survey of the security and privacy issues prevalent in FL,\nunderscoring the vulnerability of communication links and the potential for\ncyber threats. We delve into various defensive strategies to mitigate these\nrisks, explore the applications of FL across different sectors, and propose\nresearch directions. We identify the intricate security challenges that arise\nwithin the FL frameworks, aiming to contribute to the development of secure and\nefficient FL systems.",
+    "updated" : "2024-11-03T14:18:01Z",
+    "published" : "2024-11-03T14:18:01Z",
+    "authors" : [
+      {
+        "name" : "Chunlu Chen"
+      },
+      {
+        "name" : "Ji Liu"
+      },
+      {
+        "name" : "Haowen Tan"
+      },
+      {
+        "name" : "Xingjian Li"
+      },
+      {
+        "name" : "Kevin I-Kai Wang"
+      },
+      {
+        "name" : "Peng Li"
+      },
+      {
+        "name" : "Kouichi Sakurai"
+      },
+      {
+        "name" : "Dejing Dou"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.01471v1",
+    "title" : "A Practical and Privacy-Preserving Framework for Real-World Large\n  Language Model Services",
+    "summary" : "Large language models (LLMs) have demonstrated exceptional capabilities in\ntext understanding and generation, and they are increasingly being utilized\nacross various domains to enhance productivity. However, due to the high costs\nof training and maintaining these models, coupled with the fact that some LLMs\nare proprietary, individuals often rely on online AI as a Service (AIaaS)\nprovided by LLM companies. This business model poses significant privacy risks,\nas service providers may exploit users' trace patterns and behavioral data. In\nthis paper, we propose a practical and privacy-preserving framework that\nensures user anonymity by preventing service providers from linking requests to\nthe individuals who submit them. Our framework is built on partially blind\nsignatures, which guarantee the unlinkability of user requests. Furthermore, we\nintroduce two strategies tailored to both subscription-based and API-based\nservice models, ensuring the protection of both users' privacy and service\nproviders' interests. The framework is designed to integrate seamlessly with\nexisting LLM systems, as it does not require modifications to the underlying\narchitectures. Experimental results demonstrate that our framework incurs\nminimal computation and communication overhead, making it a feasible solution\nfor real-world applications.",
+    "updated" : "2024-11-03T07:40:28Z",
+    "published" : "2024-11-03T07:40:28Z",
+    "authors" : [
+      {
+        "name" : "Yu Mao"
+      },
+      {
+        "name" : "Xueping Liao"
+      },
+      {
+        "name" : "Wei Liu"
+      },
+      {
+        "name" : "Anjia Yang"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.01447v1",
+    "title" : "Privacy-Preserving Customer Churn Prediction Model in the Context of\n  Telecommunication Industry",
+    "summary" : "Data is the main fuel of a successful machine learning model. A dataset may\ncontain sensitive individual records e.g. personal health records, financial\ndata, industrial information, etc. Training a model using this sensitive data\nhas become a new privacy concern when someone uses third-party cloud computing.\nTrained models also suffer privacy attacks which leads to the leaking of\nsensitive information of the training data. This study is conducted to preserve\nthe privacy of training data in the context of customer churn prediction\nmodeling for the telecommunications industry (TCI). In this work, we propose a\nframework for privacy-preserving customer churn prediction (PPCCP) model in the\ncloud environment. We have proposed a novel approach which is a combination of\nGenerative Adversarial Networks (GANs) and adaptive Weight-of-Evidence (aWOE).\nSynthetic data is generated from GANs, and aWOE is applied on the synthetic\ntraining dataset before feeding the data to the classification algorithms. Our\nexperiments were carried out using eight different machine learning (ML)\nclassifiers on three openly accessible datasets from the telecommunication\nsector. We then evaluated the performance using six commonly employed\nevaluation metrics. In addition to presenting a data privacy analysis, we also\nperformed a statistical significance test. The training and prediction\nprocesses achieve data privacy and the prediction classifiers achieve high\nprediction performance (87.1\\% in terms of F-Measure for GANs-aWOE based\nNa\\\"{\\i}ve Bayes model). In contrast to earlier studies, our suggested approach\ndemonstrates a prediction enhancement of up to 28.9\\% and 27.9\\% in terms of\naccuracy and F-measure, respectively.",
+    "updated" : "2024-11-03T06:08:59Z",
+    "published" : "2024-11-03T06:08:59Z",
+    "authors" : [
+      {
+        "name" : "Joydeb Kumar Sana"
+      },
+      {
+        "name" : "M Sohel Rahman"
+      },
+      {
+        "name" : "M Saifur Rahman"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.01357v1",
+    "title" : "WaKA: Data Attribution using K-Nearest Neighbors and Membership Privacy\n  Principles",
+    "summary" : "In this paper, we introduce WaKA (Wasserstein K-nearest neighbors\nAttribution), a novel attribution method that leverages principles from the\nLiRA (Likelihood Ratio Attack) framework and applies them to \\( k \\)-nearest\nneighbors classifiers (\\( k \\)-NN). WaKA efficiently measures the contribution\nof individual data points to the model's loss distribution, analyzing every\npossible \\( k \\)-NN that can be constructed using the training set, without\nrequiring sampling or shadow model training. WaKA can be used \\emph{a\nposteriori} as a membership inference attack (MIA) to assess privacy risks, and\n\\emph{a priori} for data minimization and privacy influence measurement. Thus,\nWaKA can be seen as bridging the gap between data attribution and membership\ninference attack (MIA) literature by distinguishing between the value of a data\npoint and its privacy risk. For instance, we show that self-attribution values\nare more strongly correlated with the attack success rate than the contribution\nof a point to model generalization. WaKA's different usages were also evaluated\nacross diverse real-world datasets, demonstrating performance very close to\nLiRA when used as an MIA on \\( k \\)-NN classifiers, but with greater\ncomputational efficiency.",
+    "updated" : "2024-11-02T20:27:51Z",
+    "published" : "2024-11-02T20:27:51Z",
+    "authors" : [
+      {
+        "name" : "Patrick Mesana"
+      },
+      {
+        "name" : "Clément Bénesse"
+      },
+      {
+        "name" : "Hadrien Lautraite"
+      },
+      {
+        "name" : "Gilles Caporossi"
+      },
+      {
+        "name" : "Sébastien Gambs"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.01344v1",
+    "title" : "Can Humans Oversee Agents to Prevent Privacy Leakage? A Study on Privacy\n  Awareness, Preferences, and Trust in Language Model Agents",
+    "summary" : "Language model (LM) agents that act on users' behalf for personal tasks can\nboost productivity, but are also susceptible to unintended privacy leakage\nrisks. We present the first study on people's capacity to oversee the privacy\nimplications of the LM agents. By conducting a task-based survey (N=300), we\ninvestigate how people react to and assess the response generated by LM agents\nfor asynchronous interpersonal communication tasks, compared with a response\nthey wrote. We found that people may favor the agent response with more privacy\nleakage over the response they drafted or consider both good, leading to an\nincreased harmful disclosure from 15.7% to 55.0%. We further uncovered distinct\npatterns of privacy behaviors, attitudes, and preferences, and the nuanced\ninteractions between privacy considerations and other factors. Our findings\nshed light on designing agentic systems that enable privacy-preserving\ninteractions and achieve bidirectional alignment on privacy preferences to help\nusers calibrate trust.",
+    "updated" : "2024-11-02T19:15:42Z",
+    "published" : "2024-11-02T19:15:42Z",
+    "authors" : [
+      {
+        "name" : "Zhiping Zhang"
+      },
+      {
+        "name" : "Bingcan Guo"
+      },
+      {
+        "name" : "Tianshi Li"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "cs.AI",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.01308v1",
+    "title" : "ECG-PPS: Privacy Preserving Disease Diagnosis and Monitoring System for\n  Real-Time ECG Signal",
+    "summary" : "This study introduces the development of a state of the art, real time ECG\nmonitoring and analysis system, incorporating cutting edge medical technology\nand innovative data security measures. Our system performs three distinct\nfunctions thaat real time ECG monitoring and disease detection, encrypted\nstorage and synchronized visualization, and statistical analysis on encrypted\ndata. At its core, the system uses a three lead ECG preamplifier connected\nthrough a serial port to capture, display, and record real time ECG data. These\nsignals are securely stored in the cloud using robust encryption methods.\nAuthorized medical personnel can access and decrypt this data on their\ncomputers, with AES encryption ensuring synchronized real time data tracking\nand visualization. Furthermore, the system performs statistical operations on\nthe ECG data stored in the cloud without decrypting it, using Fully Homomorphic\nEncryption (FHE). This enables privacy preserving data analysis while ensuring\nthe security and confidentiality of patient information. By integrating these\nindependent functions, our system significantly enhances the security and\nefficiency of health monitoring. It supports critical tasks such as disease\ndetection, patient monitoring, and preliminary intervention, all while\nupholding stringent data privacy standards. We provided detailed discussions on\nthe system's architecture, hardware configuration, software implementation, and\nclinical performance. The results highlight the potential of this system to\nimprove patient care through secure and efficient ECG monitoring and analysis.\nThis work represents a significant leap forward in medical technology. By\nincorporating FHE into both data transmission and storage processes, we ensure\ncontinuous encryption of data throughout its lifecycle while enabling real time\ndisease diagnosis.",
+    "updated" : "2024-11-02T17:03:25Z",
+    "published" : "2024-11-02T17:03:25Z",
+    "authors" : [
+      {
+        "name" : "Beyazit Bestami Yuksel"
+      },
+      {
+        "name" : "Ayse Yilmazer Metin"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.01140v1",
+    "title" : "Privacy-Preserving Federated Learning with Differentially Private\n  Hyperdimensional Computing",
+    "summary" : "Federated Learning (FL) is essential for efficient data exchange in Internet\nof Things (IoT) environments, as it trains Machine Learning (ML) models locally\nand shares only model updates. However, FL is vulnerable to privacy threats\nlike model inversion and membership inference attacks, which can expose\nsensitive training data. To address these privacy concerns, Differential\nPrivacy (DP) mechanisms are often applied. Yet, adding DP noise to black-box ML\nmodels degrades performance, especially in dynamic IoT systems where\ncontinuous, lifelong FL learning accumulates excessive noise over time. To\nmitigate this issue, we introduce Federated HyperDimensional computing with\nPrivacy-preserving (FedHDPrivacy), an eXplainable Artificial Intelligence (XAI)\nframework that combines the neuro-symbolic paradigm with DP. FedHDPrivacy\ncarefully manages the balance between privacy and performance by theoretically\ntracking cumulative noise from previous rounds and adding only the necessary\nincremental noise to meet privacy requirements. In a real-world case study\ninvolving in-process monitoring of manufacturing machining operations,\nFedHDPrivacy demonstrates robust performance, outperforming standard FL\nframeworks-including Federated Averaging (FedAvg), Federated Stochastic\nGradient Descent (FedSGD), Federated Proximal (FedProx), Federated Normalized\nAveraging (FedNova), and Federated Adam (FedAdam)-by up to 38%. FedHDPrivacy\nalso shows potential for future enhancements, such as multimodal data fusion.",
+    "updated" : "2024-11-02T05:00:44Z",
+    "published" : "2024-11-02T05:00:44Z",
+    "authors" : [
+      {
+        "name" : "Fardin Jalil Piran"
+      },
+      {
+        "name" : "Zhiling Chen"
+      },
+      {
+        "name" : "Mohsen Imani"
+      },
+      {
+        "name" : "Farhad Imani"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.01076v1",
+    "title" : "Privacy Risks of Speculative Decoding in Large Language Models",
+    "summary" : "Speculative decoding in large language models (LLMs) accelerates token\ngeneration by speculatively predicting multiple tokens cheaply and verifying\nthem in parallel, and has been widely deployed. In this paper, we provide the\nfirst study demonstrating the privacy risks of speculative decoding. We observe\nthat input-dependent patterns of correct and incorrect predictions can be\nleaked out to an adversary monitoring token generation times and packet sizes,\nleading to privacy breaches. By observing the pattern of correctly and\nincorrectly speculated tokens, we show that a malicious adversary can\nfingerprint queries and learn private user inputs with more than $90\\%$\naccuracy across three different speculative decoding techniques - BiLD (almost\n$100\\%$ accuracy), LADE (up to $92\\%$ accuracy), and REST (up to $95\\%$\naccuracy). We show that an adversary can also leak out confidential\nintellectual property used to design these techniques, such as data from\ndata-stores used for prediction (in REST) at a rate of more than $25$ tokens\nper second, or even hyper-parameters used for prediction (in LADE). We also\ndiscuss mitigation strategies, such as aggregating tokens across multiple\niterations and padding packets with additional bytes, to avoid such privacy or\nconfidentiality breaches.",
+    "updated" : "2024-11-01T23:14:30Z",
+    "published" : "2024-11-01T23:14:30Z",
+    "authors" : [
+      {
+        "name" : "Jiankun Wei"
+      },
+      {
+        "name" : "Abdulrahman Abdulrazzag"
+      },
+      {
+        "name" : "Tianchen Zhang"
+      },
+      {
+        "name" : "Adel Muursepp"
+      },
+      {
+        "name" : "Gururaj Saileshwar"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.AI",
+      "cs.CR",
+      "cs.DC",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.01050v1",
+    "title" : "BACSA: A Bias-Aware Client Selection Algorithm for Privacy-Preserving\n  Federated Learning in Wireless Healthcare Networks",
+    "summary" : "Federated Learning (FL) has emerged as a transformative approach in\nhealthcare, enabling collaborative model training across decentralized data\nsources while preserving user privacy. However, performance of FL rapidly\ndegrades in practical scenarios due to the inherent bias in non Independent and\nIdentically distributed (non-IID) data among participating clients, which poses\nsignificant challenges to model accuracy and generalization. Therefore, we\npropose the Bias-Aware Client Selection Algorithm (BACSA), which detects user\nbias and strategically selects clients based on their bias profiles. In\naddition, the proposed algorithm considers privacy preservation, fairness and\nconstraints of wireless network environments, making it suitable for sensitive\nhealthcare applications where Quality of Service (QoS), privacy and security\nare paramount. Our approach begins with a novel method for detecting user bias\nby analyzing model parameters and correlating them with the distribution of\nclass-specific data samples. We then formulate a mixed-integer non-linear\nclient selection problem leveraging the detected bias, alongside wireless\nnetwork constraints, to optimize FL performance. We demonstrate that BACSA\nimproves convergence and accuracy, compared to existing benchmarks, through\nevaluations on various data distributions, including Dirichlet and\nclass-constrained scenarios. Additionally, we explore the trade-offs between\naccuracy, fairness, and network constraints, indicating the adaptability and\nrobustness of BACSA to address diverse healthcare applications.",
+    "updated" : "2024-11-01T21:34:43Z",
+    "published" : "2024-11-01T21:34:43Z",
+    "authors" : [
+      {
+        "name" : "Sushilkumar Yadav"
+      },
+      {
+        "name" : "Irem Bor-Yaliniz"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR"
+    ]
+  }
+]
