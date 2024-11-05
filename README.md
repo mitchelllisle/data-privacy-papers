@@ -477,8 +477,7 @@ establishes a lower bound on classification accuracy.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.19548v2">FLiP: Privacy-Preserving Federated Learning based on the Principle of
-  Least Privileg</a></h3>
+  <h3><a href="http://arxiv.org/abs/2410.19548v3">Privacy-Preserving Federated Learning via Dataset Distillation</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2024-10-25T13:20:40Z</p>
   <details>
@@ -2599,247 +2598,281 @@ than the state-of-the-art work, with promising performance.</p>
 </div>
 
 
+
+<h2>2024-11</h2>
+
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.21986v1">From 5G to 6G: A Survey on Security, Privacy, and Standardization
-  Pathways</a></h3>
+  <h3><a href="http://arxiv.org/abs/2411.01583v1">Trustworthy Federated Learning: Privacy, Security, and Beyond</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
+  <p><b>Published on:</b> 2024-11-03T14:18:01Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Chunlu Chen, Ji Liu, Haowen Tan, Xingjian Li, Kevin I-Kai Wang, Peng Li, Kouichi Sakurai, Dejing Dou</p>
+    <p><b>Summary:</b> While recent years have witnessed the advancement in big data and Artificial
+Intelligence (AI), it is of much importance to safeguard data privacy and
+security. As an innovative approach, Federated Learning (FL) addresses these
+concerns by facilitating collaborative model training across distributed data
+sources without transferring raw data. However, the challenges of robust
+security and privacy across decentralized networks catch significant attention
+in dealing with the distributed data in FL. In this paper, we conduct an
+extensive survey of the security and privacy issues prevalent in FL,
+underscoring the vulnerability of communication links and the potential for
+cyber threats. We delve into various defensive strategies to mitigate these
+risks, explore the applications of FL across different sectors, and propose
+research directions. We identify the intricate security challenges that arise
+within the FL frameworks, aiming to contribute to the development of secure and
+efficient FL systems.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.01471v1">A Practical and Privacy-Preserving Framework for Real-World Large
+  Language Model Services</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-10-04T03:03:44Z</p>
+  <p><b>Published on:</b> 2024-11-03T07:40:28Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Mengmeng Yang, Youyang Qu, Thilina Ranbaduge, Chandra Thapa, Nazatul Sultan, Ming Ding, Hajime Suzuki, Wei Ni, Sharif Abuadbba, David Smith, Paul Tyler, Josef Pieprzyk, Thierry Rakotoarivelo, Xinlong Guan, Sirine M'rabet</p>
-    <p><b>Summary:</b> The vision for 6G aims to enhance network capabilities with faster data
-rates, near-zero latency, and higher capacity, supporting more connected
-devices and seamless experiences within an intelligent digital ecosystem where
-artificial intelligence (AI) plays a crucial role in network management and
-data analysis. This advancement seeks to enable immersive mixed-reality
-experiences, holographic communications, and smart city infrastructures.
-However, the expansion of 6G raises critical security and privacy concerns,
-such as unauthorized access and data breaches. This is due to the increased
-integration of IoT devices, edge computing, and AI-driven analytics. This paper
-provides a comprehensive overview of 6G protocols, focusing on security and
-privacy, identifying risks, and presenting mitigation strategies. The survey
-examines current risk assessment frameworks and advocates for tailored 6G
-solutions. We further discuss industry visions, government projects, and
-standardization efforts to balance technological innovation with robust
-security and privacy measures.</p>
+    <p><b>Authors:</b> Yu Mao, Xueping Liao, Wei Liu, Anjia Yang</p>
+    <p><b>Summary:</b> Large language models (LLMs) have demonstrated exceptional capabilities in
+text understanding and generation, and they are increasingly being utilized
+across various domains to enhance productivity. However, due to the high costs
+of training and maintaining these models, coupled with the fact that some LLMs
+are proprietary, individuals often rely on online AI as a Service (AIaaS)
+provided by LLM companies. This business model poses significant privacy risks,
+as service providers may exploit users' trace patterns and behavioral data. In
+this paper, we propose a practical and privacy-preserving framework that
+ensures user anonymity by preventing service providers from linking requests to
+the individuals who submit them. Our framework is built on partially blind
+signatures, which guarantee the unlinkability of user requests. Furthermore, we
+introduce two strategies tailored to both subscription-based and API-based
+service models, ensuring the protection of both users' privacy and service
+providers' interests. The framework is designed to integrate seamlessly with
+existing LLM systems, as it does not require modifications to the underlying
+architectures. Experimental results demonstrate that our framework incurs
+minimal computation and communication overhead, making it a feasible solution
+for real-world applications.</p>
   </details>
 </div>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.03069v1">Interactive GDPR-Compliant Privacy Policy Generation for Software
-  Applications</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
-  <p><b>Published on:</b> 2024-10-04T01:22:16Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Pattaraporn Sangaroonsilp, Hoa Khanh Dam, Omar Haggag, John Grundy</p>
-    <p><b>Summary:</b> Software applications are designed to assist users in conducting a wide range
-of tasks or interactions. They have become prevalent and play an integral part
-in people's lives in this digital era. To use those software applications,
-users are sometimes requested to provide their personal information. As privacy
-has become a significant concern and many data protection regulations exist
-worldwide, software applications must provide users with a privacy policy
-detailing how their personal information is collected and processed. We propose
-an approach that generates a comprehensive and compliant privacy policy with
-respect to the General Data Protection Regulation (GDPR) for diverse software
-applications. To support this, we first built a library of privacy clauses
-based on existing privacy policy analysis. We then developed an interactive
-rule-based system that prompts software developers with a series of questions
-and uses their answers to generate a customised privacy policy for a given
-software application. We evaluated privacy policies generated by our approach
-in terms of readability, completeness and coverage and compared them to privacy
-policies generated by three existing privacy policy generators and a Generative
-AI-based tool. Our evaluation results show that the privacy policy generated by
-our approach is the most complete and comprehensive.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.02912v1">Fine-Tuning Language Models with Differential Privacy through Adaptive
-  Noise Allocation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-10-03T19:02:50Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Xianzhi Li, Ran Zmigrod, Zhiqiang Ma, Xiaomo Liu, Xiaodan Zhu</p>
-    <p><b>Summary:</b> Language models are capable of memorizing detailed patterns and information,
-leading to a double-edged effect: they achieve impressive modeling performance
-on downstream tasks with the stored knowledge but also raise significant
-privacy concerns. Traditional differential privacy based training approaches
-offer robust safeguards by employing a uniform noise distribution across all
-parameters. However, this overlooks the distinct sensitivities and
-contributions of individual parameters in privacy protection and often results
-in suboptimal models. To address these limitations, we propose ANADP, a novel
-algorithm that adaptively allocates additive noise based on the importance of
-model parameters. We demonstrate that ANADP narrows the performance gap between
-regular fine-tuning and traditional DP fine-tuning on a series of datasets
-while maintaining the required privacy constraints.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.02547v1">Personalized Quantum Federated Learning for Privacy Image Classification</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2024-10-03T14:53:04Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jinjing Shi, Tian Chen, Shichao Zhang, Xuelong Li</p>
-    <p><b>Summary:</b> Quantum federated learning has brought about the improvement of privacy image
-classification, while the lack of personality of the client model may
-contribute to the suboptimal of quantum federated learning. A personalized
-quantum federated learning algorithm for privacy image classification is
-proposed to enhance the personality of the client model in the case of an
-imbalanced distribution of images. First, a personalized quantum federated
-learning model is constructed, in which a personalized layer is set for the
-client model to maintain the personalized parameters. Second, a personalized
-quantum federated learning algorithm is introduced to secure the information
-exchanged between the client and server.Third, the personalized federated
-learning is applied to image classification on the FashionMNIST dataset, and
-the experimental results indicate that the personalized quantum federated
-learning algorithm can obtain global and local models with excellent
-performance, even in situations where local training samples are imbalanced.
-The server's accuracy is 100% with 8 clients and a distribution parameter of
-100, outperforming the non-personalized model by 7%. The average client
-accuracy is 2.9% higher than that of the non-personalized model with 2 clients
-and a distribution parameter of 1. Compared to previous quantum federated
-learning algorithms, the proposed personalized quantum federated learning
-algorithm eliminates the need for additional local training while safeguarding
-both model and data privacy.It may facilitate broader adoption and application
-of quantum technologies, and pave the way for more secure, scalable, and
-efficient quantum distribute machine learning solutions.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.02371v1">NTU-NPU System for Voice Privacy 2024 Challenge</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2024-10-03T10:45:10Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Nikita Kuzmin, Hieu-Thi Luong, Jixun Yao, Lei Xie, Kong Aik Lee, Eng Siong Chng</p>
-    <p><b>Summary:</b> In this work, we describe our submissions for the Voice Privacy Challenge
-2024. Rather than proposing a novel speech anonymization system, we enhance the
-provided baselines to meet all required conditions and improve evaluated
-metrics. Specifically, we implement emotion embedding and experiment with WavLM
-and ECAPA2 speaker embedders for the B3 baseline. Additionally, we compare
-different speaker and prosody anonymization techniques. Furthermore, we
-introduce Mean Reversion F0 for B5, which helps to enhance privacy without a
-loss in utility. Finally, we explore disentanglement models, namely $\beta$-VAE
-and NaturalSpeech3 FACodec.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.02246v1">PFGuard: A Generative Framework with Privacy and Fairness Safeguards</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2024-10-03T06:37:16Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Soyeon Kim, Yuji Roh, Geon Heo, Steven Euijong Whang</p>
-    <p><b>Summary:</b> Generative models must ensure both privacy and fairness for Trustworthy AI.
-While these goals have been pursued separately, recent studies propose to
-combine existing privacy and fairness techniques to achieve both goals.
-However, naively combining these techniques can be insufficient due to
-privacy-fairness conflicts, where a sample in a minority group may be amplified
-for fairness, only to be suppressed for privacy. We demonstrate how these
-conflicts lead to adverse effects, such as privacy violations and unexpected
-fairness-utility tradeoffs. To mitigate these risks, we propose PFGuard, a
-generative framework with privacy and fairness safeguards, which simultaneously
-addresses privacy, fairness, and utility. By using an ensemble of multiple
-teacher models, PFGuard balances privacy-fairness conflicts between fair and
-private training stages and achieves high utility based on ensemble learning.
-Extensive experiments show that PFGuard successfully generates synthetic data
-on high-dimensional data while providing both fairness convergence and strict
-DP guarantees - the first of its kind to our knowledge.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.01068v1">Convergent Privacy Loss of Noisy-SGD without Convexity and Smoothness</a></h3>
+  <h3><a href="http://arxiv.org/abs/2411.01447v1">Privacy-Preserving Customer Churn Prediction Model in the Context of
+  Telecommunication Industry</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-10-01T20:52:08Z</p>
+  <p><b>Published on:</b> 2024-11-03T06:08:59Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Eli Chien, Pan Li</p>
-    <p><b>Summary:</b> We study the Differential Privacy (DP) guarantee of hidden-state Noisy-SGD
-algorithms over a bounded domain. Standard privacy analysis for Noisy-SGD
-assumes all internal states are revealed, which leads to a divergent R'enyi DP
-bound with respect to the number of iterations. Ye & Shokri (2022) and
-Altschuler & Talwar (2022) proved convergent bounds for smooth (strongly)
-convex losses, and raise open questions about whether these assumptions can be
-relaxed. We provide positive answers by proving convergent R'enyi DP bound for
-non-convex non-smooth losses, where we show that requiring losses to have
-H\"older continuous gradient is sufficient. We also provide a strictly better
-privacy bound compared to state-of-the-art results for smooth strongly convex
-losses. Our analysis relies on the improvement of shifted divergence analysis
-in multiple aspects, including forward Wasserstein distance tracking,
-identifying the optimal shifts allocation, and the H"older reduction lemma. Our
-results further elucidate the benefit of hidden-state analysis for DP and its
-applicability.</p>
+    <p><b>Authors:</b> Joydeb Kumar Sana, M Sohel Rahman, M Saifur Rahman</p>
+    <p><b>Summary:</b> Data is the main fuel of a successful machine learning model. A dataset may
+contain sensitive individual records e.g. personal health records, financial
+data, industrial information, etc. Training a model using this sensitive data
+has become a new privacy concern when someone uses third-party cloud computing.
+Trained models also suffer privacy attacks which leads to the leaking of
+sensitive information of the training data. This study is conducted to preserve
+the privacy of training data in the context of customer churn prediction
+modeling for the telecommunications industry (TCI). In this work, we propose a
+framework for privacy-preserving customer churn prediction (PPCCP) model in the
+cloud environment. We have proposed a novel approach which is a combination of
+Generative Adversarial Networks (GANs) and adaptive Weight-of-Evidence (aWOE).
+Synthetic data is generated from GANs, and aWOE is applied on the synthetic
+training dataset before feeding the data to the classification algorithms. Our
+experiments were carried out using eight different machine learning (ML)
+classifiers on three openly accessible datasets from the telecommunication
+sector. We then evaluated the performance using six commonly employed
+evaluation metrics. In addition to presenting a data privacy analysis, we also
+performed a statistical significance test. The training and prediction
+processes achieve data privacy and the prediction classifiers achieve high
+prediction performance (87.1\% in terms of F-Measure for GANs-aWOE based
+Na\"{\i}ve Bayes model). In contrast to earlier studies, our suggested approach
+demonstrates a prediction enhancement of up to 28.9\% and 27.9\% in terms of
+accuracy and F-measure, respectively.</p>
   </details>
 </div>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.00897v1">The Gradient of Health Data Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> 
-  <p><b>Published on:</b> 2024-10-01T17:35:18Z</p>
+  <h3><a href="http://arxiv.org/abs/2411.01357v1">WaKA: Data Attribution using K-Nearest Neighbors and Membership Privacy
+  Principles</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-11-02T20:27:51Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Baihan Lin</p>
-    <p><b>Summary:</b> In the era of digital health and artificial intelligence, the management of
-patient data privacy has become increasingly complex, with significant
-implications for global health equity and patient trust. This paper introduces
-a novel "privacy gradient" approach to health data governance, offering a more
-nuanced and adaptive framework than traditional binary privacy models. Our
-multidimensional concept considers factors such as data sensitivity,
-stakeholder relationships, purpose of use, and temporal aspects, allowing for
-context-sensitive privacy protections. Through policy analyses, ethical
-considerations, and case studies spanning adolescent health, integrated care,
-and genomic research, we demonstrate how this approach can address critical
-privacy challenges in diverse healthcare settings worldwide. The privacy
-gradient model has the potential to enhance patient engagement, improve care
-coordination, and accelerate medical research while safeguarding individual
-privacy rights. We provide policy recommendations for implementing this
-approach, considering its impact on healthcare systems, research
-infrastructures, and global health initiatives. This work aims to inform
-policymakers, healthcare leaders, and digital health innovators, contributing
-to a more equitable, trustworthy, and effective global health data ecosystem in
-the digital age.</p>
+    <p><b>Authors:</b> Patrick Mesana, Clément Bénesse, Hadrien Lautraite, Gilles Caporossi, Sébastien Gambs</p>
+    <p><b>Summary:</b> In this paper, we introduce WaKA (Wasserstein K-nearest neighbors
+Attribution), a novel attribution method that leverages principles from the
+LiRA (Likelihood Ratio Attack) framework and applies them to \( k \)-nearest
+neighbors classifiers (\( k \)-NN). WaKA efficiently measures the contribution
+of individual data points to the model's loss distribution, analyzing every
+possible \( k \)-NN that can be constructed using the training set, without
+requiring sampling or shadow model training. WaKA can be used \emph{a
+posteriori} as a membership inference attack (MIA) to assess privacy risks, and
+\emph{a priori} for data minimization and privacy influence measurement. Thus,
+WaKA can be seen as bridging the gap between data attribution and membership
+inference attack (MIA) literature by distinguishing between the value of a data
+point and its privacy risk. For instance, we show that self-attribution values
+are more strongly correlated with the attack success rate than the contribution
+of a point to model generalization. WaKA's different usages were also evaluated
+across diverse real-world datasets, demonstrating performance very close to
+LiRA when used as an MIA on \( k \)-NN classifiers, but with greater
+computational efficiency.</p>
   </details>
 </div>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.00836v1">Towards Fairness and Privacy: A Novel Data Pre-processing Optimization
-  Framework for Non-binary Protected Attributes</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2024-10-01T16:17:43Z</p>
+  <h3><a href="http://arxiv.org/abs/2411.01344v1">Can Humans Oversee Agents to Prevent Privacy Leakage? A Study on Privacy
+  Awareness, Preferences, and Trust in Language Model Agents</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-11-02T19:15:42Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Manh Khoi Duong, Stefan Conrad</p>
-    <p><b>Summary:</b> The reason behind the unfair outcomes of AI is often rooted in biased
-datasets. Therefore, this work presents a framework for addressing fairness by
-debiasing datasets containing a (non-)binary protected attribute. The framework
-proposes a combinatorial optimization problem where heuristics such as genetic
-algorithms can be used to solve for the stated fairness objectives. The
-framework addresses this by finding a data subset that minimizes a certain
-discrimination measure. Depending on a user-defined setting, the framework
-enables different use cases, such as data removal, the addition of synthetic
-data, or exclusive use of synthetic data. The exclusive use of synthetic data
-in particular enhances the framework's ability to preserve privacy while
-optimizing for fairness. In a comprehensive evaluation, we demonstrate that
-under our framework, genetic algorithms can effectively yield fairer datasets
-compared to the original data. In contrast to prior work, the framework
-exhibits a high degree of flexibility as it is metric- and task-agnostic, can
-be applied to both binary or non-binary protected attributes, and demonstrates
-efficient runtime.</p>
+    <p><b>Authors:</b> Zhiping Zhang, Bingcan Guo, Tianshi Li</p>
+    <p><b>Summary:</b> Language model (LM) agents that act on users' behalf for personal tasks can
+boost productivity, but are also susceptible to unintended privacy leakage
+risks. We present the first study on people's capacity to oversee the privacy
+implications of the LM agents. By conducting a task-based survey (N=300), we
+investigate how people react to and assess the response generated by LM agents
+for asynchronous interpersonal communication tasks, compared with a response
+they wrote. We found that people may favor the agent response with more privacy
+leakage over the response they drafted or consider both good, leading to an
+increased harmful disclosure from 15.7% to 55.0%. We further uncovered distinct
+patterns of privacy behaviors, attitudes, and preferences, and the nuanced
+interactions between privacy considerations and other factors. Our findings
+shed light on designing agentic systems that enable privacy-preserving
+interactions and achieve bidirectional alignment on privacy preferences to help
+users calibrate trust.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.01308v1">ECG-PPS: Privacy Preserving Disease Diagnosis and Monitoring System for
+  Real-Time ECG Signal</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-11-02T17:03:25Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Beyazit Bestami Yuksel, Ayse Yilmazer Metin</p>
+    <p><b>Summary:</b> This study introduces the development of a state of the art, real time ECG
+monitoring and analysis system, incorporating cutting edge medical technology
+and innovative data security measures. Our system performs three distinct
+functions thaat real time ECG monitoring and disease detection, encrypted
+storage and synchronized visualization, and statistical analysis on encrypted
+data. At its core, the system uses a three lead ECG preamplifier connected
+through a serial port to capture, display, and record real time ECG data. These
+signals are securely stored in the cloud using robust encryption methods.
+Authorized medical personnel can access and decrypt this data on their
+computers, with AES encryption ensuring synchronized real time data tracking
+and visualization. Furthermore, the system performs statistical operations on
+the ECG data stored in the cloud without decrypting it, using Fully Homomorphic
+Encryption (FHE). This enables privacy preserving data analysis while ensuring
+the security and confidentiality of patient information. By integrating these
+independent functions, our system significantly enhances the security and
+efficiency of health monitoring. It supports critical tasks such as disease
+detection, patient monitoring, and preliminary intervention, all while
+upholding stringent data privacy standards. We provided detailed discussions on
+the system's architecture, hardware configuration, software implementation, and
+clinical performance. The results highlight the potential of this system to
+improve patient care through secure and efficient ECG monitoring and analysis.
+This work represents a significant leap forward in medical technology. By
+incorporating FHE into both data transmission and storage processes, we ensure
+continuous encryption of data throughout its lifecycle while enabling real time
+disease diagnosis.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.01140v1">Privacy-Preserving Federated Learning with Differentially Private
+  Hyperdimensional Computing</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
+  <p><b>Published on:</b> 2024-11-02T05:00:44Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Fardin Jalil Piran, Zhiling Chen, Mohsen Imani, Farhad Imani</p>
+    <p><b>Summary:</b> Federated Learning (FL) is essential for efficient data exchange in Internet
+of Things (IoT) environments, as it trains Machine Learning (ML) models locally
+and shares only model updates. However, FL is vulnerable to privacy threats
+like model inversion and membership inference attacks, which can expose
+sensitive training data. To address these privacy concerns, Differential
+Privacy (DP) mechanisms are often applied. Yet, adding DP noise to black-box ML
+models degrades performance, especially in dynamic IoT systems where
+continuous, lifelong FL learning accumulates excessive noise over time. To
+mitigate this issue, we introduce Federated HyperDimensional computing with
+Privacy-preserving (FedHDPrivacy), an eXplainable Artificial Intelligence (XAI)
+framework that combines the neuro-symbolic paradigm with DP. FedHDPrivacy
+carefully manages the balance between privacy and performance by theoretically
+tracking cumulative noise from previous rounds and adding only the necessary
+incremental noise to meet privacy requirements. In a real-world case study
+involving in-process monitoring of manufacturing machining operations,
+FedHDPrivacy demonstrates robust performance, outperforming standard FL
+frameworks-including Federated Averaging (FedAvg), Federated Stochastic
+Gradient Descent (FedSGD), Federated Proximal (FedProx), Federated Normalized
+Averaging (FedNova), and Federated Adam (FedAdam)-by up to 38%. FedHDPrivacy
+also shows potential for future enhancements, such as multimodal data fusion.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.01076v1">Privacy Risks of Speculative Decoding in Large Language Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-11-01T23:14:30Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jiankun Wei, Abdulrahman Abdulrazzag, Tianchen Zhang, Adel Muursepp, Gururaj Saileshwar</p>
+    <p><b>Summary:</b> Speculative decoding in large language models (LLMs) accelerates token
+generation by speculatively predicting multiple tokens cheaply and verifying
+them in parallel, and has been widely deployed. In this paper, we provide the
+first study demonstrating the privacy risks of speculative decoding. We observe
+that input-dependent patterns of correct and incorrect predictions can be
+leaked out to an adversary monitoring token generation times and packet sizes,
+leading to privacy breaches. By observing the pattern of correctly and
+incorrectly speculated tokens, we show that a malicious adversary can
+fingerprint queries and learn private user inputs with more than $90\%$
+accuracy across three different speculative decoding techniques - BiLD (almost
+$100\%$ accuracy), LADE (up to $92\%$ accuracy), and REST (up to $95\%$
+accuracy). We show that an adversary can also leak out confidential
+intellectual property used to design these techniques, such as data from
+data-stores used for prediction (in REST) at a rate of more than $25$ tokens
+per second, or even hyper-parameters used for prediction (in LADE). We also
+discuss mitigation strategies, such as aggregating tokens across multiple
+iterations and padding packets with additional bytes, to avoid such privacy or
+confidentiality breaches.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.01050v1">BACSA: A Bias-Aware Client Selection Algorithm for Privacy-Preserving
+  Federated Learning in Wireless Healthcare Networks</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-11-01T21:34:43Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Sushilkumar Yadav, Irem Bor-Yaliniz</p>
+    <p><b>Summary:</b> Federated Learning (FL) has emerged as a transformative approach in
+healthcare, enabling collaborative model training across decentralized data
+sources while preserving user privacy. However, performance of FL rapidly
+degrades in practical scenarios due to the inherent bias in non Independent and
+Identically distributed (non-IID) data among participating clients, which poses
+significant challenges to model accuracy and generalization. Therefore, we
+propose the Bias-Aware Client Selection Algorithm (BACSA), which detects user
+bias and strategically selects clients based on their bias profiles. In
+addition, the proposed algorithm considers privacy preservation, fairness and
+constraints of wireless network environments, making it suitable for sensitive
+healthcare applications where Quality of Service (QoS), privacy and security
+are paramount. Our approach begins with a novel method for detecting user bias
+by analyzing model parameters and correlating them with the distribution of
+class-specific data samples. We then formulate a mixed-integer non-linear
+client selection problem leveraging the detected bias, alongside wireless
+network constraints, to optimize FL performance. We demonstrate that BACSA
+improves convergence and accuracy, compared to existing benchmarks, through
+evaluations on various data distributions, including Dirichlet and
+class-constrained scenarios. Additionally, we explore the trade-offs between
+accuracy, fairness, and network constraints, indicating the adaptability and
+robustness of BACSA to address diverse healthcare applications.</p>
   </details>
 </div>
 
