@@ -229,5 +229,120 @@
       "cs.AI",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.03053v1",
+    "title" : "Gradient-Guided Conditional Diffusion Models for Private Image\n  Reconstruction: Analyzing Adversarial Impacts of Differential Privacy and\n  Denoising",
+    "summary" : "We investigate the construction of gradient-guided conditional diffusion\nmodels for reconstructing private images, focusing on the adversarial interplay\nbetween differential privacy noise and the denoising capabilities of diffusion\nmodels. While current gradient-based reconstruction methods struggle with\nhigh-resolution images due to computational complexity and prior knowledge\nrequirements, we propose two novel methods that require minimal modifications\nto the diffusion model's generation process and eliminate the need for prior\nknowledge. Our approach leverages the strong image generation capabilities of\ndiffusion models to reconstruct private images starting from randomly generated\nnoise, even when a small amount of differentially private noise has been added\nto the gradients. We also conduct a comprehensive theoretical analysis of the\nimpact of differential privacy noise on the quality of reconstructed images,\nrevealing the relationship among noise magnitude, the architecture of attacked\nmodels, and the attacker's reconstruction capability. Additionally, extensive\nexperiments validate the effectiveness of our proposed methods and the accuracy\nof our theoretical findings, suggesting new directions for privacy risk\nauditing using conditional diffusion models.",
+    "updated" : "2024-11-05T12:39:21Z",
+    "published" : "2024-11-05T12:39:21Z",
+    "authors" : [
+      {
+        "name" : "Tao Huang"
+      },
+      {
+        "name" : "Jiayang Meng"
+      },
+      {
+        "name" : "Hong Chen"
+      },
+      {
+        "name" : "Guolong Zheng"
+      },
+      {
+        "name" : "Xu Yang"
+      },
+      {
+        "name" : "Xun Yi"
+      },
+      {
+        "name" : "Hua Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.02926v1",
+    "title" : "Privacy-Preserving Graph-Based Machine Learning with Fully Homomorphic\n  Encryption for Collaborative Anti-Money Laundering",
+    "summary" : "Combating money laundering has become increasingly complex with the rise of\ncybercrime and digitalization of financial transactions. Graph-based machine\nlearning techniques have emerged as promising tools for Anti-Money Laundering\n(AML) detection, capturing intricate relationships within money laundering\nnetworks. However, the effectiveness of AML solutions is hindered by data silos\nwithin financial institutions, limiting collaboration and overall efficacy.\nThis research presents a novel privacy-preserving approach for collaborative\nAML machine learning, facilitating secure data sharing across institutions and\nborders while preserving privacy and regulatory compliance. Leveraging Fully\nHomomorphic Encryption (FHE), computations are directly performed on encrypted\ndata, ensuring the confidentiality of financial data. Notably, FHE over the\nTorus (TFHE) was integrated with graph-based machine learning using Zama\nConcrete ML. The research contributes two key privacy-preserving pipelines.\nFirst, the development of a privacy-preserving Graph Neural Network (GNN)\npipeline was explored. Optimization techniques like quantization and pruning\nwere used to render the GNN FHE-compatible. Second, a privacy-preserving\ngraph-based XGBoost pipeline leveraging Graph Feature Preprocessor (GFP) was\nsuccessfully developed. Experiments demonstrated strong predictive performance,\nwith the XGBoost model consistently achieving over 99% accuracy, F1-score,\nprecision, and recall on the balanced AML dataset in both unencrypted and\nFHE-encrypted inference settings. On the imbalanced dataset, the incorporation\nof graph-based features improved the F1-score by 8%. The research highlights\nthe need to balance the trade-off between privacy and computational efficiency.",
+    "updated" : "2024-11-05T09:13:53Z",
+    "published" : "2024-11-05T09:13:53Z",
+    "authors" : [
+      {
+        "name" : "Fabrianne Effendi"
+      },
+      {
+        "name" : "Anupam Chattopadhyay"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.02622v1",
+    "title" : "Pseudo-Probability Unlearning: Towards Efficient and Privacy-Preserving\n  Machine Unlearning",
+    "summary" : "Machine unlearning--enabling a trained model to forget specific data--is\ncrucial for addressing biased data and adhering to privacy regulations like the\nGeneral Data Protection Regulation (GDPR)'s \"right to be forgotten\". Recent\nworks have paid little attention to privacy concerns, leaving the data intended\nfor forgetting vulnerable to membership inference attacks. Moreover, they often\ncome with high computational overhead. In this work, we propose\nPseudo-Probability Unlearning (PPU), a novel method that enables models to\nforget data efficiently and in a privacy-preserving manner. Our method replaces\nthe final-layer output probabilities of the neural network with\npseudo-probabilities for the data to be forgotten. These pseudo-probabilities\nfollow either a uniform distribution or align with the model's overall\ndistribution, enhancing privacy and reducing risk of membership inference\nattacks. Our optimization strategy further refines the predictive probability\ndistributions and updates the model's weights accordingly, ensuring effective\nforgetting with minimal impact on the model's overall performance. Through\ncomprehensive experiments on multiple benchmarks, our method achieves over 20%\nimprovements in forgetting error compared to the state-of-the-art.\nAdditionally, our method enhances privacy by preventing the forgotten set from\nbeing inferred to around random guesses.",
+    "updated" : "2024-11-04T21:27:06Z",
+    "published" : "2024-11-04T21:27:06Z",
+    "authors" : [
+      {
+        "name" : "Zihao Zhao"
+      },
+      {
+        "name" : "Yijiang Li"
+      },
+      {
+        "name" : "Yuchen Yang"
+      },
+      {
+        "name" : "Wenqing Zhang"
+      },
+      {
+        "name" : "Nuno Vasconcelos"
+      },
+      {
+        "name" : "Yinzhi Cao"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.01076v2",
+    "title" : "Privacy Risks of Speculative Decoding in Large Language Models",
+    "summary" : "Speculative decoding in large language models (LLMs) accelerates token\ngeneration by speculatively predicting multiple tokens cheaply and verifying\nthem in parallel, and has been widely deployed. In this paper, we provide the\nfirst study demonstrating the privacy risks of speculative decoding. We observe\nthat input-dependent patterns of correct and incorrect predictions can be\nleaked out to an adversary monitoring token generation times and packet sizes,\nleading to privacy breaches. By observing the pattern of correctly and\nincorrectly speculated tokens, we show that a malicious adversary can\nfingerprint queries and learn private user inputs with more than $90\\%$\naccuracy across three different speculative decoding techniques - REST (almost\n$100\\%$ accuracy), LADE (up to $92\\%$ accuracy), and BiLD (up to $95\\%$\naccuracy). We show that an adversary can also leak out confidential\nintellectual property used to design these techniques, such as data from\ndata-stores used for prediction (in REST) at a rate of more than $25$ tokens\nper second, or even hyper-parameters used for prediction (in LADE). We also\ndiscuss mitigation strategies, such as aggregating tokens across multiple\niterations and padding packets with additional bytes, to avoid such privacy or\nconfidentiality breaches.",
+    "updated" : "2024-11-05T15:03:45Z",
+    "published" : "2024-11-01T23:14:30Z",
+    "authors" : [
+      {
+        "name" : "Jiankun Wei"
+      },
+      {
+        "name" : "Abdulrahman Abdulrazzag"
+      },
+      {
+        "name" : "Tianchen Zhang"
+      },
+      {
+        "name" : "Adel Muursepp"
+      },
+      {
+        "name" : "Gururaj Saileshwar"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.AI",
+      "cs.CR",
+      "cs.DC",
+      "cs.LG"
+    ]
   }
 ]
