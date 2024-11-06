@@ -2508,98 +2508,104 @@ following link: https://sites.google.com/view/privacy-aware-nav.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.03925v1">C3PA: An Open Dataset of Expert-Annotated and Regulation-Aware Privacy
-  Policies to Enable Scalable Regulatory Compliance Audits</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB">
-  <p><b>Published on:</b> 2024-10-04T21:04:39Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Maaz Bin Musa, Steven M. Winston, Garrison Allen, Jacob Schiller, Kevin Moore, Sean Quick, Johnathan Melvin, Padmini Srinivasan, Mihailis E. Diamantis, Rishab Nithyanand</p>
-    <p><b>Summary:</b> The development of tools and techniques to analyze and extract organizations
-data habits from privacy policies are critical for scalable regulatory
-compliance audits. Unfortunately, these tools are becoming increasingly limited
-in their ability to identify compliance issues and fixes. After all, most were
-developed using regulation-agnostic datasets of annotated privacy policies
-obtained from a time before the introduction of landmark privacy regulations
-such as EUs GDPR and Californias CCPA. In this paper, we describe the first
-open regulation-aware dataset of expert-annotated privacy policies, C3PA (CCPA
-Privacy Policy Provision Annotations), aimed to address this challenge. C3PA
-contains over 48K expert-labeled privacy policy text segments associated with
-responses to CCPA-specific disclosure mandates from 411 unique organizations.
-We demonstrate that the C3PA dataset is uniquely suited for aiding automated
-audits of compliance with CCPA-related disclosure mandates.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.03621v1">A Global Medical Data Security and Privacy Preserving Standards
-  Identification Framework for Electronic Healthcare Consumers</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-10-04T17:22:55Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Vinaytosh Mishra, Kishu Gupta, Deepika Saxena, Ashutosh Kumar Singh</p>
-    <p><b>Summary:</b> Electronic Health Records (EHR) are crucial for the success of digital
-healthcare, with a focus on putting consumers at the center of this
-transformation. However, the digitalization of healthcare records brings along
-security and privacy risks for personal data. The major concern is that
-different countries have varying standards for the security and privacy of
-medical data. This paper proposed a novel and comprehensive framework to
-standardize these rules globally, bringing them together on a common platform.
-To support this proposal, the study reviews existing literature to understand
-the research interest in this issue. It also examines six key laws and
-standards related to security and privacy, identifying twenty concepts. The
-proposed framework utilized K-means clustering to categorize these concepts and
-identify five key factors. Finally, an Ordinal Priority Approach is applied to
-determine the preferred implementation of these factors in the context of EHRs.
-The proposed study provides a descriptive then prescriptive framework for the
-implementation of privacy and security in the context of electronic health
-records. Therefore, the findings of the proposed framework are useful for
-professionals and policymakers in improving the security and privacy associated
-with EHRs.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.03407v1">Camel: Communication-Efficient and Maliciously Secure Federated Learning
-  in the Shuffle Model of Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-10-04T13:13:44Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shuangqing Xu, Yifeng Zheng, Zhongyun Hua</p>
-    <p><b>Summary:</b> Federated learning (FL) has rapidly become a compelling paradigm that enables
-multiple clients to jointly train a model by sharing only gradient updates for
-aggregation, without revealing their local private data. In order to protect
-the gradient updates which could also be privacy-sensitive, there has been a
-line of work studying local differential privacy (LDP) mechanisms to provide a
-formal privacy guarantee. With LDP mechanisms, clients locally perturb their
-gradient updates before sharing them out for aggregation. However, such
-approaches are known for greatly degrading the model utility, due to heavy
-noise addition. To enable a better privacy-utility tradeoff, a recently
-emerging trend is to apply the shuffle model of DP in FL, which relies on an
-intermediate shuffling operation on the perturbed gradient updates to achieve
-privacy amplification. Following this trend, in this paper, we present Camel, a
-new communication-efficient and maliciously secure FL framework in the shuffle
-model of DP. Camel first departs from existing works by ambitiously supporting
-integrity check for the shuffle computation, achieving security against
-malicious adversary. Specifically, Camel builds on the trending cryptographic
-primitive of secret-shared shuffle, with custom techniques we develop for
-optimizing system-wide communication efficiency, and for lightweight integrity
-checks to harden the security of server-side computation. In addition, we also
-derive a significantly tighter bound on the privacy loss through analyzing the
-Renyi differential privacy (RDP) of the overall FL process. Extensive
-experiments demonstrate that Camel achieves better privacy-utility trade-offs
-than the state-of-the-art work, with promising performance.</p>
-  </details>
-</div>
-
-
 
 <h2>2024-11</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.03053v1">Gradient-Guided Conditional Diffusion Models for Private Image
+  Reconstruction: Analyzing Adversarial Impacts of Differential Privacy and
+  Denoising</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-11-05T12:39:21Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Tao Huang, Jiayang Meng, Hong Chen, Guolong Zheng, Xu Yang, Xun Yi, Hua Wang</p>
+    <p><b>Summary:</b> We investigate the construction of gradient-guided conditional diffusion
+models for reconstructing private images, focusing on the adversarial interplay
+between differential privacy noise and the denoising capabilities of diffusion
+models. While current gradient-based reconstruction methods struggle with
+high-resolution images due to computational complexity and prior knowledge
+requirements, we propose two novel methods that require minimal modifications
+to the diffusion model's generation process and eliminate the need for prior
+knowledge. Our approach leverages the strong image generation capabilities of
+diffusion models to reconstruct private images starting from randomly generated
+noise, even when a small amount of differentially private noise has been added
+to the gradients. We also conduct a comprehensive theoretical analysis of the
+impact of differential privacy noise on the quality of reconstructed images,
+revealing the relationship among noise magnitude, the architecture of attacked
+models, and the attacker's reconstruction capability. Additionally, extensive
+experiments validate the effectiveness of our proposed methods and the accuracy
+of our theoretical findings, suggesting new directions for privacy risk
+auditing using conditional diffusion models.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.02926v1">Privacy-Preserving Graph-Based Machine Learning with Fully Homomorphic
+  Encryption for Collaborative Anti-Money Laundering</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-11-05T09:13:53Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Fabrianne Effendi, Anupam Chattopadhyay</p>
+    <p><b>Summary:</b> Combating money laundering has become increasingly complex with the rise of
+cybercrime and digitalization of financial transactions. Graph-based machine
+learning techniques have emerged as promising tools for Anti-Money Laundering
+(AML) detection, capturing intricate relationships within money laundering
+networks. However, the effectiveness of AML solutions is hindered by data silos
+within financial institutions, limiting collaboration and overall efficacy.
+This research presents a novel privacy-preserving approach for collaborative
+AML machine learning, facilitating secure data sharing across institutions and
+borders while preserving privacy and regulatory compliance. Leveraging Fully
+Homomorphic Encryption (FHE), computations are directly performed on encrypted
+data, ensuring the confidentiality of financial data. Notably, FHE over the
+Torus (TFHE) was integrated with graph-based machine learning using Zama
+Concrete ML. The research contributes two key privacy-preserving pipelines.
+First, the development of a privacy-preserving Graph Neural Network (GNN)
+pipeline was explored. Optimization techniques like quantization and pruning
+were used to render the GNN FHE-compatible. Second, a privacy-preserving
+graph-based XGBoost pipeline leveraging Graph Feature Preprocessor (GFP) was
+successfully developed. Experiments demonstrated strong predictive performance,
+with the XGBoost model consistently achieving over 99% accuracy, F1-score,
+precision, and recall on the balanced AML dataset in both unencrypted and
+FHE-encrypted inference settings. On the imbalanced dataset, the incorporation
+of graph-based features improved the F1-score by 8%. The research highlights
+the need to balance the trade-off between privacy and computational efficiency.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.02622v1">Pseudo-Probability Unlearning: Towards Efficient and Privacy-Preserving
+  Machine Unlearning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-11-04T21:27:06Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zihao Zhao, Yijiang Li, Yuchen Yang, Wenqing Zhang, Nuno Vasconcelos, Yinzhi Cao</p>
+    <p><b>Summary:</b> Machine unlearning--enabling a trained model to forget specific data--is
+crucial for addressing biased data and adhering to privacy regulations like the
+General Data Protection Regulation (GDPR)'s "right to be forgotten". Recent
+works have paid little attention to privacy concerns, leaving the data intended
+for forgetting vulnerable to membership inference attacks. Moreover, they often
+come with high computational overhead. In this work, we propose
+Pseudo-Probability Unlearning (PPU), a novel method that enables models to
+forget data efficiently and in a privacy-preserving manner. Our method replaces
+the final-layer output probabilities of the neural network with
+pseudo-probabilities for the data to be forgotten. These pseudo-probabilities
+follow either a uniform distribution or align with the model's overall
+distribution, enhancing privacy and reducing risk of membership inference
+attacks. Our optimization strategy further refines the predictive probability
+distributions and updates the model's weights accordingly, ensuring effective
+forgetting with minimal impact on the model's overall performance. Through
+comprehensive experiments on multiple benchmarks, our method achieves over 20%
+improvements in forgetting error compared to the state-of-the-art.
+Additionally, our method enhances privacy by preventing the forgotten set from
+being inferred to around random guesses.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2411.01583v1">Trustworthy Federated Learning: Privacy, Security, and Beyond</a></h3>
@@ -2816,7 +2822,7 @@ also shows potential for future enhancements, such as multimodal data fusion.</p
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.01076v1">Privacy Risks of Speculative Decoding in Large Language Models</a></h3>
+  <h3><a href="http://arxiv.org/abs/2411.01076v2">Privacy Risks of Speculative Decoding in Large Language Models</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2024-11-01T23:14:30Z</p>
   <details>
@@ -2831,8 +2837,8 @@ leaked out to an adversary monitoring token generation times and packet sizes,
 leading to privacy breaches. By observing the pattern of correctly and
 incorrectly speculated tokens, we show that a malicious adversary can
 fingerprint queries and learn private user inputs with more than $90\%$
-accuracy across three different speculative decoding techniques - BiLD (almost
-$100\%$ accuracy), LADE (up to $92\%$ accuracy), and REST (up to $95\%$
+accuracy across three different speculative decoding techniques - REST (almost
+$100\%$ accuracy), LADE (up to $92\%$ accuracy), and BiLD (up to $95\%$
 accuracy). We show that an adversary can also leak out confidential
 intellectual property used to design these techniques, such as data from
 data-stores used for prediction (in REST) at a rate of more than $25$ tokens
