@@ -2340,176 +2340,175 @@ applications in bushfire management.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.05506v1">Privacy Vulnerabilities in Marginals-based Synthetic Data</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-10-07T21:24:22Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Steven Golob, Sikha Pentyala, Anuar Maratkhan, Martine De Cock</p>
-    <p><b>Summary:</b> When acting as a privacy-enhancing technology, synthetic data generation
-(SDG) aims to maintain a resemblance to the real data while excluding
-personally-identifiable information. Many SDG algorithms provide robust
-differential privacy (DP) guarantees to this end. However, we show that the
-strongest class of SDG algorithms--those that preserve \textit{marginal
-probabilities}, or similar statistics, from the underlying data--leak
-information about individuals that can be recovered more efficiently than
-previously understood. We demonstrate this by presenting a novel membership
-inference attack, MAMA-MIA, and evaluate it against three seminal DP SDG
-algorithms: MST, PrivBayes, and Private-GSD. MAMA-MIA leverages knowledge of
-which SDG algorithm was used, allowing it to learn information about the hidden
-data more accurately, and orders-of-magnitude faster, than other leading
-attacks. We use MAMA-MIA to lend insight into existing SDG vulnerabilities. Our
-approach went on to win the first SNAKE (SaNitization Algorithm under attacK
-... $\varepsilon$) competition.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.05033v1">Extended Functional Representation Lemma: A Tool For Privacy, Semantic
-  Representation, Caching, and Compression Design</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
-  <p><b>Published on:</b> 2024-10-07T13:33:23Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Amirreza Zamani, Mikael Skoglund</p>
-    <p><b>Summary:</b> This paper provides an overview of a problem in information-theoretic privacy
-mechanism design, addressing two scenarios in which private data is either
-observable or hidden. In each scenario, different privacy measures are used,
-including bounded mutual information and two types of per-letter privacy
-constraints. Considering the first scenario, an agent observes useful data that
-is correlated with private data, and wants to disclose the useful information
-to a user. Due to the privacy concerns, direct disclosure is prohibited. Hence,
-a privacy mechanism is designed to generate disclosed data which maximizes the
-revealed information about the useful data while satisfying a privacy
-constraint. In the second scenario, the agent has additionally access to the
-private data. We discuss how the Functional Representation Lemma, the Strong
-Functional Representation Lemma, and their extended versions are useful for
-designing low-complexity privacy mechanisms that achieve optimal
-privacy-utility trade-offs under certain constraints. Furthermore, another
-privacy design problem is presented where part of the private attribute is more
-private than the remaining part. Finally, we provide applications including
-semantic communications, caching and delivery, and compression designs, where
-the approach can be applied.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.05020v1">FRIDA: Free-Rider Detection using Privacy Attacks</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-10-07T13:20:26Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Pol G. Recasens, Ádám Horváth, Alberto Gutierrez-Torre, Jordi Torres, Josep Ll. Berral, Balázs Pejó</p>
-    <p><b>Summary:</b> Federated learning is increasingly popular as it enables multiple parties
-with limited datasets and resources to train a high-performing machine learning
-model collaboratively. However, similarly to other collaborative systems,
-federated learning is vulnerable to free-riders -- participants who do not
-contribute to the training but still benefit from the shared model. Free-riders
-not only compromise the integrity of the learning process but also slow down
-the convergence of the global model, resulting in increased costs for the
-honest participants.
-  To address this challenge, we propose FRIDA: free-rider detection using
-privacy attacks, a framework that leverages inference attacks to detect
-free-riders. Unlike traditional methods that only capture the implicit effects
-of free-riding, FRIDA directly infers details of the underlying training
-datasets, revealing characteristics that indicate free-rider behaviour. Through
-extensive experiments, we demonstrate that membership and property inference
-attacks are effective for this purpose. Our evaluation shows that FRIDA
-outperforms state-of-the-art methods, especially in non-IID settings.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.04754v1">A Comprehensive Study on GDPR-Oriented Analysis of Privacy Policies:
-  Taxonomy, Corpus and GDPR Concept Classifiers</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-10-07T05:19:12Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Peng Tang, Xin Li, Yuxin Chen, Weidong Qiu, Haochen Mei, Allison Holmes, Fenghua Li, Shujun Li</p>
-    <p><b>Summary:</b> Machine learning based classifiers that take a privacy policy as the input
-and predict relevant concepts are useful in different applications such as
-(semi-)automated compliance analysis against requirements of the EU GDPR. In
-all past studies, such classifiers produce a concept label per segment (e.g.,
-sentence or paragraph) and their performances were evaluated by using a dataset
-of labeled segments without considering the privacy policy they belong to.
-However, such an approach could overestimate the performance in real-world
-settings, where all segments in a new privacy policy are supposed to be unseen.
-Additionally, we also observed other research gaps, including the lack of a
-more complete GDPR taxonomy and the less consideration of hierarchical
-information in privacy policies. To fill such research gaps, we developed a
-more complete GDPR taxonomy, created the first corpus of labeled privacy
-policies with hierarchical information, and conducted the most comprehensive
-performance evaluation of GDPR concept classifiers for privacy policies. Our
-work leads to multiple novel findings, including the confirmed
-inappropriateness of splitting training and test sets at the segment level, the
-benefits of considering hierarchical information, and the limitations of the
-"one size fits all" approach, and the significance of testing cross-corpus
-generalizability.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.04606v1">Privacy's Peril: Unmasking the Unregulated Underground Market of Data
-  Brokers and the Suggested Framework</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-10-06T19:51:31Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Rabia Bajwa, Farah Tasnur Meem</p>
-    <p><b>Summary:</b> The internet is a common place for businesses to collect and store as much
-client data as possible and computer storage capacity has increased
-exponentially due to this trend. Businesses utilize this data to enhance
-customer satisfaction, generate revenue, boost sales, and increase profile.
-However, the emerging sector of data brokers is plagued with legal challenges.
-In part I, we will look at what a data broker is, how it collects information,
-the data industry, and some of the difficulties it encounters. In Part II, we
-will look at potential options for regulating data brokers. All options are
-provided in light of the EU General Data Protection Regulation (GDPR). In Part
-III, we shall present our analysis and findings.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.04302v1">PANav: Toward Privacy-Aware Robot Navigation via Vision-Language Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Robotics-F9C80E">
-  <p><b>Published on:</b> 2024-10-05T22:54:31Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Bangguo Yu, Hamidreza Kasaei, Ming Cao</p>
-    <p><b>Summary:</b> Navigating robots discreetly in human work environments while considering the
-possible privacy implications of robotic tasks presents significant challenges.
-Such scenarios are increasingly common, for instance, when robots transport
-sensitive objects that demand high levels of privacy in spaces crowded with
-human activities. While extensive research has been conducted on robotic path
-planning and social awareness, current robotic systems still lack the
-functionality of privacy-aware navigation in public environments. To address
-this, we propose a new framework for mobile robot navigation that leverages
-vision-language models to incorporate privacy awareness into adaptive path
-planning. Specifically, all potential paths from the starting point to the
-destination are generated using the A* algorithm. Concurrently, the
-vision-language model is used to infer the optimal path for privacy-awareness,
-given the environmental layout and the navigational instruction. This approach
-aims to minimize the robot's exposure to human activities and preserve the
-privacy of the robot and its surroundings. Experimental results on the S3DIS
-dataset demonstrate that our framework significantly enhances mobile robots'
-privacy awareness of navigation in human-shared public environments.
-Furthermore, we demonstrate the practical applicability of our framework by
-successfully navigating a robotic platform through real-world office
-environments. The supplementary video and code can be accessed via the
-following link: https://sites.google.com/view/privacy-aware-nav.</p>
-  </details>
-</div>
-
-
 
 <h2>2024-11</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.03914v1">Game-Theoretic Machine Unlearning: Mitigating Extra Privacy Leakage</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-11-06T13:47:04Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Hengzhu Liu, Tianqing Zhu, Lefeng Zhang, Ping Xiong</p>
+    <p><b>Summary:</b> With the extensive use of machine learning technologies, data providers
+encounter increasing privacy risks. Recent legislation, such as GDPR, obligates
+organizations to remove requested data and its influence from a trained model.
+Machine unlearning is an emerging technique designed to enable machine learning
+models to erase users' private information. Although several efficient machine
+unlearning schemes have been proposed, these methods still have limitations.
+First, removing the contributions of partial data may lead to model performance
+degradation. Second, discrepancies between the original and generated unlearned
+models can be exploited by attackers to obtain target sample's information,
+resulting in additional privacy leakage risks. To address above challenges, we
+proposed a game-theoretic machine unlearning algorithm that simulates the
+competitive relationship between unlearning performance and privacy protection.
+This algorithm comprises unlearning and privacy modules. The unlearning module
+possesses a loss function composed of model distance and classification error,
+which is used to derive the optimal strategy. The privacy module aims to make
+it difficult for an attacker to infer membership information from the unlearned
+data, thereby reducing the privacy leakage risk during the unlearning process.
+Additionally, the experimental results on real-world datasets demonstrate that
+this game-theoretic unlearning algorithm's effectiveness and its ability to
+generate an unlearned model with a performance similar to that of the retrained
+one while mitigating extra privacy leakage risks.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.03847v1">A Novel Access Control and Privacy-Enhancing Approach for Models in Edge
+  Computing</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-11-06T11:37:30Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Peihao Li</p>
+    <p><b>Summary:</b> With the widespread adoption of edge computing technologies and the
+increasing prevalence of deep learning models in these environments, the
+security risks and privacy threats to models and data have grown more acute.
+Attackers can exploit various techniques to illegally obtain models or misuse
+data, leading to serious issues such as intellectual property infringement and
+privacy breaches. Existing model access control technologies primarily rely on
+traditional encryption and authentication methods; however, these approaches
+exhibit significant limitations in terms of flexibility and adaptability in
+dynamic environments. Although there have been advancements in model
+watermarking techniques for marking model ownership, they remain limited in
+their ability to proactively protect intellectual property and prevent
+unauthorized access. To address these challenges, we propose a novel model
+access control method tailored for edge computing environments. This method
+leverages image style as a licensing mechanism, embedding style recognition
+into the model's operational framework to enable intrinsic access control.
+Consequently, models deployed on edge platforms are designed to correctly infer
+only on license data with specific style, rendering them ineffective on any
+other data. By restricting the input data to the edge model, this approach not
+only prevents attackers from gaining unauthorized access to the model but also
+enhances the privacy of data on terminal devices. We conducted extensive
+experiments on benchmark datasets, including MNIST, CIFAR-10, and FACESCRUB,
+and the results demonstrate that our method effectively prevents unauthorized
+access to the model while maintaining accuracy. Additionally, the model shows
+strong resistance against attacks such as forged licenses and fine-tuning.
+These results underscore the method's usability, security, and robustness.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.03730v1">NeurIPS 2023 Competition: Privacy Preserving Federated Learning Document
+  VQA</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2024-11-06T07:51:19Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Marlon Tobaben, Mohamed Ali Souibgui, Rubèn Tito, Khanh Nguyen, Raouf Kerkouche, Kangsoo Jung, Joonas Jälkö, Lei Kang, Andrey Barsky, Vincent Poulain d'Andecy, Aurélie Joseph, Aashiq Muhamed, Kevin Kuo, Virginia Smith, Yusuke Yamasaki, Takumi Fukami, Kenta Niwa, Iifan Tyou, Hiro Ishii, Rio Yokota, Ragul N, Rintu Kutum, Josep Llados, Ernest Valveny, Antti Honkela, Mario Fritz, Dimosthenis Karatzas</p>
+    <p><b>Summary:</b> The Privacy Preserving Federated Learning Document VQA (PFL-DocVQA)
+competition challenged the community to develop provably private and
+communication-efficient solutions in a federated setting for a real-life use
+case: invoice processing. The competition introduced a dataset of real invoice
+documents, along with associated questions and answers requiring information
+extraction and reasoning over the document images. Thereby, it brings together
+researchers and expertise from the document analysis, privacy, and federated
+learning communities. Participants fine-tuned a pre-trained, state-of-the-art
+Document Visual Question Answering model provided by the organizers for this
+new domain, mimicking a typical federated invoice processing setup. The base
+model is a multi-modal generative language model, and sensitive information
+could be exposed through either the visual or textual input modality.
+Participants proposed elegant solutions to reduce communication costs while
+maintaining a minimum utility threshold in track 1 and to protect all
+information from each document provider using differential privacy in track 2.
+The competition served as a new testbed for developing and testing private
+federated learning methods, simultaneously raising awareness about privacy
+within the document image analysis and recognition community. Ultimately, the
+competition analysis provides best practices and recommendations for
+successfully running privacy-focused federated learning challenges in the
+future.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.03633v1">Privacy-Preserving Resilient Vector Consensus</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
+  <p><b>Published on:</b> 2024-11-06T03:17:29Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Bing Liu, Chengcheng Zhao, Li Chai, Peng Cheng, Jiming Chen</p>
+    <p><b>Summary:</b> This paper studies privacy-preserving resilient vector consensus in
+multi-agent systems against faulty agents, where normal agents can achieve
+consensus within the convex hull of their initial states while protecting state
+vectors from being disclosed. Specifically, we consider a modification of an
+existing algorithm known as Approximate Distributed Robust Convergence Using
+Centerpoints (ADRC), i.e., Privacy-Preserving ADRC (PP-ADRC). Under PP-ADRC,
+each normal agent introduces multivariate Gaussian noise to its state during
+each iteration. We first provide sufficient conditions to ensure that all
+normal agents' states can achieve mean square convergence under PP-ADRC. Then,
+we analyze convergence accuracy from two perspectives, i.e., the Mahalanobis
+distance of the final value from its expectation and the Hausdorff distance
+based alteration of the convex hull caused by noise when only partial
+dimensions are added with noise. Then, we employ concentrated geo-privacy to
+characterize privacy preservation and conduct a thorough comparison with
+differential privacy. Finally, numerical simulations demonstrate the
+theoretical results.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.03582v1">Privacy Preserving Mechanisms for Coordinating Airspace Usage in
+  Advanced Air Mobility</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36"> 
+  <p><b>Published on:</b> 2024-11-06T00:47:54Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Chinmay Maheshwari, Maria G. Mendoza, Victoria Marie Tuck, Pan-Yang Su, Victor L. Qin, Sanjit A. Seshia, Hamsa Balakrishnan, Shankar Sastry</p>
+    <p><b>Summary:</b> Advanced Air Mobility (AAM) operations are expected to transform air
+transportation while challenging current air traffic management practices. By
+introducing a novel market-based mechanism, we address the problem of on-demand
+allocation of capacity-constrained airspace to AAM vehicles with heterogeneous
+and private valuations. We model airspace and air infrastructure as a
+collection of contiguous regions with constraints on the number of vehicles
+that simultaneously enter, stay, or exit each region. Vehicles request access
+to the airspace with trajectories spanning multiple regions at different times.
+We use the graph structure of our airspace model to formulate the allocation
+problem as a path allocation problem on a time-extended graph. To ensure the
+cost information of AAM vehicles remains private, we introduce a novel
+mechanism that allocates each vehicle a budget of "air-credits" and anonymously
+charges prices for traversing the edges of the time-extended graph. We seek to
+compute a competitive equilibrium that ensures that: (i) capacity constraints
+are satisfied, (ii) a strictly positive resource price implies that the sector
+capacity is fully utilized, and (iii) the allocation is integral and optimal
+for each AAM vehicle given current prices, without requiring access to
+individual vehicle utilities. However, a competitive equilibrium with integral
+allocations may not always exist. We provide sufficient conditions for the
+existence and computation of a fractional-competitive equilibrium, where
+allocations can be fractional. Building on these theoretical insights, we
+propose a distributed, iterative, two-step algorithm that: 1) computes a
+fractional competitive equilibrium, and 2) derives an integral allocation from
+this equilibrium. We validate the effectiveness of our approach in allocating
+trajectories for two emerging urban air mobility services: drone delivery and
+air taxis.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2411.03053v1">Gradient-Guided Conditional Diffusion Models for Private Image
@@ -2603,6 +2602,39 @@ comprehensive experiments on multiple benchmarks, our method achieves over 20%
 improvements in forgetting error compared to the state-of-the-art.
 Additionally, our method enhances privacy by preventing the forgotten set from
 being inferred to around random guesses.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.03351v1">Tabular Data Synthesis with Differential Privacy: A Survey</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
+  <p><b>Published on:</b> 2024-11-04T06:32:48Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mengmeng Yang, Chi-Hung Chi, Kwok-Yan Lam, Jie Feng, Taolin Guo, Wei Ni</p>
+    <p><b>Summary:</b> Data sharing is a prerequisite for collaborative innovation, enabling
+organizations to leverage diverse datasets for deeper insights. In real-world
+applications like FinTech and Smart Manufacturing, transactional data, often in
+tabular form, are generated and analyzed for insight generation. However, such
+datasets typically contain sensitive personal/business information, raising
+privacy concerns and regulatory risks. Data synthesis tackles this by
+generating artificial datasets that preserve the statistical characteristics of
+real data, removing direct links to individuals. However, attackers can still
+infer sensitive information using background knowledge. Differential privacy
+offers a solution by providing provable and quantifiable privacy protection.
+Consequently, differentially private data synthesis has emerged as a promising
+approach to privacy-aware data sharing. This paper provides a comprehensive
+overview of existing differentially private tabular data synthesis methods,
+highlighting the unique challenges of each generation model for generating
+tabular data under differential privacy constraints. We classify the methods
+into statistical and deep learning-based approaches based on their generation
+models, discussing them in both centralized and distributed environments. We
+evaluate and compare those methods within each category, highlighting their
+strengths and weaknesses in terms of utility, privacy, and computational
+complexity. Additionally, we present and discuss various evaluation methods for
+assessing the quality of the synthesized data, identify research gaps in the
+field and directions for future research.</p>
   </details>
 </div>
 
