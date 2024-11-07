@@ -344,5 +344,239 @@
       "cs.DC",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.03914v1",
+    "title" : "Game-Theoretic Machine Unlearning: Mitigating Extra Privacy Leakage",
+    "summary" : "With the extensive use of machine learning technologies, data providers\nencounter increasing privacy risks. Recent legislation, such as GDPR, obligates\norganizations to remove requested data and its influence from a trained model.\nMachine unlearning is an emerging technique designed to enable machine learning\nmodels to erase users' private information. Although several efficient machine\nunlearning schemes have been proposed, these methods still have limitations.\nFirst, removing the contributions of partial data may lead to model performance\ndegradation. Second, discrepancies between the original and generated unlearned\nmodels can be exploited by attackers to obtain target sample's information,\nresulting in additional privacy leakage risks. To address above challenges, we\nproposed a game-theoretic machine unlearning algorithm that simulates the\ncompetitive relationship between unlearning performance and privacy protection.\nThis algorithm comprises unlearning and privacy modules. The unlearning module\npossesses a loss function composed of model distance and classification error,\nwhich is used to derive the optimal strategy. The privacy module aims to make\nit difficult for an attacker to infer membership information from the unlearned\ndata, thereby reducing the privacy leakage risk during the unlearning process.\nAdditionally, the experimental results on real-world datasets demonstrate that\nthis game-theoretic unlearning algorithm's effectiveness and its ability to\ngenerate an unlearned model with a performance similar to that of the retrained\none while mitigating extra privacy leakage risks.",
+    "updated" : "2024-11-06T13:47:04Z",
+    "published" : "2024-11-06T13:47:04Z",
+    "authors" : [
+      {
+        "name" : "Hengzhu Liu"
+      },
+      {
+        "name" : "Tianqing Zhu"
+      },
+      {
+        "name" : "Lefeng Zhang"
+      },
+      {
+        "name" : "Ping Xiong"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.03847v1",
+    "title" : "A Novel Access Control and Privacy-Enhancing Approach for Models in Edge\n  Computing",
+    "summary" : "With the widespread adoption of edge computing technologies and the\nincreasing prevalence of deep learning models in these environments, the\nsecurity risks and privacy threats to models and data have grown more acute.\nAttackers can exploit various techniques to illegally obtain models or misuse\ndata, leading to serious issues such as intellectual property infringement and\nprivacy breaches. Existing model access control technologies primarily rely on\ntraditional encryption and authentication methods; however, these approaches\nexhibit significant limitations in terms of flexibility and adaptability in\ndynamic environments. Although there have been advancements in model\nwatermarking techniques for marking model ownership, they remain limited in\ntheir ability to proactively protect intellectual property and prevent\nunauthorized access. To address these challenges, we propose a novel model\naccess control method tailored for edge computing environments. This method\nleverages image style as a licensing mechanism, embedding style recognition\ninto the model's operational framework to enable intrinsic access control.\nConsequently, models deployed on edge platforms are designed to correctly infer\nonly on license data with specific style, rendering them ineffective on any\nother data. By restricting the input data to the edge model, this approach not\nonly prevents attackers from gaining unauthorized access to the model but also\nenhances the privacy of data on terminal devices. We conducted extensive\nexperiments on benchmark datasets, including MNIST, CIFAR-10, and FACESCRUB,\nand the results demonstrate that our method effectively prevents unauthorized\naccess to the model while maintaining accuracy. Additionally, the model shows\nstrong resistance against attacks such as forged licenses and fine-tuning.\nThese results underscore the method's usability, security, and robustness.",
+    "updated" : "2024-11-06T11:37:30Z",
+    "published" : "2024-11-06T11:37:30Z",
+    "authors" : [
+      {
+        "name" : "Peihao Li"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.03730v1",
+    "title" : "NeurIPS 2023 Competition: Privacy Preserving Federated Learning Document\n  VQA",
+    "summary" : "The Privacy Preserving Federated Learning Document VQA (PFL-DocVQA)\ncompetition challenged the community to develop provably private and\ncommunication-efficient solutions in a federated setting for a real-life use\ncase: invoice processing. The competition introduced a dataset of real invoice\ndocuments, along with associated questions and answers requiring information\nextraction and reasoning over the document images. Thereby, it brings together\nresearchers and expertise from the document analysis, privacy, and federated\nlearning communities. Participants fine-tuned a pre-trained, state-of-the-art\nDocument Visual Question Answering model provided by the organizers for this\nnew domain, mimicking a typical federated invoice processing setup. The base\nmodel is a multi-modal generative language model, and sensitive information\ncould be exposed through either the visual or textual input modality.\nParticipants proposed elegant solutions to reduce communication costs while\nmaintaining a minimum utility threshold in track 1 and to protect all\ninformation from each document provider using differential privacy in track 2.\nThe competition served as a new testbed for developing and testing private\nfederated learning methods, simultaneously raising awareness about privacy\nwithin the document image analysis and recognition community. Ultimately, the\ncompetition analysis provides best practices and recommendations for\nsuccessfully running privacy-focused federated learning challenges in the\nfuture.",
+    "updated" : "2024-11-06T07:51:19Z",
+    "published" : "2024-11-06T07:51:19Z",
+    "authors" : [
+      {
+        "name" : "Marlon Tobaben"
+      },
+      {
+        "name" : "Mohamed Ali Souibgui"
+      },
+      {
+        "name" : "Rubèn Tito"
+      },
+      {
+        "name" : "Khanh Nguyen"
+      },
+      {
+        "name" : "Raouf Kerkouche"
+      },
+      {
+        "name" : "Kangsoo Jung"
+      },
+      {
+        "name" : "Joonas Jälkö"
+      },
+      {
+        "name" : "Lei Kang"
+      },
+      {
+        "name" : "Andrey Barsky"
+      },
+      {
+        "name" : "Vincent Poulain d'Andecy"
+      },
+      {
+        "name" : "Aurélie Joseph"
+      },
+      {
+        "name" : "Aashiq Muhamed"
+      },
+      {
+        "name" : "Kevin Kuo"
+      },
+      {
+        "name" : "Virginia Smith"
+      },
+      {
+        "name" : "Yusuke Yamasaki"
+      },
+      {
+        "name" : "Takumi Fukami"
+      },
+      {
+        "name" : "Kenta Niwa"
+      },
+      {
+        "name" : "Iifan Tyou"
+      },
+      {
+        "name" : "Hiro Ishii"
+      },
+      {
+        "name" : "Rio Yokota"
+      },
+      {
+        "name" : "Ragul N"
+      },
+      {
+        "name" : "Rintu Kutum"
+      },
+      {
+        "name" : "Josep Llados"
+      },
+      {
+        "name" : "Ernest Valveny"
+      },
+      {
+        "name" : "Antti Honkela"
+      },
+      {
+        "name" : "Mario Fritz"
+      },
+      {
+        "name" : "Dimosthenis Karatzas"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.03633v1",
+    "title" : "Privacy-Preserving Resilient Vector Consensus",
+    "summary" : "This paper studies privacy-preserving resilient vector consensus in\nmulti-agent systems against faulty agents, where normal agents can achieve\nconsensus within the convex hull of their initial states while protecting state\nvectors from being disclosed. Specifically, we consider a modification of an\nexisting algorithm known as Approximate Distributed Robust Convergence Using\nCenterpoints (ADRC), i.e., Privacy-Preserving ADRC (PP-ADRC). Under PP-ADRC,\neach normal agent introduces multivariate Gaussian noise to its state during\neach iteration. We first provide sufficient conditions to ensure that all\nnormal agents' states can achieve mean square convergence under PP-ADRC. Then,\nwe analyze convergence accuracy from two perspectives, i.e., the Mahalanobis\ndistance of the final value from its expectation and the Hausdorff distance\nbased alteration of the convex hull caused by noise when only partial\ndimensions are added with noise. Then, we employ concentrated geo-privacy to\ncharacterize privacy preservation and conduct a thorough comparison with\ndifferential privacy. Finally, numerical simulations demonstrate the\ntheoretical results.",
+    "updated" : "2024-11-06T03:17:29Z",
+    "published" : "2024-11-06T03:17:29Z",
+    "authors" : [
+      {
+        "name" : "Bing Liu"
+      },
+      {
+        "name" : "Chengcheng Zhao"
+      },
+      {
+        "name" : "Li Chai"
+      },
+      {
+        "name" : "Peng Cheng"
+      },
+      {
+        "name" : "Jiming Chen"
+      }
+    ],
+    "categories" : [
+      "eess.SY",
+      "cs.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.03582v1",
+    "title" : "Privacy Preserving Mechanisms for Coordinating Airspace Usage in\n  Advanced Air Mobility",
+    "summary" : "Advanced Air Mobility (AAM) operations are expected to transform air\ntransportation while challenging current air traffic management practices. By\nintroducing a novel market-based mechanism, we address the problem of on-demand\nallocation of capacity-constrained airspace to AAM vehicles with heterogeneous\nand private valuations. We model airspace and air infrastructure as a\ncollection of contiguous regions with constraints on the number of vehicles\nthat simultaneously enter, stay, or exit each region. Vehicles request access\nto the airspace with trajectories spanning multiple regions at different times.\nWe use the graph structure of our airspace model to formulate the allocation\nproblem as a path allocation problem on a time-extended graph. To ensure the\ncost information of AAM vehicles remains private, we introduce a novel\nmechanism that allocates each vehicle a budget of \"air-credits\" and anonymously\ncharges prices for traversing the edges of the time-extended graph. We seek to\ncompute a competitive equilibrium that ensures that: (i) capacity constraints\nare satisfied, (ii) a strictly positive resource price implies that the sector\ncapacity is fully utilized, and (iii) the allocation is integral and optimal\nfor each AAM vehicle given current prices, without requiring access to\nindividual vehicle utilities. However, a competitive equilibrium with integral\nallocations may not always exist. We provide sufficient conditions for the\nexistence and computation of a fractional-competitive equilibrium, where\nallocations can be fractional. Building on these theoretical insights, we\npropose a distributed, iterative, two-step algorithm that: 1) computes a\nfractional competitive equilibrium, and 2) derives an integral allocation from\nthis equilibrium. We validate the effectiveness of our approach in allocating\ntrajectories for two emerging urban air mobility services: drone delivery and\nair taxis.",
+    "updated" : "2024-11-06T00:47:54Z",
+    "published" : "2024-11-06T00:47:54Z",
+    "authors" : [
+      {
+        "name" : "Chinmay Maheshwari"
+      },
+      {
+        "name" : "Maria G. Mendoza"
+      },
+      {
+        "name" : "Victoria Marie Tuck"
+      },
+      {
+        "name" : "Pan-Yang Su"
+      },
+      {
+        "name" : "Victor L. Qin"
+      },
+      {
+        "name" : "Sanjit A. Seshia"
+      },
+      {
+        "name" : "Hamsa Balakrishnan"
+      },
+      {
+        "name" : "Shankar Sastry"
+      }
+    ],
+    "categories" : [
+      "eess.SY",
+      "cs.SY",
+      "91B03, 91A68, 90B06, 90C27"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.03351v1",
+    "title" : "Tabular Data Synthesis with Differential Privacy: A Survey",
+    "summary" : "Data sharing is a prerequisite for collaborative innovation, enabling\norganizations to leverage diverse datasets for deeper insights. In real-world\napplications like FinTech and Smart Manufacturing, transactional data, often in\ntabular form, are generated and analyzed for insight generation. However, such\ndatasets typically contain sensitive personal/business information, raising\nprivacy concerns and regulatory risks. Data synthesis tackles this by\ngenerating artificial datasets that preserve the statistical characteristics of\nreal data, removing direct links to individuals. However, attackers can still\ninfer sensitive information using background knowledge. Differential privacy\noffers a solution by providing provable and quantifiable privacy protection.\nConsequently, differentially private data synthesis has emerged as a promising\napproach to privacy-aware data sharing. This paper provides a comprehensive\noverview of existing differentially private tabular data synthesis methods,\nhighlighting the unique challenges of each generation model for generating\ntabular data under differential privacy constraints. We classify the methods\ninto statistical and deep learning-based approaches based on their generation\nmodels, discussing them in both centralized and distributed environments. We\nevaluate and compare those methods within each category, highlighting their\nstrengths and weaknesses in terms of utility, privacy, and computational\ncomplexity. Additionally, we present and discuss various evaluation methods for\nassessing the quality of the synthesized data, identify research gaps in the\nfield and directions for future research.",
+    "updated" : "2024-11-04T06:32:48Z",
+    "published" : "2024-11-04T06:32:48Z",
+    "authors" : [
+      {
+        "name" : "Mengmeng Yang"
+      },
+      {
+        "name" : "Chi-Hung Chi"
+      },
+      {
+        "name" : "Kwok-Yan Lam"
+      },
+      {
+        "name" : "Jie Feng"
+      },
+      {
+        "name" : "Taolin Guo"
+      },
+      {
+        "name" : "Wei Ni"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.DB"
+    ]
   }
 ]
