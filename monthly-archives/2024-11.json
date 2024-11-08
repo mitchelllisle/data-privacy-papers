@@ -578,5 +578,79 @@
       "cs.AI",
       "cs.DB"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.04710v1",
+    "title" : "Differential Privacy Overview and Fundamental Techniques",
+    "summary" : "This chapter is meant to be part of the book \"Differential Privacy in\nArtificial Intelligence: From Theory to Practice\" and provides an introduction\nto Differential Privacy. It starts by illustrating various attempts to protect\ndata privacy, emphasizing where and why they failed, and providing the key\ndesiderata of a robust privacy definition. It then defines the key actors,\ntasks, and scopes that make up the domain of privacy-preserving data analysis.\nFollowing that, it formalizes the definition of Differential Privacy and its\ninherent properties, including composition, post-processing immunity, and group\nprivacy. The chapter also reviews the basic techniques and mechanisms commonly\nused to implement Differential Privacy in its pure and approximate forms.",
+    "updated" : "2024-11-07T13:52:11Z",
+    "published" : "2024-11-07T13:52:11Z",
+    "authors" : [
+      {
+        "name" : "Ferdinando Fioretto"
+      },
+      {
+        "name" : "Pascal Van Hentenryck"
+      },
+      {
+        "name" : "Juba Ziani"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.04509v1",
+    "title" : "FedDP: Privacy-preserving method based on federated learning for\n  histopathology image segmentation",
+    "summary" : "Hematoxylin and Eosin (H&E) staining of whole slide images (WSIs) is\nconsidered the gold standard for pathologists and medical practitioners for\ntumor diagnosis, surgical planning, and post-operative assessment. With the\nrapid advancement of deep learning technologies, the development of numerous\nmodels based on convolutional neural networks and transformer-based models has\nbeen applied to the precise segmentation of WSIs. However, due to privacy\nregulations and the need to protect patient confidentiality, centralized\nstorage and processing of image data are impractical. Training a centralized\nmodel directly is challenging to implement in medical settings due to these\nprivacy concerns.This paper addresses the dispersed nature and privacy\nsensitivity of medical image data by employing a federated learning framework,\nallowing medical institutions to collaboratively learn while protecting patient\nprivacy. Additionally, to address the issue of original data reconstruction\nthrough gradient inversion during the federated learning training process,\ndifferential privacy introduces noise into the model updates, preventing\nattackers from inferring the contributions of individual samples, thereby\nprotecting the privacy of the training data.Experimental results show that the\nproposed method, FedDP, minimally impacts model accuracy while effectively\nsafeguarding the privacy of cancer pathology image data, with only a slight\ndecrease in Dice, Jaccard, and Acc indices by 0.55%, 0.63%, and 0.42%,\nrespectively. This approach facilitates cross-institutional collaboration and\nknowledge sharing while protecting sensitive data privacy, providing a viable\nsolution for further research and application in the medical field.",
+    "updated" : "2024-11-07T08:02:58Z",
+    "published" : "2024-11-07T08:02:58Z",
+    "authors" : [
+      {
+        "name" : "Liangrui Pan"
+      },
+      {
+        "name" : "Mao Huang"
+      },
+      {
+        "name" : "Lian Wang"
+      },
+      {
+        "name" : "Pinle Qin"
+      },
+      {
+        "name" : "Shaoliang Peng"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.04490v1",
+    "title" : "Smoke Screens and Scapegoats: The Reality of General Data Protection\n  Regulation Compliance -- Privacy and Ethics in the Case of Replika AI",
+    "summary" : "Currently artificial intelligence (AI)-enabled chatbots are capturing the\nhearts and imaginations of the public at large. Chatbots that users can build\nand personalize, as well as pre-designed avatars ready for users' selection,\nall of these are on offer in applications to provide social companionship,\nfriends and even love. These systems, however, have demonstrated challenges on\nthe privacy and ethics front. This paper takes a critical approach towards\nexamining the intricacies of these issues within AI companion services. We\nchose Replika as a case and employed close reading to examine the service's\nprivacy policy. We additionally analyze articles from public media about the\ncompany and its practices to gain insight into the trustworthiness and\nintegrity of the information provided in the policy. The aim is to ascertain\nwhether seeming General Data Protection Regulation (GDPR) compliance equals\nreliability of required information, or whether the area of GDPR compliance in\nitself is one riddled with ethical challenges. The paper contributes to a\ngrowing body of scholarship on ethics and privacy related matters in the sphere\nof social chatbots. The results reveal that despite privacy notices, data\ncollection practices might harvest personal data without users' full awareness.\nCross-textual comparison reveals that privacy notice information does not fully\ncorrespond with other information sources.",
+    "updated" : "2024-11-07T07:36:19Z",
+    "published" : "2024-11-07T07:36:19Z",
+    "authors" : [
+      {
+        "name" : "Joni-Roy Piispanen"
+      },
+      {
+        "name" : "Tinja Myllyviita"
+      },
+      {
+        "name" : "Ville Vakkuri"
+      },
+      {
+        "name" : "Rebekah Rousi"
+      }
+    ],
+    "categories" : [
+      "cs.CY"
+    ]
   }
 ]
