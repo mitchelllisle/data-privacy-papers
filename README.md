@@ -2255,93 +2255,95 @@ practical solution for enhancing OTA-FL in resource-constrained environments.</p
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.05842v1">Privacy-aware Fully Model-Free Event-triggered Cloud-based HVAC Control</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
-  <p><b>Published on:</b> 2024-10-08T09:15:21Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zhenan Feng, Ehsan Nekouei</p>
-    <p><b>Summary:</b> Privacy is a major concern when computing-as-a-service (CaaS) platforms,
-e.g., cloud-computing platforms, are utilized for building automation, as CaaS
-platforms can infer sensitive information, such as occupancy, using the sensor
-measurements of a building. Although the existing encrypted model-based control
-algorithms can ensure the security and privacy of sensor measurements, they are
-highly complex to implement and require high computational resources, which
-result in a high cost of using CaaS platforms. To address these issues, in this
-paper, we propose an encrypted fully model-free event-triggered cloud-based
-HVAC control framework that ensures the privacy of occupancy information and
-minimizes the communication and computation overhead associated with encrypted
-HVAC control. To this end, we first develop a model-free controller for
-regulating indoor temperature and CO2 levels. We then design a model-free
-event-triggering unit which reduces the communication and computation costs of
-encrypted HVAC control using an optimal triggering policy. Finally, we evaluate
-the performance of the proposed encrypted fully model-free event-triggered
-cloud-based HVAC control framework using the TRNSYS simulator, comparing it to
-an encrypted model-based event-triggered control framework, which uses model
-predictive control to regulate the indoor climate. Our numerical results
-demonstrate that, compared to the encrypted model-based method, the proposed
-fully model-free framework improves the control performance while reducing the
-communication and computation costs. More specifically, it reduces the
-communication between the system and the CaaS platform by 64% amount, and its
-computation time is 75% less than that of the model-based control.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.05725v2">KnowledgeSG: Privacy-Preserving Synthetic Text Generation with Knowledge
-  Distillation from Server</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2024-10-08T06:42:28Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Wenhao Wang, Xiaoyu Liang, Rui Ye, Jingyi Chai, Siheng Chen, Yanfeng Wang</p>
-    <p><b>Summary:</b> The success of large language models (LLMs) facilitate many parties to
-fine-tune LLMs on their own private data. However, this practice raises privacy
-concerns due to the memorization of LLMs. Existing solutions, such as utilizing
-synthetic data for substitution, struggle to simultaneously improve performance
-and preserve privacy. They either rely on a local model for generation,
-resulting in a performance decline, or take advantage of APIs, directly
-exposing the data to API servers. To address this issue, we propose
-KnowledgeSG, a novel client-server framework which enhances synthetic data
-quality and improves model performance while ensuring privacy. We achieve this
-by learning local knowledge from the private data with differential privacy
-(DP) and distilling professional knowledge from the server. Additionally,
-inspired by federated learning, we transmit models rather than data between the
-client and server to prevent privacy leakage. Extensive experiments in medical
-and financial domains demonstrate the effectiveness of KnowledgeSG. Our code is
-now publicly available at https://github.com/wwh0411/KnowledgeSG.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.05653v1">A Blockchain-Enhanced Framework for Privacy and Data Integrity in
-  Crowdsourced Drone Services</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-10-08T03:08:47Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Junaid Akram, Ali Anaissi</p>
-    <p><b>Summary:</b> We present an innovative framework that integrates consumer-grade drones into
-bushfire management, addressing both service improvement and data privacy
-concerns under Australia's Privacy Act 1988. This system establishes a
-marketplace where bushfire management authorities, as data consumers, access
-critical information from drone operators, who serve as data providers. The
-framework employs local differential privacy to safeguard the privacy of data
-providers from all system entities, ensuring compliance with privacy standards.
-Additionally, a blockchain-based solution facilitates fair data and fee
-exchanges while maintaining immutable records for enhanced accountability.
-Validated through a proof-of-concept implementation, the framework's
-scalability and adaptability make it well-suited for large-scale, real-world
-applications in bushfire management.</p>
-  </details>
-</div>
-
-
 
 <h2>2024-11</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.04710v1">Differential Privacy Overview and Fundamental Techniques</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-11-07T13:52:11Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ferdinando Fioretto, Pascal Van Hentenryck, Juba Ziani</p>
+    <p><b>Summary:</b> This chapter is meant to be part of the book "Differential Privacy in
+Artificial Intelligence: From Theory to Practice" and provides an introduction
+to Differential Privacy. It starts by illustrating various attempts to protect
+data privacy, emphasizing where and why they failed, and providing the key
+desiderata of a robust privacy definition. It then defines the key actors,
+tasks, and scopes that make up the domain of privacy-preserving data analysis.
+Following that, it formalizes the definition of Differential Privacy and its
+inherent properties, including composition, post-processing immunity, and group
+privacy. The chapter also reviews the basic techniques and mechanisms commonly
+used to implement Differential Privacy in its pure and approximate forms.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.04509v1">FedDP: Privacy-preserving method based on federated learning for
+  histopathology image segmentation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-11-07T08:02:58Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Liangrui Pan, Mao Huang, Lian Wang, Pinle Qin, Shaoliang Peng</p>
+    <p><b>Summary:</b> Hematoxylin and Eosin (H&E) staining of whole slide images (WSIs) is
+considered the gold standard for pathologists and medical practitioners for
+tumor diagnosis, surgical planning, and post-operative assessment. With the
+rapid advancement of deep learning technologies, the development of numerous
+models based on convolutional neural networks and transformer-based models has
+been applied to the precise segmentation of WSIs. However, due to privacy
+regulations and the need to protect patient confidentiality, centralized
+storage and processing of image data are impractical. Training a centralized
+model directly is challenging to implement in medical settings due to these
+privacy concerns.This paper addresses the dispersed nature and privacy
+sensitivity of medical image data by employing a federated learning framework,
+allowing medical institutions to collaboratively learn while protecting patient
+privacy. Additionally, to address the issue of original data reconstruction
+through gradient inversion during the federated learning training process,
+differential privacy introduces noise into the model updates, preventing
+attackers from inferring the contributions of individual samples, thereby
+protecting the privacy of the training data.Experimental results show that the
+proposed method, FedDP, minimally impacts model accuracy while effectively
+safeguarding the privacy of cancer pathology image data, with only a slight
+decrease in Dice, Jaccard, and Acc indices by 0.55%, 0.63%, and 0.42%,
+respectively. This approach facilitates cross-institutional collaboration and
+knowledge sharing while protecting sensitive data privacy, providing a viable
+solution for further research and application in the medical field.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.04490v1">Smoke Screens and Scapegoats: The Reality of General Data Protection
+  Regulation Compliance -- Privacy and Ethics in the Case of Replika AI</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2024-11-07T07:36:19Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Joni-Roy Piispanen, Tinja Myllyviita, Ville Vakkuri, Rebekah Rousi</p>
+    <p><b>Summary:</b> Currently artificial intelligence (AI)-enabled chatbots are capturing the
+hearts and imaginations of the public at large. Chatbots that users can build
+and personalize, as well as pre-designed avatars ready for users' selection,
+all of these are on offer in applications to provide social companionship,
+friends and even love. These systems, however, have demonstrated challenges on
+the privacy and ethics front. This paper takes a critical approach towards
+examining the intricacies of these issues within AI companion services. We
+chose Replika as a case and employed close reading to examine the service's
+privacy policy. We additionally analyze articles from public media about the
+company and its practices to gain insight into the trustworthiness and
+integrity of the information provided in the policy. The aim is to ascertain
+whether seeming General Data Protection Regulation (GDPR) compliance equals
+reliability of required information, or whether the area of GDPR compliance in
+itself is one riddled with ethical challenges. The paper contributes to a
+growing body of scholarship on ethics and privacy related matters in the sphere
+of social chatbots. The results reveal that despite privacy notices, data
+collection practices might harvest personal data without users' full awareness.
+Cross-textual comparison reveals that privacy notice information does not fully
+correspond with other information sources.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2411.03914v1">Game-Theoretic Machine Unlearning: Mitigating Extra Privacy Leakage</a></h3>
