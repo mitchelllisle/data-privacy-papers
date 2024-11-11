@@ -1479,7 +1479,7 @@ https://github.com/CUHK-AIM-Group/DEeR.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.12514v1">Generating Synthetic Functional Data for Privacy-Preserving GPS
+  <h3><a href="http://arxiv.org/abs/2410.12514v2">Generating Synthetic Functional Data for Privacy-Preserving GPS
   Trajectories</a></h3>
   
   <p><b>Published on:</b> 2024-10-16T12:47:09Z</p>
@@ -2082,181 +2082,148 @@ trust challenges of AI.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.07414v1">Bayes-Nash Generative Privacy Protection Against Membership Inference
-  Attacks</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-10-09T20:29:04Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Tao Zhang, Rajagopal Venkatesaraman, Rajat K. De, Bradley A. Malin, Yevgeniy Vorobeychik</p>
-    <p><b>Summary:</b> An ability to share data, even in aggregated form, is critical to advancing
-both conventional and data science. However, insofar as such datasets are
-comprised of individuals, their membership in these datasets is often viewed as
-sensitive, with membership inference attacks (MIAs) threatening to violate
-their privacy. We propose a Bayesian game model for privacy-preserving
-publishing of data-sharing mechanism outputs (for example, summary statistics
-for sharing genomic data). In this game, the defender minimizes a combination
-of expected utility and privacy loss, with the latter being maximized by a
-Bayes-rational attacker. We propose a GAN-style algorithm to approximate a
-Bayes-Nash equilibrium of this game, and introduce the notions of Bayes-Nash
-generative privacy (BNGP) and Bayes generative privacy (BGP) risk that aims to
-optimally balance the defender's privacy and utility in a way that is robust to
-the attacker's heterogeneous preferences with respect to true and false
-positives. We demonstrate the properties of composition and post-processing for
-BGP risk and establish conditions under which BNGP and pure differential
-privacy (PDP) are equivalent. We apply our method to sharing summary
-statistics, where MIAs can re-identify individuals even from aggregated data.
-Theoretical analysis and empirical results demonstrate that our Bayesian
-game-theoretic method outperforms state-of-the-art approaches for
-privacy-preserving sharing of summary statistics.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.06814v1">Defending Membership Inference Attacks via Privacy-aware Sparsity Tuning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2024-10-09T12:13:49Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Qiang Hu, Hengxiang Zhang, Hongxin Wei</p>
-    <p><b>Summary:</b> Over-parameterized models are typically vulnerable to membership inference
-attacks, which aim to determine whether a specific sample is included in the
-training of a given model. Previous Weight regularizations (e.g., L1
-regularization) typically impose uniform penalties on all parameters, leading
-to a suboptimal tradeoff between model utility and privacy. In this work, we
-first show that only a small fraction of parameters substantially impact the
-privacy risk. In light of this, we propose Privacy-aware Sparsity Tuning
-(PAST), a simple fix to the L1 Regularization, by employing adaptive penalties
-to different parameters. Our key idea behind PAST is to promote sparsity in
-parameters that significantly contribute to privacy leakage. In particular, we
-construct the adaptive weight for each parameter based on its privacy
-sensitivity, i.e., the gradient of the loss gap with respect to the parameter.
-Using PAST, the network shrinks the loss gap between members and non-members,
-leading to strong resistance to privacy attacks. Extensive experiments
-demonstrate the superiority of PAST, achieving a state-of-the-art balance in
-the privacy-utility trade-off.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.06587v1">Bots can Snoop: Uncovering and Mitigating Privacy Risks of Bots in Group
-  Chats</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-10-09T06:37:41Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Kai-Hsiang Chou, Yi-Min Lin, Yi-An Wang, Jonathan Weiping Li, Tiffany Hyun-Jin Kim, Hsu-Chun Hsiao</p>
-    <p><b>Summary:</b> New privacy concerns arise with chatbots on group messaging platforms.
-Chatbots may access information beyond their intended functionalities, such as
-messages unintended for chatbots or sender's identities. Chatbot operators may
-exploit such information to infer personal information and link users across
-groups, potentially leading to personal data breaches, pervasive tracking, and
-targeted advertising. Our analysis of conversation datasets shows that (1)
-chatbots often access far more messages than needed, and (2) when a user joins
-a new group with chatbots, there is a 3.4% chance that at least one of the
-chatbots can recognize and associate the user with their previous interactions
-in other groups. Although state-of-the-art group messaging protocols provide
-robust end-to-end security and some platforms have implemented policies to
-limit chatbot access, no platforms successfully combine these features. This
-paper introduces SnoopGuard, a secure group messaging protocol that ensures
-user privacy against chatbots while maintaining strong end-to-end security. Our
-method offers selective message access, preventing chatbots from accessing
-unrelated messages, and ensures sender anonymity within the group. SnoopGuard
-achieves $O(\log n + m)$ message-sending complexity for a group of $n$ users
-and $m$ chatbots, compared to $O(\log(n + m))$ in state-of-the-art protocols,
-with acceptable overhead for enhanced privacy. Our prototype implementation
-shows that sending a message in a group of 50 users and 10 chatbots takes about
-30 milliseconds when integrated with Message Layer Security (MLS).</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.06266v1">Near Exact Privacy Amplification for Matrix Mechanisms</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-10-08T18:05:56Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Christopher A. Choquette-Choo, Arun Ganesh, Saminul Haque, Thomas Steinke, Abhradeep Thakurta</p>
-    <p><b>Summary:</b> We study the problem of computing the privacy parameters for DP machine
-learning when using privacy amplification via random batching and noise
-correlated across rounds via a correlation matrix $\textbf{C}$ (i.e., the
-matrix mechanism). Past work on this problem either only applied to banded
-$\textbf{C}$, or gave loose privacy parameters. In this work, we give a
-framework for computing near-exact privacy parameters for any lower-triangular,
-non-negative $\textbf{C}$. Our framework allows us to optimize the correlation
-matrix $\textbf{C}$ while accounting for amplification, whereas past work could
-not. Empirically, we show this lets us achieve smaller RMSE on prefix sums than
-the previous state-of-the-art (SOTA). We also show that we can improve on the
-SOTA performance on deep learning tasks. Our two main technical tools are (i)
-using Monte Carlo accounting to bypass composition, which was the main
-technical challenge for past work, and (ii) a "balls-in-bins" batching scheme
-that enables easy privacy analysis and is closer to practical random batching
-than Poisson sampling.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.05930v1">Fortify Your Foundations: Practical Privacy and Security for Foundation
-  Model Deployments In The Cloud</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2024-10-08T11:33:09Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Marcin Chrapek, Anjo Vahldiek-Oberwagner, Marcin Spoczynski, Scott Constable, Mona Vij, Torsten Hoefler</p>
-    <p><b>Summary:</b> Foundation Models (FMs) display exceptional performance in tasks such as
-natural language processing and are being applied across a growing range of
-disciplines. Although typically trained on large public datasets, FMs are often
-fine-tuned or integrated into Retrieval-Augmented Generation (RAG) systems,
-which rely on private data. This access, along with their size and costly
-training, heightens the risk of intellectual property theft. Moreover,
-multimodal FMs may expose sensitive information. In this work, we examine the
-FM threat model and discuss the practicality and comprehensiveness of various
-approaches for securing against them, such as ML-based methods and trusted
-execution environments (TEEs). We demonstrate that TEEs offer an effective
-balance between strong security properties, usability, and performance.
-Specifically, we present a solution achieving less than 10\% overhead versus
-bare metal for the full Llama2 7B and 13B inference pipelines running inside
-\intel\ SGX and \intel\ TDX. We also share our configuration files and insights
-from our implementation. To our knowledge, our work is the first to show the
-practicality of TEEs for securing FMs.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.05907v1">Privacy-Enhanced Over-the-Air Federated Learning via Client-Driven Power
-  Balancing</a></h3>
-  
-  <p><b>Published on:</b> 2024-10-08T11:05:37Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Bumjun Kim, Hyowoon Seo, Wan Choi</p>
-    <p><b>Summary:</b> This paper introduces a novel privacy-enhanced over-the-air Federated
-Learning (OTA-FL) framework using client-driven power balancing (CDPB) to
-address privacy concerns in OTA-FL systems. In recent studies, a server
-determines the power balancing based on the continuous transmission of channel
-state information (CSI) from each client. Furthermore, they concentrate on
-fulfilling privacy requirements in every global iteration, which can heighten
-the risk of privacy exposure as the learning process extends. To mitigate these
-risks, we propose two CDPB strategies -- CDPB-n (noisy) and CDPB-i (idle) --
-allowing clients to adjust transmission power independently, without sharing
-CSI. CDPB-n transmits noise during poor conditions, while CDPB-i pauses
-transmission until conditions improve. To further enhance privacy and learning
-efficiency, we show a mixed strategy, CDPB-mixed, which combines CDPB-n and
-CDPB-i. Our experimental results show that CDPB outperforms traditional
-approaches in terms of model accuracy and privacy guarantees, providing a
-practical solution for enhancing OTA-FL in resource-constrained environments.</p>
-  </details>
-</div>
-
-
 
 <h2>2024-11</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.05743v1">Free Record-Level Privacy Risk Evaluation Through Artifact-Based Methods</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-11-08T18:04:41Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Joseph Pollock, Igor Shilov, Euodia Dodd, Yves-Alexandre de Montjoye</p>
+    <p><b>Summary:</b> Membership inference attacks (MIAs) are widely used to empirically assess the
+privacy risks of samples used to train a target machine learning model.
+State-of-the-art methods however require training hundreds of shadow models,
+with the same size and architecture of the target model, solely to evaluate the
+privacy risk. While one might be able to afford this for small models, the cost
+often becomes prohibitive for medium and large models.
+  We here instead propose a novel approach to identify the at-risk samples
+using only artifacts available during training, with little to no additional
+computational overhead. Our method analyzes individual per-sample loss traces
+and uses them to identify the vulnerable data samples. We demonstrate the
+effectiveness of our artifact-based approach through experiments on the CIFAR10
+dataset, showing high precision in identifying vulnerable samples as determined
+by a SOTA shadow model-based MIA (LiRA). Impressively, our method reaches the
+same precision as another SOTA MIA when measured against LiRA, despite it being
+orders of magnitude cheaper. We then show LT-IQR to outperform alternative loss
+aggregation methods, perform ablation studies on hyperparameters, and validate
+the robustness of our method to the target metric. Finally, we study the
+evolution of the vulnerability score distribution throughout training as a
+metric for model-level risk assessment.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.05733v1">Differential Privacy Under Class Imbalance: Methods and Empirical
+  Insights</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">  
+  <p><b>Published on:</b> 2024-11-08T17:46:56Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Lucas Rosenblatt, Yuliia Lut, Eitan Turok, Marco Avella-Medina, Rachel Cummings</p>
+    <p><b>Summary:</b> Imbalanced learning occurs in classification settings where the distribution
+of class-labels is highly skewed in the training data, such as when predicting
+rare diseases or in fraud detection. This class imbalance presents a
+significant algorithmic challenge, which can be further exacerbated when
+privacy-preserving techniques such as differential privacy are applied to
+protect sensitive training data. Our work formalizes these challenges and
+provides a number of algorithmic solutions. We consider DP variants of
+pre-processing methods that privately augment the original dataset to reduce
+the class imbalance; these include oversampling, SMOTE, and private synthetic
+data generation. We also consider DP variants of in-processing techniques,
+which adjust the learning algorithm to account for the imbalance; these include
+model bagging, class-weighted empirical risk minimization and class-weighted
+deep learning. For each method, we either adapt an existing imbalanced learning
+technique to the private setting or demonstrate its incompatibility with
+differential privacy. Finally, we empirically evaluate these privacy-preserving
+imbalanced learning methods under various data and distributional settings. We
+find that private synthetic data methods perform well as a data pre-processing
+step, while class-weighted ERMs are an alternative in higher-dimensional
+settings where private synthetic data suffers from the curse of dimensionality.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.05483v1">The Limits of Differential Privacy in Online Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-11-08T11:21:31Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Bo Li, Wei Wang, Peng Ye</p>
+    <p><b>Summary:</b> Differential privacy (DP) is a formal notion that restricts the privacy
+leakage of an algorithm when running on sensitive data, in which
+privacy-utility trade-off is one of the central problems in private data
+analysis. In this work, we investigate the fundamental limits of differential
+privacy in online learning algorithms and present evidence that separates three
+types of constraints: no DP, pure DP, and approximate DP. We first describe a
+hypothesis class that is online learnable under approximate DP but not online
+learnable under pure DP under the adaptive adversarial setting. This indicates
+that approximate DP must be adopted when dealing with adaptive adversaries. We
+then prove that any private online learner must make an infinite number of
+mistakes for almost all hypothesis classes. This essentially generalizes
+previous results and shows a strong separation between private and non-private
+settings since a finite mistake bound is always attainable (as long as the
+class is online learnable) when there is no privacy requirement.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.05320v1">Privacy Protection Framework against Unauthorized Sensing in the 5.8 GHz
+  ISM Band</a></h3>
+  
+  <p><b>Published on:</b> 2024-11-08T04:25:55Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zexin Fang, Bin Han, Hans D. Schotten</p>
+    <p><b>Summary:</b> Unauthorized sensing activities pose an increasing threat to individual
+privacy, particularly in the industrial, scientific, and medical (ISM) band
+where regulatory frameworks remain limited. This paper presents a novel signal
+process methodology to monitor and counter unauthorized sensing activities.
+Specifically, we model the pedestrian trajectories as a random process. Then,
+we leverage the Cram\'er-Rao bound (CRB) to evaluate sensing performance and
+model it as sampling error of such a random process. Through simulation, we
+verify the accuracy of monitoring unauthorized sensing activities in urban
+scenarios, and validate the effectiveness of corresponding mitigation
+strategies.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.05167v1">EPIC: Enhancing Privacy through Iterative Collaboration</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-11-07T20:10:34Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Prakash Chourasia, Heramb Lonkar, Sarwan Ali, Murray Patterson</p>
+    <p><b>Summary:</b> Advancements in genomics technology lead to a rising volume of viral (e.g.,
+SARS-CoV-2) sequence data, resulting in increased usage of machine learning
+(ML) in bioinformatics. Traditional ML techniques require centralized data
+collection and processing, posing challenges in realistic healthcare scenarios.
+Additionally, privacy, ownership, and stringent regulation issues exist when
+pooling medical data into centralized storage to train a powerful deep learning
+(DL) model. The Federated learning (FL) approach overcomes such issues by
+setting up a central aggregator server and a shared global model. It also
+facilitates data privacy by extracting knowledge while keeping the actual data
+private. This work proposes a cutting-edge Privacy enhancement through
+Iterative Collaboration (EPIC) architecture. The network is divided and
+distributed between local and centralized servers. We demonstrate the EPIC
+approach to resolve a supervised classification problem to estimate SARS-CoV-2
+genomic sequence data lineage without explicitly transferring raw sequence
+data. We aim to create a universal decentralized optimization framework that
+allows various data holders to work together and converge to a single
+predictive model. The findings demonstrate that privacy-preserving strategies
+can be successfully used with aggregation approaches without materially
+altering the degree of learning convergence. Finally, we highlight a few
+potential issues and prospects for study in FL-based approaches to healthcare
+applications.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2411.04710v1">Differential Privacy Overview and Fundamental Techniques</a></h3>
@@ -2341,6 +2308,35 @@ of social chatbots. The results reveal that despite privacy notices, data
 collection practices might harvest personal data without users' full awareness.
 Cross-textual comparison reveals that privacy notice information does not fully
 correspond with other information sources.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.05034v1">Mitigating Privacy Risks in LLM Embeddings from Embedding Inversion</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2024-11-06T14:42:41Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Tiantian Liu, Hongwei Yao, Tong Wu, Zhan Qin, Feng Lin, Kui Ren, Chun Chen</p>
+    <p><b>Summary:</b> Embeddings have become a cornerstone in the functionality of large language
+models (LLMs) due to their ability to transform text data into rich, dense
+numerical representations that capture semantic and syntactic properties. These
+embedding vector databases serve as the long-term memory of LLMs, enabling
+efficient handling of a wide range of natural language processing tasks.
+However, the surge in popularity of embedding vector databases in LLMs has been
+accompanied by significant concerns about privacy leakage. Embedding vector
+databases are particularly vulnerable to embedding inversion attacks, where
+adversaries can exploit the embeddings to reverse-engineer and extract
+sensitive information from the original text data. Existing defense mechanisms
+have shown limitations, often struggling to balance security with the
+performance of downstream tasks. To address these challenges, we introduce
+Eguard, a novel defense mechanism designed to mitigate embedding inversion
+attacks. Eguard employs a transformer-based projection network and text mutual
+information optimization to safeguard embeddings while preserving the utility
+of LLMs. Our approach significantly reduces privacy risks, protecting over 95%
+of tokens from inversion while maintaining high performance across downstream
+tasks consistent with original embeddings.</p>
   </details>
 </div>
 
