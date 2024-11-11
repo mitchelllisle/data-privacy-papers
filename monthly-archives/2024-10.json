@@ -2882,5 +2882,32 @@
     "categories" : [
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.12514v2",
+    "title" : "Generating Synthetic Functional Data for Privacy-Preserving GPS\n  Trajectories",
+    "summary" : "This research presents FDASynthesis, a novel algorithm designed to generate\nsynthetic GPS trajectory data while preserving privacy. After pre-processing\nthe input GPS data, human mobility traces are modeled as multidimensional\ncurves using Functional Data Analysis (FDA). Then, the synthesis process\nidentifies the K-nearest trajectories and averages their Square-Root Velocity\nFunctions (SRVFs) to generate synthetic data. This results in synthetic\ntrajectories that maintain the utility of the original data while ensuring\nprivacy. Although applied for human mobility research, FDASynthesis is highly\nadaptable to different types of functional data, offering a scalable solution\nin various application domains.",
+    "updated" : "2024-11-08T14:18:30Z",
+    "published" : "2024-10-16T12:47:09Z",
+    "authors" : [
+      {
+        "name" : "Arianna Burzacchi"
+      },
+      {
+        "name" : "Lise Bellanger"
+      },
+      {
+        "name" : "Klervi Le Gall"
+      },
+      {
+        "name" : "Aymeric Stamm"
+      },
+      {
+        "name" : "Simone Vantini"
+      }
+    ],
+    "categories" : [
+      "stat.AP"
+    ]
   }
 ]
