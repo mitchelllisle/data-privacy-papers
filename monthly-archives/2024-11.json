@@ -652,5 +652,162 @@
     "categories" : [
       "cs.CY"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.05743v1",
+    "title" : "Free Record-Level Privacy Risk Evaluation Through Artifact-Based Methods",
+    "summary" : "Membership inference attacks (MIAs) are widely used to empirically assess the\nprivacy risks of samples used to train a target machine learning model.\nState-of-the-art methods however require training hundreds of shadow models,\nwith the same size and architecture of the target model, solely to evaluate the\nprivacy risk. While one might be able to afford this for small models, the cost\noften becomes prohibitive for medium and large models.\n  We here instead propose a novel approach to identify the at-risk samples\nusing only artifacts available during training, with little to no additional\ncomputational overhead. Our method analyzes individual per-sample loss traces\nand uses them to identify the vulnerable data samples. We demonstrate the\neffectiveness of our artifact-based approach through experiments on the CIFAR10\ndataset, showing high precision in identifying vulnerable samples as determined\nby a SOTA shadow model-based MIA (LiRA). Impressively, our method reaches the\nsame precision as another SOTA MIA when measured against LiRA, despite it being\norders of magnitude cheaper. We then show LT-IQR to outperform alternative loss\naggregation methods, perform ablation studies on hyperparameters, and validate\nthe robustness of our method to the target metric. Finally, we study the\nevolution of the vulnerability score distribution throughout training as a\nmetric for model-level risk assessment.",
+    "updated" : "2024-11-08T18:04:41Z",
+    "published" : "2024-11-08T18:04:41Z",
+    "authors" : [
+      {
+        "name" : "Joseph Pollock"
+      },
+      {
+        "name" : "Igor Shilov"
+      },
+      {
+        "name" : "Euodia Dodd"
+      },
+      {
+        "name" : "Yves-Alexandre de Montjoye"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.05733v1",
+    "title" : "Differential Privacy Under Class Imbalance: Methods and Empirical\n  Insights",
+    "summary" : "Imbalanced learning occurs in classification settings where the distribution\nof class-labels is highly skewed in the training data, such as when predicting\nrare diseases or in fraud detection. This class imbalance presents a\nsignificant algorithmic challenge, which can be further exacerbated when\nprivacy-preserving techniques such as differential privacy are applied to\nprotect sensitive training data. Our work formalizes these challenges and\nprovides a number of algorithmic solutions. We consider DP variants of\npre-processing methods that privately augment the original dataset to reduce\nthe class imbalance; these include oversampling, SMOTE, and private synthetic\ndata generation. We also consider DP variants of in-processing techniques,\nwhich adjust the learning algorithm to account for the imbalance; these include\nmodel bagging, class-weighted empirical risk minimization and class-weighted\ndeep learning. For each method, we either adapt an existing imbalanced learning\ntechnique to the private setting or demonstrate its incompatibility with\ndifferential privacy. Finally, we empirically evaluate these privacy-preserving\nimbalanced learning methods under various data and distributional settings. We\nfind that private synthetic data methods perform well as a data pre-processing\nstep, while class-weighted ERMs are an alternative in higher-dimensional\nsettings where private synthetic data suffers from the curse of dimensionality.",
+    "updated" : "2024-11-08T17:46:56Z",
+    "published" : "2024-11-08T17:46:56Z",
+    "authors" : [
+      {
+        "name" : "Lucas Rosenblatt"
+      },
+      {
+        "name" : "Yuliia Lut"
+      },
+      {
+        "name" : "Eitan Turok"
+      },
+      {
+        "name" : "Marco Avella-Medina"
+      },
+      {
+        "name" : "Rachel Cummings"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "68P27",
+      "I.2.0; F.0; G.3; J.0"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.05483v1",
+    "title" : "The Limits of Differential Privacy in Online Learning",
+    "summary" : "Differential privacy (DP) is a formal notion that restricts the privacy\nleakage of an algorithm when running on sensitive data, in which\nprivacy-utility trade-off is one of the central problems in private data\nanalysis. In this work, we investigate the fundamental limits of differential\nprivacy in online learning algorithms and present evidence that separates three\ntypes of constraints: no DP, pure DP, and approximate DP. We first describe a\nhypothesis class that is online learnable under approximate DP but not online\nlearnable under pure DP under the adaptive adversarial setting. This indicates\nthat approximate DP must be adopted when dealing with adaptive adversaries. We\nthen prove that any private online learner must make an infinite number of\nmistakes for almost all hypothesis classes. This essentially generalizes\nprevious results and shows a strong separation between private and non-private\nsettings since a finite mistake bound is always attainable (as long as the\nclass is online learnable) when there is no privacy requirement.",
+    "updated" : "2024-11-08T11:21:31Z",
+    "published" : "2024-11-08T11:21:31Z",
+    "authors" : [
+      {
+        "name" : "Bo Li"
+      },
+      {
+        "name" : "Wei Wang"
+      },
+      {
+        "name" : "Peng Ye"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.05320v1",
+    "title" : "Privacy Protection Framework against Unauthorized Sensing in the 5.8 GHz\n  ISM Band",
+    "summary" : "Unauthorized sensing activities pose an increasing threat to individual\nprivacy, particularly in the industrial, scientific, and medical (ISM) band\nwhere regulatory frameworks remain limited. This paper presents a novel signal\nprocess methodology to monitor and counter unauthorized sensing activities.\nSpecifically, we model the pedestrian trajectories as a random process. Then,\nwe leverage the Cram\\'er-Rao bound (CRB) to evaluate sensing performance and\nmodel it as sampling error of such a random process. Through simulation, we\nverify the accuracy of monitoring unauthorized sensing activities in urban\nscenarios, and validate the effectiveness of corresponding mitigation\nstrategies.",
+    "updated" : "2024-11-08T04:25:55Z",
+    "published" : "2024-11-08T04:25:55Z",
+    "authors" : [
+      {
+        "name" : "Zexin Fang"
+      },
+      {
+        "name" : "Bin Han"
+      },
+      {
+        "name" : "Hans D. Schotten"
+      }
+    ],
+    "categories" : [
+      "eess.SP"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.05167v1",
+    "title" : "EPIC: Enhancing Privacy through Iterative Collaboration",
+    "summary" : "Advancements in genomics technology lead to a rising volume of viral (e.g.,\nSARS-CoV-2) sequence data, resulting in increased usage of machine learning\n(ML) in bioinformatics. Traditional ML techniques require centralized data\ncollection and processing, posing challenges in realistic healthcare scenarios.\nAdditionally, privacy, ownership, and stringent regulation issues exist when\npooling medical data into centralized storage to train a powerful deep learning\n(DL) model. The Federated learning (FL) approach overcomes such issues by\nsetting up a central aggregator server and a shared global model. It also\nfacilitates data privacy by extracting knowledge while keeping the actual data\nprivate. This work proposes a cutting-edge Privacy enhancement through\nIterative Collaboration (EPIC) architecture. The network is divided and\ndistributed between local and centralized servers. We demonstrate the EPIC\napproach to resolve a supervised classification problem to estimate SARS-CoV-2\ngenomic sequence data lineage without explicitly transferring raw sequence\ndata. We aim to create a universal decentralized optimization framework that\nallows various data holders to work together and converge to a single\npredictive model. The findings demonstrate that privacy-preserving strategies\ncan be successfully used with aggregation approaches without materially\naltering the degree of learning convergence. Finally, we highlight a few\npotential issues and prospects for study in FL-based approaches to healthcare\napplications.",
+    "updated" : "2024-11-07T20:10:34Z",
+    "published" : "2024-11-07T20:10:34Z",
+    "authors" : [
+      {
+        "name" : "Prakash Chourasia"
+      },
+      {
+        "name" : "Heramb Lonkar"
+      },
+      {
+        "name" : "Sarwan Ali"
+      },
+      {
+        "name" : "Murray Patterson"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.05034v1",
+    "title" : "Mitigating Privacy Risks in LLM Embeddings from Embedding Inversion",
+    "summary" : "Embeddings have become a cornerstone in the functionality of large language\nmodels (LLMs) due to their ability to transform text data into rich, dense\nnumerical representations that capture semantic and syntactic properties. These\nembedding vector databases serve as the long-term memory of LLMs, enabling\nefficient handling of a wide range of natural language processing tasks.\nHowever, the surge in popularity of embedding vector databases in LLMs has been\naccompanied by significant concerns about privacy leakage. Embedding vector\ndatabases are particularly vulnerable to embedding inversion attacks, where\nadversaries can exploit the embeddings to reverse-engineer and extract\nsensitive information from the original text data. Existing defense mechanisms\nhave shown limitations, often struggling to balance security with the\nperformance of downstream tasks. To address these challenges, we introduce\nEguard, a novel defense mechanism designed to mitigate embedding inversion\nattacks. Eguard employs a transformer-based projection network and text mutual\ninformation optimization to safeguard embeddings while preserving the utility\nof LLMs. Our approach significantly reduces privacy risks, protecting over 95%\nof tokens from inversion while maintaining high performance across downstream\ntasks consistent with original embeddings.",
+    "updated" : "2024-11-06T14:42:41Z",
+    "published" : "2024-11-06T14:42:41Z",
+    "authors" : [
+      {
+        "name" : "Tiantian Liu"
+      },
+      {
+        "name" : "Hongwei Yao"
+      },
+      {
+        "name" : "Tong Wu"
+      },
+      {
+        "name" : "Zhan Qin"
+      },
+      {
+        "name" : "Feng Lin"
+      },
+      {
+        "name" : "Kui Ren"
+      },
+      {
+        "name" : "Chun Chen"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.CL"
+    ]
   }
 ]
