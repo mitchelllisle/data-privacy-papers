@@ -1831,259 +1831,241 @@ requirements of older adults.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.08553v1">Balancing Innovation and Privacy: Data Security Strategies in Natural
-  Language Processing Applications</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2024-10-11T06:05:10Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shaobo Liu, Guiran Liu, Binrong Zhu, Yuanshuai Luo, Linxiao Wu, Rui Wang</p>
-    <p><b>Summary:</b> This research addresses privacy protection in Natural Language Processing
-(NLP) by introducing a novel algorithm based on differential privacy, aimed at
-safeguarding user data in common applications such as chatbots, sentiment
-analysis, and machine translation. With the widespread application of NLP
-technology, the security and privacy protection of user data have become
-important issues that need to be solved urgently. This paper proposes a new
-privacy protection algorithm designed to effectively prevent the leakage of
-user sensitive information. By introducing a differential privacy mechanism,
-our model ensures the accuracy and reliability of data analysis results while
-adding random noise. This method not only reduces the risk caused by data
-leakage but also achieves effective processing of data while protecting user
-privacy. Compared to traditional privacy methods like data anonymization and
-homomorphic encryption, our approach offers significant advantages in terms of
-computational efficiency and scalability while maintaining high accuracy in
-data analysis. The proposed algorithm's efficacy is demonstrated through
-performance metrics such as accuracy (0.89), precision (0.85), and recall
-(0.88), outperforming other methods in balancing privacy and utility. As
-privacy protection regulations become increasingly stringent, enterprises and
-developers must take effective measures to deal with privacy risks. Our
-research provides an important reference for the application of privacy
-protection technology in the field of NLP, emphasizing the need to achieve a
-balance between technological innovation and user privacy. In the future, with
-the continuous advancement of technology, privacy protection will become a core
-element of data-driven applications and promote the healthy development of the
-entire industry.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.08462v1">Driving Privacy Forward: Mitigating Information Leakage within Smart
-  Vehicles through Synthetic Data Generation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-10-11T02:28:27Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Krish Parikh</p>
-    <p><b>Summary:</b> Smart vehicles produce large amounts of data, much of which is sensitive and
-at risk of privacy breaches. As attackers increasingly exploit anonymised
-metadata within these datasets to profile drivers, it's important to find
-solutions that mitigate this information leakage without hindering innovation
-and ongoing research. Synthetic data has emerged as a promising tool to address
-these privacy concerns, as it allows for the replication of real-world data
-relationships while minimising the risk of revealing sensitive information. In
-this paper, we examine the use of synthetic data to tackle these challenges. We
-start by proposing a comprehensive taxonomy of 14 in-vehicle sensors,
-identifying potential attacks and categorising their vulnerability. We then
-focus on the most vulnerable signals, using the Passive Vehicular Sensor (PVS)
-dataset to generate synthetic data with a Tabular Variational Autoencoder
-(TVAE) model, which included over 1 million data points. Finally, we evaluate
-this against 3 core metrics: fidelity, utility, and privacy. Our results show
-that we achieved 90.1% statistical similarity and 78% classification accuracy
-when tested on its original intent while also preventing the profiling of the
-driver. The code can be found at
-https://github.com/krish-parikh/Synthetic-Data-Generation</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.08381v1">Assessing Privacy Policies with AI: Ethical, Legal, and Technical
-  Challenges</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2024-10-10T21:36:35Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Irem Aydin, Hermann Diebel-Fischer, Vincent Freiberger, Julia Möller-Klapperich, Erik Buchmann, Michael Färber, Anne Lauber-Rönsberg, Birte Platow</p>
-    <p><b>Summary:</b> The growing use of Machine Learning and Artificial Intelligence (AI),
-particularly Large Language Models (LLMs) like OpenAI's GPT series, leads to
-disruptive changes across organizations. At the same time, there is a growing
-concern about how organizations handle personal data. Thus, privacy policies
-are essential for transparency in data processing practices, enabling users to
-assess privacy risks. However, these policies are often long and complex. This
-might lead to user confusion and consent fatigue, where users accept data
-practices against their interests, and abusive or unfair practices might go
-unnoticed. LLMss can be used to assess privacy policies for users
-automatically. In this interdisciplinary work, we explore the challenges of
-this approach in three pillars, namely technical feasibility, ethical
-implications, and legal compatibility of using LLMs to assess privacy policies.
-Our findings aim to identify potential for future research, and to foster a
-discussion on the use of LLM technologies for enabling users to fulfil their
-important role as decision-makers in a constantly developing AI-driven digital
-economy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.08302v1">A Framework to Audit Email Address Privacy and Analyze Email Marketing
-  Practices of Online Services and Apps</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Social and Information Networks-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-10-10T18:44:18Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Scott Seidenberger, Oluwasijibomi Ajisegiri, Noah Pursell, Fazil Raja, Anindya Maiti</p>
-    <p><b>Summary:</b> This study explores the widespread perception that personal data, such as
-email addresses, may be shared or sold without informed user consent,
-investigating whether these concerns are reflected in actual practices of
-popular online services and apps. Over the course of a year, we collected and
-analyzed the source, volume, frequency, and content of emails received by users
-after signing up for the 150 most popular online services and apps across
-various sectors. By examining patterns in email communications, we aim to
-identify consistent strategies used across industries, including potential
-signs of third-party data sharing. This analysis provides a critical evaluation
-of how email marketing tactics may intersect with data-sharing practices, with
-important implications for consumer privacy and regulatory oversight. Our study
-findings, conducted post-CCPA and GDPR, indicate that while no third-party spam
-email was detected, internal email marketing practices were pervasive, with
-companies frequently sending promotional and CRM emails despite opt-out
-preferences. The framework established in this work is designed to be scalable,
-allowing for continuous monitoring, and can be extended to include a more
-diverse set of apps and services for broader analysis, ultimately contributing
-to improved user perception of data privacy practices.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.08122v1">PP-GWAS: Privacy Preserving Multi-Site Genome-wide Association Studies</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-10-10T17:07:57Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Arjhun Swaminathan, Anika Hannemann, Ali Burak Ünal, Nico Pfeifer, Mete Akgün</p>
-    <p><b>Summary:</b> Genome-wide association studies are pivotal in understanding the genetic
-underpinnings of complex traits and diseases. Collaborative, multi-site GWAS
-aim to enhance statistical power but face obstacles due to the sensitive nature
-of genomic data sharing. Current state-of-the-art methods provide a
-privacy-focused approach utilizing computationally expensive methods such as
-Secure Multi-Party Computation and Homomorphic Encryption. In this context, we
-present a novel algorithm PP-GWAS designed to improve upon existing standards
-in terms of computational efficiency and scalability without sacrificing data
-privacy. This algorithm employs randomized encoding within a distributed
-architecture to perform stacked ridge regression on a Linear Mixed Model to
-ensure rigorous analysis. Experimental evaluation with real world and synthetic
-data indicates that PP-GWAS can achieve computational speeds twice as fast as
-similar state-of-the-art algorithms while using lesser computational resources,
-all while adhering to a robust security model that caters to an all-but-one
-semi-honest adversary setting. We have assessed its performance using various
-datasets, emphasizing its potential in facilitating more efficient and private
-genomic analyses.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.07900v2">CL3: A Collaborative Learning Framework for the Medical Data Ensuring
-  Data Privacy in the Hyperconnected Environment</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-10-10T13:29:12Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mohamamd Zavid Parvez, Rafiqul Islam, Md Zahidul Islam</p>
-    <p><b>Summary:</b> In a hyperconnected environment, medical institutions are particularly
-concerned with data privacy when sharing and transmitting sensitive patient
-information due to the risk of data breaches, where malicious actors could
-intercept sensitive information. A collaborative learning framework, including
-transfer, federated, and incremental learning, can generate efficient, secure,
-and scalable models while requiring less computation, maintaining patient data
-privacy, and ensuring an up-to-date model. This study aims to address the
-detection of COVID-19 using chest X-ray images through a proposed collaborative
-learning framework called CL3. Initially, transfer learning is employed,
-leveraging knowledge from a pre-trained model as the starting global model.
-Local models from different medical institutes are then integrated, and a new
-global model is constructed to adapt to any data drift observed in the local
-models. Additionally, incremental learning is considered, allowing continuous
-adaptation to new medical data without forgetting previously learned
-information. Experimental results demonstrate that the CL3 framework achieved a
-global accuracy of 89.99% when using Xception with a batch size of 16 after
-being trained for six federated communication rounds. A demo of the CL3
-framework is available at
-https://github.com/zavidparvez/CL3-Collaborative-Approach to ensure
-reproducibility.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.07772v1">Towards Quantifying The Privacy Of Redacted Text</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-10-10T10:00:27Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Vaibhav Gusain, Douglas Leith</p>
-    <p><b>Summary:</b> In this paper we propose use of a k-anonymity-like approach for evaluating
-the privacy of redacted text. Given a piece of redacted text we use a state of
-the art transformer-based deep learning network to reconstruct the original
-text. This generates multiple full texts that are consistent with the redacted
-text, i.e. which are grammatical, have the same non-redacted words etc, and
-represents each of these using an embedding vector that captures sentence
-similarity. In this way we can estimate the number, diversity and quality of
-full text consistent with the redacted text and so evaluate privacy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.07632v1">Provable Privacy Attacks on Trained Shallow Neural Networks</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-10-10T05:54:01Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Guy Smorodinsky, Gal Vardi, Itay Safran</p>
-    <p><b>Summary:</b> We study what provable privacy attacks can be shown on trained, 2-layer ReLU
-neural networks. We explore two types of attacks; data reconstruction attacks,
-and membership inference attacks. We prove that theoretical results on the
-implicit bias of 2-layer neural networks can be used to provably reconstruct a
-set of which at least a constant fraction are training points in a univariate
-setting, and can also be used to identify with high probability whether a given
-point was used in the training set in a high dimensional setting. To the best
-of our knowledge, our work is the first to show provable vulnerabilities in
-this setting.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.11876v1">Rescriber: Smaller-LLM-Powered User-Led Data Minimization for Navigating
-  Privacy Trade-offs in LLM-Based Conversational Agent</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-10-10T01:23:16Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jijie Zhou, Eryue Xu, Yaoyao Wu, Tianshi Li</p>
-    <p><b>Summary:</b> The proliferation of LLM-based conversational agents has resulted in
-excessive disclosure of identifiable or sensitive information. However,
-existing technologies fail to offer perceptible control or account for users'
-personal preferences about privacy-utility tradeoffs due to the lack of user
-involvement. To bridge this gap, we designed, built, and evaluated Rescriber, a
-browser extension that supports user-led data minimization in LLM-based
-conversational agents by helping users detect and sanitize personal information
-in their prompts. Our studies (N=12) showed that Rescriber helped users reduce
-unnecessary disclosure and addressed their privacy concerns. Users' subjective
-perceptions of the system powered by Llama3-8B were on par with that by GPT-4.
-The comprehensiveness and consistency of the detection and sanitization emerge
-as essential factors that affect users' trust and perceived protection. Our
-findings confirm the viability of smaller-LLM-powered, user-facing, on-device
-privacy controls, presenting a promising approach to address the privacy and
-trust challenges of AI.</p>
-  </details>
-</div>
-
-
 
 <h2>2024-11</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.07128v1">ZT-RIC:A Zero Trust RIC Framework for ensuring data Privacy and
+  Confidentiality in Open RAN</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-11-11T16:59:22Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Diana Lin, Samarth Bhargav, Azuka Chiejina, Mohamed I. Ibrahem, Vijay K. Shah</p>
+    <p><b>Summary:</b> The advancement of 5G and NextG networks through Open Radio Access Network
+(O-RAN) architecture enables a shift toward virtualized, modular, and
+disaggregated configurations. A core component of O-RAN is the RAN Intelligent
+Controller (RIC), which manages RAN using machine learning-driven xApps that
+access sensitive data from RAN and User Equipment (UE), stored in the near
+Real-Time RIC (Near-RT RIC) database. This shared, open environment increases
+the risk of unauthorized data exposure. To address these concerns, this paper
+proposes a zero-trust RIC (ZT-RIC) framework that preserves data privacy across
+the RIC platform, including the RIC database, xApps, and E2 interface. ZT-RIC
+employs Inner Product Functional Encryption (IPFE) to encrypt RAN/UE data at
+the base station, preventing leaks through the E2 interface and shared
+database. Additionally, ZT-RIC enables xApps to perform inference on encrypted
+data without exposing sensitive information. For evaluation, a state-of-the-art
+InterClass xApp, which detects jamming signals using RAN key performance
+metrics (KPMs), is implemented. Testing on an LTE/5G O-RAN testbed shows that
+ZT-RIC preserves data confidentiality while achieving 97.9% accuracy in jamming
+detection and meeting sub-second latency requirements, with a round-trip time
+(RTT) of 0.527 seconds.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.07070v1">On Active Privacy Auditing in Supervised Fine-tuning for White-Box
+  Language Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-11-11T15:46:07Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Qian Sun, Hanpeng Wu, Xi Sheryl Zhang</p>
+    <p><b>Summary:</b> The pretraining and fine-tuning approach has become the leading technique for
+various NLP applications. However, recent studies reveal that fine-tuning data,
+due to their sensitive nature, domain-specific characteristics, and
+identifiability, pose significant privacy concerns. To help develop more
+privacy-resilient fine-tuning models, we introduce a novel active privacy
+auditing framework, dubbed Parsing, designed to identify and quantify privacy
+leakage risks during the supervised fine-tuning (SFT) of language models (LMs).
+The framework leverages improved white-box membership inference attacks (MIAs)
+as the core technology, utilizing novel learning objectives and a two-stage
+pipeline to monitor the privacy of the LMs' fine-tuning process, maximizing the
+exposure of privacy risks. Additionally, we have improved the effectiveness of
+MIAs on large LMs including GPT-2, Llama2, and certain variants of them. Our
+research aims to provide the SFT community of LMs with a reliable, ready-to-use
+privacy auditing tool, and to offer valuable insights into safeguarding privacy
+during the fine-tuning process. Experimental results confirm the framework's
+efficiency across various models and tasks, emphasizing notable privacy
+concerns in the fine-tuning process. Project code available for
+https://github.com/mapleleavesss/PARSING.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.06613v1">Are Neuromorphic Architectures Inherently Privacy-preserving? An
+  Exploratory Study</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Neural and Evolutionary Computing-5BC0EB">
+  <p><b>Published on:</b> 2024-11-10T22:18:53Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ayana Moshruba, Ihsen Alouani, Maryam Parsa</p>
+    <p><b>Summary:</b> While machine learning (ML) models are becoming mainstream, especially in
+sensitive application areas, the risk of data leakage has become a growing
+concern. Attacks like membership inference (MIA) have shown that trained models
+can reveal sensitive data, jeopardizing confidentiality. While traditional
+Artificial Neural Networks (ANNs) dominate ML applications, neuromorphic
+architectures, specifically Spiking Neural Networks (SNNs), are emerging as
+promising alternatives due to their low power consumption and event-driven
+processing, akin to biological neurons. Privacy in ANNs is well-studied;
+however, little work has explored the privacy-preserving properties of SNNs.
+This paper examines whether SNNs inherently offer better privacy. Using MIAs,
+we assess the privacy resilience of SNNs versus ANNs across diverse datasets.
+We analyze the impact of learning algorithms (surrogate gradient and
+evolutionary), frameworks (snnTorch, TENNLab, LAVA), and parameters on SNN
+privacy. Our findings show that SNNs consistently outperform ANNs in privacy
+preservation, with evolutionary algorithms offering additional resilience. For
+instance, on CIFAR-10, SNNs achieve an AUC of 0.59, significantly lower than
+ANNs' 0.82, and on CIFAR-100, SNNs maintain an AUC of 0.58 compared to ANNs'
+0.88. Additionally, we explore the privacy-utility trade-off with
+Differentially Private Stochastic Gradient Descent (DPSGD), finding that SNNs
+sustain less accuracy loss than ANNs under similar privacy constraints.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.06549v1">In-Context Learning for Preserving Patient Privacy: A Framework for
+  Synthesizing Realistic Patient Portal Messages</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2024-11-10T18:06:55Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Joseph Gatto, Parker Seegmiller, Timothy E. Burdick, Sarah Masud Preum</p>
+    <p><b>Summary:</b> Since the COVID-19 pandemic, clinicians have seen a large and sustained
+influx in patient portal messages, significantly contributing to clinician
+burnout. To the best of our knowledge, there are no large-scale public patient
+portal messages corpora researchers can use to build tools to optimize
+clinician portal workflows. Informed by our ongoing work with a regional
+hospital, this study introduces an LLM-powered framework for configurable and
+realistic patient portal message generation. Our approach leverages few-shot
+grounded text generation, requiring only a small number of de-identified
+patient portal messages to help LLMs better match the true style and tone of
+real data. Clinical experts in our team deem this framework as HIPAA-friendly,
+unlike existing privacy-preserving approaches to synthetic text generation
+which cannot guarantee all sensitive attributes will be protected. Through
+extensive quantitative and human evaluation, we show that our framework
+produces data of higher quality than comparable generation methods as well as
+all related datasets. We believe this work provides a path forward for (i) the
+release of large-scale synthetic patient message datasets that are
+stylistically similar to ground-truth samples and (ii) HIPAA-friendly data
+generation which requires minimal human de-identification efforts.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.06513v1">PRISM: Privacy-preserving Inter-Site MRI Harmonization via Disentangled
+  Representation Learning</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2024-11-10T16:29:23Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Sarang Galada, Tanurima Halder, Kunal Deo, Ram P Krish, Kshitij Jadhav</p>
+    <p><b>Summary:</b> Multi-site MRI studies often suffer from site-specific variations arising
+from differences in methodology, hardware, and acquisition protocols, thereby
+compromising accuracy and reliability in clinical AI/ML tasks. We present PRISM
+(Privacy-preserving Inter-Site MRI Harmonization), a novel Deep Learning
+framework for harmonizing structural brain MRI across multiple sites while
+preserving data privacy. PRISM employs a dual-branch autoencoder with
+contrastive learning and variational inference to disentangle anatomical
+features from style and site-specific variations, enabling unpaired image
+translation without traveling subjects or multiple MRI modalities. Our modular
+design allows harmonization to any target site and seamless integration of new
+sites without the need for retraining or fine-tuning. Using multi-site
+structural MRI data, we demonstrate PRISM's effectiveness in downstream tasks
+such as brain tissue segmentation and validate its harmonization performance
+through multiple experiments. Our framework addresses key challenges in medical
+AI/ML, including data privacy, distribution shifts, model generalizability and
+interpretability. Code is available at https://github.com/saranggalada/PRISM</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.06317v1">Harpocrates: Oblivious Privacy in a Statically Typed World</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36"> 
+  <p><b>Published on:</b> 2024-11-10T00:28:58Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Sinan Pehlivanoglu, Malte Schwarzkopf</p>
+    <p><b>Summary:</b> In this paper, we introduce Harpocrates, a compiler plugin and a framework
+pair for Scala that binds the privacy policies to the data during data creation
+in form of oblivious membranes. Harpocrates eliminates raw data for a policy
+protected type from the application, ensuring it can only exist in protected
+form and centralizes the policy checking to the policy declaration site, making
+the privacy logic easy to maintain and verify. Instead of approaching privacy
+from an information flow verification perspective, Harpocrates allow the data
+to flow freely throughout the application, inside the policy membranes but
+enforces the policies when the data is tried to be accessed, mutated,
+declassified or passed through the application boundary. The centralization of
+the policies allow the maintainers to change the enforced logic simply by
+updating a single function while keeping the rest of the application oblivious
+to the change. Especially in a setting where the data definition is shared by
+multiple applications, the publisher can update the policies without requiring
+the dependent applications to make any changes beyond updating the dependency
+version.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.06263v1">Federated Split Learning for Human Activity Recognition with
+  Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-11-09T19:32:23Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Josue Ndeko, Shaba Shaon, Aubrey Beal, Avimanyu Sahoo, Dinh C. Nguyen</p>
+    <p><b>Summary:</b> This paper proposes a novel intelligent human activity recognition (HAR)
+framework based on a new design of Federated Split Learning (FSL) with
+Differential Privacy (DP) over edge networks. Our FSL-DP framework leverages
+both accelerometer and gyroscope data, achieving significant improvements in
+HAR accuracy. The evaluation includes a detailed comparison between traditional
+Federated Learning (FL) and our FSL framework, showing that the FSL framework
+outperforms FL models in both accuracy and loss metrics. Additionally, we
+examine the privacy-performance trade-off under different data settings in the
+DP mechanism, highlighting the balance between privacy guarantees and model
+accuracy. The results also indicate that our FSL framework achieves faster
+communication times per training round compared to traditional FL, further
+emphasizing its efficiency and effectiveness. This work provides valuable
+insight and a novel framework which was tested on a real-life dataset.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.06107v1">A capacity renting framework for shared energy storage considering
+  peer-to-peer energy trading of prosumers with privacy protection</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
+  <p><b>Published on:</b> 2024-11-09T08:01:17Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yingcong Sun, Laijun Chen, Yue Chen, Mingrui Tang, Shengwei Mei</p>
+    <p><b>Summary:</b> Shared energy storage systems (ESS) present a promising solution to the
+temporal imbalance between energy generation from renewable distributed
+generators (DGs) and the power demands of prosumers. However, as DG penetration
+rates rise, spatial energy imbalances become increasingly significant,
+necessitating the integration of peer-to-peer (P2P) energy trading within the
+shared ESS framework. Two key challenges emerge in this context: the absence of
+effective mechanisms and the greater difficulty for privacy protection due to
+increased data communication. This research proposes a capacity renting
+framework for shared ESS considering P2P energy trading of prosumers. In the
+proposed framework, prosumers can participate in P2P energy trading and rent
+capacities from shared ESS. A generalized Nash game is formulated to model the
+trading process and the competitive interactions among prosumers, and the
+variational equilibrium of the game is proved to be equivalent to the optimal
+solution of a quadratic programming (QP) problem. To address the privacy
+protection concern, the problem is solved using the alternating direction
+method of multipliers (ADMM) with the Paillier cryptosystem. Finally, numerical
+simulations demonstrate the impact of P2P energy trading on the shared ESS
+framework and validate the effectiveness of the proposed privacy-preserving
+algorithm.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2411.05743v1">Free Record-Level Privacy Risk Evaluation Through Artifact-Based Methods</a></h3>
@@ -2142,6 +2124,28 @@ imbalanced learning methods under various data and distributional settings. We
 find that private synthetic data methods perform well as a data pre-processing
 step, while class-weighted ERMs are an alternative in higher-dimensional
 settings where private synthetic data suffers from the curse of dimensionality.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.05901v1">ViT Enhanced Privacy-Preserving Secure Medical Data Sharing and
+  Classification</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-11-08T16:33:20Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Al Amin, Kamrul Hasan, Sharif Ullah, M. Shamim Hossain</p>
+    <p><b>Summary:</b> Privacy-preserving and secure data sharing are critical for medical image
+analysis while maintaining accuracy and minimizing computational overhead are
+also crucial. Applying existing deep neural networks (DNNs) to encrypted
+medical data is not always easy and often compromises performance and security.
+To address these limitations, this research introduces a secure framework
+consisting of a learnable encryption method based on the block-pixel operation
+to encrypt the data and subsequently integrate it with the Vision Transformer
+(ViT). The proposed framework ensures data privacy and security by creating
+unique scrambling patterns per key, providing robust performance against
+leading bit attacks and minimum difference attacks.</p>
   </details>
 </div>
 
@@ -2539,7 +2543,7 @@ auditing using conditional diffusion models.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.02926v1">Privacy-Preserving Graph-Based Machine Learning with Fully Homomorphic
+  <h3><a href="http://arxiv.org/abs/2411.02926v2">Privacy-Preserving Graph-Based Machine Learning with Fully Homomorphic
   Encryption for Collaborative Anti-Money Laundering</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2024-11-05T09:13:53Z</p>
