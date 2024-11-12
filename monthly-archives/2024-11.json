@@ -809,5 +809,252 @@
       "cs.AI",
       "cs.CL"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.07128v1",
+    "title" : "ZT-RIC:A Zero Trust RIC Framework for ensuring data Privacy and\n  Confidentiality in Open RAN",
+    "summary" : "The advancement of 5G and NextG networks through Open Radio Access Network\n(O-RAN) architecture enables a shift toward virtualized, modular, and\ndisaggregated configurations. A core component of O-RAN is the RAN Intelligent\nController (RIC), which manages RAN using machine learning-driven xApps that\naccess sensitive data from RAN and User Equipment (UE), stored in the near\nReal-Time RIC (Near-RT RIC) database. This shared, open environment increases\nthe risk of unauthorized data exposure. To address these concerns, this paper\nproposes a zero-trust RIC (ZT-RIC) framework that preserves data privacy across\nthe RIC platform, including the RIC database, xApps, and E2 interface. ZT-RIC\nemploys Inner Product Functional Encryption (IPFE) to encrypt RAN/UE data at\nthe base station, preventing leaks through the E2 interface and shared\ndatabase. Additionally, ZT-RIC enables xApps to perform inference on encrypted\ndata without exposing sensitive information. For evaluation, a state-of-the-art\nInterClass xApp, which detects jamming signals using RAN key performance\nmetrics (KPMs), is implemented. Testing on an LTE/5G O-RAN testbed shows that\nZT-RIC preserves data confidentiality while achieving 97.9% accuracy in jamming\ndetection and meeting sub-second latency requirements, with a round-trip time\n(RTT) of 0.527 seconds.",
+    "updated" : "2024-11-11T16:59:22Z",
+    "published" : "2024-11-11T16:59:22Z",
+    "authors" : [
+      {
+        "name" : "Diana Lin"
+      },
+      {
+        "name" : "Samarth Bhargav"
+      },
+      {
+        "name" : "Azuka Chiejina"
+      },
+      {
+        "name" : "Mohamed I. Ibrahem"
+      },
+      {
+        "name" : "Vijay K. Shah"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.07070v1",
+    "title" : "On Active Privacy Auditing in Supervised Fine-tuning for White-Box\n  Language Models",
+    "summary" : "The pretraining and fine-tuning approach has become the leading technique for\nvarious NLP applications. However, recent studies reveal that fine-tuning data,\ndue to their sensitive nature, domain-specific characteristics, and\nidentifiability, pose significant privacy concerns. To help develop more\nprivacy-resilient fine-tuning models, we introduce a novel active privacy\nauditing framework, dubbed Parsing, designed to identify and quantify privacy\nleakage risks during the supervised fine-tuning (SFT) of language models (LMs).\nThe framework leverages improved white-box membership inference attacks (MIAs)\nas the core technology, utilizing novel learning objectives and a two-stage\npipeline to monitor the privacy of the LMs' fine-tuning process, maximizing the\nexposure of privacy risks. Additionally, we have improved the effectiveness of\nMIAs on large LMs including GPT-2, Llama2, and certain variants of them. Our\nresearch aims to provide the SFT community of LMs with a reliable, ready-to-use\nprivacy auditing tool, and to offer valuable insights into safeguarding privacy\nduring the fine-tuning process. Experimental results confirm the framework's\nefficiency across various models and tasks, emphasizing notable privacy\nconcerns in the fine-tuning process. Project code available for\nhttps://github.com/mapleleavesss/PARSING.",
+    "updated" : "2024-11-11T15:46:07Z",
+    "published" : "2024-11-11T15:46:07Z",
+    "authors" : [
+      {
+        "name" : "Qian Sun"
+      },
+      {
+        "name" : "Hanpeng Wu"
+      },
+      {
+        "name" : "Xi Sheryl Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.06613v1",
+    "title" : "Are Neuromorphic Architectures Inherently Privacy-preserving? An\n  Exploratory Study",
+    "summary" : "While machine learning (ML) models are becoming mainstream, especially in\nsensitive application areas, the risk of data leakage has become a growing\nconcern. Attacks like membership inference (MIA) have shown that trained models\ncan reveal sensitive data, jeopardizing confidentiality. While traditional\nArtificial Neural Networks (ANNs) dominate ML applications, neuromorphic\narchitectures, specifically Spiking Neural Networks (SNNs), are emerging as\npromising alternatives due to their low power consumption and event-driven\nprocessing, akin to biological neurons. Privacy in ANNs is well-studied;\nhowever, little work has explored the privacy-preserving properties of SNNs.\nThis paper examines whether SNNs inherently offer better privacy. Using MIAs,\nwe assess the privacy resilience of SNNs versus ANNs across diverse datasets.\nWe analyze the impact of learning algorithms (surrogate gradient and\nevolutionary), frameworks (snnTorch, TENNLab, LAVA), and parameters on SNN\nprivacy. Our findings show that SNNs consistently outperform ANNs in privacy\npreservation, with evolutionary algorithms offering additional resilience. For\ninstance, on CIFAR-10, SNNs achieve an AUC of 0.59, significantly lower than\nANNs' 0.82, and on CIFAR-100, SNNs maintain an AUC of 0.58 compared to ANNs'\n0.88. Additionally, we explore the privacy-utility trade-off with\nDifferentially Private Stochastic Gradient Descent (DPSGD), finding that SNNs\nsustain less accuracy loss than ANNs under similar privacy constraints.",
+    "updated" : "2024-11-10T22:18:53Z",
+    "published" : "2024-11-10T22:18:53Z",
+    "authors" : [
+      {
+        "name" : "Ayana Moshruba"
+      },
+      {
+        "name" : "Ihsen Alouani"
+      },
+      {
+        "name" : "Maryam Parsa"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "cs.NE"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.06549v1",
+    "title" : "In-Context Learning for Preserving Patient Privacy: A Framework for\n  Synthesizing Realistic Patient Portal Messages",
+    "summary" : "Since the COVID-19 pandemic, clinicians have seen a large and sustained\ninflux in patient portal messages, significantly contributing to clinician\nburnout. To the best of our knowledge, there are no large-scale public patient\nportal messages corpora researchers can use to build tools to optimize\nclinician portal workflows. Informed by our ongoing work with a regional\nhospital, this study introduces an LLM-powered framework for configurable and\nrealistic patient portal message generation. Our approach leverages few-shot\ngrounded text generation, requiring only a small number of de-identified\npatient portal messages to help LLMs better match the true style and tone of\nreal data. Clinical experts in our team deem this framework as HIPAA-friendly,\nunlike existing privacy-preserving approaches to synthetic text generation\nwhich cannot guarantee all sensitive attributes will be protected. Through\nextensive quantitative and human evaluation, we show that our framework\nproduces data of higher quality than comparable generation methods as well as\nall related datasets. We believe this work provides a path forward for (i) the\nrelease of large-scale synthetic patient message datasets that are\nstylistically similar to ground-truth samples and (ii) HIPAA-friendly data\ngeneration which requires minimal human de-identification efforts.",
+    "updated" : "2024-11-10T18:06:55Z",
+    "published" : "2024-11-10T18:06:55Z",
+    "authors" : [
+      {
+        "name" : "Joseph Gatto"
+      },
+      {
+        "name" : "Parker Seegmiller"
+      },
+      {
+        "name" : "Timothy E. Burdick"
+      },
+      {
+        "name" : "Sarah Masud Preum"
+      }
+    ],
+    "categories" : [
+      "cs.AI",
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.06513v1",
+    "title" : "PRISM: Privacy-preserving Inter-Site MRI Harmonization via Disentangled\n  Representation Learning",
+    "summary" : "Multi-site MRI studies often suffer from site-specific variations arising\nfrom differences in methodology, hardware, and acquisition protocols, thereby\ncompromising accuracy and reliability in clinical AI/ML tasks. We present PRISM\n(Privacy-preserving Inter-Site MRI Harmonization), a novel Deep Learning\nframework for harmonizing structural brain MRI across multiple sites while\npreserving data privacy. PRISM employs a dual-branch autoencoder with\ncontrastive learning and variational inference to disentangle anatomical\nfeatures from style and site-specific variations, enabling unpaired image\ntranslation without traveling subjects or multiple MRI modalities. Our modular\ndesign allows harmonization to any target site and seamless integration of new\nsites without the need for retraining or fine-tuning. Using multi-site\nstructural MRI data, we demonstrate PRISM's effectiveness in downstream tasks\nsuch as brain tissue segmentation and validate its harmonization performance\nthrough multiple experiments. Our framework addresses key challenges in medical\nAI/ML, including data privacy, distribution shifts, model generalizability and\ninterpretability. Code is available at https://github.com/saranggalada/PRISM",
+    "updated" : "2024-11-10T16:29:23Z",
+    "published" : "2024-11-10T16:29:23Z",
+    "authors" : [
+      {
+        "name" : "Sarang Galada"
+      },
+      {
+        "name" : "Tanurima Halder"
+      },
+      {
+        "name" : "Kunal Deo"
+      },
+      {
+        "name" : "Ram P Krish"
+      },
+      {
+        "name" : "Kshitij Jadhav"
+      }
+    ],
+    "categories" : [
+      "eess.IV",
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.06317v1",
+    "title" : "Harpocrates: Oblivious Privacy in a Statically Typed World",
+    "summary" : "In this paper, we introduce Harpocrates, a compiler plugin and a framework\npair for Scala that binds the privacy policies to the data during data creation\nin form of oblivious membranes. Harpocrates eliminates raw data for a policy\nprotected type from the application, ensuring it can only exist in protected\nform and centralizes the policy checking to the policy declaration site, making\nthe privacy logic easy to maintain and verify. Instead of approaching privacy\nfrom an information flow verification perspective, Harpocrates allow the data\nto flow freely throughout the application, inside the policy membranes but\nenforces the policies when the data is tried to be accessed, mutated,\ndeclassified or passed through the application boundary. The centralization of\nthe policies allow the maintainers to change the enforced logic simply by\nupdating a single function while keeping the rest of the application oblivious\nto the change. Especially in a setting where the data definition is shared by\nmultiple applications, the publisher can update the policies without requiring\nthe dependent applications to make any changes beyond updating the dependency\nversion.",
+    "updated" : "2024-11-10T00:28:58Z",
+    "published" : "2024-11-10T00:28:58Z",
+    "authors" : [
+      {
+        "name" : "Sinan Pehlivanoglu"
+      },
+      {
+        "name" : "Malte Schwarzkopf"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.SY",
+      "eess.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.06263v1",
+    "title" : "Federated Split Learning for Human Activity Recognition with\n  Differential Privacy",
+    "summary" : "This paper proposes a novel intelligent human activity recognition (HAR)\nframework based on a new design of Federated Split Learning (FSL) with\nDifferential Privacy (DP) over edge networks. Our FSL-DP framework leverages\nboth accelerometer and gyroscope data, achieving significant improvements in\nHAR accuracy. The evaluation includes a detailed comparison between traditional\nFederated Learning (FL) and our FSL framework, showing that the FSL framework\noutperforms FL models in both accuracy and loss metrics. Additionally, we\nexamine the privacy-performance trade-off under different data settings in the\nDP mechanism, highlighting the balance between privacy guarantees and model\naccuracy. The results also indicate that our FSL framework achieves faster\ncommunication times per training round compared to traditional FL, further\nemphasizing its efficiency and effectiveness. This work provides valuable\ninsight and a novel framework which was tested on a real-life dataset.",
+    "updated" : "2024-11-09T19:32:23Z",
+    "published" : "2024-11-09T19:32:23Z",
+    "authors" : [
+      {
+        "name" : "Josue Ndeko"
+      },
+      {
+        "name" : "Shaba Shaon"
+      },
+      {
+        "name" : "Aubrey Beal"
+      },
+      {
+        "name" : "Avimanyu Sahoo"
+      },
+      {
+        "name" : "Dinh C. Nguyen"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.06107v1",
+    "title" : "A capacity renting framework for shared energy storage considering\n  peer-to-peer energy trading of prosumers with privacy protection",
+    "summary" : "Shared energy storage systems (ESS) present a promising solution to the\ntemporal imbalance between energy generation from renewable distributed\ngenerators (DGs) and the power demands of prosumers. However, as DG penetration\nrates rise, spatial energy imbalances become increasingly significant,\nnecessitating the integration of peer-to-peer (P2P) energy trading within the\nshared ESS framework. Two key challenges emerge in this context: the absence of\neffective mechanisms and the greater difficulty for privacy protection due to\nincreased data communication. This research proposes a capacity renting\nframework for shared ESS considering P2P energy trading of prosumers. In the\nproposed framework, prosumers can participate in P2P energy trading and rent\ncapacities from shared ESS. A generalized Nash game is formulated to model the\ntrading process and the competitive interactions among prosumers, and the\nvariational equilibrium of the game is proved to be equivalent to the optimal\nsolution of a quadratic programming (QP) problem. To address the privacy\nprotection concern, the problem is solved using the alternating direction\nmethod of multipliers (ADMM) with the Paillier cryptosystem. Finally, numerical\nsimulations demonstrate the impact of P2P energy trading on the shared ESS\nframework and validate the effectiveness of the proposed privacy-preserving\nalgorithm.",
+    "updated" : "2024-11-09T08:01:17Z",
+    "published" : "2024-11-09T08:01:17Z",
+    "authors" : [
+      {
+        "name" : "Yingcong Sun"
+      },
+      {
+        "name" : "Laijun Chen"
+      },
+      {
+        "name" : "Yue Chen"
+      },
+      {
+        "name" : "Mingrui Tang"
+      },
+      {
+        "name" : "Shengwei Mei"
+      }
+    ],
+    "categories" : [
+      "eess.SY",
+      "cs.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.05901v1",
+    "title" : "ViT Enhanced Privacy-Preserving Secure Medical Data Sharing and\n  Classification",
+    "summary" : "Privacy-preserving and secure data sharing are critical for medical image\nanalysis while maintaining accuracy and minimizing computational overhead are\nalso crucial. Applying existing deep neural networks (DNNs) to encrypted\nmedical data is not always easy and often compromises performance and security.\nTo address these limitations, this research introduces a secure framework\nconsisting of a learnable encryption method based on the block-pixel operation\nto encrypt the data and subsequently integrate it with the Vision Transformer\n(ViT). The proposed framework ensures data privacy and security by creating\nunique scrambling patterns per key, providing robust performance against\nleading bit attacks and minimum difference attacks.",
+    "updated" : "2024-11-08T16:33:20Z",
+    "published" : "2024-11-08T16:33:20Z",
+    "authors" : [
+      {
+        "name" : "Al Amin"
+      },
+      {
+        "name" : "Kamrul Hasan"
+      },
+      {
+        "name" : "Sharif Ullah"
+      },
+      {
+        "name" : "M. Shamim Hossain"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CV",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.02926v2",
+    "title" : "Privacy-Preserving Graph-Based Machine Learning with Fully Homomorphic\n  Encryption for Collaborative Anti-Money Laundering",
+    "summary" : "Combating money laundering has become increasingly complex with the rise of\ncybercrime and digitalization of financial transactions. Graph-based machine\nlearning techniques have emerged as promising tools for Anti-Money Laundering\n(AML) detection, capturing intricate relationships within money laundering\nnetworks. However, the effectiveness of AML solutions is hindered by data silos\nwithin financial institutions, limiting collaboration and overall efficacy.\nThis research presents a novel privacy-preserving approach for collaborative\nAML machine learning, facilitating secure data sharing across institutions and\nborders while preserving privacy and regulatory compliance. Leveraging Fully\nHomomorphic Encryption (FHE), computations are directly performed on encrypted\ndata, ensuring the confidentiality of financial data. Notably, FHE over the\nTorus (TFHE) was integrated with graph-based machine learning using Zama\nConcrete ML. The research contributes two key privacy-preserving pipelines.\nFirst, the development of a privacy-preserving Graph Neural Network (GNN)\npipeline was explored. Optimization techniques like quantization and pruning\nwere used to render the GNN FHE-compatible. Second, a privacy-preserving\ngraph-based XGBoost pipeline leveraging Graph Feature Preprocessor (GFP) was\nsuccessfully developed. Experiments demonstrated strong predictive performance,\nwith the XGBoost model consistently achieving over 99% accuracy, F1-score,\nprecision, and recall on the balanced AML dataset in both unencrypted and\nFHE-encrypted inference settings. On the imbalanced dataset, the incorporation\nof graph-based features improved the F1-score by 8%. The research highlights\nthe need to balance the trade-off between privacy and computational efficiency.",
+    "updated" : "2024-11-11T16:47:58Z",
+    "published" : "2024-11-05T09:13:53Z",
+    "authors" : [
+      {
+        "name" : "Fabrianne Effendi"
+      },
+      {
+        "name" : "Anupam Chattopadhyay"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
   }
 ]
