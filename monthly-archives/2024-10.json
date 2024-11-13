@@ -2909,5 +2909,30 @@
     "categories" : [
       "stat.AP"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.21605v2",
+    "title" : "Accelerating Privacy-Preserving Medical Record Linkage: A Three-Party\n  MPC Approach",
+    "summary" : "Record linkage is a crucial concept for integrating data from multiple\nsources, particularly when datasets lack exact identifiers, and it has diverse\napplications in real-world data analysis. Privacy-Preserving Record Linkage\n(PPRL) ensures this integration occurs securely, protecting sensitive\ninformation from unauthorized access. This is especially important in sectors\nsuch as healthcare, where datasets include private identity information (IDAT)\ngoverned by strict privacy laws. However, maintaining both privacy and\nefficiency in large-scale record linkage poses significant challenges.\nConsequently, researchers must develop advanced methods to protect data privacy\nwhile optimizing processing performance. This paper presents a novel and\nefficient PPRL method based on a secure 3-party computation (MPC) framework.\nOur approach allows multiple parties to compute linkage results without\nexposing their private inputs and significantly improves the speed of linkage\nprocess compared to existing privacy-preserving solutions. We demonstrated that\nour method preserves the linkage quality of the state-of-the-art PPRL method\nwhile achieving up to 14 times faster performance. For example, linking a\nrecord against a database of 10,000 records takes just 8.74 seconds in a\nrealistic network with 700 Mbps bandwidth and 60 ms latency. Even on a slower\ninternet connection with 100 Mbps bandwidth and 60 ms latency, the linkage\ncompletes in 28 seconds, highlighting the scalability and efficiency of our\nsolution.",
+    "updated" : "2024-11-12T00:42:53Z",
+    "published" : "2024-10-28T23:13:01Z",
+    "authors" : [
+      {
+        "name" : "Şeyma Selcan Mağara"
+      },
+      {
+        "name" : "Noah Dietrich"
+      },
+      {
+        "name" : "Ali Burak Ünal"
+      },
+      {
+        "name" : "Mete Akgün"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DB"
+    ]
   }
 ]
