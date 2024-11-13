@@ -1056,5 +1056,111 @@
       "cs.CR",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.07806v1",
+    "title" : "Federated Low-Rank Adaptation with Differential Privacy over Wireless\n  Networks",
+    "summary" : "Fine-tuning large pre-trained foundation models (FMs) on distributed edge\ndevices presents considerable computational and privacy challenges. Federated\nfine-tuning (FedFT) mitigates some privacy issues by facilitating collaborative\nmodel training without the need to share raw data. To lessen the computational\nburden on resource-limited devices, combining low-rank adaptation (LoRA) with\nfederated learning enables parameter-efficient fine-tuning. Additionally, the\nsplit FedFT architecture partitions an FM between edge devices and a central\nserver, reducing the necessity for complete model deployment on individual\ndevices. However, the risk of privacy eavesdropping attacks in FedFT remains a\nconcern, particularly in sensitive areas such as healthcare and finance. In\nthis paper, we propose a split FedFT framework with differential privacy (DP)\nover wireless networks, where the inherent wireless channel noise in the uplink\ntransmission is utilized to achieve DP guarantees without adding an extra\nartificial noise. We shall investigate the impact of the wireless noise on\nconvergence performance of the proposed framework. We will also show that by\nupdating only one of the low-rank matrices in the split FedFT with DP, the\nproposed method can mitigate the noise amplification effect. Simulation results\nwill demonstrate that the proposed framework achieves higher accuracy under\nstrict privacy budgets compared to baseline methods.",
+    "updated" : "2024-11-12T14:01:08Z",
+    "published" : "2024-11-12T14:01:08Z",
+    "authors" : [
+      {
+        "name" : "Tianqu Kang"
+      },
+      {
+        "name" : "Zixin Wang"
+      },
+      {
+        "name" : "Hengtao He"
+      },
+      {
+        "name" : "Jun Zhang"
+      },
+      {
+        "name" : "Shenghui Song"
+      },
+      {
+        "name" : "Khaled B. Letaief"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "eess.SP"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.07691v1",
+    "title" : "New Emerged Security and Privacy of Pre-trained Model: a Survey and\n  Outlook",
+    "summary" : "Thanks to the explosive growth of data and the development of computational\nresources, it is possible to build pre-trained models that can achieve\noutstanding performance on various tasks, such as neural language processing,\ncomputer vision, and more. Despite their powerful capabilities, pre-trained\nmodels have also sparked attention to the emerging security challenges\nassociated with their real-world applications. Security and privacy issues,\nsuch as leaking privacy information and generating harmful responses, have\nseriously undermined users' confidence in these powerful models. Concerns are\ngrowing as model performance improves dramatically. Researchers are eager to\nexplore the unique security and privacy issues that have emerged, their\ndistinguishing factors, and how to defend against them. However, the current\nliterature lacks a clear taxonomy of emerging attacks and defenses for\npre-trained models, which hinders a high-level and comprehensive understanding\nof these questions. To fill the gap, we conduct a systematical survey on the\nsecurity risks of pre-trained models, proposing a taxonomy of attack and\ndefense methods based on the accessibility of pre-trained models' input and\nweights in various security test scenarios. This taxonomy categorizes attacks\nand defenses into No-Change, Input-Change, and Model-Change approaches. With\nthe taxonomy analysis, we capture the unique security and privacy issues of\npre-trained models, categorizing and summarizing existing security issues based\non their characteristics. In addition, we offer a timely and comprehensive\nreview of each category's strengths and limitations. Our survey concludes by\nhighlighting potential new research opportunities in the security and privacy\nof pre-trained models.",
+    "updated" : "2024-11-12T10:15:33Z",
+    "published" : "2024-11-12T10:15:33Z",
+    "authors" : [
+      {
+        "name" : "Meng Yang"
+      },
+      {
+        "name" : "Tianqing Zhu"
+      },
+      {
+        "name" : "Chi Liu"
+      },
+      {
+        "name" : "WanLei Zhou"
+      },
+      {
+        "name" : "Shui Yu"
+      },
+      {
+        "name" : "Philip S. Yu"
+      }
+    ],
+    "categories" : [
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.07468v1",
+    "title" : "Privacy-Preserving Verifiable Neural Network Inference Service",
+    "summary" : "Machine learning has revolutionized data analysis and pattern recognition,\nbut its resource-intensive training has limited accessibility. Machine Learning\nas a Service (MLaaS) simplifies this by enabling users to delegate their data\nsamples to an MLaaS provider and obtain the inference result using a\npre-trained model. Despite its convenience, leveraging MLaaS poses significant\nprivacy and reliability concerns to the client. Specifically, sensitive\ninformation from the client inquiry data can be leaked to an adversarial MLaaS\nprovider. Meanwhile, the lack of a verifiability guarantee can potentially\nresult in biased inference results or even unfair payment issues. While\nexisting trustworthy machine learning techniques, such as those relying on\nverifiable computation or secure computation, offer solutions to privacy and\nreliability concerns, they fall short of simultaneously protecting the privacy\nof client data and providing provable inference verifiability.\n  In this paper, we propose vPIN, a privacy-preserving and verifiable CNN\ninference scheme that preserves privacy for client data samples while ensuring\nverifiability for the inference. vPIN makes use of partial homomorphic\nencryption and commit-and-prove succinct non-interactive argument of knowledge\ntechniques to achieve desirable security properties. In vPIN, we develop\nvarious optimization techniques to minimize the proving circuit for homomorphic\ninference evaluation thereby, improving the efficiency and performance of our\ntechnique. We fully implemented and evaluated our vPIN scheme on standard\ndatasets (e.g., MNIST, CIFAR-10). Our experimental results show that vPIN\nachieves high efficiency in terms of proving time, verification time, and proof\nsize, while providing client data privacy guarantees and provable\nverifiability.",
+    "updated" : "2024-11-12T01:09:52Z",
+    "published" : "2024-11-12T01:09:52Z",
+    "authors" : [
+      {
+        "name" : "Arman Riasi"
+      },
+      {
+        "name" : "Jorge Guajardo"
+      },
+      {
+        "name" : "Thang Hoang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.07070v2",
+    "title" : "On Active Privacy Auditing in Supervised Fine-tuning for White-Box\n  Language Models",
+    "summary" : "The pretraining and fine-tuning approach has become the leading technique for\nvarious NLP applications. However, recent studies reveal that fine-tuning data,\ndue to their sensitive nature, domain-specific characteristics, and\nidentifiability, pose significant privacy concerns. To help develop more\nprivacy-resilient fine-tuning models, we introduce a novel active privacy\nauditing framework, dubbed Parsing, designed to identify and quantify privacy\nleakage risks during the supervised fine-tuning (SFT) of language models (LMs).\nThe framework leverages improved white-box membership inference attacks (MIAs)\nas the core technology, utilizing novel learning objectives and a two-stage\npipeline to monitor the privacy of the LMs' fine-tuning process, maximizing the\nexposure of privacy risks. Additionally, we have improved the effectiveness of\nMIAs on large LMs including GPT-2, Llama2, and certain variants of them. Our\nresearch aims to provide the SFT community of LMs with a reliable, ready-to-use\nprivacy auditing tool, and to offer valuable insights into safeguarding privacy\nduring the fine-tuning process. Experimental results confirm the framework's\nefficiency across various models and tasks, emphasizing notable privacy\nconcerns in the fine-tuning process. Project code available for\nhttps://anonymous.4open.science/r/PARSING-4817/.",
+    "updated" : "2024-11-12T04:12:32Z",
+    "published" : "2024-11-11T15:46:07Z",
+    "authors" : [
+      {
+        "name" : "Qian Sun"
+      },
+      {
+        "name" : "Hanpeng Wu"
+      },
+      {
+        "name" : "Xi Sheryl Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.AI"
+    ]
   }
 ]
