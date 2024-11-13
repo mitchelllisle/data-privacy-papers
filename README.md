@@ -292,17 +292,17 @@ effectiveness and applicability of BF-Meta.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.21605v1">Accelerating Privacy-Preserving Medical Record Linkage: A Three-Party
+  <h3><a href="http://arxiv.org/abs/2410.21605v2">Accelerating Privacy-Preserving Medical Record Linkage: A Three-Party
   MPC Approach</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
   <p><b>Published on:</b> 2024-10-28T23:13:01Z</p>
   <details>
     <summary>More Details</summary>
     <p><b>Authors:</b> Şeyma Selcan Mağara, Noah Dietrich, Ali Burak Ünal, Mete Akgün</p>
-    <p><b>Summary:</b> Motivation: Record linkage is a crucial concept for integrating data from
-multiple sources, particularly when datasets lack exact identifiers, and it has
-diverse applications in real-world data analysis. Privacy-Preserving Record
-Linkage (PPRL) ensures this integration occurs securely, protecting sensitive
+    <p><b>Summary:</b> Record linkage is a crucial concept for integrating data from multiple
+sources, particularly when datasets lack exact identifiers, and it has diverse
+applications in real-world data analysis. Privacy-Preserving Record Linkage
+(PPRL) ensures this integration occurs securely, protecting sensitive
 information from unauthorized access. This is especially important in sectors
 such as healthcare, where datasets include private identity information (IDAT)
 governed by strict privacy laws. However, maintaining both privacy and
@@ -312,14 +312,14 @@ while optimizing processing performance. This paper presents a novel and
 efficient PPRL method based on a secure 3-party computation (MPC) framework.
 Our approach allows multiple parties to compute linkage results without
 exposing their private inputs and significantly improves the speed of linkage
-process compared to existing privacy-preserving solutions. Results: We
-demonstrated that our method preserves the linkage quality of the
-state-of-the-art PPRL method while achieving up to 14 times faster performance.
-For example, linking a record against a database of 10,000 records takes just
-8.74 seconds in a realistic network with 700 Mbps bandwidth and 60 ms latency.
-Even on a slower internet connection with 100 Mbps bandwidth and 60 ms latency,
-the linkage completes in 28 seconds, highlighting the scalability and
-efficiency of our solution.</p>
+process compared to existing privacy-preserving solutions. We demonstrated that
+our method preserves the linkage quality of the state-of-the-art PPRL method
+while achieving up to 14 times faster performance. For example, linking a
+record against a database of 10,000 records takes just 8.74 seconds in a
+realistic network with 700 Mbps bandwidth and 60 ms latency. Even on a slower
+internet connection with 100 Mbps bandwidth and 60 ms latency, the linkage
+completes in 28 seconds, highlighting the scalability and efficiency of our
+solution.</p>
   </details>
 </div>
 
@@ -1742,97 +1742,111 @@ logarithmic factors and reduce to known bounds when $m_u = m$ for any user $u$.<
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.08756v1">Privacy-Preserving Optimal State Estimation with Low Complexity via
-  Cramér-Rao Lower Bound Approach</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
-  <p><b>Published on:</b> 2024-10-11T12:15:25Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Liping Guo, Jimin Wang, Yanlong Zhao, Ji-Feng Zhang</p>
-    <p><b>Summary:</b> This paper addresses the optimal state estimation problem for dynamic systems
-while preserving private information against an adversary. To dominate the
-adversary's estimation accuracy about private information in the mean square
-error (MSE) sense, the Cram\'er-Rao lower bound (CRLB) is employed to evaluate
-privacy level. The problem is formulated as a constrained optimization, which
-minimizes the MSE of the state estimate with a constraint on privacy level,
-achieving a trade-off between privacy and utility. To solve the constrained
-optimization problem, an explicit expression for CRLB is first provided using
-the information inequality. To overcome the increasing sizes of the involved
-matrices over time, a low-complexity approach is then proposed to achieve
-online calculation for CRLB, significantly reducing computational complexity.
-Next, the optimization problem is relaxed to a semi-definite programming
-problem, and a relaxed solution is provided. Finally, a privacy-preserving
-state estimation algorithm with low complexity is developed and proved to
-achieve differential privacy. Two illustrative examples, including a practical
-case of building occupancy, demonstrate the effectiveness of the proposed
-algorithm.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.08755v1">PILLAR: an AI-Powered Privacy Threat Modeling Tool</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Multiagent Systems-662E9B">
-  <p><b>Published on:</b> 2024-10-11T12:13:03Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Majid Mollaeefar, Andrea Bissoli, Silvio Ranise</p>
-    <p><b>Summary:</b> The rapid evolution of Large Language Models (LLMs) has unlocked new
-possibilities for applying artificial intelligence across a wide range of
-fields, including privacy engineering. As modern applications increasingly
-handle sensitive user data, safeguarding privacy has become more critical than
-ever. To protect privacy effectively, potential threats need to be identified
-and addressed early in the system development process. Frameworks like LINDDUN
-offer structured approaches for uncovering these risks, but despite their
-value, they often demand substantial manual effort, expert input, and detailed
-system knowledge. This makes the process time-consuming and prone to errors.
-Current privacy threat modeling methods, such as LINDDUN, typically rely on
-creating and analyzing complex data flow diagrams (DFDs) and system
-descriptions to pinpoint potential privacy issues. While these approaches are
-thorough, they can be cumbersome, relying heavily on the precision of the data
-provided by users. Moreover, they often generate a long list of threats without
-clear guidance on how to prioritize them, leaving developers unsure of where to
-focus their efforts. In response to these challenges, we introduce PILLAR
-(Privacy risk Identification with LINDDUN and LLM Analysis Report), a new tool
-that integrates LLMs with the LINDDUN framework to streamline and enhance
-privacy threat modeling. PILLAR automates key parts of the LINDDUN process,
-such as generating DFDs, classifying threats, and prioritizing risks. By
-leveraging the capabilities of LLMs, PILLAR can take natural language
-descriptions of systems and transform them into comprehensive threat models
-with minimal input from users, reducing the workload on developers and privacy
-experts while improving the efficiency and accuracy of the process.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.08555v1">Design of Secure, Privacy-focused, and Accessible E-Payment Applications
-  for Older Adults</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2024-10-11T06:12:18Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Sanchari Das</p>
-    <p><b>Summary:</b> E-payments are essential for transactional convenience in today's digital
-economy and are becoming increasingly important for older adults, emphasizing
-the need for enhanced security, privacy, and usability. To address this, we
-conducted a survey-based study with 400 older adults aged 65 and above to
-evaluate a high-fidelity prototype of an e-payment mobile application, which
-included features such as multi-factor authentication (MFA) and QR code-based
-recipient addition. Based on our findings, we developed a tailored \b{eta}
-version of the application to meet the specific needs of this demographic.
-Notably, approximately 91% of participants preferred traditional
-knowledge-based and single-mode authentication compared to expert-recommended
-MFA. We concluded by providing recommendations aimed at developing inclusive
-e-payment solutions that address the security, privacy, and usability
-requirements of older adults.</p>
-  </details>
-</div>
-
-
 
 <h2>2024-11</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.07806v1">Federated Low-Rank Adaptation with Differential Privacy over Wireless
+  Networks</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
+  <p><b>Published on:</b> 2024-11-12T14:01:08Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Tianqu Kang, Zixin Wang, Hengtao He, Jun Zhang, Shenghui Song, Khaled B. Letaief</p>
+    <p><b>Summary:</b> Fine-tuning large pre-trained foundation models (FMs) on distributed edge
+devices presents considerable computational and privacy challenges. Federated
+fine-tuning (FedFT) mitigates some privacy issues by facilitating collaborative
+model training without the need to share raw data. To lessen the computational
+burden on resource-limited devices, combining low-rank adaptation (LoRA) with
+federated learning enables parameter-efficient fine-tuning. Additionally, the
+split FedFT architecture partitions an FM between edge devices and a central
+server, reducing the necessity for complete model deployment on individual
+devices. However, the risk of privacy eavesdropping attacks in FedFT remains a
+concern, particularly in sensitive areas such as healthcare and finance. In
+this paper, we propose a split FedFT framework with differential privacy (DP)
+over wireless networks, where the inherent wireless channel noise in the uplink
+transmission is utilized to achieve DP guarantees without adding an extra
+artificial noise. We shall investigate the impact of the wireless noise on
+convergence performance of the proposed framework. We will also show that by
+updating only one of the low-rank matrices in the split FedFT with DP, the
+proposed method can mitigate the noise amplification effect. Simulation results
+will demonstrate that the proposed framework achieves higher accuracy under
+strict privacy budgets compared to baseline methods.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.07691v1">New Emerged Security and Privacy of Pre-trained Model: a Survey and
+  Outlook</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-11-12T10:15:33Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Meng Yang, Tianqing Zhu, Chi Liu, WanLei Zhou, Shui Yu, Philip S. Yu</p>
+    <p><b>Summary:</b> Thanks to the explosive growth of data and the development of computational
+resources, it is possible to build pre-trained models that can achieve
+outstanding performance on various tasks, such as neural language processing,
+computer vision, and more. Despite their powerful capabilities, pre-trained
+models have also sparked attention to the emerging security challenges
+associated with their real-world applications. Security and privacy issues,
+such as leaking privacy information and generating harmful responses, have
+seriously undermined users' confidence in these powerful models. Concerns are
+growing as model performance improves dramatically. Researchers are eager to
+explore the unique security and privacy issues that have emerged, their
+distinguishing factors, and how to defend against them. However, the current
+literature lacks a clear taxonomy of emerging attacks and defenses for
+pre-trained models, which hinders a high-level and comprehensive understanding
+of these questions. To fill the gap, we conduct a systematical survey on the
+security risks of pre-trained models, proposing a taxonomy of attack and
+defense methods based on the accessibility of pre-trained models' input and
+weights in various security test scenarios. This taxonomy categorizes attacks
+and defenses into No-Change, Input-Change, and Model-Change approaches. With
+the taxonomy analysis, we capture the unique security and privacy issues of
+pre-trained models, categorizing and summarizing existing security issues based
+on their characteristics. In addition, we offer a timely and comprehensive
+review of each category's strengths and limitations. Our survey concludes by
+highlighting potential new research opportunities in the security and privacy
+of pre-trained models.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.07468v1">Privacy-Preserving Verifiable Neural Network Inference Service</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-11-12T01:09:52Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Arman Riasi, Jorge Guajardo, Thang Hoang</p>
+    <p><b>Summary:</b> Machine learning has revolutionized data analysis and pattern recognition,
+but its resource-intensive training has limited accessibility. Machine Learning
+as a Service (MLaaS) simplifies this by enabling users to delegate their data
+samples to an MLaaS provider and obtain the inference result using a
+pre-trained model. Despite its convenience, leveraging MLaaS poses significant
+privacy and reliability concerns to the client. Specifically, sensitive
+information from the client inquiry data can be leaked to an adversarial MLaaS
+provider. Meanwhile, the lack of a verifiability guarantee can potentially
+result in biased inference results or even unfair payment issues. While
+existing trustworthy machine learning techniques, such as those relying on
+verifiable computation or secure computation, offer solutions to privacy and
+reliability concerns, they fall short of simultaneously protecting the privacy
+of client data and providing provable inference verifiability.
+  In this paper, we propose vPIN, a privacy-preserving and verifiable CNN
+inference scheme that preserves privacy for client data samples while ensuring
+verifiability for the inference. vPIN makes use of partial homomorphic
+encryption and commit-and-prove succinct non-interactive argument of knowledge
+techniques to achieve desirable security properties. In vPIN, we develop
+various optimization techniques to minimize the proving circuit for homomorphic
+inference evaluation thereby, improving the efficiency and performance of our
+technique. We fully implemented and evaluated our vPIN scheme on standard
+datasets (e.g., MNIST, CIFAR-10). Our experimental results show that vPIN
+achieves high efficiency in terms of proving time, verification time, and proof
+size, while providing client data privacy guarantees and provable
+verifiability.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2411.07128v1">ZT-RIC:A Zero Trust RIC Framework for ensuring data Privacy and
@@ -1865,7 +1879,7 @@ detection and meeting sub-second latency requirements, with a round-trip time
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.07070v1">On Active Privacy Auditing in Supervised Fine-tuning for White-Box
+  <h3><a href="http://arxiv.org/abs/2411.07070v2">On Active Privacy Auditing in Supervised Fine-tuning for White-Box
   Language Models</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
   <p><b>Published on:</b> 2024-11-11T15:46:07Z</p>
@@ -1889,7 +1903,7 @@ privacy auditing tool, and to offer valuable insights into safeguarding privacy
 during the fine-tuning process. Experimental results confirm the framework's
 efficiency across various models and tasks, emphasizing notable privacy
 concerns in the fine-tuning process. Project code available for
-https://github.com/mapleleavesss/PARSING.</p>
+https://anonymous.4open.science/r/PARSING-4817/.</p>
   </details>
 </div>
 
