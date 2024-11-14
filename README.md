@@ -1719,31 +1719,45 @@ practical recommendations for further development of DP libraries.</p>
 </div>
 
 
+
+<h2>2024-11</h2>
+
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.09506v1">Distribution-Aware Mean Estimation under User-level Local Differential
-  Privacy</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
-  <p><b>Published on:</b> 2024-10-12T11:57:52Z</p>
+  <h3><a href="http://arxiv.org/abs/2411.08635v1">Synthesis with Privacy Against an Observer</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Logic in Computer Science-662E9B">
+  <p><b>Published on:</b> 2024-11-13T14:22:06Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Corentin Pla, Hugo Richard, Maxime Vono</p>
-    <p><b>Summary:</b> We consider the problem of mean estimation under user-level local
-differential privacy, where $n$ users are contributing through their local pool
-of data samples. Previous work assume that the number of data samples is the
-same across users. In contrast, we consider a more general and realistic
-scenario where each user $u \in [n]$ owns $m_u$ data samples drawn from some
-generative distribution $\mu$; $m_u$ being unknown to the statistician but
-drawn from a known distribution $M$ over $\mathbb{N}^\star$. Based on a
-distribution-aware mean estimation algorithm, we establish an $M$-dependent
-upper bounds on the worst-case risk over $\mu$ for the task of mean estimation.
-We then derive a lower bound. The two bounds are asymptotically matching up to
-logarithmic factors and reduce to known bounds when $m_u = m$ for any user $u$.</p>
+    <p><b>Authors:</b> Orna Kupferman, Ofer Leshkowitz, Namma Shamash Halevy</p>
+    <p><b>Summary:</b> We study automatic synthesis of systems that interact with their environment
+and maintain privacy against an observer to the interaction. The system and the
+environment interact via sets $I$ and $O$ of input and output signals. The
+input to the synthesis problem contains, in addition to a specification, also a
+list of secrets, a function $cost: I\cup O\rightarrow\mathbb{N}$, which maps
+each signal to the cost of hiding it, and a bound $b\in\mathbb{N}$ on the
+budget that the system may use for hiding of signals. The desired output is an
+$(I/O)$-transducer $T$ and a set $H\subseteq I\cup O$ of signals that respects
+the bound on the budget, thus $\sum_{s\in H} cost(s)\leq b$, such that for
+every possible interaction of $T$, the generated computation satisfies the
+specification, yet an observer, from whom the signals in $H$ are hidden, cannot
+evaluate the secrets.
+  We first show that the problem's complexity is 2EXPTIME-complete for
+specifications and secrets in LTL, making it no harder than synthesis without
+privacy requirements. We then analyze the complexity further, isolating the two
+aspects that do not exist in traditional synthesis: the need to hide secret
+values and the need to choose the set $H$. We do this by studying settings in
+which traditional synthesis is solvable in polynomial time -- when the
+specification formalism is deterministic automata and when the system is closed
+-- and show that each of these aspects adds an exponential blow-up in
+complexity. We continue and study bounded synthesis with privacy, where the
+input includes a bound on the synthesized transducer size, as well as a variant
+of the problem in which the observer has knowledge, either about the
+specification or about the system, which can be helpful in evaluating the
+secrets. Additionally, we study certified privacy, where the synthesis
+algorithm provides certification that the secrets remain hidden.</p>
   </details>
 </div>
 
-
-
-<h2>2024-11</h2>
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2411.07806v1">Federated Low-Rank Adaptation with Differential Privacy over Wireless
@@ -1813,7 +1827,7 @@ of pre-trained models.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.07468v1">Privacy-Preserving Verifiable Neural Network Inference Service</a></h3>
+  <h3><a href="http://arxiv.org/abs/2411.07468v2">Privacy-Preserving Verifiable Neural Network Inference Service</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2024-11-12T01:09:52Z</p>
   <details>
