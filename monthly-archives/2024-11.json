@@ -1162,5 +1162,48 @@
       "cs.CL",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.08635v1",
+    "title" : "Synthesis with Privacy Against an Observer",
+    "summary" : "We study automatic synthesis of systems that interact with their environment\nand maintain privacy against an observer to the interaction. The system and the\nenvironment interact via sets $I$ and $O$ of input and output signals. The\ninput to the synthesis problem contains, in addition to a specification, also a\nlist of secrets, a function $cost: I\\cup O\\rightarrow\\mathbb{N}$, which maps\neach signal to the cost of hiding it, and a bound $b\\in\\mathbb{N}$ on the\nbudget that the system may use for hiding of signals. The desired output is an\n$(I/O)$-transducer $T$ and a set $H\\subseteq I\\cup O$ of signals that respects\nthe bound on the budget, thus $\\sum_{s\\in H} cost(s)\\leq b$, such that for\nevery possible interaction of $T$, the generated computation satisfies the\nspecification, yet an observer, from whom the signals in $H$ are hidden, cannot\nevaluate the secrets.\n  We first show that the problem's complexity is 2EXPTIME-complete for\nspecifications and secrets in LTL, making it no harder than synthesis without\nprivacy requirements. We then analyze the complexity further, isolating the two\naspects that do not exist in traditional synthesis: the need to hide secret\nvalues and the need to choose the set $H$. We do this by studying settings in\nwhich traditional synthesis is solvable in polynomial time -- when the\nspecification formalism is deterministic automata and when the system is closed\n-- and show that each of these aspects adds an exponential blow-up in\ncomplexity. We continue and study bounded synthesis with privacy, where the\ninput includes a bound on the synthesized transducer size, as well as a variant\nof the problem in which the observer has knowledge, either about the\nspecification or about the system, which can be helpful in evaluating the\nsecrets. Additionally, we study certified privacy, where the synthesis\nalgorithm provides certification that the secrets remain hidden.",
+    "updated" : "2024-11-13T14:22:06Z",
+    "published" : "2024-11-13T14:22:06Z",
+    "authors" : [
+      {
+        "name" : "Orna Kupferman"
+      },
+      {
+        "name" : "Ofer Leshkowitz"
+      },
+      {
+        "name" : "Namma Shamash Halevy"
+      }
+    ],
+    "categories" : [
+      "cs.LO"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.07468v2",
+    "title" : "Privacy-Preserving Verifiable Neural Network Inference Service",
+    "summary" : "Machine learning has revolutionized data analysis and pattern recognition,\nbut its resource-intensive training has limited accessibility. Machine Learning\nas a Service (MLaaS) simplifies this by enabling users to delegate their data\nsamples to an MLaaS provider and obtain the inference result using a\npre-trained model. Despite its convenience, leveraging MLaaS poses significant\nprivacy and reliability concerns to the client. Specifically, sensitive\ninformation from the client inquiry data can be leaked to an adversarial MLaaS\nprovider. Meanwhile, the lack of a verifiability guarantee can potentially\nresult in biased inference results or even unfair payment issues. While\nexisting trustworthy machine learning techniques, such as those relying on\nverifiable computation or secure computation, offer solutions to privacy and\nreliability concerns, they fall short of simultaneously protecting the privacy\nof client data and providing provable inference verifiability.\n  In this paper, we propose vPIN, a privacy-preserving and verifiable CNN\ninference scheme that preserves privacy for client data samples while ensuring\nverifiability for the inference. vPIN makes use of partial homomorphic\nencryption and commit-and-prove succinct non-interactive argument of knowledge\ntechniques to achieve desirable security properties. In vPIN, we develop\nvarious optimization techniques to minimize the proving circuit for homomorphic\ninference evaluation thereby, improving the efficiency and performance of our\ntechnique. We fully implemented and evaluated our vPIN scheme on standard\ndatasets (e.g., MNIST, CIFAR-10). Our experimental results show that vPIN\nachieves high efficiency in terms of proving time, verification time, and proof\nsize, while providing client data privacy guarantees and provable\nverifiability.",
+    "updated" : "2024-11-13T03:07:36Z",
+    "published" : "2024-11-12T01:09:52Z",
+    "authors" : [
+      {
+        "name" : "Arman Riasi"
+      },
+      {
+        "name" : "Jorge Guajardo"
+      },
+      {
+        "name" : "Thang Hoang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
   }
 ]
