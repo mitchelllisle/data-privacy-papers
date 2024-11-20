@@ -1033,35 +1033,34 @@ their own balance while still maintaining a privacy-focused norm.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.15954v1">TS-ACL: A Time Series Analytic Continual Learning Framework for
+  <h3><a href="http://arxiv.org/abs/2410.15954v2">TS-ACL: A Time Series Analytic Continual Learning Framework for
   Privacy-Preserving and Class-Incremental Pattern Recognition</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> 
   <p><b>Published on:</b> 2024-10-21T12:34:02Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Kejia Fan, Jiaxu Li, Songning Lai, Linpu Lv, Anfeng Liu, Jianheng Tang, Houbing Herbert Song, Huiping Zhuang</p>
-    <p><b>Summary:</b> Class-incremental Learning (CIL) in Time Series Classification (TSC) aims to
-incrementally train models using the streaming time series data that arrives
-continuously. The main problem in this scenario is catastrophic forgetting,
-i.e., training models with new samples inevitably leads to the forgetting of
-previously learned knowledge. Among existing methods, the replay-based methods
-achieve satisfactory performance but compromise privacy, while exemplar-free
-methods protect privacy but suffer from low accuracy. However, more critically,
-owing to their reliance on gradient-based update techniques, these existing
-methods fundamentally cannot solve the catastrophic forgetting problem. In TSC
-scenarios with continuously arriving data and temporally shifting
-distributions, these methods become even less practical. In this paper, we
-propose a Time Series Analytic Continual Learning framework, called TS-ACL.
-Inspired by analytical learning, TS-ACL transforms neural network updates into
-gradient-free linear regression problems, thereby fundamentally mitigating
-catastrophic forgetting. Specifically, employing a pre-trained and frozen
-feature extraction encoder, TS-ACL only needs to update its analytic classifier
-recursively in a lightweight manner that is highly suitable for real-time
-applications and large-scale data processing. Additionally, we theoretically
-demonstrate that the model obtained recursively through the TS-ACL is exactly
-equivalent to a model trained on the complete dataset in a centralized manner,
-thereby establishing the property of absolute knowledge memory. Extensive
-experiments validate the superior performance of our TS-ACL.</p>
+    <p><b>Authors:</b> Kejia Fan, Jiaxu Li, Songning Lai, Linpu Lv, Anfeng Liu, Jianheng Tang, Houbing Herbert Song, Yutao Yue, Huiping Zhuang</p>
+    <p><b>Summary:</b> Class-incremental pattern recognition in time series is a significant
+problem, which aims to learn from continually arriving streaming data examples
+with incremental classes. A primary challenge in this problem is catastrophic
+forgetting, where the incorporation of new data samples causes the models to
+forget previously learned information. While the replay-based methods achieve
+promising results by storing historical data to address catastrophic
+forgetting, they come with the invasion of data privacy. On the other hand, the
+exemplar-free methods preserve privacy but suffer from significantly decreased
+accuracy. To address these challenges, we proposed TS-ACL, a novel Time Series
+Analytic Continual Learning framework for privacy-preserving and
+class-incremental pattern recognition. Identifying gradient descent as the root
+of catastrophic forgetting, TS-ACL transforms each update of the model into a
+gradient-free analytical learning process with a closed-form solution. By
+leveraging a pre-trained frozen encoder for embedding extraction, TS-ACL only
+needs to recursively update an analytic classifier in a lightweight manner.
+This way, TS-ACL simultaneously achieves non-forgetting, privacy preservation,
+and lightweight consumption, making it widely suitable for various
+applications, particularly in edge computing scenarios. Extensive experiments
+on five benchmark datasets confirm the superior and robust performance of
+TS-ACL compared to existing advanced methods. Code is available at
+https://github.com/asdasdczxczq/TS-ACL.</p>
   </details>
 </div>
 
@@ -1292,104 +1291,84 @@ adults at risk in the event of a data breach.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.14023v1">Identifying Privacy Personas</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2024-10-17T20:49:46Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Olena Hrynenko, Andrea Cavallaro</p>
-    <p><b>Summary:</b> Privacy personas capture the differences in user segments with respect to
-one's knowledge, behavioural patterns, level of self-efficacy, and perception
-of the importance of privacy protection. Modelling these differences is
-essential for appropriately choosing personalised communication about privacy
-(e.g. to increase literacy) and for defining suitable choices for privacy
-enhancing technologies (PETs). While various privacy personas have been derived
-in the literature, they group together people who differ from each other in
-terms of important attributes such as perceived or desired level of control,
-and motivation to use PET. To address this lack of granularity and
-comprehensiveness in describing personas, we propose eight personas that we
-derive by combining qualitative and quantitative analysis of the responses to
-an interactive educational questionnaire. We design an analysis pipeline that
-uses divisive hierarchical clustering and Boschloo's statistical test of
-homogeneity of proportions to ensure that the elicited clusters differ from
-each other based on a statistical measure. Additionally, we propose a new
-measure for calculating distances between questionnaire responses, that
-accounts for the type of the question (closed- vs open-ended) used to derive
-traits. We show that the proposed privacy personas statistically differ from
-each other. We statistically validate the proposed personas and also compare
-them with personas in the literature, showing that they provide a more granular
-and comprehensive understanding of user segments, which will allow to better
-assist users with their privacy needs.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.13753v1">DPFedBank: Crafting a Privacy-Preserving Federated Learning Framework
-  for Financial Institutions with Policy Pillars</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computational Engineering, Finance, and Science-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2024-10-17T16:51:56Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Peilin He, Chenkai Lin, Isabella Montoya</p>
-    <p><b>Summary:</b> In recent years, the financial sector has faced growing pressure to adopt
-advanced machine learning models to derive valuable insights while preserving
-data privacy. However, the highly sensitive nature of financial data presents
-significant challenges to sharing and collaboration. This paper presents
-DPFedBank, an innovative framework enabling financial institutions to
-collaboratively develop machine learning models while ensuring robust data
-privacy through Local Differential Privacy (LDP) mechanisms. DPFedBank is
-designed to address the unique privacy and security challenges associated with
-financial data, allowing institutions to share insights without exposing
-sensitive information. By leveraging LDP, the framework ensures that data
-remains confidential even during collaborative processes, providing a crucial
-solution for privacy-aware machine learning in finance. We conducted an
-in-depth evaluation of the potential vulnerabilities within this framework and
-developed a comprehensive set of policies aimed at mitigating these risks. The
-proposed policies effectively address threats posed by malicious clients,
-compromised servers, inherent weaknesses in existing Differential
-Privacy-Federated Learning (DP-FL) frameworks, and sophisticated external
-adversaries. Unlike existing DP-FL approaches, DPFedBank introduces a novel
-combination of adaptive LDP mechanisms and advanced cryptographic techniques
-specifically tailored for financial data, which significantly enhances privacy
-while maintaining model utility. Key security enhancements include the
-implementation of advanced authentication protocols, encryption techniques for
-secure data exchange, and continuous monitoring systems to detect and respond
-to malicious activities in real-time.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.13752v2">Privacy-Preserving Decentralized AI with Confidential Computing</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2024-10-17T16:50:48Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Dayeol Lee, Jorge António, Hisham Khan</p>
-    <p><b>Summary:</b> This paper addresses privacy protection in decentralized Artificial
-Intelligence (AI) using Confidential Computing (CC) within the Atoma Network, a
-decentralized AI platform designed for the Web3 domain. Decentralized AI
-distributes AI services among multiple entities without centralized oversight,
-fostering transparency and robustness. However, this structure introduces
-significant privacy challenges, as sensitive assets such as proprietary models
-and personal data may be exposed to untrusted participants. Cryptography-based
-privacy protection techniques such as zero-knowledge machine learning (zkML)
-suffers prohibitive computational overhead. To address the limitation, we
-propose leveraging Confidential Computing (CC). Confidential Computing
-leverages hardware-based Trusted Execution Environments (TEEs) to provide
-isolation for processing sensitive data, ensuring that both model parameters
-and user data remain secure, even in decentralized, potentially untrusted
-environments. While TEEs face a few limitations, we believe they can bridge the
-privacy gap in decentralized AI. We explore how we can integrate TEEs into
-Atoma's decentralized framework.</p>
-  </details>
-</div>
-
-
 
 <h2>2024-11</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.12451v1">Empirical Privacy Evaluations of Generative and Predictive Machine
+  Learning Models -- A review and challenges for practice</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-11-19T12:19:28Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Flavio Hafner, Chang Sun</p>
+    <p><b>Summary:</b> Synthetic data generators, when trained using privacy-preserving techniques
+like differential privacy, promise to produce synthetic data with formal
+privacy guarantees, facilitating the sharing of sensitive data. However, it is
+crucial to empirically assess the privacy risks associated with the generated
+synthetic data before deploying generative technologies. This paper outlines
+the key concepts and assumptions underlying empirical privacy evaluation in
+machine learning-based generative and predictive models. Then, this paper
+explores the practical challenges for privacy evaluations of generative models
+for use cases with millions of training records, such as data from statistical
+agencies and healthcare providers. Our findings indicate that methods designed
+to verify the correct operation of the training algorithm are effective for
+large datasets, but they often assume an adversary that is unrealistic in many
+scenarios. Based on the findings, we highlight a crucial trade-off between the
+computational feasibility of the evaluation and the level of realism of the
+assumed threat model. Finally, we conclude with ideas and suggestions for
+future research.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.12223v1">Perception of Digital Privacy Protection: An Empirical Study using GDPR
+  Framework</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-11-19T04:36:31Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Hamoud Alhazmi, Ahmed Imran, Mohammad Abu Alsheikh</p>
+    <p><b>Summary:</b> Perception of privacy is a contested concept, which is also evolving along
+with the rapid proliferation and expansion of technological advancements.
+Information systems (IS) applications incorporate various sensing
+infrastructures, high-speed networks, and computing components that enable
+pervasive data collection about people. Any digital privacy breach within such
+systems can result in harmful and far-reaching impacts on individuals and
+societies. Accordingly, IS organisations have a legal and ethical
+responsibility to respect and protect individuals digital privacy rights. This
+study investigates people perception of digital privacy protection of
+government data using the General Data Protection Regulation (GDPR) framework.
+Findings suggest a dichotomy of perception in protecting people privacy rights.
+For example, people perceive the right to be informed as the most respected and
+protected in Information Technology (IT) systems. On the contrary, the right to
+object by granting and with-drawing consent is perceived as the least
+protected. Second, the study shows evidence of a social dilemma in people
+perception of digital privacy based on their context and culture.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.12045v1">Fingerprinting and Tracing Shadows: The Development and Impact of
+  Browser Fingerprinting on Digital Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2024-11-18T20:32:31Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Alexander Lawall</p>
+    <p><b>Summary:</b> Browser fingerprinting is a growing technique for identifying and tracking
+users online without traditional methods like cookies. This paper gives an
+overview by examining the various fingerprinting techniques and analyzes the
+entropy and uniqueness of the collected data. The analysis highlights that
+browser fingerprinting poses a complex challenge from both technical and
+privacy perspectives, as users often have no control over the collection and
+use of their data. In addition, it raises significant privacy concerns as users
+are often tracked without their knowledge or consent.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2411.11713v1">FLMarket: Enabling Privacy-preserved Pre-training Data Pricing for
