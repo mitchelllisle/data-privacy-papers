@@ -2934,5 +2934,46 @@
       "cs.CR",
       "cs.DB"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.15954v2",
+    "title" : "TS-ACL: A Time Series Analytic Continual Learning Framework for\n  Privacy-Preserving and Class-Incremental Pattern Recognition",
+    "summary" : "Class-incremental pattern recognition in time series is a significant\nproblem, which aims to learn from continually arriving streaming data examples\nwith incremental classes. A primary challenge in this problem is catastrophic\nforgetting, where the incorporation of new data samples causes the models to\nforget previously learned information. While the replay-based methods achieve\npromising results by storing historical data to address catastrophic\nforgetting, they come with the invasion of data privacy. On the other hand, the\nexemplar-free methods preserve privacy but suffer from significantly decreased\naccuracy. To address these challenges, we proposed TS-ACL, a novel Time Series\nAnalytic Continual Learning framework for privacy-preserving and\nclass-incremental pattern recognition. Identifying gradient descent as the root\nof catastrophic forgetting, TS-ACL transforms each update of the model into a\ngradient-free analytical learning process with a closed-form solution. By\nleveraging a pre-trained frozen encoder for embedding extraction, TS-ACL only\nneeds to recursively update an analytic classifier in a lightweight manner.\nThis way, TS-ACL simultaneously achieves non-forgetting, privacy preservation,\nand lightweight consumption, making it widely suitable for various\napplications, particularly in edge computing scenarios. Extensive experiments\non five benchmark datasets confirm the superior and robust performance of\nTS-ACL compared to existing advanced methods. Code is available at\nhttps://github.com/asdasdczxczq/TS-ACL.",
+    "updated" : "2024-11-18T07:30:06Z",
+    "published" : "2024-10-21T12:34:02Z",
+    "authors" : [
+      {
+        "name" : "Kejia Fan"
+      },
+      {
+        "name" : "Jiaxu Li"
+      },
+      {
+        "name" : "Songning Lai"
+      },
+      {
+        "name" : "Linpu Lv"
+      },
+      {
+        "name" : "Anfeng Liu"
+      },
+      {
+        "name" : "Jianheng Tang"
+      },
+      {
+        "name" : "Houbing Herbert Song"
+      },
+      {
+        "name" : "Yutao Yue"
+      },
+      {
+        "name" : "Huiping Zhuang"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "I.2.6"
+    ]
   }
 ]
