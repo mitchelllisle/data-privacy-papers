@@ -1576,5 +1576,61 @@
       "cs.LG",
       "62G10"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.12451v1",
+    "title" : "Empirical Privacy Evaluations of Generative and Predictive Machine\n  Learning Models -- A review and challenges for practice",
+    "summary" : "Synthetic data generators, when trained using privacy-preserving techniques\nlike differential privacy, promise to produce synthetic data with formal\nprivacy guarantees, facilitating the sharing of sensitive data. However, it is\ncrucial to empirically assess the privacy risks associated with the generated\nsynthetic data before deploying generative technologies. This paper outlines\nthe key concepts and assumptions underlying empirical privacy evaluation in\nmachine learning-based generative and predictive models. Then, this paper\nexplores the practical challenges for privacy evaluations of generative models\nfor use cases with millions of training records, such as data from statistical\nagencies and healthcare providers. Our findings indicate that methods designed\nto verify the correct operation of the training algorithm are effective for\nlarge datasets, but they often assume an adversary that is unrealistic in many\nscenarios. Based on the findings, we highlight a crucial trade-off between the\ncomputational feasibility of the evaluation and the level of realism of the\nassumed threat model. Finally, we conclude with ideas and suggestions for\nfuture research.",
+    "updated" : "2024-11-19T12:19:28Z",
+    "published" : "2024-11-19T12:19:28Z",
+    "authors" : [
+      {
+        "name" : "Flavio Hafner"
+      },
+      {
+        "name" : "Chang Sun"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.12223v1",
+    "title" : "Perception of Digital Privacy Protection: An Empirical Study using GDPR\n  Framework",
+    "summary" : "Perception of privacy is a contested concept, which is also evolving along\nwith the rapid proliferation and expansion of technological advancements.\nInformation systems (IS) applications incorporate various sensing\ninfrastructures, high-speed networks, and computing components that enable\npervasive data collection about people. Any digital privacy breach within such\nsystems can result in harmful and far-reaching impacts on individuals and\nsocieties. Accordingly, IS organisations have a legal and ethical\nresponsibility to respect and protect individuals digital privacy rights. This\nstudy investigates people perception of digital privacy protection of\ngovernment data using the General Data Protection Regulation (GDPR) framework.\nFindings suggest a dichotomy of perception in protecting people privacy rights.\nFor example, people perceive the right to be informed as the most respected and\nprotected in Information Technology (IT) systems. On the contrary, the right to\nobject by granting and with-drawing consent is perceived as the least\nprotected. Second, the study shows evidence of a social dilemma in people\nperception of digital privacy based on their context and culture.",
+    "updated" : "2024-11-19T04:36:31Z",
+    "published" : "2024-11-19T04:36:31Z",
+    "authors" : [
+      {
+        "name" : "Hamoud Alhazmi"
+      },
+      {
+        "name" : "Ahmed Imran"
+      },
+      {
+        "name" : "Mohammad Abu Alsheikh"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.12045v1",
+    "title" : "Fingerprinting and Tracing Shadows: The Development and Impact of\n  Browser Fingerprinting on Digital Privacy",
+    "summary" : "Browser fingerprinting is a growing technique for identifying and tracking\nusers online without traditional methods like cookies. This paper gives an\noverview by examining the various fingerprinting techniques and analyzes the\nentropy and uniqueness of the collected data. The analysis highlights that\nbrowser fingerprinting poses a complex challenge from both technical and\nprivacy perspectives, as users often have no control over the collection and\nuse of their data. In addition, it raises significant privacy concerns as users\nare often tracked without their knowledge or consent.",
+    "updated" : "2024-11-18T20:32:31Z",
+    "published" : "2024-11-18T20:32:31Z",
+    "authors" : [
+      {
+        "name" : "Alexander Lawall"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.CY"
+    ]
   }
 ]
