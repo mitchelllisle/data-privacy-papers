@@ -1235,62 +1235,6 @@ protection for Human-AI interactions.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.14787v1">Privacy for Free in the Over-Parameterized Regime</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-10-18T18:01:11Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Simone Bombari, Marco Mondelli</p>
-    <p><b>Summary:</b> Differentially private gradient descent (DP-GD) is a popular algorithm to
-train deep learning models with provable guarantees on the privacy of the
-training data. In the last decade, the problem of understanding its performance
-cost with respect to standard GD has received remarkable attention from the
-research community, which formally derived upper bounds on the excess
-population risk $R_{P}$ in different learning settings. However, existing
-bounds typically degrade with over-parameterization, i.e., as the number of
-parameters $p$ gets larger than the number of training samples $n$ -- a regime
-which is ubiquitous in current deep-learning practice. As a result, the lack of
-theoretical insights leaves practitioners without clear guidance, leading some
-to reduce the effective number of trainable parameters to improve performance,
-while others use larger models to achieve better results through scale. In this
-work, we show that in the popular random features model with quadratic loss,
-for any sufficiently large $p$, privacy can be obtained for free, i.e.,
-$\left|R_{P} \right| = o(1)$, not only when the privacy parameter $\varepsilon$
-has constant order, but also in the strongly private setting $\varepsilon =
-o(1)$. This challenges the common wisdom that over-parameterization inherently
-hinders performance in private learning.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.14607v1">Evaluating Privacy Measures in Healthcare Apps Predominantly Used by
-  Older Adults</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2024-10-18T17:01:14Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Suleiman Saka, Sanchari Das</p>
-    <p><b>Summary:</b> The widespread adoption of telehealth systems has led to a significant
-increase in the use of healthcare apps among older adults, but this rapid
-growth has also heightened concerns about the privacy of their health
-information. While HIPAA in the US and GDPR in the EU establish essential
-privacy protections for health information, limited research exists on the
-effectiveness of healthcare app privacy policies, particularly those used
-predominantly by older adults. To address this, we evaluated 28 healthcare apps
-across multiple dimensions, including regulatory compliance, data handling
-practices, and privacy-focused usability. To do this, we created a Privacy Risk
-Assessment Framework (PRAF) and used it to evaluate the privacy risks
-associated with these healthcare apps designed for older adults. Our analysis
-revealed significant gaps in compliance with privacy standards to such, only
-25% of apps explicitly state compliance with HIPAA, and only 18% mention GDPR.
-Surprisingly, 79% of these applications lack breach protocols, putting older
-adults at risk in the event of a data breach.</p>
-  </details>
-</div>
-
-
 
 <h2>2024-11</h2>
 
@@ -1424,6 +1368,39 @@ attention of the community for further investigation.</p>
 
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.12766v1">Exploiting the Uncoordinated Privacy Protections of Eye Tracking and VR
+  Motion Data for Unauthorized User Identification</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2024-11-17T22:16:37Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Samantha Aziz, Oleg Komogortsev</p>
+    <p><b>Summary:</b> Virtual reality (VR) devices use a variety of sensors to capture a rich body
+of user-generated data, which can be misused by malicious parties to covertly
+infer information about the user. Privacy-enhancing techniques seek to reduce
+the amount of personally identifying information in sensor data, but these
+techniques are typically developed for a subset of data streams that are
+available on the platform, without consideration for the auxiliary information
+that may be readily available from other sensors. In this paper, we evaluate
+whether body motion data can be used to circumvent the privacy protections
+applied to eye tracking data to enable user identification on a VR platform,
+and vice versa. We empirically show that eye tracking, headset tracking, and
+hand tracking data are not only informative for inferring user identity on
+their own, but contain complementary information that can increase the rate of
+successful user identification. Most importantly, we demonstrate that applying
+privacy protections to only a subset of the data available in VR can create an
+opportunity for an adversary to bypass those privacy protections by using other
+unprotected data streams that are available on the platform, performing a user
+identification attack as accurately as though a privacy mechanism was never
+applied. These results highlight a new privacy consideration at the
+intersection between eye tracking and VR, and emphasizes the need for
+privacy-enhancing techniques that address multiple technologies
+comprehensively.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2411.11044v1">Efficient Federated Unlearning with Adaptive Differential Privacy
   Preservation</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
@@ -1539,6 +1516,37 @@ significantly higher prediction confidence on the prompted data -- as a cause
 for the increased risk, we propose ensembling as a mitigation strategy. By
 aggregating over multiple different versions of a prompted model, membership
 inference risk can be decreased.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.12756v1">FedCL-Ensemble Learning: A Framework of Federated Continual Learning
+  with Ensemble Transfer Learning Enhanced for Alzheimer's MRI Classifications
+  while Preserving Privacy</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-11-15T13:49:22Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Rishit Kapoor, Jesher Joshua, Muralidharan Vijayarangan, Natarajan B</p>
+    <p><b>Summary:</b> This research work introduces a novel approach to the classification of
+Alzheimer's disease by using the advanced deep learning techniques combined
+with secure data processing methods. This research work primary uses transfer
+learning models such as ResNet, ImageNet, and VNet to extract high-level
+features from medical image data. Thereafter, these pre-trained models were
+fine-tuned for Alzheimer's related subtle patterns such that the model is
+capable of robust feature extraction over varying data sources. Further, the
+federated learning approaches were incorporated to tackle a few other
+challenges related to classification, aimed to provide better prediction
+performance and protect data privacy. The proposed model was built using
+federated learning without sharing sensitive patient data. This way, the
+decentralized model benefits from the large and diversified dataset that it is
+trained upon while ensuring confidentiality. The cipher-based encryption
+mechanism is added that allows us to secure the transportation of data and
+further ensure the privacy and integrity of patient information throughout
+training and classification. The results of the experiments not only help to
+improve the accuracy of the classification of Alzheimer's but at the same time
+provides a framework for secure and collaborative analysis of health care data.</p>
   </details>
 </div>
 
@@ -2007,7 +2015,7 @@ interpretability. Code is available at https://github.com/saranggalada/PRISM</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.06317v1">Harpocrates: Oblivious Privacy in a Statically Typed World</a></h3>
+  <h3><a href="http://arxiv.org/abs/2411.06317v2">Harpocrates: A Statically Typed Privacy Conscious Programming Framework</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36"> 
   <p><b>Published on:</b> 2024-11-10T00:28:58Z</p>
   <details>
