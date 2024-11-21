@@ -1632,5 +1632,71 @@
       "cs.AI",
       "cs.CY"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.12766v1",
+    "title" : "Exploiting the Uncoordinated Privacy Protections of Eye Tracking and VR\n  Motion Data for Unauthorized User Identification",
+    "summary" : "Virtual reality (VR) devices use a variety of sensors to capture a rich body\nof user-generated data, which can be misused by malicious parties to covertly\ninfer information about the user. Privacy-enhancing techniques seek to reduce\nthe amount of personally identifying information in sensor data, but these\ntechniques are typically developed for a subset of data streams that are\navailable on the platform, without consideration for the auxiliary information\nthat may be readily available from other sensors. In this paper, we evaluate\nwhether body motion data can be used to circumvent the privacy protections\napplied to eye tracking data to enable user identification on a VR platform,\nand vice versa. We empirically show that eye tracking, headset tracking, and\nhand tracking data are not only informative for inferring user identity on\ntheir own, but contain complementary information that can increase the rate of\nsuccessful user identification. Most importantly, we demonstrate that applying\nprivacy protections to only a subset of the data available in VR can create an\nopportunity for an adversary to bypass those privacy protections by using other\nunprotected data streams that are available on the platform, performing a user\nidentification attack as accurately as though a privacy mechanism was never\napplied. These results highlight a new privacy consideration at the\nintersection between eye tracking and VR, and emphasizes the need for\nprivacy-enhancing techniques that address multiple technologies\ncomprehensively.",
+    "updated" : "2024-11-17T22:16:37Z",
+    "published" : "2024-11-17T22:16:37Z",
+    "authors" : [
+      {
+        "name" : "Samantha Aziz"
+      },
+      {
+        "name" : "Oleg Komogortsev"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.12756v1",
+    "title" : "FedCL-Ensemble Learning: A Framework of Federated Continual Learning\n  with Ensemble Transfer Learning Enhanced for Alzheimer's MRI Classifications\n  while Preserving Privacy",
+    "summary" : "This research work introduces a novel approach to the classification of\nAlzheimer's disease by using the advanced deep learning techniques combined\nwith secure data processing methods. This research work primary uses transfer\nlearning models such as ResNet, ImageNet, and VNet to extract high-level\nfeatures from medical image data. Thereafter, these pre-trained models were\nfine-tuned for Alzheimer's related subtle patterns such that the model is\ncapable of robust feature extraction over varying data sources. Further, the\nfederated learning approaches were incorporated to tackle a few other\nchallenges related to classification, aimed to provide better prediction\nperformance and protect data privacy. The proposed model was built using\nfederated learning without sharing sensitive patient data. This way, the\ndecentralized model benefits from the large and diversified dataset that it is\ntrained upon while ensuring confidentiality. The cipher-based encryption\nmechanism is added that allows us to secure the transportation of data and\nfurther ensure the privacy and integrity of patient information throughout\ntraining and classification. The results of the experiments not only help to\nimprove the accuracy of the classification of Alzheimer's but at the same time\nprovides a framework for secure and collaborative analysis of health care data.",
+    "updated" : "2024-11-15T13:49:22Z",
+    "published" : "2024-11-15T13:49:22Z",
+    "authors" : [
+      {
+        "name" : "Rishit Kapoor"
+      },
+      {
+        "name" : "Jesher Joshua"
+      },
+      {
+        "name" : "Muralidharan Vijayarangan"
+      },
+      {
+        "name" : "Natarajan B"
+      }
+    ],
+    "categories" : [
+      "eess.IV",
+      "cs.AI",
+      "cs.CV",
+      "cs.IR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.06317v2",
+    "title" : "Harpocrates: A Statically Typed Privacy Conscious Programming Framework",
+    "summary" : "In this paper, we introduce Harpocrates, a compiler plugin and a framework\npair for Scala that binds the privacy policies to the data during data creation\nin form of oblivious membranes. Harpocrates eliminates raw data for a policy\nprotected type from the application, ensuring it can only exist in protected\nform and centralizes the policy checking to the policy declaration site, making\nthe privacy logic easy to maintain and verify. Instead of approaching privacy\nfrom an information flow verification perspective, Harpocrates allow the data\nto flow freely throughout the application, inside the policy membranes but\nenforces the policies when the data is tried to be accessed, mutated,\ndeclassified or passed through the application boundary. The centralization of\nthe policies allow the maintainers to change the enforced logic simply by\nupdating a single function while keeping the rest of the application oblivious\nto the change. Especially in a setting where the data definition is shared by\nmultiple applications, the publisher can update the policies without requiring\nthe dependent applications to make any changes beyond updating the dependency\nversion.",
+    "updated" : "2024-11-20T16:02:55Z",
+    "published" : "2024-11-10T00:28:58Z",
+    "authors" : [
+      {
+        "name" : "Sinan Pehlivanoglu"
+      },
+      {
+        "name" : "Malte Schwarzkopf"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.SY",
+      "eess.SY"
+    ]
   }
 ]
