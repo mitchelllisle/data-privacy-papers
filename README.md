@@ -1207,34 +1207,6 @@ secure online environments, particularly for younger users.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.14931v1">"Ghost of the past": identifying and resolving privacy leakage from
-  LLM's memory through proactive user interaction</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2024-10-19T01:35:26Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shuning Zhang, Lyumanshan Ye, Xin Yi, Jingyu Tang, Bo Shui, Haobin Xing, Pengfei Liu, Hewu Li</p>
-    <p><b>Summary:</b> Memories, encompassing past inputs in context window and retrieval-augmented
-generation (RAG), frequently surface during human-LLM interactions, yet users
-are often unaware of their presence and the associated privacy risks. To
-address this, we propose MemoAnalyzer, a system for identifying, visualizing,
-and managing private information within memories. A semi-structured interview
-(N=40) revealed that low privacy awareness was the primary challenge, while
-proactive privacy control emerged as the most common user need. MemoAnalyzer
-uses a prompt-based method to infer and identify sensitive information from
-aggregated past inputs, allowing users to easily modify sensitive content.
-Background color temperature and transparency are mapped to inference
-confidence and sensitivity, streamlining privacy adjustments. A 5-day
-evaluation (N=36) comparing MemoAnalyzer with the default GPT setting and a
-manual modification baseline showed MemoAnalyzer significantly improved privacy
-awareness and protection without compromising interaction speed. Our study
-contributes to privacy-conscious LLM design, offering insights into privacy
-protection for Human-AI interactions.</p>
-  </details>
-</div>
-
-
 
 <h2>2024-11</h2>
 
@@ -1290,6 +1262,31 @@ protected in Information Technology (IT) systems. On the contrary, the right to
 object by granting and with-drawing consent is perceived as the least
 protected. Second, the study shows evidence of a social dilemma in people
 perception of digital privacy based on their context and culture.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.13598v1">Preserving Expert-Level Privacy in Offline Reinforcement Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-11-18T21:26:53Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Navodita Sharma, Vishnu Vinod, Abhradeep Thakurta, Alekh Agarwal, Borja Balle, Christoph Dann, Aravindan Raghuveer</p>
+    <p><b>Summary:</b> The offline reinforcement learning (RL) problem aims to learn an optimal
+policy from historical data collected by one or more behavioural policies
+(experts) by interacting with an environment. However, the individual experts
+may be privacy-sensitive in that the learnt policy may retain information about
+their precise choices. In some domains like personalized retrieval, advertising
+and healthcare, the expert choices are considered sensitive data. To provably
+protect the privacy of such experts, we propose a novel consensus-based
+expert-level differentially private offline RL training approach compatible
+with any existing offline RL algorithm. We prove rigorous differential privacy
+guarantees, while maintaining strong empirical performance. Unlike existing
+work in differentially private RL, we supplement the theory with
+proof-of-concept experiments on classic RL environments featuring large
+continuous state spaces, demonstrating substantial improvements over a natural
+baseline across multiple tasks.</p>
   </details>
 </div>
 
