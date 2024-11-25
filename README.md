@@ -1115,100 +1115,99 @@ the report noisy max mechanism.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.15369v1">Ethical AI in Retail: Consumer Privacy and Fairness</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2024-10-20T12:00:14Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Anthonette Adanyin</p>
-    <p><b>Summary:</b> The adoption of artificial intelligence (AI) in retail has significantly
-transformed the industry, enabling more personalized services and efficient
-operations. However, the rapid implementation of AI technologies raises ethical
-concerns, particularly regarding consumer privacy and fairness. This study aims
-to analyze the ethical challenges of AI applications in retail, explore ways
-retailers can implement AI technologies ethically while remaining competitive,
-and provide recommendations on ethical AI practices. A descriptive survey
-design was used to collect data from 300 respondents across major e-commerce
-platforms. Data were analyzed using descriptive statistics, including
-percentages and mean scores. Findings shows a high level of concerns among
-consumers regarding the amount of personal data collected by AI-driven retail
-applications, with many expressing a lack of trust in how their data is
-managed. Also, fairness is another major issue, as a majority believe AI
-systems do not treat consumers equally, raising concerns about algorithmic
-bias. It was also found that AI can enhance business competitiveness and
-efficiency without compromising ethical principles, such as data privacy and
-fairness. Data privacy and transparency were highlighted as critical areas
-where retailers need to focus their efforts, indicating a strong demand for
-stricter data protection protocols and ongoing scrutiny of AI systems. The
-study concludes that retailers must prioritize transparency, fairness, and data
-protection when deploying AI systems. The study recommends ensuring
-transparency in AI processes, conducting regular audits to address biases,
-incorporating consumer feedback in AI development, and emphasizing consumer
-data privacy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.15044v1">Adanonymizer: Interactively Navigating and Balancing the Duality of
-  Privacy and Output Performance in Human-LLM Interaction</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2024-10-19T09:04:01Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shuning Zhang, Xin Yi, Haobin Xing, Lyumanshan Ye, Yongquan Hu, Hewu Li</p>
-    <p><b>Summary:</b> Current Large Language Models (LLMs) cannot support users to precisely
-balance privacy protection and output performance during individual
-consultations. We introduce Adanonymizer, an anonymization plug-in that allows
-users to control this balance by navigating a trade-off curve. A survey (N=221)
-revealed a privacy paradox, where users frequently disclosed sensitive
-information despite acknowledging privacy risks. The study further demonstrated
-that privacy risks were not significantly correlated with model output
-performance, highlighting the potential to navigate this trade-off.
-Adanonymizer normalizes privacy and utility ratings by type and automates the
-pseudonymization of sensitive terms based on user preferences, significantly
-reducing user effort. Its 2D color palette interface visualizes the
-privacy-utility trade-off, allowing users to adjust the balance by manipulating
-a point. An evaluation (N=36) compared Adanonymizer with ablation methods and
-differential privacy techniques, where Adanonymizer significantly reduced
-modification time, achieved better perceived model performance and overall user
-preference.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.14960v1">Dual-Technique Privacy & Security Analysis for E-Commerce Websites
-  Through Automated and Manual Implementation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2024-10-19T03:25:48Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Urvashi Kishnani, Sanchari Das</p>
-    <p><b>Summary:</b> As e-commerce continues to expand, the urgency for stronger privacy and
-security measures becomes increasingly critical, particularly on platforms
-frequented by younger users who are often less aware of potential risks. In our
-analysis of 90 US-based e-commerce websites, we employed a dual-technique
-approach, combining automated tools with manual evaluations. Tools like
-CookieServe and PrivacyCheck revealed that 38.5% of the websites deployed over
-50 cookies per session, many of which were categorized as unnecessary or
-unclear in function, posing significant risks to users' Personally Identifiable
-Information (PII). Our manual assessment further uncovered critical gaps in
-standard security practices, including the absence of mandatory multi-factor
-authentication (MFA) and breach notification protocols. Additionally, we
-observed inadequate input validation, which compromises the integrity of user
-data and transactions. Based on these findings, we recommend targeted
-improvements to privacy policies, enhanced transparency in cookie usage, and
-the implementation of stronger authentication protocols. These measures are
-essential for ensuring compliance with CCPA and COPPA, thereby fostering more
-secure online environments, particularly for younger users.</p>
-  </details>
-</div>
-
-
 
 <h2>2024-11</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.14718v1">GraphTheft: Quantifying Privacy Risks in Graph Prompt Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-11-22T04:10:49Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jiani Zhu, Xi Lin, Yuxin Qi, Qinghua Mao</p>
+    <p><b>Summary:</b> Graph Prompt Learning (GPL) represents an innovative approach in graph
+representation learning, enabling task-specific adaptations by fine-tuning
+prompts without altering the underlying pre-trained model. Despite its growing
+prominence, the privacy risks inherent in GPL remain unexplored. In this study,
+we provide the first evaluation of privacy leakage in GPL across three attacker
+capabilities: black-box attacks when GPL as a service, and scenarios where node
+embeddings and prompt representations are accessible to third parties. We
+assess GPL's privacy vulnerabilities through Attribute Inference Attacks (AIAs)
+and Link Inference Attacks (LIAs), finding that under any capability, attackers
+can effectively infer the properties and relationships of sensitive nodes, and
+the success rate of inference on some data sets is as high as 98%. Importantly,
+while targeted inference attacks on specific prompts (e.g., GPF-plus) maintain
+high success rates, our analysis suggests that the prompt-tuning in GPL does
+not significantly elevate privacy risks compared to traditional GNNs. To
+mitigate these risks, we explored defense mechanisms, identifying that
+Laplacian noise perturbation can substantially reduce inference success, though
+balancing privacy protection with model performance remains challenging. This
+work highlights critical privacy risks in GPL, offering new insights and
+foundational directions for future privacy-preserving strategies in graph
+learning.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.14565v1">Privacy-Preserving Video Anomaly Detection: A Survey</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-11-21T20:29:59Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jing Liu, Yang Liu, Xiaoguang Zhu</p>
+    <p><b>Summary:</b> Video Anomaly Detection (VAD) aims to automatically analyze spatiotemporal
+patterns in surveillance videos collected from open spaces to detect anomalous
+events that may cause harm without physical contact. However, vision-based
+surveillance systems such as closed-circuit television often capture personally
+identifiable information. The lack of transparency and interpretability in
+video transmission and usage raises public concerns about privacy and ethics,
+limiting the real-world application of VAD. Recently, researchers have focused
+on privacy concerns in VAD by conducting systematic studies from various
+perspectives including data, features, and systems, making Privacy-Preserving
+Video Anomaly Detection (P2VAD) a hotspot in the AI community. However, current
+research in P2VAD is fragmented, and prior reviews have mostly focused on
+methods using RGB sequences, overlooking privacy leakage and appearance bias
+considerations. To address this gap, this article systematically reviews the
+progress of P2VAD for the first time, defining its scope and providing an
+intuitive taxonomy. We outline the basic assumptions, learning frameworks, and
+optimization objectives of various approaches, analyzing their strengths,
+weaknesses, and potential correlations. Additionally, we provide open access to
+research resources such as benchmark datasets and available code. Finally, we
+discuss key challenges and future opportunities from the perspectives of AI
+development and P2VAD deployment, aiming to guide future work in the field.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.14557v1">Privacy-Preserving Power Flow Analysis via Secure Multi-Party
+  Computation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36"> 
+  <p><b>Published on:</b> 2024-11-21T20:04:16Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jonas von der Heyden, Nils Schlüter, Philipp Binfet, Martin Asman, Markus Zdrallek, Tibor Jager, Moritz Schulze Darup</p>
+    <p><b>Summary:</b> Smart grids feature a bidirectional flow of electricity and data, enhancing
+flexibility, efficiency, and reliability in increasingly volatile energy grids.
+However, data from smart meters can reveal sensitive private information.
+Consequently, the adoption of smart meters is often restricted via legal means
+and hampered by limited user acceptance. Since metering data is beneficial for
+fault-free grid operation, power management, and resource allocation, applying
+privacy-preserving techniques to smart metering data is an important research
+problem. This work addresses this by using secure multi-party computation
+(SMPC), allowing multiple parties to jointly evaluate functions of their
+private inputs without revealing the latter. Concretely, we show how to perform
+power flow analysis on cryptographically hidden prosumer data. More precisely,
+we present a tailored solution to the power flow problem building on an SMPC
+implementation of Newtons method. We analyze the security of our approach in
+the universal composability framework and provide benchmarks for various grid
+types, threat models, and solvers. Our results indicate that secure multi-party
+computation can be able to alleviate privacy issues in smart grids in certain
+applications.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2411.12451v1">Empirical Privacy Evaluations of Generative and Predictive Machine
@@ -1695,7 +1694,7 @@ all functional DP notions.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.09064v1">Minimax Optimal Two-Sample Testing under Local Differential Privacy</a></h3>
+  <h3><a href="http://arxiv.org/abs/2411.09064v2">Minimax Optimal Two-Sample Testing under Local Differential Privacy</a></h3>
    <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
   <p><b>Published on:</b> 2024-11-13T22:44:25Z</p>
   <details>
