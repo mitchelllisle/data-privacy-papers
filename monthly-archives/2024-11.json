@@ -1732,5 +1732,111 @@
       "cs.CR",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.14718v1",
+    "title" : "GraphTheft: Quantifying Privacy Risks in Graph Prompt Learning",
+    "summary" : "Graph Prompt Learning (GPL) represents an innovative approach in graph\nrepresentation learning, enabling task-specific adaptations by fine-tuning\nprompts without altering the underlying pre-trained model. Despite its growing\nprominence, the privacy risks inherent in GPL remain unexplored. In this study,\nwe provide the first evaluation of privacy leakage in GPL across three attacker\ncapabilities: black-box attacks when GPL as a service, and scenarios where node\nembeddings and prompt representations are accessible to third parties. We\nassess GPL's privacy vulnerabilities through Attribute Inference Attacks (AIAs)\nand Link Inference Attacks (LIAs), finding that under any capability, attackers\ncan effectively infer the properties and relationships of sensitive nodes, and\nthe success rate of inference on some data sets is as high as 98%. Importantly,\nwhile targeted inference attacks on specific prompts (e.g., GPF-plus) maintain\nhigh success rates, our analysis suggests that the prompt-tuning in GPL does\nnot significantly elevate privacy risks compared to traditional GNNs. To\nmitigate these risks, we explored defense mechanisms, identifying that\nLaplacian noise perturbation can substantially reduce inference success, though\nbalancing privacy protection with model performance remains challenging. This\nwork highlights critical privacy risks in GPL, offering new insights and\nfoundational directions for future privacy-preserving strategies in graph\nlearning.",
+    "updated" : "2024-11-22T04:10:49Z",
+    "published" : "2024-11-22T04:10:49Z",
+    "authors" : [
+      {
+        "name" : "Jiani Zhu"
+      },
+      {
+        "name" : "Xi Lin"
+      },
+      {
+        "name" : "Yuxin Qi"
+      },
+      {
+        "name" : "Qinghua Mao"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.14565v1",
+    "title" : "Privacy-Preserving Video Anomaly Detection: A Survey",
+    "summary" : "Video Anomaly Detection (VAD) aims to automatically analyze spatiotemporal\npatterns in surveillance videos collected from open spaces to detect anomalous\nevents that may cause harm without physical contact. However, vision-based\nsurveillance systems such as closed-circuit television often capture personally\nidentifiable information. The lack of transparency and interpretability in\nvideo transmission and usage raises public concerns about privacy and ethics,\nlimiting the real-world application of VAD. Recently, researchers have focused\non privacy concerns in VAD by conducting systematic studies from various\nperspectives including data, features, and systems, making Privacy-Preserving\nVideo Anomaly Detection (P2VAD) a hotspot in the AI community. However, current\nresearch in P2VAD is fragmented, and prior reviews have mostly focused on\nmethods using RGB sequences, overlooking privacy leakage and appearance bias\nconsiderations. To address this gap, this article systematically reviews the\nprogress of P2VAD for the first time, defining its scope and providing an\nintuitive taxonomy. We outline the basic assumptions, learning frameworks, and\noptimization objectives of various approaches, analyzing their strengths,\nweaknesses, and potential correlations. Additionally, we provide open access to\nresearch resources such as benchmark datasets and available code. Finally, we\ndiscuss key challenges and future opportunities from the perspectives of AI\ndevelopment and P2VAD deployment, aiming to guide future work in the field.",
+    "updated" : "2024-11-21T20:29:59Z",
+    "published" : "2024-11-21T20:29:59Z",
+    "authors" : [
+      {
+        "name" : "Jing Liu"
+      },
+      {
+        "name" : "Yang Liu"
+      },
+      {
+        "name" : "Xiaoguang Zhu"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.14557v1",
+    "title" : "Privacy-Preserving Power Flow Analysis via Secure Multi-Party\n  Computation",
+    "summary" : "Smart grids feature a bidirectional flow of electricity and data, enhancing\nflexibility, efficiency, and reliability in increasingly volatile energy grids.\nHowever, data from smart meters can reveal sensitive private information.\nConsequently, the adoption of smart meters is often restricted via legal means\nand hampered by limited user acceptance. Since metering data is beneficial for\nfault-free grid operation, power management, and resource allocation, applying\nprivacy-preserving techniques to smart metering data is an important research\nproblem. This work addresses this by using secure multi-party computation\n(SMPC), allowing multiple parties to jointly evaluate functions of their\nprivate inputs without revealing the latter. Concretely, we show how to perform\npower flow analysis on cryptographically hidden prosumer data. More precisely,\nwe present a tailored solution to the power flow problem building on an SMPC\nimplementation of Newtons method. We analyze the security of our approach in\nthe universal composability framework and provide benchmarks for various grid\ntypes, threat models, and solvers. Our results indicate that secure multi-party\ncomputation can be able to alleviate privacy issues in smart grids in certain\napplications.",
+    "updated" : "2024-11-21T20:04:16Z",
+    "published" : "2024-11-21T20:04:16Z",
+    "authors" : [
+      {
+        "name" : "Jonas von der Heyden"
+      },
+      {
+        "name" : "Nils Schlüter"
+      },
+      {
+        "name" : "Philipp Binfet"
+      },
+      {
+        "name" : "Martin Asman"
+      },
+      {
+        "name" : "Markus Zdrallek"
+      },
+      {
+        "name" : "Tibor Jager"
+      },
+      {
+        "name" : "Moritz Schulze Darup"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.SY",
+      "eess.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.09064v2",
+    "title" : "Minimax Optimal Two-Sample Testing under Local Differential Privacy",
+    "summary" : "We explore the trade-off between privacy and statistical utility in private\ntwo-sample testing under local differential privacy (LDP) for both multinomial\nand continuous data. We begin by addressing the multinomial case, where we\nintroduce private permutation tests using practical privacy mechanisms such as\nLaplace, discrete Laplace, and Google's RAPPOR. We then extend our multinomial\napproach to continuous data via binning and study its uniform separation rates\nunder LDP over H\\\"older and Besov smoothness classes. The proposed tests for\nboth discrete and continuous cases rigorously control the type I error for any\nfinite sample size, strictly adhere to LDP constraints, and achieve minimax\nseparation rates under LDP. The attained minimax rates reveal inherent\nprivacy-utility trade-offs that are unavoidable in private testing. To address\nscenarios with unknown smoothness parameters in density testing, we propose an\nadaptive test based on a Bonferroni-type approach that ensures robust\nperformance without prior knowledge of the smoothness parameters. We validate\nour theoretical findings with extensive numerical experiments and demonstrate\nthe practical relevance and effectiveness of our proposed methods.",
+    "updated" : "2024-11-22T07:00:06Z",
+    "published" : "2024-11-13T22:44:25Z",
+    "authors" : [
+      {
+        "name" : "Jongmin Mun"
+      },
+      {
+        "name" : "Seungwoo Kwak"
+      },
+      {
+        "name" : "Ilmun Kim"
+      }
+    ],
+    "categories" : [
+      "stat.ML",
+      "cs.CR",
+      "cs.LG",
+      "62G10"
+    ]
   }
 ]
