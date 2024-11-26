@@ -2975,5 +2975,38 @@
       "cs.AI",
       "I.2.6"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.18418v2",
+    "title" : "Knowledge-Assisted Privacy Preserving in Semantic Communication",
+    "summary" : "Semantic communication (SC) offers promising advancements in data\ntransmission efficiency and reliability by focusing on delivering true meaning\nrather than solely binary bits of messages. However, privacy concerns in SC\nmight become outstanding. Eavesdroppers equipped with advanced semantic coding\nmodels and extensive knowledge could be capable of correctly decoding and\nreasoning sensitive semantics from just a few stolen bits. To this end, this\narticle explores utilizing knowledge to enhance data privacy in SC networks.\nSpecifically, we first identify the potential attacks in SC based on the\nanalysis of knowledge. Then, we propose a knowledge-assisted privacy preserving\nSC framework, which consists of a data transmission layer for precisely\nencoding and decoding source messages, and a knowledge management layer\nresponsible for injecting appropriate knowledge into the transmission pair.\nMoreover, we elaborate on the transceiver design in the proposed SC framework\nto explain how knowledge should be utilized properly. Finally, some challenges\nof the proposed SC framework are discussed to expedite the practical\nimplementation.",
+    "updated" : "2024-11-23T22:53:46Z",
+    "published" : "2024-10-24T04:05:20Z",
+    "authors" : [
+      {
+        "name" : "Xuesong Liu"
+      },
+      {
+        "name" : "Yao Sun"
+      },
+      {
+        "name" : "Runze Cheng"
+      },
+      {
+        "name" : "Le Xia"
+      },
+      {
+        "name" : "Hanaa Abumarshoud"
+      },
+      {
+        "name" : "Lei Zhang"
+      },
+      {
+        "name" : "Muhammad Ali Imran"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
