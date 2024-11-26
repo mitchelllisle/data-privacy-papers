@@ -1838,5 +1838,312 @@
       "cs.LG",
       "62G10"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.16516v1",
+    "title" : "Curator Attack: When Blackbox Differential Privacy Auditing Loses Its\n  Power",
+    "summary" : "A surge in data-driven applications enhances everyday life but also raises\nserious concerns about private information leakage. Hence many privacy auditing\ntools are emerging for checking if the data sanitization performed meets the\nprivacy standard of the data owner. Blackbox auditing for differential privacy\nis particularly gaining popularity for its effectiveness and applicability to a\nwide range of scenarios. Yet, we identified that blackbox auditing is\nessentially flawed with its setting: small probabilities or densities are\nignored due to inaccurate observation. Our argument is based on a solid false\npositive analysis from a hypothesis testing perspective, which is missed out by\nprior blackbox auditing tools. This oversight greatly reduces the reliability\nof these tools, as it allows malicious or incapable data curators to pass the\nauditing with an overstated privacy guarantee, posing significant risks to data\nowners. We demonstrate the practical existence of such threats in classical\ndifferential privacy mechanisms against four representative blackbox auditors\nwith experimental validations. Our findings aim to reveal the limitations of\nblackbox auditing tools, empower the data owner with the awareness of risks in\nusing these tools, and encourage the development of more reliable differential\nprivacy auditing methods.",
+    "updated" : "2024-11-25T16:00:04Z",
+    "published" : "2024-11-25T16:00:04Z",
+    "authors" : [
+      {
+        "name" : "Shiming Wang"
+      },
+      {
+        "name" : "Liyao Xiang"
+      },
+      {
+        "name" : "Bowei Cheng"
+      },
+      {
+        "name" : "Zhe Ji"
+      },
+      {
+        "name" : "Tianran Sun"
+      },
+      {
+        "name" : "Xinbing Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.16440v1",
+    "title" : "AnonyNoise: Anonymizing Event Data with Smart Noise to Outsmart\n  Re-Identification and Preserve Privacy",
+    "summary" : "The increasing capabilities of deep neural networks for re-identification,\ncombined with the rise in public surveillance in recent years, pose a\nsubstantial threat to individual privacy. Event cameras were initially\nconsidered as a promising solution since their output is sparse and therefore\ndifficult for humans to interpret. However, recent advances in deep learning\nproof that neural networks are able to reconstruct high-quality grayscale\nimages and re-identify individuals using data from event cameras. In our paper,\nwe contribute a crucial ethical discussion on data privacy and present the\nfirst event anonymization pipeline to prevent re-identification not only by\nhumans but also by neural networks. Our method effectively introduces learnable\ndata-dependent noise to cover personally identifiable information in raw event\ndata, reducing attackers' re-identification capabilities by up to 60%, while\nmaintaining substantial information for the performing of downstream tasks.\nMoreover, our anonymization generalizes well on unseen data and is robust\nagainst image reconstruction and inversion attacks. Code:\nhttps://github.com/dfki-av/AnonyNoise",
+    "updated" : "2024-11-25T14:43:03Z",
+    "published" : "2024-11-25T14:43:03Z",
+    "authors" : [
+      {
+        "name" : "Katharina Bendig"
+      },
+      {
+        "name" : "René Schuster"
+      },
+      {
+        "name" : "Nicole Thiemer"
+      },
+      {
+        "name" : "Karen Joisten"
+      },
+      {
+        "name" : "Didier Stricker"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.16437v1",
+    "title" : "Privacy Protection in Personalized Diffusion Models via Targeted\n  Cross-Attention Adversarial Attack",
+    "summary" : "The growing demand for customized visual content has led to the rise of\npersonalized text-to-image (T2I) diffusion models. Despite their remarkable\npotential, they pose significant privacy risk when misused for malicious\npurposes. In this paper, we propose a novel and efficient adversarial attack\nmethod, Concept Protection by Selective Attention Manipulation (CoPSAM) which\ntargets only the cross-attention layers of a T2I diffusion model. For this\npurpose, we carefully construct an imperceptible noise to be added to clean\nsamples to get their adversarial counterparts. This is obtained during the\nfine-tuning process by maximizing the discrepancy between the corresponding\ncross-attention maps of the user-specific token and the class-specific token,\nrespectively. Experimental validation on a subset of CelebA-HQ face images\ndataset demonstrates that our approach outperforms existing methods. Besides\nthis, our method presents two important advantages derived from the qualitative\nevaluation: (i) we obtain better protection results for lower noise levels than\nour competitors; and (ii) we protect the content from unauthorized use thereby\nprotecting the individual's identity from potential misuse.",
+    "updated" : "2024-11-25T14:39:18Z",
+    "published" : "2024-11-25T14:39:18Z",
+    "authors" : [
+      {
+        "name" : "Xide Xu"
+      },
+      {
+        "name" : "Muhammad Atif Butt"
+      },
+      {
+        "name" : "Sandesh Kamath"
+      },
+      {
+        "name" : "Bogdan Raducanu"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.16404v1",
+    "title" : "A Survey of Blockchain-Based Privacy Applications: An Analysis of\n  Consent Management and Self-Sovereign Identity Approaches",
+    "summary" : "Modern distributed applications in healthcare, supply chain, and the Internet\nof Things handle a large amount of data in a diverse application setting with\nmultiple stakeholders. Such applications leverage advanced artificial\nintelligence (AI) and machine learning algorithms to automate business\nprocesses. The proliferation of modern AI technologies increases the data\ndemand. However, real-world networks often include private and sensitive\ninformation of businesses, users, and other organizations. Emerging\ndata-protection regulations such as the General Data Protection Regulation\n(GDPR) and the California Consumer Privacy Act (CCPA) introduce policies around\ncollecting, storing, and managing digital data. While Blockchain technology\noffers transparency, auditability, and immutability for multi-stakeholder\napplications, it lacks inherent support for privacy. Typically, privacy support\nis added to a blockchain-based application by incorporating cryptographic\nschemes, consent mechanisms, and self-sovereign identity. This article surveys\nthe literature on blockchain-based privacy-preserving systems and identifies\nthe tools for protecting privacy. Besides, consent mechanisms and identity\nmanagement in the context of blockchain-based systems are also analyzed. The\narticle concludes by highlighting the list of open challenges and further\nresearch opportunities.",
+    "updated" : "2024-11-25T14:10:30Z",
+    "published" : "2024-11-25T14:10:30Z",
+    "authors" : [
+      {
+        "name" : "Rodrigo Dutra Garcia"
+      },
+      {
+        "name" : "Gowri Ramachandran"
+      },
+      {
+        "name" : "Kealan Dunnett"
+      },
+      {
+        "name" : "Raja Jurdak"
+      },
+      {
+        "name" : "Caetano Ranieri"
+      },
+      {
+        "name" : "Bhaskar Krishnamachari"
+      },
+      {
+        "name" : "Jo Ueyama"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.ET"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.16380v1",
+    "title" : "Privacy-Preserving Federated Foundation Model for Generalist Ultrasound\n  Artificial Intelligence",
+    "summary" : "Ultrasound imaging is widely used in clinical diagnosis due to its\nnon-invasive nature and real-time capabilities. However, conventional\nultrasound diagnostics face several limitations, including high dependence on\nphysician expertise and suboptimal image quality, which complicates\ninterpretation and increases the likelihood of diagnostic errors. Artificial\nintelligence (AI) has emerged as a promising solution to enhance clinical\ndiagnosis, particularly in detecting abnormalities across various biomedical\nimaging modalities. Nonetheless, current AI models for ultrasound imaging face\ncritical challenges. First, these models often require large volumes of labeled\nmedical data, raising concerns over patient privacy breaches. Second, most\nexisting models are task-specific, which restricts their broader clinical\nutility. To overcome these challenges, we present UltraFedFM, an innovative\nprivacy-preserving ultrasound foundation model. UltraFedFM is collaboratively\npre-trained using federated learning across 16 distributed medical institutions\nin 9 countries, leveraging a dataset of over 1 million ultrasound images\ncovering 19 organs and 10 ultrasound modalities. This extensive and diverse\ndata, combined with a secure training framework, enables UltraFedFM to exhibit\nstrong generalization and diagnostic capabilities. It achieves an average area\nunder the receiver operating characteristic curve of 0.927 for disease\ndiagnosis and a dice similarity coefficient of 0.878 for lesion segmentation.\nNotably, UltraFedFM surpasses the diagnostic accuracy of mid-level\nultrasonographers and matches the performance of expert-level sonographers in\nthe joint diagnosis of 8 common systemic diseases. These findings indicate that\nUltraFedFM can significantly enhance clinical diagnostics while safeguarding\npatient privacy, marking an advancement in AI-driven ultrasound imaging for\nfuture clinical applications.",
+    "updated" : "2024-11-25T13:40:11Z",
+    "published" : "2024-11-25T13:40:11Z",
+    "authors" : [
+      {
+        "name" : "Yuncheng Jiang"
+      },
+      {
+        "name" : "Chun-Mei Feng"
+      },
+      {
+        "name" : "Jinke Ren"
+      },
+      {
+        "name" : "Jun Wei"
+      },
+      {
+        "name" : "Zixun Zhang"
+      },
+      {
+        "name" : "Yiwen Hu"
+      },
+      {
+        "name" : "Yunbi Liu"
+      },
+      {
+        "name" : "Rui Sun"
+      },
+      {
+        "name" : "Xuemei Tang"
+      },
+      {
+        "name" : "Juan Du"
+      },
+      {
+        "name" : "Xiang Wan"
+      },
+      {
+        "name" : "Yong Xu"
+      },
+      {
+        "name" : "Bo Du"
+      },
+      {
+        "name" : "Xin Gao"
+      },
+      {
+        "name" : "Guangyu Wang"
+      },
+      {
+        "name" : "Shaohua Zhou"
+      },
+      {
+        "name" : "Shuguang Cui"
+      },
+      {
+        "name" : "Rick Siow Mong Goh"
+      },
+      {
+        "name" : "Yong Liu"
+      },
+      {
+        "name" : "Zhen Li"
+      }
+    ],
+    "categories" : [
+      "eess.IV",
+      "cs.AI",
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.16340v1",
+    "title" : "Exploring Privacy and Security as Drivers for Environmental\n  Sustainability in Cloud-Based Office Solutions (Extended Abstract)",
+    "summary" : "This paper explores the intersection of privacy, cybersecurity, and\nenvironmental impacts, specifically energy consumption and carbon emissions, in\ncloud-based office solutions. We hypothesise that solutions that emphasise\nprivacy and security are typically \"greener\" than solutions that are financed\nthrough data collection and advertising. To test our hypothesis, we first\ninvestigate how the underlying architectures and business models of these\nservices, e.g., monetisation through (personalised) advertising, contribute to\nthe services' environmental impact. We then explore commonly used methodologies\nand identify tools that facilitate environmental assessments of software\nsystems. By combining these tools, we develop an approach to systematically\nassess the environmental footprint of the user-side of online services, which\nwe apply to investigate and compare the influence of service design and\nad-blocking technology on the emissions of common web-mail services. Our\nmeasurements of a limited selection of such services does not yet conclusively\nsupport or falsify our hypothesis regarding primary impacts. However, we are\nalready able to identify the greener web-mail services on the user-side and\ncontinue the investigation towards conclusive assessment strategies for online\noffice solutions.",
+    "updated" : "2024-11-25T12:36:25Z",
+    "published" : "2024-11-25T12:36:25Z",
+    "authors" : [
+      {
+        "name" : "Jason Kayembe"
+      },
+      {
+        "name" : "Iness Ben Guirat"
+      },
+      {
+        "name" : "Jan Tobias Muehlberg"
+      }
+    ],
+    "categories" : [
+      "cs.SE",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.16121v1",
+    "title" : "DP-CDA: An Algorithm for Enhanced Privacy Preservation in Dataset\n  Synthesis Through Randomized Mixing",
+    "summary" : "In recent years, the growth of data across various sectors, including\nhealthcare, security, finance, and education, has created significant\nopportunities for analysis and informed decision-making. However, these\ndatasets often contain sensitive and personal information, which raises serious\nprivacy concerns. Protecting individual privacy is crucial, yet many existing\nmachine learning and data publishing algorithms struggle with high-dimensional\ndata, facing challenges related to computational efficiency and privacy\npreservation. To address these challenges, we introduce an effective data\npublishing algorithm \\emph{DP-CDA}. Our proposed algorithm generates synthetic\ndatasets by randomly mixing data in a class-specific manner, and inducing\ncarefully-tuned randomness to ensure formal privacy guarantees. Our\ncomprehensive privacy accounting shows that DP-CDA provides a stronger privacy\nguarantee compared to existing methods, allowing for better utility while\nmaintaining strict level of privacy. To evaluate the effectiveness of DP-CDA,\nwe examine the accuracy of predictive models trained on the synthetic data,\nwhich serves as a measure of dataset utility. Importantly, we identify an\noptimal order of mixing that balances privacy guarantee with predictive\naccuracy. Our results indicate that synthetic datasets produced using the\nDP-CDA can achieve superior utility compared to those generated by traditional\ndata publishing algorithms, even when subject to the same privacy requirements.",
+    "updated" : "2024-11-25T06:14:06Z",
+    "published" : "2024-11-25T06:14:06Z",
+    "authors" : [
+      {
+        "name" : "Utsab Saha"
+      },
+      {
+        "name" : "Tanvir Muntakim Tonoy"
+      },
+      {
+        "name" : "Hafiz Imtiaz"
+      }
+    ],
+    "categories" : [
+      "stat.ML",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.15948v1",
+    "title" : "Over-the-Air Federated Adaptive Data Analysis: Preserving Accuracy via\n  Opportunistic Differential Privacy",
+    "summary" : "Adaptive data analysis (ADA) involves a dynamic interaction between an\nanalyst and a dataset owner, where the analyst submits queries sequentially,\nadapting them based on previous answers. This process can become adversarial,\nas the analyst may attempt to overfit by targeting non-generalizable patterns\nin the data. To counteract this, the dataset owner introduces randomization\ntechniques, such as adding noise to the responses. This noise not only helps\nprevent overfitting but also enhances data privacy. However, it must be\ncarefully calibrated to ensure that the statistical reliability of the\nresponses is not compromised. In this paper, we extend the ADA problem to the\ncontext of distributed datasets. Specifically, we consider a scenario where a\npotentially adversarial analyst interacts with multiple distributed responders\nthrough adaptive queries. We assume that the responses are subject to noise\nintroduced by the channel connecting the responders and the analyst. We\ndemonstrate how, through a federated mechanism, this noise can be\nopportunistically leveraged to enhance the generalizability of ADA, thereby\nincreasing the number of query-response interactions between the analyst and\nthe responders. We illustrate that careful tuning of the transmission\namplitude, based on the theoretically achievable bounds, can significantly\nimpact the number of accurately answerable queries.",
+    "updated" : "2024-11-24T18:26:35Z",
+    "published" : "2024-11-24T18:26:35Z",
+    "authors" : [
+      {
+        "name" : "Amir Hossein Hadavi"
+      },
+      {
+        "name" : "Mohammad M. Mojahedian"
+      },
+      {
+        "name" : "Mohammad Reza Aref"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.15796v1",
+    "title" : "Data Lineage Inference: Uncovering Privacy Vulnerabilities of Dataset\n  Pruning",
+    "summary" : "In this work, we systematically explore the data privacy issues of dataset\npruning in machine learning systems. Our findings reveal, for the first time,\nthat even if data in the redundant set is solely used before model training,\nits pruning-phase membership status can still be detected through attacks.\nSince this is a fully upstream process before model training, traditional model\noutput-based privacy inference methods are completely unsuitable. To address\nthis, we introduce a new task called Data-Centric Membership Inference and\npropose the first ever data-centric privacy inference paradigm named Data\nLineage Inference (DaLI). Under this paradigm, four threshold-based attacks are\nproposed, named WhoDis, CumDis, ArraDis and SpiDis. We show that even without\naccess to downstream models, adversaries can accurately identify the redundant\nset with only limited prior knowledge. Furthermore, we find that different\npruning methods involve varying levels of privacy leakage, and even the same\npruning method can present different privacy risks at different pruning\nfractions. We conducted an in-depth analysis of these phenomena and introduced\na metric called the Brimming score to offer guidance for selecting pruning\nmethods with privacy protection in mind.",
+    "updated" : "2024-11-24T11:46:59Z",
+    "published" : "2024-11-24T11:46:59Z",
+    "authors" : [
+      {
+        "name" : "Qi Li"
+      },
+      {
+        "name" : "Cheng-Long Wang"
+      },
+      {
+        "name" : "Yinzhi Cao"
+      },
+      {
+        "name" : "Di Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.01140v2",
+    "title" : "Privacy-Preserving Federated Learning with Differentially Private\n  Hyperdimensional Computing",
+    "summary" : "Federated Learning (FL) is essential for efficient data exchange in Internet\nof Things (IoT) environments, as it trains Machine Learning (ML) models locally\nand shares only model updates. However, FL is vulnerable to privacy threats\nlike model inversion and membership inference attacks, which can expose\nsensitive training data. To address these privacy concerns, Differential\nPrivacy (DP) mechanisms are often applied. Yet, adding DP noise to black-box ML\nmodels degrades performance, especially in dynamic IoT systems where\ncontinuous, lifelong FL learning accumulates excessive noise over time. To\nmitigate this issue, we introduce Federated HyperDimensional computing with\nPrivacy-preserving (FedHDPrivacy), an eXplainable Artificial Intelligence (XAI)\nframework that combines the neuro-symbolic paradigm with DP. FedHDPrivacy\ncarefully manages the balance between privacy and performance by theoretically\ntracking cumulative noise from previous rounds and adding only the necessary\nincremental noise to meet privacy requirements. In a real-world case study\ninvolving in-process monitoring of manufacturing machining operations,\nFedHDPrivacy demonstrates robust performance, outperforming standard FL\nframeworks-including Federated Averaging (FedAvg), Federated Stochastic\nGradient Descent (FedSGD), Federated Proximal (FedProx), Federated Normalized\nAveraging (FedNova), and Federated Adam (FedAdam)-by up to 38%. FedHDPrivacy\nalso shows potential for future enhancements, such as multimodal data fusion.",
+    "updated" : "2024-11-25T02:23:02Z",
+    "published" : "2024-11-02T05:00:44Z",
+    "authors" : [
+      {
+        "name" : "Fardin Jalil Piran"
+      },
+      {
+        "name" : "Zhiling Chen"
+      },
+      {
+        "name" : "Mohsen Imani"
+      },
+      {
+        "name" : "Farhad Imani"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR",
+      "stat.ML"
+    ]
   }
 ]
