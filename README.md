@@ -638,7 +638,7 @@ https://github.com/shallowdream204/DreamClear.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.18418v1">Knowledge-Assisted Privacy Preserving in Semantic Communication</a></h3>
+  <h3><a href="http://arxiv.org/abs/2410.18418v2">Knowledge-Assisted Privacy Preserving in Semantic Communication</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2024-10-24T04:05:20Z</p>
   <details>
@@ -854,269 +854,285 @@ in the especially demanding $\epsilon<1$ regime.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.16975v1">Publishing Neural Networks in Drug Discovery Might Compromise Training
-  Data Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-10-22T12:55:02Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Fabian P. Krüger, Johan Östman, Lewis Mervin, Igor V. Tetko, Ola Engkvist</p>
-    <p><b>Summary:</b> This study investigates the risks of exposing confidential chemical
-structures when machine learning models trained on these structures are made
-publicly available. We use membership inference attacks, a common method to
-assess privacy that is largely unexplored in the context of drug discovery, to
-examine neural networks for molecular property prediction in a black-box
-setting. Our results reveal significant privacy risks across all evaluated
-datasets and neural network architectures. Combining multiple attacks increases
-these risks. Molecules from minority classes, often the most valuable in drug
-discovery, are particularly vulnerable. We also found that representing
-molecules as graphs and using message-passing neural networks may mitigate
-these risks. We provide a framework to assess privacy risks of classification
-models and molecular representations. Our findings highlight the need for
-careful consideration when sharing neural networks trained on proprietary
-chemical structures, informing organisations and researchers about the
-trade-offs between data confidentiality and model openness.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.16705v1">Privacy-hardened and hallucination-resistant synthetic data generation
-  with logic-solvers</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-10-22T05:20:21Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mark A. Burgess, Brendan Hosking, Roc Reguant, Anubhav Kaphle, Mitchell J. O'Brien, Letitia M. F. Sng, Yatish Jain, Denis C. Bauer</p>
-    <p><b>Summary:</b> Machine-generated data is a valuable resource for training Artificial
-Intelligence algorithms, evaluating rare workflows, and sharing data under
-stricter data legislations. The challenge is to generate data that is accurate
-and private. Current statistical and deep learning methods struggle with large
-data volumes, are prone to hallucinating scenarios incompatible with reality,
-and seldom quantify privacy meaningfully. Here we introduce Genomator, a logic
-solving approach (SAT solving), which efficiently produces private and
-realistic representations of the original data. We demonstrate the method on
-genomic data, which arguably is the most complex and private information.
-Synthetic genomes hold great potential for balancing underrepresented
-populations in medical research and advancing global data exchange. We
-benchmark Genomator against state-of-the-art methodologies (Markov generation,
-Restricted Boltzmann Machine, Generative Adversarial Network and Conditional
-Restricted Boltzmann Machines), demonstrating an 84-93% accuracy improvement
-and 95-98% higher privacy. Genomator is also 1000-1600 times more efficient,
-making it the only tested method that scales to whole genomes. We show the
-universal trade-off between privacy and accuracy, and use Genomator's tuning
-capability to cater to all applications along the spectrum, from provable
-private representations of sensitive cohorts, to datasets with
-indistinguishable pharmacogenomic profiles. Demonstrating the production-scale
-generation of tuneable synthetic data can increase trust and pave the way into
-the clinic.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.16672v1">DEAN: Deactivating the Coupled Neurons to Mitigate Fairness-Privacy
-  Conflicts in Large Language Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2024-10-22T04:08:27Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Chen Qian, Dongrui Liu, Jie Zhang, Yong Liu, Jing Shao</p>
-    <p><b>Summary:</b> Ensuring awareness of fairness and privacy in Large Language Models (LLMs) is
-critical. Interestingly, we discover a counter-intuitive trade-off phenomenon
-that enhancing an LLM's privacy awareness through Supervised Fine-Tuning (SFT)
-methods significantly decreases its fairness awareness with thousands of
-samples. To address this issue, inspired by the information theory, we
-introduce a training-free method to \textbf{DEA}ctivate the fairness and
-privacy coupled \textbf{N}eurons (\textbf{DEAN}), which theoretically and
-empirically decrease the mutual information between fairness and privacy
-awareness. Extensive experimental results demonstrate that DEAN eliminates the
-trade-off phenomenon and significantly improves LLMs' fairness and privacy
-awareness simultaneously, \eg improving Qwen-2-7B-Instruct's fairness awareness
-by 12.2\% and privacy awareness by 14.0\%. More crucially, DEAN remains robust
-and effective with limited annotated data or even when only malicious
-fine-tuning data is available, whereas SFT methods may fail to perform properly
-in such scenarios. We hope this study provides valuable insights into
-concurrently addressing fairness and privacy concerns in LLMs and can be
-integrated into comprehensive frameworks to develop more ethical and
-responsible AI systems. Our code is available at
-\url{https://github.com/ChnQ/DEAN}.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.16423v1">Position: Challenges and Opportunities for Differential Privacy in the
-  U.S. Federal Government</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-10-21T18:46:05Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Amol Khanna, Adam McCormick, Andre Nguyen, Chris Aguirre, Edward Raff</p>
-    <p><b>Summary:</b> In this article, we seek to elucidate challenges and opportunities for
-differential privacy within the federal government setting, as seen by a team
-of differential privacy researchers, privacy lawyers, and data scientists
-working closely with the U.S. government. After introducing differential
-privacy, we highlight three significant challenges which currently restrict the
-use of differential privacy in the U.S. government. We then provide two
-examples where differential privacy can enhance the capabilities of government
-agencies. The first example highlights how the quantitative nature of
-differential privacy allows policy security officers to release multiple
-versions of analyses with different levels of privacy. The second example,
-which we believe is a novel realization, indicates that differential privacy
-can be used to improve staffing efficiency in classified applications. We hope
-that this article can serve as a nontechnical resource which can help frame
-future action from the differential privacy community, privacy regulators,
-security officers, and lawmakers.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.16410v1">Subword Embedding from Bytes Gains Privacy without Sacrificing Accuracy
-  and Complexity</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2024-10-21T18:25:24Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mengjiao Zhang, Jia Xu</p>
-    <p><b>Summary:</b> While NLP models significantly impact our lives, there are rising concerns
-about privacy invasion. Although federated learning enhances privacy, attackers
-may recover private training data by exploiting model parameters and gradients.
-Therefore, protecting against such embedding attacks remains an open challenge.
-To address this, we propose Subword Embedding from Bytes (SEB) and encode
-subwords to byte sequences using deep neural networks, making input text
-recovery harder. Importantly, our method requires a smaller memory with $256$
-bytes of vocabulary while keeping efficiency with the same input length. Thus,
-our solution outperforms conventional approaches by preserving privacy without
-sacrificing efficiency or accuracy. Our experiments show SEB can effectively
-protect against embedding-based attacks from recovering original sentences in
-federated learning. Meanwhile, we verify that SEB obtains comparable and even
-better results over standard subword embedding methods in machine translation,
-sentiment analysis, and language modeling with even lower time and space
-complexity.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.16137v2">Privacy as Social Norm: Systematically Reducing Dysfunctional Privacy
-  Concerns on Social Media</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2024-10-21T16:03:18Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> JaeWon Kim, Soobin Cho, Robert Wolfe, Jishnu Hari Nair, Alexis Hiniker</p>
-    <p><b>Summary:</b> Privacy is essential to fully enjoying the benefits of social media. While
-fear around privacy risks can sometimes motivate privacy management, the
-negative impact of such fear, particularly when it is perceived as
-unaddressable (i.e., "dysfunctional" fear), can significantly harm teen
-well-being. In a co-design study with 136 participants aged 13-18, we explored
-how teens can protect their privacy without experiencing heightened fear. We
-identified seven different sources of dysfunctional fear, such as `fear of a
-hostile environment' and `fear of overstepping privacy norms.' We also
-evaluated ten designs, co-created with teen participants, that address these
-fears. Our findings suggest that social media platforms can mitigate
-dysfunctional fear without compromising privacy by creating a culture where
-privacy protection is the norm through default privacy-protective features.
-However, we also found that even the most effective privacy features are not
-likely to be adopted unless they balance the multifaceted and diverse needs of
-teens. Individual teens have different needs -- for example, public and private
-account users have different needs -- and teens often want to enjoy the
-benefits they get from slightly reducing privacy and widening their social
-reach. Given these considerations, augmenting default privacy features by
-allowing them to be toggled on and off will allow individual users to choose
-their own balance while still maintaining a privacy-focused norm.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.15954v2">TS-ACL: A Time Series Analytic Continual Learning Framework for
-  Privacy-Preserving and Class-Incremental Pattern Recognition</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> 
-  <p><b>Published on:</b> 2024-10-21T12:34:02Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Kejia Fan, Jiaxu Li, Songning Lai, Linpu Lv, Anfeng Liu, Jianheng Tang, Houbing Herbert Song, Yutao Yue, Huiping Zhuang</p>
-    <p><b>Summary:</b> Class-incremental pattern recognition in time series is a significant
-problem, which aims to learn from continually arriving streaming data examples
-with incremental classes. A primary challenge in this problem is catastrophic
-forgetting, where the incorporation of new data samples causes the models to
-forget previously learned information. While the replay-based methods achieve
-promising results by storing historical data to address catastrophic
-forgetting, they come with the invasion of data privacy. On the other hand, the
-exemplar-free methods preserve privacy but suffer from significantly decreased
-accuracy. To address these challenges, we proposed TS-ACL, a novel Time Series
-Analytic Continual Learning framework for privacy-preserving and
-class-incremental pattern recognition. Identifying gradient descent as the root
-of catastrophic forgetting, TS-ACL transforms each update of the model into a
-gradient-free analytical learning process with a closed-form solution. By
-leveraging a pre-trained frozen encoder for embedding extraction, TS-ACL only
-needs to recursively update an analytic classifier in a lightweight manner.
-This way, TS-ACL simultaneously achieves non-forgetting, privacy preservation,
-and lightweight consumption, making it widely suitable for various
-applications, particularly in edge computing scenarios. Extensive experiments
-on five benchmark datasets confirm the superior and robust performance of
-TS-ACL compared to existing advanced methods. Code is available at
-https://github.com/asdasdczxczq/TS-ACL.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.15942v1">A Low-Cost Privacy-Preserving Digital Wallet for Humanitarian Aid
-  Distribution</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-10-21T12:15:03Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Eva Luvison, Sylvain Chatel, Justinas Sukaitis, Vincent Graf Narbel, Carmela Troncoso, Wouter Lueks</p>
-    <p><b>Summary:</b> Humanitarian organizations distribute aid to people affected by armed
-conflicts or natural disasters. Digitalization has the potential to increase
-the efficiency and fairness of aid-distribution systems, and recent work by
-Wang et al. has shown that these benefits are possible without creating privacy
-harms for aid recipients. However, their work only provides a solution for one
-particular aid-distribution scenario in which aid recipients receive a
-pre-defined set of goods. Yet, in many situations it is desirable to enable
-recipients to decide which items they need at each moment to satisfy their
-specific needs. We formalize these needs into functional, deployment, security,
-and privacy requirements, and design a privacy-preserving digital wallet for
-aid distribution. Our smart-card-based solution enables aid recipients to spend
-a pre-defined budget at different vendors to obtain the items that they need.
-We prove our solution's security and privacy properties, and show it is
-practical at scale.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.15386v1">Formalization of Differential Privacy in Isabelle/HOL</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Logic in Computer Science-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Programming Languages-D91E36">
-  <p><b>Published on:</b> 2024-10-20T13:06:13Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Tetsuya Sato, Yasuhiko Minamide</p>
-    <p><b>Summary:</b> Differential privacy is a statistical definition of privacy that has
-attracted the interest of both academia and industry. Its formulations are easy
-to understand, but the differential privacy of databases is complicated to
-determine. One of the reasons for this is that small changes in database
-programs can break their differential privacy. Therefore, formal verification
-of differential privacy has been studied for over a decade.
-  In this paper, we propose an Isabelle/HOL library for formalizing
-differential privacy in a general setting. To our knowledge, it is the first
-formalization of differential privacy that supports continuous probability
-distributions. First, we formalize the standard definition of differential
-privacy and its basic properties. Second, we formalize the Laplace mechanism
-and its differential privacy. Finally, we formalize the differential privacy of
-the report noisy max mechanism.</p>
-  </details>
-</div>
-
-
 
 <h2>2024-11</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.16516v1">Curator Attack: When Blackbox Differential Privacy Auditing Loses Its
+  Power</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-11-25T16:00:04Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shiming Wang, Liyao Xiang, Bowei Cheng, Zhe Ji, Tianran Sun, Xinbing Wang</p>
+    <p><b>Summary:</b> A surge in data-driven applications enhances everyday life but also raises
+serious concerns about private information leakage. Hence many privacy auditing
+tools are emerging for checking if the data sanitization performed meets the
+privacy standard of the data owner. Blackbox auditing for differential privacy
+is particularly gaining popularity for its effectiveness and applicability to a
+wide range of scenarios. Yet, we identified that blackbox auditing is
+essentially flawed with its setting: small probabilities or densities are
+ignored due to inaccurate observation. Our argument is based on a solid false
+positive analysis from a hypothesis testing perspective, which is missed out by
+prior blackbox auditing tools. This oversight greatly reduces the reliability
+of these tools, as it allows malicious or incapable data curators to pass the
+auditing with an overstated privacy guarantee, posing significant risks to data
+owners. We demonstrate the practical existence of such threats in classical
+differential privacy mechanisms against four representative blackbox auditors
+with experimental validations. Our findings aim to reveal the limitations of
+blackbox auditing tools, empower the data owner with the awareness of risks in
+using these tools, and encourage the development of more reliable differential
+privacy auditing methods.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.16440v1">AnonyNoise: Anonymizing Event Data with Smart Noise to Outsmart
+  Re-Identification and Preserve Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2024-11-25T14:43:03Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Katharina Bendig, René Schuster, Nicole Thiemer, Karen Joisten, Didier Stricker</p>
+    <p><b>Summary:</b> The increasing capabilities of deep neural networks for re-identification,
+combined with the rise in public surveillance in recent years, pose a
+substantial threat to individual privacy. Event cameras were initially
+considered as a promising solution since their output is sparse and therefore
+difficult for humans to interpret. However, recent advances in deep learning
+proof that neural networks are able to reconstruct high-quality grayscale
+images and re-identify individuals using data from event cameras. In our paper,
+we contribute a crucial ethical discussion on data privacy and present the
+first event anonymization pipeline to prevent re-identification not only by
+humans but also by neural networks. Our method effectively introduces learnable
+data-dependent noise to cover personally identifiable information in raw event
+data, reducing attackers' re-identification capabilities by up to 60%, while
+maintaining substantial information for the performing of downstream tasks.
+Moreover, our anonymization generalizes well on unseen data and is robust
+against image reconstruction and inversion attacks. Code:
+https://github.com/dfki-av/AnonyNoise</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.16437v1">Privacy Protection in Personalized Diffusion Models via Targeted
+  Cross-Attention Adversarial Attack</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-11-25T14:39:18Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xide Xu, Muhammad Atif Butt, Sandesh Kamath, Bogdan Raducanu</p>
+    <p><b>Summary:</b> The growing demand for customized visual content has led to the rise of
+personalized text-to-image (T2I) diffusion models. Despite their remarkable
+potential, they pose significant privacy risk when misused for malicious
+purposes. In this paper, we propose a novel and efficient adversarial attack
+method, Concept Protection by Selective Attention Manipulation (CoPSAM) which
+targets only the cross-attention layers of a T2I diffusion model. For this
+purpose, we carefully construct an imperceptible noise to be added to clean
+samples to get their adversarial counterparts. This is obtained during the
+fine-tuning process by maximizing the discrepancy between the corresponding
+cross-attention maps of the user-specific token and the class-specific token,
+respectively. Experimental validation on a subset of CelebA-HQ face images
+dataset demonstrates that our approach outperforms existing methods. Besides
+this, our method presents two important advantages derived from the qualitative
+evaluation: (i) we obtain better protection results for lower noise levels than
+our competitors; and (ii) we protect the content from unauthorized use thereby
+protecting the individual's identity from potential misuse.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.16404v1">A Survey of Blockchain-Based Privacy Applications: An Analysis of
+  Consent Management and Self-Sovereign Identity Approaches</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E">
+  <p><b>Published on:</b> 2024-11-25T14:10:30Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Rodrigo Dutra Garcia, Gowri Ramachandran, Kealan Dunnett, Raja Jurdak, Caetano Ranieri, Bhaskar Krishnamachari, Jo Ueyama</p>
+    <p><b>Summary:</b> Modern distributed applications in healthcare, supply chain, and the Internet
+of Things handle a large amount of data in a diverse application setting with
+multiple stakeholders. Such applications leverage advanced artificial
+intelligence (AI) and machine learning algorithms to automate business
+processes. The proliferation of modern AI technologies increases the data
+demand. However, real-world networks often include private and sensitive
+information of businesses, users, and other organizations. Emerging
+data-protection regulations such as the General Data Protection Regulation
+(GDPR) and the California Consumer Privacy Act (CCPA) introduce policies around
+collecting, storing, and managing digital data. While Blockchain technology
+offers transparency, auditability, and immutability for multi-stakeholder
+applications, it lacks inherent support for privacy. Typically, privacy support
+is added to a blockchain-based application by incorporating cryptographic
+schemes, consent mechanisms, and self-sovereign identity. This article surveys
+the literature on blockchain-based privacy-preserving systems and identifies
+the tools for protecting privacy. Besides, consent mechanisms and identity
+management in the context of blockchain-based systems are also analyzed. The
+article concludes by highlighting the list of open challenges and further
+research opportunities.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.16380v1">Privacy-Preserving Federated Foundation Model for Generalist Ultrasound
+  Artificial Intelligence</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2024-11-25T13:40:11Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yuncheng Jiang, Chun-Mei Feng, Jinke Ren, Jun Wei, Zixun Zhang, Yiwen Hu, Yunbi Liu, Rui Sun, Xuemei Tang, Juan Du, Xiang Wan, Yong Xu, Bo Du, Xin Gao, Guangyu Wang, Shaohua Zhou, Shuguang Cui, Rick Siow Mong Goh, Yong Liu, Zhen Li</p>
+    <p><b>Summary:</b> Ultrasound imaging is widely used in clinical diagnosis due to its
+non-invasive nature and real-time capabilities. However, conventional
+ultrasound diagnostics face several limitations, including high dependence on
+physician expertise and suboptimal image quality, which complicates
+interpretation and increases the likelihood of diagnostic errors. Artificial
+intelligence (AI) has emerged as a promising solution to enhance clinical
+diagnosis, particularly in detecting abnormalities across various biomedical
+imaging modalities. Nonetheless, current AI models for ultrasound imaging face
+critical challenges. First, these models often require large volumes of labeled
+medical data, raising concerns over patient privacy breaches. Second, most
+existing models are task-specific, which restricts their broader clinical
+utility. To overcome these challenges, we present UltraFedFM, an innovative
+privacy-preserving ultrasound foundation model. UltraFedFM is collaboratively
+pre-trained using federated learning across 16 distributed medical institutions
+in 9 countries, leveraging a dataset of over 1 million ultrasound images
+covering 19 organs and 10 ultrasound modalities. This extensive and diverse
+data, combined with a secure training framework, enables UltraFedFM to exhibit
+strong generalization and diagnostic capabilities. It achieves an average area
+under the receiver operating characteristic curve of 0.927 for disease
+diagnosis and a dice similarity coefficient of 0.878 for lesion segmentation.
+Notably, UltraFedFM surpasses the diagnostic accuracy of mid-level
+ultrasonographers and matches the performance of expert-level sonographers in
+the joint diagnosis of 8 common systemic diseases. These findings indicate that
+UltraFedFM can significantly enhance clinical diagnostics while safeguarding
+patient privacy, marking an advancement in AI-driven ultrasound imaging for
+future clinical applications.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.16340v1">Exploring Privacy and Security as Drivers for Environmental
+  Sustainability in Cloud-Based Office Solutions (Extended Abstract)</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2024-11-25T12:36:25Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jason Kayembe, Iness Ben Guirat, Jan Tobias Muehlberg</p>
+    <p><b>Summary:</b> This paper explores the intersection of privacy, cybersecurity, and
+environmental impacts, specifically energy consumption and carbon emissions, in
+cloud-based office solutions. We hypothesise that solutions that emphasise
+privacy and security are typically "greener" than solutions that are financed
+through data collection and advertising. To test our hypothesis, we first
+investigate how the underlying architectures and business models of these
+services, e.g., monetisation through (personalised) advertising, contribute to
+the services' environmental impact. We then explore commonly used methodologies
+and identify tools that facilitate environmental assessments of software
+systems. By combining these tools, we develop an approach to systematically
+assess the environmental footprint of the user-side of online services, which
+we apply to investigate and compare the influence of service design and
+ad-blocking technology on the emissions of common web-mail services. Our
+measurements of a limited selection of such services does not yet conclusively
+support or falsify our hypothesis regarding primary impacts. However, we are
+already able to identify the greener web-mail services on the user-side and
+continue the investigation towards conclusive assessment strategies for online
+office solutions.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.16121v1">DP-CDA: An Algorithm for Enhanced Privacy Preservation in Dataset
+  Synthesis Through Randomized Mixing</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-11-25T06:14:06Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Utsab Saha, Tanvir Muntakim Tonoy, Hafiz Imtiaz</p>
+    <p><b>Summary:</b> In recent years, the growth of data across various sectors, including
+healthcare, security, finance, and education, has created significant
+opportunities for analysis and informed decision-making. However, these
+datasets often contain sensitive and personal information, which raises serious
+privacy concerns. Protecting individual privacy is crucial, yet many existing
+machine learning and data publishing algorithms struggle with high-dimensional
+data, facing challenges related to computational efficiency and privacy
+preservation. To address these challenges, we introduce an effective data
+publishing algorithm \emph{DP-CDA}. Our proposed algorithm generates synthetic
+datasets by randomly mixing data in a class-specific manner, and inducing
+carefully-tuned randomness to ensure formal privacy guarantees. Our
+comprehensive privacy accounting shows that DP-CDA provides a stronger privacy
+guarantee compared to existing methods, allowing for better utility while
+maintaining strict level of privacy. To evaluate the effectiveness of DP-CDA,
+we examine the accuracy of predictive models trained on the synthetic data,
+which serves as a measure of dataset utility. Importantly, we identify an
+optimal order of mixing that balances privacy guarantee with predictive
+accuracy. Our results indicate that synthetic datasets produced using the
+DP-CDA can achieve superior utility compared to those generated by traditional
+data publishing algorithms, even when subject to the same privacy requirements.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.15948v1">Over-the-Air Federated Adaptive Data Analysis: Preserving Accuracy via
+  Opportunistic Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2024-11-24T18:26:35Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Amir Hossein Hadavi, Mohammad M. Mojahedian, Mohammad Reza Aref</p>
+    <p><b>Summary:</b> Adaptive data analysis (ADA) involves a dynamic interaction between an
+analyst and a dataset owner, where the analyst submits queries sequentially,
+adapting them based on previous answers. This process can become adversarial,
+as the analyst may attempt to overfit by targeting non-generalizable patterns
+in the data. To counteract this, the dataset owner introduces randomization
+techniques, such as adding noise to the responses. This noise not only helps
+prevent overfitting but also enhances data privacy. However, it must be
+carefully calibrated to ensure that the statistical reliability of the
+responses is not compromised. In this paper, we extend the ADA problem to the
+context of distributed datasets. Specifically, we consider a scenario where a
+potentially adversarial analyst interacts with multiple distributed responders
+through adaptive queries. We assume that the responses are subject to noise
+introduced by the channel connecting the responders and the analyst. We
+demonstrate how, through a federated mechanism, this noise can be
+opportunistically leveraged to enhance the generalizability of ADA, thereby
+increasing the number of query-response interactions between the analyst and
+the responders. We illustrate that careful tuning of the transmission
+amplitude, based on the theoretically achievable bounds, can significantly
+impact the number of accurately answerable queries.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.15796v1">Data Lineage Inference: Uncovering Privacy Vulnerabilities of Dataset
+  Pruning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-11-24T11:46:59Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Qi Li, Cheng-Long Wang, Yinzhi Cao, Di Wang</p>
+    <p><b>Summary:</b> In this work, we systematically explore the data privacy issues of dataset
+pruning in machine learning systems. Our findings reveal, for the first time,
+that even if data in the redundant set is solely used before model training,
+its pruning-phase membership status can still be detected through attacks.
+Since this is a fully upstream process before model training, traditional model
+output-based privacy inference methods are completely unsuitable. To address
+this, we introduce a new task called Data-Centric Membership Inference and
+propose the first ever data-centric privacy inference paradigm named Data
+Lineage Inference (DaLI). Under this paradigm, four threshold-based attacks are
+proposed, named WhoDis, CumDis, ArraDis and SpiDis. We show that even without
+access to downstream models, adversaries can accurately identify the redundant
+set with only limited prior knowledge. Furthermore, we find that different
+pruning methods involve varying levels of privacy leakage, and even the same
+pruning method can present different privacy risks at different pruning
+fractions. We conducted an in-depth analysis of these phenomena and introduced
+a metric called the Brimming score to offer guidance for selecting pruning
+methods with privacy protection in mind.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2411.14718v1">GraphTheft: Quantifying Privacy Risks in Graph Prompt Learning</a></h3>
@@ -2850,7 +2866,7 @@ disease diagnosis.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.01140v1">Privacy-Preserving Federated Learning with Differentially Private
+  <h3><a href="http://arxiv.org/abs/2411.01140v2">Privacy-Preserving Federated Learning with Differentially Private
   Hyperdimensional Computing</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
   <p><b>Published on:</b> 2024-11-02T05:00:44Z</p>
