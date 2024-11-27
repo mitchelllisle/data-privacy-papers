@@ -2145,5 +2145,156 @@
       "cs.CR",
       "stat.ML"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.17589v1",
+    "title" : "Privacy-Preserving Behaviour of Chatbot Users: Steering Through Trust\n  Dynamics",
+    "summary" : "Introduction: The use of chatbots is becoming increasingly important across\nvarious aspects of daily life. However, the privacy concerns associated with\nthese communications have not yet been thoroughly addressed. The aim of this\nstudy was to investigate user awareness of privacy risks in chatbot\ninteractions, the privacy-preserving behaviours users practice, and how these\nbehaviours relate to their awareness of privacy threats, even when no immediate\nthreat is perceived. Methods: We developed a novel \"privacy-safe\" setup to\nanalyse user behaviour under the guarantees of anonymization and non-sharing.\nWe employed a mixed-methods approach, starting with the quantification of\nbroader trends by coding responses, followed by conducting a qualitative\ncontent analysis to gain deeper insights. Results: Overall, there was a\nsubstantial lack of understanding among users about how chatbot providers\nhandle data (27% of the participants) and the basics of privacy risks (76% of\nthe participants). Older users, in particular, expressed fears that chatbot\nproviders might sell their data. Moreover, even users with privacy knowledge do\nnot consistently exhibit privacy-preserving behaviours when assured of\ntransparent data processing by chatbots. Notably, under-protective behaviours\nwere observed among more expert users. Discussion: These findings highlight the\nneed for a strategic approach to enhance user education on privacy concepts to\nensure informed decision when interacting with chatbot technology. This\nincludes the development of tools to help users monitor and control the\ninformation they share with chatbots",
+    "updated" : "2024-11-26T16:55:58Z",
+    "published" : "2024-11-26T16:55:58Z",
+    "authors" : [
+      {
+        "name" : "Julia Ive"
+      },
+      {
+        "name" : "Vishal Yadav"
+      },
+      {
+        "name" : "Mariia Ignashina"
+      },
+      {
+        "name" : "Matthew Rand"
+      },
+      {
+        "name" : "Paulina Bondaronek"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.17321v1",
+    "title" : "A Framework for the Security and Privacy of Biometric System\n  Constructions under Defined Computational Assumptions",
+    "summary" : "Biometric systems, while offering convenient authentication, often fall short\nin providing rigorous security assurances. A primary reason is the ad-hoc\ndesign of protocols and components, which hinders the establishment of\ncomprehensive security proofs. This paper introduces a formal framework for\nconstructing secure and privacy-preserving biometric systems. By leveraging the\nprinciples of universal composability, we enable the modular analysis and\nverification of individual system components. This approach allows us to derive\nstrong security and privacy properties for the entire system, grounded in\nwell-defined computational assumptions.",
+    "updated" : "2024-11-26T11:10:11Z",
+    "published" : "2024-11-26T11:10:11Z",
+    "authors" : [
+      {
+        "name" : "Sam Grierson"
+      },
+      {
+        "name" : "William J Buchanan"
+      },
+      {
+        "name" : "Craig Thomson"
+      },
+      {
+        "name" : "Baraq Galeb"
+      },
+      {
+        "name" : "Chris Eckl"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.17287v1",
+    "title" : "Privacy Preserving Federated Unsupervised Domain Adaptation with\n  Application to Age Prediction from DNA Methylation Data",
+    "summary" : "In computational biology, predictive models are widely used to address\ncomplex tasks, but their performance can suffer greatly when applied to data\nfrom different distributions. The current state-of-the-art domain adaptation\nmethod for high-dimensional data aims to mitigate these issues by aligning the\ninput dependencies between training and test data. However, this approach\nrequires centralized access to both source and target domain data, raising\nconcerns about data privacy, especially when the data comes from multiple\nsources. In this paper, we introduce a privacy-preserving federated framework\nfor unsupervised domain adaptation in high-dimensional settings. Our method\nemploys federated training of Gaussian processes and weighted elastic nets to\neffectively address the problem of distribution shift between domains, while\nutilizing secure aggregation and randomized encoding to protect the local data\nof participating data owners. We evaluate our framework on the task of age\nprediction using DNA methylation data from multiple tissues, demonstrating that\nour approach performs comparably to existing centralized methods while\nmaintaining data privacy, even in distributed environments where data is spread\nacross multiple institutions. Our framework is the first privacy-preserving\nsolution for high-dimensional domain adaptation in federated environments,\noffering a promising tool for fields like computational biology and medicine,\nwhere protecting sensitive data is essential.",
+    "updated" : "2024-11-26T10:19:16Z",
+    "published" : "2024-11-26T10:19:16Z",
+    "authors" : [
+      {
+        "name" : "Cem Ata Baykara"
+      },
+      {
+        "name" : "Ali Burak Ünal"
+      },
+      {
+        "name" : "Nico Pfeifer"
+      },
+      {
+        "name" : "Mete Akgün"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.17035v1",
+    "title" : "Achieving Privacy Utility Balance for Multivariate Time Series Data",
+    "summary" : "Utility-preserving data privatization is of utmost importance for\ndata-producing agencies. The popular noise-addition privacy mechanism distorts\nautocorrelation patterns in time series data, thereby marring utility; in\nresponse, McElroy et al. (2023) introduced all-pass filtering (FLIP) as a\nutility-preserving time series data privatization method. Adapting this concept\nto multivariate data is more complex, and in this paper we propose a\nmultivariate all-pass (MAP) filtering method, employing an optimization\nalgorithm to achieve the best balance between data utility and privacy\nprotection. To test the effectiveness of our approach, we apply MAP filtering\nto both simulated and real data, sourced from the U.S. Census Bureau's\nQuarterly Workforce Indicator (QWI) dataset.",
+    "updated" : "2024-11-26T01:59:38Z",
+    "published" : "2024-11-26T01:59:38Z",
+    "authors" : [
+      {
+        "name" : "Gaurab Hore"
+      },
+      {
+        "name" : "Tucker McElroy"
+      },
+      {
+        "name" : "Anindya Roy"
+      }
+    ],
+    "categories" : [
+      "stat.ME",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.16340v2",
+    "title" : "Exploring Privacy and Security as Drivers for Environmental\n  Sustainability in Cloud-Based Office Solutions (Extended Abstract)",
+    "summary" : "This paper explores the intersection of privacy, cybersecurity, and\nenvironmental impacts, specifically energy consumption and carbon emissions, in\ncloud-based office solutions. We hypothesise that solutions that emphasise\nprivacy and security are typically \"greener\" than solutions that are financed\nthrough data collection and advertising. To test our hypothesis, we first\ninvestigate how the underlying architectures and business models of these\nservices, e.g., monetisation through (personalised) advertising, contribute to\nthe services' environmental impact. We then explore commonly used methodologies\nand identify tools that facilitate environmental assessments of software\nsystems. By combining these tools, we develop an approach to systematically\nassess the environmental footprint of the user-side of online services, which\nwe apply to investigate and compare the influence of service design and\nad-blocking technology on the emissions of common web-mail services. Our\nmeasurements of a limited selection of such services does not yet conclusively\nsupport or falsify our hypothesis regarding primary impacts. However, we are\nalready able to identify the greener web-mail services on the user-side and\ncontinue the investigation towards conclusive assessment strategies for online\noffice solutions.",
+    "updated" : "2024-11-26T12:17:22Z",
+    "published" : "2024-11-25T12:36:25Z",
+    "authors" : [
+      {
+        "name" : "Jason Kayembe"
+      },
+      {
+        "name" : "Iness Ben Guirat"
+      },
+      {
+        "name" : "Jan Tobias Muehlberg"
+      }
+    ],
+    "categories" : [
+      "cs.SE",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.16737v1",
+    "title" : "Federated Learning in Chemical Engineering: A Tutorial on a Framework\n  for Privacy-Preserving Collaboration Across Distributed Data Sources",
+    "summary" : "Federated Learning (FL) is a decentralized machine learning approach that has\ngained attention for its potential to enable collaborative model training\nacross clients while protecting data privacy, making it an attractive solution\nfor the chemical industry. This work aims to provide the chemical engineering\ncommunity with an accessible introduction to the discipline. Supported by a\nhands-on tutorial and a comprehensive collection of examples, it explores the\napplication of FL in tasks such as manufacturing optimization, multimodal data\nintegration, and drug discovery while addressing the unique challenges of\nprotecting proprietary information and managing distributed datasets. The\ntutorial was built using key frameworks such as $\\texttt{Flower}$ and\n$\\texttt{TensorFlow Federated}$ and was designed to provide chemical engineers\nwith the right tools to adopt FL in their specific needs. We compare the\nperformance of FL against centralized learning across three different datasets\nrelevant to chemical engineering applications, demonstrating that FL will often\nmaintain or improve classification performance, particularly for complex and\nheterogeneous data. We conclude with an outlook on the open challenges in\nfederated learning to be tackled and current approaches designed to remediate\nand improve this framework.",
+    "updated" : "2024-11-23T13:16:06Z",
+    "published" : "2024-11-23T13:16:06Z",
+    "authors" : [
+      {
+        "name" : "Siddhant Dutta"
+      },
+      {
+        "name" : "Iago Leal de Freitas"
+      },
+      {
+        "name" : "Pedro Maciel Xavier"
+      },
+      {
+        "name" : "Claudio Miceli de Farias"
+      },
+      {
+        "name" : "David Esteban Bernal Neira"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.DC",
+      "cs.NE"
+    ]
   }
 ]
