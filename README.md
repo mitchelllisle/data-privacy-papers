@@ -713,149 +713,117 @@ guarantees are weaker than advertised.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.17459v1">Data Obfuscation through Latent Space Projection (LSP) for
-  Privacy-Preserving AI Governance: Case Studies in Medical Diagnosis and
-  Finance Fraud Detection</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> 
-  <p><b>Published on:</b> 2024-10-22T22:31:03Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mahesh Vaijainthymala Krishnamoorthy</p>
-    <p><b>Summary:</b> As AI systems increasingly integrate into critical societal sectors, the
-demand for robust privacy-preserving methods has escalated. This paper
-introduces Data Obfuscation through Latent Space Projection (LSP), a novel
-technique aimed at enhancing AI governance and ensuring Responsible AI
-compliance. LSP uses machine learning to project sensitive data into a latent
-space, effectively obfuscating it while preserving essential features for model
-training and inference. Unlike traditional privacy methods like differential
-privacy or homomorphic encryption, LSP transforms data into an abstract,
-lower-dimensional form, achieving a delicate balance between data utility and
-privacy. Leveraging autoencoders and adversarial training, LSP separates
-sensitive from non-sensitive information, allowing for precise control over
-privacy-utility trade-offs. We validate LSP's effectiveness through experiments
-on benchmark datasets and two real-world case studies: healthcare cancer
-diagnosis and financial fraud analysis. Our results show LSP achieves high
-performance (98.7% accuracy in image classification) while providing strong
-privacy (97.3% protection against sensitive attribute inference), outperforming
-traditional anonymization and privacy-preserving methods. The paper also
-examines LSP's alignment with global AI governance frameworks, such as GDPR,
-CCPA, and HIPAA, highlighting its contribution to fairness, transparency, and
-accountability. By embedding privacy within the machine learning pipeline, LSP
-offers a promising approach to developing AI systems that respect privacy while
-delivering valuable insights. We conclude by discussing future research
-directions, including theoretical privacy guarantees, integration with
-federated learning, and enhancing latent space interpretability, positioning
-LSP as a critical tool for ethical AI advancement.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.17353v1">Preserving Privacy in Cloud-based Data-Driven Stabilization</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
-  <p><b>Published on:</b> 2024-10-22T18:44:46Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Teimour Hosseinalizadeh, Nima Monshizadeh</p>
-    <p><b>Summary:</b> In the recent years, we have observed three significant trends in control
-systems: a renewed interest in data-driven control design, the abundance of
-cloud computational services and the importance of preserving privacy for the
-system under control. Motivated by these factors, this work investigates
-privacy-preserving outsourcing for the design of a stabilizing controller for
-unknown linear time-invariant systems.The main objective of this research is to
-preserve the privacy for the system dynamics by designing an outsourcing
-mechanism. To achieve this goal, we propose a scheme that combines
-transformation-based techniques and robust data-driven control design methods.
-The scheme preserves the privacy of both the open-loop and closed-loop system
-matrices while stabilizing the system under control.The scheme is applicable to
-both data with and without disturbance and is lightweight in terms of
-computational overhead. Numerical investigations for a case study demonstrate
-the impacts of our mechanism and its role in hindering malicious adversaries
-from achieving their goals.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.19012v1">Privacy-Computation trade-offs in Private Repetition and Metaselection</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-10-22T18:33:02Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Kunal Talwar</p>
-    <p><b>Summary:</b> A Private Repetition algorithm takes as input a differentially private
-algorithm with constant success probability and boosts it to one that succeeds
-with high probability. These algorithms are closely related to private
-metaselection algorithms that compete with the best of many private algorithms,
-and private hyperparameter tuning algorithms that compete with the best
-hyperparameter settings for a private learning algorithm. Existing algorithms
-for these tasks pay either a large overhead in privacy cost, or a large
-overhead in computational cost. In this work, we show strong lower bounds for
-problems of this kind, showing in particular that for any algorithm that
-preserves the privacy cost up to a constant factor, the failure probability can
-only fall polynomially in the computational overhead. This is in stark contrast
-with the non-private setting, where the failure probability falls exponentially
-in the computational overhead. By carefully combining existing algorithms for
-metaselection, we prove computation-privacy tradeoffs that nearly match our
-lower bounds.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.17127v1">PAPILLON: PrivAcy Preservation from Internet-based and Local Language
-  MOdel ENsembles</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2024-10-22T16:00:26Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Li Siyan, Vethavikashini Chithrra Raghuram, Omar Khattab, Julia Hirschberg, Zhou Yu</p>
-    <p><b>Summary:</b> Users can divulge sensitive information to proprietary LLM providers, raising
-significant privacy concerns. While open-source models, hosted locally on the
-user's machine, alleviate some concerns, models that users can host locally are
-often less capable than proprietary frontier models. Toward preserving user
-privacy while retaining the best quality, we propose Privacy-Conscious
-Delegation, a novel task for chaining API-based and local models. We utilize
-recent public collections of user-LLM interactions to construct a natural
-benchmark called PUPA, which contains personally identifiable information
-(PII). To study potential approaches, we devise PAPILLON, a multi-stage LLM
-pipeline that uses prompt optimization to address a simpler version of our
-task. Our best pipeline maintains high response quality for 85.5% of user
-queries while restricting privacy leakage to only 7.5%. We still leave a large
-margin to the generation quality of proprietary LLMs for future work. Our data
-and code will be available at https://github.com/siyan-sylvia-li/PAPILLON.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.17098v1">Masked Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">  
-  <p><b>Published on:</b> 2024-10-22T15:22:53Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> David Schneider, Sina Sajadmanesh, Vikash Sehwag, Saquib Sarfraz, Rainer Stiefelhagen, Lingjuan Lyu, Vivek Sharma</p>
-    <p><b>Summary:</b> Privacy-preserving computer vision is an important emerging problem in
-machine learning and artificial intelligence. The prevalent methods tackling
-this problem use differential privacy or anonymization and obfuscation
-techniques to protect the privacy of individuals. In both cases, the utility of
-the trained model is sacrificed heavily in this process. In this work, we
-propose an effective approach called masked differential privacy (MaskDP),
-which allows for controlling sensitive regions where differential privacy is
-applied, in contrast to applying DP on the entire input. Our method operates
-selectively on the data and allows for defining non-sensitive spatio-temporal
-regions without DP application or combining differential privacy with other
-privacy techniques within data samples. Experiments on four challenging action
-recognition datasets demonstrate that our proposed techniques result in better
-utility-privacy trade-offs compared to standard differentially private training
-in the especially demanding $\epsilon<1$ regime.</p>
-  </details>
-</div>
-
-
 
 <h2>2024-11</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.17589v1">Privacy-Preserving Behaviour of Chatbot Users: Steering Through Trust
+  Dynamics</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2024-11-26T16:55:58Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Julia Ive, Vishal Yadav, Mariia Ignashina, Matthew Rand, Paulina Bondaronek</p>
+    <p><b>Summary:</b> Introduction: The use of chatbots is becoming increasingly important across
+various aspects of daily life. However, the privacy concerns associated with
+these communications have not yet been thoroughly addressed. The aim of this
+study was to investigate user awareness of privacy risks in chatbot
+interactions, the privacy-preserving behaviours users practice, and how these
+behaviours relate to their awareness of privacy threats, even when no immediate
+threat is perceived. Methods: We developed a novel "privacy-safe" setup to
+analyse user behaviour under the guarantees of anonymization and non-sharing.
+We employed a mixed-methods approach, starting with the quantification of
+broader trends by coding responses, followed by conducting a qualitative
+content analysis to gain deeper insights. Results: Overall, there was a
+substantial lack of understanding among users about how chatbot providers
+handle data (27% of the participants) and the basics of privacy risks (76% of
+the participants). Older users, in particular, expressed fears that chatbot
+providers might sell their data. Moreover, even users with privacy knowledge do
+not consistently exhibit privacy-preserving behaviours when assured of
+transparent data processing by chatbots. Notably, under-protective behaviours
+were observed among more expert users. Discussion: These findings highlight the
+need for a strategic approach to enhance user education on privacy concepts to
+ensure informed decision when interacting with chatbot technology. This
+includes the development of tools to help users monitor and control the
+information they share with chatbots</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.17321v1">A Framework for the Security and Privacy of Biometric System
+  Constructions under Defined Computational Assumptions</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-11-26T11:10:11Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Sam Grierson, William J Buchanan, Craig Thomson, Baraq Galeb, Chris Eckl</p>
+    <p><b>Summary:</b> Biometric systems, while offering convenient authentication, often fall short
+in providing rigorous security assurances. A primary reason is the ad-hoc
+design of protocols and components, which hinders the establishment of
+comprehensive security proofs. This paper introduces a formal framework for
+constructing secure and privacy-preserving biometric systems. By leveraging the
+principles of universal composability, we enable the modular analysis and
+verification of individual system components. This approach allows us to derive
+strong security and privacy properties for the entire system, grounded in
+well-defined computational assumptions.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.17287v1">Privacy Preserving Federated Unsupervised Domain Adaptation with
+  Application to Age Prediction from DNA Methylation Data</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-11-26T10:19:16Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Cem Ata Baykara, Ali Burak Ünal, Nico Pfeifer, Mete Akgün</p>
+    <p><b>Summary:</b> In computational biology, predictive models are widely used to address
+complex tasks, but their performance can suffer greatly when applied to data
+from different distributions. The current state-of-the-art domain adaptation
+method for high-dimensional data aims to mitigate these issues by aligning the
+input dependencies between training and test data. However, this approach
+requires centralized access to both source and target domain data, raising
+concerns about data privacy, especially when the data comes from multiple
+sources. In this paper, we introduce a privacy-preserving federated framework
+for unsupervised domain adaptation in high-dimensional settings. Our method
+employs federated training of Gaussian processes and weighted elastic nets to
+effectively address the problem of distribution shift between domains, while
+utilizing secure aggregation and randomized encoding to protect the local data
+of participating data owners. We evaluate our framework on the task of age
+prediction using DNA methylation data from multiple tissues, demonstrating that
+our approach performs comparably to existing centralized methods while
+maintaining data privacy, even in distributed environments where data is spread
+across multiple institutions. Our framework is the first privacy-preserving
+solution for high-dimensional domain adaptation in federated environments,
+offering a promising tool for fields like computational biology and medicine,
+where protecting sensitive data is essential.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.17035v1">Achieving Privacy Utility Balance for Multivariate Time Series Data</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-11-26T01:59:38Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Gaurab Hore, Tucker McElroy, Anindya Roy</p>
+    <p><b>Summary:</b> Utility-preserving data privatization is of utmost importance for
+data-producing agencies. The popular noise-addition privacy mechanism distorts
+autocorrelation patterns in time series data, thereby marring utility; in
+response, McElroy et al. (2023) introduced all-pass filtering (FLIP) as a
+utility-preserving time series data privatization method. Adapting this concept
+to multivariate data is more complex, and in this paper we propose a
+multivariate all-pass (MAP) filtering method, employing an optimization
+algorithm to achieve the best balance between data utility and privacy
+protection. To test the effectiveness of our approach, we apply MAP filtering
+to both simulated and real data, sourced from the U.S. Census Bureau's
+Quarterly Workforce Indicator (QWI) dataset.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2411.16516v1">Curator Attack: When Blackbox Differential Privacy Auditing Loses Its
@@ -1013,7 +981,7 @@ future clinical applications.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.16340v1">Exploring Privacy and Security as Drivers for Environmental
+  <h3><a href="http://arxiv.org/abs/2411.16340v2">Exploring Privacy and Security as Drivers for Environmental
   Sustainability in Cloud-Based Office Solutions (Extended Abstract)</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
   <p><b>Published on:</b> 2024-11-25T12:36:25Z</p>
@@ -1130,6 +1098,36 @@ pruning method can present different privacy risks at different pruning
 fractions. We conducted an in-depth analysis of these phenomena and introduced
 a metric called the Brimming score to offer guidance for selecting pruning
 methods with privacy protection in mind.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.16737v1">Federated Learning in Chemical Engineering: A Tutorial on a Framework
+  for Privacy-Preserving Collaboration Across Distributed Data Sources</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Neural and Evolutionary Computing-5BC0EB">
+  <p><b>Published on:</b> 2024-11-23T13:16:06Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Siddhant Dutta, Iago Leal de Freitas, Pedro Maciel Xavier, Claudio Miceli de Farias, David Esteban Bernal Neira</p>
+    <p><b>Summary:</b> Federated Learning (FL) is a decentralized machine learning approach that has
+gained attention for its potential to enable collaborative model training
+across clients while protecting data privacy, making it an attractive solution
+for the chemical industry. This work aims to provide the chemical engineering
+community with an accessible introduction to the discipline. Supported by a
+hands-on tutorial and a comprehensive collection of examples, it explores the
+application of FL in tasks such as manufacturing optimization, multimodal data
+integration, and drug discovery while addressing the unique challenges of
+protecting proprietary information and managing distributed datasets. The
+tutorial was built using key frameworks such as $\texttt{Flower}$ and
+$\texttt{TensorFlow Federated}$ and was designed to provide chemical engineers
+with the right tools to adopt FL in their specific needs. We compare the
+performance of FL against centralized learning across three different datasets
+relevant to chemical engineering applications, demonstrating that FL will often
+maintain or improve classification performance, particularly for complex and
+heterogeneous data. We conclude with an outlook on the open challenges in
+federated learning to be tackled and current approaches designed to remediate
+and improve this framework.</p>
   </details>
 </div>
 
