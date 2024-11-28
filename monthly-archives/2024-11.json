@@ -2296,5 +2296,138 @@
       "cs.DC",
       "cs.NE"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.18380v1",
+    "title" : "SoK: Privacy Personalised -- Mapping Personal Attributes \\& Preferences\n  of Privacy Mechanisms for Shoulder Surfing",
+    "summary" : "Shoulder surfing is a byproduct of smartphone use that enables bystanders to\naccess personal information (such as text and photos) by making screen\nobservations without consent. To mitigate this, several protection mechanisms\nhave been proposed to protect user privacy. However, the mechanisms that users\nprefer remain unexplored. This paper explores correlations between personal\nattributes and properties of shoulder surfing protection mechanisms. For this,\nwe first conducted a structured literature review and identified ten protection\nmechanism categories against content-based shoulder surfing. We then surveyed\nN=192 users and explored correlations between personal attributes and\nproperties of shoulder surfing protection mechanisms. Our results show that\nusers agreed that the presented mechanisms assisted in protecting their\nprivacy, but they preferred non-digital alternatives. Among the mechanisms,\nparticipants mainly preferred an icon overlay mechanism followed by a tangible\nmechanism. We also found that users who prioritized out-of-device privacy and a\nhigh tendency to interact with technology favoured the personalisation of\nprotection mechanisms. On the contrary, age and smartphone OS did not impact\nusers' preference for perceived usefulness and personalisation of mechanisms.\nBased on the results, we present key takeaways to support the design of future\nprotection mechanisms.",
+    "updated" : "2024-11-27T14:27:47Z",
+    "published" : "2024-11-27T14:27:47Z",
+    "authors" : [
+      {
+        "name" : "Habiba Farzand"
+      },
+      {
+        "name" : "Karola Marky"
+      },
+      {
+        "name" : "Mohamed Khamis"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.18269v1",
+    "title" : "Hidden Data Privacy Breaches in Federated Learning",
+    "summary" : "Federated Learning (FL) emerged as a paradigm for conducting machine learning\nacross broad and decentralized datasets, promising enhanced privacy by\nobviating the need for direct data sharing. However, recent studies show that\nattackers can steal private data through model manipulation or gradient\nanalysis. Existing attacks are constrained by low theft quantity or\nlow-resolution data, and they are often detected through anomaly monitoring in\ngradients or weights. In this paper, we propose a novel data-reconstruction\nattack leveraging malicious code injection, supported by two key techniques,\ni.e., distinctive and sparse encoding design and block partitioning. Unlike\nconventional methods that require detectable changes to the model, our method\nstealthily embeds a hidden model using parameter sharing to systematically\nextract sensitive data. The Fibonacci-based index design ensures efficient,\nstructured retrieval of memorized data, while the block partitioning method\nenhances our method's capability to handle high-resolution images by dividing\nthem into smaller, manageable units. Extensive experiments on 4 datasets\nconfirmed that our method is superior to the five state-of-the-art\ndata-reconstruction attacks under the five respective detection methods. Our\nmethod can handle large-scale and high-resolution data without being detected\nor mitigated by state-of-the-art data reconstruction defense methods. In\ncontrast to baselines, our method can be directly applied to both FedAVG and\nFedSGD scenarios, underscoring the need for developers to devise new defenses\nagainst such vulnerabilities. We will open-source our code upon acceptance.",
+    "updated" : "2024-11-27T12:04:37Z",
+    "published" : "2024-11-27T12:04:37Z",
+    "authors" : [
+      {
+        "name" : "Xueluan Gong"
+      },
+      {
+        "name" : "Yuji Wang"
+      },
+      {
+        "name" : "Shuaike Li"
+      },
+      {
+        "name" : "Mengyuan Sun"
+      },
+      {
+        "name" : "Songze Li"
+      },
+      {
+        "name" : "Qian Wang"
+      },
+      {
+        "name" : "Kwok-Yan Lam"
+      },
+      {
+        "name" : "Chen Chen"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.18027v1",
+    "title" : "Privacy-preserving Robotic-based Multi-factor Authentication Scheme for\n  Secure Automated Delivery System",
+    "summary" : "Package delivery is a critical aspect of various industries, but it often\nincurs high financial costs and inefficiencies when relying solely on human\nresources. The last-mile transport problem, in particular, contributes\nsignificantly to the expenditure of human resources in major companies.\nRobot-based delivery systems have emerged as a potential solution for last-mile\ndelivery to address this challenge. However, robotic delivery systems still\nface security and privacy issues, like impersonation, replay, man-in-the-middle\nattacks (MITM), unlinkability, and identity theft. In this context, we propose\na privacy-preserving multi-factor authentication scheme specifically designed\nfor robot delivery systems. Additionally, AI-assisted robotic delivery systems\nare susceptible to machine learning-based attacks (e.g. FGSM, PGD, etc.). We\nintroduce the \\emph{first} transformer-based audio-visual fusion defender to\ntackle this issue, which effectively provides resilience against adversarial\nsamples. Furthermore, we provide a rigorous formal analysis of the proposed\nprotocol and also analyse the protocol security using a popular symbolic proof\ntool called ProVerif and Scyther. Finally, we present a real-world\nimplementation of the proposed robotic system with the computation cost and\nenergy consumption analysis. Code and pre-trained models are available at:\nhttps://drive.google.com/drive/folders/18B2YbxtV0Pyj5RSFX-ZzCGtFOyorBHil",
+    "updated" : "2024-11-27T03:48:00Z",
+    "published" : "2024-11-27T03:48:00Z",
+    "authors" : [
+      {
+        "name" : "Yang Yang"
+      },
+      {
+        "name" : "Aryan Mohammadi Pasikhani"
+      },
+      {
+        "name" : "Prosanta Gope"
+      },
+      {
+        "name" : "Biplab Sikdar"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.17758v1",
+    "title" : "PP-LEM: Efficient and Privacy-Preserving Clearance Mechanism for Local\n  Energy Markets",
+    "summary" : "In this paper, we propose a novel Privacy-Preserving clearance mechanism for\nLocal Energy Markets (PP-LEM), designed for computational efficiency and social\nwelfare. PP-LEM incorporates a novel competitive game-theoretical clearance\nmechanism, modelled as a Stackelberg Game. Based on this mechanism, a\nprivacy-preserving market model is developed using a partially homomorphic\ncryptosystem, allowing buyers' reaction function calculations to be executed\nover encrypted data without exposing sensitive information of both buyers and\nsellers. The comprehensive performance evaluation demonstrates that PP-LEM is\nhighly effective in delivering an incentive clearance mechanism with\ncomputational efficiency, enabling it to clear the market for 200 users within\nthe order of seconds while concurrently protecting user privacy. Compared to\nthe state of the art, PP-LEM achieves improved computational efficiency without\ncompromising social welfare while still providing user privacy protection.",
+    "updated" : "2024-11-26T00:22:31Z",
+    "published" : "2024-11-26T00:22:31Z",
+    "authors" : [
+      {
+        "name" : "Kamil Erdayandi"
+      },
+      {
+        "name" : "Mustafa Asan Mustafa"
+      }
+    ],
+    "categories" : [
+      "cs.GT",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.07806v2",
+    "title" : "Federated Low-Rank Adaptation with Differential Privacy over Wireless\n  Networks",
+    "summary" : "Fine-tuning large pre-trained foundation models (FMs) on distributed edge\ndevices presents considerable computational and privacy challenges. Federated\nfine-tuning (FedFT) mitigates some privacy issues by facilitating collaborative\nmodel training without the need to share raw data. To lessen the computational\nburden on resource-limited devices, combining low-rank adaptation (LoRA) with\nfederated learning enables parameter-efficient fine-tuning. Additionally, the\nsplit FedFT architecture partitions an FM between edge devices and a central\nserver, reducing the necessity for complete model deployment on individual\ndevices. However, the risk of privacy eavesdropping attacks in FedFT remains a\nconcern, particularly in sensitive areas such as healthcare and finance. In\nthis paper, we propose a split FedFT framework with differential privacy (DP)\nover wireless networks, where the inherent wireless channel noise in the uplink\ntransmission is utilized to achieve DP guarantees without adding an extra\nartificial noise. We shall investigate the impact of the wireless noise on\nconvergence performance of the proposed framework. We will also show that by\nupdating only one of the low-rank matrices in the split FedFT with DP, the\nproposed method can mitigate the noise amplification effect. Simulation results\nwill demonstrate that the proposed framework achieves higher accuracy under\nstrict privacy budgets compared to baseline methods.",
+    "updated" : "2024-11-27T16:55:59Z",
+    "published" : "2024-11-12T14:01:08Z",
+    "authors" : [
+      {
+        "name" : "Tianqu Kang"
+      },
+      {
+        "name" : "Zixin Wang"
+      },
+      {
+        "name" : "Hengtao He"
+      },
+      {
+        "name" : "Jun Zhang"
+      },
+      {
+        "name" : "Shenghui Song"
+      },
+      {
+        "name" : "Khaled B. Letaief"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "eess.SP"
+    ]
   }
 ]
