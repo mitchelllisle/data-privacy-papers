@@ -601,120 +601,103 @@ majorly degrading VAD efficacy.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.18666v2">DreamClear: High-Capacity Real-World Image Restoration with Privacy-Safe
-  Dataset Curation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2024-10-24T11:57:20Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yuang Ai, Xiaoqiang Zhou, Huaibo Huang, Xiaotian Han, Zhengyu Chen, Quanzeng You, Hongxia Yang</p>
-    <p><b>Summary:</b> Image restoration (IR) in real-world scenarios presents significant
-challenges due to the lack of high-capacity models and comprehensive datasets.
-To tackle these issues, we present a dual strategy: GenIR, an innovative data
-curation pipeline, and DreamClear, a cutting-edge Diffusion Transformer
-(DiT)-based image restoration model. GenIR, our pioneering contribution, is a
-dual-prompt learning pipeline that overcomes the limitations of existing
-datasets, which typically comprise only a few thousand images and thus offer
-limited generalizability for larger models. GenIR streamlines the process into
-three stages: image-text pair construction, dual-prompt based fine-tuning, and
-data generation & filtering. This approach circumvents the laborious data
-crawling process, ensuring copyright compliance and providing a cost-effective,
-privacy-safe solution for IR dataset construction. The result is a large-scale
-dataset of one million high-quality images. Our second contribution,
-DreamClear, is a DiT-based image restoration model. It utilizes the generative
-priors of text-to-image (T2I) diffusion models and the robust perceptual
-capabilities of multi-modal large language models (MLLMs) to achieve
-photorealistic restoration. To boost the model's adaptability to diverse
-real-world degradations, we introduce the Mixture of Adaptive Modulator (MoAM).
-It employs token-wise degradation priors to dynamically integrate various
-restoration experts, thereby expanding the range of degradations the model can
-address. Our exhaustive experiments confirm DreamClear's superior performance,
-underlining the efficacy of our dual strategy for real-world image restoration.
-Code and pre-trained models are available at:
-https://github.com/shallowdream204/DreamClear.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.18418v2">Knowledge-Assisted Privacy Preserving in Semantic Communication</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-10-24T04:05:20Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Xuesong Liu, Yao Sun, Runze Cheng, Le Xia, Hanaa Abumarshoud, Lei Zhang, Muhammad Ali Imran</p>
-    <p><b>Summary:</b> Semantic communication (SC) offers promising advancements in data
-transmission efficiency and reliability by focusing on delivering true meaning
-rather than solely binary bits of messages. However, privacy concerns in SC
-might become outstanding. Eavesdroppers equipped with advanced semantic coding
-models and extensive knowledge could be capable of correctly decoding and
-reasoning sensitive semantics from just a few stolen bits. To this end, this
-article explores utilizing knowledge to enhance data privacy in SC networks.
-Specifically, we first identify the potential attacks in SC based on the
-analysis of knowledge. Then, we propose a knowledge-assisted privacy preserving
-SC framework, which consists of a data transmission layer for precisely
-encoding and decoding source messages, and a knowledge management layer
-responsible for injecting appropriate knowledge into the transmission pair.
-Moreover, we elaborate on the transceiver design in the proposed SC framework
-to explain how knowledge should be utilized properly. Finally, some challenges
-of the proposed SC framework are discussed to expedite the practical
-implementation.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.18404v1">Enhancing Feature-Specific Data Protection via Bayesian Coordinate
-  Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
-  <p><b>Published on:</b> 2024-10-24T03:39:55Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Maryam Aliakbarpour, Syomantak Chaudhuri, Thomas A. Courtade, Alireza Fallah, Michael I. Jordan</p>
-    <p><b>Summary:</b> Local Differential Privacy (LDP) offers strong privacy guarantees without
-requiring users to trust external parties. However, LDP applies uniform
-protection to all data features, including less sensitive ones, which degrades
-performance of downstream tasks. To overcome this limitation, we propose a
-Bayesian framework, Bayesian Coordinate Differential Privacy (BCDP), that
-enables feature-specific privacy quantification. This more nuanced approach
-complements LDP by adjusting privacy protection according to the sensitivity of
-each feature, enabling improved performance of downstream tasks without
-compromising privacy. We characterize the properties of BCDP and articulate its
-connections with standard non-Bayesian privacy frameworks. We further apply our
-BCDP framework to the problems of private mean estimation and ordinary
-least-squares regression. The BCDP-based approach obtains improved accuracy
-compared to a purely LDP-based approach, without compromising on privacy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.17468v1">Formal Privacy Guarantees with Invariant Statistics</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
-  <p><b>Published on:</b> 2024-10-22T22:50:17Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Young Hyun Cho, Jordan Awan</p>
-    <p><b>Summary:</b> Motivated by the 2020 US Census products, this paper extends differential
-privacy (DP) to address the joint release of DP outputs and nonprivate
-statistics, referred to as invariant. Our framework, Semi-DP, redefines
-adjacency by focusing on datasets that conform to the given invariant, ensuring
-indistinguishability between adjacent datasets within invariant-conforming
-datasets. We further develop customized mechanisms that satisfy Semi-DP,
-including the Gaussian mechanism and the optimal $K$-norm mechanism for
-rank-deficient sensitivity spaces. Our framework is applied to contingency
-table analysis which is relevant to the 2020 US Census, illustrating how
-Semi-DP enables the release of private outputs given the one-way margins as the
-invariant. Additionally, we provide a privacy analysis of the 2020 US Decennial
-Census using the Semi-DP framework, revealing that the effective privacy
-guarantees are weaker than advertised.</p>
-  </details>
-</div>
-
-
 
 <h2>2024-11</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.18380v1">SoK: Privacy Personalised -- Mapping Personal Attributes \& Preferences
+  of Privacy Mechanisms for Shoulder Surfing</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2024-11-27T14:27:47Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Habiba Farzand, Karola Marky, Mohamed Khamis</p>
+    <p><b>Summary:</b> Shoulder surfing is a byproduct of smartphone use that enables bystanders to
+access personal information (such as text and photos) by making screen
+observations without consent. To mitigate this, several protection mechanisms
+have been proposed to protect user privacy. However, the mechanisms that users
+prefer remain unexplored. This paper explores correlations between personal
+attributes and properties of shoulder surfing protection mechanisms. For this,
+we first conducted a structured literature review and identified ten protection
+mechanism categories against content-based shoulder surfing. We then surveyed
+N=192 users and explored correlations between personal attributes and
+properties of shoulder surfing protection mechanisms. Our results show that
+users agreed that the presented mechanisms assisted in protecting their
+privacy, but they preferred non-digital alternatives. Among the mechanisms,
+participants mainly preferred an icon overlay mechanism followed by a tangible
+mechanism. We also found that users who prioritized out-of-device privacy and a
+high tendency to interact with technology favoured the personalisation of
+protection mechanisms. On the contrary, age and smartphone OS did not impact
+users' preference for perceived usefulness and personalisation of mechanisms.
+Based on the results, we present key takeaways to support the design of future
+protection mechanisms.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.18269v1">Hidden Data Privacy Breaches in Federated Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-11-27T12:04:37Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xueluan Gong, Yuji Wang, Shuaike Li, Mengyuan Sun, Songze Li, Qian Wang, Kwok-Yan Lam, Chen Chen</p>
+    <p><b>Summary:</b> Federated Learning (FL) emerged as a paradigm for conducting machine learning
+across broad and decentralized datasets, promising enhanced privacy by
+obviating the need for direct data sharing. However, recent studies show that
+attackers can steal private data through model manipulation or gradient
+analysis. Existing attacks are constrained by low theft quantity or
+low-resolution data, and they are often detected through anomaly monitoring in
+gradients or weights. In this paper, we propose a novel data-reconstruction
+attack leveraging malicious code injection, supported by two key techniques,
+i.e., distinctive and sparse encoding design and block partitioning. Unlike
+conventional methods that require detectable changes to the model, our method
+stealthily embeds a hidden model using parameter sharing to systematically
+extract sensitive data. The Fibonacci-based index design ensures efficient,
+structured retrieval of memorized data, while the block partitioning method
+enhances our method's capability to handle high-resolution images by dividing
+them into smaller, manageable units. Extensive experiments on 4 datasets
+confirmed that our method is superior to the five state-of-the-art
+data-reconstruction attacks under the five respective detection methods. Our
+method can handle large-scale and high-resolution data without being detected
+or mitigated by state-of-the-art data reconstruction defense methods. In
+contrast to baselines, our method can be directly applied to both FedAVG and
+FedSGD scenarios, underscoring the need for developers to devise new defenses
+against such vulnerabilities. We will open-source our code upon acceptance.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.18027v1">Privacy-preserving Robotic-based Multi-factor Authentication Scheme for
+  Secure Automated Delivery System</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-11-27T03:48:00Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yang Yang, Aryan Mohammadi Pasikhani, Prosanta Gope, Biplab Sikdar</p>
+    <p><b>Summary:</b> Package delivery is a critical aspect of various industries, but it often
+incurs high financial costs and inefficiencies when relying solely on human
+resources. The last-mile transport problem, in particular, contributes
+significantly to the expenditure of human resources in major companies.
+Robot-based delivery systems have emerged as a potential solution for last-mile
+delivery to address this challenge. However, robotic delivery systems still
+face security and privacy issues, like impersonation, replay, man-in-the-middle
+attacks (MITM), unlinkability, and identity theft. In this context, we propose
+a privacy-preserving multi-factor authentication scheme specifically designed
+for robot delivery systems. Additionally, AI-assisted robotic delivery systems
+are susceptible to machine learning-based attacks (e.g. FGSM, PGD, etc.). We
+introduce the \emph{first} transformer-based audio-visual fusion defender to
+tackle this issue, which effectively provides resilience against adversarial
+samples. Furthermore, we provide a rigorous formal analysis of the proposed
+protocol and also analyse the protocol security using a popular symbolic proof
+tool called ProVerif and Scyther. Finally, we present a real-world
+implementation of the proposed robotic system with the computation cost and
+energy consumption analysis. Code and pre-trained models are available at:
+https://drive.google.com/drive/folders/18B2YbxtV0Pyj5RSFX-ZzCGtFOyorBHil</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2411.17589v1">Privacy-Preserving Behaviour of Chatbot Users: Steering Through Trust
@@ -821,6 +804,31 @@ algorithm to achieve the best balance between data utility and privacy
 protection. To test the effectiveness of our approach, we apply MAP filtering
 to both simulated and real data, sourced from the U.S. Census Bureau's
 Quarterly Workforce Indicator (QWI) dataset.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.17758v1">PP-LEM: Efficient and Privacy-Preserving Clearance Mechanism for Local
+  Energy Markets</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Science and Game Theory-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-11-26T00:22:31Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Kamil Erdayandi, Mustafa Asan Mustafa</p>
+    <p><b>Summary:</b> In this paper, we propose a novel Privacy-Preserving clearance mechanism for
+Local Energy Markets (PP-LEM), designed for computational efficiency and social
+welfare. PP-LEM incorporates a novel competitive game-theoretical clearance
+mechanism, modelled as a Stackelberg Game. Based on this mechanism, a
+privacy-preserving market model is developed using a partially homomorphic
+cryptosystem, allowing buyers' reaction function calculations to be executed
+over encrypted data without exposing sensitive information of both buyers and
+sellers. The comprehensive performance evaluation demonstrates that PP-LEM is
+highly effective in delivering an incentive clearance mechanism with
+computational efficiency, enabling it to clear the market for 200 users within
+the order of seconds while concurrently protecting user privacy. Compared to
+the state of the art, PP-LEM achieves improved computational efficiency without
+compromising social welfare while still providing user privacy protection.</p>
   </details>
 </div>
 
@@ -1772,7 +1780,7 @@ algorithm provides certification that the secrets remain hidden.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.07806v1">Federated Low-Rank Adaptation with Differential Privacy over Wireless
+  <h3><a href="http://arxiv.org/abs/2411.07806v2">Federated Low-Rank Adaptation with Differential Privacy over Wireless
   Networks</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
   <p><b>Published on:</b> 2024-11-12T14:01:08Z</p>
