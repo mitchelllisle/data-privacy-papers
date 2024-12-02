@@ -2429,5 +2429,134 @@
       "cs.CR",
       "eess.SP"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.19678v1",
+    "title" : "Privacy-Preserving Orthogonal Aggregation for Guaranteeing Gender\n  Fairness in Federated Recommendation",
+    "summary" : "Under stringent privacy constraints, whether federated recommendation systems\ncan achieve group fairness remains an inadequately explored question. Taking\ngender fairness as a representative issue, we identify three phenomena in\nfederated recommendation systems: performance difference, data imbalance, and\npreference disparity. We discover that the state-of-the-art methods only focus\non the first phenomenon. Consequently, their imposition of inappropriate\nfairness constraints detrimentally affects the model training. Moreover, due to\ninsufficient sensitive attribute protection of existing works, we can infer the\ngender of all users with 99.90% accuracy even with the addition of maximal\nnoise. In this work, we propose Privacy-Preserving Orthogonal Aggregation\n(PPOA), which employs the secure aggregation scheme and quantization technique,\nto prevent the suppression of minority groups by the majority and preserve the\ndistinct preferences for better group fairness. PPOA can assist different\ngroups in obtaining their respective model aggregation results through a\ndesigned orthogonal mapping while keeping their attributes private.\nExperimental results on three real-world datasets demonstrate that PPOA\nenhances recommendation effectiveness for both females and males by up to 8.25%\nand 6.36%, respectively, with a maximum overall improvement of 7.30%, and\nachieves optimal fairness in most cases. Extensive ablation experiments and\nvisualizations indicate that PPOA successfully maintains preferences for\ndifferent gender groups.",
+    "updated" : "2024-11-29T13:12:11Z",
+    "published" : "2024-11-29T13:12:11Z",
+    "authors" : [
+      {
+        "name" : "Siqing Zhang"
+      },
+      {
+        "name" : "Yuchen Ding"
+      },
+      {
+        "name" : "Wei Tang"
+      },
+      {
+        "name" : "Wei Sun"
+      },
+      {
+        "name" : "Yong Liao"
+      },
+      {
+        "name" : "Peng Yuan Zhou"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.19498v1",
+    "title" : "Protecting Multiple Types of Privacy Simultaneously in EEG-based\n  Brain-Computer Interfaces",
+    "summary" : "A brain-computer interface (BCI) enables direct communication between the\nbrain and an external device. Electroencephalogram (EEG) is the preferred input\nsignal in non-invasive BCIs, due to its convenience and low cost. EEG-based\nBCIs have been successfully used in many applications, such as neurological\nrehabilitation, text input, games, and so on. However, EEG signals inherently\ncarry rich personal information, necessitating privacy protection. This paper\ndemonstrates that multiple types of private information (user identity, gender,\nand BCI-experience) can be easily inferred from EEG data, imposing a serious\nprivacy threat to BCIs. To address this issue, we design perturbations to\nconvert the original EEG data into privacy-protected EEG data, which conceal\nthe private information while maintaining the primary BCI task performance.\nExperimental results demonstrated that the privacy-protected EEG data can\nsignificantly reduce the classification accuracy of user identity, gender and\nBCI-experience, but almost do not affect at all the classification accuracy of\nthe primary BCI task, enabling user privacy protection in EEG-based BCIs.",
+    "updated" : "2024-11-29T06:33:31Z",
+    "published" : "2024-11-29T06:33:31Z",
+    "authors" : [
+      {
+        "name" : "Lubin Meng"
+      },
+      {
+        "name" : "Xue Jiang"
+      },
+      {
+        "name" : "Tianwang Jia"
+      },
+      {
+        "name" : "Dongrui Wu"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.19142v1",
+    "title" : "GDPR-Relevant Privacy Concerns in Mobile Apps Research: A Systematic\n  Literature Review",
+    "summary" : "The General Data Protection Regulation (GDPR) is the benchmark in the\nEuropean Union (EU) for privacy and data protection standards. Substantial\nresearch has been conducted in the requirements engineering (RE) literature\ninvestigating the elicitation, representation, and verification of privacy\nrequirements in GDPR. Software systems including mobile apps must comply with\nthe GDPR. With the growing pervasiveness of mobile apps and their increasing\ndemand for personal data, privacy concerns have acquired further interest\nwithin the software engineering (SE) community at large. Despite the extensive\nliterature on GDPR-relevant privacy concerns in mobile apps, there is no\nsecondary study that describes, analyzes, and categorizes the current focus.\nResearch gaps and persistent challenges are thus left unnoticed. In this\narticle, we aim to systematically review existing primary studies highlighting\nvarious GDPR concepts and how these concepts are addressed in mobile apps\nresearch. The objective is to reconcile the existing work on GDPR in the RE\nliterature with the research on GDPR-related privacy concepts in mobile apps in\nthe SE literature. Our findings show that the current research landscape\nreflects a rather shallow understanding of GDPR requirements. Some GDPR\nconcepts such as data subject rights (i.e., the rights of individuals over\ntheir personal data) are fundamental to GDPR, yet under-explored in the\nliterature. In this article, we highlight future directions to be pursued by\nthe SE community for supporting the development of GDPR-compliant mobile apps.",
+    "updated" : "2024-11-28T13:42:46Z",
+    "published" : "2024-11-28T13:42:46Z",
+    "authors" : [
+      {
+        "name" : "Orlando Amaral Cejas"
+      },
+      {
+        "name" : "Nicolas Sannier"
+      },
+      {
+        "name" : "Sallam Abualhaija"
+      },
+      {
+        "name" : "Marcello Ceci"
+      },
+      {
+        "name" : "Domenico Bianculli"
+      }
+    ],
+    "categories" : [
+      "cs.SE"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.18746v1",
+    "title" : "Inference Privacy: Properties and Mechanisms",
+    "summary" : "Ensuring privacy during inference stage is crucial to prevent malicious third\nparties from reconstructing users' private inputs from outputs of public\nmodels. Despite a large body of literature on privacy preserving learning\n(which ensures privacy of training data), there is no existing systematic\nframework to ensure the privacy of users' data during inference. Motivated by\nthis problem, we introduce the notion of Inference Privacy (IP), which can\nallow a user to interact with a model (for instance, a classifier, or an\nAI-assisted chat-bot) while providing a rigorous privacy guarantee for the\nusers' data at inference. We establish fundamental properties of the IP privacy\nnotion and also contrast it with the notion of Local Differential Privacy\n(LDP). We then present two types of mechanisms for achieving IP: namely, input\nperturbations and output perturbations which are customizable by the users and\ncan allow them to navigate the trade-off between utility and privacy. We also\ndemonstrate the usefulness of our framework via experiments and highlight the\nresulting trade-offs between utility and privacy during inference.",
+    "updated" : "2024-11-27T20:47:28Z",
+    "published" : "2024-11-27T20:47:28Z",
+    "authors" : [
+      {
+        "name" : "Fengwei Tian"
+      },
+      {
+        "name" : "Ravi Tandon"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.IT",
+      "cs.LG",
+      "math.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.18653v1",
+    "title" : "PRSI: Privacy-Preserving Recommendation Model Based on Vector Splitting\n  and Interactive Protocols",
+    "summary" : "With the development of the internet, recommending interesting products to\nusers has become a highly valuable research topic for businesses.\nRecommendation systems play a crucial role in addressing this issue. To prevent\nthe leakage of each user's (client's) private data, Federated Recommendation\nSystems (FedRec) have been proposed and widely used. However, extensive\nresearch has shown that FedRec suffers from security issues such as data\nprivacy leakage, and it is challenging to train effective models with FedRec\nwhen each client only holds interaction information for a single user. To\naddress these two problems, this paper proposes a new privacy-preserving\nrecommendation system (PRSI), which includes a preprocessing module and two\nmain phases. The preprocessing module employs split vectors and fake\ninteraction items to protect clients' interaction information and\nrecommendation results. The two main phases are: (1) the collection of\ninteraction information and (2) the sending of recommendation results. In the\ninteraction information collection phase, each client uses the preprocessing\nmodule and random communication methods (according to the designed interactive\nprotocol) to protect their ID information and IP addresses. In the\nrecommendation results sending phase, the central server uses the preprocessing\nmodule and triplets to distribute recommendation results to each client under\nsecure conditions, following the designed interactive protocol. Finally, we\nconducted multiple sets of experiments to verify the security, accuracy, and\ncommunication cost of the proposed method.",
+    "updated" : "2024-11-27T05:14:15Z",
+    "published" : "2024-11-27T05:14:15Z",
+    "authors" : [
+      {
+        "name" : "Xiaokai Cao"
+      },
+      {
+        "name" : "Wenjin Mo"
+      },
+      {
+        "name" : "Zhenyu He"
+      },
+      {
+        "name" : "Changdong Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
   }
 ]
