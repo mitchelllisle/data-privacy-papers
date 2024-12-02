@@ -476,133 +476,127 @@ establishes a lower bound on classification accuracy.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.19548v3">Privacy-Preserving Federated Learning via Dataset Distillation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-10-25T13:20:40Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> ShiMao Xu, Xiaopeng Ke, Xing Su, Shucheng Li, Hao Wu, Sheng Zhong, Fengyuan Xu</p>
-    <p><b>Summary:</b> Federated Learning (FL) allows users to share knowledge instead of raw data
-to train a model with high accuracy. Unfortunately, during the training, users
-lose control over the knowledge shared, which causes serious data privacy
-issues. We hold that users are only willing and need to share the essential
-knowledge to the training task to obtain the FL model with high accuracy.
-However, existing efforts cannot help users minimize the shared knowledge
-according to the user intention in the FL training procedure. This work
-proposes FLiP, which aims to bring the principle of least privilege (PoLP) to
-FL training. The key design of FLiP is applying elaborate information reduction
-on the training data through a local-global dataset distillation design. We
-measure the privacy performance through attribute inference and membership
-inference attacks. Extensive experiments show that FLiP strikes a good balance
-between model accuracy and privacy protection.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.19338v1">Privacy-preserving server-supported decryption</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-10-25T06:47:53Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Peeter Laud, Alisa Pankova, Jelizaveta Vakarjuk</p>
-    <p><b>Summary:</b> In this paper, we consider encryption systems with two-out-of-two threshold
-decryption, where one of the parties (the client) initiates the decryption and
-the other one (the server) assists. Existing threshold decryption schemes
-disclose to the server the ciphertext that is being decrypted. We give a
-construction, where the identity of the ciphertext is not leaked to the server,
-and the client's privacy is thus preserved. While showing the security of this
-construction, we run into the issue of defining the security of a scheme with
-blindly assisted decryption. We discuss previously proposed security
-definitions for similar cryptographic functionalities and argue why they do not
-capture the expected meaning of security. We propose an ideal functionality for
-the encryption with server-supported blind threshold decryption in the
-universal composability model, carefully balancing between the meaning of
-privacy, and the ability to implement it. We construct a protocol and show that
-it is a secure implementation of the proposed functionality in the random
-oracle model.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.18824v1">PSY: Posterior Sampling Based Privacy Enhancer in Large Language Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-10-24T15:15:42Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yulian Sun, Li Duan, Yong Li</p>
-    <p><b>Summary:</b> Privacy vulnerabilities in LLMs, such as leakage from memorization, have been
-constantly identified, and various mitigation proposals have been proposed.
-LoRA is usually used in fine-tuning LLMs and a good entry point to insert
-privacy-enhancing modules. In this ongoing research, we introduce PSY, a
-Posterior Sampling based PrivacY enhancer that can be used in LoRA. We propose
-a simple yet effective realization of PSY using posterior sampling, which
-effectively prevents privacy leakage from intermediate information and, in
-turn, preserves the privacy of data owners. We evaluate LoRA extended with PSY
-against state-of-the-art membership inference and data extraction attacks. The
-experiments are executed on three different LLM architectures fine-tuned on
-three datasets with LoRA. In contrast to the commonly used differential privacy
-method, we find that our proposed modification consistently reduces the attack
-success rate. Meanwhile, our method has almost no negative impact on model
-fine-tuning or final performance. Most importantly, PSY reveals a promising
-path toward privacy enhancement with latent space extensions.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.18749v1">Does Differential Privacy Impact Bias in Pretrained NLP Models?</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-10-24T13:59:03Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Md. Khairul Islam, Andrew Wang, Tianhao Wang, Yangfeng Ji, Judy Fox, Jieyu Zhao</p>
-    <p><b>Summary:</b> Differential privacy (DP) is applied when fine-tuning pre-trained large
-language models (LLMs) to limit leakage of training examples. While most DP
-research has focused on improving a model's privacy-utility tradeoff, some find
-that DP can be unfair to or biased against underrepresented groups. In this
-work, we show the impact of DP on bias in LLMs through empirical analysis.
-Differentially private training can increase the model bias against protected
-groups w.r.t AUC-based bias metrics. DP makes it more difficult for the model
-to differentiate between the positive and negative examples from the protected
-groups and other groups in the rest of the population. Our results also show
-that the impact of DP on bias is not only affected by the privacy protection
-level but also the underlying distribution of the dataset.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2410.18717v1">Low-Latency Video Anonymization for Crowd Anomaly Detection: Privacy vs.
-  Performance</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2024-10-24T13:22:33Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mulugeta Weldezgina Asres, Lei Jiao, Christian Walter Omlin</p>
-    <p><b>Summary:</b> Recent advancements in artificial intelligence promise ample potential in
-monitoring applications with surveillance cameras. However, concerns about
-privacy and model bias have made it challenging to utilize them in public.
-Although de-identification approaches have been proposed in the literature,
-aiming to achieve a certain level of anonymization, most of them employ deep
-learning models that are computationally demanding for real-time edge
-deployment. In this study, we revisit conventional anonymization solutions for
-privacy protection and real-time video anomaly detection (VAD) applications. We
-propose a novel lightweight adaptive anonymization for VAD (LA3D) that employs
-dynamic adjustment to enhance privacy protection. We evaluated the approaches
-on publicly available privacy and VAD data sets to examine the strengths and
-weaknesses of the different anonymization techniques and highlight the
-promising efficacy of our approach. Our experiment demonstrates that LA3D
-enables substantial improvement in the privacy anonymization capability without
-majorly degrading VAD efficacy.</p>
-  </details>
-</div>
-
-
 
 <h2>2024-11</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.19678v1">Privacy-Preserving Orthogonal Aggregation for Guaranteeing Gender
+  Fairness in Federated Recommendation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-11-29T13:12:11Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Siqing Zhang, Yuchen Ding, Wei Tang, Wei Sun, Yong Liao, Peng Yuan Zhou</p>
+    <p><b>Summary:</b> Under stringent privacy constraints, whether federated recommendation systems
+can achieve group fairness remains an inadequately explored question. Taking
+gender fairness as a representative issue, we identify three phenomena in
+federated recommendation systems: performance difference, data imbalance, and
+preference disparity. We discover that the state-of-the-art methods only focus
+on the first phenomenon. Consequently, their imposition of inappropriate
+fairness constraints detrimentally affects the model training. Moreover, due to
+insufficient sensitive attribute protection of existing works, we can infer the
+gender of all users with 99.90% accuracy even with the addition of maximal
+noise. In this work, we propose Privacy-Preserving Orthogonal Aggregation
+(PPOA), which employs the secure aggregation scheme and quantization technique,
+to prevent the suppression of minority groups by the majority and preserve the
+distinct preferences for better group fairness. PPOA can assist different
+groups in obtaining their respective model aggregation results through a
+designed orthogonal mapping while keeping their attributes private.
+Experimental results on three real-world datasets demonstrate that PPOA
+enhances recommendation effectiveness for both females and males by up to 8.25%
+and 6.36%, respectively, with a maximum overall improvement of 7.30%, and
+achieves optimal fairness in most cases. Extensive ablation experiments and
+visualizations indicate that PPOA successfully maintains preferences for
+different gender groups.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.19498v1">Protecting Multiple Types of Privacy Simultaneously in EEG-based
+  Brain-Computer Interfaces</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-11-29T06:33:31Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Lubin Meng, Xue Jiang, Tianwang Jia, Dongrui Wu</p>
+    <p><b>Summary:</b> A brain-computer interface (BCI) enables direct communication between the
+brain and an external device. Electroencephalogram (EEG) is the preferred input
+signal in non-invasive BCIs, due to its convenience and low cost. EEG-based
+BCIs have been successfully used in many applications, such as neurological
+rehabilitation, text input, games, and so on. However, EEG signals inherently
+carry rich personal information, necessitating privacy protection. This paper
+demonstrates that multiple types of private information (user identity, gender,
+and BCI-experience) can be easily inferred from EEG data, imposing a serious
+privacy threat to BCIs. To address this issue, we design perturbations to
+convert the original EEG data into privacy-protected EEG data, which conceal
+the private information while maintaining the primary BCI task performance.
+Experimental results demonstrated that the privacy-protected EEG data can
+significantly reduce the classification accuracy of user identity, gender and
+BCI-experience, but almost do not affect at all the classification accuracy of
+the primary BCI task, enabling user privacy protection in EEG-based BCIs.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.19142v1">GDPR-Relevant Privacy Concerns in Mobile Apps Research: A Systematic
+  Literature Review</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
+  <p><b>Published on:</b> 2024-11-28T13:42:46Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Orlando Amaral Cejas, Nicolas Sannier, Sallam Abualhaija, Marcello Ceci, Domenico Bianculli</p>
+    <p><b>Summary:</b> The General Data Protection Regulation (GDPR) is the benchmark in the
+European Union (EU) for privacy and data protection standards. Substantial
+research has been conducted in the requirements engineering (RE) literature
+investigating the elicitation, representation, and verification of privacy
+requirements in GDPR. Software systems including mobile apps must comply with
+the GDPR. With the growing pervasiveness of mobile apps and their increasing
+demand for personal data, privacy concerns have acquired further interest
+within the software engineering (SE) community at large. Despite the extensive
+literature on GDPR-relevant privacy concerns in mobile apps, there is no
+secondary study that describes, analyzes, and categorizes the current focus.
+Research gaps and persistent challenges are thus left unnoticed. In this
+article, we aim to systematically review existing primary studies highlighting
+various GDPR concepts and how these concepts are addressed in mobile apps
+research. The objective is to reconcile the existing work on GDPR in the RE
+literature with the research on GDPR-related privacy concepts in mobile apps in
+the SE literature. Our findings show that the current research landscape
+reflects a rather shallow understanding of GDPR requirements. Some GDPR
+concepts such as data subject rights (i.e., the rights of individuals over
+their personal data) are fundamental to GDPR, yet under-explored in the
+literature. In this article, we highlight future directions to be pursued by
+the SE community for supporting the development of GDPR-compliant mobile apps.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.18746v1">Inference Privacy: Properties and Mechanisms</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
+  <p><b>Published on:</b> 2024-11-27T20:47:28Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Fengwei Tian, Ravi Tandon</p>
+    <p><b>Summary:</b> Ensuring privacy during inference stage is crucial to prevent malicious third
+parties from reconstructing users' private inputs from outputs of public
+models. Despite a large body of literature on privacy preserving learning
+(which ensures privacy of training data), there is no existing systematic
+framework to ensure the privacy of users' data during inference. Motivated by
+this problem, we introduce the notion of Inference Privacy (IP), which can
+allow a user to interact with a model (for instance, a classifier, or an
+AI-assisted chat-bot) while providing a rigorous privacy guarantee for the
+users' data at inference. We establish fundamental properties of the IP privacy
+notion and also contrast it with the notion of Local Differential Privacy
+(LDP). We then present two types of mechanisms for achieving IP: namely, input
+perturbations and output perturbations which are customizable by the users and
+can allow them to navigate the trade-off between utility and privacy. We also
+demonstrate the usefulness of our framework via experiments and highlight the
+resulting trade-offs between utility and privacy during inference.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2411.18380v1">SoK: Privacy Personalised -- Mapping Personal Attributes \& Preferences
@@ -664,6 +658,40 @@ or mitigated by state-of-the-art data reconstruction defense methods. In
 contrast to baselines, our method can be directly applied to both FedAVG and
 FedSGD scenarios, underscoring the need for developers to devise new defenses
 against such vulnerabilities. We will open-source our code upon acceptance.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2411.18653v1">PRSI: Privacy-Preserving Recommendation Model Based on Vector Splitting
+  and Interactive Protocols</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-11-27T05:14:15Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xiaokai Cao, Wenjin Mo, Zhenyu He, Changdong Wang</p>
+    <p><b>Summary:</b> With the development of the internet, recommending interesting products to
+users has become a highly valuable research topic for businesses.
+Recommendation systems play a crucial role in addressing this issue. To prevent
+the leakage of each user's (client's) private data, Federated Recommendation
+Systems (FedRec) have been proposed and widely used. However, extensive
+research has shown that FedRec suffers from security issues such as data
+privacy leakage, and it is challenging to train effective models with FedRec
+when each client only holds interaction information for a single user. To
+address these two problems, this paper proposes a new privacy-preserving
+recommendation system (PRSI), which includes a preprocessing module and two
+main phases. The preprocessing module employs split vectors and fake
+interaction items to protect clients' interaction information and
+recommendation results. The two main phases are: (1) the collection of
+interaction information and (2) the sending of recommendation results. In the
+interaction information collection phase, each client uses the preprocessing
+module and random communication methods (according to the designed interactive
+protocol) to protect their ID information and IP addresses. In the
+recommendation results sending phase, the central server uses the preprocessing
+module and triplets to distribute recommendation results to each client under
+secure conditions, following the designed interactive protocol. Finally, we
+conducted multiple sets of experiments to verify the security, accuracy, and
+communication cost of the proposed method.</p>
   </details>
 </div>
 
