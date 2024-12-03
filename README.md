@@ -2808,30 +2808,31 @@ accuracy and F-measure, respectively.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.01357v1">WaKA: Data Attribution using K-Nearest Neighbors and Membership Privacy
+  <h3><a href="http://arxiv.org/abs/2411.01357v2">WaKA: Data Attribution using K-Nearest Neighbors and Membership Privacy
   Principles</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2024-11-02T20:27:51Z</p>
   <details>
     <summary>More Details</summary>
     <p><b>Authors:</b> Patrick Mesana, Clément Bénesse, Hadrien Lautraite, Gilles Caporossi, Sébastien Gambs</p>
-    <p><b>Summary:</b> In this paper, we introduce WaKA (Wasserstein K-nearest neighbors
+    <p><b>Summary:</b> In this paper, we introduce WaKA (Wasserstein K-nearest-neighbors
 Attribution), a novel attribution method that leverages principles from the
-LiRA (Likelihood Ratio Attack) framework and applies them to \( k \)-nearest
-neighbors classifiers (\( k \)-NN). WaKA efficiently measures the contribution
-of individual data points to the model's loss distribution, analyzing every
-possible \( k \)-NN that can be constructed using the training set, without
-requiring sampling or shadow model training. WaKA can be used \emph{a
-posteriori} as a membership inference attack (MIA) to assess privacy risks, and
-\emph{a priori} for data minimization and privacy influence measurement. Thus,
-WaKA can be seen as bridging the gap between data attribution and membership
-inference attack (MIA) literature by distinguishing between the value of a data
-point and its privacy risk. For instance, we show that self-attribution values
-are more strongly correlated with the attack success rate than the contribution
-of a point to model generalization. WaKA's different usages were also evaluated
+LiRA (Likelihood Ratio Attack) framework and k-nearest neighbors classifiers
+(k-NN). WaKA efficiently measures the contribution of individual data points to
+the model's loss distribution, analyzing every possible k-NN that can be
+constructed using the training set, without requiring to sample subsets of the
+training set. WaKA is versatile and can be used a posteriori as a membership
+inference attack (MIA) to assess privacy risks or a priori for privacy
+influence measurement and data valuation. Thus, WaKA can be seen as bridging
+the gap between data attribution and membership inference attack (MIA) by
+providing a unified framework to distinguish between a data point's value and
+its privacy risk. For instance, we have shown that self-attribution values are
+more strongly correlated with the attack success rate than the contribution of
+a point to the model generalization. WaKA's different usage were also evaluated
 across diverse real-world datasets, demonstrating performance very close to
-LiRA when used as an MIA on \( k \)-NN classifiers, but with greater
-computational efficiency.</p>
+LiRA when used as an MIA on k-NN classifiers, but with greater computational
+efficiency. Additionally, WaKA shows greater robustness than Shapley Values for
+data minimization tasks (removal or addition) on imbalanced datasets.</p>
   </details>
 </div>
 
