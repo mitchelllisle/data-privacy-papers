@@ -2558,5 +2558,33 @@
       "cs.CR",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.01357v2",
+    "title" : "WaKA: Data Attribution using K-Nearest Neighbors and Membership Privacy\n  Principles",
+    "summary" : "In this paper, we introduce WaKA (Wasserstein K-nearest-neighbors\nAttribution), a novel attribution method that leverages principles from the\nLiRA (Likelihood Ratio Attack) framework and k-nearest neighbors classifiers\n(k-NN). WaKA efficiently measures the contribution of individual data points to\nthe model's loss distribution, analyzing every possible k-NN that can be\nconstructed using the training set, without requiring to sample subsets of the\ntraining set. WaKA is versatile and can be used a posteriori as a membership\ninference attack (MIA) to assess privacy risks or a priori for privacy\ninfluence measurement and data valuation. Thus, WaKA can be seen as bridging\nthe gap between data attribution and membership inference attack (MIA) by\nproviding a unified framework to distinguish between a data point's value and\nits privacy risk. For instance, we have shown that self-attribution values are\nmore strongly correlated with the attack success rate than the contribution of\na point to the model generalization. WaKA's different usage were also evaluated\nacross diverse real-world datasets, demonstrating performance very close to\nLiRA when used as an MIA on k-NN classifiers, but with greater computational\nefficiency. Additionally, WaKA shows greater robustness than Shapley Values for\ndata minimization tasks (removal or addition) on imbalanced datasets.",
+    "updated" : "2024-12-01T16:18:23Z",
+    "published" : "2024-11-02T20:27:51Z",
+    "authors" : [
+      {
+        "name" : "Patrick Mesana"
+      },
+      {
+        "name" : "Clément Bénesse"
+      },
+      {
+        "name" : "Hadrien Lautraite"
+      },
+      {
+        "name" : "Gilles Caporossi"
+      },
+      {
+        "name" : "Sébastien Gambs"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
   }
 ]
