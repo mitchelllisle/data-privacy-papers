@@ -2586,5 +2586,56 @@
       "cs.LG",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.00367v1",
+    "title" : "Joint Optimization of Communication Enhancement and Location Privacy\n  Protection in RIS-Assisted Underwater Communication System",
+    "summary" : "As the demand for underwater communication continues to grow, underwater\nacoustic RIS (UARIS), as an emerging paradigm in underwater acoustic\ncommunication (UAC), can significantly improve the communication rate of\nunderwater acoustic systems. However, in open underwater environments, the\nlocation of the source node is highly susceptible to being obtained by\neavesdropping nodes through correlation analysis, leading to the issue of\nlocation privacy in underwater communication systems, which has been overlooked\nby many studies. To enhance underwater communication and protect location\nprivacy, we propose a novel UARIS architecture integrated with an artificial\nnoise (AN) module. This architecture not only improves communication quality\nbut also introduces noise to interfere with the eavesdroppers' attempts to\nlocate the source node. We derive the Cram\\'er-Rao Lower Bound (CRLB) for the\nlocalization method deployed by the eavesdroppers and, based on this, model the\nUARIS-assisted communication scenario as a multi-objective optimization\nproblem. This problem optimizes transmission beamforming, reflective precoding,\nand noise factors to maximize communication performance and location privacy\nprotection. To efficiently solve this non-convex optimization problem, we\ndevelop an iterative algorithm based on fractional programming. Simulation\nresults validate that the proposed system significantly enhances data\ntransmission rates while effectively maintaining the location privacy of the\nsource node in UAC systems.",
+    "updated" : "2024-11-30T06:08:03Z",
+    "published" : "2024-11-30T06:08:03Z",
+    "authors" : [
+      {
+        "name" : "Ziqi Chen"
+      },
+      {
+        "name" : "Jun Du"
+      },
+      {
+        "name" : "Chunxiao Jiang"
+      },
+      {
+        "name" : "Zhu Han"
+      }
+    ],
+    "categories" : [
+      "eess.SP"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.00277v2",
+    "title" : "Facial Expression Recognition with Controlled Privacy Preservation and\n  Feature Compensation",
+    "summary" : "Facial expression recognition (FER) systems raise significant privacy\nconcerns due to the potential exposure of sensitive identity information. This\npaper presents a study on removing identity information while preserving FER\ncapabilities. Drawing on the observation that low-frequency components\npredominantly contain identity information and high-frequency components\ncapture expression, we propose a novel two-stream framework that applies\nprivacy enhancement to each component separately. We introduce a controlled\nprivacy enhancement mechanism to optimize performance and a feature compensator\nto enhance task-relevant features without compromising privacy. Furthermore, we\npropose a novel privacy-utility trade-off, providing a quantifiable measure of\nprivacy preservation efficacy in closed-set FER tasks. Extensive experiments on\nthe benchmark CREMA-D dataset demonstrate that our framework achieves 78.84%\nrecognition accuracy with a privacy (facial identity) leakage ratio of only\n2.01%, highlighting its potential for secure and reliable video-based FER\napplications.",
+    "updated" : "2024-12-03T12:04:07Z",
+    "published" : "2024-11-29T23:12:38Z",
+    "authors" : [
+      {
+        "name" : "Feng Xu"
+      },
+      {
+        "name" : "David Ahmedt-Aristizabal"
+      },
+      {
+        "name" : "Lars Petersson"
+      },
+      {
+        "name" : "Dadong Wang"
+      },
+      {
+        "name" : "Xun Li"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
   }
 ]
