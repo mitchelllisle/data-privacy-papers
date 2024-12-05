@@ -2,6 +2,103 @@
 <h2>2024-12</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2412.02987v1">Advancing Conversational Psychotherapy: Integrating Privacy,
+  Dual-Memory, and Domain Expertise with Large Language Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2024-12-04T03:02:46Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> XiuYu Zhang, Zening Luo</p>
+    <p><b>Summary:</b> Mental health has increasingly become a global issue that reveals the
+limitations of traditional conversational psychotherapy, constrained by
+location, time, expense, and privacy concerns. In response to these challenges,
+we introduce SoulSpeak, a Large Language Model (LLM)-enabled chatbot designed
+to democratize access to psychotherapy. SoulSpeak improves upon the
+capabilities of standard LLM-enabled chatbots by incorporating a novel
+dual-memory component that combines short-term and long-term context via
+Retrieval Augmented Generation (RAG) to offer personalized responses while
+ensuring the preservation of user privacy and intimacy through a dedicated
+privacy module. In addition, it leverages a counseling chat dataset of
+therapist-client interactions and various prompting techniques to align the
+generated responses with psychotherapeutic methods. We introduce two fine-tuned
+BERT models to evaluate the system against existing LLMs and human therapists:
+the Conversational Psychotherapy Preference Model (CPPM) to simulate human
+preference among responses and another to assess response relevance to user
+input. CPPM is useful for training and evaluating psychotherapy-focused
+language models independent from SoulSpeak, helping with the constrained
+resources available for psychotherapy. Furthermore, the effectiveness of the
+dual-memory component and the robustness of the privacy module are also
+examined. Our findings highlight the potential and challenge of enhancing
+mental health care by offering an alternative that combines the expertise of
+traditional therapy with the advantages of LLMs, providing a promising way to
+address the accessibility and personalization gap in current mental health
+services.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2412.02934v1">BGTplanner: Maximizing Training Accuracy for Differentially Private
+  Federated Recommenders via Strategic Privacy Budget Allocation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
+  <p><b>Published on:</b> 2024-12-04T01:07:04Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xianzhi Zhang, Yipeng Zhou, Miao Hu, Di Wu, Pengshan Liao, Mohsen Guizani, Michael Sheng</p>
+    <p><b>Summary:</b> To mitigate the rising concern about privacy leakage, the federated
+recommender (FR) paradigm emerges, in which decentralized clients co-train the
+recommendation model without exposing their raw user-item rating data. The
+differentially private federated recommender (DPFR) further enhances FR by
+injecting differentially private (DP) noises into clients. Yet, current DPFRs,
+suffering from noise distortion, cannot achieve satisfactory accuracy. Various
+efforts have been dedicated to improving DPFRs by adaptively allocating the
+privacy budget over the learning process. However, due to the intricate
+relation between privacy budget allocation and model accuracy, existing works
+are still far from maximizing DPFR accuracy. To address this challenge, we
+develop BGTplanner (Budget Planner) to strategically allocate the privacy
+budget for each round of DPFR training, improving overall training performance.
+Specifically, we leverage the Gaussian process regression and historical
+information to predict the change in recommendation accuracy with a certain
+allocated privacy budget. Additionally, Contextual Multi-Armed Bandit (CMAB) is
+harnessed to make privacy budget allocation decisions by reconciling the
+current improvement and long-term privacy constraints. Our extensive
+experimental results on real datasets demonstrate that \emph{BGTplanner}
+achieves an average improvement of 6.76\% in training performance compared to
+state-of-the-art baselines.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2412.02868v1">A Novel Compact LLM Framework for Local, High-Privacy EHR Data
+  Applications</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-12-03T22:06:55Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yixiang Qu, Yifan Dai, Shilin Yu, Pradham Tanikella, Travis Schrank, Trevor Hackman, Didong Li, Di Wu</p>
+    <p><b>Summary:</b> Large Language Models (LLMs) have shown impressive capabilities in natural
+language processing, yet their use in sensitive domains like healthcare,
+particularly with Electronic Health Records (EHR), faces significant challenges
+due to privacy concerns and limited computational resources. This paper
+presents a compact LLM framework designed for local deployment in settings with
+strict privacy requirements and limited access to high-performance GPUs. We
+introduce a novel preprocessing technique that uses information extraction
+methods, e.g., regular expressions, to filter and emphasize critical
+information in clinical notes, enhancing the performance of smaller LLMs on EHR
+data. Our framework is evaluated using zero-shot and few-shot learning
+paradigms on both private and publicly available (MIMIC-IV) datasets, and we
+also compare its performance with fine-tuned LLMs on the MIMIC-IV dataset. The
+results demonstrate that our preprocessing approach significantly boosts the
+prediction accuracy of smaller LLMs, making them suitable for high-privacy,
+resource-constrained applications. This study offers valuable insights into
+optimizing LLM performance for sensitive, data-intensive tasks while addressing
+computational and privacy limitations.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2412.02578v1">Private Linear Regression with Differential Privacy and PAC Privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2024-12-03T17:04:14Z</p>
@@ -23,8 +120,8 @@ privacy-preserving linear regression.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.02538v1">On the Privacy, Security, and Trustworthy for Distributed Wireless Large
-  AI Model (WLAM)</a></h3>
+  <h3><a href="http://arxiv.org/abs/2412.02538v2">On Privacy, Security, and Trustworthiness in Distributed Wireless Large
+  AI Models (WLAM)</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">  
   <p><b>Published on:</b> 2024-12-03T16:32:19Z</p>
   <details>
@@ -39,12 +136,12 @@ applications like autonomous vehicles, smart cities, and Internet of Things
 communication resources limit the deployment of large AI models over
 distributed wireless networks. This paper provides a comprehensive overview of
 privacy, security, and trustworthy for distributed wireless large AI model
-(WLAM). In particular, the detailed privacy and security are analysis for
+(WLAM). In particular, a detailed privacy and security are analysis for
 distributed WLAM is fist revealed. The classifications and theoretical findings
 about privacy and security in distributed WLAM are discussed. Then the
 trustworthy and ethics for implementing distributed WLAM are described.
-Finally, the comprehensive applications of distributed WLAM is provided in the
-aspect of electromagnetic signal processing.</p>
+Finally, the comprehensive applications of distributed WLAM are presented in
+the context of electromagnetic signal processing.</p>
   </details>
 </div>
 
@@ -1483,7 +1580,7 @@ attention of the community for further investigation.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.12766v1">Exploiting the Uncoordinated Privacy Protections of Eye Tracking and VR
+  <h3><a href="http://arxiv.org/abs/2411.12766v2">Exploiting the Uncoordinated Privacy Protections of Eye Tracking and VR
   Motion Data for Unauthorized User Identification</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
   <p><b>Published on:</b> 2024-11-17T22:16:37Z</p>
@@ -1491,19 +1588,19 @@ attention of the community for further investigation.</p>
     <summary>More Details</summary>
     <p><b>Authors:</b> Samantha Aziz, Oleg Komogortsev</p>
     <p><b>Summary:</b> Virtual reality (VR) devices use a variety of sensors to capture a rich body
-of user-generated data, which can be misused by malicious parties to covertly
-infer information about the user. Privacy-enhancing techniques seek to reduce
-the amount of personally identifying information in sensor data, but these
-techniques are typically developed for a subset of data streams that are
-available on the platform, without consideration for the auxiliary information
-that may be readily available from other sensors. In this paper, we evaluate
-whether body motion data can be used to circumvent the privacy protections
-applied to eye tracking data to enable user identification on a VR platform,
-and vice versa. We empirically show that eye tracking, headset tracking, and
-hand tracking data are not only informative for inferring user identity on
-their own, but contain complementary information that can increase the rate of
-successful user identification. Most importantly, we demonstrate that applying
-privacy protections to only a subset of the data available in VR can create an
+of user-generated data. This data can be misused by malicious parties to
+covertly infer information about the user. Privacy-enhancing techniques that
+seek to reduce the amount of personally identifying information in sensor data
+are typically developed for a subset of data streams that are available on the
+platform, without consideration for the auxiliary information that may be
+readily available from other sensors. In this paper, we evaluate whether body
+motion data can be used to circumvent the privacy protections applied to eye
+tracking data to enable user identification on a VR platform, and vice versa.
+We empirically show that eye tracking, headset tracking, and hand tracking data
+are not only informative for inferring user identity on their own, but contain
+complementary information that can increase the rate of successful user
+identification. Most importantly, we demonstrate that applying privacy
+protections to only a subset of the data available in VR can create an
 opportunity for an adversary to bypass those privacy protections by using other
 unprotected data streams that are available on the platform, performing a user
 identification attack as accurately as though a privacy mechanism was never
@@ -2902,101 +2999,6 @@ across diverse real-world datasets, demonstrating performance very close to
 LiRA when used as an MIA on k-NN classifiers, but with greater computational
 efficiency. Additionally, WaKA shows greater robustness than Shapley Values for
 data minimization tasks (removal or addition) on imbalanced datasets.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.01344v1">Can Humans Oversee Agents to Prevent Privacy Leakage? A Study on Privacy
-  Awareness, Preferences, and Trust in Language Model Agents</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-11-02T19:15:42Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zhiping Zhang, Bingcan Guo, Tianshi Li</p>
-    <p><b>Summary:</b> Language model (LM) agents that act on users' behalf for personal tasks can
-boost productivity, but are also susceptible to unintended privacy leakage
-risks. We present the first study on people's capacity to oversee the privacy
-implications of the LM agents. By conducting a task-based survey (N=300), we
-investigate how people react to and assess the response generated by LM agents
-for asynchronous interpersonal communication tasks, compared with a response
-they wrote. We found that people may favor the agent response with more privacy
-leakage over the response they drafted or consider both good, leading to an
-increased harmful disclosure from 15.7% to 55.0%. We further uncovered distinct
-patterns of privacy behaviors, attitudes, and preferences, and the nuanced
-interactions between privacy considerations and other factors. Our findings
-shed light on designing agentic systems that enable privacy-preserving
-interactions and achieve bidirectional alignment on privacy preferences to help
-users calibrate trust.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.01308v1">ECG-PPS: Privacy Preserving Disease Diagnosis and Monitoring System for
-  Real-Time ECG Signal</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-11-02T17:03:25Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Beyazit Bestami Yuksel, Ayse Yilmazer Metin</p>
-    <p><b>Summary:</b> This study introduces the development of a state of the art, real time ECG
-monitoring and analysis system, incorporating cutting edge medical technology
-and innovative data security measures. Our system performs three distinct
-functions thaat real time ECG monitoring and disease detection, encrypted
-storage and synchronized visualization, and statistical analysis on encrypted
-data. At its core, the system uses a three lead ECG preamplifier connected
-through a serial port to capture, display, and record real time ECG data. These
-signals are securely stored in the cloud using robust encryption methods.
-Authorized medical personnel can access and decrypt this data on their
-computers, with AES encryption ensuring synchronized real time data tracking
-and visualization. Furthermore, the system performs statistical operations on
-the ECG data stored in the cloud without decrypting it, using Fully Homomorphic
-Encryption (FHE). This enables privacy preserving data analysis while ensuring
-the security and confidentiality of patient information. By integrating these
-independent functions, our system significantly enhances the security and
-efficiency of health monitoring. It supports critical tasks such as disease
-detection, patient monitoring, and preliminary intervention, all while
-upholding stringent data privacy standards. We provided detailed discussions on
-the system's architecture, hardware configuration, software implementation, and
-clinical performance. The results highlight the potential of this system to
-improve patient care through secure and efficient ECG monitoring and analysis.
-This work represents a significant leap forward in medical technology. By
-incorporating FHE into both data transmission and storage processes, we ensure
-continuous encryption of data throughout its lifecycle while enabling real time
-disease diagnosis.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.01140v2">Privacy-Preserving Federated Learning with Differentially Private
-  Hyperdimensional Computing</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
-  <p><b>Published on:</b> 2024-11-02T05:00:44Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Fardin Jalil Piran, Zhiling Chen, Mohsen Imani, Farhad Imani</p>
-    <p><b>Summary:</b> Federated Learning (FL) is essential for efficient data exchange in Internet
-of Things (IoT) environments, as it trains Machine Learning (ML) models locally
-and shares only model updates. However, FL is vulnerable to privacy threats
-like model inversion and membership inference attacks, which can expose
-sensitive training data. To address these privacy concerns, Differential
-Privacy (DP) mechanisms are often applied. Yet, adding DP noise to black-box ML
-models degrades performance, especially in dynamic IoT systems where
-continuous, lifelong FL learning accumulates excessive noise over time. To
-mitigate this issue, we introduce Federated HyperDimensional computing with
-Privacy-preserving (FedHDPrivacy), an eXplainable Artificial Intelligence (XAI)
-framework that combines the neuro-symbolic paradigm with DP. FedHDPrivacy
-carefully manages the balance between privacy and performance by theoretically
-tracking cumulative noise from previous rounds and adding only the necessary
-incremental noise to meet privacy requirements. In a real-world case study
-involving in-process monitoring of manufacturing machining operations,
-FedHDPrivacy demonstrates robust performance, outperforming standard FL
-frameworks-including Federated Averaging (FedAvg), Federated Stochastic
-Gradient Descent (FedSGD), Federated Proximal (FedProx), Federated Normalized
-Averaging (FedNova), and Federated Adam (FedAdam)-by up to 38%. FedHDPrivacy
-also shows potential for future enhancements, such as multimodal data fusion.</p>
   </details>
 </div>
 
