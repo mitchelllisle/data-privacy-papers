@@ -2637,5 +2637,23 @@
     "categories" : [
       "cs.CV"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2411.12766v2",
+    "title" : "Exploiting the Uncoordinated Privacy Protections of Eye Tracking and VR\n  Motion Data for Unauthorized User Identification",
+    "summary" : "Virtual reality (VR) devices use a variety of sensors to capture a rich body\nof user-generated data. This data can be misused by malicious parties to\ncovertly infer information about the user. Privacy-enhancing techniques that\nseek to reduce the amount of personally identifying information in sensor data\nare typically developed for a subset of data streams that are available on the\nplatform, without consideration for the auxiliary information that may be\nreadily available from other sensors. In this paper, we evaluate whether body\nmotion data can be used to circumvent the privacy protections applied to eye\ntracking data to enable user identification on a VR platform, and vice versa.\nWe empirically show that eye tracking, headset tracking, and hand tracking data\nare not only informative for inferring user identity on their own, but contain\ncomplementary information that can increase the rate of successful user\nidentification. Most importantly, we demonstrate that applying privacy\nprotections to only a subset of the data available in VR can create an\nopportunity for an adversary to bypass those privacy protections by using other\nunprotected data streams that are available on the platform, performing a user\nidentification attack as accurately as though a privacy mechanism was never\napplied. These results highlight a new privacy consideration at the\nintersection between eye tracking and VR, and emphasizes the need for\nprivacy-enhancing techniques that address multiple technologies\ncomprehensively.",
+    "updated" : "2024-12-03T23:20:37Z",
+    "published" : "2024-11-17T22:16:37Z",
+    "authors" : [
+      {
+        "name" : "Samantha Aziz"
+      },
+      {
+        "name" : "Oleg Komogortsev"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
   }
 ]
