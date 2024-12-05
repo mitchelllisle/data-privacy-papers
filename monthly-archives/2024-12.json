@@ -462,5 +462,127 @@
       "cs.CR",
       "68P27"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.02987v1",
+    "title" : "Advancing Conversational Psychotherapy: Integrating Privacy,\n  Dual-Memory, and Domain Expertise with Large Language Models",
+    "summary" : "Mental health has increasingly become a global issue that reveals the\nlimitations of traditional conversational psychotherapy, constrained by\nlocation, time, expense, and privacy concerns. In response to these challenges,\nwe introduce SoulSpeak, a Large Language Model (LLM)-enabled chatbot designed\nto democratize access to psychotherapy. SoulSpeak improves upon the\ncapabilities of standard LLM-enabled chatbots by incorporating a novel\ndual-memory component that combines short-term and long-term context via\nRetrieval Augmented Generation (RAG) to offer personalized responses while\nensuring the preservation of user privacy and intimacy through a dedicated\nprivacy module. In addition, it leverages a counseling chat dataset of\ntherapist-client interactions and various prompting techniques to align the\ngenerated responses with psychotherapeutic methods. We introduce two fine-tuned\nBERT models to evaluate the system against existing LLMs and human therapists:\nthe Conversational Psychotherapy Preference Model (CPPM) to simulate human\npreference among responses and another to assess response relevance to user\ninput. CPPM is useful for training and evaluating psychotherapy-focused\nlanguage models independent from SoulSpeak, helping with the constrained\nresources available for psychotherapy. Furthermore, the effectiveness of the\ndual-memory component and the robustness of the privacy module are also\nexamined. Our findings highlight the potential and challenge of enhancing\nmental health care by offering an alternative that combines the expertise of\ntraditional therapy with the advantages of LLMs, providing a promising way to\naddress the accessibility and personalization gap in current mental health\nservices.",
+    "updated" : "2024-12-04T03:02:46Z",
+    "published" : "2024-12-04T03:02:46Z",
+    "authors" : [
+      {
+        "name" : "XiuYu Zhang"
+      },
+      {
+        "name" : "Zening Luo"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.02934v1",
+    "title" : "BGTplanner: Maximizing Training Accuracy for Differentially Private\n  Federated Recommenders via Strategic Privacy Budget Allocation",
+    "summary" : "To mitigate the rising concern about privacy leakage, the federated\nrecommender (FR) paradigm emerges, in which decentralized clients co-train the\nrecommendation model without exposing their raw user-item rating data. The\ndifferentially private federated recommender (DPFR) further enhances FR by\ninjecting differentially private (DP) noises into clients. Yet, current DPFRs,\nsuffering from noise distortion, cannot achieve satisfactory accuracy. Various\nefforts have been dedicated to improving DPFRs by adaptively allocating the\nprivacy budget over the learning process. However, due to the intricate\nrelation between privacy budget allocation and model accuracy, existing works\nare still far from maximizing DPFR accuracy. To address this challenge, we\ndevelop BGTplanner (Budget Planner) to strategically allocate the privacy\nbudget for each round of DPFR training, improving overall training performance.\nSpecifically, we leverage the Gaussian process regression and historical\ninformation to predict the change in recommendation accuracy with a certain\nallocated privacy budget. Additionally, Contextual Multi-Armed Bandit (CMAB) is\nharnessed to make privacy budget allocation decisions by reconciling the\ncurrent improvement and long-term privacy constraints. Our extensive\nexperimental results on real datasets demonstrate that \\emph{BGTplanner}\nachieves an average improvement of 6.76\\% in training performance compared to\nstate-of-the-art baselines.",
+    "updated" : "2024-12-04T01:07:04Z",
+    "published" : "2024-12-04T01:07:04Z",
+    "authors" : [
+      {
+        "name" : "Xianzhi Zhang"
+      },
+      {
+        "name" : "Yipeng Zhou"
+      },
+      {
+        "name" : "Miao Hu"
+      },
+      {
+        "name" : "Di Wu"
+      },
+      {
+        "name" : "Pengshan Liao"
+      },
+      {
+        "name" : "Mohsen Guizani"
+      },
+      {
+        "name" : "Michael Sheng"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.02868v1",
+    "title" : "A Novel Compact LLM Framework for Local, High-Privacy EHR Data\n  Applications",
+    "summary" : "Large Language Models (LLMs) have shown impressive capabilities in natural\nlanguage processing, yet their use in sensitive domains like healthcare,\nparticularly with Electronic Health Records (EHR), faces significant challenges\ndue to privacy concerns and limited computational resources. This paper\npresents a compact LLM framework designed for local deployment in settings with\nstrict privacy requirements and limited access to high-performance GPUs. We\nintroduce a novel preprocessing technique that uses information extraction\nmethods, e.g., regular expressions, to filter and emphasize critical\ninformation in clinical notes, enhancing the performance of smaller LLMs on EHR\ndata. Our framework is evaluated using zero-shot and few-shot learning\nparadigms on both private and publicly available (MIMIC-IV) datasets, and we\nalso compare its performance with fine-tuned LLMs on the MIMIC-IV dataset. The\nresults demonstrate that our preprocessing approach significantly boosts the\nprediction accuracy of smaller LLMs, making them suitable for high-privacy,\nresource-constrained applications. This study offers valuable insights into\noptimizing LLM performance for sensitive, data-intensive tasks while addressing\ncomputational and privacy limitations.",
+    "updated" : "2024-12-03T22:06:55Z",
+    "published" : "2024-12-03T22:06:55Z",
+    "authors" : [
+      {
+        "name" : "Yixiang Qu"
+      },
+      {
+        "name" : "Yifan Dai"
+      },
+      {
+        "name" : "Shilin Yu"
+      },
+      {
+        "name" : "Pradham Tanikella"
+      },
+      {
+        "name" : "Travis Schrank"
+      },
+      {
+        "name" : "Trevor Hackman"
+      },
+      {
+        "name" : "Didong Li"
+      },
+      {
+        "name" : "Di Wu"
+      }
+    ],
+    "categories" : [
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.02538v2",
+    "title" : "On Privacy, Security, and Trustworthiness in Distributed Wireless Large\n  AI Models (WLAM)",
+    "summary" : "Combining wireless communication with large artificial intelligence (AI)\nmodels can open up a myriad of novel application scenarios. In sixth generation\n(6G) networks, ubiquitous communication and computing resources allow large AI\nmodels to serve democratic large AI models-related services to enable real-time\napplications like autonomous vehicles, smart cities, and Internet of Things\n(IoT) ecosystems. However, the security considerations and sustainable\ncommunication resources limit the deployment of large AI models over\ndistributed wireless networks. This paper provides a comprehensive overview of\nprivacy, security, and trustworthy for distributed wireless large AI model\n(WLAM). In particular, a detailed privacy and security are analysis for\ndistributed WLAM is fist revealed. The classifications and theoretical findings\nabout privacy and security in distributed WLAM are discussed. Then the\ntrustworthy and ethics for implementing distributed WLAM are described.\nFinally, the comprehensive applications of distributed WLAM are presented in\nthe context of electromagnetic signal processing.",
+    "updated" : "2024-12-04T07:11:07Z",
+    "published" : "2024-12-03T16:32:19Z",
+    "authors" : [
+      {
+        "name" : "Zhaohui Yang"
+      },
+      {
+        "name" : "Wei Xu"
+      },
+      {
+        "name" : "Le Liang"
+      },
+      {
+        "name" : "Yuanhao Cui"
+      },
+      {
+        "name" : "Zhijin Qin"
+      },
+      {
+        "name" : "Merouane Debbah"
+      }
+    ],
+    "categories" : [
+      "cs.IT",
+      "cs.LG",
+      "eess.SP",
+      "math.IT"
+    ]
   }
 ]
