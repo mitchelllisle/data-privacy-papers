@@ -584,5 +584,99 @@
       "eess.SP",
       "math.IT"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.04408v1",
+    "title" : "Providing Differential Privacy for Federated Learning Over Wireless: A\n  Cross-layer Framework",
+    "summary" : "Federated Learning (FL) is a distributed machine learning framework that\ninherently allows edge devices to maintain their local training data, thus\nproviding some level of privacy. However, FL's model updates still pose a risk\nof privacy leakage, which must be mitigated. Over-the-air FL (OTA-FL) is an\nadapted FL design for wireless edge networks that leverages the natural\nsuperposition property of the wireless medium. We propose a wireless physical\nlayer (PHY) design for OTA-FL which improves differential privacy (DP) through\na decentralized, dynamic power control that utilizes both inherent Gaussian\nnoise in the wireless channel and a cooperative jammer (CJ) for additional\nartificial noise generation when higher privacy levels are required. Although\nprimarily implemented within the Upcycled-FL framework, where a\nresource-efficient method with first-order approximations is used at every even\niteration to decrease the required information from clients, our power control\nstrategy is applicable to any FL framework, including FedAvg and FedProx as\nshown in the paper. This adaptation showcases the flexibility and effectiveness\nof our design across different learning algorithms while maintaining a strong\nemphasis on privacy. Our design removes the need for client-side artificial\nnoise injection for DP, utilizing a cooperative jammer to enhance privacy\nwithout affecting transmission efficiency for higher privacy demands. Privacy\nanalysis is provided using the Moments Accountant method. We perform a\nconvergence analysis for non-convex objectives to tackle heterogeneous data\ndistributions, highlighting the inherent trade-offs between privacy and\naccuracy. Numerical results show that our approach with various FL algorithms\noutperforms the state-of-the-art under the same DP conditions on the non-i.i.d.\nFEMNIST dataset, and highlight the cooperative jammer's effectiveness in\nensuring strict privacy.",
+    "updated" : "2024-12-05T18:27:09Z",
+    "published" : "2024-12-05T18:27:09Z",
+    "authors" : [
+      {
+        "name" : "Jiayu Mao"
+      },
+      {
+        "name" : "Tongxin Yin"
+      },
+      {
+        "name" : "Aylin Yener"
+      },
+      {
+        "name" : "Mingyan Liu"
+      }
+    ],
+    "categories" : [
+      "cs.IT",
+      "cs.LG",
+      "math.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.04178v1",
+    "title" : "Multi-Layer Privacy-Preserving Record Linkage with Clerical Review based\n  on gradual information disclosure",
+    "summary" : "Privacy-Preserving Record linkage (PPRL) is an essential component in data\nintegration tasks of sensitive information. The linkage quality determines the\nusability of combined datasets and (machine learning) applications based on\nthem. We present a novel privacy-preserving protocol that integrates clerical\nreview in PPRL using a multi-layer active learning process. Uncertain match\ncandidates are reviewed on several layers by human and non-human oracles to\nreduce the amount of disclosed information per record and in total. Predictions\nare propagated back to update previous layers, resulting in an improved linkage\nperformance for non-reviewed candidates as well. The data owners remain in\ncontrol of the amount of information they share for each record. Therefore, our\napproach follows need-to-know and data sovereignty principles. The experimental\nevaluation on real-world datasets shows considerable linkage quality\nimprovements with limited labeling effort and privacy risks.",
+    "updated" : "2024-12-05T14:18:50Z",
+    "published" : "2024-12-05T14:18:50Z",
+    "authors" : [
+      {
+        "name" : "Florens Rohde"
+      },
+      {
+        "name" : "Victor Christen"
+      },
+      {
+        "name" : "Martin Franke"
+      },
+      {
+        "name" : "Erhard Rahm"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DB",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.04031v1",
+    "title" : "Dimension Reduction via Random Projection for Privacy in Multi-Agent\n  Systems",
+    "summary" : "The agents in a Multi-Agent System (MAS) make observations about the system\nand send that information to a fusion center. The fusion center aggregates the\ninformation and concludes about the system parameters with as much accuracy as\npossible. However for the purposes of better efficiency of the system at large,\nthe agents need to append some private parameters to the observed data. In this\nscenario, the data sent to the fusion center is faced with privacy risks. The\ndata communicated to the fusion center must be secured against data privacy\nbreaches and inference attacks in a decentralized manner. However, this in turn\nleads to a loss of utility of the data being sent to the fusion center. We\nquantify the utility and privacy of the system using Cosine similarity. We\nformulate our MAS problem in terms of deducing a concept for which\ncompression-based methods are there in literature. Next, we propose a novel\nsanitization mechanism for our MAS using one such compression-based method\nwhile addressing the utility-privacy tradeoff problem.",
+    "updated" : "2024-12-05T10:09:13Z",
+    "published" : "2024-12-05T10:09:13Z",
+    "authors" : [
+      {
+        "name" : "Puspanjali Ghoshal"
+      },
+      {
+        "name" : "Ashok Singh Sairam"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.03924v1",
+    "title" : "Privacy-Preserving in Medical Image Analysis: A Review of Methods and\n  Applications",
+    "summary" : "With the rapid advancement of artificial intelligence and deep learning,\nmedical image analysis has become a critical tool in modern healthcare,\nsignificantly improving diagnostic accuracy and efficiency. However, AI-based\nmethods also raise serious privacy concerns, as medical images often contain\nhighly sensitive patient information. This review offers a comprehensive\noverview of privacy-preserving techniques in medical image analysis, including\nencryption, differential privacy, homomorphic encryption, federated learning,\nand generative adversarial networks. We explore the application of these\ntechniques across various medical image analysis tasks, such as diagnosis,\npathology, and telemedicine. Notably, we organizes the review based on specific\nchallenges and their corresponding solutions in different medical image\nanalysis applications, so that technical applications are directly aligned with\npractical issues, addressing gaps in the current research landscape.\nAdditionally, we discuss emerging trends, such as zero-knowledge proofs and\nsecure multi-party computation, offering insights for future research. This\nreview serves as a valuable resource for researchers and practitioners and can\nhelp advance privacy-preserving in medical image analysis.",
+    "updated" : "2024-12-05T06:56:06Z",
+    "published" : "2024-12-05T06:56:06Z",
+    "authors" : [
+      {
+        "name" : "Yanming Zhu"
+      },
+      {
+        "name" : "Xuefei Yin"
+      },
+      {
+        "name" : "Alan Wee-Chung Liew"
+      },
+      {
+        "name" : "Hui Tian"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
   }
 ]
