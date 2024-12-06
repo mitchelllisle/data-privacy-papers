@@ -2,6 +2,124 @@
 <h2>2024-12</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2412.04408v1">Providing Differential Privacy for Federated Learning Over Wireless: A
+  Cross-layer Framework</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
+  <p><b>Published on:</b> 2024-12-05T18:27:09Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jiayu Mao, Tongxin Yin, Aylin Yener, Mingyan Liu</p>
+    <p><b>Summary:</b> Federated Learning (FL) is a distributed machine learning framework that
+inherently allows edge devices to maintain their local training data, thus
+providing some level of privacy. However, FL's model updates still pose a risk
+of privacy leakage, which must be mitigated. Over-the-air FL (OTA-FL) is an
+adapted FL design for wireless edge networks that leverages the natural
+superposition property of the wireless medium. We propose a wireless physical
+layer (PHY) design for OTA-FL which improves differential privacy (DP) through
+a decentralized, dynamic power control that utilizes both inherent Gaussian
+noise in the wireless channel and a cooperative jammer (CJ) for additional
+artificial noise generation when higher privacy levels are required. Although
+primarily implemented within the Upcycled-FL framework, where a
+resource-efficient method with first-order approximations is used at every even
+iteration to decrease the required information from clients, our power control
+strategy is applicable to any FL framework, including FedAvg and FedProx as
+shown in the paper. This adaptation showcases the flexibility and effectiveness
+of our design across different learning algorithms while maintaining a strong
+emphasis on privacy. Our design removes the need for client-side artificial
+noise injection for DP, utilizing a cooperative jammer to enhance privacy
+without affecting transmission efficiency for higher privacy demands. Privacy
+analysis is provided using the Moments Accountant method. We perform a
+convergence analysis for non-convex objectives to tackle heterogeneous data
+distributions, highlighting the inherent trade-offs between privacy and
+accuracy. Numerical results show that our approach with various FL algorithms
+outperforms the state-of-the-art under the same DP conditions on the non-i.i.d.
+FEMNIST dataset, and highlight the cooperative jammer's effectiveness in
+ensuring strict privacy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2412.04178v1">Multi-Layer Privacy-Preserving Record Linkage with Clerical Review based
+  on gradual information disclosure</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-12-05T14:18:50Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Florens Rohde, Victor Christen, Martin Franke, Erhard Rahm</p>
+    <p><b>Summary:</b> Privacy-Preserving Record linkage (PPRL) is an essential component in data
+integration tasks of sensitive information. The linkage quality determines the
+usability of combined datasets and (machine learning) applications based on
+them. We present a novel privacy-preserving protocol that integrates clerical
+review in PPRL using a multi-layer active learning process. Uncertain match
+candidates are reviewed on several layers by human and non-human oracles to
+reduce the amount of disclosed information per record and in total. Predictions
+are propagated back to update previous layers, resulting in an improved linkage
+performance for non-reviewed candidates as well. The data owners remain in
+control of the amount of information they share for each record. Therefore, our
+approach follows need-to-know and data sovereignty principles. The experimental
+evaluation on real-world datasets shows considerable linkage quality
+improvements with limited labeling effort and privacy risks.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2412.04031v1">Dimension Reduction via Random Projection for Privacy in Multi-Agent
+  Systems</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-12-05T10:09:13Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Puspanjali Ghoshal, Ashok Singh Sairam</p>
+    <p><b>Summary:</b> The agents in a Multi-Agent System (MAS) make observations about the system
+and send that information to a fusion center. The fusion center aggregates the
+information and concludes about the system parameters with as much accuracy as
+possible. However for the purposes of better efficiency of the system at large,
+the agents need to append some private parameters to the observed data. In this
+scenario, the data sent to the fusion center is faced with privacy risks. The
+data communicated to the fusion center must be secured against data privacy
+breaches and inference attacks in a decentralized manner. However, this in turn
+leads to a loss of utility of the data being sent to the fusion center. We
+quantify the utility and privacy of the system using Cosine similarity. We
+formulate our MAS problem in terms of deducing a concept for which
+compression-based methods are there in literature. Next, we propose a novel
+sanitization mechanism for our MAS using one such compression-based method
+while addressing the utility-privacy tradeoff problem.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2412.03924v1">Privacy-Preserving in Medical Image Analysis: A Review of Methods and
+  Applications</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2024-12-05T06:56:06Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yanming Zhu, Xuefei Yin, Alan Wee-Chung Liew, Hui Tian</p>
+    <p><b>Summary:</b> With the rapid advancement of artificial intelligence and deep learning,
+medical image analysis has become a critical tool in modern healthcare,
+significantly improving diagnostic accuracy and efficiency. However, AI-based
+methods also raise serious privacy concerns, as medical images often contain
+highly sensitive patient information. This review offers a comprehensive
+overview of privacy-preserving techniques in medical image analysis, including
+encryption, differential privacy, homomorphic encryption, federated learning,
+and generative adversarial networks. We explore the application of these
+techniques across various medical image analysis tasks, such as diagnosis,
+pathology, and telemedicine. Notably, we organizes the review based on specific
+challenges and their corresponding solutions in different medical image
+analysis applications, so that technical applications are directly aligned with
+practical issues, addressing gaps in the current research landscape.
+Additionally, we discuss emerging trends, such as zero-knowledge proofs and
+secure multi-party computation, offering insights for future research. This
+review serves as a valuable resource for researchers and practitioners and can
+help advance privacy-preserving in medical image analysis.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2412.02987v1">Advancing Conversational Psychotherapy: Integrating Privacy,
   Dual-Memory, and Domain Expertise with Large Language Models</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
@@ -2879,126 +2997,6 @@ strengths and weaknesses in terms of utility, privacy, and computational
 complexity. Additionally, we present and discuss various evaluation methods for
 assessing the quality of the synthesized data, identify research gaps in the
 field and directions for future research.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.01583v1">Trustworthy Federated Learning: Privacy, Security, and Beyond</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
-  <p><b>Published on:</b> 2024-11-03T14:18:01Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Chunlu Chen, Ji Liu, Haowen Tan, Xingjian Li, Kevin I-Kai Wang, Peng Li, Kouichi Sakurai, Dejing Dou</p>
-    <p><b>Summary:</b> While recent years have witnessed the advancement in big data and Artificial
-Intelligence (AI), it is of much importance to safeguard data privacy and
-security. As an innovative approach, Federated Learning (FL) addresses these
-concerns by facilitating collaborative model training across distributed data
-sources without transferring raw data. However, the challenges of robust
-security and privacy across decentralized networks catch significant attention
-in dealing with the distributed data in FL. In this paper, we conduct an
-extensive survey of the security and privacy issues prevalent in FL,
-underscoring the vulnerability of communication links and the potential for
-cyber threats. We delve into various defensive strategies to mitigate these
-risks, explore the applications of FL across different sectors, and propose
-research directions. We identify the intricate security challenges that arise
-within the FL frameworks, aiming to contribute to the development of secure and
-efficient FL systems.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.01471v1">A Practical and Privacy-Preserving Framework for Real-World Large
-  Language Model Services</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-11-03T07:40:28Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yu Mao, Xueping Liao, Wei Liu, Anjia Yang</p>
-    <p><b>Summary:</b> Large language models (LLMs) have demonstrated exceptional capabilities in
-text understanding and generation, and they are increasingly being utilized
-across various domains to enhance productivity. However, due to the high costs
-of training and maintaining these models, coupled with the fact that some LLMs
-are proprietary, individuals often rely on online AI as a Service (AIaaS)
-provided by LLM companies. This business model poses significant privacy risks,
-as service providers may exploit users' trace patterns and behavioral data. In
-this paper, we propose a practical and privacy-preserving framework that
-ensures user anonymity by preventing service providers from linking requests to
-the individuals who submit them. Our framework is built on partially blind
-signatures, which guarantee the unlinkability of user requests. Furthermore, we
-introduce two strategies tailored to both subscription-based and API-based
-service models, ensuring the protection of both users' privacy and service
-providers' interests. The framework is designed to integrate seamlessly with
-existing LLM systems, as it does not require modifications to the underlying
-architectures. Experimental results demonstrate that our framework incurs
-minimal computation and communication overhead, making it a feasible solution
-for real-world applications.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.01447v1">Privacy-Preserving Customer Churn Prediction Model in the Context of
-  Telecommunication Industry</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-11-03T06:08:59Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Joydeb Kumar Sana, M Sohel Rahman, M Saifur Rahman</p>
-    <p><b>Summary:</b> Data is the main fuel of a successful machine learning model. A dataset may
-contain sensitive individual records e.g. personal health records, financial
-data, industrial information, etc. Training a model using this sensitive data
-has become a new privacy concern when someone uses third-party cloud computing.
-Trained models also suffer privacy attacks which leads to the leaking of
-sensitive information of the training data. This study is conducted to preserve
-the privacy of training data in the context of customer churn prediction
-modeling for the telecommunications industry (TCI). In this work, we propose a
-framework for privacy-preserving customer churn prediction (PPCCP) model in the
-cloud environment. We have proposed a novel approach which is a combination of
-Generative Adversarial Networks (GANs) and adaptive Weight-of-Evidence (aWOE).
-Synthetic data is generated from GANs, and aWOE is applied on the synthetic
-training dataset before feeding the data to the classification algorithms. Our
-experiments were carried out using eight different machine learning (ML)
-classifiers on three openly accessible datasets from the telecommunication
-sector. We then evaluated the performance using six commonly employed
-evaluation metrics. In addition to presenting a data privacy analysis, we also
-performed a statistical significance test. The training and prediction
-processes achieve data privacy and the prediction classifiers achieve high
-prediction performance (87.1\% in terms of F-Measure for GANs-aWOE based
-Na\"{\i}ve Bayes model). In contrast to earlier studies, our suggested approach
-demonstrates a prediction enhancement of up to 28.9\% and 27.9\% in terms of
-accuracy and F-measure, respectively.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.01357v2">WaKA: Data Attribution using K-Nearest Neighbors and Membership Privacy
-  Principles</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-11-02T20:27:51Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Patrick Mesana, Clément Bénesse, Hadrien Lautraite, Gilles Caporossi, Sébastien Gambs</p>
-    <p><b>Summary:</b> In this paper, we introduce WaKA (Wasserstein K-nearest-neighbors
-Attribution), a novel attribution method that leverages principles from the
-LiRA (Likelihood Ratio Attack) framework and k-nearest neighbors classifiers
-(k-NN). WaKA efficiently measures the contribution of individual data points to
-the model's loss distribution, analyzing every possible k-NN that can be
-constructed using the training set, without requiring to sample subsets of the
-training set. WaKA is versatile and can be used a posteriori as a membership
-inference attack (MIA) to assess privacy risks or a priori for privacy
-influence measurement and data valuation. Thus, WaKA can be seen as bridging
-the gap between data attribution and membership inference attack (MIA) by
-providing a unified framework to distinguish between a data point's value and
-its privacy risk. For instance, we have shown that self-attribution values are
-more strongly correlated with the attack success rate than the contribution of
-a point to the model generalization. WaKA's different usage were also evaluated
-across diverse real-world datasets, demonstrating performance very close to
-LiRA when used as an MIA on k-NN classifiers, but with greater computational
-efficiency. Additionally, WaKA shows greater robustness than Shapley Values for
-data minimization tasks (removal or addition) on imbalanced datasets.</p>
   </details>
 </div>
 
