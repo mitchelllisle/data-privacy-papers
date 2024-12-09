@@ -678,5 +678,106 @@
     "categories" : [
       "cs.CV"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.05183v1",
+    "title" : "Privacy Drift: Evolving Privacy Concerns in Incremental Learning",
+    "summary" : "In the evolving landscape of machine learning (ML), Federated Learning (FL)\npresents a paradigm shift towards decentralized model training while preserving\nuser data privacy. This paper introduces the concept of ``privacy drift\", an\ninnovative framework that parallels the well-known phenomenon of concept drift.\nWhile concept drift addresses the variability in model accuracy over time due\nto changes in the data, privacy drift encapsulates the variation in the leakage\nof private information as models undergo incremental training. By defining and\nexamining privacy drift, this study aims to unveil the nuanced relationship\nbetween the evolution of model performance and the integrity of data privacy.\nThrough rigorous experimentation, we investigate the dynamics of privacy drift\nin FL systems, focusing on how model updates and data distribution shifts\ninfluence the susceptibility of models to privacy attacks, such as membership\ninference attacks (MIA). Our results highlight a complex interplay between\nmodel accuracy and privacy safeguards, revealing that enhancements in model\nperformance can lead to increased privacy risks. We provide empirical evidence\nfrom experiments on customized datasets derived from CIFAR-100 (Canadian\nInstitute for Advanced Research, 100 classes), showcasing the impact of data\nand concept drift on privacy. This work lays the groundwork for future research\non privacy-aware machine learning, aiming to achieve a delicate balance between\nmodel accuracy and data privacy in decentralized environments.",
+    "updated" : "2024-12-06T17:04:09Z",
+    "published" : "2024-12-06T17:04:09Z",
+    "authors" : [
+      {
+        "name" : "Sayyed Farid Ahamed"
+      },
+      {
+        "name" : "Soumya Banerjee"
+      },
+      {
+        "name" : "Sandip Roy"
+      },
+      {
+        "name" : "Aayush Kapoor"
+      },
+      {
+        "name" : "Marc Vucovich"
+      },
+      {
+        "name" : "Kevin Choi"
+      },
+      {
+        "name" : "Abdul Rahman"
+      },
+      {
+        "name" : "Edward Bowen"
+      },
+      {
+        "name" : "Sachin Shetty"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.05164v1",
+    "title" : "A Differentially Private Kaplan-Meier Estimator for Privacy-Preserving\n  Survival Analysis",
+    "summary" : "This paper presents a differentially private approach to Kaplan-Meier\nestimation that achieves accurate survival probability estimates while\nsafeguarding individual privacy. The Kaplan-Meier estimator is widely used in\nsurvival analysis to estimate survival functions over time, yet applying it to\nsensitive datasets, such as clinical records, risks revealing private\ninformation. To address this, we introduce a novel algorithm that applies\ntime-indexed Laplace noise, dynamic clipping, and smoothing to produce a\nprivacy-preserving survival curve while maintaining the cumulative structure of\nthe Kaplan-Meier estimator. By scaling noise over time, the algorithm accounts\nfor decreasing sensitivity as fewer individuals remain at risk, while dynamic\nclipping and smoothing prevent extreme values and reduce fluctuations,\npreserving the natural shape of the survival curve.\n  Our results, evaluated on the NCCTG lung cancer dataset, show that the\nproposed method effectively lowers root mean squared error (RMSE) and enhances\naccuracy across privacy budgets ($\\epsilon$). At $\\epsilon = 10$, the algorithm\nachieves an RMSE as low as 0.04, closely approximating non-private estimates.\nAdditionally, membership inference attacks reveal that higher $\\epsilon$ values\n(e.g., $\\epsilon \\geq 6$) significantly reduce influential points, particularly\nat higher thresholds, lowering susceptibility to inference attacks. These\nfindings confirm that our approach balances privacy and utility, advancing\nprivacy-preserving survival analysis.",
+    "updated" : "2024-12-06T16:29:53Z",
+    "published" : "2024-12-06T16:29:53Z",
+    "authors" : [
+      {
+        "name" : "Narasimha Raghavan Veeraragavan"
+      },
+      {
+        "name" : "Sai Praneeth Karimireddy"
+      },
+      {
+        "name" : "Jan Franz Nygård"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.04697v1",
+    "title" : "Privacy-Preserving Retrieval Augmented Generation with Differential\n  Privacy",
+    "summary" : "With the recent remarkable advancement of large language models (LLMs), there\nhas been a growing interest in utilizing them in the domains with highly\nsensitive data that lies outside their training data. For this purpose,\nretrieval augmented generation (RAG) is particularly effective -- it assists\nLLMs by directly providing relevant information from the external knowledge\nsources. However, without extra privacy safeguards, RAG outputs risk leaking\nsensitive information from the external data source. In this work, we explore\nRAG under differential privacy (DP), a formal guarantee of data privacy. The\nmain challenge with differentially private RAG is how to generate long accurate\nanswers within a moderate privacy budget. We address this by proposing an\nalgorithm that smartly spends privacy budget only for the tokens that require\nthe sensitive information and uses the non-private LLM for other tokens. Our\nextensive empirical evaluations reveal that our algorithm outperforms the\nnon-RAG baseline under a reasonable privacy budget of $\\epsilon\\approx 10$\nacross different models and datasets.",
+    "updated" : "2024-12-06T01:20:16Z",
+    "published" : "2024-12-06T01:20:16Z",
+    "authors" : [
+      {
+        "name" : "Tatsuki Koga"
+      },
+      {
+        "name" : "Ruihan Wu"
+      },
+      {
+        "name" : "Kamalika Chaudhuri"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.04518v1",
+    "title" : "Privacy-Preserving Gesture Tracking System Utilizing Frequency-Hopping\n  RFID Signals",
+    "summary" : "Gesture tracking technology provides users with a hands free interactive\nexperience without the need to hold or touch devices. However, current gesture\ntracking research has primarily focused on tracking accuracy while neglecting\nissues of user privacy protection and security. This study aims to develop a\ngesture tracking system based on frequency hopping RFID signals that\neffectively protects user privacy without compromising tracking efficiency and\naccuracy. By introducing frequency hopping technology, we have designed a\nmechanism that prevents potential eavesdroppers from obtaining raw RFID\nsignals, thereby enhancing the systems privacy protection capabilities. The\nsystem architec ture includes the collection of RFID signals, data processing,\nsignal recovery, and gesture tracking. Experimental results show that our\nmethod significantly improves privacy protection levels while maintaining real\ntime and accuracy. This research not only provides a new perspective for the\nfield of gesture tracking but also offers valuable insights for the use of RFID\ntechnology in privacy-sensitive applications.",
+    "updated" : "2024-12-05T08:51:02Z",
+    "published" : "2024-12-05T08:51:02Z",
+    "authors" : [
+      {
+        "name" : "Bojun Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.NI"
+    ]
   }
 ]
