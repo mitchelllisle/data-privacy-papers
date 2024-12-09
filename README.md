@@ -2,6 +2,97 @@
 <h2>2024-12</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2412.05183v1">Privacy Drift: Evolving Privacy Concerns in Incremental Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-12-06T17:04:09Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Sayyed Farid Ahamed, Soumya Banerjee, Sandip Roy, Aayush Kapoor, Marc Vucovich, Kevin Choi, Abdul Rahman, Edward Bowen, Sachin Shetty</p>
+    <p><b>Summary:</b> In the evolving landscape of machine learning (ML), Federated Learning (FL)
+presents a paradigm shift towards decentralized model training while preserving
+user data privacy. This paper introduces the concept of ``privacy drift", an
+innovative framework that parallels the well-known phenomenon of concept drift.
+While concept drift addresses the variability in model accuracy over time due
+to changes in the data, privacy drift encapsulates the variation in the leakage
+of private information as models undergo incremental training. By defining and
+examining privacy drift, this study aims to unveil the nuanced relationship
+between the evolution of model performance and the integrity of data privacy.
+Through rigorous experimentation, we investigate the dynamics of privacy drift
+in FL systems, focusing on how model updates and data distribution shifts
+influence the susceptibility of models to privacy attacks, such as membership
+inference attacks (MIA). Our results highlight a complex interplay between
+model accuracy and privacy safeguards, revealing that enhancements in model
+performance can lead to increased privacy risks. We provide empirical evidence
+from experiments on customized datasets derived from CIFAR-100 (Canadian
+Institute for Advanced Research, 100 classes), showcasing the impact of data
+and concept drift on privacy. This work lays the groundwork for future research
+on privacy-aware machine learning, aiming to achieve a delicate balance between
+model accuracy and data privacy in decentralized environments.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2412.05164v1">A Differentially Private Kaplan-Meier Estimator for Privacy-Preserving
+  Survival Analysis</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-12-06T16:29:53Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Narasimha Raghavan Veeraragavan, Sai Praneeth Karimireddy, Jan Franz Nygård</p>
+    <p><b>Summary:</b> This paper presents a differentially private approach to Kaplan-Meier
+estimation that achieves accurate survival probability estimates while
+safeguarding individual privacy. The Kaplan-Meier estimator is widely used in
+survival analysis to estimate survival functions over time, yet applying it to
+sensitive datasets, such as clinical records, risks revealing private
+information. To address this, we introduce a novel algorithm that applies
+time-indexed Laplace noise, dynamic clipping, and smoothing to produce a
+privacy-preserving survival curve while maintaining the cumulative structure of
+the Kaplan-Meier estimator. By scaling noise over time, the algorithm accounts
+for decreasing sensitivity as fewer individuals remain at risk, while dynamic
+clipping and smoothing prevent extreme values and reduce fluctuations,
+preserving the natural shape of the survival curve.
+  Our results, evaluated on the NCCTG lung cancer dataset, show that the
+proposed method effectively lowers root mean squared error (RMSE) and enhances
+accuracy across privacy budgets ($\epsilon$). At $\epsilon = 10$, the algorithm
+achieves an RMSE as low as 0.04, closely approximating non-private estimates.
+Additionally, membership inference attacks reveal that higher $\epsilon$ values
+(e.g., $\epsilon \geq 6$) significantly reduce influential points, particularly
+at higher thresholds, lowering susceptibility to inference attacks. These
+findings confirm that our approach balances privacy and utility, advancing
+privacy-preserving survival analysis.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2412.04697v1">Privacy-Preserving Retrieval Augmented Generation with Differential
+  Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2024-12-06T01:20:16Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Tatsuki Koga, Ruihan Wu, Kamalika Chaudhuri</p>
+    <p><b>Summary:</b> With the recent remarkable advancement of large language models (LLMs), there
+has been a growing interest in utilizing them in the domains with highly
+sensitive data that lies outside their training data. For this purpose,
+retrieval augmented generation (RAG) is particularly effective -- it assists
+LLMs by directly providing relevant information from the external knowledge
+sources. However, without extra privacy safeguards, RAG outputs risk leaking
+sensitive information from the external data source. In this work, we explore
+RAG under differential privacy (DP), a formal guarantee of data privacy. The
+main challenge with differentially private RAG is how to generate long accurate
+answers within a moderate privacy budget. We address this by proposing an
+algorithm that smartly spends privacy budget only for the tokens that require
+the sensitive information and uses the non-private LLM for other tokens. Our
+extensive empirical evaluations reveal that our algorithm outperforms the
+non-RAG baseline under a reasonable privacy budget of $\epsilon\approx 10$
+across different models and datasets.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2412.04408v1">Providing Differential Privacy for Federated Learning Over Wireless: A
   Cross-layer Framework</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
@@ -86,6 +177,33 @@ formulate our MAS problem in terms of deducing a concept for which
 compression-based methods are there in literature. Next, we propose a novel
 sanitization mechanism for our MAS using one such compression-based method
 while addressing the utility-privacy tradeoff problem.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2412.04518v1">Privacy-Preserving Gesture Tracking System Utilizing Frequency-Hopping
+  RFID Signals</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
+  <p><b>Published on:</b> 2024-12-05T08:51:02Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Bojun Zhang</p>
+    <p><b>Summary:</b> Gesture tracking technology provides users with a hands free interactive
+experience without the need to hold or touch devices. However, current gesture
+tracking research has primarily focused on tracking accuracy while neglecting
+issues of user privacy protection and security. This study aims to develop a
+gesture tracking system based on frequency hopping RFID signals that
+effectively protects user privacy without compromising tracking efficiency and
+accuracy. By introducing frequency hopping technology, we have designed a
+mechanism that prevents potential eavesdroppers from obtaining raw RFID
+signals, thereby enhancing the systems privacy protection capabilities. The
+system architec ture includes the collection of RFID signals, data processing,
+signal recovery, and gesture tracking. Experimental results show that our
+method significantly improves privacy protection levels while maintaining real
+time and accuracy. This research not only provides a new perspective for the
+field of gesture tracking but also offers valuable insights for the use of RFID
+technology in privacy-sensitive applications.</p>
   </details>
 </div>
 
@@ -2868,135 +2986,6 @@ fractional competitive equilibrium, and 2) derives an integral allocation from
 this equilibrium. We validate the effectiveness of our approach in allocating
 trajectories for two emerging urban air mobility services: drone delivery and
 air taxis.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.03053v1">Gradient-Guided Conditional Diffusion Models for Private Image
-  Reconstruction: Analyzing Adversarial Impacts of Differential Privacy and
-  Denoising</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2024-11-05T12:39:21Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Tao Huang, Jiayang Meng, Hong Chen, Guolong Zheng, Xu Yang, Xun Yi, Hua Wang</p>
-    <p><b>Summary:</b> We investigate the construction of gradient-guided conditional diffusion
-models for reconstructing private images, focusing on the adversarial interplay
-between differential privacy noise and the denoising capabilities of diffusion
-models. While current gradient-based reconstruction methods struggle with
-high-resolution images due to computational complexity and prior knowledge
-requirements, we propose two novel methods that require minimal modifications
-to the diffusion model's generation process and eliminate the need for prior
-knowledge. Our approach leverages the strong image generation capabilities of
-diffusion models to reconstruct private images starting from randomly generated
-noise, even when a small amount of differentially private noise has been added
-to the gradients. We also conduct a comprehensive theoretical analysis of the
-impact of differential privacy noise on the quality of reconstructed images,
-revealing the relationship among noise magnitude, the architecture of attacked
-models, and the attacker's reconstruction capability. Additionally, extensive
-experiments validate the effectiveness of our proposed methods and the accuracy
-of our theoretical findings, suggesting new directions for privacy risk
-auditing using conditional diffusion models.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.02926v2">Privacy-Preserving Graph-Based Machine Learning with Fully Homomorphic
-  Encryption for Collaborative Anti-Money Laundering</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-11-05T09:13:53Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Fabrianne Effendi, Anupam Chattopadhyay</p>
-    <p><b>Summary:</b> Combating money laundering has become increasingly complex with the rise of
-cybercrime and digitalization of financial transactions. Graph-based machine
-learning techniques have emerged as promising tools for Anti-Money Laundering
-(AML) detection, capturing intricate relationships within money laundering
-networks. However, the effectiveness of AML solutions is hindered by data silos
-within financial institutions, limiting collaboration and overall efficacy.
-This research presents a novel privacy-preserving approach for collaborative
-AML machine learning, facilitating secure data sharing across institutions and
-borders while preserving privacy and regulatory compliance. Leveraging Fully
-Homomorphic Encryption (FHE), computations are directly performed on encrypted
-data, ensuring the confidentiality of financial data. Notably, FHE over the
-Torus (TFHE) was integrated with graph-based machine learning using Zama
-Concrete ML. The research contributes two key privacy-preserving pipelines.
-First, the development of a privacy-preserving Graph Neural Network (GNN)
-pipeline was explored. Optimization techniques like quantization and pruning
-were used to render the GNN FHE-compatible. Second, a privacy-preserving
-graph-based XGBoost pipeline leveraging Graph Feature Preprocessor (GFP) was
-successfully developed. Experiments demonstrated strong predictive performance,
-with the XGBoost model consistently achieving over 99% accuracy, F1-score,
-precision, and recall on the balanced AML dataset in both unencrypted and
-FHE-encrypted inference settings. On the imbalanced dataset, the incorporation
-of graph-based features improved the F1-score by 8%. The research highlights
-the need to balance the trade-off between privacy and computational efficiency.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.02622v1">Pseudo-Probability Unlearning: Towards Efficient and Privacy-Preserving
-  Machine Unlearning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2024-11-04T21:27:06Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zihao Zhao, Yijiang Li, Yuchen Yang, Wenqing Zhang, Nuno Vasconcelos, Yinzhi Cao</p>
-    <p><b>Summary:</b> Machine unlearning--enabling a trained model to forget specific data--is
-crucial for addressing biased data and adhering to privacy regulations like the
-General Data Protection Regulation (GDPR)'s "right to be forgotten". Recent
-works have paid little attention to privacy concerns, leaving the data intended
-for forgetting vulnerable to membership inference attacks. Moreover, they often
-come with high computational overhead. In this work, we propose
-Pseudo-Probability Unlearning (PPU), a novel method that enables models to
-forget data efficiently and in a privacy-preserving manner. Our method replaces
-the final-layer output probabilities of the neural network with
-pseudo-probabilities for the data to be forgotten. These pseudo-probabilities
-follow either a uniform distribution or align with the model's overall
-distribution, enhancing privacy and reducing risk of membership inference
-attacks. Our optimization strategy further refines the predictive probability
-distributions and updates the model's weights accordingly, ensuring effective
-forgetting with minimal impact on the model's overall performance. Through
-comprehensive experiments on multiple benchmarks, our method achieves over 20%
-improvements in forgetting error compared to the state-of-the-art.
-Additionally, our method enhances privacy by preventing the forgotten set from
-being inferred to around random guesses.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.03351v1">Tabular Data Synthesis with Differential Privacy: A Survey</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
-  <p><b>Published on:</b> 2024-11-04T06:32:48Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mengmeng Yang, Chi-Hung Chi, Kwok-Yan Lam, Jie Feng, Taolin Guo, Wei Ni</p>
-    <p><b>Summary:</b> Data sharing is a prerequisite for collaborative innovation, enabling
-organizations to leverage diverse datasets for deeper insights. In real-world
-applications like FinTech and Smart Manufacturing, transactional data, often in
-tabular form, are generated and analyzed for insight generation. However, such
-datasets typically contain sensitive personal/business information, raising
-privacy concerns and regulatory risks. Data synthesis tackles this by
-generating artificial datasets that preserve the statistical characteristics of
-real data, removing direct links to individuals. However, attackers can still
-infer sensitive information using background knowledge. Differential privacy
-offers a solution by providing provable and quantifiable privacy protection.
-Consequently, differentially private data synthesis has emerged as a promising
-approach to privacy-aware data sharing. This paper provides a comprehensive
-overview of existing differentially private tabular data synthesis methods,
-highlighting the unique challenges of each generation model for generating
-tabular data under differential privacy constraints. We classify the methods
-into statistical and deep learning-based approaches based on their generation
-models, discussing them in both centralized and distributed environments. We
-evaluate and compare those methods within each category, highlighting their
-strengths and weaknesses in terms of utility, privacy, and computational
-complexity. Additionally, we present and discuss various evaluation methods for
-assessing the quality of the synthesized data, identify research gaps in the
-field and directions for future research.</p>
   </details>
 </div>
 
