@@ -779,5 +779,306 @@
       "cs.CR",
       "cs.NI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.06728v1",
+    "title" : "Byzantine-Eavesdropper Alliance: How to Achieve Symmetric Privacy in\n  Quantum $X$-Secure $B$-Byzantine $E$-Eavesdropped $U$-Unresponsive\n  $T$-Colluding PIR?",
+    "summary" : "We consider the quantum \\emph{symmetric} private information retrieval\n(QSPIR) problem in a system with $N$ databases and $K$ messages, with $U$\nunresponsive servers, $T$-colluding servers, and $X$-security parameter, under\nseveral fundamental threat models. In the first model, there are\n$\\mathcal{E}_1$ eavesdropped links in the uplink direction (the direction from\nthe user to the $N$ servers), $\\mathcal{E}_2$ eavesdropped links in the\ndownlink direction (the direction from the servers to the user), where\n$|\\mathcal{E}_1|, |\\mathcal{E}_2| \\leq E$; we coin this eavesdropper setting as\n\\emph{dynamic} eavesdroppers. We show that super-dense coding gain can be\nachieved for some regimes. In the second model, we consider the case with\nByzantine servers, i.e., servers that can coordinate to devise a plan to harm\nthe privacy and security of the system together with static eavesdroppers, by\nlistening to the same links in both uplink and downlink directions. It is\nimportant to note the considerable difference between the two threat models,\nsince the eavesdroppers can take huge advantage of the presence of the\nByzantine servers. Unlike the previous works in SPIR with Byzantine servers,\nthat assume that the Byzantine servers can send only random symbols independent\nof the stored messages, we follow the definition of Byzantine servers in\n\\cite{byzantine_tpir}, where the Byzantine servers can send symbols that can be\nfunctions of the storage, queries, as well as the random symbols in a way that\ncan produce worse harm to the system. In the third and the most novel threat\nmodel, we consider the presence of Byzantine servers and dynamic eavesdroppers\ntogether. We show that having dynamic eavesdroppers along with Byzantine\nservers in the same system model creates more threats to the system than having\nstatic eavesdroppers with Byzantine servers.",
+    "updated" : "2024-12-09T18:17:24Z",
+    "published" : "2024-12-09T18:17:24Z",
+    "authors" : [
+      {
+        "name" : "Mohamed Nomeir"
+      },
+      {
+        "name" : "Alptug Aytekin"
+      },
+      {
+        "name" : "Sennur Ulukus"
+      }
+    ],
+    "categories" : [
+      "cs.IT",
+      "cs.CR",
+      "cs.NI",
+      "eess.SP",
+      "math.IT",
+      "quant-ph"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.06689v1",
+    "title" : "Impact of Privacy Parameters on Deep Learning Models for Image\n  Classification",
+    "summary" : "The project aims to develop differentially private deep learning models for\nimage classification on CIFAR-10 datasets \\cite{cifar10} and analyze the impact\nof various privacy parameters on model accuracy. We have implemented five\ndifferent deep learning models, namely ConvNet, ResNet18, EfficientNet, ViT,\nand DenseNet121 and three supervised classifiers namely K-Nearest Neighbors,\nNaive Bayes Classifier and Support Vector Machine. We evaluated the performance\nof these models under varying settings. Our best performing model to date is\nEfficientNet with test accuracy of $59.63\\%$ with the following parameters\n(Adam optimizer, batch size 256, epoch size 100, epsilon value 5.0, learning\nrate $1e-3$, clipping threshold 1.0, and noise multiplier 0.912).",
+    "updated" : "2024-12-09T17:31:55Z",
+    "published" : "2024-12-09T17:31:55Z",
+    "authors" : [
+      {
+        "name" : "Basanta Chaulagain"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.06541v1",
+    "title" : "Numerical Estimation of Spatial Distributions under Differential Privacy",
+    "summary" : "Estimating spatial distributions is important in data analysis, such as\ntraffic flow forecasting and epidemic prevention. To achieve accurate spatial\ndistribution estimation, the analysis needs to collect sufficient user data.\nHowever, collecting data directly from individuals could compromise their\nprivacy. Most previous works focused on private distribution estimation for\none-dimensional data, which does not consider spatial data relation and leads\nto poor accuracy for spatial distribution estimation. In this paper, we address\nthe problem of private spatial distribution estimation, where we collect\nspatial data from individuals and aim to minimize the distance between the\nactual distribution and estimated one under Local Differential Privacy (LDP).\nTo leverage the numerical nature of the domain, we project spatial data and its\nrelationships onto a one-dimensional distribution. We then use this projection\nto estimate the overall spatial distribution. Specifically, we propose a\nreporting mechanism called Disk Area Mechanism (DAM), which projects the\nspatial domain onto a line and optimizes the estimation using the sliced\nWasserstein distance. Through extensive experiments, we show the effectiveness\nof our DAM approach on both real and synthetic data sets, compared with the\nstate-of-the-art methods, such as Multi-dimensional Square Wave Mechanism\n(MDSW) and Subset Exponential Mechanism with Geo-I (SEM-Geo-I). Our results\nshow that our DAM always performs better than MDSW and is better than SEM-Geo-I\nwhen the data granularity is fine enough.",
+    "updated" : "2024-12-09T14:53:57Z",
+    "published" : "2024-12-09T14:53:57Z",
+    "authors" : [
+      {
+        "name" : "Leilei Du"
+      },
+      {
+        "name" : "Peng Cheng"
+      },
+      {
+        "name" : "Libin Zheng"
+      },
+      {
+        "name" : "Xiang Lian"
+      },
+      {
+        "name" : "Lei Chen"
+      },
+      {
+        "name" : "Wei Xi"
+      },
+      {
+        "name" : "Wangze Ni"
+      }
+    ],
+    "categories" : [
+      "cs.DB"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.06248v1",
+    "title" : "Rendering-Refined Stable Diffusion for Privacy Compliant Synthetic Data",
+    "summary" : "Growing privacy concerns and regulations like GDPR and CCPA necessitate\npseudonymization techniques that protect identity in image datasets. However,\nretaining utility is also essential. Traditional methods like masking and\nblurring degrade quality and obscure critical context, especially in\nhuman-centric images. We introduce Rendering-Refined Stable Diffusion (RefSD),\na pipeline that combines 3D-rendering with Stable Diffusion, enabling\nprompt-based control over human attributes while preserving posture. Unlike\nstandard diffusion models that fail to retain posture or GANs that lack realism\nand flexible attribute control, RefSD balances posture preservation, realism,\nand customization. We also propose HumanGenAI, a framework for human perception\nand utility evaluation. Human perception assessments reveal attribute-specific\nstrengths and weaknesses of RefSD. Our utility experiments show that models\ntrained on RefSD pseudonymized data outperform those trained on real data in\ndetection tasks, with further performance gains when combining RefSD with real\ndata. For classification tasks, we consistently observe performance\nimprovements when using RefSD data with real data, confirming the utility of\nour pseudonymized data.",
+    "updated" : "2024-12-09T06:47:29Z",
+    "published" : "2024-12-09T06:47:29Z",
+    "authors" : [
+      {
+        "name" : "Kartik Patwari"
+      },
+      {
+        "name" : "David Schneider"
+      },
+      {
+        "name" : "Xiaoxiao Sun"
+      },
+      {
+        "name" : "Chen-Nee Chuah"
+      },
+      {
+        "name" : "Lingjuan Lyu"
+      },
+      {
+        "name" : "Vivek Sharma"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.06196v1",
+    "title" : "BECS: A Privacy-Preserving Computing Sharing Mechanism in 6G Computing\n  Power Network",
+    "summary" : "5G networks provide secure and reliable information transmission services for\nthe Internet of Everything, thus paving the way for 6G networks, which is\nanticipated to be an AI-based network, supporting unprecedented intelligence\nacross applications. Abundant computing resources will establish the 6G\nComputing Power Network (CPN) to facilitate ubiquitous intelligent services. In\nthis article, we propose BECS, a computing sharing mechanism based on\nevolutionary algorithm and blockchain, designed to balance task offloading\namong user devices, edge devices, and cloud resources within 6G CPN, thereby\nenhancing the computing resource utilization. We model computing sharing as a\nmulti-objective optimization problem, aiming to improve resource utilization\nwhile balancing other issues. To tackle this NP-hard problem, we devise a\nkernel distance-based dominance relation and incorporated it into the\nNon-dominated Sorting Genetic Algorithm III, significantly enhancing the\ndiversity of the evolutionary population. In addition, we propose a pseudonym\nscheme based on zero-knowledge proof to protect the privacy of users\nparticipating in computing sharing. Finally, the security analysis and\nsimulation results demonstrate that BECS can fully and effectively utilize all\ncomputing resources in 6G CPN, significantly improving the computing resource\nutilization while protecting user privacy.",
+    "updated" : "2024-12-09T04:26:14Z",
+    "published" : "2024-12-09T04:26:14Z",
+    "authors" : [
+      {
+        "name" : "Kun Yan"
+      },
+      {
+        "name" : "Wenping Ma"
+      },
+      {
+        "name" : "Shaohui Sun"
+      }
+    ],
+    "categories" : [
+      "cs.NI",
+      "C.2.1; C.2.4"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.06120v1",
+    "title" : "Lightweight Federated Learning with Differential Privacy and Straggler\n  Resilience",
+    "summary" : "Federated learning (FL) enables collaborative model training through model\nparameter exchanges instead of raw data. To avoid potential inference attacks\nfrom exchanged parameters, differential privacy (DP) offers rigorous guarantee\nagainst various attacks. However, conventional methods of ensuring DP by adding\nlocal noise alone often result in low training accuracy. Combining secure\nmulti-party computation (SMPC) with DP, while improving the accuracy, incurs\nhigh communication and computation overheads and straggler vulnerability, in\neither client-to-server or client-to-client links. In this paper, we propose\nLightDP-FL, a novel lightweight scheme that ensures provable DP against\nuntrusted peers and server, while maintaining straggler-resilience, low\noverheads and high training accuracy. Our approach incorporates both individual\nand pairwise noise into each client's parameter, which can be implemented with\nminimal overheads. Given the uncertain straggler and colluder sets, we utilize\nthe upper bound on the numbers of stragglers and colluders to prove sufficient\nnoise variance conditions to ensure DP in the worst case. Moreover, we optimize\nthe expected convergence bound to ensure accuracy performance by flexibly\ncontrolling the noise variances. Using the CIFAR-10 dataset, our experimental\nresults demonstrate that LightDP-FL achieves faster convergence and stronger\nstraggler resilience of our scheme compared to baseline methods of the same DP\nlevel.",
+    "updated" : "2024-12-09T00:54:00Z",
+    "published" : "2024-12-09T00:54:00Z",
+    "authors" : [
+      {
+        "name" : "Shu Hong"
+      },
+      {
+        "name" : "Xiaojun Lin"
+      },
+      {
+        "name" : "Lingjie Duan"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.06113v1",
+    "title" : "Privacy-Preserving Large Language Models: Mechanisms, Applications, and\n  Future Directions",
+    "summary" : "The rapid advancement of large language models (LLMs) has revolutionized\nnatural language processing, enabling applications in diverse domains such as\nhealthcare, finance and education. However, the growing reliance on extensive\ndata for training and inference has raised significant privacy concerns,\nranging from data leakage to adversarial attacks. This survey comprehensively\nexplores the landscape of privacy-preserving mechanisms tailored for LLMs,\nincluding differential privacy, federated learning, cryptographic protocols,\nand trusted execution environments. We examine their efficacy in addressing key\nprivacy challenges, such as membership inference and model inversion attacks,\nwhile balancing trade-offs between privacy and model utility. Furthermore, we\nanalyze privacy-preserving applications of LLMs in privacy-sensitive domains,\nhighlighting successful implementations and inherent limitations. Finally, this\nsurvey identifies emerging research directions, emphasizing the need for novel\nframeworks that integrate privacy by design into the lifecycle of LLMs. By\nsynthesizing state-of-the-art approaches and future trends, this paper provides\na foundation for developing robust, privacy-preserving large language models\nthat safeguard sensitive information without compromising performance.",
+    "updated" : "2024-12-09T00:24:09Z",
+    "published" : "2024-12-09T00:24:09Z",
+    "authors" : [
+      {
+        "name" : "Guoshenghui Zhao"
+      },
+      {
+        "name" : "Eric Song"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.05894v1",
+    "title" : "FedRBE -- a decentralized privacy-preserving federated batch effect\n  correction tool for omics data based on limma",
+    "summary" : "Batch effects in omics data obscure true biological signals and constitute a\nmajor challenge for privacy-preserving analyses of distributed patient data.\nExisting batch effect correction methods either require data centralization,\nwhich may easily conflict with privacy requirements, or lack support for\nmissing values and automated workflows. To bridge this gap, we developed\nfedRBE, a federated implementation of limma's removeBatchEffect method. We\nimplemented it as an app for the FeatureCloud platform. Unlike its existing\nanalogs, fedRBE effectively handles data with missing values and offers an\nautomated, user-friendly online user interface\n(https://featurecloud.ai/app/fedrbe). Leveraging secure multi-party computation\nprovides enhanced security guarantees over classical federated learning\napproaches. We evaluated our fedRBE algorithm on simulated and real omics data,\nachieving performance comparable to the centralized method with negligible\ndifferences (no greater than 3.6E-13). By enabling collaborative correction\nwithout data sharing, fedRBE facilitates large-scale omics studies where batch\neffect correction is crucial.",
+    "updated" : "2024-12-08T11:23:31Z",
+    "published" : "2024-12-08T11:23:31Z",
+    "authors" : [
+      {
+        "name" : "Yuliya Burankova"
+      },
+      {
+        "name" : "Julian Klemm"
+      },
+      {
+        "name" : "Jens J. G. Lohmann"
+      },
+      {
+        "name" : "Ahmad Taheri"
+      },
+      {
+        "name" : "Niklas Probul"
+      },
+      {
+        "name" : "Jan Baumbach"
+      },
+      {
+        "name" : "Olga Zolotareva"
+      }
+    ],
+    "categories" : [
+      "q-bio.QM",
+      "cs.CR",
+      "cs.DC",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.05767v1",
+    "title" : "DeMem: Privacy-Enhanced Robust Adversarial Learning via De-Memorization",
+    "summary" : "Adversarial robustness, the ability of a model to withstand manipulated\ninputs that cause errors, is essential for ensuring the trustworthiness of\nmachine learning models in real-world applications. However, previous studies\nhave shown that enhancing adversarial robustness through adversarial training\nincreases vulnerability to privacy attacks. While differential privacy can\nmitigate these attacks, it often compromises robustness against both natural\nand adversarial samples. Our analysis reveals that differential privacy\ndisproportionately impacts low-risk samples, causing an unintended performance\ndrop. To address this, we propose DeMem, which selectively targets high-risk\nsamples, achieving a better balance between privacy protection and model\nrobustness. DeMem is versatile and can be seamlessly integrated into various\nadversarial training techniques. Extensive evaluations across multiple training\nmethods and datasets demonstrate that DeMem significantly reduces privacy\nleakage while maintaining robustness against both natural and adversarial\nsamples. These results confirm DeMem's effectiveness and broad applicability in\nenhancing privacy without compromising robustness.",
+    "updated" : "2024-12-08T00:22:58Z",
+    "published" : "2024-12-08T00:22:58Z",
+    "authors" : [
+      {
+        "name" : "Xiaoyu Luo"
+      },
+      {
+        "name" : "Qiongxiu Li"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.05734v1",
+    "title" : "PrivAgent: Agentic-based Red-teaming for LLM Privacy Leakage",
+    "summary" : "Recent studies have discovered that LLMs have serious privacy leakage\nconcerns, where an LLM may be fooled into outputting private information under\ncarefully crafted adversarial prompts. These risks include leaking system\nprompts, personally identifiable information, training data, and model\nparameters. Most existing red-teaming approaches for privacy leakage rely on\nhumans to craft the adversarial prompts. A few automated methods are proposed\nfor system prompt extraction, but they cannot be applied to more severe risks\n(e.g., training data extraction) and have limited effectiveness even for system\nprompt extraction.\n  In this paper, we propose PrivAgent, a novel black-box red-teaming framework\nfor LLM privacy leakage. We formulate different risks as a search problem with\na unified attack goal. Our framework trains an open-source LLM through\nreinforcement learning as the attack agent to generate adversarial prompts for\ndifferent target models under different risks. We propose a novel reward\nfunction to provide effective and fine-grained rewards for the attack agent.\nFinally, we introduce customizations to better fit our general framework to\nsystem prompt extraction and training data extraction. Through extensive\nevaluations, we first show that PrivAgent outperforms existing automated\nmethods in system prompt leakage against six popular LLMs. Notably, our\napproach achieves a 100% success rate in extracting system prompts from\nreal-world applications in OpenAI's GPT Store. We also show PrivAgent's\neffectiveness in extracting training data from an open-source LLM with a\nsuccess rate of 5.9%. We further demonstrate PrivAgent's effectiveness in\nevading the existing guardrail defense and its helpfulness in enabling better\nsafety alignment. Finally, we validate our customized designs through a\ndetailed ablation study. We release our code here\nhttps://github.com/rucnyz/RedAgent.",
+    "updated" : "2024-12-07T20:09:01Z",
+    "published" : "2024-12-07T20:09:01Z",
+    "authors" : [
+      {
+        "name" : "Yuzhou Nie"
+      },
+      {
+        "name" : "Zhun Wang"
+      },
+      {
+        "name" : "Ye Yu"
+      },
+      {
+        "name" : "Xian Wu"
+      },
+      {
+        "name" : "Xuandong Zhao"
+      },
+      {
+        "name" : "Wenbo Guo"
+      },
+      {
+        "name" : "Dawn Song"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.05636v1",
+    "title" : "A Game-Theoretic Framework for Privacy-Aware Client Sampling in\n  Federated Learning",
+    "summary" : "This paper aims to design a Privacy-aware Client Sampling framework in\nFederated learning, named FedPCS, to tackle the heterogeneous client sampling\nissues and improve model performance. First, we obtain a pioneering upper bound\nfor the accuracy loss of the FL model with privacy-aware client sampling\nprobabilities. Based on this, we model the interactions between the central\nserver and participating clients as a two-stage Stackelberg game. In Stage I,\nthe central server designs the optimal time-dependent reward for cost\nminimization by considering the trade-off between the accuracy loss of the FL\nmodel and the rewards allocated. In Stage II, each client determines the\ncorrection factor that dynamically adjusts its privacy budget based on the\nreward allocated to maximize its utility. To surmount the obstacle of\napproximating other clients' private information, we introduce the mean-field\nestimator to estimate the average privacy budget. We analytically demonstrate\nthe existence and convergence of the fixed point for the mean-field estimator\nand derive the Stackelberg Nash Equilibrium to obtain the optimal strategy\nprofile. By rigorously theoretical convergence analysis, we guarantee the\nrobustness of FedPCS. Moreover, considering the conventional sampling strategy\nin privacy-preserving FL, we prove that the random sampling approach's PoA can\nbe arbitrarily large. To remedy such efficiency loss, we show that the proposed\nprivacy-aware client sampling strategy successfully reduces PoA, which is upper\nbounded by a reachable constant. To address the challenge of varying privacy\nrequirements throughout different training phases in FL, we extend our model\nand analysis and derive the adaptive optimal sampling ratio for the central\nserver. Experimental results on different datasets demonstrate the superiority\nof FedPCS compared with the existing SOTA FL strategies under IID and Non-IID\ndatasets.",
+    "updated" : "2024-12-07T12:42:57Z",
+    "published" : "2024-12-07T12:42:57Z",
+    "authors" : [
+      {
+        "name" : "Wenhao Yuan"
+      },
+      {
+        "name" : "Xuehe Wang"
+      }
+    ],
+    "categories" : [
+      "cs.GT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.05533v1",
+    "title" : "Can large language models be privacy preserving and fair medical coders?",
+    "summary" : "Protecting patient data privacy is a critical concern when deploying machine\nlearning algorithms in healthcare. Differential privacy (DP) is a common method\nfor preserving privacy in such settings and, in this work, we examine two key\ntrade-offs in applying DP to the NLP task of medical coding (ICD\nclassification). Regarding the privacy-utility trade-off, we observe a\nsignificant performance drop in the privacy preserving models, with more than a\n40% reduction in micro F1 scores on the top 50 labels in the MIMIC-III dataset.\nFrom the perspective of the privacy-fairness trade-off, we also observe an\nincrease of over 3% in the recall gap between male and female patients in the\nDP models. Further understanding these trade-offs will help towards the\nchallenges of real-world deployment.",
+    "updated" : "2024-12-07T04:27:05Z",
+    "published" : "2024-12-07T04:27:05Z",
+    "authors" : [
+      {
+        "name" : "Ali Dadsetan"
+      },
+      {
+        "name" : "Dorsa Soleymani"
+      },
+      {
+        "name" : "Xijie Zeng"
+      },
+      {
+        "name" : "Frank Rudzicz"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
   }
 ]
