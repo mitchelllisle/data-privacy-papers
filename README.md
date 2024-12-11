@@ -2,6 +2,76 @@
 <h2>2024-12</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2412.07687v1">Privacy-Preserving Customer Support: A Framework for Secure and Scalable
+  Interactions</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
+  <p><b>Published on:</b> 2024-12-10T17:20:47Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Anant Prakash Awasthi, Chandraketu Singh, Rakshit Varma, Sanchit Sharma</p>
+    <p><b>Summary:</b> The growing reliance on artificial intelligence (AI) in customer support has
+significantly improved operational efficiency and user experience. However,
+traditional machine learning (ML) approaches, which require extensive local
+training on sensitive datasets, pose substantial privacy risks and compliance
+challenges with regulations like the General Data Protection Regulation (GDPR)
+and California Consumer Privacy Act (CCPA). Existing privacy-preserving
+techniques, such as anonymization, differential privacy, and federated
+learning, address some concerns but face limitations in utility, scalability,
+and complexity. This paper introduces the Privacy-Preserving Zero-Shot Learning
+(PP-ZSL) framework, a novel approach leveraging large language models (LLMs) in
+a zero-shot learning mode. Unlike conventional ML methods, PP-ZSL eliminates
+the need for local training on sensitive data by utilizing pre-trained LLMs to
+generate responses directly. The framework incorporates real-time data
+anonymization to redact or mask sensitive information, retrieval-augmented
+generation (RAG) for domain-specific query resolution, and robust
+post-processing to ensure compliance with regulatory standards. This
+combination reduces privacy risks, simplifies compliance, and enhances
+scalability and operational efficiency. Empirical analysis demonstrates that
+the PP-ZSL framework provides accurate, privacy-compliant responses while
+significantly lowering the costs and complexities of deploying AI-driven
+customer support systems. The study highlights potential applications across
+industries, including financial services, healthcare, e-commerce, legal
+support, telecommunications, and government services. By addressing the dual
+challenges of privacy and performance, this framework establishes a foundation
+for secure, efficient, and regulatory-compliant AI applications in customer
+interactions.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2412.06960v1">Simplications: Why and how we should rethink data of/by/for the people
+  in smart homes and its privacy implications</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2024-12-09T20:08:26Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Albrecht Kurze, Alexa Becker</p>
+    <p><b>Summary:</b> More and more smart devices enter our homes. Often these devices come with a
+variety of sensors, mostly simple sensors, e.g., for light, temperature,
+humidity or motion. And they all collect data. While it is data of the home
+environment it is also data of domestic life in the home. Thus it is data of
+the people and by the people in the home capturing their presence, arrival and
+departure, typical domestic activities, bad habits, health status etc. Based on
+previous as well as ongoing research we know that people are actually able to
+make sense of simple sensor data and that they will make use of it for their
+own purposes. Simple sensors, when critically reflected, are often only
+"simple" in a technical sense. The unreflected design and use of these sensors
+can easily lead to unintended implications, i.e. for privacy. However, it may
+not even need a Big Brother or data experts or AI to make the data of these
+sensors sensitive, e.g., if used for lateral surveillance within families.
+Often unintended but wicked implications emerge despite good intentions, such
+as improving efficiency or energy saving through collecting sensor data. Thus
+sensor data from the home is actually data of/by/for the people in the home.
+First, we explain how this might have relevance across scales of community of
+people - not only for the domain of the home but also in broader meaning.
+Second, we relate our previous as well as ongoing research in the domain of
+smart homes to this topic.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2412.06728v1">Byzantine-Eavesdropper Alliance: How to Achieve Symmetric Privacy in
   Quantum $X$-Secure $B$-Byzantine $E$-Eavesdropped $U$-Unresponsive
   $T$-Colluding PIR?</a></h3>
@@ -242,7 +312,7 @@ effect correction is crucial.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.05767v1">DeMem: Privacy-Enhanced Robust Adversarial Learning via De-Memorization</a></h3>
+  <h3><a href="http://arxiv.org/abs/2412.05767v2">DeMem: Privacy-Enhanced Robust Adversarial Learning via De-Memorization</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2024-12-08T00:22:58Z</p>
   <details>
@@ -2936,59 +3006,6 @@ aggregation methods, perform ablation studies on hyperparameters, and validate
 the robustness of our method to the target metric. Finally, we study the
 evolution of the vulnerability score distribution throughout training as a
 metric for model-level risk assessment.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.05733v1">Differential Privacy Under Class Imbalance: Methods and Empirical
-  Insights</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">  
-  <p><b>Published on:</b> 2024-11-08T17:46:56Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Lucas Rosenblatt, Yuliia Lut, Eitan Turok, Marco Avella-Medina, Rachel Cummings</p>
-    <p><b>Summary:</b> Imbalanced learning occurs in classification settings where the distribution
-of class-labels is highly skewed in the training data, such as when predicting
-rare diseases or in fraud detection. This class imbalance presents a
-significant algorithmic challenge, which can be further exacerbated when
-privacy-preserving techniques such as differential privacy are applied to
-protect sensitive training data. Our work formalizes these challenges and
-provides a number of algorithmic solutions. We consider DP variants of
-pre-processing methods that privately augment the original dataset to reduce
-the class imbalance; these include oversampling, SMOTE, and private synthetic
-data generation. We also consider DP variants of in-processing techniques,
-which adjust the learning algorithm to account for the imbalance; these include
-model bagging, class-weighted empirical risk minimization and class-weighted
-deep learning. For each method, we either adapt an existing imbalanced learning
-technique to the private setting or demonstrate its incompatibility with
-differential privacy. Finally, we empirically evaluate these privacy-preserving
-imbalanced learning methods under various data and distributional settings. We
-find that private synthetic data methods perform well as a data pre-processing
-step, while class-weighted ERMs are an alternative in higher-dimensional
-settings where private synthetic data suffers from the curse of dimensionality.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.05901v1">ViT Enhanced Privacy-Preserving Secure Medical Data Sharing and
-  Classification</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-11-08T16:33:20Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Al Amin, Kamrul Hasan, Sharif Ullah, M. Shamim Hossain</p>
-    <p><b>Summary:</b> Privacy-preserving and secure data sharing are critical for medical image
-analysis while maintaining accuracy and minimizing computational overhead are
-also crucial. Applying existing deep neural networks (DNNs) to encrypted
-medical data is not always easy and often compromises performance and security.
-To address these limitations, this research introduces a secure framework
-consisting of a learnable encryption method based on the block-pixel operation
-to encrypt the data and subsequently integrate it with the Vision Transformer
-(ViT). The proposed framework ensures data privacy and security by creating
-unique scrambling patterns per key, providing robust performance against
-leading bit attacks and minimum difference attacks.</p>
   </details>
 </div>
 
