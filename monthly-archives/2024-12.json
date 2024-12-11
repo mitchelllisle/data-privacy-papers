@@ -1080,5 +1080,68 @@
       "cs.LG",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.07687v1",
+    "title" : "Privacy-Preserving Customer Support: A Framework for Secure and Scalable\n  Interactions",
+    "summary" : "The growing reliance on artificial intelligence (AI) in customer support has\nsignificantly improved operational efficiency and user experience. However,\ntraditional machine learning (ML) approaches, which require extensive local\ntraining on sensitive datasets, pose substantial privacy risks and compliance\nchallenges with regulations like the General Data Protection Regulation (GDPR)\nand California Consumer Privacy Act (CCPA). Existing privacy-preserving\ntechniques, such as anonymization, differential privacy, and federated\nlearning, address some concerns but face limitations in utility, scalability,\nand complexity. This paper introduces the Privacy-Preserving Zero-Shot Learning\n(PP-ZSL) framework, a novel approach leveraging large language models (LLMs) in\na zero-shot learning mode. Unlike conventional ML methods, PP-ZSL eliminates\nthe need for local training on sensitive data by utilizing pre-trained LLMs to\ngenerate responses directly. The framework incorporates real-time data\nanonymization to redact or mask sensitive information, retrieval-augmented\ngeneration (RAG) for domain-specific query resolution, and robust\npost-processing to ensure compliance with regulatory standards. This\ncombination reduces privacy risks, simplifies compliance, and enhances\nscalability and operational efficiency. Empirical analysis demonstrates that\nthe PP-ZSL framework provides accurate, privacy-compliant responses while\nsignificantly lowering the costs and complexities of deploying AI-driven\ncustomer support systems. The study highlights potential applications across\nindustries, including financial services, healthcare, e-commerce, legal\nsupport, telecommunications, and government services. By addressing the dual\nchallenges of privacy and performance, this framework establishes a foundation\nfor secure, efficient, and regulatory-compliant AI applications in customer\ninteractions.",
+    "updated" : "2024-12-10T17:20:47Z",
+    "published" : "2024-12-10T17:20:47Z",
+    "authors" : [
+      {
+        "name" : "Anant Prakash Awasthi"
+      },
+      {
+        "name" : "Chandraketu Singh"
+      },
+      {
+        "name" : "Rakshit Varma"
+      },
+      {
+        "name" : "Sanchit Sharma"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "stat.AP"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.06960v1",
+    "title" : "Simplications: Why and how we should rethink data of/by/for the people\n  in smart homes and its privacy implications",
+    "summary" : "More and more smart devices enter our homes. Often these devices come with a\nvariety of sensors, mostly simple sensors, e.g., for light, temperature,\nhumidity or motion. And they all collect data. While it is data of the home\nenvironment it is also data of domestic life in the home. Thus it is data of\nthe people and by the people in the home capturing their presence, arrival and\ndeparture, typical domestic activities, bad habits, health status etc. Based on\nprevious as well as ongoing research we know that people are actually able to\nmake sense of simple sensor data and that they will make use of it for their\nown purposes. Simple sensors, when critically reflected, are often only\n\"simple\" in a technical sense. The unreflected design and use of these sensors\ncan easily lead to unintended implications, i.e. for privacy. However, it may\nnot even need a Big Brother or data experts or AI to make the data of these\nsensors sensitive, e.g., if used for lateral surveillance within families.\nOften unintended but wicked implications emerge despite good intentions, such\nas improving efficiency or energy saving through collecting sensor data. Thus\nsensor data from the home is actually data of/by/for the people in the home.\nFirst, we explain how this might have relevance across scales of community of\npeople - not only for the domain of the home but also in broader meaning.\nSecond, we relate our previous as well as ongoing research in the domain of\nsmart homes to this topic.",
+    "updated" : "2024-12-09T20:08:26Z",
+    "published" : "2024-12-09T20:08:26Z",
+    "authors" : [
+      {
+        "name" : "Albrecht Kurze"
+      },
+      {
+        "name" : "Alexa Becker"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.05767v2",
+    "title" : "DeMem: Privacy-Enhanced Robust Adversarial Learning via De-Memorization",
+    "summary" : "Adversarial robustness, the ability of a model to withstand manipulated\ninputs that cause errors, is essential for ensuring the trustworthiness of\nmachine learning models in real-world applications. However, previous studies\nhave shown that enhancing adversarial robustness through adversarial training\nincreases vulnerability to privacy attacks. While differential privacy can\nmitigate these attacks, it often compromises robustness against both natural\nand adversarial samples. Our analysis reveals that differential privacy\ndisproportionately impacts low-risk samples, causing an unintended performance\ndrop. To address this, we propose DeMem, which selectively targets high-risk\nsamples, achieving a better balance between privacy protection and model\nrobustness. DeMem is versatile and can be seamlessly integrated into various\nadversarial training techniques. Extensive evaluations across multiple training\nmethods and datasets demonstrate that DeMem significantly reduces privacy\nleakage while maintaining robustness against both natural and adversarial\nsamples. These results confirm DeMem's effectiveness and broad applicability in\nenhancing privacy without compromising robustness.",
+    "updated" : "2024-12-10T16:59:55Z",
+    "published" : "2024-12-08T00:22:58Z",
+    "authors" : [
+      {
+        "name" : "Xiaoyu Luo"
+      },
+      {
+        "name" : "Qiongxiu Li"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
   }
 ]
