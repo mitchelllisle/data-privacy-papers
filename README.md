@@ -2,6 +2,128 @@
 <h2>2024-12</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2412.08559v1">Underestimated Privacy Risks for Minority Populations in Large Language
+  Model Unlearning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-12-11T17:22:07Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Rongzhe Wei, Mufei Li, Mohsen Ghassemi, Eleonora Kreačić, Yifan Li, Xiang Yue, Bo Li, Vamsi K. Potluru, Pan Li, Eli Chien</p>
+    <p><b>Summary:</b> Large Language Models are trained on extensive datasets that often contain
+sensitive, human-generated information, raising significant concerns about
+privacy breaches. While certified unlearning approaches offer strong privacy
+guarantees, they rely on restrictive model assumptions that are not applicable
+to LLMs. As a result, various unlearning heuristics have been proposed, with
+the associated privacy risks assessed only empirically. The standard evaluation
+pipelines typically randomly select data for removal from the training set,
+apply unlearning techniques, and use membership inference attacks to compare
+the unlearned models against models retrained without the to-be-unlearned data.
+However, since every data point is subject to the right to be forgotten,
+unlearning should be considered in the worst-case scenario from the privacy
+perspective. Prior work shows that data outliers may exhibit higher
+memorization effects. Intuitively, they are harder to be unlearn and thus the
+privacy risk of unlearning them is underestimated in the current evaluation. In
+this paper, we leverage minority data to identify such a critical flaw in
+previously widely adopted evaluations. We substantiate this claim through
+carefully designed experiments, including unlearning canaries related to
+minority groups, inspired by privacy auditing literature. Using personally
+identifiable information as a representative minority identifier, we
+demonstrate that minority groups experience at least 20% more privacy leakage
+in most cases across six unlearning approaches, three MIAs, three benchmark
+datasets, and two LLMs of different scales. Given that the right to be
+forgotten should be upheld for every individual, we advocate for a more
+rigorous evaluation of LLM unlearning methods. Our minority-aware evaluation
+framework represents an initial step toward ensuring more equitable assessments
+of LLM unlearning efficacy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2412.08544v1">Training Data Reconstruction: Privacy due to Uncertainty?</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-12-11T17:00:29Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Christina Runkel, Kanchana Vaishnavi Gandikota, Jonas Geiping, Carola-Bibiane Schönlieb, Michael Moeller</p>
+    <p><b>Summary:</b> Being able to reconstruct training data from the parameters of a neural
+network is a major privacy concern. Previous works have shown that
+reconstructing training data, under certain circumstances, is possible. In this
+work, we analyse such reconstructions empirically and propose a new formulation
+of the reconstruction as a solution to a bilevel optimisation problem. We
+demonstrate that our formulation as well as previous approaches highly depend
+on the initialisation of the training images $x$ to reconstruct. In particular,
+we show that a random initialisation of $x$ can lead to reconstructions that
+resemble valid training samples while not being part of the actual training
+dataset. Thus, our experiments on affine and one-hidden layer networks suggest
+that when reconstructing natural images, yet an adversary cannot identify
+whether reconstructed images have indeed been part of the set of training
+samples.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2412.08534v1">Protecting Confidentiality, Privacy and Integrity in Collaborative
+  Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-12-11T16:48:18Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Dong Chen, Alice Dethise, Istemi Ekin Akkus, Ivica Rimac, Klaus Satzke, Antti Koskela, Marco Canini, Wei Wang, Ruichuan Chen</p>
+    <p><b>Summary:</b> A collaboration between dataset owners and model owners is needed to
+facilitate effective machine learning (ML) training. During this collaboration,
+however, dataset owners and model owners want to protect the confidentiality of
+their respective assets (i.e., datasets, models and training code), with the
+dataset owners also caring about the privacy of individual users whose data is
+in their datasets. Existing solutions either provide limited confidentiality
+for models and training code, or suffer from privacy issues due to collusion.
+  We present Citadel++, a scalable collaborative ML training system designed to
+simultaneously protect the confidentiality of datasets, models and training
+code, as well as the privacy of individual users. Citadel++ enhances
+differential privacy techniques to safeguard the privacy of individual user
+data while maintaining model utility. By employing Virtual Machine-level
+Trusted Execution Environments (TEEs) and improved integrity protection
+techniques through various OS-level mechanisms, Citadel++ effectively preserves
+the confidentiality of datasets, models and training code, and enforces our
+privacy mechanisms even when the models and training code have been maliciously
+designed. Our experiments show that Citadel++ provides privacy, model utility
+and performance while adhering to confidentiality and privacy requirements of
+dataset owners and model owners, outperforming the state-of-the-art
+privacy-preserving training systems by up to 543x on CPU and 113x on GPU TEEs.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2412.08276v1">Local Features Meet Stochastic Anonymization: Revolutionizing
+  Privacy-Preserving Face Recognition for Black-Box Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2024-12-11T10:49:15Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yuanwei Liu, Chengyu Jia, Ruqi Xiao, Xuemai Jia, Hui Wei, Kui Jiang, Zheng Wang</p>
+    <p><b>Summary:</b> The task of privacy-preserving face recognition (PPFR) currently faces two
+major unsolved challenges: (1) existing methods are typically effective only on
+specific face recognition models and struggle to generalize to black-box face
+recognition models; (2) current methods employ data-driven reversible
+representation encoding for privacy protection, making them susceptible to
+adversarial learning and reconstruction of the original image. We observe that
+face recognition models primarily rely on local features ({e.g., face contour,
+skin texture, and so on) for identification. Thus, by disrupting global
+features while enhancing local features, we achieve effective recognition even
+in black-box environments. Additionally, to prevent adversarial models from
+learning and reversing the anonymization process, we adopt an adversarial
+learning-based approach with irreversible stochastic injection to ensure the
+stochastic nature of the anonymization. Experimental results demonstrate that
+our method achieves an average recognition accuracy of 94.21\% on black-box
+models, outperforming existing methods in both privacy protection and
+anti-reconstruction capabilities.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2412.07687v1">Privacy-Preserving Customer Support: A Framework for Secure and Scalable
   Interactions</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
@@ -132,7 +254,7 @@ rate $1e-3$, clipping threshold 1.0, and noise multiplier 0.912).</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.06541v1">Numerical Estimation of Spatial Distributions under Differential Privacy</a></h3>
+  <h3><a href="http://arxiv.org/abs/2412.06541v2">Numerical Estimation of Spatial Distributions under Differential Privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
   <p><b>Published on:</b> 2024-12-09T14:53:57Z</p>
   <details>
@@ -840,6 +962,36 @@ large fleets of devices, while ensuring robust, defensible, and verifiable
 privacy safeguards. We focus on federated analytics (statistics and
 monitoring), in contrast to systems for federated learning (ML workloads), and
 we flag the key differences.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2412.07796v1">MRP-LLM: Multitask Reflective Large Language Models for
+  Privacy-Preserving Next POI Recommendation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-12-03T09:45:02Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ziqing Wu, Zhu Sun, Dongxia Wang, Lu Zhang, Jie Zhang, Yew Soon Ong</p>
+    <p><b>Summary:</b> Large language models (LLMs) have shown promising potential for next
+Point-of-Interest (POI) recommendation. However, existing methods only perform
+direct zero-shot prompting, leading to ineffective extraction of user
+preferences, insufficient injection of collaborative signals, and a lack of
+user privacy protection. As such, we propose a novel Multitask Reflective Large
+Language Model for Privacy-preserving Next POI Recommendation (MRP-LLM), aiming
+to exploit LLMs for better next POI recommendation while preserving user
+privacy. Specifically, the Multitask Reflective Preference Extraction Module
+first utilizes LLMs to distill each user's fine-grained (i.e., categorical,
+temporal, and spatial) preferences into a knowledge base (KB). The Neighbor
+Preference Retrieval Module retrieves and summarizes the preferences of similar
+users from the KB to obtain collaborative signals. Subsequently, aggregating
+the user's preferences with those of similar users, the Multitask Next POI
+Recommendation Module generates the next POI recommendations via multitask
+prompting. Meanwhile, during data collection, a Privacy Transmission Module is
+specifically devised to preserve sensitive POI data. Extensive experiments on
+three real-world datasets demonstrate the efficacy of our proposed MRP-LLM in
+providing more accurate next POI recommendations with user privacy preserved.</p>
   </details>
 </div>
 
@@ -2865,147 +3017,6 @@ all related datasets. We believe this work provides a path forward for (i) the
 release of large-scale synthetic patient message datasets that are
 stylistically similar to ground-truth samples and (ii) HIPAA-friendly data
 generation which requires minimal human de-identification efforts.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.06513v1">PRISM: Privacy-preserving Inter-Site MRI Harmonization via Disentangled
-  Representation Learning</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2024-11-10T16:29:23Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Sarang Galada, Tanurima Halder, Kunal Deo, Ram P Krish, Kshitij Jadhav</p>
-    <p><b>Summary:</b> Multi-site MRI studies often suffer from site-specific variations arising
-from differences in methodology, hardware, and acquisition protocols, thereby
-compromising accuracy and reliability in clinical AI/ML tasks. We present PRISM
-(Privacy-preserving Inter-Site MRI Harmonization), a novel Deep Learning
-framework for harmonizing structural brain MRI across multiple sites while
-preserving data privacy. PRISM employs a dual-branch autoencoder with
-contrastive learning and variational inference to disentangle anatomical
-features from style and site-specific variations, enabling unpaired image
-translation without traveling subjects or multiple MRI modalities. Our modular
-design allows harmonization to any target site and seamless integration of new
-sites without the need for retraining or fine-tuning. Using multi-site
-structural MRI data, we demonstrate PRISM's effectiveness in downstream tasks
-such as brain tissue segmentation and validate its harmonization performance
-through multiple experiments. Our framework addresses key challenges in medical
-AI/ML, including data privacy, distribution shifts, model generalizability and
-interpretability. Code is available at https://github.com/saranggalada/PRISM</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.06317v2">Harpocrates: A Statically Typed Privacy Conscious Programming Framework</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36"> 
-  <p><b>Published on:</b> 2024-11-10T00:28:58Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Sinan Pehlivanoglu, Malte Schwarzkopf</p>
-    <p><b>Summary:</b> In this paper, we introduce Harpocrates, a compiler plugin and a framework
-pair for Scala that binds the privacy policies to the data during data creation
-in form of oblivious membranes. Harpocrates eliminates raw data for a policy
-protected type from the application, ensuring it can only exist in protected
-form and centralizes the policy checking to the policy declaration site, making
-the privacy logic easy to maintain and verify. Instead of approaching privacy
-from an information flow verification perspective, Harpocrates allow the data
-to flow freely throughout the application, inside the policy membranes but
-enforces the policies when the data is tried to be accessed, mutated,
-declassified or passed through the application boundary. The centralization of
-the policies allow the maintainers to change the enforced logic simply by
-updating a single function while keeping the rest of the application oblivious
-to the change. Especially in a setting where the data definition is shared by
-multiple applications, the publisher can update the policies without requiring
-the dependent applications to make any changes beyond updating the dependency
-version.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.06263v1">Federated Split Learning for Human Activity Recognition with
-  Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-11-09T19:32:23Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Josue Ndeko, Shaba Shaon, Aubrey Beal, Avimanyu Sahoo, Dinh C. Nguyen</p>
-    <p><b>Summary:</b> This paper proposes a novel intelligent human activity recognition (HAR)
-framework based on a new design of Federated Split Learning (FSL) with
-Differential Privacy (DP) over edge networks. Our FSL-DP framework leverages
-both accelerometer and gyroscope data, achieving significant improvements in
-HAR accuracy. The evaluation includes a detailed comparison between traditional
-Federated Learning (FL) and our FSL framework, showing that the FSL framework
-outperforms FL models in both accuracy and loss metrics. Additionally, we
-examine the privacy-performance trade-off under different data settings in the
-DP mechanism, highlighting the balance between privacy guarantees and model
-accuracy. The results also indicate that our FSL framework achieves faster
-communication times per training round compared to traditional FL, further
-emphasizing its efficiency and effectiveness. This work provides valuable
-insight and a novel framework which was tested on a real-life dataset.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.06107v1">A capacity renting framework for shared energy storage considering
-  peer-to-peer energy trading of prosumers with privacy protection</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
-  <p><b>Published on:</b> 2024-11-09T08:01:17Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yingcong Sun, Laijun Chen, Yue Chen, Mingrui Tang, Shengwei Mei</p>
-    <p><b>Summary:</b> Shared energy storage systems (ESS) present a promising solution to the
-temporal imbalance between energy generation from renewable distributed
-generators (DGs) and the power demands of prosumers. However, as DG penetration
-rates rise, spatial energy imbalances become increasingly significant,
-necessitating the integration of peer-to-peer (P2P) energy trading within the
-shared ESS framework. Two key challenges emerge in this context: the absence of
-effective mechanisms and the greater difficulty for privacy protection due to
-increased data communication. This research proposes a capacity renting
-framework for shared ESS considering P2P energy trading of prosumers. In the
-proposed framework, prosumers can participate in P2P energy trading and rent
-capacities from shared ESS. A generalized Nash game is formulated to model the
-trading process and the competitive interactions among prosumers, and the
-variational equilibrium of the game is proved to be equivalent to the optimal
-solution of a quadratic programming (QP) problem. To address the privacy
-protection concern, the problem is solved using the alternating direction
-method of multipliers (ADMM) with the Paillier cryptosystem. Finally, numerical
-simulations demonstrate the impact of P2P energy trading on the shared ESS
-framework and validate the effectiveness of the proposed privacy-preserving
-algorithm.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.05743v1">Free Record-Level Privacy Risk Evaluation Through Artifact-Based Methods</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-11-08T18:04:41Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Joseph Pollock, Igor Shilov, Euodia Dodd, Yves-Alexandre de Montjoye</p>
-    <p><b>Summary:</b> Membership inference attacks (MIAs) are widely used to empirically assess the
-privacy risks of samples used to train a target machine learning model.
-State-of-the-art methods however require training hundreds of shadow models,
-with the same size and architecture of the target model, solely to evaluate the
-privacy risk. While one might be able to afford this for small models, the cost
-often becomes prohibitive for medium and large models.
-  We here instead propose a novel approach to identify the at-risk samples
-using only artifacts available during training, with little to no additional
-computational overhead. Our method analyzes individual per-sample loss traces
-and uses them to identify the vulnerable data samples. We demonstrate the
-effectiveness of our artifact-based approach through experiments on the CIFAR10
-dataset, showing high precision in identifying vulnerable samples as determined
-by a SOTA shadow model-based MIA (LiRA). Impressively, our method reaches the
-same precision as another SOTA MIA when measured against LiRA, despite it being
-orders of magnitude cheaper. We then show LT-IQR to outperform alternative loss
-aggregation methods, perform ablation studies on hyperparameters, and validate
-the robustness of our method to the target metric. Finally, we study the
-evolution of the vulnerability score distribution throughout training as a
-metric for model-level risk assessment.</p>
   </details>
 </div>
 
