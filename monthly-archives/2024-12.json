@@ -1143,5 +1143,213 @@
       "cs.LG",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.08559v1",
+    "title" : "Underestimated Privacy Risks for Minority Populations in Large Language\n  Model Unlearning",
+    "summary" : "Large Language Models are trained on extensive datasets that often contain\nsensitive, human-generated information, raising significant concerns about\nprivacy breaches. While certified unlearning approaches offer strong privacy\nguarantees, they rely on restrictive model assumptions that are not applicable\nto LLMs. As a result, various unlearning heuristics have been proposed, with\nthe associated privacy risks assessed only empirically. The standard evaluation\npipelines typically randomly select data for removal from the training set,\napply unlearning techniques, and use membership inference attacks to compare\nthe unlearned models against models retrained without the to-be-unlearned data.\nHowever, since every data point is subject to the right to be forgotten,\nunlearning should be considered in the worst-case scenario from the privacy\nperspective. Prior work shows that data outliers may exhibit higher\nmemorization effects. Intuitively, they are harder to be unlearn and thus the\nprivacy risk of unlearning them is underestimated in the current evaluation. In\nthis paper, we leverage minority data to identify such a critical flaw in\npreviously widely adopted evaluations. We substantiate this claim through\ncarefully designed experiments, including unlearning canaries related to\nminority groups, inspired by privacy auditing literature. Using personally\nidentifiable information as a representative minority identifier, we\ndemonstrate that minority groups experience at least 20% more privacy leakage\nin most cases across six unlearning approaches, three MIAs, three benchmark\ndatasets, and two LLMs of different scales. Given that the right to be\nforgotten should be upheld for every individual, we advocate for a more\nrigorous evaluation of LLM unlearning methods. Our minority-aware evaluation\nframework represents an initial step toward ensuring more equitable assessments\nof LLM unlearning efficacy.",
+    "updated" : "2024-12-11T17:22:07Z",
+    "published" : "2024-12-11T17:22:07Z",
+    "authors" : [
+      {
+        "name" : "Rongzhe Wei"
+      },
+      {
+        "name" : "Mufei Li"
+      },
+      {
+        "name" : "Mohsen Ghassemi"
+      },
+      {
+        "name" : "Eleonora Kreačić"
+      },
+      {
+        "name" : "Yifan Li"
+      },
+      {
+        "name" : "Xiang Yue"
+      },
+      {
+        "name" : "Bo Li"
+      },
+      {
+        "name" : "Vamsi K. Potluru"
+      },
+      {
+        "name" : "Pan Li"
+      },
+      {
+        "name" : "Eli Chien"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.08544v1",
+    "title" : "Training Data Reconstruction: Privacy due to Uncertainty?",
+    "summary" : "Being able to reconstruct training data from the parameters of a neural\nnetwork is a major privacy concern. Previous works have shown that\nreconstructing training data, under certain circumstances, is possible. In this\nwork, we analyse such reconstructions empirically and propose a new formulation\nof the reconstruction as a solution to a bilevel optimisation problem. We\ndemonstrate that our formulation as well as previous approaches highly depend\non the initialisation of the training images $x$ to reconstruct. In particular,\nwe show that a random initialisation of $x$ can lead to reconstructions that\nresemble valid training samples while not being part of the actual training\ndataset. Thus, our experiments on affine and one-hidden layer networks suggest\nthat when reconstructing natural images, yet an adversary cannot identify\nwhether reconstructed images have indeed been part of the set of training\nsamples.",
+    "updated" : "2024-12-11T17:00:29Z",
+    "published" : "2024-12-11T17:00:29Z",
+    "authors" : [
+      {
+        "name" : "Christina Runkel"
+      },
+      {
+        "name" : "Kanchana Vaishnavi Gandikota"
+      },
+      {
+        "name" : "Jonas Geiping"
+      },
+      {
+        "name" : "Carola-Bibiane Schönlieb"
+      },
+      {
+        "name" : "Michael Moeller"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.08534v1",
+    "title" : "Protecting Confidentiality, Privacy and Integrity in Collaborative\n  Learning",
+    "summary" : "A collaboration between dataset owners and model owners is needed to\nfacilitate effective machine learning (ML) training. During this collaboration,\nhowever, dataset owners and model owners want to protect the confidentiality of\ntheir respective assets (i.e., datasets, models and training code), with the\ndataset owners also caring about the privacy of individual users whose data is\nin their datasets. Existing solutions either provide limited confidentiality\nfor models and training code, or suffer from privacy issues due to collusion.\n  We present Citadel++, a scalable collaborative ML training system designed to\nsimultaneously protect the confidentiality of datasets, models and training\ncode, as well as the privacy of individual users. Citadel++ enhances\ndifferential privacy techniques to safeguard the privacy of individual user\ndata while maintaining model utility. By employing Virtual Machine-level\nTrusted Execution Environments (TEEs) and improved integrity protection\ntechniques through various OS-level mechanisms, Citadel++ effectively preserves\nthe confidentiality of datasets, models and training code, and enforces our\nprivacy mechanisms even when the models and training code have been maliciously\ndesigned. Our experiments show that Citadel++ provides privacy, model utility\nand performance while adhering to confidentiality and privacy requirements of\ndataset owners and model owners, outperforming the state-of-the-art\nprivacy-preserving training systems by up to 543x on CPU and 113x on GPU TEEs.",
+    "updated" : "2024-12-11T16:48:18Z",
+    "published" : "2024-12-11T16:48:18Z",
+    "authors" : [
+      {
+        "name" : "Dong Chen"
+      },
+      {
+        "name" : "Alice Dethise"
+      },
+      {
+        "name" : "Istemi Ekin Akkus"
+      },
+      {
+        "name" : "Ivica Rimac"
+      },
+      {
+        "name" : "Klaus Satzke"
+      },
+      {
+        "name" : "Antti Koskela"
+      },
+      {
+        "name" : "Marco Canini"
+      },
+      {
+        "name" : "Wei Wang"
+      },
+      {
+        "name" : "Ruichuan Chen"
+      }
+    ],
+    "categories" : [
+      "cs.DC",
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.08276v1",
+    "title" : "Local Features Meet Stochastic Anonymization: Revolutionizing\n  Privacy-Preserving Face Recognition for Black-Box Models",
+    "summary" : "The task of privacy-preserving face recognition (PPFR) currently faces two\nmajor unsolved challenges: (1) existing methods are typically effective only on\nspecific face recognition models and struggle to generalize to black-box face\nrecognition models; (2) current methods employ data-driven reversible\nrepresentation encoding for privacy protection, making them susceptible to\nadversarial learning and reconstruction of the original image. We observe that\nface recognition models primarily rely on local features ({e.g., face contour,\nskin texture, and so on) for identification. Thus, by disrupting global\nfeatures while enhancing local features, we achieve effective recognition even\nin black-box environments. Additionally, to prevent adversarial models from\nlearning and reversing the anonymization process, we adopt an adversarial\nlearning-based approach with irreversible stochastic injection to ensure the\nstochastic nature of the anonymization. Experimental results demonstrate that\nour method achieves an average recognition accuracy of 94.21\\% on black-box\nmodels, outperforming existing methods in both privacy protection and\nanti-reconstruction capabilities.",
+    "updated" : "2024-12-11T10:49:15Z",
+    "published" : "2024-12-11T10:49:15Z",
+    "authors" : [
+      {
+        "name" : "Yuanwei Liu"
+      },
+      {
+        "name" : "Chengyu Jia"
+      },
+      {
+        "name" : "Ruqi Xiao"
+      },
+      {
+        "name" : "Xuemai Jia"
+      },
+      {
+        "name" : "Hui Wei"
+      },
+      {
+        "name" : "Kui Jiang"
+      },
+      {
+        "name" : "Zheng Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.06541v2",
+    "title" : "Numerical Estimation of Spatial Distributions under Differential Privacy",
+    "summary" : "Estimating spatial distributions is important in data analysis, such as\ntraffic flow forecasting and epidemic prevention. To achieve accurate spatial\ndistribution estimation, the analysis needs to collect sufficient user data.\nHowever, collecting data directly from individuals could compromise their\nprivacy. Most previous works focused on private distribution estimation for\none-dimensional data, which does not consider spatial data relation and leads\nto poor accuracy for spatial distribution estimation. In this paper, we address\nthe problem of private spatial distribution estimation, where we collect\nspatial data from individuals and aim to minimize the distance between the\nactual distribution and estimated one under Local Differential Privacy (LDP).\nTo leverage the numerical nature of the domain, we project spatial data and its\nrelationships onto a one-dimensional distribution. We then use this projection\nto estimate the overall spatial distribution. Specifically, we propose a\nreporting mechanism called Disk Area Mechanism (DAM), which projects the\nspatial domain onto a line and optimizes the estimation using the sliced\nWasserstein distance. Through extensive experiments, we show the effectiveness\nof our DAM approach on both real and synthetic data sets, compared with the\nstate-of-the-art methods, such as Multi-dimensional Square Wave Mechanism\n(MDSW) and Subset Exponential Mechanism with Geo-I (SEM-Geo-I). Our results\nshow that our DAM always performs better than MDSW and is better than SEM-Geo-I\nwhen the data granularity is fine enough.",
+    "updated" : "2024-12-11T09:02:54Z",
+    "published" : "2024-12-09T14:53:57Z",
+    "authors" : [
+      {
+        "name" : "Leilei Du"
+      },
+      {
+        "name" : "Peng Cheng"
+      },
+      {
+        "name" : "Libin Zheng"
+      },
+      {
+        "name" : "Xiang Lian"
+      },
+      {
+        "name" : "Lei Chen"
+      },
+      {
+        "name" : "Wei Xi"
+      },
+      {
+        "name" : "Wangze Ni"
+      }
+    ],
+    "categories" : [
+      "cs.DB"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.07796v1",
+    "title" : "MRP-LLM: Multitask Reflective Large Language Models for\n  Privacy-Preserving Next POI Recommendation",
+    "summary" : "Large language models (LLMs) have shown promising potential for next\nPoint-of-Interest (POI) recommendation. However, existing methods only perform\ndirect zero-shot prompting, leading to ineffective extraction of user\npreferences, insufficient injection of collaborative signals, and a lack of\nuser privacy protection. As such, we propose a novel Multitask Reflective Large\nLanguage Model for Privacy-preserving Next POI Recommendation (MRP-LLM), aiming\nto exploit LLMs for better next POI recommendation while preserving user\nprivacy. Specifically, the Multitask Reflective Preference Extraction Module\nfirst utilizes LLMs to distill each user's fine-grained (i.e., categorical,\ntemporal, and spatial) preferences into a knowledge base (KB). The Neighbor\nPreference Retrieval Module retrieves and summarizes the preferences of similar\nusers from the KB to obtain collaborative signals. Subsequently, aggregating\nthe user's preferences with those of similar users, the Multitask Next POI\nRecommendation Module generates the next POI recommendations via multitask\nprompting. Meanwhile, during data collection, a Privacy Transmission Module is\nspecifically devised to preserve sensitive POI data. Extensive experiments on\nthree real-world datasets demonstrate the efficacy of our proposed MRP-LLM in\nproviding more accurate next POI recommendations with user privacy preserved.",
+    "updated" : "2024-12-03T09:45:02Z",
+    "published" : "2024-12-03T09:45:02Z",
+    "authors" : [
+      {
+        "name" : "Ziqing Wu"
+      },
+      {
+        "name" : "Zhu Sun"
+      },
+      {
+        "name" : "Dongxia Wang"
+      },
+      {
+        "name" : "Lu Zhang"
+      },
+      {
+        "name" : "Jie Zhang"
+      },
+      {
+        "name" : "Yew Soon Ong"
+      }
+    ],
+    "categories" : [
+      "cs.IR",
+      "cs.AI"
+    ]
   }
 ]
