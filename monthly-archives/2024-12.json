@@ -1439,5 +1439,42 @@
       "cs.LG",
       "eess.AS"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.09812v1",
+    "title" : "ScaleOT: Privacy-utility-scalable Offsite-tuning with Dynamic\n  LayerReplace and Selective Rank Compression",
+    "summary" : "Offsite-tuning is a privacy-preserving method for tuning large language\nmodels (LLMs) by sharing a lossy compressed emulator from the LLM owners with\ndata owners for downstream task tuning. This approach protects the privacy of\nboth the model and data owners. However, current offsite tuning methods often\nsuffer from adaptation degradation, high computational costs, and limited\nprotection strength due to uniformly dropping LLM layers or relying on\nexpensive knowledge distillation. To address these issues, we propose ScaleOT,\na novel privacy-utility-scalable offsite-tuning framework that effectively\nbalances privacy and utility. ScaleOT introduces a novel layerwise lossy\ncompression algorithm that uses reinforcement learning to obtain the importance\nof each layer. It employs lightweight networks, termed harmonizers, to replace\nthe raw LLM layers. By combining important original LLM layers and harmonizers\nin different ratios, ScaleOT generates emulators tailored for optimal\nperformance with various model scales for enhanced privacy protection.\nAdditionally, we present a rank reduction method to further compress the\noriginal LLM layers, significantly enhancing privacy with negligible impact on\nutility. Comprehensive experiments show that ScaleOT can achieve nearly\nlossless offsite tuning performance compared with full fine-tuning while\nobtaining better model privacy.",
+    "updated" : "2024-12-13T03:00:48Z",
+    "published" : "2024-12-13T03:00:48Z",
+    "authors" : [
+      {
+        "name" : "Kai Yao"
+      },
+      {
+        "name" : "Zhaorui Tan"
+      },
+      {
+        "name" : "Tiandi Ye"
+      },
+      {
+        "name" : "Lichun Li"
+      },
+      {
+        "name" : "Yuan Zhao"
+      },
+      {
+        "name" : "Wenyan Liu"
+      },
+      {
+        "name" : "Wei Wang"
+      },
+      {
+        "name" : "Jianke Zhu"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.CR"
+    ]
   }
 ]
