@@ -2,6 +2,37 @@
 <h2>2024-12</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2412.09812v1">ScaleOT: Privacy-utility-scalable Offsite-tuning with Dynamic
+  LayerReplace and Selective Rank Compression</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-12-13T03:00:48Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Kai Yao, Zhaorui Tan, Tiandi Ye, Lichun Li, Yuan Zhao, Wenyan Liu, Wei Wang, Jianke Zhu</p>
+    <p><b>Summary:</b> Offsite-tuning is a privacy-preserving method for tuning large language
+models (LLMs) by sharing a lossy compressed emulator from the LLM owners with
+data owners for downstream task tuning. This approach protects the privacy of
+both the model and data owners. However, current offsite tuning methods often
+suffer from adaptation degradation, high computational costs, and limited
+protection strength due to uniformly dropping LLM layers or relying on
+expensive knowledge distillation. To address these issues, we propose ScaleOT,
+a novel privacy-utility-scalable offsite-tuning framework that effectively
+balances privacy and utility. ScaleOT introduces a novel layerwise lossy
+compression algorithm that uses reinforcement learning to obtain the importance
+of each layer. It employs lightweight networks, termed harmonizers, to replace
+the raw LLM layers. By combining important original LLM layers and harmonizers
+in different ratios, ScaleOT generates emulators tailored for optimal
+performance with various model scales for enhanced privacy protection.
+Additionally, we present a rank reduction method to further compress the
+original LLM layers, significantly enhancing privacy with negligible impact on
+utility. Comprehensive experiments show that ScaleOT can achieve nearly
+lossless offsite tuning performance compared with full fine-tuning while
+obtaining better model privacy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2412.09256v1">Differential Privacy Releasing of Hierarchical Origin/Destination Data
   with a TopDown Approach</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B">
@@ -2986,36 +3017,6 @@ datasets (e.g., MNIST, CIFAR-10). Our experimental results show that vPIN
 achieves high efficiency in terms of proving time, verification time, and proof
 size, while providing client data privacy guarantees and provable
 verifiability.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.07128v1">ZT-RIC:A Zero Trust RIC Framework for ensuring data Privacy and
-  Confidentiality in Open RAN</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-11-11T16:59:22Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Diana Lin, Samarth Bhargav, Azuka Chiejina, Mohamed I. Ibrahem, Vijay K. Shah</p>
-    <p><b>Summary:</b> The advancement of 5G and NextG networks through Open Radio Access Network
-(O-RAN) architecture enables a shift toward virtualized, modular, and
-disaggregated configurations. A core component of O-RAN is the RAN Intelligent
-Controller (RIC), which manages RAN using machine learning-driven xApps that
-access sensitive data from RAN and User Equipment (UE), stored in the near
-Real-Time RIC (Near-RT RIC) database. This shared, open environment increases
-the risk of unauthorized data exposure. To address these concerns, this paper
-proposes a zero-trust RIC (ZT-RIC) framework that preserves data privacy across
-the RIC platform, including the RIC database, xApps, and E2 interface. ZT-RIC
-employs Inner Product Functional Encryption (IPFE) to encrypt RAN/UE data at
-the base station, preventing leaks through the E2 interface and shared
-database. Additionally, ZT-RIC enables xApps to perform inference on encrypted
-data without exposing sensitive information. For evaluation, a state-of-the-art
-InterClass xApp, which detects jamming signals using RAN key performance
-metrics (KPMs), is implemented. Testing on an LTE/5G O-RAN testbed shows that
-ZT-RIC preserves data confidentiality while achieving 97.9% accuracy in jamming
-detection and meeting sub-second latency requirements, with a round-trip time
-(RTT) of 0.527 seconds.</p>
   </details>
 </div>
 
