@@ -2,6 +2,254 @@
 <h2>2024-12</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2412.11951v1">The Impact of Generalization Techniques on the Interplay Among Privacy,
+  Utility, and Fairness in Image Classification</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-12-16T16:35:31Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ahmad Hassanpour, Amir Zarei, Khawla Mallat, Anderson Santana de Oliveira, Bian Yang</p>
+    <p><b>Summary:</b> This study investigates the trade-offs between fairness, privacy, and utility
+in image classification using machine learning (ML). Recent research suggests
+that generalization techniques can improve the balance between privacy and
+utility. One focus of this work is sharpness-aware training (SAT) and its
+integration with differential privacy (DP-SAT) to further improve this balance.
+Additionally, we examine fairness in both private and non-private learning
+models trained on datasets with synthetic and real-world biases. We also
+measure the privacy risks involved in these scenarios by performing membership
+inference attacks (MIAs) and explore the consequences of eliminating
+high-privacy risk samples, termed outliers. Moreover, we introduce a new
+metric, named \emph{harmonic score}, which combines accuracy, privacy, and
+fairness into a single measure.
+  Through empirical analysis using generalization techniques, we achieve an
+accuracy of 81.11\% under $(8, 10^{-5})$-DP on CIFAR-10, surpassing the 79.5\%
+reported by De et al. (2022). Moreover, our experiments show that memorization
+of training samples can begin before the overfitting point, and generalization
+techniques do not guarantee the prevention of this memorization. Our analysis
+of synthetic biases shows that generalization techniques can amplify model bias
+in both private and non-private models. Additionally, our results indicate that
+increased bias in training data leads to reduced accuracy, greater
+vulnerability to privacy attacks, and higher model bias. We validate these
+findings with the CelebA dataset, demonstrating that similar trends persist
+with real-world attribute imbalances. Finally, our experiments show that
+removing outlier data decreases accuracy and further amplifies model bias.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2412.11737v1">Efficiently Achieving Secure Model Training and Secure Aggregation to
+  Ensure Bidirectional Privacy-Preservation in Federated Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-12-16T12:58:21Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xue Yang, Depan Peng, Yan Feng, Xiaohu Tang, Weijun Fang, Jun Shao</p>
+    <p><b>Summary:</b> Bidirectional privacy-preservation federated learning is crucial as both
+local gradients and the global model may leak privacy. However, only a few
+works attempt to achieve it, and they often face challenges such as excessive
+communication and computational overheads, or significant degradation of model
+accuracy, which hinders their practical applications. In this paper, we design
+an efficient and high-accuracy bidirectional privacy-preserving scheme for
+federated learning to complete secure model training and secure aggregation. To
+efficiently achieve bidirectional privacy, we design an efficient and
+accuracy-lossless model perturbation method on the server side (called
+$\mathbf{MP\_Server}$) that can be combined with local differential privacy
+(LDP) to prevent clients from accessing the model, while ensuring that the
+local gradients obtained on the server side satisfy LDP. Furthermore, to ensure
+model accuracy, we customize a distributed differential privacy mechanism on
+the client side (called $\mathbf{DDP\_Client}$). When combined with
+$\mathbf{MP\_Server}$, it ensures LDP of the local gradients, while ensuring
+that the aggregated result matches the accuracy of central differential privacy
+(CDP). Extensive experiments demonstrate that our scheme significantly
+outperforms state-of-the-art bidirectional privacy-preservation baselines
+(SOTAs) in terms of computational cost, model accuracy, and defense ability
+against privacy attacks. Particularly, given target accuracy, the training time
+of SOTAs is approximately $200$ times, or even over $1000$ times, longer than
+that of our scheme. When the privacy budget is set relatively small, our scheme
+incurs less than $6\%$ accuracy loss compared to the privacy-ignoring method,
+while SOTAs suffer up to $20\%$ accuracy loss. Experimental results also show
+that the defense capability of our scheme outperforms than SOTAs.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2412.11572v1">DB-PAISA: Discovery-Based Privacy-Agile IoT Sensing+Actuation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-12-16T08:57:24Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Isita Bagayatkar, Youngil Kim, Gene Tsudik</p>
+    <p><b>Summary:</b> Internet of Things (IoT) devices are becoming increasingly commonplace in
+numerous public and semi-private settings. Currently, most such devices lack
+mechanisms to facilitate their discovery by casual (nearby) users who are not
+owners or operators. However, these users are potentially being sensed, and/or
+actuated upon, by these devices, without their knowledge or consent. This
+naturally triggers privacy, security, and safety issues.
+  To address this problem, some recent work explored device transparency in the
+IoT ecosystem. The intuitive approach is for each device to periodically and
+securely broadcast (announce) its presence and capabilities to all nearby
+users. While effective, when no new users are present, this push-based approach
+generates a substantial amount of unnecessary network traffic and needlessly
+interferes with normal device operation.
+  In this work, we construct DB-PAISA which addresses these issues via a
+pull-based method, whereby devices reveal their presence and capabilities only
+upon explicit user request. Each device guarantees a secure timely response
+(even if fully compromised by malware) based on a small active Root-of-Trust
+(RoT). DB-PAISA requires no hardware modifications and is suitable for a range
+of current IoT devices. To demonstrate its feasibility and practicality, we
+built a fully functional and publicly available prototype. It is implemented
+atop a commodity MCU (NXP LCP55S69) and operates in tandem with a
+smartphone-based app. Using this prototype, we evaluate energy consumption and
+other performance factors.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2412.11394v1">Privacy-Preserving Brain-Computer Interfaces: A Systematic Review</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2024-12-16T02:45:37Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> K. Xia, W. Duch, Y. Sun, K. Xu, W. Fang, H. Luo, Y. Zhang, D. Sang, X. Xu, F-Y Wang, D. Wu</p>
+    <p><b>Summary:</b> A brain-computer interface (BCI) establishes a direct communication pathway
+between the human brain and a computer. It has been widely used in medical
+diagnosis, rehabilitation, education, entertainment, etc. Most research so far
+focuses on making BCIs more accurate and reliable, but much less attention has
+been paid to their privacy. Developing a commercial BCI system usually requires
+close collaborations among multiple organizations, e.g., hospitals,
+universities, and/or companies. Input data in BCIs, e.g., electroencephalogram
+(EEG), contain rich privacy information, and the developed machine learning
+model is usually proprietary. Data and model transmission among different
+parties may incur significant privacy threats, and hence privacy protection in
+BCIs must be considered. Unfortunately, there does not exist any contemporary
+and comprehensive review on privacy-preserving BCIs. This paper fills this gap,
+by describing potential privacy threats and protection strategies in BCIs. It
+also points out several challenges and future research directions in developing
+privacy-preserving BCIs.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2412.11390v1">Accurate, Robust and Privacy-Preserving Brain-Computer Interface
+  Decoding</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
+  <p><b>Published on:</b> 2024-12-16T02:37:38Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xiaoqing Chen, Tianwang Jia, Dongrui Wu</p>
+    <p><b>Summary:</b> An electroencephalogram (EEG) based brain-computer interface (BCI) enables
+direct communication between the brain and external devices. However, EEG-based
+BCIs face at least three major challenges in real-world applications: data
+scarcity and individual differences, adversarial vulnerability, and data
+privacy. While previous studies have addressed one or two of these issues,
+simultaneous accommodation of all three challenges remains challenging and
+unexplored. This paper fills this gap, by proposing an Augmented Robustness
+Ensemble (ARE) algorithm and integrating it into three privacy protection
+scenarios (centralized source-free transfer, federated source-free transfer,
+and source data perturbation), achieving simultaneously accurate decoding,
+adversarial robustness, and privacy protection of EEG-based BCIs. Experiments
+on three public EEG datasets demonstrated that our proposed approach
+outperformed over 10 classic and state-of-the-art approaches in both accuracy
+and robustness in all three privacy-preserving scenarios, even outperforming
+state-of-the-art transfer learning approaches that do not consider privacy
+protection at all. This is the first time that three major challenges in
+EEG-based BCIs can be addressed simultaneously, significantly improving the
+practicalness of EEG decoding in real-world BCIs.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2412.11066v1">Learning Robust and Privacy-Preserving Representations via Information
+  Theory</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-12-15T05:51:48Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Binghui Zhang, Sayedeh Leila Noorbakhsh, Yun Dong, Yuan Hong, Binghui Wang</p>
+    <p><b>Summary:</b> Machine learning models are vulnerable to both security attacks (e.g.,
+adversarial examples) and privacy attacks (e.g., private attribute inference).
+We take the first step to mitigate both the security and privacy attacks, and
+maintain task utility as well. Particularly, we propose an
+information-theoretic framework to achieve the goals through the lens of
+representation learning, i.e., learning representations that are robust to both
+adversarial examples and attribute inference adversaries. We also derive novel
+theoretical results under our framework, e.g., the inherent trade-off between
+adversarial robustness/utility and attribute privacy, and guaranteed attribute
+privacy leakage against attribute inference adversaries.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2412.10652v1">Centaur: Bridging the Impossible Trinity of Privacy, Efficiency, and
+  Performance in Privacy-Preserving Transformer Inference</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-12-14T02:50:30Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jinglong Luo, Guanzhong Chen, Yehong Zhang, Shiyu Liu, Hui Wang, Yue Yu, Xun Zhou, Yuan Qi, Zenglin Xu</p>
+    <p><b>Summary:</b> As pre-trained models, like Transformers, are increasingly deployed on cloud
+platforms for inference services, the privacy concerns surrounding model
+parameters and inference data are becoming more acute. Current
+Privacy-Preserving Transformer Inference (PPTI) frameworks struggle with the
+"impossible trinity" of privacy, efficiency, and performance. For instance,
+Secure Multi-Party Computation (SMPC)-based solutions offer strong privacy
+guarantees but come with significant inference overhead and performance
+trade-offs. On the other hand, PPTI frameworks that use random permutations
+achieve inference efficiency close to that of plaintext and maintain accurate
+results but require exposing some model parameters and intermediate results,
+thereby risking substantial privacy breaches. Addressing this "impossible
+trinity" with a single technique proves challenging. To overcome this
+challenge, we propose Centaur, a novel hybrid PPTI framework. Unlike existing
+methods, Centaur protects model parameters with random permutations and
+inference data with SMPC, leveraging the structure of Transformer models. By
+designing a series of efficient privacy-preserving algorithms, Centaur
+leverages the strengths of both techniques to achieve a better balance between
+privacy, efficiency, and performance in PPTI. We comprehensively evaluate the
+effectiveness of Centaur on various types of Transformer models and datasets.
+Experimental results demonstrate that the privacy protection capabilities
+offered by Centaur can withstand various existing model inversion attack
+methods. In terms of performance and efficiency, Centaur not only maintains the
+same performance as plaintext inference but also improves inference speed by
+$5.0-30.4$ times.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2412.10612v1">Meeting Utility Constraints in Differential Privacy: A Privacy-Boosting
+  Approach</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
+  <p><b>Published on:</b> 2024-12-13T23:34:30Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Bo Jiang, Wanrong Zhang, Donghang Lu, Jian Du, Sagar Sharma, Qiang Yan</p>
+    <p><b>Summary:</b> Data engineering often requires accuracy (utility) constraints on results,
+posing significant challenges in designing differentially private (DP)
+mechanisms, particularly under stringent privacy parameter $\epsilon$. In this
+paper, we propose a privacy-boosting framework that is compatible with most
+noise-adding DP mechanisms. Our framework enhances the likelihood of outputs
+falling within a preferred subset of the support to meet utility requirements
+while enlarging the overall variance to reduce privacy leakage. We characterize
+the privacy loss distribution of our framework and present the privacy profile
+formulation for $(\epsilon,\delta)$-DP and R\'enyi DP (RDP) guarantees. We
+study special cases involving data-dependent and data-independent utility
+formulations. Through extensive experiments, we demonstrate that our framework
+achieves lower privacy loss than standard DP mechanisms under utility
+constraints. Notably, our approach is particularly effective in reducing
+privacy loss with large query sensitivity relative to the true answer, offering
+a more practical and flexible approach to designing differentially private
+mechanisms that meet specific utility constraints.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2412.09812v1">ScaleOT: Privacy-utility-scalable Offsite-tuning with Dynamic
   LayerReplace and Selective Rank Compression</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
@@ -2158,7 +2406,7 @@ office solutions.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.16121v1">DP-CDA: An Algorithm for Enhanced Privacy Preservation in Dataset
+  <h3><a href="http://arxiv.org/abs/2411.16121v2">DP-CDA: An Algorithm for Enhanced Privacy Preservation in Dataset
   Synthesis Through Randomized Mixing</a></h3>
    <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2024-11-25T06:14:06Z</p>
@@ -2765,258 +3013,6 @@ their limitations. Subsequently, we select four representative agents as case
 studies to analyze the risks they may face in practical use. Finally, based on
 the aforementioned analyses, we propose future research directions from the
 perspectives of data, methodology, and policy, respectively.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.09287v1">The Communication-Friendly Privacy-Preserving Machine Learning against
-  Malicious Adversaries</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-11-14T08:55:14Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Tianpei Lu, Bingsheng Zhang, Lichun Li, Kui Ren</p>
-    <p><b>Summary:</b> With the increasing emphasis on privacy regulations, such as GDPR, protecting
-individual privacy and ensuring compliance have become critical concerns for
-both individuals and organizations. Privacy-preserving machine learning (PPML)
-is an innovative approach that allows for secure data analysis while
-safeguarding sensitive information. It enables organizations to extract
-valuable insights from data without compromising privacy. Secure multi-party
-computation (MPC) is a key tool in PPML, as it allows multiple parties to
-jointly compute functions without revealing their private inputs, making it
-essential in multi-server environments. We address the performance overhead of
-existing maliciously secure protocols, particularly in finite rings like
-$\mathbb{Z}_{2^\ell}$, by introducing an efficient protocol for secure linear
-function evaluation. We implement our maliciously secure MPC protocol on GPUs,
-significantly improving its efficiency and scalability. We extend the protocol
-to handle linear and non-linear layers, ensuring compatibility with a wide
-range of machine-learning models. Finally, we comprehensively evaluate machine
-learning models by integrating our protocol into the workflow, enabling secure
-and efficient inference across simple and complex models, such as convolutional
-neural networks (CNNs).</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.09178v2">SAFES: Sequential Privacy and Fairness Enhancing Data Synthesis for
-  Responsible AI</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-11-14T04:36:12Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Spencer Giddens, Fang Liu</p>
-    <p><b>Summary:</b> As data-driven and AI-based decision making gains widespread adoption in most
-disciplines, it is crucial that both data privacy and decision fairness are
-appropriately addressed. While differential privacy (DP) provides a robust
-framework for guaranteeing privacy and several widely accepted methods have
-been proposed for improving fairness, the vast majority of existing literature
-treats the two concerns independently. For methods that do consider privacy and
-fairness simultaneously, they often only apply to a specific machine learning
-task, limiting their generalizability. In response, we introduce SAFES, a
-Sequential PrivAcy and Fairness Enhancing data Synthesis procedure that
-sequentially combines DP data synthesis with a fairness-aware data
-transformation. SAFES allows full control over the privacy-fairness-utility
-trade-off via tunable privacy and fairness parameters. We illustrate SAFES by
-combining AIM, a graphical model-based DP data synthesizer, with a popular
-fairness-aware data pre-processing transformation. Empirical evaluations on the
-Adult and COMPAS datasets demonstrate that for reasonable privacy loss,
-SAFES-generated synthetic data achieve significantly improved fairness metrics
-with relatively low utility loss.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.09142v1">Laplace Transform Interpretation of Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-11-14T02:52:47Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Rishav Chourasia, Uzair Javaid, Biplap Sikdar</p>
-    <p><b>Summary:</b> We introduce a set of useful expressions of Differential Privacy (DP) notions
-in terms of the Laplace transform of the privacy loss distribution. Its bare
-form expression appears in several related works on analyzing DP, either as an
-integral or an expectation. We show that recognizing the expression as a
-Laplace transform unlocks a new way to reason about DP properties by exploiting
-the duality between time and frequency domains. Leveraging our interpretation,
-we connect the $(q, \rho(q))$-R\'enyi DP curve and the $(\epsilon,
-\delta(\epsilon))$-DP curve as being the Laplace and inverse-Laplace transforms
-of one another. This connection shows that the R\'enyi divergence is
-well-defined for complex orders $q = \gamma + i \omega$. Using our Laplace
-transform-based analysis, we also prove an adaptive composition theorem for
-$(\epsilon, \delta)$-DP guarantees that is exactly tight (i.e., matches even in
-constants) for all values of $\epsilon$. Additionally, we resolve an issue
-regarding symmetry of $f$-DP on subsampling that prevented equivalence across
-all functional DP notions.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.09064v2">Minimax Optimal Two-Sample Testing under Local Differential Privacy</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
-  <p><b>Published on:</b> 2024-11-13T22:44:25Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jongmin Mun, Seungwoo Kwak, Ilmun Kim</p>
-    <p><b>Summary:</b> We explore the trade-off between privacy and statistical utility in private
-two-sample testing under local differential privacy (LDP) for both multinomial
-and continuous data. We begin by addressing the multinomial case, where we
-introduce private permutation tests using practical privacy mechanisms such as
-Laplace, discrete Laplace, and Google's RAPPOR. We then extend our multinomial
-approach to continuous data via binning and study its uniform separation rates
-under LDP over H\"older and Besov smoothness classes. The proposed tests for
-both discrete and continuous cases rigorously control the type I error for any
-finite sample size, strictly adhere to LDP constraints, and achieve minimax
-separation rates under LDP. The attained minimax rates reveal inherent
-privacy-utility trade-offs that are unavoidable in private testing. To address
-scenarios with unknown smoothness parameters in density testing, we propose an
-adaptive test based on a Bonferroni-type approach that ensures robust
-performance without prior knowledge of the smoothness parameters. We validate
-our theoretical findings with extensive numerical experiments and demonstrate
-the practical relevance and effectiveness of our proposed methods.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.08635v1">Synthesis with Privacy Against an Observer</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Logic in Computer Science-662E9B">
-  <p><b>Published on:</b> 2024-11-13T14:22:06Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Orna Kupferman, Ofer Leshkowitz, Namma Shamash Halevy</p>
-    <p><b>Summary:</b> We study automatic synthesis of systems that interact with their environment
-and maintain privacy against an observer to the interaction. The system and the
-environment interact via sets $I$ and $O$ of input and output signals. The
-input to the synthesis problem contains, in addition to a specification, also a
-list of secrets, a function $cost: I\cup O\rightarrow\mathbb{N}$, which maps
-each signal to the cost of hiding it, and a bound $b\in\mathbb{N}$ on the
-budget that the system may use for hiding of signals. The desired output is an
-$(I/O)$-transducer $T$ and a set $H\subseteq I\cup O$ of signals that respects
-the bound on the budget, thus $\sum_{s\in H} cost(s)\leq b$, such that for
-every possible interaction of $T$, the generated computation satisfies the
-specification, yet an observer, from whom the signals in $H$ are hidden, cannot
-evaluate the secrets.
-  We first show that the problem's complexity is 2EXPTIME-complete for
-specifications and secrets in LTL, making it no harder than synthesis without
-privacy requirements. We then analyze the complexity further, isolating the two
-aspects that do not exist in traditional synthesis: the need to hide secret
-values and the need to choose the set $H$. We do this by studying settings in
-which traditional synthesis is solvable in polynomial time -- when the
-specification formalism is deterministic automata and when the system is closed
--- and show that each of these aspects adds an exponential blow-up in
-complexity. We continue and study bounded synthesis with privacy, where the
-input includes a bound on the synthesized transducer size, as well as a variant
-of the problem in which the observer has knowledge, either about the
-specification or about the system, which can be helpful in evaluating the
-secrets. Additionally, we study certified privacy, where the synthesis
-algorithm provides certification that the secrets remain hidden.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.07806v2">Federated Low-Rank Adaptation with Differential Privacy over Wireless
-  Networks</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
-  <p><b>Published on:</b> 2024-11-12T14:01:08Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Tianqu Kang, Zixin Wang, Hengtao He, Jun Zhang, Shenghui Song, Khaled B. Letaief</p>
-    <p><b>Summary:</b> Fine-tuning large pre-trained foundation models (FMs) on distributed edge
-devices presents considerable computational and privacy challenges. Federated
-fine-tuning (FedFT) mitigates some privacy issues by facilitating collaborative
-model training without the need to share raw data. To lessen the computational
-burden on resource-limited devices, combining low-rank adaptation (LoRA) with
-federated learning enables parameter-efficient fine-tuning. Additionally, the
-split FedFT architecture partitions an FM between edge devices and a central
-server, reducing the necessity for complete model deployment on individual
-devices. However, the risk of privacy eavesdropping attacks in FedFT remains a
-concern, particularly in sensitive areas such as healthcare and finance. In
-this paper, we propose a split FedFT framework with differential privacy (DP)
-over wireless networks, where the inherent wireless channel noise in the uplink
-transmission is utilized to achieve DP guarantees without adding an extra
-artificial noise. We shall investigate the impact of the wireless noise on
-convergence performance of the proposed framework. We will also show that by
-updating only one of the low-rank matrices in the split FedFT with DP, the
-proposed method can mitigate the noise amplification effect. Simulation results
-will demonstrate that the proposed framework achieves higher accuracy under
-strict privacy budgets compared to baseline methods.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.07691v1">New Emerged Security and Privacy of Pre-trained Model: a Survey and
-  Outlook</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2024-11-12T10:15:33Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Meng Yang, Tianqing Zhu, Chi Liu, WanLei Zhou, Shui Yu, Philip S. Yu</p>
-    <p><b>Summary:</b> Thanks to the explosive growth of data and the development of computational
-resources, it is possible to build pre-trained models that can achieve
-outstanding performance on various tasks, such as neural language processing,
-computer vision, and more. Despite their powerful capabilities, pre-trained
-models have also sparked attention to the emerging security challenges
-associated with their real-world applications. Security and privacy issues,
-such as leaking privacy information and generating harmful responses, have
-seriously undermined users' confidence in these powerful models. Concerns are
-growing as model performance improves dramatically. Researchers are eager to
-explore the unique security and privacy issues that have emerged, their
-distinguishing factors, and how to defend against them. However, the current
-literature lacks a clear taxonomy of emerging attacks and defenses for
-pre-trained models, which hinders a high-level and comprehensive understanding
-of these questions. To fill the gap, we conduct a systematical survey on the
-security risks of pre-trained models, proposing a taxonomy of attack and
-defense methods based on the accessibility of pre-trained models' input and
-weights in various security test scenarios. This taxonomy categorizes attacks
-and defenses into No-Change, Input-Change, and Model-Change approaches. With
-the taxonomy analysis, we capture the unique security and privacy issues of
-pre-trained models, categorizing and summarizing existing security issues based
-on their characteristics. In addition, we offer a timely and comprehensive
-review of each category's strengths and limitations. Our survey concludes by
-highlighting potential new research opportunities in the security and privacy
-of pre-trained models.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.07468v2">Privacy-Preserving Verifiable Neural Network Inference Service</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-11-12T01:09:52Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Arman Riasi, Jorge Guajardo, Thang Hoang</p>
-    <p><b>Summary:</b> Machine learning has revolutionized data analysis and pattern recognition,
-but its resource-intensive training has limited accessibility. Machine Learning
-as a Service (MLaaS) simplifies this by enabling users to delegate their data
-samples to an MLaaS provider and obtain the inference result using a
-pre-trained model. Despite its convenience, leveraging MLaaS poses significant
-privacy and reliability concerns to the client. Specifically, sensitive
-information from the client inquiry data can be leaked to an adversarial MLaaS
-provider. Meanwhile, the lack of a verifiability guarantee can potentially
-result in biased inference results or even unfair payment issues. While
-existing trustworthy machine learning techniques, such as those relying on
-verifiable computation or secure computation, offer solutions to privacy and
-reliability concerns, they fall short of simultaneously protecting the privacy
-of client data and providing provable inference verifiability.
-  In this paper, we propose vPIN, a privacy-preserving and verifiable CNN
-inference scheme that preserves privacy for client data samples while ensuring
-verifiability for the inference. vPIN makes use of partial homomorphic
-encryption and commit-and-prove succinct non-interactive argument of knowledge
-techniques to achieve desirable security properties. In vPIN, we develop
-various optimization techniques to minimize the proving circuit for homomorphic
-inference evaluation thereby, improving the efficiency and performance of our
-technique. We fully implemented and evaluated our vPIN scheme on standard
-datasets (e.g., MNIST, CIFAR-10). Our experimental results show that vPIN
-achieves high efficiency in terms of proving time, verification time, and proof
-size, while providing client data privacy guarantees and provable
-verifiability.</p>
   </details>
 </div>
 
