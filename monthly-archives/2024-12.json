@@ -1476,5 +1476,254 @@
       "cs.CL",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.11951v1",
+    "title" : "The Impact of Generalization Techniques on the Interplay Among Privacy,\n  Utility, and Fairness in Image Classification",
+    "summary" : "This study investigates the trade-offs between fairness, privacy, and utility\nin image classification using machine learning (ML). Recent research suggests\nthat generalization techniques can improve the balance between privacy and\nutility. One focus of this work is sharpness-aware training (SAT) and its\nintegration with differential privacy (DP-SAT) to further improve this balance.\nAdditionally, we examine fairness in both private and non-private learning\nmodels trained on datasets with synthetic and real-world biases. We also\nmeasure the privacy risks involved in these scenarios by performing membership\ninference attacks (MIAs) and explore the consequences of eliminating\nhigh-privacy risk samples, termed outliers. Moreover, we introduce a new\nmetric, named \\emph{harmonic score}, which combines accuracy, privacy, and\nfairness into a single measure.\n  Through empirical analysis using generalization techniques, we achieve an\naccuracy of 81.11\\% under $(8, 10^{-5})$-DP on CIFAR-10, surpassing the 79.5\\%\nreported by De et al. (2022). Moreover, our experiments show that memorization\nof training samples can begin before the overfitting point, and generalization\ntechniques do not guarantee the prevention of this memorization. Our analysis\nof synthetic biases shows that generalization techniques can amplify model bias\nin both private and non-private models. Additionally, our results indicate that\nincreased bias in training data leads to reduced accuracy, greater\nvulnerability to privacy attacks, and higher model bias. We validate these\nfindings with the CelebA dataset, demonstrating that similar trends persist\nwith real-world attribute imbalances. Finally, our experiments show that\nremoving outlier data decreases accuracy and further amplifies model bias.",
+    "updated" : "2024-12-16T16:35:31Z",
+    "published" : "2024-12-16T16:35:31Z",
+    "authors" : [
+      {
+        "name" : "Ahmad Hassanpour"
+      },
+      {
+        "name" : "Amir Zarei"
+      },
+      {
+        "name" : "Khawla Mallat"
+      },
+      {
+        "name" : "Anderson Santana de Oliveira"
+      },
+      {
+        "name" : "Bian Yang"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.11737v1",
+    "title" : "Efficiently Achieving Secure Model Training and Secure Aggregation to\n  Ensure Bidirectional Privacy-Preservation in Federated Learning",
+    "summary" : "Bidirectional privacy-preservation federated learning is crucial as both\nlocal gradients and the global model may leak privacy. However, only a few\nworks attempt to achieve it, and they often face challenges such as excessive\ncommunication and computational overheads, or significant degradation of model\naccuracy, which hinders their practical applications. In this paper, we design\nan efficient and high-accuracy bidirectional privacy-preserving scheme for\nfederated learning to complete secure model training and secure aggregation. To\nefficiently achieve bidirectional privacy, we design an efficient and\naccuracy-lossless model perturbation method on the server side (called\n$\\mathbf{MP\\_Server}$) that can be combined with local differential privacy\n(LDP) to prevent clients from accessing the model, while ensuring that the\nlocal gradients obtained on the server side satisfy LDP. Furthermore, to ensure\nmodel accuracy, we customize a distributed differential privacy mechanism on\nthe client side (called $\\mathbf{DDP\\_Client}$). When combined with\n$\\mathbf{MP\\_Server}$, it ensures LDP of the local gradients, while ensuring\nthat the aggregated result matches the accuracy of central differential privacy\n(CDP). Extensive experiments demonstrate that our scheme significantly\noutperforms state-of-the-art bidirectional privacy-preservation baselines\n(SOTAs) in terms of computational cost, model accuracy, and defense ability\nagainst privacy attacks. Particularly, given target accuracy, the training time\nof SOTAs is approximately $200$ times, or even over $1000$ times, longer than\nthat of our scheme. When the privacy budget is set relatively small, our scheme\nincurs less than $6\\%$ accuracy loss compared to the privacy-ignoring method,\nwhile SOTAs suffer up to $20\\%$ accuracy loss. Experimental results also show\nthat the defense capability of our scheme outperforms than SOTAs.",
+    "updated" : "2024-12-16T12:58:21Z",
+    "published" : "2024-12-16T12:58:21Z",
+    "authors" : [
+      {
+        "name" : "Xue Yang"
+      },
+      {
+        "name" : "Depan Peng"
+      },
+      {
+        "name" : "Yan Feng"
+      },
+      {
+        "name" : "Xiaohu Tang"
+      },
+      {
+        "name" : "Weijun Fang"
+      },
+      {
+        "name" : "Jun Shao"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.11572v1",
+    "title" : "DB-PAISA: Discovery-Based Privacy-Agile IoT Sensing+Actuation",
+    "summary" : "Internet of Things (IoT) devices are becoming increasingly commonplace in\nnumerous public and semi-private settings. Currently, most such devices lack\nmechanisms to facilitate their discovery by casual (nearby) users who are not\nowners or operators. However, these users are potentially being sensed, and/or\nactuated upon, by these devices, without their knowledge or consent. This\nnaturally triggers privacy, security, and safety issues.\n  To address this problem, some recent work explored device transparency in the\nIoT ecosystem. The intuitive approach is for each device to periodically and\nsecurely broadcast (announce) its presence and capabilities to all nearby\nusers. While effective, when no new users are present, this push-based approach\ngenerates a substantial amount of unnecessary network traffic and needlessly\ninterferes with normal device operation.\n  In this work, we construct DB-PAISA which addresses these issues via a\npull-based method, whereby devices reveal their presence and capabilities only\nupon explicit user request. Each device guarantees a secure timely response\n(even if fully compromised by malware) based on a small active Root-of-Trust\n(RoT). DB-PAISA requires no hardware modifications and is suitable for a range\nof current IoT devices. To demonstrate its feasibility and practicality, we\nbuilt a fully functional and publicly available prototype. It is implemented\natop a commodity MCU (NXP LCP55S69) and operates in tandem with a\nsmartphone-based app. Using this prototype, we evaluate energy consumption and\nother performance factors.",
+    "updated" : "2024-12-16T08:57:24Z",
+    "published" : "2024-12-16T08:57:24Z",
+    "authors" : [
+      {
+        "name" : "Isita Bagayatkar"
+      },
+      {
+        "name" : "Youngil Kim"
+      },
+      {
+        "name" : "Gene Tsudik"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.11394v1",
+    "title" : "Privacy-Preserving Brain-Computer Interfaces: A Systematic Review",
+    "summary" : "A brain-computer interface (BCI) establishes a direct communication pathway\nbetween the human brain and a computer. It has been widely used in medical\ndiagnosis, rehabilitation, education, entertainment, etc. Most research so far\nfocuses on making BCIs more accurate and reliable, but much less attention has\nbeen paid to their privacy. Developing a commercial BCI system usually requires\nclose collaborations among multiple organizations, e.g., hospitals,\nuniversities, and/or companies. Input data in BCIs, e.g., electroencephalogram\n(EEG), contain rich privacy information, and the developed machine learning\nmodel is usually proprietary. Data and model transmission among different\nparties may incur significant privacy threats, and hence privacy protection in\nBCIs must be considered. Unfortunately, there does not exist any contemporary\nand comprehensive review on privacy-preserving BCIs. This paper fills this gap,\nby describing potential privacy threats and protection strategies in BCIs. It\nalso points out several challenges and future research directions in developing\nprivacy-preserving BCIs.",
+    "updated" : "2024-12-16T02:45:37Z",
+    "published" : "2024-12-16T02:45:37Z",
+    "authors" : [
+      {
+        "name" : "K. Xia"
+      },
+      {
+        "name" : "W. Duch"
+      },
+      {
+        "name" : "Y. Sun"
+      },
+      {
+        "name" : "K. Xu"
+      },
+      {
+        "name" : "W. Fang"
+      },
+      {
+        "name" : "H. Luo"
+      },
+      {
+        "name" : "Y. Zhang"
+      },
+      {
+        "name" : "D. Sang"
+      },
+      {
+        "name" : "X. Xu"
+      },
+      {
+        "name" : "F-Y Wang"
+      },
+      {
+        "name" : "D. Wu"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.11390v1",
+    "title" : "Accurate, Robust and Privacy-Preserving Brain-Computer Interface\n  Decoding",
+    "summary" : "An electroencephalogram (EEG) based brain-computer interface (BCI) enables\ndirect communication between the brain and external devices. However, EEG-based\nBCIs face at least three major challenges in real-world applications: data\nscarcity and individual differences, adversarial vulnerability, and data\nprivacy. While previous studies have addressed one or two of these issues,\nsimultaneous accommodation of all three challenges remains challenging and\nunexplored. This paper fills this gap, by proposing an Augmented Robustness\nEnsemble (ARE) algorithm and integrating it into three privacy protection\nscenarios (centralized source-free transfer, federated source-free transfer,\nand source data perturbation), achieving simultaneously accurate decoding,\nadversarial robustness, and privacy protection of EEG-based BCIs. Experiments\non three public EEG datasets demonstrated that our proposed approach\noutperformed over 10 classic and state-of-the-art approaches in both accuracy\nand robustness in all three privacy-preserving scenarios, even outperforming\nstate-of-the-art transfer learning approaches that do not consider privacy\nprotection at all. This is the first time that three major challenges in\nEEG-based BCIs can be addressed simultaneously, significantly improving the\npracticalness of EEG decoding in real-world BCIs.",
+    "updated" : "2024-12-16T02:37:38Z",
+    "published" : "2024-12-16T02:37:38Z",
+    "authors" : [
+      {
+        "name" : "Xiaoqing Chen"
+      },
+      {
+        "name" : "Tianwang Jia"
+      },
+      {
+        "name" : "Dongrui Wu"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "cs.LG",
+      "eess.SP"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.11066v1",
+    "title" : "Learning Robust and Privacy-Preserving Representations via Information\n  Theory",
+    "summary" : "Machine learning models are vulnerable to both security attacks (e.g.,\nadversarial examples) and privacy attacks (e.g., private attribute inference).\nWe take the first step to mitigate both the security and privacy attacks, and\nmaintain task utility as well. Particularly, we propose an\ninformation-theoretic framework to achieve the goals through the lens of\nrepresentation learning, i.e., learning representations that are robust to both\nadversarial examples and attribute inference adversaries. We also derive novel\ntheoretical results under our framework, e.g., the inherent trade-off between\nadversarial robustness/utility and attribute privacy, and guaranteed attribute\nprivacy leakage against attribute inference adversaries.",
+    "updated" : "2024-12-15T05:51:48Z",
+    "published" : "2024-12-15T05:51:48Z",
+    "authors" : [
+      {
+        "name" : "Binghui Zhang"
+      },
+      {
+        "name" : "Sayedeh Leila Noorbakhsh"
+      },
+      {
+        "name" : "Yun Dong"
+      },
+      {
+        "name" : "Yuan Hong"
+      },
+      {
+        "name" : "Binghui Wang"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.10652v1",
+    "title" : "Centaur: Bridging the Impossible Trinity of Privacy, Efficiency, and\n  Performance in Privacy-Preserving Transformer Inference",
+    "summary" : "As pre-trained models, like Transformers, are increasingly deployed on cloud\nplatforms for inference services, the privacy concerns surrounding model\nparameters and inference data are becoming more acute. Current\nPrivacy-Preserving Transformer Inference (PPTI) frameworks struggle with the\n\"impossible trinity\" of privacy, efficiency, and performance. For instance,\nSecure Multi-Party Computation (SMPC)-based solutions offer strong privacy\nguarantees but come with significant inference overhead and performance\ntrade-offs. On the other hand, PPTI frameworks that use random permutations\nachieve inference efficiency close to that of plaintext and maintain accurate\nresults but require exposing some model parameters and intermediate results,\nthereby risking substantial privacy breaches. Addressing this \"impossible\ntrinity\" with a single technique proves challenging. To overcome this\nchallenge, we propose Centaur, a novel hybrid PPTI framework. Unlike existing\nmethods, Centaur protects model parameters with random permutations and\ninference data with SMPC, leveraging the structure of Transformer models. By\ndesigning a series of efficient privacy-preserving algorithms, Centaur\nleverages the strengths of both techniques to achieve a better balance between\nprivacy, efficiency, and performance in PPTI. We comprehensively evaluate the\neffectiveness of Centaur on various types of Transformer models and datasets.\nExperimental results demonstrate that the privacy protection capabilities\noffered by Centaur can withstand various existing model inversion attack\nmethods. In terms of performance and efficiency, Centaur not only maintains the\nsame performance as plaintext inference but also improves inference speed by\n$5.0-30.4$ times.",
+    "updated" : "2024-12-14T02:50:30Z",
+    "published" : "2024-12-14T02:50:30Z",
+    "authors" : [
+      {
+        "name" : "Jinglong Luo"
+      },
+      {
+        "name" : "Guanzhong Chen"
+      },
+      {
+        "name" : "Yehong Zhang"
+      },
+      {
+        "name" : "Shiyu Liu"
+      },
+      {
+        "name" : "Hui Wang"
+      },
+      {
+        "name" : "Yue Yu"
+      },
+      {
+        "name" : "Xun Zhou"
+      },
+      {
+        "name" : "Yuan Qi"
+      },
+      {
+        "name" : "Zenglin Xu"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.10612v1",
+    "title" : "Meeting Utility Constraints in Differential Privacy: A Privacy-Boosting\n  Approach",
+    "summary" : "Data engineering often requires accuracy (utility) constraints on results,\nposing significant challenges in designing differentially private (DP)\nmechanisms, particularly under stringent privacy parameter $\\epsilon$. In this\npaper, we propose a privacy-boosting framework that is compatible with most\nnoise-adding DP mechanisms. Our framework enhances the likelihood of outputs\nfalling within a preferred subset of the support to meet utility requirements\nwhile enlarging the overall variance to reduce privacy leakage. We characterize\nthe privacy loss distribution of our framework and present the privacy profile\nformulation for $(\\epsilon,\\delta)$-DP and R\\'enyi DP (RDP) guarantees. We\nstudy special cases involving data-dependent and data-independent utility\nformulations. Through extensive experiments, we demonstrate that our framework\nachieves lower privacy loss than standard DP mechanisms under utility\nconstraints. Notably, our approach is particularly effective in reducing\nprivacy loss with large query sensitivity relative to the true answer, offering\na more practical and flexible approach to designing differentially private\nmechanisms that meet specific utility constraints.",
+    "updated" : "2024-12-13T23:34:30Z",
+    "published" : "2024-12-13T23:34:30Z",
+    "authors" : [
+      {
+        "name" : "Bo Jiang"
+      },
+      {
+        "name" : "Wanrong Zhang"
+      },
+      {
+        "name" : "Donghang Lu"
+      },
+      {
+        "name" : "Jian Du"
+      },
+      {
+        "name" : "Sagar Sharma"
+      },
+      {
+        "name" : "Qiang Yan"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DS",
+      "cs.IT",
+      "math.IT"
+    ]
   }
 ]
