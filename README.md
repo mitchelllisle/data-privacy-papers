@@ -2,6 +2,93 @@
 <h2>2024-12</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2412.12775v1">RemoteRAG: A Privacy-Preserving LLM Cloud RAG Service</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-12-17T10:36:52Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yihang Cheng, Lan Zhang, Junyang Wang, Mu Yuan, Yunhao Yao</p>
+    <p><b>Summary:</b> Retrieval-augmented generation (RAG) improves the service quality of large
+language models by retrieving relevant documents from credible literature and
+integrating them into the context of the user query. Recently, the rise of the
+cloud RAG service has made it possible for users to query relevant documents
+conveniently. However, directly sending queries to the cloud brings potential
+privacy leakage. In this paper, we are the first to formally define the
+privacy-preserving cloud RAG service to protect the user query and propose
+RemoteRAG as a solution regarding privacy, efficiency, and accuracy. For
+privacy, we introduce $(n,\epsilon)$-DistanceDP to characterize privacy leakage
+of the user query and the leakage inferred from relevant documents. For
+efficiency, we limit the search range from the total documents to a small
+number of selected documents related to a perturbed embedding generated from
+$(n,\epsilon)$-DistanceDP, so that computation and communication costs required
+for privacy protection significantly decrease. For accuracy, we ensure that the
+small range includes target documents related to the user query with detailed
+theoretical analysis. Experimental results also demonstrate that RemoteRAG can
+resist existing embedding inversion attack methods while achieving no loss in
+retrieval under various settings. Moreover, RemoteRAG is efficient, incurring
+only $0.67$ seconds and $46.66$KB of data transmission ($2.72$ hours and $1.43$
+GB with the non-optimized privacy-preserving scheme) when retrieving from a
+total of $10^6$ documents.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2412.12387v1">Differential Privacy Preserving Distributed Quantum Computing</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
+  <p><b>Published on:</b> 2024-12-16T22:46:46Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Hui Zhong, Keyi Ju, Jiachen Shen, Xinyue Zhang, Xiaoqi Qin, Ohtsuki Tomoaki, Miao Pan, Zhu Han</p>
+    <p><b>Summary:</b> Existing quantum computers can only operate with hundreds of qubits in the
+Noisy Intermediate-Scale Quantum (NISQ) state, while quantum distributed
+computing (QDC) is regarded as a reliable way to address this limitation,
+allowing quantum computers to achieve their full computational potential.
+However, similar to classical distributed computing, QDC also faces the problem
+of privacy leakage. Existing research has introduced quantum differential
+privacy (QDP) for privacy protection in central quantum computing, but there is
+no dedicated privacy protection mechanisms for QDC. To fill this research gap,
+our paper introduces a novel concept called quantum R\'enyi differential
+privacy (QRDP), which incorporates the advantages of classical R\'enyi DP and
+is applicable in the QDC domain. Based on the new quantum R\'enyi divergence,
+QRDP provides delicate and flexible privacy protection by introducing parameter
+$\alpha$. In particular, the QRDP composition is well suited for QDC, since it
+allows for more precise control of the total privacy budget in scenarios
+requiring multiple quantum operations. We analyze a variety of noise mechanisms
+that can implement QRDP, and derive the lowest privacy budget provided by these
+mechanisms. Finally, we investigate the impact of different quantum parameters
+on QRDP. Through our simulations, we also find that adding noise will make the
+data less usable, but increase the level of privacy protection.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2412.12374v1">Privacy in Metalearning and Multitask Learning: Modeling and Separations</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-12-16T22:07:33Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Maryam Aliakbarpour, Konstantina Bairaktari, Adam Smith, Marika Swanberg, Jonathan Ullman</p>
+    <p><b>Summary:</b> Model personalization allows a set of individuals, each facing a different
+learning task, to train models that are more accurate for each person than
+those they could develop individually. The goals of personalization are
+captured in a variety of formal frameworks, such as multitask learning and
+metalearning. Combining data for model personalization poses risks for privacy
+because the output of an individual's model can depend on the data of other
+individuals. In this work we undertake a systematic study of differentially
+private personalized learning. Our first main contribution is to construct a
+taxonomy of formal frameworks for private personalized learning. This taxonomy
+captures different formal frameworks for learning as well as different threat
+models for the attacker. Our second main contribution is to prove separations
+between the personalized learning problems corresponding to different choices.
+In particular, we prove a novel separation between private multitask learning
+and private metalearning.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2412.11951v1">The Impact of Generalization Techniques on the Interplay Among Privacy,
   Utility, and Fairness in Image Classification</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
@@ -2921,98 +3008,6 @@ significantly higher prediction confidence on the prompted data -- as a cause
 for the increased risk, we propose ensembling as a mitigation strategy. By
 aggregating over multiple different versions of a prompted model, membership
 inference risk can be decreased.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.12756v1">FedCL-Ensemble Learning: A Framework of Federated Continual Learning
-  with Ensemble Transfer Learning Enhanced for Alzheimer's MRI Classifications
-  while Preserving Privacy</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-11-15T13:49:22Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Rishit Kapoor, Jesher Joshua, Muralidharan Vijayarangan, Natarajan B</p>
-    <p><b>Summary:</b> This research work introduces a novel approach to the classification of
-Alzheimer's disease by using the advanced deep learning techniques combined
-with secure data processing methods. This research work primary uses transfer
-learning models such as ResNet, ImageNet, and VNet to extract high-level
-features from medical image data. Thereafter, these pre-trained models were
-fine-tuned for Alzheimer's related subtle patterns such that the model is
-capable of robust feature extraction over varying data sources. Further, the
-federated learning approaches were incorporated to tackle a few other
-challenges related to classification, aimed to provide better prediction
-performance and protect data privacy. The proposed model was built using
-federated learning without sharing sensitive patient data. This way, the
-decentralized model benefits from the large and diversified dataset that it is
-trained upon while ensuring confidentiality. The cipher-based encryption
-mechanism is added that allows us to secure the transportation of data and
-further ensure the privacy and integrity of patient information throughout
-training and classification. The results of the experiments not only help to
-improve the accuracy of the classification of Alzheimer's but at the same time
-provides a framework for secure and collaborative analysis of health care data.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.09914v1">mmSpyVR: Exploiting mmWave Radar for Penetrating Obstacles to Uncover
-  Privacy Vulnerability of Virtual Reality</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2024-11-15T03:22:44Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Luoyu Mei, Ruofeng Liu, Zhimeng Yin, Qingchuan Zhao, Wenchao Jiang, Shuai Wang, Kangjie Lu, Tian He</p>
-    <p><b>Summary:</b> Virtual reality (VR), while enhancing user experiences, introduces
-significant privacy risks. This paper reveals a novel vulnerability in VR
-systems that allows attackers to capture VR privacy through obstacles utilizing
-millimeter-wave (mmWave) signals without physical intrusion and virtual
-connection with the VR devices. We propose mmSpyVR, a novel attack on VR user's
-privacy via mmWave radar. The mmSpyVR framework encompasses two main parts: (i)
-A transfer learning-based feature extraction model to achieve VR feature
-extraction from mmWave signal. (ii) An attention-based VR privacy spying module
-to spy VR privacy information from the extracted feature. The mmSpyVR
-demonstrates the capability to extract critical VR privacy from the mmWave
-signals that have penetrated through obstacles. We evaluate mmSpyVR through
-IRB-approved user studies. Across 22 participants engaged in four experimental
-scenes utilizing VR devices from three different manufacturers, our system
-achieves an application recognition accuracy of 98.5\% and keystroke
-recognition accuracy of 92.6\%. This newly discovered vulnerability has
-implications across various domains, such as cybersecurity, privacy protection,
-and VR technology development. We also engage with VR manufacturer Meta to
-discuss and explore potential mitigation strategies. Data and code are publicly
-available for scrutiny and research at https://github.com/luoyumei1-a/mmSpyVR/</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.09523v1">Navigating the Risks: A Survey of Security, Privacy, and Ethics Threats
-  in LLM-Based Agents</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2024-11-14T15:40:04Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yuyou Gan, Yong Yang, Zhe Ma, Ping He, Rui Zeng, Yiming Wang, Qingming Li, Chunyi Zhou, Songze Li, Ting Wang, Yunjun Gao, Yingcai Wu, Shouling Ji</p>
-    <p><b>Summary:</b> With the continuous development of large language models (LLMs),
-transformer-based models have made groundbreaking advances in numerous natural
-language processing (NLP) tasks, leading to the emergence of a series of agents
-that use LLMs as their control hub. While LLMs have achieved success in various
-tasks, they face numerous security and privacy threats, which become even more
-severe in the agent scenarios. To enhance the reliability of LLM-based
-applications, a range of research has emerged to assess and mitigate these
-risks from different perspectives.
-  To help researchers gain a comprehensive understanding of various risks, this
-survey collects and analyzes the different threats faced by these agents. To
-address the challenges posed by previous taxonomies in handling cross-module
-and cross-stage threats, we propose a novel taxonomy framework based on the
-sources and impacts. Additionally, we identify six key features of LLM-based
-agents, based on which we summarize the current research progress and analyze
-their limitations. Subsequently, we select four representative agents as case
-studies to analyze the risks they may face in practical use. Finally, based on
-the aforementioned analyses, we propose future research directions from the
-perspectives of data, methodology, and policy, respectively.</p>
   </details>
 </div>
 
