@@ -2,6 +2,186 @@
 <h2>2024-12</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2412.13953v1">Towards privacy-preserving cooperative control via encrypted distributed
+  optimization</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
+  <p><b>Published on:</b> 2024-12-18T15:32:45Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Philipp Binfet, Janis Adamek, Nils Schlüter, Moritz Schulze Darup</p>
+    <p><b>Summary:</b> Cooperative control is crucial for the effective operation of dynamical
+multi-agent systems. Especially for distributed control schemes, it is
+essential to exchange data between the agents. This becomes a privacy threat if
+the data is sensitive. Encrypted control has shown the potential to address
+this risk and ensure confidentiality. However, existing approaches mainly focus
+on cloud-based control and distributed schemes are restrictive.
+  In this paper, we present a novel privacy-preserving cooperative control
+scheme based on encrypted distributed optimization. More precisely, we focus on
+a secure distributed solution of a general consensus problem, which has
+manifold applications in cooperative control, by means of the alternating
+direction method of multipliers (ADMM). As a unique feature of our approach, we
+explicitly take into account the common situation that local decision variables
+contain copies of quantities associated with neighboring agents and ensure the
+neighbor's privacy. We show the effectiveness of our method based on a
+numerical case study dealing with the formation of mobile robots.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2412.13939v1">Security and Privacy of Digital Twins for Advanced Manufacturing: A
+  Survey</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
+  <p><b>Published on:</b> 2024-12-18T15:21:53Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Alexander D. Zemskov, Yao Fu, Runchao Li, Xufei Wang, Vispi Karkaria, Ying-Kuan Tsai, Wei Chen, Jianjing Zhang, Robert Gao, Jian Cao, Kenneth A. Loparo, Pan Li</p>
+    <p><b>Summary:</b> In Industry 4.0, the digital twin is one of the emerging technologies,
+offering simulation abilities to predict, refine, and interpret conditions and
+operations, where it is crucial to emphasize a heightened concentration on the
+associated security and privacy risks. To be more specific, the adoption of
+digital twins in the manufacturing industry relies on integrating technologies
+like cyber-physical systems, the Industrial Internet of Things, virtualization,
+and advanced manufacturing. The interactions of these technologies give rise to
+numerous security and privacy vulnerabilities that remain inadequately
+explored. Towards that end, this paper analyzes the cybersecurity threats of
+digital twins for advanced manufacturing in the context of data collection,
+data sharing, machine learning and deep learning, and system-level security and
+privacy. We also provide several solutions to the threats in those four
+categories that can help establish more trust in digital twins.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2412.13818v1">Fed-AugMix: Balancing Privacy and Utility via Data Augmentation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-12-18T13:05:55Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Haoyang Li, Wei Chen, Xiaojin Zhang</p>
+    <p><b>Summary:</b> Gradient leakage attacks pose a significant threat to the privacy guarantees
+of federated learning. While distortion-based protection mechanisms are
+commonly employed to mitigate this issue, they often lead to notable
+performance degradation. Existing methods struggle to preserve model
+performance while ensuring privacy. To address this challenge, we propose a
+novel data augmentation-based framework designed to achieve a favorable
+privacy-utility trade-off, with the potential to enhance model performance in
+certain cases. Our framework incorporates the AugMix algorithm at the client
+level, enabling data augmentation with controllable severity. By integrating
+the Jensen-Shannon divergence into the loss function, we embed the distortion
+introduced by AugMix into the model gradients, effectively safeguarding privacy
+against deep leakage attacks. Moreover, the JS divergence promotes model
+consistency across different augmentations of the same image, enhancing both
+robustness and performance. Extensive experiments on benchmark datasets
+demonstrate the effectiveness and stability of our method in protecting
+privacy. Furthermore, our approach maintains, and in some cases improves, model
+performance, showcasing its ability to achieve a robust privacy-utility
+trade-off.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2412.13678v1">Clio: Privacy-Preserving Insights into Real-World AI Use</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2024-12-18T10:05:43Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Alex Tamkin, Miles McCain, Kunal Handa, Esin Durmus, Liane Lovitt, Ankur Rathi, Saffron Huang, Alfred Mountfield, Jerry Hong, Stuart Ritchie, Michael Stern, Brian Clarke, Landon Goldberg, Theodore R. Sumers, Jared Mueller, William McEachen, Wes Mitchell, Shan Carter, Jack Clark, Jared Kaplan, Deep Ganguli</p>
+    <p><b>Summary:</b> How are AI assistants being used in the real world? While model providers in
+theory have a window into this impact via their users' data, both privacy
+concerns and practical challenges have made analyzing this data difficult. To
+address these issues, we present Clio (Claude insights and observations), a
+privacy-preserving platform that uses AI assistants themselves to analyze and
+surface aggregated usage patterns across millions of conversations, without the
+need for human reviewers to read raw conversations. We validate this can be
+done with a high degree of accuracy and privacy by conducting extensive
+evaluations. We demonstrate Clio's usefulness in two broad ways. First, we
+share insights about how models are being used in the real world from one
+million Claude.ai Free and Pro conversations, ranging from providing advice on
+hairstyles to providing guidance on Git operations and concepts. We also
+identify the most common high-level use cases on Claude.ai (coding, writing,
+and research tasks) as well as patterns that differ across languages (e.g.,
+conversations in Japanese discuss elder care and aging populations at
+higher-than-typical rates). Second, we use Clio to make our systems safer by
+identifying coordinated attempts to abuse our systems, monitoring for unknown
+unknowns during critical periods like launches of new capabilities or major
+world events, and improving our existing monitoring systems. We also discuss
+the limitations of our approach, as well as risks and ethical concerns. By
+enabling analysis of real-world AI usage, Clio provides a scalable platform for
+empirically grounded AI safety and governance.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2412.13522v1">Privacy-Preserving Cyberattack Detection in Blockchain-Based IoT Systems
+  Using AI and Homomorphic Encryption</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-12-18T05:46:53Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Bui Duc Manh, Chi-Hieu Nguyen, Dinh Thai Hoang, Diep N. Nguyen, Ming Zeng, Quoc-Viet Pham</p>
+    <p><b>Summary:</b> This work proposes a novel privacy-preserving cyberattack detection framework
+for blockchain-based Internet-of-Things (IoT) systems. In our approach,
+artificial intelligence (AI)-driven detection modules are strategically
+deployed at blockchain nodes to identify real-time attacks, ensuring high
+accuracy and minimal delay. To achieve this efficiency, the model training is
+conducted by a cloud service provider (CSP). Accordingly, blockchain nodes send
+their data to the CSP for training, but to safeguard privacy, the data is
+encrypted using homomorphic encryption (HE) before transmission. This
+encryption method allows the CSP to perform computations directly on encrypted
+data without the need for decryption, preserving data privacy throughout the
+learning process. To handle the substantial volume of encrypted data, we
+introduce an innovative packing algorithm in a Single-Instruction-Multiple-Data
+(SIMD) manner, enabling efficient training on HE-encrypted data. Building on
+this, we develop a novel deep neural network training algorithm optimized for
+encrypted data. We further propose a privacy-preserving distributed learning
+approach based on the FedAvg algorithm, which parallelizes the training across
+multiple workers, significantly improving computation time. Upon completion,
+the CSP distributes the trained model to the blockchain nodes, enabling them to
+perform real-time, privacy-preserved detection. Our simulation results
+demonstrate that our proposed method can not only mitigate the training time
+but also achieve detection accuracy that is approximately identical to the
+approach without encryption, with a gap of around 0.01%. Additionally, our real
+implementations on various blockchain consensus algorithms and hardware
+configurations show that our proposed framework can also be effectively adapted
+to real-world systems.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2412.13440v1">Safeguarding Virtual Healthcare: A Novel Attacker-Centric Model for Data
+  Security and Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
+  <p><b>Published on:</b> 2024-12-18T02:21:53Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Suvineetha Herath, Haywood Gelman, John Hastings, Yong Wang</p>
+    <p><b>Summary:</b> The rapid growth of remote healthcare delivery has introduced significant
+security and privacy risks to protected health information (PHI). Analysis of a
+comprehensive healthcare security breach dataset covering 2009-2023 reveals
+their significant prevalence and impact. This study investigates the root
+causes of such security incidents and introduces the Attacker-Centric Approach
+(ACA), a novel threat model tailored to protect PHI. ACA addresses limitations
+in existing threat models and regulatory frameworks by adopting a holistic
+attacker-focused perspective, examining threats from the viewpoint of cyber
+adversaries, their motivations, tactics, and potential attack vectors.
+Leveraging established risk management frameworks, ACA provides a multi-layered
+approach to threat identification, risk assessment, and proactive mitigation
+strategies. A comprehensive threat library classifies physical, third-party,
+external, and internal threats. ACA's iterative nature and feedback mechanisms
+enable continuous adaptation to emerging threats, ensuring sustained
+effectiveness. ACA allows healthcare providers to proactively identify and
+mitigate vulnerabilities, fostering trust and supporting the secure adoption of
+virtual care technologies.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2412.12775v1">RemoteRAG: A Privacy-Preserving LLM Cloud RAG Service</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2024-12-17T10:36:52Z</p>
@@ -2827,187 +3007,6 @@ experiments, we show that the client selection according to FLMarket can
 achieve more than 10% higher accuracy in subsequent FL training compared to
 state-of-the-art methods. In addition, it outperforms the in-training baseline
 with more than 2% accuracy increase and 3x run-time speedup.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.11521v1">Preempting Text Sanitization Utility in Resource-Constrained
-  Privacy-Preserving LLM Interactions</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-11-18T12:31:22Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Robin Carpentier, Benjamin Zi Hao Zhao, Hassan Jameel Asghar, Dali Kaafar</p>
-    <p><b>Summary:</b> Individuals have been increasingly interacting with online Large Language
-Models (LLMs), both in their work and personal lives. These interactions raise
-privacy issues as the LLMs are typically hosted by third-parties who can gather
-a variety of sensitive information about users and their companies. Text
-Sanitization techniques have been proposed in the literature and can be used to
-sanitize user prompts before sending them to the LLM. However, sanitization has
-an impact on the downstream task performed by the LLM, and often to such an
-extent that it leads to unacceptable results for the user. This is not just a
-minor annoyance, with clear monetary consequences as LLM services charge on a
-per use basis as well as great amount of computing resources wasted. We propose
-an architecture leveraging a Small Language Model (SLM) at the user-side to
-help estimate the impact of sanitization on a prompt before it is sent to the
-LLM, thus preventing resource losses.
-  Our evaluation of this architecture revealed a significant problem with text
-sanitization based on Differential Privacy, on which we want to draw the
-attention of the community for further investigation.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.12766v2">Exploiting the Uncoordinated Privacy Protections of Eye Tracking and VR
-  Motion Data for Unauthorized User Identification</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2024-11-17T22:16:37Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Samantha Aziz, Oleg Komogortsev</p>
-    <p><b>Summary:</b> Virtual reality (VR) devices use a variety of sensors to capture a rich body
-of user-generated data. This data can be misused by malicious parties to
-covertly infer information about the user. Privacy-enhancing techniques that
-seek to reduce the amount of personally identifying information in sensor data
-are typically developed for a subset of data streams that are available on the
-platform, without consideration for the auxiliary information that may be
-readily available from other sensors. In this paper, we evaluate whether body
-motion data can be used to circumvent the privacy protections applied to eye
-tracking data to enable user identification on a VR platform, and vice versa.
-We empirically show that eye tracking, headset tracking, and hand tracking data
-are not only informative for inferring user identity on their own, but contain
-complementary information that can increase the rate of successful user
-identification. Most importantly, we demonstrate that applying privacy
-protections to only a subset of the data available in VR can create an
-opportunity for an adversary to bypass those privacy protections by using other
-unprotected data streams that are available on the platform, performing a user
-identification attack as accurately as though a privacy mechanism was never
-applied. These results highlight a new privacy consideration at the
-intersection between eye tracking and VR, and emphasizes the need for
-privacy-enhancing techniques that address multiple technologies
-comprehensively.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.11044v1">Efficient Federated Unlearning with Adaptive Differential Privacy
-  Preservation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-11-17T11:45:15Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yu Jiang, Xindi Tong, Ziyao Liu, Huanyi Ye, Chee Wei Tan, Kwok-Yan Lam</p>
-    <p><b>Summary:</b> Federated unlearning (FU) offers a promising solution to effectively address
-the need to erase the impact of specific clients' data on the global model in
-federated learning (FL), thereby granting individuals the ``Right to be
-Forgotten". The most straightforward approach to achieve unlearning is to train
-the model from scratch, excluding clients who request data removal, but it is
-resource-intensive. Current state-of-the-art FU methods extend traditional FL
-frameworks by leveraging stored historical updates, enabling more efficient
-unlearning than training from scratch. However, the use of stored updates
-introduces significant privacy risks. Adversaries with access to these updates
-can potentially reconstruct clients' local data, a well-known vulnerability in
-the privacy domain. While privacy-enhanced techniques exist, their applications
-to FU scenarios that balance unlearning efficiency with privacy protection
-remain underexplored. To address this gap, we propose FedADP, a method designed
-to achieve both efficiency and privacy preservation in FU. Our approach
-incorporates an adaptive differential privacy (DP) mechanism, carefully
-balancing privacy and unlearning performance through a novel budget allocation
-strategy tailored for FU. FedADP also employs a dual-layered selection process,
-focusing on global models with significant changes and client updates closely
-aligned with the global model, reducing storage and communication costs.
-Additionally, a novel calibration method is introduced to facilitate effective
-unlearning. Extensive experimental results demonstrate that FedADP effectively
-manages the trade-off between unlearning efficiency and privacy protection.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.10964v1">Exploring Device-Oriented Video Encryption for Hierarchical Privacy
-  Protection in AR Content Sharing</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2024-11-17T05:03:04Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yongquan Hu, Dongsheng Zheng, Kexin Nie, Junyan Zhang, Wen Hu, Aaron Quigley</p>
-    <p><b>Summary:</b> Content sharing across multiple Augmented Reality (AR) displays is becoming
-commonplace, enhancing team communication and collaboration through devices
-like smartphones and AR glasses. However, this practice raises significant
-privacy concerns, especially concerning the physical environment visible in AR,
-which may include sensitive personal details like facial features and
-identifiable information. Our research focuses on protecting privacy within AR
-environments, particularly the physical backgrounds visible during content
-sharing across three common AR display methods: projection, smartphone, and AR
-glasses. We analyze the potential privacy risks associated with each method and
-employ a Region Of Interest (ROI) video encryption system to hierarchically
-encrypt the physical backdrop based on its safety rating. This study pioneers
-the integration of ROI video encryption at the bitstream level within AR
-contexts, providing a more efficient solution than traditional pixel-level
-encryption by enhancing encryption speed and reducing the required space. Our
-adaptive system dynamically adjusts the encryption intensity based on the AR
-display method, ensuring tailored privacy protection.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.10612v1">Contextualizing Security and Privacy of Software-Defined Vehicles: State
-  of the Art and Industry Perspectives</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Operating Systems-04E762">
-  <p><b>Published on:</b> 2024-11-15T22:30:07Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Marco De Vincenzi, Mert D. Pesé, Chiara Bodei, Ilaria Matteucci, Richard R. Brooks, Monowar Hasan, Andrea Saracino, Mohammad Hamad, Sebastian Steinhorst</p>
-    <p><b>Summary:</b> The growing reliance on software in vehicles has given rise to the concept of
-Software-Defined Vehicles (SDVs), fundamentally reshaping the vehicles and the
-automotive industry. This survey explores the cybersecurity and privacy
-challenges posed by SDVs, which increasingly integrate features like
-Over-the-Air (OTA) updates and Vehicle-to-Everything (V2X) communication. While
-these advancements enhance vehicle capabilities and flexibility, they also come
-with a flip side: increased exposure to security risks including API
-vulnerabilities, third-party software risks, and supply-chain threats. The
-transition to SDVs also raises significant privacy concerns, with vehicles
-collecting vast amounts of sensitive data, such as location and driver
-behavior, that could be exploited using inference attacks. This work aims to
-provide a detailed overview of security threats, mitigation strategies, and
-privacy risks in SDVs, primarily through a literature review, enriched with
-insights from a targeted questionnaire with industry experts. Key topics
-include defining SDVs, comparing them to Connected Vehicles (CVs) and
-Autonomous Vehicles (AVs), discussing the security challenges associated with
-OTA updates and the impact of SDV features on data privacy. Our findings
-highlight the need for robust security frameworks, standardized communication
-protocols, and privacy-preserving techniques to address the issues of SDVs.
-This work ultimately emphasizes the importance of a multi-layered defense
-strategy,integrating both in-vehicle and cloud-based security solutions, to
-safeguard future SDVs and increase user trust.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.10512v1">On the Privacy Risk of In-context Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-11-15T17:11:42Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Haonan Duan, Adam Dziedzic, Mohammad Yaghini, Nicolas Papernot, Franziska Boenisch</p>
-    <p><b>Summary:</b> Large language models (LLMs) are excellent few-shot learners. They can
-perform a wide variety of tasks purely based on natural language prompts
-provided to them. These prompts contain data of a specific downstream task --
-often the private dataset of a party, e.g., a company that wants to leverage
-the LLM for their purposes. We show that deploying prompted models presents a
-significant privacy risk for the data used within the prompt by instantiating a
-highly effective membership inference attack. We also observe that the privacy
-risk of prompted models exceeds fine-tuned models at the same utility levels.
-After identifying the model's sensitivity to their prompts -- in the form of a
-significantly higher prediction confidence on the prompted data -- as a cause
-for the increased risk, we propose ensembling as a mitigation strategy. By
-aggregating over multiple different versions of a prompted model, membership
-inference risk can be decreased.</p>
   </details>
 </div>
 
