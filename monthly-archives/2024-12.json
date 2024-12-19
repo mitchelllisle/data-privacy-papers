@@ -1818,5 +1818,234 @@
       "cs.LG",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.13953v1",
+    "title" : "Towards privacy-preserving cooperative control via encrypted distributed\n  optimization",
+    "summary" : "Cooperative control is crucial for the effective operation of dynamical\nmulti-agent systems. Especially for distributed control schemes, it is\nessential to exchange data between the agents. This becomes a privacy threat if\nthe data is sensitive. Encrypted control has shown the potential to address\nthis risk and ensure confidentiality. However, existing approaches mainly focus\non cloud-based control and distributed schemes are restrictive.\n  In this paper, we present a novel privacy-preserving cooperative control\nscheme based on encrypted distributed optimization. More precisely, we focus on\na secure distributed solution of a general consensus problem, which has\nmanifold applications in cooperative control, by means of the alternating\ndirection method of multipliers (ADMM). As a unique feature of our approach, we\nexplicitly take into account the common situation that local decision variables\ncontain copies of quantities associated with neighboring agents and ensure the\nneighbor's privacy. We show the effectiveness of our method based on a\nnumerical case study dealing with the formation of mobile robots.",
+    "updated" : "2024-12-18T15:32:45Z",
+    "published" : "2024-12-18T15:32:45Z",
+    "authors" : [
+      {
+        "name" : "Philipp Binfet"
+      },
+      {
+        "name" : "Janis Adamek"
+      },
+      {
+        "name" : "Nils Schlüter"
+      },
+      {
+        "name" : "Moritz Schulze Darup"
+      }
+    ],
+    "categories" : [
+      "eess.SY",
+      "cs.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.13939v1",
+    "title" : "Security and Privacy of Digital Twins for Advanced Manufacturing: A\n  Survey",
+    "summary" : "In Industry 4.0, the digital twin is one of the emerging technologies,\noffering simulation abilities to predict, refine, and interpret conditions and\noperations, where it is crucial to emphasize a heightened concentration on the\nassociated security and privacy risks. To be more specific, the adoption of\ndigital twins in the manufacturing industry relies on integrating technologies\nlike cyber-physical systems, the Industrial Internet of Things, virtualization,\nand advanced manufacturing. The interactions of these technologies give rise to\nnumerous security and privacy vulnerabilities that remain inadequately\nexplored. Towards that end, this paper analyzes the cybersecurity threats of\ndigital twins for advanced manufacturing in the context of data collection,\ndata sharing, machine learning and deep learning, and system-level security and\nprivacy. We also provide several solutions to the threats in those four\ncategories that can help establish more trust in digital twins.",
+    "updated" : "2024-12-18T15:21:53Z",
+    "published" : "2024-12-18T15:21:53Z",
+    "authors" : [
+      {
+        "name" : "Alexander D. Zemskov"
+      },
+      {
+        "name" : "Yao Fu"
+      },
+      {
+        "name" : "Runchao Li"
+      },
+      {
+        "name" : "Xufei Wang"
+      },
+      {
+        "name" : "Vispi Karkaria"
+      },
+      {
+        "name" : "Ying-Kuan Tsai"
+      },
+      {
+        "name" : "Wei Chen"
+      },
+      {
+        "name" : "Jianjing Zhang"
+      },
+      {
+        "name" : "Robert Gao"
+      },
+      {
+        "name" : "Jian Cao"
+      },
+      {
+        "name" : "Kenneth A. Loparo"
+      },
+      {
+        "name" : "Pan Li"
+      }
+    ],
+    "categories" : [
+      "eess.SY",
+      "cs.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.13818v1",
+    "title" : "Fed-AugMix: Balancing Privacy and Utility via Data Augmentation",
+    "summary" : "Gradient leakage attacks pose a significant threat to the privacy guarantees\nof federated learning. While distortion-based protection mechanisms are\ncommonly employed to mitigate this issue, they often lead to notable\nperformance degradation. Existing methods struggle to preserve model\nperformance while ensuring privacy. To address this challenge, we propose a\nnovel data augmentation-based framework designed to achieve a favorable\nprivacy-utility trade-off, with the potential to enhance model performance in\ncertain cases. Our framework incorporates the AugMix algorithm at the client\nlevel, enabling data augmentation with controllable severity. By integrating\nthe Jensen-Shannon divergence into the loss function, we embed the distortion\nintroduced by AugMix into the model gradients, effectively safeguarding privacy\nagainst deep leakage attacks. Moreover, the JS divergence promotes model\nconsistency across different augmentations of the same image, enhancing both\nrobustness and performance. Extensive experiments on benchmark datasets\ndemonstrate the effectiveness and stability of our method in protecting\nprivacy. Furthermore, our approach maintains, and in some cases improves, model\nperformance, showcasing its ability to achieve a robust privacy-utility\ntrade-off.",
+    "updated" : "2024-12-18T13:05:55Z",
+    "published" : "2024-12-18T13:05:55Z",
+    "authors" : [
+      {
+        "name" : "Haoyang Li"
+      },
+      {
+        "name" : "Wei Chen"
+      },
+      {
+        "name" : "Xiaojin Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.13678v1",
+    "title" : "Clio: Privacy-Preserving Insights into Real-World AI Use",
+    "summary" : "How are AI assistants being used in the real world? While model providers in\ntheory have a window into this impact via their users' data, both privacy\nconcerns and practical challenges have made analyzing this data difficult. To\naddress these issues, we present Clio (Claude insights and observations), a\nprivacy-preserving platform that uses AI assistants themselves to analyze and\nsurface aggregated usage patterns across millions of conversations, without the\nneed for human reviewers to read raw conversations. We validate this can be\ndone with a high degree of accuracy and privacy by conducting extensive\nevaluations. We demonstrate Clio's usefulness in two broad ways. First, we\nshare insights about how models are being used in the real world from one\nmillion Claude.ai Free and Pro conversations, ranging from providing advice on\nhairstyles to providing guidance on Git operations and concepts. We also\nidentify the most common high-level use cases on Claude.ai (coding, writing,\nand research tasks) as well as patterns that differ across languages (e.g.,\nconversations in Japanese discuss elder care and aging populations at\nhigher-than-typical rates). Second, we use Clio to make our systems safer by\nidentifying coordinated attempts to abuse our systems, monitoring for unknown\nunknowns during critical periods like launches of new capabilities or major\nworld events, and improving our existing monitoring systems. We also discuss\nthe limitations of our approach, as well as risks and ethical concerns. By\nenabling analysis of real-world AI usage, Clio provides a scalable platform for\nempirically grounded AI safety and governance.",
+    "updated" : "2024-12-18T10:05:43Z",
+    "published" : "2024-12-18T10:05:43Z",
+    "authors" : [
+      {
+        "name" : "Alex Tamkin"
+      },
+      {
+        "name" : "Miles McCain"
+      },
+      {
+        "name" : "Kunal Handa"
+      },
+      {
+        "name" : "Esin Durmus"
+      },
+      {
+        "name" : "Liane Lovitt"
+      },
+      {
+        "name" : "Ankur Rathi"
+      },
+      {
+        "name" : "Saffron Huang"
+      },
+      {
+        "name" : "Alfred Mountfield"
+      },
+      {
+        "name" : "Jerry Hong"
+      },
+      {
+        "name" : "Stuart Ritchie"
+      },
+      {
+        "name" : "Michael Stern"
+      },
+      {
+        "name" : "Brian Clarke"
+      },
+      {
+        "name" : "Landon Goldberg"
+      },
+      {
+        "name" : "Theodore R. Sumers"
+      },
+      {
+        "name" : "Jared Mueller"
+      },
+      {
+        "name" : "William McEachen"
+      },
+      {
+        "name" : "Wes Mitchell"
+      },
+      {
+        "name" : "Shan Carter"
+      },
+      {
+        "name" : "Jack Clark"
+      },
+      {
+        "name" : "Jared Kaplan"
+      },
+      {
+        "name" : "Deep Ganguli"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.AI",
+      "cs.CL",
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.13522v1",
+    "title" : "Privacy-Preserving Cyberattack Detection in Blockchain-Based IoT Systems\n  Using AI and Homomorphic Encryption",
+    "summary" : "This work proposes a novel privacy-preserving cyberattack detection framework\nfor blockchain-based Internet-of-Things (IoT) systems. In our approach,\nartificial intelligence (AI)-driven detection modules are strategically\ndeployed at blockchain nodes to identify real-time attacks, ensuring high\naccuracy and minimal delay. To achieve this efficiency, the model training is\nconducted by a cloud service provider (CSP). Accordingly, blockchain nodes send\ntheir data to the CSP for training, but to safeguard privacy, the data is\nencrypted using homomorphic encryption (HE) before transmission. This\nencryption method allows the CSP to perform computations directly on encrypted\ndata without the need for decryption, preserving data privacy throughout the\nlearning process. To handle the substantial volume of encrypted data, we\nintroduce an innovative packing algorithm in a Single-Instruction-Multiple-Data\n(SIMD) manner, enabling efficient training on HE-encrypted data. Building on\nthis, we develop a novel deep neural network training algorithm optimized for\nencrypted data. We further propose a privacy-preserving distributed learning\napproach based on the FedAvg algorithm, which parallelizes the training across\nmultiple workers, significantly improving computation time. Upon completion,\nthe CSP distributes the trained model to the blockchain nodes, enabling them to\nperform real-time, privacy-preserved detection. Our simulation results\ndemonstrate that our proposed method can not only mitigate the training time\nbut also achieve detection accuracy that is approximately identical to the\napproach without encryption, with a gap of around 0.01%. Additionally, our real\nimplementations on various blockchain consensus algorithms and hardware\nconfigurations show that our proposed framework can also be effectively adapted\nto real-world systems.",
+    "updated" : "2024-12-18T05:46:53Z",
+    "published" : "2024-12-18T05:46:53Z",
+    "authors" : [
+      {
+        "name" : "Bui Duc Manh"
+      },
+      {
+        "name" : "Chi-Hieu Nguyen"
+      },
+      {
+        "name" : "Dinh Thai Hoang"
+      },
+      {
+        "name" : "Diep N. Nguyen"
+      },
+      {
+        "name" : "Ming Zeng"
+      },
+      {
+        "name" : "Quoc-Viet Pham"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.13440v1",
+    "title" : "Safeguarding Virtual Healthcare: A Novel Attacker-Centric Model for Data\n  Security and Privacy",
+    "summary" : "The rapid growth of remote healthcare delivery has introduced significant\nsecurity and privacy risks to protected health information (PHI). Analysis of a\ncomprehensive healthcare security breach dataset covering 2009-2023 reveals\ntheir significant prevalence and impact. This study investigates the root\ncauses of such security incidents and introduces the Attacker-Centric Approach\n(ACA), a novel threat model tailored to protect PHI. ACA addresses limitations\nin existing threat models and regulatory frameworks by adopting a holistic\nattacker-focused perspective, examining threats from the viewpoint of cyber\nadversaries, their motivations, tactics, and potential attack vectors.\nLeveraging established risk management frameworks, ACA provides a multi-layered\napproach to threat identification, risk assessment, and proactive mitigation\nstrategies. A comprehensive threat library classifies physical, third-party,\nexternal, and internal threats. ACA's iterative nature and feedback mechanisms\nenable continuous adaptation to emerging threats, ensuring sustained\neffectiveness. ACA allows healthcare providers to proactively identify and\nmitigate vulnerabilities, fostering trust and supporting the secure adoption of\nvirtual care technologies.",
+    "updated" : "2024-12-18T02:21:53Z",
+    "published" : "2024-12-18T02:21:53Z",
+    "authors" : [
+      {
+        "name" : "Suvineetha Herath"
+      },
+      {
+        "name" : "Haywood Gelman"
+      },
+      {
+        "name" : "John Hastings"
+      },
+      {
+        "name" : "Yong Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "K.6.5; H.2.7; D.4.6; J.3"
+    ]
   }
 ]
