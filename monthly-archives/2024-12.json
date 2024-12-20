@@ -2047,5 +2047,64 @@
       "cs.CR",
       "K.6.5; H.2.7; D.4.6; J.3"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.15047v1",
+    "title" : "Measuring, Modeling, and Helping People Account for Privacy Risks in\n  Online Self-Disclosures with AI",
+    "summary" : "In pseudonymous online fora like Reddit, the benefits of self-disclosure are\noften apparent to users (e.g., I can vent about my in-laws to understanding\nstrangers), but the privacy risks are more abstract (e.g., will my partner be\nable to tell that this is me?). Prior work has sought to develop natural\nlanguage processing (NLP) tools that help users identify potentially risky\nself-disclosures in their text, but none have been designed for or evaluated\nwith the users they hope to protect. Absent this assessment, these tools will\nbe limited by the social-technical gap: users need assistive tools that help\nthem make informed decisions, not paternalistic tools that tell them to avoid\nself-disclosure altogether. To bridge this gap, we conducted a study with N =\n21 Reddit users; we had them use a state-of-the-art NLP disclosure detection\nmodel on two of their authored posts and asked them questions to understand if\nand how the model helped, where it fell short, and how it could be improved to\nhelp them make more informed decisions. Despite its imperfections, users\nresponded positively to the model and highlighted its use as a tool that can\nhelp them catch mistakes, inform them of risks they were unaware of, and\nencourage self-reflection. However, our work also shows how, to be useful and\nusable, AI for supporting privacy decision-making must account for posting\ncontext, disclosure norms, and users' lived threat models, and provide\nexplanations that help contextualize detected risks.",
+    "updated" : "2024-12-19T16:53:40Z",
+    "published" : "2024-12-19T16:53:40Z",
+    "authors" : [
+      {
+        "name" : "Isadora Krsek"
+      },
+      {
+        "name" : "Anubha Kabra"
+      },
+      {
+        "name" : "Yao Dou"
+      },
+      {
+        "name" : "Tarek Naous"
+      },
+      {
+        "name" : "Laura A. Dabbish"
+      },
+      {
+        "name" : "Alan Ritter"
+      },
+      {
+        "name" : "Wei Xu"
+      },
+      {
+        "name" : "Sauvik Das"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.14832v1",
+    "title" : "Federated Heavy Hitter Analytics with Local Differential Privacy",
+    "summary" : "Federated heavy hitter analytics enables service providers to better\nunderstand the preferences of cross-party users by analyzing the most frequent\nitems. As with federated learning, it faces challenges of privacy concerns,\nstatistical heterogeneity, and expensive communication. Local differential\nprivacy (LDP), as the \\textit{de facto} standard for privacy-preserving data\ncollection, solves the privacy challenge by letting each user perturb her data\nlocally and report the sanitized version. However, in federated settings,\napplying LDP complicates the other two challenges, due to the deteriorated\nutility by the injected LDP noise or increasing communication/computation costs\nby perturbation mechanism. To tackle these problems, we propose a novel\ntarget-aligning prefix tree mechanism satisfying $\\epsilon$-LDP, for federated\nheavy hitter analytics. In particular, we propose an adaptive extension\nstrategy to address the inconsistencies between covering necessary prefixes and\nestimating heavy hitters within a party to enhance the utility. We also present\na consensus-based pruning strategy that utilizes noisy prior knowledge from\nother parties to further align the inconsistency between finding heavy hitters\nin each party and providing reasonable frequency information to identify the\nglobal ones. To the best of our knowledge, our study is the first solution to\nthe federated heavy hitter analytics in a cross-party setting while satisfying\nthe stringent $\\epsilon$-LDP. Comprehensive experiments on both real-world and\nsynthetic datasets confirm the effectiveness of our proposed mechanism.",
+    "updated" : "2024-12-19T13:20:32Z",
+    "published" : "2024-12-19T13:20:32Z",
+    "authors" : [
+      {
+        "name" : "Yuemin Zhang"
+      },
+      {
+        "name" : "Qingqing Ye"
+      },
+      {
+        "name" : "Haibo Hu"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DB"
+    ]
   }
 ]
