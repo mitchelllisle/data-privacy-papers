@@ -2,6 +2,70 @@
 <h2>2024-12</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2412.15047v1">Measuring, Modeling, and Helping People Account for Privacy Risks in
+  Online Self-Disclosures with AI</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-12-19T16:53:40Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Isadora Krsek, Anubha Kabra, Yao Dou, Tarek Naous, Laura A. Dabbish, Alan Ritter, Wei Xu, Sauvik Das</p>
+    <p><b>Summary:</b> In pseudonymous online fora like Reddit, the benefits of self-disclosure are
+often apparent to users (e.g., I can vent about my in-laws to understanding
+strangers), but the privacy risks are more abstract (e.g., will my partner be
+able to tell that this is me?). Prior work has sought to develop natural
+language processing (NLP) tools that help users identify potentially risky
+self-disclosures in their text, but none have been designed for or evaluated
+with the users they hope to protect. Absent this assessment, these tools will
+be limited by the social-technical gap: users need assistive tools that help
+them make informed decisions, not paternalistic tools that tell them to avoid
+self-disclosure altogether. To bridge this gap, we conducted a study with N =
+21 Reddit users; we had them use a state-of-the-art NLP disclosure detection
+model on two of their authored posts and asked them questions to understand if
+and how the model helped, where it fell short, and how it could be improved to
+help them make more informed decisions. Despite its imperfections, users
+responded positively to the model and highlighted its use as a tool that can
+help them catch mistakes, inform them of risks they were unaware of, and
+encourage self-reflection. However, our work also shows how, to be useful and
+usable, AI for supporting privacy decision-making must account for posting
+context, disclosure norms, and users' lived threat models, and provide
+explanations that help contextualize detected risks.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2412.14832v1">Federated Heavy Hitter Analytics with Local Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
+  <p><b>Published on:</b> 2024-12-19T13:20:32Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yuemin Zhang, Qingqing Ye, Haibo Hu</p>
+    <p><b>Summary:</b> Federated heavy hitter analytics enables service providers to better
+understand the preferences of cross-party users by analyzing the most frequent
+items. As with federated learning, it faces challenges of privacy concerns,
+statistical heterogeneity, and expensive communication. Local differential
+privacy (LDP), as the \textit{de facto} standard for privacy-preserving data
+collection, solves the privacy challenge by letting each user perturb her data
+locally and report the sanitized version. However, in federated settings,
+applying LDP complicates the other two challenges, due to the deteriorated
+utility by the injected LDP noise or increasing communication/computation costs
+by perturbation mechanism. To tackle these problems, we propose a novel
+target-aligning prefix tree mechanism satisfying $\epsilon$-LDP, for federated
+heavy hitter analytics. In particular, we propose an adaptive extension
+strategy to address the inconsistencies between covering necessary prefixes and
+estimating heavy hitters within a party to enhance the utility. We also present
+a consensus-based pruning strategy that utilizes noisy prior knowledge from
+other parties to further align the inconsistency between finding heavy hitters
+in each party and providing reasonable frequency information to identify the
+global ones. To the best of our knowledge, our study is the first solution to
+the federated heavy hitter analytics in a cross-party setting while satisfying
+the stringent $\epsilon$-LDP. Comprehensive experiments on both real-world and
+synthetic datasets confirm the effectiveness of our proposed mechanism.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2412.13953v1">Towards privacy-preserving cooperative control via encrypted distributed
   optimization</a></h3>
    <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
@@ -2962,51 +3026,6 @@ work in differentially private RL, we supplement the theory with
 proof-of-concept experiments on classic RL environments featuring large
 continuous state spaces, demonstrating substantial improvements over a natural
 baseline across multiple tasks.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.12045v1">Fingerprinting and Tracing Shadows: The Development and Impact of
-  Browser Fingerprinting on Digital Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2024-11-18T20:32:31Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Alexander Lawall</p>
-    <p><b>Summary:</b> Browser fingerprinting is a growing technique for identifying and tracking
-users online without traditional methods like cookies. This paper gives an
-overview by examining the various fingerprinting techniques and analyzes the
-entropy and uniqueness of the collected data. The analysis highlights that
-browser fingerprinting poses a complex challenge from both technical and
-privacy perspectives, as users often have no control over the collection and
-use of their data. In addition, it raises significant privacy concerns as users
-are often tracked without their knowledge or consent.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.11713v1">FLMarket: Enabling Privacy-preserved Pre-training Data Pricing for
-  Federated Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
-  <p><b>Published on:</b> 2024-11-18T16:37:41Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zhenyu Wen, Wanglei Feng, Di Wu, Haozhen Hu, Chang Xu, Bin Qian, Zhen Hong, Cong Wang, Shouling Ji</p>
-    <p><b>Summary:</b> Federated Learning (FL), as a mainstream privacy-preserving machine learning
-paradigm, offers promising solutions for privacy-critical domains such as
-healthcare and finance. Although extensive efforts have been dedicated from
-both academia and industry to improve the vanilla FL, little work focuses on
-the data pricing mechanism. In contrast to the straightforward in/post-training
-pricing techniques, we study a more difficult problem of pre-training pricing
-without direct information from the learning process. We propose FLMarket that
-integrates a two-stage, auction-based pricing mechanism with a security
-protocol to address the utility-privacy conflict. Through comprehensive
-experiments, we show that the client selection according to FLMarket can
-achieve more than 10% higher accuracy in subsequent FL training compared to
-state-of-the-art methods. In addition, it outperforms the in-training baseline
-with more than 2% accuracy increase and 3x run-time speedup.</p>
   </details>
 </div>
 
