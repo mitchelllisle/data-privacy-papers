@@ -2106,5 +2106,115 @@
       "cs.CR",
       "cs.DB"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.16144v1",
+    "title" : "FedGAT: A Privacy-Preserving Federated Approximation Algorithm for Graph\n  Attention Networks",
+    "summary" : "Federated training methods have gained popularity for graph learning with\napplications including friendship graphs of social media sites and\ncustomer-merchant interaction graphs of huge online marketplaces. However,\nprivacy regulations often require locally generated data to be stored on local\nclients. The graph is then naturally partitioned across clients, with no client\npermitted access to information stored on another. Cross-client edges arise\nnaturally in such cases and present an interesting challenge to federated\ntraining methods, as training a graph model at one client requires feature\ninformation of nodes on the other end of cross-client edges. Attempting to\nretain such edges often incurs significant communication overhead, and dropping\nthem altogether reduces model performance. In simpler models such as Graph\nConvolutional Networks, this can be fixed by communicating a limited amount of\nfeature information across clients before training, but GATs (Graph Attention\nNetworks) require additional information that cannot be pre-communicated, as it\nchanges from training round to round. We introduce the Federated Graph\nAttention Network (FedGAT) algorithm for semi-supervised node classification,\nwhich approximates the behavior of GATs with provable bounds on the\napproximation error. FedGAT requires only one pre-training communication round,\nsignificantly reducing the communication overhead for federated GAT training.\nWe then analyze the error in the approximation and examine the communication\noverhead and computational complexity of the algorithm. Experiments show that\nFedGAT achieves nearly the same accuracy as a GAT model in a centralised\nsetting, and its performance is robust to the number of clients as well as data\ndistribution.",
+    "updated" : "2024-12-20T18:48:46Z",
+    "published" : "2024-12-20T18:48:46Z",
+    "authors" : [
+      {
+        "name" : "Siddharth Ambekar"
+      },
+      {
+        "name" : "Yuhang Yao"
+      },
+      {
+        "name" : "Ryan Li"
+      },
+      {
+        "name" : "Carlee Joe-Wong"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.15590v1",
+    "title" : "SemDP: Semantic-level Differential Privacy Protection for Face Datasets",
+    "summary" : "While large-scale face datasets have advanced deep learning-based face\nanalysis, they also raise privacy concerns due to the sensitive personal\ninformation they contain. Recent schemes have implemented differential privacy\nto protect face datasets. However, these schemes generally treat each image as\na separate database, which does not fully meet the core requirements of\ndifferential privacy. In this paper, we propose a semantic-level differential\nprivacy protection scheme that applies to the entire face dataset. Unlike\npixel-level differential privacy approaches, our scheme guarantees that\nsemantic privacy in faces is not compromised. The key idea is to convert\nunstructured data into structured data to enable the application of\ndifferential privacy. Specifically, we first extract semantic information from\nthe face dataset to build an attribute database, then apply differential\nperturbations to obscure this attribute data, and finally use an image\nsynthesis model to generate a protected face dataset. Extensive experimental\nresults show that our scheme can maintain visual naturalness and balance the\nprivacy-utility trade-off compared to the mainstream schemes.",
+    "updated" : "2024-12-20T06:00:59Z",
+    "published" : "2024-12-20T06:00:59Z",
+    "authors" : [
+      {
+        "name" : "Xiaoting Zhang"
+      },
+      {
+        "name" : "Tao Wang"
+      },
+      {
+        "name" : "Junhao Ji"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.15538v1",
+    "title" : "FedRLHF: A Convergence-Guaranteed Federated Framework for\n  Privacy-Preserving and Personalized RLHF",
+    "summary" : "In the era of increasing privacy concerns and demand for personalized\nexperiences, traditional Reinforcement Learning with Human Feedback (RLHF)\nframeworks face significant challenges due to their reliance on centralized\ndata. We introduce Federated Reinforcement Learning with Human Feedback\n(FedRLHF), a novel framework that decentralizes the RLHF process. FedRLHF\nenables collaborative policy learning across multiple clients without\nnecessitating the sharing of raw data or human feedback, thereby ensuring\nrobust privacy preservation. Leveraging federated reinforcement learning, each\nclient integrates human feedback locally into their reward functions and\nupdates their policies through personalized RLHF processes. We establish\nrigorous theoretical foundations for FedRLHF, providing convergence guarantees,\nand deriving sample complexity bounds that scale efficiently with the number of\nclients. Empirical evaluations on the MovieLens and IMDb datasets demonstrate\nthat FedRLHF not only preserves user privacy but also achieves performance on\npar with centralized RLHF, while enhancing personalization across diverse\nclient environments.",
+    "updated" : "2024-12-20T03:56:31Z",
+    "published" : "2024-12-20T03:56:31Z",
+    "authors" : [
+      {
+        "name" : "Flint Xiaofeng Fan"
+      },
+      {
+        "name" : "Cheston Tan"
+      },
+      {
+        "name" : "Yew-Soon Ong"
+      },
+      {
+        "name" : "Roger Wattenhofer"
+      },
+      {
+        "name" : "Wei-Tsang Ooi"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR",
+      "I.2.11"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.15228v1",
+    "title" : "Image Privacy Protection: A Survey",
+    "summary" : "Images serve as a crucial medium for communication, presenting information in\na visually engaging format that facilitates rapid comprehension of key points.\nMeanwhile, during transmission and storage, they contain significant sensitive\ninformation. If not managed properly, this information may be vulnerable to\nexploitation for personal gain, potentially infringing on privacy rights and\nother legal entitlements. Consequently, researchers continue to propose some\napproaches for preserving image privacy and publish reviews that provide\ncomprehensive and methodical summaries of these approaches. However, existing\nreviews tend to categorize either by specific scenarios, or by specific privacy\nobjectives. This classification somewhat restricts the reader's ability to\ngrasp a holistic view of image privacy protection and poses challenges in\ndeveloping a total understanding of the subject that transcends different\nscenarios and privacy objectives. Instead of examining image privacy protection\nfrom a single aspect, it is more desirable to consider user needs for a\ncomprehensive understanding. To fill this gap, we conduct a systematic review\nof image privacy protection approaches based on privacy protection goals.\nSpecifically, we define the attribute known as privacy sensitive domains and\nuse it as the core classification dimension to construct a comprehensive\nframework for image privacy protection that encompasses various scenarios and\nprivacy objectives. This framework offers a deep understanding of the\nmulti-layered aspects of image privacy, categorizing its protection into three\nprimary levels: data-level, content-level, and feature-level. For each\ncategory, we analyze the main approaches and features of image privacy\nprotection and systematically review representative solutions. Finally, we\ndiscuss the challenges and future directions of image privacy protection.",
+    "updated" : "2024-12-05T08:09:25Z",
+    "published" : "2024-12-05T08:09:25Z",
+    "authors" : [
+      {
+        "name" : "Wenying Wen"
+      },
+      {
+        "name" : "Ziye Yuan"
+      },
+      {
+        "name" : "Yushu Zhang"
+      },
+      {
+        "name" : "Tao Wang"
+      },
+      {
+        "name" : "Xiangli Xiao"
+      },
+      {
+        "name" : "Ruoyu Zhao"
+      },
+      {
+        "name" : "Yuming Fang"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
