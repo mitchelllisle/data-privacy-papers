@@ -2,6 +2,97 @@
 <h2>2024-12</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2412.16144v1">FedGAT: A Privacy-Preserving Federated Approximation Algorithm for Graph
+  Attention Networks</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
+  <p><b>Published on:</b> 2024-12-20T18:48:46Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Siddharth Ambekar, Yuhang Yao, Ryan Li, Carlee Joe-Wong</p>
+    <p><b>Summary:</b> Federated training methods have gained popularity for graph learning with
+applications including friendship graphs of social media sites and
+customer-merchant interaction graphs of huge online marketplaces. However,
+privacy regulations often require locally generated data to be stored on local
+clients. The graph is then naturally partitioned across clients, with no client
+permitted access to information stored on another. Cross-client edges arise
+naturally in such cases and present an interesting challenge to federated
+training methods, as training a graph model at one client requires feature
+information of nodes on the other end of cross-client edges. Attempting to
+retain such edges often incurs significant communication overhead, and dropping
+them altogether reduces model performance. In simpler models such as Graph
+Convolutional Networks, this can be fixed by communicating a limited amount of
+feature information across clients before training, but GATs (Graph Attention
+Networks) require additional information that cannot be pre-communicated, as it
+changes from training round to round. We introduce the Federated Graph
+Attention Network (FedGAT) algorithm for semi-supervised node classification,
+which approximates the behavior of GATs with provable bounds on the
+approximation error. FedGAT requires only one pre-training communication round,
+significantly reducing the communication overhead for federated GAT training.
+We then analyze the error in the approximation and examine the communication
+overhead and computational complexity of the algorithm. Experiments show that
+FedGAT achieves nearly the same accuracy as a GAT model in a centralised
+setting, and its performance is robust to the number of clients as well as data
+distribution.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2412.15590v1">SemDP: Semantic-level Differential Privacy Protection for Face Datasets</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-12-20T06:00:59Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xiaoting Zhang, Tao Wang, Junhao Ji</p>
+    <p><b>Summary:</b> While large-scale face datasets have advanced deep learning-based face
+analysis, they also raise privacy concerns due to the sensitive personal
+information they contain. Recent schemes have implemented differential privacy
+to protect face datasets. However, these schemes generally treat each image as
+a separate database, which does not fully meet the core requirements of
+differential privacy. In this paper, we propose a semantic-level differential
+privacy protection scheme that applies to the entire face dataset. Unlike
+pixel-level differential privacy approaches, our scheme guarantees that
+semantic privacy in faces is not compromised. The key idea is to convert
+unstructured data into structured data to enable the application of
+differential privacy. Specifically, we first extract semantic information from
+the face dataset to build an attribute database, then apply differential
+perturbations to obscure this attribute data, and finally use an image
+synthesis model to generate a protected face dataset. Extensive experimental
+results show that our scheme can maintain visual naturalness and balance the
+privacy-utility trade-off compared to the mainstream schemes.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2412.15538v1">FedRLHF: A Convergence-Guaranteed Federated Framework for
+  Privacy-Preserving and Personalized RLHF</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
+  <p><b>Published on:</b> 2024-12-20T03:56:31Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Flint Xiaofeng Fan, Cheston Tan, Yew-Soon Ong, Roger Wattenhofer, Wei-Tsang Ooi</p>
+    <p><b>Summary:</b> In the era of increasing privacy concerns and demand for personalized
+experiences, traditional Reinforcement Learning with Human Feedback (RLHF)
+frameworks face significant challenges due to their reliance on centralized
+data. We introduce Federated Reinforcement Learning with Human Feedback
+(FedRLHF), a novel framework that decentralizes the RLHF process. FedRLHF
+enables collaborative policy learning across multiple clients without
+necessitating the sharing of raw data or human feedback, thereby ensuring
+robust privacy preservation. Leveraging federated reinforcement learning, each
+client integrates human feedback locally into their reward functions and
+updates their policies through personalized RLHF processes. We establish
+rigorous theoretical foundations for FedRLHF, providing convergence guarantees,
+and deriving sample complexity bounds that scale efficiently with the number of
+clients. Empirical evaluations on the MovieLens and IMDb datasets demonstrate
+that FedRLHF not only preserves user privacy but also achieves performance on
+par with centralized RLHF, while enhancing personalization across diverse
+client environments.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2412.15047v1">Measuring, Modeling, and Helping People Account for Privacy Risks in
   Online Self-Disclosures with AI</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
@@ -1467,6 +1558,42 @@ technology in privacy-sensitive applications.</p>
 
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2412.15228v1">Image Privacy Protection: A Survey</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-12-05T08:09:25Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Wenying Wen, Ziye Yuan, Yushu Zhang, Tao Wang, Xiangli Xiao, Ruoyu Zhao, Yuming Fang</p>
+    <p><b>Summary:</b> Images serve as a crucial medium for communication, presenting information in
+a visually engaging format that facilitates rapid comprehension of key points.
+Meanwhile, during transmission and storage, they contain significant sensitive
+information. If not managed properly, this information may be vulnerable to
+exploitation for personal gain, potentially infringing on privacy rights and
+other legal entitlements. Consequently, researchers continue to propose some
+approaches for preserving image privacy and publish reviews that provide
+comprehensive and methodical summaries of these approaches. However, existing
+reviews tend to categorize either by specific scenarios, or by specific privacy
+objectives. This classification somewhat restricts the reader's ability to
+grasp a holistic view of image privacy protection and poses challenges in
+developing a total understanding of the subject that transcends different
+scenarios and privacy objectives. Instead of examining image privacy protection
+from a single aspect, it is more desirable to consider user needs for a
+comprehensive understanding. To fill this gap, we conduct a systematic review
+of image privacy protection approaches based on privacy protection goals.
+Specifically, we define the attribute known as privacy sensitive domains and
+use it as the core classification dimension to construct a comprehensive
+framework for image privacy protection that encompasses various scenarios and
+privacy objectives. This framework offers a deep understanding of the
+multi-layered aspects of image privacy, categorizing its protection into three
+primary levels: data-level, content-level, and feature-level. For each
+category, we analyze the main approaches and features of image privacy
+protection and systematically review representative solutions. Finally, we
+discuss the challenges and future directions of image privacy protection.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2412.03924v1">Privacy-Preserving in Medical Image Analysis: A Review of Methods and
   Applications</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
@@ -2916,116 +3043,6 @@ weaknesses, and potential correlations. Additionally, we provide open access to
 research resources such as benchmark datasets and available code. Finally, we
 discuss key challenges and future opportunities from the perspectives of AI
 development and P2VAD deployment, aiming to guide future work in the field.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.14557v1">Privacy-Preserving Power Flow Analysis via Secure Multi-Party
-  Computation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36"> 
-  <p><b>Published on:</b> 2024-11-21T20:04:16Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jonas von der Heyden, Nils Schlüter, Philipp Binfet, Martin Asman, Markus Zdrallek, Tibor Jager, Moritz Schulze Darup</p>
-    <p><b>Summary:</b> Smart grids feature a bidirectional flow of electricity and data, enhancing
-flexibility, efficiency, and reliability in increasingly volatile energy grids.
-However, data from smart meters can reveal sensitive private information.
-Consequently, the adoption of smart meters is often restricted via legal means
-and hampered by limited user acceptance. Since metering data is beneficial for
-fault-free grid operation, power management, and resource allocation, applying
-privacy-preserving techniques to smart metering data is an important research
-problem. This work addresses this by using secure multi-party computation
-(SMPC), allowing multiple parties to jointly evaluate functions of their
-private inputs without revealing the latter. Concretely, we show how to perform
-power flow analysis on cryptographically hidden prosumer data. More precisely,
-we present a tailored solution to the power flow problem building on an SMPC
-implementation of Newtons method. We analyze the security of our approach in
-the universal composability framework and provide benchmarks for various grid
-types, threat models, and solvers. Our results indicate that secure multi-party
-computation can be able to alleviate privacy issues in smart grids in certain
-applications.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.12451v1">Empirical Privacy Evaluations of Generative and Predictive Machine
-  Learning Models -- A review and challenges for practice</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-11-19T12:19:28Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Flavio Hafner, Chang Sun</p>
-    <p><b>Summary:</b> Synthetic data generators, when trained using privacy-preserving techniques
-like differential privacy, promise to produce synthetic data with formal
-privacy guarantees, facilitating the sharing of sensitive data. However, it is
-crucial to empirically assess the privacy risks associated with the generated
-synthetic data before deploying generative technologies. This paper outlines
-the key concepts and assumptions underlying empirical privacy evaluation in
-machine learning-based generative and predictive models. Then, this paper
-explores the practical challenges for privacy evaluations of generative models
-for use cases with millions of training records, such as data from statistical
-agencies and healthcare providers. Our findings indicate that methods designed
-to verify the correct operation of the training algorithm are effective for
-large datasets, but they often assume an adversary that is unrealistic in many
-scenarios. Based on the findings, we highlight a crucial trade-off between the
-computational feasibility of the evaluation and the level of realism of the
-assumed threat model. Finally, we conclude with ideas and suggestions for
-future research.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.12223v1">Perception of Digital Privacy Protection: An Empirical Study using GDPR
-  Framework</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-11-19T04:36:31Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Hamoud Alhazmi, Ahmed Imran, Mohammad Abu Alsheikh</p>
-    <p><b>Summary:</b> Perception of privacy is a contested concept, which is also evolving along
-with the rapid proliferation and expansion of technological advancements.
-Information systems (IS) applications incorporate various sensing
-infrastructures, high-speed networks, and computing components that enable
-pervasive data collection about people. Any digital privacy breach within such
-systems can result in harmful and far-reaching impacts on individuals and
-societies. Accordingly, IS organisations have a legal and ethical
-responsibility to respect and protect individuals digital privacy rights. This
-study investigates people perception of digital privacy protection of
-government data using the General Data Protection Regulation (GDPR) framework.
-Findings suggest a dichotomy of perception in protecting people privacy rights.
-For example, people perceive the right to be informed as the most respected and
-protected in Information Technology (IT) systems. On the contrary, the right to
-object by granting and with-drawing consent is perceived as the least
-protected. Second, the study shows evidence of a social dilemma in people
-perception of digital privacy based on their context and culture.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.13598v1">Preserving Expert-Level Privacy in Offline Reinforcement Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-11-18T21:26:53Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Navodita Sharma, Vishnu Vinod, Abhradeep Thakurta, Alekh Agarwal, Borja Balle, Christoph Dann, Aravindan Raghuveer</p>
-    <p><b>Summary:</b> The offline reinforcement learning (RL) problem aims to learn an optimal
-policy from historical data collected by one or more behavioural policies
-(experts) by interacting with an environment. However, the individual experts
-may be privacy-sensitive in that the learnt policy may retain information about
-their precise choices. In some domains like personalized retrieval, advertising
-and healthcare, the expert choices are considered sensitive data. To provably
-protect the privacy of such experts, we propose a novel consensus-based
-expert-level differentially private offline RL training approach compatible
-with any existing offline RL algorithm. We prove rigorous differential privacy
-guarantees, while maintaining strong empirical performance. Unlike existing
-work in differentially private RL, we supplement the theory with
-proof-of-concept experiments on classic RL environments featuring large
-continuous state spaces, demonstrating substantial improvements over a natural
-baseline across multiple tasks.</p>
   </details>
 </div>
 
