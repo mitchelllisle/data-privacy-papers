@@ -2216,5 +2216,315 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.17317v1",
+    "title" : "Better Knowledge Enhancement for Privacy-Preserving Cross-Project Defect\n  Prediction",
+    "summary" : "Cross-Project Defect Prediction (CPDP) poses a non-trivial challenge to\nconstruct a reliable defect predictor by leveraging data from other projects,\nparticularly when data owners are concerned about data privacy. In recent\nyears, Federated Learning (FL) has become an emerging paradigm to guarantee\nprivacy information by collaborative training a global model among multiple\nparties without sharing raw data. While the direct application of FL to the\nCPDP task offers a promising solution to address privacy concerns, the data\nheterogeneity arising from proprietary projects across different companies or\norganizations will bring troubles for model training. In this paper, we study\nthe privacy-preserving cross-project defect prediction with data heterogeneity\nunder the federated learning framework. To address this problem, we propose a\nnovel knowledge enhancement approach named FedDP with two simple but effective\nsolutions: 1. Local Heterogeneity Awareness and 2. Global Knowledge\nDistillation. Specifically, we employ open-source project data as the\ndistillation dataset and optimize the global model with the heterogeneity-aware\nlocal model ensemble via knowledge distillation. Experimental results on 19\nprojects from two datasets demonstrate that our method significantly\noutperforms baselines.",
+    "updated" : "2024-12-23T06:21:15Z",
+    "published" : "2024-12-23T06:21:15Z",
+    "authors" : [
+      {
+        "name" : "Yuying Wang"
+      },
+      {
+        "name" : "Yichen Li"
+      },
+      {
+        "name" : "Haozhao Wang"
+      },
+      {
+        "name" : "Lei Zhao"
+      },
+      {
+        "name" : "Xiaofang Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.SE"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.17038v1",
+    "title" : "ErasableMask: A Robust and Erasable Privacy Protection Scheme against\n  Black-box Face Recognition Models",
+    "summary" : "While face recognition (FR) models have brought remarkable convenience in\nface verification and identification, they also pose substantial privacy risks\nto the public. Existing facial privacy protection schemes usually adopt\nadversarial examples to disrupt face verification of FR models. However, these\nschemes often suffer from weak transferability against black-box FR models and\npermanently damage the identifiable information that cannot fulfill the\nrequirements of authorized operations such as forensics and authentication. To\naddress these limitations, we propose ErasableMask, a robust and erasable\nprivacy protection scheme against black-box FR models. Specifically, via\nrethinking the inherent relationship between surrogate FR models, ErasableMask\nintroduces a novel meta-auxiliary attack, which boosts black-box\ntransferability by learning more general features in a stable and balancing\noptimization strategy. It also offers a perturbation erasion mechanism that\nsupports the erasion of semantic perturbations in protected face without\ndegrading image quality. To further improve performance, ErasableMask employs a\ncurriculum learning strategy to mitigate optimization conflicts between\nadversarial attack and perturbation erasion. Extensive experiments on the\nCelebA-HQ and FFHQ datasets demonstrate that ErasableMask achieves the\nstate-of-the-art performance in transferability, achieving over 72% confidence\non average in commercial FR systems. Moreover, ErasableMask also exhibits\noutstanding perturbation erasion performance, achieving over 90% erasion\nsuccess rate.",
+    "updated" : "2024-12-22T14:30:26Z",
+    "published" : "2024-12-22T14:30:26Z",
+    "authors" : [
+      {
+        "name" : "Sipeng Shen"
+      },
+      {
+        "name" : "Yunming Zhang"
+      },
+      {
+        "name" : "Dengpan Ye"
+      },
+      {
+        "name" : "Xiuwen Shi"
+      },
+      {
+        "name" : "Long Tang"
+      },
+      {
+        "name" : "Haoran Duan"
+      },
+      {
+        "name" : "Ziyi Liu"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.16916v1",
+    "title" : "On the Differential Privacy and Interactivity of Privacy Sandbox Reports",
+    "summary" : "The Privacy Sandbox initiative from Google includes APIs for enabling\nprivacy-preserving advertising functionalities as part of the effort around\nlimiting third-party cookies. In particular, the Private Aggregation API (PAA)\nand the Attribution Reporting API (ARA) can be used for ad measurement while\nproviding different guardrails for safeguarding user privacy, including a\nframework for satisfying differential privacy (DP). In this work, we provide a\nformal model for analyzing the privacy of these APIs and show that they satisfy\na formal DP guarantee under certain assumptions. Our analysis handles the case\nwhere both the queries and database can change interactively based on previous\nresponses from the API.",
+    "updated" : "2024-12-22T08:22:57Z",
+    "published" : "2024-12-22T08:22:57Z",
+    "authors" : [
+      {
+        "name" : "Badih Ghazi"
+      },
+      {
+        "name" : "Charlie Harrison"
+      },
+      {
+        "name" : "Arpana Hosabettu"
+      },
+      {
+        "name" : "Pritish Kamath"
+      },
+      {
+        "name" : "Alexander Knop"
+      },
+      {
+        "name" : "Ravi Kumar"
+      },
+      {
+        "name" : "Ethan Leeman"
+      },
+      {
+        "name" : "Pasin Manurangsi"
+      },
+      {
+        "name" : "Vikas Sahu"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.16893v1",
+    "title" : "Preventing Non-intrusive Load Monitoring Privacy Invasion: A Precise\n  Adversarial Attack Scheme for Networked Smart Meters",
+    "summary" : "Smart grid, through networked smart meters employing the non-intrusive load\nmonitoring (NILM) technique, can considerably discern the usage patterns of\nresidential appliances. However, this technique also incurs privacy leakage. To\naddress this issue, we propose an innovative scheme based on adversarial attack\nin this paper. The scheme effectively prevents NILM models from violating\nappliance-level privacy, while also ensuring accurate billing calculation for\nusers. To achieve this objective, we overcome two primary challenges. First, as\nNILM models fall under the category of time-series regression models, direct\napplication of traditional adversarial attacks designed for classification\ntasks is not feasible. To tackle this issue, we formulate a novel adversarial\nattack problem tailored specifically for NILM and providing a theoretical\nfoundation for utilizing the Jacobian of the NILM model to generate\nimperceptible perturbations. Leveraging the Jacobian, our scheme can produce\nperturbations, which effectively misleads the signal prediction of NILM models\nto safeguard users' appliance-level privacy. The second challenge pertains to\nfundamental utility requirements, where existing adversarial attack schemes\nstruggle to achieve accurate billing calculation for users. To handle this\nproblem, we introduce an additional constraint, mandating that the sum of added\nperturbations within a billing period must be precisely zero. Experimental\nvalidation on real-world power datasets REDD and UK-DALE demonstrates the\nefficacy of our proposed solutions, which can significantly amplify the\ndiscrepancy between the output of the targeted NILM model and the actual power\nsignal of appliances, and enable accurate billing at the same time.\nAdditionally, our solutions exhibit transferability, making the generated\nperturbation signal from one target model applicable to other diverse NILM\nmodels.",
+    "updated" : "2024-12-22T07:06:46Z",
+    "published" : "2024-12-22T07:06:46Z",
+    "authors" : [
+      {
+        "name" : "Jialing He"
+      },
+      {
+        "name" : "Jiacheng Wang"
+      },
+      {
+        "name" : "Ning Wang"
+      },
+      {
+        "name" : "Shangwei Guo"
+      },
+      {
+        "name" : "Liehuang Zhu"
+      },
+      {
+        "name" : "Dusit Niyato"
+      },
+      {
+        "name" : "Tao Xiang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.16825v1",
+    "title" : "SoK: Usability Studies in Differential Privacy",
+    "summary" : "Differential Privacy (DP) has emerged as a pivotal approach for safeguarding\nindividual privacy in data analysis, yet its practical adoption is often\nhindered by challenges in usability in implementation and communication of the\nprivacy protection levels. This paper presents a comprehensive systematization\nof existing research on the usability of and communication about DP,\nsynthesizing insights from studies on both the practical use of DP tools and\nstrategies for conveying DP parameters that determine the privacy protection\nlevels such as epsilon. By reviewing and analyzing these studies, we identify\ncore usability challenges, best practices, and critical gaps in current DP\ntools that affect adoption across diverse user groups, including developers,\ndata analysts, and non-technical stakeholders. Our analysis highlights\nactionable insights and pathways for future research that emphasizes\nuser-centered design and clear communication, fostering the development of more\naccessible DP tools that meet practical needs and support broader adoption.",
+    "updated" : "2024-12-22T02:21:57Z",
+    "published" : "2024-12-22T02:21:57Z",
+    "authors" : [
+      {
+        "name" : "Onyinye Dibia"
+      },
+      {
+        "name" : "Brad Stenger"
+      },
+      {
+        "name" : "Steven Baldasty"
+      },
+      {
+        "name" : "Mako Bates"
+      },
+      {
+        "name" : "Ivoline C. Ngong"
+      },
+      {
+        "name" : "Yuanyuan Feng"
+      },
+      {
+        "name" : "Joseph P. Near"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.16669v1",
+    "title" : "Label Privacy in Split Learning for Large Models with\n  Parameter-Efficient Training",
+    "summary" : "As deep learning models become larger and more expensive, many practitioners\nturn to fine-tuning APIs. These web services allow fine-tuning a model between\ntwo parties: the client that provides the data, and the server that hosts the\nmodel. While convenient, these APIs raise a new concern: the data of the client\nis at risk of privacy breach during the training procedure. This challenge\npresents an important practical case of vertical federated learning, where the\ntwo parties perform parameter-efficient fine-tuning (PEFT) of a large model. In\nthis study, we systematically search for a way to fine-tune models over an API\nwhile keeping the labels private. We analyze the privacy of LoRA, a popular\napproach for parameter-efficient fine-tuning when training over an API. Using\nthis analysis, we propose P$^3$EFT, a multi-party split learning algorithm that\ntakes advantage of existing PEFT properties to maintain privacy at a lower\nperformance overhead. To validate our algorithm, we fine-tune\nDeBERTa-v2-XXLarge, Flan-T5 Large and LLaMA-2 7B using LoRA adapters on a range\nof NLP tasks. We find that P$^3$EFT is competitive with existing\nprivacy-preserving methods in multi-party and two-party setups while having\nhigher accuracy.",
+    "updated" : "2024-12-21T15:32:03Z",
+    "published" : "2024-12-21T15:32:03Z",
+    "authors" : [
+      {
+        "name" : "Philip Zmushko"
+      },
+      {
+        "name" : "Marat Mansurov"
+      },
+      {
+        "name" : "Ruslan Svirschevski"
+      },
+      {
+        "name" : "Denis Kuznedelev"
+      },
+      {
+        "name" : "Max Ryabinin"
+      },
+      {
+        "name" : "Aleksandr Beznosikov"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.16667v1",
+    "title" : "The Good, the Bad, and the (Un)Usable: A Rapid Literature Review on\n  Privacy as Code",
+    "summary" : "Privacy and security are central to the design of information systems endowed\nwith sound data protection and cyber resilience capabilities. Still, developers\noften struggle to incorporate these properties into software projects as they\neither lack proper cybersecurity training or do not consider them a priority.\nPrior work has tried to support privacy and security engineering activities\nthrough threat modeling methods for scrutinizing flaws in system architectures.\nMoreover, several techniques for the automatic identification of\nvulnerabilities and the generation of secure code implementations have also\nbeen proposed in the current literature. Conversely, such as-code approaches\nseem under-investigated in the privacy domain, with little work elaborating on\n(i) the automatic detection of privacy properties in source code or (ii) the\ngeneration of privacy-friendly code. In this work, we seek to characterize the\ncurrent research landscape of Privacy as Code (PaC) methods and tools by\nconducting a rapid literature review. Our results suggest that PaC research is\nin its infancy, especially regarding the performance evaluation and usability\nassessment of the existing approaches. Based on these findings, we outline and\ndiscuss prospective research directions concerning empirical studies with\nsoftware practitioners, the curation of benchmark datasets, and the role of\ngenerative AI technologies.",
+    "updated" : "2024-12-21T15:30:17Z",
+    "published" : "2024-12-21T15:30:17Z",
+    "authors" : [
+      {
+        "name" : "Nicolás E. Díaz Ferreyra"
+      },
+      {
+        "name" : "Sirine Khelifi"
+      },
+      {
+        "name" : "Nalin Arachchilage"
+      },
+      {
+        "name" : "Riccardo Scandariato"
+      }
+    ],
+    "categories" : [
+      "cs.SE",
+      "cs.CY",
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.16504v1",
+    "title" : "Privacy in Fine-tuning Large Language Models: Attacks, Defenses, and\n  Future Directions",
+    "summary" : "Fine-tuning has emerged as a critical process in leveraging Large Language\nModels (LLMs) for specific downstream tasks, enabling these models to achieve\nstate-of-the-art performance across various domains. However, the fine-tuning\nprocess often involves sensitive datasets, introducing privacy risks that\nexploit the unique characteristics of this stage. In this paper, we provide a\ncomprehensive survey of privacy challenges associated with fine-tuning LLMs,\nhighlighting vulnerabilities to various privacy attacks, including membership\ninference, data extraction, and backdoor attacks. We further review defense\nmechanisms designed to mitigate privacy risks in the fine-tuning phase, such as\ndifferential privacy, federated learning, and knowledge unlearning, discussing\ntheir effectiveness and limitations in addressing privacy risks and maintaining\nmodel utility. By identifying key gaps in existing research, we highlight\nchallenges and propose directions to advance the development of\nprivacy-preserving methods for fine-tuning LLMs, promoting their responsible\nuse in diverse applications.",
+    "updated" : "2024-12-21T06:41:29Z",
+    "published" : "2024-12-21T06:41:29Z",
+    "authors" : [
+      {
+        "name" : "Hao Du"
+      },
+      {
+        "name" : "Shang Liu"
+      },
+      {
+        "name" : "Lele Zheng"
+      },
+      {
+        "name" : "Yang Cao"
+      },
+      {
+        "name" : "Atsuyoshi Nakamura"
+      },
+      {
+        "name" : "Lei Chen"
+      }
+    ],
+    "categories" : [
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.16369v1",
+    "title" : "Navigating AI to Unpack Youth Privacy Concerns: An In-Depth Exploration\n  and Systematic Review",
+    "summary" : "This systematic literature review investigates perceptions, concerns, and\nexpectations of young digital citizens regarding privacy in artificial\nintelligence (AI) systems, focusing on social media platforms, educational\ntechnology, gaming systems, and recommendation algorithms. Using a rigorous\nmethodology, the review started with 2,000 papers, narrowed down to 552 after\ninitial screening, and finally refined to 108 for detailed analysis. Data\nextraction focused on privacy concerns, data-sharing practices, the balance\nbetween privacy and utility, trust factors in AI, transparency expectations,\nand strategies to enhance user control over personal data. Findings reveal\nsignificant privacy concerns among young users, including a perceived lack of\ncontrol over personal information, potential misuse of data by AI, and fears of\ndata breaches and unauthorized access. These issues are worsened by unclear\ndata collection practices and insufficient transparency in AI applications. The\nintention to share data is closely associated with perceived benefits and data\nprotection assurances. The study also highlights the role of parental mediation\nand the need for comprehensive education on data privacy. Balancing privacy and\nutility in AI applications is crucial, as young digital citizens value\npersonalized services but remain wary of privacy risks. Trust in AI is\nsignificantly influenced by transparency, reliability, predictable behavior,\nand clear communication about data usage. Strategies to improve user control\nover personal data include access to and correction of data, clear consent\nmechanisms, and robust data protection assurances. The review identifies\nresearch gaps and suggests future directions, such as longitudinal studies,\nmulticultural comparisons, and the development of ethical AI frameworks.",
+    "updated" : "2024-12-20T22:00:06Z",
+    "published" : "2024-12-20T22:00:06Z",
+    "authors" : [
+      {
+        "name" : "Ajay Kumar Shrestha"
+      },
+      {
+        "name" : "Ankur Barthwal"
+      },
+      {
+        "name" : "Molly Campbell"
+      },
+      {
+        "name" : "Austin Shouli"
+      },
+      {
+        "name" : "Saad Syed"
+      },
+      {
+        "name" : "Sandhya Joshi"
+      },
+      {
+        "name" : "Julita Vassileva"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.16246v1",
+    "title" : "Web Privacy based on Contextual Integrity: Measuring the Collapse of\n  Online Contexts",
+    "summary" : "The collapse of social contexts has been amplified by digital infrastructures\nbut surprisingly received insufficient attention from Web privacy scholars.\nUsers are persistently identified within and across distinct web contexts, in\nvarying degrees, through and by different websites and trackers, losing the\nability to maintain a fragmented identity. To systematically evaluate this\nstructural privacy harm we operationalize the theory of Privacy as Contextual\nIntegrity and measure persistent user identification within and between\ndistinct Web contexts. We crawl the top-700 popular websites across the\ncontexts of health, finance, news & media, LGBTQ, eCommerce, adult, and\neducation websites, for 27 days, to learn how persistent browser identification\nvia third-party cookies and JavaScript fingerprinting is diffused within and\nbetween web contexts. Past work measured Web tracking in bulk, highlighting the\nvolume of trackers and tracking techniques. These measurements miss a crucial\nprivacy implication of Web tracking - the collapse of online contexts. Our\nfindings reveal how persistent browser identification varies between and within\ncontexts, diffusing user IDs to different distances, contrasting known tracking\ndistributions across websites, and conducted as a joint or separate effort via\ncookie IDs and JS fingerprinting. Our network analysis can inform the\nconstruction of browser storage containers to protect users against real-time\ncontext collapse. This is a first modest step in measuring Web privacy as\ncontextual integrity, opening new avenues for contextual Web privacy research.",
+    "updated" : "2024-12-19T23:30:29Z",
+    "published" : "2024-12-19T23:30:29Z",
+    "authors" : [
+      {
+        "name" : "Ido Sivan-Sevilla"
+      },
+      {
+        "name" : "Parthav Poudel"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CY",
+      "cs.HC"
+    ]
   }
 ]
