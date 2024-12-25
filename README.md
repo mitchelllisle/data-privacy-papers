@@ -32,13 +32,13 @@ outperforms baselines.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.17038v1">ErasableMask: A Robust and Erasable Privacy Protection Scheme against
+  <h3><a href="http://arxiv.org/abs/2412.17038v2">ErasableMask: A Robust and Erasable Privacy Protection Scheme against
   Black-box Face Recognition Models</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
   <p><b>Published on:</b> 2024-12-22T14:30:26Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Sipeng Shen, Yunming Zhang, Dengpan Ye, Xiuwen Shi, Long Tang, Haoran Duan, Ziyi Liu</p>
+    <p><b>Authors:</b> Sipeng Shen, Yunming Zhang, Dengpan Ye, Xiuwen Shi, Long Tang, Haoran Duan, Jiacheng Deng, Ziyi Liu</p>
     <p><b>Summary:</b> While face recognition (FR) models have brought remarkable convenience in
 face verification and identification, they also pose substantial privacy risks
 to the public. Existing facial privacy protection schemes usually adopt
