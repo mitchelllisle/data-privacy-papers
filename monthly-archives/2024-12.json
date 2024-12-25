@@ -2526,5 +2526,42 @@
       "cs.CY",
       "cs.HC"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.17038v2",
+    "title" : "ErasableMask: A Robust and Erasable Privacy Protection Scheme against\n  Black-box Face Recognition Models",
+    "summary" : "While face recognition (FR) models have brought remarkable convenience in\nface verification and identification, they also pose substantial privacy risks\nto the public. Existing facial privacy protection schemes usually adopt\nadversarial examples to disrupt face verification of FR models. However, these\nschemes often suffer from weak transferability against black-box FR models and\npermanently damage the identifiable information that cannot fulfill the\nrequirements of authorized operations such as forensics and authentication. To\naddress these limitations, we propose ErasableMask, a robust and erasable\nprivacy protection scheme against black-box FR models. Specifically, via\nrethinking the inherent relationship between surrogate FR models, ErasableMask\nintroduces a novel meta-auxiliary attack, which boosts black-box\ntransferability by learning more general features in a stable and balancing\noptimization strategy. It also offers a perturbation erasion mechanism that\nsupports the erasion of semantic perturbations in protected face without\ndegrading image quality. To further improve performance, ErasableMask employs a\ncurriculum learning strategy to mitigate optimization conflicts between\nadversarial attack and perturbation erasion. Extensive experiments on the\nCelebA-HQ and FFHQ datasets demonstrate that ErasableMask achieves the\nstate-of-the-art performance in transferability, achieving over 72% confidence\non average in commercial FR systems. Moreover, ErasableMask also exhibits\noutstanding perturbation erasion performance, achieving over 90% erasion\nsuccess rate.",
+    "updated" : "2024-12-24T09:15:14Z",
+    "published" : "2024-12-22T14:30:26Z",
+    "authors" : [
+      {
+        "name" : "Sipeng Shen"
+      },
+      {
+        "name" : "Yunming Zhang"
+      },
+      {
+        "name" : "Dengpan Ye"
+      },
+      {
+        "name" : "Xiuwen Shi"
+      },
+      {
+        "name" : "Long Tang"
+      },
+      {
+        "name" : "Haoran Duan"
+      },
+      {
+        "name" : "Jiacheng Deng"
+      },
+      {
+        "name" : "Ziyi Liu"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI"
+    ]
   }
 ]
