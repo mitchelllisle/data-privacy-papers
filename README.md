@@ -2,6 +2,122 @@
 <h2>2024-12</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2412.19496v1">Multi-P$^2$A: A Multi-perspective Benchmark on Privacy Assessment for
+  Large Vision-Language Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2024-12-27T07:33:39Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jie Zhang, Xiangkui Cao, Zhouyu Han, Shiguang Shan, Xilin Chen</p>
+    <p><b>Summary:</b> Large Vision-Language Models (LVLMs) exhibit impressive potential across
+various tasks but also face significant privacy risks, limiting their practical
+applications. Current researches on privacy assessment for LVLMs is limited in
+scope, with gaps in both assessment dimensions and privacy categories. To
+bridge this gap, we propose Multi-P$^2$A, a comprehensive benchmark for
+evaluating the privacy preservation capabilities of LVLMs in terms of privacy
+awareness and leakage. Privacy awareness measures the model's ability to
+recognize the privacy sensitivity of input data, while privacy leakage assesses
+the risk of the model unintentionally disclosing privacy information in its
+output. We design a range of sub-tasks to thoroughly evaluate the model's
+privacy protection offered by LVLMs. Multi-P$^2$A covers 26 categories of
+personal privacy, 15 categories of trade secrets, and 18 categories of state
+secrets, totaling 31,962 samples. Based on Multi-P$^2$A, we evaluate the
+privacy preservation capabilities of 21 open-source and 2 closed-source LVLMs.
+Our results reveal that current LVLMs generally pose a high risk of
+facilitating privacy breaches, with vulnerabilities varying across personal
+privacy, trade secret, and state secret.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2412.19291v1">RAG with Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-12-26T17:34:26Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Nicolas Grislain</p>
+    <p><b>Summary:</b> Retrieval-Augmented Generation (RAG) has emerged as the dominant technique to
+provide *Large Language Models* (LLM) with fresh and relevant context,
+mitigating the risk of hallucinations and improving the overall quality of
+responses in environments with large and fast moving knowledge bases. However,
+the integration of external documents into the generation process raises
+significant privacy concerns. Indeed, when added to a prompt, it is not
+possible to guarantee a response will not inadvertently expose confidential
+data, leading to potential breaches of privacy and ethical dilemmas. This paper
+explores a practical solution to this problem suitable to general knowledge
+extraction from personal data. It shows *differentially private token
+generation* is a viable approach to private RAG.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2412.18992v1">Optimal Federated Learning for Functional Mean Estimation under
+  Heterogeneous Privacy Constraints</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">  
+  <p><b>Published on:</b> 2024-12-25T22:06:12Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Tony Cai, Abhinav Chakraborty, Lasse Vuursteen</p>
+    <p><b>Summary:</b> Federated learning (FL) is a distributed machine learning technique designed
+to preserve data privacy and security, and it has gained significant importance
+due to its broad range of applications. This paper addresses the problem of
+optimal functional mean estimation from discretely sampled data in a federated
+setting.
+  We consider a heterogeneous framework where the number of individuals,
+measurements per individual, and privacy parameters vary across one or more
+servers, under both common and independent design settings. In the common
+design setting, the same design points are measured for each individual,
+whereas in the independent design, each individual has their own random
+collection of design points. Within this framework, we establish minimax upper
+and lower bounds for the estimation error of the underlying mean function,
+highlighting the nuanced differences between common and independent designs
+under distributed privacy constraints.
+  We propose algorithms that achieve the optimal trade-off between privacy and
+accuracy and provide optimality results that quantify the fundamental limits of
+private functional mean estimation across diverse distributed settings. These
+results characterize the cost of privacy and offer practical insights into the
+potential for privacy-preserving statistical analysis in federated
+environments.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2412.18716v1">Design and Evaluation of Privacy-Preserving Protocols for
+  Agent-Facilitated Mobile Money Services in Kenya</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2024-12-25T00:27:13Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Karen Sowon, Collins W. Munyendo, Lily Klucinec, Eunice Maingi, Gerald Suleh, Lorrie Faith Cranor, Giulia Fanti, Conrad Tucker, Assane Gueye</p>
+    <p><b>Summary:</b> Mobile Money (MoMo), a technology that allows users to complete digital
+financial transactions using a mobile phone without requiring a bank account,
+has become a common method for processing financial transactions in Africa and
+other developing regions. Operationally, users can deposit (exchange cash for
+mobile money tokens) and withdraw with the help of human agents who facilitate
+a near end-to-end process from customer onboarding to authentication and
+recourse. During deposit and withdraw operations, know-your-customer (KYC)
+processes require agents to access and verify customer information such as name
+and ID number, which can introduce privacy and security risks. In this work, we
+design alternative protocols for mobile money deposits and withdrawals that
+protect users' privacy while enabling KYC checks. These workflows redirect the
+flow of sensitive information from the agent to the MoMo provider, thus
+allowing the agent to facilitate transactions without accessing a customer's
+personal information. We evaluate the usability and efficiency of our proposed
+protocols in a role play and semi-structured interview study with 32 users and
+15 agents in Kenya. We find that users and agents both generally appear to
+prefer the new protocols, due in part to convenient and efficient verification
+using biometrics, better data privacy and access control, as well as better
+security mechanisms for delegated transactions. Our results also highlight some
+challenges and limitations that suggest the need for more work to build
+deployable solutions.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2412.17317v1">Better Knowledge Enhancement for Privacy-Preserving Cross-Project Defect
   Prediction</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
@@ -2931,111 +3047,6 @@ across multiple institutions. Our framework is the first privacy-preserving
 solution for high-dimensional domain adaptation in federated environments,
 offering a promising tool for fields like computational biology and medicine,
 where protecting sensitive data is essential.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.17035v1">Achieving Privacy Utility Balance for Multivariate Time Series Data</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-11-26T01:59:38Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Gaurab Hore, Tucker McElroy, Anindya Roy</p>
-    <p><b>Summary:</b> Utility-preserving data privatization is of utmost importance for
-data-producing agencies. The popular noise-addition privacy mechanism distorts
-autocorrelation patterns in time series data, thereby marring utility; in
-response, McElroy et al. (2023) introduced all-pass filtering (FLIP) as a
-utility-preserving time series data privatization method. Adapting this concept
-to multivariate data is more complex, and in this paper we propose a
-multivariate all-pass (MAP) filtering method, employing an optimization
-algorithm to achieve the best balance between data utility and privacy
-protection. To test the effectiveness of our approach, we apply MAP filtering
-to both simulated and real data, sourced from the U.S. Census Bureau's
-Quarterly Workforce Indicator (QWI) dataset.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.17758v1">PP-LEM: Efficient and Privacy-Preserving Clearance Mechanism for Local
-  Energy Markets</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Science and Game Theory-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-11-26T00:22:31Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Kamil Erdayandi, Mustafa Asan Mustafa</p>
-    <p><b>Summary:</b> In this paper, we propose a novel Privacy-Preserving clearance mechanism for
-Local Energy Markets (PP-LEM), designed for computational efficiency and social
-welfare. PP-LEM incorporates a novel competitive game-theoretical clearance
-mechanism, modelled as a Stackelberg Game. Based on this mechanism, a
-privacy-preserving market model is developed using a partially homomorphic
-cryptosystem, allowing buyers' reaction function calculations to be executed
-over encrypted data without exposing sensitive information of both buyers and
-sellers. The comprehensive performance evaluation demonstrates that PP-LEM is
-highly effective in delivering an incentive clearance mechanism with
-computational efficiency, enabling it to clear the market for 200 users within
-the order of seconds while concurrently protecting user privacy. Compared to
-the state of the art, PP-LEM achieves improved computational efficiency without
-compromising social welfare while still providing user privacy protection.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.16516v1">Curator Attack: When Blackbox Differential Privacy Auditing Loses Its
-  Power</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-11-25T16:00:04Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shiming Wang, Liyao Xiang, Bowei Cheng, Zhe Ji, Tianran Sun, Xinbing Wang</p>
-    <p><b>Summary:</b> A surge in data-driven applications enhances everyday life but also raises
-serious concerns about private information leakage. Hence many privacy auditing
-tools are emerging for checking if the data sanitization performed meets the
-privacy standard of the data owner. Blackbox auditing for differential privacy
-is particularly gaining popularity for its effectiveness and applicability to a
-wide range of scenarios. Yet, we identified that blackbox auditing is
-essentially flawed with its setting: small probabilities or densities are
-ignored due to inaccurate observation. Our argument is based on a solid false
-positive analysis from a hypothesis testing perspective, which is missed out by
-prior blackbox auditing tools. This oversight greatly reduces the reliability
-of these tools, as it allows malicious or incapable data curators to pass the
-auditing with an overstated privacy guarantee, posing significant risks to data
-owners. We demonstrate the practical existence of such threats in classical
-differential privacy mechanisms against four representative blackbox auditors
-with experimental validations. Our findings aim to reveal the limitations of
-blackbox auditing tools, empower the data owner with the awareness of risks in
-using these tools, and encourage the development of more reliable differential
-privacy auditing methods.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.16440v1">AnonyNoise: Anonymizing Event Data with Smart Noise to Outsmart
-  Re-Identification and Preserve Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2024-11-25T14:43:03Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Katharina Bendig, René Schuster, Nicole Thiemer, Karen Joisten, Didier Stricker</p>
-    <p><b>Summary:</b> The increasing capabilities of deep neural networks for re-identification,
-combined with the rise in public surveillance in recent years, pose a
-substantial threat to individual privacy. Event cameras were initially
-considered as a promising solution since their output is sparse and therefore
-difficult for humans to interpret. However, recent advances in deep learning
-proof that neural networks are able to reconstruct high-quality grayscale
-images and re-identify individuals using data from event cameras. In our paper,
-we contribute a crucial ethical discussion on data privacy and present the
-first event anonymization pipeline to prevent re-identification not only by
-humans but also by neural networks. Our method effectively introduces learnable
-data-dependent noise to cover personally identifiable information in raw event
-data, reducing attackers' re-identification capabilities by up to 60%, while
-maintaining substantial information for the performing of downstream tasks.
-Moreover, our anonymization generalizes well on unseen data and is robust
-against image reconstruction and inversion attacks. Code:
-https://github.com/dfki-av/AnonyNoise</p>
   </details>
 </div>
 
