@@ -2563,5 +2563,114 @@
       "cs.CV",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.19496v1",
+    "title" : "Multi-P$^2$A: A Multi-perspective Benchmark on Privacy Assessment for\n  Large Vision-Language Models",
+    "summary" : "Large Vision-Language Models (LVLMs) exhibit impressive potential across\nvarious tasks but also face significant privacy risks, limiting their practical\napplications. Current researches on privacy assessment for LVLMs is limited in\nscope, with gaps in both assessment dimensions and privacy categories. To\nbridge this gap, we propose Multi-P$^2$A, a comprehensive benchmark for\nevaluating the privacy preservation capabilities of LVLMs in terms of privacy\nawareness and leakage. Privacy awareness measures the model's ability to\nrecognize the privacy sensitivity of input data, while privacy leakage assesses\nthe risk of the model unintentionally disclosing privacy information in its\noutput. We design a range of sub-tasks to thoroughly evaluate the model's\nprivacy protection offered by LVLMs. Multi-P$^2$A covers 26 categories of\npersonal privacy, 15 categories of trade secrets, and 18 categories of state\nsecrets, totaling 31,962 samples. Based on Multi-P$^2$A, we evaluate the\nprivacy preservation capabilities of 21 open-source and 2 closed-source LVLMs.\nOur results reveal that current LVLMs generally pose a high risk of\nfacilitating privacy breaches, with vulnerabilities varying across personal\nprivacy, trade secret, and state secret.",
+    "updated" : "2024-12-27T07:33:39Z",
+    "published" : "2024-12-27T07:33:39Z",
+    "authors" : [
+      {
+        "name" : "Jie Zhang"
+      },
+      {
+        "name" : "Xiangkui Cao"
+      },
+      {
+        "name" : "Zhouyu Han"
+      },
+      {
+        "name" : "Shiguang Shan"
+      },
+      {
+        "name" : "Xilin Chen"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.19291v1",
+    "title" : "RAG with Differential Privacy",
+    "summary" : "Retrieval-Augmented Generation (RAG) has emerged as the dominant technique to\nprovide *Large Language Models* (LLM) with fresh and relevant context,\nmitigating the risk of hallucinations and improving the overall quality of\nresponses in environments with large and fast moving knowledge bases. However,\nthe integration of external documents into the generation process raises\nsignificant privacy concerns. Indeed, when added to a prompt, it is not\npossible to guarantee a response will not inadvertently expose confidential\ndata, leading to potential breaches of privacy and ethical dilemmas. This paper\nexplores a practical solution to this problem suitable to general knowledge\nextraction from personal data. It shows *differentially private token\ngeneration* is a viable approach to private RAG.",
+    "updated" : "2024-12-26T17:34:26Z",
+    "published" : "2024-12-26T17:34:26Z",
+    "authors" : [
+      {
+        "name" : "Nicolas Grislain"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.18992v1",
+    "title" : "Optimal Federated Learning for Functional Mean Estimation under\n  Heterogeneous Privacy Constraints",
+    "summary" : "Federated learning (FL) is a distributed machine learning technique designed\nto preserve data privacy and security, and it has gained significant importance\ndue to its broad range of applications. This paper addresses the problem of\noptimal functional mean estimation from discretely sampled data in a federated\nsetting.\n  We consider a heterogeneous framework where the number of individuals,\nmeasurements per individual, and privacy parameters vary across one or more\nservers, under both common and independent design settings. In the common\ndesign setting, the same design points are measured for each individual,\nwhereas in the independent design, each individual has their own random\ncollection of design points. Within this framework, we establish minimax upper\nand lower bounds for the estimation error of the underlying mean function,\nhighlighting the nuanced differences between common and independent designs\nunder distributed privacy constraints.\n  We propose algorithms that achieve the optimal trade-off between privacy and\naccuracy and provide optimality results that quantify the fundamental limits of\nprivate functional mean estimation across diverse distributed settings. These\nresults characterize the cost of privacy and offer practical insights into the\npotential for privacy-preserving statistical analysis in federated\nenvironments.",
+    "updated" : "2024-12-25T22:06:12Z",
+    "published" : "2024-12-25T22:06:12Z",
+    "authors" : [
+      {
+        "name" : "Tony Cai"
+      },
+      {
+        "name" : "Abhinav Chakraborty"
+      },
+      {
+        "name" : "Lasse Vuursteen"
+      }
+    ],
+    "categories" : [
+      "math.ST",
+      "cs.LG",
+      "stat.TH",
+      "62G08, 62G20"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.18716v1",
+    "title" : "Design and Evaluation of Privacy-Preserving Protocols for\n  Agent-Facilitated Mobile Money Services in Kenya",
+    "summary" : "Mobile Money (MoMo), a technology that allows users to complete digital\nfinancial transactions using a mobile phone without requiring a bank account,\nhas become a common method for processing financial transactions in Africa and\nother developing regions. Operationally, users can deposit (exchange cash for\nmobile money tokens) and withdraw with the help of human agents who facilitate\na near end-to-end process from customer onboarding to authentication and\nrecourse. During deposit and withdraw operations, know-your-customer (KYC)\nprocesses require agents to access and verify customer information such as name\nand ID number, which can introduce privacy and security risks. In this work, we\ndesign alternative protocols for mobile money deposits and withdrawals that\nprotect users' privacy while enabling KYC checks. These workflows redirect the\nflow of sensitive information from the agent to the MoMo provider, thus\nallowing the agent to facilitate transactions without accessing a customer's\npersonal information. We evaluate the usability and efficiency of our proposed\nprotocols in a role play and semi-structured interview study with 32 users and\n15 agents in Kenya. We find that users and agents both generally appear to\nprefer the new protocols, due in part to convenient and efficient verification\nusing biometrics, better data privacy and access control, as well as better\nsecurity mechanisms for delegated transactions. Our results also highlight some\nchallenges and limitations that suggest the need for more work to build\ndeployable solutions.",
+    "updated" : "2024-12-25T00:27:13Z",
+    "published" : "2024-12-25T00:27:13Z",
+    "authors" : [
+      {
+        "name" : "Karen Sowon"
+      },
+      {
+        "name" : "Collins W. Munyendo"
+      },
+      {
+        "name" : "Lily Klucinec"
+      },
+      {
+        "name" : "Eunice Maingi"
+      },
+      {
+        "name" : "Gerald Suleh"
+      },
+      {
+        "name" : "Lorrie Faith Cranor"
+      },
+      {
+        "name" : "Giulia Fanti"
+      },
+      {
+        "name" : "Conrad Tucker"
+      },
+      {
+        "name" : "Assane Gueye"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.HC"
+    ]
   }
 ]
