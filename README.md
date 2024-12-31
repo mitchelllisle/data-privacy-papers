@@ -2,6 +2,179 @@
 <h2>2024-12</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2412.21069v1">Privacy-Aware Multi-Device Cooperative Edge Inference with Distributed
+  Resource Bidding</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
+  <p><b>Published on:</b> 2024-12-30T16:37:17Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Wenhao Zhuang, Yuyi Mao</p>
+    <p><b>Summary:</b> Mobile edge computing (MEC) has empowered mobile devices (MDs) in supporting
+artificial intelligence (AI) applications through collaborative efforts with
+proximal MEC servers. Unfortunately, despite the great promise of device-edge
+cooperative AI inference, data privacy becomes an increasing concern. In this
+paper, we develop a privacy-aware multi-device cooperative edge inference
+system for classification tasks, which integrates a distributed bidding
+mechanism for the MEC server's computational resources. Intermediate feature
+compression is adopted as a principled approach to minimize data privacy
+leakage. To determine the bidding values and feature compression ratios in a
+distributed fashion, we formulate a decentralized partially observable Markov
+decision process (DEC-POMDP) model, for which, a multi-agent deep deterministic
+policy gradient (MADDPG)-based algorithm is developed. Simulation results
+demonstrate the effectiveness of the proposed algorithm in privacy-preserving
+cooperative edge inference. Specifically, given a sufficient level of data
+privacy protection, the proposed algorithm achieves 0.31-0.95% improvements in
+classification accuracy compared to the approach being agnostic to the wireless
+channel conditions. The performance is further enhanced by 1.54-1.67% by
+considering the difficulties of inference data.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2412.20798v1">A Tale of Two Imperatives: Privacy and Explainability</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2024-12-30T08:43:28Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Supriya Manna, Niladri Sett</p>
+    <p><b>Summary:</b> Deep learning's preponderance across scientific domains has reshaped
+high-stakes decision-making, making it essential to follow rigorous operational
+frameworks that include both Right-to-Privacy (RTP) and Right-to-Explanation
+(RTE). This paper examines the complexities of combining these two
+requirements. For RTP, we focus on 'Differentially privacy' (DP), which is
+considered the current gold standard for privacy-preserving machine learning
+due to its strong quantitative guarantee of privacy. For RTE, we focus on
+post-hoc explainers: they are the go-to option for model auditing as they
+operate independently of model training. We formally investigate (DP) models
+and various commonly-used post-hoc explainers: how to evaluate these explainers
+subject to RTP, and analyze the intrinsic interactions between DP models and
+these explainers. Furthermore, our work throws light on how RTP and RTE can be
+effectively combined in high-stakes applications. Our study concludes by
+outlining an industrial software pipeline, with the example of a wildly used
+use-case, that respects both RTP and RTE requirements.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2412.20762v1">Enhancing Privacy in Federated Learning through Quantum Teleportation
+  Integration</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">  
+  <p><b>Published on:</b> 2024-12-30T07:15:21Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Koffka Khan</p>
+    <p><b>Summary:</b> Federated learning enables collaborative model training across multiple
+clients without sharing raw data, thereby enhancing privacy. However, the
+exchange of model updates can still expose sensitive information. Quantum
+teleportation, a process that transfers quantum states between distant
+locations without physical transmission of the particles themselves, has
+recently been implemented in real-world networks. This position paper explores
+the potential of integrating quantum teleportation into federated learning
+frameworks to bolster privacy. By leveraging quantum entanglement and the
+no-cloning theorem, quantum teleportation ensures that data remains secure
+during transmission, as any eavesdropping attempt would be detectable. We
+propose a novel architecture where quantum teleportation facilitates the secure
+exchange of model parameters and gradients among clients and servers. This
+integration aims to mitigate risks associated with data leakage and adversarial
+attacks inherent in classical federated learning setups. We also discuss the
+practical challenges of implementing such a system, including the current
+limitations of quantum network infrastructure and the need for hybrid
+quantum-classical protocols. Our analysis suggests that, despite these
+challenges, the convergence of quantum communication technologies and federated
+learning presents a promising avenue for achieving unprecedented levels of
+privacy in distributed machine learning.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2412.20733v1">Towards nation-wide analytical healthcare infrastructures: A
+  privacy-preserving augmented knee rehabilitation case study</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Multimedia-5BC0EB">
+  <p><b>Published on:</b> 2024-12-30T06:14:48Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Boris Bačić, Claudiu Vasile, Chengwei Feng, Marian G. Ciucă</p>
+    <p><b>Summary:</b> The purpose of this paper is to contribute towards the near-future
+privacy-preserving big data analytical healthcare platforms, capable of
+processing streamed or uploaded timeseries data or videos from patients. The
+experimental work includes a real-life knee rehabilitation video dataset
+capturing a set of exercises from simple and personalised to more general and
+challenging movements aimed for returning to sport. To convert video from
+mobile into privacy-preserving diagnostic timeseries data, we employed Google
+MediaPipe pose estimation. The developed proof-of-concept algorithms can
+augment knee exercise videos by overlaying the patient with stick figure
+elements while updating generated timeseries plot with knee angle estimation
+streamed as CSV file format. For patients and physiotherapists, video with
+side-to-side timeseries visually indicating potential issues such as excessive
+knee flexion or unstable knee movements or stick figure overlay errors is
+possible by setting a-priori knee-angle parameters. To address adherence to
+rehabilitation programme and quantify exercise sets and repetitions, our
+adaptive algorithm can correctly identify (91.67%-100%) of all exercises from
+side- and front-view videos. Transparent algorithm design for adaptive visual
+analysis of various knee exercise patterns contributes towards the
+interpretable AI and will inform near-future privacy-preserving, non-vendor
+locking, open-source developments for both end-user computing devices and as
+on-premises non-proprietary cloud platforms that can be deployed within the
+national healthcare system.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2412.20641v1">SafeSynthDP: Leveraging Large Language Models for Privacy-Preserving
+  Synthetic Data Generation Using Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-12-30T01:10:10Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Md Mahadi Hasan Nahid, Sadid Bin Hasan</p>
+    <p><b>Summary:</b> Machine learning (ML) models frequently rely on training data that may
+include sensitive or personal information, raising substantial privacy
+concerns. Legislative frameworks such as the General Data Protection Regulation
+(GDPR) and the California Consumer Privacy Act (CCPA) have necessitated the
+development of strategies that preserve privacy while maintaining the utility
+of data. In this paper, we investigate the capability of Large Language Models
+(LLMs) to generate synthetic datasets integrated with Differential Privacy (DP)
+mechanisms, thereby enabling data-driven research and model training without
+direct exposure of sensitive information. Our approach incorporates DP-based
+noise injection methods, including Laplace and Gaussian distributions, into the
+data generation process. We then evaluate the utility of these DP-enhanced
+synthetic datasets by comparing the performance of ML models trained on them
+against models trained on the original data. To substantiate privacy
+guarantees, we assess the resilience of the generated synthetic data to
+membership inference attacks and related threats. The experimental results
+demonstrate that integrating DP within LLM-driven synthetic data generation
+offers a viable balance between privacy protection and data utility. This study
+provides a foundational methodology and insight into the privacy-preserving
+capabilities of LLMs, paving the way for compliant and effective ML research
+and applications.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2412.20603v1">Privacy-Preserving Identity and Access Management in Multiple Cloud
+  Environments: Models, Issues, and Solutions</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2024-12-29T22:15:19Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Alfredo Cuzzocrea, Islam Belmerabet</p>
+    <p><b>Summary:</b> This paper focuses the attention on privacy-preserving identity and access
+management in multiple Cloud environments, which is an annoying problem in the
+modern big data era. Within this conceptual context, the paper describes
+contemporaneous models and issues, and put the basis for future solid
+solutions. Finally, we provide a summary table where we embed an innovative
+taxonomy of state-of-the-art research proposals in the reference scientific
+field.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2412.19496v1">Multi-P$^2$A: A Multi-perspective Benchmark on Privacy Assessment for
   Large Vision-Language Models</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
@@ -118,6 +291,38 @@ deployable solutions.</p>
 
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2412.19837v1">Data Poisoning Attacks to Local Differential Privacy Protocols for
+  Graphs</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
+  <p><b>Published on:</b> 2024-12-23T11:16:23Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xi He, Kai Huang, Qingqing Ye, Haibo Hu</p>
+    <p><b>Summary:</b> Graph analysis has become increasingly popular with the prevalence of big
+data and machine learning. Traditional graph data analysis methods often assume
+the existence of a trusted third party to collect and store the graph data,
+which does not align with real-world situations. To address this, some research
+has proposed utilizing Local Differential Privacy (LDP) to collect graph data
+or graph metrics (e.g., clustering coefficient). This line of research focuses
+on collecting two atomic graph metrics (the adjacency bit vectors and node
+degrees) from each node locally under LDP to synthesize an entire graph or
+generate graph metrics. However, they have not considered the security issues
+of LDP for graphs.
+  In this paper, we bridge the gap by demonstrating that an attacker can inject
+fake users into LDP protocols for graphs and design data poisoning attacks to
+degrade the quality of graph metrics. In particular, we present three data
+poisoning attacks to LDP protocols for graphs. As a proof of concept, we focus
+on data poisoning attacks on two classical graph metrics: degree centrality and
+clustering coefficient. We further design two countermeasures for these data
+poisoning attacks. Experimental study on real-world datasets demonstrates that
+our attacks can largely degrade the quality of collected graph metrics, and the
+proposed countermeasures cannot effectively offset the effect, which calls for
+the development of new defenses.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2412.17317v1">Better Knowledge Enhancement for Privacy-Preserving Cross-Project Defect
   Prediction</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
@@ -148,7 +353,7 @@ outperforms baselines.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.17038v2">ErasableMask: A Robust and Erasable Privacy Protection Scheme against
+  <h3><a href="http://arxiv.org/abs/2412.17038v3">ErasableMask: A Robust and Erasable Privacy Protection Scheme against
   Black-box Face Recognition Models</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
   <p><b>Published on:</b> 2024-12-22T14:30:26Z</p>
@@ -1336,13 +1541,13 @@ anti-reconstruction capabilities.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.07687v1">Privacy-Preserving Customer Support: A Framework for Secure and Scalable
+  <h3><a href="http://arxiv.org/abs/2412.07687v2">Privacy-Preserving Customer Support: A Framework for Secure and Scalable
   Interactions</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
   <p><b>Published on:</b> 2024-12-10T17:20:47Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Anant Prakash Awasthi, Chandraketu Singh, Rakshit Varma, Sanchit Sharma</p>
+    <p><b>Authors:</b> Anant Prakash Awasthi, Girdhar Gopal Agarwal, Chandraketu Singh, Rakshit Varma, Sanchit Sharma</p>
     <p><b>Summary:</b> The growing reliance on artificial intelligence (AI) in customer support has
 significantly improved operational efficiency and user experience. However,
 traditional machine learning (ML) approaches, which require extensive local
@@ -2831,222 +3036,6 @@ perturbations and output perturbations which are customizable by the users and
 can allow them to navigate the trade-off between utility and privacy. We also
 demonstrate the usefulness of our framework via experiments and highlight the
 resulting trade-offs between utility and privacy during inference.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.18380v1">SoK: Privacy Personalised -- Mapping Personal Attributes \& Preferences
-  of Privacy Mechanisms for Shoulder Surfing</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2024-11-27T14:27:47Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Habiba Farzand, Karola Marky, Mohamed Khamis</p>
-    <p><b>Summary:</b> Shoulder surfing is a byproduct of smartphone use that enables bystanders to
-access personal information (such as text and photos) by making screen
-observations without consent. To mitigate this, several protection mechanisms
-have been proposed to protect user privacy. However, the mechanisms that users
-prefer remain unexplored. This paper explores correlations between personal
-attributes and properties of shoulder surfing protection mechanisms. For this,
-we first conducted a structured literature review and identified ten protection
-mechanism categories against content-based shoulder surfing. We then surveyed
-N=192 users and explored correlations between personal attributes and
-properties of shoulder surfing protection mechanisms. Our results show that
-users agreed that the presented mechanisms assisted in protecting their
-privacy, but they preferred non-digital alternatives. Among the mechanisms,
-participants mainly preferred an icon overlay mechanism followed by a tangible
-mechanism. We also found that users who prioritized out-of-device privacy and a
-high tendency to interact with technology favoured the personalisation of
-protection mechanisms. On the contrary, age and smartphone OS did not impact
-users' preference for perceived usefulness and personalisation of mechanisms.
-Based on the results, we present key takeaways to support the design of future
-protection mechanisms.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.18269v1">Hidden Data Privacy Breaches in Federated Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-11-27T12:04:37Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Xueluan Gong, Yuji Wang, Shuaike Li, Mengyuan Sun, Songze Li, Qian Wang, Kwok-Yan Lam, Chen Chen</p>
-    <p><b>Summary:</b> Federated Learning (FL) emerged as a paradigm for conducting machine learning
-across broad and decentralized datasets, promising enhanced privacy by
-obviating the need for direct data sharing. However, recent studies show that
-attackers can steal private data through model manipulation or gradient
-analysis. Existing attacks are constrained by low theft quantity or
-low-resolution data, and they are often detected through anomaly monitoring in
-gradients or weights. In this paper, we propose a novel data-reconstruction
-attack leveraging malicious code injection, supported by two key techniques,
-i.e., distinctive and sparse encoding design and block partitioning. Unlike
-conventional methods that require detectable changes to the model, our method
-stealthily embeds a hidden model using parameter sharing to systematically
-extract sensitive data. The Fibonacci-based index design ensures efficient,
-structured retrieval of memorized data, while the block partitioning method
-enhances our method's capability to handle high-resolution images by dividing
-them into smaller, manageable units. Extensive experiments on 4 datasets
-confirmed that our method is superior to the five state-of-the-art
-data-reconstruction attacks under the five respective detection methods. Our
-method can handle large-scale and high-resolution data without being detected
-or mitigated by state-of-the-art data reconstruction defense methods. In
-contrast to baselines, our method can be directly applied to both FedAVG and
-FedSGD scenarios, underscoring the need for developers to devise new defenses
-against such vulnerabilities. We will open-source our code upon acceptance.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.18653v1">PRSI: Privacy-Preserving Recommendation Model Based on Vector Splitting
-  and Interactive Protocols</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2024-11-27T05:14:15Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Xiaokai Cao, Wenjin Mo, Zhenyu He, Changdong Wang</p>
-    <p><b>Summary:</b> With the development of the internet, recommending interesting products to
-users has become a highly valuable research topic for businesses.
-Recommendation systems play a crucial role in addressing this issue. To prevent
-the leakage of each user's (client's) private data, Federated Recommendation
-Systems (FedRec) have been proposed and widely used. However, extensive
-research has shown that FedRec suffers from security issues such as data
-privacy leakage, and it is challenging to train effective models with FedRec
-when each client only holds interaction information for a single user. To
-address these two problems, this paper proposes a new privacy-preserving
-recommendation system (PRSI), which includes a preprocessing module and two
-main phases. The preprocessing module employs split vectors and fake
-interaction items to protect clients' interaction information and
-recommendation results. The two main phases are: (1) the collection of
-interaction information and (2) the sending of recommendation results. In the
-interaction information collection phase, each client uses the preprocessing
-module and random communication methods (according to the designed interactive
-protocol) to protect their ID information and IP addresses. In the
-recommendation results sending phase, the central server uses the preprocessing
-module and triplets to distribute recommendation results to each client under
-secure conditions, following the designed interactive protocol. Finally, we
-conducted multiple sets of experiments to verify the security, accuracy, and
-communication cost of the proposed method.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.18027v1">Privacy-preserving Robotic-based Multi-factor Authentication Scheme for
-  Secure Automated Delivery System</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-11-27T03:48:00Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yang Yang, Aryan Mohammadi Pasikhani, Prosanta Gope, Biplab Sikdar</p>
-    <p><b>Summary:</b> Package delivery is a critical aspect of various industries, but it often
-incurs high financial costs and inefficiencies when relying solely on human
-resources. The last-mile transport problem, in particular, contributes
-significantly to the expenditure of human resources in major companies.
-Robot-based delivery systems have emerged as a potential solution for last-mile
-delivery to address this challenge. However, robotic delivery systems still
-face security and privacy issues, like impersonation, replay, man-in-the-middle
-attacks (MITM), unlinkability, and identity theft. In this context, we propose
-a privacy-preserving multi-factor authentication scheme specifically designed
-for robot delivery systems. Additionally, AI-assisted robotic delivery systems
-are susceptible to machine learning-based attacks (e.g. FGSM, PGD, etc.). We
-introduce the \emph{first} transformer-based audio-visual fusion defender to
-tackle this issue, which effectively provides resilience against adversarial
-samples. Furthermore, we provide a rigorous formal analysis of the proposed
-protocol and also analyse the protocol security using a popular symbolic proof
-tool called ProVerif and Scyther. Finally, we present a real-world
-implementation of the proposed robotic system with the computation cost and
-energy consumption analysis. Code and pre-trained models are available at:
-https://drive.google.com/drive/folders/18B2YbxtV0Pyj5RSFX-ZzCGtFOyorBHil</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.17589v1">Privacy-Preserving Behaviour of Chatbot Users: Steering Through Trust
-  Dynamics</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2024-11-26T16:55:58Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Julia Ive, Vishal Yadav, Mariia Ignashina, Matthew Rand, Paulina Bondaronek</p>
-    <p><b>Summary:</b> Introduction: The use of chatbots is becoming increasingly important across
-various aspects of daily life. However, the privacy concerns associated with
-these communications have not yet been thoroughly addressed. The aim of this
-study was to investigate user awareness of privacy risks in chatbot
-interactions, the privacy-preserving behaviours users practice, and how these
-behaviours relate to their awareness of privacy threats, even when no immediate
-threat is perceived. Methods: We developed a novel "privacy-safe" setup to
-analyse user behaviour under the guarantees of anonymization and non-sharing.
-We employed a mixed-methods approach, starting with the quantification of
-broader trends by coding responses, followed by conducting a qualitative
-content analysis to gain deeper insights. Results: Overall, there was a
-substantial lack of understanding among users about how chatbot providers
-handle data (27% of the participants) and the basics of privacy risks (76% of
-the participants). Older users, in particular, expressed fears that chatbot
-providers might sell their data. Moreover, even users with privacy knowledge do
-not consistently exhibit privacy-preserving behaviours when assured of
-transparent data processing by chatbots. Notably, under-protective behaviours
-were observed among more expert users. Discussion: These findings highlight the
-need for a strategic approach to enhance user education on privacy concepts to
-ensure informed decision when interacting with chatbot technology. This
-includes the development of tools to help users monitor and control the
-information they share with chatbots</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.17321v1">A Framework for the Security and Privacy of Biometric System
-  Constructions under Defined Computational Assumptions</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-11-26T11:10:11Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Sam Grierson, William J Buchanan, Craig Thomson, Baraq Galeb, Chris Eckl</p>
-    <p><b>Summary:</b> Biometric systems, while offering convenient authentication, often fall short
-in providing rigorous security assurances. A primary reason is the ad-hoc
-design of protocols and components, which hinders the establishment of
-comprehensive security proofs. This paper introduces a formal framework for
-constructing secure and privacy-preserving biometric systems. By leveraging the
-principles of universal composability, we enable the modular analysis and
-verification of individual system components. This approach allows us to derive
-strong security and privacy properties for the entire system, grounded in
-well-defined computational assumptions.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.17287v1">Privacy Preserving Federated Unsupervised Domain Adaptation with
-  Application to Age Prediction from DNA Methylation Data</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-11-26T10:19:16Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Cem Ata Baykara, Ali Burak Ünal, Nico Pfeifer, Mete Akgün</p>
-    <p><b>Summary:</b> In computational biology, predictive models are widely used to address
-complex tasks, but their performance can suffer greatly when applied to data
-from different distributions. The current state-of-the-art domain adaptation
-method for high-dimensional data aims to mitigate these issues by aligning the
-input dependencies between training and test data. However, this approach
-requires centralized access to both source and target domain data, raising
-concerns about data privacy, especially when the data comes from multiple
-sources. In this paper, we introduce a privacy-preserving federated framework
-for unsupervised domain adaptation in high-dimensional settings. Our method
-employs federated training of Gaussian processes and weighted elastic nets to
-effectively address the problem of distribution shift between domains, while
-utilizing secure aggregation and randomized encoding to protect the local data
-of participating data owners. We evaluate our framework on the task of age
-prediction using DNA methylation data from multiple tissues, demonstrating that
-our approach performs comparably to existing centralized methods while
-maintaining data privacy, even in distributed environments where data is spread
-across multiple institutions. Our framework is the first privacy-preserving
-solution for high-dimensional domain adaptation in federated environments,
-offering a promising tool for fields like computational biology and medicine,
-where protecting sensitive data is essential.</p>
   </details>
 </div>
 
