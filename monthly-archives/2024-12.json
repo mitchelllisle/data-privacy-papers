@@ -2672,5 +2672,221 @@
       "cs.CR",
       "cs.HC"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.21069v1",
+    "title" : "Privacy-Aware Multi-Device Cooperative Edge Inference with Distributed\n  Resource Bidding",
+    "summary" : "Mobile edge computing (MEC) has empowered mobile devices (MDs) in supporting\nartificial intelligence (AI) applications through collaborative efforts with\nproximal MEC servers. Unfortunately, despite the great promise of device-edge\ncooperative AI inference, data privacy becomes an increasing concern. In this\npaper, we develop a privacy-aware multi-device cooperative edge inference\nsystem for classification tasks, which integrates a distributed bidding\nmechanism for the MEC server's computational resources. Intermediate feature\ncompression is adopted as a principled approach to minimize data privacy\nleakage. To determine the bidding values and feature compression ratios in a\ndistributed fashion, we formulate a decentralized partially observable Markov\ndecision process (DEC-POMDP) model, for which, a multi-agent deep deterministic\npolicy gradient (MADDPG)-based algorithm is developed. Simulation results\ndemonstrate the effectiveness of the proposed algorithm in privacy-preserving\ncooperative edge inference. Specifically, given a sufficient level of data\nprivacy protection, the proposed algorithm achieves 0.31-0.95% improvements in\nclassification accuracy compared to the approach being agnostic to the wireless\nchannel conditions. The performance is further enhanced by 1.54-1.67% by\nconsidering the difficulties of inference data.",
+    "updated" : "2024-12-30T16:37:17Z",
+    "published" : "2024-12-30T16:37:17Z",
+    "authors" : [
+      {
+        "name" : "Wenhao Zhuang"
+      },
+      {
+        "name" : "Yuyi Mao"
+      }
+    ],
+    "categories" : [
+      "eess.SY",
+      "cs.LG",
+      "cs.NI",
+      "cs.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.20798v1",
+    "title" : "A Tale of Two Imperatives: Privacy and Explainability",
+    "summary" : "Deep learning's preponderance across scientific domains has reshaped\nhigh-stakes decision-making, making it essential to follow rigorous operational\nframeworks that include both Right-to-Privacy (RTP) and Right-to-Explanation\n(RTE). This paper examines the complexities of combining these two\nrequirements. For RTP, we focus on 'Differentially privacy' (DP), which is\nconsidered the current gold standard for privacy-preserving machine learning\ndue to its strong quantitative guarantee of privacy. For RTE, we focus on\npost-hoc explainers: they are the go-to option for model auditing as they\noperate independently of model training. We formally investigate (DP) models\nand various commonly-used post-hoc explainers: how to evaluate these explainers\nsubject to RTP, and analyze the intrinsic interactions between DP models and\nthese explainers. Furthermore, our work throws light on how RTP and RTE can be\neffectively combined in high-stakes applications. Our study concludes by\noutlining an industrial software pipeline, with the example of a wildly used\nuse-case, that respects both RTP and RTE requirements.",
+    "updated" : "2024-12-30T08:43:28Z",
+    "published" : "2024-12-30T08:43:28Z",
+    "authors" : [
+      {
+        "name" : "Supriya Manna"
+      },
+      {
+        "name" : "Niladri Sett"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.20762v1",
+    "title" : "Enhancing Privacy in Federated Learning through Quantum Teleportation\n  Integration",
+    "summary" : "Federated learning enables collaborative model training across multiple\nclients without sharing raw data, thereby enhancing privacy. However, the\nexchange of model updates can still expose sensitive information. Quantum\nteleportation, a process that transfers quantum states between distant\nlocations without physical transmission of the particles themselves, has\nrecently been implemented in real-world networks. This position paper explores\nthe potential of integrating quantum teleportation into federated learning\nframeworks to bolster privacy. By leveraging quantum entanglement and the\nno-cloning theorem, quantum teleportation ensures that data remains secure\nduring transmission, as any eavesdropping attempt would be detectable. We\npropose a novel architecture where quantum teleportation facilitates the secure\nexchange of model parameters and gradients among clients and servers. This\nintegration aims to mitigate risks associated with data leakage and adversarial\nattacks inherent in classical federated learning setups. We also discuss the\npractical challenges of implementing such a system, including the current\nlimitations of quantum network infrastructure and the need for hybrid\nquantum-classical protocols. Our analysis suggests that, despite these\nchallenges, the convergence of quantum communication technologies and federated\nlearning presents a promising avenue for achieving unprecedented levels of\nprivacy in distributed machine learning.",
+    "updated" : "2024-12-30T07:15:21Z",
+    "published" : "2024-12-30T07:15:21Z",
+    "authors" : [
+      {
+        "name" : "Koffka Khan"
+      }
+    ],
+    "categories" : [
+      "quant-ph",
+      "cs.CR",
+      "cs.CY",
+      "cs.LG",
+      "68T07 (Primary), 68M14, 94A60 (Secondary)",
+      "F.2.2; I.2.7; K.4.1; C.2.4"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.20733v1",
+    "title" : "Towards nation-wide analytical healthcare infrastructures: A\n  privacy-preserving augmented knee rehabilitation case study",
+    "summary" : "The purpose of this paper is to contribute towards the near-future\nprivacy-preserving big data analytical healthcare platforms, capable of\nprocessing streamed or uploaded timeseries data or videos from patients. The\nexperimental work includes a real-life knee rehabilitation video dataset\ncapturing a set of exercises from simple and personalised to more general and\nchallenging movements aimed for returning to sport. To convert video from\nmobile into privacy-preserving diagnostic timeseries data, we employed Google\nMediaPipe pose estimation. The developed proof-of-concept algorithms can\naugment knee exercise videos by overlaying the patient with stick figure\nelements while updating generated timeseries plot with knee angle estimation\nstreamed as CSV file format. For patients and physiotherapists, video with\nside-to-side timeseries visually indicating potential issues such as excessive\nknee flexion or unstable knee movements or stick figure overlay errors is\npossible by setting a-priori knee-angle parameters. To address adherence to\nrehabilitation programme and quantify exercise sets and repetitions, our\nadaptive algorithm can correctly identify (91.67%-100%) of all exercises from\nside- and front-view videos. Transparent algorithm design for adaptive visual\nanalysis of various knee exercise patterns contributes towards the\ninterpretable AI and will inform near-future privacy-preserving, non-vendor\nlocking, open-source developments for both end-user computing devices and as\non-premises non-proprietary cloud platforms that can be deployed within the\nnational healthcare system.",
+    "updated" : "2024-12-30T06:14:48Z",
+    "published" : "2024-12-30T06:14:48Z",
+    "authors" : [
+      {
+        "name" : "Boris Bačić"
+      },
+      {
+        "name" : "Claudiu Vasile"
+      },
+      {
+        "name" : "Chengwei Feng"
+      },
+      {
+        "name" : "Marian G. Ciucă"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI",
+      "cs.CY",
+      "cs.MM"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.20641v1",
+    "title" : "SafeSynthDP: Leveraging Large Language Models for Privacy-Preserving\n  Synthetic Data Generation Using Differential Privacy",
+    "summary" : "Machine learning (ML) models frequently rely on training data that may\ninclude sensitive or personal information, raising substantial privacy\nconcerns. Legislative frameworks such as the General Data Protection Regulation\n(GDPR) and the California Consumer Privacy Act (CCPA) have necessitated the\ndevelopment of strategies that preserve privacy while maintaining the utility\nof data. In this paper, we investigate the capability of Large Language Models\n(LLMs) to generate synthetic datasets integrated with Differential Privacy (DP)\nmechanisms, thereby enabling data-driven research and model training without\ndirect exposure of sensitive information. Our approach incorporates DP-based\nnoise injection methods, including Laplace and Gaussian distributions, into the\ndata generation process. We then evaluate the utility of these DP-enhanced\nsynthetic datasets by comparing the performance of ML models trained on them\nagainst models trained on the original data. To substantiate privacy\nguarantees, we assess the resilience of the generated synthetic data to\nmembership inference attacks and related threats. The experimental results\ndemonstrate that integrating DP within LLM-driven synthetic data generation\noffers a viable balance between privacy protection and data utility. This study\nprovides a foundational methodology and insight into the privacy-preserving\ncapabilities of LLMs, paving the way for compliant and effective ML research\nand applications.",
+    "updated" : "2024-12-30T01:10:10Z",
+    "published" : "2024-12-30T01:10:10Z",
+    "authors" : [
+      {
+        "name" : "Md Mahadi Hasan Nahid"
+      },
+      {
+        "name" : "Sadid Bin Hasan"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.20603v1",
+    "title" : "Privacy-Preserving Identity and Access Management in Multiple Cloud\n  Environments: Models, Issues, and Solutions",
+    "summary" : "This paper focuses the attention on privacy-preserving identity and access\nmanagement in multiple Cloud environments, which is an annoying problem in the\nmodern big data era. Within this conceptual context, the paper describes\ncontemporaneous models and issues, and put the basis for future solid\nsolutions. Finally, we provide a summary table where we embed an innovative\ntaxonomy of state-of-the-art research proposals in the reference scientific\nfield.",
+    "updated" : "2024-12-29T22:15:19Z",
+    "published" : "2024-12-29T22:15:19Z",
+    "authors" : [
+      {
+        "name" : "Alfredo Cuzzocrea"
+      },
+      {
+        "name" : "Islam Belmerabet"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.19837v1",
+    "title" : "Data Poisoning Attacks to Local Differential Privacy Protocols for\n  Graphs",
+    "summary" : "Graph analysis has become increasingly popular with the prevalence of big\ndata and machine learning. Traditional graph data analysis methods often assume\nthe existence of a trusted third party to collect and store the graph data,\nwhich does not align with real-world situations. To address this, some research\nhas proposed utilizing Local Differential Privacy (LDP) to collect graph data\nor graph metrics (e.g., clustering coefficient). This line of research focuses\non collecting two atomic graph metrics (the adjacency bit vectors and node\ndegrees) from each node locally under LDP to synthesize an entire graph or\ngenerate graph metrics. However, they have not considered the security issues\nof LDP for graphs.\n  In this paper, we bridge the gap by demonstrating that an attacker can inject\nfake users into LDP protocols for graphs and design data poisoning attacks to\ndegrade the quality of graph metrics. In particular, we present three data\npoisoning attacks to LDP protocols for graphs. As a proof of concept, we focus\non data poisoning attacks on two classical graph metrics: degree centrality and\nclustering coefficient. We further design two countermeasures for these data\npoisoning attacks. Experimental study on real-world datasets demonstrates that\nour attacks can largely degrade the quality of collected graph metrics, and the\nproposed countermeasures cannot effectively offset the effect, which calls for\nthe development of new defenses.",
+    "updated" : "2024-12-23T11:16:23Z",
+    "published" : "2024-12-23T11:16:23Z",
+    "authors" : [
+      {
+        "name" : "Xi He"
+      },
+      {
+        "name" : "Kai Huang"
+      },
+      {
+        "name" : "Qingqing Ye"
+      },
+      {
+        "name" : "Haibo Hu"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DB"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.17038v3",
+    "title" : "ErasableMask: A Robust and Erasable Privacy Protection Scheme against\n  Black-box Face Recognition Models",
+    "summary" : "While face recognition (FR) models have brought remarkable convenience in\nface verification and identification, they also pose substantial privacy risks\nto the public. Existing facial privacy protection schemes usually adopt\nadversarial examples to disrupt face verification of FR models. However, these\nschemes often suffer from weak transferability against black-box FR models and\npermanently damage the identifiable information that cannot fulfill the\nrequirements of authorized operations such as forensics and authentication. To\naddress these limitations, we propose ErasableMask, a robust and erasable\nprivacy protection scheme against black-box FR models. Specifically, via\nrethinking the inherent relationship between surrogate FR models, ErasableMask\nintroduces a novel meta-auxiliary attack, which boosts black-box\ntransferability by learning more general features in a stable and balancing\noptimization strategy. It also offers a perturbation erasion mechanism that\nsupports the erasion of semantic perturbations in protected face without\ndegrading image quality. To further improve performance, ErasableMask employs a\ncurriculum learning strategy to mitigate optimization conflicts between\nadversarial attack and perturbation erasion. Extensive experiments on the\nCelebA-HQ and FFHQ datasets demonstrate that ErasableMask achieves the\nstate-of-the-art performance in transferability, achieving over 72% confidence\non average in commercial FR systems. Moreover, ErasableMask also exhibits\noutstanding perturbation erasion performance, achieving over 90% erasion\nsuccess rate.",
+    "updated" : "2024-12-29T19:06:48Z",
+    "published" : "2024-12-22T14:30:26Z",
+    "authors" : [
+      {
+        "name" : "Sipeng Shen"
+      },
+      {
+        "name" : "Yunming Zhang"
+      },
+      {
+        "name" : "Dengpan Ye"
+      },
+      {
+        "name" : "Xiuwen Shi"
+      },
+      {
+        "name" : "Long Tang"
+      },
+      {
+        "name" : "Haoran Duan"
+      },
+      {
+        "name" : "Jiacheng Deng"
+      },
+      {
+        "name" : "Ziyi Liu"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.07687v2",
+    "title" : "Privacy-Preserving Customer Support: A Framework for Secure and Scalable\n  Interactions",
+    "summary" : "The growing reliance on artificial intelligence (AI) in customer support has\nsignificantly improved operational efficiency and user experience. However,\ntraditional machine learning (ML) approaches, which require extensive local\ntraining on sensitive datasets, pose substantial privacy risks and compliance\nchallenges with regulations like the General Data Protection Regulation (GDPR)\nand California Consumer Privacy Act (CCPA). Existing privacy-preserving\ntechniques, such as anonymization, differential privacy, and federated\nlearning, address some concerns but face limitations in utility, scalability,\nand complexity. This paper introduces the Privacy-Preserving Zero-Shot Learning\n(PP-ZSL) framework, a novel approach leveraging large language models (LLMs) in\na zero-shot learning mode. Unlike conventional ML methods, PP-ZSL eliminates\nthe need for local training on sensitive data by utilizing pre-trained LLMs to\ngenerate responses directly. The framework incorporates real-time data\nanonymization to redact or mask sensitive information, retrieval-augmented\ngeneration (RAG) for domain-specific query resolution, and robust\npost-processing to ensure compliance with regulatory standards. This\ncombination reduces privacy risks, simplifies compliance, and enhances\nscalability and operational efficiency. Empirical analysis demonstrates that\nthe PP-ZSL framework provides accurate, privacy-compliant responses while\nsignificantly lowering the costs and complexities of deploying AI-driven\ncustomer support systems. The study highlights potential applications across\nindustries, including financial services, healthcare, e-commerce, legal\nsupport, telecommunications, and government services. By addressing the dual\nchallenges of privacy and performance, this framework establishes a foundation\nfor secure, efficient, and regulatory-compliant AI applications in customer\ninteractions.",
+    "updated" : "2024-12-30T08:29:09Z",
+    "published" : "2024-12-10T17:20:47Z",
+    "authors" : [
+      {
+        "name" : "Anant Prakash Awasthi"
+      },
+      {
+        "name" : "Girdhar Gopal Agarwal"
+      },
+      {
+        "name" : "Chandraketu Singh"
+      },
+      {
+        "name" : "Rakshit Varma"
+      },
+      {
+        "name" : "Sanchit Sharma"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "stat.AP"
+    ]
   }
 ]
