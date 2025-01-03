@@ -2888,5 +2888,78 @@
       "cs.CR",
       "stat.AP"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.20798v2",
+    "title" : "A Tale of Two Imperatives: Privacy and Explainability",
+    "summary" : "Deep learning's preponderance across scientific domains has reshaped\nhigh-stakes decision-making, making it essential to follow rigorous operational\nframeworks that include both Right-to-Privacy (RTP) and Right-to-Explanation\n(RTE). This paper examines the complexities of combining these two\nrequirements. For RTP, we focus on `Differential privacy' (DP), which is\nconsidered the current \\textit{gold standard} for privacy-preserving machine\nlearning due to its strong quantitative guarantee of privacy. For RTE, we focus\non post-hoc explainers: they are the \\textit{go-to} option for model auditing\nas they operate independently of model training. We formally investigate DP\nmodels and various commonly-used post-hoc explainers: how to evaluate these\nexplainers subject to RTP, and analyze the intrinsic interactions between DP\nmodels and these explainers. Furthermore, our work throws light on how RTP and\nRTE can be effectively combined in high-stakes applications. Our study\nconcludes by outlining an industrial software pipeline, with the example of a\nwildly used use-case, that respects both RTP and RTE requirements.",
+    "updated" : "2024-12-31T16:13:54Z",
+    "published" : "2024-12-30T08:43:28Z",
+    "authors" : [
+      {
+        "name" : "Supriya Manna"
+      },
+      {
+        "name" : "Niladri Sett"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.14832v2",
+    "title" : "Federated Heavy Hitter Analytics with Local Differential Privacy",
+    "summary" : "Federated heavy hitter analytics enables service providers to better\nunderstand the preferences of cross-party users by analyzing the most frequent\nitems. As with federated learning, it faces challenges of privacy concerns,\nstatistical heterogeneity, and expensive communication. Local differential\nprivacy (LDP), as the de facto standard for privacy-preserving data collection,\nsolves the privacy challenge by letting each user perturb her data locally and\nreport the sanitized version. However, in federated settings, applying LDP\ncomplicates the other two challenges, due to the deteriorated utility by the\ninjected LDP noise or increasing communication/computation costs by\nperturbation mechanism. To tackle these problems, we propose a novel\ntarget-aligning prefix tree mechanism satisfying $\\epsilon$-LDP, for federated\nheavy hitter analytics. In particular, we propose an adaptive extension\nstrategy to address the inconsistencies between covering necessary prefixes and\nestimating heavy hitters within a party to enhance the utility. We also present\na consensus-based pruning strategy that utilizes noisy prior knowledge from\nother parties to further align the inconsistency between finding heavy hitters\nin each party and providing reasonable frequency information to identify the\nglobal ones. To the best of our knowledge, our study is the first solution to\nthe federated heavy hitter analytics in a cross-party setting while satisfying\nthe stringent $\\epsilon$-LDP. Comprehensive experiments on both real-world and\nsynthetic datasets confirm the effectiveness of our proposed mechanism.",
+    "updated" : "2025-01-02T11:24:40Z",
+    "published" : "2024-12-19T13:20:32Z",
+    "authors" : [
+      {
+        "name" : "Yuemin Zhang"
+      },
+      {
+        "name" : "Qingqing Ye"
+      },
+      {
+        "name" : "Haibo Hu"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DB"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.07687v2",
+    "title" : "Privacy-Preserving Customer Support: A Framework for Secure and Scalable\n  Interactions",
+    "summary" : "The growing reliance on artificial intelligence (AI) in customer support has\nsignificantly improved operational efficiency and user experience. However,\ntraditional machine learning (ML) approaches, which require extensive local\ntraining on sensitive datasets, pose substantial privacy risks and compliance\nchallenges with regulations like the General Data Protection Regulation (GDPR)\nand California Consumer Privacy Act (CCPA). Existing privacy-preserving\ntechniques, such as anonymization, differential privacy, and federated\nlearning, address some concerns but face limitations in utility, scalability,\nand complexity. This paper introduces the Privacy-Preserving Zero-Shot Learning\n(PP-ZSL) framework, a novel approach leveraging large language models (LLMs) in\na zero-shot learning mode. Unlike conventional ML methods, PP-ZSL eliminates\nthe need for local training on sensitive data by utilizing pre-trained LLMs to\ngenerate responses directly. The framework incorporates real-time data\nanonymization to redact or mask sensitive information, retrieval-augmented\ngeneration (RAG) for domain-specific query resolution, and robust\npost-processing to ensure compliance with regulatory standards. This\ncombination reduces privacy risks, simplifies compliance, and enhances\nscalability and operational efficiency. Empirical analysis demonstrates that\nthe PP-ZSL framework provides accurate, privacy-compliant responses while\nsignificantly lowering the costs and complexities of deploying AI-driven\ncustomer support systems. The study highlights potential applications across\nindustries, including financial services, healthcare, e-commerce, legal\nsupport, telecommunications, and government services. By addressing the dual\nchallenges of privacy and performance, this framework establishes a foundation\nfor secure, efficient, and regulatory-compliant AI applications in customer\ninteractions.",
+    "updated" : "2024-12-30T08:29:09Z",
+    "published" : "2024-12-10T17:20:47Z",
+    "authors" : [
+      {
+        "name" : "Anant Prakash Awasthi"
+      },
+      {
+        "name" : "Girdhar Gopal Agarwal"
+      },
+      {
+        "name" : "Chandraketu Singh"
+      },
+      {
+        "name" : "Rakshit Varma"
+      },
+      {
+        "name" : "Sanchit Sharma"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "stat.AP",
+      "stat.ME",
+      "stat.ML"
+    ]
   }
 ]
