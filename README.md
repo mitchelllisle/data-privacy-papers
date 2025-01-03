@@ -32,7 +32,7 @@ considering the difficulties of inference data.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.20798v1">A Tale of Two Imperatives: Privacy and Explainability</a></h3>
+  <h3><a href="http://arxiv.org/abs/2412.20798v2">A Tale of Two Imperatives: Privacy and Explainability</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
   <p><b>Published on:</b> 2024-12-30T08:43:28Z</p>
   <details>
@@ -42,17 +42,17 @@ considering the difficulties of inference data.</p>
 high-stakes decision-making, making it essential to follow rigorous operational
 frameworks that include both Right-to-Privacy (RTP) and Right-to-Explanation
 (RTE). This paper examines the complexities of combining these two
-requirements. For RTP, we focus on 'Differentially privacy' (DP), which is
-considered the current gold standard for privacy-preserving machine learning
-due to its strong quantitative guarantee of privacy. For RTE, we focus on
-post-hoc explainers: they are the go-to option for model auditing as they
-operate independently of model training. We formally investigate (DP) models
-and various commonly-used post-hoc explainers: how to evaluate these explainers
-subject to RTP, and analyze the intrinsic interactions between DP models and
-these explainers. Furthermore, our work throws light on how RTP and RTE can be
-effectively combined in high-stakes applications. Our study concludes by
-outlining an industrial software pipeline, with the example of a wildly used
-use-case, that respects both RTP and RTE requirements.</p>
+requirements. For RTP, we focus on `Differential privacy' (DP), which is
+considered the current \textit{gold standard} for privacy-preserving machine
+learning due to its strong quantitative guarantee of privacy. For RTE, we focus
+on post-hoc explainers: they are the \textit{go-to} option for model auditing
+as they operate independently of model training. We formally investigate DP
+models and various commonly-used post-hoc explainers: how to evaluate these
+explainers subject to RTP, and analyze the intrinsic interactions between DP
+models and these explainers. Furthermore, our work throws light on how RTP and
+RTE can be effectively combined in high-stakes applications. Our study
+concludes by outlining an industrial software pipeline, with the example of a
+wildly used use-case, that respects both RTP and RTE requirements.</p>
   </details>
 </div>
 
@@ -750,7 +750,7 @@ explanations that help contextualize detected risks.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.14832v1">Federated Heavy Hitter Analytics with Local Differential Privacy</a></h3>
+  <h3><a href="http://arxiv.org/abs/2412.14832v2">Federated Heavy Hitter Analytics with Local Differential Privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
   <p><b>Published on:</b> 2024-12-19T13:20:32Z</p>
   <details>
@@ -760,12 +760,12 @@ explanations that help contextualize detected risks.</p>
 understand the preferences of cross-party users by analyzing the most frequent
 items. As with federated learning, it faces challenges of privacy concerns,
 statistical heterogeneity, and expensive communication. Local differential
-privacy (LDP), as the \textit{de facto} standard for privacy-preserving data
-collection, solves the privacy challenge by letting each user perturb her data
-locally and report the sanitized version. However, in federated settings,
-applying LDP complicates the other two challenges, due to the deteriorated
-utility by the injected LDP noise or increasing communication/computation costs
-by perturbation mechanism. To tackle these problems, we propose a novel
+privacy (LDP), as the de facto standard for privacy-preserving data collection,
+solves the privacy challenge by letting each user perturb her data locally and
+report the sanitized version. However, in federated settings, applying LDP
+complicates the other two challenges, due to the deteriorated utility by the
+injected LDP noise or increasing communication/computation costs by
+perturbation mechanism. To tackle these problems, we propose a novel
 target-aligning prefix tree mechanism satisfying $\epsilon$-LDP, for federated
 heavy hitter analytics. In particular, we propose an adaptive extension
 strategy to address the inconsistencies between covering necessary prefixes and
@@ -1543,7 +1543,7 @@ anti-reconstruction capabilities.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2412.07687v2">Privacy-Preserving Customer Support: A Framework for Secure and Scalable
   Interactions</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">   
   <p><b>Published on:</b> 2024-12-10T17:20:47Z</p>
   <details>
     <summary>More Details</summary>
