@@ -2961,5 +2961,55 @@
       "stat.ME",
       "stat.ML"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.00588v1",
+    "title" : "Privacy-Preserving Distributed Defense Framework for DC Microgrids\n  Against Exponentially Unbounded False Data Injection Attacks",
+    "summary" : "This paper introduces a novel, fully distributed control framework for DC\nmicrogrids, enhancing resilience against exponentially unbounded false data\ninjection (EU-FDI) attacks. Our framework features a consensus-based secondary\ncontrol for each converter, effectively addressing these advanced threats. To\nfurther safeguard sensitive operational data, a privacy-preserving mechanism is\nincorporated into the control design, ensuring that critical information\nremains secure even under adversarial conditions. Rigorous Lyapunov stability\nanalysis confirms the framework's ability to maintain critical DC microgrid\noperations like voltage regulation and load sharing under EU-FDI threats. The\nframework's practicality is validated through hardware-in-the-loop experiments,\ndemonstrating its enhanced resilience and robust privacy protection against the\ncomplex challenges posed by quick variant FDI attacks.",
+    "updated" : "2024-12-31T18:25:05Z",
+    "published" : "2024-12-31T18:25:05Z",
+    "authors" : [
+      {
+        "name" : "Yi Zhang"
+      },
+      {
+        "name" : "Mohamadamin Rajabinezhad"
+      },
+      {
+        "name" : "Yichao Wang"
+      },
+      {
+        "name" : "Junbo Zhao"
+      },
+      {
+        "name" : "Shan Zuo"
+      }
+    ],
+    "categories" : [
+      "eess.SY",
+      "cs.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.00363v1",
+    "title" : "SPDZCoder: Teaching LLMs to Synthesize Privacy Computing Code without\n  Massive Training Data",
+    "summary" : "Privacy computing receives increasing attention but writing privacy computing\ncode remains challenging for developers due to limited library functions that\nnecessitate extensive function implementation from scratch as well as the\ndata-oblivious requirement which contradicts intuitive thinking and usual\npractices of programmers. Large language models (LLMs) have demonstrated\nsurprising capabilities in coding tasks and achieved state-of-the-art\nperformance across many benchmarks. However, even with extensive prompting,\nexisting LLMs struggle with code translation task for privacy computing, such\nas translating Python to MP-SPDZ, due to the scarcity of MP-SPDZ data required\nfor effective pre-training or fine-tuning. To address the limitation, this\npaper proposes SPDZCoder, a rule-based framework to teach LLMs to synthesize\nprivacy computing code without asking experts to write tons of code and by\nleveraging the instruction-following and in-context learning ability of LLMs.\nSpecifically, SPDZCoder decouples the translation task into the refactoring\nstage and the generation stage, which can mitigate the semantic-expressing\ndifferences at different levels. In addition, SPDZCoder can further improve its\nperformance by a feedback stage. SPDZCoder does not require fine-tuning since\nit adopts an in-context learning paradigm of LLMs. To evaluate SPDZCoder, we\nmanually created a benchmark dataset, named SPDZEval, containing six classes of\ndifficult tasks to implement in MP-SPDZ. We conduct experiments on SPDZEval and\nthe experimental results shows that SPDZCoder achieves the state-of-the-art\nperformance in pass@1 and pass@2 across six data splits. Specifically,\nSPDZCoder achieves an overall correctness of 85.94% and 92.01% in pass@1 and\npass@2, respectively, significantly surpassing baselines (at most 30.35% and\n49.84% in pass@1 and pass@2, respectively) by a large margin.",
+    "updated" : "2024-12-31T09:29:38Z",
+    "published" : "2024-12-31T09:29:38Z",
+    "authors" : [
+      {
+        "name" : "Xiaoning Dong"
+      },
+      {
+        "name" : "Peilin Xin"
+      },
+      {
+        "name" : "Wei Xu"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.SE"
+    ]
   }
 ]
