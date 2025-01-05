@@ -1,5 +1,184 @@
 
+<h2>2025-01</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.01353v1">Privacy Preservation in MIMO-OFDM Localization Systems: A Beamforming
+  Approach</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
+  <p><b>Published on:</b> 2025-01-02T17:08:15Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yuchen Zhang, Hui Chen, Musa Furkan Keskin, Alireza Pourafzal, Pinjun Zheng, Henk Wymeersch, Tareq Y. Al-Naffouri</p>
+    <p><b>Summary:</b> We investigate an uplink MIMO-OFDM localization scenario where a legitimate
+base station (BS) aims to localize a user equipment (UE) using pilot signals
+transmitted by the UE, while an unauthorized BS attempts to localize the UE by
+eavesdropping on these pilots, posing a risk to the UE's location privacy. To
+enhance legitimate localization performance while protecting the UE's privacy,
+we formulate an optimization problem regarding the beamformers at the UE,
+aiming to minimize the Cram\'er-Rao bound (CRB) for legitimate localization
+while constraining the CRB for unauthorized localization above a threshold. A
+penalty dual decomposition optimization framework is employed to solve the
+problem, leading to a novel beamforming approach for location privacy
+preservation. Numerical results confirm the effectiveness of the proposed
+approach and demonstrate its superiority over existing benchmarks.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.01131v1">Privacy Bills of Materials: A Transparent Privacy Information Inventory
+  for Collaborative Privacy Notice Generation in Mobile App Development</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
+  <p><b>Published on:</b> 2025-01-02T08:14:52Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zhen Tao, Shidong Pan, Zhenchang Xing, Xiaoyu Sun, Omar Haggag, John Grundy, Ze Shi Li, Jingjie Li, Liming Zhu</p>
+    <p><b>Summary:</b> Privacy regulations mandate that developers must provide authentic and
+comprehensive privacy notices, e.g., privacy policies or labels, to inform
+users of their apps' privacy practices. However, due to a lack of knowledge of
+privacy requirements, developers often struggle to create accurate privacy
+notices, especially for sophisticated mobile apps with complex features and in
+crowded development teams. To address these challenges, we introduce Privacy
+Bills of Materials (PriBOM), a systematic software engineering approach that
+leverages different development team roles to better capture and coordinate
+mobile app privacy information. PriBOM facilitates transparency-centric privacy
+documentation and specific privacy notice creation, enabling traceability and
+trackability of privacy practices. We present a pre-fill of PriBOM based on
+static analysis and privacy notice analysis techniques. We demonstrate the
+perceived usefulness of PriBOM through a human evaluation with 150 diverse
+participants. Our findings suggest that PriBOM could serve as a significant
+solution for providing privacy support in DevOps for mobile apps.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.01063v1">FAPL-DM-BC: A Secure and Scalable FL Framework with Adaptive Privacy and
+  Dynamic Masking, Blockchain, and XAI for the IoVs</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-01-02T05:21:52Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Sathwik Narkedimilli, Amballa Venkata Sriram, Sujith Makam, MSVPJ Sathvik, Sai Prashanth Mallellu</p>
+    <p><b>Summary:</b> The FAPL-DM-BC solution is a new FL-based privacy, security, and scalability
+solution for the Internet of Vehicles (IoV). It leverages Federated Adaptive
+Privacy-Aware Learning (FAPL) and Dynamic Masking (DM) to learn and adaptively
+change privacy policies in response to changing data sensitivity and state in
+real-time, for the optimal privacy-utility tradeoff. Secure Logging and
+Verification, Blockchain-based provenance and decentralized validation, and
+Cloud Microservices Secure Aggregation using FedAvg (Federated Averaging) and
+Secure Multi-Party Computation (SMPC). Two-model feedback, driven by
+Model-Agnostic Explainable AI (XAI), certifies local predictions and
+explanations to drive it to the next level of efficiency. Combining local
+feedback with world knowledge through a weighted mean computation, FAPL-DM-BC
+assures federated learning that is secure, scalable, and interpretable.
+Self-driving cars, traffic management, and forecasting, vehicular network
+cybersecurity in real-time, and smart cities are a few possible applications of
+this integrated, privacy-safe, and high-performance IoV platform.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.00824v1">Information Sifting Funnel: Privacy-preserving Collaborative Inference
+  Against Model Inversion Attacks</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
+  <p><b>Published on:</b> 2025-01-01T13:00:01Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Rongke Liu</p>
+    <p><b>Summary:</b> The complexity of neural networks and inference tasks, coupled with demands
+for computational efficiency and real-time feedback, poses significant
+challenges for resource-constrained edge devices. Collaborative inference
+mitigates this by assigning shallow feature extraction to edge devices and
+offloading features to the cloud for further inference, reducing computational
+load. However, transmitted features remain susceptible to model inversion
+attacks (MIAs), which can reconstruct original input data. Current defenses,
+such as perturbation and information bottleneck techniques, offer explainable
+protection but face limitations, including the lack of standardized criteria
+for assessing MIA difficulty, challenges in mutual information estimation, and
+trade-offs among usability, privacy, and deployability.
+  To address these challenges, we introduce the first criterion to evaluate MIA
+difficulty in collaborative inference, supported by theoretical analysis of
+existing attacks and defenses, validated using experiments with the Mutual
+Information Neural Estimator (MINE). Based on these findings, we propose
+SiftFunnel, a privacy-preserving framework for collaborative inference. The
+edge model is trained with linear and non-linear correlation constraints to
+reduce redundant information in transmitted features, enhancing privacy
+protection. Label smoothing and a cloud-based upsampling module are added to
+balance usability and privacy. To improve deployability, the edge model
+incorporates a funnel-shaped structure and attention mechanisms, preserving
+both privacy and usability. Extensive experiments demonstrate that SiftFunnel
+outperforms state-of-the-art defenses against MIAs, achieving superior privacy
+protection with less than 3% accuracy loss and striking an optimal balance
+among usability, privacy, and practicality.</p>
+  </details>
+</div>
+
+
+
 <h2>2024-12</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.00588v1">Privacy-Preserving Distributed Defense Framework for DC Microgrids
+  Against Exponentially Unbounded False Data Injection Attacks</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
+  <p><b>Published on:</b> 2024-12-31T18:25:05Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yi Zhang, Mohamadamin Rajabinezhad, Yichao Wang, Junbo Zhao, Shan Zuo</p>
+    <p><b>Summary:</b> This paper introduces a novel, fully distributed control framework for DC
+microgrids, enhancing resilience against exponentially unbounded false data
+injection (EU-FDI) attacks. Our framework features a consensus-based secondary
+control for each converter, effectively addressing these advanced threats. To
+further safeguard sensitive operational data, a privacy-preserving mechanism is
+incorporated into the control design, ensuring that critical information
+remains secure even under adversarial conditions. Rigorous Lyapunov stability
+analysis confirms the framework's ability to maintain critical DC microgrid
+operations like voltage regulation and load sharing under EU-FDI threats. The
+framework's practicality is validated through hardware-in-the-loop experiments,
+demonstrating its enhanced resilience and robust privacy protection against the
+complex challenges posed by quick variant FDI attacks.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.00363v1">SPDZCoder: Teaching LLMs to Synthesize Privacy Computing Code without
+  Massive Training Data</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
+  <p><b>Published on:</b> 2024-12-31T09:29:38Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xiaoning Dong, Peilin Xin, Wei Xu</p>
+    <p><b>Summary:</b> Privacy computing receives increasing attention but writing privacy computing
+code remains challenging for developers due to limited library functions that
+necessitate extensive function implementation from scratch as well as the
+data-oblivious requirement which contradicts intuitive thinking and usual
+practices of programmers. Large language models (LLMs) have demonstrated
+surprising capabilities in coding tasks and achieved state-of-the-art
+performance across many benchmarks. However, even with extensive prompting,
+existing LLMs struggle with code translation task for privacy computing, such
+as translating Python to MP-SPDZ, due to the scarcity of MP-SPDZ data required
+for effective pre-training or fine-tuning. To address the limitation, this
+paper proposes SPDZCoder, a rule-based framework to teach LLMs to synthesize
+privacy computing code without asking experts to write tons of code and by
+leveraging the instruction-following and in-context learning ability of LLMs.
+Specifically, SPDZCoder decouples the translation task into the refactoring
+stage and the generation stage, which can mitigate the semantic-expressing
+differences at different levels. In addition, SPDZCoder can further improve its
+performance by a feedback stage. SPDZCoder does not require fine-tuning since
+it adopts an in-context learning paradigm of LLMs. To evaluate SPDZCoder, we
+manually created a benchmark dataset, named SPDZEval, containing six classes of
+difficult tasks to implement in MP-SPDZ. We conduct experiments on SPDZEval and
+the experimental results shows that SPDZCoder achieves the state-of-the-art
+performance in pass@1 and pass@2 across six data splits. Specifically,
+SPDZCoder achieves an overall correctness of 85.94% and 92.01% in pass@1 and
+pass@2, respectively, significantly surpassing baselines (at most 30.35% and
+49.84% in pass@1 and pass@2, respectively) by a large margin.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2412.21069v1">Privacy-Aware Multi-Device Cooperative Edge Inference with Distributed
@@ -2854,188 +3033,6 @@ only $\Theta(1)$ time complexity in each perturbation generation. Evaluation
 results on discrete location spaces validate this advantage and show that TraCS
 outperforms state-of-the-art methods with improved trajectory utility,
 especially for large privacy parameters.</p>
-  </details>
-</div>
-
-
-
-<h2>2024-11</h2>
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.00367v1">Joint Optimization of Communication Enhancement and Location Privacy
-  Protection in RIS-Assisted Underwater Communication System</a></h3>
-  
-  <p><b>Published on:</b> 2024-11-30T06:08:03Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ziqi Chen, Jun Du, Chunxiao Jiang, Zhu Han</p>
-    <p><b>Summary:</b> As the demand for underwater communication continues to grow, underwater
-acoustic RIS (UARIS), as an emerging paradigm in underwater acoustic
-communication (UAC), can significantly improve the communication rate of
-underwater acoustic systems. However, in open underwater environments, the
-location of the source node is highly susceptible to being obtained by
-eavesdropping nodes through correlation analysis, leading to the issue of
-location privacy in underwater communication systems, which has been overlooked
-by many studies. To enhance underwater communication and protect location
-privacy, we propose a novel UARIS architecture integrated with an artificial
-noise (AN) module. This architecture not only improves communication quality
-but also introduces noise to interfere with the eavesdroppers' attempts to
-locate the source node. We derive the Cram\'er-Rao Lower Bound (CRLB) for the
-localization method deployed by the eavesdroppers and, based on this, model the
-UARIS-assisted communication scenario as a multi-objective optimization
-problem. This problem optimizes transmission beamforming, reflective precoding,
-and noise factors to maximize communication performance and location privacy
-protection. To efficiently solve this non-convex optimization problem, we
-develop an iterative algorithm based on fractional programming. Simulation
-results validate that the proposed system significantly enhances data
-transmission rates while effectively maintaining the location privacy of the
-source node in UAC systems.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.00277v2">Facial Expression Recognition with Controlled Privacy Preservation and
-  Feature Compensation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2024-11-29T23:12:38Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Feng Xu, David Ahmedt-Aristizabal, Lars Petersson, Dadong Wang, Xun Li</p>
-    <p><b>Summary:</b> Facial expression recognition (FER) systems raise significant privacy
-concerns due to the potential exposure of sensitive identity information. This
-paper presents a study on removing identity information while preserving FER
-capabilities. Drawing on the observation that low-frequency components
-predominantly contain identity information and high-frequency components
-capture expression, we propose a novel two-stream framework that applies
-privacy enhancement to each component separately. We introduce a controlled
-privacy enhancement mechanism to optimize performance and a feature compensator
-to enhance task-relevant features without compromising privacy. Furthermore, we
-propose a novel privacy-utility trade-off, providing a quantifiable measure of
-privacy preservation efficacy in closed-set FER tasks. Extensive experiments on
-the benchmark CREMA-D dataset demonstrate that our framework achieves 78.84%
-recognition accuracy with a privacy (facial identity) leakage ratio of only
-2.01%, highlighting its potential for secure and reliable video-based FER
-applications.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.19678v1">Privacy-Preserving Orthogonal Aggregation for Guaranteeing Gender
-  Fairness in Federated Recommendation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-11-29T13:12:11Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Siqing Zhang, Yuchen Ding, Wei Tang, Wei Sun, Yong Liao, Peng Yuan Zhou</p>
-    <p><b>Summary:</b> Under stringent privacy constraints, whether federated recommendation systems
-can achieve group fairness remains an inadequately explored question. Taking
-gender fairness as a representative issue, we identify three phenomena in
-federated recommendation systems: performance difference, data imbalance, and
-preference disparity. We discover that the state-of-the-art methods only focus
-on the first phenomenon. Consequently, their imposition of inappropriate
-fairness constraints detrimentally affects the model training. Moreover, due to
-insufficient sensitive attribute protection of existing works, we can infer the
-gender of all users with 99.90% accuracy even with the addition of maximal
-noise. In this work, we propose Privacy-Preserving Orthogonal Aggregation
-(PPOA), which employs the secure aggregation scheme and quantization technique,
-to prevent the suppression of minority groups by the majority and preserve the
-distinct preferences for better group fairness. PPOA can assist different
-groups in obtaining their respective model aggregation results through a
-designed orthogonal mapping while keeping their attributes private.
-Experimental results on three real-world datasets demonstrate that PPOA
-enhances recommendation effectiveness for both females and males by up to 8.25%
-and 6.36%, respectively, with a maximum overall improvement of 7.30%, and
-achieves optimal fairness in most cases. Extensive ablation experiments and
-visualizations indicate that PPOA successfully maintains preferences for
-different gender groups.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.19498v1">Protecting Multiple Types of Privacy Simultaneously in EEG-based
-  Brain-Computer Interfaces</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-11-29T06:33:31Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Lubin Meng, Xue Jiang, Tianwang Jia, Dongrui Wu</p>
-    <p><b>Summary:</b> A brain-computer interface (BCI) enables direct communication between the
-brain and an external device. Electroencephalogram (EEG) is the preferred input
-signal in non-invasive BCIs, due to its convenience and low cost. EEG-based
-BCIs have been successfully used in many applications, such as neurological
-rehabilitation, text input, games, and so on. However, EEG signals inherently
-carry rich personal information, necessitating privacy protection. This paper
-demonstrates that multiple types of private information (user identity, gender,
-and BCI-experience) can be easily inferred from EEG data, imposing a serious
-privacy threat to BCIs. To address this issue, we design perturbations to
-convert the original EEG data into privacy-protected EEG data, which conceal
-the private information while maintaining the primary BCI task performance.
-Experimental results demonstrated that the privacy-protected EEG data can
-significantly reduce the classification accuracy of user identity, gender and
-BCI-experience, but almost do not affect at all the classification accuracy of
-the primary BCI task, enabling user privacy protection in EEG-based BCIs.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.19142v1">GDPR-Relevant Privacy Concerns in Mobile Apps Research: A Systematic
-  Literature Review</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
-  <p><b>Published on:</b> 2024-11-28T13:42:46Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Orlando Amaral Cejas, Nicolas Sannier, Sallam Abualhaija, Marcello Ceci, Domenico Bianculli</p>
-    <p><b>Summary:</b> The General Data Protection Regulation (GDPR) is the benchmark in the
-European Union (EU) for privacy and data protection standards. Substantial
-research has been conducted in the requirements engineering (RE) literature
-investigating the elicitation, representation, and verification of privacy
-requirements in GDPR. Software systems including mobile apps must comply with
-the GDPR. With the growing pervasiveness of mobile apps and their increasing
-demand for personal data, privacy concerns have acquired further interest
-within the software engineering (SE) community at large. Despite the extensive
-literature on GDPR-relevant privacy concerns in mobile apps, there is no
-secondary study that describes, analyzes, and categorizes the current focus.
-Research gaps and persistent challenges are thus left unnoticed. In this
-article, we aim to systematically review existing primary studies highlighting
-various GDPR concepts and how these concepts are addressed in mobile apps
-research. The objective is to reconcile the existing work on GDPR in the RE
-literature with the research on GDPR-related privacy concepts in mobile apps in
-the SE literature. Our findings show that the current research landscape
-reflects a rather shallow understanding of GDPR requirements. Some GDPR
-concepts such as data subject rights (i.e., the rights of individuals over
-their personal data) are fundamental to GDPR, yet under-explored in the
-literature. In this article, we highlight future directions to be pursued by
-the SE community for supporting the development of GDPR-compliant mobile apps.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2411.18746v1">Inference Privacy: Properties and Mechanisms</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
-  <p><b>Published on:</b> 2024-11-27T20:47:28Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Fengwei Tian, Ravi Tandon</p>
-    <p><b>Summary:</b> Ensuring privacy during inference stage is crucial to prevent malicious third
-parties from reconstructing users' private inputs from outputs of public
-models. Despite a large body of literature on privacy preserving learning
-(which ensures privacy of training data), there is no existing systematic
-framework to ensure the privacy of users' data during inference. Motivated by
-this problem, we introduce the notion of Inference Privacy (IP), which can
-allow a user to interact with a model (for instance, a classifier, or an
-AI-assisted chat-bot) while providing a rigorous privacy guarantee for the
-users' data at inference. We establish fundamental properties of the IP privacy
-notion and also contrast it with the notion of Local Differential Privacy
-(LDP). We then present two types of mechanisms for achieving IP: namely, input
-perturbations and output perturbations which are customizable by the users and
-can allow them to navigate the trade-off between utility and privacy. We also
-demonstrate the usefulness of our framework via experiments and highlight the
-resulting trade-offs between utility and privacy during inference.</p>
   </details>
 </div>
 
