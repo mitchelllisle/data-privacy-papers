@@ -2,6 +2,59 @@
 <h2>2025-01</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.01786v1">Advancing privacy in learning analytics using differential privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-01-03T12:36:11Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Qinyi Liu, Ronas Shakya, Mohammad Khalil, Jelena Jovanovic</p>
+    <p><b>Summary:</b> This paper addresses the challenge of balancing learner data privacy with the
+use of data in learning analytics (LA) by proposing a novel framework by
+applying Differential Privacy (DP). The need for more robust privacy protection
+keeps increasing, driven by evolving legal regulations and heightened privacy
+concerns, as well as traditional anonymization methods being insufficient for
+the complexities of educational data. To address this, we introduce the first
+DP framework specifically designed for LA and provide practical guidance for
+its implementation. We demonstrate the use of this framework through a LA usage
+scenario and validate DP in safeguarding data privacy against potential attacks
+through an experiment on a well-known LA dataset. Additionally, we explore the
+trade-offs between data privacy and utility across various DP settings. Our
+work contributes to the field of LA by offering a practical DP framework that
+can support researchers and practitioners in adopting DP in their works.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.01639v1">Artificial Intelligent Implications on Health Data Privacy and
+  Confidentiality</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-01-03T05:17:23Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ahmad Momani</p>
+    <p><b>Summary:</b> The rapid integration of artificial intelligence (AI) in healthcare is
+revolutionizing medical diagnostics, personalized medicine, and operational
+efficiency. However, alongside these advancements, significant challenges arise
+concerning patient data privacy, ethical considerations, and regulatory
+compliance. This paper examines the dual impact of AI on healthcare,
+highlighting its transformative potential and the critical need for
+safeguarding sensitive health information. It explores the role of the Health
+Insurance Portability and Accountability Act (HIPAA) as a regulatory framework
+for ensuring data privacy and security, emphasizing the importance of robust
+safeguards and ethical standards in AI-driven healthcare. Through case studies,
+including AI applications in diabetic retinopathy, oncology, and the
+controversies surrounding data sharing, this study underscores the ethical and
+legal complexities of AI implementation. A balanced approach that fosters
+innovation while maintaining patient trust and privacy is imperative. The
+findings emphasize the importance of continuous education, transparency, and
+adherence to regulatory frameworks to harness AI's full potential responsibly
+and ethically in healthcare.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2501.01353v1">Privacy Preservation in MIMO-OFDM Localization Systems: A Beamforming
   Approach</a></h3>
    <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
@@ -2976,63 +3029,6 @@ for vaccination process chain while preserving citizen privacy and
 accountability of the system. It is implemented on the Ethereum blockchain and
 uses a Python API for the simulation and validation of each step of the
 vaccination process.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.00687v1">Towards Privacy-Preserving Medical Imaging: Federated Learning with
-  Differential Privacy and Secure Aggregation Using a Modified ResNet
-  Architecture</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-12-01T05:52:29Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mohamad Haj Fares, Ahmed Mohamed Saad Emam Saad</p>
-    <p><b>Summary:</b> With increasing concerns over privacy in healthcare, especially for sensitive
-medical data, this research introduces a federated learning framework that
-combines local differential privacy and secure aggregation using Secure
-Multi-Party Computation for medical image classification. Further, we propose
-DPResNet, a modified ResNet architecture optimized for differential privacy.
-Leveraging the BloodMNIST benchmark dataset, we simulate a realistic
-data-sharing environment across different hospitals, addressing the distinct
-privacy challenges posed by federated healthcare data. Experimental results
-indicate that our privacy-preserving federated model achieves accuracy levels
-close to non-private models, surpassing traditional approaches while
-maintaining strict data confidentiality. By enhancing the privacy, efficiency,
-and reliability of healthcare data management, our approach offers substantial
-benefits to patients, healthcare providers, and the broader healthcare
-ecosystem.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.00620v1">TraCS: Trajectory Collection in Continuous Space under Local
-  Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
-  <p><b>Published on:</b> 2024-12-01T00:07:04Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ye Zheng, Yidan Hu</p>
-    <p><b>Summary:</b> Trajectory collection is fundamental for location-based services but often
-involves sensitive information, such as a user's daily routine, raising privacy
-concerns. Local differential privacy (LDP) provides provable privacy guarantees
-for users, even when the data collector is untrusted. Existing trajectory
-collection methods ensure LDP only for discrete location spaces, where the
-number of locations affects their privacy guarantees and trajectory utility.
-Moreover, the location space is often naturally continuous, such as in flying
-and sailing trajectories, making these methods unsuitable. This paper proposes
-two trajectory collection methods that ensure LDP for continuous spaces:
-TraCS-D, which perturbs the direction and distance of locations, and TraCS-C,
-which perturbs the Cartesian coordinates of locations. Both methods are
-theoretically and experimentally analyzed for trajectory utility. TraCS can
-also be applied to discrete spaces by rounding perturbed locations to the
-nearest discrete points. It is independent of the number of locations and has
-only $\Theta(1)$ time complexity in each perturbation generation. Evaluation
-results on discrete location spaces validate this advantage and show that TraCS
-outperforms state-of-the-art methods with improved trajectory utility,
-especially for large privacy parameters.</p>
   </details>
 </div>
 
