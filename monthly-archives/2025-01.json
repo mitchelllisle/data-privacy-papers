@@ -117,5 +117,45 @@
       "cs.IT",
       "math.IT"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.01786v1",
+    "title" : "Advancing privacy in learning analytics using differential privacy",
+    "summary" : "This paper addresses the challenge of balancing learner data privacy with the\nuse of data in learning analytics (LA) by proposing a novel framework by\napplying Differential Privacy (DP). The need for more robust privacy protection\nkeeps increasing, driven by evolving legal regulations and heightened privacy\nconcerns, as well as traditional anonymization methods being insufficient for\nthe complexities of educational data. To address this, we introduce the first\nDP framework specifically designed for LA and provide practical guidance for\nits implementation. We demonstrate the use of this framework through a LA usage\nscenario and validate DP in safeguarding data privacy against potential attacks\nthrough an experiment on a well-known LA dataset. Additionally, we explore the\ntrade-offs between data privacy and utility across various DP settings. Our\nwork contributes to the field of LA by offering a practical DP framework that\ncan support researchers and practitioners in adopting DP in their works.",
+    "updated" : "2025-01-03T12:36:11Z",
+    "published" : "2025-01-03T12:36:11Z",
+    "authors" : [
+      {
+        "name" : "Qinyi Liu"
+      },
+      {
+        "name" : "Ronas Shakya"
+      },
+      {
+        "name" : "Mohammad Khalil"
+      },
+      {
+        "name" : "Jelena Jovanovic"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.01639v1",
+    "title" : "Artificial Intelligent Implications on Health Data Privacy and\n  Confidentiality",
+    "summary" : "The rapid integration of artificial intelligence (AI) in healthcare is\nrevolutionizing medical diagnostics, personalized medicine, and operational\nefficiency. However, alongside these advancements, significant challenges arise\nconcerning patient data privacy, ethical considerations, and regulatory\ncompliance. This paper examines the dual impact of AI on healthcare,\nhighlighting its transformative potential and the critical need for\nsafeguarding sensitive health information. It explores the role of the Health\nInsurance Portability and Accountability Act (HIPAA) as a regulatory framework\nfor ensuring data privacy and security, emphasizing the importance of robust\nsafeguards and ethical standards in AI-driven healthcare. Through case studies,\nincluding AI applications in diabetic retinopathy, oncology, and the\ncontroversies surrounding data sharing, this study underscores the ethical and\nlegal complexities of AI implementation. A balanced approach that fosters\ninnovation while maintaining patient trust and privacy is imperative. The\nfindings emphasize the importance of continuous education, transparency, and\nadherence to regulatory frameworks to harness AI's full potential responsibly\nand ethically in healthcare.",
+    "updated" : "2025-01-03T05:17:23Z",
+    "published" : "2025-01-03T05:17:23Z",
+    "authors" : [
+      {
+        "name" : "Ahmad Momani"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.AI"
+    ]
   }
 ]
