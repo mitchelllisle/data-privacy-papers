@@ -157,5 +157,131 @@
       "cs.CY",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.03222v1",
+    "title" : "Characterizing the Accuracy-Communication-Privacy Trade-off in\n  Distributed Stochastic Convex Optimization",
+    "summary" : "We consider the problem of differentially private stochastic convex\noptimization (DP-SCO) in a distributed setting with $M$ clients, where each of\nthem has a local dataset of $N$ i.i.d. data samples from an underlying data\ndistribution. The objective is to design an algorithm to minimize a convex\npopulation loss using a collaborative effort across $M$ clients, while ensuring\nthe privacy of the local datasets. In this work, we investigate the\naccuracy-communication-privacy trade-off for this problem. We establish\nmatching converse and achievability results using a novel lower bound and a new\nalgorithm for distributed DP-SCO based on Vaidya's plane cutting method. Thus,\nour results provide a complete characterization of the\naccuracy-communication-privacy trade-off for DP-SCO in the distributed setting.",
+    "updated" : "2025-01-06T18:57:05Z",
+    "published" : "2025-01-06T18:57:05Z",
+    "authors" : [
+      {
+        "name" : "Sudeep Salgia"
+      },
+      {
+        "name" : "Nikola Pavlovic"
+      },
+      {
+        "name" : "Yuejie Chi"
+      },
+      {
+        "name" : "Qing Zhao"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.IT",
+      "math.IT",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.02893v1",
+    "title" : "A Volumetric Approach to Privacy of Dynamical Systems",
+    "summary" : "Information-theoretic metrics, such as mutual information, have been widely\nused to evaluate privacy leakage in dynamic systems. However, these approaches\nare typically limited to stochastic systems and face computational challenges.\nIn this paper, we introduce a novel volumetric framework for analyzing privacy\nin systems affected by unknown but bounded noise. Our model considers a dynamic\nsystem comprising public and private states, where an observation set of the\npublic state is released. An adversary utilizes the observed public state to\ninfer an uncertainty set of the private state, referred to as the inference\nattack. We define the evolution dynamics of these inference attacks and\nquantify the privacy level of the private state using the volume of its\nuncertainty sets. For linear scalar systems, we derive an explicit formulation\nof the uncertainty set. For multi-dimensional linear systems, we develop an\napproximate computation method leveraging interval analysis. We investigate the\nproperties of the proposed volumetric privacy measure and demonstrate that it\nis bounded by the information gain derived from the observation set.\nFurthermore, we propose an optimization approach to designing privacy filter\nusing randomization and linear programming based on the proposed privacy\nmeasure. The effectiveness of the optimal privacy filter design is evaluated\nthrough a production-inventory case study, illustrating its robustness against\nthe inference attack.",
+    "updated" : "2025-01-06T10:15:21Z",
+    "published" : "2025-01-06T10:15:21Z",
+    "authors" : [
+      {
+        "name" : "Chuanghong Weng"
+      },
+      {
+        "name" : "Ehsan Nekouei"
+      }
+    ],
+    "categories" : [
+      "eess.SY",
+      "cs.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.02804v1",
+    "title" : "Latency and Privacy-Aware Resource Allocation in Vehicular Edge\n  Computing",
+    "summary" : "The rapid increase in the number of connected vehicles has led to the\ngeneration of vast amounts of data. As a significant portion of this data\npertains to vehicle-to-vehicle and vehicle-to-infrastructure communications, it\nis predominantly generated at the edge. Considering the enormous volume of\ndata, real-time applications, and privacy concerns, it is crucial to process\nthe data at the edge. Neglecting the management of processing resources in\nvehicular edge computing (VEC) could lead to numerous challenges as a\nsubstantial number of vehicles with diverse safety, economic, and entertainment\napplications, along with their data processing, emerge in the near future [1].\nPrevious research in VEC resource allocation has primarily focused on issues\nsuch as response time and privacy preservation techniques. However, an approach\nthat takes into account privacy-aware resource allocation based on vehicular\nnetwork architecture and application requirements has not yet been proposed. In\nthis paper, we present a privacy and latency-aware approach for allocating\nprocessing resources at the edge of the vehicular network, considering the\nspecific requirements of different applications. Our approach involves\ncategorizing vehicular network applications based on their processing accuracy,\nreal-time processing needs, and privacy preservation requirements. We further\ndivide the vehicular network edge into two parts: the user layer (OBUs) is\nconsidered for processing applications with privacy requirements, while the\nallocation of resources in the RSUs and cloud layer is based on the specific\nneeds of different applications. In this study, we evaluate the quality of\nservice based on parameters such as privacy preservation, processing cost,\nmeeting deadlines, and result quality. Comparative analyses demonstrate that\nour approach enhances service quality by 55% compared to existing\nstate-of-the-art methods.",
+    "updated" : "2025-01-06T06:44:49Z",
+    "published" : "2025-01-06T06:44:49Z",
+    "authors" : [
+      {
+        "name" : "HHossein Ahmadvand"
+      },
+      {
+        "name" : "Fouzhan Foroutan"
+      }
+    ],
+    "categories" : [
+      "cs.PF"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.02354v1",
+    "title" : "PrivDPR: Synthetic Graph Publishing with Deep PageRank under\n  Differential Privacy",
+    "summary" : "The objective of privacy-preserving synthetic graph publishing is to\nsafeguard individuals' privacy while retaining the utility of original data.\nMost existing methods focus on graph neural networks under differential privacy\n(DP), and yet two fundamental problems in generating synthetic graphs remain\nopen. First, the current research often encounters high sensitivity due to the\nintricate relationships between nodes in a graph. Second, DP is usually\nachieved through advanced composition mechanisms that tend to converge\nprematurely when working with a small privacy budget. In this paper, inspired\nby the simplicity, effectiveness, and ease of analysis of PageRank, we design\nPrivDPR, a novel privacy-preserving deep PageRank for graph synthesis. In\nparticular, we achieve DP by adding noise to the gradient for a specific weight\nduring learning. Utilizing weight normalization as a bridge, we theoretically\nreveal that increasing the number of layers in PrivDPR can effectively mitigate\nthe high sensitivity and privacy budget splitting. Through formal privacy\nanalysis, we prove that the synthetic graph generated by PrivDPR satisfies\nnode-level DP. Experiments on real-world graph datasets show that PrivDPR\npreserves high data utility across multiple graph structural properties.",
+    "updated" : "2025-01-04T18:19:21Z",
+    "published" : "2025-01-04T18:19:21Z",
+    "authors" : [
+      {
+        "name" : "Sen Zhang"
+      },
+      {
+        "name" : "Haibo Hu"
+      },
+      {
+        "name" : "Qingqing Ye"
+      },
+      {
+        "name" : "Jianliang Xu"
+      }
+    ],
+    "categories" : [
+      "cs.DB",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.02091v1",
+    "title" : "PriveShield: Enhancing User Privacy Using Automatic Isolated Profiles in\n  Browsers",
+    "summary" : "Online tracking is a widespread practice on the web with questionable ethics,\nsecurity, and privacy concerns. While web tracking can offer personalized and\ncurated content to Internet users, it operates as a sophisticated surveillance\nmechanism to gather extensive user information. This paper introduces\nPriveShield, a light-weight privacy mechanism that disrupts the information\ngathering cycle while offering more control to Internet users to maintain their\nprivacy. PriveShield is implemented as a browser extension that offers an\nadjustable privacy feature to surf the web with multiple identities or accounts\nsimultaneously without any changes to underlying browser code or services. When\nnecessary, multiple factors are automatically analyzed on the client side to\nisolate cookies and other information that are the basis of online tracking.\nPriveShield creates isolated profiles for clients based on their browsing\nhistory, interactions with websites, and the amount of time they spend on\nspecific websites. This allows the users to easily prevent unwanted browsing\ninformation from being shared with third parties and ad exchanges without the\nneed for manual configuration. Our evaluation results from 54 real-world\nscenarios show that our extension is effective in preventing retargeted ads in\n91% of those scenarios.",
+    "updated" : "2025-01-03T20:29:33Z",
+    "published" : "2025-01-03T20:29:33Z",
+    "authors" : [
+      {
+        "name" : "Seyed Ali Akhavani"
+      },
+      {
+        "name" : "Engin Kirda"
+      },
+      {
+        "name" : "Amin Kharraz"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.01639v2",
+    "title" : "Implications of Artificial Intelligence on Health Data Privacy and\n  Confidentiality",
+    "summary" : "The rapid integration of artificial intelligence (AI) in healthcare is\nrevolutionizing medical diagnostics, personalized medicine, and operational\nefficiency. However, alongside these advancements, significant challenges arise\nconcerning patient data privacy, ethical considerations, and regulatory\ncompliance. This paper examines the dual impact of AI on healthcare,\nhighlighting its transformative potential and the critical need for\nsafeguarding sensitive health information. It explores the role of the Health\nInsurance Portability and Accountability Act (HIPAA) as a regulatory framework\nfor ensuring data privacy and security, emphasizing the importance of robust\nsafeguards and ethical standards in AI-driven healthcare. Through case studies,\nincluding AI applications in diabetic retinopathy, oncology, and the\ncontroversies surrounding data sharing, this study underscores the ethical and\nlegal complexities of AI implementation. A balanced approach that fosters\ninnovation while maintaining patient trust and privacy is imperative. The\nfindings emphasize the importance of continuous education, transparency, and\nadherence to regulatory frameworks to harness AI's full potential responsibly\nand ethically in healthcare.",
+    "updated" : "2025-01-06T18:52:32Z",
+    "published" : "2025-01-03T05:17:23Z",
+    "authors" : [
+      {
+        "name" : "Ahmad Momani"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.AI"
+    ]
   }
 ]
