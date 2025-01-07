@@ -2,6 +2,157 @@
 <h2>2025-01</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.03222v1">Characterizing the Accuracy-Communication-Privacy Trade-off in
+  Distributed Stochastic Convex Optimization</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36">  
+  <p><b>Published on:</b> 2025-01-06T18:57:05Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Sudeep Salgia, Nikola Pavlovic, Yuejie Chi, Qing Zhao</p>
+    <p><b>Summary:</b> We consider the problem of differentially private stochastic convex
+optimization (DP-SCO) in a distributed setting with $M$ clients, where each of
+them has a local dataset of $N$ i.i.d. data samples from an underlying data
+distribution. The objective is to design an algorithm to minimize a convex
+population loss using a collaborative effort across $M$ clients, while ensuring
+the privacy of the local datasets. In this work, we investigate the
+accuracy-communication-privacy trade-off for this problem. We establish
+matching converse and achievability results using a novel lower bound and a new
+algorithm for distributed DP-SCO based on Vaidya's plane cutting method. Thus,
+our results provide a complete characterization of the
+accuracy-communication-privacy trade-off for DP-SCO in the distributed setting.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.02893v1">A Volumetric Approach to Privacy of Dynamical Systems</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
+  <p><b>Published on:</b> 2025-01-06T10:15:21Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Chuanghong Weng, Ehsan Nekouei</p>
+    <p><b>Summary:</b> Information-theoretic metrics, such as mutual information, have been widely
+used to evaluate privacy leakage in dynamic systems. However, these approaches
+are typically limited to stochastic systems and face computational challenges.
+In this paper, we introduce a novel volumetric framework for analyzing privacy
+in systems affected by unknown but bounded noise. Our model considers a dynamic
+system comprising public and private states, where an observation set of the
+public state is released. An adversary utilizes the observed public state to
+infer an uncertainty set of the private state, referred to as the inference
+attack. We define the evolution dynamics of these inference attacks and
+quantify the privacy level of the private state using the volume of its
+uncertainty sets. For linear scalar systems, we derive an explicit formulation
+of the uncertainty set. For multi-dimensional linear systems, we develop an
+approximate computation method leveraging interval analysis. We investigate the
+properties of the proposed volumetric privacy measure and demonstrate that it
+is bounded by the information gain derived from the observation set.
+Furthermore, we propose an optimization approach to designing privacy filter
+using randomization and linear programming based on the proposed privacy
+measure. The effectiveness of the optimal privacy filter design is evaluated
+through a production-inventory case study, illustrating its robustness against
+the inference attack.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.02804v1">Latency and Privacy-Aware Resource Allocation in Vehicular Edge
+  Computing</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Performance-F9C80E">
+  <p><b>Published on:</b> 2025-01-06T06:44:49Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> HHossein Ahmadvand, Fouzhan Foroutan</p>
+    <p><b>Summary:</b> The rapid increase in the number of connected vehicles has led to the
+generation of vast amounts of data. As a significant portion of this data
+pertains to vehicle-to-vehicle and vehicle-to-infrastructure communications, it
+is predominantly generated at the edge. Considering the enormous volume of
+data, real-time applications, and privacy concerns, it is crucial to process
+the data at the edge. Neglecting the management of processing resources in
+vehicular edge computing (VEC) could lead to numerous challenges as a
+substantial number of vehicles with diverse safety, economic, and entertainment
+applications, along with their data processing, emerge in the near future [1].
+Previous research in VEC resource allocation has primarily focused on issues
+such as response time and privacy preservation techniques. However, an approach
+that takes into account privacy-aware resource allocation based on vehicular
+network architecture and application requirements has not yet been proposed. In
+this paper, we present a privacy and latency-aware approach for allocating
+processing resources at the edge of the vehicular network, considering the
+specific requirements of different applications. Our approach involves
+categorizing vehicular network applications based on their processing accuracy,
+real-time processing needs, and privacy preservation requirements. We further
+divide the vehicular network edge into two parts: the user layer (OBUs) is
+considered for processing applications with privacy requirements, while the
+allocation of resources in the RSUs and cloud layer is based on the specific
+needs of different applications. In this study, we evaluate the quality of
+service based on parameters such as privacy preservation, processing cost,
+meeting deadlines, and result quality. Comparative analyses demonstrate that
+our approach enhances service quality by 55% compared to existing
+state-of-the-art methods.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.02354v1">PrivDPR: Synthetic Graph Publishing with Deep PageRank under
+  Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-01-04T18:19:21Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Sen Zhang, Haibo Hu, Qingqing Ye, Jianliang Xu</p>
+    <p><b>Summary:</b> The objective of privacy-preserving synthetic graph publishing is to
+safeguard individuals' privacy while retaining the utility of original data.
+Most existing methods focus on graph neural networks under differential privacy
+(DP), and yet two fundamental problems in generating synthetic graphs remain
+open. First, the current research often encounters high sensitivity due to the
+intricate relationships between nodes in a graph. Second, DP is usually
+achieved through advanced composition mechanisms that tend to converge
+prematurely when working with a small privacy budget. In this paper, inspired
+by the simplicity, effectiveness, and ease of analysis of PageRank, we design
+PrivDPR, a novel privacy-preserving deep PageRank for graph synthesis. In
+particular, we achieve DP by adding noise to the gradient for a specific weight
+during learning. Utilizing weight normalization as a bridge, we theoretically
+reveal that increasing the number of layers in PrivDPR can effectively mitigate
+the high sensitivity and privacy budget splitting. Through formal privacy
+analysis, we prove that the synthetic graph generated by PrivDPR satisfies
+node-level DP. Experiments on real-world graph datasets show that PrivDPR
+preserves high data utility across multiple graph structural properties.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.02091v1">PriveShield: Enhancing User Privacy Using Automatic Isolated Profiles in
+  Browsers</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-01-03T20:29:33Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Seyed Ali Akhavani, Engin Kirda, Amin Kharraz</p>
+    <p><b>Summary:</b> Online tracking is a widespread practice on the web with questionable ethics,
+security, and privacy concerns. While web tracking can offer personalized and
+curated content to Internet users, it operates as a sophisticated surveillance
+mechanism to gather extensive user information. This paper introduces
+PriveShield, a light-weight privacy mechanism that disrupts the information
+gathering cycle while offering more control to Internet users to maintain their
+privacy. PriveShield is implemented as a browser extension that offers an
+adjustable privacy feature to surf the web with multiple identities or accounts
+simultaneously without any changes to underlying browser code or services. When
+necessary, multiple factors are automatically analyzed on the client side to
+isolate cookies and other information that are the basis of online tracking.
+PriveShield creates isolated profiles for clients based on their browsing
+history, interactions with websites, and the amount of time they spend on
+specific websites. This allows the users to easily prevent unwanted browsing
+information from being shared with third parties and ad exchanges without the
+need for manual configuration. Our evaluation results from 54 real-world
+scenarios show that our extension is effective in preventing retargeted ads in
+91% of those scenarios.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2501.01786v1">Advancing privacy in learning analytics using differential privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2025-01-03T12:36:11Z</p>
@@ -26,7 +177,7 @@ can support researchers and practitioners in adopting DP in their works.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.01639v1">Artificial Intelligent Implications on Health Data Privacy and
+  <h3><a href="http://arxiv.org/abs/2501.01639v2">Implications of Artificial Intelligence on Health Data Privacy and
   Confidentiality</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
   <p><b>Published on:</b> 2025-01-03T05:17:23Z</p>
@@ -1226,12 +1377,12 @@ total of $10^6$ documents.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.12387v1">Differential Privacy Preserving Distributed Quantum Computing</a></h3>
+  <h3><a href="http://arxiv.org/abs/2412.12387v2">Differential Privacy Preserving Distributed Quantum Computing</a></h3>
    <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
   <p><b>Published on:</b> 2024-12-16T22:46:46Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Hui Zhong, Keyi Ju, Jiachen Shen, Xinyue Zhang, Xiaoqi Qin, Ohtsuki Tomoaki, Miao Pan, Zhu Han</p>
+    <p><b>Authors:</b> Hui Zhong, Keyi Ju, Jiachen Shen, Xinyue Zhang, Xiaoqi Qin, Tomoaki Ohtsuki, Miao Pan, Zhu Han</p>
     <p><b>Summary:</b> Existing quantum computers can only operate with hundreds of qubits in the
 Noisy Intermediate-Scale Quantum (NISQ) state, while quantum distributed
 computing (QDC) is regarded as a reliable way to address this limitation,
@@ -2863,172 +3014,6 @@ Moreover, we validate its effectiveness through both theoretical analysis and
 empirical studies. Extensive experiments on three real-world datasets show that
 our LP-GCN outperforms the existing federated recommendation methods. The code
 will be publicly available once the paper is accepted.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.01079v1">Federated Motor Imagery Classification for Privacy-Preserving
-  Brain-Computer Interfaces</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2024-12-02T03:35:27Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Tianwang Jia, Lubin Meng, Siyang Li, Jiajing Liu, Dongrui Wu</p>
-    <p><b>Summary:</b> Training an accurate classifier for EEG-based brain-computer interface (BCI)
-requires EEG data from a large number of users, whereas protecting their data
-privacy is a critical consideration. Federated learning (FL) is a promising
-solution to this challenge. This paper proposes Federated classification with
-local Batch-specific batch normalization and Sharpness-aware minimization
-(FedBS) for privacy protection in EEG-based motor imagery (MI) classification.
-FedBS utilizes local batch-specific batch normalization to reduce data
-discrepancies among different clients, and sharpness-aware minimization
-optimizer in local training to improve model generalization. Experiments on
-three public MI datasets using three popular deep learning models demonstrated
-that FedBS outperformed six state-of-the-art FL approaches. Remarkably, it also
-outperformed centralized training, which does not consider privacy protection
-at all. In summary, FedBS protects user EEG data privacy, enabling multiple BCI
-users to participate in large-scale machine learning model training, which in
-turn improves the BCI decoding accuracy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.01072v1">When Fine-Tuning LLMs Meets Data Privacy: An Empirical Study of
-  Federated Learning in LLM-Based Program Repair</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
-  <p><b>Published on:</b> 2024-12-02T03:18:47Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Wenqiang Luo, Jacky Wai Keung, Boyang Yang, He Ye, Claire Le Goues, Tegawende F. Bissyande, Haoye Tian, Bach Le</p>
-    <p><b>Summary:</b> Software systems have been evolving rapidly and inevitably introducing bugs
-at an increasing rate, leading to significant losses in resources consumed by
-software maintenance. Recently, large language models (LLMs) have demonstrated
-remarkable potential in enhancing software development and maintenance
-practices, particularly in automated program repair (APR) with improved
-accuracy and efficiency of bug fixing. However, LLM-based APR heavily relies on
-high-quality code repositories. A larger portion of existing code repositories
-are for private use and proprietary assets from various industries, reflecting
-more diversity and nuances in the data since real-world industries often have
-more extensive software development practices, which cannot be covered by
-merely public datasets. Therefore, utilizing private datasets shows significant
-potential in enhancing software development and maintenance. However, obtaining
-such data from various industries is hindered by data privacy concerns, as
-companies are reluctant to share their codebases. To address the gap, we
-investigate the use of federated learning as a privacy-preserving approach that
-enables private entities to fine-tune LLMs on proprietary and decentralized
-data, facilitating the collaboration between clients to fully utilize their
-data to help enhance software development and maintenance. Our evaluation
-reveals that federated fine-tuning can effectively enhance program repair
-capabilities. Notably, the impact of heterogeneous code on LLM fine-tuning is
-negligible, indicating that real-world industries can benefit from
-collaborative development regardless of diverse data distributions.
-Furthermore, each type of federated algorithm exhibits unique strengths across
-different LLMs, suggesting that fine-tuning for program repair can be enhanced
-by tailoring the optimization process to specific characteristics of different
-LLMs.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.01056v1">Classifying Simulated Gait Impairments using Privacy-preserving
-  Explainable Artificial Intelligence and Mobile Phone Videos</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> 
-  <p><b>Published on:</b> 2024-12-02T02:35:40Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Lauhitya Reddy, Ketan Anand, Shoibolina Kaushik, Corey Rodrigo, J. Lucas McKay, Trisha M. Kesar, Hyeokhyen Kwon</p>
-    <p><b>Summary:</b> Accurate diagnosis of gait impairments is often hindered by subjective or
-costly assessment methods, with current solutions requiring either expensive
-multi-camera equipment or relying on subjective clinical observation. There is
-a critical need for accessible, objective tools that can aid in gait assessment
-while preserving patient privacy. In this work, we present a mobile
-phone-based, privacy-preserving artificial intelligence (AI) system for
-classifying gait impairments and introduce a novel dataset of 743 videos
-capturing seven distinct gait patterns. The dataset consists of frontal and
-sagittal views of trained subjects simulating normal gait and six types of
-pathological gait (circumduction, Trendelenburg, antalgic, crouch,
-Parkinsonian, and vaulting), recorded using standard mobile phone cameras. Our
-system achieved 86.5% accuracy using combined frontal and sagittal views, with
-sagittal views generally outperforming frontal views except for specific gait
-patterns like Circumduction. Model feature importance analysis revealed that
-frequency-domain features and entropy measures were critical for classifcation
-performance, specifically lower limb keypoints proved most important for
-classification, aligning with clinical understanding of gait assessment. These
-findings demonstrate that mobile phone-based systems can effectively classify
-diverse gait patterns while preserving privacy through on-device processing.
-The high accuracy achieved using simulated gait data suggests their potential
-for rapid prototyping of gait analysis systems, though clinical validation with
-patient data remains necessary. This work represents a significant step toward
-accessible, objective gait assessment tools for clinical, community, and
-tele-rehabilitation settings</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.00898v1">Preserving Privacy in Software Composition Analysis: A Study of
-  Technical Solutions and Enhancements</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-12-01T17:17:29Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Huaijin Wang, Zhibo Liu, Yanbo Dai, Shuai Wang, Qiyi Tang, Sen Nie, Shi Wu</p>
-    <p><b>Summary:</b> Software composition analysis (SCA) denotes the process of identifying
-open-source software components in an input software application. SCA has been
-extensively developed and adopted by academia and industry. However, we notice
-that the modern SCA techniques in industry scenarios still need to be improved
-due to privacy concerns. Overall, SCA requires the users to upload their
-applications' source code to a remote SCA server, which then inspects the
-applications and reports the component usage to users. This process is
-privacy-sensitive since the applications may contain sensitive information,
-such as proprietary source code, algorithms, trade secrets, and user data.
-  Privacy concerns have prevented the SCA technology from being used in
-real-world scenarios. Therefore, academia and the industry demand
-privacy-preserving SCA solutions. For the first time, we analyze the privacy
-requirements of SCA and provide a landscape depicting possible technical
-solutions with varying privacy gains and overheads. In particular, given that
-de facto SCA frameworks are primarily driven by code similarity-based
-techniques, we explore combining several privacy-preserving protocols to
-encapsulate the similarity-based SCA framework. Among all viable solutions, we
-find that multi-party computation (MPC) offers the strongest privacy guarantee
-and plausible accuracy; it, however, incurs high overhead (184 times). We
-optimize the MPC-based SCA framework by reducing the amount of crypto protocol
-transactions using program analysis techniques. The evaluation results show
-that our proposed optimizations can reduce the MPC-based SCA overhead to only
-8.5% without sacrificing SCA's privacy guarantee or accuracy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.00774v1">Post-Vaccination COVID-19 Data Analysis: Privacy and Ethics</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-12-01T11:41:32Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Sankha Das, Amit Dua</p>
-    <p><b>Summary:</b> The COVID-19 pandemic has severely affected the world in terms of health,
-economy and peace. Fortunately, the countries are trying to overcome the
-situation by actively carrying out vaccinations. However, like any other
-massive operation involving humans such as human resource management,
-elections, surveys, etc., the vaccination process raises several questions
-about citizen privacy and misuse of personal data. In most of the countries,
-few attempts have been made to verify the vaccination statistics as reported by
-the health centers. These issues collectively require the solutions of
-anonymity of citizens' personal information, immutability of vaccination data
-and easy yet restricted access by adversarial bodies such as the government for
-the verification and analysis of the data. This paper introduces a
-blockchain-based application to simulate and monitor the vaccination process.
-The structure of data model used in the proposed system is based on the IEEE
-Standard for Data Format for Blockchain Systems 2418.2TM-2020. The proposed
-system enables authorized stakeholders to share and access relevant information
-for vaccination process chain while preserving citizen privacy and
-accountability of the system. It is implemented on the Ethereum blockchain and
-uses a Python API for the simulation and validation of each step of the
-vaccination process.</p>
   </details>
 </div>
 
