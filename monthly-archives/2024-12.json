@@ -3011,5 +3011,42 @@
       "cs.CR",
       "cs.SE"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.12387v2",
+    "title" : "Differential Privacy Preserving Distributed Quantum Computing",
+    "summary" : "Existing quantum computers can only operate with hundreds of qubits in the\nNoisy Intermediate-Scale Quantum (NISQ) state, while quantum distributed\ncomputing (QDC) is regarded as a reliable way to address this limitation,\nallowing quantum computers to achieve their full computational potential.\nHowever, similar to classical distributed computing, QDC also faces the problem\nof privacy leakage. Existing research has introduced quantum differential\nprivacy (QDP) for privacy protection in central quantum computing, but there is\nno dedicated privacy protection mechanisms for QDC. To fill this research gap,\nour paper introduces a novel concept called quantum R\\'enyi differential\nprivacy (QRDP), which incorporates the advantages of classical R\\'enyi DP and\nis applicable in the QDC domain. Based on the new quantum R\\'enyi divergence,\nQRDP provides delicate and flexible privacy protection by introducing parameter\n$\\alpha$. In particular, the QRDP composition is well suited for QDC, since it\nallows for more precise control of the total privacy budget in scenarios\nrequiring multiple quantum operations. We analyze a variety of noise mechanisms\nthat can implement QRDP, and derive the lowest privacy budget provided by these\nmechanisms. Finally, we investigate the impact of different quantum parameters\non QRDP. Through our simulations, we also find that adding noise will make the\ndata less usable, but increase the level of privacy protection.",
+    "updated" : "2025-01-06T07:05:11Z",
+    "published" : "2024-12-16T22:46:46Z",
+    "authors" : [
+      {
+        "name" : "Hui Zhong"
+      },
+      {
+        "name" : "Keyi Ju"
+      },
+      {
+        "name" : "Jiachen Shen"
+      },
+      {
+        "name" : "Xinyue Zhang"
+      },
+      {
+        "name" : "Xiaoqi Qin"
+      },
+      {
+        "name" : "Tomoaki Ohtsuki"
+      },
+      {
+        "name" : "Miao Pan"
+      },
+      {
+        "name" : "Zhu Han"
+      }
+    ],
+    "categories" : [
+      "quant-ph",
+      "cs.DC"
+    ]
   }
 ]
