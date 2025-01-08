@@ -283,5 +283,108 @@
       "cs.CY",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.03941v1",
+    "title" : "Synthetic Data Privacy Metrics",
+    "summary" : "Recent advancements in generative AI have made it possible to create\nsynthetic datasets that can be as accurate as real-world data for training AI\nmodels, powering statistical insights, and fostering collaboration with\nsensitive datasets while offering strong privacy guarantees. Effectively\nmeasuring the empirical privacy of synthetic data is an important step in the\nprocess. However, while there is a multitude of new privacy metrics being\npublished every day, there currently is no standardization. In this paper, we\nreview the pros and cons of popular metrics that include simulations of\nadversarial attacks. We also review current best practices for amending\ngenerative models to enhance the privacy of the data they create (e.g.\ndifferential privacy).",
+    "updated" : "2025-01-07T17:02:33Z",
+    "published" : "2025-01-07T17:02:33Z",
+    "authors" : [
+      {
+        "name" : "Amy Steier"
+      },
+      {
+        "name" : "Lipika Ramaswamy"
+      },
+      {
+        "name" : "Andre Manoel"
+      },
+      {
+        "name" : "Alexa Haushalter"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.03451v1",
+    "title" : "Structure-Preference Enabled Graph Embedding Generation under\n  Differential Privacy",
+    "summary" : "Graph embedding generation techniques aim to learn low-dimensional vectors\nfor each node in a graph and have recently gained increasing research\nattention. Publishing low-dimensional node vectors enables various graph\nanalysis tasks, such as structural equivalence and link prediction. Yet,\nimproper publication opens a backdoor to malicious attackers, who can infer\nsensitive information of individuals from the low-dimensional node vectors.\nExisting methods tackle this issue by developing deep graph learning models\nwith differential privacy (DP). However, they often suffer from large noise\ninjections and cannot provide structural preferences consistent with mining\nobjectives. Recently, skip-gram based graph embedding generation techniques are\nwidely used due to their ability to extract customizable structures. Based on\nskip-gram, we present SE-PrivGEmb, a structure-preference enabled graph\nembedding generation under DP. For arbitrary structure preferences, we design a\nunified noise tolerance mechanism via perturbing non-zero vectors. This\nmechanism mitigates utility degradation caused by high sensitivity. By\ncarefully designing negative sampling probabilities in skip-gram, we\ntheoretically demonstrate that skip-gram can preserve arbitrary proximities,\nwhich quantify structural features in graphs. Extensive experiments show that\nour method outperforms existing state-of-the-art methods under structural\nequivalence and link prediction tasks.",
+    "updated" : "2025-01-07T00:43:18Z",
+    "published" : "2025-01-07T00:43:18Z",
+    "authors" : [
+      {
+        "name" : "Sen Zhang"
+      },
+      {
+        "name" : "Qingqing Ye"
+      },
+      {
+        "name" : "Haibo Hu"
+      }
+    ],
+    "categories" : [
+      "stat.ML",
+      "cs.LG",
+      "cs.SI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.03391v1",
+    "title" : "Privacy-Preserving Smart Contracts for Permissioned Blockchains: A\n  zk-SNARK-Based Recipe Part-1",
+    "summary" : "The Bitcoin white paper introduced blockchain technology, enabling trustful\ntransactions without intermediaries. Smart contracts emerged with Ethereum and\nblockchains expanded beyond cryptocurrency, applying to auctions, crowdfunding\nand electronic voting. However, blockchain's transparency raised privacy\nconcerns and initial anonymity measures proved ineffective. Smart contract\nprivacy solutions employed zero-knowledge proofs, homomorphic encryption and\ntrusted execution environments. These approaches have practical drawbacks, such\nas limited functionality, high computation times and trust on third parties\nrequirements, being not fully decentralized. This work proposes a solution\nutilizing zk-SNARKs to provide privacy in smart contracts and blockchains. The\nsolution supports both fungible and nonfungible tokens. Additionally, the\nproposal includes a new type of transactions, called delegated transactions,\nwhich enable use cases like Delivery vs Payment (DvP).",
+    "updated" : "2025-01-06T21:16:33Z",
+    "published" : "2025-01-06T21:16:33Z",
+    "authors" : [
+      {
+        "name" : "Aldenio Burgos"
+      },
+      {
+        "name" : "Eduardo Alchieri"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.02893v2",
+    "title" : "A Volumetric Approach to Privacy of Dynamical Systems",
+    "summary" : "Information-theoretic metrics, such as mutual information, have been widely\nused to evaluate privacy leakage in dynamic systems. However, these approaches\nare typically limited to stochastic systems and face computational challenges.\nIn this paper, we introduce a novel volumetric framework for analyzing privacy\nin systems affected by unknown but bounded noise. Our model considers a dynamic\nsystem comprising public and private states, where an observation set of the\npublic state is released. An adversary utilizes the observed public state to\ninfer an uncertainty set of the private state, referred to as the inference\nattack. We define the evolution dynamics of these inference attacks and\nquantify the privacy level of the private state using the volume of its\nuncertainty sets. For linear scalar systems, we derive an explicit formulation\nof the uncertainty set. For multi-dimensional linear systems, we develop an\napproximate computation method leveraging interval analysis. We investigate the\nproperties of the proposed volumetric privacy measure and demonstrate that it\nis bounded by the information gain derived from the observation set.\nFurthermore, we propose an optimization approach to designing privacy filter\nusing randomization and linear programming based on the proposed privacy\nmeasure. The effectiveness of the optimal privacy filter design is evaluated\nthrough a production-inventory case study, illustrating its robustness against\nthe inference attack.",
+    "updated" : "2025-01-07T13:21:10Z",
+    "published" : "2025-01-06T10:15:21Z",
+    "authors" : [
+      {
+        "name" : "Chuanghong Weng"
+      },
+      {
+        "name" : "Ehsan Nekouei"
+      }
+    ],
+    "categories" : [
+      "eess.SY",
+      "cs.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.02804v2",
+    "title" : "Latency and Privacy-Aware Resource Allocation in Vehicular Edge\n  Computing",
+    "summary" : "The rapid increase in the number of connected vehicles has led to the\ngeneration of vast amounts of data. As a significant portion of this data\npertains to vehicle-to-vehicle and vehicle-to-infrastructure communications, it\nis predominantly generated at the edge. Considering the enormous volume of\ndata, real-time applications, and privacy concerns, it is crucial to process\nthe data at the edge. Neglecting the management of processing resources in\nvehicular edge computing (VEC) could lead to numerous challenges as a\nsubstantial number of vehicles with diverse safety, economic, and entertainment\napplications, along with their data processing, emerge in the near future [1].\nPrevious research in VEC resource allocation has primarily focused on issues\nsuch as response time and privacy preservation techniques. However, an approach\nthat takes into account privacy-aware resource allocation based on vehicular\nnetwork architecture and application requirements has not yet been proposed. In\nthis paper, we present a privacy and latency-aware approach for allocating\nprocessing resources at the edge of the vehicular network, considering the\nspecific requirements of different applications. Our approach involves\ncategorizing vehicular network applications based on their processing accuracy,\nreal-time processing needs, and privacy preservation requirements. We further\ndivide the vehicular network edge into two parts: the user layer (OBUs) is\nconsidered for processing applications with privacy requirements, while the\nallocation of resources in the RSUs and cloud layer is based on the specific\nneeds of different applications. In this study, we evaluate the quality of\nservice based on parameters such as privacy preservation, processing cost,\nmeeting deadlines, and result quality. Comparative analyses demonstrate that\nour approach enhances service quality by 55% compared to existing\nstate-of-the-art methods.",
+    "updated" : "2025-01-07T07:17:16Z",
+    "published" : "2025-01-06T06:44:49Z",
+    "authors" : [
+      {
+        "name" : "Hossein Ahmadvand"
+      },
+      {
+        "name" : "Fouzhan Foroutan"
+      }
+    ],
+    "categories" : [
+      "cs.PF"
+    ]
   }
 ]
