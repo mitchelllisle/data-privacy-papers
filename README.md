@@ -2,6 +2,85 @@
 <h2>2025-01</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.03941v1">Synthetic Data Privacy Metrics</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-01-07T17:02:33Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Amy Steier, Lipika Ramaswamy, Andre Manoel, Alexa Haushalter</p>
+    <p><b>Summary:</b> Recent advancements in generative AI have made it possible to create
+synthetic datasets that can be as accurate as real-world data for training AI
+models, powering statistical insights, and fostering collaboration with
+sensitive datasets while offering strong privacy guarantees. Effectively
+measuring the empirical privacy of synthetic data is an important step in the
+process. However, while there is a multitude of new privacy metrics being
+published every day, there currently is no standardization. In this paper, we
+review the pros and cons of popular metrics that include simulations of
+adversarial attacks. We also review current best practices for amending
+generative models to enhance the privacy of the data they create (e.g.
+differential privacy).</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.03451v1">Structure-Preference Enabled Graph Embedding Generation under
+  Differential Privacy</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Social and Information Networks-662E9B">
+  <p><b>Published on:</b> 2025-01-07T00:43:18Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Sen Zhang, Qingqing Ye, Haibo Hu</p>
+    <p><b>Summary:</b> Graph embedding generation techniques aim to learn low-dimensional vectors
+for each node in a graph and have recently gained increasing research
+attention. Publishing low-dimensional node vectors enables various graph
+analysis tasks, such as structural equivalence and link prediction. Yet,
+improper publication opens a backdoor to malicious attackers, who can infer
+sensitive information of individuals from the low-dimensional node vectors.
+Existing methods tackle this issue by developing deep graph learning models
+with differential privacy (DP). However, they often suffer from large noise
+injections and cannot provide structural preferences consistent with mining
+objectives. Recently, skip-gram based graph embedding generation techniques are
+widely used due to their ability to extract customizable structures. Based on
+skip-gram, we present SE-PrivGEmb, a structure-preference enabled graph
+embedding generation under DP. For arbitrary structure preferences, we design a
+unified noise tolerance mechanism via perturbing non-zero vectors. This
+mechanism mitigates utility degradation caused by high sensitivity. By
+carefully designing negative sampling probabilities in skip-gram, we
+theoretically demonstrate that skip-gram can preserve arbitrary proximities,
+which quantify structural features in graphs. Extensive experiments show that
+our method outperforms existing state-of-the-art methods under structural
+equivalence and link prediction tasks.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.03391v1">Privacy-Preserving Smart Contracts for Permissioned Blockchains: A
+  zk-SNARK-Based Recipe Part-1</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-01-06T21:16:33Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Aldenio Burgos, Eduardo Alchieri</p>
+    <p><b>Summary:</b> The Bitcoin white paper introduced blockchain technology, enabling trustful
+transactions without intermediaries. Smart contracts emerged with Ethereum and
+blockchains expanded beyond cryptocurrency, applying to auctions, crowdfunding
+and electronic voting. However, blockchain's transparency raised privacy
+concerns and initial anonymity measures proved ineffective. Smart contract
+privacy solutions employed zero-knowledge proofs, homomorphic encryption and
+trusted execution environments. These approaches have practical drawbacks, such
+as limited functionality, high computation times and trust on third parties
+requirements, being not fully decentralized. This work proposes a solution
+utilizing zk-SNARKs to provide privacy in smart contracts and blockchains. The
+solution supports both fungible and nonfungible tokens. Additionally, the
+proposal includes a new type of transactions, called delegated transactions,
+which enable use cases like Delivery vs Payment (DvP).</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2501.03222v1">Characterizing the Accuracy-Communication-Privacy Trade-off in
   Distributed Stochastic Convex Optimization</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36">  
@@ -25,7 +104,7 @@ accuracy-communication-privacy trade-off for DP-SCO in the distributed setting.<
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.02893v1">A Volumetric Approach to Privacy of Dynamical Systems</a></h3>
+  <h3><a href="http://arxiv.org/abs/2501.02893v2">A Volumetric Approach to Privacy of Dynamical Systems</a></h3>
    <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
   <p><b>Published on:</b> 2025-01-06T10:15:21Z</p>
   <details>
@@ -56,13 +135,13 @@ the inference attack.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.02804v1">Latency and Privacy-Aware Resource Allocation in Vehicular Edge
+  <h3><a href="http://arxiv.org/abs/2501.02804v2">Latency and Privacy-Aware Resource Allocation in Vehicular Edge
   Computing</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Performance-F9C80E">
   <p><b>Published on:</b> 2025-01-06T06:44:49Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> HHossein Ahmadvand, Fouzhan Foroutan</p>
+    <p><b>Authors:</b> Hossein Ahmadvand, Fouzhan Foroutan</p>
     <p><b>Summary:</b> The rapid increase in the number of connected vehicles has led to the
 generation of vast amounts of data. As a significant portion of this data
 pertains to vehicle-to-vehicle and vehicle-to-infrastructure communications, it
@@ -2927,93 +3006,6 @@ To enable proving complex correctness properties of DP and random number
 generation, SampCert makes heavy use of Lean's extensive Mathlib library,
 leveraging theorems in Fourier analysis, measure and probability theory, number
 theory, and topology.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.01650v2">Privacy-Preserving Federated Learning via Homomorphic Adversarial
-  Networks</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-12-02T15:59:35Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Wenhan Dong, Chao Lin, Xinlei He, Xinyi Huang, Shengmin Xu</p>
-    <p><b>Summary:</b> Privacy-preserving federated learning (PPFL) aims to train a global model for
-multiple clients while maintaining their data privacy. However, current PPFL
-protocols exhibit one or more of the following insufficiencies: considerable
-degradation in accuracy, the requirement for sharing keys, and cooperation
-during the key generation or decryption processes. As a mitigation, we develop
-the first protocol that utilizes neural networks to implement PPFL, as well as
-incorporating an Aggregatable Hybrid Encryption scheme tailored to the needs of
-PPFL. We name these networks as Homomorphic Adversarial Networks (HANs) which
-demonstrate that neural networks are capable of performing tasks similar to
-multi-key homomorphic encryption (MK-HE) while solving the problems of key
-distribution and collaborative decryption. Our experiments show that HANs are
-robust against privacy attacks. Compared with non-private federated learning,
-experiments conducted on multiple datasets demonstrate that HANs exhibit a
-negligible accuracy loss (at most 1.35%). Compared to traditional MK-HE
-schemes, HANs increase encryption aggregation speed by 6,075 times while
-incurring a 29.2 times increase in communication overhead.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.01541v1">Effectiveness of L2 Regularization in Privacy-Preserving Machine
-  Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-12-02T14:31:11Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Nikolaos Chandrinos, Iliana Loi, Panagiotis Zachos, Ioannis Symeonidis, Aristotelis Spiliotis, Maria Panou, Konstantinos Moustakas</p>
-    <p><b>Summary:</b> Artificial intelligence, machine learning, and deep learning as a service
-have become the status quo for many industries, leading to the widespread
-deployment of models that handle sensitive data. Well-performing models, the
-industry seeks, usually rely on a large volume of training data. However, the
-use of such data raises serious privacy concerns due to the potential risks of
-leaks of highly sensitive information. One prominent threat is the Membership
-Inference Attack, where adversaries attempt to deduce whether a specific data
-point was used in a model's training process. An adversary's ability to
-determine an individual's presence represents a significant privacy threat,
-especially when related to a group of users sharing sensitive information.
-Hence, well-designed privacy-preserving machine learning solutions are
-critically needed in the industry. In this work, we compare the effectiveness
-of L2 regularization and differential privacy in mitigating Membership
-Inference Attack risks. Even though regularization techniques like L2
-regularization are commonly employed to reduce overfitting, a condition that
-enhances the effectiveness of Membership Inference Attacks, their impact on
-mitigating these attacks has not been systematically explored.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.01141v1">Lossless and Privacy-Preserving Graph Convolution Network for Federated
-  Item Recommendation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB">
-  <p><b>Published on:</b> 2024-12-02T05:31:22Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Guowei Wu, Weike Pan, Qiang Yang, Zhong Ming</p>
-    <p><b>Summary:</b> Graph neural network (GNN) has emerged as a state-of-the-art solution for
-item recommendation. However, existing GNN-based recommendation methods rely on
-a centralized storage of fragmented user-item interaction sub-graphs and
-training on an aggregated global graph, which will lead to privacy concerns. As
-a response, some recent works develop GNN-based federated recommendation
-methods by exploiting decentralized and fragmented user-item sub-graphs in
-order to preserve user privacy. However, due to privacy constraints, the graph
-convolution process in existing federated recommendation methods is incomplete
-compared with the centralized counterpart, causing a degradation of the
-recommendation performance. In this paper, we propose a novel lossless and
-privacy-preserving graph convolution network (LP-GCN), which fully completes
-the graph convolution process with decentralized user-item interaction
-sub-graphs while ensuring privacy. It is worth mentioning that its performance
-is equivalent to that of the non-federated (i.e., centralized) counterpart.
-Moreover, we validate its effectiveness through both theoretical analysis and
-empirical studies. Extensive experiments on three real-world datasets show that
-our LP-GCN outperforms the existing federated recommendation methods. The code
-will be publicly available once the paper is accepted.</p>
   </details>
 </div>
 
