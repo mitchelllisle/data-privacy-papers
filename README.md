@@ -2,6 +2,155 @@
 <h2>2025-01</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.04420v1">A Closer Look on Gender Stereotypes in Movie Recommender Systems and
+  Their Implications with Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB">
+  <p><b>Published on:</b> 2025-01-08T11:08:58Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Falguni Roy, Yiduo Shen, Na Zhao, Xiaofeng Ding, Md. Omar Faruk</p>
+    <p><b>Summary:</b> The movie recommender system typically leverages user feedback to provide
+personalized recommendations that align with user preferences and increase
+business revenue. This study investigates the impact of gender stereotypes on
+such systems through a specific attack scenario. In this scenario, an attacker
+determines users' gender, a private attribute, by exploiting gender stereotypes
+about movie preferences and analyzing users' feedback data, which is either
+publicly available or observed within the system. The study consists of two
+phases. In the first phase, a user study involving 630 participants identified
+gender stereotypes associated with movie genres, which often influence viewing
+choices. In the second phase, four inference algorithms were applied to detect
+gender stereotypes by combining the findings from the first phase with users'
+feedback data. Results showed that these algorithms performed more effectively
+than relying solely on feedback data for gender inference. Additionally, we
+quantified the extent of gender stereotypes to evaluate their broader impact on
+digital computational science. The latter part of the study utilized two major
+movie recommender datasets: MovieLens 1M and Yahoo!Movie. Detailed experimental
+information is available on our GitHub repository:
+https://github.com/fr-iit/GSMRS</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.04409v1">Lossless Privacy-Preserving Aggregation for Decentralized Federated
+  Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-01-08T10:49:06Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xiaoye Miao, Bin Li, Yangyang Wu, Meng Xi, Xinkui Zhao, Jianwei Yin</p>
+    <p><b>Summary:</b> Privacy concerns arise as sensitive data proliferate. Despite decentralized
+federated learning (DFL) aggregating gradients from neighbors to avoid direct
+data transmission, it still poses indirect data leaks from the transmitted
+gradients. Existing privacy-preserving methods for DFL add noise to gradients.
+They either diminish the model predictive accuracy or suffer from ineffective
+gradient protection. In this paper, we propose a novel lossless
+privacy-preserving aggregation rule named LPPA to enhance gradient protection
+as much as possible but without loss of DFL model predictive accuracy. LPPA
+subtly injects the noise difference between the sent and received noise into
+transmitted gradients for gradient protection. The noise difference
+incorporates neighbors' randomness for each client, effectively safeguarding
+against data leaks. LPPA employs the noise flow conservation theory to ensure
+that the noise impact can be globally eliminated. The global sum of all noise
+differences remains zero, ensuring that accurate gradient aggregation is
+unaffected and the model accuracy remains intact. We theoretically prove that
+the privacy-preserving capacity of LPPA is \sqrt{2} times greater than that of
+noise addition, while maintaining comparable model accuracy to the standard DFL
+aggregation without noise injection. Experimental results verify the
+theoretical findings and show that LPPA achieves a 13% mean improvement in
+accuracy over noise addition. We also demonstrate the effectiveness of LPPA in
+protecting raw data and guaranteeing lossless model accuracy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.04323v1">Navigating the Designs of Privacy-Preserving Fine-tuning for Large
+  Language Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-01-08T07:47:43Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shi Haonan, Ouyang Tu, Wang An</p>
+    <p><b>Summary:</b> Instruction tuning has proven effective in enhancing Large Language Models'
+(LLMs) performance on downstream tasks. However, real-world fine-tuning faces
+inherent conflicts between model providers' intellectual property protection,
+clients' data privacy requirements, and tuning costs. While recent approaches
+like split learning and offsite tuning demonstrate promising architectures for
+privacy-preserving fine-tuning, there is a gap in systematically addressing the
+multidimensional trade-offs required for diverse real-world deployments. We
+propose several indicative evaluation metrics to guide design trade-offs for
+privacy-preserving fine-tuning and a series of example designs, collectively
+named GuardedTuning; they result from novel combinations of system
+architectures with adapted privacy-enhancement methods and emerging computation
+techniques. Each design represents distinct trade-offs across model utility,
+privacy guarantees, and costs. Experimental results demonstrate that these
+designs protect against data reconstruction attacks while maintaining
+competitive fine-tuning performance.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.04222v1">Privacy-Preserving Distributed Online Mirror Descent for Nonconvex
+  Optimization</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
+  <p><b>Published on:</b> 2025-01-08T01:39:10Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yingjie Zhou, Tao Li</p>
+    <p><b>Summary:</b> We investigate the distributed online nonconvex optimization problem with
+differential privacy over time-varying networks. Each node minimizes the sum of
+several nonconvex functions while preserving the node's differential privacy.
+We propose a privacy-preserving distributed online mirror descent algorithm for
+nonconvex optimization, which uses the mirror descent to update decision
+variables and the Laplace differential privacy mechanism to protect privacy.
+Unlike the existing works, the proposed algorithm allows the cost functions to
+be nonconvex, which is more applicable. Based upon these, we prove that if the
+communication network is $B$-strongly connected and the constraint set is
+compact, then by choosing the step size properly, the algorithm guarantees
+$\epsilon$-differential privacy at each time. Furthermore, we prove that if the
+local cost functions are $\beta$-smooth, then the regret over time horizon $T$
+grows sublinearly while preserving differential privacy, with an upper bound
+$O(\sqrt{T})$. Finally, the effectiveness of the algorithm is demonstrated
+through numerical simulations.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.04134v1">Mixing Times and Privacy Analysis for the Projected Langevin Algorithm
+  under a Modulus of Continuity</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Optimization and Control-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36"> 
+  <p><b>Published on:</b> 2025-01-07T20:46:59Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mario Bravo, Juan P. Flores-Mella, Cristóbal Guzmán</p>
+    <p><b>Summary:</b> We study the mixing time of the projected Langevin algorithm (LA) and the
+privacy curve of noisy Stochastic Gradient Descent (SGD), beyond nonexpansive
+iterations. Specifically, we derive new mixing time bounds for the projected LA
+which are, in some important cases, dimension-free and poly-logarithmic on the
+accuracy, closely matching the existing results in the smooth convex case.
+Additionally, we establish new upper bounds for the privacy curve of the
+subsampled noisy SGD algorithm. These bounds show a crucial dependency on the
+regularity of gradients, and are useful for a wide range of convex losses
+beyond the smooth case. Our analysis relies on a suitable extension of the
+Privacy Amplification by Iteration (PABI) framework (Feldman et al., 2018;
+Altschuler and Talwar, 2022, 2023) to noisy iterations whose gradient map is
+not necessarily nonexpansive. This extension is achieved by designing an
+optimization problem which accounts for the best possible R\'enyi divergence
+bound obtained by an application of PABI, where the tractability of the problem
+is crucially related to the modulus of continuity of the associated gradient
+mapping. We show that, in several interesting cases -- including the nonsmooth
+convex, weakly smooth and (strongly) dissipative -- such optimization problem
+can be solved exactly and explicitly. This yields the tightest possible
+PABI-based bounds, where our results are either new or substantially sharper
+than those in previous works.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2501.03941v1">Synthetic Data Privacy Metrics</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
   <p><b>Published on:</b> 2025-01-07T17:02:33Z</p>
@@ -19,6 +168,33 @@ review the pros and cons of popular metrics that include simulations of
 adversarial attacks. We also review current best practices for amending
 generative models to enhance the privacy of the data they create (e.g.
 differential privacy).</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.04058v1">Homomorphic Encryption in Healthcare Industry Applications for
+  Protecting Data Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-01-07T07:42:41Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> J. S. Rauthan</p>
+    <p><b>Summary:</b> Focussing on two different use cases-Quality Control methods in industrial
+contexts and Neural Network algorithms for healthcare diagnostics-this research
+investigates the inclusion of Fully Homomorphic Encryption into real-world
+applications in the healthcare sector. We evaluate the performance, resource
+requirements, and viability of deploying FHE in these settings through
+extensive testing and analysis, highlighting the progress made in FHE tooling
+and the obstacles still facing addressing the gap between conceptual research
+and practical applications. We start our research by describing the specific
+case study and trust model were working with. Choosing the two FHE frameworks
+most appropriate for industry development, we assess the resources and
+performance requirements for implementing each of the two FHE frameworks in the
+first scenario, Quality Control algorithms. In conclusion, our findings
+demonstrate the effectiveness and resource consumption of the two use
+cases-complex NN models and simple QC algorithms-when implemented in an FHE
+setting.</p>
   </details>
 </div>
 
@@ -2823,189 +2999,6 @@ this paper, we systematically compare linear regression models trained with
 differential privacy and PAC privacy across three real-world datasets,
 observing several key findings that impact the performance of
 privacy-preserving linear regression.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.02538v2">On Privacy, Security, and Trustworthiness in Distributed Wireless Large
-  AI Models (WLAM)</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">  
-  <p><b>Published on:</b> 2024-12-03T16:32:19Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zhaohui Yang, Wei Xu, Le Liang, Yuanhao Cui, Zhijin Qin, Merouane Debbah</p>
-    <p><b>Summary:</b> Combining wireless communication with large artificial intelligence (AI)
-models can open up a myriad of novel application scenarios. In sixth generation
-(6G) networks, ubiquitous communication and computing resources allow large AI
-models to serve democratic large AI models-related services to enable real-time
-applications like autonomous vehicles, smart cities, and Internet of Things
-(IoT) ecosystems. However, the security considerations and sustainable
-communication resources limit the deployment of large AI models over
-distributed wireless networks. This paper provides a comprehensive overview of
-privacy, security, and trustworthy for distributed wireless large AI model
-(WLAM). In particular, a detailed privacy and security are analysis for
-distributed WLAM is fist revealed. The classifications and theoretical findings
-about privacy and security in distributed WLAM are discussed. Then the
-trustworthy and ethics for implementing distributed WLAM are described.
-Finally, the comprehensive applications of distributed WLAM are presented in
-the context of electromagnetic signal processing.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.02340v1">Federated Analytics in Practice: Engineering for Privacy, Scalability
-  and Practicality</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-12-03T10:03:12Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Harish Srinivas, Graham Cormode, Mehrdad Honarkhah, Samuel Lurye, Jonathan Hehir, Lunwen He, George Hong, Ahmed Magdy, Dzmitry Huba, Kaikai Wang, Shen Guo, Shoubhik Bhattacharya</p>
-    <p><b>Summary:</b> Cross-device Federated Analytics (FA) is a distributed computation paradigm
-designed to answer analytics queries about and derive insights from data held
-locally on users' devices. On-device computations combined with other privacy
-and security measures ensure that only minimal data is transmitted off-device,
-achieving a high standard of data protection. Despite FA's broad relevance, the
-applicability of existing FA systems is limited by compromised accuracy; lack
-of flexibility for data analytics; and an inability to scale effectively. In
-this paper, we describe our approach to combine privacy, scalability, and
-practicality to build and deploy a system that overcomes these limitations. Our
-FA system leverages trusted execution environments (TEEs) and optimizes the use
-of on-device computing resources to facilitate federated data processing across
-large fleets of devices, while ensuring robust, defensible, and verifiable
-privacy safeguards. We focus on federated analytics (statistics and
-monitoring), in contrast to systems for federated learning (ML workloads), and
-we flag the key differences.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.07796v1">MRP-LLM: Multitask Reflective Large Language Models for
-  Privacy-Preserving Next POI Recommendation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2024-12-03T09:45:02Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ziqing Wu, Zhu Sun, Dongxia Wang, Lu Zhang, Jie Zhang, Yew Soon Ong</p>
-    <p><b>Summary:</b> Large language models (LLMs) have shown promising potential for next
-Point-of-Interest (POI) recommendation. However, existing methods only perform
-direct zero-shot prompting, leading to ineffective extraction of user
-preferences, insufficient injection of collaborative signals, and a lack of
-user privacy protection. As such, we propose a novel Multitask Reflective Large
-Language Model for Privacy-preserving Next POI Recommendation (MRP-LLM), aiming
-to exploit LLMs for better next POI recommendation while preserving user
-privacy. Specifically, the Multitask Reflective Preference Extraction Module
-first utilizes LLMs to distill each user's fine-grained (i.e., categorical,
-temporal, and spatial) preferences into a knowledge base (KB). The Neighbor
-Preference Retrieval Module retrieves and summarizes the preferences of similar
-users from the KB to obtain collaborative signals. Subsequently, aggregating
-the user's preferences with those of similar users, the Multitask Next POI
-Recommendation Module generates the next POI recommendations via multitask
-prompting. Meanwhile, during data collection, a Privacy Transmission Module is
-specifically devised to preserve sensitive POI data. Extensive experiments on
-three real-world datasets demonstrate the efficacy of our proposed MRP-LLM in
-providing more accurate next POI recommendations with user privacy preserved.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.02130v1">A privacy-preserving distributed credible evidence fusion algorithm for
-  collective decision-making</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2024-12-03T03:36:42Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Chaoxiong Ma, Yan Liang, Xinyu Yang, Han Wu, Huixia Zhang</p>
-    <p><b>Summary:</b> The theory of evidence reasoning has been applied to collective
-decision-making in recent years. However, existing distributed evidence fusion
-methods lead to participants' preference leakage and fusion failures as they
-directly exchange raw evidence and do not assess evidence credibility like
-centralized credible evidence fusion (CCEF) does. To do so, a
-privacy-preserving distributed credible evidence fusion method with three-level
-consensus (PCEF) is proposed in this paper. In evidence difference measure
-(EDM) neighbor consensus, an evidence-free equivalent expression of EDM among
-neighbored agents is derived with the shared dot product protocol for pignistic
-probability and the identical judgment of two events with maximal subjective
-probabilities, so that evidence privacy is guaranteed due to such irreversible
-evidence transformation. In EDM network consensus, the non-neighbored EDMs are
-inferred and neighbored EDMs reach uniformity via interaction between linear
-average consensus (LAC) and low-rank matrix completion with rank adaptation to
-guarantee EDM consensus convergence and no solution of inferring raw evidence
-in numerical iteration style. In fusion network consensus, a privacy-preserving
-LAC with a self-cancelling differential privacy term is proposed, where each
-agent adds its randomness to the sharing content and step-by-step cancels such
-randomness in consensus iterations. Besides, the sufficient condition of the
-convergence to the CCEF is explored, and it is proven that raw evidence is
-impossibly inferred in such an iterative consensus. The simulations show that
-PCEF is close to CCEF both in credibility and fusion results and obtains higher
-decision accuracy with less time-comsuming than existing methods.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.01756v1">Adversarial Sample-Based Approach for Tighter Privacy Auditing in Final
-  Model-Only Scenarios</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-12-02T17:52:16Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Sangyeon Yoon, Wonje Jeung, Albert No</p>
-    <p><b>Summary:</b> Auditing Differentially Private Stochastic Gradient Descent (DP-SGD) in the
-final model setting is challenging and often results in empirical lower bounds
-that are significantly looser than theoretical privacy guarantees. We introduce
-a novel auditing method that achieves tighter empirical lower bounds without
-additional assumptions by crafting worst-case adversarial samples through
-loss-based input-space auditing. Our approach surpasses traditional
-canary-based heuristics and is effective in both white-box and black-box
-scenarios. Specifically, with a theoretical privacy budget of $\varepsilon =
-10.0$, our method achieves empirical lower bounds of $6.68$ in white-box
-settings and $4.51$ in black-box settings, compared to the baseline of $4.11$
-for MNIST. Moreover, we demonstrate that significant privacy auditing results
-can be achieved using in-distribution (ID) samples as canaries, obtaining an
-empirical lower bound of $4.33$ where traditional methods produce near-zero
-leakage detection. Our work offers a practical framework for reliable and
-accurate privacy auditing in differentially private machine learning.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.01671v2">Verified Foundations for Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-12-02T16:19:47Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Markus de Medeiros, Muhammad Naveed, Tancrede Lepoint, Temesghen Kahsai, Tristan Ravitch, Stefan Zetzsche, Anjali Joshi, Joseph Tassarotti, Aws Albarghouthi, Jean-Baptiste Tristan</p>
-    <p><b>Summary:</b> Differential privacy (DP) has become the gold standard for privacy-preserving
-data analysis, but implementing it correctly has proven challenging. Prior work
-has focused on verifying DP at a high level, assuming the foundations are
-correct and a perfect source of randomness is available. However, the
-underlying theory of differential privacy can be very complex and subtle. Flaws
-in basic mechanisms and random number generation have been a critical source of
-vulnerabilities in real-world DP systems.
-  In this paper, we present SampCert, the first comprehensive, mechanized
-foundation for differential privacy. SampCert is written in Lean with over
-12,000 lines of proof. It offers a generic and extensible notion of DP, a
-framework for constructing and composing DP mechanisms, and formally verified
-implementations of Laplace and Gaussian sampling algorithms. SampCert provides
-(1) a mechanized foundation for developing the next generation of
-differentially private algorithms, and (2) mechanically verified primitives
-that can be deployed in production systems. Indeed, SampCert's verified
-algorithms power the DP offerings of Amazon Web Services (AWS), demonstrating
-its real-world impact.
-  SampCert's key innovations include: (1) A generic DP foundation that can be
-instantiated for various DP definitions (e.g., pure, concentrated, R\'enyi DP);
-(2) formally verified discrete Laplace and Gaussian sampling algorithms that
-avoid the pitfalls of floating-point implementations; and (3) a simple
-probability monad and novel proof techniques that streamline the formalization.
-To enable proving complex correctness properties of DP and random number
-generation, SampCert makes heavy use of Lean's extensive Mathlib library,
-leveraging theorems in Fourier analysis, measure and probability theory, number
-theory, and topology.</p>
   </details>
 </div>
 
