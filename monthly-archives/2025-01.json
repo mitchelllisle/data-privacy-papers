@@ -386,5 +386,144 @@
     "categories" : [
       "cs.PF"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.04420v1",
+    "title" : "A Closer Look on Gender Stereotypes in Movie Recommender Systems and\n  Their Implications with Privacy",
+    "summary" : "The movie recommender system typically leverages user feedback to provide\npersonalized recommendations that align with user preferences and increase\nbusiness revenue. This study investigates the impact of gender stereotypes on\nsuch systems through a specific attack scenario. In this scenario, an attacker\ndetermines users' gender, a private attribute, by exploiting gender stereotypes\nabout movie preferences and analyzing users' feedback data, which is either\npublicly available or observed within the system. The study consists of two\nphases. In the first phase, a user study involving 630 participants identified\ngender stereotypes associated with movie genres, which often influence viewing\nchoices. In the second phase, four inference algorithms were applied to detect\ngender stereotypes by combining the findings from the first phase with users'\nfeedback data. Results showed that these algorithms performed more effectively\nthan relying solely on feedback data for gender inference. Additionally, we\nquantified the extent of gender stereotypes to evaluate their broader impact on\ndigital computational science. The latter part of the study utilized two major\nmovie recommender datasets: MovieLens 1M and Yahoo!Movie. Detailed experimental\ninformation is available on our GitHub repository:\nhttps://github.com/fr-iit/GSMRS",
+    "updated" : "2025-01-08T11:08:58Z",
+    "published" : "2025-01-08T11:08:58Z",
+    "authors" : [
+      {
+        "name" : "Falguni Roy"
+      },
+      {
+        "name" : "Yiduo Shen"
+      },
+      {
+        "name" : "Na Zhao"
+      },
+      {
+        "name" : "Xiaofeng Ding"
+      },
+      {
+        "name" : "Md. Omar Faruk"
+      }
+    ],
+    "categories" : [
+      "cs.IR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.04409v1",
+    "title" : "Lossless Privacy-Preserving Aggregation for Decentralized Federated\n  Learning",
+    "summary" : "Privacy concerns arise as sensitive data proliferate. Despite decentralized\nfederated learning (DFL) aggregating gradients from neighbors to avoid direct\ndata transmission, it still poses indirect data leaks from the transmitted\ngradients. Existing privacy-preserving methods for DFL add noise to gradients.\nThey either diminish the model predictive accuracy or suffer from ineffective\ngradient protection. In this paper, we propose a novel lossless\nprivacy-preserving aggregation rule named LPPA to enhance gradient protection\nas much as possible but without loss of DFL model predictive accuracy. LPPA\nsubtly injects the noise difference between the sent and received noise into\ntransmitted gradients for gradient protection. The noise difference\nincorporates neighbors' randomness for each client, effectively safeguarding\nagainst data leaks. LPPA employs the noise flow conservation theory to ensure\nthat the noise impact can be globally eliminated. The global sum of all noise\ndifferences remains zero, ensuring that accurate gradient aggregation is\nunaffected and the model accuracy remains intact. We theoretically prove that\nthe privacy-preserving capacity of LPPA is \\sqrt{2} times greater than that of\nnoise addition, while maintaining comparable model accuracy to the standard DFL\naggregation without noise injection. Experimental results verify the\ntheoretical findings and show that LPPA achieves a 13% mean improvement in\naccuracy over noise addition. We also demonstrate the effectiveness of LPPA in\nprotecting raw data and guaranteeing lossless model accuracy.",
+    "updated" : "2025-01-08T10:49:06Z",
+    "published" : "2025-01-08T10:49:06Z",
+    "authors" : [
+      {
+        "name" : "Xiaoye Miao"
+      },
+      {
+        "name" : "Bin Li"
+      },
+      {
+        "name" : "Yangyang Wu"
+      },
+      {
+        "name" : "Meng Xi"
+      },
+      {
+        "name" : "Xinkui Zhao"
+      },
+      {
+        "name" : "Jianwei Yin"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.04323v1",
+    "title" : "Navigating the Designs of Privacy-Preserving Fine-tuning for Large\n  Language Models",
+    "summary" : "Instruction tuning has proven effective in enhancing Large Language Models'\n(LLMs) performance on downstream tasks. However, real-world fine-tuning faces\ninherent conflicts between model providers' intellectual property protection,\nclients' data privacy requirements, and tuning costs. While recent approaches\nlike split learning and offsite tuning demonstrate promising architectures for\nprivacy-preserving fine-tuning, there is a gap in systematically addressing the\nmultidimensional trade-offs required for diverse real-world deployments. We\npropose several indicative evaluation metrics to guide design trade-offs for\nprivacy-preserving fine-tuning and a series of example designs, collectively\nnamed GuardedTuning; they result from novel combinations of system\narchitectures with adapted privacy-enhancement methods and emerging computation\ntechniques. Each design represents distinct trade-offs across model utility,\nprivacy guarantees, and costs. Experimental results demonstrate that these\ndesigns protect against data reconstruction attacks while maintaining\ncompetitive fine-tuning performance.",
+    "updated" : "2025-01-08T07:47:43Z",
+    "published" : "2025-01-08T07:47:43Z",
+    "authors" : [
+      {
+        "name" : "Shi Haonan"
+      },
+      {
+        "name" : "Ouyang Tu"
+      },
+      {
+        "name" : "Wang An"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.04222v1",
+    "title" : "Privacy-Preserving Distributed Online Mirror Descent for Nonconvex\n  Optimization",
+    "summary" : "We investigate the distributed online nonconvex optimization problem with\ndifferential privacy over time-varying networks. Each node minimizes the sum of\nseveral nonconvex functions while preserving the node's differential privacy.\nWe propose a privacy-preserving distributed online mirror descent algorithm for\nnonconvex optimization, which uses the mirror descent to update decision\nvariables and the Laplace differential privacy mechanism to protect privacy.\nUnlike the existing works, the proposed algorithm allows the cost functions to\nbe nonconvex, which is more applicable. Based upon these, we prove that if the\ncommunication network is $B$-strongly connected and the constraint set is\ncompact, then by choosing the step size properly, the algorithm guarantees\n$\\epsilon$-differential privacy at each time. Furthermore, we prove that if the\nlocal cost functions are $\\beta$-smooth, then the regret over time horizon $T$\ngrows sublinearly while preserving differential privacy, with an upper bound\n$O(\\sqrt{T})$. Finally, the effectiveness of the algorithm is demonstrated\nthrough numerical simulations.",
+    "updated" : "2025-01-08T01:39:10Z",
+    "published" : "2025-01-08T01:39:10Z",
+    "authors" : [
+      {
+        "name" : "Yingjie Zhou"
+      },
+      {
+        "name" : "Tao Li"
+      }
+    ],
+    "categories" : [
+      "eess.SY",
+      "cs.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.04134v1",
+    "title" : "Mixing Times and Privacy Analysis for the Projected Langevin Algorithm\n  under a Modulus of Continuity",
+    "summary" : "We study the mixing time of the projected Langevin algorithm (LA) and the\nprivacy curve of noisy Stochastic Gradient Descent (SGD), beyond nonexpansive\niterations. Specifically, we derive new mixing time bounds for the projected LA\nwhich are, in some important cases, dimension-free and poly-logarithmic on the\naccuracy, closely matching the existing results in the smooth convex case.\nAdditionally, we establish new upper bounds for the privacy curve of the\nsubsampled noisy SGD algorithm. These bounds show a crucial dependency on the\nregularity of gradients, and are useful for a wide range of convex losses\nbeyond the smooth case. Our analysis relies on a suitable extension of the\nPrivacy Amplification by Iteration (PABI) framework (Feldman et al., 2018;\nAltschuler and Talwar, 2022, 2023) to noisy iterations whose gradient map is\nnot necessarily nonexpansive. This extension is achieved by designing an\noptimization problem which accounts for the best possible R\\'enyi divergence\nbound obtained by an application of PABI, where the tractability of the problem\nis crucially related to the modulus of continuity of the associated gradient\nmapping. We show that, in several interesting cases -- including the nonsmooth\nconvex, weakly smooth and (strongly) dissipative -- such optimization problem\ncan be solved exactly and explicitly. This yields the tightest possible\nPABI-based bounds, where our results are either new or substantially sharper\nthan those in previous works.",
+    "updated" : "2025-01-07T20:46:59Z",
+    "published" : "2025-01-07T20:46:59Z",
+    "authors" : [
+      {
+        "name" : "Mario Bravo"
+      },
+      {
+        "name" : "Juan P. Flores-Mella"
+      },
+      {
+        "name" : "Cristóbal Guzmán"
+      }
+    ],
+    "categories" : [
+      "stat.ML",
+      "cs.LG",
+      "math.OC",
+      "math.ST",
+      "stat.TH"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.04058v1",
+    "title" : "Homomorphic Encryption in Healthcare Industry Applications for\n  Protecting Data Privacy",
+    "summary" : "Focussing on two different use cases-Quality Control methods in industrial\ncontexts and Neural Network algorithms for healthcare diagnostics-this research\ninvestigates the inclusion of Fully Homomorphic Encryption into real-world\napplications in the healthcare sector. We evaluate the performance, resource\nrequirements, and viability of deploying FHE in these settings through\nextensive testing and analysis, highlighting the progress made in FHE tooling\nand the obstacles still facing addressing the gap between conceptual research\nand practical applications. We start our research by describing the specific\ncase study and trust model were working with. Choosing the two FHE frameworks\nmost appropriate for industry development, we assess the resources and\nperformance requirements for implementing each of the two FHE frameworks in the\nfirst scenario, Quality Control algorithms. In conclusion, our findings\ndemonstrate the effectiveness and resource consumption of the two use\ncases-complex NN models and simple QC algorithms-when implemented in an FHE\nsetting.",
+    "updated" : "2025-01-07T07:42:41Z",
+    "published" : "2025-01-07T07:42:41Z",
+    "authors" : [
+      {
+        "name" : "J. S. Rauthan"
+      }
+    ],
+    "categories" : [
+      "cs.DC",
+      "cs.CR"
+    ]
   }
 ]
