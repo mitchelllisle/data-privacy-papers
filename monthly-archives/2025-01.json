@@ -525,5 +525,95 @@
       "cs.DC",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.05053v1",
+    "title" : "TAPFed: Threshold Secure Aggregation for Privacy-Preserving Federated\n  Learning",
+    "summary" : "Federated learning is a computing paradigm that enhances privacy by enabling\nmultiple parties to collaboratively train a machine learning model without\nrevealing personal data. However, current research indicates that traditional\nfederated learning platforms are unable to ensure privacy due to privacy leaks\ncaused by the interchange of gradients. To achieve privacy-preserving federated\nlearning, integrating secure aggregation mechanisms is essential.\nUnfortunately, existing solutions are vulnerable to recently demonstrated\ninference attacks such as the disaggregation attack. This paper proposes\nTAPFed, an approach for achieving privacy-preserving federated learning in the\ncontext of multiple decentralized aggregators with malicious actors. TAPFed\nuses a proposed threshold functional encryption scheme and allows for a certain\nnumber of malicious aggregators while maintaining security and privacy. We\nprovide formal security and privacy analyses of TAPFed and compare it to\nvarious baselines through experimental evaluation. Our results show that TAPFed\noffers equivalent performance in terms of model quality compared to\nstate-of-the-art approaches while reducing transmission overhead by 29%-45%\nacross different model training scenarios. Most importantly, TAPFed can defend\nagainst recently demonstrated inference attacks caused by curious aggregators,\nwhich the majority of existing approaches are susceptible to.",
+    "updated" : "2025-01-09T08:24:10Z",
+    "published" : "2025-01-09T08:24:10Z",
+    "authors" : [
+      {
+        "name" : "Runhua Xu"
+      },
+      {
+        "name" : "Bo Li"
+      },
+      {
+        "name" : "Chao Li"
+      },
+      {
+        "name" : "James B. D. Joshi"
+      },
+      {
+        "name" : "Shuai Ma"
+      },
+      {
+        "name" : "Jianxin Li"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.04940v1",
+    "title" : "A New Perspective on Privacy Protection in Federated Learning with\n  Granular-Ball Computing",
+    "summary" : "Federated Learning (FL) facilitates collaborative model training while\nprioritizing privacy by avoiding direct data sharing. However, most existing\narticles attempt to address challenges within the model's internal parameters\nand corresponding outputs, while neglecting to solve them at the input level.\nTo address this gap, we propose a novel framework called Granular-Ball\nFederated Learning (GrBFL) for image classification. GrBFL diverges from\ntraditional methods that rely on the finest-grained input data. Instead, it\nsegments images into multiple regions with optimal coarse granularity, which\nare then reconstructed into a graph structure. We designed a two-dimensional\nbinary search segmentation algorithm based on variance constraints for GrBFL,\nwhich effectively removes redundant information while preserving key\nrepresentative features. Extensive theoretical analysis and experiments\ndemonstrate that GrBFL not only safeguards privacy and enhances efficiency but\nalso maintains robust utility, consistently outperforming other\nstate-of-the-art FL methods. The code is available at\nhttps://github.com/AIGNLAI/GrBFL.",
+    "updated" : "2025-01-09T03:14:03Z",
+    "published" : "2025-01-09T03:14:03Z",
+    "authors" : [
+      {
+        "name" : "Guannan Lai"
+      },
+      {
+        "name" : "Yihui Feng"
+      },
+      {
+        "name" : "Xin Yang"
+      },
+      {
+        "name" : "Xiaoyu Deng"
+      },
+      {
+        "name" : "Hao Yu"
+      },
+      {
+        "name" : "Shuyin Xia"
+      },
+      {
+        "name" : "Guoyin Wang"
+      },
+      {
+        "name" : "Tianrui Li"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.04323v2",
+    "title" : "Navigating the Designs of Privacy-Preserving Fine-tuning for Large\n  Language Models",
+    "summary" : "Instruction tuning has proven effective in enhancing Large Language Models'\n(LLMs) performance on downstream tasks. However, real-world fine-tuning faces\ninherent conflicts between model providers' intellectual property protection,\nclients' data privacy requirements, and tuning costs. While recent approaches\nlike split learning and offsite tuning demonstrate promising architectures for\nprivacy-preserving fine-tuning, there is a gap in systematically addressing the\nmultidimensional trade-offs required for diverse real-world deployments. We\npropose several indicative evaluation metrics to guide design trade-offs for\nprivacy-preserving fine-tuning and a series of example designs, collectively\nnamed GuardedTuning; they result from novel combinations of system\narchitectures with adapted privacy-enhancement methods and emerging computation\ntechniques. Each design represents distinct trade-offs across model utility,\nprivacy guarantees, and costs. Experimental results demonstrate that these\ndesigns protect against data reconstruction attacks while maintaining\ncompetitive fine-tuning performance.",
+    "updated" : "2025-01-09T02:33:04Z",
+    "published" : "2025-01-08T07:47:43Z",
+    "authors" : [
+      {
+        "name" : "Haonan Shi"
+      },
+      {
+        "name" : "Tu Ouyang"
+      },
+      {
+        "name" : "An Wang"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
   }
 ]
