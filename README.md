@@ -2,6 +2,65 @@
 <h2>2025-01</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.05053v1">TAPFed: Threshold Secure Aggregation for Privacy-Preserving Federated
+  Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-01-09T08:24:10Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Runhua Xu, Bo Li, Chao Li, James B. D. Joshi, Shuai Ma, Jianxin Li</p>
+    <p><b>Summary:</b> Federated learning is a computing paradigm that enhances privacy by enabling
+multiple parties to collaboratively train a machine learning model without
+revealing personal data. However, current research indicates that traditional
+federated learning platforms are unable to ensure privacy due to privacy leaks
+caused by the interchange of gradients. To achieve privacy-preserving federated
+learning, integrating secure aggregation mechanisms is essential.
+Unfortunately, existing solutions are vulnerable to recently demonstrated
+inference attacks such as the disaggregation attack. This paper proposes
+TAPFed, an approach for achieving privacy-preserving federated learning in the
+context of multiple decentralized aggregators with malicious actors. TAPFed
+uses a proposed threshold functional encryption scheme and allows for a certain
+number of malicious aggregators while maintaining security and privacy. We
+provide formal security and privacy analyses of TAPFed and compare it to
+various baselines through experimental evaluation. Our results show that TAPFed
+offers equivalent performance in terms of model quality compared to
+state-of-the-art approaches while reducing transmission overhead by 29%-45%
+across different model training scenarios. Most importantly, TAPFed can defend
+against recently demonstrated inference attacks caused by curious aggregators,
+which the majority of existing approaches are susceptible to.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.04940v1">A New Perspective on Privacy Protection in Federated Learning with
+  Granular-Ball Computing</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2025-01-09T03:14:03Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Guannan Lai, Yihui Feng, Xin Yang, Xiaoyu Deng, Hao Yu, Shuyin Xia, Guoyin Wang, Tianrui Li</p>
+    <p><b>Summary:</b> Federated Learning (FL) facilitates collaborative model training while
+prioritizing privacy by avoiding direct data sharing. However, most existing
+articles attempt to address challenges within the model's internal parameters
+and corresponding outputs, while neglecting to solve them at the input level.
+To address this gap, we propose a novel framework called Granular-Ball
+Federated Learning (GrBFL) for image classification. GrBFL diverges from
+traditional methods that rely on the finest-grained input data. Instead, it
+segments images into multiple regions with optimal coarse granularity, which
+are then reconstructed into a graph structure. We designed a two-dimensional
+binary search segmentation algorithm based on variance constraints for GrBFL,
+which effectively removes redundant information while preserving key
+representative features. Extensive theoretical analysis and experiments
+demonstrate that GrBFL not only safeguards privacy and enhances efficiency but
+also maintains robust utility, consistently outperforming other
+state-of-the-art FL methods. The code is available at
+https://github.com/AIGNLAI/GrBFL.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2501.04420v1">A Closer Look on Gender Stereotypes in Movie Recommender Systems and
   Their Implications with Privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB">
@@ -65,13 +124,13 @@ protecting raw data and guaranteeing lossless model accuracy.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.04323v1">Navigating the Designs of Privacy-Preserving Fine-tuning for Large
+  <h3><a href="http://arxiv.org/abs/2501.04323v2">Navigating the Designs of Privacy-Preserving Fine-tuning for Large
   Language Models</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2025-01-08T07:47:43Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Shi Haonan, Ouyang Tu, Wang An</p>
+    <p><b>Authors:</b> Haonan Shi, Tu Ouyang, An Wang</p>
     <p><b>Summary:</b> Instruction tuning has proven effective in enhancing Large Language Models'
 (LLMs) performance on downstream tasks. However, real-world fine-tuning faces
 inherent conflicts between model providers' intellectual property protection,
@@ -2949,56 +3008,6 @@ current improvement and long-term privacy constraints. Our extensive
 experimental results on real datasets demonstrate that \emph{BGTplanner}
 achieves an average improvement of 6.76\% in training performance compared to
 state-of-the-art baselines.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.02868v1">A Novel Compact LLM Framework for Local, High-Privacy EHR Data
-  Applications</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2024-12-03T22:06:55Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yixiang Qu, Yifan Dai, Shilin Yu, Pradham Tanikella, Travis Schrank, Trevor Hackman, Didong Li, Di Wu</p>
-    <p><b>Summary:</b> Large Language Models (LLMs) have shown impressive capabilities in natural
-language processing, yet their use in sensitive domains like healthcare,
-particularly with Electronic Health Records (EHR), faces significant challenges
-due to privacy concerns and limited computational resources. This paper
-presents a compact LLM framework designed for local deployment in settings with
-strict privacy requirements and limited access to high-performance GPUs. We
-introduce a novel preprocessing technique that uses information extraction
-methods, e.g., regular expressions, to filter and emphasize critical
-information in clinical notes, enhancing the performance of smaller LLMs on EHR
-data. Our framework is evaluated using zero-shot and few-shot learning
-paradigms on both private and publicly available (MIMIC-IV) datasets, and we
-also compare its performance with fine-tuned LLMs on the MIMIC-IV dataset. The
-results demonstrate that our preprocessing approach significantly boosts the
-prediction accuracy of smaller LLMs, making them suitable for high-privacy,
-resource-constrained applications. This study offers valuable insights into
-optimizing LLM performance for sensitive, data-intensive tasks while addressing
-computational and privacy limitations.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.02578v1">Private Linear Regression with Differential Privacy and PAC Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-12-03T17:04:14Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Hillary Yang</p>
-    <p><b>Summary:</b> Linear regression is a fundamental tool for statistical analysis, which has
-motivated the development of linear regression methods that satisfy provable
-privacy guarantees so that the learned model reveals little about any one data
-point used to construct it. Most existing privacy-preserving linear regression
-methods rely on the well-established framework of differential privacy, while
-the newly proposed PAC Privacy has not yet been explored in this context. In
-this paper, we systematically compare linear regression models trained with
-differential privacy and PAC privacy across three real-world datasets,
-observing several key findings that impact the performance of
-privacy-preserving linear regression.</p>
   </details>
 </div>
 
