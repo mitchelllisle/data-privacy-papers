@@ -615,5 +615,51 @@
       "cs.LG",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.06161v1",
+    "title" : "RIOT-based smart metering system for privacy-preserving data aggregation\n  using watermarking and encryption",
+    "summary" : "The remarkable advancement of smart grid technology in the IoT sector has\nraised concerns over the privacy and security of the data collected and\ntransferred in real-time. Smart meters generate detailed information about\nconsumers' energy consumption patterns, increasing the risks of data breaches,\nidentity theft, and other forms of cyber attacks. This study proposes a\nprivacy-preserving data aggregation protocol that uses reversible watermarking\nand AES cryptography to ensure the security and privacy of the data. There are\ntwo versions of the protocol: one for low-frequency smart meters that uses\nLSB-shifting-based reversible watermarking (RLS) and another for high-frequency\nsmart meters that uses difference expansion-based reversible watermarking\n(RDE). This enables the aggregation of smart meter data, maintaining\nconfidentiality, integrity, and authenticity. The proposed protocol\nsignificantly enhances privacy-preserving measures for smart metering systems,\nconducting an experimental evaluation with real hardware implementation using\nNucleo microcontroller boards and the RIOT operating system and comparing the\nresults to existing security schemes.",
+    "updated" : "2025-01-10T18:37:20Z",
+    "published" : "2025-01-10T18:37:20Z",
+    "authors" : [
+      {
+        "name" : "David Megias"
+      },
+      {
+        "name" : "Farzana Kabir"
+      },
+      {
+        "name" : "Krzysztof Cabaj"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.05535v1",
+    "title" : "On Fair Ordering and Differential Privacy",
+    "summary" : "In blockchain systems, fair transaction ordering is crucial for a trusted and\nregulation-compliant economic ecosystem. Unlike traditional State Machine\nReplication (SMR) systems, which focus solely on liveness and safety,\nblockchain systems also require a fairness property. This paper examines these\nproperties and aims to eliminate algorithmic bias in transaction ordering\nservices.\n  We build on the notion of equal opportunity. We characterize transactions in\nterms of relevant and irrelevant features, requiring that the order be\ndetermined solely by the relevant ones. Specifically, transactions with\nidentical relevant features should have an equal chance of being ordered before\none another. We extend this framework to define a property where the greater\nthe distance in relevant features between transactions, the higher the\nprobability of prioritizing one over the other.\n  We reveal a surprising link between equal opportunity in SMR and Differential\nPrivacy (DP), showing that any DP mechanism can be used to ensure fairness in\nSMR. This connection not only enhances our understanding of the interplay\nbetween privacy and fairness in distributed computing but also opens up new\nopportunities for designing fair distributed protocols using well-established\nDP techniques.",
+    "updated" : "2025-01-09T19:17:43Z",
+    "published" : "2025-01-09T19:17:43Z",
+    "authors" : [
+      {
+        "name" : "Shir Cohen"
+      },
+      {
+        "name" : "Neel Basu"
+      },
+      {
+        "name" : "Soumya Basu"
+      },
+      {
+        "name" : "Lorenzo Alvisi"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DC"
+    ]
   }
 ]
