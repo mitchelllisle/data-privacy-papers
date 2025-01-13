@@ -2,6 +2,64 @@
 <h2>2025-01</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.06161v1">RIOT-based smart metering system for privacy-preserving data aggregation
+  using watermarking and encryption</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-01-10T18:37:20Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> David Megias, Farzana Kabir, Krzysztof Cabaj</p>
+    <p><b>Summary:</b> The remarkable advancement of smart grid technology in the IoT sector has
+raised concerns over the privacy and security of the data collected and
+transferred in real-time. Smart meters generate detailed information about
+consumers' energy consumption patterns, increasing the risks of data breaches,
+identity theft, and other forms of cyber attacks. This study proposes a
+privacy-preserving data aggregation protocol that uses reversible watermarking
+and AES cryptography to ensure the security and privacy of the data. There are
+two versions of the protocol: one for low-frequency smart meters that uses
+LSB-shifting-based reversible watermarking (RLS) and another for high-frequency
+smart meters that uses difference expansion-based reversible watermarking
+(RDE). This enables the aggregation of smart meter data, maintaining
+confidentiality, integrity, and authenticity. The proposed protocol
+significantly enhances privacy-preserving measures for smart metering systems,
+conducting an experimental evaluation with real hardware implementation using
+Nucleo microcontroller boards and the RIOT operating system and comparing the
+results to existing security schemes.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.05535v1">On Fair Ordering and Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
+  <p><b>Published on:</b> 2025-01-09T19:17:43Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shir Cohen, Neel Basu, Soumya Basu, Lorenzo Alvisi</p>
+    <p><b>Summary:</b> In blockchain systems, fair transaction ordering is crucial for a trusted and
+regulation-compliant economic ecosystem. Unlike traditional State Machine
+Replication (SMR) systems, which focus solely on liveness and safety,
+blockchain systems also require a fairness property. This paper examines these
+properties and aims to eliminate algorithmic bias in transaction ordering
+services.
+  We build on the notion of equal opportunity. We characterize transactions in
+terms of relevant and irrelevant features, requiring that the order be
+determined solely by the relevant ones. Specifically, transactions with
+identical relevant features should have an equal chance of being ordered before
+one another. We extend this framework to define a property where the greater
+the distance in relevant features between transactions, the higher the
+probability of prioritizing one over the other.
+  We reveal a surprising link between equal opportunity in SMR and Differential
+Privacy (DP), showing that any DP mechanism can be used to ensure fairness in
+SMR. This connection not only enhances our understanding of the interplay
+between privacy and fairness in distributed computing but also opens up new
+opportunities for designing fair distributed protocols using well-established
+DP techniques.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2501.05053v1">TAPFed: Threshold Secure Aggregation for Privacy-Preserving Federated
   Learning</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
@@ -638,7 +696,7 @@ among usability, privacy, and practicality.</p>
 <h2>2024-12</h2>
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.00588v1">Privacy-Preserving Distributed Defense Framework for DC Microgrids
+  <h3><a href="http://arxiv.org/abs/2501.00588v2">Privacy-Preserving Distributed Defense Framework for DC Microgrids
   Against Exponentially Unbounded False Data Injection Attacks</a></h3>
    <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
   <p><b>Published on:</b> 2024-12-31T18:25:05Z</p>
@@ -2940,74 +2998,6 @@ Additionally, we discuss emerging trends, such as zero-knowledge proofs and
 secure multi-party computation, offering insights for future research. This
 review serves as a valuable resource for researchers and practitioners and can
 help advance privacy-preserving in medical image analysis.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.02987v1">Advancing Conversational Psychotherapy: Integrating Privacy,
-  Dual-Memory, and Domain Expertise with Large Language Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2024-12-04T03:02:46Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> XiuYu Zhang, Zening Luo</p>
-    <p><b>Summary:</b> Mental health has increasingly become a global issue that reveals the
-limitations of traditional conversational psychotherapy, constrained by
-location, time, expense, and privacy concerns. In response to these challenges,
-we introduce SoulSpeak, a Large Language Model (LLM)-enabled chatbot designed
-to democratize access to psychotherapy. SoulSpeak improves upon the
-capabilities of standard LLM-enabled chatbots by incorporating a novel
-dual-memory component that combines short-term and long-term context via
-Retrieval Augmented Generation (RAG) to offer personalized responses while
-ensuring the preservation of user privacy and intimacy through a dedicated
-privacy module. In addition, it leverages a counseling chat dataset of
-therapist-client interactions and various prompting techniques to align the
-generated responses with psychotherapeutic methods. We introduce two fine-tuned
-BERT models to evaluate the system against existing LLMs and human therapists:
-the Conversational Psychotherapy Preference Model (CPPM) to simulate human
-preference among responses and another to assess response relevance to user
-input. CPPM is useful for training and evaluating psychotherapy-focused
-language models independent from SoulSpeak, helping with the constrained
-resources available for psychotherapy. Furthermore, the effectiveness of the
-dual-memory component and the robustness of the privacy module are also
-examined. Our findings highlight the potential and challenge of enhancing
-mental health care by offering an alternative that combines the expertise of
-traditional therapy with the advantages of LLMs, providing a promising way to
-address the accessibility and personalization gap in current mental health
-services.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.02934v1">BGTplanner: Maximizing Training Accuracy for Differentially Private
-  Federated Recommenders via Strategic Privacy Budget Allocation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
-  <p><b>Published on:</b> 2024-12-04T01:07:04Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Xianzhi Zhang, Yipeng Zhou, Miao Hu, Di Wu, Pengshan Liao, Mohsen Guizani, Michael Sheng</p>
-    <p><b>Summary:</b> To mitigate the rising concern about privacy leakage, the federated
-recommender (FR) paradigm emerges, in which decentralized clients co-train the
-recommendation model without exposing their raw user-item rating data. The
-differentially private federated recommender (DPFR) further enhances FR by
-injecting differentially private (DP) noises into clients. Yet, current DPFRs,
-suffering from noise distortion, cannot achieve satisfactory accuracy. Various
-efforts have been dedicated to improving DPFRs by adaptively allocating the
-privacy budget over the learning process. However, due to the intricate
-relation between privacy budget allocation and model accuracy, existing works
-are still far from maximizing DPFR accuracy. To address this challenge, we
-develop BGTplanner (Budget Planner) to strategically allocate the privacy
-budget for each round of DPFR training, improving overall training performance.
-Specifically, we leverage the Gaussian process regression and historical
-information to predict the change in recommendation accuracy with a certain
-allocated privacy budget. Additionally, Contextual Multi-Armed Bandit (CMAB) is
-harnessed to make privacy budget allocation decisions by reconciling the
-current improvement and long-term privacy constraints. Our extensive
-experimental results on real datasets demonstrate that \emph{BGTplanner}
-achieves an average improvement of 6.76\% in training performance compared to
-state-of-the-art baselines.</p>
   </details>
 </div>
 
