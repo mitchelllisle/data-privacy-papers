@@ -3076,5 +3076,27 @@
       "eess.SY",
       "cs.SY"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.06120v2",
+    "title" : "Lightweight Federated Learning with Differential Privacy and Straggler\n  Resilience",
+    "summary" : "Federated learning (FL) enables collaborative model training through model\nparameter exchanges instead of raw data. To avoid potential inference attacks\nfrom exchanged parameters, differential privacy (DP) offers rigorous guarantee\nagainst various attacks. However, conventional methods of ensuring DP by adding\nlocal noise alone often result in low training accuracy. Combining secure\nmulti-party computation (SMPC) with DP, while improving the accuracy, incurs\nhigh communication and computation overheads as well as straggler\nvulnerability, in either client-to-server or client-to-client links. In this\npaper, we propose LightDP-FL, a novel lightweight scheme that ensures provable\nDP against untrusted peers and server, while maintaining straggler resilience,\nlow overheads and high training accuracy. Our scheme incorporates both\nindividual and pairwise noise into each client's parameter, which can be\nimplemented with minimal overheads. Given the uncertain straggler and colluder\nsets, we utilize the upper bound on the numbers of stragglers and colluders to\nprove sufficient noise variance conditions to ensure DP in the worst case.\nMoreover, we optimize the expected convergence bound to ensure accuracy\nperformance by flexibly controlling the noise variances. Using the CIFAR-10\ndataset, our experimental results demonstrate that LightDP-FL achieves faster\nconvergence and stronger straggler resilience compared to baseline methods of\nthe same DP level.",
+    "updated" : "2025-01-11T08:39:49Z",
+    "published" : "2024-12-09T00:54:00Z",
+    "authors" : [
+      {
+        "name" : "Shu Hong"
+      },
+      {
+        "name" : "Xiaojun Lin"
+      },
+      {
+        "name" : "Lingjie Duan"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DC"
+    ]
   }
 ]
