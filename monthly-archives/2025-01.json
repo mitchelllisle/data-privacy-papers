@@ -661,5 +661,139 @@
       "cs.CR",
       "cs.DC"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.07262v1",
+    "title" : "OblivCDN: A Practical Privacy-preserving CDN with Oblivious Content\n  Access",
+    "summary" : "Content providers increasingly utilise Content Delivery Networks (CDNs) to\nenhance users' content download experience. However, this deployment scenario\nraises significant security concerns regarding content confidentiality and user\nprivacy due to the involvement of third-party providers. Prior proposals using\nprivate information retrieval (PIR) and oblivious RAM (ORAM) have proven\nimpractical due to high computation and communication costs, as well as\nintegration challenges within distributed CDN architectures. In response, we\npresent \\textsf{OblivCDN}, a practical privacy-preserving system meticulously\ndesigned for seamless integration with the existing real-world Internet-CDN\ninfrastructure. Our design strategically adapts Range ORAM primitives to\noptimise memory and disk seeks when accessing contiguous blocks of CDN content,\nboth at the origin and edge servers, while preserving both content\nconfidentiality and user access pattern hiding features. Also, we carefully\ncustomise several oblivious building blocks that integrate the distributed\ntrust model into the ORAM client, thereby eliminating the computational\nbottleneck in the origin server and reducing communication costs between the\norigin server and edge servers. Moreover, the newly-designed ORAM client also\neliminates the need for trusted hardware on edge servers, and thus\nsignificantly ameliorates the compatibility towards networks with massive\nlegacy devices.In real-world streaming evaluations, OblivCDN} demonstrates\nremarkable performance, downloading a $256$ MB video in just $5.6$ seconds.\nThis achievement represents a speedup of $90\\times$ compared to a strawman\napproach (direct ORAM adoption) and a $366\\times$ improvement over the prior\nart, OblivP2P.",
+    "updated" : "2025-01-13T12:23:23Z",
+    "published" : "2025-01-13T12:23:23Z",
+    "authors" : [
+      {
+        "name" : "Viet Vo"
+      },
+      {
+        "name" : "Shangqi Lai"
+      },
+      {
+        "name" : "Xingliang Yuan"
+      },
+      {
+        "name" : "Surya Nepal"
+      },
+      {
+        "name" : "Qi Li"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.07209v1",
+    "title" : "Privacy-Preserving Authentication: Theory vs. Practice",
+    "summary" : "With the increasing use of online services, the protection of the privacy of\nusers becomes more and more important. This is particularly critical as\nauthentication and authorization as realized on the Internet nowadays,\ntypically relies on centralized identity management solutions. Although those\nare very convenient from a user's perspective, they are quite intrusive from a\nprivacy perspective and are currently far from implementing the concept of data\nminimization. Fortunately, cryptography offers exciting primitives such as\nzero-knowledge proofs and advanced signature schemes to realize various forms\nof so-called anonymous credentials. Such primitives allow to realize online\nauthentication and authorization with a high level of built-in privacy\nprotection (what we call privacy-preserving authentication). Though these\nprimitives have already been researched for various decades and are well\nunderstood in the research community, unfortunately, they lack widespread\nadoption. In this paper, we look at the problems, what cryptography can do,\nsome deployment examples, and barriers to widespread adoption. Latter using the\nexample of the EU Digital Identity Wallet (EUDIW) and the recent discussion and\nfeedback from cryptography experts around this topic. We also briefly comment\non the transition to post-quantum cryptography.",
+    "updated" : "2025-01-13T11:04:05Z",
+    "published" : "2025-01-13T11:04:05Z",
+    "authors" : [
+      {
+        "name" : "Daniel Slamanig"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.07154v1",
+    "title" : "Privacy-Preserving Data Quality Assessment for Time-Series IoT Sensors",
+    "summary" : "Data from Internet of Things (IoT) sensors has emerged as a key contributor\nto decision-making processes in various domains. However, the quality of the\ndata is crucial to the effectiveness of applications built on it, and\nassessment of the data quality is heavily context-dependent. Further,\npreserving the privacy of the data during quality assessment is critical in\ndomains where sensitive data is prevalent. This paper proposes a novel\nframework for automated, objective, and privacy-preserving data quality\nassessment of time-series data from IoT sensors deployed in smart cities. We\nleverage custom, autonomously computable metrics that parameterise the temporal\nperformance and adherence to a declarative schema document to achieve\nobjectivity. Additionally, we utilise a trusted execution environment to create\na \"data-blind\" model that ensures individual privacy, eliminates assessee bias,\nand enhances adaptability across data types. This paper describes this data\nquality assessment methodology for IoT sensors, emphasising its relevance\nwithin the smart-city context while addressing the growing need for privacy in\nthe face of extensive data collection practices.",
+    "updated" : "2025-01-13T09:28:42Z",
+    "published" : "2025-01-13T09:28:42Z",
+    "authors" : [
+      {
+        "name" : "Novoneel Chakraborty"
+      },
+      {
+        "name" : "Abhay Sharma"
+      },
+      {
+        "name" : "Jyotirmoy Dutta"
+      },
+      {
+        "name" : "Hari Dilip Kumar"
+      }
+    ],
+    "categories" : [
+      "cs.IT",
+      "math.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.06913v1",
+    "title" : "Towards Fair and Privacy-Aware Transfer Learning for Educational\n  Predictive Modeling: A Case Study on Retention Prediction in Community\n  Colleges",
+    "summary" : "Predictive analytics is widely used in learning analytics, but many\nresource-constrained institutions lack the capacity to develop their own models\nor rely on proprietary ones trained in different contexts with little\ntransparency. Transfer learning holds promise for expanding equitable access to\npredictive analytics but remains underexplored due to legal and technical\nconstraints. This paper examines transfer learning strategies for retention\nprediction at U.S. two-year community colleges. We envision a scenario where\ncommunity colleges collaborate with each other and four-year universities to\ndevelop retention prediction models under privacy constraints and evaluate\nrisks and improvement strategies of cross-institutional model transfer. Using\nadministrative records from 4 research universities and 23 community colleges\ncovering over 800,000 students across 7 cohorts, we identify performance and\nfairness degradation when external models are deployed locally without\nadaptation. Publicly available contextual information can forecast these\nperformance drops and offer early guidance for model portability. For\ndevelopers under privacy regulations, sequential training selecting\ninstitutions based on demographic similarities enhances fairness without\ncompromising performance. For institutions lacking local data to fine-tune\nsource models, customizing evaluation thresholds for sensitive groups\noutperforms standard transfer techniques in improving performance and fairness.\nOur findings suggest the value of transfer learning for more accessible\neducational predictive modeling and call for judicious use of contextual\ninformation in model training, selection, and deployment to achieve reliable\nand equitable model transfer.",
+    "updated" : "2025-01-12T19:49:28Z",
+    "published" : "2025-01-12T19:49:28Z",
+    "authors" : [
+      {
+        "name" : "Chengyuan Yao"
+      },
+      {
+        "name" : "Carmen Cortez"
+      },
+      {
+        "name" : "Renzhe Yu"
+      }
+    ],
+    "categories" : [
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.06300v1",
+    "title" : "Tensorization of neural networks for improved privacy and\n  interpretability",
+    "summary" : "We present a tensorization algorithm for constructing tensor train\nrepresentations of functions, drawing on sketching and cross interpolation\nideas. The method only requires black-box access to the target function and a\nsmall set of sample points defining the domain of interest. Thus, it is\nparticularly well-suited for machine learning models, where the domain of\ninterest is naturally defined by the training dataset. We show that this\napproach can be used to enhance the privacy and interpretability of neural\nnetwork models. Specifically, we apply our decomposition to (i) obfuscate\nneural networks whose parameters encode patterns tied to the training data\ndistribution, and (ii) estimate topological phases of matter that are easily\naccessible from the tensor train representation. Additionally, we show that\nthis tensorization can serve as an efficient initialization method for\noptimizing tensor trains in general settings, and that, for model compression,\nour algorithm achieves a superior trade-off between memory and time complexity\ncompared to conventional tensorization methods of neural networks.",
+    "updated" : "2025-01-10T19:00:06Z",
+    "published" : "2025-01-10T19:00:06Z",
+    "authors" : [
+      {
+        "name" : "José Ramón Pareja Monturiol"
+      },
+      {
+        "name" : "Alejandro Pozas-Kerstjens"
+      },
+      {
+        "name" : "David Pérez-García"
+      }
+    ],
+    "categories" : [
+      "math.NA",
+      "cs.LG",
+      "cs.NA",
+      "physics.comp-ph",
+      "quant-ph"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.06161v2",
+    "title" : "RIOT-based smart metering system for privacy-preserving data aggregation\n  using watermarking and encryption",
+    "summary" : "The remarkable advancement of smart grid technology in the IoT sector has\nraised concerns over the privacy and security of the data collected and\ntransferred in real-time. Smart meters generate detailed information about\nconsumers' energy consumption patterns, increasing the risks of data breaches,\nidentity theft, and other forms of cyber attacks. This study proposes a\nprivacy-preserving data aggregation protocol that uses reversible watermarking\nand AES cryptography to ensure the security and privacy of the data. There are\ntwo versions of the protocol: one for low-frequency smart meters that uses\nLSB-shifting-based reversible watermarking (RLS) and another for high-frequency\nsmart meters that uses difference expansion-based reversible watermarking\n(RDE). This enables the aggregation of smart meter data, maintaining\nconfidentiality, integrity, and authenticity. The proposed protocol\nsignificantly enhances privacy-preserving measures for smart metering systems,\nconducting an experimental evaluation with real hardware implementation using\nNucleo microcontroller boards and the RIOT operating system and comparing the\nresults to existing security schemes.",
+    "updated" : "2025-01-13T16:58:59Z",
+    "published" : "2025-01-10T18:37:20Z",
+    "authors" : [
+      {
+        "name" : "Farzana Kabir"
+      },
+      {
+        "name" : "David Megias"
+      },
+      {
+        "name" : "Krzysztof Cabaj"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
