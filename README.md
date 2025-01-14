@@ -2,13 +2,169 @@
 <h2>2025-01</h2>
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.06161v1">RIOT-based smart metering system for privacy-preserving data aggregation
+  <h3><a href="http://arxiv.org/abs/2501.07262v1">OblivCDN: A Practical Privacy-preserving CDN with Oblivious Content
+  Access</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-01-13T12:23:23Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Viet Vo, Shangqi Lai, Xingliang Yuan, Surya Nepal, Qi Li</p>
+    <p><b>Summary:</b> Content providers increasingly utilise Content Delivery Networks (CDNs) to
+enhance users' content download experience. However, this deployment scenario
+raises significant security concerns regarding content confidentiality and user
+privacy due to the involvement of third-party providers. Prior proposals using
+private information retrieval (PIR) and oblivious RAM (ORAM) have proven
+impractical due to high computation and communication costs, as well as
+integration challenges within distributed CDN architectures. In response, we
+present \textsf{OblivCDN}, a practical privacy-preserving system meticulously
+designed for seamless integration with the existing real-world Internet-CDN
+infrastructure. Our design strategically adapts Range ORAM primitives to
+optimise memory and disk seeks when accessing contiguous blocks of CDN content,
+both at the origin and edge servers, while preserving both content
+confidentiality and user access pattern hiding features. Also, we carefully
+customise several oblivious building blocks that integrate the distributed
+trust model into the ORAM client, thereby eliminating the computational
+bottleneck in the origin server and reducing communication costs between the
+origin server and edge servers. Moreover, the newly-designed ORAM client also
+eliminates the need for trusted hardware on edge servers, and thus
+significantly ameliorates the compatibility towards networks with massive
+legacy devices.In real-world streaming evaluations, OblivCDN} demonstrates
+remarkable performance, downloading a $256$ MB video in just $5.6$ seconds.
+This achievement represents a speedup of $90\times$ compared to a strawman
+approach (direct ORAM adoption) and a $366\times$ improvement over the prior
+art, OblivP2P.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.07209v1">Privacy-Preserving Authentication: Theory vs. Practice</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-01-13T11:04:05Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Daniel Slamanig</p>
+    <p><b>Summary:</b> With the increasing use of online services, the protection of the privacy of
+users becomes more and more important. This is particularly critical as
+authentication and authorization as realized on the Internet nowadays,
+typically relies on centralized identity management solutions. Although those
+are very convenient from a user's perspective, they are quite intrusive from a
+privacy perspective and are currently far from implementing the concept of data
+minimization. Fortunately, cryptography offers exciting primitives such as
+zero-knowledge proofs and advanced signature schemes to realize various forms
+of so-called anonymous credentials. Such primitives allow to realize online
+authentication and authorization with a high level of built-in privacy
+protection (what we call privacy-preserving authentication). Though these
+primitives have already been researched for various decades and are well
+understood in the research community, unfortunately, they lack widespread
+adoption. In this paper, we look at the problems, what cryptography can do,
+some deployment examples, and barriers to widespread adoption. Latter using the
+example of the EU Digital Identity Wallet (EUDIW) and the recent discussion and
+feedback from cryptography experts around this topic. We also briefly comment
+on the transition to post-quantum cryptography.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.07154v1">Privacy-Preserving Data Quality Assessment for Time-Series IoT Sensors</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
+  <p><b>Published on:</b> 2025-01-13T09:28:42Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Novoneel Chakraborty, Abhay Sharma, Jyotirmoy Dutta, Hari Dilip Kumar</p>
+    <p><b>Summary:</b> Data from Internet of Things (IoT) sensors has emerged as a key contributor
+to decision-making processes in various domains. However, the quality of the
+data is crucial to the effectiveness of applications built on it, and
+assessment of the data quality is heavily context-dependent. Further,
+preserving the privacy of the data during quality assessment is critical in
+domains where sensitive data is prevalent. This paper proposes a novel
+framework for automated, objective, and privacy-preserving data quality
+assessment of time-series data from IoT sensors deployed in smart cities. We
+leverage custom, autonomously computable metrics that parameterise the temporal
+performance and adherence to a declarative schema document to achieve
+objectivity. Additionally, we utilise a trusted execution environment to create
+a "data-blind" model that ensures individual privacy, eliminates assessee bias,
+and enhances adaptability across data types. This paper describes this data
+quality assessment methodology for IoT sensors, emphasising its relevance
+within the smart-city context while addressing the growing need for privacy in
+the face of extensive data collection practices.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.06913v1">Towards Fair and Privacy-Aware Transfer Learning for Educational
+  Predictive Modeling: A Case Study on Retention Prediction in Community
+  Colleges</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2025-01-12T19:49:28Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Chengyuan Yao, Carmen Cortez, Renzhe Yu</p>
+    <p><b>Summary:</b> Predictive analytics is widely used in learning analytics, but many
+resource-constrained institutions lack the capacity to develop their own models
+or rely on proprietary ones trained in different contexts with little
+transparency. Transfer learning holds promise for expanding equitable access to
+predictive analytics but remains underexplored due to legal and technical
+constraints. This paper examines transfer learning strategies for retention
+prediction at U.S. two-year community colleges. We envision a scenario where
+community colleges collaborate with each other and four-year universities to
+develop retention prediction models under privacy constraints and evaluate
+risks and improvement strategies of cross-institutional model transfer. Using
+administrative records from 4 research universities and 23 community colleges
+covering over 800,000 students across 7 cohorts, we identify performance and
+fairness degradation when external models are deployed locally without
+adaptation. Publicly available contextual information can forecast these
+performance drops and offer early guidance for model portability. For
+developers under privacy regulations, sequential training selecting
+institutions based on demographic similarities enhances fairness without
+compromising performance. For institutions lacking local data to fine-tune
+source models, customizing evaluation thresholds for sensitive groups
+outperforms standard transfer techniques in improving performance and fairness.
+Our findings suggest the value of transfer learning for more accessible
+educational predictive modeling and call for judicious use of contextual
+information in model training, selection, and deployment to achieve reliable
+and equitable model transfer.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.06300v1">Tensorization of neural networks for improved privacy and
+  interpretability</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Numerical Analysis-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Numerical Analysis-5BC0EB">  
+  <p><b>Published on:</b> 2025-01-10T19:00:06Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> José Ramón Pareja Monturiol, Alejandro Pozas-Kerstjens, David Pérez-García</p>
+    <p><b>Summary:</b> We present a tensorization algorithm for constructing tensor train
+representations of functions, drawing on sketching and cross interpolation
+ideas. The method only requires black-box access to the target function and a
+small set of sample points defining the domain of interest. Thus, it is
+particularly well-suited for machine learning models, where the domain of
+interest is naturally defined by the training dataset. We show that this
+approach can be used to enhance the privacy and interpretability of neural
+network models. Specifically, we apply our decomposition to (i) obfuscate
+neural networks whose parameters encode patterns tied to the training data
+distribution, and (ii) estimate topological phases of matter that are easily
+accessible from the tensor train representation. Additionally, we show that
+this tensorization can serve as an efficient initialization method for
+optimizing tensor trains in general settings, and that, for model compression,
+our algorithm achieves a superior trade-off between memory and time complexity
+compared to conventional tensorization methods of neural networks.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.06161v2">RIOT-based smart metering system for privacy-preserving data aggregation
   using watermarking and encryption</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2025-01-10T18:37:20Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> David Megias, Farzana Kabir, Krzysztof Cabaj</p>
+    <p><b>Authors:</b> Farzana Kabir, David Megias, Krzysztof Cabaj</p>
     <p><b>Summary:</b> The remarkable advancement of smart grid technology in the IoT sector has
 raised concerns over the privacy and security of the data collected and
 transferred in real-time. Smart meters generate detailed information about
@@ -2517,7 +2673,7 @@ utilization while protecting user privacy.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.06120v1">Lightweight Federated Learning with Differential Privacy and Straggler
+  <h3><a href="http://arxiv.org/abs/2412.06120v2">Lightweight Federated Learning with Differential Privacy and Straggler
   Resilience</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
   <p><b>Published on:</b> 2024-12-09T00:54:00Z</p>
@@ -2530,20 +2686,20 @@ from exchanged parameters, differential privacy (DP) offers rigorous guarantee
 against various attacks. However, conventional methods of ensuring DP by adding
 local noise alone often result in low training accuracy. Combining secure
 multi-party computation (SMPC) with DP, while improving the accuracy, incurs
-high communication and computation overheads and straggler vulnerability, in
-either client-to-server or client-to-client links. In this paper, we propose
-LightDP-FL, a novel lightweight scheme that ensures provable DP against
-untrusted peers and server, while maintaining straggler-resilience, low
-overheads and high training accuracy. Our approach incorporates both individual
-and pairwise noise into each client's parameter, which can be implemented with
-minimal overheads. Given the uncertain straggler and colluder sets, we utilize
-the upper bound on the numbers of stragglers and colluders to prove sufficient
-noise variance conditions to ensure DP in the worst case. Moreover, we optimize
-the expected convergence bound to ensure accuracy performance by flexibly
-controlling the noise variances. Using the CIFAR-10 dataset, our experimental
-results demonstrate that LightDP-FL achieves faster convergence and stronger
-straggler resilience of our scheme compared to baseline methods of the same DP
-level.</p>
+high communication and computation overheads as well as straggler
+vulnerability, in either client-to-server or client-to-client links. In this
+paper, we propose LightDP-FL, a novel lightweight scheme that ensures provable
+DP against untrusted peers and server, while maintaining straggler resilience,
+low overheads and high training accuracy. Our scheme incorporates both
+individual and pairwise noise into each client's parameter, which can be
+implemented with minimal overheads. Given the uncertain straggler and colluder
+sets, we utilize the upper bound on the numbers of stragglers and colluders to
+prove sufficient noise variance conditions to ensure DP in the worst case.
+Moreover, we optimize the expected convergence bound to ensure accuracy
+performance by flexibly controlling the noise variances. Using the CIFAR-10
+dataset, our experimental results demonstrate that LightDP-FL achieves faster
+convergence and stronger straggler resilience compared to baseline methods of
+the same DP level.</p>
   </details>
 </div>
 
@@ -2855,149 +3011,6 @@ accuracy. Numerical results show that our approach with various FL algorithms
 outperforms the state-of-the-art under the same DP conditions on the non-i.i.d.
 FEMNIST dataset, and highlight the cooperative jammer's effectiveness in
 ensuring strict privacy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.04178v1">Multi-Layer Privacy-Preserving Record Linkage with Clerical Review based
-  on gradual information disclosure</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-12-05T14:18:50Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Florens Rohde, Victor Christen, Martin Franke, Erhard Rahm</p>
-    <p><b>Summary:</b> Privacy-Preserving Record linkage (PPRL) is an essential component in data
-integration tasks of sensitive information. The linkage quality determines the
-usability of combined datasets and (machine learning) applications based on
-them. We present a novel privacy-preserving protocol that integrates clerical
-review in PPRL using a multi-layer active learning process. Uncertain match
-candidates are reviewed on several layers by human and non-human oracles to
-reduce the amount of disclosed information per record and in total. Predictions
-are propagated back to update previous layers, resulting in an improved linkage
-performance for non-reviewed candidates as well. The data owners remain in
-control of the amount of information they share for each record. Therefore, our
-approach follows need-to-know and data sovereignty principles. The experimental
-evaluation on real-world datasets shows considerable linkage quality
-improvements with limited labeling effort and privacy risks.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.04031v1">Dimension Reduction via Random Projection for Privacy in Multi-Agent
-  Systems</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-12-05T10:09:13Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Puspanjali Ghoshal, Ashok Singh Sairam</p>
-    <p><b>Summary:</b> The agents in a Multi-Agent System (MAS) make observations about the system
-and send that information to a fusion center. The fusion center aggregates the
-information and concludes about the system parameters with as much accuracy as
-possible. However for the purposes of better efficiency of the system at large,
-the agents need to append some private parameters to the observed data. In this
-scenario, the data sent to the fusion center is faced with privacy risks. The
-data communicated to the fusion center must be secured against data privacy
-breaches and inference attacks in a decentralized manner. However, this in turn
-leads to a loss of utility of the data being sent to the fusion center. We
-quantify the utility and privacy of the system using Cosine similarity. We
-formulate our MAS problem in terms of deducing a concept for which
-compression-based methods are there in literature. Next, we propose a novel
-sanitization mechanism for our MAS using one such compression-based method
-while addressing the utility-privacy tradeoff problem.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.04518v1">Privacy-Preserving Gesture Tracking System Utilizing Frequency-Hopping
-  RFID Signals</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
-  <p><b>Published on:</b> 2024-12-05T08:51:02Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Bojun Zhang</p>
-    <p><b>Summary:</b> Gesture tracking technology provides users with a hands free interactive
-experience without the need to hold or touch devices. However, current gesture
-tracking research has primarily focused on tracking accuracy while neglecting
-issues of user privacy protection and security. This study aims to develop a
-gesture tracking system based on frequency hopping RFID signals that
-effectively protects user privacy without compromising tracking efficiency and
-accuracy. By introducing frequency hopping technology, we have designed a
-mechanism that prevents potential eavesdroppers from obtaining raw RFID
-signals, thereby enhancing the systems privacy protection capabilities. The
-system architec ture includes the collection of RFID signals, data processing,
-signal recovery, and gesture tracking. Experimental results show that our
-method significantly improves privacy protection levels while maintaining real
-time and accuracy. This research not only provides a new perspective for the
-field of gesture tracking but also offers valuable insights for the use of RFID
-technology in privacy-sensitive applications.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.15228v1">Image Privacy Protection: A Survey</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-12-05T08:09:25Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Wenying Wen, Ziye Yuan, Yushu Zhang, Tao Wang, Xiangli Xiao, Ruoyu Zhao, Yuming Fang</p>
-    <p><b>Summary:</b> Images serve as a crucial medium for communication, presenting information in
-a visually engaging format that facilitates rapid comprehension of key points.
-Meanwhile, during transmission and storage, they contain significant sensitive
-information. If not managed properly, this information may be vulnerable to
-exploitation for personal gain, potentially infringing on privacy rights and
-other legal entitlements. Consequently, researchers continue to propose some
-approaches for preserving image privacy and publish reviews that provide
-comprehensive and methodical summaries of these approaches. However, existing
-reviews tend to categorize either by specific scenarios, or by specific privacy
-objectives. This classification somewhat restricts the reader's ability to
-grasp a holistic view of image privacy protection and poses challenges in
-developing a total understanding of the subject that transcends different
-scenarios and privacy objectives. Instead of examining image privacy protection
-from a single aspect, it is more desirable to consider user needs for a
-comprehensive understanding. To fill this gap, we conduct a systematic review
-of image privacy protection approaches based on privacy protection goals.
-Specifically, we define the attribute known as privacy sensitive domains and
-use it as the core classification dimension to construct a comprehensive
-framework for image privacy protection that encompasses various scenarios and
-privacy objectives. This framework offers a deep understanding of the
-multi-layered aspects of image privacy, categorizing its protection into three
-primary levels: data-level, content-level, and feature-level. For each
-category, we analyze the main approaches and features of image privacy
-protection and systematically review representative solutions. Finally, we
-discuss the challenges and future directions of image privacy protection.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.03924v1">Privacy-Preserving in Medical Image Analysis: A Review of Methods and
-  Applications</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2024-12-05T06:56:06Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yanming Zhu, Xuefei Yin, Alan Wee-Chung Liew, Hui Tian</p>
-    <p><b>Summary:</b> With the rapid advancement of artificial intelligence and deep learning,
-medical image analysis has become a critical tool in modern healthcare,
-significantly improving diagnostic accuracy and efficiency. However, AI-based
-methods also raise serious privacy concerns, as medical images often contain
-highly sensitive patient information. This review offers a comprehensive
-overview of privacy-preserving techniques in medical image analysis, including
-encryption, differential privacy, homomorphic encryption, federated learning,
-and generative adversarial networks. We explore the application of these
-techniques across various medical image analysis tasks, such as diagnosis,
-pathology, and telemedicine. Notably, we organizes the review based on specific
-challenges and their corresponding solutions in different medical image
-analysis applications, so that technical applications are directly aligned with
-practical issues, addressing gaps in the current research landscape.
-Additionally, we discuss emerging trends, such as zero-knowledge proofs and
-secure multi-party computation, offering insights for future research. This
-review serves as a valuable resource for researchers and practitioners and can
-help advance privacy-preserving in medical image analysis.</p>
   </details>
 </div>
 
