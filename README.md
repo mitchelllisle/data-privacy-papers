@@ -2,6 +2,54 @@
 <h2>2025-01</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.08236v1">Privacy-Preserving Model and Preprocessing Verification for Machine
+  Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-01-14T16:21:54Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Wenbiao Li, Anisa Halimi, Xiaoqian Jiang, Jaideep Vaidya, Erman Ayday</p>
+    <p><b>Summary:</b> This paper presents a framework for privacy-preserving verification of
+machine learning models, focusing on models trained on sensitive data.
+Integrating Local Differential Privacy (LDP) with model explanations from LIME
+and SHAP, our framework enables robust verification without compromising
+individual privacy. It addresses two key tasks: binary classification, to
+verify if a target model was trained correctly by applying the appropriate
+preprocessing steps, and multi-class classification, to identify specific
+preprocessing errors. Evaluations on three real-world datasets-Diabetes, Adult,
+and Student Record-demonstrate that while the ML-based approach is particularly
+effective in binary tasks, the threshold-based method performs comparably in
+multi-class tasks. Results indicate that although verification accuracy varies
+across datasets and noise levels, the framework provides effective detection of
+preprocessing errors, strong privacy guarantees, and practical applicability
+for safeguarding sensitive data.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.07844v1">Towards A Hybrid Quantum Differential Privacy</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-01-14T05:13:37Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Baobao Song, Shiva Raj Pokhrel, Athanasios V. Vasilakos, Tianqing Zhu, Gang Li</p>
+    <p><b>Summary:</b> Quantum computing offers unparalleled processing power but raises significant
+data privacy challenges. Quantum Differential Privacy (QDP) leverages inherent
+quantum noise to safeguard privacy, surpassing traditional DP. This paper
+develops comprehensive noise profiles, identifies noise types beneficial for
+QDP, and highlights teh need for practical implementations beyond theoretical
+models. Existing QDP mechanisms, limited to single noise sources, fail to
+reflect teh multi-source noise reality of quantum systems. We propose a
+resilient hybrid QDP mechanism utilizing channel and measurement noise,
+optimizing privacy budgets to balance privacy and utility. Additionally, we
+introduce Lifted Quantum Differential Privacy, offering enhanced randomness for
+improved privacy audits and quantum algorithm evaluation.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2501.07262v1">OblivCDN: A Practical Privacy-preserving CDN with Oblivious Content
   Access</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
@@ -2946,71 +2994,6 @@ Additionally, membership inference attacks reveal that higher $\epsilon$ values
 at higher thresholds, lowering susceptibility to inference attacks. These
 findings confirm that our approach balances privacy and utility, advancing
 privacy-preserving survival analysis.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.04697v1">Privacy-Preserving Retrieval Augmented Generation with Differential
-  Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2024-12-06T01:20:16Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Tatsuki Koga, Ruihan Wu, Kamalika Chaudhuri</p>
-    <p><b>Summary:</b> With the recent remarkable advancement of large language models (LLMs), there
-has been a growing interest in utilizing them in the domains with highly
-sensitive data that lies outside their training data. For this purpose,
-retrieval augmented generation (RAG) is particularly effective -- it assists
-LLMs by directly providing relevant information from the external knowledge
-sources. However, without extra privacy safeguards, RAG outputs risk leaking
-sensitive information from the external data source. In this work, we explore
-RAG under differential privacy (DP), a formal guarantee of data privacy. The
-main challenge with differentially private RAG is how to generate long accurate
-answers within a moderate privacy budget. We address this by proposing an
-algorithm that smartly spends privacy budget only for the tokens that require
-the sensitive information and uses the non-private LLM for other tokens. Our
-extensive empirical evaluations reveal that our algorithm outperforms the
-non-RAG baseline under a reasonable privacy budget of $\epsilon\approx 10$
-across different models and datasets.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.04408v1">Providing Differential Privacy for Federated Learning Over Wireless: A
-  Cross-layer Framework</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
-  <p><b>Published on:</b> 2024-12-05T18:27:09Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jiayu Mao, Tongxin Yin, Aylin Yener, Mingyan Liu</p>
-    <p><b>Summary:</b> Federated Learning (FL) is a distributed machine learning framework that
-inherently allows edge devices to maintain their local training data, thus
-providing some level of privacy. However, FL's model updates still pose a risk
-of privacy leakage, which must be mitigated. Over-the-air FL (OTA-FL) is an
-adapted FL design for wireless edge networks that leverages the natural
-superposition property of the wireless medium. We propose a wireless physical
-layer (PHY) design for OTA-FL which improves differential privacy (DP) through
-a decentralized, dynamic power control that utilizes both inherent Gaussian
-noise in the wireless channel and a cooperative jammer (CJ) for additional
-artificial noise generation when higher privacy levels are required. Although
-primarily implemented within the Upcycled-FL framework, where a
-resource-efficient method with first-order approximations is used at every even
-iteration to decrease the required information from clients, our power control
-strategy is applicable to any FL framework, including FedAvg and FedProx as
-shown in the paper. This adaptation showcases the flexibility and effectiveness
-of our design across different learning algorithms while maintaining a strong
-emphasis on privacy. Our design removes the need for client-side artificial
-noise injection for DP, utilizing a cooperative jammer to enhance privacy
-without affecting transmission efficiency for higher privacy demands. Privacy
-analysis is provided using the Moments Accountant method. We perform a
-convergence analysis for non-convex objectives to tackle heterogeneous data
-distributions, highlighting the inherent trade-offs between privacy and
-accuracy. Numerical results show that our approach with various FL algorithms
-outperforms the state-of-the-art under the same DP conditions on the non-i.i.d.
-FEMNIST dataset, and highlight the cooperative jammer's effectiveness in
-ensuring strict privacy.</p>
   </details>
 </div>
 
