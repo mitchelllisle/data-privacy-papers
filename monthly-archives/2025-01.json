@@ -795,5 +795,60 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.08236v1",
+    "title" : "Privacy-Preserving Model and Preprocessing Verification for Machine\n  Learning",
+    "summary" : "This paper presents a framework for privacy-preserving verification of\nmachine learning models, focusing on models trained on sensitive data.\nIntegrating Local Differential Privacy (LDP) with model explanations from LIME\nand SHAP, our framework enables robust verification without compromising\nindividual privacy. It addresses two key tasks: binary classification, to\nverify if a target model was trained correctly by applying the appropriate\npreprocessing steps, and multi-class classification, to identify specific\npreprocessing errors. Evaluations on three real-world datasets-Diabetes, Adult,\nand Student Record-demonstrate that while the ML-based approach is particularly\neffective in binary tasks, the threshold-based method performs comparably in\nmulti-class tasks. Results indicate that although verification accuracy varies\nacross datasets and noise levels, the framework provides effective detection of\npreprocessing errors, strong privacy guarantees, and practical applicability\nfor safeguarding sensitive data.",
+    "updated" : "2025-01-14T16:21:54Z",
+    "published" : "2025-01-14T16:21:54Z",
+    "authors" : [
+      {
+        "name" : "Wenbiao Li"
+      },
+      {
+        "name" : "Anisa Halimi"
+      },
+      {
+        "name" : "Xiaoqian Jiang"
+      },
+      {
+        "name" : "Jaideep Vaidya"
+      },
+      {
+        "name" : "Erman Ayday"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.07844v1",
+    "title" : "Towards A Hybrid Quantum Differential Privacy",
+    "summary" : "Quantum computing offers unparalleled processing power but raises significant\ndata privacy challenges. Quantum Differential Privacy (QDP) leverages inherent\nquantum noise to safeguard privacy, surpassing traditional DP. This paper\ndevelops comprehensive noise profiles, identifies noise types beneficial for\nQDP, and highlights teh need for practical implementations beyond theoretical\nmodels. Existing QDP mechanisms, limited to single noise sources, fail to\nreflect teh multi-source noise reality of quantum systems. We propose a\nresilient hybrid QDP mechanism utilizing channel and measurement noise,\noptimizing privacy budgets to balance privacy and utility. Additionally, we\nintroduce Lifted Quantum Differential Privacy, offering enhanced randomness for\nimproved privacy audits and quantum algorithm evaluation.",
+    "updated" : "2025-01-14T05:13:37Z",
+    "published" : "2025-01-14T05:13:37Z",
+    "authors" : [
+      {
+        "name" : "Baobao Song"
+      },
+      {
+        "name" : "Shiva Raj Pokhrel"
+      },
+      {
+        "name" : "Athanasios V. Vasilakos"
+      },
+      {
+        "name" : "Tianqing Zhu"
+      },
+      {
+        "name" : "Gang Li"
+      }
+    ],
+    "categories" : [
+      "quant-ph",
+      "cs.CR"
+    ]
   }
 ]
