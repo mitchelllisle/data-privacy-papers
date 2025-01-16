@@ -2,6 +2,64 @@
 <h2>2025-01</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.08665v1">A Survey on Facial Image Privacy Preservation in Cloud-Based Services</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2025-01-15T09:00:32Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Chen Chen, Mengyuan Sun, Xueluan Gong, Yanjiao Chen, Qian Wang</p>
+    <p><b>Summary:</b> Facial recognition models are increasingly employed by commercial
+enterprises, government agencies, and cloud service providers for identity
+verification, consumer services, and surveillance. These models are often
+trained using vast amounts of facial data processed and stored in cloud-based
+platforms, raising significant privacy concerns. Users' facial images may be
+exploited without their consent, leading to potential data breaches and misuse.
+This survey presents a comprehensive review of current methods aimed at
+preserving facial image privacy in cloud-based services. We categorize these
+methods into two primary approaches: image obfuscation-based protection and
+adversarial perturbation-based protection. We provide an in-depth analysis of
+both categories, offering qualitative and quantitative comparisons of their
+effectiveness. Additionally, we highlight unresolved challenges and propose
+future research directions to improve privacy preservation in cloud computing
+environments.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.08449v1">A Refreshment Stirred, Not Shaken (II): Invariant-Preserving Deployments
+  of Differential Privacy for the US Decennial Census</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B"> 
+  <p><b>Published on:</b> 2025-01-14T21:38:01Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> James Bailie, Ruobin Gong, Xiao-Li Meng</p>
+    <p><b>Summary:</b> Through the lens of the system of differential privacy specifications
+developed in Part I of a trio of articles, this second paper examines two
+statistical disclosure control (SDC) methods for the United States Decennial
+Census: the Permutation Swapping Algorithm (PSA), which is similar to the 2010
+Census's disclosure avoidance system (DAS), and the TopDown Algorithm (TDA),
+which was used in the 2020 DAS. To varying degrees, both methods leave
+unaltered some statistics of the confidential data $\unicode{x2013}$ which are
+called the method's invariants $\unicode{x2013}$ and hence neither can be
+readily reconciled with differential privacy (DP), at least as it was
+originally conceived. Nevertheless, we establish that the PSA satisfies
+$\varepsilon$-DP subject to the invariants it necessarily induces, thereby
+showing that this traditional SDC method can in fact still be understood within
+our more-general system of DP specifications. By a similar modification to
+$\rho$-zero concentrated DP, we also provide a DP specification for the TDA.
+Finally, as a point of comparison, we consider the counterfactual scenario in
+which the PSA was adopted for the 2020 Census, resulting in a reduction in the
+nominal privacy loss, but at the cost of releasing many more invariants.
+Therefore, while our results explicate the mathematical guarantees of SDC
+provided by the PSA, the TDA and the 2020 DAS in general, care must be taken in
+their translation to actual privacy protection $\unicode{x2013}$ just as is the
+case for any DP deployment.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2501.08236v1">Privacy-Preserving Model and Preprocessing Verification for Machine
   Learning</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
@@ -28,7 +86,7 @@ for safeguarding sensitive data.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.07844v1">Towards A Hybrid Quantum Differential Privacy</a></h3>
+  <h3><a href="http://arxiv.org/abs/2501.07844v2">Towards A Hybrid Quantum Differential Privacy</a></h3>
    <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2025-01-14T05:13:37Z</p>
   <details>
@@ -1185,7 +1243,7 @@ generation* is a viable approach to private RAG.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.18992v1">Optimal Federated Learning for Functional Mean Estimation under
+  <h3><a href="http://arxiv.org/abs/2412.18992v2">Optimal Federated Learning for Functional Mean Estimation under
   Heterogeneous Privacy Constraints</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">  
   <p><b>Published on:</b> 2024-12-25T22:06:12Z</p>
@@ -2930,70 +2988,6 @@ From the perspective of the privacy-fairness trade-off, we also observe an
 increase of over 3% in the recall gap between male and female patients in the
 DP models. Further understanding these trade-offs will help towards the
 challenges of real-world deployment.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.05183v1">Privacy Drift: Evolving Privacy Concerns in Incremental Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-12-06T17:04:09Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Sayyed Farid Ahamed, Soumya Banerjee, Sandip Roy, Aayush Kapoor, Marc Vucovich, Kevin Choi, Abdul Rahman, Edward Bowen, Sachin Shetty</p>
-    <p><b>Summary:</b> In the evolving landscape of machine learning (ML), Federated Learning (FL)
-presents a paradigm shift towards decentralized model training while preserving
-user data privacy. This paper introduces the concept of ``privacy drift", an
-innovative framework that parallels the well-known phenomenon of concept drift.
-While concept drift addresses the variability in model accuracy over time due
-to changes in the data, privacy drift encapsulates the variation in the leakage
-of private information as models undergo incremental training. By defining and
-examining privacy drift, this study aims to unveil the nuanced relationship
-between the evolution of model performance and the integrity of data privacy.
-Through rigorous experimentation, we investigate the dynamics of privacy drift
-in FL systems, focusing on how model updates and data distribution shifts
-influence the susceptibility of models to privacy attacks, such as membership
-inference attacks (MIA). Our results highlight a complex interplay between
-model accuracy and privacy safeguards, revealing that enhancements in model
-performance can lead to increased privacy risks. We provide empirical evidence
-from experiments on customized datasets derived from CIFAR-100 (Canadian
-Institute for Advanced Research, 100 classes), showcasing the impact of data
-and concept drift on privacy. This work lays the groundwork for future research
-on privacy-aware machine learning, aiming to achieve a delicate balance between
-model accuracy and data privacy in decentralized environments.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.05164v1">A Differentially Private Kaplan-Meier Estimator for Privacy-Preserving
-  Survival Analysis</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-12-06T16:29:53Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Narasimha Raghavan Veeraragavan, Sai Praneeth Karimireddy, Jan Franz Nygård</p>
-    <p><b>Summary:</b> This paper presents a differentially private approach to Kaplan-Meier
-estimation that achieves accurate survival probability estimates while
-safeguarding individual privacy. The Kaplan-Meier estimator is widely used in
-survival analysis to estimate survival functions over time, yet applying it to
-sensitive datasets, such as clinical records, risks revealing private
-information. To address this, we introduce a novel algorithm that applies
-time-indexed Laplace noise, dynamic clipping, and smoothing to produce a
-privacy-preserving survival curve while maintaining the cumulative structure of
-the Kaplan-Meier estimator. By scaling noise over time, the algorithm accounts
-for decreasing sensitivity as fewer individuals remain at risk, while dynamic
-clipping and smoothing prevent extreme values and reduce fluctuations,
-preserving the natural shape of the survival curve.
-  Our results, evaluated on the NCCTG lung cancer dataset, show that the
-proposed method effectively lowers root mean squared error (RMSE) and enhances
-accuracy across privacy budgets ($\epsilon$). At $\epsilon = 10$, the algorithm
-achieves an RMSE as low as 0.04, closely approximating non-private estimates.
-Additionally, membership inference attacks reveal that higher $\epsilon$ values
-(e.g., $\epsilon \geq 6$) significantly reduce influential points, particularly
-at higher thresholds, lowering susceptibility to inference attacks. These
-findings confirm that our approach balances privacy and utility, advancing
-privacy-preserving survival analysis.</p>
   </details>
 </div>
 
