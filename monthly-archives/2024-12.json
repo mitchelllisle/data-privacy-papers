@@ -3098,5 +3098,29 @@
       "cs.CR",
       "cs.DC"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.18992v2",
+    "title" : "Optimal Federated Learning for Functional Mean Estimation under\n  Heterogeneous Privacy Constraints",
+    "summary" : "Federated learning (FL) is a distributed machine learning technique designed\nto preserve data privacy and security, and it has gained significant importance\ndue to its broad range of applications. This paper addresses the problem of\noptimal functional mean estimation from discretely sampled data in a federated\nsetting.\n  We consider a heterogeneous framework where the number of individuals,\nmeasurements per individual, and privacy parameters vary across one or more\nservers, under both common and independent design settings. In the common\ndesign setting, the same design points are measured for each individual,\nwhereas in the independent design, each individual has their own random\ncollection of design points. Within this framework, we establish minimax upper\nand lower bounds for the estimation error of the underlying mean function,\nhighlighting the nuanced differences between common and independent designs\nunder distributed privacy constraints.\n  We propose algorithms that achieve the optimal trade-off between privacy and\naccuracy and provide optimality results that quantify the fundamental limits of\nprivate functional mean estimation across diverse distributed settings. These\nresults characterize the cost of privacy and offer practical insights into the\npotential for privacy-preserving statistical analysis in federated\nenvironments.",
+    "updated" : "2025-01-15T18:07:15Z",
+    "published" : "2024-12-25T22:06:12Z",
+    "authors" : [
+      {
+        "name" : "Tony Cai"
+      },
+      {
+        "name" : "Abhinav Chakraborty"
+      },
+      {
+        "name" : "Lasse Vuursteen"
+      }
+    ],
+    "categories" : [
+      "math.ST",
+      "cs.LG",
+      "stat.TH",
+      "62G08, 62C20, 68P27, 62F30"
+    ]
   }
 ]
