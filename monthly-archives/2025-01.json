@@ -850,5 +850,84 @@
       "quant-ph",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.08665v1",
+    "title" : "A Survey on Facial Image Privacy Preservation in Cloud-Based Services",
+    "summary" : "Facial recognition models are increasingly employed by commercial\nenterprises, government agencies, and cloud service providers for identity\nverification, consumer services, and surveillance. These models are often\ntrained using vast amounts of facial data processed and stored in cloud-based\nplatforms, raising significant privacy concerns. Users' facial images may be\nexploited without their consent, leading to potential data breaches and misuse.\nThis survey presents a comprehensive review of current methods aimed at\npreserving facial image privacy in cloud-based services. We categorize these\nmethods into two primary approaches: image obfuscation-based protection and\nadversarial perturbation-based protection. We provide an in-depth analysis of\nboth categories, offering qualitative and quantitative comparisons of their\neffectiveness. Additionally, we highlight unresolved challenges and propose\nfuture research directions to improve privacy preservation in cloud computing\nenvironments.",
+    "updated" : "2025-01-15T09:00:32Z",
+    "published" : "2025-01-15T09:00:32Z",
+    "authors" : [
+      {
+        "name" : "Chen Chen"
+      },
+      {
+        "name" : "Mengyuan Sun"
+      },
+      {
+        "name" : "Xueluan Gong"
+      },
+      {
+        "name" : "Yanjiao Chen"
+      },
+      {
+        "name" : "Qian Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.08449v1",
+    "title" : "A Refreshment Stirred, Not Shaken (II): Invariant-Preserving Deployments\n  of Differential Privacy for the US Decennial Census",
+    "summary" : "Through the lens of the system of differential privacy specifications\ndeveloped in Part I of a trio of articles, this second paper examines two\nstatistical disclosure control (SDC) methods for the United States Decennial\nCensus: the Permutation Swapping Algorithm (PSA), which is similar to the 2010\nCensus's disclosure avoidance system (DAS), and the TopDown Algorithm (TDA),\nwhich was used in the 2020 DAS. To varying degrees, both methods leave\nunaltered some statistics of the confidential data $\\unicode{x2013}$ which are\ncalled the method's invariants $\\unicode{x2013}$ and hence neither can be\nreadily reconciled with differential privacy (DP), at least as it was\noriginally conceived. Nevertheless, we establish that the PSA satisfies\n$\\varepsilon$-DP subject to the invariants it necessarily induces, thereby\nshowing that this traditional SDC method can in fact still be understood within\nour more-general system of DP specifications. By a similar modification to\n$\\rho$-zero concentrated DP, we also provide a DP specification for the TDA.\nFinally, as a point of comparison, we consider the counterfactual scenario in\nwhich the PSA was adopted for the 2020 Census, resulting in a reduction in the\nnominal privacy loss, but at the cost of releasing many more invariants.\nTherefore, while our results explicate the mathematical guarantees of SDC\nprovided by the PSA, the TDA and the 2020 DAS in general, care must be taken in\ntheir translation to actual privacy protection $\\unicode{x2013}$ just as is the\ncase for any DP deployment.",
+    "updated" : "2025-01-14T21:38:01Z",
+    "published" : "2025-01-14T21:38:01Z",
+    "authors" : [
+      {
+        "name" : "James Bailie"
+      },
+      {
+        "name" : "Ruobin Gong"
+      },
+      {
+        "name" : "Xiao-Li Meng"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CY",
+      "cs.DS",
+      "stat.ME"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.07844v2",
+    "title" : "Towards A Hybrid Quantum Differential Privacy",
+    "summary" : "Quantum computing offers unparalleled processing power but raises significant\ndata privacy challenges. Quantum Differential Privacy (QDP) leverages inherent\nquantum noise to safeguard privacy, surpassing traditional DP. This paper\ndevelops comprehensive noise profiles, identifies noise types beneficial for\nQDP, and highlights teh need for practical implementations beyond theoretical\nmodels. Existing QDP mechanisms, limited to single noise sources, fail to\nreflect teh multi-source noise reality of quantum systems. We propose a\nresilient hybrid QDP mechanism utilizing channel and measurement noise,\noptimizing privacy budgets to balance privacy and utility. Additionally, we\nintroduce Lifted Quantum Differential Privacy, offering enhanced randomness for\nimproved privacy audits and quantum algorithm evaluation.",
+    "updated" : "2025-01-15T15:10:13Z",
+    "published" : "2025-01-14T05:13:37Z",
+    "authors" : [
+      {
+        "name" : "Baobao Song"
+      },
+      {
+        "name" : "Shiva Raj Pokhrel"
+      },
+      {
+        "name" : "Athanasios V. Vasilakos"
+      },
+      {
+        "name" : "Tianqing Zhu"
+      },
+      {
+        "name" : "Gang Li"
+      }
+    ],
+    "categories" : [
+      "quant-ph",
+      "cs.CR"
+    ]
   }
 ]
