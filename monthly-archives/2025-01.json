@@ -929,5 +929,74 @@
       "quant-ph",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.09191v1",
+    "title" : "Detecting Vulnerabilities in Encrypted Software Code while Ensuring Code\n  Privacy",
+    "summary" : "Software vulnerabilities continue to be the main cause of occurrence for\ncyber attacks. In an attempt to reduce them and improve software quality,\nsoftware code analysis has emerged as a service offered by companies\nspecialising in software testing. However, this service requires software\ncompanies to provide access to their software's code, which raises concerns\nabout code privacy and intellectual property theft. This paper presents a novel\napproach to Software Quality and Privacy, in which testing companies can\nperform code analysis tasks on encrypted software code provided by software\ncompanies while code privacy is preserved. The approach combines Static Code\nAnalysis and Searchable Symmetric Encryption in order to process the source\ncode and build an encrypted inverted index that represents its data and control\nflows. The index is then used to discover vulnerabilities by carrying out\nstatic analysis tasks in a confidential way. With this approach, this paper\nalso defines a new research field -- Confidential Code Analysis --, from which\nother types of code analysis tasks and approaches can be derived. We\nimplemented the approach in a new tool called CoCoA and evaluated it\nexperimentally with synthetic and real PHP web applications. The results show\nthat the tool has similar precision as standard (non-confidential) static\nanalysis tools and a modest average performance overhead of 42.7%.",
+    "updated" : "2025-01-15T22:39:50Z",
+    "published" : "2025-01-15T22:39:50Z",
+    "authors" : [
+      {
+        "name" : "Jorge Martins"
+      },
+      {
+        "name" : "David Dantas"
+      },
+      {
+        "name" : "Rafael Ramires"
+      },
+      {
+        "name" : "Bernardo Ferreira"
+      },
+      {
+        "name" : "Ibéria Medeiros"
+      }
+    ],
+    "categories" : [
+      "cs.SE",
+      "cs.CR",
+      "D.2.5; E.3"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.09031v1",
+    "title" : "Synthetic Data and Health Privacy",
+    "summary" : "This Viewpoint discusses generative artificial intelligence and safeguarding\nprivacy by using synthetic data as a substitute for private health data.",
+    "updated" : "2025-01-13T10:23:14Z",
+    "published" : "2025-01-13T10:23:14Z",
+    "authors" : [
+      {
+        "name" : "Gwénolé Abgrall"
+      },
+      {
+        "name" : "Xavier Monnet"
+      },
+      {
+        "name" : "Anmol Arora"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.00824v2",
+    "title" : "Information Sifting Funnel: Privacy-preserving Collaborative Inference\n  Against Model Inversion Attacks",
+    "summary" : "The complexity of neural networks and inference tasks, coupled with demands\nfor computational efficiency and real-time feedback, poses significant\nchallenges for resource-constrained edge devices. Collaborative inference\nmitigates this by assigning shallow feature extraction to edge devices and\noffloading features to the cloud for further inference, reducing computational\nload. However, transmitted features remain susceptible to model inversion\nattacks (MIAs), which can reconstruct original input data. Current defenses,\nsuch as perturbation and information bottleneck techniques, offer explainable\nprotection but face limitations, including the lack of standardized criteria\nfor assessing MIA difficulty, challenges in mutual information estimation, and\ntrade-offs among usability, privacy, and deployability.\n  To address these challenges, we introduce the first criterion to evaluate MIA\ndifficulty in collaborative inference, supported by theoretical analysis of\nexisting attacks and defenses, validated using experiments with the Mutual\nInformation Neural Estimator (MINE). Based on these findings, we propose\nSiftFunnel, a privacy-preserving framework for collaborative inference. The\nedge model is trained with linear and non-linear correlation constraints to\nreduce redundant information in transmitted features, enhancing privacy\nprotection. Label smoothing and a cloud-based upsampling module are added to\nbalance usability and privacy. To improve deployability, the edge model\nincorporates a funnel-shaped structure and attention mechanisms, preserving\nboth privacy and usability. Extensive experiments demonstrate that SiftFunnel\noutperforms state-of-the-art defenses against MIAs, achieving superior privacy\nprotection with less than 3% accuracy loss and striking an optimal balance\namong usability, privacy, and practicality.",
+    "updated" : "2025-01-16T02:38:55Z",
+    "published" : "2025-01-01T13:00:01Z",
+    "authors" : [
+      {
+        "name" : "Rongke Liu"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.IT",
+      "math.IT"
+    ]
   }
 ]
