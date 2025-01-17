@@ -2,6 +2,37 @@
 <h2>2025-01</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.09191v1">Detecting Vulnerabilities in Encrypted Software Code while Ensuring Code
+  Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
+  <p><b>Published on:</b> 2025-01-15T22:39:50Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jorge Martins, David Dantas, Rafael Ramires, Bernardo Ferreira, Ibéria Medeiros</p>
+    <p><b>Summary:</b> Software vulnerabilities continue to be the main cause of occurrence for
+cyber attacks. In an attempt to reduce them and improve software quality,
+software code analysis has emerged as a service offered by companies
+specialising in software testing. However, this service requires software
+companies to provide access to their software's code, which raises concerns
+about code privacy and intellectual property theft. This paper presents a novel
+approach to Software Quality and Privacy, in which testing companies can
+perform code analysis tasks on encrypted software code provided by software
+companies while code privacy is preserved. The approach combines Static Code
+Analysis and Searchable Symmetric Encryption in order to process the source
+code and build an encrypted inverted index that represents its data and control
+flows. The index is then used to discover vulnerabilities by carrying out
+static analysis tasks in a confidential way. With this approach, this paper
+also defines a new research field -- Confidential Code Analysis --, from which
+other types of code analysis tasks and approaches can be derived. We
+implemented the approach in a new tool called CoCoA and evaluated it
+experimentally with synthetic and real PHP web applications. The results show
+that the tool has similar precision as standard (non-confidential) static
+analysis tools and a modest average performance overhead of 42.7%.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2501.08665v1">A Survey on Facial Image Privacy Preservation in Cloud-Based Services</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
   <p><b>Published on:</b> 2025-01-15T09:00:32Z</p>
@@ -168,6 +199,19 @@ some deployment examples, and barriers to widespread adoption. Latter using the
 example of the EU Digital Identity Wallet (EUDIW) and the recent discussion and
 feedback from cryptography experts around this topic. We also briefly comment
 on the transition to post-quantum cryptography.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.09031v1">Synthetic Data and Health Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2025-01-13T10:23:14Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Gwénolé Abgrall, Xavier Monnet, Anmol Arora</p>
+    <p><b>Summary:</b> This Viewpoint discusses generative artificial intelligence and safeguarding
+privacy by using synthetic data as a substitute for private health data.</p>
   </details>
 </div>
 
@@ -918,7 +962,7 @@ this integrated, privacy-safe, and high-performance IoV platform.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.00824v1">Information Sifting Funnel: Privacy-preserving Collaborative Inference
+  <h3><a href="http://arxiv.org/abs/2501.00824v2">Information Sifting Funnel: Privacy-preserving Collaborative Inference
   Against Model Inversion Attacks</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
   <p><b>Published on:</b> 2025-01-01T13:00:01Z</p>
@@ -2928,66 +2972,6 @@ evading the existing guardrail defense and its helpfulness in enabling better
 safety alignment. Finally, we validate our customized designs through a
 detailed ablation study. We release our code here
 https://github.com/rucnyz/RedAgent.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.05636v1">A Game-Theoretic Framework for Privacy-Aware Client Sampling in
-  Federated Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Science and Game Theory-5BC0EB">
-  <p><b>Published on:</b> 2024-12-07T12:42:57Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Wenhao Yuan, Xuehe Wang</p>
-    <p><b>Summary:</b> This paper aims to design a Privacy-aware Client Sampling framework in
-Federated learning, named FedPCS, to tackle the heterogeneous client sampling
-issues and improve model performance. First, we obtain a pioneering upper bound
-for the accuracy loss of the FL model with privacy-aware client sampling
-probabilities. Based on this, we model the interactions between the central
-server and participating clients as a two-stage Stackelberg game. In Stage I,
-the central server designs the optimal time-dependent reward for cost
-minimization by considering the trade-off between the accuracy loss of the FL
-model and the rewards allocated. In Stage II, each client determines the
-correction factor that dynamically adjusts its privacy budget based on the
-reward allocated to maximize its utility. To surmount the obstacle of
-approximating other clients' private information, we introduce the mean-field
-estimator to estimate the average privacy budget. We analytically demonstrate
-the existence and convergence of the fixed point for the mean-field estimator
-and derive the Stackelberg Nash Equilibrium to obtain the optimal strategy
-profile. By rigorously theoretical convergence analysis, we guarantee the
-robustness of FedPCS. Moreover, considering the conventional sampling strategy
-in privacy-preserving FL, we prove that the random sampling approach's PoA can
-be arbitrarily large. To remedy such efficiency loss, we show that the proposed
-privacy-aware client sampling strategy successfully reduces PoA, which is upper
-bounded by a reachable constant. To address the challenge of varying privacy
-requirements throughout different training phases in FL, we extend our model
-and analysis and derive the adaptive optimal sampling ratio for the central
-server. Experimental results on different datasets demonstrate the superiority
-of FedPCS compared with the existing SOTA FL strategies under IID and Non-IID
-datasets.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.05533v1">Can large language models be privacy preserving and fair medical coders?</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-12-07T04:27:05Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ali Dadsetan, Dorsa Soleymani, Xijie Zeng, Frank Rudzicz</p>
-    <p><b>Summary:</b> Protecting patient data privacy is a critical concern when deploying machine
-learning algorithms in healthcare. Differential privacy (DP) is a common method
-for preserving privacy in such settings and, in this work, we examine two key
-trade-offs in applying DP to the NLP task of medical coding (ICD
-classification). Regarding the privacy-utility trade-off, we observe a
-significant performance drop in the privacy preserving models, with more than a
-40% reduction in micro F1 scores on the top 50 labels in the MIMIC-III dataset.
-From the perspective of the privacy-fairness trade-off, we also observe an
-increase of over 3% in the recall gap between male and female patients in the
-DP models. Further understanding these trade-offs will help towards the
-challenges of real-world deployment.</p>
   </details>
 </div>
 
