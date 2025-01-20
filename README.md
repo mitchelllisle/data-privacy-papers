@@ -2,6 +2,58 @@
 <h2>2025-01</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.10319v1">Natural Language Processing of Privacy Policies: A Survey</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2025-01-17T17:47:15Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Andrick Adhikari, Sanchari Das, Rinku Dewri</p>
+    <p><b>Summary:</b> Natural Language Processing (NLP) is an essential subset of artificial
+intelligence. It has become effective in several domains, such as healthcare,
+finance, and media, to identify perceptions, opinions, and misuse, among
+others. Privacy is no exception, and initiatives have been taken to address the
+challenges of usable privacy notifications to users with the help of NLP. To
+this aid, we conduct a literature review by analyzing 109 papers at the
+intersection of NLP and privacy policies. First, we provide a brief
+introduction to privacy policies and discuss various facets of associated
+problems, which necessitate the application of NLP to elevate the current state
+of privacy notices and disclosures to users. Subsequently, we a) provide an
+overview of the implementation and effectiveness of NLP approaches for better
+privacy policy communication; b) identify the methodologies that can be further
+enhanced to provide robust privacy policies; and c) identify the gaps in the
+current state-of-the-art research. Our systematic analysis reveals that several
+research papers focus on annotating and classifying privacy texts for analysis
+but need to adequately dwell on other aspects of NLP applications, such as
+summarization. More specifically, ample research opportunities exist in this
+domain, covering aspects such as corpus generation, summarization vectors,
+contextualized word embedding, identification of privacy-relevant statement
+categories, fine-grained classification, and domain-specific model tuning.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.10099v1">Several Representations of $α$-Mutual Information and
+  Interpretations as Privacy Leakage Measures</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
+  <p><b>Published on:</b> 2025-01-17T10:36:05Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Akira Kamatsuka, Takashiro Yoshida</p>
+    <p><b>Summary:</b> In this paper, we present several novel representations of $\alpha$-mutual
+information ($\alpha$-MI) in terms of R{\' e}nyi divergence and conditional
+R{\' e}nyi entropy. The representations are based on the variational
+characterizations of $\alpha$-MI using a reverse channel. Based on these
+representations, we provide several interpretations of the $\alpha$-MI as
+privacy leakage measures using generalized mean and gain functions. Further, as
+byproducts of the representations, we propose novel conditional R{\' e}nyi
+entropies that satisfy the property that conditioning reduces entropy and
+data-processing inequality.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2501.09191v1">Detecting Vulnerabilities in Encrypted Software Code while Ensuring Code
   Privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
@@ -2907,71 +2959,6 @@ achieving performance comparable to the centralized method with negligible
 differences (no greater than 3.6E-13). By enabling collaborative correction
 without data sharing, fedRBE facilitates large-scale omics studies where batch
 effect correction is crucial.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.05767v2">DeMem: Privacy-Enhanced Robust Adversarial Learning via De-Memorization</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-12-08T00:22:58Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Xiaoyu Luo, Qiongxiu Li</p>
-    <p><b>Summary:</b> Adversarial robustness, the ability of a model to withstand manipulated
-inputs that cause errors, is essential for ensuring the trustworthiness of
-machine learning models in real-world applications. However, previous studies
-have shown that enhancing adversarial robustness through adversarial training
-increases vulnerability to privacy attacks. While differential privacy can
-mitigate these attacks, it often compromises robustness against both natural
-and adversarial samples. Our analysis reveals that differential privacy
-disproportionately impacts low-risk samples, causing an unintended performance
-drop. To address this, we propose DeMem, which selectively targets high-risk
-samples, achieving a better balance between privacy protection and model
-robustness. DeMem is versatile and can be seamlessly integrated into various
-adversarial training techniques. Extensive evaluations across multiple training
-methods and datasets demonstrate that DeMem significantly reduces privacy
-leakage while maintaining robustness against both natural and adversarial
-samples. These results confirm DeMem's effectiveness and broad applicability in
-enhancing privacy without compromising robustness.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.05734v1">PrivAgent: Agentic-based Red-teaming for LLM Privacy Leakage</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-12-07T20:09:01Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yuzhou Nie, Zhun Wang, Ye Yu, Xian Wu, Xuandong Zhao, Wenbo Guo, Dawn Song</p>
-    <p><b>Summary:</b> Recent studies have discovered that LLMs have serious privacy leakage
-concerns, where an LLM may be fooled into outputting private information under
-carefully crafted adversarial prompts. These risks include leaking system
-prompts, personally identifiable information, training data, and model
-parameters. Most existing red-teaming approaches for privacy leakage rely on
-humans to craft the adversarial prompts. A few automated methods are proposed
-for system prompt extraction, but they cannot be applied to more severe risks
-(e.g., training data extraction) and have limited effectiveness even for system
-prompt extraction.
-  In this paper, we propose PrivAgent, a novel black-box red-teaming framework
-for LLM privacy leakage. We formulate different risks as a search problem with
-a unified attack goal. Our framework trains an open-source LLM through
-reinforcement learning as the attack agent to generate adversarial prompts for
-different target models under different risks. We propose a novel reward
-function to provide effective and fine-grained rewards for the attack agent.
-Finally, we introduce customizations to better fit our general framework to
-system prompt extraction and training data extraction. Through extensive
-evaluations, we first show that PrivAgent outperforms existing automated
-methods in system prompt leakage against six popular LLMs. Notably, our
-approach achieves a 100% success rate in extracting system prompts from
-real-world applications in OpenAI's GPT Store. We also show PrivAgent's
-effectiveness in extracting training data from an open-source LLM with a
-success rate of 5.9%. We further demonstrate PrivAgent's effectiveness in
-evading the existing guardrail defense and its helpfulness in enabling better
-safety alignment. Finally, we validate our customized designs through a
-detailed ablation study. We release our code here
-https://github.com/rucnyz/RedAgent.</p>
   </details>
 </div>
 
