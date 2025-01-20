@@ -998,5 +998,45 @@
       "cs.IT",
       "math.IT"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.10319v1",
+    "title" : "Natural Language Processing of Privacy Policies: A Survey",
+    "summary" : "Natural Language Processing (NLP) is an essential subset of artificial\nintelligence. It has become effective in several domains, such as healthcare,\nfinance, and media, to identify perceptions, opinions, and misuse, among\nothers. Privacy is no exception, and initiatives have been taken to address the\nchallenges of usable privacy notifications to users with the help of NLP. To\nthis aid, we conduct a literature review by analyzing 109 papers at the\nintersection of NLP and privacy policies. First, we provide a brief\nintroduction to privacy policies and discuss various facets of associated\nproblems, which necessitate the application of NLP to elevate the current state\nof privacy notices and disclosures to users. Subsequently, we a) provide an\noverview of the implementation and effectiveness of NLP approaches for better\nprivacy policy communication; b) identify the methodologies that can be further\nenhanced to provide robust privacy policies; and c) identify the gaps in the\ncurrent state-of-the-art research. Our systematic analysis reveals that several\nresearch papers focus on annotating and classifying privacy texts for analysis\nbut need to adequately dwell on other aspects of NLP applications, such as\nsummarization. More specifically, ample research opportunities exist in this\ndomain, covering aspects such as corpus generation, summarization vectors,\ncontextualized word embedding, identification of privacy-relevant statement\ncategories, fine-grained classification, and domain-specific model tuning.",
+    "updated" : "2025-01-17T17:47:15Z",
+    "published" : "2025-01-17T17:47:15Z",
+    "authors" : [
+      {
+        "name" : "Andrick Adhikari"
+      },
+      {
+        "name" : "Sanchari Das"
+      },
+      {
+        "name" : "Rinku Dewri"
+      }
+    ],
+    "categories" : [
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.10099v1",
+    "title" : "Several Representations of $α$-Mutual Information and\n  Interpretations as Privacy Leakage Measures",
+    "summary" : "In this paper, we present several novel representations of $\\alpha$-mutual\ninformation ($\\alpha$-MI) in terms of R{\\' e}nyi divergence and conditional\nR{\\' e}nyi entropy. The representations are based on the variational\ncharacterizations of $\\alpha$-MI using a reverse channel. Based on these\nrepresentations, we provide several interpretations of the $\\alpha$-MI as\nprivacy leakage measures using generalized mean and gain functions. Further, as\nbyproducts of the representations, we propose novel conditional R{\\' e}nyi\nentropies that satisfy the property that conditioning reduces entropy and\ndata-processing inequality.",
+    "updated" : "2025-01-17T10:36:05Z",
+    "published" : "2025-01-17T10:36:05Z",
+    "authors" : [
+      {
+        "name" : "Akira Kamatsuka"
+      },
+      {
+        "name" : "Takashiro Yoshida"
+      }
+    ],
+    "categories" : [
+      "cs.IT",
+      "math.IT"
+    ]
   }
 ]
