@@ -2,6 +2,224 @@
 <h2>2025-01</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.12359v1">Measured Hockey-Stick Divergence and its Applications to Quantum
+  Pufferfish Privacy</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
+  <p><b>Published on:</b> 2025-01-21T18:39:48Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Theshani Nuradha, Vishal Singh, Mark M. Wilde</p>
+    <p><b>Summary:</b> The hockey-stick divergence is a fundamental quantity characterizing several
+statistical privacy frameworks that ensure privacy for classical and quantum
+data. In such quantum privacy frameworks, the adversary is allowed to perform
+all possible measurements. However, in practice, there are typically
+limitations to the set of measurements that can be performed. To this end,
+here, we comprehensively analyze the measured hockey-stick divergence under
+several classes of practically relevant measurement classes. We prove several
+of its properties, including data processing and convexity. We show that it is
+efficiently computable by semi-definite programming for some classes of
+measurements and can be analytically evaluated for Werner and isotropic states.
+Notably, we show that the measured hockey-stick divergence characterizes
+optimal privacy parameters in the quantum pufferfish privacy framework. With
+this connection and the developed technical tools, we enable methods to
+quantify and audit privacy for several practically relevant settings. Lastly,
+we introduce the measured hockey-stick divergence of channels and explore its
+applications in ensuring privacy for channels.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.12193v1">MyDigiTwin: A Privacy-Preserving Framework for Personalized
+  Cardiovascular Risk Prediction and Scenario Exploration</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2025-01-21T15:01:34Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Héctor Cadavid, Hyunho Mo, Bauke Arends, Katarzyna Dziopa, Esther E. Bron, Daniel Bos, Sonja Georgievska, Pim van der Harst</p>
+    <p><b>Summary:</b> Cardiovascular disease (CVD) remains a leading cause of death, and primary
+prevention through personalized interventions is crucial. This paper introduces
+MyDigiTwin, a framework that integrates health digital twins with personal
+health environments to empower patients in exploring personalized health
+scenarios while ensuring data privacy. MyDigiTwin uses federated learning to
+train predictive models across distributed datasets without transferring raw
+data, and a novel data harmonization framework addresses semantic and format
+inconsistencies in health data. A proof-of-concept demonstrates the feasibility
+of harmonizing and using cohort data to train privacy-preserving CVD prediction
+models. This framework offers a scalable solution for proactive, personalized
+cardiovascular care and sets the stage for future applications in real-world
+healthcare settings.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.12046v1">Communication-Efficient and Privacy-Adaptable Mechanism for Federated
+  Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-01-21T11:16:05Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Chih Wei Ling, Youqi Wu, Jiande Sun, Cheuk Ting Li, Linqi Song, Weitao Xu</p>
+    <p><b>Summary:</b> Training machine learning models on decentralized private data via federated
+learning (FL) poses two key challenges: communication efficiency and privacy
+protection. In this work, we address these challenges within the trusted
+aggregator model by introducing a novel approach called the
+Communication-Efficient and Privacy-Adaptable Mechanism (CEPAM), achieving both
+objectives simultaneously. In particular, CEPAM leverages the rejection-sampled
+universal quantizer (RSUQ), a construction of randomized vector quantizer whose
+resulting distortion is equivalent to a prescribed noise, such as Gaussian or
+Laplace noise, enabling joint differential privacy and compression. Moreover,
+we analyze the trade-offs among user privacy, global utility, and transmission
+rate of CEPAM by defining appropriate metrics for FL with differential privacy
+and compression. Our CEPAM provides the additional benefit of privacy
+adaptability, allowing clients and the server to customize privacy protection
+based on required accuracy and protection. We assess CEPAM's utility
+performance using MNIST dataset, demonstrating that CEPAM surpasses baseline
+models in terms of learning accuracy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.12006v1">The Dilemma of Privacy Protection for Developers in the Metaverse</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E">
+  <p><b>Published on:</b> 2025-01-21T09:56:44Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Argianto Rahartomo, Leonel Merino, Mohammad Ghafari, Yoshiki Ohshima</p>
+    <p><b>Summary:</b> To investigate the level of support and awareness developers possess for
+dealing with sensitive data in the metaverse, we surveyed developers, consulted
+legal frameworks, and analyzed API documentation in the metaverse. Our
+preliminary results suggest that privacy is a major concern, but developer
+awareness and existing support are limited. Developers lack strategies to
+identify sensitive data that are exclusive to the metaverse. The API
+documentation contains guidelines for collecting sensitive information, but it
+omits instructions for identifying and protecting it. Legal frameworks include
+definitions that are subject to individual interpretation. These findings
+highlight the urgent need to build a transparent and common ground for privacy
+definitions, identify sensitive data, and implement usable protection measures.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.11757v1">An Information Geometric Approach to Local Information Privacy with
+  Applications to Max-lift and Local Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
+  <p><b>Published on:</b> 2025-01-20T21:34:55Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Amirreza Zamani, Parastoo Sadeghi, Mikael Skoglund</p>
+    <p><b>Summary:</b> We study an information-theoretic privacy mechanism design, where an agent
+observes useful data $Y$ and wants to reveal the information to a user. Since
+the useful data is correlated with the private data $X$, the agent uses a
+privacy mechanism to produce disclosed data $U$ that can be released. We assume
+that the agent observes $Y$ and has no direct access to $X$, i.e., the private
+data is hidden. We study the privacy mechanism design that maximizes the
+revealed information about $Y$ while satisfying a bounded Local Information
+Privacy (LIP) criterion. When the leakage is sufficiently small, concepts from
+information geometry allow us to locally approximate the mutual information. By
+utilizing this approximation the main privacy-utility trade-off problem can be
+rewritten as a quadratic optimization problem that has closed-form solution
+under some constraints. For the cases where the closed-form solution is not
+obtained we provide lower bounds on it. In contrast to the previous works that
+have complexity issues, here, we provide simple privacy designs with low
+complexity which are based on finding the maximum singular value and singular
+vector of a matrix. To do so, we follow two approaches where in the first one
+we find a lower bound on the main problem and then approximate it, however, in
+the second approach we approximate the main problem directly. In this work, we
+present geometrical interpretations of the proposed methods and in a numerical
+example we compare our results considering both approaches with the optimal
+solution and the previous methods. Furthermore, we discuss how our method can
+be generalized considering larger amounts for the privacy leakage. Finally, we
+discuss how the proposed methods can be applied to deal with differential
+privacy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.11756v1">Everyone's Privacy Matters! An Analysis of Privacy Leakage from
+  Real-World Facial Images on Twitter and Associated User Behaviors</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2025-01-20T21:31:59Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yuqi Niu, Weidong Qiu, Peng Tang, Lifan Wang, Shuo Chen, Shujun Li, Nadin Kokciyan, Ben Niu</p>
+    <p><b>Summary:</b> Online users often post facial images of themselves and other people on
+online social networks (OSNs) and other Web 2.0 platforms, which can lead to
+potential privacy leakage of people whose faces are included in such images.
+There is limited research on understanding face privacy in social media while
+considering user behavior. It is crucial to consider privacy of subjects and
+bystanders separately. This calls for the development of privacy-aware face
+detection classifiers that can distinguish between subjects and bystanders
+automatically. This paper introduces such a classifier trained on face-based
+features, which outperforms the two state-of-the-art methods with a significant
+margin (by 13.1% and 3.1% for OSN images, and by 17.9% and 5.9% for non-OSN
+images). We developed a semi-automated framework for conducting a large-scale
+analysis of the face privacy problem by using our novel bystander-subject
+classifier. We collected 27,800 images, each including at least one face,
+shared by 6,423 Twitter users. We then applied our framework to analyze this
+dataset thoroughly. Our analysis reveals eight key findings of different
+aspects of Twitter users' real-world behaviors on face privacy, and we provide
+quantitative and qualitative results to better explain these findings. We share
+the practical implications of our study to empower online platforms and users
+in addressing the face privacy problem efficiently.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.11740v1">PIR Over Wireless Channels: Achieving Privacy With Public Responses</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
+  <p><b>Published on:</b> 2025-01-20T20:56:56Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Or Elimelech, Asaf Cohen</p>
+    <p><b>Summary:</b> This paper addresses the problem of private information retrieval (PIR) over
+an additive white Gaussian noise (AWGN) channel, considering the channel is
+public. In such settings, each server can eavesdrop on the channel, potentially
+compromising the user's privacy. Previous works suggested joint coding--PIR
+schemes, ignoring the fact that communication over a practical wireless channel
+is public. To address this gap, we present a novel joint wiretap--PIR coding
+scheme that leverages lattice codes to exploit the channel's additive
+properties. This scheme integrates wiretap coding and private retrieval
+techniques into a unified framework.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.10915v1">LegalGuardian: A Privacy-Preserving Framework for Secure Integration of
+  Large Language Models in Legal Practice</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB">  
+  <p><b>Published on:</b> 2025-01-19T01:43:42Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> M. Mikail Demir, Hakan T. Otal, M. Abdullah Canbaz</p>
+    <p><b>Summary:</b> Large Language Models (LLMs) hold promise for advancing legal practice by
+automating complex tasks and improving access to justice. However, their
+adoption is limited by concerns over client confidentiality, especially when
+lawyers include sensitive Personally Identifiable Information (PII) in prompts,
+risking unauthorized data exposure. To mitigate this, we introduce
+LegalGuardian, a lightweight, privacy-preserving framework tailored for lawyers
+using LLM-based tools. LegalGuardian employs Named Entity Recognition (NER)
+techniques and local LLMs to mask and unmask confidential PII within prompts,
+safeguarding sensitive data before any external interaction. We detail its
+development and assess its effectiveness using a synthetic prompt library in
+immigration law scenarios. Comparing traditional NER models with one-shot
+prompted local LLM, we find that LegalGuardian achieves a F1-score of 93% with
+GLiNER and 97% with Qwen2.5-14B in PII detection. Semantic similarity analysis
+confirms that the framework maintains high fidelity in outputs, ensuring robust
+utility of LLM-based tools. Our findings indicate that legal professionals can
+harness advanced AI technologies without compromising client confidentiality or
+the quality of legal documents.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2501.10319v1">Natural Language Processing of Privacy Policies: A Survey</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
   <p><b>Published on:</b> 2025-01-17T17:47:15Z</p>
@@ -540,7 +758,7 @@ protecting raw data and guaranteeing lossless model accuracy.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.04323v2">Navigating the Designs of Privacy-Preserving Fine-tuning for Large
+  <h3><a href="http://arxiv.org/abs/2501.04323v3">Navigating the Designs of Privacy-Preserving Fine-tuning for Large
   Language Models</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2025-01-08T07:47:43Z</p>
@@ -2532,7 +2750,7 @@ found in \url{https://voiceprivacy.github.io/Perturbation-Generation-Removal/}.<
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.08559v1">Underestimated Privacy Risks for Minority Populations in Large Language
+  <h3><a href="http://arxiv.org/abs/2412.08559v2">Underestimated Privacy Risks for Minority Populations in Large Language
   Model Unlearning</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2024-12-11T17:22:07Z</p>
@@ -2719,246 +2937,6 @@ First, we explain how this might have relevance across scales of community of
 people - not only for the domain of the home but also in broader meaning.
 Second, we relate our previous as well as ongoing research in the domain of
 smart homes to this topic.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.06728v1">Byzantine-Eavesdropper Alliance: How to Achieve Symmetric Privacy in
-  Quantum $X$-Secure $B$-Byzantine $E$-Eavesdropped $U$-Unresponsive
-  $T$-Colluding PIR?</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">   
-  <p><b>Published on:</b> 2024-12-09T18:17:24Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mohamed Nomeir, Alptug Aytekin, Sennur Ulukus</p>
-    <p><b>Summary:</b> We consider the quantum \emph{symmetric} private information retrieval
-(QSPIR) problem in a system with $N$ databases and $K$ messages, with $U$
-unresponsive servers, $T$-colluding servers, and $X$-security parameter, under
-several fundamental threat models. In the first model, there are
-$\mathcal{E}_1$ eavesdropped links in the uplink direction (the direction from
-the user to the $N$ servers), $\mathcal{E}_2$ eavesdropped links in the
-downlink direction (the direction from the servers to the user), where
-$|\mathcal{E}_1|, |\mathcal{E}_2| \leq E$; we coin this eavesdropper setting as
-\emph{dynamic} eavesdroppers. We show that super-dense coding gain can be
-achieved for some regimes. In the second model, we consider the case with
-Byzantine servers, i.e., servers that can coordinate to devise a plan to harm
-the privacy and security of the system together with static eavesdroppers, by
-listening to the same links in both uplink and downlink directions. It is
-important to note the considerable difference between the two threat models,
-since the eavesdroppers can take huge advantage of the presence of the
-Byzantine servers. Unlike the previous works in SPIR with Byzantine servers,
-that assume that the Byzantine servers can send only random symbols independent
-of the stored messages, we follow the definition of Byzantine servers in
-\cite{byzantine_tpir}, where the Byzantine servers can send symbols that can be
-functions of the storage, queries, as well as the random symbols in a way that
-can produce worse harm to the system. In the third and the most novel threat
-model, we consider the presence of Byzantine servers and dynamic eavesdroppers
-together. We show that having dynamic eavesdroppers along with Byzantine
-servers in the same system model creates more threats to the system than having
-static eavesdroppers with Byzantine servers.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.06689v1">Impact of Privacy Parameters on Deep Learning Models for Image
-  Classification</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-12-09T17:31:55Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Basanta Chaulagain</p>
-    <p><b>Summary:</b> The project aims to develop differentially private deep learning models for
-image classification on CIFAR-10 datasets \cite{cifar10} and analyze the impact
-of various privacy parameters on model accuracy. We have implemented five
-different deep learning models, namely ConvNet, ResNet18, EfficientNet, ViT,
-and DenseNet121 and three supervised classifiers namely K-Nearest Neighbors,
-Naive Bayes Classifier and Support Vector Machine. We evaluated the performance
-of these models under varying settings. Our best performing model to date is
-EfficientNet with test accuracy of $59.63\%$ with the following parameters
-(Adam optimizer, batch size 256, epoch size 100, epsilon value 5.0, learning
-rate $1e-3$, clipping threshold 1.0, and noise multiplier 0.912).</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.06541v2">Numerical Estimation of Spatial Distributions under Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
-  <p><b>Published on:</b> 2024-12-09T14:53:57Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Leilei Du, Peng Cheng, Libin Zheng, Xiang Lian, Lei Chen, Wei Xi, Wangze Ni</p>
-    <p><b>Summary:</b> Estimating spatial distributions is important in data analysis, such as
-traffic flow forecasting and epidemic prevention. To achieve accurate spatial
-distribution estimation, the analysis needs to collect sufficient user data.
-However, collecting data directly from individuals could compromise their
-privacy. Most previous works focused on private distribution estimation for
-one-dimensional data, which does not consider spatial data relation and leads
-to poor accuracy for spatial distribution estimation. In this paper, we address
-the problem of private spatial distribution estimation, where we collect
-spatial data from individuals and aim to minimize the distance between the
-actual distribution and estimated one under Local Differential Privacy (LDP).
-To leverage the numerical nature of the domain, we project spatial data and its
-relationships onto a one-dimensional distribution. We then use this projection
-to estimate the overall spatial distribution. Specifically, we propose a
-reporting mechanism called Disk Area Mechanism (DAM), which projects the
-spatial domain onto a line and optimizes the estimation using the sliced
-Wasserstein distance. Through extensive experiments, we show the effectiveness
-of our DAM approach on both real and synthetic data sets, compared with the
-state-of-the-art methods, such as Multi-dimensional Square Wave Mechanism
-(MDSW) and Subset Exponential Mechanism with Geo-I (SEM-Geo-I). Our results
-show that our DAM always performs better than MDSW and is better than SEM-Geo-I
-when the data granularity is fine enough.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.06248v1">Rendering-Refined Stable Diffusion for Privacy Compliant Synthetic Data</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2024-12-09T06:47:29Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Kartik Patwari, David Schneider, Xiaoxiao Sun, Chen-Nee Chuah, Lingjuan Lyu, Vivek Sharma</p>
-    <p><b>Summary:</b> Growing privacy concerns and regulations like GDPR and CCPA necessitate
-pseudonymization techniques that protect identity in image datasets. However,
-retaining utility is also essential. Traditional methods like masking and
-blurring degrade quality and obscure critical context, especially in
-human-centric images. We introduce Rendering-Refined Stable Diffusion (RefSD),
-a pipeline that combines 3D-rendering with Stable Diffusion, enabling
-prompt-based control over human attributes while preserving posture. Unlike
-standard diffusion models that fail to retain posture or GANs that lack realism
-and flexible attribute control, RefSD balances posture preservation, realism,
-and customization. We also propose HumanGenAI, a framework for human perception
-and utility evaluation. Human perception assessments reveal attribute-specific
-strengths and weaknesses of RefSD. Our utility experiments show that models
-trained on RefSD pseudonymized data outperform those trained on real data in
-detection tasks, with further performance gains when combining RefSD with real
-data. For classification tasks, we consistently observe performance
-improvements when using RefSD data with real data, confirming the utility of
-our pseudonymized data.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.06196v1">BECS: A Privacy-Preserving Computing Sharing Mechanism in 6G Computing
-  Power Network</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762"> 
-  <p><b>Published on:</b> 2024-12-09T04:26:14Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Kun Yan, Wenping Ma, Shaohui Sun</p>
-    <p><b>Summary:</b> 5G networks provide secure and reliable information transmission services for
-the Internet of Everything, thus paving the way for 6G networks, which is
-anticipated to be an AI-based network, supporting unprecedented intelligence
-across applications. Abundant computing resources will establish the 6G
-Computing Power Network (CPN) to facilitate ubiquitous intelligent services. In
-this article, we propose BECS, a computing sharing mechanism based on
-evolutionary algorithm and blockchain, designed to balance task offloading
-among user devices, edge devices, and cloud resources within 6G CPN, thereby
-enhancing the computing resource utilization. We model computing sharing as a
-multi-objective optimization problem, aiming to improve resource utilization
-while balancing other issues. To tackle this NP-hard problem, we devise a
-kernel distance-based dominance relation and incorporated it into the
-Non-dominated Sorting Genetic Algorithm III, significantly enhancing the
-diversity of the evolutionary population. In addition, we propose a pseudonym
-scheme based on zero-knowledge proof to protect the privacy of users
-participating in computing sharing. Finally, the security analysis and
-simulation results demonstrate that BECS can fully and effectively utilize all
-computing resources in 6G CPN, significantly improving the computing resource
-utilization while protecting user privacy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.06120v2">Lightweight Federated Learning with Differential Privacy and Straggler
-  Resilience</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
-  <p><b>Published on:</b> 2024-12-09T00:54:00Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shu Hong, Xiaojun Lin, Lingjie Duan</p>
-    <p><b>Summary:</b> Federated learning (FL) enables collaborative model training through model
-parameter exchanges instead of raw data. To avoid potential inference attacks
-from exchanged parameters, differential privacy (DP) offers rigorous guarantee
-against various attacks. However, conventional methods of ensuring DP by adding
-local noise alone often result in low training accuracy. Combining secure
-multi-party computation (SMPC) with DP, while improving the accuracy, incurs
-high communication and computation overheads as well as straggler
-vulnerability, in either client-to-server or client-to-client links. In this
-paper, we propose LightDP-FL, a novel lightweight scheme that ensures provable
-DP against untrusted peers and server, while maintaining straggler resilience,
-low overheads and high training accuracy. Our scheme incorporates both
-individual and pairwise noise into each client's parameter, which can be
-implemented with minimal overheads. Given the uncertain straggler and colluder
-sets, we utilize the upper bound on the numbers of stragglers and colluders to
-prove sufficient noise variance conditions to ensure DP in the worst case.
-Moreover, we optimize the expected convergence bound to ensure accuracy
-performance by flexibly controlling the noise variances. Using the CIFAR-10
-dataset, our experimental results demonstrate that LightDP-FL achieves faster
-convergence and stronger straggler resilience compared to baseline methods of
-the same DP level.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.06113v1">Privacy-Preserving Large Language Models: Mechanisms, Applications, and
-  Future Directions</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2024-12-09T00:24:09Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Guoshenghui Zhao, Eric Song</p>
-    <p><b>Summary:</b> The rapid advancement of large language models (LLMs) has revolutionized
-natural language processing, enabling applications in diverse domains such as
-healthcare, finance and education. However, the growing reliance on extensive
-data for training and inference has raised significant privacy concerns,
-ranging from data leakage to adversarial attacks. This survey comprehensively
-explores the landscape of privacy-preserving mechanisms tailored for LLMs,
-including differential privacy, federated learning, cryptographic protocols,
-and trusted execution environments. We examine their efficacy in addressing key
-privacy challenges, such as membership inference and model inversion attacks,
-while balancing trade-offs between privacy and model utility. Furthermore, we
-analyze privacy-preserving applications of LLMs in privacy-sensitive domains,
-highlighting successful implementations and inherent limitations. Finally, this
-survey identifies emerging research directions, emphasizing the need for novel
-frameworks that integrate privacy by design into the lifecycle of LLMs. By
-synthesizing state-of-the-art approaches and future trends, this paper provides
-a foundation for developing robust, privacy-preserving large language models
-that safeguard sensitive information without compromising performance.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.05894v1">FedRBE -- a decentralized privacy-preserving federated batch effect
-  correction tool for omics data based on limma</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-12-08T11:23:31Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yuliya Burankova, Julian Klemm, Jens J. G. Lohmann, Ahmad Taheri, Niklas Probul, Jan Baumbach, Olga Zolotareva</p>
-    <p><b>Summary:</b> Batch effects in omics data obscure true biological signals and constitute a
-major challenge for privacy-preserving analyses of distributed patient data.
-Existing batch effect correction methods either require data centralization,
-which may easily conflict with privacy requirements, or lack support for
-missing values and automated workflows. To bridge this gap, we developed
-fedRBE, a federated implementation of limma's removeBatchEffect method. We
-implemented it as an app for the FeatureCloud platform. Unlike its existing
-analogs, fedRBE effectively handles data with missing values and offers an
-automated, user-friendly online user interface
-(https://featurecloud.ai/app/fedrbe). Leveraging secure multi-party computation
-provides enhanced security guarantees over classical federated learning
-approaches. We evaluated our fedRBE algorithm on simulated and real omics data,
-achieving performance comparable to the centralized method with negligible
-differences (no greater than 3.6E-13). By enabling collaborative correction
-without data sharing, fedRBE facilitates large-scale omics studies where batch
-effect correction is crucial.</p>
   </details>
 </div>
 
