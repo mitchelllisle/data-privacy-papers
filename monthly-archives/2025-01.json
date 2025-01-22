@@ -1038,5 +1038,246 @@
       "cs.IT",
       "math.IT"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.12359v1",
+    "title" : "Measured Hockey-Stick Divergence and its Applications to Quantum\n  Pufferfish Privacy",
+    "summary" : "The hockey-stick divergence is a fundamental quantity characterizing several\nstatistical privacy frameworks that ensure privacy for classical and quantum\ndata. In such quantum privacy frameworks, the adversary is allowed to perform\nall possible measurements. However, in practice, there are typically\nlimitations to the set of measurements that can be performed. To this end,\nhere, we comprehensively analyze the measured hockey-stick divergence under\nseveral classes of practically relevant measurement classes. We prove several\nof its properties, including data processing and convexity. We show that it is\nefficiently computable by semi-definite programming for some classes of\nmeasurements and can be analytically evaluated for Werner and isotropic states.\nNotably, we show that the measured hockey-stick divergence characterizes\noptimal privacy parameters in the quantum pufferfish privacy framework. With\nthis connection and the developed technical tools, we enable methods to\nquantify and audit privacy for several practically relevant settings. Lastly,\nwe introduce the measured hockey-stick divergence of channels and explore its\napplications in ensuring privacy for channels.",
+    "updated" : "2025-01-21T18:39:48Z",
+    "published" : "2025-01-21T18:39:48Z",
+    "authors" : [
+      {
+        "name" : "Theshani Nuradha"
+      },
+      {
+        "name" : "Vishal Singh"
+      },
+      {
+        "name" : "Mark M. Wilde"
+      }
+    ],
+    "categories" : [
+      "quant-ph",
+      "cs.CR",
+      "cs.IT",
+      "cs.LG",
+      "math.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.12193v1",
+    "title" : "MyDigiTwin: A Privacy-Preserving Framework for Personalized\n  Cardiovascular Risk Prediction and Scenario Exploration",
+    "summary" : "Cardiovascular disease (CVD) remains a leading cause of death, and primary\nprevention through personalized interventions is crucial. This paper introduces\nMyDigiTwin, a framework that integrates health digital twins with personal\nhealth environments to empower patients in exploring personalized health\nscenarios while ensuring data privacy. MyDigiTwin uses federated learning to\ntrain predictive models across distributed datasets without transferring raw\ndata, and a novel data harmonization framework addresses semantic and format\ninconsistencies in health data. A proof-of-concept demonstrates the feasibility\nof harmonizing and using cohort data to train privacy-preserving CVD prediction\nmodels. This framework offers a scalable solution for proactive, personalized\ncardiovascular care and sets the stage for future applications in real-world\nhealthcare settings.",
+    "updated" : "2025-01-21T15:01:34Z",
+    "published" : "2025-01-21T15:01:34Z",
+    "authors" : [
+      {
+        "name" : "Héctor Cadavid"
+      },
+      {
+        "name" : "Hyunho Mo"
+      },
+      {
+        "name" : "Bauke Arends"
+      },
+      {
+        "name" : "Katarzyna Dziopa"
+      },
+      {
+        "name" : "Esther E. Bron"
+      },
+      {
+        "name" : "Daniel Bos"
+      },
+      {
+        "name" : "Sonja Georgievska"
+      },
+      {
+        "name" : "Pim van der Harst"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.12046v1",
+    "title" : "Communication-Efficient and Privacy-Adaptable Mechanism for Federated\n  Learning",
+    "summary" : "Training machine learning models on decentralized private data via federated\nlearning (FL) poses two key challenges: communication efficiency and privacy\nprotection. In this work, we address these challenges within the trusted\naggregator model by introducing a novel approach called the\nCommunication-Efficient and Privacy-Adaptable Mechanism (CEPAM), achieving both\nobjectives simultaneously. In particular, CEPAM leverages the rejection-sampled\nuniversal quantizer (RSUQ), a construction of randomized vector quantizer whose\nresulting distortion is equivalent to a prescribed noise, such as Gaussian or\nLaplace noise, enabling joint differential privacy and compression. Moreover,\nwe analyze the trade-offs among user privacy, global utility, and transmission\nrate of CEPAM by defining appropriate metrics for FL with differential privacy\nand compression. Our CEPAM provides the additional benefit of privacy\nadaptability, allowing clients and the server to customize privacy protection\nbased on required accuracy and protection. We assess CEPAM's utility\nperformance using MNIST dataset, demonstrating that CEPAM surpasses baseline\nmodels in terms of learning accuracy.",
+    "updated" : "2025-01-21T11:16:05Z",
+    "published" : "2025-01-21T11:16:05Z",
+    "authors" : [
+      {
+        "name" : "Chih Wei Ling"
+      },
+      {
+        "name" : "Youqi Wu"
+      },
+      {
+        "name" : "Jiande Sun"
+      },
+      {
+        "name" : "Cheuk Ting Li"
+      },
+      {
+        "name" : "Linqi Song"
+      },
+      {
+        "name" : "Weitao Xu"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.12006v1",
+    "title" : "The Dilemma of Privacy Protection for Developers in the Metaverse",
+    "summary" : "To investigate the level of support and awareness developers possess for\ndealing with sensitive data in the metaverse, we surveyed developers, consulted\nlegal frameworks, and analyzed API documentation in the metaverse. Our\npreliminary results suggest that privacy is a major concern, but developer\nawareness and existing support are limited. Developers lack strategies to\nidentify sensitive data that are exclusive to the metaverse. The API\ndocumentation contains guidelines for collecting sensitive information, but it\nomits instructions for identifying and protecting it. Legal frameworks include\ndefinitions that are subject to individual interpretation. These findings\nhighlight the urgent need to build a transparent and common ground for privacy\ndefinitions, identify sensitive data, and implement usable protection measures.",
+    "updated" : "2025-01-21T09:56:44Z",
+    "published" : "2025-01-21T09:56:44Z",
+    "authors" : [
+      {
+        "name" : "Argianto Rahartomo"
+      },
+      {
+        "name" : "Leonel Merino"
+      },
+      {
+        "name" : "Mohammad Ghafari"
+      },
+      {
+        "name" : "Yoshiki Ohshima"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.ET"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.11757v1",
+    "title" : "An Information Geometric Approach to Local Information Privacy with\n  Applications to Max-lift and Local Differential Privacy",
+    "summary" : "We study an information-theoretic privacy mechanism design, where an agent\nobserves useful data $Y$ and wants to reveal the information to a user. Since\nthe useful data is correlated with the private data $X$, the agent uses a\nprivacy mechanism to produce disclosed data $U$ that can be released. We assume\nthat the agent observes $Y$ and has no direct access to $X$, i.e., the private\ndata is hidden. We study the privacy mechanism design that maximizes the\nrevealed information about $Y$ while satisfying a bounded Local Information\nPrivacy (LIP) criterion. When the leakage is sufficiently small, concepts from\ninformation geometry allow us to locally approximate the mutual information. By\nutilizing this approximation the main privacy-utility trade-off problem can be\nrewritten as a quadratic optimization problem that has closed-form solution\nunder some constraints. For the cases where the closed-form solution is not\nobtained we provide lower bounds on it. In contrast to the previous works that\nhave complexity issues, here, we provide simple privacy designs with low\ncomplexity which are based on finding the maximum singular value and singular\nvector of a matrix. To do so, we follow two approaches where in the first one\nwe find a lower bound on the main problem and then approximate it, however, in\nthe second approach we approximate the main problem directly. In this work, we\npresent geometrical interpretations of the proposed methods and in a numerical\nexample we compare our results considering both approaches with the optimal\nsolution and the previous methods. Furthermore, we discuss how our method can\nbe generalized considering larger amounts for the privacy leakage. Finally, we\ndiscuss how the proposed methods can be applied to deal with differential\nprivacy.",
+    "updated" : "2025-01-20T21:34:55Z",
+    "published" : "2025-01-20T21:34:55Z",
+    "authors" : [
+      {
+        "name" : "Amirreza Zamani"
+      },
+      {
+        "name" : "Parastoo Sadeghi"
+      },
+      {
+        "name" : "Mikael Skoglund"
+      }
+    ],
+    "categories" : [
+      "cs.IT",
+      "math.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.11756v1",
+    "title" : "Everyone's Privacy Matters! An Analysis of Privacy Leakage from\n  Real-World Facial Images on Twitter and Associated User Behaviors",
+    "summary" : "Online users often post facial images of themselves and other people on\nonline social networks (OSNs) and other Web 2.0 platforms, which can lead to\npotential privacy leakage of people whose faces are included in such images.\nThere is limited research on understanding face privacy in social media while\nconsidering user behavior. It is crucial to consider privacy of subjects and\nbystanders separately. This calls for the development of privacy-aware face\ndetection classifiers that can distinguish between subjects and bystanders\nautomatically. This paper introduces such a classifier trained on face-based\nfeatures, which outperforms the two state-of-the-art methods with a significant\nmargin (by 13.1% and 3.1% for OSN images, and by 17.9% and 5.9% for non-OSN\nimages). We developed a semi-automated framework for conducting a large-scale\nanalysis of the face privacy problem by using our novel bystander-subject\nclassifier. We collected 27,800 images, each including at least one face,\nshared by 6,423 Twitter users. We then applied our framework to analyze this\ndataset thoroughly. Our analysis reveals eight key findings of different\naspects of Twitter users' real-world behaviors on face privacy, and we provide\nquantitative and qualitative results to better explain these findings. We share\nthe practical implications of our study to empower online platforms and users\nin addressing the face privacy problem efficiently.",
+    "updated" : "2025-01-20T21:31:59Z",
+    "published" : "2025-01-20T21:31:59Z",
+    "authors" : [
+      {
+        "name" : "Yuqi Niu"
+      },
+      {
+        "name" : "Weidong Qiu"
+      },
+      {
+        "name" : "Peng Tang"
+      },
+      {
+        "name" : "Lifan Wang"
+      },
+      {
+        "name" : "Shuo Chen"
+      },
+      {
+        "name" : "Shujun Li"
+      },
+      {
+        "name" : "Nadin Kokciyan"
+      },
+      {
+        "name" : "Ben Niu"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.11740v1",
+    "title" : "PIR Over Wireless Channels: Achieving Privacy With Public Responses",
+    "summary" : "This paper addresses the problem of private information retrieval (PIR) over\nan additive white Gaussian noise (AWGN) channel, considering the channel is\npublic. In such settings, each server can eavesdrop on the channel, potentially\ncompromising the user's privacy. Previous works suggested joint coding--PIR\nschemes, ignoring the fact that communication over a practical wireless channel\nis public. To address this gap, we present a novel joint wiretap--PIR coding\nscheme that leverages lattice codes to exploit the channel's additive\nproperties. This scheme integrates wiretap coding and private retrieval\ntechniques into a unified framework.",
+    "updated" : "2025-01-20T20:56:56Z",
+    "published" : "2025-01-20T20:56:56Z",
+    "authors" : [
+      {
+        "name" : "Or Elimelech"
+      },
+      {
+        "name" : "Asaf Cohen"
+      }
+    ],
+    "categories" : [
+      "cs.IT",
+      "math.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.10915v1",
+    "title" : "LegalGuardian: A Privacy-Preserving Framework for Secure Integration of\n  Large Language Models in Legal Practice",
+    "summary" : "Large Language Models (LLMs) hold promise for advancing legal practice by\nautomating complex tasks and improving access to justice. However, their\nadoption is limited by concerns over client confidentiality, especially when\nlawyers include sensitive Personally Identifiable Information (PII) in prompts,\nrisking unauthorized data exposure. To mitigate this, we introduce\nLegalGuardian, a lightweight, privacy-preserving framework tailored for lawyers\nusing LLM-based tools. LegalGuardian employs Named Entity Recognition (NER)\ntechniques and local LLMs to mask and unmask confidential PII within prompts,\nsafeguarding sensitive data before any external interaction. We detail its\ndevelopment and assess its effectiveness using a synthetic prompt library in\nimmigration law scenarios. Comparing traditional NER models with one-shot\nprompted local LLM, we find that LegalGuardian achieves a F1-score of 93% with\nGLiNER and 97% with Qwen2.5-14B in PII detection. Semantic similarity analysis\nconfirms that the framework maintains high fidelity in outputs, ensuring robust\nutility of LLM-based tools. Our findings indicate that legal professionals can\nharness advanced AI technologies without compromising client confidentiality or\nthe quality of legal documents.",
+    "updated" : "2025-01-19T01:43:42Z",
+    "published" : "2025-01-19T01:43:42Z",
+    "authors" : [
+      {
+        "name" : "M. Mikail Demir"
+      },
+      {
+        "name" : "Hakan T. Otal"
+      },
+      {
+        "name" : "M. Abdullah Canbaz"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.CR",
+      "cs.IR",
+      "68T50, 68U35",
+      "I.2.7; K.5.0; I.7.0"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.04323v3",
+    "title" : "Navigating the Designs of Privacy-Preserving Fine-tuning for Large\n  Language Models",
+    "summary" : "Instruction tuning has proven effective in enhancing Large Language Models'\n(LLMs) performance on downstream tasks. However, real-world fine-tuning faces\ninherent conflicts between model providers' intellectual property protection,\nclients' data privacy requirements, and tuning costs. While recent approaches\nlike split learning and offsite tuning demonstrate promising architectures for\nprivacy-preserving fine-tuning, there is a gap in systematically addressing the\nmultidimensional trade-offs required for diverse real-world deployments. We\npropose several indicative evaluation metrics to guide design trade-offs for\nprivacy-preserving fine-tuning and a series of example designs, collectively\nnamed GuardedTuning; they result from novel combinations of system\narchitectures with adapted privacy-enhancement methods and emerging computation\ntechniques. Each design represents distinct trade-offs across model utility,\nprivacy guarantees, and costs. Experimental results demonstrate that these\ndesigns protect against data reconstruction attacks while maintaining\ncompetitive fine-tuning performance.",
+    "updated" : "2025-01-20T17:41:59Z",
+    "published" : "2025-01-08T07:47:43Z",
+    "authors" : [
+      {
+        "name" : "Haonan Shi"
+      },
+      {
+        "name" : "Tu Ouyang"
+      },
+      {
+        "name" : "An Wang"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
   }
 ]
