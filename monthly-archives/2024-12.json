@@ -3122,5 +3122,47 @@
       "stat.TH",
       "62G08, 62C20, 68P27, 62F30"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.08559v2",
+    "title" : "Underestimated Privacy Risks for Minority Populations in Large Language\n  Model Unlearning",
+    "summary" : "Large Language Models are trained on extensive datasets that often contain\nsensitive, human-generated information, raising significant concerns about\nprivacy breaches. While certified unlearning approaches offer strong privacy\nguarantees, they rely on restrictive model assumptions that are not applicable\nto LLMs. As a result, various unlearning heuristics have been proposed, with\nthe associated privacy risks assessed only empirically. The standard evaluation\npipelines typically randomly select data for removal from the training set,\napply unlearning techniques, and use membership inference attacks to compare\nthe unlearned models against models retrained without the to-be-unlearned data.\nHowever, since every data point is subject to the right to be forgotten,\nunlearning should be considered in the worst-case scenario from the privacy\nperspective. Prior work shows that data outliers may exhibit higher\nmemorization effects. Intuitively, they are harder to be unlearn and thus the\nprivacy risk of unlearning them is underestimated in the current evaluation. In\nthis paper, we leverage minority data to identify such a critical flaw in\npreviously widely adopted evaluations. We substantiate this claim through\ncarefully designed experiments, including unlearning canaries related to\nminority groups, inspired by privacy auditing literature. Using personally\nidentifiable information as a representative minority identifier, we\ndemonstrate that minority groups experience at least 20% more privacy leakage\nin most cases across six unlearning approaches, three MIAs, three benchmark\ndatasets, and two LLMs of different scales. Given that the right to be\nforgotten should be upheld for every individual, we advocate for a more\nrigorous evaluation of LLM unlearning methods. Our minority-aware evaluation\nframework represents an initial step toward ensuring more equitable assessments\nof LLM unlearning efficacy.",
+    "updated" : "2025-01-19T03:05:22Z",
+    "published" : "2024-12-11T17:22:07Z",
+    "authors" : [
+      {
+        "name" : "Rongzhe Wei"
+      },
+      {
+        "name" : "Mufei Li"
+      },
+      {
+        "name" : "Mohsen Ghassemi"
+      },
+      {
+        "name" : "Eleonora Kreačić"
+      },
+      {
+        "name" : "Yifan Li"
+      },
+      {
+        "name" : "Xiang Yue"
+      },
+      {
+        "name" : "Bo Li"
+      },
+      {
+        "name" : "Vamsi K. Potluru"
+      },
+      {
+        "name" : "Pan Li"
+      },
+      {
+        "name" : "Eli Chien"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
   }
 ]
