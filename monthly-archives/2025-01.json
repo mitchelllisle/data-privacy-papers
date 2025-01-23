@@ -1279,5 +1279,147 @@
       "cs.LG",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.12911v1",
+    "title" : "A Selective Homomorphic Encryption Approach for Faster\n  Privacy-Preserving Federated Learning",
+    "summary" : "Federated learning is a machine learning method that supports training models\non decentralized devices or servers, where each holds its local data, removing\nthe need for data exchange. This approach is especially useful in healthcare,\nas it enables training on sensitive data without needing to share them. The\nnature of federated learning necessitates robust security precautions due to\ndata leakage concerns during communication. To address this issue, we propose a\nnew approach that employs selective encryption, homomorphic encryption,\ndifferential privacy, and bit-wise scrambling to minimize data leakage while\nachieving good execution performance. Our technique , FAS (fast and secure\nfederated learning) is used to train deep learning models on medical imaging\ndata. We implemented our technique using the Flower framework and compared with\na state-of-the-art federated learning approach that also uses selective\nhomomorphic encryption. Our experiments were run in a cluster of eleven\nphysical machines to create a real-world federated learning scenario on\ndifferent datasets. We observed that our approach is up to 90\\% faster than\napplying fully homomorphic encryption on the model weights. In addition, we can\navoid the pretraining step that is required by our competitor and can save up\nto 20\\% in terms of total execution time. While our approach was faster, it\nobtained similar security results as the competitor.",
+    "updated" : "2025-01-22T14:37:44Z",
+    "published" : "2025-01-22T14:37:44Z",
+    "authors" : [
+      {
+        "name" : "Abdulkadir Korkmaz"
+      },
+      {
+        "name" : "Praveen Rao"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DC",
+      "cs.LG",
+      "C.2.0; C.2.4; I.2.6"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.12893v1",
+    "title" : "Statistical Privacy",
+    "summary" : "To analyze the privacy guarantee of personal data in a database that is\nsubject to queries it is necessary to model the prior knowledge of a possible\nattacker. Differential privacy considers a worst-case scenario where he knows\nalmost everything, which in many applications is unrealistic and requires a\nlarge utility loss.\n  This paper considers a situation called statistical privacy where an\nadversary knows the distribution by which the database is generated, but no\nexact data of all (or sufficient many) of its entries. We analyze in detail how\nthe entropy of the distribution guarantes privacy for a large class of queries\ncalled property queries. Exact formulas are obtained for the privacy\nparameters. We analyze how they depend on the probability that an entry\nfulfills the property under investigation. These formulas turn out to be\nlengthy, but can be used for tight numerical approximations of the privacy\nparameters. Such estimations are necessary for applying privacy enhancing\ntechniques in practice. For this statistical setting we further investigate the\neffect of adding noise or applying subsampling and the privacy utility\ntradeoff. The dependencies on the parameters are illustrated in detail by a\nseries of plots. Finally, these results are compared to the differential\nprivacy model.",
+    "updated" : "2025-01-22T14:13:44Z",
+    "published" : "2025-01-22T14:13:44Z",
+    "authors" : [
+      {
+        "name" : "Dennis Breutigam"
+      },
+      {
+        "name" : "Rüdiger Reischuk"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "68P27",
+      "E.3; H.1"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.12612v1",
+    "title" : "T2ISafety: Benchmark for Assessing Fairness, Toxicity, and Privacy in\n  Image Generation",
+    "summary" : "Text-to-image (T2I) models have rapidly advanced, enabling the generation of\nhigh-quality images from text prompts across various domains. However, these\nmodels present notable safety concerns, including the risk of generating\nharmful, biased, or private content. Current research on assessing T2I safety\nremains in its early stages. While some efforts have been made to evaluate\nmodels on specific safety dimensions, many critical risks remain unexplored. To\naddress this gap, we introduce T2ISafety, a safety benchmark that evaluates T2I\nmodels across three key domains: toxicity, fairness, and bias. We build a\ndetailed hierarchy of 12 tasks and 44 categories based on these three domains,\nand meticulously collect 70K corresponding prompts. Based on this taxonomy and\nprompt set, we build a large-scale T2I dataset with 68K manually annotated\nimages and train an evaluator capable of detecting critical risks that previous\nwork has failed to identify, including risks that even ultra-large proprietary\nmodels like GPTs cannot correctly detect. We evaluate 12 prominent diffusion\nmodels on T2ISafety and reveal several concerns including persistent issues\nwith racial fairness, a tendency to generate toxic content, and significant\nvariation in privacy protection across the models, even with defense methods\nlike concept erasing. Data and evaluator are released under\nhttps://github.com/adwardlee/t2i_safety.",
+    "updated" : "2025-01-22T03:29:43Z",
+    "published" : "2025-01-22T03:29:43Z",
+    "authors" : [
+      {
+        "name" : "Lijun Li"
+      },
+      {
+        "name" : "Zhelun Shi"
+      },
+      {
+        "name" : "Xuhao Hu"
+      },
+      {
+        "name" : "Bowen Dong"
+      },
+      {
+        "name" : "Yiran Qin"
+      },
+      {
+        "name" : "Xihui Liu"
+      },
+      {
+        "name" : "Lu Sheng"
+      },
+      {
+        "name" : "Jing Shao"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.12537v1",
+    "title" : "Enhancing Privacy in the Early Detection of Sexual Predators Through\n  Federated Learning and Differential Privacy",
+    "summary" : "The increased screen time and isolation caused by the COVID-19 pandemic have\nled to a significant surge in cases of online grooming, which is the use of\nstrategies by predators to lure children into sexual exploitation. Previous\nefforts to detect grooming in industry and academia have involved accessing and\nmonitoring private conversations through centrally-trained models or sending\nprivate conversations to a global server. In this work, we implement a\nprivacy-preserving pipeline for the early detection of sexual predators. We\nleverage federated learning and differential privacy in order to create safer\nonline spaces for children while respecting their privacy. We investigate\nvarious privacy-preserving implementations and discuss their benefits and\nshortcomings. Our extensive evaluation using real-world data proves that\nprivacy and utility can coexist with only a slight reduction in utility.",
+    "updated" : "2025-01-21T23:01:21Z",
+    "published" : "2025-01-21T23:01:21Z",
+    "authors" : [
+      {
+        "name" : "Khaoula Chehbouni"
+      },
+      {
+        "name" : "Martine De Cock"
+      },
+      {
+        "name" : "Gilles Caporossi"
+      },
+      {
+        "name" : "Afaf Taik"
+      },
+      {
+        "name" : "Reihaneh Rabbany"
+      },
+      {
+        "name" : "Golnoosh Farnadi"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.12456v1",
+    "title" : "Deploying Privacy Guardrails for LLMs: A Comparative Analysis of\n  Real-World Applications",
+    "summary" : "The adoption of Large Language Models (LLMs) has revolutionized AI\napplications but poses significant challenges in safeguarding user privacy.\nEnsuring compliance with privacy regulations such as GDPR and CCPA while\naddressing nuanced privacy risks requires robust and scalable frameworks. This\npaper presents a detailed study of OneShield Privacy Guard, a framework\ndesigned to mitigate privacy risks in user inputs and LLM outputs across\nenterprise and open-source settings. We analyze two real-world deployments:(1)\na multilingual privacy-preserving system integrated with Data and Model\nFactory, focusing on enterprise-scale data governance; and (2) PR Insights, an\nopen-source repository emphasizing automated triaging and community-driven\nrefinements. In Deployment 1, OneShield achieved a 0.95 F1 score in detecting\nsensitive entities like dates, names, and phone numbers across 26 languages,\noutperforming state-of-the-art tool such as StarPII and Presidio by up to 12\\%.\nDeployment 2, with an average F1 score of 0.86, reduced manual effort by over\n300 hours in three months, accurately flagging 8.25\\% of 1,256 pull requests\nfor privacy risks with enhanced context sensitivity. These results demonstrate\nOneShield's adaptability and efficacy in diverse environments, offering\nactionable insights for context-aware entity recognition, automated compliance,\nand ethical AI adoption. This work advances privacy-preserving frameworks,\nsupporting user trust and compliance across operational contexts.",
+    "updated" : "2025-01-21T19:04:53Z",
+    "published" : "2025-01-21T19:04:53Z",
+    "authors" : [
+      {
+        "name" : "Shubhi Asthana"
+      },
+      {
+        "name" : "Bing Zhang"
+      },
+      {
+        "name" : "Ruchi Mahindru"
+      },
+      {
+        "name" : "Chad DeLuca"
+      },
+      {
+        "name" : "Anna Lisa Gentile"
+      },
+      {
+        "name" : "Sandeep Gopisetty"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG",
+      "cs.SE"
+    ]
   }
 ]
