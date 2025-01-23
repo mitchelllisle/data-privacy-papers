@@ -2,6 +2,154 @@
 <h2>2025-01</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.12911v1">A Selective Homomorphic Encryption Approach for Faster
+  Privacy-Preserving Federated Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
+  <p><b>Published on:</b> 2025-01-22T14:37:44Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Abdulkadir Korkmaz, Praveen Rao</p>
+    <p><b>Summary:</b> Federated learning is a machine learning method that supports training models
+on decentralized devices or servers, where each holds its local data, removing
+the need for data exchange. This approach is especially useful in healthcare,
+as it enables training on sensitive data without needing to share them. The
+nature of federated learning necessitates robust security precautions due to
+data leakage concerns during communication. To address this issue, we propose a
+new approach that employs selective encryption, homomorphic encryption,
+differential privacy, and bit-wise scrambling to minimize data leakage while
+achieving good execution performance. Our technique , FAS (fast and secure
+federated learning) is used to train deep learning models on medical imaging
+data. We implemented our technique using the Flower framework and compared with
+a state-of-the-art federated learning approach that also uses selective
+homomorphic encryption. Our experiments were run in a cluster of eleven
+physical machines to create a real-world federated learning scenario on
+different datasets. We observed that our approach is up to 90\% faster than
+applying fully homomorphic encryption on the model weights. In addition, we can
+avoid the pretraining step that is required by our competitor and can save up
+to 20\% in terms of total execution time. While our approach was faster, it
+obtained similar security results as the competitor.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.12893v1">Statistical Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">  
+  <p><b>Published on:</b> 2025-01-22T14:13:44Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Dennis Breutigam, Rüdiger Reischuk</p>
+    <p><b>Summary:</b> To analyze the privacy guarantee of personal data in a database that is
+subject to queries it is necessary to model the prior knowledge of a possible
+attacker. Differential privacy considers a worst-case scenario where he knows
+almost everything, which in many applications is unrealistic and requires a
+large utility loss.
+  This paper considers a situation called statistical privacy where an
+adversary knows the distribution by which the database is generated, but no
+exact data of all (or sufficient many) of its entries. We analyze in detail how
+the entropy of the distribution guarantes privacy for a large class of queries
+called property queries. Exact formulas are obtained for the privacy
+parameters. We analyze how they depend on the probability that an entry
+fulfills the property under investigation. These formulas turn out to be
+lengthy, but can be used for tight numerical approximations of the privacy
+parameters. Such estimations are necessary for applying privacy enhancing
+techniques in practice. For this statistical setting we further investigate the
+effect of adding noise or applying subsampling and the privacy utility
+tradeoff. The dependencies on the parameters are illustrated in detail by a
+series of plots. Finally, these results are compared to the differential
+privacy model.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.12612v1">T2ISafety: Benchmark for Assessing Fairness, Toxicity, and Privacy in
+  Image Generation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-01-22T03:29:43Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Lijun Li, Zhelun Shi, Xuhao Hu, Bowen Dong, Yiran Qin, Xihui Liu, Lu Sheng, Jing Shao</p>
+    <p><b>Summary:</b> Text-to-image (T2I) models have rapidly advanced, enabling the generation of
+high-quality images from text prompts across various domains. However, these
+models present notable safety concerns, including the risk of generating
+harmful, biased, or private content. Current research on assessing T2I safety
+remains in its early stages. While some efforts have been made to evaluate
+models on specific safety dimensions, many critical risks remain unexplored. To
+address this gap, we introduce T2ISafety, a safety benchmark that evaluates T2I
+models across three key domains: toxicity, fairness, and bias. We build a
+detailed hierarchy of 12 tasks and 44 categories based on these three domains,
+and meticulously collect 70K corresponding prompts. Based on this taxonomy and
+prompt set, we build a large-scale T2I dataset with 68K manually annotated
+images and train an evaluator capable of detecting critical risks that previous
+work has failed to identify, including risks that even ultra-large proprietary
+models like GPTs cannot correctly detect. We evaluate 12 prominent diffusion
+models on T2ISafety and reveal several concerns including persistent issues
+with racial fairness, a tendency to generate toxic content, and significant
+variation in privacy protection across the models, even with defense methods
+like concept erasing. Data and evaluator are released under
+https://github.com/adwardlee/t2i_safety.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.12537v1">Enhancing Privacy in the Early Detection of Sexual Predators Through
+  Federated Learning and Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2025-01-21T23:01:21Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Khaoula Chehbouni, Martine De Cock, Gilles Caporossi, Afaf Taik, Reihaneh Rabbany, Golnoosh Farnadi</p>
+    <p><b>Summary:</b> The increased screen time and isolation caused by the COVID-19 pandemic have
+led to a significant surge in cases of online grooming, which is the use of
+strategies by predators to lure children into sexual exploitation. Previous
+efforts to detect grooming in industry and academia have involved accessing and
+monitoring private conversations through centrally-trained models or sending
+private conversations to a global server. In this work, we implement a
+privacy-preserving pipeline for the early detection of sexual predators. We
+leverage federated learning and differential privacy in order to create safer
+online spaces for children while respecting their privacy. We investigate
+various privacy-preserving implementations and discuss their benefits and
+shortcomings. Our extensive evaluation using real-world data proves that
+privacy and utility can coexist with only a slight reduction in utility.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.12456v1">Deploying Privacy Guardrails for LLMs: A Comparative Analysis of
+  Real-World Applications</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
+  <p><b>Published on:</b> 2025-01-21T19:04:53Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shubhi Asthana, Bing Zhang, Ruchi Mahindru, Chad DeLuca, Anna Lisa Gentile, Sandeep Gopisetty</p>
+    <p><b>Summary:</b> The adoption of Large Language Models (LLMs) has revolutionized AI
+applications but poses significant challenges in safeguarding user privacy.
+Ensuring compliance with privacy regulations such as GDPR and CCPA while
+addressing nuanced privacy risks requires robust and scalable frameworks. This
+paper presents a detailed study of OneShield Privacy Guard, a framework
+designed to mitigate privacy risks in user inputs and LLM outputs across
+enterprise and open-source settings. We analyze two real-world deployments:(1)
+a multilingual privacy-preserving system integrated with Data and Model
+Factory, focusing on enterprise-scale data governance; and (2) PR Insights, an
+open-source repository emphasizing automated triaging and community-driven
+refinements. In Deployment 1, OneShield achieved a 0.95 F1 score in detecting
+sensitive entities like dates, names, and phone numbers across 26 languages,
+outperforming state-of-the-art tool such as StarPII and Presidio by up to 12\%.
+Deployment 2, with an average F1 score of 0.86, reduced manual effort by over
+300 hours in three months, accurately flagging 8.25\% of 1,256 pull requests
+for privacy risks with enhanced context sensitivity. These results demonstrate
+OneShield's adaptability and efficacy in diverse environments, offering
+actionable insights for context-aware entity recognition, automated compliance,
+and ethical AI adoption. This work advances privacy-preserving frameworks,
+supporting user trust and compliance across operational contexts.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2501.12359v1">Measured Hockey-Stick Divergence and its Applications to Quantum
   Pufferfish Privacy</a></h3>
    <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
@@ -1535,14 +1683,14 @@ privacy, trade secret, and state secret.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.19291v1">RAG with Differential Privacy</a></h3>
+  <h3><a href="http://arxiv.org/abs/2412.19291v2">RAG with Differential Privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2024-12-26T17:34:26Z</p>
   <details>
     <summary>More Details</summary>
     <p><b>Authors:</b> Nicolas Grislain</p>
     <p><b>Summary:</b> Retrieval-Augmented Generation (RAG) has emerged as the dominant technique to
-provide *Large Language Models* (LLM) with fresh and relevant context,
+provide \emph{Large Language Models} (LLM) with fresh and relevant context,
 mitigating the risk of hallucinations and improving the overall quality of
 responses in environments with large and fast moving knowledge bases. However,
 the integration of external documents into the generation process raises
@@ -1550,8 +1698,8 @@ significant privacy concerns. Indeed, when added to a prompt, it is not
 possible to guarantee a response will not inadvertently expose confidential
 data, leading to potential breaches of privacy and ethical dilemmas. This paper
 explores a practical solution to this problem suitable to general knowledge
-extraction from personal data. It shows *differentially private token
-generation* is a viable approach to private RAG.</p>
+extraction from personal data. It shows \emph{differentially private token
+generation} is a viable approach to private RAG.</p>
   </details>
 </div>
 
@@ -2783,160 +2931,6 @@ forgotten should be upheld for every individual, we advocate for a more
 rigorous evaluation of LLM unlearning methods. Our minority-aware evaluation
 framework represents an initial step toward ensuring more equitable assessments
 of LLM unlearning efficacy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.08544v1">Training Data Reconstruction: Privacy due to Uncertainty?</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-12-11T17:00:29Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Christina Runkel, Kanchana Vaishnavi Gandikota, Jonas Geiping, Carola-Bibiane Schönlieb, Michael Moeller</p>
-    <p><b>Summary:</b> Being able to reconstruct training data from the parameters of a neural
-network is a major privacy concern. Previous works have shown that
-reconstructing training data, under certain circumstances, is possible. In this
-work, we analyse such reconstructions empirically and propose a new formulation
-of the reconstruction as a solution to a bilevel optimisation problem. We
-demonstrate that our formulation as well as previous approaches highly depend
-on the initialisation of the training images $x$ to reconstruct. In particular,
-we show that a random initialisation of $x$ can lead to reconstructions that
-resemble valid training samples while not being part of the actual training
-dataset. Thus, our experiments on affine and one-hidden layer networks suggest
-that when reconstructing natural images, yet an adversary cannot identify
-whether reconstructed images have indeed been part of the set of training
-samples.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.08534v1">Protecting Confidentiality, Privacy and Integrity in Collaborative
-  Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-12-11T16:48:18Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Dong Chen, Alice Dethise, Istemi Ekin Akkus, Ivica Rimac, Klaus Satzke, Antti Koskela, Marco Canini, Wei Wang, Ruichuan Chen</p>
-    <p><b>Summary:</b> A collaboration between dataset owners and model owners is needed to
-facilitate effective machine learning (ML) training. During this collaboration,
-however, dataset owners and model owners want to protect the confidentiality of
-their respective assets (i.e., datasets, models and training code), with the
-dataset owners also caring about the privacy of individual users whose data is
-in their datasets. Existing solutions either provide limited confidentiality
-for models and training code, or suffer from privacy issues due to collusion.
-  We present Citadel++, a scalable collaborative ML training system designed to
-simultaneously protect the confidentiality of datasets, models and training
-code, as well as the privacy of individual users. Citadel++ enhances
-differential privacy techniques to safeguard the privacy of individual user
-data while maintaining model utility. By employing Virtual Machine-level
-Trusted Execution Environments (TEEs) and improved integrity protection
-techniques through various OS-level mechanisms, Citadel++ effectively preserves
-the confidentiality of datasets, models and training code, and enforces our
-privacy mechanisms even when the models and training code have been maliciously
-designed. Our experiments show that Citadel++ provides privacy, model utility
-and performance while adhering to confidentiality and privacy requirements of
-dataset owners and model owners, outperforming the state-of-the-art
-privacy-preserving training systems by up to 543x on CPU and 113x on GPU TEEs.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.08276v1">Local Features Meet Stochastic Anonymization: Revolutionizing
-  Privacy-Preserving Face Recognition for Black-Box Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2024-12-11T10:49:15Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yuanwei Liu, Chengyu Jia, Ruqi Xiao, Xuemai Jia, Hui Wei, Kui Jiang, Zheng Wang</p>
-    <p><b>Summary:</b> The task of privacy-preserving face recognition (PPFR) currently faces two
-major unsolved challenges: (1) existing methods are typically effective only on
-specific face recognition models and struggle to generalize to black-box face
-recognition models; (2) current methods employ data-driven reversible
-representation encoding for privacy protection, making them susceptible to
-adversarial learning and reconstruction of the original image. We observe that
-face recognition models primarily rely on local features ({e.g., face contour,
-skin texture, and so on) for identification. Thus, by disrupting global
-features while enhancing local features, we achieve effective recognition even
-in black-box environments. Additionally, to prevent adversarial models from
-learning and reversing the anonymization process, we adopt an adversarial
-learning-based approach with irreversible stochastic injection to ensure the
-stochastic nature of the anonymization. Experimental results demonstrate that
-our method achieves an average recognition accuracy of 94.21\% on black-box
-models, outperforming existing methods in both privacy protection and
-anti-reconstruction capabilities.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.07687v2">Privacy-Preserving Customer Support: A Framework for Secure and Scalable
-  Interactions</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">   
-  <p><b>Published on:</b> 2024-12-10T17:20:47Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Anant Prakash Awasthi, Girdhar Gopal Agarwal, Chandraketu Singh, Rakshit Varma, Sanchit Sharma</p>
-    <p><b>Summary:</b> The growing reliance on artificial intelligence (AI) in customer support has
-significantly improved operational efficiency and user experience. However,
-traditional machine learning (ML) approaches, which require extensive local
-training on sensitive datasets, pose substantial privacy risks and compliance
-challenges with regulations like the General Data Protection Regulation (GDPR)
-and California Consumer Privacy Act (CCPA). Existing privacy-preserving
-techniques, such as anonymization, differential privacy, and federated
-learning, address some concerns but face limitations in utility, scalability,
-and complexity. This paper introduces the Privacy-Preserving Zero-Shot Learning
-(PP-ZSL) framework, a novel approach leveraging large language models (LLMs) in
-a zero-shot learning mode. Unlike conventional ML methods, PP-ZSL eliminates
-the need for local training on sensitive data by utilizing pre-trained LLMs to
-generate responses directly. The framework incorporates real-time data
-anonymization to redact or mask sensitive information, retrieval-augmented
-generation (RAG) for domain-specific query resolution, and robust
-post-processing to ensure compliance with regulatory standards. This
-combination reduces privacy risks, simplifies compliance, and enhances
-scalability and operational efficiency. Empirical analysis demonstrates that
-the PP-ZSL framework provides accurate, privacy-compliant responses while
-significantly lowering the costs and complexities of deploying AI-driven
-customer support systems. The study highlights potential applications across
-industries, including financial services, healthcare, e-commerce, legal
-support, telecommunications, and government services. By addressing the dual
-challenges of privacy and performance, this framework establishes a foundation
-for secure, efficient, and regulatory-compliant AI applications in customer
-interactions.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.06960v1">Simplications: Why and how we should rethink data of/by/for the people
-  in smart homes and its privacy implications</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2024-12-09T20:08:26Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Albrecht Kurze, Alexa Becker</p>
-    <p><b>Summary:</b> More and more smart devices enter our homes. Often these devices come with a
-variety of sensors, mostly simple sensors, e.g., for light, temperature,
-humidity or motion. And they all collect data. While it is data of the home
-environment it is also data of domestic life in the home. Thus it is data of
-the people and by the people in the home capturing their presence, arrival and
-departure, typical domestic activities, bad habits, health status etc. Based on
-previous as well as ongoing research we know that people are actually able to
-make sense of simple sensor data and that they will make use of it for their
-own purposes. Simple sensors, when critically reflected, are often only
-"simple" in a technical sense. The unreflected design and use of these sensors
-can easily lead to unintended implications, i.e. for privacy. However, it may
-not even need a Big Brother or data experts or AI to make the data of these
-sensors sensitive, e.g., if used for lateral surveillance within families.
-Often unintended but wicked implications emerge despite good intentions, such
-as improving efficiency or energy saving through collecting sensor data. Thus
-sensor data from the home is actually data of/by/for the people in the home.
-First, we explain how this might have relevance across scales of community of
-people - not only for the domain of the home but also in broader meaning.
-Second, we relate our previous as well as ongoing research in the domain of
-smart homes to this topic.</p>
   </details>
 </div>
 
