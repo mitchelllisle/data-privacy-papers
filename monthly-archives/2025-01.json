@@ -1421,5 +1421,124 @@
       "cs.LG",
       "cs.SE"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.13916v1",
+    "title" : "PBM-VFL: Vertical Federated Learning with Feature and Sample Privacy",
+    "summary" : "We present Poisson Binomial Mechanism Vertical Federated Learning (PBM-VFL),\na communication-efficient Vertical Federated Learning algorithm with\nDifferential Privacy guarantees. PBM-VFL combines Secure Multi-Party\nComputation with the recently introduced Poisson Binomial Mechanism to protect\nparties' private datasets during model training. We define the novel concept of\nfeature privacy and analyze end-to-end feature and sample privacy of our\nalgorithm. We compare sample privacy loss in VFL with privacy loss in HFL. We\nalso provide the first theoretical characterization of the relationship between\nprivacy budget, convergence error, and communication cost in\ndifferentially-private VFL. Finally, we empirically show that our model\nperforms well with high levels of privacy.",
+    "updated" : "2025-01-23T18:53:43Z",
+    "published" : "2025-01-23T18:53:43Z",
+    "authors" : [
+      {
+        "name" : "Linh Tran"
+      },
+      {
+        "name" : "Timothy Castiglia"
+      },
+      {
+        "name" : "Stacy Patterson"
+      },
+      {
+        "name" : "Ana Milanova"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.13904v1",
+    "title" : "Privacy-Preserving Personalized Federated Prompt Learning for Multimodal\n  Large Language Models",
+    "summary" : "Multimodal Large Language Models (LLMs) are pivotal in revolutionizing\ncustomer support and operations by integrating multiple modalities such as\ntext, images, and audio. Federated Prompt Learning (FPL) is a recently proposed\napproach that combines pre-trained multimodal LLMs such as vision-language\nmodels with federated learning to create personalized, privacy-preserving AI\nsystems. However, balancing the competing goals of personalization,\ngeneralization, and privacy remains a significant challenge.\nOver-personalization can lead to overfitting, reducing generalizability, while\nstringent privacy measures, such as differential privacy, can hinder both\npersonalization and generalization. In this paper, we propose a Differentially\nPrivate Federated Prompt Learning (DP-FPL) approach to tackle this challenge by\nleveraging a low-rank adaptation scheme to capture generalization while\nmaintaining a residual term that preserves expressiveness for personalization.\nTo ensure privacy, we introduce a novel method where we apply local\ndifferential privacy to the two low-rank components of the local prompt, and\nglobal differential privacy to the global prompt. Our approach mitigates the\nimpact of privacy noise on the model performance while balancing the tradeoff\nbetween personalization and generalization. Extensive experiments demonstrate\nthe effectiveness of our approach over other benchmarks.",
+    "updated" : "2025-01-23T18:34:09Z",
+    "published" : "2025-01-23T18:34:09Z",
+    "authors" : [
+      {
+        "name" : "Linh Tran"
+      },
+      {
+        "name" : "Wei Sun"
+      },
+      {
+        "name" : "Stacy Patterson"
+      },
+      {
+        "name" : "Ana Milanova"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.13608v1",
+    "title" : "AirTOWN: A Privacy-Preserving Mobile App for Real-time Pollution-Aware\n  POI Suggestion",
+    "summary" : "This demo paper presents \\airtown, a privacy-preserving mobile application\nthat provides real-time, pollution-aware recommendations for points of interest\n(POIs) in urban environments. By combining real-time Air Quality Index (AQI)\ndata with user preferences, the proposed system aims to help users make\nhealth-conscious decisions about the locations they visit. The application\nutilizes collaborative filtering for personalized suggestions, and federated\nlearning for privacy protection, and integrates AQI data from sensor networks\nin cities such as Bari, Italy, and Cork, UK. In areas with sparse sensor\ncoverage, interpolation techniques approximate AQI values, ensuring broad\napplicability. This system offers a poromsing, health-oriented POI\nrecommendation solution that adapts dynamically to current urban air quality\nconditions while safeguarding user privacy.",
+    "updated" : "2025-01-23T12:28:22Z",
+    "published" : "2025-01-23T12:28:22Z",
+    "authors" : [
+      {
+        "name" : "Giuseppe Fasano"
+      },
+      {
+        "name" : "Yashar Deldjoo"
+      },
+      {
+        "name" : "Tommaso Di Noia"
+      }
+    ],
+    "categories" : [
+      "cs.IR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.13321v1",
+    "title" : "Investigation of the Privacy Concerns in AI Systems for Young Digital\n  Citizens: A Comparative Stakeholder Analysis",
+    "summary" : "The integration of Artificial Intelligence (AI) systems into technologies\nused by young digital citizens raises significant privacy concerns. This study\ninvestigates these concerns through a comparative analysis of stakeholder\nperspectives. A total of 252 participants were surveyed, with the analysis\nfocusing on 110 valid responses from parents/educators and 100 from AI\nprofessionals after data cleaning. Quantitative methods, including descriptive\nstatistics and Partial Least Squares Structural Equation Modeling, examined\nfive validated constructs: Data Ownership and Control, Parental Data Sharing,\nPerceived Risks and Benefits, Transparency and Trust, and Education and\nAwareness. Results showed Education and Awareness significantly influenced data\nownership and risk assessment, while Data Ownership and Control strongly\nimpacted Transparency and Trust. Transparency and Trust, along with Perceived\nRisks and Benefits, showed minimal influence on Parental Data Sharing,\nsuggesting other factors may play a larger role. The study underscores the need\nfor user-centric privacy controls, tailored transparency strategies, and\ntargeted educational initiatives. Incorporating diverse stakeholder\nperspectives offers actionable insights into ethical AI design and governance,\nbalancing innovation with robust privacy protections to foster trust in a\ndigital age.",
+    "updated" : "2025-01-23T02:07:45Z",
+    "published" : "2025-01-23T02:07:45Z",
+    "authors" : [
+      {
+        "name" : "Molly Campbell"
+      },
+      {
+        "name" : "Ankur Barthwal"
+      },
+      {
+        "name" : "Sandhya Joshi"
+      },
+      {
+        "name" : "Austin Shouli"
+      },
+      {
+        "name" : "Ajay Kumar Shrestha"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.13278v1",
+    "title" : "On Subset Retrieval and Group Testing Problems with Differential Privacy\n  Constraints",
+    "summary" : "This paper focuses on the design and analysis of privacy-preserving\ntechniques for group testing and infection status retrieval. Our work is\nmotivated by the need to provide accurate information on the status of disease\nspread among a group of individuals while protecting the privacy of the\ninfection status of any single individual involved. The paper is motivated by\npractical scenarios, such as controlling the spread of infectious diseases,\nwhere individuals might be reluctant to participate in testing if their\noutcomes are not kept confidential.\n  The paper makes the following contributions. First, we present a differential\nprivacy framework for the subset retrieval problem, which focuses on sharing\nthe infection status of individuals with administrators and decision-makers. We\ncharacterize the trade-off between the accuracy of subset retrieval and the\ndegree of privacy guaranteed to the individuals. In particular, we establish\ntight lower and upper bounds on the achievable level of accuracy subject to the\ndifferential privacy constraints. We then formulate the differential privacy\nframework for the noisy group testing problem in which noise is added either\nbefore or after the pooling process. We establish a reduction between the\nprivate subset retrieval and noisy group testing problems and show that the\nconverse and achievability schemes for subset retrieval carry over to\ndifferentially private group testing.",
+    "updated" : "2025-01-23T00:05:16Z",
+    "published" : "2025-01-23T00:05:16Z",
+    "authors" : [
+      {
+        "name" : "Mira Gonen"
+      },
+      {
+        "name" : "Michael Langberg"
+      },
+      {
+        "name" : "Alex Sprintson"
+      }
+    ],
+    "categories" : [
+      "cs.IT",
+      "math.IT"
+    ]
   }
 ]
