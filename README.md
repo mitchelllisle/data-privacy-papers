@@ -2,6 +2,146 @@
 <h2>2025-01</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.13916v1">PBM-VFL: Vertical Federated Learning with Feature and Sample Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-01-23T18:53:43Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Linh Tran, Timothy Castiglia, Stacy Patterson, Ana Milanova</p>
+    <p><b>Summary:</b> We present Poisson Binomial Mechanism Vertical Federated Learning (PBM-VFL),
+a communication-efficient Vertical Federated Learning algorithm with
+Differential Privacy guarantees. PBM-VFL combines Secure Multi-Party
+Computation with the recently introduced Poisson Binomial Mechanism to protect
+parties' private datasets during model training. We define the novel concept of
+feature privacy and analyze end-to-end feature and sample privacy of our
+algorithm. We compare sample privacy loss in VFL with privacy loss in HFL. We
+also provide the first theoretical characterization of the relationship between
+privacy budget, convergence error, and communication cost in
+differentially-private VFL. Finally, we empirically show that our model
+performs well with high levels of privacy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.13904v1">Privacy-Preserving Personalized Federated Prompt Learning for Multimodal
+  Large Language Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-01-23T18:34:09Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Linh Tran, Wei Sun, Stacy Patterson, Ana Milanova</p>
+    <p><b>Summary:</b> Multimodal Large Language Models (LLMs) are pivotal in revolutionizing
+customer support and operations by integrating multiple modalities such as
+text, images, and audio. Federated Prompt Learning (FPL) is a recently proposed
+approach that combines pre-trained multimodal LLMs such as vision-language
+models with federated learning to create personalized, privacy-preserving AI
+systems. However, balancing the competing goals of personalization,
+generalization, and privacy remains a significant challenge.
+Over-personalization can lead to overfitting, reducing generalizability, while
+stringent privacy measures, such as differential privacy, can hinder both
+personalization and generalization. In this paper, we propose a Differentially
+Private Federated Prompt Learning (DP-FPL) approach to tackle this challenge by
+leveraging a low-rank adaptation scheme to capture generalization while
+maintaining a residual term that preserves expressiveness for personalization.
+To ensure privacy, we introduce a novel method where we apply local
+differential privacy to the two low-rank components of the local prompt, and
+global differential privacy to the global prompt. Our approach mitigates the
+impact of privacy noise on the model performance while balancing the tradeoff
+between personalization and generalization. Extensive experiments demonstrate
+the effectiveness of our approach over other benchmarks.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.13608v1">AirTOWN: A Privacy-Preserving Mobile App for Real-time Pollution-Aware
+  POI Suggestion</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB">
+  <p><b>Published on:</b> 2025-01-23T12:28:22Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Giuseppe Fasano, Yashar Deldjoo, Tommaso Di Noia</p>
+    <p><b>Summary:</b> This demo paper presents \airtown, a privacy-preserving mobile application
+that provides real-time, pollution-aware recommendations for points of interest
+(POIs) in urban environments. By combining real-time Air Quality Index (AQI)
+data with user preferences, the proposed system aims to help users make
+health-conscious decisions about the locations they visit. The application
+utilizes collaborative filtering for personalized suggestions, and federated
+learning for privacy protection, and integrates AQI data from sensor networks
+in cities such as Bari, Italy, and Cork, UK. In areas with sparse sensor
+coverage, interpolation techniques approximate AQI values, ensuring broad
+applicability. This system offers a poromsing, health-oriented POI
+recommendation solution that adapts dynamically to current urban air quality
+conditions while safeguarding user privacy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.13321v1">Investigation of the Privacy Concerns in AI Systems for Young Digital
+  Citizens: A Comparative Stakeholder Analysis</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-01-23T02:07:45Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Molly Campbell, Ankur Barthwal, Sandhya Joshi, Austin Shouli, Ajay Kumar Shrestha</p>
+    <p><b>Summary:</b> The integration of Artificial Intelligence (AI) systems into technologies
+used by young digital citizens raises significant privacy concerns. This study
+investigates these concerns through a comparative analysis of stakeholder
+perspectives. A total of 252 participants were surveyed, with the analysis
+focusing on 110 valid responses from parents/educators and 100 from AI
+professionals after data cleaning. Quantitative methods, including descriptive
+statistics and Partial Least Squares Structural Equation Modeling, examined
+five validated constructs: Data Ownership and Control, Parental Data Sharing,
+Perceived Risks and Benefits, Transparency and Trust, and Education and
+Awareness. Results showed Education and Awareness significantly influenced data
+ownership and risk assessment, while Data Ownership and Control strongly
+impacted Transparency and Trust. Transparency and Trust, along with Perceived
+Risks and Benefits, showed minimal influence on Parental Data Sharing,
+suggesting other factors may play a larger role. The study underscores the need
+for user-centric privacy controls, tailored transparency strategies, and
+targeted educational initiatives. Incorporating diverse stakeholder
+perspectives offers actionable insights into ethical AI design and governance,
+balancing innovation with robust privacy protections to foster trust in a
+digital age.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.13278v1">On Subset Retrieval and Group Testing Problems with Differential Privacy
+  Constraints</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
+  <p><b>Published on:</b> 2025-01-23T00:05:16Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mira Gonen, Michael Langberg, Alex Sprintson</p>
+    <p><b>Summary:</b> This paper focuses on the design and analysis of privacy-preserving
+techniques for group testing and infection status retrieval. Our work is
+motivated by the need to provide accurate information on the status of disease
+spread among a group of individuals while protecting the privacy of the
+infection status of any single individual involved. The paper is motivated by
+practical scenarios, such as controlling the spread of infectious diseases,
+where individuals might be reluctant to participate in testing if their
+outcomes are not kept confidential.
+  The paper makes the following contributions. First, we present a differential
+privacy framework for the subset retrieval problem, which focuses on sharing
+the infection status of individuals with administrators and decision-makers. We
+characterize the trade-off between the accuracy of subset retrieval and the
+degree of privacy guaranteed to the individuals. In particular, we establish
+tight lower and upper bounds on the achievable level of accuracy subject to the
+differential privacy constraints. We then formulate the differential privacy
+framework for the noisy group testing problem in which noise is added either
+before or after the pooling process. We establish a reduction between the
+private subset retrieval and noisy group testing problems and show that the
+converse and achievability schemes for subset retrieval carry over to
+differentially private group testing.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2501.12911v1">A Selective Homomorphic Encryption Approach for Faster
   Privacy-Preserving Federated Learning</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
@@ -2771,166 +2911,6 @@ constraints. Notably, our approach is particularly effective in reducing
 privacy loss with large query sensitivity relative to the true answer, offering
 a more practical and flexible approach to designing differentially private
 mechanisms that meet specific utility constraints.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.09812v1">ScaleOT: Privacy-utility-scalable Offsite-tuning with Dynamic
-  LayerReplace and Selective Rank Compression</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-12-13T03:00:48Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Kai Yao, Zhaorui Tan, Tiandi Ye, Lichun Li, Yuan Zhao, Wenyan Liu, Wei Wang, Jianke Zhu</p>
-    <p><b>Summary:</b> Offsite-tuning is a privacy-preserving method for tuning large language
-models (LLMs) by sharing a lossy compressed emulator from the LLM owners with
-data owners for downstream task tuning. This approach protects the privacy of
-both the model and data owners. However, current offsite tuning methods often
-suffer from adaptation degradation, high computational costs, and limited
-protection strength due to uniformly dropping LLM layers or relying on
-expensive knowledge distillation. To address these issues, we propose ScaleOT,
-a novel privacy-utility-scalable offsite-tuning framework that effectively
-balances privacy and utility. ScaleOT introduces a novel layerwise lossy
-compression algorithm that uses reinforcement learning to obtain the importance
-of each layer. It employs lightweight networks, termed harmonizers, to replace
-the raw LLM layers. By combining important original LLM layers and harmonizers
-in different ratios, ScaleOT generates emulators tailored for optimal
-performance with various model scales for enhanced privacy protection.
-Additionally, we present a rank reduction method to further compress the
-original LLM layers, significantly enhancing privacy with negligible impact on
-utility. Comprehensive experiments show that ScaleOT can achieve nearly
-lossless offsite tuning performance compared with full fine-tuning while
-obtaining better model privacy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.09256v1">Differential Privacy Releasing of Hierarchical Origin/Destination Data
-  with a TopDown Approach</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B">
-  <p><b>Published on:</b> 2024-12-12T13:14:15Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Fabrizio Boninsegna, Francesco Silvestri</p>
-    <p><b>Summary:</b> This paper presents a novel method to generate differentially private tabular
-datasets for hierarchical data, with a specific focus on origin-destination
-(O/D) trips. The approach builds upon the TopDown algorithm, a constraint-based
-mechanism designed to incorporate invariant queries into tabular data,
-developed by the US Census. O/D hierarchical data refers to datasets
-representing trips between geographical areas organized in a hierarchical
-structure (e.g., region $\rightarrow$ province $\rightarrow$ city). The
-developed method is crafted to improve accuracy on queries spanning wider
-geographical areas that can be obtained by aggregation. Maintaining high
-accuracy for aggregated geographical queries is a crucial attribute of the
-differentially private dataset, particularly for practitioners. Furthermore,
-the approach is designed to minimize false positives detection and to replicate
-the sparsity of the sensitive data. The key technical contributions of this
-paper include a novel TopDown algorithm that employs constrained optimization
-with Chebyshev distance minimization, with theoretical guarantees based on the
-maximum absolute error. Additionally, we propose a new integer optimization
-algorithm that significantly reduces the incidence of false positives. The
-effectiveness of the proposed approach is validated using both real-world and
-synthetic O/D datasets, demonstrating its ability to generate private data with
-high utility and a reduced number of false positives. We emphasize that the
-proposed algorithm is applicable to any tabular data with a hierarchical
-structure.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.09222v1">Building a Privacy Web with SPIDEr -- Secure Pipeline for Information
-  De-Identification with End-to-End Encryption</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
-  <p><b>Published on:</b> 2024-12-12T12:24:12Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Novoneel Chakraborty, Anshoo Tandon, Kailash Reddy, Kaushal Kirpekar, Bryan Paul Robert, Hari Dilip Kumar, Abhilash Venkatesh, Abhay Sharma</p>
-    <p><b>Summary:</b> Data de-identification makes it possible to glean insights from data while
-preserving user privacy. The use of Trusted Execution Environments (TEEs) allow
-for the execution of de-identification applications on the cloud without the
-need for a user to trust the third-party application provider. In this paper,
-we present \textit{SPIDEr - Secure Pipeline for Information De-Identification
-with End-to-End Encryption}, our implementation of an end-to-end encrypted data
-de-identification pipeline. SPIDEr supports classical anonymisation techniques
-such as suppression, pseudonymisation, generalisation, and aggregation, as well
-as techniques that offer a formal privacy guarantee such as k-anonymisation and
-differential privacy. To enable scalability and improve performance on
-constrained TEE hardware, we enable batch processing of data for differential
-privacy computations. We present our design of the control flows for end-to-end
-secure execution of de-identification operations within a TEE. As part of the
-control flow for running SPIDEr within the TEE, we perform attestation, a
-process that verifies that the software binaries were properly instantiated on
-a known, trusted platform.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.09195v1">On the Generation and Removal of Speaker Adversarial Perturbation for
-  Voice-Privacy Protection</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Sound-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
-  <p><b>Published on:</b> 2024-12-12T11:46:07Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Chenyang Guo, Liping Chen, Zhuhai Li, Kong Aik Lee, Zhen-Hua Ling, Wu Guo</p>
-    <p><b>Summary:</b> Neural networks are commonly known to be vulnerable to adversarial attacks
-mounted through subtle perturbation on the input data. Recent development in
-voice-privacy protection has shown the positive use cases of the same technique
-to conceal speaker's voice attribute with additive perturbation signal
-generated by an adversarial network. This paper examines the reversibility
-property where an entity generating the adversarial perturbations is authorized
-to remove them and restore original speech (e.g., the speaker him/herself). A
-similar technique could also be used by an investigator to deanonymize a
-voice-protected speech to restore criminals' identities in security and
-forensic analysis. In this setting, the perturbation generative module is
-assumed to be known in the removal process. To this end, a joint training of
-perturbation generation and removal modules is proposed. Experimental results
-on the LibriSpeech dataset demonstrated that the subtle perturbations added to
-the original speech can be predicted from the anonymized speech while achieving
-the goal of privacy protection. By removing these perturbations from the
-anonymized sample, the original speech can be restored. Audio samples can be
-found in \url{https://voiceprivacy.github.io/Perturbation-Generation-Removal/}.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.08559v2">Underestimated Privacy Risks for Minority Populations in Large Language
-  Model Unlearning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-12-11T17:22:07Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Rongzhe Wei, Mufei Li, Mohsen Ghassemi, Eleonora Kreačić, Yifan Li, Xiang Yue, Bo Li, Vamsi K. Potluru, Pan Li, Eli Chien</p>
-    <p><b>Summary:</b> Large Language Models are trained on extensive datasets that often contain
-sensitive, human-generated information, raising significant concerns about
-privacy breaches. While certified unlearning approaches offer strong privacy
-guarantees, they rely on restrictive model assumptions that are not applicable
-to LLMs. As a result, various unlearning heuristics have been proposed, with
-the associated privacy risks assessed only empirically. The standard evaluation
-pipelines typically randomly select data for removal from the training set,
-apply unlearning techniques, and use membership inference attacks to compare
-the unlearned models against models retrained without the to-be-unlearned data.
-However, since every data point is subject to the right to be forgotten,
-unlearning should be considered in the worst-case scenario from the privacy
-perspective. Prior work shows that data outliers may exhibit higher
-memorization effects. Intuitively, they are harder to be unlearn and thus the
-privacy risk of unlearning them is underestimated in the current evaluation. In
-this paper, we leverage minority data to identify such a critical flaw in
-previously widely adopted evaluations. We substantiate this claim through
-carefully designed experiments, including unlearning canaries related to
-minority groups, inspired by privacy auditing literature. Using personally
-identifiable information as a representative minority identifier, we
-demonstrate that minority groups experience at least 20% more privacy leakage
-in most cases across six unlearning approaches, three MIAs, three benchmark
-datasets, and two LLMs of different scales. Given that the right to be
-forgotten should be upheld for every individual, we advocate for a more
-rigorous evaluation of LLM unlearning methods. Our minority-aware evaluation
-framework represents an initial step toward ensuring more equitable assessments
-of LLM unlearning efficacy.</p>
   </details>
 </div>
 
