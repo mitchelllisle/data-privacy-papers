@@ -1540,5 +1540,146 @@
       "cs.IT",
       "math.IT"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.14453v1",
+    "title" : "Optimal Strategies for Federated Learning Maintaining Client Privacy",
+    "summary" : "Federated Learning (FL) emerged as a learning method to enable the server to\ntrain models over data distributed among various clients. These clients are\nprotective about their data being leaked to the server, any other client, or an\nexternal adversary, and hence, locally train the model and share it with the\nserver rather than sharing the data. The introduction of sophisticated\ninferencing attacks enabled the leakage of information about data through\naccess to model parameters. To tackle this challenge, privacy-preserving\nfederated learning aims to achieve differential privacy through learning\nalgorithms like DP-SGD. However, such methods involve adding noise to the\nmodel, data, or gradients, reducing the model's performance.\n  This work provides a theoretical analysis of the tradeoff between model\nperformance and communication complexity of the FL system. We formally prove\nthat training for one local epoch per global round of training gives optimal\nperformance while preserving the same privacy budget. We also investigate the\nchange of utility (tied to privacy) of FL models with a change in the number of\nclients and observe that when clients are training using DP-SGD and argue that\nfor the same privacy budget, the utility improved with increased clients. We\nvalidate our findings through experiments on real-world datasets. The results\nfrom this paper aim to improve the performance of privacy-preserving federated\nlearning systems.",
+    "updated" : "2025-01-24T12:34:38Z",
+    "published" : "2025-01-24T12:34:38Z",
+    "authors" : [
+      {
+        "name" : "Uday Bhaskar"
+      },
+      {
+        "name" : "Varul Srivastava"
+      },
+      {
+        "name" : "Avyukta Manjunatha Vummintala"
+      },
+      {
+        "name" : "Naresh Manwani"
+      },
+      {
+        "name" : "Sujit Gujar"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.14313v1",
+    "title" : "Between Close Enough to Reveal and Far Enough to Protect: a New Privacy\n  Region for Correlated Data",
+    "summary" : "When users make personal privacy choices, correlation between their data can\ncause inadvertent leakage about users who do not want to share their data by\nother users sharing their data. As a solution, we consider local redaction\nmechanisms. As prior works proposed data-independent privatization mechanisms,\nwe study the family of data-independent local redaction mechanisms and\nupper-bound their utility when data correlation is modeled by a stationary\nMarkov process. In contrast, we derive a novel data-dependent mechanism, which\nimproves the utility by leveraging a data-dependent leakage measure.",
+    "updated" : "2025-01-24T08:14:54Z",
+    "published" : "2025-01-24T08:14:54Z",
+    "authors" : [
+      {
+        "name" : "Luis Maßny"
+      },
+      {
+        "name" : "Rawad Bitar"
+      },
+      {
+        "name" : "Fangwei Ye"
+      },
+      {
+        "name" : "Salim El Rouayheb"
+      }
+    ],
+    "categories" : [
+      "cs.IT",
+      "math.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.14309v1",
+    "title" : "BrainGuard: Privacy-Preserving Multisubject Image Reconstructions from\n  Brain Activities",
+    "summary" : "Reconstructing perceived images from human brain activity forms a crucial\nlink between human and machine learning through Brain-Computer Interfaces.\nEarly methods primarily focused on training separate models for each individual\nto account for individual variability in brain activity, overlooking valuable\ncross-subject commonalities. Recent advancements have explored multisubject\nmethods, but these approaches face significant challenges, particularly in data\nprivacy and effectively managing individual variability. To overcome these\nchallenges, we introduce BrainGuard, a privacy-preserving collaborative\ntraining framework designed to enhance image reconstruction from multisubject\nfMRI data while safeguarding individual privacy. BrainGuard employs a\ncollaborative global-local architecture where individual models are trained on\neach subject's local data and operate in conjunction with a shared global model\nthat captures and leverages cross-subject patterns. This architecture\neliminates the need to aggregate fMRI data across subjects, thereby ensuring\nprivacy preservation. To tackle the complexity of fMRI data, BrainGuard\nintegrates a hybrid synchronization strategy, enabling individual models to\ndynamically incorporate parameters from the global model. By establishing a\nsecure and collaborative training environment, BrainGuard not only protects\nsensitive brain data but also improves the image reconstructions accuracy.\nExtensive experiments demonstrate that BrainGuard sets a new benchmark in both\nhigh-level and low-level metrics, advancing the state-of-the-art in brain\ndecoding through its innovative design.",
+    "updated" : "2025-01-24T08:10:47Z",
+    "published" : "2025-01-24T08:10:47Z",
+    "authors" : [
+      {
+        "name" : "Zhibo Tian"
+      },
+      {
+        "name" : "Ruijie Quan"
+      },
+      {
+        "name" : "Fan Ma"
+      },
+      {
+        "name" : "Kun Zhan"
+      },
+      {
+        "name" : "Yi Yang"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.14184v1",
+    "title" : "Tight Sample Complexity Bounds for Parameter Estimation Under Quantum\n  Differential Privacy for Qubits",
+    "summary" : "This short note provides tight upper and lower bounds for minimal number of\nsamples (copies of quantum states) required to attain a prescribed accuracy\n(measured by error variance) for scalar parameters using unbiased estimators\nunder quantum local differential privacy for qubits. In the small privacy\nbudget $\\epsilon$ regime, i.e., $\\epsilon\\ll 1$, the sample complexity scales\nas $\\Theta(\\epsilon^{-2})$. This bound matches that of classical parameter\nestimation under differential privacy. The lower bound loosens (converges to\nzero) in the large privacy budget regime, i.e., $\\epsilon\\gg 1$, but that case\nis not particularly interesting as tight bounds for parameter estimation in the\nnoiseless case are widely known. That being said, extensions to systems with\nhigher dimensions and tightening the bounds for the large privacy budget regime\nare interesting avenues for future research.",
+    "updated" : "2025-01-24T02:23:51Z",
+    "published" : "2025-01-24T02:23:51Z",
+    "authors" : [
+      {
+        "name" : "Farhad Farokhi"
+      }
+    ],
+    "categories" : [
+      "quant-ph",
+      "cs.CR",
+      "cs.IT",
+      "math.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.14098v1",
+    "title" : "Exploring User Perspectives on Data Collection, Data Sharing\n  Preferences, and Privacy Concerns with Remote Healthcare Technology",
+    "summary" : "Remote healthcare technology can help tackle societal issues by improving\naccess to quality healthcare services and enhancing diagnoses through in-place\nmonitoring. These services can be implemented through a combination of mobile\ndevices, applications, wearable sensors, and other smart technology. It is\nparamount to handle sensitive data that is collected in ways that meet users'\nprivacy expectations. We surveyed 384 people in Canada aged 20 to 93 years old\nto explore participants' comfort with data collection, sharing preferences, and\npotential privacy concerns related to remote healthcare technology. We explore\nthese topics within the context of various healthcare scenarios including\nhealth emergencies and managing chronic health conditions.",
+    "updated" : "2025-01-23T21:09:03Z",
+    "published" : "2025-01-23T21:09:03Z",
+    "authors" : [
+      {
+        "name" : "Daniela Napoli"
+      },
+      {
+        "name" : "Heather Molyneaux"
+      },
+      {
+        "name" : "Helene Fournier"
+      },
+      {
+        "name" : "Sonia Chiasson"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.11740v2",
+    "title" : "PIR Over Wireless Channels: Achieving Privacy With Public Responses",
+    "summary" : "In this paper, we address the problem of Private Information Retrieval (PIR)\nover a public Additive White Gaussian Noise (AWGN) channel. In such a setup,\nthe server's responses are visible to other servers. Thus, a curious server can\nlisten to the other responses, compromising the user's privacy. Indeed,\nprevious works on PIR over a shared medium assumed the servers cannot\ninstantaneously listen to other responses. To address this gap, we present a\nnovel randomized lattice -- PIR coding scheme that jointly codes for privacy,\nchannel noise, and curious servers which may listen to other responses. We\ndemonstrate that a positive PIR rate is achievable even in cases where the\nchannel to the curious server is stronger than the channel to the user.",
+    "updated" : "2025-01-24T10:16:16Z",
+    "published" : "2025-01-20T20:56:56Z",
+    "authors" : [
+      {
+        "name" : "Or Elimelech"
+      },
+      {
+        "name" : "Asaf Cohen"
+      }
+    ],
+    "categories" : [
+      "cs.IT",
+      "math.IT"
+    ]
   }
 ]
