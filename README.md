@@ -2,6 +2,137 @@
 <h2>2025-01</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.14453v1">Optimal Strategies for Federated Learning Maintaining Client Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-01-24T12:34:38Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Uday Bhaskar, Varul Srivastava, Avyukta Manjunatha Vummintala, Naresh Manwani, Sujit Gujar</p>
+    <p><b>Summary:</b> Federated Learning (FL) emerged as a learning method to enable the server to
+train models over data distributed among various clients. These clients are
+protective about their data being leaked to the server, any other client, or an
+external adversary, and hence, locally train the model and share it with the
+server rather than sharing the data. The introduction of sophisticated
+inferencing attacks enabled the leakage of information about data through
+access to model parameters. To tackle this challenge, privacy-preserving
+federated learning aims to achieve differential privacy through learning
+algorithms like DP-SGD. However, such methods involve adding noise to the
+model, data, or gradients, reducing the model's performance.
+  This work provides a theoretical analysis of the tradeoff between model
+performance and communication complexity of the FL system. We formally prove
+that training for one local epoch per global round of training gives optimal
+performance while preserving the same privacy budget. We also investigate the
+change of utility (tied to privacy) of FL models with a change in the number of
+clients and observe that when clients are training using DP-SGD and argue that
+for the same privacy budget, the utility improved with increased clients. We
+validate our findings through experiments on real-world datasets. The results
+from this paper aim to improve the performance of privacy-preserving federated
+learning systems.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.14313v1">Between Close Enough to Reveal and Far Enough to Protect: a New Privacy
+  Region for Correlated Data</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
+  <p><b>Published on:</b> 2025-01-24T08:14:54Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Luis Maßny, Rawad Bitar, Fangwei Ye, Salim El Rouayheb</p>
+    <p><b>Summary:</b> When users make personal privacy choices, correlation between their data can
+cause inadvertent leakage about users who do not want to share their data by
+other users sharing their data. As a solution, we consider local redaction
+mechanisms. As prior works proposed data-independent privatization mechanisms,
+we study the family of data-independent local redaction mechanisms and
+upper-bound their utility when data correlation is modeled by a stationary
+Markov process. In contrast, we derive a novel data-dependent mechanism, which
+improves the utility by leveraging a data-dependent leakage measure.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.14309v1">BrainGuard: Privacy-Preserving Multisubject Image Reconstructions from
+  Brain Activities</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2025-01-24T08:10:47Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zhibo Tian, Ruijie Quan, Fan Ma, Kun Zhan, Yi Yang</p>
+    <p><b>Summary:</b> Reconstructing perceived images from human brain activity forms a crucial
+link between human and machine learning through Brain-Computer Interfaces.
+Early methods primarily focused on training separate models for each individual
+to account for individual variability in brain activity, overlooking valuable
+cross-subject commonalities. Recent advancements have explored multisubject
+methods, but these approaches face significant challenges, particularly in data
+privacy and effectively managing individual variability. To overcome these
+challenges, we introduce BrainGuard, a privacy-preserving collaborative
+training framework designed to enhance image reconstruction from multisubject
+fMRI data while safeguarding individual privacy. BrainGuard employs a
+collaborative global-local architecture where individual models are trained on
+each subject's local data and operate in conjunction with a shared global model
+that captures and leverages cross-subject patterns. This architecture
+eliminates the need to aggregate fMRI data across subjects, thereby ensuring
+privacy preservation. To tackle the complexity of fMRI data, BrainGuard
+integrates a hybrid synchronization strategy, enabling individual models to
+dynamically incorporate parameters from the global model. By establishing a
+secure and collaborative training environment, BrainGuard not only protects
+sensitive brain data but also improves the image reconstructions accuracy.
+Extensive experiments demonstrate that BrainGuard sets a new benchmark in both
+high-level and low-level metrics, advancing the state-of-the-art in brain
+decoding through its innovative design.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.14184v1">Tight Sample Complexity Bounds for Parameter Estimation Under Quantum
+  Differential Privacy for Qubits</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
+  <p><b>Published on:</b> 2025-01-24T02:23:51Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Farhad Farokhi</p>
+    <p><b>Summary:</b> This short note provides tight upper and lower bounds for minimal number of
+samples (copies of quantum states) required to attain a prescribed accuracy
+(measured by error variance) for scalar parameters using unbiased estimators
+under quantum local differential privacy for qubits. In the small privacy
+budget $\epsilon$ regime, i.e., $\epsilon\ll 1$, the sample complexity scales
+as $\Theta(\epsilon^{-2})$. This bound matches that of classical parameter
+estimation under differential privacy. The lower bound loosens (converges to
+zero) in the large privacy budget regime, i.e., $\epsilon\gg 1$, but that case
+is not particularly interesting as tight bounds for parameter estimation in the
+noiseless case are widely known. That being said, extensions to systems with
+higher dimensions and tightening the bounds for the large privacy budget regime
+are interesting avenues for future research.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.14098v1">Exploring User Perspectives on Data Collection, Data Sharing
+  Preferences, and Privacy Concerns with Remote Healthcare Technology</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2025-01-23T21:09:03Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Daniela Napoli, Heather Molyneaux, Helene Fournier, Sonia Chiasson</p>
+    <p><b>Summary:</b> Remote healthcare technology can help tackle societal issues by improving
+access to quality healthcare services and enhancing diagnoses through in-place
+monitoring. These services can be implemented through a combination of mobile
+devices, applications, wearable sensors, and other smart technology. It is
+paramount to handle sensitive data that is collected in ways that meet users'
+privacy expectations. We surveyed 384 people in Canada aged 20 to 93 years old
+to explore participants' comfort with data collection, sharing preferences, and
+potential privacy concerns related to remote healthcare technology. We explore
+these topics within the context of various healthcare scenarios including
+health emergencies and managing chronic health conditions.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2501.13916v1">PBM-VFL: Vertical Federated Learning with Feature and Sample Privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2025-01-23T18:53:43Z</p>
@@ -459,21 +590,22 @@ in addressing the face privacy problem efficiently.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.11740v1">PIR Over Wireless Channels: Achieving Privacy With Public Responses</a></h3>
+  <h3><a href="http://arxiv.org/abs/2501.11740v2">PIR Over Wireless Channels: Achieving Privacy With Public Responses</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
   <p><b>Published on:</b> 2025-01-20T20:56:56Z</p>
   <details>
     <summary>More Details</summary>
     <p><b>Authors:</b> Or Elimelech, Asaf Cohen</p>
-    <p><b>Summary:</b> This paper addresses the problem of private information retrieval (PIR) over
-an additive white Gaussian noise (AWGN) channel, considering the channel is
-public. In such settings, each server can eavesdrop on the channel, potentially
-compromising the user's privacy. Previous works suggested joint coding--PIR
-schemes, ignoring the fact that communication over a practical wireless channel
-is public. To address this gap, we present a novel joint wiretap--PIR coding
-scheme that leverages lattice codes to exploit the channel's additive
-properties. This scheme integrates wiretap coding and private retrieval
-techniques into a unified framework.</p>
+    <p><b>Summary:</b> In this paper, we address the problem of Private Information Retrieval (PIR)
+over a public Additive White Gaussian Noise (AWGN) channel. In such a setup,
+the server's responses are visible to other servers. Thus, a curious server can
+listen to the other responses, compromising the user's privacy. Indeed,
+previous works on PIR over a shared medium assumed the servers cannot
+instantaneously listen to other responses. To address this gap, we present a
+novel randomized lattice -- PIR coding scheme that jointly codes for privacy,
+channel noise, and curious servers which may listen to other responses. We
+demonstrate that a positive PIR rate is achievable even in cases where the
+channel to the curious server is stronger than the channel to the user.</p>
   </details>
 </div>
 
@@ -2769,148 +2901,6 @@ built a fully functional and publicly available prototype. It is implemented
 atop a commodity MCU (NXP LCP55S69) and operates in tandem with a
 smartphone-based app. Using this prototype, we evaluate energy consumption and
 other performance factors.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.11394v1">Privacy-Preserving Brain-Computer Interfaces: A Systematic Review</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2024-12-16T02:45:37Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> K. Xia, W. Duch, Y. Sun, K. Xu, W. Fang, H. Luo, Y. Zhang, D. Sang, X. Xu, F-Y Wang, D. Wu</p>
-    <p><b>Summary:</b> A brain-computer interface (BCI) establishes a direct communication pathway
-between the human brain and a computer. It has been widely used in medical
-diagnosis, rehabilitation, education, entertainment, etc. Most research so far
-focuses on making BCIs more accurate and reliable, but much less attention has
-been paid to their privacy. Developing a commercial BCI system usually requires
-close collaborations among multiple organizations, e.g., hospitals,
-universities, and/or companies. Input data in BCIs, e.g., electroencephalogram
-(EEG), contain rich privacy information, and the developed machine learning
-model is usually proprietary. Data and model transmission among different
-parties may incur significant privacy threats, and hence privacy protection in
-BCIs must be considered. Unfortunately, there does not exist any contemporary
-and comprehensive review on privacy-preserving BCIs. This paper fills this gap,
-by describing potential privacy threats and protection strategies in BCIs. It
-also points out several challenges and future research directions in developing
-privacy-preserving BCIs.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.11390v1">Accurate, Robust and Privacy-Preserving Brain-Computer Interface
-  Decoding</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
-  <p><b>Published on:</b> 2024-12-16T02:37:38Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Xiaoqing Chen, Tianwang Jia, Dongrui Wu</p>
-    <p><b>Summary:</b> An electroencephalogram (EEG) based brain-computer interface (BCI) enables
-direct communication between the brain and external devices. However, EEG-based
-BCIs face at least three major challenges in real-world applications: data
-scarcity and individual differences, adversarial vulnerability, and data
-privacy. While previous studies have addressed one or two of these issues,
-simultaneous accommodation of all three challenges remains challenging and
-unexplored. This paper fills this gap, by proposing an Augmented Robustness
-Ensemble (ARE) algorithm and integrating it into three privacy protection
-scenarios (centralized source-free transfer, federated source-free transfer,
-and source data perturbation), achieving simultaneously accurate decoding,
-adversarial robustness, and privacy protection of EEG-based BCIs. Experiments
-on three public EEG datasets demonstrated that our proposed approach
-outperformed over 10 classic and state-of-the-art approaches in both accuracy
-and robustness in all three privacy-preserving scenarios, even outperforming
-state-of-the-art transfer learning approaches that do not consider privacy
-protection at all. This is the first time that three major challenges in
-EEG-based BCIs can be addressed simultaneously, significantly improving the
-practicalness of EEG decoding in real-world BCIs.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.11066v1">Learning Robust and Privacy-Preserving Representations via Information
-  Theory</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-12-15T05:51:48Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Binghui Zhang, Sayedeh Leila Noorbakhsh, Yun Dong, Yuan Hong, Binghui Wang</p>
-    <p><b>Summary:</b> Machine learning models are vulnerable to both security attacks (e.g.,
-adversarial examples) and privacy attacks (e.g., private attribute inference).
-We take the first step to mitigate both the security and privacy attacks, and
-maintain task utility as well. Particularly, we propose an
-information-theoretic framework to achieve the goals through the lens of
-representation learning, i.e., learning representations that are robust to both
-adversarial examples and attribute inference adversaries. We also derive novel
-theoretical results under our framework, e.g., the inherent trade-off between
-adversarial robustness/utility and attribute privacy, and guaranteed attribute
-privacy leakage against attribute inference adversaries.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.10652v1">Centaur: Bridging the Impossible Trinity of Privacy, Efficiency, and
-  Performance in Privacy-Preserving Transformer Inference</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-12-14T02:50:30Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jinglong Luo, Guanzhong Chen, Yehong Zhang, Shiyu Liu, Hui Wang, Yue Yu, Xun Zhou, Yuan Qi, Zenglin Xu</p>
-    <p><b>Summary:</b> As pre-trained models, like Transformers, are increasingly deployed on cloud
-platforms for inference services, the privacy concerns surrounding model
-parameters and inference data are becoming more acute. Current
-Privacy-Preserving Transformer Inference (PPTI) frameworks struggle with the
-"impossible trinity" of privacy, efficiency, and performance. For instance,
-Secure Multi-Party Computation (SMPC)-based solutions offer strong privacy
-guarantees but come with significant inference overhead and performance
-trade-offs. On the other hand, PPTI frameworks that use random permutations
-achieve inference efficiency close to that of plaintext and maintain accurate
-results but require exposing some model parameters and intermediate results,
-thereby risking substantial privacy breaches. Addressing this "impossible
-trinity" with a single technique proves challenging. To overcome this
-challenge, we propose Centaur, a novel hybrid PPTI framework. Unlike existing
-methods, Centaur protects model parameters with random permutations and
-inference data with SMPC, leveraging the structure of Transformer models. By
-designing a series of efficient privacy-preserving algorithms, Centaur
-leverages the strengths of both techniques to achieve a better balance between
-privacy, efficiency, and performance in PPTI. We comprehensively evaluate the
-effectiveness of Centaur on various types of Transformer models and datasets.
-Experimental results demonstrate that the privacy protection capabilities
-offered by Centaur can withstand various existing model inversion attack
-methods. In terms of performance and efficiency, Centaur not only maintains the
-same performance as plaintext inference but also improves inference speed by
-$5.0-30.4$ times.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.10612v1">Meeting Utility Constraints in Differential Privacy: A Privacy-Boosting
-  Approach</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
-  <p><b>Published on:</b> 2024-12-13T23:34:30Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Bo Jiang, Wanrong Zhang, Donghang Lu, Jian Du, Sagar Sharma, Qiang Yan</p>
-    <p><b>Summary:</b> Data engineering often requires accuracy (utility) constraints on results,
-posing significant challenges in designing differentially private (DP)
-mechanisms, particularly under stringent privacy parameter $\epsilon$. In this
-paper, we propose a privacy-boosting framework that is compatible with most
-noise-adding DP mechanisms. Our framework enhances the likelihood of outputs
-falling within a preferred subset of the support to meet utility requirements
-while enlarging the overall variance to reduce privacy leakage. We characterize
-the privacy loss distribution of our framework and present the privacy profile
-formulation for $(\epsilon,\delta)$-DP and R\'enyi DP (RDP) guarantees. We
-study special cases involving data-dependent and data-independent utility
-formulations. Through extensive experiments, we demonstrate that our framework
-achieves lower privacy loss than standard DP mechanisms under utility
-constraints. Notably, our approach is particularly effective in reducing
-privacy loss with large query sensitivity relative to the true answer, offering
-a more practical and flexible approach to designing differentially private
-mechanisms that meet specific utility constraints.</p>
   </details>
 </div>
 
