@@ -1681,5 +1681,242 @@
       "cs.IT",
       "math.IT"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.16307v1",
+    "title" : "Privacy-aware Nash Equilibrium Synthesis with Partially Ordered LTL$_f$\n  Objectives",
+    "summary" : "Nash equilibrium is a fundamental solution concept for modeling the behavior\nof self-interested agents. We develop an algorithm to synthesize pure Nash\nequilibria in two-player deterministic games on graphs where players have\npartial preferences over objectives expressed with linear temporal logic over\nfinite traces. Previous approaches for Nash equilibrium synthesis assume that\nplayers' preferences are common knowledge. Instead, we allow players'\npreferences to remain private but enable communication between players. The\nalgorithm we design synthesizes Nash equilibria for a complete-information\ngame, but synthesizes these equilibria in an incomplete-information setting\nwhere players' preferences are private. The algorithm is privacy-aware, as\ninstead of requiring that players share private preferences, the algorithm\nreduces the information sharing to a query interface. Through this interface,\nplayers exchange information about states in the game from which they can\nenforce a more desirable outcome. We prove the algorithm's completeness by\nshowing that it either returns an equilibrium or certifies that one does not\nexist. We then demonstrate, via numerical examples, the existence of games\nwhere the queries the players exchange are insufficient to reconstruct players'\npreferences, highlighting the privacy-aware nature of the algorithm we propose.",
+    "updated" : "2025-01-27T18:46:15Z",
+    "published" : "2025-01-27T18:46:15Z",
+    "authors" : [
+      {
+        "name" : "Caleb Probine"
+      },
+      {
+        "name" : "Abhishek Kulkarni"
+      },
+      {
+        "name" : "Ufuk Topcu"
+      }
+    ],
+    "categories" : [
+      "cs.GT",
+      "cs.LO"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.16033v1",
+    "title" : "PRISMe: A Novel LLM-Powered Tool for Interactive Privacy Policy\n  Assessment",
+    "summary" : "Protecting online privacy requires users to engage with and comprehend\nwebsite privacy policies, but many policies are difficult and tedious to read.\nWe present PRISMe (Privacy Risk Information Scanner for Me), a novel Large\nLanguage Model (LLM)-driven privacy policy assessment tool, which helps users\nto understand the essence of a lengthy, complex privacy policy while browsing.\nThe tool, a browser extension, integrates a dashboard and an LLM chat. One\nmajor contribution is the first rigorous evaluation of such a tool. In a\nmixed-methods user study (N=22), we evaluate PRISMe's efficiency, usability,\nunderstandability of the provided information, and impacts on awareness. While\nour tool improves privacy awareness by providing a comprehensible quick\noverview and a quality chat for in-depth discussion, users note issues with\nconsistency and building trust in the tool. From our insights, we derive\nimportant design implications to guide future policy analysis tools.",
+    "updated" : "2025-01-27T13:27:04Z",
+    "published" : "2025-01-27T13:27:04Z",
+    "authors" : [
+      {
+        "name" : "Vincent Freiberger"
+      },
+      {
+        "name" : "Arthur Fleig"
+      },
+      {
+        "name" : "Erik Buchmann"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "cs.AI",
+      "H.m; I.2.7"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.15751v1",
+    "title" : "A Privacy Model for Classical & Learned Bloom Filters",
+    "summary" : "The Classical Bloom Filter (CBF) is a class of Probabilistic Data Structures\n(PDS) for handling Approximate Query Membership (AMQ). The Learned Bloom Filter\n(LBF) is a recently proposed class of PDS that combines the Classical Bloom\nFilter with a Learning Model while preserving the Bloom Filter's one-sided\nerror guarantees. Bloom Filters have been used in settings where inputs are\nsensitive and need to be private in the presence of an adversary with access to\nthe Bloom Filter through an API or in the presence of an adversary who has\naccess to the internal state of the Bloom Filter. Prior work has investigated\nthe privacy of the Classical Bloom Filter providing attacks and defenses under\nvarious privacy definitions. In this work, we formulate a stronger differential\nprivacy-based model for the Bloom Filter. We propose constructions of the\nClassical and Learned Bloom Filter that satisfy $(\\epsilon, 0)$-differential\nprivacy. This is also the first work that analyses and addresses the privacy of\nthe Learned Bloom Filter under any rigorous model, which is an open problem.",
+    "updated" : "2025-01-27T03:35:25Z",
+    "published" : "2025-01-27T03:35:25Z",
+    "authors" : [
+      {
+        "name" : "Hayder Tirmazi"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.15744v1",
+    "title" : "Noise disturbance and lack of privacy: Modeling acoustic dissatisfaction\n  in open-plan offices",
+    "summary" : "Open-plan offices are well-known to be adversely affected by acoustic issues.\nThis study aims to model acoustic dissatisfaction using measurements of room\nacoustics, sound environment during occupancy, and occupant surveys (n = 349)\nin 28 offices representing a diverse range of workplace parameters. As latent\nfactors, the contribution of $\\textit{lack of privacy}$ (LackPriv) was 25%\nhigher than $\\textit{noise disturbance}$ (NseDstrb) in predicting\n$\\textit{acoustic dissatisfaction}$ (AcDsat). Room acoustic metrics based on\nsound pressure level (SPL) decay of speech ($L_{\\text{p,A,s,4m}}$ and\n$r_{\\text{C}}$) were better in predicting these factors than distraction\ndistance ($r_{\\text{D}}$) based on speech transmission index. This contradicts\nprevious findings, and the trends for SPL-based metrics in predicting AcDsat\nand LackPriv go against expectations based on ISO 3382-3. For sound during\noccupation, $L_{\\text{A,90}}$ and psychoacoustic loudness ($N_{\\text{90}}$)\npredicted AcDsat, and a SPL fluctuation metric ($M_{\\text{A,eq}}$) predicted\nLackPriv. However, these metrics were weaker predictors than ISO 3382-3\nmetrics. Medium-sized offices exhibited higher dissatisfaction than larger\n($\\geq$50 occupants) offices. Dissatisfaction varied substantially across\nparameters including ceiling heights, number of workstations, and years of\nwork, but not between offices with fixed seating compared to more flexible and\nactivity-based working configurations. Overall, these findings highlight the\ncomplexities in characterizing occupants' perceptions using instrumental\nacoustic measurements.",
+    "updated" : "2025-01-27T03:10:07Z",
+    "published" : "2025-01-27T03:10:07Z",
+    "authors" : [
+      {
+        "name" : "Manuj Yadav"
+      },
+      {
+        "name" : "Jungsoo Kim"
+      },
+      {
+        "name" : "Valtteri Hongisto"
+      },
+      {
+        "name" : "Densil Cabrera"
+      },
+      {
+        "name" : "Richard de Dear"
+      }
+    ],
+    "categories" : [
+      "eess.AS",
+      "cs.SD"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.15653v1",
+    "title" : "A Privacy Enhancing Technique to Evade Detection by Street Video Cameras\n  Without Using Adversarial Accessories",
+    "summary" : "In this paper, we propose a privacy-enhancing technique leveraging an\ninherent property of automatic pedestrian detection algorithms, namely, that\nthe training of deep neural network (DNN) based methods is generally performed\nusing curated datasets and laboratory settings, while the operational areas of\nthese methods are dynamic real-world environments. In particular, we leverage a\nnovel side effect of this gap between the laboratory and the real world:\nlocation-based weakness in pedestrian detection. We demonstrate that the\nposition (distance, angle, height) of a person, and ambient light level,\ndirectly impact the confidence of a pedestrian detector when detecting the\nperson. We then demonstrate that this phenomenon is present in pedestrian\ndetectors observing a stationary scene of pedestrian traffic, with blind spot\nareas of weak detection of pedestrians with low confidence. We show how\nprivacy-concerned pedestrians can leverage these blind spots to evade detection\nby constructing a minimum confidence path between two points in a scene,\nreducing the maximum confidence and average confidence of the path by up to\n0.09 and 0.13, respectively, over direct and random paths through the scene. To\ncounter this phenomenon, and force the use of more costly and sophisticated\nmethods to leverage this vulnerability, we propose a novel countermeasure to\nimprove the confidence of pedestrian detectors in blind spots, raising the\nmax/average confidence of paths generated by our technique by 0.09 and 0.05,\nrespectively. In addition, we demonstrate that our countermeasure improves a\nFaster R-CNN-based pedestrian detector's TPR and average true positive\nconfidence by 0.03 and 0.15, respectively.",
+    "updated" : "2025-01-26T19:29:49Z",
+    "published" : "2025-01-26T19:29:49Z",
+    "authors" : [
+      {
+        "name" : "Jacob Shams"
+      },
+      {
+        "name" : "Ben Nassi"
+      },
+      {
+        "name" : "Satoru Koda"
+      },
+      {
+        "name" : "Asaf Shabtai"
+      },
+      {
+        "name" : "Yuval Elovici"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.15395v1",
+    "title" : "Hiding in Plain Sight: An IoT Traffic Camouflage Framework for Enhanced\n  Privacy",
+    "summary" : "The rapid growth of Internet of Things (IoT) devices has introduced\nsignificant challenges to privacy, particularly as network traffic analysis\ntechniques evolve. While encryption protects data content, traffic attributes\nsuch as packet size and timing can reveal sensitive information about users and\ndevices. Existing single-technique obfuscation methods, such as packet padding,\noften fall short in dynamic environments like smart homes due to their\npredictability, making them vulnerable to machine learning-based attacks. This\npaper introduces a multi-technique obfuscation framework designed to enhance\nprivacy by disrupting traffic analysis. The framework leverages six\ntechniques-Padding, Padding with XORing, Padding with Shifting, Constant Size\nPadding, Fragmentation, and Delay Randomization-to obscure traffic patterns\neffectively. Evaluations on three public datasets demonstrate significant\nreductions in classifier performance metrics, including accuracy, precision,\nrecall, and F1 score. We assess the framework's robustness against adversarial\ntactics by retraining and fine-tuning neural network classifiers on obfuscated\ntraffic. The results reveal a notable degradation in classifier performance,\nunderscoring the framework's resilience against adaptive attacks. Furthermore,\nwe evaluate communication and system performance, showing that higher\nobfuscation levels enhance privacy but may increase latency and communication\noverhead.",
+    "updated" : "2025-01-26T04:33:44Z",
+    "published" : "2025-01-26T04:33:44Z",
+    "authors" : [
+      {
+        "name" : "Daniel Adu Worae"
+      },
+      {
+        "name" : "Spyridon Mastorakis"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.NI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.15363v1",
+    "title" : "AI-Driven Secure Data Sharing: A Trustworthy and Privacy-Preserving\n  Approach",
+    "summary" : "In the era of data-driven decision-making, ensuring the privacy and security\nof shared data is paramount across various domains. Applying existing deep\nneural networks (DNNs) to encrypted data is critical and often compromises\nperformance, security, and computational overhead. To address these\nlimitations, this research introduces a secure framework consisting of a\nlearnable encryption method based on the block-pixel operation to encrypt the\ndata and subsequently integrate it with the Vision Transformer (ViT). The\nproposed framework ensures data privacy and security by creating unique\nscrambling patterns per key, providing robust performance against adversarial\nattacks without compromising computational efficiency and data integrity. The\nframework was tested on sensitive medical datasets to validate its efficacy,\nproving its ability to handle highly confidential information securely. The\nsuggested framework was validated with a 94\\% success rate after extensive\ntesting on real-world datasets, such as MRI brain tumors and histological scans\nof lung and colon cancers. Additionally, the framework was tested under diverse\nadversarial attempts against secure data sharing with optimum performance and\ndemonstrated its effectiveness in various threat scenarios. These comprehensive\nanalyses underscore its robustness, making it a trustworthy solution for secure\ndata sharing in critical applications.",
+    "updated" : "2025-01-26T02:03:19Z",
+    "published" : "2025-01-26T02:03:19Z",
+    "authors" : [
+      {
+        "name" : "Al Amin"
+      },
+      {
+        "name" : "Kamrul Hasan"
+      },
+      {
+        "name" : "Sharif Ullah"
+      },
+      {
+        "name" : "Liang Hong"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.15032v1",
+    "title" : "Stealthy Voice Eavesdropping with Acoustic Metamaterials: Unraveling a\n  New Privacy Threat",
+    "summary" : "We present SuperEar, a novel privacy threat based on acoustic metamaterials.\nUnlike previous research, SuperEar can surreptitiously track and eavesdrop on\nthe phone calls of a moving outdoor target from a safe distance. To design this\nattack, SuperEar overcomes the challenges faced by traditional acoustic\nmetamaterials, including low low-frequency gain and audio distortion during\nreconstruction. It successfully magnifies the speech signal by approximately 20\ntimes, allowing the sound to be captured from the earpiece of the target phone.\nIn addition, SuperEar optimizes the trade-off between the number and size of\nacoustic metamaterials, improving the portability and concealability of the\ninterceptor while ensuring effective interception performance. This makes it\nhighly suitable for outdoor tracking and eavesdropping scenarios. Through\nextensive experimentation, we have evaluated SuperEar and our results show that\nit can achieve an eavesdropping accuracy of over 80% within a range of 4.5\nmeters in the aforementioned scenario, thus validating its great potential in\nreal-world applications.",
+    "updated" : "2025-01-25T02:30:03Z",
+    "published" : "2025-01-25T02:30:03Z",
+    "authors" : [
+      {
+        "name" : "Zhiyuan Ning"
+      },
+      {
+        "name" : "Zhanyong Tang"
+      },
+      {
+        "name" : "Juan He"
+      },
+      {
+        "name" : "Weizhi Meng"
+      },
+      {
+        "name" : "Yuntian Chen"
+      }
+    ],
+    "categories" : [
+      "cs.SD",
+      "cs.CR",
+      "eess.AS"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.14974v1",
+    "title" : "Private Minimum Hellinger Distance Estimation via Hellinger Distance\n  Differential Privacy",
+    "summary" : "Hellinger distance has been widely used to derive objective functions that\nare alternatives to maximum likelihood methods. Motivated by recent regulatory\nprivacy requirements, estimators satisfying differential privacy constraints\nare being derived. In this paper, we describe different notions of privacy\nusing divergences and establish that Hellinger distance minimizes the added\nvariance within the class of power divergences for an additive Gaussian\nmechanism. We demonstrate that a new definition of privacy, namely Hellinger\ndifferential privacy, shares several features of the standard notion of\ndifferential privacy while allowing for sharper inference. Using these\nproperties, we develop private versions of gradient descent and Newton-Raphson\nalgorithms for obtaining private minimum Hellinger distance estimators, which\nare robust and first-order efficient. Using numerical experiments, we\nillustrate the finite sample performance and verify that they retain their\nrobustness properties under gross-error contamination.",
+    "updated" : "2025-01-24T23:15:04Z",
+    "published" : "2025-01-24T23:15:04Z",
+    "authors" : [
+      {
+        "name" : "Fengnan Deng"
+      },
+      {
+        "name" : "Anand N. Vidyashankar"
+      }
+    ],
+    "categories" : [
+      "math.ST",
+      "cs.CR",
+      "math.PR",
+      "stat.ME",
+      "stat.ML",
+      "stat.TH",
+      "62F35, 68P27, 62E20, 60E05"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.14928v1",
+    "title" : "Decision Making in Changing Environments: Robustness, Query-Based\n  Learning, and Differential Privacy",
+    "summary" : "We study the problem of interactive decision making in which the underlying\nenvironment changes over time subject to given constraints. We propose a\nframework, which we call \\textit{hybrid Decision Making with Structured\nObservations} (hybrid DMSO), that provides an interpolation between the\nstochastic and adversarial settings of decision making. Within this framework,\nwe can analyze local differentially private (LDP) decision making, query-based\nlearning (in particular, SQ learning), and robust and smooth decision making\nunder the same umbrella, deriving upper and lower bounds based on variants of\nthe Decision-Estimation Coefficient (DEC). We further establish strong\nconnections between the DEC's behavior, the SQ dimension, local minimax\ncomplexity, learnability, and joint differential privacy. To showcase the\nframework's power, we provide new results for contextual bandits under the LDP\nconstraint.",
+    "updated" : "2025-01-24T21:31:50Z",
+    "published" : "2025-01-24T21:31:50Z",
+    "authors" : [
+      {
+        "name" : "Fan Chen"
+      },
+      {
+        "name" : "Alexander Rakhlin"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.IT",
+      "math.IT",
+      "math.ST",
+      "stat.ML",
+      "stat.TH"
+    ]
   }
 ]
