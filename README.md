@@ -2,6 +2,74 @@
 <h2>2025-01</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.17089v1">CRSet: Non-Interactive Verifiable Credential Revocation with Metadata
+  Privacy for Issuers and Everyone Else</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-01-28T17:23:45Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Felix Hoops, Jonas Gebele, Florian Matthes</p>
+    <p><b>Summary:</b> Like any digital certificate, Verifiable Credentials (VCs) require a way to
+revoke them in case of an error or key compromise. Existing solutions for VC
+revocation, most prominently Bitstring Status List, are not viable for many use
+cases since they leak the issuer's behavior, which in turn leaks internal
+business metrics. For instance, exact staff fluctuation through issuance and
+revocation of employee IDs. We introduce CRSet, a revocation mechanism that
+allows an issuer to encode revocation information for years worth of VCs as a
+Bloom filter cascade. Padding is used to provide deniability for issuer
+metrics. Issuers periodically publish this filter cascade on a decentralized
+storage system. Relying Parties (RPs) can download it to perform any number of
+revocation checks locally. Compared to existing solutions, CRSet protects the
+metadata of subject, RPs, and issuer equally. At the same time, it is
+non-interactive, making it work with wallet devices having limited hardware
+power and drop-in compatible with existing VC exchange protocols and wallet
+applications. We present a prototype using the Ethereum blockchain as
+decentralized storage. The recently introduced blob-carrying transactions,
+enabling cheaper data writes, allow us to write each CRSet directly to the
+chain. We built software for issuers and RPs that we successfully tested
+end-to-end with an existing publicly available wallet agents and the OpenID for
+Verifiable Credentials protocols. Storage and bandwidth costs paid by issuers
+and RP are higher than for Bitstring Status List, but still manageable at
+around 1 MB for an issuer issuing hundreds of thousands of VCs annually and
+covering decades.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.16885v1">"My Whereabouts, my Location, it's Directly Linked to my Physical
+  Security": An Exploratory Qualitative Study of Location-Dependent Security
+  and Privacy Perceptions among Activist Tech Users</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2025-01-28T12:13:53Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Christian Eichenmüller, Lisa Kuhn, Zinaida Benenson</p>
+    <p><b>Summary:</b> Digital-safety research with at-risk users is particularly urgent. At-risk
+users are more likely to be digitally attacked or targeted by surveillance and
+could be disproportionately harmed by attacks that facilitate physical
+assaults. One group of such at-risk users are activists and politically active
+individuals. For them, as for other at-risk users, the rise of smart
+environments harbors new risks. Since digitization and datafication are no
+longer limited to a series of personal devices that can be switched on and off,
+but increasingly and continuously surround users, granular geolocation poses
+new safety challenges. Drawing on eight exploratory qualitative interviews of
+an ongoing research project, this contribution highlights what activists with
+powerful adversaries think about evermore data traces, including location data,
+and how they intend to deal with emerging risks. Responses of activists include
+attempts to control one's immediate technological surroundings and to more
+carefully manage device-related location data. For some activists, threat
+modeling has also shaped provider choices based on geopolitical considerations.
+Since many activists have not enough digital-safety knowledge for effective
+protection, feelings of insecurity and paranoia are widespread. Channeling the
+concerns and fears of our interlocutors, we call for more research on how
+activists can protect themselves against evermore fine-grained location data
+tracking.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2501.16307v1">Privacy-aware Nash Equilibrium Synthesis with Partially Ordered LTL$_f$
   Objectives</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Science and Game Theory-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Logic in Computer Science-662E9B">
@@ -423,7 +491,7 @@ health emergencies and managing chronic health conditions.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.13916v1">PBM-VFL: Vertical Federated Learning with Feature and Sample Privacy</a></h3>
+  <h3><a href="http://arxiv.org/abs/2501.13916v2">PBM-VFL: Vertical Federated Learning with Feature and Sample Privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2025-01-23T18:53:43Z</p>
   <details>
@@ -445,7 +513,7 @@ performs well with high levels of privacy.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.13904v1">Privacy-Preserving Personalized Federated Prompt Learning for Multimodal
+  <h3><a href="http://arxiv.org/abs/2501.13904v2">Privacy-Preserving Personalized Federated Prompt Learning for Multimodal
   Large Language Models</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2025-01-23T18:34:09Z</p>
@@ -2818,58 +2886,6 @@ global ones. To the best of our knowledge, our study is the first solution to
 the federated heavy hitter analytics in a cross-party setting while satisfying
 the stringent $\epsilon$-LDP. Comprehensive experiments on both real-world and
 synthetic datasets confirm the effectiveness of our proposed mechanism.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.13953v1">Towards privacy-preserving cooperative control via encrypted distributed
-  optimization</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
-  <p><b>Published on:</b> 2024-12-18T15:32:45Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Philipp Binfet, Janis Adamek, Nils Schlüter, Moritz Schulze Darup</p>
-    <p><b>Summary:</b> Cooperative control is crucial for the effective operation of dynamical
-multi-agent systems. Especially for distributed control schemes, it is
-essential to exchange data between the agents. This becomes a privacy threat if
-the data is sensitive. Encrypted control has shown the potential to address
-this risk and ensure confidentiality. However, existing approaches mainly focus
-on cloud-based control and distributed schemes are restrictive.
-  In this paper, we present a novel privacy-preserving cooperative control
-scheme based on encrypted distributed optimization. More precisely, we focus on
-a secure distributed solution of a general consensus problem, which has
-manifold applications in cooperative control, by means of the alternating
-direction method of multipliers (ADMM). As a unique feature of our approach, we
-explicitly take into account the common situation that local decision variables
-contain copies of quantities associated with neighboring agents and ensure the
-neighbor's privacy. We show the effectiveness of our method based on a
-numerical case study dealing with the formation of mobile robots.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.13939v1">Security and Privacy of Digital Twins for Advanced Manufacturing: A
-  Survey</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
-  <p><b>Published on:</b> 2024-12-18T15:21:53Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Alexander D. Zemskov, Yao Fu, Runchao Li, Xufei Wang, Vispi Karkaria, Ying-Kuan Tsai, Wei Chen, Jianjing Zhang, Robert Gao, Jian Cao, Kenneth A. Loparo, Pan Li</p>
-    <p><b>Summary:</b> In Industry 4.0, the digital twin is one of the emerging technologies,
-offering simulation abilities to predict, refine, and interpret conditions and
-operations, where it is crucial to emphasize a heightened concentration on the
-associated security and privacy risks. To be more specific, the adoption of
-digital twins in the manufacturing industry relies on integrating technologies
-like cyber-physical systems, the Industrial Internet of Things, virtualization,
-and advanced manufacturing. The interactions of these technologies give rise to
-numerous security and privacy vulnerabilities that remain inadequately
-explored. Towards that end, this paper analyzes the cybersecurity threats of
-digital twins for advanced manufacturing in the context of data collection,
-data sharing, machine learning and deep learning, and system-level security and
-privacy. We also provide several solutions to the threats in those four
-categories that can help establish more trust in digital twins.</p>
   </details>
 </div>
 
