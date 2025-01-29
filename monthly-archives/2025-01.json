@@ -1918,5 +1918,96 @@
       "stat.ML",
       "stat.TH"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.17089v1",
+    "title" : "CRSet: Non-Interactive Verifiable Credential Revocation with Metadata\n  Privacy for Issuers and Everyone Else",
+    "summary" : "Like any digital certificate, Verifiable Credentials (VCs) require a way to\nrevoke them in case of an error or key compromise. Existing solutions for VC\nrevocation, most prominently Bitstring Status List, are not viable for many use\ncases since they leak the issuer's behavior, which in turn leaks internal\nbusiness metrics. For instance, exact staff fluctuation through issuance and\nrevocation of employee IDs. We introduce CRSet, a revocation mechanism that\nallows an issuer to encode revocation information for years worth of VCs as a\nBloom filter cascade. Padding is used to provide deniability for issuer\nmetrics. Issuers periodically publish this filter cascade on a decentralized\nstorage system. Relying Parties (RPs) can download it to perform any number of\nrevocation checks locally. Compared to existing solutions, CRSet protects the\nmetadata of subject, RPs, and issuer equally. At the same time, it is\nnon-interactive, making it work with wallet devices having limited hardware\npower and drop-in compatible with existing VC exchange protocols and wallet\napplications. We present a prototype using the Ethereum blockchain as\ndecentralized storage. The recently introduced blob-carrying transactions,\nenabling cheaper data writes, allow us to write each CRSet directly to the\nchain. We built software for issuers and RPs that we successfully tested\nend-to-end with an existing publicly available wallet agents and the OpenID for\nVerifiable Credentials protocols. Storage and bandwidth costs paid by issuers\nand RP are higher than for Bitstring Status List, but still manageable at\naround 1 MB for an issuer issuing hundreds of thousands of VCs annually and\ncovering decades.",
+    "updated" : "2025-01-28T17:23:45Z",
+    "published" : "2025-01-28T17:23:45Z",
+    "authors" : [
+      {
+        "name" : "Felix Hoops"
+      },
+      {
+        "name" : "Jonas Gebele"
+      },
+      {
+        "name" : "Florian Matthes"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.16885v1",
+    "title" : "\"My Whereabouts, my Location, it's Directly Linked to my Physical\n  Security\": An Exploratory Qualitative Study of Location-Dependent Security\n  and Privacy Perceptions among Activist Tech Users",
+    "summary" : "Digital-safety research with at-risk users is particularly urgent. At-risk\nusers are more likely to be digitally attacked or targeted by surveillance and\ncould be disproportionately harmed by attacks that facilitate physical\nassaults. One group of such at-risk users are activists and politically active\nindividuals. For them, as for other at-risk users, the rise of smart\nenvironments harbors new risks. Since digitization and datafication are no\nlonger limited to a series of personal devices that can be switched on and off,\nbut increasingly and continuously surround users, granular geolocation poses\nnew safety challenges. Drawing on eight exploratory qualitative interviews of\nan ongoing research project, this contribution highlights what activists with\npowerful adversaries think about evermore data traces, including location data,\nand how they intend to deal with emerging risks. Responses of activists include\nattempts to control one's immediate technological surroundings and to more\ncarefully manage device-related location data. For some activists, threat\nmodeling has also shaped provider choices based on geopolitical considerations.\nSince many activists have not enough digital-safety knowledge for effective\nprotection, feelings of insecurity and paranoia are widespread. Channeling the\nconcerns and fears of our interlocutors, we call for more research on how\nactivists can protect themselves against evermore fine-grained location data\ntracking.",
+    "updated" : "2025-01-28T12:13:53Z",
+    "published" : "2025-01-28T12:13:53Z",
+    "authors" : [
+      {
+        "name" : "Christian Eichenmüller"
+      },
+      {
+        "name" : "Lisa Kuhn"
+      },
+      {
+        "name" : "Zinaida Benenson"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.13916v2",
+    "title" : "PBM-VFL: Vertical Federated Learning with Feature and Sample Privacy",
+    "summary" : "We present Poisson Binomial Mechanism Vertical Federated Learning (PBM-VFL),\na communication-efficient Vertical Federated Learning algorithm with\nDifferential Privacy guarantees. PBM-VFL combines Secure Multi-Party\nComputation with the recently introduced Poisson Binomial Mechanism to protect\nparties' private datasets during model training. We define the novel concept of\nfeature privacy and analyze end-to-end feature and sample privacy of our\nalgorithm. We compare sample privacy loss in VFL with privacy loss in HFL. We\nalso provide the first theoretical characterization of the relationship between\nprivacy budget, convergence error, and communication cost in\ndifferentially-private VFL. Finally, we empirically show that our model\nperforms well with high levels of privacy.",
+    "updated" : "2025-01-27T19:50:52Z",
+    "published" : "2025-01-23T18:53:43Z",
+    "authors" : [
+      {
+        "name" : "Linh Tran"
+      },
+      {
+        "name" : "Timothy Castiglia"
+      },
+      {
+        "name" : "Stacy Patterson"
+      },
+      {
+        "name" : "Ana Milanova"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.13904v2",
+    "title" : "Privacy-Preserving Personalized Federated Prompt Learning for Multimodal\n  Large Language Models",
+    "summary" : "Multimodal Large Language Models (LLMs) are pivotal in revolutionizing\ncustomer support and operations by integrating multiple modalities such as\ntext, images, and audio. Federated Prompt Learning (FPL) is a recently proposed\napproach that combines pre-trained multimodal LLMs such as vision-language\nmodels with federated learning to create personalized, privacy-preserving AI\nsystems. However, balancing the competing goals of personalization,\ngeneralization, and privacy remains a significant challenge.\nOver-personalization can lead to overfitting, reducing generalizability, while\nstringent privacy measures, such as differential privacy, can hinder both\npersonalization and generalization. In this paper, we propose a Differentially\nPrivate Federated Prompt Learning (DP-FPL) approach to tackle this challenge by\nleveraging a low-rank adaptation scheme to capture generalization while\nmaintaining a residual term that preserves expressiveness for personalization.\nTo ensure privacy, we introduce a novel method where we apply local\ndifferential privacy to the two low-rank components of the local prompt, and\nglobal differential privacy to the global prompt. Our approach mitigates the\nimpact of privacy noise on the model performance while balancing the tradeoff\nbetween personalization and generalization. Extensive experiments demonstrate\nthe effectiveness of our approach over other benchmarks.",
+    "updated" : "2025-01-28T15:11:25Z",
+    "published" : "2025-01-23T18:34:09Z",
+    "authors" : [
+      {
+        "name" : "Linh Tran"
+      },
+      {
+        "name" : "Wei Sun"
+      },
+      {
+        "name" : "Stacy Patterson"
+      },
+      {
+        "name" : "Ana Milanova"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
   }
 ]
