@@ -2009,5 +2009,87 @@
     "categories" : [
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.17762v1",
+    "title" : "Improving Privacy Benefits of Redaction",
+    "summary" : "We propose a novel redaction methodology that can be used to sanitize natural\ntext data. Our new technique provides better privacy benefits than other state\nof the art techniques while maintaining lower redaction levels.",
+    "updated" : "2025-01-29T16:53:16Z",
+    "published" : "2025-01-29T16:53:16Z",
+    "authors" : [
+      {
+        "name" : "Vaibhav Gusain"
+      },
+      {
+        "name" : "Douglas Leith"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CL",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.17750v1",
+    "title" : "Privacy Audit as Bits Transmission: (Im)possibilities for Audit by One\n  Run",
+    "summary" : "Auditing algorithms' privacy typically involves simulating a game-based\nprotocol that guesses which of two adjacent datasets was the original input.\nTraditional approaches require thousands of such simulations, leading to\nsignificant computational overhead. Recent methods propose single-run auditing\nof the target algorithm to address this, substantially reducing computational\ncost. However, these methods' general applicability and tightness in producing\nempirical privacy guarantees remain uncertain.\n  This work studies such problems in detail. Our contributions are twofold:\nFirst, we introduce a unifying framework for privacy audits based on\ninformation-theoretic principles, modeling the audit as a bit transmission\nproblem in a noisy channel. This formulation allows us to derive fundamental\nlimits and develop an audit approach that yields tight privacy lower bounds for\nvarious DP protocols. Second, leveraging this framework, we demystify the\nmethod of privacy audit by one run, identifying the conditions under which\nsingle-run audits are feasible or infeasible. Our analysis provides general\nguidelines for conducting privacy audits and offers deeper insights into the\nprivacy audit.\n  Finally, through experiments, we demonstrate that our approach produces\ntighter privacy lower bounds on common differentially private mechanisms while\nrequiring significantly fewer observations. We also provide a case study\nillustrating that our method successfully detects privacy violations in flawed\nimplementations of private algorithms.",
+    "updated" : "2025-01-29T16:38:51Z",
+    "published" : "2025-01-29T16:38:51Z",
+    "authors" : [
+      {
+        "name" : "Zihang Xiang"
+      },
+      {
+        "name" : "Tianhao Wang"
+      },
+      {
+        "name" : "Di Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.17634v1",
+    "title" : "Federated Learning With Individualized Privacy Through Client Sampling",
+    "summary" : "With growing concerns about user data collection, individualized privacy has\nemerged as a promising solution to balance protection and utility by accounting\nfor diverse user privacy preferences. Instead of enforcing a uniform level of\nanonymization for all users, this approach allows individuals to choose privacy\nsettings that align with their comfort levels. Building on this idea, we\npropose an adapted method for enabling Individualized Differential Privacy\n(IDP) in Federated Learning (FL) by handling clients according to their\npersonal privacy preferences. By extending the SAMPLE algorithm from\ncentralized settings to FL, we calculate client-specific sampling rates based\non their heterogeneous privacy budgets and integrate them into a modified\nIDP-FedAvg algorithm. We test this method under realistic privacy distributions\nand multiple datasets. The experimental results demonstrate that our approach\nachieves clear improvements over uniform DP baselines, reducing the trade-off\nbetween privacy and utility. Compared to the alternative SCALE method in\nrelated work, which assigns differing noise scales to clients, our method\nperforms notably better. However, challenges remain for complex tasks with\nnon-i.i.d. data, primarily stemming from the constraints of the decentralized\nsetting.",
+    "updated" : "2025-01-29T13:11:21Z",
+    "published" : "2025-01-29T13:11:21Z",
+    "authors" : [
+      {
+        "name" : "Lucas Lange"
+      },
+      {
+        "name" : "Ole Borchardt"
+      },
+      {
+        "name" : "Erhard Rahm"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.14184v2",
+    "title" : "Tight Sample Complexity Bounds for Parameter Estimation Under Quantum\n  Differential Privacy for Qubits",
+    "summary" : "This short note provides tight upper and lower bounds for minimal number of\nsamples (copies of quantum states) required to attain a prescribed accuracy\n(measured by error variance) for scalar parameters using unbiased estimators\nunder quantum local differential privacy for qubits. In the small privacy\nbudget $\\epsilon$ regime, i.e., $\\epsilon\\ll 1$, the sample complexity scales\nas $\\Theta(\\epsilon^{-2})$. This bound matches that of classical parameter\nestimation under differential privacy. The lower bound loosens (converges to\nzero) in the large privacy budget regime, i.e., $\\epsilon\\gg 1$, but that case\nis not particularly interesting as tight bounds for parameter estimation in the\nnoiseless case are widely known. That being said, extensions to systems with\nhigher dimensions and tightening the bounds for the large privacy budget regime\nare interesting avenues for future research.",
+    "updated" : "2025-01-28T22:32:09Z",
+    "published" : "2025-01-24T02:23:51Z",
+    "authors" : [
+      {
+        "name" : "Farhad Farokhi"
+      }
+    ],
+    "categories" : [
+      "quant-ph",
+      "cs.CR",
+      "cs.IT",
+      "math.IT"
+    ]
   }
 ]
