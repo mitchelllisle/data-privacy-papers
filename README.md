@@ -2,6 +2,83 @@
 <h2>2025-01</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.17762v1">Improving Privacy Benefits of Redaction</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-01-29T16:53:16Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Vaibhav Gusain, Douglas Leith</p>
+    <p><b>Summary:</b> We propose a novel redaction methodology that can be used to sanitize natural
+text data. Our new technique provides better privacy benefits than other state
+of the art techniques while maintaining lower redaction levels.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.17750v1">Privacy Audit as Bits Transmission: (Im)possibilities for Audit by One
+  Run</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-01-29T16:38:51Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zihang Xiang, Tianhao Wang, Di Wang</p>
+    <p><b>Summary:</b> Auditing algorithms' privacy typically involves simulating a game-based
+protocol that guesses which of two adjacent datasets was the original input.
+Traditional approaches require thousands of such simulations, leading to
+significant computational overhead. Recent methods propose single-run auditing
+of the target algorithm to address this, substantially reducing computational
+cost. However, these methods' general applicability and tightness in producing
+empirical privacy guarantees remain uncertain.
+  This work studies such problems in detail. Our contributions are twofold:
+First, we introduce a unifying framework for privacy audits based on
+information-theoretic principles, modeling the audit as a bit transmission
+problem in a noisy channel. This formulation allows us to derive fundamental
+limits and develop an audit approach that yields tight privacy lower bounds for
+various DP protocols. Second, leveraging this framework, we demystify the
+method of privacy audit by one run, identifying the conditions under which
+single-run audits are feasible or infeasible. Our analysis provides general
+guidelines for conducting privacy audits and offers deeper insights into the
+privacy audit.
+  Finally, through experiments, we demonstrate that our approach produces
+tighter privacy lower bounds on common differentially private mechanisms while
+requiring significantly fewer observations. We also provide a case study
+illustrating that our method successfully detects privacy violations in flawed
+implementations of private algorithms.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.17634v1">Federated Learning With Individualized Privacy Through Client Sampling</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2025-01-29T13:11:21Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Lucas Lange, Ole Borchardt, Erhard Rahm</p>
+    <p><b>Summary:</b> With growing concerns about user data collection, individualized privacy has
+emerged as a promising solution to balance protection and utility by accounting
+for diverse user privacy preferences. Instead of enforcing a uniform level of
+anonymization for all users, this approach allows individuals to choose privacy
+settings that align with their comfort levels. Building on this idea, we
+propose an adapted method for enabling Individualized Differential Privacy
+(IDP) in Federated Learning (FL) by handling clients according to their
+personal privacy preferences. By extending the SAMPLE algorithm from
+centralized settings to FL, we calculate client-specific sampling rates based
+on their heterogeneous privacy budgets and integrate them into a modified
+IDP-FedAvg algorithm. We test this method under realistic privacy distributions
+and multiple datasets. The experimental results demonstrate that our approach
+achieves clear improvements over uniform DP baselines, reducing the trade-off
+between privacy and utility. Compared to the alternative SCALE method in
+related work, which assigns differing noise scales to clients, our method
+performs notably better. However, challenges remain for complex tasks with
+non-i.i.d. data, primarily stemming from the constraints of the decentralized
+setting.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2501.17089v1">CRSet: Non-Interactive Verifiable Credential Revocation with Metadata
   Privacy for Issuers and Everyone Else</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
@@ -445,7 +522,7 @@ decoding through its innovative design.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.14184v1">Tight Sample Complexity Bounds for Parameter Estimation Under Quantum
+  <h3><a href="http://arxiv.org/abs/2501.14184v2">Tight Sample Complexity Bounds for Parameter Estimation Under Quantum
   Differential Privacy for Qubits</a></h3>
    <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
   <p><b>Published on:</b> 2025-01-24T02:23:51Z</p>
@@ -2789,103 +2866,6 @@ clients. Empirical evaluations on the MovieLens and IMDb datasets demonstrate
 that FedRLHF not only preserves user privacy but also achieves performance on
 par with centralized RLHF, while enhancing personalization across diverse
 client environments.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.16246v1">Web Privacy based on Contextual Integrity: Measuring the Collapse of
-  Online Contexts</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2024-12-19T23:30:29Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ido Sivan-Sevilla, Parthav Poudel</p>
-    <p><b>Summary:</b> The collapse of social contexts has been amplified by digital infrastructures
-but surprisingly received insufficient attention from Web privacy scholars.
-Users are persistently identified within and across distinct web contexts, in
-varying degrees, through and by different websites and trackers, losing the
-ability to maintain a fragmented identity. To systematically evaluate this
-structural privacy harm we operationalize the theory of Privacy as Contextual
-Integrity and measure persistent user identification within and between
-distinct Web contexts. We crawl the top-700 popular websites across the
-contexts of health, finance, news & media, LGBTQ, eCommerce, adult, and
-education websites, for 27 days, to learn how persistent browser identification
-via third-party cookies and JavaScript fingerprinting is diffused within and
-between web contexts. Past work measured Web tracking in bulk, highlighting the
-volume of trackers and tracking techniques. These measurements miss a crucial
-privacy implication of Web tracking - the collapse of online contexts. Our
-findings reveal how persistent browser identification varies between and within
-contexts, diffusing user IDs to different distances, contrasting known tracking
-distributions across websites, and conducted as a joint or separate effort via
-cookie IDs and JS fingerprinting. Our network analysis can inform the
-construction of browser storage containers to protect users against real-time
-context collapse. This is a first modest step in measuring Web privacy as
-contextual integrity, opening new avenues for contextual Web privacy research.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.15047v1">Measuring, Modeling, and Helping People Account for Privacy Risks in
-  Online Self-Disclosures with AI</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2024-12-19T16:53:40Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Isadora Krsek, Anubha Kabra, Yao Dou, Tarek Naous, Laura A. Dabbish, Alan Ritter, Wei Xu, Sauvik Das</p>
-    <p><b>Summary:</b> In pseudonymous online fora like Reddit, the benefits of self-disclosure are
-often apparent to users (e.g., I can vent about my in-laws to understanding
-strangers), but the privacy risks are more abstract (e.g., will my partner be
-able to tell that this is me?). Prior work has sought to develop natural
-language processing (NLP) tools that help users identify potentially risky
-self-disclosures in their text, but none have been designed for or evaluated
-with the users they hope to protect. Absent this assessment, these tools will
-be limited by the social-technical gap: users need assistive tools that help
-them make informed decisions, not paternalistic tools that tell them to avoid
-self-disclosure altogether. To bridge this gap, we conducted a study with N =
-21 Reddit users; we had them use a state-of-the-art NLP disclosure detection
-model on two of their authored posts and asked them questions to understand if
-and how the model helped, where it fell short, and how it could be improved to
-help them make more informed decisions. Despite its imperfections, users
-responded positively to the model and highlighted its use as a tool that can
-help them catch mistakes, inform them of risks they were unaware of, and
-encourage self-reflection. However, our work also shows how, to be useful and
-usable, AI for supporting privacy decision-making must account for posting
-context, disclosure norms, and users' lived threat models, and provide
-explanations that help contextualize detected risks.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.14832v2">Federated Heavy Hitter Analytics with Local Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
-  <p><b>Published on:</b> 2024-12-19T13:20:32Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yuemin Zhang, Qingqing Ye, Haibo Hu</p>
-    <p><b>Summary:</b> Federated heavy hitter analytics enables service providers to better
-understand the preferences of cross-party users by analyzing the most frequent
-items. As with federated learning, it faces challenges of privacy concerns,
-statistical heterogeneity, and expensive communication. Local differential
-privacy (LDP), as the de facto standard for privacy-preserving data collection,
-solves the privacy challenge by letting each user perturb her data locally and
-report the sanitized version. However, in federated settings, applying LDP
-complicates the other two challenges, due to the deteriorated utility by the
-injected LDP noise or increasing communication/computation costs by
-perturbation mechanism. To tackle these problems, we propose a novel
-target-aligning prefix tree mechanism satisfying $\epsilon$-LDP, for federated
-heavy hitter analytics. In particular, we propose an adaptive extension
-strategy to address the inconsistencies between covering necessary prefixes and
-estimating heavy hitters within a party to enhance the utility. We also present
-a consensus-based pruning strategy that utilizes noisy prior knowledge from
-other parties to further align the inconsistency between finding heavy hitters
-in each party and providing reasonable frequency information to identify the
-global ones. To the best of our knowledge, our study is the first solution to
-the federated heavy hitter analytics in a cross-party setting while satisfying
-the stringent $\epsilon$-LDP. Comprehensive experiments on both real-world and
-synthetic datasets confirm the effectiveness of our proposed mechanism.</p>
   </details>
 </div>
 
