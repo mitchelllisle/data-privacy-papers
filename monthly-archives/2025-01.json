@@ -2091,5 +2091,44 @@
       "cs.IT",
       "math.IT"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.18174v1",
+    "title" : "Advancing Personalized Federated Learning: Integrative Approaches with\n  AI for Enhanced Privacy and Customization",
+    "summary" : "In the age of data-driven decision making, preserving privacy while providing\npersonalized experiences has become paramount. Personalized Federated Learning\n(PFL) offers a promising framework by decentralizing the learning process, thus\nensuring data privacy and reducing reliance on centralized data repositories.\nHowever, the integration of advanced Artificial Intelligence (AI) techniques\nwithin PFL remains underexplored. This paper proposes a novel approach that\nenhances PFL with cutting-edge AI methodologies including adaptive\noptimization, transfer learning, and differential privacy. We present a model\nthat not only boosts the performance of individual client models but also\nensures robust privacy-preserving mechanisms and efficient resource utilization\nacross heterogeneous networks. Empirical results demonstrate significant\nimprovements in model accuracy and personalization, along with stringent\nprivacy adherence, as compared to conventional federated learning models. This\nwork paves the way for a new era of truly personalized and privacy-conscious AI\nsystems, offering significant implications for industries requiring compliance\nwith stringent data protection regulations.",
+    "updated" : "2025-01-30T07:03:29Z",
+    "published" : "2025-01-30T07:03:29Z",
+    "authors" : [
+      {
+        "name" : "Kevin Cooper"
+      },
+      {
+        "name" : "Michael Geller"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "eess.SP"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.17762v2",
+    "title" : "Improving Privacy Benefits of Redaction",
+    "summary" : "We propose a novel redaction methodology that can be used to sanitize natural\ntext data. Our new technique provides better privacy benefits than other state\nof the art techniques while maintaining lower redaction levels.",
+    "updated" : "2025-01-30T05:26:05Z",
+    "published" : "2025-01-29T16:53:16Z",
+    "authors" : [
+      {
+        "name" : "Vaibhav Gusain"
+      },
+      {
+        "name" : "Douglas Leith"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CL",
+      "cs.LG"
+    ]
   }
 ]
