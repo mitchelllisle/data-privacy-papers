@@ -2,7 +2,35 @@
 <h2>2025-01</h2>
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.17762v1">Improving Privacy Benefits of Redaction</a></h3>
+  <h3><a href="http://arxiv.org/abs/2501.18174v1">Advancing Personalized Federated Learning: Integrative Approaches with
+  AI for Enhanced Privacy and Customization</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
+  <p><b>Published on:</b> 2025-01-30T07:03:29Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Kevin Cooper, Michael Geller</p>
+    <p><b>Summary:</b> In the age of data-driven decision making, preserving privacy while providing
+personalized experiences has become paramount. Personalized Federated Learning
+(PFL) offers a promising framework by decentralizing the learning process, thus
+ensuring data privacy and reducing reliance on centralized data repositories.
+However, the integration of advanced Artificial Intelligence (AI) techniques
+within PFL remains underexplored. This paper proposes a novel approach that
+enhances PFL with cutting-edge AI methodologies including adaptive
+optimization, transfer learning, and differential privacy. We present a model
+that not only boosts the performance of individual client models but also
+ensures robust privacy-preserving mechanisms and efficient resource utilization
+across heterogeneous networks. Empirical results demonstrate significant
+improvements in model accuracy and personalization, along with stringent
+privacy adherence, as compared to conventional federated learning models. This
+work paves the way for a new era of truly personalized and privacy-conscious AI
+systems, offering significant implications for industries requiring compliance
+with stringent data protection regulations.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.17762v2">Improving Privacy Benefits of Redaction</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2025-01-29T16:53:16Z</p>
   <details>
@@ -2838,34 +2866,6 @@ perturbations to obscure this attribute data, and finally use an image
 synthesis model to generate a protected face dataset. Extensive experimental
 results show that our scheme can maintain visual naturalness and balance the
 privacy-utility trade-off compared to the mainstream schemes.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.15538v1">FedRLHF: A Convergence-Guaranteed Federated Framework for
-  Privacy-Preserving and Personalized RLHF</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
-  <p><b>Published on:</b> 2024-12-20T03:56:31Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Flint Xiaofeng Fan, Cheston Tan, Yew-Soon Ong, Roger Wattenhofer, Wei-Tsang Ooi</p>
-    <p><b>Summary:</b> In the era of increasing privacy concerns and demand for personalized
-experiences, traditional Reinforcement Learning with Human Feedback (RLHF)
-frameworks face significant challenges due to their reliance on centralized
-data. We introduce Federated Reinforcement Learning with Human Feedback
-(FedRLHF), a novel framework that decentralizes the RLHF process. FedRLHF
-enables collaborative policy learning across multiple clients without
-necessitating the sharing of raw data or human feedback, thereby ensuring
-robust privacy preservation. Leveraging federated reinforcement learning, each
-client integrates human feedback locally into their reward functions and
-updates their policies through personalized RLHF processes. We establish
-rigorous theoretical foundations for FedRLHF, providing convergence guarantees,
-and deriving sample complexity bounds that scale efficiently with the number of
-clients. Empirical evaluations on the MovieLens and IMDb datasets demonstrate
-that FedRLHF not only preserves user privacy but also achieves performance on
-par with centralized RLHF, while enhancing personalization across diverse
-client environments.</p>
   </details>
 </div>
 
