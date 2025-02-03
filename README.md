@@ -2,6 +2,91 @@
 <h2>2025-01</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.19223v1">Through the Looking Glass: LLM-Based Analysis of AR/VR Android
+  Applications Privacy Policies</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-01-31T15:30:14Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Abdulaziz Alghamdi, David Mohaisen</p>
+    <p><b>Summary:</b> \begin{abstract} This paper comprehensively analyzes privacy policies in
+AR/VR applications, leveraging BERT, a state-of-the-art text classification
+model, to evaluate the clarity and thoroughness of these policies. By comparing
+the privacy policies of AR/VR applications with those of free and premium
+websites, this study provides a broad perspective on the current state of
+privacy practices within the AR/VR industry. Our findings indicate that AR/VR
+applications generally offer a higher percentage of positive segments than free
+content but lower than premium websites. The analysis of highlighted segments
+and words revealed that AR/VR applications strategically emphasize critical
+privacy practices and key terms. This enhances privacy policies' clarity and
+effectiveness.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.18862v1">Scalable Distributed Reproduction Numbers of Network Epidemics with
+  Differential Privacy</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
+  <p><b>Published on:</b> 2025-01-31T03:08:57Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Bo Chen, Baike She, Calvin Hawkins, Philip E. Paré, Matthew T. Hale</p>
+    <p><b>Summary:</b> Reproduction numbers are widely used for the estimation and prediction of
+epidemic spreading processes over networks. However, conventional reproduction
+numbers of an overall network do not indicate where an epidemic is spreading.
+Therefore, we propose a novel notion of local distributed reproduction numbers
+to capture the spreading behaviors of each node in a network. We first show how
+to compute them and then use them to derive new conditions under which an
+outbreak can occur. These conditions are then used to derive new conditions for
+the existence, uniqueness, and stability of equilibrium states of the
+underlying epidemic model. Building upon these local distributed reproduction
+numbers, we define cluster distributed reproduction numbers to model the spread
+between clusters composed of nodes. Furthermore, we demonstrate that the local
+distributed reproduction numbers can be aggregated into cluster distributed
+reproduction numbers at different scales. However, both local and cluster
+distributed reproduction numbers can reveal the frequency of interactions
+between nodes in a network, which raises privacy concerns. Thus, we next
+develop a privacy framework that implements a differential privacy mechanism to
+provably protect the frequency of interactions between nodes when computing
+distributed reproduction numbers. Numerical experiments show that, even under
+differential privacy, the distributed reproduction numbers provide accurate
+estimates of the epidemic spread while also providing more insights than
+conventional reproduction numbers.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.18727v1">Exploring Audio Editing Features as User-Centric Privacy Defenses
+  Against Emotion Inference Attacks</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Sound-D91E36"> 
+  <p><b>Published on:</b> 2025-01-30T20:07:44Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mohd. Farhan Israk Soumik, W. K. M. Mithsara, Abdur R. Shahid, Ahmed Imteaj</p>
+    <p><b>Summary:</b> The rapid proliferation of speech-enabled technologies, including virtual
+assistants, video conferencing platforms, and wearable devices, has raised
+significant privacy concerns, particularly regarding the inference of sensitive
+emotional information from audio data. Existing privacy-preserving methods
+often compromise usability and security, limiting their adoption in practical
+scenarios. This paper introduces a novel, user-centric approach that leverages
+familiar audio editing techniques, specifically pitch and tempo manipulation,
+to protect emotional privacy without sacrificing usability. By analyzing
+popular audio editing applications on Android and iOS platforms, we identified
+these features as both widely available and usable. We rigorously evaluated
+their effectiveness against a threat model, considering adversarial attacks
+from diverse sources, including Deep Neural Networks (DNNs), Large Language
+Models (LLMs), and and reversibility testing. Our experiments, conducted on
+three distinct datasets, demonstrate that pitch and tempo manipulation
+effectively obfuscates emotional data. Additionally, we explore the design
+principles for lightweight, on-device implementation to ensure broad
+applicability across various devices and platforms.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2501.18174v1">Advancing Personalized Federated Learning: Integrative Approaches with
   AI for Enhanced Privacy and Customization</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
@@ -225,6 +310,35 @@ our tool improves privacy awareness by providing a comprehensible quick
 overview and a quality chat for in-depth discussion, users note issues with
 consistency and building trust in the tool. From our insights, we derive
 important design implications to guide future policy analysis tools.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2501.18625v1">DUEF-GA: Data Utility and Privacy Evaluation Framework for Graph
+  Anonymization</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-01-27T12:22:40Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jordi Casas-Roma</p>
+    <p><b>Summary:</b> Anonymization of graph-based data is a problem which has been widely studied
+over the last years and several anonymization methods have been developed.
+Information loss measures have been used to evaluate data utility and
+information loss in the anonymized graphs. However, there is no consensus about
+how to evaluate data utility and information loss in privacy-preserving and
+anonymization scenarios, where the anonymous datasets were perturbed to hinder
+re-identification processes. Authors use diverse metrics to evaluate data
+utility and, consequently, it is complex to compare different methods or
+algorithms in literature. In this paper we propose a framework to evaluate and
+compare anonymous datasets in a common way, providing an objective score to
+clearly compare methods and algorithms. Our framework includes metrics based on
+generic information loss measures, such as average distance or betweenness
+centrality, and also task-specific information loss measures, such as community
+detection or information flow. Additionally, we provide some metrics to examine
+re-identification and risk assessment. We demonstrate that our framework could
+help researchers and practitioners to select the best parametrization and/or
+algorithm to reduce information loss and maximize data utility.</p>
   </details>
 </div>
 
@@ -2740,132 +2854,6 @@ assessment of the existing approaches. Based on these findings, we outline and
 discuss prospective research directions concerning empirical studies with
 software practitioners, the curation of benchmark datasets, and the role of
 generative AI technologies.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.16504v1">Privacy in Fine-tuning Large Language Models: Attacks, Defenses, and
-  Future Directions</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2024-12-21T06:41:29Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Hao Du, Shang Liu, Lele Zheng, Yang Cao, Atsuyoshi Nakamura, Lei Chen</p>
-    <p><b>Summary:</b> Fine-tuning has emerged as a critical process in leveraging Large Language
-Models (LLMs) for specific downstream tasks, enabling these models to achieve
-state-of-the-art performance across various domains. However, the fine-tuning
-process often involves sensitive datasets, introducing privacy risks that
-exploit the unique characteristics of this stage. In this paper, we provide a
-comprehensive survey of privacy challenges associated with fine-tuning LLMs,
-highlighting vulnerabilities to various privacy attacks, including membership
-inference, data extraction, and backdoor attacks. We further review defense
-mechanisms designed to mitigate privacy risks in the fine-tuning phase, such as
-differential privacy, federated learning, and knowledge unlearning, discussing
-their effectiveness and limitations in addressing privacy risks and maintaining
-model utility. By identifying key gaps in existing research, we highlight
-challenges and propose directions to advance the development of
-privacy-preserving methods for fine-tuning LLMs, promoting their responsible
-use in diverse applications.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.16369v1">Navigating AI to Unpack Youth Privacy Concerns: An In-Depth Exploration
-  and Systematic Review</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2024-12-20T22:00:06Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ajay Kumar Shrestha, Ankur Barthwal, Molly Campbell, Austin Shouli, Saad Syed, Sandhya Joshi, Julita Vassileva</p>
-    <p><b>Summary:</b> This systematic literature review investigates perceptions, concerns, and
-expectations of young digital citizens regarding privacy in artificial
-intelligence (AI) systems, focusing on social media platforms, educational
-technology, gaming systems, and recommendation algorithms. Using a rigorous
-methodology, the review started with 2,000 papers, narrowed down to 552 after
-initial screening, and finally refined to 108 for detailed analysis. Data
-extraction focused on privacy concerns, data-sharing practices, the balance
-between privacy and utility, trust factors in AI, transparency expectations,
-and strategies to enhance user control over personal data. Findings reveal
-significant privacy concerns among young users, including a perceived lack of
-control over personal information, potential misuse of data by AI, and fears of
-data breaches and unauthorized access. These issues are worsened by unclear
-data collection practices and insufficient transparency in AI applications. The
-intention to share data is closely associated with perceived benefits and data
-protection assurances. The study also highlights the role of parental mediation
-and the need for comprehensive education on data privacy. Balancing privacy and
-utility in AI applications is crucial, as young digital citizens value
-personalized services but remain wary of privacy risks. Trust in AI is
-significantly influenced by transparency, reliability, predictable behavior,
-and clear communication about data usage. Strategies to improve user control
-over personal data include access to and correction of data, clear consent
-mechanisms, and robust data protection assurances. The review identifies
-research gaps and suggests future directions, such as longitudinal studies,
-multicultural comparisons, and the development of ethical AI frameworks.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.16144v1">FedGAT: A Privacy-Preserving Federated Approximation Algorithm for Graph
-  Attention Networks</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
-  <p><b>Published on:</b> 2024-12-20T18:48:46Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Siddharth Ambekar, Yuhang Yao, Ryan Li, Carlee Joe-Wong</p>
-    <p><b>Summary:</b> Federated training methods have gained popularity for graph learning with
-applications including friendship graphs of social media sites and
-customer-merchant interaction graphs of huge online marketplaces. However,
-privacy regulations often require locally generated data to be stored on local
-clients. The graph is then naturally partitioned across clients, with no client
-permitted access to information stored on another. Cross-client edges arise
-naturally in such cases and present an interesting challenge to federated
-training methods, as training a graph model at one client requires feature
-information of nodes on the other end of cross-client edges. Attempting to
-retain such edges often incurs significant communication overhead, and dropping
-them altogether reduces model performance. In simpler models such as Graph
-Convolutional Networks, this can be fixed by communicating a limited amount of
-feature information across clients before training, but GATs (Graph Attention
-Networks) require additional information that cannot be pre-communicated, as it
-changes from training round to round. We introduce the Federated Graph
-Attention Network (FedGAT) algorithm for semi-supervised node classification,
-which approximates the behavior of GATs with provable bounds on the
-approximation error. FedGAT requires only one pre-training communication round,
-significantly reducing the communication overhead for federated GAT training.
-We then analyze the error in the approximation and examine the communication
-overhead and computational complexity of the algorithm. Experiments show that
-FedGAT achieves nearly the same accuracy as a GAT model in a centralised
-setting, and its performance is robust to the number of clients as well as data
-distribution.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.15590v1">SemDP: Semantic-level Differential Privacy Protection for Face Datasets</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2024-12-20T06:00:59Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Xiaoting Zhang, Tao Wang, Junhao Ji</p>
-    <p><b>Summary:</b> While large-scale face datasets have advanced deep learning-based face
-analysis, they also raise privacy concerns due to the sensitive personal
-information they contain. Recent schemes have implemented differential privacy
-to protect face datasets. However, these schemes generally treat each image as
-a separate database, which does not fully meet the core requirements of
-differential privacy. In this paper, we propose a semantic-level differential
-privacy protection scheme that applies to the entire face dataset. Unlike
-pixel-level differential privacy approaches, our scheme guarantees that
-semantic privacy in faces is not compromised. The key idea is to convert
-unstructured data into structured data to enable the application of
-differential privacy. Specifically, we first extract semantic information from
-the face dataset to build an attribute database, then apply differential
-perturbations to obscure this attribute data, and finally use an image
-synthesis model to generate a protected face dataset. Extensive experimental
-results show that our scheme can maintain visual naturalness and balance the
-privacy-utility trade-off compared to the mainstream schemes.</p>
   </details>
 </div>
 
