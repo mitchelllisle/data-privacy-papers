@@ -2130,5 +2130,95 @@
       "cs.CL",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.19223v1",
+    "title" : "Through the Looking Glass: LLM-Based Analysis of AR/VR Android\n  Applications Privacy Policies",
+    "summary" : "\\begin{abstract} This paper comprehensively analyzes privacy policies in\nAR/VR applications, leveraging BERT, a state-of-the-art text classification\nmodel, to evaluate the clarity and thoroughness of these policies. By comparing\nthe privacy policies of AR/VR applications with those of free and premium\nwebsites, this study provides a broad perspective on the current state of\nprivacy practices within the AR/VR industry. Our findings indicate that AR/VR\napplications generally offer a higher percentage of positive segments than free\ncontent but lower than premium websites. The analysis of highlighted segments\nand words revealed that AR/VR applications strategically emphasize critical\nprivacy practices and key terms. This enhances privacy policies' clarity and\neffectiveness.",
+    "updated" : "2025-01-31T15:30:14Z",
+    "published" : "2025-01-31T15:30:14Z",
+    "authors" : [
+      {
+        "name" : "Abdulaziz Alghamdi"
+      },
+      {
+        "name" : "David Mohaisen"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.18862v1",
+    "title" : "Scalable Distributed Reproduction Numbers of Network Epidemics with\n  Differential Privacy",
+    "summary" : "Reproduction numbers are widely used for the estimation and prediction of\nepidemic spreading processes over networks. However, conventional reproduction\nnumbers of an overall network do not indicate where an epidemic is spreading.\nTherefore, we propose a novel notion of local distributed reproduction numbers\nto capture the spreading behaviors of each node in a network. We first show how\nto compute them and then use them to derive new conditions under which an\noutbreak can occur. These conditions are then used to derive new conditions for\nthe existence, uniqueness, and stability of equilibrium states of the\nunderlying epidemic model. Building upon these local distributed reproduction\nnumbers, we define cluster distributed reproduction numbers to model the spread\nbetween clusters composed of nodes. Furthermore, we demonstrate that the local\ndistributed reproduction numbers can be aggregated into cluster distributed\nreproduction numbers at different scales. However, both local and cluster\ndistributed reproduction numbers can reveal the frequency of interactions\nbetween nodes in a network, which raises privacy concerns. Thus, we next\ndevelop a privacy framework that implements a differential privacy mechanism to\nprovably protect the frequency of interactions between nodes when computing\ndistributed reproduction numbers. Numerical experiments show that, even under\ndifferential privacy, the distributed reproduction numbers provide accurate\nestimates of the epidemic spread while also providing more insights than\nconventional reproduction numbers.",
+    "updated" : "2025-01-31T03:08:57Z",
+    "published" : "2025-01-31T03:08:57Z",
+    "authors" : [
+      {
+        "name" : "Bo Chen"
+      },
+      {
+        "name" : "Baike She"
+      },
+      {
+        "name" : "Calvin Hawkins"
+      },
+      {
+        "name" : "Philip E. Paré"
+      },
+      {
+        "name" : "Matthew T. Hale"
+      }
+    ],
+    "categories" : [
+      "eess.SY",
+      "cs.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.18727v1",
+    "title" : "Exploring Audio Editing Features as User-Centric Privacy Defenses\n  Against Emotion Inference Attacks",
+    "summary" : "The rapid proliferation of speech-enabled technologies, including virtual\nassistants, video conferencing platforms, and wearable devices, has raised\nsignificant privacy concerns, particularly regarding the inference of sensitive\nemotional information from audio data. Existing privacy-preserving methods\noften compromise usability and security, limiting their adoption in practical\nscenarios. This paper introduces a novel, user-centric approach that leverages\nfamiliar audio editing techniques, specifically pitch and tempo manipulation,\nto protect emotional privacy without sacrificing usability. By analyzing\npopular audio editing applications on Android and iOS platforms, we identified\nthese features as both widely available and usable. We rigorously evaluated\ntheir effectiveness against a threat model, considering adversarial attacks\nfrom diverse sources, including Deep Neural Networks (DNNs), Large Language\nModels (LLMs), and and reversibility testing. Our experiments, conducted on\nthree distinct datasets, demonstrate that pitch and tempo manipulation\neffectively obfuscates emotional data. Additionally, we explore the design\nprinciples for lightweight, on-device implementation to ensure broad\napplicability across various devices and platforms.",
+    "updated" : "2025-01-30T20:07:44Z",
+    "published" : "2025-01-30T20:07:44Z",
+    "authors" : [
+      {
+        "name" : "Mohd. Farhan Israk Soumik"
+      },
+      {
+        "name" : "W. K. M. Mithsara"
+      },
+      {
+        "name" : "Abdur R. Shahid"
+      },
+      {
+        "name" : "Ahmed Imteaj"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG",
+      "cs.SD",
+      "eess.AS"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.18625v1",
+    "title" : "DUEF-GA: Data Utility and Privacy Evaluation Framework for Graph\n  Anonymization",
+    "summary" : "Anonymization of graph-based data is a problem which has been widely studied\nover the last years and several anonymization methods have been developed.\nInformation loss measures have been used to evaluate data utility and\ninformation loss in the anonymized graphs. However, there is no consensus about\nhow to evaluate data utility and information loss in privacy-preserving and\nanonymization scenarios, where the anonymous datasets were perturbed to hinder\nre-identification processes. Authors use diverse metrics to evaluate data\nutility and, consequently, it is complex to compare different methods or\nalgorithms in literature. In this paper we propose a framework to evaluate and\ncompare anonymous datasets in a common way, providing an objective score to\nclearly compare methods and algorithms. Our framework includes metrics based on\ngeneric information loss measures, such as average distance or betweenness\ncentrality, and also task-specific information loss measures, such as community\ndetection or information flow. Additionally, we provide some metrics to examine\nre-identification and risk assessment. We demonstrate that our framework could\nhelp researchers and practitioners to select the best parametrization and/or\nalgorithm to reduce information loss and maximize data utility.",
+    "updated" : "2025-01-27T12:22:40Z",
+    "published" : "2025-01-27T12:22:40Z",
+    "authors" : [
+      {
+        "name" : "Jordi Casas-Roma"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
