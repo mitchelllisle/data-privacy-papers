@@ -2220,5 +2220,150 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.00192v1",
+    "title" : "PRECISE: PRivacy-loss-Efficient and Consistent Inference based on\n  poSterior quantilEs",
+    "summary" : "Differential privacy (DP) is a mathematical framework for releasing\ninformation with formal privacy guarantees. Despite the existence of various DP\nprocedures for performing a wide range of statistical analysis and machine\nlearning tasks, methods of good utility are still lacking in valid statistical\ninference with DP guarantees. We address this gap by introducing the notion of\nvalid Privacy-Preserving Interval Estimation (PPIE) and proposing\nPRivacy-loss-Efficient and Consistent Inference based on poSterior quantilEs\n(PRECISE). PRECISE is a general-purpose Bayesian approach for constructing\nprivacy-preserving posterior intervals. We establish the Mean-Squared-Error\n(MSE) consistency for our proposed private posterior quantiles converging to\nthe population posterior quantile as sample size or privacy loss increases. We\nconduct extensive experiments to compare the utilities of PRECISE with common\nexisting privacy-preserving inferential approaches in various inferential\ntasks, data types and sizes,and privacy loss levels. The results demonstrated a\nsignificant advantage of PRECISE with its nominal coverage and substantially\nnarrower intervals than the existing methods, which are prone to either\nunder-coverage or impractically wide intervals.",
+    "updated" : "2025-01-31T22:18:59Z",
+    "published" : "2025-01-31T22:18:59Z",
+    "authors" : [
+      {
+        "name" : "Ruyu Zhou"
+      },
+      {
+        "name" : "Fang Liu"
+      }
+    ],
+    "categories" : [
+      "stat.ME"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.00068v1",
+    "title" : "Privacy Preserving Charge Location Prediction for Electric Vehicles",
+    "summary" : "By 2050, electric vehicles (EVs) are projected to account for 70% of global\nvehicle sales. While EVs provide environmental benefits, they also pose\nchallenges for energy generation, grid infrastructure, and data privacy.\nCurrent research on EV routing and charge management often overlooks privacy\nwhen predicting energy demands, leaving sensitive mobility data vulnerable. To\naddress this, we developed a Federated Learning Transformer Network (FLTN) to\npredict EVs' next charge location with enhanced privacy measures. Each EV\noperates as a client, training an onboard FLTN model that shares only model\nweights, not raw data with a community-based Distributed Energy Resource\nManagement System (DERMS), which aggregates them into a community global model.\nTo further enhance privacy, non-transitory EVs use peer-to-peer weight sharing\nand augmentation within their community, obfuscating individual contributions\nand improving model accuracy. Community DERMS global model weights are then\nredistributed to EVs for continuous training. Our FLTN approach achieved up to\n92% accuracy while preserving data privacy, compared to our baseline\ncentralised model, which achieved 98% accuracy with no data privacy.\nSimulations conducted across diverse charge levels confirm the FLTN's ability\nto forecast energy demands over extended periods. We present a privacy-focused\nsolution for forecasting EV charge location prediction, effectively mitigating\ndata leakage risks.",
+    "updated" : "2025-01-31T03:14:36Z",
+    "published" : "2025-01-31T03:14:36Z",
+    "authors" : [
+      {
+        "name" : "Robert Marlin"
+      },
+      {
+        "name" : "Raja Jurdak"
+      },
+      {
+        "name" : "Alsharif Abuadbba"
+      },
+      {
+        "name" : "Dimity Miller"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "I.6.5"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.18862v2",
+    "title" : "Scalable Distributed Reproduction Numbers of Network Epidemics with\n  Differential Privacy",
+    "summary" : "Reproduction numbers are widely used for the estimation and prediction of\nepidemic spreading processes over networks. However, conventional reproduction\nnumbers of an overall network do not indicate where an epidemic is spreading.\nTherefore, we propose a novel notion of local distributed reproduction numbers\nto capture the spreading behaviors of each node in a network. We first show how\nto compute them and then use them to derive new conditions under which an\noutbreak can occur. These conditions are then used to derive new conditions for\nthe existence, uniqueness, and stability of equilibrium states of the\nunderlying epidemic model. Building upon these local distributed reproduction\nnumbers, we define cluster distributed reproduction numbers to model the spread\nbetween clusters composed of nodes. Furthermore, we demonstrate that the local\ndistributed reproduction numbers can be aggregated into cluster distributed\nreproduction numbers at different scales. However, both local and cluster\ndistributed reproduction numbers can reveal the frequency of interactions\nbetween nodes in a network, which raises privacy concerns. Thus, we next\ndevelop a privacy framework that implements a differential privacy mechanism to\nprovably protect the frequency of interactions between nodes when computing\ndistributed reproduction numbers. Numerical experiments show that, even under\ndifferential privacy, the distributed reproduction numbers provide accurate\nestimates of the epidemic spread while also providing more insights than\nconventional reproduction numbers.",
+    "updated" : "2025-02-04T02:16:21Z",
+    "published" : "2025-01-31T03:08:57Z",
+    "authors" : [
+      {
+        "name" : "Bo Chen"
+      },
+      {
+        "name" : "Baike She"
+      },
+      {
+        "name" : "Calvin Hawkins"
+      },
+      {
+        "name" : "Philip E. Paré"
+      },
+      {
+        "name" : "Matthew T. Hale"
+      }
+    ],
+    "categories" : [
+      "eess.SY",
+      "cs.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.00067v1",
+    "title" : "Decoding User Concerns in AI Health Chatbots: An Exploration of Security\n  and Privacy in App Reviews",
+    "summary" : "AI powered health chatbot applications are increasingly utilized for\npersonalized healthcare services, yet they pose significant challenges related\nto user data security and privacy. This study evaluates the effectiveness of\nautomated methods, specifically BART and Gemini GenAI, in identifying security\nprivacy related (SPR) concerns within these applications' user reviews,\nbenchmarking their performance against manual qualitative analysis. Our results\nindicate that while Gemini's performance in SPR classification is comparable to\nmanual labeling, both automated methods have limitations, including the\nmisclassification of unrelated issues. Qualitative analysis revealed critical\nuser concerns, such as data collection practices, data misuse, and insufficient\ntransparency and consent mechanisms. This research enhances the understanding\nof the relationship between user trust, privacy, and emerging mobile AI health\nchatbot technologies, offering actionable insights for improving security and\nprivacy practices in AI driven health chatbots. Although exploratory, our\nfindings highlight the necessity for rigorous audits and transparent\ncommunication strategies, providing valuable guidance for app developers and\nvendors in addressing user security and privacy concerns.",
+    "updated" : "2025-01-31T00:38:37Z",
+    "published" : "2025-01-31T00:38:37Z",
+    "authors" : [
+      {
+        "name" : "Muhammad Hassan"
+      },
+      {
+        "name" : "Abdullah Ghani"
+      },
+      {
+        "name" : "Muhammad Fareed Zaffar"
+      },
+      {
+        "name" : "Masooda Bashir"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.ET",
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.01649v1",
+    "title" : "Privacy-Preserving Edge Speech Understanding with Tiny Foundation Models",
+    "summary" : "Robust speech recognition systems rely on cloud service providers for\ninference. It needs to ensure that an untrustworthy provider cannot deduce the\nsensitive content in speech. Sanitization can be done on speech content keeping\nin mind that it has to avoid compromising transcription accuracy. Realizing the\nunder utilized capabilities of tiny speech foundation models (FMs), for the\nfirst time, we propose a novel use: enhancing speech privacy on\nresource-constrained devices. We introduce XYZ, an edge/cloud privacy\npreserving speech inference engine that can filter sensitive entities without\ncompromising transcript accuracy. We utilize a timestamp based on-device\nmasking approach that utilizes a token to entity prediction model to filter\nsensitive entities. Our choice of mask strategically conceals parts of the\ninput and hides sensitive data. The masked input is sent to a trusted cloud\nservice or to a local hub to generate the masked output. The effectiveness of\nXYZ hinges on how well the entity time segments are masked. Our recovery is a\nconfidence score based approach that chooses the best prediction between cloud\nand on-device model. We implement XYZ on a 64 bit Raspberry Pi 4B. Experiments\nshow that our solution leads to robust speech recognition without forsaking\nprivacy. XYZ with < 100 MB memory, achieves state-of-the-art (SOTA) speech\ntranscription performance while filtering about 83% of private entities\ndirectly on-device. XYZ is 16x smaller in memory and 17x more compute efficient\nthan prior privacy preserving speech frameworks and has a relative reduction in\nword error rate (WER) by 38.8-77.5% when compared to existing offline\ntranscription services.",
+    "updated" : "2025-01-29T18:55:42Z",
+    "published" : "2025-01-29T18:55:42Z",
+    "authors" : [
+      {
+        "name" : "Afsara Benazir"
+      },
+      {
+        "name" : "Felix Xiaozhu Lin"
+      }
+    ],
+    "categories" : [
+      "eess.AS",
+      "cs.LG",
+      "cs.SD"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.04409v2",
+    "title" : "Lossless Privacy-Preserving Aggregation for Decentralized Federated\n  Learning",
+    "summary" : "Privacy concerns arise as sensitive data proliferate. Despite decentralized\nfederated learning (DFL) aggregating gradients from neighbors to avoid direct\ndata transmission, it still poses indirect data leaks from the transmitted\ngradients. Existing privacy-preserving methods for DFL add noise to gradients.\nThey either diminish the model predictive accuracy or suffer from ineffective\ngradient protection. In this paper, we propose a novel lossless\nprivacy-preserving aggregation rule named LPPA to enhance gradient protection\nas much as possible but without loss of DFL model predictive accuracy. LPPA\nsubtly injects the noise difference between the sent and received noise into\ntransmitted gradients for gradient protection. The noise difference\nincorporates neighbors' randomness for each client, effectively safeguarding\nagainst data leaks. LPPA employs the noise flow conservation theory to ensure\nthat the noise impact can be globally eliminated. The global sum of all noise\ndifferences remains zero, ensuring that accurate gradient aggregation is\nunaffected and the model accuracy remains intact. We theoretically prove that\nthe privacy-preserving capacity of LPPA is \\sqrt{2} times greater than that of\nnoise addition, while maintaining comparable model accuracy to the standard DFL\naggregation without noise injection. Experimental results verify the\ntheoretical findings and show that LPPA achieves a 14% mean improvement in\naccuracy over noise addition. We also demonstrate the effectiveness of LPPA in\nprotecting raw data and guaranteeing lossless model accuracy.",
+    "updated" : "2025-02-04T05:00:55Z",
+    "published" : "2025-01-08T10:49:06Z",
+    "authors" : [
+      {
+        "name" : "Xiaoye Miao"
+      },
+      {
+        "name" : "Bin Li"
+      },
+      {
+        "name" : " Yanzhang"
+      },
+      {
+        "name" : "Xinkui Zhao"
+      },
+      {
+        "name" : "Yangyang Wu"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
   }
 ]
