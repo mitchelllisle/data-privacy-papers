@@ -2365,5 +2365,30 @@
     "categories" : [
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.12359v2",
+    "title" : "Measured Hockey-Stick Divergence and its Applications to Quantum\n  Pufferfish Privacy",
+    "summary" : "The hockey-stick divergence is a fundamental quantity characterizing several\nstatistical privacy frameworks that ensure privacy for classical and quantum\ndata. In such quantum privacy frameworks, the adversary is allowed to perform\nall possible measurements. However, in practice, there are typically\nlimitations to the set of measurements that can be performed. To this end,\nhere, we comprehensively analyze the measured hockey-stick divergence under\nseveral classes of practically relevant measurement classes. We prove several\nof its properties, including data processing and convexity. We show that it is\nefficiently computable by semi-definite programming for some classes of\nmeasurements and can be analytically evaluated for Werner and isotropic states.\nNotably, we show that the measured hockey-stick divergence characterizes\noptimal privacy parameters in the quantum pufferfish privacy framework. With\nthis connection and the developed technical tools, we enable methods to\nquantify and audit privacy for several practically relevant settings. Lastly,\nwe introduce the measured hockey-stick divergence of channels and explore its\napplications in ensuring privacy for channels.",
+    "updated" : "2025-02-05T15:19:54Z",
+    "published" : "2025-01-21T18:39:48Z",
+    "authors" : [
+      {
+        "name" : "Theshani Nuradha"
+      },
+      {
+        "name" : "Vishal Singh"
+      },
+      {
+        "name" : "Mark M. Wilde"
+      }
+    ],
+    "categories" : [
+      "quant-ph",
+      "cs.CR",
+      "cs.IT",
+      "cs.LG",
+      "math.IT"
+    ]
   }
 ]
