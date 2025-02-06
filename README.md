@@ -1121,7 +1121,7 @@ supporting user trust and compliance across operational contexts.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.12359v1">Measured Hockey-Stick Divergence and its Applications to Quantum
+  <h3><a href="http://arxiv.org/abs/2501.12359v2">Measured Hockey-Stick Divergence and its Applications to Quantum
   Pufferfish Privacy</a></h3>
    <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
   <p><b>Published on:</b> 2025-01-21T18:39:48Z</p>
@@ -2392,6 +2392,63 @@ among usability, privacy, and practicality.</p>
 <h2>2025-02</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2502.02913v1">Privacy Token: Surprised to Find Out What You Accidentally Revealed</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-02-05T06:20:20Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jiayang Meng, Tao Huang, Xin Shi, Qingyu Huang, Chen Hou, Hong Chen</p>
+    <p><b>Summary:</b> The widespread deployment of deep learning models in privacy-sensitive
+domains has amplified concerns regarding privacy risks, particularly those
+stemming from gradient leakage during training. Current privacy assessments
+primarily rely on post-training attack simulations. However, these methods are
+inherently reactive, unable to encompass all potential attack scenarios, and
+often based on idealized adversarial assumptions. These limitations underscore
+the need for proactive approaches to privacy risk assessment during the
+training process. To address this gap, we propose the concept of privacy
+tokens, which are derived directly from private gradients during training.
+Privacy tokens encapsulate gradient features and, when combined with data
+features, offer valuable insights into the extent of private information
+leakage from training data, enabling real-time measurement of privacy risks
+without relying on adversarial attack simulations. Additionally, we employ
+Mutual Information (MI) as a robust metric to quantify the relationship between
+training data and gradients, providing precise and continuous assessments of
+privacy leakage throughout the training process. Extensive experiments validate
+our framework, demonstrating the effectiveness of privacy tokens and MI in
+identifying and quantifying privacy risks. This proactive approach marks a
+significant advancement in privacy monitoring, promoting the safer deployment
+of deep learning models in sensitive applications.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2502.02749v1">Unveiling Privacy and Security Gaps in Female Health Apps</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-02-04T22:34:03Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Muhammad Hassan, Mahnoor Jameel, Tian Wang, Masooda Bashir</p>
+    <p><b>Summary:</b> Female Health Applications (FHA), a growing segment of FemTech, aim to
+provide affordable and accessible healthcare solutions for women globally.
+These applications gather and monitor health and reproductive data from
+millions of users. With ongoing debates on women's reproductive rights and
+privacy, it's crucial to assess how these apps protect users' privacy. In this
+paper, we undertake a security and data protection assessment of 45 popular
+FHAs. Our investigation uncovers harmful permissions, extensive collection of
+sensitive personal and medical data, and the presence of numerous third-party
+tracking libraries. Furthermore, our examination of their privacy policies
+reveals deviations from fundamental data privacy principles. These findings
+highlight a significant lack of privacy and security measures for FemTech apps,
+especially as women's reproductive rights face growing political challenges.
+The results and recommendations provide valuable insights for users, app
+developers, and policymakers, paving the way for better privacy and security in
+Female Health Applications.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2502.02520v1">Privacy by Design for Self-Sovereign Identity Systems: An in-depth
   Component Analysis completed by a Design Assistance Dashboard</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
@@ -2808,72 +2865,6 @@ models and these explainers. Furthermore, our work throws light on how RTP and
 RTE can be effectively combined in high-stakes applications. Our study
 concludes by outlining an industrial software pipeline, with the example of a
 wildly used use-case, that respects both RTP and RTE requirements.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.20762v1">Enhancing Privacy in Federated Learning through Quantum Teleportation
-  Integration</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">  
-  <p><b>Published on:</b> 2024-12-30T07:15:21Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Koffka Khan</p>
-    <p><b>Summary:</b> Federated learning enables collaborative model training across multiple
-clients without sharing raw data, thereby enhancing privacy. However, the
-exchange of model updates can still expose sensitive information. Quantum
-teleportation, a process that transfers quantum states between distant
-locations without physical transmission of the particles themselves, has
-recently been implemented in real-world networks. This position paper explores
-the potential of integrating quantum teleportation into federated learning
-frameworks to bolster privacy. By leveraging quantum entanglement and the
-no-cloning theorem, quantum teleportation ensures that data remains secure
-during transmission, as any eavesdropping attempt would be detectable. We
-propose a novel architecture where quantum teleportation facilitates the secure
-exchange of model parameters and gradients among clients and servers. This
-integration aims to mitigate risks associated with data leakage and adversarial
-attacks inherent in classical federated learning setups. We also discuss the
-practical challenges of implementing such a system, including the current
-limitations of quantum network infrastructure and the need for hybrid
-quantum-classical protocols. Our analysis suggests that, despite these
-challenges, the convergence of quantum communication technologies and federated
-learning presents a promising avenue for achieving unprecedented levels of
-privacy in distributed machine learning.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.20733v1">Towards nation-wide analytical healthcare infrastructures: A
-  privacy-preserving augmented knee rehabilitation case study</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Multimedia-5BC0EB">
-  <p><b>Published on:</b> 2024-12-30T06:14:48Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Boris Bačić, Claudiu Vasile, Chengwei Feng, Marian G. Ciucă</p>
-    <p><b>Summary:</b> The purpose of this paper is to contribute towards the near-future
-privacy-preserving big data analytical healthcare platforms, capable of
-processing streamed or uploaded timeseries data or videos from patients. The
-experimental work includes a real-life knee rehabilitation video dataset
-capturing a set of exercises from simple and personalised to more general and
-challenging movements aimed for returning to sport. To convert video from
-mobile into privacy-preserving diagnostic timeseries data, we employed Google
-MediaPipe pose estimation. The developed proof-of-concept algorithms can
-augment knee exercise videos by overlaying the patient with stick figure
-elements while updating generated timeseries plot with knee angle estimation
-streamed as CSV file format. For patients and physiotherapists, video with
-side-to-side timeseries visually indicating potential issues such as excessive
-knee flexion or unstable knee movements or stick figure overlay errors is
-possible by setting a-priori knee-angle parameters. To address adherence to
-rehabilitation programme and quantify exercise sets and repetitions, our
-adaptive algorithm can correctly identify (91.67%-100%) of all exercises from
-side- and front-view videos. Transparent algorithm design for adaptive visual
-analysis of various knee exercise patterns contributes towards the
-interpretable AI and will inform near-future privacy-preserving, non-vendor
-locking, open-source developments for both end-user computing devices and as
-on-premises non-proprietary cloud platforms that can be deployed within the
-national healthcare system.</p>
   </details>
 </div>
 
