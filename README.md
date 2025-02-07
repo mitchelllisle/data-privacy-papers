@@ -2392,7 +2392,79 @@ among usability, privacy, and practicality.</p>
 <h2>2025-02</h2>
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.02913v1">Privacy Token: Surprised to Find Out What You Accidentally Revealed</a></h3>
+  <h3><a href="http://arxiv.org/abs/2502.04045v1">Comparing privacy notions for protection against reconstruction attacks
+  in machine learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
+  <p><b>Published on:</b> 2025-02-06T13:04:25Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Sayan Biswas, Mark Dras, Pedro Faustini, Natasha Fernandes, Annabelle McIver, Catuscia Palamidessi, Parastoo Sadeghi</p>
+    <p><b>Summary:</b> Within the machine learning community, reconstruction attacks are a principal
+concern and have been identified even in federated learning (FL), which was
+designed with privacy preservation in mind. In response to these threats, the
+privacy community recommends the use of differential privacy (DP) in the
+stochastic gradient descent algorithm, termed DP-SGD. However, the
+proliferation of variants of DP in recent years\textemdash such as metric
+privacy\textemdash has made it challenging to conduct a fair comparison between
+different mechanisms due to the different meanings of the privacy parameters
+$\epsilon$ and $\delta$ across different variants. Thus, interpreting the
+practical implications of $\epsilon$ and $\delta$ in the FL context and amongst
+variants of DP remains ambiguous. In this paper, we lay a foundational
+framework for comparing mechanisms with differing notions of privacy
+guarantees, namely $(\epsilon,\delta)$-DP and metric privacy. We provide two
+foundational means of comparison: firstly, via the well-established
+$(\epsilon,\delta)$-DP guarantees, made possible through the R\'enyi
+differential privacy framework; and secondly, via Bayes' capacity, which we
+identify as an appropriate measure for reconstruction threats.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2502.03811v1">Privacy Risks in Health Big Data: A Systematic Literature Review</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-02-06T06:44:36Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zhang Si Yuan, Manmeet Mahinderjit Singh</p>
+    <p><b>Summary:</b> The digitization of health records has greatly improved the efficiency of the
+healthcare system and promoted the formulation of related research and
+policies. However, the widespread application of advanced technologies such as
+electronic health records, genomic data, and wearable devices in the field of
+health big data has also intensified the collection of personal sensitive data,
+bringing serious privacy and security issues. Based on a systematic literature
+review (SLR), this paper comprehensively outlines the key research in the field
+of health big data security. By analyzing existing research, this paper
+explores how cutting-edge technologies such as homomorphic encryption,
+blockchain, federated learning, and artificial immune systems can enhance data
+security while protecting personal privacy. This paper also points out the
+current challenges and proposes a future research framework in this key area.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2502.03668v1">Privacy-Preserving Generative Models: A Comprehensive Survey</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-02-05T23:24:43Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Debalina Padariya, Isabel Wagner, Aboozar Taherkhani, Eerke Boiten</p>
+    <p><b>Summary:</b> Despite the generative model's groundbreaking success, the need to study its
+implications for privacy and utility becomes more urgent. Although many studies
+have demonstrated the privacy threats brought by GANs, no existing survey has
+systematically categorized the privacy and utility perspectives of GANs and
+VAEs. In this article, we comprehensively study privacy-preserving generative
+models, articulating the novel taxonomies for both privacy and utility metrics
+by analyzing 100 research publications. Finally, we discuss the current
+challenges and future research directions that help new researchers gain
+insight into the underlying concepts.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2502.02913v2">Privacy Token: Surprised to Find Out What You Accidentally Revealed</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2025-02-05T06:20:20Z</p>
   <details>
@@ -2772,99 +2844,6 @@ operations like voltage regulation and load sharing under EU-FDI threats. The
 framework's practicality is validated through hardware-in-the-loop experiments,
 demonstrating its enhanced resilience and robust privacy protection against the
 complex challenges posed by quick variant FDI attacks.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.00363v1">SPDZCoder: Teaching LLMs to Synthesize Privacy Computing Code without
-  Massive Training Data</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
-  <p><b>Published on:</b> 2024-12-31T09:29:38Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Xiaoning Dong, Peilin Xin, Wei Xu</p>
-    <p><b>Summary:</b> Privacy computing receives increasing attention but writing privacy computing
-code remains challenging for developers due to limited library functions that
-necessitate extensive function implementation from scratch as well as the
-data-oblivious requirement which contradicts intuitive thinking and usual
-practices of programmers. Large language models (LLMs) have demonstrated
-surprising capabilities in coding tasks and achieved state-of-the-art
-performance across many benchmarks. However, even with extensive prompting,
-existing LLMs struggle with code translation task for privacy computing, such
-as translating Python to MP-SPDZ, due to the scarcity of MP-SPDZ data required
-for effective pre-training or fine-tuning. To address the limitation, this
-paper proposes SPDZCoder, a rule-based framework to teach LLMs to synthesize
-privacy computing code without asking experts to write tons of code and by
-leveraging the instruction-following and in-context learning ability of LLMs.
-Specifically, SPDZCoder decouples the translation task into the refactoring
-stage and the generation stage, which can mitigate the semantic-expressing
-differences at different levels. In addition, SPDZCoder can further improve its
-performance by a feedback stage. SPDZCoder does not require fine-tuning since
-it adopts an in-context learning paradigm of LLMs. To evaluate SPDZCoder, we
-manually created a benchmark dataset, named SPDZEval, containing six classes of
-difficult tasks to implement in MP-SPDZ. We conduct experiments on SPDZEval and
-the experimental results shows that SPDZCoder achieves the state-of-the-art
-performance in pass@1 and pass@2 across six data splits. Specifically,
-SPDZCoder achieves an overall correctness of 85.94% and 92.01% in pass@1 and
-pass@2, respectively, significantly surpassing baselines (at most 30.35% and
-49.84% in pass@1 and pass@2, respectively) by a large margin.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.21069v1">Privacy-Aware Multi-Device Cooperative Edge Inference with Distributed
-  Resource Bidding</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
-  <p><b>Published on:</b> 2024-12-30T16:37:17Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Wenhao Zhuang, Yuyi Mao</p>
-    <p><b>Summary:</b> Mobile edge computing (MEC) has empowered mobile devices (MDs) in supporting
-artificial intelligence (AI) applications through collaborative efforts with
-proximal MEC servers. Unfortunately, despite the great promise of device-edge
-cooperative AI inference, data privacy becomes an increasing concern. In this
-paper, we develop a privacy-aware multi-device cooperative edge inference
-system for classification tasks, which integrates a distributed bidding
-mechanism for the MEC server's computational resources. Intermediate feature
-compression is adopted as a principled approach to minimize data privacy
-leakage. To determine the bidding values and feature compression ratios in a
-distributed fashion, we formulate a decentralized partially observable Markov
-decision process (DEC-POMDP) model, for which, a multi-agent deep deterministic
-policy gradient (MADDPG)-based algorithm is developed. Simulation results
-demonstrate the effectiveness of the proposed algorithm in privacy-preserving
-cooperative edge inference. Specifically, given a sufficient level of data
-privacy protection, the proposed algorithm achieves 0.31-0.95% improvements in
-classification accuracy compared to the approach being agnostic to the wireless
-channel conditions. The performance is further enhanced by 1.54-1.67% by
-considering the difficulties of inference data.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.20798v2">A Tale of Two Imperatives: Privacy and Explainability</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2024-12-30T08:43:28Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Supriya Manna, Niladri Sett</p>
-    <p><b>Summary:</b> Deep learning's preponderance across scientific domains has reshaped
-high-stakes decision-making, making it essential to follow rigorous operational
-frameworks that include both Right-to-Privacy (RTP) and Right-to-Explanation
-(RTE). This paper examines the complexities of combining these two
-requirements. For RTP, we focus on `Differential privacy' (DP), which is
-considered the current \textit{gold standard} for privacy-preserving machine
-learning due to its strong quantitative guarantee of privacy. For RTE, we focus
-on post-hoc explainers: they are the \textit{go-to} option for model auditing
-as they operate independently of model training. We formally investigate DP
-models and various commonly-used post-hoc explainers: how to evaluate these
-explainers subject to RTP, and analyze the intrinsic interactions between DP
-models and these explainers. Furthermore, our work throws light on how RTP and
-RTE can be effectively combined in high-stakes applications. Our study
-concludes by outlining an industrial software pipeline, with the example of a
-wildly used use-case, that respects both RTP and RTE requirements.</p>
   </details>
 </div>
 
