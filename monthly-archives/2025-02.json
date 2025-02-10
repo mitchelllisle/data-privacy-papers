@@ -433,5 +433,82 @@
       "cs.LG",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.04758v1",
+    "title" : "Differential Privacy of Quantum and Quantum-Inspired-Classical\n  Recommendation Algorithms",
+    "summary" : "We analyze the DP (differential privacy) properties of the quantum\nrecommendation algorithm and the quantum-inspired-classical recommendation\nalgorithm. We discover that the quantum recommendation algorithm is a privacy\ncurating mechanism on its own, requiring no external noise, which is different\nfrom traditional differential privacy mechanisms. In our analysis, a novel\nperturbation method tailored for SVD (singular value decomposition) and\nlow-rank matrix approximation problems is introduced. Using the perturbation\nmethod and random matrix theory, we are able to derive that both the quantum\nand quantum-inspired-classical algorithms are\n$\\big(\\tilde{\\mathcal{O}}\\big(\\frac 1n\\big),\\,\\,\n\\tilde{\\mathcal{O}}\\big(\\frac{1}{\\min\\{m,n\\}}\\big)\\big)$-DP under some\nreasonable restrictions, where $m$ and $n$ are numbers of users and products in\nthe input preference database respectively. Nevertheless, a comparison shows\nthat the quantum algorithm has better privacy preserving potential than the\nclassical one.",
+    "updated" : "2025-02-07T08:45:00Z",
+    "published" : "2025-02-07T08:45:00Z",
+    "authors" : [
+      {
+        "name" : "Chenjian Li"
+      },
+      {
+        "name" : "Mingsheng Ying"
+      }
+    ],
+    "categories" : [
+      "quant-ph",
+      "cs.CR",
+      "cs.ET",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.04365v1",
+    "title" : "AI-Based Thermal Video Analysis in Privacy-Preserving Healthcare: A Case\n  Study on Detecting Time of Birth",
+    "summary" : "Approximately 10% of newborns need some assistance to start breathing and 5\\%\nproper ventilation. It is crucial that interventions are initiated as soon as\npossible after birth. Accurate documentation of Time of Birth (ToB) is thereby\nessential for documenting and improving newborn resuscitation performance.\nHowever, current clinical practices rely on manual recording of ToB, typically\nwith minute precision. In this study, we present an AI-driven, video-based\nsystem for automated ToB detection using thermal imaging, designed to preserve\nthe privacy of healthcare providers and mothers by avoiding the use of\nidentifiable visual data. Our approach achieves 91.4% precision and 97.4%\nrecall in detecting ToB within thermal video clips during performance\nevaluation. Additionally, our system successfully identifies ToB in 96% of test\ncases with an absolute median deviation of 1 second compared to manual\nannotations. This method offers a reliable solution for improving ToB\ndocumentation and enhancing newborn resuscitation outcomes.",
+    "updated" : "2025-02-05T07:01:49Z",
+    "published" : "2025-02-05T07:01:49Z",
+    "authors" : [
+      {
+        "name" : "Jorge García-Torres"
+      },
+      {
+        "name" : "Øyvind Meinich-Bache"
+      },
+      {
+        "name" : "Siren Rettedal"
+      },
+      {
+        "name" : "Kjersti Engan"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.02913v3",
+    "title" : "Real-Time Privacy Risk Measurement with Privacy Tokens for Gradient\n  Leakage",
+    "summary" : "The widespread deployment of deep learning models in privacy-sensitive\ndomains has amplified concerns regarding privacy risks, particularly those\nstemming from gradient leakage during training. Current privacy assessments\nprimarily rely on post-training attack simulations. However, these methods are\ninherently reactive, unable to encompass all potential attack scenarios, and\noften based on idealized adversarial assumptions. These limitations underscore\nthe need for proactive approaches to privacy risk assessment during the\ntraining process. To address this gap, we propose the concept of privacy\ntokens, which are derived directly from private gradients during training.\nPrivacy tokens encapsulate gradient features and, when combined with data\nfeatures, offer valuable insights into the extent of private information\nleakage from training data, enabling real-time measurement of privacy risks\nwithout relying on adversarial attack simulations. Additionally, we employ\nMutual Information (MI) as a robust metric to quantify the relationship between\ntraining data and gradients, providing precise and continuous assessments of\nprivacy leakage throughout the training process. Extensive experiments validate\nour framework, demonstrating the effectiveness of privacy tokens and MI in\nidentifying and quantifying privacy risks. This proactive approach marks a\nsignificant advancement in privacy monitoring, promoting the safer deployment\nof deep learning models in sensitive applications.",
+    "updated" : "2025-02-07T09:10:09Z",
+    "published" : "2025-02-05T06:20:20Z",
+    "authors" : [
+      {
+        "name" : "Jiayang Meng"
+      },
+      {
+        "name" : "Tao Huang"
+      },
+      {
+        "name" : "Hong Chen"
+      },
+      {
+        "name" : "Xin Shi"
+      },
+      {
+        "name" : "Qingyu Huang"
+      },
+      {
+        "name" : "Chen Hou"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
   }
 ]
