@@ -510,5 +510,196 @@
       "cs.LG",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.06652v1",
+    "title" : "Transparent NLP: Using RAG and LLM Alignment for Privacy Q&A",
+    "summary" : "The transparency principle of the General Data Protection Regulation (GDPR)\nrequires data processing information to be clear, precise, and accessible.\nWhile language models show promise in this context, their probabilistic nature\ncomplicates truthfulness and comprehensibility.\n  This paper examines state-of-the-art Retrieval Augmented Generation (RAG)\nsystems enhanced with alignment techniques to fulfill GDPR obligations. We\nevaluate RAG systems incorporating an alignment module like Rewindable\nAuto-regressive Inference (RAIN) and our proposed multidimensional extension,\nMultiRAIN, using a Privacy Q&A dataset. Responses are optimized for preciseness\nand comprehensibility and are assessed through 21 metrics, including\ndeterministic and large language model-based evaluations.\n  Our results show that RAG systems with an alignment module outperform\nbaseline RAG systems on most metrics, though none fully match human answers.\nPrincipal component analysis of the results reveals complex interactions\nbetween metrics, highlighting the need to refine metrics. This study provides a\nfoundation for integrating advanced natural language processing systems into\nlegal compliance frameworks.",
+    "updated" : "2025-02-10T16:42:00Z",
+    "published" : "2025-02-10T16:42:00Z",
+    "authors" : [
+      {
+        "name" : "Anna Leschanowsky"
+      },
+      {
+        "name" : "Zahra Kolagar"
+      },
+      {
+        "name" : "Erion Çano"
+      },
+      {
+        "name" : "Ivan Habernal"
+      },
+      {
+        "name" : "Dara Hallinan"
+      },
+      {
+        "name" : "Emanuël A. P. Habets"
+      },
+      {
+        "name" : "Birgit Popp"
+      }
+    ],
+    "categories" : [
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.06597v1",
+    "title" : "Continual Release Moment Estimation with Differential Privacy",
+    "summary" : "We propose Joint Moment Estimation (JME), a method for continually and\nprivately estimating both the first and second moments of data with reduced\nnoise compared to naive approaches. JME uses the matrix mechanism and a joint\nsensitivity analysis to allow the second moment estimation with no additional\nprivacy cost, thereby improving accuracy while maintaining privacy. We\ndemonstrate JME's effectiveness in two applications: estimating the running\nmean and covariance matrix for Gaussian density estimation, and model training\nwith DP-Adam on CIFAR-10.",
+    "updated" : "2025-02-10T15:58:26Z",
+    "published" : "2025-02-10T15:58:26Z",
+    "authors" : [
+      {
+        "name" : "Nikita P. Kalinin"
+      },
+      {
+        "name" : "Jalaj Upadhyay"
+      },
+      {
+        "name" : "Christoph H. Lampert"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.06425v1",
+    "title" : "Generating Privacy-Preserving Personalized Advice with Zero-Knowledge\n  Proofs and LLMs",
+    "summary" : "Large language models (LLMs) are increasingly utilized in domains such as\nfinance, healthcare, and interpersonal relationships to provide advice tailored\nto user traits and contexts. However, this personalization often relies on\nsensitive data, raising critical privacy concerns and necessitating data\nminimization. To address these challenges, we propose a framework that\nintegrates zero-knowledge proof (ZKP) technology, specifically zkVM, with\nLLM-based chatbots. This integration enables privacy-preserving data sharing by\nverifying user traits without disclosing sensitive information. Our research\nintroduces both an architecture and a prompting strategy for this approach.\nThrough empirical evaluation, we clarify the current constraints and\nperformance limitations of both zkVM and the proposed prompting strategy,\nthereby demonstrating their practical feasibility in real-world scenarios.",
+    "updated" : "2025-02-10T13:02:00Z",
+    "published" : "2025-02-10T13:02:00Z",
+    "authors" : [
+      {
+        "name" : "Hiroki Watanabe"
+      },
+      {
+        "name" : "Motonobu Uchikoshi"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.05765v1",
+    "title" : "Privacy-Preserving Dataset Combination",
+    "summary" : "Access to diverse, high-quality datasets is crucial for machine learning\nmodel performance, yet data sharing remains limited by privacy concerns and\ncompetitive interests, particularly in regulated domains like healthcare. This\ndynamic especially disadvantages smaller organizations that lack resources to\npurchase data or negotiate favorable sharing agreements. We present SecureKL, a\nprivacy-preserving framework that enables organizations to identify beneficial\ndata partnerships without exposing sensitive information. Building on recent\nadvances in dataset combination methods, we develop a secure multiparty\ncomputation protocol that maintains strong privacy guarantees while achieving\n>90\\% correlation with plaintext evaluations. In experiments with real-world\nhospital data, SecureKL successfully identifies beneficial data partnerships\nthat improve model performance for intensive care unit mortality prediction\nwhile preserving data privacy. Our framework provides a practical solution for\norganizations seeking to leverage collective data resources while maintaining\nprivacy and competitive advantages. These results demonstrate the potential for\nprivacy-preserving data collaboration to advance machine learning applications\nin high-stakes domains while promoting more equitable access to data resources.",
+    "updated" : "2025-02-09T03:54:17Z",
+    "published" : "2025-02-09T03:54:17Z",
+    "authors" : [
+      {
+        "name" : "Keren Fuentes"
+      },
+      {
+        "name" : "Mimee Xu"
+      },
+      {
+        "name" : "Irene Chen"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.05547v1",
+    "title" : "Dual Defense: Enhancing Privacy and Mitigating Poisoning Attacks in\n  Federated Learning",
+    "summary" : "Federated learning (FL) is inherently susceptible to privacy breaches and\npoisoning attacks. To tackle these challenges, researchers have separately\ndevised secure aggregation mechanisms to protect data privacy and robust\naggregation methods that withstand poisoning attacks. However, simultaneously\naddressing both concerns is challenging; secure aggregation facilitates\npoisoning attacks as most anomaly detection techniques require access to\nunencrypted local model updates, which are obscured by secure aggregation. Few\nrecent efforts to simultaneously tackle both challenges offen depend on\nimpractical assumption of non-colluding two-server setups that disrupt FL's\ntopology, or three-party computation which introduces scalability issues,\ncomplicating deployment and application. To overcome this dilemma, this paper\nintroduce a Dual Defense Federated learning (DDFed) framework. DDFed\nsimultaneously boosts privacy protection and mitigates poisoning attacks,\nwithout introducing new participant roles or disrupting the existing FL\ntopology. DDFed initially leverages cutting-edge fully homomorphic encryption\n(FHE) to securely aggregate model updates, without the impractical requirement\nfor non-colluding two-server setups and ensures strong privacy protection.\nAdditionally, we proposes a unique two-phase anomaly detection mechanism for\nencrypted model updates, featuring secure similarity computation and\nfeedback-driven collaborative selection, with additional measures to prevent\npotential privacy breaches from Byzantine clients incorporated into the\ndetection process. We conducted extensive experiments on various model\npoisoning attacks and FL scenarios, including both cross-device and cross-silo\nFL. Experiments on publicly available datasets demonstrate that DDFed\nsuccessfully protects model privacy and effectively defends against model\npoisoning threats.",
+    "updated" : "2025-02-08T12:28:20Z",
+    "published" : "2025-02-08T12:28:20Z",
+    "authors" : [
+      {
+        "name" : "Runhua Xu"
+      },
+      {
+        "name" : "Shiqi Gao"
+      },
+      {
+        "name" : "Chao Li"
+      },
+      {
+        "name" : "James Joshi"
+      },
+      {
+        "name" : "Jianxin Li"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.05516v1",
+    "title" : "Evaluating Differential Privacy on Correlated Datasets Using Pointwise\n  Maximal Leakage",
+    "summary" : "Data-driven advancements significantly contribute to societal progress, yet\nthey also pose substantial risks to privacy. In this landscape, differential\nprivacy (DP) has become a cornerstone in privacy preservation efforts. However,\nthe adequacy of DP in scenarios involving correlated datasets has sometimes\nbeen questioned and multiple studies have hinted at potential vulnerabilities.\nIn this work, we delve into the nuances of applying DP to correlated datasets\nby leveraging the concept of pointwise maximal leakage (PML) for a quantitative\nassessment of information leakage. Our investigation reveals that DP's\nguarantees can be arbitrarily weak for correlated databases when assessed\nthrough the lens of PML. More precisely, we prove the existence of a pure DP\nmechanism with PML levels arbitrarily close to that of a mechanism which\nreleases individual entries from a database without any perturbation. By\nshedding light on the limitations of DP on correlated datasets, our work aims\nto foster a deeper understanding of subtle privacy risks and highlight the need\nfor the development of more effective privacy-preserving mechanisms tailored to\ndiverse scenarios.",
+    "updated" : "2025-02-08T10:30:45Z",
+    "published" : "2025-02-08T10:30:45Z",
+    "authors" : [
+      {
+        "name" : "Sara Saeidian"
+      },
+      {
+        "name" : "Tobias J. Oechtering"
+      },
+      {
+        "name" : "Mikael Skoglund"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.IT",
+      "math.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.05509v1",
+    "title" : "Do Spikes Protect Privacy? Investigating Black-Box Model Inversion\n  Attacks in Spiking Neural Networks",
+    "summary" : "As machine learning models become integral to security-sensitive\napplications, concerns over data leakage from adversarial attacks continue to\nrise. Model Inversion (MI) attacks pose a significant privacy threat by\nenabling adversaries to reconstruct training data from model outputs. While MI\nattacks on Artificial Neural Networks (ANNs) have been widely studied, Spiking\nNeural Networks (SNNs) remain largely unexplored in this context. Due to their\nevent-driven and discrete computations, SNNs introduce fundamental differences\nin information processing that may offer inherent resistance to such attacks. A\ncritical yet underexplored aspect of this threat lies in black-box settings,\nwhere attackers operate through queries without direct access to model\nparameters or gradients-representing a more realistic adversarial scenario in\ndeployed systems. This work presents the first study of black-box MI attacks on\nSNNs. We adapt a generative adversarial MI framework to the spiking domain by\nincorporating rate-based encoding for input transformation and decoding\nmechanisms for output interpretation. Our results show that SNNs exhibit\nsignificantly greater resistance to MI attacks than ANNs, as demonstrated by\ndegraded reconstructions, increased instability in attack convergence, and\noverall reduced attack effectiveness across multiple evaluation metrics.\nFurther analysis suggests that the discrete and temporally distributed nature\nof SNN decision boundaries disrupts surrogate modeling, limiting the attacker's\nability to approximate the target model.",
+    "updated" : "2025-02-08T10:02:27Z",
+    "published" : "2025-02-08T10:02:27Z",
+    "authors" : [
+      {
+        "name" : "Hamed Poursiami"
+      },
+      {
+        "name" : "Ayana Moshruba"
+      },
+      {
+        "name" : "Maryam Parsa"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "cs.NE"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.05219v1",
+    "title" : "Enabling External Scrutiny of AI Systems with Privacy-Enhancing\n  Technologies",
+    "summary" : "This article describes how technical infrastructure developed by the\nnonprofit OpenMined enables external scrutiny of AI systems without\ncompromising sensitive information.\n  Independent external scrutiny of AI systems provides crucial transparency\ninto AI development, so it should be an integral component of any approach to\nAI governance. In practice, external researchers have struggled to gain access\nto AI systems because of AI companies' legitimate concerns about security,\nprivacy, and intellectual property.\n  But now, privacy-enhancing technologies (PETs) have reached a new level of\nmaturity: end-to-end technical infrastructure developed by OpenMined combines\nseveral PETs into various setups that enable privacy-preserving audits of AI\nsystems. We showcase two case studies where this infrastructure has been\ndeployed in real-world governance scenarios: \"Understanding Social Media\nRecommendation Algorithms with the Christchurch Call\" and \"Evaluating Frontier\nModels with the UK AI Safety Institute.\" We describe types of scrutiny of AI\nsystems that could be facilitated by current setups and OpenMined's proposed\nfuture setups.\n  We conclude that these innovative approaches deserve further exploration and\nsupport from the AI governance community. Interested policymakers can focus on\nempowering researchers on a legal level.",
+    "updated" : "2025-02-05T15:31:11Z",
+    "published" : "2025-02-05T15:31:11Z",
+    "authors" : [
+      {
+        "name" : "Kendrea Beers"
+      },
+      {
+        "name" : "Helen Toner"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.AI",
+      "cs.CR"
+    ]
   }
 ]
