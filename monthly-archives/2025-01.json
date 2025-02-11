@@ -2390,5 +2390,57 @@
       "cs.LG",
       "math.IT"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.18727v2",
+    "title" : "Exploring Audio Editing Features as User-Centric Privacy Defenses\n  Against Large Language Model(LLM) Based Emotion Inference Attacks",
+    "summary" : "The rapid proliferation of speech-enabled technologies, including virtual\nassistants, video conferencing platforms, and wearable devices, has raised\nsignificant privacy concerns, particularly regarding the inference of sensitive\nemotional information from audio data. Existing privacy-preserving methods\noften compromise usability and security, limiting their adoption in practical\nscenarios. This paper introduces a novel, user-centric approach that leverages\nfamiliar audio editing techniques, specifically pitch and tempo manipulation,\nto protect emotional privacy without sacrificing usability. By analyzing\npopular audio editing applications on Android and iOS platforms, we identified\nthese features as both widely available and usable. We rigorously evaluated\ntheir effectiveness against a threat model, considering adversarial attacks\nfrom diverse sources, including Deep Neural Networks (DNNs), Large Language\nModels (LLMs), and and reversibility testing. Our experiments, conducted on\nthree distinct datasets, demonstrate that pitch and tempo manipulation\neffectively obfuscates emotional data. Additionally, we explore the design\nprinciples for lightweight, on-device implementation to ensure broad\napplicability across various devices and platforms.",
+    "updated" : "2025-02-10T17:27:03Z",
+    "published" : "2025-01-30T20:07:44Z",
+    "authors" : [
+      {
+        "name" : "Mohd. Farhan Israk Soumik"
+      },
+      {
+        "name" : "W. K. M. Mithsara"
+      },
+      {
+        "name" : "Abdur R. Shahid"
+      },
+      {
+        "name" : "Ahmed Imteaj"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG",
+      "cs.SD",
+      "eess.AS"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.14974v2",
+    "title" : "Private Minimum Hellinger Distance Estimation via Hellinger Distance\n  Differential Privacy",
+    "summary" : "Objective functions based on Hellinger distance yield robust and efficient\nestimators of model parameters. Motivated by privacy and regulatory\nrequirements encountered in contemporary applications, we derive in this paper\n\\emph{private minimum Hellinger distance estimators}. The estimators satisfy a\nnew privacy constraint, namely, Hellinger differential privacy, while retaining\nthe robustness and efficiency properties. We demonstrate that Hellinger\ndifferential privacy shares several features of standard differential privacy\nwhile allowing for sharper inference. Additionally, for computational purposes,\nwe also develop Hellinger differentially private gradient descent and\nNewton-Raphson algorithms. We illustrate the behavior of our estimators in\nfinite samples using numerical experiments and verify that they retain\nrobustness properties under gross-error contamination.",
+    "updated" : "2025-02-07T00:50:05Z",
+    "published" : "2025-01-24T23:15:04Z",
+    "authors" : [
+      {
+        "name" : "Fengnan Deng"
+      },
+      {
+        "name" : "Anand N. Vidyashankar"
+      }
+    ],
+    "categories" : [
+      "math.ST",
+      "cs.CR",
+      "math.PR",
+      "stat.ME",
+      "stat.ML",
+      "stat.TH",
+      "62F35, 68P27, 62E20, 60E05"
+    ]
   }
 ]
