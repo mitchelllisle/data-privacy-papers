@@ -2090,39 +2090,38 @@ accuracy-communication-privacy trade-off for DP-SCO in the distributed setting.<
 </div>
 
 
+
+<h2>2025-02</h2>
+
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.02893v2">A Volumetric Approach to Privacy of Dynamical Systems</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
-  <p><b>Published on:</b> 2025-01-06T10:15:21Z</p>
+  <h3><a href="http://arxiv.org/abs/2502.07693v1">SoK: A Classification for AI-driven Personalized Privacy Assistants</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-02-11T16:46:56Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Chuanghong Weng, Ehsan Nekouei</p>
-    <p><b>Summary:</b> Information-theoretic metrics, such as mutual information, have been widely
-used to evaluate privacy leakage in dynamic systems. However, these approaches
-are typically limited to stochastic systems and face computational challenges.
-In this paper, we introduce a novel volumetric framework for analyzing privacy
-in systems affected by unknown but bounded noise. Our model considers a dynamic
-system comprising public and private states, where an observation set of the
-public state is released. An adversary utilizes the observed public state to
-infer an uncertainty set of the private state, referred to as the inference
-attack. We define the evolution dynamics of these inference attacks and
-quantify the privacy level of the private state using the volume of its
-uncertainty sets. For linear scalar systems, we derive an explicit formulation
-of the uncertainty set. For multi-dimensional linear systems, we develop an
-approximate computation method leveraging interval analysis. We investigate the
-properties of the proposed volumetric privacy measure and demonstrate that it
-is bounded by the information gain derived from the observation set.
-Furthermore, we propose an optimization approach to designing privacy filter
-using randomization and linear programming based on the proposed privacy
-measure. The effectiveness of the optimal privacy filter design is evaluated
-through a production-inventory case study, illustrating its robustness against
-the inference attack.</p>
+    <p><b>Authors:</b> Victor Morel, Leonardo Iwaya, Simone Fischer-Hübner</p>
+    <p><b>Summary:</b> To help users make privacy-related decisions, personalized privacy assistants
+based on AI technology have been developed in recent years. These AI-driven
+Personalized Privacy Assistants (AI-driven PPAs) can reap significant benefits
+for users, who may otherwise struggle to make decisions regarding their
+personal data in environments saturated with privacy-related decision requests.
+However, no study systematically inquired about the features of these AI-driven
+PPAs, their underlying technologies, or the accuracy of their decisions. To
+fill this gap, we present a Systematization of Knowledge (SoK) to map the
+existing solutions found in the scientific literature. We screened 1697 unique
+research papers over the last decade (2013-2023), constructing a classification
+from 39 included papers. As a result, this SoK reviews several aspects of
+existing research on AI-driven PPAs in terms of types of publications,
+contributions, methodological quality, and other quantitative insights.
+Furthermore, we provide a comprehensive classification for AI-driven PPAs,
+delving into their architectural choices, system contexts, types of AI used,
+data sources, types of decisions, and control over decisions, among other
+facets. Based on our SoK, we further underline the research gaps and challenges
+and formulate recommendations for the design and development of AI-driven PPAs
+as well as avenues for future research.</p>
   </details>
 </div>
 
-
-
-<h2>2025-02</h2>
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2502.06652v1">Transparent NLP: Using RAG and LLM Alignment for Privacy Q&A</a></h3>
