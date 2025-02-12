@@ -701,5 +701,27 @@
       "cs.AI",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.07693v1",
+    "title" : "SoK: A Classification for AI-driven Personalized Privacy Assistants",
+    "summary" : "To help users make privacy-related decisions, personalized privacy assistants\nbased on AI technology have been developed in recent years. These AI-driven\nPersonalized Privacy Assistants (AI-driven PPAs) can reap significant benefits\nfor users, who may otherwise struggle to make decisions regarding their\npersonal data in environments saturated with privacy-related decision requests.\nHowever, no study systematically inquired about the features of these AI-driven\nPPAs, their underlying technologies, or the accuracy of their decisions. To\nfill this gap, we present a Systematization of Knowledge (SoK) to map the\nexisting solutions found in the scientific literature. We screened 1697 unique\nresearch papers over the last decade (2013-2023), constructing a classification\nfrom 39 included papers. As a result, this SoK reviews several aspects of\nexisting research on AI-driven PPAs in terms of types of publications,\ncontributions, methodological quality, and other quantitative insights.\nFurthermore, we provide a comprehensive classification for AI-driven PPAs,\ndelving into their architectural choices, system contexts, types of AI used,\ndata sources, types of decisions, and control over decisions, among other\nfacets. Based on our SoK, we further underline the research gaps and challenges\nand formulate recommendations for the design and development of AI-driven PPAs\nas well as avenues for future research.",
+    "updated" : "2025-02-11T16:46:56Z",
+    "published" : "2025-02-11T16:46:56Z",
+    "authors" : [
+      {
+        "name" : "Victor Morel"
+      },
+      {
+        "name" : "Leonardo Iwaya"
+      },
+      {
+        "name" : "Simone Fischer-Hübner"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.AI"
+    ]
   }
 ]
