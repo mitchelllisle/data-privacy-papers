@@ -723,5 +723,163 @@
       "cs.CY",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.08202v1",
+    "title" : "Privacy amplification by random allocation",
+    "summary" : "We consider the privacy guarantees of an algorithm in which a user's data is\nused in $k$ steps randomly and uniformly chosen from a sequence (or set) of $t$\ndifferentially private steps. We demonstrate that the privacy guarantees of\nthis sampling scheme can be upper bound by the privacy guarantees of the\nwell-studied independent (or Poisson) subsampling in which each step uses the\nuser's data with probability $(1+ o(1))k/t $. Further, we provide two\nadditional analysis techniques that lead to numerical improvements in some\nparameter regimes. The case of $k=1$ has been previously studied in the context\nof DP-SGD in Balle et al. (2020) and very recently in Chua et al. (2024).\nPrivacy analysis of Balle et al. (2020) relies on privacy amplification by\nshuffling which leads to overly conservative bounds. Privacy analysis of Chua\net al. (2024a) relies on Monte Carlo simulations that are computationally\nprohibitive in many practical scenarios and have additional inherent\nlimitations.",
+    "updated" : "2025-02-12T08:32:10Z",
+    "published" : "2025-02-12T08:32:10Z",
+    "authors" : [
+      {
+        "name" : "Vitaly Feldman"
+      },
+      {
+        "name" : "Moshe Shenfeld"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.08151v1",
+    "title" : "Local Differential Privacy is Not Enough: A Sample Reconstruction Attack\n  against Federated Learning with Local Differential Privacy",
+    "summary" : "Reconstruction attacks against federated learning (FL) aim to reconstruct\nusers' samples through users' uploaded gradients. Local differential privacy\n(LDP) is regarded as an effective defense against various attacks, including\nsample reconstruction in FL, where gradients are clipped and perturbed.\nExisting attacks are ineffective in FL with LDP since clipped and perturbed\ngradients obliterate most sample information for reconstruction. Besides,\nexisting attacks embed additional sample information into gradients to improve\nthe attack effect and cause gradient expansion, leading to a more severe\ngradient clipping in FL with LDP. In this paper, we propose a sample\nreconstruction attack against LDP-based FL with any target models to\nreconstruct victims' sensitive samples to illustrate that FL with LDP is not\nflawless. Considering gradient expansion in reconstruction attacks and noise in\nLDP, the core of the proposed attack is gradient compression and reconstructed\nsample denoising. For gradient compression, an inference structure based on\nsample characteristics is presented to reduce redundant gradients against LDP.\nFor reconstructed sample denoising, we artificially introduce zero gradients to\nobserve noise distribution and scale confidence interval to filter the noise.\nTheoretical proof guarantees the effectiveness of the proposed attack.\nEvaluations show that the proposed attack is the only attack that reconstructs\nvictims' training samples in LDP-based FL and has little impact on the target\nmodel's accuracy. We conclude that LDP-based FL needs further improvements to\ndefend against sample reconstruction attacks effectively.",
+    "updated" : "2025-02-12T06:37:26Z",
+    "published" : "2025-02-12T06:37:26Z",
+    "authors" : [
+      {
+        "name" : "Zhichao You"
+      },
+      {
+        "name" : "Xuewen Dong"
+      },
+      {
+        "name" : "Shujun Li"
+      },
+      {
+        "name" : "Ximeng Liu"
+      },
+      {
+        "name" : "Siqi Ma"
+      },
+      {
+        "name" : "Yulong Shen"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.08008v1",
+    "title" : "An Interactive Framework for Implementing Privacy-Preserving Federated\n  Learning: Experiments on Large Language Models",
+    "summary" : "Federated learning (FL) enhances privacy by keeping user data on local\ndevices. However, emerging attacks have demonstrated that the updates shared by\nusers during training can reveal significant information about their data. This\nhas greatly thwart the adoption of FL methods for training robust AI models in\nsensitive applications. Differential Privacy (DP) is considered the gold\nstandard for safeguarding user data. However, DP guarantees are highly\nconservative, providing worst-case privacy guarantees. This can result in\noverestimating privacy needs, which may compromise the model's accuracy.\nAdditionally, interpretations of these privacy guarantees have proven to be\nchallenging in different contexts. This is further exacerbated when other\nfactors, such as the number of training iterations, data distribution, and\nspecific application requirements, can add further complexity to this problem.\nIn this work, we proposed a framework that integrates a human entity as a\nprivacy practitioner to determine an optimal trade-off between the model's\nprivacy and utility. Our framework is the first to address the variable memory\nrequirement of existing DP methods in FL settings, where resource-limited\ndevices (e.g., cell phones) can participate. To support such settings, we adopt\na recent DP method with fixed memory usage to ensure scalable private FL. We\nevaluated our proposed framework by fine-tuning a BERT-based LLM model using\nthe GLUE dataset (a common approach in literature), leveraging the new\naccountant, and employing diverse data partitioning strategies to mimic\nreal-world conditions. As a result, we achieved stable memory usage, with an\naverage accuracy reduction of 1.33% for $\\epsilon = 10$ and 1.9% for $\\epsilon\n= 6$, when compared to the state-of-the-art DP accountant which does not\nsupport fixed memory usage.",
+    "updated" : "2025-02-11T23:07:14Z",
+    "published" : "2025-02-11T23:07:14Z",
+    "authors" : [
+      {
+        "name" : "Kasra Ahmadi"
+      },
+      {
+        "name" : "Rouzbeh Behnia"
+      },
+      {
+        "name" : "Reza Ebrahimi"
+      },
+      {
+        "name" : "Mehran Mozaffari Kermani"
+      },
+      {
+        "name" : "Jeremiah Birrell"
+      },
+      {
+        "name" : "Jason Pacheco"
+      },
+      {
+        "name" : "Attila A Yavuz"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.08001v1",
+    "title" : "Unveiling Client Privacy Leakage from Public Dataset Usage in Federated\n  Distillation",
+    "summary" : "Federated Distillation (FD) has emerged as a popular federated training\nframework, enabling clients to collaboratively train models without sharing\nprivate data. Public Dataset-Assisted Federated Distillation (PDA-FD), which\nleverages public datasets for knowledge sharing, has become widely adopted.\nAlthough PDA-FD enhances privacy compared to traditional Federated Learning, we\ndemonstrate that the use of public datasets still poses significant privacy\nrisks to clients' private training data. This paper presents the first\ncomprehensive privacy analysis of PDA-FD in presence of an honest-but-curious\nserver. We show that the server can exploit clients' inference results on\npublic datasets to extract two critical types of private information: label\ndistributions and membership information of the private training dataset. To\nquantify these vulnerabilities, we introduce two novel attacks specifically\ndesigned for the PDA-FD setting: a label distribution inference attack and\ninnovative membership inference methods based on Likelihood Ratio Attack\n(LiRA). Through extensive evaluation of three representative PDA-FD frameworks\n(FedMD, DS-FL, and Cronus), our attacks achieve state-of-the-art performance,\nwith label distribution attacks reaching minimal KL-divergence and membership\ninference attacks maintaining high True Positive Rates under low False Positive\nRate constraints. Our findings reveal significant privacy risks in current\nPDA-FD frameworks and emphasize the need for more robust privacy protection\nmechanisms in collaborative learning systems.",
+    "updated" : "2025-02-11T22:48:49Z",
+    "published" : "2025-02-11T22:48:49Z",
+    "authors" : [
+      {
+        "name" : "Haonan Shi"
+      },
+      {
+        "name" : "Tu Ouyang"
+      },
+      {
+        "name" : "An Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.07693v2",
+    "title" : "SoK: A Classification for AI-driven Personalized Privacy Assistants",
+    "summary" : "To help users make privacy-related decisions, personalized privacy assistants\nbased on AI technology have been developed in recent years. These AI-driven\nPersonalized Privacy Assistants (AI-driven PPAs) can reap significant benefits\nfor users, who may otherwise struggle to make decisions regarding their\npersonal data in environments saturated with privacy-related decision requests.\nHowever, no study systematically inquired about the features of these AI-driven\nPPAs, their underlying technologies, or the accuracy of their decisions. To\nfill this gap, we present a Systematization of Knowledge (SoK) to map the\nexisting solutions found in the scientific literature. We screened 1697 unique\nresearch papers over the last decade (2013-2023), constructing a classification\nfrom 39 included papers. As a result, this SoK reviews several aspects of\nexisting research on AI-driven PPAs in terms of types of publications,\ncontributions, methodological quality, and other quantitative insights.\nFurthermore, we provide a comprehensive classification for AI-driven PPAs,\ndelving into their architectural choices, system contexts, types of AI used,\ndata sources, types of decisions, and control over decisions, among other\nfacets. Based on our SoK, we further underline the research gaps and challenges\nand formulate recommendations for the design and development of AI-driven PPAs\nas well as avenues for future research.",
+    "updated" : "2025-02-12T16:52:51Z",
+    "published" : "2025-02-11T16:46:56Z",
+    "authors" : [
+      {
+        "name" : "Victor Morel"
+      },
+      {
+        "name" : "Leonardo Iwaya"
+      },
+      {
+        "name" : "Simone Fischer-Hübner"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.02913v4",
+    "title" : "Real-Time Privacy Risk Measurement with Privacy Tokens for Gradient\n  Leakage",
+    "summary" : "The widespread deployment of deep learning models in privacy-sensitive\ndomains has amplified concerns regarding privacy risks, particularly those\nstemming from gradient leakage during training. Current privacy assessments\nprimarily rely on post-training attack simulations. However, these methods are\ninherently reactive, unable to encompass all potential attack scenarios, and\noften based on idealized adversarial assumptions. These limitations underscore\nthe need for proactive approaches to privacy risk assessment during the\ntraining process. To address this gap, we propose the concept of privacy\ntokens, which are derived directly from private gradients during training.\nPrivacy tokens encapsulate gradient features and, when combined with data\nfeatures, offer valuable insights into the extent of private information\nleakage from training data, enabling real-time measurement of privacy risks\nwithout relying on adversarial attack simulations. Additionally, we employ\nMutual Information (MI) as a robust metric to quantify the relationship between\ntraining data and gradients, providing precise and continuous assessments of\nprivacy leakage throughout the training process. Extensive experiments validate\nour framework, demonstrating the effectiveness of privacy tokens and MI in\nidentifying and quantifying privacy risks. This proactive approach marks a\nsignificant advancement in privacy monitoring, promoting the safer deployment\nof deep learning models in sensitive applications.",
+    "updated" : "2025-02-12T04:59:16Z",
+    "published" : "2025-02-05T06:20:20Z",
+    "authors" : [
+      {
+        "name" : "Jiayang Meng"
+      },
+      {
+        "name" : "Tao Huang"
+      },
+      {
+        "name" : "Hong Chen"
+      },
+      {
+        "name" : "Xin Shi"
+      },
+      {
+        "name" : "Qingyu Huang"
+      },
+      {
+        "name" : "Chen Hou"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
   }
 ]
