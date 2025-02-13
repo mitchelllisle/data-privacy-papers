@@ -1983,118 +1983,140 @@ differential privacy).</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.04058v1">Homomorphic Encryption in Healthcare Industry Applications for
-  Protecting Data Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-01-07T07:42:41Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> J. S. Rauthan</p>
-    <p><b>Summary:</b> Focussing on two different use cases-Quality Control methods in industrial
-contexts and Neural Network algorithms for healthcare diagnostics-this research
-investigates the inclusion of Fully Homomorphic Encryption into real-world
-applications in the healthcare sector. We evaluate the performance, resource
-requirements, and viability of deploying FHE in these settings through
-extensive testing and analysis, highlighting the progress made in FHE tooling
-and the obstacles still facing addressing the gap between conceptual research
-and practical applications. We start our research by describing the specific
-case study and trust model were working with. Choosing the two FHE frameworks
-most appropriate for industry development, we assess the resources and
-performance requirements for implementing each of the two FHE frameworks in the
-first scenario, Quality Control algorithms. In conclusion, our findings
-demonstrate the effectiveness and resource consumption of the two use
-cases-complex NN models and simple QC algorithms-when implemented in an FHE
-setting.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.03451v1">Structure-Preference Enabled Graph Embedding Generation under
-  Differential Privacy</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Social and Information Networks-662E9B">
-  <p><b>Published on:</b> 2025-01-07T00:43:18Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Sen Zhang, Qingqing Ye, Haibo Hu</p>
-    <p><b>Summary:</b> Graph embedding generation techniques aim to learn low-dimensional vectors
-for each node in a graph and have recently gained increasing research
-attention. Publishing low-dimensional node vectors enables various graph
-analysis tasks, such as structural equivalence and link prediction. Yet,
-improper publication opens a backdoor to malicious attackers, who can infer
-sensitive information of individuals from the low-dimensional node vectors.
-Existing methods tackle this issue by developing deep graph learning models
-with differential privacy (DP). However, they often suffer from large noise
-injections and cannot provide structural preferences consistent with mining
-objectives. Recently, skip-gram based graph embedding generation techniques are
-widely used due to their ability to extract customizable structures. Based on
-skip-gram, we present SE-PrivGEmb, a structure-preference enabled graph
-embedding generation under DP. For arbitrary structure preferences, we design a
-unified noise tolerance mechanism via perturbing non-zero vectors. This
-mechanism mitigates utility degradation caused by high sensitivity. By
-carefully designing negative sampling probabilities in skip-gram, we
-theoretically demonstrate that skip-gram can preserve arbitrary proximities,
-which quantify structural features in graphs. Extensive experiments show that
-our method outperforms existing state-of-the-art methods under structural
-equivalence and link prediction tasks.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.03391v1">Privacy-Preserving Smart Contracts for Permissioned Blockchains: A
-  zk-SNARK-Based Recipe Part-1</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-01-06T21:16:33Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Aldenio Burgos, Eduardo Alchieri</p>
-    <p><b>Summary:</b> The Bitcoin white paper introduced blockchain technology, enabling trustful
-transactions without intermediaries. Smart contracts emerged with Ethereum and
-blockchains expanded beyond cryptocurrency, applying to auctions, crowdfunding
-and electronic voting. However, blockchain's transparency raised privacy
-concerns and initial anonymity measures proved ineffective. Smart contract
-privacy solutions employed zero-knowledge proofs, homomorphic encryption and
-trusted execution environments. These approaches have practical drawbacks, such
-as limited functionality, high computation times and trust on third parties
-requirements, being not fully decentralized. This work proposes a solution
-utilizing zk-SNARKs to provide privacy in smart contracts and blockchains. The
-solution supports both fungible and nonfungible tokens. Additionally, the
-proposal includes a new type of transactions, called delegated transactions,
-which enable use cases like Delivery vs Payment (DvP).</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.03222v1">Characterizing the Accuracy-Communication-Privacy Trade-off in
-  Distributed Stochastic Convex Optimization</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36">  
-  <p><b>Published on:</b> 2025-01-06T18:57:05Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Sudeep Salgia, Nikola Pavlovic, Yuejie Chi, Qing Zhao</p>
-    <p><b>Summary:</b> We consider the problem of differentially private stochastic convex
-optimization (DP-SCO) in a distributed setting with $M$ clients, where each of
-them has a local dataset of $N$ i.i.d. data samples from an underlying data
-distribution. The objective is to design an algorithm to minimize a convex
-population loss using a collaborative effort across $M$ clients, while ensuring
-the privacy of the local datasets. In this work, we investigate the
-accuracy-communication-privacy trade-off for this problem. We establish
-matching converse and achievability results using a novel lower bound and a new
-algorithm for distributed DP-SCO based on Vaidya's plane cutting method. Thus,
-our results provide a complete characterization of the
-accuracy-communication-privacy trade-off for DP-SCO in the distributed setting.</p>
-  </details>
-</div>
-
-
 
 <h2>2025-02</h2>
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.07693v1">SoK: A Classification for AI-driven Personalized Privacy Assistants</a></h3>
+  <h3><a href="http://arxiv.org/abs/2502.08202v1">Privacy amplification by random allocation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-02-12T08:32:10Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Vitaly Feldman, Moshe Shenfeld</p>
+    <p><b>Summary:</b> We consider the privacy guarantees of an algorithm in which a user's data is
+used in $k$ steps randomly and uniformly chosen from a sequence (or set) of $t$
+differentially private steps. We demonstrate that the privacy guarantees of
+this sampling scheme can be upper bound by the privacy guarantees of the
+well-studied independent (or Poisson) subsampling in which each step uses the
+user's data with probability $(1+ o(1))k/t $. Further, we provide two
+additional analysis techniques that lead to numerical improvements in some
+parameter regimes. The case of $k=1$ has been previously studied in the context
+of DP-SGD in Balle et al. (2020) and very recently in Chua et al. (2024).
+Privacy analysis of Balle et al. (2020) relies on privacy amplification by
+shuffling which leads to overly conservative bounds. Privacy analysis of Chua
+et al. (2024a) relies on Monte Carlo simulations that are computationally
+prohibitive in many practical scenarios and have additional inherent
+limitations.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2502.08151v1">Local Differential Privacy is Not Enough: A Sample Reconstruction Attack
+  against Federated Learning with Local Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-02-12T06:37:26Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zhichao You, Xuewen Dong, Shujun Li, Ximeng Liu, Siqi Ma, Yulong Shen</p>
+    <p><b>Summary:</b> Reconstruction attacks against federated learning (FL) aim to reconstruct
+users' samples through users' uploaded gradients. Local differential privacy
+(LDP) is regarded as an effective defense against various attacks, including
+sample reconstruction in FL, where gradients are clipped and perturbed.
+Existing attacks are ineffective in FL with LDP since clipped and perturbed
+gradients obliterate most sample information for reconstruction. Besides,
+existing attacks embed additional sample information into gradients to improve
+the attack effect and cause gradient expansion, leading to a more severe
+gradient clipping in FL with LDP. In this paper, we propose a sample
+reconstruction attack against LDP-based FL with any target models to
+reconstruct victims' sensitive samples to illustrate that FL with LDP is not
+flawless. Considering gradient expansion in reconstruction attacks and noise in
+LDP, the core of the proposed attack is gradient compression and reconstructed
+sample denoising. For gradient compression, an inference structure based on
+sample characteristics is presented to reduce redundant gradients against LDP.
+For reconstructed sample denoising, we artificially introduce zero gradients to
+observe noise distribution and scale confidence interval to filter the noise.
+Theoretical proof guarantees the effectiveness of the proposed attack.
+Evaluations show that the proposed attack is the only attack that reconstructs
+victims' training samples in LDP-based FL and has little impact on the target
+model's accuracy. We conclude that LDP-based FL needs further improvements to
+defend against sample reconstruction attacks effectively.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2502.08008v1">An Interactive Framework for Implementing Privacy-Preserving Federated
+  Learning: Experiments on Large Language Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-02-11T23:07:14Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Kasra Ahmadi, Rouzbeh Behnia, Reza Ebrahimi, Mehran Mozaffari Kermani, Jeremiah Birrell, Jason Pacheco, Attila A Yavuz</p>
+    <p><b>Summary:</b> Federated learning (FL) enhances privacy by keeping user data on local
+devices. However, emerging attacks have demonstrated that the updates shared by
+users during training can reveal significant information about their data. This
+has greatly thwart the adoption of FL methods for training robust AI models in
+sensitive applications. Differential Privacy (DP) is considered the gold
+standard for safeguarding user data. However, DP guarantees are highly
+conservative, providing worst-case privacy guarantees. This can result in
+overestimating privacy needs, which may compromise the model's accuracy.
+Additionally, interpretations of these privacy guarantees have proven to be
+challenging in different contexts. This is further exacerbated when other
+factors, such as the number of training iterations, data distribution, and
+specific application requirements, can add further complexity to this problem.
+In this work, we proposed a framework that integrates a human entity as a
+privacy practitioner to determine an optimal trade-off between the model's
+privacy and utility. Our framework is the first to address the variable memory
+requirement of existing DP methods in FL settings, where resource-limited
+devices (e.g., cell phones) can participate. To support such settings, we adopt
+a recent DP method with fixed memory usage to ensure scalable private FL. We
+evaluated our proposed framework by fine-tuning a BERT-based LLM model using
+the GLUE dataset (a common approach in literature), leveraging the new
+accountant, and employing diverse data partitioning strategies to mimic
+real-world conditions. As a result, we achieved stable memory usage, with an
+average accuracy reduction of 1.33% for $\epsilon = 10$ and 1.9% for $\epsilon
+= 6$, when compared to the state-of-the-art DP accountant which does not
+support fixed memory usage.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2502.08001v1">Unveiling Client Privacy Leakage from Public Dataset Usage in Federated
+  Distillation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-02-11T22:48:49Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Haonan Shi, Tu Ouyang, An Wang</p>
+    <p><b>Summary:</b> Federated Distillation (FD) has emerged as a popular federated training
+framework, enabling clients to collaboratively train models without sharing
+private data. Public Dataset-Assisted Federated Distillation (PDA-FD), which
+leverages public datasets for knowledge sharing, has become widely adopted.
+Although PDA-FD enhances privacy compared to traditional Federated Learning, we
+demonstrate that the use of public datasets still poses significant privacy
+risks to clients' private training data. This paper presents the first
+comprehensive privacy analysis of PDA-FD in presence of an honest-but-curious
+server. We show that the server can exploit clients' inference results on
+public datasets to extract two critical types of private information: label
+distributions and membership information of the private training dataset. To
+quantify these vulnerabilities, we introduce two novel attacks specifically
+designed for the PDA-FD setting: a label distribution inference attack and
+innovative membership inference methods based on Likelihood Ratio Attack
+(LiRA). Through extensive evaluation of three representative PDA-FD frameworks
+(FedMD, DS-FL, and Cronus), our attacks achieve state-of-the-art performance,
+with label distribution attacks reaching minimal KL-divergence and membership
+inference attacks maintaining high True Positive Rates under low False Positive
+Rate constraints. Our findings reveal significant privacy risks in current
+PDA-FD frameworks and emphasize the need for more robust privacy protection
+mechanisms in collaborative learning systems.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2502.07693v2">SoK: A Classification for AI-driven Personalized Privacy Assistants</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
   <p><b>Published on:</b> 2025-02-11T16:46:56Z</p>
   <details>
@@ -2479,7 +2501,7 @@ documentation and enhancing newborn resuscitation outcomes.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.02913v3">Real-Time Privacy Risk Measurement with Privacy Tokens for Gradient
+  <h3><a href="http://arxiv.org/abs/2502.02913v4">Real-Time Privacy Risk Measurement with Privacy Tokens for Gradient
   Leakage</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2025-02-05T06:20:20Z</p>
