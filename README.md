@@ -853,7 +853,7 @@ performs well with high levels of privacy.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.13904v2">Privacy-Preserving Personalized Federated Prompt Learning for Multimodal
+  <h3><a href="http://arxiv.org/abs/2501.13904v3">Privacy-Preserving Personalized Federated Prompt Learning for Multimodal
   Large Language Models</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2025-01-23T18:34:09Z</p>
@@ -871,7 +871,7 @@ Over-personalization can lead to overfitting, reducing generalizability, while
 stringent privacy measures, such as differential privacy, can hinder both
 personalization and generalization. In this paper, we propose a Differentially
 Private Federated Prompt Learning (DP-FPL) approach to tackle this challenge by
-leveraging a low-rank adaptation scheme to capture generalization while
+leveraging a low-rank factorization scheme to capture generalization while
 maintaining a residual term that preserves expressiveness for personalization.
 To ensure privacy, we introduce a novel method where we apply local
 differential privacy to the two low-rank components of the local prompt, and
@@ -1875,116 +1875,122 @@ protecting raw data and guaranteeing lossless model accuracy.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.04323v3">Navigating the Designs of Privacy-Preserving Fine-tuning for Large
-  Language Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-01-08T07:47:43Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Haonan Shi, Tu Ouyang, An Wang</p>
-    <p><b>Summary:</b> Instruction tuning has proven effective in enhancing Large Language Models'
-(LLMs) performance on downstream tasks. However, real-world fine-tuning faces
-inherent conflicts between model providers' intellectual property protection,
-clients' data privacy requirements, and tuning costs. While recent approaches
-like split learning and offsite tuning demonstrate promising architectures for
-privacy-preserving fine-tuning, there is a gap in systematically addressing the
-multidimensional trade-offs required for diverse real-world deployments. We
-propose several indicative evaluation metrics to guide design trade-offs for
-privacy-preserving fine-tuning and a series of example designs, collectively
-named GuardedTuning; they result from novel combinations of system
-architectures with adapted privacy-enhancement methods and emerging computation
-techniques. Each design represents distinct trade-offs across model utility,
-privacy guarantees, and costs. Experimental results demonstrate that these
-designs protect against data reconstruction attacks while maintaining
-competitive fine-tuning performance.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.04222v1">Privacy-Preserving Distributed Online Mirror Descent for Nonconvex
-  Optimization</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
-  <p><b>Published on:</b> 2025-01-08T01:39:10Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yingjie Zhou, Tao Li</p>
-    <p><b>Summary:</b> We investigate the distributed online nonconvex optimization problem with
-differential privacy over time-varying networks. Each node minimizes the sum of
-several nonconvex functions while preserving the node's differential privacy.
-We propose a privacy-preserving distributed online mirror descent algorithm for
-nonconvex optimization, which uses the mirror descent to update decision
-variables and the Laplace differential privacy mechanism to protect privacy.
-Unlike the existing works, the proposed algorithm allows the cost functions to
-be nonconvex, which is more applicable. Based upon these, we prove that if the
-communication network is $B$-strongly connected and the constraint set is
-compact, then by choosing the step size properly, the algorithm guarantees
-$\epsilon$-differential privacy at each time. Furthermore, we prove that if the
-local cost functions are $\beta$-smooth, then the regret over time horizon $T$
-grows sublinearly while preserving differential privacy, with an upper bound
-$O(\sqrt{T})$. Finally, the effectiveness of the algorithm is demonstrated
-through numerical simulations.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.04134v1">Mixing Times and Privacy Analysis for the Projected Langevin Algorithm
-  under a Modulus of Continuity</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Optimization and Control-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36"> 
-  <p><b>Published on:</b> 2025-01-07T20:46:59Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mario Bravo, Juan P. Flores-Mella, Cristóbal Guzmán</p>
-    <p><b>Summary:</b> We study the mixing time of the projected Langevin algorithm (LA) and the
-privacy curve of noisy Stochastic Gradient Descent (SGD), beyond nonexpansive
-iterations. Specifically, we derive new mixing time bounds for the projected LA
-which are, in some important cases, dimension-free and poly-logarithmic on the
-accuracy, closely matching the existing results in the smooth convex case.
-Additionally, we establish new upper bounds for the privacy curve of the
-subsampled noisy SGD algorithm. These bounds show a crucial dependency on the
-regularity of gradients, and are useful for a wide range of convex losses
-beyond the smooth case. Our analysis relies on a suitable extension of the
-Privacy Amplification by Iteration (PABI) framework (Feldman et al., 2018;
-Altschuler and Talwar, 2022, 2023) to noisy iterations whose gradient map is
-not necessarily nonexpansive. This extension is achieved by designing an
-optimization problem which accounts for the best possible R\'enyi divergence
-bound obtained by an application of PABI, where the tractability of the problem
-is crucially related to the modulus of continuity of the associated gradient
-mapping. We show that, in several interesting cases -- including the nonsmooth
-convex, weakly smooth and (strongly) dissipative -- such optimization problem
-can be solved exactly and explicitly. This yields the tightest possible
-PABI-based bounds, where our results are either new or substantially sharper
-than those in previous works.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.03941v1">Synthetic Data Privacy Metrics</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-01-07T17:02:33Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Amy Steier, Lipika Ramaswamy, Andre Manoel, Alexa Haushalter</p>
-    <p><b>Summary:</b> Recent advancements in generative AI have made it possible to create
-synthetic datasets that can be as accurate as real-world data for training AI
-models, powering statistical insights, and fostering collaboration with
-sensitive datasets while offering strong privacy guarantees. Effectively
-measuring the empirical privacy of synthetic data is an important step in the
-process. However, while there is a multitude of new privacy metrics being
-published every day, there currently is no standardization. In this paper, we
-review the pros and cons of popular metrics that include simulations of
-adversarial attacks. We also review current best practices for amending
-generative models to enhance the privacy of the data they create (e.g.
-differential privacy).</p>
-  </details>
-</div>
-
-
 
 <h2>2025-02</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2502.09001v1">Privacy-Preserving Hybrid Ensemble Model for Network Anomaly Detection:
+  Balancing Security and Data Protection</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-02-13T06:33:16Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shaobo Liu, Zihao Zhao, Weijie He, Jiren Wang, Jing Peng, Haoyuan Ma</p>
+    <p><b>Summary:</b> Privacy-preserving network anomaly detection has become an essential area of
+research due to growing concerns over the protection of sensitive data.
+Traditional anomaly de- tection models often prioritize accuracy while
+neglecting the critical aspect of privacy. In this work, we propose a hybrid
+ensemble model that incorporates privacy-preserving techniques to address both
+detection accuracy and data protection. Our model combines the strengths of
+several machine learning algo- rithms, including K-Nearest Neighbors (KNN),
+Support Vector Machines (SVM), XGBoost, and Artificial Neural Networks (ANN),
+to create a robust system capable of identifying network anomalies while
+ensuring privacy. The proposed approach in- tegrates advanced preprocessing
+techniques that enhance data quality and address the challenges of small sample
+sizes and imbalanced datasets. By embedding privacy measures into the model
+design, our solution offers a significant advancement over existing methods,
+ensuring both enhanced detection performance and strong privacy safeguards.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2502.08989v1">RLSA-PFL: Robust Lightweight Secure Aggregation with Model Inconsistency
+  Detection in Privacy-Preserving Federated Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">  
+  <p><b>Published on:</b> 2025-02-13T06:01:09Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Nazatul H. Sultan, Yan Bo, Yansong Gao, Seyit Camtepe, Arash Mahboubi, Hang Thanh Bui, Aufeef Chauhan, Hamed Aboutorab, Michael Bewong, Praveen Gauravaram, Rafiqul Islam, Sharif Abuadbba</p>
+    <p><b>Summary:</b> Federated Learning (FL) allows users to collaboratively train a global
+machine learning model by sharing local model only, without exposing their
+private data to a central server. This distributed learning is particularly
+appealing in scenarios where data privacy is crucial, and it has garnered
+substantial attention from both industry and academia. However, studies have
+revealed privacy vulnerabilities in FL, where adversaries can potentially infer
+sensitive information from the shared model parameters. In this paper, we
+present an efficient masking-based secure aggregation scheme utilizing
+lightweight cryptographic primitives to mitigate privacy risks. Our scheme
+offers several advantages over existing methods. First, it requires only a
+single setup phase for the entire FL training session, significantly reducing
+communication overhead. Second, it minimizes user-side overhead by eliminating
+the need for user-to-user interactions, utilizing an intermediate server layer
+and a lightweight key negotiation method. Third, the scheme is highly resilient
+to user dropouts, and the users can join at any FL round. Fourth, it can detect
+and defend against malicious server activities, including recently discovered
+model inconsistency attacks. Finally, our scheme ensures security in both
+semi-honest and malicious settings. We provide security analysis to formally
+prove the robustness of our approach. Furthermore, we implemented an end-to-end
+prototype of our scheme. We conducted comprehensive experiments and
+comparisons, which show that it outperforms existing solutions in terms of
+communication and computation overhead, functionality, and security.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2502.08970v1">A Decade of Metric Differential Privacy: Advancements and Applications</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-02-13T05:18:24Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xinpeng Xie, Chenyang Yu, Yan Huang, Yang Cao, Chenxi Qiu</p>
+    <p><b>Summary:</b> Metric Differential Privacy (mDP) builds upon the core principles of
+Differential Privacy (DP) by incorporating various distance metrics, which
+offer adaptable and context-sensitive privacy guarantees for a wide range of
+applications, such as location-based services, text analysis, and image
+processing. Since its inception in 2013, mDP has garnered substantial research
+attention, advancing theoretical foundations, algorithm design, and practical
+implementations. Despite this progress, existing surveys mainly focus on
+traditional DP and local DP, and they provide limited coverage of mDP. This
+paper provides a comprehensive survey of mDP research from 2013 to 2024,
+tracing its development from the foundations of DP. We categorize essential
+mechanisms, including Laplace, Exponential, and optimization-based approaches,
+and assess their strengths, limitations, and application domains. Additionally,
+we highlight key challenges and outline future research directions to encourage
+innovation and real-world adoption of mDP. This survey is designed to be a
+valuable resource for researchers and practitioners aiming to deepen their
+understanding and drive progress in mDP within the broader privacy ecosystem.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2502.08966v1">RTBAS: Defending LLM Agents Against Prompt Injection and Privacy Leakage</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-02-13T05:06:22Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Peter Yong Zhong, Siyuan Chen, Ruiqi Wang, McKenna McCall, Ben L. Titzer, Heather Miller</p>
+    <p><b>Summary:</b> Tool-Based Agent Systems (TBAS) allow Language Models (LMs) to use external
+tools for tasks beyond their standalone capabilities, such as searching
+websites, booking flights, or making financial transactions. However, these
+tools greatly increase the risks of prompt injection attacks, where malicious
+content hijacks the LM agent to leak confidential data or trigger harmful
+actions. Existing defenses (OpenAI GPTs) require user confirmation before every
+tool call, placing onerous burdens on users. We introduce Robust TBAS (RTBAS),
+which automatically detects and executes tool calls that preserve integrity and
+confidentiality, requiring user confirmation only when these safeguards cannot
+be ensured. RTBAS adapts Information Flow Control to the unique challenges
+presented by TBAS. We present two novel dependency screeners, using
+LM-as-a-judge and attention-based saliency, to overcome these challenges.
+Experimental results on the AgentDojo Prompt Injection benchmark show RTBAS
+prevents all targeted attacks with only a 2% loss of task utility when under
+attack, and further tests confirm its ability to obtain near-oracle performance
+on detecting both subtle and direct privacy leaks.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2502.08202v1">Privacy amplification by random allocation</a></h3>
