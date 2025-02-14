@@ -881,5 +881,144 @@
       "cs.LG",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.09001v1",
+    "title" : "Privacy-Preserving Hybrid Ensemble Model for Network Anomaly Detection:\n  Balancing Security and Data Protection",
+    "summary" : "Privacy-preserving network anomaly detection has become an essential area of\nresearch due to growing concerns over the protection of sensitive data.\nTraditional anomaly de- tection models often prioritize accuracy while\nneglecting the critical aspect of privacy. In this work, we propose a hybrid\nensemble model that incorporates privacy-preserving techniques to address both\ndetection accuracy and data protection. Our model combines the strengths of\nseveral machine learning algo- rithms, including K-Nearest Neighbors (KNN),\nSupport Vector Machines (SVM), XGBoost, and Artificial Neural Networks (ANN),\nto create a robust system capable of identifying network anomalies while\nensuring privacy. The proposed approach in- tegrates advanced preprocessing\ntechniques that enhance data quality and address the challenges of small sample\nsizes and imbalanced datasets. By embedding privacy measures into the model\ndesign, our solution offers a significant advancement over existing methods,\nensuring both enhanced detection performance and strong privacy safeguards.",
+    "updated" : "2025-02-13T06:33:16Z",
+    "published" : "2025-02-13T06:33:16Z",
+    "authors" : [
+      {
+        "name" : "Shaobo Liu"
+      },
+      {
+        "name" : "Zihao Zhao"
+      },
+      {
+        "name" : "Weijie He"
+      },
+      {
+        "name" : "Jiren Wang"
+      },
+      {
+        "name" : "Jing Peng"
+      },
+      {
+        "name" : "Haoyuan Ma"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.08989v1",
+    "title" : "RLSA-PFL: Robust Lightweight Secure Aggregation with Model Inconsistency\n  Detection in Privacy-Preserving Federated Learning",
+    "summary" : "Federated Learning (FL) allows users to collaboratively train a global\nmachine learning model by sharing local model only, without exposing their\nprivate data to a central server. This distributed learning is particularly\nappealing in scenarios where data privacy is crucial, and it has garnered\nsubstantial attention from both industry and academia. However, studies have\nrevealed privacy vulnerabilities in FL, where adversaries can potentially infer\nsensitive information from the shared model parameters. In this paper, we\npresent an efficient masking-based secure aggregation scheme utilizing\nlightweight cryptographic primitives to mitigate privacy risks. Our scheme\noffers several advantages over existing methods. First, it requires only a\nsingle setup phase for the entire FL training session, significantly reducing\ncommunication overhead. Second, it minimizes user-side overhead by eliminating\nthe need for user-to-user interactions, utilizing an intermediate server layer\nand a lightweight key negotiation method. Third, the scheme is highly resilient\nto user dropouts, and the users can join at any FL round. Fourth, it can detect\nand defend against malicious server activities, including recently discovered\nmodel inconsistency attacks. Finally, our scheme ensures security in both\nsemi-honest and malicious settings. We provide security analysis to formally\nprove the robustness of our approach. Furthermore, we implemented an end-to-end\nprototype of our scheme. We conducted comprehensive experiments and\ncomparisons, which show that it outperforms existing solutions in terms of\ncommunication and computation overhead, functionality, and security.",
+    "updated" : "2025-02-13T06:01:09Z",
+    "published" : "2025-02-13T06:01:09Z",
+    "authors" : [
+      {
+        "name" : "Nazatul H. Sultan"
+      },
+      {
+        "name" : "Yan Bo"
+      },
+      {
+        "name" : "Yansong Gao"
+      },
+      {
+        "name" : "Seyit Camtepe"
+      },
+      {
+        "name" : "Arash Mahboubi"
+      },
+      {
+        "name" : "Hang Thanh Bui"
+      },
+      {
+        "name" : "Aufeef Chauhan"
+      },
+      {
+        "name" : "Hamed Aboutorab"
+      },
+      {
+        "name" : "Michael Bewong"
+      },
+      {
+        "name" : "Praveen Gauravaram"
+      },
+      {
+        "name" : "Rafiqul Islam"
+      },
+      {
+        "name" : "Sharif Abuadbba"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "68P27",
+      "E.3"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.08970v1",
+    "title" : "A Decade of Metric Differential Privacy: Advancements and Applications",
+    "summary" : "Metric Differential Privacy (mDP) builds upon the core principles of\nDifferential Privacy (DP) by incorporating various distance metrics, which\noffer adaptable and context-sensitive privacy guarantees for a wide range of\napplications, such as location-based services, text analysis, and image\nprocessing. Since its inception in 2013, mDP has garnered substantial research\nattention, advancing theoretical foundations, algorithm design, and practical\nimplementations. Despite this progress, existing surveys mainly focus on\ntraditional DP and local DP, and they provide limited coverage of mDP. This\npaper provides a comprehensive survey of mDP research from 2013 to 2024,\ntracing its development from the foundations of DP. We categorize essential\nmechanisms, including Laplace, Exponential, and optimization-based approaches,\nand assess their strengths, limitations, and application domains. Additionally,\nwe highlight key challenges and outline future research directions to encourage\ninnovation and real-world adoption of mDP. This survey is designed to be a\nvaluable resource for researchers and practitioners aiming to deepen their\nunderstanding and drive progress in mDP within the broader privacy ecosystem.",
+    "updated" : "2025-02-13T05:18:24Z",
+    "published" : "2025-02-13T05:18:24Z",
+    "authors" : [
+      {
+        "name" : "Xinpeng Xie"
+      },
+      {
+        "name" : "Chenyang Yu"
+      },
+      {
+        "name" : "Yan Huang"
+      },
+      {
+        "name" : "Yang Cao"
+      },
+      {
+        "name" : "Chenxi Qiu"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.08966v1",
+    "title" : "RTBAS: Defending LLM Agents Against Prompt Injection and Privacy Leakage",
+    "summary" : "Tool-Based Agent Systems (TBAS) allow Language Models (LMs) to use external\ntools for tasks beyond their standalone capabilities, such as searching\nwebsites, booking flights, or making financial transactions. However, these\ntools greatly increase the risks of prompt injection attacks, where malicious\ncontent hijacks the LM agent to leak confidential data or trigger harmful\nactions. Existing defenses (OpenAI GPTs) require user confirmation before every\ntool call, placing onerous burdens on users. We introduce Robust TBAS (RTBAS),\nwhich automatically detects and executes tool calls that preserve integrity and\nconfidentiality, requiring user confirmation only when these safeguards cannot\nbe ensured. RTBAS adapts Information Flow Control to the unique challenges\npresented by TBAS. We present two novel dependency screeners, using\nLM-as-a-judge and attention-based saliency, to overcome these challenges.\nExperimental results on the AgentDojo Prompt Injection benchmark show RTBAS\nprevents all targeted attacks with only a 2% loss of task utility when under\nattack, and further tests confirm its ability to obtain near-oracle performance\non detecting both subtle and direct privacy leaks.",
+    "updated" : "2025-02-13T05:06:22Z",
+    "published" : "2025-02-13T05:06:22Z",
+    "authors" : [
+      {
+        "name" : "Peter Yong Zhong"
+      },
+      {
+        "name" : "Siyuan Chen"
+      },
+      {
+        "name" : "Ruiqi Wang"
+      },
+      {
+        "name" : "McKenna McCall"
+      },
+      {
+        "name" : "Ben L. Titzer"
+      },
+      {
+        "name" : "Heather Miller"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
   }
 ]
