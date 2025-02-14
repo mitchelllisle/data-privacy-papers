@@ -2442,5 +2442,29 @@
       "stat.TH",
       "62F35, 68P27, 62E20, 60E05"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.13904v3",
+    "title" : "Privacy-Preserving Personalized Federated Prompt Learning for Multimodal\n  Large Language Models",
+    "summary" : "Multimodal Large Language Models (LLMs) are pivotal in revolutionizing\ncustomer support and operations by integrating multiple modalities such as\ntext, images, and audio. Federated Prompt Learning (FPL) is a recently proposed\napproach that combines pre-trained multimodal LLMs such as vision-language\nmodels with federated learning to create personalized, privacy-preserving AI\nsystems. However, balancing the competing goals of personalization,\ngeneralization, and privacy remains a significant challenge.\nOver-personalization can lead to overfitting, reducing generalizability, while\nstringent privacy measures, such as differential privacy, can hinder both\npersonalization and generalization. In this paper, we propose a Differentially\nPrivate Federated Prompt Learning (DP-FPL) approach to tackle this challenge by\nleveraging a low-rank factorization scheme to capture generalization while\nmaintaining a residual term that preserves expressiveness for personalization.\nTo ensure privacy, we introduce a novel method where we apply local\ndifferential privacy to the two low-rank components of the local prompt, and\nglobal differential privacy to the global prompt. Our approach mitigates the\nimpact of privacy noise on the model performance while balancing the tradeoff\nbetween personalization and generalization. Extensive experiments demonstrate\nthe effectiveness of our approach over other benchmarks.",
+    "updated" : "2025-02-13T18:58:14Z",
+    "published" : "2025-01-23T18:34:09Z",
+    "authors" : [
+      {
+        "name" : "Linh Tran"
+      },
+      {
+        "name" : "Wei Sun"
+      },
+      {
+        "name" : "Stacy Patterson"
+      },
+      {
+        "name" : "Ana Milanova"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
   }
 ]
