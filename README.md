@@ -1812,71 +1812,73 @@ https://github.com/AIGNLAI/GrBFL.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.04420v1">A Closer Look on Gender Stereotypes in Movie Recommender Systems and
-  Their Implications with Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB">
-  <p><b>Published on:</b> 2025-01-08T11:08:58Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Falguni Roy, Yiduo Shen, Na Zhao, Xiaofeng Ding, Md. Omar Faruk</p>
-    <p><b>Summary:</b> The movie recommender system typically leverages user feedback to provide
-personalized recommendations that align with user preferences and increase
-business revenue. This study investigates the impact of gender stereotypes on
-such systems through a specific attack scenario. In this scenario, an attacker
-determines users' gender, a private attribute, by exploiting gender stereotypes
-about movie preferences and analyzing users' feedback data, which is either
-publicly available or observed within the system. The study consists of two
-phases. In the first phase, a user study involving 630 participants identified
-gender stereotypes associated with movie genres, which often influence viewing
-choices. In the second phase, four inference algorithms were applied to detect
-gender stereotypes by combining the findings from the first phase with users'
-feedback data. Results showed that these algorithms performed more effectively
-than relying solely on feedback data for gender inference. Additionally, we
-quantified the extent of gender stereotypes to evaluate their broader impact on
-digital computational science. The latter part of the study utilized two major
-movie recommender datasets: MovieLens 1M and Yahoo!Movie. Detailed experimental
-information is available on our GitHub repository:
-https://github.com/fr-iit/GSMRS</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.04409v2">Lossless Privacy-Preserving Aggregation for Decentralized Federated
-  Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-01-08T10:49:06Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Xiaoye Miao, Bin Li,  Yanzhang, Xinkui Zhao, Yangyang Wu</p>
-    <p><b>Summary:</b> Privacy concerns arise as sensitive data proliferate. Despite decentralized
-federated learning (DFL) aggregating gradients from neighbors to avoid direct
-data transmission, it still poses indirect data leaks from the transmitted
-gradients. Existing privacy-preserving methods for DFL add noise to gradients.
-They either diminish the model predictive accuracy or suffer from ineffective
-gradient protection. In this paper, we propose a novel lossless
-privacy-preserving aggregation rule named LPPA to enhance gradient protection
-as much as possible but without loss of DFL model predictive accuracy. LPPA
-subtly injects the noise difference between the sent and received noise into
-transmitted gradients for gradient protection. The noise difference
-incorporates neighbors' randomness for each client, effectively safeguarding
-against data leaks. LPPA employs the noise flow conservation theory to ensure
-that the noise impact can be globally eliminated. The global sum of all noise
-differences remains zero, ensuring that accurate gradient aggregation is
-unaffected and the model accuracy remains intact. We theoretically prove that
-the privacy-preserving capacity of LPPA is \sqrt{2} times greater than that of
-noise addition, while maintaining comparable model accuracy to the standard DFL
-aggregation without noise injection. Experimental results verify the
-theoretical findings and show that LPPA achieves a 14% mean improvement in
-accuracy over noise addition. We also demonstrate the effectiveness of LPPA in
-protecting raw data and guaranteeing lossless model accuracy.</p>
-  </details>
-</div>
-
-
 
 <h2>2025-02</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2502.09744v1">Fine-Tuning Foundation Models with Federated Learning for Privacy
+  Preserving Medical Time Series Forecasting</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-02-13T20:01:15Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mahad Ali, Curtis Lisle, Patrick W. Moore, Tammer Barkouki, Brian J. Kirkwood, Laura J. Brattain</p>
+    <p><b>Summary:</b> Federated Learning (FL) provides a decentralized machine learning approach,
+where multiple devices or servers collaboratively train a model without sharing
+their raw data, thus enabling data privacy. This approach has gained
+significant interest in academia and industry due to its privacy-preserving
+properties, which are particularly valuable in the medical domain where data
+availability is often protected under strict regulations. A relatively
+unexplored area is the use of FL to fine-tune Foundation Models (FMs) for time
+series forecasting, potentially enhancing model efficacy by overcoming data
+limitation while maintaining privacy. In this paper, we fine-tuned time series
+FMs with Electrocardiogram (ECG) and Impedance Cardiography (ICG) data using
+different FL techniques. We then examined various scenarios and discussed the
+challenges FL faces under different data heterogeneity configurations. Our
+empirical results demonstrated that while FL can be effective for fine-tuning
+FMs on time series forecasting tasks, its benefits depend on the data
+distribution across clients. We highlighted the trade-offs in applying FL to FM
+fine-tuning.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2502.09716v1">Genetic Data Governance in Crisis: Policy Recommendations for
+  Safeguarding Privacy and Preventing Discrimination</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> 
+  <p><b>Published on:</b> 2025-02-13T19:05:10Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Vivek Ramanan, Ria Vinod, Cole Williams, Sohini Ramachandran, Suresh Venkatasubramanian</p>
+    <p><b>Summary:</b> Genetic data collection has become ubiquitous today. The ability to
+meaningfully interpret genetic data has motivated its widespread use, providing
+crucial insights into human health and ancestry while driving important public
+health initiatives. Easy access to genetic testing has fueled a rapid expansion
+of recreational direct-to-consumer offerings. However, the growth of genetic
+datasets and their applications has created significant privacy and
+discrimination risks, as our understanding of the scientific basis for genetic
+traits continues to evolve. In this paper, we organize the uses of genetic data
+along four distinct "pillars": clinical practice, research, forensic and
+government use, and recreational use. Using our scientific understanding of
+genetics, genetic inference methods and their associated risks, and current
+public protections, we build a risk assessment framework that identifies key
+values that any governance system must preserve. We analyze case studies using
+this framework to assess how well existing regulatory frameworks preserve
+desired values. Our investigation reveals critical gaps in these frameworks and
+identifies specific threats to privacy and personal liberties, particularly
+through genetic discrimination. We propose comprehensive policy reforms to: (1)
+update the legal definition of genetic data to protect against modern
+technological capabilities, (2) expand the Genetic Information
+Nondiscrimination Act (GINA) to cover currently unprotected domains, and (3)
+establish a unified regulatory framework under a single governing body to
+oversee all applications of genetic data. We conclude with three open questions
+about genetic data: the challenges posed by its relational nature, including
+consent for relatives and minors; the complexities of international data
+transfer; and its potential integration into large language models.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2502.09001v1">Privacy-Preserving Hybrid Ensemble Model for Network Anomaly Detection:
@@ -1966,12 +1968,12 @@ understanding and drive progress in mDP within the broader privacy ecosystem.</p
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.08966v1">RTBAS: Defending LLM Agents Against Prompt Injection and Privacy Leakage</a></h3>
+  <h3><a href="http://arxiv.org/abs/2502.08966v2">RTBAS: Defending LLM Agents Against Prompt Injection and Privacy Leakage</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
   <p><b>Published on:</b> 2025-02-13T05:06:22Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Peter Yong Zhong, Siyuan Chen, Ruiqi Wang, McKenna McCall, Ben L. Titzer, Heather Miller</p>
+    <p><b>Authors:</b> Peter Yong Zhong, Siyuan Chen, Ruiqi Wang, McKenna McCall, Ben L. Titzer, Heather Miller, Phillip B. Gibbons</p>
     <p><b>Summary:</b> Tool-Based Agent Systems (TBAS) allow Language Models (LMs) to use external
 tools for tasks beyond their standalone capabilities, such as searching
 websites, booking flights, or making financial transactions. However, these
@@ -2052,7 +2054,7 @@ defend against sample reconstruction attacks effectively.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.08008v1">An Interactive Framework for Implementing Privacy-Preserving Federated
+  <h3><a href="http://arxiv.org/abs/2502.08008v2">An Interactive Framework for Implementing Privacy-Preserving Federated
   Learning: Experiments on Large Language Models</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2025-02-11T23:07:14Z</p>
