@@ -1020,5 +1020,132 @@
       "cs.CR",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.09744v1",
+    "title" : "Fine-Tuning Foundation Models with Federated Learning for Privacy\n  Preserving Medical Time Series Forecasting",
+    "summary" : "Federated Learning (FL) provides a decentralized machine learning approach,\nwhere multiple devices or servers collaboratively train a model without sharing\ntheir raw data, thus enabling data privacy. This approach has gained\nsignificant interest in academia and industry due to its privacy-preserving\nproperties, which are particularly valuable in the medical domain where data\navailability is often protected under strict regulations. A relatively\nunexplored area is the use of FL to fine-tune Foundation Models (FMs) for time\nseries forecasting, potentially enhancing model efficacy by overcoming data\nlimitation while maintaining privacy. In this paper, we fine-tuned time series\nFMs with Electrocardiogram (ECG) and Impedance Cardiography (ICG) data using\ndifferent FL techniques. We then examined various scenarios and discussed the\nchallenges FL faces under different data heterogeneity configurations. Our\nempirical results demonstrated that while FL can be effective for fine-tuning\nFMs on time series forecasting tasks, its benefits depend on the data\ndistribution across clients. We highlighted the trade-offs in applying FL to FM\nfine-tuning.",
+    "updated" : "2025-02-13T20:01:15Z",
+    "published" : "2025-02-13T20:01:15Z",
+    "authors" : [
+      {
+        "name" : "Mahad Ali"
+      },
+      {
+        "name" : "Curtis Lisle"
+      },
+      {
+        "name" : "Patrick W. Moore"
+      },
+      {
+        "name" : "Tammer Barkouki"
+      },
+      {
+        "name" : "Brian J. Kirkwood"
+      },
+      {
+        "name" : "Laura J. Brattain"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.09716v1",
+    "title" : "Genetic Data Governance in Crisis: Policy Recommendations for\n  Safeguarding Privacy and Preventing Discrimination",
+    "summary" : "Genetic data collection has become ubiquitous today. The ability to\nmeaningfully interpret genetic data has motivated its widespread use, providing\ncrucial insights into human health and ancestry while driving important public\nhealth initiatives. Easy access to genetic testing has fueled a rapid expansion\nof recreational direct-to-consumer offerings. However, the growth of genetic\ndatasets and their applications has created significant privacy and\ndiscrimination risks, as our understanding of the scientific basis for genetic\ntraits continues to evolve. In this paper, we organize the uses of genetic data\nalong four distinct \"pillars\": clinical practice, research, forensic and\ngovernment use, and recreational use. Using our scientific understanding of\ngenetics, genetic inference methods and their associated risks, and current\npublic protections, we build a risk assessment framework that identifies key\nvalues that any governance system must preserve. We analyze case studies using\nthis framework to assess how well existing regulatory frameworks preserve\ndesired values. Our investigation reveals critical gaps in these frameworks and\nidentifies specific threats to privacy and personal liberties, particularly\nthrough genetic discrimination. We propose comprehensive policy reforms to: (1)\nupdate the legal definition of genetic data to protect against modern\ntechnological capabilities, (2) expand the Genetic Information\nNondiscrimination Act (GINA) to cover currently unprotected domains, and (3)\nestablish a unified regulatory framework under a single governing body to\noversee all applications of genetic data. We conclude with three open questions\nabout genetic data: the challenges posed by its relational nature, including\nconsent for relatives and minors; the complexities of international data\ntransfer; and its potential integration into large language models.",
+    "updated" : "2025-02-13T19:05:10Z",
+    "published" : "2025-02-13T19:05:10Z",
+    "authors" : [
+      {
+        "name" : "Vivek Ramanan"
+      },
+      {
+        "name" : "Ria Vinod"
+      },
+      {
+        "name" : "Cole Williams"
+      },
+      {
+        "name" : "Sohini Ramachandran"
+      },
+      {
+        "name" : "Suresh Venkatasubramanian"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "K.4.1"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.08966v2",
+    "title" : "RTBAS: Defending LLM Agents Against Prompt Injection and Privacy Leakage",
+    "summary" : "Tool-Based Agent Systems (TBAS) allow Language Models (LMs) to use external\ntools for tasks beyond their standalone capabilities, such as searching\nwebsites, booking flights, or making financial transactions. However, these\ntools greatly increase the risks of prompt injection attacks, where malicious\ncontent hijacks the LM agent to leak confidential data or trigger harmful\nactions. Existing defenses (OpenAI GPTs) require user confirmation before every\ntool call, placing onerous burdens on users. We introduce Robust TBAS (RTBAS),\nwhich automatically detects and executes tool calls that preserve integrity and\nconfidentiality, requiring user confirmation only when these safeguards cannot\nbe ensured. RTBAS adapts Information Flow Control to the unique challenges\npresented by TBAS. We present two novel dependency screeners, using\nLM-as-a-judge and attention-based saliency, to overcome these challenges.\nExperimental results on the AgentDojo Prompt Injection benchmark show RTBAS\nprevents all targeted attacks with only a 2% loss of task utility when under\nattack, and further tests confirm its ability to obtain near-oracle performance\non detecting both subtle and direct privacy leaks.",
+    "updated" : "2025-02-14T04:16:40Z",
+    "published" : "2025-02-13T05:06:22Z",
+    "authors" : [
+      {
+        "name" : "Peter Yong Zhong"
+      },
+      {
+        "name" : "Siyuan Chen"
+      },
+      {
+        "name" : "Ruiqi Wang"
+      },
+      {
+        "name" : "McKenna McCall"
+      },
+      {
+        "name" : "Ben L. Titzer"
+      },
+      {
+        "name" : "Heather Miller"
+      },
+      {
+        "name" : "Phillip B. Gibbons"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.08008v2",
+    "title" : "An Interactive Framework for Implementing Privacy-Preserving Federated\n  Learning: Experiments on Large Language Models",
+    "summary" : "Federated learning (FL) enhances privacy by keeping user data on local\ndevices. However, emerging attacks have demonstrated that the updates shared by\nusers during training can reveal significant information about their data. This\nhas greatly thwart the adoption of FL methods for training robust AI models in\nsensitive applications. Differential Privacy (DP) is considered the gold\nstandard for safeguarding user data. However, DP guarantees are highly\nconservative, providing worst-case privacy guarantees. This can result in\noverestimating privacy needs, which may compromise the model's accuracy.\nAdditionally, interpretations of these privacy guarantees have proven to be\nchallenging in different contexts. This is further exacerbated when other\nfactors, such as the number of training iterations, data distribution, and\nspecific application requirements, can add further complexity to this problem.\nIn this work, we proposed a framework that integrates a human entity as a\nprivacy practitioner to determine an optimal trade-off between the model's\nprivacy and utility. Our framework is the first to address the variable memory\nrequirement of existing DP methods in FL settings, where resource-limited\ndevices (e.g., cell phones) can participate. To support such settings, we adopt\na recent DP method with fixed memory usage to ensure scalable private FL. We\nevaluated our proposed framework by fine-tuning a BERT-based LLM model using\nthe GLUE dataset (a common approach in literature), leveraging the new\naccountant, and employing diverse data partitioning strategies to mimic\nreal-world conditions. As a result, we achieved stable memory usage, with an\naverage accuracy reduction of 1.33% for $\\epsilon = 10$ and 1.9% for $\\epsilon\n= 6$, when compared to the state-of-the-art DP accountant which does not\nsupport fixed memory usage.",
+    "updated" : "2025-02-14T18:52:34Z",
+    "published" : "2025-02-11T23:07:14Z",
+    "authors" : [
+      {
+        "name" : "Kasra Ahmadi"
+      },
+      {
+        "name" : "Rouzbeh Behnia"
+      },
+      {
+        "name" : "Reza Ebrahimi"
+      },
+      {
+        "name" : "Mehran Mozaffari Kermani"
+      },
+      {
+        "name" : "Jeremiah Birrell"
+      },
+      {
+        "name" : "Jason Pacheco"
+      },
+      {
+        "name" : "Attila A Yavuz"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
   }
 ]
