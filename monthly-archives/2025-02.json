@@ -1147,5 +1147,300 @@
       "cs.LG",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.11682v1",
+    "title" : "Double Momentum and Error Feedback for Clipping with Fast Rates and\n  Differential Privacy",
+    "summary" : "Strong Differential Privacy (DP) and Optimization guarantees are two\ndesirable properties for a method in Federated Learning (FL). However, existing\nalgorithms do not achieve both properties at once: they either have optimal DP\nguarantees but rely on restrictive assumptions such as bounded\ngradients/bounded data heterogeneity, or they ensure strong optimization\nperformance but lack DP guarantees. To address this gap in the literature, we\npropose and analyze a new method called Clip21-SGD2M based on a novel\ncombination of clipping, heavy-ball momentum, and Error Feedback. In\nparticular, for non-convex smooth distributed problems with clients having\narbitrarily heterogeneous data, we prove that Clip21-SGD2M has optimal\nconvergence rate and also near optimal (local-)DP neighborhood. Our numerical\nexperiments on non-convex logistic regression and training of neural networks\nhighlight the superiority of Clip21-SGD2M over baselines in terms of the\noptimization performance for a given DP-budget.",
+    "updated" : "2025-02-17T11:16:21Z",
+    "published" : "2025-02-17T11:16:21Z",
+    "authors" : [
+      {
+        "name" : "Rustem Islamov"
+      },
+      {
+        "name" : "Samuel Horvath"
+      },
+      {
+        "name" : "Aurelien Lucchi"
+      },
+      {
+        "name" : "Peter Richtarik"
+      },
+      {
+        "name" : "Eduard Gorbunov"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "math.OC",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.11658v1",
+    "title" : "\"I'm not for sale\" -- Perceptions and limited awareness of privacy risks\n  by digital natives about location data",
+    "summary" : "Although mobile devices benefit users in their daily lives in numerous ways,\nthey also raise several privacy concerns. For instance, they can reveal\nsensitive information that can be inferred from location data. This location\ndata is shared through service providers as well as mobile applications.\nUnderstanding how and with whom users share their location data -- as well as\nusers' perception of the underlying privacy risks --, are important notions to\ngrasp in order to design usable privacy-enhancing technologies. In this work,\nwe perform a quantitative and qualitative analysis of smartphone users'\nawareness, perception and self-reported behavior towards location data-sharing\nthrough a survey of n=99 young adult participants (i.e., digital natives). We\ncompare stated practices with actual behaviors to better understand their\nmental models, and survey participants' understanding of privacy risks before\nand after the inspection of location traces and the information that can be\ninferred therefrom.\n  Our empirical results show that participants have risky privacy practices:\nabout 54% of participants underestimate the number of mobile applications to\nwhich they have granted access to their data, and 33% forget or do not think of\nrevoking access to their data. Also, by using a demonstrator to perform\ninferences from location data, we observe that slightly more than half of\nparticipants (57%) are surprised by the extent of potentially inferred\ninformation, and that 47% intend to reduce access to their data via permissions\nas a result of using the demonstrator. Last, a majority of participants have\nlittle knowledge of the tools to better protect themselves, but are nonetheless\nwilling to follow suggestions to improve privacy (51%). Educating people,\nincluding digital natives, about privacy risks through transparency tools seems\na promising approach.",
+    "updated" : "2025-02-17T10:49:23Z",
+    "published" : "2025-02-17T10:49:23Z",
+    "authors" : [
+      {
+        "name" : "Antoine Boutet"
+      },
+      {
+        "name" : "Victor Morel"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.AI",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.11533v1",
+    "title" : "Be Cautious When Merging Unfamiliar LLMs: A Phishing Model Capable of\n  Stealing Privacy",
+    "summary" : "Model merging is a widespread technology in large language models (LLMs) that\nintegrates multiple task-specific LLMs into a unified one, enabling the merged\nmodel to inherit the specialized capabilities of these LLMs. Most task-specific\nLLMs are sourced from open-source communities and have not undergone rigorous\nauditing, potentially imposing risks in model merging. This paper highlights an\noverlooked privacy risk: \\textit{an unsafe model could compromise the privacy\nof other LLMs involved in the model merging.} Specifically, we propose PhiMM, a\nprivacy attack approach that trains a phishing model capable of stealing\nprivacy using a crafted privacy phishing instruction dataset. Furthermore, we\nintroduce a novel model cloaking method that mimics a specialized capability to\nconceal attack intent, luring users into merging the phishing model. Once\nvictims merge the phishing model, the attacker can extract personally\nidentifiable information (PII) or infer membership information (MI) by querying\nthe merged model with the phishing instruction. Experimental results show that\nmerging a phishing model increases the risk of privacy breaches. Compared to\nthe results before merging, PII leakage increased by 3.9\\% and MI leakage\nincreased by 17.4\\% on average. We release the code of PhiMM through a link.",
+    "updated" : "2025-02-17T08:04:52Z",
+    "published" : "2025-02-17T08:04:52Z",
+    "authors" : [
+      {
+        "name" : "Zhenyuan Guo"
+      },
+      {
+        "name" : "Yi Shi"
+      },
+      {
+        "name" : "Wenlong Meng"
+      },
+      {
+        "name" : "Chen Gong"
+      },
+      {
+        "name" : "Chengkun Wei"
+      },
+      {
+        "name" : "Wenzhi Chen"
+      }
+    ],
+    "categories" : [
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.11163v1",
+    "title" : "VLMs as GeoGuessr Masters: Exceptional Performance, Hidden Biases, and\n  Privacy Risks",
+    "summary" : "Visual-Language Models (VLMs) have shown remarkable performance across\nvarious tasks, particularly in recognizing geographic information from images.\nHowever, significant challenges remain, including biases and privacy concerns.\nTo systematically address these issues in the context of geographic information\nrecognition, we introduce a benchmark dataset consisting of 1,200 images paired\nwith detailed geographic metadata. Evaluating four VLMs, we find that while\nthese models demonstrate the ability to recognize geographic information from\nimages, achieving up to $53.8\\%$ accuracy in city prediction, they exhibit\nsignificant regional biases. Specifically, performance is substantially higher\nfor economically developed and densely populated regions compared to less\ndeveloped ($-12.5\\%$) and sparsely populated ($-17.0\\%$) areas. Moreover, the\nmodels exhibit regional biases, frequently overpredicting certain locations;\nfor instance, they consistently predict Sydney for images taken in Australia.\nThe strong performance of VLMs also raises privacy concerns, particularly for\nusers who share images online without the intent of being identified. Our code\nand dataset are publicly available at\nhttps://github.com/uscnlp-lime/FairLocator.",
+    "updated" : "2025-02-16T15:28:34Z",
+    "published" : "2025-02-16T15:28:34Z",
+    "authors" : [
+      {
+        "name" : "Jingyuan Huang"
+      },
+      {
+        "name" : "Jen-tse Huang"
+      },
+      {
+        "name" : "Ziyi Liu"
+      },
+      {
+        "name" : "Xiaoyuan Liu"
+      },
+      {
+        "name" : "Wenxuan Wang"
+      },
+      {
+        "name" : "Jieyu Zhao"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.11009v1",
+    "title" : "Computing Inconsistency Measures Under Differential Privacy",
+    "summary" : "Assessing data quality is crucial to knowing whether and how to use the data\nfor different purposes. Specifically, given a collection of integrity\nconstraints, various ways have been proposed to quantify the inconsistency of a\ndatabase. Inconsistency measures are particularly important when we wish to\nassess the quality of private data without revealing sensitive information. We\nstudy the estimation of inconsistency measures for a database protected under\nDifferential Privacy (DP). Such estimation is nontrivial since some measures\nintrinsically query sensitive information, and the computation of others\ninvolves functions on underlying sensitive data. Among five inconsistency\nmeasures that have been proposed in recent work, we identify that two are\nintractable in the DP setting. The major challenge for the other three is high\nsensitivity: adding or removing one tuple from the dataset may significantly\naffect the outcome. To mitigate that, we model the dataset using a conflict\ngraph and investigate private graph statistics to estimate these measures. The\nproposed machinery includes adapting graph-projection techniques with parameter\nselection optimizations on the conflict graph and a DP variant of approximate\nvertex cover size. We experimentally show that we can effectively compute DP\nestimates of the three measures on five real-world datasets with denial\nconstraints, where the density of the conflict graphs highly varies.",
+    "updated" : "2025-02-16T06:23:11Z",
+    "published" : "2025-02-16T06:23:11Z",
+    "authors" : [
+      {
+        "name" : "Shubhankar Mohapatra"
+      },
+      {
+        "name" : "Amir Gilad"
+      },
+      {
+        "name" : "Xi He"
+      },
+      {
+        "name" : "Benny Kimelfeld"
+      }
+    ],
+    "categories" : [
+      "cs.DB"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.10997v1",
+    "title" : "New Rates in Stochastic Decision-Theoretic Online Learning under\n  Differential Privacy",
+    "summary" : "Hu and Mehta (2024) posed an open problem: what is the optimal\ninstance-dependent rate for the stochastic decision-theoretic online learning\n(with $K$ actions and $T$ rounds) under $\\varepsilon$-differential privacy?\nBefore, the best known upper bound and lower bound are $O\\left(\\frac{\\log\nK}{\\Delta_{\\min}} + \\frac{\\log K\\log T}{\\varepsilon}\\right)$ and\n$\\Omega\\left(\\frac{\\log K}{\\Delta_{\\min}} + \\frac{\\log K}{\\varepsilon}\\right)$\n(where $\\Delta_{\\min}$ is the gap between the optimal and the second actions).\nIn this paper, we partially address this open problem by having two new\nresults. First, we provide an improved upper bound for this problem\n$O\\left(\\frac{\\log K}{\\Delta_{\\min}} + \\frac{\\log^2K}{\\varepsilon}\\right)$,\nwhere the $T$-dependency has been removed. Second, we introduce the\ndeterministic setting, a weaker setting of this open problem, where the\nreceived loss vector is deterministic and we can focus on the analysis for\n$\\varepsilon$ regardless of the sampling error. At the deterministic setting,\nwe prove upper and lower bounds that match at $\\Theta\\left(\\frac{\\log\nK}{\\varepsilon}\\right)$, while a direct application of the analysis and\nalgorithms from the original setting still leads to an extra log factor.\nTechnically, we introduce the Bernoulli resampling trick, which enforces a\nmonotonic property for the output from report-noisy-max mechanism that enables\na tighter analysis. Moreover, by replacing the Laplace noise with Gumbel noise,\nwe derived explicit integral form that gives a tight characterization of the\nregret in the deterministic case.",
+    "updated" : "2025-02-16T05:13:51Z",
+    "published" : "2025-02-16T05:13:51Z",
+    "authors" : [
+      {
+        "name" : "Ruihan Wu"
+      },
+      {
+        "name" : "Yu-Xiang Wang"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "cs.DS"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.10801v1",
+    "title" : "FaceSwapGuard: Safeguarding Facial Privacy from DeepFake Threats through\n  Identity Obfuscation",
+    "summary" : "DeepFakes pose a significant threat to our society. One representative\nDeepFake application is face-swapping, which replaces the identity in a facial\nimage with that of a victim. Although existing methods partially mitigate these\nrisks by degrading the quality of swapped images, they often fail to disrupt\nthe identity transformation effectively. To fill this gap, we propose\nFaceSwapGuard (FSG), a novel black-box defense mechanism against deepfake\nface-swapping threats. Specifically, FSG introduces imperceptible perturbations\nto a user's facial image, disrupting the features extracted by identity\nencoders. When shared online, these perturbed images mislead face-swapping\ntechniques, causing them to generate facial images with identities\nsignificantly different from the original user. Extensive experiments\ndemonstrate the effectiveness of FSG against multiple face-swapping techniques,\nreducing the face match rate from 90\\% (without defense) to below 10\\%. Both\nqualitative and quantitative studies further confirm its ability to confuse\nhuman perception, highlighting its practical utility. Additionally, we\ninvestigate key factors that may influence FSG and evaluate its robustness\nagainst various adaptive adversaries.",
+    "updated" : "2025-02-15T13:45:19Z",
+    "published" : "2025-02-15T13:45:19Z",
+    "authors" : [
+      {
+        "name" : "Li Wang"
+      },
+      {
+        "name" : "Zheng Li"
+      },
+      {
+        "name" : "Xuhong Zhang"
+      },
+      {
+        "name" : "Shouling Ji"
+      },
+      {
+        "name" : "Shanqing Guo"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.10788v1",
+    "title" : "Analyzing Privacy Dynamics within Groups using Gamified Auctions",
+    "summary" : "Online shared content, such as group pictures, often contains information\nabout multiple users. Developing technical solutions to manage the privacy of\nsuch \"co-owned\" content is challenging because each co-owner may have different\npreferences. Recent technical approaches advocate group-decision mechanisms,\nincluding auctions, to decide as how best to resolve these differences.\nHowever, it is not clear if users would participate in such mechanisms and if\nthey do, whether they would act altruistically. Understanding the privacy\ndynamics is crucial to develop effective mechanisms for privacy-respecting\ncollaborative systems. Accordingly, this work develops RESOLVE, a privacy\nauction game to understand the sharing behavior of users in groups. Our results\nof users' playing the game show that i) the users' understanding of individual\nvs. group privacy differs significantly; ii) often users fight for their\npreferences even at the cost of others' privacy; and iii) at times users\ncollaborate to fight for the privacy of others.",
+    "updated" : "2025-02-15T12:48:30Z",
+    "published" : "2025-02-15T12:48:30Z",
+    "authors" : [
+      {
+        "name" : "Hüseyin Aydın"
+      },
+      {
+        "name" : "Onuralp Ulusoy"
+      },
+      {
+        "name" : "Ilaria Liccardi"
+      },
+      {
+        "name" : "Pınar Yolum"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.10701v1",
+    "title" : "Unpacking the Layers: Exploring Self-Disclosure Norms, Engagement\n  Dynamics, and Privacy Implications",
+    "summary" : "This paper characterizes the self-disclosure behavior of Reddit users across\n11 different types of self-disclosure. We find that at least half of the users\nshare some type of disclosure in at least 10% of their posts, with half of\nthese posts having more than one type of disclosure. We show that different\ntypes of self-disclosure are likely to receive varying levels of engagement.\nFor instance, a Sexual Orientation disclosure garners more comments than other\nself-disclosures. We also explore confounding factors that affect future\nself-disclosure. We show that users who receive interactions from\n(self-disclosure) specific subreddit members are more likely to disclose in the\nfuture. We also show that privacy risks due to self-disclosure extend beyond\nReddit users themselves to include their close contacts, such as family and\nfriends, as their information is also revealed. We develop a browser plugin for\nend-users to flag self-disclosure in their content.",
+    "updated" : "2025-02-15T07:15:09Z",
+    "published" : "2025-02-15T07:15:09Z",
+    "authors" : [
+      {
+        "name" : "Ehsan-Ul Haq"
+      },
+      {
+        "name" : "Shalini Jangra"
+      },
+      {
+        "name" : "Suparna De"
+      },
+      {
+        "name" : "Nishanth Sastry"
+      },
+      {
+        "name" : "Gareth Tyson"
+      }
+    ],
+    "categories" : [
+      "cs.SI",
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.10635v1",
+    "title" : "Privacy Preservation through Practical Machine Unlearning",
+    "summary" : "Machine Learning models thrive on vast datasets, continuously adapting to\nprovide accurate predictions and recommendations. However, in an era dominated\nby privacy concerns, Machine Unlearning emerges as a transformative approach,\nenabling the selective removal of data from trained models. This paper examines\nmethods such as Naive Retraining and Exact Unlearning via the SISA framework,\nevaluating their Computational Costs, Consistency, and feasibility using the\n\\texttt{HSpam14} dataset. We explore the potential of integrating unlearning\nprinciples into Positive Unlabeled (PU) Learning to address challenges posed by\npartially labeled datasets. Our findings highlight the promise of unlearning\nframeworks like \\textit{DaRE} for ensuring privacy compliance while maintaining\nmodel performance, albeit with significant computational trade-offs. This study\nunderscores the importance of Machine Unlearning in achieving ethical AI and\nfostering trust in data-driven systems.",
+    "updated" : "2025-02-15T02:25:27Z",
+    "published" : "2025-02-15T02:25:27Z",
+    "authors" : [
+      {
+        "name" : "Robert Dilworth"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.10599v1",
+    "title" : "Federated Learning-Driven Cybersecurity Framework for IoT Networks with\n  Privacy-Preserving and Real-Time Threat Detection Capabilities",
+    "summary" : "The rapid expansion of the Internet of Things (IoT) ecosystem has transformed\nvarious sectors but has also introduced significant cybersecurity challenges.\nTraditional centralized security methods often struggle to balance privacy\npreservation and real-time threat detection in IoT networks. To address these\nissues, this study proposes a Federated Learning-Driven Cybersecurity Framework\ndesigned specifically for IoT environments. The framework enables decentralized\ndata processing by training models locally on edge devices, ensuring data\nprivacy. Secure aggregation of these locally trained models is achieved using\nhomomorphic encryption, allowing collaborative learning without exposing\nsensitive information.\n  The proposed framework utilizes recurrent neural networks (RNNs) for anomaly\ndetection, optimized for resource-constrained IoT networks. Experimental\nresults demonstrate that the system effectively detects complex cyber threats,\nincluding distributed denial-of-service (DDoS) attacks, with over 98% accuracy.\nAdditionally, it improves energy efficiency by reducing resource consumption by\n20% compared to centralized approaches.\n  This research addresses critical gaps in IoT cybersecurity by integrating\nfederated learning with advanced threat detection techniques. The framework\noffers a scalable and privacy-preserving solution adaptable to various IoT\napplications. Future work will explore the integration of blockchain for\ntransparent model aggregation and quantum-resistant cryptographic methods to\nfurther enhance security in evolving technological landscapes.",
+    "updated" : "2025-02-14T23:11:51Z",
+    "published" : "2025-02-14T23:11:51Z",
+    "authors" : [
+      {
+        "name" : "Milad Rahmati"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG",
+      "cs.NI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.10450v1",
+    "title" : "Trustworthy AI on Safety, Bias, and Privacy: A Survey",
+    "summary" : "The capabilities of artificial intelligence systems have been advancing to a\ngreat extent, but these systems still struggle with failure modes,\nvulnerabilities, and biases. In this paper, we study the current state of the\nfield, and present promising insights and perspectives regarding concerns that\nchallenge the trustworthiness of AI models. In particular, this paper\ninvestigates the issues regarding three thrusts: safety, privacy, and bias,\nwhich hurt models' trustworthiness. For safety, we discuss safety alignment in\nthe context of large language models, preventing them from generating toxic or\nharmful content. For bias, we focus on spurious biases that can mislead a\nnetwork. Lastly, for privacy, we cover membership inference attacks in deep\nneural networks. The discussions addressed in this paper reflect our own\nexperiments and observations.",
+    "updated" : "2025-02-11T20:08:42Z",
+    "published" : "2025-02-11T20:08:42Z",
+    "authors" : [
+      {
+        "name" : "Xingli Fang"
+      },
+      {
+        "name" : "Jianwei Li"
+      },
+      {
+        "name" : "Varun Mulchandani"
+      },
+      {
+        "name" : "Jung-Eun Kim"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.CL",
+      "cs.LG"
+    ]
   }
 ]
