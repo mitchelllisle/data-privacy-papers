@@ -1442,5 +1442,126 @@
       "cs.CL",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.12976v1",
+    "title" : "Does Training with Synthetic Data Truly Protect Privacy?",
+    "summary" : "As synthetic data becomes increasingly popular in machine learning tasks,\nnumerous methods--without formal differential privacy guarantees--use synthetic\ndata for training. These methods often claim, either explicitly or implicitly,\nto protect the privacy of the original training data. In this work, we explore\nfour different training paradigms: coreset selection, dataset distillation,\ndata-free knowledge distillation, and synthetic data generated from diffusion\nmodels. While all these methods utilize synthetic data for training, they lead\nto vastly different conclusions regarding privacy preservation. We caution that\nempirical approaches to preserving data privacy require careful and rigorous\nevaluation; otherwise, they risk providing a false sense of privacy.",
+    "updated" : "2025-02-18T15:56:52Z",
+    "published" : "2025-02-18T15:56:52Z",
+    "authors" : [
+      {
+        "name" : "Yunpeng Zhao"
+      },
+      {
+        "name" : "Jie Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.12658v1",
+    "title" : "R.R.: Unveiling LLM Training Privacy through Recollection and Ranking",
+    "summary" : "Large Language Models (LLMs) pose significant privacy risks, potentially\nleaking training data due to implicit memorization. Existing privacy attacks\nprimarily focus on membership inference attacks (MIAs) or data extraction\nattacks, but reconstructing specific personally identifiable information (PII)\nin LLM's training data remains challenging. In this paper, we propose R.R.\n(Recollect and Rank), a novel two-step privacy stealing attack that enables\nattackers to reconstruct PII entities from scrubbed training data where the PII\nentities have been masked. In the first stage, we introduce a prompt paradigm\nnamed recollection, which instructs the LLM to repeat a masked text but fill in\nmasks. Then we can use PII identifiers to extract recollected PII candidates.\nIn the second stage, we design a new criterion to score each PII candidate and\nrank them. Motivated by membership inference, we leverage the reference model\nas a calibration to our criterion. Experiments across three popular PII\ndatasets demonstrate that the R.R. achieves better PII identical performance\ncompared to baselines. These results highlight the vulnerability of LLMs to PII\nleakage even when training data has been scrubbed. We release the replicate\npackage of R.R. at a link.",
+    "updated" : "2025-02-18T09:05:59Z",
+    "published" : "2025-02-18T09:05:59Z",
+    "authors" : [
+      {
+        "name" : "Wenlong Meng"
+      },
+      {
+        "name" : "Zhenyuan Guo"
+      },
+      {
+        "name" : "Lenan Wu"
+      },
+      {
+        "name" : "Chen Gong"
+      },
+      {
+        "name" : "Wenyan Liu"
+      },
+      {
+        "name" : "Weixian Li"
+      },
+      {
+        "name" : "Chengkun Wei"
+      },
+      {
+        "name" : "Wenzhi Chen"
+      }
+    ],
+    "categories" : [
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.11658v2",
+    "title" : "\"I'm not for sale\" -- Perceptions and limited awareness of privacy risks\n  by digital natives about location data",
+    "summary" : "Although mobile devices benefit users in their daily lives in numerous ways,\nthey also raise several privacy concerns. For instance, they can reveal\nsensitive information that can be inferred from location data. This location\ndata is shared through service providers as well as mobile applications.\nUnderstanding how and with whom users share their location data -- as well as\nusers' perception of the underlying privacy risks --, are important notions to\ngrasp in order to design usable privacy-enhancing technologies. In this work,\nwe perform a quantitative and qualitative analysis of smartphone users'\nawareness, perception and self-reported behavior towards location data-sharing\nthrough a survey of n=99 young adult participants (i.e., digital natives). We\ncompare stated practices with actual behaviors to better understand their\nmental models, and survey participants' understanding of privacy risks before\nand after the inspection of location traces and the information that can be\ninferred therefrom.\n  Our empirical results show that participants have risky privacy practices:\nabout 54% of participants underestimate the number of mobile applications to\nwhich they have granted access to their data, and 33% forget or do not think of\nrevoking access to their data. Also, by using a demonstrator to perform\ninferences from location data, we observe that slightly more than half of\nparticipants (57%) are surprised by the extent of potentially inferred\ninformation, and that 47% intend to reduce access to their data via permissions\nas a result of using the demonstrator. Last, a majority of participants have\nlittle knowledge of the tools to better protect themselves, but are nonetheless\nwilling to follow suggestions to improve privacy (51%). Educating people,\nincluding digital natives, about privacy risks through transparency tools seems\na promising approach.",
+    "updated" : "2025-02-18T09:24:14Z",
+    "published" : "2025-02-17T10:49:23Z",
+    "authors" : [
+      {
+        "name" : "Antoine Boutet"
+      },
+      {
+        "name" : "Victor Morel"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.AI",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.10635v2",
+    "title" : "Privacy Preservation through Practical Machine Unlearning",
+    "summary" : "Machine Learning models thrive on vast datasets, continuously adapting to\nprovide accurate predictions and recommendations. However, in an era dominated\nby privacy concerns, Machine Unlearning emerges as a transformative approach,\nenabling the selective removal of data from trained models. This paper examines\nmethods such as Naive Retraining and Exact Unlearning via the SISA framework,\nevaluating their Computational Costs, Consistency, and feasibility using the\n$\\texttt{HSpam14}$ dataset. We explore the potential of integrating unlearning\nprinciples into Positive Unlabeled (PU) Learning to address challenges posed by\npartially labeled datasets. Our findings highlight the promise of unlearning\nframeworks like $\\textit{DaRE}$ for ensuring privacy compliance while\nmaintaining model performance, albeit with significant computational\ntrade-offs. This study underscores the importance of Machine Unlearning in\nachieving ethical AI and fostering trust in data-driven systems.",
+    "updated" : "2025-02-18T14:16:06Z",
+    "published" : "2025-02-15T02:25:27Z",
+    "authors" : [
+      {
+        "name" : "Robert Dilworth"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.09001v1",
+    "title" : "Privacy-Preserving Hybrid Ensemble Model for Network Anomaly Detection:\n  Balancing Security and Data Protection",
+    "summary" : "Privacy-preserving network anomaly detection has become an essential area of\nresearch due to growing concerns over the protection of sensitive data.\nTraditional anomaly detection models often prioritize accuracy while neglecting\nthe critical aspect of privacy. In this work, we propose a hybrid ensemble\nmodel that incorporates privacy-preserving techniques to address both detection\naccuracy and data protection. Our model combines the strengths of several\nmachine learning algorithms, including K-Nearest Neighbors (KNN), Support\nVector Machines (SVM), XGBoost, and Artificial Neural Networks (ANN), to create\na robust system capable of identifying network anomalies while ensuring\nprivacy. The proposed approach integrates advanced preprocessing techniques\nthat enhance data quality and address the challenges of small sample sizes and\nimbalanced datasets. By embedding privacy measures into the model design, our\nsolution offers a significant advancement over existing methods, ensuring both\nenhanced detection performance and strong privacy safeguards.",
+    "updated" : "2025-02-13T06:33:16Z",
+    "published" : "2025-02-13T06:33:16Z",
+    "authors" : [
+      {
+        "name" : "Shaobo Liu"
+      },
+      {
+        "name" : "Zihao Zhao"
+      },
+      {
+        "name" : "Weijie He"
+      },
+      {
+        "name" : "Jiren Wang"
+      },
+      {
+        "name" : "Jing Peng"
+      },
+      {
+        "name" : "Haoyuan Ma"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
   }
 ]
