@@ -1420,66 +1420,57 @@ analysis tools and a modest average performance overhead of 42.7%.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.08665v1">A Survey on Facial Image Privacy Preservation in Cloud-Based Services</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2025-01-15T09:00:32Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Chen Chen, Mengyuan Sun, Xueluan Gong, Yanjiao Chen, Qian Wang</p>
-    <p><b>Summary:</b> Facial recognition models are increasingly employed by commercial
-enterprises, government agencies, and cloud service providers for identity
-verification, consumer services, and surveillance. These models are often
-trained using vast amounts of facial data processed and stored in cloud-based
-platforms, raising significant privacy concerns. Users' facial images may be
-exploited without their consent, leading to potential data breaches and misuse.
-This survey presents a comprehensive review of current methods aimed at
-preserving facial image privacy in cloud-based services. We categorize these
-methods into two primary approaches: image obfuscation-based protection and
-adversarial perturbation-based protection. We provide an in-depth analysis of
-both categories, offering qualitative and quantitative comparisons of their
-effectiveness. Additionally, we highlight unresolved challenges and propose
-future research directions to improve privacy preservation in cloud computing
-environments.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.08449v1">A Refreshment Stirred, Not Shaken (II): Invariant-Preserving Deployments
-  of Differential Privacy for the US Decennial Census</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B"> 
-  <p><b>Published on:</b> 2025-01-14T21:38:01Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> James Bailie, Ruobin Gong, Xiao-Li Meng</p>
-    <p><b>Summary:</b> Through the lens of the system of differential privacy specifications
-developed in Part I of a trio of articles, this second paper examines two
-statistical disclosure control (SDC) methods for the United States Decennial
-Census: the Permutation Swapping Algorithm (PSA), which is similar to the 2010
-Census's disclosure avoidance system (DAS), and the TopDown Algorithm (TDA),
-which was used in the 2020 DAS. To varying degrees, both methods leave
-unaltered some statistics of the confidential data $\unicode{x2013}$ which are
-called the method's invariants $\unicode{x2013}$ and hence neither can be
-readily reconciled with differential privacy (DP), at least as it was
-originally conceived. Nevertheless, we establish that the PSA satisfies
-$\varepsilon$-DP subject to the invariants it necessarily induces, thereby
-showing that this traditional SDC method can in fact still be understood within
-our more-general system of DP specifications. By a similar modification to
-$\rho$-zero concentrated DP, we also provide a DP specification for the TDA.
-Finally, as a point of comparison, we consider the counterfactual scenario in
-which the PSA was adopted for the 2020 Census, resulting in a reduction in the
-nominal privacy loss, but at the cost of releasing many more invariants.
-Therefore, while our results explicate the mathematical guarantees of SDC
-provided by the PSA, the TDA and the 2020 DAS in general, care must be taken in
-their translation to actual privacy protection $\unicode{x2013}$ just as is the
-case for any DP deployment.</p>
-  </details>
-</div>
-
-
 
 <h2>2025-02</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2502.12976v1">Does Training with Synthetic Data Truly Protect Privacy?</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-02-18T15:56:52Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yunpeng Zhao, Jie Zhang</p>
+    <p><b>Summary:</b> As synthetic data becomes increasingly popular in machine learning tasks,
+numerous methods--without formal differential privacy guarantees--use synthetic
+data for training. These methods often claim, either explicitly or implicitly,
+to protect the privacy of the original training data. In this work, we explore
+four different training paradigms: coreset selection, dataset distillation,
+data-free knowledge distillation, and synthetic data generated from diffusion
+models. While all these methods utilize synthetic data for training, they lead
+to vastly different conclusions regarding privacy preservation. We caution that
+empirical approaches to preserving data privacy require careful and rigorous
+evaluation; otherwise, they risk providing a false sense of privacy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2502.12658v1">R.R.: Unveiling LLM Training Privacy through Recollection and Ranking</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2025-02-18T09:05:59Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Wenlong Meng, Zhenyuan Guo, Lenan Wu, Chen Gong, Wenyan Liu, Weixian Li, Chengkun Wei, Wenzhi Chen</p>
+    <p><b>Summary:</b> Large Language Models (LLMs) pose significant privacy risks, potentially
+leaking training data due to implicit memorization. Existing privacy attacks
+primarily focus on membership inference attacks (MIAs) or data extraction
+attacks, but reconstructing specific personally identifiable information (PII)
+in LLM's training data remains challenging. In this paper, we propose R.R.
+(Recollect and Rank), a novel two-step privacy stealing attack that enables
+attackers to reconstruct PII entities from scrubbed training data where the PII
+entities have been masked. In the first stage, we introduce a prompt paradigm
+named recollection, which instructs the LLM to repeat a masked text but fill in
+masks. Then we can use PII identifiers to extract recollected PII candidates.
+In the second stage, we design a new criterion to score each PII candidate and
+rank them. Motivated by membership inference, we leverage the reference model
+as a calibration to our criterion. Experiments across three popular PII
+datasets demonstrate that the R.R. achieves better PII identical performance
+compared to baselines. These results highlight the vulnerability of LLMs to PII
+leakage even when training data has been scrubbed. We release the replicate
+package of R.R. at a link.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2502.11682v1">Double Momentum and Error Feedback for Clipping with Fast Rates and
@@ -1508,7 +1499,7 @@ optimization performance for a given DP-budget.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.11658v1">"I'm not for sale" -- Perceptions and limited awareness of privacy risks
+  <h3><a href="http://arxiv.org/abs/2502.11658v2">"I'm not for sale" -- Perceptions and limited awareness of privacy risks
   by digital natives about location data</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2025-02-17T10:49:23Z</p>
@@ -1747,7 +1738,7 @@ end-users to flag self-disclosure in their content.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.10635v1">Privacy Preservation through Practical Machine Unlearning</a></h3>
+  <h3><a href="http://arxiv.org/abs/2502.10635v2">Privacy Preservation through Practical Machine Unlearning</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2025-02-15T02:25:27Z</p>
   <details>
@@ -1759,13 +1750,13 @@ by privacy concerns, Machine Unlearning emerges as a transformative approach,
 enabling the selective removal of data from trained models. This paper examines
 methods such as Naive Retraining and Exact Unlearning via the SISA framework,
 evaluating their Computational Costs, Consistency, and feasibility using the
-\texttt{HSpam14} dataset. We explore the potential of integrating unlearning
+$\texttt{HSpam14}$ dataset. We explore the potential of integrating unlearning
 principles into Positive Unlabeled (PU) Learning to address challenges posed by
 partially labeled datasets. Our findings highlight the promise of unlearning
-frameworks like \textit{DaRE} for ensuring privacy compliance while maintaining
-model performance, albeit with significant computational trade-offs. This study
-underscores the importance of Machine Unlearning in achieving ethical AI and
-fostering trust in data-driven systems.</p>
+frameworks like $\textit{DaRE}$ for ensuring privacy compliance while
+maintaining model performance, albeit with significant computational
+trade-offs. This study underscores the importance of Machine Unlearning in
+achieving ethical AI and fostering trust in data-driven systems.</p>
   </details>
 </div>
 
@@ -1879,18 +1870,18 @@ transfer; and its potential integration into large language models.</p>
     <p><b>Authors:</b> Shaobo Liu, Zihao Zhao, Weijie He, Jiren Wang, Jing Peng, Haoyuan Ma</p>
     <p><b>Summary:</b> Privacy-preserving network anomaly detection has become an essential area of
 research due to growing concerns over the protection of sensitive data.
-Traditional anomaly de- tection models often prioritize accuracy while
-neglecting the critical aspect of privacy. In this work, we propose a hybrid
-ensemble model that incorporates privacy-preserving techniques to address both
-detection accuracy and data protection. Our model combines the strengths of
-several machine learning algo- rithms, including K-Nearest Neighbors (KNN),
-Support Vector Machines (SVM), XGBoost, and Artificial Neural Networks (ANN),
-to create a robust system capable of identifying network anomalies while
-ensuring privacy. The proposed approach in- tegrates advanced preprocessing
-techniques that enhance data quality and address the challenges of small sample
-sizes and imbalanced datasets. By embedding privacy measures into the model
-design, our solution offers a significant advancement over existing methods,
-ensuring both enhanced detection performance and strong privacy safeguards.</p>
+Traditional anomaly detection models often prioritize accuracy while neglecting
+the critical aspect of privacy. In this work, we propose a hybrid ensemble
+model that incorporates privacy-preserving techniques to address both detection
+accuracy and data protection. Our model combines the strengths of several
+machine learning algorithms, including K-Nearest Neighbors (KNN), Support
+Vector Machines (SVM), XGBoost, and Artificial Neural Networks (ANN), to create
+a robust system capable of identifying network anomalies while ensuring
+privacy. The proposed approach integrates advanced preprocessing techniques
+that enhance data quality and address the challenges of small sample sizes and
+imbalanced datasets. By embedding privacy measures into the model design, our
+solution offers a significant advancement over existing methods, ensuring both
+enhanced detection performance and strong privacy safeguards.</p>
   </details>
 </div>
 
