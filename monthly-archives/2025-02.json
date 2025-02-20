@@ -1563,5 +1563,180 @@
     "categories" : [
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.13833v1",
+    "title" : "Contrastive Learning-Based privacy metrics in Tabular Synthetic Datasets",
+    "summary" : "Synthetic data has garnered attention as a Privacy Enhancing Technology (PET)\nin sectors such as healthcare and finance. When using synthetic data in\npractical applications, it is important to provide protection guarantees. In\nthe literature, two family of approaches are proposed for tabular data: on the\none hand, Similarity-based methods aim at finding the level of similarity\nbetween training and synthetic data. Indeed, a privacy breach can occur if the\ngenerated data is consistently too similar or even identical to the train data.\nOn the other hand, Attack-based methods conduce deliberate attacks on synthetic\ndatasets. The success rates of these attacks reveal how secure the synthetic\ndatasets are.\n  In this paper, we introduce a contrastive method that improves privacy\nassessment of synthetic datasets by embedding the data in a more representative\nspace. This overcomes obstacles surrounding the multitude of data types and\nattributes. It also makes the use of intuitive distance metrics possible for\nsimilarity measurements and as an attack vector. In a series of experiments\nwith publicly available datasets, we compare the performances of\nsimilarity-based and attack-based methods, both with and without use of the\ncontrastive learning-based embeddings. Our results show that relatively\nefficient, easy to implement privacy metrics can perform equally well as more\nadvanced metrics explicitly modeling conditions for privacy referred to by the\nGDPR.",
+    "updated" : "2025-02-19T15:52:23Z",
+    "published" : "2025-02-19T15:52:23Z",
+    "authors" : [
+      {
+        "name" : "Milton Nicolás Plasencia Palacios"
+      },
+      {
+        "name" : "Sebastiano Saccani"
+      },
+      {
+        "name" : "Gabriele Sgroi"
+      },
+      {
+        "name" : "Alexander Boudewijn"
+      },
+      {
+        "name" : "Luca Bortolussi"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.13564v1",
+    "title" : "PRIV-QA: Privacy-Preserving Question Answering for Cloud Large Language\n  Models",
+    "summary" : "The rapid development of large language models (LLMs) is redefining the\nlandscape of human-computer interaction, and their integration into various\nuser-service applications is becoming increasingly prevalent. However,\ntransmitting user data to cloud-based LLMs presents significant risks of data\nbreaches and unauthorized access to personal identification information. In\nthis paper, we propose a privacy preservation pipeline for protecting privacy\nand sensitive information during interactions between users and LLMs in\npractical LLM usage scenarios. We construct SensitiveQA, the first privacy\nopen-ended question-answering dataset. It comprises 57k interactions in Chinese\nand English, encompassing a diverse range of user-sensitive information within\nthe conversations. Our proposed solution employs a multi-stage strategy aimed\nat preemptively securing user information while simultaneously preserving the\nresponse quality of cloud-based LLMs. Experimental validation underscores our\nmethod's efficacy in balancing privacy protection with maintaining robust\ninteraction quality. The code and dataset are available at\nhttps://github.com/ligw1998/PRIV-QA.",
+    "updated" : "2025-02-19T09:17:07Z",
+    "published" : "2025-02-19T09:17:07Z",
+    "authors" : [
+      {
+        "name" : "Guangwei Li"
+      },
+      {
+        "name" : "Yuansen Zhang"
+      },
+      {
+        "name" : "Yinggui Wang"
+      },
+      {
+        "name" : "Shoumeng Yan"
+      },
+      {
+        "name" : "Lei Wang"
+      },
+      {
+        "name" : "Tao Wei"
+      }
+    ],
+    "categories" : [
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.13415v1",
+    "title" : "Indifferential Privacy: A New Paradigm and Its Applications to Optimal\n  Matching in Dark Pool Auctions",
+    "summary" : "Public exchanges like the New York Stock Exchange and NASDAQ act as\nauctioneers in a public double auction system, where buyers submit their\nhighest bids and sellers offer their lowest asking prices, along with the\nnumber of shares (volume) they wish to trade. The auctioneer matches compatible\norders and executes the trades when a match is found. However, auctioneers\ninvolved in high-volume exchanges, such as dark pools, may not always be\nreliable. They could exploit their position by engaging in practices like\nfront-running or face significant conflicts of interest, i.e., ethical breaches\nthat have frequently resulted in hefty fines and regulatory scrutiny within the\nfinancial industry.\n  Previous solutions, based on the use of fully homomorphic encryption (Asharov\net al., AAMAS 2020), encrypt orders ensuring that information is revealed only\nwhen a match occurs. However, this approach introduces significant\ncomputational overhead, making it impractical for high-frequency trading\nenvironments such as dark pools.\n  In this work, we propose a new system based on differential privacy combined\nwith lightweight encryption, offering an efficient and practical solution that\nmitigates the risks of an untrustworthy auctioneer. Specifically, we introduce\na new concept called Indifferential Privacy, which can be of independent\ninterest, where a user is indifferent to whether certain information is\nrevealed after some special event, unlike standard differential privacy. For\nexample, in an auction, it's reasonable to disclose the true volume of a trade\nonce all of it has been matched. Moreover, our new concept of Indifferential\nPrivacy allows for maximum matching, which is impossible with conventional\ndifferential privacy.",
+    "updated" : "2025-02-19T04:19:25Z",
+    "published" : "2025-02-19T04:19:25Z",
+    "authors" : [
+      {
+        "name" : "Antigoni Polychroniadou"
+      },
+      {
+        "name" : "T. -H. Hubert Chan"
+      },
+      {
+        "name" : "Adya Agrawal"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.13313v1",
+    "title" : "Revisiting Privacy, Utility, and Efficiency Trade-offs when Fine-Tuning\n  Large Language Models",
+    "summary" : "We study the inherent trade-offs in minimizing privacy risks and maximizing\nutility, while maintaining high computational efficiency, when fine-tuning\nlarge language models (LLMs). A number of recent works in privacy research have\nattempted to mitigate privacy risks posed by memorizing fine-tuning data by\nusing differentially private training methods (e.g., DP), albeit at a\nsignificantly higher computational cost (inefficiency). In parallel, several\nworks in systems research have focussed on developing (parameter) efficient\nfine-tuning methods (e.g., LoRA), but few works, if any, investigated whether\nsuch efficient methods enhance or diminish privacy risks. In this paper, we\ninvestigate this gap and arrive at a surprising conclusion: efficient\nfine-tuning methods like LoRA mitigate privacy risks similar to private\nfine-tuning methods like DP. Our empirical finding directly contradicts\nprevailing wisdom that privacy and efficiency objectives are at odds during\nfine-tuning. Our finding is established by (a) carefully defining measures of\nprivacy and utility that distinguish between memorizing sensitive and\nnon-sensitive tokens in training and test datasets used in fine-tuning and (b)\nextensive evaluations using multiple open-source language models from Pythia,\nGemma, and Llama families and different domain-specific datasets.",
+    "updated" : "2025-02-18T22:16:03Z",
+    "published" : "2025-02-18T22:16:03Z",
+    "authors" : [
+      {
+        "name" : "Soumi Das"
+      },
+      {
+        "name" : "Camila Kolling"
+      },
+      {
+        "name" : "Mohammad Aflah Khan"
+      },
+      {
+        "name" : "Mahsa Amani"
+      },
+      {
+        "name" : "Bishwamittra Ghosh"
+      },
+      {
+        "name" : "Qinyuan Wu"
+      },
+      {
+        "name" : "Till Speicher"
+      },
+      {
+        "name" : "Krishna P. Gummadi"
+      }
+    ],
+    "categories" : [
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.13191v1",
+    "title" : "On the Privacy Risks of Spiking Neural Networks: A Membership Inference\n  Analysis",
+    "summary" : "Spiking Neural Networks (SNNs) are increasingly explored for their energy\nefficiency and robustness in real-world applications, yet their privacy risks\nremain largely unexamined. In this work, we investigate the susceptibility of\nSNNs to Membership Inference Attacks (MIAs) -- a major privacy threat where an\nadversary attempts to determine whether a given sample was part of the training\ndataset. While prior work suggests that SNNs may offer inherent robustness due\nto their discrete, event-driven nature, we find that its resilience diminishes\nas latency (T) increases. Furthermore, we introduce an input dropout strategy\nunder black box setting, that significantly enhances membership inference in\nSNNs. Our findings challenge the assumption that SNNs are inherently more\nsecure, and even though they are expected to be better, our results reveal that\nSNNs exhibit privacy vulnerabilities that are equally comparable to Artificial\nNeural Networks (ANNs). Our code is available at\nhttps://anonymous.4open.science/r/MIA_SNN-3610.",
+    "updated" : "2025-02-18T15:19:20Z",
+    "published" : "2025-02-18T15:19:20Z",
+    "authors" : [
+      {
+        "name" : "Junyi Guan"
+      },
+      {
+        "name" : "Abhijith Sharma"
+      },
+      {
+        "name" : "Chong Tian"
+      },
+      {
+        "name" : "Salem Lahlou"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.13172v1",
+    "title" : "Unveiling Privacy Risks in LLM Agent Memory",
+    "summary" : "Large Language Model (LLM) agents have become increasingly prevalent across\nvarious real-world applications. They enhance decision-making by storing\nprivate user-agent interactions in the memory module for demonstrations,\nintroducing new privacy risks for LLM agents. In this work, we systematically\ninvestigate the vulnerability of LLM agents to our proposed Memory EXTRaction\nAttack (MEXTRA) under a black-box setting. To extract private information from\nmemory, we propose an effective attacking prompt design and an automated prompt\ngeneration method based on different levels of knowledge about the LLM agent.\nExperiments on two representative agents demonstrate the effectiveness of\nMEXTRA. Moreover, we explore key factors influencing memory leakage from both\nthe agent's and the attacker's perspectives. Our findings highlight the urgent\nneed for effective memory safeguards in LLM agent design and deployment.",
+    "updated" : "2025-02-17T19:55:53Z",
+    "published" : "2025-02-17T19:55:53Z",
+    "authors" : [
+      {
+        "name" : "Bo Wang"
+      },
+      {
+        "name" : "Weiyi He"
+      },
+      {
+        "name" : "Pengfei He"
+      },
+      {
+        "name" : "Shenglai Zeng"
+      },
+      {
+        "name" : "Zhen Xiang"
+      },
+      {
+        "name" : "Yue Xing"
+      },
+      {
+        "name" : "Jiliang Tang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
   }
 ]
