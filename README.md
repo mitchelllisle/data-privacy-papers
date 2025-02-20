@@ -1256,172 +1256,135 @@ privacy.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.11756v1">Everyone's Privacy Matters! An Analysis of Privacy Leakage from
-  Real-World Facial Images on Twitter and Associated User Behaviors</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2025-01-20T21:31:59Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yuqi Niu, Weidong Qiu, Peng Tang, Lifan Wang, Shuo Chen, Shujun Li, Nadin Kokciyan, Ben Niu</p>
-    <p><b>Summary:</b> Online users often post facial images of themselves and other people on
-online social networks (OSNs) and other Web 2.0 platforms, which can lead to
-potential privacy leakage of people whose faces are included in such images.
-There is limited research on understanding face privacy in social media while
-considering user behavior. It is crucial to consider privacy of subjects and
-bystanders separately. This calls for the development of privacy-aware face
-detection classifiers that can distinguish between subjects and bystanders
-automatically. This paper introduces such a classifier trained on face-based
-features, which outperforms the two state-of-the-art methods with a significant
-margin (by 13.1% and 3.1% for OSN images, and by 17.9% and 5.9% for non-OSN
-images). We developed a semi-automated framework for conducting a large-scale
-analysis of the face privacy problem by using our novel bystander-subject
-classifier. We collected 27,800 images, each including at least one face,
-shared by 6,423 Twitter users. We then applied our framework to analyze this
-dataset thoroughly. Our analysis reveals eight key findings of different
-aspects of Twitter users' real-world behaviors on face privacy, and we provide
-quantitative and qualitative results to better explain these findings. We share
-the practical implications of our study to empower online platforms and users
-in addressing the face privacy problem efficiently.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.11740v2">PIR Over Wireless Channels: Achieving Privacy With Public Responses</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
-  <p><b>Published on:</b> 2025-01-20T20:56:56Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Or Elimelech, Asaf Cohen</p>
-    <p><b>Summary:</b> In this paper, we address the problem of Private Information Retrieval (PIR)
-over a public Additive White Gaussian Noise (AWGN) channel. In such a setup,
-the server's responses are visible to other servers. Thus, a curious server can
-listen to the other responses, compromising the user's privacy. Indeed,
-previous works on PIR over a shared medium assumed the servers cannot
-instantaneously listen to other responses. To address this gap, we present a
-novel randomized lattice -- PIR coding scheme that jointly codes for privacy,
-channel noise, and curious servers which may listen to other responses. We
-demonstrate that a positive PIR rate is achievable even in cases where the
-channel to the curious server is stronger than the channel to the user.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.10915v1">LegalGuardian: A Privacy-Preserving Framework for Secure Integration of
-  Large Language Models in Legal Practice</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB">  
-  <p><b>Published on:</b> 2025-01-19T01:43:42Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> M. Mikail Demir, Hakan T. Otal, M. Abdullah Canbaz</p>
-    <p><b>Summary:</b> Large Language Models (LLMs) hold promise for advancing legal practice by
-automating complex tasks and improving access to justice. However, their
-adoption is limited by concerns over client confidentiality, especially when
-lawyers include sensitive Personally Identifiable Information (PII) in prompts,
-risking unauthorized data exposure. To mitigate this, we introduce
-LegalGuardian, a lightweight, privacy-preserving framework tailored for lawyers
-using LLM-based tools. LegalGuardian employs Named Entity Recognition (NER)
-techniques and local LLMs to mask and unmask confidential PII within prompts,
-safeguarding sensitive data before any external interaction. We detail its
-development and assess its effectiveness using a synthetic prompt library in
-immigration law scenarios. Comparing traditional NER models with one-shot
-prompted local LLM, we find that LegalGuardian achieves a F1-score of 93% with
-GLiNER and 97% with Qwen2.5-14B in PII detection. Semantic similarity analysis
-confirms that the framework maintains high fidelity in outputs, ensuring robust
-utility of LLM-based tools. Our findings indicate that legal professionals can
-harness advanced AI technologies without compromising client confidentiality or
-the quality of legal documents.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.10319v1">Natural Language Processing of Privacy Policies: A Survey</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2025-01-17T17:47:15Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Andrick Adhikari, Sanchari Das, Rinku Dewri</p>
-    <p><b>Summary:</b> Natural Language Processing (NLP) is an essential subset of artificial
-intelligence. It has become effective in several domains, such as healthcare,
-finance, and media, to identify perceptions, opinions, and misuse, among
-others. Privacy is no exception, and initiatives have been taken to address the
-challenges of usable privacy notifications to users with the help of NLP. To
-this aid, we conduct a literature review by analyzing 109 papers at the
-intersection of NLP and privacy policies. First, we provide a brief
-introduction to privacy policies and discuss various facets of associated
-problems, which necessitate the application of NLP to elevate the current state
-of privacy notices and disclosures to users. Subsequently, we a) provide an
-overview of the implementation and effectiveness of NLP approaches for better
-privacy policy communication; b) identify the methodologies that can be further
-enhanced to provide robust privacy policies; and c) identify the gaps in the
-current state-of-the-art research. Our systematic analysis reveals that several
-research papers focus on annotating and classifying privacy texts for analysis
-but need to adequately dwell on other aspects of NLP applications, such as
-summarization. More specifically, ample research opportunities exist in this
-domain, covering aspects such as corpus generation, summarization vectors,
-contextualized word embedding, identification of privacy-relevant statement
-categories, fine-grained classification, and domain-specific model tuning.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.10099v1">Several Representations of $α$-Mutual Information and
-  Interpretations as Privacy Leakage Measures</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
-  <p><b>Published on:</b> 2025-01-17T10:36:05Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Akira Kamatsuka, Takashiro Yoshida</p>
-    <p><b>Summary:</b> In this paper, we present several novel representations of $\alpha$-mutual
-information ($\alpha$-MI) in terms of R{\' e}nyi divergence and conditional
-R{\' e}nyi entropy. The representations are based on the variational
-characterizations of $\alpha$-MI using a reverse channel. Based on these
-representations, we provide several interpretations of the $\alpha$-MI as
-privacy leakage measures using generalized mean and gain functions. Further, as
-byproducts of the representations, we propose novel conditional R{\' e}nyi
-entropies that satisfy the property that conditioning reduces entropy and
-data-processing inequality.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.09191v1">Detecting Vulnerabilities in Encrypted Software Code while Ensuring Code
-  Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
-  <p><b>Published on:</b> 2025-01-15T22:39:50Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jorge Martins, David Dantas, Rafael Ramires, Bernardo Ferreira, Ibéria Medeiros</p>
-    <p><b>Summary:</b> Software vulnerabilities continue to be the main cause of occurrence for
-cyber attacks. In an attempt to reduce them and improve software quality,
-software code analysis has emerged as a service offered by companies
-specialising in software testing. However, this service requires software
-companies to provide access to their software's code, which raises concerns
-about code privacy and intellectual property theft. This paper presents a novel
-approach to Software Quality and Privacy, in which testing companies can
-perform code analysis tasks on encrypted software code provided by software
-companies while code privacy is preserved. The approach combines Static Code
-Analysis and Searchable Symmetric Encryption in order to process the source
-code and build an encrypted inverted index that represents its data and control
-flows. The index is then used to discover vulnerabilities by carrying out
-static analysis tasks in a confidential way. With this approach, this paper
-also defines a new research field -- Confidential Code Analysis --, from which
-other types of code analysis tasks and approaches can be derived. We
-implemented the approach in a new tool called CoCoA and evaluated it
-experimentally with synthetic and real PHP web applications. The results show
-that the tool has similar precision as standard (non-confidential) static
-analysis tools and a modest average performance overhead of 42.7%.</p>
-  </details>
-</div>
-
-
 
 <h2>2025-02</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2502.13833v1">Contrastive Learning-Based privacy metrics in Tabular Synthetic Datasets</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-02-19T15:52:23Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Milton Nicolás Plasencia Palacios, Sebastiano Saccani, Gabriele Sgroi, Alexander Boudewijn, Luca Bortolussi</p>
+    <p><b>Summary:</b> Synthetic data has garnered attention as a Privacy Enhancing Technology (PET)
+in sectors such as healthcare and finance. When using synthetic data in
+practical applications, it is important to provide protection guarantees. In
+the literature, two family of approaches are proposed for tabular data: on the
+one hand, Similarity-based methods aim at finding the level of similarity
+between training and synthetic data. Indeed, a privacy breach can occur if the
+generated data is consistently too similar or even identical to the train data.
+On the other hand, Attack-based methods conduce deliberate attacks on synthetic
+datasets. The success rates of these attacks reveal how secure the synthetic
+datasets are.
+  In this paper, we introduce a contrastive method that improves privacy
+assessment of synthetic datasets by embedding the data in a more representative
+space. This overcomes obstacles surrounding the multitude of data types and
+attributes. It also makes the use of intuitive distance metrics possible for
+similarity measurements and as an attack vector. In a series of experiments
+with publicly available datasets, we compare the performances of
+similarity-based and attack-based methods, both with and without use of the
+contrastive learning-based embeddings. Our results show that relatively
+efficient, easy to implement privacy metrics can perform equally well as more
+advanced metrics explicitly modeling conditions for privacy referred to by the
+GDPR.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2502.13564v1">PRIV-QA: Privacy-Preserving Question Answering for Cloud Large Language
+  Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2025-02-19T09:17:07Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Guangwei Li, Yuansen Zhang, Yinggui Wang, Shoumeng Yan, Lei Wang, Tao Wei</p>
+    <p><b>Summary:</b> The rapid development of large language models (LLMs) is redefining the
+landscape of human-computer interaction, and their integration into various
+user-service applications is becoming increasingly prevalent. However,
+transmitting user data to cloud-based LLMs presents significant risks of data
+breaches and unauthorized access to personal identification information. In
+this paper, we propose a privacy preservation pipeline for protecting privacy
+and sensitive information during interactions between users and LLMs in
+practical LLM usage scenarios. We construct SensitiveQA, the first privacy
+open-ended question-answering dataset. It comprises 57k interactions in Chinese
+and English, encompassing a diverse range of user-sensitive information within
+the conversations. Our proposed solution employs a multi-stage strategy aimed
+at preemptively securing user information while simultaneously preserving the
+response quality of cloud-based LLMs. Experimental validation underscores our
+method's efficacy in balancing privacy protection with maintaining robust
+interaction quality. The code and dataset are available at
+https://github.com/ligw1998/PRIV-QA.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2502.13415v1">Indifferential Privacy: A New Paradigm and Its Applications to Optimal
+  Matching in Dark Pool Auctions</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-02-19T04:19:25Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Antigoni Polychroniadou, T. -H. Hubert Chan, Adya Agrawal</p>
+    <p><b>Summary:</b> Public exchanges like the New York Stock Exchange and NASDAQ act as
+auctioneers in a public double auction system, where buyers submit their
+highest bids and sellers offer their lowest asking prices, along with the
+number of shares (volume) they wish to trade. The auctioneer matches compatible
+orders and executes the trades when a match is found. However, auctioneers
+involved in high-volume exchanges, such as dark pools, may not always be
+reliable. They could exploit their position by engaging in practices like
+front-running or face significant conflicts of interest, i.e., ethical breaches
+that have frequently resulted in hefty fines and regulatory scrutiny within the
+financial industry.
+  Previous solutions, based on the use of fully homomorphic encryption (Asharov
+et al., AAMAS 2020), encrypt orders ensuring that information is revealed only
+when a match occurs. However, this approach introduces significant
+computational overhead, making it impractical for high-frequency trading
+environments such as dark pools.
+  In this work, we propose a new system based on differential privacy combined
+with lightweight encryption, offering an efficient and practical solution that
+mitigates the risks of an untrustworthy auctioneer. Specifically, we introduce
+a new concept called Indifferential Privacy, which can be of independent
+interest, where a user is indifferent to whether certain information is
+revealed after some special event, unlike standard differential privacy. For
+example, in an auction, it's reasonable to disclose the true volume of a trade
+once all of it has been matched. Moreover, our new concept of Indifferential
+Privacy allows for maximum matching, which is impossible with conventional
+differential privacy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2502.13313v1">Revisiting Privacy, Utility, and Efficiency Trade-offs when Fine-Tuning
+  Large Language Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-02-18T22:16:03Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Soumi Das, Camila Kolling, Mohammad Aflah Khan, Mahsa Amani, Bishwamittra Ghosh, Qinyuan Wu, Till Speicher, Krishna P. Gummadi</p>
+    <p><b>Summary:</b> We study the inherent trade-offs in minimizing privacy risks and maximizing
+utility, while maintaining high computational efficiency, when fine-tuning
+large language models (LLMs). A number of recent works in privacy research have
+attempted to mitigate privacy risks posed by memorizing fine-tuning data by
+using differentially private training methods (e.g., DP), albeit at a
+significantly higher computational cost (inefficiency). In parallel, several
+works in systems research have focussed on developing (parameter) efficient
+fine-tuning methods (e.g., LoRA), but few works, if any, investigated whether
+such efficient methods enhance or diminish privacy risks. In this paper, we
+investigate this gap and arrive at a surprising conclusion: efficient
+fine-tuning methods like LoRA mitigate privacy risks similar to private
+fine-tuning methods like DP. Our empirical finding directly contradicts
+prevailing wisdom that privacy and efficiency objectives are at odds during
+fine-tuning. Our finding is established by (a) carefully defining measures of
+privacy and utility that distinguish between memorizing sensitive and
+non-sensitive tokens in training and test datasets used in fine-tuning and (b)
+extensive evaluations using multiple open-source language models from Pythia,
+Gemma, and Llama families and different domain-specific datasets.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2502.12976v1">Does Training with Synthetic Data Truly Protect Privacy?</a></h3>
@@ -1440,6 +1403,32 @@ models. While all these methods utilize synthetic data for training, they lead
 to vastly different conclusions regarding privacy preservation. We caution that
 empirical approaches to preserving data privacy require careful and rigorous
 evaluation; otherwise, they risk providing a false sense of privacy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2502.13191v1">On the Privacy Risks of Spiking Neural Networks: A Membership Inference
+  Analysis</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-02-18T15:19:20Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Junyi Guan, Abhijith Sharma, Chong Tian, Salem Lahlou</p>
+    <p><b>Summary:</b> Spiking Neural Networks (SNNs) are increasingly explored for their energy
+efficiency and robustness in real-world applications, yet their privacy risks
+remain largely unexamined. In this work, we investigate the susceptibility of
+SNNs to Membership Inference Attacks (MIAs) -- a major privacy threat where an
+adversary attempts to determine whether a given sample was part of the training
+dataset. While prior work suggests that SNNs may offer inherent robustness due
+to their discrete, event-driven nature, we find that its resilience diminishes
+as latency (T) increases. Furthermore, we introduce an input dropout strategy
+under black box setting, that significantly enhances membership inference in
+SNNs. Our findings challenge the assumption that SNNs are inherently more
+secure, and even though they are expected to be better, our results reveal that
+SNNs exhibit privacy vulnerabilities that are equally comparable to Artificial
+Neural Networks (ANNs). Our code is available at
+https://anonymous.4open.science/r/MIA_SNN-3610.</p>
   </details>
 </div>
 
@@ -1468,6 +1457,29 @@ datasets demonstrate that the R.R. achieves better PII identical performance
 compared to baselines. These results highlight the vulnerability of LLMs to PII
 leakage even when training data has been scrubbed. We release the replicate
 package of R.R. at a link.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2502.13172v1">Unveiling Privacy Risks in LLM Agent Memory</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-02-17T19:55:53Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Bo Wang, Weiyi He, Pengfei He, Shenglai Zeng, Zhen Xiang, Yue Xing, Jiliang Tang</p>
+    <p><b>Summary:</b> Large Language Model (LLM) agents have become increasingly prevalent across
+various real-world applications. They enhance decision-making by storing
+private user-agent interactions in the memory module for demonstrations,
+introducing new privacy risks for LLM agents. In this work, we systematically
+investigate the vulnerability of LLM agents to our proposed Memory EXTRaction
+Attack (MEXTRA) under a black-box setting. To extract private information from
+memory, we propose an effective attacking prompt design and an automated prompt
+generation method based on different levels of knowledge about the LLM agent.
+Experiments on two representative agents demonstrate the effectiveness of
+MEXTRA. Moreover, we explore key factors influencing memory leakage from both
+the agent's and the attacker's perspectives. Our findings highlight the urgent
+need for effective memory safeguards in LLM agent design and deployment.</p>
   </details>
 </div>
 
