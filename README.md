@@ -1032,7 +1032,7 @@ privacy model.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.12612v1">T2ISafety: Benchmark for Assessing Fairness, Toxicity, and Privacy in
+  <h3><a href="http://arxiv.org/abs/2501.12612v2">T2ISafety: Benchmark for Assessing Fairness, Toxicity, and Privacy in
   Image Generation</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2025-01-22T03:29:43Z</p>
@@ -1118,146 +1118,155 @@ supporting user trust and compliance across operational contexts.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.12359v2">Measured Hockey-Stick Divergence and its Applications to Quantum
-  Pufferfish Privacy</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
-  <p><b>Published on:</b> 2025-01-21T18:39:48Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Theshani Nuradha, Vishal Singh, Mark M. Wilde</p>
-    <p><b>Summary:</b> The hockey-stick divergence is a fundamental quantity characterizing several
-statistical privacy frameworks that ensure privacy for classical and quantum
-data. In such quantum privacy frameworks, the adversary is allowed to perform
-all possible measurements. However, in practice, there are typically
-limitations to the set of measurements that can be performed. To this end,
-here, we comprehensively analyze the measured hockey-stick divergence under
-several classes of practically relevant measurement classes. We prove several
-of its properties, including data processing and convexity. We show that it is
-efficiently computable by semi-definite programming for some classes of
-measurements and can be analytically evaluated for Werner and isotropic states.
-Notably, we show that the measured hockey-stick divergence characterizes
-optimal privacy parameters in the quantum pufferfish privacy framework. With
-this connection and the developed technical tools, we enable methods to
-quantify and audit privacy for several practically relevant settings. Lastly,
-we introduce the measured hockey-stick divergence of channels and explore its
-applications in ensuring privacy for channels.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.12193v1">MyDigiTwin: A Privacy-Preserving Framework for Personalized
-  Cardiovascular Risk Prediction and Scenario Exploration</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2025-01-21T15:01:34Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Héctor Cadavid, Hyunho Mo, Bauke Arends, Katarzyna Dziopa, Esther E. Bron, Daniel Bos, Sonja Georgievska, Pim van der Harst</p>
-    <p><b>Summary:</b> Cardiovascular disease (CVD) remains a leading cause of death, and primary
-prevention through personalized interventions is crucial. This paper introduces
-MyDigiTwin, a framework that integrates health digital twins with personal
-health environments to empower patients in exploring personalized health
-scenarios while ensuring data privacy. MyDigiTwin uses federated learning to
-train predictive models across distributed datasets without transferring raw
-data, and a novel data harmonization framework addresses semantic and format
-inconsistencies in health data. A proof-of-concept demonstrates the feasibility
-of harmonizing and using cohort data to train privacy-preserving CVD prediction
-models. This framework offers a scalable solution for proactive, personalized
-cardiovascular care and sets the stage for future applications in real-world
-healthcare settings.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.12046v1">Communication-Efficient and Privacy-Adaptable Mechanism for Federated
-  Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-01-21T11:16:05Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Chih Wei Ling, Youqi Wu, Jiande Sun, Cheuk Ting Li, Linqi Song, Weitao Xu</p>
-    <p><b>Summary:</b> Training machine learning models on decentralized private data via federated
-learning (FL) poses two key challenges: communication efficiency and privacy
-protection. In this work, we address these challenges within the trusted
-aggregator model by introducing a novel approach called the
-Communication-Efficient and Privacy-Adaptable Mechanism (CEPAM), achieving both
-objectives simultaneously. In particular, CEPAM leverages the rejection-sampled
-universal quantizer (RSUQ), a construction of randomized vector quantizer whose
-resulting distortion is equivalent to a prescribed noise, such as Gaussian or
-Laplace noise, enabling joint differential privacy and compression. Moreover,
-we analyze the trade-offs among user privacy, global utility, and transmission
-rate of CEPAM by defining appropriate metrics for FL with differential privacy
-and compression. Our CEPAM provides the additional benefit of privacy
-adaptability, allowing clients and the server to customize privacy protection
-based on required accuracy and protection. We assess CEPAM's utility
-performance using MNIST dataset, demonstrating that CEPAM surpasses baseline
-models in terms of learning accuracy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.12006v1">The Dilemma of Privacy Protection for Developers in the Metaverse</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E">
-  <p><b>Published on:</b> 2025-01-21T09:56:44Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Argianto Rahartomo, Leonel Merino, Mohammad Ghafari, Yoshiki Ohshima</p>
-    <p><b>Summary:</b> To investigate the level of support and awareness developers possess for
-dealing with sensitive data in the metaverse, we surveyed developers, consulted
-legal frameworks, and analyzed API documentation in the metaverse. Our
-preliminary results suggest that privacy is a major concern, but developer
-awareness and existing support are limited. Developers lack strategies to
-identify sensitive data that are exclusive to the metaverse. The API
-documentation contains guidelines for collecting sensitive information, but it
-omits instructions for identifying and protecting it. Legal frameworks include
-definitions that are subject to individual interpretation. These findings
-highlight the urgent need to build a transparent and common ground for privacy
-definitions, identify sensitive data, and implement usable protection measures.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.11757v1">An Information Geometric Approach to Local Information Privacy with
-  Applications to Max-lift and Local Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
-  <p><b>Published on:</b> 2025-01-20T21:34:55Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Amirreza Zamani, Parastoo Sadeghi, Mikael Skoglund</p>
-    <p><b>Summary:</b> We study an information-theoretic privacy mechanism design, where an agent
-observes useful data $Y$ and wants to reveal the information to a user. Since
-the useful data is correlated with the private data $X$, the agent uses a
-privacy mechanism to produce disclosed data $U$ that can be released. We assume
-that the agent observes $Y$ and has no direct access to $X$, i.e., the private
-data is hidden. We study the privacy mechanism design that maximizes the
-revealed information about $Y$ while satisfying a bounded Local Information
-Privacy (LIP) criterion. When the leakage is sufficiently small, concepts from
-information geometry allow us to locally approximate the mutual information. By
-utilizing this approximation the main privacy-utility trade-off problem can be
-rewritten as a quadratic optimization problem that has closed-form solution
-under some constraints. For the cases where the closed-form solution is not
-obtained we provide lower bounds on it. In contrast to the previous works that
-have complexity issues, here, we provide simple privacy designs with low
-complexity which are based on finding the maximum singular value and singular
-vector of a matrix. To do so, we follow two approaches where in the first one
-we find a lower bound on the main problem and then approximate it, however, in
-the second approach we approximate the main problem directly. In this work, we
-present geometrical interpretations of the proposed methods and in a numerical
-example we compare our results considering both approaches with the optimal
-solution and the previous methods. Furthermore, we discuss how our method can
-be generalized considering larger amounts for the privacy leakage. Finally, we
-discuss how the proposed methods can be applied to deal with differential
-privacy.</p>
-  </details>
-</div>
-
-
 
 <h2>2025-02</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2502.14780v1">ReVision: A Dataset and Baseline VLM for Privacy-Preserving
+  Task-Oriented Visual Instruction Rewriting</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2025-02-20T18:01:41Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Abhijit Mishra, Richard Noh, Hsiang Fu, Mingda Li, Minji Kim</p>
+    <p><b>Summary:</b> Efficient and privacy-preserving multimodal interaction is essential as AR,
+VR, and modern smartphones with powerful cameras become primary interfaces for
+human-computer communication. Existing powerful large vision-language models
+(VLMs) enabling multimodal interaction often rely on cloud-based processing,
+raising significant concerns about (1) visual privacy by transmitting sensitive
+vision data to servers, and (2) their limited real-time, on-device usability.
+This paper explores Visual Instruction Rewriting, a novel approach that
+transforms multimodal instructions into text-only commands, allowing seamless
+integration of lightweight on-device instruction rewriter VLMs (250M
+parameters) with existing conversational AI systems, enhancing vision data
+privacy. To achieve this, we present a dataset of over 39,000 examples across
+14 domains and develop a compact VLM, pretrained on image captioning datasets
+and fine-tuned for instruction rewriting. Experimental results, evaluated
+through NLG metrics such as BLEU, METEOR, and ROUGE, along with semantic
+parsing analysis, demonstrate that even a quantized version of the model
+(<500MB storage footprint) can achieve effective instruction rewriting, thus
+enabling privacy-focused, multimodal AI applications.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2502.14761v1">User Awareness and Perspectives Survey on Privacy, Security and
+  Usability of Auditory Prostheses</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2025-02-20T17:36:19Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Sohini Saha, Leslie M. Collins, Sherri L. Smith, Boyla O. Mainsah</p>
+    <p><b>Summary:</b> According to the World Health Organization, over 466 million people worldwide
+suffer from disabling hearing loss, with approximately 34 million of these
+being children. Hearing aids (HA) and cochlear implants (CI) have become
+indispensable tools for restoring hearing and enhancing the quality of life for
+individuals with hearing impairments. Clinical research and consumer studies
+indicate that users of HAs and CIs report significant improvements in their
+daily lives, including enhanced communication abilities and social engagement
+and reduced psychological stress. Modern auditory prosthetic devices are more
+advanced and interconnected with digital networks to add functionality, such as
+streaming audio directly from smartphones and other devices, remote adjustments
+by audiologists, integration with smart home systems, and access to artificial
+intelligence-driven sound enhancement features. With this interconnectivity,
+issues surrounding data privacy and security have become increasingly
+pertinent. There is limited research on the usability perceptions of current HA
+and CI models from the perspective of end-users. In addition, no studies have
+investigated consumer mental models during the purchasing process, particularly
+which factors they prioritize when selecting a device. In this study, we
+assessed participants' satisfaction levels with various features of their
+auditory prostheses. This work contributes to the field by addressing gaps in
+user perceptions of HA and CI usability, identifying key factors in consumer
+purchasing decisions, and highlighting the need for improved privacy and
+security awareness and education among users.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2502.14309v1">On Theoretical Limits of Learning with Label Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
+  <p><b>Published on:</b> 2025-02-20T06:51:42Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Puning Zhao, Chuan Ma, Li Shen, Shaowei Wang, Rongfei Fan</p>
+    <p><b>Summary:</b> Label differential privacy (DP) is designed for learning problems involving
+private labels and public features. While various methods have been proposed
+for learning under label DP, the theoretical limits remain largely unexplored.
+In this paper, we investigate the fundamental limits of learning with label DP
+in both local and central models for both classification and regression tasks,
+characterized by minimax convergence rates. We establish lower bounds by
+converting each task into a multiple hypothesis testing problem and bounding
+the test error. Additionally, we develop algorithms that yield matching upper
+bounds. Our results demonstrate that under label local DP (LDP), the risk has a
+significantly faster convergence rate than that under full LDP, i.e. protecting
+both features and labels, indicating the advantages of relaxing the DP
+definition to focus solely on labels. In contrast, under the label central DP
+(CDP), the risk is only reduced by a constant factor compared to full DP,
+indicating that the relaxation of CDP only has limited benefits on the
+performance.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2502.14291v1">A Note on Efficient Privacy-Preserving Similarity Search for Encrypted
+  Vectors</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-02-20T06:07:04Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Dongfang Zhao</p>
+    <p><b>Summary:</b> Traditional approaches to vector similarity search over encrypted data rely
+on fully homomorphic encryption (FHE) to enable computation without decryption.
+However, the substantial computational overhead of FHE makes it impractical for
+large-scale real-time applications. This work explores a more efficient
+alternative: using additively homomorphic encryption (AHE) for
+privacy-preserving similarity search. We consider scenarios where either the
+query vector or the database vectors remain encrypted, a setting that
+frequently arises in applications such as confidential recommender systems and
+secure federated learning. While AHE only supports addition and scalar
+multiplication, we show that it is sufficient to compute inner product
+similarity--one of the most widely used similarity measures in vector
+retrieval. Compared to FHE-based solutions, our approach significantly reduces
+computational overhead by avoiding ciphertext-ciphertext multiplications and
+bootstrapping, while still preserving correctness and privacy. We present an
+efficient algorithm for encrypted similarity search under AHE and analyze its
+error growth and security implications. Our method provides a scalable and
+practical solution for privacy-preserving vector search in real-world machine
+learning applications.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2502.14087v1">Learning from End User Data with Shuffled Differential Privacy over
+  Kernel Densities</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B">
+  <p><b>Published on:</b> 2025-02-19T20:27:01Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Tal Wagner</p>
+    <p><b>Summary:</b> We study a setting of collecting and learning from private data distributed
+across end users. In the shuffled model of differential privacy, the end users
+partially protect their data locally before sharing it, and their data is also
+anonymized during its collection to enhance privacy. This model has recently
+become a prominent alternative to central DP, which requires full trust in a
+central data curator, and local DP, where fully local data protection takes a
+steep toll on downstream accuracy.
+  Our main technical result is a shuffled DP protocol for privately estimating
+the kernel density function of a distributed dataset, with accuracy essentially
+matching central DP. We use it to privately learn a classifier from the end
+user data, by learning a private density function per class. Moreover, we show
+that the density function itself can recover the semantic content of its class,
+despite having been learned in the absence of any unprotected data. Our
+experiments show the favorable downstream performance of our approach, and
+highlight key downstream considerations and trade-offs in a practical ML
+deployment of shuffled DP.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2502.13833v1">Contrastive Learning-Based privacy metrics in Tabular Synthetic Datasets</a></h3>
