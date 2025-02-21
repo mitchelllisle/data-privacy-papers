@@ -2466,5 +2466,42 @@
     "categories" : [
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2501.12612v2",
+    "title" : "T2ISafety: Benchmark for Assessing Fairness, Toxicity, and Privacy in\n  Image Generation",
+    "summary" : "Text-to-image (T2I) models have rapidly advanced, enabling the generation of\nhigh-quality images from text prompts across various domains. However, these\nmodels present notable safety concerns, including the risk of generating\nharmful, biased, or private content. Current research on assessing T2I safety\nremains in its early stages. While some efforts have been made to evaluate\nmodels on specific safety dimensions, many critical risks remain unexplored. To\naddress this gap, we introduce T2ISafety, a safety benchmark that evaluates T2I\nmodels across three key domains: toxicity, fairness, and bias. We build a\ndetailed hierarchy of 12 tasks and 44 categories based on these three domains,\nand meticulously collect 70K corresponding prompts. Based on this taxonomy and\nprompt set, we build a large-scale T2I dataset with 68K manually annotated\nimages and train an evaluator capable of detecting critical risks that previous\nwork has failed to identify, including risks that even ultra-large proprietary\nmodels like GPTs cannot correctly detect. We evaluate 12 prominent diffusion\nmodels on T2ISafety and reveal several concerns including persistent issues\nwith racial fairness, a tendency to generate toxic content, and significant\nvariation in privacy protection across the models, even with defense methods\nlike concept erasing. Data and evaluator are released under\nhttps://github.com/adwardlee/t2i_safety.",
+    "updated" : "2025-02-20T11:18:20Z",
+    "published" : "2025-01-22T03:29:43Z",
+    "authors" : [
+      {
+        "name" : "Lijun Li"
+      },
+      {
+        "name" : "Zhelun Shi"
+      },
+      {
+        "name" : "Xuhao Hu"
+      },
+      {
+        "name" : "Bowen Dong"
+      },
+      {
+        "name" : "Yiran Qin"
+      },
+      {
+        "name" : "Xihui Liu"
+      },
+      {
+        "name" : "Lu Sheng"
+      },
+      {
+        "name" : "Jing Shao"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.CR"
+    ]
   }
 ]
