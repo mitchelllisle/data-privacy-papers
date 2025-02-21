@@ -1738,5 +1738,119 @@
       "cs.CR",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.14780v1",
+    "title" : "ReVision: A Dataset and Baseline VLM for Privacy-Preserving\n  Task-Oriented Visual Instruction Rewriting",
+    "summary" : "Efficient and privacy-preserving multimodal interaction is essential as AR,\nVR, and modern smartphones with powerful cameras become primary interfaces for\nhuman-computer communication. Existing powerful large vision-language models\n(VLMs) enabling multimodal interaction often rely on cloud-based processing,\nraising significant concerns about (1) visual privacy by transmitting sensitive\nvision data to servers, and (2) their limited real-time, on-device usability.\nThis paper explores Visual Instruction Rewriting, a novel approach that\ntransforms multimodal instructions into text-only commands, allowing seamless\nintegration of lightweight on-device instruction rewriter VLMs (250M\nparameters) with existing conversational AI systems, enhancing vision data\nprivacy. To achieve this, we present a dataset of over 39,000 examples across\n14 domains and develop a compact VLM, pretrained on image captioning datasets\nand fine-tuned for instruction rewriting. Experimental results, evaluated\nthrough NLG metrics such as BLEU, METEOR, and ROUGE, along with semantic\nparsing analysis, demonstrate that even a quantized version of the model\n(<500MB storage footprint) can achieve effective instruction rewriting, thus\nenabling privacy-focused, multimodal AI applications.",
+    "updated" : "2025-02-20T18:01:41Z",
+    "published" : "2025-02-20T18:01:41Z",
+    "authors" : [
+      {
+        "name" : "Abhijit Mishra"
+      },
+      {
+        "name" : "Richard Noh"
+      },
+      {
+        "name" : "Hsiang Fu"
+      },
+      {
+        "name" : "Mingda Li"
+      },
+      {
+        "name" : "Minji Kim"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.AI",
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.14761v1",
+    "title" : "User Awareness and Perspectives Survey on Privacy, Security and\n  Usability of Auditory Prostheses",
+    "summary" : "According to the World Health Organization, over 466 million people worldwide\nsuffer from disabling hearing loss, with approximately 34 million of these\nbeing children. Hearing aids (HA) and cochlear implants (CI) have become\nindispensable tools for restoring hearing and enhancing the quality of life for\nindividuals with hearing impairments. Clinical research and consumer studies\nindicate that users of HAs and CIs report significant improvements in their\ndaily lives, including enhanced communication abilities and social engagement\nand reduced psychological stress. Modern auditory prosthetic devices are more\nadvanced and interconnected with digital networks to add functionality, such as\nstreaming audio directly from smartphones and other devices, remote adjustments\nby audiologists, integration with smart home systems, and access to artificial\nintelligence-driven sound enhancement features. With this interconnectivity,\nissues surrounding data privacy and security have become increasingly\npertinent. There is limited research on the usability perceptions of current HA\nand CI models from the perspective of end-users. In addition, no studies have\ninvestigated consumer mental models during the purchasing process, particularly\nwhich factors they prioritize when selecting a device. In this study, we\nassessed participants' satisfaction levels with various features of their\nauditory prostheses. This work contributes to the field by addressing gaps in\nuser perceptions of HA and CI usability, identifying key factors in consumer\npurchasing decisions, and highlighting the need for improved privacy and\nsecurity awareness and education among users.",
+    "updated" : "2025-02-20T17:36:19Z",
+    "published" : "2025-02-20T17:36:19Z",
+    "authors" : [
+      {
+        "name" : "Sohini Saha"
+      },
+      {
+        "name" : "Leslie M. Collins"
+      },
+      {
+        "name" : "Sherri L. Smith"
+      },
+      {
+        "name" : "Boyla O. Mainsah"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.14309v1",
+    "title" : "On Theoretical Limits of Learning with Label Differential Privacy",
+    "summary" : "Label differential privacy (DP) is designed for learning problems involving\nprivate labels and public features. While various methods have been proposed\nfor learning under label DP, the theoretical limits remain largely unexplored.\nIn this paper, we investigate the fundamental limits of learning with label DP\nin both local and central models for both classification and regression tasks,\ncharacterized by minimax convergence rates. We establish lower bounds by\nconverting each task into a multiple hypothesis testing problem and bounding\nthe test error. Additionally, we develop algorithms that yield matching upper\nbounds. Our results demonstrate that under label local DP (LDP), the risk has a\nsignificantly faster convergence rate than that under full LDP, i.e. protecting\nboth features and labels, indicating the advantages of relaxing the DP\ndefinition to focus solely on labels. In contrast, under the label central DP\n(CDP), the risk is only reduced by a constant factor compared to full DP,\nindicating that the relaxation of CDP only has limited benefits on the\nperformance.",
+    "updated" : "2025-02-20T06:51:42Z",
+    "published" : "2025-02-20T06:51:42Z",
+    "authors" : [
+      {
+        "name" : "Puning Zhao"
+      },
+      {
+        "name" : "Chuan Ma"
+      },
+      {
+        "name" : "Li Shen"
+      },
+      {
+        "name" : "Shaowei Wang"
+      },
+      {
+        "name" : "Rongfei Fan"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.IT",
+      "math.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.14291v1",
+    "title" : "A Note on Efficient Privacy-Preserving Similarity Search for Encrypted\n  Vectors",
+    "summary" : "Traditional approaches to vector similarity search over encrypted data rely\non fully homomorphic encryption (FHE) to enable computation without decryption.\nHowever, the substantial computational overhead of FHE makes it impractical for\nlarge-scale real-time applications. This work explores a more efficient\nalternative: using additively homomorphic encryption (AHE) for\nprivacy-preserving similarity search. We consider scenarios where either the\nquery vector or the database vectors remain encrypted, a setting that\nfrequently arises in applications such as confidential recommender systems and\nsecure federated learning. While AHE only supports addition and scalar\nmultiplication, we show that it is sufficient to compute inner product\nsimilarity--one of the most widely used similarity measures in vector\nretrieval. Compared to FHE-based solutions, our approach significantly reduces\ncomputational overhead by avoiding ciphertext-ciphertext multiplications and\nbootstrapping, while still preserving correctness and privacy. We present an\nefficient algorithm for encrypted similarity search under AHE and analyze its\nerror growth and security implications. Our method provides a scalable and\npractical solution for privacy-preserving vector search in real-world machine\nlearning applications.",
+    "updated" : "2025-02-20T06:07:04Z",
+    "published" : "2025-02-20T06:07:04Z",
+    "authors" : [
+      {
+        "name" : "Dongfang Zhao"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.14087v1",
+    "title" : "Learning from End User Data with Shuffled Differential Privacy over\n  Kernel Densities",
+    "summary" : "We study a setting of collecting and learning from private data distributed\nacross end users. In the shuffled model of differential privacy, the end users\npartially protect their data locally before sharing it, and their data is also\nanonymized during its collection to enhance privacy. This model has recently\nbecome a prominent alternative to central DP, which requires full trust in a\ncentral data curator, and local DP, where fully local data protection takes a\nsteep toll on downstream accuracy.\n  Our main technical result is a shuffled DP protocol for privately estimating\nthe kernel density function of a distributed dataset, with accuracy essentially\nmatching central DP. We use it to privately learn a classifier from the end\nuser data, by learning a private density function per class. Moreover, we show\nthat the density function itself can recover the semantic content of its class,\ndespite having been learned in the absence of any unprotected data. Our\nexperiments show the favorable downstream performance of our approach, and\nhighlight key downstream considerations and trade-offs in a practical ML\ndeployment of shuffled DP.",
+    "updated" : "2025-02-19T20:27:01Z",
+    "published" : "2025-02-19T20:27:01Z",
+    "authors" : [
+      {
+        "name" : "Tal Wagner"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "cs.DS"
+    ]
   }
 ]
