@@ -1852,5 +1852,115 @@
       "cs.CR",
       "cs.DS"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.15680v1",
+    "title" : "Privacy Ripple Effects from Adding or Removing Personal Information in\n  Language Model Training",
+    "summary" : "Due to the sensitive nature of personally identifiable information (PII), its\nowners may have the authority to control its inclusion or request its removal\nfrom large-language model (LLM) training. Beyond this, PII may be added or\nremoved from training datasets due to evolving dataset curation techniques,\nbecause they were newly scraped for retraining, or because they were included\nin a new downstream fine-tuning stage. We find that the amount and ease of PII\nmemorization is a dynamic property of a model that evolves throughout training\npipelines and depends on commonly altered design choices. We characterize three\nsuch novel phenomena: (1) similar-appearing PII seen later in training can\nelicit memorization of earlier-seen sequences in what we call assisted\nmemorization, and this is a significant factor (in our settings, up to 1/3);\n(2) adding PII can increase memorization of other PII significantly (in our\nsettings, as much as $\\approx\\!7.5\\times$); and (3) removing PII can lead to\nother PII being memorized. Model creators should consider these first- and\nsecond-order privacy risks when training models to avoid the risk of new PII\nregurgitation.",
+    "updated" : "2025-02-21T18:59:14Z",
+    "published" : "2025-02-21T18:59:14Z",
+    "authors" : [
+      {
+        "name" : "Jaydeep Borkar"
+      },
+      {
+        "name" : "Matthew Jagielski"
+      },
+      {
+        "name" : "Katherine Lee"
+      },
+      {
+        "name" : "Niloofar Mireshghallah"
+      },
+      {
+        "name" : "David A. Smith"
+      },
+      {
+        "name" : "Christopher A. Choquette-Choo"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.15567v1",
+    "title" : "Model Privacy: A Unified Framework to Understand Model Stealing Attacks\n  and Defenses",
+    "summary" : "The use of machine learning (ML) has become increasingly prevalent in various\ndomains, highlighting the importance of understanding and ensuring its safety.\nOne pressing concern is the vulnerability of ML applications to model stealing\nattacks. These attacks involve adversaries attempting to recover a learned\nmodel through limited query-response interactions, such as those found in\ncloud-based services or on-chip artificial intelligence interfaces. While\nexisting literature proposes various attack and defense strategies, these often\nlack a theoretical foundation and standardized evaluation criteria. In\nresponse, this work presents a framework called ``Model Privacy'', providing a\nfoundation for comprehensively analyzing model stealing attacks and defenses.\nWe establish a rigorous formulation for the threat model and objectives,\npropose methods to quantify the goodness of attack and defense strategies, and\nanalyze the fundamental tradeoffs between utility and privacy in ML models. Our\ndeveloped theory offers valuable insights into enhancing the security of ML\nmodels, especially highlighting the importance of the attack-specific structure\nof perturbations for effective defenses. We demonstrate the application of\nmodel privacy from the defender's perspective through various learning\nscenarios. Extensive experiments corroborate the insights and the effectiveness\nof defense mechanisms developed under the proposed framework.",
+    "updated" : "2025-02-21T16:29:11Z",
+    "published" : "2025-02-21T16:29:11Z",
+    "authors" : [
+      {
+        "name" : "Ganghua Wang"
+      },
+      {
+        "name" : "Yuhong Yang"
+      },
+      {
+        "name" : "Jie Ding"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.15233v1",
+    "title" : "A General Pseudonymization Framework for Cloud-Based LLMs: Replacing\n  Privacy Information in Controlled Text Generation",
+    "summary" : "An increasing number of companies have begun providing services that leverage\ncloud-based large language models (LLMs), such as ChatGPT. However, this\ndevelopment raises substantial privacy concerns, as users' prompts are\ntransmitted to and processed by the model providers. Among the various privacy\nprotection methods for LLMs, those implemented during the pre-training and\nfine-tuning phrases fail to mitigate the privacy risks associated with the\nremote use of cloud-based LLMs by users. On the other hand, methods applied\nduring the inference phrase are primarily effective in scenarios where the\nLLM's inference does not rely on privacy-sensitive information. In this paper,\nwe outline the process of remote user interaction with LLMs and, for the first\ntime, propose a detailed definition of a general pseudonymization framework\napplicable to cloud-based LLMs. The experimental results demonstrate that the\nproposed framework strikes an optimal balance between privacy protection and\nutility. The code for our method is available to the public at\nhttps://github.com/Mebymeby/Pseudonymization-Framework.",
+    "updated" : "2025-02-21T06:15:53Z",
+    "published" : "2025-02-21T06:15:53Z",
+    "authors" : [
+      {
+        "name" : "Shilong Hou"
+      },
+      {
+        "name" : "Ruilin Shang"
+      },
+      {
+        "name" : "Zi Long"
+      },
+      {
+        "name" : "Xianghua Fu"
+      },
+      {
+        "name" : "Yin Chen"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.14921v1",
+    "title" : "The Canary's Echo: Auditing Privacy Risks of LLM-Generated Synthetic\n  Text",
+    "summary" : "How much information about training samples can be gleaned from synthetic\ndata generated by Large Language Models (LLMs)? Overlooking the subtleties of\ninformation flow in synthetic data generation pipelines can lead to a false\nsense of privacy. In this paper, we design membership inference attacks (MIAs)\nthat target data used to fine-tune pre-trained LLMs that are then used to\nsynthesize data, particularly when the adversary does not have access to the\nfine-tuned model but only to the synthetic data. We show that such data-based\nMIAs do significantly better than a random guess, meaning that synthetic data\nleaks information about the training data. Further, we find that canaries\ncrafted to maximize vulnerability to model-based MIAs are sub-optimal for\nprivacy auditing when only synthetic data is released. Such out-of-distribution\ncanaries have limited influence on the model's output when prompted to generate\nuseful, in-distribution synthetic data, which drastically reduces their\nvulnerability. To tackle this problem, we leverage the mechanics of\nauto-regressive models to design canaries with an in-distribution prefix and a\nhigh-perplexity suffix that leave detectable traces in synthetic data. This\nenhances the power of data-based MIAs and provides a better assessment of the\nprivacy risks of releasing synthetic data generated by LLMs.",
+    "updated" : "2025-02-19T15:30:30Z",
+    "published" : "2025-02-19T15:30:30Z",
+    "authors" : [
+      {
+        "name" : "Matthieu Meeus"
+      },
+      {
+        "name" : "Lukas Wutschitz"
+      },
+      {
+        "name" : "Santiago Zanella-Béguelin"
+      },
+      {
+        "name" : "Shruti Tople"
+      },
+      {
+        "name" : "Reza Shokri"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.CR",
+      "cs.LG"
+    ]
   }
 ]
