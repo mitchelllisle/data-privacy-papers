@@ -1001,125 +1001,94 @@ obtained similar security results as the competitor.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.12893v1">Statistical Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">  
-  <p><b>Published on:</b> 2025-01-22T14:13:44Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Dennis Breutigam, Rüdiger Reischuk</p>
-    <p><b>Summary:</b> To analyze the privacy guarantee of personal data in a database that is
-subject to queries it is necessary to model the prior knowledge of a possible
-attacker. Differential privacy considers a worst-case scenario where he knows
-almost everything, which in many applications is unrealistic and requires a
-large utility loss.
-  This paper considers a situation called statistical privacy where an
-adversary knows the distribution by which the database is generated, but no
-exact data of all (or sufficient many) of its entries. We analyze in detail how
-the entropy of the distribution guarantes privacy for a large class of queries
-called property queries. Exact formulas are obtained for the privacy
-parameters. We analyze how they depend on the probability that an entry
-fulfills the property under investigation. These formulas turn out to be
-lengthy, but can be used for tight numerical approximations of the privacy
-parameters. Such estimations are necessary for applying privacy enhancing
-techniques in practice. For this statistical setting we further investigate the
-effect of adding noise or applying subsampling and the privacy utility
-tradeoff. The dependencies on the parameters are illustrated in detail by a
-series of plots. Finally, these results are compared to the differential
-privacy model.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.12612v2">T2ISafety: Benchmark for Assessing Fairness, Toxicity, and Privacy in
-  Image Generation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-01-22T03:29:43Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Lijun Li, Zhelun Shi, Xuhao Hu, Bowen Dong, Yiran Qin, Xihui Liu, Lu Sheng, Jing Shao</p>
-    <p><b>Summary:</b> Text-to-image (T2I) models have rapidly advanced, enabling the generation of
-high-quality images from text prompts across various domains. However, these
-models present notable safety concerns, including the risk of generating
-harmful, biased, or private content. Current research on assessing T2I safety
-remains in its early stages. While some efforts have been made to evaluate
-models on specific safety dimensions, many critical risks remain unexplored. To
-address this gap, we introduce T2ISafety, a safety benchmark that evaluates T2I
-models across three key domains: toxicity, fairness, and bias. We build a
-detailed hierarchy of 12 tasks and 44 categories based on these three domains,
-and meticulously collect 70K corresponding prompts. Based on this taxonomy and
-prompt set, we build a large-scale T2I dataset with 68K manually annotated
-images and train an evaluator capable of detecting critical risks that previous
-work has failed to identify, including risks that even ultra-large proprietary
-models like GPTs cannot correctly detect. We evaluate 12 prominent diffusion
-models on T2ISafety and reveal several concerns including persistent issues
-with racial fairness, a tendency to generate toxic content, and significant
-variation in privacy protection across the models, even with defense methods
-like concept erasing. Data and evaluator are released under
-https://github.com/adwardlee/t2i_safety.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.12537v1">Enhancing Privacy in the Early Detection of Sexual Predators Through
-  Federated Learning and Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2025-01-21T23:01:21Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Khaoula Chehbouni, Martine De Cock, Gilles Caporossi, Afaf Taik, Reihaneh Rabbany, Golnoosh Farnadi</p>
-    <p><b>Summary:</b> The increased screen time and isolation caused by the COVID-19 pandemic have
-led to a significant surge in cases of online grooming, which is the use of
-strategies by predators to lure children into sexual exploitation. Previous
-efforts to detect grooming in industry and academia have involved accessing and
-monitoring private conversations through centrally-trained models or sending
-private conversations to a global server. In this work, we implement a
-privacy-preserving pipeline for the early detection of sexual predators. We
-leverage federated learning and differential privacy in order to create safer
-online spaces for children while respecting their privacy. We investigate
-various privacy-preserving implementations and discuss their benefits and
-shortcomings. Our extensive evaluation using real-world data proves that
-privacy and utility can coexist with only a slight reduction in utility.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.12456v1">Deploying Privacy Guardrails for LLMs: A Comparative Analysis of
-  Real-World Applications</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
-  <p><b>Published on:</b> 2025-01-21T19:04:53Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shubhi Asthana, Bing Zhang, Ruchi Mahindru, Chad DeLuca, Anna Lisa Gentile, Sandeep Gopisetty</p>
-    <p><b>Summary:</b> The adoption of Large Language Models (LLMs) has revolutionized AI
-applications but poses significant challenges in safeguarding user privacy.
-Ensuring compliance with privacy regulations such as GDPR and CCPA while
-addressing nuanced privacy risks requires robust and scalable frameworks. This
-paper presents a detailed study of OneShield Privacy Guard, a framework
-designed to mitigate privacy risks in user inputs and LLM outputs across
-enterprise and open-source settings. We analyze two real-world deployments:(1)
-a multilingual privacy-preserving system integrated with Data and Model
-Factory, focusing on enterprise-scale data governance; and (2) PR Insights, an
-open-source repository emphasizing automated triaging and community-driven
-refinements. In Deployment 1, OneShield achieved a 0.95 F1 score in detecting
-sensitive entities like dates, names, and phone numbers across 26 languages,
-outperforming state-of-the-art tool such as StarPII and Presidio by up to 12\%.
-Deployment 2, with an average F1 score of 0.86, reduced manual effort by over
-300 hours in three months, accurately flagging 8.25\% of 1,256 pull requests
-for privacy risks with enhanced context sensitivity. These results demonstrate
-OneShield's adaptability and efficacy in diverse environments, offering
-actionable insights for context-aware entity recognition, automated compliance,
-and ethical AI adoption. This work advances privacy-preserving frameworks,
-supporting user trust and compliance across operational contexts.</p>
-  </details>
-</div>
-
-
 
 <h2>2025-02</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2502.15680v1">Privacy Ripple Effects from Adding or Removing Personal Information in
+  Language Model Training</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-02-21T18:59:14Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jaydeep Borkar, Matthew Jagielski, Katherine Lee, Niloofar Mireshghallah, David A. Smith, Christopher A. Choquette-Choo</p>
+    <p><b>Summary:</b> Due to the sensitive nature of personally identifiable information (PII), its
+owners may have the authority to control its inclusion or request its removal
+from large-language model (LLM) training. Beyond this, PII may be added or
+removed from training datasets due to evolving dataset curation techniques,
+because they were newly scraped for retraining, or because they were included
+in a new downstream fine-tuning stage. We find that the amount and ease of PII
+memorization is a dynamic property of a model that evolves throughout training
+pipelines and depends on commonly altered design choices. We characterize three
+such novel phenomena: (1) similar-appearing PII seen later in training can
+elicit memorization of earlier-seen sequences in what we call assisted
+memorization, and this is a significant factor (in our settings, up to 1/3);
+(2) adding PII can increase memorization of other PII significantly (in our
+settings, as much as $\approx\!7.5\times$); and (3) removing PII can lead to
+other PII being memorized. Model creators should consider these first- and
+second-order privacy risks when training models to avoid the risk of new PII
+regurgitation.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2502.15567v1">Model Privacy: A Unified Framework to Understand Model Stealing Attacks
+  and Defenses</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
+  <p><b>Published on:</b> 2025-02-21T16:29:11Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ganghua Wang, Yuhong Yang, Jie Ding</p>
+    <p><b>Summary:</b> The use of machine learning (ML) has become increasingly prevalent in various
+domains, highlighting the importance of understanding and ensuring its safety.
+One pressing concern is the vulnerability of ML applications to model stealing
+attacks. These attacks involve adversaries attempting to recover a learned
+model through limited query-response interactions, such as those found in
+cloud-based services or on-chip artificial intelligence interfaces. While
+existing literature proposes various attack and defense strategies, these often
+lack a theoretical foundation and standardized evaluation criteria. In
+response, this work presents a framework called ``Model Privacy'', providing a
+foundation for comprehensively analyzing model stealing attacks and defenses.
+We establish a rigorous formulation for the threat model and objectives,
+propose methods to quantify the goodness of attack and defense strategies, and
+analyze the fundamental tradeoffs between utility and privacy in ML models. Our
+developed theory offers valuable insights into enhancing the security of ML
+models, especially highlighting the importance of the attack-specific structure
+of perturbations for effective defenses. We demonstrate the application of
+model privacy from the defender's perspective through various learning
+scenarios. Extensive experiments corroborate the insights and the effectiveness
+of defense mechanisms developed under the proposed framework.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2502.15233v1">A General Pseudonymization Framework for Cloud-Based LLMs: Replacing
+  Privacy Information in Controlled Text Generation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2025-02-21T06:15:53Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shilong Hou, Ruilin Shang, Zi Long, Xianghua Fu, Yin Chen</p>
+    <p><b>Summary:</b> An increasing number of companies have begun providing services that leverage
+cloud-based large language models (LLMs), such as ChatGPT. However, this
+development raises substantial privacy concerns, as users' prompts are
+transmitted to and processed by the model providers. Among the various privacy
+protection methods for LLMs, those implemented during the pre-training and
+fine-tuning phrases fail to mitigate the privacy risks associated with the
+remote use of cloud-based LLMs by users. On the other hand, methods applied
+during the inference phrase are primarily effective in scenarios where the
+LLM's inference does not rely on privacy-sensitive information. In this paper,
+we outline the process of remote user interaction with LLMs and, for the first
+time, propose a detailed definition of a general pseudonymization framework
+applicable to cloud-based LLMs. The experimental results demonstrate that the
+proposed framework strikes an optimal balance between privacy protection and
+utility. The code for our method is available to the public at
+https://github.com/Mebymeby/Pseudonymization-Framework.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2502.14780v1">ReVision: A Dataset and Baseline VLM for Privacy-Preserving
@@ -1296,6 +1265,36 @@ contrastive learning-based embeddings. Our results show that relatively
 efficient, easy to implement privacy metrics can perform equally well as more
 advanced metrics explicitly modeling conditions for privacy referred to by the
 GDPR.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2502.14921v1">The Canary's Echo: Auditing Privacy Risks of LLM-Generated Synthetic
+  Text</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-02-19T15:30:30Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Matthieu Meeus, Lukas Wutschitz, Santiago Zanella-Béguelin, Shruti Tople, Reza Shokri</p>
+    <p><b>Summary:</b> How much information about training samples can be gleaned from synthetic
+data generated by Large Language Models (LLMs)? Overlooking the subtleties of
+information flow in synthetic data generation pipelines can lead to a false
+sense of privacy. In this paper, we design membership inference attacks (MIAs)
+that target data used to fine-tune pre-trained LLMs that are then used to
+synthesize data, particularly when the adversary does not have access to the
+fine-tuned model but only to the synthetic data. We show that such data-based
+MIAs do significantly better than a random guess, meaning that synthetic data
+leaks information about the training data. Further, we find that canaries
+crafted to maximize vulnerability to model-based MIAs are sub-optimal for
+privacy auditing when only synthetic data is released. Such out-of-distribution
+canaries have limited influence on the model's output when prompted to generate
+useful, in-distribution synthetic data, which drastically reduces their
+vulnerability. To tackle this problem, we leverage the mechanics of
+auto-regressive models to design canaries with an in-distribution prefix and a
+high-perplexity suffix that leave detectable traces in synthetic data. This
+enhances the power of data-based MIAs and provides a better assessment of the
+privacy risks of releasing synthetic data generated by LLMs.</p>
   </details>
 </div>
 
