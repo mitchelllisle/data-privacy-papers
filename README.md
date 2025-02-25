@@ -784,225 +784,238 @@ decoding through its innovative design.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.14184v2">Tight Sample Complexity Bounds for Parameter Estimation Under Quantum
-  Differential Privacy for Qubits</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
-  <p><b>Published on:</b> 2025-01-24T02:23:51Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Farhad Farokhi</p>
-    <p><b>Summary:</b> This short note provides tight upper and lower bounds for minimal number of
-samples (copies of quantum states) required to attain a prescribed accuracy
-(measured by error variance) for scalar parameters using unbiased estimators
-under quantum local differential privacy for qubits. In the small privacy
-budget $\epsilon$ regime, i.e., $\epsilon\ll 1$, the sample complexity scales
-as $\Theta(\epsilon^{-2})$. This bound matches that of classical parameter
-estimation under differential privacy. The lower bound loosens (converges to
-zero) in the large privacy budget regime, i.e., $\epsilon\gg 1$, but that case
-is not particularly interesting as tight bounds for parameter estimation in the
-noiseless case are widely known. That being said, extensions to systems with
-higher dimensions and tightening the bounds for the large privacy budget regime
-are interesting avenues for future research.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.14098v1">Exploring User Perspectives on Data Collection, Data Sharing
-  Preferences, and Privacy Concerns with Remote Healthcare Technology</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2025-01-23T21:09:03Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Daniela Napoli, Heather Molyneaux, Helene Fournier, Sonia Chiasson</p>
-    <p><b>Summary:</b> Remote healthcare technology can help tackle societal issues by improving
-access to quality healthcare services and enhancing diagnoses through in-place
-monitoring. These services can be implemented through a combination of mobile
-devices, applications, wearable sensors, and other smart technology. It is
-paramount to handle sensitive data that is collected in ways that meet users'
-privacy expectations. We surveyed 384 people in Canada aged 20 to 93 years old
-to explore participants' comfort with data collection, sharing preferences, and
-potential privacy concerns related to remote healthcare technology. We explore
-these topics within the context of various healthcare scenarios including
-health emergencies and managing chronic health conditions.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.13916v2">PBM-VFL: Vertical Federated Learning with Feature and Sample Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-01-23T18:53:43Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Linh Tran, Timothy Castiglia, Stacy Patterson, Ana Milanova</p>
-    <p><b>Summary:</b> We present Poisson Binomial Mechanism Vertical Federated Learning (PBM-VFL),
-a communication-efficient Vertical Federated Learning algorithm with
-Differential Privacy guarantees. PBM-VFL combines Secure Multi-Party
-Computation with the recently introduced Poisson Binomial Mechanism to protect
-parties' private datasets during model training. We define the novel concept of
-feature privacy and analyze end-to-end feature and sample privacy of our
-algorithm. We compare sample privacy loss in VFL with privacy loss in HFL. We
-also provide the first theoretical characterization of the relationship between
-privacy budget, convergence error, and communication cost in
-differentially-private VFL. Finally, we empirically show that our model
-performs well with high levels of privacy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.13904v3">Privacy-Preserving Personalized Federated Prompt Learning for Multimodal
-  Large Language Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-01-23T18:34:09Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Linh Tran, Wei Sun, Stacy Patterson, Ana Milanova</p>
-    <p><b>Summary:</b> Multimodal Large Language Models (LLMs) are pivotal in revolutionizing
-customer support and operations by integrating multiple modalities such as
-text, images, and audio. Federated Prompt Learning (FPL) is a recently proposed
-approach that combines pre-trained multimodal LLMs such as vision-language
-models with federated learning to create personalized, privacy-preserving AI
-systems. However, balancing the competing goals of personalization,
-generalization, and privacy remains a significant challenge.
-Over-personalization can lead to overfitting, reducing generalizability, while
-stringent privacy measures, such as differential privacy, can hinder both
-personalization and generalization. In this paper, we propose a Differentially
-Private Federated Prompt Learning (DP-FPL) approach to tackle this challenge by
-leveraging a low-rank factorization scheme to capture generalization while
-maintaining a residual term that preserves expressiveness for personalization.
-To ensure privacy, we introduce a novel method where we apply local
-differential privacy to the two low-rank components of the local prompt, and
-global differential privacy to the global prompt. Our approach mitigates the
-impact of privacy noise on the model performance while balancing the tradeoff
-between personalization and generalization. Extensive experiments demonstrate
-the effectiveness of our approach over other benchmarks.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.13608v1">AirTOWN: A Privacy-Preserving Mobile App for Real-time Pollution-Aware
-  POI Suggestion</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB">
-  <p><b>Published on:</b> 2025-01-23T12:28:22Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Giuseppe Fasano, Yashar Deldjoo, Tommaso Di Noia</p>
-    <p><b>Summary:</b> This demo paper presents \airtown, a privacy-preserving mobile application
-that provides real-time, pollution-aware recommendations for points of interest
-(POIs) in urban environments. By combining real-time Air Quality Index (AQI)
-data with user preferences, the proposed system aims to help users make
-health-conscious decisions about the locations they visit. The application
-utilizes collaborative filtering for personalized suggestions, and federated
-learning for privacy protection, and integrates AQI data from sensor networks
-in cities such as Bari, Italy, and Cork, UK. In areas with sparse sensor
-coverage, interpolation techniques approximate AQI values, ensuring broad
-applicability. This system offers a poromsing, health-oriented POI
-recommendation solution that adapts dynamically to current urban air quality
-conditions while safeguarding user privacy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.13321v1">Investigation of the Privacy Concerns in AI Systems for Young Digital
-  Citizens: A Comparative Stakeholder Analysis</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-01-23T02:07:45Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Molly Campbell, Ankur Barthwal, Sandhya Joshi, Austin Shouli, Ajay Kumar Shrestha</p>
-    <p><b>Summary:</b> The integration of Artificial Intelligence (AI) systems into technologies
-used by young digital citizens raises significant privacy concerns. This study
-investigates these concerns through a comparative analysis of stakeholder
-perspectives. A total of 252 participants were surveyed, with the analysis
-focusing on 110 valid responses from parents/educators and 100 from AI
-professionals after data cleaning. Quantitative methods, including descriptive
-statistics and Partial Least Squares Structural Equation Modeling, examined
-five validated constructs: Data Ownership and Control, Parental Data Sharing,
-Perceived Risks and Benefits, Transparency and Trust, and Education and
-Awareness. Results showed Education and Awareness significantly influenced data
-ownership and risk assessment, while Data Ownership and Control strongly
-impacted Transparency and Trust. Transparency and Trust, along with Perceived
-Risks and Benefits, showed minimal influence on Parental Data Sharing,
-suggesting other factors may play a larger role. The study underscores the need
-for user-centric privacy controls, tailored transparency strategies, and
-targeted educational initiatives. Incorporating diverse stakeholder
-perspectives offers actionable insights into ethical AI design and governance,
-balancing innovation with robust privacy protections to foster trust in a
-digital age.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.13278v1">On Subset Retrieval and Group Testing Problems with Differential Privacy
-  Constraints</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
-  <p><b>Published on:</b> 2025-01-23T00:05:16Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mira Gonen, Michael Langberg, Alex Sprintson</p>
-    <p><b>Summary:</b> This paper focuses on the design and analysis of privacy-preserving
-techniques for group testing and infection status retrieval. Our work is
-motivated by the need to provide accurate information on the status of disease
-spread among a group of individuals while protecting the privacy of the
-infection status of any single individual involved. The paper is motivated by
-practical scenarios, such as controlling the spread of infectious diseases,
-where individuals might be reluctant to participate in testing if their
-outcomes are not kept confidential.
-  The paper makes the following contributions. First, we present a differential
-privacy framework for the subset retrieval problem, which focuses on sharing
-the infection status of individuals with administrators and decision-makers. We
-characterize the trade-off between the accuracy of subset retrieval and the
-degree of privacy guaranteed to the individuals. In particular, we establish
-tight lower and upper bounds on the achievable level of accuracy subject to the
-differential privacy constraints. We then formulate the differential privacy
-framework for the noisy group testing problem in which noise is added either
-before or after the pooling process. We establish a reduction between the
-private subset retrieval and noisy group testing problems and show that the
-converse and achievability schemes for subset retrieval carry over to
-differentially private group testing.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.12911v1">A Selective Homomorphic Encryption Approach for Faster
-  Privacy-Preserving Federated Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
-  <p><b>Published on:</b> 2025-01-22T14:37:44Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Abdulkadir Korkmaz, Praveen Rao</p>
-    <p><b>Summary:</b> Federated learning is a machine learning method that supports training models
-on decentralized devices or servers, where each holds its local data, removing
-the need for data exchange. This approach is especially useful in healthcare,
-as it enables training on sensitive data without needing to share them. The
-nature of federated learning necessitates robust security precautions due to
-data leakage concerns during communication. To address this issue, we propose a
-new approach that employs selective encryption, homomorphic encryption,
-differential privacy, and bit-wise scrambling to minimize data leakage while
-achieving good execution performance. Our technique , FAS (fast and secure
-federated learning) is used to train deep learning models on medical imaging
-data. We implemented our technique using the Flower framework and compared with
-a state-of-the-art federated learning approach that also uses selective
-homomorphic encryption. Our experiments were run in a cluster of eleven
-physical machines to create a real-world federated learning scenario on
-different datasets. We observed that our approach is up to 90\% faster than
-applying fully homomorphic encryption on the model weights. In addition, we can
-avoid the pretraining step that is required by our competitor and can save up
-to 20\% in terms of total execution time. While our approach was faster, it
-obtained similar security results as the competitor.</p>
-  </details>
-</div>
-
-
 
 <h2>2025-02</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2502.17384v1">On the Dichotomy Between Privacy and Traceability in $\ell_p$ Stochastic
+  Convex Optimization</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-02-24T18:10:06Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Sasha Voitovych, Mahdi Haghifam, Idan Attias, Gintare Karolina Dziugaite, Roi Livni, Daniel M. Roy</p>
+    <p><b>Summary:</b> In this paper, we investigate the necessity of memorization in stochastic
+convex optimization (SCO) under $\ell_p$ geometries. Informally, we say a
+learning algorithm memorizes $m$ samples (or is $m$-traceable) if, by analyzing
+its output, it is possible to identify at least $m$ of its training samples.
+Our main results uncover a fundamental tradeoff between traceability and excess
+risk in SCO. For every $p\in [1,\infty)$, we establish the existence of a risk
+threshold below which any sample-efficient learner must memorize a \em{constant
+fraction} of its sample. For $p\in [1,2]$, this threshold coincides with best
+risk of differentially private (DP) algorithms, i.e., above this threshold,
+there are algorithms that do not memorize even a single sample. This
+establishes a sharp dichotomy between privacy and traceability for $p \in
+[1,2]$. For $p \in (2,\infty)$, this threshold instead gives novel lower bounds
+for DP learning, partially closing an open problem in this setup. En route of
+proving these results, we introduce a complexity notion we term \em{trace
+value} of a problem, which unifies privacy lower bounds and traceability
+results, and prove a sparse variant of the fingerprinting lemma.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2502.17150v1">Differential privacy guarantees of Markov chain Monte Carlo algorithms</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
+  <p><b>Published on:</b> 2025-02-24T13:40:46Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Andrea Bertazzi, Tim Johnston, Gareth O. Roberts, Alain Durmus</p>
+    <p><b>Summary:</b> This paper aims to provide differential privacy (DP) guarantees for Markov
+chain Monte Carlo (MCMC) algorithms. In a first part, we establish DP
+guarantees on samples output by MCMC algorithms as well as Monte Carlo
+estimators associated with these methods under assumptions on the convergence
+properties of the underlying Markov chain. In particular, our results highlight
+the critical condition of ensuring the target distribution is differentially
+private itself. In a second part, we specialise our analysis to the unadjusted
+Langevin algorithm and stochastic gradient Langevin dynamics and establish
+guarantees on their (R\'enyi) DP. To this end, we develop a novel methodology
+based on Girsanov's theorem combined with a perturbation trick to obtain bounds
+for an unbounded domain and in a non-convex setting. We establish: (i) uniform
+in $n$ privacy guarantees when the state of the chain after $n$ iterations is
+released, (ii) bounds on the privacy of the entire chain trajectory. These
+findings provide concrete guidelines for privacy-preserving MCMC.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2502.17041v1">PrivaCI-Bench: Evaluating Privacy with Contextual Integrity and Legal
+  Compliance</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2025-02-24T10:49:34Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Haoran Li, Wenbin Hu, Huihao Jing, Yulin Chen, Qi Hu, Sirui Han, Tianshu Chu, Peizhao Hu, Yangqiu Song</p>
+    <p><b>Summary:</b> Recent advancements in generative large language models (LLMs) have enabled
+wider applicability, accessibility, and flexibility. However, their reliability
+and trustworthiness are still in doubt, especially for concerns regarding
+individuals' data privacy. Great efforts have been made on privacy by building
+various evaluation benchmarks to study LLMs' privacy awareness and robustness
+from their generated outputs to their hidden representations. Unfortunately,
+most of these works adopt a narrow formulation of privacy and only investigate
+personally identifiable information (PII). In this paper, we follow the merit
+of the Contextual Integrity (CI) theory, which posits that privacy evaluation
+should not only cover the transmitted attributes but also encompass the whole
+relevant social context through private information flows. We present
+PrivaCI-Bench, a comprehensive contextual privacy evaluation benchmark targeted
+at legal compliance to cover well-annotated privacy and safety regulations,
+real court cases, privacy policies, and synthetic data built from the official
+toolkit to study LLMs' privacy and safety compliance. We evaluate the latest
+LLMs, including the recent reasoner models QwQ-32B and Deepseek R1. Our
+experimental results suggest that though LLMs can effectively capture key CI
+parameters inside a given context, they still require further advancements for
+privacy compliance.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2502.16877v1">APINT: A Full-Stack Framework for Acceleration of Privacy-Preserving
+  Inference of Transformers based on Garbled Circuits</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Hardware Architecture-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-02-24T06:26:42Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Hyunjun Cho, Jaeho Jeon, Jaehoon Heo, Joo-Young Kim</p>
+    <p><b>Summary:</b> As the importance of Privacy-Preserving Inference of Transformers (PiT)
+increases, a hybrid protocol that integrates Garbled Circuits (GC) and
+Homomorphic Encryption (HE) is emerging for its implementation. While this
+protocol is preferred for its ability to maintain accuracy, it has a severe
+drawback of excessive latency. To address this, existing protocols primarily
+focused on reducing HE latency, thus making GC the new latency bottleneck.
+Furthermore, previous studies only focused on individual computing layers, such
+as protocol or hardware accelerator, lacking a comprehensive solution at the
+system level. This paper presents APINT, a full-stack framework designed to
+reduce PiT's overall latency by addressing the latency problem of GC through
+both software and hardware solutions. APINT features a novel protocol that
+reallocates possible GC workloads to alternative methods (i.e., HE or standard
+matrix operation), substantially decreasing the GC workload. It also suggests
+GC-friendly circuit generation that reduces the number of AND gates at the
+most, which is the expensive operator in GC. Furthermore, APINT proposes an
+innovative netlist scheduling that combines coarse-grained operation mapping
+and fine-grained scheduling for maximal data reuse and minimal dependency.
+Finally, APINT's hardware accelerator, combined with its compiler speculation,
+effectively resolves the memory stall issue. Putting it all together, APINT
+achieves a remarkable end-to-end reduction in latency, outperforming the
+existing protocol on CPU platform by 12.2x online and 2.2x offline. Meanwhile,
+the APINT accelerator not only reduces its latency by 3.3x but also saves
+energy consumption by 4.6x while operating PiT compared to the state-of-the-art
+GC accelerator.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2502.16739v1">Investigating the Security & Privacy Risks from Unsanctioned Technology
+  Use by Educators</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2025-02-23T22:52:58Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Easton Kelso, Ananta Soneji, Syed Zami-Ul-Haque Navid, Yan Soshitaishvili, Sazzadur Rahaman, Rakibul Hasan</p>
+    <p><b>Summary:</b> Educational technologies are revolutionizing how educational institutions
+operate. Consequently, it makes them a lucrative target for breach and abuse as
+they often serve as centralized hubs for diverse types of sensitive data, from
+academic records to health information. Existing studies looked into how
+existing stakeholders perceive the security and privacy risks of educational
+technologies and how those risks are affecting institutional policies for
+acquiring new technologies. However, outside of institutional vetting and
+approval, there is a pervasive practice of using applications and devices
+acquired personally. It is unclear how these applications and devices affect
+the dynamics of the overall institutional ecosystem.
+  This study aims to address this gap by understanding why instructors use
+unsanctioned applications, how instructors perceive the associated risks, and
+how it affects institutional security and privacy postures. We designed and
+conducted an online survey-based study targeting instructors and administrators
+from K-12 and higher education institutions.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2502.16519v1">Guarding the Privacy of Label-Only Access to Neural Network Classifiers
+  via iDP Verification</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Programming Languages-D91E36">
+  <p><b>Published on:</b> 2025-02-23T09:50:26Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Anan Kabaha, Dana Drachsler-Cohen</p>
+    <p><b>Summary:</b> Neural networks are susceptible to privacy attacks that can extract private
+information of the training set. To cope, several training algorithms guarantee
+differential privacy (DP) by adding noise to their computation. However, DP
+requires to add noise considering every possible training set. This leads to a
+significant decrease in the network's accuracy. Individual DP (iDP) restricts
+DP to a given training set. We observe that some inputs deterministically
+satisfy iDP without any noise. By identifying them, we can provide iDP
+label-only access to the network with a minor decrease to its accuracy.
+However, identifying the inputs that satisfy iDP without any noise is highly
+challenging. Our key idea is to compute the iDP deterministic bound (iDP-DB),
+which overapproximates the set of inputs that do not satisfy iDP, and add noise
+only to their predicted labels. To compute the tightest iDP-DB, which enables
+to guard the label-only access with minimal accuracy decrease, we propose
+LUCID, which leverages several formal verification techniques. First, it
+encodes the problem as a mixed-integer linear program, defined over a network
+and over every network trained identically but without a unique data point.
+Second, it abstracts a set of networks using a hyper-network. Third, it
+eliminates the overapproximation error via a novel branch-and-bound technique.
+Fourth, it bounds the differences of matching neurons in the network and the
+hyper-network and employs linear relaxation if they are small. We show that
+LUCID can provide classifiers with a perfect individuals' privacy guarantee
+(0-iDP) -- which is infeasible for DP training algorithms -- with an accuracy
+decrease of 1.4%. For more relaxed $\varepsilon$-iDP guarantees, LUCID has an
+accuracy decrease of 1.2%. In contrast, existing DP training algorithms reduce
+the accuracy by 12.7%.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2502.16091v1">Privacy-Aware Joint DNN Model Deployment and Partition Optimization for
+  Delay-Efficient Collaborative Edge Inference</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-02-22T05:27:24Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zhipeng Cheng, Xiaoyu Xia, Hong Wang, Minghui Liwang, Ning Chen, Xuwei Fan, Xianbin Wang</p>
+    <p><b>Summary:</b> Edge inference (EI) is a key solution to address the growing challenges of
+delayed response times, limited scalability, and privacy concerns in
+cloud-based Deep Neural Network (DNN) inference. However, deploying DNN models
+on resource-constrained edge devices faces more severe challenges, such as
+model storage limitations, dynamic service requests, and privacy risks. This
+paper proposes a novel framework for privacy-aware joint DNN model deployment
+and partition optimization to minimize long-term average inference delay under
+resource and privacy constraints. Specifically, the problem is formulated as a
+complex optimization problem considering model deployment, user-server
+association, and model partition strategies. To handle the NP-hardness and
+future uncertainties, a Lyapunov-based approach is introduced to transform the
+long-term optimization into a single-time-slot problem, ensuring system
+performance. Additionally, a coalition formation game model is proposed for
+edge server association, and a greedy-based algorithm is developed for model
+deployment within each coalition to efficiently solve the problem. Extensive
+simulations show that the proposed algorithms effectively reduce inference
+delay while satisfying privacy constraints, outperforming baseline approaches
+in various scenarios.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2502.15929v1">Approximate Differential Privacy of the $\ell_2$ Mechanism</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-02-21T20:56:34Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Matthew Joseph, Alex Kulesza, Alexander Yu</p>
+    <p><b>Summary:</b> We study the $\ell_2$ mechanism for computing a $d$-dimensional statistic
+with bounded $\ell_2$ sensitivity under approximate differential privacy.
+Across a range of privacy parameters, we find that the $\ell_2$ mechanism
+obtains lower error than the Laplace and Gaussian mechanisms, matching the
+former at $d=1$ and approaching the latter as $d \to \infty$.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2502.15680v1">Privacy Ripple Effects from Adding or Removing Personal Information in
@@ -2248,7 +2261,7 @@ thereby demonstrating their practical feasibility in real-world scenarios.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.05765v1">Privacy-Preserving Dataset Combination</a></h3>
+  <h3><a href="http://arxiv.org/abs/2502.05765v2">Privacy-Preserving Dataset Combination</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
   <p><b>Published on:</b> 2025-02-09T03:54:17Z</p>
   <details>
