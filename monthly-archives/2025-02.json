@@ -1962,5 +1962,252 @@
       "cs.CR",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.17384v1",
+    "title" : "On the Dichotomy Between Privacy and Traceability in $\\ell_p$ Stochastic\n  Convex Optimization",
+    "summary" : "In this paper, we investigate the necessity of memorization in stochastic\nconvex optimization (SCO) under $\\ell_p$ geometries. Informally, we say a\nlearning algorithm memorizes $m$ samples (or is $m$-traceable) if, by analyzing\nits output, it is possible to identify at least $m$ of its training samples.\nOur main results uncover a fundamental tradeoff between traceability and excess\nrisk in SCO. For every $p\\in [1,\\infty)$, we establish the existence of a risk\nthreshold below which any sample-efficient learner must memorize a \\em{constant\nfraction} of its sample. For $p\\in [1,2]$, this threshold coincides with best\nrisk of differentially private (DP) algorithms, i.e., above this threshold,\nthere are algorithms that do not memorize even a single sample. This\nestablishes a sharp dichotomy between privacy and traceability for $p \\in\n[1,2]$. For $p \\in (2,\\infty)$, this threshold instead gives novel lower bounds\nfor DP learning, partially closing an open problem in this setup. En route of\nproving these results, we introduce a complexity notion we term \\em{trace\nvalue} of a problem, which unifies privacy lower bounds and traceability\nresults, and prove a sparse variant of the fingerprinting lemma.",
+    "updated" : "2025-02-24T18:10:06Z",
+    "published" : "2025-02-24T18:10:06Z",
+    "authors" : [
+      {
+        "name" : "Sasha Voitovych"
+      },
+      {
+        "name" : "Mahdi Haghifam"
+      },
+      {
+        "name" : "Idan Attias"
+      },
+      {
+        "name" : "Gintare Karolina Dziugaite"
+      },
+      {
+        "name" : "Roi Livni"
+      },
+      {
+        "name" : "Daniel M. Roy"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.17150v1",
+    "title" : "Differential privacy guarantees of Markov chain Monte Carlo algorithms",
+    "summary" : "This paper aims to provide differential privacy (DP) guarantees for Markov\nchain Monte Carlo (MCMC) algorithms. In a first part, we establish DP\nguarantees on samples output by MCMC algorithms as well as Monte Carlo\nestimators associated with these methods under assumptions on the convergence\nproperties of the underlying Markov chain. In particular, our results highlight\nthe critical condition of ensuring the target distribution is differentially\nprivate itself. In a second part, we specialise our analysis to the unadjusted\nLangevin algorithm and stochastic gradient Langevin dynamics and establish\nguarantees on their (R\\'enyi) DP. To this end, we develop a novel methodology\nbased on Girsanov's theorem combined with a perturbation trick to obtain bounds\nfor an unbounded domain and in a non-convex setting. We establish: (i) uniform\nin $n$ privacy guarantees when the state of the chain after $n$ iterations is\nreleased, (ii) bounds on the privacy of the entire chain trajectory. These\nfindings provide concrete guidelines for privacy-preserving MCMC.",
+    "updated" : "2025-02-24T13:40:46Z",
+    "published" : "2025-02-24T13:40:46Z",
+    "authors" : [
+      {
+        "name" : "Andrea Bertazzi"
+      },
+      {
+        "name" : "Tim Johnston"
+      },
+      {
+        "name" : "Gareth O. Roberts"
+      },
+      {
+        "name" : "Alain Durmus"
+      }
+    ],
+    "categories" : [
+      "stat.ML",
+      "cs.LG",
+      "stat.CO"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.17041v1",
+    "title" : "PrivaCI-Bench: Evaluating Privacy with Contextual Integrity and Legal\n  Compliance",
+    "summary" : "Recent advancements in generative large language models (LLMs) have enabled\nwider applicability, accessibility, and flexibility. However, their reliability\nand trustworthiness are still in doubt, especially for concerns regarding\nindividuals' data privacy. Great efforts have been made on privacy by building\nvarious evaluation benchmarks to study LLMs' privacy awareness and robustness\nfrom their generated outputs to their hidden representations. Unfortunately,\nmost of these works adopt a narrow formulation of privacy and only investigate\npersonally identifiable information (PII). In this paper, we follow the merit\nof the Contextual Integrity (CI) theory, which posits that privacy evaluation\nshould not only cover the transmitted attributes but also encompass the whole\nrelevant social context through private information flows. We present\nPrivaCI-Bench, a comprehensive contextual privacy evaluation benchmark targeted\nat legal compliance to cover well-annotated privacy and safety regulations,\nreal court cases, privacy policies, and synthetic data built from the official\ntoolkit to study LLMs' privacy and safety compliance. We evaluate the latest\nLLMs, including the recent reasoner models QwQ-32B and Deepseek R1. Our\nexperimental results suggest that though LLMs can effectively capture key CI\nparameters inside a given context, they still require further advancements for\nprivacy compliance.",
+    "updated" : "2025-02-24T10:49:34Z",
+    "published" : "2025-02-24T10:49:34Z",
+    "authors" : [
+      {
+        "name" : "Haoran Li"
+      },
+      {
+        "name" : "Wenbin Hu"
+      },
+      {
+        "name" : "Huihao Jing"
+      },
+      {
+        "name" : "Yulin Chen"
+      },
+      {
+        "name" : "Qi Hu"
+      },
+      {
+        "name" : "Sirui Han"
+      },
+      {
+        "name" : "Tianshu Chu"
+      },
+      {
+        "name" : "Peizhao Hu"
+      },
+      {
+        "name" : "Yangqiu Song"
+      }
+    ],
+    "categories" : [
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.16877v1",
+    "title" : "APINT: A Full-Stack Framework for Acceleration of Privacy-Preserving\n  Inference of Transformers based on Garbled Circuits",
+    "summary" : "As the importance of Privacy-Preserving Inference of Transformers (PiT)\nincreases, a hybrid protocol that integrates Garbled Circuits (GC) and\nHomomorphic Encryption (HE) is emerging for its implementation. While this\nprotocol is preferred for its ability to maintain accuracy, it has a severe\ndrawback of excessive latency. To address this, existing protocols primarily\nfocused on reducing HE latency, thus making GC the new latency bottleneck.\nFurthermore, previous studies only focused on individual computing layers, such\nas protocol or hardware accelerator, lacking a comprehensive solution at the\nsystem level. This paper presents APINT, a full-stack framework designed to\nreduce PiT's overall latency by addressing the latency problem of GC through\nboth software and hardware solutions. APINT features a novel protocol that\nreallocates possible GC workloads to alternative methods (i.e., HE or standard\nmatrix operation), substantially decreasing the GC workload. It also suggests\nGC-friendly circuit generation that reduces the number of AND gates at the\nmost, which is the expensive operator in GC. Furthermore, APINT proposes an\ninnovative netlist scheduling that combines coarse-grained operation mapping\nand fine-grained scheduling for maximal data reuse and minimal dependency.\nFinally, APINT's hardware accelerator, combined with its compiler speculation,\neffectively resolves the memory stall issue. Putting it all together, APINT\nachieves a remarkable end-to-end reduction in latency, outperforming the\nexisting protocol on CPU platform by 12.2x online and 2.2x offline. Meanwhile,\nthe APINT accelerator not only reduces its latency by 3.3x but also saves\nenergy consumption by 4.6x while operating PiT compared to the state-of-the-art\nGC accelerator.",
+    "updated" : "2025-02-24T06:26:42Z",
+    "published" : "2025-02-24T06:26:42Z",
+    "authors" : [
+      {
+        "name" : "Hyunjun Cho"
+      },
+      {
+        "name" : "Jaeho Jeon"
+      },
+      {
+        "name" : "Jaehoon Heo"
+      },
+      {
+        "name" : "Joo-Young Kim"
+      }
+    ],
+    "categories" : [
+      "cs.AR",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.16739v1",
+    "title" : "Investigating the Security & Privacy Risks from Unsanctioned Technology\n  Use by Educators",
+    "summary" : "Educational technologies are revolutionizing how educational institutions\noperate. Consequently, it makes them a lucrative target for breach and abuse as\nthey often serve as centralized hubs for diverse types of sensitive data, from\nacademic records to health information. Existing studies looked into how\nexisting stakeholders perceive the security and privacy risks of educational\ntechnologies and how those risks are affecting institutional policies for\nacquiring new technologies. However, outside of institutional vetting and\napproval, there is a pervasive practice of using applications and devices\nacquired personally. It is unclear how these applications and devices affect\nthe dynamics of the overall institutional ecosystem.\n  This study aims to address this gap by understanding why instructors use\nunsanctioned applications, how instructors perceive the associated risks, and\nhow it affects institutional security and privacy postures. We designed and\nconducted an online survey-based study targeting instructors and administrators\nfrom K-12 and higher education institutions.",
+    "updated" : "2025-02-23T22:52:58Z",
+    "published" : "2025-02-23T22:52:58Z",
+    "authors" : [
+      {
+        "name" : "Easton Kelso"
+      },
+      {
+        "name" : "Ananta Soneji"
+      },
+      {
+        "name" : "Syed Zami-Ul-Haque Navid"
+      },
+      {
+        "name" : "Yan Soshitaishvili"
+      },
+      {
+        "name" : "Sazzadur Rahaman"
+      },
+      {
+        "name" : "Rakibul Hasan"
+      }
+    ],
+    "categories" : [
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.16519v1",
+    "title" : "Guarding the Privacy of Label-Only Access to Neural Network Classifiers\n  via iDP Verification",
+    "summary" : "Neural networks are susceptible to privacy attacks that can extract private\ninformation of the training set. To cope, several training algorithms guarantee\ndifferential privacy (DP) by adding noise to their computation. However, DP\nrequires to add noise considering every possible training set. This leads to a\nsignificant decrease in the network's accuracy. Individual DP (iDP) restricts\nDP to a given training set. We observe that some inputs deterministically\nsatisfy iDP without any noise. By identifying them, we can provide iDP\nlabel-only access to the network with a minor decrease to its accuracy.\nHowever, identifying the inputs that satisfy iDP without any noise is highly\nchallenging. Our key idea is to compute the iDP deterministic bound (iDP-DB),\nwhich overapproximates the set of inputs that do not satisfy iDP, and add noise\nonly to their predicted labels. To compute the tightest iDP-DB, which enables\nto guard the label-only access with minimal accuracy decrease, we propose\nLUCID, which leverages several formal verification techniques. First, it\nencodes the problem as a mixed-integer linear program, defined over a network\nand over every network trained identically but without a unique data point.\nSecond, it abstracts a set of networks using a hyper-network. Third, it\neliminates the overapproximation error via a novel branch-and-bound technique.\nFourth, it bounds the differences of matching neurons in the network and the\nhyper-network and employs linear relaxation if they are small. We show that\nLUCID can provide classifiers with a perfect individuals' privacy guarantee\n(0-iDP) -- which is infeasible for DP training algorithms -- with an accuracy\ndecrease of 1.4%. For more relaxed $\\varepsilon$-iDP guarantees, LUCID has an\naccuracy decrease of 1.2%. In contrast, existing DP training algorithms reduce\nthe accuracy by 12.7%.",
+    "updated" : "2025-02-23T09:50:26Z",
+    "published" : "2025-02-23T09:50:26Z",
+    "authors" : [
+      {
+        "name" : "Anan Kabaha"
+      },
+      {
+        "name" : "Dana Drachsler-Cohen"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.PL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.16091v1",
+    "title" : "Privacy-Aware Joint DNN Model Deployment and Partition Optimization for\n  Delay-Efficient Collaborative Edge Inference",
+    "summary" : "Edge inference (EI) is a key solution to address the growing challenges of\ndelayed response times, limited scalability, and privacy concerns in\ncloud-based Deep Neural Network (DNN) inference. However, deploying DNN models\non resource-constrained edge devices faces more severe challenges, such as\nmodel storage limitations, dynamic service requests, and privacy risks. This\npaper proposes a novel framework for privacy-aware joint DNN model deployment\nand partition optimization to minimize long-term average inference delay under\nresource and privacy constraints. Specifically, the problem is formulated as a\ncomplex optimization problem considering model deployment, user-server\nassociation, and model partition strategies. To handle the NP-hardness and\nfuture uncertainties, a Lyapunov-based approach is introduced to transform the\nlong-term optimization into a single-time-slot problem, ensuring system\nperformance. Additionally, a coalition formation game model is proposed for\nedge server association, and a greedy-based algorithm is developed for model\ndeployment within each coalition to efficiently solve the problem. Extensive\nsimulations show that the proposed algorithms effectively reduce inference\ndelay while satisfying privacy constraints, outperforming baseline approaches\nin various scenarios.",
+    "updated" : "2025-02-22T05:27:24Z",
+    "published" : "2025-02-22T05:27:24Z",
+    "authors" : [
+      {
+        "name" : "Zhipeng Cheng"
+      },
+      {
+        "name" : "Xiaoyu Xia"
+      },
+      {
+        "name" : "Hong Wang"
+      },
+      {
+        "name" : "Minghui Liwang"
+      },
+      {
+        "name" : "Ning Chen"
+      },
+      {
+        "name" : "Xuwei Fan"
+      },
+      {
+        "name" : "Xianbin Wang"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.15929v1",
+    "title" : "Approximate Differential Privacy of the $\\ell_2$ Mechanism",
+    "summary" : "We study the $\\ell_2$ mechanism for computing a $d$-dimensional statistic\nwith bounded $\\ell_2$ sensitivity under approximate differential privacy.\nAcross a range of privacy parameters, we find that the $\\ell_2$ mechanism\nobtains lower error than the Laplace and Gaussian mechanisms, matching the\nformer at $d=1$ and approaching the latter as $d \\to \\infty$.",
+    "updated" : "2025-02-21T20:56:34Z",
+    "published" : "2025-02-21T20:56:34Z",
+    "authors" : [
+      {
+        "name" : "Matthew Joseph"
+      },
+      {
+        "name" : "Alex Kulesza"
+      },
+      {
+        "name" : "Alexander Yu"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.05765v2",
+    "title" : "Privacy-Preserving Dataset Combination",
+    "summary" : "Access to diverse, high-quality datasets is crucial for machine learning\nmodel performance, yet data sharing remains limited by privacy concerns and\ncompetitive interests, particularly in regulated domains like healthcare. This\ndynamic especially disadvantages smaller organizations that lack resources to\npurchase data or negotiate favorable sharing agreements. We present SecureKL, a\nprivacy-preserving framework that enables organizations to identify beneficial\ndata partnerships without exposing sensitive information. Building on recent\nadvances in dataset combination methods, we develop a secure multiparty\ncomputation protocol that maintains strong privacy guarantees while achieving\n>90\\% correlation with plaintext evaluations. In experiments with real-world\nhospital data, SecureKL successfully identifies beneficial data partnerships\nthat improve model performance for intensive care unit mortality prediction\nwhile preserving data privacy. Our framework provides a practical solution for\norganizations seeking to leverage collective data resources while maintaining\nprivacy and competitive advantages. These results demonstrate the potential for\nprivacy-preserving data collaboration to advance machine learning applications\nin high-stakes domains while promoting more equitable access to data resources.",
+    "updated" : "2025-02-24T00:53:08Z",
+    "published" : "2025-02-09T03:54:17Z",
+    "authors" : [
+      {
+        "name" : "Keren Fuentes"
+      },
+      {
+        "name" : "Mimee Xu"
+      },
+      {
+        "name" : "Irene Chen"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "cs.CY"
+    ]
   }
 ]
