@@ -650,142 +650,116 @@ real-world applications.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.14974v2">Private Minimum Hellinger Distance Estimation via Hellinger Distance
-  Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Probability-5BC0EB">    
-  <p><b>Published on:</b> 2025-01-24T23:15:04Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Fengnan Deng, Anand N. Vidyashankar</p>
-    <p><b>Summary:</b> Objective functions based on Hellinger distance yield robust and efficient
-estimators of model parameters. Motivated by privacy and regulatory
-requirements encountered in contemporary applications, we derive in this paper
-\emph{private minimum Hellinger distance estimators}. The estimators satisfy a
-new privacy constraint, namely, Hellinger differential privacy, while retaining
-the robustness and efficiency properties. We demonstrate that Hellinger
-differential privacy shares several features of standard differential privacy
-while allowing for sharper inference. Additionally, for computational purposes,
-we also develop Hellinger differentially private gradient descent and
-Newton-Raphson algorithms. We illustrate the behavior of our estimators in
-finite samples using numerical experiments and verify that they retain
-robustness properties under gross-error contamination.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.14928v1">Decision Making in Changing Environments: Robustness, Query-Based
-  Learning, and Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36">  <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36">  
-  <p><b>Published on:</b> 2025-01-24T21:31:50Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Fan Chen, Alexander Rakhlin</p>
-    <p><b>Summary:</b> We study the problem of interactive decision making in which the underlying
-environment changes over time subject to given constraints. We propose a
-framework, which we call \textit{hybrid Decision Making with Structured
-Observations} (hybrid DMSO), that provides an interpolation between the
-stochastic and adversarial settings of decision making. Within this framework,
-we can analyze local differentially private (LDP) decision making, query-based
-learning (in particular, SQ learning), and robust and smooth decision making
-under the same umbrella, deriving upper and lower bounds based on variants of
-the Decision-Estimation Coefficient (DEC). We further establish strong
-connections between the DEC's behavior, the SQ dimension, local minimax
-complexity, learnability, and joint differential privacy. To showcase the
-framework's power, we provide new results for contextual bandits under the LDP
-constraint.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.14453v1">Optimal Strategies for Federated Learning Maintaining Client Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-01-24T12:34:38Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Uday Bhaskar, Varul Srivastava, Avyukta Manjunatha Vummintala, Naresh Manwani, Sujit Gujar</p>
-    <p><b>Summary:</b> Federated Learning (FL) emerged as a learning method to enable the server to
-train models over data distributed among various clients. These clients are
-protective about their data being leaked to the server, any other client, or an
-external adversary, and hence, locally train the model and share it with the
-server rather than sharing the data. The introduction of sophisticated
-inferencing attacks enabled the leakage of information about data through
-access to model parameters. To tackle this challenge, privacy-preserving
-federated learning aims to achieve differential privacy through learning
-algorithms like DP-SGD. However, such methods involve adding noise to the
-model, data, or gradients, reducing the model's performance.
-  This work provides a theoretical analysis of the tradeoff between model
-performance and communication complexity of the FL system. We formally prove
-that training for one local epoch per global round of training gives optimal
-performance while preserving the same privacy budget. We also investigate the
-change of utility (tied to privacy) of FL models with a change in the number of
-clients and observe that when clients are training using DP-SGD and argue that
-for the same privacy budget, the utility improved with increased clients. We
-validate our findings through experiments on real-world datasets. The results
-from this paper aim to improve the performance of privacy-preserving federated
-learning systems.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.14313v1">Between Close Enough to Reveal and Far Enough to Protect: a New Privacy
-  Region for Correlated Data</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
-  <p><b>Published on:</b> 2025-01-24T08:14:54Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Luis Maßny, Rawad Bitar, Fangwei Ye, Salim El Rouayheb</p>
-    <p><b>Summary:</b> When users make personal privacy choices, correlation between their data can
-cause inadvertent leakage about users who do not want to share their data by
-other users sharing their data. As a solution, we consider local redaction
-mechanisms. As prior works proposed data-independent privatization mechanisms,
-we study the family of data-independent local redaction mechanisms and
-upper-bound their utility when data correlation is modeled by a stationary
-Markov process. In contrast, we derive a novel data-dependent mechanism, which
-improves the utility by leveraging a data-dependent leakage measure.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.14309v1">BrainGuard: Privacy-Preserving Multisubject Image Reconstructions from
-  Brain Activities</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2025-01-24T08:10:47Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zhibo Tian, Ruijie Quan, Fan Ma, Kun Zhan, Yi Yang</p>
-    <p><b>Summary:</b> Reconstructing perceived images from human brain activity forms a crucial
-link between human and machine learning through Brain-Computer Interfaces.
-Early methods primarily focused on training separate models for each individual
-to account for individual variability in brain activity, overlooking valuable
-cross-subject commonalities. Recent advancements have explored multisubject
-methods, but these approaches face significant challenges, particularly in data
-privacy and effectively managing individual variability. To overcome these
-challenges, we introduce BrainGuard, a privacy-preserving collaborative
-training framework designed to enhance image reconstruction from multisubject
-fMRI data while safeguarding individual privacy. BrainGuard employs a
-collaborative global-local architecture where individual models are trained on
-each subject's local data and operate in conjunction with a shared global model
-that captures and leverages cross-subject patterns. This architecture
-eliminates the need to aggregate fMRI data across subjects, thereby ensuring
-privacy preservation. To tackle the complexity of fMRI data, BrainGuard
-integrates a hybrid synchronization strategy, enabling individual models to
-dynamically incorporate parameters from the global model. By establishing a
-secure and collaborative training environment, BrainGuard not only protects
-sensitive brain data but also improves the image reconstructions accuracy.
-Extensive experiments demonstrate that BrainGuard sets a new benchmark in both
-high-level and low-level metrics, advancing the state-of-the-art in brain
-decoding through its innovative design.</p>
-  </details>
-</div>
-
-
 
 <h2>2025-02</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2502.18227v1">TLDP: An Algorithm of Local Differential Privacy for Tensors</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-02-25T14:11:45Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yachao Yuan, Xiao Tang, Yu Huang, Jin Wang</p>
+    <p><b>Summary:</b> Tensor-valued data, increasingly common in applications like spatiotemporal
+modeling and social networks, pose unique challenges for privacy protection due
+to their multidimensional structure and the risk of losing critical structural
+information. Traditional local differential privacy (LDP) methods, designed for
+scalars and matrices, are insufficient for tensors, as they fail to preserve
+essential relationships among tensor elements. We introduce TLDP, a novel
+\emph{LDP} algorithm for \emph{T}ensors, which employs a randomized response
+mechanism to perturb tensor components while maintaining structural integrity.
+To strike a better balance between utility and privacy, we incorporate a weight
+matrix that selectively protects sensitive regions. Both theoretical analysis
+and empirical findings from real-world datasets show that TLDP achieves
+superior utility while preserving privacy, making it a robust solution for
+high-dimensional data.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2502.17772v1">An Improved Privacy and Utility Analysis of Differentially Private SGD
+  with Bounded Domain and Smooth Losses</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
+  <p><b>Published on:</b> 2025-02-25T02:05:41Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Hao Liang, Wanrong Zhang, Xinlei He, Kaishun He, Hong Xing</p>
+    <p><b>Summary:</b> Differentially Private Stochastic Gradient Descent (DPSGD) is widely used to
+protect sensitive data during the training of machine learning models, but its
+privacy guarantees often come at the cost of model performance, largely due to
+the inherent challenge of accurately quantifying privacy loss. While recent
+efforts have strengthened privacy guarantees by focusing solely on the final
+output and bounded domain cases, they still impose restrictive assumptions,
+such as convexity and other parameter limitations, and often lack a thorough
+analysis of utility. In this paper, we provide rigorous privacy and utility
+characterization for DPSGD for smooth loss functions in both bounded and
+unbounded domains. We track the privacy loss over multiple iterations by
+exploiting the noisy smooth-reduction property and establish the utility
+analysis by leveraging the projection's non-expansiveness and clipped SGD
+properties. In particular, we show that for DPSGD with a bounded domain, (i)
+the privacy loss can still converge without the convexity assumption, and (ii)
+a smaller bounded diameter can improve both privacy and utility simultaneously
+under certain conditions. Numerical results validate our results.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2502.17748v1">FinP: Fairness-in-Privacy in Federated Learning by Addressing
+  Disparities in Privacy Risk</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-02-25T00:56:47Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Tianyu Zhao, Mahmoud Srewa, Salma Elmalaki</p>
+    <p><b>Summary:</b> Ensuring fairness in machine learning, particularly in human-centric
+applications, extends beyond algorithmic bias to encompass fairness in privacy,
+specifically the equitable distribution of privacy risk. This is critical in
+federated learning (FL), where decentralized data necessitates balanced privacy
+preservation across clients. We introduce FinP, a framework designed to achieve
+fairness in privacy by mitigating disproportionate exposure to source inference
+attacks (SIA). FinP employs a dual approach: (1) server-side adaptive
+aggregation to address unfairness in client contributions in global model, and
+(2) client-side regularization to reduce client vulnerability. This
+comprehensive strategy targets both the symptoms and root causes of privacy
+unfairness. Evaluated on the Human Activity Recognition (HAR) and CIFAR-10
+datasets, FinP demonstrates ~20% improvement in fairness in privacy on HAR with
+minimal impact on model utility, and effectively mitigates SIA risks on
+CIFAR-10, showcasing its ability to provide fairness in privacy in FL systems
+without compromising performance.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2502.17591v1">Proactive Privacy Amnesia for Large Language Models: Safeguarding PII
+  with Negligible Impact on Model Utility</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2025-02-24T19:16:39Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Martin Kuo, Jingyang Zhang, Jianyi Zhang, Minxue Tang, Louis DiValentin, Aolin Ding, Jingwei Sun, William Chen, Amin Hass, Tianlong Chen, Yiran Chen, Hai Li</p>
+    <p><b>Summary:</b> With the rise of large language models (LLMs), increasing research has
+recognized their risk of leaking personally identifiable information (PII)
+under malicious attacks. Although efforts have been made to protect PII in
+LLMs, existing methods struggle to balance privacy protection with maintaining
+model utility. In this paper, inspired by studies of amnesia in cognitive
+science, we propose a novel approach, Proactive Privacy Amnesia (PPA), to
+safeguard PII in LLMs while preserving their utility. This mechanism works by
+actively identifying and forgetting key memories most closely associated with
+PII in sequences, followed by a memory implanting using suitable substitute
+memories to maintain the LLM's functionality. We conduct evaluations across
+multiple models to protect common PII, such as phone numbers and physical
+addresses, against prevalent PII-targeted attacks, demonstrating the
+superiority of our method compared with other existing defensive techniques.
+The results show that our PPA method completely eliminates the risk of phone
+number exposure by 100% and significantly reduces the risk of physical address
+exposure by 9.8% - 87.6%, all while maintaining comparable model utility
+performance.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2502.17384v1">On the Dichotomy Between Privacy and Traceability in $\ell_p$ Stochastic
@@ -1450,6 +1424,40 @@ secure, and even though they are expected to be better, our results reveal that
 SNNs exhibit privacy vulnerabilities that are equally comparable to Artificial
 Neural Networks (ANNs). Our code is available at
 https://anonymous.4open.science/r/MIA_SNN-3610.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2502.17485v1">Decentralized and Robust Privacy-Preserving Model Using
+  Blockchain-Enabled Federated Deep Learning in Intelligent Enterprises</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-02-18T15:17:25Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Reza Fotohi, Fereidoon Shams Aliee, Bahar Farahani</p>
+    <p><b>Summary:</b> In Federated Deep Learning (FDL), multiple local enterprises are allowed to
+train a model jointly. Then, they submit their local updates to the central
+server, and the server aggregates the updates to create a global model.
+However, trained models usually perform worse than centralized models,
+especially when the training data distribution is non-independent and
+identically distributed (nonIID). NonIID data harms the accuracy and
+performance of the model. Additionally, due to the centrality of federated
+learning (FL) and the untrustworthiness of enterprises, traditional FL
+solutions are vulnerable to security and privacy attacks. To tackle this issue,
+we propose FedAnil, a secure blockchain enabled Federated Deep Learning Model
+that improves enterprise models decentralization, performance, and tamper proof
+properties, incorporating two main phases. The first phase addresses the nonIID
+challenge (label and feature distribution skew). The second phase addresses
+security and privacy concerns against poisoning and inference attacks through
+three steps. Extensive experiments were conducted using the Sent140,
+FashionMNIST, FEMNIST, and CIFAR10 new real world datasets to evaluate FedAnils
+robustness and performance. The simulation results demonstrate that FedAnil
+satisfies FDL privacy preserving requirements. In terms of convergence
+analysis, the model parameter obtained with FedAnil converges to the optimum of
+the model parameter. In addition, it performs better in terms of accuracy (more
+than 11, 15, and 24%) and computation overhead (less than 8, 10, and 15%)
+compared with baseline approaches, namely ShieldFL, RVPFL, and RFA.</p>
   </details>
 </div>
 
