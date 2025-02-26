@@ -2209,5 +2209,149 @@
       "cs.CR",
       "cs.CY"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.18227v1",
+    "title" : "TLDP: An Algorithm of Local Differential Privacy for Tensors",
+    "summary" : "Tensor-valued data, increasingly common in applications like spatiotemporal\nmodeling and social networks, pose unique challenges for privacy protection due\nto their multidimensional structure and the risk of losing critical structural\ninformation. Traditional local differential privacy (LDP) methods, designed for\nscalars and matrices, are insufficient for tensors, as they fail to preserve\nessential relationships among tensor elements. We introduce TLDP, a novel\n\\emph{LDP} algorithm for \\emph{T}ensors, which employs a randomized response\nmechanism to perturb tensor components while maintaining structural integrity.\nTo strike a better balance between utility and privacy, we incorporate a weight\nmatrix that selectively protects sensitive regions. Both theoretical analysis\nand empirical findings from real-world datasets show that TLDP achieves\nsuperior utility while preserving privacy, making it a robust solution for\nhigh-dimensional data.",
+    "updated" : "2025-02-25T14:11:45Z",
+    "published" : "2025-02-25T14:11:45Z",
+    "authors" : [
+      {
+        "name" : "Yachao Yuan"
+      },
+      {
+        "name" : "Xiao Tang"
+      },
+      {
+        "name" : "Yu Huang"
+      },
+      {
+        "name" : "Jin Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.17772v1",
+    "title" : "An Improved Privacy and Utility Analysis of Differentially Private SGD\n  with Bounded Domain and Smooth Losses",
+    "summary" : "Differentially Private Stochastic Gradient Descent (DPSGD) is widely used to\nprotect sensitive data during the training of machine learning models, but its\nprivacy guarantees often come at the cost of model performance, largely due to\nthe inherent challenge of accurately quantifying privacy loss. While recent\nefforts have strengthened privacy guarantees by focusing solely on the final\noutput and bounded domain cases, they still impose restrictive assumptions,\nsuch as convexity and other parameter limitations, and often lack a thorough\nanalysis of utility. In this paper, we provide rigorous privacy and utility\ncharacterization for DPSGD for smooth loss functions in both bounded and\nunbounded domains. We track the privacy loss over multiple iterations by\nexploiting the noisy smooth-reduction property and establish the utility\nanalysis by leveraging the projection's non-expansiveness and clipped SGD\nproperties. In particular, we show that for DPSGD with a bounded domain, (i)\nthe privacy loss can still converge without the convexity assumption, and (ii)\na smaller bounded diameter can improve both privacy and utility simultaneously\nunder certain conditions. Numerical results validate our results.",
+    "updated" : "2025-02-25T02:05:41Z",
+    "published" : "2025-02-25T02:05:41Z",
+    "authors" : [
+      {
+        "name" : "Hao Liang"
+      },
+      {
+        "name" : "Wanrong Zhang"
+      },
+      {
+        "name" : "Xinlei He"
+      },
+      {
+        "name" : "Kaishun He"
+      },
+      {
+        "name" : "Hong Xing"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.17748v1",
+    "title" : "FinP: Fairness-in-Privacy in Federated Learning by Addressing\n  Disparities in Privacy Risk",
+    "summary" : "Ensuring fairness in machine learning, particularly in human-centric\napplications, extends beyond algorithmic bias to encompass fairness in privacy,\nspecifically the equitable distribution of privacy risk. This is critical in\nfederated learning (FL), where decentralized data necessitates balanced privacy\npreservation across clients. We introduce FinP, a framework designed to achieve\nfairness in privacy by mitigating disproportionate exposure to source inference\nattacks (SIA). FinP employs a dual approach: (1) server-side adaptive\naggregation to address unfairness in client contributions in global model, and\n(2) client-side regularization to reduce client vulnerability. This\ncomprehensive strategy targets both the symptoms and root causes of privacy\nunfairness. Evaluated on the Human Activity Recognition (HAR) and CIFAR-10\ndatasets, FinP demonstrates ~20% improvement in fairness in privacy on HAR with\nminimal impact on model utility, and effectively mitigates SIA risks on\nCIFAR-10, showcasing its ability to provide fairness in privacy in FL systems\nwithout compromising performance.",
+    "updated" : "2025-02-25T00:56:47Z",
+    "published" : "2025-02-25T00:56:47Z",
+    "authors" : [
+      {
+        "name" : "Tianyu Zhao"
+      },
+      {
+        "name" : "Mahmoud Srewa"
+      },
+      {
+        "name" : "Salma Elmalaki"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.17591v1",
+    "title" : "Proactive Privacy Amnesia for Large Language Models: Safeguarding PII\n  with Negligible Impact on Model Utility",
+    "summary" : "With the rise of large language models (LLMs), increasing research has\nrecognized their risk of leaking personally identifiable information (PII)\nunder malicious attacks. Although efforts have been made to protect PII in\nLLMs, existing methods struggle to balance privacy protection with maintaining\nmodel utility. In this paper, inspired by studies of amnesia in cognitive\nscience, we propose a novel approach, Proactive Privacy Amnesia (PPA), to\nsafeguard PII in LLMs while preserving their utility. This mechanism works by\nactively identifying and forgetting key memories most closely associated with\nPII in sequences, followed by a memory implanting using suitable substitute\nmemories to maintain the LLM's functionality. We conduct evaluations across\nmultiple models to protect common PII, such as phone numbers and physical\naddresses, against prevalent PII-targeted attacks, demonstrating the\nsuperiority of our method compared with other existing defensive techniques.\nThe results show that our PPA method completely eliminates the risk of phone\nnumber exposure by 100% and significantly reduces the risk of physical address\nexposure by 9.8% - 87.6%, all while maintaining comparable model utility\nperformance.",
+    "updated" : "2025-02-24T19:16:39Z",
+    "published" : "2025-02-24T19:16:39Z",
+    "authors" : [
+      {
+        "name" : "Martin Kuo"
+      },
+      {
+        "name" : "Jingyang Zhang"
+      },
+      {
+        "name" : "Jianyi Zhang"
+      },
+      {
+        "name" : "Minxue Tang"
+      },
+      {
+        "name" : "Louis DiValentin"
+      },
+      {
+        "name" : "Aolin Ding"
+      },
+      {
+        "name" : "Jingwei Sun"
+      },
+      {
+        "name" : "William Chen"
+      },
+      {
+        "name" : "Amin Hass"
+      },
+      {
+        "name" : "Tianlong Chen"
+      },
+      {
+        "name" : "Yiran Chen"
+      },
+      {
+        "name" : "Hai Li"
+      }
+    ],
+    "categories" : [
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.17485v1",
+    "title" : "Decentralized and Robust Privacy-Preserving Model Using\n  Blockchain-Enabled Federated Deep Learning in Intelligent Enterprises",
+    "summary" : "In Federated Deep Learning (FDL), multiple local enterprises are allowed to\ntrain a model jointly. Then, they submit their local updates to the central\nserver, and the server aggregates the updates to create a global model.\nHowever, trained models usually perform worse than centralized models,\nespecially when the training data distribution is non-independent and\nidentically distributed (nonIID). NonIID data harms the accuracy and\nperformance of the model. Additionally, due to the centrality of federated\nlearning (FL) and the untrustworthiness of enterprises, traditional FL\nsolutions are vulnerable to security and privacy attacks. To tackle this issue,\nwe propose FedAnil, a secure blockchain enabled Federated Deep Learning Model\nthat improves enterprise models decentralization, performance, and tamper proof\nproperties, incorporating two main phases. The first phase addresses the nonIID\nchallenge (label and feature distribution skew). The second phase addresses\nsecurity and privacy concerns against poisoning and inference attacks through\nthree steps. Extensive experiments were conducted using the Sent140,\nFashionMNIST, FEMNIST, and CIFAR10 new real world datasets to evaluate FedAnils\nrobustness and performance. The simulation results demonstrate that FedAnil\nsatisfies FDL privacy preserving requirements. In terms of convergence\nanalysis, the model parameter obtained with FedAnil converges to the optimum of\nthe model parameter. In addition, it performs better in terms of accuracy (more\nthan 11, 15, and 24%) and computation overhead (less than 8, 10, and 15%)\ncompared with baseline approaches, namely ShieldFL, RVPFL, and RFA.",
+    "updated" : "2025-02-18T15:17:25Z",
+    "published" : "2025-02-18T15:17:25Z",
+    "authors" : [
+      {
+        "name" : "Reza Fotohi"
+      },
+      {
+        "name" : "Fereidoon Shams Aliee"
+      },
+      {
+        "name" : "Bahar Farahani"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
