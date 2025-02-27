@@ -314,344 +314,254 @@ setting.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.17089v1">CRSet: Non-Interactive Verifiable Credential Revocation with Metadata
-  Privacy for Issuers and Everyone Else</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-01-28T17:23:45Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Felix Hoops, Jonas Gebele, Florian Matthes</p>
-    <p><b>Summary:</b> Like any digital certificate, Verifiable Credentials (VCs) require a way to
-revoke them in case of an error or key compromise. Existing solutions for VC
-revocation, most prominently Bitstring Status List, are not viable for many use
-cases since they leak the issuer's behavior, which in turn leaks internal
-business metrics. For instance, exact staff fluctuation through issuance and
-revocation of employee IDs. We introduce CRSet, a revocation mechanism that
-allows an issuer to encode revocation information for years worth of VCs as a
-Bloom filter cascade. Padding is used to provide deniability for issuer
-metrics. Issuers periodically publish this filter cascade on a decentralized
-storage system. Relying Parties (RPs) can download it to perform any number of
-revocation checks locally. Compared to existing solutions, CRSet protects the
-metadata of subject, RPs, and issuer equally. At the same time, it is
-non-interactive, making it work with wallet devices having limited hardware
-power and drop-in compatible with existing VC exchange protocols and wallet
-applications. We present a prototype using the Ethereum blockchain as
-decentralized storage. The recently introduced blob-carrying transactions,
-enabling cheaper data writes, allow us to write each CRSet directly to the
-chain. We built software for issuers and RPs that we successfully tested
-end-to-end with an existing publicly available wallet agents and the OpenID for
-Verifiable Credentials protocols. Storage and bandwidth costs paid by issuers
-and RP are higher than for Bitstring Status List, but still manageable at
-around 1 MB for an issuer issuing hundreds of thousands of VCs annually and
-covering decades.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.16885v1">"My Whereabouts, my Location, it's Directly Linked to my Physical
-  Security": An Exploratory Qualitative Study of Location-Dependent Security
-  and Privacy Perceptions among Activist Tech Users</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2025-01-28T12:13:53Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Christian Eichenmüller, Lisa Kuhn, Zinaida Benenson</p>
-    <p><b>Summary:</b> Digital-safety research with at-risk users is particularly urgent. At-risk
-users are more likely to be digitally attacked or targeted by surveillance and
-could be disproportionately harmed by attacks that facilitate physical
-assaults. One group of such at-risk users are activists and politically active
-individuals. For them, as for other at-risk users, the rise of smart
-environments harbors new risks. Since digitization and datafication are no
-longer limited to a series of personal devices that can be switched on and off,
-but increasingly and continuously surround users, granular geolocation poses
-new safety challenges. Drawing on eight exploratory qualitative interviews of
-an ongoing research project, this contribution highlights what activists with
-powerful adversaries think about evermore data traces, including location data,
-and how they intend to deal with emerging risks. Responses of activists include
-attempts to control one's immediate technological surroundings and to more
-carefully manage device-related location data. For some activists, threat
-modeling has also shaped provider choices based on geopolitical considerations.
-Since many activists have not enough digital-safety knowledge for effective
-protection, feelings of insecurity and paranoia are widespread. Channeling the
-concerns and fears of our interlocutors, we call for more research on how
-activists can protect themselves against evermore fine-grained location data
-tracking.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.16307v1">Privacy-aware Nash Equilibrium Synthesis with Partially Ordered LTL$_f$
-  Objectives</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Science and Game Theory-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Logic in Computer Science-662E9B">
-  <p><b>Published on:</b> 2025-01-27T18:46:15Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Caleb Probine, Abhishek Kulkarni, Ufuk Topcu</p>
-    <p><b>Summary:</b> Nash equilibrium is a fundamental solution concept for modeling the behavior
-of self-interested agents. We develop an algorithm to synthesize pure Nash
-equilibria in two-player deterministic games on graphs where players have
-partial preferences over objectives expressed with linear temporal logic over
-finite traces. Previous approaches for Nash equilibrium synthesis assume that
-players' preferences are common knowledge. Instead, we allow players'
-preferences to remain private but enable communication between players. The
-algorithm we design synthesizes Nash equilibria for a complete-information
-game, but synthesizes these equilibria in an incomplete-information setting
-where players' preferences are private. The algorithm is privacy-aware, as
-instead of requiring that players share private preferences, the algorithm
-reduces the information sharing to a query interface. Through this interface,
-players exchange information about states in the game from which they can
-enforce a more desirable outcome. We prove the algorithm's completeness by
-showing that it either returns an equilibrium or certifies that one does not
-exist. We then demonstrate, via numerical examples, the existence of games
-where the queries the players exchange are insufficient to reconstruct players'
-preferences, highlighting the privacy-aware nature of the algorithm we propose.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.16033v1">PRISMe: A Novel LLM-Powered Tool for Interactive Privacy Policy
-  Assessment</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> 
-  <p><b>Published on:</b> 2025-01-27T13:27:04Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Vincent Freiberger, Arthur Fleig, Erik Buchmann</p>
-    <p><b>Summary:</b> Protecting online privacy requires users to engage with and comprehend
-website privacy policies, but many policies are difficult and tedious to read.
-We present PRISMe (Privacy Risk Information Scanner for Me), a novel Large
-Language Model (LLM)-driven privacy policy assessment tool, which helps users
-to understand the essence of a lengthy, complex privacy policy while browsing.
-The tool, a browser extension, integrates a dashboard and an LLM chat. One
-major contribution is the first rigorous evaluation of such a tool. In a
-mixed-methods user study (N=22), we evaluate PRISMe's efficiency, usability,
-understandability of the provided information, and impacts on awareness. While
-our tool improves privacy awareness by providing a comprehensible quick
-overview and a quality chat for in-depth discussion, users note issues with
-consistency and building trust in the tool. From our insights, we derive
-important design implications to guide future policy analysis tools.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.18625v1">DUEF-GA: Data Utility and Privacy Evaluation Framework for Graph
-  Anonymization</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-01-27T12:22:40Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jordi Casas-Roma</p>
-    <p><b>Summary:</b> Anonymization of graph-based data is a problem which has been widely studied
-over the last years and several anonymization methods have been developed.
-Information loss measures have been used to evaluate data utility and
-information loss in the anonymized graphs. However, there is no consensus about
-how to evaluate data utility and information loss in privacy-preserving and
-anonymization scenarios, where the anonymous datasets were perturbed to hinder
-re-identification processes. Authors use diverse metrics to evaluate data
-utility and, consequently, it is complex to compare different methods or
-algorithms in literature. In this paper we propose a framework to evaluate and
-compare anonymous datasets in a common way, providing an objective score to
-clearly compare methods and algorithms. Our framework includes metrics based on
-generic information loss measures, such as average distance or betweenness
-centrality, and also task-specific information loss measures, such as community
-detection or information flow. Additionally, we provide some metrics to examine
-re-identification and risk assessment. We demonstrate that our framework could
-help researchers and practitioners to select the best parametrization and/or
-algorithm to reduce information loss and maximize data utility.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.15751v1">A Privacy Model for Classical & Learned Bloom Filters</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-01-27T03:35:25Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Hayder Tirmazi</p>
-    <p><b>Summary:</b> The Classical Bloom Filter (CBF) is a class of Probabilistic Data Structures
-(PDS) for handling Approximate Query Membership (AMQ). The Learned Bloom Filter
-(LBF) is a recently proposed class of PDS that combines the Classical Bloom
-Filter with a Learning Model while preserving the Bloom Filter's one-sided
-error guarantees. Bloom Filters have been used in settings where inputs are
-sensitive and need to be private in the presence of an adversary with access to
-the Bloom Filter through an API or in the presence of an adversary who has
-access to the internal state of the Bloom Filter. Prior work has investigated
-the privacy of the Classical Bloom Filter providing attacks and defenses under
-various privacy definitions. In this work, we formulate a stronger differential
-privacy-based model for the Bloom Filter. We propose constructions of the
-Classical and Learned Bloom Filter that satisfy $(\epsilon, 0)$-differential
-privacy. This is also the first work that analyses and addresses the privacy of
-the Learned Bloom Filter under any rigorous model, which is an open problem.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.15744v1">Noise disturbance and lack of privacy: Modeling acoustic dissatisfaction
-  in open-plan offices</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Sound-D91E36">
-  <p><b>Published on:</b> 2025-01-27T03:10:07Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Manuj Yadav, Jungsoo Kim, Valtteri Hongisto, Densil Cabrera, Richard de Dear</p>
-    <p><b>Summary:</b> Open-plan offices are well-known to be adversely affected by acoustic issues.
-This study aims to model acoustic dissatisfaction using measurements of room
-acoustics, sound environment during occupancy, and occupant surveys (n = 349)
-in 28 offices representing a diverse range of workplace parameters. As latent
-factors, the contribution of $\textit{lack of privacy}$ (LackPriv) was 25%
-higher than $\textit{noise disturbance}$ (NseDstrb) in predicting
-$\textit{acoustic dissatisfaction}$ (AcDsat). Room acoustic metrics based on
-sound pressure level (SPL) decay of speech ($L_{\text{p,A,s,4m}}$ and
-$r_{\text{C}}$) were better in predicting these factors than distraction
-distance ($r_{\text{D}}$) based on speech transmission index. This contradicts
-previous findings, and the trends for SPL-based metrics in predicting AcDsat
-and LackPriv go against expectations based on ISO 3382-3. For sound during
-occupation, $L_{\text{A,90}}$ and psychoacoustic loudness ($N_{\text{90}}$)
-predicted AcDsat, and a SPL fluctuation metric ($M_{\text{A,eq}}$) predicted
-LackPriv. However, these metrics were weaker predictors than ISO 3382-3
-metrics. Medium-sized offices exhibited higher dissatisfaction than larger
-($\geq$50 occupants) offices. Dissatisfaction varied substantially across
-parameters including ceiling heights, number of workstations, and years of
-work, but not between offices with fixed seating compared to more flexible and
-activity-based working configurations. Overall, these findings highlight the
-complexities in characterizing occupants' perceptions using instrumental
-acoustic measurements.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.15653v1">A Privacy Enhancing Technique to Evade Detection by Street Video Cameras
-  Without Using Adversarial Accessories</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2025-01-26T19:29:49Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jacob Shams, Ben Nassi, Satoru Koda, Asaf Shabtai, Yuval Elovici</p>
-    <p><b>Summary:</b> In this paper, we propose a privacy-enhancing technique leveraging an
-inherent property of automatic pedestrian detection algorithms, namely, that
-the training of deep neural network (DNN) based methods is generally performed
-using curated datasets and laboratory settings, while the operational areas of
-these methods are dynamic real-world environments. In particular, we leverage a
-novel side effect of this gap between the laboratory and the real world:
-location-based weakness in pedestrian detection. We demonstrate that the
-position (distance, angle, height) of a person, and ambient light level,
-directly impact the confidence of a pedestrian detector when detecting the
-person. We then demonstrate that this phenomenon is present in pedestrian
-detectors observing a stationary scene of pedestrian traffic, with blind spot
-areas of weak detection of pedestrians with low confidence. We show how
-privacy-concerned pedestrians can leverage these blind spots to evade detection
-by constructing a minimum confidence path between two points in a scene,
-reducing the maximum confidence and average confidence of the path by up to
-0.09 and 0.13, respectively, over direct and random paths through the scene. To
-counter this phenomenon, and force the use of more costly and sophisticated
-methods to leverage this vulnerability, we propose a novel countermeasure to
-improve the confidence of pedestrian detectors in blind spots, raising the
-max/average confidence of paths generated by our technique by 0.09 and 0.05,
-respectively. In addition, we demonstrate that our countermeasure improves a
-Faster R-CNN-based pedestrian detector's TPR and average true positive
-confidence by 0.03 and 0.15, respectively.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.15395v1">Hiding in Plain Sight: An IoT Traffic Camouflage Framework for Enhanced
-  Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
-  <p><b>Published on:</b> 2025-01-26T04:33:44Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Daniel Adu Worae, Spyridon Mastorakis</p>
-    <p><b>Summary:</b> The rapid growth of Internet of Things (IoT) devices has introduced
-significant challenges to privacy, particularly as network traffic analysis
-techniques evolve. While encryption protects data content, traffic attributes
-such as packet size and timing can reveal sensitive information about users and
-devices. Existing single-technique obfuscation methods, such as packet padding,
-often fall short in dynamic environments like smart homes due to their
-predictability, making them vulnerable to machine learning-based attacks. This
-paper introduces a multi-technique obfuscation framework designed to enhance
-privacy by disrupting traffic analysis. The framework leverages six
-techniques-Padding, Padding with XORing, Padding with Shifting, Constant Size
-Padding, Fragmentation, and Delay Randomization-to obscure traffic patterns
-effectively. Evaluations on three public datasets demonstrate significant
-reductions in classifier performance metrics, including accuracy, precision,
-recall, and F1 score. We assess the framework's robustness against adversarial
-tactics by retraining and fine-tuning neural network classifiers on obfuscated
-traffic. The results reveal a notable degradation in classifier performance,
-underscoring the framework's resilience against adaptive attacks. Furthermore,
-we evaluate communication and system performance, showing that higher
-obfuscation levels enhance privacy but may increase latency and communication
-overhead.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.15363v1">AI-Driven Secure Data Sharing: A Trustworthy and Privacy-Preserving
-  Approach</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2025-01-26T02:03:19Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Al Amin, Kamrul Hasan, Sharif Ullah, Liang Hong</p>
-    <p><b>Summary:</b> In the era of data-driven decision-making, ensuring the privacy and security
-of shared data is paramount across various domains. Applying existing deep
-neural networks (DNNs) to encrypted data is critical and often compromises
-performance, security, and computational overhead. To address these
-limitations, this research introduces a secure framework consisting of a
-learnable encryption method based on the block-pixel operation to encrypt the
-data and subsequently integrate it with the Vision Transformer (ViT). The
-proposed framework ensures data privacy and security by creating unique
-scrambling patterns per key, providing robust performance against adversarial
-attacks without compromising computational efficiency and data integrity. The
-framework was tested on sensitive medical datasets to validate its efficacy,
-proving its ability to handle highly confidential information securely. The
-suggested framework was validated with a 94\% success rate after extensive
-testing on real-world datasets, such as MRI brain tumors and histological scans
-of lung and colon cancers. Additionally, the framework was tested under diverse
-adversarial attempts against secure data sharing with optimum performance and
-demonstrated its effectiveness in various threat scenarios. These comprehensive
-analyses underscore its robustness, making it a trustworthy solution for secure
-data sharing in critical applications.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.15032v1">Stealthy Voice Eavesdropping with Acoustic Metamaterials: Unraveling a
-  New Privacy Threat</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Sound-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
-  <p><b>Published on:</b> 2025-01-25T02:30:03Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zhiyuan Ning, Zhanyong Tang, Juan He, Weizhi Meng, Yuntian Chen</p>
-    <p><b>Summary:</b> We present SuperEar, a novel privacy threat based on acoustic metamaterials.
-Unlike previous research, SuperEar can surreptitiously track and eavesdrop on
-the phone calls of a moving outdoor target from a safe distance. To design this
-attack, SuperEar overcomes the challenges faced by traditional acoustic
-metamaterials, including low low-frequency gain and audio distortion during
-reconstruction. It successfully magnifies the speech signal by approximately 20
-times, allowing the sound to be captured from the earpiece of the target phone.
-In addition, SuperEar optimizes the trade-off between the number and size of
-acoustic metamaterials, improving the portability and concealability of the
-interceptor while ensuring effective interception performance. This makes it
-highly suitable for outdoor tracking and eavesdropping scenarios. Through
-extensive experimentation, we have evaluated SuperEar and our results show that
-it can achieve an eavesdropping accuracy of over 80% within a range of 4.5
-meters in the aforementioned scenario, thus validating its great potential in
-real-world applications.</p>
-  </details>
-</div>
-
-
 
 <h2>2025-02</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2502.19154v1">Towards Privacy-Preserving Anomaly-Based Intrusion Detection in Energy
+  Communities</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-02-26T14:13:02Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zeeshan Afzal, Giovanni Gaggero, Mikael Asplund</p>
+    <p><b>Summary:</b> Energy communities consist of decentralized energy production, storage,
+consumption, and distribution and are gaining traction in modern power systems.
+However, these communities may increase the vulnerability of the grid to cyber
+threats. We propose an anomaly-based intrusion detection system to enhance the
+security of energy communities. The system leverages deep autoencoders to
+detect deviations from normal operational patterns in order to identify
+anomalies induced by malicious activities and attacks. Operational data for
+training and evaluation are derived from a Simulink model of an energy
+community. The results show that the autoencoder-based intrusion detection
+system achieves good detection performance across multiple attack scenarios. We
+also demonstrate potential for real-world application of the system by training
+a federated model that enables distributed intrusion detection while preserving
+data privacy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2502.19119v1">Chemical knowledge-informed framework for privacy-aware retrosynthesis
+  learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-02-26T13:13:24Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Guikun Chen, Xu Zhang, Yi Yang, Wenguan Wang</p>
+    <p><b>Summary:</b> Chemical reaction data is a pivotal asset, driving advances in competitive
+fields such as pharmaceuticals, materials science, and industrial chemistry.
+Its proprietary nature renders it sensitive, as it often includes confidential
+insights and competitive advantages organizations strive to protect. However,
+in contrast to this need for confidentiality, the current standard training
+paradigm for machine learning-based retrosynthesis gathers reaction data from
+multiple sources into one single edge to train prediction models. This paradigm
+poses considerable privacy risks as it necessitates broad data availability
+across organizational boundaries and frequent data transmission between
+entities, potentially exposing proprietary information to unauthorized access
+or interception during storage and transfer. In the present study, we introduce
+the chemical knowledge-informed framework (CKIF), a privacy-preserving approach
+for learning retrosynthesis models. CKIF enables distributed training across
+multiple chemical organizations without compromising the confidentiality of
+proprietary reaction data. Instead of gathering raw reaction data, CKIF learns
+retrosynthesis models through iterative, chemical knowledge-informed
+aggregation of model parameters. In particular, the chemical properties of
+predicted reactants are leveraged to quantitatively assess the observable
+behaviors of individual models, which in turn determines the adaptive weights
+used for model aggregation. On a variety of reaction datasets, CKIF outperforms
+several strong baselines by a clear margin (e.g., ~20% performance improvement
+over FedAvg on USPTO-50K), showing its feasibility and superiority to stimulate
+further research on privacy-preserving retrosynthesis.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2502.19082v1">Trust-Enabled Privacy: Social Media Designs to Support Adolescent User
+  Boundary Regulation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2025-02-26T12:19:53Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> JaeWon Kim, Robert Wolfe, Ramya Bhagirathi Subramanian, Mei-Hsuan Lee, Jessica Colnago, Alexis Hiniker</p>
+    <p><b>Summary:</b> Through a three-part co-design study involving 19 teens aged 13-18, we
+identify key barriers to effective boundary regulation on social media,
+including ambiguous audience expectations, social risks associated with
+oversharing, and the lack of design affordances that facilitate trust-building.
+Our findings reveal that while adolescents seek casual, frequent sharing to
+strengthen relationships, existing platform norms and designs often discourage
+such interactions, leading to withdrawal. To address these challenges, we
+introduce trust-enabled privacy as a design framework that recognizes trust,
+whether building or eroding, as central to boundary regulation. When trust is
+supported, boundary regulation becomes more adaptive and empowering; when it
+erodes, users default to self-censorship or withdrawal. We propose concrete
+design affordances, including guided disclosure, contextual audience
+segmentation, intentional engagement signaling, and trust-centered norms, to
+help platforms foster a more dynamic and nuanced privacy experience for teen
+social media users. By reframing privacy as a trust-driven process rather than
+a rigid control-based trade-off, this work provides empirical insights and
+actionable guidelines for designing social media environments that empower
+teens to manage their online presence while fostering meaningful social
+connections.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2502.18974v1">Distributed Transition System with Tags and Value-wise Metric, for
+  Privacy Analysis</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Logic in Computer Science-662E9B">
+  <p><b>Published on:</b> 2025-02-26T09:35:48Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Siva Anantharaman, Sabine Frittella, Benjamin Nguyen</p>
+    <p><b>Summary:</b> We introduce a logical framework named Distributed Labeled Tagged Transition
+System (DLTTS), using concepts from Probabilistic Automata, Probabilistic
+Concurrent Systems, and Probabilistic labelled transition systems. We show that
+DLTTS can be used to formally model how a given piece of private information P
+(e.g., a set of tuples) stored in a given database D can get captured
+progressively by an adversary A repeatedly querying D, enhancing the knowledge
+acquired from the answers to these queries with relational deductions using
+certain additional non-private data. The database D is assumed protected with
+generalization mechanisms. We also show that, on a large class of databases,
+metrics can be defined 'value-wise', and more general notions of adjacency
+between data bases can be defined, based on these metrics. These notions can
+also play a role in differentially private protection mechanisms.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2502.18706v1">Differentially Private Federated Learning With Time-Adaptive Privacy
+  Spending</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
+  <p><b>Published on:</b> 2025-02-25T23:56:23Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shahrzad Kiani, Nupur Kulkarni, Adam Dziedzic, Stark Draper, Franziska Boenisch</p>
+    <p><b>Summary:</b> Federated learning (FL) with differential privacy (DP) provides a framework
+for collaborative machine learning, enabling clients to train a shared model
+while adhering to strict privacy constraints. The framework allows each client
+to have an individual privacy guarantee, e.g., by adding different amounts of
+noise to each client's model updates. One underlying assumption is that all
+clients spend their privacy budgets uniformly over time (learning rounds).
+However, it has been shown in the literature that learning in early rounds
+typically focuses on more coarse-grained features that can be learned at lower
+signal-to-noise ratios while later rounds learn fine-grained features that
+benefit from higher signal-to-noise ratios. Building on this intuition, we
+propose a time-adaptive DP-FL framework that expends the privacy budget
+non-uniformly across both time and clients. Our framework enables each client
+to save privacy budget in early rounds so as to be able to spend more in later
+rounds when additional accuracy is beneficial in learning more fine-grained
+features. We theoretically prove utility improvements in the case that clients
+with stricter privacy budgets spend budgets unevenly across rounds, compared to
+clients with more relaxed budgets, who have sufficient budgets to distribute
+their spend more evenly. Our practical experiments on standard benchmark
+datasets support our theoretical results and show that, in practice, our
+algorithms improve the privacy-utility trade-offs compared to baseline schemes.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2502.18697v1">H-FLTN: A Privacy-Preserving Hierarchical Framework for Electric Vehicle
+  Spatio-Temporal Charge Prediction</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
+  <p><b>Published on:</b> 2025-02-25T23:20:53Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Robert Marlin, Raja Jurdak, Alsharif Abuadbba</p>
+    <p><b>Summary:</b> The widespread adoption of Electric Vehicles (EVs) poses critical challenges
+for energy providers, particularly in predicting charging time (temporal
+prediction), ensuring user privacy, and managing resources efficiently in
+mobility-driven networks. This paper introduces the Hierarchical Federated
+Learning Transformer Network (H-FLTN) framework to address these challenges.
+H-FLTN employs a three-tier hierarchical architecture comprising EVs, community
+Distributed Energy Resource Management Systems (DERMS), and the Energy Provider
+Data Centre (EPDC) to enable accurate spatio-temporal predictions of EV
+charging needs while preserving privacy. Temporal prediction is enhanced using
+Transformer-based learning, capturing complex dependencies in charging
+behavior. Privacy is ensured through Secure Aggregation, Additive Secret
+Sharing, and Peer-to-Peer (P2P) Sharing with Augmentation, which allow only
+secret shares of model weights to be exchanged while securing all
+transmissions. To improve training efficiency and resource management, H-FLTN
+integrates Dynamic Client Capping Mechanism (DCCM) and Client Rotation
+Management (CRM), ensuring that training remains both computationally and
+temporally efficient as the number of participating EVs increases. DCCM
+optimises client participation by limiting excessive computational loads, while
+CRM balances training contributions across epochs, preventing imbalanced
+participation. Our simulation results based on large-scale empirical vehicle
+mobility data reveal that DCCM and CRM reduce the training time complexity with
+increasing EVs from linear to constant. Its integration into real-world smart
+city infrastructure enhances energy demand forecasting, resource allocation,
+and grid stability, ensuring reliability and sustainability in future mobility
+ecosystems.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2502.18623v1">On the Privacy-Preserving Properties of Spiking Neural Networks with
+  Unique Surrogate Gradients and Quantization Levels</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Neural and Evolutionary Computing-5BC0EB">
+  <p><b>Published on:</b> 2025-02-25T20:14:14Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ayana Moshruba, Shay Snyder, Hamed Poursiami, Maryam Parsa</p>
+    <p><b>Summary:</b> As machine learning models increasingly process sensitive data, understanding
+their vulnerability to privacy attacks is vital. Membership inference attacks
+(MIAs) exploit model responses to infer whether specific data points were used
+during training, posing a significant privacy risk. Prior research suggests
+that spiking neural networks (SNNs), which rely on event-driven computation and
+discrete spike-based encoding, exhibit greater resilience to MIAs than
+artificial neural networks (ANNs). This resilience stems from their
+non-differentiable activations and inherent stochasticity, which obscure the
+correlation between model responses and individual training samples. To enhance
+privacy in SNNs, we explore two techniques: quantization and surrogate
+gradients. Quantization, which reduces precision to limit information leakage,
+has improved privacy in ANNs. Given SNNs' sparse and irregular activations,
+quantization may further disrupt the activation patterns exploited by MIAs. We
+assess the vulnerability of SNNs and ANNs under weight and activation
+quantization across multiple datasets, using the attack model's receiver
+operating characteristic (ROC) curve area under the curve (AUC) metric, where
+lower values indicate stronger privacy, and evaluate the privacy-accuracy
+trade-off. Our findings show that quantization enhances privacy in both
+architectures with minimal performance loss, though full-precision SNNs remain
+more resilient than quantized ANNs. Additionally, we examine the impact of
+surrogate gradients on privacy in SNNs. Among five evaluated gradients, spike
+rate escape provides the best privacy-accuracy trade-off, while arctangent
+increases vulnerability to MIAs. These results reinforce SNNs' inherent privacy
+advantages and demonstrate that quantization and surrogate gradient selection
+significantly influence privacy-accuracy trade-offs in SNNs.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2502.18545v1">PII-Bench: Evaluating Query-Aware Privacy Protection Systems</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB">
+  <p><b>Published on:</b> 2025-02-25T14:49:08Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Hao Shen, Zhouhong Gu, Haokai Hong, Weili Han</p>
+    <p><b>Summary:</b> The widespread adoption of Large Language Models (LLMs) has raised
+significant privacy concerns regarding the exposure of personally identifiable
+information (PII) in user prompts. To address this challenge, we propose a
+query-unrelated PII masking strategy and introduce PII-Bench, the first
+comprehensive evaluation framework for assessing privacy protection systems.
+PII-Bench comprises 2,842 test samples across 55 fine-grained PII categories,
+featuring diverse scenarios from single-subject descriptions to complex
+multi-party interactions. Each sample is carefully crafted with a user query,
+context description, and standard answer indicating query-relevant PII. Our
+empirical evaluation reveals that while current models perform adequately in
+basic PII detection, they show significant limitations in determining PII query
+relevance. Even state-of-the-art LLMs struggle with this task, particularly in
+handling complex multi-subject scenarios, indicating substantial room for
+improvement in achieving intelligent PII masking.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2502.18227v1">TLDP: An Algorithm of Local Differential Privacy for Tensors</a></h3>
@@ -728,6 +638,34 @@ datasets, FinP demonstrates ~20% improvement in fairness in privacy on HAR with
 minimal impact on model utility, and effectively mitigates SIA risks on
 CIFAR-10, showcasing its ability to provide fairness in privacy in FL systems
 without compromising performance.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2502.18527v1">GOD model: Privacy Preserved AI School for Personal Assistant</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-02-24T20:30:17Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b>  PIN AI Team, Bill Qingyun Sun, Laura Florescu, Boliang Zhang, Regan Peng, Smile Hu, Shouqiao Wang, Ben Wu, Xi Wang, Davide Crapis, Gavin Zhen Guo</p>
+    <p><b>Summary:</b> Personal AI assistants (e.g., Apple Intelligence, Meta AI) offer proactive
+recommendations that simplify everyday tasks, but their reliance on sensitive
+user data raises concerns about privacy and trust. To address these challenges,
+we introduce the Guardian of Data (GOD), a secure, privacy-preserving framework
+for training and evaluating AI assistants directly on-device. Unlike
+traditional benchmarks, the GOD model measures how well assistants can
+anticipate user needs-such as suggesting gifts-while protecting user data and
+autonomy. Functioning like an AI school, it addresses the cold start problem by
+simulating user queries and employing a curriculum-based approach to refine the
+performance of each assistant. Running within a Trusted Execution Environment
+(TEE), it safeguards user data while applying reinforcement and imitation
+learning to refine AI recommendations. A token-based incentive system
+encourages users to share data securely, creating a data flywheel that drives
+continuous improvement. By integrating privacy, personalization, and trust, the
+GOD model provides a scalable, responsible path for advancing personal AI
+assistants. For community collaboration, part of the framework is open-sourced
+at https://github.com/PIN-AI/God-Model.</p>
   </details>
 </div>
 
@@ -909,7 +847,7 @@ from K-12 and higher education institutions.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.16519v1">Guarding the Privacy of Label-Only Access to Neural Network Classifiers
+  <h3><a href="http://arxiv.org/abs/2502.16519v2">Guarding the Privacy of Label-Only Access to Neural Network Classifiers
   via iDP Verification</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Programming Languages-D91E36">
   <p><b>Published on:</b> 2025-02-23T09:50:26Z</p>
@@ -946,9 +884,65 @@ the accuracy by 12.7%.</p>
 
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2502.18517v1">RewardDS: Privacy-Preserving Fine-Tuning for Large Language Models via
+  Reward Driven Data Synthesis</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-02-23T02:52:23Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jianwei Wang, Junyao Yang, Haoran Li, Huiping Zhuang, Cen Chen, Ziqian Zeng</p>
+    <p><b>Summary:</b> The success of large language models (LLMs) has attracted many individuals to
+fine-tune them for domain-specific tasks by uploading their data. However, in
+sensitive areas like healthcare and finance, privacy concerns often arise. One
+promising solution is to sample synthetic data with Differential Privacy (DP)
+guarantees to replace private data. However, these synthetic data contain
+significant flawed data, which are considered as noise. Existing solutions
+typically rely on naive filtering by comparing ROUGE-L scores or embedding
+similarities, which are ineffective in addressing the noise. To address this
+issue, we propose RewardDS, a novel privacy-preserving framework that
+fine-tunes a reward proxy model and uses reward signals to guide the synthetic
+data generation. Our RewardDS introduces two key modules, Reward Guided
+Filtering and Self-Optimizing Refinement, to both filter and refine the
+synthetic data, effectively mitigating the noise. Extensive experiments across
+medical, financial, and code generation domains demonstrate the effectiveness
+of our method.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2502.18509v1">Protecting Users From Themselves: Safeguarding Contextual Privacy in
+  Interactions with Conversational Agents</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-02-22T09:05:39Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ivoline Ngong, Swanand Kadhe, Hao Wang, Keerthiram Murugesan, Justin D. Weisz, Amit Dhurandhar, Karthikeyan Natesan Ramamurthy</p>
+    <p><b>Summary:</b> Conversational agents are increasingly woven into individuals' personal
+lives, yet users often underestimate the privacy risks involved. The moment
+users share information with these agents (e.g., LLMs), their private
+information becomes vulnerable to exposure. In this paper, we characterize the
+notion of contextual privacy for user interactions with LLMs. It aims to
+minimize privacy risks by ensuring that users (sender) disclose only
+information that is both relevant and necessary for achieving their intended
+goals when interacting with LLMs (untrusted receivers). Through a formative
+design user study, we observe how even "privacy-conscious" users inadvertently
+reveal sensitive information through indirect disclosures. Based on insights
+from this study, we propose a locally-deployable framework that operates
+between users and LLMs, and identifies and reformulates out-of-context
+information in user prompts. Our evaluation using examples from ShareGPT shows
+that lightweight models can effectively implement this framework, achieving
+strong gains in contextual privacy while preserving the user's intended
+interaction goals through different approaches to classify information relevant
+to the intended goals.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2502.16091v1">Privacy-Aware Joint DNN Model Deployment and Partition Optimization for
   Delay-Efficient Collaborative Edge Inference</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
   <p><b>Published on:</b> 2025-02-22T05:27:24Z</p>
   <details>
     <summary>More Details</summary>
@@ -1729,7 +1723,7 @@ against various adaptive adversaries.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.10788v1">Analyzing Privacy Dynamics within Groups using Gamified Auctions</a></h3>
+  <h3><a href="http://arxiv.org/abs/2502.10788v2">Analyzing Privacy Dynamics within Groups using Gamified Auctions</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
   <p><b>Published on:</b> 2025-02-15T12:48:30Z</p>
   <details>
