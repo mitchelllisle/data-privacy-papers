@@ -285,37 +285,40 @@ implementations of private algorithms.</p>
 </div>
 
 
+
+<h2>2025-02</h2>
+
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.17634v1">Federated Learning With Individualized Privacy Through Client Sampling</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2025-01-29T13:11:21Z</p>
+  <h3><a href="http://arxiv.org/abs/2502.19912v1">Model-Free Privacy Preserving Power Flow Analysis in Distribution
+  Networks</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
+  <p><b>Published on:</b> 2025-02-27T09:31:53Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Lucas Lange, Ole Borchardt, Erhard Rahm</p>
-    <p><b>Summary:</b> With growing concerns about user data collection, individualized privacy has
-emerged as a promising solution to balance protection and utility by accounting
-for diverse user privacy preferences. Instead of enforcing a uniform level of
-anonymization for all users, this approach allows individuals to choose privacy
-settings that align with their comfort levels. Building on this idea, we
-propose an adapted method for enabling Individualized Differential Privacy
-(IDP) in Federated Learning (FL) by handling clients according to their
-personal privacy preferences. By extending the SAMPLE algorithm from
-centralized settings to FL, we calculate client-specific sampling rates based
-on their heterogeneous privacy budgets and integrate them into a modified
-IDP-FedAvg algorithm. We test this method under realistic privacy distributions
-and multiple datasets. The experimental results demonstrate that our approach
-achieves clear improvements over uniform DP baselines, reducing the trade-off
-between privacy and utility. Compared to the alternative SCALE method in
-related work, which assigns differing noise scales to clients, our method
-performs notably better. However, challenges remain for complex tasks with
-non-i.i.d. data, primarily stemming from the constraints of the decentralized
-setting.</p>
+    <p><b>Authors:</b> Dong Liu, Juan S. Giraldo, Peter Palensky, Pedro P. Vergara</p>
+    <p><b>Summary:</b> Model-free power flow calculation, driven by the rise of smart meter (SM)
+data and the lack of network topology, often relies on artificial intelligence
+neural networks (ANNs). However, training ANNs require vast amounts of SM data,
+posing privacy risks for households in distribution networks. To ensure
+customers' privacy during the SM data gathering and online sharing, we
+introduce a privacy preserving PF calculation framework, composed of two local
+strategies: a local randomisation strategy (LRS) and a local zero-knowledge
+proof (ZKP)-based data collection strategy. First, the LRS is used to achieve
+irreversible transformation and robust privacy protection for active and
+reactive power data, thereby ensuring that personal data remains confidential.
+Subsequently, the ZKP-based data collecting strategy is adopted to securely
+gather the training dataset for the ANN, enabling SMs to interact with the
+distribution system operator without revealing the actual voltage magnitude.
+Moreover, to mitigate the accuracy loss induced by the seasonal variations in
+load profiles, an incremental learning strategy is incorporated into the online
+application. The results across three datasets with varying measurement errors
+demonstrate that the proposed framework efficiently collects one month of SM
+data within one hour. Furthermore, it robustly maintains mean errors of 0.005
+p.u. and 0.014 p.u. under multiple measurement errors and seasonal variations
+in load profiles, respectively.</p>
   </details>
 </div>
 
-
-
-<h2>2025-02</h2>
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2502.19154v1">Towards Privacy-Preserving Anomaly-Based Intrusion Detection in Energy
@@ -1630,7 +1633,7 @@ https://github.com/uscnlp-lime/FairLocator.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.11009v1">Computing Inconsistency Measures Under Differential Privacy</a></h3>
+  <h3><a href="http://arxiv.org/abs/2502.11009v2">Computing Inconsistency Measures Under Differential Privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
   <p><b>Published on:</b> 2025-02-16T06:23:11Z</p>
   <details>
