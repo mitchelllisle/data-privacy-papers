@@ -2746,5 +2746,54 @@
     "categories" : [
       "cs.HC"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.19912v1",
+    "title" : "Model-Free Privacy Preserving Power Flow Analysis in Distribution\n  Networks",
+    "summary" : "Model-free power flow calculation, driven by the rise of smart meter (SM)\ndata and the lack of network topology, often relies on artificial intelligence\nneural networks (ANNs). However, training ANNs require vast amounts of SM data,\nposing privacy risks for households in distribution networks. To ensure\ncustomers' privacy during the SM data gathering and online sharing, we\nintroduce a privacy preserving PF calculation framework, composed of two local\nstrategies: a local randomisation strategy (LRS) and a local zero-knowledge\nproof (ZKP)-based data collection strategy. First, the LRS is used to achieve\nirreversible transformation and robust privacy protection for active and\nreactive power data, thereby ensuring that personal data remains confidential.\nSubsequently, the ZKP-based data collecting strategy is adopted to securely\ngather the training dataset for the ANN, enabling SMs to interact with the\ndistribution system operator without revealing the actual voltage magnitude.\nMoreover, to mitigate the accuracy loss induced by the seasonal variations in\nload profiles, an incremental learning strategy is incorporated into the online\napplication. The results across three datasets with varying measurement errors\ndemonstrate that the proposed framework efficiently collects one month of SM\ndata within one hour. Furthermore, it robustly maintains mean errors of 0.005\np.u. and 0.014 p.u. under multiple measurement errors and seasonal variations\nin load profiles, respectively.",
+    "updated" : "2025-02-27T09:31:53Z",
+    "published" : "2025-02-27T09:31:53Z",
+    "authors" : [
+      {
+        "name" : "Dong Liu"
+      },
+      {
+        "name" : "Juan S. Giraldo"
+      },
+      {
+        "name" : "Peter Palensky"
+      },
+      {
+        "name" : "Pedro P. Vergara"
+      }
+    ],
+    "categories" : [
+      "eess.SY",
+      "cs.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.11009v2",
+    "title" : "Computing Inconsistency Measures Under Differential Privacy",
+    "summary" : "Assessing data quality is crucial to knowing whether and how to use the data\nfor different purposes. Specifically, given a collection of integrity\nconstraints, various ways have been proposed to quantify the inconsistency of a\ndatabase. Inconsistency measures are particularly important when we wish to\nassess the quality of private data without revealing sensitive information. We\nstudy the estimation of inconsistency measures for a database protected under\nDifferential Privacy (DP). Such estimation is nontrivial since some measures\nintrinsically query sensitive information, and the computation of others\ninvolves functions on underlying sensitive data. Among five inconsistency\nmeasures that have been proposed in recent work, we identify that two are\nintractable in the DP setting. The major challenge for the other three is high\nsensitivity: adding or removing one tuple from the dataset may significantly\naffect the outcome. To mitigate that, we model the dataset using a conflict\ngraph and investigate private graph statistics to estimate these measures. The\nproposed machinery includes adapting graph-projection techniques with parameter\nselection optimizations on the conflict graph and a DP variant of approximate\nvertex cover size. We experimentally show that we can effectively compute DP\nestimates of the three measures on five real-world datasets with denial\nconstraints, where the density of the conflict graphs highly varies.",
+    "updated" : "2025-02-27T15:29:48Z",
+    "published" : "2025-02-16T06:23:11Z",
+    "authors" : [
+      {
+        "name" : "Shubhankar Mohapatra"
+      },
+      {
+        "name" : "Amir Gilad"
+      },
+      {
+        "name" : "Xi He"
+      },
+      {
+        "name" : "Benny Kimelfeld"
+      }
+    ],
+    "categories" : [
+      "cs.DB"
+    ]
   }
 ]
