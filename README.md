@@ -203,90 +203,100 @@ with stringent data protection regulations.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.01649v1">Privacy-Preserving Edge Speech Understanding with Tiny Foundation Models</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Sound-D91E36">
-  <p><b>Published on:</b> 2025-01-29T18:55:42Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Afsara Benazir, Felix Xiaozhu Lin</p>
-    <p><b>Summary:</b> Robust speech recognition systems rely on cloud service providers for
-inference. It needs to ensure that an untrustworthy provider cannot deduce the
-sensitive content in speech. Sanitization can be done on speech content keeping
-in mind that it has to avoid compromising transcription accuracy. Realizing the
-under utilized capabilities of tiny speech foundation models (FMs), for the
-first time, we propose a novel use: enhancing speech privacy on
-resource-constrained devices. We introduce XYZ, an edge/cloud privacy
-preserving speech inference engine that can filter sensitive entities without
-compromising transcript accuracy. We utilize a timestamp based on-device
-masking approach that utilizes a token to entity prediction model to filter
-sensitive entities. Our choice of mask strategically conceals parts of the
-input and hides sensitive data. The masked input is sent to a trusted cloud
-service or to a local hub to generate the masked output. The effectiveness of
-XYZ hinges on how well the entity time segments are masked. Our recovery is a
-confidence score based approach that chooses the best prediction between cloud
-and on-device model. We implement XYZ on a 64 bit Raspberry Pi 4B. Experiments
-show that our solution leads to robust speech recognition without forsaking
-privacy. XYZ with < 100 MB memory, achieves state-of-the-art (SOTA) speech
-transcription performance while filtering about 83% of private entities
-directly on-device. XYZ is 16x smaller in memory and 17x more compute efficient
-than prior privacy preserving speech frameworks and has a relative reduction in
-word error rate (WER) by 38.8-77.5% when compared to existing offline
-transcription services.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.17762v2">Improving Privacy Benefits of Redaction</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-01-29T16:53:16Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Vaibhav Gusain, Douglas Leith</p>
-    <p><b>Summary:</b> We propose a novel redaction methodology that can be used to sanitize natural
-text data. Our new technique provides better privacy benefits than other state
-of the art techniques while maintaining lower redaction levels.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2501.17750v1">Privacy Audit as Bits Transmission: (Im)possibilities for Audit by One
-  Run</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-01-29T16:38:51Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zihang Xiang, Tianhao Wang, Di Wang</p>
-    <p><b>Summary:</b> Auditing algorithms' privacy typically involves simulating a game-based
-protocol that guesses which of two adjacent datasets was the original input.
-Traditional approaches require thousands of such simulations, leading to
-significant computational overhead. Recent methods propose single-run auditing
-of the target algorithm to address this, substantially reducing computational
-cost. However, these methods' general applicability and tightness in producing
-empirical privacy guarantees remain uncertain.
-  This work studies such problems in detail. Our contributions are twofold:
-First, we introduce a unifying framework for privacy audits based on
-information-theoretic principles, modeling the audit as a bit transmission
-problem in a noisy channel. This formulation allows us to derive fundamental
-limits and develop an audit approach that yields tight privacy lower bounds for
-various DP protocols. Second, leveraging this framework, we demystify the
-method of privacy audit by one run, identifying the conditions under which
-single-run audits are feasible or infeasible. Our analysis provides general
-guidelines for conducting privacy audits and offers deeper insights into the
-privacy audit.
-  Finally, through experiments, we demonstrate that our approach produces
-tighter privacy lower bounds on common differentially private mechanisms while
-requiring significantly fewer observations. We also provide a case study
-illustrating that our method successfully detects privacy violations in flawed
-implementations of private algorithms.</p>
-  </details>
-</div>
-
-
 
 <h2>2025-02</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2502.20629v1">Towards Privacy-Preserving Split Learning: Destabilizing Adversarial
+  Inference and Reconstruction Attacks in the Cloud</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-02-28T01:24:33Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Griffin Higgins, Roozbeh Razavi-Far, Xichen Zhang, Amir David, Ali Ghorbani, Tongyu Ge</p>
+    <p><b>Summary:</b> This work aims to provide both privacy and utility within a split learning
+framework while considering both forward attribute inference and backward
+reconstruction attacks. To address this, a novel approach has been proposed,
+which makes use of class activation maps and autoencoders as a plug-in strategy
+aiming to increase the user's privacy and destabilize an adversary. The
+proposed approach is compared with a dimensionality-reduction-based plug-in
+strategy, which makes use of principal component analysis to transform the
+feature map onto a lower-dimensional feature space. Our work shows that our
+proposed autoencoder-based approach is preferred as it can provide protection
+at an earlier split position over the tested architectures in our setting, and,
+hence, better utility for resource-constrained devices in edge-cloud
+collaborative inference (EC) systems.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2502.20621v1">EPhishCADE: A Privacy-Aware Multi-Dimensional Framework for Email
+  Phishing Campaign Detection</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-02-28T00:58:42Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Wei Kang, Nan Wang, Jang Seung, Shuo Wang, Alsharif Abuadbba</p>
+    <p><b>Summary:</b> Phishing attacks, typically carried out by email, remain a significant
+cybersecurity threat with attackers creating legitimate-looking websites to
+deceive recipients into revealing sensitive information or executing harmful
+actions. In this paper, we propose {\bf EPhishCADE}, the first {\em
+privacy-aware}, {\em multi-dimensional} framework for {\bf E}mail {\bf
+Phish}ing {\bf CA}mpaign {\bf DE}tection to automatically identify email
+phishing campaigns by clustering seemingly unrelated attacks. Our framework
+employs a hierarchical architecture combining a structural layer and a
+contextual layer, offering a comprehensive analysis of phishing attacks by
+thoroughly examining both structural and contextual elements. Specifically, we
+implement a graph-based contextual layer to reveal hidden similarities across
+multiple dimensions, including textual, numeric, temporal, and spatial
+features, among attacks that may initially appear unrelated. Our framework
+streamlines the handling of security threat reports, reducing analysts' fatigue
+and workload while enhancing protection against these threats. Another key
+feature of our framework lies in its sole reliance on phishing URLs in emails
+without the need for private information, including senders, recipients,
+content, etc. This feature enables a collaborative identification of phishing
+campaigns and attacks among multiple organizations without compromising
+privacy. Finally, we benchmark our framework against an established
+structure-based study (WWW \textquotesingle 17) to demonstrate its
+effectiveness.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2502.20477v1">HELENE: An Open-Source High-Security Privacy-Preserving Blockchain Based
+  System for Automating and Managing Laboratory Health Tests</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2025-02-27T19:28:29Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Gabriel Fernández-Blanco, Pedro García-Cereijo, David Lema-Núñez, Diego Ramil-López, Paula Fraga-Lamas, Leire Egia-Mendikute, Asís Palazón, Tiago M. Fernández-Caramés</p>
+    <p><b>Summary:</b> In the last years, especially since the COVID-19 pandemic, precision medicine
+platforms emerged as useful tools for supporting new tests like the ones that
+detect the presence of antibodies and antigens with better sensitivity and
+specificity than traditional methods. In addition, the pandemic has also
+influenced the way people interact (decentralization), behave (digital world)
+and purchase health services (online). Moreover, there is a growing concern in
+the way health data are managed, especially in terms of privacy. To tackle such
+issues, this article presents a sustainable direct-to-consumer health-service
+open-source platform called HELENE that is supported by blockchain and by a
+novel decentralized oracle that protects patient data privacy. Specifically,
+HELENE enables health test providers to compete through auctions, allowing
+patients to bid for their services and to keep the control over their health
+test results. Moreover, data exchanges among the involved stakeholders can be
+performed in a trustworthy, transparent and standardized way to ease software
+integration and to avoid incompatibilities. After providing a thorough
+description of the platform, the proposed health platform is assessed in terms
+of smart contract performance. In addition, the response time of the developed
+oracle is evaluated and NIST SP 800-22 tests are executed to demonstrate the
+adequacy of the devised random number generator. Thus, this article shows the
+capabilities and novel propositions of HELENE for delivering health services
+providing an open-source platform for future researchers, who can enhance it
+and adapt it to their needs.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2502.19912v1">Model-Free Privacy Preserving Power Flow Analysis in Distribution
@@ -591,13 +601,13 @@ high-dimensional data.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.17772v1">An Improved Privacy and Utility Analysis of Differentially Private SGD
+  <h3><a href="http://arxiv.org/abs/2502.17772v2">An Improved Privacy and Utility Analysis of Differentially Private SGD
   with Bounded Domain and Smooth Losses</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
   <p><b>Published on:</b> 2025-02-25T02:05:41Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Hao Liang, Wanrong Zhang, Xinlei He, Kaishun He, Hong Xing</p>
+    <p><b>Authors:</b> Hao Liang, Wanrong Zhang, Xinlei He, Kaishun Wu, Hong Xing</p>
     <p><b>Summary:</b> Differentially Private Stochastic Gradient Descent (DPSGD) is widely used to
 protect sensitive data during the training of machine learning models, but its
 privacy guarantees often come at the cost of model performance, largely due to
@@ -646,12 +656,12 @@ without compromising performance.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.18527v1">GOD model: Privacy Preserved AI School for Personal Assistant</a></h3>
+  <h3><a href="http://arxiv.org/abs/2502.18527v2">GOD model: Privacy Preserved AI School for Personal Assistant</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2025-02-24T20:30:17Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b>  PIN AI Team, Bill Qingyun Sun, Laura Florescu, Boliang Zhang, Regan Peng, Smile Hu, Shouqiao Wang, Ben Wu, Xi Wang, Davide Crapis, Gavin Zhen Guo</p>
+    <p><b>Authors:</b>  PIN AI Team, Bill Sun, Gavin Guo, Regan Peng, Boliang Zhang, Shouqiao Wang, Laura Florescu, Xi Wang, Davide Crapis, Ben Wu</p>
     <p><b>Summary:</b> Personal AI assistants (e.g., Apple Intelligence, Meta AI) offer proactive
 recommendations that simplify everyday tasks, but their reliance on sensitive
 user data raises concerns about privacy and trust. To address these challenges,
@@ -665,10 +675,13 @@ performance of each assistant. Running within a Trusted Execution Environment
 (TEE), it safeguards user data while applying reinforcement and imitation
 learning to refine AI recommendations. A token-based incentive system
 encourages users to share data securely, creating a data flywheel that drives
-continuous improvement. By integrating privacy, personalization, and trust, the
-GOD model provides a scalable, responsible path for advancing personal AI
-assistants. For community collaboration, part of the framework is open-sourced
-at https://github.com/PIN-AI/God-Model.</p>
+continuous improvement. Specifically, users mine with their data, and the
+mining rate is determined by GOD's evaluation of how well their AI assistant
+understands them across categories such as shopping, social interactions,
+productivity, trading, and Web3. By integrating privacy, personalization, and
+trust, the GOD model provides a scalable, responsible path for advancing
+personal AI assistants. For community collaboration, part of the framework is
+open-sourced at https://github.com/PIN-AI/God-Model.</p>
   </details>
 </div>
 
