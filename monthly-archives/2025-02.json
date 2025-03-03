@@ -2795,5 +2795,172 @@
     "categories" : [
       "cs.DB"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.20629v1",
+    "title" : "Towards Privacy-Preserving Split Learning: Destabilizing Adversarial\n  Inference and Reconstruction Attacks in the Cloud",
+    "summary" : "This work aims to provide both privacy and utility within a split learning\nframework while considering both forward attribute inference and backward\nreconstruction attacks. To address this, a novel approach has been proposed,\nwhich makes use of class activation maps and autoencoders as a plug-in strategy\naiming to increase the user's privacy and destabilize an adversary. The\nproposed approach is compared with a dimensionality-reduction-based plug-in\nstrategy, which makes use of principal component analysis to transform the\nfeature map onto a lower-dimensional feature space. Our work shows that our\nproposed autoencoder-based approach is preferred as it can provide protection\nat an earlier split position over the tested architectures in our setting, and,\nhence, better utility for resource-constrained devices in edge-cloud\ncollaborative inference (EC) systems.",
+    "updated" : "2025-02-28T01:24:33Z",
+    "published" : "2025-02-28T01:24:33Z",
+    "authors" : [
+      {
+        "name" : "Griffin Higgins"
+      },
+      {
+        "name" : "Roozbeh Razavi-Far"
+      },
+      {
+        "name" : "Xichen Zhang"
+      },
+      {
+        "name" : "Amir David"
+      },
+      {
+        "name" : "Ali Ghorbani"
+      },
+      {
+        "name" : "Tongyu Ge"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.20621v1",
+    "title" : "EPhishCADE: A Privacy-Aware Multi-Dimensional Framework for Email\n  Phishing Campaign Detection",
+    "summary" : "Phishing attacks, typically carried out by email, remain a significant\ncybersecurity threat with attackers creating legitimate-looking websites to\ndeceive recipients into revealing sensitive information or executing harmful\nactions. In this paper, we propose {\\bf EPhishCADE}, the first {\\em\nprivacy-aware}, {\\em multi-dimensional} framework for {\\bf E}mail {\\bf\nPhish}ing {\\bf CA}mpaign {\\bf DE}tection to automatically identify email\nphishing campaigns by clustering seemingly unrelated attacks. Our framework\nemploys a hierarchical architecture combining a structural layer and a\ncontextual layer, offering a comprehensive analysis of phishing attacks by\nthoroughly examining both structural and contextual elements. Specifically, we\nimplement a graph-based contextual layer to reveal hidden similarities across\nmultiple dimensions, including textual, numeric, temporal, and spatial\nfeatures, among attacks that may initially appear unrelated. Our framework\nstreamlines the handling of security threat reports, reducing analysts' fatigue\nand workload while enhancing protection against these threats. Another key\nfeature of our framework lies in its sole reliance on phishing URLs in emails\nwithout the need for private information, including senders, recipients,\ncontent, etc. This feature enables a collaborative identification of phishing\ncampaigns and attacks among multiple organizations without compromising\nprivacy. Finally, we benchmark our framework against an established\nstructure-based study (WWW \\textquotesingle 17) to demonstrate its\neffectiveness.",
+    "updated" : "2025-02-28T00:58:42Z",
+    "published" : "2025-02-28T00:58:42Z",
+    "authors" : [
+      {
+        "name" : "Wei Kang"
+      },
+      {
+        "name" : "Nan Wang"
+      },
+      {
+        "name" : "Jang Seung"
+      },
+      {
+        "name" : "Shuo Wang"
+      },
+      {
+        "name" : "Alsharif Abuadbba"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.20477v1",
+    "title" : "HELENE: An Open-Source High-Security Privacy-Preserving Blockchain Based\n  System for Automating and Managing Laboratory Health Tests",
+    "summary" : "In the last years, especially since the COVID-19 pandemic, precision medicine\nplatforms emerged as useful tools for supporting new tests like the ones that\ndetect the presence of antibodies and antigens with better sensitivity and\nspecificity than traditional methods. In addition, the pandemic has also\ninfluenced the way people interact (decentralization), behave (digital world)\nand purchase health services (online). Moreover, there is a growing concern in\nthe way health data are managed, especially in terms of privacy. To tackle such\nissues, this article presents a sustainable direct-to-consumer health-service\nopen-source platform called HELENE that is supported by blockchain and by a\nnovel decentralized oracle that protects patient data privacy. Specifically,\nHELENE enables health test providers to compete through auctions, allowing\npatients to bid for their services and to keep the control over their health\ntest results. Moreover, data exchanges among the involved stakeholders can be\nperformed in a trustworthy, transparent and standardized way to ease software\nintegration and to avoid incompatibilities. After providing a thorough\ndescription of the platform, the proposed health platform is assessed in terms\nof smart contract performance. In addition, the response time of the developed\noracle is evaluated and NIST SP 800-22 tests are executed to demonstrate the\nadequacy of the devised random number generator. Thus, this article shows the\ncapabilities and novel propositions of HELENE for delivering health services\nproviding an open-source platform for future researchers, who can enhance it\nand adapt it to their needs.",
+    "updated" : "2025-02-27T19:28:29Z",
+    "published" : "2025-02-27T19:28:29Z",
+    "authors" : [
+      {
+        "name" : "Gabriel Fernández-Blanco"
+      },
+      {
+        "name" : "Pedro García-Cereijo"
+      },
+      {
+        "name" : "David Lema-Núñez"
+      },
+      {
+        "name" : "Diego Ramil-López"
+      },
+      {
+        "name" : "Paula Fraga-Lamas"
+      },
+      {
+        "name" : "Leire Egia-Mendikute"
+      },
+      {
+        "name" : "Asís Palazón"
+      },
+      {
+        "name" : "Tiago M. Fernández-Caramés"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.17772v2",
+    "title" : "An Improved Privacy and Utility Analysis of Differentially Private SGD\n  with Bounded Domain and Smooth Losses",
+    "summary" : "Differentially Private Stochastic Gradient Descent (DPSGD) is widely used to\nprotect sensitive data during the training of machine learning models, but its\nprivacy guarantees often come at the cost of model performance, largely due to\nthe inherent challenge of accurately quantifying privacy loss. While recent\nefforts have strengthened privacy guarantees by focusing solely on the final\noutput and bounded domain cases, they still impose restrictive assumptions,\nsuch as convexity and other parameter limitations, and often lack a thorough\nanalysis of utility. In this paper, we provide rigorous privacy and utility\ncharacterization for DPSGD for smooth loss functions in both bounded and\nunbounded domains. We track the privacy loss over multiple iterations by\nexploiting the noisy smooth-reduction property and establish the utility\nanalysis by leveraging the projection's non-expansiveness and clipped SGD\nproperties. In particular, we show that for DPSGD with a bounded domain, (i)\nthe privacy loss can still converge without the convexity assumption, and (ii)\na smaller bounded diameter can improve both privacy and utility simultaneously\nunder certain conditions. Numerical results validate our results.",
+    "updated" : "2025-02-28T05:45:00Z",
+    "published" : "2025-02-25T02:05:41Z",
+    "authors" : [
+      {
+        "name" : "Hao Liang"
+      },
+      {
+        "name" : "Wanrong Zhang"
+      },
+      {
+        "name" : "Xinlei He"
+      },
+      {
+        "name" : "Kaishun Wu"
+      },
+      {
+        "name" : "Hong Xing"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.18527v2",
+    "title" : "GOD model: Privacy Preserved AI School for Personal Assistant",
+    "summary" : "Personal AI assistants (e.g., Apple Intelligence, Meta AI) offer proactive\nrecommendations that simplify everyday tasks, but their reliance on sensitive\nuser data raises concerns about privacy and trust. To address these challenges,\nwe introduce the Guardian of Data (GOD), a secure, privacy-preserving framework\nfor training and evaluating AI assistants directly on-device. Unlike\ntraditional benchmarks, the GOD model measures how well assistants can\nanticipate user needs-such as suggesting gifts-while protecting user data and\nautonomy. Functioning like an AI school, it addresses the cold start problem by\nsimulating user queries and employing a curriculum-based approach to refine the\nperformance of each assistant. Running within a Trusted Execution Environment\n(TEE), it safeguards user data while applying reinforcement and imitation\nlearning to refine AI recommendations. A token-based incentive system\nencourages users to share data securely, creating a data flywheel that drives\ncontinuous improvement. Specifically, users mine with their data, and the\nmining rate is determined by GOD's evaluation of how well their AI assistant\nunderstands them across categories such as shopping, social interactions,\nproductivity, trading, and Web3. By integrating privacy, personalization, and\ntrust, the GOD model provides a scalable, responsible path for advancing\npersonal AI assistants. For community collaboration, part of the framework is\nopen-sourced at https://github.com/PIN-AI/God-Model.",
+    "updated" : "2025-02-27T20:33:35Z",
+    "published" : "2025-02-24T20:30:17Z",
+    "authors" : [
+      {
+        "name" : " PIN AI Team"
+      },
+      {
+        "name" : "Bill Sun"
+      },
+      {
+        "name" : "Gavin Guo"
+      },
+      {
+        "name" : "Regan Peng"
+      },
+      {
+        "name" : "Boliang Zhang"
+      },
+      {
+        "name" : "Shouqiao Wang"
+      },
+      {
+        "name" : "Laura Florescu"
+      },
+      {
+        "name" : "Xi Wang"
+      },
+      {
+        "name" : "Davide Crapis"
+      },
+      {
+        "name" : "Ben Wu"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG"
+    ]
   }
 ]
