@@ -2962,5 +2962,135 @@
       "cs.AI",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.19082v2",
+    "title" : "Trust-Enabled Privacy: Social Media Designs to Support Adolescent User\n  Boundary Regulation",
+    "summary" : "Through a three-part co-design study involving 19 teens aged 13-18, we\nidentify key barriers to effective boundary regulation on social media,\nincluding ambiguous audience expectations, social risks associated with\noversharing, and the lack of design affordances that facilitate trust-building.\nOur findings reveal that while adolescents seek casual, frequent sharing to\nstrengthen relationships, existing platform norms and designs often discourage\nsuch interactions, leading to withdrawal. To address these challenges, we\nintroduce trust-enabled privacy as a design framework that recognizes trust,\nwhether building or eroding, as central to boundary regulation. When trust is\nsupported, boundary regulation becomes more adaptive and empowering; when it\nerodes, users default to self-censorship or withdrawal. We propose concrete\ndesign affordances, including guided disclosure, contextual audience\nsegmentation, intentional engagement signaling, and trust-centered norms, to\nhelp platforms foster a more dynamic and nuanced privacy experience for teen\nsocial media users. By reframing privacy as a trust-driven process rather than\na rigid control-based trade-off, this work provides empirical insights and\nactionable guidelines for designing social media environments that empower\nteens to manage their online presence while fostering meaningful social\nconnections.",
+    "updated" : "2025-03-01T07:24:15Z",
+    "published" : "2025-02-26T12:19:53Z",
+    "authors" : [
+      {
+        "name" : "JaeWon Kim"
+      },
+      {
+        "name" : "Robert Wolfe"
+      },
+      {
+        "name" : "Ramya Bhagirathi Subramanian"
+      },
+      {
+        "name" : "Mei-Hsuan Lee"
+      },
+      {
+        "name" : "Jessica Colnago"
+      },
+      {
+        "name" : "Alexis Hiniker"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.18509v1",
+    "title" : "Protecting Users From Themselves: Safeguarding Contextual Privacy in\n  Interactions with Conversational Agents",
+    "summary" : "Conversational agents are increasingly woven into individuals' personal\nlives, yet users often underestimate the privacy risks involved. The moment\nusers share information with these agents (e.g., LLMs), their private\ninformation becomes vulnerable to exposure. In this paper, we characterize the\nnotion of contextual privacy for user interactions with LLMs. It aims to\nminimize privacy risks by ensuring that users (sender) disclose only\ninformation that is both relevant and necessary for achieving their intended\ngoals when interacting with LLMs (untrusted receivers). Through a formative\ndesign user study, we observe how even \"privacy-conscious\" users inadvertently\nreveal sensitive information through indirect disclosures. Based on insights\nfrom this study, we propose a locally-deployable framework that operates\nbetween users and LLMs, and identifies and reformulates out-of-context\ninformation in user prompts. Our evaluation using examples from ShareGPT shows\nthat lightweight models can effectively implement this framework, achieving\nstrong gains in contextual privacy while preserving the user's intended\ninteraction goals through different approaches to classify information relevant\nto the intended goals.",
+    "updated" : "2025-02-22T09:05:39Z",
+    "published" : "2025-02-22T09:05:39Z",
+    "authors" : [
+      {
+        "name" : "Ivoline Ngong"
+      },
+      {
+        "name" : "Swanand Kadhe"
+      },
+      {
+        "name" : "Hao Wang"
+      },
+      {
+        "name" : "Keerthiram Murugesan"
+      },
+      {
+        "name" : "Justin D. Weisz"
+      },
+      {
+        "name" : "Amit Dhurandhar"
+      },
+      {
+        "name" : "Karthikeyan Natesan Ramamurthy"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.16091v2",
+    "title" : "Privacy-Aware Joint DNN Model Deployment and Partition Optimization for\n  Delay-Efficient Collaborative Edge Inference",
+    "summary" : "Edge inference (EI) is a key solution to address the growing challenges of\ndelayed response times, limited scalability, and privacy concerns in\ncloud-based Deep Neural Network (DNN) inference. However, deploying DNN models\non resource-constrained edge devices faces more severe challenges, such as\nmodel storage limitations, dynamic service requests, and privacy risks. This\npaper proposes a novel framework for privacy-aware joint DNN model deployment\nand partition optimization to minimize long-term average inference delay under\nresource and privacy constraints. Specifically, the problem is formulated as a\ncomplex optimization problem considering model deployment, user-server\nassociation, and model partition strategies. To handle the NP-hardness and\nfuture uncertainties, a Lyapunov-based approach is introduced to transform the\nlong-term optimization into a single-time-slot problem, ensuring system\nperformance. Additionally, a coalition formation game model is proposed for\nedge server association, and a greedy-based algorithm is developed for model\ndeployment within each coalition to efficiently solve the problem. Extensive\nsimulations show that the proposed algorithms effectively reduce inference\ndelay while satisfying privacy constraints, outperforming baseline approaches\nin various scenarios.",
+    "updated" : "2025-03-01T04:35:04Z",
+    "published" : "2025-02-22T05:27:24Z",
+    "authors" : [
+      {
+        "name" : "Zhipeng Cheng"
+      },
+      {
+        "name" : "Xiaoyu Xia"
+      },
+      {
+        "name" : "Hong Wang"
+      },
+      {
+        "name" : "Minghui Liwang"
+      },
+      {
+        "name" : "Ning Chen"
+      },
+      {
+        "name" : "Xuwei Fan"
+      },
+      {
+        "name" : "Xianbin Wang"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR",
+      "cs.NI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.14309v2",
+    "title" : "On Theoretical Limits of Learning with Label Differential Privacy",
+    "summary" : "Label differential privacy (DP) is designed for learning problems involving\nprivate labels and public features. While various methods have been proposed\nfor learning under label DP, the theoretical limits remain largely unexplored.\nIn this paper, we investigate the fundamental limits of learning with label DP\nin both local and central models for both classification and regression tasks,\ncharacterized by minimax convergence rates. We establish lower bounds by\nconverting each task into a multiple hypothesis testing problem and bounding\nthe test error. Additionally, we develop algorithms that yield matching upper\nbounds. Our results demonstrate that under label local DP (LDP), the risk has a\nsignificantly faster convergence rate than that under full LDP, i.e. protecting\nboth features and labels, indicating the advantages of relaxing the DP\ndefinition to focus solely on labels. In contrast, under the label central DP\n(CDP), the risk is only reduced by a constant factor compared to full DP,\nindicating that the relaxation of CDP only has limited benefits on the\nperformance.",
+    "updated" : "2025-03-02T12:04:35Z",
+    "published" : "2025-02-20T06:51:42Z",
+    "authors" : [
+      {
+        "name" : "Puning Zhao"
+      },
+      {
+        "name" : "Chuan Ma"
+      },
+      {
+        "name" : "Li Shen"
+      },
+      {
+        "name" : "Shaowei Wang"
+      },
+      {
+        "name" : "Rongfei Fan"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.IT",
+      "math.IT"
+    ]
   }
 ]
