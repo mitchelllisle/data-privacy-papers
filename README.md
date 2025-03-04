@@ -391,7 +391,7 @@ further research on privacy-preserving retrosynthesis.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.19082v1">Trust-Enabled Privacy: Social Media Designs to Support Adolescent User
+  <h3><a href="http://arxiv.org/abs/2502.19082v2">Trust-Enabled Privacy: Social Media Designs to Support Adolescent User
   Boundary Regulation</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
   <p><b>Published on:</b> 2025-02-26T12:19:53Z</p>
@@ -929,7 +929,7 @@ of our method.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2502.18509v1">Protecting Users From Themselves: Safeguarding Contextual Privacy in
   Interactions with Conversational Agents</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
   <p><b>Published on:</b> 2025-02-22T09:05:39Z</p>
   <details>
     <summary>More Details</summary>
@@ -956,7 +956,7 @@ to the intended goals.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.16091v1">Privacy-Aware Joint DNN Model Deployment and Partition Optimization for
+  <h3><a href="http://arxiv.org/abs/2502.16091v2">Privacy-Aware Joint DNN Model Deployment and Partition Optimization for
   Delay-Efficient Collaborative Edge Inference</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
   <p><b>Published on:</b> 2025-02-22T05:27:24Z</p>
@@ -1151,7 +1151,7 @@ security awareness and education among users.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.14309v1">On Theoretical Limits of Learning with Label Differential Privacy</a></h3>
+  <h3><a href="http://arxiv.org/abs/2502.14309v2">On Theoretical Limits of Learning with Label Differential Privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
   <p><b>Published on:</b> 2025-02-20T06:51:42Z</p>
   <details>
