@@ -3092,5 +3092,32 @@
       "cs.IT",
       "math.IT"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.00062v1",
+    "title" : "CRFU: Compressive Representation Forgetting Against Privacy Leakage on\n  Machine Unlearning",
+    "summary" : "Machine unlearning allows data owners to erase the impact of their specified\ndata from trained models. Unfortunately, recent studies have shown that\nadversaries can recover the erased data, posing serious threats to user\nprivacy. An effective unlearning method removes the information of the\nspecified data from the trained model, resulting in different outputs for the\nsame input before and after unlearning. Adversaries can exploit these output\ndifferences to conduct privacy leakage attacks, such as reconstruction and\nmembership inference attacks. However, directly applying traditional defenses\nto unlearning leads to significant model utility degradation. In this paper, we\nintroduce a Compressive Representation Forgetting Unlearning scheme (CRFU),\ndesigned to safeguard against privacy leakage on unlearning. CRFU achieves data\nerasure by minimizing the mutual information between the trained compressive\nrepresentation (learned through information bottleneck theory) and the erased\ndata, thereby maximizing the distortion of data. This ensures that the model's\noutput contains less information that adversaries can exploit. Furthermore, we\nintroduce a remembering constraint and an unlearning rate to balance the\nforgetting of erased data with the preservation of previously learned\nknowledge, thereby reducing accuracy degradation. Theoretical analysis\ndemonstrates that CRFU can effectively defend against privacy leakage attacks.\nOur experimental results show that CRFU significantly increases the\nreconstruction mean square error (MSE), achieving a defense effect improvement\nof approximately $200\\%$ against privacy reconstruction attacks with only\n$1.5\\%$ accuracy degradation on MNIST.",
+    "updated" : "2025-02-27T05:59:02Z",
+    "published" : "2025-02-27T05:59:02Z",
+    "authors" : [
+      {
+        "name" : "Weiqi Wang"
+      },
+      {
+        "name" : "Chenhan Zhang"
+      },
+      {
+        "name" : "Zhiyi Tian"
+      },
+      {
+        "name" : "Shushu Liu"
+      },
+      {
+        "name" : "Shui Yu"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
