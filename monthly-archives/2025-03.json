@@ -1,1 +1,399 @@
-[{"id":"http://arxiv.org/abs/2503.02862v1","title":"Privacy and Accuracy-Aware AI/ML Model Deduplication","summary":"With the growing adoption of privacy-preserving machine learning algorithms,\nsuch as Differentially Private Stochastic Gradient Descent (DP-SGD), training\nor fine-tuning models on private datasets has become increasingly prevalent.\nThis shift has led to the need for models offering varying privacy guarantees\nand utility levels to satisfy diverse user requirements. However, managing\nnumerous versions of large models introduces significant operational\nchallenges, including increased inference latency, higher resource consumption,\nand elevated costs. Model deduplication is a technique widely used by many\nmodel serving and database systems to support high-performance and low-cost\ninference queries and model diagnosis queries. However, none of the existing\nmodel deduplication works has considered privacy, leading to unbounded\naggregation of privacy costs for certain deduplicated models and inefficiencies\nwhen applied to deduplicate DP-trained models. We formalize the problems of\ndeduplicating DP-trained models for the first time and propose a novel privacy-\nand accuracy-aware deduplication mechanism to address the problems. We\ndeveloped a greedy strategy to select and assign base models to target models\nto minimize storage and privacy costs. When deduplicating a target model, we\ndynamically schedule accuracy validations and apply the Sparse Vector Technique\nto reduce the privacy costs associated with private validation data. Compared\nto baselines that do not provide privacy guarantees, our approach improved the\ncompression ratio by up to $35\\times$ for individual models (including large\nlanguage models and vision transformers). We also observed up to $43\\times$\ninference speedup due to the reduction of I/O operations.","updated":"2025-03-04T18:40:38Z","published":"2025-03-04T18:40:38Z","authors":[{"name":"Hong Guan"},{"name":"Lei Yu"},{"name":"Lixi Zhou"},{"name":"Li Xiong"},{"name":"Kanchan Chowdhury"},{"name":"Lulu Xie"},{"name":"Xusheng Xiao"},{"name":"Jia Zou"}],"categories":["cs.CR","cs.DB"]},{"id":"http://arxiv.org/abs/2503.02693v1","title":"Federated Learning for Privacy-Preserving Feedforward Control in\n  Multi-Agent Systems","summary":"Feedforward control (FF) is often combined with feedback control (FB) in many\ncontrol systems, improving tracking performance, efficiency, and stability.\nHowever, designing effective data-driven FF controllers in multi-agent systems\nrequires significant data collection, including transferring private or\nproprietary data, which raises privacy concerns and incurs high communication\ncosts. Therefore, we propose a novel approach integrating Federated Learning\n(FL) into FF control to address these challenges. This approach enables\nprivacy-preserving, communication-efficient, and decentralized continuous\nimprovement of FF controllers across multiple agents without sharing personal\nor proprietary data. By leveraging FL, each agent learns a local, neural FF\ncontroller using its data and contributes only model updates to a global\naggregation process, ensuring data privacy and scalability. We demonstrate the\neffectiveness of our method in an autonomous driving use case. Therein,\nvehicles equipped with a trajectory-tracking feedback controller are enhanced\nby FL-based neural FF control. Simulations highlight significant improvements\nin tracking performance compared to pure FB control, analogous to model-based\nFF control. We achieve comparable tracking performance without exchanging\nprivate vehicle-specific data compared to a centralized neural FF control. Our\nresults underscore the potential of FL-based neural FF control to enable\nprivacy-preserving learning in multi-agent control systems, paving the way for\nscalable and efficient autonomous systems applications.","updated":"2025-03-04T15:07:25Z","published":"2025-03-04T15:07:25Z","authors":[{"name":"Jakob Weber"},{"name":"Markus Gurtner"},{"name":"Benedikt Alt"},{"name":"Adrian Trachte"},{"name":"Andreas Kugi"}],"categories":["cs.LG","cs.MA"]},{"id":"http://arxiv.org/abs/2503.02549v1","title":"Federated nnU-Net for Privacy-Preserving Medical Image Segmentation","summary":"The nnU-Net framework has played a crucial role in medical image segmentation\nand has become the gold standard in multitudes of applications targeting\ndifferent diseases, organs, and modalities. However, so far it has been used\nprimarily in a centralized approach where the data collected from hospitals are\nstored in one center and used to train the nnU-Net. This centralized approach\nhas various limitations, such as leakage of sensitive patient information and\nviolation of patient privacy. Federated learning is one of the approaches to\ntrain a segmentation model in a decentralized manner that helps preserve\npatient privacy. In this paper, we propose FednnU-Net, a federated learning\nextension of nnU-Net. We introduce two novel federated learning methods to the\nnnU-Net framework - Federated Fingerprint Extraction (FFE) and Asymmetric\nFederated Averaging (AsymFedAvg) - and experimentally show their consistent\nperformance for breast, cardiac and fetal segmentation using 6 datasets\nrepresenting samples from 18 institutions. Additionally, to further promote\nresearch and deployment of decentralized training in privacy constrained\ninstitutions, we make our plug-n-play framework public. The source-code is\navailable at https://github.com/faildeny/FednnUNet .","updated":"2025-03-04T12:20:06Z","published":"2025-03-04T12:20:06Z","authors":[{"name":"Grzegorz Skorupko"},{"name":"Fotios Avgoustidis"},{"name":"Carlos Martín-Isla"},{"name":"Lidia Garrucho"},{"name":"Dimitri A. Kessler"},{"name":"Esmeralda Ruiz Pujadas"},{"name":"Oliver Díaz"},{"name":"Maciej Bobowicz"},{"name":"Katarzyna Gwoździewicz"},{"name":"Xavier Bargalló"},{"name":"Paulius Jaruševičius"},{"name":"Kaisar Kushibar"},{"name":"Karim Lekadir"}],"categories":["cs.CV","cs.AI"]},{"id":"http://arxiv.org/abs/2503.02455v1","title":"Privacy Preservation Techniques (PPTs) in IoT Systems: A Scoping Review\n  and Future Directions","summary":"Privacy preservation in Internet of Things (IoT) systems requires the use of\nprivacy-enhancing technologies (PETs) built from innovative technologies such\nas cryptography and artificial intelligence (AI) to create techniques called\nprivacy preservation techniques (PPTs). These PPTs achieve various privacy\ngoals and address different privacy concerns by mitigating potential privacy\nthreats within IoT systems. This study carried out a scoping review of\ndifferent types of PPTs used in previous research works on IoT systems between\n2010 and early 2023 to further explore the advantages of privacy preservation\nin these systems. This scoping review looks at privacy goals, possible\ntechnologies used for building PET, the integration of PPTs into the computing\nlayer of the IoT architecture, different IoT applications in which PPTs are\ndeployed, and the different privacy types addressed by these techniques within\nIoT systems. Key findings, such as the prominent privacy goal and privacy type\nin IoT, are discussed in this survey, along with identified research gaps that\ncould inform future endeavors in privacy research and benefit the privacy\nresearch community and other stakeholders in IoT systems.","updated":"2025-03-04T10:03:45Z","published":"2025-03-04T10:03:45Z","authors":[{"name":"Emmanuel Alalade"},{"name":"Ashraf Matrawy"}],"categories":["cs.CR"]},{"id":"http://arxiv.org/abs/2503.02132v1","title":"Video-DPRP: A Differentially Private Approach for Visual\n  Privacy-Preserving Video Human Activity Recognition","summary":"Considerable effort has been made in privacy-preserving video human activity\nrecognition (HAR). Two primary approaches to ensure privacy preservation in\nVideo HAR are differential privacy (DP) and visual privacy. Techniques\nenforcing DP during training provide strong theoretical privacy guarantees but\noffer limited capabilities for visual privacy assessment. Conversely methods,\nsuch as low-resolution transformations, data obfuscation and adversarial\nnetworks, emphasize visual privacy but lack clear theoretical privacy\nassurances. In this work, we focus on two main objectives: (1) leveraging DP\nproperties to develop a model-free approach for visual privacy in videos and\n(2) evaluating our proposed technique using both differential privacy and\nvisual privacy assessments on HAR tasks. To achieve goal (1), we introduce\nVideo-DPRP: a Video-sample-wise Differentially Private Random Projection\nframework for privacy-preserved video reconstruction for HAR. By using random\nprojections, noise matrices and right singular vectors derived from the\nsingular value decomposition of videos, Video-DPRP reconstructs DP videos using\nprivacy parameters ($\\epsilon,\\delta$) while enabling visual privacy\nassessment. For goal (2), using UCF101 and HMDB51 datasets, we compare\nVideo-DPRP's performance on activity recognition with traditional DP methods,\nand state-of-the-art (SOTA) visual privacy-preserving techniques. Additionally,\nwe assess its effectiveness in preserving privacy-related attributes such as\nfacial features, gender, and skin color, using the PA-HMDB and VISPR datasets.\nVideo-DPRP combines privacy-preservation from both a DP and visual privacy\nperspective unlike SOTA methods that typically address only one of these\naspects.","updated":"2025-03-03T23:43:12Z","published":"2025-03-03T23:43:12Z","authors":[{"name":"Allassan Tchangmena A Nken"},{"name":"Susan Mckeever"},{"name":"Peter Corcoran"},{"name":"Ihsan Ullah"}],"categories":["cs.CV"]},{"id":"http://arxiv.org/abs/2503.02114v1","title":"Fairness and/or Privacy on Social Graphs","summary":"Graph Neural Networks (GNNs) have shown remarkable success in various\ngraph-based learning tasks. However, recent studies have raised concerns about\nfairness and privacy issues in GNNs, highlighting the potential for biased or\ndiscriminatory outcomes and the vulnerability of sensitive information. This\npaper presents a comprehensive investigation of fairness and privacy in GNNs,\nexploring the impact of various fairness-preserving measures on model\nperformance. We conduct experiments across diverse datasets and evaluate the\neffectiveness of different fairness interventions. Our analysis considers the\ntrade-offs between fairness, privacy, and accuracy, providing insights into the\nchallenges and opportunities in achieving both fair and private graph learning.\nThe results highlight the importance of carefully selecting and combining\nfairness-preserving measures based on the specific characteristics of the data\nand the desired fairness objectives. This study contributes to a deeper\nunderstanding of the complex interplay between fairness, privacy, and accuracy\nin GNNs, paving the way for the development of more robust and ethical graph\nlearning models.","updated":"2025-03-03T22:56:32Z","published":"2025-03-03T22:56:32Z","authors":[{"name":"Bartlomiej Surma"},{"name":"Michael Backes"},{"name":"Yang Zhang"}],"categories":["cs.LG","cs.CY","cs.SI"]},{"id":"http://arxiv.org/abs/2503.02091v1","title":"Which Code Statements Implement Privacy Behaviors in Android\n  Applications?","summary":"A \"privacy behavior\" in software is an action where the software uses\npersonal information for a service or a feature, such as a website using\nlocation to provide content relevant to a user. Programmers are required by\nregulations or application stores to provide privacy notices and labels\ndescribing these privacy behaviors. Although many tools and research prototypes\nhave been developed to help programmers generate these notices by analyzing the\nsource code, these approaches are often fairly coarse-grained (i.e., at the\nlevel of whole methods or files, rather than at the statement level). But this\nis not necessarily how privacy behaviors exist in code. Privacy behaviors are\nembedded in specific statements in code. Current literature does not examine\nwhat statements programmers see as most important, how consistent these views\nare, or how to detect them. In this paper, we conduct an empirical study to\nexamine which statements programmers view as most-related to privacy behaviors.\nWe find that expression statements that make function calls are most associated\nwith privacy behaviors, while the type of privacy label has little effect on\nthe attributes of the selected statements. We then propose an approach to\nautomatically detect these privacy-relevant statements by fine-tuning three\nlarge language models with the data from the study. We observe that the\nagreement between our approach and participants is comparable to or higher than\nan agreement between two participants. Our study and detection approach can\nhelp programmers understand which statements in code affect privacy in mobile\napplications.","updated":"2025-03-03T22:20:01Z","published":"2025-03-03T22:20:01Z","authors":[{"name":"Chia-Yi Su"},{"name":"Aakash Bansal"},{"name":"Vijayanta Jain"},{"name":"Sepideh Ghanavati"},{"name":"Sai Teja Peddinti"},{"name":"Collin McMillan"}],"categories":["cs.SE"]},{"id":"http://arxiv.org/abs/2503.02019v1","title":"SLAP: Secure Location-proof and Anonymous Privacy-preserving Spectrum\n  Access","summary":"The rapid advancements in wireless technology have significantly increased\nthe demand for communication resources, leading to the development of Spectrum\nAccess Systems (SAS). However, network regulations require disclosing sensitive\nuser information, such as location coordinates and transmission details,\nraising critical privacy concerns. Moreover, as a database-driven architecture\nreliant on user-provided data, SAS necessitates robust location verification to\ncounter identity and location spoofing attacks and remains a primary target for\ndenial-of-service (DoS) attacks. Addressing these security challenges while\nadhering to regulatory requirements is essential. In this paper, we propose\nSLAP, a novel framework that ensures location privacy and anonymity during\nspectrum queries, usage notifications, and location-proof acquisition. Our\nsolution includes an adaptive dual-scenario location verification mechanism\nwith architectural flexibility and a fallback option, along with a counter-DoS\napproach using time-lock puzzles. We prove the security of SLAP and demonstrate\nits advantages over existing solutions through comprehensive performance\nevaluations.","updated":"2025-03-03T19:52:56Z","published":"2025-03-03T19:52:56Z","authors":[{"name":"Saleh Darzi"},{"name":"Attila A. Yavuz"}],"categories":["cs.CR"]},{"id":"http://arxiv.org/abs/2503.02017v1","title":"A Lightweight and Secure Deep Learning Model for Privacy-Preserving\n  Federated Learning in Intelligent Enterprises","summary":"The ever growing Internet of Things (IoT) connections drive a new type of\norganization, the Intelligent Enterprise. In intelligent enterprises, machine\nlearning based models are adopted to extract insights from data. Due to the\nefficiency and privacy challenges of these traditional models, a new federated\nlearning (FL) paradigm has emerged. In FL, multiple enterprises can jointly\ntrain a model to update a final model. However, firstly, FL trained models\nusually perform worse than centralized models, especially when enterprises\ntraining data is non-IID (Independent and Identically Distributed). Second, due\nto the centrality of FL and the untrustworthiness of local enterprises,\ntraditional FL solutions are vulnerable to poisoning and inference attacks and\nviolate privacy. Thirdly, the continuous transfer of parameters between\nenterprises and servers increases communication costs. To this end, the\nFedAnil+ model is proposed, a novel, lightweight, and secure Federated Deep\nLearning Model that includes three main phases. In the first phase, the goal is\nto solve the data type distribution skew challenge. Addressing privacy concerns\nagainst poisoning and inference attacks is covered in the second phase.\nFinally, to alleviate the communication overhead, a novel compression approach\nis proposed that significantly reduces the size of the updates. The experiment\nresults validate that FedAnil+ is secure against inference and poisoning\nattacks with better accuracy. In addition, it shows improvements over existing\napproaches in terms of model accuracy (13%, 16%, and 26%), communication cost\n(17%, 21%, and 25%), and computation cost (7%, 9%, and 11%).","updated":"2025-03-03T19:51:13Z","published":"2025-03-03T19:51:13Z","authors":[{"name":"Reza Fotohi"},{"name":"Fereidoon Shams Aliee"},{"name":"Bahar Farahani"}],"categories":["cs.CR","cs.LG"]},{"id":"http://arxiv.org/abs/2503.01482v1","title":"Revisiting Locally Differentially Private Protocols: Towards Better\n  Trade-offs in Privacy, Utility, and Attack Resistance","summary":"Local Differential Privacy (LDP) offers strong privacy protection, especially\nin settings in which the server collecting the data is untrusted. However,\ndesigning LDP mechanisms that achieve an optimal trade-off between privacy,\nutility, and robustness to adversarial inference attacks remains challenging.\nIn this work, we introduce a general multi-objective optimization framework for\nrefining LDP protocols, enabling the joint optimization of privacy and utility\nunder various adversarial settings. While our framework is flexible enough to\naccommodate multiple privacy and security attacks as well as utility metrics,\nin this paper we specifically optimize for Attacker Success Rate (ASR) under\ndistinguishability attack as a measure of privacy and Mean Squared Error (MSE)\nas a measure of utility. We systematically revisit these trade-offs by\nanalyzing eight state-of-the-art LDP protocols and proposing refined\ncounterparts that leverage tailored optimization techniques. Experimental\nresults demonstrate that our proposed adaptive mechanisms consistently\noutperform their non-adaptive counterparts, reducing ASR by up to five orders\nof magnitude while maintaining competitive utility. Analytical derivations also\nconfirm the effectiveness of our mechanisms, moving them closer to the ASR-MSE\nPareto frontier.","updated":"2025-03-03T12:41:01Z","published":"2025-03-03T12:41:01Z","authors":[{"name":"Héber H. Arcolezi"},{"name":"Sébastien Gambs"}],"categories":["cs.CR"]},{"id":"http://arxiv.org/abs/2503.01470v1","title":"Position: Ensuring mutual privacy is necessary for effective external\n  evaluation of proprietary AI systems","summary":"The external evaluation of AI systems is increasingly recognised as a crucial\napproach for understanding their potential risks. However, facilitating\nexternal evaluation in practice faces significant challenges in balancing\nevaluators' need for system access with AI developers' privacy and security\nconcerns. Additionally, evaluators have reason to protect their own privacy -\nfor example, in order to maintain the integrity of held-out test sets. We refer\nto the challenge of ensuring both developers' and evaluators' privacy as one of\nproviding mutual privacy. In this position paper, we argue that (i) addressing\nthis mutual privacy challenge is essential for effective external evaluation of\nAI systems, and (ii) current methods for facilitating external evaluation\ninadequately address this challenge, particularly when it comes to preserving\nevaluators' privacy. In making these arguments, we formalise the mutual privacy\nproblem; examine the privacy and access requirements of both model owners and\nevaluators; and explore potential solutions to this challenge, including\nthrough the application of cryptographic and hardware-based approaches.","updated":"2025-03-03T12:24:59Z","published":"2025-03-03T12:24:59Z","authors":[{"name":"Ben Bucknall"},{"name":"Robert F. Trager"},{"name":"Michael A. Osborne"}],"categories":["cs.CY","cs.AI","cs.CR"]},{"id":"http://arxiv.org/abs/2503.01208v1","title":"Watch Out Your Album! On the Inadvertent Privacy Memorization in\n  Multi-Modal Large Language Models","summary":"Multi-Modal Large Language Models (MLLMs) have exhibited remarkable\nperformance on various vision-language tasks such as Visual Question Answering\n(VQA). Despite accumulating evidence of privacy concerns associated with\ntask-relevant content, it remains unclear whether MLLMs inadvertently memorize\nprivate content that is entirely irrelevant to the training tasks. In this\npaper, we investigate how randomly generated task-irrelevant private content\ncan become spuriously correlated with downstream objectives due to partial\nmini-batch training dynamics, thus causing inadvertent memorization.\nConcretely, we randomly generate task-irrelevant watermarks into VQA\nfine-tuning images at varying probabilities and propose a novel probing\nframework to determine whether MLLMs have inadvertently encoded such content.\nOur experiments reveal that MLLMs exhibit notably different training behaviors\nin partial mini-batch settings with task-irrelevant watermarks embedded.\nFurthermore, through layer-wise probing, we demonstrate that MLLMs trigger\ndistinct representational patterns when encountering previously seen\ntask-irrelevant knowledge, even if this knowledge does not influence their\noutput during prompting. Our code is available at\nhttps://github.com/illusionhi/ProbingPrivacy.","updated":"2025-03-03T06:10:27Z","published":"2025-03-03T06:10:27Z","authors":[{"name":"Tianjie Ju"},{"name":"Yi Hua"},{"name":"Hao Fei"},{"name":"Zhenyu Shao"},{"name":"Yubin Zheng"},{"name":"Haodong Zhao"},{"name":"Mong-Li Lee"},{"name":"Wynne Hsu"},{"name":"Zhuosheng Zhang"},{"name":"Gongshen Liu"}],"categories":["cs.CV","cs.CL"]},{"id":"http://arxiv.org/abs/2503.01089v1","title":"Privacy-preserving Machine Learning in Internet of Vehicle Applications:\n  Fundamentals, Recent Advances, and Future Direction","summary":"Machine learning (ML) has revolutionized Internet of Vehicles (IoV)\napplications by enhancing intelligent transportation, autonomous driving\ncapabilities, and various connected services within a large, heterogeneous\nnetwork. However, the increased connectivity and massive data exchange for ML\napplications introduce significant privacy challenges. Privacy-preserving\nmachine learning (PPML) offers potential solutions to address these challenges\nby preserving privacy at various stages of the ML pipeline. Despite the rapid\ndevelopment of ML-based IoV applications and the growing data privacy concerns,\nthere are limited comprehensive studies on the adoption of PPML within this\ndomain. Therefore, this study provides a comprehensive review of the\nfundamentals, recent advancements, and the challenges of integrating PPML into\nIoV applications. To conduct an extensive study, we first review existing\nsurveys of various PPML techniques and their integration into IoV across\ndifferent scopes. We then discuss the fundamentals of IoV and propose a\nfour-layer IoV architecture. Additionally, we categorize IoV applications into\nthree key domains and analyze the privacy challenges in leveraging ML for these\napplication domains. Next, we provide an overview of various PPML techniques,\nhighlighting their applicability and performance to address the privacy\nchallenges. Building on these fundamentals, we thoroughly review recent\nadvancements in integrating various PPML techniques within IoV applications,\ndiscussing their frameworks, key features, and performance evaluation in terms\nof privacy, utility, and efficiency. Finally, we identify current challenges\nand propose future research directions to enhance privacy and reliability in\nIoV applications.","updated":"2025-03-03T01:24:04Z","published":"2025-03-03T01:24:04Z","authors":[{"name":"Nazmul Islam"},{"name":"Mohammad Zulkernine"}],"categories":["cs.CR"]},{"id":"http://arxiv.org/abs/2503.01000v1","title":"Privacy vs. Profit: The Impact of Google's Manifest Version 3 (MV3)\n  Update on Ad Blocker Effectiveness","summary":"Google's recent update to the manifest file for Chrome browser\nextensions-transitioning from manifest version 2 (MV2) to manifest version 3\n(MV3)-has raised concerns among users and ad blocker providers, who worry that\nthe new restrictions, notably the shift from the powerful WebRequest API to the\nmore restrictive DeclarativeNetRequest API, might reduce ad blocker\neffectiveness. Because ad blockers play a vital role for millions of users\nseeking a more private and ad-free browsing experience, this study empirically\ninvestigates how the MV3 update affects their ability to block ads and\ntrackers. Through a browser-based experiment conducted across multiple samples\nof ad-supported websites, we compare the MV3 to MV2 instances of four widely\nused ad blockers. Our results reveal no statistically significant reduction in\nad-blocking or anti-tracking effectiveness for MV3 ad blockers compared to\ntheir MV2 counterparts, and in some cases, MV3 instances even exhibit slight\nimprovements in blocking trackers. These findings are reassuring for users,\nindicating that the MV3 instances of popular ad blockers continue to provide\neffective protection against intrusive ads and privacy-infringing trackers.\nWhile some uncertainties remain, ad blocker providers appear to have\nsuccessfully navigated the MV3 update, finding solutions that maintain the core\nfunctionality of their ad blockers.","updated":"2025-03-02T19:41:34Z","published":"2025-03-02T19:41:34Z","authors":[{"name":"Karlo Lukic"},{"name":"Lazaros Papadopoulos"}],"categories":["cs.CY","econ.GN","q-fin.EC","K.4.0, K.6.5, H.5.2","K.4.0; K.6.5; H.5.2"]},{"id":"http://arxiv.org/abs/2503.00703v1","title":"Towards hyperparameter-free optimization with differential privacy","summary":"Differential privacy (DP) is a privacy-preserving paradigm that protects the\ntraining data when training deep learning models. Critically, the performance\nof models is determined by the training hyperparameters, especially those of\nthe learning rate schedule, thus requiring fine-grained hyperparameter tuning\non the data. In practice, it is common to tune the learning rate\nhyperparameters through the grid search that (1) is computationally expensive\nas multiple runs are needed, and (2) increases the risk of data leakage as the\nselection of hyperparameters is data-dependent. In this work, we adapt the\nautomatic learning rate schedule to DP optimization for any models and\noptimizers, so as to significantly mitigate or even eliminate the cost of\nhyperparameter tuning when applied together with automatic per-sample gradient\nclipping. Our hyperparameter-free DP optimization is almost as computationally\nefficient as the standard non-DP optimization, and achieves state-of-the-art DP\nperformance on various language and vision tasks.","updated":"2025-03-02T02:59:52Z","published":"2025-03-02T02:59:52Z","authors":[{"name":"Zhiqi Bu"},{"name":"Ruixuan Liu"}],"categories":["cs.LG","cs.CL","cs.CR","cs.CV"]}]
+[
+  {
+    "id" : "http://arxiv.org/abs/2503.02862v1",
+    "title" : "Privacy and Accuracy-Aware AI/ML Model Deduplication",
+    "summary" : "With the growing adoption of privacy-preserving machine learning algorithms,\nsuch as Differentially Private Stochastic Gradient Descent (DP-SGD), training\nor fine-tuning models on private datasets has become increasingly prevalent.\nThis shift has led to the need for models offering varying privacy guarantees\nand utility levels to satisfy diverse user requirements. However, managing\nnumerous versions of large models introduces significant operational\nchallenges, including increased inference latency, higher resource consumption,\nand elevated costs. Model deduplication is a technique widely used by many\nmodel serving and database systems to support high-performance and low-cost\ninference queries and model diagnosis queries. However, none of the existing\nmodel deduplication works has considered privacy, leading to unbounded\naggregation of privacy costs for certain deduplicated models and inefficiencies\nwhen applied to deduplicate DP-trained models. We formalize the problems of\ndeduplicating DP-trained models for the first time and propose a novel privacy-\nand accuracy-aware deduplication mechanism to address the problems. We\ndeveloped a greedy strategy to select and assign base models to target models\nto minimize storage and privacy costs. When deduplicating a target model, we\ndynamically schedule accuracy validations and apply the Sparse Vector Technique\nto reduce the privacy costs associated with private validation data. Compared\nto baselines that do not provide privacy guarantees, our approach improved the\ncompression ratio by up to $35\\times$ for individual models (including large\nlanguage models and vision transformers). We also observed up to $43\\times$\ninference speedup due to the reduction of I/O operations.",
+    "updated" : "2025-03-04T18:40:38Z",
+    "published" : "2025-03-04T18:40:38Z",
+    "authors" : [
+      {
+        "name" : "Hong Guan"
+      },
+      {
+        "name" : "Lei Yu"
+      },
+      {
+        "name" : "Lixi Zhou"
+      },
+      {
+        "name" : "Li Xiong"
+      },
+      {
+        "name" : "Kanchan Chowdhury"
+      },
+      {
+        "name" : "Lulu Xie"
+      },
+      {
+        "name" : "Xusheng Xiao"
+      },
+      {
+        "name" : "Jia Zou"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DB"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.02693v1",
+    "title" : "Federated Learning for Privacy-Preserving Feedforward Control in\n  Multi-Agent Systems",
+    "summary" : "Feedforward control (FF) is often combined with feedback control (FB) in many\ncontrol systems, improving tracking performance, efficiency, and stability.\nHowever, designing effective data-driven FF controllers in multi-agent systems\nrequires significant data collection, including transferring private or\nproprietary data, which raises privacy concerns and incurs high communication\ncosts. Therefore, we propose a novel approach integrating Federated Learning\n(FL) into FF control to address these challenges. This approach enables\nprivacy-preserving, communication-efficient, and decentralized continuous\nimprovement of FF controllers across multiple agents without sharing personal\nor proprietary data. By leveraging FL, each agent learns a local, neural FF\ncontroller using its data and contributes only model updates to a global\naggregation process, ensuring data privacy and scalability. We demonstrate the\neffectiveness of our method in an autonomous driving use case. Therein,\nvehicles equipped with a trajectory-tracking feedback controller are enhanced\nby FL-based neural FF control. Simulations highlight significant improvements\nin tracking performance compared to pure FB control, analogous to model-based\nFF control. We achieve comparable tracking performance without exchanging\nprivate vehicle-specific data compared to a centralized neural FF control. Our\nresults underscore the potential of FL-based neural FF control to enable\nprivacy-preserving learning in multi-agent control systems, paving the way for\nscalable and efficient autonomous systems applications.",
+    "updated" : "2025-03-04T15:07:25Z",
+    "published" : "2025-03-04T15:07:25Z",
+    "authors" : [
+      {
+        "name" : "Jakob Weber"
+      },
+      {
+        "name" : "Markus Gurtner"
+      },
+      {
+        "name" : "Benedikt Alt"
+      },
+      {
+        "name" : "Adrian Trachte"
+      },
+      {
+        "name" : "Andreas Kugi"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.MA"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.02549v1",
+    "title" : "Federated nnU-Net for Privacy-Preserving Medical Image Segmentation",
+    "summary" : "The nnU-Net framework has played a crucial role in medical image segmentation\nand has become the gold standard in multitudes of applications targeting\ndifferent diseases, organs, and modalities. However, so far it has been used\nprimarily in a centralized approach where the data collected from hospitals are\nstored in one center and used to train the nnU-Net. This centralized approach\nhas various limitations, such as leakage of sensitive patient information and\nviolation of patient privacy. Federated learning is one of the approaches to\ntrain a segmentation model in a decentralized manner that helps preserve\npatient privacy. In this paper, we propose FednnU-Net, a federated learning\nextension of nnU-Net. We introduce two novel federated learning methods to the\nnnU-Net framework - Federated Fingerprint Extraction (FFE) and Asymmetric\nFederated Averaging (AsymFedAvg) - and experimentally show their consistent\nperformance for breast, cardiac and fetal segmentation using 6 datasets\nrepresenting samples from 18 institutions. Additionally, to further promote\nresearch and deployment of decentralized training in privacy constrained\ninstitutions, we make our plug-n-play framework public. The source-code is\navailable at https://github.com/faildeny/FednnUNet .",
+    "updated" : "2025-03-04T12:20:06Z",
+    "published" : "2025-03-04T12:20:06Z",
+    "authors" : [
+      {
+        "name" : "Grzegorz Skorupko"
+      },
+      {
+        "name" : "Fotios Avgoustidis"
+      },
+      {
+        "name" : "Carlos Martín-Isla"
+      },
+      {
+        "name" : "Lidia Garrucho"
+      },
+      {
+        "name" : "Dimitri A. Kessler"
+      },
+      {
+        "name" : "Esmeralda Ruiz Pujadas"
+      },
+      {
+        "name" : "Oliver Díaz"
+      },
+      {
+        "name" : "Maciej Bobowicz"
+      },
+      {
+        "name" : "Katarzyna Gwoździewicz"
+      },
+      {
+        "name" : "Xavier Bargalló"
+      },
+      {
+        "name" : "Paulius Jaruševičius"
+      },
+      {
+        "name" : "Kaisar Kushibar"
+      },
+      {
+        "name" : "Karim Lekadir"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.02455v1",
+    "title" : "Privacy Preservation Techniques (PPTs) in IoT Systems: A Scoping Review\n  and Future Directions",
+    "summary" : "Privacy preservation in Internet of Things (IoT) systems requires the use of\nprivacy-enhancing technologies (PETs) built from innovative technologies such\nas cryptography and artificial intelligence (AI) to create techniques called\nprivacy preservation techniques (PPTs). These PPTs achieve various privacy\ngoals and address different privacy concerns by mitigating potential privacy\nthreats within IoT systems. This study carried out a scoping review of\ndifferent types of PPTs used in previous research works on IoT systems between\n2010 and early 2023 to further explore the advantages of privacy preservation\nin these systems. This scoping review looks at privacy goals, possible\ntechnologies used for building PET, the integration of PPTs into the computing\nlayer of the IoT architecture, different IoT applications in which PPTs are\ndeployed, and the different privacy types addressed by these techniques within\nIoT systems. Key findings, such as the prominent privacy goal and privacy type\nin IoT, are discussed in this survey, along with identified research gaps that\ncould inform future endeavors in privacy research and benefit the privacy\nresearch community and other stakeholders in IoT systems.",
+    "updated" : "2025-03-04T10:03:45Z",
+    "published" : "2025-03-04T10:03:45Z",
+    "authors" : [
+      {
+        "name" : "Emmanuel Alalade"
+      },
+      {
+        "name" : "Ashraf Matrawy"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.02132v1",
+    "title" : "Video-DPRP: A Differentially Private Approach for Visual\n  Privacy-Preserving Video Human Activity Recognition",
+    "summary" : "Considerable effort has been made in privacy-preserving video human activity\nrecognition (HAR). Two primary approaches to ensure privacy preservation in\nVideo HAR are differential privacy (DP) and visual privacy. Techniques\nenforcing DP during training provide strong theoretical privacy guarantees but\noffer limited capabilities for visual privacy assessment. Conversely methods,\nsuch as low-resolution transformations, data obfuscation and adversarial\nnetworks, emphasize visual privacy but lack clear theoretical privacy\nassurances. In this work, we focus on two main objectives: (1) leveraging DP\nproperties to develop a model-free approach for visual privacy in videos and\n(2) evaluating our proposed technique using both differential privacy and\nvisual privacy assessments on HAR tasks. To achieve goal (1), we introduce\nVideo-DPRP: a Video-sample-wise Differentially Private Random Projection\nframework for privacy-preserved video reconstruction for HAR. By using random\nprojections, noise matrices and right singular vectors derived from the\nsingular value decomposition of videos, Video-DPRP reconstructs DP videos using\nprivacy parameters ($\\epsilon,\\delta$) while enabling visual privacy\nassessment. For goal (2), using UCF101 and HMDB51 datasets, we compare\nVideo-DPRP's performance on activity recognition with traditional DP methods,\nand state-of-the-art (SOTA) visual privacy-preserving techniques. Additionally,\nwe assess its effectiveness in preserving privacy-related attributes such as\nfacial features, gender, and skin color, using the PA-HMDB and VISPR datasets.\nVideo-DPRP combines privacy-preservation from both a DP and visual privacy\nperspective unlike SOTA methods that typically address only one of these\naspects.",
+    "updated" : "2025-03-03T23:43:12Z",
+    "published" : "2025-03-03T23:43:12Z",
+    "authors" : [
+      {
+        "name" : "Allassan Tchangmena A Nken"
+      },
+      {
+        "name" : "Susan Mckeever"
+      },
+      {
+        "name" : "Peter Corcoran"
+      },
+      {
+        "name" : "Ihsan Ullah"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.02114v1",
+    "title" : "Fairness and/or Privacy on Social Graphs",
+    "summary" : "Graph Neural Networks (GNNs) have shown remarkable success in various\ngraph-based learning tasks. However, recent studies have raised concerns about\nfairness and privacy issues in GNNs, highlighting the potential for biased or\ndiscriminatory outcomes and the vulnerability of sensitive information. This\npaper presents a comprehensive investigation of fairness and privacy in GNNs,\nexploring the impact of various fairness-preserving measures on model\nperformance. We conduct experiments across diverse datasets and evaluate the\neffectiveness of different fairness interventions. Our analysis considers the\ntrade-offs between fairness, privacy, and accuracy, providing insights into the\nchallenges and opportunities in achieving both fair and private graph learning.\nThe results highlight the importance of carefully selecting and combining\nfairness-preserving measures based on the specific characteristics of the data\nand the desired fairness objectives. This study contributes to a deeper\nunderstanding of the complex interplay between fairness, privacy, and accuracy\nin GNNs, paving the way for the development of more robust and ethical graph\nlearning models.",
+    "updated" : "2025-03-03T22:56:32Z",
+    "published" : "2025-03-03T22:56:32Z",
+    "authors" : [
+      {
+        "name" : "Bartlomiej Surma"
+      },
+      {
+        "name" : "Michael Backes"
+      },
+      {
+        "name" : "Yang Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CY",
+      "cs.SI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.02091v1",
+    "title" : "Which Code Statements Implement Privacy Behaviors in Android\n  Applications?",
+    "summary" : "A \"privacy behavior\" in software is an action where the software uses\npersonal information for a service or a feature, such as a website using\nlocation to provide content relevant to a user. Programmers are required by\nregulations or application stores to provide privacy notices and labels\ndescribing these privacy behaviors. Although many tools and research prototypes\nhave been developed to help programmers generate these notices by analyzing the\nsource code, these approaches are often fairly coarse-grained (i.e., at the\nlevel of whole methods or files, rather than at the statement level). But this\nis not necessarily how privacy behaviors exist in code. Privacy behaviors are\nembedded in specific statements in code. Current literature does not examine\nwhat statements programmers see as most important, how consistent these views\nare, or how to detect them. In this paper, we conduct an empirical study to\nexamine which statements programmers view as most-related to privacy behaviors.\nWe find that expression statements that make function calls are most associated\nwith privacy behaviors, while the type of privacy label has little effect on\nthe attributes of the selected statements. We then propose an approach to\nautomatically detect these privacy-relevant statements by fine-tuning three\nlarge language models with the data from the study. We observe that the\nagreement between our approach and participants is comparable to or higher than\nan agreement between two participants. Our study and detection approach can\nhelp programmers understand which statements in code affect privacy in mobile\napplications.",
+    "updated" : "2025-03-03T22:20:01Z",
+    "published" : "2025-03-03T22:20:01Z",
+    "authors" : [
+      {
+        "name" : "Chia-Yi Su"
+      },
+      {
+        "name" : "Aakash Bansal"
+      },
+      {
+        "name" : "Vijayanta Jain"
+      },
+      {
+        "name" : "Sepideh Ghanavati"
+      },
+      {
+        "name" : "Sai Teja Peddinti"
+      },
+      {
+        "name" : "Collin McMillan"
+      }
+    ],
+    "categories" : [
+      "cs.SE"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.02019v1",
+    "title" : "SLAP: Secure Location-proof and Anonymous Privacy-preserving Spectrum\n  Access",
+    "summary" : "The rapid advancements in wireless technology have significantly increased\nthe demand for communication resources, leading to the development of Spectrum\nAccess Systems (SAS). However, network regulations require disclosing sensitive\nuser information, such as location coordinates and transmission details,\nraising critical privacy concerns. Moreover, as a database-driven architecture\nreliant on user-provided data, SAS necessitates robust location verification to\ncounter identity and location spoofing attacks and remains a primary target for\ndenial-of-service (DoS) attacks. Addressing these security challenges while\nadhering to regulatory requirements is essential. In this paper, we propose\nSLAP, a novel framework that ensures location privacy and anonymity during\nspectrum queries, usage notifications, and location-proof acquisition. Our\nsolution includes an adaptive dual-scenario location verification mechanism\nwith architectural flexibility and a fallback option, along with a counter-DoS\napproach using time-lock puzzles. We prove the security of SLAP and demonstrate\nits advantages over existing solutions through comprehensive performance\nevaluations.",
+    "updated" : "2025-03-03T19:52:56Z",
+    "published" : "2025-03-03T19:52:56Z",
+    "authors" : [
+      {
+        "name" : "Saleh Darzi"
+      },
+      {
+        "name" : "Attila A. Yavuz"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.02017v1",
+    "title" : "A Lightweight and Secure Deep Learning Model for Privacy-Preserving\n  Federated Learning in Intelligent Enterprises",
+    "summary" : "The ever growing Internet of Things (IoT) connections drive a new type of\norganization, the Intelligent Enterprise. In intelligent enterprises, machine\nlearning based models are adopted to extract insights from data. Due to the\nefficiency and privacy challenges of these traditional models, a new federated\nlearning (FL) paradigm has emerged. In FL, multiple enterprises can jointly\ntrain a model to update a final model. However, firstly, FL trained models\nusually perform worse than centralized models, especially when enterprises\ntraining data is non-IID (Independent and Identically Distributed). Second, due\nto the centrality of FL and the untrustworthiness of local enterprises,\ntraditional FL solutions are vulnerable to poisoning and inference attacks and\nviolate privacy. Thirdly, the continuous transfer of parameters between\nenterprises and servers increases communication costs. To this end, the\nFedAnil+ model is proposed, a novel, lightweight, and secure Federated Deep\nLearning Model that includes three main phases. In the first phase, the goal is\nto solve the data type distribution skew challenge. Addressing privacy concerns\nagainst poisoning and inference attacks is covered in the second phase.\nFinally, to alleviate the communication overhead, a novel compression approach\nis proposed that significantly reduces the size of the updates. The experiment\nresults validate that FedAnil+ is secure against inference and poisoning\nattacks with better accuracy. In addition, it shows improvements over existing\napproaches in terms of model accuracy (13%, 16%, and 26%), communication cost\n(17%, 21%, and 25%), and computation cost (7%, 9%, and 11%).",
+    "updated" : "2025-03-03T19:51:13Z",
+    "published" : "2025-03-03T19:51:13Z",
+    "authors" : [
+      {
+        "name" : "Reza Fotohi"
+      },
+      {
+        "name" : "Fereidoon Shams Aliee"
+      },
+      {
+        "name" : "Bahar Farahani"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.01482v1",
+    "title" : "Revisiting Locally Differentially Private Protocols: Towards Better\n  Trade-offs in Privacy, Utility, and Attack Resistance",
+    "summary" : "Local Differential Privacy (LDP) offers strong privacy protection, especially\nin settings in which the server collecting the data is untrusted. However,\ndesigning LDP mechanisms that achieve an optimal trade-off between privacy,\nutility, and robustness to adversarial inference attacks remains challenging.\nIn this work, we introduce a general multi-objective optimization framework for\nrefining LDP protocols, enabling the joint optimization of privacy and utility\nunder various adversarial settings. While our framework is flexible enough to\naccommodate multiple privacy and security attacks as well as utility metrics,\nin this paper we specifically optimize for Attacker Success Rate (ASR) under\ndistinguishability attack as a measure of privacy and Mean Squared Error (MSE)\nas a measure of utility. We systematically revisit these trade-offs by\nanalyzing eight state-of-the-art LDP protocols and proposing refined\ncounterparts that leverage tailored optimization techniques. Experimental\nresults demonstrate that our proposed adaptive mechanisms consistently\noutperform their non-adaptive counterparts, reducing ASR by up to five orders\nof magnitude while maintaining competitive utility. Analytical derivations also\nconfirm the effectiveness of our mechanisms, moving them closer to the ASR-MSE\nPareto frontier.",
+    "updated" : "2025-03-03T12:41:01Z",
+    "published" : "2025-03-03T12:41:01Z",
+    "authors" : [
+      {
+        "name" : "Héber H. Arcolezi"
+      },
+      {
+        "name" : "Sébastien Gambs"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.01470v1",
+    "title" : "Position: Ensuring mutual privacy is necessary for effective external\n  evaluation of proprietary AI systems",
+    "summary" : "The external evaluation of AI systems is increasingly recognised as a crucial\napproach for understanding their potential risks. However, facilitating\nexternal evaluation in practice faces significant challenges in balancing\nevaluators' need for system access with AI developers' privacy and security\nconcerns. Additionally, evaluators have reason to protect their own privacy -\nfor example, in order to maintain the integrity of held-out test sets. We refer\nto the challenge of ensuring both developers' and evaluators' privacy as one of\nproviding mutual privacy. In this position paper, we argue that (i) addressing\nthis mutual privacy challenge is essential for effective external evaluation of\nAI systems, and (ii) current methods for facilitating external evaluation\ninadequately address this challenge, particularly when it comes to preserving\nevaluators' privacy. In making these arguments, we formalise the mutual privacy\nproblem; examine the privacy and access requirements of both model owners and\nevaluators; and explore potential solutions to this challenge, including\nthrough the application of cryptographic and hardware-based approaches.",
+    "updated" : "2025-03-03T12:24:59Z",
+    "published" : "2025-03-03T12:24:59Z",
+    "authors" : [
+      {
+        "name" : "Ben Bucknall"
+      },
+      {
+        "name" : "Robert F. Trager"
+      },
+      {
+        "name" : "Michael A. Osborne"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.AI",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.01208v1",
+    "title" : "Watch Out Your Album! On the Inadvertent Privacy Memorization in\n  Multi-Modal Large Language Models",
+    "summary" : "Multi-Modal Large Language Models (MLLMs) have exhibited remarkable\nperformance on various vision-language tasks such as Visual Question Answering\n(VQA). Despite accumulating evidence of privacy concerns associated with\ntask-relevant content, it remains unclear whether MLLMs inadvertently memorize\nprivate content that is entirely irrelevant to the training tasks. In this\npaper, we investigate how randomly generated task-irrelevant private content\ncan become spuriously correlated with downstream objectives due to partial\nmini-batch training dynamics, thus causing inadvertent memorization.\nConcretely, we randomly generate task-irrelevant watermarks into VQA\nfine-tuning images at varying probabilities and propose a novel probing\nframework to determine whether MLLMs have inadvertently encoded such content.\nOur experiments reveal that MLLMs exhibit notably different training behaviors\nin partial mini-batch settings with task-irrelevant watermarks embedded.\nFurthermore, through layer-wise probing, we demonstrate that MLLMs trigger\ndistinct representational patterns when encountering previously seen\ntask-irrelevant knowledge, even if this knowledge does not influence their\noutput during prompting. Our code is available at\nhttps://github.com/illusionhi/ProbingPrivacy.",
+    "updated" : "2025-03-03T06:10:27Z",
+    "published" : "2025-03-03T06:10:27Z",
+    "authors" : [
+      {
+        "name" : "Tianjie Ju"
+      },
+      {
+        "name" : "Yi Hua"
+      },
+      {
+        "name" : "Hao Fei"
+      },
+      {
+        "name" : "Zhenyu Shao"
+      },
+      {
+        "name" : "Yubin Zheng"
+      },
+      {
+        "name" : "Haodong Zhao"
+      },
+      {
+        "name" : "Mong-Li Lee"
+      },
+      {
+        "name" : "Wynne Hsu"
+      },
+      {
+        "name" : "Zhuosheng Zhang"
+      },
+      {
+        "name" : "Gongshen Liu"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.01089v1",
+    "title" : "Privacy-preserving Machine Learning in Internet of Vehicle Applications:\n  Fundamentals, Recent Advances, and Future Direction",
+    "summary" : "Machine learning (ML) has revolutionized Internet of Vehicles (IoV)\napplications by enhancing intelligent transportation, autonomous driving\ncapabilities, and various connected services within a large, heterogeneous\nnetwork. However, the increased connectivity and massive data exchange for ML\napplications introduce significant privacy challenges. Privacy-preserving\nmachine learning (PPML) offers potential solutions to address these challenges\nby preserving privacy at various stages of the ML pipeline. Despite the rapid\ndevelopment of ML-based IoV applications and the growing data privacy concerns,\nthere are limited comprehensive studies on the adoption of PPML within this\ndomain. Therefore, this study provides a comprehensive review of the\nfundamentals, recent advancements, and the challenges of integrating PPML into\nIoV applications. To conduct an extensive study, we first review existing\nsurveys of various PPML techniques and their integration into IoV across\ndifferent scopes. We then discuss the fundamentals of IoV and propose a\nfour-layer IoV architecture. Additionally, we categorize IoV applications into\nthree key domains and analyze the privacy challenges in leveraging ML for these\napplication domains. Next, we provide an overview of various PPML techniques,\nhighlighting their applicability and performance to address the privacy\nchallenges. Building on these fundamentals, we thoroughly review recent\nadvancements in integrating various PPML techniques within IoV applications,\ndiscussing their frameworks, key features, and performance evaluation in terms\nof privacy, utility, and efficiency. Finally, we identify current challenges\nand propose future research directions to enhance privacy and reliability in\nIoV applications.",
+    "updated" : "2025-03-03T01:24:04Z",
+    "published" : "2025-03-03T01:24:04Z",
+    "authors" : [
+      {
+        "name" : "Nazmul Islam"
+      },
+      {
+        "name" : "Mohammad Zulkernine"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.01000v1",
+    "title" : "Privacy vs. Profit: The Impact of Google's Manifest Version 3 (MV3)\n  Update on Ad Blocker Effectiveness",
+    "summary" : "Google's recent update to the manifest file for Chrome browser\nextensions-transitioning from manifest version 2 (MV2) to manifest version 3\n(MV3)-has raised concerns among users and ad blocker providers, who worry that\nthe new restrictions, notably the shift from the powerful WebRequest API to the\nmore restrictive DeclarativeNetRequest API, might reduce ad blocker\neffectiveness. Because ad blockers play a vital role for millions of users\nseeking a more private and ad-free browsing experience, this study empirically\ninvestigates how the MV3 update affects their ability to block ads and\ntrackers. Through a browser-based experiment conducted across multiple samples\nof ad-supported websites, we compare the MV3 to MV2 instances of four widely\nused ad blockers. Our results reveal no statistically significant reduction in\nad-blocking or anti-tracking effectiveness for MV3 ad blockers compared to\ntheir MV2 counterparts, and in some cases, MV3 instances even exhibit slight\nimprovements in blocking trackers. These findings are reassuring for users,\nindicating that the MV3 instances of popular ad blockers continue to provide\neffective protection against intrusive ads and privacy-infringing trackers.\nWhile some uncertainties remain, ad blocker providers appear to have\nsuccessfully navigated the MV3 update, finding solutions that maintain the core\nfunctionality of their ad blockers.",
+    "updated" : "2025-03-02T19:41:34Z",
+    "published" : "2025-03-02T19:41:34Z",
+    "authors" : [
+      {
+        "name" : "Karlo Lukic"
+      },
+      {
+        "name" : "Lazaros Papadopoulos"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "econ.GN",
+      "q-fin.EC",
+      "K.4.0, K.6.5, H.5.2",
+      "K.4.0; K.6.5; H.5.2"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.00703v1",
+    "title" : "Towards hyperparameter-free optimization with differential privacy",
+    "summary" : "Differential privacy (DP) is a privacy-preserving paradigm that protects the\ntraining data when training deep learning models. Critically, the performance\nof models is determined by the training hyperparameters, especially those of\nthe learning rate schedule, thus requiring fine-grained hyperparameter tuning\non the data. In practice, it is common to tune the learning rate\nhyperparameters through the grid search that (1) is computationally expensive\nas multiple runs are needed, and (2) increases the risk of data leakage as the\nselection of hyperparameters is data-dependent. In this work, we adapt the\nautomatic learning rate schedule to DP optimization for any models and\noptimizers, so as to significantly mitigate or even eliminate the cost of\nhyperparameter tuning when applied together with automatic per-sample gradient\nclipping. Our hyperparameter-free DP optimization is almost as computationally\nefficient as the standard non-DP optimization, and achieves state-of-the-art DP\nperformance on various language and vision tasks.",
+    "updated" : "2025-03-02T02:59:52Z",
+    "published" : "2025-03-02T02:59:52Z",
+    "authors" : [
+      {
+        "name" : "Zhiqi Bu"
+      },
+      {
+        "name" : "Ruixuan Liu"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CL",
+      "cs.CR",
+      "cs.CV"
+    ]
+  }
+]
