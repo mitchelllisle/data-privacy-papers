@@ -2202,287 +2202,307 @@ diverse scenarios.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.05509v1">Do Spikes Protect Privacy? Investigating Black-Box Model Inversion
-  Attacks in Spiking Neural Networks</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Neural and Evolutionary Computing-5BC0EB">
-  <p><b>Published on:</b> 2025-02-08T10:02:27Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Hamed Poursiami, Ayana Moshruba, Maryam Parsa</p>
-    <p><b>Summary:</b> As machine learning models become integral to security-sensitive
-applications, concerns over data leakage from adversarial attacks continue to
-rise. Model Inversion (MI) attacks pose a significant privacy threat by
-enabling adversaries to reconstruct training data from model outputs. While MI
-attacks on Artificial Neural Networks (ANNs) have been widely studied, Spiking
-Neural Networks (SNNs) remain largely unexplored in this context. Due to their
-event-driven and discrete computations, SNNs introduce fundamental differences
-in information processing that may offer inherent resistance to such attacks. A
-critical yet underexplored aspect of this threat lies in black-box settings,
-where attackers operate through queries without direct access to model
-parameters or gradients-representing a more realistic adversarial scenario in
-deployed systems. This work presents the first study of black-box MI attacks on
-SNNs. We adapt a generative adversarial MI framework to the spiking domain by
-incorporating rate-based encoding for input transformation and decoding
-mechanisms for output interpretation. Our results show that SNNs exhibit
-significantly greater resistance to MI attacks than ANNs, as demonstrated by
-degraded reconstructions, increased instability in attack convergence, and
-overall reduced attack effectiveness across multiple evaluation metrics.
-Further analysis suggests that the discrete and temporally distributed nature
-of SNN decision boundaries disrupts surrogate modeling, limiting the attacker's
-ability to approximate the target model.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.04758v1">Differential Privacy of Quantum and Quantum-Inspired-Classical
-  Recommendation Algorithms</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-02-07T08:45:00Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Chenjian Li, Mingsheng Ying</p>
-    <p><b>Summary:</b> We analyze the DP (differential privacy) properties of the quantum
-recommendation algorithm and the quantum-inspired-classical recommendation
-algorithm. We discover that the quantum recommendation algorithm is a privacy
-curating mechanism on its own, requiring no external noise, which is different
-from traditional differential privacy mechanisms. In our analysis, a novel
-perturbation method tailored for SVD (singular value decomposition) and
-low-rank matrix approximation problems is introduced. Using the perturbation
-method and random matrix theory, we are able to derive that both the quantum
-and quantum-inspired-classical algorithms are
-$\big(\tilde{\mathcal{O}}\big(\frac 1n\big),\,\,
-\tilde{\mathcal{O}}\big(\frac{1}{\min\{m,n\}}\big)\big)$-DP under some
-reasonable restrictions, where $m$ and $n$ are numbers of users and products in
-the input preference database respectively. Nevertheless, a comparison shows
-that the quantum algorithm has better privacy preserving potential than the
-classical one.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.04045v1">Comparing privacy notions for protection against reconstruction attacks
-  in machine learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
-  <p><b>Published on:</b> 2025-02-06T13:04:25Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Sayan Biswas, Mark Dras, Pedro Faustini, Natasha Fernandes, Annabelle McIver, Catuscia Palamidessi, Parastoo Sadeghi</p>
-    <p><b>Summary:</b> Within the machine learning community, reconstruction attacks are a principal
-concern and have been identified even in federated learning (FL), which was
-designed with privacy preservation in mind. In response to these threats, the
-privacy community recommends the use of differential privacy (DP) in the
-stochastic gradient descent algorithm, termed DP-SGD. However, the
-proliferation of variants of DP in recent years\textemdash such as metric
-privacy\textemdash has made it challenging to conduct a fair comparison between
-different mechanisms due to the different meanings of the privacy parameters
-$\epsilon$ and $\delta$ across different variants. Thus, interpreting the
-practical implications of $\epsilon$ and $\delta$ in the FL context and amongst
-variants of DP remains ambiguous. In this paper, we lay a foundational
-framework for comparing mechanisms with differing notions of privacy
-guarantees, namely $(\epsilon,\delta)$-DP and metric privacy. We provide two
-foundational means of comparison: firstly, via the well-established
-$(\epsilon,\delta)$-DP guarantees, made possible through the R\'enyi
-differential privacy framework; and secondly, via Bayes' capacity, which we
-identify as an appropriate measure for reconstruction threats.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.03811v1">Privacy Risks in Health Big Data: A Systematic Literature Review</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-02-06T06:44:36Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zhang Si Yuan, Manmeet Mahinderjit Singh</p>
-    <p><b>Summary:</b> The digitization of health records has greatly improved the efficiency of the
-healthcare system and promoted the formulation of related research and
-policies. However, the widespread application of advanced technologies such as
-electronic health records, genomic data, and wearable devices in the field of
-health big data has also intensified the collection of personal sensitive data,
-bringing serious privacy and security issues. Based on a systematic literature
-review (SLR), this paper comprehensively outlines the key research in the field
-of health big data security. By analyzing existing research, this paper
-explores how cutting-edge technologies such as homomorphic encryption,
-blockchain, federated learning, and artificial immune systems can enhance data
-security while protecting personal privacy. This paper also points out the
-current challenges and proposes a future research framework in this key area.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.03668v1">Privacy-Preserving Generative Models: A Comprehensive Survey</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-02-05T23:24:43Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Debalina Padariya, Isabel Wagner, Aboozar Taherkhani, Eerke Boiten</p>
-    <p><b>Summary:</b> Despite the generative model's groundbreaking success, the need to study its
-implications for privacy and utility becomes more urgent. Although many studies
-have demonstrated the privacy threats brought by GANs, no existing survey has
-systematically categorized the privacy and utility perspectives of GANs and
-VAEs. In this article, we comprehensively study privacy-preserving generative
-models, articulating the novel taxonomies for both privacy and utility metrics
-by analyzing 100 research publications. Finally, we discuss the current
-challenges and future research directions that help new researchers gain
-insight into the underlying concepts.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.05219v1">Enabling External Scrutiny of AI Systems with Privacy-Enhancing
-  Technologies</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-02-05T15:31:11Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Kendrea Beers, Helen Toner</p>
-    <p><b>Summary:</b> This article describes how technical infrastructure developed by the
-nonprofit OpenMined enables external scrutiny of AI systems without
-compromising sensitive information.
-  Independent external scrutiny of AI systems provides crucial transparency
-into AI development, so it should be an integral component of any approach to
-AI governance. In practice, external researchers have struggled to gain access
-to AI systems because of AI companies' legitimate concerns about security,
-privacy, and intellectual property.
-  But now, privacy-enhancing technologies (PETs) have reached a new level of
-maturity: end-to-end technical infrastructure developed by OpenMined combines
-several PETs into various setups that enable privacy-preserving audits of AI
-systems. We showcase two case studies where this infrastructure has been
-deployed in real-world governance scenarios: "Understanding Social Media
-Recommendation Algorithms with the Christchurch Call" and "Evaluating Frontier
-Models with the UK AI Safety Institute." We describe types of scrutiny of AI
-systems that could be facilitated by current setups and OpenMined's proposed
-future setups.
-  We conclude that these innovative approaches deserve further exploration and
-support from the AI governance community. Interested policymakers can focus on
-empowering researchers on a legal level.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.04365v1">AI-Based Thermal Video Analysis in Privacy-Preserving Healthcare: A Case
-  Study on Detecting Time of Birth</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-02-05T07:01:49Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jorge García-Torres, Øyvind Meinich-Bache, Siren Rettedal, Kjersti Engan</p>
-    <p><b>Summary:</b> Approximately 10% of newborns need some assistance to start breathing and 5\%
-proper ventilation. It is crucial that interventions are initiated as soon as
-possible after birth. Accurate documentation of Time of Birth (ToB) is thereby
-essential for documenting and improving newborn resuscitation performance.
-However, current clinical practices rely on manual recording of ToB, typically
-with minute precision. In this study, we present an AI-driven, video-based
-system for automated ToB detection using thermal imaging, designed to preserve
-the privacy of healthcare providers and mothers by avoiding the use of
-identifiable visual data. Our approach achieves 91.4% precision and 97.4%
-recall in detecting ToB within thermal video clips during performance
-evaluation. Additionally, our system successfully identifies ToB in 96% of test
-cases with an absolute median deviation of 1 second compared to manual
-annotations. This method offers a reliable solution for improving ToB
-documentation and enhancing newborn resuscitation outcomes.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.02913v4">Real-Time Privacy Risk Measurement with Privacy Tokens for Gradient
-  Leakage</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-02-05T06:20:20Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jiayang Meng, Tao Huang, Hong Chen, Xin Shi, Qingyu Huang, Chen Hou</p>
-    <p><b>Summary:</b> The widespread deployment of deep learning models in privacy-sensitive
-domains has amplified concerns regarding privacy risks, particularly those
-stemming from gradient leakage during training. Current privacy assessments
-primarily rely on post-training attack simulations. However, these methods are
-inherently reactive, unable to encompass all potential attack scenarios, and
-often based on idealized adversarial assumptions. These limitations underscore
-the need for proactive approaches to privacy risk assessment during the
-training process. To address this gap, we propose the concept of privacy
-tokens, which are derived directly from private gradients during training.
-Privacy tokens encapsulate gradient features and, when combined with data
-features, offer valuable insights into the extent of private information
-leakage from training data, enabling real-time measurement of privacy risks
-without relying on adversarial attack simulations. Additionally, we employ
-Mutual Information (MI) as a robust metric to quantify the relationship between
-training data and gradients, providing precise and continuous assessments of
-privacy leakage throughout the training process. Extensive experiments validate
-our framework, demonstrating the effectiveness of privacy tokens and MI in
-identifying and quantifying privacy risks. This proactive approach marks a
-significant advancement in privacy monitoring, promoting the safer deployment
-of deep learning models in sensitive applications.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.02749v1">Unveiling Privacy and Security Gaps in Female Health Apps</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-02-04T22:34:03Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Muhammad Hassan, Mahnoor Jameel, Tian Wang, Masooda Bashir</p>
-    <p><b>Summary:</b> Female Health Applications (FHA), a growing segment of FemTech, aim to
-provide affordable and accessible healthcare solutions for women globally.
-These applications gather and monitor health and reproductive data from
-millions of users. With ongoing debates on women's reproductive rights and
-privacy, it's crucial to assess how these apps protect users' privacy. In this
-paper, we undertake a security and data protection assessment of 45 popular
-FHAs. Our investigation uncovers harmful permissions, extensive collection of
-sensitive personal and medical data, and the presence of numerous third-party
-tracking libraries. Furthermore, our examination of their privacy policies
-reveals deviations from fundamental data privacy principles. These findings
-highlight a significant lack of privacy and security measures for FemTech apps,
-especially as women's reproductive rights face growing political challenges.
-The results and recommendations provide valuable insights for users, app
-developers, and policymakers, paving the way for better privacy and security in
-Female Health Applications.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.02520v1">Privacy by Design for Self-Sovereign Identity Systems: An in-depth
-  Component Analysis completed by a Design Assistance Dashboard</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
-  <p><b>Published on:</b> 2025-02-04T17:42:29Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Montassar Naghmouchi, Maryline Laurent</p>
-    <p><b>Summary:</b> The use of Self-Sovereign Identity (SSI) systems for digital identity
-management is gaining traction and interest. Countries such as Bhutan have
-already implemented an SSI infrastructure to manage the identity of their
-citizens. The EU, thanks to the revised eIDAS regulation, is opening the door
-for SSI vendors to develop SSI systems for the planned EU digital identity
-wallet. These developments, which fall within the sovereign domain, raise
-questions about individual privacy.
-  The purpose of this article is to help SSI solution designers make informed
-choices to ensure that the designed solution is privacy-friendly. The
-observation is that the range of possible solutions is very broad, from DID and
-DID resolution methods to verifiable credential types, publicly available
-information (e.g. in a blockchain), type of infrastructure, etc. As a result,
-the article proposes (1) to group the elementary building blocks of a SSI
-system into 5 structuring layers, (2) to analyze for each layer the privacy
-implications of using the chosen building block, and (3) to provide a design
-assistance dashboard that gives the complete picture of the SSI, and shows the
-interdependencies between architectural choices and technical building blocks,
-allowing designers to make informed choices and graphically achieve a SSI
-solution that meets their need for privacy.</p>
-  </details>
-</div>
-
-
 
 <h2>2025-03</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.03652v1">Token-Level Privacy in Large Language Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-03-05T16:27:25Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Re'em Harel, Niv Gilboa, Yuval Pinter</p>
+    <p><b>Summary:</b> The use of language models as remote services requires transmitting private
+information to external providers, raising significant privacy concerns. This
+process not only risks exposing sensitive data to untrusted service providers
+but also leaves it vulnerable to interception by eavesdroppers. Existing
+privacy-preserving methods for natural language processing (NLP) interactions
+primarily rely on semantic similarity, overlooking the role of contextual
+information. In this work, we introduce dchi-stencil, a novel token-level
+privacy-preserving mechanism that integrates contextual and semantic
+information while ensuring strong privacy guarantees under the dchi
+differential privacy framework, achieving 2epsilon-dchi-privacy. By
+incorporating both semantic and contextual nuances, dchi-stencil achieves a
+robust balance between privacy and utility. We evaluate dchi-stencil using
+state-of-the-art language models and diverse datasets, achieving comparable and
+even better trade-off between utility and privacy compared to existing methods.
+This work highlights the potential of dchi-stencil to set a new standard for
+privacy-preserving NLP in modern, high-risk applications.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.03587v1">"You don't need a university degree to comprehend data protection this
+  way": LLM-Powered Interactive Privacy Policy Assessment</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2025-03-05T15:22:35Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Vincent Freiberger, Arthur Fleig, Erik Buchmann</p>
+    <p><b>Summary:</b> Protecting online privacy requires users to engage with and comprehend
+website privacy policies, but many policies are difficult and tedious to read.
+We present the first qualitative user study on Large Language Model
+(LLM)-driven privacy policy assessment. To this end, we build and evaluate an
+LLM-based privacy policy assessment browser extension, which helps users
+understand the essence of a lengthy, complex privacy policy while browsing. The
+tool integrates a dashboard and an LLM chat. In our qualitative user study
+(N=22), we evaluate usability, understandability of the information our tool
+provides, and its impacts on awareness. While providing a comprehensible quick
+overview and a chat for in-depth discussion improves privacy awareness, users
+note issues with building trust in the tool. From our insights, we derive
+important design implications to guide future policy analysis tools.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.03539v1">Data Sharing, Privacy and Security Considerations in the Energy Sector:
+  A Review from Technical Landscape to Regulatory Specifications</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-03-05T14:23:56Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shiliang Zhang, Sabita Maharjan, Lee Andrew Bygrave, Shui Yu</p>
+    <p><b>Summary:</b> Decarbonization, decentralization and digitalization are the three key
+elements driving the twin energy transition. The energy system is evolving to a
+more data driven ecosystem, leading to the need of communication and storage of
+large amount of data of different resolution from the prosumers and other
+stakeholders in the energy ecosystem. While the energy system is certainly
+advancing, this paradigm shift is bringing in new privacy and security issues
+related to collection, processing and storage of data - not only from the
+technical dimension, but also from the regulatory perspective. Understanding
+data privacy and security in the evolving energy system, regarding regulatory
+compliance, is an immature field of research. Contextualized knowledge of how
+related issues are regulated is still in its infancy, and the practical and
+technical basis for the regulatory framework for data privacy and security is
+not clear. To fill this gap, this paper conducts a comprehensive review of the
+data-related issues for the energy system by integrating both technical and
+regulatory dimensions. We start by reviewing open-access data, data
+communication and data-processing techniques for the energy system, and use it
+as the basis to connect the analysis of data-related issues from the integrated
+perspective. We classify the issues into three categories: (i) data-sharing
+among energy end users and stakeholders (ii) privacy of end users, and (iii)
+cyber security, and then explore these issues from a regulatory perspective. We
+analyze the evolution of related regulations, and introduce the relevant
+regulatory initiatives for the categorized issues in terms of regulatory
+definitions, concepts, principles, rights and obligations in the context of
+energy systems. Finally, we provide reflections on the gaps that still exist,
+and guidelines for regulatory frameworks for a truly participatory energy
+system.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.03506v1">Rethinking Synthetic Data definitions: A privacy driven approach</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-03-05T13:54:13Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Vibeke Binz Vallevik, Serena Elizabeth Marshall, Aleksandar Babic, Jan Franz Nygaard</p>
+    <p><b>Summary:</b> Synthetic data is gaining traction as a cost-effective solution for the
+increasing data demands of AI development and can be generated either from
+existing knowledge or derived data captured from real-world events. The source
+of the synthetic data generation and the technique used significantly impacts
+its residual privacy risk and therefore its opportunity for sharing.
+Traditional classification of synthetic data types no longer fit the newer
+generation techniques and there is a need to better align the classification
+with practical needs. We suggest a new way of grouping synthetic data types
+that better supports privacy evaluations to aid regulatory policymaking. Our
+novel classification provides flexibility to new advancements like deep
+generative methods and offers a more practical framework for future
+applications.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.03428v1">Privacy is All You Need: Revolutionizing Wearable Health Data with
+  Advanced PETs</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2025-03-05T12:01:22Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Karthik Barma, Seshu Babu Barma</p>
+    <p><b>Summary:</b> In a world where data is the new currency, wearable health devices offer
+unprecedented insights into daily life, continuously monitoring vital signs and
+metrics. However, this convenience raises privacy concerns, as these devices
+collect sensitive data that can be misused or breached. Traditional measures
+often fail due to real-time data processing needs and limited device power.
+Users also lack awareness and control over data sharing and usage. We propose a
+Privacy-Enhancing Technology (PET) framework for wearable devices, integrating
+federated learning, lightweight cryptographic methods, and selectively deployed
+blockchain technology. The blockchain acts as a secure ledger triggered only
+upon data transfer requests, granting users real-time notifications and
+control. By dismantling data monopolies, this approach returns data sovereignty
+to individuals. Through real-world applications like secure medical data
+sharing, privacy-preserving fitness tracking, and continuous health monitoring,
+our framework reduces privacy risks by up to 70 percent while preserving data
+utility and performance. This innovation sets a new benchmark for wearable
+privacy and can scale to broader IoT ecosystems, including smart homes and
+industry. As data continues to shape our digital landscape, our research
+underscores the critical need to maintain privacy and user control at the
+forefront of technological progress.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.03267v1">Quantum-Inspired Privacy-Preserving Federated Learning Framework for
+  Secure Dementia Classification</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
+  <p><b>Published on:</b> 2025-03-05T08:49:31Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Gazi Tanbhir, Md. Farhan Shahriyar</p>
+    <p><b>Summary:</b> Dementia, a neurological disorder impacting millions globally, presents
+significant challenges in diagnosis and patient care. With the rise of privacy
+concerns and security threats in healthcare, federated learning (FL) has
+emerged as a promising approach to enable collaborative model training across
+decentralized datasets without exposing sensitive patient information. However,
+FL remains vulnerable to advanced security breaches such as gradient inversion
+and eavesdropping attacks. This paper introduces a novel framework that
+integrates federated learning with quantum-inspired encryption techniques for
+dementia classification, emphasizing privacy preservation and security.
+Leveraging quantum key distribution (QKD), the framework ensures secure
+transmission of model weights, protecting against unauthorized access and
+interception during training. The methodology utilizes a convolutional neural
+network (CNN) for dementia classification, with federated training conducted
+across distributed healthcare nodes, incorporating QKD-encrypted weight sharing
+to secure the aggregation process. Experimental evaluations conducted on MRI
+data from the OASIS dataset demonstrate that the proposed framework achieves
+identical accuracy levels to a baseline model while enhancing data security and
+reducing loss by almost 1% compared to the classical baseline model. The
+framework offers significant implications for democratizing access to AI-driven
+dementia diagnostics in low- and middle-income countries, addressing critical
+resource and privacy constraints. This work contributes a robust, scalable, and
+secure federated learning solution for healthcare applications, paving the way
+for broader adoption of quantum-inspired techniques in AI-driven medical
+research.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.03146v1">PriFFT: Privacy-preserving Federated Fine-tuning of Large Language
+  Models via Function Secret Sharing</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-03-05T03:41:57Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zhichao You, Xuewen Dong, Ke Cheng, Xutong Mu, Jiaxuan Fu, Shiyang Ma, Qiang Qu, Yulong Shen</p>
+    <p><b>Summary:</b> Fine-tuning large language models (LLMs) raises privacy concerns due to the
+risk of exposing sensitive training data. Federated learning (FL) mitigates
+this risk by keeping training samples on local devices, but recent studies show
+that adversaries can still infer private information from model updates in FL.
+Additionally, LLM parameters are typically shared publicly during federated
+fine-tuning, while developers are often reluctant to disclose these parameters,
+posing further security challenges. Inspired by the above problems, we propose
+PriFFT, a privacy-preserving federated fine-tuning mechanism, to protect both
+the model updates and parameters. In PriFFT, clients and the server share model
+inputs and parameters by secret sharing, performing secure fine-tuning on
+shared values without accessing plaintext data. Due to considerable LLM
+parameters, privacy-preserving federated fine-tuning invokes complex secure
+calculations and requires substantial communication and computation resources.
+To optimize the efficiency of privacy-preserving federated fine-tuning of LLMs,
+we introduce function secret-sharing protocols for various operations,
+including reciprocal calculation, tensor products, natural exponentiation,
+softmax, hyperbolic tangent, and dropout. The proposed protocols achieve up to
+4.02X speed improvement and reduce 7.19X communication overhead compared to the
+implementation based on existing secret sharing methods. Besides, PriFFT
+achieves a 2.23X speed improvement and reduces 4.08X communication overhead in
+privacy-preserving fine-tuning without accuracy drop compared to the existing
+secret sharing methods.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.03087v1">"Watch My Health, Not My Data": Understanding Perceptions, Barriers,
+  Emotional Impact, & Coping Strategies Pertaining to IoT Privacy and Security
+  in Health Monitoring for Older Adults</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2025-03-05T01:04:13Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Suleiman Saka, Sanchari Das</p>
+    <p><b>Summary:</b> The proliferation of "Internet of Things (IoT)" provides older adults with
+critical support for "health monitoring" and independent living, yet
+significant concerns about security and privacy persist. In this paper, we
+report on these issues through a two-phase user study, including a survey (N =
+22) and semi-structured interviews (n = 9) with adults aged 65+. We found that
+while 81.82% of our participants are aware of security features like
+"two-factor authentication (2FA)" and encryption, 63.64% express serious
+concerns about unauthorized access to sensitive health data. Only 13.64% feel
+confident in existing protections, citing confusion over "data sharing
+policies" and frustration with "complex security settings" which lead to
+distrust and anxiety. To cope, our participants adopt various strategies, such
+as relying on family or professional support and limiting feature usage leading
+to disengagement. Thus, we recommend "adaptive security mechanisms," simplified
+interfaces, and real-time transparency notifications to foster trust and ensure
+"privacy and security by design" in IoT health systems for older adults.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.03043v1">Leveraging Randomness in Model and Data Partitioning for Privacy
+  Amplification</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-03-04T22:49:59Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Andy Dong, Wei-Ning Chen, Ayfer Ozgur</p>
+    <p><b>Summary:</b> We study how inherent randomness in the training process -- where each sample
+(or client in federated learning) contributes only to a randomly selected
+portion of training -- can be leveraged for privacy amplification. This
+includes (1) data partitioning, where a sample participates in only a subset of
+training iterations, and (2) model partitioning, where a sample updates only a
+subset of the model parameters. We apply our framework to model parallelism in
+federated learning, where each client updates a randomly selected subnetwork to
+reduce memory and computational overhead, and show that existing methods, e.g.
+model splitting or dropout, provide a significant privacy amplification gain
+not captured by previous privacy analysis techniques. Additionally, we
+introduce Balanced Iteration Subsampling, a new data partitioning method where
+each sample (or client) participates in a fixed number of training iterations.
+We show that this method yields stronger privacy amplification than Poisson
+(i.i.d.) sampling of data (or clients). Our results demonstrate that randomness
+in the training process, which is structured rather than i.i.d. and interacts
+with data in complex ways, can be systematically leveraged for significant
+privacy amplification.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.02968v1">Privacy-Preserving Fair Synthetic Tabular Data</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-03-04T19:51:00Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Fatima J. Sarmin, Atiquer R. Rahman, Christopher J. Henry, Noman Mohammed</p>
+    <p><b>Summary:</b> Sharing of tabular data containing valuable but private information is
+limited due to legal and ethical issues. Synthetic data could be an alternative
+solution to this sharing problem, as it is artificially generated by machine
+learning algorithms and tries to capture the underlying data distribution.
+However, machine learning models are not free from memorization and may
+introduce biases, as they rely on training data. Producing synthetic data that
+preserves privacy and fairness while maintaining utility close to the real data
+is a challenging task. This research simultaneously addresses both the privacy
+and fairness aspects of synthetic data, an area not explored by other studies.
+In this work, we present PF-WGAN, a privacy-preserving, fair synthetic tabular
+data generator based on the WGAN-GP model. We have modified the original
+WGAN-GP by adding privacy and fairness constraints forcing it to produce
+privacy-preserving fair data. This approach will enable the publication of
+datasets that protect individual's privacy and remain unbiased toward any
+particular group. We compared the results with three state-of-the-art synthetic
+data generator models in terms of utility, privacy, and fairness across four
+different datasets. We found that the proposed model exhibits a more balanced
+trade-off among utility, privacy, and fairness.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2503.02862v1">Privacy and Accuracy-Aware AI/ML Model Deduplication</a></h3>
