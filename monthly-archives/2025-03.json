@@ -395,5 +395,238 @@
       "cs.CR",
       "cs.CV"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.03652v1",
+    "title" : "Token-Level Privacy in Large Language Models",
+    "summary" : "The use of language models as remote services requires transmitting private\ninformation to external providers, raising significant privacy concerns. This\nprocess not only risks exposing sensitive data to untrusted service providers\nbut also leaves it vulnerable to interception by eavesdroppers. Existing\nprivacy-preserving methods for natural language processing (NLP) interactions\nprimarily rely on semantic similarity, overlooking the role of contextual\ninformation. In this work, we introduce dchi-stencil, a novel token-level\nprivacy-preserving mechanism that integrates contextual and semantic\ninformation while ensuring strong privacy guarantees under the dchi\ndifferential privacy framework, achieving 2epsilon-dchi-privacy. By\nincorporating both semantic and contextual nuances, dchi-stencil achieves a\nrobust balance between privacy and utility. We evaluate dchi-stencil using\nstate-of-the-art language models and diverse datasets, achieving comparable and\neven better trade-off between utility and privacy compared to existing methods.\nThis work highlights the potential of dchi-stencil to set a new standard for\nprivacy-preserving NLP in modern, high-risk applications.",
+    "updated" : "2025-03-05T16:27:25Z",
+    "published" : "2025-03-05T16:27:25Z",
+    "authors" : [
+      {
+        "name" : "Re'em Harel"
+      },
+      {
+        "name" : "Niv Gilboa"
+      },
+      {
+        "name" : "Yuval Pinter"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.03587v1",
+    "title" : "\"You don't need a university degree to comprehend data protection this\n  way\": LLM-Powered Interactive Privacy Policy Assessment",
+    "summary" : "Protecting online privacy requires users to engage with and comprehend\nwebsite privacy policies, but many policies are difficult and tedious to read.\nWe present the first qualitative user study on Large Language Model\n(LLM)-driven privacy policy assessment. To this end, we build and evaluate an\nLLM-based privacy policy assessment browser extension, which helps users\nunderstand the essence of a lengthy, complex privacy policy while browsing. The\ntool integrates a dashboard and an LLM chat. In our qualitative user study\n(N=22), we evaluate usability, understandability of the information our tool\nprovides, and its impacts on awareness. While providing a comprehensible quick\noverview and a chat for in-depth discussion improves privacy awareness, users\nnote issues with building trust in the tool. From our insights, we derive\nimportant design implications to guide future policy analysis tools.",
+    "updated" : "2025-03-05T15:22:35Z",
+    "published" : "2025-03-05T15:22:35Z",
+    "authors" : [
+      {
+        "name" : "Vincent Freiberger"
+      },
+      {
+        "name" : "Arthur Fleig"
+      },
+      {
+        "name" : "Erik Buchmann"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.03539v1",
+    "title" : "Data Sharing, Privacy and Security Considerations in the Energy Sector:\n  A Review from Technical Landscape to Regulatory Specifications",
+    "summary" : "Decarbonization, decentralization and digitalization are the three key\nelements driving the twin energy transition. The energy system is evolving to a\nmore data driven ecosystem, leading to the need of communication and storage of\nlarge amount of data of different resolution from the prosumers and other\nstakeholders in the energy ecosystem. While the energy system is certainly\nadvancing, this paradigm shift is bringing in new privacy and security issues\nrelated to collection, processing and storage of data - not only from the\ntechnical dimension, but also from the regulatory perspective. Understanding\ndata privacy and security in the evolving energy system, regarding regulatory\ncompliance, is an immature field of research. Contextualized knowledge of how\nrelated issues are regulated is still in its infancy, and the practical and\ntechnical basis for the regulatory framework for data privacy and security is\nnot clear. To fill this gap, this paper conducts a comprehensive review of the\ndata-related issues for the energy system by integrating both technical and\nregulatory dimensions. We start by reviewing open-access data, data\ncommunication and data-processing techniques for the energy system, and use it\nas the basis to connect the analysis of data-related issues from the integrated\nperspective. We classify the issues into three categories: (i) data-sharing\namong energy end users and stakeholders (ii) privacy of end users, and (iii)\ncyber security, and then explore these issues from a regulatory perspective. We\nanalyze the evolution of related regulations, and introduce the relevant\nregulatory initiatives for the categorized issues in terms of regulatory\ndefinitions, concepts, principles, rights and obligations in the context of\nenergy systems. Finally, we provide reflections on the gaps that still exist,\nand guidelines for regulatory frameworks for a truly participatory energy\nsystem.",
+    "updated" : "2025-03-05T14:23:56Z",
+    "published" : "2025-03-05T14:23:56Z",
+    "authors" : [
+      {
+        "name" : "Shiliang Zhang"
+      },
+      {
+        "name" : "Sabita Maharjan"
+      },
+      {
+        "name" : "Lee Andrew Bygrave"
+      },
+      {
+        "name" : "Shui Yu"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.03506v1",
+    "title" : "Rethinking Synthetic Data definitions: A privacy driven approach",
+    "summary" : "Synthetic data is gaining traction as a cost-effective solution for the\nincreasing data demands of AI development and can be generated either from\nexisting knowledge or derived data captured from real-world events. The source\nof the synthetic data generation and the technique used significantly impacts\nits residual privacy risk and therefore its opportunity for sharing.\nTraditional classification of synthetic data types no longer fit the newer\ngeneration techniques and there is a need to better align the classification\nwith practical needs. We suggest a new way of grouping synthetic data types\nthat better supports privacy evaluations to aid regulatory policymaking. Our\nnovel classification provides flexibility to new advancements like deep\ngenerative methods and offers a more practical framework for future\napplications.",
+    "updated" : "2025-03-05T13:54:13Z",
+    "published" : "2025-03-05T13:54:13Z",
+    "authors" : [
+      {
+        "name" : "Vibeke Binz Vallevik"
+      },
+      {
+        "name" : "Serena Elizabeth Marshall"
+      },
+      {
+        "name" : "Aleksandar Babic"
+      },
+      {
+        "name" : "Jan Franz Nygaard"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.03428v1",
+    "title" : "Privacy is All You Need: Revolutionizing Wearable Health Data with\n  Advanced PETs",
+    "summary" : "In a world where data is the new currency, wearable health devices offer\nunprecedented insights into daily life, continuously monitoring vital signs and\nmetrics. However, this convenience raises privacy concerns, as these devices\ncollect sensitive data that can be misused or breached. Traditional measures\noften fail due to real-time data processing needs and limited device power.\nUsers also lack awareness and control over data sharing and usage. We propose a\nPrivacy-Enhancing Technology (PET) framework for wearable devices, integrating\nfederated learning, lightweight cryptographic methods, and selectively deployed\nblockchain technology. The blockchain acts as a secure ledger triggered only\nupon data transfer requests, granting users real-time notifications and\ncontrol. By dismantling data monopolies, this approach returns data sovereignty\nto individuals. Through real-world applications like secure medical data\nsharing, privacy-preserving fitness tracking, and continuous health monitoring,\nour framework reduces privacy risks by up to 70 percent while preserving data\nutility and performance. This innovation sets a new benchmark for wearable\nprivacy and can scale to broader IoT ecosystems, including smart homes and\nindustry. As data continues to shape our digital landscape, our research\nunderscores the critical need to maintain privacy and user control at the\nforefront of technological progress.",
+    "updated" : "2025-03-05T12:01:22Z",
+    "published" : "2025-03-05T12:01:22Z",
+    "authors" : [
+      {
+        "name" : "Karthik Barma"
+      },
+      {
+        "name" : "Seshu Babu Barma"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.ET",
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.03267v1",
+    "title" : "Quantum-Inspired Privacy-Preserving Federated Learning Framework for\n  Secure Dementia Classification",
+    "summary" : "Dementia, a neurological disorder impacting millions globally, presents\nsignificant challenges in diagnosis and patient care. With the rise of privacy\nconcerns and security threats in healthcare, federated learning (FL) has\nemerged as a promising approach to enable collaborative model training across\ndecentralized datasets without exposing sensitive patient information. However,\nFL remains vulnerable to advanced security breaches such as gradient inversion\nand eavesdropping attacks. This paper introduces a novel framework that\nintegrates federated learning with quantum-inspired encryption techniques for\ndementia classification, emphasizing privacy preservation and security.\nLeveraging quantum key distribution (QKD), the framework ensures secure\ntransmission of model weights, protecting against unauthorized access and\ninterception during training. The methodology utilizes a convolutional neural\nnetwork (CNN) for dementia classification, with federated training conducted\nacross distributed healthcare nodes, incorporating QKD-encrypted weight sharing\nto secure the aggregation process. Experimental evaluations conducted on MRI\ndata from the OASIS dataset demonstrate that the proposed framework achieves\nidentical accuracy levels to a baseline model while enhancing data security and\nreducing loss by almost 1% compared to the classical baseline model. The\nframework offers significant implications for democratizing access to AI-driven\ndementia diagnostics in low- and middle-income countries, addressing critical\nresource and privacy constraints. This work contributes a robust, scalable, and\nsecure federated learning solution for healthcare applications, paving the way\nfor broader adoption of quantum-inspired techniques in AI-driven medical\nresearch.",
+    "updated" : "2025-03-05T08:49:31Z",
+    "published" : "2025-03-05T08:49:31Z",
+    "authors" : [
+      {
+        "name" : "Gazi Tanbhir"
+      },
+      {
+        "name" : "Md. Farhan Shahriyar"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.03146v1",
+    "title" : "PriFFT: Privacy-preserving Federated Fine-tuning of Large Language\n  Models via Function Secret Sharing",
+    "summary" : "Fine-tuning large language models (LLMs) raises privacy concerns due to the\nrisk of exposing sensitive training data. Federated learning (FL) mitigates\nthis risk by keeping training samples on local devices, but recent studies show\nthat adversaries can still infer private information from model updates in FL.\nAdditionally, LLM parameters are typically shared publicly during federated\nfine-tuning, while developers are often reluctant to disclose these parameters,\nposing further security challenges. Inspired by the above problems, we propose\nPriFFT, a privacy-preserving federated fine-tuning mechanism, to protect both\nthe model updates and parameters. In PriFFT, clients and the server share model\ninputs and parameters by secret sharing, performing secure fine-tuning on\nshared values without accessing plaintext data. Due to considerable LLM\nparameters, privacy-preserving federated fine-tuning invokes complex secure\ncalculations and requires substantial communication and computation resources.\nTo optimize the efficiency of privacy-preserving federated fine-tuning of LLMs,\nwe introduce function secret-sharing protocols for various operations,\nincluding reciprocal calculation, tensor products, natural exponentiation,\nsoftmax, hyperbolic tangent, and dropout. The proposed protocols achieve up to\n4.02X speed improvement and reduce 7.19X communication overhead compared to the\nimplementation based on existing secret sharing methods. Besides, PriFFT\nachieves a 2.23X speed improvement and reduces 4.08X communication overhead in\nprivacy-preserving fine-tuning without accuracy drop compared to the existing\nsecret sharing methods.",
+    "updated" : "2025-03-05T03:41:57Z",
+    "published" : "2025-03-05T03:41:57Z",
+    "authors" : [
+      {
+        "name" : "Zhichao You"
+      },
+      {
+        "name" : "Xuewen Dong"
+      },
+      {
+        "name" : "Ke Cheng"
+      },
+      {
+        "name" : "Xutong Mu"
+      },
+      {
+        "name" : "Jiaxuan Fu"
+      },
+      {
+        "name" : "Shiyang Ma"
+      },
+      {
+        "name" : "Qiang Qu"
+      },
+      {
+        "name" : "Yulong Shen"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.03087v1",
+    "title" : "\"Watch My Health, Not My Data\": Understanding Perceptions, Barriers,\n  Emotional Impact, & Coping Strategies Pertaining to IoT Privacy and Security\n  in Health Monitoring for Older Adults",
+    "summary" : "The proliferation of \"Internet of Things (IoT)\" provides older adults with\ncritical support for \"health monitoring\" and independent living, yet\nsignificant concerns about security and privacy persist. In this paper, we\nreport on these issues through a two-phase user study, including a survey (N =\n22) and semi-structured interviews (n = 9) with adults aged 65+. We found that\nwhile 81.82% of our participants are aware of security features like\n\"two-factor authentication (2FA)\" and encryption, 63.64% express serious\nconcerns about unauthorized access to sensitive health data. Only 13.64% feel\nconfident in existing protections, citing confusion over \"data sharing\npolicies\" and frustration with \"complex security settings\" which lead to\ndistrust and anxiety. To cope, our participants adopt various strategies, such\nas relying on family or professional support and limiting feature usage leading\nto disengagement. Thus, we recommend \"adaptive security mechanisms,\" simplified\ninterfaces, and real-time transparency notifications to foster trust and ensure\n\"privacy and security by design\" in IoT health systems for older adults.",
+    "updated" : "2025-03-05T01:04:13Z",
+    "published" : "2025-03-05T01:04:13Z",
+    "authors" : [
+      {
+        "name" : "Suleiman Saka"
+      },
+      {
+        "name" : "Sanchari Das"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.03043v1",
+    "title" : "Leveraging Randomness in Model and Data Partitioning for Privacy\n  Amplification",
+    "summary" : "We study how inherent randomness in the training process -- where each sample\n(or client in federated learning) contributes only to a randomly selected\nportion of training -- can be leveraged for privacy amplification. This\nincludes (1) data partitioning, where a sample participates in only a subset of\ntraining iterations, and (2) model partitioning, where a sample updates only a\nsubset of the model parameters. We apply our framework to model parallelism in\nfederated learning, where each client updates a randomly selected subnetwork to\nreduce memory and computational overhead, and show that existing methods, e.g.\nmodel splitting or dropout, provide a significant privacy amplification gain\nnot captured by previous privacy analysis techniques. Additionally, we\nintroduce Balanced Iteration Subsampling, a new data partitioning method where\neach sample (or client) participates in a fixed number of training iterations.\nWe show that this method yields stronger privacy amplification than Poisson\n(i.i.d.) sampling of data (or clients). Our results demonstrate that randomness\nin the training process, which is structured rather than i.i.d. and interacts\nwith data in complex ways, can be systematically leveraged for significant\nprivacy amplification.",
+    "updated" : "2025-03-04T22:49:59Z",
+    "published" : "2025-03-04T22:49:59Z",
+    "authors" : [
+      {
+        "name" : "Andy Dong"
+      },
+      {
+        "name" : "Wei-Ning Chen"
+      },
+      {
+        "name" : "Ayfer Ozgur"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.02968v1",
+    "title" : "Privacy-Preserving Fair Synthetic Tabular Data",
+    "summary" : "Sharing of tabular data containing valuable but private information is\nlimited due to legal and ethical issues. Synthetic data could be an alternative\nsolution to this sharing problem, as it is artificially generated by machine\nlearning algorithms and tries to capture the underlying data distribution.\nHowever, machine learning models are not free from memorization and may\nintroduce biases, as they rely on training data. Producing synthetic data that\npreserves privacy and fairness while maintaining utility close to the real data\nis a challenging task. This research simultaneously addresses both the privacy\nand fairness aspects of synthetic data, an area not explored by other studies.\nIn this work, we present PF-WGAN, a privacy-preserving, fair synthetic tabular\ndata generator based on the WGAN-GP model. We have modified the original\nWGAN-GP by adding privacy and fairness constraints forcing it to produce\nprivacy-preserving fair data. This approach will enable the publication of\ndatasets that protect individual's privacy and remain unbiased toward any\nparticular group. We compared the results with three state-of-the-art synthetic\ndata generator models in terms of utility, privacy, and fairness across four\ndifferent datasets. We found that the proposed model exhibits a more balanced\ntrade-off among utility, privacy, and fairness.",
+    "updated" : "2025-03-04T19:51:00Z",
+    "published" : "2025-03-04T19:51:00Z",
+    "authors" : [
+      {
+        "name" : "Fatima J. Sarmin"
+      },
+      {
+        "name" : "Atiquer R. Rahman"
+      },
+      {
+        "name" : "Christopher J. Henry"
+      },
+      {
+        "name" : "Noman Mohammed"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
   }
 ]
