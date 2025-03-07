@@ -628,5 +628,112 @@
       "cs.LG",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.04707v1",
+    "title" : "Iris Style Transfer: Enhancing Iris Recognition with Style Features and\n  Privacy Preservation through Neural Style Transfer",
+    "summary" : "Iris texture is widely regarded as a gold standard biometric modality for\nauthentication and identification. The demand for robust iris recognition\nmethods, coupled with growing security and privacy concerns regarding iris\nattacks, has escalated recently. Inspired by neural style transfer, an advanced\ntechnique that leverages neural networks to separate content and style\nfeatures, we hypothesize that iris texture's style features provide a reliable\nfoundation for recognition and are more resilient to variations like rotation\nand perspective shifts than traditional approaches. Our experimental results\nsupport this hypothesis, showing a significantly higher classification accuracy\ncompared to conventional features. Further, we propose using neural style\ntransfer to mask identifiable iris style features, ensuring the protection of\nsensitive biometric information while maintaining the utility of eye images for\ntasks like eye segmentation and gaze estimation. This work opens new avenues\nfor iris-oriented, secure, and privacy-aware biometric systems.",
+    "updated" : "2025-03-06T18:55:21Z",
+    "published" : "2025-03-06T18:55:21Z",
+    "authors" : [
+      {
+        "name" : "Mengdi Wang"
+      },
+      {
+        "name" : "Efe Bozkir"
+      },
+      {
+        "name" : "Enkelejda Kasneci"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.04652v1",
+    "title" : "Evaluation of Privacy-aware Support Vector Machine (SVM) Learning using\n  Homomorphic Encryption",
+    "summary" : "The requirement for privacy-aware machine learning increases as we continue\nto use PII (Personally Identifiable Information) within machine training. To\novercome these privacy issues, we can apply Fully Homomorphic Encryption (FHE)\nto encrypt data before it is fed into a machine learning model. This involves\ncreating a homomorphic encryption key pair, and where the associated public key\nwill be used to encrypt the input data, and the private key will decrypt the\noutput. But, there is often a performance hit when we use homomorphic\nencryption, and so this paper evaluates the performance overhead of using the\nSVM machine learning technique with the OpenFHE homomorphic encryption library.\nThis uses Python and the scikit-learn library for its implementation. The\nexperiments include a range of variables such as multiplication depth, scale\nsize, first modulus size, security level, batch size, and ring dimension, along\nwith two different SVM models, SVM-Poly and SVM-Linear. Overall, the results\nshow that the two main parameters which affect performance are the ring\ndimension and the modulus size, and that SVM-Poly and SVM-Linear show similar\nperformance levels.",
+    "updated" : "2025-03-06T17:42:23Z",
+    "published" : "2025-03-06T17:42:23Z",
+    "authors" : [
+      {
+        "name" : "William J Buchanan"
+      },
+      {
+        "name" : "Hisham Ali"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.04451v1",
+    "title" : "Privacy Preserving and Robust Aggregation for Cross-Silo Federated\n  Learning in Non-IID Settings",
+    "summary" : "Federated Averaging remains the most widely used aggregation strategy in\nfederated learning due to its simplicity and scalability. However, its\nperformance degrades significantly in non-IID data settings, where client\ndistributions are highly imbalanced or skewed. Additionally, it relies on\nclients transmitting metadata, specifically the number of training samples,\nwhich introduces privacy risks and may conflict with regulatory frameworks like\nthe European GDPR. In this paper, we propose a novel aggregation strategy that\naddresses these challenges by introducing class-aware gradient masking. Unlike\ntraditional approaches, our method relies solely on gradient updates,\neliminating the need for any additional client metadata, thereby enhancing\nprivacy protection. Furthermore, our approach validates and dynamically weights\nclient contributions based on class-specific importance, ensuring robustness\nagainst non-IID distributions, convergence prevention, and backdoor attacks.\nExtensive experiments on benchmark datasets demonstrate that our method not\nonly outperforms FedAvg and other widely accepted aggregation strategies in\nnon-IID settings but also preserves model integrity in adversarial scenarios.\nOur results establish the effectiveness of gradient masking as a practical and\nsecure solution for federated learning.",
+    "updated" : "2025-03-06T14:06:20Z",
+    "published" : "2025-03-06T14:06:20Z",
+    "authors" : [
+      {
+        "name" : "Marco Arazzi"
+      },
+      {
+        "name" : "Mert Cihangiroglu"
+      },
+      {
+        "name" : "Antonino Nocera"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.04054v1",
+    "title" : "Controlled privacy leakage propagation throughout overlapping grouped\n  learning",
+    "summary" : "Federated Learning (FL) is the standard protocol for collaborative learning.\nIn FL, multiple workers jointly train a shared model. They exchange model\nupdates calculated on their data, while keeping the raw data itself local.\nSince workers naturally form groups based on common interests and privacy\npolicies, we are motivated to extend standard FL to reflect a setting with\nmultiple, potentially overlapping groups. In this setup where workers can\nbelong and contribute to more than one group at a time, complexities arise in\nunderstanding privacy leakage and in adhering to privacy policies. To address\nthe challenges, we propose differential private overlapping grouped learning\n(DPOGL), a novel method to implement privacy guarantees within overlapping\ngroups. Under the honest-but-curious threat model, we derive novel privacy\nguarantees between arbitrary pairs of workers. These privacy guarantees\ndescribe and quantify two key effects of privacy leakage in DP-OGL: propagation\ndelay, i.e., the fact that information from one group will leak to other groups\nonly with temporal offset through the common workers and information\ndegradation, i.e., the fact that noise addition over model updates limits\ninformation leakage between workers. Our experiments show that applying DP-OGL\nenhances utility while maintaining strong privacy compared to standard FL\nsetups.",
+    "updated" : "2025-03-06T03:14:45Z",
+    "published" : "2025-03-06T03:14:45Z",
+    "authors" : [
+      {
+        "name" : "Shahrzad Kiani"
+      },
+      {
+        "name" : "Franziska Boenisch"
+      },
+      {
+        "name" : "Stark C. Draper"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.03988v1",
+    "title" : "AI-based Programming Assistants for Privacy-related Code Generation: The\n  Developers' Experience",
+    "summary" : "With the popularising of generative AI, the existence of AI-based programming\nassistants for developers is no surprise. Developers increasingly use them for\ntheir work, including generating code to fulfil the data protection\nrequirements (privacy) of the apps they build. We wanted to know if the reality\nis the same as expectations of AI-based programming assistants when trying to\nfulfil software privacy requirements, and the challenges developers face when\nusing AI-based programming assistants and how these can be improved. To this\nend, we conducted a survey with 51 developers worldwide. We found that AI-based\nprogramming assistants need to be improved in order for developers to better\ntrust them with generating code that ensures privacy. In this paper, we provide\nsome practical recommendations for developers to consider following when using\nAI-based programming assistants for privacy-related code development, and some\nkey further research directions.",
+    "updated" : "2025-03-06T00:34:25Z",
+    "published" : "2025-03-06T00:34:25Z",
+    "authors" : [
+      {
+        "name" : "Kashumi Madampe"
+      },
+      {
+        "name" : "John Grundy"
+      },
+      {
+        "name" : "Nalin Arachchilage"
+      }
+    ],
+    "categories" : [
+      "cs.SE"
+    ]
   }
 ]
