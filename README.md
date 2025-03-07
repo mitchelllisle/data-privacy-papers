@@ -2065,145 +2065,148 @@ legal compliance frameworks.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.06597v1">Continual Release Moment Estimation with Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
-  <p><b>Published on:</b> 2025-02-10T15:58:26Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Nikita P. Kalinin, Jalaj Upadhyay, Christoph H. Lampert</p>
-    <p><b>Summary:</b> We propose Joint Moment Estimation (JME), a method for continually and
-privately estimating both the first and second moments of data with reduced
-noise compared to naive approaches. JME uses the matrix mechanism and a joint
-sensitivity analysis to allow the second moment estimation with no additional
-privacy cost, thereby improving accuracy while maintaining privacy. We
-demonstrate JME's effectiveness in two applications: estimating the running
-mean and covariance matrix for Gaussian density estimation, and model training
-with DP-Adam on CIFAR-10.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.06425v1">Generating Privacy-Preserving Personalized Advice with Zero-Knowledge
-  Proofs and LLMs</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-02-10T13:02:00Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Hiroki Watanabe, Motonobu Uchikoshi</p>
-    <p><b>Summary:</b> Large language models (LLMs) are increasingly utilized in domains such as
-finance, healthcare, and interpersonal relationships to provide advice tailored
-to user traits and contexts. However, this personalization often relies on
-sensitive data, raising critical privacy concerns and necessitating data
-minimization. To address these challenges, we propose a framework that
-integrates zero-knowledge proof (ZKP) technology, specifically zkVM, with
-LLM-based chatbots. This integration enables privacy-preserving data sharing by
-verifying user traits without disclosing sensitive information. Our research
-introduces both an architecture and a prompting strategy for this approach.
-Through empirical evaluation, we clarify the current constraints and
-performance limitations of both zkVM and the proposed prompting strategy,
-thereby demonstrating their practical feasibility in real-world scenarios.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.05765v2">Privacy-Preserving Dataset Combination</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2025-02-09T03:54:17Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Keren Fuentes, Mimee Xu, Irene Chen</p>
-    <p><b>Summary:</b> Access to diverse, high-quality datasets is crucial for machine learning
-model performance, yet data sharing remains limited by privacy concerns and
-competitive interests, particularly in regulated domains like healthcare. This
-dynamic especially disadvantages smaller organizations that lack resources to
-purchase data or negotiate favorable sharing agreements. We present SecureKL, a
-privacy-preserving framework that enables organizations to identify beneficial
-data partnerships without exposing sensitive information. Building on recent
-advances in dataset combination methods, we develop a secure multiparty
-computation protocol that maintains strong privacy guarantees while achieving
->90\% correlation with plaintext evaluations. In experiments with real-world
-hospital data, SecureKL successfully identifies beneficial data partnerships
-that improve model performance for intensive care unit mortality prediction
-while preserving data privacy. Our framework provides a practical solution for
-organizations seeking to leverage collective data resources while maintaining
-privacy and competitive advantages. These results demonstrate the potential for
-privacy-preserving data collaboration to advance machine learning applications
-in high-stakes domains while promoting more equitable access to data resources.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.05547v1">Dual Defense: Enhancing Privacy and Mitigating Poisoning Attacks in
-  Federated Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-02-08T12:28:20Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Runhua Xu, Shiqi Gao, Chao Li, James Joshi, Jianxin Li</p>
-    <p><b>Summary:</b> Federated learning (FL) is inherently susceptible to privacy breaches and
-poisoning attacks. To tackle these challenges, researchers have separately
-devised secure aggregation mechanisms to protect data privacy and robust
-aggregation methods that withstand poisoning attacks. However, simultaneously
-addressing both concerns is challenging; secure aggregation facilitates
-poisoning attacks as most anomaly detection techniques require access to
-unencrypted local model updates, which are obscured by secure aggregation. Few
-recent efforts to simultaneously tackle both challenges offen depend on
-impractical assumption of non-colluding two-server setups that disrupt FL's
-topology, or three-party computation which introduces scalability issues,
-complicating deployment and application. To overcome this dilemma, this paper
-introduce a Dual Defense Federated learning (DDFed) framework. DDFed
-simultaneously boosts privacy protection and mitigates poisoning attacks,
-without introducing new participant roles or disrupting the existing FL
-topology. DDFed initially leverages cutting-edge fully homomorphic encryption
-(FHE) to securely aggregate model updates, without the impractical requirement
-for non-colluding two-server setups and ensures strong privacy protection.
-Additionally, we proposes a unique two-phase anomaly detection mechanism for
-encrypted model updates, featuring secure similarity computation and
-feedback-driven collaborative selection, with additional measures to prevent
-potential privacy breaches from Byzantine clients incorporated into the
-detection process. We conducted extensive experiments on various model
-poisoning attacks and FL scenarios, including both cross-device and cross-silo
-FL. Experiments on publicly available datasets demonstrate that DDFed
-successfully protects model privacy and effectively defends against model
-poisoning threats.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.05516v1">Evaluating Differential Privacy on Correlated Datasets Using Pointwise
-  Maximal Leakage</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
-  <p><b>Published on:</b> 2025-02-08T10:30:45Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Sara Saeidian, Tobias J. Oechtering, Mikael Skoglund</p>
-    <p><b>Summary:</b> Data-driven advancements significantly contribute to societal progress, yet
-they also pose substantial risks to privacy. In this landscape, differential
-privacy (DP) has become a cornerstone in privacy preservation efforts. However,
-the adequacy of DP in scenarios involving correlated datasets has sometimes
-been questioned and multiple studies have hinted at potential vulnerabilities.
-In this work, we delve into the nuances of applying DP to correlated datasets
-by leveraging the concept of pointwise maximal leakage (PML) for a quantitative
-assessment of information leakage. Our investigation reveals that DP's
-guarantees can be arbitrarily weak for correlated databases when assessed
-through the lens of PML. More precisely, we prove the existence of a pure DP
-mechanism with PML levels arbitrarily close to that of a mechanism which
-releases individual entries from a database without any perturbation. By
-shedding light on the limitations of DP on correlated datasets, our work aims
-to foster a deeper understanding of subtle privacy risks and highlight the need
-for the development of more effective privacy-preserving mechanisms tailored to
-diverse scenarios.</p>
-  </details>
-</div>
-
-
 
 <h2>2025-03</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.04707v1">Iris Style Transfer: Enhancing Iris Recognition with Style Features and
+  Privacy Preservation through Neural Style Transfer</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2025-03-06T18:55:21Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mengdi Wang, Efe Bozkir, Enkelejda Kasneci</p>
+    <p><b>Summary:</b> Iris texture is widely regarded as a gold standard biometric modality for
+authentication and identification. The demand for robust iris recognition
+methods, coupled with growing security and privacy concerns regarding iris
+attacks, has escalated recently. Inspired by neural style transfer, an advanced
+technique that leverages neural networks to separate content and style
+features, we hypothesize that iris texture's style features provide a reliable
+foundation for recognition and are more resilient to variations like rotation
+and perspective shifts than traditional approaches. Our experimental results
+support this hypothesis, showing a significantly higher classification accuracy
+compared to conventional features. Further, we propose using neural style
+transfer to mask identifiable iris style features, ensuring the protection of
+sensitive biometric information while maintaining the utility of eye images for
+tasks like eye segmentation and gaze estimation. This work opens new avenues
+for iris-oriented, secure, and privacy-aware biometric systems.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.04652v1">Evaluation of Privacy-aware Support Vector Machine (SVM) Learning using
+  Homomorphic Encryption</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-03-06T17:42:23Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> William J Buchanan, Hisham Ali</p>
+    <p><b>Summary:</b> The requirement for privacy-aware machine learning increases as we continue
+to use PII (Personally Identifiable Information) within machine training. To
+overcome these privacy issues, we can apply Fully Homomorphic Encryption (FHE)
+to encrypt data before it is fed into a machine learning model. This involves
+creating a homomorphic encryption key pair, and where the associated public key
+will be used to encrypt the input data, and the private key will decrypt the
+output. But, there is often a performance hit when we use homomorphic
+encryption, and so this paper evaluates the performance overhead of using the
+SVM machine learning technique with the OpenFHE homomorphic encryption library.
+This uses Python and the scikit-learn library for its implementation. The
+experiments include a range of variables such as multiplication depth, scale
+size, first modulus size, security level, batch size, and ring dimension, along
+with two different SVM models, SVM-Poly and SVM-Linear. Overall, the results
+show that the two main parameters which affect performance are the ring
+dimension and the modulus size, and that SVM-Poly and SVM-Linear show similar
+performance levels.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.04451v1">Privacy Preserving and Robust Aggregation for Cross-Silo Federated
+  Learning in Non-IID Settings</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-03-06T14:06:20Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Marco Arazzi, Mert Cihangiroglu, Antonino Nocera</p>
+    <p><b>Summary:</b> Federated Averaging remains the most widely used aggregation strategy in
+federated learning due to its simplicity and scalability. However, its
+performance degrades significantly in non-IID data settings, where client
+distributions are highly imbalanced or skewed. Additionally, it relies on
+clients transmitting metadata, specifically the number of training samples,
+which introduces privacy risks and may conflict with regulatory frameworks like
+the European GDPR. In this paper, we propose a novel aggregation strategy that
+addresses these challenges by introducing class-aware gradient masking. Unlike
+traditional approaches, our method relies solely on gradient updates,
+eliminating the need for any additional client metadata, thereby enhancing
+privacy protection. Furthermore, our approach validates and dynamically weights
+client contributions based on class-specific importance, ensuring robustness
+against non-IID distributions, convergence prevention, and backdoor attacks.
+Extensive experiments on benchmark datasets demonstrate that our method not
+only outperforms FedAvg and other widely accepted aggregation strategies in
+non-IID settings but also preserves model integrity in adversarial scenarios.
+Our results establish the effectiveness of gradient masking as a practical and
+secure solution for federated learning.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.04054v1">Controlled privacy leakage propagation throughout overlapping grouped
+  learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
+  <p><b>Published on:</b> 2025-03-06T03:14:45Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shahrzad Kiani, Franziska Boenisch, Stark C. Draper</p>
+    <p><b>Summary:</b> Federated Learning (FL) is the standard protocol for collaborative learning.
+In FL, multiple workers jointly train a shared model. They exchange model
+updates calculated on their data, while keeping the raw data itself local.
+Since workers naturally form groups based on common interests and privacy
+policies, we are motivated to extend standard FL to reflect a setting with
+multiple, potentially overlapping groups. In this setup where workers can
+belong and contribute to more than one group at a time, complexities arise in
+understanding privacy leakage and in adhering to privacy policies. To address
+the challenges, we propose differential private overlapping grouped learning
+(DPOGL), a novel method to implement privacy guarantees within overlapping
+groups. Under the honest-but-curious threat model, we derive novel privacy
+guarantees between arbitrary pairs of workers. These privacy guarantees
+describe and quantify two key effects of privacy leakage in DP-OGL: propagation
+delay, i.e., the fact that information from one group will leak to other groups
+only with temporal offset through the common workers and information
+degradation, i.e., the fact that noise addition over model updates limits
+information leakage between workers. Our experiments show that applying DP-OGL
+enhances utility while maintaining strong privacy compared to standard FL
+setups.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.03988v1">AI-based Programming Assistants for Privacy-related Code Generation: The
+  Developers' Experience</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
+  <p><b>Published on:</b> 2025-03-06T00:34:25Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Kashumi Madampe, John Grundy, Nalin Arachchilage</p>
+    <p><b>Summary:</b> With the popularising of generative AI, the existence of AI-based programming
+assistants for developers is no surprise. Developers increasingly use them for
+their work, including generating code to fulfil the data protection
+requirements (privacy) of the apps they build. We wanted to know if the reality
+is the same as expectations of AI-based programming assistants when trying to
+fulfil software privacy requirements, and the challenges developers face when
+using AI-based programming assistants and how these can be improved. To this
+end, we conducted a survey with 51 developers worldwide. We found that AI-based
+programming assistants need to be improved in order for developers to better
+trust them with generating code that ensures privacy. In this paper, we provide
+some practical recommendations for developers to consider following when using
+AI-based programming assistants for privacy-related code development, and some
+key further research directions.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2503.03652v1">Token-Level Privacy in Large Language Models</a></h3>
