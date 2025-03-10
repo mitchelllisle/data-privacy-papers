@@ -1984,89 +1984,64 @@ mechanisms in collaborative learning systems.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.10450v1">Trustworthy AI on Safety, Bias, and Privacy: A Survey</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-02-11T20:08:42Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Xingli Fang, Jianwei Li, Varun Mulchandani, Jung-Eun Kim</p>
-    <p><b>Summary:</b> The capabilities of artificial intelligence systems have been advancing to a
-great extent, but these systems still struggle with failure modes,
-vulnerabilities, and biases. In this paper, we study the current state of the
-field, and present promising insights and perspectives regarding concerns that
-challenge the trustworthiness of AI models. In particular, this paper
-investigates the issues regarding three thrusts: safety, privacy, and bias,
-which hurt models' trustworthiness. For safety, we discuss safety alignment in
-the context of large language models, preventing them from generating toxic or
-harmful content. For bias, we focus on spurious biases that can mislead a
-network. Lastly, for privacy, we cover membership inference attacks in deep
-neural networks. The discussions addressed in this paper reflect our own
-experiments and observations.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.07693v2">SoK: A Classification for AI-driven Personalized Privacy Assistants</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-02-11T16:46:56Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Victor Morel, Leonardo Iwaya, Simone Fischer-Hübner</p>
-    <p><b>Summary:</b> To help users make privacy-related decisions, personalized privacy assistants
-based on AI technology have been developed in recent years. These AI-driven
-Personalized Privacy Assistants (AI-driven PPAs) can reap significant benefits
-for users, who may otherwise struggle to make decisions regarding their
-personal data in environments saturated with privacy-related decision requests.
-However, no study systematically inquired about the features of these AI-driven
-PPAs, their underlying technologies, or the accuracy of their decisions. To
-fill this gap, we present a Systematization of Knowledge (SoK) to map the
-existing solutions found in the scientific literature. We screened 1697 unique
-research papers over the last decade (2013-2023), constructing a classification
-from 39 included papers. As a result, this SoK reviews several aspects of
-existing research on AI-driven PPAs in terms of types of publications,
-contributions, methodological quality, and other quantitative insights.
-Furthermore, we provide a comprehensive classification for AI-driven PPAs,
-delving into their architectural choices, system contexts, types of AI used,
-data sources, types of decisions, and control over decisions, among other
-facets. Based on our SoK, we further underline the research gaps and challenges
-and formulate recommendations for the design and development of AI-driven PPAs
-as well as avenues for future research.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.06652v1">Transparent NLP: Using RAG and LLM Alignment for Privacy Q&A</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2025-02-10T16:42:00Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Anna Leschanowsky, Zahra Kolagar, Erion Çano, Ivan Habernal, Dara Hallinan, Emanuël A. P. Habets, Birgit Popp</p>
-    <p><b>Summary:</b> The transparency principle of the General Data Protection Regulation (GDPR)
-requires data processing information to be clear, precise, and accessible.
-While language models show promise in this context, their probabilistic nature
-complicates truthfulness and comprehensibility.
-  This paper examines state-of-the-art Retrieval Augmented Generation (RAG)
-systems enhanced with alignment techniques to fulfill GDPR obligations. We
-evaluate RAG systems incorporating an alignment module like Rewindable
-Auto-regressive Inference (RAIN) and our proposed multidimensional extension,
-MultiRAIN, using a Privacy Q&A dataset. Responses are optimized for preciseness
-and comprehensibility and are assessed through 21 metrics, including
-deterministic and large language model-based evaluations.
-  Our results show that RAG systems with an alignment module outperform
-baseline RAG systems on most metrics, though none fully match human answers.
-Principal component analysis of the results reveals complex interactions
-between metrics, highlighting the need to refine metrics. This study provides a
-foundation for integrating advanced natural language processing systems into
-legal compliance frameworks.</p>
-  </details>
-</div>
-
-
 
 <h2>2025-03</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.05684v1">Fairness-Aware Low-Rank Adaptation Under Demographic Privacy Constraints</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2025-03-07T18:49:57Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Parameswaran Kamalaruban, Mark Anderson, Stuart Burrell, Maeve Madigan, Piotr Skalski, David Sutton</p>
+    <p><b>Summary:</b> Pre-trained foundation models can be adapted for specific tasks using
+Low-Rank Adaptation (LoRA). However, the fairness properties of these adapted
+classifiers remain underexplored. Existing fairness-aware fine-tuning methods
+rely on direct access to sensitive attributes or their predictors, but in
+practice, these sensitive attributes are often held under strict consumer
+privacy controls, and neither the attributes nor their predictors are available
+to model developers, hampering the development of fair models. To address this
+issue, we introduce a set of LoRA-based fine-tuning methods that can be trained
+in a distributed fashion, where model developers and fairness auditors
+collaborate without sharing sensitive attributes or predictors. In this paper,
+we evaluate three such methods - sensitive unlearning, adversarial training,
+and orthogonality loss - against a fairness-unaware baseline, using experiments
+on the CelebA and UTK-Face datasets with an ImageNet pre-trained ViT-Base
+model. We find that orthogonality loss consistently reduces bias while
+maintaining or improving utility, whereas adversarial training improves False
+Positive Rate Parity and Demographic Parity in some cases, and sensitive
+unlearning provides no clear benefit. In tasks where significant biases are
+present, distributed fairness-aware fine-tuning methods can effectively
+eliminate bias without compromising consumer privacy and, in most cases,
+improve model utility.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.04980v1">A Consensus Privacy Metrics Framework for Synthetic Data</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-03-06T21:19:02Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Lisa Pilgram, Fida K. Dankar, Jorg Drechsler, Mark Elliot, Josep Domingo-Ferrer, Paul Francis, Murat Kantarcioglu, Linglong Kong, Bradley Malin, Krishnamurty Muralidhar, Puja Myles, Fabian Prasser, Jean Louis Raisaro, Chao Yan, Khaled El Emam</p>
+    <p><b>Summary:</b> Synthetic data generation is one approach for sharing individual-level data.
+However, to meet legislative requirements, it is necessary to demonstrate that
+the individuals' privacy is adequately protected. There is no consolidated
+standard for measuring privacy in synthetic data. Through an expert panel and
+consensus process, we developed a framework for evaluating privacy in synthetic
+data. Our findings indicate that current similarity metrics fail to measure
+identity disclosure, and their use is discouraged. For differentially private
+synthetic data, a privacy budget other than close to zero was not considered
+interpretable. There was consensus on the importance of membership and
+attribute disclosure, both of which involve inferring personal information
+about an individual without necessarily revealing their identity. The resultant
+framework provides precise recommendations for metrics that address these types
+of disclosures effectively. Our findings further present specific opportunities
+for future research that can help with widespread adoption of synthetic data.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2503.04707v1">Iris Style Transfer: Enhancing Iris Recognition with Style Features and
@@ -2148,6 +2123,33 @@ only outperforms FedAvg and other widely accepted aggregation strategies in
 non-IID settings but also preserves model integrity in adversarial scenarios.
 Our results establish the effectiveness of gradient masking as a practical and
 secure solution for federated learning.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.04866v1">Privacy in Responsible AI: Approaches to Facial Recognition from Cloud
+  Providers</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-03-06T12:04:12Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Anna Elivanova</p>
+    <p><b>Summary:</b> As the use of facial recognition technology is expanding in different
+domains, ensuring its responsible use is gaining more importance. This paper
+conducts a comprehensive literature review of existing studies on facial
+recognition technology from the perspective of privacy, which is one of the key
+Responsible AI principles.
+  Cloud providers, such as Microsoft, AWS, and Google, are at the forefront of
+delivering facial-related technology services, but their approaches to
+responsible use of these technologies vary significantly. This paper compares
+how these cloud giants implement the privacy principle into their facial
+recognition and detection services. By analysing their approaches, it
+identifies both common practices and notable differences. The results of this
+research will be valuable for developers and businesses by providing them
+insights into best practices of three major companies for integration
+responsible AI, particularly privacy, into their cloud-based facial recognition
+technologies.</p>
   </details>
 </div>
 
