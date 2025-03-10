@@ -735,5 +735,110 @@
     "categories" : [
       "cs.SE"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.05684v1",
+    "title" : "Fairness-Aware Low-Rank Adaptation Under Demographic Privacy Constraints",
+    "summary" : "Pre-trained foundation models can be adapted for specific tasks using\nLow-Rank Adaptation (LoRA). However, the fairness properties of these adapted\nclassifiers remain underexplored. Existing fairness-aware fine-tuning methods\nrely on direct access to sensitive attributes or their predictors, but in\npractice, these sensitive attributes are often held under strict consumer\nprivacy controls, and neither the attributes nor their predictors are available\nto model developers, hampering the development of fair models. To address this\nissue, we introduce a set of LoRA-based fine-tuning methods that can be trained\nin a distributed fashion, where model developers and fairness auditors\ncollaborate without sharing sensitive attributes or predictors. In this paper,\nwe evaluate three such methods - sensitive unlearning, adversarial training,\nand orthogonality loss - against a fairness-unaware baseline, using experiments\non the CelebA and UTK-Face datasets with an ImageNet pre-trained ViT-Base\nmodel. We find that orthogonality loss consistently reduces bias while\nmaintaining or improving utility, whereas adversarial training improves False\nPositive Rate Parity and Demographic Parity in some cases, and sensitive\nunlearning provides no clear benefit. In tasks where significant biases are\npresent, distributed fairness-aware fine-tuning methods can effectively\neliminate bias without compromising consumer privacy and, in most cases,\nimprove model utility.",
+    "updated" : "2025-03-07T18:49:57Z",
+    "published" : "2025-03-07T18:49:57Z",
+    "authors" : [
+      {
+        "name" : "Parameswaran Kamalaruban"
+      },
+      {
+        "name" : "Mark Anderson"
+      },
+      {
+        "name" : "Stuart Burrell"
+      },
+      {
+        "name" : "Maeve Madigan"
+      },
+      {
+        "name" : "Piotr Skalski"
+      },
+      {
+        "name" : "David Sutton"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.04980v1",
+    "title" : "A Consensus Privacy Metrics Framework for Synthetic Data",
+    "summary" : "Synthetic data generation is one approach for sharing individual-level data.\nHowever, to meet legislative requirements, it is necessary to demonstrate that\nthe individuals' privacy is adequately protected. There is no consolidated\nstandard for measuring privacy in synthetic data. Through an expert panel and\nconsensus process, we developed a framework for evaluating privacy in synthetic\ndata. Our findings indicate that current similarity metrics fail to measure\nidentity disclosure, and their use is discouraged. For differentially private\nsynthetic data, a privacy budget other than close to zero was not considered\ninterpretable. There was consensus on the importance of membership and\nattribute disclosure, both of which involve inferring personal information\nabout an individual without necessarily revealing their identity. The resultant\nframework provides precise recommendations for metrics that address these types\nof disclosures effectively. Our findings further present specific opportunities\nfor future research that can help with widespread adoption of synthetic data.",
+    "updated" : "2025-03-06T21:19:02Z",
+    "published" : "2025-03-06T21:19:02Z",
+    "authors" : [
+      {
+        "name" : "Lisa Pilgram"
+      },
+      {
+        "name" : "Fida K. Dankar"
+      },
+      {
+        "name" : "Jorg Drechsler"
+      },
+      {
+        "name" : "Mark Elliot"
+      },
+      {
+        "name" : "Josep Domingo-Ferrer"
+      },
+      {
+        "name" : "Paul Francis"
+      },
+      {
+        "name" : "Murat Kantarcioglu"
+      },
+      {
+        "name" : "Linglong Kong"
+      },
+      {
+        "name" : "Bradley Malin"
+      },
+      {
+        "name" : "Krishnamurty Muralidhar"
+      },
+      {
+        "name" : "Puja Myles"
+      },
+      {
+        "name" : "Fabian Prasser"
+      },
+      {
+        "name" : "Jean Louis Raisaro"
+      },
+      {
+        "name" : "Chao Yan"
+      },
+      {
+        "name" : "Khaled El Emam"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.04866v1",
+    "title" : "Privacy in Responsible AI: Approaches to Facial Recognition from Cloud\n  Providers",
+    "summary" : "As the use of facial recognition technology is expanding in different\ndomains, ensuring its responsible use is gaining more importance. This paper\nconducts a comprehensive literature review of existing studies on facial\nrecognition technology from the perspective of privacy, which is one of the key\nResponsible AI principles.\n  Cloud providers, such as Microsoft, AWS, and Google, are at the forefront of\ndelivering facial-related technology services, but their approaches to\nresponsible use of these technologies vary significantly. This paper compares\nhow these cloud giants implement the privacy principle into their facial\nrecognition and detection services. By analysing their approaches, it\nidentifies both common practices and notable differences. The results of this\nresearch will be valuable for developers and businesses by providing them\ninsights into best practices of three major companies for integration\nresponsible AI, particularly privacy, into their cloud-based facial recognition\ntechnologies.",
+    "updated" : "2025-03-06T12:04:12Z",
+    "published" : "2025-03-06T12:04:12Z",
+    "authors" : [
+      {
+        "name" : "Anna Elivanova"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
   }
 ]
