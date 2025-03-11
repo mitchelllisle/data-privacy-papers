@@ -840,5 +840,286 @@
       "cs.CR",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.07427v1",
+    "title" : "Creating and Evaluating Privacy and Security Micro-Lessons for\n  Elementary School Children",
+    "summary" : "The growing use of technology in K--8 classrooms highlights a parallel need\nfor formal learning opportunities aimed at helping children use technology\nsafely and protect their personal information. Even the youngest students are\nnow using tablets, laptops, and apps to support their learning; however, there\nare limited curricular materials available for elementary and middle school\nchildren on digital privacy and security topics. To bridge this gap, we\ndeveloped a series of micro-lessons to help K--8 children learn about digital\nprivacy and security at school. We first conducted a formative study by\ninterviewing elementary school teachers to identify the design needs for\ndigital privacy and security lessons. We then developed micro-lessons --\nmultiple 15-20 minute activities designed to be easily inserted into the\nexisting curriculum -- using a co-design approach with multiple rounds of\ndeveloping and revising the micro-lessons in collaboration with teachers.\nThroughout the process, we conducted evaluation sessions where teachers\nimplemented or reviewed the micro-lessons. Our study identifies strengths,\nchallenges, and teachers' tailoring strategies when incorporating micro-lessons\nfor K--8 digital privacy and security topics, providing design implications for\nfacilitating learning about these topics in school classrooms.",
+    "updated" : "2025-03-10T15:12:11Z",
+    "published" : "2025-03-10T15:12:11Z",
+    "authors" : [
+      {
+        "name" : "Lan Gao"
+      },
+      {
+        "name" : "Elana B Blinder"
+      },
+      {
+        "name" : "Abigail Barnes"
+      },
+      {
+        "name" : "Kevin Song"
+      },
+      {
+        "name" : "Tamara Clegg"
+      },
+      {
+        "name" : "Jessica Vitak"
+      },
+      {
+        "name" : "Marshini Chetty"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.07216v1",
+    "title" : "FedRand: Enhancing Privacy in Federated Learning with Randomized LoRA\n  Subparameter Updates",
+    "summary" : "Federated Learning (FL) is a widely used framework for training models in a\ndecentralized manner, ensuring that the central server does not have direct\naccess to data from local clients. However, this approach may still fail to\nfully preserve data privacy, as models from local clients are exposed to the\ncentral server during the aggregation process. This issue becomes even more\ncritical when training vision-language models (VLMs) with FL, as VLMs can\neasily memorize training data instances, making them vulnerable to membership\ninference attacks (MIAs). To address this challenge, we propose the FedRand\nframework, which avoids disclosing the full set of client parameters. In this\nframework, each client randomly selects subparameters of Low-Rank Adaptation\n(LoRA) from the server and keeps the remaining counterparts of the LoRA weights\nas private parameters. After training both parameters on the client's private\ndataset, only the non-private client parameters are sent back to the server for\naggregation. This approach mitigates the risk of exposing client-side VLM\nparameters, thereby enhancing data privacy. We empirically validate that\nFedRand improves robustness against MIAs compared to relevant baselines while\nachieving accuracy comparable to methods that communicate full LoRA parameters\nacross several benchmark datasets.",
+    "updated" : "2025-03-10T11:55:50Z",
+    "published" : "2025-03-10T11:55:50Z",
+    "authors" : [
+      {
+        "name" : "Sangwoo Park"
+      },
+      {
+        "name" : "Seanie Lee"
+      },
+      {
+        "name" : "Byungjoo Kim"
+      },
+      {
+        "name" : "Sung Ju Hwang"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.07199v1",
+    "title" : "How Well Can Differential Privacy Be Audited in One Run?",
+    "summary" : "Recent methods for auditing the privacy of machine learning algorithms have\nimproved computational efficiency by simultaneously intervening on multiple\ntraining examples in a single training run. Steinke et al. (2024) prove that\none-run auditing indeed lower bounds the true privacy parameter of the audited\nalgorithm, and give impressive empirical results. Their work leaves open the\nquestion of how precisely one-run auditing can uncover the true privacy\nparameter of an algorithm, and how that precision depends on the audited\nalgorithm. In this work, we characterize the maximum achievable efficacy of\none-run auditing and show that one-run auditing can only perfectly uncover the\ntrue privacy parameters of algorithms whose structure allows the effects of\nindividual data elements to be isolated. Our characterization helps reveal how\nand when one-run auditing is still a promising technique for auditing real\nmachine learning algorithms, despite these fundamental gaps.",
+    "updated" : "2025-03-10T11:32:30Z",
+    "published" : "2025-03-10T11:32:30Z",
+    "authors" : [
+      {
+        "name" : "Amit Keinan"
+      },
+      {
+        "name" : "Moshe Shenfeld"
+      },
+      {
+        "name" : "Katrina Ligett"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.07048v1",
+    "title" : "A Failure-Free and Efficient Discrete Laplace Distribution for\n  Differential Privacy in MPC",
+    "summary" : "In an MPC-protected distributed computation, although the use of MPC assures\ndata privacy during computation, sensitive information may still be inferred by\ncurious MPC participants from the computation output. This can be observed, for\ninstance, in the inference attacks on either federated learning or a more\nstandard statistical computation with distributed inputs. In this work, we\naddress this output privacy issue by proposing a discrete and bounded\nLaplace-inspired perturbation mechanism along with a secure realization of this\nmechanism using MPC. The proposed mechanism strictly adheres to a zero failure\nprobability, overcoming the limitation encountered on other existing bounded\nand discrete variants of Laplace perturbation. We provide analyses of the\nproposed differential privacy (DP) perturbation in terms of its privacy and\nutility. Additionally, we designed MPC protocols to implement this mechanism\nand presented performance benchmarks based on our experimental setup. The MPC\nrealization of the proposed mechanism exhibits a complexity similar to the\nstate-of-the-art discrete Gaussian mechanism, which can be considered an\nalternative with comparable efficiency while providing stronger differential\nprivacy guarantee. Moreover, efficiency of the proposed scheme can be further\nenhanced by performing the noise generation offline while leaving the\nperturbation phase online.",
+    "updated" : "2025-03-10T08:35:16Z",
+    "published" : "2025-03-10T08:35:16Z",
+    "authors" : [
+      {
+        "name" : "Ivan Tjuawinata"
+      },
+      {
+        "name" : "Jiabo Wang"
+      },
+      {
+        "name" : "Mengmeng Yang"
+      },
+      {
+        "name" : "Shanxiang Lyu"
+      },
+      {
+        "name" : "Huaxiong Wang"
+      },
+      {
+        "name" : "Kwok-Yan Lam"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.06808v1",
+    "title" : "Privacy Auditing of Large Language Models",
+    "summary" : "Current techniques for privacy auditing of large language models (LLMs) have\nlimited efficacy -- they rely on basic approaches to generate canaries which\nleads to weak membership inference attacks that in turn give loose lower bounds\non the empirical privacy leakage. We develop canaries that are far more\neffective than those used in prior work under threat models that cover a range\nof realistic settings. We demonstrate through extensive experiments on multiple\nfamilies of fine-tuned LLMs that our approach sets a new standard for detection\nof privacy leakage. For measuring the memorization rate of non-privately\ntrained LLMs, our designed canaries surpass prior approaches. For example, on\nthe Qwen2.5-0.5B model, our designed canaries achieve $49.6\\%$ TPR at $1\\%$\nFPR, vastly surpassing the prior approach's $4.2\\%$ TPR at $1\\%$ FPR. Our\nmethod can be used to provide a privacy audit of $\\varepsilon \\approx 1$ for a\nmodel trained with theoretical $\\varepsilon$ of 4. To the best of our\nknowledge, this is the first time that a privacy audit of LLM training has\nachieved nontrivial auditing success in the setting where the attacker cannot\ntrain shadow models, insert gradient canaries, or access the model at every\niteration.",
+    "updated" : "2025-03-09T23:32:15Z",
+    "published" : "2025-03-09T23:32:15Z",
+    "authors" : [
+      {
+        "name" : "Ashwinee Panda"
+      },
+      {
+        "name" : "Xinyu Tang"
+      },
+      {
+        "name" : "Milad Nasr"
+      },
+      {
+        "name" : "Christopher A. Choquette-Choo"
+      },
+      {
+        "name" : "Prateek Mittal"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.06732v1",
+    "title" : "Data Efficient Subset Training with Differential Privacy",
+    "summary" : "Private machine learning introduces a trade-off between the privacy budget\nand training performance. Training convergence is substantially slower and\nextensive hyper parameter tuning is required. Consequently, efficient methods\nto conduct private training of models is thoroughly investigated in the\nliterature. To this end, we investigate the strength of the data efficient\nmodel training methods in the private training setting. We adapt GLISTER\n(Killamsetty et al., 2021b) to the private setting and extensively assess its\nperformance. We empirically find that practical choices of privacy budgets are\ntoo restrictive for data efficient training in the private setting.",
+    "updated" : "2025-03-09T19:05:10Z",
+    "published" : "2025-03-09T19:05:10Z",
+    "authors" : [
+      {
+        "name" : "Ninad Jayesh Gandhi"
+      },
+      {
+        "name" : "Moparthy Venkata Subrahmanya Sri Harsha"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.06455v1",
+    "title" : "Privacy Protection in Prosumer Energy Management Based on Federated\n  Learning",
+    "summary" : "With the booming development of prosumers, there is an urgent need for a\nprosumer energy management system to take full advantage of the flexibility of\nprosumers and take into account the interests of other parties. However,\nbuilding such a system will undoubtedly reveal users' privacy. In this paper,\nby solving the non-independent and identical distribution of data (Non-IID)\nproblem in federated learning with federated cluster average(FedClusAvg)\nalgorithm, prosumers' information can efficiently participate in the\nintelligent decision making of the system without revealing privacy. In the\nproposed FedClusAvg algorithm, each client performs cluster stratified sampling\nand multiple iterations. Then, the average weight of the parameters of the\nsub-server is determined according to the degree of deviation of the parameter\nfrom the average parameter. Finally, the sub-server multiple local iterations\nand updates, and then upload to the main server. The advantages of FedClusAvg\nalgorithm are the following two parts. First, the accuracy of the model in the\ncase of Non-IID is improved through the method of clustering and parameter\nweighted average. Second, local multiple iterations and three-tier framework\ncan effectively reduce communication rounds.",
+    "updated" : "2025-03-09T05:29:29Z",
+    "published" : "2025-03-09T05:29:29Z",
+    "authors" : [
+      {
+        "name" : "Yunfeng Li"
+      },
+      {
+        "name" : "Xiaolin Li Zhitao Li"
+      },
+      {
+        "name" : "Gangqiang Li"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.06150v1",
+    "title" : "Do Fairness Interventions Come at the Cost of Privacy: Evaluations for\n  Binary Classifiers",
+    "summary" : "While in-processing fairness approaches show promise in mitigating biased\npredictions, their potential impact on privacy leakage remains under-explored.\nWe aim to address this gap by assessing the privacy risks of fairness-enhanced\nbinary classifiers via membership inference attacks (MIAs) and attribute\ninference attacks (AIAs). Surprisingly, our results reveal that enhancing\nfairness does not necessarily lead to privacy compromises. For example, these\nfairness interventions exhibit increased resilience against MIAs and AIAs. This\nis because fairness interventions tend to remove sensitive information among\nextracted features and reduce confidence scores for the majority of training\ndata for fairer predictions. However, during the evaluations, we uncover a\npotential threat mechanism that exploits prediction discrepancies between fair\nand biased models, leading to advanced attack results for both MIAs and AIAs.\nThis mechanism reveals potent vulnerabilities of fair models and poses\nsignificant privacy risks of current fairness methods. Extensive experiments\nacross multiple datasets, attack methods, and representative fairness\napproaches confirm our findings and demonstrate the efficacy of the uncovered\nmechanism. Our study exposes the under-explored privacy threats in fairness\nstudies, advocating for thorough evaluations of potential security\nvulnerabilities before model deployments.",
+    "updated" : "2025-03-08T10:21:21Z",
+    "published" : "2025-03-08T10:21:21Z",
+    "authors" : [
+      {
+        "name" : "Huan Tian"
+      },
+      {
+        "name" : "Guangsheng Zhang"
+      },
+      {
+        "name" : "Bo Liu"
+      },
+      {
+        "name" : "Tianqing Zhu"
+      },
+      {
+        "name" : "Ming Ding"
+      },
+      {
+        "name" : "Wanlei Zhou"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.06021v1",
+    "title" : "FedEM: A Privacy-Preserving Framework for Concurrent Utility\n  Preservation in Federated Learning",
+    "summary" : "Federated Learning (FL) enables collaborative training of models across\ndistributed clients without sharing local data, addressing privacy concerns in\ndecentralized systems. However, the gradient-sharing process exposes private\ndata to potential leakage, compromising FL's privacy guarantees in real-world\napplications. To address this issue, we propose Federated Error Minimization\n(FedEM), a novel algorithm that incorporates controlled perturbations through\nadaptive noise injection. This mechanism effectively mitigates gradient leakage\nattacks while maintaining model performance. Experimental results on benchmark\ndatasets demonstrate that FedEM significantly reduces privacy risks and\npreserves model accuracy, achieving a robust balance between privacy protection\nand utility preservation.",
+    "updated" : "2025-03-08T02:48:00Z",
+    "published" : "2025-03-08T02:48:00Z",
+    "authors" : [
+      {
+        "name" : "Mingcong Xu"
+      },
+      {
+        "name" : "Xiaojin Zhang"
+      },
+      {
+        "name" : "Wei Chen"
+      },
+      {
+        "name" : "Hai Jin"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.05954v1",
+    "title" : "A Survey on Tabular Data Generation: Utility, Alignment, Fidelity,\n  Privacy, and Beyond",
+    "summary" : "Generative modelling has become the standard approach for synthesising\ntabular data. However, different use cases demand synthetic data to comply with\ndifferent requirements to be useful in practice. In this survey, we review deep\ngenerative modelling approaches for tabular data from the perspective of four\ntypes of requirements: utility of the synthetic data, alignment of the\nsynthetic data with domain-specific knowledge, statistical fidelity of the\nsynthetic data distribution compared to the real data distribution, and\nprivacy-preserving capabilities. We group the approaches along two levels of\ngranularity: (i) based on the primary type of requirements they address and\n(ii) according to the underlying model they utilise. Additionally, we summarise\nthe appropriate evaluation methods for each requirement and the specific\ncharacteristics of each model type. Finally, we discuss future directions for\nthe field, along with opportunities to improve the current evaluation methods.\nOverall, this survey can be seen as a user guide to tabular data generation:\nhelping readers navigate available models and evaluation methods to find those\nbest suited to their needs.",
+    "updated" : "2025-03-07T21:47:11Z",
+    "published" : "2025-03-07T21:47:11Z",
+    "authors" : [
+      {
+        "name" : "Mihaela Cătălina Stoian"
+      },
+      {
+        "name" : "Eleonora Giunchiglia"
+      },
+      {
+        "name" : "Thomas Lukasiewicz"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.07483v1",
+    "title" : "Poisoning Attacks to Local Differential Privacy Protocols for Trajectory\n  Data",
+    "summary" : "Trajectory data, which tracks movements through geographic locations, is\ncrucial for improving real-world applications. However, collecting such\nsensitive data raises considerable privacy concerns. Local differential privacy\n(LDP) offers a solution by allowing individuals to locally perturb their\ntrajectory data before sharing it. Despite its privacy benefits, LDP protocols\nare vulnerable to data poisoning attacks, where attackers inject fake data to\nmanipulate aggregated results. In this work, we make the first attempt to\nanalyze vulnerabilities in several representative LDP trajectory protocols. We\npropose \\textsc{TraP}, a heuristic algorithm for data \\underline{P}oisoning\nattacks using a prefix-suffix method to optimize fake \\underline{Tra}jectory\nselection, significantly reducing computational complexity. Our experimental\nresults demonstrate that our attack can substantially increase target pattern\noccurrences in the perturbed trajectory dataset with few fake users. This study\nunderscores the urgent need for robust defenses and better protocol designs to\nsafeguard LDP trajectory data against malicious manipulation.",
+    "updated" : "2025-03-06T02:31:45Z",
+    "published" : "2025-03-06T02:31:45Z",
+    "authors" : [
+      {
+        "name" : "I-Jung Hsu"
+      },
+      {
+        "name" : "Chih-Hsun Lin"
+      },
+      {
+        "name" : "Chia-Mu Yu"
+      },
+      {
+        "name" : "Sy-Yen Kuo"
+      },
+      {
+        "name" : "Chun-Ying Huang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
   }
 ]
