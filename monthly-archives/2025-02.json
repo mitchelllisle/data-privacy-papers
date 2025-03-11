@@ -3119,5 +3119,50 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.05786v1",
+    "title" : "FedMentalCare: Towards Privacy-Preserving Fine-Tuned LLMs to Analyze\n  Mental Health Status Using Federated Learning Framework",
+    "summary" : "With the increasing prevalence of mental health conditions worldwide,\nAI-powered chatbots and conversational agents have emerged as accessible tools\nto support mental health. However, deploying Large Language Models (LLMs) in\nmental healthcare applications raises significant privacy concerns, especially\nregarding regulations like HIPAA and GDPR. In this work, we propose\nFedMentalCare, a privacy-preserving framework that leverages Federated Learning\n(FL) combined with Low-Rank Adaptation (LoRA) to fine-tune LLMs for mental\nhealth analysis. We investigate the performance impact of varying client data\nvolumes and model architectures (e.g., MobileBERT and MiniLM) in FL\nenvironments. Our framework demonstrates a scalable, privacy-aware approach for\ndeploying LLMs in real-world mental healthcare scenarios, addressing data\nsecurity and computational efficiency challenges.",
+    "updated" : "2025-02-27T07:04:19Z",
+    "published" : "2025-02-27T07:04:19Z",
+    "authors" : [
+      {
+        "name" : "S M Sarwar"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.HC",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.13833v2",
+    "title" : "Contrastive Learning-Based privacy metrics in Tabular Synthetic Datasets",
+    "summary" : "Synthetic data has garnered attention as a Privacy Enhancing Technology (PET)\nin sectors such as healthcare and finance. When using synthetic data in\npractical applications, it is important to provide protection guarantees. In\nthe literature, two family of approaches are proposed for tabular data: on the\none hand, Similarity-based methods aim at finding the level of similarity\nbetween training and synthetic data. Indeed, a privacy breach can occur if the\ngenerated data is consistently too similar or even identical to the train data.\nOn the other hand, Attack-based methods conduce deliberate attacks on synthetic\ndatasets. The success rates of these attacks reveal how secure the synthetic\ndatasets are.\n  In this paper, we introduce a contrastive method that improves privacy\nassessment of synthetic datasets by embedding the data in a more representative\nspace. This overcomes obstacles surrounding the multitude of data types and\nattributes. It also makes the use of intuitive distance metrics possible for\nsimilarity measurements and as an attack vector. In a series of experiments\nwith publicly available datasets, we compare the performances of\nsimilarity-based and attack-based methods, both with and without use of the\ncontrastive learning-based embeddings. Our results show that relatively\nefficient, easy to implement privacy metrics can perform equally well as more\nadvanced metrics explicitly modeling conditions for privacy referred to by the\nGDPR.",
+    "updated" : "2025-03-10T09:01:19Z",
+    "published" : "2025-02-19T15:52:23Z",
+    "authors" : [
+      {
+        "name" : "Milton Nicolás Plasencia Palacios"
+      },
+      {
+        "name" : "Sebastiano Saccani"
+      },
+      {
+        "name" : "Gabriele Sgroi"
+      },
+      {
+        "name" : "Alexander Boudewijn"
+      },
+      {
+        "name" : "Luca Bortolussi"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
   }
 ]
