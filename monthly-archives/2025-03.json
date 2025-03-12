@@ -1121,5 +1121,233 @@
       "cs.CR",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.08568v1",
+    "title" : "Privacy Law Enforcement Under Centralized Governance: A Qualitative\n  Analysis of Four Years' Special Privacy Rectification Campaigns",
+    "summary" : "In recent years, major privacy laws like the GDPR have brought about positive\nchanges. However, challenges remain in enforcing the laws, particularly due to\nunder-resourced regulators facing a large number of potential privacy-violating\nsoftware applications (apps) and the high costs of investigating them. Since\n2019, China has launched a series of privacy enforcement campaigns known as\nSpecial Privacy Rectification Campaigns (SPRCs) to address widespread privacy\nviolations in its mobile application (app) ecosystem. Unlike the enforcement of\nthe GDPR, SPRCs are characterized by large-scale privacy reviews and strict\nsanctions, under the strong control of central authorities. In SPRCs, central\ngovernment authorities issue administrative orders to mobilize various\nresources for market-wide privacy reviews of mobile apps. They enforce strict\nsanctions by requiring privacy-violating apps to rectify issues within a short\ntimeframe or face removal from app stores. While there are a few reports on\nSPRCs, the effectiveness and potential problems of this campaign-style privacy\nenforcement approach remain unclear to the community. In this study, we\nconducted 18 semi-structured interviews with app-related engineers involved in\nSPRCs to better understand the campaign-style privacy enforcement. Based on the\ninterviews, we reported our findings on a variety of aspects of SPRCs, such as\nthe processes that app engineers regularly follow to achieve privacy compliance\nin SPRCs, the challenges they encounter, the solutions they adopt to address\nthese challenges, and the impacts of SPRCs, etc. We found that app engineers\nface a series of challenges in achieving privacy compliance in their apps...",
+    "updated" : "2025-03-11T15:56:09Z",
+    "published" : "2025-03-11T15:56:09Z",
+    "authors" : [
+      {
+        "name" : "Tao Jing"
+      },
+      {
+        "name" : "Yao Li"
+      },
+      {
+        "name" : "Jingzhou Ye"
+      },
+      {
+        "name" : "Jie Wang"
+      },
+      {
+        "name" : "Xueqiang Wang"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.08297v1",
+    "title" : "Privacy for Free: Leveraging Local Differential Privacy Perturbed Data\n  from Multiple Services",
+    "summary" : "Local Differential Privacy (LDP) has emerged as a widely adopted\nprivacy-preserving technique in modern data analytics, enabling users to share\nstatistical insights while maintaining robust privacy guarantees. However,\ncurrent LDP applications assume a single service gathering perturbed\ninformation from users. In reality, multiple services may be interested in\ncollecting users' data, which poses privacy burdens to users as more such\nservices emerge. To address this issue, this paper proposes a framework for\ncollecting and aggregating data based on perturbed information from multiple\nservices, regardless of their estimated statistics (e.g., mean or distribution)\nand perturbation mechanisms.\n  Then for mean estimation, we introduce the Unbiased Averaging (UA) method and\nits optimized version, User-level Weighted Averaging (UWA). The former utilizes\nbiased perturbed data, while the latter assigns weights to different perturbed\nresults based on perturbation information, thereby achieving minimal variance.\nFor distribution estimation, we propose the User-level Likelihood Estimation\n(ULE), which treats all perturbed results from a user as a whole for maximum\nlikelihood estimation. Experimental results demonstrate that our framework and\nconstituting methods significantly improve the accuracy of both mean and\ndistribution estimation.",
+    "updated" : "2025-03-11T11:10:03Z",
+    "published" : "2025-03-11T11:10:03Z",
+    "authors" : [
+      {
+        "name" : "Rong Du"
+      },
+      {
+        "name" : "Qingqing Ye"
+      },
+      {
+        "name" : "Yue Fu"
+      },
+      {
+        "name" : "Haibo Hu"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.08175v1",
+    "title" : "Privacy-Enhancing Paradigms within Federated Multi-Agent Systems",
+    "summary" : "LLM-based Multi-Agent Systems (MAS) have proven highly effective in solving\ncomplex problems by integrating multiple agents, each performing different\nroles. However, in sensitive domains, they face emerging privacy protection\nchallenges. In this paper, we introduce the concept of Federated MAS,\nhighlighting the fundamental differences between Federated MAS and traditional\nFL. We then identify key challenges in developing Federated MAS, including: 1)\nheterogeneous privacy protocols among agents, 2) structural differences in\nmulti-party conversations, and 3) dynamic conversational network structures. To\naddress these challenges, we propose Embedded Privacy-Enhancing Agents\n(EPEAgent), an innovative solution that integrates seamlessly into the\nRetrieval-Augmented Generation (RAG) phase and the context retrieval stage.\nThis solution minimizes data flows, ensuring that only task-relevant,\nagent-specific information is shared. Additionally, we design and generate a\ncomprehensive dataset to evaluate the proposed paradigm. Extensive experiments\ndemonstrate that EPEAgent effectively enhances privacy protection while\nmaintaining strong system performance. The code will be availiable at\nhttps://github.com/ZitongShi/EPEAgent",
+    "updated" : "2025-03-11T08:38:45Z",
+    "published" : "2025-03-11T08:38:45Z",
+    "authors" : [
+      {
+        "name" : "Zitong Shi"
+      },
+      {
+        "name" : "Guancheng Wan"
+      },
+      {
+        "name" : "Wenke Huang"
+      },
+      {
+        "name" : "Guibin Zhang"
+      },
+      {
+        "name" : "Jiawei Shao"
+      },
+      {
+        "name" : "Mang Ye"
+      },
+      {
+        "name" : "Carl Yang"
+      }
+    ],
+    "categories" : [
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.08085v1",
+    "title" : "PRISM: Privacy-Preserving Improved Stochastic Masking for Federated\n  Generative Models",
+    "summary" : "Despite recent advancements in federated learning (FL), the integration of\ngenerative models into FL has been limited due to challenges such as high\ncommunication costs and unstable training in heterogeneous data environments.\nTo address these issues, we propose PRISM, a FL framework tailored for\ngenerative models that ensures (i) stable performance in heterogeneous data\ndistributions and (ii) resource efficiency in terms of communication cost and\nfinal model size. The key of our method is to search for an optimal stochastic\nbinary mask for a random network rather than updating the model weights,\nidentifying a sparse subnetwork with high generative performance; i.e., a\n``strong lottery ticket''. By communicating binary masks in a stochastic\nmanner, PRISM minimizes communication overhead. This approach, combined with\nthe utilization of maximum mean discrepancy (MMD) loss and a mask-aware dynamic\nmoving average aggregation method (MADA) on the server side, facilitates stable\nand strong generative capabilities by mitigating local divergence in FL\nscenarios. Moreover, thanks to its sparsifying characteristic, PRISM yields a\nlightweight model without extra pruning or quantization, making it ideal for\nenvironments such as edge devices. Experiments on MNIST, FMNIST, CelebA, and\nCIFAR10 demonstrate that PRISM outperforms existing methods, while maintaining\nprivacy with minimal communication costs. PRISM is the first to successfully\ngenerate images under challenging non-IID and privacy-preserving FL\nenvironments on complex datasets, where previous methods have struggled.",
+    "updated" : "2025-03-11T06:37:54Z",
+    "published" : "2025-03-11T06:37:54Z",
+    "authors" : [
+      {
+        "name" : "Kyeongkook Seo"
+      },
+      {
+        "name" : "Dong-Jun Han"
+      },
+      {
+        "name" : "Jaejun Yoo"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.07775v1",
+    "title" : "Sublinear Algorithms for Wasserstein and Total Variation Distances:\n  Applications to Fairness and Privacy Auditing",
+    "summary" : "Resource-efficiently computing representations of probability distributions\nand the distances between them while only having access to the samples is a\nfundamental and useful problem across mathematical sciences. In this paper, we\npropose a generic algorithmic framework to estimate the PDF and CDF of any\nsub-Gaussian distribution while the samples from them arrive in a stream. We\ncompute mergeable summaries of distributions from the stream of samples that\nrequire sublinear space w.r.t. the number of observed samples. This allows us\nto estimate Wasserstein and Total Variation (TV) distances between any two\nsub-Gaussian distributions while samples arrive in streams and from multiple\nsources (e.g. federated learning). Our algorithms significantly improves on the\nexisting methods for distance estimation incurring super-linear time and linear\nspace complexities. In addition, we use the proposed estimators of Wasserstein\nand TV distances to audit the fairness and privacy of the ML algorithms. We\nempirically demonstrate the efficiency of the algorithms for estimating these\ndistances and auditing using both synthetic and real-world datasets.",
+    "updated" : "2025-03-10T18:57:48Z",
+    "published" : "2025-03-10T18:57:48Z",
+    "authors" : [
+      {
+        "name" : "Debabrota Basu"
+      },
+      {
+        "name" : "Debarshi Chanda"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CY",
+      "cs.DS",
+      "stat.CO"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.07570v1",
+    "title" : "Split-n-Chain: Privacy-Preserving Multi-Node Split Learning with\n  Blockchain-Based Auditability",
+    "summary" : "Deep learning, when integrated with a large amount of training data, has the\npotential to outperform machine learning in terms of high accuracy. Recently,\nprivacy-preserving deep learning has drawn significant attention of the\nresearch community. Different privacy notions in deep learning include privacy\nof data provided by data-owners and privacy of parameters and/or\nhyperparameters of the underlying neural network. Federated learning is a\npopular privacy-preserving execution environment where data-owners participate\nin learning the parameters collectively without leaking their respective data\nto other participants. However, federated learning suffers from certain\nsecurity/privacy issues. In this paper, we propose Split-n-Chain, a variant of\nsplit learning where the layers of the network are split among several\ndistributed nodes. Split-n-Chain achieves several privacy properties:\ndata-owners need not share their training data with other nodes, and no nodes\nhave access to the parameters and hyperparameters of the neural network (except\nthat of the respective layers they hold). Moreover, Split-n-Chain uses\nblockchain to audit the computation done by different nodes. Our experimental\nresults show that: Split-n-Chain is efficient, in terms of time required to\nexecute different phases, and the training loss trend is similar to that for\nthe same neural network when implemented in a monolithic fashion.",
+    "updated" : "2025-03-10T17:40:05Z",
+    "published" : "2025-03-10T17:40:05Z",
+    "authors" : [
+      {
+        "name" : "Mukesh Sahani"
+      },
+      {
+        "name" : "Binanda Sengupta"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.07505v1",
+    "title" : "From Centralized to Decentralized Federated Learning: Theoretical\n  Insights, Privacy Preservation, and Robustness Challenges",
+    "summary" : "Federated Learning (FL) enables collaborative learning without directly\nsharing individual's raw data. FL can be implemented in either a centralized\n(server-based) or decentralized (peer-to-peer) manner. In this survey, we\npresent a novel perspective: the fundamental difference between centralized FL\n(CFL) and decentralized FL (DFL) is not merely the network topology, but the\nunderlying training protocol: separate aggregation vs. joint optimization. We\nargue that this distinction in protocol leads to significant differences in\nmodel utility, privacy preservation, and robustness to attacks. We\nsystematically review and categorize existing works in both CFL and DFL\naccording to the type of protocol they employ. This taxonomy provides deeper\ninsights into prior research and clarifies how various approaches relate or\ndiffer. Through our analysis, we identify key gaps in the literature. In\nparticular, we observe a surprising lack of exploration of DFL approaches based\non distributed optimization methods, despite their potential advantages. We\nhighlight this under-explored direction and call for more research on\nleveraging distributed optimization for federated learning. Overall, this work\noffers a comprehensive overview from centralized to decentralized FL, sheds new\nlight on the core distinctions between approaches, and outlines open challenges\nand future directions for the field.",
+    "updated" : "2025-03-10T16:27:40Z",
+    "published" : "2025-03-10T16:27:40Z",
+    "authors" : [
+      {
+        "name" : "Qiongxiu Li"
+      },
+      {
+        "name" : "Wenrui Yu"
+      },
+      {
+        "name" : "Yufei Xia"
+      },
+      {
+        "name" : "Jun Pang"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.07216v2",
+    "title" : "FedRand: Enhancing Privacy in Federated Learning with Randomized LoRA\n  Subparameter Updates",
+    "summary" : "Federated Learning (FL) is a widely used framework for training models in a\ndecentralized manner, ensuring that the central server does not have direct\naccess to data from local clients. However, this approach may still fail to\nfully preserve data privacy, as models from local clients are exposed to the\ncentral server during the aggregation process. This issue becomes even more\ncritical when training vision-language models (VLMs) with FL, as VLMs can\neasily memorize training data instances, making them vulnerable to membership\ninference attacks (MIAs). To address this challenge, we propose the FedRand\nframework, which avoids disclosing the full set of client parameters. In this\nframework, each client randomly selects subparameters of Low-Rank Adaptation\n(LoRA) from the server and keeps the remaining counterparts of the LoRA weights\nas private parameters. After training both parameters on the client's private\ndataset, only the non-private client parameters are sent back to the server for\naggregation. This approach mitigates the risk of exposing client-side VLM\nparameters, thereby enhancing data privacy. We empirically validate that\nFedRand improves robustness against MIAs compared to relevant baselines while\nachieving accuracy comparable to methods that communicate full LoRA parameters\nacross several benchmark datasets.",
+    "updated" : "2025-03-11T12:49:15Z",
+    "published" : "2025-03-10T11:55:50Z",
+    "authors" : [
+      {
+        "name" : "Sangwoo Park"
+      },
+      {
+        "name" : "Seanie Lee"
+      },
+      {
+        "name" : "Byungjoo Kim"
+      },
+      {
+        "name" : "Sung Ju Hwang"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.06150v2",
+    "title" : "Do Fairness Interventions Come at the Cost of Privacy: Evaluations for\n  Binary Classifiers",
+    "summary" : "While in-processing fairness approaches show promise in mitigating biased\npredictions, their potential impact on privacy leakage remains under-explored.\nWe aim to address this gap by assessing the privacy risks of fairness-enhanced\nbinary classifiers via membership inference attacks (MIAs) and attribute\ninference attacks (AIAs). Surprisingly, our results reveal that enhancing\nfairness does not necessarily lead to privacy compromises. For example, these\nfairness interventions exhibit increased resilience against MIAs and AIAs. This\nis because fairness interventions tend to remove sensitive information among\nextracted features and reduce confidence scores for the majority of training\ndata for fairer predictions. However, during the evaluations, we uncover a\npotential threat mechanism that exploits prediction discrepancies between fair\nand biased models, leading to advanced attack results for both MIAs and AIAs.\nThis mechanism reveals potent vulnerabilities of fair models and poses\nsignificant privacy risks of current fairness methods. Extensive experiments\nacross multiple datasets, attack methods, and representative fairness\napproaches confirm our findings and demonstrate the efficacy of the uncovered\nmechanism. Our study exposes the under-explored privacy threats in fairness\nstudies, advocating for thorough evaluations of potential security\nvulnerabilities before model deployments.",
+    "updated" : "2025-03-11T11:28:18Z",
+    "published" : "2025-03-08T10:21:21Z",
+    "authors" : [
+      {
+        "name" : "Huan Tian"
+      },
+      {
+        "name" : "Guangsheng Zhang"
+      },
+      {
+        "name" : "Bo Liu"
+      },
+      {
+        "name" : "Tianqing Zhu"
+      },
+      {
+        "name" : "Ming Ding"
+      },
+      {
+        "name" : "Wanlei Zhou"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
   }
 ]
