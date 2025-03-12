@@ -541,7 +541,7 @@ open-sourced at https://github.com/PIN-AI/God-Model.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.17591v1">Proactive Privacy Amnesia for Large Language Models: Safeguarding PII
+  <h3><a href="http://arxiv.org/abs/2502.17591v2">Proactive Privacy Amnesia for Large Language Models: Safeguarding PII
   with Negligible Impact on Model Utility</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
   <p><b>Published on:</b> 2025-02-24T19:16:39Z</p>
@@ -1441,209 +1441,223 @@ a promising approach.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.11533v1">Be Cautious When Merging Unfamiliar LLMs: A Phishing Model Capable of
-  Stealing Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2025-02-17T08:04:52Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zhenyuan Guo, Yi Shi, Wenlong Meng, Chen Gong, Chengkun Wei, Wenzhi Chen</p>
-    <p><b>Summary:</b> Model merging is a widespread technology in large language models (LLMs) that
-integrates multiple task-specific LLMs into a unified one, enabling the merged
-model to inherit the specialized capabilities of these LLMs. Most task-specific
-LLMs are sourced from open-source communities and have not undergone rigorous
-auditing, potentially imposing risks in model merging. This paper highlights an
-overlooked privacy risk: \textit{an unsafe model could compromise the privacy
-of other LLMs involved in the model merging.} Specifically, we propose PhiMM, a
-privacy attack approach that trains a phishing model capable of stealing
-privacy using a crafted privacy phishing instruction dataset. Furthermore, we
-introduce a novel model cloaking method that mimics a specialized capability to
-conceal attack intent, luring users into merging the phishing model. Once
-victims merge the phishing model, the attacker can extract personally
-identifiable information (PII) or infer membership information (MI) by querying
-the merged model with the phishing instruction. Experimental results show that
-merging a phishing model increases the risk of privacy breaches. Compared to
-the results before merging, PII leakage increased by 3.9\% and MI leakage
-increased by 17.4\% on average. We release the code of PhiMM through a link.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.11163v1">VLMs as GeoGuessr Masters: Exceptional Performance, Hidden Biases, and
-  Privacy Risks</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2025-02-16T15:28:34Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jingyuan Huang, Jen-tse Huang, Ziyi Liu, Xiaoyuan Liu, Wenxuan Wang, Jieyu Zhao</p>
-    <p><b>Summary:</b> Visual-Language Models (VLMs) have shown remarkable performance across
-various tasks, particularly in recognizing geographic information from images.
-However, significant challenges remain, including biases and privacy concerns.
-To systematically address these issues in the context of geographic information
-recognition, we introduce a benchmark dataset consisting of 1,200 images paired
-with detailed geographic metadata. Evaluating four VLMs, we find that while
-these models demonstrate the ability to recognize geographic information from
-images, achieving up to $53.8\%$ accuracy in city prediction, they exhibit
-significant regional biases. Specifically, performance is substantially higher
-for economically developed and densely populated regions compared to less
-developed ($-12.5\%$) and sparsely populated ($-17.0\%$) areas. Moreover, the
-models exhibit regional biases, frequently overpredicting certain locations;
-for instance, they consistently predict Sydney for images taken in Australia.
-The strong performance of VLMs also raises privacy concerns, particularly for
-users who share images online without the intent of being identified. Our code
-and dataset are publicly available at
-https://github.com/uscnlp-lime/FairLocator.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.11009v2">Computing Inconsistency Measures Under Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
-  <p><b>Published on:</b> 2025-02-16T06:23:11Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shubhankar Mohapatra, Amir Gilad, Xi He, Benny Kimelfeld</p>
-    <p><b>Summary:</b> Assessing data quality is crucial to knowing whether and how to use the data
-for different purposes. Specifically, given a collection of integrity
-constraints, various ways have been proposed to quantify the inconsistency of a
-database. Inconsistency measures are particularly important when we wish to
-assess the quality of private data without revealing sensitive information. We
-study the estimation of inconsistency measures for a database protected under
-Differential Privacy (DP). Such estimation is nontrivial since some measures
-intrinsically query sensitive information, and the computation of others
-involves functions on underlying sensitive data. Among five inconsistency
-measures that have been proposed in recent work, we identify that two are
-intractable in the DP setting. The major challenge for the other three is high
-sensitivity: adding or removing one tuple from the dataset may significantly
-affect the outcome. To mitigate that, we model the dataset using a conflict
-graph and investigate private graph statistics to estimate these measures. The
-proposed machinery includes adapting graph-projection techniques with parameter
-selection optimizations on the conflict graph and a DP variant of approximate
-vertex cover size. We experimentally show that we can effectively compute DP
-estimates of the three measures on five real-world datasets with denial
-constraints, where the density of the conflict graphs highly varies.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.10997v1">New Rates in Stochastic Decision-Theoretic Online Learning under
-  Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B">
-  <p><b>Published on:</b> 2025-02-16T05:13:51Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ruihan Wu, Yu-Xiang Wang</p>
-    <p><b>Summary:</b> Hu and Mehta (2024) posed an open problem: what is the optimal
-instance-dependent rate for the stochastic decision-theoretic online learning
-(with $K$ actions and $T$ rounds) under $\varepsilon$-differential privacy?
-Before, the best known upper bound and lower bound are $O\left(\frac{\log
-K}{\Delta_{\min}} + \frac{\log K\log T}{\varepsilon}\right)$ and
-$\Omega\left(\frac{\log K}{\Delta_{\min}} + \frac{\log K}{\varepsilon}\right)$
-(where $\Delta_{\min}$ is the gap between the optimal and the second actions).
-In this paper, we partially address this open problem by having two new
-results. First, we provide an improved upper bound for this problem
-$O\left(\frac{\log K}{\Delta_{\min}} + \frac{\log^2K}{\varepsilon}\right)$,
-where the $T$-dependency has been removed. Second, we introduce the
-deterministic setting, a weaker setting of this open problem, where the
-received loss vector is deterministic and we can focus on the analysis for
-$\varepsilon$ regardless of the sampling error. At the deterministic setting,
-we prove upper and lower bounds that match at $\Theta\left(\frac{\log
-K}{\varepsilon}\right)$, while a direct application of the analysis and
-algorithms from the original setting still leads to an extra log factor.
-Technically, we introduce the Bernoulli resampling trick, which enforces a
-monotonic property for the output from report-noisy-max mechanism that enables
-a tighter analysis. Moreover, by replacing the Laplace noise with Gumbel noise,
-we derived explicit integral form that gives a tight characterization of the
-regret in the deterministic case.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.10801v1">FaceSwapGuard: Safeguarding Facial Privacy from DeepFake Threats through
-  Identity Obfuscation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2025-02-15T13:45:19Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Li Wang, Zheng Li, Xuhong Zhang, Shouling Ji, Shanqing Guo</p>
-    <p><b>Summary:</b> DeepFakes pose a significant threat to our society. One representative
-DeepFake application is face-swapping, which replaces the identity in a facial
-image with that of a victim. Although existing methods partially mitigate these
-risks by degrading the quality of swapped images, they often fail to disrupt
-the identity transformation effectively. To fill this gap, we propose
-FaceSwapGuard (FSG), a novel black-box defense mechanism against deepfake
-face-swapping threats. Specifically, FSG introduces imperceptible perturbations
-to a user's facial image, disrupting the features extracted by identity
-encoders. When shared online, these perturbed images mislead face-swapping
-techniques, causing them to generate facial images with identities
-significantly different from the original user. Extensive experiments
-demonstrate the effectiveness of FSG against multiple face-swapping techniques,
-reducing the face match rate from 90\% (without defense) to below 10\%. Both
-qualitative and quantitative studies further confirm its ability to confuse
-human perception, highlighting its practical utility. Additionally, we
-investigate key factors that may influence FSG and evaluate its robustness
-against various adaptive adversaries.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.10788v2">Analyzing Privacy Dynamics within Groups using Gamified Auctions</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2025-02-15T12:48:30Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Hüseyin Aydın, Onuralp Ulusoy, Ilaria Liccardi, Pınar Yolum</p>
-    <p><b>Summary:</b> Online shared content, such as group pictures, often contains information
-about multiple users. Developing technical solutions to manage the privacy of
-such "co-owned" content is challenging because each co-owner may have different
-preferences. Recent technical approaches advocate group-decision mechanisms,
-including auctions, to decide as how best to resolve these differences.
-However, it is not clear if users would participate in such mechanisms and if
-they do, whether they would act altruistically. Understanding the privacy
-dynamics is crucial to develop effective mechanisms for privacy-respecting
-collaborative systems. Accordingly, this work develops RESOLVE, a privacy
-auction game to understand the sharing behavior of users in groups. Our results
-of users' playing the game show that i) the users' understanding of individual
-vs. group privacy differs significantly; ii) often users fight for their
-preferences even at the cost of others' privacy; and iii) at times users
-collaborate to fight for the privacy of others.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.10701v1">Unpacking the Layers: Exploring Self-Disclosure Norms, Engagement
-  Dynamics, and Privacy Implications</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Social and Information Networks-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2025-02-15T07:15:09Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ehsan-Ul Haq, Shalini Jangra, Suparna De, Nishanth Sastry, Gareth Tyson</p>
-    <p><b>Summary:</b> This paper characterizes the self-disclosure behavior of Reddit users across
-11 different types of self-disclosure. We find that at least half of the users
-share some type of disclosure in at least 10% of their posts, with half of
-these posts having more than one type of disclosure. We show that different
-types of self-disclosure are likely to receive varying levels of engagement.
-For instance, a Sexual Orientation disclosure garners more comments than other
-self-disclosures. We also explore confounding factors that affect future
-self-disclosure. We show that users who receive interactions from
-(self-disclosure) specific subreddit members are more likely to disclose in the
-future. We also show that privacy risks due to self-disclosure extend beyond
-Reddit users themselves to include their close contacts, such as family and
-friends, as their information is also revealed. We develop a browser plugin for
-end-users to flag self-disclosure in their content.</p>
-  </details>
-</div>
-
-
 
 <h2>2025-03</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.08568v1">Privacy Law Enforcement Under Centralized Governance: A Qualitative
+  Analysis of Four Years' Special Privacy Rectification Campaigns</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-03-11T15:56:09Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Tao Jing, Yao Li, Jingzhou Ye, Jie Wang, Xueqiang Wang</p>
+    <p><b>Summary:</b> In recent years, major privacy laws like the GDPR have brought about positive
+changes. However, challenges remain in enforcing the laws, particularly due to
+under-resourced regulators facing a large number of potential privacy-violating
+software applications (apps) and the high costs of investigating them. Since
+2019, China has launched a series of privacy enforcement campaigns known as
+Special Privacy Rectification Campaigns (SPRCs) to address widespread privacy
+violations in its mobile application (app) ecosystem. Unlike the enforcement of
+the GDPR, SPRCs are characterized by large-scale privacy reviews and strict
+sanctions, under the strong control of central authorities. In SPRCs, central
+government authorities issue administrative orders to mobilize various
+resources for market-wide privacy reviews of mobile apps. They enforce strict
+sanctions by requiring privacy-violating apps to rectify issues within a short
+timeframe or face removal from app stores. While there are a few reports on
+SPRCs, the effectiveness and potential problems of this campaign-style privacy
+enforcement approach remain unclear to the community. In this study, we
+conducted 18 semi-structured interviews with app-related engineers involved in
+SPRCs to better understand the campaign-style privacy enforcement. Based on the
+interviews, we reported our findings on a variety of aspects of SPRCs, such as
+the processes that app engineers regularly follow to achieve privacy compliance
+in SPRCs, the challenges they encounter, the solutions they adopt to address
+these challenges, and the impacts of SPRCs, etc. We found that app engineers
+face a series of challenges in achieving privacy compliance in their apps...</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.08297v1">Privacy for Free: Leveraging Local Differential Privacy Perturbed Data
+  from Multiple Services</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-03-11T11:10:03Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Rong Du, Qingqing Ye, Yue Fu, Haibo Hu</p>
+    <p><b>Summary:</b> Local Differential Privacy (LDP) has emerged as a widely adopted
+privacy-preserving technique in modern data analytics, enabling users to share
+statistical insights while maintaining robust privacy guarantees. However,
+current LDP applications assume a single service gathering perturbed
+information from users. In reality, multiple services may be interested in
+collecting users' data, which poses privacy burdens to users as more such
+services emerge. To address this issue, this paper proposes a framework for
+collecting and aggregating data based on perturbed information from multiple
+services, regardless of their estimated statistics (e.g., mean or distribution)
+and perturbation mechanisms.
+  Then for mean estimation, we introduce the Unbiased Averaging (UA) method and
+its optimized version, User-level Weighted Averaging (UWA). The former utilizes
+biased perturbed data, while the latter assigns weights to different perturbed
+results based on perturbation information, thereby achieving minimal variance.
+For distribution estimation, we propose the User-level Likelihood Estimation
+(ULE), which treats all perturbed results from a user as a whole for maximum
+likelihood estimation. Experimental results demonstrate that our framework and
+constituting methods significantly improve the accuracy of both mean and
+distribution estimation.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.08175v1">Privacy-Enhancing Paradigms within Federated Multi-Agent Systems</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-03-11T08:38:45Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zitong Shi, Guancheng Wan, Wenke Huang, Guibin Zhang, Jiawei Shao, Mang Ye, Carl Yang</p>
+    <p><b>Summary:</b> LLM-based Multi-Agent Systems (MAS) have proven highly effective in solving
+complex problems by integrating multiple agents, each performing different
+roles. However, in sensitive domains, they face emerging privacy protection
+challenges. In this paper, we introduce the concept of Federated MAS,
+highlighting the fundamental differences between Federated MAS and traditional
+FL. We then identify key challenges in developing Federated MAS, including: 1)
+heterogeneous privacy protocols among agents, 2) structural differences in
+multi-party conversations, and 3) dynamic conversational network structures. To
+address these challenges, we propose Embedded Privacy-Enhancing Agents
+(EPEAgent), an innovative solution that integrates seamlessly into the
+Retrieval-Augmented Generation (RAG) phase and the context retrieval stage.
+This solution minimizes data flows, ensuring that only task-relevant,
+agent-specific information is shared. Additionally, we design and generate a
+comprehensive dataset to evaluate the proposed paradigm. Extensive experiments
+demonstrate that EPEAgent effectively enhances privacy protection while
+maintaining strong system performance. The code will be availiable at
+https://github.com/ZitongShi/EPEAgent</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.08085v1">PRISM: Privacy-Preserving Improved Stochastic Masking for Federated
+  Generative Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2025-03-11T06:37:54Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Kyeongkook Seo, Dong-Jun Han, Jaejun Yoo</p>
+    <p><b>Summary:</b> Despite recent advancements in federated learning (FL), the integration of
+generative models into FL has been limited due to challenges such as high
+communication costs and unstable training in heterogeneous data environments.
+To address these issues, we propose PRISM, a FL framework tailored for
+generative models that ensures (i) stable performance in heterogeneous data
+distributions and (ii) resource efficiency in terms of communication cost and
+final model size. The key of our method is to search for an optimal stochastic
+binary mask for a random network rather than updating the model weights,
+identifying a sparse subnetwork with high generative performance; i.e., a
+``strong lottery ticket''. By communicating binary masks in a stochastic
+manner, PRISM minimizes communication overhead. This approach, combined with
+the utilization of maximum mean discrepancy (MMD) loss and a mask-aware dynamic
+moving average aggregation method (MADA) on the server side, facilitates stable
+and strong generative capabilities by mitigating local divergence in FL
+scenarios. Moreover, thanks to its sparsifying characteristic, PRISM yields a
+lightweight model without extra pruning or quantization, making it ideal for
+environments such as edge devices. Experiments on MNIST, FMNIST, CelebA, and
+CIFAR10 demonstrate that PRISM outperforms existing methods, while maintaining
+privacy with minimal communication costs. PRISM is the first to successfully
+generate images under challenging non-IID and privacy-preserving FL
+environments on complex datasets, where previous methods have struggled.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.07775v1">Sublinear Algorithms for Wasserstein and Total Variation Distances:
+  Applications to Fairness and Privacy Auditing</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B"> 
+  <p><b>Published on:</b> 2025-03-10T18:57:48Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Debabrota Basu, Debarshi Chanda</p>
+    <p><b>Summary:</b> Resource-efficiently computing representations of probability distributions
+and the distances between them while only having access to the samples is a
+fundamental and useful problem across mathematical sciences. In this paper, we
+propose a generic algorithmic framework to estimate the PDF and CDF of any
+sub-Gaussian distribution while the samples from them arrive in a stream. We
+compute mergeable summaries of distributions from the stream of samples that
+require sublinear space w.r.t. the number of observed samples. This allows us
+to estimate Wasserstein and Total Variation (TV) distances between any two
+sub-Gaussian distributions while samples arrive in streams and from multiple
+sources (e.g. federated learning). Our algorithms significantly improves on the
+existing methods for distance estimation incurring super-linear time and linear
+space complexities. In addition, we use the proposed estimators of Wasserstein
+and TV distances to audit the fairness and privacy of the ML algorithms. We
+empirically demonstrate the efficiency of the algorithms for estimating these
+distances and auditing using both synthetic and real-world datasets.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.07570v1">Split-n-Chain: Privacy-Preserving Multi-Node Split Learning with
+  Blockchain-Based Auditability</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-03-10T17:40:05Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mukesh Sahani, Binanda Sengupta</p>
+    <p><b>Summary:</b> Deep learning, when integrated with a large amount of training data, has the
+potential to outperform machine learning in terms of high accuracy. Recently,
+privacy-preserving deep learning has drawn significant attention of the
+research community. Different privacy notions in deep learning include privacy
+of data provided by data-owners and privacy of parameters and/or
+hyperparameters of the underlying neural network. Federated learning is a
+popular privacy-preserving execution environment where data-owners participate
+in learning the parameters collectively without leaking their respective data
+to other participants. However, federated learning suffers from certain
+security/privacy issues. In this paper, we propose Split-n-Chain, a variant of
+split learning where the layers of the network are split among several
+distributed nodes. Split-n-Chain achieves several privacy properties:
+data-owners need not share their training data with other nodes, and no nodes
+have access to the parameters and hyperparameters of the neural network (except
+that of the respective layers they hold). Moreover, Split-n-Chain uses
+blockchain to audit the computation done by different nodes. Our experimental
+results show that: Split-n-Chain is efficient, in terms of time required to
+execute different phases, and the training loss trend is similar to that for
+the same neural network when implemented in a monolithic fashion.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.07505v1">From Centralized to Decentralized Federated Learning: Theoretical
+  Insights, Privacy Preservation, and Robustness Challenges</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
+  <p><b>Published on:</b> 2025-03-10T16:27:40Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Qiongxiu Li, Wenrui Yu, Yufei Xia, Jun Pang</p>
+    <p><b>Summary:</b> Federated Learning (FL) enables collaborative learning without directly
+sharing individual's raw data. FL can be implemented in either a centralized
+(server-based) or decentralized (peer-to-peer) manner. In this survey, we
+present a novel perspective: the fundamental difference between centralized FL
+(CFL) and decentralized FL (DFL) is not merely the network topology, but the
+underlying training protocol: separate aggregation vs. joint optimization. We
+argue that this distinction in protocol leads to significant differences in
+model utility, privacy preservation, and robustness to attacks. We
+systematically review and categorize existing works in both CFL and DFL
+according to the type of protocol they employ. This taxonomy provides deeper
+insights into prior research and clarifies how various approaches relate or
+differ. Through our analysis, we identify key gaps in the literature. In
+particular, we observe a surprising lack of exploration of DFL approaches based
+on distributed optimization methods, despite their potential advantages. We
+highlight this under-explored direction and call for more research on
+leveraging distributed optimization for federated learning. Overall, this work
+offers a comprehensive overview from centralized to decentralized FL, sheds new
+light on the core distinctions between approaches, and outlines open challenges
+and future directions for the field.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2503.07427v1">Creating and Evaluating Privacy and Security Micro-Lessons for
@@ -1676,7 +1690,7 @@ facilitating learning about these topics in school classrooms.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.07216v1">FedRand: Enhancing Privacy in Federated Learning with Randomized LoRA
+  <h3><a href="http://arxiv.org/abs/2503.07216v2">FedRand: Enhancing Privacy in Federated Learning with Randomized LoRA
   Subparameter Updates</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2025-03-10T11:55:50Z</p>
@@ -1838,7 +1852,7 @@ can effectively reduce communication rounds.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.06150v1">Do Fairness Interventions Come at the Cost of Privacy: Evaluations for
+  <h3><a href="http://arxiv.org/abs/2503.06150v2">Do Fairness Interventions Come at the Cost of Privacy: Evaluations for
   Binary Classifiers</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2025-03-08T10:21:21Z</p>
