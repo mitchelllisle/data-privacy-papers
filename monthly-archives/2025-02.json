@@ -3164,5 +3164,53 @@
       "cs.LG",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2502.17591v2",
+    "title" : "Proactive Privacy Amnesia for Large Language Models: Safeguarding PII\n  with Negligible Impact on Model Utility",
+    "summary" : "With the rise of large language models (LLMs), increasing research has\nrecognized their risk of leaking personally identifiable information (PII)\nunder malicious attacks. Although efforts have been made to protect PII in\nLLMs, existing methods struggle to balance privacy protection with maintaining\nmodel utility. In this paper, inspired by studies of amnesia in cognitive\nscience, we propose a novel approach, Proactive Privacy Amnesia (PPA), to\nsafeguard PII in LLMs while preserving their utility. This mechanism works by\nactively identifying and forgetting key memories most closely associated with\nPII in sequences, followed by a memory implanting using suitable substitute\nmemories to maintain the LLM's functionality. We conduct evaluations across\nmultiple models to protect common PII, such as phone numbers and physical\naddresses, against prevalent PII-targeted attacks, demonstrating the\nsuperiority of our method compared with other existing defensive techniques.\nThe results show that our PPA method completely eliminates the risk of phone\nnumber exposure by 100% and significantly reduces the risk of physical address\nexposure by 9.8% - 87.6%, all while maintaining comparable model utility\nperformance.",
+    "updated" : "2025-03-11T17:32:22Z",
+    "published" : "2025-02-24T19:16:39Z",
+    "authors" : [
+      {
+        "name" : "Martin Kuo"
+      },
+      {
+        "name" : "Jingyang Zhang"
+      },
+      {
+        "name" : "Jianyi Zhang"
+      },
+      {
+        "name" : "Minxue Tang"
+      },
+      {
+        "name" : "Louis DiValentin"
+      },
+      {
+        "name" : "Aolin Ding"
+      },
+      {
+        "name" : "Jingwei Sun"
+      },
+      {
+        "name" : "William Chen"
+      },
+      {
+        "name" : "Amin Hass"
+      },
+      {
+        "name" : "Tianlong Chen"
+      },
+      {
+        "name" : "Yiran Chen"
+      },
+      {
+        "name" : "Hai Li"
+      }
+    ],
+    "categories" : [
+      "cs.CL"
+    ]
   }
 ]
