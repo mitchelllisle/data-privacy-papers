@@ -1266,183 +1266,184 @@ evaluation; otherwise, they risk providing a false sense of privacy.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.13191v1">On the Privacy Risks of Spiking Neural Networks: A Membership Inference
-  Analysis</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-02-18T15:19:20Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Junyi Guan, Abhijith Sharma, Chong Tian, Salem Lahlou</p>
-    <p><b>Summary:</b> Spiking Neural Networks (SNNs) are increasingly explored for their energy
-efficiency and robustness in real-world applications, yet their privacy risks
-remain largely unexamined. In this work, we investigate the susceptibility of
-SNNs to Membership Inference Attacks (MIAs) -- a major privacy threat where an
-adversary attempts to determine whether a given sample was part of the training
-dataset. While prior work suggests that SNNs may offer inherent robustness due
-to their discrete, event-driven nature, we find that its resilience diminishes
-as latency (T) increases. Furthermore, we introduce an input dropout strategy
-under black box setting, that significantly enhances membership inference in
-SNNs. Our findings challenge the assumption that SNNs are inherently more
-secure, and even though they are expected to be better, our results reveal that
-SNNs exhibit privacy vulnerabilities that are equally comparable to Artificial
-Neural Networks (ANNs). Our code is available at
-https://anonymous.4open.science/r/MIA_SNN-3610.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.17485v1">Decentralized and Robust Privacy-Preserving Model Using
-  Blockchain-Enabled Federated Deep Learning in Intelligent Enterprises</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-02-18T15:17:25Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Reza Fotohi, Fereidoon Shams Aliee, Bahar Farahani</p>
-    <p><b>Summary:</b> In Federated Deep Learning (FDL), multiple local enterprises are allowed to
-train a model jointly. Then, they submit their local updates to the central
-server, and the server aggregates the updates to create a global model.
-However, trained models usually perform worse than centralized models,
-especially when the training data distribution is non-independent and
-identically distributed (nonIID). NonIID data harms the accuracy and
-performance of the model. Additionally, due to the centrality of federated
-learning (FL) and the untrustworthiness of enterprises, traditional FL
-solutions are vulnerable to security and privacy attacks. To tackle this issue,
-we propose FedAnil, a secure blockchain enabled Federated Deep Learning Model
-that improves enterprise models decentralization, performance, and tamper proof
-properties, incorporating two main phases. The first phase addresses the nonIID
-challenge (label and feature distribution skew). The second phase addresses
-security and privacy concerns against poisoning and inference attacks through
-three steps. Extensive experiments were conducted using the Sent140,
-FashionMNIST, FEMNIST, and CIFAR10 new real world datasets to evaluate FedAnils
-robustness and performance. The simulation results demonstrate that FedAnil
-satisfies FDL privacy preserving requirements. In terms of convergence
-analysis, the model parameter obtained with FedAnil converges to the optimum of
-the model parameter. In addition, it performs better in terms of accuracy (more
-than 11, 15, and 24%) and computation overhead (less than 8, 10, and 15%)
-compared with baseline approaches, namely ShieldFL, RVPFL, and RFA.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.12658v1">R.R.: Unveiling LLM Training Privacy through Recollection and Ranking</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2025-02-18T09:05:59Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Wenlong Meng, Zhenyuan Guo, Lenan Wu, Chen Gong, Wenyan Liu, Weixian Li, Chengkun Wei, Wenzhi Chen</p>
-    <p><b>Summary:</b> Large Language Models (LLMs) pose significant privacy risks, potentially
-leaking training data due to implicit memorization. Existing privacy attacks
-primarily focus on membership inference attacks (MIAs) or data extraction
-attacks, but reconstructing specific personally identifiable information (PII)
-in LLM's training data remains challenging. In this paper, we propose R.R.
-(Recollect and Rank), a novel two-step privacy stealing attack that enables
-attackers to reconstruct PII entities from scrubbed training data where the PII
-entities have been masked. In the first stage, we introduce a prompt paradigm
-named recollection, which instructs the LLM to repeat a masked text but fill in
-masks. Then we can use PII identifiers to extract recollected PII candidates.
-In the second stage, we design a new criterion to score each PII candidate and
-rank them. Motivated by membership inference, we leverage the reference model
-as a calibration to our criterion. Experiments across three popular PII
-datasets demonstrate that the R.R. achieves better PII identical performance
-compared to baselines. These results highlight the vulnerability of LLMs to PII
-leakage even when training data has been scrubbed. We release the replicate
-package of R.R. at a link.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.13172v1">Unveiling Privacy Risks in LLM Agent Memory</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-02-17T19:55:53Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Bo Wang, Weiyi He, Pengfei He, Shenglai Zeng, Zhen Xiang, Yue Xing, Jiliang Tang</p>
-    <p><b>Summary:</b> Large Language Model (LLM) agents have become increasingly prevalent across
-various real-world applications. They enhance decision-making by storing
-private user-agent interactions in the memory module for demonstrations,
-introducing new privacy risks for LLM agents. In this work, we systematically
-investigate the vulnerability of LLM agents to our proposed Memory EXTRaction
-Attack (MEXTRA) under a black-box setting. To extract private information from
-memory, we propose an effective attacking prompt design and an automated prompt
-generation method based on different levels of knowledge about the LLM agent.
-Experiments on two representative agents demonstrate the effectiveness of
-MEXTRA. Moreover, we explore key factors influencing memory leakage from both
-the agent's and the attacker's perspectives. Our findings highlight the urgent
-need for effective memory safeguards in LLM agent design and deployment.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.11682v1">Double Momentum and Error Feedback for Clipping with Fast Rates and
-  Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Optimization and Control-F9C80E"> 
-  <p><b>Published on:</b> 2025-02-17T11:16:21Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Rustem Islamov, Samuel Horvath, Aurelien Lucchi, Peter Richtarik, Eduard Gorbunov</p>
-    <p><b>Summary:</b> Strong Differential Privacy (DP) and Optimization guarantees are two
-desirable properties for a method in Federated Learning (FL). However, existing
-algorithms do not achieve both properties at once: they either have optimal DP
-guarantees but rely on restrictive assumptions such as bounded
-gradients/bounded data heterogeneity, or they ensure strong optimization
-performance but lack DP guarantees. To address this gap in the literature, we
-propose and analyze a new method called Clip21-SGD2M based on a novel
-combination of clipping, heavy-ball momentum, and Error Feedback. In
-particular, for non-convex smooth distributed problems with clients having
-arbitrarily heterogeneous data, we prove that Clip21-SGD2M has optimal
-convergence rate and also near optimal (local-)DP neighborhood. Our numerical
-experiments on non-convex logistic regression and training of neural networks
-highlight the superiority of Clip21-SGD2M over baselines in terms of the
-optimization performance for a given DP-budget.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.11658v2">"I'm not for sale" -- Perceptions and limited awareness of privacy risks
-  by digital natives about location data</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-02-17T10:49:23Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Antoine Boutet, Victor Morel</p>
-    <p><b>Summary:</b> Although mobile devices benefit users in their daily lives in numerous ways,
-they also raise several privacy concerns. For instance, they can reveal
-sensitive information that can be inferred from location data. This location
-data is shared through service providers as well as mobile applications.
-Understanding how and with whom users share their location data -- as well as
-users' perception of the underlying privacy risks --, are important notions to
-grasp in order to design usable privacy-enhancing technologies. In this work,
-we perform a quantitative and qualitative analysis of smartphone users'
-awareness, perception and self-reported behavior towards location data-sharing
-through a survey of n=99 young adult participants (i.e., digital natives). We
-compare stated practices with actual behaviors to better understand their
-mental models, and survey participants' understanding of privacy risks before
-and after the inspection of location traces and the information that can be
-inferred therefrom.
-  Our empirical results show that participants have risky privacy practices:
-about 54% of participants underestimate the number of mobile applications to
-which they have granted access to their data, and 33% forget or do not think of
-revoking access to their data. Also, by using a demonstrator to perform
-inferences from location data, we observe that slightly more than half of
-participants (57%) are surprised by the extent of potentially inferred
-information, and that 47% intend to reduce access to their data via permissions
-as a result of using the demonstrator. Last, a majority of participants have
-little knowledge of the tools to better protect themselves, but are nonetheless
-willing to follow suggestions to improve privacy (51%). Educating people,
-including digital natives, about privacy risks through transparency tools seems
-a promising approach.</p>
-  </details>
-</div>
-
-
 
 <h2>2025-03</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.09448v1">Optimizing QoE-Privacy Tradeoff for Proactive VR Streaming</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Multimedia-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Multiagent Systems-662E9B">
+  <p><b>Published on:</b> 2025-03-12T14:50:06Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xing Wei, Shengqian Han, Chenyang Yang, Chengjian Sun</p>
+    <p><b>Summary:</b> Proactive virtual reality (VR) streaming requires users to upload
+viewpoint-related information, raising significant privacy concerns. Existing
+strategies preserve privacy by introducing errors to viewpoints, which,
+however, compromises the quality of experience (QoE) of users. In this paper,
+we first delve into the analysis of the viewpoint leakage probability achieved
+by existing privacy-preserving approaches. We determine the optimal
+distribution of viewpoint errors that minimizes the viewpoint leakage
+probability. Our analyses show that existing approaches cannot fully eliminate
+viewpoint leakage. Then, we propose a novel privacy-preserving approach that
+introduces noise to uploaded viewpoint prediction errors, which can ensure zero
+viewpoint leakage probability. Given the proposed approach, the tradeoff
+between privacy preservation and QoE is optimized to minimize the QoE loss
+while satisfying the privacy requirement. Simulation results validate our
+analysis results and demonstrate that the proposed approach offers a promising
+solution for balancing privacy and QoE.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.09381v1">Faithful and Privacy-Preserving Implementation of Average Consensus</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
+  <p><b>Published on:</b> 2025-03-12T13:28:22Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Kaoru Teranishi, Kiminao Kogiso, Takashi Tanaka</p>
+    <p><b>Summary:</b> We propose a protocol based on mechanism design theory and encrypted control
+to solve average consensus problems among rational and strategic agents while
+preserving their privacy. The proposed protocol provides a mechanism that
+incentivizes the agents to faithfully implement the intended behavior specified
+in the protocol. Furthermore, the protocol runs over encrypted data using
+homomorphic encryption and secret sharing to protect the privacy of agents. We
+also analyze the security of the proposed protocol using a simulation paradigm
+in secure multi-party computation. The proposed protocol demonstrates that
+mechanism design and encrypted control can complement each other to achieve
+security under rational adversaries.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.09365v1">Membership Inference Attacks fueled by Few-Short Learning to detect
+  privacy leakage tackling data integrity</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-03-12T13:09:43Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Daniel Jiménez-López, Nuria Rodríguez-Barroso, M. Victoria Luzón, Francisco Herrera</p>
+    <p><b>Summary:</b> Deep learning models have an intrinsic privacy issue as they memorize parts
+of their training data, creating a privacy leakage. Membership Inference
+Attacks (MIA) exploit it to obtain confidential information about the data used
+for training, aiming to steal information. They can be repurposed as a
+measurement of data integrity by inferring whether it was used to train a
+machine learning model. While state-of-the-art attacks achieve a significant
+privacy leakage, their requirements are not feasible enough, hindering their
+role as practical tools to assess the magnitude of the privacy risk. Moreover,
+the most appropriate evaluation metric of MIA, the True Positive Rate at low
+False Positive Rate lacks interpretability. We claim that the incorporation of
+Few-Shot Learning techniques to the MIA field and a proper qualitative and
+quantitative privacy evaluation measure should deal with these issues. In this
+context, our proposal is twofold. We propose a Few-Shot learning based MIA,
+coined as the FeS-MIA model, which eases the evaluation of the privacy breach
+of a deep learning model by significantly reducing the number of resources
+required for the purpose. Furthermore, we propose an interpretable quantitative
+and qualitative measure of privacy, referred to as Log-MIA measure. Jointly,
+these proposals provide new tools to assess the privacy leakage and to ease the
+evaluation of the training data integrity of deep learning models, that is, to
+analyze the privacy breach of a deep learning model. Experiments carried out
+with MIA over image classification and language modeling tasks and its
+comparison to the state-of-the-art show that our proposals excel at reporting
+the privacy leakage of a deep learning model with little extra information.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.09331v1">Large-Scale FPGA-Based Privacy Amplification Exceeding $10^8$ Bits for
+  Quantum Key Distribution</a></h3>
+  
+  <p><b>Published on:</b> 2025-03-12T12:25:13Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xi Cheng, Hao-kun Mao, Hong-wei Xu, Qiong Li</p>
+    <p><b>Summary:</b> Privacy Amplification (PA) is indispensable in Quantum Key Distribution (QKD)
+post-processing, as it eliminates information leakage to eavesdroppers.
+Field-programmable gate arrays (FPGAs) are highly attractive for QKD systems
+due to their flexibility and high integration. However, due to limited
+resources, input and output sizes remain the primary bottleneck in FPGA-based
+PA schemes for Discrete Variable (DV)-QKD systems. In this paper, we present a
+large-scale FPGA-based PA scheme that supports both input block sizes and
+output key sizes exceeding $10^8$ bits, effectively addressing the challenges
+posed by the finite-size effect. To accommodate the large input and output
+sizes, we propose a novel PA algorithm and prove its security. We implement and
+evaluate this scheme on a Xilinx XCKU095 FPGA platform. Experimental results
+demonstrate that our PA implementation can handle an input block size of $10^8$
+bits with flexible output sizes up to the input size. For DV-QKD systems, our
+PA scheme supports an input block size nearly two orders of magnitude larger
+than current FPGA-based PA schemes, significantly mitigating the impact of the
+finite-size effect on the final secure key rate.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.09317v1">RaceTEE: A Practical Privacy-Preserving Off-Chain Smart Contract
+  Execution Architecture</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-03-12T12:10:02Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Keyu Zhang, Andrew Martin</p>
+    <p><b>Summary:</b> Decentralized on-chain smart contracts enable trustless collaboration, yet
+their inherent data transparency and execution overhead hinder widespread
+adoption. Existing cryptographic approaches incur high computational costs and
+lack generality. Meanwhile, prior TEE-based solutions suffer from practical
+limitations, such as the inability to support inter-contract interactions,
+reliance on unbreakable TEEs, and compromised usability. We introduce RaceTEE,
+a practical and privacy-preserving off-chain execution architecture for smart
+contracts that leverages Trusted Execution Environments (TEEs). RaceTEE
+decouples transaction ordering (on-chain) from execution (off-chain), with
+computations performed competitively in TEEs, ensuring confidentiality and
+minimizing overhead. It further enhances practicality through three key
+improvements: supporting secure inter-contract interactions, providing a key
+rotation scheme that enforces forward and backward secrecy even in the event of
+TEE breaches, and enabling full compatibility with existing blockchains without
+altering the user interaction model. To validate its feasibility, we prototype
+RaceTEE using Intel SGX and Ethereum, demonstrating its applicability across
+various use cases and evaluating its performance.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.09192v1">Differential Privacy Personalized Federated Learning Based on
+  Dynamically Sparsified Client Updates</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-03-12T09:34:05Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Chuanyin Wang, Yifei Zhang, Neng Gao, Qiang Luo</p>
+    <p><b>Summary:</b> Personalized federated learning is extensively utilized in scenarios
+characterized by data heterogeneity, facilitating more efficient and automated
+local training on data-owning terminals. This includes the automated selection
+of high-performance model parameters for upload, thereby enhancing the overall
+training process. However, it entails significant risks of privacy leakage.
+Existing studies have attempted to mitigate these risks by utilizing
+differential privacy. Nevertheless, these studies present two major
+limitations: (1) The integration of differential privacy into personalized
+federated learning lacks sufficient personalization, leading to the
+introduction of excessive noise into the model. (2) It fails to adequately
+control the spatial scope of model update information, resulting in a
+suboptimal balance between data privacy and model effectiveness in differential
+privacy federated learning. In this paper, we propose a differentially private
+personalized federated learning approach that employs dynamically sparsified
+client updates through reparameterization and adaptive norm(DP-pFedDSU).
+Reparameterization training effectively selects personalized client update
+information, thereby reducing the quantity of updates. This approach minimizes
+the introduction of noise to the greatest extent possible. Additionally,
+dynamic adaptive norm refers to controlling the norm space of model updates
+during the training process, mitigating the negative impact of clipping on the
+update information. These strategies substantially enhance the effective
+integration of differential privacy and personalized federated learning.
+Experimental results on EMNIST, CIFAR-10, and CIFAR-100 demonstrate that our
+proposed scheme achieves superior performance and is well-suited for more
+complex personalized federated learning scenarios.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2503.08568v1">Privacy Law Enforcement Under Centralized Governance: A Qualitative
@@ -1538,7 +1539,7 @@ https://github.com/ZitongShi/EPEAgent</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.08085v1">PRISM: Privacy-Preserving Improved Stochastic Masking for Federated
+  <h3><a href="http://arxiv.org/abs/2503.08085v2">PRISM: Privacy-Preserving Improved Stochastic Masking for Federated
   Generative Models</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
   <p><b>Published on:</b> 2025-03-11T06:37:54Z</p>
@@ -1660,7 +1661,7 @@ and future directions for the field.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.07427v1">Creating and Evaluating Privacy and Security Micro-Lessons for
+  <h3><a href="http://arxiv.org/abs/2503.07427v2">Creating and Evaluating Privacy and Security Micro-Lessons for
   Elementary School Children</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
   <p><b>Published on:</b> 2025-03-10T15:12:11Z</p>
