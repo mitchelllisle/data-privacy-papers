@@ -1349,5 +1349,202 @@
     "categories" : [
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.09448v1",
+    "title" : "Optimizing QoE-Privacy Tradeoff for Proactive VR Streaming",
+    "summary" : "Proactive virtual reality (VR) streaming requires users to upload\nviewpoint-related information, raising significant privacy concerns. Existing\nstrategies preserve privacy by introducing errors to viewpoints, which,\nhowever, compromises the quality of experience (QoE) of users. In this paper,\nwe first delve into the analysis of the viewpoint leakage probability achieved\nby existing privacy-preserving approaches. We determine the optimal\ndistribution of viewpoint errors that minimizes the viewpoint leakage\nprobability. Our analyses show that existing approaches cannot fully eliminate\nviewpoint leakage. Then, we propose a novel privacy-preserving approach that\nintroduces noise to uploaded viewpoint prediction errors, which can ensure zero\nviewpoint leakage probability. Given the proposed approach, the tradeoff\nbetween privacy preservation and QoE is optimized to minimize the QoE loss\nwhile satisfying the privacy requirement. Simulation results validate our\nanalysis results and demonstrate that the proposed approach offers a promising\nsolution for balancing privacy and QoE.",
+    "updated" : "2025-03-12T14:50:06Z",
+    "published" : "2025-03-12T14:50:06Z",
+    "authors" : [
+      {
+        "name" : "Xing Wei"
+      },
+      {
+        "name" : "Shengqian Han"
+      },
+      {
+        "name" : "Chenyang Yang"
+      },
+      {
+        "name" : "Chengjian Sun"
+      }
+    ],
+    "categories" : [
+      "cs.MM",
+      "cs.MA"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.09381v1",
+    "title" : "Faithful and Privacy-Preserving Implementation of Average Consensus",
+    "summary" : "We propose a protocol based on mechanism design theory and encrypted control\nto solve average consensus problems among rational and strategic agents while\npreserving their privacy. The proposed protocol provides a mechanism that\nincentivizes the agents to faithfully implement the intended behavior specified\nin the protocol. Furthermore, the protocol runs over encrypted data using\nhomomorphic encryption and secret sharing to protect the privacy of agents. We\nalso analyze the security of the proposed protocol using a simulation paradigm\nin secure multi-party computation. The proposed protocol demonstrates that\nmechanism design and encrypted control can complement each other to achieve\nsecurity under rational adversaries.",
+    "updated" : "2025-03-12T13:28:22Z",
+    "published" : "2025-03-12T13:28:22Z",
+    "authors" : [
+      {
+        "name" : "Kaoru Teranishi"
+      },
+      {
+        "name" : "Kiminao Kogiso"
+      },
+      {
+        "name" : "Takashi Tanaka"
+      }
+    ],
+    "categories" : [
+      "eess.SY",
+      "cs.CR",
+      "cs.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.09365v1",
+    "title" : "Membership Inference Attacks fueled by Few-Short Learning to detect\n  privacy leakage tackling data integrity",
+    "summary" : "Deep learning models have an intrinsic privacy issue as they memorize parts\nof their training data, creating a privacy leakage. Membership Inference\nAttacks (MIA) exploit it to obtain confidential information about the data used\nfor training, aiming to steal information. They can be repurposed as a\nmeasurement of data integrity by inferring whether it was used to train a\nmachine learning model. While state-of-the-art attacks achieve a significant\nprivacy leakage, their requirements are not feasible enough, hindering their\nrole as practical tools to assess the magnitude of the privacy risk. Moreover,\nthe most appropriate evaluation metric of MIA, the True Positive Rate at low\nFalse Positive Rate lacks interpretability. We claim that the incorporation of\nFew-Shot Learning techniques to the MIA field and a proper qualitative and\nquantitative privacy evaluation measure should deal with these issues. In this\ncontext, our proposal is twofold. We propose a Few-Shot learning based MIA,\ncoined as the FeS-MIA model, which eases the evaluation of the privacy breach\nof a deep learning model by significantly reducing the number of resources\nrequired for the purpose. Furthermore, we propose an interpretable quantitative\nand qualitative measure of privacy, referred to as Log-MIA measure. Jointly,\nthese proposals provide new tools to assess the privacy leakage and to ease the\nevaluation of the training data integrity of deep learning models, that is, to\nanalyze the privacy breach of a deep learning model. Experiments carried out\nwith MIA over image classification and language modeling tasks and its\ncomparison to the state-of-the-art show that our proposals excel at reporting\nthe privacy leakage of a deep learning model with little extra information.",
+    "updated" : "2025-03-12T13:09:43Z",
+    "published" : "2025-03-12T13:09:43Z",
+    "authors" : [
+      {
+        "name" : "Daniel Jiménez-López"
+      },
+      {
+        "name" : "Nuria Rodríguez-Barroso"
+      },
+      {
+        "name" : "M. Victoria Luzón"
+      },
+      {
+        "name" : "Francisco Herrera"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.09331v1",
+    "title" : "Large-Scale FPGA-Based Privacy Amplification Exceeding $10^8$ Bits for\n  Quantum Key Distribution",
+    "summary" : "Privacy Amplification (PA) is indispensable in Quantum Key Distribution (QKD)\npost-processing, as it eliminates information leakage to eavesdroppers.\nField-programmable gate arrays (FPGAs) are highly attractive for QKD systems\ndue to their flexibility and high integration. However, due to limited\nresources, input and output sizes remain the primary bottleneck in FPGA-based\nPA schemes for Discrete Variable (DV)-QKD systems. In this paper, we present a\nlarge-scale FPGA-based PA scheme that supports both input block sizes and\noutput key sizes exceeding $10^8$ bits, effectively addressing the challenges\nposed by the finite-size effect. To accommodate the large input and output\nsizes, we propose a novel PA algorithm and prove its security. We implement and\nevaluate this scheme on a Xilinx XCKU095 FPGA platform. Experimental results\ndemonstrate that our PA implementation can handle an input block size of $10^8$\nbits with flexible output sizes up to the input size. For DV-QKD systems, our\nPA scheme supports an input block size nearly two orders of magnitude larger\nthan current FPGA-based PA schemes, significantly mitigating the impact of the\nfinite-size effect on the final secure key rate.",
+    "updated" : "2025-03-12T12:25:13Z",
+    "published" : "2025-03-12T12:25:13Z",
+    "authors" : [
+      {
+        "name" : "Xi Cheng"
+      },
+      {
+        "name" : "Hao-kun Mao"
+      },
+      {
+        "name" : "Hong-wei Xu"
+      },
+      {
+        "name" : "Qiong Li"
+      }
+    ],
+    "categories" : [
+      "quant-ph"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.09317v1",
+    "title" : "RaceTEE: A Practical Privacy-Preserving Off-Chain Smart Contract\n  Execution Architecture",
+    "summary" : "Decentralized on-chain smart contracts enable trustless collaboration, yet\ntheir inherent data transparency and execution overhead hinder widespread\nadoption. Existing cryptographic approaches incur high computational costs and\nlack generality. Meanwhile, prior TEE-based solutions suffer from practical\nlimitations, such as the inability to support inter-contract interactions,\nreliance on unbreakable TEEs, and compromised usability. We introduce RaceTEE,\na practical and privacy-preserving off-chain execution architecture for smart\ncontracts that leverages Trusted Execution Environments (TEEs). RaceTEE\ndecouples transaction ordering (on-chain) from execution (off-chain), with\ncomputations performed competitively in TEEs, ensuring confidentiality and\nminimizing overhead. It further enhances practicality through three key\nimprovements: supporting secure inter-contract interactions, providing a key\nrotation scheme that enforces forward and backward secrecy even in the event of\nTEE breaches, and enabling full compatibility with existing blockchains without\naltering the user interaction model. To validate its feasibility, we prototype\nRaceTEE using Intel SGX and Ethereum, demonstrating its applicability across\nvarious use cases and evaluating its performance.",
+    "updated" : "2025-03-12T12:10:02Z",
+    "published" : "2025-03-12T12:10:02Z",
+    "authors" : [
+      {
+        "name" : "Keyu Zhang"
+      },
+      {
+        "name" : "Andrew Martin"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.09192v1",
+    "title" : "Differential Privacy Personalized Federated Learning Based on\n  Dynamically Sparsified Client Updates",
+    "summary" : "Personalized federated learning is extensively utilized in scenarios\ncharacterized by data heterogeneity, facilitating more efficient and automated\nlocal training on data-owning terminals. This includes the automated selection\nof high-performance model parameters for upload, thereby enhancing the overall\ntraining process. However, it entails significant risks of privacy leakage.\nExisting studies have attempted to mitigate these risks by utilizing\ndifferential privacy. Nevertheless, these studies present two major\nlimitations: (1) The integration of differential privacy into personalized\nfederated learning lacks sufficient personalization, leading to the\nintroduction of excessive noise into the model. (2) It fails to adequately\ncontrol the spatial scope of model update information, resulting in a\nsuboptimal balance between data privacy and model effectiveness in differential\nprivacy federated learning. In this paper, we propose a differentially private\npersonalized federated learning approach that employs dynamically sparsified\nclient updates through reparameterization and adaptive norm(DP-pFedDSU).\nReparameterization training effectively selects personalized client update\ninformation, thereby reducing the quantity of updates. This approach minimizes\nthe introduction of noise to the greatest extent possible. Additionally,\ndynamic adaptive norm refers to controlling the norm space of model updates\nduring the training process, mitigating the negative impact of clipping on the\nupdate information. These strategies substantially enhance the effective\nintegration of differential privacy and personalized federated learning.\nExperimental results on EMNIST, CIFAR-10, and CIFAR-100 demonstrate that our\nproposed scheme achieves superior performance and is well-suited for more\ncomplex personalized federated learning scenarios.",
+    "updated" : "2025-03-12T09:34:05Z",
+    "published" : "2025-03-12T09:34:05Z",
+    "authors" : [
+      {
+        "name" : "Chuanyin Wang"
+      },
+      {
+        "name" : "Yifei Zhang"
+      },
+      {
+        "name" : "Neng Gao"
+      },
+      {
+        "name" : "Qiang Luo"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.08085v2",
+    "title" : "PRISM: Privacy-Preserving Improved Stochastic Masking for Federated\n  Generative Models",
+    "summary" : "Despite recent advancements in federated learning (FL), the integration of\ngenerative models into FL has been limited due to challenges such as high\ncommunication costs and unstable training in heterogeneous data environments.\nTo address these issues, we propose PRISM, a FL framework tailored for\ngenerative models that ensures (i) stable performance in heterogeneous data\ndistributions and (ii) resource efficiency in terms of communication cost and\nfinal model size. The key of our method is to search for an optimal stochastic\nbinary mask for a random network rather than updating the model weights,\nidentifying a sparse subnetwork with high generative performance; i.e., a\n``strong lottery ticket''. By communicating binary masks in a stochastic\nmanner, PRISM minimizes communication overhead. This approach, combined with\nthe utilization of maximum mean discrepancy (MMD) loss and a mask-aware dynamic\nmoving average aggregation method (MADA) on the server side, facilitates stable\nand strong generative capabilities by mitigating local divergence in FL\nscenarios. Moreover, thanks to its sparsifying characteristic, PRISM yields a\nlightweight model without extra pruning or quantization, making it ideal for\nenvironments such as edge devices. Experiments on MNIST, FMNIST, CelebA, and\nCIFAR10 demonstrate that PRISM outperforms existing methods, while maintaining\nprivacy with minimal communication costs. PRISM is the first to successfully\ngenerate images under challenging non-IID and privacy-preserving FL\nenvironments on complex datasets, where previous methods have struggled.",
+    "updated" : "2025-03-12T07:22:25Z",
+    "published" : "2025-03-11T06:37:54Z",
+    "authors" : [
+      {
+        "name" : "Kyeongkook Seo"
+      },
+      {
+        "name" : "Dong-Jun Han"
+      },
+      {
+        "name" : "Jaejun Yoo"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.07427v2",
+    "title" : "Creating and Evaluating Privacy and Security Micro-Lessons for\n  Elementary School Children",
+    "summary" : "The growing use of technology in K--8 classrooms highlights a parallel need\nfor formal learning opportunities aimed at helping children use technology\nsafely and protect their personal information. Even the youngest students are\nnow using tablets, laptops, and apps to support their learning; however, there\nare limited curricular materials available for elementary and middle school\nchildren on digital privacy and security topics. To bridge this gap, we\ndeveloped a series of micro-lessons to help K--8 children learn about digital\nprivacy and security at school. We first conducted a formative study by\ninterviewing elementary school teachers to identify the design needs for\ndigital privacy and security lessons. We then developed micro-lessons --\nmultiple 15-20 minute activities designed to be easily inserted into the\nexisting curriculum -- using a co-design approach with multiple rounds of\ndeveloping and revising the micro-lessons in collaboration with teachers.\nThroughout the process, we conducted evaluation sessions where teachers\nimplemented or reviewed the micro-lessons. Our study identifies strengths,\nchallenges, and teachers' tailoring strategies when incorporating micro-lessons\nfor K--8 digital privacy and security topics, providing design implications for\nfacilitating learning about these topics in school classrooms.",
+    "updated" : "2025-03-11T20:36:50Z",
+    "published" : "2025-03-10T15:12:11Z",
+    "authors" : [
+      {
+        "name" : "Lan Gao"
+      },
+      {
+        "name" : "Elana B Blinder"
+      },
+      {
+        "name" : "Abigail Barnes"
+      },
+      {
+        "name" : "Kevin Song"
+      },
+      {
+        "name" : "Tamara Clegg"
+      },
+      {
+        "name" : "Jessica Vitak"
+      },
+      {
+        "name" : "Marshini Chetty"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "cs.CY"
+    ]
   }
 ]
