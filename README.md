@@ -126,9 +126,9 @@ in load profiles, respectively.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.05786v1">FedMentalCare: Towards Privacy-Preserving Fine-Tuned LLMs to Analyze
+  <h3><a href="http://arxiv.org/abs/2503.05786v2">FedMentalCare: Towards Privacy-Preserving Fine-Tuned LLMs to Analyze
   Mental Health Status Using Federated Learning Framework</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
   <p><b>Published on:</b> 2025-02-27T07:04:19Z</p>
   <details>
     <summary>More Details</summary>
@@ -941,187 +941,152 @@ https://github.com/Mebymeby/Pseudonymization-Framework.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.14780v1">ReVision: A Dataset and Baseline VLM for Privacy-Preserving
-  Task-Oriented Visual Instruction Rewriting</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2025-02-20T18:01:41Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Abhijit Mishra, Richard Noh, Hsiang Fu, Mingda Li, Minji Kim</p>
-    <p><b>Summary:</b> Efficient and privacy-preserving multimodal interaction is essential as AR,
-VR, and modern smartphones with powerful cameras become primary interfaces for
-human-computer communication. Existing powerful large vision-language models
-(VLMs) enabling multimodal interaction often rely on cloud-based processing,
-raising significant concerns about (1) visual privacy by transmitting sensitive
-vision data to servers, and (2) their limited real-time, on-device usability.
-This paper explores Visual Instruction Rewriting, a novel approach that
-transforms multimodal instructions into text-only commands, allowing seamless
-integration of lightweight on-device instruction rewriter VLMs (250M
-parameters) with existing conversational AI systems, enhancing vision data
-privacy. To achieve this, we present a dataset of over 39,000 examples across
-14 domains and develop a compact VLM, pretrained on image captioning datasets
-and fine-tuned for instruction rewriting. Experimental results, evaluated
-through NLG metrics such as BLEU, METEOR, and ROUGE, along with semantic
-parsing analysis, demonstrate that even a quantized version of the model
-(<500MB storage footprint) can achieve effective instruction rewriting, thus
-enabling privacy-focused, multimodal AI applications.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.14761v1">User Awareness and Perspectives Survey on Privacy, Security and
-  Usability of Auditory Prostheses</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2025-02-20T17:36:19Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Sohini Saha, Leslie M. Collins, Sherri L. Smith, Boyla O. Mainsah</p>
-    <p><b>Summary:</b> According to the World Health Organization, over 466 million people worldwide
-suffer from disabling hearing loss, with approximately 34 million of these
-being children. Hearing aids (HA) and cochlear implants (CI) have become
-indispensable tools for restoring hearing and enhancing the quality of life for
-individuals with hearing impairments. Clinical research and consumer studies
-indicate that users of HAs and CIs report significant improvements in their
-daily lives, including enhanced communication abilities and social engagement
-and reduced psychological stress. Modern auditory prosthetic devices are more
-advanced and interconnected with digital networks to add functionality, such as
-streaming audio directly from smartphones and other devices, remote adjustments
-by audiologists, integration with smart home systems, and access to artificial
-intelligence-driven sound enhancement features. With this interconnectivity,
-issues surrounding data privacy and security have become increasingly
-pertinent. There is limited research on the usability perceptions of current HA
-and CI models from the perspective of end-users. In addition, no studies have
-investigated consumer mental models during the purchasing process, particularly
-which factors they prioritize when selecting a device. In this study, we
-assessed participants' satisfaction levels with various features of their
-auditory prostheses. This work contributes to the field by addressing gaps in
-user perceptions of HA and CI usability, identifying key factors in consumer
-purchasing decisions, and highlighting the need for improved privacy and
-security awareness and education among users.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.14309v2">On Theoretical Limits of Learning with Label Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
-  <p><b>Published on:</b> 2025-02-20T06:51:42Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Puning Zhao, Chuan Ma, Li Shen, Shaowei Wang, Rongfei Fan</p>
-    <p><b>Summary:</b> Label differential privacy (DP) is designed for learning problems involving
-private labels and public features. While various methods have been proposed
-for learning under label DP, the theoretical limits remain largely unexplored.
-In this paper, we investigate the fundamental limits of learning with label DP
-in both local and central models for both classification and regression tasks,
-characterized by minimax convergence rates. We establish lower bounds by
-converting each task into a multiple hypothesis testing problem and bounding
-the test error. Additionally, we develop algorithms that yield matching upper
-bounds. Our results demonstrate that under label local DP (LDP), the risk has a
-significantly faster convergence rate than that under full LDP, i.e. protecting
-both features and labels, indicating the advantages of relaxing the DP
-definition to focus solely on labels. In contrast, under the label central DP
-(CDP), the risk is only reduced by a constant factor compared to full DP,
-indicating that the relaxation of CDP only has limited benefits on the
-performance.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.14291v1">A Note on Efficient Privacy-Preserving Similarity Search for Encrypted
-  Vectors</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-02-20T06:07:04Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Dongfang Zhao</p>
-    <p><b>Summary:</b> Traditional approaches to vector similarity search over encrypted data rely
-on fully homomorphic encryption (FHE) to enable computation without decryption.
-However, the substantial computational overhead of FHE makes it impractical for
-large-scale real-time applications. This work explores a more efficient
-alternative: using additively homomorphic encryption (AHE) for
-privacy-preserving similarity search. We consider scenarios where either the
-query vector or the database vectors remain encrypted, a setting that
-frequently arises in applications such as confidential recommender systems and
-secure federated learning. While AHE only supports addition and scalar
-multiplication, we show that it is sufficient to compute inner product
-similarity--one of the most widely used similarity measures in vector
-retrieval. Compared to FHE-based solutions, our approach significantly reduces
-computational overhead by avoiding ciphertext-ciphertext multiplications and
-bootstrapping, while still preserving correctness and privacy. We present an
-efficient algorithm for encrypted similarity search under AHE and analyze its
-error growth and security implications. Our method provides a scalable and
-practical solution for privacy-preserving vector search in real-world machine
-learning applications.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.14087v1">Learning from End User Data with Shuffled Differential Privacy over
-  Kernel Densities</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B">
-  <p><b>Published on:</b> 2025-02-19T20:27:01Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Tal Wagner</p>
-    <p><b>Summary:</b> We study a setting of collecting and learning from private data distributed
-across end users. In the shuffled model of differential privacy, the end users
-partially protect their data locally before sharing it, and their data is also
-anonymized during its collection to enhance privacy. This model has recently
-become a prominent alternative to central DP, which requires full trust in a
-central data curator, and local DP, where fully local data protection takes a
-steep toll on downstream accuracy.
-  Our main technical result is a shuffled DP protocol for privately estimating
-the kernel density function of a distributed dataset, with accuracy essentially
-matching central DP. We use it to privately learn a classifier from the end
-user data, by learning a private density function per class. Moreover, we show
-that the density function itself can recover the semantic content of its class,
-despite having been learned in the absence of any unprotected data. Our
-experiments show the favorable downstream performance of our approach, and
-highlight key downstream considerations and trade-offs in a practical ML
-deployment of shuffled DP.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.13833v2">Contrastive Learning-Based privacy metrics in Tabular Synthetic Datasets</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-02-19T15:52:23Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Milton Nicolás Plasencia Palacios, Sebastiano Saccani, Gabriele Sgroi, Alexander Boudewijn, Luca Bortolussi</p>
-    <p><b>Summary:</b> Synthetic data has garnered attention as a Privacy Enhancing Technology (PET)
-in sectors such as healthcare and finance. When using synthetic data in
-practical applications, it is important to provide protection guarantees. In
-the literature, two family of approaches are proposed for tabular data: on the
-one hand, Similarity-based methods aim at finding the level of similarity
-between training and synthetic data. Indeed, a privacy breach can occur if the
-generated data is consistently too similar or even identical to the train data.
-On the other hand, Attack-based methods conduce deliberate attacks on synthetic
-datasets. The success rates of these attacks reveal how secure the synthetic
-datasets are.
-  In this paper, we introduce a contrastive method that improves privacy
-assessment of synthetic datasets by embedding the data in a more representative
-space. This overcomes obstacles surrounding the multitude of data types and
-attributes. It also makes the use of intuitive distance metrics possible for
-similarity measurements and as an attack vector. In a series of experiments
-with publicly available datasets, we compare the performances of
-similarity-based and attack-based methods, both with and without use of the
-contrastive learning-based embeddings. Our results show that relatively
-efficient, easy to implement privacy metrics can perform equally well as more
-advanced metrics explicitly modeling conditions for privacy referred to by the
-GDPR.</p>
-  </details>
-</div>
-
-
 
 <h2>2025-03</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.11232v1">PrivacyScalpel: Enhancing LLM Privacy via Interpretable Feature
+  Intervention with Sparse Autoencoders</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2025-03-14T09:31:01Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ahmed Frikha, Muhammad Reza Ar Razi, Krishna Kanth Nakka, Ricardo Mendes, Xue Jiang, Xuebing Zhou</p>
+    <p><b>Summary:</b> Large Language Models (LLMs) have demonstrated remarkable capabilities in
+natural language processing but also pose significant privacy risks by
+memorizing and leaking Personally Identifiable Information (PII). Existing
+mitigation strategies, such as differential privacy and neuron-level
+interventions, often degrade model utility or fail to effectively prevent
+leakage. To address this challenge, we introduce PrivacyScalpel, a novel
+privacy-preserving framework that leverages LLM interpretability techniques to
+identify and mitigate PII leakage while maintaining performance. PrivacyScalpel
+comprises three key steps: (1) Feature Probing, which identifies layers in the
+model that encode PII-rich representations, (2) Sparse Autoencoding, where a
+k-Sparse Autoencoder (k-SAE) disentangles and isolates privacy-sensitive
+features,
+  and (3) Feature-Level Interventions, which employ targeted ablation and
+vector steering to suppress PII leakage.
+  Our empirical evaluation on Gemma2-2b and Llama2-7b, fine-tuned on the Enron
+dataset, shows that PrivacyScalpel significantly reduces email leakage from
+5.15\% to as low as 0.0\%, while maintaining over 99.4\% of the original
+model's utility. Notably, our method outperforms neuron-level interventions in
+privacy-utility trade-offs, demonstrating that acting on sparse, monosemantic
+features is more effective than manipulating polysemantic neurons. Beyond
+improving LLM privacy, our approach offers insights into the mechanisms
+underlying PII memorization, contributing to the broader field of model
+interpretability and secure AI deployment.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.11169v1">Security and Privacy: Key Requirements for Molecular Communication in
+  Medicine and Healthcare</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
+  <p><b>Published on:</b> 2025-03-14T08:14:14Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Vida Gholamiyan, Yaning Zhao, Wafa Labidi, Holger Boche, Christian Deppe</p>
+    <p><b>Summary:</b> Molecular communication (MC) is an emerging paradigm that enables data
+transmission through biochemical signals rather than traditional
+electromagnetic waves. This approach is particularly promising for environments
+where conventional wireless communication is impractical, such as within the
+human body. However, security and privacy pose significant challenges that must
+be addressed to ensure reliable communication. Moreover, MC is often
+event-triggered, making it logical to adopt goal-oriented communication
+strategies, similar to those used in message identification. This work explores
+secure identification strategies for MC, with a focus on the
+information-theoretic security of message identification over Poisson wiretap
+channels (DT-PWC).</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.11051v1">Towards Privacy-preserved Pre-training of Remote Sensing Foundation
+  Models with Federated Mutual-guidance Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2025-03-14T03:38:49Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jieyi Tan, Chengwei Zhang, Bo Dang, Yansheng Li</p>
+    <p><b>Summary:</b> Traditional Remote Sensing Foundation models (RSFMs) are pre-trained with a
+data-centralized paradigm, through self-supervision on large-scale curated
+remote sensing data. For each institution, however, pre-training RSFMs with
+limited data in a standalone manner may lead to suboptimal performance, while
+aggregating remote sensing data from multiple institutions for centralized
+pre-training raises privacy concerns. Seeking for collaboration is a promising
+solution to resolve this dilemma, where multiple institutions can
+collaboratively train RSFMs without sharing private data. In this paper, we
+propose a novel privacy-preserved pre-training framework (FedSense), which
+enables multiple institutions to collaboratively train RSFMs without sharing
+private data. However, it is a non-trivial task hindered by a vicious cycle,
+which results from model drift by remote sensing data heterogeneity and high
+communication overhead. To break this vicious cycle, we introduce Federated
+Mutual-guidance Learning. Specifically, we propose a Server-to-Clients Guidance
+(SCG) mechanism to guide clients updates towards global-flatness optimal
+solutions. Additionally, we propose a Clients-to-Server Guidance (CSG)
+mechanism to inject local knowledge into the server by low-bit communication.
+Extensive experiments on four downstream tasks demonstrate the effectiveness of
+our FedSense in both full-precision and communication-reduced scenarios,
+showcasing remarkable communication efficiency and performance gains.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.10945v1">$(\varepsilon, δ)$ Considered Harmful: Best Practices for Reporting
+  Differential Privacy Guarantees</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
+  <p><b>Published on:</b> 2025-03-13T23:06:30Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Juan Felipe Gomez, Bogdan Kulynych, Georgios Kaissis, Jamie Hayes, Borja Balle, Antti Honkela</p>
+    <p><b>Summary:</b> Current practices for reporting the level of differential privacy (DP)
+guarantees for machine learning (ML) algorithms provide an incomplete and
+potentially misleading picture of the guarantees and make it difficult to
+compare privacy levels across different settings. We argue for using Gaussian
+differential privacy (GDP) as the primary means of communicating DP guarantees
+in ML, with the full privacy profile as a secondary option in case GDP is too
+inaccurate. Unlike other widely used alternatives, GDP has only one parameter,
+which ensures easy comparability of guarantees, and it can accurately capture
+the full privacy profile of many important ML applications. To support our
+claims, we investigate the privacy profiles of state-of-the-art DP large-scale
+image classification, and the TopDown algorithm for the U.S. Decennial Census,
+observing that GDP fits the profiles remarkably well in all three cases.
+Although GDP is ideal for reporting the final guarantees, other formalisms
+(e.g., privacy loss random variables) are needed for accurate privacy
+accounting. We show that such intermediate representations can be efficiently
+converted to GDP with minimal loss in tightness.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.10915v1">Usable Privacy in Virtual Worlds: Design Implications for Data
+  Collection Awareness and Control Interfaces in Virtual Reality</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2025-03-13T22:02:54Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Viktorija Paneva, Verena Winterhalter, Naga Sai Surya Vamsy Malladi, Marvin Strauss, Stefan Schneegass, Florian Alt</p>
+    <p><b>Summary:</b> Extended reality (XR) devices have become ubiquitous. They are equipped with
+arrays of sensors, collecting extensive user and environmental data, allowing
+inferences about sensitive user information users may not realize they are
+sharing. Current VR privacy notices largely replicate mechanisms from 2D
+interfaces, failing to leverage the unique affordances of virtual 3D
+environments. To address this, we conducted brainstorming and sketching
+sessions with novice game developers and designers, followed by privacy expert
+evaluations, to explore and refine privacy interfaces tailored for VR. Key
+challenges include balancing user engagement with privacy awareness, managing
+complex privacy information with user comprehension, and maintaining compliance
+and trust. We identify design implications such as thoughtful gamification,
+explicit and purpose-tied consent mechanisms, and granular, modifiable privacy
+control options. Our findings provide actionable guidance to researchers and
+practitioners for developing privacy-aware and user-friendly VR experiences.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2503.10350v1">Enhancing Facial Privacy Protection via Weakening Diffusion Purification</a></h3>
@@ -1148,6 +1113,40 @@ Extensive experiments conducted on two public datasets, i.e., CelebA-HQ and
 LADN, demonstrate the superiority of our approach. The protected faces
 generated by our method outperform those produced by existing facial privacy
 protection approaches in terms of transferability and natural appearance.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.10727v1">Word-level Annotation of GDPR Transparency Compliance in Privacy
+  Policies using Large Language Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-03-13T11:41:25Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Thomas Cory, Wolf Rieder, Julia Krämer, Philip Raschke, Patrick Herbke, Axel Küpper</p>
+    <p><b>Summary:</b> Ensuring transparency of data practices related to personal information is a
+fundamental requirement under the General Data Protection Regulation (GDPR),
+particularly as mandated by Articles 13 and 14. However, assessing compliance
+at scale remains a challenge due to the complexity and variability of privacy
+policy language. Manual audits are resource-intensive and inconsistent, while
+existing automated approaches lack the granularity needed to capture nuanced
+transparency disclosures.
+  In this paper, we introduce a large language model (LLM)-based framework for
+word-level GDPR transparency compliance annotation. Our approach comprises a
+two-stage annotation pipeline that combines initial LLM-based annotation with a
+self-correction mechanism for iterative refinement. This annotation pipeline
+enables the systematic identification and fine-grained annotation of
+transparency-related content in privacy policies, aligning with 21 GDPR-derived
+transparency requirements. To enable large-scale analysis, we compile a dataset
+of 703,791 English-language policies, from which we generate a sample of 200
+manually annotated privacy policies.
+  To evaluate our approach, we introduce a two-tiered methodology assessing
+both label- and span-level annotation performance. We conduct a comparative
+analysis of eight high-profile LLMs, providing insights into their
+effectiveness in identifying GDPR transparency disclosures. Our findings
+contribute to advancing the automation of GDPR compliance assessments and
+provide valuable resources for future research in privacy policy analysis.</p>
   </details>
 </div>
 
