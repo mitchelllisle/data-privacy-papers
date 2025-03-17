@@ -3212,5 +3212,23 @@
     "categories" : [
       "cs.CL"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.05786v2",
+    "title" : "FedMentalCare: Towards Privacy-Preserving Fine-Tuned LLMs to Analyze\n  Mental Health Status Using Federated Learning Framework",
+    "summary" : "With the increasing prevalence of mental health conditions worldwide,\nAI-powered chatbots and conversational agents have emerged as accessible tools\nto support mental health. However, deploying Large Language Models (LLMs) in\nmental healthcare applications raises significant privacy concerns, especially\nregarding regulations like HIPAA and GDPR. In this work, we propose\nFedMentalCare, a privacy-preserving framework that leverages Federated Learning\n(FL) combined with Low-Rank Adaptation (LoRA) to fine-tune LLMs for mental\nhealth analysis. We investigate the performance impact of varying client data\nvolumes and model architectures (e.g., MobileBERT and MiniLM) in FL\nenvironments. Our framework demonstrates a scalable, privacy-aware approach for\ndeploying LLMs in real-world mental healthcare scenarios, addressing data\nsecurity and computational efficiency challenges.",
+    "updated" : "2025-03-14T00:18:36Z",
+    "published" : "2025-02-27T07:04:19Z",
+    "authors" : [
+      {
+        "name" : "S M Sarwar"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.HC",
+      "cs.LG",
+      "I.2.6; I.5.1; J.3; C.2.4; D.4.6"
+    ]
   }
 ]
