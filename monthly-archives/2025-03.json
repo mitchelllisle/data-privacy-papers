@@ -1714,5 +1714,182 @@
       "cs.CR",
       "cs.SY"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.11232v1",
+    "title" : "PrivacyScalpel: Enhancing LLM Privacy via Interpretable Feature\n  Intervention with Sparse Autoencoders",
+    "summary" : "Large Language Models (LLMs) have demonstrated remarkable capabilities in\nnatural language processing but also pose significant privacy risks by\nmemorizing and leaking Personally Identifiable Information (PII). Existing\nmitigation strategies, such as differential privacy and neuron-level\ninterventions, often degrade model utility or fail to effectively prevent\nleakage. To address this challenge, we introduce PrivacyScalpel, a novel\nprivacy-preserving framework that leverages LLM interpretability techniques to\nidentify and mitigate PII leakage while maintaining performance. PrivacyScalpel\ncomprises three key steps: (1) Feature Probing, which identifies layers in the\nmodel that encode PII-rich representations, (2) Sparse Autoencoding, where a\nk-Sparse Autoencoder (k-SAE) disentangles and isolates privacy-sensitive\nfeatures,\n  and (3) Feature-Level Interventions, which employ targeted ablation and\nvector steering to suppress PII leakage.\n  Our empirical evaluation on Gemma2-2b and Llama2-7b, fine-tuned on the Enron\ndataset, shows that PrivacyScalpel significantly reduces email leakage from\n5.15\\% to as low as 0.0\\%, while maintaining over 99.4\\% of the original\nmodel's utility. Notably, our method outperforms neuron-level interventions in\nprivacy-utility trade-offs, demonstrating that acting on sparse, monosemantic\nfeatures is more effective than manipulating polysemantic neurons. Beyond\nimproving LLM privacy, our approach offers insights into the mechanisms\nunderlying PII memorization, contributing to the broader field of model\ninterpretability and secure AI deployment.",
+    "updated" : "2025-03-14T09:31:01Z",
+    "published" : "2025-03-14T09:31:01Z",
+    "authors" : [
+      {
+        "name" : "Ahmed Frikha"
+      },
+      {
+        "name" : "Muhammad Reza Ar Razi"
+      },
+      {
+        "name" : "Krishna Kanth Nakka"
+      },
+      {
+        "name" : "Ricardo Mendes"
+      },
+      {
+        "name" : "Xue Jiang"
+      },
+      {
+        "name" : "Xuebing Zhou"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.11169v1",
+    "title" : "Security and Privacy: Key Requirements for Molecular Communication in\n  Medicine and Healthcare",
+    "summary" : "Molecular communication (MC) is an emerging paradigm that enables data\ntransmission through biochemical signals rather than traditional\nelectromagnetic waves. This approach is particularly promising for environments\nwhere conventional wireless communication is impractical, such as within the\nhuman body. However, security and privacy pose significant challenges that must\nbe addressed to ensure reliable communication. Moreover, MC is often\nevent-triggered, making it logical to adopt goal-oriented communication\nstrategies, similar to those used in message identification. This work explores\nsecure identification strategies for MC, with a focus on the\ninformation-theoretic security of message identification over Poisson wiretap\nchannels (DT-PWC).",
+    "updated" : "2025-03-14T08:14:14Z",
+    "published" : "2025-03-14T08:14:14Z",
+    "authors" : [
+      {
+        "name" : "Vida Gholamiyan"
+      },
+      {
+        "name" : "Yaning Zhao"
+      },
+      {
+        "name" : "Wafa Labidi"
+      },
+      {
+        "name" : "Holger Boche"
+      },
+      {
+        "name" : "Christian Deppe"
+      }
+    ],
+    "categories" : [
+      "cs.IT",
+      "math.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.11051v1",
+    "title" : "Towards Privacy-preserved Pre-training of Remote Sensing Foundation\n  Models with Federated Mutual-guidance Learning",
+    "summary" : "Traditional Remote Sensing Foundation models (RSFMs) are pre-trained with a\ndata-centralized paradigm, through self-supervision on large-scale curated\nremote sensing data. For each institution, however, pre-training RSFMs with\nlimited data in a standalone manner may lead to suboptimal performance, while\naggregating remote sensing data from multiple institutions for centralized\npre-training raises privacy concerns. Seeking for collaboration is a promising\nsolution to resolve this dilemma, where multiple institutions can\ncollaboratively train RSFMs without sharing private data. In this paper, we\npropose a novel privacy-preserved pre-training framework (FedSense), which\nenables multiple institutions to collaboratively train RSFMs without sharing\nprivate data. However, it is a non-trivial task hindered by a vicious cycle,\nwhich results from model drift by remote sensing data heterogeneity and high\ncommunication overhead. To break this vicious cycle, we introduce Federated\nMutual-guidance Learning. Specifically, we propose a Server-to-Clients Guidance\n(SCG) mechanism to guide clients updates towards global-flatness optimal\nsolutions. Additionally, we propose a Clients-to-Server Guidance (CSG)\nmechanism to inject local knowledge into the server by low-bit communication.\nExtensive experiments on four downstream tasks demonstrate the effectiveness of\nour FedSense in both full-precision and communication-reduced scenarios,\nshowcasing remarkable communication efficiency and performance gains.",
+    "updated" : "2025-03-14T03:38:49Z",
+    "published" : "2025-03-14T03:38:49Z",
+    "authors" : [
+      {
+        "name" : "Jieyi Tan"
+      },
+      {
+        "name" : "Chengwei Zhang"
+      },
+      {
+        "name" : "Bo Dang"
+      },
+      {
+        "name" : "Yansheng Li"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.10945v1",
+    "title" : "$(\\varepsilon, δ)$ Considered Harmful: Best Practices for Reporting\n  Differential Privacy Guarantees",
+    "summary" : "Current practices for reporting the level of differential privacy (DP)\nguarantees for machine learning (ML) algorithms provide an incomplete and\npotentially misleading picture of the guarantees and make it difficult to\ncompare privacy levels across different settings. We argue for using Gaussian\ndifferential privacy (GDP) as the primary means of communicating DP guarantees\nin ML, with the full privacy profile as a secondary option in case GDP is too\ninaccurate. Unlike other widely used alternatives, GDP has only one parameter,\nwhich ensures easy comparability of guarantees, and it can accurately capture\nthe full privacy profile of many important ML applications. To support our\nclaims, we investigate the privacy profiles of state-of-the-art DP large-scale\nimage classification, and the TopDown algorithm for the U.S. Decennial Census,\nobserving that GDP fits the profiles remarkably well in all three cases.\nAlthough GDP is ideal for reporting the final guarantees, other formalisms\n(e.g., privacy loss random variables) are needed for accurate privacy\naccounting. We show that such intermediate representations can be efficiently\nconverted to GDP with minimal loss in tightness.",
+    "updated" : "2025-03-13T23:06:30Z",
+    "published" : "2025-03-13T23:06:30Z",
+    "authors" : [
+      {
+        "name" : "Juan Felipe Gomez"
+      },
+      {
+        "name" : "Bogdan Kulynych"
+      },
+      {
+        "name" : "Georgios Kaissis"
+      },
+      {
+        "name" : "Jamie Hayes"
+      },
+      {
+        "name" : "Borja Balle"
+      },
+      {
+        "name" : "Antti Honkela"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.10915v1",
+    "title" : "Usable Privacy in Virtual Worlds: Design Implications for Data\n  Collection Awareness and Control Interfaces in Virtual Reality",
+    "summary" : "Extended reality (XR) devices have become ubiquitous. They are equipped with\narrays of sensors, collecting extensive user and environmental data, allowing\ninferences about sensitive user information users may not realize they are\nsharing. Current VR privacy notices largely replicate mechanisms from 2D\ninterfaces, failing to leverage the unique affordances of virtual 3D\nenvironments. To address this, we conducted brainstorming and sketching\nsessions with novice game developers and designers, followed by privacy expert\nevaluations, to explore and refine privacy interfaces tailored for VR. Key\nchallenges include balancing user engagement with privacy awareness, managing\ncomplex privacy information with user comprehension, and maintaining compliance\nand trust. We identify design implications such as thoughtful gamification,\nexplicit and purpose-tied consent mechanisms, and granular, modifiable privacy\ncontrol options. Our findings provide actionable guidance to researchers and\npractitioners for developing privacy-aware and user-friendly VR experiences.",
+    "updated" : "2025-03-13T22:02:54Z",
+    "published" : "2025-03-13T22:02:54Z",
+    "authors" : [
+      {
+        "name" : "Viktorija Paneva"
+      },
+      {
+        "name" : "Verena Winterhalter"
+      },
+      {
+        "name" : "Naga Sai Surya Vamsy Malladi"
+      },
+      {
+        "name" : "Marvin Strauss"
+      },
+      {
+        "name" : "Stefan Schneegass"
+      },
+      {
+        "name" : "Florian Alt"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.10727v1",
+    "title" : "Word-level Annotation of GDPR Transparency Compliance in Privacy\n  Policies using Large Language Models",
+    "summary" : "Ensuring transparency of data practices related to personal information is a\nfundamental requirement under the General Data Protection Regulation (GDPR),\nparticularly as mandated by Articles 13 and 14. However, assessing compliance\nat scale remains a challenge due to the complexity and variability of privacy\npolicy language. Manual audits are resource-intensive and inconsistent, while\nexisting automated approaches lack the granularity needed to capture nuanced\ntransparency disclosures.\n  In this paper, we introduce a large language model (LLM)-based framework for\nword-level GDPR transparency compliance annotation. Our approach comprises a\ntwo-stage annotation pipeline that combines initial LLM-based annotation with a\nself-correction mechanism for iterative refinement. This annotation pipeline\nenables the systematic identification and fine-grained annotation of\ntransparency-related content in privacy policies, aligning with 21 GDPR-derived\ntransparency requirements. To enable large-scale analysis, we compile a dataset\nof 703,791 English-language policies, from which we generate a sample of 200\nmanually annotated privacy policies.\n  To evaluate our approach, we introduce a two-tiered methodology assessing\nboth label- and span-level annotation performance. We conduct a comparative\nanalysis of eight high-profile LLMs, providing insights into their\neffectiveness in identifying GDPR transparency disclosures. Our findings\ncontribute to advancing the automation of GDPR compliance assessments and\nprovide valuable resources for future research in privacy policy analysis.",
+    "updated" : "2025-03-13T11:41:25Z",
+    "published" : "2025-03-13T11:41:25Z",
+    "authors" : [
+      {
+        "name" : "Thomas Cory"
+      },
+      {
+        "name" : "Wolf Rieder"
+      },
+      {
+        "name" : "Julia Krämer"
+      },
+      {
+        "name" : "Philip Raschke"
+      },
+      {
+        "name" : "Patrick Herbke"
+      },
+      {
+        "name" : "Axel Küpper"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.AI"
+    ]
   }
 ]
