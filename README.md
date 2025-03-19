@@ -331,107 +331,58 @@ algorithms improve the privacy-utility trade-offs compared to baseline schemes.<
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.18697v1">H-FLTN: A Privacy-Preserving Hierarchical Framework for Electric Vehicle
-  Spatio-Temporal Charge Prediction</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
-  <p><b>Published on:</b> 2025-02-25T23:20:53Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Robert Marlin, Raja Jurdak, Alsharif Abuadbba</p>
-    <p><b>Summary:</b> The widespread adoption of Electric Vehicles (EVs) poses critical challenges
-for energy providers, particularly in predicting charging time (temporal
-prediction), ensuring user privacy, and managing resources efficiently in
-mobility-driven networks. This paper introduces the Hierarchical Federated
-Learning Transformer Network (H-FLTN) framework to address these challenges.
-H-FLTN employs a three-tier hierarchical architecture comprising EVs, community
-Distributed Energy Resource Management Systems (DERMS), and the Energy Provider
-Data Centre (EPDC) to enable accurate spatio-temporal predictions of EV
-charging needs while preserving privacy. Temporal prediction is enhanced using
-Transformer-based learning, capturing complex dependencies in charging
-behavior. Privacy is ensured through Secure Aggregation, Additive Secret
-Sharing, and Peer-to-Peer (P2P) Sharing with Augmentation, which allow only
-secret shares of model weights to be exchanged while securing all
-transmissions. To improve training efficiency and resource management, H-FLTN
-integrates Dynamic Client Capping Mechanism (DCCM) and Client Rotation
-Management (CRM), ensuring that training remains both computationally and
-temporally efficient as the number of participating EVs increases. DCCM
-optimises client participation by limiting excessive computational loads, while
-CRM balances training contributions across epochs, preventing imbalanced
-participation. Our simulation results based on large-scale empirical vehicle
-mobility data reveal that DCCM and CRM reduce the training time complexity with
-increasing EVs from linear to constant. Its integration into real-world smart
-city infrastructure enhances energy demand forecasting, resource allocation,
-and grid stability, ensuring reliability and sustainability in future mobility
-ecosystems.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.18623v1">On the Privacy-Preserving Properties of Spiking Neural Networks with
-  Unique Surrogate Gradients and Quantization Levels</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Neural and Evolutionary Computing-5BC0EB">
-  <p><b>Published on:</b> 2025-02-25T20:14:14Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ayana Moshruba, Shay Snyder, Hamed Poursiami, Maryam Parsa</p>
-    <p><b>Summary:</b> As machine learning models increasingly process sensitive data, understanding
-their vulnerability to privacy attacks is vital. Membership inference attacks
-(MIAs) exploit model responses to infer whether specific data points were used
-during training, posing a significant privacy risk. Prior research suggests
-that spiking neural networks (SNNs), which rely on event-driven computation and
-discrete spike-based encoding, exhibit greater resilience to MIAs than
-artificial neural networks (ANNs). This resilience stems from their
-non-differentiable activations and inherent stochasticity, which obscure the
-correlation between model responses and individual training samples. To enhance
-privacy in SNNs, we explore two techniques: quantization and surrogate
-gradients. Quantization, which reduces precision to limit information leakage,
-has improved privacy in ANNs. Given SNNs' sparse and irregular activations,
-quantization may further disrupt the activation patterns exploited by MIAs. We
-assess the vulnerability of SNNs and ANNs under weight and activation
-quantization across multiple datasets, using the attack model's receiver
-operating characteristic (ROC) curve area under the curve (AUC) metric, where
-lower values indicate stronger privacy, and evaluate the privacy-accuracy
-trade-off. Our findings show that quantization enhances privacy in both
-architectures with minimal performance loss, though full-precision SNNs remain
-more resilient than quantized ANNs. Additionally, we examine the impact of
-surrogate gradients on privacy in SNNs. Among five evaluated gradients, spike
-rate escape provides the best privacy-accuracy trade-off, while arctangent
-increases vulnerability to MIAs. These results reinforce SNNs' inherent privacy
-advantages and demonstrate that quantization and surrogate gradient selection
-significantly influence privacy-accuracy trade-offs in SNNs.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.18545v1">PII-Bench: Evaluating Query-Aware Privacy Protection Systems</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB">
-  <p><b>Published on:</b> 2025-02-25T14:49:08Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Hao Shen, Zhouhong Gu, Haokai Hong, Weili Han</p>
-    <p><b>Summary:</b> The widespread adoption of Large Language Models (LLMs) has raised
-significant privacy concerns regarding the exposure of personally identifiable
-information (PII) in user prompts. To address this challenge, we propose a
-query-unrelated PII masking strategy and introduce PII-Bench, the first
-comprehensive evaluation framework for assessing privacy protection systems.
-PII-Bench comprises 2,842 test samples across 55 fine-grained PII categories,
-featuring diverse scenarios from single-subject descriptions to complex
-multi-party interactions. Each sample is carefully crafted with a user query,
-context description, and standard answer indicating query-relevant PII. Our
-empirical evaluation reveals that while current models perform adequately in
-basic PII detection, they show significant limitations in determining PII query
-relevance. Even state-of-the-art LLMs struggle with this task, particularly in
-handling complex multi-subject scenarios, indicating substantial room for
-improvement in achieving intelligent PII masking.</p>
-  </details>
-</div>
-
-
 
 <h2>2025-03</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.13872v1">Empirical Calibration and Metric Differential Privacy in Language Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-03-18T03:52:12Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Pedro Faustini, Natasha Fernandes, Annabelle McIver, Mark Dras</p>
+    <p><b>Summary:</b> NLP models trained with differential privacy (DP) usually adopt the DP-SGD
+framework, and privacy guarantees are often reported in terms of the privacy
+budget $\epsilon$. However, $\epsilon$ does not have any intrinsic meaning, and
+it is generally not possible to compare across variants of the framework. Work
+in image processing has therefore explored how to empirically calibrate noise
+across frameworks using Membership Inference Attacks (MIAs). However, this kind
+of calibration has not been established for NLP. In this paper, we show that
+MIAs offer little help in calibrating privacy, whereas reconstruction attacks
+are more useful. As a use case, we define a novel kind of directional privacy
+based on the von Mises-Fisher (VMF) distribution, a metric DP mechanism that
+perturbs angular distance rather than adding (isotropic) Gaussian noise, and
+apply this to NLP architectures. We show that, even though formal guarantees
+are incomparable, empirical privacy calibration reveals that each mechanism has
+different areas of strength with respect to utility-privacy trade-offs.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.13816v1">MOSAIC: Generating Consistent, Privacy-Preserving Scenes from Multiple
+  Depth Views in Multi-Room Environments</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2025-03-18T01:50:57Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zhixuan Liu, Haokun Zhu, Rui Chen, Jonathan Francis, Soonmin Hwang, Ji Zhang, Jean Oh</p>
+    <p><b>Summary:</b> We introduce a novel diffusion-based approach for generating
+privacy-preserving digital twins of multi-room indoor environments from depth
+images only. Central to our approach is a novel Multi-view Overlapped Scene
+Alignment with Implicit Consistency (MOSAIC) model that explicitly considers
+cross-view dependencies within the same scene in the probabilistic sense.
+MOSAIC operates through a novel inference-time optimization that avoids error
+accumulation common in sequential or single-room constraint in panorama-based
+approaches. MOSAIC scales to complex scenes with zero extra training and
+provably reduces the variance during denoising processes when more overlapping
+views are added, leading to improved generation quality. Experiments show that
+MOSAIC outperforms state-of-the-art baselines on image fidelity metrics in
+reconstructing complex multi-room environments. Project page is available at:
+https://mosaic-cmubig.github.io</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2503.13173v1">PAUSE: Low-Latency and Privacy-Aware Active User Selection for Federated
@@ -524,6 +475,31 @@ noteworthy forgery phenomenon that deviates from prior findings and discuss its
 positive impact in countering malicious impostor attacks. Substantially, our
 work underscores the feasibility of privacy-preserving biometric verification
 and propels the prospects of its broader acceptance and application.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.13550v1">Towards Privacy-Preserving Data-Driven Education: The Potential of
+  Federated Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-03-16T14:37:32Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mohammad Khalil, Ronas Shakya, Qinyi Liu</p>
+    <p><b>Summary:</b> The increasing adoption of data-driven applications in education such as in
+learning analytics and AI in education has raised significant privacy and data
+protection concerns. While these challenges have been widely discussed in
+previous works, there are still limited practical solutions. Federated learning
+has recently been discoursed as a promising privacy-preserving technique, yet
+its application in education remains scarce. This paper presents an
+experimental evaluation of federated learning for educational data prediction,
+comparing its performance to traditional non-federated approaches. Our findings
+indicate that federated learning achieves comparable predictive accuracy.
+Furthermore, under adversarial attacks, federated learning demonstrates greater
+resilience compared to non-federated settings. We summarise that our results
+reinforce the value of federated learning as a potential approach for balancing
+predictive performance and privacy in educational contexts.</p>
   </details>
 </div>
 
