@@ -2337,5 +2337,86 @@
       "cs.LG",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.13872v1",
+    "title" : "Empirical Calibration and Metric Differential Privacy in Language Models",
+    "summary" : "NLP models trained with differential privacy (DP) usually adopt the DP-SGD\nframework, and privacy guarantees are often reported in terms of the privacy\nbudget $\\epsilon$. However, $\\epsilon$ does not have any intrinsic meaning, and\nit is generally not possible to compare across variants of the framework. Work\nin image processing has therefore explored how to empirically calibrate noise\nacross frameworks using Membership Inference Attacks (MIAs). However, this kind\nof calibration has not been established for NLP. In this paper, we show that\nMIAs offer little help in calibrating privacy, whereas reconstruction attacks\nare more useful. As a use case, we define a novel kind of directional privacy\nbased on the von Mises-Fisher (VMF) distribution, a metric DP mechanism that\nperturbs angular distance rather than adding (isotropic) Gaussian noise, and\napply this to NLP architectures. We show that, even though formal guarantees\nare incomparable, empirical privacy calibration reveals that each mechanism has\ndifferent areas of strength with respect to utility-privacy trade-offs.",
+    "updated" : "2025-03-18T03:52:12Z",
+    "published" : "2025-03-18T03:52:12Z",
+    "authors" : [
+      {
+        "name" : "Pedro Faustini"
+      },
+      {
+        "name" : "Natasha Fernandes"
+      },
+      {
+        "name" : "Annabelle McIver"
+      },
+      {
+        "name" : "Mark Dras"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.13816v1",
+    "title" : "MOSAIC: Generating Consistent, Privacy-Preserving Scenes from Multiple\n  Depth Views in Multi-Room Environments",
+    "summary" : "We introduce a novel diffusion-based approach for generating\nprivacy-preserving digital twins of multi-room indoor environments from depth\nimages only. Central to our approach is a novel Multi-view Overlapped Scene\nAlignment with Implicit Consistency (MOSAIC) model that explicitly considers\ncross-view dependencies within the same scene in the probabilistic sense.\nMOSAIC operates through a novel inference-time optimization that avoids error\naccumulation common in sequential or single-room constraint in panorama-based\napproaches. MOSAIC scales to complex scenes with zero extra training and\nprovably reduces the variance during denoising processes when more overlapping\nviews are added, leading to improved generation quality. Experiments show that\nMOSAIC outperforms state-of-the-art baselines on image fidelity metrics in\nreconstructing complex multi-room environments. Project page is available at:\nhttps://mosaic-cmubig.github.io",
+    "updated" : "2025-03-18T01:50:57Z",
+    "published" : "2025-03-18T01:50:57Z",
+    "authors" : [
+      {
+        "name" : "Zhixuan Liu"
+      },
+      {
+        "name" : "Haokun Zhu"
+      },
+      {
+        "name" : "Rui Chen"
+      },
+      {
+        "name" : "Jonathan Francis"
+      },
+      {
+        "name" : "Soonmin Hwang"
+      },
+      {
+        "name" : "Ji Zhang"
+      },
+      {
+        "name" : "Jean Oh"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.13550v1",
+    "title" : "Towards Privacy-Preserving Data-Driven Education: The Potential of\n  Federated Learning",
+    "summary" : "The increasing adoption of data-driven applications in education such as in\nlearning analytics and AI in education has raised significant privacy and data\nprotection concerns. While these challenges have been widely discussed in\nprevious works, there are still limited practical solutions. Federated learning\nhas recently been discoursed as a promising privacy-preserving technique, yet\nits application in education remains scarce. This paper presents an\nexperimental evaluation of federated learning for educational data prediction,\ncomparing its performance to traditional non-federated approaches. Our findings\nindicate that federated learning achieves comparable predictive accuracy.\nFurthermore, under adversarial attacks, federated learning demonstrates greater\nresilience compared to non-federated settings. We summarise that our results\nreinforce the value of federated learning as a potential approach for balancing\npredictive performance and privacy in educational contexts.",
+    "updated" : "2025-03-16T14:37:32Z",
+    "published" : "2025-03-16T14:37:32Z",
+    "authors" : [
+      {
+        "name" : "Mohammad Khalil"
+      },
+      {
+        "name" : "Ronas Shakya"
+      },
+      {
+        "name" : "Qinyi Liu"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR"
+    ]
   }
 ]
