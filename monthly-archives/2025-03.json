@@ -2418,5 +2418,133 @@
       "cs.AI",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.15287v1",
+    "title" : "Distributed Generalized Linear Models: A Privacy-Preserving Approach",
+    "summary" : "This paper presents a novel approach to classical linear regression, enabling\nmodel computation from data streams or in a distributed setting while\npreserving data privacy in federated environments. We extend this framework to\ngeneralized linear models (GLMs), ensuring scalability and adaptability to\ndiverse data distributions while maintaining privacy-preserving properties. To\nassess the effectiveness of our approach, we conduct numerical studies on both\nsimulated and real datasets, comparing our method with conventional maximum\nlikelihood estimation for GLMs using iteratively reweighted least squares. Our\nresults demonstrate the advantages of the proposed method in distributed and\nfederated settings.",
+    "updated" : "2025-03-19T15:07:41Z",
+    "published" : "2025-03-19T15:07:41Z",
+    "authors" : [
+      {
+        "name" : "Daniel Tinoco"
+      },
+      {
+        "name" : "Raquel Menezes"
+      },
+      {
+        "name" : "Carlos Baquero"
+      }
+    ],
+    "categories" : [
+      "stat.CO",
+      "cs.DC",
+      "62J12 (Primary) 68U99 (Secondary)",
+      "G.3; C.2.4"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.15238v1",
+    "title" : "Your Signal, Their Data: An Empirical Privacy Analysis of\n  Wireless-scanning SDKs in Android",
+    "summary" : "Mobile apps frequently use Bluetooth Low Energy (BLE) and WiFi scanning\npermissions to discover nearby devices like peripherals and connect to WiFi\nAccess Points (APs). However, wireless interfaces also serve as a covert proxy\nfor geolocation data, enabling continuous user tracking and profiling. This\nincludes technologies like BLE beacons, which are BLE devices broadcasting\nunique identifiers to determine devices' indoor physical locations; such\nbeacons are easily found in shopping centres. Despite the widespread use of\nwireless scanning APIs and their potential for privacy abuse, the interplay\nbetween commercial mobile SDKs with wireless sensing and beaconing technologies\nremains largely unexplored. In this work, we conduct the first systematic\nanalysis of 52 wireless-scanning SDKs, revealing their data collection\npractices and privacy risks. We develop a comprehensive analysis pipeline that\nenables us to detect beacon scanning capabilities, inject wireless events to\ntrigger app behaviors, and monitor runtime execution on instrumented devices.\nOur findings show that 86% of apps integrating these SDKs collect at least one\nsensitive data type, including device and user identifiers such as AAID, email,\nalong with GPS coordinates, WiFi and Bluetooth scan results. We uncover\nwidespread SDK-to-SDK data sharing and evidence of ID bridging, where\npersistent and resettable identifiers are shared and synchronized within SDKs\nembedded in applications to potentially construct detailed mobility profiles,\ncompromising user anonymity and enabling long-term tracking. We provide\nevidence of key actors engaging in these practices and conclude by proposing\nmitigation strategies such as stronger SDK sandboxing, stricter enforcement of\nplatform policies, and improved transparency mechanisms to limit unauthorized\ntracking.",
+    "updated" : "2025-03-19T14:15:02Z",
+    "published" : "2025-03-19T14:15:02Z",
+    "authors" : [
+      {
+        "name" : "Aniketh Girish"
+      },
+      {
+        "name" : "Joel Reardon"
+      },
+      {
+        "name" : "Juan Tapiador"
+      },
+      {
+        "name" : "Srdjan Matic"
+      },
+      {
+        "name" : "Narseo Vallina-Rodriguez"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.15015v1",
+    "title" : "OFL: Opportunistic Federated Learning for Resource-Heterogeneous and\n  Privacy-Aware Devices",
+    "summary" : "Efficient and secure federated learning (FL) is a critical challenge for\nresource-limited devices, especially mobile devices. Existing secure FL\nsolutions commonly incur significant overhead, leading to a contradiction\nbetween efficiency and security. As a result, these two concerns are typically\naddressed separately. This paper proposes Opportunistic Federated Learning\n(OFL), a novel FL framework designed explicitly for resource-heterogenous and\nprivacy-aware FL devices, solving efficiency and security problems jointly. OFL\noptimizes resource utilization and adaptability across diverse devices by\nadopting a novel hierarchical and asynchronous aggregation strategy. OFL\nprovides strong security by introducing a differentially private and\nopportunistic model updating mechanism for intra-cluster model aggregation and\nan advanced threshold homomorphic encryption scheme for inter-cluster\naggregation. Moreover, OFL secures global model aggregation by implementing\npoisoning attack detection using frequency analysis while keeping models\nencrypted. We have implemented OFL in a real-world testbed and evaluated OFL\ncomprehensively. The evaluation results demonstrate that OFL achieves\nsatisfying model performance and improves efficiency and security,\noutperforming existing solutions.",
+    "updated" : "2025-03-19T09:12:47Z",
+    "published" : "2025-03-19T09:12:47Z",
+    "authors" : [
+      {
+        "name" : "Yunlong Mao"
+      },
+      {
+        "name" : "Mingyang Niu"
+      },
+      {
+        "name" : "Ziqin Dang"
+      },
+      {
+        "name" : "Chengxi Li"
+      },
+      {
+        "name" : "Hanning Xia"
+      },
+      {
+        "name" : "Yuejuan Zhu"
+      },
+      {
+        "name" : "Haoyu Bian"
+      },
+      {
+        "name" : "Yuan Zhang"
+      },
+      {
+        "name" : "Jingyu Hua"
+      },
+      {
+        "name" : "Sheng Zhong"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.14877v1",
+    "title" : "Synthesizing Grid Data with Cyber Resilience and Privacy Guarantees",
+    "summary" : "Differential privacy (DP) provides a principled approach to synthesizing data\n(e.g., loads) from real-world power systems while limiting the exposure of\nsensitive information. However, adversaries may exploit synthetic data to\ncalibrate cyberattacks on the source grids. To control these risks, we propose\nnew DP algorithms for synthesizing data that provide the source grids with both\ncyber resilience and privacy guarantees. The algorithms incorporate both normal\noperation and attack optimization models to balance the fidelity of synthesized\ndata and cyber resilience. The resulting post-processing optimization is\nreformulated as a robust optimization problem, which is compatible with the\nexponential mechanism of DP to moderate its computational burden.",
+    "updated" : "2025-03-19T04:11:33Z",
+    "published" : "2025-03-19T04:11:33Z",
+    "authors" : [
+      {
+        "name" : "Shengyang Wu"
+      },
+      {
+        "name" : "Vladimir Dvorkin"
+      }
+    ],
+    "categories" : [
+      "eess.SY",
+      "cs.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.14539v1",
+    "title" : "Ethical Implications of AI in Data Collection: Balancing Innovation with\n  Privacy",
+    "summary" : "This article examines the ethical and legal implications of artificial\nintelligence (AI) driven data collection, focusing on developments from 2023 to\n2024. It analyzes recent advancements in AI technologies and their impact on\ndata collection practices across various sectors. The study compares regulatory\napproaches in the European Union, the United States, and China, highlighting\nthe challenges in creating a globally harmonized framework for AI governance.\nKey ethical issues, including informed consent, algorithmic bias, and privacy\nprotection, are critically assessed in the context of increasingly\nsophisticated AI systems. The research explores case studies in healthcare,\nfinance, and smart cities to illustrate the practical challenges of AI\nimplementation. It evaluates the effectiveness of current legal frameworks and\nproposes solutions encompassing legal and policy recommendations, technical\nsafeguards, and ethical frameworks. The article emphasizes the need for\nadaptive governance and international cooperation to address the global nature\nof AI development while balancing innovation with the protection of individual\nrights and societal values.",
+    "updated" : "2025-03-17T14:15:59Z",
+    "published" : "2025-03-17T14:15:59Z",
+    "authors" : [
+      {
+        "name" : "Shahmar Mirishli"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.HC"
+    ]
   }
 ]
