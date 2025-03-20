@@ -184,155 +184,117 @@ $1.5\%$ accuracy degradation on MNIST.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.19154v1">Towards Privacy-Preserving Anomaly-Based Intrusion Detection in Energy
-  Communities</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-02-26T14:13:02Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zeeshan Afzal, Giovanni Gaggero, Mikael Asplund</p>
-    <p><b>Summary:</b> Energy communities consist of decentralized energy production, storage,
-consumption, and distribution and are gaining traction in modern power systems.
-However, these communities may increase the vulnerability of the grid to cyber
-threats. We propose an anomaly-based intrusion detection system to enhance the
-security of energy communities. The system leverages deep autoencoders to
-detect deviations from normal operational patterns in order to identify
-anomalies induced by malicious activities and attacks. Operational data for
-training and evaluation are derived from a Simulink model of an energy
-community. The results show that the autoencoder-based intrusion detection
-system achieves good detection performance across multiple attack scenarios. We
-also demonstrate potential for real-world application of the system by training
-a federated model that enables distributed intrusion detection while preserving
-data privacy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.19119v1">Chemical knowledge-informed framework for privacy-aware retrosynthesis
-  learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-02-26T13:13:24Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Guikun Chen, Xu Zhang, Yi Yang, Wenguan Wang</p>
-    <p><b>Summary:</b> Chemical reaction data is a pivotal asset, driving advances in competitive
-fields such as pharmaceuticals, materials science, and industrial chemistry.
-Its proprietary nature renders it sensitive, as it often includes confidential
-insights and competitive advantages organizations strive to protect. However,
-in contrast to this need for confidentiality, the current standard training
-paradigm for machine learning-based retrosynthesis gathers reaction data from
-multiple sources into one single edge to train prediction models. This paradigm
-poses considerable privacy risks as it necessitates broad data availability
-across organizational boundaries and frequent data transmission between
-entities, potentially exposing proprietary information to unauthorized access
-or interception during storage and transfer. In the present study, we introduce
-the chemical knowledge-informed framework (CKIF), a privacy-preserving approach
-for learning retrosynthesis models. CKIF enables distributed training across
-multiple chemical organizations without compromising the confidentiality of
-proprietary reaction data. Instead of gathering raw reaction data, CKIF learns
-retrosynthesis models through iterative, chemical knowledge-informed
-aggregation of model parameters. In particular, the chemical properties of
-predicted reactants are leveraged to quantitatively assess the observable
-behaviors of individual models, which in turn determines the adaptive weights
-used for model aggregation. On a variety of reaction datasets, CKIF outperforms
-several strong baselines by a clear margin (e.g., ~20% performance improvement
-over FedAvg on USPTO-50K), showing its feasibility and superiority to stimulate
-further research on privacy-preserving retrosynthesis.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.19082v2">Trust-Enabled Privacy: Social Media Designs to Support Adolescent User
-  Boundary Regulation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2025-02-26T12:19:53Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> JaeWon Kim, Robert Wolfe, Ramya Bhagirathi Subramanian, Mei-Hsuan Lee, Jessica Colnago, Alexis Hiniker</p>
-    <p><b>Summary:</b> Through a three-part co-design study involving 19 teens aged 13-18, we
-identify key barriers to effective boundary regulation on social media,
-including ambiguous audience expectations, social risks associated with
-oversharing, and the lack of design affordances that facilitate trust-building.
-Our findings reveal that while adolescents seek casual, frequent sharing to
-strengthen relationships, existing platform norms and designs often discourage
-such interactions, leading to withdrawal. To address these challenges, we
-introduce trust-enabled privacy as a design framework that recognizes trust,
-whether building or eroding, as central to boundary regulation. When trust is
-supported, boundary regulation becomes more adaptive and empowering; when it
-erodes, users default to self-censorship or withdrawal. We propose concrete
-design affordances, including guided disclosure, contextual audience
-segmentation, intentional engagement signaling, and trust-centered norms, to
-help platforms foster a more dynamic and nuanced privacy experience for teen
-social media users. By reframing privacy as a trust-driven process rather than
-a rigid control-based trade-off, this work provides empirical insights and
-actionable guidelines for designing social media environments that empower
-teens to manage their online presence while fostering meaningful social
-connections.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.18974v1">Distributed Transition System with Tags and Value-wise Metric, for
-  Privacy Analysis</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Logic in Computer Science-662E9B">
-  <p><b>Published on:</b> 2025-02-26T09:35:48Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Siva Anantharaman, Sabine Frittella, Benjamin Nguyen</p>
-    <p><b>Summary:</b> We introduce a logical framework named Distributed Labeled Tagged Transition
-System (DLTTS), using concepts from Probabilistic Automata, Probabilistic
-Concurrent Systems, and Probabilistic labelled transition systems. We show that
-DLTTS can be used to formally model how a given piece of private information P
-(e.g., a set of tuples) stored in a given database D can get captured
-progressively by an adversary A repeatedly querying D, enhancing the knowledge
-acquired from the answers to these queries with relational deductions using
-certain additional non-private data. The database D is assumed protected with
-generalization mechanisms. We also show that, on a large class of databases,
-metrics can be defined 'value-wise', and more general notions of adjacency
-between data bases can be defined, based on these metrics. These notions can
-also play a role in differentially private protection mechanisms.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.18706v1">Differentially Private Federated Learning With Time-Adaptive Privacy
-  Spending</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
-  <p><b>Published on:</b> 2025-02-25T23:56:23Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shahrzad Kiani, Nupur Kulkarni, Adam Dziedzic, Stark Draper, Franziska Boenisch</p>
-    <p><b>Summary:</b> Federated learning (FL) with differential privacy (DP) provides a framework
-for collaborative machine learning, enabling clients to train a shared model
-while adhering to strict privacy constraints. The framework allows each client
-to have an individual privacy guarantee, e.g., by adding different amounts of
-noise to each client's model updates. One underlying assumption is that all
-clients spend their privacy budgets uniformly over time (learning rounds).
-However, it has been shown in the literature that learning in early rounds
-typically focuses on more coarse-grained features that can be learned at lower
-signal-to-noise ratios while later rounds learn fine-grained features that
-benefit from higher signal-to-noise ratios. Building on this intuition, we
-propose a time-adaptive DP-FL framework that expends the privacy budget
-non-uniformly across both time and clients. Our framework enables each client
-to save privacy budget in early rounds so as to be able to spend more in later
-rounds when additional accuracy is beneficial in learning more fine-grained
-features. We theoretically prove utility improvements in the case that clients
-with stricter privacy budgets spend budgets unevenly across rounds, compared to
-clients with more relaxed budgets, who have sufficient budgets to distribute
-their spend more evenly. Our practical experiments on standard benchmark
-datasets support our theoretical results and show that, in practice, our
-algorithms improve the privacy-utility trade-offs compared to baseline schemes.</p>
-  </details>
-</div>
-
-
 
 <h2>2025-03</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.15287v1">Distributed Generalized Linear Models: A Privacy-Preserving Approach</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">  
+  <p><b>Published on:</b> 2025-03-19T15:07:41Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Daniel Tinoco, Raquel Menezes, Carlos Baquero</p>
+    <p><b>Summary:</b> This paper presents a novel approach to classical linear regression, enabling
+model computation from data streams or in a distributed setting while
+preserving data privacy in federated environments. We extend this framework to
+generalized linear models (GLMs), ensuring scalability and adaptability to
+diverse data distributions while maintaining privacy-preserving properties. To
+assess the effectiveness of our approach, we conduct numerical studies on both
+simulated and real datasets, comparing our method with conventional maximum
+likelihood estimation for GLMs using iteratively reweighted least squares. Our
+results demonstrate the advantages of the proposed method in distributed and
+federated settings.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.15238v1">Your Signal, Their Data: An Empirical Privacy Analysis of
+  Wireless-scanning SDKs in Android</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-03-19T14:15:02Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Aniketh Girish, Joel Reardon, Juan Tapiador, Srdjan Matic, Narseo Vallina-Rodriguez</p>
+    <p><b>Summary:</b> Mobile apps frequently use Bluetooth Low Energy (BLE) and WiFi scanning
+permissions to discover nearby devices like peripherals and connect to WiFi
+Access Points (APs). However, wireless interfaces also serve as a covert proxy
+for geolocation data, enabling continuous user tracking and profiling. This
+includes technologies like BLE beacons, which are BLE devices broadcasting
+unique identifiers to determine devices' indoor physical locations; such
+beacons are easily found in shopping centres. Despite the widespread use of
+wireless scanning APIs and their potential for privacy abuse, the interplay
+between commercial mobile SDKs with wireless sensing and beaconing technologies
+remains largely unexplored. In this work, we conduct the first systematic
+analysis of 52 wireless-scanning SDKs, revealing their data collection
+practices and privacy risks. We develop a comprehensive analysis pipeline that
+enables us to detect beacon scanning capabilities, inject wireless events to
+trigger app behaviors, and monitor runtime execution on instrumented devices.
+Our findings show that 86% of apps integrating these SDKs collect at least one
+sensitive data type, including device and user identifiers such as AAID, email,
+along with GPS coordinates, WiFi and Bluetooth scan results. We uncover
+widespread SDK-to-SDK data sharing and evidence of ID bridging, where
+persistent and resettable identifiers are shared and synchronized within SDKs
+embedded in applications to potentially construct detailed mobility profiles,
+compromising user anonymity and enabling long-term tracking. We provide
+evidence of key actors engaging in these practices and conclude by proposing
+mitigation strategies such as stronger SDK sandboxing, stricter enforcement of
+platform policies, and improved transparency mechanisms to limit unauthorized
+tracking.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.15015v1">OFL: Opportunistic Federated Learning for Resource-Heterogeneous and
+  Privacy-Aware Devices</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-03-19T09:12:47Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yunlong Mao, Mingyang Niu, Ziqin Dang, Chengxi Li, Hanning Xia, Yuejuan Zhu, Haoyu Bian, Yuan Zhang, Jingyu Hua, Sheng Zhong</p>
+    <p><b>Summary:</b> Efficient and secure federated learning (FL) is a critical challenge for
+resource-limited devices, especially mobile devices. Existing secure FL
+solutions commonly incur significant overhead, leading to a contradiction
+between efficiency and security. As a result, these two concerns are typically
+addressed separately. This paper proposes Opportunistic Federated Learning
+(OFL), a novel FL framework designed explicitly for resource-heterogenous and
+privacy-aware FL devices, solving efficiency and security problems jointly. OFL
+optimizes resource utilization and adaptability across diverse devices by
+adopting a novel hierarchical and asynchronous aggregation strategy. OFL
+provides strong security by introducing a differentially private and
+opportunistic model updating mechanism for intra-cluster model aggregation and
+an advanced threshold homomorphic encryption scheme for inter-cluster
+aggregation. Moreover, OFL secures global model aggregation by implementing
+poisoning attack detection using frequency analysis while keeping models
+encrypted. We have implemented OFL in a real-world testbed and evaluated OFL
+comprehensively. The evaluation results demonstrate that OFL achieves
+satisfying model performance and improves efficiency and security,
+outperforming existing solutions.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.14877v1">Synthesizing Grid Data with Cyber Resilience and Privacy Guarantees</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
+  <p><b>Published on:</b> 2025-03-19T04:11:33Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shengyang Wu, Vladimir Dvorkin</p>
+    <p><b>Summary:</b> Differential privacy (DP) provides a principled approach to synthesizing data
+(e.g., loads) from real-world power systems while limiting the exposure of
+sensitive information. However, adversaries may exploit synthetic data to
+calibrate cyberattacks on the source grids. To control these risks, we propose
+new DP algorithms for synthesizing data that provide the source grids with both
+cyber resilience and privacy guarantees. The algorithms incorporate both normal
+operation and attack optimization models to balance the fidelity of synthesized
+data and cyber resilience. The resulting post-processing optimization is
+reformulated as a robust optimization problem, which is compatible with the
+exponential mechanism of DP to moderate its computational burden.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2503.13872v1">Empirical Calibration and Metric Differential Privacy in Language Models</a></h3>
@@ -380,6 +342,34 @@ views are added, leading to improved generation quality. Experiments show that
 MOSAIC outperforms state-of-the-art baselines on image fidelity metrics in
 reconstructing complex multi-room environments. Project page is available at:
 https://mosaic-cmubig.github.io</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.14539v1">Ethical Implications of AI in Data Collection: Balancing Innovation with
+  Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2025-03-17T14:15:59Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shahmar Mirishli</p>
+    <p><b>Summary:</b> This article examines the ethical and legal implications of artificial
+intelligence (AI) driven data collection, focusing on developments from 2023 to
+2024. It analyzes recent advancements in AI technologies and their impact on
+data collection practices across various sectors. The study compares regulatory
+approaches in the European Union, the United States, and China, highlighting
+the challenges in creating a globally harmonized framework for AI governance.
+Key ethical issues, including informed consent, algorithmic bias, and privacy
+protection, are critically assessed in the context of increasingly
+sophisticated AI systems. The research explores case studies in healthcare,
+finance, and smart cities to illustrate the practical challenges of AI
+implementation. It evaluates the effectiveness of current legal frameworks and
+proposes solutions encompassing legal and policy recommendations, technical
+safeguards, and ethical frameworks. The article emphasizes the need for
+adaptive governance and international cooperation to address the global nature
+of AI development while balancing innovation with the protection of individual
+rights and societal values.</p>
   </details>
 </div>
 
