@@ -1,191 +1,188 @@
 
-<h2>2025-02</h2>
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.20629v1">Towards Privacy-Preserving Split Learning: Destabilizing Adversarial
-  Inference and Reconstruction Attacks in the Cloud</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-02-28T01:24:33Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Griffin Higgins, Roozbeh Razavi-Far, Xichen Zhang, Amir David, Ali Ghorbani, Tongyu Ge</p>
-    <p><b>Summary:</b> This work aims to provide both privacy and utility within a split learning
-framework while considering both forward attribute inference and backward
-reconstruction attacks. To address this, a novel approach has been proposed,
-which makes use of class activation maps and autoencoders as a plug-in strategy
-aiming to increase the user's privacy and destabilize an adversary. The
-proposed approach is compared with a dimensionality-reduction-based plug-in
-strategy, which makes use of principal component analysis to transform the
-feature map onto a lower-dimensional feature space. Our work shows that our
-proposed autoencoder-based approach is preferred as it can provide protection
-at an earlier split position over the tested architectures in our setting, and,
-hence, better utility for resource-constrained devices in edge-cloud
-collaborative inference (EC) systems.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.20621v1">EPhishCADE: A Privacy-Aware Multi-Dimensional Framework for Email
-  Phishing Campaign Detection</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-02-28T00:58:42Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Wei Kang, Nan Wang, Jang Seung, Shuo Wang, Alsharif Abuadbba</p>
-    <p><b>Summary:</b> Phishing attacks, typically carried out by email, remain a significant
-cybersecurity threat with attackers creating legitimate-looking websites to
-deceive recipients into revealing sensitive information or executing harmful
-actions. In this paper, we propose {\bf EPhishCADE}, the first {\em
-privacy-aware}, {\em multi-dimensional} framework for {\bf E}mail {\bf
-Phish}ing {\bf CA}mpaign {\bf DE}tection to automatically identify email
-phishing campaigns by clustering seemingly unrelated attacks. Our framework
-employs a hierarchical architecture combining a structural layer and a
-contextual layer, offering a comprehensive analysis of phishing attacks by
-thoroughly examining both structural and contextual elements. Specifically, we
-implement a graph-based contextual layer to reveal hidden similarities across
-multiple dimensions, including textual, numeric, temporal, and spatial
-features, among attacks that may initially appear unrelated. Our framework
-streamlines the handling of security threat reports, reducing analysts' fatigue
-and workload while enhancing protection against these threats. Another key
-feature of our framework lies in its sole reliance on phishing URLs in emails
-without the need for private information, including senders, recipients,
-content, etc. This feature enables a collaborative identification of phishing
-campaigns and attacks among multiple organizations without compromising
-privacy. Finally, we benchmark our framework against an established
-structure-based study (WWW \textquotesingle 17) to demonstrate its
-effectiveness.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.20477v1">HELENE: An Open-Source High-Security Privacy-Preserving Blockchain Based
-  System for Automating and Managing Laboratory Health Tests</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2025-02-27T19:28:29Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Gabriel Fernández-Blanco, Pedro García-Cereijo, David Lema-Núñez, Diego Ramil-López, Paula Fraga-Lamas, Leire Egia-Mendikute, Asís Palazón, Tiago M. Fernández-Caramés</p>
-    <p><b>Summary:</b> In the last years, especially since the COVID-19 pandemic, precision medicine
-platforms emerged as useful tools for supporting new tests like the ones that
-detect the presence of antibodies and antigens with better sensitivity and
-specificity than traditional methods. In addition, the pandemic has also
-influenced the way people interact (decentralization), behave (digital world)
-and purchase health services (online). Moreover, there is a growing concern in
-the way health data are managed, especially in terms of privacy. To tackle such
-issues, this article presents a sustainable direct-to-consumer health-service
-open-source platform called HELENE that is supported by blockchain and by a
-novel decentralized oracle that protects patient data privacy. Specifically,
-HELENE enables health test providers to compete through auctions, allowing
-patients to bid for their services and to keep the control over their health
-test results. Moreover, data exchanges among the involved stakeholders can be
-performed in a trustworthy, transparent and standardized way to ease software
-integration and to avoid incompatibilities. After providing a thorough
-description of the platform, the proposed health platform is assessed in terms
-of smart contract performance. In addition, the response time of the developed
-oracle is evaluated and NIST SP 800-22 tests are executed to demonstrate the
-adequacy of the devised random number generator. Thus, this article shows the
-capabilities and novel propositions of HELENE for delivering health services
-providing an open-source platform for future researchers, who can enhance it
-and adapt it to their needs.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2502.19912v1">Model-Free Privacy Preserving Power Flow Analysis in Distribution
-  Networks</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
-  <p><b>Published on:</b> 2025-02-27T09:31:53Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Dong Liu, Juan S. Giraldo, Peter Palensky, Pedro P. Vergara</p>
-    <p><b>Summary:</b> Model-free power flow calculation, driven by the rise of smart meter (SM)
-data and the lack of network topology, often relies on artificial intelligence
-neural networks (ANNs). However, training ANNs require vast amounts of SM data,
-posing privacy risks for households in distribution networks. To ensure
-customers' privacy during the SM data gathering and online sharing, we
-introduce a privacy preserving PF calculation framework, composed of two local
-strategies: a local randomisation strategy (LRS) and a local zero-knowledge
-proof (ZKP)-based data collection strategy. First, the LRS is used to achieve
-irreversible transformation and robust privacy protection for active and
-reactive power data, thereby ensuring that personal data remains confidential.
-Subsequently, the ZKP-based data collecting strategy is adopted to securely
-gather the training dataset for the ANN, enabling SMs to interact with the
-distribution system operator without revealing the actual voltage magnitude.
-Moreover, to mitigate the accuracy loss induced by the seasonal variations in
-load profiles, an incremental learning strategy is incorporated into the online
-application. The results across three datasets with varying measurement errors
-demonstrate that the proposed framework efficiently collects one month of SM
-data within one hour. Furthermore, it robustly maintains mean errors of 0.005
-p.u. and 0.014 p.u. under multiple measurement errors and seasonal variations
-in load profiles, respectively.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.05786v2">FedMentalCare: Towards Privacy-Preserving Fine-Tuned LLMs to Analyze
-  Mental Health Status Using Federated Learning Framework</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
-  <p><b>Published on:</b> 2025-02-27T07:04:19Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> S M Sarwar</p>
-    <p><b>Summary:</b> With the increasing prevalence of mental health conditions worldwide,
-AI-powered chatbots and conversational agents have emerged as accessible tools
-to support mental health. However, deploying Large Language Models (LLMs) in
-mental healthcare applications raises significant privacy concerns, especially
-regarding regulations like HIPAA and GDPR. In this work, we propose
-FedMentalCare, a privacy-preserving framework that leverages Federated Learning
-(FL) combined with Low-Rank Adaptation (LoRA) to fine-tune LLMs for mental
-health analysis. We investigate the performance impact of varying client data
-volumes and model architectures (e.g., MobileBERT and MiniLM) in FL
-environments. Our framework demonstrates a scalable, privacy-aware approach for
-deploying LLMs in real-world mental healthcare scenarios, addressing data
-security and computational efficiency challenges.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.00062v1">CRFU: Compressive Representation Forgetting Against Privacy Leakage on
-  Machine Unlearning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-02-27T05:59:02Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Weiqi Wang, Chenhan Zhang, Zhiyi Tian, Shushu Liu, Shui Yu</p>
-    <p><b>Summary:</b> Machine unlearning allows data owners to erase the impact of their specified
-data from trained models. Unfortunately, recent studies have shown that
-adversaries can recover the erased data, posing serious threats to user
-privacy. An effective unlearning method removes the information of the
-specified data from the trained model, resulting in different outputs for the
-same input before and after unlearning. Adversaries can exploit these output
-differences to conduct privacy leakage attacks, such as reconstruction and
-membership inference attacks. However, directly applying traditional defenses
-to unlearning leads to significant model utility degradation. In this paper, we
-introduce a Compressive Representation Forgetting Unlearning scheme (CRFU),
-designed to safeguard against privacy leakage on unlearning. CRFU achieves data
-erasure by minimizing the mutual information between the trained compressive
-representation (learned through information bottleneck theory) and the erased
-data, thereby maximizing the distortion of data. This ensures that the model's
-output contains less information that adversaries can exploit. Furthermore, we
-introduce a remembering constraint and an unlearning rate to balance the
-forgetting of erased data with the preservation of previously learned
-knowledge, thereby reducing accuracy degradation. Theoretical analysis
-demonstrates that CRFU can effectively defend against privacy leakage attacks.
-Our experimental results show that CRFU significantly increases the
-reconstruction mean square error (MSE), achieving a defense effect improvement
-of approximately $200\%$ against privacy reconstruction attacks with only
-$1.5\%$ accuracy degradation on MNIST.</p>
-  </details>
-</div>
-
-
-
 <h2>2025-03</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.16251v1">RESFL: An Uncertainty-Aware Framework for Responsible Federated Learning
+  by Balancing Privacy, Fairness and Utility in Autonomous Vehicles</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E">
+  <p><b>Published on:</b> 2025-03-20T15:46:03Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Dawood Wasif, Terrence J. Moore, Jin-Hee Cho</p>
+    <p><b>Summary:</b> Autonomous vehicles (AVs) increasingly rely on Federated Learning (FL) to
+enhance perception models while preserving privacy. However, existing FL
+frameworks struggle to balance privacy, fairness, and robustness, leading to
+performance disparities across demographic groups. Privacy-preserving
+techniques like differential privacy mitigate data leakage risks but worsen
+fairness by restricting access to sensitive attributes needed for bias
+correction. This work explores the trade-off between privacy and fairness in
+FL-based object detection for AVs and introduces RESFL, an integrated solution
+optimizing both. RESFL incorporates adversarial privacy disentanglement and
+uncertainty-guided fairness-aware aggregation. The adversarial component uses a
+gradient reversal layer to remove sensitive attributes, reducing privacy risks
+while maintaining fairness. The uncertainty-aware aggregation employs an
+evidential neural network to weight client updates adaptively, prioritizing
+contributions with lower fairness disparities and higher confidence. This
+ensures robust and equitable FL model updates. We evaluate RESFL on the FACET
+dataset and CARLA simulator, assessing accuracy, fairness, privacy resilience,
+and robustness under varying conditions. RESFL improves detection accuracy,
+reduces fairness disparities, and lowers privacy attack success rates while
+demonstrating superior robustness to adversarial conditions compared to other
+approaches.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.16233v1">Empirical Analysis of Privacy-Fairness-Accuracy Trade-offs in Federated
+  Learning: A Step Towards Responsible AI</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E">
+  <p><b>Published on:</b> 2025-03-20T15:31:01Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Dawood Wasif, Dian Chen, Sindhuja Madabushi, Nithin Alluru, Terrence J. Moore, Jin-Hee Cho</p>
+    <p><b>Summary:</b> Federated Learning (FL) enables collaborative machine learning while
+preserving data privacy but struggles to balance privacy preservation (PP) and
+fairness. Techniques like Differential Privacy (DP), Homomorphic Encryption
+(HE), and Secure Multi-Party Computation (SMC) protect sensitive data but
+introduce trade-offs. DP enhances privacy but can disproportionately impact
+underrepresented groups, while HE and SMC mitigate fairness concerns at the
+cost of computational overhead. This work explores the privacy-fairness
+trade-offs in FL under IID (Independent and Identically Distributed) and
+non-IID data distributions, benchmarking q-FedAvg, q-MAML, and Ditto on diverse
+datasets. Our findings highlight context-dependent trade-offs and offer
+guidelines for designing FL systems that uphold responsible AI principles,
+ensuring fairness, privacy, and equitable real-world applications.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.15972v1">TVineSynth: A Truncated C-Vine Copula Generator of Synthetic Tabular
+  Data to Balance Privacy and Utility</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
+  <p><b>Published on:</b> 2025-03-20T09:16:02Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Elisabeth Griesbauer, Claudia Czado, Arnoldo Frigessi, Ingrid Hobæk Haff</p>
+    <p><b>Summary:</b> We propose TVineSynth, a vine copula based synthetic tabular data generator,
+which is designed to balance privacy and utility, using the vine tree structure
+and its truncation to do the trade-off. Contrary to synthetic data generators
+that achieve DP by globally adding noise, TVineSynth performs a controlled
+approximation of the estimated data generating distribution, so that it does
+not suffer from poor utility of the resulting synthetic data for downstream
+prediction tasks. TVineSynth introduces a targeted bias into the vine copula
+model that, combined with the specific tree structure of the vine, causes the
+model to zero out privacy-leaking dependencies while relying on those that are
+beneficial for utility. Privacy is here measured with membership (MIA) and
+attribute inference attacks (AIA). Further, we theoretically justify how the
+construction of TVineSynth ensures AIA privacy under a natural privacy measure
+for continuous sensitive attributes. When compared to competitor models, with
+and without DP, on simulated and on real-world data, TVineSynth achieves a
+superior privacy-utility balance.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.15966v1">Privacy-Preserving Utilization of Distribution System Flexibility for
+  Enhanced TSO-DSO Interoperability: A Novel Machine Learning-Based Optimal
+  Power Flow Approach</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
+  <p><b>Published on:</b> 2025-03-20T09:08:54Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Burak Dindar, Can Berk Saner, Hüseyin K. Çakmak, Veit Hagenmeyer</p>
+    <p><b>Summary:</b> Due to the transformation of the power system, the effective use of
+flexibility from the distribution system (DS) is becoming crucial for efficient
+network management. Leveraging this flexibility requires interoperability among
+stakeholders, including Transmission System Operators (TSOs) and Distribution
+System Operators (DSOs). However, data privacy concerns among stakeholders
+present significant challenges for utilizing this flexibility effectively. To
+address these challenges, we propose a machine learning (ML)-based method in
+which the technical constraints of the DSs are represented by ML models trained
+exclusively on non-sensitive data. Using these models, the TSO can solve the
+optimal power flow (OPF) problem and directly determine the dispatch of
+flexibility-providing units (FPUs), in our case, distributed generators (DGs),
+in a single round of communication. To achieve this, we introduce a novel
+neural network (NN) architecture specifically designed to efficiently represent
+the feasible region of the DSs, ensuring computational effectiveness.
+Furthermore, we incorporate various PQ charts rather than idealized ones,
+demonstrating that the proposed method is adaptable to a wide range of FPU
+characteristics. To assess the effectiveness of the proposed method, we
+benchmark it against the standard AC-OPF on multiple DSs with meshed
+connections and multiple points of common coupling (PCCs) with varying voltage
+magnitudes. The numerical results indicate that the proposed method achieves
+performant results while prioritizing data privacy. Additionally, since this
+method directly determines the dispatch of FPUs, it eliminates the need for an
+additional disaggregation step. By representing the DSs technical constraints
+through ML models trained exclusively on non-sensitive data, the transfer of
+sensitive information between stakeholders is prevented.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.15870v1">FedSAF: A Federated Learning Framework for Enhanced Gastric Cancer
+  Detection and Privacy Preservation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-03-20T05:48:48Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yuxin Miao, Xinyuan Yang, Hongda Fan, Yichun Li, Yishu Hong, Xiechen Guo, Ali Braytee, Weidong Huang, Ali Anaissi</p>
+    <p><b>Summary:</b> Gastric cancer is one of the most commonly diagnosed cancers and has a high
+mortality rate. Due to limited medical resources, developing machine learning
+models for gastric cancer recognition provides an efficient solution for
+medical institutions. However, such models typically require large sample sizes
+for training and testing, which can challenge patient privacy. Federated
+learning offers an effective alternative by enabling model training across
+multiple institutions without sharing sensitive patient data. This paper
+addresses the limited sample size of publicly available gastric cancer data
+with a modified data processing method. This paper introduces FedSAF, a novel
+federated learning algorithm designed to improve the performance of existing
+methods, particularly in non-independent and identically distributed (non-IID)
+data scenarios. FedSAF incorporates attention-based message passing and the
+Fisher Information Matrix to enhance model accuracy, while a model splitting
+function reduces computation and transmission costs. Hyperparameter tuning and
+ablation studies demonstrate the effectiveness of this new algorithm, showing
+improvements in test accuracy on gastric cancer datasets, with FedSAF
+outperforming existing federated learning methods like FedAMP, FedAvg, and
+FedProx. The framework's robustness and generalization ability were further
+validated across additional datasets (SEED, BOT, FashionMNIST, and CIFAR-10),
+achieving high performance in diverse environments.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.15818v1">Computation-Efficient and Recognition-Friendly 3D Point Cloud Privacy
+  Protection</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-03-20T03:09:44Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Haotian Ma, Lin Gu, Siyi Wu, Yingying Zhu</p>
+    <p><b>Summary:</b> 3D point cloud has been widely used in applications such as self-driving
+cars, robotics, CAD models, etc. To the best of our knowledge, these
+applications raised the issue of privacy leakage in 3D point clouds, which has
+not been studied well. Different from the 2D image privacy, which is related to
+texture and 2D geometric structure, the 3D point cloud is texture-less and only
+relevant to 3D geometric structure. In this work, we defined the 3D point cloud
+privacy problem and proposed an efficient privacy-preserving framework named
+PointFlowGMM that can support downstream classification and segmentation tasks
+without seeing the original data. Using a flow-based generative model, the
+point cloud is projected into a latent Gaussian mixture distributed subspace.
+We further designed a novel angular similarity loss to obfuscate the original
+geometric structure and reduce the model size from 767MB to 120MB without a
+decrease in recognition performance. The projected point cloud in the latent
+space is orthogonally rotated randomly to further protect the original
+geometric structure, the class-to-class relationship is preserved after
+rotation, thus, the protected point cloud can support the recognition task. We
+evaluated our model on multiple datasets and achieved comparable recognition
+results on encrypted point clouds compared to the original point clouds.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2503.15287v1">Distributed Generalized Linear Models: A Privacy-Preserving Approach</a></h3>
@@ -292,6 +289,37 @@ operation and attack optimization models to balance the fidelity of synthesized
 data and cyber resilience. The resulting post-processing optimization is
 reformulated as a robust optimization problem, which is compatible with the
 exponential mechanism of DP to moderate its computational burden.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.15550v1">Zero-Knowledge Federated Learning: A New Trustworthy and
+  Privacy-Preserving Distributed Learning Paradigm</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-03-18T06:21:08Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yuxin Jin, Taotao Wang, Qing Yang, Long Shi, Shengli Zhang</p>
+    <p><b>Summary:</b> Federated Learning (FL) has emerged as a promising paradigm in distributed
+machine learning, enabling collaborative model training while preserving data
+privacy. However, despite its many advantages, FL still contends with
+significant challenges -- most notably regarding security and trust.
+Zero-Knowledge Proofs (ZKPs) offer a potential solution by establishing trust
+and enhancing system integrity throughout the FL process. Although several
+studies have explored ZKP-based FL (ZK-FL), a systematic framework and
+comprehensive analysis are still lacking. This article makes two key
+contributions. First, we propose a structured ZK-FL framework that categorizes
+and analyzes the technical roles of ZKPs across various FL stages and tasks.
+Second, we introduce a novel algorithm, Verifiable Client Selection FL
+(Veri-CS-FL), which employs ZKPs to refine the client selection process. In
+Veri-CS-FL, participating clients generate verifiable proofs for the
+performance metrics of their local models and submit these concise proofs to
+the server for efficient verification. The server then selects clients with
+high-quality local models for uploading, subsequently aggregating the
+contributions from these selected clients. By integrating ZKPs, Veri-CS-FL not
+only ensures the accuracy of performance metrics but also fortifies trust among
+participants while enhancing the overall efficiency and security of FL systems.</p>
   </details>
 </div>
 
@@ -432,6 +460,40 @@ injection of varying scales of noise into local training, FedSDP enhances
 interpretability. Extensive experiments demonstrate that FedSDP can achieve a
 superior balance between privacy preservation and model performance, surpassing
 state-of-the-art (SOTA) solutions.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.15548v1">Privacy-Aware RAG: Secure and Isolated Knowledge Retrieval</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-03-17T07:45:05Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Pengcheng Zhou, Yinglun Feng, Zhongliang Yang</p>
+    <p><b>Summary:</b> The widespread adoption of Retrieval-Augmented Generation (RAG) systems in
+real-world applications has heightened concerns about the confidentiality and
+integrity of their proprietary knowledge bases. These knowledge bases, which
+play a critical role in enhancing the generative capabilities of Large Language
+Models (LLMs), are increasingly vulnerable to breaches that could compromise
+sensitive information. To address these challenges, this paper proposes an
+advanced encryption methodology designed to protect RAG systems from
+unauthorized access and data leakage. Our approach encrypts both textual
+content and its corresponding embeddings prior to storage, ensuring that all
+data remains securely encrypted. This mechanism restricts access to authorized
+entities with the appropriate decryption keys, thereby significantly reducing
+the risk of unintended data exposure. Furthermore, we demonstrate that our
+encryption strategy preserves the performance and functionality of RAG
+pipelines, ensuring compatibility across diverse domains and applications. To
+validate the robustness of our method, we provide comprehensive security proofs
+that highlight its resilience against potential threats and vulnerabilities.
+These proofs also reveal limitations in existing approaches, which often lack
+robustness, adaptability, or reliance on open-source models. Our findings
+suggest that integrating advanced encryption techniques into the design and
+deployment of RAG systems can effectively enhance privacy safeguards. This
+research contributes to the ongoing discourse on improving security measures
+for AI-driven services and advocates for stricter data protection standards
+within RAG architectures.</p>
   </details>
 </div>
 
@@ -2876,62 +2938,6 @@ discussing their frameworks, key features, and performance evaluation in terms
 of privacy, utility, and efficiency. Finally, we identify current challenges
 and propose future research directions to enhance privacy and reliability in
 IoV applications.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.01000v1">Privacy vs. Profit: The Impact of Google's Manifest Version 3 (MV3)
-  Update on Ad Blocker Effectiveness</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">    
-  <p><b>Published on:</b> 2025-03-02T19:41:34Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Karlo Lukic, Lazaros Papadopoulos</p>
-    <p><b>Summary:</b> Google's recent update to the manifest file for Chrome browser
-extensions-transitioning from manifest version 2 (MV2) to manifest version 3
-(MV3)-has raised concerns among users and ad blocker providers, who worry that
-the new restrictions, notably the shift from the powerful WebRequest API to the
-more restrictive DeclarativeNetRequest API, might reduce ad blocker
-effectiveness. Because ad blockers play a vital role for millions of users
-seeking a more private and ad-free browsing experience, this study empirically
-investigates how the MV3 update affects their ability to block ads and
-trackers. Through a browser-based experiment conducted across multiple samples
-of ad-supported websites, we compare the MV3 to MV2 instances of four widely
-used ad blockers. Our results reveal no statistically significant reduction in
-ad-blocking or anti-tracking effectiveness for MV3 ad blockers compared to
-their MV2 counterparts, and in some cases, MV3 instances even exhibit slight
-improvements in blocking trackers. These findings are reassuring for users,
-indicating that the MV3 instances of popular ad blockers continue to provide
-effective protection against intrusive ads and privacy-infringing trackers.
-While some uncertainties remain, ad blocker providers appear to have
-successfully navigated the MV3 update, finding solutions that maintain the core
-functionality of their ad blockers.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.00703v1">Towards hyperparameter-free optimization with differential privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2025-03-02T02:59:52Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zhiqi Bu, Ruixuan Liu</p>
-    <p><b>Summary:</b> Differential privacy (DP) is a privacy-preserving paradigm that protects the
-training data when training deep learning models. Critically, the performance
-of models is determined by the training hyperparameters, especially those of
-the learning rate schedule, thus requiring fine-grained hyperparameter tuning
-on the data. In practice, it is common to tune the learning rate
-hyperparameters through the grid search that (1) is computationally expensive
-as multiple runs are needed, and (2) increases the risk of data leakage as the
-selection of hyperparameters is data-dependent. In this work, we adapt the
-automatic learning rate schedule to DP optimization for any models and
-optimizers, so as to significantly mitigate or even eliminate the cost of
-hyperparameter tuning when applied together with automatic per-sample gradient
-clipping. Our hyperparameter-free DP optimization is almost as computationally
-efficient as the standard non-DP optimization, and achieves state-of-the-art DP
-performance on various language and vision tasks.</p>
   </details>
 </div>
 
