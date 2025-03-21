@@ -2546,5 +2546,226 @@
       "cs.CY",
       "cs.HC"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.16251v1",
+    "title" : "RESFL: An Uncertainty-Aware Framework for Responsible Federated Learning\n  by Balancing Privacy, Fairness and Utility in Autonomous Vehicles",
+    "summary" : "Autonomous vehicles (AVs) increasingly rely on Federated Learning (FL) to\nenhance perception models while preserving privacy. However, existing FL\nframeworks struggle to balance privacy, fairness, and robustness, leading to\nperformance disparities across demographic groups. Privacy-preserving\ntechniques like differential privacy mitigate data leakage risks but worsen\nfairness by restricting access to sensitive attributes needed for bias\ncorrection. This work explores the trade-off between privacy and fairness in\nFL-based object detection for AVs and introduces RESFL, an integrated solution\noptimizing both. RESFL incorporates adversarial privacy disentanglement and\nuncertainty-guided fairness-aware aggregation. The adversarial component uses a\ngradient reversal layer to remove sensitive attributes, reducing privacy risks\nwhile maintaining fairness. The uncertainty-aware aggregation employs an\nevidential neural network to weight client updates adaptively, prioritizing\ncontributions with lower fairness disparities and higher confidence. This\nensures robust and equitable FL model updates. We evaluate RESFL on the FACET\ndataset and CARLA simulator, assessing accuracy, fairness, privacy resilience,\nand robustness under varying conditions. RESFL improves detection accuracy,\nreduces fairness disparities, and lowers privacy attack success rates while\ndemonstrating superior robustness to adversarial conditions compared to other\napproaches.",
+    "updated" : "2025-03-20T15:46:03Z",
+    "published" : "2025-03-20T15:46:03Z",
+    "authors" : [
+      {
+        "name" : "Dawood Wasif"
+      },
+      {
+        "name" : "Terrence J. Moore"
+      },
+      {
+        "name" : "Jin-Hee Cho"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CV",
+      "cs.DC",
+      "cs.ET"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.16233v1",
+    "title" : "Empirical Analysis of Privacy-Fairness-Accuracy Trade-offs in Federated\n  Learning: A Step Towards Responsible AI",
+    "summary" : "Federated Learning (FL) enables collaborative machine learning while\npreserving data privacy but struggles to balance privacy preservation (PP) and\nfairness. Techniques like Differential Privacy (DP), Homomorphic Encryption\n(HE), and Secure Multi-Party Computation (SMC) protect sensitive data but\nintroduce trade-offs. DP enhances privacy but can disproportionately impact\nunderrepresented groups, while HE and SMC mitigate fairness concerns at the\ncost of computational overhead. This work explores the privacy-fairness\ntrade-offs in FL under IID (Independent and Identically Distributed) and\nnon-IID data distributions, benchmarking q-FedAvg, q-MAML, and Ditto on diverse\ndatasets. Our findings highlight context-dependent trade-offs and offer\nguidelines for designing FL systems that uphold responsible AI principles,\nensuring fairness, privacy, and equitable real-world applications.",
+    "updated" : "2025-03-20T15:31:01Z",
+    "published" : "2025-03-20T15:31:01Z",
+    "authors" : [
+      {
+        "name" : "Dawood Wasif"
+      },
+      {
+        "name" : "Dian Chen"
+      },
+      {
+        "name" : "Sindhuja Madabushi"
+      },
+      {
+        "name" : "Nithin Alluru"
+      },
+      {
+        "name" : "Terrence J. Moore"
+      },
+      {
+        "name" : "Jin-Hee Cho"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "cs.DC",
+      "cs.ET"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.15972v1",
+    "title" : "TVineSynth: A Truncated C-Vine Copula Generator of Synthetic Tabular\n  Data to Balance Privacy and Utility",
+    "summary" : "We propose TVineSynth, a vine copula based synthetic tabular data generator,\nwhich is designed to balance privacy and utility, using the vine tree structure\nand its truncation to do the trade-off. Contrary to synthetic data generators\nthat achieve DP by globally adding noise, TVineSynth performs a controlled\napproximation of the estimated data generating distribution, so that it does\nnot suffer from poor utility of the resulting synthetic data for downstream\nprediction tasks. TVineSynth introduces a targeted bias into the vine copula\nmodel that, combined with the specific tree structure of the vine, causes the\nmodel to zero out privacy-leaking dependencies while relying on those that are\nbeneficial for utility. Privacy is here measured with membership (MIA) and\nattribute inference attacks (AIA). Further, we theoretically justify how the\nconstruction of TVineSynth ensures AIA privacy under a natural privacy measure\nfor continuous sensitive attributes. When compared to competitor models, with\nand without DP, on simulated and on real-world data, TVineSynth achieves a\nsuperior privacy-utility balance.",
+    "updated" : "2025-03-20T09:16:02Z",
+    "published" : "2025-03-20T09:16:02Z",
+    "authors" : [
+      {
+        "name" : "Elisabeth Griesbauer"
+      },
+      {
+        "name" : "Claudia Czado"
+      },
+      {
+        "name" : "Arnoldo Frigessi"
+      },
+      {
+        "name" : "Ingrid Hobæk Haff"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.15966v1",
+    "title" : "Privacy-Preserving Utilization of Distribution System Flexibility for\n  Enhanced TSO-DSO Interoperability: A Novel Machine Learning-Based Optimal\n  Power Flow Approach",
+    "summary" : "Due to the transformation of the power system, the effective use of\nflexibility from the distribution system (DS) is becoming crucial for efficient\nnetwork management. Leveraging this flexibility requires interoperability among\nstakeholders, including Transmission System Operators (TSOs) and Distribution\nSystem Operators (DSOs). However, data privacy concerns among stakeholders\npresent significant challenges for utilizing this flexibility effectively. To\naddress these challenges, we propose a machine learning (ML)-based method in\nwhich the technical constraints of the DSs are represented by ML models trained\nexclusively on non-sensitive data. Using these models, the TSO can solve the\noptimal power flow (OPF) problem and directly determine the dispatch of\nflexibility-providing units (FPUs), in our case, distributed generators (DGs),\nin a single round of communication. To achieve this, we introduce a novel\nneural network (NN) architecture specifically designed to efficiently represent\nthe feasible region of the DSs, ensuring computational effectiveness.\nFurthermore, we incorporate various PQ charts rather than idealized ones,\ndemonstrating that the proposed method is adaptable to a wide range of FPU\ncharacteristics. To assess the effectiveness of the proposed method, we\nbenchmark it against the standard AC-OPF on multiple DSs with meshed\nconnections and multiple points of common coupling (PCCs) with varying voltage\nmagnitudes. The numerical results indicate that the proposed method achieves\nperformant results while prioritizing data privacy. Additionally, since this\nmethod directly determines the dispatch of FPUs, it eliminates the need for an\nadditional disaggregation step. By representing the DSs technical constraints\nthrough ML models trained exclusively on non-sensitive data, the transfer of\nsensitive information between stakeholders is prevented.",
+    "updated" : "2025-03-20T09:08:54Z",
+    "published" : "2025-03-20T09:08:54Z",
+    "authors" : [
+      {
+        "name" : "Burak Dindar"
+      },
+      {
+        "name" : "Can Berk Saner"
+      },
+      {
+        "name" : "Hüseyin K. Çakmak"
+      },
+      {
+        "name" : "Veit Hagenmeyer"
+      }
+    ],
+    "categories" : [
+      "eess.SY",
+      "cs.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.15870v1",
+    "title" : "FedSAF: A Federated Learning Framework for Enhanced Gastric Cancer\n  Detection and Privacy Preservation",
+    "summary" : "Gastric cancer is one of the most commonly diagnosed cancers and has a high\nmortality rate. Due to limited medical resources, developing machine learning\nmodels for gastric cancer recognition provides an efficient solution for\nmedical institutions. However, such models typically require large sample sizes\nfor training and testing, which can challenge patient privacy. Federated\nlearning offers an effective alternative by enabling model training across\nmultiple institutions without sharing sensitive patient data. This paper\naddresses the limited sample size of publicly available gastric cancer data\nwith a modified data processing method. This paper introduces FedSAF, a novel\nfederated learning algorithm designed to improve the performance of existing\nmethods, particularly in non-independent and identically distributed (non-IID)\ndata scenarios. FedSAF incorporates attention-based message passing and the\nFisher Information Matrix to enhance model accuracy, while a model splitting\nfunction reduces computation and transmission costs. Hyperparameter tuning and\nablation studies demonstrate the effectiveness of this new algorithm, showing\nimprovements in test accuracy on gastric cancer datasets, with FedSAF\noutperforming existing federated learning methods like FedAMP, FedAvg, and\nFedProx. The framework's robustness and generalization ability were further\nvalidated across additional datasets (SEED, BOT, FashionMNIST, and CIFAR-10),\nachieving high performance in diverse environments.",
+    "updated" : "2025-03-20T05:48:48Z",
+    "published" : "2025-03-20T05:48:48Z",
+    "authors" : [
+      {
+        "name" : "Yuxin Miao"
+      },
+      {
+        "name" : "Xinyuan Yang"
+      },
+      {
+        "name" : "Hongda Fan"
+      },
+      {
+        "name" : "Yichun Li"
+      },
+      {
+        "name" : "Yishu Hong"
+      },
+      {
+        "name" : "Xiechen Guo"
+      },
+      {
+        "name" : "Ali Braytee"
+      },
+      {
+        "name" : "Weidong Huang"
+      },
+      {
+        "name" : "Ali Anaissi"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.15818v1",
+    "title" : "Computation-Efficient and Recognition-Friendly 3D Point Cloud Privacy\n  Protection",
+    "summary" : "3D point cloud has been widely used in applications such as self-driving\ncars, robotics, CAD models, etc. To the best of our knowledge, these\napplications raised the issue of privacy leakage in 3D point clouds, which has\nnot been studied well. Different from the 2D image privacy, which is related to\ntexture and 2D geometric structure, the 3D point cloud is texture-less and only\nrelevant to 3D geometric structure. In this work, we defined the 3D point cloud\nprivacy problem and proposed an efficient privacy-preserving framework named\nPointFlowGMM that can support downstream classification and segmentation tasks\nwithout seeing the original data. Using a flow-based generative model, the\npoint cloud is projected into a latent Gaussian mixture distributed subspace.\nWe further designed a novel angular similarity loss to obfuscate the original\ngeometric structure and reduce the model size from 767MB to 120MB without a\ndecrease in recognition performance. The projected point cloud in the latent\nspace is orthogonally rotated randomly to further protect the original\ngeometric structure, the class-to-class relationship is preserved after\nrotation, thus, the protected point cloud can support the recognition task. We\nevaluated our model on multiple datasets and achieved comparable recognition\nresults on encrypted point clouds compared to the original point clouds.",
+    "updated" : "2025-03-20T03:09:44Z",
+    "published" : "2025-03-20T03:09:44Z",
+    "authors" : [
+      {
+        "name" : "Haotian Ma"
+      },
+      {
+        "name" : "Lin Gu"
+      },
+      {
+        "name" : "Siyi Wu"
+      },
+      {
+        "name" : "Yingying Zhu"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.15550v1",
+    "title" : "Zero-Knowledge Federated Learning: A New Trustworthy and\n  Privacy-Preserving Distributed Learning Paradigm",
+    "summary" : "Federated Learning (FL) has emerged as a promising paradigm in distributed\nmachine learning, enabling collaborative model training while preserving data\nprivacy. However, despite its many advantages, FL still contends with\nsignificant challenges -- most notably regarding security and trust.\nZero-Knowledge Proofs (ZKPs) offer a potential solution by establishing trust\nand enhancing system integrity throughout the FL process. Although several\nstudies have explored ZKP-based FL (ZK-FL), a systematic framework and\ncomprehensive analysis are still lacking. This article makes two key\ncontributions. First, we propose a structured ZK-FL framework that categorizes\nand analyzes the technical roles of ZKPs across various FL stages and tasks.\nSecond, we introduce a novel algorithm, Verifiable Client Selection FL\n(Veri-CS-FL), which employs ZKPs to refine the client selection process. In\nVeri-CS-FL, participating clients generate verifiable proofs for the\nperformance metrics of their local models and submit these concise proofs to\nthe server for efficient verification. The server then selects clients with\nhigh-quality local models for uploading, subsequently aggregating the\ncontributions from these selected clients. By integrating ZKPs, Veri-CS-FL not\nonly ensures the accuracy of performance metrics but also fortifies trust among\nparticipants while enhancing the overall efficiency and security of FL systems.",
+    "updated" : "2025-03-18T06:21:08Z",
+    "published" : "2025-03-18T06:21:08Z",
+    "authors" : [
+      {
+        "name" : "Yuxin Jin"
+      },
+      {
+        "name" : "Taotao Wang"
+      },
+      {
+        "name" : "Qing Yang"
+      },
+      {
+        "name" : "Long Shi"
+      },
+      {
+        "name" : "Shengli Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.15548v1",
+    "title" : "Privacy-Aware RAG: Secure and Isolated Knowledge Retrieval",
+    "summary" : "The widespread adoption of Retrieval-Augmented Generation (RAG) systems in\nreal-world applications has heightened concerns about the confidentiality and\nintegrity of their proprietary knowledge bases. These knowledge bases, which\nplay a critical role in enhancing the generative capabilities of Large Language\nModels (LLMs), are increasingly vulnerable to breaches that could compromise\nsensitive information. To address these challenges, this paper proposes an\nadvanced encryption methodology designed to protect RAG systems from\nunauthorized access and data leakage. Our approach encrypts both textual\ncontent and its corresponding embeddings prior to storage, ensuring that all\ndata remains securely encrypted. This mechanism restricts access to authorized\nentities with the appropriate decryption keys, thereby significantly reducing\nthe risk of unintended data exposure. Furthermore, we demonstrate that our\nencryption strategy preserves the performance and functionality of RAG\npipelines, ensuring compatibility across diverse domains and applications. To\nvalidate the robustness of our method, we provide comprehensive security proofs\nthat highlight its resilience against potential threats and vulnerabilities.\nThese proofs also reveal limitations in existing approaches, which often lack\nrobustness, adaptability, or reliance on open-source models. Our findings\nsuggest that integrating advanced encryption techniques into the design and\ndeployment of RAG systems can effectively enhance privacy safeguards. This\nresearch contributes to the ongoing discourse on improving security measures\nfor AI-driven services and advocates for stricter data protection standards\nwithin RAG architectures.",
+    "updated" : "2025-03-17T07:45:05Z",
+    "published" : "2025-03-17T07:45:05Z",
+    "authors" : [
+      {
+        "name" : "Pengcheng Zhou"
+      },
+      {
+        "name" : "Yinglun Feng"
+      },
+      {
+        "name" : "Zhongliang Yang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
   }
 ]
