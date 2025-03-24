@@ -2,6 +2,71 @@
 <h2>2025-03</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.17011v1">Privacy Enhanced QKD Networks: Zero Trust Relay Architecture based on
+  Homomorphic Encryption</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-03-21T10:20:06Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Aitor Brazaola-Vicario, Oscar Lage, Julen Bernabé-Rodríguez, Eduardo Jacob, Jasone Astorga</p>
+    <p><b>Summary:</b> Quantum key distribution (QKD) enables unconditionally secure symmetric key
+exchange between parties. However, terrestrial fibre-optic links face inherent
+distance constraints due to quantum signal degradation. Traditional solutions
+to overcome these limits rely on trusted relay nodes, which perform
+intermediate re-encryption of keys using one-time pad (OTP) encryption. This
+approach, however, exposes keys as plaintext at each relay, requiring
+significant trust and stringent security controls at every intermediate node.
+These "trusted" relays become a security liability if compromised.
+  To address this issue, we propose a zero-trust relay design that applies
+fully homomorphic encryption (FHE) to perform intermediate OTP re-encryption
+without exposing plaintext keys, effectively mitigating the risks associated
+with potentially compromised or malicious relay nodes. Additionally, the
+architecture enhances crypto-agility by incorporating external quantum random
+number generators, thus decoupling key generation from specific QKD hardware
+and reducing vulnerabilities tied to embedded key-generation modules.
+  The solution is designed with the existing European Telecommunication
+Standards Institute (ETSI) QKD standards in mind, enabling straightforward
+integration into current infrastructures. Its feasibility has been successfully
+demonstrated through a hybrid network setup combining simulated and
+commercially available QKD equipment. The proposed zero-trust architecture thus
+significantly advances the scalability and practical security of large-scale
+QKD networks, greatly reducing reliance on fully trusted infrastructure.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.16640v1">Visualizing Privacy-Relevant Data Flows in Android Applications</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
+  <p><b>Published on:</b> 2025-03-20T18:47:02Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mugdha Khedkar, Michael Schlichtig, Santhosh Mohan, Eric Bodden</p>
+    <p><b>Summary:</b> Android applications collecting data from users must protect it according to
+the current legal frameworks. Such data protection has become even more
+important since in 2018 the European Union rolled out the General Data
+Protection Regulation (GDPR). Since app developers are not legal experts, they
+find it difficult to integrate privacy-aware practices into source code
+development. Despite these legal obligations, developers have limited tool
+support to reason about data protection throughout their app development
+process.
+  This paper explores the use of static program slicing and software
+visualization to analyze privacy-relevant data flows in Android apps. We
+introduce SliceViz, a web tool that analyzes an Android app by slicing all
+privacy-relevant data sources detected in the source code on the back-end. It
+then helps developers by visualizing these privacy-relevant program slices.
+  We conducted a user study with 12 participants demonstrating that SliceViz
+effectively aids developers in identifying privacy-relevant properties in
+Android apps.
+  Our findings indicate that program slicing can be employed to identify and
+reason about privacy-relevant data flows in Android applications. With further
+usability improvements, developers can be better equipped to handle
+privacy-sensitive information.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2503.16251v1">RESFL: An Uncertainty-Aware Framework for Responsible Federated Learning
   by Balancing Privacy, Fairness and Utility in Autonomous Vehicles</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E">
@@ -582,6 +647,39 @@ CNN to optimise image features for privacy nodes.</p>
 
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.16516v1">Using LLMs for Automated Privacy Policy Analysis: Prompt Engineering,
+  Fine-Tuning and Explainability</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-03-16T10:50:31Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yuxin Chen, Peng Tang, Weidong Qiu, Shujun Li</p>
+    <p><b>Summary:</b> Privacy policies are widely used by digital services and often required for
+legal purposes. Many machine learning based classifiers have been developed to
+automate detection of different concepts in a given privacy policy, which can
+help facilitate other automated tasks such as producing a more reader-friendly
+summary and detecting legal compliance issues. Despite the successful
+applications of large language models (LLMs) to many NLP tasks in various
+domains, there is very little work studying the use of LLMs for automated
+privacy policy analysis, therefore, if and how LLMs can help automate privacy
+policy analysis remains under-explored. To fill this research gap, we conducted
+a comprehensive evaluation of LLM-based privacy policy concept classifiers,
+employing both prompt engineering and LoRA (low-rank adaptation) fine-tuning,
+on four state-of-the-art (SOTA) privacy policy corpora and taxonomies. Our
+experimental results demonstrated that combining prompt engineering and
+fine-tuning can make LLM-based classifiers outperform other SOTA methods,
+\emph{significantly} and \emph{consistently} across privacy policy
+corpora/taxonomies and concepts. Furthermore, we evaluated the explainability
+of the LLM-based classifiers using three metrics: completeness, logicality, and
+comprehensibility. For all three metrics, a score exceeding 91.1\% was observed
+in our evaluation, indicating that LLMs are not only useful to improve the
+classification performance, but also to enhance the explainability of detection
+results.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2503.12347v1">Synthesizing Privacy-Preserving Text Data via Finetuning without
   Finetuning Billion-Scale LLMs</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
@@ -718,8 +816,8 @@ management through personal assistants and automated compliance checking.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.12220v1">A Bubble-Cluster Federated Learning Framework for Privacy-Preserving
-  Demand Forecasting on Heterogeneous Retail Data</a></h3>
+  <h3><a href="http://arxiv.org/abs/2503.12220v2">PA-CFL: Privacy-Adaptive Clustered Federated Learning for
+  Transformer-Based Sales Forecasting on Heterogeneous Retail Data</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2025-03-15T18:07:54Z</p>
   <details>
@@ -729,26 +827,25 @@ management through personal assistants and automated compliance checking.</p>
 demand forecasting while maintaining privacy. However, heterogeneous data
 across diverse regions, driven by factors such as varying consumer behavior,
 poses challenges to the effectiveness of federated learning. To tackle this
-challenge, we propose Bubble-Cluster Federated Learning (BFL), a novel
-clustering-based federated learning framework tailored for sales prediction. By
-leveraging differential privacy and feature importance distribution, BFL groups
-retailers into distinct "bubbles", each forming its own federated learning (FL)
+challenge, we propose Privacy-Adaptive Clustered Federated Learning (PA-CFL)
+tailored for demand forecasting on heterogeneous retail data. By leveraging
+differential privacy and feature importance distribution, PA-CFL groups
+retailers into distinct ``bubbles'', each forming its own federated learning
 system to effectively isolate data heterogeneity. Within each bubble,
 Transformer models are designed to predict local sales for each client. Our
-experiments demonstrate that BFL significantly surpasses FedAvg and outperforms
-local learning in demand forecasting performance across all participating
-clients. Compared to local learning, BFL can achieve a 5.4\% improvement in
-R\textsuperscript{2}, a 69\% reduction in RMSE, and a 45\% decrease in MAE. Our
-study highlights BFL's adaptability in enabling effective federated learning
-through dynamic adjustments to noise levels and the range of clients
-participating in each bubble. This approach strategically groups participants
-into distinct "bubbles" while proactively identifying and filtering out risky
-clients that could compromise the FL system. The findings demonstrate BFL's
-ability to enhance collaborative learning in regression tasks on heterogeneous
-data, achieving a balance between forecasting accuracy and privacy preservation
-in retail applications. Additionally, BFL's capability to detect and neutralize
-poisoned data from clients enhances the system's robustness and reliability,
-ensuring more secure and effective federated learning.</p>
+experiments demonstrate that PA-CFL significantly surpasses FedAvg and
+outperforms local learning in demand forecasting performance across all
+participating clients. Compared to local learning, PA-CFL achieves a 5.4%
+improvement in R^2, a 69% reduction in RMSE, and a 45% decrease in MAE. Our
+approach enables effective FL through adaptive adjustments to diverse noise
+levels and the range of clients participating in each bubble. By grouping
+participants and proactively filtering out high-risk clients, PA-CFL mitigates
+potential threats to the FL system. The findings demonstrate PA-CFL's ability
+to enhance federated learning in time series prediction tasks with
+heterogeneous data, achieving a balance between forecasting accuracy and
+privacy preservation in retail applications. Additionally, PA-CFL's capability
+to detect and neutralize poisoned data from clients enhances the system's
+robustness and reliability.</p>
   </details>
 </div>
 
@@ -850,8 +947,8 @@ baselines.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.11950v1">Privacy Ethics Alignment in AI (PEA-AI): A Stakeholder-Centric Based
-  Framework for Ethcial AI</a></h3>
+  <h3><a href="http://arxiv.org/abs/2503.11950v2">Privacy Ethics Alignment in AI: A Stakeholder-Centric Based Framework
+  for Ethical AI</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
   <p><b>Published on:</b> 2025-03-15T01:42:45Z</p>
   <details>
@@ -861,12 +958,12 @@ baselines.</p>
 ecosystems has reshaped privacy dynamics, particularly for young digital
 citizens navigating data-driven environments. This study explores evolving
 privacy concerns across three key stakeholder groups, digital citizens (ages
-16-19), parents, educators, and AI professionals, and assesses differences in
+16-19), parents/educators, and AI professionals, and assesses differences in
 data ownership, trust, transparency, parental mediation, education, and
 risk-benefit perceptions. Employing a grounded theory methodology, this
 research synthesizes insights from 482 participants through structured surveys,
 qualitative interviews, and focus groups. The findings reveal distinct privacy
-expectations- Young users emphasize autonomy and digital freedom, while parents
+expectations: Young users emphasize autonomy and digital freedom, while parents
 and educators advocate for regulatory oversight and AI literacy programs. AI
 professionals, in contrast, prioritize the balance between ethical system
 design and technological efficiency. The data further highlights gaps in AI
@@ -2845,99 +2942,6 @@ outperform their non-adaptive counterparts, reducing ASR by up to five orders
 of magnitude while maintaining competitive utility. Analytical derivations also
 confirm the effectiveness of our mechanisms, moving them closer to the ASR-MSE
 Pareto frontier.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.01470v1">Position: Ensuring mutual privacy is necessary for effective external
-  evaluation of proprietary AI systems</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-03-03T12:24:59Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ben Bucknall, Robert F. Trager, Michael A. Osborne</p>
-    <p><b>Summary:</b> The external evaluation of AI systems is increasingly recognised as a crucial
-approach for understanding their potential risks. However, facilitating
-external evaluation in practice faces significant challenges in balancing
-evaluators' need for system access with AI developers' privacy and security
-concerns. Additionally, evaluators have reason to protect their own privacy -
-for example, in order to maintain the integrity of held-out test sets. We refer
-to the challenge of ensuring both developers' and evaluators' privacy as one of
-providing mutual privacy. In this position paper, we argue that (i) addressing
-this mutual privacy challenge is essential for effective external evaluation of
-AI systems, and (ii) current methods for facilitating external evaluation
-inadequately address this challenge, particularly when it comes to preserving
-evaluators' privacy. In making these arguments, we formalise the mutual privacy
-problem; examine the privacy and access requirements of both model owners and
-evaluators; and explore potential solutions to this challenge, including
-through the application of cryptographic and hardware-based approaches.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.01208v1">Watch Out Your Album! On the Inadvertent Privacy Memorization in
-  Multi-Modal Large Language Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2025-03-03T06:10:27Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Tianjie Ju, Yi Hua, Hao Fei, Zhenyu Shao, Yubin Zheng, Haodong Zhao, Mong-Li Lee, Wynne Hsu, Zhuosheng Zhang, Gongshen Liu</p>
-    <p><b>Summary:</b> Multi-Modal Large Language Models (MLLMs) have exhibited remarkable
-performance on various vision-language tasks such as Visual Question Answering
-(VQA). Despite accumulating evidence of privacy concerns associated with
-task-relevant content, it remains unclear whether MLLMs inadvertently memorize
-private content that is entirely irrelevant to the training tasks. In this
-paper, we investigate how randomly generated task-irrelevant private content
-can become spuriously correlated with downstream objectives due to partial
-mini-batch training dynamics, thus causing inadvertent memorization.
-Concretely, we randomly generate task-irrelevant watermarks into VQA
-fine-tuning images at varying probabilities and propose a novel probing
-framework to determine whether MLLMs have inadvertently encoded such content.
-Our experiments reveal that MLLMs exhibit notably different training behaviors
-in partial mini-batch settings with task-irrelevant watermarks embedded.
-Furthermore, through layer-wise probing, we demonstrate that MLLMs trigger
-distinct representational patterns when encountering previously seen
-task-irrelevant knowledge, even if this knowledge does not influence their
-output during prompting. Our code is available at
-https://github.com/illusionhi/ProbingPrivacy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.01089v1">Privacy-preserving Machine Learning in Internet of Vehicle Applications:
-  Fundamentals, Recent Advances, and Future Direction</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-03-03T01:24:04Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Nazmul Islam, Mohammad Zulkernine</p>
-    <p><b>Summary:</b> Machine learning (ML) has revolutionized Internet of Vehicles (IoV)
-applications by enhancing intelligent transportation, autonomous driving
-capabilities, and various connected services within a large, heterogeneous
-network. However, the increased connectivity and massive data exchange for ML
-applications introduce significant privacy challenges. Privacy-preserving
-machine learning (PPML) offers potential solutions to address these challenges
-by preserving privacy at various stages of the ML pipeline. Despite the rapid
-development of ML-based IoV applications and the growing data privacy concerns,
-there are limited comprehensive studies on the adoption of PPML within this
-domain. Therefore, this study provides a comprehensive review of the
-fundamentals, recent advancements, and the challenges of integrating PPML into
-IoV applications. To conduct an extensive study, we first review existing
-surveys of various PPML techniques and their integration into IoV across
-different scopes. We then discuss the fundamentals of IoV and propose a
-four-layer IoV architecture. Additionally, we categorize IoV applications into
-three key domains and analyze the privacy challenges in leveraging ML for these
-application domains. Next, we provide an overview of various PPML techniques,
-highlighting their applicability and performance to address the privacy
-challenges. Building on these fundamentals, we thoroughly review recent
-advancements in integrating various PPML techniques within IoV applications,
-discussing their frameworks, key features, and performance evaluation in terms
-of privacy, utility, and efficiency. Finally, we identify current challenges
-and propose future research directions to enhance privacy and reliability in
-IoV applications.</p>
   </details>
 </div>
 
