@@ -2767,5 +2767,129 @@
       "cs.CR",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.17011v1",
+    "title" : "Privacy Enhanced QKD Networks: Zero Trust Relay Architecture based on\n  Homomorphic Encryption",
+    "summary" : "Quantum key distribution (QKD) enables unconditionally secure symmetric key\nexchange between parties. However, terrestrial fibre-optic links face inherent\ndistance constraints due to quantum signal degradation. Traditional solutions\nto overcome these limits rely on trusted relay nodes, which perform\nintermediate re-encryption of keys using one-time pad (OTP) encryption. This\napproach, however, exposes keys as plaintext at each relay, requiring\nsignificant trust and stringent security controls at every intermediate node.\nThese \"trusted\" relays become a security liability if compromised.\n  To address this issue, we propose a zero-trust relay design that applies\nfully homomorphic encryption (FHE) to perform intermediate OTP re-encryption\nwithout exposing plaintext keys, effectively mitigating the risks associated\nwith potentially compromised or malicious relay nodes. Additionally, the\narchitecture enhances crypto-agility by incorporating external quantum random\nnumber generators, thus decoupling key generation from specific QKD hardware\nand reducing vulnerabilities tied to embedded key-generation modules.\n  The solution is designed with the existing European Telecommunication\nStandards Institute (ETSI) QKD standards in mind, enabling straightforward\nintegration into current infrastructures. Its feasibility has been successfully\ndemonstrated through a hybrid network setup combining simulated and\ncommercially available QKD equipment. The proposed zero-trust architecture thus\nsignificantly advances the scalability and practical security of large-scale\nQKD networks, greatly reducing reliance on fully trusted infrastructure.",
+    "updated" : "2025-03-21T10:20:06Z",
+    "published" : "2025-03-21T10:20:06Z",
+    "authors" : [
+      {
+        "name" : "Aitor Brazaola-Vicario"
+      },
+      {
+        "name" : "Oscar Lage"
+      },
+      {
+        "name" : "Julen Bernabé-Rodríguez"
+      },
+      {
+        "name" : "Eduardo Jacob"
+      },
+      {
+        "name" : "Jasone Astorga"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.16640v1",
+    "title" : "Visualizing Privacy-Relevant Data Flows in Android Applications",
+    "summary" : "Android applications collecting data from users must protect it according to\nthe current legal frameworks. Such data protection has become even more\nimportant since in 2018 the European Union rolled out the General Data\nProtection Regulation (GDPR). Since app developers are not legal experts, they\nfind it difficult to integrate privacy-aware practices into source code\ndevelopment. Despite these legal obligations, developers have limited tool\nsupport to reason about data protection throughout their app development\nprocess.\n  This paper explores the use of static program slicing and software\nvisualization to analyze privacy-relevant data flows in Android apps. We\nintroduce SliceViz, a web tool that analyzes an Android app by slicing all\nprivacy-relevant data sources detected in the source code on the back-end. It\nthen helps developers by visualizing these privacy-relevant program slices.\n  We conducted a user study with 12 participants demonstrating that SliceViz\neffectively aids developers in identifying privacy-relevant properties in\nAndroid apps.\n  Our findings indicate that program slicing can be employed to identify and\nreason about privacy-relevant data flows in Android applications. With further\nusability improvements, developers can be better equipped to handle\nprivacy-sensitive information.",
+    "updated" : "2025-03-20T18:47:02Z",
+    "published" : "2025-03-20T18:47:02Z",
+    "authors" : [
+      {
+        "name" : "Mugdha Khedkar"
+      },
+      {
+        "name" : "Michael Schlichtig"
+      },
+      {
+        "name" : "Santhosh Mohan"
+      },
+      {
+        "name" : "Eric Bodden"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.SE"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.16516v1",
+    "title" : "Using LLMs for Automated Privacy Policy Analysis: Prompt Engineering,\n  Fine-Tuning and Explainability",
+    "summary" : "Privacy policies are widely used by digital services and often required for\nlegal purposes. Many machine learning based classifiers have been developed to\nautomate detection of different concepts in a given privacy policy, which can\nhelp facilitate other automated tasks such as producing a more reader-friendly\nsummary and detecting legal compliance issues. Despite the successful\napplications of large language models (LLMs) to many NLP tasks in various\ndomains, there is very little work studying the use of LLMs for automated\nprivacy policy analysis, therefore, if and how LLMs can help automate privacy\npolicy analysis remains under-explored. To fill this research gap, we conducted\na comprehensive evaluation of LLM-based privacy policy concept classifiers,\nemploying both prompt engineering and LoRA (low-rank adaptation) fine-tuning,\non four state-of-the-art (SOTA) privacy policy corpora and taxonomies. Our\nexperimental results demonstrated that combining prompt engineering and\nfine-tuning can make LLM-based classifiers outperform other SOTA methods,\n\\emph{significantly} and \\emph{consistently} across privacy policy\ncorpora/taxonomies and concepts. Furthermore, we evaluated the explainability\nof the LLM-based classifiers using three metrics: completeness, logicality, and\ncomprehensibility. For all three metrics, a score exceeding 91.1\\% was observed\nin our evaluation, indicating that LLMs are not only useful to improve the\nclassification performance, but also to enhance the explainability of detection\nresults.",
+    "updated" : "2025-03-16T10:50:31Z",
+    "published" : "2025-03-16T10:50:31Z",
+    "authors" : [
+      {
+        "name" : "Yuxin Chen"
+      },
+      {
+        "name" : "Peng Tang"
+      },
+      {
+        "name" : "Weidong Qiu"
+      },
+      {
+        "name" : "Shujun Li"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.12220v2",
+    "title" : "PA-CFL: Privacy-Adaptive Clustered Federated Learning for\n  Transformer-Based Sales Forecasting on Heterogeneous Retail Data",
+    "summary" : "Federated learning (FL) enables retailers to share model parameters for\ndemand forecasting while maintaining privacy. However, heterogeneous data\nacross diverse regions, driven by factors such as varying consumer behavior,\nposes challenges to the effectiveness of federated learning. To tackle this\nchallenge, we propose Privacy-Adaptive Clustered Federated Learning (PA-CFL)\ntailored for demand forecasting on heterogeneous retail data. By leveraging\ndifferential privacy and feature importance distribution, PA-CFL groups\nretailers into distinct ``bubbles'', each forming its own federated learning\nsystem to effectively isolate data heterogeneity. Within each bubble,\nTransformer models are designed to predict local sales for each client. Our\nexperiments demonstrate that PA-CFL significantly surpasses FedAvg and\noutperforms local learning in demand forecasting performance across all\nparticipating clients. Compared to local learning, PA-CFL achieves a 5.4%\nimprovement in R^2, a 69% reduction in RMSE, and a 45% decrease in MAE. Our\napproach enables effective FL through adaptive adjustments to diverse noise\nlevels and the range of clients participating in each bubble. By grouping\nparticipants and proactively filtering out high-risk clients, PA-CFL mitigates\npotential threats to the FL system. The findings demonstrate PA-CFL's ability\nto enhance federated learning in time series prediction tasks with\nheterogeneous data, achieving a balance between forecasting accuracy and\nprivacy preservation in retail applications. Additionally, PA-CFL's capability\nto detect and neutralize poisoned data from clients enhances the system's\nrobustness and reliability.",
+    "updated" : "2025-03-21T17:13:19Z",
+    "published" : "2025-03-15T18:07:54Z",
+    "authors" : [
+      {
+        "name" : "Yunbo Long"
+      },
+      {
+        "name" : "Liming Xu"
+      },
+      {
+        "name" : "Ge Zheng"
+      },
+      {
+        "name" : "Alexandra Brintrup"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.11950v2",
+    "title" : "Privacy Ethics Alignment in AI: A Stakeholder-Centric Based Framework\n  for Ethical AI",
+    "summary" : "The increasing integration of Artificial Intelligence (AI) in digital\necosystems has reshaped privacy dynamics, particularly for young digital\ncitizens navigating data-driven environments. This study explores evolving\nprivacy concerns across three key stakeholder groups, digital citizens (ages\n16-19), parents/educators, and AI professionals, and assesses differences in\ndata ownership, trust, transparency, parental mediation, education, and\nrisk-benefit perceptions. Employing a grounded theory methodology, this\nresearch synthesizes insights from 482 participants through structured surveys,\nqualitative interviews, and focus groups. The findings reveal distinct privacy\nexpectations: Young users emphasize autonomy and digital freedom, while parents\nand educators advocate for regulatory oversight and AI literacy programs. AI\nprofessionals, in contrast, prioritize the balance between ethical system\ndesign and technological efficiency. The data further highlights gaps in AI\nliteracy and transparency, emphasizing the need for comprehensive,\nstakeholder-driven privacy frameworks that accommodate diverse user needs.\nUsing comparative thematic analysis, this study identifies key tensions in\nprivacy governance and develops the novel Privacy-Ethics Alignment in AI\n(PEA-AI) model, which structures privacy decision-making as a dynamic\nnegotiation between stakeholders. By systematically analyzing themes such as\ntransparency, user control, risk perception, and parental mediation, this\nresearch provides a scalable, adaptive foundation for AI governance, ensuring\nthat privacy protections evolve alongside emerging AI technologies and\nyouth-centric digital interactions.",
+    "updated" : "2025-03-21T00:54:33Z",
+    "published" : "2025-03-15T01:42:45Z",
+    "authors" : [
+      {
+        "name" : "Ankur Barthwal"
+      },
+      {
+        "name" : "Molly Campbell"
+      },
+      {
+        "name" : "Ajay Kumar Shrestha"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.AI"
+    ]
   }
 ]
