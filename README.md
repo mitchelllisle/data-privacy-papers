@@ -2,6 +2,136 @@
 <h2>2025-03</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.18729v1">Two Types of Data Privacy Controls</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2025-03-24T14:37:57Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Eman Alashwali</p>
+    <p><b>Summary:</b> Users share a vast amount of data while using web and mobile applications.
+Most service providers such as email and social media providers provide users
+with privacy controls, which aim to give users the means to control what, how,
+when, and with whom, users share data. Nevertheless, it is not uncommon to hear
+users say that they feel they have lost control over their data on the web.
+  This article aims to shed light on the often overlooked difference between
+two main types of privacy from a control perspective: privacy between a user
+and other users, and privacy between a user and institutions. We argue why this
+difference is important and what we need to do from here.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.18008v1">Personalized Language Models via Privacy-Preserving Evolutionary Model
+  Merging</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Neural and Evolutionary Computing-5BC0EB">
+  <p><b>Published on:</b> 2025-03-23T09:46:07Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Kyuyoung Kim, Jinwoo Shin, Jaehyung Kim</p>
+    <p><b>Summary:</b> Personalization in large language models (LLMs) seeks to tailor models to
+individual user or user group preferences. Prompt-based methods augment queries
+with user preference information, whereas training-based methods directly
+encode preferences into model parameters for more effective personalization.
+Despite achieving some success in personalizing LLMs, prior methods often fail
+to directly optimize task-specific metrics and lack explicit
+privacy-preservation mechanisms. To address these limitations, we propose
+Privacy-Preserving Model Merging via Evolutionary Algorithms (PriME), a novel
+approach to personalization that employs gradient-free methods to directly
+optimize task-specific metrics while preserving user privacy. By incorporating
+privacy preservation into optimization, PriME produces a personalized module
+that effectively captures the target user's preferences while minimizing the
+privacy risks for the users sharing their private information. Experiments on
+the LaMP benchmark show that PriME outperforms both prompt-based and
+training-based methods, achieving up to a 45% performance improvement over the
+prior art. Further analysis shows that PriME achieves a significantly better
+privacy-utility trade-off, highlighting the potential of evolutionary
+approaches for privacy-preserving LLM personalization.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.17844v1">Privacy-Preserving Hamming Distance Computation with Property-Preserving
+  Hashing</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computational Complexity-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-03-22T19:35:59Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Dongfang Zhao</p>
+    <p><b>Summary:</b> We study the problem of approximating Hamming distance in sublinear time
+under property-preserving hashing (PPH), where only hashed representations of
+inputs are available. Building on the threshold evaluation framework of
+Fleischhacker, Larsen, and Simkin (EUROCRYPT 2022), we present a sequence of
+constructions with progressively improved complexity: a baseline binary search
+algorithm, a refined variant with constant repetition per query, and a novel
+hash design that enables constant-time approximation without oracle access. Our
+results demonstrate that approximate distance recovery is possible under strong
+cryptographic guarantees, bridging efficiency and security in similarity
+estimation.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.17553v1">Autonomous Radiotherapy Treatment Planning Using DOLA: A
+  Privacy-Preserving, LLM-Based Optimization Agent</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2025-03-21T22:01:19Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Humza Nusrat, Bing Luo, Ryan Hall, Joshua Kim, Hassan Bagher-Ebadian, Anthony Doemer, Benjamin Movsas, Kundan Thind</p>
+    <p><b>Summary:</b> Radiotherapy treatment planning is a complex and time-intensive process,
+often impacted by inter-planner variability and subjective decision-making. To
+address these challenges, we introduce Dose Optimization Language Agent (DOLA),
+an autonomous large language model (LLM)-based agent designed for optimizing
+radiotherapy treatment plans while rigorously protecting patient privacy. DOLA
+integrates the LLaMa3.1 LLM directly with a commercial treatment planning
+system, utilizing chain-of-thought prompting, retrieval-augmented generation
+(RAG), and reinforcement learning (RL). Operating entirely within secure local
+infrastructure, this agent eliminates external data sharing. We evaluated DOLA
+using a retrospective cohort of 18 prostate cancer patients prescribed 60 Gy in
+20 fractions, comparing model sizes (8 billion vs. 70 billion parameters) and
+optimization strategies (No-RAG, RAG, and RAG+RL) over 10 planning iterations.
+The 70B model demonstrated significantly improved performance, achieving
+approximately 16.4% higher final scores than the 8B model. The RAG approach
+outperformed the No-RAG baseline by 19.8%, and incorporating RL accelerated
+convergence, highlighting the synergy of retrieval-based memory and
+reinforcement learning. Optimal temperature hyperparameter analysis identified
+0.4 as providing the best balance between exploration and exploitation. This
+proof of concept study represents the first successful deployment of locally
+hosted LLM agents for autonomous optimization of treatment plans within a
+commercial radiotherapy planning system. By extending human-machine interaction
+through interpretable natural language reasoning, DOLA offers a scalable and
+privacy-conscious framework, with significant potential for clinical
+implementation and workflow improvement.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.17428v1">Would you mind being watched by machines? Privacy concerns in data
+  mining</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2025-03-21T12:01:42Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Vincent C. Müller</p>
+    <p><b>Summary:</b> Data mining is not an invasion of privacy because access to data is only by
+machines, not by people: this is the argument that is investigated here. The
+current importance of this problem is developed in a case study of data mining
+in the USA for counterterrorism and other surveillance purposes. After a
+clarification of the relevant nature of privacy, it is argued that access by
+machines cannot warrant the access to further information, since the analysis
+will have to be made either by humans or by machines that understand. It
+concludes that the current data mining violates the right to privacy and should
+be subject to the standard legal constraints for access to private information
+by people.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2503.17011v1">Privacy Enhanced QKD Networks: Zero Trust Relay Architecture based on
   Homomorphic Encryption</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
@@ -220,7 +350,7 @@ achieving high performance in diverse environments.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.15818v1">Computation-Efficient and Recognition-Friendly 3D Point Cloud Privacy
+  <h3><a href="http://arxiv.org/abs/2503.15818v2">Computation-Efficient and Recognition-Friendly 3D Point Cloud Privacy
   Protection</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
   <p><b>Published on:</b> 2025-03-20T03:09:44Z</p>
@@ -359,7 +489,7 @@ exponential mechanism of DP to moderate its computational burden.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.15550v1">Zero-Knowledge Federated Learning: A New Trustworthy and
+  <h3><a href="http://arxiv.org/abs/2503.15550v2">Zero-Knowledge Federated Learning: A New Trustworthy and
   Privacy-Preserving Distributed Learning Paradigm</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
   <p><b>Published on:</b> 2025-03-18T06:21:08Z</p>
@@ -415,7 +545,7 @@ different areas of strength with respect to utility-privacy trade-offs.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.13816v1">MOSAIC: Generating Consistent, Privacy-Preserving Scenes from Multiple
+  <h3><a href="http://arxiv.org/abs/2503.13816v2">MOSAIC: Generating Consistent, Privacy-Preserving Scenes from Multiple
   Depth Views in Multi-Room Environments</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
   <p><b>Published on:</b> 2025-03-18T01:50:57Z</p>
@@ -1690,7 +1820,7 @@ https://github.com/ZitongShi/EPEAgent</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.08085v2">PRISM: Privacy-Preserving Improved Stochastic Masking for Federated
+  <h3><a href="http://arxiv.org/abs/2503.08085v3">PRISM: Privacy-Preserving Improved Stochastic Masking for Federated
   Generative Models</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
   <p><b>Published on:</b> 2025-03-11T06:37:54Z</p>
@@ -2789,159 +2919,6 @@ facial features, gender, and skin color, using the PA-HMDB and VISPR datasets.
 Video-DPRP combines privacy-preservation from both a DP and visual privacy
 perspective unlike SOTA methods that typically address only one of these
 aspects.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.02114v1">Fairness and/or Privacy on Social Graphs</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Social and Information Networks-662E9B">
-  <p><b>Published on:</b> 2025-03-03T22:56:32Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Bartlomiej Surma, Michael Backes, Yang Zhang</p>
-    <p><b>Summary:</b> Graph Neural Networks (GNNs) have shown remarkable success in various
-graph-based learning tasks. However, recent studies have raised concerns about
-fairness and privacy issues in GNNs, highlighting the potential for biased or
-discriminatory outcomes and the vulnerability of sensitive information. This
-paper presents a comprehensive investigation of fairness and privacy in GNNs,
-exploring the impact of various fairness-preserving measures on model
-performance. We conduct experiments across diverse datasets and evaluate the
-effectiveness of different fairness interventions. Our analysis considers the
-trade-offs between fairness, privacy, and accuracy, providing insights into the
-challenges and opportunities in achieving both fair and private graph learning.
-The results highlight the importance of carefully selecting and combining
-fairness-preserving measures based on the specific characteristics of the data
-and the desired fairness objectives. This study contributes to a deeper
-understanding of the complex interplay between fairness, privacy, and accuracy
-in GNNs, paving the way for the development of more robust and ethical graph
-learning models.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.02091v1">Which Code Statements Implement Privacy Behaviors in Android
-  Applications?</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
-  <p><b>Published on:</b> 2025-03-03T22:20:01Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Chia-Yi Su, Aakash Bansal, Vijayanta Jain, Sepideh Ghanavati, Sai Teja Peddinti, Collin McMillan</p>
-    <p><b>Summary:</b> A "privacy behavior" in software is an action where the software uses
-personal information for a service or a feature, such as a website using
-location to provide content relevant to a user. Programmers are required by
-regulations or application stores to provide privacy notices and labels
-describing these privacy behaviors. Although many tools and research prototypes
-have been developed to help programmers generate these notices by analyzing the
-source code, these approaches are often fairly coarse-grained (i.e., at the
-level of whole methods or files, rather than at the statement level). But this
-is not necessarily how privacy behaviors exist in code. Privacy behaviors are
-embedded in specific statements in code. Current literature does not examine
-what statements programmers see as most important, how consistent these views
-are, or how to detect them. In this paper, we conduct an empirical study to
-examine which statements programmers view as most-related to privacy behaviors.
-We find that expression statements that make function calls are most associated
-with privacy behaviors, while the type of privacy label has little effect on
-the attributes of the selected statements. We then propose an approach to
-automatically detect these privacy-relevant statements by fine-tuning three
-large language models with the data from the study. We observe that the
-agreement between our approach and participants is comparable to or higher than
-an agreement between two participants. Our study and detection approach can
-help programmers understand which statements in code affect privacy in mobile
-applications.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.02019v1">SLAP: Secure Location-proof and Anonymous Privacy-preserving Spectrum
-  Access</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-03-03T19:52:56Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Saleh Darzi, Attila A. Yavuz</p>
-    <p><b>Summary:</b> The rapid advancements in wireless technology have significantly increased
-the demand for communication resources, leading to the development of Spectrum
-Access Systems (SAS). However, network regulations require disclosing sensitive
-user information, such as location coordinates and transmission details,
-raising critical privacy concerns. Moreover, as a database-driven architecture
-reliant on user-provided data, SAS necessitates robust location verification to
-counter identity and location spoofing attacks and remains a primary target for
-denial-of-service (DoS) attacks. Addressing these security challenges while
-adhering to regulatory requirements is essential. In this paper, we propose
-SLAP, a novel framework that ensures location privacy and anonymity during
-spectrum queries, usage notifications, and location-proof acquisition. Our
-solution includes an adaptive dual-scenario location verification mechanism
-with architectural flexibility and a fallback option, along with a counter-DoS
-approach using time-lock puzzles. We prove the security of SLAP and demonstrate
-its advantages over existing solutions through comprehensive performance
-evaluations.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.02017v1">A Lightweight and Secure Deep Learning Model for Privacy-Preserving
-  Federated Learning in Intelligent Enterprises</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-03-03T19:51:13Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Reza Fotohi, Fereidoon Shams Aliee, Bahar Farahani</p>
-    <p><b>Summary:</b> The ever growing Internet of Things (IoT) connections drive a new type of
-organization, the Intelligent Enterprise. In intelligent enterprises, machine
-learning based models are adopted to extract insights from data. Due to the
-efficiency and privacy challenges of these traditional models, a new federated
-learning (FL) paradigm has emerged. In FL, multiple enterprises can jointly
-train a model to update a final model. However, firstly, FL trained models
-usually perform worse than centralized models, especially when enterprises
-training data is non-IID (Independent and Identically Distributed). Second, due
-to the centrality of FL and the untrustworthiness of local enterprises,
-traditional FL solutions are vulnerable to poisoning and inference attacks and
-violate privacy. Thirdly, the continuous transfer of parameters between
-enterprises and servers increases communication costs. To this end, the
-FedAnil+ model is proposed, a novel, lightweight, and secure Federated Deep
-Learning Model that includes three main phases. In the first phase, the goal is
-to solve the data type distribution skew challenge. Addressing privacy concerns
-against poisoning and inference attacks is covered in the second phase.
-Finally, to alleviate the communication overhead, a novel compression approach
-is proposed that significantly reduces the size of the updates. The experiment
-results validate that FedAnil+ is secure against inference and poisoning
-attacks with better accuracy. In addition, it shows improvements over existing
-approaches in terms of model accuracy (13%, 16%, and 26%), communication cost
-(17%, 21%, and 25%), and computation cost (7%, 9%, and 11%).</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.01482v1">Revisiting Locally Differentially Private Protocols: Towards Better
-  Trade-offs in Privacy, Utility, and Attack Resistance</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-03-03T12:41:01Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Héber H. Arcolezi, Sébastien Gambs</p>
-    <p><b>Summary:</b> Local Differential Privacy (LDP) offers strong privacy protection, especially
-in settings in which the server collecting the data is untrusted. However,
-designing LDP mechanisms that achieve an optimal trade-off between privacy,
-utility, and robustness to adversarial inference attacks remains challenging.
-In this work, we introduce a general multi-objective optimization framework for
-refining LDP protocols, enabling the joint optimization of privacy and utility
-under various adversarial settings. While our framework is flexible enough to
-accommodate multiple privacy and security attacks as well as utility metrics,
-in this paper we specifically optimize for Attacker Success Rate (ASR) under
-distinguishability attack as a measure of privacy and Mean Squared Error (MSE)
-as a measure of utility. We systematically revisit these trade-offs by
-analyzing eight state-of-the-art LDP protocols and proposing refined
-counterparts that leverage tailored optimization techniques. Experimental
-results demonstrate that our proposed adaptive mechanisms consistently
-outperform their non-adaptive counterparts, reducing ASR by up to five orders
-of magnitude while maintaining competitive utility. Analytical derivations also
-confirm the effectiveness of our mechanisms, moving them closer to the ASR-MSE
-Pareto frontier.</p>
   </details>
 </div>
 
