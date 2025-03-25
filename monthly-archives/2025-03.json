@@ -2891,5 +2891,223 @@
       "cs.CY",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.18729v1",
+    "title" : "Two Types of Data Privacy Controls",
+    "summary" : "Users share a vast amount of data while using web and mobile applications.\nMost service providers such as email and social media providers provide users\nwith privacy controls, which aim to give users the means to control what, how,\nwhen, and with whom, users share data. Nevertheless, it is not uncommon to hear\nusers say that they feel they have lost control over their data on the web.\n  This article aims to shed light on the often overlooked difference between\ntwo main types of privacy from a control perspective: privacy between a user\nand other users, and privacy between a user and institutions. We argue why this\ndifference is important and what we need to do from here.",
+    "updated" : "2025-03-24T14:37:57Z",
+    "published" : "2025-03-24T14:37:57Z",
+    "authors" : [
+      {
+        "name" : "Eman Alashwali"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.18008v1",
+    "title" : "Personalized Language Models via Privacy-Preserving Evolutionary Model\n  Merging",
+    "summary" : "Personalization in large language models (LLMs) seeks to tailor models to\nindividual user or user group preferences. Prompt-based methods augment queries\nwith user preference information, whereas training-based methods directly\nencode preferences into model parameters for more effective personalization.\nDespite achieving some success in personalizing LLMs, prior methods often fail\nto directly optimize task-specific metrics and lack explicit\nprivacy-preservation mechanisms. To address these limitations, we propose\nPrivacy-Preserving Model Merging via Evolutionary Algorithms (PriME), a novel\napproach to personalization that employs gradient-free methods to directly\noptimize task-specific metrics while preserving user privacy. By incorporating\nprivacy preservation into optimization, PriME produces a personalized module\nthat effectively captures the target user's preferences while minimizing the\nprivacy risks for the users sharing their private information. Experiments on\nthe LaMP benchmark show that PriME outperforms both prompt-based and\ntraining-based methods, achieving up to a 45% performance improvement over the\nprior art. Further analysis shows that PriME achieves a significantly better\nprivacy-utility trade-off, highlighting the potential of evolutionary\napproaches for privacy-preserving LLM personalization.",
+    "updated" : "2025-03-23T09:46:07Z",
+    "published" : "2025-03-23T09:46:07Z",
+    "authors" : [
+      {
+        "name" : "Kyuyoung Kim"
+      },
+      {
+        "name" : "Jinwoo Shin"
+      },
+      {
+        "name" : "Jaehyung Kim"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.NE"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.17844v1",
+    "title" : "Privacy-Preserving Hamming Distance Computation with Property-Preserving\n  Hashing",
+    "summary" : "We study the problem of approximating Hamming distance in sublinear time\nunder property-preserving hashing (PPH), where only hashed representations of\ninputs are available. Building on the threshold evaluation framework of\nFleischhacker, Larsen, and Simkin (EUROCRYPT 2022), we present a sequence of\nconstructions with progressively improved complexity: a baseline binary search\nalgorithm, a refined variant with constant repetition per query, and a novel\nhash design that enables constant-time approximation without oracle access. Our\nresults demonstrate that approximate distance recovery is possible under strong\ncryptographic guarantees, bridging efficiency and security in similarity\nestimation.",
+    "updated" : "2025-03-22T19:35:59Z",
+    "published" : "2025-03-22T19:35:59Z",
+    "authors" : [
+      {
+        "name" : "Dongfang Zhao"
+      }
+    ],
+    "categories" : [
+      "cs.CC",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.17553v1",
+    "title" : "Autonomous Radiotherapy Treatment Planning Using DOLA: A\n  Privacy-Preserving, LLM-Based Optimization Agent",
+    "summary" : "Radiotherapy treatment planning is a complex and time-intensive process,\noften impacted by inter-planner variability and subjective decision-making. To\naddress these challenges, we introduce Dose Optimization Language Agent (DOLA),\nan autonomous large language model (LLM)-based agent designed for optimizing\nradiotherapy treatment plans while rigorously protecting patient privacy. DOLA\nintegrates the LLaMa3.1 LLM directly with a commercial treatment planning\nsystem, utilizing chain-of-thought prompting, retrieval-augmented generation\n(RAG), and reinforcement learning (RL). Operating entirely within secure local\ninfrastructure, this agent eliminates external data sharing. We evaluated DOLA\nusing a retrospective cohort of 18 prostate cancer patients prescribed 60 Gy in\n20 fractions, comparing model sizes (8 billion vs. 70 billion parameters) and\noptimization strategies (No-RAG, RAG, and RAG+RL) over 10 planning iterations.\nThe 70B model demonstrated significantly improved performance, achieving\napproximately 16.4% higher final scores than the 8B model. The RAG approach\noutperformed the No-RAG baseline by 19.8%, and incorporating RL accelerated\nconvergence, highlighting the synergy of retrieval-based memory and\nreinforcement learning. Optimal temperature hyperparameter analysis identified\n0.4 as providing the best balance between exploration and exploitation. This\nproof of concept study represents the first successful deployment of locally\nhosted LLM agents for autonomous optimization of treatment plans within a\ncommercial radiotherapy planning system. By extending human-machine interaction\nthrough interpretable natural language reasoning, DOLA offers a scalable and\nprivacy-conscious framework, with significant potential for clinical\nimplementation and workflow improvement.",
+    "updated" : "2025-03-21T22:01:19Z",
+    "published" : "2025-03-21T22:01:19Z",
+    "authors" : [
+      {
+        "name" : "Humza Nusrat"
+      },
+      {
+        "name" : "Bing Luo"
+      },
+      {
+        "name" : "Ryan Hall"
+      },
+      {
+        "name" : "Joshua Kim"
+      },
+      {
+        "name" : "Hassan Bagher-Ebadian"
+      },
+      {
+        "name" : "Anthony Doemer"
+      },
+      {
+        "name" : "Benjamin Movsas"
+      },
+      {
+        "name" : "Kundan Thind"
+      }
+    ],
+    "categories" : [
+      "physics.med-ph",
+      "cs.AI",
+      "cs.CL",
+      "cs.ET",
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.17428v1",
+    "title" : "Would you mind being watched by machines? Privacy concerns in data\n  mining",
+    "summary" : "Data mining is not an invasion of privacy because access to data is only by\nmachines, not by people: this is the argument that is investigated here. The\ncurrent importance of this problem is developed in a case study of data mining\nin the USA for counterterrorism and other surveillance purposes. After a\nclarification of the relevant nature of privacy, it is argued that access by\nmachines cannot warrant the access to further information, since the analysis\nwill have to be made either by humans or by machines that understand. It\nconcludes that the current data mining violates the right to privacy and should\nbe subject to the standard legal constraints for access to private information\nby people.",
+    "updated" : "2025-03-21T12:01:42Z",
+    "published" : "2025-03-21T12:01:42Z",
+    "authors" : [
+      {
+        "name" : "Vincent C. Müller"
+      }
+    ],
+    "categories" : [
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.15818v2",
+    "title" : "Computation-Efficient and Recognition-Friendly 3D Point Cloud Privacy\n  Protection",
+    "summary" : "3D point cloud has been widely used in applications such as self-driving\ncars, robotics, CAD models, etc. To the best of our knowledge, these\napplications raised the issue of privacy leakage in 3D point clouds, which has\nnot been studied well. Different from the 2D image privacy, which is related to\ntexture and 2D geometric structure, the 3D point cloud is texture-less and only\nrelevant to 3D geometric structure. In this work, we defined the 3D point cloud\nprivacy problem and proposed an efficient privacy-preserving framework named\nPointFlowGMM that can support downstream classification and segmentation tasks\nwithout seeing the original data. Using a flow-based generative model, the\npoint cloud is projected into a latent Gaussian mixture distributed subspace.\nWe further designed a novel angular similarity loss to obfuscate the original\ngeometric structure and reduce the model size from 767MB to 120MB without a\ndecrease in recognition performance. The projected point cloud in the latent\nspace is orthogonally rotated randomly to further protect the original\ngeometric structure, the class-to-class relationship is preserved after\nrotation, thus, the protected point cloud can support the recognition task. We\nevaluated our model on multiple datasets and achieved comparable recognition\nresults on encrypted point clouds compared to the original point clouds.",
+    "updated" : "2025-03-23T19:45:16Z",
+    "published" : "2025-03-20T03:09:44Z",
+    "authors" : [
+      {
+        "name" : "Haotian Ma"
+      },
+      {
+        "name" : "Lin Gu"
+      },
+      {
+        "name" : "Siyi Wu"
+      },
+      {
+        "name" : "Yingying Zhu"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.15550v2",
+    "title" : "Zero-Knowledge Federated Learning: A New Trustworthy and\n  Privacy-Preserving Distributed Learning Paradigm",
+    "summary" : "Federated Learning (FL) has emerged as a promising paradigm in distributed\nmachine learning, enabling collaborative model training while preserving data\nprivacy. However, despite its many advantages, FL still contends with\nsignificant challenges -- most notably regarding security and trust.\nZero-Knowledge Proofs (ZKPs) offer a potential solution by establishing trust\nand enhancing system integrity throughout the FL process. Although several\nstudies have explored ZKP-based FL (ZK-FL), a systematic framework and\ncomprehensive analysis are still lacking. This article makes two key\ncontributions. First, we propose a structured ZK-FL framework that categorizes\nand analyzes the technical roles of ZKPs across various FL stages and tasks.\nSecond, we introduce a novel algorithm, Verifiable Client Selection FL\n(Veri-CS-FL), which employs ZKPs to refine the client selection process. In\nVeri-CS-FL, participating clients generate verifiable proofs for the\nperformance metrics of their local models and submit these concise proofs to\nthe server for efficient verification. The server then selects clients with\nhigh-quality local models for uploading, subsequently aggregating the\ncontributions from these selected clients. By integrating ZKPs, Veri-CS-FL not\nonly ensures the accuracy of performance metrics but also fortifies trust among\nparticipants while enhancing the overall efficiency and security of FL systems.",
+    "updated" : "2025-03-24T03:55:23Z",
+    "published" : "2025-03-18T06:21:08Z",
+    "authors" : [
+      {
+        "name" : "Yuxin Jin"
+      },
+      {
+        "name" : "Taotao Wang"
+      },
+      {
+        "name" : "Qing Yang"
+      },
+      {
+        "name" : "Long Shi"
+      },
+      {
+        "name" : "Shengli Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.13816v2",
+    "title" : "MOSAIC: Generating Consistent, Privacy-Preserving Scenes from Multiple\n  Depth Views in Multi-Room Environments",
+    "summary" : "We introduce a novel diffusion-based approach for generating\nprivacy-preserving digital twins of multi-room indoor environments from depth\nimages only. Central to our approach is a novel Multi-view Overlapped Scene\nAlignment with Implicit Consistency (MOSAIC) model that explicitly considers\ncross-view dependencies within the same scene in the probabilistic sense.\nMOSAIC operates through a novel inference-time optimization that avoids error\naccumulation common in sequential or single-room constraint in panorama-based\napproaches. MOSAIC scales to complex scenes with zero extra training and\nprovably reduces the variance during denoising processes when more overlapping\nviews are added, leading to improved generation quality. Experiments show that\nMOSAIC outperforms state-of-the-art baselines on image fidelity metrics in\nreconstructing complex multi-room environments. Project page is available at:\nhttps://mosaic-cmubig.github.io",
+    "updated" : "2025-03-24T04:05:07Z",
+    "published" : "2025-03-18T01:50:57Z",
+    "authors" : [
+      {
+        "name" : "Zhixuan Liu"
+      },
+      {
+        "name" : "Haokun Zhu"
+      },
+      {
+        "name" : "Rui Chen"
+      },
+      {
+        "name" : "Jonathan Francis"
+      },
+      {
+        "name" : "Soonmin Hwang"
+      },
+      {
+        "name" : "Ji Zhang"
+      },
+      {
+        "name" : "Jean Oh"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.08085v3",
+    "title" : "PRISM: Privacy-Preserving Improved Stochastic Masking for Federated\n  Generative Models",
+    "summary" : "Despite recent advancements in federated learning (FL), the integration of\ngenerative models into FL has been limited due to challenges such as high\ncommunication costs and unstable training in heterogeneous data environments.\nTo address these issues, we propose PRISM, a FL framework tailored for\ngenerative models that ensures (i) stable performance in heterogeneous data\ndistributions and (ii) resource efficiency in terms of communication cost and\nfinal model size. The key of our method is to search for an optimal stochastic\nbinary mask for a random network rather than updating the model weights,\nidentifying a sparse subnetwork with high generative performance; i.e., a\n``strong lottery ticket''. By communicating binary masks in a stochastic\nmanner, PRISM minimizes communication overhead. This approach, combined with\nthe utilization of maximum mean discrepancy (MMD) loss and a mask-aware dynamic\nmoving average aggregation method (MADA) on the server side, facilitates stable\nand strong generative capabilities by mitigating local divergence in FL\nscenarios. Moreover, thanks to its sparsifying characteristic, PRISM yields a\nlightweight model without extra pruning or quantization, making it ideal for\nenvironments such as edge devices. Experiments on MNIST, FMNIST, CelebA, and\nCIFAR10 demonstrate that PRISM outperforms existing methods, while maintaining\nprivacy with minimal communication costs. PRISM is the first to successfully\ngenerate images under challenging non-IID and privacy-preserving FL\nenvironments on complex datasets, where previous methods have struggled.",
+    "updated" : "2025-03-24T16:34:35Z",
+    "published" : "2025-03-11T06:37:54Z",
+    "authors" : [
+      {
+        "name" : "Kyeongkook Seo"
+      },
+      {
+        "name" : "Dong-Jun Han"
+      },
+      {
+        "name" : "Jaejun Yoo"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "cs.CV"
+    ]
   }
 ]
