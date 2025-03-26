@@ -3109,5 +3109,106 @@
       "cs.CR",
       "cs.CV"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.19872v1",
+    "title" : "NickPay, an Auditable, Privacy-Preserving, Nickname-Based Payment System",
+    "summary" : "In this paper, we describe the motivation, design, security properties, and a\nprototype implementation of NickPay, a new privacy-preserving yet auditable\npayment system built on top of the Ethereum blockchain platform. NickPay offers\na strong level of privacy to participants and prevents successive payment\ntransfers from being linked to their actual owners.\n  It is providing the transparency that blockchains ensure and at the same\ntime, preserving the possibility for a trusted authority to access sensitive\ninformation, e.g., for audit purposes or compliance with financial regulations.\n  NickPay builds upon the Nicknames for Group Signatures (NGS) scheme, a new\nsigning system based on dynamic ``nicknames'' for signers that extends the\nschemes of group signatures and signatures with flexible public keys.\n  NGS enables identified group members to expose their flexible public keys,\nthus allowing direct and natural applications such as auditable private payment\nsystems, NickPay being a blockchain-based prototype of these.",
+    "updated" : "2025-03-25T17:36:54Z",
+    "published" : "2025-03-25T17:36:54Z",
+    "authors" : [
+      {
+        "name" : "Guillaume Quispe"
+      },
+      {
+        "name" : "Pierre Jouvelot"
+      },
+      {
+        "name" : "Gerard Memmi"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.19819v1",
+    "title" : "Domain-incremental White Blood Cell Classification with Privacy-aware\n  Continual Learning",
+    "summary" : "White blood cell (WBC) classification plays a vital role in hematology for\ndiagnosing various medical conditions. However, it faces significant challenges\ndue to domain shifts caused by variations in sample sources (e.g., blood or\nbone marrow) and differing imaging conditions across hospitals. Traditional\ndeep learning models often suffer from catastrophic forgetting in such dynamic\nenvironments, while foundation models, though generally robust, experience\nperformance degradation when the distribution of inference data differs from\nthat of the training data. To address these challenges, we propose a generative\nreplay-based Continual Learning (CL) strategy designed to prevent forgetting in\nfoundation models for WBC classification. Our method employs lightweight\ngenerators to mimic past data with a synthetic latent representation to enable\nprivacy-preserving replay. To showcase the effectiveness, we carry out\nextensive experiments with a total of four datasets with different task\nordering and four backbone models including ResNet50, RetCCL, CTransPath, and\nUNI. Experimental results demonstrate that conventional fine-tuning methods\ndegrade performance on previously learned tasks and struggle with domain\nshifts. In contrast, our continual learning strategy effectively mitigates\ncatastrophic forgetting, preserving model performance across varying domains.\nThis work presents a practical solution for maintaining reliable WBC\nclassification in real-world clinical settings, where data distributions\nfrequently evolve.",
+    "updated" : "2025-03-25T16:30:58Z",
+    "published" : "2025-03-25T16:30:58Z",
+    "authors" : [
+      {
+        "name" : "Pratibha Kumari"
+      },
+      {
+        "name" : "Afshin Bozorgpour"
+      },
+      {
+        "name" : "Daniel Reisenbüchler"
+      },
+      {
+        "name" : "Edgar Jost"
+      },
+      {
+        "name" : "Martina Crysandt"
+      },
+      {
+        "name" : "Christian Matek"
+      },
+      {
+        "name" : "Dorit Merhof"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.19453v1",
+    "title" : "Average consensus with resilience and privacy guarantees without losing\n  accuracy",
+    "summary" : "This paper addresses the challenge of achieving private and resilient average\nconsensus among a group of discrete-time networked agents without compromising\naccuracy. State-of-the-art solutions to attain privacy and resilient consensus\nentail an explicit trade-off between the two with an implicit compromise on\naccuracy. In contrast, in the present work, we propose a methodology that\navoids trade-offs between privacy, resilience, and accuracy. We design a\nmethodology that, under certain conditions, enables non-faulty agents, i.e.,\nagents complying with the established protocol, to reach average consensus in\nthe presence of faulty agents, while keeping the non-faulty agents' initial\nstates private. For privacy, agents strategically add noise to obscure their\noriginal state, while later withdrawing a function of it to ensure accuracy.\nBesides, and unlikely many consensus methods, our approach does not require\neach agent to compute the left-eigenvector of the dynamics matrix associated\nwith the eigenvalue one. Moreover, the proposed framework has a polynomial time\ncomplexity relative to the number of agents and the maximum quantity of faulty\nagents. Finally, we illustrate our method with examples covering diverse faulty\nagents scenarios.",
+    "updated" : "2025-03-25T08:41:12Z",
+    "published" : "2025-03-25T08:41:12Z",
+    "authors" : [
+      {
+        "name" : "Guilherme Ramos"
+      },
+      {
+        "name" : "Daniel Silvestre"
+      },
+      {
+        "name" : "André M. H. Teixeira"
+      },
+      {
+        "name" : "Sérgio Pequito"
+      }
+    ],
+    "categories" : [
+      "math.OC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.09823v2",
+    "title" : "Data Traceability for Privacy Alignment",
+    "summary" : "This paper offers a new privacy approach for the growing ecosystem of\nservices -- ranging from open banking to healthcare -- dependent on sensitive\npersonal data sharing between individuals and third parties. While these\nservices offer significant benefits, individuals want control over their data,\ntransparency regarding how their data is used, and accountability from third\nparties for misuse. However, existing legal and technical mechanisms are\ninadequate for supporting these needs. A comprehensive approach to the modern\nprivacy challenges of accountable third-party data sharing requires a closer\nalignment of technical system architecture and legal institutional design. In\norder to achieve this privacy alignment, we extend traditional security threat\nmodeling and analysis to encompass a broader range of privacy notions than has\nbeen typically considered. In particular, we introduce the concept of\ncovert-accountability, which addresses the risk from adversaries that may act\ndishonestly but nevertheless face potential identification and legal\nconsequences. As a concrete instance of this design approach, we present the\nOTrace protocol, designed to provide traceable, accountable, consumer-control\nin third-party data sharing ecosystems. OTrace empowers consumers with the\nknowledge of who has their data, what it is being used for, what consent or\nother legal terms apply, and whom it is being shared with. By applying our\nalignment framework, we demonstrate that OTrace's technical affordances can\nprovide more confident, scalable regulatory oversight when combined with\ncomplementary legal mechanisms.",
+    "updated" : "2025-03-24T18:48:39Z",
+    "published" : "2025-03-12T20:42:23Z",
+    "authors" : [
+      {
+        "name" : "Kevin Liao"
+      },
+      {
+        "name" : "Shreya Thipireddy"
+      },
+      {
+        "name" : "Daniel Weitzner"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CY"
+    ]
   }
 ]
