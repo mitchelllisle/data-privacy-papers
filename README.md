@@ -2,6 +2,93 @@
 <h2>2025-03</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.19872v1">NickPay, an Auditable, Privacy-Preserving, Nickname-Based Payment System</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-03-25T17:36:54Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Guillaume Quispe, Pierre Jouvelot, Gerard Memmi</p>
+    <p><b>Summary:</b> In this paper, we describe the motivation, design, security properties, and a
+prototype implementation of NickPay, a new privacy-preserving yet auditable
+payment system built on top of the Ethereum blockchain platform. NickPay offers
+a strong level of privacy to participants and prevents successive payment
+transfers from being linked to their actual owners.
+  It is providing the transparency that blockchains ensure and at the same
+time, preserving the possibility for a trusted authority to access sensitive
+information, e.g., for audit purposes or compliance with financial regulations.
+  NickPay builds upon the Nicknames for Group Signatures (NGS) scheme, a new
+signing system based on dynamic ``nicknames'' for signers that extends the
+schemes of group signatures and signatures with flexible public keys.
+  NGS enables identified group members to expose their flexible public keys,
+thus allowing direct and natural applications such as auditable private payment
+systems, NickPay being a blockchain-based prototype of these.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.19819v1">Domain-incremental White Blood Cell Classification with Privacy-aware
+  Continual Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2025-03-25T16:30:58Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Pratibha Kumari, Afshin Bozorgpour, Daniel Reisenbüchler, Edgar Jost, Martina Crysandt, Christian Matek, Dorit Merhof</p>
+    <p><b>Summary:</b> White blood cell (WBC) classification plays a vital role in hematology for
+diagnosing various medical conditions. However, it faces significant challenges
+due to domain shifts caused by variations in sample sources (e.g., blood or
+bone marrow) and differing imaging conditions across hospitals. Traditional
+deep learning models often suffer from catastrophic forgetting in such dynamic
+environments, while foundation models, though generally robust, experience
+performance degradation when the distribution of inference data differs from
+that of the training data. To address these challenges, we propose a generative
+replay-based Continual Learning (CL) strategy designed to prevent forgetting in
+foundation models for WBC classification. Our method employs lightweight
+generators to mimic past data with a synthetic latent representation to enable
+privacy-preserving replay. To showcase the effectiveness, we carry out
+extensive experiments with a total of four datasets with different task
+ordering and four backbone models including ResNet50, RetCCL, CTransPath, and
+UNI. Experimental results demonstrate that conventional fine-tuning methods
+degrade performance on previously learned tasks and struggle with domain
+shifts. In contrast, our continual learning strategy effectively mitigates
+catastrophic forgetting, preserving model performance across varying domains.
+This work presents a practical solution for maintaining reliable WBC
+classification in real-world clinical settings, where data distributions
+frequently evolve.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.19453v1">Average consensus with resilience and privacy guarantees without losing
+  accuracy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Optimization and Control-F9C80E">
+  <p><b>Published on:</b> 2025-03-25T08:41:12Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Guilherme Ramos, Daniel Silvestre, André M. H. Teixeira, Sérgio Pequito</p>
+    <p><b>Summary:</b> This paper addresses the challenge of achieving private and resilient average
+consensus among a group of discrete-time networked agents without compromising
+accuracy. State-of-the-art solutions to attain privacy and resilient consensus
+entail an explicit trade-off between the two with an implicit compromise on
+accuracy. In contrast, in the present work, we propose a methodology that
+avoids trade-offs between privacy, resilience, and accuracy. We design a
+methodology that, under certain conditions, enables non-faulty agents, i.e.,
+agents complying with the established protocol, to reach average consensus in
+the presence of faulty agents, while keeping the non-faulty agents' initial
+states private. For privacy, agents strategically add noise to obscure their
+original state, while later withdrawing a function of it to ensure accuracy.
+Besides, and unlikely many consensus methods, our approach does not require
+each agent to compute the left-eigenvector of the dynamics matrix associated
+with the eigenvalue one. Moreover, the proposed framework has a polynomial time
+complexity relative to the number of agents and the maximum quantity of faulty
+agents. Finally, we illustrate our method with examples covering diverse faulty
+agents scenarios.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2503.18729v1">Two Types of Data Privacy Controls</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
   <p><b>Published on:</b> 2025-03-24T14:37:57Z</p>
@@ -1454,33 +1541,34 @@ privacy in distributed median consensus.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.09823v1">Data Traceability for Privacy Alignment</a></h3>
+  <h3><a href="http://arxiv.org/abs/2503.09823v2">Data Traceability for Privacy Alignment</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
   <p><b>Published on:</b> 2025-03-12T20:42:23Z</p>
   <details>
     <summary>More Details</summary>
     <p><b>Authors:</b> Kevin Liao, Shreya Thipireddy, Daniel Weitzner</p>
     <p><b>Summary:</b> This paper offers a new privacy approach for the growing ecosystem of
-services--ranging from open banking to healthcare--dependent on sensitive
-personal data sharing between individuals and third-parties. While these
+services -- ranging from open banking to healthcare -- dependent on sensitive
+personal data sharing between individuals and third parties. While these
 services offer significant benefits, individuals want control over their data,
-transparency regarding how their data is used, and accountability from
-third-parties for misuse. However, existing legal and technical mechanisms are
+transparency regarding how their data is used, and accountability from third
+parties for misuse. However, existing legal and technical mechanisms are
 inadequate for supporting these needs. A comprehensive approach to the modern
 privacy challenges of accountable third-party data sharing requires a closer
 alignment of technical system architecture and legal institutional design. In
 order to achieve this privacy alignment, we extend traditional security threat
 modeling and analysis to encompass a broader range of privacy notions than has
 been typically considered. In particular, we introduce the concept of
-covert-accountability, which addresses adversaries that may act dishonestly but
-face potential identification and legal consequences. As a concrete instance of
-this design approach, we present the OTrace protocol, designed to provide
-traceable, accountable, consumer-control in third-party data sharing
-ecosystems. OTrace empowers consumers with the knowledge of where their data
-is, who has it, what it is being used for, and whom it is being shared with. By
-applying our alignment framework to OTrace, we demonstrate that OTrace's
-technical affordances can provide more confident, scalable regulatory oversight
-when combined with complementary legal mechanisms.</p>
+covert-accountability, which addresses the risk from adversaries that may act
+dishonestly but nevertheless face potential identification and legal
+consequences. As a concrete instance of this design approach, we present the
+OTrace protocol, designed to provide traceable, accountable, consumer-control
+in third-party data sharing ecosystems. OTrace empowers consumers with the
+knowledge of who has their data, what it is being used for, what consent or
+other legal terms apply, and whom it is being shared with. By applying our
+alignment framework, we demonstrate that OTrace's technical affordances can
+provide more confident, scalable regulatory oversight when combined with
+complementary legal mechanisms.</p>
   </details>
 </div>
 
@@ -2827,98 +2915,6 @@ private vehicle-specific data compared to a centralized neural FF control. Our
 results underscore the potential of FL-based neural FF control to enable
 privacy-preserving learning in multi-agent control systems, paving the way for
 scalable and efficient autonomous systems applications.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.02549v1">Federated nnU-Net for Privacy-Preserving Medical Image Segmentation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-03-04T12:20:06Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Grzegorz Skorupko, Fotios Avgoustidis, Carlos Martín-Isla, Lidia Garrucho, Dimitri A. Kessler, Esmeralda Ruiz Pujadas, Oliver Díaz, Maciej Bobowicz, Katarzyna Gwoździewicz, Xavier Bargalló, Paulius Jaruševičius, Kaisar Kushibar, Karim Lekadir</p>
-    <p><b>Summary:</b> The nnU-Net framework has played a crucial role in medical image segmentation
-and has become the gold standard in multitudes of applications targeting
-different diseases, organs, and modalities. However, so far it has been used
-primarily in a centralized approach where the data collected from hospitals are
-stored in one center and used to train the nnU-Net. This centralized approach
-has various limitations, such as leakage of sensitive patient information and
-violation of patient privacy. Federated learning is one of the approaches to
-train a segmentation model in a decentralized manner that helps preserve
-patient privacy. In this paper, we propose FednnU-Net, a federated learning
-extension of nnU-Net. We introduce two novel federated learning methods to the
-nnU-Net framework - Federated Fingerprint Extraction (FFE) and Asymmetric
-Federated Averaging (AsymFedAvg) - and experimentally show their consistent
-performance for breast, cardiac and fetal segmentation using 6 datasets
-representing samples from 18 institutions. Additionally, to further promote
-research and deployment of decentralized training in privacy constrained
-institutions, we make our plug-n-play framework public. The source-code is
-available at https://github.com/faildeny/FednnUNet .</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.02455v1">Privacy Preservation Techniques (PPTs) in IoT Systems: A Scoping Review
-  and Future Directions</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-03-04T10:03:45Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Emmanuel Alalade, Ashraf Matrawy</p>
-    <p><b>Summary:</b> Privacy preservation in Internet of Things (IoT) systems requires the use of
-privacy-enhancing technologies (PETs) built from innovative technologies such
-as cryptography and artificial intelligence (AI) to create techniques called
-privacy preservation techniques (PPTs). These PPTs achieve various privacy
-goals and address different privacy concerns by mitigating potential privacy
-threats within IoT systems. This study carried out a scoping review of
-different types of PPTs used in previous research works on IoT systems between
-2010 and early 2023 to further explore the advantages of privacy preservation
-in these systems. This scoping review looks at privacy goals, possible
-technologies used for building PET, the integration of PPTs into the computing
-layer of the IoT architecture, different IoT applications in which PPTs are
-deployed, and the different privacy types addressed by these techniques within
-IoT systems. Key findings, such as the prominent privacy goal and privacy type
-in IoT, are discussed in this survey, along with identified research gaps that
-could inform future endeavors in privacy research and benefit the privacy
-research community and other stakeholders in IoT systems.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.02132v1">Video-DPRP: A Differentially Private Approach for Visual
-  Privacy-Preserving Video Human Activity Recognition</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2025-03-03T23:43:12Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Allassan Tchangmena A Nken, Susan Mckeever, Peter Corcoran, Ihsan Ullah</p>
-    <p><b>Summary:</b> Considerable effort has been made in privacy-preserving video human activity
-recognition (HAR). Two primary approaches to ensure privacy preservation in
-Video HAR are differential privacy (DP) and visual privacy. Techniques
-enforcing DP during training provide strong theoretical privacy guarantees but
-offer limited capabilities for visual privacy assessment. Conversely methods,
-such as low-resolution transformations, data obfuscation and adversarial
-networks, emphasize visual privacy but lack clear theoretical privacy
-assurances. In this work, we focus on two main objectives: (1) leveraging DP
-properties to develop a model-free approach for visual privacy in videos and
-(2) evaluating our proposed technique using both differential privacy and
-visual privacy assessments on HAR tasks. To achieve goal (1), we introduce
-Video-DPRP: a Video-sample-wise Differentially Private Random Projection
-framework for privacy-preserved video reconstruction for HAR. By using random
-projections, noise matrices and right singular vectors derived from the
-singular value decomposition of videos, Video-DPRP reconstructs DP videos using
-privacy parameters ($\epsilon,\delta$) while enabling visual privacy
-assessment. For goal (2), using UCF101 and HMDB51 datasets, we compare
-Video-DPRP's performance on activity recognition with traditional DP methods,
-and state-of-the-art (SOTA) visual privacy-preserving techniques. Additionally,
-we assess its effectiveness in preserving privacy-related attributes such as
-facial features, gender, and skin color, using the PA-HMDB and VISPR datasets.
-Video-DPRP combines privacy-preservation from both a DP and visual privacy
-perspective unlike SOTA methods that typically address only one of these
-aspects.</p>
   </details>
 </div>
 
