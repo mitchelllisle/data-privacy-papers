@@ -3210,5 +3210,44 @@
       "cs.CR",
       "cs.CY"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.20464v1",
+    "title" : "Modelling Privacy Compliance in Cross-border Data Transfers with\n  Bigraphs",
+    "summary" : "Advancements in information technology have led to the sharing of users' data\nacross borders, raising privacy concerns, particularly when destination\ncountries lack adequate protection measures. Regulations like the European\nGeneral Data Protection Regulation (GDPR) govern international data transfers,\nimposing significant fines on companies failing to comply. To achieve\ncompliance, we propose a privacy framework based on Milner's Bigraphical\nReactive Systems (BRSs), a formalism modelling spatial and non-spatial\nrelationships between entities. BRSs evolve over time via user-specified\nrewriting rules, defined algebraically and diagrammatically. In this paper, we\nrely on diagrammatic notations, enabling adoption by end-users and privacy\nexperts without formal modelling backgrounds. The framework comprises\npredefined privacy reaction rules modelling GDPR requirements for international\ndata transfers, properties expressed in Computation Tree Logic (CTL) to\nautomatically verify these requirements with a model checker and sorting\nschemes to statically ensure models are well-formed. We demonstrate the\nframework's applicability by modelling WhatsApp's privacy policies.",
+    "updated" : "2025-03-26T11:50:55Z",
+    "published" : "2025-03-26T11:50:55Z",
+    "authors" : [
+      {
+        "name" : "Ebtihal Althubiti"
+      },
+      {
+        "name" : "Michele Sevegnani"
+      }
+    ],
+    "categories" : [
+      "cs.SE"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.20326v1",
+    "title" : "Modality-Independent Brain Lesion Segmentation with Privacy-aware\n  Continual Learning",
+    "summary" : "Traditional brain lesion segmentation models for multi-modal MRI are\ntypically tailored to specific pathologies, relying on datasets with predefined\nmodalities. Adapting to new MRI modalities or pathologies often requires\ntraining separate models, which contrasts with how medical professionals\nincrementally expand their expertise by learning from diverse datasets over\ntime. Inspired by this human learning process, we propose a unified\nsegmentation model capable of sequentially learning from multiple datasets with\nvarying modalities and pathologies. Our approach leverages a privacy-aware\ncontinual learning framework that integrates a mixture-of-experts mechanism and\ndual knowledge distillation to mitigate catastrophic forgetting while not\ncompromising performance on newly encountered datasets. Extensive experiments\nacross five diverse brain MRI datasets and four dataset sequences demonstrate\nthe effectiveness of our framework in maintaining a single adaptable model,\ncapable of handling varying hospital protocols, imaging modalities, and disease\ntypes. Compared to widely used privacy-aware continual learning methods such as\nLwF, SI, EWC, and MiB, our method achieves an average Dice score improvement of\napproximately 11%. Our framework represents a significant step toward more\nversatile and practical brain lesion segmentation models, with implementation\navailable at \\href{https://github.com/xmindflow/BrainCL}{GitHub}.",
+    "updated" : "2025-03-26T08:53:41Z",
+    "published" : "2025-03-26T08:53:41Z",
+    "authors" : [
+      {
+        "name" : "Yousef Sadegheih"
+      },
+      {
+        "name" : "Pratibha Kumari"
+      },
+      {
+        "name" : "Dorit Merhof"
+      }
+    ],
+    "categories" : [
+      "eess.IV"
+    ]
   }
 ]
