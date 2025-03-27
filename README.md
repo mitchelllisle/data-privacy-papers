@@ -2,6 +2,65 @@
 <h2>2025-03</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.20464v1">Modelling Privacy Compliance in Cross-border Data Transfers with
+  Bigraphs</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
+  <p><b>Published on:</b> 2025-03-26T11:50:55Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ebtihal Althubiti, Michele Sevegnani</p>
+    <p><b>Summary:</b> Advancements in information technology have led to the sharing of users' data
+across borders, raising privacy concerns, particularly when destination
+countries lack adequate protection measures. Regulations like the European
+General Data Protection Regulation (GDPR) govern international data transfers,
+imposing significant fines on companies failing to comply. To achieve
+compliance, we propose a privacy framework based on Milner's Bigraphical
+Reactive Systems (BRSs), a formalism modelling spatial and non-spatial
+relationships between entities. BRSs evolve over time via user-specified
+rewriting rules, defined algebraically and diagrammatically. In this paper, we
+rely on diagrammatic notations, enabling adoption by end-users and privacy
+experts without formal modelling backgrounds. The framework comprises
+predefined privacy reaction rules modelling GDPR requirements for international
+data transfers, properties expressed in Computation Tree Logic (CTL) to
+automatically verify these requirements with a model checker and sorting
+schemes to statically ensure models are well-formed. We demonstrate the
+framework's applicability by modelling WhatsApp's privacy policies.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.20326v1">Modality-Independent Brain Lesion Segmentation with Privacy-aware
+  Continual Learning</a></h3>
+  
+  <p><b>Published on:</b> 2025-03-26T08:53:41Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yousef Sadegheih, Pratibha Kumari, Dorit Merhof</p>
+    <p><b>Summary:</b> Traditional brain lesion segmentation models for multi-modal MRI are
+typically tailored to specific pathologies, relying on datasets with predefined
+modalities. Adapting to new MRI modalities or pathologies often requires
+training separate models, which contrasts with how medical professionals
+incrementally expand their expertise by learning from diverse datasets over
+time. Inspired by this human learning process, we propose a unified
+segmentation model capable of sequentially learning from multiple datasets with
+varying modalities and pathologies. Our approach leverages a privacy-aware
+continual learning framework that integrates a mixture-of-experts mechanism and
+dual knowledge distillation to mitigate catastrophic forgetting while not
+compromising performance on newly encountered datasets. Extensive experiments
+across five diverse brain MRI datasets and four dataset sequences demonstrate
+the effectiveness of our framework in maintaining a single adaptable model,
+capable of handling varying hospital protocols, imaging modalities, and disease
+types. Compared to widely used privacy-aware continual learning methods such as
+LwF, SI, EWC, and MiB, our method achieves an average Dice score improvement of
+approximately 11%. Our framework represents a significant step toward more
+versatile and practical brain lesion segmentation models, with implementation
+available at \href{https://github.com/xmindflow/BrainCL}{GitHub}.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2503.19872v1">NickPay, an Auditable, Privacy-Preserving, Nickname-Based Payment System</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2025-03-25T17:36:54Z</p>
@@ -2848,73 +2907,6 @@ particular group. We compared the results with three state-of-the-art synthetic
 data generator models in terms of utility, privacy, and fairness across four
 different datasets. We found that the proposed model exhibits a more balanced
 trade-off among utility, privacy, and fairness.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.02862v1">Privacy and Accuracy-Aware AI/ML Model Deduplication</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
-  <p><b>Published on:</b> 2025-03-04T18:40:38Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Hong Guan, Lei Yu, Lixi Zhou, Li Xiong, Kanchan Chowdhury, Lulu Xie, Xusheng Xiao, Jia Zou</p>
-    <p><b>Summary:</b> With the growing adoption of privacy-preserving machine learning algorithms,
-such as Differentially Private Stochastic Gradient Descent (DP-SGD), training
-or fine-tuning models on private datasets has become increasingly prevalent.
-This shift has led to the need for models offering varying privacy guarantees
-and utility levels to satisfy diverse user requirements. However, managing
-numerous versions of large models introduces significant operational
-challenges, including increased inference latency, higher resource consumption,
-and elevated costs. Model deduplication is a technique widely used by many
-model serving and database systems to support high-performance and low-cost
-inference queries and model diagnosis queries. However, none of the existing
-model deduplication works has considered privacy, leading to unbounded
-aggregation of privacy costs for certain deduplicated models and inefficiencies
-when applied to deduplicate DP-trained models. We formalize the problems of
-deduplicating DP-trained models for the first time and propose a novel privacy-
-and accuracy-aware deduplication mechanism to address the problems. We
-developed a greedy strategy to select and assign base models to target models
-to minimize storage and privacy costs. When deduplicating a target model, we
-dynamically schedule accuracy validations and apply the Sparse Vector Technique
-to reduce the privacy costs associated with private validation data. Compared
-to baselines that do not provide privacy guarantees, our approach improved the
-compression ratio by up to $35\times$ for individual models (including large
-language models and vision transformers). We also observed up to $43\times$
-inference speedup due to the reduction of I/O operations.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.02693v1">Federated Learning for Privacy-Preserving Feedforward Control in
-  Multi-Agent Systems</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Multiagent Systems-662E9B">
-  <p><b>Published on:</b> 2025-03-04T15:07:25Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jakob Weber, Markus Gurtner, Benedikt Alt, Adrian Trachte, Andreas Kugi</p>
-    <p><b>Summary:</b> Feedforward control (FF) is often combined with feedback control (FB) in many
-control systems, improving tracking performance, efficiency, and stability.
-However, designing effective data-driven FF controllers in multi-agent systems
-requires significant data collection, including transferring private or
-proprietary data, which raises privacy concerns and incurs high communication
-costs. Therefore, we propose a novel approach integrating Federated Learning
-(FL) into FF control to address these challenges. This approach enables
-privacy-preserving, communication-efficient, and decentralized continuous
-improvement of FF controllers across multiple agents without sharing personal
-or proprietary data. By leveraging FL, each agent learns a local, neural FF
-controller using its data and contributes only model updates to a global
-aggregation process, ensuring data privacy and scalability. We demonstrate the
-effectiveness of our method in an autonomous driving use case. Therein,
-vehicles equipped with a trajectory-tracking feedback controller are enhanced
-by FL-based neural FF control. Simulations highlight significant improvements
-in tracking performance compared to pure FB control, analogous to model-based
-FF control. We achieve comparable tracking performance without exchanging
-private vehicle-specific data compared to a centralized neural FF control. Our
-results underscore the potential of FL-based neural FF control to enable
-privacy-preserving learning in multi-agent control systems, paving the way for
-scalable and efficient autonomous systems applications.</p>
   </details>
 </div>
 
