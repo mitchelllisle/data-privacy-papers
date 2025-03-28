@@ -3249,5 +3249,146 @@
     "categories" : [
       "eess.IV"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.21159v1",
+    "title" : "Multi-Objective Optimization for Privacy-Utility Balance in\n  Differentially Private Federated Learning",
+    "summary" : "Federated learning (FL) enables collaborative model training across\ndistributed clients without sharing raw data, making it a promising approach\nfor privacy-preserving machine learning. However, ensuring differential privacy\n(DP) in FL presents challenges due to the trade-off between model utility and\nprivacy protection. Clipping gradients before aggregation is a common strategy\nto limit privacy loss, but selecting an optimal clipping norm is non-trivial,\nas excessively high values compromise privacy, while overly restrictive\nclipping degrades model performance. In this work, we propose an adaptive\nclipping mechanism that dynamically adjusts the clipping norm using a\nmulti-objective optimization framework. By integrating privacy and utility\nconsiderations into the optimization objective, our approach balances privacy\npreservation with model accuracy. We theoretically analyze the convergence\nproperties of our method and demonstrate its effectiveness through extensive\nexperiments on MNIST, Fashion-MNIST, and CIFAR-10 datasets. Our results show\nthat adaptive clipping consistently outperforms fixed-clipping baselines,\nachieving improved accuracy under the same privacy constraints. This work\nhighlights the potential of dynamic clipping strategies to enhance\nprivacy-utility trade-offs in differentially private federated learning.",
+    "updated" : "2025-03-27T04:57:05Z",
+    "published" : "2025-03-27T04:57:05Z",
+    "authors" : [
+      {
+        "name" : "Kanishka Ranaweera"
+      },
+      {
+        "name" : "David Smith"
+      },
+      {
+        "name" : "Pubudu N. Pathirana"
+      },
+      {
+        "name" : "Ming Ding"
+      },
+      {
+        "name" : "Thierry Rakotoarivelo"
+      },
+      {
+        "name" : "Aruna Seneviratne"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.21154v1",
+    "title" : "Federated Learning with Differential Privacy: An Utility-Enhanced\n  Approach",
+    "summary" : "Federated learning has emerged as an attractive approach to protect data\nprivacy by eliminating the need for sharing clients' data while reducing\ncommunication costs compared with centralized machine learning algorithms.\nHowever, recent studies have shown that federated learning alone does not\nguarantee privacy, as private data may still be inferred from the uploaded\nparameters to the central server. In order to successfully avoid data leakage,\nadopting differential privacy (DP) in the local optimization process or in the\nlocal update aggregation process has emerged as two feasible ways for achieving\nsample-level or user-level privacy guarantees respectively, in federated\nlearning models. However, compared to their non-private equivalents, these\napproaches suffer from a poor utility. To improve the privacy-utility\ntrade-off, we present a modification to these vanilla differentially private\nalgorithms based on a Haar wavelet transformation step and a novel noise\ninjection scheme that significantly lowers the asymptotic bound of the noise\nvariance. We also present a holistic convergence analysis of our proposed\nalgorithm, showing that our method yields better convergence performance than\nthe vanilla DP algorithms. Numerical experiments on real-world datasets\ndemonstrate that our method outperforms existing approaches in model utility\nwhile maintaining the same privacy guarantees.",
+    "updated" : "2025-03-27T04:48:29Z",
+    "published" : "2025-03-27T04:48:29Z",
+    "authors" : [
+      {
+        "name" : "Kanishka Ranaweera"
+      },
+      {
+        "name" : "Dinh C. Nguyen"
+      },
+      {
+        "name" : "Pubudu N. Pathirana"
+      },
+      {
+        "name" : "David Smith"
+      },
+      {
+        "name" : "Ming Ding"
+      },
+      {
+        "name" : "Thierry Rakotoarivelo"
+      },
+      {
+        "name" : "Aruna Seneviratne"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.21071v1",
+    "title" : "Purifying Approximate Differential Privacy with Randomized\n  Post-processing",
+    "summary" : "We propose a framework to convert $(\\varepsilon, \\delta)$-approximate\nDifferential Privacy (DP) mechanisms into $(\\varepsilon, 0)$-pure DP\nmechanisms, a process we call ``purification''. This algorithmic technique\nleverages randomized post-processing with calibrated noise to eliminate the\n$\\delta$ parameter while preserving utility. By combining the tighter utility\nbounds and computational efficiency of approximate DP mechanisms with the\nstronger guarantees of pure DP, our approach achieves the best of both worlds.\nWe illustrate the applicability of this framework in various settings,\nincluding Differentially Private Empirical Risk Minimization (DP-ERM),\ndata-dependent DP mechanisms such as Propose-Test-Release (PTR), and query\nrelease tasks. To the best of our knowledge, this is the first work to provide\na systematic method for transforming approximate DP into pure DP while\nmaintaining competitive accuracy and computational efficiency.",
+    "updated" : "2025-03-27T01:10:40Z",
+    "published" : "2025-03-27T01:10:40Z",
+    "authors" : [
+      {
+        "name" : "Yingyu Lin"
+      },
+      {
+        "name" : "Erchi Wang"
+      },
+      {
+        "name" : "Yi-An Ma"
+      },
+      {
+        "name" : "Yu-Xiang Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.21010v1",
+    "title" : "Privacy in Immersive Extended Reality: Exploring User Perceptions,\n  Concerns, and Coping Strategies",
+    "summary" : "Extended Reality (XR) technology is changing online interactions, but its\ngranular data collection sensors may be more invasive to user privacy than web,\nmobile, and the Internet of Things technologies. Despite an increased interest\nin studying developers' concerns about XR device privacy, user perceptions have\nrarely been addressed. We surveyed 464 XR users to assess their awareness,\nconcerns, and coping strategies around XR data in 18 scenarios. Our findings\ndemonstrate that many factors, such as data types and sensitivity, affect\nusers' perceptions of privacy in XR. However, users' limited awareness of XR\nsensors' granular data collection capabilities, such as involuntary body\nsignals of emotional responses, restricted the range of privacy-protective\nstrategies they used. Our results highlight a need to enhance users' awareness\nof data privacy threats in XR, design privacy-choice interfaces tailored to XR\nenvironments, and develop transparent XR data practices.",
+    "updated" : "2025-03-26T21:58:19Z",
+    "published" : "2025-03-26T21:58:19Z",
+    "authors" : [
+      {
+        "name" : "Hilda Hadan"
+      },
+      {
+        "name" : "Derrick M. Wang"
+      },
+      {
+        "name" : "Lennart E. Nacke"
+      },
+      {
+        "name" : "Leah Zhang-Kennedy"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.20846v1",
+    "title" : "Generating Synthetic Data with Formal Privacy Guarantees: State of the\n  Art and the Road Ahead",
+    "summary" : "Privacy-preserving synthetic data offers a promising solution to harness\nsegregated data in high-stakes domains where information is compartmentalized\nfor regulatory, privacy, or institutional reasons. This survey provides a\ncomprehensive framework for understanding the landscape of privacy-preserving\nsynthetic data, presenting the theoretical foundations of generative models and\ndifferential privacy followed by a review of state-of-the-art methods across\ntabular data, images, and text. Our synthesis of evaluation approaches\nhighlights the fundamental trade-off between utility for down-stream tasks and\nprivacy guarantees, while identifying critical research gaps: the lack of\nrealistic benchmarks representing specialized domains and insufficient\nempirical evaluations required to contextualise formal guarantees.\n  Through empirical analysis of four leading methods on five real-world\ndatasets from specialized domains, we demonstrate significant performance\ndegradation under realistic privacy constraints ($\\epsilon \\leq 4$), revealing\na substantial gap between results reported on general domain benchmarks and\nperformance on domain-specific data. %Our findings highlight key challenges\nincluding unaccounted privacy leakage, insufficient empirical verification of\nformal guarantees, and a critical deficit of realistic benchmarks. These\nchallenges underscore the need for robust evaluation frameworks, standardized\nbenchmarks for specialized domains, and improved techniques to address the\nunique requirements of privacy-sensitive fields such that this technology can\ndeliver on its considerable potential.",
+    "updated" : "2025-03-26T16:06:33Z",
+    "published" : "2025-03-26T16:06:33Z",
+    "authors" : [
+      {
+        "name" : "Viktor Schlegel"
+      },
+      {
+        "name" : "Anil A Bharath"
+      },
+      {
+        "name" : "Zilong Zhao"
+      },
+      {
+        "name" : "Kevin Yee"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CL",
+      "cs.CV"
+    ]
   }
 ]
