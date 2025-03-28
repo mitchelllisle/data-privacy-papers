@@ -2,6 +2,151 @@
 <h2>2025-03</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.21159v1">Multi-Objective Optimization for Privacy-Utility Balance in
+  Differentially Private Federated Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-03-27T04:57:05Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Kanishka Ranaweera, David Smith, Pubudu N. Pathirana, Ming Ding, Thierry Rakotoarivelo, Aruna Seneviratne</p>
+    <p><b>Summary:</b> Federated learning (FL) enables collaborative model training across
+distributed clients without sharing raw data, making it a promising approach
+for privacy-preserving machine learning. However, ensuring differential privacy
+(DP) in FL presents challenges due to the trade-off between model utility and
+privacy protection. Clipping gradients before aggregation is a common strategy
+to limit privacy loss, but selecting an optimal clipping norm is non-trivial,
+as excessively high values compromise privacy, while overly restrictive
+clipping degrades model performance. In this work, we propose an adaptive
+clipping mechanism that dynamically adjusts the clipping norm using a
+multi-objective optimization framework. By integrating privacy and utility
+considerations into the optimization objective, our approach balances privacy
+preservation with model accuracy. We theoretically analyze the convergence
+properties of our method and demonstrate its effectiveness through extensive
+experiments on MNIST, Fashion-MNIST, and CIFAR-10 datasets. Our results show
+that adaptive clipping consistently outperforms fixed-clipping baselines,
+achieving improved accuracy under the same privacy constraints. This work
+highlights the potential of dynamic clipping strategies to enhance
+privacy-utility trade-offs in differentially private federated learning.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.21154v1">Federated Learning with Differential Privacy: An Utility-Enhanced
+  Approach</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-03-27T04:48:29Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Kanishka Ranaweera, Dinh C. Nguyen, Pubudu N. Pathirana, David Smith, Ming Ding, Thierry Rakotoarivelo, Aruna Seneviratne</p>
+    <p><b>Summary:</b> Federated learning has emerged as an attractive approach to protect data
+privacy by eliminating the need for sharing clients' data while reducing
+communication costs compared with centralized machine learning algorithms.
+However, recent studies have shown that federated learning alone does not
+guarantee privacy, as private data may still be inferred from the uploaded
+parameters to the central server. In order to successfully avoid data leakage,
+adopting differential privacy (DP) in the local optimization process or in the
+local update aggregation process has emerged as two feasible ways for achieving
+sample-level or user-level privacy guarantees respectively, in federated
+learning models. However, compared to their non-private equivalents, these
+approaches suffer from a poor utility. To improve the privacy-utility
+trade-off, we present a modification to these vanilla differentially private
+algorithms based on a Haar wavelet transformation step and a novel noise
+injection scheme that significantly lowers the asymptotic bound of the noise
+variance. We also present a holistic convergence analysis of our proposed
+algorithm, showing that our method yields better convergence performance than
+the vanilla DP algorithms. Numerical experiments on real-world datasets
+demonstrate that our method outperforms existing approaches in model utility
+while maintaining the same privacy guarantees.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.21071v1">Purifying Approximate Differential Privacy with Randomized
+  Post-processing</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
+  <p><b>Published on:</b> 2025-03-27T01:10:40Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yingyu Lin, Erchi Wang, Yi-An Ma, Yu-Xiang Wang</p>
+    <p><b>Summary:</b> We propose a framework to convert $(\varepsilon, \delta)$-approximate
+Differential Privacy (DP) mechanisms into $(\varepsilon, 0)$-pure DP
+mechanisms, a process we call ``purification''. This algorithmic technique
+leverages randomized post-processing with calibrated noise to eliminate the
+$\delta$ parameter while preserving utility. By combining the tighter utility
+bounds and computational efficiency of approximate DP mechanisms with the
+stronger guarantees of pure DP, our approach achieves the best of both worlds.
+We illustrate the applicability of this framework in various settings,
+including Differentially Private Empirical Risk Minimization (DP-ERM),
+data-dependent DP mechanisms such as Propose-Test-Release (PTR), and query
+release tasks. To the best of our knowledge, this is the first work to provide
+a systematic method for transforming approximate DP into pure DP while
+maintaining competitive accuracy and computational efficiency.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.21010v1">Privacy in Immersive Extended Reality: Exploring User Perceptions,
+  Concerns, and Coping Strategies</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2025-03-26T21:58:19Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Hilda Hadan, Derrick M. Wang, Lennart E. Nacke, Leah Zhang-Kennedy</p>
+    <p><b>Summary:</b> Extended Reality (XR) technology is changing online interactions, but its
+granular data collection sensors may be more invasive to user privacy than web,
+mobile, and the Internet of Things technologies. Despite an increased interest
+in studying developers' concerns about XR device privacy, user perceptions have
+rarely been addressed. We surveyed 464 XR users to assess their awareness,
+concerns, and coping strategies around XR data in 18 scenarios. Our findings
+demonstrate that many factors, such as data types and sensitivity, affect
+users' perceptions of privacy in XR. However, users' limited awareness of XR
+sensors' granular data collection capabilities, such as involuntary body
+signals of emotional responses, restricted the range of privacy-protective
+strategies they used. Our results highlight a need to enhance users' awareness
+of data privacy threats in XR, design privacy-choice interfaces tailored to XR
+environments, and develop transparent XR data practices.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.20846v1">Generating Synthetic Data with Formal Privacy Guarantees: State of the
+  Art and the Road Ahead</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2025-03-26T16:06:33Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Viktor Schlegel, Anil A Bharath, Zilong Zhao, Kevin Yee</p>
+    <p><b>Summary:</b> Privacy-preserving synthetic data offers a promising solution to harness
+segregated data in high-stakes domains where information is compartmentalized
+for regulatory, privacy, or institutional reasons. This survey provides a
+comprehensive framework for understanding the landscape of privacy-preserving
+synthetic data, presenting the theoretical foundations of generative models and
+differential privacy followed by a review of state-of-the-art methods across
+tabular data, images, and text. Our synthesis of evaluation approaches
+highlights the fundamental trade-off between utility for down-stream tasks and
+privacy guarantees, while identifying critical research gaps: the lack of
+realistic benchmarks representing specialized domains and insufficient
+empirical evaluations required to contextualise formal guarantees.
+  Through empirical analysis of four leading methods on five real-world
+datasets from specialized domains, we demonstrate significant performance
+degradation under realistic privacy constraints ($\epsilon \leq 4$), revealing
+a substantial gap between results reported on general domain benchmarks and
+performance on domain-specific data. %Our findings highlight key challenges
+including unaccounted privacy leakage, insufficient empirical verification of
+formal guarantees, and a critical deficit of realistic benchmarks. These
+challenges underscore the need for robust evaluation frameworks, standardized
+benchmarks for specialized domains, and improved techniques to address the
+unique requirements of privacy-sensitive fields such that this technology can
+deliver on its considerable potential.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2503.20464v1">Modelling Privacy Compliance in Cross-border Data Transfers with
   Bigraphs</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
@@ -2751,162 +2896,6 @@ privacy and can scale to broader IoT ecosystems, including smart homes and
 industry. As data continues to shape our digital landscape, our research
 underscores the critical need to maintain privacy and user control at the
 forefront of technological progress.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.03267v1">Quantum-Inspired Privacy-Preserving Federated Learning Framework for
-  Secure Dementia Classification</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
-  <p><b>Published on:</b> 2025-03-05T08:49:31Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Gazi Tanbhir, Md. Farhan Shahriyar</p>
-    <p><b>Summary:</b> Dementia, a neurological disorder impacting millions globally, presents
-significant challenges in diagnosis and patient care. With the rise of privacy
-concerns and security threats in healthcare, federated learning (FL) has
-emerged as a promising approach to enable collaborative model training across
-decentralized datasets without exposing sensitive patient information. However,
-FL remains vulnerable to advanced security breaches such as gradient inversion
-and eavesdropping attacks. This paper introduces a novel framework that
-integrates federated learning with quantum-inspired encryption techniques for
-dementia classification, emphasizing privacy preservation and security.
-Leveraging quantum key distribution (QKD), the framework ensures secure
-transmission of model weights, protecting against unauthorized access and
-interception during training. The methodology utilizes a convolutional neural
-network (CNN) for dementia classification, with federated training conducted
-across distributed healthcare nodes, incorporating QKD-encrypted weight sharing
-to secure the aggregation process. Experimental evaluations conducted on MRI
-data from the OASIS dataset demonstrate that the proposed framework achieves
-identical accuracy levels to a baseline model while enhancing data security and
-reducing loss by almost 1% compared to the classical baseline model. The
-framework offers significant implications for democratizing access to AI-driven
-dementia diagnostics in low- and middle-income countries, addressing critical
-resource and privacy constraints. This work contributes a robust, scalable, and
-secure federated learning solution for healthcare applications, paving the way
-for broader adoption of quantum-inspired techniques in AI-driven medical
-research.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.03146v1">PriFFT: Privacy-preserving Federated Fine-tuning of Large Language
-  Models via Function Secret Sharing</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-03-05T03:41:57Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zhichao You, Xuewen Dong, Ke Cheng, Xutong Mu, Jiaxuan Fu, Shiyang Ma, Qiang Qu, Yulong Shen</p>
-    <p><b>Summary:</b> Fine-tuning large language models (LLMs) raises privacy concerns due to the
-risk of exposing sensitive training data. Federated learning (FL) mitigates
-this risk by keeping training samples on local devices, but recent studies show
-that adversaries can still infer private information from model updates in FL.
-Additionally, LLM parameters are typically shared publicly during federated
-fine-tuning, while developers are often reluctant to disclose these parameters,
-posing further security challenges. Inspired by the above problems, we propose
-PriFFT, a privacy-preserving federated fine-tuning mechanism, to protect both
-the model updates and parameters. In PriFFT, clients and the server share model
-inputs and parameters by secret sharing, performing secure fine-tuning on
-shared values without accessing plaintext data. Due to considerable LLM
-parameters, privacy-preserving federated fine-tuning invokes complex secure
-calculations and requires substantial communication and computation resources.
-To optimize the efficiency of privacy-preserving federated fine-tuning of LLMs,
-we introduce function secret-sharing protocols for various operations,
-including reciprocal calculation, tensor products, natural exponentiation,
-softmax, hyperbolic tangent, and dropout. The proposed protocols achieve up to
-4.02X speed improvement and reduce 7.19X communication overhead compared to the
-implementation based on existing secret sharing methods. Besides, PriFFT
-achieves a 2.23X speed improvement and reduces 4.08X communication overhead in
-privacy-preserving fine-tuning without accuracy drop compared to the existing
-secret sharing methods.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.03087v1">"Watch My Health, Not My Data": Understanding Perceptions, Barriers,
-  Emotional Impact, & Coping Strategies Pertaining to IoT Privacy and Security
-  in Health Monitoring for Older Adults</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2025-03-05T01:04:13Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Suleiman Saka, Sanchari Das</p>
-    <p><b>Summary:</b> The proliferation of "Internet of Things (IoT)" provides older adults with
-critical support for "health monitoring" and independent living, yet
-significant concerns about security and privacy persist. In this paper, we
-report on these issues through a two-phase user study, including a survey (N =
-22) and semi-structured interviews (n = 9) with adults aged 65+. We found that
-while 81.82% of our participants are aware of security features like
-"two-factor authentication (2FA)" and encryption, 63.64% express serious
-concerns about unauthorized access to sensitive health data. Only 13.64% feel
-confident in existing protections, citing confusion over "data sharing
-policies" and frustration with "complex security settings" which lead to
-distrust and anxiety. To cope, our participants adopt various strategies, such
-as relying on family or professional support and limiting feature usage leading
-to disengagement. Thus, we recommend "adaptive security mechanisms," simplified
-interfaces, and real-time transparency notifications to foster trust and ensure
-"privacy and security by design" in IoT health systems for older adults.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.03043v1">Leveraging Randomness in Model and Data Partitioning for Privacy
-  Amplification</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-03-04T22:49:59Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Andy Dong, Wei-Ning Chen, Ayfer Ozgur</p>
-    <p><b>Summary:</b> We study how inherent randomness in the training process -- where each sample
-(or client in federated learning) contributes only to a randomly selected
-portion of training -- can be leveraged for privacy amplification. This
-includes (1) data partitioning, where a sample participates in only a subset of
-training iterations, and (2) model partitioning, where a sample updates only a
-subset of the model parameters. We apply our framework to model parallelism in
-federated learning, where each client updates a randomly selected subnetwork to
-reduce memory and computational overhead, and show that existing methods, e.g.
-model splitting or dropout, provide a significant privacy amplification gain
-not captured by previous privacy analysis techniques. Additionally, we
-introduce Balanced Iteration Subsampling, a new data partitioning method where
-each sample (or client) participates in a fixed number of training iterations.
-We show that this method yields stronger privacy amplification than Poisson
-(i.i.d.) sampling of data (or clients). Our results demonstrate that randomness
-in the training process, which is structured rather than i.i.d. and interacts
-with data in complex ways, can be systematically leveraged for significant
-privacy amplification.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.02968v1">Privacy-Preserving Fair Synthetic Tabular Data</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-03-04T19:51:00Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Fatima J. Sarmin, Atiquer R. Rahman, Christopher J. Henry, Noman Mohammed</p>
-    <p><b>Summary:</b> Sharing of tabular data containing valuable but private information is
-limited due to legal and ethical issues. Synthetic data could be an alternative
-solution to this sharing problem, as it is artificially generated by machine
-learning algorithms and tries to capture the underlying data distribution.
-However, machine learning models are not free from memorization and may
-introduce biases, as they rely on training data. Producing synthetic data that
-preserves privacy and fairness while maintaining utility close to the real data
-is a challenging task. This research simultaneously addresses both the privacy
-and fairness aspects of synthetic data, an area not explored by other studies.
-In this work, we present PF-WGAN, a privacy-preserving, fair synthetic tabular
-data generator based on the WGAN-GP model. We have modified the original
-WGAN-GP by adding privacy and fairness constraints forcing it to produce
-privacy-preserving fair data. This approach will enable the publication of
-datasets that protect individual's privacy and remain unbiased toward any
-particular group. We compared the results with three state-of-the-art synthetic
-data generator models in terms of utility, privacy, and fairness across four
-different datasets. We found that the proposed model exhibits a more balanced
-trade-off among utility, privacy, and fairness.</p>
   </details>
 </div>
 
