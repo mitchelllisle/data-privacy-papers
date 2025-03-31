@@ -3390,5 +3390,79 @@
       "cs.CL",
       "cs.CV"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.22379v1",
+    "title" : "Spend Your Budget Wisely: Towards an Intelligent Distribution of the\n  Privacy Budget in Differentially Private Text Rewriting",
+    "summary" : "The task of $\\textit{Differentially Private Text Rewriting}$ is a class of\ntext privatization techniques in which (sensitive) input textual documents are\n$\\textit{rewritten}$ under Differential Privacy (DP) guarantees. The motivation\nbehind such methods is to hide both explicit and implicit identifiers that\ncould be contained in text, while still retaining the semantic meaning of the\noriginal text, thus preserving utility. Recent years have seen an uptick in\nresearch output in this field, offering a diverse array of word-, sentence-,\nand document-level DP rewriting methods. Common to these methods is the\nselection of a privacy budget (i.e., the $\\varepsilon$ parameter), which\ngoverns the degree to which a text is privatized. One major limitation of\nprevious works, stemming directly from the unique structure of language itself,\nis the lack of consideration of $\\textit{where}$ the privacy budget should be\nallocated, as not all aspects of language, and therefore text, are equally\nsensitive or personal. In this work, we are the first to address this\nshortcoming, asking the question of how a given privacy budget can be\nintelligently and sensibly distributed amongst a target document. We construct\nand evaluate a toolkit of linguistics- and NLP-based methods used to allocate a\nprivacy budget to constituent tokens in a text document. In a series of privacy\nand utility experiments, we empirically demonstrate that given the same privacy\nbudget, intelligent distribution leads to higher privacy levels and more\npositive trade-offs than a naive distribution of $\\varepsilon$. Our work\nhighlights the intricacies of text privatization with DP, and furthermore, it\ncalls for further work on finding more efficient ways to maximize the\nprivatization benefits offered by DP in text rewriting.",
+    "updated" : "2025-03-28T12:33:46Z",
+    "published" : "2025-03-28T12:33:46Z",
+    "authors" : [
+      {
+        "name" : "Stephen Meisenbacher"
+      },
+      {
+        "name" : "Chaeeun Joy Lee"
+      },
+      {
+        "name" : "Florian Matthes"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.22232v1",
+    "title" : "Privacy-Preserving Secure Neighbor Discovery for Wireless Networks",
+    "summary" : "Traditional Neighbor Discovery (ND) and Secure Neighbor Discovery (SND) are\nkey elements for network functionality. SND is a hard problem, satisfying not\nonly typical security properties (authentication, integrity) but also\nverification of direct communication, which involves distance estimation based\non time measurements and device coordinates. Defeating relay attacks, also\nknown as \"wormholes\", leading to stealthy Byzantine links and significant\ndegradation of communication and adversarial control, is key in many wireless\nnetworked systems. However, SND is not concerned with privacy; it necessitates\nrevealing the identity and location of the device(s) participating in the\nprotocol execution. This can be a deterrent for deployment, especially\ninvolving user-held devices in the emerging Internet of Things (IoT) enabled\nsmart environments. To address this challenge, we present a novel\nPrivacy-Preserving Secure Neighbor Discovery (PP-SND) protocol, enabling\ndevices to perform SND without revealing their actual identities and locations,\neffectively decoupling discovery from the exposure of sensitive information. We\nuse Homomorphic Encryption (HE) for computing device distances without\nrevealing their actual coordinates, as well as employing a pseudonymous device\nauthentication to hide identities while preserving communication integrity.\nPP-SND provides SND [1] along with pseudonymity, confidentiality, and\nunlinkability. Our presentation here is not specific to one wireless\ntechnology, and we assess the performance of the protocols (cryptographic\noverhead) on a Raspberry Pi 4 and provide a security and privacy analysis.",
+    "updated" : "2025-03-28T08:27:47Z",
+    "published" : "2025-03-28T08:27:47Z",
+    "authors" : [
+      {
+        "name" : "Ahmed Mohamed Hussain"
+      },
+      {
+        "name" : "Panos Papadimitratos"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.NI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.22161v1",
+    "title" : "Traffic Modeling for Network Security and Privacy: Challenges Ahead",
+    "summary" : "Traffic analysis using machine learning and deep learning models has made\nsignificant progress over the past decades. These models address various tasks\nin network security and privacy, including detection of anomalies and attacks,\ncountering censorship, etc. They also reveal privacy risks to users as\ndemonstrated by the research on LLM token inference as well as fingerprinting\n(and counter-fingerprinting) of user-visiting websites, IoT devices, and\ndifferent applications. However, challenges remain in securing our networks\nfrom threats and attacks. After briefly reviewing the tasks and recent ML\nmodels in network security and privacy, we discuss the challenges that lie\nahead.",
+    "updated" : "2025-03-28T05:54:17Z",
+    "published" : "2025-03-28T05:54:17Z",
+    "authors" : [
+      {
+        "name" : "Dinil Mon Divakaran"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.22010v1",
+    "title" : "Towards Privacy-Preserving Revocation of Verifiable Credentials with\n  Time-Flexibility",
+    "summary" : "Self-Sovereign Identity (SSI) is an emerging paradigm for authentication and\ncredential presentation that aims to give users control over their data and\nprevent any kind of tracking by (even trusted) third parties. In the European\nUnion, the EUDI Digital Identity wallet is about to become a concrete\nimplementation of this paradigm. However, a debate is still ongoing, partially\nreflecting some aspects that are not yet consolidated in the scientific state\nof the art. Among these, an effective, efficient, and privacy-preserving\nimplementation of verifiable credential revocation remains a subject of\ndiscussion. In this work-in-progress paper, we propose the basis of a novel\nmethod that customizes the use of anonymous hierarchical identity-based\nencryption to restrict the Verifier access to the temporal authorizations\ngranted by the Holder. This way, the Issuer cannot track the Holder's\ncredential presentations, and the Verifier cannot check revocation information\nbeyond what is permitted by the Holder.",
+    "updated" : "2025-03-27T21:58:32Z",
+    "published" : "2025-03-27T21:58:32Z",
+    "authors" : [
+      {
+        "name" : "Francesco Buccafurri"
+      },
+      {
+        "name" : "Carmen Licciardi"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
