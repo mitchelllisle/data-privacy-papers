@@ -2,6 +2,122 @@
 <h2>2025-03</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.22379v1">Spend Your Budget Wisely: Towards an Intelligent Distribution of the
+  Privacy Budget in Differentially Private Text Rewriting</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2025-03-28T12:33:46Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Stephen Meisenbacher, Chaeeun Joy Lee, Florian Matthes</p>
+    <p><b>Summary:</b> The task of $\textit{Differentially Private Text Rewriting}$ is a class of
+text privatization techniques in which (sensitive) input textual documents are
+$\textit{rewritten}$ under Differential Privacy (DP) guarantees. The motivation
+behind such methods is to hide both explicit and implicit identifiers that
+could be contained in text, while still retaining the semantic meaning of the
+original text, thus preserving utility. Recent years have seen an uptick in
+research output in this field, offering a diverse array of word-, sentence-,
+and document-level DP rewriting methods. Common to these methods is the
+selection of a privacy budget (i.e., the $\varepsilon$ parameter), which
+governs the degree to which a text is privatized. One major limitation of
+previous works, stemming directly from the unique structure of language itself,
+is the lack of consideration of $\textit{where}$ the privacy budget should be
+allocated, as not all aspects of language, and therefore text, are equally
+sensitive or personal. In this work, we are the first to address this
+shortcoming, asking the question of how a given privacy budget can be
+intelligently and sensibly distributed amongst a target document. We construct
+and evaluate a toolkit of linguistics- and NLP-based methods used to allocate a
+privacy budget to constituent tokens in a text document. In a series of privacy
+and utility experiments, we empirically demonstrate that given the same privacy
+budget, intelligent distribution leads to higher privacy levels and more
+positive trade-offs than a naive distribution of $\varepsilon$. Our work
+highlights the intricacies of text privatization with DP, and furthermore, it
+calls for further work on finding more efficient ways to maximize the
+privatization benefits offered by DP in text rewriting.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.22232v1">Privacy-Preserving Secure Neighbor Discovery for Wireless Networks</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
+  <p><b>Published on:</b> 2025-03-28T08:27:47Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ahmed Mohamed Hussain, Panos Papadimitratos</p>
+    <p><b>Summary:</b> Traditional Neighbor Discovery (ND) and Secure Neighbor Discovery (SND) are
+key elements for network functionality. SND is a hard problem, satisfying not
+only typical security properties (authentication, integrity) but also
+verification of direct communication, which involves distance estimation based
+on time measurements and device coordinates. Defeating relay attacks, also
+known as "wormholes", leading to stealthy Byzantine links and significant
+degradation of communication and adversarial control, is key in many wireless
+networked systems. However, SND is not concerned with privacy; it necessitates
+revealing the identity and location of the device(s) participating in the
+protocol execution. This can be a deterrent for deployment, especially
+involving user-held devices in the emerging Internet of Things (IoT) enabled
+smart environments. To address this challenge, we present a novel
+Privacy-Preserving Secure Neighbor Discovery (PP-SND) protocol, enabling
+devices to perform SND without revealing their actual identities and locations,
+effectively decoupling discovery from the exposure of sensitive information. We
+use Homomorphic Encryption (HE) for computing device distances without
+revealing their actual coordinates, as well as employing a pseudonymous device
+authentication to hide identities while preserving communication integrity.
+PP-SND provides SND [1] along with pseudonymity, confidentiality, and
+unlinkability. Our presentation here is not specific to one wireless
+technology, and we assess the performance of the protocols (cryptographic
+overhead) on a Raspberry Pi 4 and provide a security and privacy analysis.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.22161v1">Traffic Modeling for Network Security and Privacy: Challenges Ahead</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-03-28T05:54:17Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Dinil Mon Divakaran</p>
+    <p><b>Summary:</b> Traffic analysis using machine learning and deep learning models has made
+significant progress over the past decades. These models address various tasks
+in network security and privacy, including detection of anomalies and attacks,
+countering censorship, etc. They also reveal privacy risks to users as
+demonstrated by the research on LLM token inference as well as fingerprinting
+(and counter-fingerprinting) of user-visiting websites, IoT devices, and
+different applications. However, challenges remain in securing our networks
+from threats and attacks. After briefly reviewing the tasks and recent ML
+models in network security and privacy, we discuss the challenges that lie
+ahead.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2503.22010v1">Towards Privacy-Preserving Revocation of Verifiable Credentials with
+  Time-Flexibility</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-03-27T21:58:32Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Francesco Buccafurri, Carmen Licciardi</p>
+    <p><b>Summary:</b> Self-Sovereign Identity (SSI) is an emerging paradigm for authentication and
+credential presentation that aims to give users control over their data and
+prevent any kind of tracking by (even trusted) third parties. In the European
+Union, the EUDI Digital Identity wallet is about to become a concrete
+implementation of this paradigm. However, a debate is still ongoing, partially
+reflecting some aspects that are not yet consolidated in the scientific state
+of the art. Among these, an effective, efficient, and privacy-preserving
+implementation of verifiable credential revocation remains a subject of
+discussion. In this work-in-progress paper, we propose the basis of a novel
+method that customizes the use of anonymous hierarchical identity-based
+encryption to restrict the Verifier access to the temporal authorizations
+granted by the Holder. This way, the Issuer cannot track the Holder's
+credential presentations, and the Verifier cannot check revocation information
+beyond what is permitted by the Holder.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2503.21159v1">Multi-Objective Optimization for Privacy-Utility Balance in
   Differentially Private Federated Learning</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
@@ -2780,122 +2896,6 @@ state-of-the-art language models and diverse datasets, achieving comparable and
 even better trade-off between utility and privacy compared to existing methods.
 This work highlights the potential of dchi-stencil to set a new standard for
 privacy-preserving NLP in modern, high-risk applications.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.03587v1">"You don't need a university degree to comprehend data protection this
-  way": LLM-Powered Interactive Privacy Policy Assessment</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2025-03-05T15:22:35Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Vincent Freiberger, Arthur Fleig, Erik Buchmann</p>
-    <p><b>Summary:</b> Protecting online privacy requires users to engage with and comprehend
-website privacy policies, but many policies are difficult and tedious to read.
-We present the first qualitative user study on Large Language Model
-(LLM)-driven privacy policy assessment. To this end, we build and evaluate an
-LLM-based privacy policy assessment browser extension, which helps users
-understand the essence of a lengthy, complex privacy policy while browsing. The
-tool integrates a dashboard and an LLM chat. In our qualitative user study
-(N=22), we evaluate usability, understandability of the information our tool
-provides, and its impacts on awareness. While providing a comprehensible quick
-overview and a chat for in-depth discussion improves privacy awareness, users
-note issues with building trust in the tool. From our insights, we derive
-important design implications to guide future policy analysis tools.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.03539v1">Data Sharing, Privacy and Security Considerations in the Energy Sector:
-  A Review from Technical Landscape to Regulatory Specifications</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-03-05T14:23:56Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shiliang Zhang, Sabita Maharjan, Lee Andrew Bygrave, Shui Yu</p>
-    <p><b>Summary:</b> Decarbonization, decentralization and digitalization are the three key
-elements driving the twin energy transition. The energy system is evolving to a
-more data driven ecosystem, leading to the need of communication and storage of
-large amount of data of different resolution from the prosumers and other
-stakeholders in the energy ecosystem. While the energy system is certainly
-advancing, this paradigm shift is bringing in new privacy and security issues
-related to collection, processing and storage of data - not only from the
-technical dimension, but also from the regulatory perspective. Understanding
-data privacy and security in the evolving energy system, regarding regulatory
-compliance, is an immature field of research. Contextualized knowledge of how
-related issues are regulated is still in its infancy, and the practical and
-technical basis for the regulatory framework for data privacy and security is
-not clear. To fill this gap, this paper conducts a comprehensive review of the
-data-related issues for the energy system by integrating both technical and
-regulatory dimensions. We start by reviewing open-access data, data
-communication and data-processing techniques for the energy system, and use it
-as the basis to connect the analysis of data-related issues from the integrated
-perspective. We classify the issues into three categories: (i) data-sharing
-among energy end users and stakeholders (ii) privacy of end users, and (iii)
-cyber security, and then explore these issues from a regulatory perspective. We
-analyze the evolution of related regulations, and introduce the relevant
-regulatory initiatives for the categorized issues in terms of regulatory
-definitions, concepts, principles, rights and obligations in the context of
-energy systems. Finally, we provide reflections on the gaps that still exist,
-and guidelines for regulatory frameworks for a truly participatory energy
-system.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.03506v1">Rethinking Synthetic Data definitions: A privacy driven approach</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-03-05T13:54:13Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Vibeke Binz Vallevik, Serena Elizabeth Marshall, Aleksandar Babic, Jan Franz Nygaard</p>
-    <p><b>Summary:</b> Synthetic data is gaining traction as a cost-effective solution for the
-increasing data demands of AI development and can be generated either from
-existing knowledge or derived data captured from real-world events. The source
-of the synthetic data generation and the technique used significantly impacts
-its residual privacy risk and therefore its opportunity for sharing.
-Traditional classification of synthetic data types no longer fit the newer
-generation techniques and there is a need to better align the classification
-with practical needs. We suggest a new way of grouping synthetic data types
-that better supports privacy evaluations to aid regulatory policymaking. Our
-novel classification provides flexibility to new advancements like deep
-generative methods and offers a more practical framework for future
-applications.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.03428v1">Privacy is All You Need: Revolutionizing Wearable Health Data with
-  Advanced PETs</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2025-03-05T12:01:22Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Karthik Barma, Seshu Babu Barma</p>
-    <p><b>Summary:</b> In a world where data is the new currency, wearable health devices offer
-unprecedented insights into daily life, continuously monitoring vital signs and
-metrics. However, this convenience raises privacy concerns, as these devices
-collect sensitive data that can be misused or breached. Traditional measures
-often fail due to real-time data processing needs and limited device power.
-Users also lack awareness and control over data sharing and usage. We propose a
-Privacy-Enhancing Technology (PET) framework for wearable devices, integrating
-federated learning, lightweight cryptographic methods, and selectively deployed
-blockchain technology. The blockchain acts as a secure ledger triggered only
-upon data transfer requests, granting users real-time notifications and
-control. By dismantling data monopolies, this approach returns data sovereignty
-to individuals. Through real-world applications like secure medical data
-sharing, privacy-preserving fitness tracking, and continuous health monitoring,
-our framework reduces privacy risks by up to 70 percent while preserving data
-utility and performance. This innovation sets a new benchmark for wearable
-privacy and can scale to broader IoT ecosystems, including smart homes and
-industry. As data continues to shape our digital landscape, our research
-underscores the critical need to maintain privacy and user control at the
-forefront of technological progress.</p>
   </details>
 </div>
 
