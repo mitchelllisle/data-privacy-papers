@@ -3464,5 +3464,260 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.24089v1",
+    "title" : "Initial State Privacy of Nonlinear Systems on Riemannian Manifolds",
+    "summary" : "In this paper, we investigate initial state privacy protection for\ndiscrete-time nonlinear closed systems. By capturing Riemannian geometric\nstructures inherent in such privacy challenges, we refine the concept of\ndifferential privacy through the introduction of an initial state adjacency set\nbased on Riemannian distances. A new differential privacy condition is\nformulated using incremental output boundedness, enabling the design of\ntime-varying Laplacian noise to achieve specified privacy guarantees. The\nproposed framework extends beyond initial state protection to also cover system\nparameter privacy, which is demonstrated as a special application.",
+    "updated" : "2025-03-31T13:42:18Z",
+    "published" : "2025-03-31T13:42:18Z",
+    "authors" : [
+      {
+        "name" : "Le Liu"
+      },
+      {
+        "name" : "Yu Kawano"
+      },
+      {
+        "name" : "Antai Xie"
+      },
+      {
+        "name" : "Ming Cao"
+      }
+    ],
+    "categories" : [
+      "eess.SY",
+      "cs.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.23903v1",
+    "title" : "Privacy Preservation for Statistical Input in Dynamical Systems",
+    "summary" : "This paper addresses the challenge of privacy preservation for statistical\ninputs in dynamical systems. Motivated by an autonomous building application,\nwe formulate a privacy preservation problem for statistical inputs in linear\ntime-invariant systems. What makes this problem widely applicable is that the\ninputs, rather than being assumed to be deterministic, follow a probability\ndistribution, inherently embedding privacy-sensitive information that requires\nprotection. This formulation also presents a technical challenge as\nconventional differential privacy mechanisms are not directly applicable.\nThrough rigorous analysis, we develop strategy to achieve $(0, \\delta)$\ndifferential privacy through adding noise. Finally, the effectiveness of our\nmethods is demonstrated by revisiting the autonomous building application.",
+    "updated" : "2025-03-31T09:54:09Z",
+    "published" : "2025-03-31T09:54:09Z",
+    "authors" : [
+      {
+        "name" : "Le Liu"
+      },
+      {
+        "name" : "Yu Kawano"
+      },
+      {
+        "name" : "Ming Cao"
+      }
+    ],
+    "categories" : [
+      "eess.SY",
+      "cs.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.23726v1",
+    "title" : "PDSL: Privacy-Preserved Decentralized Stochastic Learning with\n  Heterogeneous Data Distribution",
+    "summary" : "In the paradigm of decentralized learning, a group of agents collaborates to\nlearn a global model using distributed datasets without a central server.\nHowever, due to the heterogeneity of the local data across the different\nagents, learning a robust global model is rather challenging. Moreover, the\ncollaboration of the agents relies on their gradient information exchange,\nwhich poses a risk of privacy leakage. In this paper, to address these issues,\nwe propose PDSL, a novel privacy-preserved decentralized stochastic learning\nalgorithm with heterogeneous data distribution. On one hand, we innovate in\nutilizing the notion of Shapley values such that each agent can precisely\nmeasure the contributions of its heterogeneous neighbors to the global learning\ngoal; on the other hand, we leverage the notion of differential privacy to\nprevent each agent from suffering privacy leakage when it contributes gradient\ninformation to its neighbors. We conduct both solid theoretical analysis and\nextensive experiments to demonstrate the efficacy of our PDSL algorithm in\nterms of privacy preservation and convergence.",
+    "updated" : "2025-03-31T04:58:05Z",
+    "published" : "2025-03-31T04:58:05Z",
+    "authors" : [
+      {
+        "name" : "Lina Wang"
+      },
+      {
+        "name" : "Yunsheng Yuan"
+      },
+      {
+        "name" : "Chunxiao Wang"
+      },
+      {
+        "name" : "Feng Li"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.23533v1",
+    "title" : "To See or Not to See: A Privacy Threat Model for Digital Forensics in\n  Crime Investigation",
+    "summary" : "Digital forensics is a cornerstone of modern crime investigations, yet it\nraises significant privacy concerns due to the collection, processing, and\nstorage of digital evidence. Despite that, privacy threats in digital forensics\ncrime investigations often remain underexplored, thereby leading to potential\ngaps in forensic practices and regulatory compliance, which may then escalate\ninto harming the freedoms of natural persons. With this clear motivation, the\npresent paper applies the SPADA methodology for threat modelling with the goal\nof incorporating privacy-oriented threat modelling in digital forensics. As a\nresult, we identify a total of 298 privacy threats that may affect digital\nforensics processes through crime investigations. Furthermore, we demonstrate\nan unexplored feature on how SPADA assists in handling domain-dependency during\nthreat elicitation. This yields a second list of privacy threats that are\nuniversally applicable to any domain. We then present a comprehensive and\nsystematic privacy threat model for digital forensics in crime investigation.\nMoreover, we discuss some of the challenges about validating privacy threats in\nthis domain, particularly given the variability of legal frameworks across\njurisdictions. We ultimately propose our privacy threat model as a tool for\nensuring ethical and legally compliant investigative practices.",
+    "updated" : "2025-03-30T17:34:35Z",
+    "published" : "2025-03-30T17:34:35Z",
+    "authors" : [
+      {
+        "name" : "Mario Raciti"
+      },
+      {
+        "name" : "Simone Di Mauro"
+      },
+      {
+        "name" : "Dimitri Van Landuyt"
+      },
+      {
+        "name" : "Giampaolo Bella"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.23444v1",
+    "title" : "The Processing goes far beyond \"the app\" -- Privacy issues of\n  decentralized Digital Contact Tracing using the example of the German\n  Corona-Warn-App (CWA)",
+    "summary" : "Since SARS-CoV-2 started spreading in Europe in early 2020, there has been a\nstrong call for technical solutions to combat or contain the pandemic, with\ncontact tracing apps at the heart of the debates. The EU's General Data\nProtection Regulation (GDPR) requires controllers to carry out a data\nprotection impact assessment (DPIA) where their data processing is likely to\nresult in a high risk to the rights and freedoms (Art. 35 GDPR). A DPIA is a\nstructured risk analysis that identifies and evaluates possible consequences of\ndata processing relevant to fundamental rights in advance and describes the\nmeasures envisaged to address these risks or expresses the inability to do so.\nBased on the Standard Data Protection Model (SDM), we present the results of a\nscientific and methodologically clear DPIA of the German German Corona-Warn-App\n(CWA). It shows that even a decentralized architecture involves numerous\nserious weaknesses and risks, including larger ones still left unaddressed in\ncurrent implementations. It also found that none of the proposed designs\noperates on anonymous data or ensures proper anonymisation. It also showed that\ninformed consent would not be a legitimate legal ground for the processing. For\nall points where data subjects' rights are still not sufficiently safeguarded,\nwe briefly outline solutions.",
+    "updated" : "2025-03-30T13:48:15Z",
+    "published" : "2025-03-30T13:48:15Z",
+    "authors" : [
+      {
+        "name" : "Rainer Rehak"
+      },
+      {
+        "name" : "Christian R. Kuehne"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.CR",
+      "K.4; J.3; H.1; J.4; K.5"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.23292v1",
+    "title" : "FedCAPrivacy: Privacy-Preserving Heterogeneous Federated Learning with\n  Anonymous Adaptive Clustering",
+    "summary" : "Federated learning (FL) is a distributed machine learning paradigm enabling\nmultiple clients to train a model collaboratively without exposing their local\ndata. Among FL schemes, clustering is an effective technique addressing the\nheterogeneity issue (i.e., differences in data distribution and computational\nability affect training performance and effectiveness) via grouping\nparticipants with similar computational resources or data distribution into\nclusters. However, intra-cluster data exchange poses privacy risks, while\ncluster selection and adaptation introduce challenges that may affect overall\nperformance. To address these challenges, this paper introduces anonymous\nadaptive clustering, a novel approach that simultaneously enhances privacy\nprotection and boosts training efficiency. Specifically, an oblivious\nshuffle-based anonymization method is designed to safeguard user identities and\nprevent the aggregation server from inferring similarities through clustering.\nAdditionally, to improve performance, we introduce an iteration-based adaptive\nfrequency decay strategy, which leverages variability in clustering\nprobabilities to optimize training dynamics. With these techniques, we build\nthe FedCAPrivacy; experiments show that FedCAPrivacy achieves ~7X improvement\nin terms of performance while maintaining high privacy.",
+    "updated" : "2025-03-30T03:16:54Z",
+    "published" : "2025-03-30T03:16:54Z",
+    "authors" : [
+      {
+        "name" : "Yunan Wei"
+      },
+      {
+        "name" : "Shengnan Zhao"
+      },
+      {
+        "name" : "Chuan Zhao"
+      },
+      {
+        "name" : "Zhe Liu"
+      },
+      {
+        "name" : "Zhenxiang Chen"
+      },
+      {
+        "name" : "Minghao Zhao"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.23026v1",
+    "title" : "Federated Semantic Learning for Privacy-preserving Cross-domain\n  Recommendation",
+    "summary" : "In the evolving landscape of recommender systems, the challenge of\neffectively conducting privacy-preserving Cross-Domain Recommendation (CDR),\nespecially under strict non-overlapping constraints, has emerged as a key\nfocus. Despite extensive research has made significant progress, several\nlimitations still exist: 1) Previous semantic-based methods fail to deeply\nexploit rich textual information, since they quantize the text into codes,\nlosing its original rich semantics. 2) The current solution solely relies on\nthe text-modality, while the synergistic effects with the ID-modality are\nignored. 3) Existing studies do not consider the impact of irrelevant semantic\nfeatures, leading to inaccurate semantic representation. To address these\nchallenges, we introduce federated semantic learning and devise FFMSR as our\nsolution. For Limitation 1, we locally learn items'semantic encodings from\ntheir original texts by a multi-layer semantic encoder, and then cluster them\non the server to facilitate the transfer of semantic knowledge between domains.\nTo tackle Limitation 2, we integrate both ID and Text modalities on the\nclients, and utilize them to learn different aspects of items. To handle\nLimitation 3, a Fast Fourier Transform (FFT)-based filter and a gating\nmechanism are developed to alleviate the impact of irrelevant semantic\ninformation in the local model. We conduct extensive experiments on two\nreal-world datasets, and the results demonstrate the superiority of our FFMSR\nmethod over other SOTA methods. Our source codes are publicly available at:\nhttps://github.com/Sapphire-star/FFMSR.",
+    "updated" : "2025-03-29T09:37:11Z",
+    "published" : "2025-03-29T09:37:11Z",
+    "authors" : [
+      {
+        "name" : "Ziang Lu"
+      },
+      {
+        "name" : "Lei Guo"
+      },
+      {
+        "name" : "Xu Yu"
+      },
+      {
+        "name" : "Zhiyong Cheng"
+      },
+      {
+        "name" : "Xiaohui Han"
+      },
+      {
+        "name" : "Lei Zhu"
+      }
+    ],
+    "categories" : [
+      "cs.IR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.22993v1",
+    "title" : "Calculating Connection vs. Risk: Understanding How Youth Negotiate\n  Digital Privacy and Security with Peers Online",
+    "summary" : "Youth, while tech-savvy and highly active on social media, are still\nvulnerable to online privacy and security risks. Therefore, it is critical to\nunderstand how they negotiate and manage social connections versus protecting\nthemselves in online contexts. In this work, we conducted a thematic analysis\nof 1,318 private conversations on Instagram from 149 youth aged 13-21 to\nunderstand the digital privacy and security topics they discussed, if and how\nthey engaged in risky privacy behaviors, and how they balanced the benefits and\nrisks (i.e., privacy calculus) of making these decisions. Overall, youth were\nforthcoming when broaching a wide range of topics on digital privacy and\nsecurity, ranging from password management and account access challenges to\nshared experiences of being victims of privacy risks. However, they also openly\nengaged in risky behaviors, such as sharing personal account information with\npeers and even perpetrating privacy and security risks against others.\nNonetheless, we found many of these behaviors could be explained by the unique\n\"privacy calculus\" of youth, where they often prioritized social benefits over\npotential risks; for instance, youth often shared account credentials with\npeers to foster social connection and affirmation. As such, we provide a\nnuanced understanding of youth decision-making regarding digital security and\nprivacy, highlighting both positive behaviors, tensions, and points of concern.\nWe encourage future research to continue to challenge the potentially untrue\nnarratives regarding youth and their digital privacy and security to unpack the\nnuance of their privacy calculus that may differ from that of adults.",
+    "updated" : "2025-03-29T06:54:46Z",
+    "published" : "2025-03-29T06:54:46Z",
+    "authors" : [
+      {
+        "name" : "Mamtaj Akter"
+      },
+      {
+        "name" : "Jinkyung Katie Park"
+      },
+      {
+        "name" : "Campbell Headrick"
+      },
+      {
+        "name" : "Xinru Page"
+      },
+      {
+        "name" : "Pamela J. Wisniewski"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.22232v2",
+    "title" : "Privacy-Preserving Secure Neighbor Discovery for Wireless Networks",
+    "summary" : "Traditional Neighbor Discovery (ND) and Secure Neighbor Discovery (SND) are\nkey elements for network functionality. SND is a hard problem, satisfying not\nonly typical security properties (authentication, integrity) but also\nverification of direct communication, which involves distance estimation based\non time measurements and device coordinates. Defeating relay attacks, also\nknown as \"wormholes\", leading to stealthy Byzantine links and significant\ndegradation of communication and adversarial control, is key in many wireless\nnetworked systems. However, SND is not concerned with privacy; it necessitates\nrevealing the identity and location of the device(s) participating in the\nprotocol execution. This can be a deterrent for deployment, especially\ninvolving user-held devices in the emerging Internet of Things (IoT) enabled\nsmart environments. To address this challenge, we present a novel\nPrivacy-Preserving Secure Neighbor Discovery (PP-SND) protocol, enabling\ndevices to perform SND without revealing their actual identities and locations,\neffectively decoupling discovery from the exposure of sensitive information. We\nuse Homomorphic Encryption (HE) for computing device distances without\nrevealing their actual coordinates, as well as employing a pseudonymous device\nauthentication to hide identities while preserving communication integrity.\nPP-SND provides SND [1] along with pseudonymity, confidentiality, and\nunlinkability. Our presentation here is not specific to one wireless\ntechnology, and we assess the performance of the protocols (cryptographic\noverhead) on a Raspberry Pi 4 and provide a security and privacy analysis.",
+    "updated" : "2025-03-31T17:56:29Z",
+    "published" : "2025-03-28T08:27:47Z",
+    "authors" : [
+      {
+        "name" : "Ahmed Mohamed Hussain"
+      },
+      {
+        "name" : "Panos Papadimitratos"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.NI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.22749v1",
+    "title" : "Adaptive Clipping for Privacy-Preserving Few-Shot Learning: Enhancing\n  Generalization with Limited Data",
+    "summary" : "In the era of data-driven machine-learning applications, privacy concerns and\nthe scarcity of labeled data have become paramount challenges. These challenges\nare particularly pronounced in the domain of few-shot learning, where the\nability to learn from limited labeled data is crucial. Privacy-preserving\nfew-shot learning algorithms have emerged as a promising solution to address\nsuch pronounced challenges. However, it is well-known that privacy-preserving\ntechniques often lead to a drop in utility due to the fundamental trade-off\nbetween data privacy and model performance. To enhance the utility of\nprivacy-preserving few-shot learning methods, we introduce a novel approach\ncalled Meta-Clip. This technique is specifically designed for meta-learning\nalgorithms, including Differentially Private (DP) model-agnostic meta-learning,\nDP-Reptile, and DP-MetaSGD algorithms, with the objective of balancing data\nprivacy preservation with learning capacity maximization. By dynamically\nadjusting clipping thresholds during the training process, our Adaptive\nClipping method provides fine-grained control over the disclosure of sensitive\ninformation, mitigating overfitting on small datasets and significantly\nimproving the generalization performance of meta-learning models. Through\ncomprehensive experiments on diverse benchmark datasets, we demonstrate the\neffectiveness of our approach in minimizing utility degradation, showcasing a\nsuperior privacy-utility trade-off compared to existing privacy-preserving\ntechniques. The adoption of Adaptive Clipping represents a substantial step\nforward in the field of privacy-preserving few-shot learning, empowering the\ndevelopment of secure and accurate models for real-world applications,\nespecially in scenarios where there are limited data availability.",
+    "updated" : "2025-03-27T05:14:18Z",
+    "published" : "2025-03-27T05:14:18Z",
+    "authors" : [
+      {
+        "name" : "Kanishka Ranaweera"
+      },
+      {
+        "name" : "Dinh C. Nguyen"
+      },
+      {
+        "name" : "Pubudu N. Pathirana"
+      },
+      {
+        "name" : "David Smith"
+      },
+      {
+        "name" : "Ming Ding"
+      },
+      {
+        "name" : "Thierry Rakotoarivelo"
+      },
+      {
+        "name" : "Aruna Seneviratne"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
   }
 ]
