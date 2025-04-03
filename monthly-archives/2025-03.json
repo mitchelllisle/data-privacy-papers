@@ -3719,5 +3719,63 @@
       "cs.LG",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.00282v1",
+    "title" : "Federated Learning for Cross-Domain Data Privacy: A Distributed Approach\n  to Secure Collaboration",
+    "summary" : "This paper proposes a data privacy protection framework based on federated\nlearning, which aims to realize effective cross-domain data collaboration under\nthe premise of ensuring data privacy through distributed learning. Federated\nlearning greatly reduces the risk of privacy breaches by training the model\nlocally on each client and sharing only model parameters rather than raw data.\nThe experiment verifies the high efficiency and privacy protection ability of\nfederated learning under different data sources through the simulation of\nmedical, financial, and user data. The results show that federated learning can\nnot only maintain high model performance in a multi-domain data environment but\nalso ensure effective protection of data privacy. The research in this paper\nprovides a new technical path for cross-domain data collaboration and promotes\nthe application of large-scale data analysis and machine learning while\nprotecting privacy.",
+    "updated" : "2025-03-31T23:04:45Z",
+    "published" : "2025-03-31T23:04:45Z",
+    "authors" : [
+      {
+        "name" : "Yiwei Zhang"
+      },
+      {
+        "name" : "Jie Liu"
+      },
+      {
+        "name" : "Jiawei Wang"
+      },
+      {
+        "name" : "Lu Dai"
+      },
+      {
+        "name" : "Fan Guo"
+      },
+      {
+        "name" : "Guohui Cai"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.01029v1",
+    "title" : "Who is Responsible When AI Fails? Mapping Causes, Entities, and\n  Consequences of AI Privacy and Ethical Incidents",
+    "summary" : "The rapid growth of artificial intelligence (AI) technologies has changed\ndecision-making in many fields. But, it has also raised major privacy and\nethical concerns. However, many AI incidents taxonomies and guidelines for\nacademia, industry, and government lack grounding in real-world incidents. We\nanalyzed 202 real-world AI privacy and ethical incidents. This produced a\ntaxonomy that classifies incident types across AI lifecycle stages. It accounts\nfor contextual factors such as causes, responsible entities, disclosure\nsources, and impacts. Our findings show insufficient incident reporting from AI\ndevelopers and users. Many incidents are caused by poor organizational\ndecisions and legal non-compliance. Only a few legal actions and corrective\nmeasures exist, while risk-mitigation efforts are limited. Our taxonomy\ncontributes a structured approach in reporting of future AI incidents. Our\nfindings demonstrate that current AI governance frameworks are inadequate. We\nurgently need child-specific protections and AI policies on social media. They\nmust moderate and reduce the spread of harmful AI-generated content. Our\nresearch provides insights for policymakers and practitioners, which lets them\ndesign ethical AI. It also support AI incident detection and risk management.\nFinally, it guides AI policy development. Improved policies will protect people\nfrom harmful AI applications and support innovation in AI systems.",
+    "updated" : "2025-03-28T21:57:38Z",
+    "published" : "2025-03-28T21:57:38Z",
+    "authors" : [
+      {
+        "name" : "Hilda Hadan"
+      },
+      {
+        "name" : "Reza Hadi Mogavi"
+      },
+      {
+        "name" : "Leah Zhang-Kennedy"
+      },
+      {
+        "name" : "Lennart E. Nacke"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.AI",
+      "cs.DB",
+      "cs.HC"
+    ]
   }
 ]
