@@ -1,5 +1,245 @@
 
+<h2>2025-04</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.01820v1">Antenna Selection for Enhancing Privacy in Radar-Based Vital Sign
+  Monitoring Systems</a></h3>
+  
+  <p><b>Published on:</b> 2025-04-02T15:28:07Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zhihao Tao, Athina P. Petropulu</p>
+    <p><b>Summary:</b> Radar-based vital sign monitoring (VSM) systems have become valuable for
+non-contact health monitoring by detecting physiological activities, such as
+respiration and heartbeat, remotely. However, the conventional phased array
+used in VSM is vulnerable to privacy breaches, as an eavesdropper can extract
+sensitive vital sign information by analyzing the reflected radar signals. In
+this paper, we propose a novel approach to protect privacy in radar-based VSM
+by modifying the radar transmitter hardware, specifically by strategically
+selecting the transmit antennas from the available antennas in the transmit
+array. By dynamically selecting which antennas connect or disconnect to the
+radio frequency chain, the transmitter introduces additional phase noise to the
+radar echoes, generating false frequencies in the power spectrum of the
+extracted phases at the eavesdropper's receiver. The antenna activation pattern
+is designed to maximize the variance of the phases introduced by antenna
+selection, which effectively makes the false frequencies dominate the spectrum,
+obscuring the actual vital sign frequencies. Meanwhile, the authorized
+receiver, having knowledge of the antenna selection pattern, can compensate for
+the phase noise and accurately extract the vital signs. Numerical experiments
+are conducted to validate the effectiveness of the proposed approach in
+enhancing privacy while maintaining vital sign monitoring.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.00952v1">Personalized Federated Training of Diffusion Models with Privacy
+  Guarantees</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2025-04-01T16:45:26Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Kumar Kshitij Patel, Weitong Zhang, Lingxiao Wang</p>
+    <p><b>Summary:</b> The scarcity of accessible, compliant, and ethically sourced data presents a
+considerable challenge to the adoption of artificial intelligence (AI) in
+sensitive fields like healthcare, finance, and biomedical research.
+Furthermore, access to unrestricted public datasets is increasingly constrained
+due to rising concerns over privacy, copyright, and competition. Synthetic data
+has emerged as a promising alternative, and diffusion models -- a cutting-edge
+generative AI technology -- provide an effective solution for generating
+high-quality and diverse synthetic data. In this paper, we introduce a novel
+federated learning framework for training diffusion models on decentralized
+private datasets. Our framework leverages personalization and the inherent
+noise in the forward diffusion process to produce high-quality samples while
+ensuring robust differential privacy guarantees. Our experiments show that our
+framework outperforms non-collaborative training methods, particularly in
+settings with high data heterogeneity, and effectively reduces biases and
+imbalances in synthetic data, resulting in fairer downstream models.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.00919v1">Nonparametric spectral density estimation using interactive mechanisms
+  under local differential privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36">  
+  <p><b>Published on:</b> 2025-04-01T15:52:50Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Cristina Butucea, Karolina Klockmann, Tatyana Krivobokova</p>
+    <p><b>Summary:</b> We address the problem of nonparametric estimation of the spectral density
+for a centered stationary Gaussian time series under local differential privacy
+constraints. Specifically, we propose new interactive privacy mechanisms for
+three tasks: estimating a single covariance coefficient, estimating the
+spectral density at a fixed frequency, and estimating the entire spectral
+density function. Our approach achieves faster rates through a two-stage
+process: we apply first the Laplace mechanism to the truncated value and then
+use the former privatized sample to gain knowledge on the dependence mechanism
+in the time series. For spectral densities belonging to H\"older and Sobolev
+smoothness classes, we demonstrate that our estimators improve upon the
+non-interactive mechanism of Kroll (2024) for small privacy parameter $\alpha$,
+since the pointwise rates depend on $n\alpha^2$ instead of $n\alpha^4$.
+Moreover, we show that the rate $(n\alpha^4)^{-1}$ is optimal for estimating a
+covariance coefficient with non-interactive mechanisms. However, the $L_2$ rate
+of our interactive estimator is slower than the pointwise rate. We show how to
+use these estimators to provide a bona-fide locally differentially private
+covariance matrix estimator.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.00890v1">Privacy-Preserving Transfer Learning for Community Detection using
+  Locally Distributed Multiple Networks</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-04-01T15:19:07Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xiao Guo, Xuming He, Xiangyu Chang, Shujie Ma</p>
+    <p><b>Summary:</b> This paper develops a new spectral clustering-based method called TransNet
+for transfer learning in community detection of network data. Our goal is to
+improve the clustering performance of the target network using auxiliary source
+networks, which are heterogeneous, privacy-preserved, and locally stored across
+various sources. The edges of each locally stored network are perturbed using
+the randomized response mechanism to achieve differential privacy. Notably, we
+allow the source networks to have distinct privacy-preserving and heterogeneity
+levels as often desired in practice. To better utilize the information from the
+source networks, we propose a novel adaptive weighting method to aggregate the
+eigenspaces of the source networks multiplied by adaptive weights chosen to
+incorporate the effects of privacy and heterogeneity. We propose a
+regularization method that combines the weighted average eigenspace of the
+source networks with the eigenspace of the target network to achieve an optimal
+balance between them. Theoretically, we show that the adaptive weighting method
+enjoys the error-bound-oracle property in the sense that the error bound of the
+estimated eigenspace only depends on informative source networks. We also
+demonstrate that TransNet performs better than the estimator using only the
+target network and the estimator using only the weighted source networks.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.00874v1">P2NIA: Privacy-Preserving Non-Iterative Auditing</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-04-01T15:04:58Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jade Garcia Bourrée, Hadrien Lautraite, Sébastien Gambs, Gilles Tredan, Erwan Le Merrer, Benoît Rottembourg</p>
+    <p><b>Summary:</b> The emergence of AI legislation has increased the need to assess the ethical
+compliance of high-risk AI systems. Traditional auditing methods rely on
+platforms' application programming interfaces (APIs), where responses to
+queries are examined through the lens of fairness requirements. However, such
+approaches put a significant burden on platforms, as they are forced to
+maintain APIs while ensuring privacy, facing the possibility of data leaks.
+This lack of proper collaboration between the two parties, in turn, causes a
+significant challenge to the auditor, who is subject to estimation bias as they
+are unaware of the data distribution of the platform. To address these two
+issues, we present P2NIA, a novel auditing scheme that proposes a mutually
+beneficial collaboration for both the auditor and the platform. Extensive
+experiments demonstrate P2NIA's effectiveness in addressing both issues. In
+summary, our work introduces a privacy-preserving and non-iterative audit
+scheme that enhances fairness assessments using synthetic or local data,
+avoiding the challenges associated with traditional API-based audits.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.00858v1">Whispering Under the Eaves: Protecting User Privacy Against Commercial
+  and LLM-powered Automatic Speech Recognition Systems</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Sound-D91E36">
+  <p><b>Published on:</b> 2025-04-01T14:49:39Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Weifei Jin, Yuxin Cao, Junjie Su, Derui Wang, Yedi Zhang, Minhui Xue, Jie Hao, Jin Song Dong, Yixian Yang</p>
+    <p><b>Summary:</b> The widespread application of automatic speech recognition (ASR) supports
+large-scale voice surveillance, raising concerns about privacy among users. In
+this paper, we concentrate on using adversarial examples to mitigate
+unauthorized disclosure of speech privacy thwarted by potential eavesdroppers
+in speech communications. While audio adversarial examples have demonstrated
+the capability to mislead ASR models or evade ASR surveillance, they are
+typically constructed through time-intensive offline optimization, restricting
+their practicality in real-time voice communication. Recent work overcame this
+limitation by generating universal adversarial perturbations (UAPs) and
+enhancing their transferability for black-box scenarios. However, they
+introduced excessive noise that significantly degrades audio quality and
+affects human perception, thereby limiting their effectiveness in practical
+scenarios. To address this limitation and protect live users' speech against
+ASR systems, we propose a novel framework, AudioShield. Central to this
+framework is the concept of Transferable Universal Adversarial Perturbations in
+the Latent Space (LS-TUAP). By transferring the perturbations to the latent
+space, the audio quality is preserved to a large extent. Additionally, we
+propose target feature adaptation to enhance the transferability of UAPs by
+embedding target text features into the perturbations. Comprehensive evaluation
+on four commercial ASR APIs (Google, Amazon, iFlytek, and Alibaba), three voice
+assistants, two LLM-powered ASR and one NN-based ASR demonstrates the
+protection superiority of AudioShield over existing competitors, and both
+objective and subjective evaluations indicate that AudioShield significantly
+improves the audio quality. Moreover, AudioShield also shows high effectiveness
+in real-time end-to-end scenarios, and demonstrates strong resilience against
+adaptive countermeasures.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.00411v1">Forward Learning with Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-04-01T04:14:53Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mingqian Feng, Zeliang Zhang, Jinyang Jiang, Yijie Peng, Chenliang Xu</p>
+    <p><b>Summary:</b> Differential privacy (DP) in deep learning is a critical concern as it
+ensures the confidentiality of training data while maintaining model utility.
+Existing DP training algorithms provide privacy guarantees by clipping and then
+injecting external noise into sample gradients computed by the backpropagation
+algorithm. Different from backpropagation, forward-learning algorithms based on
+perturbation inherently add noise during the forward pass and utilize
+randomness to estimate the gradients. Although these algorithms are
+non-privatized, the introduction of noise during the forward pass indirectly
+provides internal randomness protection to the model parameters and their
+gradients, suggesting the potential for naturally providing differential
+privacy. In this paper, we propose a \blue{privatized} forward-learning
+algorithm, Differential Private Unified Likelihood Ratio (DP-ULR), and
+demonstrate its differential privacy guarantees. DP-ULR features a novel batch
+sampling operation with rejection, of which we provide theoretical analysis in
+conjunction with classic differential privacy mechanisms. DP-ULR is also
+underpinned by a theoretically guided privacy controller that dynamically
+adjusts noise levels to manage privacy costs in each training step. Our
+experiments indicate that DP-ULR achieves competitive performance compared to
+traditional differential privacy training algorithms based on backpropagation,
+maintaining nearly the same privacy loss limits.</p>
+  </details>
+</div>
+
+
+
 <h2>2025-03</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.00282v1">Federated Learning for Cross-Domain Data Privacy: A Distributed Approach
+  to Secure Collaboration</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-03-31T23:04:45Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yiwei Zhang, Jie Liu, Jiawei Wang, Lu Dai, Fan Guo, Guohui Cai</p>
+    <p><b>Summary:</b> This paper proposes a data privacy protection framework based on federated
+learning, which aims to realize effective cross-domain data collaboration under
+the premise of ensuring data privacy through distributed learning. Federated
+learning greatly reduces the risk of privacy breaches by training the model
+locally on each client and sharing only model parameters rather than raw data.
+The experiment verifies the high efficiency and privacy protection ability of
+federated learning under different data sources through the simulation of
+medical, financial, and user data. The results show that federated learning can
+not only maintain high model performance in a multi-domain data environment but
+also ensure effective protection of data privacy. The research in this paper
+provides a new technical path for cross-domain data collaboration and promotes
+the application of large-scale data analysis and machine learning while
+protecting privacy.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2503.24089v1">Initial State Privacy of Nonlinear Systems on Riemannian Manifolds</a></h3>
@@ -225,6 +465,37 @@ privacy, highlighting both positive behaviors, tensions, and points of concern.
 We encourage future research to continue to challenge the potentially untrue
 narratives regarding youth and their digital privacy and security to unpack the
 nuance of their privacy calculus that may differ from that of adults.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.01029v1">Who is Responsible When AI Fails? Mapping Causes, Entities, and
+  Consequences of AI Privacy and Ethical Incidents</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2025-03-28T21:57:38Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Hilda Hadan, Reza Hadi Mogavi, Leah Zhang-Kennedy, Lennart E. Nacke</p>
+    <p><b>Summary:</b> The rapid growth of artificial intelligence (AI) technologies has changed
+decision-making in many fields. But, it has also raised major privacy and
+ethical concerns. However, many AI incidents taxonomies and guidelines for
+academia, industry, and government lack grounding in real-world incidents. We
+analyzed 202 real-world AI privacy and ethical incidents. This produced a
+taxonomy that classifies incident types across AI lifecycle stages. It accounts
+for contextual factors such as causes, responsible entities, disclosure
+sources, and impacts. Our findings show insufficient incident reporting from AI
+developers and users. Many incidents are caused by poor organizational
+decisions and legal non-compliance. Only a few legal actions and corrective
+measures exist, while risk-mitigation efforts are limited. Our taxonomy
+contributes a structured approach in reporting of future AI incidents. Our
+findings demonstrate that current AI governance frameworks are inadequate. We
+urgently need child-specific protections and AI policies on social media. They
+must moderate and reduce the spread of harmful AI-generated content. Our
+research provides insights for policymakers and practitioners, which lets them
+design ethical AI. It also support AI incident detection and risk management.
+Finally, it guides AI policy development. Improved policies will protect people
+from harmful AI applications and support innovation in AI systems.</p>
   </details>
 </div>
 
@@ -2669,251 +2940,6 @@ parameters, thereby enhancing data privacy. We empirically validate that
 FedRand improves robustness against MIAs compared to relevant baselines while
 achieving accuracy comparable to methods that communicate full LoRA parameters
 across several benchmark datasets.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.07199v1">How Well Can Differential Privacy Be Audited in One Run?</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-03-10T11:32:30Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Amit Keinan, Moshe Shenfeld, Katrina Ligett</p>
-    <p><b>Summary:</b> Recent methods for auditing the privacy of machine learning algorithms have
-improved computational efficiency by simultaneously intervening on multiple
-training examples in a single training run. Steinke et al. (2024) prove that
-one-run auditing indeed lower bounds the true privacy parameter of the audited
-algorithm, and give impressive empirical results. Their work leaves open the
-question of how precisely one-run auditing can uncover the true privacy
-parameter of an algorithm, and how that precision depends on the audited
-algorithm. In this work, we characterize the maximum achievable efficacy of
-one-run auditing and show that one-run auditing can only perfectly uncover the
-true privacy parameters of algorithms whose structure allows the effects of
-individual data elements to be isolated. Our characterization helps reveal how
-and when one-run auditing is still a promising technique for auditing real
-machine learning algorithms, despite these fundamental gaps.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.07048v1">A Failure-Free and Efficient Discrete Laplace Distribution for
-  Differential Privacy in MPC</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-03-10T08:35:16Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ivan Tjuawinata, Jiabo Wang, Mengmeng Yang, Shanxiang Lyu, Huaxiong Wang, Kwok-Yan Lam</p>
-    <p><b>Summary:</b> In an MPC-protected distributed computation, although the use of MPC assures
-data privacy during computation, sensitive information may still be inferred by
-curious MPC participants from the computation output. This can be observed, for
-instance, in the inference attacks on either federated learning or a more
-standard statistical computation with distributed inputs. In this work, we
-address this output privacy issue by proposing a discrete and bounded
-Laplace-inspired perturbation mechanism along with a secure realization of this
-mechanism using MPC. The proposed mechanism strictly adheres to a zero failure
-probability, overcoming the limitation encountered on other existing bounded
-and discrete variants of Laplace perturbation. We provide analyses of the
-proposed differential privacy (DP) perturbation in terms of its privacy and
-utility. Additionally, we designed MPC protocols to implement this mechanism
-and presented performance benchmarks based on our experimental setup. The MPC
-realization of the proposed mechanism exhibits a complexity similar to the
-state-of-the-art discrete Gaussian mechanism, which can be considered an
-alternative with comparable efficiency while providing stronger differential
-privacy guarantee. Moreover, efficiency of the proposed scheme can be further
-enhanced by performing the noise generation offline while leaving the
-perturbation phase online.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.06808v1">Privacy Auditing of Large Language Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-03-09T23:32:15Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ashwinee Panda, Xinyu Tang, Milad Nasr, Christopher A. Choquette-Choo, Prateek Mittal</p>
-    <p><b>Summary:</b> Current techniques for privacy auditing of large language models (LLMs) have
-limited efficacy -- they rely on basic approaches to generate canaries which
-leads to weak membership inference attacks that in turn give loose lower bounds
-on the empirical privacy leakage. We develop canaries that are far more
-effective than those used in prior work under threat models that cover a range
-of realistic settings. We demonstrate through extensive experiments on multiple
-families of fine-tuned LLMs that our approach sets a new standard for detection
-of privacy leakage. For measuring the memorization rate of non-privately
-trained LLMs, our designed canaries surpass prior approaches. For example, on
-the Qwen2.5-0.5B model, our designed canaries achieve $49.6\%$ TPR at $1\%$
-FPR, vastly surpassing the prior approach's $4.2\%$ TPR at $1\%$ FPR. Our
-method can be used to provide a privacy audit of $\varepsilon \approx 1$ for a
-model trained with theoretical $\varepsilon$ of 4. To the best of our
-knowledge, this is the first time that a privacy audit of LLM training has
-achieved nontrivial auditing success in the setting where the attacker cannot
-train shadow models, insert gradient canaries, or access the model at every
-iteration.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.06732v1">Data Efficient Subset Training with Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-03-09T19:05:10Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ninad Jayesh Gandhi, Moparthy Venkata Subrahmanya Sri Harsha</p>
-    <p><b>Summary:</b> Private machine learning introduces a trade-off between the privacy budget
-and training performance. Training convergence is substantially slower and
-extensive hyper parameter tuning is required. Consequently, efficient methods
-to conduct private training of models is thoroughly investigated in the
-literature. To this end, we investigate the strength of the data efficient
-model training methods in the private training setting. We adapt GLISTER
-(Killamsetty et al., 2021b) to the private setting and extensively assess its
-performance. We empirically find that practical choices of privacy budgets are
-too restrictive for data efficient training in the private setting.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.06455v1">Privacy Protection in Prosumer Energy Management Based on Federated
-  Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-03-09T05:29:29Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yunfeng Li, Xiaolin Li Zhitao Li, Gangqiang Li</p>
-    <p><b>Summary:</b> With the booming development of prosumers, there is an urgent need for a
-prosumer energy management system to take full advantage of the flexibility of
-prosumers and take into account the interests of other parties. However,
-building such a system will undoubtedly reveal users' privacy. In this paper,
-by solving the non-independent and identical distribution of data (Non-IID)
-problem in federated learning with federated cluster average(FedClusAvg)
-algorithm, prosumers' information can efficiently participate in the
-intelligent decision making of the system without revealing privacy. In the
-proposed FedClusAvg algorithm, each client performs cluster stratified sampling
-and multiple iterations. Then, the average weight of the parameters of the
-sub-server is determined according to the degree of deviation of the parameter
-from the average parameter. Finally, the sub-server multiple local iterations
-and updates, and then upload to the main server. The advantages of FedClusAvg
-algorithm are the following two parts. First, the accuracy of the model in the
-case of Non-IID is improved through the method of clustering and parameter
-weighted average. Second, local multiple iterations and three-tier framework
-can effectively reduce communication rounds.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.06150v2">Do Fairness Interventions Come at the Cost of Privacy: Evaluations for
-  Binary Classifiers</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-03-08T10:21:21Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Huan Tian, Guangsheng Zhang, Bo Liu, Tianqing Zhu, Ming Ding, Wanlei Zhou</p>
-    <p><b>Summary:</b> While in-processing fairness approaches show promise in mitigating biased
-predictions, their potential impact on privacy leakage remains under-explored.
-We aim to address this gap by assessing the privacy risks of fairness-enhanced
-binary classifiers via membership inference attacks (MIAs) and attribute
-inference attacks (AIAs). Surprisingly, our results reveal that enhancing
-fairness does not necessarily lead to privacy compromises. For example, these
-fairness interventions exhibit increased resilience against MIAs and AIAs. This
-is because fairness interventions tend to remove sensitive information among
-extracted features and reduce confidence scores for the majority of training
-data for fairer predictions. However, during the evaluations, we uncover a
-potential threat mechanism that exploits prediction discrepancies between fair
-and biased models, leading to advanced attack results for both MIAs and AIAs.
-This mechanism reveals potent vulnerabilities of fair models and poses
-significant privacy risks of current fairness methods. Extensive experiments
-across multiple datasets, attack methods, and representative fairness
-approaches confirm our findings and demonstrate the efficacy of the uncovered
-mechanism. Our study exposes the under-explored privacy threats in fairness
-studies, advocating for thorough evaluations of potential security
-vulnerabilities before model deployments.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.06021v1">FedEM: A Privacy-Preserving Framework for Concurrent Utility
-  Preservation in Federated Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-03-08T02:48:00Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mingcong Xu, Xiaojin Zhang, Wei Chen, Hai Jin</p>
-    <p><b>Summary:</b> Federated Learning (FL) enables collaborative training of models across
-distributed clients without sharing local data, addressing privacy concerns in
-decentralized systems. However, the gradient-sharing process exposes private
-data to potential leakage, compromising FL's privacy guarantees in real-world
-applications. To address this issue, we propose Federated Error Minimization
-(FedEM), a novel algorithm that incorporates controlled perturbations through
-adaptive noise injection. This mechanism effectively mitigates gradient leakage
-attacks while maintaining model performance. Experimental results on benchmark
-datasets demonstrate that FedEM significantly reduces privacy risks and
-preserves model accuracy, achieving a robust balance between privacy protection
-and utility preservation.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.05954v1">A Survey on Tabular Data Generation: Utility, Alignment, Fidelity,
-  Privacy, and Beyond</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-03-07T21:47:11Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mihaela Cătălina Stoian, Eleonora Giunchiglia, Thomas Lukasiewicz</p>
-    <p><b>Summary:</b> Generative modelling has become the standard approach for synthesising
-tabular data. However, different use cases demand synthetic data to comply with
-different requirements to be useful in practice. In this survey, we review deep
-generative modelling approaches for tabular data from the perspective of four
-types of requirements: utility of the synthetic data, alignment of the
-synthetic data with domain-specific knowledge, statistical fidelity of the
-synthetic data distribution compared to the real data distribution, and
-privacy-preserving capabilities. We group the approaches along two levels of
-granularity: (i) based on the primary type of requirements they address and
-(ii) according to the underlying model they utilise. Additionally, we summarise
-the appropriate evaluation methods for each requirement and the specific
-characteristics of each model type. Finally, we discuss future directions for
-the field, along with opportunities to improve the current evaluation methods.
-Overall, this survey can be seen as a user guide to tabular data generation:
-helping readers navigate available models and evaluation methods to find those
-best suited to their needs.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.05684v1">Fairness-Aware Low-Rank Adaptation Under Demographic Privacy Constraints</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2025-03-07T18:49:57Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Parameswaran Kamalaruban, Mark Anderson, Stuart Burrell, Maeve Madigan, Piotr Skalski, David Sutton</p>
-    <p><b>Summary:</b> Pre-trained foundation models can be adapted for specific tasks using
-Low-Rank Adaptation (LoRA). However, the fairness properties of these adapted
-classifiers remain underexplored. Existing fairness-aware fine-tuning methods
-rely on direct access to sensitive attributes or their predictors, but in
-practice, these sensitive attributes are often held under strict consumer
-privacy controls, and neither the attributes nor their predictors are available
-to model developers, hampering the development of fair models. To address this
-issue, we introduce a set of LoRA-based fine-tuning methods that can be trained
-in a distributed fashion, where model developers and fairness auditors
-collaborate without sharing sensitive attributes or predictors. In this paper,
-we evaluate three such methods - sensitive unlearning, adversarial training,
-and orthogonality loss - against a fairness-unaware baseline, using experiments
-on the CelebA and UTK-Face datasets with an ImageNet pre-trained ViT-Base
-model. We find that orthogonality loss consistently reduces bias while
-maintaining or improving utility, whereas adversarial training improves False
-Positive Rate Parity and Demographic Parity in some cases, and sensitive
-unlearning provides no clear benefit. In tasks where significant biases are
-present, distributed fairness-aware fine-tuning methods can effectively
-eliminate bias without compromising consumer privacy and, in most cases,
-improve model utility.</p>
   </details>
 </div>
 
