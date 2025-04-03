@@ -1,1 +1,189 @@
-[{"id":"http://arxiv.org/abs/2504.01820v1","title":"Antenna Selection for Enhancing Privacy in Radar-Based Vital Sign\n  Monitoring Systems","summary":"Radar-based vital sign monitoring (VSM) systems have become valuable for\nnon-contact health monitoring by detecting physiological activities, such as\nrespiration and heartbeat, remotely. However, the conventional phased array\nused in VSM is vulnerable to privacy breaches, as an eavesdropper can extract\nsensitive vital sign information by analyzing the reflected radar signals. In\nthis paper, we propose a novel approach to protect privacy in radar-based VSM\nby modifying the radar transmitter hardware, specifically by strategically\nselecting the transmit antennas from the available antennas in the transmit\narray. By dynamically selecting which antennas connect or disconnect to the\nradio frequency chain, the transmitter introduces additional phase noise to the\nradar echoes, generating false frequencies in the power spectrum of the\nextracted phases at the eavesdropper's receiver. The antenna activation pattern\nis designed to maximize the variance of the phases introduced by antenna\nselection, which effectively makes the false frequencies dominate the spectrum,\nobscuring the actual vital sign frequencies. Meanwhile, the authorized\nreceiver, having knowledge of the antenna selection pattern, can compensate for\nthe phase noise and accurately extract the vital signs. Numerical experiments\nare conducted to validate the effectiveness of the proposed approach in\nenhancing privacy while maintaining vital sign monitoring.","updated":"2025-04-02T15:28:07Z","published":"2025-04-02T15:28:07Z","authors":[{"name":"Zhihao Tao"},{"name":"Athina P. Petropulu"}],"categories":["eess.SP"]},{"id":"http://arxiv.org/abs/2504.00952v1","title":"Personalized Federated Training of Diffusion Models with Privacy\n  Guarantees","summary":"The scarcity of accessible, compliant, and ethically sourced data presents a\nconsiderable challenge to the adoption of artificial intelligence (AI) in\nsensitive fields like healthcare, finance, and biomedical research.\nFurthermore, access to unrestricted public datasets is increasingly constrained\ndue to rising concerns over privacy, copyright, and competition. Synthetic data\nhas emerged as a promising alternative, and diffusion models -- a cutting-edge\ngenerative AI technology -- provide an effective solution for generating\nhigh-quality and diverse synthetic data. In this paper, we introduce a novel\nfederated learning framework for training diffusion models on decentralized\nprivate datasets. Our framework leverages personalization and the inherent\nnoise in the forward diffusion process to produce high-quality samples while\nensuring robust differential privacy guarantees. Our experiments show that our\nframework outperforms non-collaborative training methods, particularly in\nsettings with high data heterogeneity, and effectively reduces biases and\nimbalances in synthetic data, resulting in fairer downstream models.","updated":"2025-04-01T16:45:26Z","published":"2025-04-01T16:45:26Z","authors":[{"name":"Kumar Kshitij Patel"},{"name":"Weitong Zhang"},{"name":"Lingxiao Wang"}],"categories":["cs.LG","cs.AI","cs.CV"]},{"id":"http://arxiv.org/abs/2504.00919v1","title":"Nonparametric spectral density estimation using interactive mechanisms\n  under local differential privacy","summary":"We address the problem of nonparametric estimation of the spectral density\nfor a centered stationary Gaussian time series under local differential privacy\nconstraints. Specifically, we propose new interactive privacy mechanisms for\nthree tasks: estimating a single covariance coefficient, estimating the\nspectral density at a fixed frequency, and estimating the entire spectral\ndensity function. Our approach achieves faster rates through a two-stage\nprocess: we apply first the Laplace mechanism to the truncated value and then\nuse the former privatized sample to gain knowledge on the dependence mechanism\nin the time series. For spectral densities belonging to H\\\"older and Sobolev\nsmoothness classes, we demonstrate that our estimators improve upon the\nnon-interactive mechanism of Kroll (2024) for small privacy parameter $\\alpha$,\nsince the pointwise rates depend on $n\\alpha^2$ instead of $n\\alpha^4$.\nMoreover, we show that the rate $(n\\alpha^4)^{-1}$ is optimal for estimating a\ncovariance coefficient with non-interactive mechanisms. However, the $L_2$ rate\nof our interactive estimator is slower than the pointwise rate. We show how to\nuse these estimators to provide a bona-fide locally differentially private\ncovariance matrix estimator.","updated":"2025-04-01T15:52:50Z","published":"2025-04-01T15:52:50Z","authors":[{"name":"Cristina Butucea"},{"name":"Karolina Klockmann"},{"name":"Tatyana Krivobokova"}],"categories":["math.ST","stat.ML","stat.TH"]},{"id":"http://arxiv.org/abs/2504.00890v1","title":"Privacy-Preserving Transfer Learning for Community Detection using\n  Locally Distributed Multiple Networks","summary":"This paper develops a new spectral clustering-based method called TransNet\nfor transfer learning in community detection of network data. Our goal is to\nimprove the clustering performance of the target network using auxiliary source\nnetworks, which are heterogeneous, privacy-preserved, and locally stored across\nvarious sources. The edges of each locally stored network are perturbed using\nthe randomized response mechanism to achieve differential privacy. Notably, we\nallow the source networks to have distinct privacy-preserving and heterogeneity\nlevels as often desired in practice. To better utilize the information from the\nsource networks, we propose a novel adaptive weighting method to aggregate the\neigenspaces of the source networks multiplied by adaptive weights chosen to\nincorporate the effects of privacy and heterogeneity. We propose a\nregularization method that combines the weighted average eigenspace of the\nsource networks with the eigenspace of the target network to achieve an optimal\nbalance between them. Theoretically, we show that the adaptive weighting method\nenjoys the error-bound-oracle property in the sense that the error bound of the\nestimated eigenspace only depends on informative source networks. We also\ndemonstrate that TransNet performs better than the estimator using only the\ntarget network and the estimator using only the weighted source networks.","updated":"2025-04-01T15:19:07Z","published":"2025-04-01T15:19:07Z","authors":[{"name":"Xiao Guo"},{"name":"Xuming He"},{"name":"Xiangyu Chang"},{"name":"Shujie Ma"}],"categories":["stat.ML","cs.LG"]},{"id":"http://arxiv.org/abs/2504.00874v1","title":"P2NIA: Privacy-Preserving Non-Iterative Auditing","summary":"The emergence of AI legislation has increased the need to assess the ethical\ncompliance of high-risk AI systems. Traditional auditing methods rely on\nplatforms' application programming interfaces (APIs), where responses to\nqueries are examined through the lens of fairness requirements. However, such\napproaches put a significant burden on platforms, as they are forced to\nmaintain APIs while ensuring privacy, facing the possibility of data leaks.\nThis lack of proper collaboration between the two parties, in turn, causes a\nsignificant challenge to the auditor, who is subject to estimation bias as they\nare unaware of the data distribution of the platform. To address these two\nissues, we present P2NIA, a novel auditing scheme that proposes a mutually\nbeneficial collaboration for both the auditor and the platform. Extensive\nexperiments demonstrate P2NIA's effectiveness in addressing both issues. In\nsummary, our work introduces a privacy-preserving and non-iterative audit\nscheme that enhances fairness assessments using synthetic or local data,\navoiding the challenges associated with traditional API-based audits.","updated":"2025-04-01T15:04:58Z","published":"2025-04-01T15:04:58Z","authors":[{"name":"Jade Garcia Bourrée"},{"name":"Hadrien Lautraite"},{"name":"Sébastien Gambs"},{"name":"Gilles Tredan"},{"name":"Erwan Le Merrer"},{"name":"Benoît Rottembourg"}],"categories":["cs.LG"]},{"id":"http://arxiv.org/abs/2504.00858v1","title":"Whispering Under the Eaves: Protecting User Privacy Against Commercial\n  and LLM-powered Automatic Speech Recognition Systems","summary":"The widespread application of automatic speech recognition (ASR) supports\nlarge-scale voice surveillance, raising concerns about privacy among users. In\nthis paper, we concentrate on using adversarial examples to mitigate\nunauthorized disclosure of speech privacy thwarted by potential eavesdroppers\nin speech communications. While audio adversarial examples have demonstrated\nthe capability to mislead ASR models or evade ASR surveillance, they are\ntypically constructed through time-intensive offline optimization, restricting\ntheir practicality in real-time voice communication. Recent work overcame this\nlimitation by generating universal adversarial perturbations (UAPs) and\nenhancing their transferability for black-box scenarios. However, they\nintroduced excessive noise that significantly degrades audio quality and\naffects human perception, thereby limiting their effectiveness in practical\nscenarios. To address this limitation and protect live users' speech against\nASR systems, we propose a novel framework, AudioShield. Central to this\nframework is the concept of Transferable Universal Adversarial Perturbations in\nthe Latent Space (LS-TUAP). By transferring the perturbations to the latent\nspace, the audio quality is preserved to a large extent. Additionally, we\npropose target feature adaptation to enhance the transferability of UAPs by\nembedding target text features into the perturbations. Comprehensive evaluation\non four commercial ASR APIs (Google, Amazon, iFlytek, and Alibaba), three voice\nassistants, two LLM-powered ASR and one NN-based ASR demonstrates the\nprotection superiority of AudioShield over existing competitors, and both\nobjective and subjective evaluations indicate that AudioShield significantly\nimproves the audio quality. Moreover, AudioShield also shows high effectiveness\nin real-time end-to-end scenarios, and demonstrates strong resilience against\nadaptive countermeasures.","updated":"2025-04-01T14:49:39Z","published":"2025-04-01T14:49:39Z","authors":[{"name":"Weifei Jin"},{"name":"Yuxin Cao"},{"name":"Junjie Su"},{"name":"Derui Wang"},{"name":"Yedi Zhang"},{"name":"Minhui Xue"},{"name":"Jie Hao"},{"name":"Jin Song Dong"},{"name":"Yixian Yang"}],"categories":["cs.CR","cs.LG","cs.SD"]},{"id":"http://arxiv.org/abs/2504.00411v1","title":"Forward Learning with Differential Privacy","summary":"Differential privacy (DP) in deep learning is a critical concern as it\nensures the confidentiality of training data while maintaining model utility.\nExisting DP training algorithms provide privacy guarantees by clipping and then\ninjecting external noise into sample gradients computed by the backpropagation\nalgorithm. Different from backpropagation, forward-learning algorithms based on\nperturbation inherently add noise during the forward pass and utilize\nrandomness to estimate the gradients. Although these algorithms are\nnon-privatized, the introduction of noise during the forward pass indirectly\nprovides internal randomness protection to the model parameters and their\ngradients, suggesting the potential for naturally providing differential\nprivacy. In this paper, we propose a \\blue{privatized} forward-learning\nalgorithm, Differential Private Unified Likelihood Ratio (DP-ULR), and\ndemonstrate its differential privacy guarantees. DP-ULR features a novel batch\nsampling operation with rejection, of which we provide theoretical analysis in\nconjunction with classic differential privacy mechanisms. DP-ULR is also\nunderpinned by a theoretically guided privacy controller that dynamically\nadjusts noise levels to manage privacy costs in each training step. Our\nexperiments indicate that DP-ULR achieves competitive performance compared to\ntraditional differential privacy training algorithms based on backpropagation,\nmaintaining nearly the same privacy loss limits.","updated":"2025-04-01T04:14:53Z","published":"2025-04-01T04:14:53Z","authors":[{"name":"Mingqian Feng"},{"name":"Zeliang Zhang"},{"name":"Jinyang Jiang"},{"name":"Yijie Peng"},{"name":"Chenliang Xu"}],"categories":["cs.LG"]}]
+[
+  {
+    "id" : "http://arxiv.org/abs/2504.01820v1",
+    "title" : "Antenna Selection for Enhancing Privacy in Radar-Based Vital Sign\n  Monitoring Systems",
+    "summary" : "Radar-based vital sign monitoring (VSM) systems have become valuable for\nnon-contact health monitoring by detecting physiological activities, such as\nrespiration and heartbeat, remotely. However, the conventional phased array\nused in VSM is vulnerable to privacy breaches, as an eavesdropper can extract\nsensitive vital sign information by analyzing the reflected radar signals. In\nthis paper, we propose a novel approach to protect privacy in radar-based VSM\nby modifying the radar transmitter hardware, specifically by strategically\nselecting the transmit antennas from the available antennas in the transmit\narray. By dynamically selecting which antennas connect or disconnect to the\nradio frequency chain, the transmitter introduces additional phase noise to the\nradar echoes, generating false frequencies in the power spectrum of the\nextracted phases at the eavesdropper's receiver. The antenna activation pattern\nis designed to maximize the variance of the phases introduced by antenna\nselection, which effectively makes the false frequencies dominate the spectrum,\nobscuring the actual vital sign frequencies. Meanwhile, the authorized\nreceiver, having knowledge of the antenna selection pattern, can compensate for\nthe phase noise and accurately extract the vital signs. Numerical experiments\nare conducted to validate the effectiveness of the proposed approach in\nenhancing privacy while maintaining vital sign monitoring.",
+    "updated" : "2025-04-02T15:28:07Z",
+    "published" : "2025-04-02T15:28:07Z",
+    "authors" : [
+      {
+        "name" : "Zhihao Tao"
+      },
+      {
+        "name" : "Athina P. Petropulu"
+      }
+    ],
+    "categories" : [
+      "eess.SP"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.00952v1",
+    "title" : "Personalized Federated Training of Diffusion Models with Privacy\n  Guarantees",
+    "summary" : "The scarcity of accessible, compliant, and ethically sourced data presents a\nconsiderable challenge to the adoption of artificial intelligence (AI) in\nsensitive fields like healthcare, finance, and biomedical research.\nFurthermore, access to unrestricted public datasets is increasingly constrained\ndue to rising concerns over privacy, copyright, and competition. Synthetic data\nhas emerged as a promising alternative, and diffusion models -- a cutting-edge\ngenerative AI technology -- provide an effective solution for generating\nhigh-quality and diverse synthetic data. In this paper, we introduce a novel\nfederated learning framework for training diffusion models on decentralized\nprivate datasets. Our framework leverages personalization and the inherent\nnoise in the forward diffusion process to produce high-quality samples while\nensuring robust differential privacy guarantees. Our experiments show that our\nframework outperforms non-collaborative training methods, particularly in\nsettings with high data heterogeneity, and effectively reduces biases and\nimbalances in synthetic data, resulting in fairer downstream models.",
+    "updated" : "2025-04-01T16:45:26Z",
+    "published" : "2025-04-01T16:45:26Z",
+    "authors" : [
+      {
+        "name" : "Kumar Kshitij Patel"
+      },
+      {
+        "name" : "Weitong Zhang"
+      },
+      {
+        "name" : "Lingxiao Wang"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.00919v1",
+    "title" : "Nonparametric spectral density estimation using interactive mechanisms\n  under local differential privacy",
+    "summary" : "We address the problem of nonparametric estimation of the spectral density\nfor a centered stationary Gaussian time series under local differential privacy\nconstraints. Specifically, we propose new interactive privacy mechanisms for\nthree tasks: estimating a single covariance coefficient, estimating the\nspectral density at a fixed frequency, and estimating the entire spectral\ndensity function. Our approach achieves faster rates through a two-stage\nprocess: we apply first the Laplace mechanism to the truncated value and then\nuse the former privatized sample to gain knowledge on the dependence mechanism\nin the time series. For spectral densities belonging to H\\\"older and Sobolev\nsmoothness classes, we demonstrate that our estimators improve upon the\nnon-interactive mechanism of Kroll (2024) for small privacy parameter $\\alpha$,\nsince the pointwise rates depend on $n\\alpha^2$ instead of $n\\alpha^4$.\nMoreover, we show that the rate $(n\\alpha^4)^{-1}$ is optimal for estimating a\ncovariance coefficient with non-interactive mechanisms. However, the $L_2$ rate\nof our interactive estimator is slower than the pointwise rate. We show how to\nuse these estimators to provide a bona-fide locally differentially private\ncovariance matrix estimator.",
+    "updated" : "2025-04-01T15:52:50Z",
+    "published" : "2025-04-01T15:52:50Z",
+    "authors" : [
+      {
+        "name" : "Cristina Butucea"
+      },
+      {
+        "name" : "Karolina Klockmann"
+      },
+      {
+        "name" : "Tatyana Krivobokova"
+      }
+    ],
+    "categories" : [
+      "math.ST",
+      "stat.ML",
+      "stat.TH"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.00890v1",
+    "title" : "Privacy-Preserving Transfer Learning for Community Detection using\n  Locally Distributed Multiple Networks",
+    "summary" : "This paper develops a new spectral clustering-based method called TransNet\nfor transfer learning in community detection of network data. Our goal is to\nimprove the clustering performance of the target network using auxiliary source\nnetworks, which are heterogeneous, privacy-preserved, and locally stored across\nvarious sources. The edges of each locally stored network are perturbed using\nthe randomized response mechanism to achieve differential privacy. Notably, we\nallow the source networks to have distinct privacy-preserving and heterogeneity\nlevels as often desired in practice. To better utilize the information from the\nsource networks, we propose a novel adaptive weighting method to aggregate the\neigenspaces of the source networks multiplied by adaptive weights chosen to\nincorporate the effects of privacy and heterogeneity. We propose a\nregularization method that combines the weighted average eigenspace of the\nsource networks with the eigenspace of the target network to achieve an optimal\nbalance between them. Theoretically, we show that the adaptive weighting method\nenjoys the error-bound-oracle property in the sense that the error bound of the\nestimated eigenspace only depends on informative source networks. We also\ndemonstrate that TransNet performs better than the estimator using only the\ntarget network and the estimator using only the weighted source networks.",
+    "updated" : "2025-04-01T15:19:07Z",
+    "published" : "2025-04-01T15:19:07Z",
+    "authors" : [
+      {
+        "name" : "Xiao Guo"
+      },
+      {
+        "name" : "Xuming He"
+      },
+      {
+        "name" : "Xiangyu Chang"
+      },
+      {
+        "name" : "Shujie Ma"
+      }
+    ],
+    "categories" : [
+      "stat.ML",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.00874v1",
+    "title" : "P2NIA: Privacy-Preserving Non-Iterative Auditing",
+    "summary" : "The emergence of AI legislation has increased the need to assess the ethical\ncompliance of high-risk AI systems. Traditional auditing methods rely on\nplatforms' application programming interfaces (APIs), where responses to\nqueries are examined through the lens of fairness requirements. However, such\napproaches put a significant burden on platforms, as they are forced to\nmaintain APIs while ensuring privacy, facing the possibility of data leaks.\nThis lack of proper collaboration between the two parties, in turn, causes a\nsignificant challenge to the auditor, who is subject to estimation bias as they\nare unaware of the data distribution of the platform. To address these two\nissues, we present P2NIA, a novel auditing scheme that proposes a mutually\nbeneficial collaboration for both the auditor and the platform. Extensive\nexperiments demonstrate P2NIA's effectiveness in addressing both issues. In\nsummary, our work introduces a privacy-preserving and non-iterative audit\nscheme that enhances fairness assessments using synthetic or local data,\navoiding the challenges associated with traditional API-based audits.",
+    "updated" : "2025-04-01T15:04:58Z",
+    "published" : "2025-04-01T15:04:58Z",
+    "authors" : [
+      {
+        "name" : "Jade Garcia Bourrée"
+      },
+      {
+        "name" : "Hadrien Lautraite"
+      },
+      {
+        "name" : "Sébastien Gambs"
+      },
+      {
+        "name" : "Gilles Tredan"
+      },
+      {
+        "name" : "Erwan Le Merrer"
+      },
+      {
+        "name" : "Benoît Rottembourg"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.00858v1",
+    "title" : "Whispering Under the Eaves: Protecting User Privacy Against Commercial\n  and LLM-powered Automatic Speech Recognition Systems",
+    "summary" : "The widespread application of automatic speech recognition (ASR) supports\nlarge-scale voice surveillance, raising concerns about privacy among users. In\nthis paper, we concentrate on using adversarial examples to mitigate\nunauthorized disclosure of speech privacy thwarted by potential eavesdroppers\nin speech communications. While audio adversarial examples have demonstrated\nthe capability to mislead ASR models or evade ASR surveillance, they are\ntypically constructed through time-intensive offline optimization, restricting\ntheir practicality in real-time voice communication. Recent work overcame this\nlimitation by generating universal adversarial perturbations (UAPs) and\nenhancing their transferability for black-box scenarios. However, they\nintroduced excessive noise that significantly degrades audio quality and\naffects human perception, thereby limiting their effectiveness in practical\nscenarios. To address this limitation and protect live users' speech against\nASR systems, we propose a novel framework, AudioShield. Central to this\nframework is the concept of Transferable Universal Adversarial Perturbations in\nthe Latent Space (LS-TUAP). By transferring the perturbations to the latent\nspace, the audio quality is preserved to a large extent. Additionally, we\npropose target feature adaptation to enhance the transferability of UAPs by\nembedding target text features into the perturbations. Comprehensive evaluation\non four commercial ASR APIs (Google, Amazon, iFlytek, and Alibaba), three voice\nassistants, two LLM-powered ASR and one NN-based ASR demonstrates the\nprotection superiority of AudioShield over existing competitors, and both\nobjective and subjective evaluations indicate that AudioShield significantly\nimproves the audio quality. Moreover, AudioShield also shows high effectiveness\nin real-time end-to-end scenarios, and demonstrates strong resilience against\nadaptive countermeasures.",
+    "updated" : "2025-04-01T14:49:39Z",
+    "published" : "2025-04-01T14:49:39Z",
+    "authors" : [
+      {
+        "name" : "Weifei Jin"
+      },
+      {
+        "name" : "Yuxin Cao"
+      },
+      {
+        "name" : "Junjie Su"
+      },
+      {
+        "name" : "Derui Wang"
+      },
+      {
+        "name" : "Yedi Zhang"
+      },
+      {
+        "name" : "Minhui Xue"
+      },
+      {
+        "name" : "Jie Hao"
+      },
+      {
+        "name" : "Jin Song Dong"
+      },
+      {
+        "name" : "Yixian Yang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG",
+      "cs.SD"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.00411v1",
+    "title" : "Forward Learning with Differential Privacy",
+    "summary" : "Differential privacy (DP) in deep learning is a critical concern as it\nensures the confidentiality of training data while maintaining model utility.\nExisting DP training algorithms provide privacy guarantees by clipping and then\ninjecting external noise into sample gradients computed by the backpropagation\nalgorithm. Different from backpropagation, forward-learning algorithms based on\nperturbation inherently add noise during the forward pass and utilize\nrandomness to estimate the gradients. Although these algorithms are\nnon-privatized, the introduction of noise during the forward pass indirectly\nprovides internal randomness protection to the model parameters and their\ngradients, suggesting the potential for naturally providing differential\nprivacy. In this paper, we propose a \\blue{privatized} forward-learning\nalgorithm, Differential Private Unified Likelihood Ratio (DP-ULR), and\ndemonstrate its differential privacy guarantees. DP-ULR features a novel batch\nsampling operation with rejection, of which we provide theoretical analysis in\nconjunction with classic differential privacy mechanisms. DP-ULR is also\nunderpinned by a theoretically guided privacy controller that dynamically\nadjusts noise levels to manage privacy costs in each training step. Our\nexperiments indicate that DP-ULR achieves competitive performance compared to\ntraditional differential privacy training algorithms based on backpropagation,\nmaintaining nearly the same privacy loss limits.",
+    "updated" : "2025-04-01T04:14:53Z",
+    "published" : "2025-04-01T04:14:53Z",
+    "authors" : [
+      {
+        "name" : "Mingqian Feng"
+      },
+      {
+        "name" : "Zeliang Zhang"
+      },
+      {
+        "name" : "Jinyang Jiang"
+      },
+      {
+        "name" : "Yijie Peng"
+      },
+      {
+        "name" : "Chenliang Xu"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  }
+]
