@@ -2,6 +2,61 @@
 <h2>2025-04</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.02149v1">Exploring the Privacy and Security Challenges Faced by Migrant Domestic
+  Workers in Chinese Smart Homes</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2025-04-02T21:49:15Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shijing He, Xiao Zhan, Yaxiong Lei, Yueyan Liu, Ruba Abu-Salma, Jose Such</p>
+    <p><b>Summary:</b> The growing use of smart home devices poses considerable privacy and security
+challenges, especially for individuals like migrant domestic workers (MDWs) who
+may be surveilled by their employers. This paper explores the privacy and
+security challenges experienced by MDWs in multi-user smart homes through
+in-depth semi-structured interviews with 26 MDWs and 5 staff members of
+agencies that recruit and/or train domestic workers in China. Our findings
+reveal that the relationships between MDWs, their employers, and agencies are
+characterized by significant power imbalances, influenced by Chinese cultural
+and social factors (such as Confucianism and collectivism), as well as legal
+ones. Furthermore, the widespread and normalized use of surveillance
+technologies in China, particularly in public spaces, exacerbates these power
+imbalances, reinforcing a sense of constant monitoring and control. Drawing on
+our findings, we provide recommendations to domestic worker agencies and
+policymakers to address the privacy and security challenges facing MDWs in
+Chinese smart homes.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.02068v1">Privacy-Preserving Edge Computing from Pairing-Based Inner Product
+  Functional Encryption</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-04-02T19:01:10Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Utsav Banerjee</p>
+    <p><b>Summary:</b> Pairing-based inner product functional encryption provides an efficient
+theoretical construction for privacy-preserving edge computing secured by
+widely deployed elliptic curve cryptography. In this work, an efficient
+software implementation framework for pairing-based function-hiding inner
+product encryption (FHIPE) is presented using the recently proposed and widely
+adopted BLS12-381 pairing-friendly elliptic curve. Algorithmic optimizations
+provide $\approx 2.6 \times$ and $\approx 3.4 \times$ speedup in FHIPE
+encryption and decryption respectively, and extensive performance analysis is
+presented using a Raspberry Pi 4B edge device. The proposed optimizations
+enable this implementation framework to achieve performance and ciphertext size
+comparable to previous work despite being implemented on an edge device with a
+slower processor and supporting a curve at much higher security level with a
+larger prime field. Practical privacy-preserving edge computing applications
+such as encrypted biomedical sensor data classification and secure wireless
+fingerprint-based indoor localization are also demonstrated using the proposed
+implementation framework.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2504.01820v1">Antenna Selection for Enhancing Privacy in Radar-Based Vital Sign
   Monitoring Systems</a></h3>
   
@@ -2880,66 +2935,6 @@ leveraging distributed optimization for federated learning. Overall, this work
 offers a comprehensive overview from centralized to decentralized FL, sheds new
 light on the core distinctions between approaches, and outlines open challenges
 and future directions for the field.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.07427v2">Creating and Evaluating Privacy and Security Micro-Lessons for
-  Elementary School Children</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2025-03-10T15:12:11Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Lan Gao, Elana B Blinder, Abigail Barnes, Kevin Song, Tamara Clegg, Jessica Vitak, Marshini Chetty</p>
-    <p><b>Summary:</b> The growing use of technology in K--8 classrooms highlights a parallel need
-for formal learning opportunities aimed at helping children use technology
-safely and protect their personal information. Even the youngest students are
-now using tablets, laptops, and apps to support their learning; however, there
-are limited curricular materials available for elementary and middle school
-children on digital privacy and security topics. To bridge this gap, we
-developed a series of micro-lessons to help K--8 children learn about digital
-privacy and security at school. We first conducted a formative study by
-interviewing elementary school teachers to identify the design needs for
-digital privacy and security lessons. We then developed micro-lessons --
-multiple 15-20 minute activities designed to be easily inserted into the
-existing curriculum -- using a co-design approach with multiple rounds of
-developing and revising the micro-lessons in collaboration with teachers.
-Throughout the process, we conducted evaluation sessions where teachers
-implemented or reviewed the micro-lessons. Our study identifies strengths,
-challenges, and teachers' tailoring strategies when incorporating micro-lessons
-for K--8 digital privacy and security topics, providing design implications for
-facilitating learning about these topics in school classrooms.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.07216v2">FedRand: Enhancing Privacy in Federated Learning with Randomized LoRA
-  Subparameter Updates</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-03-10T11:55:50Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Sangwoo Park, Seanie Lee, Byungjoo Kim, Sung Ju Hwang</p>
-    <p><b>Summary:</b> Federated Learning (FL) is a widely used framework for training models in a
-decentralized manner, ensuring that the central server does not have direct
-access to data from local clients. However, this approach may still fail to
-fully preserve data privacy, as models from local clients are exposed to the
-central server during the aggregation process. This issue becomes even more
-critical when training vision-language models (VLMs) with FL, as VLMs can
-easily memorize training data instances, making them vulnerable to membership
-inference attacks (MIAs). To address this challenge, we propose the FedRand
-framework, which avoids disclosing the full set of client parameters. In this
-framework, each client randomly selects subparameters of Low-Rank Adaptation
-(LoRA) from the server and keeps the remaining counterparts of the LoRA weights
-as private parameters. After training both parameters on the client's private
-dataset, only the non-private client parameters are sent back to the server for
-aggregation. This approach mitigates the risk of exposing client-side VLM
-parameters, thereby enhancing data privacy. We empirically validate that
-FedRand improves robustness against MIAs compared to relevant baselines while
-achieving accuracy comparable to methods that communicate full LoRA parameters
-across several benchmark datasets.</p>
   </details>
 </div>
 
