@@ -185,5 +185,52 @@
     "categories" : [
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.02149v1",
+    "title" : "Exploring the Privacy and Security Challenges Faced by Migrant Domestic\n  Workers in Chinese Smart Homes",
+    "summary" : "The growing use of smart home devices poses considerable privacy and security\nchallenges, especially for individuals like migrant domestic workers (MDWs) who\nmay be surveilled by their employers. This paper explores the privacy and\nsecurity challenges experienced by MDWs in multi-user smart homes through\nin-depth semi-structured interviews with 26 MDWs and 5 staff members of\nagencies that recruit and/or train domestic workers in China. Our findings\nreveal that the relationships between MDWs, their employers, and agencies are\ncharacterized by significant power imbalances, influenced by Chinese cultural\nand social factors (such as Confucianism and collectivism), as well as legal\nones. Furthermore, the widespread and normalized use of surveillance\ntechnologies in China, particularly in public spaces, exacerbates these power\nimbalances, reinforcing a sense of constant monitoring and control. Drawing on\nour findings, we provide recommendations to domestic worker agencies and\npolicymakers to address the privacy and security challenges facing MDWs in\nChinese smart homes.",
+    "updated" : "2025-04-02T21:49:15Z",
+    "published" : "2025-04-02T21:49:15Z",
+    "authors" : [
+      {
+        "name" : "Shijing He"
+      },
+      {
+        "name" : "Xiao Zhan"
+      },
+      {
+        "name" : "Yaxiong Lei"
+      },
+      {
+        "name" : "Yueyan Liu"
+      },
+      {
+        "name" : "Ruba Abu-Salma"
+      },
+      {
+        "name" : "Jose Such"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "cs.CR",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.02068v1",
+    "title" : "Privacy-Preserving Edge Computing from Pairing-Based Inner Product\n  Functional Encryption",
+    "summary" : "Pairing-based inner product functional encryption provides an efficient\ntheoretical construction for privacy-preserving edge computing secured by\nwidely deployed elliptic curve cryptography. In this work, an efficient\nsoftware implementation framework for pairing-based function-hiding inner\nproduct encryption (FHIPE) is presented using the recently proposed and widely\nadopted BLS12-381 pairing-friendly elliptic curve. Algorithmic optimizations\nprovide $\\approx 2.6 \\times$ and $\\approx 3.4 \\times$ speedup in FHIPE\nencryption and decryption respectively, and extensive performance analysis is\npresented using a Raspberry Pi 4B edge device. The proposed optimizations\nenable this implementation framework to achieve performance and ciphertext size\ncomparable to previous work despite being implemented on an edge device with a\nslower processor and supporting a curve at much higher security level with a\nlarger prime field. Practical privacy-preserving edge computing applications\nsuch as encrypted biomedical sensor data classification and secure wireless\nfingerprint-based indoor localization are also demonstrated using the proposed\nimplementation framework.",
+    "updated" : "2025-04-02T19:01:10Z",
+    "published" : "2025-04-02T19:01:10Z",
+    "authors" : [
+      {
+        "name" : "Utsav Banerjee"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
