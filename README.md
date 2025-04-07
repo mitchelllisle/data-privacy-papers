@@ -2,6 +2,33 @@
 <h2>2025-04</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.03173v1">PPFPL: Cross-silo Privacy-preserving Federated Prototype Learning
+  Against Data Poisoning Attacks on Non-IID Data</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
+  <p><b>Published on:</b> 2025-04-04T05:05:24Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Hongliang Zhang, Jiguo Yu, Fenghua Xu, Chunqiang Hu, Yongzhao Zhang, Xiaofen Wang, Zhongyuan Yu, Xiaosong Zhang</p>
+    <p><b>Summary:</b> Privacy-Preserving Federated Learning (PPFL) allows multiple clients to
+collaboratively train a deep learning model by submitting hidden model updates.
+Nonetheless, PPFL is vulnerable to data poisoning attacks due to the
+distributed training nature of clients. Existing solutions have struggled to
+improve the performance of cross-silo PPFL in poisoned Non-IID data. To address
+the issues, this paper proposes a privacy-preserving federated prototype
+learning framework, named PPFPL, which enhances the cross-silo FL performance
+in poisoned Non-IID data while effectively resisting data poisoning attacks.
+Specifically, we adopt prototypes as client-submitted model updates to
+eliminate the impact of tampered data distribution on federated learning.
+Moreover, we utilize two servers to achieve Byzantine-robust aggregation by
+secure aggregation protocol, which greatly reduces the impact of malicious
+clients. Theoretical analyses confirm the convergence of PPFPL, and
+experimental results on publicly available datasets show that PPFPL is
+effective for resisting data poisoning attacks with Non-IID conditions.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2504.02149v1">Exploring the Privacy and Security Challenges Faced by Migrant Domestic
   Workers in Chinese Smart Homes</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
@@ -2904,37 +2931,6 @@ blockchain to audit the computation done by different nodes. Our experimental
 results show that: Split-n-Chain is efficient, in terms of time required to
 execute different phases, and the training loss trend is similar to that for
 the same neural network when implemented in a monolithic fashion.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.07505v1">From Centralized to Decentralized Federated Learning: Theoretical
-  Insights, Privacy Preservation, and Robustness Challenges</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
-  <p><b>Published on:</b> 2025-03-10T16:27:40Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Qiongxiu Li, Wenrui Yu, Yufei Xia, Jun Pang</p>
-    <p><b>Summary:</b> Federated Learning (FL) enables collaborative learning without directly
-sharing individual's raw data. FL can be implemented in either a centralized
-(server-based) or decentralized (peer-to-peer) manner. In this survey, we
-present a novel perspective: the fundamental difference between centralized FL
-(CFL) and decentralized FL (DFL) is not merely the network topology, but the
-underlying training protocol: separate aggregation vs. joint optimization. We
-argue that this distinction in protocol leads to significant differences in
-model utility, privacy preservation, and robustness to attacks. We
-systematically review and categorize existing works in both CFL and DFL
-according to the type of protocol they employ. This taxonomy provides deeper
-insights into prior research and clarifies how various approaches relate or
-differ. Through our analysis, we identify key gaps in the literature. In
-particular, we observe a surprising lack of exploration of DFL approaches based
-on distributed optimization methods, despite their potential advantages. We
-highlight this under-explored direction and call for more research on
-leveraging distributed optimization for federated learning. Overall, this work
-offers a comprehensive overview from centralized to decentralized FL, sheds new
-light on the core distinctions between approaches, and outlines open challenges
-and future directions for the field.</p>
   </details>
 </div>
 
