@@ -232,5 +232,42 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.03173v1",
+    "title" : "PPFPL: Cross-silo Privacy-preserving Federated Prototype Learning\n  Against Data Poisoning Attacks on Non-IID Data",
+    "summary" : "Privacy-Preserving Federated Learning (PPFL) allows multiple clients to\ncollaboratively train a deep learning model by submitting hidden model updates.\nNonetheless, PPFL is vulnerable to data poisoning attacks due to the\ndistributed training nature of clients. Existing solutions have struggled to\nimprove the performance of cross-silo PPFL in poisoned Non-IID data. To address\nthe issues, this paper proposes a privacy-preserving federated prototype\nlearning framework, named PPFPL, which enhances the cross-silo FL performance\nin poisoned Non-IID data while effectively resisting data poisoning attacks.\nSpecifically, we adopt prototypes as client-submitted model updates to\neliminate the impact of tampered data distribution on federated learning.\nMoreover, we utilize two servers to achieve Byzantine-robust aggregation by\nsecure aggregation protocol, which greatly reduces the impact of malicious\nclients. Theoretical analyses confirm the convergence of PPFPL, and\nexperimental results on publicly available datasets show that PPFPL is\neffective for resisting data poisoning attacks with Non-IID conditions.",
+    "updated" : "2025-04-04T05:05:24Z",
+    "published" : "2025-04-04T05:05:24Z",
+    "authors" : [
+      {
+        "name" : "Hongliang Zhang"
+      },
+      {
+        "name" : "Jiguo Yu"
+      },
+      {
+        "name" : "Fenghua Xu"
+      },
+      {
+        "name" : "Chunqiang Hu"
+      },
+      {
+        "name" : "Yongzhao Zhang"
+      },
+      {
+        "name" : "Xiaofen Wang"
+      },
+      {
+        "name" : "Zhongyuan Yu"
+      },
+      {
+        "name" : "Xiaosong Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DC"
+    ]
   }
 ]
