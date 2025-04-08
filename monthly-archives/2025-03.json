@@ -3777,5 +3777,62 @@
       "cs.DB",
       "cs.HC"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.03730v1",
+    "title" : "Safeguarding Smart Inhaler Devices and Patient Privacy in Respiratory\n  Health Monitoring",
+    "summary" : "The rapid development of Internet of Things (IoT) technology has\nsignificantly impacted various market sectors. According to Li et al. (2024),\nan estimated 75 billion devices will be on the market in 2025. The healthcare\nindustry is a target to improve patient care and ease healthcare provider\nburdens. Chronic respiratory disease is likely to benefit from their inclusion,\nwith 545 million people worldwide recorded to suffer from patients using these\ndevices to track their dosage. At the same time, healthcare providers can\nimprove medication administration and monitor respiratory health (Soriano et\nal., 2020). While IoT medical devices offer numerous benefits, they also have\nsecurity vulnerabilities that can expose patient data to cyberattacks. It's\ncrucial to prioritize security measures in developing and deploying IoT medical\ndevices, especially in personalized health monitoring systems for individuals\nwith respiratory conditions. Efforts are underway to assess the security risks\nassociated with intelligent inhalers and respiratory medical devices by\nunderstanding usability behavior and technological elements to identify and\naddress vulnerabilities effectively. This work analyses usability behavior and\ntechnical vulnerabilities, emphasizing the confidentiality of information\ngained from Smart Inhalers. It then extrapolates to interrogate potential\nvulnerabilities with Implantable Medical Devices (IMDs). Our work explores the\ntensions in device development through the intersection of IoT technology and\nrespiratory health, particularly in the context of intelligent inhalers and\nother breathing medical devices, calling for integrating robust security\nmeasures into the development and deployment of IoT devices to safeguard\npatient data and ensure the secure functioning of these critical healthcare\ntechnologies.",
+    "updated" : "2025-03-31T18:16:06Z",
+    "published" : "2025-03-31T18:16:06Z",
+    "authors" : [
+      {
+        "name" : "Asaju Babajide"
+      },
+      {
+        "name" : "Almustapha Wakili"
+      },
+      {
+        "name" : "Michaela Barnett"
+      },
+      {
+        "name" : "Lucas Potter"
+      },
+      {
+        "name" : "Xavier-Lewis Palmer"
+      },
+      {
+        "name" : "Woosub Jung"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.22993v2",
+    "title" : "Calculating Connection vs. Risk: Understanding How Youth Negotiate\n  Digital Privacy and Security with Peers Online",
+    "summary" : "Youth, while tech-savvy and highly active on social media, are still\nvulnerable to online privacy and security risks. Therefore, it is critical to\nunderstand how they negotiate and manage social connections versus protecting\nthemselves in online contexts. In this work, we conducted a thematic analysis\nof 1,318 private conversations on Instagram from 149 youth aged 13-21 to\nunderstand the digital privacy and security topics they discussed, if and how\nthey engaged in risky privacy behaviors, and how they balanced the benefits and\nrisks (i.e., privacy calculus) of making these decisions. Overall, youth were\nforthcoming when broaching a wide range of topics on digital privacy and\nsecurity, ranging from password management and account access challenges to\nshared experiences of being victims of privacy risks. However, they also openly\nengaged in risky behaviors, such as sharing personal account information with\npeers and even perpetrating privacy and security risks against others.\nNonetheless, we found many of these behaviors could be explained by the unique\n\"privacy calculus\" of youth, where they often prioritized social benefits over\npotential risks; for instance, youth often shared account credentials with\npeers to foster social connection and affirmation. As such, we provide a\nnuanced understanding of youth decision-making regarding digital security and\nprivacy, highlighting both positive behaviors, tensions, and points of concern.\nWe encourage future research to continue to challenge the potentially untrue\nnarratives regarding youth and their digital privacy and security to unpack the\nnuance of their privacy calculus that may differ from that of adults.",
+    "updated" : "2025-04-05T07:22:05Z",
+    "published" : "2025-03-29T06:54:46Z",
+    "authors" : [
+      {
+        "name" : "Mamtaj Akter"
+      },
+      {
+        "name" : "Jinkyung Katie Park"
+      },
+      {
+        "name" : "Campbell Headrick"
+      },
+      {
+        "name" : "Xinru Page"
+      },
+      {
+        "name" : "Pamela J. Wisniewski"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
   }
 ]
