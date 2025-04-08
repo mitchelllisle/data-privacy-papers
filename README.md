@@ -2,6 +2,157 @@
 <h2>2025-04</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.05202v1">Infinitely Divisible Noise for Differential Privacy: Nearly Optimal
+  Error in the High $\varepsilon$ Regime</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B">
+  <p><b>Published on:</b> 2025-04-07T15:50:46Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Charlie Harrison, Pasin Manurangsi</p>
+    <p><b>Summary:</b> Differential privacy (DP) can be achieved in a distributed manner, where
+multiple parties add independent noise such that their sum protects the overall
+dataset with DP. A common technique here is for each party to sample their
+noise from the decomposition of an infinitely divisible distribution. We
+analyze two mechanisms in this setting: 1) the generalized discrete Laplace
+(GDL) mechanism, whose distribution (which is closed under summation) follows
+from differences of i.i.d. negative binomial shares, and 2) the multi-scale
+discrete Laplace (MSDLap) mechanism, a novel mechanism following the sum of
+multiple i.i.d. discrete Laplace shares at different scales.
+  For $\varepsilon \geq 1$, our mechanisms can be parameterized to have
+$O\left(\Delta^3 e^{-\varepsilon}\right)$ and $O\left(\min\left(\Delta^3
+e^{-\varepsilon}, \Delta^2 e^{-2\varepsilon/3}\right)\right)$ MSE,
+respectively, where $\Delta$ denote the sensitivity; the latter bound matches
+known optimality results. We also show a transformation from the discrete
+setting to the continuous setting, which allows us to transform both mechanisms
+to the continuous setting and thereby achieve the optimal $O\left(\Delta^2
+e^{-2\varepsilon / 3}\right)$ MSE. To our knowledge, these are the first
+infinitely divisible additive noise mechanisms that achieve order-optimal MSE
+under pure DP, so our work shows formally there is no separation in utility
+when query-independent noise adding mechanisms are restricted to infinitely
+divisible noise. For the continuous setting, our result improves upon the Arete
+mechanism from [Pagh and Stausholm, ALT 2022] which gives an MSE of
+$O\left(\Delta^2 e^{-\varepsilon/4}\right)$. Furthermore, we give an exact
+sampler tuned to efficiently implement the MSDLap mechanism, and we apply our
+results to improve a state of the art multi-message shuffle DP protocol in the
+high $\varepsilon$ regime.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.04734v1">Teaching Data Science Students to Sketch Privacy Designs through
+  Heuristics (Extended Technical Report)</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2025-04-07T05:12:21Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jinhe Wen, Yingxi Zhao, Wenqian Xu, Yaxing Yao, Haojian Jin</p>
+    <p><b>Summary:</b> Recent studies reveal that experienced data practitioners often draw sketches
+to facilitate communication around privacy design concepts. However, there is
+limited understanding of how we can help novice students develop such
+communication skills. This paper studies methods for lowering novice data
+science students' barriers to creating high-quality privacy sketches. We first
+conducted a need-finding study (N=12) to identify barriers students face when
+sketching privacy designs. We then used a human-centered design approach to
+guide the method development, culminating in three simple, text-based
+heuristics. Our user studies with 24 data science students revealed that simply
+presenting three heuristics to the participants at the beginning of the study
+can enhance the coverage of privacy-related design decisions in sketches,
+reduce the mental effort required for creating sketches, and improve the
+readability of the final sketches.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.04388v1">Who's Watching You Zoom? Investigating Privacy of Third-Party Zoom Apps</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-04-06T06:48:58Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Saharsh Goenka, Adit Prabhu, Payge Sakurai, Mrinaal Ramachandran, Rakibul Hasan</p>
+    <p><b>Summary:</b> Zoom serves millions of users daily and allows third-party developers to
+integrate their apps with the Zoom client and reach those users. So far, these
+apps' privacy and security aspects, which can access rich audio-visual data
+(among others) from Zoom, have not been scientifically investigated. This paper
+examines the evolution of the Zoom Marketplace over one year, identifying
+trends in apps, their data collection behaviors, and the transparency of
+privacy policies. Our findings include worrisome details about the increasing
+over-collection of user data, non-transparency about purposes and sharing
+behaviors, and possible non-compliance with relevant laws. We believe these
+findings will inform future privacy and security research on this platform and
+help improve Zoom's app review process and platform policy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.04033v1">Disparate Privacy Vulnerability: Targeted Attribute Inference Attacks
+  and Defenses</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-04-05T02:58:37Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ehsanul Kabir, Lucas Craig, Shagufta Mehnaz</p>
+    <p><b>Summary:</b> As machine learning (ML) technologies become more prevalent in
+privacy-sensitive areas like healthcare and finance, eventually incorporating
+sensitive information in building data-driven algorithms, it is vital to
+scrutinize whether these data face any privacy leakage risks. One potential
+threat arises from an adversary querying trained models using the public,
+non-sensitive attributes of entities in the training data to infer their
+private, sensitive attributes, a technique known as the attribute inference
+attack. This attack is particularly deceptive because, while it may perform
+poorly in predicting sensitive attributes across the entire dataset, it excels
+at predicting the sensitive attributes of records from a few vulnerable groups,
+a phenomenon known as disparate vulnerability. This paper illustrates that an
+adversary can take advantage of this disparity to carry out a series of new
+attacks, showcasing a threat level beyond previous imagination. We first
+develop a novel inference attack called the disparity inference attack, which
+targets the identification of high-risk groups within the dataset. We then
+introduce two targeted variations of the attribute inference attack that can
+identify and exploit a vulnerable subset of the training data, marking the
+first instances of targeted attacks in this category, achieving significantly
+higher accuracy than untargeted versions. We are also the first to introduce a
+novel and effective disparity mitigation technique that simultaneously
+preserves model performance and prevents any risk of targeted attacks.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.03798v1">An Intelligent and Privacy-Preserving Digital Twin Model for
+  Aging-in-Place</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">  
+  <p><b>Published on:</b> 2025-04-04T05:37:08Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yongjie Wang, Jonathan Cyril Leung, Ming Chen, Zhiwei Zeng, Benny Toh Hsiang Tan, Yang Qiu, Zhiqi Shen</p>
+    <p><b>Summary:</b> The population of older adults is steadily increasing, with a strong
+preference for aging-in-place rather than moving to care facilities.
+Consequently, supporting this growing demographic has become a significant
+global challenge. However, facilitating successful aging-in-place is
+challenging, requiring consideration of multiple factors such as data privacy,
+health status monitoring, and living environments to improve health outcomes.
+In this paper, we propose an unobtrusive sensor system designed for
+installation in older adults' homes. Using data from the sensors, our system
+constructs a digital twin, a virtual representation of events and activities
+that occurred in the home. The system uses neural network models and decision
+rules to capture residents' activities and living environments. This digital
+twin enables continuous health monitoring by providing actionable insights into
+residents' well-being. Our system is designed to be low-cost and
+privacy-preserving, with the aim of providing green and safe monitoring for the
+health of older adults. We have successfully deployed our system in two homes
+over a time period of two months, and our findings demonstrate the feasibility
+and effectiveness of digital twin technology in supporting independent living
+for older adults. This study highlights that our system could revolutionize
+elder care by enabling personalized interventions, such as lifestyle
+adjustments, medical treatments, or modifications to the residential
+environment, to enhance health outcomes.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2504.03173v1">PPFPL: Cross-silo Privacy-preserving Federated Prototype Learning
   Against Data Poisoning Attacks on Non-IID Data</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
@@ -324,6 +475,43 @@ protecting privacy.</p>
 
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.03730v1">Safeguarding Smart Inhaler Devices and Patient Privacy in Respiratory
+  Health Monitoring</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-03-31T18:16:06Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Asaju Babajide, Almustapha Wakili, Michaela Barnett, Lucas Potter, Xavier-Lewis Palmer, Woosub Jung</p>
+    <p><b>Summary:</b> The rapid development of Internet of Things (IoT) technology has
+significantly impacted various market sectors. According to Li et al. (2024),
+an estimated 75 billion devices will be on the market in 2025. The healthcare
+industry is a target to improve patient care and ease healthcare provider
+burdens. Chronic respiratory disease is likely to benefit from their inclusion,
+with 545 million people worldwide recorded to suffer from patients using these
+devices to track their dosage. At the same time, healthcare providers can
+improve medication administration and monitor respiratory health (Soriano et
+al., 2020). While IoT medical devices offer numerous benefits, they also have
+security vulnerabilities that can expose patient data to cyberattacks. It's
+crucial to prioritize security measures in developing and deploying IoT medical
+devices, especially in personalized health monitoring systems for individuals
+with respiratory conditions. Efforts are underway to assess the security risks
+associated with intelligent inhalers and respiratory medical devices by
+understanding usability behavior and technological elements to identify and
+address vulnerabilities effectively. This work analyses usability behavior and
+technical vulnerabilities, emphasizing the confidentiality of information
+gained from Smart Inhalers. It then extrapolates to interrogate potential
+vulnerabilities with Implantable Medical Devices (IMDs). Our work explores the
+tensions in device development through the intersection of IoT technology and
+respiratory health, particularly in the context of intelligent inhalers and
+other breathing medical devices, calling for integrating robust security
+measures into the development and deployment of IoT devices to safeguard
+patient data and ensure the secure functioning of these critical healthcare
+technologies.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2503.24089v1">Initial State Privacy of Nonlinear Systems on Riemannian Manifolds</a></h3>
    <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
   <p><b>Published on:</b> 2025-03-31T13:42:18Z</p>
@@ -518,7 +706,7 @@ https://github.com/Sapphire-star/FFMSR.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.22993v1">Calculating Connection vs. Risk: Understanding How Youth Negotiate
+  <h3><a href="http://arxiv.org/abs/2503.22993v2">Calculating Connection vs. Risk: Understanding How Youth Negotiate
   Digital Privacy and Security with Peers Online</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
   <p><b>Published on:</b> 2025-03-29T06:54:46Z</p>
@@ -2062,45 +2250,6 @@ finite-sample regime.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.11963v1">Effective and Efficient Cross-City Traffic Knowledge Transfer A
-  Privacy-Preserving Perspective</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-03-15T02:26:24Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zhihao Zeng, Ziquan Fang, Yuting Huang, Lu Chen, Yunjun Gao</p>
-    <p><b>Summary:</b> Traffic prediction targets forecasting future traffic conditions using
-historical traffic data, serving a critical role in urban computing and
-transportation management. To mitigate the scarcity of traffic data while
-maintaining data privacy, numerous Federated Traffic Knowledge Transfer (FTT)
-approaches have been developed, which use transfer learning and federated
-learning to transfer traffic knowledge from data-rich cities to data-scarce
-cities, enhancing traffic prediction capabilities for the latter. However,
-current FTT approaches face challenges such as privacy leakage, cross-city data
-distribution discrepancies, low data quality, and inefficient knowledge
-transfer, limiting their privacy protection, effectiveness, robustness, and
-efficiency in real-world applications.
-  To this end, we propose FedTT, an effective, efficient, and privacy-aware
-cross-city traffic knowledge transfer framework that transforms the traffic
-data domain from the data-rich cities and trains traffic models using the
-transformed data for the data-scarce cities. First, to safeguard data privacy,
-we propose a traffic secret transmission method that securely transmits and
-aggregates traffic domain-transformed data from source cities using a
-lightweight secret aggregation approach. Second, to mitigate the impact of
-traffic data distribution discrepancies on model performance, we introduce a
-traffic domain adapter to uniformly transform traffic data from the source
-cities' domains to that of the target city. Third, to improve traffic data
-quality, we design a traffic view imputation method to fill in and predict
-missing traffic data. Finally, to enhance transfer efficiency, FedTT is
-equipped with a federated parallel training method that enables the
-simultaneous training of multiple modules. Extensive experiments using 4
-real-life datasets demonstrate that FedTT outperforms the 14 state-of-the-art
-baselines.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2503.11950v2">Privacy Ethics Alignment in AI: A Stakeholder-Centric Based Framework
   for Ethical AI</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
@@ -2781,156 +2930,6 @@ the processes that app engineers regularly follow to achieve privacy compliance
 in SPRCs, the challenges they encounter, the solutions they adopt to address
 these challenges, and the impacts of SPRCs, etc. We found that app engineers
 face a series of challenges in achieving privacy compliance in their apps...</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.08297v1">Privacy for Free: Leveraging Local Differential Privacy Perturbed Data
-  from Multiple Services</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-03-11T11:10:03Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Rong Du, Qingqing Ye, Yue Fu, Haibo Hu</p>
-    <p><b>Summary:</b> Local Differential Privacy (LDP) has emerged as a widely adopted
-privacy-preserving technique in modern data analytics, enabling users to share
-statistical insights while maintaining robust privacy guarantees. However,
-current LDP applications assume a single service gathering perturbed
-information from users. In reality, multiple services may be interested in
-collecting users' data, which poses privacy burdens to users as more such
-services emerge. To address this issue, this paper proposes a framework for
-collecting and aggregating data based on perturbed information from multiple
-services, regardless of their estimated statistics (e.g., mean or distribution)
-and perturbation mechanisms.
-  Then for mean estimation, we introduce the Unbiased Averaging (UA) method and
-its optimized version, User-level Weighted Averaging (UWA). The former utilizes
-biased perturbed data, while the latter assigns weights to different perturbed
-results based on perturbation information, thereby achieving minimal variance.
-For distribution estimation, we propose the User-level Likelihood Estimation
-(ULE), which treats all perturbed results from a user as a whole for maximum
-likelihood estimation. Experimental results demonstrate that our framework and
-constituting methods significantly improve the accuracy of both mean and
-distribution estimation.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.08175v1">Privacy-Enhancing Paradigms within Federated Multi-Agent Systems</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-03-11T08:38:45Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zitong Shi, Guancheng Wan, Wenke Huang, Guibin Zhang, Jiawei Shao, Mang Ye, Carl Yang</p>
-    <p><b>Summary:</b> LLM-based Multi-Agent Systems (MAS) have proven highly effective in solving
-complex problems by integrating multiple agents, each performing different
-roles. However, in sensitive domains, they face emerging privacy protection
-challenges. In this paper, we introduce the concept of Federated MAS,
-highlighting the fundamental differences between Federated MAS and traditional
-FL. We then identify key challenges in developing Federated MAS, including: 1)
-heterogeneous privacy protocols among agents, 2) structural differences in
-multi-party conversations, and 3) dynamic conversational network structures. To
-address these challenges, we propose Embedded Privacy-Enhancing Agents
-(EPEAgent), an innovative solution that integrates seamlessly into the
-Retrieval-Augmented Generation (RAG) phase and the context retrieval stage.
-This solution minimizes data flows, ensuring that only task-relevant,
-agent-specific information is shared. Additionally, we design and generate a
-comprehensive dataset to evaluate the proposed paradigm. Extensive experiments
-demonstrate that EPEAgent effectively enhances privacy protection while
-maintaining strong system performance. The code will be availiable at
-https://github.com/ZitongShi/EPEAgent</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.08085v3">PRISM: Privacy-Preserving Improved Stochastic Masking for Federated
-  Generative Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2025-03-11T06:37:54Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Kyeongkook Seo, Dong-Jun Han, Jaejun Yoo</p>
-    <p><b>Summary:</b> Despite recent advancements in federated learning (FL), the integration of
-generative models into FL has been limited due to challenges such as high
-communication costs and unstable training in heterogeneous data environments.
-To address these issues, we propose PRISM, a FL framework tailored for
-generative models that ensures (i) stable performance in heterogeneous data
-distributions and (ii) resource efficiency in terms of communication cost and
-final model size. The key of our method is to search for an optimal stochastic
-binary mask for a random network rather than updating the model weights,
-identifying a sparse subnetwork with high generative performance; i.e., a
-``strong lottery ticket''. By communicating binary masks in a stochastic
-manner, PRISM minimizes communication overhead. This approach, combined with
-the utilization of maximum mean discrepancy (MMD) loss and a mask-aware dynamic
-moving average aggregation method (MADA) on the server side, facilitates stable
-and strong generative capabilities by mitigating local divergence in FL
-scenarios. Moreover, thanks to its sparsifying characteristic, PRISM yields a
-lightweight model without extra pruning or quantization, making it ideal for
-environments such as edge devices. Experiments on MNIST, FMNIST, CelebA, and
-CIFAR10 demonstrate that PRISM outperforms existing methods, while maintaining
-privacy with minimal communication costs. PRISM is the first to successfully
-generate images under challenging non-IID and privacy-preserving FL
-environments on complex datasets, where previous methods have struggled.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.07775v1">Sublinear Algorithms for Wasserstein and Total Variation Distances:
-  Applications to Fairness and Privacy Auditing</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B"> 
-  <p><b>Published on:</b> 2025-03-10T18:57:48Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Debabrota Basu, Debarshi Chanda</p>
-    <p><b>Summary:</b> Resource-efficiently computing representations of probability distributions
-and the distances between them while only having access to the samples is a
-fundamental and useful problem across mathematical sciences. In this paper, we
-propose a generic algorithmic framework to estimate the PDF and CDF of any
-sub-Gaussian distribution while the samples from them arrive in a stream. We
-compute mergeable summaries of distributions from the stream of samples that
-require sublinear space w.r.t. the number of observed samples. This allows us
-to estimate Wasserstein and Total Variation (TV) distances between any two
-sub-Gaussian distributions while samples arrive in streams and from multiple
-sources (e.g. federated learning). Our algorithms significantly improves on the
-existing methods for distance estimation incurring super-linear time and linear
-space complexities. In addition, we use the proposed estimators of Wasserstein
-and TV distances to audit the fairness and privacy of the ML algorithms. We
-empirically demonstrate the efficiency of the algorithms for estimating these
-distances and auditing using both synthetic and real-world datasets.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.07570v1">Split-n-Chain: Privacy-Preserving Multi-Node Split Learning with
-  Blockchain-Based Auditability</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-03-10T17:40:05Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mukesh Sahani, Binanda Sengupta</p>
-    <p><b>Summary:</b> Deep learning, when integrated with a large amount of training data, has the
-potential to outperform machine learning in terms of high accuracy. Recently,
-privacy-preserving deep learning has drawn significant attention of the
-research community. Different privacy notions in deep learning include privacy
-of data provided by data-owners and privacy of parameters and/or
-hyperparameters of the underlying neural network. Federated learning is a
-popular privacy-preserving execution environment where data-owners participate
-in learning the parameters collectively without leaking their respective data
-to other participants. However, federated learning suffers from certain
-security/privacy issues. In this paper, we propose Split-n-Chain, a variant of
-split learning where the layers of the network are split among several
-distributed nodes. Split-n-Chain achieves several privacy properties:
-data-owners need not share their training data with other nodes, and no nodes
-have access to the parameters and hyperparameters of the neural network (except
-that of the respective layers they hold). Moreover, Split-n-Chain uses
-blockchain to audit the computation done by different nodes. Our experimental
-results show that: Split-n-Chain is efficient, in terms of time required to
-execute different phases, and the training loss trend is similar to that for
-the same neural network when implemented in a monolithic fashion.</p>
   </details>
 </div>
 
