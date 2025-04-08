@@ -269,5 +269,137 @@
       "cs.CR",
       "cs.DC"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.05202v1",
+    "title" : "Infinitely Divisible Noise for Differential Privacy: Nearly Optimal\n  Error in the High $\\varepsilon$ Regime",
+    "summary" : "Differential privacy (DP) can be achieved in a distributed manner, where\nmultiple parties add independent noise such that their sum protects the overall\ndataset with DP. A common technique here is for each party to sample their\nnoise from the decomposition of an infinitely divisible distribution. We\nanalyze two mechanisms in this setting: 1) the generalized discrete Laplace\n(GDL) mechanism, whose distribution (which is closed under summation) follows\nfrom differences of i.i.d. negative binomial shares, and 2) the multi-scale\ndiscrete Laplace (MSDLap) mechanism, a novel mechanism following the sum of\nmultiple i.i.d. discrete Laplace shares at different scales.\n  For $\\varepsilon \\geq 1$, our mechanisms can be parameterized to have\n$O\\left(\\Delta^3 e^{-\\varepsilon}\\right)$ and $O\\left(\\min\\left(\\Delta^3\ne^{-\\varepsilon}, \\Delta^2 e^{-2\\varepsilon/3}\\right)\\right)$ MSE,\nrespectively, where $\\Delta$ denote the sensitivity; the latter bound matches\nknown optimality results. We also show a transformation from the discrete\nsetting to the continuous setting, which allows us to transform both mechanisms\nto the continuous setting and thereby achieve the optimal $O\\left(\\Delta^2\ne^{-2\\varepsilon / 3}\\right)$ MSE. To our knowledge, these are the first\ninfinitely divisible additive noise mechanisms that achieve order-optimal MSE\nunder pure DP, so our work shows formally there is no separation in utility\nwhen query-independent noise adding mechanisms are restricted to infinitely\ndivisible noise. For the continuous setting, our result improves upon the Arete\nmechanism from [Pagh and Stausholm, ALT 2022] which gives an MSE of\n$O\\left(\\Delta^2 e^{-\\varepsilon/4}\\right)$. Furthermore, we give an exact\nsampler tuned to efficiently implement the MSDLap mechanism, and we apply our\nresults to improve a state of the art multi-message shuffle DP protocol in the\nhigh $\\varepsilon$ regime.",
+    "updated" : "2025-04-07T15:50:46Z",
+    "published" : "2025-04-07T15:50:46Z",
+    "authors" : [
+      {
+        "name" : "Charlie Harrison"
+      },
+      {
+        "name" : "Pasin Manurangsi"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DS"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.04734v1",
+    "title" : "Teaching Data Science Students to Sketch Privacy Designs through\n  Heuristics (Extended Technical Report)",
+    "summary" : "Recent studies reveal that experienced data practitioners often draw sketches\nto facilitate communication around privacy design concepts. However, there is\nlimited understanding of how we can help novice students develop such\ncommunication skills. This paper studies methods for lowering novice data\nscience students' barriers to creating high-quality privacy sketches. We first\nconducted a need-finding study (N=12) to identify barriers students face when\nsketching privacy designs. We then used a human-centered design approach to\nguide the method development, culminating in three simple, text-based\nheuristics. Our user studies with 24 data science students revealed that simply\npresenting three heuristics to the participants at the beginning of the study\ncan enhance the coverage of privacy-related design decisions in sketches,\nreduce the mental effort required for creating sketches, and improve the\nreadability of the final sketches.",
+    "updated" : "2025-04-07T05:12:21Z",
+    "published" : "2025-04-07T05:12:21Z",
+    "authors" : [
+      {
+        "name" : "Jinhe Wen"
+      },
+      {
+        "name" : "Yingxi Zhao"
+      },
+      {
+        "name" : "Wenqian Xu"
+      },
+      {
+        "name" : "Yaxing Yao"
+      },
+      {
+        "name" : "Haojian Jin"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "cs.CR",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.04388v1",
+    "title" : "Who's Watching You Zoom? Investigating Privacy of Third-Party Zoom Apps",
+    "summary" : "Zoom serves millions of users daily and allows third-party developers to\nintegrate their apps with the Zoom client and reach those users. So far, these\napps' privacy and security aspects, which can access rich audio-visual data\n(among others) from Zoom, have not been scientifically investigated. This paper\nexamines the evolution of the Zoom Marketplace over one year, identifying\ntrends in apps, their data collection behaviors, and the transparency of\nprivacy policies. Our findings include worrisome details about the increasing\nover-collection of user data, non-transparency about purposes and sharing\nbehaviors, and possible non-compliance with relevant laws. We believe these\nfindings will inform future privacy and security research on this platform and\nhelp improve Zoom's app review process and platform policy.",
+    "updated" : "2025-04-06T06:48:58Z",
+    "published" : "2025-04-06T06:48:58Z",
+    "authors" : [
+      {
+        "name" : "Saharsh Goenka"
+      },
+      {
+        "name" : "Adit Prabhu"
+      },
+      {
+        "name" : "Payge Sakurai"
+      },
+      {
+        "name" : "Mrinaal Ramachandran"
+      },
+      {
+        "name" : "Rakibul Hasan"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.04033v1",
+    "title" : "Disparate Privacy Vulnerability: Targeted Attribute Inference Attacks\n  and Defenses",
+    "summary" : "As machine learning (ML) technologies become more prevalent in\nprivacy-sensitive areas like healthcare and finance, eventually incorporating\nsensitive information in building data-driven algorithms, it is vital to\nscrutinize whether these data face any privacy leakage risks. One potential\nthreat arises from an adversary querying trained models using the public,\nnon-sensitive attributes of entities in the training data to infer their\nprivate, sensitive attributes, a technique known as the attribute inference\nattack. This attack is particularly deceptive because, while it may perform\npoorly in predicting sensitive attributes across the entire dataset, it excels\nat predicting the sensitive attributes of records from a few vulnerable groups,\na phenomenon known as disparate vulnerability. This paper illustrates that an\nadversary can take advantage of this disparity to carry out a series of new\nattacks, showcasing a threat level beyond previous imagination. We first\ndevelop a novel inference attack called the disparity inference attack, which\ntargets the identification of high-risk groups within the dataset. We then\nintroduce two targeted variations of the attribute inference attack that can\nidentify and exploit a vulnerable subset of the training data, marking the\nfirst instances of targeted attacks in this category, achieving significantly\nhigher accuracy than untargeted versions. We are also the first to introduce a\nnovel and effective disparity mitigation technique that simultaneously\npreserves model performance and prevents any risk of targeted attacks.",
+    "updated" : "2025-04-05T02:58:37Z",
+    "published" : "2025-04-05T02:58:37Z",
+    "authors" : [
+      {
+        "name" : "Ehsanul Kabir"
+      },
+      {
+        "name" : "Lucas Craig"
+      },
+      {
+        "name" : "Shagufta Mehnaz"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.03798v1",
+    "title" : "An Intelligent and Privacy-Preserving Digital Twin Model for\n  Aging-in-Place",
+    "summary" : "The population of older adults is steadily increasing, with a strong\npreference for aging-in-place rather than moving to care facilities.\nConsequently, supporting this growing demographic has become a significant\nglobal challenge. However, facilitating successful aging-in-place is\nchallenging, requiring consideration of multiple factors such as data privacy,\nhealth status monitoring, and living environments to improve health outcomes.\nIn this paper, we propose an unobtrusive sensor system designed for\ninstallation in older adults' homes. Using data from the sensors, our system\nconstructs a digital twin, a virtual representation of events and activities\nthat occurred in the home. The system uses neural network models and decision\nrules to capture residents' activities and living environments. This digital\ntwin enables continuous health monitoring by providing actionable insights into\nresidents' well-being. Our system is designed to be low-cost and\nprivacy-preserving, with the aim of providing green and safe monitoring for the\nhealth of older adults. We have successfully deployed our system in two homes\nover a time period of two months, and our findings demonstrate the feasibility\nand effectiveness of digital twin technology in supporting independent living\nfor older adults. This study highlights that our system could revolutionize\nelder care by enabling personalized interventions, such as lifestyle\nadjustments, medical treatments, or modifications to the residential\nenvironment, to enhance health outcomes.",
+    "updated" : "2025-04-04T05:37:08Z",
+    "published" : "2025-04-04T05:37:08Z",
+    "authors" : [
+      {
+        "name" : "Yongjie Wang"
+      },
+      {
+        "name" : "Jonathan Cyril Leung"
+      },
+      {
+        "name" : "Ming Chen"
+      },
+      {
+        "name" : "Zhiwei Zeng"
+      },
+      {
+        "name" : "Benny Toh Hsiang Tan"
+      },
+      {
+        "name" : "Yang Qiu"
+      },
+      {
+        "name" : "Zhiqi Shen"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.AI",
+      "68T05,",
+      "I.2; J.3"
+    ]
   }
 ]
