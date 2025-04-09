@@ -2,6 +2,32 @@
 <h2>2025-04</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.05849v1">On the Importance of Conditioning for Privacy-Preserving Data
+  Augmentation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2025-04-08T09:27:51Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Julian Lorenz, Katja Ludwig, Valentin Haug, Rainer Lienhart</p>
+    <p><b>Summary:</b> Latent diffusion models can be used as a powerful augmentation method to
+artificially extend datasets for enhanced training. To the human eye, these
+augmented images look very different to the originals. Previous work has
+suggested to use this data augmentation technique for data anonymization.
+However, we show that latent diffusion models that are conditioned on features
+like depth maps or edges to guide the diffusion process are not suitable as a
+privacy preserving method. We use a contrastive learning approach to train a
+model that can correctly identify people out of a pool of candidates. Moreover,
+we demonstrate that anonymization using conditioned diffusion models is
+susceptible to black box attacks. We attribute the success of the described
+methods to the conditioning of the latent diffusion model in the anonymization
+process. The diffusion model is instructed to produce similar edges for the
+anonymized images. Hence, a model can learn to recognize these patterns for
+identification.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2504.05202v1">Infinitely Divisible Noise for Differential Privacy: Nearly Optimal
   Error in the High $\varepsilon$ Regime</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B">
@@ -2896,40 +2922,6 @@ integration of differential privacy and personalized federated learning.
 Experimental results on EMNIST, CIFAR-10, and CIFAR-100 demonstrate that our
 proposed scheme achieves superior performance and is well-suited for more
 complex personalized federated learning scenarios.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.08568v1">Privacy Law Enforcement Under Centralized Governance: A Qualitative
-  Analysis of Four Years' Special Privacy Rectification Campaigns</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-03-11T15:56:09Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Tao Jing, Yao Li, Jingzhou Ye, Jie Wang, Xueqiang Wang</p>
-    <p><b>Summary:</b> In recent years, major privacy laws like the GDPR have brought about positive
-changes. However, challenges remain in enforcing the laws, particularly due to
-under-resourced regulators facing a large number of potential privacy-violating
-software applications (apps) and the high costs of investigating them. Since
-2019, China has launched a series of privacy enforcement campaigns known as
-Special Privacy Rectification Campaigns (SPRCs) to address widespread privacy
-violations in its mobile application (app) ecosystem. Unlike the enforcement of
-the GDPR, SPRCs are characterized by large-scale privacy reviews and strict
-sanctions, under the strong control of central authorities. In SPRCs, central
-government authorities issue administrative orders to mobilize various
-resources for market-wide privacy reviews of mobile apps. They enforce strict
-sanctions by requiring privacy-violating apps to rectify issues within a short
-timeframe or face removal from app stores. While there are a few reports on
-SPRCs, the effectiveness and potential problems of this campaign-style privacy
-enforcement approach remain unclear to the community. In this study, we
-conducted 18 semi-structured interviews with app-related engineers involved in
-SPRCs to better understand the campaign-style privacy enforcement. Based on the
-interviews, we reported our findings on a variety of aspects of SPRCs, such as
-the processes that app engineers regularly follow to achieve privacy compliance
-in SPRCs, the challenges they encounter, the solutions they adopt to address
-these challenges, and the impacts of SPRCs, etc. We found that app engineers
-face a series of challenges in achieving privacy compliance in their apps...</p>
   </details>
 </div>
 
