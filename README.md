@@ -2,6 +2,73 @@
 <h2>2025-04</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.06697v1">"Sorry for bugging you so much." Exploring Developers' Behavior Towards
+  Privacy-Compliant Implementation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
+  <p><b>Published on:</b> 2025-04-09T08:59:17Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Stefan Albert Horstmann, Sandy Hong, David Klein, Raphael Serafini, Martin Degeling, Martin Johns, Veelasha Moonsamy, Alena Naiakshina</p>
+    <p><b>Summary:</b> While protecting user data is essential, software developers often fail to
+fulfill privacy requirements. However, the reasons why they struggle with
+privacy-compliant implementation remain unclear. Is it due to a lack of
+knowledge, or is it because of insufficient support? To provide foundational
+insights in this field, we conducted a qualitative 5-hour programming study
+with 30 professional software developers implementing 3 privacy-sensitive
+programming tasks that were designed with GDPR compliance in mind. To explore
+if and how developers implement privacy requirements, participants were divided
+into 3 groups: control, privacy prompted, and privacy expert-supported. After
+task completion, we conducted follow-up interviews. Alarmingly, almost all
+participants submitted non-GDPR-compliant solutions (79/90). In particular,
+none of the 3 tasks were solved privacy-compliant by all 30 participants, with
+the non-prompted group having the lowest number of 3 out of 30
+privacy-compliant solution attempts. Privacy prompting and expert support only
+slightly improved participants' submissions, with 6/30 and 8/30
+privacy-compliant attempts, respectively. In fact, all participants reported
+severe issues addressing common privacy requirements such as purpose
+limitation, user consent, or data minimization. Counterintuitively, although
+most developers exhibited minimal confidence in their solutions, they rarely
+sought online assistance or contacted the privacy expert, with only 4 out of 10
+expert-supported participants explicitly asking for compliance confirmation.
+Instead, participants often relied on existing implementations and focused on
+implementing functionality and security first.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.06552v1">Understanding Users' Security and Privacy Concerns and Attitudes Towards
+  Conversational AI Platforms</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2025-04-09T03:22:48Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mutahar Ali, Arjun Arunasalam, Habiba Farrukh</p>
+    <p><b>Summary:</b> The widespread adoption of conversational AI platforms has introduced new
+security and privacy risks. While these risks and their mitigation strategies
+have been extensively researched from a technical perspective, users'
+perceptions of these platforms' security and privacy remain largely unexplored.
+In this paper, we conduct a large-scale analysis of over 2.5M user posts from
+the r/ChatGPT Reddit community to understand users' security and privacy
+concerns and attitudes toward conversational AI platforms. Our qualitative
+analysis reveals that users are concerned about each stage of the data
+lifecycle (i.e., collection, usage, and retention). They seek mitigations for
+security vulnerabilities, compliance with privacy regulations, and greater
+transparency and control in data handling. We also find that users exhibit
+varied behaviors and preferences when interacting with these platforms. Some
+users proactively safeguard their data and adjust privacy settings, while
+others prioritize convenience over privacy risks, dismissing privacy concerns
+in favor of benefits, or feel resigned to inevitable data sharing. Through
+qualitative content and regression analysis, we discover that users' concerns
+evolve over time with the evolving AI landscape and are influenced by
+technological developments and major events. Based on our findings, we provide
+recommendations for users, platforms, enterprises, and policymakers to enhance
+transparency, improve data controls, and increase user trust and adoption.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2504.05849v1">On the Importance of Conditioning for Privacy-Preserving Data
   Augmentation</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
@@ -2856,72 +2923,6 @@ bits with flexible output sizes up to the input size. For DV-QKD systems, our
 PA scheme supports an input block size nearly two orders of magnitude larger
 than current FPGA-based PA schemes, significantly mitigating the impact of the
 finite-size effect on the final secure key rate.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.09317v1">RaceTEE: A Practical Privacy-Preserving Off-Chain Smart Contract
-  Execution Architecture</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-03-12T12:10:02Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Keyu Zhang, Andrew Martin</p>
-    <p><b>Summary:</b> Decentralized on-chain smart contracts enable trustless collaboration, yet
-their inherent data transparency and execution overhead hinder widespread
-adoption. Existing cryptographic approaches incur high computational costs and
-lack generality. Meanwhile, prior TEE-based solutions suffer from practical
-limitations, such as the inability to support inter-contract interactions,
-reliance on unbreakable TEEs, and compromised usability. We introduce RaceTEE,
-a practical and privacy-preserving off-chain execution architecture for smart
-contracts that leverages Trusted Execution Environments (TEEs). RaceTEE
-decouples transaction ordering (on-chain) from execution (off-chain), with
-computations performed competitively in TEEs, ensuring confidentiality and
-minimizing overhead. It further enhances practicality through three key
-improvements: supporting secure inter-contract interactions, providing a key
-rotation scheme that enforces forward and backward secrecy even in the event of
-TEE breaches, and enabling full compatibility with existing blockchains without
-altering the user interaction model. To validate its feasibility, we prototype
-RaceTEE using Intel SGX and Ethereum, demonstrating its applicability across
-various use cases and evaluating its performance.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.09192v1">Differential Privacy Personalized Federated Learning Based on
-  Dynamically Sparsified Client Updates</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-03-12T09:34:05Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Chuanyin Wang, Yifei Zhang, Neng Gao, Qiang Luo</p>
-    <p><b>Summary:</b> Personalized federated learning is extensively utilized in scenarios
-characterized by data heterogeneity, facilitating more efficient and automated
-local training on data-owning terminals. This includes the automated selection
-of high-performance model parameters for upload, thereby enhancing the overall
-training process. However, it entails significant risks of privacy leakage.
-Existing studies have attempted to mitigate these risks by utilizing
-differential privacy. Nevertheless, these studies present two major
-limitations: (1) The integration of differential privacy into personalized
-federated learning lacks sufficient personalization, leading to the
-introduction of excessive noise into the model. (2) It fails to adequately
-control the spatial scope of model update information, resulting in a
-suboptimal balance between data privacy and model effectiveness in differential
-privacy federated learning. In this paper, we propose a differentially private
-personalized federated learning approach that employs dynamically sparsified
-client updates through reparameterization and adaptive norm(DP-pFedDSU).
-Reparameterization training effectively selects personalized client update
-information, thereby reducing the quantity of updates. This approach minimizes
-the introduction of noise to the greatest extent possible. Additionally,
-dynamic adaptive norm refers to controlling the norm space of model updates
-during the training process, mitigating the negative impact of clipping on the
-update information. These strategies substantially enhance the effective
-integration of differential privacy and personalized federated learning.
-Experimental results on EMNIST, CIFAR-10, and CIFAR-100 demonstrate that our
-proposed scheme achieves superior performance and is well-suited for more
-complex personalized federated learning scenarios.</p>
   </details>
 </div>
 
