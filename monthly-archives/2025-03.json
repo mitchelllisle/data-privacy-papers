@@ -3834,5 +3834,27 @@
     "categories" : [
       "cs.HC"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.07107v1",
+    "title" : "Guarding Digital Privacy: Exploring User Profiling and Security\n  Enhancements",
+    "summary" : "User profiling, the practice of collecting user information for personalized\nrecommendations, has become widespread, driving progress in technology.\nHowever, this growth poses a threat to user privacy, as devices often collect\nsensitive data without their owners' awareness. This article aims to\nconsolidate knowledge on user profiling, exploring various approaches and\nassociated challenges. Through the lens of two companies sharing user data and\nan analysis of 18 popular Android applications in India across various\ncategories, including $\\textit{Social, Education, Entertainment, Travel,\nShopping and Others}$, the article unveils privacy vulnerabilities. Further,\nthe article propose an enhanced machine learning framework, employing decision\ntrees and neural networks, that improves state-of-the-art classifiers in\ndetecting personal information exposure. Leveraging the XAI (explainable\nartificial intelligence) algorithm LIME (Local Interpretable Model-agnostic\nExplanations), it enhances interpretability, crucial for reliably identifying\nsensitive data. Results demonstrate a noteworthy performance boost, achieving a\n$75.01\\%$ accuracy with a reduced training time of $3.62$ seconds for neural\nnetworks. Concluding, the paper suggests research directions to strengthen\ndigital security measures.",
+    "updated" : "2025-03-17T10:56:46Z",
+    "published" : "2025-03-17T10:56:46Z",
+    "authors" : [
+      {
+        "name" : "Rishika Kohli"
+      },
+      {
+        "name" : "Shaifu Gupta"
+      },
+      {
+        "name" : "Manoj Singh Gaur"
+      }
+    ],
+    "categories" : [
+      "cs.IR",
+      "cs.LG"
+    ]
   }
 ]
