@@ -483,5 +483,135 @@
       "cs.CR",
       "cs.CY"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.07761v1",
+    "title" : "Exploring a Patch-Wise Approach for Privacy-Preserving Fake ID Detection",
+    "summary" : "In an increasingly digitalized world, verifying the authenticity of ID\ndocuments has become a critical challenge for real-life applications such as\ndigital banking, crypto-exchanges, renting, etc. This study focuses on the\ntopic of fake ID detection, covering several limitations in the field. In\nparticular, no publicly available data from real ID documents exists, and most\nstudies rely on proprietary in-house databases that are not available due to\nprivacy reasons. In order to shed some light on this critical challenge that\nmakes difficult to advance in the field, we explore a trade-off between privacy\n(i.e., amount of sensitive data available) and performance, proposing a novel\npatch-wise approach for privacy-preserving fake ID detection. Our proposed\napproach explores how privacy can be enhanced through: i) two levels of\nanonymization for an ID document (i.e., fully- and pseudo-anonymized), and ii)\ndifferent patch size configurations, varying the amount of sensitive data\nvisible in the patch image. Also, state-of-the-art methods such as Vision\nTransformers and Foundation Models are considered in the analysis. The\nexperimental framework shows that, on an unseen database (DLC-2021), our\nproposal achieves 13.91% and 0% EERs at patch and ID document level, showing a\ngood generalization to other databases. In addition to this exploration,\nanother key contribution of our study is the release of the first publicly\navailable database that contains 48,400 patches from both real and fake ID\ndocuments, along with the experimental framework and models, which will be\navailable in our GitHub.",
+    "updated" : "2025-04-10T14:01:22Z",
+    "published" : "2025-04-10T14:01:22Z",
+    "authors" : [
+      {
+        "name" : "Javier Muñoz-Haro"
+      },
+      {
+        "name" : "Ruben Tolosana"
+      },
+      {
+        "name" : "Ruben Vera-Rodriguez"
+      },
+      {
+        "name" : "Aythami Morales"
+      },
+      {
+        "name" : "Julian Fierrez"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.07578v1",
+    "title" : "Privacy-Preserving Vertical K-Means Clustering",
+    "summary" : "Clustering is a fundamental data processing task used for grouping records\nbased on one or more features. In the vertically partitioned setting, data is\ndistributed among entities, with each holding only a subset of those features.\nA key challenge in this scenario is that computing distances between records\nrequires access to all distributed features, which may be privacy-sensitive and\ncannot be directly shared with other parties. The goal is to compute the joint\nclusters while preserving the privacy of each entity's dataset. Existing\nsolutions using secret sharing or garbled circuits implement privacy-preserving\nvariants of Lloyd's algorithm but incur high communication costs, scaling as\nO(nkt), where n is the number of data points, k the number of clusters, and t\nthe number of rounds. These methods become impractical for large datasets or\nseveral parties, limiting their use to LAN settings only. On the other hand, a\ndifferent line of solutions rely on differential privacy (DP) to outsource the\nlocal features of the parties to a central server. However, they often\nsignificantly degrade the utility of the clustering outcome due to excessive\nnoise. In this work, we propose a novel solution based on homomorphic\nencryption and DP, reducing communication complexity to O(n+kt). In our method,\nparties securely outsource their features once, allowing a computing party to\nperform clustering operations under encryption. DP is applied only to the\nclusters' centroids, ensuring privacy with minimal impact on utility. Our\nsolution clusters 100,000 two-dimensional points into five clusters using only\n73MB of communication, compared to 101GB for existing works, and completes in\njust under 3 minutes on a 100Mbps network, whereas existing works take over 1\nday. This makes our solution practical even for WAN deployments, all while\nmaintaining accuracy comparable to plaintext k-means algorithms.",
+    "updated" : "2025-04-10T09:20:56Z",
+    "published" : "2025-04-10T09:20:56Z",
+    "authors" : [
+      {
+        "name" : "Federico Mazzone"
+      },
+      {
+        "name" : "Trevor Brown"
+      },
+      {
+        "name" : "Florian Kerschbaum"
+      },
+      {
+        "name" : "Kevin H. Wilson"
+      },
+      {
+        "name" : "Maarten Everts"
+      },
+      {
+        "name" : "Florian Hahn"
+      },
+      {
+        "name" : "Andreas Peter"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.07414v1",
+    "title" : "Decomposition-Based Optimal Bounds for Privacy Amplification via\n  Shuffling",
+    "summary" : "Shuffling has been shown to amplify differential privacy guarantees, offering\na stronger privacy-utility trade-off. To characterize and compute this\namplification, two fundamental analytical frameworks have been proposed: the\nprivacy blanket by Balle et al. (CRYPTO 2019) and the clone paradigm (including\nboth the standard clone and stronger clone) by Feldman et al. (FOCS 2021, SODA\n2023). All these methods rely on decomposing local randomizers.\n  In this work, we introduce a unified analysis framework--the general clone\nparadigm--which encompasses all possible decompositions. We identify the\noptimal decomposition within the general clone paradigm. Moreover, we develop a\nsimple and efficient algorithm to compute the exact value of the optimal\nprivacy amplification bounds via Fast Fourier Transform. Experimental results\ndemonstrate that the computed upper bounds for privacy amplification closely\napproximate the lower bounds, highlighting the tightness of our approach.\nFinally, using our algorithm, we conduct the first systematic analysis of the\njoint composition of LDP protocols in the shuffle model.",
+    "updated" : "2025-04-10T03:11:17Z",
+    "published" : "2025-04-10T03:11:17Z",
+    "authors" : [
+      {
+        "name" : "Pengcheng Su"
+      },
+      {
+        "name" : "Haibo Cheng"
+      },
+      {
+        "name" : "Ping Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.07362v1",
+    "title" : "Augmented Shuffle Protocols for Accurate and Robust Frequency Estimation\n  under Differential Privacy",
+    "summary" : "The shuffle model of DP (Differential Privacy) provides high utility by\nintroducing a shuffler that randomly shuffles noisy data sent from users.\nHowever, recent studies show that existing shuffle protocols suffer from the\nfollowing two major drawbacks. First, they are vulnerable to local data\npoisoning attacks, which manipulate the statistics about input data by sending\ncrafted data, especially when the privacy budget epsilon is small. Second, the\nactual value of epsilon is increased by collusion attacks by the data collector\nand users.\n  In this paper, we address these two issues by thoroughly exploring the\npotential of the augmented shuffle model, which allows the shuffler to perform\nadditional operations, such as random sampling and dummy data addition.\nSpecifically, we propose a generalized framework for local-noise-free protocols\nin which users send (encrypted) input data to the shuffler without adding\nnoise. We show that this generalized protocol provides DP and is robust to the\nabove two attacks if a simpler mechanism that performs the same process on\nbinary input data provides DP. Based on this framework, we propose three\nconcrete protocols providing DP and robustness against the two attacks. Our\nfirst protocol generates the number of dummy values for each item from a\nbinomial distribution and provides higher utility than several state-of-the-art\nexisting shuffle protocols. Our second protocol significantly improves the\nutility of our first protocol by introducing a novel dummy-count distribution:\nasymmetric two-sided geometric distribution. Our third protocol is a special\ncase of our second protocol and provides pure epsilon-DP. We show the\neffectiveness of our protocols through theoretical analysis and comprehensive\nexperiments.",
+    "updated" : "2025-04-10T01:06:05Z",
+    "published" : "2025-04-10T01:06:05Z",
+    "authors" : [
+      {
+        "name" : "Takao Murakami"
+      },
+      {
+        "name" : "Yuichi Sei"
+      },
+      {
+        "name" : "Reo Eriguchi"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.07323v1",
+    "title" : "Prekey Pogo: Investigating Security and Privacy Issues in WhatsApp's\n  Handshake Mechanism",
+    "summary" : "WhatsApp, the world's largest messaging application, uses a version of the\nSignal protocol to provide end-to-end encryption (E2EE) with strong security\nguarantees, including Perfect Forward Secrecy (PFS). To ensure PFS right from\nthe start of a new conversation -- even when the recipient is offline -- a\nstash of ephemeral (one-time) prekeys must be stored on a server. While the\ncritical role of these one-time prekeys in achieving PFS has been outlined in\nthe Signal specification, we are the first to demonstrate a targeted depletion\nattack against them on individual WhatsApp user devices. Our findings not only\nreveal an attack that can degrade PFS for certain messages, but also expose\ninherent privacy risks and serious availability implications arising from the\nrefilling and distribution procedure essential for this security mechanism.",
+    "updated" : "2025-04-09T22:53:13Z",
+    "published" : "2025-04-09T22:53:13Z",
+    "authors" : [
+      {
+        "name" : "Gabriel K. Gegenhuber"
+      },
+      {
+        "name" : "Philipp É. Frenzel"
+      },
+      {
+        "name" : "Maximilian Günther"
+      },
+      {
+        "name" : "Aljosha Judmayer"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.NI"
+    ]
   }
 ]
