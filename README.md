@@ -2,6 +2,162 @@
 <h2>2025-04</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.07761v1">Exploring a Patch-Wise Approach for Privacy-Preserving Fake ID Detection</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-04-10T14:01:22Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Javier Muñoz-Haro, Ruben Tolosana, Ruben Vera-Rodriguez, Aythami Morales, Julian Fierrez</p>
+    <p><b>Summary:</b> In an increasingly digitalized world, verifying the authenticity of ID
+documents has become a critical challenge for real-life applications such as
+digital banking, crypto-exchanges, renting, etc. This study focuses on the
+topic of fake ID detection, covering several limitations in the field. In
+particular, no publicly available data from real ID documents exists, and most
+studies rely on proprietary in-house databases that are not available due to
+privacy reasons. In order to shed some light on this critical challenge that
+makes difficult to advance in the field, we explore a trade-off between privacy
+(i.e., amount of sensitive data available) and performance, proposing a novel
+patch-wise approach for privacy-preserving fake ID detection. Our proposed
+approach explores how privacy can be enhanced through: i) two levels of
+anonymization for an ID document (i.e., fully- and pseudo-anonymized), and ii)
+different patch size configurations, varying the amount of sensitive data
+visible in the patch image. Also, state-of-the-art methods such as Vision
+Transformers and Foundation Models are considered in the analysis. The
+experimental framework shows that, on an unseen database (DLC-2021), our
+proposal achieves 13.91% and 0% EERs at patch and ID document level, showing a
+good generalization to other databases. In addition to this exploration,
+another key contribution of our study is the release of the first publicly
+available database that contains 48,400 patches from both real and fake ID
+documents, along with the experimental framework and models, which will be
+available in our GitHub.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.07578v1">Privacy-Preserving Vertical K-Means Clustering</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-04-10T09:20:56Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Federico Mazzone, Trevor Brown, Florian Kerschbaum, Kevin H. Wilson, Maarten Everts, Florian Hahn, Andreas Peter</p>
+    <p><b>Summary:</b> Clustering is a fundamental data processing task used for grouping records
+based on one or more features. In the vertically partitioned setting, data is
+distributed among entities, with each holding only a subset of those features.
+A key challenge in this scenario is that computing distances between records
+requires access to all distributed features, which may be privacy-sensitive and
+cannot be directly shared with other parties. The goal is to compute the joint
+clusters while preserving the privacy of each entity's dataset. Existing
+solutions using secret sharing or garbled circuits implement privacy-preserving
+variants of Lloyd's algorithm but incur high communication costs, scaling as
+O(nkt), where n is the number of data points, k the number of clusters, and t
+the number of rounds. These methods become impractical for large datasets or
+several parties, limiting their use to LAN settings only. On the other hand, a
+different line of solutions rely on differential privacy (DP) to outsource the
+local features of the parties to a central server. However, they often
+significantly degrade the utility of the clustering outcome due to excessive
+noise. In this work, we propose a novel solution based on homomorphic
+encryption and DP, reducing communication complexity to O(n+kt). In our method,
+parties securely outsource their features once, allowing a computing party to
+perform clustering operations under encryption. DP is applied only to the
+clusters' centroids, ensuring privacy with minimal impact on utility. Our
+solution clusters 100,000 two-dimensional points into five clusters using only
+73MB of communication, compared to 101GB for existing works, and completes in
+just under 3 minutes on a 100Mbps network, whereas existing works take over 1
+day. This makes our solution practical even for WAN deployments, all while
+maintaining accuracy comparable to plaintext k-means algorithms.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.07414v1">Decomposition-Based Optimal Bounds for Privacy Amplification via
+  Shuffling</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-04-10T03:11:17Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Pengcheng Su, Haibo Cheng, Ping Wang</p>
+    <p><b>Summary:</b> Shuffling has been shown to amplify differential privacy guarantees, offering
+a stronger privacy-utility trade-off. To characterize and compute this
+amplification, two fundamental analytical frameworks have been proposed: the
+privacy blanket by Balle et al. (CRYPTO 2019) and the clone paradigm (including
+both the standard clone and stronger clone) by Feldman et al. (FOCS 2021, SODA
+2023). All these methods rely on decomposing local randomizers.
+  In this work, we introduce a unified analysis framework--the general clone
+paradigm--which encompasses all possible decompositions. We identify the
+optimal decomposition within the general clone paradigm. Moreover, we develop a
+simple and efficient algorithm to compute the exact value of the optimal
+privacy amplification bounds via Fast Fourier Transform. Experimental results
+demonstrate that the computed upper bounds for privacy amplification closely
+approximate the lower bounds, highlighting the tightness of our approach.
+Finally, using our algorithm, we conduct the first systematic analysis of the
+joint composition of LDP protocols in the shuffle model.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.07362v1">Augmented Shuffle Protocols for Accurate and Robust Frequency Estimation
+  under Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-04-10T01:06:05Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Takao Murakami, Yuichi Sei, Reo Eriguchi</p>
+    <p><b>Summary:</b> The shuffle model of DP (Differential Privacy) provides high utility by
+introducing a shuffler that randomly shuffles noisy data sent from users.
+However, recent studies show that existing shuffle protocols suffer from the
+following two major drawbacks. First, they are vulnerable to local data
+poisoning attacks, which manipulate the statistics about input data by sending
+crafted data, especially when the privacy budget epsilon is small. Second, the
+actual value of epsilon is increased by collusion attacks by the data collector
+and users.
+  In this paper, we address these two issues by thoroughly exploring the
+potential of the augmented shuffle model, which allows the shuffler to perform
+additional operations, such as random sampling and dummy data addition.
+Specifically, we propose a generalized framework for local-noise-free protocols
+in which users send (encrypted) input data to the shuffler without adding
+noise. We show that this generalized protocol provides DP and is robust to the
+above two attacks if a simpler mechanism that performs the same process on
+binary input data provides DP. Based on this framework, we propose three
+concrete protocols providing DP and robustness against the two attacks. Our
+first protocol generates the number of dummy values for each item from a
+binomial distribution and provides higher utility than several state-of-the-art
+existing shuffle protocols. Our second protocol significantly improves the
+utility of our first protocol by introducing a novel dummy-count distribution:
+asymmetric two-sided geometric distribution. Our third protocol is a special
+case of our second protocol and provides pure epsilon-DP. We show the
+effectiveness of our protocols through theoretical analysis and comprehensive
+experiments.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.07323v1">Prekey Pogo: Investigating Security and Privacy Issues in WhatsApp's
+  Handshake Mechanism</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
+  <p><b>Published on:</b> 2025-04-09T22:53:13Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Gabriel K. Gegenhuber, Philipp É. Frenzel, Maximilian Günther, Aljosha Judmayer</p>
+    <p><b>Summary:</b> WhatsApp, the world's largest messaging application, uses a version of the
+Signal protocol to provide end-to-end encryption (E2EE) with strong security
+guarantees, including Perfect Forward Secrecy (PFS). To ensure PFS right from
+the start of a new conversation -- even when the recipient is offline -- a
+stash of ephemeral (one-time) prekeys must be stored on a server. While the
+critical role of these one-time prekeys in achieving PFS has been outlined in
+the Signal specification, we are the first to demonstrate a targeted depletion
+attack against them on individual WhatsApp user devices. Our findings not only
+reveal an attack that can degrade PFS for certain messages, but also expose
+inherent privacy risks and serious availability implications arising from the
+refilling and distribution procedure essential for this security mechanism.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2504.06697v1">"Sorry for bugging you so much." Exploring Developers' Behavior Towards
   Privacy-Compliant Implementation</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
@@ -1937,6 +2093,36 @@ various scenarios.</p>
 
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.07107v1">Guarding Digital Privacy: Exploring User Profiling and Security
+  Enhancements</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-03-17T10:56:46Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Rishika Kohli, Shaifu Gupta, Manoj Singh Gaur</p>
+    <p><b>Summary:</b> User profiling, the practice of collecting user information for personalized
+recommendations, has become widespread, driving progress in technology.
+However, this growth poses a threat to user privacy, as devices often collect
+sensitive data without their owners' awareness. This article aims to
+consolidate knowledge on user profiling, exploring various approaches and
+associated challenges. Through the lens of two companies sharing user data and
+an analysis of 18 popular Android applications in India across various
+categories, including $\textit{Social, Education, Entertainment, Travel,
+Shopping and Others}$, the article unveils privacy vulnerabilities. Further,
+the article propose an enhanced machine learning framework, employing decision
+trees and neural networks, that improves state-of-the-art classifiers in
+detecting personal information exposure. Leveraging the XAI (explainable
+artificial intelligence) algorithm LIME (Local Interpretable Model-agnostic
+Explanations), it enhances interpretability, crucial for reliably identifying
+sensitive data. Results demonstrate a noteworthy performance boost, achieving a
+$75.01\%$ accuracy with a reduced training time of $3.62$ seconds for neural
+networks. Concluding, the paper suggests research directions to strengthen
+digital security measures.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2503.12958v1">FedSDP: Explainable Differential Privacy in Federated Learning via
   Shapley Values</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
@@ -2748,181 +2934,6 @@ other legal terms apply, and whom it is being shared with. By applying our
 alignment framework, we demonstrate that OTrace's technical affordances can
 provide more confident, scalable regulatory oversight when combined with
 complementary legal mechanisms.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.09780v1">AgentDAM: Privacy Leakage Evaluation for Autonomous Web Agents</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-03-12T19:30:31Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Arman Zharmagambetov, Chuan Guo, Ivan Evtimov, Maya Pavlova, Ruslan Salakhutdinov, Kamalika Chaudhuri</p>
-    <p><b>Summary:</b> LLM-powered AI agents are an emerging frontier with tremendous potential to
-increase human productivity. However, empowering AI agents to take action on
-their user's behalf in day-to-day tasks involves giving them access to
-potentially sensitive and private information, which leads to a possible risk
-of inadvertent privacy leakage when the agent malfunctions. In this work, we
-propose one way to address that potential risk, by training AI agents to better
-satisfy the privacy principle of data minimization. For the purposes of this
-benchmark, by "data minimization" we mean instances where private information
-is shared only when it is necessary to fulfill a specific task-relevant
-purpose. We develop a benchmark called AgentDAM to evaluate how well existing
-and future AI agents can limit processing of potentially private information
-that we designate "necessary" to fulfill the task. Our benchmark simulates
-realistic web interaction scenarios and is adaptable to all existing web
-navigation agents. We use AgentDAM to evaluate how well AI agents built on top
-of GPT-4, Llama-3 and Claude can limit processing of potentially private
-information when unnecessary, and show that these agents are often prone to
-inadvertent use of unnecessary sensitive information. We finally propose a
-prompting-based approach that reduces this.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.11711v1">Privacy-Preserved Automated Scoring using Federated Learning for
-  Educational Research</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-03-12T19:06:25Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ehsan Latif, Xiaoming Zhai</p>
-    <p><b>Summary:</b> Data privacy remains a critical concern in educational research,
-necessitating Institutional Review Board (IRB) certification and stringent data
-handling protocols to ensure compliance with ethical standards. Traditional
-approaches rely on anonymization and controlled data-sharing mechanisms to
-facilitate research while mitigating privacy risks. However, these methods
-still involve direct access to raw student data, posing potential
-vulnerabilities and being time-consuming. This study proposes a federated
-learning (FL) framework for automatic scoring in educational assessments,
-eliminating the need to share raw data. Our approach leverages client-side
-model training, where student responses are processed locally on edge devices,
-and only optimized model parameters are shared with a central aggregation
-server. To effectively aggregate heterogeneous model updates, we introduce an
-adaptive weighted averaging strategy, which dynamically adjusts weight
-contributions based on client-specific learning characteristics. This method
-ensures robust model convergence while preserving privacy. We evaluate our
-framework using assessment data from nine middle schools, comparing the
-accuracy of federated learning-based scoring models with traditionally trained
-centralized models. A statistical significance test (paired t-test, $t(8) =
-2.29, p = 0.051$) confirms that the accuracy difference between the two
-approaches is not statistically significant, demonstrating that federated
-learning achieves comparable performance while safeguarding student data.
-Furthermore, our method significantly reduces data collection, processing, and
-deployment overhead, accelerating the adoption of AI-driven educational
-assessments in a privacy-compliant manner.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.09448v1">Optimizing QoE-Privacy Tradeoff for Proactive VR Streaming</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Multimedia-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Multiagent Systems-662E9B">
-  <p><b>Published on:</b> 2025-03-12T14:50:06Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Xing Wei, Shengqian Han, Chenyang Yang, Chengjian Sun</p>
-    <p><b>Summary:</b> Proactive virtual reality (VR) streaming requires users to upload
-viewpoint-related information, raising significant privacy concerns. Existing
-strategies preserve privacy by introducing errors to viewpoints, which,
-however, compromises the quality of experience (QoE) of users. In this paper,
-we first delve into the analysis of the viewpoint leakage probability achieved
-by existing privacy-preserving approaches. We determine the optimal
-distribution of viewpoint errors that minimizes the viewpoint leakage
-probability. Our analyses show that existing approaches cannot fully eliminate
-viewpoint leakage. Then, we propose a novel privacy-preserving approach that
-introduces noise to uploaded viewpoint prediction errors, which can ensure zero
-viewpoint leakage probability. Given the proposed approach, the tradeoff
-between privacy preservation and QoE is optimized to minimize the QoE loss
-while satisfying the privacy requirement. Simulation results validate our
-analysis results and demonstrate that the proposed approach offers a promising
-solution for balancing privacy and QoE.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.09381v2">Faithful and Privacy-Preserving Implementation of Average Consensus</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
-  <p><b>Published on:</b> 2025-03-12T13:28:22Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Kaoru Teranishi, Kiminao Kogiso, Takashi Tanaka</p>
-    <p><b>Summary:</b> We propose a protocol based on mechanism design theory and encrypted control
-to solve average consensus problems among rational and strategic agents while
-preserving their privacy. The proposed protocol provides a mechanism that
-incentivizes the agents to faithfully implement the intended behavior specified
-in the protocol. Furthermore, the protocol runs over encrypted data using
-homomorphic encryption and secret sharing to protect the privacy of agents. We
-also analyze the security of the proposed protocol using a simulation paradigm
-in secure multi-party computation. The proposed protocol demonstrates that
-mechanism design and encrypted control can complement each other to achieve
-security under rational adversaries.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.09365v1">Membership Inference Attacks fueled by Few-Short Learning to detect
-  privacy leakage tackling data integrity</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-03-12T13:09:43Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Daniel Jiménez-López, Nuria Rodríguez-Barroso, M. Victoria Luzón, Francisco Herrera</p>
-    <p><b>Summary:</b> Deep learning models have an intrinsic privacy issue as they memorize parts
-of their training data, creating a privacy leakage. Membership Inference
-Attacks (MIA) exploit it to obtain confidential information about the data used
-for training, aiming to steal information. They can be repurposed as a
-measurement of data integrity by inferring whether it was used to train a
-machine learning model. While state-of-the-art attacks achieve a significant
-privacy leakage, their requirements are not feasible enough, hindering their
-role as practical tools to assess the magnitude of the privacy risk. Moreover,
-the most appropriate evaluation metric of MIA, the True Positive Rate at low
-False Positive Rate lacks interpretability. We claim that the incorporation of
-Few-Shot Learning techniques to the MIA field and a proper qualitative and
-quantitative privacy evaluation measure should deal with these issues. In this
-context, our proposal is twofold. We propose a Few-Shot learning based MIA,
-coined as the FeS-MIA model, which eases the evaluation of the privacy breach
-of a deep learning model by significantly reducing the number of resources
-required for the purpose. Furthermore, we propose an interpretable quantitative
-and qualitative measure of privacy, referred to as Log-MIA measure. Jointly,
-these proposals provide new tools to assess the privacy leakage and to ease the
-evaluation of the training data integrity of deep learning models, that is, to
-analyze the privacy breach of a deep learning model. Experiments carried out
-with MIA over image classification and language modeling tasks and its
-comparison to the state-of-the-art show that our proposals excel at reporting
-the privacy leakage of a deep learning model with little extra information.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.09331v1">Large-Scale FPGA-Based Privacy Amplification Exceeding $10^8$ Bits for
-  Quantum Key Distribution</a></h3>
-  
-  <p><b>Published on:</b> 2025-03-12T12:25:13Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Xi Cheng, Hao-kun Mao, Hong-wei Xu, Qiong Li</p>
-    <p><b>Summary:</b> Privacy Amplification (PA) is indispensable in Quantum Key Distribution (QKD)
-post-processing, as it eliminates information leakage to eavesdroppers.
-Field-programmable gate arrays (FPGAs) are highly attractive for QKD systems
-due to their flexibility and high integration. However, due to limited
-resources, input and output sizes remain the primary bottleneck in FPGA-based
-PA schemes for Discrete Variable (DV)-QKD systems. In this paper, we present a
-large-scale FPGA-based PA scheme that supports both input block sizes and
-output key sizes exceeding $10^8$ bits, effectively addressing the challenges
-posed by the finite-size effect. To accommodate the large input and output
-sizes, we propose a novel PA algorithm and prove its security. We implement and
-evaluate this scheme on a Xilinx XCKU095 FPGA platform. Experimental results
-demonstrate that our PA implementation can handle an input block size of $10^8$
-bits with flexible output sizes up to the input size. For DV-QKD systems, our
-PA scheme supports an input block size nearly two orders of magnitude larger
-than current FPGA-based PA schemes, significantly mitigating the impact of the
-finite-size effect on the final secure key rate.</p>
   </details>
 </div>
 
