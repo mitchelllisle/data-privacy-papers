@@ -3856,5 +3856,25 @@
       "cs.IR",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2503.12045v2",
+    "title" : "Auditing Differential Privacy in the Black-Box Setting",
+    "summary" : "This paper introduces a novel theoretical framework for auditing differential\nprivacy (DP) in a black-box setting. Leveraging the concept of $f$-differential\nprivacy, we explicitly define type I and type II errors and propose an auditing\nmechanism based on conformal inference. Our approach robustly controls the type\nI error rate under minimal assumptions. Furthermore, we establish a fundamental\nimpossibility result, demonstrating the inherent difficulty of simultaneously\ncontrolling both type I and type II errors without additional assumptions.\nNevertheless, under a monotone likelihood ratio (MLR) assumption, our auditing\nmechanism effectively controls both errors. We also extend our method to\nconstruct valid confidence bands for the trade-off function in the\nfinite-sample regime.",
+    "updated" : "2025-04-10T18:44:33Z",
+    "published" : "2025-03-15T08:34:40Z",
+    "authors" : [
+      {
+        "name" : "Kaining Shi"
+      },
+      {
+        "name" : "Cong Ma"
+      }
+    ],
+    "categories" : [
+      "stat.ME",
+      "cs.CR",
+      "cs.LG"
+    ]
   }
 ]
