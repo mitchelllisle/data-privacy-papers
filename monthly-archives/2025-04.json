@@ -613,5 +613,81 @@
       "cs.CR",
       "cs.NI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.08616v1",
+    "title" : "Preserving Privacy Without Compromising Accuracy: Machine Unlearning for\n  Handwritten Text Recognition",
+    "summary" : "Handwritten Text Recognition (HTR) is essential for document analysis and\ndigitization. However, handwritten data often contains user-identifiable\ninformation, such as unique handwriting styles and personal lexicon choices,\nwhich can compromise privacy and erode trust in AI services. Legislation like\nthe ``right to be forgotten'' underscores the necessity for methods that can\nexpunge sensitive information from trained models. Machine unlearning addresses\nthis by selectively removing specific data from models without necessitating\ncomplete retraining. Yet, it frequently encounters a privacy-accuracy tradeoff,\nwhere safeguarding privacy leads to diminished model performance. In this\npaper, we introduce a novel two-stage unlearning strategy for a multi-head\ntransformer-based HTR model, integrating pruning and random labeling. Our\nproposed method utilizes a writer classification head both as an indicator and\na trigger for unlearning, while maintaining the efficacy of the recognition\nhead. To our knowledge, this represents the first comprehensive exploration of\nmachine unlearning within HTR tasks. We further employ Membership Inference\nAttacks (MIA) to evaluate the effectiveness of unlearning user-identifiable\ninformation. Extensive experiments demonstrate that our approach effectively\npreserves privacy while maintaining model accuracy, paving the way for new\nresearch directions in the document analysis community. Our code will be\npublicly available upon acceptance.",
+    "updated" : "2025-04-11T15:21:12Z",
+    "published" : "2025-04-11T15:21:12Z",
+    "authors" : [
+      {
+        "name" : "Lei Kang"
+      },
+      {
+        "name" : "Xuanshuo Fu"
+      },
+      {
+        "name" : "Lluis Gomez"
+      },
+      {
+        "name" : "Alicia Fornés"
+      },
+      {
+        "name" : "Ernest Valveny"
+      },
+      {
+        "name" : "Dimosthenis Karatzas"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.08254v1",
+    "title" : "Understanding the Impact of Data Domain Extraction on Synthetic Data\n  Privacy",
+    "summary" : "Privacy attacks, particularly membership inference attacks (MIAs), are widely\nused to assess the privacy of generative models for tabular synthetic data,\nincluding those with Differential Privacy (DP) guarantees. These attacks often\nexploit outliers, which are especially vulnerable due to their position at the\nboundaries of the data domain (e.g., at the minimum and maximum values).\nHowever, the role of data domain extraction in generative models and its impact\non privacy attacks have been overlooked. In this paper, we examine three\nstrategies for defining the data domain: assuming it is externally provided\n(ideally from public data), extracting it directly from the input data, and\nextracting it with DP mechanisms. While common in popular implementations and\nlibraries, we show that the second approach breaks end-to-end DP guarantees and\nleaves models vulnerable. While using a provided domain (if representative) is\npreferable, extracting it with DP can also defend against popular MIAs, even at\nhigh privacy budgets.",
+    "updated" : "2025-04-11T04:35:24Z",
+    "published" : "2025-04-11T04:35:24Z",
+    "authors" : [
+      {
+        "name" : "Georgi Ganev"
+      },
+      {
+        "name" : "Meenatchi Sundaram Muthu Selva Annamalai"
+      },
+      {
+        "name" : "Sofiane Mahiou"
+      },
+      {
+        "name" : "Emiliano De Cristofaro"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.07414v2",
+    "title" : "Decomposition-Based Optimal Bounds for Privacy Amplification via\n  Shuffling",
+    "summary" : "Shuffling has been shown to amplify differential privacy guarantees, offering\na stronger privacy-utility trade-off. To characterize and compute this\namplification, two fundamental analytical frameworks have been proposed: the\nprivacy blanket by Balle et al. (CRYPTO 2019) and the clone paradigm (including\nboth the standard clone and stronger clone) by Feldman et al. (FOCS 2021, SODA\n2023). All these methods rely on decomposing local randomizers.\n  In this work, we introduce a unified analysis framework--the general clone\nparadigm--which encompasses all possible decompositions. We identify the\noptimal decomposition within the general clone paradigm. Moreover, we develop a\nsimple and efficient algorithm to compute the exact value of the optimal\nprivacy amplification bounds via Fast Fourier Transform. Experimental results\ndemonstrate that the computed upper bounds for privacy amplification closely\napproximate the lower bounds, highlighting the tightness of our approach.\nFinally, using our algorithm, we conduct the first systematic analysis of the\njoint composition of LDP protocols in the shuffle model.",
+    "updated" : "2025-04-11T01:35:46Z",
+    "published" : "2025-04-10T03:11:17Z",
+    "authors" : [
+      {
+        "name" : "Pengcheng Su"
+      },
+      {
+        "name" : "Haibo Cheng"
+      },
+      {
+        "name" : "Ping Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
