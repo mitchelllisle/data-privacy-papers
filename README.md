@@ -2,6 +2,64 @@
 <h2>2025-04</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.08616v1">Preserving Privacy Without Compromising Accuracy: Machine Unlearning for
+  Handwritten Text Recognition</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2025-04-11T15:21:12Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Lei Kang, Xuanshuo Fu, Lluis Gomez, Alicia Fornés, Ernest Valveny, Dimosthenis Karatzas</p>
+    <p><b>Summary:</b> Handwritten Text Recognition (HTR) is essential for document analysis and
+digitization. However, handwritten data often contains user-identifiable
+information, such as unique handwriting styles and personal lexicon choices,
+which can compromise privacy and erode trust in AI services. Legislation like
+the ``right to be forgotten'' underscores the necessity for methods that can
+expunge sensitive information from trained models. Machine unlearning addresses
+this by selectively removing specific data from models without necessitating
+complete retraining. Yet, it frequently encounters a privacy-accuracy tradeoff,
+where safeguarding privacy leads to diminished model performance. In this
+paper, we introduce a novel two-stage unlearning strategy for a multi-head
+transformer-based HTR model, integrating pruning and random labeling. Our
+proposed method utilizes a writer classification head both as an indicator and
+a trigger for unlearning, while maintaining the efficacy of the recognition
+head. To our knowledge, this represents the first comprehensive exploration of
+machine unlearning within HTR tasks. We further employ Membership Inference
+Attacks (MIA) to evaluate the effectiveness of unlearning user-identifiable
+information. Extensive experiments demonstrate that our approach effectively
+preserves privacy while maintaining model accuracy, paving the way for new
+research directions in the document analysis community. Our code will be
+publicly available upon acceptance.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.08254v1">Understanding the Impact of Data Domain Extraction on Synthetic Data
+  Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-04-11T04:35:24Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Georgi Ganev, Meenatchi Sundaram Muthu Selva Annamalai, Sofiane Mahiou, Emiliano De Cristofaro</p>
+    <p><b>Summary:</b> Privacy attacks, particularly membership inference attacks (MIAs), are widely
+used to assess the privacy of generative models for tabular synthetic data,
+including those with Differential Privacy (DP) guarantees. These attacks often
+exploit outliers, which are especially vulnerable due to their position at the
+boundaries of the data domain (e.g., at the minimum and maximum values).
+However, the role of data domain extraction in generative models and its impact
+on privacy attacks have been overlooked. In this paper, we examine three
+strategies for defining the data domain: assuming it is externally provided
+(ideally from public data), extracting it directly from the input data, and
+extracting it with DP mechanisms. While common in popular implementations and
+libraries, we show that the second approach breaks end-to-end DP guarantees and
+leaves models vulnerable. While using a provided domain (if representative) is
+preferable, extracting it with DP can also defend against popular MIAs, even at
+high privacy budgets.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2504.07761v1">Exploring a Patch-Wise Approach for Privacy-Preserving Fake ID Detection</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2025-04-10T14:01:22Z</p>
@@ -71,7 +129,7 @@ maintaining accuracy comparable to plaintext k-means algorithms.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.07414v1">Decomposition-Based Optimal Bounds for Privacy Amplification via
+  <h3><a href="http://arxiv.org/abs/2504.07414v2">Decomposition-Based Optimal Bounds for Privacy Amplification via
   Shuffling</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2025-04-10T03:11:17Z</p>
@@ -2507,7 +2565,7 @@ concerns.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.12045v1">Auditing Differential Privacy in the Black-Box Setting</a></h3>
+  <h3><a href="http://arxiv.org/abs/2503.12045v2">Auditing Differential Privacy in the Black-Box Setting</a></h3>
    <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2025-03-15T08:34:40Z</p>
   <details>
@@ -2877,63 +2935,6 @@ increase industry awareness and commitment to protect this data. Our
 contributions are significant in identifying overlooked privacy risks,
 demonstrating the effectiveness of a new attack, and influencing industry
 practices toward better privacy protection in the super-app ecosystem.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.10147v1">Optimal Privacy-Preserving Distributed Median Consensus</a></h3>
-  
-  <p><b>Published on:</b> 2025-03-13T08:19:12Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Wenrui Yu, Qiongxiu Li, Richard Heusdens, Sokol Kosta</p>
-    <p><b>Summary:</b> Distributed median consensus has emerged as a critical paradigm in
-multi-agent systems due to the inherent robustness of the median against
-outliers and anomalies in measurement. Despite the sensitivity of the data
-involved, the development of privacy-preserving mechanisms for median consensus
-remains underexplored. In this work, we present the first rigorous analysis of
-privacy in distributed median consensus, focusing on an $L_1$-norm minimization
-framework. We establish necessary and sufficient conditions under which exact
-consensus and perfect privacy-defined as zero information leakage-can be
-achieved simultaneously. Our information-theoretic analysis provides provable
-guarantees against passive and eavesdropping adversaries, ensuring that private
-data remain concealed. Extensive numerical experiments validate our theoretical
-results, demonstrating the practical feasibility of achieving both accuracy and
-privacy in distributed median consensus.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.09823v2">Data Traceability for Privacy Alignment</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2025-03-12T20:42:23Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Kevin Liao, Shreya Thipireddy, Daniel Weitzner</p>
-    <p><b>Summary:</b> This paper offers a new privacy approach for the growing ecosystem of
-services -- ranging from open banking to healthcare -- dependent on sensitive
-personal data sharing between individuals and third parties. While these
-services offer significant benefits, individuals want control over their data,
-transparency regarding how their data is used, and accountability from third
-parties for misuse. However, existing legal and technical mechanisms are
-inadequate for supporting these needs. A comprehensive approach to the modern
-privacy challenges of accountable third-party data sharing requires a closer
-alignment of technical system architecture and legal institutional design. In
-order to achieve this privacy alignment, we extend traditional security threat
-modeling and analysis to encompass a broader range of privacy notions than has
-been typically considered. In particular, we introduce the concept of
-covert-accountability, which addresses the risk from adversaries that may act
-dishonestly but nevertheless face potential identification and legal
-consequences. As a concrete instance of this design approach, we present the
-OTrace protocol, designed to provide traceable, accountable, consumer-control
-in third-party data sharing ecosystems. OTrace empowers consumers with the
-knowledge of who has their data, what it is being used for, what consent or
-other legal terms apply, and whom it is being shared with. By applying our
-alignment framework, we demonstrate that OTrace's technical affordances can
-provide more confident, scalable regulatory oversight when combined with
-complementary legal mechanisms.</p>
   </details>
 </div>
 
