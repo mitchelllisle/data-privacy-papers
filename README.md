@@ -2,6 +2,215 @@
 <h2>2025-04</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.10456v1">Privacy-Preserving Distributed Link Predictions Among Peers in Online
+  Classrooms Using Federated Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Social and Information Networks-662E9B">
+  <p><b>Published on:</b> 2025-04-14T17:43:11Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Anurata Prabha Hridi, Muntasir Hoq, Zhikai Gao, Collin Lynch, Rajeev Sahay, Seyyedali Hosseinalipour, Bita Akram</p>
+    <p><b>Summary:</b> Social interactions among classroom peers, represented as social learning
+networks (SLNs), play a crucial role in enhancing learning outcomes. While SLN
+analysis has recently garnered attention, most existing approaches rely on
+centralized training, where data is aggregated and processed on a local/cloud
+server with direct access to raw data. However, in real-world educational
+settings, such direct access across multiple classrooms is often restricted due
+to privacy concerns. Furthermore, training models on isolated classroom data
+prevents the identification of common interaction patterns that exist across
+multiple classrooms, thereby limiting model performance. To address these
+challenges, we propose one of the first frameworks that integrates Federated
+Learning (FL), a distributed and collaborative machine learning (ML) paradigm,
+with SLNs derived from students' interactions in multiple classrooms' online
+forums to predict future link formations (i.e., interactions) among students.
+By leveraging FL, our approach enables collaborative model training across
+multiple classrooms while preserving data privacy, as it eliminates the need
+for raw data centralization. Recognizing that each classroom may exhibit unique
+student interaction dynamics, we further employ model personalization
+techniques to adapt the FL model to individual classroom characteristics. Our
+results demonstrate the effectiveness of our approach in capturing both shared
+and classroom-specific representations of student interactions in SLNs.
+Additionally, we utilize explainable AI (XAI) techniques to interpret model
+predictions, identifying key factors that influence link formation across
+different classrooms. These insights unveil the drivers of social learning
+interactions within a privacy-preserving, collaborative, and distributed ML
+framework -- an aspect that has not been explored before.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.10267v1">Trade-offs in Privacy-Preserving Eye Tracking through Iris Obfuscation:
+  A Benchmarking Study</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2025-04-14T14:29:38Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mengdi Wang, Efe Bozkir, Enkelejda Kasneci</p>
+    <p><b>Summary:</b> Recent developments in hardware, computer graphics, and AI may soon enable
+AR/VR head-mounted displays (HMDs) to become everyday devices like smartphones
+and tablets. Eye trackers within HMDs provide a special opportunity for such
+setups as it is possible to facilitate gaze-based research and interaction.
+However, estimating users' gaze information often requires raw eye images and
+videos that contain iris textures, which are considered a gold standard
+biometric for user authentication, and this raises privacy concerns. Previous
+research in the eye-tracking community focused on obfuscating iris textures
+while keeping utility tasks such as gaze estimation accurate. Despite these
+attempts, there is no comprehensive benchmark that evaluates state-of-the-art
+approaches. Considering all, in this paper, we benchmark blurring, noising,
+downsampling, rubber sheet model, and iris style transfer to obfuscate user
+identity, and compare their impact on image quality, privacy, utility, and risk
+of imposter attack on two datasets. We use eye segmentation and gaze estimation
+as utility tasks, and reduction in iris recognition accuracy as a measure of
+privacy protection, and false acceptance rate to estimate risk of attack. Our
+experiments show that canonical image processing methods like blurring and
+noising cause a marginal impact on deep learning-based tasks. While
+downsampling, rubber sheet model, and iris style transfer are effective in
+hiding user identifiers, iris style transfer, with higher computation cost,
+outperforms others in both utility tasks, and is more resilient against spoof
+attacks. Our analyses indicate that there is no universal optimal approach to
+balance privacy, utility, and computation burden. Therefore, we recommend
+practitioners consider the strengths and weaknesses of each approach, and
+possible combinations of those to reach an optimal privacy-utility trade-off.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.10016v1">Quantifying Privacy Leakage in Split Inference via Fisher-Approximated
+  Shannon Information Analysis</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-04-14T09:19:06Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ruijun Deng, Zhihui Lu, Qiang Duan</p>
+    <p><b>Summary:</b> Split inference (SI) partitions deep neural networks into distributed
+sub-models, enabling privacy-preserving collaborative learning. Nevertheless,
+it remains vulnerable to Data Reconstruction Attacks (DRAs), wherein
+adversaries exploit exposed smashed data to reconstruct raw inputs. Despite
+extensive research on adversarial attack-defense games, a shortfall remains in
+the fundamental analysis of privacy risks. This paper establishes a theoretical
+framework for privacy leakage quantification using information theory, defining
+it as the adversary's certainty and deriving both average-case and worst-case
+error bounds. We introduce Fisher-approximated Shannon information (FSInfo), a
+novel privacy metric utilizing Fisher Information (FI) for operational privacy
+leakage computation. We empirically show that our privacy metric correlates
+well with empirical attacks and investigate some of the factors that affect
+privacy leakage, namely the data distribution, model size, and overfitting.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.09961v1">Privacy Meets Explainability: Managing Confidential Data and
+  Transparency Policies in LLM-Empowered Science</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-04-14T07:58:26Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yashothara Shanmugarasa, Shidong Pan, Ming Ding, Dehai Zhao, Thierry Rakotoarivelo</p>
+    <p><b>Summary:</b> As Large Language Models (LLMs) become integral to scientific workflows,
+concerns over the confidentiality and ethical handling of confidential data
+have emerged. This paper explores data exposure risks through LLM-powered
+scientific tools, which can inadvertently leak confidential information,
+including intellectual property and proprietary data, from scientists'
+perspectives. We propose "DataShield", a framework designed to detect
+confidential data leaks, summarize privacy policies, and visualize data flow,
+ensuring alignment with organizational policies and procedures. Our approach
+aims to inform scientists about data handling practices, enabling them to make
+informed decisions and protect sensitive information. Ongoing user studies with
+scientists are underway to evaluate the framework's usability, trustworthiness,
+and effectiveness in tackling real-world privacy challenges.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.09952v1">Secrecy and Privacy in Multi-Access Combinatorial Topology</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
+  <p><b>Published on:</b> 2025-04-14T07:30:03Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mallikharjuna Chinnapadamala, B. Sundar Rajan</p>
+    <p><b>Summary:</b> In this work, we consider the multi-access combinatorial topology with $C$
+caches where each user accesses a unique set of $r$ caches. For this setup, we
+consider secrecy, where each user should not know anything about the files it
+did not request, and demand privacy, where each user's demand must be kept
+private from other non-colluding users. We propose a scheme satisfying both
+conditions and derive a lower bound based on cut-set arguments. Also, we prove
+that our scheme is optimal when $r\geq C-1$, and it is order-optimal when the
+cache memory size $M$ is greater than or equal to a certain threshold for
+$r<C-1$. When $r=1$, in most of the memory region, our scheme achieves the same
+rate as the one given by the secretive scheme for the dedicated cache setup by
+Ravindrakumar et al. ( 'Private Coded Caching,' in \textit{IEEE Transactions on
+Information Forensics and Security}, 2018), while satisfying both secrecy and
+demand privacy conditions.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.09517v1">RoboComm: A DID-based scalable and privacy-preserving Robot-to-Robot
+  interaction over state channels</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Robotics-F9C80E">
+  <p><b>Published on:</b> 2025-04-13T11:10:04Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Roshan Singh, Sushant Pandey</p>
+    <p><b>Summary:</b> In a multi robot system establishing trust amongst untrusted robots from
+different organisations while preserving a robot's privacy is a challenge.
+Recently decentralized technologies such as smart contract and blockchain are
+being explored for applications in robotics. However, the limited transaction
+processing and high maintenance cost hinder the widespread adoption of such
+approaches. Moreover, blockchain transactions be they on public or private
+permissioned blockchain are publically readable which further fails to preserve
+the confidentiality of the robot's data and privacy of the robot.
+  In this work, we propose RoboComm a Decentralized Identity based approach for
+privacy-preserving interaction between robots. With DID a component of
+Self-Sovereign Identity; robots can authenticate each other independently
+without relying on any third-party service. Verifiable Credentials enable
+private data associated with a robot to be stored within the robot's hardware,
+unlike existing blockchain based approaches where the data has to be on the
+blockchain. We improve throughput by allowing message exchange over state
+channels. Being a blockchain backed solution RoboComm provides a trustworthy
+system without relying on a single party. Moreover, we implement our proposed
+approach to demonstrate the feasibility of our solution.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.09095v1">Privacy Preservation in Gen AI Applications</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-04-12T06:19:37Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Swetha S, Ram Sundhar K Shaju, Rakshana M, Ganesh R, Balavedhaa S, Thiruvaazhi U</p>
+    <p><b>Summary:</b> The ability of machines to comprehend and produce language that is similar to
+that of humans has revolutionized sectors like customer service, healthcare,
+and finance thanks to the quick advances in Natural Language Processing (NLP),
+which are fueled by Generative Artificial Intelligence (AI) and Large Language
+Models (LLMs). However, because LLMs trained on large datasets may
+unintentionally absorb and reveal Personally Identifiable Information (PII)
+from user interactions, these capabilities also raise serious privacy concerns.
+Deep neural networks' intricacy makes it difficult to track down or stop the
+inadvertent storing and release of private information, which raises serious
+concerns about the privacy and security of AI-driven data. This study tackles
+these issues by detecting Generative AI weaknesses through attacks such as data
+extraction, model inversion, and membership inference. A privacy-preserving
+Generative AI application that is resistant to these assaults is then
+developed. It ensures privacy without sacrificing functionality by using
+methods to identify, alter, or remove PII before to dealing with LLMs. In order
+to determine how well cloud platforms like Microsoft Azure, Google Cloud, and
+AWS provide privacy tools for protecting AI applications, the study also
+examines these technologies. In the end, this study offers a fundamental
+privacy paradigm for generative AI systems, focusing on data security and moral
+AI implementation, and opening the door to a more secure and conscientious use
+of these tools.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2504.08616v1">Preserving Privacy Without Compromising Accuracy: Machine Unlearning for
   Handwritten Text Recognition</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
@@ -34,7 +243,7 @@ publicly available upon acceptance.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.08254v1">Understanding the Impact of Data Domain Extraction on Synthetic Data
+  <h3><a href="http://arxiv.org/abs/2504.08254v2">Understanding the Impact of Data Domain Extraction on Synthetic Data
   Privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2025-04-11T04:35:24Z</p>
@@ -861,7 +1070,7 @@ methods is demonstrated by revisiting the autonomous building application.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.23726v1">PDSL: Privacy-Preserved Decentralized Stochastic Learning with
+  <h3><a href="http://arxiv.org/abs/2503.23726v2">PDSL: Privacy-Preserved Decentralized Stochastic Learning with
   Heterogeneous Data Distribution</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2025-03-31T04:58:05Z</p>
@@ -1163,6 +1372,33 @@ different applications. However, challenges remain in securing our networks
 from threats and attacks. After briefly reviewing the tasks and recent ML
 models in network security and privacy, we discuss the challenges that lie
 ahead.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.08751v1">Research on the Design of a Short Video Recommendation System Based on
+  Multimodal Information and Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-03-27T22:56:41Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Haowei Yang, Lei Fu, Qingyi Lu, Yue Fan, Tianle Zhang, Ruohan Wang</p>
+    <p><b>Summary:</b> With the rapid development of short video platforms, recommendation systems
+have become key technologies for improving user experience and enhancing
+platform engagement. However, while short video recommendation systems leverage
+multimodal information (such as images, text, and audio) to improve
+recommendation effectiveness, they also face the severe challenge of user
+privacy leakage. This paper proposes a short video recommendation system based
+on multimodal information and differential privacy protection. First, deep
+learning models are used for feature extraction and fusion of multimodal data,
+effectively improving recommendation accuracy. Then, a differential privacy
+protection mechanism suitable for recommendation scenarios is designed to
+ensure user data privacy while maintaining system performance. Experimental
+results show that the proposed method outperforms existing mainstream
+approaches in terms of recommendation accuracy, multimodal fusion
+effectiveness, and privacy protection performance, providing important insights
+for the design of recommendation systems for short video platforms.</p>
   </details>
 </div>
 
@@ -2694,247 +2930,6 @@ that device. We show that under reasonable constraints, the goal of providing
 information-theoretic differential privacy under intrusion is incompatible with
 collecting telemetry information. We then show that this problem can be solved
 in a scalable way using standard cryptographic primitives.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.11232v1">PrivacyScalpel: Enhancing LLM Privacy via Interpretable Feature
-  Intervention with Sparse Autoencoders</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2025-03-14T09:31:01Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ahmed Frikha, Muhammad Reza Ar Razi, Krishna Kanth Nakka, Ricardo Mendes, Xue Jiang, Xuebing Zhou</p>
-    <p><b>Summary:</b> Large Language Models (LLMs) have demonstrated remarkable capabilities in
-natural language processing but also pose significant privacy risks by
-memorizing and leaking Personally Identifiable Information (PII). Existing
-mitigation strategies, such as differential privacy and neuron-level
-interventions, often degrade model utility or fail to effectively prevent
-leakage. To address this challenge, we introduce PrivacyScalpel, a novel
-privacy-preserving framework that leverages LLM interpretability techniques to
-identify and mitigate PII leakage while maintaining performance. PrivacyScalpel
-comprises three key steps: (1) Feature Probing, which identifies layers in the
-model that encode PII-rich representations, (2) Sparse Autoencoding, where a
-k-Sparse Autoencoder (k-SAE) disentangles and isolates privacy-sensitive
-features,
-  and (3) Feature-Level Interventions, which employ targeted ablation and
-vector steering to suppress PII leakage.
-  Our empirical evaluation on Gemma2-2b and Llama2-7b, fine-tuned on the Enron
-dataset, shows that PrivacyScalpel significantly reduces email leakage from
-5.15\% to as low as 0.0\%, while maintaining over 99.4\% of the original
-model's utility. Notably, our method outperforms neuron-level interventions in
-privacy-utility trade-offs, demonstrating that acting on sparse, monosemantic
-features is more effective than manipulating polysemantic neurons. Beyond
-improving LLM privacy, our approach offers insights into the mechanisms
-underlying PII memorization, contributing to the broader field of model
-interpretability and secure AI deployment.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.11169v1">Security and Privacy: Key Requirements for Molecular Communication in
-  Medicine and Healthcare</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
-  <p><b>Published on:</b> 2025-03-14T08:14:14Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Vida Gholamiyan, Yaning Zhao, Wafa Labidi, Holger Boche, Christian Deppe</p>
-    <p><b>Summary:</b> Molecular communication (MC) is an emerging paradigm that enables data
-transmission through biochemical signals rather than traditional
-electromagnetic waves. This approach is particularly promising for environments
-where conventional wireless communication is impractical, such as within the
-human body. However, security and privacy pose significant challenges that must
-be addressed to ensure reliable communication. Moreover, MC is often
-event-triggered, making it logical to adopt goal-oriented communication
-strategies, similar to those used in message identification. This work explores
-secure identification strategies for MC, with a focus on the
-information-theoretic security of message identification over Poisson wiretap
-channels (DT-PWC).</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.11051v1">Towards Privacy-preserved Pre-training of Remote Sensing Foundation
-  Models with Federated Mutual-guidance Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2025-03-14T03:38:49Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jieyi Tan, Chengwei Zhang, Bo Dang, Yansheng Li</p>
-    <p><b>Summary:</b> Traditional Remote Sensing Foundation models (RSFMs) are pre-trained with a
-data-centralized paradigm, through self-supervision on large-scale curated
-remote sensing data. For each institution, however, pre-training RSFMs with
-limited data in a standalone manner may lead to suboptimal performance, while
-aggregating remote sensing data from multiple institutions for centralized
-pre-training raises privacy concerns. Seeking for collaboration is a promising
-solution to resolve this dilemma, where multiple institutions can
-collaboratively train RSFMs without sharing private data. In this paper, we
-propose a novel privacy-preserved pre-training framework (FedSense), which
-enables multiple institutions to collaboratively train RSFMs without sharing
-private data. However, it is a non-trivial task hindered by a vicious cycle,
-which results from model drift by remote sensing data heterogeneity and high
-communication overhead. To break this vicious cycle, we introduce Federated
-Mutual-guidance Learning. Specifically, we propose a Server-to-Clients Guidance
-(SCG) mechanism to guide clients updates towards global-flatness optimal
-solutions. Additionally, we propose a Clients-to-Server Guidance (CSG)
-mechanism to inject local knowledge into the server by low-bit communication.
-Extensive experiments on four downstream tasks demonstrate the effectiveness of
-our FedSense in both full-precision and communication-reduced scenarios,
-showcasing remarkable communication efficiency and performance gains.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.10945v1">$(\varepsilon, δ)$ Considered Harmful: Best Practices for Reporting
-  Differential Privacy Guarantees</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
-  <p><b>Published on:</b> 2025-03-13T23:06:30Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Juan Felipe Gomez, Bogdan Kulynych, Georgios Kaissis, Jamie Hayes, Borja Balle, Antti Honkela</p>
-    <p><b>Summary:</b> Current practices for reporting the level of differential privacy (DP)
-guarantees for machine learning (ML) algorithms provide an incomplete and
-potentially misleading picture of the guarantees and make it difficult to
-compare privacy levels across different settings. We argue for using Gaussian
-differential privacy (GDP) as the primary means of communicating DP guarantees
-in ML, with the full privacy profile as a secondary option in case GDP is too
-inaccurate. Unlike other widely used alternatives, GDP has only one parameter,
-which ensures easy comparability of guarantees, and it can accurately capture
-the full privacy profile of many important ML applications. To support our
-claims, we investigate the privacy profiles of state-of-the-art DP large-scale
-image classification, and the TopDown algorithm for the U.S. Decennial Census,
-observing that GDP fits the profiles remarkably well in all three cases.
-Although GDP is ideal for reporting the final guarantees, other formalisms
-(e.g., privacy loss random variables) are needed for accurate privacy
-accounting. We show that such intermediate representations can be efficiently
-converted to GDP with minimal loss in tightness.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.10915v1">Usable Privacy in Virtual Worlds: Design Implications for Data
-  Collection Awareness and Control Interfaces in Virtual Reality</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2025-03-13T22:02:54Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Viktorija Paneva, Verena Winterhalter, Naga Sai Surya Vamsy Malladi, Marvin Strauss, Stefan Schneegass, Florian Alt</p>
-    <p><b>Summary:</b> Extended reality (XR) devices have become ubiquitous. They are equipped with
-arrays of sensors, collecting extensive user and environmental data, allowing
-inferences about sensitive user information users may not realize they are
-sharing. Current VR privacy notices largely replicate mechanisms from 2D
-interfaces, failing to leverage the unique affordances of virtual 3D
-environments. To address this, we conducted brainstorming and sketching
-sessions with novice game developers and designers, followed by privacy expert
-evaluations, to explore and refine privacy interfaces tailored for VR. Key
-challenges include balancing user engagement with privacy awareness, managing
-complex privacy information with user comprehension, and maintaining compliance
-and trust. We identify design implications such as thoughtful gamification,
-explicit and purpose-tied consent mechanisms, and granular, modifiable privacy
-control options. Our findings provide actionable guidance to researchers and
-practitioners for developing privacy-aware and user-friendly VR experiences.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.10350v1">Enhancing Facial Privacy Protection via Weakening Diffusion Purification</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2025-03-13T13:27:53Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ali Salar, Qing Liu, Yingli Tian, Guoying Zhao</p>
-    <p><b>Summary:</b> The rapid growth of social media has led to the widespread sharing of
-individual portrait images, which pose serious privacy risks due to the
-capabilities of automatic face recognition (AFR) systems for mass surveillance.
-Hence, protecting facial privacy against unauthorized AFR systems is essential.
-Inspired by the generation capability of the emerging diffusion models, recent
-methods employ diffusion models to generate adversarial face images for privacy
-protection. However, they suffer from the diffusion purification effect,
-leading to a low protection success rate (PSR). In this paper, we first propose
-learning unconditional embeddings to increase the learning capacity for
-adversarial modifications and then use them to guide the modification of the
-adversarial latent code to weaken the diffusion purification effect. Moreover,
-we integrate an identity-preserving structure to maintain structural
-consistency between the original and generated images, allowing human observers
-to recognize the generated image as having the same identity as the original.
-Extensive experiments conducted on two public datasets, i.e., CelebA-HQ and
-LADN, demonstrate the superiority of our approach. The protected faces
-generated by our method outperform those produced by existing facial privacy
-protection approaches in terms of transferability and natural appearance.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.10727v1">Word-level Annotation of GDPR Transparency Compliance in Privacy
-  Policies using Large Language Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-03-13T11:41:25Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Thomas Cory, Wolf Rieder, Julia Krämer, Philip Raschke, Patrick Herbke, Axel Küpper</p>
-    <p><b>Summary:</b> Ensuring transparency of data practices related to personal information is a
-fundamental requirement under the General Data Protection Regulation (GDPR),
-particularly as mandated by Articles 13 and 14. However, assessing compliance
-at scale remains a challenge due to the complexity and variability of privacy
-policy language. Manual audits are resource-intensive and inconsistent, while
-existing automated approaches lack the granularity needed to capture nuanced
-transparency disclosures.
-  In this paper, we introduce a large language model (LLM)-based framework for
-word-level GDPR transparency compliance annotation. Our approach comprises a
-two-stage annotation pipeline that combines initial LLM-based annotation with a
-self-correction mechanism for iterative refinement. This annotation pipeline
-enables the systematic identification and fine-grained annotation of
-transparency-related content in privacy policies, aligning with 21 GDPR-derived
-transparency requirements. To enable large-scale analysis, we compile a dataset
-of 703,791 English-language policies, from which we generate a sample of 200
-manually annotated privacy policies.
-  To evaluate our approach, we introduce a two-tiered methodology assessing
-both label- and span-level annotation performance. We conduct a comparative
-analysis of eight high-profile LLMs, providing insights into their
-effectiveness in identifying GDPR transparency disclosures. Our findings
-contribute to advancing the automation of GDPR compliance assessments and
-provide valuable resources for future research in privacy policy analysis.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.10239v1">I Can Tell Your Secrets: Inferring Privacy Attributes from Mini-app
-  Interaction History in Super-apps</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-03-13T10:29:40Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yifeng Cai, Ziqi Zhang, Mengyu Yao, Junlin Liu, Xiaoke Zhao, Xinyi Fu, Ruoyu Li, Zhe Li, Xiangqun Chen, Yao Guo, Ding Li</p>
-    <p><b>Summary:</b> Super-apps have emerged as comprehensive platforms integrating various
-mini-apps to provide diverse services. While super-apps offer convenience and
-enriched functionality, they can introduce new privacy risks. This paper
-reveals a new privacy leakage source in super-apps: mini-app interaction
-history, including mini-app usage history (Mini-H) and operation history
-(Op-H). Mini-H refers to the history of mini-apps accessed by users, such as
-their frequency and categories. Op-H captures user interactions within
-mini-apps, including button clicks, bar drags, and image views. Super-apps can
-naturally collect these data without instrumentation due to the web-based
-feature of mini-apps. We identify these data types as novel and unexplored
-privacy risks through a literature review of 30 papers and an empirical
-analysis of 31 super-apps. We design a mini-app interaction history-oriented
-inference attack (THEFT), to exploit this new vulnerability. Using THEFT, the
-insider threats within the low-privilege business department of the super-app
-vendor acting as the adversary can achieve more than 95.5% accuracy in
-inferring privacy attributes of over 16.1% of users. THEFT only requires a
-small training dataset of 200 users from public breached databases on the
-Internet. We also engage with super-app vendors and a standards association to
-increase industry awareness and commitment to protect this data. Our
-contributions are significant in identifying overlooked privacy risks,
-demonstrating the effectiveness of a new attack, and influencing industry
-practices toward better privacy protection in the super-app ecosystem.</p>
   </details>
 </div>
 
