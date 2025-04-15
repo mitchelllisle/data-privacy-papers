@@ -689,5 +689,202 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.10456v1",
+    "title" : "Privacy-Preserving Distributed Link Predictions Among Peers in Online\n  Classrooms Using Federated Learning",
+    "summary" : "Social interactions among classroom peers, represented as social learning\nnetworks (SLNs), play a crucial role in enhancing learning outcomes. While SLN\nanalysis has recently garnered attention, most existing approaches rely on\ncentralized training, where data is aggregated and processed on a local/cloud\nserver with direct access to raw data. However, in real-world educational\nsettings, such direct access across multiple classrooms is often restricted due\nto privacy concerns. Furthermore, training models on isolated classroom data\nprevents the identification of common interaction patterns that exist across\nmultiple classrooms, thereby limiting model performance. To address these\nchallenges, we propose one of the first frameworks that integrates Federated\nLearning (FL), a distributed and collaborative machine learning (ML) paradigm,\nwith SLNs derived from students' interactions in multiple classrooms' online\nforums to predict future link formations (i.e., interactions) among students.\nBy leveraging FL, our approach enables collaborative model training across\nmultiple classrooms while preserving data privacy, as it eliminates the need\nfor raw data centralization. Recognizing that each classroom may exhibit unique\nstudent interaction dynamics, we further employ model personalization\ntechniques to adapt the FL model to individual classroom characteristics. Our\nresults demonstrate the effectiveness of our approach in capturing both shared\nand classroom-specific representations of student interactions in SLNs.\nAdditionally, we utilize explainable AI (XAI) techniques to interpret model\npredictions, identifying key factors that influence link formation across\ndifferent classrooms. These insights unveil the drivers of social learning\ninteractions within a privacy-preserving, collaborative, and distributed ML\nframework -- an aspect that has not been explored before.",
+    "updated" : "2025-04-14T17:43:11Z",
+    "published" : "2025-04-14T17:43:11Z",
+    "authors" : [
+      {
+        "name" : "Anurata Prabha Hridi"
+      },
+      {
+        "name" : "Muntasir Hoq"
+      },
+      {
+        "name" : "Zhikai Gao"
+      },
+      {
+        "name" : "Collin Lynch"
+      },
+      {
+        "name" : "Rajeev Sahay"
+      },
+      {
+        "name" : "Seyyedali Hosseinalipour"
+      },
+      {
+        "name" : "Bita Akram"
+      }
+    ],
+    "categories" : [
+      "cs.SI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.10267v1",
+    "title" : "Trade-offs in Privacy-Preserving Eye Tracking through Iris Obfuscation:\n  A Benchmarking Study",
+    "summary" : "Recent developments in hardware, computer graphics, and AI may soon enable\nAR/VR head-mounted displays (HMDs) to become everyday devices like smartphones\nand tablets. Eye trackers within HMDs provide a special opportunity for such\nsetups as it is possible to facilitate gaze-based research and interaction.\nHowever, estimating users' gaze information often requires raw eye images and\nvideos that contain iris textures, which are considered a gold standard\nbiometric for user authentication, and this raises privacy concerns. Previous\nresearch in the eye-tracking community focused on obfuscating iris textures\nwhile keeping utility tasks such as gaze estimation accurate. Despite these\nattempts, there is no comprehensive benchmark that evaluates state-of-the-art\napproaches. Considering all, in this paper, we benchmark blurring, noising,\ndownsampling, rubber sheet model, and iris style transfer to obfuscate user\nidentity, and compare their impact on image quality, privacy, utility, and risk\nof imposter attack on two datasets. We use eye segmentation and gaze estimation\nas utility tasks, and reduction in iris recognition accuracy as a measure of\nprivacy protection, and false acceptance rate to estimate risk of attack. Our\nexperiments show that canonical image processing methods like blurring and\nnoising cause a marginal impact on deep learning-based tasks. While\ndownsampling, rubber sheet model, and iris style transfer are effective in\nhiding user identifiers, iris style transfer, with higher computation cost,\noutperforms others in both utility tasks, and is more resilient against spoof\nattacks. Our analyses indicate that there is no universal optimal approach to\nbalance privacy, utility, and computation burden. Therefore, we recommend\npractitioners consider the strengths and weaknesses of each approach, and\npossible combinations of those to reach an optimal privacy-utility trade-off.",
+    "updated" : "2025-04-14T14:29:38Z",
+    "published" : "2025-04-14T14:29:38Z",
+    "authors" : [
+      {
+        "name" : "Mengdi Wang"
+      },
+      {
+        "name" : "Efe Bozkir"
+      },
+      {
+        "name" : "Enkelejda Kasneci"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.10016v1",
+    "title" : "Quantifying Privacy Leakage in Split Inference via Fisher-Approximated\n  Shannon Information Analysis",
+    "summary" : "Split inference (SI) partitions deep neural networks into distributed\nsub-models, enabling privacy-preserving collaborative learning. Nevertheless,\nit remains vulnerable to Data Reconstruction Attacks (DRAs), wherein\nadversaries exploit exposed smashed data to reconstruct raw inputs. Despite\nextensive research on adversarial attack-defense games, a shortfall remains in\nthe fundamental analysis of privacy risks. This paper establishes a theoretical\nframework for privacy leakage quantification using information theory, defining\nit as the adversary's certainty and deriving both average-case and worst-case\nerror bounds. We introduce Fisher-approximated Shannon information (FSInfo), a\nnovel privacy metric utilizing Fisher Information (FI) for operational privacy\nleakage computation. We empirically show that our privacy metric correlates\nwell with empirical attacks and investigate some of the factors that affect\nprivacy leakage, namely the data distribution, model size, and overfitting.",
+    "updated" : "2025-04-14T09:19:06Z",
+    "published" : "2025-04-14T09:19:06Z",
+    "authors" : [
+      {
+        "name" : "Ruijun Deng"
+      },
+      {
+        "name" : "Zhihui Lu"
+      },
+      {
+        "name" : "Qiang Duan"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.09961v1",
+    "title" : "Privacy Meets Explainability: Managing Confidential Data and\n  Transparency Policies in LLM-Empowered Science",
+    "summary" : "As Large Language Models (LLMs) become integral to scientific workflows,\nconcerns over the confidentiality and ethical handling of confidential data\nhave emerged. This paper explores data exposure risks through LLM-powered\nscientific tools, which can inadvertently leak confidential information,\nincluding intellectual property and proprietary data, from scientists'\nperspectives. We propose \"DataShield\", a framework designed to detect\nconfidential data leaks, summarize privacy policies, and visualize data flow,\nensuring alignment with organizational policies and procedures. Our approach\naims to inform scientists about data handling practices, enabling them to make\ninformed decisions and protect sensitive information. Ongoing user studies with\nscientists are underway to evaluate the framework's usability, trustworthiness,\nand effectiveness in tackling real-world privacy challenges.",
+    "updated" : "2025-04-14T07:58:26Z",
+    "published" : "2025-04-14T07:58:26Z",
+    "authors" : [
+      {
+        "name" : "Yashothara Shanmugarasa"
+      },
+      {
+        "name" : "Shidong Pan"
+      },
+      {
+        "name" : "Ming Ding"
+      },
+      {
+        "name" : "Dehai Zhao"
+      },
+      {
+        "name" : "Thierry Rakotoarivelo"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.09952v1",
+    "title" : "Secrecy and Privacy in Multi-Access Combinatorial Topology",
+    "summary" : "In this work, we consider the multi-access combinatorial topology with $C$\ncaches where each user accesses a unique set of $r$ caches. For this setup, we\nconsider secrecy, where each user should not know anything about the files it\ndid not request, and demand privacy, where each user's demand must be kept\nprivate from other non-colluding users. We propose a scheme satisfying both\nconditions and derive a lower bound based on cut-set arguments. Also, we prove\nthat our scheme is optimal when $r\\geq C-1$, and it is order-optimal when the\ncache memory size $M$ is greater than or equal to a certain threshold for\n$r<C-1$. When $r=1$, in most of the memory region, our scheme achieves the same\nrate as the one given by the secretive scheme for the dedicated cache setup by\nRavindrakumar et al. ( 'Private Coded Caching,' in \\textit{IEEE Transactions on\nInformation Forensics and Security}, 2018), while satisfying both secrecy and\ndemand privacy conditions.",
+    "updated" : "2025-04-14T07:30:03Z",
+    "published" : "2025-04-14T07:30:03Z",
+    "authors" : [
+      {
+        "name" : "Mallikharjuna Chinnapadamala"
+      },
+      {
+        "name" : "B. Sundar Rajan"
+      }
+    ],
+    "categories" : [
+      "cs.IT",
+      "math.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.09517v1",
+    "title" : "RoboComm: A DID-based scalable and privacy-preserving Robot-to-Robot\n  interaction over state channels",
+    "summary" : "In a multi robot system establishing trust amongst untrusted robots from\ndifferent organisations while preserving a robot's privacy is a challenge.\nRecently decentralized technologies such as smart contract and blockchain are\nbeing explored for applications in robotics. However, the limited transaction\nprocessing and high maintenance cost hinder the widespread adoption of such\napproaches. Moreover, blockchain transactions be they on public or private\npermissioned blockchain are publically readable which further fails to preserve\nthe confidentiality of the robot's data and privacy of the robot.\n  In this work, we propose RoboComm a Decentralized Identity based approach for\nprivacy-preserving interaction between robots. With DID a component of\nSelf-Sovereign Identity; robots can authenticate each other independently\nwithout relying on any third-party service. Verifiable Credentials enable\nprivate data associated with a robot to be stored within the robot's hardware,\nunlike existing blockchain based approaches where the data has to be on the\nblockchain. We improve throughput by allowing message exchange over state\nchannels. Being a blockchain backed solution RoboComm provides a trustworthy\nsystem without relying on a single party. Moreover, we implement our proposed\napproach to demonstrate the feasibility of our solution.",
+    "updated" : "2025-04-13T11:10:04Z",
+    "published" : "2025-04-13T11:10:04Z",
+    "authors" : [
+      {
+        "name" : "Roshan Singh"
+      },
+      {
+        "name" : "Sushant Pandey"
+      }
+    ],
+    "categories" : [
+      "cs.NI",
+      "cs.RO"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.09095v1",
+    "title" : "Privacy Preservation in Gen AI Applications",
+    "summary" : "The ability of machines to comprehend and produce language that is similar to\nthat of humans has revolutionized sectors like customer service, healthcare,\nand finance thanks to the quick advances in Natural Language Processing (NLP),\nwhich are fueled by Generative Artificial Intelligence (AI) and Large Language\nModels (LLMs). However, because LLMs trained on large datasets may\nunintentionally absorb and reveal Personally Identifiable Information (PII)\nfrom user interactions, these capabilities also raise serious privacy concerns.\nDeep neural networks' intricacy makes it difficult to track down or stop the\ninadvertent storing and release of private information, which raises serious\nconcerns about the privacy and security of AI-driven data. This study tackles\nthese issues by detecting Generative AI weaknesses through attacks such as data\nextraction, model inversion, and membership inference. A privacy-preserving\nGenerative AI application that is resistant to these assaults is then\ndeveloped. It ensures privacy without sacrificing functionality by using\nmethods to identify, alter, or remove PII before to dealing with LLMs. In order\nto determine how well cloud platforms like Microsoft Azure, Google Cloud, and\nAWS provide privacy tools for protecting AI applications, the study also\nexamines these technologies. In the end, this study offers a fundamental\nprivacy paradigm for generative AI systems, focusing on data security and moral\nAI implementation, and opening the door to a more secure and conscientious use\nof these tools.",
+    "updated" : "2025-04-12T06:19:37Z",
+    "published" : "2025-04-12T06:19:37Z",
+    "authors" : [
+      {
+        "name" : "Swetha S"
+      },
+      {
+        "name" : "Ram Sundhar K Shaju"
+      },
+      {
+        "name" : "Rakshana M"
+      },
+      {
+        "name" : "Ganesh R"
+      },
+      {
+        "name" : "Balavedhaa S"
+      },
+      {
+        "name" : "Thiruvaazhi U"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.08254v2",
+    "title" : "Understanding the Impact of Data Domain Extraction on Synthetic Data\n  Privacy",
+    "summary" : "Privacy attacks, particularly membership inference attacks (MIAs), are widely\nused to assess the privacy of generative models for tabular synthetic data,\nincluding those with Differential Privacy (DP) guarantees. These attacks often\nexploit outliers, which are especially vulnerable due to their position at the\nboundaries of the data domain (e.g., at the minimum and maximum values).\nHowever, the role of data domain extraction in generative models and its impact\non privacy attacks have been overlooked. In this paper, we examine three\nstrategies for defining the data domain: assuming it is externally provided\n(ideally from public data), extracting it directly from the input data, and\nextracting it with DP mechanisms. While common in popular implementations and\nlibraries, we show that the second approach breaks end-to-end DP guarantees and\nleaves models vulnerable. While using a provided domain (if representative) is\npreferable, extracting it with DP can also defend against popular MIAs, even at\nhigh privacy budgets.",
+    "updated" : "2025-04-14T02:34:24Z",
+    "published" : "2025-04-11T04:35:24Z",
+    "authors" : [
+      {
+        "name" : "Georgi Ganev"
+      },
+      {
+        "name" : "Meenatchi Sundaram Muthu Selva Annamalai"
+      },
+      {
+        "name" : "Sofiane Mahiou"
+      },
+      {
+        "name" : "Emiliano De Cristofaro"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
   }
 ]
