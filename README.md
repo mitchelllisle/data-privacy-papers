@@ -2,6 +2,60 @@
 <h2>2025-04</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.11429v1">Improving Statistical Privacy by Subsampling</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-04-15T17:40:45Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Dennis Breutigam, Rüdiger Reischuk</p>
+    <p><b>Summary:</b> Differential privacy (DP) considers a scenario, where an adversary has almost
+complete information about the entries of a database This worst-case assumption
+is likely to overestimate the privacy thread for an individual in real life.
+Statistical privacy (SP) denotes a setting where only the distribution of the
+database entries is known to an adversary, but not their exact values. In this
+case one has to analyze the interaction between noiseless privacy based on the
+entropy of distributions and privacy mechanisms that distort the answers of
+queries, which can be quite complex.
+  A privacy mechanism often used is to take samples of the data for answering a
+query. This paper proves precise bounds how much different methods of sampling
+increase privacy in the statistical setting with respect to database size and
+sampling rate. They allow us to deduce when and how much sampling provides an
+improvement and how far this depends on the privacy parameter {\epsilon}. To
+perform these investigations we develop a framework to model sampling
+techniques.
+  For the DP setting tradeoff functions have been proposed as a finer measure
+for privacy compared to ({\epsilon},{\delta})-pairs. We apply these tools to
+statistical privacy with subsampling to get a comparable characterization</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.10698v1">Optimising Intrusion Detection Systems in Cloud-Edge Continuum with
+  Knowledge Distillation for Privacy-Preserving and Efficient Communication</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-04-14T20:45:05Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Soad Almabdy, Amjad Ullah</p>
+    <p><b>Summary:</b> The growth of the Internet of Things has amplified the need for secure data
+interactions in cloud-edge ecosystems, where sensitive information is
+constantly processed across various system layers. Intrusion detection systems
+are commonly used to protect such environments from malicious attacks.
+Recently, Federated Learning has emerged as an effective solution for
+implementing intrusion detection systems, owing to its decentralised
+architecture that avoids sharing raw data with a central server, thereby
+enhancing data privacy. Despite its benefits, Federated Learning faces
+criticism for high communication overhead from frequent model updates,
+especially in large-scale Cloud-Edge infrastructures. This paper explores
+Knowledge Distillation to reduce communication overhead in Cloud-Edge intrusion
+detection while preserving accuracy and data privacy. Experiments show
+significant improvements over state-of-the-art methods.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2504.10456v1">Privacy-Preserving Distributed Link Predictions Among Peers in Online
   Classrooms Using Federated Learning</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Social and Information Networks-662E9B">
@@ -39,7 +93,7 @@ framework -- an aspect that has not been explored before.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.10267v1">Trade-offs in Privacy-Preserving Eye Tracking through Iris Obfuscation:
+  <h3><a href="http://arxiv.org/abs/2504.10267v2">Trade-offs in Privacy-Preserving Eye Tracking through Iris Obfuscation:
   A Benchmarking Study</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
   <p><b>Published on:</b> 2025-04-14T14:29:38Z</p>
@@ -149,7 +203,7 @@ demand privacy conditions.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.09517v1">RoboComm: A DID-based scalable and privacy-preserving Robot-to-Robot
+  <h3><a href="http://arxiv.org/abs/2504.09517v2">RoboComm: A DID-based scalable and privacy-preserving Robot-to-Robot
   interaction over state channels</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Robotics-F9C80E">
   <p><b>Published on:</b> 2025-04-13T11:10:04Z</p>
@@ -2878,58 +2932,6 @@ education, parental data-sharing ethics, and accountability measures. Through
 this approach, we seek to empower youth with greater control over their digital
 identities and propose actionable strategies for policymakers, AI developers,
 and educators to build a fairer and more accountable AI ecosystem.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.11920v1">Practical Implications of Implementing Local Differential Privacy for
-  Smart grids</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-03-14T23:11:46Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Khadija Hafeez, Mubashir Husain Rehmani, Sumita Mishra, Donna OShea</p>
-    <p><b>Summary:</b> Recent smart grid advancements enable near-realtime reporting of electricity
-consumption, raising concerns about consumer privacy. Differential privacy (DP)
-has emerged as a viable privacy solution, where a calculated amount of noise is
-added to the data by a trusted third party, or individual users perturb their
-information locally, and only send the randomized data to an aggregator for
-analysis safeguarding users and aggregators privacy. However, the practical
-implementation of a Local DP-based (LDP) privacy model for smart grids has its
-own challenges. In this paper, we discuss the challenges of implementing an
-LDP-based model for smart grids. We compare existing LDP mechanisms in smart
-grids for privacy preservation of numerical data and discuss different methods
-for selecting privacy parameters in the existing literature, their limitations
-and the non-existence of an optimal method for selecting the privacy
-parameters. We also discuss the challenges of translating theoretical models of
-LDP into a practical setting for smart grids for different utility functions,
-the impact of the size of data set on privacy and accuracy, and vulnerability
-of LDP-based smart grids to manipulation attacks. Finally, we discuss future
-directions in research for better practical applications in LDP based models
-for smart grids.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.11850v1">Local Pan-Privacy for Federated Analytics</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-03-14T20:18:33Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Vitaly Feldman, Audra McMillan, Guy N. Rothblum, Kunal Talwar</p>
-    <p><b>Summary:</b> Pan-privacy was proposed by Dwork et al. as an approach to designing a
-private analytics system that retains its privacy properties in the face of
-intrusions that expose the system's internal state. Motivated by federated
-telemetry applications, we study local pan-privacy, where privacy should be
-retained under repeated unannounced intrusions on the local state. We consider
-the problem of monitoring the count of an event in a federated system, where
-event occurrences on a local device should be hidden even from an intruder on
-that device. We show that under reasonable constraints, the goal of providing
-information-theoretic differential privacy under intrusion is incompatible with
-collecting telemetry information. We then show that this problem can be solved
-in a scalable way using standard cryptographic primitives.</p>
   </details>
 </div>
 
