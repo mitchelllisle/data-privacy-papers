@@ -886,5 +886,81 @@
       "cs.CR",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.11429v1",
+    "title" : "Improving Statistical Privacy by Subsampling",
+    "summary" : "Differential privacy (DP) considers a scenario, where an adversary has almost\ncomplete information about the entries of a database This worst-case assumption\nis likely to overestimate the privacy thread for an individual in real life.\nStatistical privacy (SP) denotes a setting where only the distribution of the\ndatabase entries is known to an adversary, but not their exact values. In this\ncase one has to analyze the interaction between noiseless privacy based on the\nentropy of distributions and privacy mechanisms that distort the answers of\nqueries, which can be quite complex.\n  A privacy mechanism often used is to take samples of the data for answering a\nquery. This paper proves precise bounds how much different methods of sampling\nincrease privacy in the statistical setting with respect to database size and\nsampling rate. They allow us to deduce when and how much sampling provides an\nimprovement and how far this depends on the privacy parameter {\\epsilon}. To\nperform these investigations we develop a framework to model sampling\ntechniques.\n  For the DP setting tradeoff functions have been proposed as a finer measure\nfor privacy compared to ({\\epsilon},{\\delta})-pairs. We apply these tools to\nstatistical privacy with subsampling to get a comparable characterization",
+    "updated" : "2025-04-15T17:40:45Z",
+    "published" : "2025-04-15T17:40:45Z",
+    "authors" : [
+      {
+        "name" : "Dennis Breutigam"
+      },
+      {
+        "name" : "Rüdiger Reischuk"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.10698v1",
+    "title" : "Optimising Intrusion Detection Systems in Cloud-Edge Continuum with\n  Knowledge Distillation for Privacy-Preserving and Efficient Communication",
+    "summary" : "The growth of the Internet of Things has amplified the need for secure data\ninteractions in cloud-edge ecosystems, where sensitive information is\nconstantly processed across various system layers. Intrusion detection systems\nare commonly used to protect such environments from malicious attacks.\nRecently, Federated Learning has emerged as an effective solution for\nimplementing intrusion detection systems, owing to its decentralised\narchitecture that avoids sharing raw data with a central server, thereby\nenhancing data privacy. Despite its benefits, Federated Learning faces\ncriticism for high communication overhead from frequent model updates,\nespecially in large-scale Cloud-Edge infrastructures. This paper explores\nKnowledge Distillation to reduce communication overhead in Cloud-Edge intrusion\ndetection while preserving accuracy and data privacy. Experiments show\nsignificant improvements over state-of-the-art methods.",
+    "updated" : "2025-04-14T20:45:05Z",
+    "published" : "2025-04-14T20:45:05Z",
+    "authors" : [
+      {
+        "name" : "Soad Almabdy"
+      },
+      {
+        "name" : "Amjad Ullah"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.10267v2",
+    "title" : "Trade-offs in Privacy-Preserving Eye Tracking through Iris Obfuscation:\n  A Benchmarking Study",
+    "summary" : "Recent developments in hardware, computer graphics, and AI may soon enable\nAR/VR head-mounted displays (HMDs) to become everyday devices like smartphones\nand tablets. Eye trackers within HMDs provide a special opportunity for such\nsetups as it is possible to facilitate gaze-based research and interaction.\nHowever, estimating users' gaze information often requires raw eye images and\nvideos that contain iris textures, which are considered a gold standard\nbiometric for user authentication, and this raises privacy concerns. Previous\nresearch in the eye-tracking community focused on obfuscating iris textures\nwhile keeping utility tasks such as gaze estimation accurate. Despite these\nattempts, there is no comprehensive benchmark that evaluates state-of-the-art\napproaches. Considering all, in this paper, we benchmark blurring, noising,\ndownsampling, rubber sheet model, and iris style transfer to obfuscate user\nidentity, and compare their impact on image quality, privacy, utility, and risk\nof imposter attack on two datasets. We use eye segmentation and gaze estimation\nas utility tasks, and reduction in iris recognition accuracy as a measure of\nprivacy protection, and false acceptance rate to estimate risk of attack. Our\nexperiments show that canonical image processing methods like blurring and\nnoising cause a marginal impact on deep learning-based tasks. While\ndownsampling, rubber sheet model, and iris style transfer are effective in\nhiding user identifiers, iris style transfer, with higher computation cost,\noutperforms others in both utility tasks, and is more resilient against spoof\nattacks. Our analyses indicate that there is no universal optimal approach to\nbalance privacy, utility, and computation burden. Therefore, we recommend\npractitioners consider the strengths and weaknesses of each approach, and\npossible combinations of those to reach an optimal privacy-utility trade-off.",
+    "updated" : "2025-04-15T09:43:41Z",
+    "published" : "2025-04-14T14:29:38Z",
+    "authors" : [
+      {
+        "name" : "Mengdi Wang"
+      },
+      {
+        "name" : "Efe Bozkir"
+      },
+      {
+        "name" : "Enkelejda Kasneci"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.09517v2",
+    "title" : "RoboComm: A DID-based scalable and privacy-preserving Robot-to-Robot\n  interaction over state channels",
+    "summary" : "In a multi robot system establishing trust amongst untrusted robots from\ndifferent organisations while preserving a robot's privacy is a challenge.\nRecently decentralized technologies such as smart contract and blockchain are\nbeing explored for applications in robotics. However, the limited transaction\nprocessing and high maintenance cost hinder the widespread adoption of such\napproaches. Moreover, blockchain transactions be they on public or private\npermissioned blockchain are publically readable which further fails to preserve\nthe confidentiality of the robot's data and privacy of the robot.\n  In this work, we propose RoboComm a Decentralized Identity based approach for\nprivacy-preserving interaction between robots. With DID a component of\nSelf-Sovereign Identity; robots can authenticate each other independently\nwithout relying on any third-party service. Verifiable Credentials enable\nprivate data associated with a robot to be stored within the robot's hardware,\nunlike existing blockchain based approaches where the data has to be on the\nblockchain. We improve throughput by allowing message exchange over state\nchannels. Being a blockchain backed solution RoboComm provides a trustworthy\nsystem without relying on a single party. Moreover, we implement our proposed\napproach to demonstrate the feasibility of our solution.",
+    "updated" : "2025-04-15T17:22:20Z",
+    "published" : "2025-04-13T11:10:04Z",
+    "authors" : [
+      {
+        "name" : "Roshan Singh"
+      },
+      {
+        "name" : "Sushant Pandey"
+      }
+    ],
+    "categories" : [
+      "cs.NI",
+      "cs.RO"
+    ]
   }
 ]
