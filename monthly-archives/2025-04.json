@@ -962,5 +962,124 @@
       "cs.NI",
       "cs.RO"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.12129v1",
+    "title" : "Anti-Aesthetics: Protecting Facial Privacy against Customized\n  Text-to-Image Synthesis",
+    "summary" : "The rise of customized diffusion models has spurred a boom in personalized\nvisual content creation, but also poses risks of malicious misuse, severely\nthreatening personal privacy and copyright protection. Some studies show that\nthe aesthetic properties of images are highly positively correlated with human\nperception of image quality. Inspired by this, we approach the problem from a\nnovel and intriguing aesthetic perspective to degrade the generation quality of\nmaliciously customized models, thereby achieving better protection of facial\nidentity. Specifically, we propose a Hierarchical Anti-Aesthetic (HAA)\nframework to fully explore aesthetic cues, which consists of two key branches:\n1) Global Anti-Aesthetics: By establishing a global anti-aesthetic reward\nmechanism and a global anti-aesthetic loss, it can degrade the overall\naesthetics of the generated content; 2) Local Anti-Aesthetics: A local\nanti-aesthetic reward mechanism and a local anti-aesthetic loss are designed to\nguide adversarial perturbations to disrupt local facial identity. By seamlessly\nintegrating both branches, our HAA effectively achieves the goal of\nanti-aesthetics from a global to a local level during customized generation.\nExtensive experiments show that HAA outperforms existing SOTA methods largely\nin identity removal, providing a powerful tool for protecting facial privacy\nand copyright.",
+    "updated" : "2025-04-16T14:44:00Z",
+    "published" : "2025-04-16T14:44:00Z",
+    "authors" : [
+      {
+        "name" : "Songping Wang"
+      },
+      {
+        "name" : "Yueming Lyu"
+      },
+      {
+        "name" : "Shiqi Liu"
+      },
+      {
+        "name" : "Ning Li"
+      },
+      {
+        "name" : "Tong Tong"
+      },
+      {
+        "name" : "Hao Sun"
+      },
+      {
+        "name" : "Caifeng Shan"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.11860v1",
+    "title" : "From Data Behavior to Code Analysis: A Multimodal Study on Security and\n  Privacy Challenges in Blockchain-Based DApp",
+    "summary" : "The recent proliferation of blockchain-based decentralized applications\n(DApp) has catalyzed transformative advancements in distributed systems, with\nextensive deployments observed across financial, entertainment, media, and\ncybersecurity domains. These trustless architectures, characterized by their\ndecentralized nature and elimination of third-party intermediaries, have\ngarnered substantial institutional attention. Consequently, the escalating\nsecurity challenges confronting DApp demand rigorous scholarly investigation.\nThis study initiates with a systematic analysis of behavioral patterns derived\nfrom empirical DApp datasets, establishing foundational insights for subsequent\nmethodological developments. The principal security vulnerabilities in\nEthereum-based smart contracts developed via Solidity are then critically\nexamined. Specifically, reentrancy vulnerability attacks are addressed by\nformally representing contract logic using highly expressive code fragments.\nThis enables precise source code-level detection via bidirectional long\nshort-term memory networks with attention mechanisms (BLSTM-ATT). Regarding\nprivacy preservation challenges, contemporary solutions are evaluated through\ndual analytical lenses: identity privacy preservation and transaction anonymity\nenhancement, while proposing future research trajectories in cryptographic\nobfuscation techniques.",
+    "updated" : "2025-04-16T08:30:43Z",
+    "published" : "2025-04-16T08:30:43Z",
+    "authors" : [
+      {
+        "name" : "Haoyang Sun"
+      },
+      {
+        "name" : "Yishun Wang"
+      },
+      {
+        "name" : "Xiaoqi Li"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.11793v1",
+    "title" : "Selective Attention Federated Learning: Improving Privacy and Efficiency\n  for Clinical Text Classification",
+    "summary" : "Federated Learning (FL) faces major challenges regarding communication\noverhead and model privacy when training large language models (LLMs),\nespecially in healthcare applications. To address these, we introduce Selective\nAttention Federated Learning (SAFL), a novel approach that dynamically\nfine-tunes only those transformer layers identified as attention-critical. By\nemploying attention patterns to determine layer importance, SAFL significantly\nreduces communication bandwidth and enhances differential privacy resilience.\nEvaluations on clinical NLP benchmarks (i2b2 Clinical Concept Extraction and\nMIMIC-III discharge summaries) demonstrate that SAFL achieves competitive\nperformance with centralized models while substantially improving communication\nefficiency and privacy preservation.",
+    "updated" : "2025-04-16T05:59:29Z",
+    "published" : "2025-04-16T05:59:29Z",
+    "authors" : [
+      {
+        "name" : "Yue Li"
+      },
+      {
+        "name" : "Lihong Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.11511v1",
+    "title" : "Position Paper: Rethinking Privacy in RL for Sequential Decision-making\n  in the Age of LLMs",
+    "summary" : "The rise of reinforcement learning (RL) in critical real-world applications\ndemands a fundamental rethinking of privacy in AI systems. Traditional privacy\nframeworks, designed to protect isolated data points, fall short for sequential\ndecision-making systems where sensitive information emerges from temporal\npatterns, behavioral strategies, and collaborative dynamics. Modern RL\nparadigms, such as federated RL (FedRL) and RL with human feedback (RLHF) in\nlarge language models (LLMs), exacerbate these challenges by introducing\ncomplex, interactive, and context-dependent learning environments that\ntraditional methods do not address. In this position paper, we argue for a new\nprivacy paradigm built on four core principles: multi-scale protection,\nbehavioral pattern protection, collaborative privacy preservation, and\ncontext-aware adaptation. These principles expose inherent tensions between\nprivacy, utility, and interpretability that must be navigated as RL systems\nbecome more pervasive in high-stakes domains like healthcare, autonomous\nvehicles, and decision support systems powered by LLMs. To tackle these\nchallenges, we call for the development of new theoretical frameworks,\npractical mechanisms, and rigorous evaluation methodologies that collectively\nenable effective privacy protection in sequential decision-making systems.",
+    "updated" : "2025-04-15T10:45:55Z",
+    "published" : "2025-04-15T10:45:55Z",
+    "authors" : [
+      {
+        "name" : "Flint Xiaofeng Fan"
+      },
+      {
+        "name" : "Cheston Tan"
+      },
+      {
+        "name" : "Roger Wattenhofer"
+      },
+      {
+        "name" : "Yew-Soon Ong"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.07414v3",
+    "title" : "A Unified Framework and Efficient Computation for Privacy Amplification\n  via Shuffling",
+    "summary" : "The shuffle model offers significant privacy amplification over local\ndifferential privacy (LDP), enabling improved privacy-utility trade-offs. To\nanalyze and quantify this amplification effect, two primary frameworks have\nbeen proposed: the \\textit{privacy blanket} (Balle et al., CRYPTO 2019) and the\n\\textit{clone paradigm}, which includes both the \\textit{standard clone} and\n\\textit{stronger clone} (Feldman et al., FOCS 2021; SODA 2023). All of these\napproaches are grounded in decomposing the behavior of local randomizers.\n  In this work, we present a unified perspective--termed the \\textit{general\nclone paradigm}--that captures all decomposition-based analyses. We identify\nthe optimal decomposition within this framework and design a simple yet\nefficient algorithm based on the Fast Fourier Transform (FFT) to compute tight\nprivacy amplification bounds. Empirical results show that our computed upper\nbounds nearly match the corresponding lower bounds, demonstrating the accuracy\nand tightness of our method.\n  Furthermore, we apply our algorithm to derive optimal privacy amplification\nbounds for both joint composition and parallel composition of LDP mechanisms in\nthe shuffle model.",
+    "updated" : "2025-04-16T12:16:33Z",
+    "published" : "2025-04-10T03:11:17Z",
+    "authors" : [
+      {
+        "name" : "Pengcheng Su"
+      },
+      {
+        "name" : "Haibo Cheng"
+      },
+      {
+        "name" : "Ping Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
