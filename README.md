@@ -2,6 +2,91 @@
 <h2>2025-04</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.12129v1">Anti-Aesthetics: Protecting Facial Privacy against Customized
+  Text-to-Image Synthesis</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2025-04-16T14:44:00Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Songping Wang, Yueming Lyu, Shiqi Liu, Ning Li, Tong Tong, Hao Sun, Caifeng Shan</p>
+    <p><b>Summary:</b> The rise of customized diffusion models has spurred a boom in personalized
+visual content creation, but also poses risks of malicious misuse, severely
+threatening personal privacy and copyright protection. Some studies show that
+the aesthetic properties of images are highly positively correlated with human
+perception of image quality. Inspired by this, we approach the problem from a
+novel and intriguing aesthetic perspective to degrade the generation quality of
+maliciously customized models, thereby achieving better protection of facial
+identity. Specifically, we propose a Hierarchical Anti-Aesthetic (HAA)
+framework to fully explore aesthetic cues, which consists of two key branches:
+1) Global Anti-Aesthetics: By establishing a global anti-aesthetic reward
+mechanism and a global anti-aesthetic loss, it can degrade the overall
+aesthetics of the generated content; 2) Local Anti-Aesthetics: A local
+anti-aesthetic reward mechanism and a local anti-aesthetic loss are designed to
+guide adversarial perturbations to disrupt local facial identity. By seamlessly
+integrating both branches, our HAA effectively achieves the goal of
+anti-aesthetics from a global to a local level during customized generation.
+Extensive experiments show that HAA outperforms existing SOTA methods largely
+in identity removal, providing a powerful tool for protecting facial privacy
+and copyright.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.11860v1">From Data Behavior to Code Analysis: A Multimodal Study on Security and
+  Privacy Challenges in Blockchain-Based DApp</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-04-16T08:30:43Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Haoyang Sun, Yishun Wang, Xiaoqi Li</p>
+    <p><b>Summary:</b> The recent proliferation of blockchain-based decentralized applications
+(DApp) has catalyzed transformative advancements in distributed systems, with
+extensive deployments observed across financial, entertainment, media, and
+cybersecurity domains. These trustless architectures, characterized by their
+decentralized nature and elimination of third-party intermediaries, have
+garnered substantial institutional attention. Consequently, the escalating
+security challenges confronting DApp demand rigorous scholarly investigation.
+This study initiates with a systematic analysis of behavioral patterns derived
+from empirical DApp datasets, establishing foundational insights for subsequent
+methodological developments. The principal security vulnerabilities in
+Ethereum-based smart contracts developed via Solidity are then critically
+examined. Specifically, reentrancy vulnerability attacks are addressed by
+formally representing contract logic using highly expressive code fragments.
+This enables precise source code-level detection via bidirectional long
+short-term memory networks with attention mechanisms (BLSTM-ATT). Regarding
+privacy preservation challenges, contemporary solutions are evaluated through
+dual analytical lenses: identity privacy preservation and transaction anonymity
+enhancement, while proposing future research trajectories in cryptographic
+obfuscation techniques.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.11793v1">Selective Attention Federated Learning: Improving Privacy and Efficiency
+  for Clinical Text Classification</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-04-16T05:59:29Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yue Li, Lihong Zhang</p>
+    <p><b>Summary:</b> Federated Learning (FL) faces major challenges regarding communication
+overhead and model privacy when training large language models (LLMs),
+especially in healthcare applications. To address these, we introduce Selective
+Attention Federated Learning (SAFL), a novel approach that dynamically
+fine-tunes only those transformer layers identified as attention-critical. By
+employing attention patterns to determine layer importance, SAFL significantly
+reduces communication bandwidth and enhances differential privacy resilience.
+Evaluations on clinical NLP benchmarks (i2b2 Clinical Concept Extraction and
+MIMIC-III discharge summaries) demonstrate that SAFL achieves competitive
+performance with centralized models while substantially improving communication
+efficiency and privacy preservation.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2504.11429v1">Improving Statistical Privacy by Subsampling</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2025-04-15T17:40:45Z</p>
@@ -26,6 +111,36 @@ techniques.
   For the DP setting tradeoff functions have been proposed as a finer measure
 for privacy compared to ({\epsilon},{\delta})-pairs. We apply these tools to
 statistical privacy with subsampling to get a comparable characterization</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.11511v1">Position Paper: Rethinking Privacy in RL for Sequential Decision-making
+  in the Age of LLMs</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-04-15T10:45:55Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Flint Xiaofeng Fan, Cheston Tan, Roger Wattenhofer, Yew-Soon Ong</p>
+    <p><b>Summary:</b> The rise of reinforcement learning (RL) in critical real-world applications
+demands a fundamental rethinking of privacy in AI systems. Traditional privacy
+frameworks, designed to protect isolated data points, fall short for sequential
+decision-making systems where sensitive information emerges from temporal
+patterns, behavioral strategies, and collaborative dynamics. Modern RL
+paradigms, such as federated RL (FedRL) and RL with human feedback (RLHF) in
+large language models (LLMs), exacerbate these challenges by introducing
+complex, interactive, and context-dependent learning environments that
+traditional methods do not address. In this position paper, we argue for a new
+privacy paradigm built on four core principles: multi-scale protection,
+behavioral pattern protection, collaborative privacy preservation, and
+context-aware adaptation. These principles expose inherent tensions between
+privacy, utility, and interpretability that must be navigated as RL systems
+become more pervasive in high-stakes domains like healthcare, autonomous
+vehicles, and decision support systems powered by LLMs. To tackle these
+challenges, we call for the development of new theoretical frameworks,
+practical mechanisms, and rigorous evaluation methodologies that collectively
+enable effective privacy protection in sequential decision-making systems.</p>
   </details>
 </div>
 
@@ -392,28 +507,30 @@ maintaining accuracy comparable to plaintext k-means algorithms.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.07414v2">Decomposition-Based Optimal Bounds for Privacy Amplification via
-  Shuffling</a></h3>
+  <h3><a href="http://arxiv.org/abs/2504.07414v3">A Unified Framework and Efficient Computation for Privacy Amplification
+  via Shuffling</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2025-04-10T03:11:17Z</p>
   <details>
     <summary>More Details</summary>
     <p><b>Authors:</b> Pengcheng Su, Haibo Cheng, Ping Wang</p>
-    <p><b>Summary:</b> Shuffling has been shown to amplify differential privacy guarantees, offering
-a stronger privacy-utility trade-off. To characterize and compute this
-amplification, two fundamental analytical frameworks have been proposed: the
-privacy blanket by Balle et al. (CRYPTO 2019) and the clone paradigm (including
-both the standard clone and stronger clone) by Feldman et al. (FOCS 2021, SODA
-2023). All these methods rely on decomposing local randomizers.
-  In this work, we introduce a unified analysis framework--the general clone
-paradigm--which encompasses all possible decompositions. We identify the
-optimal decomposition within the general clone paradigm. Moreover, we develop a
-simple and efficient algorithm to compute the exact value of the optimal
-privacy amplification bounds via Fast Fourier Transform. Experimental results
-demonstrate that the computed upper bounds for privacy amplification closely
-approximate the lower bounds, highlighting the tightness of our approach.
-Finally, using our algorithm, we conduct the first systematic analysis of the
-joint composition of LDP protocols in the shuffle model.</p>
+    <p><b>Summary:</b> The shuffle model offers significant privacy amplification over local
+differential privacy (LDP), enabling improved privacy-utility trade-offs. To
+analyze and quantify this amplification effect, two primary frameworks have
+been proposed: the \textit{privacy blanket} (Balle et al., CRYPTO 2019) and the
+\textit{clone paradigm}, which includes both the \textit{standard clone} and
+\textit{stronger clone} (Feldman et al., FOCS 2021; SODA 2023). All of these
+approaches are grounded in decomposing the behavior of local randomizers.
+  In this work, we present a unified perspective--termed the \textit{general
+clone paradigm}--that captures all decomposition-based analyses. We identify
+the optimal decomposition within this framework and design a simple yet
+efficient algorithm based on the Fast Fourier Transform (FFT) to compute tight
+privacy amplification bounds. Empirical results show that our computed upper
+bounds nearly match the corresponding lower bounds, demonstrating the accuracy
+and tightness of our method.
+  Furthermore, we apply our algorithm to derive optimal privacy amplification
+bounds for both joint composition and parallel composition of LDP mechanisms in
+the shuffle model.</p>
   </details>
 </div>
 
@@ -2815,123 +2932,6 @@ heterogeneous data, achieving a balance between forecasting accuracy and
 privacy preservation in retail applications. Additionally, PA-CFL's capability
 to detect and neutralize poisoned data from clients enhances the system's
 robustness and reliability.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.12156v1">Efficient and Privacy-Preserved Link Prediction via Condensed Graphs</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Social and Information Networks-662E9B">
-  <p><b>Published on:</b> 2025-03-15T14:54:04Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yunbo Long, Liming Xu, Alexandra Brintrup</p>
-    <p><b>Summary:</b> Link prediction is crucial for uncovering hidden connections within complex
-networks, enabling applications such as identifying potential customers and
-products. However, this research faces significant challenges, including
-concerns about data privacy, as well as high computational and storage costs,
-especially when dealing with large-scale networks. Condensed graphs, which are
-much smaller than the original graphs while retaining essential information,
-has become an effective solution to both maintain data utility and preserve
-privacy. Existing methods, however, initialize synthetic graphs through random
-node selection without considering node connectivity, and are mainly designed
-for node classification tasks. As a result, their potential for
-privacy-preserving link prediction remains largely unexplored. We introduce
-HyDRO\textsuperscript{+}, a graph condensation method guided by algebraic
-Jaccard similarity, which leverages local connectivity information to optimize
-condensed graph structures. Extensive experiments on four real-world networks
-show that our method outperforms state-of-the-art methods and even the original
-networks in balancing link prediction accuracy and privacy preservation.
-Moreover, our method achieves nearly 20* faster training and reduces storage
-requirements by 452*, as demonstrated on the Computers dataset, compared to
-link prediction on the original networks. This work represents the first
-attempt to leverage condensed graphs for privacy-preserving link prediction
-information sharing in real-world complex networks. It offers a promising
-pathway for preserving link prediction information while safeguarding privacy,
-advancing the use of graph condensation in large-scale networks with privacy
-concerns.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.12045v2">Auditing Differential Privacy in the Black-Box Setting</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-03-15T08:34:40Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Kaining Shi, Cong Ma</p>
-    <p><b>Summary:</b> This paper introduces a novel theoretical framework for auditing differential
-privacy (DP) in a black-box setting. Leveraging the concept of $f$-differential
-privacy, we explicitly define type I and type II errors and propose an auditing
-mechanism based on conformal inference. Our approach robustly controls the type
-I error rate under minimal assumptions. Furthermore, we establish a fundamental
-impossibility result, demonstrating the inherent difficulty of simultaneously
-controlling both type I and type II errors without additional assumptions.
-Nevertheless, under a monotone likelihood ratio (MLR) assumption, our auditing
-mechanism effectively controls both errors. We also extend our method to
-construct valid confidence bands for the trade-off function in the
-finite-sample regime.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.11950v2">Privacy Ethics Alignment in AI: A Stakeholder-Centric Based Framework
-  for Ethical AI</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-03-15T01:42:45Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ankur Barthwal, Molly Campbell, Ajay Kumar Shrestha</p>
-    <p><b>Summary:</b> The increasing integration of Artificial Intelligence (AI) in digital
-ecosystems has reshaped privacy dynamics, particularly for young digital
-citizens navigating data-driven environments. This study explores evolving
-privacy concerns across three key stakeholder groups, digital citizens (ages
-16-19), parents/educators, and AI professionals, and assesses differences in
-data ownership, trust, transparency, parental mediation, education, and
-risk-benefit perceptions. Employing a grounded theory methodology, this
-research synthesizes insights from 482 participants through structured surveys,
-qualitative interviews, and focus groups. The findings reveal distinct privacy
-expectations: Young users emphasize autonomy and digital freedom, while parents
-and educators advocate for regulatory oversight and AI literacy programs. AI
-professionals, in contrast, prioritize the balance between ethical system
-design and technological efficiency. The data further highlights gaps in AI
-literacy and transparency, emphasizing the need for comprehensive,
-stakeholder-driven privacy frameworks that accommodate diverse user needs.
-Using comparative thematic analysis, this study identifies key tensions in
-privacy governance and develops the novel Privacy-Ethics Alignment in AI
-(PEA-AI) model, which structures privacy decision-making as a dynamic
-negotiation between stakeholders. By systematically analyzing themes such as
-transparency, user control, risk perception, and parental mediation, this
-research provides a scalable, adaptive foundation for AI governance, ensuring
-that privacy protections evolve alongside emerging AI technologies and
-youth-centric digital interactions.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.11947v1">Ethical AI for Young Digital Citizens: A Call to Action on Privacy
-  Governance</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-03-15T01:35:56Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Austin Shouli, Ankur Barthwal, Molly Campbell, Ajay Kumar Shrestha</p>
-    <p><b>Summary:</b> The rapid expansion of Artificial Intelligence (AI) in digital platforms used
-by youth has created significant challenges related to privacy, autonomy, and
-data protection. While AI-driven personalization offers enhanced user
-experiences, it often operates without clear ethical boundaries, leaving young
-users vulnerable to data exploitation and algorithmic biases. This paper
-presents a call to action for ethical AI governance, advocating for a
-structured framework that ensures youth-centred privacy protections,
-transparent data practices, and regulatory oversight. We outline key areas
-requiring urgent intervention, including algorithmic transparency, privacy
-education, parental data-sharing ethics, and accountability measures. Through
-this approach, we seek to empower youth with greater control over their digital
-identities and propose actionable strategies for policymakers, AI developers,
-and educators to build a fairer and more accountable AI ecosystem.</p>
   </details>
 </div>
 
