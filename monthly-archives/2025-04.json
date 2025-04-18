@@ -1081,5 +1081,185 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.12931v1",
+    "title" : "Explainable AI in Usable Privacy and Security: Challenges and\n  Opportunities",
+    "summary" : "Large Language Models (LLMs) are increasingly being used for automated\nevaluations and explaining them. However, concerns about explanation quality,\nconsistency, and hallucinations remain open research challenges, particularly\nin high-stakes contexts like privacy and security, where user trust and\ndecision-making are at stake. In this paper, we investigate these issues in the\ncontext of PRISMe, an interactive privacy policy assessment tool that leverages\nLLMs to evaluate and explain website privacy policies. Based on a prior user\nstudy with 22 participants, we identify key concerns regarding LLM judgment\ntransparency, consistency, and faithfulness, as well as variations in user\npreferences for explanation detail and engagement. We discuss potential\nstrategies to mitigate these concerns, including structured evaluation\ncriteria, uncertainty estimation, and retrieval-augmented generation (RAG). We\nidentify a need for adaptive explanation strategies tailored to different user\nprofiles for LLM-as-a-judge. Our goal is to showcase the application area of\nusable privacy and security to be promising for Human-Centered Explainable AI\n(HCXAI) to make an impact.",
+    "updated" : "2025-04-17T13:28:01Z",
+    "published" : "2025-04-17T13:28:01Z",
+    "authors" : [
+      {
+        "name" : "Vincent Freiberger"
+      },
+      {
+        "name" : "Arthur Fleig"
+      },
+      {
+        "name" : "Erik Buchmann"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.12747v1",
+    "title" : "Privacy Protection Against Personalized Text-to-Image Synthesis via\n  Cross-image Consistency Constraints",
+    "summary" : "The rapid advancement of diffusion models and personalization techniques has\nmade it possible to recreate individual portraits from just a few publicly\navailable images. While such capabilities empower various creative\napplications, they also introduce serious privacy concerns, as adversaries can\nexploit them to generate highly realistic impersonations. To counter these\nthreats, anti-personalization methods have been proposed, which add adversarial\nperturbations to published images to disrupt the training of personalization\nmodels. However, existing approaches largely overlook the intrinsic multi-image\nnature of personalization and instead adopt a naive strategy of applying\nperturbations independently, as commonly done in single-image settings. This\nneglects the opportunity to leverage inter-image relationships for stronger\nprivacy protection. Therefore, we advocate for a group-level perspective on\nprivacy protection against personalization. Specifically, we introduce\nCross-image Anti-Personalization (CAP), a novel framework that enhances\nresistance to personalization by enforcing style consistency across perturbed\nimages. Furthermore, we develop a dynamic ratio adjustment strategy that\nadaptively balances the impact of the consistency loss throughout the attack\niterations. Extensive experiments on the classical CelebHQ and VGGFace2\nbenchmarks show that CAP substantially improves existing methods.",
+    "updated" : "2025-04-17T08:39:32Z",
+    "published" : "2025-04-17T08:39:32Z",
+    "authors" : [
+      {
+        "name" : "Guanyu Wang"
+      },
+      {
+        "name" : "Kailong Wang"
+      },
+      {
+        "name" : "Yihao Huang"
+      },
+      {
+        "name" : "Mingyi Zhou"
+      },
+      {
+        "name" : "Zhang Qing cnwatcher"
+      },
+      {
+        "name" : "Geguang Pu"
+      },
+      {
+        "name" : "Li Li"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.12681v1",
+    "title" : "GRAIL: Gradient-Based Adaptive Unlearning for Privacy and Copyright in\n  LLMs",
+    "summary" : "Large Language Models (LLMs) trained on extensive datasets often learn\nsensitive information, which raises significant social and legal concerns under\nprinciples such as the \"Right to be forgotten.\" Retraining entire models from\nscratch to remove undesired information is both costly and impractical.\nFurthermore, existing single-domain unlearning methods fail to address\nmulti-domain scenarios, where knowledge is interwoven across domains such as\nprivacy and copyright, creating overlapping representations that lead to\nexcessive knowledge removal or degraded performance. To tackle these issues, we\npropose GRAIL (GRadient-based AdaptIve unLearning), a novel multi-domain\nunlearning framework. GRAIL leverages gradient information from multiple\ndomains to precisely distinguish the unlearning scope from the retention scope,\nand applies an adaptive parameter-wise localization strategy to selectively\nremove targeted knowledge while preserving critical parameters for each domain.\nExperimental results on unlearning benchmarks show that GRAIL achieves\nunlearning success on par with the existing approaches, while also\ndemonstrating up to 17% stronger knowledge retention success compared to the\nprevious state-of-art method. Our findings establish a new paradigm for\neffectively managing and regulating sensitive information in large-scale\npre-trained language models.",
+    "updated" : "2025-04-17T06:16:32Z",
+    "published" : "2025-04-17T06:16:32Z",
+    "authors" : [
+      {
+        "name" : "Kun-Woo Kim"
+      },
+      {
+        "name" : "Ji-Hoon Park"
+      },
+      {
+        "name" : "Ju-Min Han"
+      },
+      {
+        "name" : "Seong-Whan Lee"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.12623v1",
+    "title" : "Privacy-Preserving CNN Training with Transfer Learning: Two Hidden\n  Layers",
+    "summary" : "In this paper, we present the demonstration of training a four-layer neural\nnetwork entirely using fully homomorphic encryption (FHE), supporting both\nsingle-output and multi-output classification tasks in a non-interactive\nsetting. A key contribution of our work is identifying that replacing\n\\textit{Softmax} with \\textit{Sigmoid}, in conjunction with the Binary\nCross-Entropy (BCE) loss function, provides an effective and scalable solution\nfor homomorphic classification. Moreover, we show that the BCE loss function,\noriginally designed for multi-output tasks, naturally extends to the\nmulti-class setting, thereby enabling broader applicability. We also highlight\nthe limitations of prior loss functions such as the SLE loss and the one\nproposed in the 2019 CVPR Workshop, both of which suffer from vanishing\ngradients as network depth increases. To address the challenges posed by\nlarge-scale encrypted data, we further introduce an improved version of the\npreviously proposed data encoding scheme, \\textit{Double Volley Revolver},\nwhich achieves a better trade-off between computational and memory efficiency,\nmaking FHE-based neural network training more practical. The complete, runnable\nC++ code to implement our work can be found at:\n\\href{https://github.com/petitioner/ML.NNtraining}{$\\texttt{https://github.com/petitioner/ML.NNtraining}$}.",
+    "updated" : "2025-04-17T03:58:23Z",
+    "published" : "2025-04-17T03:58:23Z",
+    "authors" : [
+      {
+        "name" : "John Chiang"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.12552v1",
+    "title" : "Privacy-Preserving Operating Room Workflow Analysis using Digital Twins",
+    "summary" : "Purpose: The operating room (OR) is a complex environment where optimizing\nworkflows is critical to reduce costs and improve patient outcomes. The use of\ncomputer vision approaches for the automatic recognition of perioperative\nevents enables identification of bottlenecks for OR optimization. However,\nprivacy concerns limit the use of computer vision for automated event detection\nfrom OR videos, which makes privacy-preserving approaches needed for OR\nworkflow analysis. Methods: We propose a two-stage pipeline for\nprivacy-preserving OR video analysis and event detection. In the first stage,\nwe leverage vision foundation models for depth estimation and semantic\nsegmentation to generate de-identified Digital Twins (DT) of the OR from\nconventional RGB videos. In the second stage, we employ the SafeOR model, a\nfused two-stream approach that processes segmentation masks and depth maps for\nOR event detection. We evaluate this method on an internal dataset of 38\nsimulated surgical trials with five event classes. Results: Our results\nindicate that this DT-based approach to the OR event detection model achieves\nperformance on par and sometimes even better than raw RGB video-based models on\ndetecting OR events. Conclusion: DTs enable privacy-preserving OR workflow\nanalysis, facilitating the sharing of de-identified data across institutions\nand they can potentially enhance model generalizability by mitigating\ndomain-specific appearance differences.",
+    "updated" : "2025-04-17T00:46:06Z",
+    "published" : "2025-04-17T00:46:06Z",
+    "authors" : [
+      {
+        "name" : "Alejandra Perez"
+      },
+      {
+        "name" : "Han Zhang"
+      },
+      {
+        "name" : "Yu-Chun Ku"
+      },
+      {
+        "name" : "Lalithkumar Seenivasan"
+      },
+      {
+        "name" : "Roger Soberanis"
+      },
+      {
+        "name" : "Jose L. Porras"
+      },
+      {
+        "name" : "Richard Day"
+      },
+      {
+        "name" : "Jeff Jopling"
+      },
+      {
+        "name" : "Peter Najjar"
+      },
+      {
+        "name" : "Mathias Unberath"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.12520v1",
+    "title" : "Interpreting Network Differential Privacy",
+    "summary" : "How do we interpret the differential privacy (DP) guarantee for network data?\nWe take a deep dive into a popular form of network DP ($\\varepsilon$--edge DP)\nto find that many of its common interpretations are flawed. Drawing on prior\nwork for privacy with correlated data, we interpret DP through the lens of\nadversarial hypothesis testing and demonstrate a gap between the pairs of\nhypotheses actually protected under DP (tests of complete networks) and the\nsorts of hypotheses implied to be protected by common claims (tests of\nindividual edges). We demonstrate some conditions under which this gap can be\nbridged, while leaving some questions open. While some discussion is specific\nto edge DP, we offer selected results in terms of abstract DP definitions and\nprovide discussion of the implications for other forms of network DP.",
+    "updated" : "2025-04-16T22:45:07Z",
+    "published" : "2025-04-16T22:45:07Z",
+    "authors" : [
+      {
+        "name" : "Jonathan Hehir"
+      },
+      {
+        "name" : "Xiaoyue Niu"
+      },
+      {
+        "name" : "Aleksandra Slavkovic"
+      }
+    ],
+    "categories" : [
+      "math.ST",
+      "cs.CY",
+      "stat.TH"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.11793v2",
+    "title" : "Selective Attention Federated Learning: Improving Privacy and Efficiency\n  for Clinical Text Classification",
+    "summary" : "Federated Learning (FL) faces major challenges regarding communication\noverhead and model privacy when training large language models (LLMs),\nespecially in healthcare applications. To address these, we introduce Selective\nAttention Federated Learning (SAFL), a novel approach that dynamically\nfine-tunes only those transformer layers identified as attention-critical. By\nemploying attention patterns to determine layer importance, SAFL significantly\nreduces communication bandwidth and enhances differential privacy resilience.\nEvaluations on clinical NLP benchmarks (i2b2 Clinical Concept Extraction and\nMIMIC-III discharge summaries) demonstrate that SAFL achieves competitive\nperformance with centralized models while substantially improving communication\nefficiency and privacy preservation.",
+    "updated" : "2025-04-17T06:24:14Z",
+    "published" : "2025-04-16T05:59:29Z",
+    "authors" : [
+      {
+        "name" : "Yue Li"
+      },
+      {
+        "name" : "Lihong Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.AI"
+    ]
   }
 ]
