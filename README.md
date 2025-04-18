@@ -2,6 +2,179 @@
 <h2>2025-04</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.12931v1">Explainable AI in Usable Privacy and Security: Challenges and
+  Opportunities</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2025-04-17T13:28:01Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Vincent Freiberger, Arthur Fleig, Erik Buchmann</p>
+    <p><b>Summary:</b> Large Language Models (LLMs) are increasingly being used for automated
+evaluations and explaining them. However, concerns about explanation quality,
+consistency, and hallucinations remain open research challenges, particularly
+in high-stakes contexts like privacy and security, where user trust and
+decision-making are at stake. In this paper, we investigate these issues in the
+context of PRISMe, an interactive privacy policy assessment tool that leverages
+LLMs to evaluate and explain website privacy policies. Based on a prior user
+study with 22 participants, we identify key concerns regarding LLM judgment
+transparency, consistency, and faithfulness, as well as variations in user
+preferences for explanation detail and engagement. We discuss potential
+strategies to mitigate these concerns, including structured evaluation
+criteria, uncertainty estimation, and retrieval-augmented generation (RAG). We
+identify a need for adaptive explanation strategies tailored to different user
+profiles for LLM-as-a-judge. Our goal is to showcase the application area of
+usable privacy and security to be promising for Human-Centered Explainable AI
+(HCXAI) to make an impact.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.12747v1">Privacy Protection Against Personalized Text-to-Image Synthesis via
+  Cross-image Consistency Constraints</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2025-04-17T08:39:32Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Guanyu Wang, Kailong Wang, Yihao Huang, Mingyi Zhou, Zhang Qing cnwatcher, Geguang Pu, Li Li</p>
+    <p><b>Summary:</b> The rapid advancement of diffusion models and personalization techniques has
+made it possible to recreate individual portraits from just a few publicly
+available images. While such capabilities empower various creative
+applications, they also introduce serious privacy concerns, as adversaries can
+exploit them to generate highly realistic impersonations. To counter these
+threats, anti-personalization methods have been proposed, which add adversarial
+perturbations to published images to disrupt the training of personalization
+models. However, existing approaches largely overlook the intrinsic multi-image
+nature of personalization and instead adopt a naive strategy of applying
+perturbations independently, as commonly done in single-image settings. This
+neglects the opportunity to leverage inter-image relationships for stronger
+privacy protection. Therefore, we advocate for a group-level perspective on
+privacy protection against personalization. Specifically, we introduce
+Cross-image Anti-Personalization (CAP), a novel framework that enhances
+resistance to personalization by enforcing style consistency across perturbed
+images. Furthermore, we develop a dynamic ratio adjustment strategy that
+adaptively balances the impact of the consistency loss throughout the attack
+iterations. Extensive experiments on the classical CelebHQ and VGGFace2
+benchmarks show that CAP substantially improves existing methods.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.12681v1">GRAIL: Gradient-Based Adaptive Unlearning for Privacy and Copyright in
+  LLMs</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-04-17T06:16:32Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Kun-Woo Kim, Ji-Hoon Park, Ju-Min Han, Seong-Whan Lee</p>
+    <p><b>Summary:</b> Large Language Models (LLMs) trained on extensive datasets often learn
+sensitive information, which raises significant social and legal concerns under
+principles such as the "Right to be forgotten." Retraining entire models from
+scratch to remove undesired information is both costly and impractical.
+Furthermore, existing single-domain unlearning methods fail to address
+multi-domain scenarios, where knowledge is interwoven across domains such as
+privacy and copyright, creating overlapping representations that lead to
+excessive knowledge removal or degraded performance. To tackle these issues, we
+propose GRAIL (GRadient-based AdaptIve unLearning), a novel multi-domain
+unlearning framework. GRAIL leverages gradient information from multiple
+domains to precisely distinguish the unlearning scope from the retention scope,
+and applies an adaptive parameter-wise localization strategy to selectively
+remove targeted knowledge while preserving critical parameters for each domain.
+Experimental results on unlearning benchmarks show that GRAIL achieves
+unlearning success on par with the existing approaches, while also
+demonstrating up to 17% stronger knowledge retention success compared to the
+previous state-of-art method. Our findings establish a new paradigm for
+effectively managing and regulating sensitive information in large-scale
+pre-trained language models.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.12623v1">Privacy-Preserving CNN Training with Transfer Learning: Two Hidden
+  Layers</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-04-17T03:58:23Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> John Chiang</p>
+    <p><b>Summary:</b> In this paper, we present the demonstration of training a four-layer neural
+network entirely using fully homomorphic encryption (FHE), supporting both
+single-output and multi-output classification tasks in a non-interactive
+setting. A key contribution of our work is identifying that replacing
+\textit{Softmax} with \textit{Sigmoid}, in conjunction with the Binary
+Cross-Entropy (BCE) loss function, provides an effective and scalable solution
+for homomorphic classification. Moreover, we show that the BCE loss function,
+originally designed for multi-output tasks, naturally extends to the
+multi-class setting, thereby enabling broader applicability. We also highlight
+the limitations of prior loss functions such as the SLE loss and the one
+proposed in the 2019 CVPR Workshop, both of which suffer from vanishing
+gradients as network depth increases. To address the challenges posed by
+large-scale encrypted data, we further introduce an improved version of the
+previously proposed data encoding scheme, \textit{Double Volley Revolver},
+which achieves a better trade-off between computational and memory efficiency,
+making FHE-based neural network training more practical. The complete, runnable
+C++ code to implement our work can be found at:
+\href{https://github.com/petitioner/ML.NNtraining}{$\texttt{https://github.com/petitioner/ML.NNtraining}$}.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.12552v1">Privacy-Preserving Operating Room Workflow Analysis using Digital Twins</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-04-17T00:46:06Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Alejandra Perez, Han Zhang, Yu-Chun Ku, Lalithkumar Seenivasan, Roger Soberanis, Jose L. Porras, Richard Day, Jeff Jopling, Peter Najjar, Mathias Unberath</p>
+    <p><b>Summary:</b> Purpose: The operating room (OR) is a complex environment where optimizing
+workflows is critical to reduce costs and improve patient outcomes. The use of
+computer vision approaches for the automatic recognition of perioperative
+events enables identification of bottlenecks for OR optimization. However,
+privacy concerns limit the use of computer vision for automated event detection
+from OR videos, which makes privacy-preserving approaches needed for OR
+workflow analysis. Methods: We propose a two-stage pipeline for
+privacy-preserving OR video analysis and event detection. In the first stage,
+we leverage vision foundation models for depth estimation and semantic
+segmentation to generate de-identified Digital Twins (DT) of the OR from
+conventional RGB videos. In the second stage, we employ the SafeOR model, a
+fused two-stream approach that processes segmentation masks and depth maps for
+OR event detection. We evaluate this method on an internal dataset of 38
+simulated surgical trials with five event classes. Results: Our results
+indicate that this DT-based approach to the OR event detection model achieves
+performance on par and sometimes even better than raw RGB video-based models on
+detecting OR events. Conclusion: DTs enable privacy-preserving OR workflow
+analysis, facilitating the sharing of de-identified data across institutions
+and they can potentially enhance model generalizability by mitigating
+domain-specific appearance differences.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.12520v1">Interpreting Network Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> 
+  <p><b>Published on:</b> 2025-04-16T22:45:07Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jonathan Hehir, Xiaoyue Niu, Aleksandra Slavkovic</p>
+    <p><b>Summary:</b> How do we interpret the differential privacy (DP) guarantee for network data?
+We take a deep dive into a popular form of network DP ($\varepsilon$--edge DP)
+to find that many of its common interpretations are flawed. Drawing on prior
+work for privacy with correlated data, we interpret DP through the lens of
+adversarial hypothesis testing and demonstrate a gap between the pairs of
+hypotheses actually protected under DP (tests of complete networks) and the
+sorts of hypotheses implied to be protected by common claims (tests of
+individual edges). We demonstrate some conditions under which this gap can be
+bridged, while leaving some questions open. While some discussion is specific
+to edge DP, we offer selected results in terms of abstract DP definitions and
+provide discussion of the implications for other forms of network DP.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2504.12129v1">Anti-Aesthetics: Protecting Facial Privacy against Customized
   Text-to-Image Synthesis</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
@@ -64,7 +237,7 @@ obfuscation techniques.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.11793v1">Selective Attention Federated Learning: Improving Privacy and Efficiency
+  <h3><a href="http://arxiv.org/abs/2504.11793v2">Selective Attention Federated Learning: Improving Privacy and Efficiency
   for Clinical Text Classification</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
   <p><b>Published on:</b> 2025-04-16T05:59:29Z</p>
@@ -2761,177 +2934,6 @@ comprehensibility. For all three metrics, a score exceeding 91.1\% was observed
 in our evaluation, indicating that LLMs are not only useful to improve the
 classification performance, but also to enhance the explainability of detection
 results.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.12347v1">Synthesizing Privacy-Preserving Text Data via Finetuning without
-  Finetuning Billion-Scale LLMs</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2025-03-16T04:00:32Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Bowen Tan, Zheng Xu, Eric Xing, Zhiting Hu, Shanshan Wu</p>
-    <p><b>Summary:</b> Synthetic data offers a promising path to train models while preserving data
-privacy. Differentially private (DP) finetuning of large language models (LLMs)
-as data generator is effective, but is impractical when computation resources
-are limited. Meanwhile, prompt-based methods such as private evolution, depend
-heavily on the manual prompts, and ineffectively use private information in
-their iterative data selection process. To overcome these limitations, we
-propose CTCL (Data Synthesis with ConTrollability and CLustering), a novel
-framework for generating privacy-preserving synthetic data without extensive
-prompt engineering or billion-scale LLM finetuning. CTCL pretrains a
-lightweight 140M conditional generator and a clustering-based topic model on
-large-scale public data. To further adapt to the private domain, the generator
-is DP finetuned on private data for fine-grained textual information, while the
-topic model extracts a DP histogram representing distributional information.
-The DP generator then samples according to the DP histogram to synthesize a
-desired number of data examples. Evaluation across five diverse domains
-demonstrates the effectiveness of our framework, particularly in the strong
-privacy regime. Systematic ablation validates the design of each framework
-component and highlights the scalability of our approach.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.12314v1">Empirical Privacy Variance</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-03-16T01:43:49Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yuzheng Hu, Fan Wu, Ruicheng Xian, Yuhang Liu, Lydia Zakynthinou, Pritish Kamath, Chiyuan Zhang, David Forsyth</p>
-    <p><b>Summary:</b> We propose the notion of empirical privacy variance and study it in the
-context of differentially private fine-tuning of language models. Specifically,
-we show that models calibrated to the same $(\varepsilon, \delta)$-DP guarantee
-using DP-SGD with different hyperparameter configurations can exhibit
-significant variations in empirical privacy, which we quantify through the lens
-of memorization. We investigate the generality of this phenomenon across
-multiple dimensions and discuss why it is surprising and relevant. Through
-regression analysis, we examine how individual and composite hyperparameters
-influence empirical privacy. The results reveal a no-free-lunch trade-off:
-existing practices of hyperparameter tuning in DP-SGD, which focus on
-optimizing utility under a fixed privacy budget, often come at the expense of
-empirical privacy. To address this, we propose refined heuristics for
-hyperparameter selection that explicitly account for empirical privacy, showing
-that they are both precise and practically useful. Finally, we take preliminary
-steps to understand empirical privacy variance. We propose two hypotheses,
-identify limitations in existing techniques like privacy auditing, and outline
-open questions for future research.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.12232v1">From Laboratory to Real World: A New Benchmark Towards Privacy-Preserved
-  Visible-Infrared Person Re-Identification</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2025-03-15T18:56:29Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yan Jiang, Hao Yu, Xu Cheng, Haoyu Chen, Zhaodong Sun, Guoying Zhao</p>
-    <p><b>Summary:</b> Aiming to match pedestrian images captured under varying lighting conditions,
-visible-infrared person re-identification (VI-ReID) has drawn intensive
-research attention and achieved promising results. However, in real-world
-surveillance contexts, data is distributed across multiple devices/entities,
-raising privacy and ownership concerns that make existing centralized training
-impractical for VI-ReID. To tackle these challenges, we propose L2RW, a
-benchmark that brings VI-ReID closer to real-world applications. The rationale
-of L2RW is that integrating decentralized training into VI-ReID can address
-privacy concerns in scenarios with limited data-sharing regulation.
-Specifically, we design protocols and corresponding algorithms for different
-privacy sensitivity levels. In our new benchmark, we ensure the model training
-is done in the conditions that: 1) data from each camera remains completely
-isolated, or 2) different data entities (e.g., data controllers of a certain
-region) can selectively share the data. In this way, we simulate scenarios with
-strict privacy constraints which is closer to real-world conditions. Intensive
-experiments with various server-side federated algorithms are conducted,
-showing the feasibility of decentralized VI-ReID training. Notably, when
-evaluated in unseen domains (i.e., new data entities), our L2RW, trained with
-isolated data (privacy-preserved), achieves performance comparable to SOTAs
-trained with shared data (privacy-unrestricted). We hope this work offers a
-novel research entry for deploying VI-ReID that fits real-world scenarios and
-can benefit the community.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.12226v1">Research on Large Language Model Cross-Cloud Privacy Protection and
-  Collaborative Training based on Federated Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-03-15T18:44:50Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ze Yang, Yihong Jin, Yihan Zhang, Juntian Liu, Xinhe Xu</p>
-    <p><b>Summary:</b> The fast development of large language models (LLMs) and popularization of
-cloud computing have led to increasing concerns on privacy safeguarding and
-data security of cross-cloud model deployment and training as the key
-challenges. We present a new framework for addressing these issues along with
-enabling privacy preserving collaboration on training between distributed
-clouds based on federated learning. Our mechanism encompasses cutting-edge
-cryptographic primitives, dynamic model aggregation techniques, and cross-cloud
-data harmonization solutions to enhance security, efficiency, and scalability
-to the traditional federated learning paradigm. Furthermore, we proposed a
-hybrid aggregation scheme to mitigate the threat of Data Leakage and to
-optimize the aggregation of model updates, thus achieving substantial
-enhancement on the model effectiveness and stability. Experimental results
-demonstrate that the training efficiency, privacy protection, and model
-accuracy of the proposed model compare favorably to those of the traditional
-federated learning method.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.12225v1">Interpretation Gaps in LLM-Assisted Comprehension of Privacy Documents</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB">
-  <p><b>Published on:</b> 2025-03-15T18:43:13Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Rinku Dewri</p>
-    <p><b>Summary:</b> This article explores the gaps that can manifest when using a large language
-model (LLM) to obtain simplified interpretations of data practices from a
-complex privacy policy. We exemplify these gaps to showcase issues in accuracy,
-completeness, clarity and representation, while advocating for continued
-research to realize an LLM's true potential in revolutionizing privacy
-management through personal assistants and automated compliance checking.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.12220v2">PA-CFL: Privacy-Adaptive Clustered Federated Learning for
-  Transformer-Based Sales Forecasting on Heterogeneous Retail Data</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-03-15T18:07:54Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yunbo Long, Liming Xu, Ge Zheng, Alexandra Brintrup</p>
-    <p><b>Summary:</b> Federated learning (FL) enables retailers to share model parameters for
-demand forecasting while maintaining privacy. However, heterogeneous data
-across diverse regions, driven by factors such as varying consumer behavior,
-poses challenges to the effectiveness of federated learning. To tackle this
-challenge, we propose Privacy-Adaptive Clustered Federated Learning (PA-CFL)
-tailored for demand forecasting on heterogeneous retail data. By leveraging
-differential privacy and feature importance distribution, PA-CFL groups
-retailers into distinct ``bubbles'', each forming its own federated learning
-system to effectively isolate data heterogeneity. Within each bubble,
-Transformer models are designed to predict local sales for each client. Our
-experiments demonstrate that PA-CFL significantly surpasses FedAvg and
-outperforms local learning in demand forecasting performance across all
-participating clients. Compared to local learning, PA-CFL achieves a 5.4%
-improvement in R^2, a 69% reduction in RMSE, and a 45% decrease in MAE. Our
-approach enables effective FL through adaptive adjustments to diverse noise
-levels and the range of clients participating in each bubble. By grouping
-participants and proactively filtering out high-risk clients, PA-CFL mitigates
-potential threats to the FL system. The findings demonstrate PA-CFL's ability
-to enhance federated learning in time series prediction tasks with
-heterogeneous data, achieving a balance between forecasting accuracy and
-privacy preservation in retail applications. Additionally, PA-CFL's capability
-to detect and neutralize poisoned data from clients enhances the system's
-robustness and reliability.</p>
   </details>
 </div>
 
