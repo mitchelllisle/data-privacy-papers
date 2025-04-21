@@ -1261,5 +1261,67 @@
       "cs.CL",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.13526v1",
+    "title" : "Multi-class Item Mining under Local Differential Privacy",
+    "summary" : "Item mining, a fundamental task for collecting statistical data from users,\nhas raised increasing privacy concerns. To address these concerns, local\ndifferential privacy (LDP) was proposed as a privacy-preserving technique.\nExisting LDP item mining mechanisms primarily concentrate on global statistics,\ni.e., those from the entire dataset. Nevertheless, they fall short of\nuser-tailored tasks such as personalized recommendations, whereas classwise\nstatistics can improve task accuracy with fine-grained information. Meanwhile,\nthe introduction of class labels brings new challenges. Label perturbation may\nresult in invalid items for aggregation. To this end, we propose frameworks for\nmulti-class item mining, along with two mechanisms: validity perturbation to\nreduce the impact of invalid data, and correlated perturbation to preserve the\nrelationship between labels and items. We also apply these optimized methods to\ntwo multi-class item mining queries: frequency estimation and top-$k$ item\nmining. Through theoretical analysis and extensive experiments, we verify the\neffectiveness and superiority of these methods.",
+    "updated" : "2025-04-18T07:37:06Z",
+    "published" : "2025-04-18T07:37:06Z",
+    "authors" : [
+      {
+        "name" : "Yulian Mao"
+      },
+      {
+        "name" : "Qingqing Ye"
+      },
+      {
+        "name" : "Rong Du"
+      },
+      {
+        "name" : "Qi Wang"
+      },
+      {
+        "name" : "Kai Huang"
+      },
+      {
+        "name" : "Haibo Hu"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.13267v1",
+    "title" : "Leveraging Functional Encryption and Deep Learning for\n  Privacy-Preserving Traffic Forecasting",
+    "summary" : "Over the past few years, traffic congestion has continuously plagued the\nnation's transportation system creating several negative impacts including\nlonger travel times, increased pollution rates, and higher collision risks. To\novercome these challenges, Intelligent Transportation Systems (ITS) aim to\nimprove mobility and vehicular systems, ensuring higher levels of safety by\nutilizing cutting-edge technologies, sophisticated sensing capabilities, and\ninnovative algorithms. Drivers' participatory sensing, current/future location\nreporting, and machine learning algorithms have considerably improved real-time\ncongestion monitoring and future traffic management. However, each driver's\nsensitive spatiotemporal location information can create serious privacy\nconcerns. To address these challenges, we propose in this paper a secure,\nprivacy-preserving location reporting and traffic forecasting system that\nguarantees privacy protection of driver data while maintaining high traffic\nforecasting accuracy. Our novel k-anonymity scheme utilizes functional\nencryption to aggregate encrypted location information submitted by drivers\nwhile ensuring the privacy of driver location data. Additionally, using the\naggregated encrypted location information as input, this research proposes a\ndeep learning model that incorporates a Convolutional-Long Short-Term Memory\n(Conv-LSTM) module to capture spatial and short-term temporal features and a\nBidirectional Long Short-Term Memory (Bi-LSTM) module to recover long-term\nperiodic patterns for traffic forecasting. With extensive evaluation on real\ndatasets, we demonstrate the effectiveness of the proposed scheme with less\nthan 10% mean absolute error for a 60-minute forecasting horizon, all while\nprotecting driver privacy.",
+    "updated" : "2025-04-17T18:21:55Z",
+    "published" : "2025-04-17T18:21:55Z",
+    "authors" : [
+      {
+        "name" : "Isaac Adom"
+      },
+      {
+        "name" : "Mohammmad Iqbal Hossain"
+      },
+      {
+        "name" : "Hassan Mahmoud"
+      },
+      {
+        "name" : "Ahmad Alsharif"
+      },
+      {
+        "name" : "Mahmoud Nabil Mahmoud"
+      },
+      {
+        "name" : "Yang Xiao"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.SY",
+      "eess.SY"
+    ]
   }
 ]
