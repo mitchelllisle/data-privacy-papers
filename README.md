@@ -2,6 +2,68 @@
 <h2>2025-04</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.13526v1">Multi-class Item Mining under Local Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-04-18T07:37:06Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yulian Mao, Qingqing Ye, Rong Du, Qi Wang, Kai Huang, Haibo Hu</p>
+    <p><b>Summary:</b> Item mining, a fundamental task for collecting statistical data from users,
+has raised increasing privacy concerns. To address these concerns, local
+differential privacy (LDP) was proposed as a privacy-preserving technique.
+Existing LDP item mining mechanisms primarily concentrate on global statistics,
+i.e., those from the entire dataset. Nevertheless, they fall short of
+user-tailored tasks such as personalized recommendations, whereas classwise
+statistics can improve task accuracy with fine-grained information. Meanwhile,
+the introduction of class labels brings new challenges. Label perturbation may
+result in invalid items for aggregation. To this end, we propose frameworks for
+multi-class item mining, along with two mechanisms: validity perturbation to
+reduce the impact of invalid data, and correlated perturbation to preserve the
+relationship between labels and items. We also apply these optimized methods to
+two multi-class item mining queries: frequency estimation and top-$k$ item
+mining. Through theoretical analysis and extensive experiments, we verify the
+effectiveness and superiority of these methods.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.13267v1">Leveraging Functional Encryption and Deep Learning for
+  Privacy-Preserving Traffic Forecasting</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36"> 
+  <p><b>Published on:</b> 2025-04-17T18:21:55Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Isaac Adom, Mohammmad Iqbal Hossain, Hassan Mahmoud, Ahmad Alsharif, Mahmoud Nabil Mahmoud, Yang Xiao</p>
+    <p><b>Summary:</b> Over the past few years, traffic congestion has continuously plagued the
+nation's transportation system creating several negative impacts including
+longer travel times, increased pollution rates, and higher collision risks. To
+overcome these challenges, Intelligent Transportation Systems (ITS) aim to
+improve mobility and vehicular systems, ensuring higher levels of safety by
+utilizing cutting-edge technologies, sophisticated sensing capabilities, and
+innovative algorithms. Drivers' participatory sensing, current/future location
+reporting, and machine learning algorithms have considerably improved real-time
+congestion monitoring and future traffic management. However, each driver's
+sensitive spatiotemporal location information can create serious privacy
+concerns. To address these challenges, we propose in this paper a secure,
+privacy-preserving location reporting and traffic forecasting system that
+guarantees privacy protection of driver data while maintaining high traffic
+forecasting accuracy. Our novel k-anonymity scheme utilizes functional
+encryption to aggregate encrypted location information submitted by drivers
+while ensuring the privacy of driver location data. Additionally, using the
+aggregated encrypted location information as input, this research proposes a
+deep learning model that incorporates a Convolutional-Long Short-Term Memory
+(Conv-LSTM) module to capture spatial and short-term temporal features and a
+Bidirectional Long Short-Term Memory (Bi-LSTM) module to recover long-term
+periodic patterns for traffic forecasting. With extensive evaluation on real
+datasets, we demonstrate the effectiveness of the proposed scheme with less
+than 10% mean absolute error for a 60-minute forecasting horizon, all while
+protecting driver privacy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2504.12931v1">Explainable AI in Usable Privacy and Security: Challenges and
   Opportunities</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
@@ -2876,64 +2938,6 @@ Furthermore, under adversarial attacks, federated learning demonstrates greater
 resilience compared to non-federated settings. We summarise that our results
 reinforce the value of federated learning as a potential approach for balancing
 predictive performance and privacy in educational contexts.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.12464v1">Learning Privacy from Visual Entities</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-03-16T11:39:08Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Alessio Xompero, Andrea Cavallaro</p>
-    <p><b>Summary:</b> Subjective interpretation and content diversity make predicting whether an
-image is private or public a challenging task. Graph neural networks combined
-with convolutional neural networks (CNNs), which consist of 14,000 to 500
-millions parameters, generate features for visual entities (e.g., scene and
-object types) and identify the entities that contribute to the decision. In
-this paper, we show that using a simpler combination of transfer learning and a
-CNN to relate privacy with scene types optimises only 732 parameters while
-achieving comparable performance to that of graph-based methods. On the
-contrary, end-to-end training of graph-based methods can mask the contribution
-of individual components to the classification performance. Furthermore, we
-show that a high-dimensional feature vector, extracted with CNNs for each
-visual entity, is unnecessary and complexifies the model. The graph component
-has also negligible impact on performance, which is driven by fine-tuning the
-CNN to optimise image features for privacy nodes.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.16516v1">Using LLMs for Automated Privacy Policy Analysis: Prompt Engineering,
-  Fine-Tuning and Explainability</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-03-16T10:50:31Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yuxin Chen, Peng Tang, Weidong Qiu, Shujun Li</p>
-    <p><b>Summary:</b> Privacy policies are widely used by digital services and often required for
-legal purposes. Many machine learning based classifiers have been developed to
-automate detection of different concepts in a given privacy policy, which can
-help facilitate other automated tasks such as producing a more reader-friendly
-summary and detecting legal compliance issues. Despite the successful
-applications of large language models (LLMs) to many NLP tasks in various
-domains, there is very little work studying the use of LLMs for automated
-privacy policy analysis, therefore, if and how LLMs can help automate privacy
-policy analysis remains under-explored. To fill this research gap, we conducted
-a comprehensive evaluation of LLM-based privacy policy concept classifiers,
-employing both prompt engineering and LoRA (low-rank adaptation) fine-tuning,
-on four state-of-the-art (SOTA) privacy policy corpora and taxonomies. Our
-experimental results demonstrated that combining prompt engineering and
-fine-tuning can make LLM-based classifiers outperform other SOTA methods,
-\emph{significantly} and \emph{consistently} across privacy policy
-corpora/taxonomies and concepts. Furthermore, we evaluated the explainability
-of the LLM-based classifiers using three metrics: completeness, logicality, and
-comprehensibility. For all three metrics, a score exceeding 91.1\% was observed
-in our evaluation, indicating that LLMs are not only useful to improve the
-classification performance, but also to enhance the explainability of detection
-results.</p>
   </details>
 </div>
 
