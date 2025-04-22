@@ -2,6 +2,282 @@
 <h2>2025-04</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.15233v1">A Review on Privacy in DAG-Based DLTs</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-04-21T17:08:45Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mayank Raikwar</p>
+    <p><b>Summary:</b> Directed Acyclic Graph (DAG)-based Distributed Ledger Technologies (DLTs)
+have emerged as a promising solution to the scalability issues inherent in
+traditional blockchains. However, amidst the focus on scalability, the crucial
+aspect of privacy within DAG-based DLTs has been largely overlooked. This paper
+seeks to address this gap by providing a comprehensive examination of privacy
+notions and challenges within DAG-based DLTs. We delve into potential
+methodologies to enhance privacy within these systems, while also analyzing the
+associated hurdles and real-world implementations within state-of-the-art
+DAG-based DLTs. By exploring these methodologies, we not only illuminate the
+current landscape of privacy in DAG-based DLTs but also outline future research
+directions in this evolving field.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.15090v1">Federated Latent Factor Model for Bias-Aware Recommendation with
+  Privacy-Preserving</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-04-21T13:24:30Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Junxiang Gao, Yixin Ran, Jia Chen</p>
+    <p><b>Summary:</b> A recommender system (RS) aims to provide users with personalized item
+recommendations, enhancing their overall experience. Traditional RSs collect
+and process all user data on a central server. However, this centralized
+approach raises significant privacy concerns, as it increases the risk of data
+breaches and privacy leakages, which are becoming increasingly unacceptable to
+privacy-sensitive users. To address these privacy challenges, federated
+learning has been integrated into RSs, ensuring that user data remains secure.
+In centralized RSs, the issue of rating bias is effectively addressed by
+jointly analyzing all users' raw interaction data. However, this becomes a
+significant challenge in federated RSs, as raw data is no longer accessible due
+to privacy-preserving constraints. To overcome this problem, we propose a
+Federated Bias-Aware Latent Factor (FBALF) model. In FBALF, training bias is
+explicitly incorporated into every local model's loss function, allowing for
+the effective elimination of rating bias without compromising data privacy.
+Extensive experiments conducted on three real-world datasets demonstrate that
+FBALF achieves significantly higher recommendation accuracy compared to other
+state-of-the-art federated RSs.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.14993v1">Dual Utilization of Perturbation for Stream Data Publication under Local
+  Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
+  <p><b>Published on:</b> 2025-04-21T09:51:18Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Rong Du, Qingqing Ye, Yaxin Xiao, Liantong Yu, Yue Fu, Haibo Hu</p>
+    <p><b>Summary:</b> Stream data from real-time distributed systems such as IoT, tele-health, and
+crowdsourcing has become an important data source. However, the collection and
+analysis of user-generated stream data raise privacy concerns due to the
+potential exposure of sensitive information. To address these concerns, local
+differential privacy (LDP) has emerged as a promising standard. Nevertheless,
+applying LDP to stream data presents significant challenges, as stream data
+often involves a large or even infinite number of values. Allocating a given
+privacy budget across these data points would introduce overwhelming LDP noise
+to the original stream data.
+  Beyond existing approaches that merely use perturbed values for estimating
+statistics, our design leverages them for both perturbation and estimation.
+This dual utilization arises from a key observation: each user knows their own
+ground truth and perturbed values, enabling a precise computation of the
+deviation error caused by perturbation. By incorporating this deviation into
+the perturbation process of subsequent values, the previous noise can be
+calibrated. Following this insight, we introduce the Iterative Perturbation
+Parameterization (IPP) method, which utilizes current perturbed results to
+calibrate the subsequent perturbation process. To enhance the robustness of
+calibration and reduce sensitivity, two algorithms, namely Accumulated
+Perturbation Parameterization (APP) and Clipped Accumulated Perturbation
+Parameterization (CAPP) are further developed. We prove that these three
+algorithms satisfy $w$-event differential privacy while significantly improving
+utility. Experimental results demonstrate that our techniques outperform
+state-of-the-art LDP stream publishing solutions in terms of utility, while
+retaining the same privacy guarantee.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.14959v1">ScaleGuard: Rational and Scalable Configuration Privacy Protection with
+  Topology Expansion</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
+  <p><b>Published on:</b> 2025-04-21T08:38:52Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Qianye Wang, Yuejie Wang, Yongting Chen, Guyue Liu</p>
+    <p><b>Summary:</b> As networks grow in size and complexity, safeguarding sensitive data while
+sharing configuration files is critical for network management and research.
+Existing anonymization tools primarily hide fields like IP addresses or AS
+numbers to mitigate direct data exposure. However, they often lack mechanisms
+to preserve privacy around network scale, an increasingly sensitive aspect that
+can reveal organizational size or resource distribution. We propose ScaleGuard,
+which preserves network functional equivalence while adding fake routers and
+hosts to conceal network scale, and generating complete router configurations
+that resemble the originals. Our system introduces a graph embedding-based
+expansion method and k-degree mapping anonymity, reducing unnecessary topology
+modifications when adversaries only know the original degree sequence. For
+routing repair, ScaleGuard designs a network repair framework combining SMT and
+iterative methods, delivering stable performance under randomized link costs
+and complex cross-protocol routing. Experiment results show that ScaleGuard
+expands network scale effectively, providing consistent anonymization of
+topology, scale, and routing, while achieving strong topological rationality,
+configuration fidelity, and repairing efficiency.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.14780v1">Delay-Angle Information Spoofing for Channel State Information-Free
+  Location-Privacy Enhancement</a></h3>
+  
+  <p><b>Published on:</b> 2025-04-21T00:40:45Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jianxiu Li, Urbashi Mitra</p>
+    <p><b>Summary:</b> In this paper, a delay-angle information spoofing (DAIS) strategy is proposed
+to enhance the location privacy at the physical layer. More precisely, the
+location-relevant delays and angles are artificially shifted without the aid of
+channel state information (CSI) at the transmitter, such that the location
+perceived by the eavesdropper is incorrect and distinct from the true one. By
+leveraging the intrinsic structure of the wireless channel, a precoder is
+designed to achieve DAIS while the legitimate localizer can remove the
+obfuscation via securely receiving a modest amount of information, i.e., the
+delay-angle shifts. A lower bound on eavesdropper's localization error is
+derived, revealing that location privacy is enhanced not only due to estimation
+error, but also by the geometric mismatch introduced by DAIS. Furthermore, the
+lower bound is explicitly expressed as a function of the delay-angle shifts,
+characterizing performance trends and providing the appropriate design of these
+shift parameters. The statistical hardness of maliciously inferring the
+delay-angle shifts by a single-antenna eavesdropper as well as the challenges
+for a multi-antenna eavesdropper are investigated to assess the robustness of
+the proposed DAIS strategy. Numerical results show that the proposed DAIS
+strategy results in more than 15 dB performance degradation for the
+eavesdropper as compared with that for the legitimate localizer at high
+signal-to-noise ratios, and provides more effective location-privacy
+enhancement than the prior art.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.14730v1">Optimal Additive Noise Mechanisms for Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
+  <p><b>Published on:</b> 2025-04-20T20:04:41Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Atefeh Gilani, Juan Felipe Gomez, Shahab Asoodeh, Flavio P. Calmon, Oliver Kosut, Lalitha Sankar</p>
+    <p><b>Summary:</b> We propose a unified optimization framework for designing continuous and
+discrete noise distributions that ensure differential privacy (DP) by
+minimizing R\'enyi DP, a variant of DP, under a cost constraint. R\'enyi DP has
+the advantage that by considering different values of the R\'enyi parameter
+$\alpha$, we can tailor our optimization for any number of compositions. To
+solve the optimization problem, we reduce it to a finite-dimensional convex
+formulation and perform preconditioned gradient descent. The resulting noise
+distributions are then compared to their Gaussian and Laplace counterparts.
+Numerical results demonstrate that our optimized distributions are consistently
+better, with significant improvements in $(\varepsilon, \delta)$-DP guarantees
+in the moderate composition regimes, compared to Gaussian and Laplace
+distributions with the same variance.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.14368v1">Do You Really Need Public Data? Surrogate Public Data for Differential
+  Privacy on Tabular Data</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-04-19T17:55:10Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shlomi Hod, Lucas Rosenblatt, Julia Stoyanovich</p>
+    <p><b>Summary:</b> Differentially private (DP) machine learning often relies on the availability
+of public data for tasks like privacy-utility trade-off estimation,
+hyperparameter tuning, and pretraining. While public data assumptions may be
+reasonable in text and image domains, they are less likely to hold for tabular
+data due to tabular data heterogeneity across domains. We propose leveraging
+powerful priors to address this limitation; specifically, we synthesize
+realistic tabular data directly from schema-level specifications - such as
+variable names, types, and permissible ranges - without ever accessing
+sensitive records. To that end, this work introduces the notion of "surrogate"
+public data - datasets generated independently of sensitive data, which consume
+no privacy loss budget and are constructed solely from publicly available
+schema or metadata. Surrogate public data are intended to encode plausible
+statistical assumptions (informed by publicly available information) into a
+dataset with many downstream uses in private mechanisms. We automate the
+process of generating surrogate public data with large language models (LLMs);
+in particular, we propose two methods: direct record generation as CSV files,
+and automated structural causal model (SCM) construction for sampling records.
+Through extensive experiments, we demonstrate that surrogate public tabular
+data can effectively replace traditional public data when pretraining
+differentially private tabular classifiers. To a lesser extent, surrogate
+public data are also useful for hyperparameter tuning of DP synthetic data
+generators, and for estimating the privacy-utility tradeoff.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.14301v1">Balancing Privacy and Action Performance: A Penalty-Driven Approach to
+  Image Anonymization</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Multimedia-5BC0EB">
+  <p><b>Published on:</b> 2025-04-19T13:52:33Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Nazia Aslam, Kamal Nasrollahi</p>
+    <p><b>Summary:</b> The rapid development of video surveillance systems for object detection,
+tracking, activity recognition, and anomaly detection has revolutionized our
+day-to-day lives while setting alarms for privacy concerns. It isn't easy to
+strike a balance between visual privacy and action recognition performance in
+most computer vision models. Is it possible to safeguard privacy without
+sacrificing performance? It poses a formidable challenge, as even minor privacy
+enhancements can lead to substantial performance degradation. To address this
+challenge, we propose a privacy-preserving image anonymization technique that
+optimizes the anonymizer using penalties from the utility branch, ensuring
+improved action recognition performance while minimally affecting privacy
+leakage. This approach addresses the trade-off between minimizing privacy
+leakage and maintaining high action performance. The proposed approach is
+primarily designed to align with the regulatory standards of the EU AI Act and
+GDPR, ensuring the protection of personally identifiable information while
+maintaining action performance. To the best of our knowledge, we are the first
+to introduce a feature-based penalty scheme that exclusively controls the
+action features, allowing freedom to anonymize private attributes. Extensive
+experiments were conducted to validate the effectiveness of the proposed
+method. The results demonstrate that applying a penalty to anonymizer from
+utility branch enhances action performance while maintaining nearly consistent
+privacy leakage across different penalty settings.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.14208v1">FedCIA: Federated Collaborative Information Aggregation for
+  Privacy-Preserving Recommendation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB">
+  <p><b>Published on:</b> 2025-04-19T06:59:34Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mingzhe Han, Dongsheng Li, Jiafeng Xia, Jiahao Liu, Hansu Gu, Peng Zhang, Ning Gu, Tun Lu</p>
+    <p><b>Summary:</b> Recommendation algorithms rely on user historical interactions to deliver
+personalized suggestions, which raises significant privacy concerns. Federated
+recommendation algorithms tackle this issue by combining local model training
+with server-side model aggregation, where most existing algorithms use a
+uniform weighted summation to aggregate item embeddings from different client
+models. This approach has three major limitations: 1) information loss during
+aggregation, 2) failure to retain personalized local features, and 3)
+incompatibility with parameter-free recommendation algorithms. To address these
+limitations, we first review the development of recommendation algorithms and
+recognize that their core function is to share collaborative information,
+specifically the global relationship between users and items. With this
+understanding, we propose a novel aggregation paradigm named collaborative
+information aggregation, which focuses on sharing collaborative information
+rather than item parameters. Based on this new paradigm, we introduce the
+federated collaborative information aggregation (FedCIA) method for
+privacy-preserving recommendation. This method requires each client to upload
+item similarity matrices for aggregation, which allows clients to align their
+local models without constraining embeddings to a unified vector space. As a
+result, it mitigates information loss caused by direct summation, preserves the
+personalized embedding distributions of individual clients, and supports the
+aggregation of parameter-free models. Theoretical analysis and experimental
+results on real-world datasets demonstrate the superior performance of FedCIA
+compared with the state-of-the-art federated recommendation algorithms. Code is
+available at https://github.com/Mingzhe-Han/FedCIA.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2504.13526v1">Multi-class Item Mining under Local Differential Privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2025-04-18T07:37:06Z</p>
@@ -299,7 +575,7 @@ obfuscation techniques.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.11793v2">Selective Attention Federated Learning: Improving Privacy and Efficiency
+  <h3><a href="http://arxiv.org/abs/2504.11793v3">Selective Attention Federated Learning: Improving Privacy and Efficiency
   for Clinical Text Classification</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
   <p><b>Published on:</b> 2025-04-16T05:59:29Z</p>
@@ -2676,268 +2952,6 @@ high-quality local models for uploading, subsequently aggregating the
 contributions from these selected clients. By integrating ZKPs, Veri-CS-FL not
 only ensures the accuracy of performance metrics but also fortifies trust among
 participants while enhancing the overall efficiency and security of FL systems.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.13872v1">Empirical Calibration and Metric Differential Privacy in Language Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-03-18T03:52:12Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Pedro Faustini, Natasha Fernandes, Annabelle McIver, Mark Dras</p>
-    <p><b>Summary:</b> NLP models trained with differential privacy (DP) usually adopt the DP-SGD
-framework, and privacy guarantees are often reported in terms of the privacy
-budget $\epsilon$. However, $\epsilon$ does not have any intrinsic meaning, and
-it is generally not possible to compare across variants of the framework. Work
-in image processing has therefore explored how to empirically calibrate noise
-across frameworks using Membership Inference Attacks (MIAs). However, this kind
-of calibration has not been established for NLP. In this paper, we show that
-MIAs offer little help in calibrating privacy, whereas reconstruction attacks
-are more useful. As a use case, we define a novel kind of directional privacy
-based on the von Mises-Fisher (VMF) distribution, a metric DP mechanism that
-perturbs angular distance rather than adding (isotropic) Gaussian noise, and
-apply this to NLP architectures. We show that, even though formal guarantees
-are incomparable, empirical privacy calibration reveals that each mechanism has
-different areas of strength with respect to utility-privacy trade-offs.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.13816v2">MOSAIC: Generating Consistent, Privacy-Preserving Scenes from Multiple
-  Depth Views in Multi-Room Environments</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2025-03-18T01:50:57Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zhixuan Liu, Haokun Zhu, Rui Chen, Jonathan Francis, Soonmin Hwang, Ji Zhang, Jean Oh</p>
-    <p><b>Summary:</b> We introduce a novel diffusion-based approach for generating
-privacy-preserving digital twins of multi-room indoor environments from depth
-images only. Central to our approach is a novel Multi-view Overlapped Scene
-Alignment with Implicit Consistency (MOSAIC) model that explicitly considers
-cross-view dependencies within the same scene in the probabilistic sense.
-MOSAIC operates through a novel inference-time optimization that avoids error
-accumulation common in sequential or single-room constraint in panorama-based
-approaches. MOSAIC scales to complex scenes with zero extra training and
-provably reduces the variance during denoising processes when more overlapping
-views are added, leading to improved generation quality. Experiments show that
-MOSAIC outperforms state-of-the-art baselines on image fidelity metrics in
-reconstructing complex multi-room environments. Project page is available at:
-https://mosaic-cmubig.github.io</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.14539v1">Ethical Implications of AI in Data Collection: Balancing Innovation with
-  Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2025-03-17T14:15:59Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shahmar Mirishli</p>
-    <p><b>Summary:</b> This article examines the ethical and legal implications of artificial
-intelligence (AI) driven data collection, focusing on developments from 2023 to
-2024. It analyzes recent advancements in AI technologies and their impact on
-data collection practices across various sectors. The study compares regulatory
-approaches in the European Union, the United States, and China, highlighting
-the challenges in creating a globally harmonized framework for AI governance.
-Key ethical issues, including informed consent, algorithmic bias, and privacy
-protection, are critically assessed in the context of increasingly
-sophisticated AI systems. The research explores case studies in healthcare,
-finance, and smart cities to illustrate the practical challenges of AI
-implementation. It evaluates the effectiveness of current legal frameworks and
-proposes solutions encompassing legal and policy recommendations, technical
-safeguards, and ethical frameworks. The article emphasizes the need for
-adaptive governance and international cooperation to address the global nature
-of AI development while balancing innovation with the protection of individual
-rights and societal values.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.13173v1">PAUSE: Low-Latency and Privacy-Aware Active User Selection for Federated
-  Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
-  <p><b>Published on:</b> 2025-03-17T13:50:35Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ori Peleg, Natalie Lang, Stefano Rini, Nir Shlezinger, Kobi Cohen</p>
-    <p><b>Summary:</b> Federated learning (FL) enables multiple edge devices to collaboratively
-train a machine learning model without the need to share potentially private
-data. Federated learning proceeds through iterative exchanges of model updates,
-which pose two key challenges: First, the accumulation of privacy leakage over
-time, and second, communication latency. These two limitations are typically
-addressed separately: The former via perturbed updates to enhance privacy and
-the latter using user selection to mitigate latency - both at the expense of
-accuracy. In this work, we propose a method that jointly addresses the
-accumulation of privacy leakage and communication latency via active user
-selection, aiming to improve the trade-off among privacy, latency, and model
-performance. To achieve this, we construct a reward function that accounts for
-these three objectives. Building on this reward, we propose a multi-armed
-bandit (MAB)-based algorithm, termed Privacy-aware Active User SElection
-(PAUSE) which dynamically selects a subset of users each round while ensuring
-bounded overall privacy leakage. We establish a theoretical analysis,
-systematically showing that the reward growth rate of PAUSE follows that of the
-best-known rate in MAB literature. To address the complexity overhead of active
-user selection, we propose a simulated annealing-based relaxation of PAUSE and
-analyze its ability to approximate the reward-maximizing policy under reduced
-complexity. We numerically validate the privacy leakage, associated improved
-latency, and accuracy gains of our methods for the federated training in
-various scenarios.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.07107v1">Guarding Digital Privacy: Exploring User Profiling and Security
-  Enhancements</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-03-17T10:56:46Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Rishika Kohli, Shaifu Gupta, Manoj Singh Gaur</p>
-    <p><b>Summary:</b> User profiling, the practice of collecting user information for personalized
-recommendations, has become widespread, driving progress in technology.
-However, this growth poses a threat to user privacy, as devices often collect
-sensitive data without their owners' awareness. This article aims to
-consolidate knowledge on user profiling, exploring various approaches and
-associated challenges. Through the lens of two companies sharing user data and
-an analysis of 18 popular Android applications in India across various
-categories, including $\textit{Social, Education, Entertainment, Travel,
-Shopping and Others}$, the article unveils privacy vulnerabilities. Further,
-the article propose an enhanced machine learning framework, employing decision
-trees and neural networks, that improves state-of-the-art classifiers in
-detecting personal information exposure. Leveraging the XAI (explainable
-artificial intelligence) algorithm LIME (Local Interpretable Model-agnostic
-Explanations), it enhances interpretability, crucial for reliably identifying
-sensitive data. Results demonstrate a noteworthy performance boost, achieving a
-$75.01\%$ accuracy with a reduced training time of $3.62$ seconds for neural
-networks. Concluding, the paper suggests research directions to strengthen
-digital security measures.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.12958v1">FedSDP: Explainable Differential Privacy in Federated Learning via
-  Shapley Values</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-03-17T09:14:19Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yunbo Li, Jiaping Gui, Yue Wu</p>
-    <p><b>Summary:</b> Federated learning (FL) enables participants to store data locally while
-collaborating in training, yet it remains vulnerable to privacy attacks, such
-as data reconstruction. Existing differential privacy (DP) technologies inject
-noise dynamically into the training process to mitigate the impact of excessive
-noise. However, this dynamic scheduling is often grounded in factors indirectly
-related to privacy, making it difficult to clearly explain the intricate
-relationship between dynamic noise adjustments and privacy requirements. To
-address this issue, we propose FedSDP, a novel and explainable DP-based privacy
-protection mechanism that guides noise injection based on privacy contribution.
-Specifically, FedSDP leverages Shapley values to assess the contribution of
-private attributes to local model training and dynamically adjusts the amount
-of noise injected accordingly. By providing theoretical insights into the
-injection of varying scales of noise into local training, FedSDP enhances
-interpretability. Extensive experiments demonstrate that FedSDP can achieve a
-superior balance between privacy preservation and model performance, surpassing
-state-of-the-art (SOTA) solutions.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.15548v1">Privacy-Aware RAG: Secure and Isolated Knowledge Retrieval</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-03-17T07:45:05Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Pengcheng Zhou, Yinglun Feng, Zhongliang Yang</p>
-    <p><b>Summary:</b> The widespread adoption of Retrieval-Augmented Generation (RAG) systems in
-real-world applications has heightened concerns about the confidentiality and
-integrity of their proprietary knowledge bases. These knowledge bases, which
-play a critical role in enhancing the generative capabilities of Large Language
-Models (LLMs), are increasingly vulnerable to breaches that could compromise
-sensitive information. To address these challenges, this paper proposes an
-advanced encryption methodology designed to protect RAG systems from
-unauthorized access and data leakage. Our approach encrypts both textual
-content and its corresponding embeddings prior to storage, ensuring that all
-data remains securely encrypted. This mechanism restricts access to authorized
-entities with the appropriate decryption keys, thereby significantly reducing
-the risk of unintended data exposure. Furthermore, we demonstrate that our
-encryption strategy preserves the performance and functionality of RAG
-pipelines, ensuring compatibility across diverse domains and applications. To
-validate the robustness of our method, we provide comprehensive security proofs
-that highlight its resilience against potential threats and vulnerabilities.
-These proofs also reveal limitations in existing approaches, which often lack
-robustness, adaptability, or reliance on open-source models. Our findings
-suggest that integrating advanced encryption techniques into the design and
-deployment of RAG systems can effectively enhance privacy safeguards. This
-research contributes to the ongoing discourse on improving security measures
-for AI-driven services and advocates for stricter data protection standards
-within RAG architectures.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.12786v1">Privacy-Preserving Biometric Verification with Handwritten Random Digit
-  String</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2025-03-17T03:47:25Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Peirong Zhang, Yuliang Liu, Songxuan Lai, Hongliang Li, Lianwen Jin</p>
-    <p><b>Summary:</b> Handwriting verification has stood as a steadfast identity authentication
-method for decades. However, this technique risks potential privacy breaches
-due to the inclusion of personal information in handwritten biometrics such as
-signatures. To address this concern, we propose using the Random Digit String
-(RDS) for privacy-preserving handwriting verification. This approach allows
-users to authenticate themselves by writing an arbitrary digit sequence,
-effectively ensuring privacy protection. To evaluate the effectiveness of RDS,
-we construct a new HRDS4BV dataset composed of online naturally handwritten
-RDS. Unlike conventional handwriting, RDS encompasses unconstrained and
-variable content, posing significant challenges for modeling consistent
-personal writing style. To surmount this, we propose the Pattern Attentive
-VErification Network (PAVENet), along with a Discriminative Pattern Mining
-(DPM) module. DPM adaptively enhances the recognition of consistent and
-discriminative writing patterns, thus refining handwriting style
-representation. Through comprehensive evaluations, we scrutinize the
-applicability of online RDS verification and showcase a pronounced
-outperformance of our model over existing methods. Furthermore, we discover a
-noteworthy forgery phenomenon that deviates from prior findings and discuss its
-positive impact in countering malicious impostor attacks. Substantially, our
-work underscores the feasibility of privacy-preserving biometric verification
-and propels the prospects of its broader acceptance and application.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.13550v1">Towards Privacy-Preserving Data-Driven Education: The Potential of
-  Federated Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-03-16T14:37:32Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mohammad Khalil, Ronas Shakya, Qinyi Liu</p>
-    <p><b>Summary:</b> The increasing adoption of data-driven applications in education such as in
-learning analytics and AI in education has raised significant privacy and data
-protection concerns. While these challenges have been widely discussed in
-previous works, there are still limited practical solutions. Federated learning
-has recently been discoursed as a promising privacy-preserving technique, yet
-its application in education remains scarce. This paper presents an
-experimental evaluation of federated learning for educational data prediction,
-comparing its performance to traditional non-federated approaches. Our findings
-indicate that federated learning achieves comparable predictive accuracy.
-Furthermore, under adversarial attacks, federated learning demonstrates greater
-resilience compared to non-federated settings. We summarise that our results
-reinforce the value of federated learning as a potential approach for balancing
-predictive performance and privacy in educational contexts.</p>
   </details>
 </div>
 
