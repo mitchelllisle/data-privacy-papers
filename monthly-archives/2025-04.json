@@ -1323,5 +1323,243 @@
       "cs.SY",
       "eess.SY"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.15233v1",
+    "title" : "A Review on Privacy in DAG-Based DLTs",
+    "summary" : "Directed Acyclic Graph (DAG)-based Distributed Ledger Technologies (DLTs)\nhave emerged as a promising solution to the scalability issues inherent in\ntraditional blockchains. However, amidst the focus on scalability, the crucial\naspect of privacy within DAG-based DLTs has been largely overlooked. This paper\nseeks to address this gap by providing a comprehensive examination of privacy\nnotions and challenges within DAG-based DLTs. We delve into potential\nmethodologies to enhance privacy within these systems, while also analyzing the\nassociated hurdles and real-world implementations within state-of-the-art\nDAG-based DLTs. By exploring these methodologies, we not only illuminate the\ncurrent landscape of privacy in DAG-based DLTs but also outline future research\ndirections in this evolving field.",
+    "updated" : "2025-04-21T17:08:45Z",
+    "published" : "2025-04-21T17:08:45Z",
+    "authors" : [
+      {
+        "name" : "Mayank Raikwar"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.15090v1",
+    "title" : "Federated Latent Factor Model for Bias-Aware Recommendation with\n  Privacy-Preserving",
+    "summary" : "A recommender system (RS) aims to provide users with personalized item\nrecommendations, enhancing their overall experience. Traditional RSs collect\nand process all user data on a central server. However, this centralized\napproach raises significant privacy concerns, as it increases the risk of data\nbreaches and privacy leakages, which are becoming increasingly unacceptable to\nprivacy-sensitive users. To address these privacy challenges, federated\nlearning has been integrated into RSs, ensuring that user data remains secure.\nIn centralized RSs, the issue of rating bias is effectively addressed by\njointly analyzing all users' raw interaction data. However, this becomes a\nsignificant challenge in federated RSs, as raw data is no longer accessible due\nto privacy-preserving constraints. To overcome this problem, we propose a\nFederated Bias-Aware Latent Factor (FBALF) model. In FBALF, training bias is\nexplicitly incorporated into every local model's loss function, allowing for\nthe effective elimination of rating bias without compromising data privacy.\nExtensive experiments conducted on three real-world datasets demonstrate that\nFBALF achieves significantly higher recommendation accuracy compared to other\nstate-of-the-art federated RSs.",
+    "updated" : "2025-04-21T13:24:30Z",
+    "published" : "2025-04-21T13:24:30Z",
+    "authors" : [
+      {
+        "name" : "Junxiang Gao"
+      },
+      {
+        "name" : "Yixin Ran"
+      },
+      {
+        "name" : "Jia Chen"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.14993v1",
+    "title" : "Dual Utilization of Perturbation for Stream Data Publication under Local\n  Differential Privacy",
+    "summary" : "Stream data from real-time distributed systems such as IoT, tele-health, and\ncrowdsourcing has become an important data source. However, the collection and\nanalysis of user-generated stream data raise privacy concerns due to the\npotential exposure of sensitive information. To address these concerns, local\ndifferential privacy (LDP) has emerged as a promising standard. Nevertheless,\napplying LDP to stream data presents significant challenges, as stream data\noften involves a large or even infinite number of values. Allocating a given\nprivacy budget across these data points would introduce overwhelming LDP noise\nto the original stream data.\n  Beyond existing approaches that merely use perturbed values for estimating\nstatistics, our design leverages them for both perturbation and estimation.\nThis dual utilization arises from a key observation: each user knows their own\nground truth and perturbed values, enabling a precise computation of the\ndeviation error caused by perturbation. By incorporating this deviation into\nthe perturbation process of subsequent values, the previous noise can be\ncalibrated. Following this insight, we introduce the Iterative Perturbation\nParameterization (IPP) method, which utilizes current perturbed results to\ncalibrate the subsequent perturbation process. To enhance the robustness of\ncalibration and reduce sensitivity, two algorithms, namely Accumulated\nPerturbation Parameterization (APP) and Clipped Accumulated Perturbation\nParameterization (CAPP) are further developed. We prove that these three\nalgorithms satisfy $w$-event differential privacy while significantly improving\nutility. Experimental results demonstrate that our techniques outperform\nstate-of-the-art LDP stream publishing solutions in terms of utility, while\nretaining the same privacy guarantee.",
+    "updated" : "2025-04-21T09:51:18Z",
+    "published" : "2025-04-21T09:51:18Z",
+    "authors" : [
+      {
+        "name" : "Rong Du"
+      },
+      {
+        "name" : "Qingqing Ye"
+      },
+      {
+        "name" : "Yaxin Xiao"
+      },
+      {
+        "name" : "Liantong Yu"
+      },
+      {
+        "name" : "Yue Fu"
+      },
+      {
+        "name" : "Haibo Hu"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DB"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.14959v1",
+    "title" : "ScaleGuard: Rational and Scalable Configuration Privacy Protection with\n  Topology Expansion",
+    "summary" : "As networks grow in size and complexity, safeguarding sensitive data while\nsharing configuration files is critical for network management and research.\nExisting anonymization tools primarily hide fields like IP addresses or AS\nnumbers to mitigate direct data exposure. However, they often lack mechanisms\nto preserve privacy around network scale, an increasingly sensitive aspect that\ncan reveal organizational size or resource distribution. We propose ScaleGuard,\nwhich preserves network functional equivalence while adding fake routers and\nhosts to conceal network scale, and generating complete router configurations\nthat resemble the originals. Our system introduces a graph embedding-based\nexpansion method and k-degree mapping anonymity, reducing unnecessary topology\nmodifications when adversaries only know the original degree sequence. For\nrouting repair, ScaleGuard designs a network repair framework combining SMT and\niterative methods, delivering stable performance under randomized link costs\nand complex cross-protocol routing. Experiment results show that ScaleGuard\nexpands network scale effectively, providing consistent anonymization of\ntopology, scale, and routing, while achieving strong topological rationality,\nconfiguration fidelity, and repairing efficiency.",
+    "updated" : "2025-04-21T08:38:52Z",
+    "published" : "2025-04-21T08:38:52Z",
+    "authors" : [
+      {
+        "name" : "Qianye Wang"
+      },
+      {
+        "name" : "Yuejie Wang"
+      },
+      {
+        "name" : "Yongting Chen"
+      },
+      {
+        "name" : "Guyue Liu"
+      }
+    ],
+    "categories" : [
+      "cs.NI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.14780v1",
+    "title" : "Delay-Angle Information Spoofing for Channel State Information-Free\n  Location-Privacy Enhancement",
+    "summary" : "In this paper, a delay-angle information spoofing (DAIS) strategy is proposed\nto enhance the location privacy at the physical layer. More precisely, the\nlocation-relevant delays and angles are artificially shifted without the aid of\nchannel state information (CSI) at the transmitter, such that the location\nperceived by the eavesdropper is incorrect and distinct from the true one. By\nleveraging the intrinsic structure of the wireless channel, a precoder is\ndesigned to achieve DAIS while the legitimate localizer can remove the\nobfuscation via securely receiving a modest amount of information, i.e., the\ndelay-angle shifts. A lower bound on eavesdropper's localization error is\nderived, revealing that location privacy is enhanced not only due to estimation\nerror, but also by the geometric mismatch introduced by DAIS. Furthermore, the\nlower bound is explicitly expressed as a function of the delay-angle shifts,\ncharacterizing performance trends and providing the appropriate design of these\nshift parameters. The statistical hardness of maliciously inferring the\ndelay-angle shifts by a single-antenna eavesdropper as well as the challenges\nfor a multi-antenna eavesdropper are investigated to assess the robustness of\nthe proposed DAIS strategy. Numerical results show that the proposed DAIS\nstrategy results in more than 15 dB performance degradation for the\neavesdropper as compared with that for the legitimate localizer at high\nsignal-to-noise ratios, and provides more effective location-privacy\nenhancement than the prior art.",
+    "updated" : "2025-04-21T00:40:45Z",
+    "published" : "2025-04-21T00:40:45Z",
+    "authors" : [
+      {
+        "name" : "Jianxiu Li"
+      },
+      {
+        "name" : "Urbashi Mitra"
+      }
+    ],
+    "categories" : [
+      "eess.SP"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.14730v1",
+    "title" : "Optimal Additive Noise Mechanisms for Differential Privacy",
+    "summary" : "We propose a unified optimization framework for designing continuous and\ndiscrete noise distributions that ensure differential privacy (DP) by\nminimizing R\\'enyi DP, a variant of DP, under a cost constraint. R\\'enyi DP has\nthe advantage that by considering different values of the R\\'enyi parameter\n$\\alpha$, we can tailor our optimization for any number of compositions. To\nsolve the optimization problem, we reduce it to a finite-dimensional convex\nformulation and perform preconditioned gradient descent. The resulting noise\ndistributions are then compared to their Gaussian and Laplace counterparts.\nNumerical results demonstrate that our optimized distributions are consistently\nbetter, with significant improvements in $(\\varepsilon, \\delta)$-DP guarantees\nin the moderate composition regimes, compared to Gaussian and Laplace\ndistributions with the same variance.",
+    "updated" : "2025-04-20T20:04:41Z",
+    "published" : "2025-04-20T20:04:41Z",
+    "authors" : [
+      {
+        "name" : "Atefeh Gilani"
+      },
+      {
+        "name" : "Juan Felipe Gomez"
+      },
+      {
+        "name" : "Shahab Asoodeh"
+      },
+      {
+        "name" : "Flavio P. Calmon"
+      },
+      {
+        "name" : "Oliver Kosut"
+      },
+      {
+        "name" : "Lalitha Sankar"
+      }
+    ],
+    "categories" : [
+      "cs.IT",
+      "math.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.14368v1",
+    "title" : "Do You Really Need Public Data? Surrogate Public Data for Differential\n  Privacy on Tabular Data",
+    "summary" : "Differentially private (DP) machine learning often relies on the availability\nof public data for tasks like privacy-utility trade-off estimation,\nhyperparameter tuning, and pretraining. While public data assumptions may be\nreasonable in text and image domains, they are less likely to hold for tabular\ndata due to tabular data heterogeneity across domains. We propose leveraging\npowerful priors to address this limitation; specifically, we synthesize\nrealistic tabular data directly from schema-level specifications - such as\nvariable names, types, and permissible ranges - without ever accessing\nsensitive records. To that end, this work introduces the notion of \"surrogate\"\npublic data - datasets generated independently of sensitive data, which consume\nno privacy loss budget and are constructed solely from publicly available\nschema or metadata. Surrogate public data are intended to encode plausible\nstatistical assumptions (informed by publicly available information) into a\ndataset with many downstream uses in private mechanisms. We automate the\nprocess of generating surrogate public data with large language models (LLMs);\nin particular, we propose two methods: direct record generation as CSV files,\nand automated structural causal model (SCM) construction for sampling records.\nThrough extensive experiments, we demonstrate that surrogate public tabular\ndata can effectively replace traditional public data when pretraining\ndifferentially private tabular classifiers. To a lesser extent, surrogate\npublic data are also useful for hyperparameter tuning of DP synthetic data\ngenerators, and for estimating the privacy-utility tradeoff.",
+    "updated" : "2025-04-19T17:55:10Z",
+    "published" : "2025-04-19T17:55:10Z",
+    "authors" : [
+      {
+        "name" : "Shlomi Hod"
+      },
+      {
+        "name" : "Lucas Rosenblatt"
+      },
+      {
+        "name" : "Julia Stoyanovich"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.14301v1",
+    "title" : "Balancing Privacy and Action Performance: A Penalty-Driven Approach to\n  Image Anonymization",
+    "summary" : "The rapid development of video surveillance systems for object detection,\ntracking, activity recognition, and anomaly detection has revolutionized our\nday-to-day lives while setting alarms for privacy concerns. It isn't easy to\nstrike a balance between visual privacy and action recognition performance in\nmost computer vision models. Is it possible to safeguard privacy without\nsacrificing performance? It poses a formidable challenge, as even minor privacy\nenhancements can lead to substantial performance degradation. To address this\nchallenge, we propose a privacy-preserving image anonymization technique that\noptimizes the anonymizer using penalties from the utility branch, ensuring\nimproved action recognition performance while minimally affecting privacy\nleakage. This approach addresses the trade-off between minimizing privacy\nleakage and maintaining high action performance. The proposed approach is\nprimarily designed to align with the regulatory standards of the EU AI Act and\nGDPR, ensuring the protection of personally identifiable information while\nmaintaining action performance. To the best of our knowledge, we are the first\nto introduce a feature-based penalty scheme that exclusively controls the\naction features, allowing freedom to anonymize private attributes. Extensive\nexperiments were conducted to validate the effectiveness of the proposed\nmethod. The results demonstrate that applying a penalty to anonymizer from\nutility branch enhances action performance while maintaining nearly consistent\nprivacy leakage across different penalty settings.",
+    "updated" : "2025-04-19T13:52:33Z",
+    "published" : "2025-04-19T13:52:33Z",
+    "authors" : [
+      {
+        "name" : "Nazia Aslam"
+      },
+      {
+        "name" : "Kamal Nasrollahi"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI",
+      "cs.MM"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.14208v1",
+    "title" : "FedCIA: Federated Collaborative Information Aggregation for\n  Privacy-Preserving Recommendation",
+    "summary" : "Recommendation algorithms rely on user historical interactions to deliver\npersonalized suggestions, which raises significant privacy concerns. Federated\nrecommendation algorithms tackle this issue by combining local model training\nwith server-side model aggregation, where most existing algorithms use a\nuniform weighted summation to aggregate item embeddings from different client\nmodels. This approach has three major limitations: 1) information loss during\naggregation, 2) failure to retain personalized local features, and 3)\nincompatibility with parameter-free recommendation algorithms. To address these\nlimitations, we first review the development of recommendation algorithms and\nrecognize that their core function is to share collaborative information,\nspecifically the global relationship between users and items. With this\nunderstanding, we propose a novel aggregation paradigm named collaborative\ninformation aggregation, which focuses on sharing collaborative information\nrather than item parameters. Based on this new paradigm, we introduce the\nfederated collaborative information aggregation (FedCIA) method for\nprivacy-preserving recommendation. This method requires each client to upload\nitem similarity matrices for aggregation, which allows clients to align their\nlocal models without constraining embeddings to a unified vector space. As a\nresult, it mitigates information loss caused by direct summation, preserves the\npersonalized embedding distributions of individual clients, and supports the\naggregation of parameter-free models. Theoretical analysis and experimental\nresults on real-world datasets demonstrate the superior performance of FedCIA\ncompared with the state-of-the-art federated recommendation algorithms. Code is\navailable at https://github.com/Mingzhe-Han/FedCIA.",
+    "updated" : "2025-04-19T06:59:34Z",
+    "published" : "2025-04-19T06:59:34Z",
+    "authors" : [
+      {
+        "name" : "Mingzhe Han"
+      },
+      {
+        "name" : "Dongsheng Li"
+      },
+      {
+        "name" : "Jiafeng Xia"
+      },
+      {
+        "name" : "Jiahao Liu"
+      },
+      {
+        "name" : "Hansu Gu"
+      },
+      {
+        "name" : "Peng Zhang"
+      },
+      {
+        "name" : "Ning Gu"
+      },
+      {
+        "name" : "Tun Lu"
+      }
+    ],
+    "categories" : [
+      "cs.IR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.11793v3",
+    "title" : "Selective Attention Federated Learning: Improving Privacy and Efficiency\n  for Clinical Text Classification",
+    "summary" : "Federated Learning (FL) faces major challenges regarding communication\noverhead and model privacy when training large language models (LLMs),\nespecially in healthcare applications. To address these, we introduce Selective\nAttention Federated Learning (SAFL), a novel approach that dynamically\nfine-tunes only those transformer layers identified as attention-critical. By\nemploying attention patterns to determine layer importance, SAFL significantly\nreduces communication bandwidth and enhances differential privacy resilience.\nEvaluations on clinical NLP benchmarks (i2b2 Clinical Concept Extraction and\nMIMIC-III discharge summaries) demonstrate that SAFL achieves competitive\nperformance with centralized models while substantially improving communication\nefficiency and privacy preservation.",
+    "updated" : "2025-04-18T20:58:03Z",
+    "published" : "2025-04-16T05:59:29Z",
+    "authors" : [
+      {
+        "name" : "Yue Li"
+      },
+      {
+        "name" : "Lihong Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.AI"
+    ]
   }
 ]
