@@ -1561,5 +1561,120 @@
       "cs.CL",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.16000v1",
+    "title" : "How Private is Your Attention? Bridging Privacy with In-Context Learning",
+    "summary" : "In-context learning (ICL)-the ability of transformer-based models to perform\nnew tasks from examples provided at inference time-has emerged as a hallmark of\nmodern language models. While recent works have investigated the mechanisms\nunderlying ICL, its feasibility under formal privacy constraints remains\nlargely unexplored. In this paper, we propose a differentially private\npretraining algorithm for linear attention heads and present the first\ntheoretical analysis of the privacy-accuracy trade-off for ICL in linear\nregression. Our results characterize the fundamental tension between\noptimization and privacy-induced noise, formally capturing behaviors observed\nin private training via iterative methods. Additionally, we show that our\nmethod is robust to adversarial perturbations of training prompts, unlike\nstandard ridge regression. All theoretical findings are supported by extensive\nsimulations across diverse settings.",
+    "updated" : "2025-04-22T16:05:26Z",
+    "published" : "2025-04-22T16:05:26Z",
+    "authors" : [
+      {
+        "name" : "Soham Bonnerjee"
+      },
+      {
+        "name" : "Zhen Wei"
+      },
+      {
+        "name" : " Yeon"
+      },
+      {
+        "name" : "Anna Asch"
+      },
+      {
+        "name" : "Sagnik Nandy"
+      },
+      {
+        "name" : "Promit Ghosal"
+      }
+    ],
+    "categories" : [
+      "stat.ML",
+      "cs.AI",
+      "cs.CL",
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.15995v1",
+    "title" : "OPUS-VFL: Incentivizing Optimal Privacy-Utility Tradeoffs in Vertical\n  Federated Learning",
+    "summary" : "Vertical Federated Learning (VFL) enables organizations with disjoint feature\nspaces but shared user bases to collaboratively train models without sharing\nraw data. However, existing VFL systems face critical limitations: they often\nlack effective incentive mechanisms, struggle to balance privacy-utility\ntradeoffs, and fail to accommodate clients with heterogeneous resource\ncapabilities. These challenges hinder meaningful participation, degrade model\nperformance, and limit practical deployment. To address these issues, we\npropose OPUS-VFL, an Optimal Privacy-Utility tradeoff Strategy for VFL.\nOPUS-VFL introduces a novel, privacy-aware incentive mechanism that rewards\nclients based on a principled combination of model contribution, privacy\npreservation, and resource investment. It employs a lightweight leave-one-out\n(LOO) strategy to quantify feature importance per client, and integrates an\nadaptive differential privacy mechanism that enables clients to dynamically\ncalibrate noise levels to optimize their individual utility. Our framework is\ndesigned to be scalable, budget-balanced, and robust to inference and poisoning\nattacks. Extensive experiments on benchmark datasets (MNIST, CIFAR-10, and\nCIFAR-100) demonstrate that OPUS-VFL significantly outperforms state-of-the-art\nVFL baselines in both efficiency and robustness. It reduces label inference\nattack success rates by up to 20%, increases feature inference reconstruction\nerror (MSE) by over 30%, and achieves up to 25% higher incentives for clients\nthat contribute meaningfully while respecting privacy and cost constraints.\nThese results highlight the practicality and innovation of OPUS-VFL as a\nsecure, fair, and performance-driven solution for real-world VFL.",
+    "updated" : "2025-04-22T16:00:11Z",
+    "published" : "2025-04-22T16:00:11Z",
+    "authors" : [
+      {
+        "name" : "Sindhuja Madabushi"
+      },
+      {
+        "name" : "Ahmad Faraz Khan"
+      },
+      {
+        "name" : "Haider Ali"
+      },
+      {
+        "name" : "Jin-Hee Cho"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.15580v1",
+    "title" : "On the Price of Differential Privacy for Hierarchical Clustering",
+    "summary" : "Hierarchical clustering is a fundamental unsupervised machine learning task\nwith the aim of organizing data into a hierarchy of clusters. Many applications\nof hierarchical clustering involve sensitive user information, therefore\nmotivating recent studies on differentially private hierarchical clustering\nunder the rigorous framework of Dasgupta's objective. However, it has been\nshown that any privacy-preserving algorithm under edge-level differential\nprivacy necessarily suffers a large error. To capture practical applications of\nthis problem, we focus on the weight privacy model, where each edge of the\ninput graph is at least unit weight. We present a novel algorithm in the weight\nprivacy model that shows significantly better approximation than known\nimpossibility results in the edge-level DP setting. In particular, our\nalgorithm achieves $O(\\log^{1.5}n/\\varepsilon)$ multiplicative error for\n$\\varepsilon$-DP and runs in polynomial time, where $n$ is the size of the\ninput graph, and the cost is never worse than the optimal additive error in\nexisting work. We complement our algorithm by showing if the unit-weight\nconstraint does not apply, the lower bound for weight-level DP hierarchical\nclustering is essentially the same as the edge-level DP, i.e.\n$\\Omega(n^2/\\varepsilon)$ additive error. As a result, we also obtain a new\nlower bound of $\\tilde{\\Omega}(1/\\varepsilon)$ additive error for balanced\nsparsest cuts in the weight-level DP model, which may be of independent\ninterest. Finally, we evaluate our algorithm on synthetic and real-world\ndatasets. Our experimental results show that our algorithm performs well in\nterms of extra cost and has good scalability to large graphs.",
+    "updated" : "2025-04-22T04:39:40Z",
+    "published" : "2025-04-22T04:39:40Z",
+    "authors" : [
+      {
+        "name" : "Chengyuan Deng"
+      },
+      {
+        "name" : "Jie Gao"
+      },
+      {
+        "name" : "Jalaj Upadhyay"
+      },
+      {
+        "name" : "Chen Wang"
+      },
+      {
+        "name" : "Samson Zhou"
+      }
+    ],
+    "categories" : [
+      "cs.DS",
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.15525v1",
+    "title" : "Federated Latent Factor Learning for Recovering Wireless Sensor Networks\n  Signal with Privacy-Preserving",
+    "summary" : "Wireless Sensor Networks (WSNs) are a cutting-edge domain in the field of\nintelligent sensing. Due to sensor failures and energy-saving strategies, the\ncollected data often have massive missing data, hindering subsequent analysis\nand decision-making. Although Latent Factor Learning (LFL) has been proven\neffective in recovering missing data, it fails to sufficiently consider data\nprivacy protection. To address this issue, this paper innovatively proposes a\nfederated latent factor learning (FLFL) based spatial signal recovery (SSR)\nmodel, named FLFL-SSR. Its main idea is two-fold: 1) it designs a sensor-level\nfederated learning framework, where each sensor uploads only gradient updates\ninstead of raw data to optimize the global model, and 2) it proposes a local\nspatial sharing strategy, allowing sensors within the same spatial region to\nshare their latent feature vectors, capturing spatial correlations and\nenhancing recovery accuracy. Experimental results on two real-world WSNs\ndatasets demonstrate that the proposed model outperforms existing federated\nmethods in terms of recovery performance.",
+    "updated" : "2025-04-22T02:01:19Z",
+    "published" : "2025-04-22T02:01:19Z",
+    "authors" : [
+      {
+        "name" : "Chengjun Yu"
+      },
+      {
+        "name" : "Yixin Ran"
+      },
+      {
+        "name" : "Yangyi Xia"
+      },
+      {
+        "name" : "Jia Wu"
+      },
+      {
+        "name" : "Xiaojing Liu"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
   }
 ]
