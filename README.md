@@ -2,6 +2,126 @@
 <h2>2025-04</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.16000v1">How Private is Your Attention? Bridging Privacy with In-Context Learning</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-04-22T16:05:26Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Soham Bonnerjee, Zhen Wei,  Yeon, Anna Asch, Sagnik Nandy, Promit Ghosal</p>
+    <p><b>Summary:</b> In-context learning (ICL)-the ability of transformer-based models to perform
+new tasks from examples provided at inference time-has emerged as a hallmark of
+modern language models. While recent works have investigated the mechanisms
+underlying ICL, its feasibility under formal privacy constraints remains
+largely unexplored. In this paper, we propose a differentially private
+pretraining algorithm for linear attention heads and present the first
+theoretical analysis of the privacy-accuracy trade-off for ICL in linear
+regression. Our results characterize the fundamental tension between
+optimization and privacy-induced noise, formally capturing behaviors observed
+in private training via iterative methods. Additionally, we show that our
+method is robust to adversarial perturbations of training prompts, unlike
+standard ridge regression. All theoretical findings are supported by extensive
+simulations across diverse settings.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.15995v1">OPUS-VFL: Incentivizing Optimal Privacy-Utility Tradeoffs in Vertical
+  Federated Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-04-22T16:00:11Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Sindhuja Madabushi, Ahmad Faraz Khan, Haider Ali, Jin-Hee Cho</p>
+    <p><b>Summary:</b> Vertical Federated Learning (VFL) enables organizations with disjoint feature
+spaces but shared user bases to collaboratively train models without sharing
+raw data. However, existing VFL systems face critical limitations: they often
+lack effective incentive mechanisms, struggle to balance privacy-utility
+tradeoffs, and fail to accommodate clients with heterogeneous resource
+capabilities. These challenges hinder meaningful participation, degrade model
+performance, and limit practical deployment. To address these issues, we
+propose OPUS-VFL, an Optimal Privacy-Utility tradeoff Strategy for VFL.
+OPUS-VFL introduces a novel, privacy-aware incentive mechanism that rewards
+clients based on a principled combination of model contribution, privacy
+preservation, and resource investment. It employs a lightweight leave-one-out
+(LOO) strategy to quantify feature importance per client, and integrates an
+adaptive differential privacy mechanism that enables clients to dynamically
+calibrate noise levels to optimize their individual utility. Our framework is
+designed to be scalable, budget-balanced, and robust to inference and poisoning
+attacks. Extensive experiments on benchmark datasets (MNIST, CIFAR-10, and
+CIFAR-100) demonstrate that OPUS-VFL significantly outperforms state-of-the-art
+VFL baselines in both efficiency and robustness. It reduces label inference
+attack success rates by up to 20%, increases feature inference reconstruction
+error (MSE) by over 30%, and achieves up to 25% higher incentives for clients
+that contribute meaningfully while respecting privacy and cost constraints.
+These results highlight the practicality and innovation of OPUS-VFL as a
+secure, fair, and performance-driven solution for real-world VFL.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.15580v1">On the Price of Differential Privacy for Hierarchical Clustering</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-04-22T04:39:40Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Chengyuan Deng, Jie Gao, Jalaj Upadhyay, Chen Wang, Samson Zhou</p>
+    <p><b>Summary:</b> Hierarchical clustering is a fundamental unsupervised machine learning task
+with the aim of organizing data into a hierarchy of clusters. Many applications
+of hierarchical clustering involve sensitive user information, therefore
+motivating recent studies on differentially private hierarchical clustering
+under the rigorous framework of Dasgupta's objective. However, it has been
+shown that any privacy-preserving algorithm under edge-level differential
+privacy necessarily suffers a large error. To capture practical applications of
+this problem, we focus on the weight privacy model, where each edge of the
+input graph is at least unit weight. We present a novel algorithm in the weight
+privacy model that shows significantly better approximation than known
+impossibility results in the edge-level DP setting. In particular, our
+algorithm achieves $O(\log^{1.5}n/\varepsilon)$ multiplicative error for
+$\varepsilon$-DP and runs in polynomial time, where $n$ is the size of the
+input graph, and the cost is never worse than the optimal additive error in
+existing work. We complement our algorithm by showing if the unit-weight
+constraint does not apply, the lower bound for weight-level DP hierarchical
+clustering is essentially the same as the edge-level DP, i.e.
+$\Omega(n^2/\varepsilon)$ additive error. As a result, we also obtain a new
+lower bound of $\tilde{\Omega}(1/\varepsilon)$ additive error for balanced
+sparsest cuts in the weight-level DP model, which may be of independent
+interest. Finally, we evaluate our algorithm on synthetic and real-world
+datasets. Our experimental results show that our algorithm performs well in
+terms of extra cost and has good scalability to large graphs.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.15525v1">Federated Latent Factor Learning for Recovering Wireless Sensor Networks
+  Signal with Privacy-Preserving</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-04-22T02:01:19Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Chengjun Yu, Yixin Ran, Yangyi Xia, Jia Wu, Xiaojing Liu</p>
+    <p><b>Summary:</b> Wireless Sensor Networks (WSNs) are a cutting-edge domain in the field of
+intelligent sensing. Due to sensor failures and energy-saving strategies, the
+collected data often have massive missing data, hindering subsequent analysis
+and decision-making. Although Latent Factor Learning (LFL) has been proven
+effective in recovering missing data, it fails to sufficiently consider data
+privacy protection. To address this issue, this paper innovatively proposes a
+federated latent factor learning (FLFL) based spatial signal recovery (SSR)
+model, named FLFL-SSR. Its main idea is two-fold: 1) it designs a sensor-level
+federated learning framework, where each sensor uploads only gradient updates
+instead of raw data to optimize the global model, and 2) it proposes a local
+spatial sharing strategy, allowing sensors within the same spatial region to
+share their latent feature vectors, capturing spatial correlations and
+enhancing recovery accuracy. Experimental results on two real-world WSNs
+datasets demonstrate that the proposed model outperforms existing federated
+methods in terms of recovery performance.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2504.15233v1">A Review on Privacy in DAG-Based DLTs</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2025-04-21T17:08:45Z</p>
@@ -2833,125 +2953,6 @@ simulated and real datasets, comparing our method with conventional maximum
 likelihood estimation for GLMs using iteratively reweighted least squares. Our
 results demonstrate the advantages of the proposed method in distributed and
 federated settings.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.15238v1">Your Signal, Their Data: An Empirical Privacy Analysis of
-  Wireless-scanning SDKs in Android</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-03-19T14:15:02Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Aniketh Girish, Joel Reardon, Juan Tapiador, Srdjan Matic, Narseo Vallina-Rodriguez</p>
-    <p><b>Summary:</b> Mobile apps frequently use Bluetooth Low Energy (BLE) and WiFi scanning
-permissions to discover nearby devices like peripherals and connect to WiFi
-Access Points (APs). However, wireless interfaces also serve as a covert proxy
-for geolocation data, enabling continuous user tracking and profiling. This
-includes technologies like BLE beacons, which are BLE devices broadcasting
-unique identifiers to determine devices' indoor physical locations; such
-beacons are easily found in shopping centres. Despite the widespread use of
-wireless scanning APIs and their potential for privacy abuse, the interplay
-between commercial mobile SDKs with wireless sensing and beaconing technologies
-remains largely unexplored. In this work, we conduct the first systematic
-analysis of 52 wireless-scanning SDKs, revealing their data collection
-practices and privacy risks. We develop a comprehensive analysis pipeline that
-enables us to detect beacon scanning capabilities, inject wireless events to
-trigger app behaviors, and monitor runtime execution on instrumented devices.
-Our findings show that 86% of apps integrating these SDKs collect at least one
-sensitive data type, including device and user identifiers such as AAID, email,
-along with GPS coordinates, WiFi and Bluetooth scan results. We uncover
-widespread SDK-to-SDK data sharing and evidence of ID bridging, where
-persistent and resettable identifiers are shared and synchronized within SDKs
-embedded in applications to potentially construct detailed mobility profiles,
-compromising user anonymity and enabling long-term tracking. We provide
-evidence of key actors engaging in these practices and conclude by proposing
-mitigation strategies such as stronger SDK sandboxing, stricter enforcement of
-platform policies, and improved transparency mechanisms to limit unauthorized
-tracking.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.15015v1">OFL: Opportunistic Federated Learning for Resource-Heterogeneous and
-  Privacy-Aware Devices</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-03-19T09:12:47Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yunlong Mao, Mingyang Niu, Ziqin Dang, Chengxi Li, Hanning Xia, Yuejuan Zhu, Haoyu Bian, Yuan Zhang, Jingyu Hua, Sheng Zhong</p>
-    <p><b>Summary:</b> Efficient and secure federated learning (FL) is a critical challenge for
-resource-limited devices, especially mobile devices. Existing secure FL
-solutions commonly incur significant overhead, leading to a contradiction
-between efficiency and security. As a result, these two concerns are typically
-addressed separately. This paper proposes Opportunistic Federated Learning
-(OFL), a novel FL framework designed explicitly for resource-heterogenous and
-privacy-aware FL devices, solving efficiency and security problems jointly. OFL
-optimizes resource utilization and adaptability across diverse devices by
-adopting a novel hierarchical and asynchronous aggregation strategy. OFL
-provides strong security by introducing a differentially private and
-opportunistic model updating mechanism for intra-cluster model aggregation and
-an advanced threshold homomorphic encryption scheme for inter-cluster
-aggregation. Moreover, OFL secures global model aggregation by implementing
-poisoning attack detection using frequency analysis while keeping models
-encrypted. We have implemented OFL in a real-world testbed and evaluated OFL
-comprehensively. The evaluation results demonstrate that OFL achieves
-satisfying model performance and improves efficiency and security,
-outperforming existing solutions.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.14877v1">Synthesizing Grid Data with Cyber Resilience and Privacy Guarantees</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
-  <p><b>Published on:</b> 2025-03-19T04:11:33Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shengyang Wu, Vladimir Dvorkin</p>
-    <p><b>Summary:</b> Differential privacy (DP) provides a principled approach to synthesizing data
-(e.g., loads) from real-world power systems while limiting the exposure of
-sensitive information. However, adversaries may exploit synthetic data to
-calibrate cyberattacks on the source grids. To control these risks, we propose
-new DP algorithms for synthesizing data that provide the source grids with both
-cyber resilience and privacy guarantees. The algorithms incorporate both normal
-operation and attack optimization models to balance the fidelity of synthesized
-data and cyber resilience. The resulting post-processing optimization is
-reformulated as a robust optimization problem, which is compatible with the
-exponential mechanism of DP to moderate its computational burden.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.15550v2">Zero-Knowledge Federated Learning: A New Trustworthy and
-  Privacy-Preserving Distributed Learning Paradigm</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-03-18T06:21:08Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yuxin Jin, Taotao Wang, Qing Yang, Long Shi, Shengli Zhang</p>
-    <p><b>Summary:</b> Federated Learning (FL) has emerged as a promising paradigm in distributed
-machine learning, enabling collaborative model training while preserving data
-privacy. However, despite its many advantages, FL still contends with
-significant challenges -- most notably regarding security and trust.
-Zero-Knowledge Proofs (ZKPs) offer a potential solution by establishing trust
-and enhancing system integrity throughout the FL process. Although several
-studies have explored ZKP-based FL (ZK-FL), a systematic framework and
-comprehensive analysis are still lacking. This article makes two key
-contributions. First, we propose a structured ZK-FL framework that categorizes
-and analyzes the technical roles of ZKPs across various FL stages and tasks.
-Second, we introduce a novel algorithm, Verifiable Client Selection FL
-(Veri-CS-FL), which employs ZKPs to refine the client selection process. In
-Veri-CS-FL, participating clients generate verifiable proofs for the
-performance metrics of their local models and submit these concise proofs to
-the server for efficient verification. The server then selects clients with
-high-quality local models for uploading, subsequently aggregating the
-contributions from these selected clients. By integrating ZKPs, Veri-CS-FL not
-only ensures the accuracy of performance metrics but also fortifies trust among
-participants while enhancing the overall efficiency and security of FL systems.</p>
   </details>
 </div>
 
