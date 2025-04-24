@@ -1676,5 +1676,139 @@
     "categories" : [
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.16683v1",
+    "title" : "MCMC for Bayesian estimation of Differential Privacy from Membership\n  Inference Attacks",
+    "summary" : "We propose a new framework for Bayesian estimation of differential privacy,\nincorporating evidence from multiple membership inference attacks (MIA).\nBayesian estimation is carried out via a Markov chain Monte Carlo (MCMC)\nalgorithm, named MCMC-DP-Est, which provides an estimate of the full posterior\ndistribution of the privacy parameter (e.g., instead of just credible\nintervals). Critically, the proposed method does not assume that privacy\nauditing is performed with the most powerful attack on the worst-case (dataset,\nchallenge point) pair, which is typically unrealistic. Instead, MCMC-DP-Est\njointly estimates the strengths of MIAs used and the privacy of the training\nalgorithm, yielding a more cautious privacy analysis. We also present an\neconomical way to generate measurements for the performance of an MIA that is\nto be used by the MCMC method to estimate privacy. We present the use of the\nmethods with numerical examples with both artificial and real data.",
+    "updated" : "2025-04-23T13:10:37Z",
+    "published" : "2025-04-23T13:10:37Z",
+    "authors" : [
+      {
+        "name" : "Ceren Yildirim"
+      },
+      {
+        "name" : "Kamer Kaya"
+      },
+      {
+        "name" : "Sinan Yildirim"
+      },
+      {
+        "name" : "Erkay Savas"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.16557v1",
+    "title" : "Beyond Anonymization: Object Scrubbing for Privacy-Preserving 2D and 3D\n  Vision Tasks",
+    "summary" : "We introduce ROAR (Robust Object Removal and Re-annotation), a scalable\nframework for privacy-preserving dataset obfuscation that eliminates sensitive\nobjects instead of modifying them. Our method integrates instance segmentation\nwith generative inpainting to remove identifiable entities while preserving\nscene integrity. Extensive evaluations on 2D COCO-based object detection show\nthat ROAR achieves 87.5% of the baseline detection average precision (AP),\nwhereas image dropping achieves only 74.2% of the baseline AP, highlighting the\nadvantage of scrubbing in preserving dataset utility. The degradation is even\nmore severe for small objects due to occlusion and loss of fine-grained\ndetails. Furthermore, in NeRF-based 3D reconstruction, our method incurs a PSNR\nloss of at most 1.66 dB while maintaining SSIM and improving LPIPS,\ndemonstrating superior perceptual quality. Our findings establish object\nremoval as an effective privacy framework, achieving strong privacy guarantees\nwith minimal performance trade-offs. The results highlight key challenges in\ngenerative inpainting, occlusion-robust segmentation, and task-specific\nscrubbing, setting the foundation for future advancements in privacy-preserving\nvision systems.",
+    "updated" : "2025-04-23T09:33:10Z",
+    "published" : "2025-04-23T09:33:10Z",
+    "authors" : [
+      {
+        "name" : "Murat Bilgehan Ertan"
+      },
+      {
+        "name" : "Ronak Sahu"
+      },
+      {
+        "name" : "Phuong Ha Nguyen"
+      },
+      {
+        "name" : "Kaleel Mahmood"
+      },
+      {
+        "name" : "Marten van Dijk"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.16535v1",
+    "title" : "Decentralized Quantile Regression for Feature-Distributed Massive\n  Datasets with Privacy Guarantees",
+    "summary" : "In this paper, we introduce a novel decentralized surrogate gradient-based\nalgorithm for quantile regression in a feature-distributed setting, where\nglobal features are dispersed across multiple machines within a decentralized\nnetwork. The proposed algorithm, \\texttt{DSG-cqr}, utilizes a convolution-type\nsmoothing approach to address the non-smooth nature of the quantile loss\nfunction. \\texttt{DSG-cqr} is fully decentralized, conjugate-free, easy to\nimplement, and achieves linear convergence up to statistical precision. To\nensure privacy, we adopt the Gaussian mechanism to provide\n$(\\epsilon,\\delta)$-differential privacy. To overcome the exact residual\ncalculation problem, we estimate residuals using auxiliary variables and\ndevelop a confidence interval construction method based on Wald statistics.\nTheoretical properties are established, and the practical utility of the\nmethods is also demonstrated through extensive simulations and a real-world\ndata application.",
+    "updated" : "2025-04-23T09:04:21Z",
+    "published" : "2025-04-23T09:04:21Z",
+    "authors" : [
+      {
+        "name" : "Peiwen Xiao"
+      },
+      {
+        "name" : "Xiaohui Liu"
+      },
+      {
+        "name" : "Guangming Pan"
+      },
+      {
+        "name" : "Wei Long"
+      }
+    ],
+    "categories" : [
+      "stat.CO"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.16371v1",
+    "title" : "The Safety-Privacy Tradeoff in Linear Bandits",
+    "summary" : "We consider a collection of linear stochastic bandit problems, each modeling\nthe random response of different agents to proposed interventions, coupled\ntogether by a global safety constraint. We assume a central coordinator must\nchoose actions to play on each bandit with the objective of regret\nminimization, while also ensuring that the expected response of all agents\nsatisfies the global safety constraints at each round, in spite of uncertainty\nabout the bandits' parameters. The agents consider their observed responses to\nbe private and in order to protect their sensitive information, the data\nsharing with the central coordinator is performed under local differential\nprivacy (LDP). However, providing higher level of privacy to different agents\nwould have consequences in terms of safety and regret. We formalize these\ntradeoffs by building on the notion of the sharpness of the safety set - a\nmeasure of how the geometric properties of the safe set affects the growth of\nregret - and propose a unilaterally unimprovable vector of privacy levels for\ndifferent agents given a maximum regret budget.",
+    "updated" : "2025-04-23T02:48:02Z",
+    "published" : "2025-04-23T02:48:02Z",
+    "authors" : [
+      {
+        "name" : "Arghavan Zibaie"
+      },
+      {
+        "name" : "Spencer Hutchinson"
+      },
+      {
+        "name" : "Ramtin Pedarsani"
+      },
+      {
+        "name" : "Mahnoosh Alizadeh"
+      }
+    ],
+    "categories" : [
+      "math.OC",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.12129v2",
+    "title" : "Anti-Aesthetics: Protecting Facial Privacy against Customized\n  Text-to-Image Synthesis",
+    "summary" : "The rise of customized diffusion models has spurred a boom in personalized\nvisual content creation, but also poses risks of malicious misuse, severely\nthreatening personal privacy and copyright protection. Some studies show that\nthe aesthetic properties of images are highly positively correlated with human\nperception of image quality. Inspired by this, we approach the problem from a\nnovel and intriguing aesthetic perspective to degrade the generation quality of\nmaliciously customized models, thereby achieving better protection of facial\nidentity. Specifically, we propose a Hierarchical Anti-Aesthetic (HAA)\nframework to fully explore aesthetic cues, which consists of two key branches:\n1) Global Anti-Aesthetics: By establishing a global anti-aesthetic reward\nmechanism and a global anti-aesthetic loss, it can degrade the overall\naesthetics of the generated content; 2) Local Anti-Aesthetics: A local\nanti-aesthetic reward mechanism and a local anti-aesthetic loss are designed to\nguide adversarial perturbations to disrupt local facial identity. By seamlessly\nintegrating both branches, our HAA effectively achieves the goal of\nanti-aesthetics from a global to a local level during customized generation.\nExtensive experiments show that HAA outperforms existing SOTA methods largely\nin identity removal, providing a powerful tool for protecting facial privacy\nand copyright.",
+    "updated" : "2025-04-23T13:23:07Z",
+    "published" : "2025-04-16T14:44:00Z",
+    "authors" : [
+      {
+        "name" : "Songping Wang"
+      },
+      {
+        "name" : "Yueming Lyu"
+      },
+      {
+        "name" : "Shiqi Liu"
+      },
+      {
+        "name" : "Ning Li"
+      },
+      {
+        "name" : "Tong Tong"
+      },
+      {
+        "name" : "Hao Sun"
+      },
+      {
+        "name" : "Caifeng Shan"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
   }
 ]
