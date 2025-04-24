@@ -2,6 +2,112 @@
 <h2>2025-04</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.16683v1">MCMC for Bayesian estimation of Differential Privacy from Membership
+  Inference Attacks</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
+  <p><b>Published on:</b> 2025-04-23T13:10:37Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ceren Yildirim, Kamer Kaya, Sinan Yildirim, Erkay Savas</p>
+    <p><b>Summary:</b> We propose a new framework for Bayesian estimation of differential privacy,
+incorporating evidence from multiple membership inference attacks (MIA).
+Bayesian estimation is carried out via a Markov chain Monte Carlo (MCMC)
+algorithm, named MCMC-DP-Est, which provides an estimate of the full posterior
+distribution of the privacy parameter (e.g., instead of just credible
+intervals). Critically, the proposed method does not assume that privacy
+auditing is performed with the most powerful attack on the worst-case (dataset,
+challenge point) pair, which is typically unrealistic. Instead, MCMC-DP-Est
+jointly estimates the strengths of MIAs used and the privacy of the training
+algorithm, yielding a more cautious privacy analysis. We also present an
+economical way to generate measurements for the performance of an MIA that is
+to be used by the MCMC method to estimate privacy. We present the use of the
+methods with numerical examples with both artificial and real data.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.16557v1">Beyond Anonymization: Object Scrubbing for Privacy-Preserving 2D and 3D
+  Vision Tasks</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2025-04-23T09:33:10Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Murat Bilgehan Ertan, Ronak Sahu, Phuong Ha Nguyen, Kaleel Mahmood, Marten van Dijk</p>
+    <p><b>Summary:</b> We introduce ROAR (Robust Object Removal and Re-annotation), a scalable
+framework for privacy-preserving dataset obfuscation that eliminates sensitive
+objects instead of modifying them. Our method integrates instance segmentation
+with generative inpainting to remove identifiable entities while preserving
+scene integrity. Extensive evaluations on 2D COCO-based object detection show
+that ROAR achieves 87.5% of the baseline detection average precision (AP),
+whereas image dropping achieves only 74.2% of the baseline AP, highlighting the
+advantage of scrubbing in preserving dataset utility. The degradation is even
+more severe for small objects due to occlusion and loss of fine-grained
+details. Furthermore, in NeRF-based 3D reconstruction, our method incurs a PSNR
+loss of at most 1.66 dB while maintaining SSIM and improving LPIPS,
+demonstrating superior perceptual quality. Our findings establish object
+removal as an effective privacy framework, achieving strong privacy guarantees
+with minimal performance trade-offs. The results highlight key challenges in
+generative inpainting, occlusion-robust segmentation, and task-specific
+scrubbing, setting the foundation for future advancements in privacy-preserving
+vision systems.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.16535v1">Decentralized Quantile Regression for Feature-Distributed Massive
+  Datasets with Privacy Guarantees</a></h3>
+  
+  <p><b>Published on:</b> 2025-04-23T09:04:21Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Peiwen Xiao, Xiaohui Liu, Guangming Pan, Wei Long</p>
+    <p><b>Summary:</b> In this paper, we introduce a novel decentralized surrogate gradient-based
+algorithm for quantile regression in a feature-distributed setting, where
+global features are dispersed across multiple machines within a decentralized
+network. The proposed algorithm, \texttt{DSG-cqr}, utilizes a convolution-type
+smoothing approach to address the non-smooth nature of the quantile loss
+function. \texttt{DSG-cqr} is fully decentralized, conjugate-free, easy to
+implement, and achieves linear convergence up to statistical precision. To
+ensure privacy, we adopt the Gaussian mechanism to provide
+$(\epsilon,\delta)$-differential privacy. To overcome the exact residual
+calculation problem, we estimate residuals using auxiliary variables and
+develop a confidence interval construction method based on Wald statistics.
+Theoretical properties are established, and the practical utility of the
+methods is also demonstrated through extensive simulations and a real-world
+data application.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.16371v1">The Safety-Privacy Tradeoff in Linear Bandits</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Optimization and Control-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-04-23T02:48:02Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Arghavan Zibaie, Spencer Hutchinson, Ramtin Pedarsani, Mahnoosh Alizadeh</p>
+    <p><b>Summary:</b> We consider a collection of linear stochastic bandit problems, each modeling
+the random response of different agents to proposed interventions, coupled
+together by a global safety constraint. We assume a central coordinator must
+choose actions to play on each bandit with the objective of regret
+minimization, while also ensuring that the expected response of all agents
+satisfies the global safety constraints at each round, in spite of uncertainty
+about the bandits' parameters. The agents consider their observed responses to
+be private and in order to protect their sensitive information, the data
+sharing with the central coordinator is performed under local differential
+privacy (LDP). However, providing higher level of privacy to different agents
+would have consequences in terms of safety and regret. We formalize these
+tradeoffs by building on the notion of the sharpness of the safety set - a
+measure of how the geometric properties of the safe set affects the growth of
+regret - and propose a unilaterally unimprovable vector of privacy levels for
+different agents given a maximum regret budget.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2504.16000v1">How Private is Your Attention? Bridging Privacy with In-Context Learning</a></h3>
    <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2025-04-22T16:05:26Z</p>
@@ -633,7 +739,7 @@ provide discussion of the implications for other forms of network DP.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.12129v1">Anti-Aesthetics: Protecting Facial Privacy against Customized
+  <h3><a href="http://arxiv.org/abs/2504.12129v2">Anti-Aesthetics: Protecting Facial Privacy against Customized
   Text-to-Image Synthesis</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
   <p><b>Published on:</b> 2025-04-16T14:44:00Z</p>
@@ -2832,127 +2938,6 @@ construction of TVineSynth ensures AIA privacy under a natural privacy measure
 for continuous sensitive attributes. When compared to competitor models, with
 and without DP, on simulated and on real-world data, TVineSynth achieves a
 superior privacy-utility balance.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.15966v1">Privacy-Preserving Utilization of Distribution System Flexibility for
-  Enhanced TSO-DSO Interoperability: A Novel Machine Learning-Based Optimal
-  Power Flow Approach</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
-  <p><b>Published on:</b> 2025-03-20T09:08:54Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Burak Dindar, Can Berk Saner, Hüseyin K. Çakmak, Veit Hagenmeyer</p>
-    <p><b>Summary:</b> Due to the transformation of the power system, the effective use of
-flexibility from the distribution system (DS) is becoming crucial for efficient
-network management. Leveraging this flexibility requires interoperability among
-stakeholders, including Transmission System Operators (TSOs) and Distribution
-System Operators (DSOs). However, data privacy concerns among stakeholders
-present significant challenges for utilizing this flexibility effectively. To
-address these challenges, we propose a machine learning (ML)-based method in
-which the technical constraints of the DSs are represented by ML models trained
-exclusively on non-sensitive data. Using these models, the TSO can solve the
-optimal power flow (OPF) problem and directly determine the dispatch of
-flexibility-providing units (FPUs), in our case, distributed generators (DGs),
-in a single round of communication. To achieve this, we introduce a novel
-neural network (NN) architecture specifically designed to efficiently represent
-the feasible region of the DSs, ensuring computational effectiveness.
-Furthermore, we incorporate various PQ charts rather than idealized ones,
-demonstrating that the proposed method is adaptable to a wide range of FPU
-characteristics. To assess the effectiveness of the proposed method, we
-benchmark it against the standard AC-OPF on multiple DSs with meshed
-connections and multiple points of common coupling (PCCs) with varying voltage
-magnitudes. The numerical results indicate that the proposed method achieves
-performant results while prioritizing data privacy. Additionally, since this
-method directly determines the dispatch of FPUs, it eliminates the need for an
-additional disaggregation step. By representing the DSs technical constraints
-through ML models trained exclusively on non-sensitive data, the transfer of
-sensitive information between stakeholders is prevented.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.15870v1">FedSAF: A Federated Learning Framework for Enhanced Gastric Cancer
-  Detection and Privacy Preservation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-03-20T05:48:48Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yuxin Miao, Xinyuan Yang, Hongda Fan, Yichun Li, Yishu Hong, Xiechen Guo, Ali Braytee, Weidong Huang, Ali Anaissi</p>
-    <p><b>Summary:</b> Gastric cancer is one of the most commonly diagnosed cancers and has a high
-mortality rate. Due to limited medical resources, developing machine learning
-models for gastric cancer recognition provides an efficient solution for
-medical institutions. However, such models typically require large sample sizes
-for training and testing, which can challenge patient privacy. Federated
-learning offers an effective alternative by enabling model training across
-multiple institutions without sharing sensitive patient data. This paper
-addresses the limited sample size of publicly available gastric cancer data
-with a modified data processing method. This paper introduces FedSAF, a novel
-federated learning algorithm designed to improve the performance of existing
-methods, particularly in non-independent and identically distributed (non-IID)
-data scenarios. FedSAF incorporates attention-based message passing and the
-Fisher Information Matrix to enhance model accuracy, while a model splitting
-function reduces computation and transmission costs. Hyperparameter tuning and
-ablation studies demonstrate the effectiveness of this new algorithm, showing
-improvements in test accuracy on gastric cancer datasets, with FedSAF
-outperforming existing federated learning methods like FedAMP, FedAvg, and
-FedProx. The framework's robustness and generalization ability were further
-validated across additional datasets (SEED, BOT, FashionMNIST, and CIFAR-10),
-achieving high performance in diverse environments.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.15818v2">Computation-Efficient and Recognition-Friendly 3D Point Cloud Privacy
-  Protection</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-03-20T03:09:44Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Haotian Ma, Lin Gu, Siyi Wu, Yingying Zhu</p>
-    <p><b>Summary:</b> 3D point cloud has been widely used in applications such as self-driving
-cars, robotics, CAD models, etc. To the best of our knowledge, these
-applications raised the issue of privacy leakage in 3D point clouds, which has
-not been studied well. Different from the 2D image privacy, which is related to
-texture and 2D geometric structure, the 3D point cloud is texture-less and only
-relevant to 3D geometric structure. In this work, we defined the 3D point cloud
-privacy problem and proposed an efficient privacy-preserving framework named
-PointFlowGMM that can support downstream classification and segmentation tasks
-without seeing the original data. Using a flow-based generative model, the
-point cloud is projected into a latent Gaussian mixture distributed subspace.
-We further designed a novel angular similarity loss to obfuscate the original
-geometric structure and reduce the model size from 767MB to 120MB without a
-decrease in recognition performance. The projected point cloud in the latent
-space is orthogonally rotated randomly to further protect the original
-geometric structure, the class-to-class relationship is preserved after
-rotation, thus, the protected point cloud can support the recognition task. We
-evaluated our model on multiple datasets and achieved comparable recognition
-results on encrypted point clouds compared to the original point clouds.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.15287v1">Distributed Generalized Linear Models: A Privacy-Preserving Approach</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">  
-  <p><b>Published on:</b> 2025-03-19T15:07:41Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Daniel Tinoco, Raquel Menezes, Carlos Baquero</p>
-    <p><b>Summary:</b> This paper presents a novel approach to classical linear regression, enabling
-model computation from data streams or in a distributed setting while
-preserving data privacy in federated environments. We extend this framework to
-generalized linear models (GLMs), ensuring scalability and adaptability to
-diverse data distributions while maintaining privacy-preserving properties. To
-assess the effectiveness of our approach, we conduct numerical studies on both
-simulated and real datasets, comparing our method with conventional maximum
-likelihood estimation for GLMs using iteratively reweighted least squares. Our
-results demonstrate the advantages of the proposed method in distributed and
-federated settings.</p>
   </details>
 </div>
 
