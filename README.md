@@ -2,6 +2,121 @@
 <h2>2025-04</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.17703v1">Federated Learning: A Survey on Privacy-Preserving Collaborative
+  Intelligence</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-04-24T16:10:29Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Edward Collins, Michel Wang</p>
+    <p><b>Summary:</b> Federated Learning (FL) has emerged as a transformative paradigm in the field
+of distributed machine learning, enabling multiple clients such as mobile
+devices, edge nodes, or organizations to collaboratively train a shared global
+model without the need to centralize sensitive data. This decentralized
+approach addresses growing concerns around data privacy, security, and
+regulatory compliance, making it particularly attractive in domains such as
+healthcare, finance, and smart IoT systems. This survey provides a concise yet
+comprehensive overview of Federated Learning, beginning with its core
+architecture and communication protocol. We discuss the standard FL lifecycle,
+including local training, model aggregation, and global updates. A particular
+emphasis is placed on key technical challenges such as handling non-IID
+(non-independent and identically distributed) data, mitigating system and
+hardware heterogeneity, reducing communication overhead, and ensuring privacy
+through mechanisms like differential privacy and secure aggregation.
+Furthermore, we examine emerging trends in FL research, including personalized
+FL, cross-device versus cross-silo settings, and integration with other
+paradigms such as reinforcement learning and quantum computing. We also
+highlight real-world applications and summarize benchmark datasets and
+evaluation metrics commonly used in FL research. Finally, we outline open
+research problems and future directions to guide the development of scalable,
+efficient, and trustworthy FL systems.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.17523v1">From Randomized Response to Randomized Index: Answering Subset Counting
+  Queries with Local Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-04-24T13:08:11Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Qingqing Ye, Liantong Yu, Kai Huang, Xiaokui Xiao, Weiran Liu, Haibo Hu</p>
+    <p><b>Summary:</b> Local Differential Privacy (LDP) is the predominant privacy model for
+safeguarding individual data privacy. Existing perturbation mechanisms
+typically require perturbing the original values to ensure acceptable privacy,
+which inevitably results in value distortion and utility deterioration. In this
+work, we propose an alternative approach -- instead of perturbing values, we
+apply randomization to indexes of values while ensuring rigorous LDP
+guarantees. Inspired by the deniability of randomized indexes, we present CRIAD
+for answering subset counting queries on set-value data. By integrating a
+multi-dummy, multi-sample, and multi-group strategy, CRIAD serves as a fully
+scalable solution that offers flexibility across various privacy requirements
+and domain sizes, and achieves more accurate query results than any existing
+methods. Through comprehensive theoretical analysis and extensive experimental
+evaluations, we validate the effectiveness of CRIAD and demonstrate its
+superiority over traditional value-perturbation mechanisms.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.17360v1">PatientDx: Merging Large Language Models for Protecting Data-Privacy in
+  Healthcare</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2025-04-24T08:21:04Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jose G. Moreno, Jesus Lovon, M'Rick Robin-Charlet, Christine Damase-Michel, Lynda Tamine</p>
+    <p><b>Summary:</b> Fine-tuning of Large Language Models (LLMs) has become the default practice
+for improving model performance on a given task. However, performance
+improvement comes at the cost of training on vast amounts of annotated data
+which could be sensitive leading to significant data privacy concerns. In
+particular, the healthcare domain is one of the most sensitive domains exposed
+to data privacy issues. In this paper, we present PatientDx, a framework of
+model merging that allows the design of effective LLMs for health-predictive
+tasks without requiring fine-tuning nor adaptation on patient data. Our
+proposal is based on recently proposed techniques known as merging of LLMs and
+aims to optimize a building block merging strategy. PatientDx uses a pivotal
+model adapted to numerical reasoning and tunes hyperparameters on examples
+based on a performance metric but without training of the LLM on these data.
+Experiments using the mortality tasks of the MIMIC-IV dataset show improvements
+up to 7% in terms of AUROC when compared to initial models. Additionally, we
+confirm that when compared to fine-tuned models, our proposal is less prone to
+data leak problems without hurting performance. Finally, we qualitatively show
+the capabilities of our proposal through a case study. Our best model is
+publicly available at https://huggingface.co/ Jgmorenof/mistral\_merged\_0\_4.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.17274v1">Signal Recovery from Random Dot-Product Graphs Under Local Differential
+  Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36">   
+  <p><b>Published on:</b> 2025-04-24T06:02:02Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Siddharth Vishwanath, Jonathan Hehir</p>
+    <p><b>Summary:</b> We consider the problem of recovering latent information from graphs under
+$\varepsilon$-edge local differential privacy where the presence of
+relationships/edges between two users/vertices remains confidential, even from
+the data curator. For the class of generalized random dot-product graphs, we
+show that a standard local differential privacy mechanism induces a specific
+geometric distortion in the latent positions. Leveraging this insight, we show
+that consistent recovery of the latent positions is achievable by appropriately
+adjusting the statistical inference procedure for the privatized graph.
+Furthermore, we prove that our procedure is nearly minimax-optimal under local
+edge differential privacy constraints. Lastly, we show that this framework
+allows for consistent recovery of geometric and topological information
+underlying the latent positions, as encoded in their persistence diagrams. Our
+results extend previous work from the private community detection literature to
+a substantially richer class of models and inferential tasks.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2504.16683v1">MCMC for Bayesian estimation of Differential Privacy from Membership
   Inference Attacks</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
@@ -651,6 +766,39 @@ demonstrating up to 17% stronger knowledge retention success compared to the
 previous state-of-art method. Our findings establish a new paradigm for
 effectively managing and regulating sensitive information in large-scale
 pre-trained language models.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.16944v1">Burning some myths on privacy properties of social networks against
+  active attacks</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Social and Information Networks-662E9B"> 
+  <p><b>Published on:</b> 2025-04-17T06:03:56Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Serafino Cicerone, Gabriele Di Stefano, Sandi Klavžar, Ismael G. Yero</p>
+    <p><b>Summary:</b> This work focuses on showing some arguments addressed to dismantle the
+extended idea about that social networks completely lacks of privacy
+properties. We consider the so-called active attacks to the privacy of social
+networks and the counterpart $(k,\ell)$-anonymity measure, which is used to
+quantify the privacy satisfied by a social network against active attacks. To
+this end, we make use of the graph theoretical concept of $k$-metric
+antidimensional graphs for which the case $k=1$ represents those graphs
+achieving the worst scenario in privacy whilst considering the
+$(k,\ell)$-anonymity measure.
+  As a product of our investigation, we present a large number of computational
+results stating that social networks might not be as insecure as one often
+thinks. In particular, we develop a large number of experiments on random
+graphs which show that the number of $1$-metric antidimensional graphs is
+indeed ridiculously small with respect to the total number of graphs that can
+be considered. Moreover, we search on several real networks in order to check
+if they are $1$-metric antidimensional, and obtain that none of them are such.
+Along the way, we show some theoretical studies on the mathematical properties
+of the $k$-metric antidimensional graphs for any suitable $k\ge 1$. In
+addition, we also describe some operations on graphs that are $1$-metric
+antidimensional so that they get embedded into another larger graphs that are
+not such, in order to obscure their privacy properties against active attacks.</p>
   </details>
 </div>
 
@@ -2790,154 +2938,6 @@ will have to be made either by humans or by machines that understand. It
 concludes that the current data mining violates the right to privacy and should
 be subject to the standard legal constraints for access to private information
 by people.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.17011v1">Privacy Enhanced QKD Networks: Zero Trust Relay Architecture based on
-  Homomorphic Encryption</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-03-21T10:20:06Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Aitor Brazaola-Vicario, Oscar Lage, Julen Bernabé-Rodríguez, Eduardo Jacob, Jasone Astorga</p>
-    <p><b>Summary:</b> Quantum key distribution (QKD) enables unconditionally secure symmetric key
-exchange between parties. However, terrestrial fibre-optic links face inherent
-distance constraints due to quantum signal degradation. Traditional solutions
-to overcome these limits rely on trusted relay nodes, which perform
-intermediate re-encryption of keys using one-time pad (OTP) encryption. This
-approach, however, exposes keys as plaintext at each relay, requiring
-significant trust and stringent security controls at every intermediate node.
-These "trusted" relays become a security liability if compromised.
-  To address this issue, we propose a zero-trust relay design that applies
-fully homomorphic encryption (FHE) to perform intermediate OTP re-encryption
-without exposing plaintext keys, effectively mitigating the risks associated
-with potentially compromised or malicious relay nodes. Additionally, the
-architecture enhances crypto-agility by incorporating external quantum random
-number generators, thus decoupling key generation from specific QKD hardware
-and reducing vulnerabilities tied to embedded key-generation modules.
-  The solution is designed with the existing European Telecommunication
-Standards Institute (ETSI) QKD standards in mind, enabling straightforward
-integration into current infrastructures. Its feasibility has been successfully
-demonstrated through a hybrid network setup combining simulated and
-commercially available QKD equipment. The proposed zero-trust architecture thus
-significantly advances the scalability and practical security of large-scale
-QKD networks, greatly reducing reliance on fully trusted infrastructure.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.16640v1">Visualizing Privacy-Relevant Data Flows in Android Applications</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
-  <p><b>Published on:</b> 2025-03-20T18:47:02Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mugdha Khedkar, Michael Schlichtig, Santhosh Mohan, Eric Bodden</p>
-    <p><b>Summary:</b> Android applications collecting data from users must protect it according to
-the current legal frameworks. Such data protection has become even more
-important since in 2018 the European Union rolled out the General Data
-Protection Regulation (GDPR). Since app developers are not legal experts, they
-find it difficult to integrate privacy-aware practices into source code
-development. Despite these legal obligations, developers have limited tool
-support to reason about data protection throughout their app development
-process.
-  This paper explores the use of static program slicing and software
-visualization to analyze privacy-relevant data flows in Android apps. We
-introduce SliceViz, a web tool that analyzes an Android app by slicing all
-privacy-relevant data sources detected in the source code on the back-end. It
-then helps developers by visualizing these privacy-relevant program slices.
-  We conducted a user study with 12 participants demonstrating that SliceViz
-effectively aids developers in identifying privacy-relevant properties in
-Android apps.
-  Our findings indicate that program slicing can be employed to identify and
-reason about privacy-relevant data flows in Android applications. With further
-usability improvements, developers can be better equipped to handle
-privacy-sensitive information.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.16251v1">RESFL: An Uncertainty-Aware Framework for Responsible Federated Learning
-  by Balancing Privacy, Fairness and Utility in Autonomous Vehicles</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E">
-  <p><b>Published on:</b> 2025-03-20T15:46:03Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Dawood Wasif, Terrence J. Moore, Jin-Hee Cho</p>
-    <p><b>Summary:</b> Autonomous vehicles (AVs) increasingly rely on Federated Learning (FL) to
-enhance perception models while preserving privacy. However, existing FL
-frameworks struggle to balance privacy, fairness, and robustness, leading to
-performance disparities across demographic groups. Privacy-preserving
-techniques like differential privacy mitigate data leakage risks but worsen
-fairness by restricting access to sensitive attributes needed for bias
-correction. This work explores the trade-off between privacy and fairness in
-FL-based object detection for AVs and introduces RESFL, an integrated solution
-optimizing both. RESFL incorporates adversarial privacy disentanglement and
-uncertainty-guided fairness-aware aggregation. The adversarial component uses a
-gradient reversal layer to remove sensitive attributes, reducing privacy risks
-while maintaining fairness. The uncertainty-aware aggregation employs an
-evidential neural network to weight client updates adaptively, prioritizing
-contributions with lower fairness disparities and higher confidence. This
-ensures robust and equitable FL model updates. We evaluate RESFL on the FACET
-dataset and CARLA simulator, assessing accuracy, fairness, privacy resilience,
-and robustness under varying conditions. RESFL improves detection accuracy,
-reduces fairness disparities, and lowers privacy attack success rates while
-demonstrating superior robustness to adversarial conditions compared to other
-approaches.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.16233v1">Empirical Analysis of Privacy-Fairness-Accuracy Trade-offs in Federated
-  Learning: A Step Towards Responsible AI</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E">
-  <p><b>Published on:</b> 2025-03-20T15:31:01Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Dawood Wasif, Dian Chen, Sindhuja Madabushi, Nithin Alluru, Terrence J. Moore, Jin-Hee Cho</p>
-    <p><b>Summary:</b> Federated Learning (FL) enables collaborative machine learning while
-preserving data privacy but struggles to balance privacy preservation (PP) and
-fairness. Techniques like Differential Privacy (DP), Homomorphic Encryption
-(HE), and Secure Multi-Party Computation (SMC) protect sensitive data but
-introduce trade-offs. DP enhances privacy but can disproportionately impact
-underrepresented groups, while HE and SMC mitigate fairness concerns at the
-cost of computational overhead. This work explores the privacy-fairness
-trade-offs in FL under IID (Independent and Identically Distributed) and
-non-IID data distributions, benchmarking q-FedAvg, q-MAML, and Ditto on diverse
-datasets. Our findings highlight context-dependent trade-offs and offer
-guidelines for designing FL systems that uphold responsible AI principles,
-ensuring fairness, privacy, and equitable real-world applications.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.15972v1">TVineSynth: A Truncated C-Vine Copula Generator of Synthetic Tabular
-  Data to Balance Privacy and Utility</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
-  <p><b>Published on:</b> 2025-03-20T09:16:02Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Elisabeth Griesbauer, Claudia Czado, Arnoldo Frigessi, Ingrid Hobæk Haff</p>
-    <p><b>Summary:</b> We propose TVineSynth, a vine copula based synthetic tabular data generator,
-which is designed to balance privacy and utility, using the vine tree structure
-and its truncation to do the trade-off. Contrary to synthetic data generators
-that achieve DP by globally adding noise, TVineSynth performs a controlled
-approximation of the estimated data generating distribution, so that it does
-not suffer from poor utility of the resulting synthetic data for downstream
-prediction tasks. TVineSynth introduces a targeted bias into the vine copula
-model that, combined with the specific tree structure of the vine, causes the
-model to zero out privacy-leaking dependencies while relying on those that are
-beneficial for utility. Privacy is here measured with membership (MIA) and
-attribute inference attacks (AIA). Further, we theoretically justify how the
-construction of TVineSynth ensures AIA privacy under a natural privacy measure
-for continuous sensitive attributes. When compared to competitor models, with
-and without DP, on simulated and on real-world data, TVineSynth achieves a
-superior privacy-utility balance.</p>
   </details>
 </div>
 
