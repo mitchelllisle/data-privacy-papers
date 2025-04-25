@@ -1810,5 +1810,129 @@
     "categories" : [
       "cs.CV"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.17703v1",
+    "title" : "Federated Learning: A Survey on Privacy-Preserving Collaborative\n  Intelligence",
+    "summary" : "Federated Learning (FL) has emerged as a transformative paradigm in the field\nof distributed machine learning, enabling multiple clients such as mobile\ndevices, edge nodes, or organizations to collaboratively train a shared global\nmodel without the need to centralize sensitive data. This decentralized\napproach addresses growing concerns around data privacy, security, and\nregulatory compliance, making it particularly attractive in domains such as\nhealthcare, finance, and smart IoT systems. This survey provides a concise yet\ncomprehensive overview of Federated Learning, beginning with its core\narchitecture and communication protocol. We discuss the standard FL lifecycle,\nincluding local training, model aggregation, and global updates. A particular\nemphasis is placed on key technical challenges such as handling non-IID\n(non-independent and identically distributed) data, mitigating system and\nhardware heterogeneity, reducing communication overhead, and ensuring privacy\nthrough mechanisms like differential privacy and secure aggregation.\nFurthermore, we examine emerging trends in FL research, including personalized\nFL, cross-device versus cross-silo settings, and integration with other\nparadigms such as reinforcement learning and quantum computing. We also\nhighlight real-world applications and summarize benchmark datasets and\nevaluation metrics commonly used in FL research. Finally, we outline open\nresearch problems and future directions to guide the development of scalable,\nefficient, and trustworthy FL systems.",
+    "updated" : "2025-04-24T16:10:29Z",
+    "published" : "2025-04-24T16:10:29Z",
+    "authors" : [
+      {
+        "name" : "Edward Collins"
+      },
+      {
+        "name" : "Michel Wang"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.17523v1",
+    "title" : "From Randomized Response to Randomized Index: Answering Subset Counting\n  Queries with Local Differential Privacy",
+    "summary" : "Local Differential Privacy (LDP) is the predominant privacy model for\nsafeguarding individual data privacy. Existing perturbation mechanisms\ntypically require perturbing the original values to ensure acceptable privacy,\nwhich inevitably results in value distortion and utility deterioration. In this\nwork, we propose an alternative approach -- instead of perturbing values, we\napply randomization to indexes of values while ensuring rigorous LDP\nguarantees. Inspired by the deniability of randomized indexes, we present CRIAD\nfor answering subset counting queries on set-value data. By integrating a\nmulti-dummy, multi-sample, and multi-group strategy, CRIAD serves as a fully\nscalable solution that offers flexibility across various privacy requirements\nand domain sizes, and achieves more accurate query results than any existing\nmethods. Through comprehensive theoretical analysis and extensive experimental\nevaluations, we validate the effectiveness of CRIAD and demonstrate its\nsuperiority over traditional value-perturbation mechanisms.",
+    "updated" : "2025-04-24T13:08:11Z",
+    "published" : "2025-04-24T13:08:11Z",
+    "authors" : [
+      {
+        "name" : "Qingqing Ye"
+      },
+      {
+        "name" : "Liantong Yu"
+      },
+      {
+        "name" : "Kai Huang"
+      },
+      {
+        "name" : "Xiaokui Xiao"
+      },
+      {
+        "name" : "Weiran Liu"
+      },
+      {
+        "name" : "Haibo Hu"
+      }
+    ],
+    "categories" : [
+      "cs.DB",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.17360v1",
+    "title" : "PatientDx: Merging Large Language Models for Protecting Data-Privacy in\n  Healthcare",
+    "summary" : "Fine-tuning of Large Language Models (LLMs) has become the default practice\nfor improving model performance on a given task. However, performance\nimprovement comes at the cost of training on vast amounts of annotated data\nwhich could be sensitive leading to significant data privacy concerns. In\nparticular, the healthcare domain is one of the most sensitive domains exposed\nto data privacy issues. In this paper, we present PatientDx, a framework of\nmodel merging that allows the design of effective LLMs for health-predictive\ntasks without requiring fine-tuning nor adaptation on patient data. Our\nproposal is based on recently proposed techniques known as merging of LLMs and\naims to optimize a building block merging strategy. PatientDx uses a pivotal\nmodel adapted to numerical reasoning and tunes hyperparameters on examples\nbased on a performance metric but without training of the LLM on these data.\nExperiments using the mortality tasks of the MIMIC-IV dataset show improvements\nup to 7% in terms of AUROC when compared to initial models. Additionally, we\nconfirm that when compared to fine-tuned models, our proposal is less prone to\ndata leak problems without hurting performance. Finally, we qualitatively show\nthe capabilities of our proposal through a case study. Our best model is\npublicly available at https://huggingface.co/ Jgmorenof/mistral\\_merged\\_0\\_4.",
+    "updated" : "2025-04-24T08:21:04Z",
+    "published" : "2025-04-24T08:21:04Z",
+    "authors" : [
+      {
+        "name" : "Jose G. Moreno"
+      },
+      {
+        "name" : "Jesus Lovon"
+      },
+      {
+        "name" : "M'Rick Robin-Charlet"
+      },
+      {
+        "name" : "Christine Damase-Michel"
+      },
+      {
+        "name" : "Lynda Tamine"
+      }
+    ],
+    "categories" : [
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.17274v1",
+    "title" : "Signal Recovery from Random Dot-Product Graphs Under Local Differential\n  Privacy",
+    "summary" : "We consider the problem of recovering latent information from graphs under\n$\\varepsilon$-edge local differential privacy where the presence of\nrelationships/edges between two users/vertices remains confidential, even from\nthe data curator. For the class of generalized random dot-product graphs, we\nshow that a standard local differential privacy mechanism induces a specific\ngeometric distortion in the latent positions. Leveraging this insight, we show\nthat consistent recovery of the latent positions is achievable by appropriately\nadjusting the statistical inference procedure for the privatized graph.\nFurthermore, we prove that our procedure is nearly minimax-optimal under local\nedge differential privacy constraints. Lastly, we show that this framework\nallows for consistent recovery of geometric and topological information\nunderlying the latent positions, as encoded in their persistence diagrams. Our\nresults extend previous work from the private community detection literature to\na substantially richer class of models and inferential tasks.",
+    "updated" : "2025-04-24T06:02:02Z",
+    "published" : "2025-04-24T06:02:02Z",
+    "authors" : [
+      {
+        "name" : "Siddharth Vishwanath"
+      },
+      {
+        "name" : "Jonathan Hehir"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "math.ST",
+      "stat.ML",
+      "stat.TH",
+      "68P27, 62H22, 62C20, 62R07"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.16944v1",
+    "title" : "Burning some myths on privacy properties of social networks against\n  active attacks",
+    "summary" : "This work focuses on showing some arguments addressed to dismantle the\nextended idea about that social networks completely lacks of privacy\nproperties. We consider the so-called active attacks to the privacy of social\nnetworks and the counterpart $(k,\\ell)$-anonymity measure, which is used to\nquantify the privacy satisfied by a social network against active attacks. To\nthis end, we make use of the graph theoretical concept of $k$-metric\nantidimensional graphs for which the case $k=1$ represents those graphs\nachieving the worst scenario in privacy whilst considering the\n$(k,\\ell)$-anonymity measure.\n  As a product of our investigation, we present a large number of computational\nresults stating that social networks might not be as insecure as one often\nthinks. In particular, we develop a large number of experiments on random\ngraphs which show that the number of $1$-metric antidimensional graphs is\nindeed ridiculously small with respect to the total number of graphs that can\nbe considered. Moreover, we search on several real networks in order to check\nif they are $1$-metric antidimensional, and obtain that none of them are such.\nAlong the way, we show some theoretical studies on the mathematical properties\nof the $k$-metric antidimensional graphs for any suitable $k\\ge 1$. In\naddition, we also describe some operations on graphs that are $1$-metric\nantidimensional so that they get embedded into another larger graphs that are\nnot such, in order to obscure their privacy properties against active attacks.",
+    "updated" : "2025-04-17T06:03:56Z",
+    "published" : "2025-04-17T06:03:56Z",
+    "authors" : [
+      {
+        "name" : "Serafino Cicerone"
+      },
+      {
+        "name" : "Gabriele Di Stefano"
+      },
+      {
+        "name" : "Sandi Klavžar"
+      },
+      {
+        "name" : "Ismael G. Yero"
+      }
+    ],
+    "categories" : [
+      "cs.SI",
+      "math.CO"
+    ]
   }
 ]
