@@ -2,6 +2,123 @@
 <h2>2025-04</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.18411v1">Heavy-Tailed Privacy: The Symmetric alpha-Stable Privacy Mechanism</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B">
+  <p><b>Published on:</b> 2025-04-25T15:14:02Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Christopher C. Zawacki, Eyad H. Abed</p>
+    <p><b>Summary:</b> With the rapid growth of digital platforms, there is increasing apprehension
+about how personal data is collected, stored, and used by various entities.
+These concerns arise from the increasing frequency of data breaches,
+cyber-attacks, and misuse of personal information for targeted advertising and
+surveillance. To address these matters, Differential Privacy (DP) has emerged
+as a prominent tool for quantifying a digital system's level of protection. The
+Gaussian mechanism is commonly used because the Gaussian density is closed
+under convolution, and is a common method utilized when aggregating datasets.
+However, the Gaussian mechanism only satisfies an approximate form of
+Differential Privacy. In this work, we present and analyze of the Symmetric
+alpha-Stable (SaS) mechanism. We prove that the mechanism achieves pure
+differential privacy while remaining closed under convolution. Additionally, we
+study the nuanced relationship between the level of privacy achieved and the
+parameters of the density. Lastly, we compare the expected error introduced to
+dataset queries by the Gaussian and SaS mechanisms. From our analysis, we
+believe the SaS Mechanism is an appealing choice for privacy-focused
+applications.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.18078v1">Privacy-Preserving Personalized Federated Learning for Distributed
+  Photovoltaic Disaggregation under Statistical Heterogeneity</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-04-25T05:09:27Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xiaolu Chen, Chenghao Huang, Yanru Zhang, Hao Wang</p>
+    <p><b>Summary:</b> The rapid expansion of distributed photovoltaic (PV) installations worldwide,
+many being behind-the-meter systems, has significantly challenged energy
+management and grid operations, as unobservable PV generation further
+complicates the supply-demand balance. Therefore, estimating this generation
+from net load, known as PV disaggregation, is critical. Given privacy concerns
+and the need for large training datasets, federated learning becomes a
+promising approach, but statistical heterogeneity, arising from geographical
+and behavioral variations among prosumers, poses new challenges to PV
+disaggregation. To overcome these challenges, a privacy-preserving distributed
+PV disaggregation framework is proposed using Personalized Federated Learning
+(PFL). The proposed method employs a two-level framework that combines local
+and global modeling. At the local level, a transformer-based PV disaggregation
+model is designed to generate solar irradiance embeddings for representing
+local PV conditions. A novel adaptive local aggregation mechanism is adopted to
+mitigate the impact of statistical heterogeneity on the local model, extracting
+a portion of global information that benefits the local model. At the global
+level, a central server aggregates information uploaded from multiple data
+centers, preserving privacy while enabling cross-center knowledge sharing.
+Experiments on real-world data demonstrate the effectiveness of this proposed
+framework, showing improved accuracy and robustness compared to benchmark
+methods.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.18032v1">Enhancing Privacy-Utility Trade-offs to Mitigate Memorization in
+  Diffusion Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2025-04-25T02:51:23Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Chen Chen, Daochang Liu, Mubarak Shah, Chang Xu</p>
+    <p><b>Summary:</b> Text-to-image diffusion models have demonstrated remarkable capabilities in
+creating images highly aligned with user prompts, yet their proclivity for
+memorizing training set images has sparked concerns about the originality of
+the generated images and privacy issues, potentially leading to legal
+complications for both model owners and users, particularly when the memorized
+images contain proprietary content. Although methods to mitigate these issues
+have been suggested, enhancing privacy often results in a significant decrease
+in the utility of the outputs, as indicated by text-alignment scores. To bridge
+the research gap, we introduce a novel method, PRSS, which refines the
+classifier-free guidance approach in diffusion models by integrating prompt
+re-anchoring (PR) to improve privacy and incorporating semantic prompt search
+(SS) to enhance utility. Extensive experiments across various privacy levels
+demonstrate that our approach consistently improves the privacy-utility
+trade-off, establishing a new state-of-the-art.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.18007v1">Differential Privacy-Driven Framework for Enhancing Heart Disease
+  Prediction</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-04-25T01:27:40Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yazan Otoum, Amiya Nayak</p>
+    <p><b>Summary:</b> With the rapid digitalization of healthcare systems, there has been a
+substantial increase in the generation and sharing of private health data.
+Safeguarding patient information is essential for maintaining consumer trust
+and ensuring compliance with legal data protection regulations. Machine
+learning is critical in healthcare, supporting personalized treatment, early
+disease detection, predictive analytics, image interpretation, drug discovery,
+efficient operations, and patient monitoring. It enhances decision-making,
+accelerates research, reduces errors, and improves patient outcomes. In this
+paper, we utilize machine learning methodologies, including differential
+privacy and federated learning, to develop privacy-preserving models that
+enable healthcare stakeholders to extract insights without compromising
+individual privacy. Differential privacy introduces noise to data to guarantee
+statistical privacy, while federated learning enables collaborative model
+training across decentralized datasets. We explore applying these technologies
+to Heart Disease Data, demonstrating how they preserve privacy while delivering
+valuable insights and comprehensive analysis. Our results show that using a
+federated learning model with differential privacy achieved a test accuracy of
+85%, ensuring patient data remained secure and private throughout the process.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2504.17703v1">Federated Learning: A Survey on Privacy-Preserving Collaborative
   Intelligence</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
@@ -426,35 +543,6 @@ algorithms satisfy $w$-event differential privacy while significantly improving
 utility. Experimental results demonstrate that our techniques outperform
 state-of-the-art LDP stream publishing solutions in terms of utility, while
 retaining the same privacy guarantee.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.14959v1">ScaleGuard: Rational and Scalable Configuration Privacy Protection with
-  Topology Expansion</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
-  <p><b>Published on:</b> 2025-04-21T08:38:52Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Qianye Wang, Yuejie Wang, Yongting Chen, Guyue Liu</p>
-    <p><b>Summary:</b> As networks grow in size and complexity, safeguarding sensitive data while
-sharing configuration files is critical for network management and research.
-Existing anonymization tools primarily hide fields like IP addresses or AS
-numbers to mitigate direct data exposure. However, they often lack mechanisms
-to preserve privacy around network scale, an increasingly sensitive aspect that
-can reveal organizational size or resource distribution. We propose ScaleGuard,
-which preserves network functional equivalence while adding fake routers and
-hosts to conceal network scale, and generating complete router configurations
-that resemble the originals. Our system introduces a graph embedding-based
-expansion method and k-degree mapping anonymity, reducing unnecessary topology
-modifications when adversaries only know the original degree sequence. For
-routing repair, ScaleGuard designs a network repair framework combining SMT and
-iterative methods, delivering stable performance under randomized link costs
-and complex cross-protocol routing. Experiment results show that ScaleGuard
-expands network scale effectively, providing consistent anonymization of
-topology, scale, and routing, while achieving strong topological rationality,
-configuration fidelity, and repairing efficiency.</p>
   </details>
 </div>
 
@@ -2858,86 +2946,6 @@ training-based methods, achieving up to a 45% performance improvement over the
 prior art. Further analysis shows that PriME achieves a significantly better
 privacy-utility trade-off, highlighting the potential of evolutionary
 approaches for privacy-preserving LLM personalization.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.17844v1">Privacy-Preserving Hamming Distance Computation with Property-Preserving
-  Hashing</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computational Complexity-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-03-22T19:35:59Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Dongfang Zhao</p>
-    <p><b>Summary:</b> We study the problem of approximating Hamming distance in sublinear time
-under property-preserving hashing (PPH), where only hashed representations of
-inputs are available. Building on the threshold evaluation framework of
-Fleischhacker, Larsen, and Simkin (EUROCRYPT 2022), we present a sequence of
-constructions with progressively improved complexity: a baseline binary search
-algorithm, a refined variant with constant repetition per query, and a novel
-hash design that enables constant-time approximation without oracle access. Our
-results demonstrate that approximate distance recovery is possible under strong
-cryptographic guarantees, bridging efficiency and security in similarity
-estimation.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.17553v1">Autonomous Radiotherapy Treatment Planning Using DOLA: A
-  Privacy-Preserving, LLM-Based Optimization Agent</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2025-03-21T22:01:19Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Humza Nusrat, Bing Luo, Ryan Hall, Joshua Kim, Hassan Bagher-Ebadian, Anthony Doemer, Benjamin Movsas, Kundan Thind</p>
-    <p><b>Summary:</b> Radiotherapy treatment planning is a complex and time-intensive process,
-often impacted by inter-planner variability and subjective decision-making. To
-address these challenges, we introduce Dose Optimization Language Agent (DOLA),
-an autonomous large language model (LLM)-based agent designed for optimizing
-radiotherapy treatment plans while rigorously protecting patient privacy. DOLA
-integrates the LLaMa3.1 LLM directly with a commercial treatment planning
-system, utilizing chain-of-thought prompting, retrieval-augmented generation
-(RAG), and reinforcement learning (RL). Operating entirely within secure local
-infrastructure, this agent eliminates external data sharing. We evaluated DOLA
-using a retrospective cohort of 18 prostate cancer patients prescribed 60 Gy in
-20 fractions, comparing model sizes (8 billion vs. 70 billion parameters) and
-optimization strategies (No-RAG, RAG, and RAG+RL) over 10 planning iterations.
-The 70B model demonstrated significantly improved performance, achieving
-approximately 16.4% higher final scores than the 8B model. The RAG approach
-outperformed the No-RAG baseline by 19.8%, and incorporating RL accelerated
-convergence, highlighting the synergy of retrieval-based memory and
-reinforcement learning. Optimal temperature hyperparameter analysis identified
-0.4 as providing the best balance between exploration and exploitation. This
-proof of concept study represents the first successful deployment of locally
-hosted LLM agents for autonomous optimization of treatment plans within a
-commercial radiotherapy planning system. By extending human-machine interaction
-through interpretable natural language reasoning, DOLA offers a scalable and
-privacy-conscious framework, with significant potential for clinical
-implementation and workflow improvement.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.17428v1">Would you mind being watched by machines? Privacy concerns in data
-  mining</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2025-03-21T12:01:42Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Vincent C. Müller</p>
-    <p><b>Summary:</b> Data mining is not an invasion of privacy because access to data is only by
-machines, not by people: this is the argument that is investigated here. The
-current importance of this problem is developed in a case study of data mining
-in the USA for counterterrorism and other surveillance purposes. After a
-clarification of the relevant nature of privacy, it is argued that access by
-machines cannot warrant the access to further information, since the analysis
-will have to be made either by humans or by machines that understand. It
-concludes that the current data mining violates the right to privacy and should
-be subject to the standard legal constraints for access to private information
-by people.</p>
   </details>
 </div>
 
