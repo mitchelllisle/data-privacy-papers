@@ -1934,5 +1934,93 @@
       "cs.SI",
       "math.CO"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.18411v1",
+    "title" : "Heavy-Tailed Privacy: The Symmetric alpha-Stable Privacy Mechanism",
+    "summary" : "With the rapid growth of digital platforms, there is increasing apprehension\nabout how personal data is collected, stored, and used by various entities.\nThese concerns arise from the increasing frequency of data breaches,\ncyber-attacks, and misuse of personal information for targeted advertising and\nsurveillance. To address these matters, Differential Privacy (DP) has emerged\nas a prominent tool for quantifying a digital system's level of protection. The\nGaussian mechanism is commonly used because the Gaussian density is closed\nunder convolution, and is a common method utilized when aggregating datasets.\nHowever, the Gaussian mechanism only satisfies an approximate form of\nDifferential Privacy. In this work, we present and analyze of the Symmetric\nalpha-Stable (SaS) mechanism. We prove that the mechanism achieves pure\ndifferential privacy while remaining closed under convolution. Additionally, we\nstudy the nuanced relationship between the level of privacy achieved and the\nparameters of the density. Lastly, we compare the expected error introduced to\ndataset queries by the Gaussian and SaS mechanisms. From our analysis, we\nbelieve the SaS Mechanism is an appealing choice for privacy-focused\napplications.",
+    "updated" : "2025-04-25T15:14:02Z",
+    "published" : "2025-04-25T15:14:02Z",
+    "authors" : [
+      {
+        "name" : "Christopher C. Zawacki"
+      },
+      {
+        "name" : "Eyad H. Abed"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DS"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.18078v1",
+    "title" : "Privacy-Preserving Personalized Federated Learning for Distributed\n  Photovoltaic Disaggregation under Statistical Heterogeneity",
+    "summary" : "The rapid expansion of distributed photovoltaic (PV) installations worldwide,\nmany being behind-the-meter systems, has significantly challenged energy\nmanagement and grid operations, as unobservable PV generation further\ncomplicates the supply-demand balance. Therefore, estimating this generation\nfrom net load, known as PV disaggregation, is critical. Given privacy concerns\nand the need for large training datasets, federated learning becomes a\npromising approach, but statistical heterogeneity, arising from geographical\nand behavioral variations among prosumers, poses new challenges to PV\ndisaggregation. To overcome these challenges, a privacy-preserving distributed\nPV disaggregation framework is proposed using Personalized Federated Learning\n(PFL). The proposed method employs a two-level framework that combines local\nand global modeling. At the local level, a transformer-based PV disaggregation\nmodel is designed to generate solar irradiance embeddings for representing\nlocal PV conditions. A novel adaptive local aggregation mechanism is adopted to\nmitigate the impact of statistical heterogeneity on the local model, extracting\na portion of global information that benefits the local model. At the global\nlevel, a central server aggregates information uploaded from multiple data\ncenters, preserving privacy while enabling cross-center knowledge sharing.\nExperiments on real-world data demonstrate the effectiveness of this proposed\nframework, showing improved accuracy and robustness compared to benchmark\nmethods.",
+    "updated" : "2025-04-25T05:09:27Z",
+    "published" : "2025-04-25T05:09:27Z",
+    "authors" : [
+      {
+        "name" : "Xiaolu Chen"
+      },
+      {
+        "name" : "Chenghao Huang"
+      },
+      {
+        "name" : "Yanru Zhang"
+      },
+      {
+        "name" : "Hao Wang"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.18032v1",
+    "title" : "Enhancing Privacy-Utility Trade-offs to Mitigate Memorization in\n  Diffusion Models",
+    "summary" : "Text-to-image diffusion models have demonstrated remarkable capabilities in\ncreating images highly aligned with user prompts, yet their proclivity for\nmemorizing training set images has sparked concerns about the originality of\nthe generated images and privacy issues, potentially leading to legal\ncomplications for both model owners and users, particularly when the memorized\nimages contain proprietary content. Although methods to mitigate these issues\nhave been suggested, enhancing privacy often results in a significant decrease\nin the utility of the outputs, as indicated by text-alignment scores. To bridge\nthe research gap, we introduce a novel method, PRSS, which refines the\nclassifier-free guidance approach in diffusion models by integrating prompt\nre-anchoring (PR) to improve privacy and incorporating semantic prompt search\n(SS) to enhance utility. Extensive experiments across various privacy levels\ndemonstrate that our approach consistently improves the privacy-utility\ntrade-off, establishing a new state-of-the-art.",
+    "updated" : "2025-04-25T02:51:23Z",
+    "published" : "2025-04-25T02:51:23Z",
+    "authors" : [
+      {
+        "name" : "Chen Chen"
+      },
+      {
+        "name" : "Daochang Liu"
+      },
+      {
+        "name" : "Mubarak Shah"
+      },
+      {
+        "name" : "Chang Xu"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.18007v1",
+    "title" : "Differential Privacy-Driven Framework for Enhancing Heart Disease\n  Prediction",
+    "summary" : "With the rapid digitalization of healthcare systems, there has been a\nsubstantial increase in the generation and sharing of private health data.\nSafeguarding patient information is essential for maintaining consumer trust\nand ensuring compliance with legal data protection regulations. Machine\nlearning is critical in healthcare, supporting personalized treatment, early\ndisease detection, predictive analytics, image interpretation, drug discovery,\nefficient operations, and patient monitoring. It enhances decision-making,\naccelerates research, reduces errors, and improves patient outcomes. In this\npaper, we utilize machine learning methodologies, including differential\nprivacy and federated learning, to develop privacy-preserving models that\nenable healthcare stakeholders to extract insights without compromising\nindividual privacy. Differential privacy introduces noise to data to guarantee\nstatistical privacy, while federated learning enables collaborative model\ntraining across decentralized datasets. We explore applying these technologies\nto Heart Disease Data, demonstrating how they preserve privacy while delivering\nvaluable insights and comprehensive analysis. Our results show that using a\nfederated learning model with differential privacy achieved a test accuracy of\n85%, ensuring patient data remained secure and private throughout the process.",
+    "updated" : "2025-04-25T01:27:40Z",
+    "published" : "2025-04-25T01:27:40Z",
+    "authors" : [
+      {
+        "name" : "Yazan Otoum"
+      },
+      {
+        "name" : "Amiya Nayak"
+      }
+    ],
+    "categories" : [
+      "cs.AI",
+      "cs.CR",
+      "cs.LG"
+    ]
   }
 ]
