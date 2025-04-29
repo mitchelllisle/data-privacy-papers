@@ -2,6 +2,107 @@
 <h2>2025-04</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.19373v1">Doxing via the Lens: Revealing Privacy Leakage in Image Geolocation for
+  Agentic Multi-Modal Large Reasoning Model</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-04-27T22:26:45Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Weidi Luo, Qiming Zhang, Tianyu Lu, Xiaogeng Liu, Yue Zhao, Zhen Xiang, Chaowei Xiao</p>
+    <p><b>Summary:</b> The increasing capabilities of agentic multi-modal large reasoning models,
+such as ChatGPT o3, have raised critical concerns regarding privacy leakage
+through inadvertent image geolocation. In this paper, we conduct the first
+systematic and controlled study on the potential privacy risks associated with
+visual reasoning abilities of ChatGPT o3. We manually collect and construct a
+dataset comprising 50 real-world images that feature individuals alongside
+privacy-relevant environmental elements, capturing realistic and sensitive
+scenarios for analysis. Our experimental evaluation reveals that ChatGPT o3 can
+predict user locations with high precision, achieving street-level accuracy
+(within one mile) in 60% of cases. Through analysis, we identify key visual
+cues, including street layout and front yard design, that significantly
+contribute to the model inference success. Additionally, targeted occlusion
+experiments demonstrate that masking critical features effectively mitigates
+geolocation accuracy, providing insights into potential defense mechanisms. Our
+findings highlight an urgent need for privacy-aware development for agentic
+multi-modal large reasoning models, particularly in applications involving
+private imagery.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.19274v1">TeleSparse: Practical Privacy-Preserving Verification of Deep Neural
+  Networks</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-04-27T15:14:09Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mohammad M Maheri, Hamed Haddadi, Alex Davidson</p>
+    <p><b>Summary:</b> Verification of the integrity of deep learning inference is crucial for
+understanding whether a model is being applied correctly. However, such
+verification typically requires access to model weights and (potentially
+sensitive or private) training data. So-called Zero-knowledge Succinct
+Non-Interactive Arguments of Knowledge (ZK-SNARKs) would appear to provide the
+capability to verify model inference without access to such sensitive data.
+However, applying ZK-SNARKs to modern neural networks, such as transformers and
+large vision models, introduces significant computational overhead.
+  We present TeleSparse, a ZK-friendly post-processing mechanisms to produce
+practical solutions to this problem. TeleSparse tackles two fundamental
+challenges inherent in applying ZK-SNARKs to modern neural networks: (1)
+Reducing circuit constraints: Over-parameterized models result in numerous
+constraints for ZK-SNARK verification, driving up memory and proof generation
+costs. We address this by applying sparsification to neural network models,
+enhancing proof efficiency without compromising accuracy or security. (2)
+Minimizing the size of lookup tables required for non-linear functions, by
+optimizing activation ranges through neural teleportation, a novel adaptation
+for narrowing activation functions' range.
+  TeleSparse reduces prover memory usage by 67% and proof generation time by
+46% on the same model, with an accuracy trade-off of approximately 1%. We
+implement our framework using the Halo2 proving system and demonstrate its
+effectiveness across multiple architectures (Vision-transformer, ResNet,
+MobileNet) and datasets (ImageNet,CIFAR-10,CIFAR-100). This work opens new
+directions for ZK-friendly model design, moving toward scalable,
+resource-efficient verifiable deep learning.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.19101v1">Privacy-Preserving Federated Embedding Learning for Localized
+  Retrieval-Augmented Generation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2025-04-27T04:26:02Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Qianren Mao, Qili Zhang, Hanwen Hao, Zhentao Han, Runhua Xu, Weifeng Jiang, Qi Hu, Zhijun Chen, Tyler Zhou, Bo Li, Yangqiu Song, Jin Dong, Jianxin Li, Philip S. Yu</p>
+    <p><b>Summary:</b> Retrieval-Augmented Generation (RAG) has recently emerged as a promising
+solution for enhancing the accuracy and credibility of Large Language Models
+(LLMs), particularly in Question & Answer tasks. This is achieved by
+incorporating proprietary and private data from integrated databases. However,
+private RAG systems face significant challenges due to the scarcity of private
+domain data and critical data privacy issues. These obstacles impede the
+deployment of private RAG systems, as developing privacy-preserving RAG systems
+requires a delicate balance between data security and data availability. To
+address these challenges, we regard federated learning (FL) as a highly
+promising technology for privacy-preserving RAG services. We propose a novel
+framework called Federated Retrieval-Augmented Generation (FedE4RAG). This
+framework facilitates collaborative training of client-side RAG retrieval
+models. The parameters of these models are aggregated and distributed on a
+central-server, ensuring data privacy without direct sharing of raw data. In
+FedE4RAG, knowledge distillation is employed for communication between the
+server and client models. This technique improves the generalization of local
+RAG retrievers during the federated learning process. Additionally, we apply
+homomorphic encryption within federated learning to safeguard model parameters
+and mitigate concerns related to data leakage. Extensive experiments conducted
+on the real-world dataset have validated the effectiveness of FedE4RAG. The
+results demonstrate that our proposed framework can markedly enhance the
+performance of private RAG systems while maintaining robust data privacy
+protection.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2504.18411v1">Heavy-Tailed Privacy: The Symmetric alpha-Stable Privacy Mechanism</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B">
   <p><b>Published on:</b> 2025-04-25T15:14:02Z</p>
@@ -147,6 +248,36 @@ highlight real-world applications and summarize benchmark datasets and
 evaluation metrics commonly used in FL research. Finally, we outline open
 research problems and future directions to guide the development of scalable,
 efficient, and trustworthy FL systems.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.18596v1">Optimizing the Privacy-Utility Balance using Synthetic Data and
+  Configurable Perturbation Pipelines</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Probability-5BC0EB">
+  <p><b>Published on:</b> 2025-04-24T15:52:53Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Anantha Sharma, Swetha Devabhaktuni, Eklove Mohan</p>
+    <p><b>Summary:</b> This paper explores the strategic use of modern synthetic data generation and
+advanced data perturbation techniques to enhance security, maintain analytical
+utility, and improve operational efficiency when managing large datasets, with
+a particular focus on the Banking, Financial Services, and Insurance (BFSI)
+sector. We contrast these advanced methods encompassing generative models like
+GANs, sophisticated context-aware PII transformation, configurable statistical
+perturbation, and differential privacy with traditional anonymization
+approaches.
+  The goal is to create realistic, privacy-preserving datasets that retain high
+utility for complex machine learning tasks and analytics, a critical need in
+the data-sensitive industries like BFSI, Healthcare, Retail, and
+Telecommunications. We discuss how these modern techniques potentially offer
+significant improvements in balancing privacy preservation while maintaining
+data utility compared to older methods. Furthermore, we examine the potential
+for operational gains, such as reduced overhead and accelerated analytics, by
+using these privacy-enhanced datasets. We also explore key use cases where
+these methods can mitigate regulatory risks and enable scalable, data-driven
+innovation without compromising sensitive customer information.</p>
   </details>
 </div>
 
@@ -314,6 +445,33 @@ data application.</p>
 
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.18581v1">Enhancing Privacy in Semantic Communication over Wiretap Channels
+  leveraging Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
+  <p><b>Published on:</b> 2025-04-23T08:42:44Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Weixuan Chen, Shunpu Tang, Qianqian Yang, Zhiguo Shi, Dusit Niyato</p>
+    <p><b>Summary:</b> Semantic communication (SemCom) improves transmission efficiency by focusing
+on task-relevant information. However, transmitting semantic-rich data over
+insecure channels introduces privacy risks. This paper proposes a novel SemCom
+framework that integrates differential privacy (DP) mechanisms to protect
+sensitive semantic features. This method employs the generative adversarial
+network (GAN) inversion technique to extract disentangled semantic features and
+uses neural networks (NNs) to approximate the DP application and removal
+processes, effectively mitigating the non-invertibility issue of DP.
+Additionally, an NN-based encryption scheme is introduced to strengthen the
+security of channel inputs. Simulation results demonstrate that the proposed
+approach effectively prevents eavesdroppers from reconstructing sensitive
+information by generating chaotic or fake images, while ensuring high-quality
+image reconstruction for legitimate users. The system exhibits robust
+performance across various privacy budgets and channel conditions, achieving an
+optimal balance between privacy protection and reconstruction fidelity.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2504.16371v1">The Safety-Privacy Tradeoff in Linear Bandits</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Optimization and Control-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2025-04-23T02:48:02Z</p>
@@ -428,6 +586,35 @@ sparsest cuts in the weight-level DP model, which may be of independent
 interest. Finally, we evaluate our algorithm on synthetic and real-world
 datasets. Our experimental results show that our algorithm performs well in
 terms of extra cost and has good scalability to large graphs.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.18569v1">Large Language Model Empowered Privacy-Protected Framework for PHI
+  Annotation in Clinical Notes</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-04-22T03:18:36Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Guanchen Wu, Linzhi Zheng, Han Xie, Zhen Xiang, Jiaying Lu, Darren Liu, Delgersuren Bold, Bo Li, Xiao Hu, Carl Yang</p>
+    <p><b>Summary:</b> The de-identification of private information in medical data is a crucial
+process to mitigate the risk of confidentiality breaches, particularly when
+patient personal details are not adequately removed before the release of
+medical records. Although rule-based and learning-based methods have been
+proposed, they often struggle with limited generalizability and require
+substantial amounts of annotated data for effective performance. Recent
+advancements in large language models (LLMs) have shown significant promise in
+addressing these issues due to their superior language comprehension
+capabilities. However, LLMs present challenges, including potential privacy
+risks when using commercial LLM APIs and high computational costs for deploying
+open-source LLMs locally. In this work, we introduce LPPA, an LLM-empowered
+Privacy-Protected PHI Annotation framework for clinical notes, targeting the
+English language. By fine-tuning LLMs locally with synthetic notes, LPPA
+ensures strong privacy protection and high PHI annotation accuracy. Extensive
+experiments demonstrate LPPA's effectiveness in accurately de-identifying
+private information, offering a scalable and efficient solution for enhancing
+patient privacy protection.</p>
   </details>
 </div>
 
@@ -2778,174 +2965,6 @@ data transfers, properties expressed in Computation Tree Logic (CTL) to
 automatically verify these requirements with a model checker and sorting
 schemes to statically ensure models are well-formed. We demonstrate the
 framework's applicability by modelling WhatsApp's privacy policies.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.20326v1">Modality-Independent Brain Lesion Segmentation with Privacy-aware
-  Continual Learning</a></h3>
-  
-  <p><b>Published on:</b> 2025-03-26T08:53:41Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yousef Sadegheih, Pratibha Kumari, Dorit Merhof</p>
-    <p><b>Summary:</b> Traditional brain lesion segmentation models for multi-modal MRI are
-typically tailored to specific pathologies, relying on datasets with predefined
-modalities. Adapting to new MRI modalities or pathologies often requires
-training separate models, which contrasts with how medical professionals
-incrementally expand their expertise by learning from diverse datasets over
-time. Inspired by this human learning process, we propose a unified
-segmentation model capable of sequentially learning from multiple datasets with
-varying modalities and pathologies. Our approach leverages a privacy-aware
-continual learning framework that integrates a mixture-of-experts mechanism and
-dual knowledge distillation to mitigate catastrophic forgetting while not
-compromising performance on newly encountered datasets. Extensive experiments
-across five diverse brain MRI datasets and four dataset sequences demonstrate
-the effectiveness of our framework in maintaining a single adaptable model,
-capable of handling varying hospital protocols, imaging modalities, and disease
-types. Compared to widely used privacy-aware continual learning methods such as
-LwF, SI, EWC, and MiB, our method achieves an average Dice score improvement of
-approximately 11%. Our framework represents a significant step toward more
-versatile and practical brain lesion segmentation models, with implementation
-available at \href{https://github.com/xmindflow/BrainCL}{GitHub}.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.19872v1">NickPay, an Auditable, Privacy-Preserving, Nickname-Based Payment System</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-03-25T17:36:54Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Guillaume Quispe, Pierre Jouvelot, Gerard Memmi</p>
-    <p><b>Summary:</b> In this paper, we describe the motivation, design, security properties, and a
-prototype implementation of NickPay, a new privacy-preserving yet auditable
-payment system built on top of the Ethereum blockchain platform. NickPay offers
-a strong level of privacy to participants and prevents successive payment
-transfers from being linked to their actual owners.
-  It is providing the transparency that blockchains ensure and at the same
-time, preserving the possibility for a trusted authority to access sensitive
-information, e.g., for audit purposes or compliance with financial regulations.
-  NickPay builds upon the Nicknames for Group Signatures (NGS) scheme, a new
-signing system based on dynamic ``nicknames'' for signers that extends the
-schemes of group signatures and signatures with flexible public keys.
-  NGS enables identified group members to expose their flexible public keys,
-thus allowing direct and natural applications such as auditable private payment
-systems, NickPay being a blockchain-based prototype of these.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.19819v1">Domain-incremental White Blood Cell Classification with Privacy-aware
-  Continual Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2025-03-25T16:30:58Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Pratibha Kumari, Afshin Bozorgpour, Daniel Reisenbüchler, Edgar Jost, Martina Crysandt, Christian Matek, Dorit Merhof</p>
-    <p><b>Summary:</b> White blood cell (WBC) classification plays a vital role in hematology for
-diagnosing various medical conditions. However, it faces significant challenges
-due to domain shifts caused by variations in sample sources (e.g., blood or
-bone marrow) and differing imaging conditions across hospitals. Traditional
-deep learning models often suffer from catastrophic forgetting in such dynamic
-environments, while foundation models, though generally robust, experience
-performance degradation when the distribution of inference data differs from
-that of the training data. To address these challenges, we propose a generative
-replay-based Continual Learning (CL) strategy designed to prevent forgetting in
-foundation models for WBC classification. Our method employs lightweight
-generators to mimic past data with a synthetic latent representation to enable
-privacy-preserving replay. To showcase the effectiveness, we carry out
-extensive experiments with a total of four datasets with different task
-ordering and four backbone models including ResNet50, RetCCL, CTransPath, and
-UNI. Experimental results demonstrate that conventional fine-tuning methods
-degrade performance on previously learned tasks and struggle with domain
-shifts. In contrast, our continual learning strategy effectively mitigates
-catastrophic forgetting, preserving model performance across varying domains.
-This work presents a practical solution for maintaining reliable WBC
-classification in real-world clinical settings, where data distributions
-frequently evolve.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.19453v1">Average consensus with resilience and privacy guarantees without losing
-  accuracy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Optimization and Control-F9C80E">
-  <p><b>Published on:</b> 2025-03-25T08:41:12Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Guilherme Ramos, Daniel Silvestre, André M. H. Teixeira, Sérgio Pequito</p>
-    <p><b>Summary:</b> This paper addresses the challenge of achieving private and resilient average
-consensus among a group of discrete-time networked agents without compromising
-accuracy. State-of-the-art solutions to attain privacy and resilient consensus
-entail an explicit trade-off between the two with an implicit compromise on
-accuracy. In contrast, in the present work, we propose a methodology that
-avoids trade-offs between privacy, resilience, and accuracy. We design a
-methodology that, under certain conditions, enables non-faulty agents, i.e.,
-agents complying with the established protocol, to reach average consensus in
-the presence of faulty agents, while keeping the non-faulty agents' initial
-states private. For privacy, agents strategically add noise to obscure their
-original state, while later withdrawing a function of it to ensure accuracy.
-Besides, and unlikely many consensus methods, our approach does not require
-each agent to compute the left-eigenvector of the dynamics matrix associated
-with the eigenvalue one. Moreover, the proposed framework has a polynomial time
-complexity relative to the number of agents and the maximum quantity of faulty
-agents. Finally, we illustrate our method with examples covering diverse faulty
-agents scenarios.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.18729v1">Two Types of Data Privacy Controls</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2025-03-24T14:37:57Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Eman Alashwali</p>
-    <p><b>Summary:</b> Users share a vast amount of data while using web and mobile applications.
-Most service providers such as email and social media providers provide users
-with privacy controls, which aim to give users the means to control what, how,
-when, and with whom, users share data. Nevertheless, it is not uncommon to hear
-users say that they feel they have lost control over their data on the web.
-  This article aims to shed light on the often overlooked difference between
-two main types of privacy from a control perspective: privacy between a user
-and other users, and privacy between a user and institutions. We argue why this
-difference is important and what we need to do from here.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.18008v1">Personalized Language Models via Privacy-Preserving Evolutionary Model
-  Merging</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Neural and Evolutionary Computing-5BC0EB">
-  <p><b>Published on:</b> 2025-03-23T09:46:07Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Kyuyoung Kim, Jinwoo Shin, Jaehyung Kim</p>
-    <p><b>Summary:</b> Personalization in large language models (LLMs) seeks to tailor models to
-individual user or user group preferences. Prompt-based methods augment queries
-with user preference information, whereas training-based methods directly
-encode preferences into model parameters for more effective personalization.
-Despite achieving some success in personalizing LLMs, prior methods often fail
-to directly optimize task-specific metrics and lack explicit
-privacy-preservation mechanisms. To address these limitations, we propose
-Privacy-Preserving Model Merging via Evolutionary Algorithms (PriME), a novel
-approach to personalization that employs gradient-free methods to directly
-optimize task-specific metrics while preserving user privacy. By incorporating
-privacy preservation into optimization, PriME produces a personalized module
-that effectively captures the target user's preferences while minimizing the
-privacy risks for the users sharing their private information. Experiments on
-the LaMP benchmark show that PriME outperforms both prompt-based and
-training-based methods, achieving up to a 45% performance improvement over the
-prior art. Further analysis shows that PriME achieves a significantly better
-privacy-utility trade-off, highlighting the potential of evolutionary
-approaches for privacy-preserving LLM personalization.</p>
   </details>
 </div>
 
