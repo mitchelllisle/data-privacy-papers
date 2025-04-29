@@ -2022,5 +2022,213 @@
       "cs.CR",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.19373v1",
+    "title" : "Doxing via the Lens: Revealing Privacy Leakage in Image Geolocation for\n  Agentic Multi-Modal Large Reasoning Model",
+    "summary" : "The increasing capabilities of agentic multi-modal large reasoning models,\nsuch as ChatGPT o3, have raised critical concerns regarding privacy leakage\nthrough inadvertent image geolocation. In this paper, we conduct the first\nsystematic and controlled study on the potential privacy risks associated with\nvisual reasoning abilities of ChatGPT o3. We manually collect and construct a\ndataset comprising 50 real-world images that feature individuals alongside\nprivacy-relevant environmental elements, capturing realistic and sensitive\nscenarios for analysis. Our experimental evaluation reveals that ChatGPT o3 can\npredict user locations with high precision, achieving street-level accuracy\n(within one mile) in 60% of cases. Through analysis, we identify key visual\ncues, including street layout and front yard design, that significantly\ncontribute to the model inference success. Additionally, targeted occlusion\nexperiments demonstrate that masking critical features effectively mitigates\ngeolocation accuracy, providing insights into potential defense mechanisms. Our\nfindings highlight an urgent need for privacy-aware development for agentic\nmulti-modal large reasoning models, particularly in applications involving\nprivate imagery.",
+    "updated" : "2025-04-27T22:26:45Z",
+    "published" : "2025-04-27T22:26:45Z",
+    "authors" : [
+      {
+        "name" : "Weidi Luo"
+      },
+      {
+        "name" : "Qiming Zhang"
+      },
+      {
+        "name" : "Tianyu Lu"
+      },
+      {
+        "name" : "Xiaogeng Liu"
+      },
+      {
+        "name" : "Yue Zhao"
+      },
+      {
+        "name" : "Zhen Xiang"
+      },
+      {
+        "name" : "Chaowei Xiao"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.19274v1",
+    "title" : "TeleSparse: Practical Privacy-Preserving Verification of Deep Neural\n  Networks",
+    "summary" : "Verification of the integrity of deep learning inference is crucial for\nunderstanding whether a model is being applied correctly. However, such\nverification typically requires access to model weights and (potentially\nsensitive or private) training data. So-called Zero-knowledge Succinct\nNon-Interactive Arguments of Knowledge (ZK-SNARKs) would appear to provide the\ncapability to verify model inference without access to such sensitive data.\nHowever, applying ZK-SNARKs to modern neural networks, such as transformers and\nlarge vision models, introduces significant computational overhead.\n  We present TeleSparse, a ZK-friendly post-processing mechanisms to produce\npractical solutions to this problem. TeleSparse tackles two fundamental\nchallenges inherent in applying ZK-SNARKs to modern neural networks: (1)\nReducing circuit constraints: Over-parameterized models result in numerous\nconstraints for ZK-SNARK verification, driving up memory and proof generation\ncosts. We address this by applying sparsification to neural network models,\nenhancing proof efficiency without compromising accuracy or security. (2)\nMinimizing the size of lookup tables required for non-linear functions, by\noptimizing activation ranges through neural teleportation, a novel adaptation\nfor narrowing activation functions' range.\n  TeleSparse reduces prover memory usage by 67% and proof generation time by\n46% on the same model, with an accuracy trade-off of approximately 1%. We\nimplement our framework using the Halo2 proving system and demonstrate its\neffectiveness across multiple architectures (Vision-transformer, ResNet,\nMobileNet) and datasets (ImageNet,CIFAR-10,CIFAR-100). This work opens new\ndirections for ZK-friendly model design, moving toward scalable,\nresource-efficient verifiable deep learning.",
+    "updated" : "2025-04-27T15:14:09Z",
+    "published" : "2025-04-27T15:14:09Z",
+    "authors" : [
+      {
+        "name" : "Mohammad M Maheri"
+      },
+      {
+        "name" : "Hamed Haddadi"
+      },
+      {
+        "name" : "Alex Davidson"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.19101v1",
+    "title" : "Privacy-Preserving Federated Embedding Learning for Localized\n  Retrieval-Augmented Generation",
+    "summary" : "Retrieval-Augmented Generation (RAG) has recently emerged as a promising\nsolution for enhancing the accuracy and credibility of Large Language Models\n(LLMs), particularly in Question & Answer tasks. This is achieved by\nincorporating proprietary and private data from integrated databases. However,\nprivate RAG systems face significant challenges due to the scarcity of private\ndomain data and critical data privacy issues. These obstacles impede the\ndeployment of private RAG systems, as developing privacy-preserving RAG systems\nrequires a delicate balance between data security and data availability. To\naddress these challenges, we regard federated learning (FL) as a highly\npromising technology for privacy-preserving RAG services. We propose a novel\nframework called Federated Retrieval-Augmented Generation (FedE4RAG). This\nframework facilitates collaborative training of client-side RAG retrieval\nmodels. The parameters of these models are aggregated and distributed on a\ncentral-server, ensuring data privacy without direct sharing of raw data. In\nFedE4RAG, knowledge distillation is employed for communication between the\nserver and client models. This technique improves the generalization of local\nRAG retrievers during the federated learning process. Additionally, we apply\nhomomorphic encryption within federated learning to safeguard model parameters\nand mitigate concerns related to data leakage. Extensive experiments conducted\non the real-world dataset have validated the effectiveness of FedE4RAG. The\nresults demonstrate that our proposed framework can markedly enhance the\nperformance of private RAG systems while maintaining robust data privacy\nprotection.",
+    "updated" : "2025-04-27T04:26:02Z",
+    "published" : "2025-04-27T04:26:02Z",
+    "authors" : [
+      {
+        "name" : "Qianren Mao"
+      },
+      {
+        "name" : "Qili Zhang"
+      },
+      {
+        "name" : "Hanwen Hao"
+      },
+      {
+        "name" : "Zhentao Han"
+      },
+      {
+        "name" : "Runhua Xu"
+      },
+      {
+        "name" : "Weifeng Jiang"
+      },
+      {
+        "name" : "Qi Hu"
+      },
+      {
+        "name" : "Zhijun Chen"
+      },
+      {
+        "name" : "Tyler Zhou"
+      },
+      {
+        "name" : "Bo Li"
+      },
+      {
+        "name" : "Yangqiu Song"
+      },
+      {
+        "name" : "Jin Dong"
+      },
+      {
+        "name" : "Jianxin Li"
+      },
+      {
+        "name" : "Philip S. Yu"
+      }
+    ],
+    "categories" : [
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.18596v1",
+    "title" : "Optimizing the Privacy-Utility Balance using Synthetic Data and\n  Configurable Perturbation Pipelines",
+    "summary" : "This paper explores the strategic use of modern synthetic data generation and\nadvanced data perturbation techniques to enhance security, maintain analytical\nutility, and improve operational efficiency when managing large datasets, with\na particular focus on the Banking, Financial Services, and Insurance (BFSI)\nsector. We contrast these advanced methods encompassing generative models like\nGANs, sophisticated context-aware PII transformation, configurable statistical\nperturbation, and differential privacy with traditional anonymization\napproaches.\n  The goal is to create realistic, privacy-preserving datasets that retain high\nutility for complex machine learning tasks and analytics, a critical need in\nthe data-sensitive industries like BFSI, Healthcare, Retail, and\nTelecommunications. We discuss how these modern techniques potentially offer\nsignificant improvements in balancing privacy preservation while maintaining\ndata utility compared to older methods. Furthermore, we examine the potential\nfor operational gains, such as reduced overhead and accelerated analytics, by\nusing these privacy-enhanced datasets. We also explore key use cases where\nthese methods can mitigate regulatory risks and enable scalable, data-driven\ninnovation without compromising sensitive customer information.",
+    "updated" : "2025-04-24T15:52:53Z",
+    "published" : "2025-04-24T15:52:53Z",
+    "authors" : [
+      {
+        "name" : "Anantha Sharma"
+      },
+      {
+        "name" : "Swetha Devabhaktuni"
+      },
+      {
+        "name" : "Eklove Mohan"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.CL",
+      "cs.LG",
+      "math.PR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.18581v1",
+    "title" : "Enhancing Privacy in Semantic Communication over Wiretap Channels\n  leveraging Differential Privacy",
+    "summary" : "Semantic communication (SemCom) improves transmission efficiency by focusing\non task-relevant information. However, transmitting semantic-rich data over\ninsecure channels introduces privacy risks. This paper proposes a novel SemCom\nframework that integrates differential privacy (DP) mechanisms to protect\nsensitive semantic features. This method employs the generative adversarial\nnetwork (GAN) inversion technique to extract disentangled semantic features and\nuses neural networks (NNs) to approximate the DP application and removal\nprocesses, effectively mitigating the non-invertibility issue of DP.\nAdditionally, an NN-based encryption scheme is introduced to strengthen the\nsecurity of channel inputs. Simulation results demonstrate that the proposed\napproach effectively prevents eavesdroppers from reconstructing sensitive\ninformation by generating chaotic or fake images, while ensuring high-quality\nimage reconstruction for legitimate users. The system exhibits robust\nperformance across various privacy budgets and channel conditions, achieving an\noptimal balance between privacy protection and reconstruction fidelity.",
+    "updated" : "2025-04-23T08:42:44Z",
+    "published" : "2025-04-23T08:42:44Z",
+    "authors" : [
+      {
+        "name" : "Weixuan Chen"
+      },
+      {
+        "name" : "Shunpu Tang"
+      },
+      {
+        "name" : "Qianqian Yang"
+      },
+      {
+        "name" : "Zhiguo Shi"
+      },
+      {
+        "name" : "Dusit Niyato"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "eess.IV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.18569v1",
+    "title" : "Large Language Model Empowered Privacy-Protected Framework for PHI\n  Annotation in Clinical Notes",
+    "summary" : "The de-identification of private information in medical data is a crucial\nprocess to mitigate the risk of confidentiality breaches, particularly when\npatient personal details are not adequately removed before the release of\nmedical records. Although rule-based and learning-based methods have been\nproposed, they often struggle with limited generalizability and require\nsubstantial amounts of annotated data for effective performance. Recent\nadvancements in large language models (LLMs) have shown significant promise in\naddressing these issues due to their superior language comprehension\ncapabilities. However, LLMs present challenges, including potential privacy\nrisks when using commercial LLM APIs and high computational costs for deploying\nopen-source LLMs locally. In this work, we introduce LPPA, an LLM-empowered\nPrivacy-Protected PHI Annotation framework for clinical notes, targeting the\nEnglish language. By fine-tuning LLMs locally with synthetic notes, LPPA\nensures strong privacy protection and high PHI annotation accuracy. Extensive\nexperiments demonstrate LPPA's effectiveness in accurately de-identifying\nprivate information, offering a scalable and efficient solution for enhancing\npatient privacy protection.",
+    "updated" : "2025-04-22T03:18:36Z",
+    "published" : "2025-04-22T03:18:36Z",
+    "authors" : [
+      {
+        "name" : "Guanchen Wu"
+      },
+      {
+        "name" : "Linzhi Zheng"
+      },
+      {
+        "name" : "Han Xie"
+      },
+      {
+        "name" : "Zhen Xiang"
+      },
+      {
+        "name" : "Jiaying Lu"
+      },
+      {
+        "name" : "Darren Liu"
+      },
+      {
+        "name" : "Delgersuren Bold"
+      },
+      {
+        "name" : "Bo Li"
+      },
+      {
+        "name" : "Xiao Hu"
+      },
+      {
+        "name" : "Carl Yang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG"
+    ]
   }
 ]
