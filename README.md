@@ -2,7 +2,224 @@
 <h2>2025-04</h2>
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.19373v1">Doxing via the Lens: Revealing Privacy Leakage in Image Geolocation for
+  <h3><a href="http://arxiv.org/abs/2504.20941v1">Conformal-DP: Differential Privacy on Riemannian Manifolds via Conformal
+  Transformation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">  
+  <p><b>Published on:</b> 2025-04-29T17:05:55Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Peilin He, Liou Tang, M. Amin Rahimian, James Joshi</p>
+    <p><b>Summary:</b> Differential Privacy (DP) has been established as a safeguard for private
+data sharing by adding perturbations to information release. Prior research on
+DP has extended beyond data in the flat Euclidean space and addressed data on
+curved manifolds, e.g., diffusion tensor MRI, social networks, or organ shape
+analysis, by adding perturbations along geodesic distances. However, existing
+manifold-aware DP methods rely on the assumption that samples are uniformly
+distributed across the manifold. In reality, data densities vary, leading to a
+biased noise imbalance across manifold regions, weakening the privacy-utility
+trade-offs. To address this gap, we propose a novel mechanism: Conformal-DP,
+utilizing conformal transformations on the Riemannian manifold to equalize
+local sample density and to redefine geodesic distances accordingly while
+preserving the intrinsic geometry of the manifold. Our theoretical analysis
+yields two main results. First, we prove that the conformal factor computed
+from local kernel-density estimates is explicitly data-density-aware; Second,
+under the conformal metric, the mechanism satisfies $ \varepsilon
+$-differential privacy on any complete Riemannian manifold and admits a
+closed-form upper bound on the expected geodesic error that depends only on the
+maximal density ratio, not on global curvatureof the manifold. Our experimental
+results validate that the mechanism achieves high utility while providing the $
+\varepsilon $-DP guarantee for both homogeneous and especially heterogeneous
+manifold data.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.20926v1">Bipartite Randomized Response Mechanism for Local Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-04-29T16:39:50Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shun Zhang, Hai Zhu, Zhili Chen, Neal N. Xiong</p>
+    <p><b>Summary:</b> With the increasing importance of data privacy, Local Differential Privacy
+(LDP) has recently become a strong measure of privacy for protecting each
+user's privacy from data analysts without relying on a trusted third party. In
+many cases, both data providers and data analysts hope to maximize the utility
+of released data. In this paper, we study the fundamental trade-off formulated
+as a constrained optimization problem: maximizing data utility subject to the
+constraint of LDP budgets. In particular, the Generalized Randomized Response
+(GRR) treats all discrete data equally except for the true data. For this, we
+introduce an adaptive LDP mechanism called Bipartite Randomized Response (BRR),
+which solves the above privacy-utility maximization problem from the global
+standpoint. We prove that for any utility function and any privacy level,
+solving the maximization problem is equivalent to confirming how many
+high-utility data to be treated equally as the true data on release
+probability, the outcome of which gives the optimal randomized response.
+Further, solving this linear program can be computationally cheap in theory.
+Several examples of utility functions defined by distance metrics and
+applications in decision trees and deep learning are presented. The results of
+various experiments show that our BRR significantly outperforms the
+state-of-the-art LDP mechanisms of both continuous and distributed types.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.20827v1">DP-SMOTE: Integrating Differential Privacy and Oversampling Technique to
+  Preserve Privacy in Smart Homes</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-04-29T14:50:50Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Amr Tarek Elsayed, Almohammady Sobhi Alsharkawy, Mohamed Sayed Farag, Shaban Ebrahim Abu Yusuf</p>
+    <p><b>Summary:</b> Smart homes represent intelligent environments where interconnected devices
+gather information, enhancing users living experiences by ensuring comfort,
+safety, and efficient energy management. To enhance the quality of life,
+companies in the smart device industry collect user data, including activities,
+preferences, and power consumption. However, sharing such data necessitates
+privacy-preserving practices. This paper introduces a robust method for secure
+sharing of data to service providers, grounded in differential privacy (DP).
+This empowers smart home residents to contribute usage statistics while
+safeguarding their privacy. The approach incorporates the Synthetic Minority
+Oversampling technique (SMOTe) and seamlessly integrates Gaussian noise to
+generate synthetic data, enabling data and statistics sharing while preserving
+individual privacy. The proposed method employs the SMOTe algorithm and applies
+Gaussian noise to generate data. Subsequently, it employs a k-anonymity
+function to assess reidentification risk before sharing the data. The
+simulation outcomes demonstrate that our method delivers strong performance in
+safeguarding privacy and in accuracy, recall, and f-measure metrics. This
+approach is particularly effective in smart homes, offering substantial utility
+in privacy at a reidentification risk of 30%, with Gaussian noise set to 0.3,
+SMOTe at 500%, and the application of a k-anonymity function with k = 2.
+Additionally, it shows a high classification accuracy, ranging from 90% to 98%,
+across various classification techniques.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.20700v1">Building Trust in Healthcare with Privacy Techniques: Blockchain in the
+  Cloud</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-04-29T12:31:37Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ferhat Ozgur Catak, Chunming Rong, Øyvind Meinich-Bache, Sara Brunner, Kjersti Engan</p>
+    <p><b>Summary:</b> This study introduces a cutting-edge architecture developed for the
+NewbornTime project, which uses advanced AI to analyze video data at birth and
+during newborn resuscitation, with the aim of improving newborn care. The
+proposed architecture addresses the crucial issues of patient consent, data
+security, and investing trust in healthcare by integrating Ethereum blockchain
+with cloud computing. Our blockchain-based consent application simplifies
+patient consent's secure and transparent management. We explain the smart
+contract mechanisms and privacy measures employed, ensuring data protection
+while permitting controlled data sharing among authorized parties. This work
+demonstrates the potential of combining blockchain and cloud technologies in
+healthcare, emphasizing their role in maintaining data integrity, with
+implications for computer science and healthcare innovation.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.20639v1">Multi-Message Secure Aggregation with Demand Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
+  <p><b>Published on:</b> 2025-04-29T11:11:27Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Chenyi Sun, Ziting Zhang, Kai Wan, Giuseppe Caire</p>
+    <p><b>Summary:</b> This paper considers a multi-message secure aggregation with privacy problem,
+in which a server aims to compute $\sf K_c\geq 1$ linear combinations of local
+inputs from $\sf K$ distributed users. The problem addresses two tasks: (1)
+security, ensuring that the server can only obtain the desired linear
+combinations without any else information about the users' inputs, and (2)
+privacy, preventing users from learning about the server's computation task. In
+addition, the effect of user dropouts is considered, where at most $\sf{K-U}$
+users can drop out and the identity of these users cannot be predicted in
+advance. We propose two schemes for $\sf K_c$ is equal to (1) and $\sf 2\leq
+K_c\leq U-1$, respectively. For $\sf K_c$ is equal to (1), we introduce
+multiplicative encryption of the server's demand using a random variable, where
+users share coded keys offline and transmit masked models in the first round,
+followed by aggregated coded keys in the second round for task recovery. For
+$\sf{2\leq K_c \leq U-1}$, we use robust symmetric private computation to
+recover linear combinations of keys in the second round. The objective is to
+minimize the number of symbols sent by each user during the two rounds. Our
+proposed schemes have achieved the optimal rate region when $ \sf K_c $ is
+equal to (1) and the order optimal rate (within 2) when $\sf{2\leq K_c \leq
+U-1}$.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.20350v1">SoK: Enhancing Privacy-Preserving Software Development from a
+  Developers' Perspective</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-04-29T01:38:01Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Tharaka Wijesundara, Nalin Asanka Gamagedara Arachchilage, Matthew Warren</p>
+    <p><b>Summary:</b> In software development, privacy preservation has become essential with the
+rise of privacy concerns and regulations such as GDPR and CCPA. While several
+tools, guidelines, methods, methodologies, and frameworks have been proposed to
+support developers embedding privacy into software applications, most of them
+are proofs-of-concept without empirical evaluations, making their practical
+applicability uncertain. These solutions should be evaluated for different
+types of scenarios (e.g., industry settings such as rapid software development
+environments, teams with different privacy knowledge, etc.) to determine what
+their limitations are in various industry settings and what changes are
+required to refine current solutions before putting them into industry and
+developing new developer-supporting approaches. For that, a thorough review of
+empirically evaluated current solutions will be very effective. However, the
+existing secondary studies that examine the available developer support provide
+broad overviews but do not specifically analyze empirically evaluated solutions
+and their limitations. Therefore, this Systematic Literature Review (SLR) aims
+to identify and analyze empirically validated solutions that are designed to
+help developers in privacy-preserving software development. The findings will
+provide valuable insights for researchers to improve current privacy-preserving
+solutions and for practitioners looking for effective and validated solutions
+to embed privacy into software development.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.20282v1">FedCCL: Federated Clustered Continual Learning Framework for
+  Privacy-focused Energy Forecasting</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-04-28T21:51:27Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Michael A. Helcig, Stefan Nastic</p>
+    <p><b>Summary:</b> Privacy-preserving distributed model training is crucial for modern machine
+learning applications, yet existing Federated Learning approaches struggle with
+heterogeneous data distributions and varying computational capabilities.
+Traditional solutions either treat all participants uniformly or require costly
+dynamic clustering during training, leading to reduced efficiency and delayed
+model specialization. We present FedCCL (Federated Clustered Continual
+Learning), a framework specifically designed for environments with static
+organizational characteristics but dynamic client availability. By combining
+static pre-training clustering with an adapted asynchronous FedAvg algorithm,
+FedCCL enables new clients to immediately profit from specialized models
+without prior exposure to their data distribution, while maintaining reduced
+coordination overhead and resilience to client disconnections. Our approach
+implements an asynchronous Federated Learning protocol with a three-tier model
+topology - global, cluster-specific, and local models - that efficiently
+manages knowledge sharing across heterogeneous participants. Evaluation using
+photovoltaic installations across central Europe demonstrates that FedCCL's
+location-based clustering achieves an energy prediction error of 3.93%
+(+-0.21%), while maintaining data privacy and showing that the framework
+maintains stability for population-independent deployments, with 0.14
+percentage point degradation in performance for new installations. The results
+demonstrate that FedCCL offers an effective framework for privacy-preserving
+distributed learning, maintaining high accuracy and adaptability even with
+dynamic participant populations.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.19373v2">Doxing via the Lens: Revealing Privacy Leakage in Image Geolocation for
   Agentic Multi-Modal Large Reasoning Model</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
   <p><b>Published on:</b> 2025-04-27T22:26:45Z</p>
@@ -2756,215 +2973,6 @@ encryption to restrict the Verifier access to the temporal authorizations
 granted by the Holder. This way, the Issuer cannot track the Holder's
 credential presentations, and the Verifier cannot check revocation information
 beyond what is permitted by the Holder.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.22749v1">Adaptive Clipping for Privacy-Preserving Few-Shot Learning: Enhancing
-  Generalization with Limited Data</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-03-27T05:14:18Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Kanishka Ranaweera, Dinh C. Nguyen, Pubudu N. Pathirana, David Smith, Ming Ding, Thierry Rakotoarivelo, Aruna Seneviratne</p>
-    <p><b>Summary:</b> In the era of data-driven machine-learning applications, privacy concerns and
-the scarcity of labeled data have become paramount challenges. These challenges
-are particularly pronounced in the domain of few-shot learning, where the
-ability to learn from limited labeled data is crucial. Privacy-preserving
-few-shot learning algorithms have emerged as a promising solution to address
-such pronounced challenges. However, it is well-known that privacy-preserving
-techniques often lead to a drop in utility due to the fundamental trade-off
-between data privacy and model performance. To enhance the utility of
-privacy-preserving few-shot learning methods, we introduce a novel approach
-called Meta-Clip. This technique is specifically designed for meta-learning
-algorithms, including Differentially Private (DP) model-agnostic meta-learning,
-DP-Reptile, and DP-MetaSGD algorithms, with the objective of balancing data
-privacy preservation with learning capacity maximization. By dynamically
-adjusting clipping thresholds during the training process, our Adaptive
-Clipping method provides fine-grained control over the disclosure of sensitive
-information, mitigating overfitting on small datasets and significantly
-improving the generalization performance of meta-learning models. Through
-comprehensive experiments on diverse benchmark datasets, we demonstrate the
-effectiveness of our approach in minimizing utility degradation, showcasing a
-superior privacy-utility trade-off compared to existing privacy-preserving
-techniques. The adoption of Adaptive Clipping represents a substantial step
-forward in the field of privacy-preserving few-shot learning, empowering the
-development of secure and accurate models for real-world applications,
-especially in scenarios where there are limited data availability.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.21159v1">Multi-Objective Optimization for Privacy-Utility Balance in
-  Differentially Private Federated Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-03-27T04:57:05Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Kanishka Ranaweera, David Smith, Pubudu N. Pathirana, Ming Ding, Thierry Rakotoarivelo, Aruna Seneviratne</p>
-    <p><b>Summary:</b> Federated learning (FL) enables collaborative model training across
-distributed clients without sharing raw data, making it a promising approach
-for privacy-preserving machine learning. However, ensuring differential privacy
-(DP) in FL presents challenges due to the trade-off between model utility and
-privacy protection. Clipping gradients before aggregation is a common strategy
-to limit privacy loss, but selecting an optimal clipping norm is non-trivial,
-as excessively high values compromise privacy, while overly restrictive
-clipping degrades model performance. In this work, we propose an adaptive
-clipping mechanism that dynamically adjusts the clipping norm using a
-multi-objective optimization framework. By integrating privacy and utility
-considerations into the optimization objective, our approach balances privacy
-preservation with model accuracy. We theoretically analyze the convergence
-properties of our method and demonstrate its effectiveness through extensive
-experiments on MNIST, Fashion-MNIST, and CIFAR-10 datasets. Our results show
-that adaptive clipping consistently outperforms fixed-clipping baselines,
-achieving improved accuracy under the same privacy constraints. This work
-highlights the potential of dynamic clipping strategies to enhance
-privacy-utility trade-offs in differentially private federated learning.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.21154v1">Federated Learning with Differential Privacy: An Utility-Enhanced
-  Approach</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-03-27T04:48:29Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Kanishka Ranaweera, Dinh C. Nguyen, Pubudu N. Pathirana, David Smith, Ming Ding, Thierry Rakotoarivelo, Aruna Seneviratne</p>
-    <p><b>Summary:</b> Federated learning has emerged as an attractive approach to protect data
-privacy by eliminating the need for sharing clients' data while reducing
-communication costs compared with centralized machine learning algorithms.
-However, recent studies have shown that federated learning alone does not
-guarantee privacy, as private data may still be inferred from the uploaded
-parameters to the central server. In order to successfully avoid data leakage,
-adopting differential privacy (DP) in the local optimization process or in the
-local update aggregation process has emerged as two feasible ways for achieving
-sample-level or user-level privacy guarantees respectively, in federated
-learning models. However, compared to their non-private equivalents, these
-approaches suffer from a poor utility. To improve the privacy-utility
-trade-off, we present a modification to these vanilla differentially private
-algorithms based on a Haar wavelet transformation step and a novel noise
-injection scheme that significantly lowers the asymptotic bound of the noise
-variance. We also present a holistic convergence analysis of our proposed
-algorithm, showing that our method yields better convergence performance than
-the vanilla DP algorithms. Numerical experiments on real-world datasets
-demonstrate that our method outperforms existing approaches in model utility
-while maintaining the same privacy guarantees.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.21071v1">Purifying Approximate Differential Privacy with Randomized
-  Post-processing</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
-  <p><b>Published on:</b> 2025-03-27T01:10:40Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yingyu Lin, Erchi Wang, Yi-An Ma, Yu-Xiang Wang</p>
-    <p><b>Summary:</b> We propose a framework to convert $(\varepsilon, \delta)$-approximate
-Differential Privacy (DP) mechanisms into $(\varepsilon, 0)$-pure DP
-mechanisms, a process we call ``purification''. This algorithmic technique
-leverages randomized post-processing with calibrated noise to eliminate the
-$\delta$ parameter while preserving utility. By combining the tighter utility
-bounds and computational efficiency of approximate DP mechanisms with the
-stronger guarantees of pure DP, our approach achieves the best of both worlds.
-We illustrate the applicability of this framework in various settings,
-including Differentially Private Empirical Risk Minimization (DP-ERM),
-data-dependent DP mechanisms such as Propose-Test-Release (PTR), and query
-release tasks. To the best of our knowledge, this is the first work to provide
-a systematic method for transforming approximate DP into pure DP while
-maintaining competitive accuracy and computational efficiency.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.21010v1">Privacy in Immersive Extended Reality: Exploring User Perceptions,
-  Concerns, and Coping Strategies</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2025-03-26T21:58:19Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Hilda Hadan, Derrick M. Wang, Lennart E. Nacke, Leah Zhang-Kennedy</p>
-    <p><b>Summary:</b> Extended Reality (XR) technology is changing online interactions, but its
-granular data collection sensors may be more invasive to user privacy than web,
-mobile, and the Internet of Things technologies. Despite an increased interest
-in studying developers' concerns about XR device privacy, user perceptions have
-rarely been addressed. We surveyed 464 XR users to assess their awareness,
-concerns, and coping strategies around XR data in 18 scenarios. Our findings
-demonstrate that many factors, such as data types and sensitivity, affect
-users' perceptions of privacy in XR. However, users' limited awareness of XR
-sensors' granular data collection capabilities, such as involuntary body
-signals of emotional responses, restricted the range of privacy-protective
-strategies they used. Our results highlight a need to enhance users' awareness
-of data privacy threats in XR, design privacy-choice interfaces tailored to XR
-environments, and develop transparent XR data practices.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.20846v1">Generating Synthetic Data with Formal Privacy Guarantees: State of the
-  Art and the Road Ahead</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2025-03-26T16:06:33Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Viktor Schlegel, Anil A Bharath, Zilong Zhao, Kevin Yee</p>
-    <p><b>Summary:</b> Privacy-preserving synthetic data offers a promising solution to harness
-segregated data in high-stakes domains where information is compartmentalized
-for regulatory, privacy, or institutional reasons. This survey provides a
-comprehensive framework for understanding the landscape of privacy-preserving
-synthetic data, presenting the theoretical foundations of generative models and
-differential privacy followed by a review of state-of-the-art methods across
-tabular data, images, and text. Our synthesis of evaluation approaches
-highlights the fundamental trade-off between utility for down-stream tasks and
-privacy guarantees, while identifying critical research gaps: the lack of
-realistic benchmarks representing specialized domains and insufficient
-empirical evaluations required to contextualise formal guarantees.
-  Through empirical analysis of four leading methods on five real-world
-datasets from specialized domains, we demonstrate significant performance
-degradation under realistic privacy constraints ($\epsilon \leq 4$), revealing
-a substantial gap between results reported on general domain benchmarks and
-performance on domain-specific data. %Our findings highlight key challenges
-including unaccounted privacy leakage, insufficient empirical verification of
-formal guarantees, and a critical deficit of realistic benchmarks. These
-challenges underscore the need for robust evaluation frameworks, standardized
-benchmarks for specialized domains, and improved techniques to address the
-unique requirements of privacy-sensitive fields such that this technology can
-deliver on its considerable potential.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.20464v1">Modelling Privacy Compliance in Cross-border Data Transfers with
-  Bigraphs</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
-  <p><b>Published on:</b> 2025-03-26T11:50:55Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ebtihal Althubiti, Michele Sevegnani</p>
-    <p><b>Summary:</b> Advancements in information technology have led to the sharing of users' data
-across borders, raising privacy concerns, particularly when destination
-countries lack adequate protection measures. Regulations like the European
-General Data Protection Regulation (GDPR) govern international data transfers,
-imposing significant fines on companies failing to comply. To achieve
-compliance, we propose a privacy framework based on Milner's Bigraphical
-Reactive Systems (BRSs), a formalism modelling spatial and non-spatial
-relationships between entities. BRSs evolve over time via user-specified
-rewriting rules, defined algebraically and diagrammatically. In this paper, we
-rely on diagrammatic notations, enabling adoption by end-users and privacy
-experts without formal modelling backgrounds. The framework comprises
-predefined privacy reaction rules modelling GDPR requirements for international
-data transfers, properties expressed in Computation Tree Logic (CTL) to
-automatically verify these requirements with a model checker and sorting
-schemes to statically ensure models are well-formed. We demonstrate the
-framework's applicability by modelling WhatsApp's privacy policies.</p>
   </details>
 </div>
 
