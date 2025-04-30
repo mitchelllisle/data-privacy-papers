@@ -2230,5 +2230,205 @@
       "cs.AI",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.20941v1",
+    "title" : "Conformal-DP: Differential Privacy on Riemannian Manifolds via Conformal\n  Transformation",
+    "summary" : "Differential Privacy (DP) has been established as a safeguard for private\ndata sharing by adding perturbations to information release. Prior research on\nDP has extended beyond data in the flat Euclidean space and addressed data on\ncurved manifolds, e.g., diffusion tensor MRI, social networks, or organ shape\nanalysis, by adding perturbations along geodesic distances. However, existing\nmanifold-aware DP methods rely on the assumption that samples are uniformly\ndistributed across the manifold. In reality, data densities vary, leading to a\nbiased noise imbalance across manifold regions, weakening the privacy-utility\ntrade-offs. To address this gap, we propose a novel mechanism: Conformal-DP,\nutilizing conformal transformations on the Riemannian manifold to equalize\nlocal sample density and to redefine geodesic distances accordingly while\npreserving the intrinsic geometry of the manifold. Our theoretical analysis\nyields two main results. First, we prove that the conformal factor computed\nfrom local kernel-density estimates is explicitly data-density-aware; Second,\nunder the conformal metric, the mechanism satisfies $ \\varepsilon\n$-differential privacy on any complete Riemannian manifold and admits a\nclosed-form upper bound on the expected geodesic error that depends only on the\nmaximal density ratio, not on global curvatureof the manifold. Our experimental\nresults validate that the mechanism achieves high utility while providing the $\n\\varepsilon $-DP guarantee for both homogeneous and especially heterogeneous\nmanifold data.",
+    "updated" : "2025-04-29T17:05:55Z",
+    "published" : "2025-04-29T17:05:55Z",
+    "authors" : [
+      {
+        "name" : "Peilin He"
+      },
+      {
+        "name" : "Liou Tang"
+      },
+      {
+        "name" : "M. Amin Rahimian"
+      },
+      {
+        "name" : "James Joshi"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "math.DG",
+      "stat.OT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.20926v1",
+    "title" : "Bipartite Randomized Response Mechanism for Local Differential Privacy",
+    "summary" : "With the increasing importance of data privacy, Local Differential Privacy\n(LDP) has recently become a strong measure of privacy for protecting each\nuser's privacy from data analysts without relying on a trusted third party. In\nmany cases, both data providers and data analysts hope to maximize the utility\nof released data. In this paper, we study the fundamental trade-off formulated\nas a constrained optimization problem: maximizing data utility subject to the\nconstraint of LDP budgets. In particular, the Generalized Randomized Response\n(GRR) treats all discrete data equally except for the true data. For this, we\nintroduce an adaptive LDP mechanism called Bipartite Randomized Response (BRR),\nwhich solves the above privacy-utility maximization problem from the global\nstandpoint. We prove that for any utility function and any privacy level,\nsolving the maximization problem is equivalent to confirming how many\nhigh-utility data to be treated equally as the true data on release\nprobability, the outcome of which gives the optimal randomized response.\nFurther, solving this linear program can be computationally cheap in theory.\nSeveral examples of utility functions defined by distance metrics and\napplications in decision trees and deep learning are presented. The results of\nvarious experiments show that our BRR significantly outperforms the\nstate-of-the-art LDP mechanisms of both continuous and distributed types.",
+    "updated" : "2025-04-29T16:39:50Z",
+    "published" : "2025-04-29T16:39:50Z",
+    "authors" : [
+      {
+        "name" : "Shun Zhang"
+      },
+      {
+        "name" : "Hai Zhu"
+      },
+      {
+        "name" : "Zhili Chen"
+      },
+      {
+        "name" : "Neal N. Xiong"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.20827v1",
+    "title" : "DP-SMOTE: Integrating Differential Privacy and Oversampling Technique to\n  Preserve Privacy in Smart Homes",
+    "summary" : "Smart homes represent intelligent environments where interconnected devices\ngather information, enhancing users living experiences by ensuring comfort,\nsafety, and efficient energy management. To enhance the quality of life,\ncompanies in the smart device industry collect user data, including activities,\npreferences, and power consumption. However, sharing such data necessitates\nprivacy-preserving practices. This paper introduces a robust method for secure\nsharing of data to service providers, grounded in differential privacy (DP).\nThis empowers smart home residents to contribute usage statistics while\nsafeguarding their privacy. The approach incorporates the Synthetic Minority\nOversampling technique (SMOTe) and seamlessly integrates Gaussian noise to\ngenerate synthetic data, enabling data and statistics sharing while preserving\nindividual privacy. The proposed method employs the SMOTe algorithm and applies\nGaussian noise to generate data. Subsequently, it employs a k-anonymity\nfunction to assess reidentification risk before sharing the data. The\nsimulation outcomes demonstrate that our method delivers strong performance in\nsafeguarding privacy and in accuracy, recall, and f-measure metrics. This\napproach is particularly effective in smart homes, offering substantial utility\nin privacy at a reidentification risk of 30%, with Gaussian noise set to 0.3,\nSMOTe at 500%, and the application of a k-anonymity function with k = 2.\nAdditionally, it shows a high classification accuracy, ranging from 90% to 98%,\nacross various classification techniques.",
+    "updated" : "2025-04-29T14:50:50Z",
+    "published" : "2025-04-29T14:50:50Z",
+    "authors" : [
+      {
+        "name" : "Amr Tarek Elsayed"
+      },
+      {
+        "name" : "Almohammady Sobhi Alsharkawy"
+      },
+      {
+        "name" : "Mohamed Sayed Farag"
+      },
+      {
+        "name" : "Shaban Ebrahim Abu Yusuf"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.20700v1",
+    "title" : "Building Trust in Healthcare with Privacy Techniques: Blockchain in the\n  Cloud",
+    "summary" : "This study introduces a cutting-edge architecture developed for the\nNewbornTime project, which uses advanced AI to analyze video data at birth and\nduring newborn resuscitation, with the aim of improving newborn care. The\nproposed architecture addresses the crucial issues of patient consent, data\nsecurity, and investing trust in healthcare by integrating Ethereum blockchain\nwith cloud computing. Our blockchain-based consent application simplifies\npatient consent's secure and transparent management. We explain the smart\ncontract mechanisms and privacy measures employed, ensuring data protection\nwhile permitting controlled data sharing among authorized parties. This work\ndemonstrates the potential of combining blockchain and cloud technologies in\nhealthcare, emphasizing their role in maintaining data integrity, with\nimplications for computer science and healthcare innovation.",
+    "updated" : "2025-04-29T12:31:37Z",
+    "published" : "2025-04-29T12:31:37Z",
+    "authors" : [
+      {
+        "name" : "Ferhat Ozgur Catak"
+      },
+      {
+        "name" : "Chunming Rong"
+      },
+      {
+        "name" : "Øyvind Meinich-Bache"
+      },
+      {
+        "name" : "Sara Brunner"
+      },
+      {
+        "name" : "Kjersti Engan"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.20639v1",
+    "title" : "Multi-Message Secure Aggregation with Demand Privacy",
+    "summary" : "This paper considers a multi-message secure aggregation with privacy problem,\nin which a server aims to compute $\\sf K_c\\geq 1$ linear combinations of local\ninputs from $\\sf K$ distributed users. The problem addresses two tasks: (1)\nsecurity, ensuring that the server can only obtain the desired linear\ncombinations without any else information about the users' inputs, and (2)\nprivacy, preventing users from learning about the server's computation task. In\naddition, the effect of user dropouts is considered, where at most $\\sf{K-U}$\nusers can drop out and the identity of these users cannot be predicted in\nadvance. We propose two schemes for $\\sf K_c$ is equal to (1) and $\\sf 2\\leq\nK_c\\leq U-1$, respectively. For $\\sf K_c$ is equal to (1), we introduce\nmultiplicative encryption of the server's demand using a random variable, where\nusers share coded keys offline and transmit masked models in the first round,\nfollowed by aggregated coded keys in the second round for task recovery. For\n$\\sf{2\\leq K_c \\leq U-1}$, we use robust symmetric private computation to\nrecover linear combinations of keys in the second round. The objective is to\nminimize the number of symbols sent by each user during the two rounds. Our\nproposed schemes have achieved the optimal rate region when $ \\sf K_c $ is\nequal to (1) and the order optimal rate (within 2) when $\\sf{2\\leq K_c \\leq\nU-1}$.",
+    "updated" : "2025-04-29T11:11:27Z",
+    "published" : "2025-04-29T11:11:27Z",
+    "authors" : [
+      {
+        "name" : "Chenyi Sun"
+      },
+      {
+        "name" : "Ziting Zhang"
+      },
+      {
+        "name" : "Kai Wan"
+      },
+      {
+        "name" : "Giuseppe Caire"
+      }
+    ],
+    "categories" : [
+      "cs.IT",
+      "math.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.20350v1",
+    "title" : "SoK: Enhancing Privacy-Preserving Software Development from a\n  Developers' Perspective",
+    "summary" : "In software development, privacy preservation has become essential with the\nrise of privacy concerns and regulations such as GDPR and CCPA. While several\ntools, guidelines, methods, methodologies, and frameworks have been proposed to\nsupport developers embedding privacy into software applications, most of them\nare proofs-of-concept without empirical evaluations, making their practical\napplicability uncertain. These solutions should be evaluated for different\ntypes of scenarios (e.g., industry settings such as rapid software development\nenvironments, teams with different privacy knowledge, etc.) to determine what\ntheir limitations are in various industry settings and what changes are\nrequired to refine current solutions before putting them into industry and\ndeveloping new developer-supporting approaches. For that, a thorough review of\nempirically evaluated current solutions will be very effective. However, the\nexisting secondary studies that examine the available developer support provide\nbroad overviews but do not specifically analyze empirically evaluated solutions\nand their limitations. Therefore, this Systematic Literature Review (SLR) aims\nto identify and analyze empirically validated solutions that are designed to\nhelp developers in privacy-preserving software development. The findings will\nprovide valuable insights for researchers to improve current privacy-preserving\nsolutions and for practitioners looking for effective and validated solutions\nto embed privacy into software development.",
+    "updated" : "2025-04-29T01:38:01Z",
+    "published" : "2025-04-29T01:38:01Z",
+    "authors" : [
+      {
+        "name" : "Tharaka Wijesundara"
+      },
+      {
+        "name" : "Nalin Asanka Gamagedara Arachchilage"
+      },
+      {
+        "name" : "Matthew Warren"
+      }
+    ],
+    "categories" : [
+      "cs.SE",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.20282v1",
+    "title" : "FedCCL: Federated Clustered Continual Learning Framework for\n  Privacy-focused Energy Forecasting",
+    "summary" : "Privacy-preserving distributed model training is crucial for modern machine\nlearning applications, yet existing Federated Learning approaches struggle with\nheterogeneous data distributions and varying computational capabilities.\nTraditional solutions either treat all participants uniformly or require costly\ndynamic clustering during training, leading to reduced efficiency and delayed\nmodel specialization. We present FedCCL (Federated Clustered Continual\nLearning), a framework specifically designed for environments with static\norganizational characteristics but dynamic client availability. By combining\nstatic pre-training clustering with an adapted asynchronous FedAvg algorithm,\nFedCCL enables new clients to immediately profit from specialized models\nwithout prior exposure to their data distribution, while maintaining reduced\ncoordination overhead and resilience to client disconnections. Our approach\nimplements an asynchronous Federated Learning protocol with a three-tier model\ntopology - global, cluster-specific, and local models - that efficiently\nmanages knowledge sharing across heterogeneous participants. Evaluation using\nphotovoltaic installations across central Europe demonstrates that FedCCL's\nlocation-based clustering achieves an energy prediction error of 3.93%\n(+-0.21%), while maintaining data privacy and showing that the framework\nmaintains stability for population-independent deployments, with 0.14\npercentage point degradation in performance for new installations. The results\ndemonstrate that FedCCL offers an effective framework for privacy-preserving\ndistributed learning, maintaining high accuracy and adaptability even with\ndynamic participant populations.",
+    "updated" : "2025-04-28T21:51:27Z",
+    "published" : "2025-04-28T21:51:27Z",
+    "authors" : [
+      {
+        "name" : "Michael A. Helcig"
+      },
+      {
+        "name" : "Stefan Nastic"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.19373v2",
+    "title" : "Doxing via the Lens: Revealing Privacy Leakage in Image Geolocation for\n  Agentic Multi-Modal Large Reasoning Model",
+    "summary" : "The increasing capabilities of agentic multi-modal large reasoning models,\nsuch as ChatGPT o3, have raised critical concerns regarding privacy leakage\nthrough inadvertent image geolocation. In this paper, we conduct the first\nsystematic and controlled study on the potential privacy risks associated with\nvisual reasoning abilities of ChatGPT o3. We manually collect and construct a\ndataset comprising 50 real-world images that feature individuals alongside\nprivacy-relevant environmental elements, capturing realistic and sensitive\nscenarios for analysis. Our experimental evaluation reveals that ChatGPT o3 can\npredict user locations with high precision, achieving street-level accuracy\n(within one mile) in 60% of cases. Through analysis, we identify key visual\ncues, including street layout and front yard design, that significantly\ncontribute to the model inference success. Additionally, targeted occlusion\nexperiments demonstrate that masking critical features effectively mitigates\ngeolocation accuracy, providing insights into potential defense mechanisms. Our\nfindings highlight an urgent need for privacy-aware development for agentic\nmulti-modal large reasoning models, particularly in applications involving\nprivate imagery.",
+    "updated" : "2025-04-29T12:00:08Z",
+    "published" : "2025-04-27T22:26:45Z",
+    "authors" : [
+      {
+        "name" : "Weidi Luo"
+      },
+      {
+        "name" : "Qiming Zhang"
+      },
+      {
+        "name" : "Tianyu Lu"
+      },
+      {
+        "name" : "Xiaogeng Liu"
+      },
+      {
+        "name" : "Yue Zhao"
+      },
+      {
+        "name" : "Zhen Xiang"
+      },
+      {
+        "name" : "Chaowei Xiao"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
   }
 ]
