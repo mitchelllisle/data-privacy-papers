@@ -2430,5 +2430,201 @@
       "cs.CR",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.21752v1",
+    "title" : "VDDP: Verifiable Distributed Differential Privacy under the\n  Client-Server-Verifier Setup",
+    "summary" : "Despite differential privacy (DP) often being considered the de facto\nstandard for data privacy, its realization is vulnerable to unfaithful\nexecution of its mechanisms by servers, especially in distributed settings.\nSpecifically, servers may sample noise from incorrect distributions or generate\ncorrelated noise while appearing to follow established protocols. This work\nanalyzes these malicious behaviors in a general differential privacy framework\nwithin a distributed client-server-verifier setup. To address these adversarial\nproblems, we propose a novel definition called Verifiable Distributed\nDifferential Privacy (VDDP) by incorporating additional verification\nmechanisms. We also explore the relationship between zero-knowledge proofs\n(ZKP) and DP, demonstrating that while ZKPs are sufficient for achieving DP\nunder verifiability requirements, they are not necessary. Furthermore, we\ndevelop two novel and efficient mechanisms that satisfy VDDP: (1) the\nVerifiable Distributed Discrete Laplacian Mechanism (VDDLM), which offers up to\na $4 \\times 10^5$x improvement in proof generation efficiency with only\n0.1-0.2x error compared to the previous state-of-the-art verifiable\ndifferentially private mechanism; (2) an improved solution to Verifiable\nRandomized Response (VRR) under local DP, a special case of VDDP, achieving up\na reduction of up to 5000x in communication costs and the verifier's overhead.",
+    "updated" : "2025-04-30T15:46:55Z",
+    "published" : "2025-04-30T15:46:55Z",
+    "authors" : [
+      {
+        "name" : "Haochen Sun"
+      },
+      {
+        "name" : "Xi He"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DB"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.21646v1",
+    "title" : "Diffusion-based Adversarial Identity Manipulation for Facial Privacy\n  Protection",
+    "summary" : "The success of face recognition (FR) systems has led to serious privacy\nconcerns due to potential unauthorized surveillance and user tracking on social\nnetworks. Existing methods for enhancing privacy fail to generate natural face\nimages that can protect facial privacy. In this paper, we propose\ndiffusion-based adversarial identity manipulation (DiffAIM) to generate natural\nand highly transferable adversarial faces against malicious FR systems. To be\nspecific, we manipulate facial identity within the low-dimensional latent space\nof a diffusion model. This involves iteratively injecting gradient-based\nadversarial identity guidance during the reverse diffusion process,\nprogressively steering the generation toward the desired adversarial faces. The\nguidance is optimized for identity convergence towards a target while promoting\nsemantic divergence from the source, facilitating effective impersonation while\nmaintaining visual naturalness. We further incorporate structure-preserving\nregularization to preserve facial structure consistency during manipulation.\nExtensive experiments on both face verification and identification tasks\ndemonstrate that compared with the state-of-the-art, DiffAIM achieves stronger\nblack-box attack transferability while maintaining superior visual quality. We\nalso demonstrate the effectiveness of the proposed approach for commercial FR\nAPIs, including Face++ and Aliyun.",
+    "updated" : "2025-04-30T13:49:59Z",
+    "published" : "2025-04-30T13:49:59Z",
+    "authors" : [
+      {
+        "name" : "Liqin Wang"
+      },
+      {
+        "name" : "Qianyue Hu"
+      },
+      {
+        "name" : "Wei Lu"
+      },
+      {
+        "name" : "Xiangyang Luo"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.21413v1",
+    "title" : "An Inversion Theorem for Buffered Linear Toeplitz (BLT) Matrices and\n  Applications to Streaming Differential Privacy",
+    "summary" : "Buffered Linear Toeplitz (BLT) matrices are a family of parameterized\nlower-triangular matrices that play an important role in streaming differential\nprivacy with correlated noise. Our main result is a BLT inversion theorem: the\ninverse of a BLT matrix is itself a BLT matrix with different parameters. We\nalso present an efficient and differentiable $O(d^3)$ algorithm to compute the\nparameters of the inverse BLT matrix, where $d$ is the degree of the original\nBLT (typically $d < 10$). Our characterization enables direct optimization of\nBLT parameters for privacy mechanisms through automatic differentiation.",
+    "updated" : "2025-04-30T08:14:09Z",
+    "published" : "2025-04-30T08:14:09Z",
+    "authors" : [
+      {
+        "name" : "H. Brendan McMahan"
+      },
+      {
+        "name" : "Krishna Pillutla"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "eess.SP"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.21297v1",
+    "title" : "Participatory AI, Public Sector AI, Differential Privacy, Conversational\n  Interfaces, Explainable AI, Citizen Engagement in AI",
+    "summary" : "This paper introduces a conversational interface system that enables\nparticipatory design of differentially private AI systems in public sector\napplications. Addressing the challenge of balancing mathematical privacy\nguarantees with democratic accountability, we propose three key contributions:\n(1) an adaptive $\\epsilon$-selection protocol leveraging TOPSIS multi-criteria\ndecision analysis to align citizen preferences with differential privacy (DP)\nparameters, (2) an explainable noise-injection framework featuring real-time\nMean Absolute Error (MAE) visualizations and GPT-4-powered impact analysis, and\n(3) an integrated legal-compliance mechanism that dynamically modulates privacy\nbudgets based on evolving regulatory constraints. Our results advance\nparticipatory AI practices by demonstrating how conversational interfaces can\nenhance public engagement in algorithmic privacy mechanisms, ensuring that\nprivacy-preserving AI in public sector governance remains both mathematically\nrobust and democratically accountable.",
+    "updated" : "2025-04-30T04:10:50Z",
+    "published" : "2025-04-30T04:10:50Z",
+    "authors" : [
+      {
+        "name" : "Wenjun Yang"
+      },
+      {
+        "name" : "Eyhab Al-Masri"
+      }
+    ],
+    "categories" : [
+      "cs.IT",
+      "cs.AI",
+      "cs.CY",
+      "cs.ET",
+      "math.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.21182v1",
+    "title" : "Federated One-Shot Learning with Data Privacy and Objective-Hiding",
+    "summary" : "Privacy in federated learning is crucial, encompassing two key aspects:\nsafeguarding the privacy of clients' data and maintaining the privacy of the\nfederator's objective from the clients. While the first aspect has been\nextensively studied, the second has received much less attention.\n  We present a novel approach that addresses both concerns simultaneously,\ndrawing inspiration from techniques in knowledge distillation and private\ninformation retrieval to provide strong information-theoretic privacy\nguarantees.\n  Traditional private function computation methods could be used here; however,\nthey are typically limited to linear or polynomial functions. To overcome these\nconstraints, our approach unfolds in three stages. In stage 0, clients perform\nthe necessary computations locally. In stage 1, these results are shared among\nthe clients, and in stage 2, the federator retrieves its desired objective\nwithout compromising the privacy of the clients' data. The crux of the method\nis a carefully designed protocol that combines secret-sharing-based multi-party\ncomputation and a graph-based private information retrieval scheme. We show\nthat our method outperforms existing tools from the literature when properly\nadapted to this setting.",
+    "updated" : "2025-04-29T21:25:34Z",
+    "published" : "2025-04-29T21:25:34Z",
+    "authors" : [
+      {
+        "name" : "Maximilian Egger"
+      },
+      {
+        "name" : "Rüdiger Urbanke"
+      },
+      {
+        "name" : "Rawad Bitar"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DC",
+      "cs.IT",
+      "cs.LG",
+      "math.IT",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.20350v2",
+    "title" : "SoK: Enhancing Privacy-Preserving Software Development from a\n  Developers' Perspective",
+    "summary" : "In software development, privacy preservation has become essential with the\nrise of privacy concerns and regulations such as GDPR and CCPA. While several\ntools, guidelines, methods, methodologies, and frameworks have been proposed to\nsupport developers embedding privacy into software applications, most of them\nare proofs-of-concept without empirical evaluations, making their practical\napplicability uncertain. These solutions should be evaluated for different\ntypes of scenarios (e.g., industry settings such as rapid software development\nenvironments, teams with different privacy knowledge, etc.) to determine what\ntheir limitations are in various industry settings and what changes are\nrequired to refine current solutions before putting them into industry and\ndeveloping new developer-supporting approaches. For that, a thorough review of\nempirically evaluated current solutions will be very effective. However, the\nexisting secondary studies that examine the available developer support provide\nbroad overviews but do not specifically analyze empirically evaluated solutions\nand their limitations. Therefore, this Systematic Literature Review (SLR) aims\nto identify and analyze empirically validated solutions that are designed to\nhelp developers in privacy-preserving software development. The findings will\nprovide valuable insights for researchers to improve current privacy-preserving\nsolutions and for practitioners looking for effective and validated solutions\nto embed privacy into software development.",
+    "updated" : "2025-04-30T02:38:48Z",
+    "published" : "2025-04-29T01:38:01Z",
+    "authors" : [
+      {
+        "name" : "Tharaka Wijesundara"
+      },
+      {
+        "name" : "Matthew Warren"
+      },
+      {
+        "name" : "Nalin Asanka Gamagedara Arachchilage"
+      }
+    ],
+    "categories" : [
+      "cs.SE",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.21036v1",
+    "title" : "Can Differentially Private Fine-tuning LLMs Protect Against Privacy\n  Attacks?",
+    "summary" : "Fine-tuning large language models (LLMs) has become an essential strategy for\nadapting them to specialized tasks; however, this process introduces\nsignificant privacy challenges, as sensitive training data may be inadvertently\nmemorized and exposed. Although differential privacy (DP) offers strong\ntheoretical guarantees against such leakage, its empirical privacy\neffectiveness on LLMs remains unclear, especially under different fine-tuning\nmethods. In this paper, we systematically investigate the impact of DP across\nfine-tuning methods and privacy budgets, using both data extraction and\nmembership inference attacks to assess empirical privacy risks. Our main\nfindings are as follows: (1) Differential privacy reduces model utility, but\nits impact varies significantly across different fine-tuning methods. (2)\nWithout DP, the privacy risks of models fine-tuned with different approaches\ndiffer considerably. (3) When DP is applied, even a relatively high privacy\nbudget can substantially lower privacy risk. (4) The privacy-utility trade-off\nunder DP training differs greatly among fine-tuning methods, with some methods\nbeing unsuitable for DP due to severe utility degradation. Our results provide\npractical guidance for privacy-conscious deployment of LLMs and pave the way\nfor future research on optimizing the privacy-utility trade-off in fine-tuning\nmethodologies.",
+    "updated" : "2025-04-28T05:34:53Z",
+    "published" : "2025-04-28T05:34:53Z",
+    "authors" : [
+      {
+        "name" : "Hao Du"
+      },
+      {
+        "name" : "Shang Liu"
+      },
+      {
+        "name" : "Yang Cao"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.21035v1",
+    "title" : "A False Sense of Privacy: Evaluating Textual Data Sanitization Beyond\n  Surface-level Privacy Leakage",
+    "summary" : "Sanitizing sensitive text data typically involves removing personally\nidentifiable information (PII) or generating synthetic data under the\nassumption that these methods adequately protect privacy; however, their\neffectiveness is often only assessed by measuring the leakage of explicit\nidentifiers but ignoring nuanced textual markers that can lead to\nre-identification. We challenge the above illusion of privacy by proposing a\nnew framework that evaluates re-identification attacks to quantify individual\nprivacy risks upon data release. Our approach shows that seemingly innocuous\nauxiliary information -- such as routine social activities -- can be used to\ninfer sensitive attributes like age or substance use history from sanitized\ndata. For instance, we demonstrate that Azure's commercial PII removal tool\nfails to protect 74\\% of information in the MedQA dataset. Although\ndifferential privacy mitigates these risks to some extent, it significantly\nreduces the utility of the sanitized text for downstream tasks. Our findings\nindicate that current sanitization techniques offer a \\textit{false sense of\nprivacy}, highlighting the need for more robust methods that protect against\nsemantic-level information leakage.",
+    "updated" : "2025-04-28T01:16:27Z",
+    "published" : "2025-04-28T01:16:27Z",
+    "authors" : [
+      {
+        "name" : "Rui Xin"
+      },
+      {
+        "name" : "Niloofar Mireshghallah"
+      },
+      {
+        "name" : "Shuyue Stella Li"
+      },
+      {
+        "name" : "Michael Duan"
+      },
+      {
+        "name" : "Hyunwoo Kim"
+      },
+      {
+        "name" : "Yejin Choi"
+      },
+      {
+        "name" : "Yulia Tsvetkov"
+      },
+      {
+        "name" : "Sewoong Oh"
+      },
+      {
+        "name" : "Pang Wei Koh"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CL",
+      "cs.LG"
+    ]
   }
 ]
