@@ -2,6 +2,143 @@
 <h2>2025-04</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.21752v1">VDDP: Verifiable Distributed Differential Privacy under the
+  Client-Server-Verifier Setup</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
+  <p><b>Published on:</b> 2025-04-30T15:46:55Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Haochen Sun, Xi He</p>
+    <p><b>Summary:</b> Despite differential privacy (DP) often being considered the de facto
+standard for data privacy, its realization is vulnerable to unfaithful
+execution of its mechanisms by servers, especially in distributed settings.
+Specifically, servers may sample noise from incorrect distributions or generate
+correlated noise while appearing to follow established protocols. This work
+analyzes these malicious behaviors in a general differential privacy framework
+within a distributed client-server-verifier setup. To address these adversarial
+problems, we propose a novel definition called Verifiable Distributed
+Differential Privacy (VDDP) by incorporating additional verification
+mechanisms. We also explore the relationship between zero-knowledge proofs
+(ZKP) and DP, demonstrating that while ZKPs are sufficient for achieving DP
+under verifiability requirements, they are not necessary. Furthermore, we
+develop two novel and efficient mechanisms that satisfy VDDP: (1) the
+Verifiable Distributed Discrete Laplacian Mechanism (VDDLM), which offers up to
+a $4 \times 10^5$x improvement in proof generation efficiency with only
+0.1-0.2x error compared to the previous state-of-the-art verifiable
+differentially private mechanism; (2) an improved solution to Verifiable
+Randomized Response (VRR) under local DP, a special case of VDDP, achieving up
+a reduction of up to 5000x in communication costs and the verifier's overhead.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.21646v1">Diffusion-based Adversarial Identity Manipulation for Facial Privacy
+  Protection</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2025-04-30T13:49:59Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Liqin Wang, Qianyue Hu, Wei Lu, Xiangyang Luo</p>
+    <p><b>Summary:</b> The success of face recognition (FR) systems has led to serious privacy
+concerns due to potential unauthorized surveillance and user tracking on social
+networks. Existing methods for enhancing privacy fail to generate natural face
+images that can protect facial privacy. In this paper, we propose
+diffusion-based adversarial identity manipulation (DiffAIM) to generate natural
+and highly transferable adversarial faces against malicious FR systems. To be
+specific, we manipulate facial identity within the low-dimensional latent space
+of a diffusion model. This involves iteratively injecting gradient-based
+adversarial identity guidance during the reverse diffusion process,
+progressively steering the generation toward the desired adversarial faces. The
+guidance is optimized for identity convergence towards a target while promoting
+semantic divergence from the source, facilitating effective impersonation while
+maintaining visual naturalness. We further incorporate structure-preserving
+regularization to preserve facial structure consistency during manipulation.
+Extensive experiments on both face verification and identification tasks
+demonstrate that compared with the state-of-the-art, DiffAIM achieves stronger
+black-box attack transferability while maintaining superior visual quality. We
+also demonstrate the effectiveness of the proposed approach for commercial FR
+APIs, including Face++ and Aliyun.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.21413v1">An Inversion Theorem for Buffered Linear Toeplitz (BLT) Matrices and
+  Applications to Streaming Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
+  <p><b>Published on:</b> 2025-04-30T08:14:09Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> H. Brendan McMahan, Krishna Pillutla</p>
+    <p><b>Summary:</b> Buffered Linear Toeplitz (BLT) matrices are a family of parameterized
+lower-triangular matrices that play an important role in streaming differential
+privacy with correlated noise. Our main result is a BLT inversion theorem: the
+inverse of a BLT matrix is itself a BLT matrix with different parameters. We
+also present an efficient and differentiable $O(d^3)$ algorithm to compute the
+parameters of the inverse BLT matrix, where $d$ is the degree of the original
+BLT (typically $d < 10$). Our characterization enables direct optimization of
+BLT parameters for privacy mechanisms through automatic differentiation.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.21297v1">Participatory AI, Public Sector AI, Differential Privacy, Conversational
+  Interfaces, Explainable AI, Citizen Engagement in AI</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E"> 
+  <p><b>Published on:</b> 2025-04-30T04:10:50Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Wenjun Yang, Eyhab Al-Masri</p>
+    <p><b>Summary:</b> This paper introduces a conversational interface system that enables
+participatory design of differentially private AI systems in public sector
+applications. Addressing the challenge of balancing mathematical privacy
+guarantees with democratic accountability, we propose three key contributions:
+(1) an adaptive $\epsilon$-selection protocol leveraging TOPSIS multi-criteria
+decision analysis to align citizen preferences with differential privacy (DP)
+parameters, (2) an explainable noise-injection framework featuring real-time
+Mean Absolute Error (MAE) visualizations and GPT-4-powered impact analysis, and
+(3) an integrated legal-compliance mechanism that dynamically modulates privacy
+budgets based on evolving regulatory constraints. Our results advance
+participatory AI practices by demonstrating how conversational interfaces can
+enhance public engagement in algorithmic privacy mechanisms, ensuring that
+privacy-preserving AI in public sector governance remains both mathematically
+robust and democratically accountable.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.21182v1">Federated One-Shot Learning with Data Privacy and Objective-Hiding</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">  
+  <p><b>Published on:</b> 2025-04-29T21:25:34Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Maximilian Egger, Rüdiger Urbanke, Rawad Bitar</p>
+    <p><b>Summary:</b> Privacy in federated learning is crucial, encompassing two key aspects:
+safeguarding the privacy of clients' data and maintaining the privacy of the
+federator's objective from the clients. While the first aspect has been
+extensively studied, the second has received much less attention.
+  We present a novel approach that addresses both concerns simultaneously,
+drawing inspiration from techniques in knowledge distillation and private
+information retrieval to provide strong information-theoretic privacy
+guarantees.
+  Traditional private function computation methods could be used here; however,
+they are typically limited to linear or polynomial functions. To overcome these
+constraints, our approach unfolds in three stages. In stage 0, clients perform
+the necessary computations locally. In stage 1, these results are shared among
+the clients, and in stage 2, the federator retrieves its desired objective
+without compromising the privacy of the clients' data. The crux of the method
+is a carefully designed protocol that combines secret-sharing-based multi-party
+computation and a graph-based private information retrieval scheme. We show
+that our method outperforms existing tools from the literature when properly
+adapted to this setting.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2504.20941v1">Conformal-DP: Differential Privacy on Riemannian Manifolds via Conformal
   Transformation</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">  
@@ -152,13 +289,13 @@ U-1}$.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.20350v1">SoK: Enhancing Privacy-Preserving Software Development from a
+  <h3><a href="http://arxiv.org/abs/2504.20350v2">SoK: Enhancing Privacy-Preserving Software Development from a
   Developers' Perspective</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2025-04-29T01:38:01Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Tharaka Wijesundara, Nalin Asanka Gamagedara Arachchilage, Matthew Warren</p>
+    <p><b>Authors:</b> Tharaka Wijesundara, Matthew Warren, Nalin Asanka Gamagedara Arachchilage</p>
     <p><b>Summary:</b> In software development, privacy preservation has become essential with the
 rise of privacy concerns and regulations such as GDPR and CCPA. While several
 tools, guidelines, methods, methodologies, and frameworks have been proposed to
@@ -214,6 +351,66 @@ percentage point degradation in performance for new installations. The results
 demonstrate that FedCCL offers an effective framework for privacy-preserving
 distributed learning, maintaining high accuracy and adaptability even with
 dynamic participant populations.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.21036v1">Can Differentially Private Fine-tuning LLMs Protect Against Privacy
+  Attacks?</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-04-28T05:34:53Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Hao Du, Shang Liu, Yang Cao</p>
+    <p><b>Summary:</b> Fine-tuning large language models (LLMs) has become an essential strategy for
+adapting them to specialized tasks; however, this process introduces
+significant privacy challenges, as sensitive training data may be inadvertently
+memorized and exposed. Although differential privacy (DP) offers strong
+theoretical guarantees against such leakage, its empirical privacy
+effectiveness on LLMs remains unclear, especially under different fine-tuning
+methods. In this paper, we systematically investigate the impact of DP across
+fine-tuning methods and privacy budgets, using both data extraction and
+membership inference attacks to assess empirical privacy risks. Our main
+findings are as follows: (1) Differential privacy reduces model utility, but
+its impact varies significantly across different fine-tuning methods. (2)
+Without DP, the privacy risks of models fine-tuned with different approaches
+differ considerably. (3) When DP is applied, even a relatively high privacy
+budget can substantially lower privacy risk. (4) The privacy-utility trade-off
+under DP training differs greatly among fine-tuning methods, with some methods
+being unsuitable for DP due to severe utility degradation. Our results provide
+practical guidance for privacy-conscious deployment of LLMs and pave the way
+for future research on optimizing the privacy-utility trade-off in fine-tuning
+methodologies.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2504.21035v1">A False Sense of Privacy: Evaluating Textual Data Sanitization Beyond
+  Surface-level Privacy Leakage</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-04-28T01:16:27Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Rui Xin, Niloofar Mireshghallah, Shuyue Stella Li, Michael Duan, Hyunwoo Kim, Yejin Choi, Yulia Tsvetkov, Sewoong Oh, Pang Wei Koh</p>
+    <p><b>Summary:</b> Sanitizing sensitive text data typically involves removing personally
+identifiable information (PII) or generating synthetic data under the
+assumption that these methods adequately protect privacy; however, their
+effectiveness is often only assessed by measuring the leakage of explicit
+identifiers but ignoring nuanced textual markers that can lead to
+re-identification. We challenge the above illusion of privacy by proposing a
+new framework that evaluates re-identification attacks to quantify individual
+privacy risks upon data release. Our approach shows that seemingly innocuous
+auxiliary information -- such as routine social activities -- can be used to
+infer sensitive attributes like age or substance use history from sanitized
+data. For instance, we demonstrate that Azure's commercial PII removal tool
+fails to protect 74\% of information in the MedQA dataset. Although
+differential privacy mitigates these risks to some extent, it significantly
+reduces the utility of the sanitized text for downstream tasks. Our findings
+indicate that current sanitization techniques offer a \textit{false sense of
+privacy}, highlighting the need for more robust methods that protect against
+semantic-level information leakage.</p>
   </details>
 </div>
 
@@ -2765,214 +2962,6 @@ information in the local model. We conduct extensive experiments on two
 real-world datasets, and the results demonstrate the superiority of our FFMSR
 method over other SOTA methods. Our source codes are publicly available at:
 https://github.com/Sapphire-star/FFMSR.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.22993v2">Calculating Connection vs. Risk: Understanding How Youth Negotiate
-  Digital Privacy and Security with Peers Online</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2025-03-29T06:54:46Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mamtaj Akter, Jinkyung Katie Park, Campbell Headrick, Xinru Page, Pamela J. Wisniewski</p>
-    <p><b>Summary:</b> Youth, while tech-savvy and highly active on social media, are still
-vulnerable to online privacy and security risks. Therefore, it is critical to
-understand how they negotiate and manage social connections versus protecting
-themselves in online contexts. In this work, we conducted a thematic analysis
-of 1,318 private conversations on Instagram from 149 youth aged 13-21 to
-understand the digital privacy and security topics they discussed, if and how
-they engaged in risky privacy behaviors, and how they balanced the benefits and
-risks (i.e., privacy calculus) of making these decisions. Overall, youth were
-forthcoming when broaching a wide range of topics on digital privacy and
-security, ranging from password management and account access challenges to
-shared experiences of being victims of privacy risks. However, they also openly
-engaged in risky behaviors, such as sharing personal account information with
-peers and even perpetrating privacy and security risks against others.
-Nonetheless, we found many of these behaviors could be explained by the unique
-"privacy calculus" of youth, where they often prioritized social benefits over
-potential risks; for instance, youth often shared account credentials with
-peers to foster social connection and affirmation. As such, we provide a
-nuanced understanding of youth decision-making regarding digital security and
-privacy, highlighting both positive behaviors, tensions, and points of concern.
-We encourage future research to continue to challenge the potentially untrue
-narratives regarding youth and their digital privacy and security to unpack the
-nuance of their privacy calculus that may differ from that of adults.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.01029v1">Who is Responsible When AI Fails? Mapping Causes, Entities, and
-  Consequences of AI Privacy and Ethical Incidents</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2025-03-28T21:57:38Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Hilda Hadan, Reza Hadi Mogavi, Leah Zhang-Kennedy, Lennart E. Nacke</p>
-    <p><b>Summary:</b> The rapid growth of artificial intelligence (AI) technologies has changed
-decision-making in many fields. But, it has also raised major privacy and
-ethical concerns. However, many AI incidents taxonomies and guidelines for
-academia, industry, and government lack grounding in real-world incidents. We
-analyzed 202 real-world AI privacy and ethical incidents. This produced a
-taxonomy that classifies incident types across AI lifecycle stages. It accounts
-for contextual factors such as causes, responsible entities, disclosure
-sources, and impacts. Our findings show insufficient incident reporting from AI
-developers and users. Many incidents are caused by poor organizational
-decisions and legal non-compliance. Only a few legal actions and corrective
-measures exist, while risk-mitigation efforts are limited. Our taxonomy
-contributes a structured approach in reporting of future AI incidents. Our
-findings demonstrate that current AI governance frameworks are inadequate. We
-urgently need child-specific protections and AI policies on social media. They
-must moderate and reduce the spread of harmful AI-generated content. Our
-research provides insights for policymakers and practitioners, which lets them
-design ethical AI. It also support AI incident detection and risk management.
-Finally, it guides AI policy development. Improved policies will protect people
-from harmful AI applications and support innovation in AI systems.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.22379v1">Spend Your Budget Wisely: Towards an Intelligent Distribution of the
-  Privacy Budget in Differentially Private Text Rewriting</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2025-03-28T12:33:46Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Stephen Meisenbacher, Chaeeun Joy Lee, Florian Matthes</p>
-    <p><b>Summary:</b> The task of $\textit{Differentially Private Text Rewriting}$ is a class of
-text privatization techniques in which (sensitive) input textual documents are
-$\textit{rewritten}$ under Differential Privacy (DP) guarantees. The motivation
-behind such methods is to hide both explicit and implicit identifiers that
-could be contained in text, while still retaining the semantic meaning of the
-original text, thus preserving utility. Recent years have seen an uptick in
-research output in this field, offering a diverse array of word-, sentence-,
-and document-level DP rewriting methods. Common to these methods is the
-selection of a privacy budget (i.e., the $\varepsilon$ parameter), which
-governs the degree to which a text is privatized. One major limitation of
-previous works, stemming directly from the unique structure of language itself,
-is the lack of consideration of $\textit{where}$ the privacy budget should be
-allocated, as not all aspects of language, and therefore text, are equally
-sensitive or personal. In this work, we are the first to address this
-shortcoming, asking the question of how a given privacy budget can be
-intelligently and sensibly distributed amongst a target document. We construct
-and evaluate a toolkit of linguistics- and NLP-based methods used to allocate a
-privacy budget to constituent tokens in a text document. In a series of privacy
-and utility experiments, we empirically demonstrate that given the same privacy
-budget, intelligent distribution leads to higher privacy levels and more
-positive trade-offs than a naive distribution of $\varepsilon$. Our work
-highlights the intricacies of text privatization with DP, and furthermore, it
-calls for further work on finding more efficient ways to maximize the
-privatization benefits offered by DP in text rewriting.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.22232v2">Privacy-Preserving Secure Neighbor Discovery for Wireless Networks</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
-  <p><b>Published on:</b> 2025-03-28T08:27:47Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ahmed Mohamed Hussain, Panos Papadimitratos</p>
-    <p><b>Summary:</b> Traditional Neighbor Discovery (ND) and Secure Neighbor Discovery (SND) are
-key elements for network functionality. SND is a hard problem, satisfying not
-only typical security properties (authentication, integrity) but also
-verification of direct communication, which involves distance estimation based
-on time measurements and device coordinates. Defeating relay attacks, also
-known as "wormholes", leading to stealthy Byzantine links and significant
-degradation of communication and adversarial control, is key in many wireless
-networked systems. However, SND is not concerned with privacy; it necessitates
-revealing the identity and location of the device(s) participating in the
-protocol execution. This can be a deterrent for deployment, especially
-involving user-held devices in the emerging Internet of Things (IoT) enabled
-smart environments. To address this challenge, we present a novel
-Privacy-Preserving Secure Neighbor Discovery (PP-SND) protocol, enabling
-devices to perform SND without revealing their actual identities and locations,
-effectively decoupling discovery from the exposure of sensitive information. We
-use Homomorphic Encryption (HE) for computing device distances without
-revealing their actual coordinates, as well as employing a pseudonymous device
-authentication to hide identities while preserving communication integrity.
-PP-SND provides SND [1] along with pseudonymity, confidentiality, and
-unlinkability. Our presentation here is not specific to one wireless
-technology, and we assess the performance of the protocols (cryptographic
-overhead) on a Raspberry Pi 4 and provide a security and privacy analysis.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.22161v1">Traffic Modeling for Network Security and Privacy: Challenges Ahead</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-03-28T05:54:17Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Dinil Mon Divakaran</p>
-    <p><b>Summary:</b> Traffic analysis using machine learning and deep learning models has made
-significant progress over the past decades. These models address various tasks
-in network security and privacy, including detection of anomalies and attacks,
-countering censorship, etc. They also reveal privacy risks to users as
-demonstrated by the research on LLM token inference as well as fingerprinting
-(and counter-fingerprinting) of user-visiting websites, IoT devices, and
-different applications. However, challenges remain in securing our networks
-from threats and attacks. After briefly reviewing the tasks and recent ML
-models in network security and privacy, we discuss the challenges that lie
-ahead.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.08751v1">Research on the Design of a Short Video Recommendation System Based on
-  Multimodal Information and Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-03-27T22:56:41Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Haowei Yang, Lei Fu, Qingyi Lu, Yue Fan, Tianle Zhang, Ruohan Wang</p>
-    <p><b>Summary:</b> With the rapid development of short video platforms, recommendation systems
-have become key technologies for improving user experience and enhancing
-platform engagement. However, while short video recommendation systems leverage
-multimodal information (such as images, text, and audio) to improve
-recommendation effectiveness, they also face the severe challenge of user
-privacy leakage. This paper proposes a short video recommendation system based
-on multimodal information and differential privacy protection. First, deep
-learning models are used for feature extraction and fusion of multimodal data,
-effectively improving recommendation accuracy. Then, a differential privacy
-protection mechanism suitable for recommendation scenarios is designed to
-ensure user data privacy while maintaining system performance. Experimental
-results show that the proposed method outperforms existing mainstream
-approaches in terms of recommendation accuracy, multimodal fusion
-effectiveness, and privacy protection performance, providing important insights
-for the design of recommendation systems for short video platforms.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.22010v1">Towards Privacy-Preserving Revocation of Verifiable Credentials with
-  Time-Flexibility</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-03-27T21:58:32Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Francesco Buccafurri, Carmen Licciardi</p>
-    <p><b>Summary:</b> Self-Sovereign Identity (SSI) is an emerging paradigm for authentication and
-credential presentation that aims to give users control over their data and
-prevent any kind of tracking by (even trusted) third parties. In the European
-Union, the EUDI Digital Identity wallet is about to become a concrete
-implementation of this paradigm. However, a debate is still ongoing, partially
-reflecting some aspects that are not yet consolidated in the scientific state
-of the art. Among these, an effective, efficient, and privacy-preserving
-implementation of verifiable credential revocation remains a subject of
-discussion. In this work-in-progress paper, we propose the basis of a novel
-method that customizes the use of anonymous hierarchical identity-based
-encryption to restrict the Verifier access to the temporal authorizations
-granted by the Holder. This way, the Issuer cannot track the Holder's
-credential presentations, and the Verifier cannot check revocation information
-beyond what is permitted by the Holder.</p>
   </details>
 </div>
 
