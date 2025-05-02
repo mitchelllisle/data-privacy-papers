@@ -2626,5 +2626,84 @@
       "cs.CL",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.21413v1",
+    "title" : "An Inversion Theorem for Buffered Linear Toeplitz (BLT) Matrices and\n  Applications to Streaming Differential Privacy",
+    "summary" : "Buffered Linear Toeplitz (BLT) matrices are a family of parameterized\nlower-triangular matrices that play an important role in streaming differential\nprivacy with correlated noise. Our main result is a BLT inversion theorem: the\ninverse of a BLT matrix is itself a BLT matrix with different parameters. We\nalso present an efficient and differentiable $O(d^3)$ algorithm to compute the\nparameters of the inverse BLT matrix, where $d$ is the degree of the original\nBLT (typically $d < 10$). Our characterization enables direct optimization of\nBLT parameters for privacy mechanisms through automatic differentiation.",
+    "updated" : "2025-04-30T08:14:09Z",
+    "published" : "2025-04-30T08:14:09Z",
+    "authors" : [
+      {
+        "name" : "H. Brendan McMahan"
+      },
+      {
+        "name" : "Krishna Pillutla"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG",
+      "eess.SP"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.21036v2",
+    "title" : "Can Differentially Private Fine-tuning LLMs Protect Against Privacy\n  Attacks?",
+    "summary" : "Fine-tuning large language models (LLMs) has become an essential strategy for\nadapting them to specialized tasks; however, this process introduces\nsignificant privacy challenges, as sensitive training data may be inadvertently\nmemorized and exposed. Although differential privacy (DP) offers strong\ntheoretical guarantees against such leakage, its empirical privacy\neffectiveness on LLMs remains unclear, especially under different fine-tuning\nmethods. In this paper, we systematically investigate the impact of DP across\nfine-tuning methods and privacy budgets, using both data extraction and\nmembership inference attacks to assess empirical privacy risks. Our main\nfindings are as follows: (1) Differential privacy reduces model utility, but\nits impact varies significantly across different fine-tuning methods. (2)\nWithout DP, the privacy risks of models fine-tuned with different approaches\ndiffer considerably. (3) When DP is applied, even a relatively high privacy\nbudget can substantially lower privacy risk. (4) The privacy-utility trade-off\nunder DP training differs greatly among fine-tuning methods, with some methods\nbeing unsuitable for DP due to severe utility degradation. Our results provide\npractical guidance for privacy-conscious deployment of LLMs and pave the way\nfor future research on optimizing the privacy-utility trade-off in fine-tuning\nmethodologies.",
+    "updated" : "2025-05-01T10:10:01Z",
+    "published" : "2025-04-28T05:34:53Z",
+    "authors" : [
+      {
+        "name" : "Hao Du"
+      },
+      {
+        "name" : "Shang Liu"
+      },
+      {
+        "name" : "Yang Cao"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.06697v2",
+    "title" : "\"Sorry for bugging you so much.\" Exploring Developers' Behavior Towards\n  Privacy-Compliant Implementation",
+    "summary" : "While protecting user data is essential, software developers often fail to\nfulfill privacy requirements. However, the reasons why they struggle with\nprivacy-compliant implementation remain unclear. Is it due to a lack of\nknowledge, or is it because of insufficient support? To provide foundational\ninsights in this field, we conducted a qualitative 5-hour programming study\nwith 30 professional software developers implementing 3 privacy-sensitive\nprogramming tasks that were designed with GDPR compliance in mind. To explore\nif and how developers implement privacy requirements, participants were divided\ninto 3 groups: control, privacy prompted, and privacy expert-supported. After\ntask completion, we conducted follow-up interviews. Alarmingly, almost all\nparticipants submitted non-GDPR-compliant solutions (79/90). In particular,\nnone of the 3 tasks were solved privacy-compliant by all 30 participants, with\nthe non-prompted group having the lowest number of 3 out of 30\nprivacy-compliant solution attempts. Privacy prompting and expert support only\nslightly improved participants' submissions, with 6/30 and 8/30\nprivacy-compliant attempts, respectively. In fact, all participants reported\nsevere issues addressing common privacy requirements such as purpose\nlimitation, user consent, or data minimization. Counterintuitively, although\nmost developers exhibited minimal confidence in their solutions, they rarely\nsought online assistance or contacted the privacy expert, with only 4 out of 10\nexpert-supported participants explicitly asking for compliance confirmation.\nInstead, participants often relied on existing implementations and focused on\nimplementing functionality and security first.",
+    "updated" : "2025-05-01T07:09:25Z",
+    "published" : "2025-04-09T08:59:17Z",
+    "authors" : [
+      {
+        "name" : "Stefan Albert Horstmann"
+      },
+      {
+        "name" : "Sandy Hong"
+      },
+      {
+        "name" : "David Klein"
+      },
+      {
+        "name" : "Raphael Serafini"
+      },
+      {
+        "name" : "Martin Degeling"
+      },
+      {
+        "name" : "Martin Johns"
+      },
+      {
+        "name" : "Veelasha Moonsamy"
+      },
+      {
+        "name" : "Alena Naiakshina"
+      }
+    ],
+    "categories" : [
+      "cs.SE"
+    ]
   }
 ]
