@@ -66,7 +66,7 @@ APIs, including Face++ and Aliyun.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2504.21413v1">An Inversion Theorem for Buffered Linear Toeplitz (BLT) Matrices and
   Applications to Streaming Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
   <p><b>Published on:</b> 2025-04-30T08:14:09Z</p>
   <details>
     <summary>More Details</summary>
@@ -356,7 +356,7 @@ dynamic participant populations.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.21036v1">Can Differentially Private Fine-tuning LLMs Protect Against Privacy
+  <h3><a href="http://arxiv.org/abs/2504.21036v2">Can Differentially Private Fine-tuning LLMs Protect Against Privacy
   Attacks?</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2025-04-28T05:34:53Z</p>
@@ -2170,7 +2170,7 @@ refilling and distribution procedure essential for this security mechanism.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.06697v1">"Sorry for bugging you so much." Exploring Developers' Behavior Towards
+  <h3><a href="http://arxiv.org/abs/2504.06697v2">"Sorry for bugging you so much." Exploring Developers' Behavior Towards
   Privacy-Compliant Implementation</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
   <p><b>Published on:</b> 2025-04-09T08:59:17Z</p>
@@ -2708,6 +2708,70 @@ maintaining nearly the same privacy loss limits.</p>
 
 
 
+<h2>2025-05</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2505.00593v1">A Novel Feature-Aware Chaotic Image Encryption Scheme For Data Security
+  and Privacy in IoT and Edge Networks</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-05-01T15:26:48Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Muhammad Shahbaz Khan, Ahmed Al-Dubai, Jawad Ahmad, Nikolaos Pitropakis, Baraq Ghaleb</p>
+    <p><b>Summary:</b> The security of image data in the Internet of Things (IoT) and edge networks
+is crucial due to the increasing deployment of intelligent systems for
+real-time decision-making. Traditional encryption algorithms such as AES and
+RSA are computationally expensive for resource-constrained IoT devices and
+ineffective for large-volume image data, leading to inefficiencies in
+privacy-preserving distributed learning applications. To address these
+concerns, this paper proposes a novel Feature-Aware Chaotic Image Encryption
+scheme that integrates Feature-Aware Pixel Segmentation (FAPS) with Chaotic
+Chain Permutation and Confusion mechanisms to enhance security while
+maintaining efficiency. The proposed scheme consists of three stages: (1) FAPS,
+which extracts and reorganizes pixels based on high and low edge intensity
+features for correlation disruption; (2) Chaotic Chain Permutation, which
+employs a logistic chaotic map with SHA-256-based dynamically updated keys for
+block-wise permutation; and (3) Chaotic chain Confusion, which utilises
+dynamically generated chaotic seed matrices for bitwise XOR operations.
+Extensive security and performance evaluations demonstrate that the proposed
+scheme significantly reduces pixel correlation -- almost zero, achieves high
+entropy values close to 8, and resists differential cryptographic attacks. The
+optimum design of the proposed scheme makes it suitable for real-time
+deployment in resource-constrained environments.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2505.00257v1">Graph Privacy: A Heterogeneous Federated GNN for Trans-Border Financial
+  Data Circulation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-05-01T02:47:43Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zhizhong Tan, Jiexin Zheng, Kevin Qi Zhang, Wenyong Wang</p>
+    <p><b>Summary:</b> The sharing of external data has become a strong demand of financial
+institutions, but the privacy issue has led to the difficulty of
+interconnecting different platforms and the low degree of data openness. To
+effectively solve the privacy problem of financial data in trans-border flow
+and sharing, to ensure that the data is available but not visible, to realize
+the joint portrait of all kinds of heterogeneous data of business organizations
+in different industries, we propose a Heterogeneous Federated Graph Neural
+Network (HFGNN) approach. In this method, the distribution of heterogeneous
+business data of trans-border organizations is taken as subgraphs, and the
+sharing and circulation process among subgraphs is constructed as a
+statistically heterogeneous global graph through a central server. Each
+subgraph learns the corresponding personalized service model through local
+training to select and update the relevant subset of subgraphs with aggregated
+parameters, and effectively separates and combines topological and feature
+information among subgraphs. Finally, our simulation experimental results show
+that the proposed method has higher accuracy performance and faster convergence
+speed than existing methods.</p>
+  </details>
+</div>
+
+
+
 <h2>2025-03</h2>
 
 <div class="arxiv-entry">
@@ -2898,70 +2962,6 @@ operates on anonymous data or ensures proper anonymisation. It also showed that
 informed consent would not be a legitimate legal ground for the processing. For
 all points where data subjects' rights are still not sufficiently safeguarded,
 we briefly outline solutions.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.23292v1">FedCAPrivacy: Privacy-Preserving Heterogeneous Federated Learning with
-  Anonymous Adaptive Clustering</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-03-30T03:16:54Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yunan Wei, Shengnan Zhao, Chuan Zhao, Zhe Liu, Zhenxiang Chen, Minghao Zhao</p>
-    <p><b>Summary:</b> Federated learning (FL) is a distributed machine learning paradigm enabling
-multiple clients to train a model collaboratively without exposing their local
-data. Among FL schemes, clustering is an effective technique addressing the
-heterogeneity issue (i.e., differences in data distribution and computational
-ability affect training performance and effectiveness) via grouping
-participants with similar computational resources or data distribution into
-clusters. However, intra-cluster data exchange poses privacy risks, while
-cluster selection and adaptation introduce challenges that may affect overall
-performance. To address these challenges, this paper introduces anonymous
-adaptive clustering, a novel approach that simultaneously enhances privacy
-protection and boosts training efficiency. Specifically, an oblivious
-shuffle-based anonymization method is designed to safeguard user identities and
-prevent the aggregation server from inferring similarities through clustering.
-Additionally, to improve performance, we introduce an iteration-based adaptive
-frequency decay strategy, which leverages variability in clustering
-probabilities to optimize training dynamics. With these techniques, we build
-the FedCAPrivacy; experiments show that FedCAPrivacy achieves ~7X improvement
-in terms of performance while maintaining high privacy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.23026v1">Federated Semantic Learning for Privacy-preserving Cross-domain
-  Recommendation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB">
-  <p><b>Published on:</b> 2025-03-29T09:37:11Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ziang Lu, Lei Guo, Xu Yu, Zhiyong Cheng, Xiaohui Han, Lei Zhu</p>
-    <p><b>Summary:</b> In the evolving landscape of recommender systems, the challenge of
-effectively conducting privacy-preserving Cross-Domain Recommendation (CDR),
-especially under strict non-overlapping constraints, has emerged as a key
-focus. Despite extensive research has made significant progress, several
-limitations still exist: 1) Previous semantic-based methods fail to deeply
-exploit rich textual information, since they quantize the text into codes,
-losing its original rich semantics. 2) The current solution solely relies on
-the text-modality, while the synergistic effects with the ID-modality are
-ignored. 3) Existing studies do not consider the impact of irrelevant semantic
-features, leading to inaccurate semantic representation. To address these
-challenges, we introduce federated semantic learning and devise FFMSR as our
-solution. For Limitation 1, we locally learn items'semantic encodings from
-their original texts by a multi-layer semantic encoder, and then cluster them
-on the server to facilitate the transfer of semantic knowledge between domains.
-To tackle Limitation 2, we integrate both ID and Text modalities on the
-clients, and utilize them to learn different aspects of items. To handle
-Limitation 3, a Fast Fourier Transform (FFT)-based filter and a gating
-mechanism are developed to alleviate the impact of irrelevant semantic
-information in the local model. We conduct extensive experiments on two
-real-world datasets, and the results demonstrate the superiority of our FFMSR
-method over other SOTA methods. Our source codes are publicly available at:
-https://github.com/Sapphire-star/FFMSR.</p>
   </details>
 </div>
 
