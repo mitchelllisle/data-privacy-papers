@@ -50,5 +50,58 @@
       "cs.LG",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.01292v1",
+    "title" : "Fine-grained Manipulation Attacks to Local Differential Privacy\n  Protocols for Data Streams",
+    "summary" : "Local Differential Privacy (LDP) enables massive data collection and analysis\nwhile protecting end users' privacy against untrusted aggregators. It has been\napplied to various data types (e.g., categorical, numerical, and graph data)\nand application settings (e.g., static and streaming). Recent findings indicate\nthat LDP protocols can be easily disrupted by poisoning or manipulation\nattacks, which leverage injected/corrupted fake users to send crafted data\nconforming to the LDP reports. However, current attacks primarily target static\nprotocols, neglecting the security of LDP protocols in the streaming settings.\nOur research fills the gap by developing novel fine-grained manipulation\nattacks to LDP protocols for data streams. By reviewing the attack surfaces in\nexisting algorithms, We introduce a unified attack framework with composable\nmodules, which can manipulate the LDP estimated stream toward a target stream.\nOur attack framework can adapt to state-of-the-art streaming LDP algorithms\nwith different analytic tasks (e.g., frequency and mean) and LDP models\n(event-level, user-level, w-event level). We validate our attacks theoretically\nand through extensive experiments on real-world datasets, and finally explore a\npossible defense mechanism for mitigating these attacks.",
+    "updated" : "2025-05-02T14:09:56Z",
+    "published" : "2025-05-02T14:09:56Z",
+    "authors" : [
+      {
+        "name" : "Xinyu Li"
+      },
+      {
+        "name" : "Xuebin Ren"
+      },
+      {
+        "name" : "Shusen Yang"
+      },
+      {
+        "name" : "Liang Shi"
+      },
+      {
+        "name" : "Chia-Mu Yu"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.00951v1",
+    "title" : "Preserving Privacy and Utility in LLM-Based Product Recommendations",
+    "summary" : "Large Language Model (LLM)-based recommendation systems leverage powerful\nlanguage models to generate personalized suggestions by processing user\ninteractions and preferences. Unlike traditional recommendation systems that\nrely on structured data and collaborative filtering, LLM-based models process\ntextual and contextual information, often using cloud-based infrastructure.\nThis raises privacy concerns, as user data is transmitted to remote servers,\nincreasing the risk of exposure and reducing control over personal information.\nTo address this, we propose a hybrid privacy-preserving recommendation\nframework which separates sensitive from nonsensitive data and only shares the\nlatter with the cloud to harness LLM-powered recommendations. To restore lost\nrecommendations related to obfuscated sensitive data, we design a\nde-obfuscation module that reconstructs sensitive recommendations locally.\nExperiments on real-world e-commerce datasets show that our framework achieves\nalmost the same recommendation utility with a system which shares all data with\nan LLM, while preserving privacy to a large extend. Compared to\nobfuscation-only techniques, our approach improves HR@10 scores and category\ndistribution alignment, offering a better balance between privacy and\nrecommendation quality. Furthermore, our method runs efficiently on\nconsumer-grade hardware, making privacy-aware LLM-based recommendation systems\npractical for real-world use.",
+    "updated" : "2025-05-02T01:54:08Z",
+    "published" : "2025-05-02T01:54:08Z",
+    "authors" : [
+      {
+        "name" : "Tina Khezresmaeilzadeh"
+      },
+      {
+        "name" : "Jiang Zhang"
+      },
+      {
+        "name" : "Dimitrios Andreadis"
+      },
+      {
+        "name" : "Konstantinos Psounis"
+      }
+    ],
+    "categories" : [
+      "cs.IR",
+      "cs.CR",
+      "cs.LG"
+    ]
   }
 ]
