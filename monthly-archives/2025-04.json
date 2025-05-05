@@ -2705,5 +2705,46 @@
     "categories" : [
       "cs.SE"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.21035v2",
+    "title" : "A False Sense of Privacy: Evaluating Textual Data Sanitization Beyond\n  Surface-level Privacy Leakage",
+    "summary" : "Sanitizing sensitive text data typically involves removing personally\nidentifiable information (PII) or generating synthetic data under the\nassumption that these methods adequately protect privacy; however, their\neffectiveness is often only assessed by measuring the leakage of explicit\nidentifiers but ignoring nuanced textual markers that can lead to\nre-identification. We challenge the above illusion of privacy by proposing a\nnew framework that evaluates re-identification attacks to quantify individual\nprivacy risks upon data release. Our approach shows that seemingly innocuous\nauxiliary information -- such as routine social activities -- can be used to\ninfer sensitive attributes like age or substance use history from sanitized\ndata. For instance, we demonstrate that Azure's commercial PII removal tool\nfails to protect 74\\% of information in the MedQA dataset. Although\ndifferential privacy mitigates these risks to some extent, it significantly\nreduces the utility of the sanitized text for downstream tasks. Our findings\nindicate that current sanitization techniques offer a \\textit{false sense of\nprivacy}, highlighting the need for more robust methods that protect against\nsemantic-level information leakage.",
+    "updated" : "2025-05-02T17:57:04Z",
+    "published" : "2025-04-28T01:16:27Z",
+    "authors" : [
+      {
+        "name" : "Rui Xin"
+      },
+      {
+        "name" : "Niloofar Mireshghallah"
+      },
+      {
+        "name" : "Shuyue Stella Li"
+      },
+      {
+        "name" : "Michael Duan"
+      },
+      {
+        "name" : "Hyunwoo Kim"
+      },
+      {
+        "name" : "Yejin Choi"
+      },
+      {
+        "name" : "Yulia Tsvetkov"
+      },
+      {
+        "name" : "Sewoong Oh"
+      },
+      {
+        "name" : "Pang Wei Koh"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CL",
+      "cs.LG"
+    ]
   }
 ]
