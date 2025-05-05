@@ -387,7 +387,7 @@ methodologies.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.21035v1">A False Sense of Privacy: Evaluating Textual Data Sanitization Beyond
+  <h3><a href="http://arxiv.org/abs/2504.21035v2">A False Sense of Privacy: Evaluating Textual Data Sanitization Beyond
   Surface-level Privacy Leakage</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2025-04-28T01:16:27Z</p>
@@ -2711,6 +2711,66 @@ maintaining nearly the same privacy loss limits.</p>
 <h2>2025-05</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2505.01292v1">Fine-grained Manipulation Attacks to Local Differential Privacy
+  Protocols for Data Streams</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-05-02T14:09:56Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xinyu Li, Xuebin Ren, Shusen Yang, Liang Shi, Chia-Mu Yu</p>
+    <p><b>Summary:</b> Local Differential Privacy (LDP) enables massive data collection and analysis
+while protecting end users' privacy against untrusted aggregators. It has been
+applied to various data types (e.g., categorical, numerical, and graph data)
+and application settings (e.g., static and streaming). Recent findings indicate
+that LDP protocols can be easily disrupted by poisoning or manipulation
+attacks, which leverage injected/corrupted fake users to send crafted data
+conforming to the LDP reports. However, current attacks primarily target static
+protocols, neglecting the security of LDP protocols in the streaming settings.
+Our research fills the gap by developing novel fine-grained manipulation
+attacks to LDP protocols for data streams. By reviewing the attack surfaces in
+existing algorithms, We introduce a unified attack framework with composable
+modules, which can manipulate the LDP estimated stream toward a target stream.
+Our attack framework can adapt to state-of-the-art streaming LDP algorithms
+with different analytic tasks (e.g., frequency and mean) and LDP models
+(event-level, user-level, w-event level). We validate our attacks theoretically
+and through extensive experiments on real-world datasets, and finally explore a
+possible defense mechanism for mitigating these attacks.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2505.00951v1">Preserving Privacy and Utility in LLM-Based Product Recommendations</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-05-02T01:54:08Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Tina Khezresmaeilzadeh, Jiang Zhang, Dimitrios Andreadis, Konstantinos Psounis</p>
+    <p><b>Summary:</b> Large Language Model (LLM)-based recommendation systems leverage powerful
+language models to generate personalized suggestions by processing user
+interactions and preferences. Unlike traditional recommendation systems that
+rely on structured data and collaborative filtering, LLM-based models process
+textual and contextual information, often using cloud-based infrastructure.
+This raises privacy concerns, as user data is transmitted to remote servers,
+increasing the risk of exposure and reducing control over personal information.
+To address this, we propose a hybrid privacy-preserving recommendation
+framework which separates sensitive from nonsensitive data and only shares the
+latter with the cloud to harness LLM-powered recommendations. To restore lost
+recommendations related to obfuscated sensitive data, we design a
+de-obfuscation module that reconstructs sensitive recommendations locally.
+Experiments on real-world e-commerce datasets show that our framework achieves
+almost the same recommendation utility with a system which shares all data with
+an LLM, while preserving privacy to a large extend. Compared to
+obfuscation-only techniques, our approach improves HR@10 scores and category
+distribution alignment, offering a better balance between privacy and
+recommendation quality. Furthermore, our method runs efficiently on
+consumer-grade hardware, making privacy-aware LLM-based recommendation systems
+practical for real-world use.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2505.00593v1">A Novel Feature-Aware Chaotic Image Encryption Scheme For Data Security
   and Privacy in IoT and Edge Networks</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
@@ -2901,67 +2961,6 @@ prevent each agent from suffering privacy leakage when it contributes gradient
 information to its neighbors. We conduct both solid theoretical analysis and
 extensive experiments to demonstrate the efficacy of our PDSL algorithm in
 terms of privacy preservation and convergence.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.23533v1">To See or Not to See: A Privacy Threat Model for Digital Forensics in
-  Crime Investigation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-03-30T17:34:35Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mario Raciti, Simone Di Mauro, Dimitri Van Landuyt, Giampaolo Bella</p>
-    <p><b>Summary:</b> Digital forensics is a cornerstone of modern crime investigations, yet it
-raises significant privacy concerns due to the collection, processing, and
-storage of digital evidence. Despite that, privacy threats in digital forensics
-crime investigations often remain underexplored, thereby leading to potential
-gaps in forensic practices and regulatory compliance, which may then escalate
-into harming the freedoms of natural persons. With this clear motivation, the
-present paper applies the SPADA methodology for threat modelling with the goal
-of incorporating privacy-oriented threat modelling in digital forensics. As a
-result, we identify a total of 298 privacy threats that may affect digital
-forensics processes through crime investigations. Furthermore, we demonstrate
-an unexplored feature on how SPADA assists in handling domain-dependency during
-threat elicitation. This yields a second list of privacy threats that are
-universally applicable to any domain. We then present a comprehensive and
-systematic privacy threat model for digital forensics in crime investigation.
-Moreover, we discuss some of the challenges about validating privacy threats in
-this domain, particularly given the variability of legal frameworks across
-jurisdictions. We ultimately propose our privacy threat model as a tool for
-ensuring ethical and legally compliant investigative practices.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2503.23444v1">The Processing goes far beyond "the app" -- Privacy issues of
-  decentralized Digital Contact Tracing using the example of the German
-  Corona-Warn-App (CWA)</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
-  <p><b>Published on:</b> 2025-03-30T13:48:15Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Rainer Rehak, Christian R. Kuehne</p>
-    <p><b>Summary:</b> Since SARS-CoV-2 started spreading in Europe in early 2020, there has been a
-strong call for technical solutions to combat or contain the pandemic, with
-contact tracing apps at the heart of the debates. The EU's General Data
-Protection Regulation (GDPR) requires controllers to carry out a data
-protection impact assessment (DPIA) where their data processing is likely to
-result in a high risk to the rights and freedoms (Art. 35 GDPR). A DPIA is a
-structured risk analysis that identifies and evaluates possible consequences of
-data processing relevant to fundamental rights in advance and describes the
-measures envisaged to address these risks or expresses the inability to do so.
-Based on the Standard Data Protection Model (SDM), we present the results of a
-scientific and methodologically clear DPIA of the German German Corona-Warn-App
-(CWA). It shows that even a decentralized architecture involves numerous
-serious weaknesses and risks, including larger ones still left unaddressed in
-current implementations. It also found that none of the proposed designs
-operates on anonymous data or ensures proper anonymisation. It also showed that
-informed consent would not be a legitimate legal ground for the processing. For
-all points where data subjects' rights are still not sufficiently safeguarded,
-we briefly outline solutions.</p>
   </details>
 </div>
 
