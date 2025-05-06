@@ -103,5 +103,209 @@
       "cs.CR",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.02828v1",
+    "title" : "Privacy Risks and Preservation Methods in Explainable Artificial\n  Intelligence: A Scoping Review",
+    "summary" : "Explainable Artificial Intelligence (XAI) has emerged as a pillar of\nTrustworthy AI and aims to bring transparency in complex models that are opaque\nby nature. Despite the benefits of incorporating explanations in models, an\nurgent need is found in addressing the privacy concerns of providing this\nadditional information to end users. In this article, we conduct a scoping\nreview of existing literature to elicit details on the conflict between privacy\nand explainability. Using the standard methodology for scoping review, we\nextracted 57 articles from 1,943 studies published from January 2019 to\nDecember 2024. The review addresses 3 research questions to present readers\nwith more understanding of the topic: (1) what are the privacy risks of\nreleasing explanations in AI systems? (2) what current methods have researchers\nemployed to achieve privacy preservation in XAI systems? (3) what constitutes a\nprivacy preserving explanation? Based on the knowledge synthesized from the\nselected studies, we categorize the privacy risks and preservation methods in\nXAI and propose the characteristics of privacy preserving explanations to aid\nresearchers and practitioners in understanding the requirements of XAI that is\nprivacy compliant. Lastly, we identify the challenges in balancing privacy with\nother system desiderata and provide recommendations for achieving privacy\npreserving XAI. We expect that this review will shed light on the complex\nrelationship of privacy and explainability, both being the fundamental\nprinciples of Trustworthy AI.",
+    "updated" : "2025-05-05T17:53:28Z",
+    "published" : "2025-05-05T17:53:28Z",
+    "authors" : [
+      {
+        "name" : "Sonal Allana"
+      },
+      {
+        "name" : "Mohan Kankanhalli"
+      },
+      {
+        "name" : "Rozita Dara"
+      }
+    ],
+    "categories" : [
+      "cs.AI",
+      "cs.CR",
+      "cs.ET"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.02798v1",
+    "title" : "Unifying Laplace Mechanism with Instance Optimality in Differential\n  Privacy",
+    "summary" : "We adapt the canonical Laplace mechanism, widely used in differentially\nprivate data analysis, to achieve near instance optimality with respect to the\nhardness of the underlying dataset. In particular, we construct a piecewise\nLaplace distribution whereby we defy traditional assumptions and show that\nLaplace noise can in fact be drawn proportional to the local sensitivity when\ndone in a piecewise manner. While it may initially seem counterintuitive that\nthis satisfies (pure) differential privacy and can be sampled, we provide both\nthrough a simple connection to the exponential mechanism and inverse\nsensitivity along with the fact that the Laplace distribution is a two-sided\nexponential distribution. As a result, we prove that in the continuous setting\nour \\textit{piecewise Laplace mechanism} strictly dominates the inverse\nsensitivity mechanism, which was previously shown to both be nearly instance\noptimal and uniformly outperform the smooth sensitivity framework. Furthermore,\nin the worst-case where all local sensitivities equal the global sensitivity,\nour method simply reduces to a Laplace mechanism. We also complement this with\nan approximate local sensitivity variant to potentially ease the computational\ncost, which can also extend to higher dimensions.",
+    "updated" : "2025-05-05T17:20:28Z",
+    "published" : "2025-05-05T17:20:28Z",
+    "authors" : [
+      {
+        "name" : "David Durfee"
+      }
+    ],
+    "categories" : [
+      "cs.DS"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.02513v1",
+    "title" : "Trustworthy Inter-Provider Agreements in 6G Using a Privacy-Enabled\n  Hybrid Blockchain Framework",
+    "summary" : "Inter-provider agreements are central to 6G networks, where administrative\ndomains must securely and dynamically share services. To address the dual need\nfor transparency and confidentiality, we propose a privacy-enabled hybrid\nblockchain setup using Hyperledger Besu, integrating both public and private\ntransaction workflows. The system enables decentralized service registration,\nselection, and SLA breach reporting through role-based smart contracts and\nprivacy groups. We design and deploy a proof-of-concept implementation,\nevaluating performance using end-to-end latency as a key metric within privacy\ngroups. Results show that public interactions maintain stable latency, while\nprivate transactions incur additional overhead due to off-chain coordination.\nThe block production rate governed by IBFT 2.0 had limited impact on private\ntransaction latency, due to encryption and peer synchronization. Lessons\nlearned highlight design considerations for smart contract structure, validator\nmanagement, and scalability patterns suitable for dynamic inter-domain\ncollaboration. Our findings offer practical insights for deploying trustworthy\nagreement systems in 6G networks using privacy-enabled hybrid blockchains.",
+    "updated" : "2025-05-05T09:46:30Z",
+    "published" : "2025-05-05T09:46:30Z",
+    "authors" : [
+      {
+        "name" : "Farhana Javed"
+      },
+      {
+        "name" : "Josep Mangues-Bafalluy"
+      }
+    ],
+    "categories" : [
+      "cs.NI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.02392v1",
+    "title" : "Moneros Decentralized P2P Exchanges: Functionality, Adoption, and\n  Privacy Risks",
+    "summary" : "Privacy-focused cryptocurrencies like Monero remain popular, despite\nincreasing regulatory scrutiny that has led to their delisting from major\ncentralized exchanges. The latter also explains the recent popularity of\ndecentralized exchanges (DEXs) with no centralized ownership structures. These\nplatforms typically leverage peer-to-peer (P2P) networks, promising secure and\nanonymous asset trading. However, questions of liability remain, and the\nacademic literature lacks comprehensive insights into the functionality,\ntrading activity, and privacy claims of these P2P platforms. In this paper, we\nprovide an early systematization of the current landscape of decentralized\npeer-to-peer exchanges within the Monero ecosystem. We examine several recently\ndeveloped DEX platforms, analyzing their popularity, functionality,\narchitectural choices, and potential weaknesses. We further identify and report\non a privacy vulnerability in the recently popularized Haveno exchange,\ndemonstrating that certain Haveno trades could be detected, allowing\ntransactions to be linked across the Monero and Bitcoin blockchains. We hope\nthat our findings can nourish the discussion in the research community about\nmore secure designs, and provide insights for regulators.",
+    "updated" : "2025-05-05T06:27:37Z",
+    "published" : "2025-05-05T06:27:37Z",
+    "authors" : [
+      {
+        "name" : "Yannik Kopyciok"
+      },
+      {
+        "name" : "Friedhelm Victor"
+      },
+      {
+        "name" : "Stefan Schmid"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.02383v1",
+    "title" : "Connecting Thompson Sampling and UCB: Towards More Efficient Trade-offs\n  Between Privacy and Regret",
+    "summary" : "We address differentially private stochastic bandit problems from the angles\nof exploring the deep connections among Thompson Sampling with Gaussian priors,\nGaussian mechanisms, and Gaussian differential privacy (GDP). We propose\nDP-TS-UCB, a novel parametrized private bandit algorithm that enables to trade\noff privacy and regret. DP-TS-UCB satisfies $ \\tilde{O}\n\\left(T^{0.25(1-\\alpha)}\\right)$-GDP and enjoys an $O\n\\left(K\\ln^{\\alpha+1}(T)/\\Delta \\right)$ regret bound, where $\\alpha \\in [0,1]$\ncontrols the trade-off between privacy and regret. Theoretically, our DP-TS-UCB\nrelies on anti-concentration bounds of Gaussian distributions and links\nexploration mechanisms in Thompson Sampling-based algorithms and Upper\nConfidence Bound-based algorithms, which may be of independent interest.",
+    "updated" : "2025-05-05T05:48:52Z",
+    "published" : "2025-05-05T05:48:52Z",
+    "authors" : [
+      {
+        "name" : "Bingshan Hu"
+      },
+      {
+        "name" : "Zhiming Huang"
+      },
+      {
+        "name" : "Tianyue H. Zhang"
+      },
+      {
+        "name" : "Mathias Lécuyer"
+      },
+      {
+        "name" : "Nidhi Hegde"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.01976v1",
+    "title" : "A Survey on Privacy Risks and Protection in Large Language Models",
+    "summary" : "Although Large Language Models (LLMs) have become increasingly integral to\ndiverse applications, their capabilities raise significant privacy concerns.\nThis survey offers a comprehensive overview of privacy risks associated with\nLLMs and examines current solutions to mitigate these challenges. First, we\nanalyze privacy leakage and attacks in LLMs, focusing on how these models\nunintentionally expose sensitive information through techniques such as model\ninversion, training data extraction, and membership inference. We investigate\nthe mechanisms of privacy leakage, including the unauthorized extraction of\ntraining data and the potential exploitation of these vulnerabilities by\nmalicious actors. Next, we review existing privacy protection against such\nrisks, such as inference detection, federated learning, backdoor mitigation,\nand confidential computing, and assess their effectiveness in preventing\nprivacy leakage. Furthermore, we highlight key practical challenges and propose\nfuture research directions to develop secure and privacy-preserving LLMs,\nemphasizing privacy risk assessment, secure knowledge transfer between models,\nand interdisciplinary frameworks for privacy governance. Ultimately, this\nsurvey aims to establish a roadmap for addressing escalating privacy challenges\nin the LLMs domain.",
+    "updated" : "2025-05-04T03:04:07Z",
+    "published" : "2025-05-04T03:04:07Z",
+    "authors" : [
+      {
+        "name" : "Kang Chen"
+      },
+      {
+        "name" : "Xiuze Zhou"
+      },
+      {
+        "name" : "Yuanguo Lin"
+      },
+      {
+        "name" : "Shibo Feng"
+      },
+      {
+        "name" : "Li Shen"
+      },
+      {
+        "name" : "Pengcheng Wu"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.01879v1",
+    "title" : "What to Do When Privacy Is Gone",
+    "summary" : "Today's ethics of privacy is largely dedicated to defending personal\ninformation from big data technologies. This essay goes in the other direction.\nIt considers the struggle to be lost, and explores two strategies for living\nafter privacy is gone. First, total exposure embraces privacy's decline, and\nthen contributes to the process with transparency. All personal information is\nshared without reservation. The resulting ethics is explored through a big data\nversion of Robert Nozick's Experience Machine thought experiment. Second,\ntransient existence responds to privacy's loss by ceaselessly generating new\npersonal identities, which translates into constantly producing temporarily\nunviolated private information. The ethics is explored through Gilles Deleuze's\nmetaphysics of difference applied in linguistic terms to the formation of the\nself. Comparing the exposure and transience alternatives leads to the\nconclusion that today's big data reality splits the traditional ethical link\nbetween authenticity and freedom. Exposure provides authenticity, but negates\nhuman freedom. Transience provides freedom, but disdains authenticity.",
+    "updated" : "2025-05-03T17:51:36Z",
+    "published" : "2025-05-03T17:51:36Z",
+    "authors" : [
+      {
+        "name" : "James Brusseau"
+      }
+    ],
+    "categories" : [
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.01788v1",
+    "title" : "Privacy Preserving Machine Learning Model Personalization through\n  Federated Personalized Learning",
+    "summary" : "The widespread adoption of Artificial Intelligence (AI) has been driven by\nsignificant advances in intelligent system research. However, this progress has\nraised concerns about data privacy, leading to a growing awareness of the need\nfor privacy-preserving AI. In response, there has been a seismic shift in\ninterest towards the leading paradigm for training Machine Learning (ML) models\non decentralized data silos while maintaining data privacy, Federated Learning\n(FL). This research paper presents a comprehensive performance analysis of a\ncutting-edge approach to personalize ML model while preserving privacy achieved\nthrough Privacy Preserving Machine Learning with the innovative framework of\nFederated Personalized Learning (PPMLFPL). Regarding the increasing concerns\nabout data privacy, this study evaluates the effectiveness of PPMLFPL\naddressing the critical balance between personalized model refinement and\nmaintaining the confidentiality of individual user data. According to our\nanalysis, Adaptive Personalized Cross-Silo Federated Learning with Differential\nPrivacy (APPLE+DP) offering efficient execution whereas overall, the use of the\nAdaptive Personalized Cross-Silo Federated Learning with Homomorphic Encryption\n(APPLE+HE) algorithm for privacy-preserving machine learning tasks in federated\npersonalized learning settings is strongly suggested. The results offer\nvaluable insights creating it a promising scope for future advancements in the\nfield of privacy-conscious data-driven technologies.",
+    "updated" : "2025-05-03T11:31:38Z",
+    "published" : "2025-05-03T11:31:38Z",
+    "authors" : [
+      {
+        "name" : "Md. Tanzib Hosain"
+      },
+      {
+        "name" : "Asif Zaman"
+      },
+      {
+        "name" : "Md. Shahriar Sajid"
+      },
+      {
+        "name" : "Shadman Sakeeb Khan"
+      },
+      {
+        "name" : "Shanjida Akter"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.01524v1",
+    "title" : "The DCR Delusion: Measuring the Privacy Risk of Synthetic Data",
+    "summary" : "Synthetic data has become an increasingly popular way to share data without\nrevealing sensitive information. Though Membership Inference Attacks (MIAs) are\nwidely considered the gold standard for empirically assessing the privacy of a\nsynthetic dataset, practitioners and researchers often rely on simpler proxy\nmetrics such as Distance to Closest Record (DCR). These metrics estimate\nprivacy by measuring the similarity between the training data and generated\nsynthetic data. This similarity is also compared against that between the\ntraining data and a disjoint holdout set of real records to construct a binary\nprivacy test. If the synthetic data is not more similar to the training data\nthan the holdout set is, it passes the test and is considered private. In this\nwork we show that, while computationally inexpensive, DCR and other\ndistance-based metrics fail to identify privacy leakage. Across multiple\ndatasets and both classical models such as Baynet and CTGAN and more recent\ndiffusion models, we show that datasets deemed private by proxy metrics are\nhighly vulnerable to MIAs. We similarly find both the binary privacy test and\nthe continuous measure based on these metrics to be uninformative of actual\nmembership inference risk. We further show that these failures are consistent\nacross different metric hyperparameter settings and record selection methods.\nFinally, we argue DCR and other distance-based metrics to be flawed by design\nand show a example of a simple leakage they miss in practice. With this work,\nwe hope to motivate practitioners to move away from proxy metrics to MIAs as\nthe rigorous, comprehensive standard of evaluating privacy of synthetic data,\nin particular to make claims of datasets being legally anonymous.",
+    "updated" : "2025-05-02T18:21:14Z",
+    "published" : "2025-05-02T18:21:14Z",
+    "authors" : [
+      {
+        "name" : "Zexi Yao"
+      },
+      {
+        "name" : "Nataša Krčo"
+      },
+      {
+        "name" : "Georgi Ganev"
+      },
+      {
+        "name" : "Yves-Alexandre de Montjoye"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG"
+    ]
   }
 ]
