@@ -2746,5 +2746,33 @@
       "cs.CL",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2504.18581v2",
+    "title" : "Enhancing Privacy in Semantic Communication over Wiretap Channels\n  leveraging Differential Privacy",
+    "summary" : "Semantic communication (SemCom) improves transmission efficiency by focusing\non task-relevant information. However, transmitting semantic-rich data over\ninsecure channels introduces privacy risks. This paper proposes a novel SemCom\nframework that integrates differential privacy (DP) mechanisms to protect\nsensitive semantic features. This method employs the generative adversarial\nnetwork (GAN) inversion technique to extract disentangled semantic features and\nuses neural networks (NNs) to approximate the DP application and removal\nprocesses, effectively mitigating the non-invertibility issue of DP.\nAdditionally, an NN-based encryption scheme is introduced to strengthen the\nsecurity of channel inputs. Simulation results demonstrate that the proposed\napproach effectively prevents eavesdroppers from reconstructing sensitive\ninformation by generating chaotic or fake images, while ensuring high-quality\nimage reconstruction for legitimate users. The system exhibits robust\nperformance across various privacy budgets and channel conditions, achieving an\noptimal balance between privacy protection and reconstruction fidelity.",
+    "updated" : "2025-05-06T13:11:45Z",
+    "published" : "2025-04-23T08:42:44Z",
+    "authors" : [
+      {
+        "name" : "Weixuan Chen"
+      },
+      {
+        "name" : "Shunpu Tang"
+      },
+      {
+        "name" : "Qianqian Yang"
+      },
+      {
+        "name" : "Zhiguo Shi"
+      },
+      {
+        "name" : "Dusit Niyato"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "eess.IV"
+    ]
   }
 ]
