@@ -859,7 +859,7 @@ data application.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.18581v1">Enhancing Privacy in Semantic Communication over Wiretap Channels
+  <h3><a href="http://arxiv.org/abs/2504.18581v2">Enhancing Privacy in Semantic Communication over Wiretap Channels
   leveraging Differential Privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
   <p><b>Published on:</b> 2025-04-23T08:42:44Z</p>
@@ -2526,64 +2526,70 @@ enhancing privacy while maintaining vital sign monitoring.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.00952v1">Personalized Federated Training of Diffusion Models with Privacy
-  Guarantees</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2025-04-01T16:45:26Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Kumar Kshitij Patel, Weitong Zhang, Lingxiao Wang</p>
-    <p><b>Summary:</b> The scarcity of accessible, compliant, and ethically sourced data presents a
-considerable challenge to the adoption of artificial intelligence (AI) in
-sensitive fields like healthcare, finance, and biomedical research.
-Furthermore, access to unrestricted public datasets is increasingly constrained
-due to rising concerns over privacy, copyright, and competition. Synthetic data
-has emerged as a promising alternative, and diffusion models -- a cutting-edge
-generative AI technology -- provide an effective solution for generating
-high-quality and diverse synthetic data. In this paper, we introduce a novel
-federated learning framework for training diffusion models on decentralized
-private datasets. Our framework leverages personalization and the inherent
-noise in the forward diffusion process to produce high-quality samples while
-ensuring robust differential privacy guarantees. Our experiments show that our
-framework outperforms non-collaborative training methods, particularly in
-settings with high data heterogeneity, and effectively reduces biases and
-imbalances in synthetic data, resulting in fairer downstream models.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.00919v1">Nonparametric spectral density estimation using interactive mechanisms
-  under local differential privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36">  
-  <p><b>Published on:</b> 2025-04-01T15:52:50Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Cristina Butucea, Karolina Klockmann, Tatyana Krivobokova</p>
-    <p><b>Summary:</b> We address the problem of nonparametric estimation of the spectral density
-for a centered stationary Gaussian time series under local differential privacy
-constraints. Specifically, we propose new interactive privacy mechanisms for
-three tasks: estimating a single covariance coefficient, estimating the
-spectral density at a fixed frequency, and estimating the entire spectral
-density function. Our approach achieves faster rates through a two-stage
-process: we apply first the Laplace mechanism to the truncated value and then
-use the former privatized sample to gain knowledge on the dependence mechanism
-in the time series. For spectral densities belonging to H\"older and Sobolev
-smoothness classes, we demonstrate that our estimators improve upon the
-non-interactive mechanism of Kroll (2024) for small privacy parameter $\alpha$,
-since the pointwise rates depend on $n\alpha^2$ instead of $n\alpha^4$.
-Moreover, we show that the rate $(n\alpha^4)^{-1}$ is optimal for estimating a
-covariance coefficient with non-interactive mechanisms. However, the $L_2$ rate
-of our interactive estimator is slower than the pointwise rate. We show how to
-use these estimators to provide a bona-fide locally differentially private
-covariance matrix estimator.</p>
-  </details>
-</div>
-
-
 
 <h2>2025-05</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2505.03639v1">Differential Privacy for Network Assortativity</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-05-06T15:40:47Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Fei Ma, Jinzhi Ouyang, Xincheng Hu</p>
+    <p><b>Summary:</b> The analysis of network assortativity is of great importance for
+understanding the structural characteristics of and dynamics upon networks.
+Often, network assortativity is quantified using the assortativity coefficient
+that is defined based on the Pearson correlation coefficient between vertex
+degrees. It is well known that a network may contain sensitive information,
+such as the number of friends of an individual in a social network (which is
+abstracted as the degree of vertex.). So, the computation of the assortativity
+coefficient leads to privacy leakage, which increases the urgent need for
+privacy-preserving protocol. However, there has been no scheme addressing the
+concern above.
+  To bridge this gap, in this work, we are the first to propose approaches
+based on differential privacy (DP for short). Specifically, we design three
+DP-based algorithms: $Local_{ru}$, $Shuffle_{ru}$, and $Decentral_{ru}$. The
+first two algorithms, based on Local DP (LDP) and Shuffle DP respectively, are
+designed for settings where each individual only knows his/her direct friends.
+In contrast, the third algorithm, based on Decentralized DP (DDP), targets
+scenarios where each individual has a broader view, i.e., also knowing his/her
+friends' friends. Theoretically, we prove that each algorithm enables an
+unbiased estimation of the assortativity coefficient of the network. We further
+evaluate the performance of the proposed algorithms using mean squared error
+(MSE), showing that $Shuffle_{ru}$ achieves the best performance, followed by
+$Decentral_{ru}$, with $Local_{ru}$ performing the worst. Note that these three
+algorithms have different assumptions, so each has its applicability scenario.
+Lastly, we conduct extensive numerical simulations, which demonstrate that the
+presented approaches are adequate to achieve the estimation of network
+assortativity under the demand for privacy protection.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2505.02975v1">Navigating Privacy and Trust: AI Assistants as Social Support for Older
+  Adults</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2025-05-05T19:00:14Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Karina LaRubbio, Malcolm Grba, Diana Freed</p>
+    <p><b>Summary:</b> AI assistants are increasingly integrated into older adults' daily lives,
+offering new opportunities for social support and accessibility while raising
+important questions about privacy, autonomy, and trust. As these systems become
+embedded in caregiving and social networks, older adults must navigate
+trade-offs between usability, data privacy, and personal agency across
+different interaction contexts. Although prior work has explored AI assistants'
+potential benefits, further research is needed to understand how perceived
+usefulness and risk shape adoption and engagement. This paper examines these
+dynamics and advocates for participatory design approaches that position older
+adults as active decision makers in shaping AI assistant functionality. By
+advancing a framework for privacy-aware, user-centered AI design, this work
+contributes to ongoing discussions on developing ethical and transparent AI
+systems that enhance well-being without compromising user control.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2505.02828v1">Privacy Risks and Preservation Methods in Explainable Artificial
