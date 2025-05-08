@@ -2413,121 +2413,130 @@ environment, to enhance health outcomes.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.03173v1">PPFPL: Cross-silo Privacy-preserving Federated Prototype Learning
-  Against Data Poisoning Attacks on Non-IID Data</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
-  <p><b>Published on:</b> 2025-04-04T05:05:24Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Hongliang Zhang, Jiguo Yu, Fenghua Xu, Chunqiang Hu, Yongzhao Zhang, Xiaofen Wang, Zhongyuan Yu, Xiaosong Zhang</p>
-    <p><b>Summary:</b> Privacy-Preserving Federated Learning (PPFL) allows multiple clients to
-collaboratively train a deep learning model by submitting hidden model updates.
-Nonetheless, PPFL is vulnerable to data poisoning attacks due to the
-distributed training nature of clients. Existing solutions have struggled to
-improve the performance of cross-silo PPFL in poisoned Non-IID data. To address
-the issues, this paper proposes a privacy-preserving federated prototype
-learning framework, named PPFPL, which enhances the cross-silo FL performance
-in poisoned Non-IID data while effectively resisting data poisoning attacks.
-Specifically, we adopt prototypes as client-submitted model updates to
-eliminate the impact of tampered data distribution on federated learning.
-Moreover, we utilize two servers to achieve Byzantine-robust aggregation by
-secure aggregation protocol, which greatly reduces the impact of malicious
-clients. Theoretical analyses confirm the convergence of PPFPL, and
-experimental results on publicly available datasets show that PPFPL is
-effective for resisting data poisoning attacks with Non-IID conditions.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.02149v1">Exploring the Privacy and Security Challenges Faced by Migrant Domestic
-  Workers in Chinese Smart Homes</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2025-04-02T21:49:15Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shijing He, Xiao Zhan, Yaxiong Lei, Yueyan Liu, Ruba Abu-Salma, Jose Such</p>
-    <p><b>Summary:</b> The growing use of smart home devices poses considerable privacy and security
-challenges, especially for individuals like migrant domestic workers (MDWs) who
-may be surveilled by their employers. This paper explores the privacy and
-security challenges experienced by MDWs in multi-user smart homes through
-in-depth semi-structured interviews with 26 MDWs and 5 staff members of
-agencies that recruit and/or train domestic workers in China. Our findings
-reveal that the relationships between MDWs, their employers, and agencies are
-characterized by significant power imbalances, influenced by Chinese cultural
-and social factors (such as Confucianism and collectivism), as well as legal
-ones. Furthermore, the widespread and normalized use of surveillance
-technologies in China, particularly in public spaces, exacerbates these power
-imbalances, reinforcing a sense of constant monitoring and control. Drawing on
-our findings, we provide recommendations to domestic worker agencies and
-policymakers to address the privacy and security challenges facing MDWs in
-Chinese smart homes.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.02068v1">Privacy-Preserving Edge Computing from Pairing-Based Inner Product
-  Functional Encryption</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-04-02T19:01:10Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Utsav Banerjee</p>
-    <p><b>Summary:</b> Pairing-based inner product functional encryption provides an efficient
-theoretical construction for privacy-preserving edge computing secured by
-widely deployed elliptic curve cryptography. In this work, an efficient
-software implementation framework for pairing-based function-hiding inner
-product encryption (FHIPE) is presented using the recently proposed and widely
-adopted BLS12-381 pairing-friendly elliptic curve. Algorithmic optimizations
-provide $\approx 2.6 \times$ and $\approx 3.4 \times$ speedup in FHIPE
-encryption and decryption respectively, and extensive performance analysis is
-presented using a Raspberry Pi 4B edge device. The proposed optimizations
-enable this implementation framework to achieve performance and ciphertext size
-comparable to previous work despite being implemented on an edge device with a
-slower processor and supporting a curve at much higher security level with a
-larger prime field. Practical privacy-preserving edge computing applications
-such as encrypted biomedical sensor data classification and secure wireless
-fingerprint-based indoor localization are also demonstrated using the proposed
-implementation framework.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.01820v1">Antenna Selection for Enhancing Privacy in Radar-Based Vital Sign
-  Monitoring Systems</a></h3>
-  
-  <p><b>Published on:</b> 2025-04-02T15:28:07Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zhihao Tao, Athina P. Petropulu</p>
-    <p><b>Summary:</b> Radar-based vital sign monitoring (VSM) systems have become valuable for
-non-contact health monitoring by detecting physiological activities, such as
-respiration and heartbeat, remotely. However, the conventional phased array
-used in VSM is vulnerable to privacy breaches, as an eavesdropper can extract
-sensitive vital sign information by analyzing the reflected radar signals. In
-this paper, we propose a novel approach to protect privacy in radar-based VSM
-by modifying the radar transmitter hardware, specifically by strategically
-selecting the transmit antennas from the available antennas in the transmit
-array. By dynamically selecting which antennas connect or disconnect to the
-radio frequency chain, the transmitter introduces additional phase noise to the
-radar echoes, generating false frequencies in the power spectrum of the
-extracted phases at the eavesdropper's receiver. The antenna activation pattern
-is designed to maximize the variance of the phases introduced by antenna
-selection, which effectively makes the false frequencies dominate the spectrum,
-obscuring the actual vital sign frequencies. Meanwhile, the authorized
-receiver, having knowledge of the antenna selection pattern, can compensate for
-the phase noise and accurately extract the vital signs. Numerical experiments
-are conducted to validate the effectiveness of the proposed approach in
-enhancing privacy while maintaining vital sign monitoring.</p>
-  </details>
-</div>
-
-
 
 <h2>2025-05</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2505.04570v1">Privacy-preserving neutral atom-based quantum classifier towards real
+  healthcare applications</a></h3>
+    
+  <p><b>Published on:</b> 2025-05-07T17:03:35Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ettore Canonici, Filippo Caruso</p>
+    <p><b>Summary:</b> Technological advances in Artificial Intelligence (AI) and Machine Learning
+(ML) for the healthcare domain are rapidly arising, with a growing discussion
+regarding the ethical management of their development. In general, ML
+healthcare applications crucially require performance, interpretability of
+data, and respect for data privacy. The latter is an increasingly debated topic
+as commercial cloud computing services become more and more widespread.
+Recently, dedicated methods are starting to be developed aiming to protect data
+privacy. However, these generally result in a trade-off forcing one to balance
+the level of data privacy and the algorithm performance. Here, a Support Vector
+Machine (SVM) classifier model is proposed whose training is reformulated into
+a Quadratic Unconstrained Binary Optimization (QUBO) problem, and adapted to a
+neutral atom-based Quantum Processing Unit (QPU). Our final model does not
+require anonymization techniques to protect data privacy since the sensitive
+data are not needed to be transferred to the cloud-available QPU. Indeed, the
+latter is used only during the training phase, hence allowing a future concrete
+application in a real-world scenario. Finally, performance and scaling analyses
+on a publicly available breast cancer dataset are discussed, both using ideal
+and noisy simulations for the training process, and also successfully tested on
+a currently available real neutral-atom QPU.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2505.04361v1">RDPP-TD: Reputation and Data Privacy-Preserving based Truth Discovery
+  Scheme in Mobile Crowdsensing</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computational Engineering, Finance, and Science-5BC0EB">
+  <p><b>Published on:</b> 2025-05-07T12:20:55Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Lijian Wu, Weikun Xie, Wei Tan, Tian Wang, Houbing Herbert Song, Anfeng Liu</p>
+    <p><b>Summary:</b> Truth discovery (TD) plays an important role in Mobile Crowdsensing (MCS).
+However, existing TD methods, including privacy-preserving TD approaches,
+estimate the truth by weighting only the data submitted in the current round,
+which often results in low data quality. Moreover, there is a lack of effective
+TD methods that preserve both reputation and data privacy. To address these
+issues, a Reputation and Data Privacy-Preserving based Truth Discovery
+(RDPP-TD) scheme is proposed to obtain high-quality data for MCS. The RDPP-TD
+scheme consists of two key approaches: a Reputation-based Truth Discovery (RTD)
+approach, which integrates the weight of current-round data with workers'
+reputation values to estimate the truth, thereby achieving more accurate
+results, and a Reputation and Data Privacy-Preserving (RDPP) approach, which
+ensures privacy preservation for sensing data and reputation values. First, the
+RDPP approach, when seamlessly integrated with RTD, can effectively evaluate
+the reliability of workers and their sensing data in a privacy-preserving
+manner. Second, the RDPP scheme supports reputation-based worker recruitment
+and rewards, ensuring high-quality data collection while incentivizing workers
+to provide accurate information. Comprehensive theoretical analysis and
+extensive experiments based on real-world datasets demonstrate that the
+proposed RDPP-TD scheme provides strong privacy protection and improves data
+quality by up to 33.3%.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2505.04181v1">Privacy Challenges In Image Processing Applications</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-05-07T07:28:03Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b>  Maneesha, Bharat Gupta, Rishabh Sethi, Charvi Adita Das</p>
+    <p><b>Summary:</b> As image processing systems proliferate, privacy concerns intensify given the
+sensitive personal information contained in images. This paper examines privacy
+challenges in image processing and surveys emerging privacy-preserving
+techniques including differential privacy, secure multiparty computation,
+homomorphic encryption, and anonymization. Key applications with heightened
+privacy risks include healthcare, where medical images contain patient health
+data, and surveillance systems that can enable unwarranted tracking.
+Differential privacy offers rigorous privacy guarantees by injecting controlled
+noise, while MPC facilitates collaborative analytics without exposing raw data
+inputs. Homomorphic encryption enables computations on encrypted data and
+anonymization directly removes identifying elements. However, balancing privacy
+protections and utility remains an open challenge. Promising future directions
+identified include quantum-resilient cryptography, federated learning,
+dedicated hardware, and conceptual innovations like privacy by design.
+Ultimately, a holistic effort combining technological innovations, ethical
+considerations, and policy frameworks is necessary to uphold the fundamental
+right to privacy as image processing capabilities continue advancing rapidly.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2505.04034v1">Izhikevich-Inspired Temporal Dynamics for Enhancing Privacy, Efficiency,
+  and Transferability in Spiking Neural Networks</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Neural and Evolutionary Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-05-07T00:27:00Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ayana Moshruba, Hamed Poursiami, Maryam Parsa</p>
+    <p><b>Summary:</b> Biological neurons exhibit diverse temporal spike patterns, which are
+believed to support efficient, robust, and adaptive neural information
+processing. While models such as Izhikevich can replicate a wide range of these
+firing dynamics, their complexity poses challenges for directly integrating
+them into scalable spiking neural networks (SNN) training pipelines. In this
+work, we propose two probabilistically driven, input-level temporal spike
+transformations: Poisson-Burst and Delayed-Burst that introduce biologically
+inspired temporal variability directly into standard Leaky Integrate-and-Fire
+(LIF) neurons. This enables scalable training and systematic evaluation of how
+spike timing dynamics affect privacy, generalization, and learning performance.
+Poisson-Burst modulates burst occurrence based on input intensity, while
+Delayed-Burst encodes input strength through burst onset timing. Through
+extensive experiments across multiple benchmarks, we demonstrate that
+Poisson-Burst maintains competitive accuracy and lower resource overhead while
+exhibiting enhanced privacy robustness against membership inference attacks,
+whereas Delayed-Burst provides stronger privacy protection at a modest accuracy
+trade-off. These findings highlight the potential of biologically grounded
+temporal spike dynamics in improving the privacy, generalization and biological
+plausibility of neuromorphic learning systems.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2505.03639v1">Differential Privacy for Network Assortativity</a></h3>
