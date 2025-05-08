@@ -350,5 +350,102 @@
       "cs.CY",
       "cs.HC"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.04570v1",
+    "title" : "Privacy-preserving neutral atom-based quantum classifier towards real\n  healthcare applications",
+    "summary" : "Technological advances in Artificial Intelligence (AI) and Machine Learning\n(ML) for the healthcare domain are rapidly arising, with a growing discussion\nregarding the ethical management of their development. In general, ML\nhealthcare applications crucially require performance, interpretability of\ndata, and respect for data privacy. The latter is an increasingly debated topic\nas commercial cloud computing services become more and more widespread.\nRecently, dedicated methods are starting to be developed aiming to protect data\nprivacy. However, these generally result in a trade-off forcing one to balance\nthe level of data privacy and the algorithm performance. Here, a Support Vector\nMachine (SVM) classifier model is proposed whose training is reformulated into\na Quadratic Unconstrained Binary Optimization (QUBO) problem, and adapted to a\nneutral atom-based Quantum Processing Unit (QPU). Our final model does not\nrequire anonymization techniques to protect data privacy since the sensitive\ndata are not needed to be transferred to the cloud-available QPU. Indeed, the\nlatter is used only during the training phase, hence allowing a future concrete\napplication in a real-world scenario. Finally, performance and scaling analyses\non a publicly available breast cancer dataset are discussed, both using ideal\nand noisy simulations for the training process, and also successfully tested on\na currently available real neutral-atom QPU.",
+    "updated" : "2025-05-07T17:03:35Z",
+    "published" : "2025-05-07T17:03:35Z",
+    "authors" : [
+      {
+        "name" : "Ettore Canonici"
+      },
+      {
+        "name" : "Filippo Caruso"
+      }
+    ],
+    "categories" : [
+      "quant-ph",
+      "81V45 (Primary) 81P68 (Secondary)",
+      "I.2.0; J.2; I.5.0"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.04361v1",
+    "title" : "RDPP-TD: Reputation and Data Privacy-Preserving based Truth Discovery\n  Scheme in Mobile Crowdsensing",
+    "summary" : "Truth discovery (TD) plays an important role in Mobile Crowdsensing (MCS).\nHowever, existing TD methods, including privacy-preserving TD approaches,\nestimate the truth by weighting only the data submitted in the current round,\nwhich often results in low data quality. Moreover, there is a lack of effective\nTD methods that preserve both reputation and data privacy. To address these\nissues, a Reputation and Data Privacy-Preserving based Truth Discovery\n(RDPP-TD) scheme is proposed to obtain high-quality data for MCS. The RDPP-TD\nscheme consists of two key approaches: a Reputation-based Truth Discovery (RTD)\napproach, which integrates the weight of current-round data with workers'\nreputation values to estimate the truth, thereby achieving more accurate\nresults, and a Reputation and Data Privacy-Preserving (RDPP) approach, which\nensures privacy preservation for sensing data and reputation values. First, the\nRDPP approach, when seamlessly integrated with RTD, can effectively evaluate\nthe reliability of workers and their sensing data in a privacy-preserving\nmanner. Second, the RDPP scheme supports reputation-based worker recruitment\nand rewards, ensuring high-quality data collection while incentivizing workers\nto provide accurate information. Comprehensive theoretical analysis and\nextensive experiments based on real-world datasets demonstrate that the\nproposed RDPP-TD scheme provides strong privacy protection and improves data\nquality by up to 33.3%.",
+    "updated" : "2025-05-07T12:20:55Z",
+    "published" : "2025-05-07T12:20:55Z",
+    "authors" : [
+      {
+        "name" : "Lijian Wu"
+      },
+      {
+        "name" : "Weikun Xie"
+      },
+      {
+        "name" : "Wei Tan"
+      },
+      {
+        "name" : "Tian Wang"
+      },
+      {
+        "name" : "Houbing Herbert Song"
+      },
+      {
+        "name" : "Anfeng Liu"
+      }
+    ],
+    "categories" : [
+      "cs.CE"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.04181v1",
+    "title" : "Privacy Challenges In Image Processing Applications",
+    "summary" : "As image processing systems proliferate, privacy concerns intensify given the\nsensitive personal information contained in images. This paper examines privacy\nchallenges in image processing and surveys emerging privacy-preserving\ntechniques including differential privacy, secure multiparty computation,\nhomomorphic encryption, and anonymization. Key applications with heightened\nprivacy risks include healthcare, where medical images contain patient health\ndata, and surveillance systems that can enable unwarranted tracking.\nDifferential privacy offers rigorous privacy guarantees by injecting controlled\nnoise, while MPC facilitates collaborative analytics without exposing raw data\ninputs. Homomorphic encryption enables computations on encrypted data and\nanonymization directly removes identifying elements. However, balancing privacy\nprotections and utility remains an open challenge. Promising future directions\nidentified include quantum-resilient cryptography, federated learning,\ndedicated hardware, and conceptual innovations like privacy by design.\nUltimately, a holistic effort combining technological innovations, ethical\nconsiderations, and policy frameworks is necessary to uphold the fundamental\nright to privacy as image processing capabilities continue advancing rapidly.",
+    "updated" : "2025-05-07T07:28:03Z",
+    "published" : "2025-05-07T07:28:03Z",
+    "authors" : [
+      {
+        "name" : " Maneesha"
+      },
+      {
+        "name" : "Bharat Gupta"
+      },
+      {
+        "name" : "Rishabh Sethi"
+      },
+      {
+        "name" : "Charvi Adita Das"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.04034v1",
+    "title" : "Izhikevich-Inspired Temporal Dynamics for Enhancing Privacy, Efficiency,\n  and Transferability in Spiking Neural Networks",
+    "summary" : "Biological neurons exhibit diverse temporal spike patterns, which are\nbelieved to support efficient, robust, and adaptive neural information\nprocessing. While models such as Izhikevich can replicate a wide range of these\nfiring dynamics, their complexity poses challenges for directly integrating\nthem into scalable spiking neural networks (SNN) training pipelines. In this\nwork, we propose two probabilistically driven, input-level temporal spike\ntransformations: Poisson-Burst and Delayed-Burst that introduce biologically\ninspired temporal variability directly into standard Leaky Integrate-and-Fire\n(LIF) neurons. This enables scalable training and systematic evaluation of how\nspike timing dynamics affect privacy, generalization, and learning performance.\nPoisson-Burst modulates burst occurrence based on input intensity, while\nDelayed-Burst encodes input strength through burst onset timing. Through\nextensive experiments across multiple benchmarks, we demonstrate that\nPoisson-Burst maintains competitive accuracy and lower resource overhead while\nexhibiting enhanced privacy robustness against membership inference attacks,\nwhereas Delayed-Burst provides stronger privacy protection at a modest accuracy\ntrade-off. These findings highlight the potential of biologically grounded\ntemporal spike dynamics in improving the privacy, generalization and biological\nplausibility of neuromorphic learning systems.",
+    "updated" : "2025-05-07T00:27:00Z",
+    "published" : "2025-05-07T00:27:00Z",
+    "authors" : [
+      {
+        "name" : "Ayana Moshruba"
+      },
+      {
+        "name" : "Hamed Poursiami"
+      },
+      {
+        "name" : "Maryam Parsa"
+      }
+    ],
+    "categories" : [
+      "cs.NE",
+      "cs.AI",
+      "cs.LG"
+    ]
   }
 ]
