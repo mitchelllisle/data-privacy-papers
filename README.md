@@ -2262,159 +2262,167 @@ identification.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.05202v1">Infinitely Divisible Noise for Differential Privacy: Nearly Optimal
-  Error in the High $\varepsilon$ Regime</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B">
-  <p><b>Published on:</b> 2025-04-07T15:50:46Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Charlie Harrison, Pasin Manurangsi</p>
-    <p><b>Summary:</b> Differential privacy (DP) can be achieved in a distributed manner, where
-multiple parties add independent noise such that their sum protects the overall
-dataset with DP. A common technique here is for each party to sample their
-noise from the decomposition of an infinitely divisible distribution. We
-analyze two mechanisms in this setting: 1) the generalized discrete Laplace
-(GDL) mechanism, whose distribution (which is closed under summation) follows
-from differences of i.i.d. negative binomial shares, and 2) the multi-scale
-discrete Laplace (MSDLap) mechanism, a novel mechanism following the sum of
-multiple i.i.d. discrete Laplace shares at different scales.
-  For $\varepsilon \geq 1$, our mechanisms can be parameterized to have
-$O\left(\Delta^3 e^{-\varepsilon}\right)$ and $O\left(\min\left(\Delta^3
-e^{-\varepsilon}, \Delta^2 e^{-2\varepsilon/3}\right)\right)$ MSE,
-respectively, where $\Delta$ denote the sensitivity; the latter bound matches
-known optimality results. We also show a transformation from the discrete
-setting to the continuous setting, which allows us to transform both mechanisms
-to the continuous setting and thereby achieve the optimal $O\left(\Delta^2
-e^{-2\varepsilon / 3}\right)$ MSE. To our knowledge, these are the first
-infinitely divisible additive noise mechanisms that achieve order-optimal MSE
-under pure DP, so our work shows formally there is no separation in utility
-when query-independent noise adding mechanisms are restricted to infinitely
-divisible noise. For the continuous setting, our result improves upon the Arete
-mechanism from [Pagh and Stausholm, ALT 2022] which gives an MSE of
-$O\left(\Delta^2 e^{-\varepsilon/4}\right)$. Furthermore, we give an exact
-sampler tuned to efficiently implement the MSDLap mechanism, and we apply our
-results to improve a state of the art multi-message shuffle DP protocol in the
-high $\varepsilon$ regime.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.04734v1">Teaching Data Science Students to Sketch Privacy Designs through
-  Heuristics (Extended Technical Report)</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2025-04-07T05:12:21Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jinhe Wen, Yingxi Zhao, Wenqian Xu, Yaxing Yao, Haojian Jin</p>
-    <p><b>Summary:</b> Recent studies reveal that experienced data practitioners often draw sketches
-to facilitate communication around privacy design concepts. However, there is
-limited understanding of how we can help novice students develop such
-communication skills. This paper studies methods for lowering novice data
-science students' barriers to creating high-quality privacy sketches. We first
-conducted a need-finding study (N=12) to identify barriers students face when
-sketching privacy designs. We then used a human-centered design approach to
-guide the method development, culminating in three simple, text-based
-heuristics. Our user studies with 24 data science students revealed that simply
-presenting three heuristics to the participants at the beginning of the study
-can enhance the coverage of privacy-related design decisions in sketches,
-reduce the mental effort required for creating sketches, and improve the
-readability of the final sketches.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.04388v1">Who's Watching You Zoom? Investigating Privacy of Third-Party Zoom Apps</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-04-06T06:48:58Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Saharsh Goenka, Adit Prabhu, Payge Sakurai, Mrinaal Ramachandran, Rakibul Hasan</p>
-    <p><b>Summary:</b> Zoom serves millions of users daily and allows third-party developers to
-integrate their apps with the Zoom client and reach those users. So far, these
-apps' privacy and security aspects, which can access rich audio-visual data
-(among others) from Zoom, have not been scientifically investigated. This paper
-examines the evolution of the Zoom Marketplace over one year, identifying
-trends in apps, their data collection behaviors, and the transparency of
-privacy policies. Our findings include worrisome details about the increasing
-over-collection of user data, non-transparency about purposes and sharing
-behaviors, and possible non-compliance with relevant laws. We believe these
-findings will inform future privacy and security research on this platform and
-help improve Zoom's app review process and platform policy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.04033v1">Disparate Privacy Vulnerability: Targeted Attribute Inference Attacks
-  and Defenses</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-04-05T02:58:37Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ehsanul Kabir, Lucas Craig, Shagufta Mehnaz</p>
-    <p><b>Summary:</b> As machine learning (ML) technologies become more prevalent in
-privacy-sensitive areas like healthcare and finance, eventually incorporating
-sensitive information in building data-driven algorithms, it is vital to
-scrutinize whether these data face any privacy leakage risks. One potential
-threat arises from an adversary querying trained models using the public,
-non-sensitive attributes of entities in the training data to infer their
-private, sensitive attributes, a technique known as the attribute inference
-attack. This attack is particularly deceptive because, while it may perform
-poorly in predicting sensitive attributes across the entire dataset, it excels
-at predicting the sensitive attributes of records from a few vulnerable groups,
-a phenomenon known as disparate vulnerability. This paper illustrates that an
-adversary can take advantage of this disparity to carry out a series of new
-attacks, showcasing a threat level beyond previous imagination. We first
-develop a novel inference attack called the disparity inference attack, which
-targets the identification of high-risk groups within the dataset. We then
-introduce two targeted variations of the attribute inference attack that can
-identify and exploit a vulnerable subset of the training data, marking the
-first instances of targeted attacks in this category, achieving significantly
-higher accuracy than untargeted versions. We are also the first to introduce a
-novel and effective disparity mitigation technique that simultaneously
-preserves model performance and prevents any risk of targeted attacks.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.03798v1">An Intelligent and Privacy-Preserving Digital Twin Model for
-  Aging-in-Place</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">  
-  <p><b>Published on:</b> 2025-04-04T05:37:08Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yongjie Wang, Jonathan Cyril Leung, Ming Chen, Zhiwei Zeng, Benny Toh Hsiang Tan, Yang Qiu, Zhiqi Shen</p>
-    <p><b>Summary:</b> The population of older adults is steadily increasing, with a strong
-preference for aging-in-place rather than moving to care facilities.
-Consequently, supporting this growing demographic has become a significant
-global challenge. However, facilitating successful aging-in-place is
-challenging, requiring consideration of multiple factors such as data privacy,
-health status monitoring, and living environments to improve health outcomes.
-In this paper, we propose an unobtrusive sensor system designed for
-installation in older adults' homes. Using data from the sensors, our system
-constructs a digital twin, a virtual representation of events and activities
-that occurred in the home. The system uses neural network models and decision
-rules to capture residents' activities and living environments. This digital
-twin enables continuous health monitoring by providing actionable insights into
-residents' well-being. Our system is designed to be low-cost and
-privacy-preserving, with the aim of providing green and safe monitoring for the
-health of older adults. We have successfully deployed our system in two homes
-over a time period of two months, and our findings demonstrate the feasibility
-and effectiveness of digital twin technology in supporting independent living
-for older adults. This study highlights that our system could revolutionize
-elder care by enabling personalized interventions, such as lifestyle
-adjustments, medical treatments, or modifications to the residential
-environment, to enhance health outcomes.</p>
-  </details>
-</div>
-
-
 
 <h2>2025-05</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2505.05214v1">Overcoming the hurdle of legal expertise: A reusable model for
+  smartwatch privacy policies</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
+  <p><b>Published on:</b> 2025-05-08T13:09:12Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Constantin Buschhaus, Arvid Butting, Judith Michael, Verena Nitsch, Sebastian Pütz, Bernhard Rumpe, Carolin Stellmacher, Sabine Theis</p>
+    <p><b>Summary:</b> Regulations for privacy protection aim to protect individuals from the
+unauthorized storage, processing, and transfer of their personal data but
+oftentimes fail in providing helpful support for understanding these
+regulations. To better communicate privacy policies for smartwatches, we need
+an in-depth understanding of their concepts and provide better ways to enable
+developers to integrate them when engineering systems. Up to now, no conceptual
+model exists covering privacy statements from different smartwatch
+manufacturers that is reusable for developers. This paper introduces such a
+conceptual model for privacy policies of smartwatches and shows its use in a
+model-driven software engineering approach to create a platform for data
+visualization of wearable privacy policies from different smartwatch
+manufacturers. We have analyzed the privacy policies of various manufacturers
+and extracted the relevant concepts. Moreover, we have checked the model with
+lawyers for its correctness, instantiated it with concrete data, and used it in
+a model-driven software engineering approach to create a platform for data
+visualization. This reusable privacy policy model can enable developers to
+easily represent privacy policies in their systems. This provides a foundation
+for more structured and understandable privacy policies which, in the long run,
+can increase the data sovereignty of application users.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2505.05155v1">FedTDP: A Privacy-Preserving and Unified Framework for Trajectory Data
+  Preparation via Federated Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-05-08T11:51:23Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zhihao Zeng, Ziquan Fang, Wei Shao, Lu Chen, Yunjun Gao</p>
+    <p><b>Summary:</b> Trajectory data, which capture the movement patterns of people and vehicles
+over time and space, are crucial for applications like traffic optimization and
+urban planning. However, issues such as noise and incompleteness often
+compromise data quality, leading to inaccurate trajectory analyses and limiting
+the potential of these applications. While Trajectory Data Preparation (TDP)
+can enhance data quality, existing methods suffer from two key limitations: (i)
+they do not address data privacy concerns, particularly in federated settings
+where trajectory data sharing is prohibited, and (ii) they typically design
+task-specific models that lack generalizability across diverse TDP scenarios.
+To overcome these challenges, we propose FedTDP, a privacy-preserving and
+unified framework that leverages the capabilities of Large Language Models
+(LLMs) for TDP in federated environments. Specifically, we: (i) design a
+trajectory privacy autoencoder to secure data transmission and protect privacy,
+(ii) introduce a trajectory knowledge enhancer to improve model learning of
+TDP-related knowledge, enabling the development of TDP-oriented LLMs, and (iii)
+propose federated parallel optimization to enhance training efficiency by
+reducing data transmission and enabling parallel model training. Experiments on
+6 real datasets and 10 mainstream TDP tasks demonstrate that FedTDP
+consistently outperforms 13 state-of-the-art baselines.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2505.05031v1">LSRP: A Leader-Subordinate Retrieval Framework for Privacy-Preserving
+  Cloud-Device Collaboration</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB">
+  <p><b>Published on:</b> 2025-05-08T08:06:34Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yingyi Zhang, Pengyue Jia, Xianneng Li, Derong Xu, Maolin Wang, Yichao Wang, Zhaocheng Du, Huifeng Guo, Yong Liu, Ruiming Tang, Xiangyu Zhao</p>
+    <p><b>Summary:</b> Cloud-device collaboration leverages on-cloud Large Language Models (LLMs)
+for handling public user queries and on-device Small Language Models (SLMs) for
+processing private user data, collectively forming a powerful and
+privacy-preserving solution. However, existing approaches often fail to fully
+leverage the scalable problem-solving capabilities of on-cloud LLMs while
+underutilizing the advantage of on-device SLMs in accessing and processing
+personalized data. This leads to two interconnected issues: 1) Limited
+utilization of the problem-solving capabilities of on-cloud LLMs, which fail to
+align with personalized user-task needs, and 2) Inadequate integration of user
+data into on-device SLM responses, resulting in mismatches in contextual user
+information.
+  In this paper, we propose a Leader-Subordinate Retrieval framework for
+Privacy-preserving cloud-device collaboration (LSRP), a novel solution that
+bridges these gaps by: 1) enhancing on-cloud LLM guidance to on-device SLM
+through a dynamic selection of task-specific leader strategies named as
+user-to-user retrieval-augmented generation (U-U-RAG), and 2) integrating the
+data advantages of on-device SLMs through small model feedback Direct
+Preference Optimization (SMFB-DPO) for aligning the on-cloud LLM with the
+on-device SLM. Experiments on two datasets demonstrate that LSRP consistently
+outperforms state-of-the-art baselines, significantly improving question-answer
+relevance and personalization, while preserving user privacy through efficient
+on-device retrieval. Our code is available at:
+https://github.com/Zhang-Yingyi/LSRP.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2505.04889v1">FedRE: Robust and Effective Federated Learning with Privacy Preference</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-05-08T01:50:27Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Tianzhe Xiao, Yichen Li, Yu Zhou, Yining Qi, Yi Liu, Wei Wang, Haozhao Wang, Yi Wang, Ruixuan Li</p>
+    <p><b>Summary:</b> Despite Federated Learning (FL) employing gradient aggregation at the server
+for distributed training to prevent the privacy leakage of raw data, private
+information can still be divulged through the analysis of uploaded gradients
+from clients. Substantial efforts have been made to integrate local
+differential privacy (LDP) into the system to achieve a strict privacy
+guarantee. However, existing methods fail to take practical issues into account
+by merely perturbing each sample with the same mechanism while each client may
+have their own privacy preferences on privacy-sensitive information (PSI),
+which is not uniformly distributed across the raw data. In such a case,
+excessive privacy protection from private-insensitive information can
+additionally introduce unnecessary noise, which may degrade the model
+performance. In this work, we study the PSI within data and develop FedRE, that
+can simultaneously achieve robustness and effectiveness benefits with LDP
+protection. More specifically, we first define PSI with regard to the privacy
+preferences of each client. Then, we optimize the LDP by allocating less
+privacy budget to gradients with higher PSI in a layer-wise manner, thus
+providing a stricter privacy guarantee for PSI. Furthermore, to mitigate the
+performance degradation caused by LDP, we design a parameter aggregation
+mechanism based on the distribution of the perturbed information. We conducted
+experiments with text tamper detection on T-SROIE and DocTamper datasets, and
+FedRE achieves competitive performance compared to state-of-the-art methods.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2505.04799v1">Safeguard-by-Development: A Privacy-Enhanced Development Paradigm for
+  Multi-Agent Collaboration Systems</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-05-07T20:54:43Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jian Cui, Zichuan Li, Luyi Xing, Xiaojing Liao</p>
+    <p><b>Summary:</b> Multi-agent collaboration systems (MACS), powered by large language models
+(LLMs), solve complex problems efficiently by leveraging each agent's
+specialization and communication between agents. However, the inherent exchange
+of information between agents and their interaction with external environments,
+such as LLM, tools, and users, inevitably introduces significant risks of
+sensitive data leakage, including vulnerabilities to attacks like prompt
+injection and reconnaissance. Existing MACS fail to enable privacy controls,
+making it challenging to manage sensitive information securely. In this paper,
+we take the first step to address the MACS's data leakage threat at the system
+development level through a privacy-enhanced development paradigm, Maris. Maris
+enables rigorous message flow control within MACS by embedding reference
+monitors into key multi-agent conversation components. We implemented Maris as
+an integral part of AutoGen, a widely adopted open-source multi-agent
+development framework. Then, we evaluate Maris for its effectiveness and
+performance overhead on privacy-critical MACS use cases, including healthcare,
+supply chain optimization, and personalized recommendation system. The result
+shows that Maris achieves satisfactory effectiveness, performance overhead and
+practicability for adoption.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2505.04570v1">Privacy-preserving neutral atom-based quantum classifier towards real
