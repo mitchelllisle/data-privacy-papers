@@ -447,5 +447,178 @@
       "cs.AI",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.05214v1",
+    "title" : "Overcoming the hurdle of legal expertise: A reusable model for\n  smartwatch privacy policies",
+    "summary" : "Regulations for privacy protection aim to protect individuals from the\nunauthorized storage, processing, and transfer of their personal data but\noftentimes fail in providing helpful support for understanding these\nregulations. To better communicate privacy policies for smartwatches, we need\nan in-depth understanding of their concepts and provide better ways to enable\ndevelopers to integrate them when engineering systems. Up to now, no conceptual\nmodel exists covering privacy statements from different smartwatch\nmanufacturers that is reusable for developers. This paper introduces such a\nconceptual model for privacy policies of smartwatches and shows its use in a\nmodel-driven software engineering approach to create a platform for data\nvisualization of wearable privacy policies from different smartwatch\nmanufacturers. We have analyzed the privacy policies of various manufacturers\nand extracted the relevant concepts. Moreover, we have checked the model with\nlawyers for its correctness, instantiated it with concrete data, and used it in\na model-driven software engineering approach to create a platform for data\nvisualization. This reusable privacy policy model can enable developers to\neasily represent privacy policies in their systems. This provides a foundation\nfor more structured and understandable privacy policies which, in the long run,\ncan increase the data sovereignty of application users.",
+    "updated" : "2025-05-08T13:09:12Z",
+    "published" : "2025-05-08T13:09:12Z",
+    "authors" : [
+      {
+        "name" : "Constantin Buschhaus"
+      },
+      {
+        "name" : "Arvid Butting"
+      },
+      {
+        "name" : "Judith Michael"
+      },
+      {
+        "name" : "Verena Nitsch"
+      },
+      {
+        "name" : "Sebastian Pütz"
+      },
+      {
+        "name" : "Bernhard Rumpe"
+      },
+      {
+        "name" : "Carolin Stellmacher"
+      },
+      {
+        "name" : "Sabine Theis"
+      }
+    ],
+    "categories" : [
+      "cs.SE"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.05155v1",
+    "title" : "FedTDP: A Privacy-Preserving and Unified Framework for Trajectory Data\n  Preparation via Federated Learning",
+    "summary" : "Trajectory data, which capture the movement patterns of people and vehicles\nover time and space, are crucial for applications like traffic optimization and\nurban planning. However, issues such as noise and incompleteness often\ncompromise data quality, leading to inaccurate trajectory analyses and limiting\nthe potential of these applications. While Trajectory Data Preparation (TDP)\ncan enhance data quality, existing methods suffer from two key limitations: (i)\nthey do not address data privacy concerns, particularly in federated settings\nwhere trajectory data sharing is prohibited, and (ii) they typically design\ntask-specific models that lack generalizability across diverse TDP scenarios.\nTo overcome these challenges, we propose FedTDP, a privacy-preserving and\nunified framework that leverages the capabilities of Large Language Models\n(LLMs) for TDP in federated environments. Specifically, we: (i) design a\ntrajectory privacy autoencoder to secure data transmission and protect privacy,\n(ii) introduce a trajectory knowledge enhancer to improve model learning of\nTDP-related knowledge, enabling the development of TDP-oriented LLMs, and (iii)\npropose federated parallel optimization to enhance training efficiency by\nreducing data transmission and enabling parallel model training. Experiments on\n6 real datasets and 10 mainstream TDP tasks demonstrate that FedTDP\nconsistently outperforms 13 state-of-the-art baselines.",
+    "updated" : "2025-05-08T11:51:23Z",
+    "published" : "2025-05-08T11:51:23Z",
+    "authors" : [
+      {
+        "name" : "Zhihao Zeng"
+      },
+      {
+        "name" : "Ziquan Fang"
+      },
+      {
+        "name" : "Wei Shao"
+      },
+      {
+        "name" : "Lu Chen"
+      },
+      {
+        "name" : "Yunjun Gao"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.05031v1",
+    "title" : "LSRP: A Leader-Subordinate Retrieval Framework for Privacy-Preserving\n  Cloud-Device Collaboration",
+    "summary" : "Cloud-device collaboration leverages on-cloud Large Language Models (LLMs)\nfor handling public user queries and on-device Small Language Models (SLMs) for\nprocessing private user data, collectively forming a powerful and\nprivacy-preserving solution. However, existing approaches often fail to fully\nleverage the scalable problem-solving capabilities of on-cloud LLMs while\nunderutilizing the advantage of on-device SLMs in accessing and processing\npersonalized data. This leads to two interconnected issues: 1) Limited\nutilization of the problem-solving capabilities of on-cloud LLMs, which fail to\nalign with personalized user-task needs, and 2) Inadequate integration of user\ndata into on-device SLM responses, resulting in mismatches in contextual user\ninformation.\n  In this paper, we propose a Leader-Subordinate Retrieval framework for\nPrivacy-preserving cloud-device collaboration (LSRP), a novel solution that\nbridges these gaps by: 1) enhancing on-cloud LLM guidance to on-device SLM\nthrough a dynamic selection of task-specific leader strategies named as\nuser-to-user retrieval-augmented generation (U-U-RAG), and 2) integrating the\ndata advantages of on-device SLMs through small model feedback Direct\nPreference Optimization (SMFB-DPO) for aligning the on-cloud LLM with the\non-device SLM. Experiments on two datasets demonstrate that LSRP consistently\noutperforms state-of-the-art baselines, significantly improving question-answer\nrelevance and personalization, while preserving user privacy through efficient\non-device retrieval. Our code is available at:\nhttps://github.com/Zhang-Yingyi/LSRP.",
+    "updated" : "2025-05-08T08:06:34Z",
+    "published" : "2025-05-08T08:06:34Z",
+    "authors" : [
+      {
+        "name" : "Yingyi Zhang"
+      },
+      {
+        "name" : "Pengyue Jia"
+      },
+      {
+        "name" : "Xianneng Li"
+      },
+      {
+        "name" : "Derong Xu"
+      },
+      {
+        "name" : "Maolin Wang"
+      },
+      {
+        "name" : "Yichao Wang"
+      },
+      {
+        "name" : "Zhaocheng Du"
+      },
+      {
+        "name" : "Huifeng Guo"
+      },
+      {
+        "name" : "Yong Liu"
+      },
+      {
+        "name" : "Ruiming Tang"
+      },
+      {
+        "name" : "Xiangyu Zhao"
+      }
+    ],
+    "categories" : [
+      "cs.IR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.04889v1",
+    "title" : "FedRE: Robust and Effective Federated Learning with Privacy Preference",
+    "summary" : "Despite Federated Learning (FL) employing gradient aggregation at the server\nfor distributed training to prevent the privacy leakage of raw data, private\ninformation can still be divulged through the analysis of uploaded gradients\nfrom clients. Substantial efforts have been made to integrate local\ndifferential privacy (LDP) into the system to achieve a strict privacy\nguarantee. However, existing methods fail to take practical issues into account\nby merely perturbing each sample with the same mechanism while each client may\nhave their own privacy preferences on privacy-sensitive information (PSI),\nwhich is not uniformly distributed across the raw data. In such a case,\nexcessive privacy protection from private-insensitive information can\nadditionally introduce unnecessary noise, which may degrade the model\nperformance. In this work, we study the PSI within data and develop FedRE, that\ncan simultaneously achieve robustness and effectiveness benefits with LDP\nprotection. More specifically, we first define PSI with regard to the privacy\npreferences of each client. Then, we optimize the LDP by allocating less\nprivacy budget to gradients with higher PSI in a layer-wise manner, thus\nproviding a stricter privacy guarantee for PSI. Furthermore, to mitigate the\nperformance degradation caused by LDP, we design a parameter aggregation\nmechanism based on the distribution of the perturbed information. We conducted\nexperiments with text tamper detection on T-SROIE and DocTamper datasets, and\nFedRE achieves competitive performance compared to state-of-the-art methods.",
+    "updated" : "2025-05-08T01:50:27Z",
+    "published" : "2025-05-08T01:50:27Z",
+    "authors" : [
+      {
+        "name" : "Tianzhe Xiao"
+      },
+      {
+        "name" : "Yichen Li"
+      },
+      {
+        "name" : "Yu Zhou"
+      },
+      {
+        "name" : "Yining Qi"
+      },
+      {
+        "name" : "Yi Liu"
+      },
+      {
+        "name" : "Wei Wang"
+      },
+      {
+        "name" : "Haozhao Wang"
+      },
+      {
+        "name" : "Yi Wang"
+      },
+      {
+        "name" : "Ruixuan Li"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.04799v1",
+    "title" : "Safeguard-by-Development: A Privacy-Enhanced Development Paradigm for\n  Multi-Agent Collaboration Systems",
+    "summary" : "Multi-agent collaboration systems (MACS), powered by large language models\n(LLMs), solve complex problems efficiently by leveraging each agent's\nspecialization and communication between agents. However, the inherent exchange\nof information between agents and their interaction with external environments,\nsuch as LLM, tools, and users, inevitably introduces significant risks of\nsensitive data leakage, including vulnerabilities to attacks like prompt\ninjection and reconnaissance. Existing MACS fail to enable privacy controls,\nmaking it challenging to manage sensitive information securely. In this paper,\nwe take the first step to address the MACS's data leakage threat at the system\ndevelopment level through a privacy-enhanced development paradigm, Maris. Maris\nenables rigorous message flow control within MACS by embedding reference\nmonitors into key multi-agent conversation components. We implemented Maris as\nan integral part of AutoGen, a widely adopted open-source multi-agent\ndevelopment framework. Then, we evaluate Maris for its effectiveness and\nperformance overhead on privacy-critical MACS use cases, including healthcare,\nsupply chain optimization, and personalized recommendation system. The result\nshows that Maris achieves satisfactory effectiveness, performance overhead and\npracticability for adoption.",
+    "updated" : "2025-05-07T20:54:43Z",
+    "published" : "2025-05-07T20:54:43Z",
+    "authors" : [
+      {
+        "name" : "Jian Cui"
+      },
+      {
+        "name" : "Zichuan Li"
+      },
+      {
+        "name" : "Luyi Xing"
+      },
+      {
+        "name" : "Xiaojing Liao"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
