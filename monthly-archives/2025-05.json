@@ -620,5 +620,297 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.06122v1",
+    "title" : "Interaction-Aware Parameter Privacy-Preserving Data Sharing in Coupled\n  Systems via Particle Filter Reinforcement Learning",
+    "summary" : "This paper addresses the problem of parameter privacy-preserving data sharing\nin coupled systems, where a data provider shares data with a data user but\nwants to protect its sensitive parameters. The shared data affects not only the\ndata user's decision-making but also the data provider's operations through\nsystem interactions. To trade off control performance and privacy, we propose\nan interaction-aware privacy-preserving data sharing approach. Our approach\ngenerates distorted data by minimizing a combination of (i) mutual information,\nquantifying privacy leakage of sensitive parameters, and (ii) the impact of\ndistorted data on the data provider's control performance, considering the\ninteractions between stakeholders. The optimization problem is formulated into\na Bellman equation and solved by a particle filter reinforcement learning\n(RL)-based approach. Compared to existing RL-based methods, our formulation\nsignificantly reduces history dependency and efficiently handles scenarios with\ncontinuous state space. Validated in a mixed-autonomy platoon scenario, our\nmethod effectively protects sensitive driving behavior parameters of\nhuman-driven vehicles (HDVs) against inference attacks while maintaining\nnegligible impact on fuel efficiency.",
+    "updated" : "2025-05-09T15:25:48Z",
+    "published" : "2025-05-09T15:25:48Z",
+    "authors" : [
+      {
+        "name" : "Haokun Yu"
+      },
+      {
+        "name" : "Jingyuan Zhou"
+      },
+      {
+        "name" : "Kaidi Yang"
+      }
+    ],
+    "categories" : [
+      "eess.SY",
+      "cs.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.05922v1",
+    "title" : "CAPE: Context-Aware Prompt Perturbation Mechanism with Differential\n  Privacy",
+    "summary" : "Large Language Models (LLMs) have gained significant popularity due to their\nremarkable capabilities in text understanding and generation. However, despite\ntheir widespread deployment in inference services such as ChatGPT, concerns\nabout the potential leakage of sensitive user data have arisen. Existing\nsolutions primarily rely on privacy-enhancing technologies to mitigate such\nrisks, facing the trade-off among efficiency, privacy, and utility. To narrow\nthis gap, we propose Cape, a context-aware prompt perturbation mechanism based\non differential privacy, to enable efficient inference with an improved\nprivacy-utility trade-off. Concretely, we introduce a hybrid utility function\nthat better captures the token similarity. Additionally, we propose a\nbucketized sampling mechanism to handle large sampling space, which might lead\nto long-tail phenomenons. Extensive experiments across multiple datasets, along\nwith ablation studies, demonstrate that Cape achieves a better privacy-utility\ntrade-off compared to prior state-of-the-art works.",
+    "updated" : "2025-05-09T09:54:07Z",
+    "published" : "2025-05-09T09:54:07Z",
+    "authors" : [
+      {
+        "name" : "Haoqi Wu"
+      },
+      {
+        "name" : "Wei Dai"
+      },
+      {
+        "name" : "Li Wang"
+      },
+      {
+        "name" : "Qiang Yan"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.05920v1",
+    "title" : "Privacy-Preserving Credit Card Approval Using Homomorphic SVM: Toward\n  Secure Inference in FinTech Applications",
+    "summary" : "The growing use of machine learning in cloud environments raises critical\nconcerns about data security and privacy, especially in finance. Fully\nHomomorphic Encryption (FHE) offers a solution by enabling computations on\nencrypted data, but its high computational cost limits practicality. In this\npaper, we propose PP-FinTech, a privacy-preserving scheme for financial\napplications that employs a CKKS-based encrypted soft-margin SVM, enhanced with\na hybrid kernel for modeling non-linear patterns and an adaptive thresholding\nmechanism for robust encrypted classification. Experiments on the Credit Card\nApproval dataset demonstrate comparable performance to the plaintext models,\nhighlighting PP-FinTech's ability to balance privacy, and efficiency in secure\nfinancial ML systems.",
+    "updated" : "2025-05-09T09:46:56Z",
+    "published" : "2025-05-09T09:46:56Z",
+    "authors" : [
+      {
+        "name" : " Faneela"
+      },
+      {
+        "name" : "Baraq Ghaleb"
+      },
+      {
+        "name" : "Jawad Ahmad"
+      },
+      {
+        "name" : "William J. Buchanan"
+      },
+      {
+        "name" : "Sana Ullah Jan"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.05859v1",
+    "title" : "Integrating Building Thermal Flexibility Into Distribution System: A\n  Privacy-Preserved Dispatch Approach",
+    "summary" : "The inherent thermal storage capacity of buildings brings considerable\nthermal flexibility to the heating/cooling loads, which are promising demand\nresponse resources for power systems. It is widely believed that integrating\nthe thermal flexibility of buildings into the distribution system can improve\nthe operating economy and reliability of the system. However, the private\ninformation of the buildings needs to be transferred to the distribution system\noperator (DSO) to achieve a coordinated optimization, bringing serious privacy\nconcerns to users. Given this issue, we propose a novel privacy-preserved\noptimal dispatch approach for the distribution system incorporating buildings.\nUsing it, the DSO can exploit the thermal flexibility of buildings without\naccessing their private information, such as model parameters and indoor\ntemperature profiles. Specifically, we first develop an optimal dispatch model\nfor the distribution system integrating buildings, which can be extended to\nother storage-like flexibility resources. Second, we reveal that the\nprivacy-preserved integration of buildings is a joint privacy preservation\nproblem for both parameters and state variables and then design a\nprivacy-preserved algorithm based on transformation-based encryption,\nconstraint relaxation, and constraint extension techniques. Besides, we\nimplement a detailed privacy analysis for the proposed method, considering both\nsemi-honest adversaries and external eavesdroppers. Case studies demonstrate\nthe accuracy, privacy-preserved performance, and computational efficiency of\nthe proposed method.",
+    "updated" : "2025-05-09T07:53:08Z",
+    "published" : "2025-05-09T07:53:08Z",
+    "authors" : [
+      {
+        "name" : "Shuai Lu"
+      },
+      {
+        "name" : "Zeyin Hou"
+      },
+      {
+        "name" : "Wei Gu"
+      },
+      {
+        "name" : "Yijun Xu"
+      }
+    ],
+    "categories" : [
+      "eess.SY",
+      "cs.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.05843v1",
+    "title" : "Enhancing Noisy Functional Encryption for Privacy-Preserving Machine\n  Learning",
+    "summary" : "Functional encryption (FE) has recently attracted interest in\nprivacy-preserving machine learning (PPML) for its unique ability to compute\nspecific functions on encrypted data. A related line of work focuses on noisy\nFE, which ensures differential privacy in the output while keeping the data\nencrypted. We extend the notion of noisy multi-input functional encryption\n(NMIFE) to (dynamic) noisy multi-client functional encryption ((Dy)NMCFE),\nwhich allows for more flexibility in the number of data holders and analyses,\nwhile protecting the privacy of the data holder with fine-grained access\nthrough the usage of labels. Following our new definition of DyNMCFE, we\npresent DyNo, a concrete inner-product DyNMCFE scheme. Our scheme captures all\nthe functionalities previously introduced in noisy FE schemes, while being\nsignificantly more efficient in terms of space and runtime and fulfilling a\nstronger security notion by allowing the corruption of clients. To further\nprove the applicability of DyNMCFE, we present a protocol for PPML based on\nDyNo. According to this protocol, we train a privacy-preserving logistic\nregression.",
+    "updated" : "2025-05-09T07:33:09Z",
+    "published" : "2025-05-09T07:33:09Z",
+    "authors" : [
+      {
+        "name" : "Linda Scheu-Hachtel"
+      },
+      {
+        "name" : "Jasmin Zalonis"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.05816v1",
+    "title" : "On the Price of Differential Privacy for Spectral Clustering over\n  Stochastic Block Models",
+    "summary" : "We investigate privacy-preserving spectral clustering for community detection\nwithin stochastic block models (SBMs). Specifically, we focus on edge\ndifferential privacy (DP) and propose private algorithms for community\nrecovery. Our work explores the fundamental trade-offs between the privacy\nbudget and the accurate recovery of community labels. Furthermore, we establish\ninformation-theoretic conditions that guarantee the accuracy of our methods,\nproviding theoretical assurances for successful community recovery under edge\nDP.",
+    "updated" : "2025-05-09T06:34:56Z",
+    "published" : "2025-05-09T06:34:56Z",
+    "authors" : [
+      {
+        "name" : "Antti Koskela"
+      },
+      {
+        "name" : "Mohamed Seif"
+      },
+      {
+        "name" : "Andrea J. Goldsmith"
+      }
+    ],
+    "categories" : [
+      "cs.SI",
+      "cs.CR",
+      "cs.IT",
+      "cs.LG",
+      "math.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.05707v1",
+    "title" : "Crowding Out The Noise: Algorithmic Collective Action Under Differential\n  Privacy",
+    "summary" : "The integration of AI into daily life has generated considerable attention\nand excitement, while also raising concerns about automating algorithmic harms\nand re-entrenching existing social inequities. While the responsible deployment\nof trustworthy AI systems is a worthy goal, there are many possible ways to\nrealize it, from policy and regulation to improved algorithm design and\nevaluation. In fact, since AI trains on social data, there is even a\npossibility for everyday users, citizens, or workers to directly steer its\nbehavior through Algorithmic Collective Action, by deliberately modifying the\ndata they share with a platform to drive its learning process in their favor.\nThis paper considers how these grassroots efforts to influence AI interact with\nmethods already used by AI firms and governments to improve model\ntrustworthiness. In particular, we focus on the setting where the AI firm\ndeploys a differentially private model, motivated by the growing regulatory\nfocus on privacy and data protection. We investigate how the use of\nDifferentially Private Stochastic Gradient Descent (DPSGD) affects the\ncollective's ability to influence the learning process. Our findings show that\nwhile differential privacy contributes to the protection of individual data, it\nintroduces challenges for effective algorithmic collective action. We\ncharacterize lower bounds on the success of algorithmic collective action under\ndifferential privacy as a function of the collective's size and the firm's\nprivacy parameters, and verify these trends experimentally by simulating\ncollective action during the training of deep neural network classifiers across\nseveral datasets.",
+    "updated" : "2025-05-09T00:55:12Z",
+    "published" : "2025-05-09T00:55:12Z",
+    "authors" : [
+      {
+        "name" : "Rushabh Solanki"
+      },
+      {
+        "name" : "Meghana Bhange"
+      },
+      {
+        "name" : "Ulrich Aïvodji"
+      },
+      {
+        "name" : "Elliot Creager"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.05648v1",
+    "title" : "Privacy-Preserving Transformers: SwiftKey's Differential Privacy\n  Implementation",
+    "summary" : "In this paper we train a transformer using differential privacy (DP) for\nlanguage modeling in SwiftKey. We run multiple experiments to balance the\ntrade-off between the model size, run-time speed and accuracy. We show that we\nget small and consistent gains in the next-word-prediction and accuracy with\ngraceful increase in memory and speed compared to the production GRU. This is\nobtained by scaling down a GPT2 architecture to fit the required size and a two\nstage training process that builds a seed model on general data and DP\nfinetunes it on typing data. The transformer is integrated using ONNX offering\nboth flexibility and efficiency.",
+    "updated" : "2025-05-08T21:08:04Z",
+    "published" : "2025-05-08T21:08:04Z",
+    "authors" : [
+      {
+        "name" : "Abdelrahman Abouelenin"
+      },
+      {
+        "name" : "Mohamed Abdelrehim"
+      },
+      {
+        "name" : "Raffy Fahim"
+      },
+      {
+        "name" : "Amr Hendy"
+      },
+      {
+        "name" : "Mohamed Afify"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.05613v1",
+    "title" : "Optimal Regret of Bernoulli Bandits under Global Differential Privacy",
+    "summary" : "As sequential learning algorithms are increasingly applied to real life,\nensuring data privacy while maintaining their utilities emerges as a timely\nquestion. In this context, regret minimisation in stochastic bandits under\n$\\epsilon$-global Differential Privacy (DP) has been widely studied. Unlike\nbandits without DP, there is a significant gap between the best-known regret\nlower and upper bound in this setting, though they \"match\" in order. Thus, we\nrevisit the regret lower and upper bounds of $\\epsilon$-global DP algorithms\nfor Bernoulli bandits and improve both. First, we prove a tighter regret lower\nbound involving a novel information-theoretic quantity characterising the\nhardness of $\\epsilon$-global DP in stochastic bandits. Our lower bound\nstrictly improves on the existing ones across all $\\epsilon$ values. Then, we\nchoose two asymptotically optimal bandit algorithms, i.e. DP-KLUCB and DP-IMED,\nand propose their DP versions using a unified blueprint, i.e., (a) running in\narm-dependent phases, and (b) adding Laplace noise to achieve privacy. For\nBernoulli bandits, we analyse the regrets of these algorithms and show that\ntheir regrets asymptotically match our lower bound up to a constant arbitrary\nclose to 1. This refutes the conjecture that forgetting past rewards is\nnecessary to design optimal bandit algorithms under global DP. At the core of\nour algorithms lies a new concentration inequality for sums of Bernoulli\nvariables under Laplace mechanism, which is a new DP version of the Chernoff\nbound. This result is universally useful as the DP literature commonly treats\nthe concentrations of Laplace noise and random variables separately, while we\ncouple them to yield a tighter bound.",
+    "updated" : "2025-05-08T19:48:58Z",
+    "published" : "2025-05-08T19:48:58Z",
+    "authors" : [
+      {
+        "name" : "Achraf Azize"
+      },
+      {
+        "name" : "Yulian Wu"
+      },
+      {
+        "name" : "Junya Honda"
+      },
+      {
+        "name" : "Francesco Orabona"
+      },
+      {
+        "name" : "Shinji Ito"
+      },
+      {
+        "name" : "Debabrota Basu"
+      }
+    ],
+    "categories" : [
+      "stat.ML",
+      "cs.CR",
+      "cs.IT",
+      "cs.LG",
+      "math.IT",
+      "math.ST",
+      "stat.TH"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.05519v1",
+    "title" : "Real-Time Privacy Preservation for Robot Visual Perception",
+    "summary" : "Many robots (e.g., iRobot's Roomba) operate based on visual observations from\nlive video streams, and such observations may inadvertently include\nprivacy-sensitive objects, such as personal identifiers. Existing approaches\nfor preserving privacy rely on deep learning models, differential privacy, or\ncryptography. They lack guarantees for the complete concealment of all\nsensitive objects. Guaranteeing concealment requires post-processing techniques\nand thus is inadequate for real-time video streams. We develop a method for\nprivacy-constrained video streaming, PCVS, that conceals sensitive objects\nwithin real-time video streams. PCVS takes a logical specification constraining\nthe existence of privacy-sensitive objects, e.g., never show faces when a\nperson exists. It uses a detection model to evaluate the existence of these\nobjects in each incoming frame. Then, it blurs out a subset of objects such\nthat the existence of the remaining objects satisfies the specification. We\nthen propose a conformal prediction approach to (i) establish a theoretical\nlower bound on the probability of the existence of these objects in a sequence\nof frames satisfying the specification and (ii) update the bound with the\narrival of each subsequent frame. Quantitative evaluations show that PCVS\nachieves over 95 percent specification satisfaction rate in multiple datasets,\nsignificantly outperforming other methods. The satisfaction rate is\nconsistently above the theoretical bounds across all datasets, indicating that\nthe established bounds hold. Additionally, we deploy PCVS on robots in\nreal-time operation and show that the robots operate normally without being\ncompromised when PCVS conceals objects.",
+    "updated" : "2025-05-08T03:27:12Z",
+    "published" : "2025-05-08T03:27:12Z",
+    "authors" : [
+      {
+        "name" : "Minkyu Choi"
+      },
+      {
+        "name" : "Yunhao Yang"
+      },
+      {
+        "name" : "Neel P. Bhatt"
+      },
+      {
+        "name" : "Kushagra Gupta"
+      },
+      {
+        "name" : "Sahil Shah"
+      },
+      {
+        "name" : "Aditya Rai"
+      },
+      {
+        "name" : "David Fridovich-Keil"
+      },
+      {
+        "name" : "Ufuk Topcu"
+      },
+      {
+        "name" : "Sandeep P. Chinchali"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.02392v2",
+    "title" : "Moneros Decentralized P2P Exchanges: Functionality, Adoption, and\n  Privacy Risks",
+    "summary" : "Privacy-focused cryptocurrencies like Monero remain popular, despite\nincreasing regulatory scrutiny that has led to their delisting from major\ncentralized exchanges. The latter also explains the recent popularity of\ndecentralized exchanges (DEXs) with no centralized ownership structures. These\nplatforms typically leverage peer-to-peer (P2P) networks, promising secure and\nanonymous asset trading. However, questions of liability remain, and the\nacademic literature lacks comprehensive insights into the functionality,\ntrading activity, and privacy claims of these P2P platforms. In this paper, we\nprovide an early systematization of the current landscape of decentralized\npeer-to-peer exchanges within the Monero ecosystem. We examine several recently\ndeveloped DEX platforms, analyzing their popularity, functionality,\narchitectural choices, and potential weaknesses. We further identify and report\non a privacy vulnerability in the recently popularized Haveno exchange,\ndemonstrating that certain Haveno trades could be detected, allowing\ntransactions to be linked across the Monero and Bitcoin blockchains. We hope\nthat our findings can nourish the discussion in the research community about\nmore secure designs, and provide insights for regulators.",
+    "updated" : "2025-05-09T15:32:20Z",
+    "published" : "2025-05-05T06:27:37Z",
+    "authors" : [
+      {
+        "name" : "Yannik Kopyciok"
+      },
+      {
+        "name" : "Friedhelm Victor"
+      },
+      {
+        "name" : "Stefan Schmid"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
