@@ -912,5 +912,268 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.07766v1",
+    "title" : "Privacy Risks of Robot Vision: A User Study on Image Modalities and\n  Resolution",
+    "summary" : "User privacy is a crucial concern in robotic applications, especially when\nmobile service robots are deployed in personal or sensitive environments.\nHowever, many robotic downstream tasks require the use of cameras, which may\nraise privacy risks. To better understand user perceptions of privacy in\nrelation to visual data, we conducted a user study investigating how different\nimage modalities and image resolutions affect users' privacy concerns. The\nresults show that depth images are broadly viewed as privacy-safe, and a\nsimilarly high proportion of respondents feel the same about semantic\nsegmentation images. Additionally, the majority of participants consider 32*32\nresolution RGB images to be almost sufficiently privacy-preserving, while most\nbelieve that 16*16 resolution can fully guarantee privacy protection.",
+    "updated" : "2025-05-12T17:16:12Z",
+    "published" : "2025-05-12T17:16:12Z",
+    "authors" : [
+      {
+        "name" : "Xuying Huang"
+      },
+      {
+        "name" : "Sicong Pan"
+      },
+      {
+        "name" : "Maren Bennewitz"
+      }
+    ],
+    "categories" : [
+      "cs.RO",
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.07672v1",
+    "title" : "OnPrem.LLM: A Privacy-Conscious Document Intelligence Toolkit",
+    "summary" : "We present OnPrem.LLM, a Python-based toolkit for applying large language\nmodels (LLMs) to sensitive, non-public data in offline or restricted\nenvironments. The system is designed for privacy-preserving use cases and\nprovides prebuilt pipelines for document processing and storage,\nretrieval-augmented generation (RAG), information extraction, summarization,\nclassification, and prompt/output processing with minimal configuration.\nOnPrem.LLM supports multiple LLM backends -- including llama.cpp, Ollama, vLLM,\nand Hugging Face Transformers -- with quantized model support, GPU\nacceleration, and seamless backend switching. Although designed for fully local\nexecution, OnPrem.LLM also supports integration with a wide range of cloud LLM\nproviders when permitted, enabling hybrid deployments that balance performance\nwith data control. A no-code web interface extends accessibility to\nnon-technical users.",
+    "updated" : "2025-05-12T15:36:27Z",
+    "published" : "2025-05-12T15:36:27Z",
+    "authors" : [
+      {
+        "name" : "Arun S. Maiya"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.07583v1",
+    "title" : "Privacy-Preserving Real-Time Vietnamese-English Translation on iOS using\n  Edge AI",
+    "summary" : "This research addresses the growing need for privacy-preserving and\naccessible language translation by developing a fully offline Neural Machine\nTranslation (NMT) system for Vietnamese-English translation on iOS devices.\nGiven increasing concerns about data privacy and unreliable network\nconnectivity, on-device translation offers critical advantages. This project\nconfronts challenges in deploying complex NMT models on resource-limited mobile\ndevices, prioritizing efficiency, accuracy, and a seamless user experience.\nLeveraging advances such as MobileBERT and, specifically, the lightweight\n\\textbf{TinyLlama 1.1B Chat v1.0} in GGUF format, \\textbf{a} quantized\nTransformer-based model is implemented and optimized. The application is\nrealized as a real-time iOS prototype, tightly integrating modern iOS\nframeworks and privacy-by-design principles. Comprehensive documentation covers\nmodel selection, technical architecture, challenges, and final implementation,\nincluding functional Swift code for deployment.",
+    "updated" : "2025-05-12T14:05:39Z",
+    "published" : "2025-05-12T14:05:39Z",
+    "authors" : [
+      {
+        "name" : "Cong Le"
+      }
+    ],
+    "categories" : [
+      "cs.SE"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.07306v1",
+    "title" : "Enabling Privacy-Aware AI-Based Ergonomic Analysis",
+    "summary" : "Musculoskeletal disorders (MSDs) are a leading cause of injury and\nproductivity loss in the manufacturing industry, incurring substantial economic\ncosts. Ergonomic assessments can mitigate these risks by identifying workplace\nadjustments that improve posture and reduce strain. Camera-based systems offer\na non-intrusive, cost-effective method for continuous ergonomic tracking, but\nthey also raise significant privacy concerns. To address this, we propose a\nprivacy-aware ergonomic assessment framework utilizing machine learning\ntechniques. Our approach employs adversarial training to develop a lightweight\nneural network that obfuscates video data, preserving only the essential\ninformation needed for human pose estimation. This obfuscation ensures\ncompatibility with standard pose estimation algorithms, maintaining high\naccuracy while protecting privacy. The obfuscated video data is transmitted to\na central server, where state-of-the-art keypoint detection algorithms extract\nbody landmarks. Using multi-view integration, 3D keypoints are reconstructed\nand evaluated with the Rapid Entire Body Assessment (REBA) method. Our system\nprovides a secure, effective solution for ergonomic monitoring in industrial\nenvironments, addressing both privacy and workplace safety concerns.",
+    "updated" : "2025-05-12T07:52:48Z",
+    "published" : "2025-05-12T07:52:48Z",
+    "authors" : [
+      {
+        "name" : "Sander De Coninck"
+      },
+      {
+        "name" : "Emilio Gamba"
+      },
+      {
+        "name" : "Bart Van Doninck"
+      },
+      {
+        "name" : "Abdellatif Bey-Temsamani"
+      },
+      {
+        "name" : "Sam Leroux"
+      },
+      {
+        "name" : "Pieter Simoens"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.07085v1",
+    "title" : "Privacy of Groups in Dense Street Imagery",
+    "summary" : "Spatially and temporally dense street imagery (DSI) datasets have grown\nunbounded. In 2024, individual companies possessed around 3 trillion unique\nimages of public streets. DSI data streams are only set to grow as companies\nlike Lyft and Waymo use DSI to train autonomous vehicle algorithms and analyze\ncollisions. Academic researchers leverage DSI to explore novel approaches to\nurban analysis. Despite good-faith efforts by DSI providers to protect\nindividual privacy through blurring faces and license plates, these measures\nfail to address broader privacy concerns. In this work, we find that increased\ndata density and advancements in artificial intelligence enable harmful group\nmembership inferences from supposedly anonymized data. We perform a penetration\ntest to demonstrate how easily sensitive group affiliations can be inferred\nfrom obfuscated pedestrians in 25,232,608 dashcam images taken in New York\nCity. We develop a typology of identifiable groups within DSI and analyze\nprivacy implications through the lens of contextual integrity. Finally, we\ndiscuss actionable recommendations for researchers working with data from DSI\nproviders.",
+    "updated" : "2025-05-11T18:16:08Z",
+    "published" : "2025-05-11T18:16:08Z",
+    "authors" : [
+      {
+        "name" : "Matt Franchi"
+      },
+      {
+        "name" : "Hauke Sandhaus"
+      },
+      {
+        "name" : "Madiha Zahrah Choksi"
+      },
+      {
+        "name" : "Severin Engelmann"
+      },
+      {
+        "name" : "Wendy Ju"
+      },
+      {
+        "name" : "Helen Nissenbaum"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.CV",
+      "cs.ET"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.07041v1",
+    "title" : "Empirical Analysis of Asynchronous Federated Learning on Heterogeneous\n  Devices: Efficiency, Fairness, and Privacy Trade-offs",
+    "summary" : "Device heterogeneity poses major challenges in Federated Learning (FL), where\nresource-constrained clients slow down synchronous schemes that wait for all\nupdates before aggregation. Asynchronous FL addresses this by incorporating\nupdates as they arrive, substantially improving efficiency. While its\nefficiency gains are well recognized, its privacy costs remain largely\nunexplored, particularly for high-end devices that contribute updates more\nfrequently, increasing their cumulative privacy exposure. This paper presents\nthe first comprehensive analysis of the efficiency-fairness-privacy trade-off\nin synchronous vs. asynchronous FL under realistic device heterogeneity. We\nempirically compare FedAvg and staleness-aware FedAsync using a physical\ntestbed of five edge devices spanning diverse hardware tiers, integrating Local\nDifferential Privacy (LDP) and the Moments Accountant to quantify per-client\nprivacy loss. Using Speech Emotion Recognition (SER) as a privacy-critical\nbenchmark, we show that FedAsync achieves up to 10x faster convergence but\nexacerbates fairness and privacy disparities: high-end devices contribute 6-10x\nmore updates and incur up to 5x higher privacy loss, while low-end devices\nsuffer amplified accuracy degradation due to infrequent, stale, and\nnoise-perturbed updates. These findings motivate the need for adaptive FL\nprotocols that jointly optimize aggregation and privacy mechanisms based on\nclient capacity and participation dynamics, moving beyond static,\none-size-fits-all solutions.",
+    "updated" : "2025-05-11T16:25:06Z",
+    "published" : "2025-05-11T16:25:06Z",
+    "authors" : [
+      {
+        "name" : "Samaneh Mohammadi"
+      },
+      {
+        "name" : "Iraklis Symeonidis"
+      },
+      {
+        "name" : "Ali Balador"
+      },
+      {
+        "name" : "Francesco Flammini"
+      }
+    ],
+    "categories" : [
+      "cs.DC",
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.06860v1",
+    "title" : "DP-TRAE: A Dual-Phase Merging Transferable Reversible Adversarial\n  Example for Image Privacy Protection",
+    "summary" : "In the field of digital security, Reversible Adversarial Examples (RAE)\ncombine adversarial attacks with reversible data hiding techniques to\neffectively protect sensitive data and prevent unauthorized analysis by\nmalicious Deep Neural Networks (DNNs). However, existing RAE techniques\nprimarily focus on white-box attacks, lacking a comprehensive evaluation of\ntheir effectiveness in black-box scenarios. This limitation impedes their\nbroader deployment in complex, dynamic environments. Further more, traditional\nblack-box attacks are often characterized by poor transferability and high\nquery costs, significantly limiting their practical applicability. To address\nthese challenges, we propose the Dual-Phase Merging Transferable Reversible\nAttack method, which generates highly transferable initial adversarial\nperturbations in a white-box model and employs a memory augmented black-box\nstrategy to effectively mislead target mod els. Experimental results\ndemonstrate the superiority of our approach, achieving a 99.0% attack success\nrate and 100% recovery rate in black-box scenarios, highlighting its robustness\nin privacy protection. Moreover, we successfully implemented a black-box attack\non a commercial model, further substantiating the potential of this approach\nfor practical use.",
+    "updated" : "2025-05-11T06:11:10Z",
+    "published" : "2025-05-11T06:11:10Z",
+    "authors" : [
+      {
+        "name" : "Xia Du"
+      },
+      {
+        "name" : "Jiajie Zhu"
+      },
+      {
+        "name" : "Jizhe Zhou"
+      },
+      {
+        "name" : "Chi-man Pun"
+      },
+      {
+        "name" : "Zheng Lin"
+      },
+      {
+        "name" : "Cong Wu"
+      },
+      {
+        "name" : "Zhe Chen"
+      },
+      {
+        "name" : "Jun Luo"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.06759v1",
+    "title" : "Privacy-aware Berrut Approximated Coded Computing applied to general\n  distributed learning",
+    "summary" : "Coded computing is one of the techniques that can be used for privacy\nprotection in Federated Learning. However, most of the constructions used for\ncoded computing work only under the assumption that the computations involved\nare exact, generally restricted to special classes of functions, and require\nquantized inputs. This paper considers the use of Private Berrut Approximate\nCoded Computing (PBACC) as a general solution to add strong but non-perfect\nprivacy to federated learning. We derive new adapted PBACC algorithms for\ncentralized aggregation, secure distributed training with centralized data, and\nsecure decentralized training with decentralized data, thus enlarging\nsignificantly the applications of the method and the existing privacy\nprotection tools available for these paradigms. Particularly, PBACC can be used\nrobustly to attain privacy guarantees in decentralized federated learning for a\nvariety of models. Our numerical results show that the achievable quality of\ndifferent learning models (convolutional neural networks, variational\nautoencoders, and Cox regression) is minimally altered by using these new\ncomputing schemes, and that the privacy leakage can be bounded strictly to less\nthan a fraction of one bit per participant. Additionally, the computational\ncost of the encoding and decoding processes depends only of the degree of\ndecentralization of the data.",
+    "updated" : "2025-05-10T21:27:40Z",
+    "published" : "2025-05-10T21:27:40Z",
+    "authors" : [
+      {
+        "name" : "Xavier Martínez-Luaña"
+      },
+      {
+        "name" : "Manuel Fernández-Veiga"
+      },
+      {
+        "name" : "Rebeca P. Díaz-Redondo"
+      },
+      {
+        "name" : "Ana Fernández-Vilas"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "cs.DC",
+      "cs.IT",
+      "math.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.06747v1",
+    "title" : "DPolicy: Managing Privacy Risks Across Multiple Releases with\n  Differential Privacy",
+    "summary" : "Differential Privacy (DP) has emerged as a robust framework for\nprivacy-preserving data releases and has been successfully applied in\nhigh-profile cases, such as the 2020 US Census. However, in organizational\nsettings, the use of DP remains largely confined to isolated data releases.\nThis approach restricts the potential of DP to serve as a framework for\ncomprehensive privacy risk management at an organizational level. Although one\nmight expect that the cumulative privacy risk of isolated releases could be\nassessed using DP's compositional property, in practice, individual DP\nguarantees are frequently tailored to specific releases, making it difficult to\nreason about their interaction or combined impact. At the same time, less\ntailored DP guarantees, which compose more easily, also offer only limited\ninsight because they lead to excessively large privacy budgets that convey\nlimited meaning. To address these limitations, we present DPolicy, a system\ndesigned to manage cumulative privacy risks across multiple data releases using\nDP. Unlike traditional approaches that treat each release in isolation or rely\non a single (global) DP guarantee, our system employs a flexible framework that\nconsiders multiple DP guarantees simultaneously, reflecting the diverse\ncontexts and scopes typical of real-world DP deployments. DPolicy introduces a\nhigh-level policy language to formalize privacy guarantees, making\ntraditionally implicit assumptions on scopes and contexts explicit. By deriving\nthe DP guarantees required to enforce complex privacy semantics from these\nhigh-level policies, DPolicy enables fine-grained privacy risk management on an\norganizational scale. We implement and evaluate DPolicy, demonstrating how it\nmitigates privacy risks that can emerge without comprehensive,\norganization-wide privacy risk management.",
+    "updated" : "2025-05-10T19:49:51Z",
+    "published" : "2025-05-10T19:49:51Z",
+    "authors" : [
+      {
+        "name" : "Nicolas Küchler"
+      },
+      {
+        "name" : "Alexander Viand"
+      },
+      {
+        "name" : "Hidde Lycklama"
+      },
+      {
+        "name" : "Anwar Hithnawi"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.06305v1",
+    "title" : "User Behavior Analysis in Privacy Protection with Large Language Models:\n  A Study on Privacy Preferences with Limited Data",
+    "summary" : "With the widespread application of large language models (LLMs), user privacy\nprotection has become a significant research topic. Existing privacy preference\nmodeling methods often rely on large-scale user data, making effective privacy\npreference analysis challenging in data-limited environments. This study\nexplores how LLMs can analyze user behavior related to privacy protection in\nscenarios with limited data and proposes a method that integrates Few-shot\nLearning and Privacy Computing to model user privacy preferences. The research\nutilizes anonymized user privacy settings data, survey responses, and simulated\ndata, comparing the performance of traditional modeling approaches with\nLLM-based methods. Experimental results demonstrate that, even with limited\ndata, LLMs significantly improve the accuracy of privacy preference modeling.\nAdditionally, incorporating Differential Privacy and Federated Learning further\nreduces the risk of user data exposure. The findings provide new insights into\nthe application of LLMs in privacy protection and offer theoretical support for\nadvancing privacy computing and user behavior analysis.",
+    "updated" : "2025-05-08T04:42:17Z",
+    "published" : "2025-05-08T04:42:17Z",
+    "authors" : [
+      {
+        "name" : "Haowei Yang"
+      },
+      {
+        "name" : "Qingyi Lu"
+      },
+      {
+        "name" : "Yang Wang"
+      },
+      {
+        "name" : "Sibei Liu"
+      },
+      {
+        "name" : "Jiayun Zheng"
+      },
+      {
+        "name" : "Ao Xiang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
   }
 ]
