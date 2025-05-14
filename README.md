@@ -1575,93 +1575,81 @@ provide discussion of the implications for other forms of network DP.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.12129v2">Anti-Aesthetics: Protecting Facial Privacy against Customized
-  Text-to-Image Synthesis</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2025-04-16T14:44:00Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Songping Wang, Yueming Lyu, Shiqi Liu, Ning Li, Tong Tong, Hao Sun, Caifeng Shan</p>
-    <p><b>Summary:</b> The rise of customized diffusion models has spurred a boom in personalized
-visual content creation, but also poses risks of malicious misuse, severely
-threatening personal privacy and copyright protection. Some studies show that
-the aesthetic properties of images are highly positively correlated with human
-perception of image quality. Inspired by this, we approach the problem from a
-novel and intriguing aesthetic perspective to degrade the generation quality of
-maliciously customized models, thereby achieving better protection of facial
-identity. Specifically, we propose a Hierarchical Anti-Aesthetic (HAA)
-framework to fully explore aesthetic cues, which consists of two key branches:
-1) Global Anti-Aesthetics: By establishing a global anti-aesthetic reward
-mechanism and a global anti-aesthetic loss, it can degrade the overall
-aesthetics of the generated content; 2) Local Anti-Aesthetics: A local
-anti-aesthetic reward mechanism and a local anti-aesthetic loss are designed to
-guide adversarial perturbations to disrupt local facial identity. By seamlessly
-integrating both branches, our HAA effectively achieves the goal of
-anti-aesthetics from a global to a local level during customized generation.
-Extensive experiments show that HAA outperforms existing SOTA methods largely
-in identity removal, providing a powerful tool for protecting facial privacy
-and copyright.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.11860v1">From Data Behavior to Code Analysis: A Multimodal Study on Security and
-  Privacy Challenges in Blockchain-Based DApp</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-04-16T08:30:43Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Haoyang Sun, Yishun Wang, Xiaoqi Li</p>
-    <p><b>Summary:</b> The recent proliferation of blockchain-based decentralized applications
-(DApp) has catalyzed transformative advancements in distributed systems, with
-extensive deployments observed across financial, entertainment, media, and
-cybersecurity domains. These trustless architectures, characterized by their
-decentralized nature and elimination of third-party intermediaries, have
-garnered substantial institutional attention. Consequently, the escalating
-security challenges confronting DApp demand rigorous scholarly investigation.
-This study initiates with a systematic analysis of behavioral patterns derived
-from empirical DApp datasets, establishing foundational insights for subsequent
-methodological developments. The principal security vulnerabilities in
-Ethereum-based smart contracts developed via Solidity are then critically
-examined. Specifically, reentrancy vulnerability attacks are addressed by
-formally representing contract logic using highly expressive code fragments.
-This enables precise source code-level detection via bidirectional long
-short-term memory networks with attention mechanisms (BLSTM-ATT). Regarding
-privacy preservation challenges, contemporary solutions are evaluated through
-dual analytical lenses: identity privacy preservation and transaction anonymity
-enhancement, while proposing future research trajectories in cryptographic
-obfuscation techniques.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.11793v3">Selective Attention Federated Learning: Improving Privacy and Efficiency
-  for Clinical Text Classification</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-04-16T05:59:29Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yue Li, Lihong Zhang</p>
-    <p><b>Summary:</b> Federated Learning (FL) faces major challenges regarding communication
-overhead and model privacy when training large language models (LLMs),
-especially in healthcare applications. To address these, we introduce Selective
-Attention Federated Learning (SAFL), a novel approach that dynamically
-fine-tunes only those transformer layers identified as attention-critical. By
-employing attention patterns to determine layer importance, SAFL significantly
-reduces communication bandwidth and enhances differential privacy resilience.
-Evaluations on clinical NLP benchmarks (i2b2 Clinical Concept Extraction and
-MIMIC-III discharge summaries) demonstrate that SAFL achieves competitive
-performance with centralized models while substantially improving communication
-efficiency and privacy preservation.</p>
-  </details>
-</div>
-
-
 
 <h2>2025-05</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2505.08719v1">PWC-MoE: Privacy-Aware Wireless Collaborative Mixture of Experts</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-05-13T16:27:07Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yang Su, Na Yan, Yansha Deng, Robert Schober</p>
+    <p><b>Summary:</b> Large language models (LLMs) hosted on cloud servers alleviate the
+computational and storage burdens on local devices but raise privacy concerns
+due to sensitive data transmission and require substantial communication
+bandwidth, which is challenging in constrained environments. In contrast, small
+language models (SLMs) running locally enhance privacy but suffer from limited
+performance on complex tasks. To balance computational cost, performance, and
+privacy protection under bandwidth constraints, we propose a privacy-aware
+wireless collaborative mixture of experts (PWC-MoE) framework. Specifically,
+PWC-MoE employs a sparse privacy-aware gating network to dynamically route
+sensitive tokens to privacy experts located on local clients, while
+non-sensitive tokens are routed to non-privacy experts located at the remote
+base station. To achieve computational efficiency, the gating network ensures
+that each token is dynamically routed to and processed by only one expert. To
+enhance scalability and prevent overloading of specific experts, we introduce a
+group-wise load-balancing mechanism for the gating network that evenly
+distributes sensitive tokens among privacy experts and non-sensitive tokens
+among non-privacy experts. To adapt to bandwidth constraints while preserving
+model performance, we propose a bandwidth-adaptive and importance-aware token
+offloading scheme. This scheme incorporates an importance predictor to evaluate
+the importance scores of non-sensitive tokens, prioritizing the most important
+tokens for transmission to the base station based on their predicted importance
+and the available bandwidth. Experiments demonstrate that the PWC-MoE framework
+effectively preserves privacy and maintains high performance even in
+bandwidth-constrained environments, offering a practical solution for deploying
+LLMs in privacy-sensitive and bandwidth-limited scenarios.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2505.08237v1">Privacy-Preserving Analytics for Smart Meter (AMI) Data: A Hybrid
+  Approach to Comply with CPUC Privacy Regulations</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
+  <p><b>Published on:</b> 2025-05-13T05:30:35Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Benjamin Westrich</p>
+    <p><b>Summary:</b> Advanced Metering Infrastructure (AMI) data from smart electric and gas
+meters enables valuable insights for utilities and consumers, but also raises
+significant privacy concerns. In California, regulatory decisions (CPUC
+D.11-07-056 and D.11-08-045) mandate strict privacy protections for customer
+energy usage data, guided by the Fair Information Practice Principles (FIPPs).
+We comprehensively explore solutions drawn from data anonymization,
+privacy-preserving machine learning (differential privacy and federated
+learning), synthetic data generation, and cryptographic techniques (secure
+multiparty computation, homomorphic encryption). This allows advanced
+analytics, including machine learning models, statistical and econometric
+analysis on energy consumption data, to be performed without compromising
+individual privacy.
+  We evaluate each technique's theoretical foundations, effectiveness, and
+trade-offs in the context of utility data analytics, and we propose an
+integrated architecture that combines these methods to meet real-world needs.
+The proposed hybrid architecture is designed to ensure compliance with
+California's privacy rules and FIPPs while enabling useful analytics, from
+forecasting and personalized insights to academic research and econometrics,
+while strictly protecting individual privacy. Mathematical definitions and
+derivations are provided where appropriate to demonstrate privacy guarantees
+and utility implications rigorously. We include comparative evaluations of the
+techniques, an architecture diagram, and flowcharts to illustrate how they work
+together in practice. The result is a blueprint for utility data scientists and
+engineers to implement privacy-by-design in AMI data handling, supporting both
+data-driven innovation and strict regulatory compliance.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2505.07766v1">Privacy Risks of Robot Vision: A User Study on Image Modalities and
@@ -1687,24 +1675,24 @@ believe that 16*16 resolution can fully guarantee privacy protection.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.07672v1">OnPrem.LLM: A Privacy-Conscious Document Intelligence Toolkit</a></h3>
+  <h3><a href="http://arxiv.org/abs/2505.07672v2">OnPrem.LLM: A Privacy-Conscious Document Intelligence Toolkit</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2025-05-12T15:36:27Z</p>
   <details>
     <summary>More Details</summary>
     <p><b>Authors:</b> Arun S. Maiya</p>
-    <p><b>Summary:</b> We present OnPrem.LLM, a Python-based toolkit for applying large language
+    <p><b>Summary:</b> We present OnPrem$.$LLM, a Python-based toolkit for applying large language
 models (LLMs) to sensitive, non-public data in offline or restricted
 environments. The system is designed for privacy-preserving use cases and
 provides prebuilt pipelines for document processing and storage,
 retrieval-augmented generation (RAG), information extraction, summarization,
 classification, and prompt/output processing with minimal configuration.
-OnPrem.LLM supports multiple LLM backends -- including llama.cpp, Ollama, vLLM,
-and Hugging Face Transformers -- with quantized model support, GPU
+OnPrem$.$LLM supports multiple LLM backends -- including llama$.$cpp, Ollama,
+vLLM, and Hugging Face Transformers -- with quantized model support, GPU
 acceleration, and seamless backend switching. Although designed for fully local
-execution, OnPrem.LLM also supports integration with a wide range of cloud LLM
-providers when permitted, enabling hybrid deployments that balance performance
-with data control. A no-code web interface extends accessibility to
+execution, OnPrem$.$LLM also supports integration with a wide range of cloud
+LLM providers when permitted, enabling hybrid deployments that balance
+performance with data control. A no-code web interface extends accessibility to
 non-technical users.</p>
   </details>
 </div>
@@ -1918,6 +1906,39 @@ high-level policies, DPolicy enables fine-grained privacy risk management on an
 organizational scale. We implement and evaluate DPolicy, demonstrating how it
 mitigates privacy risks that can emerge without comprehensive,
 organization-wide privacy risk management.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2505.07872v1">Revenue Optimization in Video Caching Networks with Privacy-Preserving
+  Demand Predictions</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762"> 
+  <p><b>Published on:</b> 2025-05-09T21:05:20Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yijing Zhang, Ferdous Pervej, Andreas F. Molisch</p>
+    <p><b>Summary:</b> Performance of video streaming, which accounts for most of the traffic in
+wireless communication, can be significantly improved by caching popular videos
+at the wireless edge. Determining the cache content that optimizes performance
+(defined via a revenue function) is thus an important task, and prediction of
+the future demands based on past history can make this process much more
+efficient. However, since practical video caching networks involve various
+parties (e.g., users, isp, and csp) that do not wish to reveal information such
+as past history to each other, privacy-preserving solutions are required.
+Motivated by this, we propose a proactive caching method based on users'
+privacy-preserving multi-slot future demand predictions -- obtained from a
+trained Transformer -- to optimize revenue. Specifically, we first use a
+privacy-preserving fl algorithm to train a Transformer to predict multi-slot
+future demands of the users. However, prediction accuracy is not perfect and
+decreases the farther into the future the prediction is done. We model the
+impact of prediction errors invoking the file popularities, based on which we
+formulate a long-term system revenue optimization to make the cache placement
+decisions. As the formulated problem is NP-hard, we use a greedy algorithm to
+efficiently obtain an approximate solution. Simulation results validate that
+(i) the fl solution achieves results close to the centralized
+(non-privacy-preserving) solution and (ii) optimization of revenue may provide
+different solutions than the classical chr criterion.</p>
   </details>
 </div>
 
