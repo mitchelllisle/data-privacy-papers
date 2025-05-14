@@ -1175,5 +1175,86 @@
       "cs.CR",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.08719v1",
+    "title" : "PWC-MoE: Privacy-Aware Wireless Collaborative Mixture of Experts",
+    "summary" : "Large language models (LLMs) hosted on cloud servers alleviate the\ncomputational and storage burdens on local devices but raise privacy concerns\ndue to sensitive data transmission and require substantial communication\nbandwidth, which is challenging in constrained environments. In contrast, small\nlanguage models (SLMs) running locally enhance privacy but suffer from limited\nperformance on complex tasks. To balance computational cost, performance, and\nprivacy protection under bandwidth constraints, we propose a privacy-aware\nwireless collaborative mixture of experts (PWC-MoE) framework. Specifically,\nPWC-MoE employs a sparse privacy-aware gating network to dynamically route\nsensitive tokens to privacy experts located on local clients, while\nnon-sensitive tokens are routed to non-privacy experts located at the remote\nbase station. To achieve computational efficiency, the gating network ensures\nthat each token is dynamically routed to and processed by only one expert. To\nenhance scalability and prevent overloading of specific experts, we introduce a\ngroup-wise load-balancing mechanism for the gating network that evenly\ndistributes sensitive tokens among privacy experts and non-sensitive tokens\namong non-privacy experts. To adapt to bandwidth constraints while preserving\nmodel performance, we propose a bandwidth-adaptive and importance-aware token\noffloading scheme. This scheme incorporates an importance predictor to evaluate\nthe importance scores of non-sensitive tokens, prioritizing the most important\ntokens for transmission to the base station based on their predicted importance\nand the available bandwidth. Experiments demonstrate that the PWC-MoE framework\neffectively preserves privacy and maintains high performance even in\nbandwidth-constrained environments, offering a practical solution for deploying\nLLMs in privacy-sensitive and bandwidth-limited scenarios.",
+    "updated" : "2025-05-13T16:27:07Z",
+    "published" : "2025-05-13T16:27:07Z",
+    "authors" : [
+      {
+        "name" : "Yang Su"
+      },
+      {
+        "name" : "Na Yan"
+      },
+      {
+        "name" : "Yansha Deng"
+      },
+      {
+        "name" : "Robert Schober"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.08237v1",
+    "title" : "Privacy-Preserving Analytics for Smart Meter (AMI) Data: A Hybrid\n  Approach to Comply with CPUC Privacy Regulations",
+    "summary" : "Advanced Metering Infrastructure (AMI) data from smart electric and gas\nmeters enables valuable insights for utilities and consumers, but also raises\nsignificant privacy concerns. In California, regulatory decisions (CPUC\nD.11-07-056 and D.11-08-045) mandate strict privacy protections for customer\nenergy usage data, guided by the Fair Information Practice Principles (FIPPs).\nWe comprehensively explore solutions drawn from data anonymization,\nprivacy-preserving machine learning (differential privacy and federated\nlearning), synthetic data generation, and cryptographic techniques (secure\nmultiparty computation, homomorphic encryption). This allows advanced\nanalytics, including machine learning models, statistical and econometric\nanalysis on energy consumption data, to be performed without compromising\nindividual privacy.\n  We evaluate each technique's theoretical foundations, effectiveness, and\ntrade-offs in the context of utility data analytics, and we propose an\nintegrated architecture that combines these methods to meet real-world needs.\nThe proposed hybrid architecture is designed to ensure compliance with\nCalifornia's privacy rules and FIPPs while enabling useful analytics, from\nforecasting and personalized insights to academic research and econometrics,\nwhile strictly protecting individual privacy. Mathematical definitions and\nderivations are provided where appropriate to demonstrate privacy guarantees\nand utility implications rigorously. We include comparative evaluations of the\ntechniques, an architecture diagram, and flowcharts to illustrate how they work\ntogether in practice. The result is a blueprint for utility data scientists and\nengineers to implement privacy-by-design in AMI data handling, supporting both\ndata-driven innovation and strict regulatory compliance.",
+    "updated" : "2025-05-13T05:30:35Z",
+    "published" : "2025-05-13T05:30:35Z",
+    "authors" : [
+      {
+        "name" : "Benjamin Westrich"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.07672v2",
+    "title" : "OnPrem.LLM: A Privacy-Conscious Document Intelligence Toolkit",
+    "summary" : "We present OnPrem$.$LLM, a Python-based toolkit for applying large language\nmodels (LLMs) to sensitive, non-public data in offline or restricted\nenvironments. The system is designed for privacy-preserving use cases and\nprovides prebuilt pipelines for document processing and storage,\nretrieval-augmented generation (RAG), information extraction, summarization,\nclassification, and prompt/output processing with minimal configuration.\nOnPrem$.$LLM supports multiple LLM backends -- including llama$.$cpp, Ollama,\nvLLM, and Hugging Face Transformers -- with quantized model support, GPU\nacceleration, and seamless backend switching. Although designed for fully local\nexecution, OnPrem$.$LLM also supports integration with a wide range of cloud\nLLM providers when permitted, enabling hybrid deployments that balance\nperformance with data control. A no-code web interface extends accessibility to\nnon-technical users.",
+    "updated" : "2025-05-13T02:43:26Z",
+    "published" : "2025-05-12T15:36:27Z",
+    "authors" : [
+      {
+        "name" : "Arun S. Maiya"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.07872v1",
+    "title" : "Revenue Optimization in Video Caching Networks with Privacy-Preserving\n  Demand Predictions",
+    "summary" : "Performance of video streaming, which accounts for most of the traffic in\nwireless communication, can be significantly improved by caching popular videos\nat the wireless edge. Determining the cache content that optimizes performance\n(defined via a revenue function) is thus an important task, and prediction of\nthe future demands based on past history can make this process much more\nefficient. However, since practical video caching networks involve various\nparties (e.g., users, isp, and csp) that do not wish to reveal information such\nas past history to each other, privacy-preserving solutions are required.\nMotivated by this, we propose a proactive caching method based on users'\nprivacy-preserving multi-slot future demand predictions -- obtained from a\ntrained Transformer -- to optimize revenue. Specifically, we first use a\nprivacy-preserving fl algorithm to train a Transformer to predict multi-slot\nfuture demands of the users. However, prediction accuracy is not perfect and\ndecreases the farther into the future the prediction is done. We model the\nimpact of prediction errors invoking the file popularities, based on which we\nformulate a long-term system revenue optimization to make the cache placement\ndecisions. As the formulated problem is NP-hard, we use a greedy algorithm to\nefficiently obtain an approximate solution. Simulation results validate that\n(i) the fl solution achieves results close to the centralized\n(non-privacy-preserving) solution and (ii) optimization of revenue may provide\ndifferent solutions than the classical chr criterion.",
+    "updated" : "2025-05-09T21:05:20Z",
+    "published" : "2025-05-09T21:05:20Z",
+    "authors" : [
+      {
+        "name" : "Yijing Zhang"
+      },
+      {
+        "name" : "Ferdous Pervej"
+      },
+      {
+        "name" : "Andreas F. Molisch"
+      }
+    ],
+    "categories" : [
+      "cs.NI",
+      "eess.SP"
+    ]
   }
 ]
