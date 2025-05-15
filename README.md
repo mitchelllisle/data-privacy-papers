@@ -1522,61 +1522,43 @@ C++ code to implement our work can be found at:
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.12552v1">Privacy-Preserving Operating Room Workflow Analysis using Digital Twins</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-04-17T00:46:06Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Alejandra Perez, Han Zhang, Yu-Chun Ku, Lalithkumar Seenivasan, Roger Soberanis, Jose L. Porras, Richard Day, Jeff Jopling, Peter Najjar, Mathias Unberath</p>
-    <p><b>Summary:</b> Purpose: The operating room (OR) is a complex environment where optimizing
-workflows is critical to reduce costs and improve patient outcomes. The use of
-computer vision approaches for the automatic recognition of perioperative
-events enables identification of bottlenecks for OR optimization. However,
-privacy concerns limit the use of computer vision for automated event detection
-from OR videos, which makes privacy-preserving approaches needed for OR
-workflow analysis. Methods: We propose a two-stage pipeline for
-privacy-preserving OR video analysis and event detection. In the first stage,
-we leverage vision foundation models for depth estimation and semantic
-segmentation to generate de-identified Digital Twins (DT) of the OR from
-conventional RGB videos. In the second stage, we employ the SafeOR model, a
-fused two-stream approach that processes segmentation masks and depth maps for
-OR event detection. We evaluate this method on an internal dataset of 38
-simulated surgical trials with five event classes. Results: Our results
-indicate that this DT-based approach to the OR event detection model achieves
-performance on par and sometimes even better than raw RGB video-based models on
-detecting OR events. Conclusion: DTs enable privacy-preserving OR workflow
-analysis, facilitating the sharing of de-identified data across institutions
-and they can potentially enhance model generalizability by mitigating
-domain-specific appearance differences.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.12520v1">Interpreting Network Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> 
-  <p><b>Published on:</b> 2025-04-16T22:45:07Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jonathan Hehir, Xiaoyue Niu, Aleksandra Slavkovic</p>
-    <p><b>Summary:</b> How do we interpret the differential privacy (DP) guarantee for network data?
-We take a deep dive into a popular form of network DP ($\varepsilon$--edge DP)
-to find that many of its common interpretations are flawed. Drawing on prior
-work for privacy with correlated data, we interpret DP through the lens of
-adversarial hypothesis testing and demonstrate a gap between the pairs of
-hypotheses actually protected under DP (tests of complete networks) and the
-sorts of hypotheses implied to be protected by common claims (tests of
-individual edges). We demonstrate some conditions under which this gap can be
-bridged, while leaving some questions open. While some discussion is specific
-to edge DP, we offer selected results in terms of abstract DP definitions and
-provide discussion of the implications for other forms of network DP.</p>
-  </details>
-</div>
-
-
 
 <h2>2025-05</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2505.09276v1">Privacy-Preserving Runtime Verification</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Formal Languages and Automata Theory-D91E36">
+  <p><b>Published on:</b> 2025-05-14T10:49:07Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Thomas A. Henzinger, Mahyar Karimi, K. S. Thejaswini</p>
+    <p><b>Summary:</b> Runtime verification offers scalable solutions to improve the safety and
+reliability of systems. However, systems that require verification or
+monitoring by a third party to ensure compliance with a specification might
+contain sensitive information, causing privacy concerns when usual runtime
+verification approaches are used. Privacy is compromised if protected
+information about the system, or sensitive data that is processed by the
+system, is revealed. In addition, revealing the specification being monitored
+may undermine the essence of third-party verification.
+  In this work, we propose two novel protocols for the privacy-preserving
+runtime verification of systems against formal sequential specifications. In
+our first protocol, the monitor verifies whether the system satisfies the
+specification without learning anything else, though both parties are aware of
+the specification. Our second protocol ensures that the system remains
+oblivious to the monitored specification, while the monitor learns only whether
+the system satisfies the specification and nothing more. Our protocols adapt
+and improve existing techniques used in cryptography, and more specifically,
+multi-party computation.
+  The sequential specification defines the observation step of the monitor,
+whose granularity depends on the situation (e.g., banks may be monitored on a
+daily basis). Our protocols exchange a single message per observation step,
+after an initialisation phase. This design minimises communication overhead,
+enabling relatively lightweight privacy-preserving monitoring. We implement our
+approach for monitoring specifications described by register automata and
+evaluate it experimentally.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2505.08719v1">PWC-MoE: Privacy-Aware Wireless Collaborative Mixture of Experts</a></h3>
@@ -1610,6 +1592,31 @@ and the available bandwidth. Experiments demonstrate that the PWC-MoE framework
 effectively preserves privacy and maintains high performance even in
 bandwidth-constrained environments, offering a practical solution for deploying
 LLMs in privacy-sensitive and bandwidth-limited scenarios.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2505.08847v1">On the interplay of Explainability, Privacy and Predictive Performance
+  with Explanation-assisted Model Extraction</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-05-13T15:27:06Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Fatima Ezzeddine, Rinad Akel, Ihab Sbeity, Silvia Giordano, Marc Langheinrich, Omran Ayoub</p>
+    <p><b>Summary:</b> Machine Learning as a Service (MLaaS) has gained important attraction as a
+means for deploying powerful predictive models, offering ease of use that
+enables organizations to leverage advanced analytics without substantial
+investments in specialized infrastructure or expertise. However, MLaaS
+platforms must be safeguarded against security and privacy attacks, such as
+model extraction (MEA) attacks. The increasing integration of explainable AI
+(XAI) within MLaaS has introduced an additional privacy challenge, as attackers
+can exploit model explanations particularly counterfactual explanations (CFs)
+to facilitate MEA. In this paper, we investigate the trade offs among model
+performance, privacy, and explainability when employing Differential Privacy
+(DP), a promising technique for mitigating CF facilitated MEA. We evaluate two
+distinct DP strategies: implemented during the classification model training
+and at the explainer during CF generation.</p>
   </details>
 </div>
 
