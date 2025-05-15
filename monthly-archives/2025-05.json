@@ -1256,5 +1256,58 @@
       "cs.NI",
       "eess.SP"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.09276v1",
+    "title" : "Privacy-Preserving Runtime Verification",
+    "summary" : "Runtime verification offers scalable solutions to improve the safety and\nreliability of systems. However, systems that require verification or\nmonitoring by a third party to ensure compliance with a specification might\ncontain sensitive information, causing privacy concerns when usual runtime\nverification approaches are used. Privacy is compromised if protected\ninformation about the system, or sensitive data that is processed by the\nsystem, is revealed. In addition, revealing the specification being monitored\nmay undermine the essence of third-party verification.\n  In this work, we propose two novel protocols for the privacy-preserving\nruntime verification of systems against formal sequential specifications. In\nour first protocol, the monitor verifies whether the system satisfies the\nspecification without learning anything else, though both parties are aware of\nthe specification. Our second protocol ensures that the system remains\noblivious to the monitored specification, while the monitor learns only whether\nthe system satisfies the specification and nothing more. Our protocols adapt\nand improve existing techniques used in cryptography, and more specifically,\nmulti-party computation.\n  The sequential specification defines the observation step of the monitor,\nwhose granularity depends on the situation (e.g., banks may be monitored on a\ndaily basis). Our protocols exchange a single message per observation step,\nafter an initialisation phase. This design minimises communication overhead,\nenabling relatively lightweight privacy-preserving monitoring. We implement our\napproach for monitoring specifications described by register automata and\nevaluate it experimentally.",
+    "updated" : "2025-05-14T10:49:07Z",
+    "published" : "2025-05-14T10:49:07Z",
+    "authors" : [
+      {
+        "name" : "Thomas A. Henzinger"
+      },
+      {
+        "name" : "Mahyar Karimi"
+      },
+      {
+        "name" : "K. S. Thejaswini"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.FL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.08847v1",
+    "title" : "On the interplay of Explainability, Privacy and Predictive Performance\n  with Explanation-assisted Model Extraction",
+    "summary" : "Machine Learning as a Service (MLaaS) has gained important attraction as a\nmeans for deploying powerful predictive models, offering ease of use that\nenables organizations to leverage advanced analytics without substantial\ninvestments in specialized infrastructure or expertise. However, MLaaS\nplatforms must be safeguarded against security and privacy attacks, such as\nmodel extraction (MEA) attacks. The increasing integration of explainable AI\n(XAI) within MLaaS has introduced an additional privacy challenge, as attackers\ncan exploit model explanations particularly counterfactual explanations (CFs)\nto facilitate MEA. In this paper, we investigate the trade offs among model\nperformance, privacy, and explainability when employing Differential Privacy\n(DP), a promising technique for mitigating CF facilitated MEA. We evaluate two\ndistinct DP strategies: implemented during the classification model training\nand at the explainer during CF generation.",
+    "updated" : "2025-05-13T15:27:06Z",
+    "published" : "2025-05-13T15:27:06Z",
+    "authors" : [
+      {
+        "name" : "Fatima Ezzeddine"
+      },
+      {
+        "name" : "Rinad Akel"
+      },
+      {
+        "name" : "Ihab Sbeity"
+      },
+      {
+        "name" : "Silvia Giordano"
+      },
+      {
+        "name" : "Marc Langheinrich"
+      },
+      {
+        "name" : "Omran Ayoub"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
   }
 ]
