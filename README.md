@@ -1397,133 +1397,132 @@ usable privacy and security to be promising for Human-Centered Explainable AI
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.12747v1">Privacy Protection Against Personalized Text-to-Image Synthesis via
-  Cross-image Consistency Constraints</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2025-04-17T08:39:32Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Guanyu Wang, Kailong Wang, Yihao Huang, Mingyi Zhou, Zhang Qing cnwatcher, Geguang Pu, Li Li</p>
-    <p><b>Summary:</b> The rapid advancement of diffusion models and personalization techniques has
-made it possible to recreate individual portraits from just a few publicly
-available images. While such capabilities empower various creative
-applications, they also introduce serious privacy concerns, as adversaries can
-exploit them to generate highly realistic impersonations. To counter these
-threats, anti-personalization methods have been proposed, which add adversarial
-perturbations to published images to disrupt the training of personalization
-models. However, existing approaches largely overlook the intrinsic multi-image
-nature of personalization and instead adopt a naive strategy of applying
-perturbations independently, as commonly done in single-image settings. This
-neglects the opportunity to leverage inter-image relationships for stronger
-privacy protection. Therefore, we advocate for a group-level perspective on
-privacy protection against personalization. Specifically, we introduce
-Cross-image Anti-Personalization (CAP), a novel framework that enhances
-resistance to personalization by enforcing style consistency across perturbed
-images. Furthermore, we develop a dynamic ratio adjustment strategy that
-adaptively balances the impact of the consistency loss throughout the attack
-iterations. Extensive experiments on the classical CelebHQ and VGGFace2
-benchmarks show that CAP substantially improves existing methods.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.12681v1">GRAIL: Gradient-Based Adaptive Unlearning for Privacy and Copyright in
-  LLMs</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-04-17T06:16:32Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Kun-Woo Kim, Ji-Hoon Park, Ju-Min Han, Seong-Whan Lee</p>
-    <p><b>Summary:</b> Large Language Models (LLMs) trained on extensive datasets often learn
-sensitive information, which raises significant social and legal concerns under
-principles such as the "Right to be forgotten." Retraining entire models from
-scratch to remove undesired information is both costly and impractical.
-Furthermore, existing single-domain unlearning methods fail to address
-multi-domain scenarios, where knowledge is interwoven across domains such as
-privacy and copyright, creating overlapping representations that lead to
-excessive knowledge removal or degraded performance. To tackle these issues, we
-propose GRAIL (GRadient-based AdaptIve unLearning), a novel multi-domain
-unlearning framework. GRAIL leverages gradient information from multiple
-domains to precisely distinguish the unlearning scope from the retention scope,
-and applies an adaptive parameter-wise localization strategy to selectively
-remove targeted knowledge while preserving critical parameters for each domain.
-Experimental results on unlearning benchmarks show that GRAIL achieves
-unlearning success on par with the existing approaches, while also
-demonstrating up to 17% stronger knowledge retention success compared to the
-previous state-of-art method. Our findings establish a new paradigm for
-effectively managing and regulating sensitive information in large-scale
-pre-trained language models.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.16944v1">Burning some myths on privacy properties of social networks against
-  active attacks</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Social and Information Networks-662E9B"> 
-  <p><b>Published on:</b> 2025-04-17T06:03:56Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Serafino Cicerone, Gabriele Di Stefano, Sandi Klavžar, Ismael G. Yero</p>
-    <p><b>Summary:</b> This work focuses on showing some arguments addressed to dismantle the
-extended idea about that social networks completely lacks of privacy
-properties. We consider the so-called active attacks to the privacy of social
-networks and the counterpart $(k,\ell)$-anonymity measure, which is used to
-quantify the privacy satisfied by a social network against active attacks. To
-this end, we make use of the graph theoretical concept of $k$-metric
-antidimensional graphs for which the case $k=1$ represents those graphs
-achieving the worst scenario in privacy whilst considering the
-$(k,\ell)$-anonymity measure.
-  As a product of our investigation, we present a large number of computational
-results stating that social networks might not be as insecure as one often
-thinks. In particular, we develop a large number of experiments on random
-graphs which show that the number of $1$-metric antidimensional graphs is
-indeed ridiculously small with respect to the total number of graphs that can
-be considered. Moreover, we search on several real networks in order to check
-if they are $1$-metric antidimensional, and obtain that none of them are such.
-Along the way, we show some theoretical studies on the mathematical properties
-of the $k$-metric antidimensional graphs for any suitable $k\ge 1$. In
-addition, we also describe some operations on graphs that are $1$-metric
-antidimensional so that they get embedded into another larger graphs that are
-not such, in order to obscure their privacy properties against active attacks.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.12623v1">Privacy-Preserving CNN Training with Transfer Learning: Two Hidden
-  Layers</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-04-17T03:58:23Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> John Chiang</p>
-    <p><b>Summary:</b> In this paper, we present the demonstration of training a four-layer neural
-network entirely using fully homomorphic encryption (FHE), supporting both
-single-output and multi-output classification tasks in a non-interactive
-setting. A key contribution of our work is identifying that replacing
-\textit{Softmax} with \textit{Sigmoid}, in conjunction with the Binary
-Cross-Entropy (BCE) loss function, provides an effective and scalable solution
-for homomorphic classification. Moreover, we show that the BCE loss function,
-originally designed for multi-output tasks, naturally extends to the
-multi-class setting, thereby enabling broader applicability. We also highlight
-the limitations of prior loss functions such as the SLE loss and the one
-proposed in the 2019 CVPR Workshop, both of which suffer from vanishing
-gradients as network depth increases. To address the challenges posed by
-large-scale encrypted data, we further introduce an improved version of the
-previously proposed data encoding scheme, \textit{Double Volley Revolver},
-which achieves a better trade-off between computational and memory efficiency,
-making FHE-based neural network training more practical. The complete, runnable
-C++ code to implement our work can be found at:
-\href{https://github.com/petitioner/ML.NNtraining}{$\texttt{https://github.com/petitioner/ML.NNtraining}$}.</p>
-  </details>
-</div>
-
-
 
 <h2>2025-05</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2505.10496v1">CheXGenBench: A Unified Benchmark For Fidelity, Privacy and Utility of
+  Synthetic Chest Radiographs</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2025-05-15T16:59:17Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Raman Dutt, Pedro Sanchez, Yongchen Yao, Steven McDonagh, Sotirios A. Tsaftaris, Timothy Hospedales</p>
+    <p><b>Summary:</b> We introduce CheXGenBench, a rigorous and multifaceted evaluation framework
+for synthetic chest radiograph generation that simultaneously assesses
+fidelity, privacy risks, and clinical utility across state-of-the-art
+text-to-image generative models. Despite rapid advancements in generative AI
+for real-world imagery, medical domain evaluations have been hindered by
+methodological inconsistencies, outdated architectural comparisons, and
+disconnected assessment criteria that rarely address the practical clinical
+value of synthetic samples. CheXGenBench overcomes these limitations through
+standardised data partitioning and a unified evaluation protocol comprising
+over 20 quantitative metrics that systematically analyse generation quality,
+potential privacy vulnerabilities, and downstream clinical applicability across
+11 leading text-to-image architectures. Our results reveal critical
+inefficiencies in the existing evaluation protocols, particularly in assessing
+generative fidelity, leading to inconsistent and uninformative comparisons. Our
+framework establishes a standardised benchmark for the medical AI community,
+enabling objective and reproducible comparisons while facilitating seamless
+integration of both existing and future generative models. Additionally, we
+release a high-quality, synthetic dataset, SynthCheX-75K, comprising 75K
+radiographs generated by the top-performing model (Sana 0.6B) in our benchmark
+to support further research in this critical domain. Through CheXGenBench, we
+establish a new state-of-the-art and release our framework, models, and
+SynthCheX-75K dataset at https://raman1121.github.io/CheXGenBench/</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2505.10264v1">Cutting Through Privacy: A Hyperplane-Based Data Reconstruction Attack
+  in Federated Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-05-15T13:16:32Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Francesco Diana, André Nusser, Chuan Xu, Giovanni Neglia</p>
+    <p><b>Summary:</b> Federated Learning (FL) enables collaborative training of machine learning
+models across distributed clients without sharing raw data, ostensibly
+preserving data privacy. Nevertheless, recent studies have revealed critical
+vulnerabilities in FL, showing that a malicious central server can manipulate
+model updates to reconstruct clients' private training data. Existing data
+reconstruction attacks have important limitations: they often rely on
+assumptions about the clients' data distribution or their efficiency
+significantly degrades when batch sizes exceed just a few tens of samples.
+  In this work, we introduce a novel data reconstruction attack that overcomes
+these limitations. Our method leverages a new geometric perspective on fully
+connected layers to craft malicious model parameters, enabling the perfect
+recovery of arbitrarily large data batches in classification tasks without any
+prior knowledge of clients' data. Through extensive experiments on both image
+and tabular datasets, we demonstrate that our attack outperforms existing
+methods and achieves perfect reconstruction of data batches two orders of
+magnitude larger than the state of the art.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2505.09929v1">Security and Privacy Measurement on Chinese Consumer IoT Traffic based
+  on Device Lifecycle</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-05-15T03:27:16Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Chenghua Jin, Yan Jia, Yuxin Song, Qingyin Tan, Rui Yang, Zheli Liu</p>
+    <p><b>Summary:</b> In recent years, consumer Internet of Things (IoT) devices have become widely
+used in daily life. With the popularity of devices, related security and
+privacy risks arise at the same time as they collect user-related data and
+transmit it to various service providers. Although China accounts for a larger
+share of the consumer IoT industry, current analyses on consumer IoT device
+traffic primarily focus on regions such as Europe, the United States, and
+Australia. Research on China, however, is currently rather rare. This study
+constructs the first large-scale dataset about consumer IoT device traffic in
+China. Specifically, we propose a fine-grained traffic collection guidance
+covering the entire lifecycle of consumer IoT devices, gathering traffic from
+70 devices spanning 36 brands and 8 device categories. Based on this dataset,
+we analyze traffic destinations and encryption practices across different
+device types during the entire lifecycle and compare the findings with the
+results of other regions. Compared to other regions, our results show that
+consumer IoT devices in China rely more on domestic services and overally
+perform better in terms of encryption practices. However, there are still 20/35
+devices improperly conduct certificate validation, and 5/70 devices use
+insecure encryption protocols. To facilitate future research, we open-source
+our traffic collection guidance and make our dataset publicly available.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2505.09921v1">PIG: Privacy Jailbreak Attack on LLMs via Gradient-based Iterative
+  In-Context Optimization</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2025-05-15T03:11:57Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yidan Wang, Yanan Cao, Yubing Ren, Fang Fang, Zheng Lin, Binxing Fang</p>
+    <p><b>Summary:</b> Large Language Models (LLMs) excel in various domains but pose inherent
+privacy risks. Existing methods to evaluate privacy leakage in LLMs often use
+memorized prefixes or simple instructions to extract data, both of which
+well-alignment models can easily block. Meanwhile, Jailbreak attacks bypass LLM
+safety mechanisms to generate harmful content, but their role in privacy
+scenarios remains underexplored. In this paper, we examine the effectiveness of
+jailbreak attacks in extracting sensitive information, bridging privacy leakage
+and jailbreak attacks in LLMs. Moreover, we propose PIG, a novel framework
+targeting Personally Identifiable Information (PII) and addressing the
+limitations of current jailbreak methods. Specifically, PIG identifies PII
+entities and their types in privacy queries, uses in-context learning to build
+a privacy context, and iteratively updates it with three gradient-based
+strategies to elicit target PII. We evaluate PIG and existing jailbreak methods
+using two privacy-related datasets. Experiments on four white-box and two
+black-box LLMs show that PIG outperforms baseline methods and achieves
+state-of-the-art (SoTA) results. The results underscore significant privacy
+risks in LLMs, emphasizing the need for stronger safeguards. Our code is
+availble at
+\href{https://github.com/redwyd/PrivacyJailbreak}{https://github.com/redwyd/PrivacyJailbreak}.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2505.09276v1">Privacy-Preserving Runtime Verification</a></h3>
@@ -1980,7 +1979,7 @@ negligible impact on fuel efficiency.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.05922v1">CAPE: Context-Aware Prompt Perturbation Mechanism with Differential
+  <h3><a href="http://arxiv.org/abs/2505.05922v2">Cape: Context-Aware Prompt Perturbation Mechanism with Differential
   Privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2025-05-09T09:54:07Z</p>
