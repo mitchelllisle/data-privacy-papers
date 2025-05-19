@@ -1271,134 +1271,124 @@ privacy leakage across different penalty settings.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.14208v1">FedCIA: Federated Collaborative Information Aggregation for
-  Privacy-Preserving Recommendation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB">
-  <p><b>Published on:</b> 2025-04-19T06:59:34Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mingzhe Han, Dongsheng Li, Jiafeng Xia, Jiahao Liu, Hansu Gu, Peng Zhang, Ning Gu, Tun Lu</p>
-    <p><b>Summary:</b> Recommendation algorithms rely on user historical interactions to deliver
-personalized suggestions, which raises significant privacy concerns. Federated
-recommendation algorithms tackle this issue by combining local model training
-with server-side model aggregation, where most existing algorithms use a
-uniform weighted summation to aggregate item embeddings from different client
-models. This approach has three major limitations: 1) information loss during
-aggregation, 2) failure to retain personalized local features, and 3)
-incompatibility with parameter-free recommendation algorithms. To address these
-limitations, we first review the development of recommendation algorithms and
-recognize that their core function is to share collaborative information,
-specifically the global relationship between users and items. With this
-understanding, we propose a novel aggregation paradigm named collaborative
-information aggregation, which focuses on sharing collaborative information
-rather than item parameters. Based on this new paradigm, we introduce the
-federated collaborative information aggregation (FedCIA) method for
-privacy-preserving recommendation. This method requires each client to upload
-item similarity matrices for aggregation, which allows clients to align their
-local models without constraining embeddings to a unified vector space. As a
-result, it mitigates information loss caused by direct summation, preserves the
-personalized embedding distributions of individual clients, and supports the
-aggregation of parameter-free models. Theoretical analysis and experimental
-results on real-world datasets demonstrate the superior performance of FedCIA
-compared with the state-of-the-art federated recommendation algorithms. Code is
-available at https://github.com/Mingzhe-Han/FedCIA.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.13526v1">Multi-class Item Mining under Local Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-04-18T07:37:06Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yulian Mao, Qingqing Ye, Rong Du, Qi Wang, Kai Huang, Haibo Hu</p>
-    <p><b>Summary:</b> Item mining, a fundamental task for collecting statistical data from users,
-has raised increasing privacy concerns. To address these concerns, local
-differential privacy (LDP) was proposed as a privacy-preserving technique.
-Existing LDP item mining mechanisms primarily concentrate on global statistics,
-i.e., those from the entire dataset. Nevertheless, they fall short of
-user-tailored tasks such as personalized recommendations, whereas classwise
-statistics can improve task accuracy with fine-grained information. Meanwhile,
-the introduction of class labels brings new challenges. Label perturbation may
-result in invalid items for aggregation. To this end, we propose frameworks for
-multi-class item mining, along with two mechanisms: validity perturbation to
-reduce the impact of invalid data, and correlated perturbation to preserve the
-relationship between labels and items. We also apply these optimized methods to
-two multi-class item mining queries: frequency estimation and top-$k$ item
-mining. Through theoretical analysis and extensive experiments, we verify the
-effectiveness and superiority of these methods.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.13267v1">Leveraging Functional Encryption and Deep Learning for
-  Privacy-Preserving Traffic Forecasting</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36"> 
-  <p><b>Published on:</b> 2025-04-17T18:21:55Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Isaac Adom, Mohammmad Iqbal Hossain, Hassan Mahmoud, Ahmad Alsharif, Mahmoud Nabil Mahmoud, Yang Xiao</p>
-    <p><b>Summary:</b> Over the past few years, traffic congestion has continuously plagued the
-nation's transportation system creating several negative impacts including
-longer travel times, increased pollution rates, and higher collision risks. To
-overcome these challenges, Intelligent Transportation Systems (ITS) aim to
-improve mobility and vehicular systems, ensuring higher levels of safety by
-utilizing cutting-edge technologies, sophisticated sensing capabilities, and
-innovative algorithms. Drivers' participatory sensing, current/future location
-reporting, and machine learning algorithms have considerably improved real-time
-congestion monitoring and future traffic management. However, each driver's
-sensitive spatiotemporal location information can create serious privacy
-concerns. To address these challenges, we propose in this paper a secure,
-privacy-preserving location reporting and traffic forecasting system that
-guarantees privacy protection of driver data while maintaining high traffic
-forecasting accuracy. Our novel k-anonymity scheme utilizes functional
-encryption to aggregate encrypted location information submitted by drivers
-while ensuring the privacy of driver location data. Additionally, using the
-aggregated encrypted location information as input, this research proposes a
-deep learning model that incorporates a Convolutional-Long Short-Term Memory
-(Conv-LSTM) module to capture spatial and short-term temporal features and a
-Bidirectional Long Short-Term Memory (Bi-LSTM) module to recover long-term
-periodic patterns for traffic forecasting. With extensive evaluation on real
-datasets, we demonstrate the effectiveness of the proposed scheme with less
-than 10% mean absolute error for a 60-minute forecasting horizon, all while
-protecting driver privacy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.12931v1">Explainable AI in Usable Privacy and Security: Challenges and
-  Opportunities</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2025-04-17T13:28:01Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Vincent Freiberger, Arthur Fleig, Erik Buchmann</p>
-    <p><b>Summary:</b> Large Language Models (LLMs) are increasingly being used for automated
-evaluations and explaining them. However, concerns about explanation quality,
-consistency, and hallucinations remain open research challenges, particularly
-in high-stakes contexts like privacy and security, where user trust and
-decision-making are at stake. In this paper, we investigate these issues in the
-context of PRISMe, an interactive privacy policy assessment tool that leverages
-LLMs to evaluate and explain website privacy policies. Based on a prior user
-study with 22 participants, we identify key concerns regarding LLM judgment
-transparency, consistency, and faithfulness, as well as variations in user
-preferences for explanation detail and engagement. We discuss potential
-strategies to mitigate these concerns, including structured evaluation
-criteria, uncertainty estimation, and retrieval-augmented generation (RAG). We
-identify a need for adaptive explanation strategies tailored to different user
-profiles for LLM-as-a-judge. Our goal is to showcase the application area of
-usable privacy and security to be promising for Human-Centered Explainable AI
-(HCXAI) to make an impact.</p>
-  </details>
-</div>
-
-
 
 <h2>2025-05</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2505.11094v1">Blockchain-Enabled Decentralized Privacy-Preserving Group Purchasing for
+  Energy Plans</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-05-16T10:26:15Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Sid Chi-Kin Chau, Yue Zhou</p>
+    <p><b>Summary:</b> Retail energy markets are increasingly consumer-oriented, thanks to a growing
+number of energy plans offered by a plethora of energy suppliers, retailers and
+intermediaries. To maximize the benefits of competitive retail energy markets,
+group purchasing is an emerging paradigm that aggregates consumers' purchasing
+power by coordinating switch decisions to specific energy providers for
+discounted energy plans. Traditionally, group purchasing is mediated by a
+trusted third-party, which suffers from the lack of privacy and transparency.
+In this paper, we introduce a novel paradigm of decentralized
+privacy-preserving group purchasing, empowered by privacy-preserving blockchain
+and secure multi-party computation, to enable users to form a coalition for
+coordinated switch decisions in a decentralized manner, without a trusted
+third-party. The coordinated switch decisions are determined by a competitive
+online algorithm, based on users' private consumption data and current energy
+plan tariffs. Remarkably, no private user consumption data will be revealed to
+others in the online decision-making process, which is carried out in a
+transparently verifiable manner to eliminate frauds from dishonest users and
+supports fair mutual compensations by sharing the switching costs to
+incentivize group purchasing. We implemented our decentralized group purchasing
+solution as a smart contract on Solidity-supported blockchain platform (e.g.,
+Ethereum), and provide extensive empirical evaluation.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2505.10965v1">Privacy and Confidentiality Requirements Engineering for Process Data</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-05-16T08:03:02Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Fabian Haertel, Juergen Mangler, Nataliia Klievtsova, Celine Mader, Eugen Rigger, Stefanie Rinderle-Ma</p>
+    <p><b>Summary:</b> The application and development of process mining techniques face significant
+challenges due to the lack of publicly available real-life event logs. One
+reason for companies to abstain from sharing their data are privacy and
+confidentiality concerns. Privacy concerns refer to personal data as specified
+in the GDPR and have been addressed in existing work by providing
+privacy-preserving techniques for event logs. However, the concept of
+confidentiality in event logs not pertaining to individuals remains unclear,
+although they might contain a multitude of sensitive business data. This work
+addresses confidentiality of process data based on the privacy and
+confidentiality engineering method (PCRE). PCRE interactively explores privacy
+and confidentiality requirements regarding process data with different
+stakeholders and defines privacy-preserving actions to address possible
+concerns. We co-construct and evaluate PCRE based on structured interviews with
+process analysts in two manufacturing companies. PCRE is generic, hence
+applicable in different application domains. The goal is to systematically
+scrutinize process data and balance the trade-off between privacy and utility
+loss.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2505.10941v1">Privacy-Aware Lifelong Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-05-16T07:27:00Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ozan Özdenizci, Elmar Rueckert, Robert Legenstein</p>
+    <p><b>Summary:</b> Lifelong learning algorithms enable models to incrementally acquire new
+knowledge without forgetting previously learned information. Contrarily, the
+field of machine unlearning focuses on explicitly forgetting certain previous
+knowledge from pretrained models when requested, in order to comply with data
+privacy regulations on the right-to-be-forgotten. Enabling efficient lifelong
+learning with the capability to selectively unlearn sensitive information from
+models presents a critical and largely unaddressed challenge with contradicting
+objectives. We address this problem from the perspective of simultaneously
+preventing catastrophic forgetting and allowing forward knowledge transfer
+during task-incremental learning, while ensuring exact task unlearning and
+minimizing memory requirements, based on a single neural network model to be
+adapted. Our proposed solution, privacy-aware lifelong learning (PALL),
+involves optimization of task-specific sparse subnetworks with parameter
+sharing within a single architecture. We additionally utilize an episodic
+memory rehearsal mechanism to facilitate exact unlearning without performance
+degradations. We empirically demonstrate the scalability of PALL across various
+architectures in image classification, and provide a state-of-the-art solution
+that uniquely integrates lifelong learning and privacy-aware unlearning
+mechanisms for responsible AI applications.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2505.10871v1">Optimal Allocation of Privacy Budget on Hierarchical Data Release</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2025-05-16T05:25:11Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Joonhyuk Ko, Juba Ziani, Ferdinando Fioretto</p>
+    <p><b>Summary:</b> Releasing useful information from datasets with hierarchical structures while
+preserving individual privacy presents a significant challenge. Standard
+privacy-preserving mechanisms, and in particular Differential Privacy, often
+require careful allocation of a finite privacy budget across different levels
+and components of the hierarchy. Sub-optimal allocation can lead to either
+excessive noise, rendering the data useless, or to insufficient protections for
+sensitive information. This paper addresses the critical problem of optimal
+privacy budget allocation for hierarchical data release. It formulates this
+challenge as a constrained optimization problem, aiming to maximize data
+utility subject to a total privacy budget while considering the inherent
+trade-offs between data granularity and privacy loss. The proposed approach is
+supported by theoretical analysis and validated through comprehensive
+experiments on real hierarchical datasets. These experiments demonstrate that
+optimal privacy budget allocation significantly enhances the utility of the
+released data and improves the performance of downstream tasks.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2505.10496v1">CheXGenBench: A Unified Benchmark For Fidelity, Privacy and Utility of
@@ -1494,7 +1484,7 @@ our traffic collection guidance and make our dataset publicly available.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.09921v1">PIG: Privacy Jailbreak Attack on LLMs via Gradient-based Iterative
+  <h3><a href="http://arxiv.org/abs/2505.09921v2">PIG: Privacy Jailbreak Attack on LLMs via Gradient-based Iterative
   In-Context Optimization</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
   <p><b>Published on:</b> 2025-05-15T03:11:57Z</p>
@@ -1518,8 +1508,7 @@ using two privacy-related datasets. Experiments on four white-box and two
 black-box LLMs show that PIG outperforms baseline methods and achieves
 state-of-the-art (SoTA) results. The results underscore significant privacy
 risks in LLMs, emphasizing the need for stronger safeguards. Our code is
-availble at
-\href{https://github.com/redwyd/PrivacyJailbreak}{https://github.com/redwyd/PrivacyJailbreak}.</p>
+availble at https://github.com/redwyd/PrivacyJailbreak.</p>
   </details>
 </div>
 
