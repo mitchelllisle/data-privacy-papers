@@ -1575,5 +1575,268 @@
       "cs.CR",
       "cs.CL"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.13292v1",
+    "title" : "Cross-Cloud Data Privacy Protection: Optimizing Collaborative Mechanisms\n  of AI Systems by Integrating Federated Learning and LLMs",
+    "summary" : "In the age of cloud computing, data privacy protection has become a major\nchallenge, especially when sharing sensitive data across cloud environments.\nHowever, how to optimize collaboration across cloud environments remains an\nunresolved problem. In this paper, we combine federated learning with\nlarge-scale language models to optimize the collaborative mechanism of AI\nsystems. Based on the existing federated learning framework, we introduce a\ncross-cloud architecture in which federated learning works by aggregating model\nupdates from decentralized nodes without exposing the original data. At the\nsame time, combined with large-scale language models, its powerful context and\nsemantic understanding capabilities are used to improve model training\nefficiency and decision-making ability. We've further innovated by introducing\na secure communication layer to ensure the privacy and integrity of model\nupdates and training data. The model enables continuous model adaptation and\nfine-tuning across different cloud environments while protecting sensitive\ndata. Experimental results show that the proposed method is significantly\nbetter than the traditional federated learning model in terms of accuracy,\nconvergence speed and data privacy protection.",
+    "updated" : "2025-05-19T16:14:27Z",
+    "published" : "2025-05-19T16:14:27Z",
+    "authors" : [
+      {
+        "name" : "Huaiying Luo"
+      },
+      {
+        "name" : "Cheng Ji"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.13085v1",
+    "title" : "Universal Semantic Disentangled Privacy-preserving Speech Representation\n  Learning",
+    "summary" : "The use of audio recordings of human speech to train LLMs poses privacy\nconcerns due to these models' potential to generate outputs that closely\nresemble artifacts in the training data. In this study, we propose a speaker\nprivacy-preserving representation learning method through the Universal Speech\nCodec (USC), a computationally efficient encoder-decoder model that\ndisentangles speech into: $\\textit{(i)}$ privacy-preserving semantically rich\nrepresentations, capturing content and speech paralinguistics, and\n$\\textit{(ii)}$ residual acoustic and speaker representations that enables\nhigh-fidelity reconstruction. Extensive evaluations presented show that USC's\nsemantic representation preserves content, prosody, and sentiment, while\nremoving potentially identifiable speaker attributes. Combining both\nrepresentations, USC achieves state-of-the-art speech reconstruction.\nAdditionally, we introduce an evaluation methodology for measuring\nprivacy-preserving properties, aligning with perceptual tests. We compare USC\nagainst other codecs in the literature and demonstrate its effectiveness on\nprivacy-preserving representation learning, illustrating the trade-offs of\nspeaker anonymization, paralinguistics retention and content preservation in\nthe learned semantic representations. Audio samples are shared in\n$\\href{https://www.amazon.science/usc-samples}{https://www.amazon.science/usc-samples}$.",
+    "updated" : "2025-05-19T13:19:49Z",
+    "published" : "2025-05-19T13:19:49Z",
+    "authors" : [
+      {
+        "name" : "Biel Tura Vecino"
+      },
+      {
+        "name" : "Subhadeep Maji"
+      },
+      {
+        "name" : "Aravind Varier"
+      },
+      {
+        "name" : "Antonio Bonafonte"
+      },
+      {
+        "name" : "Ivan Valles"
+      },
+      {
+        "name" : "Michael Owen"
+      },
+      {
+        "name" : "Leif Radel"
+      },
+      {
+        "name" : "Grant Strimmel"
+      },
+      {
+        "name" : "Seyi Feyisetan"
+      },
+      {
+        "name" : "Roberto Barra Chicote"
+      },
+      {
+        "name" : "Ariya Rastrow"
+      },
+      {
+        "name" : "Constantinos Papayiannis"
+      },
+      {
+        "name" : "Volker Leutnant"
+      },
+      {
+        "name" : "Trevor Wood"
+      }
+    ],
+    "categories" : [
+      "eess.AS",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.12954v1",
+    "title" : "Counting Graphlets of Size $k$ under Local Differential Privacy",
+    "summary" : "The problem of counting subgraphs or graphlets under local differential\nprivacy is an important challenge that has attracted significant attention from\nresearchers. However, much of the existing work focuses on small graphlets like\ntriangles or $k$-stars. In this paper, we propose a non-interactive, locally\ndifferentially private algorithm capable of counting graphlets of any size $k$.\nWhen $n$ is the number of nodes in the input graph, we show that the expected\n$\\ell_2$ error of our algorithm is $O(n^{k - 1})$. Additionally, we prove that\nthere exists a class of input graphs and graphlets of size $k$ for which any\nnon-interactive counting algorithm incurs an expected $\\ell_2$ error of\n$\\Omega(n^{k - 1})$, demonstrating the optimality of our result. Furthermore,\nwe establish that for certain input graphs and graphlets, any locally\ndifferentially private algorithm must have an expected $\\ell_2$ error of\n$\\Omega(n^{k - 1.5})$. Our experimental results show that our algorithm is more\naccurate than the classical randomized response method.",
+    "updated" : "2025-05-19T10:46:21Z",
+    "published" : "2025-05-19T10:46:21Z",
+    "authors" : [
+      {
+        "name" : "Vorapong Suppakitpaisarn"
+      },
+      {
+        "name" : "Donlapark Ponnoprat"
+      },
+      {
+        "name" : "Nicha Hirankarn"
+      },
+      {
+        "name" : "Quentin Hillebrand"
+      }
+    ],
+    "categories" : [
+      "cs.SI",
+      "cs.CC",
+      "cs.DS"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.12869v1",
+    "title" : "Outsourced Privacy-Preserving Feature Selection Based on Fully\n  Homomorphic Encryption",
+    "summary" : "Feature selection is a technique that extracts a meaningful subset from a set\nof features in training data. When the training data is large-scale,\nappropriate feature selection enables the removal of redundant features, which\ncan improve generalization performance, accelerate the training process, and\nenhance the interpretability of the model. This study proposes a\nprivacy-preserving computation model for feature selection. Generally, when the\ndata owner and analyst are the same, there is no need to conceal the private\ninformation. However, when they are different parties or when multiple owners\nexist, an appropriate privacy-preserving framework is required. Although\nvarious private feature selection algorithms, they all require two or more\ncomputing parties and do not guarantee security in environments where no\nexternal party can be fully trusted. To address this issue, we propose the\nfirst outsourcing algorithm for feature selection using fully homomorphic\nencryption. Compared to a prior two-party algorithm, our result improves the\ntime and space complexity O(kn^2) to O(kn log^3 n) and O(kn), where k and n\ndenote the number of features and data samples, respectively. We also\nimplemented the proposed algorithm and conducted comparative experiments with\nthe naive one. The experimental result shows the efficiency of our method even\nwith small datasets.",
+    "updated" : "2025-05-19T08:55:56Z",
+    "published" : "2025-05-19T08:55:56Z",
+    "authors" : [
+      {
+        "name" : "Koki Wakiyama"
+      },
+      {
+        "name" : "Tomohiro I"
+      },
+      {
+        "name" : "Hiroshi Sakamoto"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.12688v1",
+    "title" : "Shielding Latent Face Representations From Privacy Attacks",
+    "summary" : "In today's data-driven analytics landscape, deep learning has become a\npowerful tool, with latent representations, known as embeddings, playing a\ncentral role in several applications. In the face analytics domain, such\nembeddings are commonly used for biometric recognition (e.g., face\nidentification). However, these embeddings, or templates, can inadvertently\nexpose sensitive attributes such as age, gender, and ethnicity. Leaking such\ninformation can compromise personal privacy and affect civil liberty and human\nrights. To address these concerns, we introduce a multi-layer protection\nframework for embeddings. It consists of a sequence of operations: (a)\nencrypting embeddings using Fully Homomorphic Encryption (FHE), and (b) hashing\nthem using irreversible feature manifold hashing. Unlike conventional\nencryption methods, FHE enables computations directly on encrypted data,\nallowing downstream analytics while maintaining strong privacy guarantees. To\nreduce the overhead of encrypted processing, we employ embedding compression.\nOur proposed method shields latent representations of sensitive data from\nleaking private attributes (such as age and gender) while retaining essential\nfunctional capabilities (such as face identification). Extensive experiments on\ntwo datasets using two face encoders demonstrate that our approach outperforms\nseveral state-of-the-art privacy protection methods.",
+    "updated" : "2025-05-19T04:23:16Z",
+    "published" : "2025-05-19T04:23:16Z",
+    "authors" : [
+      {
+        "name" : "Arjun Ramesh Kaushik"
+      },
+      {
+        "name" : "Bharat Chandra Yalavarthi"
+      },
+      {
+        "name" : "Arun Ross"
+      },
+      {
+        "name" : "Vishnu Boddeti"
+      },
+      {
+        "name" : "Nalini Ratha"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.12610v1",
+    "title" : "hChain: Blockchain Based Large Scale EHR Data Sharing with Enhanced\n  Security and Privacy",
+    "summary" : "Concerns regarding privacy and data security in conventional healthcare\nprompted alternative technologies. In smart healthcare, blockchain technology\naddresses existing concerns with security, privacy, and electronic healthcare\ntransmission. Integration of Blockchain Technology with the Internet of Medical\nThings (IoMT) allows real-time monitoring of protected healthcare data.\nUtilizing edge devices with IoMT devices is very advantageous for addressing\nsecurity, computing, and storage challenges. Encryption using symmetric and\nasymmetric keys is used to conceal sensitive information from unauthorized\nparties. SHA256 is an algorithm for one-way hashing. It is used to verify that\nthe data has not been altered, since if it had, the hash value would have\nchanged. This article offers a blockchain-based smart healthcare system using\nIoMT devices for continuous patient monitoring. In addition, it employs edge\nresources in addition to IoMT devices to have extra computing power and storage\nto hash and encrypt incoming data before sending it to the blockchain.\nSymmetric key is utilized to keep the data private even in the blockchain,\nallowing the patient to safely communicate the data through smart contracts\nwhile preventing unauthorized physicians from seeing the data. Through the use\nof a verification node and blockchain, an asymmetric key is used for the\nsigning and validation of patient data in the healthcare provider system. In\naddition to other security measures, location-based authentication is\nrecommended to guarantee that data originates from the patient area. Through\nthe edge device, SHA256 is utilized to secure the data's integrity and a secret\nkey is used to maintain its secrecy. The hChain architecture improves the\ncomputing power of IoMT environments, the security of EHR sharing through smart\ncontracts, and the privacy and authentication procedures.",
+    "updated" : "2025-05-19T01:47:01Z",
+    "published" : "2025-05-19T01:47:01Z",
+    "authors" : [
+      {
+        "name" : "Musharraf Alruwaill"
+      },
+      {
+        "name" : "Saraju Mohanty"
+      },
+      {
+        "name" : "Elias Kougianos"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.12239v1",
+    "title" : "ACU: Analytic Continual Unlearning for Efficient and Exact Forgetting\n  with Privacy Preservation",
+    "summary" : "The development of artificial intelligence demands that models incrementally\nupdate knowledge by Continual Learning (CL) to adapt to open-world\nenvironments. To meet privacy and security requirements, Continual Unlearning\n(CU) emerges as an important problem, aiming to sequentially forget particular\nknowledge acquired during the CL phase. However, existing unlearning methods\nprimarily focus on single-shot joint forgetting and face significant\nlimitations when applied to CU. First, most existing methods require access to\nthe retained dataset for re-training or fine-tuning, violating the inherent\nconstraint in CL that historical data cannot be revisited. Second, these\nmethods often suffer from a poor trade-off between system efficiency and model\nfidelity, making them vulnerable to being overwhelmed or degraded by\nadversaries through deliberately frequent requests. In this paper, we identify\nthat the limitations of existing unlearning methods stem fundamentally from\ntheir reliance on gradient-based updates. To bridge the research gap at its\nroot, we propose a novel gradient-free method for CU, named Analytic Continual\nUnlearning (ACU), for efficient and exact forgetting with historical data\nprivacy preservation. In response to each unlearning request, our ACU\nrecursively derives an analytical (i.e., closed-form) solution in an\ninterpretable manner using the least squares method. Theoretical and\nexperimental evaluations validate the superiority of our ACU on unlearning\neffectiveness, model fidelity, and system efficiency.",
+    "updated" : "2025-05-18T05:28:18Z",
+    "published" : "2025-05-18T05:28:18Z",
+    "authors" : [
+      {
+        "name" : "Jianheng Tang"
+      },
+      {
+        "name" : "Huiping Zhuang"
+      },
+      {
+        "name" : "Di Fang"
+      },
+      {
+        "name" : "Jiaxu Li"
+      },
+      {
+        "name" : "Feijiang Han"
+      },
+      {
+        "name" : "Yajiang Huang"
+      },
+      {
+        "name" : "Kejia Fan"
+      },
+      {
+        "name" : "Leye Wang"
+      },
+      {
+        "name" : "Zhanxing Zhu"
+      },
+      {
+        "name" : "Shanghang Zhang"
+      },
+      {
+        "name" : "Houbing Herbert Song"
+      },
+      {
+        "name" : "Yunhuai Liu"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.12153v1",
+    "title" : "Federated Deep Reinforcement Learning for Privacy-Preserving\n  Robotic-Assisted Surgery",
+    "summary" : "The integration of Reinforcement Learning (RL) into robotic-assisted surgery\n(RAS) holds significant promise for advancing surgical precision, adaptability,\nand autonomous decision-making. However, the development of robust RL models in\nclinical settings is hindered by key challenges, including stringent patient\ndata privacy regulations, limited access to diverse surgical datasets, and high\nprocedural variability. To address these limitations, this paper presents a\nFederated Deep Reinforcement Learning (FDRL) framework that enables\ndecentralized training of RL models across multiple healthcare institutions\nwithout exposing sensitive patient information. A central innovation of the\nproposed framework is its dynamic policy adaptation mechanism, which allows\nsurgical robots to select and tailor patient-specific policies in real-time,\nthereby ensuring personalized and Optimised interventions. To uphold rigorous\nprivacy standards while facilitating collaborative learning, the FDRL framework\nincorporates secure aggregation, differential privacy, and homomorphic\nencryption techniques. Experimental results demonstrate a 60\\% reduction in\nprivacy leakage compared to conventional methods, with surgical precision\nmaintained within a 1.5\\% margin of a centralized baseline. This work\nestablishes a foundational approach for adaptive, secure, and patient-centric\nAI-driven surgical robotics, offering a pathway toward clinical translation and\nscalable deployment across diverse healthcare environments.",
+    "updated" : "2025-05-17T22:02:44Z",
+    "published" : "2025-05-17T22:02:44Z",
+    "authors" : [
+      {
+        "name" : "Sana Hafeez"
+      },
+      {
+        "name" : "Sundas Rafat Mulkana"
+      },
+      {
+        "name" : "Muhammad Ali Imran"
+      },
+      {
+        "name" : "Michele Sevegnani"
+      }
+    ],
+    "categories" : [
+      "cs.RO"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.12144v1",
+    "title" : "Proof-of-Social-Capital: Privacy-Preserving Consensus Protocol Replacing\n  Stake for Social Capital",
+    "summary" : "Consensus protocols used today in blockchains often rely on computational\npower or financial stakes - scarce resources. We propose a novel protocol using\nsocial capital - trust and influence from social interactions - as a\nnon-transferable staking mechanism to ensure fairness and decentralization. The\nmethodology integrates zero-knowledge proofs, verifiable credentials, a\nWhisk-like leader election, and an incentive scheme to prevent Sybil attacks\nand encourage engagement. The theoretical framework would enhance privacy and\nequity, though unresolved issues like off-chain bribery require further\nresearch. This work offers a new model aligned with modern social media\nbehavior and lifestyle, with applications in finance, providing a practical\ninsight for decentralized system development.",
+    "updated" : "2025-05-17T21:28:56Z",
+    "published" : "2025-05-17T21:28:56Z",
+    "authors" : [
+      {
+        "name" : "Juraj Mariani"
+      },
+      {
+        "name" : "Ivan Homoliak"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DC"
+    ]
   }
 ]
