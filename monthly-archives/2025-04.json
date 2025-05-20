@@ -2774,5 +2774,33 @@
       "cs.CR",
       "eess.IV"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.11502v1",
+    "title" : "Hybrid Privacy Policy-Code Consistency Check using Knowledge Graphs and\n  LLMs",
+    "summary" : "The increasing concern in user privacy misuse has accelerated research into\nchecking consistencies between smartphone apps' declared privacy policies and\ntheir actual behaviors. Recent advances in Large Language Models (LLMs) have\nintroduced promising techniques for semantic comparison, but these methods\noften suffer from low accuracies and expensive computational costs. To address\nthis problem, this paper proposes a novel hybrid approach that integrates 1)\nknowledge graph-based deterministic checking to ensure higher accuracy, and 2)\nLLMs exclusively used for preliminary semantic analysis to save computational\ncosts. Preliminary evaluation indicates this hybrid approach not only achieves\n37.63% increase in precision and 23.13% increase F1-score but also consumes\n93.5% less tokens and 87.3% shorter time.",
+    "updated" : "2025-04-28T07:23:08Z",
+    "published" : "2025-04-28T07:23:08Z",
+    "authors" : [
+      {
+        "name" : "Zhenyu Mao"
+      },
+      {
+        "name" : "Xinxin Fan"
+      },
+      {
+        "name" : "Yifei Wang"
+      },
+      {
+        "name" : "Jacky Keung"
+      },
+      {
+        "name" : "Jialong Li"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.SE"
+    ]
   }
 ]
