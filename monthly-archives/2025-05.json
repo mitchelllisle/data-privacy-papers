@@ -1838,5 +1838,244 @@
       "cs.CR",
       "cs.DC"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.14585v1",
+    "title" : "Context Reasoner: Incentivizing Reasoning Capability for Contextualized\n  Privacy and Safety Compliance via Reinforcement Learning",
+    "summary" : "While Large Language Models (LLMs) exhibit remarkable capabilities, they also\nintroduce significant safety and privacy risks. Current mitigation strategies\noften fail to preserve contextual reasoning capabilities in risky scenarios.\nInstead, they rely heavily on sensitive pattern matching to protect LLMs, which\nlimits the scope. Furthermore, they overlook established safety and privacy\nstandards, leading to systemic risks for legal compliance. To address these\ngaps, we formulate safety and privacy issues into contextualized compliance\nproblems following the Contextual Integrity (CI) theory. Under the CI\nframework, we align our model with three critical regulatory standards: GDPR,\nEU AI Act, and HIPAA. Specifically, we employ reinforcement learning (RL) with\na rule-based reward to incentivize contextual reasoning capabilities while\nenhancing compliance with safety and privacy norms. Through extensive\nexperiments, we demonstrate that our method not only significantly enhances\nlegal compliance (achieving a +17.64% accuracy improvement in safety/privacy\nbenchmarks) but also further improves general reasoning capability. For\nOpenThinker-7B, a strong reasoning model that significantly outperforms its\nbase model Qwen2.5-7B-Instruct across diverse subjects, our method enhances its\ngeneral reasoning capabilities, with +2.05% and +8.98% accuracy improvement on\nthe MMLU and LegalBench benchmark, respectively.",
+    "updated" : "2025-05-20T16:40:09Z",
+    "published" : "2025-05-20T16:40:09Z",
+    "authors" : [
+      {
+        "name" : "Wenbin Hu"
+      },
+      {
+        "name" : "Haoran Li"
+      },
+      {
+        "name" : "Huihao Jing"
+      },
+      {
+        "name" : "Qi Hu"
+      },
+      {
+        "name" : "Ziqian Zeng"
+      },
+      {
+        "name" : "Sirui Han"
+      },
+      {
+        "name" : "Heli Xu"
+      },
+      {
+        "name" : "Tianshu Chu"
+      },
+      {
+        "name" : "Peizhao Hu"
+      },
+      {
+        "name" : "Yangqiu Song"
+      }
+    ],
+    "categories" : [
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.14507v1",
+    "title" : "Federated prediction for scalable and privacy-preserved knowledge-based\n  planning in radiotherapy",
+    "summary" : "Background: Deep learning has potential to improve the efficiency and\nconsistency of radiation therapy planning, but clinical adoption is hindered by\nthe limited model generalizability due to data scarcity and heterogeneity among\ninstitutions. Although aggregating data from different institutions could\nalleviate this problem, data sharing is a practical challenge due to concerns\nabout patient data privacy and other technical obstacles. Purpose: This work\naims to address this dilemma by developing FedKBP+, a comprehensive federated\nlearning (FL) platform for predictive tasks in real-world applications in\nradiotherapy treatment planning. Methods: We implemented a unified\ncommunication stack based on Google Remote Procedure Call (gRPC) to support\ncommunication between participants whether located on the same workstation or\ndistributed across multiple workstations. In addition to supporting the\ncentralized FL strategies commonly available in existing open-source\nframeworks, FedKBP+ also provides a fully decentralized FL model where\nparticipants directly exchange model weights to each other through Peer-to-Peer\ncommunication. We evaluated FedKBP+ on three predictive tasks using\nscale-attention network (SA-Net) as the predictive model. Conclusions: Our\nresults demonstrate that FedKBP+ is highly effective, efficient and robust,\nshowing great potential as a federated learning platform for radiation therapy.",
+    "updated" : "2025-05-20T15:35:49Z",
+    "published" : "2025-05-20T15:35:49Z",
+    "authors" : [
+      {
+        "name" : "Jingyun Chen"
+      },
+      {
+        "name" : "David Horowitz"
+      },
+      {
+        "name" : "Yading Yuan"
+      }
+    ],
+    "categories" : [
+      "cs.DC",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.14195v1",
+    "title" : "Unraveling Interwoven Roles of Large Language Models in Authorship\n  Privacy: Obfuscation, Mimicking, and Verification",
+    "summary" : "Recent advancements in large language models (LLMs) have been fueled by large\nscale training corpora drawn from diverse sources such as websites, news\narticles, and books. These datasets often contain explicit user information,\nsuch as person names and addresses, that LLMs may unintentionally reproduce in\ntheir generated outputs. Beyond such explicit content, LLMs can also leak\nidentity revealing cues through implicit signals such as distinctive writing\nstyles, raising significant concerns about authorship privacy. There are three\nmajor automated tasks in authorship privacy, namely authorship obfuscation\n(AO), authorship mimicking (AM), and authorship verification (AV). Prior\nresearch has studied AO, AM, and AV independently. However, their interplays\nremain under explored, which leaves a major research gap, especially in the era\nof LLMs, where they are profoundly shaping how we curate and share user\ngenerated content, and the distinction between machine generated and human\nauthored text is also increasingly blurred. This work then presents the first\nunified framework for analyzing the dynamic relationships among LLM enabled AO,\nAM, and AV in the context of authorship privacy. We quantify how they interact\nwith each other to transform human authored text, examining effects at a single\npoint in time and iteratively over time. We also examine the role of\ndemographic metadata, such as gender, academic background, in modulating their\nperformances, inter-task dynamics, and privacy risks. All source code will be\npublicly available.",
+    "updated" : "2025-05-20T10:52:12Z",
+    "published" : "2025-05-20T10:52:12Z",
+    "authors" : [
+      {
+        "name" : "Tuc Nguyen"
+      },
+      {
+        "name" : "Yifan Hu"
+      },
+      {
+        "name" : "Thai Le"
+      }
+    ],
+    "categories" : [
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.13957v1",
+    "title" : "Beyond Text: Unveiling Privacy Vulnerabilities in Multi-modal\n  Retrieval-Augmented Generation",
+    "summary" : "Multimodal Retrieval-Augmented Generation (MRAG) systems enhance LMMs by\nintegrating external multimodal databases, but introduce unexplored privacy\nvulnerabilities. While text-based RAG privacy risks have been studied,\nmultimodal data presents unique challenges. We provide the first systematic\nanalysis of MRAG privacy vulnerabilities across vision-language and\nspeech-language modalities. Using a novel compositional structured prompt\nattack in a black-box setting, we demonstrate how attackers can extract private\ninformation by manipulating queries. Our experiments reveal that LMMs can both\ndirectly generate outputs resembling retrieved content and produce descriptions\nthat indirectly expose sensitive information, highlighting the urgent need for\nrobust privacy-preserving MRAG techniques.",
+    "updated" : "2025-05-20T05:37:22Z",
+    "published" : "2025-05-20T05:37:22Z",
+    "authors" : [
+      {
+        "name" : "Jiankun Zhang"
+      },
+      {
+        "name" : "Shenglai Zeng"
+      },
+      {
+        "name" : "Jie Ren"
+      },
+      {
+        "name" : "Tianqi Zheng"
+      },
+      {
+        "name" : "Hui Liu"
+      },
+      {
+        "name" : "Xianfeng Tang"
+      },
+      {
+        "name" : "Hui Liu"
+      },
+      {
+        "name" : "Yi Chang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.13694v1",
+    "title" : "A Systematic Review and Taxonomy for Privacy Breach Classification:\n  Trends, Gaps, and Future Directions",
+    "summary" : "In response to the rising frequency and complexity of data breaches and\nevolving global privacy regulations, this study presents a comprehensive\nexamination of academic literature on the classification of privacy breaches\nand violations between 2010-2024. Through a systematic literature review, a\ncorpus of screened studies was assembled and analyzed to identify primary\nresearch themes, emerging trends, and gaps in the field. A novel taxonomy is\nintroduced to guide efforts by categorizing research efforts into seven\ndomains: breach classification, report classification, breach detection, threat\ndetection, breach prediction, risk analysis, and threat classification. An\nanalysis reveals that breach classification and detection dominate the\nliterature, while breach prediction and risk analysis have only recently\nemerged in the literature, suggesting opportunities for potential research\nimpacts. Keyword and phrase frequency analysis reveal potentially underexplored\nareas, including location privacy, prediction models, and healthcare data\nbreaches.",
+    "updated" : "2025-05-19T19:52:21Z",
+    "published" : "2025-05-19T19:52:21Z",
+    "authors" : [
+      {
+        "name" : "Clint Fuchs"
+      },
+      {
+        "name" : "John D. Hastings"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "C.2.0; D.4.6; K.6.5; K.4.1; H.3.3"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.13655v1",
+    "title" : "Optimal Client Sampling in Federated Learning with Client-Level\n  Heterogeneous Differential Privacy",
+    "summary" : "Federated Learning with client-level differential privacy (DP) provides a\npromising framework for collaboratively training models while rigorously\nprotecting clients' privacy. However, classic approaches like DP-FedAvg\nstruggle when clients have heterogeneous privacy requirements, as they must\nuniformly enforce the strictest privacy level across clients, leading to\nexcessive DP noise and significant model utility degradation. Existing methods\nto improve the model utility in such heterogeneous privacy settings often\nassume a trusted server and are largely heuristic, resulting in suboptimal\nperformance and lacking strong theoretical underpinnings. In this work, we\naddress these challenges under a practical attack model where both clients and\nthe server are honest-but-curious. We propose GDPFed, which partitions clients\ninto groups based on their privacy budgets and achieves client-level DP within\neach group to reduce the privacy budget waste and hence improve the model\nutility. Based on the privacy and convergence analysis of GDPFed, we find that\nthe magnitude of DP noise depends on both model dimensionality and the\nper-group client sampling ratios. To further improve the performance of GDPFed,\nwe introduce GDPFed$^+$, which integrates model sparsification to eliminate\nunnecessary noise and optimizes per-group client sampling ratios to minimize\nconvergence error. Extensive empirical evaluations on multiple benchmark\ndatasets demonstrate the effectiveness of GDPFed$^+$, showing substantial\nperformance gains compared with state-of-the-art methods.",
+    "updated" : "2025-05-19T18:55:34Z",
+    "published" : "2025-05-19T18:55:34Z",
+    "authors" : [
+      {
+        "name" : "Jiahao Xu"
+      },
+      {
+        "name" : "Rui Hu"
+      },
+      {
+        "name" : "Olivera Kotevska"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.13085v2",
+    "title" : "Universal Semantic Disentangled Privacy-preserving Speech Representation\n  Learning",
+    "summary" : "The use of audio recordings of human speech to train LLMs poses privacy\nconcerns due to these models' potential to generate outputs that closely\nresemble artifacts in the training data. In this study, we propose a speaker\nprivacy-preserving representation learning method through the Universal Speech\nCodec (USC), a computationally efficient encoder-decoder model that\ndisentangles speech into: (i) privacy-preserving semantically rich\nrepresentations, capturing content and speech paralinguistics, and (ii)\nresidual acoustic and speaker representations that enables high-fidelity\nreconstruction. Extensive evaluations presented show that USC's semantic\nrepresentation preserves content, prosody, and sentiment, while removing\npotentially identifiable speaker attributes. Combining both representations,\nUSC achieves state-of-the-art speech reconstruction. Additionally, we introduce\nan evaluation methodology for measuring privacy-preserving properties, aligning\nwith perceptual tests. We compare USC against other codecs in the literature\nand demonstrate its effectiveness on privacy-preserving representation\nlearning, illustrating the trade-offs of speaker anonymization, paralinguistics\nretention and content preservation in the learned semantic representations.\nAudio samples are shared in https://www.amazon.science/usc-samples.",
+    "updated" : "2025-05-20T10:22:17Z",
+    "published" : "2025-05-19T13:19:49Z",
+    "authors" : [
+      {
+        "name" : "Biel Tura Vecino"
+      },
+      {
+        "name" : "Subhadeep Maji"
+      },
+      {
+        "name" : "Aravind Varier"
+      },
+      {
+        "name" : "Antonio Bonafonte"
+      },
+      {
+        "name" : "Ivan Valles"
+      },
+      {
+        "name" : "Michael Owen"
+      },
+      {
+        "name" : "Leif Rädel"
+      },
+      {
+        "name" : "Grant Strimel"
+      },
+      {
+        "name" : "Seyi Feyisetan"
+      },
+      {
+        "name" : "Roberto Barra Chicote"
+      },
+      {
+        "name" : "Ariya Rastrow"
+      },
+      {
+        "name" : "Constantinos Papayiannis"
+      },
+      {
+        "name" : "Volker Leutnant"
+      },
+      {
+        "name" : "Trevor Wood"
+      }
+    ],
+    "categories" : [
+      "eess.AS",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.02392v3",
+    "title" : "Moneros Decentralized P2P Exchanges: Functionality, Adoption, and\n  Privacy Risks",
+    "summary" : "Privacy-focused cryptocurrencies like Monero remain popular, despite\nincreasing regulatory scrutiny that has led to their delisting from major\ncentralized exchanges. The latter also explains the recent popularity of\ndecentralized exchanges (DEXs) with no centralized ownership structures. These\nplatforms typically leverage peer-to-peer (P2P) networks, promising secure and\nanonymous asset trading. However, questions of liability remain, and the\nacademic literature lacks comprehensive insights into the functionality,\ntrading activity, and privacy claims of these P2P platforms. In this paper, we\nprovide an early systematization of the current landscape of decentralized\npeer-to-peer exchanges within the Monero ecosystem. We examine several recently\ndeveloped DEX platforms, analyzing their popularity, functionality,\narchitectural choices, and potential weaknesses. We further identify and report\non a privacy vulnerability in the recently popularized Haveno exchange,\ndemonstrating that certain Haveno trades could be detected, allowing\ntransactions to be linked across the Monero and Bitcoin blockchains. We hope\nthat our findings can nourish the discussion in the research community about\nmore secure designs, and provide insights for regulators.",
+    "updated" : "2025-05-20T16:06:42Z",
+    "published" : "2025-05-05T06:27:37Z",
+    "authors" : [
+      {
+        "name" : "Yannik Kopyciok"
+      },
+      {
+        "name" : "Friedhelm Victor"
+      },
+      {
+        "name" : "Stefan Schmid"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
