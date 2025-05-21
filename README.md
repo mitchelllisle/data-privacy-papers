@@ -826,175 +826,186 @@ methods with numerical examples with both artificial and real data.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.16557v1">Beyond Anonymization: Object Scrubbing for Privacy-Preserving 2D and 3D
-  Vision Tasks</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2025-04-23T09:33:10Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Murat Bilgehan Ertan, Ronak Sahu, Phuong Ha Nguyen, Kaleel Mahmood, Marten van Dijk</p>
-    <p><b>Summary:</b> We introduce ROAR (Robust Object Removal and Re-annotation), a scalable
-framework for privacy-preserving dataset obfuscation that eliminates sensitive
-objects instead of modifying them. Our method integrates instance segmentation
-with generative inpainting to remove identifiable entities while preserving
-scene integrity. Extensive evaluations on 2D COCO-based object detection show
-that ROAR achieves 87.5% of the baseline detection average precision (AP),
-whereas image dropping achieves only 74.2% of the baseline AP, highlighting the
-advantage of scrubbing in preserving dataset utility. The degradation is even
-more severe for small objects due to occlusion and loss of fine-grained
-details. Furthermore, in NeRF-based 3D reconstruction, our method incurs a PSNR
-loss of at most 1.66 dB while maintaining SSIM and improving LPIPS,
-demonstrating superior perceptual quality. Our findings establish object
-removal as an effective privacy framework, achieving strong privacy guarantees
-with minimal performance trade-offs. The results highlight key challenges in
-generative inpainting, occlusion-robust segmentation, and task-specific
-scrubbing, setting the foundation for future advancements in privacy-preserving
-vision systems.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.16535v1">Decentralized Quantile Regression for Feature-Distributed Massive
-  Datasets with Privacy Guarantees</a></h3>
-  
-  <p><b>Published on:</b> 2025-04-23T09:04:21Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Peiwen Xiao, Xiaohui Liu, Guangming Pan, Wei Long</p>
-    <p><b>Summary:</b> In this paper, we introduce a novel decentralized surrogate gradient-based
-algorithm for quantile regression in a feature-distributed setting, where
-global features are dispersed across multiple machines within a decentralized
-network. The proposed algorithm, \texttt{DSG-cqr}, utilizes a convolution-type
-smoothing approach to address the non-smooth nature of the quantile loss
-function. \texttt{DSG-cqr} is fully decentralized, conjugate-free, easy to
-implement, and achieves linear convergence up to statistical precision. To
-ensure privacy, we adopt the Gaussian mechanism to provide
-$(\epsilon,\delta)$-differential privacy. To overcome the exact residual
-calculation problem, we estimate residuals using auxiliary variables and
-develop a confidence interval construction method based on Wald statistics.
-Theoretical properties are established, and the practical utility of the
-methods is also demonstrated through extensive simulations and a real-world
-data application.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.18581v2">Enhancing Privacy in Semantic Communication over Wiretap Channels
-  leveraging Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
-  <p><b>Published on:</b> 2025-04-23T08:42:44Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Weixuan Chen, Shunpu Tang, Qianqian Yang, Zhiguo Shi, Dusit Niyato</p>
-    <p><b>Summary:</b> Semantic communication (SemCom) improves transmission efficiency by focusing
-on task-relevant information. However, transmitting semantic-rich data over
-insecure channels introduces privacy risks. This paper proposes a novel SemCom
-framework that integrates differential privacy (DP) mechanisms to protect
-sensitive semantic features. This method employs the generative adversarial
-network (GAN) inversion technique to extract disentangled semantic features and
-uses neural networks (NNs) to approximate the DP application and removal
-processes, effectively mitigating the non-invertibility issue of DP.
-Additionally, an NN-based encryption scheme is introduced to strengthen the
-security of channel inputs. Simulation results demonstrate that the proposed
-approach effectively prevents eavesdroppers from reconstructing sensitive
-information by generating chaotic or fake images, while ensuring high-quality
-image reconstruction for legitimate users. The system exhibits robust
-performance across various privacy budgets and channel conditions, achieving an
-optimal balance between privacy protection and reconstruction fidelity.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.16371v1">The Safety-Privacy Tradeoff in Linear Bandits</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Optimization and Control-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-04-23T02:48:02Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Arghavan Zibaie, Spencer Hutchinson, Ramtin Pedarsani, Mahnoosh Alizadeh</p>
-    <p><b>Summary:</b> We consider a collection of linear stochastic bandit problems, each modeling
-the random response of different agents to proposed interventions, coupled
-together by a global safety constraint. We assume a central coordinator must
-choose actions to play on each bandit with the objective of regret
-minimization, while also ensuring that the expected response of all agents
-satisfies the global safety constraints at each round, in spite of uncertainty
-about the bandits' parameters. The agents consider their observed responses to
-be private and in order to protect their sensitive information, the data
-sharing with the central coordinator is performed under local differential
-privacy (LDP). However, providing higher level of privacy to different agents
-would have consequences in terms of safety and regret. We formalize these
-tradeoffs by building on the notion of the sharpness of the safety set - a
-measure of how the geometric properties of the safe set affects the growth of
-regret - and propose a unilaterally unimprovable vector of privacy levels for
-different agents given a maximum regret budget.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.16000v1">How Private is Your Attention? Bridging Privacy with In-Context Learning</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-04-22T16:05:26Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Soham Bonnerjee, Zhen Wei,  Yeon, Anna Asch, Sagnik Nandy, Promit Ghosal</p>
-    <p><b>Summary:</b> In-context learning (ICL)-the ability of transformer-based models to perform
-new tasks from examples provided at inference time-has emerged as a hallmark of
-modern language models. While recent works have investigated the mechanisms
-underlying ICL, its feasibility under formal privacy constraints remains
-largely unexplored. In this paper, we propose a differentially private
-pretraining algorithm for linear attention heads and present the first
-theoretical analysis of the privacy-accuracy trade-off for ICL in linear
-regression. Our results characterize the fundamental tension between
-optimization and privacy-induced noise, formally capturing behaviors observed
-in private training via iterative methods. Additionally, we show that our
-method is robust to adversarial perturbations of training prompts, unlike
-standard ridge regression. All theoretical findings are supported by extensive
-simulations across diverse settings.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.15995v1">OPUS-VFL: Incentivizing Optimal Privacy-Utility Tradeoffs in Vertical
-  Federated Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-04-22T16:00:11Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Sindhuja Madabushi, Ahmad Faraz Khan, Haider Ali, Jin-Hee Cho</p>
-    <p><b>Summary:</b> Vertical Federated Learning (VFL) enables organizations with disjoint feature
-spaces but shared user bases to collaboratively train models without sharing
-raw data. However, existing VFL systems face critical limitations: they often
-lack effective incentive mechanisms, struggle to balance privacy-utility
-tradeoffs, and fail to accommodate clients with heterogeneous resource
-capabilities. These challenges hinder meaningful participation, degrade model
-performance, and limit practical deployment. To address these issues, we
-propose OPUS-VFL, an Optimal Privacy-Utility tradeoff Strategy for VFL.
-OPUS-VFL introduces a novel, privacy-aware incentive mechanism that rewards
-clients based on a principled combination of model contribution, privacy
-preservation, and resource investment. It employs a lightweight leave-one-out
-(LOO) strategy to quantify feature importance per client, and integrates an
-adaptive differential privacy mechanism that enables clients to dynamically
-calibrate noise levels to optimize their individual utility. Our framework is
-designed to be scalable, budget-balanced, and robust to inference and poisoning
-attacks. Extensive experiments on benchmark datasets (MNIST, CIFAR-10, and
-CIFAR-100) demonstrate that OPUS-VFL significantly outperforms state-of-the-art
-VFL baselines in both efficiency and robustness. It reduces label inference
-attack success rates by up to 20%, increases feature inference reconstruction
-error (MSE) by over 30%, and achieves up to 25% higher incentives for clients
-that contribute meaningfully while respecting privacy and cost constraints.
-These results highlight the practicality and innovation of OPUS-VFL as a
-secure, fair, and performance-driven solution for real-world VFL.</p>
-  </details>
-</div>
-
-
 
 <h2>2025-05</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2505.14585v1">Context Reasoner: Incentivizing Reasoning Capability for Contextualized
+  Privacy and Safety Compliance via Reinforcement Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2025-05-20T16:40:09Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Wenbin Hu, Haoran Li, Huihao Jing, Qi Hu, Ziqian Zeng, Sirui Han, Heli Xu, Tianshu Chu, Peizhao Hu, Yangqiu Song</p>
+    <p><b>Summary:</b> While Large Language Models (LLMs) exhibit remarkable capabilities, they also
+introduce significant safety and privacy risks. Current mitigation strategies
+often fail to preserve contextual reasoning capabilities in risky scenarios.
+Instead, they rely heavily on sensitive pattern matching to protect LLMs, which
+limits the scope. Furthermore, they overlook established safety and privacy
+standards, leading to systemic risks for legal compliance. To address these
+gaps, we formulate safety and privacy issues into contextualized compliance
+problems following the Contextual Integrity (CI) theory. Under the CI
+framework, we align our model with three critical regulatory standards: GDPR,
+EU AI Act, and HIPAA. Specifically, we employ reinforcement learning (RL) with
+a rule-based reward to incentivize contextual reasoning capabilities while
+enhancing compliance with safety and privacy norms. Through extensive
+experiments, we demonstrate that our method not only significantly enhances
+legal compliance (achieving a +17.64% accuracy improvement in safety/privacy
+benchmarks) but also further improves general reasoning capability. For
+OpenThinker-7B, a strong reasoning model that significantly outperforms its
+base model Qwen2.5-7B-Instruct across diverse subjects, our method enhances its
+general reasoning capabilities, with +2.05% and +8.98% accuracy improvement on
+the MMLU and LegalBench benchmark, respectively.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2505.14507v1">Federated prediction for scalable and privacy-preserved knowledge-based
+  planning in radiotherapy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-05-20T15:35:49Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jingyun Chen, David Horowitz, Yading Yuan</p>
+    <p><b>Summary:</b> Background: Deep learning has potential to improve the efficiency and
+consistency of radiation therapy planning, but clinical adoption is hindered by
+the limited model generalizability due to data scarcity and heterogeneity among
+institutions. Although aggregating data from different institutions could
+alleviate this problem, data sharing is a practical challenge due to concerns
+about patient data privacy and other technical obstacles. Purpose: This work
+aims to address this dilemma by developing FedKBP+, a comprehensive federated
+learning (FL) platform for predictive tasks in real-world applications in
+radiotherapy treatment planning. Methods: We implemented a unified
+communication stack based on Google Remote Procedure Call (gRPC) to support
+communication between participants whether located on the same workstation or
+distributed across multiple workstations. In addition to supporting the
+centralized FL strategies commonly available in existing open-source
+frameworks, FedKBP+ also provides a fully decentralized FL model where
+participants directly exchange model weights to each other through Peer-to-Peer
+communication. We evaluated FedKBP+ on three predictive tasks using
+scale-attention network (SA-Net) as the predictive model. Conclusions: Our
+results demonstrate that FedKBP+ is highly effective, efficient and robust,
+showing great potential as a federated learning platform for radiation therapy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2505.14195v1">Unraveling Interwoven Roles of Large Language Models in Authorship
+  Privacy: Obfuscation, Mimicking, and Verification</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2025-05-20T10:52:12Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Tuc Nguyen, Yifan Hu, Thai Le</p>
+    <p><b>Summary:</b> Recent advancements in large language models (LLMs) have been fueled by large
+scale training corpora drawn from diverse sources such as websites, news
+articles, and books. These datasets often contain explicit user information,
+such as person names and addresses, that LLMs may unintentionally reproduce in
+their generated outputs. Beyond such explicit content, LLMs can also leak
+identity revealing cues through implicit signals such as distinctive writing
+styles, raising significant concerns about authorship privacy. There are three
+major automated tasks in authorship privacy, namely authorship obfuscation
+(AO), authorship mimicking (AM), and authorship verification (AV). Prior
+research has studied AO, AM, and AV independently. However, their interplays
+remain under explored, which leaves a major research gap, especially in the era
+of LLMs, where they are profoundly shaping how we curate and share user
+generated content, and the distinction between machine generated and human
+authored text is also increasingly blurred. This work then presents the first
+unified framework for analyzing the dynamic relationships among LLM enabled AO,
+AM, and AV in the context of authorship privacy. We quantify how they interact
+with each other to transform human authored text, examining effects at a single
+point in time and iteratively over time. We also examine the role of
+demographic metadata, such as gender, academic background, in modulating their
+performances, inter-task dynamics, and privacy risks. All source code will be
+publicly available.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2505.13957v1">Beyond Text: Unveiling Privacy Vulnerabilities in Multi-modal
+  Retrieval-Augmented Generation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2025-05-20T05:37:22Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jiankun Zhang, Shenglai Zeng, Jie Ren, Tianqi Zheng, Hui Liu, Xianfeng Tang, Hui Liu, Yi Chang</p>
+    <p><b>Summary:</b> Multimodal Retrieval-Augmented Generation (MRAG) systems enhance LMMs by
+integrating external multimodal databases, but introduce unexplored privacy
+vulnerabilities. While text-based RAG privacy risks have been studied,
+multimodal data presents unique challenges. We provide the first systematic
+analysis of MRAG privacy vulnerabilities across vision-language and
+speech-language modalities. Using a novel compositional structured prompt
+attack in a black-box setting, we demonstrate how attackers can extract private
+information by manipulating queries. Our experiments reveal that LMMs can both
+directly generate outputs resembling retrieved content and produce descriptions
+that indirectly expose sensitive information, highlighting the urgent need for
+robust privacy-preserving MRAG techniques.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2505.13694v1">A Systematic Review and Taxonomy for Privacy Breach Classification:
+  Trends, Gaps, and Future Directions</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
+  <p><b>Published on:</b> 2025-05-19T19:52:21Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Clint Fuchs, John D. Hastings</p>
+    <p><b>Summary:</b> In response to the rising frequency and complexity of data breaches and
+evolving global privacy regulations, this study presents a comprehensive
+examination of academic literature on the classification of privacy breaches
+and violations between 2010-2024. Through a systematic literature review, a
+corpus of screened studies was assembled and analyzed to identify primary
+research themes, emerging trends, and gaps in the field. A novel taxonomy is
+introduced to guide efforts by categorizing research efforts into seven
+domains: breach classification, report classification, breach detection, threat
+detection, breach prediction, risk analysis, and threat classification. An
+analysis reveals that breach classification and detection dominate the
+literature, while breach prediction and risk analysis have only recently
+emerged in the literature, suggesting opportunities for potential research
+impacts. Keyword and phrase frequency analysis reveal potentially underexplored
+areas, including location privacy, prediction models, and healthcare data
+breaches.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2505.13655v1">Optimal Client Sampling in Federated Learning with Client-Level
+  Heterogeneous Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-05-19T18:55:34Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jiahao Xu, Rui Hu, Olivera Kotevska</p>
+    <p><b>Summary:</b> Federated Learning with client-level differential privacy (DP) provides a
+promising framework for collaboratively training models while rigorously
+protecting clients' privacy. However, classic approaches like DP-FedAvg
+struggle when clients have heterogeneous privacy requirements, as they must
+uniformly enforce the strictest privacy level across clients, leading to
+excessive DP noise and significant model utility degradation. Existing methods
+to improve the model utility in such heterogeneous privacy settings often
+assume a trusted server and are largely heuristic, resulting in suboptimal
+performance and lacking strong theoretical underpinnings. In this work, we
+address these challenges under a practical attack model where both clients and
+the server are honest-but-curious. We propose GDPFed, which partitions clients
+into groups based on their privacy budgets and achieves client-level DP within
+each group to reduce the privacy budget waste and hence improve the model
+utility. Based on the privacy and convergence analysis of GDPFed, we find that
+the magnitude of DP noise depends on both model dimensionality and the
+per-group client sampling ratios. To further improve the performance of GDPFed,
+we introduce GDPFed$^+$, which integrates model sparsification to eliminate
+unnecessary noise and optimizes per-group client sampling ratios to minimize
+convergence error. Extensive empirical evaluations on multiple benchmark
+datasets demonstrate the effectiveness of GDPFed$^+$, showing substantial
+performance gains compared with state-of-the-art methods.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2505.13292v1">Cross-Cloud Data Privacy Protection: Optimizing Collaborative Mechanisms
@@ -1026,32 +1037,31 @@ convergence speed and data privacy protection.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.13085v1">Universal Semantic Disentangled Privacy-preserving Speech Representation
+  <h3><a href="http://arxiv.org/abs/2505.13085v2">Universal Semantic Disentangled Privacy-preserving Speech Representation
   Learning</a></h3>
    <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2025-05-19T13:19:49Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Biel Tura Vecino, Subhadeep Maji, Aravind Varier, Antonio Bonafonte, Ivan Valles, Michael Owen, Leif Radel, Grant Strimmel, Seyi Feyisetan, Roberto Barra Chicote, Ariya Rastrow, Constantinos Papayiannis, Volker Leutnant, Trevor Wood</p>
+    <p><b>Authors:</b> Biel Tura Vecino, Subhadeep Maji, Aravind Varier, Antonio Bonafonte, Ivan Valles, Michael Owen, Leif Rädel, Grant Strimel, Seyi Feyisetan, Roberto Barra Chicote, Ariya Rastrow, Constantinos Papayiannis, Volker Leutnant, Trevor Wood</p>
     <p><b>Summary:</b> The use of audio recordings of human speech to train LLMs poses privacy
 concerns due to these models' potential to generate outputs that closely
 resemble artifacts in the training data. In this study, we propose a speaker
 privacy-preserving representation learning method through the Universal Speech
 Codec (USC), a computationally efficient encoder-decoder model that
-disentangles speech into: $\textit{(i)}$ privacy-preserving semantically rich
-representations, capturing content and speech paralinguistics, and
-$\textit{(ii)}$ residual acoustic and speaker representations that enables
-high-fidelity reconstruction. Extensive evaluations presented show that USC's
-semantic representation preserves content, prosody, and sentiment, while
-removing potentially identifiable speaker attributes. Combining both
-representations, USC achieves state-of-the-art speech reconstruction.
-Additionally, we introduce an evaluation methodology for measuring
-privacy-preserving properties, aligning with perceptual tests. We compare USC
-against other codecs in the literature and demonstrate its effectiveness on
-privacy-preserving representation learning, illustrating the trade-offs of
-speaker anonymization, paralinguistics retention and content preservation in
-the learned semantic representations. Audio samples are shared in
-$\href{https://www.amazon.science/usc-samples}{https://www.amazon.science/usc-samples}$.</p>
+disentangles speech into: (i) privacy-preserving semantically rich
+representations, capturing content and speech paralinguistics, and (ii)
+residual acoustic and speaker representations that enables high-fidelity
+reconstruction. Extensive evaluations presented show that USC's semantic
+representation preserves content, prosody, and sentiment, while removing
+potentially identifiable speaker attributes. Combining both representations,
+USC achieves state-of-the-art speech reconstruction. Additionally, we introduce
+an evaluation methodology for measuring privacy-preserving properties, aligning
+with perceptual tests. We compare USC against other codecs in the literature
+and demonstrate its effectiveness on privacy-preserving representation
+learning, illustrating the trade-offs of speaker anonymization, paralinguistics
+retention and content preservation in the learned semantic representations.
+Audio samples are shared in https://www.amazon.science/usc-samples.</p>
   </details>
 </div>
 
@@ -2676,7 +2686,7 @@ agreement systems in 6G networks using privacy-enabled hybrid blockchains.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.02392v2">Moneros Decentralized P2P Exchanges: Functionality, Adoption, and
+  <h3><a href="http://arxiv.org/abs/2505.02392v3">Moneros Decentralized P2P Exchanges: Functionality, Adoption, and
   Privacy Risks</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2025-05-05T06:27:37Z</p>
