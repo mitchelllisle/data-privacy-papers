@@ -2077,5 +2077,207 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.15721v1",
+    "title" : "Privacy-Preserving Conformal Prediction Under Local Differential Privacy",
+    "summary" : "Conformal prediction (CP) provides sets of candidate classes with a\nguaranteed probability of containing the true class. However, it typically\nrelies on a calibration set with clean labels. We address privacy-sensitive\nscenarios where the aggregator is untrusted and can only access a perturbed\nversion of the true labels. We propose two complementary approaches under local\ndifferential privacy (LDP). In the first approach, users do not access the\nmodel but instead provide their input features and a perturbed label using a\nk-ary randomized response. In the second approach, which enforces stricter\nprivacy constraints, users add noise to their conformity score by binary search\nresponse. This method requires access to the classification model but preserves\nboth data and label privacy. Both approaches compute the conformal threshold\ndirectly from noisy data without accessing the true labels. We prove\nfinite-sample coverage guarantees and demonstrate robust coverage even under\nsevere randomization. This approach unifies strong local privacy with\npredictive uncertainty control, making it well-suited for sensitive\napplications such as medical imaging or large language model queries,\nregardless of whether users can (or are willing to) compute their own scores.",
+    "updated" : "2025-05-21T16:29:44Z",
+    "published" : "2025-05-21T16:29:44Z",
+    "authors" : [
+      {
+        "name" : "Coby Penso"
+      },
+      {
+        "name" : "Bar Mahpud"
+      },
+      {
+        "name" : "Jacob Goldberger"
+      },
+      {
+        "name" : "Or Sheffet"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.15483v1",
+    "title" : "Optimal Piecewise-based Mechanism for Collecting Bounded Numerical Data\n  under Local Differential Privacy",
+    "summary" : "Numerical data with bounded domains is a common data type in personal\ndevices, such as wearable sensors. While the collection of such data is\nessential for third-party platforms, it raises significant privacy concerns.\nLocal differential privacy (LDP) has been shown as a framework providing\nprovable individual privacy, even when the third-party platform is untrusted.\nFor numerical data with bounded domains, existing state-of-the-art LDP\nmechanisms are piecewise-based mechanisms, which are not optimal, leading to\nreduced data utility.\n  This paper investigates the optimal design of piecewise-based mechanisms to\nmaximize data utility under LDP. We demonstrate that existing piecewise-based\nmechanisms are heuristic forms of the $3$-piecewise mechanism, which is far\nfrom enough to study optimality. We generalize the $3$-piecewise mechanism to\nits most general form, i.e. $m$-piecewise mechanism with no pre-defined form of\neach piece. Under this form, we derive the closed-form optimal mechanism by\ncombining analytical proofs and off-the-shelf optimization solvers. Next, we\nextend the generalized piecewise-based mechanism to the circular domain (along\nwith the classical domain), defined on a cyclic range where the distance\nbetween the two endpoints is zero. By incorporating this property, we design\nthe optimal mechanism for the circular domain, achieving significantly improved\ndata utility compared with existing mechanisms.\n  Our proposed mechanisms guarantee optimal data utility under LDP among all\ngeneralized piecewise-based mechanisms. We show that they also achieve optimal\ndata utility in two common applications of LDP: distribution estimation and\nmean estimation. Theoretical analyses and experimental evaluations prove and\nvalidate the data utility advantages of our proposed mechanisms.",
+    "updated" : "2025-05-21T13:01:41Z",
+    "published" : "2025-05-21T13:01:41Z",
+    "authors" : [
+      {
+        "name" : "Ye Zheng"
+      },
+      {
+        "name" : "Sumita Mishra"
+      },
+      {
+        "name" : "Yidan Hu"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "E.3"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.15476v1",
+    "title" : "Pura: An Efficient Privacy-Preserving Solution for Face Recognition",
+    "summary" : "Face recognition is an effective technology for identifying a target person\nby facial images. However, sensitive facial images raises privacy concerns.\nAlthough privacy-preserving face recognition is one of potential solutions,\nthis solution neither fully addresses the privacy concerns nor is efficient\nenough. To this end, we propose an efficient privacy-preserving solution for\nface recognition, named Pura, which sufficiently protects facial privacy and\nsupports face recognition over encrypted data efficiently. Specifically, we\npropose a privacy-preserving and non-interactive architecture for face\nrecognition through the threshold Paillier cryptosystem. Additionally, we\ncarefully design a suite of underlying secure computing protocols to enable\nefficient operations of face recognition over encrypted data directly.\nFurthermore, we introduce a parallel computing mechanism to enhance the\nperformance of the proposed secure computing protocols. Privacy analysis\ndemonstrates that Pura fully safeguards personal facial privacy. Experimental\nevaluations demonstrate that Pura achieves recognition speeds up to 16 times\nfaster than the state-of-the-art.",
+    "updated" : "2025-05-21T12:50:25Z",
+    "published" : "2025-05-21T12:50:25Z",
+    "authors" : [
+      {
+        "name" : "Guotao Xu"
+      },
+      {
+        "name" : "Bowen Zhao"
+      },
+      {
+        "name" : "Yang Xiao"
+      },
+      {
+        "name" : "Yantao Zhong"
+      },
+      {
+        "name" : "Liang Zhai"
+      },
+      {
+        "name" : "Qingqi Pei"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.15376v1",
+    "title" : "Federated Learning-Enhanced Blockchain Framework for Privacy-Preserving\n  Intrusion Detection in Industrial IoT",
+    "summary" : "Industrial Internet of Things (IIoT) systems have become integral to smart\nmanufacturing, yet their growing connectivity has also exposed them to\nsignificant cybersecurity threats. Traditional intrusion detection systems\n(IDS) often rely on centralized architectures that raise concerns over data\nprivacy, latency, and single points of failure. In this work, we propose a\nnovel Federated Learning-Enhanced Blockchain Framework (FL-BCID) for\nprivacy-preserving intrusion detection tailored for IIoT environments. Our\narchitecture combines federated learning (FL) to ensure decentralized model\ntraining with blockchain technology to guarantee data integrity, trust, and\ntamper resistance across IIoT nodes. We design a lightweight intrusion\ndetection model collaboratively trained using FL across edge devices without\nexposing sensitive data. A smart contract-enabled blockchain system records\nmodel updates and anomaly scores to establish accountability. Experimental\nevaluations using the ToN-IoT and N-BaIoT datasets demonstrate the superior\nperformance of our framework, achieving 97.3% accuracy while reducing\ncommunication overhead by 41% compared to baseline centralized methods. Our\napproach ensures privacy, scalability, and robustness-critical for secure\nindustrial operations. The proposed FL-BCID system provides a promising\nsolution for enhancing trust and privacy in modern IIoT security architectures.",
+    "updated" : "2025-05-21T11:11:44Z",
+    "published" : "2025-05-21T11:11:44Z",
+    "authors" : [
+      {
+        "name" : "Anas Ali"
+      },
+      {
+        "name" : "Mubashar Husain"
+      },
+      {
+        "name" : "Peter Hans"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.15156v1",
+    "title" : "Privacy-Preserving Socialized Recommendation based on Multi-View\n  Clustering in a Cloud Environment",
+    "summary" : "Recommendation as a service has improved the quality of our lives and plays a\nsignificant role in variant aspects. However, the preference of users may\nreveal some sensitive information, so that the protection of privacy is\nrequired. In this paper, we propose a privacy-preserving, socialized,\nrecommendation protocol that introduces information collected from online\nsocial networks to enhance the quality of the recommendation. The proposed\nscheme can calculate the similarity between users to determine their potential\nrelationships and interests, and it also can protect the users' privacy from\nleaking to an untrusted third party. The security analysis and experimental\nresults showed that our proposed scheme provides excellent performance and is\nfeasible for real-world applications.",
+    "updated" : "2025-05-21T06:21:21Z",
+    "published" : "2025-05-21T06:21:21Z",
+    "authors" : [
+      {
+        "name" : "Cheng Guo"
+      },
+      {
+        "name" : "Jing Jia"
+      },
+      {
+        "name" : "Peng Wang"
+      },
+      {
+        "name" : "Jing Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.14959v1",
+    "title" : "Privacy Preserving Conversion Modeling in Data Clean Room",
+    "summary" : "In the realm of online advertising, accurately predicting the conversion rate\n(CVR) is crucial for enhancing advertising efficiency and user satisfaction.\nThis paper addresses the challenge of CVR prediction while adhering to user\nprivacy preferences and advertiser requirements. Traditional methods face\nobstacles such as the reluctance of advertisers to share sensitive conversion\ndata and the limitations of model training in secure environments like data\nclean rooms. We propose a novel model training framework that enables\ncollaborative model training without sharing sample-level gradients with the\nadvertising platform. Our approach introduces several innovative components:\n(1) utilizing batch-level aggregated gradients instead of sample-level\ngradients to minimize privacy risks; (2) applying adapter-based\nparameter-efficient fine-tuning and gradient compression to reduce\ncommunication costs; and (3) employing de-biasing techniques to train the model\nunder label differential privacy, thereby maintaining accuracy despite\nprivacy-enhanced label perturbations. Our experimental results, conducted on\nindustrial datasets, demonstrate that our method achieves competitive ROCAUC\nperformance while significantly decreasing communication overhead and complying\nwith both advertiser privacy requirements and user privacy choices. This\nframework establishes a new standard for privacy-preserving, high-performance\nCVR prediction in the digital advertising landscape.",
+    "updated" : "2025-05-20T22:38:50Z",
+    "published" : "2025-05-20T22:38:50Z",
+    "authors" : [
+      {
+        "name" : "Kungang Li"
+      },
+      {
+        "name" : "Xiangyi Chen"
+      },
+      {
+        "name" : "Ling Leng"
+      },
+      {
+        "name" : "Jiajing Xu"
+      },
+      {
+        "name" : "Jiankai Sun"
+      },
+      {
+        "name" : "Behnam Rezaei"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.IR",
+      "H.4"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.14797v1",
+    "title" : "Efficient Privacy-Preserving Cross-Silo Federated Learning with\n  Multi-Key Homomorphic Encryption",
+    "summary" : "Federated Learning (FL) is susceptible to privacy attacks, such as data\nreconstruction attacks, in which a semi-honest server or a malicious client\ninfers information about other clients' datasets from their model updates or\ngradients. To enhance the privacy of FL, recent studies combined Multi-Key\nHomomorphic Encryption (MKHE) and FL, making it possible to aggregate the\nencrypted model updates using different keys without having to decrypt them.\nDespite the privacy guarantees of MKHE, existing approaches are not well-suited\nfor real-world deployment due to their high computation and communication\noverhead. We propose MASER, an efficient MKHE-based Privacy-Preserving FL\nframework that combines consensus-based model pruning and slicing techniques to\nreduce this overhead. Our experimental results show that MASER is 3.03 to 8.29\ntimes more efficient than existing MKHE-based FL approaches in terms of\ncomputation and communication overhead while maintaining comparable\nclassification accuracy to standard FL algorithms. Compared to a vanilla FL\nalgorithm, the overhead of MASER is only 1.48 to 5 times higher, striking a\ngood balance between privacy, accuracy, and efficiency in both IID and non-IID\nsettings.",
+    "updated" : "2025-05-20T18:08:15Z",
+    "published" : "2025-05-20T18:08:15Z",
+    "authors" : [
+      {
+        "name" : "Abdullah Al Omar"
+      },
+      {
+        "name" : "Xin Yang"
+      },
+      {
+        "name" : "Euijin Choo"
+      },
+      {
+        "name" : "Omid Ardakanian"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.14507v1",
+    "title" : "Federated prediction for scalable and privacy-preserved knowledge-based\n  planning in radiotherapy",
+    "summary" : "Background: Deep learning has potential to improve the efficiency and\nconsistency of radiation therapy planning, but clinical adoption is hindered by\nthe limited model generalizability due to data scarcity and heterogeneity among\ninstitutions. Although aggregating data from different institutions could\nalleviate this problem, data sharing is a practical challenge due to concerns\nabout patient data privacy and other technical obstacles. Purpose: This work\naims to address this dilemma by developing FedKBP+, a comprehensive federated\nlearning (FL) platform for predictive tasks in real-world applications in\nradiotherapy treatment planning. Methods: We implemented a unified\ncommunication stack based on Google Remote Procedure Call (gRPC) to support\ncommunication between participants whether located on the same workstation or\ndistributed across multiple workstations. In addition to supporting the\ncentralized FL strategies commonly available in existing open-source\nframeworks, FedKBP+ also provides a fully decentralized FL model where\nparticipants directly exchange model weights to each other through Peer-to-Peer\ncommunication. We evaluated FedKBP+ on three predictive tasks using\nscale-attention network (SA-Net) as the predictive model. Conclusions: Our\nresults demonstrate that FedKBP+ is highly effective, efficient and robust,\nshowing great potential as a federated learning platform for radiation therapy.",
+    "updated" : "2025-05-20T15:35:49Z",
+    "published" : "2025-05-20T15:35:49Z",
+    "authors" : [
+      {
+        "name" : "Jingyun Chen"
+      },
+      {
+        "name" : "David Horowitz"
+      },
+      {
+        "name" : "Yading Yuan"
+      }
+    ],
+    "categories" : [
+      "cs.DC",
+      "cs.LG",
+      "physics.med-ph"
+    ]
   }
 ]
