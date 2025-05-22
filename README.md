@@ -626,208 +626,214 @@ trade-off, establishing a new state-of-the-art.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.18007v1">Differential Privacy-Driven Framework for Enhancing Heart Disease
-  Prediction</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-04-25T01:27:40Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yazan Otoum, Amiya Nayak</p>
-    <p><b>Summary:</b> With the rapid digitalization of healthcare systems, there has been a
-substantial increase in the generation and sharing of private health data.
-Safeguarding patient information is essential for maintaining consumer trust
-and ensuring compliance with legal data protection regulations. Machine
-learning is critical in healthcare, supporting personalized treatment, early
-disease detection, predictive analytics, image interpretation, drug discovery,
-efficient operations, and patient monitoring. It enhances decision-making,
-accelerates research, reduces errors, and improves patient outcomes. In this
-paper, we utilize machine learning methodologies, including differential
-privacy and federated learning, to develop privacy-preserving models that
-enable healthcare stakeholders to extract insights without compromising
-individual privacy. Differential privacy introduces noise to data to guarantee
-statistical privacy, while federated learning enables collaborative model
-training across decentralized datasets. We explore applying these technologies
-to Heart Disease Data, demonstrating how they preserve privacy while delivering
-valuable insights and comprehensive analysis. Our results show that using a
-federated learning model with differential privacy achieved a test accuracy of
-85%, ensuring patient data remained secure and private throughout the process.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.17703v1">Federated Learning: A Survey on Privacy-Preserving Collaborative
-  Intelligence</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-04-24T16:10:29Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Edward Collins, Michel Wang</p>
-    <p><b>Summary:</b> Federated Learning (FL) has emerged as a transformative paradigm in the field
-of distributed machine learning, enabling multiple clients such as mobile
-devices, edge nodes, or organizations to collaboratively train a shared global
-model without the need to centralize sensitive data. This decentralized
-approach addresses growing concerns around data privacy, security, and
-regulatory compliance, making it particularly attractive in domains such as
-healthcare, finance, and smart IoT systems. This survey provides a concise yet
-comprehensive overview of Federated Learning, beginning with its core
-architecture and communication protocol. We discuss the standard FL lifecycle,
-including local training, model aggregation, and global updates. A particular
-emphasis is placed on key technical challenges such as handling non-IID
-(non-independent and identically distributed) data, mitigating system and
-hardware heterogeneity, reducing communication overhead, and ensuring privacy
-through mechanisms like differential privacy and secure aggregation.
-Furthermore, we examine emerging trends in FL research, including personalized
-FL, cross-device versus cross-silo settings, and integration with other
-paradigms such as reinforcement learning and quantum computing. We also
-highlight real-world applications and summarize benchmark datasets and
-evaluation metrics commonly used in FL research. Finally, we outline open
-research problems and future directions to guide the development of scalable,
-efficient, and trustworthy FL systems.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.18596v1">Optimizing the Privacy-Utility Balance using Synthetic Data and
-  Configurable Perturbation Pipelines</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Probability-5BC0EB">
-  <p><b>Published on:</b> 2025-04-24T15:52:53Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Anantha Sharma, Swetha Devabhaktuni, Eklove Mohan</p>
-    <p><b>Summary:</b> This paper explores the strategic use of modern synthetic data generation and
-advanced data perturbation techniques to enhance security, maintain analytical
-utility, and improve operational efficiency when managing large datasets, with
-a particular focus on the Banking, Financial Services, and Insurance (BFSI)
-sector. We contrast these advanced methods encompassing generative models like
-GANs, sophisticated context-aware PII transformation, configurable statistical
-perturbation, and differential privacy with traditional anonymization
-approaches.
-  The goal is to create realistic, privacy-preserving datasets that retain high
-utility for complex machine learning tasks and analytics, a critical need in
-the data-sensitive industries like BFSI, Healthcare, Retail, and
-Telecommunications. We discuss how these modern techniques potentially offer
-significant improvements in balancing privacy preservation while maintaining
-data utility compared to older methods. Furthermore, we examine the potential
-for operational gains, such as reduced overhead and accelerated analytics, by
-using these privacy-enhanced datasets. We also explore key use cases where
-these methods can mitigate regulatory risks and enable scalable, data-driven
-innovation without compromising sensitive customer information.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.17523v1">From Randomized Response to Randomized Index: Answering Subset Counting
-  Queries with Local Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-04-24T13:08:11Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Qingqing Ye, Liantong Yu, Kai Huang, Xiaokui Xiao, Weiran Liu, Haibo Hu</p>
-    <p><b>Summary:</b> Local Differential Privacy (LDP) is the predominant privacy model for
-safeguarding individual data privacy. Existing perturbation mechanisms
-typically require perturbing the original values to ensure acceptable privacy,
-which inevitably results in value distortion and utility deterioration. In this
-work, we propose an alternative approach -- instead of perturbing values, we
-apply randomization to indexes of values while ensuring rigorous LDP
-guarantees. Inspired by the deniability of randomized indexes, we present CRIAD
-for answering subset counting queries on set-value data. By integrating a
-multi-dummy, multi-sample, and multi-group strategy, CRIAD serves as a fully
-scalable solution that offers flexibility across various privacy requirements
-and domain sizes, and achieves more accurate query results than any existing
-methods. Through comprehensive theoretical analysis and extensive experimental
-evaluations, we validate the effectiveness of CRIAD and demonstrate its
-superiority over traditional value-perturbation mechanisms.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.17360v1">PatientDx: Merging Large Language Models for Protecting Data-Privacy in
-  Healthcare</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2025-04-24T08:21:04Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jose G. Moreno, Jesus Lovon, M'Rick Robin-Charlet, Christine Damase-Michel, Lynda Tamine</p>
-    <p><b>Summary:</b> Fine-tuning of Large Language Models (LLMs) has become the default practice
-for improving model performance on a given task. However, performance
-improvement comes at the cost of training on vast amounts of annotated data
-which could be sensitive leading to significant data privacy concerns. In
-particular, the healthcare domain is one of the most sensitive domains exposed
-to data privacy issues. In this paper, we present PatientDx, a framework of
-model merging that allows the design of effective LLMs for health-predictive
-tasks without requiring fine-tuning nor adaptation on patient data. Our
-proposal is based on recently proposed techniques known as merging of LLMs and
-aims to optimize a building block merging strategy. PatientDx uses a pivotal
-model adapted to numerical reasoning and tunes hyperparameters on examples
-based on a performance metric but without training of the LLM on these data.
-Experiments using the mortality tasks of the MIMIC-IV dataset show improvements
-up to 7% in terms of AUROC when compared to initial models. Additionally, we
-confirm that when compared to fine-tuned models, our proposal is less prone to
-data leak problems without hurting performance. Finally, we qualitatively show
-the capabilities of our proposal through a case study. Our best model is
-publicly available at https://huggingface.co/ Jgmorenof/mistral\_merged\_0\_4.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.17274v1">Signal Recovery from Random Dot-Product Graphs Under Local Differential
-  Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36">   
-  <p><b>Published on:</b> 2025-04-24T06:02:02Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Siddharth Vishwanath, Jonathan Hehir</p>
-    <p><b>Summary:</b> We consider the problem of recovering latent information from graphs under
-$\varepsilon$-edge local differential privacy where the presence of
-relationships/edges between two users/vertices remains confidential, even from
-the data curator. For the class of generalized random dot-product graphs, we
-show that a standard local differential privacy mechanism induces a specific
-geometric distortion in the latent positions. Leveraging this insight, we show
-that consistent recovery of the latent positions is achievable by appropriately
-adjusting the statistical inference procedure for the privatized graph.
-Furthermore, we prove that our procedure is nearly minimax-optimal under local
-edge differential privacy constraints. Lastly, we show that this framework
-allows for consistent recovery of geometric and topological information
-underlying the latent positions, as encoded in their persistence diagrams. Our
-results extend previous work from the private community detection literature to
-a substantially richer class of models and inferential tasks.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.16683v1">MCMC for Bayesian estimation of Differential Privacy from Membership
-  Inference Attacks</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
-  <p><b>Published on:</b> 2025-04-23T13:10:37Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ceren Yildirim, Kamer Kaya, Sinan Yildirim, Erkay Savas</p>
-    <p><b>Summary:</b> We propose a new framework for Bayesian estimation of differential privacy,
-incorporating evidence from multiple membership inference attacks (MIA).
-Bayesian estimation is carried out via a Markov chain Monte Carlo (MCMC)
-algorithm, named MCMC-DP-Est, which provides an estimate of the full posterior
-distribution of the privacy parameter (e.g., instead of just credible
-intervals). Critically, the proposed method does not assume that privacy
-auditing is performed with the most powerful attack on the worst-case (dataset,
-challenge point) pair, which is typically unrealistic. Instead, MCMC-DP-Est
-jointly estimates the strengths of MIAs used and the privacy of the training
-algorithm, yielding a more cautious privacy analysis. We also present an
-economical way to generate measurements for the performance of an MIA that is
-to be used by the MCMC method to estimate privacy. We present the use of the
-methods with numerical examples with both artificial and real data.</p>
-  </details>
-</div>
-
-
 
 <h2>2025-05</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2505.15721v1">Privacy-Preserving Conformal Prediction Under Local Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
+  <p><b>Published on:</b> 2025-05-21T16:29:44Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Coby Penso, Bar Mahpud, Jacob Goldberger, Or Sheffet</p>
+    <p><b>Summary:</b> Conformal prediction (CP) provides sets of candidate classes with a
+guaranteed probability of containing the true class. However, it typically
+relies on a calibration set with clean labels. We address privacy-sensitive
+scenarios where the aggregator is untrusted and can only access a perturbed
+version of the true labels. We propose two complementary approaches under local
+differential privacy (LDP). In the first approach, users do not access the
+model but instead provide their input features and a perturbed label using a
+k-ary randomized response. In the second approach, which enforces stricter
+privacy constraints, users add noise to their conformity score by binary search
+response. This method requires access to the classification model but preserves
+both data and label privacy. Both approaches compute the conformal threshold
+directly from noisy data without accessing the true labels. We prove
+finite-sample coverage guarantees and demonstrate robust coverage even under
+severe randomization. This approach unifies strong local privacy with
+predictive uncertainty control, making it well-suited for sensitive
+applications such as medical imaging or large language model queries,
+regardless of whether users can (or are willing to) compute their own scores.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2505.15483v1">Optimal Piecewise-based Mechanism for Collecting Bounded Numerical Data
+  under Local Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
+  <p><b>Published on:</b> 2025-05-21T13:01:41Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ye Zheng, Sumita Mishra, Yidan Hu</p>
+    <p><b>Summary:</b> Numerical data with bounded domains is a common data type in personal
+devices, such as wearable sensors. While the collection of such data is
+essential for third-party platforms, it raises significant privacy concerns.
+Local differential privacy (LDP) has been shown as a framework providing
+provable individual privacy, even when the third-party platform is untrusted.
+For numerical data with bounded domains, existing state-of-the-art LDP
+mechanisms are piecewise-based mechanisms, which are not optimal, leading to
+reduced data utility.
+  This paper investigates the optimal design of piecewise-based mechanisms to
+maximize data utility under LDP. We demonstrate that existing piecewise-based
+mechanisms are heuristic forms of the $3$-piecewise mechanism, which is far
+from enough to study optimality. We generalize the $3$-piecewise mechanism to
+its most general form, i.e. $m$-piecewise mechanism with no pre-defined form of
+each piece. Under this form, we derive the closed-form optimal mechanism by
+combining analytical proofs and off-the-shelf optimization solvers. Next, we
+extend the generalized piecewise-based mechanism to the circular domain (along
+with the classical domain), defined on a cyclic range where the distance
+between the two endpoints is zero. By incorporating this property, we design
+the optimal mechanism for the circular domain, achieving significantly improved
+data utility compared with existing mechanisms.
+  Our proposed mechanisms guarantee optimal data utility under LDP among all
+generalized piecewise-based mechanisms. We show that they also achieve optimal
+data utility in two common applications of LDP: distribution estimation and
+mean estimation. Theoretical analyses and experimental evaluations prove and
+validate the data utility advantages of our proposed mechanisms.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2505.15476v1">Pura: An Efficient Privacy-Preserving Solution for Face Recognition</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-05-21T12:50:25Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Guotao Xu, Bowen Zhao, Yang Xiao, Yantao Zhong, Liang Zhai, Qingqi Pei</p>
+    <p><b>Summary:</b> Face recognition is an effective technology for identifying a target person
+by facial images. However, sensitive facial images raises privacy concerns.
+Although privacy-preserving face recognition is one of potential solutions,
+this solution neither fully addresses the privacy concerns nor is efficient
+enough. To this end, we propose an efficient privacy-preserving solution for
+face recognition, named Pura, which sufficiently protects facial privacy and
+supports face recognition over encrypted data efficiently. Specifically, we
+propose a privacy-preserving and non-interactive architecture for face
+recognition through the threshold Paillier cryptosystem. Additionally, we
+carefully design a suite of underlying secure computing protocols to enable
+efficient operations of face recognition over encrypted data directly.
+Furthermore, we introduce a parallel computing mechanism to enhance the
+performance of the proposed secure computing protocols. Privacy analysis
+demonstrates that Pura fully safeguards personal facial privacy. Experimental
+evaluations demonstrate that Pura achieves recognition speeds up to 16 times
+faster than the state-of-the-art.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2505.15376v1">Federated Learning-Enhanced Blockchain Framework for Privacy-Preserving
+  Intrusion Detection in Industrial IoT</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-05-21T11:11:44Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Anas Ali, Mubashar Husain, Peter Hans</p>
+    <p><b>Summary:</b> Industrial Internet of Things (IIoT) systems have become integral to smart
+manufacturing, yet their growing connectivity has also exposed them to
+significant cybersecurity threats. Traditional intrusion detection systems
+(IDS) often rely on centralized architectures that raise concerns over data
+privacy, latency, and single points of failure. In this work, we propose a
+novel Federated Learning-Enhanced Blockchain Framework (FL-BCID) for
+privacy-preserving intrusion detection tailored for IIoT environments. Our
+architecture combines federated learning (FL) to ensure decentralized model
+training with blockchain technology to guarantee data integrity, trust, and
+tamper resistance across IIoT nodes. We design a lightweight intrusion
+detection model collaboratively trained using FL across edge devices without
+exposing sensitive data. A smart contract-enabled blockchain system records
+model updates and anomaly scores to establish accountability. Experimental
+evaluations using the ToN-IoT and N-BaIoT datasets demonstrate the superior
+performance of our framework, achieving 97.3% accuracy while reducing
+communication overhead by 41% compared to baseline centralized methods. Our
+approach ensures privacy, scalability, and robustness-critical for secure
+industrial operations. The proposed FL-BCID system provides a promising
+solution for enhancing trust and privacy in modern IIoT security architectures.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2505.15156v1">Privacy-Preserving Socialized Recommendation based on Multi-View
+  Clustering in a Cloud Environment</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-05-21T06:21:21Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Cheng Guo, Jing Jia, Peng Wang, Jing Zhang</p>
+    <p><b>Summary:</b> Recommendation as a service has improved the quality of our lives and plays a
+significant role in variant aspects. However, the preference of users may
+reveal some sensitive information, so that the protection of privacy is
+required. In this paper, we propose a privacy-preserving, socialized,
+recommendation protocol that introduces information collected from online
+social networks to enhance the quality of the recommendation. The proposed
+scheme can calculate the similarity between users to determine their potential
+relationships and interests, and it also can protect the users' privacy from
+leaking to an untrusted third party. The security analysis and experimental
+results showed that our proposed scheme provides excellent performance and is
+feasible for real-world applications.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2505.14959v1">Privacy Preserving Conversion Modeling in Data Clean Room</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB"> 
+  <p><b>Published on:</b> 2025-05-20T22:38:50Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Kungang Li, Xiangyi Chen, Ling Leng, Jiajing Xu, Jiankai Sun, Behnam Rezaei</p>
+    <p><b>Summary:</b> In the realm of online advertising, accurately predicting the conversion rate
+(CVR) is crucial for enhancing advertising efficiency and user satisfaction.
+This paper addresses the challenge of CVR prediction while adhering to user
+privacy preferences and advertiser requirements. Traditional methods face
+obstacles such as the reluctance of advertisers to share sensitive conversion
+data and the limitations of model training in secure environments like data
+clean rooms. We propose a novel model training framework that enables
+collaborative model training without sharing sample-level gradients with the
+advertising platform. Our approach introduces several innovative components:
+(1) utilizing batch-level aggregated gradients instead of sample-level
+gradients to minimize privacy risks; (2) applying adapter-based
+parameter-efficient fine-tuning and gradient compression to reduce
+communication costs; and (3) employing de-biasing techniques to train the model
+under label differential privacy, thereby maintaining accuracy despite
+privacy-enhanced label perturbations. Our experimental results, conducted on
+industrial datasets, demonstrate that our method achieves competitive ROCAUC
+performance while significantly decreasing communication overhead and complying
+with both advertiser privacy requirements and user privacy choices. This
+framework establishes a new standard for privacy-preserving, high-performance
+CVR prediction in the digital advertising landscape.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2505.14797v1">Efficient Privacy-Preserving Cross-Silo Federated Learning with
+  Multi-Key Homomorphic Encryption</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-05-20T18:08:15Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Abdullah Al Omar, Xin Yang, Euijin Choo, Omid Ardakanian</p>
+    <p><b>Summary:</b> Federated Learning (FL) is susceptible to privacy attacks, such as data
+reconstruction attacks, in which a semi-honest server or a malicious client
+infers information about other clients' datasets from their model updates or
+gradients. To enhance the privacy of FL, recent studies combined Multi-Key
+Homomorphic Encryption (MKHE) and FL, making it possible to aggregate the
+encrypted model updates using different keys without having to decrypt them.
+Despite the privacy guarantees of MKHE, existing approaches are not well-suited
+for real-world deployment due to their high computation and communication
+overhead. We propose MASER, an efficient MKHE-based Privacy-Preserving FL
+framework that combines consensus-based model pruning and slicing techniques to
+reduce this overhead. Our experimental results show that MASER is 3.03 to 8.29
+times more efficient than existing MKHE-based FL approaches in terms of
+computation and communication overhead while maintaining comparable
+classification accuracy to standard FL algorithms. Compared to a vanilla FL
+algorithm, the overhead of MASER is only 1.48 to 5 times higher, striking a
+good balance between privacy, accuracy, and efficiency in both IID and non-IID
+settings.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2505.14585v1">Context Reasoner: Incentivizing Reasoning Capability for Contextualized
@@ -863,7 +869,7 @@ the MMLU and LegalBench benchmark, respectively.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2505.14507v1">Federated prediction for scalable and privacy-preserved knowledge-based
   planning in radiotherapy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
   <p><b>Published on:</b> 2025-05-20T15:35:49Z</p>
   <details>
     <summary>More Details</summary>
