@@ -539,95 +539,94 @@ protection.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.18411v1">Heavy-Tailed Privacy: The Symmetric alpha-Stable Privacy Mechanism</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B">
-  <p><b>Published on:</b> 2025-04-25T15:14:02Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Christopher C. Zawacki, Eyad H. Abed</p>
-    <p><b>Summary:</b> With the rapid growth of digital platforms, there is increasing apprehension
-about how personal data is collected, stored, and used by various entities.
-These concerns arise from the increasing frequency of data breaches,
-cyber-attacks, and misuse of personal information for targeted advertising and
-surveillance. To address these matters, Differential Privacy (DP) has emerged
-as a prominent tool for quantifying a digital system's level of protection. The
-Gaussian mechanism is commonly used because the Gaussian density is closed
-under convolution, and is a common method utilized when aggregating datasets.
-However, the Gaussian mechanism only satisfies an approximate form of
-Differential Privacy. In this work, we present and analyze of the Symmetric
-alpha-Stable (SaS) mechanism. We prove that the mechanism achieves pure
-differential privacy while remaining closed under convolution. Additionally, we
-study the nuanced relationship between the level of privacy achieved and the
-parameters of the density. Lastly, we compare the expected error introduced to
-dataset queries by the Gaussian and SaS mechanisms. From our analysis, we
-believe the SaS Mechanism is an appealing choice for privacy-focused
-applications.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.18078v1">Privacy-Preserving Personalized Federated Learning for Distributed
-  Photovoltaic Disaggregation under Statistical Heterogeneity</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-04-25T05:09:27Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Xiaolu Chen, Chenghao Huang, Yanru Zhang, Hao Wang</p>
-    <p><b>Summary:</b> The rapid expansion of distributed photovoltaic (PV) installations worldwide,
-many being behind-the-meter systems, has significantly challenged energy
-management and grid operations, as unobservable PV generation further
-complicates the supply-demand balance. Therefore, estimating this generation
-from net load, known as PV disaggregation, is critical. Given privacy concerns
-and the need for large training datasets, federated learning becomes a
-promising approach, but statistical heterogeneity, arising from geographical
-and behavioral variations among prosumers, poses new challenges to PV
-disaggregation. To overcome these challenges, a privacy-preserving distributed
-PV disaggregation framework is proposed using Personalized Federated Learning
-(PFL). The proposed method employs a two-level framework that combines local
-and global modeling. At the local level, a transformer-based PV disaggregation
-model is designed to generate solar irradiance embeddings for representing
-local PV conditions. A novel adaptive local aggregation mechanism is adopted to
-mitigate the impact of statistical heterogeneity on the local model, extracting
-a portion of global information that benefits the local model. At the global
-level, a central server aggregates information uploaded from multiple data
-centers, preserving privacy while enabling cross-center knowledge sharing.
-Experiments on real-world data demonstrate the effectiveness of this proposed
-framework, showing improved accuracy and robustness compared to benchmark
-methods.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.18032v1">Enhancing Privacy-Utility Trade-offs to Mitigate Memorization in
-  Diffusion Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2025-04-25T02:51:23Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Chen Chen, Daochang Liu, Mubarak Shah, Chang Xu</p>
-    <p><b>Summary:</b> Text-to-image diffusion models have demonstrated remarkable capabilities in
-creating images highly aligned with user prompts, yet their proclivity for
-memorizing training set images has sparked concerns about the originality of
-the generated images and privacy issues, potentially leading to legal
-complications for both model owners and users, particularly when the memorized
-images contain proprietary content. Although methods to mitigate these issues
-have been suggested, enhancing privacy often results in a significant decrease
-in the utility of the outputs, as indicated by text-alignment scores. To bridge
-the research gap, we introduce a novel method, PRSS, which refines the
-classifier-free guidance approach in diffusion models by integrating prompt
-re-anchoring (PR) to improve privacy and incorporating semantic prompt search
-(SS) to enhance utility. Extensive experiments across various privacy levels
-demonstrate that our approach consistently improves the privacy-utility
-trade-off, establishing a new state-of-the-art.</p>
-  </details>
-</div>
-
-
 
 <h2>2025-05</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2505.16954v1">Cracking Aegis: An Adversarial LLM-based Game for Raising Awareness of
+  Vulnerabilities in Privacy Protection</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2025-05-22T17:34:45Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jiaying Fu, Yiyang Lu, Zehua Yang, Fiona Nah, RAY LC</p>
+    <p><b>Summary:</b> Traditional methods for raising awareness of privacy protection often fail to
+engage users or provide hands-on insights into how privacy vulnerabilities are
+exploited. To address this, we incorporate an adversarial mechanic in the
+design of the dialogue-based serious game Cracking Aegis. Leveraging LLMs to
+simulate natural interactions, the game challenges players to impersonate
+characters and extract sensitive information from an AI agent, Aegis. A user
+study (n=22) revealed that players employed diverse deceptive linguistic
+strategies, including storytelling and emotional rapport, to manipulate Aegis.
+After playing, players reported connecting in-game scenarios with real-world
+privacy vulnerabilities, such as phishing and impersonation, and expressed
+intentions to strengthen privacy control, such as avoiding oversharing personal
+information with AI systems. This work highlights the potential of LLMs to
+simulate complex relational interactions in serious games, while demonstrating
+how an adversarial game strategy provides unique insights for designs for
+social good, particularly privacy protection.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2505.16371v1">Privacy-Aware Cyberterrorism Network Analysis using Graph Neural
+  Networks and Federated Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-05-22T08:26:09Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Anas Ali, Mubashar Husain, Peter Hans</p>
+    <p><b>Summary:</b> Cyberterrorism poses a formidable threat to digital infrastructures, with
+increasing reliance on encrypted, decentralized platforms that obscure threat
+actor activity. To address the challenge of analyzing such adversarial networks
+while preserving the privacy of distributed intelligence data, we propose a
+Privacy-Aware Federated Graph Neural Network (PA-FGNN) framework. PA-FGNN
+integrates graph attention networks, differential privacy, and homomorphic
+encryption into a robust federated learning pipeline tailored for
+cyberterrorism network analysis. Each client trains locally on sensitive graph
+data and exchanges encrypted, noise-perturbed model updates with a central
+aggregator, which performs secure aggregation and broadcasts global updates. We
+implement anomaly detection for flagging high-risk nodes and incorporate
+defenses against gradient poisoning. Experimental evaluations on simulated dark
+web and cyber-intelligence graphs demonstrate that PA-FGNN achieves over 91\%
+classification accuracy, maintains resilience under 20\% adversarial client
+behavior, and incurs less than 18\% communication overhead. Our results
+highlight that privacy-preserving GNNs can support large-scale cyber threat
+detection without compromising on utility, privacy, or robustness.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2505.16059v1">Monitoring in the Dark: Privacy-Preserving Runtime Verification of
+  Cyber-Physical Systems</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Logic in Computer Science-662E9B"> 
+  <p><b>Published on:</b> 2025-05-21T22:20:25Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Charles Koll, Preston Tan Hang, Mike Rosulek, Houssam Abbas</p>
+    <p><b>Summary:</b> In distributed Cyber-Physical Systems and Internet-of-Things applications,
+the nodes of the system send measurements to a monitor that checks whether
+these measurements satisfy given formal specifications. For instance in Urban
+Air Mobility, a local traffic authority will be monitoring drone traffic to
+evaluate its flow and detect emerging problematic patterns. Certain
+applications require both the specification and the measurements to be private
+-- i.e. known only to their owners. Examples include traffic monitoring,
+testing of integrated circuit designs, and medical monitoring by wearable or
+implanted devices. In this paper we propose a protocol that enables
+privacy-preserving robustness monitoring. By following our protocol, both
+system (e.g. drone) and monitor (e.g. traffic authority) only learn the
+robustness of the measured trace w.r.t. the specification. But the system
+learns nothing about the formula, and the monitor learns nothing about the
+signal monitored. We do this using garbled circuits, for specifications in
+Signal Temporal Logic interpreted over timed state sequences. We analyze the
+runtime and memory overhead of privacy preservation, the size of the circuits,
+and their practicality for three different usage scenarios: design testing,
+offline monitoring, and online monitoring of Cyber-Physical Systems.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2505.15721v1">Privacy-Preserving Conformal Prediction Under Local Differential Privacy</a></h3>
