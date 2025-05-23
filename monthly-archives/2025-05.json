@@ -2279,5 +2279,78 @@
       "cs.LG",
       "physics.med-ph"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.16954v1",
+    "title" : "Cracking Aegis: An Adversarial LLM-based Game for Raising Awareness of\n  Vulnerabilities in Privacy Protection",
+    "summary" : "Traditional methods for raising awareness of privacy protection often fail to\nengage users or provide hands-on insights into how privacy vulnerabilities are\nexploited. To address this, we incorporate an adversarial mechanic in the\ndesign of the dialogue-based serious game Cracking Aegis. Leveraging LLMs to\nsimulate natural interactions, the game challenges players to impersonate\ncharacters and extract sensitive information from an AI agent, Aegis. A user\nstudy (n=22) revealed that players employed diverse deceptive linguistic\nstrategies, including storytelling and emotional rapport, to manipulate Aegis.\nAfter playing, players reported connecting in-game scenarios with real-world\nprivacy vulnerabilities, such as phishing and impersonation, and expressed\nintentions to strengthen privacy control, such as avoiding oversharing personal\ninformation with AI systems. This work highlights the potential of LLMs to\nsimulate complex relational interactions in serious games, while demonstrating\nhow an adversarial game strategy provides unique insights for designs for\nsocial good, particularly privacy protection.",
+    "updated" : "2025-05-22T17:34:45Z",
+    "published" : "2025-05-22T17:34:45Z",
+    "authors" : [
+      {
+        "name" : "Jiaying Fu"
+      },
+      {
+        "name" : "Yiyang Lu"
+      },
+      {
+        "name" : "Zehua Yang"
+      },
+      {
+        "name" : "Fiona Nah"
+      },
+      {
+        "name" : "RAY LC"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.16371v1",
+    "title" : "Privacy-Aware Cyberterrorism Network Analysis using Graph Neural\n  Networks and Federated Learning",
+    "summary" : "Cyberterrorism poses a formidable threat to digital infrastructures, with\nincreasing reliance on encrypted, decentralized platforms that obscure threat\nactor activity. To address the challenge of analyzing such adversarial networks\nwhile preserving the privacy of distributed intelligence data, we propose a\nPrivacy-Aware Federated Graph Neural Network (PA-FGNN) framework. PA-FGNN\nintegrates graph attention networks, differential privacy, and homomorphic\nencryption into a robust federated learning pipeline tailored for\ncyberterrorism network analysis. Each client trains locally on sensitive graph\ndata and exchanges encrypted, noise-perturbed model updates with a central\naggregator, which performs secure aggregation and broadcasts global updates. We\nimplement anomaly detection for flagging high-risk nodes and incorporate\ndefenses against gradient poisoning. Experimental evaluations on simulated dark\nweb and cyber-intelligence graphs demonstrate that PA-FGNN achieves over 91\\%\nclassification accuracy, maintains resilience under 20\\% adversarial client\nbehavior, and incurs less than 18\\% communication overhead. Our results\nhighlight that privacy-preserving GNNs can support large-scale cyber threat\ndetection without compromising on utility, privacy, or robustness.",
+    "updated" : "2025-05-22T08:26:09Z",
+    "published" : "2025-05-22T08:26:09Z",
+    "authors" : [
+      {
+        "name" : "Anas Ali"
+      },
+      {
+        "name" : "Mubashar Husain"
+      },
+      {
+        "name" : "Peter Hans"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.16059v1",
+    "title" : "Monitoring in the Dark: Privacy-Preserving Runtime Verification of\n  Cyber-Physical Systems",
+    "summary" : "In distributed Cyber-Physical Systems and Internet-of-Things applications,\nthe nodes of the system send measurements to a monitor that checks whether\nthese measurements satisfy given formal specifications. For instance in Urban\nAir Mobility, a local traffic authority will be monitoring drone traffic to\nevaluate its flow and detect emerging problematic patterns. Certain\napplications require both the specification and the measurements to be private\n-- i.e. known only to their owners. Examples include traffic monitoring,\ntesting of integrated circuit designs, and medical monitoring by wearable or\nimplanted devices. In this paper we propose a protocol that enables\nprivacy-preserving robustness monitoring. By following our protocol, both\nsystem (e.g. drone) and monitor (e.g. traffic authority) only learn the\nrobustness of the measured trace w.r.t. the specification. But the system\nlearns nothing about the formula, and the monitor learns nothing about the\nsignal monitored. We do this using garbled circuits, for specifications in\nSignal Temporal Logic interpreted over timed state sequences. We analyze the\nruntime and memory overhead of privacy preservation, the size of the circuits,\nand their practicality for three different usage scenarios: design testing,\noffline monitoring, and online monitoring of Cyber-Physical Systems.",
+    "updated" : "2025-05-21T22:20:25Z",
+    "published" : "2025-05-21T22:20:25Z",
+    "authors" : [
+      {
+        "name" : "Charles Koll"
+      },
+      {
+        "name" : "Preston Tan Hang"
+      },
+      {
+        "name" : "Mike Rosulek"
+      },
+      {
+        "name" : "Houssam Abbas"
+      }
+    ],
+    "categories" : [
+      "cs.LO",
+      "B.5.0; I.2.4"
+    ]
   }
 ]
