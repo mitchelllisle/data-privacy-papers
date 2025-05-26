@@ -504,41 +504,6 @@ resource-efficient verifiable deep learning.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.19101v1">Privacy-Preserving Federated Embedding Learning for Localized
-  Retrieval-Augmented Generation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2025-04-27T04:26:02Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Qianren Mao, Qili Zhang, Hanwen Hao, Zhentao Han, Runhua Xu, Weifeng Jiang, Qi Hu, Zhijun Chen, Tyler Zhou, Bo Li, Yangqiu Song, Jin Dong, Jianxin Li, Philip S. Yu</p>
-    <p><b>Summary:</b> Retrieval-Augmented Generation (RAG) has recently emerged as a promising
-solution for enhancing the accuracy and credibility of Large Language Models
-(LLMs), particularly in Question & Answer tasks. This is achieved by
-incorporating proprietary and private data from integrated databases. However,
-private RAG systems face significant challenges due to the scarcity of private
-domain data and critical data privacy issues. These obstacles impede the
-deployment of private RAG systems, as developing privacy-preserving RAG systems
-requires a delicate balance between data security and data availability. To
-address these challenges, we regard federated learning (FL) as a highly
-promising technology for privacy-preserving RAG services. We propose a novel
-framework called Federated Retrieval-Augmented Generation (FedE4RAG). This
-framework facilitates collaborative training of client-side RAG retrieval
-models. The parameters of these models are aggregated and distributed on a
-central-server, ensuring data privacy without direct sharing of raw data. In
-FedE4RAG, knowledge distillation is employed for communication between the
-server and client models. This technique improves the generalization of local
-RAG retrievers during the federated learning process. Additionally, we apply
-homomorphic encryption within federated learning to safeguard model parameters
-and mitigate concerns related to data leakage. Extensive experiments conducted
-on the real-world dataset have validated the effectiveness of FedE4RAG. The
-results demonstrate that our proposed framework can markedly enhance the
-performance of private RAG systems while maintaining robust data privacy
-protection.</p>
-  </details>
-</div>
-
-
 
 <h2>2025-05</h2>
 
@@ -594,6 +559,33 @@ classification accuracy, maintains resilience under 20\% adversarial client
 behavior, and incurs less than 18\% communication overhead. Our results
 highlight that privacy-preserving GNNs can support large-scale cyber threat
 detection without compromising on utility, privacy, or robustness.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2505.17145v1">LLM Access Shield: Domain-Specific LLM Framework for Privacy Policy
+  Compliance</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-05-22T07:30:37Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yu Wang, Cailing Cai, Zhihua Xiao, Peifung E. Lam</p>
+    <p><b>Summary:</b> Large language models (LLMs) are increasingly applied in fields such as
+finance, education, and governance due to their ability to generate human-like
+text and adapt to specialized tasks. However, their widespread adoption raises
+critical concerns about data privacy and security, including the risk of
+sensitive data exposure.
+  In this paper, we propose a security framework to enforce policy compliance
+and mitigate risks in LLM interactions. Our approach introduces three key
+innovations: (i) LLM-based policy enforcement: a customizable mechanism that
+enhances domain-specific detection of sensitive data. (ii) Dynamic policy
+customization: real-time policy adaptation and enforcement during user-LLM
+interactions to ensure compliance with evolving security requirements. (iii)
+Sensitive data anonymization: a format-preserving encryption technique that
+protects sensitive information while maintaining contextual integrity.
+Experimental results demonstrate that our framework effectively mitigates
+security risks while preserving the functional accuracy of LLM-driven tasks.</p>
   </details>
 </div>
 
