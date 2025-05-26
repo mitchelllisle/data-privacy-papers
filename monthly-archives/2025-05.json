@@ -2352,5 +2352,30 @@
       "cs.LO",
       "B.5.0; I.2.4"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.17145v1",
+    "title" : "LLM Access Shield: Domain-Specific LLM Framework for Privacy Policy\n  Compliance",
+    "summary" : "Large language models (LLMs) are increasingly applied in fields such as\nfinance, education, and governance due to their ability to generate human-like\ntext and adapt to specialized tasks. However, their widespread adoption raises\ncritical concerns about data privacy and security, including the risk of\nsensitive data exposure.\n  In this paper, we propose a security framework to enforce policy compliance\nand mitigate risks in LLM interactions. Our approach introduces three key\ninnovations: (i) LLM-based policy enforcement: a customizable mechanism that\nenhances domain-specific detection of sensitive data. (ii) Dynamic policy\ncustomization: real-time policy adaptation and enforcement during user-LLM\ninteractions to ensure compliance with evolving security requirements. (iii)\nSensitive data anonymization: a format-preserving encryption technique that\nprotects sensitive information while maintaining contextual integrity.\nExperimental results demonstrate that our framework effectively mitigates\nsecurity risks while preserving the functional accuracy of LLM-driven tasks.",
+    "updated" : "2025-05-22T07:30:37Z",
+    "published" : "2025-05-22T07:30:37Z",
+    "authors" : [
+      {
+        "name" : "Yu Wang"
+      },
+      {
+        "name" : "Cailing Cai"
+      },
+      {
+        "name" : "Zhihua Xiao"
+      },
+      {
+        "name" : "Peifung E. Lam"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
   }
 ]
