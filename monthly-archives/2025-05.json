@@ -2377,5 +2377,310 @@
       "cs.CR",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.20118v1",
+    "title" : "TrojanStego: Your Language Model Can Secretly Be A Steganographic\n  Privacy Leaking Agent",
+    "summary" : "As large language models (LLMs) become integrated into sensitive workflows,\nconcerns grow over their potential to leak confidential information. We propose\nTrojanStego, a novel threat model in which an adversary fine-tunes an LLM to\nembed sensitive context information into natural-looking outputs via linguistic\nsteganography, without requiring explicit control over inference inputs. We\nintroduce a taxonomy outlining risk factors for compromised LLMs, and use it to\nevaluate the risk profile of the threat. To implement TrojanStego, we propose a\npractical encoding scheme based on vocabulary partitioning learnable by LLMs\nvia fine-tuning. Experimental results show that compromised models reliably\ntransmit 32-bit secrets with 87% accuracy on held-out prompts, reaching over\n97% accuracy using majority voting across three generations. Further, they\nmaintain high utility, can evade human detection, and preserve coherence. These\nresults highlight a new class of LLM data exfiltration attacks that are\npassive, covert, practical, and dangerous.",
+    "updated" : "2025-05-26T15:20:51Z",
+    "published" : "2025-05-26T15:20:51Z",
+    "authors" : [
+      {
+        "name" : "Dominik Meier"
+      },
+      {
+        "name" : "Jan Philip Wahle"
+      },
+      {
+        "name" : "Paul Röttger"
+      },
+      {
+        "name" : "Terry Ruas"
+      },
+      {
+        "name" : "Bela Gipp"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.20095v1",
+    "title" : "Spurious Privacy Leakage in Neural Networks",
+    "summary" : "Neural networks are vulnerable to privacy attacks aimed at stealing sensitive\ndata. The risks can be amplified in a real-world scenario, particularly when\nmodels are trained on limited and biased data. In this work, we investigate the\nimpact of spurious correlation bias on privacy vulnerability. We introduce\n\\emph{spurious privacy leakage}, a phenomenon where spurious groups are\nsignificantly more vulnerable to privacy attacks than non-spurious groups. We\nfurther show that group privacy disparity increases in tasks with simpler\nobjectives (e.g. fewer classes) due to the persistence of spurious features.\nSurprisingly, we find that reducing spurious correlation using spurious robust\nmethods does not mitigate spurious privacy leakage. This leads us to introduce\na perspective on privacy disparity based on memorization, where mitigating\nspurious correlation does not mitigate the memorization of spurious data, and\ntherefore, neither the privacy level. Lastly, we compare the privacy of\ndifferent model architectures trained with spurious data, demonstrating that,\ncontrary to prior works, architectural choice can affect privacy outcomes.",
+    "updated" : "2025-05-26T15:04:39Z",
+    "published" : "2025-05-26T15:04:39Z",
+    "authors" : [
+      {
+        "name" : "Chenxiang Zhang"
+      },
+      {
+        "name" : "Jun Pang"
+      },
+      {
+        "name" : "Sjouke Mauw"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.19969v1",
+    "title" : "Differential Privacy Analysis of Decentralized Gossip Averaging under\n  Varying Threat Models",
+    "summary" : "Fully decentralized training of machine learning models offers significant\nadvantages in scalability, robustness, and fault tolerance. However, achieving\ndifferential privacy (DP) in such settings is challenging due to the absence of\na central aggregator and varying trust assumptions among nodes. In this work,\nwe present a novel privacy analysis of decentralized gossip-based averaging\nalgorithms with additive node-level noise, both with and without secure\nsummation over each node's direct neighbors. Our main contribution is a new\nanalytical framework based on a linear systems formulation that accurately\ncharacterizes privacy leakage across these scenarios. This framework\nsignificantly improves upon prior analyses, for example, reducing the R\\'enyi\nDP parameter growth from $O(T^2)$ to $O(T)$, where $T$ is the number of\ntraining rounds. We validate our analysis with numerical results demonstrating\nsuperior DP bounds compared to existing approaches. We further illustrate our\nanalysis with a logistic regression experiment on MNIST image classification in\na fully decentralized setting, demonstrating utility comparable to central\naggregation methods.",
+    "updated" : "2025-05-26T13:31:43Z",
+    "published" : "2025-05-26T13:31:43Z",
+    "authors" : [
+      {
+        "name" : "Antti Koskela"
+      },
+      {
+        "name" : "Tejas Kulkarni"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.19951v1",
+    "title" : "Novel Loss-Enhanced Universal Adversarial Patches for Sustainable\n  Speaker Privacy",
+    "summary" : "Deep learning voice models are commonly used nowadays, but the safety\nprocessing of personal data, such as human identity and speech content, remains\nsuspicious. To prevent malicious user identification, speaker anonymization\nmethods were proposed. Current methods, particularly based on universal\nadversarial patch (UAP) applications, have drawbacks such as significant\ndegradation of audio quality, decreased speech recognition quality, low\ntransferability across different voice biometrics models, and performance\ndependence on the input audio length. To mitigate these drawbacks, in this\nwork, we introduce and leverage the novel Exponential Total Variance (TV) loss\nfunction and provide experimental evidence that it positively affects UAP\nstrength and imperceptibility. Moreover, we present a novel scalable UAP\ninsertion procedure and demonstrate its uniformly high performance for various\naudio lengths.",
+    "updated" : "2025-05-26T13:16:01Z",
+    "published" : "2025-05-26T13:16:01Z",
+    "authors" : [
+      {
+        "name" : "Elvir Karimov"
+      },
+      {
+        "name" : "Alexander Varlamov"
+      },
+      {
+        "name" : "Danil Ivanov"
+      },
+      {
+        "name" : "Dmitrii Korzh"
+      },
+      {
+        "name" : "Oleg Y. Rogov"
+      }
+    ],
+    "categories" : [
+      "cs.SD",
+      "cs.AI",
+      "cs.CR",
+      "eess.AS"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.19823v1",
+    "title" : "LAPA-based Dynamic Privacy Optimization for Wireless Federated Learning\n  in Heterogeneous Environments",
+    "summary" : "Federated Learning (FL) is a distributed machine learning paradigm based on\nprotecting data privacy of devices, which however, can still be broken by\ngradient leakage attack via parameter inversion techniques. Differential\nprivacy (DP) technology reduces the risk of private data leakage by adding\nartificial noise to the gradients, but detrimental to the FL utility at the\nsame time, especially in the scenario where the data is Non-Independent\nIdentically Distributed (Non-IID). Based on the impact of heterogeneous data on\naggregation performance, this paper proposes a Lightweight Adaptive Privacy\nAllocation (LAPA) strategy, which assigns personalized privacy budgets to\ndevices in each aggregation round without transmitting any additional\ninformation beyond gradients, ensuring both privacy protection and aggregation\nefficiency. Furthermore, the Deep Deterministic Policy Gradient (DDPG)\nalgorithm is employed to optimize the transmission power, in order to determine\nthe optimal timing at which the adaptively attenuated artificial noise aligns\nwith the communication noise, enabling an effective balance between DP and\nsystem utility. Finally, a reliable aggregation strategy is designed by\nintegrating communication quality and data distribution characteristics, which\nimproves aggregation performance while preserving privacy. Experimental results\ndemonstrate that the personalized noise allocation and dynamic optimization\nstrategy based on LAPA proposed in this paper enhances convergence performance\nwhile satisfying the privacy requirements of FL.",
+    "updated" : "2025-05-26T11:00:31Z",
+    "published" : "2025-05-26T11:00:31Z",
+    "authors" : [
+      {
+        "name" : "Pengcheng Sun"
+      },
+      {
+        "name" : "Erwu Liu"
+      },
+      {
+        "name" : "Wei Ni"
+      },
+      {
+        "name" : "Rui Wang"
+      },
+      {
+        "name" : "Yuanzhe Geng"
+      },
+      {
+        "name" : "Lijuan Lai"
+      },
+      {
+        "name" : "Abbas Jamalipour"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.18870v1",
+    "title" : "Understanding the Relationship Between Personal Data Privacy Literacy\n  and Data Privacy Information Sharing by University Students",
+    "summary" : "With constant threats to the safety of personal data in the United States,\nprivacy literacy has become an increasingly important competency among\nuniversity students, one that ties intimately to the information sharing\nbehavior of these students. This survey based study examines how university\nstudents in the United States perceive personal data privacy and how their\nprivacy literacy influences their understanding and behaviors. Students\nresponses to a privacy literacy scale were categorized into high and low\nprivacy literacy groups, revealing that high literacy individuals demonstrate a\nbroader range of privacy practices, including multi factor authentication, VPN\nusage, and phishing awareness, whereas low literacy individuals rely on more\nbasic security measures. Statistical analyses suggest that high literacy\nrespondents display greater diversity in recommendations and engagement in\nprivacy discussions. These findings suggest the need for enhanced educational\ninitiatives to improve data privacy awareness at the university level to create\na better cyber safe population.",
+    "updated" : "2025-05-24T21:14:53Z",
+    "published" : "2025-05-24T21:14:53Z",
+    "authors" : [
+      {
+        "name" : "Brady D. Lund"
+      },
+      {
+        "name" : "Bryan Anderson"
+      },
+      {
+        "name" : "Ana Roeschley"
+      },
+      {
+        "name" : "Gahangir Hossain"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.18786v1",
+    "title" : "Leveraging Per-Instance Privacy for Machine Unlearning",
+    "summary" : "We present a principled, per-instance approach to quantifying the difficulty\nof unlearning via fine-tuning. We begin by sharpening an analysis of noisy\ngradient descent for unlearning (Chien et al., 2024), obtaining a better\nutility-unlearning tradeoff by replacing worst-case privacy loss bounds with\nper-instance privacy losses (Thudi et al., 2024), each of which bounds the\n(Renyi) divergence to retraining without an individual data point. To\ndemonstrate the practical applicability of our theory, we present empirical\nresults showing that our theoretical predictions are born out both for\nStochastic Gradient Langevin Dynamics (SGLD) as well as for standard\nfine-tuning without explicit noise. We further demonstrate that per-instance\nprivacy losses correlate well with several existing data difficulty metrics,\nwhile also identifying harder groups of data points, and introduce novel\nevaluation methods based on loss barriers. All together, our findings provide a\nfoundation for more efficient and adaptive unlearning strategies tailored to\nthe unique properties of individual data points.",
+    "updated" : "2025-05-24T16:55:57Z",
+    "published" : "2025-05-24T16:55:57Z",
+    "authors" : [
+      {
+        "name" : "Nazanin Mohammadi Sepahvand"
+      },
+      {
+        "name" : "Anvith Thudi"
+      },
+      {
+        "name" : "Berivan Isik"
+      },
+      {
+        "name" : "Ashmita Bhattacharyya"
+      },
+      {
+        "name" : "Nicolas Papernot"
+      },
+      {
+        "name" : "Eleni Triantafillou"
+      },
+      {
+        "name" : "Daniel M. Roy"
+      },
+      {
+        "name" : "Gintare Karolina Dziugaite"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.18386v1",
+    "title" : "Modeling interdependent privacy threats",
+    "summary" : "The rise of online social networks, user-gene-rated content, and third-party\napps made data sharing an inevitable trend, driven by both user behavior and\nthe commercial value of personal information. As service providers amass vast\namounts of data, safeguarding individual privacy has become increasingly\nchallenging. Privacy threat modeling has emerged as a critical tool for\nidentifying and mitigating risks, with methodologies such as LINDDUN, xCOMPASS,\nand PANOPTIC offering systematic approaches. However, these frameworks\nprimarily focus on threats arising from interactions between a single user and\nsystem components, often overlooking interdependent privacy (IDP); the\nphenomenon where one user's actions affect the privacy of other users and even\nnon-users. IDP risks are particularly pronounced in third-party applications,\nwhere platform permissions, APIs, and user behavior can lead to unintended and\nunconsented data sharing, such as in the Cambridge Analytica case. We argue\nthat existing threat modeling approaches are limited in exposing IDP-related\nthreats, potentially underestimating privacy risks. To bridge this gap, we\npropose a specialized methodology that explicitly focuses on interdependent\nprivacy. Our contributions are threefold: (i) we identify IDP-specific\nchallenges and limitations in current threat modeling frameworks, (ii) we\ncreate IDPA, a threat modeling approach tailored to IDP threats, and (iii) we\nvalidate our approach through a case study on WeChat. We believe that IDPA can\noperate effectively on systems other than third-party apps and may motivate\nfurther research on specialized threat modeling.",
+    "updated" : "2025-05-23T21:22:49Z",
+    "published" : "2025-05-23T21:22:49Z",
+    "authors" : [
+      {
+        "name" : "Shuaishuai Liu"
+      },
+      {
+        "name" : "Gergely Biczók"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.18242v1",
+    "title" : "Privacy-Preserving Bathroom Monitoring for Elderly Emergencies Using PIR\n  and LiDAR Sensors",
+    "summary" : "In-home elderly monitoring requires systems that can detect emergency events\n- such as falls or prolonged inactivity - while preserving privacy and\nrequiring no user input. These systems must be embedded into the surrounding\nenvironment, capable of capturing activity, and responding promptly. This paper\npresents a low-cost, privacy-preserving solution using Passive Infrared (PIR)\nand Light Detection and Ranging (LiDAR) sensors to track entries, sitting,\nexits, and emergency scenarios within a home bathroom setting. We developed and\nevaluated a rule-based detection system through five real-world experiments\nsimulating elderly behavior. Annotated time-series graphs demonstrate the\nsystem's ability to detect dangerous states, such as motionless collapses,\nwhile maintaining privacy through non-visual sensing.",
+    "updated" : "2025-05-23T15:49:43Z",
+    "published" : "2025-05-23T15:49:43Z",
+    "authors" : [
+      {
+        "name" : "Youssouf Sidibé"
+      },
+      {
+        "name" : "Julia Gersey"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.07872v2",
+    "title" : "Revenue Optimization in Video Caching Networks with Privacy-Preserving\n  Demand Predictions",
+    "summary" : "Performance of video streaming, which accounts for most of the traffic in\nwireless communication, can be significantly improved by caching popular videos\nat the wireless edge. Determining the cache content that optimizes performance\n(defined via a revenue function) is thus an important task, and prediction of\nthe future demands based on past history can make this process much more\nefficient. However, since practical video caching networks involve various\nparties (e.g., users, isp, and csp) that do not wish to reveal information such\nas past history to each other, privacy-preserving solutions are required.\nMotivated by this, we propose a proactive caching method based on users'\nprivacy-preserving multi-slot future demand predictions -- obtained from a\ntrained Transformer -- to optimize revenue. Specifically, we first use a\nprivacy-preserving fl algorithm to train a Transformer to predict multi-slot\nfuture demands of the users. However, prediction accuracy is not perfect and\ndecreases the farther into the future the prediction is done. We model the\nimpact of prediction errors invoking the file popularities, based on which we\nformulate a long-term system revenue optimization to make the cache placement\ndecisions. As the formulated problem is NP-hard, we use a greedy algorithm to\nefficiently obtain an approximate solution. Simulation results validate that\n(i) the fl solution achieves results close to the centralized\n(non-privacy-preserving) solution and (ii) optimization of revenue may provide\ndifferent solutions than the classical chr criterion.",
+    "updated" : "2025-05-23T20:44:40Z",
+    "published" : "2025-05-09T21:05:20Z",
+    "authors" : [
+      {
+        "name" : "Yijing Zhang"
+      },
+      {
+        "name" : "Ferdous Pervej"
+      },
+      {
+        "name" : "Andreas F. Molisch"
+      }
+    ],
+    "categories" : [
+      "cs.NI",
+      "eess.SP"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.05130v2",
+    "title" : "CacheFL: Privacy-Preserving and Efficient Federated Cache Model\n  Fine-Tuning for Vision-Language Models",
+    "summary" : "Large pre-trained Vision-Language Models (VLMs), such as Contrastive\nLanguage-Image Pre-training (CLIP), have exhibited remarkable zero-shot\nperformance across various image classification tasks. Fine-tuning these models\non domain-specific datasets further enhances their effectiveness for downstream\napplications. However, fine-tuning in cloud environments raises significant\nconcerns regarding data security and privacy. Federated Learning (FL) offers a\ndecentralized solution by enabling model training across local clients without\ncentralizing sensitive data, but the high communication and computation costs\nof transmitting full pre-trained models during training limit its scalability.\nAdditionally, non-Independent and Identically Distributed (non-IID) data across\nlocal clients can negatively impact model convergence and performance. To\naddress these challenges, we propose CacheFL, a novel federated learning method\nthat replaces traditional full model fine-tuning with lightweight cache model\nfine-tuning. The cache model is initialized using a class-balanced dataset\ngenerated by a generative pre-trained model, effectively mitigating the impact\nof non-IID data. This cache model is then distributed to local clients for\nfine-tuning, and the updated parameters from each client are aggregated on the\nserver and redistributed. With the updated cache model, the classification\nperformance of CLIP is improved after just a few epochs. By limiting the\ntraining and communication to the cache model, CacheFL significantly reduces\nresource demands while ensuring data privacy and security. Extensive\nexperiments conducted on ImageNet and 10 additional datasets demonstrate that\nCacheFL outperforms traditional approaches in terms of classification accuracy,\nresource efficiency, and privacy preservation.",
+    "updated" : "2025-05-24T09:33:35Z",
+    "published" : "2025-05-08T11:07:35Z",
+    "authors" : [
+      {
+        "name" : "Mengjun Yi"
+      },
+      {
+        "name" : "Hanwen Zhang"
+      },
+      {
+        "name" : "Hui Dou"
+      },
+      {
+        "name" : "Jian Zhao"
+      },
+      {
+        "name" : "Furao Shen"
+      }
+    ],
+    "categories" : [
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.03519v3",
+    "title" : "Revisiting Model Inversion Evaluation: From Misleading Standards to\n  Reliable Privacy Assessment",
+    "summary" : "Model Inversion (MI) attacks aim to reconstruct information from private\ntraining data by exploiting access to machine learning models T. To evaluate\nsuch attacks, the standard evaluation framework for such attacks relies on an\nevaluation model E, trained under the same task design as T. This framework has\nbecome the de facto standard for assessing progress in MI research, used across\nnearly all recent MI attacks and defenses without question. In this paper, we\npresent the first in-depth study of this MI evaluation framework. In\nparticular, we identify a critical issue of this standard MI evaluation\nframework: Type-I adversarial examples. These are reconstructions that do not\ncapture the visual features of private training data, yet are still deemed\nsuccessful by the target model T and ultimately transferable to E. Such false\npositives undermine the reliability of the standard MI evaluation framework. To\naddress this issue, we introduce a new MI evaluation framework that replaces\nthe evaluation model E with advanced Multimodal Large Language Models (MLLMs).\nBy leveraging their general-purpose visual understanding, our MLLM-based\nframework does not depend on training of shared task design as in T, thus\nreducing Type-I transferability and providing more faithful assessments of\nreconstruction success. Using our MLLM-based evaluation framework, we\nreevaluate 26 diverse MI attack setups and empirically reveal consistently high\nfalse positive rates under the standard evaluation framework. Importantly, we\ndemonstrate that many state-of-the-art (SOTA) MI methods report inflated attack\naccuracy, indicating that actual privacy leakage is significantly lower than\npreviously believed. By uncovering this critical issue and proposing a robust\nsolution, our work enables a reassessment of progress in MI research and sets a\nnew standard for reliable and robust evaluation.",
+    "updated" : "2025-05-24T13:42:50Z",
+    "published" : "2025-05-06T13:32:12Z",
+    "authors" : [
+      {
+        "name" : "Sy-Tuyen Ho"
+      },
+      {
+        "name" : "Koh Jun Hao"
+      },
+      {
+        "name" : "Ngoc-Bao Nguyen"
+      },
+      {
+        "name" : "Alexander Binder"
+      },
+      {
+        "name" : "Ngai-Man Cheung"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
   }
 ]
