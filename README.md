@@ -32,150 +32,168 @@ a reduction of up to 5000x in communication costs and the verifier's overhead.</
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.21646v1">Diffusion-based Adversarial Identity Manipulation for Facial Privacy
-  Protection</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2025-04-30T13:49:59Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Liqin Wang, Qianyue Hu, Wei Lu, Xiangyang Luo</p>
-    <p><b>Summary:</b> The success of face recognition (FR) systems has led to serious privacy
-concerns due to potential unauthorized surveillance and user tracking on social
-networks. Existing methods for enhancing privacy fail to generate natural face
-images that can protect facial privacy. In this paper, we propose
-diffusion-based adversarial identity manipulation (DiffAIM) to generate natural
-and highly transferable adversarial faces against malicious FR systems. To be
-specific, we manipulate facial identity within the low-dimensional latent space
-of a diffusion model. This involves iteratively injecting gradient-based
-adversarial identity guidance during the reverse diffusion process,
-progressively steering the generation toward the desired adversarial faces. The
-guidance is optimized for identity convergence towards a target while promoting
-semantic divergence from the source, facilitating effective impersonation while
-maintaining visual naturalness. We further incorporate structure-preserving
-regularization to preserve facial structure consistency during manipulation.
-Extensive experiments on both face verification and identification tasks
-demonstrate that compared with the state-of-the-art, DiffAIM achieves stronger
-black-box attack transferability while maintaining superior visual quality. We
-also demonstrate the effectiveness of the proposed approach for commercial FR
-APIs, including Face++ and Aliyun.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.21413v1">An Inversion Theorem for Buffered Linear Toeplitz (BLT) Matrices and
-  Applications to Streaming Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
-  <p><b>Published on:</b> 2025-04-30T08:14:09Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> H. Brendan McMahan, Krishna Pillutla</p>
-    <p><b>Summary:</b> Buffered Linear Toeplitz (BLT) matrices are a family of parameterized
-lower-triangular matrices that play an important role in streaming differential
-privacy with correlated noise. Our main result is a BLT inversion theorem: the
-inverse of a BLT matrix is itself a BLT matrix with different parameters. We
-also present an efficient and differentiable $O(d^3)$ algorithm to compute the
-parameters of the inverse BLT matrix, where $d$ is the degree of the original
-BLT (typically $d < 10$). Our characterization enables direct optimization of
-BLT parameters for privacy mechanisms through automatic differentiation.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.21297v1">Participatory AI, Public Sector AI, Differential Privacy, Conversational
-  Interfaces, Explainable AI, Citizen Engagement in AI</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E"> 
-  <p><b>Published on:</b> 2025-04-30T04:10:50Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Wenjun Yang, Eyhab Al-Masri</p>
-    <p><b>Summary:</b> This paper introduces a conversational interface system that enables
-participatory design of differentially private AI systems in public sector
-applications. Addressing the challenge of balancing mathematical privacy
-guarantees with democratic accountability, we propose three key contributions:
-(1) an adaptive $\epsilon$-selection protocol leveraging TOPSIS multi-criteria
-decision analysis to align citizen preferences with differential privacy (DP)
-parameters, (2) an explainable noise-injection framework featuring real-time
-Mean Absolute Error (MAE) visualizations and GPT-4-powered impact analysis, and
-(3) an integrated legal-compliance mechanism that dynamically modulates privacy
-budgets based on evolving regulatory constraints. Our results advance
-participatory AI practices by demonstrating how conversational interfaces can
-enhance public engagement in algorithmic privacy mechanisms, ensuring that
-privacy-preserving AI in public sector governance remains both mathematically
-robust and democratically accountable.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.21182v1">Federated One-Shot Learning with Data Privacy and Objective-Hiding</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">  
-  <p><b>Published on:</b> 2025-04-29T21:25:34Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Maximilian Egger, Rüdiger Urbanke, Rawad Bitar</p>
-    <p><b>Summary:</b> Privacy in federated learning is crucial, encompassing two key aspects:
-safeguarding the privacy of clients' data and maintaining the privacy of the
-federator's objective from the clients. While the first aspect has been
-extensively studied, the second has received much less attention.
-  We present a novel approach that addresses both concerns simultaneously,
-drawing inspiration from techniques in knowledge distillation and private
-information retrieval to provide strong information-theoretic privacy
-guarantees.
-  Traditional private function computation methods could be used here; however,
-they are typically limited to linear or polynomial functions. To overcome these
-constraints, our approach unfolds in three stages. In stage 0, clients perform
-the necessary computations locally. In stage 1, these results are shared among
-the clients, and in stage 2, the federator retrieves its desired objective
-without compromising the privacy of the clients' data. The crux of the method
-is a carefully designed protocol that combines secret-sharing-based multi-party
-computation and a graph-based private information retrieval scheme. We show
-that our method outperforms existing tools from the literature when properly
-adapted to this setting.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.20941v1">Conformal-DP: Differential Privacy on Riemannian Manifolds via Conformal
-  Transformation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">  
-  <p><b>Published on:</b> 2025-04-29T17:05:55Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Peilin He, Liou Tang, M. Amin Rahimian, James Joshi</p>
-    <p><b>Summary:</b> Differential Privacy (DP) has been established as a safeguard for private
-data sharing by adding perturbations to information release. Prior research on
-DP has extended beyond data in the flat Euclidean space and addressed data on
-curved manifolds, e.g., diffusion tensor MRI, social networks, or organ shape
-analysis, by adding perturbations along geodesic distances. However, existing
-manifold-aware DP methods rely on the assumption that samples are uniformly
-distributed across the manifold. In reality, data densities vary, leading to a
-biased noise imbalance across manifold regions, weakening the privacy-utility
-trade-offs. To address this gap, we propose a novel mechanism: Conformal-DP,
-utilizing conformal transformations on the Riemannian manifold to equalize
-local sample density and to redefine geodesic distances accordingly while
-preserving the intrinsic geometry of the manifold. Our theoretical analysis
-yields two main results. First, we prove that the conformal factor computed
-from local kernel-density estimates is explicitly data-density-aware; Second,
-under the conformal metric, the mechanism satisfies $ \varepsilon
-$-differential privacy on any complete Riemannian manifold and admits a
-closed-form upper bound on the expected geodesic error that depends only on the
-maximal density ratio, not on global curvatureof the manifold. Our experimental
-results validate that the mechanism achieves high utility while providing the $
-\varepsilon $-DP guarantee for both homogeneous and especially heterogeneous
-manifold data.</p>
-  </details>
-</div>
-
-
 
 <h2>2025-05</h2>
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.20118v1">TrojanStego: Your Language Model Can Secretly Be A Steganographic
+  <h3><a href="http://arxiv.org/abs/2505.21008v1">A Hitchhiker's Guide to Privacy-Preserving Cryptocurrencies: A Survey on
+  Anonymity, Confidentiality, and Auditability</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
+  <p><b>Published on:</b> 2025-05-27T10:42:28Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Matteo Nardelli, Francesco De Sclavis, Michela Iezzi</p>
+    <p><b>Summary:</b> Cryptocurrencies and central bank digital currencies (CBDCs) are reshaping
+the monetary landscape, offering transparency and efficiency while raising
+critical concerns about user privacy and regulatory compliance. This survey
+provides a comprehensive and technically grounded overview of
+privacy-preserving digital currencies, covering both cryptocurrencies and
+CBDCs. We propose a taxonomy of privacy goals -- including anonymity,
+confidentiality, unlinkability, and auditability -- and map them to underlying
+cryptographic primitives, protocol mechanisms, and system architectures. Unlike
+previous surveys, our work adopts a design-oriented perspective, linking
+high-level privacy objectives to concrete implementations. We also trace the
+evolution of privacy-preserving currencies through three generations,
+highlighting shifts from basic anonymity guarantees toward more nuanced
+privacy-accountability trade-offs. Finally, we identify open challenges at the
+intersection of cryptography, distributed systems, and policy definition, which
+motivate further investigation into the primitives and design of digital
+currencies that balance real-world privacy and auditability needs.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2505.20916v1">Imago Obscura: An Image Privacy AI Co-pilot to Enable Identification and
+  Mitigation of Risks</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> 
+  <p><b>Published on:</b> 2025-05-27T09:08:12Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Kyzyl Monteiro, Yuchen Wu, Sauvik Das</p>
+    <p><b>Summary:</b> Users often struggle to navigate the privacy / publicity boundary in sharing
+images online: they may lack awareness of image privacy risks and/or the
+ability to apply effective mitigation strategies. To address this challenge, we
+introduce and evaluate Imago Obscura, an AI-powered, image-editing copilot that
+enables users to identify and mitigate privacy risks with images they intend to
+share. Driven by design requirements from a formative user study with 7
+image-editing experts, Imago Obscura enables users to articulate their
+image-sharing intent and privacy concerns. The system uses these inputs to
+surface contextually pertinent privacy risks, and then recommends and
+facilitates application of a suite of obfuscation techniques found to be
+effective in prior literature -- e.g., inpainting, blurring, and generative
+content replacement. We evaluated Imago Obscura with 15 end-users in a lab
+study and found that it greatly improved users' awareness of image privacy
+risks and their ability to address those risks, allowing them to make more
+informed sharing decisions.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2505.20910v1">Automated Privacy Information Annotation in Large Language Model
+  Interactions</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2025-05-27T09:00:12Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Hang Zeng, Xiangyu Liu, Yong Hu, Chaoyue Niu, Fan Wu, Shaojie Tang, Guihai Chen</p>
+    <p><b>Summary:</b> Users interacting with large language models (LLMs) under their real
+identifiers often unknowingly risk disclosing private information.
+Automatically notifying users whether their queries leak privacy and which
+phrases leak what private information has therefore become a practical need.
+Existing privacy detection methods, however, were designed for different
+objectives and application scenarios, typically tagging personally identifiable
+information (PII) in anonymous content. In this work, to support the
+development and evaluation of privacy detection models for LLM interactions
+that are deployable on local user devices, we construct a large-scale
+multilingual dataset with 249K user queries and 154K annotated privacy phrases.
+In particular, we build an automated privacy annotation pipeline with
+cloud-based strong LLMs to automatically extract privacy phrases from dialogue
+datasets and annotate leaked information. We also design evaluation metrics at
+the levels of privacy leakage, extracted privacy phrase, and privacy
+information. We further establish baseline methods using light-weight LLMs with
+both tuning-free and tuning-based methods, and report a comprehensive
+evaluation of their performance. Evaluation results reveal a gap between
+current performance and the requirements of real-world LLM applications,
+motivating future research into more effective local privacy detection methods
+grounded in our dataset.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2505.20577v1">Privacy-Preserving Peer-to-Peer Energy Trading via Hybrid Secure
+  Computations</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Optimization and Control-F9C80E">
+  <p><b>Published on:</b> 2025-05-26T23:24:44Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Junhong Liu, Qinfei Long, Rong-Peng Liu, Wenjie Liu, Xin Cui, Yunhe Hou</p>
+    <p><b>Summary:</b> The massive integration of uncertain distributed renewable energy resources
+into power systems raises power imbalance concerns. Peer-to-peer (P2P) energy
+trading provides a promising way to balance the prosumers' volatile energy
+power generation and demands locally. Particularly, to protect the privacy of
+prosumers, distributed P2P energy trading is broadly advocated. However, severe
+privacy leakage issues can emerge in the realistic fully distributed P2P energy
+trading paradigm. Meanwhile, in this paradigm, two-party and multi-party
+computations coexist, challenging the naive privacy-preserving techniques. To
+tackle privacy leakage issues arising from the fully distributed P2P energy
+trading, this paper proposes a privacy-preserving approach via hybrid secure
+computations. A secure multi-party computation mechanism consisting of offline
+and online phases is developed to ensure the security of shared data by
+leveraging the tailored secret sharing method. In addition, the Paillier
+encryption method based on the Chinese Remainder Theorem is proposed for both
+the secure two-party computation and the offline phase of the multi-party
+computation. The random encryption coefficient is designed to enhance the
+security of the two-party computation and simultaneously guarantee the
+convergence of the distributed optimization. The feasible range for the
+encryption coefficient is derived with a strict mathematical proof. Numerical
+simulations demonstrate the exactness, effectiveness, and scalability of the
+proposed privacy-preserving approach.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2505.20575v1">Synergising Hierarchical Data Centers and Power Networks: A
+  Privacy-Preserving Approach</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
+  <p><b>Published on:</b> 2025-05-26T23:22:45Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Junhong Liu, Fei Teng, Yunhe Hou</p>
+    <p><b>Summary:</b> In the era of digitization, data centers have emerged as integral
+contributors sustaining our interlinked world, bearing responsibility for an
+increasing proportion of the world's energy consumption. To facilitate the
+their fast rollout while progressing towards net-zero energy systems, the
+synergy of hierarchical data centers (cloud-fog-edge) and power networks can
+play a pivotal role. However, existing centralized co-dispatch manners encroach
+on the privacy of different agents within the integrated systems, meanwhile
+suffering from the combinatorial explosion. In this research, we propose a
+near-optimal distributed privacy-preserving approach to solve the non-convex
+synergy (day-ahead co-dispatch) problem. The synergy problem is formulated as a
+mixed integer quadratically constrained quadratic programming considering both
+communication and energy conservation, where Lyapunov optimization is
+introduced to balance operating costs and uncertain communication delays. To
+mitigate impacts of the highly non-convex nature, the normalized
+multi-parametric disaggregation technique is leveraged to reformulate the
+problem into a mixed integer non-linear programming. To further overcome
+non-smoothness of the reformulated problem, the customized $\ell_1-$surrogate
+Lagrangian relaxation method with convergence guarantees is proposed to solve
+the problem in a distributed privacy-preserving manner. {The effectiveness,
+optimality, and scalability of the proposed methodologies for the synergy
+problem are validated via numerical simulations. Simulation results also
+indicate that computing tasks can be delayed and migrated within the
+hierarchical data centers, demonstrating the flexible resource allocation
+capabilities of the hierarchical data center architecture, further facilitating
+peak load balancing in the power network.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2505.20118v2">TrojanStego: Your Language Model Can Secretly Be A Steganographic
   Privacy Leaking Agent</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2025-05-26T15:20:51Z</p>
