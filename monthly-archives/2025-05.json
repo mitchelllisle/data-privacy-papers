@@ -2682,5 +2682,164 @@
     "categories" : [
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.21008v1",
+    "title" : "A Hitchhiker's Guide to Privacy-Preserving Cryptocurrencies: A Survey on\n  Anonymity, Confidentiality, and Auditability",
+    "summary" : "Cryptocurrencies and central bank digital currencies (CBDCs) are reshaping\nthe monetary landscape, offering transparency and efficiency while raising\ncritical concerns about user privacy and regulatory compliance. This survey\nprovides a comprehensive and technically grounded overview of\nprivacy-preserving digital currencies, covering both cryptocurrencies and\nCBDCs. We propose a taxonomy of privacy goals -- including anonymity,\nconfidentiality, unlinkability, and auditability -- and map them to underlying\ncryptographic primitives, protocol mechanisms, and system architectures. Unlike\nprevious surveys, our work adopts a design-oriented perspective, linking\nhigh-level privacy objectives to concrete implementations. We also trace the\nevolution of privacy-preserving currencies through three generations,\nhighlighting shifts from basic anonymity guarantees toward more nuanced\nprivacy-accountability trade-offs. Finally, we identify open challenges at the\nintersection of cryptography, distributed systems, and policy definition, which\nmotivate further investigation into the primitives and design of digital\ncurrencies that balance real-world privacy and auditability needs.",
+    "updated" : "2025-05-27T10:42:28Z",
+    "published" : "2025-05-27T10:42:28Z",
+    "authors" : [
+      {
+        "name" : "Matteo Nardelli"
+      },
+      {
+        "name" : "Francesco De Sclavis"
+      },
+      {
+        "name" : "Michela Iezzi"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.20916v1",
+    "title" : "Imago Obscura: An Image Privacy AI Co-pilot to Enable Identification and\n  Mitigation of Risks",
+    "summary" : "Users often struggle to navigate the privacy / publicity boundary in sharing\nimages online: they may lack awareness of image privacy risks and/or the\nability to apply effective mitigation strategies. To address this challenge, we\nintroduce and evaluate Imago Obscura, an AI-powered, image-editing copilot that\nenables users to identify and mitigate privacy risks with images they intend to\nshare. Driven by design requirements from a formative user study with 7\nimage-editing experts, Imago Obscura enables users to articulate their\nimage-sharing intent and privacy concerns. The system uses these inputs to\nsurface contextually pertinent privacy risks, and then recommends and\nfacilitates application of a suite of obfuscation techniques found to be\neffective in prior literature -- e.g., inpainting, blurring, and generative\ncontent replacement. We evaluated Imago Obscura with 15 end-users in a lab\nstudy and found that it greatly improved users' awareness of image privacy\nrisks and their ability to address those risks, allowing them to make more\ninformed sharing decisions.",
+    "updated" : "2025-05-27T09:08:12Z",
+    "published" : "2025-05-27T09:08:12Z",
+    "authors" : [
+      {
+        "name" : "Kyzyl Monteiro"
+      },
+      {
+        "name" : "Yuchen Wu"
+      },
+      {
+        "name" : "Sauvik Das"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "H.5.2; K.4.1"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.20910v1",
+    "title" : "Automated Privacy Information Annotation in Large Language Model\n  Interactions",
+    "summary" : "Users interacting with large language models (LLMs) under their real\nidentifiers often unknowingly risk disclosing private information.\nAutomatically notifying users whether their queries leak privacy and which\nphrases leak what private information has therefore become a practical need.\nExisting privacy detection methods, however, were designed for different\nobjectives and application scenarios, typically tagging personally identifiable\ninformation (PII) in anonymous content. In this work, to support the\ndevelopment and evaluation of privacy detection models for LLM interactions\nthat are deployable on local user devices, we construct a large-scale\nmultilingual dataset with 249K user queries and 154K annotated privacy phrases.\nIn particular, we build an automated privacy annotation pipeline with\ncloud-based strong LLMs to automatically extract privacy phrases from dialogue\ndatasets and annotate leaked information. We also design evaluation metrics at\nthe levels of privacy leakage, extracted privacy phrase, and privacy\ninformation. We further establish baseline methods using light-weight LLMs with\nboth tuning-free and tuning-based methods, and report a comprehensive\nevaluation of their performance. Evaluation results reveal a gap between\ncurrent performance and the requirements of real-world LLM applications,\nmotivating future research into more effective local privacy detection methods\ngrounded in our dataset.",
+    "updated" : "2025-05-27T09:00:12Z",
+    "published" : "2025-05-27T09:00:12Z",
+    "authors" : [
+      {
+        "name" : "Hang Zeng"
+      },
+      {
+        "name" : "Xiangyu Liu"
+      },
+      {
+        "name" : "Yong Hu"
+      },
+      {
+        "name" : "Chaoyue Niu"
+      },
+      {
+        "name" : "Fan Wu"
+      },
+      {
+        "name" : "Shaojie Tang"
+      },
+      {
+        "name" : "Guihai Chen"
+      }
+    ],
+    "categories" : [
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.20577v1",
+    "title" : "Privacy-Preserving Peer-to-Peer Energy Trading via Hybrid Secure\n  Computations",
+    "summary" : "The massive integration of uncertain distributed renewable energy resources\ninto power systems raises power imbalance concerns. Peer-to-peer (P2P) energy\ntrading provides a promising way to balance the prosumers' volatile energy\npower generation and demands locally. Particularly, to protect the privacy of\nprosumers, distributed P2P energy trading is broadly advocated. However, severe\nprivacy leakage issues can emerge in the realistic fully distributed P2P energy\ntrading paradigm. Meanwhile, in this paradigm, two-party and multi-party\ncomputations coexist, challenging the naive privacy-preserving techniques. To\ntackle privacy leakage issues arising from the fully distributed P2P energy\ntrading, this paper proposes a privacy-preserving approach via hybrid secure\ncomputations. A secure multi-party computation mechanism consisting of offline\nand online phases is developed to ensure the security of shared data by\nleveraging the tailored secret sharing method. In addition, the Paillier\nencryption method based on the Chinese Remainder Theorem is proposed for both\nthe secure two-party computation and the offline phase of the multi-party\ncomputation. The random encryption coefficient is designed to enhance the\nsecurity of the two-party computation and simultaneously guarantee the\nconvergence of the distributed optimization. The feasible range for the\nencryption coefficient is derived with a strict mathematical proof. Numerical\nsimulations demonstrate the exactness, effectiveness, and scalability of the\nproposed privacy-preserving approach.",
+    "updated" : "2025-05-26T23:24:44Z",
+    "published" : "2025-05-26T23:24:44Z",
+    "authors" : [
+      {
+        "name" : "Junhong Liu"
+      },
+      {
+        "name" : "Qinfei Long"
+      },
+      {
+        "name" : "Rong-Peng Liu"
+      },
+      {
+        "name" : "Wenjie Liu"
+      },
+      {
+        "name" : "Xin Cui"
+      },
+      {
+        "name" : "Yunhe Hou"
+      }
+    ],
+    "categories" : [
+      "eess.SY",
+      "cs.SY",
+      "math.OC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.20575v1",
+    "title" : "Synergising Hierarchical Data Centers and Power Networks: A\n  Privacy-Preserving Approach",
+    "summary" : "In the era of digitization, data centers have emerged as integral\ncontributors sustaining our interlinked world, bearing responsibility for an\nincreasing proportion of the world's energy consumption. To facilitate the\ntheir fast rollout while progressing towards net-zero energy systems, the\nsynergy of hierarchical data centers (cloud-fog-edge) and power networks can\nplay a pivotal role. However, existing centralized co-dispatch manners encroach\non the privacy of different agents within the integrated systems, meanwhile\nsuffering from the combinatorial explosion. In this research, we propose a\nnear-optimal distributed privacy-preserving approach to solve the non-convex\nsynergy (day-ahead co-dispatch) problem. The synergy problem is formulated as a\nmixed integer quadratically constrained quadratic programming considering both\ncommunication and energy conservation, where Lyapunov optimization is\nintroduced to balance operating costs and uncertain communication delays. To\nmitigate impacts of the highly non-convex nature, the normalized\nmulti-parametric disaggregation technique is leveraged to reformulate the\nproblem into a mixed integer non-linear programming. To further overcome\nnon-smoothness of the reformulated problem, the customized $\\ell_1-$surrogate\nLagrangian relaxation method with convergence guarantees is proposed to solve\nthe problem in a distributed privacy-preserving manner. {The effectiveness,\noptimality, and scalability of the proposed methodologies for the synergy\nproblem are validated via numerical simulations. Simulation results also\nindicate that computing tasks can be delayed and migrated within the\nhierarchical data centers, demonstrating the flexible resource allocation\ncapabilities of the hierarchical data center architecture, further facilitating\npeak load balancing in the power network.",
+    "updated" : "2025-05-26T23:22:45Z",
+    "published" : "2025-05-26T23:22:45Z",
+    "authors" : [
+      {
+        "name" : "Junhong Liu"
+      },
+      {
+        "name" : "Fei Teng"
+      },
+      {
+        "name" : "Yunhe Hou"
+      }
+    ],
+    "categories" : [
+      "eess.SY",
+      "cs.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.20118v2",
+    "title" : "TrojanStego: Your Language Model Can Secretly Be A Steganographic\n  Privacy Leaking Agent",
+    "summary" : "As large language models (LLMs) become integrated into sensitive workflows,\nconcerns grow over their potential to leak confidential information. We propose\nTrojanStego, a novel threat model in which an adversary fine-tunes an LLM to\nembed sensitive context information into natural-looking outputs via linguistic\nsteganography, without requiring explicit control over inference inputs. We\nintroduce a taxonomy outlining risk factors for compromised LLMs, and use it to\nevaluate the risk profile of the threat. To implement TrojanStego, we propose a\npractical encoding scheme based on vocabulary partitioning learnable by LLMs\nvia fine-tuning. Experimental results show that compromised models reliably\ntransmit 32-bit secrets with 87% accuracy on held-out prompts, reaching over\n97% accuracy using majority voting across three generations. Further, they\nmaintain high utility, can evade human detection, and preserve coherence. These\nresults highlight a new class of LLM data exfiltration attacks that are\npassive, covert, practical, and dangerous.",
+    "updated" : "2025-05-27T07:24:52Z",
+    "published" : "2025-05-26T15:20:51Z",
+    "authors" : [
+      {
+        "name" : "Dominik Meier"
+      },
+      {
+        "name" : "Jan Philip Wahle"
+      },
+      {
+        "name" : "Paul Röttger"
+      },
+      {
+        "name" : "Terry Ruas"
+      },
+      {
+        "name" : "Bela Gipp"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.CR"
+    ]
   }
 ]
