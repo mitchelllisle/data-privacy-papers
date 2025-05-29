@@ -2841,5 +2841,152 @@
       "cs.CL",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.22447v1",
+    "title" : "Privacy-preserving Prompt Personalization in Federated Learning for\n  Multimodal Large Language Models",
+    "summary" : "Prompt learning is a crucial technique for adapting pre-trained multimodal\nlanguage models (MLLMs) to user tasks. Federated prompt personalization (FPP)\nis further developed to address data heterogeneity and local overfitting,\nhowever, it exposes personalized prompts - valuable intellectual assets - to\nprivacy risks like prompt stealing or membership inference attacks.\nWidely-adopted techniques like differential privacy add noise to prompts,\nwhereas degrading personalization performance. We propose SecFPP, a secure FPP\nprotocol harmonizing generalization, personalization, and privacy guarantees.\nSecFPP employs hierarchical prompt adaptation with domain-level and class-level\ncomponents to handle multi-granular data imbalance. For privacy, it uses a\nnovel secret-sharing-based adaptive clustering algorithm for domain-level\nadaptation while keeping class-level components private. While theoretically\nand empirically secure, SecFPP achieves state-of-the-art accuracy under severe\nheterogeneity in data distribution. Extensive experiments show it significantly\noutperforms both non-private and privacy-preserving baselines, offering a\nsuperior privacy-performance trade-off.",
+    "updated" : "2025-05-28T15:09:56Z",
+    "published" : "2025-05-28T15:09:56Z",
+    "authors" : [
+      {
+        "name" : "Sizai Hou"
+      },
+      {
+        "name" : "Songze Li"
+      },
+      {
+        "name" : "Baturalp Buyukates"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.22234v1",
+    "title" : "Evolution of repositories and privacy laws: commit activities in the\n  GDPR and CCPA era",
+    "summary" : "Free and open source software has gained a lot of momentum in the industry\nand the research community. The latest advances in privacy legislation,\nincluding the EU General Data Protection Regulation (GDPR) and the California\nConsumer Privacy Act (CCPA), have forced the community to pay special attention\nto users' data privacy. The main aim of this work is to examine software\nrepositories that are acting on privacy laws. We have collected commit data\nfrom GitHub repositories in order to understand indications on main data\nprivacy laws (GDPR, CCPA, CPRA, UK DPA) in the last years. Via an automated\nprocess, we analyzed 37,213 commits from 12,391 repositories since 2016,\nwhereas 594 commits from the 70 most popular repositories of the dataset were\nmanually analyzed. We observe that most commits were performed on the year the\nlaw came into effect and privacy relevant terms appear in the commit messages,\nwhereas reference to specific data privacy user rights is scarce. The study\nshowed that more educational activities on data privacy user rights are needed,\nas well as tools for privacy recommendations, whereas verifying actual\ncompliance via source code execution is a useful direction for software\nengineering researchers.",
+    "updated" : "2025-05-28T11:10:58Z",
+    "published" : "2025-05-28T11:10:58Z",
+    "authors" : [
+      {
+        "name" : "Georgia M. Kapitsaki"
+      },
+      {
+        "name" : "Maria Papoutsoglou"
+      }
+    ],
+    "categories" : [
+      "cs.SE"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.22061v1",
+    "title" : "Safeguarding Privacy of Retrieval Data against Membership Inference\n  Attacks: Is This Query Too Close to Home?",
+    "summary" : "Retrieval-augmented generation (RAG) mitigates the hallucination problem in\nlarge language models (LLMs) and has proven effective for specific,\npersonalized applications. However, passing private retrieved documents\ndirectly to LLMs introduces vulnerability to membership inference attacks\n(MIAs), which try to determine whether the target datum exists in the private\nexternal database or not. Based on the insight that MIA queries typically\nexhibit high similarity to only one target document, we introduce Mirabel, a\nsimilarity-based MIA detection framework designed for the RAG system. With the\nproposed Mirabel, we show that simple detect-and-hide strategies can\nsuccessfully obfuscate attackers, maintain data utility, and remain\nsystem-agnostic. We experimentally prove its detection and defense against\nvarious state-of-the-art MIA methods and its adaptability to existing private\nRAG systems.",
+    "updated" : "2025-05-28T07:35:07Z",
+    "published" : "2025-05-28T07:35:07Z",
+    "authors" : [
+      {
+        "name" : "Yujin Choi"
+      },
+      {
+        "name" : "Youngjoo Park"
+      },
+      {
+        "name" : "Junyoung Byun"
+      },
+      {
+        "name" : "Jaewook Lee"
+      },
+      {
+        "name" : "Jinseong Park"
+      }
+    ],
+    "categories" : [
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.21801v1",
+    "title" : "Query, Don't Train: Privacy-Preserving Tabular Prediction from EHR Data\n  via SQL Queries",
+    "summary" : "Electronic health records (EHRs) contain richly structured, longitudinal data\nessential for predictive modeling, yet stringent privacy regulations (e.g.,\nHIPAA, GDPR) often restrict access to individual-level records. We introduce\nQuery, Don't Train (QDT): a structured-data foundation-model interface enabling\ntabular inference via LLM-generated SQL over EHRs. Instead of training on or\naccessing individual-level examples, QDT uses a large language model (LLM) as a\nschema-aware query planner to generate privacy-compliant SQL queries from a\nnatural language task description and a test-time input. The model then\nextracts summary-level population statistics through these SQL queries and the\nLLM performs, chain-of-thought reasoning over the results to make predictions.\nThis inference-time-only approach (1) eliminates the need for supervised model\ntraining or direct data access, (2) ensures interpretability through symbolic,\nauditable queries, (3) naturally handles missing features without imputation or\npreprocessing, and (4) effectively manages high-dimensional numerical data to\nenhance analytical capabilities. We validate QDT on the task of 30-day hospital\nreadmission prediction for Type 2 diabetes patients using a MIMIC-style EHR\ncohort, achieving F1 = 0.70, which outperforms TabPFN (F1 = 0.68). To our\nknowledge, this is the first demonstration of LLM-driven, privacy-preserving\nstructured prediction using only schema metadata and aggregate statistics -\noffering a scalable, interpretable, and regulation-compliant alternative to\nconventional foundation-model pipelines.",
+    "updated" : "2025-05-27T22:16:02Z",
+    "published" : "2025-05-27T22:16:02Z",
+    "authors" : [
+      {
+        "name" : "Josefa Lia Stoisser"
+      },
+      {
+        "name" : "Marc Boubnovski Martell"
+      },
+      {
+        "name" : "Kaspar Märtens"
+      },
+      {
+        "name" : "Lawrence Phillips"
+      },
+      {
+        "name" : "Stephen Michael Town"
+      },
+      {
+        "name" : "Rory Donovan-Maiye"
+      },
+      {
+        "name" : "Julien Fauqueur"
+      }
+    ],
+    "categories" : [
+      "cs.DB"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.21715v1",
+    "title" : "Privacy-Preserving Chest X-ray Report Generation via Multimodal\n  Federated Learning with ViT and GPT-2",
+    "summary" : "The automated generation of radiology reports from chest X-ray images holds\nsignificant promise in enhancing diagnostic workflows while preserving patient\nprivacy. Traditional centralized approaches often require sensitive data\ntransfer, posing privacy concerns. To address this, the study proposes a\nMultimodal Federated Learning framework for chest X-ray report generation using\nthe IU-Xray dataset. The system utilizes a Vision Transformer (ViT) as the\nencoder and GPT-2 as the report generator, enabling decentralized training\nwithout sharing raw data. Three Federated Learning (FL) aggregation strategies:\nFedAvg, Krum Aggregation and a novel Loss-aware Federated Averaging (L-FedAvg)\nwere evaluated. Among these, Krum Aggregation demonstrated superior performance\nacross lexical and semantic evaluation metrics such as ROUGE, BLEU, BERTScore\nand RaTEScore. The results show that FL can match or surpass centralized models\nin generating clinically relevant and semantically rich radiology reports. This\nlightweight and privacy-preserving framework paves the way for collaborative\nmedical AI development without compromising data confidentiality.",
+    "updated" : "2025-05-27T20:01:12Z",
+    "published" : "2025-05-27T20:01:12Z",
+    "authors" : [
+      {
+        "name" : "Md. Zahid Hossain"
+      },
+      {
+        "name" : "Mustofa Ahmed"
+      },
+      {
+        "name" : "Most. Sharmin Sultana Samu"
+      },
+      {
+        "name" : "Md. Rakibul Islam"
+      }
+    ],
+    "categories" : [
+      "eess.IV",
+      "cs.AI",
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.07872v3",
+    "title" : "Revenue Optimization in Video Caching Networks with Privacy-Preserving\n  Demand Predictions",
+    "summary" : "Performance of video streaming, which accounts for most of the traffic in\nwireless communication, can be significantly improved by caching popular videos\nat the wireless edge. Determining the cache content that optimizes performance\n(defined via a revenue function) is thus an important task, and prediction of\nthe future demands based on past history can make this process much more\nefficient. However, since practical video caching networks involve various\nparties (e.g., users, isp, and csp) that do not wish to reveal information such\nas past history to each other, privacy-preserving solutions are required.\nMotivated by this, we propose a proactive caching method based on users'\nprivacy-preserving multi-slot future demand predictions -- obtained from a\ntrained Transformer -- to optimize revenue. Specifically, we first use a\nprivacy-preserving fl algorithm to train a Transformer to predict multi-slot\nfuture demands of the users. However, prediction accuracy is not perfect and\ndecreases the farther into the future the prediction is done. We model the\nimpact of prediction errors invoking the file popularities, based on which we\nformulate a long-term system revenue optimization to make the cache placement\ndecisions. As the formulated problem is NP-hard, we use a greedy algorithm to\nefficiently obtain an approximate solution. Simulation results validate that\n(i) the fl solution achieves results close to the centralized\n(non-privacy-preserving) solution and (ii) optimization of revenue may provide\ndifferent solutions than the classical chr criterion.",
+    "updated" : "2025-05-28T00:43:47Z",
+    "published" : "2025-05-09T21:05:20Z",
+    "authors" : [
+      {
+        "name" : "Yijing Zhang"
+      },
+      {
+        "name" : "Ferdous Pervej"
+      },
+      {
+        "name" : "Andreas F. Molisch"
+      }
+    ],
+    "categories" : [
+      "cs.NI",
+      "eess.SP"
+    ]
   }
 ]
