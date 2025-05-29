@@ -1,39 +1,147 @@
 
-<h2>2025-04</h2>
+<h2>2025-05</h2>
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2504.21752v1">VDDP: Verifiable Distributed Differential Privacy under the
-  Client-Server-Verifier Setup</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
-  <p><b>Published on:</b> 2025-04-30T15:46:55Z</p>
+  <h3><a href="http://arxiv.org/abs/2505.22447v1">Privacy-preserving Prompt Personalization in Federated Learning for
+  Multimodal Large Language Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-05-28T15:09:56Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Haochen Sun, Xi He</p>
-    <p><b>Summary:</b> Despite differential privacy (DP) often being considered the de facto
-standard for data privacy, its realization is vulnerable to unfaithful
-execution of its mechanisms by servers, especially in distributed settings.
-Specifically, servers may sample noise from incorrect distributions or generate
-correlated noise while appearing to follow established protocols. This work
-analyzes these malicious behaviors in a general differential privacy framework
-within a distributed client-server-verifier setup. To address these adversarial
-problems, we propose a novel definition called Verifiable Distributed
-Differential Privacy (VDDP) by incorporating additional verification
-mechanisms. We also explore the relationship between zero-knowledge proofs
-(ZKP) and DP, demonstrating that while ZKPs are sufficient for achieving DP
-under verifiability requirements, they are not necessary. Furthermore, we
-develop two novel and efficient mechanisms that satisfy VDDP: (1) the
-Verifiable Distributed Discrete Laplacian Mechanism (VDDLM), which offers up to
-a $4 \times 10^5$x improvement in proof generation efficiency with only
-0.1-0.2x error compared to the previous state-of-the-art verifiable
-differentially private mechanism; (2) an improved solution to Verifiable
-Randomized Response (VRR) under local DP, a special case of VDDP, achieving up
-a reduction of up to 5000x in communication costs and the verifier's overhead.</p>
+    <p><b>Authors:</b> Sizai Hou, Songze Li, Baturalp Buyukates</p>
+    <p><b>Summary:</b> Prompt learning is a crucial technique for adapting pre-trained multimodal
+language models (MLLMs) to user tasks. Federated prompt personalization (FPP)
+is further developed to address data heterogeneity and local overfitting,
+however, it exposes personalized prompts - valuable intellectual assets - to
+privacy risks like prompt stealing or membership inference attacks.
+Widely-adopted techniques like differential privacy add noise to prompts,
+whereas degrading personalization performance. We propose SecFPP, a secure FPP
+protocol harmonizing generalization, personalization, and privacy guarantees.
+SecFPP employs hierarchical prompt adaptation with domain-level and class-level
+components to handle multi-granular data imbalance. For privacy, it uses a
+novel secret-sharing-based adaptive clustering algorithm for domain-level
+adaptation while keeping class-level components private. While theoretically
+and empirically secure, SecFPP achieves state-of-the-art accuracy under severe
+heterogeneity in data distribution. Extensive experiments show it significantly
+outperforms both non-private and privacy-preserving baselines, offering a
+superior privacy-performance trade-off.</p>
   </details>
 </div>
 
 
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2505.22234v1">Evolution of repositories and privacy laws: commit activities in the
+  GDPR and CCPA era</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
+  <p><b>Published on:</b> 2025-05-28T11:10:58Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Georgia M. Kapitsaki, Maria Papoutsoglou</p>
+    <p><b>Summary:</b> Free and open source software has gained a lot of momentum in the industry
+and the research community. The latest advances in privacy legislation,
+including the EU General Data Protection Regulation (GDPR) and the California
+Consumer Privacy Act (CCPA), have forced the community to pay special attention
+to users' data privacy. The main aim of this work is to examine software
+repositories that are acting on privacy laws. We have collected commit data
+from GitHub repositories in order to understand indications on main data
+privacy laws (GDPR, CCPA, CPRA, UK DPA) in the last years. Via an automated
+process, we analyzed 37,213 commits from 12,391 repositories since 2016,
+whereas 594 commits from the 70 most popular repositories of the dataset were
+manually analyzed. We observe that most commits were performed on the year the
+law came into effect and privacy relevant terms appear in the commit messages,
+whereas reference to specific data privacy user rights is scarce. The study
+showed that more educational activities on data privacy user rights are needed,
+as well as tools for privacy recommendations, whereas verifying actual
+compliance via source code execution is a useful direction for software
+engineering researchers.</p>
+  </details>
+</div>
 
-<h2>2025-05</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2505.22061v1">Safeguarding Privacy of Retrieval Data against Membership Inference
+  Attacks: Is This Query Too Close to Home?</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2025-05-28T07:35:07Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yujin Choi, Youngjoo Park, Junyoung Byun, Jaewook Lee, Jinseong Park</p>
+    <p><b>Summary:</b> Retrieval-augmented generation (RAG) mitigates the hallucination problem in
+large language models (LLMs) and has proven effective for specific,
+personalized applications. However, passing private retrieved documents
+directly to LLMs introduces vulnerability to membership inference attacks
+(MIAs), which try to determine whether the target datum exists in the private
+external database or not. Based on the insight that MIA queries typically
+exhibit high similarity to only one target document, we introduce Mirabel, a
+similarity-based MIA detection framework designed for the RAG system. With the
+proposed Mirabel, we show that simple detect-and-hide strategies can
+successfully obfuscate attackers, maintain data utility, and remain
+system-agnostic. We experimentally prove its detection and defense against
+various state-of-the-art MIA methods and its adaptability to existing private
+RAG systems.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2505.21801v1">Query, Don't Train: Privacy-Preserving Tabular Prediction from EHR Data
+  via SQL Queries</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
+  <p><b>Published on:</b> 2025-05-27T22:16:02Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Josefa Lia Stoisser, Marc Boubnovski Martell, Kaspar Märtens, Lawrence Phillips, Stephen Michael Town, Rory Donovan-Maiye, Julien Fauqueur</p>
+    <p><b>Summary:</b> Electronic health records (EHRs) contain richly structured, longitudinal data
+essential for predictive modeling, yet stringent privacy regulations (e.g.,
+HIPAA, GDPR) often restrict access to individual-level records. We introduce
+Query, Don't Train (QDT): a structured-data foundation-model interface enabling
+tabular inference via LLM-generated SQL over EHRs. Instead of training on or
+accessing individual-level examples, QDT uses a large language model (LLM) as a
+schema-aware query planner to generate privacy-compliant SQL queries from a
+natural language task description and a test-time input. The model then
+extracts summary-level population statistics through these SQL queries and the
+LLM performs, chain-of-thought reasoning over the results to make predictions.
+This inference-time-only approach (1) eliminates the need for supervised model
+training or direct data access, (2) ensures interpretability through symbolic,
+auditable queries, (3) naturally handles missing features without imputation or
+preprocessing, and (4) effectively manages high-dimensional numerical data to
+enhance analytical capabilities. We validate QDT on the task of 30-day hospital
+readmission prediction for Type 2 diabetes patients using a MIMIC-style EHR
+cohort, achieving F1 = 0.70, which outperforms TabPFN (F1 = 0.68). To our
+knowledge, this is the first demonstration of LLM-driven, privacy-preserving
+structured prediction using only schema metadata and aggregate statistics -
+offering a scalable, interpretable, and regulation-compliant alternative to
+conventional foundation-model pipelines.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2505.21715v1">Privacy-Preserving Chest X-ray Report Generation via Multimodal
+  Federated Learning with ViT and GPT-2</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2025-05-27T20:01:12Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Md. Zahid Hossain, Mustofa Ahmed, Most. Sharmin Sultana Samu, Md. Rakibul Islam</p>
+    <p><b>Summary:</b> The automated generation of radiology reports from chest X-ray images holds
+significant promise in enhancing diagnostic workflows while preserving patient
+privacy. Traditional centralized approaches often require sensitive data
+transfer, posing privacy concerns. To address this, the study proposes a
+Multimodal Federated Learning framework for chest X-ray report generation using
+the IU-Xray dataset. The system utilizes a Vision Transformer (ViT) as the
+encoder and GPT-2 as the report generator, enabling decentralized training
+without sharing raw data. Three Federated Learning (FL) aggregation strategies:
+FedAvg, Krum Aggregation and a novel Loss-aware Federated Averaging (L-FedAvg)
+were evaluated. Among these, Krum Aggregation demonstrated superior performance
+across lexical and semantic evaluation metrics such as ROUGE, BLEU, BERTScore
+and RaTEScore. The results show that FL can match or surpass centralized models
+in generating clinically relevant and semantically rich radiology reports. This
+lightweight and privacy-preserving framework paves the way for collaborative
+medical AI development without compromising data confidentiality.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2505.21008v1">A Hitchhiker's Guide to Privacy-Preserving Cryptocurrencies: A Survey on
@@ -1838,7 +1946,7 @@ organization-wide privacy risk management.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.07872v2">Revenue Optimization in Video Caching Networks with Privacy-Preserving
+  <h3><a href="http://arxiv.org/abs/2505.07872v3">Revenue Optimization in Video Caching Networks with Privacy-Preserving
   Demand Predictions</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762"> 
   <p><b>Published on:</b> 2025-05-09T21:05:20Z</p>
@@ -2856,127 +2964,6 @@ and show a example of a simple leakage they miss in practice. With this work,
 we hope to motivate practitioners to move away from proxy metrics to MIAs as
 the rigorous, comprehensive standard of evaluating privacy of synthetic data,
 in particular to make claims of datasets being legally anonymous.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.01292v1">Fine-grained Manipulation Attacks to Local Differential Privacy
-  Protocols for Data Streams</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-05-02T14:09:56Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Xinyu Li, Xuebin Ren, Shusen Yang, Liang Shi, Chia-Mu Yu</p>
-    <p><b>Summary:</b> Local Differential Privacy (LDP) enables massive data collection and analysis
-while protecting end users' privacy against untrusted aggregators. It has been
-applied to various data types (e.g., categorical, numerical, and graph data)
-and application settings (e.g., static and streaming). Recent findings indicate
-that LDP protocols can be easily disrupted by poisoning or manipulation
-attacks, which leverage injected/corrupted fake users to send crafted data
-conforming to the LDP reports. However, current attacks primarily target static
-protocols, neglecting the security of LDP protocols in the streaming settings.
-Our research fills the gap by developing novel fine-grained manipulation
-attacks to LDP protocols for data streams. By reviewing the attack surfaces in
-existing algorithms, We introduce a unified attack framework with composable
-modules, which can manipulate the LDP estimated stream toward a target stream.
-Our attack framework can adapt to state-of-the-art streaming LDP algorithms
-with different analytic tasks (e.g., frequency and mean) and LDP models
-(event-level, user-level, w-event level). We validate our attacks theoretically
-and through extensive experiments on real-world datasets, and finally explore a
-possible defense mechanism for mitigating these attacks.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.00951v1">Preserving Privacy and Utility in LLM-Based Product Recommendations</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-05-02T01:54:08Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Tina Khezresmaeilzadeh, Jiang Zhang, Dimitrios Andreadis, Konstantinos Psounis</p>
-    <p><b>Summary:</b> Large Language Model (LLM)-based recommendation systems leverage powerful
-language models to generate personalized suggestions by processing user
-interactions and preferences. Unlike traditional recommendation systems that
-rely on structured data and collaborative filtering, LLM-based models process
-textual and contextual information, often using cloud-based infrastructure.
-This raises privacy concerns, as user data is transmitted to remote servers,
-increasing the risk of exposure and reducing control over personal information.
-To address this, we propose a hybrid privacy-preserving recommendation
-framework which separates sensitive from nonsensitive data and only shares the
-latter with the cloud to harness LLM-powered recommendations. To restore lost
-recommendations related to obfuscated sensitive data, we design a
-de-obfuscation module that reconstructs sensitive recommendations locally.
-Experiments on real-world e-commerce datasets show that our framework achieves
-almost the same recommendation utility with a system which shares all data with
-an LLM, while preserving privacy to a large extend. Compared to
-obfuscation-only techniques, our approach improves HR@10 scores and category
-distribution alignment, offering a better balance between privacy and
-recommendation quality. Furthermore, our method runs efficiently on
-consumer-grade hardware, making privacy-aware LLM-based recommendation systems
-practical for real-world use.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.00593v1">A Novel Feature-Aware Chaotic Image Encryption Scheme For Data Security
-  and Privacy in IoT and Edge Networks</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-05-01T15:26:48Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Muhammad Shahbaz Khan, Ahmed Al-Dubai, Jawad Ahmad, Nikolaos Pitropakis, Baraq Ghaleb</p>
-    <p><b>Summary:</b> The security of image data in the Internet of Things (IoT) and edge networks
-is crucial due to the increasing deployment of intelligent systems for
-real-time decision-making. Traditional encryption algorithms such as AES and
-RSA are computationally expensive for resource-constrained IoT devices and
-ineffective for large-volume image data, leading to inefficiencies in
-privacy-preserving distributed learning applications. To address these
-concerns, this paper proposes a novel Feature-Aware Chaotic Image Encryption
-scheme that integrates Feature-Aware Pixel Segmentation (FAPS) with Chaotic
-Chain Permutation and Confusion mechanisms to enhance security while
-maintaining efficiency. The proposed scheme consists of three stages: (1) FAPS,
-which extracts and reorganizes pixels based on high and low edge intensity
-features for correlation disruption; (2) Chaotic Chain Permutation, which
-employs a logistic chaotic map with SHA-256-based dynamically updated keys for
-block-wise permutation; and (3) Chaotic chain Confusion, which utilises
-dynamically generated chaotic seed matrices for bitwise XOR operations.
-Extensive security and performance evaluations demonstrate that the proposed
-scheme significantly reduces pixel correlation -- almost zero, achieves high
-entropy values close to 8, and resists differential cryptographic attacks. The
-optimum design of the proposed scheme makes it suitable for real-time
-deployment in resource-constrained environments.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.00257v1">Graph Privacy: A Heterogeneous Federated GNN for Trans-Border Financial
-  Data Circulation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-05-01T02:47:43Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zhizhong Tan, Jiexin Zheng, Kevin Qi Zhang, Wenyong Wang</p>
-    <p><b>Summary:</b> The sharing of external data has become a strong demand of financial
-institutions, but the privacy issue has led to the difficulty of
-interconnecting different platforms and the low degree of data openness. To
-effectively solve the privacy problem of financial data in trans-border flow
-and sharing, to ensure that the data is available but not visible, to realize
-the joint portrait of all kinds of heterogeneous data of business organizations
-in different industries, we propose a Heterogeneous Federated Graph Neural
-Network (HFGNN) approach. In this method, the distribution of heterogeneous
-business data of trans-border organizations is taken as subgraphs, and the
-sharing and circulation process among subgraphs is constructed as a
-statistically heterogeneous global graph through a central server. Each
-subgraph learns the corresponding personalized service model through local
-training to select and update the relevant subset of subgraphs with aggregated
-parameters, and effectively separates and combines topological and feature
-information among subgraphs. Finally, our simulation experimental results show
-that the proposed method has higher accuracy performance and faster convergence
-speed than existing methods.</p>
   </details>
 </div>
 
