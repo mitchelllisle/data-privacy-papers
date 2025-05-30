@@ -2988,5 +2988,65 @@
       "cs.NI",
       "eess.SP"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.23031v1",
+    "title" : "Towards Privacy-Preserving Fine-Grained Visual Classification via\n  Hierarchical Learning from Label Proportions",
+    "summary" : "In recent years, Fine-Grained Visual Classification (FGVC) has achieved\nimpressive recognition accuracy, despite minimal inter-class variations.\nHowever, existing methods heavily rely on instance-level labels, making them\nimpractical in privacy-sensitive scenarios such as medical image analysis. This\npaper aims to enable accurate fine-grained recognition without direct access to\ninstance labels. To achieve this, we leverage the Learning from Label\nProportions (LLP) paradigm, which requires only bag-level labels for efficient\ntraining. Unlike existing LLP-based methods, our framework explicitly exploits\nthe hierarchical nature of fine-grained datasets, enabling progressive feature\ngranularity refinement and improving classification accuracy. We propose\nLearning from Hierarchical Fine-Grained Label Proportions (LHFGLP), a framework\nthat incorporates Unrolled Hierarchical Fine-Grained Sparse Dictionary\nLearning, transforming handcrafted iterative approximation into learnable\nnetwork optimization. Additionally, our proposed Hierarchical Proportion Loss\nprovides hierarchical supervision, further enhancing classification\nperformance. Experiments on three widely-used fine-grained datasets, structured\nin a bag-based manner, demonstrate that our framework consistently outperforms\nexisting LLP-based methods. We will release our code and datasets to foster\nfurther research in privacy-preserving fine-grained classification.",
+    "updated" : "2025-05-29T03:18:25Z",
+    "published" : "2025-05-29T03:18:25Z",
+    "authors" : [
+      {
+        "name" : "Jinyi Chang"
+      },
+      {
+        "name" : "Dongliang Chang"
+      },
+      {
+        "name" : "Lei Chen"
+      },
+      {
+        "name" : "Bingyao Yu"
+      },
+      {
+        "name" : "Zhanyu Ma"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.21801v2",
+    "title" : "Query, Don't Train: Privacy-Preserving Tabular Prediction from EHR Data\n  via SQL Queries",
+    "summary" : "Electronic health records (EHRs) contain richly structured, longitudinal data\nessential for predictive modeling, yet stringent privacy regulations (e.g.,\nHIPAA, GDPR) often restrict access to individual-level records. We introduce\nQuery, Don't Train (QDT): a structured-data foundation-model interface enabling\ntabular inference via LLM-generated SQL over EHRs. Instead of training on or\naccessing individual-level examples, QDT uses a large language model (LLM) as a\nschema-aware query planner to generate privacy-compliant SQL queries from a\nnatural language task description and a test-time input. The model then\nextracts summary-level population statistics through these SQL queries and the\nLLM performs, chain-of-thought reasoning over the results to make predictions.\nThis inference-time-only approach (1) eliminates the need for supervised model\ntraining or direct data access, (2) ensures interpretability through symbolic,\nauditable queries, (3) naturally handles missing features without imputation or\npreprocessing, and (4) effectively manages high-dimensional numerical data to\nenhance analytical capabilities. We validate QDT on the task of 30-day hospital\nreadmission prediction for Type 2 diabetes patients using a MIMIC-style EHR\ncohort, achieving F1 = 0.70, which outperforms TabPFN (F1 = 0.68). To our\nknowledge, this is the first demonstration of LLM-driven, privacy-preserving\nstructured prediction using only schema metadata and aggregate statistics -\noffering a scalable, interpretable, and regulation-compliant alternative to\nconventional foundation-model pipelines.",
+    "updated" : "2025-05-29T08:17:36Z",
+    "published" : "2025-05-27T22:16:02Z",
+    "authors" : [
+      {
+        "name" : "Josefa Lia Stoisser"
+      },
+      {
+        "name" : "Marc Boubnovski Martell"
+      },
+      {
+        "name" : "Kaspar Märtens"
+      },
+      {
+        "name" : "Lawrence Phillips"
+      },
+      {
+        "name" : "Stephen Michael Town"
+      },
+      {
+        "name" : "Rory Donovan-Maiye"
+      },
+      {
+        "name" : "Julien Fauqueur"
+      }
+    ],
+    "categories" : [
+      "cs.DB"
+    ]
   }
 ]
