@@ -2,6 +2,37 @@
 <h2>2025-05</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2505.23031v1">Towards Privacy-Preserving Fine-Grained Visual Classification via
+  Hierarchical Learning from Label Proportions</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2025-05-29T03:18:25Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jinyi Chang, Dongliang Chang, Lei Chen, Bingyao Yu, Zhanyu Ma</p>
+    <p><b>Summary:</b> In recent years, Fine-Grained Visual Classification (FGVC) has achieved
+impressive recognition accuracy, despite minimal inter-class variations.
+However, existing methods heavily rely on instance-level labels, making them
+impractical in privacy-sensitive scenarios such as medical image analysis. This
+paper aims to enable accurate fine-grained recognition without direct access to
+instance labels. To achieve this, we leverage the Learning from Label
+Proportions (LLP) paradigm, which requires only bag-level labels for efficient
+training. Unlike existing LLP-based methods, our framework explicitly exploits
+the hierarchical nature of fine-grained datasets, enabling progressive feature
+granularity refinement and improving classification accuracy. We propose
+Learning from Hierarchical Fine-Grained Label Proportions (LHFGLP), a framework
+that incorporates Unrolled Hierarchical Fine-Grained Sparse Dictionary
+Learning, transforming handcrafted iterative approximation into learnable
+network optimization. Additionally, our proposed Hierarchical Proportion Loss
+provides hierarchical supervision, further enhancing classification
+performance. Experiments on three widely-used fine-grained datasets, structured
+in a bag-based manner, demonstrate that our framework consistently outperforms
+existing LLP-based methods. We will release our code and datasets to foster
+further research in privacy-preserving fine-grained classification.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2505.22447v1">Privacy-preserving Prompt Personalization in Federated Learning for
   Multimodal Large Language Models</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
@@ -84,7 +115,7 @@ RAG systems.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.21801v1">Query, Don't Train: Privacy-Preserving Tabular Prediction from EHR Data
+  <h3><a href="http://arxiv.org/abs/2505.21801v2">Query, Don't Train: Privacy-Preserving Tabular Prediction from EHR Data
   via SQL Queries</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
   <p><b>Published on:</b> 2025-05-27T22:16:02Z</p>
@@ -2930,40 +2961,6 @@ Adaptive Personalized Cross-Silo Federated Learning with Homomorphic Encryption
 personalized learning settings is strongly suggested. The results offer
 valuable insights creating it a promising scope for future advancements in the
 field of privacy-conscious data-driven technologies.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.01524v1">The DCR Delusion: Measuring the Privacy Risk of Synthetic Data</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-05-02T18:21:14Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zexi Yao, Nataša Krčo, Georgi Ganev, Yves-Alexandre de Montjoye</p>
-    <p><b>Summary:</b> Synthetic data has become an increasingly popular way to share data without
-revealing sensitive information. Though Membership Inference Attacks (MIAs) are
-widely considered the gold standard for empirically assessing the privacy of a
-synthetic dataset, practitioners and researchers often rely on simpler proxy
-metrics such as Distance to Closest Record (DCR). These metrics estimate
-privacy by measuring the similarity between the training data and generated
-synthetic data. This similarity is also compared against that between the
-training data and a disjoint holdout set of real records to construct a binary
-privacy test. If the synthetic data is not more similar to the training data
-than the holdout set is, it passes the test and is considered private. In this
-work we show that, while computationally inexpensive, DCR and other
-distance-based metrics fail to identify privacy leakage. Across multiple
-datasets and both classical models such as Baynet and CTGAN and more recent
-diffusion models, we show that datasets deemed private by proxy metrics are
-highly vulnerable to MIAs. We similarly find both the binary privacy test and
-the continuous measure based on these metrics to be uninformative of actual
-membership inference risk. We further show that these failures are consistent
-across different metric hyperparameter settings and record selection methods.
-Finally, we argue DCR and other distance-based metrics to be flawed by design
-and show a example of a simple leakage they miss in practice. With this work,
-we hope to motivate practitioners to move away from proxy metrics to MIAs as
-the rigorous, comprehensive standard of evaluating privacy of synthetic data,
-in particular to make claims of datasets being legally anonymous.</p>
   </details>
 </div>
 
