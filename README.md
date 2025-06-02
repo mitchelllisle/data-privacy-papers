@@ -2,6 +2,59 @@
 <h2>2025-05</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2505.24603v1">The Gaussian Mixing Mechanism: Renyi Differential Privacy via Gaussian
+  Sketches</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-05-30T13:52:48Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Omri Lev, Vishwak Srinivasan, Moshe Shenfeld, Katrina Ligett, Ayush Sekhari, Ashia C. Wilson</p>
+    <p><b>Summary:</b> Gaussian sketching, which consists of pre-multiplying the data with a random
+Gaussian matrix, is a widely used technique for multiple problems in data
+science and machine learning, with applications spanning computationally
+efficient optimization, coded computing, and federated learning. This operation
+also provides differential privacy guarantees due to its inherent randomness.
+In this work, we revisit this operation through the lens of Renyi Differential
+Privacy (RDP), providing a refined privacy analysis that yields significantly
+tighter bounds than prior results. We then demonstrate how this improved
+analysis leads to performance improvement in different linear regression
+settings, establishing theoretical utility guarantees. Empirically, our methods
+improve performance across multiple datasets and, in several cases, reduce
+runtime.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2505.23655v2">Keyed Chaotic Masking: A Functional Privacy Framework for Neural
+  Inference</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">  
+  <p><b>Published on:</b> 2025-05-29T17:05:42Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Peter David Fagan</p>
+    <p><b>Summary:</b> This work introduces a lightweight framework for privacy-preserving neural
+network inference based on keyed chaotic masking a deterministic, user-specific
+obfuscation method derived from cryptographically seeded chaotic dynamical
+systems. The approach applies masks to input and output tensors using
+key-conditioned graph dynamics, enabling authenticated inference, user
+attribution, and soft output watermarking without modifying model
+architectures. While the underlying chaotic system used to generate each mask
+is not analytically invertible, the masking operation itself is algebraically
+reversible by authorized key holders, offering functional privacy without
+formal cryptographic guarantees. Unlike traditional encryption or secure
+multi-party computation, this method operates in continuous space and imposes
+minimal computational overhead. We describe the construction of the masking
+system, including graph sampling, dynamical rule selection, and chaos
+diagnostics. Applications include privacy-preserving inference, secure data
+contribution, and per-user watermarking in shared model pipelines. This
+framework offers a practical and modular building block for user-controlled
+privacy in modern AI systems.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2505.23031v1">Towards Privacy-Preserving Fine-Grained Visual Classification via
   Hierarchical Learning from Label Proportions</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
@@ -28,6 +81,36 @@ performance. Experiments on three widely-used fine-grained datasets, structured
 in a bag-based manner, demonstrate that our framework consistently outperforms
 existing LLP-based methods. We will release our code and datasets to foster
 further research in privacy-preserving fine-grained classification.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2505.23849v1">CADRE: Customizable Assurance of Data Readiness in Privacy-Preserving
+  Federated Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-05-28T21:24:46Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Kaveen Hiniduma, Zilinghan Li, Aditya Sinha, Ravi Madduri, Suren Byna</p>
+    <p><b>Summary:</b> Privacy-Preserving Federated Learning (PPFL) is a decentralized machine
+learning approach where multiple clients train a model collaboratively. PPFL
+preserves privacy and security of the client's data by not exchanging it.
+However, ensuring that data at each client is of high quality and ready for
+federated learning (FL) is a challenge due to restricted data access. In this
+paper, we introduce CADRE (Customizable Assurance of Data REadiness) for FL, a
+novel framework that allows users to define custom data readiness (DR)
+standards, metrics, rules, and remedies tailored to specific FL tasks. Our
+framework generates comprehensive DR reports based on the user-defined metrics,
+rules, and remedies to ensure datasets are optimally prepared for FL while
+preserving privacy. We demonstrate the framework's practical application by
+integrating it into an existing PPFL framework. We conducted experiments across
+six diverse datasets, addressing seven different DR issues. The results
+illustrate the framework's versatility and effectiveness in ensuring DR across
+various dimensions, including data quality, privacy, and fairness. This
+approach enhances the performance and reliability of FL models as well as
+utilizes valuable resources by identifying and addressing data-related issues
+before the training phase.</p>
   </details>
 </div>
 
@@ -110,6 +193,25 @@ successfully obfuscate attackers, maintain data utility, and remain
 system-agnostic. We experimentally prove its detection and defense against
 various state-of-the-art MIA methods and its adaptability to existing private
 RAG systems.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2505.23825v1">Privacy-Preserving Inconsistency Measurement</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-05-28T06:24:33Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Carl Corea, Timotheus Kampik, Nico Potyka</p>
+    <p><b>Summary:</b> We investigate a new form of (privacy-preserving) inconsistency measurement
+for multi-party communication. Intuitively, for two knowledge bases K_A, K_B
+(of two agents A, B), our results allow to quantitatively assess the degree of
+inconsistency for K_A U K_B without having to reveal the actual contents of the
+knowledge bases. Using secure multi-party computation (SMPC) and cryptographic
+protocols, we develop two concrete methods for this use-case and show that they
+satisfy important properties of SMPC protocols -- notably, input privacy, i.e.,
+jointly computing the inconsistency degree without revealing the inputs.</p>
   </details>
 </div>
 
@@ -2851,116 +2953,6 @@ demonstrating that certain Haveno trades could be detected, allowing
 transactions to be linked across the Monero and Bitcoin blockchains. We hope
 that our findings can nourish the discussion in the research community about
 more secure designs, and provide insights for regulators.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.02383v1">Connecting Thompson Sampling and UCB: Towards More Efficient Trade-offs
-  Between Privacy and Regret</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-05-05T05:48:52Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Bingshan Hu, Zhiming Huang, Tianyue H. Zhang, Mathias Lécuyer, Nidhi Hegde</p>
-    <p><b>Summary:</b> We address differentially private stochastic bandit problems from the angles
-of exploring the deep connections among Thompson Sampling with Gaussian priors,
-Gaussian mechanisms, and Gaussian differential privacy (GDP). We propose
-DP-TS-UCB, a novel parametrized private bandit algorithm that enables to trade
-off privacy and regret. DP-TS-UCB satisfies $ \tilde{O}
-\left(T^{0.25(1-\alpha)}\right)$-GDP and enjoys an $O
-\left(K\ln^{\alpha+1}(T)/\Delta \right)$ regret bound, where $\alpha \in [0,1]$
-controls the trade-off between privacy and regret. Theoretically, our DP-TS-UCB
-relies on anti-concentration bounds of Gaussian distributions and links
-exploration mechanisms in Thompson Sampling-based algorithms and Upper
-Confidence Bound-based algorithms, which may be of independent interest.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.01976v1">A Survey on Privacy Risks and Protection in Large Language Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-05-04T03:04:07Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Kang Chen, Xiuze Zhou, Yuanguo Lin, Shibo Feng, Li Shen, Pengcheng Wu</p>
-    <p><b>Summary:</b> Although Large Language Models (LLMs) have become increasingly integral to
-diverse applications, their capabilities raise significant privacy concerns.
-This survey offers a comprehensive overview of privacy risks associated with
-LLMs and examines current solutions to mitigate these challenges. First, we
-analyze privacy leakage and attacks in LLMs, focusing on how these models
-unintentionally expose sensitive information through techniques such as model
-inversion, training data extraction, and membership inference. We investigate
-the mechanisms of privacy leakage, including the unauthorized extraction of
-training data and the potential exploitation of these vulnerabilities by
-malicious actors. Next, we review existing privacy protection against such
-risks, such as inference detection, federated learning, backdoor mitigation,
-and confidential computing, and assess their effectiveness in preventing
-privacy leakage. Furthermore, we highlight key practical challenges and propose
-future research directions to develop secure and privacy-preserving LLMs,
-emphasizing privacy risk assessment, secure knowledge transfer between models,
-and interdisciplinary frameworks for privacy governance. Ultimately, this
-survey aims to establish a roadmap for addressing escalating privacy challenges
-in the LLMs domain.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.01879v1">What to Do When Privacy Is Gone</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2025-05-03T17:51:36Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> James Brusseau</p>
-    <p><b>Summary:</b> Today's ethics of privacy is largely dedicated to defending personal
-information from big data technologies. This essay goes in the other direction.
-It considers the struggle to be lost, and explores two strategies for living
-after privacy is gone. First, total exposure embraces privacy's decline, and
-then contributes to the process with transparency. All personal information is
-shared without reservation. The resulting ethics is explored through a big data
-version of Robert Nozick's Experience Machine thought experiment. Second,
-transient existence responds to privacy's loss by ceaselessly generating new
-personal identities, which translates into constantly producing temporarily
-unviolated private information. The ethics is explored through Gilles Deleuze's
-metaphysics of difference applied in linguistic terms to the formation of the
-self. Comparing the exposure and transience alternatives leads to the
-conclusion that today's big data reality splits the traditional ethical link
-between authenticity and freedom. Exposure provides authenticity, but negates
-human freedom. Transience provides freedom, but disdains authenticity.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.01788v1">Privacy Preserving Machine Learning Model Personalization through
-  Federated Personalized Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
-  <p><b>Published on:</b> 2025-05-03T11:31:38Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Md. Tanzib Hosain, Asif Zaman, Md. Shahriar Sajid, Shadman Sakeeb Khan, Shanjida Akter</p>
-    <p><b>Summary:</b> The widespread adoption of Artificial Intelligence (AI) has been driven by
-significant advances in intelligent system research. However, this progress has
-raised concerns about data privacy, leading to a growing awareness of the need
-for privacy-preserving AI. In response, there has been a seismic shift in
-interest towards the leading paradigm for training Machine Learning (ML) models
-on decentralized data silos while maintaining data privacy, Federated Learning
-(FL). This research paper presents a comprehensive performance analysis of a
-cutting-edge approach to personalize ML model while preserving privacy achieved
-through Privacy Preserving Machine Learning with the innovative framework of
-Federated Personalized Learning (PPMLFPL). Regarding the increasing concerns
-about data privacy, this study evaluates the effectiveness of PPMLFPL
-addressing the critical balance between personalized model refinement and
-maintaining the confidentiality of individual user data. According to our
-analysis, Adaptive Personalized Cross-Silo Federated Learning with Differential
-Privacy (APPLE+DP) offering efficient execution whereas overall, the use of the
-Adaptive Personalized Cross-Silo Federated Learning with Homomorphic Encryption
-(APPLE+HE) algorithm for privacy-preserving machine learning tasks in federated
-personalized learning settings is strongly suggested. The results offer
-valuable insights creating it a promising scope for future advancements in the
-field of privacy-conscious data-driven technologies.</p>
   </details>
 </div>
 
