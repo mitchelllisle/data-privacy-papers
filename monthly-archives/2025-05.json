@@ -3048,5 +3048,103 @@
     "categories" : [
       "cs.DB"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.24603v1",
+    "title" : "The Gaussian Mixing Mechanism: Renyi Differential Privacy via Gaussian\n  Sketches",
+    "summary" : "Gaussian sketching, which consists of pre-multiplying the data with a random\nGaussian matrix, is a widely used technique for multiple problems in data\nscience and machine learning, with applications spanning computationally\nefficient optimization, coded computing, and federated learning. This operation\nalso provides differential privacy guarantees due to its inherent randomness.\nIn this work, we revisit this operation through the lens of Renyi Differential\nPrivacy (RDP), providing a refined privacy analysis that yields significantly\ntighter bounds than prior results. We then demonstrate how this improved\nanalysis leads to performance improvement in different linear regression\nsettings, establishing theoretical utility guarantees. Empirically, our methods\nimprove performance across multiple datasets and, in several cases, reduce\nruntime.",
+    "updated" : "2025-05-30T13:52:48Z",
+    "published" : "2025-05-30T13:52:48Z",
+    "authors" : [
+      {
+        "name" : "Omri Lev"
+      },
+      {
+        "name" : "Vishwak Srinivasan"
+      },
+      {
+        "name" : "Moshe Shenfeld"
+      },
+      {
+        "name" : "Katrina Ligett"
+      },
+      {
+        "name" : "Ayush Sekhari"
+      },
+      {
+        "name" : "Ashia C. Wilson"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.23655v2",
+    "title" : "Keyed Chaotic Masking: A Functional Privacy Framework for Neural\n  Inference",
+    "summary" : "This work introduces a lightweight framework for privacy-preserving neural\nnetwork inference based on keyed chaotic masking a deterministic, user-specific\nobfuscation method derived from cryptographically seeded chaotic dynamical\nsystems. The approach applies masks to input and output tensors using\nkey-conditioned graph dynamics, enabling authenticated inference, user\nattribution, and soft output watermarking without modifying model\narchitectures. While the underlying chaotic system used to generate each mask\nis not analytically invertible, the masking operation itself is algebraically\nreversible by authorized key holders, offering functional privacy without\nformal cryptographic guarantees. Unlike traditional encryption or secure\nmulti-party computation, this method operates in continuous space and imposes\nminimal computational overhead. We describe the construction of the masking\nsystem, including graph sampling, dynamical rule selection, and chaos\ndiagnostics. Applications include privacy-preserving inference, secure data\ncontribution, and per-user watermarking in shared model pipelines. This\nframework offers a practical and modular building block for user-controlled\nprivacy in modern AI systems.",
+    "updated" : "2025-05-30T10:56:04Z",
+    "published" : "2025-05-29T17:05:42Z",
+    "authors" : [
+      {
+        "name" : "Peter David Fagan"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "94A60, 37N25, 68T05",
+      "D.4.6"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.23849v1",
+    "title" : "CADRE: Customizable Assurance of Data Readiness in Privacy-Preserving\n  Federated Learning",
+    "summary" : "Privacy-Preserving Federated Learning (PPFL) is a decentralized machine\nlearning approach where multiple clients train a model collaboratively. PPFL\npreserves privacy and security of the client's data by not exchanging it.\nHowever, ensuring that data at each client is of high quality and ready for\nfederated learning (FL) is a challenge due to restricted data access. In this\npaper, we introduce CADRE (Customizable Assurance of Data REadiness) for FL, a\nnovel framework that allows users to define custom data readiness (DR)\nstandards, metrics, rules, and remedies tailored to specific FL tasks. Our\nframework generates comprehensive DR reports based on the user-defined metrics,\nrules, and remedies to ensure datasets are optimally prepared for FL while\npreserving privacy. We demonstrate the framework's practical application by\nintegrating it into an existing PPFL framework. We conducted experiments across\nsix diverse datasets, addressing seven different DR issues. The results\nillustrate the framework's versatility and effectiveness in ensuring DR across\nvarious dimensions, including data quality, privacy, and fairness. This\napproach enhances the performance and reliability of FL models as well as\nutilizes valuable resources by identifying and addressing data-related issues\nbefore the training phase.",
+    "updated" : "2025-05-28T21:24:46Z",
+    "published" : "2025-05-28T21:24:46Z",
+    "authors" : [
+      {
+        "name" : "Kaveen Hiniduma"
+      },
+      {
+        "name" : "Zilinghan Li"
+      },
+      {
+        "name" : "Aditya Sinha"
+      },
+      {
+        "name" : "Ravi Madduri"
+      },
+      {
+        "name" : "Suren Byna"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.23825v1",
+    "title" : "Privacy-Preserving Inconsistency Measurement",
+    "summary" : "We investigate a new form of (privacy-preserving) inconsistency measurement\nfor multi-party communication. Intuitively, for two knowledge bases K_A, K_B\n(of two agents A, B), our results allow to quantitatively assess the degree of\ninconsistency for K_A U K_B without having to reveal the actual contents of the\nknowledge bases. Using secure multi-party computation (SMPC) and cryptographic\nprotocols, we develop two concrete methods for this use-case and show that they\nsatisfy important properties of SMPC protocols -- notably, input privacy, i.e.,\njointly computing the inconsistency degree without revealing the inputs.",
+    "updated" : "2025-05-28T06:24:33Z",
+    "published" : "2025-05-28T06:24:33Z",
+    "authors" : [
+      {
+        "name" : "Carl Corea"
+      },
+      {
+        "name" : "Timotheus Kampik"
+      },
+      {
+        "name" : "Nico Potyka"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
