@@ -3146,5 +3146,279 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.00745v1",
+    "title" : "Controlling the Spread of Epidemics on Networks with Differential\n  Privacy",
+    "summary" : "Designing effective strategies for controlling epidemic spread by vaccination\nis an important question in epidemiology, especially in the early stages when\nvaccines are limited. This is a challenging question when the contact network\nis very heterogeneous, and strategies based on controlling network properties,\nsuch as the degree and spectral radius, have been shown to be effective.\nImplementation of such strategies requires detailed information on the contact\nstructure, which might be sensitive in many applications. Our focus here is on\nchoosing effective vaccination strategies when the edges are sensitive and\ndifferential privacy guarantees are needed. Our main contributions are\n$(\\varepsilon,\\delta)$-differentially private algorithms for designing\nvaccination strategies by reducing the maximum degree and spectral radius. Our\nkey technique is a private algorithm for the multi-set multi-cover problem,\nwhich we use for controlling network properties. We evaluate privacy-utility\ntradeoffs of our algorithms on multiple synthetic and real-world networks, and\nshow their effectiveness.",
+    "updated" : "2025-05-31T23:17:38Z",
+    "published" : "2025-05-31T23:17:38Z",
+    "authors" : [
+      {
+        "name" : "Dung Nguyen"
+      },
+      {
+        "name" : "Aravind Srinivasan"
+      },
+      {
+        "name" : "Renata Valieva"
+      },
+      {
+        "name" : "Anil Vullikanti"
+      },
+      {
+        "name" : "Jiayi Wu"
+      }
+    ],
+    "categories" : [
+      "cs.DS",
+      "cs.CE",
+      "cs.SI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.00660v1",
+    "title" : "Differential Privacy for Deep Learning in Medicine",
+    "summary" : "Differential privacy (DP) is a key technique for protecting sensitive patient\ndata in medical deep learning (DL). As clinical models grow more\ndata-dependent, balancing privacy with utility and fairness has become a\ncritical challenge. This scoping review synthesizes recent developments in\napplying DP to medical DL, with a particular focus on DP-SGD and alternative\nmechanisms across centralized and federated settings. Using a structured search\nstrategy, we identified 74 studies published up to March 2025. Our analysis\nspans diverse data modalities, training setups, and downstream tasks, and\nhighlights the tradeoffs between privacy guarantees, model accuracy, and\nsubgroup fairness. We find that while DP-especially at strong privacy\nbudgets-can preserve performance in well-structured imaging tasks, severe\ndegradation often occurs under strict privacy, particularly in underrepresented\nor complex modalities. Furthermore, privacy-induced performance gaps\ndisproportionately affect demographic subgroups, with fairness impacts varying\nby data type and task. A small subset of studies explicitly addresses these\ntradeoffs through subgroup analysis or fairness metrics, but most omit them\nentirely. Beyond DP-SGD, emerging approaches leverage alternative mechanisms,\ngenerative models, and hybrid federated designs, though reporting remains\ninconsistent. We conclude by outlining key gaps in fairness auditing,\nstandardization, and evaluation protocols, offering guidance for future work\ntoward equitable and clinically robust privacy-preserving DL systems in\nmedicine.",
+    "updated" : "2025-05-31T18:03:15Z",
+    "published" : "2025-05-31T18:03:15Z",
+    "authors" : [
+      {
+        "name" : "Marziyeh Mohammadi"
+      },
+      {
+        "name" : "Mohsen Vejdanihemmat"
+      },
+      {
+        "name" : "Mahshad Lotfinia"
+      },
+      {
+        "name" : "Mirabela Rusu"
+      },
+      {
+        "name" : "Daniel Truhn"
+      },
+      {
+        "name" : "Andreas Maier"
+      },
+      {
+        "name" : "Soroosh Tayebi Arasteh"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.00476v1",
+    "title" : "Towards Graph-Based Privacy-Preserving Federated Learning: ModelNet -- A\n  ResNet-based Model Classification Dataset",
+    "summary" : "Federated Learning (FL) has emerged as a powerful paradigm for training\nmachine learning models across distributed data sources while preserving data\nlocality. However, the privacy of local data is always a pivotal concern and\nhas received a lot of attention in recent research on the FL regime. Moreover,\nthe lack of domain heterogeneity and client-specific segregation in the\nbenchmarks remains a critical bottleneck for rigorous evaluation. In this\npaper, we introduce ModelNet, a novel image classification dataset constructed\nfrom the embeddings extracted from a pre-trained ResNet50 model. First, we\nmodify the CIFAR100 dataset into three client-specific variants, considering\nthree domain heterogeneities (homogeneous, heterogeneous, and random).\nSubsequently, we train each client-specific subset of all three variants on the\npre-trained ResNet50 model to save model parameters. In addition to\nmulti-domain image data, we propose a new hypothesis to define the FL algorithm\nthat can access the anonymized model parameters to preserve the local privacy\nin a more effective manner compared to existing ones. ModelNet is designed to\nsimulate realistic FL settings by incorporating non-IID data distributions and\nclient diversity design principles in the mainframe for both conventional and\nfuturistic graph-driven FL algorithms. The three variants are ModelNet-S,\nModelNet-D, and ModelNet-R, which are based on homogeneous, heterogeneous, and\nrandom data settings, respectively. To the best of our knowledge, we are the\nfirst to propose a cross-environment client-specific FL dataset along with the\ngraph-based variant. Extensive experiments based on domain shifts and\naggregation strategies show the effectiveness of the above variants, making it\na practical benchmark for classical and graph-based FL research. The dataset\nand related code are available online.",
+    "updated" : "2025-05-31T08:53:16Z",
+    "published" : "2025-05-31T08:53:16Z",
+    "authors" : [
+      {
+        "name" : "Abhisek Ray"
+      },
+      {
+        "name" : "Lukas Esterle"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.02038v1",
+    "title" : "Blockchain Powered Edge Intelligence for U-Healthcare in Privacy\n  Critical and Time Sensitive Environment",
+    "summary" : "Edge Intelligence (EI) serves as a critical enabler for privacy-preserving\nsystems by providing AI-empowered computation and distributed caching services\nat the edge, thereby minimizing latency and enhancing data privacy. The\nintegration of blockchain technology further augments EI frameworks by ensuring\ntransactional transparency, auditability, and system-wide reliability through a\ndecentralized network model. However, the operational architecture of such\nsystems introduces inherent vulnerabilities, particularly due to the extensive\ndata interactions between edge gateways (EGs) and the distributed nature of\ninformation storage during service provisioning. To address these challenges,\nwe propose an autonomous computing model along with its interaction topologies\ntailored for privacy-critical and time-sensitive health applications. The\nsystem supports continuous monitoring, real-time alert notifications, disease\ndetection, and robust data processing and aggregation. It also includes a data\ntransaction handler and mechanisms for ensuring privacy at the EGs. Moreover, a\nresource-efficient one-dimensional convolutional neural network (1D-CNN) is\nproposed for the multiclass classification of arrhythmia, enabling accurate and\nreal-time analysis of constrained EGs. Furthermore, a secure access scheme is\ndefined to manage both off-chain and on-chain data sharing and storage. To\nvalidate the proposed model, comprehensive security, performance, and cost\nanalyses are conducted, demonstrating the efficiency and reliability of the\nfine-grained access control scheme.",
+    "updated" : "2025-05-31T06:58:52Z",
+    "published" : "2025-05-31T06:58:52Z",
+    "authors" : [
+      {
+        "name" : "Anum Nawaz"
+      },
+      {
+        "name" : "Hafiz Humza Mahmood Ramzan"
+      },
+      {
+        "name" : "Xianjia Yu"
+      },
+      {
+        "name" : "Zhuo Zou"
+      },
+      {
+        "name" : "Tomi Westerlund"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.00416v1",
+    "title" : "Blockchain-Enabled Privacy-Preserving Second-Order Federated Edge\n  Learning in Personalized Healthcare",
+    "summary" : "Federated learning (FL) has attracted increasing attention to mitigate\nsecurity and privacy challenges in traditional cloud-centric machine learning\nmodels specifically in healthcare ecosystems. FL methodologies enable the\ntraining of global models through localized policies, allowing independent\noperations at the edge clients' level. Conventional first-order FL approaches\nface several challenges in personalized model training due to heterogeneous\nnon-independent and identically distributed (non-iid) data of each edge client.\nRecently, second-order FL approaches maintain the stability and consistency of\nnon-iid datasets while improving personalized model training. This study\nproposes and develops a verifiable and auditable optimized second-order FL\nframework BFEL (blockchain-enhanced federated edge learning) based on optimized\nFedCurv for personalized healthcare systems. FedCurv incorporates information\nabout the importance of each parameter to each client's task (through Fisher\nInformation Matrix) which helps to preserve client-specific knowledge and\nreduce model drift during aggregation. Moreover, it minimizes communication\nrounds required to achieve a target precision convergence for each edge client\nwhile effectively managing personalized training on non-iid and heterogeneous\ndata. The incorporation of Ethereum-based model aggregation ensures trust,\nverifiability, and auditability while public key encryption enhances privacy\nand security. Experimental results of federated CNNs and MLPs utilizing Mnist,\nCifar-10, and PathMnist demonstrate the high efficiency and scalability of the\nproposed framework.",
+    "updated" : "2025-05-31T06:41:04Z",
+    "published" : "2025-05-31T06:41:04Z",
+    "authors" : [
+      {
+        "name" : "Anum Nawaz"
+      },
+      {
+        "name" : "Muhammad Irfan"
+      },
+      {
+        "name" : "Xianjia Yu"
+      },
+      {
+        "name" : "Zhuo Zou"
+      },
+      {
+        "name" : "Tomi Westerlund"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.00158v1",
+    "title" : "Privacy Amplification in Differentially Private Zeroth-Order\n  Optimization with Hidden States",
+    "summary" : "Zeroth-order optimization has emerged as a promising approach for fine-tuning\nlarge language models on domain-specific data, particularly under differential\nprivacy (DP) and memory constraints. While first-order methods have been\nextensively studied from a privacy perspective, the privacy analysis and\nalgorithmic design for zeroth-order methods remain significantly underexplored.\nA critical open question concerns hidden-state DP analysis: although convergent\nprivacy bounds are known for first-order methods, it has remained unclear\nwhether similar guarantees can be established for zeroth-order methods. In this\nwork, we provide an affirmative answer by proving a convergent DP bound for\nzeroth-order optimization. Our analysis generalizes the celebrated privacy\namplification-by-iteration framework to the setting of smooth loss functions in\nzeroth-order optimization. Furthermore, it induces better DP zeroth-order\nalgorithmic designs that are previously unknown to the literature.",
+    "updated" : "2025-05-30T18:55:32Z",
+    "published" : "2025-05-30T18:55:32Z",
+    "authors" : [
+      {
+        "name" : "Eli Chien"
+      },
+      {
+        "name" : "Wei-Ning Chen"
+      },
+      {
+        "name" : "Pan Li"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.00124v1",
+    "title" : "randextract: a Reference Library to Test and Validate Privacy\n  Amplification Implementations",
+    "summary" : "Quantum cryptographic protocols do not rely only on quantum-physical\nresources, they also require reliable classical communication and computation.\nIn particular, the secrecy of any quantum key distribution protocol critically\ndepends on the correct execution of the privacy amplification step. This is a\nclassical post-processing procedure transforming a partially secret bit string,\nknown to be somewhat correlated with an adversary, into a shorter bit string\nthat is close to uniform and independent of the adversary's knowledge. It is\ntypically implemented using randomness extractors. Standardization efforts in\nquantum cryptography have focused on the security of physical devices and\nquantum operations. Future efforts should also consider all algorithms used in\nclassical post-processing, especially in privacy amplification, due to its\ncritical role in ensuring the final security of the key. We present\nrandextract, a reference library to test and validate privacy amplification\nimplementations.",
+    "updated" : "2025-05-30T18:01:50Z",
+    "published" : "2025-05-30T18:01:50Z",
+    "authors" : [
+      {
+        "name" : "Iyán Méndez Veiga"
+      },
+      {
+        "name" : "Esther Hänggi"
+      }
+    ],
+    "categories" : [
+      "quant-ph",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.00100v1",
+    "title" : "Children's Voice Privacy: First Steps And Emerging Challenges",
+    "summary" : "Children are one of the most under-represented groups in speech technologies,\nas well as one of the most vulnerable in terms of privacy. Despite this,\nanonymization techniques targeting this population have received little\nattention. In this study, we seek to bridge this gap, and establish a baseline\nfor the use of voice anonymization techniques designed for adult speech when\napplied to children's voices. Such an evaluation is essential, as children's\nspeech presents a distinct set of challenges when compared to that of adults.\nThis study comprises three children's datasets, six anonymization methods, and\nobjective and subjective utility metrics for evaluation. Our results show that\nexisting systems for adults are still able to protect children's voice privacy,\nbut suffer from much higher utility degradation. In addition, our subjective\nstudy displays the challenges of automatic evaluation methods for speech\nquality in children's speech, highlighting the need for further research.",
+    "updated" : "2025-05-30T13:21:18Z",
+    "published" : "2025-05-30T13:21:18Z",
+    "authors" : [
+      {
+        "name" : "Ajinkya Kulkarni"
+      },
+      {
+        "name" : "Francisco Teixeira"
+      },
+      {
+        "name" : "Enno Hermann"
+      },
+      {
+        "name" : "Thomas Rolland"
+      },
+      {
+        "name" : "Isabel Trancoso"
+      },
+      {
+        "name" : "Mathew Magimai Doss"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.AI",
+      "cs.CL",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.02030v1",
+    "title" : "Adaptive Privacy-Preserving SSD",
+    "summary" : "Data remanence in NAND flash complicates complete deletion on IoT SSDs. We\ndesign an adaptive architecture offering four privacy levels (PL0-PL3) that\nselect among address, data, and parity deletion techniques. Quantitative\nanalysis balances efficacy, latency, endurance, and cost. Machine-learning\nadjusts levels contextually, boosting privacy with negligible performance\noverhead and complexity.",
+    "updated" : "2025-05-30T13:08:42Z",
+    "published" : "2025-05-30T13:08:42Z",
+    "authors" : [
+      {
+        "name" : "Na Young Ahn"
+      },
+      {
+        "name" : "Dong Hoon Lee"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "H.3"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.23655v3",
+    "title" : "Keyed Chaotic Dynamics for Privacy-Preserving Neural Inference",
+    "summary" : "Neural network inference typically operates on raw input data, increasing the\nrisk of exposure during preprocessing and inference. Moreover, neural\narchitectures lack efficient built-in mechanisms for directly authenticating\ninput data. This work introduces a novel encryption method for ensuring the\nsecurity of neural inference. By constructing key-conditioned chaotic graph\ndynamical systems, we enable the encryption and decryption of real-valued\ntensors within the neural architecture. The proposed dynamical systems are\nparticularly suited to encryption due to their sensitivity to initial\nconditions and their capacity to produce complex, key-dependent nonlinear\ntransformations from compact rules. This work establishes a paradigm for\nsecuring neural inference and opens new avenues for research on the application\nof graph dynamical systems in neural network security.",
+    "updated" : "2025-06-03T16:59:29Z",
+    "published" : "2025-05-29T17:05:42Z",
+    "authors" : [
+      {
+        "name" : "Peter David Fagan"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "94A60, 37N25, 68T05",
+      "D.4.6"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.00060v1",
+    "title" : "Comparative analysis of privacy-preserving open-source LLMs regarding\n  extraction of diagnostic information from clinical CMR imaging reports",
+    "summary" : "Purpose: We investigated the utilization of privacy-preserving,\nlocally-deployed, open-source Large Language Models (LLMs) to extract\ndiagnostic information from free-text cardiovascular magnetic resonance (CMR)\nreports. Materials and Methods: We evaluated nine open-source LLMs on their\nability to identify diagnoses and classify patients into various cardiac\ndiagnostic categories based on descriptive findings in 109 clinical CMR\nreports. Performance was quantified using standard classification metrics\nincluding accuracy, precision, recall, and F1 score. We also employed confusion\nmatrices to examine patterns of misclassification across models. Results: Most\nopen-source LLMs demonstrated exceptional performance in classifying reports\ninto different diagnostic categories. Google's Gemma2 model achieved the\nhighest average F1 score of 0.98, followed by Qwen2.5:32B and DeepseekR1-32B\nwith F1 scores of 0.96 and 0.95, respectively. All other evaluated models\nattained average scores above 0.93, with Mistral and DeepseekR1-7B being the\nonly exceptions. The top four LLMs outperformed our board-certified\ncardiologist (F1 score of 0.94) across all evaluation metrics in analyzing CMR\nreports. Conclusion: Our findings demonstrate the feasibility of implementing\nopen-source, privacy-preserving LLMs in clinical settings for automated\nanalysis of imaging reports, enabling accurate, fast and resource-efficient\ndiagnostic categorization.",
+    "updated" : "2025-05-29T11:25:10Z",
+    "published" : "2025-05-29T11:25:10Z",
+    "authors" : [
+      {
+        "name" : "Sina Amirrajab"
+      },
+      {
+        "name" : "Volker Vehof"
+      },
+      {
+        "name" : "Michael Bietenbeck"
+      },
+      {
+        "name" : "Ali Yilmaz"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.AI",
+      "cs.CL"
+    ]
   }
 ]
