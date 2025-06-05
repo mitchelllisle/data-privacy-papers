@@ -2,6 +2,100 @@
 <h2>2025-06</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2506.04036v1">Privacy and Security Threat for OpenAI GPTs</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-06-04T14:58:29Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Wei Wenying, Zhao Kaifa, Xue Lei, Fan Ming</p>
+    <p><b>Summary:</b> Large language models (LLMs) demonstrate powerful information handling
+capabilities and are widely integrated into chatbot applications. OpenAI
+provides a platform for developers to construct custom GPTs, extending
+ChatGPT's functions and integrating external services. Since its release in
+November 2023, over 3 million custom GPTs have been created. However, such a
+vast ecosystem also conceals security and privacy threats. For developers,
+instruction leaking attacks threaten the intellectual property of instructions
+in custom GPTs through carefully crafted adversarial prompts. For users,
+unwanted data access behavior by custom GPTs or integrated third-party services
+raises significant privacy concerns. To systematically evaluate the scope of
+threats in real-world LLM applications, we develop three phases instruction
+leaking attacks target GPTs with different defense level. Our widespread
+experiments on 10,000 real-world custom GPTs reveal that over 98.8% of GPTs are
+vulnerable to instruction leaking attacks via one or more adversarial prompts,
+and half of the remaining GPTs can also be attacked through multiround
+conversations. We also developed a framework to assess the effectiveness of
+defensive strategies and identify unwanted behaviors in custom GPTs. Our
+findings show that 77.5% of custom GPTs with defense strategies are vulnerable
+to basic instruction leaking attacks. Additionally, we reveal that 738 custom
+GPTs collect user conversational information, and identified 8 GPTs exhibiting
+data access behaviors that are unnecessary for their intended functionalities.
+Our findings raise awareness among GPT developers about the importance of
+integrating specific defensive strategies in their instructions and highlight
+users' concerns about data privacy when using LLM-based applications.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2506.03870v1">Evaluating Apple Intelligence's Writing Tools for Privacy Against Large
+  Language Model-Based Inference Attacks: Insights from Early Datasets</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-06-04T12:01:17Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mohd. Farhan Israk Soumik, Syed Mhamudul Hasan, Abdur R. Shahid</p>
+    <p><b>Summary:</b> The misuse of Large Language Models (LLMs) to infer emotions from text for
+malicious purposes, known as emotion inference attacks, poses a significant
+threat to user privacy. In this paper, we investigate the potential of Apple
+Intelligence's writing tools, integrated across iPhone, iPad, and MacBook, to
+mitigate these risks through text modifications such as rewriting and tone
+adjustment. By developing early novel datasets specifically for this purpose,
+we empirically assess how different text modifications influence LLM-based
+detection. This capability suggests strong potential for Apple Intelligence's
+writing tools as privacy-preserving mechanisms. Our findings lay the groundwork
+for future adaptive rewriting systems capable of dynamically neutralizing
+sensitive emotional content to enhance user privacy. To the best of our
+knowledge, this research provides the first empirical analysis of Apple
+Intelligence's text-modification tools within a privacy-preservation context
+with the broader goal of developing on-device, user-centric privacy-preserving
+mechanisms to protect against LLMs-based advanced inference attacks on deployed
+systems.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2506.03618v1">GCFL: A Gradient Correction-based Federated Learning Framework for
+  Privacy-preserving CPSS</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-06-04T06:52:37Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jiayi Wan, Xiang Zhu, Fanzhen Liu, Wei Fan, Xiaolong Xu</p>
+    <p><b>Summary:</b> Federated learning, as a distributed architecture, shows great promise for
+applications in Cyber-Physical-Social Systems (CPSS). In order to mitigate the
+privacy risks inherent in CPSS, the integration of differential privacy with
+federated learning has attracted considerable attention. Existing research
+mainly focuses on dynamically adjusting the noise added or discarding certain
+gradients to mitigate the noise introduced by differential privacy. However,
+these approaches fail to remove the noise that hinders convergence and correct
+the gradients affected by the noise, which significantly reduces the accuracy
+of model classification. To overcome these challenges, this paper proposes a
+novel framework for differentially private federated learning that balances
+rigorous privacy guarantees with accuracy by introducing a server-side gradient
+correction mechanism. Specifically, after clients perform gradient clipping and
+noise perturbation, our framework detects deviations in the noisy local
+gradients and employs a projection mechanism to correct them, mitigating the
+negative impact of noise. Simultaneously, gradient projection promotes the
+alignment of gradients from different clients and guides the model towards
+convergence to a global optimum. We evaluate our framework on several benchmark
+datasets, and the experimental results demonstrate that it achieves
+state-of-the-art performance under the same privacy budget.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2506.02998v1">A Multi-Agent Framework for Mitigating Dialect Biases in Privacy Policy
   Question-Answering Systems</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
@@ -31,8 +125,8 @@ ensure equitable access to privacy information.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.02965v1">Memory-Efficient and Privacy-Preserving Collaborative Training for
-  Mixture-of-Experts LLMs</a></h3>
+  <h3><a href="http://arxiv.org/abs/2506.02965v2">PC-MoE: Memory-Efficient and Privacy-Preserving Collaborative Training
+  for Mixture-of-Experts LLMs</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2025-06-03T15:00:18Z</p>
   <details>
@@ -645,7 +739,7 @@ implementations.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.24603v1">The Gaussian Mixing Mechanism: Renyi Differential Privacy via Gaussian
+  <h3><a href="http://arxiv.org/abs/2505.24603v2">The Gaussian Mixing Mechanism: Renyi Differential Privacy via Gaussian
   Sketches</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2025-05-30T13:52:48Z</p>
@@ -669,7 +763,7 @@ runtime.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.00100v1">Children's Voice Privacy: First Steps And Emerging Challenges</a></h3>
+  <h3><a href="http://arxiv.org/abs/2506.00100v2">Children's Voice Privacy: First Steps And Emerging Challenges</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2025-05-30T13:21:18Z</p>
   <details>
@@ -2846,89 +2940,6 @@ continuous state space. Validated in a mixed-autonomy platoon scenario, our
 method effectively protects sensitive driving behavior parameters of
 human-driven vehicles (HDVs) against inference attacks while maintaining
 negligible impact on fuel efficiency.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.05922v2">Cape: Context-Aware Prompt Perturbation Mechanism with Differential
-  Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-05-09T09:54:07Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Haoqi Wu, Wei Dai, Li Wang, Qiang Yan</p>
-    <p><b>Summary:</b> Large Language Models (LLMs) have gained significant popularity due to their
-remarkable capabilities in text understanding and generation. However, despite
-their widespread deployment in inference services such as ChatGPT, concerns
-about the potential leakage of sensitive user data have arisen. Existing
-solutions primarily rely on privacy-enhancing technologies to mitigate such
-risks, facing the trade-off among efficiency, privacy, and utility. To narrow
-this gap, we propose Cape, a context-aware prompt perturbation mechanism based
-on differential privacy, to enable efficient inference with an improved
-privacy-utility trade-off. Concretely, we introduce a hybrid utility function
-that better captures the token similarity. Additionally, we propose a
-bucketized sampling mechanism to handle large sampling space, which might lead
-to long-tail phenomenons. Extensive experiments across multiple datasets, along
-with ablation studies, demonstrate that Cape achieves a better privacy-utility
-trade-off compared to prior state-of-the-art works.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.05920v1">Privacy-Preserving Credit Card Approval Using Homomorphic SVM: Toward
-  Secure Inference in FinTech Applications</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-05-09T09:46:56Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b>  Faneela, Baraq Ghaleb, Jawad Ahmad, William J. Buchanan, Sana Ullah Jan</p>
-    <p><b>Summary:</b> The growing use of machine learning in cloud environments raises critical
-concerns about data security and privacy, especially in finance. Fully
-Homomorphic Encryption (FHE) offers a solution by enabling computations on
-encrypted data, but its high computational cost limits practicality. In this
-paper, we propose PP-FinTech, a privacy-preserving scheme for financial
-applications that employs a CKKS-based encrypted soft-margin SVM, enhanced with
-a hybrid kernel for modeling non-linear patterns and an adaptive thresholding
-mechanism for robust encrypted classification. Experiments on the Credit Card
-Approval dataset demonstrate comparable performance to the plaintext models,
-highlighting PP-FinTech's ability to balance privacy, and efficiency in secure
-financial ML systems.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.05859v1">Integrating Building Thermal Flexibility Into Distribution System: A
-  Privacy-Preserved Dispatch Approach</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
-  <p><b>Published on:</b> 2025-05-09T07:53:08Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shuai Lu, Zeyin Hou, Wei Gu, Yijun Xu</p>
-    <p><b>Summary:</b> The inherent thermal storage capacity of buildings brings considerable
-thermal flexibility to the heating/cooling loads, which are promising demand
-response resources for power systems. It is widely believed that integrating
-the thermal flexibility of buildings into the distribution system can improve
-the operating economy and reliability of the system. However, the private
-information of the buildings needs to be transferred to the distribution system
-operator (DSO) to achieve a coordinated optimization, bringing serious privacy
-concerns to users. Given this issue, we propose a novel privacy-preserved
-optimal dispatch approach for the distribution system incorporating buildings.
-Using it, the DSO can exploit the thermal flexibility of buildings without
-accessing their private information, such as model parameters and indoor
-temperature profiles. Specifically, we first develop an optimal dispatch model
-for the distribution system integrating buildings, which can be extended to
-other storage-like flexibility resources. Second, we reveal that the
-privacy-preserved integration of buildings is a joint privacy preservation
-problem for both parameters and state variables and then design a
-privacy-preserved algorithm based on transformation-based encryption,
-constraint relaxation, and constraint extension techniques. Besides, we
-implement a detailed privacy analysis for the proposed method, considering both
-semi-honest adversaries and external eavesdroppers. Case studies demonstrate
-the accuracy, privacy-preserved performance, and computational efficiency of
-the proposed method.</p>
   </details>
 </div>
 
