@@ -3420,5 +3420,68 @@
       "cs.AI",
       "cs.CL"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.24603v2",
+    "title" : "The Gaussian Mixing Mechanism: Renyi Differential Privacy via Gaussian\n  Sketches",
+    "summary" : "Gaussian sketching, which consists of pre-multiplying the data with a random\nGaussian matrix, is a widely used technique for multiple problems in data\nscience and machine learning, with applications spanning computationally\nefficient optimization, coded computing, and federated learning. This operation\nalso provides differential privacy guarantees due to its inherent randomness.\nIn this work, we revisit this operation through the lens of Renyi Differential\nPrivacy (RDP), providing a refined privacy analysis that yields significantly\ntighter bounds than prior results. We then demonstrate how this improved\nanalysis leads to performance improvement in different linear regression\nsettings, establishing theoretical utility guarantees. Empirically, our methods\nimprove performance across multiple datasets and, in several cases, reduce\nruntime.",
+    "updated" : "2025-06-04T16:02:22Z",
+    "published" : "2025-05-30T13:52:48Z",
+    "authors" : [
+      {
+        "name" : "Omri Lev"
+      },
+      {
+        "name" : "Vishwak Srinivasan"
+      },
+      {
+        "name" : "Moshe Shenfeld"
+      },
+      {
+        "name" : "Katrina Ligett"
+      },
+      {
+        "name" : "Ayush Sekhari"
+      },
+      {
+        "name" : "Ashia C. Wilson"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.00100v2",
+    "title" : "Children's Voice Privacy: First Steps And Emerging Challenges",
+    "summary" : "Children are one of the most under-represented groups in speech technologies,\nas well as one of the most vulnerable in terms of privacy. Despite this,\nanonymization techniques targeting this population have received little\nattention. In this study, we seek to bridge this gap, and establish a baseline\nfor the use of voice anonymization techniques designed for adult speech when\napplied to children's voices. Such an evaluation is essential, as children's\nspeech presents a distinct set of challenges when compared to that of adults.\nThis study comprises three children's datasets, six anonymization methods, and\nobjective and subjective utility metrics for evaluation. Our results show that\nexisting systems for adults are still able to protect children's voice privacy,\nbut suffer from much higher utility degradation. In addition, our subjective\nstudy displays the challenges of automatic evaluation methods for speech\nquality in children's speech, highlighting the need for further research.",
+    "updated" : "2025-06-04T13:30:41Z",
+    "published" : "2025-05-30T13:21:18Z",
+    "authors" : [
+      {
+        "name" : "Ajinkya Kulkarni"
+      },
+      {
+        "name" : "Francisco Teixeira"
+      },
+      {
+        "name" : "Enno Hermann"
+      },
+      {
+        "name" : "Thomas Rolland"
+      },
+      {
+        "name" : "Isabel Trancoso"
+      },
+      {
+        "name" : "Mathew Magimai Doss"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.AI",
+      "cs.CL",
+      "cs.CR"
+    ]
   }
 ]
