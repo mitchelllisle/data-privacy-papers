@@ -2,6 +2,79 @@
 <h2>2025-06</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2506.05290v1">Big Bird: Privacy Budget Management for W3C's Privacy-Preserving
+  Attribution API</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-06-05T17:45:13Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Pierre Tholoniat, Alison Caulfield, Giorgio Cavicchioli, Mark Chen, Nikos Goutzoulias, Benjamin Case, Asaf Cidon, Roxana Geambasu, Mathias Lécuyer, Martin Thomson</p>
+    <p><b>Summary:</b> Privacy-preserving advertising APIs like Privacy-Preserving Attribution (PPA)
+are designed to enhance web privacy while enabling effective ad measurement.
+PPA offers an alternative to cross-site tracking with encrypted reports
+governed by differential privacy (DP), but current designs lack a principled
+approach to privacy budget management, creating uncertainty around critical
+design decisions. We present Big Bird, a privacy budget manager for PPA that
+clarifies per-site budget semantics and introduces a global budgeting system
+grounded in resource isolation principles. Big Bird enforces utility-preserving
+limits via quota budgets and improves global budget utilization through a novel
+batched scheduling algorithm. Together, these mechanisms establish a robust
+foundation for enforcing privacy protections in adversarial environments. We
+implement Big Bird in Firefox and evaluate it on real-world ad data,
+demonstrating its resilience and effectiveness.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2506.05101v1">Privacy Amplification Through Synthetic Data: Insights from Linear
+  Regression</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
+  <p><b>Published on:</b> 2025-06-05T14:44:15Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Clément Pierquin, Aurélien Bellet, Marc Tommasi, Matthieu Boussard</p>
+    <p><b>Summary:</b> Synthetic data inherits the differential privacy guarantees of the model used
+to generate it. Additionally, synthetic data may benefit from privacy
+amplification when the generative model is kept hidden. While empirical studies
+suggest this phenomenon, a rigorous theoretical understanding is still lacking.
+In this paper, we investigate this question through the well-understood
+framework of linear regression. First, we establish negative results showing
+that if an adversary controls the seed of the generative model, a single
+synthetic data point can leak as much information as releasing the model
+itself. Conversely, we show that when synthetic data is generated from random
+inputs, releasing a limited number of synthetic data points amplifies privacy
+beyond the model's inherent guarantees. We believe our findings in linear
+regression can serve as a foundation for deriving more general bounds in the
+future.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2506.04978v1">Evaluating the Impact of Privacy-Preserving Federated Learning on CAN
+  Intrusion Detection</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-06-05T12:49:22Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Gabriele Digregorio, Elisabetta Cainazzo, Stefano Longari, Michele Carminati, Stefano Zanero</p>
+    <p><b>Summary:</b> The challenges derived from the data-intensive nature of machine learning in
+conjunction with technologies that enable novel paradigms such as V2X and the
+potential offered by 5G communication, allow and justify the deployment of
+Federated Learning (FL) solutions in the vehicular intrusion detection domain.
+In this paper, we investigate the effects of integrating FL strategies into the
+machine learning-based intrusion detection process for on-board vehicular
+networks. Accordingly, we propose a FL implementation of a state-of-the-art
+Intrusion Detection System (IDS) for Controller Area Network (CAN), based on
+LSTM autoencoders. We thoroughly evaluate its detection efficiency and
+communication overhead, comparing it to a centralized version of the same
+algorithm, thereby presenting it as a feasible solution.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2506.04036v1">Privacy and Security Threat for OpenAI GPTs</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
   <p><b>Published on:</b> 2025-06-04T14:58:29Z</p>
@@ -2841,105 +2914,6 @@ computing schemes, and that the privacy leakage can be bounded strictly to less
 than a fraction of one bit per participant. Additionally, the computational
 cost of the encoding and decoding processes depends only of the degree of
 decentralization of the data.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.06747v1">DPolicy: Managing Privacy Risks Across Multiple Releases with
-  Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-05-10T19:49:51Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Nicolas Küchler, Alexander Viand, Hidde Lycklama, Anwar Hithnawi</p>
-    <p><b>Summary:</b> Differential Privacy (DP) has emerged as a robust framework for
-privacy-preserving data releases and has been successfully applied in
-high-profile cases, such as the 2020 US Census. However, in organizational
-settings, the use of DP remains largely confined to isolated data releases.
-This approach restricts the potential of DP to serve as a framework for
-comprehensive privacy risk management at an organizational level. Although one
-might expect that the cumulative privacy risk of isolated releases could be
-assessed using DP's compositional property, in practice, individual DP
-guarantees are frequently tailored to specific releases, making it difficult to
-reason about their interaction or combined impact. At the same time, less
-tailored DP guarantees, which compose more easily, also offer only limited
-insight because they lead to excessively large privacy budgets that convey
-limited meaning. To address these limitations, we present DPolicy, a system
-designed to manage cumulative privacy risks across multiple data releases using
-DP. Unlike traditional approaches that treat each release in isolation or rely
-on a single (global) DP guarantee, our system employs a flexible framework that
-considers multiple DP guarantees simultaneously, reflecting the diverse
-contexts and scopes typical of real-world DP deployments. DPolicy introduces a
-high-level policy language to formalize privacy guarantees, making
-traditionally implicit assumptions on scopes and contexts explicit. By deriving
-the DP guarantees required to enforce complex privacy semantics from these
-high-level policies, DPolicy enables fine-grained privacy risk management on an
-organizational scale. We implement and evaluate DPolicy, demonstrating how it
-mitigates privacy risks that can emerge without comprehensive,
-organization-wide privacy risk management.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.07872v3">Revenue Optimization in Video Caching Networks with Privacy-Preserving
-  Demand Predictions</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762"> 
-  <p><b>Published on:</b> 2025-05-09T21:05:20Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yijing Zhang, Ferdous Pervej, Andreas F. Molisch</p>
-    <p><b>Summary:</b> Performance of video streaming, which accounts for most of the traffic in
-wireless communication, can be significantly improved by caching popular videos
-at the wireless edge. Determining the cache content that optimizes performance
-(defined via a revenue function) is thus an important task, and prediction of
-the future demands based on past history can make this process much more
-efficient. However, since practical video caching networks involve various
-parties (e.g., users, isp, and csp) that do not wish to reveal information such
-as past history to each other, privacy-preserving solutions are required.
-Motivated by this, we propose a proactive caching method based on users'
-privacy-preserving multi-slot future demand predictions -- obtained from a
-trained Transformer -- to optimize revenue. Specifically, we first use a
-privacy-preserving fl algorithm to train a Transformer to predict multi-slot
-future demands of the users. However, prediction accuracy is not perfect and
-decreases the farther into the future the prediction is done. We model the
-impact of prediction errors invoking the file popularities, based on which we
-formulate a long-term system revenue optimization to make the cache placement
-decisions. As the formulated problem is NP-hard, we use a greedy algorithm to
-efficiently obtain an approximate solution. Simulation results validate that
-(i) the fl solution achieves results close to the centralized
-(non-privacy-preserving) solution and (ii) optimization of revenue may provide
-different solutions than the classical chr criterion.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.06122v1">Interaction-Aware Parameter Privacy-Preserving Data Sharing in Coupled
-  Systems via Particle Filter Reinforcement Learning</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
-  <p><b>Published on:</b> 2025-05-09T15:25:48Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Haokun Yu, Jingyuan Zhou, Kaidi Yang</p>
-    <p><b>Summary:</b> This paper addresses the problem of parameter privacy-preserving data sharing
-in coupled systems, where a data provider shares data with a data user but
-wants to protect its sensitive parameters. The shared data affects not only the
-data user's decision-making but also the data provider's operations through
-system interactions. To trade off control performance and privacy, we propose
-an interaction-aware privacy-preserving data sharing approach. Our approach
-generates distorted data by minimizing a combination of (i) mutual information,
-quantifying privacy leakage of sensitive parameters, and (ii) the impact of
-distorted data on the data provider's control performance, considering the
-interactions between stakeholders. The optimization problem is formulated into
-a Bellman equation and solved by a particle filter reinforcement learning
-(RL)-based approach. Compared to existing RL-based methods, our formulation
-significantly reduces history dependency and efficiently handles scenarios with
-continuous state space. Validated in a mixed-autonomy platoon scenario, our
-method effectively protects sensitive driving behavior parameters of
-human-driven vehicles (HDVs) against inference attacks while maintaining
-negligible impact on fuel efficiency.</p>
   </details>
 </div>
 
