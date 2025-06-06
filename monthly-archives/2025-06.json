@@ -515,5 +515,100 @@
     "categories" : [
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.05290v1",
+    "title" : "Big Bird: Privacy Budget Management for W3C's Privacy-Preserving\n  Attribution API",
+    "summary" : "Privacy-preserving advertising APIs like Privacy-Preserving Attribution (PPA)\nare designed to enhance web privacy while enabling effective ad measurement.\nPPA offers an alternative to cross-site tracking with encrypted reports\ngoverned by differential privacy (DP), but current designs lack a principled\napproach to privacy budget management, creating uncertainty around critical\ndesign decisions. We present Big Bird, a privacy budget manager for PPA that\nclarifies per-site budget semantics and introduces a global budgeting system\ngrounded in resource isolation principles. Big Bird enforces utility-preserving\nlimits via quota budgets and improves global budget utilization through a novel\nbatched scheduling algorithm. Together, these mechanisms establish a robust\nfoundation for enforcing privacy protections in adversarial environments. We\nimplement Big Bird in Firefox and evaluate it on real-world ad data,\ndemonstrating its resilience and effectiveness.",
+    "updated" : "2025-06-05T17:45:13Z",
+    "published" : "2025-06-05T17:45:13Z",
+    "authors" : [
+      {
+        "name" : "Pierre Tholoniat"
+      },
+      {
+        "name" : "Alison Caulfield"
+      },
+      {
+        "name" : "Giorgio Cavicchioli"
+      },
+      {
+        "name" : "Mark Chen"
+      },
+      {
+        "name" : "Nikos Goutzoulias"
+      },
+      {
+        "name" : "Benjamin Case"
+      },
+      {
+        "name" : "Asaf Cidon"
+      },
+      {
+        "name" : "Roxana Geambasu"
+      },
+      {
+        "name" : "Mathias Lécuyer"
+      },
+      {
+        "name" : "Martin Thomson"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.05101v1",
+    "title" : "Privacy Amplification Through Synthetic Data: Insights from Linear\n  Regression",
+    "summary" : "Synthetic data inherits the differential privacy guarantees of the model used\nto generate it. Additionally, synthetic data may benefit from privacy\namplification when the generative model is kept hidden. While empirical studies\nsuggest this phenomenon, a rigorous theoretical understanding is still lacking.\nIn this paper, we investigate this question through the well-understood\nframework of linear regression. First, we establish negative results showing\nthat if an adversary controls the seed of the generative model, a single\nsynthetic data point can leak as much information as releasing the model\nitself. Conversely, we show that when synthetic data is generated from random\ninputs, releasing a limited number of synthetic data points amplifies privacy\nbeyond the model's inherent guarantees. We believe our findings in linear\nregression can serve as a foundation for deriving more general bounds in the\nfuture.",
+    "updated" : "2025-06-05T14:44:15Z",
+    "published" : "2025-06-05T14:44:15Z",
+    "authors" : [
+      {
+        "name" : "Clément Pierquin"
+      },
+      {
+        "name" : "Aurélien Bellet"
+      },
+      {
+        "name" : "Marc Tommasi"
+      },
+      {
+        "name" : "Matthieu Boussard"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.04978v1",
+    "title" : "Evaluating the Impact of Privacy-Preserving Federated Learning on CAN\n  Intrusion Detection",
+    "summary" : "The challenges derived from the data-intensive nature of machine learning in\nconjunction with technologies that enable novel paradigms such as V2X and the\npotential offered by 5G communication, allow and justify the deployment of\nFederated Learning (FL) solutions in the vehicular intrusion detection domain.\nIn this paper, we investigate the effects of integrating FL strategies into the\nmachine learning-based intrusion detection process for on-board vehicular\nnetworks. Accordingly, we propose a FL implementation of a state-of-the-art\nIntrusion Detection System (IDS) for Controller Area Network (CAN), based on\nLSTM autoencoders. We thoroughly evaluate its detection efficiency and\ncommunication overhead, comparing it to a centralized version of the same\nalgorithm, thereby presenting it as a feasible solution.",
+    "updated" : "2025-06-05T12:49:22Z",
+    "published" : "2025-06-05T12:49:22Z",
+    "authors" : [
+      {
+        "name" : "Gabriele Digregorio"
+      },
+      {
+        "name" : "Elisabetta Cainazzo"
+      },
+      {
+        "name" : "Stefano Longari"
+      },
+      {
+        "name" : "Michele Carminati"
+      },
+      {
+        "name" : "Stefano Zanero"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
