@@ -610,5 +610,195 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.06124v1",
+    "title" : "PrivTru: A Privacy-by-Design Data Trustee Minimizing Information Leakage",
+    "summary" : "Data trustees serve as intermediaries that facilitate secure data sharing\nbetween independent parties. This paper offers a technical perspective on Data\ntrustees, guided by privacy-by-design principles. We introduce PrivTru, an\ninstantiation of a data trustee that provably achieves optimal privacy\nproperties. Therefore, PrivTru calculates the minimal amount of information the\ndata trustee needs to request from data sources to respond to a given query.\nOur analysis shows that PrivTru minimizes information leakage to the data\ntrustee, regardless of the trustee's prior knowledge, while preserving the\nutility of the data.",
+    "updated" : "2025-06-06T14:33:59Z",
+    "published" : "2025-06-06T14:33:59Z",
+    "authors" : [
+      {
+        "name" : "Lukas Gehring"
+      },
+      {
+        "name" : "Florian Tschorsch"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.06062v1",
+    "title" : "Minoritised Ethnic People's Security and Privacy Concerns and Responses\n  towards Essential Online Services",
+    "summary" : "Minoritised ethnic people are marginalised in society, and therefore at a\nhigher risk of adverse online harms, including those arising from the loss of\nsecurity and privacy of personal data. Despite this, there has been very little\nresearch focused on minoritised ethnic people's security and privacy concerns,\nattitudes, and behaviours. In this work, we provide the results of one of the\nfirst studies in this regard. We explore minoritised ethnic people's\nexperiences of using essential online services across three sectors: health,\nsocial housing, and energy, their security and privacy-related concerns, and\nresponses towards these services. We conducted a thematic analysis of 44\nsemi-structured interviews with people of various reported minoritised\nethnicities in the UK. Privacy concerns and lack of control over personal data\nemerged as a major theme, with many interviewees considering privacy as their\nmost significant concern when using online services. Several creative tactics\nto exercise some agency were reported, including selective and inconsistent\ndisclosure of personal data. A core concern about how data may be used was\ndriven by a fear of repercussions, including penalisation and discrimination,\ninfluenced by prior experiences of institutional and online racism. The\nincreased concern and potential for harm resulted in minoritised ethnic people\ngrappling with a higher-stakes dilemma of whether to disclose personal\ninformation online or not. Furthermore, trust in institutions, or lack thereof,\nwas found to be embedded throughout as a basis for adapting behaviour. We draw\non our results to provide lessons learned for the design of more inclusive,\nmarginalisation-aware, and privacy-preserving online services.",
+    "updated" : "2025-06-06T13:17:44Z",
+    "published" : "2025-06-06T13:17:44Z",
+    "authors" : [
+      {
+        "name" : "Aunam Quyoum"
+      },
+      {
+        "name" : "Mark Wong"
+      },
+      {
+        "name" : "Sebati Ghosh"
+      },
+      {
+        "name" : "Siamak F. Shahandashti"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.CR",
+      "cs.HC",
+      "K.4.2; H.1.2; K.4.1; K.6.5; J.4"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.05908v1",
+    "title" : "QualitEye: Public and Privacy-preserving Gaze Data Quality Verification",
+    "summary" : "Gaze-based applications are increasingly advancing with the availability of\nlarge datasets but ensuring data quality presents a substantial challenge when\ncollecting data at scale. It further requires different parties to collaborate,\ntherefore, privacy concerns arise. We propose QualitEye--the first method for\nverifying image-based gaze data quality. QualitEye employs a new semantic\nrepresentation of eye images that contains the information required for\nverification while excluding irrelevant information for better domain\nadaptation. QualitEye covers a public setting where parties can freely exchange\ndata and a privacy-preserving setting where parties cannot reveal their raw\ndata nor derive gaze features/labels of others with adapted private set\nintersection protocols. We evaluate QualitEye on the MPIIFaceGaze and\nGazeCapture datasets and achieve a high verification performance (with a small\noverhead in runtime for privacy-preserving versions). Hence, QualitEye paves\nthe way for new gaze analysis methods at the intersection of machine learning,\nhuman-computer interaction, and cryptography.",
+    "updated" : "2025-06-06T09:27:04Z",
+    "published" : "2025-06-06T09:27:04Z",
+    "authors" : [
+      {
+        "name" : "Mayar Elfares"
+      },
+      {
+        "name" : "Pascal Reisert"
+      },
+      {
+        "name" : "Ralf Küsters"
+      },
+      {
+        "name" : "Andreas Bulling"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "cs.CR",
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.05743v1",
+    "title" : "When Better Features Mean Greater Risks: The Performance-Privacy\n  Trade-Off in Contrastive Learning",
+    "summary" : "With the rapid advancement of deep learning technology, pre-trained encoder\nmodels have demonstrated exceptional feature extraction capabilities, playing a\npivotal role in the research and application of deep learning. However, their\nwidespread use has raised significant concerns about the risk of training data\nprivacy leakage. This paper systematically investigates the privacy threats\nposed by membership inference attacks (MIAs) targeting encoder models, focusing\non contrastive learning frameworks. Through experimental analysis, we reveal\nthe significant impact of model architecture complexity on membership privacy\nleakage: As more advanced encoder frameworks improve feature-extraction\nperformance, they simultaneously exacerbate privacy-leakage risks. Furthermore,\nthis paper proposes a novel membership inference attack method based on the\np-norm of feature vectors, termed the Embedding Lp-Norm Likelihood Attack\n(LpLA). This method infers membership status, by leveraging the statistical\ndistribution characteristics of the p-norm of feature vectors. Experimental\nresults across multiple datasets and model architectures demonstrate that LpLA\noutperforms existing methods in attack performance and robustness, particularly\nunder limited attack knowledge and query volumes. This study not only uncovers\nthe potential risks of privacy leakage in contrastive learning frameworks, but\nalso provides a practical basis for privacy protection research in encoder\nmodels. We hope that this work will draw greater attention to the privacy risks\nassociated with self-supervised learning models and shed light on the\nimportance of a balance between model utility and training data privacy. Our\ncode is publicly available at: https://github.com/SeroneySun/LpLA_code.",
+    "updated" : "2025-06-06T05:03:29Z",
+    "published" : "2025-06-06T05:03:29Z",
+    "authors" : [
+      {
+        "name" : "Ruining Sun"
+      },
+      {
+        "name" : "Hongsheng Hu"
+      },
+      {
+        "name" : "Wei Luo"
+      },
+      {
+        "name" : "Zhaoxi Zhang"
+      },
+      {
+        "name" : "Yanjun Zhang"
+      },
+      {
+        "name" : "Haizhuan Yuan"
+      },
+      {
+        "name" : "Leo Yu Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.05683v1",
+    "title" : "Multi-Modal Multi-Task Federated Foundation Models for Next-Generation\n  Extended Reality Systems: Towards Privacy-Preserving Distributed Intelligence\n  in AR/VR/MR",
+    "summary" : "Extended reality (XR) systems, which consist of virtual reality (VR),\naugmented reality (AR), and mixed reality (XR), offer a transformative\ninterface for immersive, multi-modal, and embodied human-computer interaction.\nIn this paper, we envision that multi-modal multi-task (M3T) federated\nfoundation models (FedFMs) can offer transformative capabilities for XR systems\nthrough integrating the representational strength of M3T foundation models\n(FMs) with the privacy-preserving model training principles of federated\nlearning (FL). We present a modular architecture for FedFMs, which entails\ndifferent coordination paradigms for model training and aggregations. Central\nto our vision is the codification of XR challenges that affect the\nimplementation of FedFMs under the SHIFT dimensions: (1) Sensor and modality\ndiversity, (2) Hardware heterogeneity and system-level constraints, (3)\nInteractivity and embodied personalization, (4) Functional/task variability,\nand (5) Temporality and environmental variability. We illustrate the\nmanifestation of these dimensions across a set of emerging and anticipated\napplications of XR systems. Finally, we propose evaluation metrics, dataset\nrequirements, and design tradeoffs necessary for the development of\nresource-aware FedFMs in XR. This perspective aims to chart the technical and\nconceptual foundations for context-aware privacy-preserving intelligence in the\nnext generation of XR systems.",
+    "updated" : "2025-06-06T02:23:42Z",
+    "published" : "2025-06-06T02:23:42Z",
+    "authors" : [
+      {
+        "name" : "Fardis Nadimi"
+      },
+      {
+        "name" : "Payam Abdisarabshali"
+      },
+      {
+        "name" : "Kasra Borazjani"
+      },
+      {
+        "name" : "Jacob Chakareski"
+      },
+      {
+        "name" : "Seyyedali Hosseinalipour"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR",
+      "cs.MM"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.05503v1",
+    "title" : "On Differential Privacy for Adaptively Solving Search Problems via\n  Sketching",
+    "summary" : "Recently differential privacy has been used for a number of streaming, data\nstructure, and dynamic graph problems as a means of hiding the internal\nrandomness of the data structure, so that multiple possibly adaptive queries\ncan be made without sacrificing the correctness of the responses. Although\nthese works use differential privacy to show that for some problems it is\npossible to tolerate $T$ queries using $\\widetilde{O}(\\sqrt{T})$ copies of a\ndata structure, such results only apply to numerical estimation problems, and\nonly return the cost of an optimization problem rather than the solution\nitself. In this paper, we investigate the use of differential privacy for\nadaptive queries to search problems, which are significantly more challenging\nsince the responses to queries can reveal much more about the internal\nrandomness than a single numerical query. We focus on two classical search\nproblems: nearest neighbor queries and regression with arbitrary turnstile\nupdates. We identify key parameters to these problems, such as the number of\n$c$-approximate near neighbors and the matrix condition number, and use\ndifferent differential privacy techniques to design algorithms returning the\nsolution vector with memory and time depending on these parameters. We give\nalgorithms for each of these problems that achieve similar tradeoffs.",
+    "updated" : "2025-06-05T18:40:33Z",
+    "published" : "2025-06-05T18:40:33Z",
+    "authors" : [
+      {
+        "name" : "Shiyuan Feng"
+      },
+      {
+        "name" : "Ying Feng"
+      },
+      {
+        "name" : "George Z. Li"
+      },
+      {
+        "name" : "Zhao Song"
+      },
+      {
+        "name" : "David P. Woodruff"
+      },
+      {
+        "name" : "Lichen Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.DS"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.05421v1",
+    "title" : "TRIDENT -- A Three-Tier Privacy-Preserving Propaganda Detection Model in\n  Mobile Networks using Transformers, Adversarial Learning, and Differential\n  Privacy",
+    "summary" : "The proliferation of propaganda on mobile platforms raises critical concerns\naround detection accuracy and user privacy. To address this, we propose TRIDENT\n- a three-tier propaganda detection model implementing transformers,\nadversarial learning, and differential privacy which integrates syntactic\nobfuscation and label perturbation to mitigate privacy leakage while\nmaintaining propaganda detection accuracy. TRIDENT leverages multilingual\nback-translation to introduce semantic variance, character-level noise, and\nentity obfuscation for differential privacy enforcement, and combines these\ntechniques into a unified defense mechanism. Using a binary propaganda\nclassification dataset, baseline transformer models (BERT, GPT-2) we achieved\nF1 scores of 0.89 and 0.90. Applying TRIDENT's third-tier defense yields a\nreduced but effective cumulative F1 of 0.83, demonstrating strong privacy\nprotection across mobile ML deployments with minimal degradation.",
+    "updated" : "2025-06-05T02:38:02Z",
+    "published" : "2025-06-05T02:38:02Z",
+    "authors" : [
+      {
+        "name" : "Al Nahian Bin Emran"
+      },
+      {
+        "name" : "Dhiman Goswami"
+      },
+      {
+        "name" : "Md Hasan Ullah Sadi"
+      },
+      {
+        "name" : "Sanchari Das"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CY"
+    ]
   }
 ]
