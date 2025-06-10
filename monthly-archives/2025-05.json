@@ -3483,5 +3483,28 @@
       "cs.CL",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.06321v1",
+    "title" : "On the Interplay of Privacy, Persuasion and Quantization",
+    "summary" : "We develop a communication-theoretic framework for privacy-aware and\nresilient decision making in cyber-physical systems under misaligned objectives\nbetween the encoder and the decoder. The encoder observes two correlated\nsignals ($X$,$\\theta$) and transmits a finite-rate message $Z$ to aid a\nlegitimate controller (the decoder) in estimating $X+\\theta$, while an\neavesdropper intercepts $Z$ to infer the private parameter $\\theta$. Unlike\nconventional setups where encoder and decoder share a common MSE objective,\nhere the encoder minimizes a Lagrangian that balances legitimate control\nfidelity and the privacy leakage about $\\theta$. In contrast, the decoder's\ngoal is purely to minimize its own estimation error without regard for privacy.\nWe analyze fully, partially, and non-revealing strategies that arise from this\nconflict, and characterize optimal linear encoders when the rate constraints\nare lifted. For finite-rate channels, we employ gradient-based methods to\ncompute the optimal controllers. Numerical experiments illustrate how tuning\nthe privacy parameter shapes the trade-off between control performance and\nresilience against unauthorized inferences.",
+    "updated" : "2025-05-28T19:44:31Z",
+    "published" : "2025-05-28T19:44:31Z",
+    "authors" : [
+      {
+        "name" : "Anju Anand"
+      },
+      {
+        "name" : "Emrah Akyol"
+      }
+    ],
+    "categories" : [
+      "eess.SP",
+      "cs.GT",
+      "cs.IT",
+      "cs.SY",
+      "eess.SY",
+      "math.IT"
+    ]
   }
 ]
