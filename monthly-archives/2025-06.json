@@ -800,5 +800,272 @@
       "cs.CR",
       "cs.CY"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.07957v1",
+    "title" : "Understanding the Error Sensitivity of Privacy-Aware Computing",
+    "summary" : "Homomorphic Encryption (HE) enables secure computation on encrypted data\nwithout decryption, allowing a great opportunity for privacy-preserving\ncomputation. In particular, domains such as healthcare, finance, and\ngovernment, where data privacy and security are of utmost importance, can\nbenefit from HE by enabling third-party computation and services on sensitive\ndata. In other words, HE constitutes the \"Holy Grail\" of cryptography: data\nremains encrypted all the time, being protected while in use.\n  HE's security guarantees rely on noise added to data to make relatively\nsimple problems computationally intractable. This error-centric intrinsic HE\nmechanism generates new challenges related to the fault tolerance and\nrobustness of HE itself: hardware- and software-induced errors during HE\noperation can easily evade traditional error detection and correction\nmechanisms, resulting in silent data corruption (SDC).\n  In this work, we motivate a thorough discussion regarding the sensitivity of\nHE applications to bit faults and provide a detailed error characterization\nstudy of CKKS (Cheon-Kim-Kim-Song). This is one of the most popular HE schemes\ndue to its fixed-point arithmetic support for AI and machine learning\napplications. We also delve into the impact of the residue number system (RNS)\nand the number theoretic transform (NTT), two widely adopted HE optimization\ntechniques, on CKKS' error sensitivity. To the best of our knowledge, this is\nthe first work that looks into the robustness and error sensitivity of\nhomomorphic encryption and, as such, it can pave the way for critical future\nwork in this area.",
+    "updated" : "2025-06-09T17:27:40Z",
+    "published" : "2025-06-09T17:27:40Z",
+    "authors" : [
+      {
+        "name" : "Matías Mazzanti"
+      },
+      {
+        "name" : "Esteban Mocskos"
+      },
+      {
+        "name" : "Augusto Vega"
+      },
+      {
+        "name" : "Pradip Bose"
+      }
+    ],
+    "categories" : [
+      "cs.AR",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.07868v1",
+    "title" : "Securing Unbounded Differential Privacy Against Timing Attacks",
+    "summary" : "Recent works have started to theoretically investigate how we can protect\ndifferentially private programs against timing attacks, by making the joint\ndistribution the output and the runtime differentially private (JOT-DP).\nHowever, the existing approaches to JOT-DP have some limitations, particularly\nin the setting of unbounded DP (which protects the size of the dataset and\napplies to arbitrarily large datasets). First, the known conversion of pure DP\nprograms to pure JOT-DP programs in the unbounded setting (a) incurs a constant\nadditive increase in error probability (and thus does not provide vanishing\nerror as $n\\to\\infty$) (b) produces JOT-DP programs that fail to preserve the\ncomputational efficiency of the original pure DP program and (c) is analyzed in\na toy computational model in which the runtime is defined to be the number of\ncoin flips. In this work, we overcome these limitations. Specifically, we show\nthat the error required for pure JOT-DP in the unbounded setting depends on the\nmodel of computation. In a randomized RAM model where the dataset size $n$ is\ngiven (or can be computed in constant time) and we can generate random numbers\n(not just random bits) in constant time, polynomially small error probability\nis necessary and sufficient. If $n$ is not given or we only have a random-bit\ngenerator, an (arbitrarily small) constant error probability is necessary and\nsufficient. The aforementioned positive results are proven by efficient\nprocedures to convert any pure JOT-DP program $P$ in the upper-bounded setting\nto a pure JOT-DP program $P'$ in the unbounded setting, such that the output\ndistribution of $P'$ is $\\gamma$-close in total variation distance to that of\n$P$, where $\\gamma$ is either an arbitrarily small constant or polynomially\nsmall, depending on the model of computation.",
+    "updated" : "2025-06-09T15:35:15Z",
+    "published" : "2025-06-09T15:35:15Z",
+    "authors" : [
+      {
+        "name" : "Zachary Ratliff"
+      },
+      {
+        "name" : "Salil Vadhan"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.07605v1",
+    "title" : "TimberStrike: Dataset Reconstruction Attack Revealing Privacy Leakage in\n  Federated Tree-Based Systems",
+    "summary" : "Federated Learning has emerged as a privacy-oriented alternative to\ncentralized Machine Learning, enabling collaborative model training without\ndirect data sharing. While extensively studied for neural networks, the\nsecurity and privacy implications of tree-based models remain underexplored.\nThis work introduces TimberStrike, an optimization-based dataset reconstruction\nattack targeting horizontally federated tree-based models. Our attack, carried\nout by a single client, exploits the discrete nature of decision trees by using\nsplit values and decision paths to infer sensitive training data from other\nclients. We evaluate TimberStrike on State-of-the-Art federated gradient\nboosting implementations across multiple frameworks, including Flower, NVFlare,\nand FedTree, demonstrating their vulnerability to privacy breaches. On a\npublicly available stroke prediction dataset, TimberStrike consistently\nreconstructs between 73.05% and 95.63% of the target dataset across all\nimplementations. We further analyze Differential Privacy, showing that while it\npartially mitigates the attack, it also significantly degrades model\nperformance. Our findings highlight the need for privacy-preserving mechanisms\nspecifically designed for tree-based Federated Learning systems, and we provide\npreliminary insights into their design.",
+    "updated" : "2025-06-09T10:06:03Z",
+    "published" : "2025-06-09T10:06:03Z",
+    "authors" : [
+      {
+        "name" : "Marco Di Gennaro"
+      },
+      {
+        "name" : "Giovanni De Lucia"
+      },
+      {
+        "name" : "Stefano Longari"
+      },
+      {
+        "name" : "Stefano Zanero"
+      },
+      {
+        "name" : "Michele Carminati"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DC",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.07555v1",
+    "title" : "Synthesize Privacy-Preserving High-Resolution Images via Private Textual\n  Intermediaries",
+    "summary" : "Generating high fidelity, differentially private (DP) synthetic images offers\na promising route to share and analyze sensitive visual data without\ncompromising individual privacy. However, existing DP image synthesis methods\nstruggle to produce high resolution outputs that faithfully capture the\nstructure of the original data. In this paper, we introduce a novel method,\nreferred to as Synthesis via Private Textual Intermediaries (SPTI), that can\ngenerate high resolution DP images with easy adoption. The key idea is to shift\nthe challenge of DP image synthesis from the image domain to the text domain by\nleveraging state of the art DP text generation methods. SPTI first summarizes\neach private image into a concise textual description using image to text\nmodels, then applies a modified Private Evolution algorithm to generate DP\ntext, and finally reconstructs images using text to image models. Notably, SPTI\nrequires no model training, only inference with off the shelf models. Given a\nprivate dataset, SPTI produces synthetic images of substantially higher quality\nthan prior DP approaches. On the LSUN Bedroom dataset, SPTI attains an FID less\nthan or equal to 26.71 under epsilon equal to 1.0, improving over Private\nEvolution FID of 40.36. Similarly, on MM CelebA HQ, SPTI achieves an FID less\nthan or equal to 33.27 at epsilon equal to 1.0, compared to 57.01 from DP fine\ntuning baselines. Overall, our results demonstrate that Synthesis via Private\nTextual Intermediaries provides a resource efficient and proprietary model\ncompatible framework for generating high resolution DP synthetic images,\ngreatly expanding access to private visual datasets.",
+    "updated" : "2025-06-09T08:48:06Z",
+    "published" : "2025-06-09T08:48:06Z",
+    "authors" : [
+      {
+        "name" : "Haoxiang Wang"
+      },
+      {
+        "name" : "Zinan Lin"
+      },
+      {
+        "name" : "Da Yu"
+      },
+      {
+        "name" : "Huishuai Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.07102v1",
+    "title" : "Decentralized Optimization with Amplified Privacy via Efficient\n  Communication",
+    "summary" : "Decentralized optimization is crucial for multi-agent systems, with\nsignificant concerns about communication efficiency and privacy. This paper\nexplores the role of efficient communication in decentralized stochastic\ngradient descent algorithms for enhancing privacy preservation. We develop a\nnovel algorithm that incorporates two key features: random agent activation and\nsparsified communication. Utilizing differential privacy, we demonstrate that\nthese features reduce noise without sacrificing privacy, thereby amplifying the\nprivacy guarantee and improving accuracy. Additionally, we analyze the\nconvergence and the privacy-accuracy-communication trade-off of the proposed\nalgorithm. Finally, we present experimental results to illustrate the\neffectiveness of our algorithm.",
+    "updated" : "2025-06-08T12:14:14Z",
+    "published" : "2025-06-08T12:14:14Z",
+    "authors" : [
+      {
+        "name" : "Wei Huo"
+      },
+      {
+        "name" : "Changxin Liu"
+      },
+      {
+        "name" : "Kemi Ding"
+      },
+      {
+        "name" : "Karl Henrik Johansson"
+      },
+      {
+        "name" : "Ling Shi"
+      }
+    ],
+    "categories" : [
+      "eess.SY",
+      "cs.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.06742v1",
+    "title" : "LADSG: Label-Anonymized Distillation and Similar Gradient Substitution\n  for Label Privacy in Vertical Federated Learning",
+    "summary" : "Vertical federated learning (VFL) has become a key paradigm for collaborative\nmachine learning, enabling multiple parties to train models over distributed\nfeature spaces while preserving data privacy. Despite security protocols that\ndefend against external attacks - such as gradient masking and encryption,\nwhich prevent unauthorized access to sensitive data - recent label inference\nattacks from within the system have emerged. These attacks exploit gradients\nand semantic embeddings to reconstruct private labels, bypassing traditional\ndefenses. For example, the passive label inference attack can reconstruct tens\nof thousands of participants' private data using just 40 auxiliary labels,\nposing a significant security threat. Existing defenses address single leakage\npathways, such as gradient leakage or label exposure. As attack strategies\nevolve, their limitations become clear, especially against hybrid attacks that\ncombine multiple vectors. To address this, we propose Label-Anonymized Defense\nwith Substitution Gradient (LADSG), a unified defense framework that integrates\ngradient substitution, label anonymization, and anomaly detection. LADSG\nmitigates both gradient and label leakage while maintaining the scalability and\nefficiency of VFL. Experiments on six real-world datasets show that LADSG\nreduces label inference attack success rates by 30-60%, with minimal\ncomputational overhead, underscoring the importance of lightweight defenses in\nsecuring VFL.",
+    "updated" : "2025-06-07T10:10:56Z",
+    "published" : "2025-06-07T10:10:56Z",
+    "authors" : [
+      {
+        "name" : "Zeyu Yan"
+      },
+      {
+        "name" : "Yifei Yao"
+      },
+      {
+        "name" : "Xuanbing Wen"
+      },
+      {
+        "name" : "Juli Zhang"
+      },
+      {
+        "name" : "Kai Fan"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.06591v1",
+    "title" : "Privacy Perspectives and Practices of Chinese Smart Home Product Teams",
+    "summary" : "Previous research has explored the privacy needs and concerns of device\nowners, primary users, and different bystander groups with regard to smart home\ndevices like security cameras, smart speakers, and hubs, but little is known\nabout the privacy views and practices of smart home product teams, particularly\nthose in non-Western contexts. This paper presents findings from 27\nsemi-structured interviews with Chinese smart home product team members,\nincluding product/project managers, software/hardware engineers, user\nexperience (UX) designers, legal/privacy experts, and marketers/operation\nspecialists. We examine their privacy perspectives, practices, and risk\nmitigation strategies. Our results show that participants emphasized compliance\nwith Chinese data privacy laws, which typically prioritized national security\nover individual privacy rights. China-specific cultural, social, and legal\nfactors also influenced participants' ethical considerations and attitudes\ntoward balancing user privacy and security with convenience. Drawing on our\nfindings, we propose a set of recommendations for smart home product teams,\nalong with socio-technical and legal interventions to address smart home\nprivacy issues-especially those belonging to at-risk groups-in Chinese\nmulti-user smart homes.",
+    "updated" : "2025-06-06T23:49:48Z",
+    "published" : "2025-06-06T23:49:48Z",
+    "authors" : [
+      {
+        "name" : "Shijing He"
+      },
+      {
+        "name" : "Yaxiong Lei"
+      },
+      {
+        "name" : "Xiao Zhan"
+      },
+      {
+        "name" : "Chi Zhang"
+      },
+      {
+        "name" : "Juan Ye"
+      },
+      {
+        "name" : "Ruba Abu-Salma"
+      },
+      {
+        "name" : "Jose Such"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.06530v1",
+    "title" : "Breaking the Gaussian Barrier: Residual-PAC Privacy for Automatic\n  Privatization",
+    "summary" : "The Probably Approximately Correct (PAC) Privacy framework [1] provides a\npowerful instance-based methodology for certifying privacy in complex\ndata-driven systems. However, existing PAC Privacy algorithms rely on a\nGaussian mutual information upper bound. We show that this is in general too\nconservative: the upper bound obtained by these algorithms is tight if and only\nif the perturbed mechanism output is jointly Gaussian with independent Gaussian\nnoise. To address the inefficiency inherent in the Gaussian-based approach, we\nintroduce Residual PAC Privacy, an f-divergence-based measure that quantifies\nthe privacy remaining after adversarial inference. When instantiated with\nKullback-Leibler divergence, Residual-PAC Privacy is governed by conditional\nentropy. Moreover, we propose Stackelberg Residual-PAC (SR-PAC) privatization\nmechanisms for RPAC Privacy, a game-theoretic framework that selects optimal\nnoise distributions through convex bilevel optimization. Our approach achieves\ntight privacy budget utilization for arbitrary data distributions. Moreover, it\nnaturally composes under repeated mechanisms and provides provable privacy\nguarantees with higher statistical efficiency. Numerical experiments\ndemonstrate that SR-PAC certifies the target privacy budget while consistently\nimproving utility compared to existing methods.",
+    "updated" : "2025-06-06T20:52:47Z",
+    "published" : "2025-06-06T20:52:47Z",
+    "authors" : [
+      {
+        "name" : "Tao Zhang"
+      },
+      {
+        "name" : "Yevgeniy Vorobeychik"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.06062v2",
+    "title" : "Minoritised Ethnic People's Security and Privacy Concerns and Responses\n  towards Essential Online Services",
+    "summary" : "Minoritised ethnic people are marginalised in society, and therefore at a\nhigher risk of adverse online harms, including those arising from the loss of\nsecurity and privacy of personal data. Despite this, there has been very little\nresearch focused on minoritised ethnic people's security and privacy concerns,\nattitudes, and behaviours. In this work, we provide the results of one of the\nfirst studies in this regard. We explore minoritised ethnic people's\nexperiences of using essential online services across three sectors: health,\nsocial housing, and energy, their security and privacy-related concerns, and\nresponses towards these services. We conducted a thematic analysis of 44\nsemi-structured interviews with people of various reported minoritised\nethnicities in the UK. Privacy concerns and lack of control over personal data\nemerged as a major theme, with many interviewees considering privacy as their\nmost significant concern when using online services. Several creative tactics\nto exercise some agency were reported, including selective and inconsistent\ndisclosure of personal data. A core concern about how data may be used was\ndriven by a fear of repercussions, including penalisation and discrimination,\ninfluenced by prior experiences of institutional and online racism. The\nincreased concern and potential for harm resulted in minoritised ethnic people\ngrappling with a higher-stakes dilemma of whether to disclose personal\ninformation online or not. Furthermore, trust in institutions, or lack thereof,\nwas found to be embedded throughout as a basis for adapting behaviour. We draw\non our results to provide lessons learned for the design of more inclusive,\nmarginalisation-aware, and privacy-preserving online services.",
+    "updated" : "2025-06-09T14:10:55Z",
+    "published" : "2025-06-06T13:17:44Z",
+    "authors" : [
+      {
+        "name" : "Aunam Quyoum"
+      },
+      {
+        "name" : "Mark Wong"
+      },
+      {
+        "name" : "Sebati Ghosh"
+      },
+      {
+        "name" : "Siamak F. Shahandashti"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.CR",
+      "cs.HC",
+      "K.4.2; H.1.2; K.4.1; K.6.5; J.4"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.00759v2",
+    "title" : "Understanding and Mitigating Cross-lingual Privacy Leakage via\n  Language-specific and Universal Privacy Neurons",
+    "summary" : "Large Language Models (LLMs) trained on massive data capture rich information\nembedded in the training data. However, this also introduces the risk of\nprivacy leakage, particularly involving personally identifiable information\n(PII). Although previous studies have shown that this risk can be mitigated\nthrough methods such as privacy neurons, they all assume that both the\n(sensitive) training data and user queries are in English. We show that they\ncannot defend against the privacy leakage in cross-lingual contexts: even if\nthe training data is exclusively in one language, these (private) models may\nstill reveal private information when queried in another language. In this\nwork, we first investigate the information flow of cross-lingual privacy\nleakage to give a better understanding. We find that LLMs process private\ninformation in the middle layers, where representations are largely shared\nacross languages. The risk of leakage peaks when converted to a\nlanguage-specific space in later layers. Based on this, we identify\nprivacy-universal neurons and language-specific privacy neurons.\nPrivacy-universal neurons influence privacy leakage across all languages, while\nlanguage-specific privacy neurons are only related to specific languages. By\ndeactivating these neurons, the cross-lingual privacy leakage risk is reduced\nby 23.3%-31.6%.",
+    "updated" : "2025-06-08T14:59:14Z",
+    "published" : "2025-06-01T00:10:30Z",
+    "authors" : [
+      {
+        "name" : "Wenshuo Dong"
+      },
+      {
+        "name" : "Qingsong Yang"
+      },
+      {
+        "name" : "Shu Yang"
+      },
+      {
+        "name" : "Lijie Hu"
+      },
+      {
+        "name" : "Meng Ding"
+      },
+      {
+        "name" : "Wanyu Lin"
+      },
+      {
+        "name" : "Tianhang Zheng"
+      },
+      {
+        "name" : "Di Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CL"
+    ]
   }
 ]
