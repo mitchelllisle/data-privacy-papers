@@ -2,6 +2,166 @@
 <h2>2025-06</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2506.08918v1">Quantifying Mix Network Privacy Erosion with Generative Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-06-10T15:43:39Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Vasilios Mavroudis, Tariq Elahi</p>
+    <p><b>Summary:</b> Modern mix networks improve over Tor and provide stronger privacy guarantees
+by robustly obfuscating metadata. As long as a message is routed through at
+least one honest mixnode, the privacy of the users involved is safeguarded.
+However, the complexity of the mixing mechanisms makes it difficult to estimate
+the cumulative privacy erosion occurring over time. This work uses a generative
+model trained on mixnet traffic to estimate the loss of privacy when users
+communicate persistently over a period of time. We train our large-language
+model from scratch on our specialized network traffic ``language'' and then use
+it to measure the sender-message unlinkability in various settings (e.g. mixing
+strategies, security parameters, observation window). Our findings reveal
+notable differences in privacy levels among mix strategies, even when they have
+similar mean latencies. In comparison, we demonstrate the limitations of
+traditional privacy metrics, such as entropy and log-likelihood, in fully
+capturing an adversary's potential to synthesize information from multiple
+observations. Finally, we show that larger models exhibit greater sample
+efficiency and superior capabilities implying that further advancements in
+transformers will consequently enhance the accuracy of model-based privacy
+estimates.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2506.08654v1">A Privacy-Preserving Federated Learning Framework for Generalizable CBCT
+  to Synthetic CT Translation in Head and Neck</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-06-10T10:10:56Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ciro Benito Raggio, Paolo Zaffino, Maria Francesca Spadea</p>
+    <p><b>Summary:</b> Shortened Abstract
+  Cone-beam computed tomography (CBCT) has become a widely adopted modality for
+image-guided radiotherapy (IGRT). However, CBCT suffers from increased noise,
+limited soft-tissue contrast, and artifacts, resulting in unreliable Hounsfield
+unit values and hindering direct dose calculation. Synthetic CT (sCT)
+generation from CBCT addresses these issues, especially using deep learning
+(DL) methods. Existing approaches are limited by institutional heterogeneity,
+scanner-dependent variations, and data privacy regulations that prevent
+multi-center data sharing.
+  To overcome these challenges, we propose a cross-silo horizontal federated
+learning (FL) approach for CBCT-to-sCT synthesis in the head and neck region,
+extending our FedSynthCT framework. A conditional generative adversarial
+network was collaboratively trained on data from three European medical centers
+in the public SynthRAD2025 challenge dataset.
+  The federated model demonstrated effective generalization across centers,
+with mean absolute error (MAE) ranging from $64.38\pm13.63$ to $85.90\pm7.10$
+HU, structural similarity index (SSIM) from $0.882\pm0.022$ to $0.922\pm0.039$,
+and peak signal-to-noise ratio (PSNR) from $32.86\pm0.94$ to $34.91\pm1.04$ dB.
+Notably, on an external validation dataset of 60 patients, comparable
+performance was achieved (MAE: $75.22\pm11.81$ HU, SSIM: $0.904\pm0.034$, PSNR:
+$33.52\pm2.06$ dB) without additional training, confirming robust
+generalization despite protocol, scanner differences and registration errors.
+  These findings demonstrate the technical feasibility of FL for CBCT-to-sCT
+synthesis while preserving data privacy and offer a collaborative solution for
+developing generalizable models across institutions without centralized data
+sharing or site-specific fine-tuning.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2506.08347v1">Differentially Private Relational Learning with Entity-level Privacy
+  Guarantees</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-06-10T02:03:43Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yinan Huang, Haoteng Ying, Eli Chien, Rongzhe Wei, Pan Li</p>
+    <p><b>Summary:</b> Learning with relational and network-structured data is increasingly vital in
+sensitive domains where protecting the privacy of individual entities is
+paramount. Differential Privacy (DP) offers a principled approach for
+quantifying privacy risks, with DP-SGD emerging as a standard mechanism for
+private model training. However, directly applying DP-SGD to relational
+learning is challenging due to two key factors: (i) entities often participate
+in multiple relations, resulting in high and difficult-to-control sensitivity;
+and (ii) relational learning typically involves multi-stage, potentially
+coupled (interdependent) sampling procedures that make standard privacy
+amplification analyses inapplicable. This work presents a principled framework
+for relational learning with formal entity-level DP guarantees. We provide a
+rigorous sensitivity analysis and introduce an adaptive gradient clipping
+scheme that modulates clipping thresholds based on entity occurrence frequency.
+We also extend the privacy amplification results to a tractable subclass of
+coupled sampling, where the dependence arises only through sample sizes. These
+contributions lead to a tailored DP-SGD variant for relational data with
+provable privacy guarantees. Experiments on fine-tuning text encoders over
+text-attributed network-structured relational data demonstrate the strong
+utility-privacy trade-offs of our approach. Our code is available at
+https://github.com/Graph-COM/Node_DP.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2506.08330v1">Distortion Search, A Web Search Privacy Heuristic</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-06-10T01:35:16Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Kato Mivule, Kenneth Hopkinson</p>
+    <p><b>Summary:</b> Search engines have vast technical capabilities to retain Internet search
+logs for each user and thus present major privacy vulnerabilities to both
+individuals and organizations in revealing user intent. Additionally, many of
+the web search privacy enhancing tools available today require that the user
+trusts a third party, which make confidentiality of user intent even more
+challenging. The user is left at the mercy of the third party without the
+control over his or her own privacy. In this article, we suggest a user-centric
+heuristic, Distortion Search, a web search query privacy methodology that works
+by the formation of obfuscated search queries via the permutation of query
+keyword categories, and by strategically applying k-anonymised web navigational
+clicks on URLs and Ads to generate a distorted user profile and thus providing
+specific user intent and query confidentiality. We provide empirical results
+via the evaluation of distorted web search queries in terms of retrieved search
+results and the resulting web ads from search engines. Preliminary experimental
+results indicate that web search query and specific user intent privacy might
+be achievable from the user side without the involvement of the search engine
+or other third parties.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2506.08185v1">Surgeon Style Fingerprinting and Privacy Risk Quantification via
+  Discrete Diffusion Models in a Vision-Language-Action Framework</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-06-09T19:49:55Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Huixin Zhan, Jason H. Moore</p>
+    <p><b>Summary:</b> Surgeons exhibit distinct operating styles due to differences in training,
+experience, and motor behavior - yet current AI systems often ignore this
+personalization signal. We propose a novel approach to model fine-grained,
+surgeon-specific fingerprinting in robotic surgery using a discrete diffusion
+framework integrated with a vision-language-action (VLA) pipeline. Our method
+formulates gesture prediction as a structured sequence denoising task,
+conditioned on multimodal inputs including endoscopic video, surgical intent
+language, and a privacy-aware embedding of surgeon identity and skill.
+Personalized surgeon fingerprinting is encoded through natural language prompts
+using third-party language models, allowing the model to retain individual
+behavioral style without exposing explicit identity. We evaluate our method on
+the JIGSAWS dataset and demonstrate that it accurately reconstructs gesture
+sequences while learning meaningful motion fingerprints unique to each surgeon.
+To quantify the privacy implications of personalization, we perform membership
+inference attacks and find that more expressive embeddings improve task
+performance but simultaneously increase susceptibility to identity leakage.
+These findings demonstrate that while personalized embeddings improve
+performance, they also increase vulnerability to identity leakage, revealing
+the importance of balancing personalization with privacy risk in surgical
+modeling. Code is available at:
+https://github.com/huixin-zhan-ai/Surgeon_style_fingerprinting.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2506.07957v1">Understanding the Error Sensitivity of Privacy-Aware Computing</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Hardware Architecture-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2025-06-09T17:27:40Z</p>
@@ -2776,145 +2936,6 @@ maintained within a 1.5\% margin of a centralized baseline. This work
 establishes a foundational approach for adaptive, secure, and patient-centric
 AI-driven surgical robotics, offering a pathway toward clinical translation and
 scalable deployment across diverse healthcare environments.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.12144v1">Proof-of-Social-Capital: Privacy-Preserving Consensus Protocol Replacing
-  Stake for Social Capital</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
-  <p><b>Published on:</b> 2025-05-17T21:28:56Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Juraj Mariani, Ivan Homoliak</p>
-    <p><b>Summary:</b> Consensus protocols used today in blockchains often rely on computational
-power or financial stakes - scarce resources. We propose a novel protocol using
-social capital - trust and influence from social interactions - as a
-non-transferable staking mechanism to ensure fairness and decentralization. The
-methodology integrates zero-knowledge proofs, verifiable credentials, a
-Whisk-like leader election, and an incentive scheme to prevent Sybil attacks
-and encourage engagement. The theoretical framework would enhance privacy and
-equity, though unresolved issues like off-chain bribery require further
-research. This work offers a new model aligned with modern social media
-behavior and lifestyle, with applications in finance, providing a practical
-insight for decentralized system development.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.11094v1">Blockchain-Enabled Decentralized Privacy-Preserving Group Purchasing for
-  Energy Plans</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-05-16T10:26:15Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Sid Chi-Kin Chau, Yue Zhou</p>
-    <p><b>Summary:</b> Retail energy markets are increasingly consumer-oriented, thanks to a growing
-number of energy plans offered by a plethora of energy suppliers, retailers and
-intermediaries. To maximize the benefits of competitive retail energy markets,
-group purchasing is an emerging paradigm that aggregates consumers' purchasing
-power by coordinating switch decisions to specific energy providers for
-discounted energy plans. Traditionally, group purchasing is mediated by a
-trusted third-party, which suffers from the lack of privacy and transparency.
-In this paper, we introduce a novel paradigm of decentralized
-privacy-preserving group purchasing, empowered by privacy-preserving blockchain
-and secure multi-party computation, to enable users to form a coalition for
-coordinated switch decisions in a decentralized manner, without a trusted
-third-party. The coordinated switch decisions are determined by a competitive
-online algorithm, based on users' private consumption data and current energy
-plan tariffs. Remarkably, no private user consumption data will be revealed to
-others in the online decision-making process, which is carried out in a
-transparently verifiable manner to eliminate frauds from dishonest users and
-supports fair mutual compensations by sharing the switching costs to
-incentivize group purchasing. We implemented our decentralized group purchasing
-solution as a smart contract on Solidity-supported blockchain platform (e.g.,
-Ethereum), and provide extensive empirical evaluation.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.10965v1">Privacy and Confidentiality Requirements Engineering for Process Data</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-05-16T08:03:02Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Fabian Haertel, Juergen Mangler, Nataliia Klievtsova, Celine Mader, Eugen Rigger, Stefanie Rinderle-Ma</p>
-    <p><b>Summary:</b> The application and development of process mining techniques face significant
-challenges due to the lack of publicly available real-life event logs. One
-reason for companies to abstain from sharing their data are privacy and
-confidentiality concerns. Privacy concerns refer to personal data as specified
-in the GDPR and have been addressed in existing work by providing
-privacy-preserving techniques for event logs. However, the concept of
-confidentiality in event logs not pertaining to individuals remains unclear,
-although they might contain a multitude of sensitive business data. This work
-addresses confidentiality of process data based on the privacy and
-confidentiality engineering method (PCRE). PCRE interactively explores privacy
-and confidentiality requirements regarding process data with different
-stakeholders and defines privacy-preserving actions to address possible
-concerns. We co-construct and evaluate PCRE based on structured interviews with
-process analysts in two manufacturing companies. PCRE is generic, hence
-applicable in different application domains. The goal is to systematically
-scrutinize process data and balance the trade-off between privacy and utility
-loss.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.10941v1">Privacy-Aware Lifelong Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-05-16T07:27:00Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ozan Özdenizci, Elmar Rueckert, Robert Legenstein</p>
-    <p><b>Summary:</b> Lifelong learning algorithms enable models to incrementally acquire new
-knowledge without forgetting previously learned information. Contrarily, the
-field of machine unlearning focuses on explicitly forgetting certain previous
-knowledge from pretrained models when requested, in order to comply with data
-privacy regulations on the right-to-be-forgotten. Enabling efficient lifelong
-learning with the capability to selectively unlearn sensitive information from
-models presents a critical and largely unaddressed challenge with contradicting
-objectives. We address this problem from the perspective of simultaneously
-preventing catastrophic forgetting and allowing forward knowledge transfer
-during task-incremental learning, while ensuring exact task unlearning and
-minimizing memory requirements, based on a single neural network model to be
-adapted. Our proposed solution, privacy-aware lifelong learning (PALL),
-involves optimization of task-specific sparse subnetworks with parameter
-sharing within a single architecture. We additionally utilize an episodic
-memory rehearsal mechanism to facilitate exact unlearning without performance
-degradations. We empirically demonstrate the scalability of PALL across various
-architectures in image classification, and provide a state-of-the-art solution
-that uniquely integrates lifelong learning and privacy-aware unlearning
-mechanisms for responsible AI applications.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.10871v1">Optimal Allocation of Privacy Budget on Hierarchical Data Release</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2025-05-16T05:25:11Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Joonhyuk Ko, Juba Ziani, Ferdinando Fioretto</p>
-    <p><b>Summary:</b> Releasing useful information from datasets with hierarchical structures while
-preserving individual privacy presents a significant challenge. Standard
-privacy-preserving mechanisms, and in particular Differential Privacy, often
-require careful allocation of a finite privacy budget across different levels
-and components of the hierarchy. Sub-optimal allocation can lead to either
-excessive noise, rendering the data useless, or to insufficient protections for
-sensitive information. This paper addresses the critical problem of optimal
-privacy budget allocation for hierarchical data release. It formulates this
-challenge as a constrained optimization problem, aiming to maximize data
-utility subject to a total privacy budget while considering the inherent
-trade-offs between data granularity and privacy loss. The proposed approach is
-supported by theoretical analysis and validated through comprehensive
-experiments on real hierarchical datasets. These experiments demonstrate that
-optimal privacy budget allocation significantly enhances the utility of the
-released data and improves the performance of downstream tasks.</p>
   </details>
 </div>
 
