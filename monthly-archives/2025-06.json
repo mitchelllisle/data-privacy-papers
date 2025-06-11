@@ -1067,5 +1067,110 @@
     "categories" : [
       "cs.CL"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.08918v1",
+    "title" : "Quantifying Mix Network Privacy Erosion with Generative Models",
+    "summary" : "Modern mix networks improve over Tor and provide stronger privacy guarantees\nby robustly obfuscating metadata. As long as a message is routed through at\nleast one honest mixnode, the privacy of the users involved is safeguarded.\nHowever, the complexity of the mixing mechanisms makes it difficult to estimate\nthe cumulative privacy erosion occurring over time. This work uses a generative\nmodel trained on mixnet traffic to estimate the loss of privacy when users\ncommunicate persistently over a period of time. We train our large-language\nmodel from scratch on our specialized network traffic ``language'' and then use\nit to measure the sender-message unlinkability in various settings (e.g. mixing\nstrategies, security parameters, observation window). Our findings reveal\nnotable differences in privacy levels among mix strategies, even when they have\nsimilar mean latencies. In comparison, we demonstrate the limitations of\ntraditional privacy metrics, such as entropy and log-likelihood, in fully\ncapturing an adversary's potential to synthesize information from multiple\nobservations. Finally, we show that larger models exhibit greater sample\nefficiency and superior capabilities implying that further advancements in\ntransformers will consequently enhance the accuracy of model-based privacy\nestimates.",
+    "updated" : "2025-06-10T15:43:39Z",
+    "published" : "2025-06-10T15:43:39Z",
+    "authors" : [
+      {
+        "name" : "Vasilios Mavroudis"
+      },
+      {
+        "name" : "Tariq Elahi"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.08654v1",
+    "title" : "A Privacy-Preserving Federated Learning Framework for Generalizable CBCT\n  to Synthetic CT Translation in Head and Neck",
+    "summary" : "Shortened Abstract\n  Cone-beam computed tomography (CBCT) has become a widely adopted modality for\nimage-guided radiotherapy (IGRT). However, CBCT suffers from increased noise,\nlimited soft-tissue contrast, and artifacts, resulting in unreliable Hounsfield\nunit values and hindering direct dose calculation. Synthetic CT (sCT)\ngeneration from CBCT addresses these issues, especially using deep learning\n(DL) methods. Existing approaches are limited by institutional heterogeneity,\nscanner-dependent variations, and data privacy regulations that prevent\nmulti-center data sharing.\n  To overcome these challenges, we propose a cross-silo horizontal federated\nlearning (FL) approach for CBCT-to-sCT synthesis in the head and neck region,\nextending our FedSynthCT framework. A conditional generative adversarial\nnetwork was collaboratively trained on data from three European medical centers\nin the public SynthRAD2025 challenge dataset.\n  The federated model demonstrated effective generalization across centers,\nwith mean absolute error (MAE) ranging from $64.38\\pm13.63$ to $85.90\\pm7.10$\nHU, structural similarity index (SSIM) from $0.882\\pm0.022$ to $0.922\\pm0.039$,\nand peak signal-to-noise ratio (PSNR) from $32.86\\pm0.94$ to $34.91\\pm1.04$ dB.\nNotably, on an external validation dataset of 60 patients, comparable\nperformance was achieved (MAE: $75.22\\pm11.81$ HU, SSIM: $0.904\\pm0.034$, PSNR:\n$33.52\\pm2.06$ dB) without additional training, confirming robust\ngeneralization despite protocol, scanner differences and registration errors.\n  These findings demonstrate the technical feasibility of FL for CBCT-to-sCT\nsynthesis while preserving data privacy and offer a collaborative solution for\ndeveloping generalizable models across institutions without centralized data\nsharing or site-specific fine-tuning.",
+    "updated" : "2025-06-10T10:10:56Z",
+    "published" : "2025-06-10T10:10:56Z",
+    "authors" : [
+      {
+        "name" : "Ciro Benito Raggio"
+      },
+      {
+        "name" : "Paolo Zaffino"
+      },
+      {
+        "name" : "Maria Francesca Spadea"
+      }
+    ],
+    "categories" : [
+      "physics.med-ph",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.08347v1",
+    "title" : "Differentially Private Relational Learning with Entity-level Privacy\n  Guarantees",
+    "summary" : "Learning with relational and network-structured data is increasingly vital in\nsensitive domains where protecting the privacy of individual entities is\nparamount. Differential Privacy (DP) offers a principled approach for\nquantifying privacy risks, with DP-SGD emerging as a standard mechanism for\nprivate model training. However, directly applying DP-SGD to relational\nlearning is challenging due to two key factors: (i) entities often participate\nin multiple relations, resulting in high and difficult-to-control sensitivity;\nand (ii) relational learning typically involves multi-stage, potentially\ncoupled (interdependent) sampling procedures that make standard privacy\namplification analyses inapplicable. This work presents a principled framework\nfor relational learning with formal entity-level DP guarantees. We provide a\nrigorous sensitivity analysis and introduce an adaptive gradient clipping\nscheme that modulates clipping thresholds based on entity occurrence frequency.\nWe also extend the privacy amplification results to a tractable subclass of\ncoupled sampling, where the dependence arises only through sample sizes. These\ncontributions lead to a tailored DP-SGD variant for relational data with\nprovable privacy guarantees. Experiments on fine-tuning text encoders over\ntext-attributed network-structured relational data demonstrate the strong\nutility-privacy trade-offs of our approach. Our code is available at\nhttps://github.com/Graph-COM/Node_DP.",
+    "updated" : "2025-06-10T02:03:43Z",
+    "published" : "2025-06-10T02:03:43Z",
+    "authors" : [
+      {
+        "name" : "Yinan Huang"
+      },
+      {
+        "name" : "Haoteng Ying"
+      },
+      {
+        "name" : "Eli Chien"
+      },
+      {
+        "name" : "Rongzhe Wei"
+      },
+      {
+        "name" : "Pan Li"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.08330v1",
+    "title" : "Distortion Search, A Web Search Privacy Heuristic",
+    "summary" : "Search engines have vast technical capabilities to retain Internet search\nlogs for each user and thus present major privacy vulnerabilities to both\nindividuals and organizations in revealing user intent. Additionally, many of\nthe web search privacy enhancing tools available today require that the user\ntrusts a third party, which make confidentiality of user intent even more\nchallenging. The user is left at the mercy of the third party without the\ncontrol over his or her own privacy. In this article, we suggest a user-centric\nheuristic, Distortion Search, a web search query privacy methodology that works\nby the formation of obfuscated search queries via the permutation of query\nkeyword categories, and by strategically applying k-anonymised web navigational\nclicks on URLs and Ads to generate a distorted user profile and thus providing\nspecific user intent and query confidentiality. We provide empirical results\nvia the evaluation of distorted web search queries in terms of retrieved search\nresults and the resulting web ads from search engines. Preliminary experimental\nresults indicate that web search query and specific user intent privacy might\nbe achievable from the user side without the involvement of the search engine\nor other third parties.",
+    "updated" : "2025-06-10T01:35:16Z",
+    "published" : "2025-06-10T01:35:16Z",
+    "authors" : [
+      {
+        "name" : "Kato Mivule"
+      },
+      {
+        "name" : "Kenneth Hopkinson"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.08185v1",
+    "title" : "Surgeon Style Fingerprinting and Privacy Risk Quantification via\n  Discrete Diffusion Models in a Vision-Language-Action Framework",
+    "summary" : "Surgeons exhibit distinct operating styles due to differences in training,\nexperience, and motor behavior - yet current AI systems often ignore this\npersonalization signal. We propose a novel approach to model fine-grained,\nsurgeon-specific fingerprinting in robotic surgery using a discrete diffusion\nframework integrated with a vision-language-action (VLA) pipeline. Our method\nformulates gesture prediction as a structured sequence denoising task,\nconditioned on multimodal inputs including endoscopic video, surgical intent\nlanguage, and a privacy-aware embedding of surgeon identity and skill.\nPersonalized surgeon fingerprinting is encoded through natural language prompts\nusing third-party language models, allowing the model to retain individual\nbehavioral style without exposing explicit identity. We evaluate our method on\nthe JIGSAWS dataset and demonstrate that it accurately reconstructs gesture\nsequences while learning meaningful motion fingerprints unique to each surgeon.\nTo quantify the privacy implications of personalization, we perform membership\ninference attacks and find that more expressive embeddings improve task\nperformance but simultaneously increase susceptibility to identity leakage.\nThese findings demonstrate that while personalized embeddings improve\nperformance, they also increase vulnerability to identity leakage, revealing\nthe importance of balancing personalization with privacy risk in surgical\nmodeling. Code is available at:\nhttps://github.com/huixin-zhan-ai/Surgeon_style_fingerprinting.",
+    "updated" : "2025-06-09T19:49:55Z",
+    "published" : "2025-06-09T19:49:55Z",
+    "authors" : [
+      {
+        "name" : "Huixin Zhan"
+      },
+      {
+        "name" : "Jason H. Moore"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI"
+    ]
   }
 ]
