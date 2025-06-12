@@ -2,6 +2,98 @@
 <h2>2025-06</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2506.09690v1">Knockoffs Inference under Privacy Constraints</a></h3>
+   
+  <p><b>Published on:</b> 2025-06-11T13:06:21Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zhanrui Cai, Yingying Fan, Lan Gao</p>
+    <p><b>Summary:</b> Model-X knockoff framework offers a model-free variable selection method that
+ensures finite sample false discovery rate (FDR) control. However, the
+complexity of generating knockoff variables, coupled with the model-free
+assumption, presents significant challenges for protecting data privacy in this
+context. In this paper, we propose a comprehensive framework for knockoff
+inference within the differential privacy paradigm. Our proposed method
+guarantees robust privacy protection while preserving the exact FDR control
+entailed by the original model-X knockoff procedure. We further conduct power
+analysis and establish sufficient conditions under which the noise added for
+privacy preservation does not asymptotically compromise power. Through various
+applications, we demonstrate that the differential privacy knockoff
+(DP-knockoff) method can be effectively utilized to safeguard privacy during
+variable selection with FDR control in both low and high dimensional settings.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2506.09387v1">Epass: Efficient and Privacy-Preserving Asynchronous Payment on
+  Blockchain</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-06-11T04:32:54Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Weijie Wang, Jinwen Liang, Chuan Zhang, Ximeng Liu, Liehuang Zhu, Song Guo</p>
+    <p><b>Summary:</b> Buy Now Pay Later (BNPL) is a rapidly proliferating e-commerce model,
+offering consumers to get the product immediately and defer payments.
+Meanwhile, emerging blockchain technologies endow BNPL platforms with digital
+currency transactions, allowing BNPL platforms to integrate with digital
+wallets. However, the transparency of transactions causes critical privacy
+concerns because malicious participants may derive consumers' financial
+statuses from on-chain asynchronous payments. Furthermore, the newly created
+transactions for deferred payments introduce additional time overheads, which
+weaken the scalability of BNPL services. To address these issues, we propose an
+efficient and privacy-preserving blockchain-based asynchronous payment scheme
+(Epass), which has promising scalability while protecting the privacy of
+on-chain consumer transactions. Specifically, Epass leverages locally
+verifiable signatures to guarantee the privacy of consumer transactions against
+malicious acts. Then, a privacy-preserving asynchronous payment scheme can be
+further constructed by leveraging time-release encryption to control trapdoors
+of redactable blockchain, reducing time overheads by modifying transactions for
+deferred payment. We give formal definitions and security models, generic
+structures, and formal proofs for Epass. Extensive comparisons and experimental
+analysis show that \textsf{Epass} achieves KB-level communication costs, and
+reduces time overhead by more than four times in comparisons with locally
+verifiable signatures and Go-Ethereum private test networks.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2506.09312v1">What is the Cost of Differential Privacy for Deep Learning-Based
+  Trajectory Generation?</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-06-11T00:59:52Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Erik Buchholz, Natasha Fernandes, David D. Nguyen, Alsharif Abuadbba, Surya Nepal, Salil S. Kanhere</p>
+    <p><b>Summary:</b> While location trajectories offer valuable insights, they also reveal
+sensitive personal information. Differential Privacy (DP) offers formal
+protection, but achieving a favourable utility-privacy trade-off remains
+challenging. Recent works explore deep learning-based generative models to
+produce synthetic trajectories. However, current models lack formal privacy
+guarantees and rely on conditional information derived from real data during
+generation. This work investigates the utility cost of enforcing DP in such
+models, addressing three research questions across two datasets and eleven
+utility metrics. (1) We evaluate how DP-SGD, the standard DP training method
+for deep learning, affects the utility of state-of-the-art generative models.
+(2) Since DP-SGD is limited to unconditional models, we propose a novel DP
+mechanism for conditional generation that provides formal guarantees and assess
+its impact on utility. (3) We analyse how model types - Diffusion, VAE, and GAN
+- affect the utility-privacy trade-off. Our results show that DP-SGD
+significantly impacts performance, although some utility remains if the
+datasets is sufficiently large. The proposed DP mechanism improves training
+stability, particularly when combined with DP-SGD, for unstable models such as
+GANs and on smaller datasets. Diffusion models yield the best utility without
+guarantees, but with DP-SGD, GANs perform best, indicating that the best
+non-private model is not necessarily optimal when targeting formal guarantees.
+In conclusion, DP trajectory generation remains a challenging task, and formal
+guarantees are currently only feasible with large datasets and in constrained
+use cases.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2506.08918v1">Quantifying Mix Network Privacy Erosion with Generative Models</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2025-06-10T15:43:39Z</p>
@@ -525,7 +617,7 @@ code is publicly available at: https://github.com/SeroneySun/LpLA_code.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.05683v1">Multi-Modal Multi-Task Federated Foundation Models for Next-Generation
+  <h3><a href="http://arxiv.org/abs/2506.05683v2">Multi-Modal Multi-Task Federated Foundation Models for Next-Generation
   Extended Reality Systems: Towards Privacy-Preserving Distributed Intelligence
   in AR/VR/MR</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Multimedia-5BC0EB">
@@ -2834,108 +2926,6 @@ leaking private attributes (such as age and gender) while retaining essential
 functional capabilities (such as face identification). Extensive experiments on
 two datasets using two face encoders demonstrate that our approach outperforms
 several state-of-the-art privacy protection methods.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.12610v1">hChain: Blockchain Based Large Scale EHR Data Sharing with Enhanced
-  Security and Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-05-19T01:47:01Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Musharraf Alruwaill, Saraju Mohanty, Elias Kougianos</p>
-    <p><b>Summary:</b> Concerns regarding privacy and data security in conventional healthcare
-prompted alternative technologies. In smart healthcare, blockchain technology
-addresses existing concerns with security, privacy, and electronic healthcare
-transmission. Integration of Blockchain Technology with the Internet of Medical
-Things (IoMT) allows real-time monitoring of protected healthcare data.
-Utilizing edge devices with IoMT devices is very advantageous for addressing
-security, computing, and storage challenges. Encryption using symmetric and
-asymmetric keys is used to conceal sensitive information from unauthorized
-parties. SHA256 is an algorithm for one-way hashing. It is used to verify that
-the data has not been altered, since if it had, the hash value would have
-changed. This article offers a blockchain-based smart healthcare system using
-IoMT devices for continuous patient monitoring. In addition, it employs edge
-resources in addition to IoMT devices to have extra computing power and storage
-to hash and encrypt incoming data before sending it to the blockchain.
-Symmetric key is utilized to keep the data private even in the blockchain,
-allowing the patient to safely communicate the data through smart contracts
-while preventing unauthorized physicians from seeing the data. Through the use
-of a verification node and blockchain, an asymmetric key is used for the
-signing and validation of patient data in the healthcare provider system. In
-addition to other security measures, location-based authentication is
-recommended to guarantee that data originates from the patient area. Through
-the edge device, SHA256 is utilized to secure the data's integrity and a secret
-key is used to maintain its secrecy. The hChain architecture improves the
-computing power of IoMT environments, the security of EHR sharing through smart
-contracts, and the privacy and authentication procedures.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.12239v1">ACU: Analytic Continual Unlearning for Efficient and Exact Forgetting
-  with Privacy Preservation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-05-18T05:28:18Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jianheng Tang, Huiping Zhuang, Di Fang, Jiaxu Li, Feijiang Han, Yajiang Huang, Kejia Fan, Leye Wang, Zhanxing Zhu, Shanghang Zhang, Houbing Herbert Song, Yunhuai Liu</p>
-    <p><b>Summary:</b> The development of artificial intelligence demands that models incrementally
-update knowledge by Continual Learning (CL) to adapt to open-world
-environments. To meet privacy and security requirements, Continual Unlearning
-(CU) emerges as an important problem, aiming to sequentially forget particular
-knowledge acquired during the CL phase. However, existing unlearning methods
-primarily focus on single-shot joint forgetting and face significant
-limitations when applied to CU. First, most existing methods require access to
-the retained dataset for re-training or fine-tuning, violating the inherent
-constraint in CL that historical data cannot be revisited. Second, these
-methods often suffer from a poor trade-off between system efficiency and model
-fidelity, making them vulnerable to being overwhelmed or degraded by
-adversaries through deliberately frequent requests. In this paper, we identify
-that the limitations of existing unlearning methods stem fundamentally from
-their reliance on gradient-based updates. To bridge the research gap at its
-root, we propose a novel gradient-free method for CU, named Analytic Continual
-Unlearning (ACU), for efficient and exact forgetting with historical data
-privacy preservation. In response to each unlearning request, our ACU
-recursively derives an analytical (i.e., closed-form) solution in an
-interpretable manner using the least squares method. Theoretical and
-experimental evaluations validate the superiority of our ACU on unlearning
-effectiveness, model fidelity, and system efficiency.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.12153v1">Federated Deep Reinforcement Learning for Privacy-Preserving
-  Robotic-Assisted Surgery</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Robotics-F9C80E">
-  <p><b>Published on:</b> 2025-05-17T22:02:44Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Sana Hafeez, Sundas Rafat Mulkana, Muhammad Ali Imran, Michele Sevegnani</p>
-    <p><b>Summary:</b> The integration of Reinforcement Learning (RL) into robotic-assisted surgery
-(RAS) holds significant promise for advancing surgical precision, adaptability,
-and autonomous decision-making. However, the development of robust RL models in
-clinical settings is hindered by key challenges, including stringent patient
-data privacy regulations, limited access to diverse surgical datasets, and high
-procedural variability. To address these limitations, this paper presents a
-Federated Deep Reinforcement Learning (FDRL) framework that enables
-decentralized training of RL models across multiple healthcare institutions
-without exposing sensitive patient information. A central innovation of the
-proposed framework is its dynamic policy adaptation mechanism, which allows
-surgical robots to select and tailor patient-specific policies in real-time,
-thereby ensuring personalized and Optimised interventions. To uphold rigorous
-privacy standards while facilitating collaborative learning, the FDRL framework
-incorporates secure aggregation, differential privacy, and homomorphic
-encryption techniques. Experimental results demonstrate a 60\% reduction in
-privacy leakage compared to conventional methods, with surgical precision
-maintained within a 1.5\% margin of a centralized baseline. This work
-establishes a foundational approach for adaptive, secure, and patient-centric
-AI-driven surgical robotics, offering a pathway toward clinical translation and
-scalable deployment across diverse healthcare environments.</p>
   </details>
 </div>
 
