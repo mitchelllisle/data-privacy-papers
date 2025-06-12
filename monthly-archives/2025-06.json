@@ -1172,5 +1172,118 @@
       "cs.CV",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.09690v1",
+    "title" : "Knockoffs Inference under Privacy Constraints",
+    "summary" : "Model-X knockoff framework offers a model-free variable selection method that\nensures finite sample false discovery rate (FDR) control. However, the\ncomplexity of generating knockoff variables, coupled with the model-free\nassumption, presents significant challenges for protecting data privacy in this\ncontext. In this paper, we propose a comprehensive framework for knockoff\ninference within the differential privacy paradigm. Our proposed method\nguarantees robust privacy protection while preserving the exact FDR control\nentailed by the original model-X knockoff procedure. We further conduct power\nanalysis and establish sufficient conditions under which the noise added for\nprivacy preservation does not asymptotically compromise power. Through various\napplications, we demonstrate that the differential privacy knockoff\n(DP-knockoff) method can be effectively utilized to safeguard privacy during\nvariable selection with FDR control in both low and high dimensional settings.",
+    "updated" : "2025-06-11T13:06:21Z",
+    "published" : "2025-06-11T13:06:21Z",
+    "authors" : [
+      {
+        "name" : "Zhanrui Cai"
+      },
+      {
+        "name" : "Yingying Fan"
+      },
+      {
+        "name" : "Lan Gao"
+      }
+    ],
+    "categories" : [
+      "stat.ME",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.09387v1",
+    "title" : "Epass: Efficient and Privacy-Preserving Asynchronous Payment on\n  Blockchain",
+    "summary" : "Buy Now Pay Later (BNPL) is a rapidly proliferating e-commerce model,\noffering consumers to get the product immediately and defer payments.\nMeanwhile, emerging blockchain technologies endow BNPL platforms with digital\ncurrency transactions, allowing BNPL platforms to integrate with digital\nwallets. However, the transparency of transactions causes critical privacy\nconcerns because malicious participants may derive consumers' financial\nstatuses from on-chain asynchronous payments. Furthermore, the newly created\ntransactions for deferred payments introduce additional time overheads, which\nweaken the scalability of BNPL services. To address these issues, we propose an\nefficient and privacy-preserving blockchain-based asynchronous payment scheme\n(Epass), which has promising scalability while protecting the privacy of\non-chain consumer transactions. Specifically, Epass leverages locally\nverifiable signatures to guarantee the privacy of consumer transactions against\nmalicious acts. Then, a privacy-preserving asynchronous payment scheme can be\nfurther constructed by leveraging time-release encryption to control trapdoors\nof redactable blockchain, reducing time overheads by modifying transactions for\ndeferred payment. We give formal definitions and security models, generic\nstructures, and formal proofs for Epass. Extensive comparisons and experimental\nanalysis show that \\textsf{Epass} achieves KB-level communication costs, and\nreduces time overhead by more than four times in comparisons with locally\nverifiable signatures and Go-Ethereum private test networks.",
+    "updated" : "2025-06-11T04:32:54Z",
+    "published" : "2025-06-11T04:32:54Z",
+    "authors" : [
+      {
+        "name" : "Weijie Wang"
+      },
+      {
+        "name" : "Jinwen Liang"
+      },
+      {
+        "name" : "Chuan Zhang"
+      },
+      {
+        "name" : "Ximeng Liu"
+      },
+      {
+        "name" : "Liehuang Zhu"
+      },
+      {
+        "name" : "Song Guo"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.09312v1",
+    "title" : "What is the Cost of Differential Privacy for Deep Learning-Based\n  Trajectory Generation?",
+    "summary" : "While location trajectories offer valuable insights, they also reveal\nsensitive personal information. Differential Privacy (DP) offers formal\nprotection, but achieving a favourable utility-privacy trade-off remains\nchallenging. Recent works explore deep learning-based generative models to\nproduce synthetic trajectories. However, current models lack formal privacy\nguarantees and rely on conditional information derived from real data during\ngeneration. This work investigates the utility cost of enforcing DP in such\nmodels, addressing three research questions across two datasets and eleven\nutility metrics. (1) We evaluate how DP-SGD, the standard DP training method\nfor deep learning, affects the utility of state-of-the-art generative models.\n(2) Since DP-SGD is limited to unconditional models, we propose a novel DP\nmechanism for conditional generation that provides formal guarantees and assess\nits impact on utility. (3) We analyse how model types - Diffusion, VAE, and GAN\n- affect the utility-privacy trade-off. Our results show that DP-SGD\nsignificantly impacts performance, although some utility remains if the\ndatasets is sufficiently large. The proposed DP mechanism improves training\nstability, particularly when combined with DP-SGD, for unstable models such as\nGANs and on smaller datasets. Diffusion models yield the best utility without\nguarantees, but with DP-SGD, GANs perform best, indicating that the best\nnon-private model is not necessarily optimal when targeting formal guarantees.\nIn conclusion, DP trajectory generation remains a challenging task, and formal\nguarantees are currently only feasible with large datasets and in constrained\nuse cases.",
+    "updated" : "2025-06-11T00:59:52Z",
+    "published" : "2025-06-11T00:59:52Z",
+    "authors" : [
+      {
+        "name" : "Erik Buchholz"
+      },
+      {
+        "name" : "Natasha Fernandes"
+      },
+      {
+        "name" : "David D. Nguyen"
+      },
+      {
+        "name" : "Alsharif Abuadbba"
+      },
+      {
+        "name" : "Surya Nepal"
+      },
+      {
+        "name" : "Salil S. Kanhere"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.05683v2",
+    "title" : "Multi-Modal Multi-Task Federated Foundation Models for Next-Generation\n  Extended Reality Systems: Towards Privacy-Preserving Distributed Intelligence\n  in AR/VR/MR",
+    "summary" : "Extended reality (XR) systems, which consist of virtual reality (VR),\naugmented reality (AR), and mixed reality (XR), offer a transformative\ninterface for immersive, multi-modal, and embodied human-computer interaction.\nIn this paper, we envision that multi-modal multi-task (M3T) federated\nfoundation models (FedFMs) can offer transformative capabilities for XR systems\nthrough integrating the representational strength of M3T foundation models\n(FMs) with the privacy-preserving model training principles of federated\nlearning (FL). We present a modular architecture for FedFMs, which entails\ndifferent coordination paradigms for model training and aggregations. Central\nto our vision is the codification of XR challenges that affect the\nimplementation of FedFMs under the SHIFT dimensions: (1) Sensor and modality\ndiversity, (2) Hardware heterogeneity and system-level constraints, (3)\nInteractivity and embodied personalization, (4) Functional/task variability,\nand (5) Temporality and environmental variability. We illustrate the\nmanifestation of these dimensions across a set of emerging and anticipated\napplications of XR systems. Finally, we propose evaluation metrics, dataset\nrequirements, and design tradeoffs necessary for the development of\nresource-aware FedFMs in XR. This perspective aims to chart the technical and\nconceptual foundations for context-aware privacy-preserving intelligence in the\nnext generation of XR systems.",
+    "updated" : "2025-06-11T00:49:57Z",
+    "published" : "2025-06-06T02:23:42Z",
+    "authors" : [
+      {
+        "name" : "Fardis Nadimi"
+      },
+      {
+        "name" : "Payam Abdisarabshali"
+      },
+      {
+        "name" : "Kasra Borazjani"
+      },
+      {
+        "name" : "Jacob Chakareski"
+      },
+      {
+        "name" : "Seyyedali Hosseinalipour"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR",
+      "cs.MM"
+    ]
   }
 ]
