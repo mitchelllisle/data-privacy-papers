@@ -3506,5 +3506,45 @@
       "eess.SY",
       "math.IT"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.00476v2",
+    "title" : "Towards Graph-Based Privacy-Preserving Federated Learning: ModelNet -- A\n  ResNet-based Model Classification Dataset",
+    "summary" : "Federated Learning (FL) has emerged as a powerful paradigm for training\nmachine learning models across distributed data sources while preserving data\nlocality. However, the privacy of local data is always a pivotal concern and\nhas received a lot of attention in recent research on the FL regime. Moreover,\nthe lack of domain heterogeneity and client-specific segregation in the\nbenchmarks remains a critical bottleneck for rigorous evaluation. In this\npaper, we introduce ModelNet, a novel image classification dataset constructed\nfrom the embeddings extracted from a pre-trained ResNet50 model. First, we\nmodify the CIFAR100 dataset into three client-specific variants, considering\nthree domain heterogeneities (homogeneous, heterogeneous, and random).\nSubsequently, we train each client-specific subset of all three variants on the\npre-trained ResNet50 model to save model parameters. In addition to\nmulti-domain image data, we propose a new hypothesis to define the FL algorithm\nthat can access the anonymized model parameters to preserve the local privacy\nin a more effective manner compared to existing ones. ModelNet is designed to\nsimulate realistic FL settings by incorporating non-IID data distributions and\nclient diversity design principles in the mainframe for both conventional and\nfuturistic graph-driven FL algorithms. The three variants are ModelNet-S,\nModelNet-D, and ModelNet-R, which are based on homogeneous, heterogeneous, and\nrandom data settings, respectively. To the best of our knowledge, we are the\nfirst to propose a cross-environment client-specific FL dataset along with the\ngraph-based variant. Extensive experiments based on domain shifts and\naggregation strategies show the effectiveness of the above variants, making it\na practical benchmark for classical and graph-based FL research. The dataset\nand related code are available online.",
+    "updated" : "2025-06-12T07:15:56Z",
+    "published" : "2025-05-31T08:53:16Z",
+    "authors" : [
+      {
+        "name" : "Abhisek Ray"
+      },
+      {
+        "name" : "Lukas Esterle"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.20575v2",
+    "title" : "Synergising Hierarchical Data Centers and Power Networks: A\n  Privacy-Preserving Approach",
+    "summary" : "In the era of digitization, data centers have emerged as integral\ncontributors sustaining our interlinked world, bearing responsibility for an\nincreasing proportion of the world's energy consumption. To facilitate the\ntheir fast rollout while progressing towards net-zero energy systems, the\nsynergy of hierarchical data centers (cloud-fog-edge) and power networks can\nplay a pivotal role. However, existing centralized co-dispatch manners encroach\non the privacy of different agents within the integrated systems, meanwhile\nsuffering from the combinatorial explosion. In this research, we propose a\nnear-optimal distributed privacy-preserving approach to solve the non-convex\nsynergy (day-ahead co-dispatch) problem. The synergy problem is formulated as a\nmixed integer quadratically constrained quadratic programming considering both\ncommunication and energy conservation, where Lyapunov optimization is\nintroduced to balance operating costs and uncertain communication delays. To\nmitigate impacts of the highly non-convex nature, the normalized\nmulti-parametric disaggregation technique is leveraged to reformulate the\nproblem into a mixed integer non-linear programming. To further overcome\nnon-smoothness of the reformulated problem, the customized $\\ell_1-$surrogate\nLagrangian relaxation method with convergence guarantees is proposed to solve\nthe problem in a distributed privacy-preserving manner. The effectiveness,\noptimality, and scalability of the proposed methodologies for the synergy\nproblem are validated via numerical simulations. Simulation results also\nindicate that computing tasks can be delayed and migrated within the\nhierarchical data centers, demonstrating the flexible resource allocation\ncapabilities of the hierarchical data center architecture, further facilitating\npeak load balancing in the power network.",
+    "updated" : "2025-06-12T07:35:16Z",
+    "published" : "2025-05-26T23:22:45Z",
+    "authors" : [
+      {
+        "name" : "Junhong Liu"
+      },
+      {
+        "name" : "Fei Teng"
+      },
+      {
+        "name" : "Yunhe Hou"
+      }
+    ],
+    "categories" : [
+      "eess.SY",
+      "cs.SY"
+    ]
   }
 ]
