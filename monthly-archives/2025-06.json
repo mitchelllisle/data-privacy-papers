@@ -1285,5 +1285,131 @@
       "cs.CR",
       "cs.MM"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.10042v1",
+    "title" : "Multiverse Privacy Theory for Contextual Risks in Complex User-AI\n  Interactions",
+    "summary" : "In an era of increasing interaction with artificial intelligence (AI), users\nface evolving privacy decisions shaped by complex, uncertain factors. This\npaper introduces Multiverse Privacy Theory, a novel framework in which each\nprivacy decision spawns a parallel universe, representing a distinct potential\noutcome based on user choices over time. By simulating these universes, this\ntheory provides a foundation for understanding privacy through the lens of\ncontextual integrity, evolving preferences, and probabilistic decision-making.\nFuture work will explore its application using real-world, scenario-based\nsurvey data.",
+    "updated" : "2025-06-11T05:02:59Z",
+    "published" : "2025-06-11T05:02:59Z",
+    "authors" : [
+      {
+        "name" : "Ece Gumusel"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.10024v1",
+    "title" : "Private Memorization Editing: Turning Memorization into a Defense to\n  Strengthen Data Privacy in Large Language Models",
+    "summary" : "Large Language Models (LLMs) memorize, and thus, among huge amounts of\nuncontrolled data, may memorize Personally Identifiable Information (PII),\nwhich should not be stored and, consequently, not leaked. In this paper, we\nintroduce Private Memorization Editing (PME), an approach for preventing\nprivate data leakage that turns an apparent limitation, that is, the LLMs'\nmemorization ability, into a powerful privacy defense strategy. While attacks\nagainst LLMs have been performed exploiting previous knowledge regarding their\ntraining data, our approach aims to exploit the same kind of knowledge in order\nto make a model more robust. We detect a memorized PII and then mitigate the\nmemorization of PII by editing a model knowledge of its training data. We\nverify that our procedure does not affect the underlying language model while\nmaking it more robust against privacy Training Data Extraction attacks. We\ndemonstrate that PME can effectively reduce the number of leaked PII in a\nnumber of configurations, in some cases even reducing the accuracy of the\nprivacy attacks to zero.",
+    "updated" : "2025-06-09T17:57:43Z",
+    "published" : "2025-06-09T17:57:43Z",
+    "authors" : [
+      {
+        "name" : "Elena Sofia Ruzzetti"
+      },
+      {
+        "name" : "Giancarlo A. Xompero"
+      },
+      {
+        "name" : "Davide Venditti"
+      },
+      {
+        "name" : "Fabio Massimo Zanzotto"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.07605v2",
+    "title" : "TimberStrike: Dataset Reconstruction Attack Revealing Privacy Leakage in\n  Federated Tree-Based Systems",
+    "summary" : "Federated Learning has emerged as a privacy-oriented alternative to\ncentralized Machine Learning, enabling collaborative model training without\ndirect data sharing. While extensively studied for neural networks, the\nsecurity and privacy implications of tree-based models remain underexplored.\nThis work introduces TimberStrike, an optimization-based dataset reconstruction\nattack targeting horizontally federated tree-based models. Our attack, carried\nout by a single client, exploits the discrete nature of decision trees by using\nsplit values and decision paths to infer sensitive training data from other\nclients. We evaluate TimberStrike on State-of-the-Art federated gradient\nboosting implementations across multiple frameworks, including Flower, NVFlare,\nand FedTree, demonstrating their vulnerability to privacy breaches. On a\npublicly available stroke prediction dataset, TimberStrike consistently\nreconstructs between 73.05% and 95.63% of the target dataset across all\nimplementations. We further analyze Differential Privacy, showing that while it\npartially mitigates the attack, it also significantly degrades model\nperformance. Our findings highlight the need for privacy-preserving mechanisms\nspecifically designed for tree-based Federated Learning systems, and we provide\npreliminary insights into their design.",
+    "updated" : "2025-06-12T17:48:26Z",
+    "published" : "2025-06-09T10:06:03Z",
+    "authors" : [
+      {
+        "name" : "Marco Di Gennaro"
+      },
+      {
+        "name" : "Giovanni De Lucia"
+      },
+      {
+        "name" : "Stefano Longari"
+      },
+      {
+        "name" : "Stefano Zanero"
+      },
+      {
+        "name" : "Michele Carminati"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DC",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.05683v3",
+    "title" : "Multi-Modal Multi-Task Federated Foundation Models for Next-Generation\n  Extended Reality Systems: Towards Privacy-Preserving Distributed Intelligence\n  in AR/VR/MR",
+    "summary" : "Extended reality (XR) systems, which consist of virtual reality (VR),\naugmented reality (AR), and mixed reality (XR), offer a transformative\ninterface for immersive, multi-modal, and embodied human-computer interaction.\nIn this paper, we envision that multi-modal multi-task (M3T) federated\nfoundation models (FedFMs) can offer transformative capabilities for XR systems\nthrough integrating the representational strength of M3T foundation models\n(FMs) with the privacy-preserving model training principles of federated\nlearning (FL). We present a modular architecture for FedFMs, which entails\ndifferent coordination paradigms for model training and aggregations. Central\nto our vision is the codification of XR challenges that affect the\nimplementation of FedFMs under the SHIFT dimensions: (1) Sensor and modality\ndiversity, (2) Hardware heterogeneity and system-level constraints, (3)\nInteractivity and embodied personalization, (4) Functional/task variability,\nand (5) Temporality and environmental variability. We illustrate the\nmanifestation of these dimensions across a set of emerging and anticipated\napplications of XR systems. Finally, we propose evaluation metrics, dataset\nrequirements, and design tradeoffs necessary for the development of\nresource-aware FedFMs in XR. This perspective aims to chart the technical and\nconceptual foundations for context-aware privacy-preserving intelligence in the\nnext generation of XR systems.",
+    "updated" : "2025-06-12T04:18:38Z",
+    "published" : "2025-06-06T02:23:42Z",
+    "authors" : [
+      {
+        "name" : "Fardis Nadimi"
+      },
+      {
+        "name" : "Payam Abdisarabshali"
+      },
+      {
+        "name" : "Kasra Borazjani"
+      },
+      {
+        "name" : "Jacob Chakareski"
+      },
+      {
+        "name" : "Seyyedali Hosseinalipour"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR",
+      "cs.MM"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.05421v2",
+    "title" : "TRIDENT -- A Three-Tier Privacy-Preserving Propaganda Detection Model in\n  Mobile Networks using Transformers, Adversarial Learning, and Differential\n  Privacy",
+    "summary" : "The proliferation of propaganda on mobile platforms raises critical concerns\naround detection accuracy and user privacy. To address this, we propose TRIDENT\n- a three-tier propaganda detection model implementing transformers,\nadversarial learning, and differential privacy which integrates syntactic\nobfuscation and label perturbation to mitigate privacy leakage while\nmaintaining propaganda detection accuracy. TRIDENT leverages multilingual\nback-translation to introduce semantic variance, character-level noise, and\nentity obfuscation for differential privacy enforcement, and combines these\ntechniques into a unified defense mechanism. Using a binary propaganda\nclassification dataset, baseline transformer models (BERT, GPT-2) we achieved\nF1 scores of 0.89 and 0.90. Applying TRIDENT's third-tier defense yields a\nreduced but effective cumulative F1 of 0.83, demonstrating strong privacy\nprotection across mobile ML deployments with minimal degradation.",
+    "updated" : "2025-06-12T01:37:56Z",
+    "published" : "2025-06-05T02:38:02Z",
+    "authors" : [
+      {
+        "name" : "Al Nahian Bin Emran"
+      },
+      {
+        "name" : "Dhiman Goswami"
+      },
+      {
+        "name" : "Md Hasan Ullah Sadi"
+      },
+      {
+        "name" : "Sanchari Das"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CY"
+    ]
   }
 ]
