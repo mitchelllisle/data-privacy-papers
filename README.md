@@ -26,6 +26,27 @@ variable selection with FDR control in both low and high dimensional settings.</
 
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2506.10042v1">Multiverse Privacy Theory for Contextual Risks in Complex User-AI
+  Interactions</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2025-06-11T05:02:59Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ece Gumusel</p>
+    <p><b>Summary:</b> In an era of increasing interaction with artificial intelligence (AI), users
+face evolving privacy decisions shaped by complex, uncertain factors. This
+paper introduces Multiverse Privacy Theory, a novel framework in which each
+privacy decision spawns a parallel universe, representing a distinct potential
+outcome based on user choices over time. By simulating these universes, this
+theory provides a foundation for understanding privacy through the lens of
+contextual integrity, evolving preferences, and probabilistic decision-making.
+Future work will explore its application using real-world, scenario-based
+survey data.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2506.09387v1">Epass: Efficient and Privacy-Preserving Asynchronous Payment on
   Blockchain</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
@@ -254,6 +275,33 @@ https://github.com/huixin-zhan-ai/Surgeon_style_fingerprinting.</p>
 
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2506.10024v1">Private Memorization Editing: Turning Memorization into a Defense to
+  Strengthen Data Privacy in Large Language Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2025-06-09T17:57:43Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Elena Sofia Ruzzetti, Giancarlo A. Xompero, Davide Venditti, Fabio Massimo Zanzotto</p>
+    <p><b>Summary:</b> Large Language Models (LLMs) memorize, and thus, among huge amounts of
+uncontrolled data, may memorize Personally Identifiable Information (PII),
+which should not be stored and, consequently, not leaked. In this paper, we
+introduce Private Memorization Editing (PME), an approach for preventing
+private data leakage that turns an apparent limitation, that is, the LLMs'
+memorization ability, into a powerful privacy defense strategy. While attacks
+against LLMs have been performed exploiting previous knowledge regarding their
+training data, our approach aims to exploit the same kind of knowledge in order
+to make a model more robust. We detect a memorized PII and then mitigate the
+memorization of PII by editing a model knowledge of its training data. We
+verify that our procedure does not affect the underlying language model while
+making it more robust against privacy Training Data Extraction attacks. We
+demonstrate that PME can effectively reduce the number of leaked PII in a
+number of configurations, in some cases even reducing the accuracy of the
+privacy attacks to zero.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2506.07957v1">Understanding the Error Sensitivity of Privacy-Aware Computing</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Hardware Architecture-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2025-06-09T17:27:40Z</p>
@@ -323,7 +371,7 @@ small, depending on the model of computation.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.07605v1">TimberStrike: Dataset Reconstruction Attack Revealing Privacy Leakage in
+  <h3><a href="http://arxiv.org/abs/2506.07605v2">TimberStrike: Dataset Reconstruction Attack Revealing Privacy Leakage in
   Federated Tree-Based Systems</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2025-06-09T10:06:03Z</p>
@@ -617,7 +665,7 @@ code is publicly available at: https://github.com/SeroneySun/LpLA_code.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.05683v2">Multi-Modal Multi-Task Federated Foundation Models for Next-Generation
+  <h3><a href="http://arxiv.org/abs/2506.05683v3">Multi-Modal Multi-Task Federated Foundation Models for Next-Generation
   Extended Reality Systems: Towards Privacy-Preserving Distributed Intelligence
   in AR/VR/MR</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Multimedia-5BC0EB">
@@ -753,7 +801,7 @@ algorithm, thereby presenting it as a feasible solution.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.05421v1">TRIDENT -- A Three-Tier Privacy-Preserving Propaganda Detection Model in
+  <h3><a href="http://arxiv.org/abs/2506.05421v2">TRIDENT -- A Three-Tier Privacy-Preserving Propaganda Detection Model in
   Mobile Networks using Transformers, Adversarial Learning, and Differential
   Privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
@@ -1361,7 +1409,7 @@ medicine.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.00476v1">Towards Graph-Based Privacy-Preserving Federated Learning: ModelNet -- A
+  <h3><a href="http://arxiv.org/abs/2506.00476v2">Towards Graph-Based Privacy-Preserving Federated Learning: ModelNet -- A
   ResNet-based Model Classification Dataset</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2025-05-31T08:53:16Z</p>
@@ -2005,7 +2053,7 @@ proposed privacy-preserving approach.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.20575v1">Synergising Hierarchical Data Centers and Power Networks: A
+  <h3><a href="http://arxiv.org/abs/2505.20575v2">Synergising Hierarchical Data Centers and Power Networks: A
   Privacy-Preserving Approach</a></h3>
    <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
   <p><b>Published on:</b> 2025-05-26T23:22:45Z</p>
@@ -2030,7 +2078,7 @@ multi-parametric disaggregation technique is leveraged to reformulate the
 problem into a mixed integer non-linear programming. To further overcome
 non-smoothness of the reformulated problem, the customized $\ell_1-$surrogate
 Lagrangian relaxation method with convergence guarantees is proposed to solve
-the problem in a distributed privacy-preserving manner. {The effectiveness,
+the problem in a distributed privacy-preserving manner. The effectiveness,
 optimality, and scalability of the proposed methodologies for the synergy
 problem are validated via numerical simulations. Simulation results also
 indicate that computing tasks can be delayed and migrated within the
@@ -2865,67 +2913,6 @@ we establish that for certain input graphs and graphlets, any locally
 differentially private algorithm must have an expected $\ell_2$ error of
 $\Omega(n^{k - 1.5})$. Our experimental results show that our algorithm is more
 accurate than the classical randomized response method.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.12869v1">Outsourced Privacy-Preserving Feature Selection Based on Fully
-  Homomorphic Encryption</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-05-19T08:55:56Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Koki Wakiyama, Tomohiro I, Hiroshi Sakamoto</p>
-    <p><b>Summary:</b> Feature selection is a technique that extracts a meaningful subset from a set
-of features in training data. When the training data is large-scale,
-appropriate feature selection enables the removal of redundant features, which
-can improve generalization performance, accelerate the training process, and
-enhance the interpretability of the model. This study proposes a
-privacy-preserving computation model for feature selection. Generally, when the
-data owner and analyst are the same, there is no need to conceal the private
-information. However, when they are different parties or when multiple owners
-exist, an appropriate privacy-preserving framework is required. Although
-various private feature selection algorithms, they all require two or more
-computing parties and do not guarantee security in environments where no
-external party can be fully trusted. To address this issue, we propose the
-first outsourcing algorithm for feature selection using fully homomorphic
-encryption. Compared to a prior two-party algorithm, our result improves the
-time and space complexity O(kn^2) to O(kn log^3 n) and O(kn), where k and n
-denote the number of features and data samples, respectively. We also
-implemented the proposed algorithm and conducted comparative experiments with
-the naive one. The experimental result shows the efficiency of our method even
-with small datasets.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.12688v1">Shielding Latent Face Representations From Privacy Attacks</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-05-19T04:23:16Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Arjun Ramesh Kaushik, Bharat Chandra Yalavarthi, Arun Ross, Vishnu Boddeti, Nalini Ratha</p>
-    <p><b>Summary:</b> In today's data-driven analytics landscape, deep learning has become a
-powerful tool, with latent representations, known as embeddings, playing a
-central role in several applications. In the face analytics domain, such
-embeddings are commonly used for biometric recognition (e.g., face
-identification). However, these embeddings, or templates, can inadvertently
-expose sensitive attributes such as age, gender, and ethnicity. Leaking such
-information can compromise personal privacy and affect civil liberty and human
-rights. To address these concerns, we introduce a multi-layer protection
-framework for embeddings. It consists of a sequence of operations: (a)
-encrypting embeddings using Fully Homomorphic Encryption (FHE), and (b) hashing
-them using irreversible feature manifold hashing. Unlike conventional
-encryption methods, FHE enables computations directly on encrypted data,
-allowing downstream analytics while maintaining strong privacy guarantees. To
-reduce the overhead of encrypted processing, we employ embedding compression.
-Our proposed method shields latent representations of sensitive data from
-leaking private attributes (such as age and gender) while retaining essential
-functional capabilities (such as face identification). Extensive experiments on
-two datasets using two face encoders demonstrate that our approach outperforms
-several state-of-the-art privacy protection methods.</p>
   </details>
 </div>
 
