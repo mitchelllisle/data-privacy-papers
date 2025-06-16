@@ -3546,5 +3546,30 @@
       "eess.SY",
       "cs.SY"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.11026v1",
+    "title" : "Evaluating Privacy-Utility Tradeoffs in Synthetic Smart Grid Data",
+    "summary" : "The widespread adoption of dynamic Time-of-Use (dToU) electricity tariffs\nrequires accurately identifying households that would benefit from such pricing\nstructures. However, the use of real consumption data poses serious privacy\nconcerns, motivating the adoption of synthetic alternatives. In this study, we\nconduct a comparative evaluation of four synthetic data generation methods,\nWasserstein-GP Generative Adversarial Networks (WGAN), Conditional Tabular GAN\n(CTGAN), Diffusion Models, and Gaussian noise augmentation, under different\nsynthetic regimes. We assess classification utility, distribution fidelity, and\nprivacy leakage. Our results show that architectural design plays a key role:\ndiffusion models achieve the highest utility (macro-F1 up to 88.2%), while\nCTGAN provide the strongest resistance to reconstruction attacks. These\nfindings highlight the potential of structured generative models for developing\nprivacy-preserving, data-driven energy systems.",
+    "updated" : "2025-05-20T10:46:29Z",
+    "published" : "2025-05-20T10:46:29Z",
+    "authors" : [
+      {
+        "name" : "Andre Catarino"
+      },
+      {
+        "name" : "Rui Melo"
+      },
+      {
+        "name" : "Rui Abreu"
+      },
+      {
+        "name" : "Luis Cruz"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CY"
+    ]
   }
 ]
