@@ -1411,5 +1411,124 @@
       "cs.CR",
       "cs.CY"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.11687v1",
+    "title" : "Differential Privacy in Machine Learning: From Symbolic AI to LLMs",
+    "summary" : "Machine learning models should not reveal particular information that is not\notherwise accessible. Differential privacy provides a formal framework to\nmitigate privacy risks by ensuring that the inclusion or exclusion of any\nsingle data point does not significantly alter the output of an algorithm, thus\nlimiting the exposure of private information. This survey paper explores the\nfoundational definitions of differential privacy, reviews its original\nformulations and tracing its evolution through key research contributions. It\nthen provides an in-depth examination of how DP has been integrated into\nmachine learning models, analyzing existing proposals and methods to preserve\nprivacy when training ML models. Finally, it describes how DP-based ML\ntechniques can be evaluated in practice. %Finally, it discusses the broader\nimplications of DP, highlighting its potential for public benefit, its\nreal-world applications, and the challenges it faces, including vulnerabilities\nto adversarial attacks. By offering a comprehensive overview of differential\nprivacy in machine learning, this work aims to contribute to the ongoing\ndevelopment of secure and responsible AI systems.",
+    "updated" : "2025-06-13T11:30:35Z",
+    "published" : "2025-06-13T11:30:35Z",
+    "authors" : [
+      {
+        "name" : "Francisco Aguilera-Martínez"
+      },
+      {
+        "name" : "Fernando Berzal"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG",
+      "cs.NE"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.11679v1",
+    "title" : "LLMs on support of privacy and security of mobile apps: state of the art\n  and research directions",
+    "summary" : "Modern life has witnessed the explosion of mobile devices. However, besides\nthe valuable features that bring convenience to end users, security and privacy\nrisks still threaten users of mobile apps. The increasing sophistication of\nthese threats in recent years has underscored the need for more advanced and\nefficient detection approaches. In this chapter, we explore the application of\nLarge Language Models (LLMs) to identify security risks and privacy violations\nand mitigate them for the mobile application ecosystem. By introducing\nstate-of-the-art research that applied LLMs to mitigate the top 10 common\nsecurity risks of smartphone platforms, we highlight the feasibility and\npotential of LLMs to replace traditional analysis methods, such as dynamic and\nhybrid analysis of mobile apps. As a representative example of LLM-based\nsolutions, we present an approach to detect sensitive data leakage when users\nshare images online, a common behavior of smartphone users nowadays. Finally,\nwe discuss open research challenges.",
+    "updated" : "2025-06-13T11:17:15Z",
+    "published" : "2025-06-13T11:17:15Z",
+    "authors" : [
+      {
+        "name" : "Tran Thanh Lam Nguyen"
+      },
+      {
+        "name" : "Barbara Carminati"
+      },
+      {
+        "name" : "Elena Ferrari"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.11434v1",
+    "title" : "Auditing Data Provenance in Real-world Text-to-Image Diffusion Models\n  for Privacy and Copyright Protection",
+    "summary" : "Text-to-image diffusion model since its propose has significantly influenced\nthe content creation due to its impressive generation capability. However, this\ncapability depends on large-scale text-image datasets gathered from web\nplatforms like social media, posing substantial challenges in copyright\ncompliance and personal privacy leakage. Though there are some efforts devoted\nto explore approaches for auditing data provenance in text-to-image diffusion\nmodels, existing work has unrealistic assumptions that can obtain model\ninternal knowledge, e.g., intermediate results, or the evaluation is not\nreliable. To fill this gap, we propose a completely black-box auditing\nframework called Feature Semantic Consistency-based Auditing (FSCA). It\nutilizes two types of semantic connections within the text-to-image diffusion\nmodel for auditing, eliminating the need for access to internal knowledge. To\ndemonstrate the effectiveness of our FSCA framework, we perform extensive\nexperiments on LAION-mi dataset and COCO dataset, and compare with eight\nstate-of-the-art baseline approaches. The results show that FSCA surpasses\nprevious baseline approaches across various metrics and different data\ndistributions, showcasing the superiority of our FSCA. Moreover, we introduce a\nrecall balance strategy and a threshold adjustment strategy, which collectively\nallows FSCA to reach up a user-level accuracy of 90% in a real-world auditing\nscenario with only 10 samples/user, highlighting its strong auditing potential\nin real-world applications. Our code is made available at\nhttps://github.com/JiePKU/FSCA.",
+    "updated" : "2025-06-13T03:16:16Z",
+    "published" : "2025-06-13T03:16:16Z",
+    "authors" : [
+      {
+        "name" : "Jie Zhu"
+      },
+      {
+        "name" : "Leye Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.08347v2",
+    "title" : "Differentially Private Relational Learning with Entity-level Privacy\n  Guarantees",
+    "summary" : "Learning with relational and network-structured data is increasingly vital in\nsensitive domains where protecting the privacy of individual entities is\nparamount. Differential Privacy (DP) offers a principled approach for\nquantifying privacy risks, with DP-SGD emerging as a standard mechanism for\nprivate model training. However, directly applying DP-SGD to relational\nlearning is challenging due to two key factors: (i) entities often participate\nin multiple relations, resulting in high and difficult-to-control sensitivity;\nand (ii) relational learning typically involves multi-stage, potentially\ncoupled (interdependent) sampling procedures that make standard privacy\namplification analyses inapplicable. This work presents a principled framework\nfor relational learning with formal entity-level DP guarantees. We provide a\nrigorous sensitivity analysis and introduce an adaptive gradient clipping\nscheme that modulates clipping thresholds based on entity occurrence frequency.\nWe also extend the privacy amplification results to a tractable subclass of\ncoupled sampling, where the dependence arises only through sample sizes. These\ncontributions lead to a tailored DP-SGD variant for relational data with\nprovable privacy guarantees. Experiments on fine-tuning text encoders over\ntext-attributed network-structured relational data demonstrate the strong\nutility-privacy trade-offs of our approach. Our code is available at\nhttps://github.com/Graph-COM/Node_DP.",
+    "updated" : "2025-06-12T19:17:36Z",
+    "published" : "2025-06-10T02:03:43Z",
+    "authors" : [
+      {
+        "name" : "Yinan Huang"
+      },
+      {
+        "name" : "Haoteng Yin"
+      },
+      {
+        "name" : "Eli Chien"
+      },
+      {
+        "name" : "Rongzhe Wei"
+      },
+      {
+        "name" : "Pan Li"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.11069v1",
+    "title" : "Regularized Federated Learning for Privacy-Preserving Dysarthric and\n  Elderly Speech Recognition",
+    "summary" : "Accurate recognition of dysarthric and elderly speech remains challenging to\ndate. While privacy concerns have driven a shift from centralized approaches to\nfederated learning (FL) to ensure data confidentiality, this further\nexacerbates the challenges of data scarcity, imbalanced data distribution and\nspeaker heterogeneity. To this end, this paper conducts a systematic\ninvestigation of regularized FL techniques for privacy-preserving dysarthric\nand elderly speech recognition, addressing different levels of the FL process\nby 1) parameter-based, 2) embedding-based and 3) novel loss-based\nregularization. Experiments on the benchmark UASpeech dysarthric and\nDementiaBank Pitt elderly speech corpora suggest that regularized FL systems\nconsistently outperform the baseline FedAvg system by statistically significant\nWER reductions of up to 0.55\\% absolute (2.13\\% relative). Further increasing\ncommunication frequency to one exchange per batch approaches centralized\ntraining performance.",
+    "updated" : "2025-06-02T01:34:20Z",
+    "published" : "2025-06-02T01:34:20Z",
+    "authors" : [
+      {
+        "name" : "Tao Zhong"
+      },
+      {
+        "name" : "Mengzhe Geng"
+      },
+      {
+        "name" : "Shujie Hu"
+      },
+      {
+        "name" : "Guinan Li"
+      },
+      {
+        "name" : "Xunying Liu"
+      }
+    ],
+    "categories" : [
+      "eess.AS",
+      "cs.AI",
+      "cs.CL",
+      "cs.SD"
+    ]
   }
 ]
