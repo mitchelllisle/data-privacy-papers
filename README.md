@@ -2,6 +2,93 @@
 <h2>2025-06</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2506.11687v1">Differential Privacy in Machine Learning: From Symbolic AI to LLMs</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Neural and Evolutionary Computing-5BC0EB">
+  <p><b>Published on:</b> 2025-06-13T11:30:35Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Francisco Aguilera-Martínez, Fernando Berzal</p>
+    <p><b>Summary:</b> Machine learning models should not reveal particular information that is not
+otherwise accessible. Differential privacy provides a formal framework to
+mitigate privacy risks by ensuring that the inclusion or exclusion of any
+single data point does not significantly alter the output of an algorithm, thus
+limiting the exposure of private information. This survey paper explores the
+foundational definitions of differential privacy, reviews its original
+formulations and tracing its evolution through key research contributions. It
+then provides an in-depth examination of how DP has been integrated into
+machine learning models, analyzing existing proposals and methods to preserve
+privacy when training ML models. Finally, it describes how DP-based ML
+techniques can be evaluated in practice. %Finally, it discusses the broader
+implications of DP, highlighting its potential for public benefit, its
+real-world applications, and the challenges it faces, including vulnerabilities
+to adversarial attacks. By offering a comprehensive overview of differential
+privacy in machine learning, this work aims to contribute to the ongoing
+development of secure and responsible AI systems.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2506.11679v1">LLMs on support of privacy and security of mobile apps: state of the art
+  and research directions</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-06-13T11:17:15Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Tran Thanh Lam Nguyen, Barbara Carminati, Elena Ferrari</p>
+    <p><b>Summary:</b> Modern life has witnessed the explosion of mobile devices. However, besides
+the valuable features that bring convenience to end users, security and privacy
+risks still threaten users of mobile apps. The increasing sophistication of
+these threats in recent years has underscored the need for more advanced and
+efficient detection approaches. In this chapter, we explore the application of
+Large Language Models (LLMs) to identify security risks and privacy violations
+and mitigate them for the mobile application ecosystem. By introducing
+state-of-the-art research that applied LLMs to mitigate the top 10 common
+security risks of smartphone platforms, we highlight the feasibility and
+potential of LLMs to replace traditional analysis methods, such as dynamic and
+hybrid analysis of mobile apps. As a representative example of LLM-based
+solutions, we present an approach to detect sensitive data leakage when users
+share images online, a common behavior of smartphone users nowadays. Finally,
+we discuss open research challenges.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2506.11434v1">Auditing Data Provenance in Real-world Text-to-Image Diffusion Models
+  for Privacy and Copyright Protection</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2025-06-13T03:16:16Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jie Zhu, Leye Wang</p>
+    <p><b>Summary:</b> Text-to-image diffusion model since its propose has significantly influenced
+the content creation due to its impressive generation capability. However, this
+capability depends on large-scale text-image datasets gathered from web
+platforms like social media, posing substantial challenges in copyright
+compliance and personal privacy leakage. Though there are some efforts devoted
+to explore approaches for auditing data provenance in text-to-image diffusion
+models, existing work has unrealistic assumptions that can obtain model
+internal knowledge, e.g., intermediate results, or the evaluation is not
+reliable. To fill this gap, we propose a completely black-box auditing
+framework called Feature Semantic Consistency-based Auditing (FSCA). It
+utilizes two types of semantic connections within the text-to-image diffusion
+model for auditing, eliminating the need for access to internal knowledge. To
+demonstrate the effectiveness of our FSCA framework, we perform extensive
+experiments on LAION-mi dataset and COCO dataset, and compare with eight
+state-of-the-art baseline approaches. The results show that FSCA surpasses
+previous baseline approaches across various metrics and different data
+distributions, showcasing the superiority of our FSCA. Moreover, we introduce a
+recall balance strategy and a threshold adjustment strategy, which collectively
+allows FSCA to reach up a user-level accuracy of 90% in a real-world auditing
+scenario with only 10 samples/user, highlighting its strong auditing potential
+in real-world applications. Our code is made available at
+https://github.com/JiePKU/FSCA.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2506.09690v1">Knockoffs Inference under Privacy Constraints</a></h3>
    
   <p><b>Published on:</b> 2025-06-11T13:06:21Z</p>
@@ -182,13 +269,13 @@ sharing or site-specific fine-tuning.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.08347v1">Differentially Private Relational Learning with Entity-level Privacy
+  <h3><a href="http://arxiv.org/abs/2506.08347v2">Differentially Private Relational Learning with Entity-level Privacy
   Guarantees</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2025-06-10T02:03:43Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Yinan Huang, Haoteng Ying, Eli Chien, Rongzhe Wei, Pan Li</p>
+    <p><b>Authors:</b> Yinan Huang, Haoteng Yin, Eli Chien, Rongzhe Wei, Pan Li</p>
     <p><b>Summary:</b> Learning with relational and network-structured data is increasingly vital in
 sensitive domains where protecting the privacy of individual entities is
 paramount. Differential Privacy (DP) offers a principled approach for
@@ -1238,6 +1325,32 @@ privacy-preserving SSO services and OPRFs, and prove the SSO-related properties
 (i.e., key-identifier freeness, RP designation and user identification) of OPRF
 protocols, in addition to the basic properties of correctness, obliviousness
 and pseudo-randomness.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2506.11069v1">Regularized Federated Learning for Privacy-Preserving Dysarthric and
+  Elderly Speech Recognition</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Sound-D91E36">
+  <p><b>Published on:</b> 2025-06-02T01:34:20Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Tao Zhong, Mengzhe Geng, Shujie Hu, Guinan Li, Xunying Liu</p>
+    <p><b>Summary:</b> Accurate recognition of dysarthric and elderly speech remains challenging to
+date. While privacy concerns have driven a shift from centralized approaches to
+federated learning (FL) to ensure data confidentiality, this further
+exacerbates the challenges of data scarcity, imbalanced data distribution and
+speaker heterogeneity. To this end, this paper conducts a systematic
+investigation of regularized FL techniques for privacy-preserving dysarthric
+and elderly speech recognition, addressing different levels of the FL process
+by 1) parameter-based, 2) embedding-based and 3) novel loss-based
+regularization. Experiments on the benchmark UASpeech dysarthric and
+DementiaBank Pitt elderly speech corpora suggest that regularized FL systems
+consistently outperform the baseline FedAvg system by statistically significant
+WER reductions of up to 0.55\% absolute (2.13\% relative). Further increasing
+communication frequency to one exchange per batch approaches centralized
+training performance.</p>
   </details>
 </div>
 
@@ -2751,6 +2864,30 @@ publicly available.</p>
 
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2506.11026v1">Evaluating Privacy-Utility Tradeoffs in Synthetic Smart Grid Data</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2025-05-20T10:46:29Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Andre Catarino, Rui Melo, Rui Abreu, Luis Cruz</p>
+    <p><b>Summary:</b> The widespread adoption of dynamic Time-of-Use (dToU) electricity tariffs
+requires accurately identifying households that would benefit from such pricing
+structures. However, the use of real consumption data poses serious privacy
+concerns, motivating the adoption of synthetic alternatives. In this study, we
+conduct a comparative evaluation of four synthetic data generation methods,
+Wasserstein-GP Generative Adversarial Networks (WGAN), Conditional Tabular GAN
+(CTGAN), Diffusion Models, and Gaussian noise augmentation, under different
+synthetic regimes. We assess classification utility, distribution fidelity, and
+privacy leakage. Our results show that architectural design plays a key role:
+diffusion models achieve the highest utility (macro-F1 up to 88.2%), while
+CTGAN provide the strongest resistance to reconstruction attacks. These
+findings highlight the potential of structured generative models for developing
+privacy-preserving, data-driven energy systems.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2505.13957v1">Beyond Text: Unveiling Privacy Vulnerabilities in Multi-modal
   Retrieval-Augmented Generation</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
@@ -2769,150 +2906,6 @@ information by manipulating queries. Our experiments reveal that LMMs can both
 directly generate outputs resembling retrieved content and produce descriptions
 that indirectly expose sensitive information, highlighting the urgent need for
 robust privacy-preserving MRAG techniques.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.13694v1">A Systematic Review and Taxonomy for Privacy Breach Classification:
-  Trends, Gaps, and Future Directions</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
-  <p><b>Published on:</b> 2025-05-19T19:52:21Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Clint Fuchs, John D. Hastings</p>
-    <p><b>Summary:</b> In response to the rising frequency and complexity of data breaches and
-evolving global privacy regulations, this study presents a comprehensive
-examination of academic literature on the classification of privacy breaches
-and violations between 2010-2024. Through a systematic literature review, a
-corpus of screened studies was assembled and analyzed to identify primary
-research themes, emerging trends, and gaps in the field. A novel taxonomy is
-introduced to guide efforts by categorizing research efforts into seven
-domains: breach classification, report classification, breach detection, threat
-detection, breach prediction, risk analysis, and threat classification. An
-analysis reveals that breach classification and detection dominate the
-literature, while breach prediction and risk analysis have only recently
-emerged in the literature, suggesting opportunities for potential research
-impacts. Keyword and phrase frequency analysis reveal potentially underexplored
-areas, including location privacy, prediction models, and healthcare data
-breaches.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.13655v1">Optimal Client Sampling in Federated Learning with Client-Level
-  Heterogeneous Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-05-19T18:55:34Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jiahao Xu, Rui Hu, Olivera Kotevska</p>
-    <p><b>Summary:</b> Federated Learning with client-level differential privacy (DP) provides a
-promising framework for collaboratively training models while rigorously
-protecting clients' privacy. However, classic approaches like DP-FedAvg
-struggle when clients have heterogeneous privacy requirements, as they must
-uniformly enforce the strictest privacy level across clients, leading to
-excessive DP noise and significant model utility degradation. Existing methods
-to improve the model utility in such heterogeneous privacy settings often
-assume a trusted server and are largely heuristic, resulting in suboptimal
-performance and lacking strong theoretical underpinnings. In this work, we
-address these challenges under a practical attack model where both clients and
-the server are honest-but-curious. We propose GDPFed, which partitions clients
-into groups based on their privacy budgets and achieves client-level DP within
-each group to reduce the privacy budget waste and hence improve the model
-utility. Based on the privacy and convergence analysis of GDPFed, we find that
-the magnitude of DP noise depends on both model dimensionality and the
-per-group client sampling ratios. To further improve the performance of GDPFed,
-we introduce GDPFed$^+$, which integrates model sparsification to eliminate
-unnecessary noise and optimizes per-group client sampling ratios to minimize
-convergence error. Extensive empirical evaluations on multiple benchmark
-datasets demonstrate the effectiveness of GDPFed$^+$, showing substantial
-performance gains compared with state-of-the-art methods.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.13292v1">Cross-Cloud Data Privacy Protection: Optimizing Collaborative Mechanisms
-  of AI Systems by Integrating Federated Learning and LLMs</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-05-19T16:14:27Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Huaiying Luo, Cheng Ji</p>
-    <p><b>Summary:</b> In the age of cloud computing, data privacy protection has become a major
-challenge, especially when sharing sensitive data across cloud environments.
-However, how to optimize collaboration across cloud environments remains an
-unresolved problem. In this paper, we combine federated learning with
-large-scale language models to optimize the collaborative mechanism of AI
-systems. Based on the existing federated learning framework, we introduce a
-cross-cloud architecture in which federated learning works by aggregating model
-updates from decentralized nodes without exposing the original data. At the
-same time, combined with large-scale language models, its powerful context and
-semantic understanding capabilities are used to improve model training
-efficiency and decision-making ability. We've further innovated by introducing
-a secure communication layer to ensure the privacy and integrity of model
-updates and training data. The model enables continuous model adaptation and
-fine-tuning across different cloud environments while protecting sensitive
-data. Experimental results show that the proposed method is significantly
-better than the traditional federated learning model in terms of accuracy,
-convergence speed and data privacy protection.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.13085v2">Universal Semantic Disentangled Privacy-preserving Speech Representation
-  Learning</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-05-19T13:19:49Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Biel Tura Vecino, Subhadeep Maji, Aravind Varier, Antonio Bonafonte, Ivan Valles, Michael Owen, Leif Rädel, Grant Strimel, Seyi Feyisetan, Roberto Barra Chicote, Ariya Rastrow, Constantinos Papayiannis, Volker Leutnant, Trevor Wood</p>
-    <p><b>Summary:</b> The use of audio recordings of human speech to train LLMs poses privacy
-concerns due to these models' potential to generate outputs that closely
-resemble artifacts in the training data. In this study, we propose a speaker
-privacy-preserving representation learning method through the Universal Speech
-Codec (USC), a computationally efficient encoder-decoder model that
-disentangles speech into: (i) privacy-preserving semantically rich
-representations, capturing content and speech paralinguistics, and (ii)
-residual acoustic and speaker representations that enables high-fidelity
-reconstruction. Extensive evaluations presented show that USC's semantic
-representation preserves content, prosody, and sentiment, while removing
-potentially identifiable speaker attributes. Combining both representations,
-USC achieves state-of-the-art speech reconstruction. Additionally, we introduce
-an evaluation methodology for measuring privacy-preserving properties, aligning
-with perceptual tests. We compare USC against other codecs in the literature
-and demonstrate its effectiveness on privacy-preserving representation
-learning, illustrating the trade-offs of speaker anonymization, paralinguistics
-retention and content preservation in the learned semantic representations.
-Audio samples are shared in https://www.amazon.science/usc-samples.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.12954v1">Counting Graphlets of Size $k$ under Local Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Social and Information Networks-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computational Complexity-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B">
-  <p><b>Published on:</b> 2025-05-19T10:46:21Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Vorapong Suppakitpaisarn, Donlapark Ponnoprat, Nicha Hirankarn, Quentin Hillebrand</p>
-    <p><b>Summary:</b> The problem of counting subgraphs or graphlets under local differential
-privacy is an important challenge that has attracted significant attention from
-researchers. However, much of the existing work focuses on small graphlets like
-triangles or $k$-stars. In this paper, we propose a non-interactive, locally
-differentially private algorithm capable of counting graphlets of any size $k$.
-When $n$ is the number of nodes in the input graph, we show that the expected
-$\ell_2$ error of our algorithm is $O(n^{k - 1})$. Additionally, we prove that
-there exists a class of input graphs and graphlets of size $k$ for which any
-non-interactive counting algorithm incurs an expected $\ell_2$ error of
-$\Omega(n^{k - 1})$, demonstrating the optimality of our result. Furthermore,
-we establish that for certain input graphs and graphlets, any locally
-differentially private algorithm must have an expected $\ell_2$ error of
-$\Omega(n^{k - 1.5})$. Our experimental results show that our algorithm is more
-accurate than the classical randomized response method.</p>
   </details>
 </div>
 
