@@ -1530,5 +1530,372 @@
       "cs.CL",
       "cs.SD"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.13561v1",
+    "title" : "Perfect Privacy for Discriminator-Based Byzantine-Resilient Federated\n  Learning",
+    "summary" : "Federated learning (FL) shows great promise in large-scale machine learning\nbut introduces new privacy and security challenges. We propose ByITFL and\nLoByITFL, two novel FL schemes that enhance resilience against Byzantine users\nwhile keeping the users' data private from eavesdroppers. To ensure privacy and\nByzantine resilience, our schemes build on having a small representative\ndataset available to the federator and crafting a discriminator function\nallowing the mitigation of corrupt users' contributions. ByITFL employs\nLagrange coded computing and re-randomization, making it the first\nByzantine-resilient FL scheme with perfect Information-Theoretic (IT) privacy,\nthough at the cost of a significant communication overhead. LoByITFL, on the\nother hand, achieves Byzantine resilience and IT privacy at a significantly\nreduced communication cost, but requires a Trusted Third Party, used only in a\none-time initialization phase before training. We provide theoretical\nguarantees on privacy and Byzantine resilience, along with convergence\nguarantees and experimental results validating our findings.",
+    "updated" : "2025-06-16T14:47:02Z",
+    "published" : "2025-06-16T14:47:02Z",
+    "authors" : [
+      {
+        "name" : "Yue Xia"
+      },
+      {
+        "name" : "Christoph Hofmeister"
+      },
+      {
+        "name" : "Maximilian Egger"
+      },
+      {
+        "name" : "Rawad Bitar"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.DC",
+      "cs.IT",
+      "math.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.13170v1",
+    "title" : "Dual Protection Ring: User Profiling Via Differential Privacy and\n  Service Dissemination Through Private Information Retrieval",
+    "summary" : "User profiling is crucial in providing personalised services, as it relies on\nanalysing user behaviour and preferences to deliver targeted services. This\napproach enhances user experience and promotes heightened engagement.\nNevertheless, user profiling also gives rise to noteworthy privacy\nconsiderations due to the extensive tracking and monitoring of personal data,\npotentially leading to surveillance or identity theft. We propose a dual-ring\nprotection mechanism to protect user privacy by examining various threats to\nuser privacy, such as behavioural attacks, profiling fingerprinting and\nmonitoring, profile perturbation, etc., both on the user and service provider\nsides. We develop user profiles that contain sensitive private attributes and\nan equivalent profile based on differential privacy for evaluating personalised\nservices. We determine the entropy of the resultant profiles during each update\nto protect profiling attributes and invoke various processes, such as data\nevaporation, to artificially increase entropy or destroy private profiling\nattributes. Furthermore, we use different variants of private information\nretrieval (PIR) to retrieve personalised services against differentially\nprivate profiles. We implement critical components of the proposed model via a\nproof-of-concept mobile app to demonstrate its applicability over a specific\ncase study of advertising services, which can be generalised to other services.\nOur experimental results show that the observed processing delays with\ndifferent PIR schemes are similar to the current advertising systems.",
+    "updated" : "2025-06-16T07:33:12Z",
+    "published" : "2025-06-16T07:33:12Z",
+    "authors" : [
+      {
+        "name" : "Imdad Ullah"
+      },
+      {
+        "name" : "Najm Hassan"
+      },
+      {
+        "name" : "Tariq Ahamed Ahangar"
+      },
+      {
+        "name" : "Zawar Hussain Shah"
+      },
+      {
+        "name" : "Mehregan Mahdavi Andrew Levula"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.13052v1",
+    "title" : "Buy it Now, Track Me Later: Attacking User Privacy via Wi-Fi AP Online\n  Auctions",
+    "summary" : "Static and hard-coded layer-two network identifiers are well known to present\nsecurity vulnerabilities and endanger user privacy. In this work, we introduce\na new privacy attack against Wi-Fi access points listed on secondhand\nmarketplaces. Specifically, we demonstrate the ability to remotely gather a\nlarge quantity of layer-two Wi-Fi identifiers by programmatically querying the\neBay marketplace and applying state-of-the-art computer vision techniques to\nextract IEEE 802.11 BSSIDs from the seller's posted images of the hardware. By\nleveraging data from a global Wi-Fi Positioning System (WPS) that geolocates\nBSSIDs, we obtain the physical locations of these devices both pre- and\npost-sale. In addition to validating the degree to which a seller's location\nmatches the location of the device, we examine cases of device movement -- once\nthe device is sold and then subsequently re-used in a new environment. Our work\nhighlights a previously unrecognized privacy vulnerability and suggests, yet\nagain, the strong need to protect layer-two network identifiers.",
+    "updated" : "2025-06-16T02:42:14Z",
+    "published" : "2025-06-16T02:42:14Z",
+    "authors" : [
+      {
+        "name" : "Steven Su"
+      },
+      {
+        "name" : "Erik Rye"
+      },
+      {
+        "name" : "Robert Beverly"
+      },
+      {
+        "name" : "Dave Levin"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.13009v1",
+    "title" : "Rectifying Privacy and Efficacy Measurements in Machine Unlearning: A\n  New Inference Attack Perspective",
+    "summary" : "Machine unlearning focuses on efficiently removing specific data from trained\nmodels, addressing privacy and compliance concerns with reasonable costs.\nAlthough exact unlearning ensures complete data removal equivalent to\nretraining, it is impractical for large-scale models, leading to growing\ninterest in inexact unlearning methods. However, the lack of formal guarantees\nin these methods necessitates the need for robust evaluation frameworks to\nassess their privacy and effectiveness. In this work, we first identify several\nkey pitfalls of the existing unlearning evaluation frameworks, e.g., focusing\non average-case evaluation or targeting random samples for evaluation,\nincomplete comparisons with the retraining baseline. Then, we propose RULI\n(Rectified Unlearning Evaluation Framework via Likelihood Inference), a novel\nframework to address critical gaps in the evaluation of inexact unlearning\nmethods. RULI introduces a dual-objective attack to measure both unlearning\nefficacy and privacy risks at a per-sample granularity. Our findings reveal\nsignificant vulnerabilities in state-of-the-art unlearning methods, where RULI\nachieves higher attack success rates, exposing privacy risks underestimated by\nexisting methods. Built on a game-based foundation and validated through\nempirical evaluations on both image and text data (spanning tasks from\nclassification to generation), RULI provides a rigorous, scalable, and\nfine-grained methodology for evaluating unlearning techniques.",
+    "updated" : "2025-06-16T00:30:02Z",
+    "published" : "2025-06-16T00:30:02Z",
+    "authors" : [
+      {
+        "name" : "Nima Naderloui"
+      },
+      {
+        "name" : "Shenao Yan"
+      },
+      {
+        "name" : "Binghui Wang"
+      },
+      {
+        "name" : "Jie Fu"
+      },
+      {
+        "name" : "Wendy Hui Wang"
+      },
+      {
+        "name" : "Weiran Liu"
+      },
+      {
+        "name" : "Yuan Hong"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.12846v1",
+    "title" : "Privacy-Preserving Federated Learning against Malicious Clients Based on\n  Verifiable Functional Encryption",
+    "summary" : "Federated learning is a promising distributed learning paradigm that enables\ncollaborative model training without exposing local client data, thereby\nprotect data privacy. However, it also brings new threats and challenges. The\nadvancement of model inversion attacks has rendered the plaintext transmission\nof local models insecure, while the distributed nature of federated learning\nmakes it particularly vulnerable to attacks raised by malicious clients. To\nprotect data privacy and prevent malicious client attacks, this paper proposes\na privacy-preserving federated learning framework based on verifiable\nfunctional encryption, without a non-colluding dual-server setup or additional\ntrusted third-party. Specifically, we propose a novel decentralized verifiable\nfunctional encryption (DVFE) scheme that enables the verification of specific\nrelationships over multi-dimensional ciphertexts. This scheme is formally\ntreated, in terms of definition, security model and security proof.\nFurthermore, based on the proposed DVFE scheme, we design a privacy-preserving\nfederated learning framework VFEFL that incorporates a novel robust aggregation\nrule to detect malicious clients, enabling the effective training of\nhigh-accuracy models under adversarial settings. Finally, we provide formal\nanalysis and empirical evaluation of the proposed schemes. The results\ndemonstrate that our approach achieves the desired privacy protection,\nrobustness, verifiability and fidelity, while eliminating the reliance on\nnon-colluding dual-server settings or trusted third parties required by\nexisting methods.",
+    "updated" : "2025-06-15T13:38:40Z",
+    "published" : "2025-06-15T13:38:40Z",
+    "authors" : [
+      {
+        "name" : "Nina Cai"
+      },
+      {
+        "name" : "Jinguang Han"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.12749v1",
+    "title" : "Free Privacy Protection for Wireless Federated Learning: Enjoy It or\n  Suffer from It?",
+    "summary" : "Inherent communication noises have the potential to preserve privacy for\nwireless federated learning (WFL) but have been overlooked in digital\ncommunication systems predominantly using floating-point number standards,\ne.g., IEEE 754, for data storage and transmission. This is due to the\npotentially catastrophic consequences of bit errors in floating-point numbers,\ne.g., on the sign or exponent bits. This paper presents a novel channel-native\nbit-flipping differential privacy (DP) mechanism tailored for WFL, where\ntransmit bits are randomly flipped and communication noises are leveraged, to\ncollectively preserve the privacy of WFL in digital communication systems. The\nkey idea is to interpret the bit perturbation at the transmitter and bit errors\ncaused by communication noises as a bit-flipping DP process. This is achieved\nby designing a new floating-point-to-fixed-point conversion method that only\ntransmits the bits in the fraction part of model parameters, hence eliminating\nthe need for transmitting the sign and exponent bits and preventing the\ncatastrophic consequence of bit errors. We analyze a new metric to measure the\nbit-level distance of the model parameters and prove that the proposed\nmechanism satisfies (\\lambda,\\epsilon)-R\\'enyi DP and does not violate the WFL\nconvergence. Experiments validate privacy and convergence analysis of the\nproposed mechanism and demonstrate its superiority to the state-of-the-art\nGaussian mechanisms that are channel-agnostic and add Gaussian noise for\nprivacy protection.",
+    "updated" : "2025-06-15T07:13:52Z",
+    "published" : "2025-06-15T07:13:52Z",
+    "authors" : [
+      {
+        "name" : "Weicai Li"
+      },
+      {
+        "name" : "Tiejun Lv"
+      },
+      {
+        "name" : "Xiyu Zhao"
+      },
+      {
+        "name" : "Xin Yuan"
+      },
+      {
+        "name" : "Wei Ni"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.12699v1",
+    "title" : "SoK: The Privacy Paradox of Large Language Models: Advancements, Privacy\n  Risks, and Mitigation",
+    "summary" : "Large language models (LLMs) are sophisticated artificial intelligence\nsystems that enable machines to generate human-like text with remarkable\nprecision. While LLMs offer significant technological progress, their\ndevelopment using vast amounts of user data scraped from the web and collected\nfrom extensive user interactions poses risks of sensitive information leakage.\nMost existing surveys focus on the privacy implications of the training data\nbut tend to overlook privacy risks from user interactions and advanced LLM\ncapabilities. This paper aims to fill that gap by providing a comprehensive\nanalysis of privacy in LLMs, categorizing the challenges into four main areas:\n(i) privacy issues in LLM training data, (ii) privacy challenges associated\nwith user prompts, (iii) privacy vulnerabilities in LLM-generated outputs, and\n(iv) privacy challenges involving LLM agents. We evaluate the effectiveness and\nlimitations of existing mitigation mechanisms targeting these proposed privacy\nchallenges and identify areas for further research.",
+    "updated" : "2025-06-15T03:14:03Z",
+    "published" : "2025-06-15T03:14:03Z",
+    "authors" : [
+      {
+        "name" : "Yashothara Shanmugarasa"
+      },
+      {
+        "name" : "Ming Ding"
+      },
+      {
+        "name" : "M. A. P Chamikara"
+      },
+      {
+        "name" : "Thierry Rakotoarivelo"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.12523v1",
+    "title" : "Privacy-preserving and reward-based mechanisms of proof of engagement",
+    "summary" : "Proof-of-Attendance (PoA) mechanisms are typically employed to demonstrate a\nspecific user's participation in an event, whether virtual or in-person. The\ngoal of this study is to extend such mechanisms to broader contexts where the\nuser wishes to digitally demonstrate her involvement in a specific activity\n(Proof-of-Engagement, PoE). This work explores different solutions, including\nDLTs as well as established technologies based on centralized systems. The main\naspects we consider include the level of privacy guaranteed to users, the scope\nof PoA/PoE (both temporal and spatial), the transferability of the proof, and\nthe integration with incentive mechanisms.",
+    "updated" : "2025-06-14T14:33:39Z",
+    "published" : "2025-06-14T14:33:39Z",
+    "authors" : [
+      {
+        "name" : "Matteo Marco Montanari"
+      },
+      {
+        "name" : "Alessandro Aldini"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.ET",
+      "C.2.4; D.2.11; K.6.5"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.12328v1",
+    "title" : "Information-theoretic Estimation of the Risk of Privacy Leaks",
+    "summary" : "Recent work~\\cite{Liu2016} has shown that dependencies between items in a\ndataset can lead to privacy leaks. We extend this concept to privacy-preserving\ntransformations, considering a broader set of dependencies captured by\ncorrelation metrics. Specifically, we measure the correlation between the\noriginal data and their noisy responses from a randomizer as an indicator of\npotential privacy breaches. This paper aims to leverage information-theoretic\nmeasures, such as the Maximal Information Coefficient (MIC), to estimate\nprivacy leaks and derive novel, computationally efficient privacy leak\nestimators. We extend the $\\rho_1$-to-$\\rho_2$\nformulation~\\cite{Evfimievski2003} to incorporate entropy, mutual information,\nand the degree of anonymity for a more comprehensive measure of privacy risk.\nOur proposed hybrid metric can identify correlation dependencies between\nattributes in the dataset, serving as a proxy for privacy leak vulnerabilities.\nThis metric provides a computationally efficient worst-case measure of privacy\nloss, utilizing the inherent characteristics of the data to prevent privacy\nbreaches.",
+    "updated" : "2025-06-14T03:39:11Z",
+    "published" : "2025-06-14T03:39:11Z",
+    "authors" : [
+      {
+        "name" : "Kenneth Odoh"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.12241v1",
+    "title" : "Privacy Reasoning in Ambiguous Contexts",
+    "summary" : "We study the ability of language models to reason about appropriate\ninformation disclosure - a central aspect of the evolving field of agentic\nprivacy. Whereas previous works have focused on evaluating a model's ability to\nalign with human decisions, we examine the role of ambiguity and missing\ncontext on model performance when making information-sharing decisions. We\nidentify context ambiguity as a crucial barrier for high performance in privacy\nassessments. By designing Camber, a framework for context disambiguation, we\nshow that model-generated decision rationales can reveal ambiguities and that\nsystematically disambiguating context based on these rationales leads to\nsignificant accuracy improvements (up to 13.3\\% in precision and up to 22.3\\%\nin recall) as well as reductions in prompt sensitivity. Overall, our results\nindicate that approaches for context disambiguation are a promising way forward\nto enhance agentic privacy reasoning.",
+    "updated" : "2025-06-13T21:42:22Z",
+    "published" : "2025-06-13T21:42:22Z",
+    "authors" : [
+      {
+        "name" : "Ren Yi"
+      },
+      {
+        "name" : "Octavian Suciu"
+      },
+      {
+        "name" : "Adria Gascon"
+      },
+      {
+        "name" : "Sarah Meiklejohn"
+      },
+      {
+        "name" : "Eugene Bagdasarian"
+      },
+      {
+        "name" : "Marco Gruteser"
+      }
+    ],
+    "categories" : [
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.12106v1",
+    "title" : "Enhancing Privacy: The Utility of Stand-Alone Synthetic CT and MRI for\n  Tumor and Bone Segmentation",
+    "summary" : "AI requires extensive datasets, while medical data is subject to high data\nprotection. Anonymization is essential, but poses a challenge for some regions,\nsuch as the head, as identifying structures overlap with regions of clinical\ninterest. Synthetic data offers a potential solution, but studies often lack\nrigorous evaluation of realism and utility. Therefore, we investigate to what\nextent synthetic data can replace real data in segmentation tasks. We employed\nhead and neck cancer CT scans and brain glioma MRI scans from two large\ndatasets. Synthetic data were generated using generative adversarial networks\nand diffusion models. We evaluated the quality of the synthetic data using MAE,\nMS-SSIM, Radiomics and a Visual Turing Test (VTT) performed by 5 radiologists\nand their usefulness in segmentation tasks using DSC. Radiomics indicates high\nfidelity of synthetic MRIs, but fall short in producing highly realistic CT\ntissue, with correlation coefficient of 0.8784 and 0.5461 for MRI and CT\ntumors, respectively. DSC results indicate limited utility of synthetic data:\ntumor segmentation achieved DSC=0.064 on CT and 0.834 on MRI, while bone\nsegmentation a mean DSC=0.841. Relation between DSC and correlation is\nobserved, but is limited by the complexity of the task. VTT results show\nsynthetic CTs' utility, but with limited educational applications. Synthetic\ndata can be used independently for the segmentation task, although limited by\nthe complexity of the structures to segment. Advancing generative models to\nbetter tolerate heterogeneous inputs and learn subtle details is essential for\nenhancing their realism and expanding their application potential.",
+    "updated" : "2025-06-13T08:17:48Z",
+    "published" : "2025-06-13T08:17:48Z",
+    "authors" : [
+      {
+        "name" : "André Ferreira"
+      },
+      {
+        "name" : "Kunpeng Xie"
+      },
+      {
+        "name" : "Caroline Wilpert"
+      },
+      {
+        "name" : "Gustavo Correia"
+      },
+      {
+        "name" : "Felix Barajas Ordonez"
+      },
+      {
+        "name" : "Tiago Gil Oliveira"
+      },
+      {
+        "name" : "Maike Bode"
+      },
+      {
+        "name" : "Robert Siepmann"
+      },
+      {
+        "name" : "Frank Hölzle"
+      },
+      {
+        "name" : "Rainer Röhrig"
+      },
+      {
+        "name" : "Jens Kleesiek"
+      },
+      {
+        "name" : "Daniel Truhn"
+      },
+      {
+        "name" : "Jan Egger"
+      },
+      {
+        "name" : "Victor Alves"
+      },
+      {
+        "name" : "Behrus Puladi"
+      }
+    ],
+    "categories" : [
+      "eess.IV",
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.12088v1",
+    "title" : "Risks & Benefits of LLMs & GenAI for Platform Integrity, Healthcare\n  Diagnostics, Cybersecurity, Privacy & AI Safety: A Comprehensive Survey,\n  Roadmap & Implementation Blueprint",
+    "summary" : "Large Language Models (LLMs) and generative AI (GenAI) systems such as\nChatGPT, Claude, Gemini, LLaMA, and Copilot, developed by OpenAI, Anthropic,\nGoogle, Meta, and Microsoft are reshaping digital platforms and app ecosystems\nwhile introducing key challenges in cybersecurity, privacy, and platform\nintegrity. Our analysis shows alarming trends: LLM-assisted malware is\nprojected to rise from 2% in 2021 to 50% by 2025; AI-generated Google reviews\ngrew from 1.2% in 2021 to 12.21% in 2023, with an expected 30% by 2025; AI scam\nreports surged 456%; and misinformation sites increased over 1500%, with a\n50-60% increase in deepfakes in 2024. Concurrently, as LLMs have facilitated\ncode development, mobile app submissions grew from 1.8 million in 2020 to 3.0\nmillion in 2024, with 3.6 million expected by 2025. To address AI threats,\nplatforms from app stores like Google Play and Apple to developer hubs like\nGitHub Copilot, and social platforms like TikTok and Facebook, to marketplaces\nlike Amazon are deploying AI and LLM-based defenses. This highlights the dual\nnature of these technologies as both the source of new threats and the\nessential tool for their mitigation. Integrating LLMs into clinical diagnostics\nalso raises concerns about accuracy, bias, and safety, needing strong\ngovernance. Drawing on a comprehensive analysis of 455 references, this paper\npresents a survey of LLM and GenAI risks. We propose a strategic roadmap and\noperational blueprint integrating policy auditing (CCPA, GDPR), fraud\ndetection, and compliance automation, and an advanced LLM-DA stack with modular\ncomponents including multi LLM routing, agentic memory, and governance layers\nto enhance platform integrity. We also provide actionable insights,\ncross-functional best practices, and real-world case studies. These\ncontributions offer paths to scalable trust, safety, and responsible innovation\nacross digital platforms.",
+    "updated" : "2025-06-10T18:03:19Z",
+    "published" : "2025-06-10T18:03:19Z",
+    "authors" : [
+      {
+        "name" : "Kiarash Ahi"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.08185v2",
+    "title" : "Agentic Surgical AI: Surgeon Style Fingerprinting and Privacy Risk\n  Quantification via Discrete Diffusion in a Vision-Language-Action Framework",
+    "summary" : "Surgeons exhibit distinct operating styles shaped by training, experience,\nand motor behavior-yet most surgical AI systems overlook this personalization\nsignal. We propose a novel agentic modeling approach for surgeon-specific\nbehavior prediction in robotic surgery, combining a discrete diffusion\nframework with a vision-language-action (VLA) pipeline. Gesture prediction is\nframed as a structured sequence denoising task, conditioned on multimodal\ninputs including surgical video, intent language, and personalized embeddings\nof surgeon identity and skill. These embeddings are encoded through natural\nlanguage prompts using third-party language models, allowing the model to\nretain individual behavioral style without exposing explicit identity. We\nevaluate our method on the JIGSAWS dataset and demonstrate that it accurately\nreconstructs gesture sequences while learning meaningful motion fingerprints\nunique to each surgeon. To quantify the privacy implications of\npersonalization, we perform membership inference attacks and find that more\nexpressive embeddings improve task performance but simultaneously increase\nsusceptibility to identity leakage. These findings demonstrate that while\npersonalized embeddings improve performance, they also increase vulnerability\nto identity leakage, revealing the importance of balancing personalization with\nprivacy risk in surgical modeling. Code is available at:\nhttps://github.com/huixin-zhan-ai/Surgeon_style_fingerprinting.",
+    "updated" : "2025-06-14T12:02:06Z",
+    "published" : "2025-06-09T19:49:55Z",
+    "authors" : [
+      {
+        "name" : "Huixin Zhan"
+      },
+      {
+        "name" : "Jason H. Moore"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.07555v2",
+    "title" : "Synthesize Privacy-Preserving High-Resolution Images via Private Textual\n  Intermediaries",
+    "summary" : "Generating high fidelity, differentially private (DP) synthetic images offers\na promising route to share and analyze sensitive visual data without\ncompromising individual privacy. However, existing DP image synthesis methods\nstruggle to produce high resolution outputs that faithfully capture the\nstructure of the original data. In this paper, we introduce a novel method,\nreferred to as Synthesis via Private Textual Intermediaries (SPTI), that can\ngenerate high resolution DP images with easy adoption. The key idea is to shift\nthe challenge of DP image synthesis from the image domain to the text domain by\nleveraging state of the art DP text generation methods. SPTI first summarizes\neach private image into a concise textual description using image to text\nmodels, then applies a modified Private Evolution algorithm to generate DP\ntext, and finally reconstructs images using text to image models. Notably, SPTI\nrequires no model training, only inference with off the shelf models. Given a\nprivate dataset, SPTI produces synthetic images of substantially higher quality\nthan prior DP approaches. On the LSUN Bedroom dataset, SPTI attains an FID less\nthan or equal to 26.71 under epsilon equal to 1.0, improving over Private\nEvolution FID of 40.36. Similarly, on MM CelebA HQ, SPTI achieves an FID less\nthan or equal to 33.27 at epsilon equal to 1.0, compared to 57.01 from DP fine\ntuning baselines. Overall, our results demonstrate that Synthesis via Private\nTextual Intermediaries provides a resource efficient and proprietary model\ncompatible framework for generating high resolution DP synthetic images,\ngreatly expanding access to private visual datasets.",
+    "updated" : "2025-06-14T03:19:44Z",
+    "published" : "2025-06-09T08:48:06Z",
+    "authors" : [
+      {
+        "name" : "Haoxiang Wang"
+      },
+      {
+        "name" : "Zinan Lin"
+      },
+      {
+        "name" : "Da Yu"
+      },
+      {
+        "name" : "Huishuai Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI"
+    ]
   }
 ]
