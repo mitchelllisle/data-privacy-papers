@@ -1,1 +1,29 @@
-[{"id":"http://arxiv.org/abs/2304.01689v1","title":"Privacy-Preserving Federated Discovery of DNA Motifs with Differential Privacy","summary":"DNA motif discovery is an important issue in gene research, which aims to identify transcription factor binding sites (i.e., motifs) in DNA sequences to reveal the mechanisms that regulate gene expression. However, the phenomenon of data silos and the problem of privacy leakage have seriously hindered the development of DNA motif discovery. On the one hand, the phenomenon of data silos makes data collection difficult. On the other hand, the collection and use of DNA data become complicated and difficult because DNA is sensitive private information. In this context, how discovering DNA motifs under the premise of ensuring privacy and security and alleviating data silos has become a very important issue. Therefore, this paper proposes a novel method, namely DP-FLMD, to address this problem. Note that this is the first application of federated learning to the field of genetics research. The federated learning technique is used to solve the problem of data silos. It has the advantage of enabling multiple participants to train models together and providing privacy protection services. To address the challenges of federated learning in terms of communication costs, this paper applies a sampling method and a strategy for reducing communication costs to DP-FLMD. In addition, differential privacy, a privacy protection technique with rigorous mathematical proof, is also applied to DP-FLMD. Experiments on the DNA datasets show that DP-FLMD has high mining accuracy and runtime efficiency, and the performance of the algorithm is affected by some parameters.","updated":"2023-04-05T00:14:03Z","published":"2023-04-04T10:37:39Z","authors":[{"name":"Yao Chen"},{"name":"Wensheng Gan"},{"name":"Gengsen Huang"},{"name":"Yongdong Wu"},{"name":"Philip S. Yu"}],"categories":["cs.CR"]}]
+[
+  {
+    "id" : "http://arxiv.org/abs/2304.01689v1",
+    "title" : "Privacy-Preserving Federated Discovery of DNA Motifs with Differential Privacy",
+    "summary" : "DNA motif discovery is an important issue in gene research, which aims to identify transcription factor binding sites (i.e., motifs) in DNA sequences to reveal the mechanisms that regulate gene expression. However, the phenomenon of data silos and the problem of privacy leakage have seriously hindered the development of DNA motif discovery. On the one hand, the phenomenon of data silos makes data collection difficult. On the other hand, the collection and use of DNA data become complicated and difficult because DNA is sensitive private information. In this context, how discovering DNA motifs under the premise of ensuring privacy and security and alleviating data silos has become a very important issue. Therefore, this paper proposes a novel method, namely DP-FLMD, to address this problem. Note that this is the first application of federated learning to the field of genetics research. The federated learning technique is used to solve the problem of data silos. It has the advantage of enabling multiple participants to train models together and providing privacy protection services. To address the challenges of federated learning in terms of communication costs, this paper applies a sampling method and a strategy for reducing communication costs to DP-FLMD. In addition, differential privacy, a privacy protection technique with rigorous mathematical proof, is also applied to DP-FLMD. Experiments on the DNA datasets show that DP-FLMD has high mining accuracy and runtime efficiency, and the performance of the algorithm is affected by some parameters.",
+    "updated" : "2023-04-05T00:14:03Z",
+    "published" : "2023-04-04T10:37:39Z",
+    "authors" : [
+      {
+        "name" : "Yao Chen"
+      },
+      {
+        "name" : "Wensheng Gan"
+      },
+      {
+        "name" : "Gengsen Huang"
+      },
+      {
+        "name" : "Yongdong Wu"
+      },
+      {
+        "name" : "Philip S. Yu"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  }
+]
