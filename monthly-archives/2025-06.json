@@ -1897,5 +1897,367 @@
       "cs.CV",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.15349v1",
+    "title" : "Enhancing One-run Privacy Auditing with Quantile Regression-Based\n  Membership Inference",
+    "summary" : "Differential privacy (DP) auditing aims to provide empirical lower bounds on\nthe privacy guarantees of DP mechanisms like DP-SGD. While some existing\ntechniques require many training runs that are prohibitively costly, recent\nwork introduces one-run auditing approaches that effectively audit DP-SGD in\nwhite-box settings while still being computationally efficient. However, in the\nmore practical black-box setting where gradients cannot be manipulated during\ntraining and only the last model iterate is observed, prior work shows that\nthere is still a large gap between the empirical lower bounds and theoretical\nupper bounds. Consequently, in this work, we study how incorporating approaches\nfor stronger membership inference attacks (MIA) can improve one-run auditing in\nthe black-box setting. Evaluating on image classification models trained on\nCIFAR-10 with DP-SGD, we demonstrate that our proposed approach, which utilizes\nquantile regression for MIA, achieves tighter bounds while crucially\nmaintaining the computational efficiency of one-run methods.",
+    "updated" : "2025-06-18T11:03:39Z",
+    "published" : "2025-06-18T11:03:39Z",
+    "authors" : [
+      {
+        "name" : "Terrance Liu"
+      },
+      {
+        "name" : "Matteo Boglioni"
+      },
+      {
+        "name" : "Yiwei Fu"
+      },
+      {
+        "name" : "Shengyuan Hu"
+      },
+      {
+        "name" : "Pratiksha Thaker"
+      },
+      {
+        "name" : "Zhiwei Steven Wu"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.15307v1",
+    "title" : "SecFwT: Efficient Privacy-Preserving Fine-Tuning of Large Language\n  Models Using Forward-Only Passes",
+    "summary" : "Large language models (LLMs) have transformed numerous fields, yet their\nadaptation to specialized tasks in privacy-sensitive domains, such as\nhealthcare and finance, is constrained by the scarcity of accessible training\ndata due to stringent privacy requirements. Secure multi-party computation\n(MPC)-based privacy-preserving machine learning offers a powerful approach to\nprotect both model parameters and user data, but its application to LLMs has\nbeen largely limited to inference, as fine-tuning introduces significant\ncomputational challenges, particularly in privacy-preserving backward\npropagation and optimizer operations. This paper identifies two primary\nobstacles to MPC-based privacy-preserving fine-tuning of LLMs: (1) the\nsubstantial computational overhead of backward and optimizer processes, and (2)\nthe inefficiency of softmax-based attention mechanisms in MPC settings. To\naddress these challenges, we propose SecFwT, the first MPC-based framework\ndesigned for efficient, privacy-preserving LLM fine-tuning. SecFwT introduces a\nforward-only tuning paradigm to eliminate backward and optimizer computations\nand employs MPC-friendly Random Feature Attention to approximate softmax\nattention, significantly reducing costly non-linear operations and\ncomputational complexity. Experimental results demonstrate that SecFwT delivers\nsubstantial improvements in efficiency and privacy preservation, enabling\nscalable and secure fine-tuning of LLMs for privacy-critical applications.",
+    "updated" : "2025-06-18T09:36:57Z",
+    "published" : "2025-06-18T09:36:57Z",
+    "authors" : [
+      {
+        "name" : "Jinglong Luo"
+      },
+      {
+        "name" : "Zhuo Zhang"
+      },
+      {
+        "name" : "Yehong Zhang"
+      },
+      {
+        "name" : "Shiyu Liu"
+      },
+      {
+        "name" : "Ye Dong"
+      },
+      {
+        "name" : "Xun Zhou"
+      },
+      {
+        "name" : "Hui Wang"
+      },
+      {
+        "name" : "Yue Yu"
+      },
+      {
+        "name" : "Zenglin Xu"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.15258v1",
+    "title" : "Privacy-Preserving Chest X-ray Classification in Latent Space with\n  Homomorphically Encrypted Neural Inference",
+    "summary" : "Medical imaging data contain sensitive patient information requiring strong\nprivacy protection. Many analytical setups require data to be sent to a server\nfor inference purposes. Homomorphic encryption (HE) provides a solution by\nallowing computations to be performed on encrypted data without revealing the\noriginal information. However, HE inference is computationally expensive,\nparticularly for large images (e.g., chest X-rays). In this study, we propose\nan HE inference framework for medical images that uses VQGAN to compress images\ninto latent representations, thereby significantly reducing the computational\nburden while preserving image quality. We approximate the activation functions\nwith lower-degree polynomials to balance the accuracy and efficiency in\ncompliance with HE requirements. We observed that a downsampling factor of\neight for compression achieved an optimal balance between performance and\ncomputational cost. We further adapted the squeeze and excitation module, which\nis known to improve traditional CNNs, to enhance the HE framework. Our method\nwas tested on two chest X-ray datasets for multi-label classification tasks\nusing vanilla CNN backbones. Although HE inference remains relatively slow and\nintroduces minor performance differences compared with unencrypted inference,\nour approach shows strong potential for practical use in medical images",
+    "updated" : "2025-06-18T08:35:50Z",
+    "published" : "2025-06-18T08:35:50Z",
+    "authors" : [
+      {
+        "name" : "Jonghun Kim"
+      },
+      {
+        "name" : "Gyeongdeok Jo"
+      },
+      {
+        "name" : "Shinyoung Ra"
+      },
+      {
+        "name" : "Hyunjin Park"
+      }
+    ],
+    "categories" : [
+      "eess.IV",
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.15224v1",
+    "title" : "Facility Location Problem under Local Differential Privacy without\n  Super-set Assumption",
+    "summary" : "In this paper, we introduce an adaptation of the facility location problem\nand analyze it within the framework of local differential privacy (LDP). Under\nthis model, we ensure the privacy of client presence at specific locations.\nWhen n is the number of points, Gupta et al. established a lower bound of\n$\\Omega(\\sqrt{n})$ on the approximation ratio for any differentially private\nalgorithm applied to the original facility location problem. As a result,\nsubsequent works have adopted the super-set assumption, which may, however,\ncompromise user privacy. We show that this lower bound does not apply to our\nadaptation by presenting an LDP algorithm that achieves a constant\napproximation ratio with a relatively small additive factor. Additionally, we\nprovide experimental results demonstrating that our algorithm outperforms the\nstraightforward approach on both synthetically generated and real-world\ndatasets.",
+    "updated" : "2025-06-18T08:08:12Z",
+    "published" : "2025-06-18T08:08:12Z",
+    "authors" : [
+      {
+        "name" : "Kevin Pfisterer"
+      },
+      {
+        "name" : "Quentin Hillebrand"
+      },
+      {
+        "name" : "Vorapong Suppakitpaisarn"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.15201v1",
+    "title" : "Privacy-Shielded Image Compression: Defending Against Exploitation from\n  Vision-Language Pretrained Models",
+    "summary" : "The improved semantic understanding of vision-language pretrained (VLP)\nmodels has made it increasingly difficult to protect publicly posted images\nfrom being exploited by search engines and other similar tools. In this\ncontext, this paper seeks to protect users' privacy by implementing defenses at\nthe image compression stage to prevent exploitation. Specifically, we propose a\nflexible coding method, termed Privacy-Shielded Image Compression (PSIC), that\ncan produce bitstreams with multiple decoding options. By default, the\nbitstream is decoded to preserve satisfactory perceptual quality while\npreventing interpretation by VLP models. Our method also retains the original\nimage compression functionality. With a customizable input condition, the\nproposed scheme can reconstruct the image that preserves its full semantic\ninformation. A Conditional Latent Trigger Generation (CLTG) module is proposed\nto produce bias information based on customizable conditions to guide the\ndecoding process into different reconstructed versions, and an\nUncertainty-Aware Encryption-Oriented (UAEO) optimization function is designed\nto leverage the soft labels inferred from the target VLP model's uncertainty on\nthe training data. This paper further incorporates an adaptive multi-objective\noptimization strategy to obtain improved encrypting performance and perceptual\nquality simultaneously within a unified training process. The proposed scheme\nis plug-and-play and can be seamlessly integrated into most existing Learned\nImage Compression (LIC) models. Extensive experiments across multiple\ndownstream tasks have demonstrated the effectiveness of our design.",
+    "updated" : "2025-06-18T07:29:40Z",
+    "published" : "2025-06-18T07:29:40Z",
+    "authors" : [
+      {
+        "name" : "Xuelin Shen"
+      },
+      {
+        "name" : "Jiayin Xu"
+      },
+      {
+        "name" : "Kangsheng Yin"
+      },
+      {
+        "name" : "Wenhan Yang"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.15112v1",
+    "title" : "PDLRecover: Privacy-preserving Decentralized Model Recovery with Machine\n  Unlearning",
+    "summary" : "Decentralized learning is vulnerable to poison attacks, where malicious\nclients manipulate local updates to degrade global model performance. Existing\ndefenses mainly detect and filter malicious models, aiming to prevent a limited\nnumber of attackers from corrupting the global model. However, restoring an\nalready compromised global model remains a challenge. A direct approach is to\nremove malicious clients and retrain the model using only the benign clients.\nYet, retraining is time-consuming, computationally expensive, and may\ncompromise model consistency and privacy.\n  We propose PDLRecover, a novel method to recover a poisoned global model\nefficiently by leveraging historical model information while preserving\nprivacy. The main challenge lies in protecting shared historical models while\nenabling parameter estimation for model recovery. By exploiting the linearity\nof approximate Hessian matrix computation, we apply secret sharing to protect\nhistorical updates, ensuring local models are not leaked during transmission or\nreconstruction. PDLRecover introduces client-side preparation, periodic\nrecovery updates, and a final exact update to ensure robustness and convergence\nof the recovered model. Periodic updates maintain accurate curvature\ninformation, and the final step ensures high-quality convergence. Experiments\nshow that the recovered global model achieves performance comparable to a fully\nretrained model but with significantly reduced computation and time cost.\nMoreover, PDLRecover effectively prevents leakage of local model parameters,\nensuring both accuracy and privacy in recovery.",
+    "updated" : "2025-06-18T03:30:07Z",
+    "published" : "2025-06-18T03:30:07Z",
+    "authors" : [
+      {
+        "name" : "Xiangman Li"
+      },
+      {
+        "name" : "Xiaodong Wu"
+      },
+      {
+        "name" : "Jianbing Ni"
+      },
+      {
+        "name" : "Mohamed Mahmoud"
+      },
+      {
+        "name" : "Maazen Alsabaan"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.15106v1",
+    "title" : "Local Differential Privacy for Distributed Stochastic Aggregative\n  Optimization with Guaranteed Optimality",
+    "summary" : "Distributed aggregative optimization underpins many cooperative optimization\nand multi-agent control systems, where each agent's objective function depends\nboth on its local optimization variable and an aggregate of all agents'\noptimization variables. Existing distributed aggregative optimization\napproaches typically require access to accurate gradients of the objective\nfunctions, which, however, are often hard to obtain in real-world applications.\nFor example, in machine learning, gradients are commonly contaminated by two\nmain sources of noise: the randomness inherent in sampled data, and the\nadditional variability introduced by mini-batch computations. In addition to\nthe issue of relying on accurate gradients, existing distributed aggregative\noptimization approaches require agents to share explicit information, which\ncould breach the privacy of participating agents. We propose an algorithm that\ncan solve both problems with existing distributed aggregative optimization\napproaches: not only can the proposed algorithm guarantee mean-square\nconvergence to an exact optimal solution when the gradients are subject to\nnoise, it also simultaneously ensures rigorous differential privacy, with the\ncumulative privacy budget guaranteed to be finite even when the number of\niterations tends to infinity. To the best of our knowledge, this is the first\nalgorithm able to guarantee both accurate convergence and rigorous differential\nprivacy in distributed aggregative optimization. Besides characterizing the\nconvergence rates under nonconvex/convex/strongly convex conditions, we also\nrigorously quantify the cost of differential privacy in terms of convergence\nrates. Experimental results on personalized machine learning using benchmark\ndatasets confirm the efficacy of the proposed algorithm.",
+    "updated" : "2025-06-18T03:22:35Z",
+    "published" : "2025-06-18T03:22:35Z",
+    "authors" : [
+      {
+        "name" : "Ziqin Chen"
+      },
+      {
+        "name" : "Yongqiang Wang"
+      }
+    ],
+    "categories" : [
+      "eess.SY",
+      "cs.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.14620v1",
+    "title" : "Differential Privacy and Survey Sampling",
+    "summary" : "The Horvitz-Thompson estimate of a total can be seen as as differentially\nprivate mechanism applied to this population total. We provide forumlae to\ncompute the $\\epsilon$ and $\\delta$ parameter for this specific mecanism,\ncoupled or not coupled with the addition of a Laplace or a Gaussian noise. This\nallows to determine the scale of the Laplace privacy mechanism to be added to\nreach a specified level of privacy, expressed in terms of $\\epsilon,\\delta$\ndifferential privacy. In particular, we provide simple formulae for the special\ncase of simple random sampling on binary data.",
+    "updated" : "2025-06-17T15:17:06Z",
+    "published" : "2025-06-17T15:17:06Z",
+    "authors" : [
+      {
+        "name" : "Daniel Bernard Bonnéry"
+      },
+      {
+        "name" : "Julien Jamme"
+      }
+    ],
+    "categories" : [
+      "math.ST",
+      "stat.TH"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.14576v1",
+    "title" : "SoK: Privacy-Enhancing Technologies in Artificial Intelligence",
+    "summary" : "As artificial intelligence (AI) continues to permeate various sectors,\nsafeguarding personal and sensitive data has become increasingly crucial. To\naddress these concerns, privacy-enhancing technologies (PETs) have emerged as a\nsuite of digital tools that enable data collection and processing while\npreserving privacy. This paper explores the current landscape of data privacy\nin the context of AI, reviews the integration of PETs within AI systems, and\nassesses both their achievements and the challenges that remain.",
+    "updated" : "2025-06-17T14:32:01Z",
+    "published" : "2025-06-17T14:32:01Z",
+    "authors" : [
+      {
+        "name" : "Nouha Oualha"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.14251v1",
+    "title" : "Convergence-Privacy-Fairness Trade-Off in Personalized Federated\n  Learning",
+    "summary" : "Personalized federated learning (PFL), e.g., the renowned Ditto, strikes a\nbalance between personalization and generalization by conducting federated\nlearning (FL) to guide personalized learning (PL). While FL is unaffected by\npersonalized model training, in Ditto, PL depends on the outcome of the FL.\nHowever, the clients' concern about their privacy and consequent perturbation\nof their local models can affect the convergence and (performance) fairness of\nPL. This paper presents PFL, called DP-Ditto, which is a non-trivial extension\nof Ditto under the protection of differential privacy (DP), and analyzes the\ntrade-off among its privacy guarantee, model convergence, and performance\ndistribution fairness. We also analyze the convergence upper bound of the\npersonalized models under DP-Ditto and derive the optimal number of global\naggregations given a privacy budget. Further, we analyze the performance\nfairness of the personalized models, and reveal the feasibility of optimizing\nDP-Ditto jointly for convergence and fairness. Experiments validate our\nanalysis and demonstrate that DP-Ditto can surpass the DP-perturbed versions of\nthe state-of-the-art PFL models, such as FedAMP, pFedMe, APPLE, and FedALA, by\nover 32.71% in fairness and 9.66% in accuracy.",
+    "updated" : "2025-06-17T07:15:28Z",
+    "published" : "2025-06-17T07:15:28Z",
+    "authors" : [
+      {
+        "name" : "Xiyu Zhao"
+      },
+      {
+        "name" : "Qimei Cui"
+      },
+      {
+        "name" : "Weicai Li"
+      },
+      {
+        "name" : "Wei Ni"
+      },
+      {
+        "name" : "Ekram Hossain"
+      },
+      {
+        "name" : "Quan Z. Sheng"
+      },
+      {
+        "name" : "Xiaofeng Tao"
+      },
+      {
+        "name" : "Ping Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.13972v1",
+    "title" : "Membership Inference Attacks as Privacy Tools: Reliability, Disparity\n  and Ensemble",
+    "summary" : "Membership inference attacks (MIAs) pose a significant threat to the privacy\nof machine learning models and are widely used as tools for privacy assessment,\nauditing, and machine unlearning. While prior MIA research has primarily\nfocused on performance metrics such as AUC, accuracy, and TPR@low FPR - either\nby developing new methods to enhance these metrics or using them to evaluate\nprivacy solutions - we found that it overlooks the disparities among different\nattacks. These disparities, both between distinct attack methods and between\nmultiple instantiations of the same method, have crucial implications for the\nreliability and completeness of MIAs as privacy evaluation tools. In this\npaper, we systematically investigate these disparities through a novel\nframework based on coverage and stability analysis. Extensive experiments\nreveal significant disparities in MIAs, their potential causes, and their\nbroader implications for privacy evaluation. To address these challenges, we\npropose an ensemble framework with three distinct strategies to harness the\nstrengths of state-of-the-art MIAs while accounting for their disparities. This\nframework not only enables the construction of more powerful attacks but also\nprovides a more robust and comprehensive methodology for privacy evaluation.",
+    "updated" : "2025-06-16T20:22:07Z",
+    "published" : "2025-06-16T20:22:07Z",
+    "authors" : [
+      {
+        "name" : "Zhiqi Wang"
+      },
+      {
+        "name" : "Chengyu Zhang"
+      },
+      {
+        "name" : "Yuetian Chen"
+      },
+      {
+        "name" : "Nathalie Baracaldo"
+      },
+      {
+        "name" : "Swanand Kadhe"
+      },
+      {
+        "name" : "Lei Yu"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.13882v1",
+    "title" : "Toward Practical Privacy in XR: Empirical Analysis of Multimodal\n  Anonymization Mechanisms",
+    "summary" : "As extended reality (XR) systems become increasingly immersive and\nsensor-rich, they enable the collection of fine-grained behavioral signals such\nas eye and body telemetry. These signals support personalized and responsive\nexperiences and may also contain unique patterns that can be linked back to\nindividuals. However, privacy mechanisms that naively pair unimodal mechanisms\n(e.g., independently apply privacy mechanisms for eye and body privatization)\nare often ineffective at preventing re-identification in practice. In this\nwork, we systematically evaluate real-time privacy mechanisms for XR, both\nindividually and in pair, across eye and body modalities. To preserve\nusability, all mechanisms were tuned based on empirically grounded thresholds\nfor real-time interaction. We evaluated four eye and ten body mechanisms across\nmultiple datasets, comprising up to 407 participants. Our results show that\nwhile obfuscating eye telemetry alone offers moderate privacy gains, body\ntelemetry perturbation is substantially more effective. When carefully paired,\nmultimodal mechanisms reduce re-identification rate from 80.3% to 26.3% in\ncasual XR applications (e.g., VRChat and Job Simulator) and from 84.8% to 26.1%\nin competitive XR applications (e.g., Beat Saber and Synth Riders), all without\nviolating real-time usability requirements. These findings underscore the\npotential of modality-specific and context-aware privacy strategies for\nprotecting behavioral data in XR environments.",
+    "updated" : "2025-06-16T18:01:39Z",
+    "published" : "2025-06-16T18:01:39Z",
+    "authors" : [
+      {
+        "name" : "Azim Ibragimov"
+      },
+      {
+        "name" : "Ethan Wilson"
+      },
+      {
+        "name" : "Kevin R. B. Butler"
+      },
+      {
+        "name" : "Eakta Jain"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.12749v2",
+    "title" : "Free Privacy Protection for Wireless Federated Learning: Enjoy It or\n  Suffer from It?",
+    "summary" : "Inherent communication noises have the potential to preserve privacy for\nwireless federated learning (WFL) but have been overlooked in digital\ncommunication systems predominantly using floating-point number standards,\ne.g., IEEE 754, for data storage and transmission. This is due to the\npotentially catastrophic consequences of bit errors in floating-point numbers,\ne.g., on the sign or exponent bits. This paper presents a novel channel-native\nbit-flipping differential privacy (DP) mechanism tailored for WFL, where\ntransmit bits are randomly flipped and communication noises are leveraged, to\ncollectively preserve the privacy of WFL in digital communication systems. The\nkey idea is to interpret the bit perturbation at the transmitter and bit errors\ncaused by communication noises as a bit-flipping DP process. This is achieved\nby designing a new floating-point-to-fixed-point conversion method that only\ntransmits the bits in the fraction part of model parameters, hence eliminating\nthe need for transmitting the sign and exponent bits and preventing the\ncatastrophic consequence of bit errors. We analyze a new metric to measure the\nbit-level distance of the model parameters and prove that the proposed\nmechanism satisfies (\\lambda,\\epsilon)-R\\'enyi DP and does not violate the WFL\nconvergence. Experiments validate privacy and convergence analysis of the\nproposed mechanism and demonstrate its superiority to the state-of-the-art\nGaussian mechanisms that are channel-agnostic and add Gaussian noise for\nprivacy protection.",
+    "updated" : "2025-06-18T09:25:11Z",
+    "published" : "2025-06-15T07:13:52Z",
+    "authors" : [
+      {
+        "name" : "Weicai Li"
+      },
+      {
+        "name" : "Tiejun Lv"
+      },
+      {
+        "name" : "Xiyu Zhao"
+      },
+      {
+        "name" : "Xin Yuan"
+      },
+      {
+        "name" : "Wei Ni"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.02156v2",
+    "title" : "Mitigating Data Poisoning Attacks to Local Differential Privacy",
+    "summary" : "The distributed nature of local differential privacy (LDP) invites data\npoisoning attacks and poses unforeseen threats to the underlying LDP-supported\napplications. In this paper, we propose a comprehensive mitigation framework\nfor popular frequency estimation, which contains a suite of novel defenses,\nincluding malicious user detection, attack pattern recognition, and damaged\nutility recovery. In addition to existing attacks, we explore new adaptive\nadversarial activities for our mitigation design. For detection, we present a\nnew method to precisely identify bogus reports and thus LDP aggregation can be\nperformed over the ``clean'' data. When the attack behavior becomes stealthy\nand direct filtering out malicious users is difficult, we further propose a\ndetection that can effectively recognize hidden adversarial patterns, thus\nfacilitating the decision-making of service providers. These detection methods\nrequire no additional data and attack information and incur minimal\ncomputational cost. Our experiment demonstrates their excellent performance and\nsubstantial improvement over previous work in various settings. In addition, we\nconduct an empirical analysis of LDP post-processing for corrupted data\nrecovery and propose a new post-processing method, through which we reveal new\ninsights into protocol recommendations in practice and key design principles\nfor future research.",
+    "updated" : "2025-06-16T18:08:15Z",
+    "published" : "2025-06-02T18:37:15Z",
+    "authors" : [
+      {
+        "name" : "Xiaolin Li"
+      },
+      {
+        "name" : "Ninghui Li"
+      },
+      {
+        "name" : "Boyang Wang"
+      },
+      {
+        "name" : "Wenhai Sun"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
