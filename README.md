@@ -2,6 +2,350 @@
 <h2>2025-06</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2506.15349v1">Enhancing One-run Privacy Auditing with Quantile Regression-Based
+  Membership Inference</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-06-18T11:03:39Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Terrance Liu, Matteo Boglioni, Yiwei Fu, Shengyuan Hu, Pratiksha Thaker, Zhiwei Steven Wu</p>
+    <p><b>Summary:</b> Differential privacy (DP) auditing aims to provide empirical lower bounds on
+the privacy guarantees of DP mechanisms like DP-SGD. While some existing
+techniques require many training runs that are prohibitively costly, recent
+work introduces one-run auditing approaches that effectively audit DP-SGD in
+white-box settings while still being computationally efficient. However, in the
+more practical black-box setting where gradients cannot be manipulated during
+training and only the last model iterate is observed, prior work shows that
+there is still a large gap between the empirical lower bounds and theoretical
+upper bounds. Consequently, in this work, we study how incorporating approaches
+for stronger membership inference attacks (MIA) can improve one-run auditing in
+the black-box setting. Evaluating on image classification models trained on
+CIFAR-10 with DP-SGD, we demonstrate that our proposed approach, which utilizes
+quantile regression for MIA, achieves tighter bounds while crucially
+maintaining the computational efficiency of one-run methods.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2506.15307v1">SecFwT: Efficient Privacy-Preserving Fine-Tuning of Large Language
+  Models Using Forward-Only Passes</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-06-18T09:36:57Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jinglong Luo, Zhuo Zhang, Yehong Zhang, Shiyu Liu, Ye Dong, Xun Zhou, Hui Wang, Yue Yu, Zenglin Xu</p>
+    <p><b>Summary:</b> Large language models (LLMs) have transformed numerous fields, yet their
+adaptation to specialized tasks in privacy-sensitive domains, such as
+healthcare and finance, is constrained by the scarcity of accessible training
+data due to stringent privacy requirements. Secure multi-party computation
+(MPC)-based privacy-preserving machine learning offers a powerful approach to
+protect both model parameters and user data, but its application to LLMs has
+been largely limited to inference, as fine-tuning introduces significant
+computational challenges, particularly in privacy-preserving backward
+propagation and optimizer operations. This paper identifies two primary
+obstacles to MPC-based privacy-preserving fine-tuning of LLMs: (1) the
+substantial computational overhead of backward and optimizer processes, and (2)
+the inefficiency of softmax-based attention mechanisms in MPC settings. To
+address these challenges, we propose SecFwT, the first MPC-based framework
+designed for efficient, privacy-preserving LLM fine-tuning. SecFwT introduces a
+forward-only tuning paradigm to eliminate backward and optimizer computations
+and employs MPC-friendly Random Feature Attention to approximate softmax
+attention, significantly reducing costly non-linear operations and
+computational complexity. Experimental results demonstrate that SecFwT delivers
+substantial improvements in efficiency and privacy preservation, enabling
+scalable and secure fine-tuning of LLMs for privacy-critical applications.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2506.15258v1">Privacy-Preserving Chest X-ray Classification in Latent Space with
+  Homomorphically Encrypted Neural Inference</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2025-06-18T08:35:50Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jonghun Kim, Gyeongdeok Jo, Shinyoung Ra, Hyunjin Park</p>
+    <p><b>Summary:</b> Medical imaging data contain sensitive patient information requiring strong
+privacy protection. Many analytical setups require data to be sent to a server
+for inference purposes. Homomorphic encryption (HE) provides a solution by
+allowing computations to be performed on encrypted data without revealing the
+original information. However, HE inference is computationally expensive,
+particularly for large images (e.g., chest X-rays). In this study, we propose
+an HE inference framework for medical images that uses VQGAN to compress images
+into latent representations, thereby significantly reducing the computational
+burden while preserving image quality. We approximate the activation functions
+with lower-degree polynomials to balance the accuracy and efficiency in
+compliance with HE requirements. We observed that a downsampling factor of
+eight for compression achieved an optimal balance between performance and
+computational cost. We further adapted the squeeze and excitation module, which
+is known to improve traditional CNNs, to enhance the HE framework. Our method
+was tested on two chest X-ray datasets for multi-label classification tasks
+using vanilla CNN backbones. Although HE inference remains relatively slow and
+introduces minor performance differences compared with unencrypted inference,
+our approach shows strong potential for practical use in medical images</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2506.15224v1">Facility Location Problem under Local Differential Privacy without
+  Super-set Assumption</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-06-18T08:08:12Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Kevin Pfisterer, Quentin Hillebrand, Vorapong Suppakitpaisarn</p>
+    <p><b>Summary:</b> In this paper, we introduce an adaptation of the facility location problem
+and analyze it within the framework of local differential privacy (LDP). Under
+this model, we ensure the privacy of client presence at specific locations.
+When n is the number of points, Gupta et al. established a lower bound of
+$\Omega(\sqrt{n})$ on the approximation ratio for any differentially private
+algorithm applied to the original facility location problem. As a result,
+subsequent works have adopted the super-set assumption, which may, however,
+compromise user privacy. We show that this lower bound does not apply to our
+adaptation by presenting an LDP algorithm that achieves a constant
+approximation ratio with a relatively small additive factor. Additionally, we
+provide experimental results demonstrating that our algorithm outperforms the
+straightforward approach on both synthetically generated and real-world
+datasets.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2506.15201v1">Privacy-Shielded Image Compression: Defending Against Exploitation from
+  Vision-Language Pretrained Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2025-06-18T07:29:40Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xuelin Shen, Jiayin Xu, Kangsheng Yin, Wenhan Yang</p>
+    <p><b>Summary:</b> The improved semantic understanding of vision-language pretrained (VLP)
+models has made it increasingly difficult to protect publicly posted images
+from being exploited by search engines and other similar tools. In this
+context, this paper seeks to protect users' privacy by implementing defenses at
+the image compression stage to prevent exploitation. Specifically, we propose a
+flexible coding method, termed Privacy-Shielded Image Compression (PSIC), that
+can produce bitstreams with multiple decoding options. By default, the
+bitstream is decoded to preserve satisfactory perceptual quality while
+preventing interpretation by VLP models. Our method also retains the original
+image compression functionality. With a customizable input condition, the
+proposed scheme can reconstruct the image that preserves its full semantic
+information. A Conditional Latent Trigger Generation (CLTG) module is proposed
+to produce bias information based on customizable conditions to guide the
+decoding process into different reconstructed versions, and an
+Uncertainty-Aware Encryption-Oriented (UAEO) optimization function is designed
+to leverage the soft labels inferred from the target VLP model's uncertainty on
+the training data. This paper further incorporates an adaptive multi-objective
+optimization strategy to obtain improved encrypting performance and perceptual
+quality simultaneously within a unified training process. The proposed scheme
+is plug-and-play and can be seamlessly integrated into most existing Learned
+Image Compression (LIC) models. Extensive experiments across multiple
+downstream tasks have demonstrated the effectiveness of our design.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2506.15112v1">PDLRecover: Privacy-preserving Decentralized Model Recovery with Machine
+  Unlearning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-06-18T03:30:07Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xiangman Li, Xiaodong Wu, Jianbing Ni, Mohamed Mahmoud, Maazen Alsabaan</p>
+    <p><b>Summary:</b> Decentralized learning is vulnerable to poison attacks, where malicious
+clients manipulate local updates to degrade global model performance. Existing
+defenses mainly detect and filter malicious models, aiming to prevent a limited
+number of attackers from corrupting the global model. However, restoring an
+already compromised global model remains a challenge. A direct approach is to
+remove malicious clients and retrain the model using only the benign clients.
+Yet, retraining is time-consuming, computationally expensive, and may
+compromise model consistency and privacy.
+  We propose PDLRecover, a novel method to recover a poisoned global model
+efficiently by leveraging historical model information while preserving
+privacy. The main challenge lies in protecting shared historical models while
+enabling parameter estimation for model recovery. By exploiting the linearity
+of approximate Hessian matrix computation, we apply secret sharing to protect
+historical updates, ensuring local models are not leaked during transmission or
+reconstruction. PDLRecover introduces client-side preparation, periodic
+recovery updates, and a final exact update to ensure robustness and convergence
+of the recovered model. Periodic updates maintain accurate curvature
+information, and the final step ensures high-quality convergence. Experiments
+show that the recovered global model achieves performance comparable to a fully
+retrained model but with significantly reduced computation and time cost.
+Moreover, PDLRecover effectively prevents leakage of local model parameters,
+ensuring both accuracy and privacy in recovery.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2506.15106v1">Local Differential Privacy for Distributed Stochastic Aggregative
+  Optimization with Guaranteed Optimality</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
+  <p><b>Published on:</b> 2025-06-18T03:22:35Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ziqin Chen, Yongqiang Wang</p>
+    <p><b>Summary:</b> Distributed aggregative optimization underpins many cooperative optimization
+and multi-agent control systems, where each agent's objective function depends
+both on its local optimization variable and an aggregate of all agents'
+optimization variables. Existing distributed aggregative optimization
+approaches typically require access to accurate gradients of the objective
+functions, which, however, are often hard to obtain in real-world applications.
+For example, in machine learning, gradients are commonly contaminated by two
+main sources of noise: the randomness inherent in sampled data, and the
+additional variability introduced by mini-batch computations. In addition to
+the issue of relying on accurate gradients, existing distributed aggregative
+optimization approaches require agents to share explicit information, which
+could breach the privacy of participating agents. We propose an algorithm that
+can solve both problems with existing distributed aggregative optimization
+approaches: not only can the proposed algorithm guarantee mean-square
+convergence to an exact optimal solution when the gradients are subject to
+noise, it also simultaneously ensures rigorous differential privacy, with the
+cumulative privacy budget guaranteed to be finite even when the number of
+iterations tends to infinity. To the best of our knowledge, this is the first
+algorithm able to guarantee both accurate convergence and rigorous differential
+privacy in distributed aggregative optimization. Besides characterizing the
+convergence rates under nonconvex/convex/strongly convex conditions, we also
+rigorously quantify the cost of differential privacy in terms of convergence
+rates. Experimental results on personalized machine learning using benchmark
+datasets confirm the efficacy of the proposed algorithm.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2506.14620v1">Differential Privacy and Survey Sampling</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36"> 
+  <p><b>Published on:</b> 2025-06-17T15:17:06Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Daniel Bernard Bonnéry, Julien Jamme</p>
+    <p><b>Summary:</b> The Horvitz-Thompson estimate of a total can be seen as as differentially
+private mechanism applied to this population total. We provide forumlae to
+compute the $\epsilon$ and $\delta$ parameter for this specific mecanism,
+coupled or not coupled with the addition of a Laplace or a Gaussian noise. This
+allows to determine the scale of the Laplace privacy mechanism to be added to
+reach a specified level of privacy, expressed in terms of $\epsilon,\delta$
+differential privacy. In particular, we provide simple formulae for the special
+case of simple random sampling on binary data.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2506.14576v1">SoK: Privacy-Enhancing Technologies in Artificial Intelligence</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-06-17T14:32:01Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Nouha Oualha</p>
+    <p><b>Summary:</b> As artificial intelligence (AI) continues to permeate various sectors,
+safeguarding personal and sensitive data has become increasingly crucial. To
+address these concerns, privacy-enhancing technologies (PETs) have emerged as a
+suite of digital tools that enable data collection and processing while
+preserving privacy. This paper explores the current landscape of data privacy
+in the context of AI, reviews the integration of PETs within AI systems, and
+assesses both their achievements and the challenges that remain.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2506.14251v1">Convergence-Privacy-Fairness Trade-Off in Personalized Federated
+  Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
+  <p><b>Published on:</b> 2025-06-17T07:15:28Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xiyu Zhao, Qimei Cui, Weicai Li, Wei Ni, Ekram Hossain, Quan Z. Sheng, Xiaofeng Tao, Ping Zhang</p>
+    <p><b>Summary:</b> Personalized federated learning (PFL), e.g., the renowned Ditto, strikes a
+balance between personalization and generalization by conducting federated
+learning (FL) to guide personalized learning (PL). While FL is unaffected by
+personalized model training, in Ditto, PL depends on the outcome of the FL.
+However, the clients' concern about their privacy and consequent perturbation
+of their local models can affect the convergence and (performance) fairness of
+PL. This paper presents PFL, called DP-Ditto, which is a non-trivial extension
+of Ditto under the protection of differential privacy (DP), and analyzes the
+trade-off among its privacy guarantee, model convergence, and performance
+distribution fairness. We also analyze the convergence upper bound of the
+personalized models under DP-Ditto and derive the optimal number of global
+aggregations given a privacy budget. Further, we analyze the performance
+fairness of the personalized models, and reveal the feasibility of optimizing
+DP-Ditto jointly for convergence and fairness. Experiments validate our
+analysis and demonstrate that DP-Ditto can surpass the DP-perturbed versions of
+the state-of-the-art PFL models, such as FedAMP, pFedMe, APPLE, and FedALA, by
+over 32.71% in fairness and 9.66% in accuracy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2506.13972v1">Membership Inference Attacks as Privacy Tools: Reliability, Disparity
+  and Ensemble</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-06-16T20:22:07Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zhiqi Wang, Chengyu Zhang, Yuetian Chen, Nathalie Baracaldo, Swanand Kadhe, Lei Yu</p>
+    <p><b>Summary:</b> Membership inference attacks (MIAs) pose a significant threat to the privacy
+of machine learning models and are widely used as tools for privacy assessment,
+auditing, and machine unlearning. While prior MIA research has primarily
+focused on performance metrics such as AUC, accuracy, and TPR@low FPR - either
+by developing new methods to enhance these metrics or using them to evaluate
+privacy solutions - we found that it overlooks the disparities among different
+attacks. These disparities, both between distinct attack methods and between
+multiple instantiations of the same method, have crucial implications for the
+reliability and completeness of MIAs as privacy evaluation tools. In this
+paper, we systematically investigate these disparities through a novel
+framework based on coverage and stability analysis. Extensive experiments
+reveal significant disparities in MIAs, their potential causes, and their
+broader implications for privacy evaluation. To address these challenges, we
+propose an ensemble framework with three distinct strategies to harness the
+strengths of state-of-the-art MIAs while accounting for their disparities. This
+framework not only enables the construction of more powerful attacks but also
+provides a more robust and comprehensive methodology for privacy evaluation.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2506.13882v1">Toward Practical Privacy in XR: Empirical Analysis of Multimodal
+  Anonymization Mechanisms</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2025-06-16T18:01:39Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Azim Ibragimov, Ethan Wilson, Kevin R. B. Butler, Eakta Jain</p>
+    <p><b>Summary:</b> As extended reality (XR) systems become increasingly immersive and
+sensor-rich, they enable the collection of fine-grained behavioral signals such
+as eye and body telemetry. These signals support personalized and responsive
+experiences and may also contain unique patterns that can be linked back to
+individuals. However, privacy mechanisms that naively pair unimodal mechanisms
+(e.g., independently apply privacy mechanisms for eye and body privatization)
+are often ineffective at preventing re-identification in practice. In this
+work, we systematically evaluate real-time privacy mechanisms for XR, both
+individually and in pair, across eye and body modalities. To preserve
+usability, all mechanisms were tuned based on empirically grounded thresholds
+for real-time interaction. We evaluated four eye and ten body mechanisms across
+multiple datasets, comprising up to 407 participants. Our results show that
+while obfuscating eye telemetry alone offers moderate privacy gains, body
+telemetry perturbation is substantially more effective. When carefully paired,
+multimodal mechanisms reduce re-identification rate from 80.3% to 26.3% in
+casual XR applications (e.g., VRChat and Job Simulator) and from 84.8% to 26.1%
+in competitive XR applications (e.g., Beat Saber and Synth Riders), all without
+violating real-time usability requirements. These findings underscore the
+potential of modality-specific and context-aware privacy strategies for
+protecting behavioral data in XR environments.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2506.13561v1">Perfect Privacy for Discriminator-Based Byzantine-Resilient Federated
   Learning</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
@@ -154,7 +498,7 @@ existing methods.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.12749v1">Free Privacy Protection for Wireless Federated Learning: Enjoy It or
+  <h3><a href="http://arxiv.org/abs/2506.12749v2">Free Privacy Protection for Wireless Federated Learning: Enjoy It or
   Suffer from It?</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2025-06-15T07:13:52Z</p>
@@ -1558,7 +1902,7 @@ our proposed method.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.02156v1">Mitigating Data Poisoning Attacks to Local Differential Privacy</a></h3>
+  <h3><a href="http://arxiv.org/abs/2506.02156v2">Mitigating Data Poisoning Attacks to Local Differential Privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2025-06-02T18:37:15Z</p>
   <details>
@@ -2578,340 +2922,6 @@ transmit 32-bit secrets with 87% accuracy on held-out prompts, reaching over
 maintain high utility, can evade human detection, and preserve coherence. These
 results highlight a new class of LLM data exfiltration attacks that are
 passive, covert, practical, and dangerous.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.20095v1">Spurious Privacy Leakage in Neural Networks</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-05-26T15:04:39Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Chenxiang Zhang, Jun Pang, Sjouke Mauw</p>
-    <p><b>Summary:</b> Neural networks are vulnerable to privacy attacks aimed at stealing sensitive
-data. The risks can be amplified in a real-world scenario, particularly when
-models are trained on limited and biased data. In this work, we investigate the
-impact of spurious correlation bias on privacy vulnerability. We introduce
-\emph{spurious privacy leakage}, a phenomenon where spurious groups are
-significantly more vulnerable to privacy attacks than non-spurious groups. We
-further show that group privacy disparity increases in tasks with simpler
-objectives (e.g. fewer classes) due to the persistence of spurious features.
-Surprisingly, we find that reducing spurious correlation using spurious robust
-methods does not mitigate spurious privacy leakage. This leads us to introduce
-a perspective on privacy disparity based on memorization, where mitigating
-spurious correlation does not mitigate the memorization of spurious data, and
-therefore, neither the privacy level. Lastly, we compare the privacy of
-different model architectures trained with spurious data, demonstrating that,
-contrary to prior works, architectural choice can affect privacy outcomes.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.19969v1">Differential Privacy Analysis of Decentralized Gossip Averaging under
-  Varying Threat Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
-  <p><b>Published on:</b> 2025-05-26T13:31:43Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Antti Koskela, Tejas Kulkarni</p>
-    <p><b>Summary:</b> Fully decentralized training of machine learning models offers significant
-advantages in scalability, robustness, and fault tolerance. However, achieving
-differential privacy (DP) in such settings is challenging due to the absence of
-a central aggregator and varying trust assumptions among nodes. In this work,
-we present a novel privacy analysis of decentralized gossip-based averaging
-algorithms with additive node-level noise, both with and without secure
-summation over each node's direct neighbors. Our main contribution is a new
-analytical framework based on a linear systems formulation that accurately
-characterizes privacy leakage across these scenarios. This framework
-significantly improves upon prior analyses, for example, reducing the R\'enyi
-DP parameter growth from $O(T^2)$ to $O(T)$, where $T$ is the number of
-training rounds. We validate our analysis with numerical results demonstrating
-superior DP bounds compared to existing approaches. We further illustrate our
-analysis with a logistic regression experiment on MNIST image classification in
-a fully decentralized setting, demonstrating utility comparable to central
-aggregation methods.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.19951v1">Novel Loss-Enhanced Universal Adversarial Patches for Sustainable
-  Speaker Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Sound-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
-  <p><b>Published on:</b> 2025-05-26T13:16:01Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Elvir Karimov, Alexander Varlamov, Danil Ivanov, Dmitrii Korzh, Oleg Y. Rogov</p>
-    <p><b>Summary:</b> Deep learning voice models are commonly used nowadays, but the safety
-processing of personal data, such as human identity and speech content, remains
-suspicious. To prevent malicious user identification, speaker anonymization
-methods were proposed. Current methods, particularly based on universal
-adversarial patch (UAP) applications, have drawbacks such as significant
-degradation of audio quality, decreased speech recognition quality, low
-transferability across different voice biometrics models, and performance
-dependence on the input audio length. To mitigate these drawbacks, in this
-work, we introduce and leverage the novel Exponential Total Variance (TV) loss
-function and provide experimental evidence that it positively affects UAP
-strength and imperceptibility. Moreover, we present a novel scalable UAP
-insertion procedure and demonstrate its uniformly high performance for various
-audio lengths.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.19823v1">LAPA-based Dynamic Privacy Optimization for Wireless Federated Learning
-  in Heterogeneous Environments</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-05-26T11:00:31Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Pengcheng Sun, Erwu Liu, Wei Ni, Rui Wang, Yuanzhe Geng, Lijuan Lai, Abbas Jamalipour</p>
-    <p><b>Summary:</b> Federated Learning (FL) is a distributed machine learning paradigm based on
-protecting data privacy of devices, which however, can still be broken by
-gradient leakage attack via parameter inversion techniques. Differential
-privacy (DP) technology reduces the risk of private data leakage by adding
-artificial noise to the gradients, but detrimental to the FL utility at the
-same time, especially in the scenario where the data is Non-Independent
-Identically Distributed (Non-IID). Based on the impact of heterogeneous data on
-aggregation performance, this paper proposes a Lightweight Adaptive Privacy
-Allocation (LAPA) strategy, which assigns personalized privacy budgets to
-devices in each aggregation round without transmitting any additional
-information beyond gradients, ensuring both privacy protection and aggregation
-efficiency. Furthermore, the Deep Deterministic Policy Gradient (DDPG)
-algorithm is employed to optimize the transmission power, in order to determine
-the optimal timing at which the adaptively attenuated artificial noise aligns
-with the communication noise, enabling an effective balance between DP and
-system utility. Finally, a reliable aggregation strategy is designed by
-integrating communication quality and data distribution characteristics, which
-improves aggregation performance while preserving privacy. Experimental results
-demonstrate that the personalized noise allocation and dynamic optimization
-strategy based on LAPA proposed in this paper enhances convergence performance
-while satisfying the privacy requirements of FL.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.18870v1">Understanding the Relationship Between Personal Data Privacy Literacy
-  and Data Privacy Information Sharing by University Students</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-05-24T21:14:53Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Brady D. Lund, Bryan Anderson, Ana Roeschley, Gahangir Hossain</p>
-    <p><b>Summary:</b> With constant threats to the safety of personal data in the United States,
-privacy literacy has become an increasingly important competency among
-university students, one that ties intimately to the information sharing
-behavior of these students. This survey based study examines how university
-students in the United States perceive personal data privacy and how their
-privacy literacy influences their understanding and behaviors. Students
-responses to a privacy literacy scale were categorized into high and low
-privacy literacy groups, revealing that high literacy individuals demonstrate a
-broader range of privacy practices, including multi factor authentication, VPN
-usage, and phishing awareness, whereas low literacy individuals rely on more
-basic security measures. Statistical analyses suggest that high literacy
-respondents display greater diversity in recommendations and engagement in
-privacy discussions. These findings suggest the need for enhanced educational
-initiatives to improve data privacy awareness at the university level to create
-a better cyber safe population.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.18786v1">Leveraging Per-Instance Privacy for Machine Unlearning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-05-24T16:55:57Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Nazanin Mohammadi Sepahvand, Anvith Thudi, Berivan Isik, Ashmita Bhattacharyya, Nicolas Papernot, Eleni Triantafillou, Daniel M. Roy, Gintare Karolina Dziugaite</p>
-    <p><b>Summary:</b> We present a principled, per-instance approach to quantifying the difficulty
-of unlearning via fine-tuning. We begin by sharpening an analysis of noisy
-gradient descent for unlearning (Chien et al., 2024), obtaining a better
-utility-unlearning tradeoff by replacing worst-case privacy loss bounds with
-per-instance privacy losses (Thudi et al., 2024), each of which bounds the
-(Renyi) divergence to retraining without an individual data point. To
-demonstrate the practical applicability of our theory, we present empirical
-results showing that our theoretical predictions are born out both for
-Stochastic Gradient Langevin Dynamics (SGLD) as well as for standard
-fine-tuning without explicit noise. We further demonstrate that per-instance
-privacy losses correlate well with several existing data difficulty metrics,
-while also identifying harder groups of data points, and introduce novel
-evaluation methods based on loss barriers. All together, our findings provide a
-foundation for more efficient and adaptive unlearning strategies tailored to
-the unique properties of individual data points.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.18386v1">Modeling interdependent privacy threats</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-05-23T21:22:49Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shuaishuai Liu, Gergely Biczók</p>
-    <p><b>Summary:</b> The rise of online social networks, user-gene-rated content, and third-party
-apps made data sharing an inevitable trend, driven by both user behavior and
-the commercial value of personal information. As service providers amass vast
-amounts of data, safeguarding individual privacy has become increasingly
-challenging. Privacy threat modeling has emerged as a critical tool for
-identifying and mitigating risks, with methodologies such as LINDDUN, xCOMPASS,
-and PANOPTIC offering systematic approaches. However, these frameworks
-primarily focus on threats arising from interactions between a single user and
-system components, often overlooking interdependent privacy (IDP); the
-phenomenon where one user's actions affect the privacy of other users and even
-non-users. IDP risks are particularly pronounced in third-party applications,
-where platform permissions, APIs, and user behavior can lead to unintended and
-unconsented data sharing, such as in the Cambridge Analytica case. We argue
-that existing threat modeling approaches are limited in exposing IDP-related
-threats, potentially underestimating privacy risks. To bridge this gap, we
-propose a specialized methodology that explicitly focuses on interdependent
-privacy. Our contributions are threefold: (i) we identify IDP-specific
-challenges and limitations in current threat modeling frameworks, (ii) we
-create IDPA, a threat modeling approach tailored to IDP threats, and (iii) we
-validate our approach through a case study on WeChat. We believe that IDPA can
-operate effectively on systems other than third-party apps and may motivate
-further research on specialized threat modeling.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.18242v1">Privacy-Preserving Bathroom Monitoring for Elderly Emergencies Using PIR
-  and LiDAR Sensors</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-05-23T15:49:43Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Youssouf Sidibé, Julia Gersey</p>
-    <p><b>Summary:</b> In-home elderly monitoring requires systems that can detect emergency events
-- such as falls or prolonged inactivity - while preserving privacy and
-requiring no user input. These systems must be embedded into the surrounding
-environment, capable of capturing activity, and responding promptly. This paper
-presents a low-cost, privacy-preserving solution using Passive Infrared (PIR)
-and Light Detection and Ranging (LiDAR) sensors to track entries, sitting,
-exits, and emergency scenarios within a home bathroom setting. We developed and
-evaluated a rule-based detection system through five real-world experiments
-simulating elderly behavior. Annotated time-series graphs demonstrate the
-system's ability to detect dangerous states, such as motionless collapses,
-while maintaining privacy through non-visual sensing.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.16954v1">Cracking Aegis: An Adversarial LLM-based Game for Raising Awareness of
-  Vulnerabilities in Privacy Protection</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2025-05-22T17:34:45Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jiaying Fu, Yiyang Lu, Zehua Yang, Fiona Nah, RAY LC</p>
-    <p><b>Summary:</b> Traditional methods for raising awareness of privacy protection often fail to
-engage users or provide hands-on insights into how privacy vulnerabilities are
-exploited. To address this, we incorporate an adversarial mechanic in the
-design of the dialogue-based serious game Cracking Aegis. Leveraging LLMs to
-simulate natural interactions, the game challenges players to impersonate
-characters and extract sensitive information from an AI agent, Aegis. A user
-study (n=22) revealed that players employed diverse deceptive linguistic
-strategies, including storytelling and emotional rapport, to manipulate Aegis.
-After playing, players reported connecting in-game scenarios with real-world
-privacy vulnerabilities, such as phishing and impersonation, and expressed
-intentions to strengthen privacy control, such as avoiding oversharing personal
-information with AI systems. This work highlights the potential of LLMs to
-simulate complex relational interactions in serious games, while demonstrating
-how an adversarial game strategy provides unique insights for designs for
-social good, particularly privacy protection.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.16371v1">Privacy-Aware Cyberterrorism Network Analysis using Graph Neural
-  Networks and Federated Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-05-22T08:26:09Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Anas Ali, Mubashar Husain, Peter Hans</p>
-    <p><b>Summary:</b> Cyberterrorism poses a formidable threat to digital infrastructures, with
-increasing reliance on encrypted, decentralized platforms that obscure threat
-actor activity. To address the challenge of analyzing such adversarial networks
-while preserving the privacy of distributed intelligence data, we propose a
-Privacy-Aware Federated Graph Neural Network (PA-FGNN) framework. PA-FGNN
-integrates graph attention networks, differential privacy, and homomorphic
-encryption into a robust federated learning pipeline tailored for
-cyberterrorism network analysis. Each client trains locally on sensitive graph
-data and exchanges encrypted, noise-perturbed model updates with a central
-aggregator, which performs secure aggregation and broadcasts global updates. We
-implement anomaly detection for flagging high-risk nodes and incorporate
-defenses against gradient poisoning. Experimental evaluations on simulated dark
-web and cyber-intelligence graphs demonstrate that PA-FGNN achieves over 91\%
-classification accuracy, maintains resilience under 20\% adversarial client
-behavior, and incurs less than 18\% communication overhead. Our results
-highlight that privacy-preserving GNNs can support large-scale cyber threat
-detection without compromising on utility, privacy, or robustness.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.17145v1">LLM Access Shield: Domain-Specific LLM Framework for Privacy Policy
-  Compliance</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-05-22T07:30:37Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yu Wang, Cailing Cai, Zhihua Xiao, Peifung E. Lam</p>
-    <p><b>Summary:</b> Large language models (LLMs) are increasingly applied in fields such as
-finance, education, and governance due to their ability to generate human-like
-text and adapt to specialized tasks. However, their widespread adoption raises
-critical concerns about data privacy and security, including the risk of
-sensitive data exposure.
-  In this paper, we propose a security framework to enforce policy compliance
-and mitigate risks in LLM interactions. Our approach introduces three key
-innovations: (i) LLM-based policy enforcement: a customizable mechanism that
-enhances domain-specific detection of sensitive data. (ii) Dynamic policy
-customization: real-time policy adaptation and enforcement during user-LLM
-interactions to ensure compliance with evolving security requirements. (iii)
-Sensitive data anonymization: a format-preserving encryption technique that
-protects sensitive information while maintaining contextual integrity.
-Experimental results demonstrate that our framework effectively mitigates
-security risks while preserving the functional accuracy of LLM-driven tasks.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.16059v1">Monitoring in the Dark: Privacy-Preserving Runtime Verification of
-  Cyber-Physical Systems</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Logic in Computer Science-662E9B"> 
-  <p><b>Published on:</b> 2025-05-21T22:20:25Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Charles Koll, Preston Tan Hang, Mike Rosulek, Houssam Abbas</p>
-    <p><b>Summary:</b> In distributed Cyber-Physical Systems and Internet-of-Things applications,
-the nodes of the system send measurements to a monitor that checks whether
-these measurements satisfy given formal specifications. For instance in Urban
-Air Mobility, a local traffic authority will be monitoring drone traffic to
-evaluate its flow and detect emerging problematic patterns. Certain
-applications require both the specification and the measurements to be private
--- i.e. known only to their owners. Examples include traffic monitoring,
-testing of integrated circuit designs, and medical monitoring by wearable or
-implanted devices. In this paper we propose a protocol that enables
-privacy-preserving robustness monitoring. By following our protocol, both
-system (e.g. drone) and monitor (e.g. traffic authority) only learn the
-robustness of the measured trace w.r.t. the specification. But the system
-learns nothing about the formula, and the monitor learns nothing about the
-signal monitored. We do this using garbled circuits, for specifications in
-Signal Temporal Logic interpreted over timed state sequences. We analyze the
-runtime and memory overhead of privacy preservation, the size of the circuits,
-and their practicality for three different usage scenarios: design testing,
-offline monitoring, and online monitoring of Cyber-Physical Systems.</p>
   </details>
 </div>
 
