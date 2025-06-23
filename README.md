@@ -2,6 +2,250 @@
 <h2>2025-06</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2506.17185v1">A Common Pool of Privacy Problems: Legal and Technical Lessons from a
+  Large-Scale Web-Scraped Machine Learning Dataset</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2025-06-20T17:40:05Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Rachel Hong, Jevan Hutson, William Agnew, Imaad Huda, Tadayoshi Kohno, Jamie Morgenstern</p>
+    <p><b>Summary:</b> We investigate the contents of web-scraped data for training AI systems, at
+sizes where human dataset curators and compilers no longer manually annotate
+every sample. Building off of prior privacy concerns in machine learning
+models, we ask: What are the legal privacy implications of web-scraped machine
+learning datasets? In an empirical study of a popular training dataset, we find
+significant presence of personally identifiable information despite
+sanitization efforts. Our audit provides concrete evidence to support the
+concern that any large-scale web-scraped dataset may contain personal data. We
+use these findings of a real-world dataset to inform our legal analysis with
+respect to existing privacy and data protection laws. We surface various
+privacy risks of current data curation practices that may propagate personal
+information to downstream models. From our findings, we argue for reorientation
+of current frameworks of "publicly available" information to meaningfully limit
+the development of AI built upon indiscriminate scraping of the internet.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2506.17012v1">A Novel Approach to Differential Privacy with Alpha Divergence</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-06-20T14:10:18Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yifeng Liu, Zehua Wang</p>
+    <p><b>Summary:</b> As data-driven technologies advance swiftly, maintaining strong privacy
+measures becomes progressively difficult. Conventional $(\epsilon,
+\delta)$-differential privacy, while prevalent, exhibits limited adaptability
+for many applications. To mitigate these constraints, we present alpha
+differential privacy (ADP), an innovative privacy framework grounded in alpha
+divergence, which provides a more flexible assessment of privacy consumption.
+This study delineates the theoretical underpinnings of ADP and contrasts its
+performance with competing privacy frameworks across many scenarios. Empirical
+assessments demonstrate that ADP offers enhanced privacy guarantees in small to
+moderate iteration contexts, particularly where severe privacy requirements are
+necessary. The suggested method markedly improves privacy-preserving methods,
+providing a flexible solution for contemporary data analysis issues in a
+data-centric environment.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2506.16578v1">SafeTriage: Facial Video De-identification for Privacy-Preserving Stroke
+  Triage</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2025-06-19T20:02:47Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Tongan Cai, Haomiao Ni, Wenchao Ma, Yuan Xue, Qian Ma, Rachel Leicht, Kelvin Wong, John Volpi, Stephen T. C. Wong, James Z. Wang, Sharon X. Huang</p>
+    <p><b>Summary:</b> Effective stroke triage in emergency settings often relies on clinicians'
+ability to identify subtle abnormalities in facial muscle coordination. While
+recent AI models have shown promise in detecting such patterns from patient
+facial videos, their reliance on real patient data raises significant ethical
+and privacy challenges -- especially when training robust and generalizable
+models across institutions. To address these concerns, we propose SafeTriage, a
+novel method designed to de-identify patient facial videos while preserving
+essential motion cues crucial for stroke diagnosis. SafeTriage leverages a
+pretrained video motion transfer (VMT) model to map the motion characteristics
+of real patient faces onto synthetic identities. This approach retains
+diagnostically relevant facial dynamics without revealing the patients'
+identities. To mitigate the distribution shift between normal population
+pre-training videos and patient population test videos, we introduce a
+conditional generative model for visual prompt tuning, which adapts the input
+space of the VMT model to ensure accurate motion transfer without needing to
+fine-tune the VMT model backbone. Comprehensive evaluation, including
+quantitative metrics and clinical expert assessments, demonstrates that
+SafeTriage-produced synthetic videos effectively preserve stroke-relevant
+facial patterns, enabling reliable AI-based triage. Our evaluations also show
+that SafeTriage provides robust privacy protection while maintaining diagnostic
+accuracy, offering a secure and ethically sound foundation for data sharing and
+AI-driven clinical analysis in neurological disorders.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2506.16460v1">Black-Box Privacy Attacks on Shared Representations in Multitask
+  Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-06-19T16:56:41Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> John Abascal, Nicolás Berrios, Alina Oprea, Jonathan Ullman, Adam Smith, Matthew Jagielski</p>
+    <p><b>Summary:</b> Multitask learning (MTL) has emerged as a powerful paradigm that leverages
+similarities among multiple learning tasks, each with insufficient samples to
+train a standalone model, to solve them simultaneously while minimizing data
+sharing across users and organizations. MTL typically accomplishes this goal by
+learning a shared representation that captures common structure among the tasks
+by embedding data from all tasks into a common feature space. Despite being
+designed to be the smallest unit of shared information necessary to effectively
+learn patterns across multiple tasks, these shared representations can
+inadvertently leak sensitive information about the particular tasks they were
+trained on.
+  In this work, we investigate what information is revealed by the shared
+representations through the lens of inference attacks. Towards this, we propose
+a novel, black-box task-inference threat model where the adversary, given the
+embedding vectors produced by querying the shared representation on samples
+from a particular task, aims to determine whether that task was present when
+training the shared representation. We develop efficient, purely black-box
+attacks on machine learning models that exploit the dependencies between
+embeddings from the same task without requiring shadow models or labeled
+reference data. We evaluate our attacks across vision and language domains for
+multiple use cases of MTL and demonstrate that even with access only to fresh
+task samples rather than training data, a black-box adversary can successfully
+infer a task's inclusion in training. To complement our experiments, we provide
+theoretical analysis of a simplified learning setting and show a strict
+separation between adversaries with training samples and fresh samples from the
+target task's distribution.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2506.16347v1">Emission Impossible: privacy-preserving carbon emissions claims</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-06-19T14:23:48Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jessica Man, Sadiq Jaffer, Patrick Ferris, Martin Kleppmann, Anil Madhavapeddy</p>
+    <p><b>Summary:</b> Information and Communication Technologies (ICT) have a significant climate
+impact, and data centres account for a large proportion of the carbon emissions
+from ICT. To achieve sustainability goals, it is important that all parties
+involved in ICT supply chains can track and share accurate carbon emissions
+data with their customers, investors, and the authorities. However, businesses
+have strong incentives to make their numbers look good, whilst less so to
+publish their accounting methods along with all the input data, due to the risk
+of revealing sensitive information. It would be uneconomical to use a trusted
+third party to verify the data for every report for each party in the chain. As
+a result, carbon emissions reporting in supply chains currently relies on
+unverified data. This paper proposes a methodology that applies cryptography
+and zero-knowledge proofs for carbon emissions claims that can be subsequently
+verified without the knowledge of the private input data. The proposed system
+is based on a zero-knowledge Succinct Non-interactive ARguments of Knowledge
+(zk-SNARK) protocol, which enables verifiable emissions reporting mechanisms
+across a chain of energy suppliers, cloud data centres, cloud services
+providers, and customers, without any company needing to disclose commercially
+sensitive information. This allows customers of cloud services to accurately
+account for the emissions generated by their activities, improving data quality
+for their own regulatory reporting. Cloud services providers would also be held
+accountable for producing accurate carbon emissions data.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2506.16196v1">Efficient and Privacy-Preserving Soft Prompt Transfer for LLMs</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-06-19T10:25:16Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xun Wang, Jing Xu, Franziska Boenisch, Michael Backes, Christopher A. Choquette-Choo, Adam Dziedzic</p>
+    <p><b>Summary:</b> Prompting has become a dominant paradigm for adapting large language models
+(LLMs). While discrete (textual) prompts are widely used for their
+interpretability, soft (parameter) prompts have recently gained traction in
+APIs. This is because they can encode information from more training samples
+while minimizing the user's token usage, leaving more space in the context
+window for task-specific input. However, soft prompts are tightly coupled to
+the LLM they are tuned on, limiting their generalization to other LLMs. This
+constraint is particularly problematic for efficiency and privacy: (1) tuning
+prompts on each LLM incurs high computational costs, especially as LLMs
+continue to grow in size. Additionally, (2) when the LLM is hosted externally,
+soft prompt tuning often requires sharing private data with the LLM provider.
+For instance, this is the case with the NVIDIA NeMo API. To address these
+issues, we propose POST (Privacy Of Soft prompt Transfer), a framework that
+enables private tuning of soft prompts on a small model and subsequently
+transfers these prompts to a larger LLM. POST uses knowledge distillation to
+derive a small model directly from the large LLM to improve prompt
+transferability, tunes the soft prompt locally, optionally with differential
+privacy guarantees, and transfers it back to the larger LLM using a small
+public dataset. Our experiments show that POST reduces computational costs,
+preserves privacy, and effectively transfers high-utility soft prompts.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2506.15924v1">FARFETCH'D: A Side-Channel Analysis Framework for Privacy Applications
+  on Confidential Virtual Machines</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-06-18T23:58:29Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ruiyi Zhang, Albert Cheu, Adria Gascon, Daniel Moghimi, Phillipp Schoppmann, Michael Schwarz, Octavian Suciu</p>
+    <p><b>Summary:</b> Confidential virtual machines (CVMs) based on trusted execution environments
+(TEEs) enable new privacy-preserving solutions. Yet, they leave side-channel
+leakage outside their threat model, shifting the responsibility of mitigating
+such attacks to developers. However, mitigations are either not generic or too
+slow for practical use, and developers currently lack a systematic, efficient
+way to measure and compare leakage across real-world deployments. In this
+paper, we present FARFETCH'D, an open-source toolkit that offers configurable
+side-channel tracing primitives on production AMD SEV-SNP hardware and couples
+them with statistical and machine-learning-based analysis pipelines for
+automated leakage estimation. We apply FARFETCH'D to three representative
+workloads that are deployed on CVMs to enhance user privacy - private
+information retrieval, private heavy hitters, and Wasm user-defined functions -
+and uncover previously unnoticed leaks, including a covert channel that
+exfiltrated data at 497 kbit/s. The results show that FARFETCH'D pinpoints
+vulnerabilities and guides low-overhead mitigations based on oblivious memory
+and differential privacy, giving practitioners a practical path to deploy CVMs
+with meaningful confidentiality guarantees.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2506.15854v1">Privacy-Preserving in Connected and Autonomous Vehicles Through Vision
+  to Text Transformation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-06-18T20:02:24Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Abdolazim Rezaei, Mehdi Sookhak, Ahmad Patooghy</p>
+    <p><b>Summary:</b> Connected and Autonomous Vehicles (CAVs) rely on a range of devices that
+often process privacy-sensitive data. Among these, roadside units play a
+critical role particularly through the use of AI-equipped (AIE) cameras for
+applications such as violation detection. However, the privacy risks associated
+with captured imagery remain a major concern, as such data can be misused for
+identity theft, profiling, or unauthorized commercial purposes. While
+traditional techniques such as face blurring and obfuscation have been applied
+to mitigate privacy risks, individual privacy remains at risk, as individuals
+can still be tracked using other features such as their clothing. This paper
+introduces a novel privacy-preserving framework that leverages feedback-based
+reinforcement learning (RL) and vision-language models (VLMs) to protect
+sensitive visual information captured by AIE cameras. The main idea is to
+convert images into semantically equivalent textual descriptions, ensuring that
+scene-relevant information is retained while visual privacy is preserved. A
+hierarchical RL strategy is employed to iteratively refine the generated text,
+enhancing both semantic accuracy and privacy. Evaluation results demonstrate
+significant improvements in both privacy protection and textual quality, with
+the Unique Word Count increasing by approximately 77\% and Detail Density by
+around 50\% compared to existing approaches.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2506.15349v1">Enhancing One-run Privacy Auditing with Quantile Regression-Based
   Membership Inference</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
@@ -60,13 +304,13 @@ scalable and secure fine-tuning of LLMs for privacy-critical applications.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.15258v1">Privacy-Preserving Chest X-ray Classification in Latent Space with
+  <h3><a href="http://arxiv.org/abs/2506.15258v2">Privacy-Preserving Chest X-ray Classification in Latent Space with
   Homomorphically Encrypted Neural Inference</a></h3>
    <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
   <p><b>Published on:</b> 2025-06-18T08:35:50Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Jonghun Kim, Gyeongdeok Jo, Shinyoung Ra, Hyunjin Park</p>
+    <p><b>Authors:</b> Jonghun Kim, Gyeongdeok Jo, Sinyoung Ra, Hyunjin Park</p>
     <p><b>Summary:</b> Medical imaging data contain sensitive patient information requiring strong
 privacy protection. Many analytical setups require data to be sent to a server
 for inference purposes. Homomorphic encryption (HE) provides a solution by
@@ -183,7 +427,7 @@ ensuring both accuracy and privacy in recovery.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.15106v1">Local Differential Privacy for Distributed Stochastic Aggregative
+  <h3><a href="http://arxiv.org/abs/2506.15106v2">Local Differential Privacy for Distributed Stochastic Aggregative
   Optimization with Guaranteed Optimality</a></h3>
    <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
   <p><b>Published on:</b> 2025-06-18T03:22:35Z</p>
@@ -531,7 +775,7 @@ privacy protection.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.12699v1">SoK: The Privacy Paradox of Large Language Models: Advancements, Privacy
+  <h3><a href="http://arxiv.org/abs/2506.12699v2">SoK: The Privacy Paradox of Large Language Models: Advancements, Privacy
   Risks, and Mitigation</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
   <p><b>Published on:</b> 2025-06-15T03:14:03Z</p>
@@ -2679,249 +2923,6 @@ knowledge bases. Using secure multi-party computation (SMPC) and cryptographic
 protocols, we develop two concrete methods for this use-case and show that they
 satisfy important properties of SMPC protocols -- notably, input privacy, i.e.,
 jointly computing the inconsistency degree without revealing the inputs.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.21801v2">Query, Don't Train: Privacy-Preserving Tabular Prediction from EHR Data
-  via SQL Queries</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
-  <p><b>Published on:</b> 2025-05-27T22:16:02Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Josefa Lia Stoisser, Marc Boubnovski Martell, Kaspar Märtens, Lawrence Phillips, Stephen Michael Town, Rory Donovan-Maiye, Julien Fauqueur</p>
-    <p><b>Summary:</b> Electronic health records (EHRs) contain richly structured, longitudinal data
-essential for predictive modeling, yet stringent privacy regulations (e.g.,
-HIPAA, GDPR) often restrict access to individual-level records. We introduce
-Query, Don't Train (QDT): a structured-data foundation-model interface enabling
-tabular inference via LLM-generated SQL over EHRs. Instead of training on or
-accessing individual-level examples, QDT uses a large language model (LLM) as a
-schema-aware query planner to generate privacy-compliant SQL queries from a
-natural language task description and a test-time input. The model then
-extracts summary-level population statistics through these SQL queries and the
-LLM performs, chain-of-thought reasoning over the results to make predictions.
-This inference-time-only approach (1) eliminates the need for supervised model
-training or direct data access, (2) ensures interpretability through symbolic,
-auditable queries, (3) naturally handles missing features without imputation or
-preprocessing, and (4) effectively manages high-dimensional numerical data to
-enhance analytical capabilities. We validate QDT on the task of 30-day hospital
-readmission prediction for Type 2 diabetes patients using a MIMIC-style EHR
-cohort, achieving F1 = 0.70, which outperforms TabPFN (F1 = 0.68). To our
-knowledge, this is the first demonstration of LLM-driven, privacy-preserving
-structured prediction using only schema metadata and aggregate statistics -
-offering a scalable, interpretable, and regulation-compliant alternative to
-conventional foundation-model pipelines.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.21715v1">Privacy-Preserving Chest X-ray Report Generation via Multimodal
-  Federated Learning with ViT and GPT-2</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2025-05-27T20:01:12Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Md. Zahid Hossain, Mustofa Ahmed, Most. Sharmin Sultana Samu, Md. Rakibul Islam</p>
-    <p><b>Summary:</b> The automated generation of radiology reports from chest X-ray images holds
-significant promise in enhancing diagnostic workflows while preserving patient
-privacy. Traditional centralized approaches often require sensitive data
-transfer, posing privacy concerns. To address this, the study proposes a
-Multimodal Federated Learning framework for chest X-ray report generation using
-the IU-Xray dataset. The system utilizes a Vision Transformer (ViT) as the
-encoder and GPT-2 as the report generator, enabling decentralized training
-without sharing raw data. Three Federated Learning (FL) aggregation strategies:
-FedAvg, Krum Aggregation and a novel Loss-aware Federated Averaging (L-FedAvg)
-were evaluated. Among these, Krum Aggregation demonstrated superior performance
-across lexical and semantic evaluation metrics such as ROUGE, BLEU, BERTScore
-and RaTEScore. The results show that FL can match or surpass centralized models
-in generating clinically relevant and semantically rich radiology reports. This
-lightweight and privacy-preserving framework paves the way for collaborative
-medical AI development without compromising data confidentiality.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.21008v1">A Hitchhiker's Guide to Privacy-Preserving Cryptocurrencies: A Survey on
-  Anonymity, Confidentiality, and Auditability</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
-  <p><b>Published on:</b> 2025-05-27T10:42:28Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Matteo Nardelli, Francesco De Sclavis, Michela Iezzi</p>
-    <p><b>Summary:</b> Cryptocurrencies and central bank digital currencies (CBDCs) are reshaping
-the monetary landscape, offering transparency and efficiency while raising
-critical concerns about user privacy and regulatory compliance. This survey
-provides a comprehensive and technically grounded overview of
-privacy-preserving digital currencies, covering both cryptocurrencies and
-CBDCs. We propose a taxonomy of privacy goals -- including anonymity,
-confidentiality, unlinkability, and auditability -- and map them to underlying
-cryptographic primitives, protocol mechanisms, and system architectures. Unlike
-previous surveys, our work adopts a design-oriented perspective, linking
-high-level privacy objectives to concrete implementations. We also trace the
-evolution of privacy-preserving currencies through three generations,
-highlighting shifts from basic anonymity guarantees toward more nuanced
-privacy-accountability trade-offs. Finally, we identify open challenges at the
-intersection of cryptography, distributed systems, and policy definition, which
-motivate further investigation into the primitives and design of digital
-currencies that balance real-world privacy and auditability needs.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.20916v1">Imago Obscura: An Image Privacy AI Co-pilot to Enable Identification and
-  Mitigation of Risks</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> 
-  <p><b>Published on:</b> 2025-05-27T09:08:12Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Kyzyl Monteiro, Yuchen Wu, Sauvik Das</p>
-    <p><b>Summary:</b> Users often struggle to navigate the privacy / publicity boundary in sharing
-images online: they may lack awareness of image privacy risks and/or the
-ability to apply effective mitigation strategies. To address this challenge, we
-introduce and evaluate Imago Obscura, an AI-powered, image-editing copilot that
-enables users to identify and mitigate privacy risks with images they intend to
-share. Driven by design requirements from a formative user study with 7
-image-editing experts, Imago Obscura enables users to articulate their
-image-sharing intent and privacy concerns. The system uses these inputs to
-surface contextually pertinent privacy risks, and then recommends and
-facilitates application of a suite of obfuscation techniques found to be
-effective in prior literature -- e.g., inpainting, blurring, and generative
-content replacement. We evaluated Imago Obscura with 15 end-users in a lab
-study and found that it greatly improved users' awareness of image privacy
-risks and their ability to address those risks, allowing them to make more
-informed sharing decisions.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.20910v1">Automated Privacy Information Annotation in Large Language Model
-  Interactions</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2025-05-27T09:00:12Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Hang Zeng, Xiangyu Liu, Yong Hu, Chaoyue Niu, Fan Wu, Shaojie Tang, Guihai Chen</p>
-    <p><b>Summary:</b> Users interacting with large language models (LLMs) under their real
-identifiers often unknowingly risk disclosing private information.
-Automatically notifying users whether their queries leak privacy and which
-phrases leak what private information has therefore become a practical need.
-Existing privacy detection methods, however, were designed for different
-objectives and application scenarios, typically tagging personally identifiable
-information (PII) in anonymous content. In this work, to support the
-development and evaluation of privacy detection models for LLM interactions
-that are deployable on local user devices, we construct a large-scale
-multilingual dataset with 249K user queries and 154K annotated privacy phrases.
-In particular, we build an automated privacy annotation pipeline with
-cloud-based strong LLMs to automatically extract privacy phrases from dialogue
-datasets and annotate leaked information. We also design evaluation metrics at
-the levels of privacy leakage, extracted privacy phrase, and privacy
-information. We further establish baseline methods using light-weight LLMs with
-both tuning-free and tuning-based methods, and report a comprehensive
-evaluation of their performance. Evaluation results reveal a gap between
-current performance and the requirements of real-world LLM applications,
-motivating future research into more effective local privacy detection methods
-grounded in our dataset.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.20577v1">Privacy-Preserving Peer-to-Peer Energy Trading via Hybrid Secure
-  Computations</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Optimization and Control-F9C80E">
-  <p><b>Published on:</b> 2025-05-26T23:24:44Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Junhong Liu, Qinfei Long, Rong-Peng Liu, Wenjie Liu, Xin Cui, Yunhe Hou</p>
-    <p><b>Summary:</b> The massive integration of uncertain distributed renewable energy resources
-into power systems raises power imbalance concerns. Peer-to-peer (P2P) energy
-trading provides a promising way to balance the prosumers' volatile energy
-power generation and demands locally. Particularly, to protect the privacy of
-prosumers, distributed P2P energy trading is broadly advocated. However, severe
-privacy leakage issues can emerge in the realistic fully distributed P2P energy
-trading paradigm. Meanwhile, in this paradigm, two-party and multi-party
-computations coexist, challenging the naive privacy-preserving techniques. To
-tackle privacy leakage issues arising from the fully distributed P2P energy
-trading, this paper proposes a privacy-preserving approach via hybrid secure
-computations. A secure multi-party computation mechanism consisting of offline
-and online phases is developed to ensure the security of shared data by
-leveraging the tailored secret sharing method. In addition, the Paillier
-encryption method based on the Chinese Remainder Theorem is proposed for both
-the secure two-party computation and the offline phase of the multi-party
-computation. The random encryption coefficient is designed to enhance the
-security of the two-party computation and simultaneously guarantee the
-convergence of the distributed optimization. The feasible range for the
-encryption coefficient is derived with a strict mathematical proof. Numerical
-simulations demonstrate the exactness, effectiveness, and scalability of the
-proposed privacy-preserving approach.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.20575v2">Synergising Hierarchical Data Centers and Power Networks: A
-  Privacy-Preserving Approach</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
-  <p><b>Published on:</b> 2025-05-26T23:22:45Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Junhong Liu, Fei Teng, Yunhe Hou</p>
-    <p><b>Summary:</b> In the era of digitization, data centers have emerged as integral
-contributors sustaining our interlinked world, bearing responsibility for an
-increasing proportion of the world's energy consumption. To facilitate the
-their fast rollout while progressing towards net-zero energy systems, the
-synergy of hierarchical data centers (cloud-fog-edge) and power networks can
-play a pivotal role. However, existing centralized co-dispatch manners encroach
-on the privacy of different agents within the integrated systems, meanwhile
-suffering from the combinatorial explosion. In this research, we propose a
-near-optimal distributed privacy-preserving approach to solve the non-convex
-synergy (day-ahead co-dispatch) problem. The synergy problem is formulated as a
-mixed integer quadratically constrained quadratic programming considering both
-communication and energy conservation, where Lyapunov optimization is
-introduced to balance operating costs and uncertain communication delays. To
-mitigate impacts of the highly non-convex nature, the normalized
-multi-parametric disaggregation technique is leveraged to reformulate the
-problem into a mixed integer non-linear programming. To further overcome
-non-smoothness of the reformulated problem, the customized $\ell_1-$surrogate
-Lagrangian relaxation method with convergence guarantees is proposed to solve
-the problem in a distributed privacy-preserving manner. The effectiveness,
-optimality, and scalability of the proposed methodologies for the synergy
-problem are validated via numerical simulations. Simulation results also
-indicate that computing tasks can be delayed and migrated within the
-hierarchical data centers, demonstrating the flexible resource allocation
-capabilities of the hierarchical data center architecture, further facilitating
-peak load balancing in the power network.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.20118v2">TrojanStego: Your Language Model Can Secretly Be A Steganographic
-  Privacy Leaking Agent</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-05-26T15:20:51Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Dominik Meier, Jan Philip Wahle, Paul Röttger, Terry Ruas, Bela Gipp</p>
-    <p><b>Summary:</b> As large language models (LLMs) become integrated into sensitive workflows,
-concerns grow over their potential to leak confidential information. We propose
-TrojanStego, a novel threat model in which an adversary fine-tunes an LLM to
-embed sensitive context information into natural-looking outputs via linguistic
-steganography, without requiring explicit control over inference inputs. We
-introduce a taxonomy outlining risk factors for compromised LLMs, and use it to
-evaluate the risk profile of the threat. To implement TrojanStego, we propose a
-practical encoding scheme based on vocabulary partitioning learnable by LLMs
-via fine-tuning. Experimental results show that compromised models reliably
-transmit 32-bit secrets with 87% accuracy on held-out prompts, reaching over
-97% accuracy using majority voting across three generations. Further, they
-maintain high utility, can evade human detection, and preserve coherence. These
-results highlight a new class of LLM data exfiltration attacks that are
-passive, covert, practical, and dangerous.</p>
   </details>
 </div>
 
