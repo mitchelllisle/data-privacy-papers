@@ -2259,5 +2259,311 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.17185v1",
+    "title" : "A Common Pool of Privacy Problems: Legal and Technical Lessons from a\n  Large-Scale Web-Scraped Machine Learning Dataset",
+    "summary" : "We investigate the contents of web-scraped data for training AI systems, at\nsizes where human dataset curators and compilers no longer manually annotate\nevery sample. Building off of prior privacy concerns in machine learning\nmodels, we ask: What are the legal privacy implications of web-scraped machine\nlearning datasets? In an empirical study of a popular training dataset, we find\nsignificant presence of personally identifiable information despite\nsanitization efforts. Our audit provides concrete evidence to support the\nconcern that any large-scale web-scraped dataset may contain personal data. We\nuse these findings of a real-world dataset to inform our legal analysis with\nrespect to existing privacy and data protection laws. We surface various\nprivacy risks of current data curation practices that may propagate personal\ninformation to downstream models. From our findings, we argue for reorientation\nof current frameworks of \"publicly available\" information to meaningfully limit\nthe development of AI built upon indiscriminate scraping of the internet.",
+    "updated" : "2025-06-20T17:40:05Z",
+    "published" : "2025-06-20T17:40:05Z",
+    "authors" : [
+      {
+        "name" : "Rachel Hong"
+      },
+      {
+        "name" : "Jevan Hutson"
+      },
+      {
+        "name" : "William Agnew"
+      },
+      {
+        "name" : "Imaad Huda"
+      },
+      {
+        "name" : "Tadayoshi Kohno"
+      },
+      {
+        "name" : "Jamie Morgenstern"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.17012v1",
+    "title" : "A Novel Approach to Differential Privacy with Alpha Divergence",
+    "summary" : "As data-driven technologies advance swiftly, maintaining strong privacy\nmeasures becomes progressively difficult. Conventional $(\\epsilon,\n\\delta)$-differential privacy, while prevalent, exhibits limited adaptability\nfor many applications. To mitigate these constraints, we present alpha\ndifferential privacy (ADP), an innovative privacy framework grounded in alpha\ndivergence, which provides a more flexible assessment of privacy consumption.\nThis study delineates the theoretical underpinnings of ADP and contrasts its\nperformance with competing privacy frameworks across many scenarios. Empirical\nassessments demonstrate that ADP offers enhanced privacy guarantees in small to\nmoderate iteration contexts, particularly where severe privacy requirements are\nnecessary. The suggested method markedly improves privacy-preserving methods,\nproviding a flexible solution for contemporary data analysis issues in a\ndata-centric environment.",
+    "updated" : "2025-06-20T14:10:18Z",
+    "published" : "2025-06-20T14:10:18Z",
+    "authors" : [
+      {
+        "name" : "Yifeng Liu"
+      },
+      {
+        "name" : "Zehua Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.16578v1",
+    "title" : "SafeTriage: Facial Video De-identification for Privacy-Preserving Stroke\n  Triage",
+    "summary" : "Effective stroke triage in emergency settings often relies on clinicians'\nability to identify subtle abnormalities in facial muscle coordination. While\nrecent AI models have shown promise in detecting such patterns from patient\nfacial videos, their reliance on real patient data raises significant ethical\nand privacy challenges -- especially when training robust and generalizable\nmodels across institutions. To address these concerns, we propose SafeTriage, a\nnovel method designed to de-identify patient facial videos while preserving\nessential motion cues crucial for stroke diagnosis. SafeTriage leverages a\npretrained video motion transfer (VMT) model to map the motion characteristics\nof real patient faces onto synthetic identities. This approach retains\ndiagnostically relevant facial dynamics without revealing the patients'\nidentities. To mitigate the distribution shift between normal population\npre-training videos and patient population test videos, we introduce a\nconditional generative model for visual prompt tuning, which adapts the input\nspace of the VMT model to ensure accurate motion transfer without needing to\nfine-tune the VMT model backbone. Comprehensive evaluation, including\nquantitative metrics and clinical expert assessments, demonstrates that\nSafeTriage-produced synthetic videos effectively preserve stroke-relevant\nfacial patterns, enabling reliable AI-based triage. Our evaluations also show\nthat SafeTriage provides robust privacy protection while maintaining diagnostic\naccuracy, offering a secure and ethically sound foundation for data sharing and\nAI-driven clinical analysis in neurological disorders.",
+    "updated" : "2025-06-19T20:02:47Z",
+    "published" : "2025-06-19T20:02:47Z",
+    "authors" : [
+      {
+        "name" : "Tongan Cai"
+      },
+      {
+        "name" : "Haomiao Ni"
+      },
+      {
+        "name" : "Wenchao Ma"
+      },
+      {
+        "name" : "Yuan Xue"
+      },
+      {
+        "name" : "Qian Ma"
+      },
+      {
+        "name" : "Rachel Leicht"
+      },
+      {
+        "name" : "Kelvin Wong"
+      },
+      {
+        "name" : "John Volpi"
+      },
+      {
+        "name" : "Stephen T. C. Wong"
+      },
+      {
+        "name" : "James Z. Wang"
+      },
+      {
+        "name" : "Sharon X. Huang"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.16460v1",
+    "title" : "Black-Box Privacy Attacks on Shared Representations in Multitask\n  Learning",
+    "summary" : "Multitask learning (MTL) has emerged as a powerful paradigm that leverages\nsimilarities among multiple learning tasks, each with insufficient samples to\ntrain a standalone model, to solve them simultaneously while minimizing data\nsharing across users and organizations. MTL typically accomplishes this goal by\nlearning a shared representation that captures common structure among the tasks\nby embedding data from all tasks into a common feature space. Despite being\ndesigned to be the smallest unit of shared information necessary to effectively\nlearn patterns across multiple tasks, these shared representations can\ninadvertently leak sensitive information about the particular tasks they were\ntrained on.\n  In this work, we investigate what information is revealed by the shared\nrepresentations through the lens of inference attacks. Towards this, we propose\na novel, black-box task-inference threat model where the adversary, given the\nembedding vectors produced by querying the shared representation on samples\nfrom a particular task, aims to determine whether that task was present when\ntraining the shared representation. We develop efficient, purely black-box\nattacks on machine learning models that exploit the dependencies between\nembeddings from the same task without requiring shadow models or labeled\nreference data. We evaluate our attacks across vision and language domains for\nmultiple use cases of MTL and demonstrate that even with access only to fresh\ntask samples rather than training data, a black-box adversary can successfully\ninfer a task's inclusion in training. To complement our experiments, we provide\ntheoretical analysis of a simplified learning setting and show a strict\nseparation between adversaries with training samples and fresh samples from the\ntarget task's distribution.",
+    "updated" : "2025-06-19T16:56:41Z",
+    "published" : "2025-06-19T16:56:41Z",
+    "authors" : [
+      {
+        "name" : "John Abascal"
+      },
+      {
+        "name" : "Nicolás Berrios"
+      },
+      {
+        "name" : "Alina Oprea"
+      },
+      {
+        "name" : "Jonathan Ullman"
+      },
+      {
+        "name" : "Adam Smith"
+      },
+      {
+        "name" : "Matthew Jagielski"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.16347v1",
+    "title" : "Emission Impossible: privacy-preserving carbon emissions claims",
+    "summary" : "Information and Communication Technologies (ICT) have a significant climate\nimpact, and data centres account for a large proportion of the carbon emissions\nfrom ICT. To achieve sustainability goals, it is important that all parties\ninvolved in ICT supply chains can track and share accurate carbon emissions\ndata with their customers, investors, and the authorities. However, businesses\nhave strong incentives to make their numbers look good, whilst less so to\npublish their accounting methods along with all the input data, due to the risk\nof revealing sensitive information. It would be uneconomical to use a trusted\nthird party to verify the data for every report for each party in the chain. As\na result, carbon emissions reporting in supply chains currently relies on\nunverified data. This paper proposes a methodology that applies cryptography\nand zero-knowledge proofs for carbon emissions claims that can be subsequently\nverified without the knowledge of the private input data. The proposed system\nis based on a zero-knowledge Succinct Non-interactive ARguments of Knowledge\n(zk-SNARK) protocol, which enables verifiable emissions reporting mechanisms\nacross a chain of energy suppliers, cloud data centres, cloud services\nproviders, and customers, without any company needing to disclose commercially\nsensitive information. This allows customers of cloud services to accurately\naccount for the emissions generated by their activities, improving data quality\nfor their own regulatory reporting. Cloud services providers would also be held\naccountable for producing accurate carbon emissions data.",
+    "updated" : "2025-06-19T14:23:48Z",
+    "published" : "2025-06-19T14:23:48Z",
+    "authors" : [
+      {
+        "name" : "Jessica Man"
+      },
+      {
+        "name" : "Sadiq Jaffer"
+      },
+      {
+        "name" : "Patrick Ferris"
+      },
+      {
+        "name" : "Martin Kleppmann"
+      },
+      {
+        "name" : "Anil Madhavapeddy"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.16196v1",
+    "title" : "Efficient and Privacy-Preserving Soft Prompt Transfer for LLMs",
+    "summary" : "Prompting has become a dominant paradigm for adapting large language models\n(LLMs). While discrete (textual) prompts are widely used for their\ninterpretability, soft (parameter) prompts have recently gained traction in\nAPIs. This is because they can encode information from more training samples\nwhile minimizing the user's token usage, leaving more space in the context\nwindow for task-specific input. However, soft prompts are tightly coupled to\nthe LLM they are tuned on, limiting their generalization to other LLMs. This\nconstraint is particularly problematic for efficiency and privacy: (1) tuning\nprompts on each LLM incurs high computational costs, especially as LLMs\ncontinue to grow in size. Additionally, (2) when the LLM is hosted externally,\nsoft prompt tuning often requires sharing private data with the LLM provider.\nFor instance, this is the case with the NVIDIA NeMo API. To address these\nissues, we propose POST (Privacy Of Soft prompt Transfer), a framework that\nenables private tuning of soft prompts on a small model and subsequently\ntransfers these prompts to a larger LLM. POST uses knowledge distillation to\nderive a small model directly from the large LLM to improve prompt\ntransferability, tunes the soft prompt locally, optionally with differential\nprivacy guarantees, and transfers it back to the larger LLM using a small\npublic dataset. Our experiments show that POST reduces computational costs,\npreserves privacy, and effectively transfers high-utility soft prompts.",
+    "updated" : "2025-06-19T10:25:16Z",
+    "published" : "2025-06-19T10:25:16Z",
+    "authors" : [
+      {
+        "name" : "Xun Wang"
+      },
+      {
+        "name" : "Jing Xu"
+      },
+      {
+        "name" : "Franziska Boenisch"
+      },
+      {
+        "name" : "Michael Backes"
+      },
+      {
+        "name" : "Christopher A. Choquette-Choo"
+      },
+      {
+        "name" : "Adam Dziedzic"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.15924v1",
+    "title" : "FARFETCH'D: A Side-Channel Analysis Framework for Privacy Applications\n  on Confidential Virtual Machines",
+    "summary" : "Confidential virtual machines (CVMs) based on trusted execution environments\n(TEEs) enable new privacy-preserving solutions. Yet, they leave side-channel\nleakage outside their threat model, shifting the responsibility of mitigating\nsuch attacks to developers. However, mitigations are either not generic or too\nslow for practical use, and developers currently lack a systematic, efficient\nway to measure and compare leakage across real-world deployments. In this\npaper, we present FARFETCH'D, an open-source toolkit that offers configurable\nside-channel tracing primitives on production AMD SEV-SNP hardware and couples\nthem with statistical and machine-learning-based analysis pipelines for\nautomated leakage estimation. We apply FARFETCH'D to three representative\nworkloads that are deployed on CVMs to enhance user privacy - private\ninformation retrieval, private heavy hitters, and Wasm user-defined functions -\nand uncover previously unnoticed leaks, including a covert channel that\nexfiltrated data at 497 kbit/s. The results show that FARFETCH'D pinpoints\nvulnerabilities and guides low-overhead mitigations based on oblivious memory\nand differential privacy, giving practitioners a practical path to deploy CVMs\nwith meaningful confidentiality guarantees.",
+    "updated" : "2025-06-18T23:58:29Z",
+    "published" : "2025-06-18T23:58:29Z",
+    "authors" : [
+      {
+        "name" : "Ruiyi Zhang"
+      },
+      {
+        "name" : "Albert Cheu"
+      },
+      {
+        "name" : "Adria Gascon"
+      },
+      {
+        "name" : "Daniel Moghimi"
+      },
+      {
+        "name" : "Phillipp Schoppmann"
+      },
+      {
+        "name" : "Michael Schwarz"
+      },
+      {
+        "name" : "Octavian Suciu"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.15854v1",
+    "title" : "Privacy-Preserving in Connected and Autonomous Vehicles Through Vision\n  to Text Transformation",
+    "summary" : "Connected and Autonomous Vehicles (CAVs) rely on a range of devices that\noften process privacy-sensitive data. Among these, roadside units play a\ncritical role particularly through the use of AI-equipped (AIE) cameras for\napplications such as violation detection. However, the privacy risks associated\nwith captured imagery remain a major concern, as such data can be misused for\nidentity theft, profiling, or unauthorized commercial purposes. While\ntraditional techniques such as face blurring and obfuscation have been applied\nto mitigate privacy risks, individual privacy remains at risk, as individuals\ncan still be tracked using other features such as their clothing. This paper\nintroduces a novel privacy-preserving framework that leverages feedback-based\nreinforcement learning (RL) and vision-language models (VLMs) to protect\nsensitive visual information captured by AIE cameras. The main idea is to\nconvert images into semantically equivalent textual descriptions, ensuring that\nscene-relevant information is retained while visual privacy is preserved. A\nhierarchical RL strategy is employed to iteratively refine the generated text,\nenhancing both semantic accuracy and privacy. Evaluation results demonstrate\nsignificant improvements in both privacy protection and textual quality, with\nthe Unique Word Count increasing by approximately 77\\% and Detail Density by\naround 50\\% compared to existing approaches.",
+    "updated" : "2025-06-18T20:02:24Z",
+    "published" : "2025-06-18T20:02:24Z",
+    "authors" : [
+      {
+        "name" : "Abdolazim Rezaei"
+      },
+      {
+        "name" : "Mehdi Sookhak"
+      },
+      {
+        "name" : "Ahmad Patooghy"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.15258v2",
+    "title" : "Privacy-Preserving Chest X-ray Classification in Latent Space with\n  Homomorphically Encrypted Neural Inference",
+    "summary" : "Medical imaging data contain sensitive patient information requiring strong\nprivacy protection. Many analytical setups require data to be sent to a server\nfor inference purposes. Homomorphic encryption (HE) provides a solution by\nallowing computations to be performed on encrypted data without revealing the\noriginal information. However, HE inference is computationally expensive,\nparticularly for large images (e.g., chest X-rays). In this study, we propose\nan HE inference framework for medical images that uses VQGAN to compress images\ninto latent representations, thereby significantly reducing the computational\nburden while preserving image quality. We approximate the activation functions\nwith lower-degree polynomials to balance the accuracy and efficiency in\ncompliance with HE requirements. We observed that a downsampling factor of\neight for compression achieved an optimal balance between performance and\ncomputational cost. We further adapted the squeeze and excitation module, which\nis known to improve traditional CNNs, to enhance the HE framework. Our method\nwas tested on two chest X-ray datasets for multi-label classification tasks\nusing vanilla CNN backbones. Although HE inference remains relatively slow and\nintroduces minor performance differences compared with unencrypted inference,\nour approach shows strong potential for practical use in medical images",
+    "updated" : "2025-06-20T03:57:49Z",
+    "published" : "2025-06-18T08:35:50Z",
+    "authors" : [
+      {
+        "name" : "Jonghun Kim"
+      },
+      {
+        "name" : "Gyeongdeok Jo"
+      },
+      {
+        "name" : "Sinyoung Ra"
+      },
+      {
+        "name" : "Hyunjin Park"
+      }
+    ],
+    "categories" : [
+      "eess.IV",
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.15106v2",
+    "title" : "Local Differential Privacy for Distributed Stochastic Aggregative\n  Optimization with Guaranteed Optimality",
+    "summary" : "Distributed aggregative optimization underpins many cooperative optimization\nand multi-agent control systems, where each agent's objective function depends\nboth on its local optimization variable and an aggregate of all agents'\noptimization variables. Existing distributed aggregative optimization\napproaches typically require access to accurate gradients of the objective\nfunctions, which, however, are often hard to obtain in real-world applications.\nFor example, in machine learning, gradients are commonly contaminated by two\nmain sources of noise: the randomness inherent in sampled data, and the\nadditional variability introduced by mini-batch computations. In addition to\nthe issue of relying on accurate gradients, existing distributed aggregative\noptimization approaches require agents to share explicit information, which\ncould breach the privacy of participating agents. We propose an algorithm that\ncan solve both problems with existing distributed aggregative optimization\napproaches: not only can the proposed algorithm guarantee mean-square\nconvergence to an exact optimal solution when the gradients are subject to\nnoise, it also simultaneously ensures rigorous differential privacy, with the\ncumulative privacy budget guaranteed to be finite even when the number of\niterations tends to infinity. To the best of our knowledge, this is the first\nalgorithm able to guarantee both accurate convergence and rigorous differential\nprivacy in distributed aggregative optimization. Besides characterizing the\nconvergence rates under nonconvex/convex/strongly convex conditions, we also\nrigorously quantify the cost of differential privacy in terms of convergence\nrates. Experimental results on personalized machine learning using benchmark\ndatasets confirm the efficacy of the proposed algorithm.",
+    "updated" : "2025-06-19T19:45:13Z",
+    "published" : "2025-06-18T03:22:35Z",
+    "authors" : [
+      {
+        "name" : "Ziqin Chen"
+      },
+      {
+        "name" : "Yongqiang Wang"
+      }
+    ],
+    "categories" : [
+      "eess.SY",
+      "cs.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.12699v2",
+    "title" : "SoK: The Privacy Paradox of Large Language Models: Advancements, Privacy\n  Risks, and Mitigation",
+    "summary" : "Large language models (LLMs) are sophisticated artificial intelligence\nsystems that enable machines to generate human-like text with remarkable\nprecision. While LLMs offer significant technological progress, their\ndevelopment using vast amounts of user data scraped from the web and collected\nfrom extensive user interactions poses risks of sensitive information leakage.\nMost existing surveys focus on the privacy implications of the training data\nbut tend to overlook privacy risks from user interactions and advanced LLM\ncapabilities. This paper aims to fill that gap by providing a comprehensive\nanalysis of privacy in LLMs, categorizing the challenges into four main areas:\n(i) privacy issues in LLM training data, (ii) privacy challenges associated\nwith user prompts, (iii) privacy vulnerabilities in LLM-generated outputs, and\n(iv) privacy challenges involving LLM agents. We evaluate the effectiveness and\nlimitations of existing mitigation mechanisms targeting these proposed privacy\nchallenges and identify areas for further research.",
+    "updated" : "2025-06-19T06:30:24Z",
+    "published" : "2025-06-15T03:14:03Z",
+    "authors" : [
+      {
+        "name" : "Yashothara Shanmugarasa"
+      },
+      {
+        "name" : "Ming Ding"
+      },
+      {
+        "name" : "M. A. P Chamikara"
+      },
+      {
+        "name" : "Thierry Rakotoarivelo"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.HC"
+    ]
   }
 ]
