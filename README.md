@@ -186,6 +186,72 @@ preserves privacy, and effectively transfers high-utility soft prompts.</p>
 
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2506.17336v1">Privacy-Preserving LLM Interaction with Socratic Chain-of-Thought
+  Reasoning and Homomorphically Encrypted Vector Databases</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-06-19T07:13:30Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yubeen Bae, Minchan Kim, Jaejin Lee, Sangbum Kim, Jaehyung Kim, Yejin Choi, Niloofar Mireshghallah</p>
+    <p><b>Summary:</b> Large language models (LLMs) are increasingly used as personal agents,
+accessing sensitive user data such as calendars, emails, and medical records.
+Users currently face a trade-off: They can send private records, many of which
+are stored in remote databases, to powerful but untrusted LLM providers,
+increasing their exposure risk. Alternatively, they can run less powerful
+models locally on trusted devices. We bridge this gap. Our Socratic
+Chain-of-Thought Reasoning first sends a generic, non-private user query to a
+powerful, untrusted LLM, which generates a Chain-of-Thought (CoT) prompt and
+detailed sub-queries without accessing user data. Next, we embed these
+sub-queries and perform encrypted sub-second semantic search using our
+Homomorphically Encrypted Vector Database across one million entries of a
+single user's private data. This represents a realistic scale of personal
+documents, emails, and records accumulated over years of digital activity.
+Finally, we feed the CoT prompt and the decrypted records to a local language
+model and generate the final response. On the LoCoMo long-context QA benchmark,
+our hybrid framework, combining GPT-4o with a local Llama-3.2-1B model,
+outperforms using GPT-4o alone by up to 7.1 percentage points. This
+demonstrates a first step toward systems where tasks are decomposed and split
+between untrusted strong LLMs and weak local ones, preserving user privacy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2506.17332v1">P2MFDS: A Privacy-Preserving Multimodal Fall Detection System for
+  Elderly People in Bathroom Environments</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-06-19T05:22:14Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Haitian Wang, Yiren Wang, Xinyu Wang, Yumeng Miao, Yuliang Zhang, Yu Zhang, Atif Mansoor</p>
+    <p><b>Summary:</b> By 2050, people aged 65 and over are projected to make up 16 percent of the
+global population. As aging is closely associated with increased fall risk,
+particularly in wet and confined environments such as bathrooms where over 80
+percent of falls occur. Although recent research has increasingly focused on
+non-intrusive, privacy-preserving approaches that do not rely on wearable
+devices or video-based monitoring, these efforts have not fully overcome the
+limitations of existing unimodal systems (e.g., WiFi-, infrared-, or
+mmWave-based), which are prone to reduced accuracy in complex environments.
+These limitations stem from fundamental constraints in unimodal sensing,
+including system bias and environmental interference, such as multipath fading
+in WiFi-based systems and drastic temperature changes in infrared-based
+methods. To address these challenges, we propose a Privacy-Preserving
+Multimodal Fall Detection System for Elderly People in Bathroom Environments.
+First, we develop a sensor evaluation framework to select and fuse
+millimeter-wave radar with 3D vibration sensing, and use it to construct and
+preprocess a large-scale, privacy-preserving multimodal dataset in real
+bathroom settings, which will be released upon publication. Second, we
+introduce P2MFDS, a dual-stream network combining a CNN-BiLSTM-Attention branch
+for radar motion dynamics with a multi-scale CNN-SEBlock-Self-Attention branch
+for vibration impact detection. By uniting macro- and micro-scale features,
+P2MFDS delivers significant gains in accuracy and recall over state-of-the-art
+approaches. Code and pretrained models will be made available at:
+https://github.com/HaitianWang/P2MFDS-A-Privacy-Preserving-Multimodal-Fall-Detection-Network-for-Elderly-Individuals-in-Bathroom.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2506.15924v1">FARFETCH'D: A Side-Channel Analysis Framework for Privacy Applications
   on Confidential Virtual Machines</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
@@ -650,13 +716,13 @@ different PIR schemes are similar to the current advertising systems.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.13052v1">Buy it Now, Track Me Later: Attacking User Privacy via Wi-Fi AP Online
+  <h3><a href="http://arxiv.org/abs/2506.13052v2">Buy it Now, Track Me Later: Attacking User Privacy via Wi-Fi AP Online
   Auctions</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2025-06-16T02:42:14Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Steven Su, Erik Rye, Robert Beverly, Dave Levin</p>
+    <p><b>Authors:</b> Steven Su, Erik Rye, Dave Levin, Robert Beverly</p>
     <p><b>Summary:</b> Static and hard-coded layer-two network identifiers are well known to present
 security vulnerabilities and endanger user privacy. In this work, we introduce
 a new privacy attack against Wi-Fi access points listed on secondhand
@@ -1012,6 +1078,32 @@ privacy preservation does not asymptotically compromise power. Through various
 applications, we demonstrate that the differential privacy knockoff
 (DP-knockoff) method can be effectively utilized to safeguard privacy during
 variable selection with FDR control in both low and high dimensional settings.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2506.17269v1">Digital Privacy Everywhere</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-06-11T09:25:49Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Paritosh Ranjan, Surajit Majumder, Prodip Roy</p>
+    <p><b>Summary:</b> The increasing proliferation of digital and mobile devices equipped with
+cameras, microphones, GPS, and other privacy invasive components has raised
+significant concerns for businesses operating in sensitive or policy restricted
+environments. Current solutions rely on passive enforcement, such as signage or
+verbal instructions, which are largely ineffective. This paper presents Digital
+Privacy Everywhere (DPE), a comprehensive and scalable system designed to
+actively enforce custom privacy policies for digital devices within predefined
+physical boundaries. The DPE architecture includes a centralized management
+console, field verification units (FVUs), enforcement modules for mobile
+devices (EMMDs), and an External Geo Ownership Service (EGOS). These components
+collaboratively detect, configure, and enforce privacy settings such as
+disabling cameras, microphones, or radios across various premises like
+theaters, hospitals, financial institutions, and educational facilities. The
+system ensures privacy compliance in real time while maintaining a seamless
+user experience and operational scalability across geographies.</p>
   </details>
 </div>
 
@@ -2850,79 +2942,6 @@ and empirically secure, SecFPP achieves state-of-the-art accuracy under severe
 heterogeneity in data distribution. Extensive experiments show it significantly
 outperforms both non-private and privacy-preserving baselines, offering a
 superior privacy-performance trade-off.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.22234v1">Evolution of repositories and privacy laws: commit activities in the
-  GDPR and CCPA era</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
-  <p><b>Published on:</b> 2025-05-28T11:10:58Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Georgia M. Kapitsaki, Maria Papoutsoglou</p>
-    <p><b>Summary:</b> Free and open source software has gained a lot of momentum in the industry
-and the research community. The latest advances in privacy legislation,
-including the EU General Data Protection Regulation (GDPR) and the California
-Consumer Privacy Act (CCPA), have forced the community to pay special attention
-to users' data privacy. The main aim of this work is to examine software
-repositories that are acting on privacy laws. We have collected commit data
-from GitHub repositories in order to understand indications on main data
-privacy laws (GDPR, CCPA, CPRA, UK DPA) in the last years. Via an automated
-process, we analyzed 37,213 commits from 12,391 repositories since 2016,
-whereas 594 commits from the 70 most popular repositories of the dataset were
-manually analyzed. We observe that most commits were performed on the year the
-law came into effect and privacy relevant terms appear in the commit messages,
-whereas reference to specific data privacy user rights is scarce. The study
-showed that more educational activities on data privacy user rights are needed,
-as well as tools for privacy recommendations, whereas verifying actual
-compliance via source code execution is a useful direction for software
-engineering researchers.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.22061v1">Safeguarding Privacy of Retrieval Data against Membership Inference
-  Attacks: Is This Query Too Close to Home?</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2025-05-28T07:35:07Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yujin Choi, Youngjoo Park, Junyoung Byun, Jaewook Lee, Jinseong Park</p>
-    <p><b>Summary:</b> Retrieval-augmented generation (RAG) mitigates the hallucination problem in
-large language models (LLMs) and has proven effective for specific,
-personalized applications. However, passing private retrieved documents
-directly to LLMs introduces vulnerability to membership inference attacks
-(MIAs), which try to determine whether the target datum exists in the private
-external database or not. Based on the insight that MIA queries typically
-exhibit high similarity to only one target document, we introduce Mirabel, a
-similarity-based MIA detection framework designed for the RAG system. With the
-proposed Mirabel, we show that simple detect-and-hide strategies can
-successfully obfuscate attackers, maintain data utility, and remain
-system-agnostic. We experimentally prove its detection and defense against
-various state-of-the-art MIA methods and its adaptability to existing private
-RAG systems.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.23825v1">Privacy-Preserving Inconsistency Measurement</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-05-28T06:24:33Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Carl Corea, Timotheus Kampik, Nico Potyka</p>
-    <p><b>Summary:</b> We investigate a new form of (privacy-preserving) inconsistency measurement
-for multi-party communication. Intuitively, for two knowledge bases K_A, K_B
-(of two agents A, B), our results allow to quantitatively assess the degree of
-inconsistency for K_A U K_B without having to reveal the actual contents of the
-knowledge bases. Using secure multi-party computation (SMPC) and cryptographic
-protocols, we develop two concrete methods for this use-case and show that they
-satisfy important properties of SMPC protocols -- notably, input privacy, i.e.,
-jointly computing the inconsistency degree without revealing the inputs.</p>
   </details>
 </div>
 
