@@ -2,6 +2,232 @@
 <h2>2025-06</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2506.19836v1">Machine Learning with Privacy for Protected Attributes</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-06-24T17:53:28Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Saeed Mahloujifar, Chuan Guo, G. Edward Suh, Kamalika Chaudhuri</p>
+    <p><b>Summary:</b> Differential privacy (DP) has become the standard for private data analysis.
+Certain machine learning applications only require privacy protection for
+specific protected attributes. Using naive variants of differential privacy in
+such use cases can result in unnecessary degradation of utility. In this work,
+we refine the definition of DP to create a more general and flexible framework
+that we call feature differential privacy (FDP). Our definition is
+simulation-based and allows for both addition/removal and replacement variants
+of privacy, and can handle arbitrary and adaptive separation of protected and
+non-protected features. We prove the properties of FDP, such as adaptive
+composition, and demonstrate its implications for limiting attribute inference
+attacks. We also propose a modification of the standard DP-SGD algorithm that
+satisfies FDP while leveraging desirable properties such as amplification via
+sub-sampling. We apply our framework to various machine learning tasks and show
+that it can significantly improve the utility of DP-trained models when public
+features are available. For example, we train diffusion models on the AFHQ
+dataset of animal faces and observe a drastic improvement in FID compared to
+DP, from 286.7 to 101.9 at $\epsilon=8$, assuming that the blurred version of a
+training image is available as a public feature. Overall, our work provides a
+new approach to private data analysis that can help reduce the utility cost of
+DP while still providing strong privacy guarantees.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2506.19563v1">PrivacyXray: Detecting Privacy Breaches in LLMs through Semantic
+  Consistency and Probability Certainty</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-06-24T12:22:59Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jinwen He, Yiyang Lu, Zijin Lin, Kai Chen, Yue Zhao</p>
+    <p><b>Summary:</b> Large Language Models (LLMs) are widely used in sensitive domains, including
+healthcare, finance, and legal services, raising concerns about potential
+private information leaks during inference. Privacy extraction attacks, such as
+jailbreaking, expose vulnerabilities in LLMs by crafting inputs that force the
+models to output sensitive information. However, these attacks cannot verify
+whether the extracted private information is accurate, as no public datasets
+exist for cross-validation, leaving a critical gap in private information
+detection during inference. To address this, we propose PrivacyXray, a novel
+framework detecting privacy breaches by analyzing LLM inner states. Our
+analysis reveals that LLMs exhibit higher semantic coherence and probabilistic
+certainty when generating correct private outputs. Based on this, PrivacyXray
+detects privacy breaches using four metrics: intra-layer and inter-layer
+semantic similarity, token-level and sentence-level probability distributions.
+PrivacyXray addresses critical challenges in private information detection by
+overcoming the lack of open-source private datasets and eliminating reliance on
+external data for validation. It achieves this through the synthesis of
+realistic private data and a detection mechanism based on the inner states of
+LLMs. Experiments show that PrivacyXray achieves consistent performance, with
+an average accuracy of 92.69% across five LLMs. Compared to state-of-the-art
+methods, PrivacyXray achieves significant improvements, with an average
+accuracy increase of 20.06%, highlighting its stability and practical utility
+in real-world applications.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2506.19486v1">Recalling The Forgotten Class Memberships: Unlearned Models Can Be Noisy
+  Labelers to Leak Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-06-24T10:21:10Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zhihao Sui, Liang Hu, Jian Cao, Dora D. Liu, Usman Naseem, Zhongyuan Lai, Qi Zhang</p>
+    <p><b>Summary:</b> Machine Unlearning (MU) technology facilitates the removal of the influence
+of specific data instances from trained models on request. Despite rapid
+advancements in MU technology, its vulnerabilities are still underexplored,
+posing potential risks of privacy breaches through leaks of ostensibly
+unlearned information. Current limited research on MU attacks requires access
+to original models containing privacy data, which violates the critical
+privacy-preserving objective of MU. To address this gap, we initiate an
+innovative study on recalling the forgotten class memberships from unlearned
+models (ULMs) without requiring access to the original one. Specifically, we
+implement a Membership Recall Attack (MRA) framework with a teacher-student
+knowledge distillation architecture, where ULMs serve as noisy labelers to
+transfer knowledge to student models. Then, it is translated into a Learning
+with Noisy Labels (LNL) problem for inferring the correct labels of the
+forgetting instances. Extensive experiments on state-of-the-art MU methods with
+multiple real datasets demonstrate that the proposed MRA strategy exhibits high
+efficacy in recovering class memberships of unlearned instances. As a result,
+our study and evaluation have established a benchmark for future research on MU
+vulnerabilities.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2506.19393v1">ZK-SERIES: Privacy-Preserving Authentication using Temporal Biometric
+  Data</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-06-24T07:45:43Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Daniel Reijsbergen, Eyasu Getahun Chekole, Howard Halim, Jianying Zhou</p>
+    <p><b>Summary:</b> Biometric authentication relies on physiological or behavioral traits that
+are inherent to a user, making them difficult to lose, forge or forget.
+Biometric data with a temporal component enable the following authentication
+protocol: recent readings of the underlying biometrics are encoded as time
+series and compared to a set of base readings. If the distance between the new
+readings and the base readings falls within an acceptable threshold, then the
+user is successfully authenticated. Various methods exist for comparing time
+series data, such as Dynamic Time Warping (DTW) and the Time Warp Edit Distance
+(TWED), each offering advantages and drawbacks depending on the context.
+Moreover, many of these techniques do not inherently preserve privacy, which is
+a critical consideration in biometric authentication due to the complexity of
+resetting biometric credentials.
+  In this work, we propose ZK-SERIES to provide privacy and efficiency to a
+broad spectrum of time series-based authentication protocols. ZK-SERIES uses
+the same building blocks, i.e., zero-knowledge multiplication proofs and
+efficiently batched range proofs, to ensure consistency across all protocols.
+Furthermore, it is optimized for compatibility with low-capacity devices such
+as smartphones. To assess the effectiveness of our proposed technique, we
+primarily focus on two case studies for biometric authentication: shake-based
+and blow-based authentication. To demonstrate ZK-SERIES's practical
+applicability even in older and less powerful smartphones, we conduct
+experiments on a 5-year-old low-spec smartphone using real data for two case
+studies alongside scalability assessments using artificial data. Our
+experimental results indicate that the privacy-preserving authentication
+protocol can be completed within 1.3 seconds on older devices.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2506.19360v1">SoK: Can Synthetic Images Replace Real Data? A Survey of Utility and
+  Privacy of Synthetic Image Generation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2025-06-24T06:41:34Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yunsung Chung, Yunbei Zhang, Nassir Marrouche, Jihun Hamm</p>
+    <p><b>Summary:</b> Advances in generative models have transformed the field of synthetic image
+generation for privacy-preserving data synthesis (PPDS). However, the field
+lacks a comprehensive survey and comparison of synthetic image generation
+methods across diverse settings. In particular, when we generate synthetic
+images for the purpose of training a classifier, there is a pipeline of
+generation-sampling-classification which takes private training as input and
+outputs the final classifier of interest. In this survey, we systematically
+categorize existing image synthesis methods, privacy attacks, and mitigations
+along this generation-sampling-classification pipeline. To empirically compare
+diverse synthesis approaches, we provide a benchmark with representative
+generative methods and use model-agnostic membership inference attacks (MIAs)
+as a measure of privacy risk. Through this study, we seek to answer critical
+questions in PPDS: Can synthetic data effectively replace real data? Which
+release strategy balances utility and privacy? Do mitigations improve the
+utility-privacy tradeoff? Which generative models perform best across different
+scenarios? With a systematic evaluation of diverse methods, our study provides
+actionable insights into the utility-privacy tradeoffs of synthetic data
+generation methods and guides the decision on optimal data releasing strategies
+for real-world applications.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2506.19268v1">HARPT: A Corpus for Analyzing Consumers' Trust and Privacy Concerns in
+  Mobile Health Apps</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-06-24T02:59:14Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Timoteo Kelly, Abdulkadir Korkmaz, Samuel Mallet, Connor Souders, Sadra Aliakbarpour, Praveen Rao</p>
+    <p><b>Summary:</b> We present HARPT, a large-scale annotated corpus of mobile health app store
+reviews aimed at advancing research in user privacy and trust. The dataset
+comprises over 480,000 user reviews labeled into seven categories that capture
+critical aspects of trust in applications, trust in providers and privacy
+concerns. Creating HARPT required addressing multiple complexities, such as
+defining a nuanced label schema, isolating relevant content from large volumes
+of noisy data, and designing an annotation strategy that balanced scalability
+with accuracy. This strategy integrated rule-based filtering, iterative manual
+labeling with review, targeted data augmentation, and weak supervision using
+transformer-based classifiers to accelerate coverage. In parallel, a carefully
+curated subset of 7,000 reviews was manually annotated to support model
+development and evaluation. We benchmark a broad range of classification
+models, demonstrating that strong performance is achievable and providing a
+baseline for future research. HARPT is released as a public resource to support
+work in health informatics, cybersecurity, and natural language processing.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2506.19260v1">Network Structures as an Attack Surface: Topology-Based Privacy Leakage
+  in Federated Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
+  <p><b>Published on:</b> 2025-06-24T02:42:08Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Murtaza Rangwala, Richard O. Sinnott, Rajkumar Buyya</p>
+    <p><b>Summary:</b> Federated learning systems increasingly rely on diverse network topologies to
+address scalability and organizational constraints. While existing privacy
+research focuses on gradient-based attacks, the privacy implications of network
+topology knowledge remain critically understudied. We conduct the first
+comprehensive analysis of topology-based privacy leakage across realistic
+adversarial knowledge scenarios, demonstrating that adversaries with varying
+degrees of structural knowledge can infer sensitive data distribution patterns
+even under strong differential privacy guarantees. Through systematic
+evaluation of 4,720 attack instances, we analyze six distinct adversarial
+knowledge scenarios: complete topology knowledge and five partial knowledge
+configurations reflecting real-world deployment constraints. We propose three
+complementary attack vectors: communication pattern analysis, parameter
+magnitude profiling, and structural position correlation, achieving success
+rates of 84.1%, 65.0%, and 47.2% under complete knowledge conditions.
+Critically, we find that 80% of realistic partial knowledge scenarios maintain
+attack effectiveness above security thresholds, with certain partial knowledge
+configurations achieving performance superior to the baseline complete
+knowledge scenario. To address these vulnerabilities, we propose and
+empirically validate structural noise injection as a complementary defense
+mechanism across 808 configurations, demonstrating up to 51.4% additional
+attack reduction when properly layered with existing privacy techniques. These
+results establish that network topology represents a fundamental privacy
+vulnerability in federated learning systems while providing practical pathways
+for mitigation through topology-aware defense mechanisms.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2506.17185v1">A Common Pool of Privacy Problems: Legal and Technical Lessons from a
   Large-Scale Web-Scraped Machine Learning Dataset</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
@@ -188,7 +414,7 @@ preserves privacy, and effectively transfers high-utility soft prompts.</p>
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2506.17336v1">Privacy-Preserving LLM Interaction with Socratic Chain-of-Thought
   Reasoning and Homomorphically Encrypted Vector Databases</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
   <p><b>Published on:</b> 2025-06-19T07:13:30Z</p>
   <details>
     <summary>More Details</summary>
@@ -425,7 +651,7 @@ datasets.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.15201v1">Privacy-Shielded Image Compression: Defending Against Exploitation from
+  <h3><a href="http://arxiv.org/abs/2506.15201v2">Privacy-Shielded Image Compression: Defending Against Exploitation from
   Vision-Language Pretrained Models</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
   <p><b>Published on:</b> 2025-06-18T07:29:40Z</p>
@@ -2754,194 +2980,6 @@ existing systems for adults are still able to protect children's voice privacy,
 but suffer from much higher utility degradation. In addition, our subjective
 study displays the challenges of automatic evaluation methods for speech
 quality in children's speech, highlighting the need for further research.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.02030v1">Adaptive Privacy-Preserving SSD</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
-  <p><b>Published on:</b> 2025-05-30T13:08:42Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Na Young Ahn, Dong Hoon Lee</p>
-    <p><b>Summary:</b> Data remanence in NAND flash complicates complete deletion on IoT SSDs. We
-design an adaptive architecture offering four privacy levels (PL0-PL3) that
-select among address, data, and parity deletion techniques. Quantitative
-analysis balances efficacy, latency, endurance, and cost. Machine-learning
-adjusts levels contextually, boosting privacy with negligible performance
-overhead and complexity.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.23655v3">Keyed Chaotic Dynamics for Privacy-Preserving Neural Inference</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">  
-  <p><b>Published on:</b> 2025-05-29T17:05:42Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Peter David Fagan</p>
-    <p><b>Summary:</b> Neural network inference typically operates on raw input data, increasing the
-risk of exposure during preprocessing and inference. Moreover, neural
-architectures lack efficient built-in mechanisms for directly authenticating
-input data. This work introduces a novel encryption method for ensuring the
-security of neural inference. By constructing key-conditioned chaotic graph
-dynamical systems, we enable the encryption and decryption of real-valued
-tensors within the neural architecture. The proposed dynamical systems are
-particularly suited to encryption due to their sensitivity to initial
-conditions and their capacity to produce complex, key-dependent nonlinear
-transformations from compact rules. This work establishes a paradigm for
-securing neural inference and opens new avenues for research on the application
-of graph dynamical systems in neural network security.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.00060v1">Comparative analysis of privacy-preserving open-source LLMs regarding
-  extraction of diagnostic information from clinical CMR imaging reports</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2025-05-29T11:25:10Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Sina Amirrajab, Volker Vehof, Michael Bietenbeck, Ali Yilmaz</p>
-    <p><b>Summary:</b> Purpose: We investigated the utilization of privacy-preserving,
-locally-deployed, open-source Large Language Models (LLMs) to extract
-diagnostic information from free-text cardiovascular magnetic resonance (CMR)
-reports. Materials and Methods: We evaluated nine open-source LLMs on their
-ability to identify diagnoses and classify patients into various cardiac
-diagnostic categories based on descriptive findings in 109 clinical CMR
-reports. Performance was quantified using standard classification metrics
-including accuracy, precision, recall, and F1 score. We also employed confusion
-matrices to examine patterns of misclassification across models. Results: Most
-open-source LLMs demonstrated exceptional performance in classifying reports
-into different diagnostic categories. Google's Gemma2 model achieved the
-highest average F1 score of 0.98, followed by Qwen2.5:32B and DeepseekR1-32B
-with F1 scores of 0.96 and 0.95, respectively. All other evaluated models
-attained average scores above 0.93, with Mistral and DeepseekR1-7B being the
-only exceptions. The top four LLMs outperformed our board-certified
-cardiologist (F1 score of 0.94) across all evaluation metrics in analyzing CMR
-reports. Conclusion: Our findings demonstrate the feasibility of implementing
-open-source, privacy-preserving LLMs in clinical settings for automated
-analysis of imaging reports, enabling accurate, fast and resource-efficient
-diagnostic categorization.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.23031v1">Towards Privacy-Preserving Fine-Grained Visual Classification via
-  Hierarchical Learning from Label Proportions</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2025-05-29T03:18:25Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jinyi Chang, Dongliang Chang, Lei Chen, Bingyao Yu, Zhanyu Ma</p>
-    <p><b>Summary:</b> In recent years, Fine-Grained Visual Classification (FGVC) has achieved
-impressive recognition accuracy, despite minimal inter-class variations.
-However, existing methods heavily rely on instance-level labels, making them
-impractical in privacy-sensitive scenarios such as medical image analysis. This
-paper aims to enable accurate fine-grained recognition without direct access to
-instance labels. To achieve this, we leverage the Learning from Label
-Proportions (LLP) paradigm, which requires only bag-level labels for efficient
-training. Unlike existing LLP-based methods, our framework explicitly exploits
-the hierarchical nature of fine-grained datasets, enabling progressive feature
-granularity refinement and improving classification accuracy. We propose
-Learning from Hierarchical Fine-Grained Label Proportions (LHFGLP), a framework
-that incorporates Unrolled Hierarchical Fine-Grained Sparse Dictionary
-Learning, transforming handcrafted iterative approximation into learnable
-network optimization. Additionally, our proposed Hierarchical Proportion Loss
-provides hierarchical supervision, further enhancing classification
-performance. Experiments on three widely-used fine-grained datasets, structured
-in a bag-based manner, demonstrate that our framework consistently outperforms
-existing LLP-based methods. We will release our code and datasets to foster
-further research in privacy-preserving fine-grained classification.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.23849v1">CADRE: Customizable Assurance of Data Readiness in Privacy-Preserving
-  Federated Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-05-28T21:24:46Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Kaveen Hiniduma, Zilinghan Li, Aditya Sinha, Ravi Madduri, Suren Byna</p>
-    <p><b>Summary:</b> Privacy-Preserving Federated Learning (PPFL) is a decentralized machine
-learning approach where multiple clients train a model collaboratively. PPFL
-preserves privacy and security of the client's data by not exchanging it.
-However, ensuring that data at each client is of high quality and ready for
-federated learning (FL) is a challenge due to restricted data access. In this
-paper, we introduce CADRE (Customizable Assurance of Data REadiness) for FL, a
-novel framework that allows users to define custom data readiness (DR)
-standards, metrics, rules, and remedies tailored to specific FL tasks. Our
-framework generates comprehensive DR reports based on the user-defined metrics,
-rules, and remedies to ensure datasets are optimally prepared for FL while
-preserving privacy. We demonstrate the framework's practical application by
-integrating it into an existing PPFL framework. We conducted experiments across
-six diverse datasets, addressing seven different DR issues. The results
-illustrate the framework's versatility and effectiveness in ensuring DR across
-various dimensions, including data quality, privacy, and fairness. This
-approach enhances the performance and reliability of FL models as well as
-utilizes valuable resources by identifying and addressing data-related issues
-before the training phase.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.06321v1">On the Interplay of Privacy, Persuasion and Quantization</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Science and Game Theory-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">  
-  <p><b>Published on:</b> 2025-05-28T19:44:31Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Anju Anand, Emrah Akyol</p>
-    <p><b>Summary:</b> We develop a communication-theoretic framework for privacy-aware and
-resilient decision making in cyber-physical systems under misaligned objectives
-between the encoder and the decoder. The encoder observes two correlated
-signals ($X$,$\theta$) and transmits a finite-rate message $Z$ to aid a
-legitimate controller (the decoder) in estimating $X+\theta$, while an
-eavesdropper intercepts $Z$ to infer the private parameter $\theta$. Unlike
-conventional setups where encoder and decoder share a common MSE objective,
-here the encoder minimizes a Lagrangian that balances legitimate control
-fidelity and the privacy leakage about $\theta$. In contrast, the decoder's
-goal is purely to minimize its own estimation error without regard for privacy.
-We analyze fully, partially, and non-revealing strategies that arise from this
-conflict, and characterize optimal linear encoders when the rate constraints
-are lifted. For finite-rate channels, we employ gradient-based methods to
-compute the optimal controllers. Numerical experiments illustrate how tuning
-the privacy parameter shapes the trade-off between control performance and
-resilience against unauthorized inferences.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.22447v1">Privacy-preserving Prompt Personalization in Federated Learning for
-  Multimodal Large Language Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-05-28T15:09:56Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Sizai Hou, Songze Li, Baturalp Buyukates</p>
-    <p><b>Summary:</b> Prompt learning is a crucial technique for adapting pre-trained multimodal
-language models (MLLMs) to user tasks. Federated prompt personalization (FPP)
-is further developed to address data heterogeneity and local overfitting,
-however, it exposes personalized prompts - valuable intellectual assets - to
-privacy risks like prompt stealing or membership inference attacks.
-Widely-adopted techniques like differential privacy add noise to prompts,
-whereas degrading personalization performance. We propose SecFPP, a secure FPP
-protocol harmonizing generalization, personalization, and privacy guarantees.
-SecFPP employs hierarchical prompt adaptation with domain-level and class-level
-components to handle multi-granular data imbalance. For privacy, it uses a
-novel secret-sharing-based adaptive clustering algorithm for domain-level
-adaptation while keeping class-level components private. While theoretically
-and empirically secure, SecFPP achieves state-of-the-art accuracy under severe
-heterogeneity in data distribution. Extensive experiments show it significantly
-outperforms both non-private and privacy-preserving baselines, offering a
-superior privacy-performance trade-off.</p>
   </details>
 </div>
 
