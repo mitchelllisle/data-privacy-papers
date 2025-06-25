@@ -2677,5 +2677,257 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.19836v1",
+    "title" : "Machine Learning with Privacy for Protected Attributes",
+    "summary" : "Differential privacy (DP) has become the standard for private data analysis.\nCertain machine learning applications only require privacy protection for\nspecific protected attributes. Using naive variants of differential privacy in\nsuch use cases can result in unnecessary degradation of utility. In this work,\nwe refine the definition of DP to create a more general and flexible framework\nthat we call feature differential privacy (FDP). Our definition is\nsimulation-based and allows for both addition/removal and replacement variants\nof privacy, and can handle arbitrary and adaptive separation of protected and\nnon-protected features. We prove the properties of FDP, such as adaptive\ncomposition, and demonstrate its implications for limiting attribute inference\nattacks. We also propose a modification of the standard DP-SGD algorithm that\nsatisfies FDP while leveraging desirable properties such as amplification via\nsub-sampling. We apply our framework to various machine learning tasks and show\nthat it can significantly improve the utility of DP-trained models when public\nfeatures are available. For example, we train diffusion models on the AFHQ\ndataset of animal faces and observe a drastic improvement in FID compared to\nDP, from 286.7 to 101.9 at $\\epsilon=8$, assuming that the blurred version of a\ntraining image is available as a public feature. Overall, our work provides a\nnew approach to private data analysis that can help reduce the utility cost of\nDP while still providing strong privacy guarantees.",
+    "updated" : "2025-06-24T17:53:28Z",
+    "published" : "2025-06-24T17:53:28Z",
+    "authors" : [
+      {
+        "name" : "Saeed Mahloujifar"
+      },
+      {
+        "name" : "Chuan Guo"
+      },
+      {
+        "name" : "G. Edward Suh"
+      },
+      {
+        "name" : "Kamalika Chaudhuri"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.19563v1",
+    "title" : "PrivacyXray: Detecting Privacy Breaches in LLMs through Semantic\n  Consistency and Probability Certainty",
+    "summary" : "Large Language Models (LLMs) are widely used in sensitive domains, including\nhealthcare, finance, and legal services, raising concerns about potential\nprivate information leaks during inference. Privacy extraction attacks, such as\njailbreaking, expose vulnerabilities in LLMs by crafting inputs that force the\nmodels to output sensitive information. However, these attacks cannot verify\nwhether the extracted private information is accurate, as no public datasets\nexist for cross-validation, leaving a critical gap in private information\ndetection during inference. To address this, we propose PrivacyXray, a novel\nframework detecting privacy breaches by analyzing LLM inner states. Our\nanalysis reveals that LLMs exhibit higher semantic coherence and probabilistic\ncertainty when generating correct private outputs. Based on this, PrivacyXray\ndetects privacy breaches using four metrics: intra-layer and inter-layer\nsemantic similarity, token-level and sentence-level probability distributions.\nPrivacyXray addresses critical challenges in private information detection by\novercoming the lack of open-source private datasets and eliminating reliance on\nexternal data for validation. It achieves this through the synthesis of\nrealistic private data and a detection mechanism based on the inner states of\nLLMs. Experiments show that PrivacyXray achieves consistent performance, with\nan average accuracy of 92.69% across five LLMs. Compared to state-of-the-art\nmethods, PrivacyXray achieves significant improvements, with an average\naccuracy increase of 20.06%, highlighting its stability and practical utility\nin real-world applications.",
+    "updated" : "2025-06-24T12:22:59Z",
+    "published" : "2025-06-24T12:22:59Z",
+    "authors" : [
+      {
+        "name" : "Jinwen He"
+      },
+      {
+        "name" : "Yiyang Lu"
+      },
+      {
+        "name" : "Zijin Lin"
+      },
+      {
+        "name" : "Kai Chen"
+      },
+      {
+        "name" : "Yue Zhao"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.19486v1",
+    "title" : "Recalling The Forgotten Class Memberships: Unlearned Models Can Be Noisy\n  Labelers to Leak Privacy",
+    "summary" : "Machine Unlearning (MU) technology facilitates the removal of the influence\nof specific data instances from trained models on request. Despite rapid\nadvancements in MU technology, its vulnerabilities are still underexplored,\nposing potential risks of privacy breaches through leaks of ostensibly\nunlearned information. Current limited research on MU attacks requires access\nto original models containing privacy data, which violates the critical\nprivacy-preserving objective of MU. To address this gap, we initiate an\ninnovative study on recalling the forgotten class memberships from unlearned\nmodels (ULMs) without requiring access to the original one. Specifically, we\nimplement a Membership Recall Attack (MRA) framework with a teacher-student\nknowledge distillation architecture, where ULMs serve as noisy labelers to\ntransfer knowledge to student models. Then, it is translated into a Learning\nwith Noisy Labels (LNL) problem for inferring the correct labels of the\nforgetting instances. Extensive experiments on state-of-the-art MU methods with\nmultiple real datasets demonstrate that the proposed MRA strategy exhibits high\nefficacy in recovering class memberships of unlearned instances. As a result,\nour study and evaluation have established a benchmark for future research on MU\nvulnerabilities.",
+    "updated" : "2025-06-24T10:21:10Z",
+    "published" : "2025-06-24T10:21:10Z",
+    "authors" : [
+      {
+        "name" : "Zhihao Sui"
+      },
+      {
+        "name" : "Liang Hu"
+      },
+      {
+        "name" : "Jian Cao"
+      },
+      {
+        "name" : "Dora D. Liu"
+      },
+      {
+        "name" : "Usman Naseem"
+      },
+      {
+        "name" : "Zhongyuan Lai"
+      },
+      {
+        "name" : "Qi Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.19393v1",
+    "title" : "ZK-SERIES: Privacy-Preserving Authentication using Temporal Biometric\n  Data",
+    "summary" : "Biometric authentication relies on physiological or behavioral traits that\nare inherent to a user, making them difficult to lose, forge or forget.\nBiometric data with a temporal component enable the following authentication\nprotocol: recent readings of the underlying biometrics are encoded as time\nseries and compared to a set of base readings. If the distance between the new\nreadings and the base readings falls within an acceptable threshold, then the\nuser is successfully authenticated. Various methods exist for comparing time\nseries data, such as Dynamic Time Warping (DTW) and the Time Warp Edit Distance\n(TWED), each offering advantages and drawbacks depending on the context.\nMoreover, many of these techniques do not inherently preserve privacy, which is\na critical consideration in biometric authentication due to the complexity of\nresetting biometric credentials.\n  In this work, we propose ZK-SERIES to provide privacy and efficiency to a\nbroad spectrum of time series-based authentication protocols. ZK-SERIES uses\nthe same building blocks, i.e., zero-knowledge multiplication proofs and\nefficiently batched range proofs, to ensure consistency across all protocols.\nFurthermore, it is optimized for compatibility with low-capacity devices such\nas smartphones. To assess the effectiveness of our proposed technique, we\nprimarily focus on two case studies for biometric authentication: shake-based\nand blow-based authentication. To demonstrate ZK-SERIES's practical\napplicability even in older and less powerful smartphones, we conduct\nexperiments on a 5-year-old low-spec smartphone using real data for two case\nstudies alongside scalability assessments using artificial data. Our\nexperimental results indicate that the privacy-preserving authentication\nprotocol can be completed within 1.3 seconds on older devices.",
+    "updated" : "2025-06-24T07:45:43Z",
+    "published" : "2025-06-24T07:45:43Z",
+    "authors" : [
+      {
+        "name" : "Daniel Reijsbergen"
+      },
+      {
+        "name" : "Eyasu Getahun Chekole"
+      },
+      {
+        "name" : "Howard Halim"
+      },
+      {
+        "name" : "Jianying Zhou"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.19360v1",
+    "title" : "SoK: Can Synthetic Images Replace Real Data? A Survey of Utility and\n  Privacy of Synthetic Image Generation",
+    "summary" : "Advances in generative models have transformed the field of synthetic image\ngeneration for privacy-preserving data synthesis (PPDS). However, the field\nlacks a comprehensive survey and comparison of synthetic image generation\nmethods across diverse settings. In particular, when we generate synthetic\nimages for the purpose of training a classifier, there is a pipeline of\ngeneration-sampling-classification which takes private training as input and\noutputs the final classifier of interest. In this survey, we systematically\ncategorize existing image synthesis methods, privacy attacks, and mitigations\nalong this generation-sampling-classification pipeline. To empirically compare\ndiverse synthesis approaches, we provide a benchmark with representative\ngenerative methods and use model-agnostic membership inference attacks (MIAs)\nas a measure of privacy risk. Through this study, we seek to answer critical\nquestions in PPDS: Can synthetic data effectively replace real data? Which\nrelease strategy balances utility and privacy? Do mitigations improve the\nutility-privacy tradeoff? Which generative models perform best across different\nscenarios? With a systematic evaluation of diverse methods, our study provides\nactionable insights into the utility-privacy tradeoffs of synthetic data\ngeneration methods and guides the decision on optimal data releasing strategies\nfor real-world applications.",
+    "updated" : "2025-06-24T06:41:34Z",
+    "published" : "2025-06-24T06:41:34Z",
+    "authors" : [
+      {
+        "name" : "Yunsung Chung"
+      },
+      {
+        "name" : "Yunbei Zhang"
+      },
+      {
+        "name" : "Nassir Marrouche"
+      },
+      {
+        "name" : "Jihun Hamm"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.19268v1",
+    "title" : "HARPT: A Corpus for Analyzing Consumers' Trust and Privacy Concerns in\n  Mobile Health Apps",
+    "summary" : "We present HARPT, a large-scale annotated corpus of mobile health app store\nreviews aimed at advancing research in user privacy and trust. The dataset\ncomprises over 480,000 user reviews labeled into seven categories that capture\ncritical aspects of trust in applications, trust in providers and privacy\nconcerns. Creating HARPT required addressing multiple complexities, such as\ndefining a nuanced label schema, isolating relevant content from large volumes\nof noisy data, and designing an annotation strategy that balanced scalability\nwith accuracy. This strategy integrated rule-based filtering, iterative manual\nlabeling with review, targeted data augmentation, and weak supervision using\ntransformer-based classifiers to accelerate coverage. In parallel, a carefully\ncurated subset of 7,000 reviews was manually annotated to support model\ndevelopment and evaluation. We benchmark a broad range of classification\nmodels, demonstrating that strong performance is achievable and providing a\nbaseline for future research. HARPT is released as a public resource to support\nwork in health informatics, cybersecurity, and natural language processing.",
+    "updated" : "2025-06-24T02:59:14Z",
+    "published" : "2025-06-24T02:59:14Z",
+    "authors" : [
+      {
+        "name" : "Timoteo Kelly"
+      },
+      {
+        "name" : "Abdulkadir Korkmaz"
+      },
+      {
+        "name" : "Samuel Mallet"
+      },
+      {
+        "name" : "Connor Souders"
+      },
+      {
+        "name" : "Sadra Aliakbarpour"
+      },
+      {
+        "name" : "Praveen Rao"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "cs.CR",
+      "cs.ET",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.19260v1",
+    "title" : "Network Structures as an Attack Surface: Topology-Based Privacy Leakage\n  in Federated Learning",
+    "summary" : "Federated learning systems increasingly rely on diverse network topologies to\naddress scalability and organizational constraints. While existing privacy\nresearch focuses on gradient-based attacks, the privacy implications of network\ntopology knowledge remain critically understudied. We conduct the first\ncomprehensive analysis of topology-based privacy leakage across realistic\nadversarial knowledge scenarios, demonstrating that adversaries with varying\ndegrees of structural knowledge can infer sensitive data distribution patterns\neven under strong differential privacy guarantees. Through systematic\nevaluation of 4,720 attack instances, we analyze six distinct adversarial\nknowledge scenarios: complete topology knowledge and five partial knowledge\nconfigurations reflecting real-world deployment constraints. We propose three\ncomplementary attack vectors: communication pattern analysis, parameter\nmagnitude profiling, and structural position correlation, achieving success\nrates of 84.1%, 65.0%, and 47.2% under complete knowledge conditions.\nCritically, we find that 80% of realistic partial knowledge scenarios maintain\nattack effectiveness above security thresholds, with certain partial knowledge\nconfigurations achieving performance superior to the baseline complete\nknowledge scenario. To address these vulnerabilities, we propose and\nempirically validate structural noise injection as a complementary defense\nmechanism across 808 configurations, demonstrating up to 51.4% additional\nattack reduction when properly layered with existing privacy techniques. These\nresults establish that network topology represents a fundamental privacy\nvulnerability in federated learning systems while providing practical pathways\nfor mitigation through topology-aware defense mechanisms.",
+    "updated" : "2025-06-24T02:42:08Z",
+    "published" : "2025-06-24T02:42:08Z",
+    "authors" : [
+      {
+        "name" : "Murtaza Rangwala"
+      },
+      {
+        "name" : "Richard O. Sinnott"
+      },
+      {
+        "name" : "Rajkumar Buyya"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DC",
+      "cs.LG",
+      "I.2.6; C.2.4; K.6.5"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.17336v1",
+    "title" : "Privacy-Preserving LLM Interaction with Socratic Chain-of-Thought\n  Reasoning and Homomorphically Encrypted Vector Databases",
+    "summary" : "Large language models (LLMs) are increasingly used as personal agents,\naccessing sensitive user data such as calendars, emails, and medical records.\nUsers currently face a trade-off: They can send private records, many of which\nare stored in remote databases, to powerful but untrusted LLM providers,\nincreasing their exposure risk. Alternatively, they can run less powerful\nmodels locally on trusted devices. We bridge this gap. Our Socratic\nChain-of-Thought Reasoning first sends a generic, non-private user query to a\npowerful, untrusted LLM, which generates a Chain-of-Thought (CoT) prompt and\ndetailed sub-queries without accessing user data. Next, we embed these\nsub-queries and perform encrypted sub-second semantic search using our\nHomomorphically Encrypted Vector Database across one million entries of a\nsingle user's private data. This represents a realistic scale of personal\ndocuments, emails, and records accumulated over years of digital activity.\nFinally, we feed the CoT prompt and the decrypted records to a local language\nmodel and generate the final response. On the LoCoMo long-context QA benchmark,\nour hybrid framework, combining GPT-4o with a local Llama-3.2-1B model,\noutperforms using GPT-4o alone by up to 7.1 percentage points. This\ndemonstrates a first step toward systems where tasks are decomposed and split\nbetween untrusted strong LLMs and weak local ones, preserving user privacy.",
+    "updated" : "2025-06-19T07:13:30Z",
+    "published" : "2025-06-19T07:13:30Z",
+    "authors" : [
+      {
+        "name" : "Yubeen Bae"
+      },
+      {
+        "name" : "Minchan Kim"
+      },
+      {
+        "name" : "Jaejin Lee"
+      },
+      {
+        "name" : "Sangbum Kim"
+      },
+      {
+        "name" : "Jaehyung Kim"
+      },
+      {
+        "name" : "Yejin Choi"
+      },
+      {
+        "name" : "Niloofar Mireshghallah"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.15201v2",
+    "title" : "Privacy-Shielded Image Compression: Defending Against Exploitation from\n  Vision-Language Pretrained Models",
+    "summary" : "The improved semantic understanding of vision-language pretrained (VLP)\nmodels has made it increasingly difficult to protect publicly posted images\nfrom being exploited by search engines and other similar tools. In this\ncontext, this paper seeks to protect users' privacy by implementing defenses at\nthe image compression stage to prevent exploitation. Specifically, we propose a\nflexible coding method, termed Privacy-Shielded Image Compression (PSIC), that\ncan produce bitstreams with multiple decoding options. By default, the\nbitstream is decoded to preserve satisfactory perceptual quality while\npreventing interpretation by VLP models. Our method also retains the original\nimage compression functionality. With a customizable input condition, the\nproposed scheme can reconstruct the image that preserves its full semantic\ninformation. A Conditional Latent Trigger Generation (CLTG) module is proposed\nto produce bias information based on customizable conditions to guide the\ndecoding process into different reconstructed versions, and an\nUncertainty-Aware Encryption-Oriented (UAEO) optimization function is designed\nto leverage the soft labels inferred from the target VLP model's uncertainty on\nthe training data. This paper further incorporates an adaptive multi-objective\noptimization strategy to obtain improved encrypting performance and perceptual\nquality simultaneously within a unified training process. The proposed scheme\nis plug-and-play and can be seamlessly integrated into most existing Learned\nImage Compression (LIC) models. Extensive experiments across multiple\ndownstream tasks have demonstrated the effectiveness of our design.",
+    "updated" : "2025-06-24T01:52:22Z",
+    "published" : "2025-06-18T07:29:40Z",
+    "authors" : [
+      {
+        "name" : "Xuelin Shen"
+      },
+      {
+        "name" : "Jiayin Xu"
+      },
+      {
+        "name" : "Kangsheng Yin"
+      },
+      {
+        "name" : "Wenhan Yang"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
   }
 ]
