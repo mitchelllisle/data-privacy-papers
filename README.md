@@ -2,6 +2,176 @@
 <h2>2025-06</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2506.20463v1">Analyzing Security and Privacy Challenges in Generative AI Usage
+  Guidelines for Higher Education</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2025-06-25T14:12:18Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Bei Yi Ng, Jiarui Li, Xinyuan Tong, Kevin Ye, Gauthami Yenne, Varun Chandrasekaran, Jingjie Li</p>
+    <p><b>Summary:</b> Educators and learners worldwide are embracing the rise of Generative
+Artificial Intelligence (GenAI) as it reshapes higher education. However, GenAI
+also raises significant privacy and security concerns, as models and
+privacy-sensitive user data, such as student records, may be misused by service
+providers. Unfortunately, end-users often have little awareness of or control
+over how these models operate. To address these concerns, universities are
+developing institutional policies to guide GenAI use while safeguarding
+security and privacy. This work examines these emerging policies and
+guidelines, with a particular focus on the often-overlooked privacy and
+security dimensions of GenAI integration in higher education, alongside other
+academic values. Through a qualitative analysis of GenAI usage guidelines from
+universities across 12 countries, we identify key challenges and opportunities
+institutions face in providing effective privacy and security protections,
+including the need for GenAI safeguards tailored specifically to the academic
+context.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2506.20413v1">Client Clustering Meets Knowledge Sharing: Enhancing Privacy and
+  Robustness in Personalized Peer-to-Peer Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-06-25T13:27:36Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mohammad Mahdi Maheri, Denys Herasymuk, Hamed Haddadi</p>
+    <p><b>Summary:</b> The growing adoption of Artificial Intelligence (AI) in Internet of Things
+(IoT) ecosystems has intensified the need for personalized learning methods
+that can operate efficiently and privately across heterogeneous,
+resource-constrained devices. However, enabling effective personalized learning
+in decentralized settings introduces several challenges, including efficient
+knowledge transfer between clients, protection of data privacy, and resilience
+against poisoning attacks. In this paper, we address these challenges by
+developing P4 (Personalized, Private, Peer-to-Peer) -- a method designed to
+deliver personalized models for resource-constrained IoT devices while ensuring
+differential privacy and robustness against poisoning attacks. Our solution
+employs a lightweight, fully decentralized algorithm to privately detect client
+similarity and form collaborative groups. Within each group, clients leverage
+differentially private knowledge distillation to co-train their models,
+maintaining high accuracy while ensuring robustness to the presence of
+malicious clients. We evaluate P4 on popular benchmark datasets using both
+linear and CNN-based architectures across various heterogeneity settings and
+attack scenarios. Experimental results show that P4 achieves 5% to 30% higher
+accuracy than leading differentially private peer-to-peer approaches and
+maintains robustness with up to 30% malicious clients. Additionally, we
+demonstrate its practicality by deploying it on resource-constrained devices,
+where collaborative training between two clients adds only ~7 seconds of
+overhead.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2506.20290v1">Don't Hash Me Like That: Exposing and Mitigating Hash-Induced Unfairness
+  in Local Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-06-25T09:48:30Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Berkay Kemal Balioglu, Alireza Khodaie, Mehmet Emre Gursoy</p>
+    <p><b>Summary:</b> Local differential privacy (LDP) has become a widely accepted framework for
+privacy-preserving data collection. In LDP, many protocols rely on hash
+functions to implement user-side encoding and perturbation. However, the
+security and privacy implications of hash function selection have not been
+previously investigated. In this paper, we expose that the hash functions may
+act as a source of unfairness in LDP protocols. We show that although users
+operate under the same protocol and privacy budget, differences in hash
+functions can lead to significant disparities in vulnerability to inference and
+poisoning attacks. To mitigate hash-induced unfairness, we propose Fair-OLH
+(F-OLH), a variant of OLH that enforces an entropy-based fairness constraint on
+hash function selection. Experiments show that F-OLH is effective in mitigating
+hash-induced unfairness under acceptable time overheads.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2506.20234v1">Communication-Efficient Publication of Sparse Vectors under Differential
+  Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-06-25T08:25:46Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Quentin Hillebrand, Vorapong Suppakitpaisarn, Tetsuo Shibuya</p>
+    <p><b>Summary:</b> In this work, we propose a differentially private algorithm for publishing
+matrices aggregated from sparse vectors. These matrices include social network
+adjacency matrices, user-item interaction matrices in recommendation systems,
+and single nucleotide polymorphisms (SNPs) in DNA data. Traditionally,
+differential privacy in vector collection relies on randomized response, but
+this approach incurs high communication costs. Specifically, for a matrix with
+$N$ users, $n$ columns, and $m$ nonzero elements, conventional methods require
+$\Omega(n \times N)$ communication, making them impractical for large-scale
+data. Our algorithm significantly reduces this cost to $O(\varepsilon m)$,
+where $\varepsilon$ is the privacy budget. Notably, this is even lower than the
+non-private case, which requires $\Omega(m \log n)$ communication. Moreover, as
+the privacy budget decreases, communication cost further reduces, enabling
+better privacy with improved efficiency. We theoretically prove that our method
+yields results identical to those of randomized response, and experimental
+evaluations confirm its effectiveness in terms of accuracy, communication
+efficiency, and computational complexity.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2506.20207v1">User Understanding of Privacy Permissions in Mobile Augmented Reality:
+  Perceptions and Misconceptions</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2025-06-25T07:52:12Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Viktorija Paneva, Verena Winterhalter, Franziska Augustinowski, Florian Alt</p>
+    <p><b>Summary:</b> Mobile Augmented Reality (AR) applications leverage various sensors to
+provide immersive user experiences. However, their reliance on diverse data
+sources introduces significant privacy challenges. This paper investigates user
+perceptions and understanding of privacy permissions in mobile AR apps through
+an analysis of existing applications and an online survey of 120 participants.
+Findings reveal common misconceptions, including confusion about how
+permissions relate to specific AR functionalities (e.g., location and
+measurement of physical distances), and misinterpretations of permission labels
+(e.g., conflating camera and gallery access). We identify a set of actionable
+implications for designing more usable and transparent privacy mechanisms
+tailored to mobile AR technologies, including contextual explanations, modular
+permission requests, and clearer permission labels. These findings offer
+actionable guidance for developers, researchers, and policymakers working to
+enhance privacy frameworks in mobile AR.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2506.20101v1">Secure Multi-Key Homomorphic Encryption with Application to
+  Privacy-Preserving Federated Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-06-25T03:28:25Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jiahui Wu, Tiecheng Sun, Fucai Luo, Haiyan Wang, Weizhe Zhang</p>
+    <p><b>Summary:</b> Multi-Key Homomorphic Encryption (MKHE), proposed by Lopez-Alt et al. (STOC
+2012), allows for performing arithmetic computations directly on ciphertexts
+encrypted under distinct keys. Subsequent works by Chen and Dai et al. (CCS
+2019) and Kim and Song et al. (CCS 2023) extended this concept by proposing
+multi-key BFV/CKKS variants, referred to as the CDKS scheme. These variants
+incorporate asymptotically optimal techniques to facilitate secure computation
+across multiple data providers. In this paper, we identify a critical security
+vulnerability in the CDKS scheme when applied to multiparty secure computation
+tasks, such as privacy-preserving federated learning (PPFL). In particular, we
+show that CDKS may inadvertently leak plaintext information from one party to
+others. To mitigate this issue, we propose a new scheme, SMHE (Secure Multi-Key
+Homomorphic Encryption), which incorporates a novel masking mechanism into the
+multi-key BFV and CKKS frameworks to ensure that plaintexts remain confidential
+throughout the computation. We implement a PPFL application using SMHE and
+demonstrate that it provides significantly improved security with only a modest
+overhead in homomorphic evaluation. For instance, our PPFL model based on
+multi-key CKKS incurs less than a 2\times runtime and communication traffic
+increase compared to the CDKS-based PPFL model. The code is publicly available
+at https://github.com/JiahuiWu2022/SMHE.git.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2506.19836v1">Machine Learning with Privacy for Protected Attributes</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2025-06-24T17:53:28Z</p>
@@ -129,6 +299,37 @@ experiments on a 5-year-old low-spec smartphone using real data for two case
 studies alongside scalability assessments using artificial data. Our
 experimental results indicate that the privacy-preserving authentication
 protocol can be completed within 1.3 seconds on older devices.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2506.19889v1">Retrieval-Confused Generation is a Good Defender for Privacy Violation
+  Attack of Large Language Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-06-24T07:28:29Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Wanli Peng, Xin Chen, Hang Fu, XinYu He, Xue Yiming, Juan Wen</p>
+    <p><b>Summary:</b> Recent advances in large language models (LLMs) have made a profound impact
+on our society and also raised new security concerns. Particularly, due to the
+remarkable inference ability of LLMs, the privacy violation attack (PVA),
+revealed by Staab et al., introduces serious personal privacy issues. Existing
+defense methods mainly leverage LLMs to anonymize the input query, which
+requires costly inference time and cannot gain satisfactory defense
+performance. Moreover, directly rejecting the PVA query seems like an effective
+defense method, while the defense method is exposed, promoting the evolution of
+PVA. In this paper, we propose a novel defense paradigm based on
+retrieval-confused generation (RCG) of LLMs, which can efficiently and covertly
+defend the PVA. We first design a paraphrasing prompt to induce the LLM to
+rewrite the "user comments" of the attack query to construct a disturbed
+database. Then, we propose the most irrelevant retrieval strategy to retrieve
+the desired user data from the disturbed database. Finally, the "data comments"
+are replaced with the retrieved user data to form a defended query, leading to
+responding to the adversary with some wrong personal attributes, i.e., the
+attack fails. Extensive experiments are conducted on two datasets and eight
+popular LLMs to comprehensively evaluate the feasibility and the superiority of
+the proposed defense method.</p>
   </details>
 </div>
 
@@ -2777,209 +2978,6 @@ inconsistent. We conclude by outlining key gaps in fairness auditing,
 standardization, and evaluation protocols, offering guidance for future work
 toward equitable and clinically robust privacy-preserving DL systems in
 medicine.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.00476v2">Towards Graph-Based Privacy-Preserving Federated Learning: ModelNet -- A
-  ResNet-based Model Classification Dataset</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-05-31T08:53:16Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Abhisek Ray, Lukas Esterle</p>
-    <p><b>Summary:</b> Federated Learning (FL) has emerged as a powerful paradigm for training
-machine learning models across distributed data sources while preserving data
-locality. However, the privacy of local data is always a pivotal concern and
-has received a lot of attention in recent research on the FL regime. Moreover,
-the lack of domain heterogeneity and client-specific segregation in the
-benchmarks remains a critical bottleneck for rigorous evaluation. In this
-paper, we introduce ModelNet, a novel image classification dataset constructed
-from the embeddings extracted from a pre-trained ResNet50 model. First, we
-modify the CIFAR100 dataset into three client-specific variants, considering
-three domain heterogeneities (homogeneous, heterogeneous, and random).
-Subsequently, we train each client-specific subset of all three variants on the
-pre-trained ResNet50 model to save model parameters. In addition to
-multi-domain image data, we propose a new hypothesis to define the FL algorithm
-that can access the anonymized model parameters to preserve the local privacy
-in a more effective manner compared to existing ones. ModelNet is designed to
-simulate realistic FL settings by incorporating non-IID data distributions and
-client diversity design principles in the mainframe for both conventional and
-futuristic graph-driven FL algorithms. The three variants are ModelNet-S,
-ModelNet-D, and ModelNet-R, which are based on homogeneous, heterogeneous, and
-random data settings, respectively. To the best of our knowledge, we are the
-first to propose a cross-environment client-specific FL dataset along with the
-graph-based variant. Extensive experiments based on domain shifts and
-aggregation strategies show the effectiveness of the above variants, making it
-a practical benchmark for classical and graph-based FL research. The dataset
-and related code are available online.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.02038v1">Blockchain Powered Edge Intelligence for U-Healthcare in Privacy
-  Critical and Time Sensitive Environment</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-05-31T06:58:52Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Anum Nawaz, Hafiz Humza Mahmood Ramzan, Xianjia Yu, Zhuo Zou, Tomi Westerlund</p>
-    <p><b>Summary:</b> Edge Intelligence (EI) serves as a critical enabler for privacy-preserving
-systems by providing AI-empowered computation and distributed caching services
-at the edge, thereby minimizing latency and enhancing data privacy. The
-integration of blockchain technology further augments EI frameworks by ensuring
-transactional transparency, auditability, and system-wide reliability through a
-decentralized network model. However, the operational architecture of such
-systems introduces inherent vulnerabilities, particularly due to the extensive
-data interactions between edge gateways (EGs) and the distributed nature of
-information storage during service provisioning. To address these challenges,
-we propose an autonomous computing model along with its interaction topologies
-tailored for privacy-critical and time-sensitive health applications. The
-system supports continuous monitoring, real-time alert notifications, disease
-detection, and robust data processing and aggregation. It also includes a data
-transaction handler and mechanisms for ensuring privacy at the EGs. Moreover, a
-resource-efficient one-dimensional convolutional neural network (1D-CNN) is
-proposed for the multiclass classification of arrhythmia, enabling accurate and
-real-time analysis of constrained EGs. Furthermore, a secure access scheme is
-defined to manage both off-chain and on-chain data sharing and storage. To
-validate the proposed model, comprehensive security, performance, and cost
-analyses are conducted, demonstrating the efficiency and reliability of the
-fine-grained access control scheme.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.00416v1">Blockchain-Enabled Privacy-Preserving Second-Order Federated Edge
-  Learning in Personalized Healthcare</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
-  <p><b>Published on:</b> 2025-05-31T06:41:04Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Anum Nawaz, Muhammad Irfan, Xianjia Yu, Zhuo Zou, Tomi Westerlund</p>
-    <p><b>Summary:</b> Federated learning (FL) has attracted increasing attention to mitigate
-security and privacy challenges in traditional cloud-centric machine learning
-models specifically in healthcare ecosystems. FL methodologies enable the
-training of global models through localized policies, allowing independent
-operations at the edge clients' level. Conventional first-order FL approaches
-face several challenges in personalized model training due to heterogeneous
-non-independent and identically distributed (non-iid) data of each edge client.
-Recently, second-order FL approaches maintain the stability and consistency of
-non-iid datasets while improving personalized model training. This study
-proposes and develops a verifiable and auditable optimized second-order FL
-framework BFEL (blockchain-enhanced federated edge learning) based on optimized
-FedCurv for personalized healthcare systems. FedCurv incorporates information
-about the importance of each parameter to each client's task (through Fisher
-Information Matrix) which helps to preserve client-specific knowledge and
-reduce model drift during aggregation. Moreover, it minimizes communication
-rounds required to achieve a target precision convergence for each edge client
-while effectively managing personalized training on non-iid and heterogeneous
-data. The incorporation of Ethereum-based model aggregation ensures trust,
-verifiability, and auditability while public key encryption enhances privacy
-and security. Experimental results of federated CNNs and MLPs utilizing Mnist,
-Cifar-10, and PathMnist demonstrate the high efficiency and scalability of the
-proposed framework.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.00158v1">Privacy Amplification in Differentially Private Zeroth-Order
-  Optimization with Hidden States</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-05-30T18:55:32Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Eli Chien, Wei-Ning Chen, Pan Li</p>
-    <p><b>Summary:</b> Zeroth-order optimization has emerged as a promising approach for fine-tuning
-large language models on domain-specific data, particularly under differential
-privacy (DP) and memory constraints. While first-order methods have been
-extensively studied from a privacy perspective, the privacy analysis and
-algorithmic design for zeroth-order methods remain significantly underexplored.
-A critical open question concerns hidden-state DP analysis: although convergent
-privacy bounds are known for first-order methods, it has remained unclear
-whether similar guarantees can be established for zeroth-order methods. In this
-work, we provide an affirmative answer by proving a convergent DP bound for
-zeroth-order optimization. Our analysis generalizes the celebrated privacy
-amplification-by-iteration framework to the setting of smooth loss functions in
-zeroth-order optimization. Furthermore, it induces better DP zeroth-order
-algorithmic designs that are previously unknown to the literature.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.00124v1">randextract: a Reference Library to Test and Validate Privacy
-  Amplification Implementations</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-05-30T18:01:50Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Iyán Méndez Veiga, Esther Hänggi</p>
-    <p><b>Summary:</b> Quantum cryptographic protocols do not rely only on quantum-physical
-resources, they also require reliable classical communication and computation.
-In particular, the secrecy of any quantum key distribution protocol critically
-depends on the correct execution of the privacy amplification step. This is a
-classical post-processing procedure transforming a partially secret bit string,
-known to be somewhat correlated with an adversary, into a shorter bit string
-that is close to uniform and independent of the adversary's knowledge. It is
-typically implemented using randomness extractors. Standardization efforts in
-quantum cryptography have focused on the security of physical devices and
-quantum operations. Future efforts should also consider all algorithms used in
-classical post-processing, especially in privacy amplification, due to its
-critical role in ensuring the final security of the key. We present
-randextract, a reference library to test and validate privacy amplification
-implementations.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2505.24603v2">The Gaussian Mixing Mechanism: Renyi Differential Privacy via Gaussian
-  Sketches</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-05-30T13:52:48Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Omri Lev, Vishwak Srinivasan, Moshe Shenfeld, Katrina Ligett, Ayush Sekhari, Ashia C. Wilson</p>
-    <p><b>Summary:</b> Gaussian sketching, which consists of pre-multiplying the data with a random
-Gaussian matrix, is a widely used technique for multiple problems in data
-science and machine learning, with applications spanning computationally
-efficient optimization, coded computing, and federated learning. This operation
-also provides differential privacy guarantees due to its inherent randomness.
-In this work, we revisit this operation through the lens of Renyi Differential
-Privacy (RDP), providing a refined privacy analysis that yields significantly
-tighter bounds than prior results. We then demonstrate how this improved
-analysis leads to performance improvement in different linear regression
-settings, establishing theoretical utility guarantees. Empirically, our methods
-improve performance across multiple datasets and, in several cases, reduce
-runtime.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.00100v2">Children's Voice Privacy: First Steps And Emerging Challenges</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-05-30T13:21:18Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ajinkya Kulkarni, Francisco Teixeira, Enno Hermann, Thomas Rolland, Isabel Trancoso, Mathew Magimai Doss</p>
-    <p><b>Summary:</b> Children are one of the most under-represented groups in speech technologies,
-as well as one of the most vulnerable in terms of privacy. Despite this,
-anonymization techniques targeting this population have received little
-attention. In this study, we seek to bridge this gap, and establish a baseline
-for the use of voice anonymization techniques designed for adult speech when
-applied to children's voices. Such an evaluation is essential, as children's
-speech presents a distinct set of challenges when compared to that of adults.
-This study comprises three children's datasets, six anonymization methods, and
-objective and subjective utility metrics for evaluation. Our results show that
-existing systems for adults are still able to protect children's voice privacy,
-but suffer from much higher utility degradation. In addition, our subjective
-study displays the challenges of automatic evaluation methods for speech
-quality in children's speech, highlighting the need for further research.</p>
   </details>
 </div>
 
