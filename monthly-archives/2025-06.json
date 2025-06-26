@@ -2929,5 +2929,186 @@
     "categories" : [
       "cs.CV"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.20463v1",
+    "title" : "Analyzing Security and Privacy Challenges in Generative AI Usage\n  Guidelines for Higher Education",
+    "summary" : "Educators and learners worldwide are embracing the rise of Generative\nArtificial Intelligence (GenAI) as it reshapes higher education. However, GenAI\nalso raises significant privacy and security concerns, as models and\nprivacy-sensitive user data, such as student records, may be misused by service\nproviders. Unfortunately, end-users often have little awareness of or control\nover how these models operate. To address these concerns, universities are\ndeveloping institutional policies to guide GenAI use while safeguarding\nsecurity and privacy. This work examines these emerging policies and\nguidelines, with a particular focus on the often-overlooked privacy and\nsecurity dimensions of GenAI integration in higher education, alongside other\nacademic values. Through a qualitative analysis of GenAI usage guidelines from\nuniversities across 12 countries, we identify key challenges and opportunities\ninstitutions face in providing effective privacy and security protections,\nincluding the need for GenAI safeguards tailored specifically to the academic\ncontext.",
+    "updated" : "2025-06-25T14:12:18Z",
+    "published" : "2025-06-25T14:12:18Z",
+    "authors" : [
+      {
+        "name" : "Bei Yi Ng"
+      },
+      {
+        "name" : "Jiarui Li"
+      },
+      {
+        "name" : "Xinyuan Tong"
+      },
+      {
+        "name" : "Kevin Ye"
+      },
+      {
+        "name" : "Gauthami Yenne"
+      },
+      {
+        "name" : "Varun Chandrasekaran"
+      },
+      {
+        "name" : "Jingjie Li"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.20413v1",
+    "title" : "Client Clustering Meets Knowledge Sharing: Enhancing Privacy and\n  Robustness in Personalized Peer-to-Peer Learning",
+    "summary" : "The growing adoption of Artificial Intelligence (AI) in Internet of Things\n(IoT) ecosystems has intensified the need for personalized learning methods\nthat can operate efficiently and privately across heterogeneous,\nresource-constrained devices. However, enabling effective personalized learning\nin decentralized settings introduces several challenges, including efficient\nknowledge transfer between clients, protection of data privacy, and resilience\nagainst poisoning attacks. In this paper, we address these challenges by\ndeveloping P4 (Personalized, Private, Peer-to-Peer) -- a method designed to\ndeliver personalized models for resource-constrained IoT devices while ensuring\ndifferential privacy and robustness against poisoning attacks. Our solution\nemploys a lightweight, fully decentralized algorithm to privately detect client\nsimilarity and form collaborative groups. Within each group, clients leverage\ndifferentially private knowledge distillation to co-train their models,\nmaintaining high accuracy while ensuring robustness to the presence of\nmalicious clients. We evaluate P4 on popular benchmark datasets using both\nlinear and CNN-based architectures across various heterogeneity settings and\nattack scenarios. Experimental results show that P4 achieves 5% to 30% higher\naccuracy than leading differentially private peer-to-peer approaches and\nmaintains robustness with up to 30% malicious clients. Additionally, we\ndemonstrate its practicality by deploying it on resource-constrained devices,\nwhere collaborative training between two clients adds only ~7 seconds of\noverhead.",
+    "updated" : "2025-06-25T13:27:36Z",
+    "published" : "2025-06-25T13:27:36Z",
+    "authors" : [
+      {
+        "name" : "Mohammad Mahdi Maheri"
+      },
+      {
+        "name" : "Denys Herasymuk"
+      },
+      {
+        "name" : "Hamed Haddadi"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.20290v1",
+    "title" : "Don't Hash Me Like That: Exposing and Mitigating Hash-Induced Unfairness\n  in Local Differential Privacy",
+    "summary" : "Local differential privacy (LDP) has become a widely accepted framework for\nprivacy-preserving data collection. In LDP, many protocols rely on hash\nfunctions to implement user-side encoding and perturbation. However, the\nsecurity and privacy implications of hash function selection have not been\npreviously investigated. In this paper, we expose that the hash functions may\nact as a source of unfairness in LDP protocols. We show that although users\noperate under the same protocol and privacy budget, differences in hash\nfunctions can lead to significant disparities in vulnerability to inference and\npoisoning attacks. To mitigate hash-induced unfairness, we propose Fair-OLH\n(F-OLH), a variant of OLH that enforces an entropy-based fairness constraint on\nhash function selection. Experiments show that F-OLH is effective in mitigating\nhash-induced unfairness under acceptable time overheads.",
+    "updated" : "2025-06-25T09:48:30Z",
+    "published" : "2025-06-25T09:48:30Z",
+    "authors" : [
+      {
+        "name" : "Berkay Kemal Balioglu"
+      },
+      {
+        "name" : "Alireza Khodaie"
+      },
+      {
+        "name" : "Mehmet Emre Gursoy"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.20234v1",
+    "title" : "Communication-Efficient Publication of Sparse Vectors under Differential\n  Privacy",
+    "summary" : "In this work, we propose a differentially private algorithm for publishing\nmatrices aggregated from sparse vectors. These matrices include social network\nadjacency matrices, user-item interaction matrices in recommendation systems,\nand single nucleotide polymorphisms (SNPs) in DNA data. Traditionally,\ndifferential privacy in vector collection relies on randomized response, but\nthis approach incurs high communication costs. Specifically, for a matrix with\n$N$ users, $n$ columns, and $m$ nonzero elements, conventional methods require\n$\\Omega(n \\times N)$ communication, making them impractical for large-scale\ndata. Our algorithm significantly reduces this cost to $O(\\varepsilon m)$,\nwhere $\\varepsilon$ is the privacy budget. Notably, this is even lower than the\nnon-private case, which requires $\\Omega(m \\log n)$ communication. Moreover, as\nthe privacy budget decreases, communication cost further reduces, enabling\nbetter privacy with improved efficiency. We theoretically prove that our method\nyields results identical to those of randomized response, and experimental\nevaluations confirm its effectiveness in terms of accuracy, communication\nefficiency, and computational complexity.",
+    "updated" : "2025-06-25T08:25:46Z",
+    "published" : "2025-06-25T08:25:46Z",
+    "authors" : [
+      {
+        "name" : "Quentin Hillebrand"
+      },
+      {
+        "name" : "Vorapong Suppakitpaisarn"
+      },
+      {
+        "name" : "Tetsuo Shibuya"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.20207v1",
+    "title" : "User Understanding of Privacy Permissions in Mobile Augmented Reality:\n  Perceptions and Misconceptions",
+    "summary" : "Mobile Augmented Reality (AR) applications leverage various sensors to\nprovide immersive user experiences. However, their reliance on diverse data\nsources introduces significant privacy challenges. This paper investigates user\nperceptions and understanding of privacy permissions in mobile AR apps through\nan analysis of existing applications and an online survey of 120 participants.\nFindings reveal common misconceptions, including confusion about how\npermissions relate to specific AR functionalities (e.g., location and\nmeasurement of physical distances), and misinterpretations of permission labels\n(e.g., conflating camera and gallery access). We identify a set of actionable\nimplications for designing more usable and transparent privacy mechanisms\ntailored to mobile AR technologies, including contextual explanations, modular\npermission requests, and clearer permission labels. These findings offer\nactionable guidance for developers, researchers, and policymakers working to\nenhance privacy frameworks in mobile AR.",
+    "updated" : "2025-06-25T07:52:12Z",
+    "published" : "2025-06-25T07:52:12Z",
+    "authors" : [
+      {
+        "name" : "Viktorija Paneva"
+      },
+      {
+        "name" : "Verena Winterhalter"
+      },
+      {
+        "name" : "Franziska Augustinowski"
+      },
+      {
+        "name" : "Florian Alt"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.20101v1",
+    "title" : "Secure Multi-Key Homomorphic Encryption with Application to\n  Privacy-Preserving Federated Learning",
+    "summary" : "Multi-Key Homomorphic Encryption (MKHE), proposed by Lopez-Alt et al. (STOC\n2012), allows for performing arithmetic computations directly on ciphertexts\nencrypted under distinct keys. Subsequent works by Chen and Dai et al. (CCS\n2019) and Kim and Song et al. (CCS 2023) extended this concept by proposing\nmulti-key BFV/CKKS variants, referred to as the CDKS scheme. These variants\nincorporate asymptotically optimal techniques to facilitate secure computation\nacross multiple data providers. In this paper, we identify a critical security\nvulnerability in the CDKS scheme when applied to multiparty secure computation\ntasks, such as privacy-preserving federated learning (PPFL). In particular, we\nshow that CDKS may inadvertently leak plaintext information from one party to\nothers. To mitigate this issue, we propose a new scheme, SMHE (Secure Multi-Key\nHomomorphic Encryption), which incorporates a novel masking mechanism into the\nmulti-key BFV and CKKS frameworks to ensure that plaintexts remain confidential\nthroughout the computation. We implement a PPFL application using SMHE and\ndemonstrate that it provides significantly improved security with only a modest\noverhead in homomorphic evaluation. For instance, our PPFL model based on\nmulti-key CKKS incurs less than a 2\\times runtime and communication traffic\nincrease compared to the CDKS-based PPFL model. The code is publicly available\nat https://github.com/JiahuiWu2022/SMHE.git.",
+    "updated" : "2025-06-25T03:28:25Z",
+    "published" : "2025-06-25T03:28:25Z",
+    "authors" : [
+      {
+        "name" : "Jiahui Wu"
+      },
+      {
+        "name" : "Tiecheng Sun"
+      },
+      {
+        "name" : "Fucai Luo"
+      },
+      {
+        "name" : "Haiyan Wang"
+      },
+      {
+        "name" : "Weizhe Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.19889v1",
+    "title" : "Retrieval-Confused Generation is a Good Defender for Privacy Violation\n  Attack of Large Language Models",
+    "summary" : "Recent advances in large language models (LLMs) have made a profound impact\non our society and also raised new security concerns. Particularly, due to the\nremarkable inference ability of LLMs, the privacy violation attack (PVA),\nrevealed by Staab et al., introduces serious personal privacy issues. Existing\ndefense methods mainly leverage LLMs to anonymize the input query, which\nrequires costly inference time and cannot gain satisfactory defense\nperformance. Moreover, directly rejecting the PVA query seems like an effective\ndefense method, while the defense method is exposed, promoting the evolution of\nPVA. In this paper, we propose a novel defense paradigm based on\nretrieval-confused generation (RCG) of LLMs, which can efficiently and covertly\ndefend the PVA. We first design a paraphrasing prompt to induce the LLM to\nrewrite the \"user comments\" of the attack query to construct a disturbed\ndatabase. Then, we propose the most irrelevant retrieval strategy to retrieve\nthe desired user data from the disturbed database. Finally, the \"data comments\"\nare replaced with the retrieved user data to form a defended query, leading to\nresponding to the adversary with some wrong personal attributes, i.e., the\nattack fails. Extensive experiments are conducted on two datasets and eight\npopular LLMs to comprehensively evaluate the feasibility and the superiority of\nthe proposed defense method.",
+    "updated" : "2025-06-24T07:28:29Z",
+    "published" : "2025-06-24T07:28:29Z",
+    "authors" : [
+      {
+        "name" : "Wanli Peng"
+      },
+      {
+        "name" : "Xin Chen"
+      },
+      {
+        "name" : "Hang Fu"
+      },
+      {
+        "name" : "XinYu He"
+      },
+      {
+        "name" : "Xue Yiming"
+      },
+      {
+        "name" : "Juan Wen"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
   }
 ]
