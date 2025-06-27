@@ -3110,5 +3110,182 @@
       "cs.CR",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.21308v1",
+    "title" : "Balancing Privacy and Utility in Correlated Data: A Study of Bayesian\n  Differential Privacy",
+    "summary" : "Privacy risks in differentially private (DP) systems increase significantly\nwhen data is correlated, as standard DP metrics often underestimate the\nresulting privacy leakage, leaving sensitive information vulnerable. Given the\nubiquity of dependencies in real-world databases, this oversight poses a\ncritical challenge for privacy protections. Bayesian differential privacy (BDP)\nextends DP to account for these correlations, yet current BDP mechanisms\nindicate notable utility loss, limiting its adoption.\n  In this work, we address whether BDP can be realistically implemented in\ncommon data structures without sacrificing utility -- a key factor for its\napplicability. By analyzing arbitrary and structured correlation models,\nincluding Gaussian multivariate distributions and Markov chains, we derive\npractical utility guarantees for BDP. Our contributions include theoretical\nlinks between DP and BDP and a novel methodology for adapting DP mechanisms to\nmeet the BDP requirements. Through evaluations on real-world databases, we\ndemonstrate that our novel theorems enable the design of BDP mechanisms that\nmaintain competitive utility, paving the way for practical privacy-preserving\ndata practices in correlated settings.",
+    "updated" : "2025-06-26T14:25:44Z",
+    "published" : "2025-06-26T14:25:44Z",
+    "authors" : [
+      {
+        "name" : "Martin Lange"
+      },
+      {
+        "name" : "Patricia Guerra-Balboa"
+      },
+      {
+        "name" : "Javier Parra-Arnau"
+      },
+      {
+        "name" : "Thorsten Strufe"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.IT",
+      "math.IT",
+      "68P27"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.20981v1",
+    "title" : "PrivacyGo: Privacy-Preserving Ad Measurement with Multidimensional\n  Intersection",
+    "summary" : "This paper tackles the challenging and practical problem of multi-identifier\nprivate user profile matching for privacy-preserving ad measurement, a\ncornerstone of modern advertising analytics. We introduce a comprehensive\ncryptographic framework leveraging reversed Oblivious Pseudorandom Functions\n(OPRF) and novel blind key rotation techniques to support secure matching\nacross multiple identifiers. Our design prevents cross-identifier linkages and\nincludes a differentially private mechanism to obfuscate intersection sizes,\nmitigating risks such as membership inference attacks.\n  We present a concrete construction of our protocol that achieves both strong\nprivacy guarantees and high efficiency. It scales to large datasets, offering a\npractical and scalable solution for privacy-centric applications like secure ad\nconversion tracking. By combining rigorous cryptographic principles with\ndifferential privacy, our work addresses a critical need in the advertising\nindustry, setting a new standard for privacy-preserving ad measurement\nframeworks.",
+    "updated" : "2025-06-26T03:54:19Z",
+    "published" : "2025-06-26T03:54:19Z",
+    "authors" : [
+      {
+        "name" : "Jian Du"
+      },
+      {
+        "name" : "Haohao Qian"
+      },
+      {
+        "name" : "Shikun Zhang"
+      },
+      {
+        "name" : "Wen-jie Lu"
+      },
+      {
+        "name" : "Donghang Lu"
+      },
+      {
+        "name" : "Yongchuan Niu"
+      },
+      {
+        "name" : "Bo Jiang"
+      },
+      {
+        "name" : "Yongjun Zhao"
+      },
+      {
+        "name" : "Qiang Yan"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.20872v1",
+    "title" : "Empowering Digital Agriculture: A Privacy-Preserving Framework for Data\n  Sharing and Collaborative Research",
+    "summary" : "Data-driven agriculture, which integrates technology and data into\nagricultural practices, has the potential to improve crop yield, disease\nresilience, and long-term soil health. However, privacy concerns, such as\nadverse pricing, discrimination, and resource manipulation, deter farmers from\nsharing data, as it can be used against them. To address this barrier, we\npropose a privacy-preserving framework that enables secure data sharing and\ncollaboration for research and development while mitigating privacy risks. The\nframework combines dimensionality reduction techniques (like Principal\nComponent Analysis (PCA)) and differential privacy by introducing Laplacian\nnoise to protect sensitive information. The proposed framework allows\nresearchers to identify potential collaborators for a target farmer and train\npersonalized machine learning models either on the data of identified\ncollaborators via federated learning or directly on the aggregated\nprivacy-protected data. It also allows farmers to identify potential\ncollaborators based on similarities. We have validated this on real-life\ndatasets, demonstrating robust privacy protection against adversarial attacks\nand utility performance comparable to a centralized system. We demonstrate how\nthis framework can facilitate collaboration among farmers and help researchers\npursue broader research objectives. The adoption of the framework can empower\nresearchers and policymakers to leverage agricultural data responsibly, paving\nthe way for transformative advances in data-driven agriculture. By addressing\ncritical privacy challenges, this work supports secure data integration,\nfostering innovation and sustainability in agricultural systems.",
+    "updated" : "2025-06-25T22:46:30Z",
+    "published" : "2025-06-25T22:46:30Z",
+    "authors" : [
+      {
+        "name" : "Osama Zafar"
+      },
+      {
+        "name" : "Rosemarie Santa González"
+      },
+      {
+        "name" : "Mina Namazi"
+      },
+      {
+        "name" : "Alfonso Morales"
+      },
+      {
+        "name" : "Erman Ayday"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.20737v1",
+    "title" : "MAGPIE: A dataset for Multi-AGent contextual PrIvacy Evaluation",
+    "summary" : "The proliferation of LLM-based agents has led to increasing deployment of\ninter-agent collaboration for tasks like scheduling, negotiation, resource\nallocation etc. In such systems, privacy is critical, as agents often access\nproprietary tools and domain-specific databases requiring strict\nconfidentiality. This paper examines whether LLM-based agents demonstrate an\nunderstanding of contextual privacy. And, if instructed, do these systems\npreserve inference time user privacy in non-adversarial multi-turn\nconversation. Existing benchmarks to evaluate contextual privacy in LLM-agents\nprimarily assess single-turn, low-complexity tasks where private information\ncan be easily excluded. We first present a benchmark - MAGPIE comprising 158\nreal-life high-stakes scenarios across 15 domains. These scenarios are designed\nsuch that complete exclusion of private data impedes task completion yet\nunrestricted information sharing could lead to substantial losses. We then\nevaluate the current state-of-the-art LLMs on (a) their understanding of\ncontextually private data and (b) their ability to collaborate without\nviolating user privacy. Empirical experiments demonstrate that current models,\nincluding GPT-4o and Claude-2.7-Sonnet, lack robust understanding of contextual\nprivacy, misclassifying private data as shareable 25.2\\% and 43.6\\% of the\ntime. In multi-turn conversations, these models disclose private information in\n59.9\\% and 50.5\\% of cases even under explicit privacy instructions.\nFurthermore, multi-agent systems fail to complete tasks in 71\\% of scenarios.\nThese results underscore that current models are not aligned towards both\ncontextual privacy preservation and collaborative task-solving.",
+    "updated" : "2025-06-25T18:04:25Z",
+    "published" : "2025-06-25T18:04:25Z",
+    "authors" : [
+      {
+        "name" : "Gurusha Juneja"
+      },
+      {
+        "name" : "Alon Albalak"
+      },
+      {
+        "name" : "Wenyue Hua"
+      },
+      {
+        "name" : "William Yang Wang"
+      }
+    ],
+    "categories" : [
+      "cs.AI",
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.19360v2",
+    "title" : "SoK: Can Synthetic Images Replace Real Data? A Survey of Utility and\n  Privacy of Synthetic Image Generation",
+    "summary" : "Advances in generative models have transformed the field of synthetic image\ngeneration for privacy-preserving data synthesis (PPDS). However, the field\nlacks a comprehensive survey and comparison of synthetic image generation\nmethods across diverse settings. In particular, when we generate synthetic\nimages for the purpose of training a classifier, there is a pipeline of\ngeneration-sampling-classification which takes private training as input and\noutputs the final classifier of interest. In this survey, we systematically\ncategorize existing image synthesis methods, privacy attacks, and mitigations\nalong this generation-sampling-classification pipeline. To empirically compare\ndiverse synthesis approaches, we provide a benchmark with representative\ngenerative methods and use model-agnostic membership inference attacks (MIAs)\nas a measure of privacy risk. Through this study, we seek to answer critical\nquestions in PPDS: Can synthetic data effectively replace real data? Which\nrelease strategy balances utility and privacy? Do mitigations improve the\nutility-privacy tradeoff? Which generative models perform best across different\nscenarios? With a systematic evaluation of diverse methods, our study provides\nactionable insights into the utility-privacy tradeoffs of synthetic data\ngeneration methods and guides the decision on optimal data releasing strategies\nfor real-world applications.",
+    "updated" : "2025-06-26T01:32:12Z",
+    "published" : "2025-06-24T06:41:34Z",
+    "authors" : [
+      {
+        "name" : "Yunsung Chung"
+      },
+      {
+        "name" : "Yunbei Zhang"
+      },
+      {
+        "name" : "Nassir Marrouche"
+      },
+      {
+        "name" : "Jihun Hamm"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.19268v2",
+    "title" : "HARPT: A Corpus for Analyzing Consumers' Trust and Privacy Concerns in\n  Mobile Health Apps",
+    "summary" : "We present HARPT, a large-scale annotated corpus of mobile health app store\nreviews aimed at advancing research in user privacy and trust. The dataset\ncomprises over 480,000 user reviews labeled into seven categories that capture\ncritical aspects of trust in applications, trust in providers and privacy\nconcerns. Creating HARPT required addressing multiple complexities, such as\ndefining a nuanced label schema, isolating relevant content from large volumes\nof noisy data, and designing an annotation strategy that balanced scalability\nwith accuracy. This strategy integrated rule-based filtering, iterative manual\nlabeling with review, targeted data augmentation, and weak supervision using\ntransformer-based classifiers to accelerate coverage. In parallel, a carefully\ncurated subset of 7,000 reviews was manually annotated to support model\ndevelopment and evaluation. We benchmark a broad range of classification\nmodels, demonstrating that strong performance is achievable and providing a\nbaseline for future research. HARPT is released as a public resource to support\nwork in health informatics, cybersecurity, and natural language processing.",
+    "updated" : "2025-06-26T15:23:54Z",
+    "published" : "2025-06-24T02:59:14Z",
+    "authors" : [
+      {
+        "name" : "Timoteo Kelly"
+      },
+      {
+        "name" : "Abdulkadir Korkmaz"
+      },
+      {
+        "name" : "Samuel Mallet"
+      },
+      {
+        "name" : "Connor Souders"
+      },
+      {
+        "name" : "Sadra Aliakbarpour"
+      },
+      {
+        "name" : "Praveen Rao"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "cs.CR",
+      "cs.ET",
+      "cs.LG"
+    ]
   }
 ]
