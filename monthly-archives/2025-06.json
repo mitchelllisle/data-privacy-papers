@@ -3287,5 +3287,66 @@
       "cs.ET",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.22342v1",
+    "title" : "A Framework for Multi-source Privacy Preserving Epidemic Analysis",
+    "summary" : "It is now well understood that diverse datasets provide a lot of value in key\nepidemiology and public health analyses, such as forecasting and nowcasting,\ndevelopment of epidemic models, evaluation and design of interventions and\nresource allocation. Some of these datasets are often sensitive, and need\nadequate privacy protections. There are many models of privacy, but\nDifferential Privacy (DP) has become a de facto standard because of its strong\nguarantees, without making models about adversaries. In this paper, we develop\na framework the integrates deep learning and epidemic models to simultaneously\nperform epidemic forecasting and learning a mechanistic model of epidemic\nspread, while incorporating multiple datasets for these analyses, including\nsome with DP guarantees. We demonstrate our framework using a realistic but\nsynthetic financial dataset with DP; such a dataset has not been used in such\nepidemic analyses. We show that this dataset provides significant value in\nforecasting and learning an epidemic model, even when used with DP guarantees.",
+    "updated" : "2025-06-27T15:52:12Z",
+    "published" : "2025-06-27T15:52:12Z",
+    "authors" : [
+      {
+        "name" : "Zihan Guan"
+      },
+      {
+        "name" : "Zhiyuan Zhao"
+      },
+      {
+        "name" : "Fengwei Tian"
+      },
+      {
+        "name" : "Dung Nguyen"
+      },
+      {
+        "name" : "Payel Bhattacharjee"
+      },
+      {
+        "name" : "Ravi Tandon"
+      },
+      {
+        "name" : "B. Aditya Prakash"
+      },
+      {
+        "name" : "Anil Vullikanti"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.21998v1",
+    "title" : "INTACT: Compact Storage of Data Streams in Mobile Devices to Unlock User\n  Privacy at the Edge",
+    "summary" : "Data streams produced by mobile devices, such as smartphones, offer highly\nvaluable sources of information to build ubiquitous services. Such data streams\nare generally uploaded and centralized to be processed by third parties,\npotentially exposing sensitive personal information. In this context, existing\nprotection mechanisms, such as Location Privacy Protection Mechanisms (LPPMs),\nhave been investigated. Alas, none of them have actually been implemented, nor\ndeployed in real-life, in mobile devices to enforce user privacy at the edge.\nMoreover, the diversity of embedded sensors and the resulting data deluge makes\nit impractical to provision such services directly on mobiles, due to their\nconstrained storage capacity, communication bandwidth and processing power.\nThis article reports on the FLI technique, which leverages a piece-wise linear\napproximation technique to capture compact representations of data streams in\nmobile devices. Beyond the FLI storage layer, we introduce Divide \\& Stay, a\nnew privacy preservation technique to execute Points of Interest (POIs)\ninference. Finally, we deploy both of them on Android and iOS as the INTACT\nframework, making a concrete step towards enforcing privacy and trust in\nubiquitous computing systems.",
+    "updated" : "2025-06-27T08:09:49Z",
+    "published" : "2025-06-27T08:09:49Z",
+    "authors" : [
+      {
+        "name" : "Rémy Raes"
+      },
+      {
+        "name" : "Olivier Ruas"
+      },
+      {
+        "name" : "Adrien Luxey-Bitri"
+      },
+      {
+        "name" : "Romain Rouvoy"
+      }
+    ],
+    "categories" : [
+      "cs.DS"
+    ]
   }
 ]
