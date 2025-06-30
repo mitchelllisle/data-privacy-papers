@@ -2,6 +2,60 @@
 <h2>2025-06</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2506.22342v1">A Framework for Multi-source Privacy Preserving Epidemic Analysis</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-06-27T15:52:12Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zihan Guan, Zhiyuan Zhao, Fengwei Tian, Dung Nguyen, Payel Bhattacharjee, Ravi Tandon, B. Aditya Prakash, Anil Vullikanti</p>
+    <p><b>Summary:</b> It is now well understood that diverse datasets provide a lot of value in key
+epidemiology and public health analyses, such as forecasting and nowcasting,
+development of epidemic models, evaluation and design of interventions and
+resource allocation. Some of these datasets are often sensitive, and need
+adequate privacy protections. There are many models of privacy, but
+Differential Privacy (DP) has become a de facto standard because of its strong
+guarantees, without making models about adversaries. In this paper, we develop
+a framework the integrates deep learning and epidemic models to simultaneously
+perform epidemic forecasting and learning a mechanistic model of epidemic
+spread, while incorporating multiple datasets for these analyses, including
+some with DP guarantees. We demonstrate our framework using a realistic but
+synthetic financial dataset with DP; such a dataset has not been used in such
+epidemic analyses. We show that this dataset provides significant value in
+forecasting and learning an epidemic model, even when used with DP guarantees.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2506.21998v1">INTACT: Compact Storage of Data Streams in Mobile Devices to Unlock User
+  Privacy at the Edge</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B">
+  <p><b>Published on:</b> 2025-06-27T08:09:49Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Rémy Raes, Olivier Ruas, Adrien Luxey-Bitri, Romain Rouvoy</p>
+    <p><b>Summary:</b> Data streams produced by mobile devices, such as smartphones, offer highly
+valuable sources of information to build ubiquitous services. Such data streams
+are generally uploaded and centralized to be processed by third parties,
+potentially exposing sensitive personal information. In this context, existing
+protection mechanisms, such as Location Privacy Protection Mechanisms (LPPMs),
+have been investigated. Alas, none of them have actually been implemented, nor
+deployed in real-life, in mobile devices to enforce user privacy at the edge.
+Moreover, the diversity of embedded sensors and the resulting data deluge makes
+it impractical to provision such services directly on mobiles, due to their
+constrained storage capacity, communication bandwidth and processing power.
+This article reports on the FLI technique, which leverages a piece-wise linear
+approximation technique to capture compact representations of data streams in
+mobile devices. Beyond the FLI storage layer, we introduce Divide \& Stay, a
+new privacy preservation technique to execute Points of Interest (POIs)
+inference. Finally, we deploy both of them on Android and iOS as the INTACT
+framework, making a concrete step towards enforcing privacy and trust in
+ubiquitous computing systems.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2506.21308v1">Balancing Privacy and Utility in Correlated Data: A Study of Bayesian
   Differential Privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36">  
@@ -2911,66 +2965,6 @@ privacy-preserving SSO services and OPRFs, and prove the SSO-related properties
 (i.e., key-identifier freeness, RP designation and user identification) of OPRF
 protocols, in addition to the basic properties of correctness, obliviousness
 and pseudo-randomness.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.11069v1">Regularized Federated Learning for Privacy-Preserving Dysarthric and
-  Elderly Speech Recognition</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Sound-D91E36">
-  <p><b>Published on:</b> 2025-06-02T01:34:20Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Tao Zhong, Mengzhe Geng, Shujie Hu, Guinan Li, Xunying Liu</p>
-    <p><b>Summary:</b> Accurate recognition of dysarthric and elderly speech remains challenging to
-date. While privacy concerns have driven a shift from centralized approaches to
-federated learning (FL) to ensure data confidentiality, this further
-exacerbates the challenges of data scarcity, imbalanced data distribution and
-speaker heterogeneity. To this end, this paper conducts a systematic
-investigation of regularized FL techniques for privacy-preserving dysarthric
-and elderly speech recognition, addressing different levels of the FL process
-by 1) parameter-based, 2) embedding-based and 3) novel loss-based
-regularization. Experiments on the benchmark UASpeech dysarthric and
-DementiaBank Pitt elderly speech corpora suggest that regularized FL systems
-consistently outperform the baseline FedAvg system by statistically significant
-WER reductions of up to 0.55\% absolute (2.13\% relative). Further increasing
-communication frequency to one exchange per batch approaches centralized
-training performance.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.02063v1">Privacy-Aware, Public-Aligned: Embedding Risk Detection and Public
-  Values into Scalable Clinical Text De-Identification for Trusted Research
-  Environments</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-06-01T17:45:57Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Arlene Casey, Stuart Dunbar, Franz Gruber, Samuel McInerney, Matúš Falis, Pamela Linksted, Katie Wilde, Kathy Harrison, Alison Hamilton, Christian Cole</p>
-    <p><b>Summary:</b> Clinical free-text data offers immense potential to improve population health
-research such as richer phenotyping, symptom tracking, and contextual
-understanding of patient care. However, these data present significant privacy
-risks due to the presence of directly or indirectly identifying information
-embedded in unstructured narratives. While numerous de-identification tools
-have been developed, few have been tested on real-world, heterogeneous datasets
-at scale or assessed for governance readiness. In this paper, we synthesise our
-findings from previous studies examining the privacy-risk landscape across
-multiple document types and NHS data providers in Scotland. We characterise how
-direct and indirect identifiers vary by record type, clinical setting, and data
-flow, and show how changes in documentation practice can degrade model
-performance over time. Through public engagement, we explore societal
-expectations around the safe use of clinical free text and reflect these in the
-design of a prototype privacy-risk management tool to support transparent,
-auditable decision-making. Our findings highlight that privacy risk is
-context-dependent and cumulative, underscoring the need for adaptable, hybrid
-de-identification approaches that combine rule-based precision with contextual
-understanding. We offer a comprehensive view of the challenges and
-opportunities for safe, scalable reuse of clinical free-text within Trusted
-Research Environments and beyond, grounded in both technical evidence and
-public perspectives on responsible data use.</p>
   </details>
 </div>
 
