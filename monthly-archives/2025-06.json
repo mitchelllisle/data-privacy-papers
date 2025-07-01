@@ -3348,5 +3348,374 @@
     "categories" : [
       "cs.DS"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.24033v1",
+    "title" : "Poisoning Attacks to Local Differential Privacy for Ranking Estimation",
+    "summary" : "Local differential privacy (LDP) involves users perturbing their inputs to\nprovide plausible deniability of their data. However, this also makes LDP\nvulnerable to poisoning attacks. In this paper, we first introduce novel\npoisoning attacks for ranking estimation. These attacks are intricate, as fake\nattackers do not merely adjust the frequency of target items. Instead, they\nleverage a limited number of fake users to precisely modify frequencies,\neffectively altering item rankings to maximize gains. To tackle this challenge,\nwe introduce the concepts of attack cost and optimal attack item (set), and\npropose corresponding strategies for kRR, OUE, and OLH protocols. For kRR, we\niteratively select optimal attack items and allocate suitable fake users. For\nOUE, we iteratively determine optimal attack item sets and consider the\nincremental changes in item frequencies across different sets. Regarding OLH,\nwe develop a harmonic cost function based on the pre-image of a hash to select\nthat supporting a larger number of effective attack items. Lastly, we present\nan attack strategy based on confidence levels to quantify the probability of a\nsuccessful attack and the number of attack iterations more precisely. We\ndemonstrate the effectiveness of our attacks through theoretical and empirical\nevidence, highlighting the necessity for defenses against these attacks. The\nsource code and data have been made available at\nhttps://github.com/LDP-user/LDP-Ranking.git.",
+    "updated" : "2025-06-30T16:39:02Z",
+    "published" : "2025-06-30T16:39:02Z",
+    "authors" : [
+      {
+        "name" : "Pei Zhan"
+      },
+      {
+        "name" : "Peng Tang"
+      },
+      {
+        "name" : "Yangzhuo Li"
+      },
+      {
+        "name" : "Puwen Wei"
+      },
+      {
+        "name" : "Shanqing Guo"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.23866v1",
+    "title" : "Exploring Privacy and Security as Drivers for Environmental\n  Sustainability in Cloud-Based Office Solutions",
+    "summary" : "In this paper, we explore the intersection of privacy, security, and\nenvironmental sustainability in cloud-based office solutions, focusing on\nquantifying user- and network-side energy use and associated carbon emissions.\nWe hypothesise that privacy-focused services are typically more\nenergy-efficient than those funded through data collection and advertising. To\nevaluate this, we propose a framework that systematically measures\nenvironmental costs based on energy usage and network data traffic during\nwell-defined, automated usage scenarios. To test our hypothesis, we first\nanalyse how underlying architectures and business models, such as monetisation\nthrough personalised advertising, contribute to the environmental footprint of\nthese services. We then explore existing methodologies and tools for software\nenvironmental impact assessment. We apply our framework to three mainstream\nemail services selected to reflect different privacy policies, from\nad-supported tracking-intensive models to privacy-focused designs: Microsoft\nOutlook, Google Mail (Gmail), and Proton Mail. We extend this comparison to a\nself-hosted email solution, evaluated with and without end-to-end encryption.\nWe show that the self-hosted solution, even with 14% of device energy and 15%\nof emissions overheads from PGP encryption, remains the most energy-efficient,\nsaving up to 33% of emissions per session compared to Gmail. Among commercial\nproviders, Proton Mail is the most efficient, saving up to 0.1 gCO2 e per\nsession compared to Outlook, whose emissions can be further reduced by 2%\nthrough ad-blocking.",
+    "updated" : "2025-06-30T13:58:22Z",
+    "published" : "2025-06-30T13:58:22Z",
+    "authors" : [
+      {
+        "name" : "Jason Kayembe"
+      },
+      {
+        "name" : "Iness Ben Guirat"
+      },
+      {
+        "name" : "Jan Tobias Mühlberg"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CY",
+      "cs.SE"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.23622v1",
+    "title" : "Privacy-Preserving Federated Learning Scheme with Mitigating Model\n  Poisoning Attacks: Vulnerabilities and Countermeasures",
+    "summary" : "The privacy-preserving federated learning schemes based on the setting of two\nhonest-but-curious and non-colluding servers offer promising solutions in terms\nof security and efficiency. However, our investigation reveals that these\nschemes still suffer from privacy leakage when considering model poisoning\nattacks from malicious users. Specifically, we demonstrate that the\nprivacy-preserving computation process for defending against model poisoning\nattacks inadvertently leaks privacy to one of the honest-but-curious servers,\nenabling it to access users' gradients in plaintext. To address both privacy\nleakage and model poisoning attacks, we propose an enhanced privacy-preserving\nand Byzantine-robust federated learning (PBFL) scheme, comprising three\ncomponents: (1) a two-trapdoor fully homomorphic encryption (FHE) scheme to\nbolster users' privacy protection; (2) a novel secure normalization judgment\nmethod to preemptively thwart gradient poisoning; and (3) an innovative secure\ncosine similarity measurement method for detecting model poisoning attacks\nwithout compromising data privacy. Our scheme guarantees privacy preservation\nand resilience against model poisoning attacks, even in scenarios with\nheterogeneous, non-IID (Independently and Identically Distributed) datasets.\nTheoretical analyses substantiate the security and efficiency of our scheme,\nand extensive experiments corroborate the efficacy of our private attacks.\nFurthermore, the experimental results demonstrate that our scheme accelerates\ntraining speed while reducing communication overhead compared to the\nstate-of-the-art PBFL schemes.",
+    "updated" : "2025-06-30T08:39:01Z",
+    "published" : "2025-06-30T08:39:01Z",
+    "authors" : [
+      {
+        "name" : "Jiahui Wu"
+      },
+      {
+        "name" : "Fucai Luo"
+      },
+      {
+        "name" : "Tiecheng Sun"
+      },
+      {
+        "name" : "Haiyan Wang"
+      },
+      {
+        "name" : "Weizhe Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.23603v1",
+    "title" : "SoK: Semantic Privacy in Large Language Models",
+    "summary" : "As Large Language Models (LLMs) are increasingly deployed in sensitive\ndomains, traditional data privacy measures prove inadequate for protecting\ninformation that is implicit, contextual, or inferable - what we define as\nsemantic privacy. This Systematization of Knowledge (SoK) introduces a\nlifecycle-centric framework to analyze how semantic privacy risks emerge across\ninput processing, pretraining, fine-tuning, and alignment stages of LLMs. We\ncategorize key attack vectors and assess how current defenses, such as\ndifferential privacy, embedding encryption, edge computing, and unlearning,\naddress these threats. Our analysis reveals critical gaps in semantic-level\nprotection, especially against contextual inference and latent representation\nleakage. We conclude by outlining open challenges, including quantifying\nsemantic leakage, protecting multimodal inputs, balancing de-identification\nwith generation quality, and ensuring transparency in privacy enforcement. This\nwork aims to inform future research on designing robust, semantically aware\nprivacy-preserving techniques for LLMs.",
+    "updated" : "2025-06-30T08:08:15Z",
+    "published" : "2025-06-30T08:08:15Z",
+    "authors" : [
+      {
+        "name" : "Baihe Ma"
+      },
+      {
+        "name" : "Yanna Jiang"
+      },
+      {
+        "name" : "Xu Wang"
+      },
+      {
+        "name" : "Guangshen Yu"
+      },
+      {
+        "name" : "Qin Wang"
+      },
+      {
+        "name" : "Caijun Sun"
+      },
+      {
+        "name" : "Chen Li"
+      },
+      {
+        "name" : "Xuelei Qi"
+      },
+      {
+        "name" : "Ying He"
+      },
+      {
+        "name" : "Wei Ni"
+      },
+      {
+        "name" : "Ren Ping Liu"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.23583v1",
+    "title" : "Detect \\& Score: Privacy-Preserving Misbehaviour Detection and\n  Contribution Evaluation in Federated Learning",
+    "summary" : "Federated learning with secure aggregation enables private and collaborative\nlearning from decentralised data without leaking sensitive client information.\nHowever, secure aggregation also complicates the detection of malicious client\nbehaviour and the evaluation of individual client contributions to the\nlearning. To address these challenges, QI (Pejo et al.) and FedGT (Xhemrishi et\nal.) were proposed for contribution evaluation (CE) and misbehaviour detection\n(MD), respectively. QI, however, lacks adequate MD accuracy due to its reliance\non the random selection of clients in each training round, while FedGT lacks\nthe CE ability. In this work, we combine the strengths of QI and FedGT to\nachieve both robust MD and accurate CE. Our experiments demonstrate superior\nperformance compared to using either method independently.",
+    "updated" : "2025-06-30T07:40:18Z",
+    "published" : "2025-06-30T07:40:18Z",
+    "authors" : [
+      {
+        "name" : "Marvin Xhemrishi"
+      },
+      {
+        "name" : "Alexandre Graell i Amat"
+      },
+      {
+        "name" : "Balázs Pejó"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DC",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.23481v1",
+    "title" : "Evaluation of Geolocation Capabilities of Multimodal Large Language\n  Models and Analysis of Associated Privacy Risks",
+    "summary" : "Objectives: The rapid advancement of Multimodal Large Language Models (MLLMs)\nhas significantly enhanced their reasoning capabilities, enabling a wide range\nof intelligent applications. However, these advancements also raise critical\nconcerns regarding privacy and ethics. MLLMs are now capable of inferring the\ngeographic location of images -- such as those shared on social media or\ncaptured from street views -- based solely on visual content, thereby posing\nserious risks of privacy invasion, including doxxing, surveillance, and other\nsecurity threats.\n  Methods: This study provides a comprehensive analysis of existing geolocation\ntechniques based on MLLMs. It systematically reviews relevant litera-ture and\nevaluates the performance of state-of-the-art visual reasoning models on\ngeolocation tasks, particularly in identifying the origins of street view\nimagery.\n  Results: Empirical evaluation reveals that the most advanced visual large\nmodels can successfully localize the origin of street-level imagery with up to\n$49\\%$ accuracy within a 1-kilometer radius. This performance underscores the\nmodels' powerful capacity to extract and utilize fine-grained geographic cues\nfrom visual data.\n  Conclusions: Building on these findings, the study identifies key visual\nelements that contribute to suc-cessful geolocation, such as text,\narchitectural styles, and environmental features. Furthermore, it discusses the\npotential privacy implications associated with MLLM-enabled geolocation and\ndiscuss several technical and policy-based coun-termeasures to mitigate\nassociated risks. Our code and dataset are available at\nhttps://github.com/zxyl1003/MLLM-Geolocation-Evaluation.",
+    "updated" : "2025-06-30T03:05:30Z",
+    "published" : "2025-06-30T03:05:30Z",
+    "authors" : [
+      {
+        "name" : "Xian Zhang"
+      },
+      {
+        "name" : "Xiang Cheng"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "eess.IV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.23014v1",
+    "title" : "Generating Privacy Stories From Software Documentation",
+    "summary" : "Research shows that analysts and developers consider privacy as a security\nconcept or as an afterthought, which may lead to non-compliance and violation\nof users' privacy. Most current approaches, however, focus on extracting legal\nrequirements from the regulations and evaluating the compliance of software and\nprocesses with them. In this paper, we develop a novel approach based on\nchain-of-thought prompting (CoT), in-context-learning (ICL), and Large Language\nModels (LLMs) to extract privacy behaviors from various software documents\nprior to and during software development, and then generate privacy\nrequirements in the format of user stories. Our results show that most commonly\nused LLMs, such as GPT-4o and Llama 3, can identify privacy behaviors and\ngenerate privacy user stories with F1 scores exceeding 0.8. We also show that\nthe performance of these models could be improved through parameter-tuning. Our\nfindings provide insight into using and optimizing LLMs for generating privacy\nrequirements given software documents created prior to or throughout the\nsoftware development lifecycle.",
+    "updated" : "2025-06-28T20:55:21Z",
+    "published" : "2025-06-28T20:55:21Z",
+    "authors" : [
+      {
+        "name" : "Wilder Baldwin"
+      },
+      {
+        "name" : "Shashank Chintakuntla"
+      },
+      {
+        "name" : "Shreyah Parajuli"
+      },
+      {
+        "name" : "Ali Pourghasemi"
+      },
+      {
+        "name" : "Ryan Shanz"
+      },
+      {
+        "name" : "Sepideh Ghanavati"
+      }
+    ],
+    "categories" : [
+      "cs.SE",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.22789v1",
+    "title" : "WavShape: Information-Theoretic Speech Representation Learning for Fair\n  and Privacy-Aware Audio Processing",
+    "summary" : "Speech embeddings often retain sensitive attributes such as speaker identity,\naccent, or demographic information, posing risks in biased model training and\nprivacy leakage. We propose WavShape, an information-theoretic speech\nrepresentation learning framework that optimizes embeddings for fairness and\nprivacy while preserving task-relevant information. We leverage mutual\ninformation (MI) estimation using the Donsker-Varadhan formulation to guide an\nMI-based encoder that systematically filters sensitive attributes while\nmaintaining speech content essential for downstream tasks. Experimental results\non three known datasets show that WavShape reduces MI between embeddings and\nsensitive attributes by up to 81% while retaining 97% of task-relevant\ninformation. By integrating information theory with self-supervised speech\nmodels, this work advances the development of fair, privacy-aware, and\nresource-efficient speech systems.",
+    "updated" : "2025-06-28T07:03:55Z",
+    "published" : "2025-06-28T07:03:55Z",
+    "authors" : [
+      {
+        "name" : "Oguzhan Baser"
+      },
+      {
+        "name" : "Ahmet Ege Tanriverdi"
+      },
+      {
+        "name" : "Kaan Kale"
+      },
+      {
+        "name" : "Sandeep P. Chinchali"
+      },
+      {
+        "name" : "Sriram Vishwanath"
+      }
+    ],
+    "categories" : [
+      "cs.SD",
+      "cs.AI",
+      "eess.AS"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.22787v1",
+    "title" : "What's Privacy Good for? Measuring Privacy as a Shield from Harms due to\n  Personal Data Use",
+    "summary" : "We propose a harm-centric conceptualization of privacy that asks: What harms\nfrom personal data use can privacy prevent? The motivation behind this research\nis limitations in existing privacy frameworks (e.g., Contextual Integrity) to\ncapture or categorize many of the harms that arise from modern technology's use\nof personal data. We operationalize this conceptualization in an online study\nwith 400 college and university students. Study participants indicated their\nperceptions of different harms (e.g., manipulation, discrimination, and\nharassment) that may arise when artificial intelligence-based algorithms infer\npersonal data (e.g., demographics, personality traits, and cognitive\ndisability) and use it to identify students who are likely to drop out of a\ncourse or the best job candidate. The study includes 14 harms and six types of\npersonal data selected based on an extensive literature review.\n  Comprehensive statistical analyses of the study data show that the 14 harms\nare internally consistent and collectively represent a general notion of\nprivacy harms. The study data also surfaces nuanced perceptions of harms, both\nacross the contexts and participants' demographic factors. Based on these\nresults, we discuss how privacy can be improved equitably. Thus, this research\nnot only contributes to enhancing the understanding of privacy as a concept but\nalso provides practical guidance to improve privacy in the context of education\nand employment.",
+    "updated" : "2025-06-28T07:00:37Z",
+    "published" : "2025-06-28T07:00:37Z",
+    "authors" : [
+      {
+        "name" : "Sri Harsha Gajavalli"
+      },
+      {
+        "name" : "Junichi Koizumi"
+      },
+      {
+        "name" : "Rakibul Hasan"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.22752v1",
+    "title" : "Privacy-Preserving Methods for Bug Severity Prediction",
+    "summary" : "Bug severity prediction is a critical task in software engineering as it\nenables more efficient resource allocation and prioritization in software\nmaintenance. While AI-based analyses and models significantly require access to\nextensive datasets, industrial applications face challenges due to data-sharing\nconstraints and the limited availability of labeled data. In this study, we\ninvestigate method-level bug severity prediction using source code metrics and\nLarge Language Models (LLMs) with two widely used datasets. We compare the\nperformance of models trained using centralized learning, federated learning,\nand synthetic data generation. Our experimental results, obtained using two\nwidely recognized software defect datasets, indicate that models trained with\nfederated learning and synthetic data achieve comparable results to centrally\ntrained models without data sharing. Our finding highlights the potential of\nprivacy-preserving approaches such as federated learning and synthetic data\ngeneration to enable effective bug severity prediction in industrial context\nwhere data sharing is a major challenge.\n  The source code and dataset are available at our GitHub repository:\nhttps://github.com/drvshavva/EASE2025-Privacy-Preserving-Methods-for-Bug-Severity-Prediction.",
+    "updated" : "2025-06-28T04:40:51Z",
+    "published" : "2025-06-28T04:40:51Z",
+    "authors" : [
+      {
+        "name" : "Havvanur Dervişoğlu"
+      },
+      {
+        "name" : "Ruşen Halepmollası"
+      },
+      {
+        "name" : "Elif Eyvaz"
+      }
+    ],
+    "categories" : [
+      "cs.SE"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.22727v1",
+    "title" : "Convergent Privacy Framework with Contractive GNN Layers for Multi-hop\n  Aggregations",
+    "summary" : "Differential privacy (DP) has been integrated into graph neural networks\n(GNNs) to protect sensitive structural information, e.g., edges, nodes, and\nassociated features across various applications. A common approach is to\nperturb the message-passing process, which forms the core of most GNN\narchitectures. However, existing methods typically incur a privacy cost that\ngrows linearly with the number of layers (Usenix Security'23), ultimately\nrequiring excessive noise to maintain a reasonable privacy level. This\nlimitation becomes particularly problematic when deep GNNs are necessary to\ncapture complex and long-range interactions in graphs. In this paper, we\ntheoretically establish that the privacy budget can converge with respect to\nthe number of layers by applying privacy amplification techniques to the\nmessage-passing process, exploiting the contractive properties inherent to\nstandard GNN operations. Motivated by this analysis, we propose a simple yet\neffective Contractive Graph Layer (CGL) that ensures the contractiveness\nrequired for theoretical guarantees while preserving model utility. Our\nframework, CARIBOU, supports both training and inference, equipped with a\ncontractive aggregation module, a privacy allocation module, and a privacy\nauditing module. Experimental evaluations demonstrate that CARIBOU\nsignificantly improves the privacy-utility trade-off and achieves superior\nperformance in privacy auditing tasks.",
+    "updated" : "2025-06-28T02:17:53Z",
+    "published" : "2025-06-28T02:17:53Z",
+    "authors" : [
+      {
+        "name" : "Yu Zheng"
+      },
+      {
+        "name" : "Chenang Li"
+      },
+      {
+        "name" : "Zhou Li"
+      },
+      {
+        "name" : "Qingsong Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.22606v1",
+    "title" : "A User-Centric, Privacy-Preserving, and Verifiable Ecosystem for\n  Personal Data Management and Utilization",
+    "summary" : "In the current paradigm of digital personalized services, the centralized\nmanagement of personal data raises significant privacy concerns, security\nvulnerabilities, and diminished individual autonomy over sensitive information.\nDespite their efficiency, traditional centralized architectures frequently fail\nto satisfy rigorous privacy requirements and expose users to data breaches and\nunauthorized access risks. This pressing challenge calls for a fundamental\nparadigm shift in methodologies for collecting, storing, and utilizing personal\ndata across diverse sectors, including education, healthcare, and finance.\n  This paper introduces a novel decentralized, privacy-preserving architecture\nthat handles heterogeneous personal information, ranging from educational\ncredentials to health records and financial data. Unlike traditional models,\nour system grants users complete data ownership and control, allowing them to\nselectively share information without compromising privacy. The architecture's\nfoundation comprises advanced privacy-enhancing technologies, including secure\nenclaves and federated learning, enabling secure computation, verification, and\ndata sharing. The system supports diverse functionalities, including local\ncomputation, model training, and privacy-preserving data sharing, while\nensuring data credibility and robust user privacy.",
+    "updated" : "2025-06-27T20:05:46Z",
+    "published" : "2025-06-27T20:05:46Z",
+    "authors" : [
+      {
+        "name" : "Osama Zafar"
+      },
+      {
+        "name" : "Mina Namazi"
+      },
+      {
+        "name" : "Yuqiao Xu"
+      },
+      {
+        "name" : "Youngjin Yoo"
+      },
+      {
+        "name" : "Erman Ayday"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.22462v1",
+    "title" : "Privacy-aware IoT Fall Detection Services For Aging in Place",
+    "summary" : "Fall detection is critical to support the growing elderly population,\nprojected to reach 2.1 billion by 2050. However, existing methods often face\ndata scarcity challenges or compromise privacy. We propose a novel IoT-based\nFall Detection as a Service (FDaaS) framework to assist the elderly in living\nindependently and safely by accurately detecting falls. We design a\nservice-oriented architecture that leverages Ultra-wideband (UWB) radar sensors\nas an IoT health-sensing service, ensuring privacy and minimal intrusion. We\naddress the challenges of data scarcity by utilizing a Fall Detection\nGenerative Pre-trained Transformer (FD-GPT) that uses augmentation techniques.\nWe developed a protocol to collect a comprehensive dataset of the elderly daily\nactivities and fall events. This resulted in a real dataset that carefully\nmimics the elderly's routine. We rigorously evaluate and compare various models\nusing this dataset. Experimental results show our approach achieves 90.72%\naccuracy and 89.33% precision in distinguishing between fall events and regular\nactivities of daily living.",
+    "updated" : "2025-06-18T03:28:07Z",
+    "published" : "2025-06-18T03:28:07Z",
+    "authors" : [
+      {
+        "name" : "Abdallah Lakhdari"
+      },
+      {
+        "name" : "Jiajie Li"
+      },
+      {
+        "name" : "Amani Abusafia"
+      },
+      {
+        "name" : "Athman Bouguettaya"
+      }
+    ],
+    "categories" : [
+      "eess.SP",
+      "cs.AI",
+      "cs.CY",
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.12846v2",
+    "title" : "VFEFL: Privacy-Preserving Federated Learning against Malicious Clients\n  via Verifiable Functional Encryption",
+    "summary" : "Federated learning is a promising distributed learning paradigm that enables\ncollaborative model training without exposing local client data, thereby\nprotect data privacy. However, it also brings new threats and challenges. The\nadvancement of model inversion attacks has rendered the plaintext transmission\nof local models insecure, while the distributed nature of federated learning\nmakes it particularly vulnerable to attacks raised by malicious clients. To\nprotect data privacy and prevent malicious client attacks, this paper proposes\na privacy-preserving federated learning framework based on verifiable\nfunctional encryption, without a non-colluding dual-server setup or additional\ntrusted third-party. Specifically, we propose a novel decentralized verifiable\nfunctional encryption (DVFE) scheme that enables the verification of specific\nrelationships over multi-dimensional ciphertexts. This scheme is formally\ntreated, in terms of definition, security model and security proof.\nFurthermore, based on the proposed DVFE scheme, we design a privacy-preserving\nfederated learning framework VFEFL that incorporates a novel robust aggregation\nrule to detect malicious clients, enabling the effective training of\nhigh-accuracy models under adversarial settings. Finally, we provide formal\nanalysis and empirical evaluation of the proposed schemes. The results\ndemonstrate that our approach achieves the desired privacy protection,\nrobustness, verifiability and fidelity, while eliminating the reliance on\nnon-colluding dual-server settings or trusted third parties required by\nexisting methods.",
+    "updated" : "2025-06-28T09:23:38Z",
+    "published" : "2025-06-15T13:38:40Z",
+    "authors" : [
+      {
+        "name" : "Nina Cai"
+      },
+      {
+        "name" : "Jinguang Han"
+      },
+      {
+        "name" : "Weizhi Meng"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
   }
 ]
