@@ -3717,5 +3717,39 @@
       "cs.CR",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.17336v2",
+    "title" : "Privacy-Preserving LLM Interaction with Socratic Chain-of-Thought\n  Reasoning and Homomorphically Encrypted Vector Databases",
+    "summary" : "Large language models (LLMs) are increasingly used as personal agents,\naccessing sensitive user data such as calendars, emails, and medical records.\nUsers currently face a trade-off: They can send private records, many of which\nare stored in remote databases, to powerful but untrusted LLM providers,\nincreasing their exposure risk. Alternatively, they can run less powerful\nmodels locally on trusted devices. We bridge this gap. Our Socratic\nChain-of-Thought Reasoning first sends a generic, non-private user query to a\npowerful, untrusted LLM, which generates a Chain-of-Thought (CoT) prompt and\ndetailed sub-queries without accessing user data. Next, we embed these\nsub-queries and perform encrypted sub-second semantic search using our\nHomomorphically Encrypted Vector Database across one million entries of a\nsingle user's private data. This represents a realistic scale of personal\ndocuments, emails, and records accumulated over years of digital activity.\nFinally, we feed the CoT prompt and the decrypted records to a local language\nmodel and generate the final response. On the LoCoMo long-context QA benchmark,\nour hybrid framework, combining GPT-4o with a local Llama-3.2-1B model,\noutperforms using GPT-4o alone by up to 7.1 percentage points. This\ndemonstrates a first step toward systems where tasks are decomposed and split\nbetween untrusted strong LLMs and weak local ones, preserving user privacy.",
+    "updated" : "2025-07-01T16:41:35Z",
+    "published" : "2025-06-19T07:13:30Z",
+    "authors" : [
+      {
+        "name" : "Yubeen Bae"
+      },
+      {
+        "name" : "Minchan Kim"
+      },
+      {
+        "name" : "Jaejin Lee"
+      },
+      {
+        "name" : "Sangbum Kim"
+      },
+      {
+        "name" : "Jaehyung Kim"
+      },
+      {
+        "name" : "Yejin Choi"
+      },
+      {
+        "name" : "Niloofar Mireshghallah"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
   }
 ]
