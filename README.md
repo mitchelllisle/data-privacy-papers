@@ -1150,7 +1150,7 @@ preserves privacy, and effectively transfers high-utility soft prompts.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.17336v1">Privacy-Preserving LLM Interaction with Socratic Chain-of-Thought
+  <h3><a href="http://arxiv.org/abs/2506.17336v2">Privacy-Preserving LLM Interaction with Socratic Chain-of-Thought
   Reasoning and Homomorphically Encrypted Vector Databases</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
   <p><b>Published on:</b> 2025-06-19T07:13:30Z</p>
