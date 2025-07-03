@@ -1,1 +1,247 @@
-[{"id":"http://arxiv.org/abs/2507.01808v1","title":"Empowering Manufacturers with Privacy-Preserving AI Tools: A Case Study\n  in Privacy-Preserving Machine Learning to Solve Real-World Problems","summary":"Small- and medium-sized manufacturers need innovative data tools but, because\nof competition and privacy concerns, often do not want to share their\nproprietary data with researchers who might be interested in helping. This\npaper introduces a privacy-preserving platform by which manufacturers may\nsafely share their data with researchers through secure methods, so that those\nresearchers then create innovative tools to solve the manufacturers' real-world\nproblems, and then provide tools that execute solutions back onto the platform\nfor others to use with privacy and confidentiality guarantees. We illustrate\nthis problem through a particular use case which addresses an important problem\nin the large-scale manufacturing of food crystals, which is that quality\ncontrol relies on image analysis tools. Previous to our research, food crystals\nin the images were manually counted, which required substantial and\ntime-consuming human efforts, but we have developed and deployed a crystal\nanalysis tool which makes this process both more rapid and accurate. The tool\nenables automatic characterization of the crystal size distribution and numbers\nfrom microscope images while the natural imperfections from the sample\npreparation are automatically removed; a machine learning model to count high\nresolution translucent crystals and agglomeration of crystals was also\ndeveloped to aid in these efforts. The resulting algorithm was then packaged\nfor real-world use on the factory floor via a web-based app secured through the\noriginating privacy-preserving platform, allowing manufacturers to use it while\nkeeping their proprietary data secure. After demonstrating this full process,\nfuture directions are also explored.","updated":"2025-07-02T15:25:43Z","published":"2025-07-02T15:25:43Z","authors":[{"name":"Xiaoyu Ji"},{"name":"Jessica Shorland"},{"name":"Joshua Shank"},{"name":"Pascal Delpe-Brice"},{"name":"Latanya Sweeney"},{"name":"Jan Allebach"},{"name":"Ali Shakouri"}],"categories":["cs.CR","cs.AI","cs.CV","cs.ET","68T01, 68T05, 68T45, 94A60"]},{"id":"http://arxiv.org/abs/2507.01752v1","title":"Tuning without Peeking: Provable Privacy and Generalization Bounds for\n  LLM Post-Training","summary":"Gradient-based optimization is the workhorse of deep learning, offering\nefficient and scalable training via backpropagation. However, its reliance on\nlarge volumes of labeled data raises privacy and security concerns such as\nsusceptibility to data poisoning attacks and the risk of overfitting. In\ncontrast, black box optimization methods, which treat the model as an opaque\nfunction, relying solely on function evaluations to guide optimization, offer a\npromising alternative in scenarios where data access is restricted, adversarial\nrisks are high, or overfitting is a concern. However, black box methods also\npose significant challenges, including poor scalability to high-dimensional\nparameter spaces, as prevalent in large language models (LLMs), and high\ncomputational costs due to reliance on numerous model evaluations. This paper\nintroduces BBoxER, an evolutionary black-box method for LLM post-training that\ninduces an information bottleneck via implicit compression of the training\ndata. Leveraging the tractability of information flow, we provide strong\ntheoretical bounds on generalization, differential privacy, susceptibility to\ndata poisoning attacks, and robustness to extraction attacks. BBoxER operates\non top of pre-trained LLMs, offering a lightweight and modular enhancement\nsuitable for deployment in restricted or privacy-sensitive environments, in\naddition to non-vacuous generalization guarantees. In experiments with LLMs, we\ndemonstrate empirically that Retrofitting methods are able to learn, showing\nhow a few iterations of BBoxER improve performance and generalize well on a\nbenchmark of reasoning datasets. This positions BBoxER as an attractive add-on\non top of gradient-based optimization.","updated":"2025-07-02T14:29:30Z","published":"2025-07-02T14:29:30Z","authors":[{"name":"Ismail Labiad"},{"name":"Mathurin Videau"},{"name":"Matthieu Kowalski"},{"name":"Marc Schoenauer"},{"name":"Alessandro Leite"},{"name":"Julia Kempe"},{"name":"Olivier Teytaud"}],"categories":["cs.LG","cs.AI","cs.CL","cs.CR"]},{"id":"http://arxiv.org/abs/2507.01581v1","title":"A Privacy-Preserving Indoor Localization System based on Hierarchical\n  Federated Learning","summary":"Location information serves as the fundamental element for numerous Internet\nof Things (IoT) applications. Traditional indoor localization techniques often\nproduce significant errors and raise privacy concerns due to centralized data\ncollection. In response, Machine Learning (ML) techniques offer promising\nsolutions by capturing indoor environment variations. However, they typically\nrequire central data aggregation, leading to privacy, bandwidth, and server\nreliability issues. To overcome these challenges, in this paper, we propose a\nFederated Learning (FL)-based approach for dynamic indoor localization using a\nDeep Neural Network (DNN) model. Experimental results show that FL has the\nnearby performance to Centralized Model (CL) while keeping the data privacy,\nbandwidth efficiency and server reliability. This research demonstrates that\nour proposed FL approach provides a viable solution for privacy-enhanced indoor\nlocalization, paving the way for advancements in secure and efficient indoor\nlocalization systems.","updated":"2025-07-02T10:53:31Z","published":"2025-07-02T10:53:31Z","authors":[{"name":"Masood Jan"},{"name":"Wafa Njima"},{"name":"Xun Zhang"}],"categories":["cs.LG","cs.CR","eess.SP"]},{"id":"http://arxiv.org/abs/2507.01487v1","title":"How to Securely Shuffle? A survey about Secure Shufflers for\n  privacy-preserving computations","summary":"Ishai et al. (FOCS'06) introduced secure shuffling as an efficient building\nblock for private data aggregation. Recently, the field of differential privacy\nhas revived interest in secure shufflers by highlighting the privacy\namplification they can provide in various computations. Although several works\nargue for the utility of secure shufflers, they often treat them as black\nboxes; overlooking the practical vulnerabilities and performance trade-offs of\nexisting implementations. This leaves a central question open: what makes a\ngood secure shuffler?\n  This survey addresses that question by identifying, categorizing, and\ncomparing 26 secure protocols that realize the necessary shuffling\nfunctionality. To enable a meaningful comparison, we adapt and unify existing\nsecurity definitions into a consistent set of properties. We also present an\noverview of privacy-preserving technologies that rely on secure shufflers,\noffer practical guidelines for selecting appropriate protocols, and outline\npromising directions for future work.","updated":"2025-07-02T08:48:53Z","published":"2025-07-02T08:48:53Z","authors":[{"name":"Marc Damie"},{"name":"Florian Hahn"},{"name":"Andreas Peter"},{"name":"Jan Ramon"}],"categories":["cs.CR","cs.LG"]},{"id":"http://arxiv.org/abs/2507.01216v1","title":"PAE MobiLLM: Privacy-Aware and Efficient LLM Fine-Tuning on the Mobile\n  Device via Additive Side-Tuning","summary":"There is a huge gap between numerous intriguing applications fostered by\non-device large language model (LLM) fine-tuning (FT) from fresh mobile data\nand the limited resources of a mobile device. While existing server-assisted\nmethods (e.g., split learning or side-tuning) may enable LLM FT on the local\nmobile device, they suffer from heavy communication burdens of activation\ntransmissions, and may disclose data, labels or fine-tuned models to the\nserver. To address those issues, we develop PAE MobiLLM, a privacy-aware and\nefficient LLM FT method which can be deployed on the mobile device via\nserver-assisted additive side-tuning. To further accelerate FT convergence and\nimprove computing efficiency, PAE MobiLLM integrates activation caching on the\nserver side, which allows the server to reuse historical activations and saves\nthe mobile device from repeatedly computing forward passes for the recurring\ndata samples. Besides, to reduce communication cost, PAE MobiLLM develops a\none-token (i.e., ``pivot'' token) activation shortcut that transmits only a\nsingle activation dimension instead of full activation matrices to guide the\nside network tuning. Last but not least, PAE MobiLLM introduces the additive\nadapter side-network design which makes the server train the adapter modules\nbased on device-defined prediction differences rather than raw ground-truth\nlabels. In this way, the server can only assist device-defined side-network\ncomputing, and learn nothing about data, labels or fine-tuned models.","updated":"2025-07-01T22:27:21Z","published":"2025-07-01T22:27:21Z","authors":[{"name":"Xingke Yang"},{"name":"Liang Li"},{"name":"Zhiyi Wan"},{"name":"Sicong Li"},{"name":"Hao Wang"},{"name":"Xiaoqi Qi"},{"name":"Jiang Liu"},{"name":"Tomoaki Ohtsuki"},{"name":"Xin Fu"},{"name":"Miao Pan"}],"categories":["cs.LG","cs.CR"]},{"id":"http://arxiv.org/abs/2507.00920v1","title":"Privacy-Preserving Quantized Federated Learning with Diverse Precision","summary":"Federated learning (FL) has emerged as a promising paradigm for distributed\nmachine learning, enabling collaborative training of a global model across\nmultiple local devices without requiring them to share raw data. Despite its\nadvancements, FL is limited by factors such as: (i) privacy risks arising from\nthe unprotected transmission of local model updates to the fusion center (FC)\nand (ii) decreased learning utility caused by heterogeneity in model\nquantization resolution across participating devices. Prior work typically\naddresses only one of these challenges because maintaining learning utility\nunder both privacy risks and quantization heterogeneity is a non-trivial task.\nIn this paper, our aim is therefore to improve the learning utility of a\nprivacy-preserving FL that allows clusters of devices with different\nquantization resolutions to participate in each FL round. Specifically, we\nintroduce a novel stochastic quantizer (SQ) that is designed to simultaneously\nachieve differential privacy (DP) and minimum quantization error. Notably, the\nproposed SQ guarantees bounded distortion, unlike other DP approaches. To\naddress quantization heterogeneity, we introduce a cluster size optimization\ntechnique combined with a linear fusion approach to enhance model aggregation\naccuracy. Numerical simulations validate the benefits of our approach in terms\nof privacy protection and learning utility compared to the conventional\nLaplaceSQ-FL algorithm.","updated":"2025-07-01T16:26:20Z","published":"2025-07-01T16:26:20Z","authors":[{"name":"Dang Qua Nguyen"},{"name":"Morteza Hashemi"},{"name":"Erik Perrins"},{"name":"Sergiy A. Vorobyov"},{"name":"David J. Love"},{"name":"Taejoon Kim"}],"categories":["cs.LG","eess.SP"]},{"id":"http://arxiv.org/abs/2507.00596v1","title":"Gaze3P: Gaze-Based Prediction of User-Perceived Privacy","summary":"Privacy is a highly subjective concept and perceived variably by different\nindividuals. Previous research on quantifying user-perceived privacy has\nprimarily relied on questionnaires. Furthermore, applying user-perceived\nprivacy to optimise the parameters of privacy-preserving techniques (PPT)\nremains insufficiently explored. To address these limitations, we introduce\nGaze3P -- the first dataset specifically designed to facilitate systematic\ninvestigations into user-perceived privacy. Our dataset comprises gaze data\nfrom 100 participants and 1,000 stimuli, encompassing a range of private and\nsafe attributes. With Gaze3P, we train a machine learning model to implicitly\nand dynamically predict perceived privacy from human eye gaze. Through\ncomprehensive experiments, we show that the resulting models achieve high\naccuracy. Finally, we illustrate how predicted privacy can be used to optimise\nthe parameters of differentially private mechanisms, thereby enhancing their\nalignment with user expectations.","updated":"2025-07-01T09:26:38Z","published":"2025-07-01T09:26:38Z","authors":[{"name":"Mayar Elfares"},{"name":"Pascal Reisert"},{"name":"Ralf Küsters"},{"name":"Andreas Bulling"}],"categories":["cs.HC","cs.CR"]},{"id":"http://arxiv.org/abs/2507.00402v1","title":"GRAND: Graph Release with Assured Node Differential Privacy","summary":"Differential privacy is a well-established framework for safeguarding\nsensitive information in data. While extensively applied across various\ndomains, its application to network data -- particularly at the node level --\nremains underexplored. Existing methods for node-level privacy either focus\nexclusively on query-based approaches, which restrict output to pre-specified\nnetwork statistics, or fail to preserve key structural properties of the\nnetwork. In this work, we propose GRAND (Graph Release with Assured Node\nDifferential privacy), which is, to the best of our knowledge, the first\nnetwork release mechanism that releases entire networks while ensuring\nnode-level differential privacy and preserving structural properties. Under a\nbroad class of latent space models, we show that the released network\nasymptotically follows the same distribution as the original network. The\neffectiveness of the approach is evaluated through extensive experiments on\nboth synthetic and real-world datasets.","updated":"2025-07-01T03:39:08Z","published":"2025-07-01T03:39:08Z","authors":[{"name":"Suqing Liu"},{"name":"Xuan Bi"},{"name":"Tianxi Li"}],"categories":["stat.ML","cs.LG","math.ST","stat.ME","stat.TH"]}]
+[
+  {
+    "id" : "http://arxiv.org/abs/2507.01808v1",
+    "title" : "Empowering Manufacturers with Privacy-Preserving AI Tools: A Case Study\n  in Privacy-Preserving Machine Learning to Solve Real-World Problems",
+    "summary" : "Small- and medium-sized manufacturers need innovative data tools but, because\nof competition and privacy concerns, often do not want to share their\nproprietary data with researchers who might be interested in helping. This\npaper introduces a privacy-preserving platform by which manufacturers may\nsafely share their data with researchers through secure methods, so that those\nresearchers then create innovative tools to solve the manufacturers' real-world\nproblems, and then provide tools that execute solutions back onto the platform\nfor others to use with privacy and confidentiality guarantees. We illustrate\nthis problem through a particular use case which addresses an important problem\nin the large-scale manufacturing of food crystals, which is that quality\ncontrol relies on image analysis tools. Previous to our research, food crystals\nin the images were manually counted, which required substantial and\ntime-consuming human efforts, but we have developed and deployed a crystal\nanalysis tool which makes this process both more rapid and accurate. The tool\nenables automatic characterization of the crystal size distribution and numbers\nfrom microscope images while the natural imperfections from the sample\npreparation are automatically removed; a machine learning model to count high\nresolution translucent crystals and agglomeration of crystals was also\ndeveloped to aid in these efforts. The resulting algorithm was then packaged\nfor real-world use on the factory floor via a web-based app secured through the\noriginating privacy-preserving platform, allowing manufacturers to use it while\nkeeping their proprietary data secure. After demonstrating this full process,\nfuture directions are also explored.",
+    "updated" : "2025-07-02T15:25:43Z",
+    "published" : "2025-07-02T15:25:43Z",
+    "authors" : [
+      {
+        "name" : "Xiaoyu Ji"
+      },
+      {
+        "name" : "Jessica Shorland"
+      },
+      {
+        "name" : "Joshua Shank"
+      },
+      {
+        "name" : "Pascal Delpe-Brice"
+      },
+      {
+        "name" : "Latanya Sweeney"
+      },
+      {
+        "name" : "Jan Allebach"
+      },
+      {
+        "name" : "Ali Shakouri"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.CV",
+      "cs.ET",
+      "68T01, 68T05, 68T45, 94A60"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.01752v1",
+    "title" : "Tuning without Peeking: Provable Privacy and Generalization Bounds for\n  LLM Post-Training",
+    "summary" : "Gradient-based optimization is the workhorse of deep learning, offering\nefficient and scalable training via backpropagation. However, its reliance on\nlarge volumes of labeled data raises privacy and security concerns such as\nsusceptibility to data poisoning attacks and the risk of overfitting. In\ncontrast, black box optimization methods, which treat the model as an opaque\nfunction, relying solely on function evaluations to guide optimization, offer a\npromising alternative in scenarios where data access is restricted, adversarial\nrisks are high, or overfitting is a concern. However, black box methods also\npose significant challenges, including poor scalability to high-dimensional\nparameter spaces, as prevalent in large language models (LLMs), and high\ncomputational costs due to reliance on numerous model evaluations. This paper\nintroduces BBoxER, an evolutionary black-box method for LLM post-training that\ninduces an information bottleneck via implicit compression of the training\ndata. Leveraging the tractability of information flow, we provide strong\ntheoretical bounds on generalization, differential privacy, susceptibility to\ndata poisoning attacks, and robustness to extraction attacks. BBoxER operates\non top of pre-trained LLMs, offering a lightweight and modular enhancement\nsuitable for deployment in restricted or privacy-sensitive environments, in\naddition to non-vacuous generalization guarantees. In experiments with LLMs, we\ndemonstrate empirically that Retrofitting methods are able to learn, showing\nhow a few iterations of BBoxER improve performance and generalize well on a\nbenchmark of reasoning datasets. This positions BBoxER as an attractive add-on\non top of gradient-based optimization.",
+    "updated" : "2025-07-02T14:29:30Z",
+    "published" : "2025-07-02T14:29:30Z",
+    "authors" : [
+      {
+        "name" : "Ismail Labiad"
+      },
+      {
+        "name" : "Mathurin Videau"
+      },
+      {
+        "name" : "Matthieu Kowalski"
+      },
+      {
+        "name" : "Marc Schoenauer"
+      },
+      {
+        "name" : "Alessandro Leite"
+      },
+      {
+        "name" : "Julia Kempe"
+      },
+      {
+        "name" : "Olivier Teytaud"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.01581v1",
+    "title" : "A Privacy-Preserving Indoor Localization System based on Hierarchical\n  Federated Learning",
+    "summary" : "Location information serves as the fundamental element for numerous Internet\nof Things (IoT) applications. Traditional indoor localization techniques often\nproduce significant errors and raise privacy concerns due to centralized data\ncollection. In response, Machine Learning (ML) techniques offer promising\nsolutions by capturing indoor environment variations. However, they typically\nrequire central data aggregation, leading to privacy, bandwidth, and server\nreliability issues. To overcome these challenges, in this paper, we propose a\nFederated Learning (FL)-based approach for dynamic indoor localization using a\nDeep Neural Network (DNN) model. Experimental results show that FL has the\nnearby performance to Centralized Model (CL) while keeping the data privacy,\nbandwidth efficiency and server reliability. This research demonstrates that\nour proposed FL approach provides a viable solution for privacy-enhanced indoor\nlocalization, paving the way for advancements in secure and efficient indoor\nlocalization systems.",
+    "updated" : "2025-07-02T10:53:31Z",
+    "published" : "2025-07-02T10:53:31Z",
+    "authors" : [
+      {
+        "name" : "Masood Jan"
+      },
+      {
+        "name" : "Wafa Njima"
+      },
+      {
+        "name" : "Xun Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "eess.SP"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.01487v1",
+    "title" : "How to Securely Shuffle? A survey about Secure Shufflers for\n  privacy-preserving computations",
+    "summary" : "Ishai et al. (FOCS'06) introduced secure shuffling as an efficient building\nblock for private data aggregation. Recently, the field of differential privacy\nhas revived interest in secure shufflers by highlighting the privacy\namplification they can provide in various computations. Although several works\nargue for the utility of secure shufflers, they often treat them as black\nboxes; overlooking the practical vulnerabilities and performance trade-offs of\nexisting implementations. This leaves a central question open: what makes a\ngood secure shuffler?\n  This survey addresses that question by identifying, categorizing, and\ncomparing 26 secure protocols that realize the necessary shuffling\nfunctionality. To enable a meaningful comparison, we adapt and unify existing\nsecurity definitions into a consistent set of properties. We also present an\noverview of privacy-preserving technologies that rely on secure shufflers,\noffer practical guidelines for selecting appropriate protocols, and outline\npromising directions for future work.",
+    "updated" : "2025-07-02T08:48:53Z",
+    "published" : "2025-07-02T08:48:53Z",
+    "authors" : [
+      {
+        "name" : "Marc Damie"
+      },
+      {
+        "name" : "Florian Hahn"
+      },
+      {
+        "name" : "Andreas Peter"
+      },
+      {
+        "name" : "Jan Ramon"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.01216v1",
+    "title" : "PAE MobiLLM: Privacy-Aware and Efficient LLM Fine-Tuning on the Mobile\n  Device via Additive Side-Tuning",
+    "summary" : "There is a huge gap between numerous intriguing applications fostered by\non-device large language model (LLM) fine-tuning (FT) from fresh mobile data\nand the limited resources of a mobile device. While existing server-assisted\nmethods (e.g., split learning or side-tuning) may enable LLM FT on the local\nmobile device, they suffer from heavy communication burdens of activation\ntransmissions, and may disclose data, labels or fine-tuned models to the\nserver. To address those issues, we develop PAE MobiLLM, a privacy-aware and\nefficient LLM FT method which can be deployed on the mobile device via\nserver-assisted additive side-tuning. To further accelerate FT convergence and\nimprove computing efficiency, PAE MobiLLM integrates activation caching on the\nserver side, which allows the server to reuse historical activations and saves\nthe mobile device from repeatedly computing forward passes for the recurring\ndata samples. Besides, to reduce communication cost, PAE MobiLLM develops a\none-token (i.e., ``pivot'' token) activation shortcut that transmits only a\nsingle activation dimension instead of full activation matrices to guide the\nside network tuning. Last but not least, PAE MobiLLM introduces the additive\nadapter side-network design which makes the server train the adapter modules\nbased on device-defined prediction differences rather than raw ground-truth\nlabels. In this way, the server can only assist device-defined side-network\ncomputing, and learn nothing about data, labels or fine-tuned models.",
+    "updated" : "2025-07-01T22:27:21Z",
+    "published" : "2025-07-01T22:27:21Z",
+    "authors" : [
+      {
+        "name" : "Xingke Yang"
+      },
+      {
+        "name" : "Liang Li"
+      },
+      {
+        "name" : "Zhiyi Wan"
+      },
+      {
+        "name" : "Sicong Li"
+      },
+      {
+        "name" : "Hao Wang"
+      },
+      {
+        "name" : "Xiaoqi Qi"
+      },
+      {
+        "name" : "Jiang Liu"
+      },
+      {
+        "name" : "Tomoaki Ohtsuki"
+      },
+      {
+        "name" : "Xin Fu"
+      },
+      {
+        "name" : "Miao Pan"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.00920v1",
+    "title" : "Privacy-Preserving Quantized Federated Learning with Diverse Precision",
+    "summary" : "Federated learning (FL) has emerged as a promising paradigm for distributed\nmachine learning, enabling collaborative training of a global model across\nmultiple local devices without requiring them to share raw data. Despite its\nadvancements, FL is limited by factors such as: (i) privacy risks arising from\nthe unprotected transmission of local model updates to the fusion center (FC)\nand (ii) decreased learning utility caused by heterogeneity in model\nquantization resolution across participating devices. Prior work typically\naddresses only one of these challenges because maintaining learning utility\nunder both privacy risks and quantization heterogeneity is a non-trivial task.\nIn this paper, our aim is therefore to improve the learning utility of a\nprivacy-preserving FL that allows clusters of devices with different\nquantization resolutions to participate in each FL round. Specifically, we\nintroduce a novel stochastic quantizer (SQ) that is designed to simultaneously\nachieve differential privacy (DP) and minimum quantization error. Notably, the\nproposed SQ guarantees bounded distortion, unlike other DP approaches. To\naddress quantization heterogeneity, we introduce a cluster size optimization\ntechnique combined with a linear fusion approach to enhance model aggregation\naccuracy. Numerical simulations validate the benefits of our approach in terms\nof privacy protection and learning utility compared to the conventional\nLaplaceSQ-FL algorithm.",
+    "updated" : "2025-07-01T16:26:20Z",
+    "published" : "2025-07-01T16:26:20Z",
+    "authors" : [
+      {
+        "name" : "Dang Qua Nguyen"
+      },
+      {
+        "name" : "Morteza Hashemi"
+      },
+      {
+        "name" : "Erik Perrins"
+      },
+      {
+        "name" : "Sergiy A. Vorobyov"
+      },
+      {
+        "name" : "David J. Love"
+      },
+      {
+        "name" : "Taejoon Kim"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "eess.SP"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.00596v1",
+    "title" : "Gaze3P: Gaze-Based Prediction of User-Perceived Privacy",
+    "summary" : "Privacy is a highly subjective concept and perceived variably by different\nindividuals. Previous research on quantifying user-perceived privacy has\nprimarily relied on questionnaires. Furthermore, applying user-perceived\nprivacy to optimise the parameters of privacy-preserving techniques (PPT)\nremains insufficiently explored. To address these limitations, we introduce\nGaze3P -- the first dataset specifically designed to facilitate systematic\ninvestigations into user-perceived privacy. Our dataset comprises gaze data\nfrom 100 participants and 1,000 stimuli, encompassing a range of private and\nsafe attributes. With Gaze3P, we train a machine learning model to implicitly\nand dynamically predict perceived privacy from human eye gaze. Through\ncomprehensive experiments, we show that the resulting models achieve high\naccuracy. Finally, we illustrate how predicted privacy can be used to optimise\nthe parameters of differentially private mechanisms, thereby enhancing their\nalignment with user expectations.",
+    "updated" : "2025-07-01T09:26:38Z",
+    "published" : "2025-07-01T09:26:38Z",
+    "authors" : [
+      {
+        "name" : "Mayar Elfares"
+      },
+      {
+        "name" : "Pascal Reisert"
+      },
+      {
+        "name" : "Ralf Küsters"
+      },
+      {
+        "name" : "Andreas Bulling"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.00402v1",
+    "title" : "GRAND: Graph Release with Assured Node Differential Privacy",
+    "summary" : "Differential privacy is a well-established framework for safeguarding\nsensitive information in data. While extensively applied across various\ndomains, its application to network data -- particularly at the node level --\nremains underexplored. Existing methods for node-level privacy either focus\nexclusively on query-based approaches, which restrict output to pre-specified\nnetwork statistics, or fail to preserve key structural properties of the\nnetwork. In this work, we propose GRAND (Graph Release with Assured Node\nDifferential privacy), which is, to the best of our knowledge, the first\nnetwork release mechanism that releases entire networks while ensuring\nnode-level differential privacy and preserving structural properties. Under a\nbroad class of latent space models, we show that the released network\nasymptotically follows the same distribution as the original network. The\neffectiveness of the approach is evaluated through extensive experiments on\nboth synthetic and real-world datasets.",
+    "updated" : "2025-07-01T03:39:08Z",
+    "published" : "2025-07-01T03:39:08Z",
+    "authors" : [
+      {
+        "name" : "Suqing Liu"
+      },
+      {
+        "name" : "Xuan Bi"
+      },
+      {
+        "name" : "Tianxi Li"
+      }
+    ],
+    "categories" : [
+      "stat.ML",
+      "cs.LG",
+      "math.ST",
+      "stat.ME",
+      "stat.TH"
+    ]
+  }
+]
