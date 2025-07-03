@@ -1,5 +1,299 @@
 
+<h2>2025-07</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.01808v1">Empowering Manufacturers with Privacy-Preserving AI Tools: A Case Study
+  in Privacy-Preserving Machine Learning to Solve Real-World Problems</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E"> 
+  <p><b>Published on:</b> 2025-07-02T15:25:43Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xiaoyu Ji, Jessica Shorland, Joshua Shank, Pascal Delpe-Brice, Latanya Sweeney, Jan Allebach, Ali Shakouri</p>
+    <p><b>Summary:</b> Small- and medium-sized manufacturers need innovative data tools but, because
+of competition and privacy concerns, often do not want to share their
+proprietary data with researchers who might be interested in helping. This
+paper introduces a privacy-preserving platform by which manufacturers may
+safely share their data with researchers through secure methods, so that those
+researchers then create innovative tools to solve the manufacturers' real-world
+problems, and then provide tools that execute solutions back onto the platform
+for others to use with privacy and confidentiality guarantees. We illustrate
+this problem through a particular use case which addresses an important problem
+in the large-scale manufacturing of food crystals, which is that quality
+control relies on image analysis tools. Previous to our research, food crystals
+in the images were manually counted, which required substantial and
+time-consuming human efforts, but we have developed and deployed a crystal
+analysis tool which makes this process both more rapid and accurate. The tool
+enables automatic characterization of the crystal size distribution and numbers
+from microscope images while the natural imperfections from the sample
+preparation are automatically removed; a machine learning model to count high
+resolution translucent crystals and agglomeration of crystals was also
+developed to aid in these efforts. The resulting algorithm was then packaged
+for real-world use on the factory floor via a web-based app secured through the
+originating privacy-preserving platform, allowing manufacturers to use it while
+keeping their proprietary data secure. After demonstrating this full process,
+future directions are also explored.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.01752v1">Tuning without Peeking: Provable Privacy and Generalization Bounds for
+  LLM Post-Training</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-07-02T14:29:30Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ismail Labiad, Mathurin Videau, Matthieu Kowalski, Marc Schoenauer, Alessandro Leite, Julia Kempe, Olivier Teytaud</p>
+    <p><b>Summary:</b> Gradient-based optimization is the workhorse of deep learning, offering
+efficient and scalable training via backpropagation. However, its reliance on
+large volumes of labeled data raises privacy and security concerns such as
+susceptibility to data poisoning attacks and the risk of overfitting. In
+contrast, black box optimization methods, which treat the model as an opaque
+function, relying solely on function evaluations to guide optimization, offer a
+promising alternative in scenarios where data access is restricted, adversarial
+risks are high, or overfitting is a concern. However, black box methods also
+pose significant challenges, including poor scalability to high-dimensional
+parameter spaces, as prevalent in large language models (LLMs), and high
+computational costs due to reliance on numerous model evaluations. This paper
+introduces BBoxER, an evolutionary black-box method for LLM post-training that
+induces an information bottleneck via implicit compression of the training
+data. Leveraging the tractability of information flow, we provide strong
+theoretical bounds on generalization, differential privacy, susceptibility to
+data poisoning attacks, and robustness to extraction attacks. BBoxER operates
+on top of pre-trained LLMs, offering a lightweight and modular enhancement
+suitable for deployment in restricted or privacy-sensitive environments, in
+addition to non-vacuous generalization guarantees. In experiments with LLMs, we
+demonstrate empirically that Retrofitting methods are able to learn, showing
+how a few iterations of BBoxER improve performance and generalize well on a
+benchmark of reasoning datasets. This positions BBoxER as an attractive add-on
+on top of gradient-based optimization.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.01581v1">A Privacy-Preserving Indoor Localization System based on Hierarchical
+  Federated Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
+  <p><b>Published on:</b> 2025-07-02T10:53:31Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Masood Jan, Wafa Njima, Xun Zhang</p>
+    <p><b>Summary:</b> Location information serves as the fundamental element for numerous Internet
+of Things (IoT) applications. Traditional indoor localization techniques often
+produce significant errors and raise privacy concerns due to centralized data
+collection. In response, Machine Learning (ML) techniques offer promising
+solutions by capturing indoor environment variations. However, they typically
+require central data aggregation, leading to privacy, bandwidth, and server
+reliability issues. To overcome these challenges, in this paper, we propose a
+Federated Learning (FL)-based approach for dynamic indoor localization using a
+Deep Neural Network (DNN) model. Experimental results show that FL has the
+nearby performance to Centralized Model (CL) while keeping the data privacy,
+bandwidth efficiency and server reliability. This research demonstrates that
+our proposed FL approach provides a viable solution for privacy-enhanced indoor
+localization, paving the way for advancements in secure and efficient indoor
+localization systems.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.01487v1">How to Securely Shuffle? A survey about Secure Shufflers for
+  privacy-preserving computations</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-07-02T08:48:53Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Marc Damie, Florian Hahn, Andreas Peter, Jan Ramon</p>
+    <p><b>Summary:</b> Ishai et al. (FOCS'06) introduced secure shuffling as an efficient building
+block for private data aggregation. Recently, the field of differential privacy
+has revived interest in secure shufflers by highlighting the privacy
+amplification they can provide in various computations. Although several works
+argue for the utility of secure shufflers, they often treat them as black
+boxes; overlooking the practical vulnerabilities and performance trade-offs of
+existing implementations. This leaves a central question open: what makes a
+good secure shuffler?
+  This survey addresses that question by identifying, categorizing, and
+comparing 26 secure protocols that realize the necessary shuffling
+functionality. To enable a meaningful comparison, we adapt and unify existing
+security definitions into a consistent set of properties. We also present an
+overview of privacy-preserving technologies that rely on secure shufflers,
+offer practical guidelines for selecting appropriate protocols, and outline
+promising directions for future work.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.01216v1">PAE MobiLLM: Privacy-Aware and Efficient LLM Fine-Tuning on the Mobile
+  Device via Additive Side-Tuning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-07-01T22:27:21Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xingke Yang, Liang Li, Zhiyi Wan, Sicong Li, Hao Wang, Xiaoqi Qi, Jiang Liu, Tomoaki Ohtsuki, Xin Fu, Miao Pan</p>
+    <p><b>Summary:</b> There is a huge gap between numerous intriguing applications fostered by
+on-device large language model (LLM) fine-tuning (FT) from fresh mobile data
+and the limited resources of a mobile device. While existing server-assisted
+methods (e.g., split learning or side-tuning) may enable LLM FT on the local
+mobile device, they suffer from heavy communication burdens of activation
+transmissions, and may disclose data, labels or fine-tuned models to the
+server. To address those issues, we develop PAE MobiLLM, a privacy-aware and
+efficient LLM FT method which can be deployed on the mobile device via
+server-assisted additive side-tuning. To further accelerate FT convergence and
+improve computing efficiency, PAE MobiLLM integrates activation caching on the
+server side, which allows the server to reuse historical activations and saves
+the mobile device from repeatedly computing forward passes for the recurring
+data samples. Besides, to reduce communication cost, PAE MobiLLM develops a
+one-token (i.e., ``pivot'' token) activation shortcut that transmits only a
+single activation dimension instead of full activation matrices to guide the
+side network tuning. Last but not least, PAE MobiLLM introduces the additive
+adapter side-network design which makes the server train the adapter modules
+based on device-defined prediction differences rather than raw ground-truth
+labels. In this way, the server can only assist device-defined side-network
+computing, and learn nothing about data, labels or fine-tuned models.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.00920v1">Privacy-Preserving Quantized Federated Learning with Diverse Precision</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
+  <p><b>Published on:</b> 2025-07-01T16:26:20Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Dang Qua Nguyen, Morteza Hashemi, Erik Perrins, Sergiy A. Vorobyov, David J. Love, Taejoon Kim</p>
+    <p><b>Summary:</b> Federated learning (FL) has emerged as a promising paradigm for distributed
+machine learning, enabling collaborative training of a global model across
+multiple local devices without requiring them to share raw data. Despite its
+advancements, FL is limited by factors such as: (i) privacy risks arising from
+the unprotected transmission of local model updates to the fusion center (FC)
+and (ii) decreased learning utility caused by heterogeneity in model
+quantization resolution across participating devices. Prior work typically
+addresses only one of these challenges because maintaining learning utility
+under both privacy risks and quantization heterogeneity is a non-trivial task.
+In this paper, our aim is therefore to improve the learning utility of a
+privacy-preserving FL that allows clusters of devices with different
+quantization resolutions to participate in each FL round. Specifically, we
+introduce a novel stochastic quantizer (SQ) that is designed to simultaneously
+achieve differential privacy (DP) and minimum quantization error. Notably, the
+proposed SQ guarantees bounded distortion, unlike other DP approaches. To
+address quantization heterogeneity, we introduce a cluster size optimization
+technique combined with a linear fusion approach to enhance model aggregation
+accuracy. Numerical simulations validate the benefits of our approach in terms
+of privacy protection and learning utility compared to the conventional
+LaplaceSQ-FL algorithm.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.00596v1">Gaze3P: Gaze-Based Prediction of User-Perceived Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-07-01T09:26:38Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mayar Elfares, Pascal Reisert, Ralf Küsters, Andreas Bulling</p>
+    <p><b>Summary:</b> Privacy is a highly subjective concept and perceived variably by different
+individuals. Previous research on quantifying user-perceived privacy has
+primarily relied on questionnaires. Furthermore, applying user-perceived
+privacy to optimise the parameters of privacy-preserving techniques (PPT)
+remains insufficiently explored. To address these limitations, we introduce
+Gaze3P -- the first dataset specifically designed to facilitate systematic
+investigations into user-perceived privacy. Our dataset comprises gaze data
+from 100 participants and 1,000 stimuli, encompassing a range of private and
+safe attributes. With Gaze3P, we train a machine learning model to implicitly
+and dynamically predict perceived privacy from human eye gaze. Through
+comprehensive experiments, we show that the resulting models achieve high
+accuracy. Finally, we illustrate how predicted privacy can be used to optimise
+the parameters of differentially private mechanisms, thereby enhancing their
+alignment with user expectations.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.00402v1">GRAND: Graph Release with Assured Node Differential Privacy</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36">  
+  <p><b>Published on:</b> 2025-07-01T03:39:08Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Suqing Liu, Xuan Bi, Tianxi Li</p>
+    <p><b>Summary:</b> Differential privacy is a well-established framework for safeguarding
+sensitive information in data. While extensively applied across various
+domains, its application to network data -- particularly at the node level --
+remains underexplored. Existing methods for node-level privacy either focus
+exclusively on query-based approaches, which restrict output to pre-specified
+network statistics, or fail to preserve key structural properties of the
+network. In this work, we propose GRAND (Graph Release with Assured Node
+Differential privacy), which is, to the best of our knowledge, the first
+network release mechanism that releases entire networks while ensuring
+node-level differential privacy and preserving structural properties. Under a
+broad class of latent space models, we show that the released network
+asymptotically follows the same distribution as the original network. The
+effectiveness of the approach is evaluated through extensive experiments on
+both synthetic and real-world datasets.</p>
+  </details>
+</div>
+
+
+
 <h2>2025-06</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.00286v1">Visual Privacy Management with Generative AI for Blind and Low-Vision
+  People</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E">
+  <p><b>Published on:</b> 2025-06-30T21:55:21Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Tanusree Sharma, Yu-Yun Tseng, Lotus Zhang, Ayae Ide, Kelly Avery Mack, Leah Findlater, Danna Gurari, Yang Wang</p>
+    <p><b>Summary:</b> Blind and low vision (BLV) individuals use Generative AI (GenAI) tools to
+interpret and manage visual content in their daily lives. While such tools can
+enhance the accessibility of visual content and so enable greater user
+independence, they also introduce complex challenges around visual privacy. In
+this paper, we investigate the current practices and future design preferences
+of blind and low vision individuals through an interview study with 21
+participants. Our findings reveal a range of current practices with GenAI that
+balance privacy, efficiency, and emotional agency, with users accounting for
+privacy risks across six key scenarios, such as self-presentation,
+indoor/outdoor spatial privacy, social sharing, and handling professional
+content. Our findings reveal design preferences, including on-device
+processing, zero-retention guarantees, sensitive content redaction,
+privacy-aware appearance indicators, and multimodal tactile mirrored
+interaction methods. We conclude with actionable design recommendations to
+support user-centered visual privacy through GenAI, expanding the notion of
+privacy and responsible handling of others data.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.00230v1">PPFL-RDSN: Privacy-Preserving Federated Learning-based Residual Dense
+  Spatial Networks for Encrypted Lossy Image Reconstruction</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-06-30T19:54:34Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Peilin He, James Joshi</p>
+    <p><b>Summary:</b> Reconstructing high-quality images from low-resolution inputs using Residual
+Dense Spatial Networks (RDSNs) is crucial yet challenging, particularly in
+collaborative scenarios where centralized training poses significant privacy
+risks, including data leakage and inference attacks, as well as high
+computational costs. We propose a novel Privacy-Preserving Federated
+Learning-based RDSN (PPFL-RDSN) framework specifically tailored for lossy image
+reconstruction. PPFL-RDSN integrates Federated Learning (FL), local
+differential privacy, and robust model watermarking techniques, ensuring data
+remains secure on local devices, safeguarding sensitive information, and
+maintaining model authenticity without revealing underlying data. Empirical
+evaluations show that PPFL-RDSN achieves comparable performance to the
+state-of-the-art centralized methods while reducing computational burdens, and
+effectively mitigates security and privacy vulnerabilities, making it a
+practical solution for secure and privacy-preserving collaborative computer
+vision applications.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2506.24033v1">Poisoning Attacks to Local Differential Privacy for Ranking Estimation</a></h3>
@@ -33,7 +327,7 @@ https://github.com/LDP-user/LDP-Ranking.git.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.23866v1">Exploring Privacy and Security as Drivers for Environmental
+  <h3><a href="http://arxiv.org/abs/2506.23866v2">Exploring Privacy and Security as Drivers for Environmental
   Sustainability in Cloud-Based Office Solutions</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
   <p><b>Published on:</b> 2025-06-30T13:58:22Z</p>
@@ -2675,299 +2969,6 @@ data trustee needs to request from data sources to respond to a given query.
 Our analysis shows that PrivTru minimizes information leakage to the data
 trustee, regardless of the trustee's prior knowledge, while preserving the
 utility of the data.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.06062v2">Minoritised Ethnic People's Security and Privacy Concerns and Responses
-  towards Essential Online Services</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> 
-  <p><b>Published on:</b> 2025-06-06T13:17:44Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Aunam Quyoum, Mark Wong, Sebati Ghosh, Siamak F. Shahandashti</p>
-    <p><b>Summary:</b> Minoritised ethnic people are marginalised in society, and therefore at a
-higher risk of adverse online harms, including those arising from the loss of
-security and privacy of personal data. Despite this, there has been very little
-research focused on minoritised ethnic people's security and privacy concerns,
-attitudes, and behaviours. In this work, we provide the results of one of the
-first studies in this regard. We explore minoritised ethnic people's
-experiences of using essential online services across three sectors: health,
-social housing, and energy, their security and privacy-related concerns, and
-responses towards these services. We conducted a thematic analysis of 44
-semi-structured interviews with people of various reported minoritised
-ethnicities in the UK. Privacy concerns and lack of control over personal data
-emerged as a major theme, with many interviewees considering privacy as their
-most significant concern when using online services. Several creative tactics
-to exercise some agency were reported, including selective and inconsistent
-disclosure of personal data. A core concern about how data may be used was
-driven by a fear of repercussions, including penalisation and discrimination,
-influenced by prior experiences of institutional and online racism. The
-increased concern and potential for harm resulted in minoritised ethnic people
-grappling with a higher-stakes dilemma of whether to disclose personal
-information online or not. Furthermore, trust in institutions, or lack thereof,
-was found to be embedded throughout as a basis for adapting behaviour. We draw
-on our results to provide lessons learned for the design of more inclusive,
-marginalisation-aware, and privacy-preserving online services.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.05908v1">QualitEye: Public and Privacy-preserving Gaze Data Quality Verification</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2025-06-06T09:27:04Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mayar Elfares, Pascal Reisert, Ralf Küsters, Andreas Bulling</p>
-    <p><b>Summary:</b> Gaze-based applications are increasingly advancing with the availability of
-large datasets but ensuring data quality presents a substantial challenge when
-collecting data at scale. It further requires different parties to collaborate,
-therefore, privacy concerns arise. We propose QualitEye--the first method for
-verifying image-based gaze data quality. QualitEye employs a new semantic
-representation of eye images that contains the information required for
-verification while excluding irrelevant information for better domain
-adaptation. QualitEye covers a public setting where parties can freely exchange
-data and a privacy-preserving setting where parties cannot reveal their raw
-data nor derive gaze features/labels of others with adapted private set
-intersection protocols. We evaluate QualitEye on the MPIIFaceGaze and
-GazeCapture datasets and achieve a high verification performance (with a small
-overhead in runtime for privacy-preserving versions). Hence, QualitEye paves
-the way for new gaze analysis methods at the intersection of machine learning,
-human-computer interaction, and cryptography.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.05743v1">When Better Features Mean Greater Risks: The Performance-Privacy
-  Trade-Off in Contrastive Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-06-06T05:03:29Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ruining Sun, Hongsheng Hu, Wei Luo, Zhaoxi Zhang, Yanjun Zhang, Haizhuan Yuan, Leo Yu Zhang</p>
-    <p><b>Summary:</b> With the rapid advancement of deep learning technology, pre-trained encoder
-models have demonstrated exceptional feature extraction capabilities, playing a
-pivotal role in the research and application of deep learning. However, their
-widespread use has raised significant concerns about the risk of training data
-privacy leakage. This paper systematically investigates the privacy threats
-posed by membership inference attacks (MIAs) targeting encoder models, focusing
-on contrastive learning frameworks. Through experimental analysis, we reveal
-the significant impact of model architecture complexity on membership privacy
-leakage: As more advanced encoder frameworks improve feature-extraction
-performance, they simultaneously exacerbate privacy-leakage risks. Furthermore,
-this paper proposes a novel membership inference attack method based on the
-p-norm of feature vectors, termed the Embedding Lp-Norm Likelihood Attack
-(LpLA). This method infers membership status, by leveraging the statistical
-distribution characteristics of the p-norm of feature vectors. Experimental
-results across multiple datasets and model architectures demonstrate that LpLA
-outperforms existing methods in attack performance and robustness, particularly
-under limited attack knowledge and query volumes. This study not only uncovers
-the potential risks of privacy leakage in contrastive learning frameworks, but
-also provides a practical basis for privacy protection research in encoder
-models. We hope that this work will draw greater attention to the privacy risks
-associated with self-supervised learning models and shed light on the
-importance of a balance between model utility and training data privacy. Our
-code is publicly available at: https://github.com/SeroneySun/LpLA_code.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.05683v3">Multi-Modal Multi-Task Federated Foundation Models for Next-Generation
-  Extended Reality Systems: Towards Privacy-Preserving Distributed Intelligence
-  in AR/VR/MR</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Multimedia-5BC0EB">
-  <p><b>Published on:</b> 2025-06-06T02:23:42Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Fardis Nadimi, Payam Abdisarabshali, Kasra Borazjani, Jacob Chakareski, Seyyedali Hosseinalipour</p>
-    <p><b>Summary:</b> Extended reality (XR) systems, which consist of virtual reality (VR),
-augmented reality (AR), and mixed reality (XR), offer a transformative
-interface for immersive, multi-modal, and embodied human-computer interaction.
-In this paper, we envision that multi-modal multi-task (M3T) federated
-foundation models (FedFMs) can offer transformative capabilities for XR systems
-through integrating the representational strength of M3T foundation models
-(FMs) with the privacy-preserving model training principles of federated
-learning (FL). We present a modular architecture for FedFMs, which entails
-different coordination paradigms for model training and aggregations. Central
-to our vision is the codification of XR challenges that affect the
-implementation of FedFMs under the SHIFT dimensions: (1) Sensor and modality
-diversity, (2) Hardware heterogeneity and system-level constraints, (3)
-Interactivity and embodied personalization, (4) Functional/task variability,
-and (5) Temporality and environmental variability. We illustrate the
-manifestation of these dimensions across a set of emerging and anticipated
-applications of XR systems. Finally, we propose evaluation metrics, dataset
-requirements, and design tradeoffs necessary for the development of
-resource-aware FedFMs in XR. This perspective aims to chart the technical and
-conceptual foundations for context-aware privacy-preserving intelligence in the
-next generation of XR systems.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.05503v1">On Differential Privacy for Adaptively Solving Search Problems via
-  Sketching</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B">
-  <p><b>Published on:</b> 2025-06-05T18:40:33Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shiyuan Feng, Ying Feng, George Z. Li, Zhao Song, David P. Woodruff, Lichen Zhang</p>
-    <p><b>Summary:</b> Recently differential privacy has been used for a number of streaming, data
-structure, and dynamic graph problems as a means of hiding the internal
-randomness of the data structure, so that multiple possibly adaptive queries
-can be made without sacrificing the correctness of the responses. Although
-these works use differential privacy to show that for some problems it is
-possible to tolerate $T$ queries using $\widetilde{O}(\sqrt{T})$ copies of a
-data structure, such results only apply to numerical estimation problems, and
-only return the cost of an optimization problem rather than the solution
-itself. In this paper, we investigate the use of differential privacy for
-adaptive queries to search problems, which are significantly more challenging
-since the responses to queries can reveal much more about the internal
-randomness than a single numerical query. We focus on two classical search
-problems: nearest neighbor queries and regression with arbitrary turnstile
-updates. We identify key parameters to these problems, such as the number of
-$c$-approximate near neighbors and the matrix condition number, and use
-different differential privacy techniques to design algorithms returning the
-solution vector with memory and time depending on these parameters. We give
-algorithms for each of these problems that achieve similar tradeoffs.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.05290v1">Big Bird: Privacy Budget Management for W3C's Privacy-Preserving
-  Attribution API</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-06-05T17:45:13Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Pierre Tholoniat, Alison Caulfield, Giorgio Cavicchioli, Mark Chen, Nikos Goutzoulias, Benjamin Case, Asaf Cidon, Roxana Geambasu, Mathias Lécuyer, Martin Thomson</p>
-    <p><b>Summary:</b> Privacy-preserving advertising APIs like Privacy-Preserving Attribution (PPA)
-are designed to enhance web privacy while enabling effective ad measurement.
-PPA offers an alternative to cross-site tracking with encrypted reports
-governed by differential privacy (DP), but current designs lack a principled
-approach to privacy budget management, creating uncertainty around critical
-design decisions. We present Big Bird, a privacy budget manager for PPA that
-clarifies per-site budget semantics and introduces a global budgeting system
-grounded in resource isolation principles. Big Bird enforces utility-preserving
-limits via quota budgets and improves global budget utilization through a novel
-batched scheduling algorithm. Together, these mechanisms establish a robust
-foundation for enforcing privacy protections in adversarial environments. We
-implement Big Bird in Firefox and evaluate it on real-world ad data,
-demonstrating its resilience and effectiveness.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.05101v1">Privacy Amplification Through Synthetic Data: Insights from Linear
-  Regression</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
-  <p><b>Published on:</b> 2025-06-05T14:44:15Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Clément Pierquin, Aurélien Bellet, Marc Tommasi, Matthieu Boussard</p>
-    <p><b>Summary:</b> Synthetic data inherits the differential privacy guarantees of the model used
-to generate it. Additionally, synthetic data may benefit from privacy
-amplification when the generative model is kept hidden. While empirical studies
-suggest this phenomenon, a rigorous theoretical understanding is still lacking.
-In this paper, we investigate this question through the well-understood
-framework of linear regression. First, we establish negative results showing
-that if an adversary controls the seed of the generative model, a single
-synthetic data point can leak as much information as releasing the model
-itself. Conversely, we show that when synthetic data is generated from random
-inputs, releasing a limited number of synthetic data points amplifies privacy
-beyond the model's inherent guarantees. We believe our findings in linear
-regression can serve as a foundation for deriving more general bounds in the
-future.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.04978v1">Evaluating the Impact of Privacy-Preserving Federated Learning on CAN
-  Intrusion Detection</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-06-05T12:49:22Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Gabriele Digregorio, Elisabetta Cainazzo, Stefano Longari, Michele Carminati, Stefano Zanero</p>
-    <p><b>Summary:</b> The challenges derived from the data-intensive nature of machine learning in
-conjunction with technologies that enable novel paradigms such as V2X and the
-potential offered by 5G communication, allow and justify the deployment of
-Federated Learning (FL) solutions in the vehicular intrusion detection domain.
-In this paper, we investigate the effects of integrating FL strategies into the
-machine learning-based intrusion detection process for on-board vehicular
-networks. Accordingly, we propose a FL implementation of a state-of-the-art
-Intrusion Detection System (IDS) for Controller Area Network (CAN), based on
-LSTM autoencoders. We thoroughly evaluate its detection efficiency and
-communication overhead, comparing it to a centralized version of the same
-algorithm, thereby presenting it as a feasible solution.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.05421v2">TRIDENT -- A Three-Tier Privacy-Preserving Propaganda Detection Model in
-  Mobile Networks using Transformers, Adversarial Learning, and Differential
-  Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2025-06-05T02:38:02Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Al Nahian Bin Emran, Dhiman Goswami, Md Hasan Ullah Sadi, Sanchari Das</p>
-    <p><b>Summary:</b> The proliferation of propaganda on mobile platforms raises critical concerns
-around detection accuracy and user privacy. To address this, we propose TRIDENT
-- a three-tier propaganda detection model implementing transformers,
-adversarial learning, and differential privacy which integrates syntactic
-obfuscation and label perturbation to mitigate privacy leakage while
-maintaining propaganda detection accuracy. TRIDENT leverages multilingual
-back-translation to introduce semantic variance, character-level noise, and
-entity obfuscation for differential privacy enforcement, and combines these
-techniques into a unified defense mechanism. Using a binary propaganda
-classification dataset, baseline transformer models (BERT, GPT-2) we achieved
-F1 scores of 0.89 and 0.90. Applying TRIDENT's third-tier defense yields a
-reduced but effective cumulative F1 of 0.83, demonstrating strong privacy
-protection across mobile ML deployments with minimal degradation.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.04036v1">Privacy and Security Threat for OpenAI GPTs</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-06-04T14:58:29Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Wei Wenying, Zhao Kaifa, Xue Lei, Fan Ming</p>
-    <p><b>Summary:</b> Large language models (LLMs) demonstrate powerful information handling
-capabilities and are widely integrated into chatbot applications. OpenAI
-provides a platform for developers to construct custom GPTs, extending
-ChatGPT's functions and integrating external services. Since its release in
-November 2023, over 3 million custom GPTs have been created. However, such a
-vast ecosystem also conceals security and privacy threats. For developers,
-instruction leaking attacks threaten the intellectual property of instructions
-in custom GPTs through carefully crafted adversarial prompts. For users,
-unwanted data access behavior by custom GPTs or integrated third-party services
-raises significant privacy concerns. To systematically evaluate the scope of
-threats in real-world LLM applications, we develop three phases instruction
-leaking attacks target GPTs with different defense level. Our widespread
-experiments on 10,000 real-world custom GPTs reveal that over 98.8% of GPTs are
-vulnerable to instruction leaking attacks via one or more adversarial prompts,
-and half of the remaining GPTs can also be attacked through multiround
-conversations. We also developed a framework to assess the effectiveness of
-defensive strategies and identify unwanted behaviors in custom GPTs. Our
-findings show that 77.5% of custom GPTs with defense strategies are vulnerable
-to basic instruction leaking attacks. Additionally, we reveal that 738 custom
-GPTs collect user conversational information, and identified 8 GPTs exhibiting
-data access behaviors that are unnecessary for their intended functionalities.
-Our findings raise awareness among GPT developers about the importance of
-integrating specific defensive strategies in their instructions and highlight
-users' concerns about data privacy when using LLM-based applications.</p>
   </details>
 </div>
 
