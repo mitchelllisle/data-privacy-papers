@@ -3751,5 +3751,85 @@
       "cs.CR",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.00286v1",
+    "title" : "Visual Privacy Management with Generative AI for Blind and Low-Vision\n  People",
+    "summary" : "Blind and low vision (BLV) individuals use Generative AI (GenAI) tools to\ninterpret and manage visual content in their daily lives. While such tools can\nenhance the accessibility of visual content and so enable greater user\nindependence, they also introduce complex challenges around visual privacy. In\nthis paper, we investigate the current practices and future design preferences\nof blind and low vision individuals through an interview study with 21\nparticipants. Our findings reveal a range of current practices with GenAI that\nbalance privacy, efficiency, and emotional agency, with users accounting for\nprivacy risks across six key scenarios, such as self-presentation,\nindoor/outdoor spatial privacy, social sharing, and handling professional\ncontent. Our findings reveal design preferences, including on-device\nprocessing, zero-retention guarantees, sensitive content redaction,\nprivacy-aware appearance indicators, and multimodal tactile mirrored\ninteraction methods. We conclude with actionable design recommendations to\nsupport user-centered visual privacy through GenAI, expanding the notion of\nprivacy and responsible handling of others data.",
+    "updated" : "2025-06-30T21:55:21Z",
+    "published" : "2025-06-30T21:55:21Z",
+    "authors" : [
+      {
+        "name" : "Tanusree Sharma"
+      },
+      {
+        "name" : "Yu-Yun Tseng"
+      },
+      {
+        "name" : "Lotus Zhang"
+      },
+      {
+        "name" : "Ayae Ide"
+      },
+      {
+        "name" : "Kelly Avery Mack"
+      },
+      {
+        "name" : "Leah Findlater"
+      },
+      {
+        "name" : "Danna Gurari"
+      },
+      {
+        "name" : "Yang Wang"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "cs.AI",
+      "cs.ET"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.00230v1",
+    "title" : "PPFL-RDSN: Privacy-Preserving Federated Learning-based Residual Dense\n  Spatial Networks for Encrypted Lossy Image Reconstruction",
+    "summary" : "Reconstructing high-quality images from low-resolution inputs using Residual\nDense Spatial Networks (RDSNs) is crucial yet challenging, particularly in\ncollaborative scenarios where centralized training poses significant privacy\nrisks, including data leakage and inference attacks, as well as high\ncomputational costs. We propose a novel Privacy-Preserving Federated\nLearning-based RDSN (PPFL-RDSN) framework specifically tailored for lossy image\nreconstruction. PPFL-RDSN integrates Federated Learning (FL), local\ndifferential privacy, and robust model watermarking techniques, ensuring data\nremains secure on local devices, safeguarding sensitive information, and\nmaintaining model authenticity without revealing underlying data. Empirical\nevaluations show that PPFL-RDSN achieves comparable performance to the\nstate-of-the-art centralized methods while reducing computational burdens, and\neffectively mitigates security and privacy vulnerabilities, making it a\npractical solution for secure and privacy-preserving collaborative computer\nvision applications.",
+    "updated" : "2025-06-30T19:54:34Z",
+    "published" : "2025-06-30T19:54:34Z",
+    "authors" : [
+      {
+        "name" : "Peilin He"
+      },
+      {
+        "name" : "James Joshi"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.23866v2",
+    "title" : "Exploring Privacy and Security as Drivers for Environmental\n  Sustainability in Cloud-Based Office Solutions",
+    "summary" : "In this paper, we explore the intersection of privacy, security, and\nenvironmental sustainability in cloud-based office solutions, focusing on\nquantifying user- and network-side energy use and associated carbon emissions.\nWe hypothesise that privacy-focused services are typically more\nenergy-efficient than those funded through data collection and advertising. To\nevaluate this, we propose a framework that systematically measures\nenvironmental costs based on energy usage and network data traffic during\nwell-defined, automated usage scenarios. To test our hypothesis, we first\nanalyse how underlying architectures and business models, such as monetisation\nthrough personalised advertising, contribute to the environmental footprint of\nthese services. We then explore existing methodologies and tools for software\nenvironmental impact assessment. We apply our framework to three mainstream\nemail services selected to reflect different privacy policies, from\nad-supported tracking-intensive models to privacy-focused designs: Microsoft\nOutlook, Google Mail (Gmail), and Proton Mail. We extend this comparison to a\nself-hosted email solution, evaluated with and without end-to-end encryption.\nWe show that the self-hosted solution, even with 14% of device energy and 15%\nof emissions overheads from PGP encryption, remains the most energy-efficient,\nsaving up to 33% of emissions per session compared to Gmail. Among commercial\nproviders, Proton Mail is the most efficient, saving up to 0.1 gCO2 e per\nsession compared to Outlook, whose emissions can be further reduced by 2%\nthrough ad-blocking.",
+    "updated" : "2025-07-02T13:40:13Z",
+    "published" : "2025-06-30T13:58:22Z",
+    "authors" : [
+      {
+        "name" : "Jason Kayembe"
+      },
+      {
+        "name" : "Iness Ben Guirat"
+      },
+      {
+        "name" : "Jan Tobias Mühlberg"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CY",
+      "cs.SE"
+    ]
   }
 ]
