@@ -2,6 +2,64 @@
 <h2>2025-07</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.02727v1">Quantifying Classifier Utility under Local Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
+  <p><b>Published on:</b> 2025-07-03T15:42:10Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ye Zheng, Yidan Hu</p>
+    <p><b>Summary:</b> Local differential privacy (LDP) provides a rigorous and quantifiable privacy
+guarantee for personal data by introducing perturbation at the data source.
+However, quantifying the impact of these perturbations on classifier utility
+remains a theoretical challenge, particularly for complex or black-box
+classifiers.
+  This paper presents a framework for theoretically quantifying classifier
+utility under LDP mechanisms. The key insight is that LDP perturbation is
+concentrated around the original data with a specific probability, transforming
+utility analysis of the classifier into its robustness analysis in this
+concentrated region. Our framework connects the concentration analysis of LDP
+mechanisms with the robustness analysis of classifiers. It treats LDP
+mechanisms as general distributional functions and classifiers as black-box
+functions, thus applicable to any LDP mechanism and classifier. A direct
+application of our utility quantification is guiding the selection of LDP
+mechanisms and privacy parameters for a given classifier. Notably, our analysis
+shows that a piecewise-based mechanism leads to better utility compared to
+alternatives in common scenarios.
+  Using this framework alongside two novel refinement techniques, we conduct
+case studies on utility quantification for typical mechanism-classifier
+combinations. The results demonstrate that our theoretical utility
+quantification aligns closely with empirical observations, particularly when
+classifiers operate in lower-dimensional input spaces.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.02414v1">Privacy-preserving Preselection for Face Identification Based on Packing</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-07-03T08:15:07Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Rundong Xin, Taotao Wang, Jin Wang, Chonghe Zhao, Jing Wang</p>
+    <p><b>Summary:</b> Face identification systems operating in the ciphertext domain have garnered
+significant attention due to increasing privacy concerns and the potential
+recovery of original facial data. However, as the size of ciphertext template
+libraries grows, the face retrieval process becomes progressively more
+time-intensive. To address this challenge, we propose a novel and efficient
+scheme for face retrieval in the ciphertext domain, termed Privacy-Preserving
+Preselection for Face Identification Based on Packing (PFIP). PFIP incorporates
+an innovative preselection mechanism to reduce computational overhead and a
+packing module to enhance the flexibility of biometric systems during the
+enrollment stage. Extensive experiments conducted on the LFW and CASIA datasets
+demonstrate that PFIP preserves the accuracy of the original face recognition
+model, achieving a 100% hit rate while retrieving 1,000 ciphertext face
+templates within 300 milliseconds. Compared to existing approaches, PFIP
+achieves a nearly 50x improvement in retrieval efficiency.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2507.01808v1">Empowering Manufacturers with Privacy-Preserving AI Tools: A Case Study
   in Privacy-Preserving Machine Learning to Solve Real-World Problems</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E"> 
@@ -157,7 +215,7 @@ computing, and learn nothing about data, labels or fine-tuned models.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.00920v1">Privacy-Preserving Quantized Federated Learning with Diverse Precision</a></h3>
+  <h3><a href="http://arxiv.org/abs/2507.00920v2">Privacy-Preserving Quantized Federated Learning with Diverse Precision</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
   <p><b>Published on:</b> 2025-07-01T16:26:20Z</p>
   <details>
@@ -1539,7 +1597,7 @@ with meaningful confidentiality guarantees.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.15854v1">Privacy-Preserving in Connected and Autonomous Vehicles Through Vision
+  <h3><a href="http://arxiv.org/abs/2506.15854v2">Privacy-Preserving in Connected and Autonomous Vehicles Through Vision
   to Text Transformation</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2025-06-18T20:02:24Z</p>
@@ -1879,7 +1937,7 @@ over 32.71% in fairness and 9.66% in accuracy.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.13972v1">Membership Inference Attacks as Privacy Tools: Reliability, Disparity
+  <h3><a href="http://arxiv.org/abs/2506.13972v2">Membership Inference Attacks as Privacy Tools: Reliability, Disparity
   and Ensemble</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2025-06-16T20:22:07Z</p>
@@ -2919,56 +2977,6 @@ findings, we propose a set of recommendations for smart home product teams,
 along with socio-technical and legal interventions to address smart home
 privacy issues-especially those belonging to at-risk groups-in Chinese
 multi-user smart homes.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.06530v1">Breaking the Gaussian Barrier: Residual-PAC Privacy for Automatic
-  Privatization</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-06-06T20:52:47Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Tao Zhang, Yevgeniy Vorobeychik</p>
-    <p><b>Summary:</b> The Probably Approximately Correct (PAC) Privacy framework [1] provides a
-powerful instance-based methodology for certifying privacy in complex
-data-driven systems. However, existing PAC Privacy algorithms rely on a
-Gaussian mutual information upper bound. We show that this is in general too
-conservative: the upper bound obtained by these algorithms is tight if and only
-if the perturbed mechanism output is jointly Gaussian with independent Gaussian
-noise. To address the inefficiency inherent in the Gaussian-based approach, we
-introduce Residual PAC Privacy, an f-divergence-based measure that quantifies
-the privacy remaining after adversarial inference. When instantiated with
-Kullback-Leibler divergence, Residual-PAC Privacy is governed by conditional
-entropy. Moreover, we propose Stackelberg Residual-PAC (SR-PAC) privatization
-mechanisms for RPAC Privacy, a game-theoretic framework that selects optimal
-noise distributions through convex bilevel optimization. Our approach achieves
-tight privacy budget utilization for arbitrary data distributions. Moreover, it
-naturally composes under repeated mechanisms and provides provable privacy
-guarantees with higher statistical efficiency. Numerical experiments
-demonstrate that SR-PAC certifies the target privacy budget while consistently
-improving utility compared to existing methods.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.06124v1">PrivTru: A Privacy-by-Design Data Trustee Minimizing Information Leakage</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-06-06T14:33:59Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Lukas Gehring, Florian Tschorsch</p>
-    <p><b>Summary:</b> Data trustees serve as intermediaries that facilitate secure data sharing
-between independent parties. This paper offers a technical perspective on Data
-trustees, guided by privacy-by-design principles. We introduce PrivTru, an
-instantiation of a data trustee that provably achieves optimal privacy
-properties. Therefore, PrivTru calculates the minimal amount of information the
-data trustee needs to request from data sources to respond to a given query.
-Our analysis shows that PrivTru minimizes information leakage to the data
-trustee, regardless of the trustee's prior knowledge, while preserving the
-utility of the data.</p>
   </details>
 </div>
 
