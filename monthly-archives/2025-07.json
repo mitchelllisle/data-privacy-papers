@@ -243,5 +243,83 @@
       "stat.ME",
       "stat.TH"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.02727v1",
+    "title" : "Quantifying Classifier Utility under Local Differential Privacy",
+    "summary" : "Local differential privacy (LDP) provides a rigorous and quantifiable privacy\nguarantee for personal data by introducing perturbation at the data source.\nHowever, quantifying the impact of these perturbations on classifier utility\nremains a theoretical challenge, particularly for complex or black-box\nclassifiers.\n  This paper presents a framework for theoretically quantifying classifier\nutility under LDP mechanisms. The key insight is that LDP perturbation is\nconcentrated around the original data with a specific probability, transforming\nutility analysis of the classifier into its robustness analysis in this\nconcentrated region. Our framework connects the concentration analysis of LDP\nmechanisms with the robustness analysis of classifiers. It treats LDP\nmechanisms as general distributional functions and classifiers as black-box\nfunctions, thus applicable to any LDP mechanism and classifier. A direct\napplication of our utility quantification is guiding the selection of LDP\nmechanisms and privacy parameters for a given classifier. Notably, our analysis\nshows that a piecewise-based mechanism leads to better utility compared to\nalternatives in common scenarios.\n  Using this framework alongside two novel refinement techniques, we conduct\ncase studies on utility quantification for typical mechanism-classifier\ncombinations. The results demonstrate that our theoretical utility\nquantification aligns closely with empirical observations, particularly when\nclassifiers operate in lower-dimensional input spaces.",
+    "updated" : "2025-07-03T15:42:10Z",
+    "published" : "2025-07-03T15:42:10Z",
+    "authors" : [
+      {
+        "name" : "Ye Zheng"
+      },
+      {
+        "name" : "Yidan Hu"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "E.3"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.02414v1",
+    "title" : "Privacy-preserving Preselection for Face Identification Based on Packing",
+    "summary" : "Face identification systems operating in the ciphertext domain have garnered\nsignificant attention due to increasing privacy concerns and the potential\nrecovery of original facial data. However, as the size of ciphertext template\nlibraries grows, the face retrieval process becomes progressively more\ntime-intensive. To address this challenge, we propose a novel and efficient\nscheme for face retrieval in the ciphertext domain, termed Privacy-Preserving\nPreselection for Face Identification Based on Packing (PFIP). PFIP incorporates\nan innovative preselection mechanism to reduce computational overhead and a\npacking module to enhance the flexibility of biometric systems during the\nenrollment stage. Extensive experiments conducted on the LFW and CASIA datasets\ndemonstrate that PFIP preserves the accuracy of the original face recognition\nmodel, achieving a 100% hit rate while retrieving 1,000 ciphertext face\ntemplates within 300 milliseconds. Compared to existing approaches, PFIP\nachieves a nearly 50x improvement in retrieval efficiency.",
+    "updated" : "2025-07-03T08:15:07Z",
+    "published" : "2025-07-03T08:15:07Z",
+    "authors" : [
+      {
+        "name" : "Rundong Xin"
+      },
+      {
+        "name" : "Taotao Wang"
+      },
+      {
+        "name" : "Jin Wang"
+      },
+      {
+        "name" : "Chonghe Zhao"
+      },
+      {
+        "name" : "Jing Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.00920v2",
+    "title" : "Privacy-Preserving Quantized Federated Learning with Diverse Precision",
+    "summary" : "Federated learning (FL) has emerged as a promising paradigm for distributed\nmachine learning, enabling collaborative training of a global model across\nmultiple local devices without requiring them to share raw data. Despite its\nadvancements, FL is limited by factors such as: (i) privacy risks arising from\nthe unprotected transmission of local model updates to the fusion center (FC)\nand (ii) decreased learning utility caused by heterogeneity in model\nquantization resolution across participating devices. Prior work typically\naddresses only one of these challenges because maintaining learning utility\nunder both privacy risks and quantization heterogeneity is a non-trivial task.\nIn this paper, our aim is therefore to improve the learning utility of a\nprivacy-preserving FL that allows clusters of devices with different\nquantization resolutions to participate in each FL round. Specifically, we\nintroduce a novel stochastic quantizer (SQ) that is designed to simultaneously\nachieve differential privacy (DP) and minimum quantization error. Notably, the\nproposed SQ guarantees bounded distortion, unlike other DP approaches. To\naddress quantization heterogeneity, we introduce a cluster size optimization\ntechnique combined with a linear fusion approach to enhance model aggregation\naccuracy. Numerical simulations validate the benefits of our approach in terms\nof privacy protection and learning utility compared to the conventional\nLaplaceSQ-FL algorithm.",
+    "updated" : "2025-07-03T01:49:31Z",
+    "published" : "2025-07-01T16:26:20Z",
+    "authors" : [
+      {
+        "name" : "Dang Qua Nguyen"
+      },
+      {
+        "name" : "Morteza Hashemi"
+      },
+      {
+        "name" : "Erik Perrins"
+      },
+      {
+        "name" : "Sergiy A. Vorobyov"
+      },
+      {
+        "name" : "David J. Love"
+      },
+      {
+        "name" : "Taejoon Kim"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "eess.SP"
+    ]
   }
 ]
