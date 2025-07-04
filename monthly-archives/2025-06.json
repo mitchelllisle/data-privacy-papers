@@ -3831,5 +3831,57 @@
       "cs.CY",
       "cs.SE"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.15854v2",
+    "title" : "Privacy-Preserving in Connected and Autonomous Vehicles Through Vision\n  to Text Transformation",
+    "summary" : "Connected and Autonomous Vehicles (CAVs) rely on a range of devices that\noften process privacy-sensitive data. Among these, roadside units play a\ncritical role particularly through the use of AI-equipped (AIE) cameras for\napplications such as violation detection. However, the privacy risks associated\nwith captured imagery remain a major concern, as such data can be misused for\nidentity theft, profiling, or unauthorized commercial purposes. While\ntraditional techniques such as face blurring and obfuscation have been applied\nto mitigate privacy risks, individual privacy remains at risk, as individuals\ncan still be tracked using other features such as their clothing. This paper\nintroduces a novel privacy-preserving framework that leverages feedback-based\nreinforcement learning (RL) and vision-language models (VLMs) to protect\nsensitive visual information captured by AIE cameras. The main idea is to\nconvert images into semantically equivalent textual descriptions, ensuring that\nscene-relevant information is retained while visual privacy is preserved. A\nhierarchical RL strategy is employed to iteratively refine the generated text,\nenhancing both semantic accuracy and privacy. Evaluation results demonstrate\nsignificant improvements in both privacy protection and textual quality, with\nthe Unique Word Count increasing by approximately 77\\% and Detail Density by\naround 50\\% compared to existing approaches.",
+    "updated" : "2025-07-02T18:31:53Z",
+    "published" : "2025-06-18T20:02:24Z",
+    "authors" : [
+      {
+        "name" : "Abdolazim Rezaei"
+      },
+      {
+        "name" : "Mehdi Sookhak"
+      },
+      {
+        "name" : "Ahmad Patooghy"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.13972v2",
+    "title" : "Membership Inference Attacks as Privacy Tools: Reliability, Disparity\n  and Ensemble",
+    "summary" : "Membership inference attacks (MIAs) pose a significant threat to the privacy\nof machine learning models and are widely used as tools for privacy assessment,\nauditing, and machine unlearning. While prior MIA research has primarily\nfocused on performance metrics such as AUC, accuracy, and TPR@low FPR - either\nby developing new methods to enhance these metrics or using them to evaluate\nprivacy solutions - we found that it overlooks the disparities among different\nattacks. These disparities, both between distinct attack methods and between\nmultiple instantiations of the same method, have crucial implications for the\nreliability and completeness of MIAs as privacy evaluation tools. In this\npaper, we systematically investigate these disparities through a novel\nframework based on coverage and stability analysis. Extensive experiments\nreveal significant disparities in MIAs, their potential causes, and their\nbroader implications for privacy evaluation. To address these challenges, we\npropose an ensemble framework with three distinct strategies to harness the\nstrengths of state-of-the-art MIAs while accounting for their disparities. This\nframework not only enables the construction of more powerful attacks but also\nprovides a more robust and comprehensive methodology for privacy evaluation.",
+    "updated" : "2025-07-03T17:45:38Z",
+    "published" : "2025-06-16T20:22:07Z",
+    "authors" : [
+      {
+        "name" : "Zhiqi Wang"
+      },
+      {
+        "name" : "Chengyu Zhang"
+      },
+      {
+        "name" : "Yuetian Chen"
+      },
+      {
+        "name" : "Nathalie Baracaldo"
+      },
+      {
+        "name" : "Swanand Kadhe"
+      },
+      {
+        "name" : "Lei Yu"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
   }
 ]
