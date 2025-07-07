@@ -2031,7 +2031,7 @@ guarantees and experimental results validating our findings.</p>
   <p><b>Published on:</b> 2025-06-16T07:33:12Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Imdad Ullah, Najm Hassan, Tariq Ahamed Ahangar, Zawar Hussain Shah, Mehregan Mahdavi Andrew Levula</p>
+    <p><b>Authors:</b> Imdad Ullah, Najm Hassan, Tariq Ahamed Ahangar, Zawar Hussain Shah, Mehregan Mahdavi, Andrew Levula</p>
     <p><b>Summary:</b> User profiling is crucial in providing personalised services, as it relies on
 analysing user behaviour and preferences to deliver targeted services. This
 approach enhances user experience and promotes heightened engagement.
