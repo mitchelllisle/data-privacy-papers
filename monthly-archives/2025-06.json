@@ -3883,5 +3883,35 @@
     "categories" : [
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.13170v1",
+    "title" : "Dual Protection Ring: User Profiling Via Differential Privacy and\n  Service Dissemination Through Private Information Retrieval",
+    "summary" : "User profiling is crucial in providing personalised services, as it relies on\nanalysing user behaviour and preferences to deliver targeted services. This\napproach enhances user experience and promotes heightened engagement.\nNevertheless, user profiling also gives rise to noteworthy privacy\nconsiderations due to the extensive tracking and monitoring of personal data,\npotentially leading to surveillance or identity theft. We propose a dual-ring\nprotection mechanism to protect user privacy by examining various threats to\nuser privacy, such as behavioural attacks, profiling fingerprinting and\nmonitoring, profile perturbation, etc., both on the user and service provider\nsides. We develop user profiles that contain sensitive private attributes and\nan equivalent profile based on differential privacy for evaluating personalised\nservices. We determine the entropy of the resultant profiles during each update\nto protect profiling attributes and invoke various processes, such as data\nevaporation, to artificially increase entropy or destroy private profiling\nattributes. Furthermore, we use different variants of private information\nretrieval (PIR) to retrieve personalised services against differentially\nprivate profiles. We implement critical components of the proposed model via a\nproof-of-concept mobile app to demonstrate its applicability over a specific\ncase study of advertising services, which can be generalised to other services.\nOur experimental results show that the observed processing delays with\ndifferent PIR schemes are similar to the current advertising systems.",
+    "updated" : "2025-06-16T07:33:12Z",
+    "published" : "2025-06-16T07:33:12Z",
+    "authors" : [
+      {
+        "name" : "Imdad Ullah"
+      },
+      {
+        "name" : "Najm Hassan"
+      },
+      {
+        "name" : "Tariq Ahamed Ahangar"
+      },
+      {
+        "name" : "Zawar Hussain Shah"
+      },
+      {
+        "name" : "Mehregan Mahdavi"
+      },
+      {
+        "name" : "Andrew Levula"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
