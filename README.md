@@ -2,6 +2,188 @@
 <h2>2025-07</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.05175v1">Blind Targeting: Personalization under Third-Party Privacy Constraints</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">  
+  <p><b>Published on:</b> 2025-07-07T16:30:40Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Anya Shchetkina</p>
+    <p><b>Summary:</b> Major advertising platforms recently increased privacy protections by
+limiting advertisers' access to individual-level data. Instead of providing
+access to granular raw data, the platforms only allow a limited number of
+aggregate queries to a dataset, which is further protected by adding
+differentially private noise. This paper studies whether and how advertisers
+can design effective targeting policies within these restrictive privacy
+preserving data environments. To achieve this, I develop a probabilistic
+machine learning method based on Bayesian optimization, which facilitates
+dynamic data exploration. Since Bayesian optimization was designed to sample
+points from a function to find its maximum, it is not applicable to aggregate
+queries and to targeting. Therefore, I introduce two innovations: (i) integral
+updating of posteriors which allows to select the best regions of the data to
+query rather than individual points and (ii) a targeting-aware acquisition
+function that dynamically selects the most informative regions for the
+targeting task. I identify the conditions of the dataset and privacy
+environment that necessitate the use of such a "smart" querying strategy. I
+apply the strategic querying method to the Criteo AI Labs dataset for uplift
+modeling (Diemert et al., 2018) that contains visit and conversion data from
+14M users. I show that an intuitive benchmark strategy only achieves 33% of the
+non-privacy-preserving targeting potential in some cases, while my strategic
+querying method achieves 97-101% of that potential, and is statistically
+indistinguishable from Causal Forest (Athey et al., 2019): a state-of-the-art
+non-privacy-preserving machine learning targeting method.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.04771v1">Efficient Unlearning with Privacy Guarantees</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-07-07T08:46:02Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Josep Domingo-Ferrer, Najeeb Jebreel, David Sánchez</p>
+    <p><b>Summary:</b> Privacy protection laws, such as the GDPR, grant individuals the right to
+request the forgetting of their personal data not only from databases but also
+from machine learning (ML) models trained on them. Machine unlearning has
+emerged as a practical means to facilitate model forgetting of data instances
+seen during training. Although some existing machine unlearning methods
+guarantee exact forgetting, they are typically costly in computational terms.
+On the other hand, more affordable methods do not offer forgetting guarantees
+and are applicable only to specific ML models. In this paper, we present
+\emph{efficient unlearning with privacy guarantees} (EUPG), a novel machine
+unlearning framework that offers formal privacy guarantees to individuals whose
+data are being unlearned. EUPG involves pre-training ML models on data
+protected using privacy models, and it enables {\em efficient unlearning with
+the privacy guarantees offered by the privacy models in use}. Through empirical
+evaluation on four heterogeneous data sets protected with $k$-anonymity and
+$\epsilon$-differential privacy as privacy models, our approach demonstrates
+utility and forgetting effectiveness comparable to those of exact unlearning
+methods, while significantly reducing computational and storage costs. Our code
+is available at https://github.com/najeebjebreel/EUPG.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.04528v1">Towards integration of Privacy Enhancing Technologies in Explainable
+  Artificial Intelligence</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-07-06T20:45:34Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Sonal Allana, Rozita Dara, Xiaodong Lin, Pulei Xiong</p>
+    <p><b>Summary:</b> Explainable Artificial Intelligence (XAI) is a crucial pathway in mitigating
+the risk of non-transparency in the decision-making process of black-box
+Artificial Intelligence (AI) systems. However, despite the benefits, XAI
+methods are found to leak the privacy of individuals whose data is used in
+training or querying the models. Researchers have demonstrated privacy attacks
+that exploit explanations to infer sensitive personal information of
+individuals. Currently there is a lack of defenses against known privacy
+attacks targeting explanations when vulnerable XAI are used in production and
+machine learning as a service system. To address this gap, in this article, we
+explore Privacy Enhancing Technologies (PETs) as a defense mechanism against
+attribute inference on explanations provided by feature-based XAI methods. We
+empirically evaluate 3 types of PETs, namely synthetic training data,
+differentially private training and noise addition, on two categories of
+feature-based XAI. Our evaluation determines different responses from the
+mitigation methods and side-effects of PETs on other system properties such as
+utility and performance. In the best case, PETs integration in explanations
+reduced the risk of the attack by 49.47%, while maintaining model utility and
+explanation quality. Through our evaluation, we identify strategies for using
+PETs in XAI for maximizing benefits and minimizing the success of this privacy
+attack on sensitive personal information.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.04185v1">From Legal Text to Tech Specs: Generative AI's Interpretation of Consent
+  in Privacy Law</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
+  <p><b>Published on:</b> 2025-07-05T23:36:05Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Aniket Kesari, Travis Breaux, Tom Norton, Sarah Santos, Anmol Singhal</p>
+    <p><b>Summary:</b> Privacy law and regulation have turned to "consent" as the legitimate basis
+for collecting and processing individuals' data. As governments have rushed to
+enshrine consent requirements in their privacy laws, such as the California
+Consumer Privacy Act (CCPA), significant challenges remain in understanding how
+these legal mandates are operationalized in software. The opaque nature of
+software development processes further complicates this translation. To address
+this, we explore the use of Large Language Models (LLMs) in requirements
+engineering to bridge the gap between legal requirements and technical
+implementation. This study employs a three-step pipeline that involves using an
+LLM to classify software use cases for compliance, generating LLM modifications
+for non-compliant cases, and manually validating these changes against legal
+standards. Our preliminary findings highlight the potential of LLMs in
+automating compliance tasks, while also revealing limitations in their
+reasoning capabilities. By benchmarking LLMs against real-world use cases, this
+research provides insights into leveraging AI-driven solutions to enhance legal
+compliance of software.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.04104v1">Human-Centered Interactive Anonymization for Privacy-Preserving Machine
+  Learning: A Case for Human-Guided k-Anonymity</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-07-05T17:20:18Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Sri Harsha Gajavalli</p>
+    <p><b>Summary:</b> Privacy-preserving machine learning (ML) seeks to balance data utility and
+privacy, especially as regulations like the GDPR mandate the anonymization of
+personal data for ML applications. Conventional anonymization approaches often
+reduce data utility due to indiscriminate generalization or suppression of data
+attributes. In this study, we propose an interactive approach that incorporates
+human input into the k-anonymization process, enabling domain experts to guide
+attribute preservation based on contextual importance. Using the UCI Adult
+dataset, we compare classification outcomes of interactive human-influenced
+anonymization with traditional, fully automated methods. Our results show that
+human input can enhance data utility in some cases, although results vary
+across tasks and settings. We discuss limitations of our approach and suggest
+potential areas for improved interactive frameworks in privacy-aware ML.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.03694v1">Willchain: Decentralized, Privacy-Preserving, Self-Executing, Digital
+  Wills</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computational Engineering, Finance, and Science-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E">
+  <p><b>Published on:</b> 2025-07-04T16:23:32Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jovonni L. PHarr</p>
+    <p><b>Summary:</b> This work presents a novel decentralized protocol for digital estate planning
+that integrates advances distributed computing, and cryptography. The original
+proof-of-concept was constructed using purely solidity contracts. Since then,
+we have enhanced the implementation into a layer-1 protocol that uses modern
+interchain communication to connect several heterogeneous chain types. A key
+contribution of this research is the implementation of several modern
+cryptographic primitives to support various forms of claims for information
+validation. These primitives introduce an unmatched level of privacy to the
+process of digital inheritance. We also demonstrate on a set of heterogeneous
+smart contracts, following the same spec, on each chain to serve as entry
+points, gateways, or bridge contracts that are invoked via a path from the will
+module on our protocol, to the contract. This ensures a fair and secure
+distribution of digital assets in accordance with the wishes of the decedent
+without the requirement of moving their funds. This research further extends
+its innovations with a user interaction model, featuring a check-in system and
+account abstraction process, which enhances flexibility and user-friendliness
+without compromising on security. By developing a dedicated permissionless
+blockchain that is secured by a network of validators, and interchain relayers,
+the proposed protocol signifies a transformation in the digital estate planning
+industry and illustrates the potential of blockchain technology in
+revolutionizing traditional legal and personal spheres. Implementing a
+cryptoeconomic network at the core of inheritance planning allows for unique
+incentive compatible economic mechanisms to be constructed.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2507.02727v1">Quantifying Classifier Utility under Local Differential Privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
   <p><b>Published on:</b> 2025-07-03T15:42:10Z</p>
@@ -55,6 +237,45 @@ demonstrate that PFIP preserves the accuracy of the original face recognition
 model, achieving a 100% hit rate while retrieving 1,000 ciphertext face
 templates within 300 milliseconds. Compared to existing approaches, PFIP
 achieves a nearly 50x improvement in retrieval efficiency.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.03033v1">Preserving Privacy, Increasing Accessibility, and Reducing Cost: An
+  On-Device Artificial Intelligence Model for Medical Transcription and Note
+  Generation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-07-03T01:51:49Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Johnson Thomas, Ayush Mudgal, Wendao Liu, Nisten Tahiraj, Zeeshaan Mohammed, Dhruv Diddi</p>
+    <p><b>Summary:</b> Background: Clinical documentation represents a significant burden for
+healthcare providers, with physicians spending up to 2 hours daily on
+administrative tasks. Recent advances in large language models (LLMs) offer
+promising solutions, but privacy concerns and computational requirements limit
+their adoption in healthcare settings. Objective: To develop and evaluate a
+privacy-preserving, on-device medical transcription system using a fine-tuned
+Llama 3.2 1B model capable of generating structured medical notes from medical
+transcriptions while maintaining complete data sovereignty entirely in the
+browser. Methods: We fine-tuned a Llama 3.2 1B model using Parameter-Efficient
+Fine-Tuning (PEFT) with LoRA on 1,500 synthetic medical
+transcription-to-structured note pairs. The model was evaluated against the
+base Llama 3.2 1B on two datasets: 100 endocrinology transcripts and 140
+modified ACI benchmark cases. Evaluation employed both statistical metrics
+(ROUGE, BERTScore, BLEURT) and LLM-as-judge assessments across multiple
+clinical quality dimensions. Results: The fine-tuned OnDevice model
+demonstrated substantial improvements over the base model. On the ACI
+benchmark, ROUGE-1 scores increased from 0.346 to 0.496, while BERTScore F1
+improved from 0.832 to 0.866. Clinical quality assessments showed marked
+reduction in major hallucinations (from 85 to 35 cases) and enhanced factual
+correctness (2.81 to 3.54 on 5-point scale). Similar improvements were observed
+on the internal evaluation dataset, with composite scores increasing from 3.13
+to 4.43 (+41.5%). Conclusions: Fine-tuning compact LLMs for medical
+transcription yields clinically meaningful improvements while enabling complete
+on-device browser deployment. This approach addresses key barriers to AI
+adoption in healthcare: privacy preservation, cost reduction, and accessibility
+for resource-constrained environments.</p>
   </details>
 </div>
 
@@ -327,7 +548,7 @@ privacy and responsible handling of others data.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.00230v1">PPFL-RDSN: Privacy-Preserving Federated Learning-based Residual Dense
+  <h3><a href="http://arxiv.org/abs/2507.00230v2">PPFL-RDSN: Privacy-Preserving Federated Learning-based Residual Dense
   Spatial Networks for Encrypted Lossy Image Reconstruction</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2025-06-30T19:54:34Z</p>
@@ -349,6 +570,33 @@ state-of-the-art centralized methods while reducing computational burdens, and
 effectively mitigates security and privacy vulnerabilities, making it a
 practical solution for secure and privacy-preserving collaborative computer
 vision applications.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.02974v1">InvisibleInk: High-Utility and Low-Cost Text Generation with
+  Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-06-30T18:00:41Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Vishnu Vinod, Krishna Pillutla, Abhradeep Guha Thakurta</p>
+    <p><b>Summary:</b> As major progress in LLM-based long-form text generation enables paradigms
+such as retrieval-augmented generation (RAG) and inference-time scaling, safely
+incorporating private information into the generation remains a critical open
+question. We present InvisibleInk, a highly scalable long-form text generation
+framework satisfying rigorous differential privacy guarantees with respect to
+the sensitive references. It interprets sampling from the LLM's
+next-token-distribution as the exponential mechanism over the LLM logits with
+two innovations. First, we reduce the privacy cost by isolating and clipping
+only the sensitive information in the model logits (relative to the public
+logits). Second, we improve text quality by sampling from a small superset of
+the top-$k$ private tokens. Empirical evaluations demonstrate a consistent
+$8\times$ reduction in computation cost over state-of-the-art baselines to
+generate long-form private text of the same utility across privacy levels. In
+summary, InvisibleInk is able to generate private long-form text at less than
+$10\times$ the computation cost of non-private generation.</p>
   </details>
 </div>
 
@@ -385,7 +633,36 @@ https://github.com/LDP-user/LDP-Ranking.git.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.23866v2">Exploring Privacy and Security as Drivers for Environmental
+  <h3><a href="http://arxiv.org/abs/2507.02968v1">Unveiling Privacy Policy Complexity: An Exploratory Study Using Graph
+  Mining, Machine Learning, and Natural Language Processing</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-06-30T14:55:57Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Vijayalakshmi Ramasamy, Seth Barrett, Gokila Dorai, Jessica Zumbach</p>
+    <p><b>Summary:</b> Privacy policy documents are often lengthy, complex, and difficult for
+non-expert users to interpret, leading to a lack of transparency regarding the
+collection, processing, and sharing of personal data. As concerns over online
+privacy grow, it is essential to develop automated tools capable of analyzing
+privacy policies and identifying potential risks. In this study, we explore the
+potential of interactive graph visualizations to enhance user understanding of
+privacy policies by representing policy terms as structured graph models. This
+approach makes complex relationships more accessible and enables users to make
+informed decisions about their personal data (RQ1). We also employ graph mining
+algorithms to identify key themes, such as User Activity and Device
+Information, using dimensionality reduction techniques like t-SNE and PCA to
+assess clustering effectiveness. Our findings reveal that graph-based
+clustering improves policy content interpretability. It highlights patterns in
+user tracking and data sharing, which supports forensic investigations and
+identifies regulatory non-compliance. This research advances AI-driven tools
+for auditing privacy policies by integrating interactive visualizations with
+graph mining. Enhanced transparency fosters accountability and trust.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2506.23866v3">Exploring Privacy and Security as Drivers for Environmental
   Sustainability in Cloud-Based Office Solutions</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
   <p><b>Published on:</b> 2025-06-30T13:58:22Z</p>
@@ -2701,282 +2978,6 @@ results and the resulting web ads from search engines. Preliminary experimental
 results indicate that web search query and specific user intent privacy might
 be achievable from the user side without the involvement of the search engine
 or other third parties.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.08185v2">Agentic Surgical AI: Surgeon Style Fingerprinting and Privacy Risk
-  Quantification via Discrete Diffusion in a Vision-Language-Action Framework</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-06-09T19:49:55Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Huixin Zhan, Jason H. Moore</p>
-    <p><b>Summary:</b> Surgeons exhibit distinct operating styles shaped by training, experience,
-and motor behavior-yet most surgical AI systems overlook this personalization
-signal. We propose a novel agentic modeling approach for surgeon-specific
-behavior prediction in robotic surgery, combining a discrete diffusion
-framework with a vision-language-action (VLA) pipeline. Gesture prediction is
-framed as a structured sequence denoising task, conditioned on multimodal
-inputs including surgical video, intent language, and personalized embeddings
-of surgeon identity and skill. These embeddings are encoded through natural
-language prompts using third-party language models, allowing the model to
-retain individual behavioral style without exposing explicit identity. We
-evaluate our method on the JIGSAWS dataset and demonstrate that it accurately
-reconstructs gesture sequences while learning meaningful motion fingerprints
-unique to each surgeon. To quantify the privacy implications of
-personalization, we perform membership inference attacks and find that more
-expressive embeddings improve task performance but simultaneously increase
-susceptibility to identity leakage. These findings demonstrate that while
-personalized embeddings improve performance, they also increase vulnerability
-to identity leakage, revealing the importance of balancing personalization with
-privacy risk in surgical modeling. Code is available at:
-https://github.com/huixin-zhan-ai/Surgeon_style_fingerprinting.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.10024v1">Private Memorization Editing: Turning Memorization into a Defense to
-  Strengthen Data Privacy in Large Language Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2025-06-09T17:57:43Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Elena Sofia Ruzzetti, Giancarlo A. Xompero, Davide Venditti, Fabio Massimo Zanzotto</p>
-    <p><b>Summary:</b> Large Language Models (LLMs) memorize, and thus, among huge amounts of
-uncontrolled data, may memorize Personally Identifiable Information (PII),
-which should not be stored and, consequently, not leaked. In this paper, we
-introduce Private Memorization Editing (PME), an approach for preventing
-private data leakage that turns an apparent limitation, that is, the LLMs'
-memorization ability, into a powerful privacy defense strategy. While attacks
-against LLMs have been performed exploiting previous knowledge regarding their
-training data, our approach aims to exploit the same kind of knowledge in order
-to make a model more robust. We detect a memorized PII and then mitigate the
-memorization of PII by editing a model knowledge of its training data. We
-verify that our procedure does not affect the underlying language model while
-making it more robust against privacy Training Data Extraction attacks. We
-demonstrate that PME can effectively reduce the number of leaked PII in a
-number of configurations, in some cases even reducing the accuracy of the
-privacy attacks to zero.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.07957v1">Understanding the Error Sensitivity of Privacy-Aware Computing</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Hardware Architecture-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-06-09T17:27:40Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Matías Mazzanti, Esteban Mocskos, Augusto Vega, Pradip Bose</p>
-    <p><b>Summary:</b> Homomorphic Encryption (HE) enables secure computation on encrypted data
-without decryption, allowing a great opportunity for privacy-preserving
-computation. In particular, domains such as healthcare, finance, and
-government, where data privacy and security are of utmost importance, can
-benefit from HE by enabling third-party computation and services on sensitive
-data. In other words, HE constitutes the "Holy Grail" of cryptography: data
-remains encrypted all the time, being protected while in use.
-  HE's security guarantees rely on noise added to data to make relatively
-simple problems computationally intractable. This error-centric intrinsic HE
-mechanism generates new challenges related to the fault tolerance and
-robustness of HE itself: hardware- and software-induced errors during HE
-operation can easily evade traditional error detection and correction
-mechanisms, resulting in silent data corruption (SDC).
-  In this work, we motivate a thorough discussion regarding the sensitivity of
-HE applications to bit faults and provide a detailed error characterization
-study of CKKS (Cheon-Kim-Kim-Song). This is one of the most popular HE schemes
-due to its fixed-point arithmetic support for AI and machine learning
-applications. We also delve into the impact of the residue number system (RNS)
-and the number theoretic transform (NTT), two widely adopted HE optimization
-techniques, on CKKS' error sensitivity. To the best of our knowledge, this is
-the first work that looks into the robustness and error sensitivity of
-homomorphic encryption and, as such, it can pave the way for critical future
-work in this area.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.07868v1">Securing Unbounded Differential Privacy Against Timing Attacks</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-06-09T15:35:15Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zachary Ratliff, Salil Vadhan</p>
-    <p><b>Summary:</b> Recent works have started to theoretically investigate how we can protect
-differentially private programs against timing attacks, by making the joint
-distribution the output and the runtime differentially private (JOT-DP).
-However, the existing approaches to JOT-DP have some limitations, particularly
-in the setting of unbounded DP (which protects the size of the dataset and
-applies to arbitrarily large datasets). First, the known conversion of pure DP
-programs to pure JOT-DP programs in the unbounded setting (a) incurs a constant
-additive increase in error probability (and thus does not provide vanishing
-error as $n\to\infty$) (b) produces JOT-DP programs that fail to preserve the
-computational efficiency of the original pure DP program and (c) is analyzed in
-a toy computational model in which the runtime is defined to be the number of
-coin flips. In this work, we overcome these limitations. Specifically, we show
-that the error required for pure JOT-DP in the unbounded setting depends on the
-model of computation. In a randomized RAM model where the dataset size $n$ is
-given (or can be computed in constant time) and we can generate random numbers
-(not just random bits) in constant time, polynomially small error probability
-is necessary and sufficient. If $n$ is not given or we only have a random-bit
-generator, an (arbitrarily small) constant error probability is necessary and
-sufficient. The aforementioned positive results are proven by efficient
-procedures to convert any pure JOT-DP program $P$ in the upper-bounded setting
-to a pure JOT-DP program $P'$ in the unbounded setting, such that the output
-distribution of $P'$ is $\gamma$-close in total variation distance to that of
-$P$, where $\gamma$ is either an arbitrarily small constant or polynomially
-small, depending on the model of computation.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.07605v2">TimberStrike: Dataset Reconstruction Attack Revealing Privacy Leakage in
-  Federated Tree-Based Systems</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-06-09T10:06:03Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Marco Di Gennaro, Giovanni De Lucia, Stefano Longari, Stefano Zanero, Michele Carminati</p>
-    <p><b>Summary:</b> Federated Learning has emerged as a privacy-oriented alternative to
-centralized Machine Learning, enabling collaborative model training without
-direct data sharing. While extensively studied for neural networks, the
-security and privacy implications of tree-based models remain underexplored.
-This work introduces TimberStrike, an optimization-based dataset reconstruction
-attack targeting horizontally federated tree-based models. Our attack, carried
-out by a single client, exploits the discrete nature of decision trees by using
-split values and decision paths to infer sensitive training data from other
-clients. We evaluate TimberStrike on State-of-the-Art federated gradient
-boosting implementations across multiple frameworks, including Flower, NVFlare,
-and FedTree, demonstrating their vulnerability to privacy breaches. On a
-publicly available stroke prediction dataset, TimberStrike consistently
-reconstructs between 73.05% and 95.63% of the target dataset across all
-implementations. We further analyze Differential Privacy, showing that while it
-partially mitigates the attack, it also significantly degrades model
-performance. Our findings highlight the need for privacy-preserving mechanisms
-specifically designed for tree-based Federated Learning systems, and we provide
-preliminary insights into their design.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.07555v2">Synthesize Privacy-Preserving High-Resolution Images via Private Textual
-  Intermediaries</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-06-09T08:48:06Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Haoxiang Wang, Zinan Lin, Da Yu, Huishuai Zhang</p>
-    <p><b>Summary:</b> Generating high fidelity, differentially private (DP) synthetic images offers
-a promising route to share and analyze sensitive visual data without
-compromising individual privacy. However, existing DP image synthesis methods
-struggle to produce high resolution outputs that faithfully capture the
-structure of the original data. In this paper, we introduce a novel method,
-referred to as Synthesis via Private Textual Intermediaries (SPTI), that can
-generate high resolution DP images with easy adoption. The key idea is to shift
-the challenge of DP image synthesis from the image domain to the text domain by
-leveraging state of the art DP text generation methods. SPTI first summarizes
-each private image into a concise textual description using image to text
-models, then applies a modified Private Evolution algorithm to generate DP
-text, and finally reconstructs images using text to image models. Notably, SPTI
-requires no model training, only inference with off the shelf models. Given a
-private dataset, SPTI produces synthetic images of substantially higher quality
-than prior DP approaches. On the LSUN Bedroom dataset, SPTI attains an FID less
-than or equal to 26.71 under epsilon equal to 1.0, improving over Private
-Evolution FID of 40.36. Similarly, on MM CelebA HQ, SPTI achieves an FID less
-than or equal to 33.27 at epsilon equal to 1.0, compared to 57.01 from DP fine
-tuning baselines. Overall, our results demonstrate that Synthesis via Private
-Textual Intermediaries provides a resource efficient and proprietary model
-compatible framework for generating high resolution DP synthetic images,
-greatly expanding access to private visual datasets.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.07102v1">Decentralized Optimization with Amplified Privacy via Efficient
-  Communication</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
-  <p><b>Published on:</b> 2025-06-08T12:14:14Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Wei Huo, Changxin Liu, Kemi Ding, Karl Henrik Johansson, Ling Shi</p>
-    <p><b>Summary:</b> Decentralized optimization is crucial for multi-agent systems, with
-significant concerns about communication efficiency and privacy. This paper
-explores the role of efficient communication in decentralized stochastic
-gradient descent algorithms for enhancing privacy preservation. We develop a
-novel algorithm that incorporates two key features: random agent activation and
-sparsified communication. Utilizing differential privacy, we demonstrate that
-these features reduce noise without sacrificing privacy, thereby amplifying the
-privacy guarantee and improving accuracy. Additionally, we analyze the
-convergence and the privacy-accuracy-communication trade-off of the proposed
-algorithm. Finally, we present experimental results to illustrate the
-effectiveness of our algorithm.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.06742v1">LADSG: Label-Anonymized Distillation and Similar Gradient Substitution
-  for Label Privacy in Vertical Federated Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-06-07T10:10:56Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zeyu Yan, Yifei Yao, Xuanbing Wen, Juli Zhang, Kai Fan</p>
-    <p><b>Summary:</b> Vertical federated learning (VFL) has become a key paradigm for collaborative
-machine learning, enabling multiple parties to train models over distributed
-feature spaces while preserving data privacy. Despite security protocols that
-defend against external attacks - such as gradient masking and encryption,
-which prevent unauthorized access to sensitive data - recent label inference
-attacks from within the system have emerged. These attacks exploit gradients
-and semantic embeddings to reconstruct private labels, bypassing traditional
-defenses. For example, the passive label inference attack can reconstruct tens
-of thousands of participants' private data using just 40 auxiliary labels,
-posing a significant security threat. Existing defenses address single leakage
-pathways, such as gradient leakage or label exposure. As attack strategies
-evolve, their limitations become clear, especially against hybrid attacks that
-combine multiple vectors. To address this, we propose Label-Anonymized Defense
-with Substitution Gradient (LADSG), a unified defense framework that integrates
-gradient substitution, label anonymization, and anomaly detection. LADSG
-mitigates both gradient and label leakage while maintaining the scalability and
-efficiency of VFL. Experiments on six real-world datasets show that LADSG
-reduces label inference attack success rates by 30-60%, with minimal
-computational overhead, underscoring the importance of lightweight defenses in
-securing VFL.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.06591v1">Privacy Perspectives and Practices of Chinese Smart Home Product Teams</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2025-06-06T23:49:48Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shijing He, Yaxiong Lei, Xiao Zhan, Chi Zhang, Juan Ye, Ruba Abu-Salma, Jose Such</p>
-    <p><b>Summary:</b> Previous research has explored the privacy needs and concerns of device
-owners, primary users, and different bystander groups with regard to smart home
-devices like security cameras, smart speakers, and hubs, but little is known
-about the privacy views and practices of smart home product teams, particularly
-those in non-Western contexts. This paper presents findings from 27
-semi-structured interviews with Chinese smart home product team members,
-including product/project managers, software/hardware engineers, user
-experience (UX) designers, legal/privacy experts, and marketers/operation
-specialists. We examine their privacy perspectives, practices, and risk
-mitigation strategies. Our results show that participants emphasized compliance
-with Chinese data privacy laws, which typically prioritized national security
-over individual privacy rights. China-specific cultural, social, and legal
-factors also influenced participants' ethical considerations and attitudes
-toward balancing user privacy and security with convenience. Drawing on our
-findings, we propose a set of recommendations for smart home product teams,
-along with socio-technical and legal interventions to address smart home
-privacy issues-especially those belonging to at-risk groups-in Chinese
-multi-user smart homes.</p>
   </details>
 </div>
 
