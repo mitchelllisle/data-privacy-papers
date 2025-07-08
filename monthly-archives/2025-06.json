@@ -3913,5 +3913,95 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.00230v2",
+    "title" : "PPFL-RDSN: Privacy-Preserving Federated Learning-based Residual Dense\n  Spatial Networks for Encrypted Lossy Image Reconstruction",
+    "summary" : "Reconstructing high-quality images from low-resolution inputs using Residual\nDense Spatial Networks (RDSNs) is crucial yet challenging, particularly in\ncollaborative scenarios where centralized training poses significant privacy\nrisks, including data leakage and inference attacks, as well as high\ncomputational costs. We propose a novel Privacy-Preserving Federated\nLearning-based RDSN (PPFL-RDSN) framework specifically tailored for lossy image\nreconstruction. PPFL-RDSN integrates Federated Learning (FL), local\ndifferential privacy, and robust model watermarking techniques, ensuring data\nremains secure on local devices, safeguarding sensitive information, and\nmaintaining model authenticity without revealing underlying data. Empirical\nevaluations show that PPFL-RDSN achieves comparable performance to the\nstate-of-the-art centralized methods while reducing computational burdens, and\neffectively mitigates security and privacy vulnerabilities, making it a\npractical solution for secure and privacy-preserving collaborative computer\nvision applications.",
+    "updated" : "2025-07-04T15:10:21Z",
+    "published" : "2025-06-30T19:54:34Z",
+    "authors" : [
+      {
+        "name" : "Peilin He"
+      },
+      {
+        "name" : "James Joshi"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.02974v1",
+    "title" : "InvisibleInk: High-Utility and Low-Cost Text Generation with\n  Differential Privacy",
+    "summary" : "As major progress in LLM-based long-form text generation enables paradigms\nsuch as retrieval-augmented generation (RAG) and inference-time scaling, safely\nincorporating private information into the generation remains a critical open\nquestion. We present InvisibleInk, a highly scalable long-form text generation\nframework satisfying rigorous differential privacy guarantees with respect to\nthe sensitive references. It interprets sampling from the LLM's\nnext-token-distribution as the exponential mechanism over the LLM logits with\ntwo innovations. First, we reduce the privacy cost by isolating and clipping\nonly the sensitive information in the model logits (relative to the public\nlogits). Second, we improve text quality by sampling from a small superset of\nthe top-$k$ private tokens. Empirical evaluations demonstrate a consistent\n$8\\times$ reduction in computation cost over state-of-the-art baselines to\ngenerate long-form private text of the same utility across privacy levels. In\nsummary, InvisibleInk is able to generate private long-form text at less than\n$10\\times$ the computation cost of non-private generation.",
+    "updated" : "2025-06-30T18:00:41Z",
+    "published" : "2025-06-30T18:00:41Z",
+    "authors" : [
+      {
+        "name" : "Vishnu Vinod"
+      },
+      {
+        "name" : "Krishna Pillutla"
+      },
+      {
+        "name" : "Abhradeep Guha Thakurta"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CL",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.02968v1",
+    "title" : "Unveiling Privacy Policy Complexity: An Exploratory Study Using Graph\n  Mining, Machine Learning, and Natural Language Processing",
+    "summary" : "Privacy policy documents are often lengthy, complex, and difficult for\nnon-expert users to interpret, leading to a lack of transparency regarding the\ncollection, processing, and sharing of personal data. As concerns over online\nprivacy grow, it is essential to develop automated tools capable of analyzing\nprivacy policies and identifying potential risks. In this study, we explore the\npotential of interactive graph visualizations to enhance user understanding of\nprivacy policies by representing policy terms as structured graph models. This\napproach makes complex relationships more accessible and enables users to make\ninformed decisions about their personal data (RQ1). We also employ graph mining\nalgorithms to identify key themes, such as User Activity and Device\nInformation, using dimensionality reduction techniques like t-SNE and PCA to\nassess clustering effectiveness. Our findings reveal that graph-based\nclustering improves policy content interpretability. It highlights patterns in\nuser tracking and data sharing, which supports forensic investigations and\nidentifies regulatory non-compliance. This research advances AI-driven tools\nfor auditing privacy policies by integrating interactive visualizations with\ngraph mining. Enhanced transparency fosters accountability and trust.",
+    "updated" : "2025-06-30T14:55:57Z",
+    "published" : "2025-06-30T14:55:57Z",
+    "authors" : [
+      {
+        "name" : "Vijayalakshmi Ramasamy"
+      },
+      {
+        "name" : "Seth Barrett"
+      },
+      {
+        "name" : "Gokila Dorai"
+      },
+      {
+        "name" : "Jessica Zumbach"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.23866v3",
+    "title" : "Exploring Privacy and Security as Drivers for Environmental\n  Sustainability in Cloud-Based Office Solutions",
+    "summary" : "In this paper, we explore the intersection of privacy, security, and\nenvironmental sustainability in cloud-based office solutions, focusing on\nquantifying user- and network-side energy use and associated carbon emissions.\nWe hypothesise that privacy-focused services are typically more\nenergy-efficient than those funded through data collection and advertising. To\nevaluate this, we propose a framework that systematically measures\nenvironmental costs based on energy usage and network data traffic during\nwell-defined, automated usage scenarios. To test our hypothesis, we first\nanalyse how underlying architectures and business models, such as monetisation\nthrough personalised advertising, contribute to the environmental footprint of\nthese services. We then explore existing methodologies and tools for software\nenvironmental impact assessment. We apply our framework to three mainstream\nemail services selected to reflect different privacy policies, from\nad-supported tracking-intensive models to privacy-focused designs: Microsoft\nOutlook, Google Mail (Gmail), and Proton Mail. We extend this comparison to a\nself-hosted email solution, evaluated with and without end-to-end encryption.\nWe show that the self-hosted solution, even with 14% of device energy and 15%\nof emissions overheads from PGP encryption, remains the most energy-efficient,\nsaving up to 33% of emissions per session compared to Gmail. Among commercial\nproviders, Proton Mail is the most efficient, saving up to 0.1 gCO2 e per\nsession compared to Outlook, whose emissions can be further reduced by 2%\nthrough ad-blocking.",
+    "updated" : "2025-07-04T13:50:03Z",
+    "published" : "2025-06-30T13:58:22Z",
+    "authors" : [
+      {
+        "name" : "Jason Kayembe"
+      },
+      {
+        "name" : "Iness Ben Guirat"
+      },
+      {
+        "name" : "Jan Tobias Mühlberg"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CY",
+      "cs.SE"
+    ]
   }
 ]
