@@ -475,5 +475,151 @@
       "cs.CL",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.06008v1",
+    "title" : "The Impact of Event Data Partitioning on Privacy-aware Process Discovery",
+    "summary" : "Information systems support the execution of business processes. The event\nlogs of these executions generally contain sensitive information about\ncustomers, patients, and employees. The corresponding privacy challenges can be\naddressed by anonymizing the event logs while still retaining utility for\nprocess discovery. However, trading off utility and privacy is difficult: the\nhigher the complexity of event log, the higher the loss of utility by\nanonymization. In this work, we propose a pipeline that combines anonymization\nand event data partitioning, where event abstraction is utilized for\npartitioning. By leveraging event abstraction, event logs can be segmented into\nmultiple parts, allowing each sub-log to be anonymized separately. This\npipeline preserves privacy while mitigating the loss of utility. To validate\nour approach, we study the impact of event partitioning on two anonymization\ntechniques using three real-world event logs and two process discovery\ntechniques. Our results demonstrate that event partitioning can bring\nimprovements in process discovery utility for directly-follows-based\nanonymization techniques.",
+    "updated" : "2025-07-08T14:13:44Z",
+    "published" : "2025-07-08T14:13:44Z",
+    "authors" : [
+      {
+        "name" : "Jungeun Lim"
+      },
+      {
+        "name" : "Stephan A. Fahrenkrog-Petersen"
+      },
+      {
+        "name" : "Xixi Lu"
+      },
+      {
+        "name" : "Jan Mendling"
+      },
+      {
+        "name" : "Minseok Song"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.DB"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.05875v1",
+    "title" : "Post-Processing in Local Differential Privacy: An Extensive Evaluation\n  and Benchmark Platform",
+    "summary" : "Local differential privacy (LDP) has recently gained prominence as a powerful\nparadigm for collecting and analyzing sensitive data from users' devices.\nHowever, the inherent perturbation added by LDP protocols reduces the utility\nof the collected data. To mitigate this issue, several post-processing (PP)\nmethods have been developed. Yet, the comparative performance of PP methods\nunder diverse settings remains underexplored. In this paper, we present an\nextensive benchmark comprising 6 popular LDP protocols, 7 PP methods, 4 utility\nmetrics, and 6 datasets to evaluate the behaviors and optimality of PP methods\nunder diverse conditions. Through extensive experiments, we show that while PP\ncan substantially improve utility when the privacy budget is small (i.e.,\nstrict privacy), its benefit diminishes as the privacy budget grows. Moreover,\nour findings reveal that the optimal PP method depends on multiple factors,\nincluding the choice of LDP protocol, privacy budget, data characteristics\n(such as distribution and domain size), and the specific utility metric. To\nadvance research in this area and assist practitioners in identifying the most\nsuitable PP method for their setting, we introduce LDP$^3$, an open-source\nbenchmark platform. LDP$^3$ contains all methods used in our experimental\nanalysis, and it is designed in a modular, extensible, and multi-threaded way\nfor future use and development.",
+    "updated" : "2025-07-08T10:59:49Z",
+    "published" : "2025-07-08T10:59:49Z",
+    "authors" : [
+      {
+        "name" : "Alireza Khodaie"
+      },
+      {
+        "name" : "Berkay Kemal Balioglu"
+      },
+      {
+        "name" : "Mehmet Emre Gursoy"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.05872v1",
+    "title" : "LDP$^3$: An Extensible and Multi-Threaded Toolkit for Local Differential\n  Privacy Protocols and Post-Processing Methods",
+    "summary" : "Local differential privacy (LDP) has become a prominent notion for\nprivacy-preserving data collection. While numerous LDP protocols and\npost-processing (PP) methods have been developed, selecting an optimal\ncombination under different privacy budgets and datasets remains a challenge.\nMoreover, the lack of a comprehensive and extensible LDP benchmarking toolkit\nraises difficulties in evaluating new protocols and PP methods. To address\nthese concerns, this paper presents LDP$^3$ (pronounced LDP-Cube), an\nopen-source, extensible, and multi-threaded toolkit for LDP researchers and\npractitioners. LDP$^3$ contains implementations of several LDP protocols, PP\nmethods, and utility metrics in a modular and extensible design. Its modular\ndesign enables developers to conveniently integrate new protocols and PP\nmethods. Furthermore, its multi-threaded nature enables significant reductions\nin execution times via parallelization. Experimental evaluations demonstrate\nthat: (i) using LDP$^3$ to select a good protocol and post-processing method\nsubstantially improves utility compared to a bad or random choice, and (ii) the\nmulti-threaded design of LDP$^3$ brings substantial benefits in terms of\nefficiency.",
+    "updated" : "2025-07-08T10:51:42Z",
+    "published" : "2025-07-08T10:51:42Z",
+    "authors" : [
+      {
+        "name" : "Berkay Kemal Balioglu"
+      },
+      {
+        "name" : "Alireza Khodaie"
+      },
+      {
+        "name" : "Mehmet Emre Gursoy"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.05610v1",
+    "title" : "On the Inherent Privacy of Zeroth Order Projected Gradient Descent",
+    "summary" : "Differentially private zeroth-order optimization methods have recently gained\npopularity in private fine tuning of machine learning models due to their\nreduced memory requirements. Current approaches for privatizing zeroth-order\nmethods rely on adding Gaussian noise to the estimated zeroth-order gradients.\nHowever, since the search direction in the zeroth-order methods is inherently\nrandom, researchers including Tang et al. (2024) and Zhang et al. (2024a) have\nraised an important question: is the inherent noise in zeroth-order estimators\nsufficient to ensure the overall differential privacy of the algorithm? This\nwork settles this question for a class of oracle-based optimization algorithms\nwhere the oracle returns zeroth-order gradient estimates. In particular, we\nshow that for a fixed initialization, there exist strongly convex objective\nfunctions such that running (Projected) Zeroth-Order Gradient Descent (ZO-GD)\nis not differentially private. Furthermore, we show that even with random\ninitialization and without revealing (initial and) intermediate iterates, the\nprivacy loss in ZO-GD can grow superlinearly with the number of iterations when\nminimizing convex objective functions.",
+    "updated" : "2025-07-08T02:38:14Z",
+    "published" : "2025-07-08T02:38:14Z",
+    "authors" : [
+      {
+        "name" : "Devansh Gupta"
+      },
+      {
+        "name" : "Meisam Razaviyayn"
+      },
+      {
+        "name" : "Vatsal Sharan"
+      }
+    ],
+    "categories" : [
+      "math.OC",
+      "cs.LG",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.05415v1",
+    "title" : "Layered, Overlapping, and Inconsistent: A Large-Scale Analysis of the\n  Multiple Privacy Policies and Controls of U.S. Banks",
+    "summary" : "Privacy policies are often complex. An exception is the two-page standardized\nnotice that U.S. financial institutions must provide under the\nGramm-Leach-Bliley Act (GLBA). However, banks now operate websites, mobile\napps, and other services that involve complex data sharing practices that\nrequire additional privacy notices and do-not-sell opt-outs. We conducted a\nlarge-scale analysis of how U.S. banks implement privacy policies and controls\nin response to GLBA; other federal privacy policy requirements; and the\nCalifornia Consumer Privacy Act (CCPA), a key example for U.S. state privacy\nlaws. We focused on the disclosure and control of a set of especially\nprivacy-invasive practices: third-party data sharing for marketing-related\npurposes. We collected privacy policies for the 2,067 largest U.S. banks,\n45.3\\% of which provided multiple policies. Across disclosures and controls\nwithin the \\textit{same} bank, we identified frequent, concerning\ninconsistencies -- such as banks indicating in GLBA notices that they do not\nshare with third parties but disclosing sharing elsewhere, or using third-party\nmarketing/advertising cookies without disclosure. This multiplicity of\npolicies, with the inconsistencies it causes, may create consumer confusion and\nundermine the transparency goals of the very laws that require them. Our\nfindings call into question whether current policy requirements, such as the\nGLBA notice, are achieving their intended goals in today's online banking\nlandscape. We discuss potential avenues for reforming and harmonizing privacy\npolicies and control requirements across federal and state laws.",
+    "updated" : "2025-07-07T18:55:48Z",
+    "published" : "2025-07-07T18:55:48Z",
+    "authors" : [
+      {
+        "name" : "Lu Xian"
+      },
+      {
+        "name" : "Van Tran"
+      },
+      {
+        "name" : "Lauren Lee"
+      },
+      {
+        "name" : "Meera Kumar"
+      },
+      {
+        "name" : "Yichen Zhang"
+      },
+      {
+        "name" : "Florian Schaub"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.05391v1",
+    "title" : "Controlling What You Share: Assessing Language Model Adherence to\n  Privacy Preferences",
+    "summary" : "Large language models (LLMs) are primarily accessed via commercial APIs, but\nthis often requires users to expose their data to service providers. In this\npaper, we explore how users can stay in control of their data by using privacy\nprofiles: simple natural language instructions that say what should and should\nnot be revealed. We build a framework where a local model uses these\ninstructions to rewrite queries, only hiding details deemed sensitive by the\nuser, before sending them to an external model, thus balancing privacy with\nperformance. To support this research, we introduce PEEP, a multilingual\ndataset of real user queries annotated to mark private content and paired with\nsynthetic privacy profiles. Our experiments with lightweight LLMs show they can\nfollow these instructions to some extent, but also face consistent challenges,\nhighlighting the need for models that better understand and comply with\nuser-defined privacy preferences.",
+    "updated" : "2025-07-07T18:22:55Z",
+    "published" : "2025-07-07T18:22:55Z",
+    "authors" : [
+      {
+        "name" : "Guillem Ramírez"
+      },
+      {
+        "name" : "Alexandra Birch"
+      },
+      {
+        "name" : "Ivan Titov"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.AI"
+    ]
   }
 ]
