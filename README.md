@@ -2,6 +2,179 @@
 <h2>2025-07</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.06008v1">The Impact of Event Data Partitioning on Privacy-aware Process Discovery</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
+  <p><b>Published on:</b> 2025-07-08T14:13:44Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jungeun Lim, Stephan A. Fahrenkrog-Petersen, Xixi Lu, Jan Mendling, Minseok Song</p>
+    <p><b>Summary:</b> Information systems support the execution of business processes. The event
+logs of these executions generally contain sensitive information about
+customers, patients, and employees. The corresponding privacy challenges can be
+addressed by anonymizing the event logs while still retaining utility for
+process discovery. However, trading off utility and privacy is difficult: the
+higher the complexity of event log, the higher the loss of utility by
+anonymization. In this work, we propose a pipeline that combines anonymization
+and event data partitioning, where event abstraction is utilized for
+partitioning. By leveraging event abstraction, event logs can be segmented into
+multiple parts, allowing each sub-log to be anonymized separately. This
+pipeline preserves privacy while mitigating the loss of utility. To validate
+our approach, we study the impact of event partitioning on two anonymization
+techniques using three real-world event logs and two process discovery
+techniques. Our results demonstrate that event partitioning can bring
+improvements in process discovery utility for directly-follows-based
+anonymization techniques.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.05875v1">Post-Processing in Local Differential Privacy: An Extensive Evaluation
+  and Benchmark Platform</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-07-08T10:59:49Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Alireza Khodaie, Berkay Kemal Balioglu, Mehmet Emre Gursoy</p>
+    <p><b>Summary:</b> Local differential privacy (LDP) has recently gained prominence as a powerful
+paradigm for collecting and analyzing sensitive data from users' devices.
+However, the inherent perturbation added by LDP protocols reduces the utility
+of the collected data. To mitigate this issue, several post-processing (PP)
+methods have been developed. Yet, the comparative performance of PP methods
+under diverse settings remains underexplored. In this paper, we present an
+extensive benchmark comprising 6 popular LDP protocols, 7 PP methods, 4 utility
+metrics, and 6 datasets to evaluate the behaviors and optimality of PP methods
+under diverse conditions. Through extensive experiments, we show that while PP
+can substantially improve utility when the privacy budget is small (i.e.,
+strict privacy), its benefit diminishes as the privacy budget grows. Moreover,
+our findings reveal that the optimal PP method depends on multiple factors,
+including the choice of LDP protocol, privacy budget, data characteristics
+(such as distribution and domain size), and the specific utility metric. To
+advance research in this area and assist practitioners in identifying the most
+suitable PP method for their setting, we introduce LDP$^3$, an open-source
+benchmark platform. LDP$^3$ contains all methods used in our experimental
+analysis, and it is designed in a modular, extensible, and multi-threaded way
+for future use and development.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.05872v1">LDP$^3$: An Extensible and Multi-Threaded Toolkit for Local Differential
+  Privacy Protocols and Post-Processing Methods</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-07-08T10:51:42Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Berkay Kemal Balioglu, Alireza Khodaie, Mehmet Emre Gursoy</p>
+    <p><b>Summary:</b> Local differential privacy (LDP) has become a prominent notion for
+privacy-preserving data collection. While numerous LDP protocols and
+post-processing (PP) methods have been developed, selecting an optimal
+combination under different privacy budgets and datasets remains a challenge.
+Moreover, the lack of a comprehensive and extensible LDP benchmarking toolkit
+raises difficulties in evaluating new protocols and PP methods. To address
+these concerns, this paper presents LDP$^3$ (pronounced LDP-Cube), an
+open-source, extensible, and multi-threaded toolkit for LDP researchers and
+practitioners. LDP$^3$ contains implementations of several LDP protocols, PP
+methods, and utility metrics in a modular and extensible design. Its modular
+design enables developers to conveniently integrate new protocols and PP
+methods. Furthermore, its multi-threaded nature enables significant reductions
+in execution times via parallelization. Experimental evaluations demonstrate
+that: (i) using LDP$^3$ to select a good protocol and post-processing method
+substantially improves utility compared to a bad or random choice, and (ii) the
+multi-threaded design of LDP$^3$ brings substantial benefits in terms of
+efficiency.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.05610v1">On the Inherent Privacy of Zeroth Order Projected Gradient Descent</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Optimization and Control-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
+  <p><b>Published on:</b> 2025-07-08T02:38:14Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Devansh Gupta, Meisam Razaviyayn, Vatsal Sharan</p>
+    <p><b>Summary:</b> Differentially private zeroth-order optimization methods have recently gained
+popularity in private fine tuning of machine learning models due to their
+reduced memory requirements. Current approaches for privatizing zeroth-order
+methods rely on adding Gaussian noise to the estimated zeroth-order gradients.
+However, since the search direction in the zeroth-order methods is inherently
+random, researchers including Tang et al. (2024) and Zhang et al. (2024a) have
+raised an important question: is the inherent noise in zeroth-order estimators
+sufficient to ensure the overall differential privacy of the algorithm? This
+work settles this question for a class of oracle-based optimization algorithms
+where the oracle returns zeroth-order gradient estimates. In particular, we
+show that for a fixed initialization, there exist strongly convex objective
+functions such that running (Projected) Zeroth-Order Gradient Descent (ZO-GD)
+is not differentially private. Furthermore, we show that even with random
+initialization and without revealing (initial and) intermediate iterates, the
+privacy loss in ZO-GD can grow superlinearly with the number of iterations when
+minimizing convex objective functions.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.05415v1">Layered, Overlapping, and Inconsistent: A Large-Scale Analysis of the
+  Multiple Privacy Policies and Controls of U.S. Banks</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-07-07T18:55:48Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Lu Xian, Van Tran, Lauren Lee, Meera Kumar, Yichen Zhang, Florian Schaub</p>
+    <p><b>Summary:</b> Privacy policies are often complex. An exception is the two-page standardized
+notice that U.S. financial institutions must provide under the
+Gramm-Leach-Bliley Act (GLBA). However, banks now operate websites, mobile
+apps, and other services that involve complex data sharing practices that
+require additional privacy notices and do-not-sell opt-outs. We conducted a
+large-scale analysis of how U.S. banks implement privacy policies and controls
+in response to GLBA; other federal privacy policy requirements; and the
+California Consumer Privacy Act (CCPA), a key example for U.S. state privacy
+laws. We focused on the disclosure and control of a set of especially
+privacy-invasive practices: third-party data sharing for marketing-related
+purposes. We collected privacy policies for the 2,067 largest U.S. banks,
+45.3\% of which provided multiple policies. Across disclosures and controls
+within the \textit{same} bank, we identified frequent, concerning
+inconsistencies -- such as banks indicating in GLBA notices that they do not
+share with third parties but disclosing sharing elsewhere, or using third-party
+marketing/advertising cookies without disclosure. This multiplicity of
+policies, with the inconsistencies it causes, may create consumer confusion and
+undermine the transparency goals of the very laws that require them. Our
+findings call into question whether current policy requirements, such as the
+GLBA notice, are achieving their intended goals in today's online banking
+landscape. We discuss potential avenues for reforming and harmonizing privacy
+policies and control requirements across federal and state laws.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.05391v1">Controlling What You Share: Assessing Language Model Adherence to
+  Privacy Preferences</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-07-07T18:22:55Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Guillem Ramírez, Alexandra Birch, Ivan Titov</p>
+    <p><b>Summary:</b> Large language models (LLMs) are primarily accessed via commercial APIs, but
+this often requires users to expose their data to service providers. In this
+paper, we explore how users can stay in control of their data by using privacy
+profiles: simple natural language instructions that say what should and should
+not be revealed. We build a framework where a local model uses these
+instructions to rewrite queries, only hiding details deemed sensitive by the
+user, before sending them to an external model, thus balancing privacy with
+performance. To support this research, we introduce PEEP, a multilingual
+dataset of real user queries annotated to mark private content and paired with
+synthetic privacy profiles. Our experiments with lightweight LLMs show they can
+follow these instructions to some extent, but also face consistent challenges,
+highlighting the need for models that better understand and comply with
+user-defined privacy preferences.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2507.05175v1">Blind Targeting: Personalization under Third-Party Privacy Constraints</a></h3>
    <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">  
   <p><b>Published on:</b> 2025-07-07T16:30:40Z</p>
@@ -2584,7 +2757,7 @@ development of secure and responsible AI systems.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.11679v1">LLMs on support of privacy and security of mobile apps: state of the art
+  <h3><a href="http://arxiv.org/abs/2506.11679v2">LLMs on support of privacy and security of mobile apps: state of the art
   and research directions</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
   <p><b>Published on:</b> 2025-06-13T11:17:15Z</p>
@@ -2777,207 +2950,6 @@ structures, and formal proofs for Epass. Extensive comparisons and experimental
 analysis show that \textsf{Epass} achieves KB-level communication costs, and
 reduces time overhead by more than four times in comparisons with locally
 verifiable signatures and Go-Ethereum private test networks.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.09312v1">What is the Cost of Differential Privacy for Deep Learning-Based
-  Trajectory Generation?</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-06-11T00:59:52Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Erik Buchholz, Natasha Fernandes, David D. Nguyen, Alsharif Abuadbba, Surya Nepal, Salil S. Kanhere</p>
-    <p><b>Summary:</b> While location trajectories offer valuable insights, they also reveal
-sensitive personal information. Differential Privacy (DP) offers formal
-protection, but achieving a favourable utility-privacy trade-off remains
-challenging. Recent works explore deep learning-based generative models to
-produce synthetic trajectories. However, current models lack formal privacy
-guarantees and rely on conditional information derived from real data during
-generation. This work investigates the utility cost of enforcing DP in such
-models, addressing three research questions across two datasets and eleven
-utility metrics. (1) We evaluate how DP-SGD, the standard DP training method
-for deep learning, affects the utility of state-of-the-art generative models.
-(2) Since DP-SGD is limited to unconditional models, we propose a novel DP
-mechanism for conditional generation that provides formal guarantees and assess
-its impact on utility. (3) We analyse how model types - Diffusion, VAE, and GAN
-- affect the utility-privacy trade-off. Our results show that DP-SGD
-significantly impacts performance, although some utility remains if the
-datasets is sufficiently large. The proposed DP mechanism improves training
-stability, particularly when combined with DP-SGD, for unstable models such as
-GANs and on smaller datasets. Diffusion models yield the best utility without
-guarantees, but with DP-SGD, GANs perform best, indicating that the best
-non-private model is not necessarily optimal when targeting formal guarantees.
-In conclusion, DP trajectory generation remains a challenging task, and formal
-guarantees are currently only feasible with large datasets and in constrained
-use cases.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.12088v1">Risks & Benefits of LLMs & GenAI for Platform Integrity, Healthcare
-  Diagnostics, Cybersecurity, Privacy & AI Safety: A Comprehensive Survey,
-  Roadmap & Implementation Blueprint</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2025-06-10T18:03:19Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Kiarash Ahi</p>
-    <p><b>Summary:</b> Large Language Models (LLMs) and generative AI (GenAI) systems such as
-ChatGPT, Claude, Gemini, LLaMA, and Copilot, developed by OpenAI, Anthropic,
-Google, Meta, and Microsoft are reshaping digital platforms and app ecosystems
-while introducing key challenges in cybersecurity, privacy, and platform
-integrity. Our analysis shows alarming trends: LLM-assisted malware is
-projected to rise from 2% in 2021 to 50% by 2025; AI-generated Google reviews
-grew from 1.2% in 2021 to 12.21% in 2023, with an expected 30% by 2025; AI scam
-reports surged 456%; and misinformation sites increased over 1500%, with a
-50-60% increase in deepfakes in 2024. Concurrently, as LLMs have facilitated
-code development, mobile app submissions grew from 1.8 million in 2020 to 3.0
-million in 2024, with 3.6 million expected by 2025. To address AI threats,
-platforms from app stores like Google Play and Apple to developer hubs like
-GitHub Copilot, and social platforms like TikTok and Facebook, to marketplaces
-like Amazon are deploying AI and LLM-based defenses. This highlights the dual
-nature of these technologies as both the source of new threats and the
-essential tool for their mitigation. Integrating LLMs into clinical diagnostics
-also raises concerns about accuracy, bias, and safety, needing strong
-governance. Drawing on a comprehensive analysis of 455 references, this paper
-presents a survey of LLM and GenAI risks. We propose a strategic roadmap and
-operational blueprint integrating policy auditing (CCPA, GDPR), fraud
-detection, and compliance automation, and an advanced LLM-DA stack with modular
-components including multi LLM routing, agentic memory, and governance layers
-to enhance platform integrity. We also provide actionable insights,
-cross-functional best practices, and real-world case studies. These
-contributions offer paths to scalable trust, safety, and responsible innovation
-across digital platforms.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.08918v1">Quantifying Mix Network Privacy Erosion with Generative Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-06-10T15:43:39Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Vasilios Mavroudis, Tariq Elahi</p>
-    <p><b>Summary:</b> Modern mix networks improve over Tor and provide stronger privacy guarantees
-by robustly obfuscating metadata. As long as a message is routed through at
-least one honest mixnode, the privacy of the users involved is safeguarded.
-However, the complexity of the mixing mechanisms makes it difficult to estimate
-the cumulative privacy erosion occurring over time. This work uses a generative
-model trained on mixnet traffic to estimate the loss of privacy when users
-communicate persistently over a period of time. We train our large-language
-model from scratch on our specialized network traffic ``language'' and then use
-it to measure the sender-message unlinkability in various settings (e.g. mixing
-strategies, security parameters, observation window). Our findings reveal
-notable differences in privacy levels among mix strategies, even when they have
-similar mean latencies. In comparison, we demonstrate the limitations of
-traditional privacy metrics, such as entropy and log-likelihood, in fully
-capturing an adversary's potential to synthesize information from multiple
-observations. Finally, we show that larger models exhibit greater sample
-efficiency and superior capabilities implying that further advancements in
-transformers will consequently enhance the accuracy of model-based privacy
-estimates.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.08654v1">A Privacy-Preserving Federated Learning Framework for Generalizable CBCT
-  to Synthetic CT Translation in Head and Neck</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-06-10T10:10:56Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ciro Benito Raggio, Paolo Zaffino, Maria Francesca Spadea</p>
-    <p><b>Summary:</b> Shortened Abstract
-  Cone-beam computed tomography (CBCT) has become a widely adopted modality for
-image-guided radiotherapy (IGRT). However, CBCT suffers from increased noise,
-limited soft-tissue contrast, and artifacts, resulting in unreliable Hounsfield
-unit values and hindering direct dose calculation. Synthetic CT (sCT)
-generation from CBCT addresses these issues, especially using deep learning
-(DL) methods. Existing approaches are limited by institutional heterogeneity,
-scanner-dependent variations, and data privacy regulations that prevent
-multi-center data sharing.
-  To overcome these challenges, we propose a cross-silo horizontal federated
-learning (FL) approach for CBCT-to-sCT synthesis in the head and neck region,
-extending our FedSynthCT framework. A conditional generative adversarial
-network was collaboratively trained on data from three European medical centers
-in the public SynthRAD2025 challenge dataset.
-  The federated model demonstrated effective generalization across centers,
-with mean absolute error (MAE) ranging from $64.38\pm13.63$ to $85.90\pm7.10$
-HU, structural similarity index (SSIM) from $0.882\pm0.022$ to $0.922\pm0.039$,
-and peak signal-to-noise ratio (PSNR) from $32.86\pm0.94$ to $34.91\pm1.04$ dB.
-Notably, on an external validation dataset of 60 patients, comparable
-performance was achieved (MAE: $75.22\pm11.81$ HU, SSIM: $0.904\pm0.034$, PSNR:
-$33.52\pm2.06$ dB) without additional training, confirming robust
-generalization despite protocol, scanner differences and registration errors.
-  These findings demonstrate the technical feasibility of FL for CBCT-to-sCT
-synthesis while preserving data privacy and offer a collaborative solution for
-developing generalizable models across institutions without centralized data
-sharing or site-specific fine-tuning.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.08347v2">Differentially Private Relational Learning with Entity-level Privacy
-  Guarantees</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-06-10T02:03:43Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yinan Huang, Haoteng Yin, Eli Chien, Rongzhe Wei, Pan Li</p>
-    <p><b>Summary:</b> Learning with relational and network-structured data is increasingly vital in
-sensitive domains where protecting the privacy of individual entities is
-paramount. Differential Privacy (DP) offers a principled approach for
-quantifying privacy risks, with DP-SGD emerging as a standard mechanism for
-private model training. However, directly applying DP-SGD to relational
-learning is challenging due to two key factors: (i) entities often participate
-in multiple relations, resulting in high and difficult-to-control sensitivity;
-and (ii) relational learning typically involves multi-stage, potentially
-coupled (interdependent) sampling procedures that make standard privacy
-amplification analyses inapplicable. This work presents a principled framework
-for relational learning with formal entity-level DP guarantees. We provide a
-rigorous sensitivity analysis and introduce an adaptive gradient clipping
-scheme that modulates clipping thresholds based on entity occurrence frequency.
-We also extend the privacy amplification results to a tractable subclass of
-coupled sampling, where the dependence arises only through sample sizes. These
-contributions lead to a tailored DP-SGD variant for relational data with
-provable privacy guarantees. Experiments on fine-tuning text encoders over
-text-attributed network-structured relational data demonstrate the strong
-utility-privacy trade-offs of our approach. Our code is available at
-https://github.com/Graph-COM/Node_DP.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.08330v1">Distortion Search, A Web Search Privacy Heuristic</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-06-10T01:35:16Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Kato Mivule, Kenneth Hopkinson</p>
-    <p><b>Summary:</b> Search engines have vast technical capabilities to retain Internet search
-logs for each user and thus present major privacy vulnerabilities to both
-individuals and organizations in revealing user intent. Additionally, many of
-the web search privacy enhancing tools available today require that the user
-trusts a third party, which make confidentiality of user intent even more
-challenging. The user is left at the mercy of the third party without the
-control over his or her own privacy. In this article, we suggest a user-centric
-heuristic, Distortion Search, a web search query privacy methodology that works
-by the formation of obfuscated search queries via the permutation of query
-keyword categories, and by strategically applying k-anonymised web navigational
-clicks on URLs and Ads to generate a distorted user profile and thus providing
-specific user intent and query confidentiality. We provide empirical results
-via the evaluation of distorted web search queries in terms of retrieved search
-results and the resulting web ads from search engines. Preliminary experimental
-results indicate that web search query and specific user intent privacy might
-be achievable from the user side without the involvement of the search engine
-or other third parties.</p>
   </details>
 </div>
 
