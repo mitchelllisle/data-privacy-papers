@@ -4003,5 +4003,27 @@
       "cs.CY",
       "cs.SE"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.11679v2",
+    "title" : "LLMs on support of privacy and security of mobile apps: state of the art\n  and research directions",
+    "summary" : "Modern life has witnessed the explosion of mobile devices. However, besides\nthe valuable features that bring convenience to end users, security and privacy\nrisks still threaten users of mobile apps. The increasing sophistication of\nthese threats in recent years has underscored the need for more advanced and\nefficient detection approaches. In this chapter, we explore the application of\nLarge Language Models (LLMs) to identify security risks and privacy violations\nand mitigate them for the mobile application ecosystem. By introducing\nstate-of-the-art research that applied LLMs to mitigate the top 10 common\nsecurity risks of smartphone platforms, we highlight the feasibility and\npotential of LLMs to replace traditional analysis methods, such as dynamic and\nhybrid analysis of mobile apps. As a representative example of LLM-based\nsolutions, we present an approach to detect sensitive data leakage when users\nshare images online, a common behavior of smartphone users nowadays. Finally,\nwe discuss open research challenges.",
+    "updated" : "2025-07-07T17:36:57Z",
+    "published" : "2025-06-13T11:17:15Z",
+    "authors" : [
+      {
+        "name" : "Tran Thanh Lam Nguyen"
+      },
+      {
+        "name" : "Barbara Carminati"
+      },
+      {
+        "name" : "Elena Ferrari"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
   }
 ]
