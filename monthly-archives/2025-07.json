@@ -621,5 +621,148 @@
       "cs.CL",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.06969v1",
+    "title" : "Unifying Re-Identification, Attribute Inference, and Data Reconstruction\n  Risks in Differential Privacy",
+    "summary" : "Differentially private (DP) mechanisms are difficult to interpret and\ncalibrate because existing methods for mapping standard privacy parameters to\nconcrete privacy risks -- re-identification, attribute inference, and data\nreconstruction -- are both overly pessimistic and inconsistent. In this work,\nwe use the hypothesis-testing interpretation of DP ($f$-DP), and determine that\nbounds on attack success can take the same unified form across\nre-identification, attribute inference, and data reconstruction risks. Our\nunified bounds are (1) consistent across a multitude of attack settings, and\n(2) tunable, enabling practitioners to evaluate risk with respect to arbitrary\n(including worst-case) levels of baseline risk. Empirically, our results are\ntighter than prior methods using $\\varepsilon$-DP, R\\'enyi DP, and concentrated\nDP. As a result, calibrating noise using our bounds can reduce the required\nnoise by 20% at the same risk level, which yields, e.g., more than 15pp\naccuracy increase in a text classification task. Overall, this unifying\nperspective provides a principled framework for interpreting and calibrating\nthe degree of protection in DP against specific levels of re-identification,\nattribute inference, or data reconstruction risk.",
+    "updated" : "2025-07-09T15:59:30Z",
+    "published" : "2025-07-09T15:59:30Z",
+    "authors" : [
+      {
+        "name" : "Bogdan Kulynych"
+      },
+      {
+        "name" : "Juan Felipe Gomez"
+      },
+      {
+        "name" : "Georgios Kaissis"
+      },
+      {
+        "name" : "Jamie Hayes"
+      },
+      {
+        "name" : "Borja Balle"
+      },
+      {
+        "name" : "Flavio du Pin Calmon"
+      },
+      {
+        "name" : "Jean Louis Raisaro"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR",
+      "cs.CY",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.06652v1",
+    "title" : "Federated Learning Inspired Fuzzy Systems: Decentralized Rule Updating\n  for Privacy and Scalable Decision Making",
+    "summary" : "Fuzzy systems are a way to allow machines, systems and frameworks to deal\nwith uncertainty, which is not possible in binary systems that most computers\nuse. These systems have already been deployed for certain use cases, and fuzzy\nsystems could be further improved as proposed in this paper. Such technologies\nto draw inspiration from include machine learning and federated learning.\nMachine learning is one of the recent breakthroughs of technology and could be\napplied to fuzzy systems to further improve the results it produces. Federated\nlearning is also one of the recent technologies that have huge potential, which\nallows machine learning training to improve by reducing privacy risk, reducing\nburden on networking infrastructure, and reducing latency of the latest model.\nAspects from federated learning could be used to improve federated learning,\nsuch as applying the idea of updating the fuzzy rules that make up a key part\nof fuzzy systems, to further improve it over time. This paper discusses how\nthese improvements would be implemented in fuzzy systems, and how it would\nimprove fuzzy systems. It also discusses certain limitations on the potential\nimprovements. It concludes that these proposed ideas and improvements require\nfurther investigation to see how far the improvements are, but the potential is\nthere to improve fuzzy systems.",
+    "updated" : "2025-07-09T08:34:24Z",
+    "published" : "2025-07-09T08:34:24Z",
+    "authors" : [
+      {
+        "name" : "Arthur Alexander Lim"
+      },
+      {
+        "name" : "Zhen Bin It"
+      },
+      {
+        "name" : "Jovan Bowen Heng"
+      },
+      {
+        "name" : "Tee Hui Teo"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.06619v1",
+    "title" : "Steps Adaptive Decay DPSGD: Enhancing Performance on Imbalanced Datasets\n  with Differential Privacy with HAM10000",
+    "summary" : "When applying machine learning to medical image classification, data leakage\nis a critical issue. Previous methods, such as adding noise to gradients for\ndifferential privacy, work well on large datasets like MNIST and CIFAR-100, but\nfail on small, imbalanced medical datasets like HAM10000. This is because the\nimbalanced distribution causes gradients from minority classes to be clipped\nand lose crucial information, while majority classes dominate. This leads the\nmodel to fall into suboptimal solutions early. To address this, we propose\nSAD-DPSGD, which uses a linear decaying mechanism for noise and clipping\nthresholds. By allocating more privacy budget and using higher clipping\nthresholds in the initial training phases, the model avoids suboptimal\nsolutions and enhances performance. Experiments show that SAD-DPSGD outperforms\nAuto-DPSGD on HAM10000, improving accuracy by 2.15% under $\\epsilon = 3.0$ ,\n$\\delta = 10^{-3}$.",
+    "updated" : "2025-07-09T07:46:29Z",
+    "published" : "2025-07-09T07:46:29Z",
+    "authors" : [
+      {
+        "name" : "Xiaobo Huang"
+      },
+      {
+        "name" : "Fang Xie"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.06508v1",
+    "title" : "Subgraph Counting under Edge Local Differential Privacy Based on Noisy\n  Adjacency Matrix",
+    "summary" : "When analyzing connection patterns within graphs, subgraph counting serves as\nan effective and fundamental approach. Edge-local differential privacy\n(edge-LDP) and shuffle model have been employed to achieve subgraph counting\nunder a privacy-preserving situation. Existing algorithms are plagued by high\ntime complexity, excessive download costs, low accuracy, or dependence on\ntrusted third parties. To address the aforementioned challenges, we propose the\nNoisy Adjacency Matrix (NAM), which combines differential privacy with the\nadjacency matrix of the graph. NAM offers strong versatility and scalability,\nmaking it applicable to a wider range of DP variants, DP mechanisms, and graph\ntypes. Based on NAM, we designed five algorithms (TriOR, TriTR, TriMTR, QuaTR,\nand 2STAR) to count three types of subgraphs: triangles, quadrangles, and\n2-stars. Theoretical and experimental results demonstrate that in triangle\ncounting, TriOR maximizes accuracy with reduced time complexity among one-round\nalgorithms, TriTR achieves optimal accuracy, TriMTR achieves the highest\naccuracy under low download costs, and QuaTR stands as the first quadrangle\ncounting algorithm under pure edge-LDP. We implement edge-LDP for noisy data\nvia a confidence interval-inspired method, providing DP guarantees on\nrandomized data. Our 2STAR algorithm achieves the highest accuracy in 2-star\ncounting and can be derived as a byproduct of two-round triangle or quadrangle\ncounting algorithms, enabling efficient joint estimation of triangle,\nquadrangle, and 2-star counts within two query rounds.",
+    "updated" : "2025-07-09T03:13:15Z",
+    "published" : "2025-07-09T03:13:15Z",
+    "authors" : [
+      {
+        "name" : "Jintao Guo"
+      },
+      {
+        "name" : "Ying Zhou"
+      },
+      {
+        "name" : "Chao Li"
+      },
+      {
+        "name" : "Guixun Luo"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.06350v1",
+    "title" : "An Architecture for Privacy-Preserving Telemetry Scheme",
+    "summary" : "We present a privacy-preserving telemetry aggregation scheme. Our underlying\nfrequency estimation routine works within the framework of differential\nprivacy. The design philosophy follows a client-server architecture.\nFurthermore, the system uses a local differential privacy scheme where data\ngets randomized on the client before submitting the request to the resource\nserver. This scheme allows for data analysis on de-identified data by carefully\nadding noise to prevent re-identification attacks, thereby facilitating public\ndata release without compromising the identifiability of the individual record.\nThis work further enhances privacy guarantees by leveraging Oblivious HTTP\n(OHTTP) to achieve increased privacy protection for data in transit that\naddresses pre-existing privacy vulnerabilities in raw HTTP. We provide an\nimplementation that focuses on frequency estimation with a histogram of a known\ndictionary. Our resulting formulation based on OHTTP has provided stricter\nprivacy safeguards when compared to trusting an organization to manually delete\nidentifying information from the client's request in the ingestor as deployed\nin reference work~\\cite{apple2017}. Code available at\nhttps://github.com/kenluck2001/miscellaneous/tree/master/src/Privacy-Preserving-Telemetry.",
+    "updated" : "2025-07-08T19:20:56Z",
+    "published" : "2025-07-08T19:20:56Z",
+    "authors" : [
+      {
+        "name" : "Kenneth Odoh"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.SE"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.05610v2",
+    "title" : "On the Inherent Privacy of Zeroth Order Projected Gradient Descent",
+    "summary" : "Differentially private zeroth-order optimization methods have recently gained\npopularity in private fine tuning of machine learning models due to their\nreduced memory requirements. Current approaches for privatizing zeroth-order\nmethods rely on adding Gaussian noise to the estimated zeroth-order gradients.\nHowever, since the search direction in the zeroth-order methods is inherently\nrandom, researchers including Tang et al. (2024) and Zhang et al. (2024a) have\nraised an important question: is the inherent noise in zeroth-order estimators\nsufficient to ensure the overall differential privacy of the algorithm? This\nwork settles this question for a class of oracle-based optimization algorithms\nwhere the oracle returns zeroth-order gradient estimates. In particular, we\nshow that for a fixed initialization, there exist strongly convex objective\nfunctions such that running (Projected) Zeroth-Order Gradient Descent (ZO-GD)\nis not differentially private. Furthermore, we show that even with random\ninitialization and without revealing (initial and) intermediate iterates, the\nprivacy loss in ZO-GD can grow superlinearly with the number of iterations when\nminimizing convex objective functions.",
+    "updated" : "2025-07-09T02:44:06Z",
+    "published" : "2025-07-08T02:38:14Z",
+    "authors" : [
+      {
+        "name" : "Devansh Gupta"
+      },
+      {
+        "name" : "Meisam Razaviyayn"
+      },
+      {
+        "name" : "Vatsal Sharan"
+      }
+    ],
+    "categories" : [
+      "math.OC",
+      "cs.LG",
+      "stat.ML"
+    ]
   }
 ]
