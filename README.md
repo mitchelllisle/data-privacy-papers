@@ -2,6 +2,151 @@
 <h2>2025-07</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.06969v1">Unifying Re-Identification, Attribute Inference, and Data Reconstruction
+  Risks in Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> 
+  <p><b>Published on:</b> 2025-07-09T15:59:30Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Bogdan Kulynych, Juan Felipe Gomez, Georgios Kaissis, Jamie Hayes, Borja Balle, Flavio du Pin Calmon, Jean Louis Raisaro</p>
+    <p><b>Summary:</b> Differentially private (DP) mechanisms are difficult to interpret and
+calibrate because existing methods for mapping standard privacy parameters to
+concrete privacy risks -- re-identification, attribute inference, and data
+reconstruction -- are both overly pessimistic and inconsistent. In this work,
+we use the hypothesis-testing interpretation of DP ($f$-DP), and determine that
+bounds on attack success can take the same unified form across
+re-identification, attribute inference, and data reconstruction risks. Our
+unified bounds are (1) consistent across a multitude of attack settings, and
+(2) tunable, enabling practitioners to evaluate risk with respect to arbitrary
+(including worst-case) levels of baseline risk. Empirically, our results are
+tighter than prior methods using $\varepsilon$-DP, R\'enyi DP, and concentrated
+DP. As a result, calibrating noise using our bounds can reduce the required
+noise by 20% at the same risk level, which yields, e.g., more than 15pp
+accuracy increase in a text classification task. Overall, this unifying
+perspective provides a principled framework for interpreting and calibrating
+the degree of protection in DP against specific levels of re-identification,
+attribute inference, or data reconstruction risk.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.06652v1">Federated Learning Inspired Fuzzy Systems: Decentralized Rule Updating
+  for Privacy and Scalable Decision Making</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-07-09T08:34:24Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Arthur Alexander Lim, Zhen Bin It, Jovan Bowen Heng, Tee Hui Teo</p>
+    <p><b>Summary:</b> Fuzzy systems are a way to allow machines, systems and frameworks to deal
+with uncertainty, which is not possible in binary systems that most computers
+use. These systems have already been deployed for certain use cases, and fuzzy
+systems could be further improved as proposed in this paper. Such technologies
+to draw inspiration from include machine learning and federated learning.
+Machine learning is one of the recent breakthroughs of technology and could be
+applied to fuzzy systems to further improve the results it produces. Federated
+learning is also one of the recent technologies that have huge potential, which
+allows machine learning training to improve by reducing privacy risk, reducing
+burden on networking infrastructure, and reducing latency of the latest model.
+Aspects from federated learning could be used to improve federated learning,
+such as applying the idea of updating the fuzzy rules that make up a key part
+of fuzzy systems, to further improve it over time. This paper discusses how
+these improvements would be implemented in fuzzy systems, and how it would
+improve fuzzy systems. It also discusses certain limitations on the potential
+improvements. It concludes that these proposed ideas and improvements require
+further investigation to see how far the improvements are, but the potential is
+there to improve fuzzy systems.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.06619v1">Steps Adaptive Decay DPSGD: Enhancing Performance on Imbalanced Datasets
+  with Differential Privacy with HAM10000</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
+  <p><b>Published on:</b> 2025-07-09T07:46:29Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xiaobo Huang, Fang Xie</p>
+    <p><b>Summary:</b> When applying machine learning to medical image classification, data leakage
+is a critical issue. Previous methods, such as adding noise to gradients for
+differential privacy, work well on large datasets like MNIST and CIFAR-100, but
+fail on small, imbalanced medical datasets like HAM10000. This is because the
+imbalanced distribution causes gradients from minority classes to be clipped
+and lose crucial information, while majority classes dominate. This leads the
+model to fall into suboptimal solutions early. To address this, we propose
+SAD-DPSGD, which uses a linear decaying mechanism for noise and clipping
+thresholds. By allocating more privacy budget and using higher clipping
+thresholds in the initial training phases, the model avoids suboptimal
+solutions and enhances performance. Experiments show that SAD-DPSGD outperforms
+Auto-DPSGD on HAM10000, improving accuracy by 2.15% under $\epsilon = 3.0$ ,
+$\delta = 10^{-3}$.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.06508v1">Subgraph Counting under Edge Local Differential Privacy Based on Noisy
+  Adjacency Matrix</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-07-09T03:13:15Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jintao Guo, Ying Zhou, Chao Li, Guixun Luo</p>
+    <p><b>Summary:</b> When analyzing connection patterns within graphs, subgraph counting serves as
+an effective and fundamental approach. Edge-local differential privacy
+(edge-LDP) and shuffle model have been employed to achieve subgraph counting
+under a privacy-preserving situation. Existing algorithms are plagued by high
+time complexity, excessive download costs, low accuracy, or dependence on
+trusted third parties. To address the aforementioned challenges, we propose the
+Noisy Adjacency Matrix (NAM), which combines differential privacy with the
+adjacency matrix of the graph. NAM offers strong versatility and scalability,
+making it applicable to a wider range of DP variants, DP mechanisms, and graph
+types. Based on NAM, we designed five algorithms (TriOR, TriTR, TriMTR, QuaTR,
+and 2STAR) to count three types of subgraphs: triangles, quadrangles, and
+2-stars. Theoretical and experimental results demonstrate that in triangle
+counting, TriOR maximizes accuracy with reduced time complexity among one-round
+algorithms, TriTR achieves optimal accuracy, TriMTR achieves the highest
+accuracy under low download costs, and QuaTR stands as the first quadrangle
+counting algorithm under pure edge-LDP. We implement edge-LDP for noisy data
+via a confidence interval-inspired method, providing DP guarantees on
+randomized data. Our 2STAR algorithm achieves the highest accuracy in 2-star
+counting and can be derived as a byproduct of two-round triangle or quadrangle
+counting algorithms, enabling efficient joint estimation of triangle,
+quadrangle, and 2-star counts within two query rounds.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.06350v1">An Architecture for Privacy-Preserving Telemetry Scheme</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
+  <p><b>Published on:</b> 2025-07-08T19:20:56Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Kenneth Odoh</p>
+    <p><b>Summary:</b> We present a privacy-preserving telemetry aggregation scheme. Our underlying
+frequency estimation routine works within the framework of differential
+privacy. The design philosophy follows a client-server architecture.
+Furthermore, the system uses a local differential privacy scheme where data
+gets randomized on the client before submitting the request to the resource
+server. This scheme allows for data analysis on de-identified data by carefully
+adding noise to prevent re-identification attacks, thereby facilitating public
+data release without compromising the identifiability of the individual record.
+This work further enhances privacy guarantees by leveraging Oblivious HTTP
+(OHTTP) to achieve increased privacy protection for data in transit that
+addresses pre-existing privacy vulnerabilities in raw HTTP. We provide an
+implementation that focuses on frequency estimation with a histogram of a known
+dictionary. Our resulting formulation based on OHTTP has provided stricter
+privacy safeguards when compared to trusting an organization to manually delete
+identifying information from the client's request in the ingestor as deployed
+in reference work~\cite{apple2017}. Code available at
+https://github.com/kenluck2001/miscellaneous/tree/master/src/Privacy-Preserving-Telemetry.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2507.06008v1">The Impact of Event Data Partitioning on Privacy-aware Process Discovery</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
   <p><b>Published on:</b> 2025-07-08T14:13:44Z</p>
@@ -89,7 +234,7 @@ efficiency.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.05610v1">On the Inherent Privacy of Zeroth Order Projected Gradient Descent</a></h3>
+  <h3><a href="http://arxiv.org/abs/2507.05610v2">On the Inherent Privacy of Zeroth Order Projected Gradient Descent</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Optimization and Control-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
   <p><b>Published on:</b> 2025-07-08T02:38:14Z</p>
   <details>
@@ -2812,144 +2957,6 @@ data can be used independently for the segmentation task, although limited by
 the complexity of the structures to segment. Advancing generative models to
 better tolerate heterogeneous inputs and learn subtle details is essential for
 enhancing their realism and expanding their application potential.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.11434v1">Auditing Data Provenance in Real-world Text-to-Image Diffusion Models
-  for Privacy and Copyright Protection</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2025-06-13T03:16:16Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jie Zhu, Leye Wang</p>
-    <p><b>Summary:</b> Text-to-image diffusion model since its propose has significantly influenced
-the content creation due to its impressive generation capability. However, this
-capability depends on large-scale text-image datasets gathered from web
-platforms like social media, posing substantial challenges in copyright
-compliance and personal privacy leakage. Though there are some efforts devoted
-to explore approaches for auditing data provenance in text-to-image diffusion
-models, existing work has unrealistic assumptions that can obtain model
-internal knowledge, e.g., intermediate results, or the evaluation is not
-reliable. To fill this gap, we propose a completely black-box auditing
-framework called Feature Semantic Consistency-based Auditing (FSCA). It
-utilizes two types of semantic connections within the text-to-image diffusion
-model for auditing, eliminating the need for access to internal knowledge. To
-demonstrate the effectiveness of our FSCA framework, we perform extensive
-experiments on LAION-mi dataset and COCO dataset, and compare with eight
-state-of-the-art baseline approaches. The results show that FSCA surpasses
-previous baseline approaches across various metrics and different data
-distributions, showcasing the superiority of our FSCA. Moreover, we introduce a
-recall balance strategy and a threshold adjustment strategy, which collectively
-allows FSCA to reach up a user-level accuracy of 90% in a real-world auditing
-scenario with only 10 samples/user, highlighting its strong auditing potential
-in real-world applications. Our code is made available at
-https://github.com/JiePKU/FSCA.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.09690v1">Knockoffs Inference under Privacy Constraints</a></h3>
-   
-  <p><b>Published on:</b> 2025-06-11T13:06:21Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zhanrui Cai, Yingying Fan, Lan Gao</p>
-    <p><b>Summary:</b> Model-X knockoff framework offers a model-free variable selection method that
-ensures finite sample false discovery rate (FDR) control. However, the
-complexity of generating knockoff variables, coupled with the model-free
-assumption, presents significant challenges for protecting data privacy in this
-context. In this paper, we propose a comprehensive framework for knockoff
-inference within the differential privacy paradigm. Our proposed method
-guarantees robust privacy protection while preserving the exact FDR control
-entailed by the original model-X knockoff procedure. We further conduct power
-analysis and establish sufficient conditions under which the noise added for
-privacy preservation does not asymptotically compromise power. Through various
-applications, we demonstrate that the differential privacy knockoff
-(DP-knockoff) method can be effectively utilized to safeguard privacy during
-variable selection with FDR control in both low and high dimensional settings.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.17269v1">Digital Privacy Everywhere</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-06-11T09:25:49Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Paritosh Ranjan, Surajit Majumder, Prodip Roy</p>
-    <p><b>Summary:</b> The increasing proliferation of digital and mobile devices equipped with
-cameras, microphones, GPS, and other privacy invasive components has raised
-significant concerns for businesses operating in sensitive or policy restricted
-environments. Current solutions rely on passive enforcement, such as signage or
-verbal instructions, which are largely ineffective. This paper presents Digital
-Privacy Everywhere (DPE), a comprehensive and scalable system designed to
-actively enforce custom privacy policies for digital devices within predefined
-physical boundaries. The DPE architecture includes a centralized management
-console, field verification units (FVUs), enforcement modules for mobile
-devices (EMMDs), and an External Geo Ownership Service (EGOS). These components
-collaboratively detect, configure, and enforce privacy settings such as
-disabling cameras, microphones, or radios across various premises like
-theaters, hospitals, financial institutions, and educational facilities. The
-system ensures privacy compliance in real time while maintaining a seamless
-user experience and operational scalability across geographies.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.10042v1">Multiverse Privacy Theory for Contextual Risks in Complex User-AI
-  Interactions</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2025-06-11T05:02:59Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ece Gumusel</p>
-    <p><b>Summary:</b> In an era of increasing interaction with artificial intelligence (AI), users
-face evolving privacy decisions shaped by complex, uncertain factors. This
-paper introduces Multiverse Privacy Theory, a novel framework in which each
-privacy decision spawns a parallel universe, representing a distinct potential
-outcome based on user choices over time. By simulating these universes, this
-theory provides a foundation for understanding privacy through the lens of
-contextual integrity, evolving preferences, and probabilistic decision-making.
-Future work will explore its application using real-world, scenario-based
-survey data.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.09387v1">Epass: Efficient and Privacy-Preserving Asynchronous Payment on
-  Blockchain</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-06-11T04:32:54Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Weijie Wang, Jinwen Liang, Chuan Zhang, Ximeng Liu, Liehuang Zhu, Song Guo</p>
-    <p><b>Summary:</b> Buy Now Pay Later (BNPL) is a rapidly proliferating e-commerce model,
-offering consumers to get the product immediately and defer payments.
-Meanwhile, emerging blockchain technologies endow BNPL platforms with digital
-currency transactions, allowing BNPL platforms to integrate with digital
-wallets. However, the transparency of transactions causes critical privacy
-concerns because malicious participants may derive consumers' financial
-statuses from on-chain asynchronous payments. Furthermore, the newly created
-transactions for deferred payments introduce additional time overheads, which
-weaken the scalability of BNPL services. To address these issues, we propose an
-efficient and privacy-preserving blockchain-based asynchronous payment scheme
-(Epass), which has promising scalability while protecting the privacy of
-on-chain consumer transactions. Specifically, Epass leverages locally
-verifiable signatures to guarantee the privacy of consumer transactions against
-malicious acts. Then, a privacy-preserving asynchronous payment scheme can be
-further constructed by leveraging time-release encryption to control trapdoors
-of redactable blockchain, reducing time overheads by modifying transactions for
-deferred payment. We give formal definitions and security models, generic
-structures, and formal proofs for Epass. Extensive comparisons and experimental
-analysis show that \textsf{Epass} achieves KB-level communication costs, and
-reduces time overhead by more than four times in comparisons with locally
-verifiable signatures and Go-Ethereum private test networks.</p>
   </details>
 </div>
 
