@@ -2,6 +2,172 @@
 <h2>2025-07</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.07700v1">Rethinking the Privacy of Text Embeddings: A Reproducibility Study of
+  "Text Embeddings Reveal (Almost) As Much As Text"</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB">
+  <p><b>Published on:</b> 2025-07-10T12:27:03Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Dominykas Seputis, Yongkang Li, Karsten Langerak, Serghei Mihailov</p>
+    <p><b>Summary:</b> Text embeddings are fundamental to many natural language processing (NLP)
+tasks, extensively applied in domains such as recommendation systems and
+information retrieval (IR). Traditionally, transmitting embeddings instead of
+raw text has been seen as privacy-preserving. However, recent methods such as
+Vec2Text challenge this assumption by demonstrating that controlled decoding
+can successfully reconstruct original texts from black-box embeddings. The
+unexpectedly strong results reported by Vec2Text motivated us to conduct
+further verification, particularly considering the typically non-intuitive and
+opaque structure of high-dimensional embedding spaces. In this work, we
+reproduce the Vec2Text framework and evaluate it from two perspectives: (1)
+validating the original claims, and (2) extending the study through targeted
+experiments. First, we successfully replicate the original key results in both
+in-domain and out-of-domain settings, with only minor discrepancies arising due
+to missing artifacts, such as model checkpoints and dataset splits.
+Furthermore, we extend the study by conducting a parameter sensitivity
+analysis, evaluating the feasibility of reconstructing sensitive inputs (e.g.,
+passwords), and exploring embedding quantization as a lightweight privacy
+defense. Our results show that Vec2Text is effective under ideal conditions,
+capable of reconstructing even password-like sequences that lack clear
+semantics. However, we identify key limitations, including its sensitivity to
+input sequence length. We also find that Gaussian noise and quantization
+techniques can mitigate the privacy risks posed by Vec2Text, with quantization
+offering a simpler and more widely applicable solution. Our findings emphasize
+the need for caution in using text embeddings and highlight the importance of
+further research into robust defense mechanisms for NLP systems.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.07565v1">Secure Cooperative Gradient Coding: Optimality, Reliability, and Global
+  Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
+  <p><b>Published on:</b> 2025-07-10T09:10:03Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shudi Weng</p>
+    <p><b>Summary:</b> This paper studies privacy-sensitive federated learning (FL) with unreliable
+communication, focusing on secure aggregation and straggler mitigation. While
+secure aggregation cryptographically reconstructs the global model without
+exposing client updates, random link failures disrupt its key coordination,
+degrading model accuracy. Moreover, unreliable communication can lead to
+objective inconsistency, causing the global model to converge to arbitrary,
+sub-optimal points far from the intended optimum. This paper proposes Secure
+Cooperative Gradient Coding (SecCoGC), a practical solution that achieves
+secure aggregation with arbitrarily strong privacy guarantees and robust
+straggler mitigation under unreliable communication. SecCoGC operates natively
+in the real field, making it directly applicable to practical deployments. To
+ensure equitable privacy protection across clients, we further introduce
+Fair-SecCoGC, an extension that enforces fairness in the level of privacy
+offered to all users. To conclude, this paper formally formulates the problem
+of secure aggregation in the real field and presents both general and
+computationally efficient key construction methods. Moreover, it provides a
+comprehensive privacy analysis under Local Mutual Information Privacy (LMIP)
+and Local Differential Privacy (LDP) across all protocol layers. Robustness and
+convergence properties are also rigorously analyzed. Finally, extensive
+simulations are performed across diverse network conditions and benchmark
+datasets to validate the effectiveness of the proposed methods. The results
+show that SecCoGC achieves strong robustness to unreliable communication under
+arbitrarily strong privacy guarantees. It outperforms existing
+privacy-preserving methods with performance gains of up to 20\%-70\%.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.07320v1">Optimizing Communication and Device Clustering for Clustered Federated
+  Learning with Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-07-09T22:44:26Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Dongyu Wei, Xiaoren Xu, Shiwen Mao, Mingzhe Chen</p>
+    <p><b>Summary:</b> In this paper, a secure and communication-efficient clustered federated
+learning (CFL) design is proposed. In our model, several base stations (BSs)
+with heterogeneous task-handling capabilities and multiple users with
+non-independent and identically distributed (non-IID) data jointly perform CFL
+training incorporating differential privacy (DP) techniques. Since each BS can
+process only a subset of the learning tasks and has limited wireless resource
+blocks (RBs) to allocate to users for federated learning (FL) model parameter
+transmission, it is necessary to jointly optimize RB allocation and user
+scheduling for CFL performance optimization. Meanwhile, our considered CFL
+method requires devices to use their limited data and FL model information to
+determine their task identities, which may introduce additional communication
+overhead. We formulate an optimization problem whose goal is to minimize the
+training loss of all learning tasks while considering device clustering, RB
+allocation, DP noise, and FL model transmission delay. To solve the problem, we
+propose a novel dynamic penalty function assisted value decomposed multi-agent
+reinforcement learning (DPVD-MARL) algorithm that enables distributed BSs to
+independently determine their connected users, RBs, and DP noise of the
+connected users but jointly minimize the training loss of all learning tasks
+across all BSs. Different from the existing MARL methods that assign a large
+penalty for invalid actions, we propose a novel penalty assignment scheme that
+assigns penalty depending on the number of devices that cannot meet
+communication constraints (e.g., delay), which can guide the MARL scheme to
+quickly find valid actions, thus improving the convergence speed. Simulation
+results show that the DPVD-MARL can improve the convergence rate by up to 20%
+and the ultimate accumulated rewards by 15% compared to independent Q-learning.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.07258v1">FedP3E: Privacy-Preserving Prototype Exchange for Non-IID IoT Malware
+  Detection in Cross-Silo Federated Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-07-09T20:07:35Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Rami Darwish, Mahmoud Abdelsalam, Sajad Khorsandroo, Kaushik Roy</p>
+    <p><b>Summary:</b> As IoT ecosystems continue to expand across critical sectors, they have
+become prominent targets for increasingly sophisticated and large-scale malware
+attacks. The evolving threat landscape, combined with the sensitive nature of
+IoT-generated data, demands detection frameworks that are both
+privacy-preserving and resilient to data heterogeneity. Federated Learning (FL)
+offers a promising solution by enabling decentralized model training without
+exposing raw data. However, standard FL algorithms such as FedAvg and FedProx
+often fall short in real-world deployments characterized by class imbalance and
+non-IID data distributions -- particularly in the presence of rare or disjoint
+malware classes. To address these challenges, we propose FedP3E
+(Privacy-Preserving Prototype Exchange), a novel FL framework that supports
+indirect cross-client representation sharing while maintaining data privacy.
+Each client constructs class-wise prototypes using Gaussian Mixture Models
+(GMMs), perturbs them with Gaussian noise, and transmits only these compact
+summaries to the server. The aggregated prototypes are then distributed back to
+clients and integrated into local training, supported by SMOTE-based
+augmentation to enhance representation of minority malware classes. Rather than
+relying solely on parameter averaging, our prototype-driven mechanism enables
+clients to enrich their local models with complementary structural patterns
+observed across the federation -- without exchanging raw data or gradients.
+This targeted strategy reduces the adverse impact of statistical heterogeneity
+with minimal communication overhead. We evaluate FedP3E on the N-BaIoT dataset
+under realistic cross-silo scenarios with varying degrees of data imbalance.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.07210v1">WatchWitch: Interoperability, Privacy, and Autonomy for the Apple Watch</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-07-09T18:33:58Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Nils Rollshausen, Alexander Heinrich, Matthias Hollick, Jiska Classen</p>
+    <p><b>Summary:</b> Smartwatches such as the Apple Watch collect vast amounts of intimate health
+and fitness data as we wear them. Users have little choice regarding how this
+data is processed: The Apple Watch can only be used with Apple's iPhones, using
+their software and their cloud services. We are the first to publicly
+reverse-engineer the watch's wireless protocols, which led to discovering
+multiple security issues in Apple's proprietary implementation. With
+WatchWitch, our custom Android reimplementation, we break out of Apple's walled
+garden -- demonstrating practical interoperability with enhanced privacy
+controls and data autonomy. We thus pave the way for more consumer choice in
+the smartwatch ecosystem, offering users more control over their devices.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2507.06969v1">Unifying Re-Identification, Attribute Inference, and Data Reconstruction
   Risks in Differential Privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> 
@@ -2819,144 +2985,6 @@ DLTs as well as established technologies based on centralized systems. The main
 aspects we consider include the level of privacy guaranteed to users, the scope
 of PoA/PoE (both temporal and spatial), the transferability of the proof, and
 the integration with incentive mechanisms.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.12328v1">Information-theoretic Estimation of the Risk of Privacy Leaks</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-06-14T03:39:11Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Kenneth Odoh</p>
-    <p><b>Summary:</b> Recent work~\cite{Liu2016} has shown that dependencies between items in a
-dataset can lead to privacy leaks. We extend this concept to privacy-preserving
-transformations, considering a broader set of dependencies captured by
-correlation metrics. Specifically, we measure the correlation between the
-original data and their noisy responses from a randomizer as an indicator of
-potential privacy breaches. This paper aims to leverage information-theoretic
-measures, such as the Maximal Information Coefficient (MIC), to estimate
-privacy leaks and derive novel, computationally efficient privacy leak
-estimators. We extend the $\rho_1$-to-$\rho_2$
-formulation~\cite{Evfimievski2003} to incorporate entropy, mutual information,
-and the degree of anonymity for a more comprehensive measure of privacy risk.
-Our proposed hybrid metric can identify correlation dependencies between
-attributes in the dataset, serving as a proxy for privacy leak vulnerabilities.
-This metric provides a computationally efficient worst-case measure of privacy
-loss, utilizing the inherent characteristics of the data to prevent privacy
-breaches.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.12241v1">Privacy Reasoning in Ambiguous Contexts</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-06-13T21:42:22Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ren Yi, Octavian Suciu, Adria Gascon, Sarah Meiklejohn, Eugene Bagdasarian, Marco Gruteser</p>
-    <p><b>Summary:</b> We study the ability of language models to reason about appropriate
-information disclosure - a central aspect of the evolving field of agentic
-privacy. Whereas previous works have focused on evaluating a model's ability to
-align with human decisions, we examine the role of ambiguity and missing
-context on model performance when making information-sharing decisions. We
-identify context ambiguity as a crucial barrier for high performance in privacy
-assessments. By designing Camber, a framework for context disambiguation, we
-show that model-generated decision rationales can reveal ambiguities and that
-systematically disambiguating context based on these rationales leads to
-significant accuracy improvements (up to 13.3\% in precision and up to 22.3\%
-in recall) as well as reductions in prompt sensitivity. Overall, our results
-indicate that approaches for context disambiguation are a promising way forward
-to enhance agentic privacy reasoning.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.11687v1">Differential Privacy in Machine Learning: From Symbolic AI to LLMs</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Neural and Evolutionary Computing-5BC0EB">
-  <p><b>Published on:</b> 2025-06-13T11:30:35Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Francisco Aguilera-Martínez, Fernando Berzal</p>
-    <p><b>Summary:</b> Machine learning models should not reveal particular information that is not
-otherwise accessible. Differential privacy provides a formal framework to
-mitigate privacy risks by ensuring that the inclusion or exclusion of any
-single data point does not significantly alter the output of an algorithm, thus
-limiting the exposure of private information. This survey paper explores the
-foundational definitions of differential privacy, reviews its original
-formulations and tracing its evolution through key research contributions. It
-then provides an in-depth examination of how DP has been integrated into
-machine learning models, analyzing existing proposals and methods to preserve
-privacy when training ML models. Finally, it describes how DP-based ML
-techniques can be evaluated in practice. %Finally, it discusses the broader
-implications of DP, highlighting its potential for public benefit, its
-real-world applications, and the challenges it faces, including vulnerabilities
-to adversarial attacks. By offering a comprehensive overview of differential
-privacy in machine learning, this work aims to contribute to the ongoing
-development of secure and responsible AI systems.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.11679v2">LLMs on support of privacy and security of mobile apps: state of the art
-  and research directions</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-06-13T11:17:15Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Tran Thanh Lam Nguyen, Barbara Carminati, Elena Ferrari</p>
-    <p><b>Summary:</b> Modern life has witnessed the explosion of mobile devices. However, besides
-the valuable features that bring convenience to end users, security and privacy
-risks still threaten users of mobile apps. The increasing sophistication of
-these threats in recent years has underscored the need for more advanced and
-efficient detection approaches. In this chapter, we explore the application of
-Large Language Models (LLMs) to identify security risks and privacy violations
-and mitigate them for the mobile application ecosystem. By introducing
-state-of-the-art research that applied LLMs to mitigate the top 10 common
-security risks of smartphone platforms, we highlight the feasibility and
-potential of LLMs to replace traditional analysis methods, such as dynamic and
-hybrid analysis of mobile apps. As a representative example of LLM-based
-solutions, we present an approach to detect sensitive data leakage when users
-share images online, a common behavior of smartphone users nowadays. Finally,
-we discuss open research challenges.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.12106v1">Enhancing Privacy: The Utility of Stand-Alone Synthetic CT and MRI for
-  Tumor and Bone Segmentation</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2025-06-13T08:17:48Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> André Ferreira, Kunpeng Xie, Caroline Wilpert, Gustavo Correia, Felix Barajas Ordonez, Tiago Gil Oliveira, Maike Bode, Robert Siepmann, Frank Hölzle, Rainer Röhrig, Jens Kleesiek, Daniel Truhn, Jan Egger, Victor Alves, Behrus Puladi</p>
-    <p><b>Summary:</b> AI requires extensive datasets, while medical data is subject to high data
-protection. Anonymization is essential, but poses a challenge for some regions,
-such as the head, as identifying structures overlap with regions of clinical
-interest. Synthetic data offers a potential solution, but studies often lack
-rigorous evaluation of realism and utility. Therefore, we investigate to what
-extent synthetic data can replace real data in segmentation tasks. We employed
-head and neck cancer CT scans and brain glioma MRI scans from two large
-datasets. Synthetic data were generated using generative adversarial networks
-and diffusion models. We evaluated the quality of the synthetic data using MAE,
-MS-SSIM, Radiomics and a Visual Turing Test (VTT) performed by 5 radiologists
-and their usefulness in segmentation tasks using DSC. Radiomics indicates high
-fidelity of synthetic MRIs, but fall short in producing highly realistic CT
-tissue, with correlation coefficient of 0.8784 and 0.5461 for MRI and CT
-tumors, respectively. DSC results indicate limited utility of synthetic data:
-tumor segmentation achieved DSC=0.064 on CT and 0.834 on MRI, while bone
-segmentation a mean DSC=0.841. Relation between DSC and correlation is
-observed, but is limited by the complexity of the task. VTT results show
-synthetic CTs' utility, but with limited educational applications. Synthetic
-data can be used independently for the segmentation task, although limited by
-the complexity of the structures to segment. Advancing generative models to
-better tolerate heterogeneous inputs and learn subtle details is essential for
-enhancing their realism and expanding their application potential.</p>
   </details>
 </div>
 
