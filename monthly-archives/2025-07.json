@@ -764,5 +764,119 @@
       "cs.LG",
       "stat.ML"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.07700v1",
+    "title" : "Rethinking the Privacy of Text Embeddings: A Reproducibility Study of\n  \"Text Embeddings Reveal (Almost) As Much As Text\"",
+    "summary" : "Text embeddings are fundamental to many natural language processing (NLP)\ntasks, extensively applied in domains such as recommendation systems and\ninformation retrieval (IR). Traditionally, transmitting embeddings instead of\nraw text has been seen as privacy-preserving. However, recent methods such as\nVec2Text challenge this assumption by demonstrating that controlled decoding\ncan successfully reconstruct original texts from black-box embeddings. The\nunexpectedly strong results reported by Vec2Text motivated us to conduct\nfurther verification, particularly considering the typically non-intuitive and\nopaque structure of high-dimensional embedding spaces. In this work, we\nreproduce the Vec2Text framework and evaluate it from two perspectives: (1)\nvalidating the original claims, and (2) extending the study through targeted\nexperiments. First, we successfully replicate the original key results in both\nin-domain and out-of-domain settings, with only minor discrepancies arising due\nto missing artifacts, such as model checkpoints and dataset splits.\nFurthermore, we extend the study by conducting a parameter sensitivity\nanalysis, evaluating the feasibility of reconstructing sensitive inputs (e.g.,\npasswords), and exploring embedding quantization as a lightweight privacy\ndefense. Our results show that Vec2Text is effective under ideal conditions,\ncapable of reconstructing even password-like sequences that lack clear\nsemantics. However, we identify key limitations, including its sensitivity to\ninput sequence length. We also find that Gaussian noise and quantization\ntechniques can mitigate the privacy risks posed by Vec2Text, with quantization\noffering a simpler and more widely applicable solution. Our findings emphasize\nthe need for caution in using text embeddings and highlight the importance of\nfurther research into robust defense mechanisms for NLP systems.",
+    "updated" : "2025-07-10T12:27:03Z",
+    "published" : "2025-07-10T12:27:03Z",
+    "authors" : [
+      {
+        "name" : "Dominykas Seputis"
+      },
+      {
+        "name" : "Yongkang Li"
+      },
+      {
+        "name" : "Karsten Langerak"
+      },
+      {
+        "name" : "Serghei Mihailov"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.IR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.07565v1",
+    "title" : "Secure Cooperative Gradient Coding: Optimality, Reliability, and Global\n  Privacy",
+    "summary" : "This paper studies privacy-sensitive federated learning (FL) with unreliable\ncommunication, focusing on secure aggregation and straggler mitigation. While\nsecure aggregation cryptographically reconstructs the global model without\nexposing client updates, random link failures disrupt its key coordination,\ndegrading model accuracy. Moreover, unreliable communication can lead to\nobjective inconsistency, causing the global model to converge to arbitrary,\nsub-optimal points far from the intended optimum. This paper proposes Secure\nCooperative Gradient Coding (SecCoGC), a practical solution that achieves\nsecure aggregation with arbitrarily strong privacy guarantees and robust\nstraggler mitigation under unreliable communication. SecCoGC operates natively\nin the real field, making it directly applicable to practical deployments. To\nensure equitable privacy protection across clients, we further introduce\nFair-SecCoGC, an extension that enforces fairness in the level of privacy\noffered to all users. To conclude, this paper formally formulates the problem\nof secure aggregation in the real field and presents both general and\ncomputationally efficient key construction methods. Moreover, it provides a\ncomprehensive privacy analysis under Local Mutual Information Privacy (LMIP)\nand Local Differential Privacy (LDP) across all protocol layers. Robustness and\nconvergence properties are also rigorously analyzed. Finally, extensive\nsimulations are performed across diverse network conditions and benchmark\ndatasets to validate the effectiveness of the proposed methods. The results\nshow that SecCoGC achieves strong robustness to unreliable communication under\narbitrarily strong privacy guarantees. It outperforms existing\nprivacy-preserving methods with performance gains of up to 20\\%-70\\%.",
+    "updated" : "2025-07-10T09:10:03Z",
+    "published" : "2025-07-10T09:10:03Z",
+    "authors" : [
+      {
+        "name" : "Shudi Weng"
+      }
+    ],
+    "categories" : [
+      "cs.IT",
+      "math.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.07320v1",
+    "title" : "Optimizing Communication and Device Clustering for Clustered Federated\n  Learning with Differential Privacy",
+    "summary" : "In this paper, a secure and communication-efficient clustered federated\nlearning (CFL) design is proposed. In our model, several base stations (BSs)\nwith heterogeneous task-handling capabilities and multiple users with\nnon-independent and identically distributed (non-IID) data jointly perform CFL\ntraining incorporating differential privacy (DP) techniques. Since each BS can\nprocess only a subset of the learning tasks and has limited wireless resource\nblocks (RBs) to allocate to users for federated learning (FL) model parameter\ntransmission, it is necessary to jointly optimize RB allocation and user\nscheduling for CFL performance optimization. Meanwhile, our considered CFL\nmethod requires devices to use their limited data and FL model information to\ndetermine their task identities, which may introduce additional communication\noverhead. We formulate an optimization problem whose goal is to minimize the\ntraining loss of all learning tasks while considering device clustering, RB\nallocation, DP noise, and FL model transmission delay. To solve the problem, we\npropose a novel dynamic penalty function assisted value decomposed multi-agent\nreinforcement learning (DPVD-MARL) algorithm that enables distributed BSs to\nindependently determine their connected users, RBs, and DP noise of the\nconnected users but jointly minimize the training loss of all learning tasks\nacross all BSs. Different from the existing MARL methods that assign a large\npenalty for invalid actions, we propose a novel penalty assignment scheme that\nassigns penalty depending on the number of devices that cannot meet\ncommunication constraints (e.g., delay), which can guide the MARL scheme to\nquickly find valid actions, thus improving the convergence speed. Simulation\nresults show that the DPVD-MARL can improve the convergence rate by up to 20%\nand the ultimate accumulated rewards by 15% compared to independent Q-learning.",
+    "updated" : "2025-07-09T22:44:26Z",
+    "published" : "2025-07-09T22:44:26Z",
+    "authors" : [
+      {
+        "name" : "Dongyu Wei"
+      },
+      {
+        "name" : "Xiaoren Xu"
+      },
+      {
+        "name" : "Shiwen Mao"
+      },
+      {
+        "name" : "Mingzhe Chen"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.07258v1",
+    "title" : "FedP3E: Privacy-Preserving Prototype Exchange for Non-IID IoT Malware\n  Detection in Cross-Silo Federated Learning",
+    "summary" : "As IoT ecosystems continue to expand across critical sectors, they have\nbecome prominent targets for increasingly sophisticated and large-scale malware\nattacks. The evolving threat landscape, combined with the sensitive nature of\nIoT-generated data, demands detection frameworks that are both\nprivacy-preserving and resilient to data heterogeneity. Federated Learning (FL)\noffers a promising solution by enabling decentralized model training without\nexposing raw data. However, standard FL algorithms such as FedAvg and FedProx\noften fall short in real-world deployments characterized by class imbalance and\nnon-IID data distributions -- particularly in the presence of rare or disjoint\nmalware classes. To address these challenges, we propose FedP3E\n(Privacy-Preserving Prototype Exchange), a novel FL framework that supports\nindirect cross-client representation sharing while maintaining data privacy.\nEach client constructs class-wise prototypes using Gaussian Mixture Models\n(GMMs), perturbs them with Gaussian noise, and transmits only these compact\nsummaries to the server. The aggregated prototypes are then distributed back to\nclients and integrated into local training, supported by SMOTE-based\naugmentation to enhance representation of minority malware classes. Rather than\nrelying solely on parameter averaging, our prototype-driven mechanism enables\nclients to enrich their local models with complementary structural patterns\nobserved across the federation -- without exchanging raw data or gradients.\nThis targeted strategy reduces the adverse impact of statistical heterogeneity\nwith minimal communication overhead. We evaluate FedP3E on the N-BaIoT dataset\nunder realistic cross-silo scenarios with varying degrees of data imbalance.",
+    "updated" : "2025-07-09T20:07:35Z",
+    "published" : "2025-07-09T20:07:35Z",
+    "authors" : [
+      {
+        "name" : "Rami Darwish"
+      },
+      {
+        "name" : "Mahmoud Abdelsalam"
+      },
+      {
+        "name" : "Sajad Khorsandroo"
+      },
+      {
+        "name" : "Kaushik Roy"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.07210v1",
+    "title" : "WatchWitch: Interoperability, Privacy, and Autonomy for the Apple Watch",
+    "summary" : "Smartwatches such as the Apple Watch collect vast amounts of intimate health\nand fitness data as we wear them. Users have little choice regarding how this\ndata is processed: The Apple Watch can only be used with Apple's iPhones, using\ntheir software and their cloud services. We are the first to publicly\nreverse-engineer the watch's wireless protocols, which led to discovering\nmultiple security issues in Apple's proprietary implementation. With\nWatchWitch, our custom Android reimplementation, we break out of Apple's walled\ngarden -- demonstrating practical interoperability with enhanced privacy\ncontrols and data autonomy. We thus pave the way for more consumer choice in\nthe smartwatch ecosystem, offering users more control over their devices.",
+    "updated" : "2025-07-09T18:33:58Z",
+    "published" : "2025-07-09T18:33:58Z",
+    "authors" : [
+      {
+        "name" : "Nils Rollshausen"
+      },
+      {
+        "name" : "Alexander Heinrich"
+      },
+      {
+        "name" : "Matthias Hollick"
+      },
+      {
+        "name" : "Jiska Classen"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
