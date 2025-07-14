@@ -878,5 +878,85 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.08412v1",
+    "title" : "Enforcing Speech Content Privacy in Environmental Sound Recordings using\n  Segment-wise Waveform Reversal",
+    "summary" : "Environmental sound recordings often contain intelligible speech, raising\nprivacy concerns that limit analysis, sharing and reuse of data. In this paper,\nwe introduce a method that renders speech unintelligible while preserving both\nthe integrity of the acoustic scene, and the overall audio quality. Our\napproach involves reversing waveform segments to distort speech content. This\nprocess is enhanced through a voice activity detection and speech separation\npipeline, which allows for more precise targeting of speech.\n  In order to demonstrate the effectivness of the proposed approach, we\nconsider a three-part evaluation protocol that assesses: 1) speech\nintelligibility using Word Error Rate (WER), 2) sound sources detectability\nusing Sound source Classification Accuracy-Drop (SCAD) from a widely used\npre-trained model, and 3) audio quality using the Fr\\'echet Audio Distance\n(FAD), computed with our reference dataset that contains unaltered speech.\nExperiments on this simulated evaluation dataset, which consists of linear\nmixtures of speech and environmental sound scenes, show that our method\nachieves satisfactory speech intelligibility reduction (97.9% WER), minimal\ndegradation of the sound sources detectability (2.7% SCAD), and high perceptual\nquality (FAD of 1.40). An ablation study further highlights the contribution of\neach component of the pipeline. We also show that incorporating random splicing\nto our speech content privacy enforcement method can enhance the algorithm's\nrobustness to attempt to recover the clean speech, at a slight cost of audio\nquality.",
+    "updated" : "2025-07-11T08:48:59Z",
+    "published" : "2025-07-11T08:48:59Z",
+    "authors" : [
+      {
+        "name" : "Modan Tailleur"
+      },
+      {
+        "name" : "Mathieu Lagrange"
+      },
+      {
+        "name" : "Pierre Aumond"
+      },
+      {
+        "name" : "Vincent Tourre"
+      }
+    ],
+    "categories" : [
+      "cs.SD",
+      "eess.AS"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.08158v1",
+    "title" : "Beyond the Worst Case: Extending Differential Privacy Guarantees to\n  Realistic Adversaries",
+    "summary" : "Differential Privacy (DP) is a family of definitions that bound the\nworst-case privacy leakage of a mechanism. One important feature of the\nworst-case DP guarantee is it naturally implies protections against adversaries\nwith less prior information, more sophisticated attack goals, and complex\nmeasures of a successful attack. However, the analytical tradeoffs between the\nadversarial model and the privacy protections conferred by DP are not well\nunderstood thus far. To that end, this work sheds light on what the worst-case\nguarantee of DP implies about the success of attackers that are more\nrepresentative of real-world privacy risks.\n  In this paper, we present a single flexible framework that generalizes and\nextends the patchwork of bounds on DP mechanisms found in prior work. Our\nframework allows us to compute high-probability guarantees for DP mechanisms on\na large family of natural attack settings that previous bounds do not capture.\nOne class of such settings is the approximate reconstruction of multiple\nindividuals' data, such as inferring nearly entire columns of a tabular data\nset from noisy marginals and extracting sensitive information from DP-trained\nlanguage models.\n  We conduct two empirical case studies to illustrate the versatility of our\nbounds and compare them to the success of state-of-the-art attacks.\nSpecifically, we study attacks that extract non-uniform PII from a DP-trained\nlanguage model, as well as multi-column reconstruction attacks where the\nadversary has access to some columns in the clear and attempts to reconstruct\nthe remaining columns for each person's record. We find that the absolute\nprivacy risk of attacking non-uniform data is highly dependent on the\nadversary's prior probability of success. Our high probability bounds give us a\nnuanced understanding of the privacy leakage of DP mechanisms in a variety of\npreviously understudied attack settings.",
+    "updated" : "2025-07-10T20:36:31Z",
+    "published" : "2025-07-10T20:36:31Z",
+    "authors" : [
+      {
+        "name" : "Marika Swanberg"
+      },
+      {
+        "name" : "Meenatchi Sundaram Muthu Selva Annamalai"
+      },
+      {
+        "name" : "Jamie Hayes"
+      },
+      {
+        "name" : "Borja Balle"
+      },
+      {
+        "name" : "Adam Smith"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.08050v1",
+    "title" : "An Enhanced Privacy-preserving Federated Few-shot Learning Framework for\n  Respiratory Disease Diagnosis",
+    "summary" : "The labor-intensive nature of medical data annotation presents a significant\nchallenge for respiratory disease diagnosis, resulting in a scarcity of\nhigh-quality labeled datasets in resource-constrained settings. Moreover,\npatient privacy concerns complicate the direct sharing of local medical data\nacross institutions, and existing centralized data-driven approaches, which\nrely on amounts of available data, often compromise data privacy. This study\nproposes a federated few-shot learning framework with privacy-preserving\nmechanisms to address the issues of limited labeled data and privacy protection\nin diagnosing respiratory diseases. In particular, a meta-stochastic gradient\ndescent algorithm is proposed to mitigate the overfitting problem that arises\nfrom insufficient data when employing traditional gradient descent methods for\nneural network training. Furthermore, to ensure data privacy against gradient\nleakage, differential privacy noise from a standard Gaussian distribution is\nintegrated into the gradients during the training of private models with local\ndata, thereby preventing the reconstruction of medical images. Given the\nimpracticality of centralizing respiratory disease data dispersed across\nvarious medical institutions, a weighted average algorithm is employed to\naggregate local diagnostic models from different clients, enhancing the\nadaptability of a model across diverse scenarios. Experimental results show\nthat the proposed method yields compelling results with the implementation of\ndifferential privacy, while effectively diagnosing respiratory diseases using\ndata from different structures, categories, and distributions.",
+    "updated" : "2025-07-10T07:47:58Z",
+    "published" : "2025-07-10T07:47:58Z",
+    "authors" : [
+      {
+        "name" : "Ming Wang"
+      },
+      {
+        "name" : "Zhaoyang Duan"
+      },
+      {
+        "name" : "Dong Xue"
+      },
+      {
+        "name" : "Fangzhou Liu"
+      },
+      {
+        "name" : "Zhongheng Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
   }
 ]
