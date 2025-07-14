@@ -2,6 +2,79 @@
 <h2>2025-07</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.08412v1">Enforcing Speech Content Privacy in Environmental Sound Recordings using
+  Segment-wise Waveform Reversal</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Sound-D91E36"> 
+  <p><b>Published on:</b> 2025-07-11T08:48:59Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Modan Tailleur, Mathieu Lagrange, Pierre Aumond, Vincent Tourre</p>
+    <p><b>Summary:</b> Environmental sound recordings often contain intelligible speech, raising
+privacy concerns that limit analysis, sharing and reuse of data. In this paper,
+we introduce a method that renders speech unintelligible while preserving both
+the integrity of the acoustic scene, and the overall audio quality. Our
+approach involves reversing waveform segments to distort speech content. This
+process is enhanced through a voice activity detection and speech separation
+pipeline, which allows for more precise targeting of speech.
+  In order to demonstrate the effectivness of the proposed approach, we
+consider a three-part evaluation protocol that assesses: 1) speech
+intelligibility using Word Error Rate (WER), 2) sound sources detectability
+using Sound source Classification Accuracy-Drop (SCAD) from a widely used
+pre-trained model, and 3) audio quality using the Fr\'echet Audio Distance
+(FAD), computed with our reference dataset that contains unaltered speech.
+Experiments on this simulated evaluation dataset, which consists of linear
+mixtures of speech and environmental sound scenes, show that our method
+achieves satisfactory speech intelligibility reduction (97.9% WER), minimal
+degradation of the sound sources detectability (2.7% SCAD), and high perceptual
+quality (FAD of 1.40). An ablation study further highlights the contribution of
+each component of the pipeline. We also show that incorporating random splicing
+to our speech content privacy enforcement method can enhance the algorithm's
+robustness to attempt to recover the clean speech, at a slight cost of audio
+quality.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.08158v1">Beyond the Worst Case: Extending Differential Privacy Guarantees to
+  Realistic Adversaries</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-07-10T20:36:31Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Marika Swanberg, Meenatchi Sundaram Muthu Selva Annamalai, Jamie Hayes, Borja Balle, Adam Smith</p>
+    <p><b>Summary:</b> Differential Privacy (DP) is a family of definitions that bound the
+worst-case privacy leakage of a mechanism. One important feature of the
+worst-case DP guarantee is it naturally implies protections against adversaries
+with less prior information, more sophisticated attack goals, and complex
+measures of a successful attack. However, the analytical tradeoffs between the
+adversarial model and the privacy protections conferred by DP are not well
+understood thus far. To that end, this work sheds light on what the worst-case
+guarantee of DP implies about the success of attackers that are more
+representative of real-world privacy risks.
+  In this paper, we present a single flexible framework that generalizes and
+extends the patchwork of bounds on DP mechanisms found in prior work. Our
+framework allows us to compute high-probability guarantees for DP mechanisms on
+a large family of natural attack settings that previous bounds do not capture.
+One class of such settings is the approximate reconstruction of multiple
+individuals' data, such as inferring nearly entire columns of a tabular data
+set from noisy marginals and extracting sensitive information from DP-trained
+language models.
+  We conduct two empirical case studies to illustrate the versatility of our
+bounds and compare them to the success of state-of-the-art attacks.
+Specifically, we study attacks that extract non-uniform PII from a DP-trained
+language model, as well as multi-column reconstruction attacks where the
+adversary has access to some columns in the clear and attempts to reconstruct
+the remaining columns for each person's record. We find that the absolute
+privacy risk of attacking non-uniform data is highly dependent on the
+adversary's prior probability of success. Our high probability bounds give us a
+nuanced understanding of the privacy leakage of DP mechanisms in a variety of
+previously understudied attack settings.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2507.07700v1">Rethinking the Privacy of Text Embeddings: A Reproducibility Study of
   "Text Embeddings Reveal (Almost) As Much As Text"</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB">
@@ -70,6 +143,40 @@ datasets to validate the effectiveness of the proposed methods. The results
 show that SecCoGC achieves strong robustness to unreliable communication under
 arbitrarily strong privacy guarantees. It outperforms existing
 privacy-preserving methods with performance gains of up to 20\%-70\%.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.08050v1">An Enhanced Privacy-preserving Federated Few-shot Learning Framework for
+  Respiratory Disease Diagnosis</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-07-10T07:47:58Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ming Wang, Zhaoyang Duan, Dong Xue, Fangzhou Liu, Zhongheng Zhang</p>
+    <p><b>Summary:</b> The labor-intensive nature of medical data annotation presents a significant
+challenge for respiratory disease diagnosis, resulting in a scarcity of
+high-quality labeled datasets in resource-constrained settings. Moreover,
+patient privacy concerns complicate the direct sharing of local medical data
+across institutions, and existing centralized data-driven approaches, which
+rely on amounts of available data, often compromise data privacy. This study
+proposes a federated few-shot learning framework with privacy-preserving
+mechanisms to address the issues of limited labeled data and privacy protection
+in diagnosing respiratory diseases. In particular, a meta-stochastic gradient
+descent algorithm is proposed to mitigate the overfitting problem that arises
+from insufficient data when employing traditional gradient descent methods for
+neural network training. Furthermore, to ensure data privacy against gradient
+leakage, differential privacy noise from a standard Gaussian distribution is
+integrated into the gradients during the training of private models with local
+data, thereby preventing the reconstruction of medical images. Given the
+impracticality of centralizing respiratory disease data dispersed across
+various medical institutions, a weighted average algorithm is employed to
+aggregate local diagnostic models from different clients, enhancing the
+adaptability of a model across diverse scenarios. Experimental results show
+that the proposed method yields compelling results with the implementation of
+differential privacy, while effectively diagnosing respiratory diseases using
+data from different structures, categories, and distributions.</p>
   </details>
 </div>
 
@@ -2906,85 +3013,6 @@ demonstrate that our approach achieves the desired privacy protection,
 robustness, verifiability and fidelity, while eliminating the reliance on
 non-colluding dual-server settings or trusted third parties required by
 existing methods.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.12749v2">Free Privacy Protection for Wireless Federated Learning: Enjoy It or
-  Suffer from It?</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-06-15T07:13:52Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Weicai Li, Tiejun Lv, Xiyu Zhao, Xin Yuan, Wei Ni</p>
-    <p><b>Summary:</b> Inherent communication noises have the potential to preserve privacy for
-wireless federated learning (WFL) but have been overlooked in digital
-communication systems predominantly using floating-point number standards,
-e.g., IEEE 754, for data storage and transmission. This is due to the
-potentially catastrophic consequences of bit errors in floating-point numbers,
-e.g., on the sign or exponent bits. This paper presents a novel channel-native
-bit-flipping differential privacy (DP) mechanism tailored for WFL, where
-transmit bits are randomly flipped and communication noises are leveraged, to
-collectively preserve the privacy of WFL in digital communication systems. The
-key idea is to interpret the bit perturbation at the transmitter and bit errors
-caused by communication noises as a bit-flipping DP process. This is achieved
-by designing a new floating-point-to-fixed-point conversion method that only
-transmits the bits in the fraction part of model parameters, hence eliminating
-the need for transmitting the sign and exponent bits and preventing the
-catastrophic consequence of bit errors. We analyze a new metric to measure the
-bit-level distance of the model parameters and prove that the proposed
-mechanism satisfies (\lambda,\epsilon)-R\'enyi DP and does not violate the WFL
-convergence. Experiments validate privacy and convergence analysis of the
-proposed mechanism and demonstrate its superiority to the state-of-the-art
-Gaussian mechanisms that are channel-agnostic and add Gaussian noise for
-privacy protection.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.12699v2">SoK: The Privacy Paradox of Large Language Models: Advancements, Privacy
-  Risks, and Mitigation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2025-06-15T03:14:03Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yashothara Shanmugarasa, Ming Ding, M. A. P Chamikara, Thierry Rakotoarivelo</p>
-    <p><b>Summary:</b> Large language models (LLMs) are sophisticated artificial intelligence
-systems that enable machines to generate human-like text with remarkable
-precision. While LLMs offer significant technological progress, their
-development using vast amounts of user data scraped from the web and collected
-from extensive user interactions poses risks of sensitive information leakage.
-Most existing surveys focus on the privacy implications of the training data
-but tend to overlook privacy risks from user interactions and advanced LLM
-capabilities. This paper aims to fill that gap by providing a comprehensive
-analysis of privacy in LLMs, categorizing the challenges into four main areas:
-(i) privacy issues in LLM training data, (ii) privacy challenges associated
-with user prompts, (iii) privacy vulnerabilities in LLM-generated outputs, and
-(iv) privacy challenges involving LLM agents. We evaluate the effectiveness and
-limitations of existing mitigation mechanisms targeting these proposed privacy
-challenges and identify areas for further research.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.12523v1">Privacy-preserving and reward-based mechanisms of proof of engagement</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E"> 
-  <p><b>Published on:</b> 2025-06-14T14:33:39Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Matteo Marco Montanari, Alessandro Aldini</p>
-    <p><b>Summary:</b> Proof-of-Attendance (PoA) mechanisms are typically employed to demonstrate a
-specific user's participation in an event, whether virtual or in-person. The
-goal of this study is to extend such mechanisms to broader contexts where the
-user wishes to digitally demonstrate her involvement in a specific activity
-(Proof-of-Engagement, PoE). This work explores different solutions, including
-DLTs as well as established technologies based on centralized systems. The main
-aspects we consider include the level of privacy guaranteed to users, the scope
-of PoA/PoE (both temporal and spatial), the transferability of the proof, and
-the integration with incentive mechanisms.</p>
   </details>
 </div>
 
