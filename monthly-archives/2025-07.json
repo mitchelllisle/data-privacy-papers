@@ -958,5 +958,348 @@
       "cs.LG",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.10489v1",
+    "title" : "SynthGuard: Redefining Synthetic Data Generation with a Scalable and\n  Privacy-Preserving Workflow Framework",
+    "summary" : "The growing reliance on data-driven applications in sectors such as\nhealthcare, finance, and law enforcement underscores the need for secure,\nprivacy-preserving, and scalable mechanisms for data generation and sharing.\nSynthetic data generation (SDG) has emerged as a promising approach but often\nrelies on centralized or external processing, raising concerns about data\nsovereignty, domain ownership, and compliance with evolving regulatory\nstandards. To overcome these issues, we introduce SynthGuard, a framework\ndesigned to ensure computational governance by enabling data owners to maintain\ncontrol over SDG workflows. SynthGuard supports modular and privacy-preserving\nworkflows, ensuring secure, auditable, and reproducible execution across\ndiverse environments. In this paper, we demonstrate how SynthGuard addresses\nthe complexities at the intersection of domain-specific needs and scalable SDG\nby aligning with requirements for data sovereignty and regulatory compliance.\nDeveloped iteratively with domain expert input, SynthGuard has been validated\nthrough real-world use cases, demonstrating its ability to balance security,\nprivacy, and scalability while ensuring compliance. The evaluation confirms its\neffectiveness in implementing and executing SDG workflows and integrating\nprivacy and utility assessments across various computational environments.",
+    "updated" : "2025-07-14T17:11:20Z",
+    "published" : "2025-07-14T17:11:20Z",
+    "authors" : [
+      {
+        "name" : "Eduardo Brito"
+      },
+      {
+        "name" : "Mahmoud Shoush"
+      },
+      {
+        "name" : "Kristian Tamm"
+      },
+      {
+        "name" : "Paula Etti"
+      },
+      {
+        "name" : "Liina Kamm"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.10474v1",
+    "title" : "Privacy-Preserving Multi-Stage Fall Detection Framework with\n  Semi-supervised Federated Learning and Robotic Vision Confirmation",
+    "summary" : "The aging population is growing rapidly, and so is the danger of falls in\nolder adults. A major cause of injury is falling, and detection in time can\ngreatly save medical expenses and recovery time. However, to provide timely\nintervention and avoid unnecessary alarms, detection systems must be effective\nand reliable while addressing privacy concerns regarding the user. In this\nwork, we propose a framework for detecting falls using several complementary\nsystems: a semi-supervised federated learning-based fall detection system\n(SF2D), an indoor localization and navigation system, and a vision-based human\nfall recognition system. A wearable device and an edge device identify a fall\nscenario in the first system. On top of that, the second system uses an indoor\nlocalization technique first to localize the fall location and then navigate a\nrobot to inspect the scenario. A vision-based detection system running on an\nedge device with a mounted camera on a robot is used to recognize fallen\npeople. Each of the systems of this proposed framework achieves different\naccuracy rates. Specifically, the SF2D has a 0.81% failure rate equivalent to\n99.19% accuracy, while the vision-based fallen people detection achieves 96.3%\naccuracy. However, when we combine the accuracy of these two systems with the\naccuracy of the navigation system (95% success rate), our proposed framework\ncreates a highly reliable performance for fall detection, with an overall\naccuracy of 99.99%. Not only is the proposed framework safe for older adults,\nbut it is also a privacy-preserving solution for detecting falls.",
+    "updated" : "2025-07-14T16:55:11Z",
+    "published" : "2025-07-14T16:55:11Z",
+    "authors" : [
+      {
+        "name" : "Seyed Alireza Rahimi Azghadi"
+      },
+      {
+        "name" : "Truong-Thanh-Hung Nguyen"
+      },
+      {
+        "name" : "Helene Fournier"
+      },
+      {
+        "name" : "Monica Wachowicz"
+      },
+      {
+        "name" : "Rene Richard"
+      },
+      {
+        "name" : "Francis Palma"
+      },
+      {
+        "name" : "Hung Cao"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI",
+      "cs.RO"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.09699v1",
+    "title" : "Interpreting Differential Privacy in Terms of Disclosure Risk",
+    "summary" : "As the use of differential privacy (DP) becomes widespread, the development\nof effective tools for reasoning about the privacy guarantee becomes\nincreasingly critical. In pursuit of this goal, we demonstrate novel\nrelationships between DP and measures of statistical disclosure risk. We\nsuggest how experts and non-experts can use these results to explain the DP\nguarantee, interpret DP composition theorems, select and justify privacy\nparameters, and identify worst-case adversary prior probabilities.",
+    "updated" : "2025-07-13T16:20:13Z",
+    "published" : "2025-07-13T16:20:13Z",
+    "authors" : [
+      {
+        "name" : "Zeki Kazan"
+      },
+      {
+        "name" : "Sagar Sharma"
+      },
+      {
+        "name" : "Wanrong Zhang"
+      },
+      {
+        "name" : "Bo Jiang"
+      },
+      {
+        "name" : "Qiang Yan"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.09678v1",
+    "title" : "Conformal Prediction for Privacy-Preserving Machine Learning",
+    "summary" : "We investigate the integration of Conformal Prediction (CP) with supervised\nlearning on deterministically encrypted data, aiming to bridge the gap between\nrigorous uncertainty quantification and privacy-preserving machine learning.\nUsing AES-encrypted variants of the MNIST dataset, we demonstrate that CP\nmethods remain effective even when applied directly in the encrypted domain,\nowing to the preservation of data exchangeability under fixed-key encryption.\nWe test traditional $p$-value-based against $e$-value-based conformal\npredictors. Our empirical evaluation reveals that models trained on\ndeterministically encrypted data retain the ability to extract meaningful\nstructure, achieving 36.88\\% test accuracy -- significantly above random\nguessing (9.56\\%) observed with per-instance encryption. Moreover,\n$e$-value-based CP achieves predictive set coverage of over 60\\% with 4.3\nloss-threshold calibration, correctly capturing the true label in 4888 out of\n5000 test cases. In contrast, the $p$-value-based CP yields smaller predictive\nsets but with reduced coverage accuracy. These findings highlight both the\npromise and limitations of CP in encrypted data settings and underscore\ncritical trade-offs between prediction set compactness and reliability. %Our\nwork sets a foundation for principled uncertainty quantification in secure,\nprivacy-aware learning systems.",
+    "updated" : "2025-07-13T15:29:14Z",
+    "published" : "2025-07-13T15:29:14Z",
+    "authors" : [
+      {
+        "name" : "Alexander David Balinsky"
+      },
+      {
+        "name" : "Dominik Krzeminski"
+      },
+      {
+        "name" : "Alexander Balinsky"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "math.ST",
+      "stat.TH"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.09453v1",
+    "title" : "SmartphoneDemocracy: Privacy-Preserving E-Voting on Decentralized\n  Infrastructure using Novel European Identity",
+    "summary" : "The digitization of democratic processes promises greater accessibility but\npresents challenges in terms of security, privacy, and verifiability. Existing\nelectronic voting systems often rely on centralized architectures, creating\nsingle points of failure and forcing too much trust in authorities, which\ncontradicts democratic principles. This research addresses the challenge of\ncreating a secure, private e-voting system with minimized trust dependencies\ndesigned for the most versatile personal device: the smartphone. We introduce\nSmartphoneDemocracy, a novel e-voting protocol that combines three key\ntechnologies: the emerging European Digital Identity (EUDI) Wallet for\nSybil-resistant identity verification, Zero-Knowledge Proofs for\nprivacy-preserving validation, and a peer-to-peer blockchain (TrustChain) for a\nresilient, serverless public bulletin board. Our protocol enables voters to\nregister and cast ballots anonymously and verifiably directly from their\nsmartphones. We provide a detailed protocol design, a security analysis against\na defined threat model, and a performance evaluation demonstrating that the\ncomputational and network overhead is feasible for medium- to large-scale\nelections. By developing and prototyping this system, we demonstrate a viable\npath to empower citizens with a trustworthy, accessible, and user-controlled\ndigital voting experience.",
+    "updated" : "2025-07-13T02:39:10Z",
+    "published" : "2025-07-13T02:39:10Z",
+    "authors" : [
+      {
+        "name" : "Michał Jóźwik"
+      },
+      {
+        "name" : "Johan Pouwelse"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.09067v1",
+    "title" : "Quantum-Resilient Privacy Ledger (QRPL): A Sovereign Digital Currency\n  for the Post-Quantum Era",
+    "summary" : "The emergence of quantum computing presents profound challenges to existing\ncryptographic infrastructures, whilst the development of central bank digital\ncurrencies (CBDCs) has raised concerns regarding privacy preservation and\nexcessive centralisation in digital payment systems. This paper proposes the\nQuantum-Resilient Privacy Ledger (QRPL) as an innovative token-based digital\ncurrency architecture that incorporates National Institute of Standards and\nTechnology (NIST)-standardised post-quantum cryptography (PQC) with hash-based\nzero-knowledge proofs to ensure user sovereignty, scalability, and transaction\nconfidentiality. Key contributions include adaptations of ephemeral proof\nchains for unlinkable transactions, a privacy-weighted Proof-of-Stake (PoS)\nconsensus to promote equitable participation, and a novel zero-knowledge\nproof-based mechanism for privacy-preserving selective disclosure. QRPL aims to\naddress critical shortcomings in prevailing CBDC designs, including risks of\npervasive surveillance, with a 10-20 second block time to balance security and\nthroughput in future monetary systems. While conceptual, empirical prototypes\nare planned. Future work includes prototype development to validate these\nmodels empirically.",
+    "updated" : "2025-07-11T23:02:45Z",
+    "published" : "2025-07-11T23:02:45Z",
+    "authors" : [
+      {
+        "name" : "Serhan W. Bahar"
+      }
+    ],
+    "categories" : [
+      "cs.ET",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.09051v1",
+    "title" : "SAGE: A Context-Aware Approach for Mining Privacy Requirements Relevant\n  Reviews from Mental Health Apps",
+    "summary" : "Mental health (MH) apps often require sensitive user data to customize\nservices for mental wellness needs. However, such data collection practices in\nsome MH apps raise significant privacy concerns for users. These concerns are\noften mentioned in app reviews, but other feedback categories, such as\nreliability and usability, tend to take precedence. This poses a significant\nchallenge in automatically identifying privacy requirements-relevant reviews\n(privacy reviews) that can be utilized to extract privacy requirements and\naddress users' privacy concerns. Thus, this study introduces SAGE, a\ncontext-aware approach to automatically mining privacy reviews from MH apps\nusing Natural Language Inference (NLI) with MH domain-specific privacy\nhypotheses (provides domain-specific context awareness) and a GPT model\n(eliminates the need for fine-tuning). The quantitative evaluation of SAGE on a\ndataset of 204K app reviews achieved an F1 score of 0.85 without any\nfine-tuning, outperforming the fine-tuned baseline classifiers BERT and T5.\nFurthermore, SAGE extracted 748 privacy reviews previously overlooked by\nkeyword-based methods, demonstrating its effectiveness through qualitative\nevaluation. These reviews can later be refined into actionable privacy\nrequirement artifacts.",
+    "updated" : "2025-07-11T21:53:56Z",
+    "published" : "2025-07-11T21:53:56Z",
+    "authors" : [
+      {
+        "name" : "Aakash Sorathiya"
+      },
+      {
+        "name" : "Gouri Ginde"
+      }
+    ],
+    "categories" : [
+      "cs.SE"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.08978v1",
+    "title" : "Characterizing Security and Privacy Teaching Standards for Schools in\n  the United States",
+    "summary" : "Increasingly, students begin learning aspects of security and privacy during\ntheir primary and secondary education (grades K-12 in the United States).\nIndividual U.S. states and some national organizations publish teaching\nstandards -- guidance that outlines expectations for what students should learn\n-- which often form the basis for course curricula. However, research has not\nyet examined what is covered by these standards and whether the topics align\nwith what the broader security and privacy community thinks students should\nknow. To shed light on these questions, we started by collecting computer\nscience teaching standards from all U.S. states and eight national\norganizations. After manually examining a total of 11,954 standards, we labeled\n3,778 of them as being related to security and privacy, further classifying\nthese into 103 topics. Topics ranged from technical subjects like encryption,\nnetwork security, and embedded systems to social subjects such as laws, ethics,\nand appropriate online behavior. Subsequently, we interviewed 11 security and\nprivacy professionals to examine how the teaching standards align with their\nexpectations. We found that, while the specific topics they mentioned mostly\noverlapped with those of existing standards, professionals placed a greater\nemphasis on threat modeling and security mindset.",
+    "updated" : "2025-07-11T19:20:08Z",
+    "published" : "2025-07-11T19:20:08Z",
+    "authors" : [
+      {
+        "name" : "Katherine Limes"
+      },
+      {
+        "name" : "Nathan Malkin"
+      },
+      {
+        "name" : "Kelsey R. Fulton"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.08882v1",
+    "title" : "Less Stress, More Privacy: Stress Detection on Anonymized Speech of Air\n  Traffic Controllers",
+    "summary" : "Air traffic control (ATC) demands multi-tasking under time pressure with high\nconsequences of an error. This can induce stress. Detecting stress is a key\npoint in maintaining the high safety standards of ATC. However, processing ATC\nvoice data entails privacy restrictions, e.g. the General Data Protection\nRegulation (GDPR) law. Anonymizing the ATC voice data is one way to comply with\nthese restrictions. In this paper, different architectures for stress detection\nfor anonymized ATCO speech are evaluated. Our best networks reach a stress\ndetection accuracy of 93.6% on an anonymized version of the Speech Under\nSimulated and Actual Stress (SUSAS) dataset and an accuracy of 80.1% on our\nanonymized ATC simulation dataset. This shows that privacy does not have to be\nan impediment in building well-performing deep-learning-based models.",
+    "updated" : "2025-07-10T11:48:29Z",
+    "published" : "2025-07-10T11:48:29Z",
+    "authors" : [
+      {
+        "name" : "Janaki Viswanathan"
+      },
+      {
+        "name" : "Alexander Blatt"
+      },
+      {
+        "name" : "Konrad Hagemann"
+      },
+      {
+        "name" : "Dietrich Klakow"
+      }
+    ],
+    "categories" : [
+      "cs.SD",
+      "cs.CL",
+      "eess.AS",
+      "I.2.7; I.5.5"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.08878v1",
+    "title" : "Towards Privacy-Preserving and Personalized Smart Homes via Tailored\n  Small Language Models",
+    "summary" : "Large Language Models (LLMs) have showcased remarkable generalizability in\nlanguage comprehension and hold significant potential to revolutionize\nhuman-computer interaction in smart homes. Existing LLM-based smart home\nassistants typically transmit user commands, along with user profiles and home\nconfigurations, to remote servers to obtain personalized services. However,\nusers are increasingly concerned about the potential privacy leaks to the\nremote servers. To address this issue, we develop HomeLLaMA, an on-device\nassistant for privacy-preserving and personalized smart home serving with a\ntailored small language model (SLM). HomeLLaMA learns from cloud LLMs to\ndeliver satisfactory responses and enable user-friendly interactions. Once\ndeployed, HomeLLaMA facilitates proactive interactions by continuously updating\nlocal SLMs and user profiles. To further enhance user experience while\nprotecting their privacy, we develop PrivShield to offer an optional\nprivacy-preserving LLM-based smart home serving for those users, who are\nunsatisfied with local responses and willing to send less-sensitive queries to\nremote servers. For evaluation, we build a comprehensive benchmark DevFinder to\nassess the service quality. Extensive experiments and user studies (M=100)\ndemonstrate that HomeLLaMA can provide personalized services while\nsignificantly enhancing user privacy.",
+    "updated" : "2025-07-10T05:36:32Z",
+    "published" : "2025-07-10T05:36:32Z",
+    "authors" : [
+      {
+        "name" : "Xinyu Huang"
+      },
+      {
+        "name" : "Leming Shen"
+      },
+      {
+        "name" : "Zijing Ma"
+      },
+      {
+        "name" : "Yuanqing Zheng"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.08864v1",
+    "title" : "Privacy-Utility-Fairness: A Balanced Approach to Vehicular-Traffic\n  Management System",
+    "summary" : "Location-based vehicular traffic management faces significant challenges in\nprotecting sensitive geographical data while maintaining utility for traffic\nmanagement and fairness across regions. Existing state-of-the-art solutions\noften fail to meet the required level of protection against linkage attacks and\ndemographic biases, leading to privacy leakage and inequity in data analysis.\nIn this paper, we propose a novel algorithm designed to address the challenges\nregarding the balance of privacy, utility, and fairness in location-based\nvehicular traffic management systems. In this context, utility means providing\nreliable and meaningful traffic information, while fairness ensures that all\nregions and individuals are treated equitably in data use and decision-making.\nEmploying differential privacy techniques, we enhance data security by\nintegrating query-based data access with iterative shuffling and calibrated\nnoise injection, ensuring that sensitive geographical data remains protected.\nWe ensure adherence to epsilon-differential privacy standards by implementing\nthe Laplace mechanism. We implemented our algorithm on vehicular location-based\ndata from Norway, demonstrating its ability to maintain data utility for\ntraffic management and urban planning while ensuring fair representation of all\ngeographical areas without being overrepresented or underrepresented.\nAdditionally, we have created a heatmap of Norway based on our model,\nillustrating the privatized and fair representation of the traffic conditions\nacross various cities. Our algorithm provides privacy in vehicular traffic",
+    "updated" : "2025-07-09T13:49:13Z",
+    "published" : "2025-07-09T13:49:13Z",
+    "authors" : [
+      {
+        "name" : "Poushali Sengupta"
+      },
+      {
+        "name" : "Sabita Maharjan"
+      },
+      {
+        "name" : "frank Eliassen"
+      },
+      {
+        "name" : "Yan Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.MA"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.08853v1",
+    "title" : "Clio-X: AWeb3 Solution for Privacy-Preserving AI Access to Digital\n  Archives",
+    "summary" : "As archives turn to artificial intelligence to manage growing volumes of\ndigital records, privacy risks inherent in current AI data practices raise\ncritical concerns about data sovereignty and ethical accountability. This paper\nexplores how privacy-enhancing technologies (PETs) and Web3 architectures can\nsupport archives to preserve control over sensitive content while still being\nable to make it available for access by researchers. We present Clio-X, a\ndecentralized, privacy-first Web3 digital solution designed to embed PETs into\narchival workflows and support AI-enabled reference and access. Drawing on a\nuser evaluation of a medium-fidelity prototype, the study reveals both interest\nin the potential of the solution and significant barriers to adoption related\nto trust, system opacity, economic concerns, and governance. Using Rogers'\nDiffusion of Innovation theory, we analyze the sociotechnical dimensions of\nthese barriers and propose a path forward centered on participatory design and\ndecentralized governance through a Clio-X Decentralized Autonomous\nOrganization. By integrating technical safeguards with community-based\noversight, Clio-X offers a novel model to ethically deploy AI in cultural\nheritage contexts.",
+    "updated" : "2025-07-09T05:30:38Z",
+    "published" : "2025-07-09T05:30:38Z",
+    "authors" : [
+      {
+        "name" : "Victoria L. Lemieux"
+      },
+      {
+        "name" : "Rosa Gil"
+      },
+      {
+        "name" : "Faith Molosiwa"
+      },
+      {
+        "name" : "Qihong Zhou"
+      },
+      {
+        "name" : "Binming Li"
+      },
+      {
+        "name" : "Roberto Garcia"
+      },
+      {
+        "name" : "Luis De La Torre Cubillo"
+      },
+      {
+        "name" : "Zehua Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.CY",
+      "cs.DL",
+      "D.2.11, H.3.4, H.3.7, J.5"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.08843v1",
+    "title" : "Can We Predict Your Next Move Without Breaking Your Privacy?",
+    "summary" : "We propose FLLL3M--Federated Learning with Large Language Models for Mobility\nModeling--a privacy-preserving framework for Next-Location Prediction (NxLP).\nBy retaining user data locally and leveraging LLMs through an efficient outer\nproduct mechanism, FLLL3M ensures high accuracy with low resource demands. It\nachieves SOT results on Gowalla (Acc@1: 12.55, MRR: 0.1422), WeePlace (10.71,\n0.1285), Brightkite (10.42, 0.1169), and FourSquare (8.71, 0.1023), while\nreducing parameters by up to 45.6% and memory usage by 52.7%.",
+    "updated" : "2025-07-08T08:13:34Z",
+    "published" : "2025-07-08T08:13:34Z",
+    "authors" : [
+      {
+        "name" : "Arpita Soni"
+      },
+      {
+        "name" : "Sahil Tripathi"
+      },
+      {
+        "name" : "Gautam Siddharth Kashyap"
+      },
+      {
+        "name" : "Manaswi Kulahara"
+      },
+      {
+        "name" : "Mohammad Anas Azeez"
+      },
+      {
+        "name" : "Zohaib Hasan Siddiqui"
+      },
+      {
+        "name" : "Nipun Joshi"
+      },
+      {
+        "name" : "Jiechao Gao"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
   }
 ]
