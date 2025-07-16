@@ -4025,5 +4025,32 @@
       "cs.CR",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.21308v2",
+    "title" : "Balancing Privacy and Utility in Correlated Data: A Study of Bayesian\n  Differential Privacy",
+    "summary" : "Privacy risks in differentially private (DP) systems increase significantly\nwhen data is correlated, as standard DP metrics often underestimate the\nresulting privacy leakage, leaving sensitive information vulnerable. Given the\nubiquity of dependencies in real-world databases, this oversight poses a\ncritical challenge for privacy protections. Bayesian differential privacy (BDP)\nextends DP to account for these correlations, yet current BDP mechanisms\nindicate notable utility loss, limiting its adoption.\n  In this work, we address whether BDP can be realistically implemented in\ncommon data structures without sacrificing utility -- a key factor for its\napplicability. By analyzing arbitrary and structured correlation models,\nincluding Gaussian multivariate distributions and Markov chains, we derive\npractical utility guarantees for BDP. Our contributions include theoretical\nlinks between DP and BDP and a novel methodology for adapting DP mechanisms to\nmeet the BDP requirements. Through evaluations on real-world databases, we\ndemonstrate that our novel theorems enable the design of BDP mechanisms that\nmaintain competitive utility, paving the way for practical privacy-preserving\ndata practices in correlated settings.",
+    "updated" : "2025-07-15T13:10:10Z",
+    "published" : "2025-06-26T14:25:44Z",
+    "authors" : [
+      {
+        "name" : "Martin Lange"
+      },
+      {
+        "name" : "Patricia Guerra-Balboa"
+      },
+      {
+        "name" : "Javier Parra-Arnau"
+      },
+      {
+        "name" : "Thorsten Strufe"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.IT",
+      "math.IT",
+      "68P27"
+    ]
   }
 ]
