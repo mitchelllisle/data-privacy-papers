@@ -1301,5 +1301,239 @@
       "cs.LG",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.11324v1",
+    "title" : "A Review of Privacy Metrics for Privacy-Preserving Synthetic Data\n  Generation",
+    "summary" : "Privacy Preserving Synthetic Data Generation (PP-SDG) has emerged to produce\nsynthetic datasets from personal data while maintaining privacy and utility.\nDifferential privacy (DP) is the property of a PP-SDG mechanism that\nestablishes how protected individuals are when sharing their sensitive data. It\nis however difficult to interpret the privacy loss ($\\varepsilon$) expressed by\nDP. To make the actual risk associated with the privacy loss more transparent,\nmultiple privacy metrics (PMs) have been proposed to assess the privacy risk of\nthe data. These PMs are utilized in separate studies to assess newly introduced\nPP-SDG mechanisms. Consequently, these PMs embody the same assumptions as the\nPP-SDG mechanism they were made to assess. Therefore, a thorough definition of\nhow these are calculated is necessary. In this work, we present the assumptions\nand mathematical formulations of 17 distinct privacy metrics.",
+    "updated" : "2025-07-15T13:56:02Z",
+    "published" : "2025-07-15T13:56:02Z",
+    "authors" : [
+      {
+        "name" : "Frederik Marinus Trudslev"
+      },
+      {
+        "name" : "Matteo Lissandrini"
+      },
+      {
+        "name" : "Juan Manuel Rodriguez"
+      },
+      {
+        "name" : "Martin Bøgsted"
+      },
+      {
+        "name" : "Daniele Dell'Aglio"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DB"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.11187v1",
+    "title" : "Striking the Perfect Balance: Preserving Privacy While Boosting Utility\n  in Collaborative Medical Prediction Platforms",
+    "summary" : "Online collaborative medical prediction platforms offer convenience and\nreal-time feedback by leveraging massive electronic health records. However,\ngrowing concerns about privacy and low prediction quality can deter patient\nparticipation and doctor cooperation. In this paper, we first clarify the\nprivacy attacks, namely attribute attacks targeting patients and model\nextraction attacks targeting doctors, and specify the corresponding privacy\nprinciples. We then propose a privacy-preserving mechanism and integrate it\ninto a novel one-shot distributed learning framework, aiming to simultaneously\nmeet both privacy requirements and prediction performance objectives. Within\nthe framework of statistical learning theory, we theoretically demonstrate that\nthe proposed distributed learning framework can achieve the optimal prediction\nperformance under specific privacy requirements. We further validate the\ndeveloped privacy-preserving collaborative medical prediction platform through\nboth toy simulations and real-world data experiments.",
+    "updated" : "2025-07-15T10:41:55Z",
+    "published" : "2025-07-15T10:41:55Z",
+    "authors" : [
+      {
+        "name" : "Shao-Bo Lin"
+      },
+      {
+        "name" : "Xiaotong Liu"
+      },
+      {
+        "name" : "Yao Wang"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.10946v1",
+    "title" : "Solving Linear Programs with Differential Privacy",
+    "summary" : "We study the problem of solving linear programs of the form $Ax\\le b$,\n$x\\ge0$ with differential privacy. For homogeneous LPs $Ax\\ge0$, we give an\nefficient $(\\epsilon,\\delta)$-differentially private algorithm which with\nprobability at least $1-\\beta$ finds in polynomial time a solution that\nsatisfies all but\n$O(\\frac{d^{2}}{\\epsilon}\\log^{2}\\frac{d}{\\delta\\beta}\\sqrt{\\log\\frac{1}{\\rho_{0}}})$\nconstraints, for problems with margin $\\rho_{0}>0$. This improves the bound of\n$O(\\frac{d^{5}}{\\epsilon}\\log^{1.5}\\frac{1}{\\rho_{0}}\\mathrm{poly}\\log(d,\\frac{1}{\\delta},\\frac{1}{\\beta}))$\nby [Kaplan-Mansour-Moran-Stemmer-Tur, STOC '25]. For general LPs $Ax\\le b$,\n$x\\ge0$ with potentially zero margin, we give an efficient\n$(\\epsilon,\\delta)$-differentially private algorithm that w.h.p drops\n$O(\\frac{d^{4}}{\\epsilon}\\log^{2.5}\\frac{d}{\\delta}\\sqrt{\\log dU})$\nconstraints, where $U$ is an upper bound for the entries of $A$ and $b$ in\nabsolute value. This improves the result by Kaplan et al. by at least a factor\nof $d^{5}$. Our techniques build upon privatizing a rescaling perceptron\nalgorithm by [Hoberg-Rothvoss, IPCO '17] and a more refined iterative procedure\nfor identifying equality constraints by Kaplan et al.",
+    "updated" : "2025-07-15T03:22:47Z",
+    "published" : "2025-07-15T03:22:47Z",
+    "authors" : [
+      {
+        "name" : "Alina Ene"
+      },
+      {
+        "name" : "Huy Le Nguyen"
+      },
+      {
+        "name" : "Ta Duy Nguyen"
+      },
+      {
+        "name" : "Adrian Vladu"
+      }
+    ],
+    "categories" : [
+      "cs.DS"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.10786v1",
+    "title" : "\"Is it always watching? Is it always listening?\" Exploring Contextual\n  Privacy and Security Concerns Toward Domestic Social Robots",
+    "summary" : "Equipped with artificial intelligence (AI) and advanced sensing capabilities,\nsocial robots are gaining interest among consumers in the United States. These\nrobots seem like a natural evolution of traditional smart home devices.\nHowever, their extensive data collection capabilities, anthropomorphic\nfeatures, and capacity to interact with their environment make social robots a\nmore significant security and privacy threat. Increased risks include data\nlinkage, unauthorized data sharing, and the physical safety of users and their\nhomes. It is critical to investigate U.S. users' security and privacy needs and\nconcerns to guide the design of social robots while these devices are still in\nthe early stages of commercialization in the U.S. market. Through 19\nsemi-structured interviews, we identified significant security and privacy\nconcerns, highlighting the need for transparency, usability, and robust privacy\ncontrols to support adoption. For educational applications, participants\nworried most about misinformation, and in medical use cases, they worried about\nthe reliability of these devices. Participants were also concerned with the\ndata inference that social robots could enable. We found that participants\nexpect tangible privacy controls, indicators of data collection, and\ncontext-appropriate functionality.",
+    "updated" : "2025-07-14T20:27:40Z",
+    "published" : "2025-07-14T20:27:40Z",
+    "authors" : [
+      {
+        "name" : "Henry Bell"
+      },
+      {
+        "name" : "Jabari Kwesi"
+      },
+      {
+        "name" : "Hiba Laabadli"
+      },
+      {
+        "name" : "Pardis Emami-Naeini"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.AI",
+      "cs.CR",
+      "cs.ET",
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.10695v1",
+    "title" : "Exploring User Security and Privacy Attitudes and Concerns Toward the\n  Use of General-Purpose LLM Chatbots for Mental Health",
+    "summary" : "Individuals are increasingly relying on large language model (LLM)-enabled\nconversational agents for emotional support. While prior research has examined\nprivacy and security issues in chatbots specifically designed for mental health\npurposes, these chatbots are overwhelmingly \"rule-based\" offerings that do not\nleverage generative AI. Little empirical research currently measures users'\nprivacy and security concerns, attitudes, and expectations when using\ngeneral-purpose LLM-enabled chatbots to manage and improve mental health.\nThrough 21 semi-structured interviews with U.S. participants, we identified\ncritical misconceptions and a general lack of risk awareness. Participants\nconflated the human-like empathy exhibited by LLMs with human-like\naccountability and mistakenly believed that their interactions with these\nchatbots were safeguarded by the same regulations (e.g., HIPAA) as disclosures\nwith a licensed therapist. We introduce the concept of \"intangible\nvulnerability,\" where emotional or psychological disclosures are undervalued\ncompared to more tangible forms of information (e.g., financial or\nlocation-based data). To address this, we propose recommendations to safeguard\nuser mental health disclosures with general-purpose LLM-enabled chatbots more\neffectively.",
+    "updated" : "2025-07-14T18:10:21Z",
+    "published" : "2025-07-14T18:10:21Z",
+    "authors" : [
+      {
+        "name" : "Jabari Kwesi"
+      },
+      {
+        "name" : "Jiaxun Cao"
+      },
+      {
+        "name" : "Riya Manchanda"
+      },
+      {
+        "name" : "Pardis Emami-Naeini"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.AI",
+      "cs.CR",
+      "cs.ET",
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.10640v1",
+    "title" : "SENSOR: An ML-Enhanced Online Annotation Tool to Uncover Privacy\n  Concerns from User Reviews in Social-Media Applications",
+    "summary" : "The widespread use of social media applications has raised significant\nprivacy concerns, often highlighted in user reviews. These reviews also provide\ndevelopers with valuable insights into improving apps by addressing issues and\nintroducing better features. However, the sheer volume and nuanced nature of\nreviews make manual identification and prioritization of privacy-related\nconcerns challenging for developers. Previous studies have developed software\nutilities to automatically classify user reviews as privacy-relevant,\nprivacy-irrelevant, bug reports, feature requests, etc., using machine\nlearning. Notably, there is a lack of focus on classifying reviews specifically\nas privacy-related feature requests, privacy-related bug reports, or\nprivacy-irrelevant. This paper introduces SENtinel SORt (SENSOR), an automated\nonline annotation tool designed to help developers annotate and classify user\nreviews into these categories. For automating the annotation of such reviews,\nthis paper introduces the annotation model, GRACE (GRU-based Attention with\nCBOW Embedding), using Gated Recurrent Units (GRU) with Continuous Bag of Words\n(CBOW) and Attention mechanism. Approximately 16000 user reviews from seven\npopular social media apps on Google Play Store, including Instagram, Facebook,\nWhatsApp, Snapchat, X (formerly Twitter), Facebook Lite, and Line were\nanalyzed. Two annotators manually labelled the reviews, achieving a Cohen's\nKappa value of 0.87, ensuring a labeled dataset with high inter-rater agreement\nfor training machine learning models. Among the models tested, GRACE\ndemonstrated the best performance (macro F1-score: 0.9434, macro ROC-AUC:\n0.9934, and accuracy: 95.10%) despite class imbalance. SENSOR demonstrates\nsignificant potential to assist developers with extracting and addressing\nprivacy-related feature requests or bug reports from user reviews, enhancing\nuser privacy and trust.",
+    "updated" : "2025-07-14T14:58:04Z",
+    "published" : "2025-07-14T14:58:04Z",
+    "authors" : [
+      {
+        "name" : "Labiba Farah"
+      },
+      {
+        "name" : "Mohammad Ridwan Kabir"
+      },
+      {
+        "name" : "Shohel Ahmed"
+      },
+      {
+        "name" : "MD Mohaymen Ul Anam"
+      },
+      {
+        "name" : "Md. Sakibul Islam"
+      }
+    ],
+    "categories" : [
+      "cs.SE",
+      "cs.LG",
+      "cs.SI",
+      "D.2.2"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.10627v1",
+    "title" : "Crypto-Assisted Graph Degree Sequence Release under Local Differential\n  Privacy",
+    "summary" : "Given a graph $G$ defined in a domain $\\mathcal{G}$, we investigate locally\ndifferentially private mechanisms to release a degree sequence on $\\mathcal{G}$\nthat accurately approximates the actual degree distribution. Existing solutions\nfor this problem mostly use graph projection techniques based on edge deletion\nprocess, using a threshold parameter $\\theta$ to bound node degrees. However,\nthis approach presents a fundamental trade-off in threshold parameter\nselection. While large $\\theta$ values introduce substantial noise in the\nreleased degree sequence, small $\\theta$ values result in more edges removed\nthan necessary. Furthermore, $\\theta$ selection leads to an excessive\ncommunication cost. To remedy existing solutions' deficiencies, we present\nCADR-LDP, an efficient framework incorporating encryption techniques and\ndifferentially private mechanisms to release the degree sequence. In CADR-LDP,\nwe first use the crypto-assisted Optimal-$\\theta$-Selection method to select\nthe optimal parameter with a low communication cost. Then, we use the LPEA-LOW\nmethod to add some edges for each node with the edge addition process in local\nprojection. LPEA-LOW prioritizes the projection with low-degree nodes, which\ncan retain more edges for such nodes and reduce the projection error.\nTheoretical analysis shows that CADR-LDP satisfies $\\epsilon$-node local\ndifferential privacy. The experimental results on eight graph datasets show\nthat our solution outperforms existing methods.",
+    "updated" : "2025-07-14T07:04:08Z",
+    "published" : "2025-07-14T07:04:08Z",
+    "authors" : [
+      {
+        "name" : "Xiaojian Zhang"
+      },
+      {
+        "name" : "Junqing Wang"
+      },
+      {
+        "name" : "Kerui Chen"
+      },
+      {
+        "name" : "Peiyuan Zhao"
+      },
+      {
+        "name" : "Huiyuan Bai"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DB"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.10582v1",
+    "title" : "Transforming Sensitive Documents into Quantitative Data: An AI-Based\n  Preprocessing Toolchain for Structured and Privacy-Conscious Analysis",
+    "summary" : "Unstructured text from legal, medical, and administrative sources offers a\nrich but underutilized resource for research in public health and the social\nsciences. However, large-scale analysis is hampered by two key challenges: the\npresence of sensitive, personally identifiable information, and significant\nheterogeneity in structure and language. We present a modular toolchain that\nprepares such text data for embedding-based analysis, relying entirely on\nopen-weight models that run on local hardware, requiring only a\nworkstation-level GPU and supporting privacy-sensitive research.\n  The toolchain employs large language model (LLM) prompting to standardize,\nsummarize, and, when needed, translate texts to English for greater\ncomparability. Anonymization is achieved via LLM-based redaction, supplemented\nwith named entity recognition and rule-based methods to minimize the risk of\ndisclosure. We demonstrate the toolchain on a corpus of 10,842 Swedish court\ndecisions under the Care of Abusers Act (LVM), comprising over 56,000 pages.\nEach document is processed into an anonymized, standardized summary and\ntransformed into a document-level embedding. Validation, including manual\nreview, automated scanning, and predictive evaluation shows the toolchain\neffectively removes identifying information while retaining semantic content.\nAs an illustrative application, we train a predictive model using embedding\nvectors derived from a small set of manually labeled summaries, demonstrating\nthe toolchain's capacity for semi-automated content analysis at scale.\n  By enabling structured, privacy-conscious analysis of sensitive documents,\nour toolchain opens new possibilities for large-scale research in domains where\ntextual data was previously inaccessible due to privacy and heterogeneity\nconstraints.",
+    "updated" : "2025-07-11T11:58:36Z",
+    "published" : "2025-07-11T11:58:36Z",
+    "authors" : [
+      {
+        "name" : "Anders Ledberg"
+      },
+      {
+        "name" : "Anna Thalén"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "stat.ME"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.07565v2",
+    "title" : "Secure Cooperative Gradient Coding: Optimality, Reliability, and Global\n  Privacy",
+    "summary" : "This paper studies privacy-sensitive federated learning (FL) under unreliable\ncommunication, with a focus on secure aggregation and straggler mitigation. To\npreserve user privacy without compromising the utility of the global model,\nsecure aggregation emerges as a promising approach by coordinating the use of\nprivacy-preserving noise (secret keys) across participating clients. However,\nthe unreliable communication will randomly disrupt the key coordination and\ndisable the exact recovery of the global model in secure aggregation.\nFurthermore, unreliable communication can distort the optimization trajectory,\ncausing the global model to deviate further from the intended global optimum.To\naddress these challenges, we propose Secure Cooperative Gradient Coding\n(SecCoGC), a practical solution that achieves accurate aggregation with\narbitrarily strong privacy guarantees and is inherently robust to communication\nuncertainties. To ensure fairness in privacy protection, we further introduce\nFair-SecCoGC, an extension of SecCoGC that enforces equitable privacy\npreservation across all clients. Notably, Fair-SecCoGC achieves optimal privacy\nunder a per-key total power constraint. We formally formulate the problem of\nsecure aggregation in the real field and present both general and\ncomputationally efficient methods for secret key construction. Our privacy\nanalysis covers both Local Mutual Information Privacy (LMIP) and Local\nDifferential Privacy (LDP) across all protocol layers, accounting for\nintermittent networks and correlation among secret keys. In addition, we\ncharacterize the system reliability and convergence properties of the proposed\nscheme. Experimental results demonstrate that SecCoGC achieves strong\nresilience to unreliable communication while maintaining arbitrarily strong\nprivacy guarantees, yielding test accuracy improvements of 20% to 70% over\nexisting privacy-preserving methods.",
+    "updated" : "2025-07-15T16:32:21Z",
+    "published" : "2025-07-10T09:10:03Z",
+    "authors" : [
+      {
+        "name" : "Shudi Weng"
+      },
+      {
+        "name" : "Chao Ren"
+      },
+      {
+        "name" : "Yizhou Zhao"
+      },
+      {
+        "name" : "Ming Xiao"
+      },
+      {
+        "name" : "Mikael Skoglund"
+      }
+    ],
+    "categories" : [
+      "cs.IT",
+      "math.IT"
+    ]
   }
 ]
