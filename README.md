@@ -2,6 +2,144 @@
 <h2>2025-07</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.11324v1">A Review of Privacy Metrics for Privacy-Preserving Synthetic Data
+  Generation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
+  <p><b>Published on:</b> 2025-07-15T13:56:02Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Frederik Marinus Trudslev, Matteo Lissandrini, Juan Manuel Rodriguez, Martin Bøgsted, Daniele Dell'Aglio</p>
+    <p><b>Summary:</b> Privacy Preserving Synthetic Data Generation (PP-SDG) has emerged to produce
+synthetic datasets from personal data while maintaining privacy and utility.
+Differential privacy (DP) is the property of a PP-SDG mechanism that
+establishes how protected individuals are when sharing their sensitive data. It
+is however difficult to interpret the privacy loss ($\varepsilon$) expressed by
+DP. To make the actual risk associated with the privacy loss more transparent,
+multiple privacy metrics (PMs) have been proposed to assess the privacy risk of
+the data. These PMs are utilized in separate studies to assess newly introduced
+PP-SDG mechanisms. Consequently, these PMs embody the same assumptions as the
+PP-SDG mechanism they were made to assess. Therefore, a thorough definition of
+how these are calculated is necessary. In this work, we present the assumptions
+and mathematical formulations of 17 distinct privacy metrics.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.11187v1">Striking the Perfect Balance: Preserving Privacy While Boosting Utility
+  in Collaborative Medical Prediction Platforms</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-07-15T10:41:55Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shao-Bo Lin, Xiaotong Liu, Yao Wang</p>
+    <p><b>Summary:</b> Online collaborative medical prediction platforms offer convenience and
+real-time feedback by leveraging massive electronic health records. However,
+growing concerns about privacy and low prediction quality can deter patient
+participation and doctor cooperation. In this paper, we first clarify the
+privacy attacks, namely attribute attacks targeting patients and model
+extraction attacks targeting doctors, and specify the corresponding privacy
+principles. We then propose a privacy-preserving mechanism and integrate it
+into a novel one-shot distributed learning framework, aiming to simultaneously
+meet both privacy requirements and prediction performance objectives. Within
+the framework of statistical learning theory, we theoretically demonstrate that
+the proposed distributed learning framework can achieve the optimal prediction
+performance under specific privacy requirements. We further validate the
+developed privacy-preserving collaborative medical prediction platform through
+both toy simulations and real-world data experiments.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.10946v1">Solving Linear Programs with Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B">
+  <p><b>Published on:</b> 2025-07-15T03:22:47Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Alina Ene, Huy Le Nguyen, Ta Duy Nguyen, Adrian Vladu</p>
+    <p><b>Summary:</b> We study the problem of solving linear programs of the form $Ax\le b$,
+$x\ge0$ with differential privacy. For homogeneous LPs $Ax\ge0$, we give an
+efficient $(\epsilon,\delta)$-differentially private algorithm which with
+probability at least $1-\beta$ finds in polynomial time a solution that
+satisfies all but
+$O(\frac{d^{2}}{\epsilon}\log^{2}\frac{d}{\delta\beta}\sqrt{\log\frac{1}{\rho_{0}}})$
+constraints, for problems with margin $\rho_{0}>0$. This improves the bound of
+$O(\frac{d^{5}}{\epsilon}\log^{1.5}\frac{1}{\rho_{0}}\mathrm{poly}\log(d,\frac{1}{\delta},\frac{1}{\beta}))$
+by [Kaplan-Mansour-Moran-Stemmer-Tur, STOC '25]. For general LPs $Ax\le b$,
+$x\ge0$ with potentially zero margin, we give an efficient
+$(\epsilon,\delta)$-differentially private algorithm that w.h.p drops
+$O(\frac{d^{4}}{\epsilon}\log^{2.5}\frac{d}{\delta}\sqrt{\log dU})$
+constraints, where $U$ is an upper bound for the entries of $A$ and $b$ in
+absolute value. This improves the result by Kaplan et al. by at least a factor
+of $d^{5}$. Our techniques build upon privatizing a rescaling perceptron
+algorithm by [Hoberg-Rothvoss, IPCO '17] and a more refined iterative procedure
+for identifying equality constraints by Kaplan et al.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.10786v1">"Is it always watching? Is it always listening?" Exploring Contextual
+  Privacy and Security Concerns Toward Domestic Social Robots</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2025-07-14T20:27:40Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Henry Bell, Jabari Kwesi, Hiba Laabadli, Pardis Emami-Naeini</p>
+    <p><b>Summary:</b> Equipped with artificial intelligence (AI) and advanced sensing capabilities,
+social robots are gaining interest among consumers in the United States. These
+robots seem like a natural evolution of traditional smart home devices.
+However, their extensive data collection capabilities, anthropomorphic
+features, and capacity to interact with their environment make social robots a
+more significant security and privacy threat. Increased risks include data
+linkage, unauthorized data sharing, and the physical safety of users and their
+homes. It is critical to investigate U.S. users' security and privacy needs and
+concerns to guide the design of social robots while these devices are still in
+the early stages of commercialization in the U.S. market. Through 19
+semi-structured interviews, we identified significant security and privacy
+concerns, highlighting the need for transparency, usability, and robust privacy
+controls to support adoption. For educational applications, participants
+worried most about misinformation, and in medical use cases, they worried about
+the reliability of these devices. Participants were also concerned with the
+data inference that social robots could enable. We found that participants
+expect tangible privacy controls, indicators of data collection, and
+context-appropriate functionality.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.10695v1">Exploring User Security and Privacy Attitudes and Concerns Toward the
+  Use of General-Purpose LLM Chatbots for Mental Health</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2025-07-14T18:10:21Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jabari Kwesi, Jiaxun Cao, Riya Manchanda, Pardis Emami-Naeini</p>
+    <p><b>Summary:</b> Individuals are increasingly relying on large language model (LLM)-enabled
+conversational agents for emotional support. While prior research has examined
+privacy and security issues in chatbots specifically designed for mental health
+purposes, these chatbots are overwhelmingly "rule-based" offerings that do not
+leverage generative AI. Little empirical research currently measures users'
+privacy and security concerns, attitudes, and expectations when using
+general-purpose LLM-enabled chatbots to manage and improve mental health.
+Through 21 semi-structured interviews with U.S. participants, we identified
+critical misconceptions and a general lack of risk awareness. Participants
+conflated the human-like empathy exhibited by LLMs with human-like
+accountability and mistakenly believed that their interactions with these
+chatbots were safeguarded by the same regulations (e.g., HIPAA) as disclosures
+with a licensed therapist. We introduce the concept of "intangible
+vulnerability," where emotional or psychological disclosures are undervalued
+compared to more tangible forms of information (e.g., financial or
+location-based data). To address this, we propose recommendations to safeguard
+user mental health disclosures with general-purpose LLM-enabled chatbots more
+effectively.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2507.10489v1">SynthGuard: Redefining Synthetic Data Generation with a Scalable and
   Privacy-Preserving Workflow Framework</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
@@ -60,6 +198,76 @@ accuracy of the navigation system (95% success rate), our proposed framework
 creates a highly reliable performance for fall detection, with an overall
 accuracy of 99.99%. Not only is the proposed framework safe for older adults,
 but it is also a privacy-preserving solution for detecting falls.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.10640v1">SENSOR: An ML-Enhanced Online Annotation Tool to Uncover Privacy
+  Concerns from User Reviews in Social-Media Applications</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Social and Information Networks-662E9B"> 
+  <p><b>Published on:</b> 2025-07-14T14:58:04Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Labiba Farah, Mohammad Ridwan Kabir, Shohel Ahmed, MD Mohaymen Ul Anam, Md. Sakibul Islam</p>
+    <p><b>Summary:</b> The widespread use of social media applications has raised significant
+privacy concerns, often highlighted in user reviews. These reviews also provide
+developers with valuable insights into improving apps by addressing issues and
+introducing better features. However, the sheer volume and nuanced nature of
+reviews make manual identification and prioritization of privacy-related
+concerns challenging for developers. Previous studies have developed software
+utilities to automatically classify user reviews as privacy-relevant,
+privacy-irrelevant, bug reports, feature requests, etc., using machine
+learning. Notably, there is a lack of focus on classifying reviews specifically
+as privacy-related feature requests, privacy-related bug reports, or
+privacy-irrelevant. This paper introduces SENtinel SORt (SENSOR), an automated
+online annotation tool designed to help developers annotate and classify user
+reviews into these categories. For automating the annotation of such reviews,
+this paper introduces the annotation model, GRACE (GRU-based Attention with
+CBOW Embedding), using Gated Recurrent Units (GRU) with Continuous Bag of Words
+(CBOW) and Attention mechanism. Approximately 16000 user reviews from seven
+popular social media apps on Google Play Store, including Instagram, Facebook,
+WhatsApp, Snapchat, X (formerly Twitter), Facebook Lite, and Line were
+analyzed. Two annotators manually labelled the reviews, achieving a Cohen's
+Kappa value of 0.87, ensuring a labeled dataset with high inter-rater agreement
+for training machine learning models. Among the models tested, GRACE
+demonstrated the best performance (macro F1-score: 0.9434, macro ROC-AUC:
+0.9934, and accuracy: 95.10%) despite class imbalance. SENSOR demonstrates
+significant potential to assist developers with extracting and addressing
+privacy-related feature requests or bug reports from user reviews, enhancing
+user privacy and trust.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.10627v1">Crypto-Assisted Graph Degree Sequence Release under Local Differential
+  Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
+  <p><b>Published on:</b> 2025-07-14T07:04:08Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xiaojian Zhang, Junqing Wang, Kerui Chen, Peiyuan Zhao, Huiyuan Bai</p>
+    <p><b>Summary:</b> Given a graph $G$ defined in a domain $\mathcal{G}$, we investigate locally
+differentially private mechanisms to release a degree sequence on $\mathcal{G}$
+that accurately approximates the actual degree distribution. Existing solutions
+for this problem mostly use graph projection techniques based on edge deletion
+process, using a threshold parameter $\theta$ to bound node degrees. However,
+this approach presents a fundamental trade-off in threshold parameter
+selection. While large $\theta$ values introduce substantial noise in the
+released degree sequence, small $\theta$ values result in more edges removed
+than necessary. Furthermore, $\theta$ selection leads to an excessive
+communication cost. To remedy existing solutions' deficiencies, we present
+CADR-LDP, an efficient framework incorporating encryption techniques and
+differentially private mechanisms to release the degree sequence. In CADR-LDP,
+we first use the crypto-assisted Optimal-$\theta$-Selection method to select
+the optimal parameter with a low communication cost. Then, we use the LPEA-LOW
+method to add some edges for each node with the edge addition process in local
+projection. LPEA-LOW prioritizes the projection with low-degree nodes, which
+can retain more edges for such nodes and reduce the projection error.
+Theoretical analysis shows that CADR-LDP satisfies $\epsilon$-node local
+differential privacy. The experimental results on eight graph datasets show
+that our solution outperforms existing methods.</p>
   </details>
 </div>
 
@@ -233,6 +441,43 @@ emphasis on threat modeling and security mindset.</p>
 
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.10582v1">Transforming Sensitive Documents into Quantitative Data: An AI-Based
+  Preprocessing Toolchain for Structured and Privacy-Conscious Analysis</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> 
+  <p><b>Published on:</b> 2025-07-11T11:58:36Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Anders Ledberg, Anna Thalén</p>
+    <p><b>Summary:</b> Unstructured text from legal, medical, and administrative sources offers a
+rich but underutilized resource for research in public health and the social
+sciences. However, large-scale analysis is hampered by two key challenges: the
+presence of sensitive, personally identifiable information, and significant
+heterogeneity in structure and language. We present a modular toolchain that
+prepares such text data for embedding-based analysis, relying entirely on
+open-weight models that run on local hardware, requiring only a
+workstation-level GPU and supporting privacy-sensitive research.
+  The toolchain employs large language model (LLM) prompting to standardize,
+summarize, and, when needed, translate texts to English for greater
+comparability. Anonymization is achieved via LLM-based redaction, supplemented
+with named entity recognition and rule-based methods to minimize the risk of
+disclosure. We demonstrate the toolchain on a corpus of 10,842 Swedish court
+decisions under the Care of Abusers Act (LVM), comprising over 56,000 pages.
+Each document is processed into an anonymized, standardized summary and
+transformed into a document-level embedding. Validation, including manual
+review, automated scanning, and predictive evaluation shows the toolchain
+effectively removes identifying information while retaining semantic content.
+As an illustrative application, we train a predictive model using embedding
+vectors derived from a small set of manually labeled summaries, demonstrating
+the toolchain's capacity for semi-automated content analysis at scale.
+  By enabling structured, privacy-conscious analysis of sensitive documents,
+our toolchain opens new possibilities for large-scale research in domains where
+textual data was previously inaccessible due to privacy and heterogeneity
+constraints.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2507.08412v1">Enforcing Speech Content Privacy in Environmental Sound Recordings using
   Segment-wise Waveform Reversal</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Sound-D91E36"> 
@@ -366,37 +611,39 @@ an impediment in building well-performing deep-learning-based models.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.07565v1">Secure Cooperative Gradient Coding: Optimality, Reliability, and Global
+  <h3><a href="http://arxiv.org/abs/2507.07565v2">Secure Cooperative Gradient Coding: Optimality, Reliability, and Global
   Privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
   <p><b>Published on:</b> 2025-07-10T09:10:03Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Shudi Weng</p>
-    <p><b>Summary:</b> This paper studies privacy-sensitive federated learning (FL) with unreliable
-communication, focusing on secure aggregation and straggler mitigation. While
-secure aggregation cryptographically reconstructs the global model without
-exposing client updates, random link failures disrupt its key coordination,
-degrading model accuracy. Moreover, unreliable communication can lead to
-objective inconsistency, causing the global model to converge to arbitrary,
-sub-optimal points far from the intended optimum. This paper proposes Secure
-Cooperative Gradient Coding (SecCoGC), a practical solution that achieves
-secure aggregation with arbitrarily strong privacy guarantees and robust
-straggler mitigation under unreliable communication. SecCoGC operates natively
-in the real field, making it directly applicable to practical deployments. To
-ensure equitable privacy protection across clients, we further introduce
-Fair-SecCoGC, an extension that enforces fairness in the level of privacy
-offered to all users. To conclude, this paper formally formulates the problem
-of secure aggregation in the real field and presents both general and
-computationally efficient key construction methods. Moreover, it provides a
-comprehensive privacy analysis under Local Mutual Information Privacy (LMIP)
-and Local Differential Privacy (LDP) across all protocol layers. Robustness and
-convergence properties are also rigorously analyzed. Finally, extensive
-simulations are performed across diverse network conditions and benchmark
-datasets to validate the effectiveness of the proposed methods. The results
-show that SecCoGC achieves strong robustness to unreliable communication under
-arbitrarily strong privacy guarantees. It outperforms existing
-privacy-preserving methods with performance gains of up to 20\%-70\%.</p>
+    <p><b>Authors:</b> Shudi Weng, Chao Ren, Yizhou Zhao, Ming Xiao, Mikael Skoglund</p>
+    <p><b>Summary:</b> This paper studies privacy-sensitive federated learning (FL) under unreliable
+communication, with a focus on secure aggregation and straggler mitigation. To
+preserve user privacy without compromising the utility of the global model,
+secure aggregation emerges as a promising approach by coordinating the use of
+privacy-preserving noise (secret keys) across participating clients. However,
+the unreliable communication will randomly disrupt the key coordination and
+disable the exact recovery of the global model in secure aggregation.
+Furthermore, unreliable communication can distort the optimization trajectory,
+causing the global model to deviate further from the intended global optimum.To
+address these challenges, we propose Secure Cooperative Gradient Coding
+(SecCoGC), a practical solution that achieves accurate aggregation with
+arbitrarily strong privacy guarantees and is inherently robust to communication
+uncertainties. To ensure fairness in privacy protection, we further introduce
+Fair-SecCoGC, an extension of SecCoGC that enforces equitable privacy
+preservation across all clients. Notably, Fair-SecCoGC achieves optimal privacy
+under a per-key total power constraint. We formally formulate the problem of
+secure aggregation in the real field and present both general and
+computationally efficient methods for secret key construction. Our privacy
+analysis covers both Local Mutual Information Privacy (LMIP) and Local
+Differential Privacy (LDP) across all protocol layers, accounting for
+intermittent networks and correlation among secret keys. In addition, we
+characterize the system reliability and convergence properties of the proposed
+scheme. Experimental results demonstrate that SecCoGC achieves strong
+resilience to unreliable communication while maintaining arbitrarily strong
+privacy guarantees, yielding test accuracy improvements of 20% to 70% over
+existing privacy-preserving methods.</p>
   </details>
 </div>
 
@@ -1999,7 +2246,7 @@ ubiquitous computing systems.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.21308v1">Balancing Privacy and Utility in Correlated Data: A Study of Bayesian
+  <h3><a href="http://arxiv.org/abs/2506.21308v2">Balancing Privacy and Utility in Correlated Data: A Study of Bayesian
   Differential Privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36">  
   <p><b>Published on:</b> 2025-06-26T14:25:44Z</p>
@@ -2761,248 +3008,6 @@ our hybrid framework, combining GPT-4o with a local Llama-3.2-1B model,
 outperforms using GPT-4o alone by up to 7.1 percentage points. This
 demonstrates a first step toward systems where tasks are decomposed and split
 between untrusted strong LLMs and weak local ones, preserving user privacy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.17332v1">P2MFDS: A Privacy-Preserving Multimodal Fall Detection System for
-  Elderly People in Bathroom Environments</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-06-19T05:22:14Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Haitian Wang, Yiren Wang, Xinyu Wang, Yumeng Miao, Yuliang Zhang, Yu Zhang, Atif Mansoor</p>
-    <p><b>Summary:</b> By 2050, people aged 65 and over are projected to make up 16 percent of the
-global population. As aging is closely associated with increased fall risk,
-particularly in wet and confined environments such as bathrooms where over 80
-percent of falls occur. Although recent research has increasingly focused on
-non-intrusive, privacy-preserving approaches that do not rely on wearable
-devices or video-based monitoring, these efforts have not fully overcome the
-limitations of existing unimodal systems (e.g., WiFi-, infrared-, or
-mmWave-based), which are prone to reduced accuracy in complex environments.
-These limitations stem from fundamental constraints in unimodal sensing,
-including system bias and environmental interference, such as multipath fading
-in WiFi-based systems and drastic temperature changes in infrared-based
-methods. To address these challenges, we propose a Privacy-Preserving
-Multimodal Fall Detection System for Elderly People in Bathroom Environments.
-First, we develop a sensor evaluation framework to select and fuse
-millimeter-wave radar with 3D vibration sensing, and use it to construct and
-preprocess a large-scale, privacy-preserving multimodal dataset in real
-bathroom settings, which will be released upon publication. Second, we
-introduce P2MFDS, a dual-stream network combining a CNN-BiLSTM-Attention branch
-for radar motion dynamics with a multi-scale CNN-SEBlock-Self-Attention branch
-for vibration impact detection. By uniting macro- and micro-scale features,
-P2MFDS delivers significant gains in accuracy and recall over state-of-the-art
-approaches. Code and pretrained models will be made available at:
-https://github.com/HaitianWang/P2MFDS-A-Privacy-Preserving-Multimodal-Fall-Detection-Network-for-Elderly-Individuals-in-Bathroom.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.15924v1">FARFETCH'D: A Side-Channel Analysis Framework for Privacy Applications
-  on Confidential Virtual Machines</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-06-18T23:58:29Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ruiyi Zhang, Albert Cheu, Adria Gascon, Daniel Moghimi, Phillipp Schoppmann, Michael Schwarz, Octavian Suciu</p>
-    <p><b>Summary:</b> Confidential virtual machines (CVMs) based on trusted execution environments
-(TEEs) enable new privacy-preserving solutions. Yet, they leave side-channel
-leakage outside their threat model, shifting the responsibility of mitigating
-such attacks to developers. However, mitigations are either not generic or too
-slow for practical use, and developers currently lack a systematic, efficient
-way to measure and compare leakage across real-world deployments. In this
-paper, we present FARFETCH'D, an open-source toolkit that offers configurable
-side-channel tracing primitives on production AMD SEV-SNP hardware and couples
-them with statistical and machine-learning-based analysis pipelines for
-automated leakage estimation. We apply FARFETCH'D to three representative
-workloads that are deployed on CVMs to enhance user privacy - private
-information retrieval, private heavy hitters, and Wasm user-defined functions -
-and uncover previously unnoticed leaks, including a covert channel that
-exfiltrated data at 497 kbit/s. The results show that FARFETCH'D pinpoints
-vulnerabilities and guides low-overhead mitigations based on oblivious memory
-and differential privacy, giving practitioners a practical path to deploy CVMs
-with meaningful confidentiality guarantees.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.15854v2">Privacy-Preserving in Connected and Autonomous Vehicles Through Vision
-  to Text Transformation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-06-18T20:02:24Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Abdolazim Rezaei, Mehdi Sookhak, Ahmad Patooghy</p>
-    <p><b>Summary:</b> Connected and Autonomous Vehicles (CAVs) rely on a range of devices that
-often process privacy-sensitive data. Among these, roadside units play a
-critical role particularly through the use of AI-equipped (AIE) cameras for
-applications such as violation detection. However, the privacy risks associated
-with captured imagery remain a major concern, as such data can be misused for
-identity theft, profiling, or unauthorized commercial purposes. While
-traditional techniques such as face blurring and obfuscation have been applied
-to mitigate privacy risks, individual privacy remains at risk, as individuals
-can still be tracked using other features such as their clothing. This paper
-introduces a novel privacy-preserving framework that leverages feedback-based
-reinforcement learning (RL) and vision-language models (VLMs) to protect
-sensitive visual information captured by AIE cameras. The main idea is to
-convert images into semantically equivalent textual descriptions, ensuring that
-scene-relevant information is retained while visual privacy is preserved. A
-hierarchical RL strategy is employed to iteratively refine the generated text,
-enhancing both semantic accuracy and privacy. Evaluation results demonstrate
-significant improvements in both privacy protection and textual quality, with
-the Unique Word Count increasing by approximately 77\% and Detail Density by
-around 50\% compared to existing approaches.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.15349v1">Enhancing One-run Privacy Auditing with Quantile Regression-Based
-  Membership Inference</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-06-18T11:03:39Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Terrance Liu, Matteo Boglioni, Yiwei Fu, Shengyuan Hu, Pratiksha Thaker, Zhiwei Steven Wu</p>
-    <p><b>Summary:</b> Differential privacy (DP) auditing aims to provide empirical lower bounds on
-the privacy guarantees of DP mechanisms like DP-SGD. While some existing
-techniques require many training runs that are prohibitively costly, recent
-work introduces one-run auditing approaches that effectively audit DP-SGD in
-white-box settings while still being computationally efficient. However, in the
-more practical black-box setting where gradients cannot be manipulated during
-training and only the last model iterate is observed, prior work shows that
-there is still a large gap between the empirical lower bounds and theoretical
-upper bounds. Consequently, in this work, we study how incorporating approaches
-for stronger membership inference attacks (MIA) can improve one-run auditing in
-the black-box setting. Evaluating on image classification models trained on
-CIFAR-10 with DP-SGD, we demonstrate that our proposed approach, which utilizes
-quantile regression for MIA, achieves tighter bounds while crucially
-maintaining the computational efficiency of one-run methods.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.15307v1">SecFwT: Efficient Privacy-Preserving Fine-Tuning of Large Language
-  Models Using Forward-Only Passes</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-06-18T09:36:57Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jinglong Luo, Zhuo Zhang, Yehong Zhang, Shiyu Liu, Ye Dong, Xun Zhou, Hui Wang, Yue Yu, Zenglin Xu</p>
-    <p><b>Summary:</b> Large language models (LLMs) have transformed numerous fields, yet their
-adaptation to specialized tasks in privacy-sensitive domains, such as
-healthcare and finance, is constrained by the scarcity of accessible training
-data due to stringent privacy requirements. Secure multi-party computation
-(MPC)-based privacy-preserving machine learning offers a powerful approach to
-protect both model parameters and user data, but its application to LLMs has
-been largely limited to inference, as fine-tuning introduces significant
-computational challenges, particularly in privacy-preserving backward
-propagation and optimizer operations. This paper identifies two primary
-obstacles to MPC-based privacy-preserving fine-tuning of LLMs: (1) the
-substantial computational overhead of backward and optimizer processes, and (2)
-the inefficiency of softmax-based attention mechanisms in MPC settings. To
-address these challenges, we propose SecFwT, the first MPC-based framework
-designed for efficient, privacy-preserving LLM fine-tuning. SecFwT introduces a
-forward-only tuning paradigm to eliminate backward and optimizer computations
-and employs MPC-friendly Random Feature Attention to approximate softmax
-attention, significantly reducing costly non-linear operations and
-computational complexity. Experimental results demonstrate that SecFwT delivers
-substantial improvements in efficiency and privacy preservation, enabling
-scalable and secure fine-tuning of LLMs for privacy-critical applications.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.15258v2">Privacy-Preserving Chest X-ray Classification in Latent Space with
-  Homomorphically Encrypted Neural Inference</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2025-06-18T08:35:50Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jonghun Kim, Gyeongdeok Jo, Sinyoung Ra, Hyunjin Park</p>
-    <p><b>Summary:</b> Medical imaging data contain sensitive patient information requiring strong
-privacy protection. Many analytical setups require data to be sent to a server
-for inference purposes. Homomorphic encryption (HE) provides a solution by
-allowing computations to be performed on encrypted data without revealing the
-original information. However, HE inference is computationally expensive,
-particularly for large images (e.g., chest X-rays). In this study, we propose
-an HE inference framework for medical images that uses VQGAN to compress images
-into latent representations, thereby significantly reducing the computational
-burden while preserving image quality. We approximate the activation functions
-with lower-degree polynomials to balance the accuracy and efficiency in
-compliance with HE requirements. We observed that a downsampling factor of
-eight for compression achieved an optimal balance between performance and
-computational cost. We further adapted the squeeze and excitation module, which
-is known to improve traditional CNNs, to enhance the HE framework. Our method
-was tested on two chest X-ray datasets for multi-label classification tasks
-using vanilla CNN backbones. Although HE inference remains relatively slow and
-introduces minor performance differences compared with unencrypted inference,
-our approach shows strong potential for practical use in medical images</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.15224v1">Facility Location Problem under Local Differential Privacy without
-  Super-set Assumption</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-06-18T08:08:12Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Kevin Pfisterer, Quentin Hillebrand, Vorapong Suppakitpaisarn</p>
-    <p><b>Summary:</b> In this paper, we introduce an adaptation of the facility location problem
-and analyze it within the framework of local differential privacy (LDP). Under
-this model, we ensure the privacy of client presence at specific locations.
-When n is the number of points, Gupta et al. established a lower bound of
-$\Omega(\sqrt{n})$ on the approximation ratio for any differentially private
-algorithm applied to the original facility location problem. As a result,
-subsequent works have adopted the super-set assumption, which may, however,
-compromise user privacy. We show that this lower bound does not apply to our
-adaptation by presenting an LDP algorithm that achieves a constant
-approximation ratio with a relatively small additive factor. Additionally, we
-provide experimental results demonstrating that our algorithm outperforms the
-straightforward approach on both synthetically generated and real-world
-datasets.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.15201v2">Privacy-Shielded Image Compression: Defending Against Exploitation from
-  Vision-Language Pretrained Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2025-06-18T07:29:40Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Xuelin Shen, Jiayin Xu, Kangsheng Yin, Wenhan Yang</p>
-    <p><b>Summary:</b> The improved semantic understanding of vision-language pretrained (VLP)
-models has made it increasingly difficult to protect publicly posted images
-from being exploited by search engines and other similar tools. In this
-context, this paper seeks to protect users' privacy by implementing defenses at
-the image compression stage to prevent exploitation. Specifically, we propose a
-flexible coding method, termed Privacy-Shielded Image Compression (PSIC), that
-can produce bitstreams with multiple decoding options. By default, the
-bitstream is decoded to preserve satisfactory perceptual quality while
-preventing interpretation by VLP models. Our method also retains the original
-image compression functionality. With a customizable input condition, the
-proposed scheme can reconstruct the image that preserves its full semantic
-information. A Conditional Latent Trigger Generation (CLTG) module is proposed
-to produce bias information based on customizable conditions to guide the
-decoding process into different reconstructed versions, and an
-Uncertainty-Aware Encryption-Oriented (UAEO) optimization function is designed
-to leverage the soft labels inferred from the target VLP model's uncertainty on
-the training data. This paper further incorporates an adaptive multi-objective
-optimization strategy to obtain improved encrypting performance and perceptual
-quality simultaneously within a unified training process. The proposed scheme
-is plug-and-play and can be seamlessly integrated into most existing Learned
-Image Compression (LIC) models. Extensive experiments across multiple
-downstream tasks have demonstrated the effectiveness of our design.</p>
   </details>
 </div>
 
