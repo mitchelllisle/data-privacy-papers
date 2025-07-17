@@ -4052,5 +4052,51 @@
       "math.IT",
       "68P27"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2506.23603v2",
+    "title" : "SoK: Semantic Privacy in Large Language Models",
+    "summary" : "As Large Language Models (LLMs) are increasingly deployed in sensitive\ndomains, traditional data privacy measures prove inadequate for protecting\ninformation that is implicit, contextual, or inferable - what we define as\nsemantic privacy. This Systematization of Knowledge (SoK) introduces a\nlifecycle-centric framework to analyze how semantic privacy risks emerge across\ninput processing, pretraining, fine-tuning, and alignment stages of LLMs. We\ncategorize key attack vectors and assess how current defenses, such as\ndifferential privacy, embedding encryption, edge computing, and unlearning,\naddress these threats. Our analysis reveals critical gaps in semantic-level\nprotection, especially against contextual inference and latent representation\nleakage. We conclude by outlining open challenges, including quantifying\nsemantic leakage, protecting multimodal inputs, balancing de-identification\nwith generation quality, and ensuring transparency in privacy enforcement. This\nwork aims to inform future research on designing robust, semantically aware\nprivacy-preserving techniques for LLMs.",
+    "updated" : "2025-07-16T15:51:30Z",
+    "published" : "2025-06-30T08:08:15Z",
+    "authors" : [
+      {
+        "name" : "Baihe Ma"
+      },
+      {
+        "name" : "Yanna Jiang"
+      },
+      {
+        "name" : "Xu Wang"
+      },
+      {
+        "name" : "Guangsheng Yu"
+      },
+      {
+        "name" : "Qin Wang"
+      },
+      {
+        "name" : "Caijun Sun"
+      },
+      {
+        "name" : "Chen Li"
+      },
+      {
+        "name" : "Xuelei Qi"
+      },
+      {
+        "name" : "Ying He"
+      },
+      {
+        "name" : "Wei Ni"
+      },
+      {
+        "name" : "Ren Ping Liu"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
   }
 ]
