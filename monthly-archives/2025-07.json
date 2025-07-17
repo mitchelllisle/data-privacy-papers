@@ -1535,5 +1535,128 @@
       "cs.IT",
       "math.IT"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.12098v1",
+    "title" : "A Privacy-Preserving Framework for Advertising Personalization\n  Incorporating Federated Learning and Differential Privacy",
+    "summary" : "To mitigate privacy leakage and performance issues in personalized\nadvertising, this paper proposes a framework that integrates federated learning\nand differential privacy. The system combines distributed feature extraction,\ndynamic privacy budget allocation, and robust model aggregation to balance\nmodel accuracy, communication overhead, and privacy protection. Multi-party\nsecure computing and anomaly detection mechanisms further enhance system\nresilience against malicious attacks. Experimental results demonstrate that the\nframework achieves dual optimization of recommendation accuracy and system\nefficiency while ensuring privacy, providing both a practical solution and a\ntheoretical foundation for applying privacy protection technologies in\nadvertisement recommendation.",
+    "updated" : "2025-07-16T10:07:19Z",
+    "published" : "2025-07-16T10:07:19Z",
+    "authors" : [
+      {
+        "name" : "Xiang Li"
+      },
+      {
+        "name" : "Yifan Lin"
+      },
+      {
+        "name" : "Yuanzhe Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.11943v1",
+    "title" : "Effective Fine-Tuning of Vision Transformers with Low-Rank Adaptation\n  for Privacy-Preserving Image Classification",
+    "summary" : "We propose a low-rank adaptation method for training privacy-preserving\nvision transformer (ViT) models that efficiently freezes pre-trained ViT model\nweights. In the proposed method, trainable rank decomposition matrices are\ninjected into each layer of the ViT architecture, and moreover, the patch\nembedding layer is not frozen, unlike in the case of the conventional low-rank\nadaptation methods. The proposed method allows us not only to reduce the number\nof trainable parameters but to also maintain almost the same accuracy as that\nof full-time tuning.",
+    "updated" : "2025-07-16T06:18:52Z",
+    "published" : "2025-07-16T06:18:52Z",
+    "authors" : [
+      {
+        "name" : "Haiwei Lin"
+      },
+      {
+        "name" : "Shoko Imaizumi"
+      },
+      {
+        "name" : "Hitoshi Kiya"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.11908v1",
+    "title" : "Unveiling Usability Challenges in Web Privacy Controls",
+    "summary" : "With the increasing concerns around privacy and the enforcement of data\nprivacy laws, many websites now provide users with privacy controls. However,\nlocating these controls can be challenging, as they are frequently hidden\nwithin multiple settings and layers. Moreover, the lack of standardization\nmeans these controls can vary widely across services. The technical or\nconfusing terminology used to describe these controls further complicates\nusers' ability to understand and use them effectively. This paper presents a\nlarge-scale empirical analysis investigating usability challenges of web\nprivacy controls across 18,628 websites. While aiming for a multi-scenario\nview, our automated data collection faced significant hurdles, particularly in\nsimulating sign-up and authenticated user visits, leading to more focused\ninsights on guest visit scenarios and challenges in automated capture of\ndynamic user interactions. Our heuristic evaluation of three different user\nvisit scenarios identifies significant website usability issues. Our results\nshow that privacy policies are most common across all visit scenarios, with\nnudges and notices being prevalent in sign-up situations. We recommend\ndesigning privacy controls that: enhance awareness through pop-up nudges and\nnotices; offer a table of contents as navigational aids and customized settings\nlinks in policies for more informed choice; and ensure accessibility via direct\nlinks to privacy settings from nudges.",
+    "updated" : "2025-07-16T04:47:35Z",
+    "published" : "2025-07-16T04:47:35Z",
+    "authors" : [
+      {
+        "name" : "Rahat Masood"
+      },
+      {
+        "name" : "Sunday Oyinlola Ogundoyin"
+      },
+      {
+        "name" : "Muhammad Ikram"
+      },
+      {
+        "name" : "Alex Ye"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.11649v1",
+    "title" : "ZKP-FedEval: Verifiable and Privacy-Preserving Federated Evaluation\n  using Zero-Knowledge Proofs",
+    "summary" : "Federated Learning (FL) enables collaborative model training on decentralized\ndata without exposing raw data. However, the evaluation phase in FL may leak\nsensitive information through shared performance metrics. In this paper, we\npropose a novel protocol that incorporates Zero-Knowledge Proofs (ZKPs) to\nenable privacy-preserving and verifiable evaluation for FL. Instead of\nrevealing raw loss values, clients generate a succinct proof asserting that\ntheir local loss is below a predefined threshold. Our approach is implemented\nwithout reliance on external APIs, using self-contained modules for federated\nlearning simulation, ZKP circuit design, and experimental evaluation on both\nthe MNIST and Human Activity Recognition (HAR) datasets. We focus on a\nthreshold-based proof for a simple Convolutional Neural Network (CNN) model\n(for MNIST) and a multi-layer perceptron (MLP) model (for HAR), and evaluate\nthe approach in terms of computational overhead, communication cost, and\nverifiability.",
+    "updated" : "2025-07-15T18:34:14Z",
+    "published" : "2025-07-15T18:34:14Z",
+    "authors" : [
+      {
+        "name" : "Daniel Commey"
+      },
+      {
+        "name" : "Benjamin Appiah"
+      },
+      {
+        "name" : "Griffith S. Klogo"
+      },
+      {
+        "name" : "Garth V. Crosby"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.DC",
+      "cs.NI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.10786v2",
+    "title" : "\"Is it always watching? Is it always listening?\" Exploring Contextual\n  Privacy and Security Concerns Toward Domestic Social Robots",
+    "summary" : "Equipped with artificial intelligence (AI) and advanced sensing capabilities,\nsocial robots are gaining interest among consumers in the United States. These\nrobots seem like a natural evolution of traditional smart home devices.\nHowever, their extensive data collection capabilities, anthropomorphic\nfeatures, and capacity to interact with their environment make social robots a\nmore significant security and privacy threat. Increased risks include data\nlinkage, unauthorized data sharing, and the physical safety of users and their\nhomes. It is critical to investigate U.S. users' security and privacy needs and\nconcerns to guide the design of social robots while these devices are still in\nthe early stages of commercialization in the U.S. market. Through 19\nsemi-structured interviews, we identified significant security and privacy\nconcerns, highlighting the need for transparency, usability, and robust privacy\ncontrols to support adoption. For educational applications, participants\nworried most about misinformation, and in medical use cases, they worried about\nthe reliability of these devices. Participants were also concerned with the\ndata inference that social robots could enable. We found that participants\nexpect tangible privacy controls, indicators of data collection, and\ncontext-appropriate functionality.",
+    "updated" : "2025-07-16T16:58:46Z",
+    "published" : "2025-07-14T20:27:40Z",
+    "authors" : [
+      {
+        "name" : "Henry Bell"
+      },
+      {
+        "name" : "Jabari Kwesi"
+      },
+      {
+        "name" : "Hiba Laabadli"
+      },
+      {
+        "name" : "Pardis Emami-Naeini"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.AI",
+      "cs.CR",
+      "cs.ET",
+      "cs.HC"
+    ]
   }
 ]
