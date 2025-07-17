@@ -2,6 +2,106 @@
 <h2>2025-07</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.12098v1">A Privacy-Preserving Framework for Advertising Personalization
+  Incorporating Federated Learning and Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-07-16T10:07:19Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xiang Li, Yifan Lin, Yuanzhe Zhang</p>
+    <p><b>Summary:</b> To mitigate privacy leakage and performance issues in personalized
+advertising, this paper proposes a framework that integrates federated learning
+and differential privacy. The system combines distributed feature extraction,
+dynamic privacy budget allocation, and robust model aggregation to balance
+model accuracy, communication overhead, and privacy protection. Multi-party
+secure computing and anomaly detection mechanisms further enhance system
+resilience against malicious attacks. Experimental results demonstrate that the
+framework achieves dual optimization of recommendation accuracy and system
+efficiency while ensuring privacy, providing both a practical solution and a
+theoretical foundation for applying privacy protection technologies in
+advertisement recommendation.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.11943v1">Effective Fine-Tuning of Vision Transformers with Low-Rank Adaptation
+  for Privacy-Preserving Image Classification</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2025-07-16T06:18:52Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Haiwei Lin, Shoko Imaizumi, Hitoshi Kiya</p>
+    <p><b>Summary:</b> We propose a low-rank adaptation method for training privacy-preserving
+vision transformer (ViT) models that efficiently freezes pre-trained ViT model
+weights. In the proposed method, trainable rank decomposition matrices are
+injected into each layer of the ViT architecture, and moreover, the patch
+embedding layer is not frozen, unlike in the case of the conventional low-rank
+adaptation methods. The proposed method allows us not only to reduce the number
+of trainable parameters but to also maintain almost the same accuracy as that
+of full-time tuning.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.11908v1">Unveiling Usability Challenges in Web Privacy Controls</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-07-16T04:47:35Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Rahat Masood, Sunday Oyinlola Ogundoyin, Muhammad Ikram, Alex Ye</p>
+    <p><b>Summary:</b> With the increasing concerns around privacy and the enforcement of data
+privacy laws, many websites now provide users with privacy controls. However,
+locating these controls can be challenging, as they are frequently hidden
+within multiple settings and layers. Moreover, the lack of standardization
+means these controls can vary widely across services. The technical or
+confusing terminology used to describe these controls further complicates
+users' ability to understand and use them effectively. This paper presents a
+large-scale empirical analysis investigating usability challenges of web
+privacy controls across 18,628 websites. While aiming for a multi-scenario
+view, our automated data collection faced significant hurdles, particularly in
+simulating sign-up and authenticated user visits, leading to more focused
+insights on guest visit scenarios and challenges in automated capture of
+dynamic user interactions. Our heuristic evaluation of three different user
+visit scenarios identifies significant website usability issues. Our results
+show that privacy policies are most common across all visit scenarios, with
+nudges and notices being prevalent in sign-up situations. We recommend
+designing privacy controls that: enhance awareness through pop-up nudges and
+notices; offer a table of contents as navigational aids and customized settings
+links in policies for more informed choice; and ensure accessibility via direct
+links to privacy settings from nudges.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.11649v1">ZKP-FedEval: Verifiable and Privacy-Preserving Federated Evaluation
+  using Zero-Knowledge Proofs</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
+  <p><b>Published on:</b> 2025-07-15T18:34:14Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Daniel Commey, Benjamin Appiah, Griffith S. Klogo, Garth V. Crosby</p>
+    <p><b>Summary:</b> Federated Learning (FL) enables collaborative model training on decentralized
+data without exposing raw data. However, the evaluation phase in FL may leak
+sensitive information through shared performance metrics. In this paper, we
+propose a novel protocol that incorporates Zero-Knowledge Proofs (ZKPs) to
+enable privacy-preserving and verifiable evaluation for FL. Instead of
+revealing raw loss values, clients generate a succinct proof asserting that
+their local loss is below a predefined threshold. Our approach is implemented
+without reliance on external APIs, using self-contained modules for federated
+learning simulation, ZKP circuit design, and experimental evaluation on both
+the MNIST and Human Activity Recognition (HAR) datasets. We focus on a
+threshold-based proof for a simple Convolutional Neural Network (CNN) model
+(for MNIST) and a multi-layer perceptron (MLP) model (for HAR), and evaluate
+the approach in terms of computational overhead, communication cost, and
+verifiability.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2507.11324v1">A Review of Privacy Metrics for Privacy-Preserving Synthetic Data
   Generation</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
@@ -80,7 +180,7 @@ for identifying equality constraints by Kaplan et al.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.10786v1">"Is it always watching? Is it always listening?" Exploring Contextual
+  <h3><a href="http://arxiv.org/abs/2507.10786v2">"Is it always watching? Is it always listening?" Exploring Contextual
   Privacy and Security Concerns Toward Domestic Social Robots</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
   <p><b>Published on:</b> 2025-07-14T20:27:40Z</p>
@@ -1933,12 +2033,12 @@ state-of-the-art PBFL schemes.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.23603v1">SoK: Semantic Privacy in Large Language Models</a></h3>
+  <h3><a href="http://arxiv.org/abs/2506.23603v2">SoK: Semantic Privacy in Large Language Models</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
   <p><b>Published on:</b> 2025-06-30T08:08:15Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Baihe Ma, Yanna Jiang, Xu Wang, Guangshen Yu, Qin Wang, Caijun Sun, Chen Li, Xuelei Qi, Ying He, Wei Ni, Ren Ping Liu</p>
+    <p><b>Authors:</b> Baihe Ma, Yanna Jiang, Xu Wang, Guangsheng Yu, Qin Wang, Caijun Sun, Chen Li, Xuelei Qi, Ying He, Wei Ni, Ren Ping Liu</p>
     <p><b>Summary:</b> As Large Language Models (LLMs) are increasingly deployed in sensitive
 domains, traditional data privacy measures prove inadequate for protecting
 information that is implicit, contextual, or inferable - what we define as
@@ -2877,137 +2977,6 @@ facial patterns, enabling reliable AI-based triage. Our evaluations also show
 that SafeTriage provides robust privacy protection while maintaining diagnostic
 accuracy, offering a secure and ethically sound foundation for data sharing and
 AI-driven clinical analysis in neurological disorders.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.16460v1">Black-Box Privacy Attacks on Shared Representations in Multitask
-  Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-06-19T16:56:41Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> John Abascal, Nicolás Berrios, Alina Oprea, Jonathan Ullman, Adam Smith, Matthew Jagielski</p>
-    <p><b>Summary:</b> Multitask learning (MTL) has emerged as a powerful paradigm that leverages
-similarities among multiple learning tasks, each with insufficient samples to
-train a standalone model, to solve them simultaneously while minimizing data
-sharing across users and organizations. MTL typically accomplishes this goal by
-learning a shared representation that captures common structure among the tasks
-by embedding data from all tasks into a common feature space. Despite being
-designed to be the smallest unit of shared information necessary to effectively
-learn patterns across multiple tasks, these shared representations can
-inadvertently leak sensitive information about the particular tasks they were
-trained on.
-  In this work, we investigate what information is revealed by the shared
-representations through the lens of inference attacks. Towards this, we propose
-a novel, black-box task-inference threat model where the adversary, given the
-embedding vectors produced by querying the shared representation on samples
-from a particular task, aims to determine whether that task was present when
-training the shared representation. We develop efficient, purely black-box
-attacks on machine learning models that exploit the dependencies between
-embeddings from the same task without requiring shadow models or labeled
-reference data. We evaluate our attacks across vision and language domains for
-multiple use cases of MTL and demonstrate that even with access only to fresh
-task samples rather than training data, a black-box adversary can successfully
-infer a task's inclusion in training. To complement our experiments, we provide
-theoretical analysis of a simplified learning setting and show a strict
-separation between adversaries with training samples and fresh samples from the
-target task's distribution.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.16347v1">Emission Impossible: privacy-preserving carbon emissions claims</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-06-19T14:23:48Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jessica Man, Sadiq Jaffer, Patrick Ferris, Martin Kleppmann, Anil Madhavapeddy</p>
-    <p><b>Summary:</b> Information and Communication Technologies (ICT) have a significant climate
-impact, and data centres account for a large proportion of the carbon emissions
-from ICT. To achieve sustainability goals, it is important that all parties
-involved in ICT supply chains can track and share accurate carbon emissions
-data with their customers, investors, and the authorities. However, businesses
-have strong incentives to make their numbers look good, whilst less so to
-publish their accounting methods along with all the input data, due to the risk
-of revealing sensitive information. It would be uneconomical to use a trusted
-third party to verify the data for every report for each party in the chain. As
-a result, carbon emissions reporting in supply chains currently relies on
-unverified data. This paper proposes a methodology that applies cryptography
-and zero-knowledge proofs for carbon emissions claims that can be subsequently
-verified without the knowledge of the private input data. The proposed system
-is based on a zero-knowledge Succinct Non-interactive ARguments of Knowledge
-(zk-SNARK) protocol, which enables verifiable emissions reporting mechanisms
-across a chain of energy suppliers, cloud data centres, cloud services
-providers, and customers, without any company needing to disclose commercially
-sensitive information. This allows customers of cloud services to accurately
-account for the emissions generated by their activities, improving data quality
-for their own regulatory reporting. Cloud services providers would also be held
-accountable for producing accurate carbon emissions data.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.16196v1">Efficient and Privacy-Preserving Soft Prompt Transfer for LLMs</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-06-19T10:25:16Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Xun Wang, Jing Xu, Franziska Boenisch, Michael Backes, Christopher A. Choquette-Choo, Adam Dziedzic</p>
-    <p><b>Summary:</b> Prompting has become a dominant paradigm for adapting large language models
-(LLMs). While discrete (textual) prompts are widely used for their
-interpretability, soft (parameter) prompts have recently gained traction in
-APIs. This is because they can encode information from more training samples
-while minimizing the user's token usage, leaving more space in the context
-window for task-specific input. However, soft prompts are tightly coupled to
-the LLM they are tuned on, limiting their generalization to other LLMs. This
-constraint is particularly problematic for efficiency and privacy: (1) tuning
-prompts on each LLM incurs high computational costs, especially as LLMs
-continue to grow in size. Additionally, (2) when the LLM is hosted externally,
-soft prompt tuning often requires sharing private data with the LLM provider.
-For instance, this is the case with the NVIDIA NeMo API. To address these
-issues, we propose POST (Privacy Of Soft prompt Transfer), a framework that
-enables private tuning of soft prompts on a small model and subsequently
-transfers these prompts to a larger LLM. POST uses knowledge distillation to
-derive a small model directly from the large LLM to improve prompt
-transferability, tunes the soft prompt locally, optionally with differential
-privacy guarantees, and transfers it back to the larger LLM using a small
-public dataset. Our experiments show that POST reduces computational costs,
-preserves privacy, and effectively transfers high-utility soft prompts.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.17336v2">Privacy-Preserving LLM Interaction with Socratic Chain-of-Thought
-  Reasoning and Homomorphically Encrypted Vector Databases</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-06-19T07:13:30Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yubeen Bae, Minchan Kim, Jaejin Lee, Sangbum Kim, Jaehyung Kim, Yejin Choi, Niloofar Mireshghallah</p>
-    <p><b>Summary:</b> Large language models (LLMs) are increasingly used as personal agents,
-accessing sensitive user data such as calendars, emails, and medical records.
-Users currently face a trade-off: They can send private records, many of which
-are stored in remote databases, to powerful but untrusted LLM providers,
-increasing their exposure risk. Alternatively, they can run less powerful
-models locally on trusted devices. We bridge this gap. Our Socratic
-Chain-of-Thought Reasoning first sends a generic, non-private user query to a
-powerful, untrusted LLM, which generates a Chain-of-Thought (CoT) prompt and
-detailed sub-queries without accessing user data. Next, we embed these
-sub-queries and perform encrypted sub-second semantic search using our
-Homomorphically Encrypted Vector Database across one million entries of a
-single user's private data. This represents a realistic scale of personal
-documents, emails, and records accumulated over years of digital activity.
-Finally, we feed the CoT prompt and the decrypted records to a local language
-model and generate the final response. On the LoCoMo long-context QA benchmark,
-our hybrid framework, combining GPT-4o with a local Llama-3.2-1B model,
-outperforms using GPT-4o alone by up to 7.1 percentage points. This
-demonstrates a first step toward systems where tasks are decomposed and split
-between untrusted strong LLMs and weak local ones, preserving user privacy.</p>
   </details>
 </div>
 
