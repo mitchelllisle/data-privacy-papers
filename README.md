@@ -2,6 +2,121 @@
 <h2>2025-07</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.13286v1">Privacy-Preserving Fusion for Multi-Sensor Systems Under Multiple Packet
+  Dropouts</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
+  <p><b>Published on:</b> 2025-07-17T16:50:15Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jie Huang, Jason J. R. Liu</p>
+    <p><b>Summary:</b> Wireless sensor networks (WSNs) are critical components in modern
+cyber-physical systems, enabling efficient data collection and fusion through
+spatially distributed sensors. However, the inherent risks of eavesdropping and
+packet dropouts in such networks pose significant challenges to secure state
+estimation. In this paper, we address the privacy-preserving fusion estimation
+(PPFE) problem for multi-sensor systems under multiple packet dropouts and
+eavesdropping attacks. To mitigate these issues, we propose a distributed
+encoding-based privacy-preserving mechanism (PPM) within a control-theoretic
+framework, ensuring data privacy during transmission while maintaining the
+performance of legitimate state estimation. A centralized fusion filter is
+developed, accounting for the coupling effects of packet dropouts and the
+encoding-based PPM. Boundedness conditions for the legitimate user's estimation
+error covariance are derived via a modified algebraic Riccati equation.
+Additionally, by demonstrating the divergence of the eavesdropper's mean
+estimation error, the proposed PPFE algorithm's data confidentiality is
+rigorously analyzed. Simulation results for an Internet-based three-tank system
+validate the effectiveness of the proposed approach, highlighting its potential
+to enhance privacy without compromising estimation accuracy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.12932v1">Enkidu: Universal Frequential Perturbation for Real-Time Audio Privacy
+  Protection against Voice Deepfakes</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Sound-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Multimedia-5BC0EB">
+  <p><b>Published on:</b> 2025-07-17T09:12:36Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zhou Feng, Jiahao Chen, Chunyi Zhou, Yuwen Pu, Qingming Li, Tianyu Du, Shouling Ji</p>
+    <p><b>Summary:</b> The rapid advancement of voice deepfake technologies has raised serious
+concerns about user audio privacy, as attackers increasingly exploit publicly
+available voice data to generate convincing fake audio for malicious purposes
+such as identity theft, financial fraud, and misinformation campaigns. While
+existing defense methods offer partial protection, they face critical
+limitations, including weak adaptability to unseen user data, poor scalability
+to long audio, rigid reliance on white-box knowledge, and high computational
+and temporal costs during the encryption process. To address these challenges
+and defend against personalized voice deepfake threats, we propose Enkidu, a
+novel user-oriented privacy-preserving framework that leverages universal
+frequential perturbations generated through black-box knowledge and few-shot
+training on a small amount of user data. These highly malleable
+frequency-domain noise patches enable real-time, lightweight protection with
+strong generalization across variable-length audio and robust resistance to
+voice deepfake attacks, all while preserving perceptual quality and speech
+intelligibility. Notably, Enkidu achieves over 50 to 200 times processing
+memory efficiency (as low as 0.004 gigabytes) and 3 to 7000 times runtime
+efficiency (real-time coefficient as low as 0.004) compared to six
+state-of-the-art countermeasures. Extensive experiments across six mainstream
+text-to-speech models and five cutting-edge automated speaker verification
+models demonstrate the effectiveness, transferability, and practicality of
+Enkidu in defending against both vanilla and adaptive voice deepfake attacks.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.12730v1">A Privacy-Preserving Semantic-Segmentation Method Using
+  Domain-Adaptation Technique</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-07-17T02:14:50Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Homare Sueyoshi, Kiyoshi Nishikawa, Hitoshi Kiya</p>
+    <p><b>Summary:</b> We propose a privacy-preserving semantic-segmentation method for applying
+perceptual encryption to images used for model training in addition to test
+images. This method also provides almost the same accuracy as models without
+any encryption. The above performance is achieved using a domain-adaptation
+technique on the embedding structure of the Vision Transformer (ViT). The
+effectiveness of the proposed method was experimentally confirmed in terms of
+the accuracy of semantic segmentation when using a powerful
+semantic-segmentation model with ViT called Segmentation Transformer.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.12652v1">Federated Learning in Open- and Closed-Loop EMG Decoding: A Privacy and
+  Performance Perspective</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2025-07-16T21:59:25Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Kai Malcolm, César Uribe, Momona Yamagami</p>
+    <p><b>Summary:</b> Invasive and non-invasive neural interfaces hold promise as high-bandwidth
+input devices for next-generation technologies. However, neural signals
+inherently encode sensitive information about an individual's identity and
+health, making data sharing for decoder training a critical privacy challenge.
+Federated learning (FL), a distributed, privacy-preserving learning framework,
+presents a promising solution, but it remains unexplored in closed-loop
+adaptive neural interfaces. Here, we introduce FL-based neural decoding and
+systematically evaluate its performance and privacy using high-dimensional
+electromyography signals in both open- and closed-loop scenarios. In open-loop
+simulations, FL significantly outperformed local learning baselines,
+demonstrating its potential for high-performance, privacy-conscious neural
+decoding. In contrast, closed-loop user studies required adapting FL methods to
+accommodate single-user, real-time interactions, a scenario not supported by
+standard FL. This modification resulted in local learning decoders surpassing
+the adapted FL approach in closed-loop performance, yet local learning still
+carried higher privacy risks. Our findings highlight a critical
+performance-privacy tradeoff in real-time adaptive applications and indicate
+the need for FL methods specifically designed for co-adaptive, single-user
+applications.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2507.12098v1">A Privacy-Preserving Framework for Advertising Personalization
   Incorporating Federated Learning and Differential Privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
@@ -2857,126 +2972,6 @@ development and evaluation. We benchmark a broad range of classification
 models, demonstrating that strong performance is achievable and providing a
 baseline for future research. HARPT is released as a public resource to support
 work in health informatics, cybersecurity, and natural language processing.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.19260v1">Network Structures as an Attack Surface: Topology-Based Privacy Leakage
-  in Federated Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
-  <p><b>Published on:</b> 2025-06-24T02:42:08Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Murtaza Rangwala, Richard O. Sinnott, Rajkumar Buyya</p>
-    <p><b>Summary:</b> Federated learning systems increasingly rely on diverse network topologies to
-address scalability and organizational constraints. While existing privacy
-research focuses on gradient-based attacks, the privacy implications of network
-topology knowledge remain critically understudied. We conduct the first
-comprehensive analysis of topology-based privacy leakage across realistic
-adversarial knowledge scenarios, demonstrating that adversaries with varying
-degrees of structural knowledge can infer sensitive data distribution patterns
-even under strong differential privacy guarantees. Through systematic
-evaluation of 4,720 attack instances, we analyze six distinct adversarial
-knowledge scenarios: complete topology knowledge and five partial knowledge
-configurations reflecting real-world deployment constraints. We propose three
-complementary attack vectors: communication pattern analysis, parameter
-magnitude profiling, and structural position correlation, achieving success
-rates of 84.1%, 65.0%, and 47.2% under complete knowledge conditions.
-Critically, we find that 80% of realistic partial knowledge scenarios maintain
-attack effectiveness above security thresholds, with certain partial knowledge
-configurations achieving performance superior to the baseline complete
-knowledge scenario. To address these vulnerabilities, we propose and
-empirically validate structural noise injection as a complementary defense
-mechanism across 808 configurations, demonstrating up to 51.4% additional
-attack reduction when properly layered with existing privacy techniques. These
-results establish that network topology represents a fundamental privacy
-vulnerability in federated learning systems while providing practical pathways
-for mitigation through topology-aware defense mechanisms.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.17185v1">A Common Pool of Privacy Problems: Legal and Technical Lessons from a
-  Large-Scale Web-Scraped Machine Learning Dataset</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2025-06-20T17:40:05Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Rachel Hong, Jevan Hutson, William Agnew, Imaad Huda, Tadayoshi Kohno, Jamie Morgenstern</p>
-    <p><b>Summary:</b> We investigate the contents of web-scraped data for training AI systems, at
-sizes where human dataset curators and compilers no longer manually annotate
-every sample. Building off of prior privacy concerns in machine learning
-models, we ask: What are the legal privacy implications of web-scraped machine
-learning datasets? In an empirical study of a popular training dataset, we find
-significant presence of personally identifiable information despite
-sanitization efforts. Our audit provides concrete evidence to support the
-concern that any large-scale web-scraped dataset may contain personal data. We
-use these findings of a real-world dataset to inform our legal analysis with
-respect to existing privacy and data protection laws. We surface various
-privacy risks of current data curation practices that may propagate personal
-information to downstream models. From our findings, we argue for reorientation
-of current frameworks of "publicly available" information to meaningfully limit
-the development of AI built upon indiscriminate scraping of the internet.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.17012v1">A Novel Approach to Differential Privacy with Alpha Divergence</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-06-20T14:10:18Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yifeng Liu, Zehua Wang</p>
-    <p><b>Summary:</b> As data-driven technologies advance swiftly, maintaining strong privacy
-measures becomes progressively difficult. Conventional $(\epsilon,
-\delta)$-differential privacy, while prevalent, exhibits limited adaptability
-for many applications. To mitigate these constraints, we present alpha
-differential privacy (ADP), an innovative privacy framework grounded in alpha
-divergence, which provides a more flexible assessment of privacy consumption.
-This study delineates the theoretical underpinnings of ADP and contrasts its
-performance with competing privacy frameworks across many scenarios. Empirical
-assessments demonstrate that ADP offers enhanced privacy guarantees in small to
-moderate iteration contexts, particularly where severe privacy requirements are
-necessary. The suggested method markedly improves privacy-preserving methods,
-providing a flexible solution for contemporary data analysis issues in a
-data-centric environment.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.16578v1">SafeTriage: Facial Video De-identification for Privacy-Preserving Stroke
-  Triage</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2025-06-19T20:02:47Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Tongan Cai, Haomiao Ni, Wenchao Ma, Yuan Xue, Qian Ma, Rachel Leicht, Kelvin Wong, John Volpi, Stephen T. C. Wong, James Z. Wang, Sharon X. Huang</p>
-    <p><b>Summary:</b> Effective stroke triage in emergency settings often relies on clinicians'
-ability to identify subtle abnormalities in facial muscle coordination. While
-recent AI models have shown promise in detecting such patterns from patient
-facial videos, their reliance on real patient data raises significant ethical
-and privacy challenges -- especially when training robust and generalizable
-models across institutions. To address these concerns, we propose SafeTriage, a
-novel method designed to de-identify patient facial videos while preserving
-essential motion cues crucial for stroke diagnosis. SafeTriage leverages a
-pretrained video motion transfer (VMT) model to map the motion characteristics
-of real patient faces onto synthetic identities. This approach retains
-diagnostically relevant facial dynamics without revealing the patients'
-identities. To mitigate the distribution shift between normal population
-pre-training videos and patient population test videos, we introduce a
-conditional generative model for visual prompt tuning, which adapts the input
-space of the VMT model to ensure accurate motion transfer without needing to
-fine-tune the VMT model backbone. Comprehensive evaluation, including
-quantitative metrics and clinical expert assessments, demonstrates that
-SafeTriage-produced synthetic videos effectively preserve stroke-relevant
-facial patterns, enabling reliable AI-based triage. Our evaluations also show
-that SafeTriage provides robust privacy protection while maintaining diagnostic
-accuracy, offering a secure and ethically sound foundation for data sharing and
-AI-driven clinical analysis in neurological disorders.</p>
   </details>
 </div>
 
