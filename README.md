@@ -2,6 +2,87 @@
 <h2>2025-07</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.13981v1">Evaluation of Human Visual Privacy Protection: A Three-Dimensional
+  Framework and Benchmark Dataset</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2025-07-18T14:43:24Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Sara Abdulaziz, Giacomo D'Amicantonio, Egor Bondarev</p>
+    <p><b>Summary:</b> Recent advances in AI-powered surveillance have intensified concerns over the
+collection and processing of sensitive personal data. In response, research has
+increasingly focused on privacy-by-design solutions, raising the need for
+objective techniques to evaluate privacy protection. This paper presents a
+comprehensive framework for evaluating visual privacy-protection methods across
+three dimensions: privacy, utility, and practicality. In addition, it
+introduces HR-VISPR, a publicly available human-centric dataset with biometric,
+soft-biometric, and non-biometric labels to train an interpretable privacy
+metric. We evaluate 11 privacy protection methods, ranging from conventional
+techniques to advanced deep-learning methods, through the proposed framework.
+The framework differentiates privacy levels in alignment with human visual
+perception, while highlighting trade-offs between privacy, utility, and
+practicality. This study, along with the HR-VISPR dataset, serves as an
+insightful tool and offers a structured evaluation framework applicable across
+diverse contexts.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.13926v1">Developers Insight On Manifest v3 Privacy and Security Webextensions</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2025-07-18T14:00:16Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Libor Polčák, Giorgio Maone, Michael McMahon, Martin Bednář</p>
+    <p><b>Summary:</b> Webextensions can improve web browser privacy, security, and user experience.
+The APIs offered by the browser to webextensions affect possible functionality.
+Currently, Chrome transitions to a modified set of APIs called Manifest v3.
+This paper studies the challenges and opportunities of Manifest v3 with an
+in-depth structured qualitative research. Even though some projects observed
+positive effects, a majority expresses concerns over limited benefits to users,
+removal of crucial APIs, or the need to find workarounds. Our findings indicate
+that the transition affects different types of webextensions differently; some
+can migrate without losing functionality, while other projects remove
+functionality or decline to update. The respondents identified several critical
+missing APIs, including reliable APIs to inject content scripts, APIs for
+storing confidential content, and others.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.13639v1">Differential Privacy in Kernelized Contextual Bandits via Random
+  Projections</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-07-18T03:54:49Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Nikola Pavlovic, Sudeep Salgia, Qing Zhao</p>
+    <p><b>Summary:</b> We consider the problem of contextual kernel bandits with stochastic
+contexts, where the underlying reward function belongs to a known Reproducing
+Kernel Hilbert Space. We study this problem under an additional constraint of
+Differential Privacy, where the agent needs to ensure that the sequence of
+query points is differentially private with respect to both the sequence of
+contexts and rewards. We propose a novel algorithm that achieves the
+state-of-the-art cumulative regret of
+$\widetilde{\mathcal{O}}(\sqrt{\gamma_TT}+\frac{\gamma_T}{\varepsilon_{\mathrm{DP}}})$
+and
+$\widetilde{\mathcal{O}}(\sqrt{\gamma_TT}+\frac{\gamma_T\sqrt{T}}{\varepsilon_{\mathrm{DP}}})$
+over a time horizon of $T$ in the joint and local models of differential
+privacy, respectively, where $\gamma_T$ is the effective dimension of the
+kernel and $\varepsilon_{\mathrm{DP}} > 0$ is the privacy parameter. The key
+ingredient of the proposed algorithm is a novel private kernel-ridge regression
+estimator which is based on a combination of private covariance estimation and
+private random projections. It offers a significantly reduced sensitivity
+compared to its classical counterpart while maintaining a high prediction
+accuracy, allowing our algorithm to achieve the state-of-the-art performance
+guarantees.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2507.13286v1">Privacy-Preserving Fusion for Multi-Sensor Systems Under Multiple Packet
   Dropouts</a></h3>
    <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
@@ -191,7 +272,7 @@ links to privacy settings from nudges.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.11649v1">ZKP-FedEval: Verifiable and Privacy-Preserving Federated Evaluation
+  <h3><a href="http://arxiv.org/abs/2507.11649v2">ZKP-FedEval: Verifiable and Privacy-Preserving Federated Evaluation
   using Zero-Knowledge Proofs</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
   <p><b>Published on:</b> 2025-07-15T18:34:14Z</p>
@@ -567,7 +648,7 @@ digital voting experience.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.09067v1">Quantum-Resilient Privacy Ledger (QRPL): A Sovereign Digital Currency
+  <h3><a href="http://arxiv.org/abs/2507.09067v2">Quantum-Resilient Privacy Ledger (QRPL): A Sovereign Digital Currency
   for the Post-Quantum Era</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2025-07-11T23:02:45Z</p>
@@ -2883,95 +2964,6 @@ experiments on a 5-year-old low-spec smartphone using real data for two case
 studies alongside scalability assessments using artificial data. Our
 experimental results indicate that the privacy-preserving authentication
 protocol can be completed within 1.3 seconds on older devices.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.19889v1">Retrieval-Confused Generation is a Good Defender for Privacy Violation
-  Attack of Large Language Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-06-24T07:28:29Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Wanli Peng, Xin Chen, Hang Fu, XinYu He, Xue Yiming, Juan Wen</p>
-    <p><b>Summary:</b> Recent advances in large language models (LLMs) have made a profound impact
-on our society and also raised new security concerns. Particularly, due to the
-remarkable inference ability of LLMs, the privacy violation attack (PVA),
-revealed by Staab et al., introduces serious personal privacy issues. Existing
-defense methods mainly leverage LLMs to anonymize the input query, which
-requires costly inference time and cannot gain satisfactory defense
-performance. Moreover, directly rejecting the PVA query seems like an effective
-defense method, while the defense method is exposed, promoting the evolution of
-PVA. In this paper, we propose a novel defense paradigm based on
-retrieval-confused generation (RCG) of LLMs, which can efficiently and covertly
-defend the PVA. We first design a paraphrasing prompt to induce the LLM to
-rewrite the "user comments" of the attack query to construct a disturbed
-database. Then, we propose the most irrelevant retrieval strategy to retrieve
-the desired user data from the disturbed database. Finally, the "data comments"
-are replaced with the retrieved user data to form a defended query, leading to
-responding to the adversary with some wrong personal attributes, i.e., the
-attack fails. Extensive experiments are conducted on two datasets and eight
-popular LLMs to comprehensively evaluate the feasibility and the superiority of
-the proposed defense method.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.19360v2">SoK: Can Synthetic Images Replace Real Data? A Survey of Utility and
-  Privacy of Synthetic Image Generation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2025-06-24T06:41:34Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yunsung Chung, Yunbei Zhang, Nassir Marrouche, Jihun Hamm</p>
-    <p><b>Summary:</b> Advances in generative models have transformed the field of synthetic image
-generation for privacy-preserving data synthesis (PPDS). However, the field
-lacks a comprehensive survey and comparison of synthetic image generation
-methods across diverse settings. In particular, when we generate synthetic
-images for the purpose of training a classifier, there is a pipeline of
-generation-sampling-classification which takes private training as input and
-outputs the final classifier of interest. In this survey, we systematically
-categorize existing image synthesis methods, privacy attacks, and mitigations
-along this generation-sampling-classification pipeline. To empirically compare
-diverse synthesis approaches, we provide a benchmark with representative
-generative methods and use model-agnostic membership inference attacks (MIAs)
-as a measure of privacy risk. Through this study, we seek to answer critical
-questions in PPDS: Can synthetic data effectively replace real data? Which
-release strategy balances utility and privacy? Do mitigations improve the
-utility-privacy tradeoff? Which generative models perform best across different
-scenarios? With a systematic evaluation of diverse methods, our study provides
-actionable insights into the utility-privacy tradeoffs of synthetic data
-generation methods and guides the decision on optimal data releasing strategies
-for real-world applications.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.19268v2">HARPT: A Corpus for Analyzing Consumers' Trust and Privacy Concerns in
-  Mobile Health Apps</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-06-24T02:59:14Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Timoteo Kelly, Abdulkadir Korkmaz, Samuel Mallet, Connor Souders, Sadra Aliakbarpour, Praveen Rao</p>
-    <p><b>Summary:</b> We present HARPT, a large-scale annotated corpus of mobile health app store
-reviews aimed at advancing research in user privacy and trust. The dataset
-comprises over 480,000 user reviews labeled into seven categories that capture
-critical aspects of trust in applications, trust in providers and privacy
-concerns. Creating HARPT required addressing multiple complexities, such as
-defining a nuanced label schema, isolating relevant content from large volumes
-of noisy data, and designing an annotation strategy that balanced scalability
-with accuracy. This strategy integrated rule-based filtering, iterative manual
-labeling with review, targeted data augmentation, and weak supervision using
-transformer-based classifiers to accelerate coverage. In parallel, a carefully
-curated subset of 7,000 reviews was manually annotated to support model
-development and evaluation. We benchmark a broad range of classification
-models, demonstrating that strong performance is achievable and providing a
-baseline for future research. HARPT is released as a public resource to support
-work in health informatics, cybersecurity, and natural language processing.</p>
   </details>
 </div>
 
