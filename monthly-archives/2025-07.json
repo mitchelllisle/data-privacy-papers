@@ -1756,5 +1756,116 @@
       "cs.CR",
       "cs.HC"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.13981v1",
+    "title" : "Evaluation of Human Visual Privacy Protection: A Three-Dimensional\n  Framework and Benchmark Dataset",
+    "summary" : "Recent advances in AI-powered surveillance have intensified concerns over the\ncollection and processing of sensitive personal data. In response, research has\nincreasingly focused on privacy-by-design solutions, raising the need for\nobjective techniques to evaluate privacy protection. This paper presents a\ncomprehensive framework for evaluating visual privacy-protection methods across\nthree dimensions: privacy, utility, and practicality. In addition, it\nintroduces HR-VISPR, a publicly available human-centric dataset with biometric,\nsoft-biometric, and non-biometric labels to train an interpretable privacy\nmetric. We evaluate 11 privacy protection methods, ranging from conventional\ntechniques to advanced deep-learning methods, through the proposed framework.\nThe framework differentiates privacy levels in alignment with human visual\nperception, while highlighting trade-offs between privacy, utility, and\npracticality. This study, along with the HR-VISPR dataset, serves as an\ninsightful tool and offers a structured evaluation framework applicable across\ndiverse contexts.",
+    "updated" : "2025-07-18T14:43:24Z",
+    "published" : "2025-07-18T14:43:24Z",
+    "authors" : [
+      {
+        "name" : "Sara Abdulaziz"
+      },
+      {
+        "name" : "Giacomo D'Amicantonio"
+      },
+      {
+        "name" : "Egor Bondarev"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.13926v1",
+    "title" : "Developers Insight On Manifest v3 Privacy and Security Webextensions",
+    "summary" : "Webextensions can improve web browser privacy, security, and user experience.\nThe APIs offered by the browser to webextensions affect possible functionality.\nCurrently, Chrome transitions to a modified set of APIs called Manifest v3.\nThis paper studies the challenges and opportunities of Manifest v3 with an\nin-depth structured qualitative research. Even though some projects observed\npositive effects, a majority expresses concerns over limited benefits to users,\nremoval of crucial APIs, or the need to find workarounds. Our findings indicate\nthat the transition affects different types of webextensions differently; some\ncan migrate without losing functionality, while other projects remove\nfunctionality or decline to update. The respondents identified several critical\nmissing APIs, including reliable APIs to inject content scripts, APIs for\nstoring confidential content, and others.",
+    "updated" : "2025-07-18T14:00:16Z",
+    "published" : "2025-07-18T14:00:16Z",
+    "authors" : [
+      {
+        "name" : "Libor Polčák"
+      },
+      {
+        "name" : "Giorgio Maone"
+      },
+      {
+        "name" : "Michael McMahon"
+      },
+      {
+        "name" : "Martin Bednář"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.13639v1",
+    "title" : "Differential Privacy in Kernelized Contextual Bandits via Random\n  Projections",
+    "summary" : "We consider the problem of contextual kernel bandits with stochastic\ncontexts, where the underlying reward function belongs to a known Reproducing\nKernel Hilbert Space. We study this problem under an additional constraint of\nDifferential Privacy, where the agent needs to ensure that the sequence of\nquery points is differentially private with respect to both the sequence of\ncontexts and rewards. We propose a novel algorithm that achieves the\nstate-of-the-art cumulative regret of\n$\\widetilde{\\mathcal{O}}(\\sqrt{\\gamma_TT}+\\frac{\\gamma_T}{\\varepsilon_{\\mathrm{DP}}})$\nand\n$\\widetilde{\\mathcal{O}}(\\sqrt{\\gamma_TT}+\\frac{\\gamma_T\\sqrt{T}}{\\varepsilon_{\\mathrm{DP}}})$\nover a time horizon of $T$ in the joint and local models of differential\nprivacy, respectively, where $\\gamma_T$ is the effective dimension of the\nkernel and $\\varepsilon_{\\mathrm{DP}} > 0$ is the privacy parameter. The key\ningredient of the proposed algorithm is a novel private kernel-ridge regression\nestimator which is based on a combination of private covariance estimation and\nprivate random projections. It offers a significantly reduced sensitivity\ncompared to its classical counterpart while maintaining a high prediction\naccuracy, allowing our algorithm to achieve the state-of-the-art performance\nguarantees.",
+    "updated" : "2025-07-18T03:54:49Z",
+    "published" : "2025-07-18T03:54:49Z",
+    "authors" : [
+      {
+        "name" : "Nikola Pavlovic"
+      },
+      {
+        "name" : "Sudeep Salgia"
+      },
+      {
+        "name" : "Qing Zhao"
+      }
+    ],
+    "categories" : [
+      "stat.ML",
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.11649v2",
+    "title" : "ZKP-FedEval: Verifiable and Privacy-Preserving Federated Evaluation\n  using Zero-Knowledge Proofs",
+    "summary" : "Federated Learning (FL) enables collaborative model training on decentralized\ndata without exposing raw data. However, the evaluation phase in FL may leak\nsensitive information through shared performance metrics. In this paper, we\npropose a novel protocol that incorporates Zero-Knowledge Proofs (ZKPs) to\nenable privacy-preserving and verifiable evaluation for FL. Instead of\nrevealing raw loss values, clients generate a succinct proof asserting that\ntheir local loss is below a predefined threshold. Our approach is implemented\nwithout reliance on external APIs, using self-contained modules for federated\nlearning simulation, ZKP circuit design, and experimental evaluation on both\nthe MNIST and Human Activity Recognition (HAR) datasets. We focus on a\nthreshold-based proof for a simple Convolutional Neural Network (CNN) model\n(for MNIST) and a multi-layer perceptron (MLP) model (for HAR), and evaluate\nthe approach in terms of computational overhead, communication cost, and\nverifiability.",
+    "updated" : "2025-07-18T03:24:50Z",
+    "published" : "2025-07-15T18:34:14Z",
+    "authors" : [
+      {
+        "name" : "Daniel Commey"
+      },
+      {
+        "name" : "Benjamin Appiah"
+      },
+      {
+        "name" : "Griffith S. Klogo"
+      },
+      {
+        "name" : "Garth V. Crosby"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.DC",
+      "cs.NI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.09067v2",
+    "title" : "Quantum-Resilient Privacy Ledger (QRPL): A Sovereign Digital Currency\n  for the Post-Quantum Era",
+    "summary" : "The emergence of quantum computing presents profound challenges to existing\ncryptographic infrastructures, whilst the development of central bank digital\ncurrencies (CBDCs) has raised concerns regarding privacy preservation and\nexcessive centralisation in digital payment systems. This paper proposes the\nQuantum-Resilient Privacy Ledger (QRPL) as an innovative token-based digital\ncurrency architecture that incorporates National Institute of Standards and\nTechnology (NIST)-standardised post-quantum cryptography (PQC) with hash-based\nzero-knowledge proofs to ensure user sovereignty, scalability, and transaction\nconfidentiality. Key contributions include adaptations of ephemeral proof\nchains for unlinkable transactions, a privacy-weighted Proof-of-Stake (PoS)\nconsensus to promote equitable participation, and a novel zero-knowledge\nproof-based mechanism for privacy-preserving selective disclosure. QRPL aims to\naddress critical shortcomings in prevailing CBDC designs, including risks of\npervasive surveillance, with a 10-20 second block time to balance security and\nthroughput in future monetary systems. While conceptual, empirical prototypes\nare planned. Future work includes prototype development to validate these\nmodels empirically.",
+    "updated" : "2025-07-18T16:51:19Z",
+    "published" : "2025-07-11T23:02:45Z",
+    "authors" : [
+      {
+        "name" : "Serhan W. Bahar"
+      }
+    ],
+    "categories" : [
+      "cs.ET",
+      "cs.CR"
+    ]
   }
 ]
