@@ -2,6 +2,243 @@
 <h2>2025-07</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.15836v1">Optimizing Canaries for Privacy Auditing with Metagradient Descent</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-07-21T17:47:33Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Matteo Boglioni, Terrance Liu, Andrew Ilyas, Zhiwei Steven Wu</p>
+    <p><b>Summary:</b> In this work we study black-box privacy auditing, where the goal is to lower
+bound the privacy parameter of a differentially private learning algorithm
+using only the algorithm's outputs (i.e., final trained model). For DP-SGD (the
+most successful method for training differentially private deep learning
+models), the canonical approach auditing uses membership inference-an auditor
+comes with a small set of special "canary" examples, inserts a random subset of
+them into the training set, and then tries to discern which of their canaries
+were included in the training set (typically via a membership inference
+attack). The auditor's success rate then provides a lower bound on the privacy
+parameters of the learning algorithm. Our main contribution is a method for
+optimizing the auditor's canary set to improve privacy auditing, leveraging
+recent work on metagradient optimization. Our empirical evaluation demonstrates
+that by using such optimized canaries, we can improve empirical lower bounds
+for differentially private image classification models by over 2x in certain
+instances. Furthermore, we demonstrate that our method is transferable and
+efficient: canaries optimized for non-private SGD with a small model
+architecture remain effective when auditing larger models trained with DP-SGD.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.15460v1">Privacy-Preserving Multimodal News Recommendation through Federated
+  Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Social and Information Networks-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-07-21T10:14:00Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mehdi Khalaj, Shahrzad Golestani Najafabadi, Julita Vassileva</p>
+    <p><b>Summary:</b> Personalized News Recommendation systems (PNR) have emerged as a solution to
+information overload by predicting and suggesting news items tailored to
+individual user interests. However, traditional PNR systems face several
+challenges, including an overreliance on textual content, common neglect of
+short-term user interests, and significant privacy concerns due to centralized
+data storage. This paper addresses these issues by introducing a novel
+multimodal federated learning-based approach for news recommendation. First, it
+integrates both textual and visual features of news items using a multimodal
+model, enabling a more comprehensive representation of content. Second, it
+employs a time-aware model that balances users' long-term and short-term
+interests through multi-head self-attention networks, improving recommendation
+accuracy. Finally, to enhance privacy, a federated learning framework is
+implemented, enabling collaborative model training without sharing user data.
+The framework divides the recommendation model into a large server-maintained
+news model and a lightweight user model shared between the server and clients.
+The client requests news representations (vectors) and a user model from the
+central server, then computes gradients with user local data, and finally sends
+their locally computed gradients to the server for aggregation. The central
+server aggregates gradients to update the global user model and news model. The
+updated news model is further used to infer news representation by the server.
+To further safeguard user privacy, a secure aggregation algorithm based on
+Shamir's secret sharing is employed. Experiments on a real-world news dataset
+demonstrate strong performance compared to existing systems, representing a
+significant advancement in privacy-preserving personalized news recommendation.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.15124v1">Comprehensive Privacy Risk Assessment in Social Networks Using User
+  Attributes Social Graphs and Text Analysis</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Social and Information Networks-662E9B">
+  <p><b>Published on:</b> 2025-07-20T21:18:50Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Md Jahangir Alam, Ismail Hossain, Sai Puppala, Sajedul Talukder</p>
+    <p><b>Summary:</b> The rise of social networking platforms has amplified privacy threats as
+users increasingly share sensitive information across profiles, content, and
+social connections. We present a Comprehensive Privacy Risk Scoring (CPRS)
+framework that quantifies privacy risk by integrating user attributes, social
+graph structures, and user-generated content. Our framework computes risk
+scores across these dimensions using sensitivity, visibility, structural
+similarity, and entity-level analysis, then aggregates them into a unified risk
+score. We validate CPRS on two real-world datasets: the SNAP Facebook Ego
+Network (4,039 users) and the Koo microblogging dataset (1M posts, 1M
+comments). The average CPRS is 0.478 with equal weighting, rising to 0.501 in
+graph-sensitive scenarios. Component-wise, graph-based risks (mean 0.52)
+surpass content (0.48) and profile attributes (0.45). High-risk attributes
+include email, date of birth, and mobile number. Our user study with 100
+participants shows 85% rated the dashboard as clear and actionable, confirming
+CPRS's practical utility. This work enables personalized privacy risk insights
+and contributes a holistic, scalable methodology for privacy management. Future
+directions include incorporating temporal dynamics and multimodal content for
+broader applicability.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.14985v1">Metaverse Security and Privacy Research: A Systematic Review</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
+  <p><b>Published on:</b> 2025-07-20T14:42:17Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Argianto Rahartomo, Leonel Merino, Mohammad Ghafari</p>
+    <p><b>Summary:</b> The rapid growth of metaverse technologies, including virtual worlds,
+augmented reality, and lifelogging, has accelerated their adoption across
+diverse domains. This rise exposes users to significant new security and
+privacy challenges due to sociotechnical complexity, pervasive connectivity,
+and extensive user data collection in immersive environments. We present a
+systematic review of the literature published between 2013 and 2024, offering a
+comprehensive analysis of how the research community has addressed
+metaverse-related security and privacy issues over the past decade. We organize
+the studies by method, examined the security and privacy properties, immersive
+components, and evaluation strategies. Our investigation reveals a sharp
+increase in research activity in the last five years, a strong focus on
+practical and user-centered approaches, and a predominant use of benchmarking,
+human experimentation, and qualitative methods. Authentication and
+unobservability are the most frequently studied properties. However, critical
+gaps remain in areas such as policy compliance, accessibility,
+interoperability, and back-end infrastructure security. We emphasize the
+intertwined technical complexity and human factors of the metaverse and call
+for integrated, interdisciplinary approaches to securing inclusive and
+trustworthy immersive environments.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.14853v1">A Privacy-Centric Approach: Scalable and Secure Federated Learning
+  Enabled by Hybrid Homomorphic Encryption</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-07-20T07:46:53Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Khoa Nguyen, Tanveer Khan, Antonis Michalas</p>
+    <p><b>Summary:</b> Federated Learning (FL) enables collaborative model training without sharing
+raw data, making it a promising approach for privacy-sensitive domains. Despite
+its potential, FL faces significant challenges, particularly in terms of
+communication overhead and data privacy. Privacy-preserving Techniques (PPTs)
+such as Homomorphic Encryption (HE) have been used to mitigate these concerns.
+However, these techniques introduce substantial computational and communication
+costs, limiting their practical deployment. In this work, we explore how Hybrid
+Homomorphic Encryption (HHE), a cryptographic protocol that combines symmetric
+encryption with HE, can be effectively integrated with FL to address both
+communication and privacy challenges, paving the way for scalable and secure
+decentralized learning system.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.14713v1">Privacy-Preserving Drone Navigation Through Homomorphic Encryption for
+  Collision Avoidance</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E">
+  <p><b>Published on:</b> 2025-07-19T18:16:02Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Allan Luedeman, Nicholas Baum, Andrew Quijano, Kemal Akkaya</p>
+    <p><b>Summary:</b> As drones increasingly deliver packages in neighborhoods, concerns about
+collisions arise. One solution is to share flight paths within a specific zip
+code, but this compromises business privacy by revealing delivery routes. For
+example, it could disclose which stores send packages to certain addresses. To
+avoid exposing path information, we propose using homomorphic encryption-based
+comparison to compute path intersections. This allows drones to identify
+potential collisions without revealing path and destination details, allowing
+them to adjust altitude to avoid crashes. We implemented and tested our
+approach on resource-limited virtual machines to mimic the computational power
+of drones. Our results demonstrate that our method is significantly faster and
+requires less network communication compared to a garbled circuit-based
+approach. We also provide a security analysis of the approach against potential
+attacks.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.14629v1">VMask: Tunable Label Privacy Protection for Vertical Federated Learning
+  via Layer Masking</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-07-19T13:51:09Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Juntao Tan, Lan Zhang, Zhonghao Hu, Kai Yang, Peng Ran, Bo Li</p>
+    <p><b>Summary:</b> Though vertical federated learning (VFL) is generally considered to be
+privacy-preserving, recent studies have shown that VFL system is vulnerable to
+label inference attacks originating from various attack surfaces. Among these
+attacks, the model completion (MC) attack is currently the most powerful one.
+Existing defense methods against it either sacrifice model accuracy or incur
+impractical computational overhead. In this paper, we propose VMask, a novel
+label privacy protection framework designed to defend against MC attack from
+the perspective of layer masking. Our key insight is to disrupt the strong
+correlation between input data and intermediate outputs by applying the secret
+sharing (SS) technique to mask layer parameters in the attacker's model. We
+devise a strategy for selecting critical layers to mask, reducing the overhead
+that would arise from naively applying SS to the entire model. Moreover, VMask
+is the first framework to offer a tunable privacy budget to defenders, allowing
+for flexible control over the levels of label privacy according to actual
+requirements. We built a VFL system, implemented VMask on it, and extensively
+evaluated it using five model architectures and 13 datasets with different
+modalities, comparing it to 12 other defense methods. The results demonstrate
+that VMask achieves the best privacy-utility trade-off, successfully thwarting
+the MC attack (reducing the label inference accuracy to a random guessing
+level) while preserving model performance (e.g., in Transformer-based model,
+the averaged drop of VFL model accuracy is only 0.09%). VMask's runtime is up
+to 60,846 times faster than cryptography-based methods, and it only marginally
+exceeds that of standard VFL by 1.8 times in a large Transformer-based model,
+which is generally acceptable.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.14519v1">Towards Efficient Privacy-Preserving Machine Learning: A Systematic
+  Review from Protocol, Model, and System Perspectives</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-07-19T07:45:39Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Wenxuan Zeng, Tianshi Xu, Yi Chen, Yifan Zhou, Mingzhe Zhang, Jin Tan, Cheng Hong, Meng Li</p>
+    <p><b>Summary:</b> Privacy-preserving machine learning (PPML) based on cryptographic protocols
+has emerged as a promising paradigm to protect user data privacy in cloud-based
+machine learning services. While it achieves formal privacy protection, PPML
+often incurs significant efficiency and scalability costs due to orders of
+magnitude overhead compared to the plaintext counterpart. Therefore, there has
+been a considerable focus on mitigating the efficiency gap for PPML. In this
+survey, we provide a comprehensive and systematic review of recent PPML studies
+with a focus on cross-level optimizations. Specifically, we categorize existing
+papers into protocol level, model level, and system level, and review progress
+at each level. We also provide qualitative and quantitative comparisons of
+existing works with technical insights, based on which we discuss future
+research directions and highlight the necessity of integrating optimizations
+across protocol, model, and system levels. We hope this survey can provide an
+overarching understanding of existing approaches and potentially inspire future
+breakthroughs in the PPML field. As the field is evolving fast, we also provide
+a public GitHub repository to continuously track the developments, which is
+available at https://github.com/PKU-SEC-Lab/Awesome-PPML-Papers.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2507.13981v1">Evaluation of Human Visual Privacy Protection: A Three-Dimensional
   Framework and Benchmark Dataset</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
@@ -267,6 +504,43 @@ designing privacy controls that: enhance awareness through pop-up nudges and
 notices; offer a table of contents as navigational aids and customized settings
 links in policies for more informed choice; and ensure accessibility via direct
 links to privacy settings from nudges.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.14214v1">Let's Measure the Elephant in the Room: Facilitating Personalized
+  Automated Analysis of Privacy Policies at Scale</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2025-07-15T20:19:33Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Rui Zhao, Vladyslav Melnychuk, Jun Zhao, Jesse Wright, Nigel Shadbolt</p>
+    <p><b>Summary:</b> In modern times, people have numerous online accounts, but they rarely read
+the Terms of Service or Privacy Policy of those sites despite claiming
+otherwise. This paper introduces PoliAnalyzer, a neuro-symbolic system that
+assists users with personalized privacy policy analysis. PoliAnalyzer uses
+Natural Language Processing (NLP) to extract formal representations of data
+usage practices from policy texts. In favor of deterministic, logical inference
+is applied to compare user preferences with the formal privacy policy
+representation and produce a compliance report. To achieve this, we extend an
+existing formal Data Terms of Use policy language to model privacy policies as
+app policies and user preferences as data policies. In our evaluation using our
+enriched PolicyIE dataset curated by legal experts, PoliAnalyzer demonstrated
+high accuracy in identifying relevant data usage practices, achieving F1-score
+of 90-100% across most tasks. Additionally, we demonstrate how PoliAnalyzer can
+model diverse user data-sharing preferences, derived from prior research as 23
+user profiles, and perform compliance analysis against the top 100 most-visited
+websites. This analysis revealed that, on average, 95.2% of a privacy policy's
+segments do not conflict with the analyzed user preferences, enabling users to
+concentrate on understanding the 4.8% (636 / 13205) that violates preferences,
+significantly reducing cognitive burden. Further, we identified common
+practices in privacy policies that violate user expectations - such as the
+sharing of location data with 3rd parties. This paper demonstrates that
+PoliAnalyzer can support automated personalized privacy policy analysis at
+scale using off-the-shelf NLP tools. This sheds light on a pathway to help
+individuals regain control over their data and encourage societal discussions
+on platform data practices to promote a fairer power dynamic.</p>
   </details>
 </div>
 
@@ -677,7 +951,7 @@ models empirically.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.09051v1">SAGE: A Context-Aware Approach for Mining Privacy Requirements Relevant
+  <h3><a href="http://arxiv.org/abs/2507.09051v2">SAGE: A Context-Aware Approach for Mining Privacy Requirements Relevant
   Reviews from Mental Health Apps</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
   <p><b>Published on:</b> 2025-07-11T21:53:56Z</p>
@@ -2019,8 +2293,8 @@ both synthetic and real-world datasets.</p>
 <h2>2025-06</h2>
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.00286v1">Visual Privacy Management with Generative AI for Blind and Low-Vision
-  People</a></h3>
+  <h3><a href="http://arxiv.org/abs/2507.00286v2">"Before, I Asked My Mom, Now I Ask ChatGPT": Visual Privacy Management
+  with Generative AI for Blind and Low-Vision People</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E">
   <p><b>Published on:</b> 2025-06-30T21:55:21Z</p>
   <details>
@@ -2689,281 +2963,6 @@ universities across 12 countries, we identify key challenges and opportunities
 institutions face in providing effective privacy and security protections,
 including the need for GenAI safeguards tailored specifically to the academic
 context.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.20413v1">Client Clustering Meets Knowledge Sharing: Enhancing Privacy and
-  Robustness in Personalized Peer-to-Peer Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-06-25T13:27:36Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mohammad Mahdi Maheri, Denys Herasymuk, Hamed Haddadi</p>
-    <p><b>Summary:</b> The growing adoption of Artificial Intelligence (AI) in Internet of Things
-(IoT) ecosystems has intensified the need for personalized learning methods
-that can operate efficiently and privately across heterogeneous,
-resource-constrained devices. However, enabling effective personalized learning
-in decentralized settings introduces several challenges, including efficient
-knowledge transfer between clients, protection of data privacy, and resilience
-against poisoning attacks. In this paper, we address these challenges by
-developing P4 (Personalized, Private, Peer-to-Peer) -- a method designed to
-deliver personalized models for resource-constrained IoT devices while ensuring
-differential privacy and robustness against poisoning attacks. Our solution
-employs a lightweight, fully decentralized algorithm to privately detect client
-similarity and form collaborative groups. Within each group, clients leverage
-differentially private knowledge distillation to co-train their models,
-maintaining high accuracy while ensuring robustness to the presence of
-malicious clients. We evaluate P4 on popular benchmark datasets using both
-linear and CNN-based architectures across various heterogeneity settings and
-attack scenarios. Experimental results show that P4 achieves 5% to 30% higher
-accuracy than leading differentially private peer-to-peer approaches and
-maintains robustness with up to 30% malicious clients. Additionally, we
-demonstrate its practicality by deploying it on resource-constrained devices,
-where collaborative training between two clients adds only ~7 seconds of
-overhead.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.20290v1">Don't Hash Me Like That: Exposing and Mitigating Hash-Induced Unfairness
-  in Local Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-06-25T09:48:30Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Berkay Kemal Balioglu, Alireza Khodaie, Mehmet Emre Gursoy</p>
-    <p><b>Summary:</b> Local differential privacy (LDP) has become a widely accepted framework for
-privacy-preserving data collection. In LDP, many protocols rely on hash
-functions to implement user-side encoding and perturbation. However, the
-security and privacy implications of hash function selection have not been
-previously investigated. In this paper, we expose that the hash functions may
-act as a source of unfairness in LDP protocols. We show that although users
-operate under the same protocol and privacy budget, differences in hash
-functions can lead to significant disparities in vulnerability to inference and
-poisoning attacks. To mitigate hash-induced unfairness, we propose Fair-OLH
-(F-OLH), a variant of OLH that enforces an entropy-based fairness constraint on
-hash function selection. Experiments show that F-OLH is effective in mitigating
-hash-induced unfairness under acceptable time overheads.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.20234v1">Communication-Efficient Publication of Sparse Vectors under Differential
-  Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-06-25T08:25:46Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Quentin Hillebrand, Vorapong Suppakitpaisarn, Tetsuo Shibuya</p>
-    <p><b>Summary:</b> In this work, we propose a differentially private algorithm for publishing
-matrices aggregated from sparse vectors. These matrices include social network
-adjacency matrices, user-item interaction matrices in recommendation systems,
-and single nucleotide polymorphisms (SNPs) in DNA data. Traditionally,
-differential privacy in vector collection relies on randomized response, but
-this approach incurs high communication costs. Specifically, for a matrix with
-$N$ users, $n$ columns, and $m$ nonzero elements, conventional methods require
-$\Omega(n \times N)$ communication, making them impractical for large-scale
-data. Our algorithm significantly reduces this cost to $O(\varepsilon m)$,
-where $\varepsilon$ is the privacy budget. Notably, this is even lower than the
-non-private case, which requires $\Omega(m \log n)$ communication. Moreover, as
-the privacy budget decreases, communication cost further reduces, enabling
-better privacy with improved efficiency. We theoretically prove that our method
-yields results identical to those of randomized response, and experimental
-evaluations confirm its effectiveness in terms of accuracy, communication
-efficiency, and computational complexity.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.20207v1">User Understanding of Privacy Permissions in Mobile Augmented Reality:
-  Perceptions and Misconceptions</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2025-06-25T07:52:12Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Viktorija Paneva, Verena Winterhalter, Franziska Augustinowski, Florian Alt</p>
-    <p><b>Summary:</b> Mobile Augmented Reality (AR) applications leverage various sensors to
-provide immersive user experiences. However, their reliance on diverse data
-sources introduces significant privacy challenges. This paper investigates user
-perceptions and understanding of privacy permissions in mobile AR apps through
-an analysis of existing applications and an online survey of 120 participants.
-Findings reveal common misconceptions, including confusion about how
-permissions relate to specific AR functionalities (e.g., location and
-measurement of physical distances), and misinterpretations of permission labels
-(e.g., conflating camera and gallery access). We identify a set of actionable
-implications for designing more usable and transparent privacy mechanisms
-tailored to mobile AR technologies, including contextual explanations, modular
-permission requests, and clearer permission labels. These findings offer
-actionable guidance for developers, researchers, and policymakers working to
-enhance privacy frameworks in mobile AR.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.20101v1">Secure Multi-Key Homomorphic Encryption with Application to
-  Privacy-Preserving Federated Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-06-25T03:28:25Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jiahui Wu, Tiecheng Sun, Fucai Luo, Haiyan Wang, Weizhe Zhang</p>
-    <p><b>Summary:</b> Multi-Key Homomorphic Encryption (MKHE), proposed by Lopez-Alt et al. (STOC
-2012), allows for performing arithmetic computations directly on ciphertexts
-encrypted under distinct keys. Subsequent works by Chen and Dai et al. (CCS
-2019) and Kim and Song et al. (CCS 2023) extended this concept by proposing
-multi-key BFV/CKKS variants, referred to as the CDKS scheme. These variants
-incorporate asymptotically optimal techniques to facilitate secure computation
-across multiple data providers. In this paper, we identify a critical security
-vulnerability in the CDKS scheme when applied to multiparty secure computation
-tasks, such as privacy-preserving federated learning (PPFL). In particular, we
-show that CDKS may inadvertently leak plaintext information from one party to
-others. To mitigate this issue, we propose a new scheme, SMHE (Secure Multi-Key
-Homomorphic Encryption), which incorporates a novel masking mechanism into the
-multi-key BFV and CKKS frameworks to ensure that plaintexts remain confidential
-throughout the computation. We implement a PPFL application using SMHE and
-demonstrate that it provides significantly improved security with only a modest
-overhead in homomorphic evaluation. For instance, our PPFL model based on
-multi-key CKKS incurs less than a 2\times runtime and communication traffic
-increase compared to the CDKS-based PPFL model. The code is publicly available
-at https://github.com/JiahuiWu2022/SMHE.git.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.19836v1">Machine Learning with Privacy for Protected Attributes</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-06-24T17:53:28Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Saeed Mahloujifar, Chuan Guo, G. Edward Suh, Kamalika Chaudhuri</p>
-    <p><b>Summary:</b> Differential privacy (DP) has become the standard for private data analysis.
-Certain machine learning applications only require privacy protection for
-specific protected attributes. Using naive variants of differential privacy in
-such use cases can result in unnecessary degradation of utility. In this work,
-we refine the definition of DP to create a more general and flexible framework
-that we call feature differential privacy (FDP). Our definition is
-simulation-based and allows for both addition/removal and replacement variants
-of privacy, and can handle arbitrary and adaptive separation of protected and
-non-protected features. We prove the properties of FDP, such as adaptive
-composition, and demonstrate its implications for limiting attribute inference
-attacks. We also propose a modification of the standard DP-SGD algorithm that
-satisfies FDP while leveraging desirable properties such as amplification via
-sub-sampling. We apply our framework to various machine learning tasks and show
-that it can significantly improve the utility of DP-trained models when public
-features are available. For example, we train diffusion models on the AFHQ
-dataset of animal faces and observe a drastic improvement in FID compared to
-DP, from 286.7 to 101.9 at $\epsilon=8$, assuming that the blurred version of a
-training image is available as a public feature. Overall, our work provides a
-new approach to private data analysis that can help reduce the utility cost of
-DP while still providing strong privacy guarantees.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.19563v1">PrivacyXray: Detecting Privacy Breaches in LLMs through Semantic
-  Consistency and Probability Certainty</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-06-24T12:22:59Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jinwen He, Yiyang Lu, Zijin Lin, Kai Chen, Yue Zhao</p>
-    <p><b>Summary:</b> Large Language Models (LLMs) are widely used in sensitive domains, including
-healthcare, finance, and legal services, raising concerns about potential
-private information leaks during inference. Privacy extraction attacks, such as
-jailbreaking, expose vulnerabilities in LLMs by crafting inputs that force the
-models to output sensitive information. However, these attacks cannot verify
-whether the extracted private information is accurate, as no public datasets
-exist for cross-validation, leaving a critical gap in private information
-detection during inference. To address this, we propose PrivacyXray, a novel
-framework detecting privacy breaches by analyzing LLM inner states. Our
-analysis reveals that LLMs exhibit higher semantic coherence and probabilistic
-certainty when generating correct private outputs. Based on this, PrivacyXray
-detects privacy breaches using four metrics: intra-layer and inter-layer
-semantic similarity, token-level and sentence-level probability distributions.
-PrivacyXray addresses critical challenges in private information detection by
-overcoming the lack of open-source private datasets and eliminating reliance on
-external data for validation. It achieves this through the synthesis of
-realistic private data and a detection mechanism based on the inner states of
-LLMs. Experiments show that PrivacyXray achieves consistent performance, with
-an average accuracy of 92.69% across five LLMs. Compared to state-of-the-art
-methods, PrivacyXray achieves significant improvements, with an average
-accuracy increase of 20.06%, highlighting its stability and practical utility
-in real-world applications.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.19486v1">Recalling The Forgotten Class Memberships: Unlearned Models Can Be Noisy
-  Labelers to Leak Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-06-24T10:21:10Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zhihao Sui, Liang Hu, Jian Cao, Dora D. Liu, Usman Naseem, Zhongyuan Lai, Qi Zhang</p>
-    <p><b>Summary:</b> Machine Unlearning (MU) technology facilitates the removal of the influence
-of specific data instances from trained models on request. Despite rapid
-advancements in MU technology, its vulnerabilities are still underexplored,
-posing potential risks of privacy breaches through leaks of ostensibly
-unlearned information. Current limited research on MU attacks requires access
-to original models containing privacy data, which violates the critical
-privacy-preserving objective of MU. To address this gap, we initiate an
-innovative study on recalling the forgotten class memberships from unlearned
-models (ULMs) without requiring access to the original one. Specifically, we
-implement a Membership Recall Attack (MRA) framework with a teacher-student
-knowledge distillation architecture, where ULMs serve as noisy labelers to
-transfer knowledge to student models. Then, it is translated into a Learning
-with Noisy Labels (LNL) problem for inferring the correct labels of the
-forgetting instances. Extensive experiments on state-of-the-art MU methods with
-multiple real datasets demonstrate that the proposed MRA strategy exhibits high
-efficacy in recovering class memberships of unlearned instances. As a result,
-our study and evaluation have established a benchmark for future research on MU
-vulnerabilities.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.19393v1">ZK-SERIES: Privacy-Preserving Authentication using Temporal Biometric
-  Data</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-06-24T07:45:43Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Daniel Reijsbergen, Eyasu Getahun Chekole, Howard Halim, Jianying Zhou</p>
-    <p><b>Summary:</b> Biometric authentication relies on physiological or behavioral traits that
-are inherent to a user, making them difficult to lose, forge or forget.
-Biometric data with a temporal component enable the following authentication
-protocol: recent readings of the underlying biometrics are encoded as time
-series and compared to a set of base readings. If the distance between the new
-readings and the base readings falls within an acceptable threshold, then the
-user is successfully authenticated. Various methods exist for comparing time
-series data, such as Dynamic Time Warping (DTW) and the Time Warp Edit Distance
-(TWED), each offering advantages and drawbacks depending on the context.
-Moreover, many of these techniques do not inherently preserve privacy, which is
-a critical consideration in biometric authentication due to the complexity of
-resetting biometric credentials.
-  In this work, we propose ZK-SERIES to provide privacy and efficiency to a
-broad spectrum of time series-based authentication protocols. ZK-SERIES uses
-the same building blocks, i.e., zero-knowledge multiplication proofs and
-efficiently batched range proofs, to ensure consistency across all protocols.
-Furthermore, it is optimized for compatibility with low-capacity devices such
-as smartphones. To assess the effectiveness of our proposed technique, we
-primarily focus on two case studies for biometric authentication: shake-based
-and blow-based authentication. To demonstrate ZK-SERIES's practical
-applicability even in older and less powerful smartphones, we conduct
-experiments on a 5-year-old low-spec smartphone using real data for two case
-studies alongside scalability assessments using artificial data. Our
-experimental results indicate that the privacy-preserving authentication
-protocol can be completed within 1.3 seconds on older devices.</p>
   </details>
 </div>
 
