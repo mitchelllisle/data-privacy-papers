@@ -4098,5 +4098,43 @@
       "cs.CR",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.00286v2",
+    "title" : "\"Before, I Asked My Mom, Now I Ask ChatGPT\": Visual Privacy Management\n  with Generative AI for Blind and Low-Vision People",
+    "summary" : "Blind and low vision (BLV) individuals use Generative AI (GenAI) tools to\ninterpret and manage visual content in their daily lives. While such tools can\nenhance the accessibility of visual content and so enable greater user\nindependence, they also introduce complex challenges around visual privacy. In\nthis paper, we investigate the current practices and future design preferences\nof blind and low vision individuals through an interview study with 21\nparticipants. Our findings reveal a range of current practices with GenAI that\nbalance privacy, efficiency, and emotional agency, with users accounting for\nprivacy risks across six key scenarios, such as self-presentation,\nindoor/outdoor spatial privacy, social sharing, and handling professional\ncontent. Our findings reveal design preferences, including on-device\nprocessing, zero-retention guarantees, sensitive content redaction,\nprivacy-aware appearance indicators, and multimodal tactile mirrored\ninteraction methods. We conclude with actionable design recommendations to\nsupport user-centered visual privacy through GenAI, expanding the notion of\nprivacy and responsible handling of others data.",
+    "updated" : "2025-07-19T04:31:05Z",
+    "published" : "2025-06-30T21:55:21Z",
+    "authors" : [
+      {
+        "name" : "Tanusree Sharma"
+      },
+      {
+        "name" : "Yu-Yun Tseng"
+      },
+      {
+        "name" : "Lotus Zhang"
+      },
+      {
+        "name" : "Ayae Ide"
+      },
+      {
+        "name" : "Kelly Avery Mack"
+      },
+      {
+        "name" : "Leah Findlater"
+      },
+      {
+        "name" : "Danna Gurari"
+      },
+      {
+        "name" : "Yang Wang"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "cs.AI",
+      "cs.ET"
+    ]
   }
 ]
