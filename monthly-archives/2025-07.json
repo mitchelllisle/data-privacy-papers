@@ -1867,5 +1867,261 @@
       "cs.ET",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.15836v1",
+    "title" : "Optimizing Canaries for Privacy Auditing with Metagradient Descent",
+    "summary" : "In this work we study black-box privacy auditing, where the goal is to lower\nbound the privacy parameter of a differentially private learning algorithm\nusing only the algorithm's outputs (i.e., final trained model). For DP-SGD (the\nmost successful method for training differentially private deep learning\nmodels), the canonical approach auditing uses membership inference-an auditor\ncomes with a small set of special \"canary\" examples, inserts a random subset of\nthem into the training set, and then tries to discern which of their canaries\nwere included in the training set (typically via a membership inference\nattack). The auditor's success rate then provides a lower bound on the privacy\nparameters of the learning algorithm. Our main contribution is a method for\noptimizing the auditor's canary set to improve privacy auditing, leveraging\nrecent work on metagradient optimization. Our empirical evaluation demonstrates\nthat by using such optimized canaries, we can improve empirical lower bounds\nfor differentially private image classification models by over 2x in certain\ninstances. Furthermore, we demonstrate that our method is transferable and\nefficient: canaries optimized for non-private SGD with a small model\narchitecture remain effective when auditing larger models trained with DP-SGD.",
+    "updated" : "2025-07-21T17:47:33Z",
+    "published" : "2025-07-21T17:47:33Z",
+    "authors" : [
+      {
+        "name" : "Matteo Boglioni"
+      },
+      {
+        "name" : "Terrance Liu"
+      },
+      {
+        "name" : "Andrew Ilyas"
+      },
+      {
+        "name" : "Zhiwei Steven Wu"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.15460v1",
+    "title" : "Privacy-Preserving Multimodal News Recommendation through Federated\n  Learning",
+    "summary" : "Personalized News Recommendation systems (PNR) have emerged as a solution to\ninformation overload by predicting and suggesting news items tailored to\nindividual user interests. However, traditional PNR systems face several\nchallenges, including an overreliance on textual content, common neglect of\nshort-term user interests, and significant privacy concerns due to centralized\ndata storage. This paper addresses these issues by introducing a novel\nmultimodal federated learning-based approach for news recommendation. First, it\nintegrates both textual and visual features of news items using a multimodal\nmodel, enabling a more comprehensive representation of content. Second, it\nemploys a time-aware model that balances users' long-term and short-term\ninterests through multi-head self-attention networks, improving recommendation\naccuracy. Finally, to enhance privacy, a federated learning framework is\nimplemented, enabling collaborative model training without sharing user data.\nThe framework divides the recommendation model into a large server-maintained\nnews model and a lightweight user model shared between the server and clients.\nThe client requests news representations (vectors) and a user model from the\ncentral server, then computes gradients with user local data, and finally sends\ntheir locally computed gradients to the server for aggregation. The central\nserver aggregates gradients to update the global user model and news model. The\nupdated news model is further used to infer news representation by the server.\nTo further safeguard user privacy, a secure aggregation algorithm based on\nShamir's secret sharing is employed. Experiments on a real-world news dataset\ndemonstrate strong performance compared to existing systems, representing a\nsignificant advancement in privacy-preserving personalized news recommendation.",
+    "updated" : "2025-07-21T10:14:00Z",
+    "published" : "2025-07-21T10:14:00Z",
+    "authors" : [
+      {
+        "name" : "Mehdi Khalaj"
+      },
+      {
+        "name" : "Shahrzad Golestani Najafabadi"
+      },
+      {
+        "name" : "Julita Vassileva"
+      }
+    ],
+    "categories" : [
+      "cs.SI",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.15124v1",
+    "title" : "Comprehensive Privacy Risk Assessment in Social Networks Using User\n  Attributes Social Graphs and Text Analysis",
+    "summary" : "The rise of social networking platforms has amplified privacy threats as\nusers increasingly share sensitive information across profiles, content, and\nsocial connections. We present a Comprehensive Privacy Risk Scoring (CPRS)\nframework that quantifies privacy risk by integrating user attributes, social\ngraph structures, and user-generated content. Our framework computes risk\nscores across these dimensions using sensitivity, visibility, structural\nsimilarity, and entity-level analysis, then aggregates them into a unified risk\nscore. We validate CPRS on two real-world datasets: the SNAP Facebook Ego\nNetwork (4,039 users) and the Koo microblogging dataset (1M posts, 1M\ncomments). The average CPRS is 0.478 with equal weighting, rising to 0.501 in\ngraph-sensitive scenarios. Component-wise, graph-based risks (mean 0.52)\nsurpass content (0.48) and profile attributes (0.45). High-risk attributes\ninclude email, date of birth, and mobile number. Our user study with 100\nparticipants shows 85% rated the dashboard as clear and actionable, confirming\nCPRS's practical utility. This work enables personalized privacy risk insights\nand contributes a holistic, scalable methodology for privacy management. Future\ndirections include incorporating temporal dynamics and multimodal content for\nbroader applicability.",
+    "updated" : "2025-07-20T21:18:50Z",
+    "published" : "2025-07-20T21:18:50Z",
+    "authors" : [
+      {
+        "name" : "Md Jahangir Alam"
+      },
+      {
+        "name" : "Ismail Hossain"
+      },
+      {
+        "name" : "Sai Puppala"
+      },
+      {
+        "name" : "Sajedul Talukder"
+      }
+    ],
+    "categories" : [
+      "cs.SI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.14985v1",
+    "title" : "Metaverse Security and Privacy Research: A Systematic Review",
+    "summary" : "The rapid growth of metaverse technologies, including virtual worlds,\naugmented reality, and lifelogging, has accelerated their adoption across\ndiverse domains. This rise exposes users to significant new security and\nprivacy challenges due to sociotechnical complexity, pervasive connectivity,\nand extensive user data collection in immersive environments. We present a\nsystematic review of the literature published between 2013 and 2024, offering a\ncomprehensive analysis of how the research community has addressed\nmetaverse-related security and privacy issues over the past decade. We organize\nthe studies by method, examined the security and privacy properties, immersive\ncomponents, and evaluation strategies. Our investigation reveals a sharp\nincrease in research activity in the last five years, a strong focus on\npractical and user-centered approaches, and a predominant use of benchmarking,\nhuman experimentation, and qualitative methods. Authentication and\nunobservability are the most frequently studied properties. However, critical\ngaps remain in areas such as policy compliance, accessibility,\ninteroperability, and back-end infrastructure security. We emphasize the\nintertwined technical complexity and human factors of the metaverse and call\nfor integrated, interdisciplinary approaches to securing inclusive and\ntrustworthy immersive environments.",
+    "updated" : "2025-07-20T14:42:17Z",
+    "published" : "2025-07-20T14:42:17Z",
+    "authors" : [
+      {
+        "name" : "Argianto Rahartomo"
+      },
+      {
+        "name" : "Leonel Merino"
+      },
+      {
+        "name" : "Mohammad Ghafari"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.ET",
+      "cs.HC",
+      "cs.SE"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.14853v1",
+    "title" : "A Privacy-Centric Approach: Scalable and Secure Federated Learning\n  Enabled by Hybrid Homomorphic Encryption",
+    "summary" : "Federated Learning (FL) enables collaborative model training without sharing\nraw data, making it a promising approach for privacy-sensitive domains. Despite\nits potential, FL faces significant challenges, particularly in terms of\ncommunication overhead and data privacy. Privacy-preserving Techniques (PPTs)\nsuch as Homomorphic Encryption (HE) have been used to mitigate these concerns.\nHowever, these techniques introduce substantial computational and communication\ncosts, limiting their practical deployment. In this work, we explore how Hybrid\nHomomorphic Encryption (HHE), a cryptographic protocol that combines symmetric\nencryption with HE, can be effectively integrated with FL to address both\ncommunication and privacy challenges, paving the way for scalable and secure\ndecentralized learning system.",
+    "updated" : "2025-07-20T07:46:53Z",
+    "published" : "2025-07-20T07:46:53Z",
+    "authors" : [
+      {
+        "name" : "Khoa Nguyen"
+      },
+      {
+        "name" : "Tanveer Khan"
+      },
+      {
+        "name" : "Antonis Michalas"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.14713v1",
+    "title" : "Privacy-Preserving Drone Navigation Through Homomorphic Encryption for\n  Collision Avoidance",
+    "summary" : "As drones increasingly deliver packages in neighborhoods, concerns about\ncollisions arise. One solution is to share flight paths within a specific zip\ncode, but this compromises business privacy by revealing delivery routes. For\nexample, it could disclose which stores send packages to certain addresses. To\navoid exposing path information, we propose using homomorphic encryption-based\ncomparison to compute path intersections. This allows drones to identify\npotential collisions without revealing path and destination details, allowing\nthem to adjust altitude to avoid crashes. We implemented and tested our\napproach on resource-limited virtual machines to mimic the computational power\nof drones. Our results demonstrate that our method is significantly faster and\nrequires less network communication compared to a garbled circuit-based\napproach. We also provide a security analysis of the approach against potential\nattacks.",
+    "updated" : "2025-07-19T18:16:02Z",
+    "published" : "2025-07-19T18:16:02Z",
+    "authors" : [
+      {
+        "name" : "Allan Luedeman"
+      },
+      {
+        "name" : "Nicholas Baum"
+      },
+      {
+        "name" : "Andrew Quijano"
+      },
+      {
+        "name" : "Kemal Akkaya"
+      }
+    ],
+    "categories" : [
+      "cs.ET"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.14629v1",
+    "title" : "VMask: Tunable Label Privacy Protection for Vertical Federated Learning\n  via Layer Masking",
+    "summary" : "Though vertical federated learning (VFL) is generally considered to be\nprivacy-preserving, recent studies have shown that VFL system is vulnerable to\nlabel inference attacks originating from various attack surfaces. Among these\nattacks, the model completion (MC) attack is currently the most powerful one.\nExisting defense methods against it either sacrifice model accuracy or incur\nimpractical computational overhead. In this paper, we propose VMask, a novel\nlabel privacy protection framework designed to defend against MC attack from\nthe perspective of layer masking. Our key insight is to disrupt the strong\ncorrelation between input data and intermediate outputs by applying the secret\nsharing (SS) technique to mask layer parameters in the attacker's model. We\ndevise a strategy for selecting critical layers to mask, reducing the overhead\nthat would arise from naively applying SS to the entire model. Moreover, VMask\nis the first framework to offer a tunable privacy budget to defenders, allowing\nfor flexible control over the levels of label privacy according to actual\nrequirements. We built a VFL system, implemented VMask on it, and extensively\nevaluated it using five model architectures and 13 datasets with different\nmodalities, comparing it to 12 other defense methods. The results demonstrate\nthat VMask achieves the best privacy-utility trade-off, successfully thwarting\nthe MC attack (reducing the label inference accuracy to a random guessing\nlevel) while preserving model performance (e.g., in Transformer-based model,\nthe averaged drop of VFL model accuracy is only 0.09%). VMask's runtime is up\nto 60,846 times faster than cryptography-based methods, and it only marginally\nexceeds that of standard VFL by 1.8 times in a large Transformer-based model,\nwhich is generally acceptable.",
+    "updated" : "2025-07-19T13:51:09Z",
+    "published" : "2025-07-19T13:51:09Z",
+    "authors" : [
+      {
+        "name" : "Juntao Tan"
+      },
+      {
+        "name" : "Lan Zhang"
+      },
+      {
+        "name" : "Zhonghao Hu"
+      },
+      {
+        "name" : "Kai Yang"
+      },
+      {
+        "name" : "Peng Ran"
+      },
+      {
+        "name" : "Bo Li"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.14519v1",
+    "title" : "Towards Efficient Privacy-Preserving Machine Learning: A Systematic\n  Review from Protocol, Model, and System Perspectives",
+    "summary" : "Privacy-preserving machine learning (PPML) based on cryptographic protocols\nhas emerged as a promising paradigm to protect user data privacy in cloud-based\nmachine learning services. While it achieves formal privacy protection, PPML\noften incurs significant efficiency and scalability costs due to orders of\nmagnitude overhead compared to the plaintext counterpart. Therefore, there has\nbeen a considerable focus on mitigating the efficiency gap for PPML. In this\nsurvey, we provide a comprehensive and systematic review of recent PPML studies\nwith a focus on cross-level optimizations. Specifically, we categorize existing\npapers into protocol level, model level, and system level, and review progress\nat each level. We also provide qualitative and quantitative comparisons of\nexisting works with technical insights, based on which we discuss future\nresearch directions and highlight the necessity of integrating optimizations\nacross protocol, model, and system levels. We hope this survey can provide an\noverarching understanding of existing approaches and potentially inspire future\nbreakthroughs in the PPML field. As the field is evolving fast, we also provide\na public GitHub repository to continuously track the developments, which is\navailable at https://github.com/PKU-SEC-Lab/Awesome-PPML-Papers.",
+    "updated" : "2025-07-19T07:45:39Z",
+    "published" : "2025-07-19T07:45:39Z",
+    "authors" : [
+      {
+        "name" : "Wenxuan Zeng"
+      },
+      {
+        "name" : "Tianshi Xu"
+      },
+      {
+        "name" : "Yi Chen"
+      },
+      {
+        "name" : "Yifan Zhou"
+      },
+      {
+        "name" : "Mingzhe Zhang"
+      },
+      {
+        "name" : "Jin Tan"
+      },
+      {
+        "name" : "Cheng Hong"
+      },
+      {
+        "name" : "Meng Li"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.14214v1",
+    "title" : "Let's Measure the Elephant in the Room: Facilitating Personalized\n  Automated Analysis of Privacy Policies at Scale",
+    "summary" : "In modern times, people have numerous online accounts, but they rarely read\nthe Terms of Service or Privacy Policy of those sites despite claiming\notherwise. This paper introduces PoliAnalyzer, a neuro-symbolic system that\nassists users with personalized privacy policy analysis. PoliAnalyzer uses\nNatural Language Processing (NLP) to extract formal representations of data\nusage practices from policy texts. In favor of deterministic, logical inference\nis applied to compare user preferences with the formal privacy policy\nrepresentation and produce a compliance report. To achieve this, we extend an\nexisting formal Data Terms of Use policy language to model privacy policies as\napp policies and user preferences as data policies. In our evaluation using our\nenriched PolicyIE dataset curated by legal experts, PoliAnalyzer demonstrated\nhigh accuracy in identifying relevant data usage practices, achieving F1-score\nof 90-100% across most tasks. Additionally, we demonstrate how PoliAnalyzer can\nmodel diverse user data-sharing preferences, derived from prior research as 23\nuser profiles, and perform compliance analysis against the top 100 most-visited\nwebsites. This analysis revealed that, on average, 95.2% of a privacy policy's\nsegments do not conflict with the analyzed user preferences, enabling users to\nconcentrate on understanding the 4.8% (636 / 13205) that violates preferences,\nsignificantly reducing cognitive burden. Further, we identified common\npractices in privacy policies that violate user expectations - such as the\nsharing of location data with 3rd parties. This paper demonstrates that\nPoliAnalyzer can support automated personalized privacy policy analysis at\nscale using off-the-shelf NLP tools. This sheds light on a pathway to help\nindividuals regain control over their data and encourage societal discussions\non platform data practices to promote a fairer power dynamic.",
+    "updated" : "2025-07-15T20:19:33Z",
+    "published" : "2025-07-15T20:19:33Z",
+    "authors" : [
+      {
+        "name" : "Rui Zhao"
+      },
+      {
+        "name" : "Vladyslav Melnychuk"
+      },
+      {
+        "name" : "Jun Zhao"
+      },
+      {
+        "name" : "Jesse Wright"
+      },
+      {
+        "name" : "Nigel Shadbolt"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.CR",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.09051v2",
+    "title" : "SAGE: A Context-Aware Approach for Mining Privacy Requirements Relevant\n  Reviews from Mental Health Apps",
+    "summary" : "Mental health (MH) apps often require sensitive user data to customize\nservices for mental wellness needs. However, such data collection practices in\nsome MH apps raise significant privacy concerns for users. These concerns are\noften mentioned in app reviews, but other feedback categories, such as\nreliability and usability, tend to take precedence. This poses a significant\nchallenge in automatically identifying privacy requirements-relevant reviews\n(privacy reviews) that can be utilized to extract privacy requirements and\naddress users' privacy concerns. Thus, this study introduces SAGE, a\ncontext-aware approach to automatically mining privacy reviews from MH apps\nusing Natural Language Inference (NLI) with MH domain-specific privacy\nhypotheses (provides domain-specific context awareness) and a GPT model\n(eliminates the need for fine-tuning). The quantitative evaluation of SAGE on a\ndataset of 204K app reviews achieved an F1 score of 0.85 without any\nfine-tuning, outperforming the fine-tuned baseline classifiers BERT and T5.\nFurthermore, SAGE extracted 748 privacy reviews previously overlooked by\nkeyword-based methods, demonstrating its effectiveness through qualitative\nevaluation. These reviews can later be refined into actionable privacy\nrequirement artifacts.",
+    "updated" : "2025-07-20T04:37:04Z",
+    "published" : "2025-07-11T21:53:56Z",
+    "authors" : [
+      {
+        "name" : "Aakash Sorathiya"
+      },
+      {
+        "name" : "Gouri Ginde"
+      }
+    ],
+    "categories" : [
+      "cs.SE"
+    ]
   }
 ]
