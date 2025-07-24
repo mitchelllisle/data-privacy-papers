@@ -2,6 +2,183 @@
 <h2>2025-07</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.17516v1">Frequency Estimation of Correlated Multi-attribute Data under Local
+  Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-07-23T13:52:45Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shafizur Rahman Seeam, Ye Zheng, Yidan Hu</p>
+    <p><b>Summary:</b> Large-scale data collection, from national censuses to IoT-enabled smart
+homes, routinely gathers dozens of attributes per individual. These
+multi-attribute datasets are vital for analytics but pose significant privacy
+risks. Local Differential Privacy (LDP) is a powerful tool to protect user data
+privacy by allowing users to locally perturb their records before releasing to
+an untrusted data aggregator. However, existing LDP mechanisms either split the
+privacy budget across all attributes or treat each attribute independently,
+ignoring natural inter-attribute correlations. This leads to excessive noise or
+fragmented budgets, resulting in significant utility loss, particularly in
+high-dimensional settings.
+  To overcome these limitations, we propose Correlated Randomized Response
+(Corr-RR), a novel LDP mechanism that leverages correlations among attributes
+to substantially improve utility while maintaining rigorous LDP guarantees.
+Corr-RR allocates the full privacy budget to perturb a single, randomly
+selected attribute and reconstructs the remaining attributes using estimated
+interattribute dependencies, without incurring additional privacy cost. To
+enable this, Corr-RR operates in two phases: (1) a subset of users apply
+standard LDP mechanisms to estimate correlations, and (2) each remaining user
+perturbs one attribute and infers the others using the learned correlations. We
+theoretically prove that Corr-RR satisfies $\epsilon$-LDP, and extensive
+experiments on synthetic and real-world datasets demonstrate that Corr-RR
+consistently outperforms state-of-the-art LDP mechanisms, particularly in
+scenarios with many attributes and strong inter-attribute correlations.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.17228v1">P3SL: Personalized Privacy-Preserving Split Learning on Heterogeneous
+  Edge Devices</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
+  <p><b>Published on:</b> 2025-07-23T05:50:33Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Wei Fan, JinYi Yoon, Xiaochang Li, Huajie Shao, Bo Ji</p>
+    <p><b>Summary:</b> Split Learning (SL) is an emerging privacy-preserving machine learning
+technique that enables resource constrained edge devices to participate in
+model training by partitioning a model into client-side and server-side
+sub-models. While SL reduces computational overhead on edge devices, it
+encounters significant challenges in heterogeneous environments where devices
+vary in computing resources, communication capabilities, environmental
+conditions, and privacy requirements. Although recent studies have explored
+heterogeneous SL frameworks that optimize split points for devices with varying
+resource constraints, they often neglect personalized privacy requirements and
+local model customization under varying environmental conditions. To address
+these limitations, we propose P3SL, a Personalized Privacy-Preserving Split
+Learning framework designed for heterogeneous, resource-constrained edge device
+systems. The key contributions of this work are twofold. First, we design a
+personalized sequential split learning pipeline that allows each client to
+achieve customized privacy protection and maintain personalized local models
+tailored to their computational resources, environmental conditions, and
+privacy needs. Second, we adopt a bi-level optimization technique that empowers
+clients to determine their own optimal personalized split points without
+sharing private sensitive information (i.e., computational resources,
+environmental conditions, privacy requirements) with the server. This approach
+balances energy consumption and privacy leakage risks while maintaining high
+model accuracy. We implement and evaluate P3SL on a testbed consisting of 7
+devices including 4 Jetson Nano P3450 devices, 2 Raspberry Pis, and 1 laptop,
+using diverse model architectures and datasets under varying environmental
+conditions.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.17199v1">Threshold-Protected Searchable Sharing: Privacy Preserving
+  Aggregated-ANN Search for Collaborative RAG</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-07-23T04:45:01Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ruoyang Rykie Guo</p>
+    <p><b>Summary:</b> LLM-powered search services have driven data integration as a significant
+trend. However, this trend's progress is fundamentally hindered, despite the
+fact that combining individual knowledge can significantly improve the
+relevance and quality of responses in specialized queries and make AI more
+professional at providing services. Two key bottlenecks are private data
+repositories' locality constraints and the need to maintain compatibility with
+mainstream search techniques, particularly Hierarchical Navigable Small World
+(HNSW) indexing for high-dimensional vector spaces. In this work, we develop a
+secure and privacy-preserving aggregated approximate nearest neighbor search
+(SP-A$^2$NN) with HNSW compatibility under a threshold-based searchable sharing
+primitive. A sharable bitgraph structure is constructed and extended to support
+searches and dynamical insertions over shared data without compromising the
+underlying graph topology. The approach reduces the complexity of a search from
+$O(n^2)$ to $O(n)$ compared to naive (undirected) graph-sharing approach when
+organizing graphs in the identical HNSW manner.
+  On the theoretical front, we explore a novel security analytical framework
+that incorporates privacy analysis via reductions. The proposed
+leakage-guessing proof system is built upon an entirely different interactive
+game that is independent of existing coin-toss game design. Rather than being
+purely theoretical, this system is rooted in existing proof systems but goes
+beyond them to specifically address leakage concerns and standardize leakage
+analysis -- one of the most critical security challenges with AI's rapid
+development.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.17180v1">A Privacy-Preserving Data Collection Method for Diversified Statistical
+  Analysis</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-07-23T04:05:33Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Hao Jiang, Quan Zhou, Dongdong Zhao, Shangshang Yang, Wenjian Luo, Xingyi Zhang</p>
+    <p><b>Summary:</b> Data perturbation-based privacy-preserving methods have been widely adopted
+in various scenarios due to their efficiency and the elimination of the need
+for a trusted third party. However, these methods primarily focus on individual
+statistical indicators, neglecting the overall quality of the collected data
+from a distributional perspective. Consequently, they often fall short of
+meeting the diverse statistical analysis requirements encountered in practical
+data analysis. As a promising sensitive data perturbation method, negative
+survey methods is able to complete the task of collecting sensitive information
+distribution while protecting personal privacy. Yet, existing negative survey
+methods are primarily designed for discrete sensitive information and are
+inadequate for real-valued data distributions. To bridge this gap, this paper
+proposes a novel real-value negative survey model, termed RVNS, for the first
+time in the field of real-value sensitive information collection. The RVNS
+model exempts users from the necessity of discretizing their data and only
+requires them to sample a set of data from a range that deviates from their
+actual sensitive details, thereby preserving the privacy of their genuine
+information. Moreover, to accurately capture the distribution of sensitive
+information, an optimization problem is formulated, and a novel approach is
+employed to solve it. Rigorous theoretical analysis demonstrates that the RVNS
+model conforms to the differential privacy model, ensuring robust privacy
+preservation. Comprehensive experiments conducted on both synthetic and
+real-world datasets further validate the efficacy of the proposed method.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.17066v1">Risk In Context: Benchmarking Privacy Leakage of Foundation Models in
+  Synthetic Tabular Data Generation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
+  <p><b>Published on:</b> 2025-07-22T22:59:08Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jessup Byun, Xiaofeng Lin, Joshua Ward, Guang Cheng</p>
+    <p><b>Summary:</b> Synthetic tabular data is essential for machine learning workflows,
+especially for expanding small or imbalanced datasets and enabling
+privacy-preserving data sharing. However, state-of-the-art generative models
+(GANs, VAEs, diffusion models) rely on large datasets with thousands of
+examples. In low-data settings, often the primary motivation for synthetic
+data, these models can overfit, leak sensitive records, and require frequent
+retraining. Recent work uses large pre-trained transformers to generate rows
+via in-context learning (ICL), which needs only a few seed examples and no
+parameter updates, avoiding retraining. But ICL repeats seed rows verbatim,
+introducing a new privacy risk that has only been studied in text. The severity
+of this risk in tabular synthesis-where a single row may identify a
+person-remains unclear. We address this gap with the first benchmark of three
+foundation models (GPT-4o-mini, LLaMA 3.3 70B, TabPFN v2) against four
+baselines on 35 real-world tables from health, finance, and policy. We evaluate
+statistical fidelity, downstream utility, and membership inference leakage.
+Results show foundation models consistently have the highest privacy risk.
+LLaMA 3.3 70B reaches up to 54 percentage points higher true-positive rate at
+1% FPR than the safest baseline. GPT-4o-mini and TabPFN are also highly
+vulnerable. We plot the privacy-utility frontier and show that CTGAN and
+GPT-4o-mini offer better tradeoffs. A factorial study finds that three
+zero-cost prompt tweaks-small batch size, low temperature, and using summary
+statistics-can reduce worst-case AUC by 14 points and rare-class leakage by up
+to 39 points while maintaining over 90% fidelity. Our benchmark offers a
+practical guide for safer low-data synthesis with foundation models.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2507.16788v1">AUTOPSY: A Framework for Tackling Privacy Challenges in the Automotive
   Industry</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
@@ -28,7 +205,7 @@ services to evaluate the architectural framework.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.16391v1">Ironman: Accelerating Oblivious Transfer Extension for
+  <h3><a href="http://arxiv.org/abs/2507.16391v2">Ironman: Accelerating Oblivious Transfer Extension for
   Privacy-Preserving AI with Near-Memory Processing</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Hardware Architecture-04E762">
   <p><b>Published on:</b> 2025-07-22T09:35:59Z</p>
@@ -91,6 +268,42 @@ long medical consulting prompt can be nearly perfectly inverted with 86.88 F1
 token matching from the middle layer of Llama-3 model. Finally, we evaluate
 four practical defenses that we found cannot perfectly prevent ISs inversion
 and draw conclusions for future mitigation design.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.16872v1">CompLeak: Deep Learning Model Compression Exacerbates Privacy Leakage</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-07-22T08:02:46Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Na Li, Yansong Gao, Hongsheng Hu, Boyu Kuang, Anmin Fu</p>
+    <p><b>Summary:</b> Model compression is crucial for minimizing memory storage and accelerating
+inference in deep learning (DL) models, including recent foundation models like
+large language models (LLMs). Users can access different compressed model
+versions according to their resources and budget. However, while existing
+compression operations primarily focus on optimizing the trade-off between
+resource efficiency and model performance, the privacy risks introduced by
+compression remain overlooked and insufficiently understood.
+  In this work, through the lens of membership inference attack (MIA), we
+propose CompLeak, the first privacy risk evaluation framework examining three
+widely used compression configurations that are pruning, quantization, and
+weight clustering supported by the commercial model compression framework of
+Google's TensorFlow-Lite (TF-Lite) and Facebook's PyTorch Mobile. CompLeak has
+three variants, given available access to the number of compressed models and
+original model. CompLeakNR starts by adopting existing MIA methods to attack a
+single compressed model, and identifies that different compressed models
+influence members and non-members differently. When the original model and one
+compressed model are available, CompLeakSR leverages the compressed model as a
+reference to the original model and uncovers more privacy by combining meta
+information (e.g., confidence vector) from both models. When multiple
+compressed models are available with/without accessing the original model,
+CompLeakMR innovatively exploits privacy leakage info from multiple compressed
+versions to substantially signify the overall privacy leakage. We conduct
+extensive experiments on seven diverse model architectures (from ResNet to
+foundation models of BERT and GPT-2), and six image and textual benchmark
+datasets.</p>
   </details>
 </div>
 
@@ -278,7 +491,7 @@ architecture remain effective when auditing larger models trained with DP-SGD.</
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.15460v2">Privacy-Preserving Multimodal News Recommendation through Federated
+  <h3><a href="http://arxiv.org/abs/2507.15460v3">Privacy-Preserving Multimodal News Recommendation through Federated
   Learning</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Social and Information Networks-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2025-07-21T10:14:00Z</p>
@@ -2796,186 +3009,6 @@ on the random selection of clients in each training round, while FedGT lacks
 the CE ability. In this work, we combine the strengths of QI and FedGT to
 achieve both robust MD and accurate CE. Our experiments demonstrate superior
 performance compared to using either method independently.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.23481v1">Evaluation of Geolocation Capabilities of Multimodal Large Language
-  Models and Analysis of Associated Privacy Risks</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> 
-  <p><b>Published on:</b> 2025-06-30T03:05:30Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Xian Zhang, Xiang Cheng</p>
-    <p><b>Summary:</b> Objectives: The rapid advancement of Multimodal Large Language Models (MLLMs)
-has significantly enhanced their reasoning capabilities, enabling a wide range
-of intelligent applications. However, these advancements also raise critical
-concerns regarding privacy and ethics. MLLMs are now capable of inferring the
-geographic location of images -- such as those shared on social media or
-captured from street views -- based solely on visual content, thereby posing
-serious risks of privacy invasion, including doxxing, surveillance, and other
-security threats.
-  Methods: This study provides a comprehensive analysis of existing geolocation
-techniques based on MLLMs. It systematically reviews relevant litera-ture and
-evaluates the performance of state-of-the-art visual reasoning models on
-geolocation tasks, particularly in identifying the origins of street view
-imagery.
-  Results: Empirical evaluation reveals that the most advanced visual large
-models can successfully localize the origin of street-level imagery with up to
-$49\%$ accuracy within a 1-kilometer radius. This performance underscores the
-models' powerful capacity to extract and utilize fine-grained geographic cues
-from visual data.
-  Conclusions: Building on these findings, the study identifies key visual
-elements that contribute to suc-cessful geolocation, such as text,
-architectural styles, and environmental features. Furthermore, it discusses the
-potential privacy implications associated with MLLM-enabled geolocation and
-discuss several technical and policy-based coun-termeasures to mitigate
-associated risks. Our code and dataset are available at
-https://github.com/zxyl1003/MLLM-Geolocation-Evaluation.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.23014v1">Generating Privacy Stories From Software Documentation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-06-28T20:55:21Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Wilder Baldwin, Shashank Chintakuntla, Shreyah Parajuli, Ali Pourghasemi, Ryan Shanz, Sepideh Ghanavati</p>
-    <p><b>Summary:</b> Research shows that analysts and developers consider privacy as a security
-concept or as an afterthought, which may lead to non-compliance and violation
-of users' privacy. Most current approaches, however, focus on extracting legal
-requirements from the regulations and evaluating the compliance of software and
-processes with them. In this paper, we develop a novel approach based on
-chain-of-thought prompting (CoT), in-context-learning (ICL), and Large Language
-Models (LLMs) to extract privacy behaviors from various software documents
-prior to and during software development, and then generate privacy
-requirements in the format of user stories. Our results show that most commonly
-used LLMs, such as GPT-4o and Llama 3, can identify privacy behaviors and
-generate privacy user stories with F1 scores exceeding 0.8. We also show that
-the performance of these models could be improved through parameter-tuning. Our
-findings provide insight into using and optimizing LLMs for generating privacy
-requirements given software documents created prior to or throughout the
-software development lifecycle.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.22789v1">WavShape: Information-Theoretic Speech Representation Learning for Fair
-  and Privacy-Aware Audio Processing</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Sound-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> 
-  <p><b>Published on:</b> 2025-06-28T07:03:55Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Oguzhan Baser, Ahmet Ege Tanriverdi, Kaan Kale, Sandeep P. Chinchali, Sriram Vishwanath</p>
-    <p><b>Summary:</b> Speech embeddings often retain sensitive attributes such as speaker identity,
-accent, or demographic information, posing risks in biased model training and
-privacy leakage. We propose WavShape, an information-theoretic speech
-representation learning framework that optimizes embeddings for fairness and
-privacy while preserving task-relevant information. We leverage mutual
-information (MI) estimation using the Donsker-Varadhan formulation to guide an
-MI-based encoder that systematically filters sensitive attributes while
-maintaining speech content essential for downstream tasks. Experimental results
-on three known datasets show that WavShape reduces MI between embeddings and
-sensitive attributes by up to 81% while retaining 97% of task-relevant
-information. By integrating information theory with self-supervised speech
-models, this work advances the development of fair, privacy-aware, and
-resource-efficient speech systems.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.22787v1">What's Privacy Good for? Measuring Privacy as a Shield from Harms due to
-  Personal Data Use</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2025-06-28T07:00:37Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Sri Harsha Gajavalli, Junichi Koizumi, Rakibul Hasan</p>
-    <p><b>Summary:</b> We propose a harm-centric conceptualization of privacy that asks: What harms
-from personal data use can privacy prevent? The motivation behind this research
-is limitations in existing privacy frameworks (e.g., Contextual Integrity) to
-capture or categorize many of the harms that arise from modern technology's use
-of personal data. We operationalize this conceptualization in an online study
-with 400 college and university students. Study participants indicated their
-perceptions of different harms (e.g., manipulation, discrimination, and
-harassment) that may arise when artificial intelligence-based algorithms infer
-personal data (e.g., demographics, personality traits, and cognitive
-disability) and use it to identify students who are likely to drop out of a
-course or the best job candidate. The study includes 14 harms and six types of
-personal data selected based on an extensive literature review.
-  Comprehensive statistical analyses of the study data show that the 14 harms
-are internally consistent and collectively represent a general notion of
-privacy harms. The study data also surfaces nuanced perceptions of harms, both
-across the contexts and participants' demographic factors. Based on these
-results, we discuss how privacy can be improved equitably. Thus, this research
-not only contributes to enhancing the understanding of privacy as a concept but
-also provides practical guidance to improve privacy in the context of education
-and employment.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.22752v1">Privacy-Preserving Methods for Bug Severity Prediction</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
-  <p><b>Published on:</b> 2025-06-28T04:40:51Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Havvanur Dervişoğlu, Ruşen Halepmollası, Elif Eyvaz</p>
-    <p><b>Summary:</b> Bug severity prediction is a critical task in software engineering as it
-enables more efficient resource allocation and prioritization in software
-maintenance. While AI-based analyses and models significantly require access to
-extensive datasets, industrial applications face challenges due to data-sharing
-constraints and the limited availability of labeled data. In this study, we
-investigate method-level bug severity prediction using source code metrics and
-Large Language Models (LLMs) with two widely used datasets. We compare the
-performance of models trained using centralized learning, federated learning,
-and synthetic data generation. Our experimental results, obtained using two
-widely recognized software defect datasets, indicate that models trained with
-federated learning and synthetic data achieve comparable results to centrally
-trained models without data sharing. Our finding highlights the potential of
-privacy-preserving approaches such as federated learning and synthetic data
-generation to enable effective bug severity prediction in industrial context
-where data sharing is a major challenge.
-  The source code and dataset are available at our GitHub repository:
-https://github.com/drvshavva/EASE2025-Privacy-Preserving-Methods-for-Bug-Severity-Prediction.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.22727v1">Convergent Privacy Framework with Contractive GNN Layers for Multi-hop
-  Aggregations</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-06-28T02:17:53Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yu Zheng, Chenang Li, Zhou Li, Qingsong Wang</p>
-    <p><b>Summary:</b> Differential privacy (DP) has been integrated into graph neural networks
-(GNNs) to protect sensitive structural information, e.g., edges, nodes, and
-associated features across various applications. A common approach is to
-perturb the message-passing process, which forms the core of most GNN
-architectures. However, existing methods typically incur a privacy cost that
-grows linearly with the number of layers (Usenix Security'23), ultimately
-requiring excessive noise to maintain a reasonable privacy level. This
-limitation becomes particularly problematic when deep GNNs are necessary to
-capture complex and long-range interactions in graphs. In this paper, we
-theoretically establish that the privacy budget can converge with respect to
-the number of layers by applying privacy amplification techniques to the
-message-passing process, exploiting the contractive properties inherent to
-standard GNN operations. Motivated by this analysis, we propose a simple yet
-effective Contractive Graph Layer (CGL) that ensures the contractiveness
-required for theoretical guarantees while preserving model utility. Our
-framework, CARIBOU, supports both training and inference, equipped with a
-contractive aggregation module, a privacy allocation module, and a privacy
-auditing module. Experimental evaluations demonstrate that CARIBOU
-significantly improves the privacy-utility trade-off and achieves superior
-performance in privacy auditing tasks.</p>
   </details>
 </div>
 
