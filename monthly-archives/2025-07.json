@@ -2421,5 +2421,214 @@
       "cs.CR",
       "cs.DB"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.17516v1",
+    "title" : "Frequency Estimation of Correlated Multi-attribute Data under Local\n  Differential Privacy",
+    "summary" : "Large-scale data collection, from national censuses to IoT-enabled smart\nhomes, routinely gathers dozens of attributes per individual. These\nmulti-attribute datasets are vital for analytics but pose significant privacy\nrisks. Local Differential Privacy (LDP) is a powerful tool to protect user data\nprivacy by allowing users to locally perturb their records before releasing to\nan untrusted data aggregator. However, existing LDP mechanisms either split the\nprivacy budget across all attributes or treat each attribute independently,\nignoring natural inter-attribute correlations. This leads to excessive noise or\nfragmented budgets, resulting in significant utility loss, particularly in\nhigh-dimensional settings.\n  To overcome these limitations, we propose Correlated Randomized Response\n(Corr-RR), a novel LDP mechanism that leverages correlations among attributes\nto substantially improve utility while maintaining rigorous LDP guarantees.\nCorr-RR allocates the full privacy budget to perturb a single, randomly\nselected attribute and reconstructs the remaining attributes using estimated\ninterattribute dependencies, without incurring additional privacy cost. To\nenable this, Corr-RR operates in two phases: (1) a subset of users apply\nstandard LDP mechanisms to estimate correlations, and (2) each remaining user\nperturbs one attribute and infers the others using the learned correlations. We\ntheoretically prove that Corr-RR satisfies $\\epsilon$-LDP, and extensive\nexperiments on synthetic and real-world datasets demonstrate that Corr-RR\nconsistently outperforms state-of-the-art LDP mechanisms, particularly in\nscenarios with many attributes and strong inter-attribute correlations.",
+    "updated" : "2025-07-23T13:52:45Z",
+    "published" : "2025-07-23T13:52:45Z",
+    "authors" : [
+      {
+        "name" : "Shafizur Rahman Seeam"
+      },
+      {
+        "name" : "Ye Zheng"
+      },
+      {
+        "name" : "Yidan Hu"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.17228v1",
+    "title" : "P3SL: Personalized Privacy-Preserving Split Learning on Heterogeneous\n  Edge Devices",
+    "summary" : "Split Learning (SL) is an emerging privacy-preserving machine learning\ntechnique that enables resource constrained edge devices to participate in\nmodel training by partitioning a model into client-side and server-side\nsub-models. While SL reduces computational overhead on edge devices, it\nencounters significant challenges in heterogeneous environments where devices\nvary in computing resources, communication capabilities, environmental\nconditions, and privacy requirements. Although recent studies have explored\nheterogeneous SL frameworks that optimize split points for devices with varying\nresource constraints, they often neglect personalized privacy requirements and\nlocal model customization under varying environmental conditions. To address\nthese limitations, we propose P3SL, a Personalized Privacy-Preserving Split\nLearning framework designed for heterogeneous, resource-constrained edge device\nsystems. The key contributions of this work are twofold. First, we design a\npersonalized sequential split learning pipeline that allows each client to\nachieve customized privacy protection and maintain personalized local models\ntailored to their computational resources, environmental conditions, and\nprivacy needs. Second, we adopt a bi-level optimization technique that empowers\nclients to determine their own optimal personalized split points without\nsharing private sensitive information (i.e., computational resources,\nenvironmental conditions, privacy requirements) with the server. This approach\nbalances energy consumption and privacy leakage risks while maintaining high\nmodel accuracy. We implement and evaluate P3SL on a testbed consisting of 7\ndevices including 4 Jetson Nano P3450 devices, 2 Raspberry Pis, and 1 laptop,\nusing diverse model architectures and datasets under varying environmental\nconditions.",
+    "updated" : "2025-07-23T05:50:33Z",
+    "published" : "2025-07-23T05:50:33Z",
+    "authors" : [
+      {
+        "name" : "Wei Fan"
+      },
+      {
+        "name" : "JinYi Yoon"
+      },
+      {
+        "name" : "Xiaochang Li"
+      },
+      {
+        "name" : "Huajie Shao"
+      },
+      {
+        "name" : "Bo Ji"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.17199v1",
+    "title" : "Threshold-Protected Searchable Sharing: Privacy Preserving\n  Aggregated-ANN Search for Collaborative RAG",
+    "summary" : "LLM-powered search services have driven data integration as a significant\ntrend. However, this trend's progress is fundamentally hindered, despite the\nfact that combining individual knowledge can significantly improve the\nrelevance and quality of responses in specialized queries and make AI more\nprofessional at providing services. Two key bottlenecks are private data\nrepositories' locality constraints and the need to maintain compatibility with\nmainstream search techniques, particularly Hierarchical Navigable Small World\n(HNSW) indexing for high-dimensional vector spaces. In this work, we develop a\nsecure and privacy-preserving aggregated approximate nearest neighbor search\n(SP-A$^2$NN) with HNSW compatibility under a threshold-based searchable sharing\nprimitive. A sharable bitgraph structure is constructed and extended to support\nsearches and dynamical insertions over shared data without compromising the\nunderlying graph topology. The approach reduces the complexity of a search from\n$O(n^2)$ to $O(n)$ compared to naive (undirected) graph-sharing approach when\norganizing graphs in the identical HNSW manner.\n  On the theoretical front, we explore a novel security analytical framework\nthat incorporates privacy analysis via reductions. The proposed\nleakage-guessing proof system is built upon an entirely different interactive\ngame that is independent of existing coin-toss game design. Rather than being\npurely theoretical, this system is rooted in existing proof systems but goes\nbeyond them to specifically address leakage concerns and standardize leakage\nanalysis -- one of the most critical security challenges with AI's rapid\ndevelopment.",
+    "updated" : "2025-07-23T04:45:01Z",
+    "published" : "2025-07-23T04:45:01Z",
+    "authors" : [
+      {
+        "name" : "Ruoyang Rykie Guo"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.17180v1",
+    "title" : "A Privacy-Preserving Data Collection Method for Diversified Statistical\n  Analysis",
+    "summary" : "Data perturbation-based privacy-preserving methods have been widely adopted\nin various scenarios due to their efficiency and the elimination of the need\nfor a trusted third party. However, these methods primarily focus on individual\nstatistical indicators, neglecting the overall quality of the collected data\nfrom a distributional perspective. Consequently, they often fall short of\nmeeting the diverse statistical analysis requirements encountered in practical\ndata analysis. As a promising sensitive data perturbation method, negative\nsurvey methods is able to complete the task of collecting sensitive information\ndistribution while protecting personal privacy. Yet, existing negative survey\nmethods are primarily designed for discrete sensitive information and are\ninadequate for real-valued data distributions. To bridge this gap, this paper\nproposes a novel real-value negative survey model, termed RVNS, for the first\ntime in the field of real-value sensitive information collection. The RVNS\nmodel exempts users from the necessity of discretizing their data and only\nrequires them to sample a set of data from a range that deviates from their\nactual sensitive details, thereby preserving the privacy of their genuine\ninformation. Moreover, to accurately capture the distribution of sensitive\ninformation, an optimization problem is formulated, and a novel approach is\nemployed to solve it. Rigorous theoretical analysis demonstrates that the RVNS\nmodel conforms to the differential privacy model, ensuring robust privacy\npreservation. Comprehensive experiments conducted on both synthetic and\nreal-world datasets further validate the efficacy of the proposed method.",
+    "updated" : "2025-07-23T04:05:33Z",
+    "published" : "2025-07-23T04:05:33Z",
+    "authors" : [
+      {
+        "name" : "Hao Jiang"
+      },
+      {
+        "name" : "Quan Zhou"
+      },
+      {
+        "name" : "Dongdong Zhao"
+      },
+      {
+        "name" : "Shangshang Yang"
+      },
+      {
+        "name" : "Wenjian Luo"
+      },
+      {
+        "name" : "Xingyi Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.17066v1",
+    "title" : "Risk In Context: Benchmarking Privacy Leakage of Foundation Models in\n  Synthetic Tabular Data Generation",
+    "summary" : "Synthetic tabular data is essential for machine learning workflows,\nespecially for expanding small or imbalanced datasets and enabling\nprivacy-preserving data sharing. However, state-of-the-art generative models\n(GANs, VAEs, diffusion models) rely on large datasets with thousands of\nexamples. In low-data settings, often the primary motivation for synthetic\ndata, these models can overfit, leak sensitive records, and require frequent\nretraining. Recent work uses large pre-trained transformers to generate rows\nvia in-context learning (ICL), which needs only a few seed examples and no\nparameter updates, avoiding retraining. But ICL repeats seed rows verbatim,\nintroducing a new privacy risk that has only been studied in text. The severity\nof this risk in tabular synthesis-where a single row may identify a\nperson-remains unclear. We address this gap with the first benchmark of three\nfoundation models (GPT-4o-mini, LLaMA 3.3 70B, TabPFN v2) against four\nbaselines on 35 real-world tables from health, finance, and policy. We evaluate\nstatistical fidelity, downstream utility, and membership inference leakage.\nResults show foundation models consistently have the highest privacy risk.\nLLaMA 3.3 70B reaches up to 54 percentage points higher true-positive rate at\n1% FPR than the safest baseline. GPT-4o-mini and TabPFN are also highly\nvulnerable. We plot the privacy-utility frontier and show that CTGAN and\nGPT-4o-mini offer better tradeoffs. A factorial study finds that three\nzero-cost prompt tweaks-small batch size, low temperature, and using summary\nstatistics-can reduce worst-case AUC by 14 points and rare-class leakage by up\nto 39 points while maintaining over 90% fidelity. Our benchmark offers a\npractical guide for safer low-data synthesis with foundation models.",
+    "updated" : "2025-07-22T22:59:08Z",
+    "published" : "2025-07-22T22:59:08Z",
+    "authors" : [
+      {
+        "name" : "Jessup Byun"
+      },
+      {
+        "name" : "Xiaofeng Lin"
+      },
+      {
+        "name" : "Joshua Ward"
+      },
+      {
+        "name" : "Guang Cheng"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.16391v2",
+    "title" : "Ironman: Accelerating Oblivious Transfer Extension for\n  Privacy-Preserving AI with Near-Memory Processing",
+    "summary" : "With the wide application of machine learning (ML), privacy concerns arise\nwith user data as they may contain sensitive information. Privacy-preserving ML\n(PPML) based on cryptographic primitives has emerged as a promising solution in\nwhich an ML model is directly computed on the encrypted data to provide a\nformal privacy guarantee. However, PPML frameworks heavily rely on the\noblivious transfer (OT) primitive to compute nonlinear functions. OT mainly\ninvolves the computation of single-point correlated OT (SPCOT) and learning\nparity with noise (LPN) operations. As OT is still computed extensively on\ngeneral-purpose CPUs, it becomes the latency bottleneck of modern PPML\nframeworks.\n  In this paper, we propose a novel OT accelerator, dubbed Ironman, to\nsignificantly increase the efficiency of OT and the overall PPML framework. We\nobserve that SPCOT is computation-bounded, and thus propose a hardware-friendly\nSPCOT algorithm with a customized accelerator to improve SPCOT computation\nthroughput. In contrast, LPN is memory-bandwidth-bounded due to irregular\nmemory access patterns. Hence, we further leverage the near-memory processing\n(NMP) architecture equipped with memory-side cache and index sorting to improve\neffective memory bandwidth. With extensive experiments, we demonstrate Ironman\nachieves a 39.2-237.4 times improvement in OT throughput across different NMP\nconfigurations compared to the full-thread CPU implementation. For different\nPPML frameworks, Ironman demonstrates a 2.1-3.4 times reduction in end-to-end\nlatency for both CNN and Transformer models.",
+    "updated" : "2025-07-23T09:31:01Z",
+    "published" : "2025-07-22T09:35:59Z",
+    "authors" : [
+      {
+        "name" : "Chenqi Lin"
+      },
+      {
+        "name" : "Kang Yang"
+      },
+      {
+        "name" : "Tianshi Xu"
+      },
+      {
+        "name" : "Ling Liang"
+      },
+      {
+        "name" : "Yufei Wang"
+      },
+      {
+        "name" : "Zhaohui Chen"
+      },
+      {
+        "name" : "Runsheng Wang"
+      },
+      {
+        "name" : "Mingyu Gao"
+      },
+      {
+        "name" : "Meng Li"
+      }
+    ],
+    "categories" : [
+      "cs.AR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.16872v1",
+    "title" : "CompLeak: Deep Learning Model Compression Exacerbates Privacy Leakage",
+    "summary" : "Model compression is crucial for minimizing memory storage and accelerating\ninference in deep learning (DL) models, including recent foundation models like\nlarge language models (LLMs). Users can access different compressed model\nversions according to their resources and budget. However, while existing\ncompression operations primarily focus on optimizing the trade-off between\nresource efficiency and model performance, the privacy risks introduced by\ncompression remain overlooked and insufficiently understood.\n  In this work, through the lens of membership inference attack (MIA), we\npropose CompLeak, the first privacy risk evaluation framework examining three\nwidely used compression configurations that are pruning, quantization, and\nweight clustering supported by the commercial model compression framework of\nGoogle's TensorFlow-Lite (TF-Lite) and Facebook's PyTorch Mobile. CompLeak has\nthree variants, given available access to the number of compressed models and\noriginal model. CompLeakNR starts by adopting existing MIA methods to attack a\nsingle compressed model, and identifies that different compressed models\ninfluence members and non-members differently. When the original model and one\ncompressed model are available, CompLeakSR leverages the compressed model as a\nreference to the original model and uncovers more privacy by combining meta\ninformation (e.g., confidence vector) from both models. When multiple\ncompressed models are available with/without accessing the original model,\nCompLeakMR innovatively exploits privacy leakage info from multiple compressed\nversions to substantially signify the overall privacy leakage. We conduct\nextensive experiments on seven diverse model architectures (from ResNet to\nfoundation models of BERT and GPT-2), and six image and textual benchmark\ndatasets.",
+    "updated" : "2025-07-22T08:02:46Z",
+    "published" : "2025-07-22T08:02:46Z",
+    "authors" : [
+      {
+        "name" : "Na Li"
+      },
+      {
+        "name" : "Yansong Gao"
+      },
+      {
+        "name" : "Hongsheng Hu"
+      },
+      {
+        "name" : "Boyu Kuang"
+      },
+      {
+        "name" : "Anmin Fu"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.15460v3",
+    "title" : "Privacy-Preserving Multimodal News Recommendation through Federated\n  Learning",
+    "summary" : "Personalized News Recommendation systems (PNR) have emerged as a solution to\ninformation overload by predicting and suggesting news items tailored to\nindividual user interests. However, traditional PNR systems face several\nchallenges, including an overreliance on textual content, common neglect of\nshort-term user interests, and significant privacy concerns due to centralized\ndata storage. This paper addresses these issues by introducing a novel\nmultimodal federated learning-based approach for news recommendation. First, it\nintegrates both textual and visual features of news items using a multimodal\nmodel, enabling a more comprehensive representation of content. Second, it\nemploys a time-aware model that balances users' long-term and short-term\ninterests through multi-head self-attention networks, improving recommendation\naccuracy. Finally, to enhance privacy, a federated learning framework is\nimplemented, enabling collaborative model training without sharing user data.\nThe framework divides the recommendation model into a large server-maintained\nnews model and a lightweight user model shared between the server and clients.\nThe client requests news representations (vectors) and a user model from the\ncentral server, then computes gradients with user local data, and finally sends\ntheir locally computed gradients to the server for aggregation. The central\nserver aggregates gradients to update the global user model and news model. The\nupdated news model is further used to infer news representation by the server.\nTo further safeguard user privacy, a secure aggregation algorithm based on\nShamir's secret sharing is employed. Experiments on a real-world news dataset\ndemonstrate strong performance compared to existing systems, representing a\nsignificant advancement in privacy-preserving personalized news recommendation.",
+    "updated" : "2025-07-23T03:40:18Z",
+    "published" : "2025-07-21T10:14:00Z",
+    "authors" : [
+      {
+        "name" : "Mehdi Khalaj"
+      },
+      {
+        "name" : "Shahrzad Golestani Najafabadi"
+      },
+      {
+        "name" : "Julita Vassileva"
+      }
+    ],
+    "categories" : [
+      "cs.SI",
+      "cs.LG"
+    ]
   }
 ]
