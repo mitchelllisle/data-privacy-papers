@@ -2630,5 +2630,136 @@
       "cs.SI",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.18518v1",
+    "title" : "Transform Before You Query: A Privacy-Preserving Approach for Vector\n  Retrieval with Embedding Space Alignment",
+    "summary" : "Vector Database (VDB) can efficiently index and search high-dimensional\nvector embeddings from unstructured data, crucially enabling fast semantic\nsimilarity search essential for modern AI applications like generative AI and\nrecommendation systems. Since current VDB service providers predominantly use\nproprietary black-box models, users are forced to expose raw query text to them\nvia API in exchange for the vector retrieval services. Consequently, if query\ntext involves confidential records from finance or healthcare domains, this\nmechanism inevitably leads to critical leakage of user's sensitive information.\nTo address this issue, we introduce STEER (\\textbf{S}ecure \\textbf{T}ransformed\n\\textbf{E}mbedding v\\textbf{E}ctor\\textbf{ R}etrieval), a private vector\nretrieval framework that leverages the alignment relationship between the\nsemantic spaces of different embedding models to derive approximate embeddings\nfor the query text. STEER performs the retrieval using the approximate\nembeddings within the original VDB and requires no modifications to the server\nside. Our theoretical and experimental analyses demonstrate that STEER\neffectively safeguards query text privacy while maintaining the retrieval\naccuracy. Even though approximate embeddings are approximations of the\nembeddings from proprietary models, they still prevent the providers from\nrecovering the query text through Embedding Inversion Attacks (EIAs). Extensive\nexperimental results show that Recall@100 of STEER can basically achieve a\ndecrease of less than 5\\%. Furthermore, even when searching within a text\ncorpus of millions of entries, STEER achieves a Recall@20 accuracy 20\\% higher\nthan current baselines.",
+    "updated" : "2025-07-24T15:41:34Z",
+    "published" : "2025-07-24T15:41:34Z",
+    "authors" : [
+      {
+        "name" : "Ruiqi He"
+      },
+      {
+        "name" : "Zekun Fei"
+      },
+      {
+        "name" : "Jiaqi Li"
+      },
+      {
+        "name" : "Xinyuan Zhu"
+      },
+      {
+        "name" : "Biao Yi"
+      },
+      {
+        "name" : "Siyi Lv"
+      },
+      {
+        "name" : "Weijie Liu"
+      },
+      {
+        "name" : "Zheli Liu"
+      }
+    ],
+    "categories" : [
+      "cs.IR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.18365v1",
+    "title" : "RecPS: Privacy Risk Scoring for Recommender Systems",
+    "summary" : "Recommender systems (RecSys) have become an essential component of many web\napplications. The core of the system is a recommendation model trained on\nhighly sensitive user-item interaction data. While privacy-enhancing techniques\nare actively studied in the research community, the real-world model\ndevelopment still depends on minimal privacy protection, e.g., via controlled\naccess. Users of such systems should have the right to choose \\emph{not} to\nshare highly sensitive interactions. However, there is no method allowing the\nuser to know which interactions are more sensitive than others. Thus,\nquantifying the privacy risk of RecSys training data is a critical step to\nenabling privacy-aware RecSys model development and deployment. We propose a\nmembership-inference attack (MIA)- based privacy scoring method, RecPS, to\nmeasure privacy risks at both the interaction and user levels. The RecPS\ninteraction-level score definition is motivated and derived from differential\nprivacy, which is then extended to the user-level scoring method. A critical\ncomponent is the interaction-level MIA method RecLiRA, which gives high-quality\nmembership estimation. We have conducted extensive experiments on well-known\nbenchmark datasets and RecSys models to show the unique features and benefits\nof RecPS scoring in risk assessment and RecSys model unlearning. Our code is\navailable at https://anonymous.4open.science/r/RsLiRA-4BD3/readme.md.",
+    "updated" : "2025-07-24T12:46:30Z",
+    "published" : "2025-07-24T12:46:30Z",
+    "authors" : [
+      {
+        "name" : "Jiajie He"
+      },
+      {
+        "name" : "Yuechun Gu"
+      },
+      {
+        "name" : "Keke Chen"
+      }
+    ],
+    "categories" : [
+      "cs.IR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.18253v1",
+    "title" : "Countering Privacy Nihilism",
+    "summary" : "Of growing concern in privacy scholarship is artificial intelligence (AI), as\na powerful producer of inferences. Taken to its limits, AI may be presumed\ncapable of inferring \"everything from everything,\" thereby making untenable any\nnormative scheme, including privacy theory and privacy regulation, which rests\non protecting privacy based on categories of data - sensitive versus\nnon-sensitive, private versus public. Discarding data categories as a normative\nanchoring in privacy and data protection as a result of an unconditional\nacceptance of AI's inferential capacities is what we call privacy nihilism. An\nethically reasoned response to AI inferences requires a sober consideration of\nAI capabilities rather than issuing an epistemic carte blanche. We introduce\nthe notion of conceptual overfitting to expose how privacy nihilism turns a\nblind eye toward flawed epistemic practices in AI development. Conceptual\noverfitting refers to the adoption of norms of convenience that simplify the\ndevelopment of AI models by forcing complex constructs to fit data that are\nconceptually under-representative or even irrelevant. While conceptual\noverfitting serves as a helpful device to counter normative suggestions\ngrounded in hyperbolic AI capability claims, AI inferences shake any privacy\nregulation that hinges protections based on restrictions around data\ncategories. We propose moving away from privacy frameworks that focus solely on\ndata type, neglecting all other factors. Theories like contextual integrity\nevaluate the normative value of privacy across several parameters, including\nthe type of data, the actors involved in sharing it, and the purposes for which\nthe information is used.",
+    "updated" : "2025-07-24T09:52:18Z",
+    "published" : "2025-07-24T09:52:18Z",
+    "authors" : [
+      {
+        "name" : "Severin Engelmann"
+      },
+      {
+        "name" : "Helen Nissenbaum"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.18072v1",
+    "title" : "C-AAE: Compressively Anonymizing Autoencoders for Privacy-Preserving\n  Activity Recognition in Healthcare Sensor Streams",
+    "summary" : "Wearable accelerometers and gyroscopes encode fine-grained behavioural\nsignatures that can be exploited to re-identify users, making privacy\nprotection essential for healthcare applications. We introduce C-AAE, a\ncompressive anonymizing autoencoder that marries an Anonymizing AutoEncoder\n(AAE) with Adaptive Differential Pulse-Code Modulation (ADPCM). The AAE first\nprojects raw sensor windows into a latent space that retains activity-relevant\nfeatures while suppressing identity cues. ADPCM then differentially encodes\nthis latent stream, further masking residual identity information and shrinking\nthe bitrate. Experiments on the MotionSense and PAMAP2 datasets show that C-AAE\ncuts user re-identification F1 scores by 10-15 percentage points relative to\nAAE alone, while keeping activity-recognition F1 within 5 percentage points of\nthe unprotected baseline. ADPCM also reduces data volume by roughly 75 %,\neasing transmission and storage overheads. These results demonstrate that C-AAE\noffers a practical route to balancing privacy and utility in continuous,\nsensor-based activity recognition for healthcare.",
+    "updated" : "2025-07-24T03:55:04Z",
+    "published" : "2025-07-24T03:55:04Z",
+    "authors" : [
+      {
+        "name" : "Ryusei Fujimoto"
+      },
+      {
+        "name" : "Yugo Nakamura"
+      },
+      {
+        "name" : "Yutaka Arakawa"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "eess.SP"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.18055v1",
+    "title" : "Privacy-Preserving Synthetic Review Generation with Diverse Writing\n  Styles Using LLMs",
+    "summary" : "The increasing use of synthetic data generated by Large Language Models\n(LLMs) presents both opportunities and challenges in data-driven applications.\nWhile synthetic data provides a cost-effective, scalable alternative to\nreal-world data to facilitate model training, its diversity and privacy risks\nremain underexplored. Focusing on text-based synthetic data, we propose a\ncomprehensive set of metrics to quantitatively assess the diversity (i.e.,\nlinguistic expression, sentiment, and user perspective), and privacy (i.e.,\nre-identification risk and stylistic outliers) of synthetic datasets generated\nby several state-of-the-art LLMs. Experiment results reveal significant\nlimitations in LLMs' capabilities in generating diverse and privacy-preserving\nsynthetic data. Guided by the evaluation results, a prompt-based approach is\nproposed to enhance the diversity of synthetic reviews while preserving\nreviewer privacy.",
+    "updated" : "2025-07-24T03:12:16Z",
+    "published" : "2025-07-24T03:12:16Z",
+    "authors" : [
+      {
+        "name" : "Tevin Atwal"
+      },
+      {
+        "name" : "Chan Nam Tieu"
+      },
+      {
+        "name" : "Yefeng Yuan"
+      },
+      {
+        "name" : "Zhan Shi"
+      },
+      {
+        "name" : "Yuhong Liu"
+      },
+      {
+        "name" : "Liang Cheng"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.CR",
+      "cs.LG"
+    ]
   }
 ]
