@@ -2,6 +2,157 @@
 <h2>2025-07</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.18518v1">Transform Before You Query: A Privacy-Preserving Approach for Vector
+  Retrieval with Embedding Space Alignment</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB">
+  <p><b>Published on:</b> 2025-07-24T15:41:34Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ruiqi He, Zekun Fei, Jiaqi Li, Xinyuan Zhu, Biao Yi, Siyi Lv, Weijie Liu, Zheli Liu</p>
+    <p><b>Summary:</b> Vector Database (VDB) can efficiently index and search high-dimensional
+vector embeddings from unstructured data, crucially enabling fast semantic
+similarity search essential for modern AI applications like generative AI and
+recommendation systems. Since current VDB service providers predominantly use
+proprietary black-box models, users are forced to expose raw query text to them
+via API in exchange for the vector retrieval services. Consequently, if query
+text involves confidential records from finance or healthcare domains, this
+mechanism inevitably leads to critical leakage of user's sensitive information.
+To address this issue, we introduce STEER (\textbf{S}ecure \textbf{T}ransformed
+\textbf{E}mbedding v\textbf{E}ctor\textbf{ R}etrieval), a private vector
+retrieval framework that leverages the alignment relationship between the
+semantic spaces of different embedding models to derive approximate embeddings
+for the query text. STEER performs the retrieval using the approximate
+embeddings within the original VDB and requires no modifications to the server
+side. Our theoretical and experimental analyses demonstrate that STEER
+effectively safeguards query text privacy while maintaining the retrieval
+accuracy. Even though approximate embeddings are approximations of the
+embeddings from proprietary models, they still prevent the providers from
+recovering the query text through Embedding Inversion Attacks (EIAs). Extensive
+experimental results show that Recall@100 of STEER can basically achieve a
+decrease of less than 5\%. Furthermore, even when searching within a text
+corpus of millions of entries, STEER achieves a Recall@20 accuracy 20\% higher
+than current baselines.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.18365v1">RecPS: Privacy Risk Scoring for Recommender Systems</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB">
+  <p><b>Published on:</b> 2025-07-24T12:46:30Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jiajie He, Yuechun Gu, Keke Chen</p>
+    <p><b>Summary:</b> Recommender systems (RecSys) have become an essential component of many web
+applications. The core of the system is a recommendation model trained on
+highly sensitive user-item interaction data. While privacy-enhancing techniques
+are actively studied in the research community, the real-world model
+development still depends on minimal privacy protection, e.g., via controlled
+access. Users of such systems should have the right to choose \emph{not} to
+share highly sensitive interactions. However, there is no method allowing the
+user to know which interactions are more sensitive than others. Thus,
+quantifying the privacy risk of RecSys training data is a critical step to
+enabling privacy-aware RecSys model development and deployment. We propose a
+membership-inference attack (MIA)- based privacy scoring method, RecPS, to
+measure privacy risks at both the interaction and user levels. The RecPS
+interaction-level score definition is motivated and derived from differential
+privacy, which is then extended to the user-level scoring method. A critical
+component is the interaction-level MIA method RecLiRA, which gives high-quality
+membership estimation. We have conducted extensive experiments on well-known
+benchmark datasets and RecSys models to show the unique features and benefits
+of RecPS scoring in risk assessment and RecSys model unlearning. Our code is
+available at https://anonymous.4open.science/r/RsLiRA-4BD3/readme.md.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.18253v1">Countering Privacy Nihilism</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-07-24T09:52:18Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Severin Engelmann, Helen Nissenbaum</p>
+    <p><b>Summary:</b> Of growing concern in privacy scholarship is artificial intelligence (AI), as
+a powerful producer of inferences. Taken to its limits, AI may be presumed
+capable of inferring "everything from everything," thereby making untenable any
+normative scheme, including privacy theory and privacy regulation, which rests
+on protecting privacy based on categories of data - sensitive versus
+non-sensitive, private versus public. Discarding data categories as a normative
+anchoring in privacy and data protection as a result of an unconditional
+acceptance of AI's inferential capacities is what we call privacy nihilism. An
+ethically reasoned response to AI inferences requires a sober consideration of
+AI capabilities rather than issuing an epistemic carte blanche. We introduce
+the notion of conceptual overfitting to expose how privacy nihilism turns a
+blind eye toward flawed epistemic practices in AI development. Conceptual
+overfitting refers to the adoption of norms of convenience that simplify the
+development of AI models by forcing complex constructs to fit data that are
+conceptually under-representative or even irrelevant. While conceptual
+overfitting serves as a helpful device to counter normative suggestions
+grounded in hyperbolic AI capability claims, AI inferences shake any privacy
+regulation that hinges protections based on restrictions around data
+categories. We propose moving away from privacy frameworks that focus solely on
+data type, neglecting all other factors. Theories like contextual integrity
+evaluate the normative value of privacy across several parameters, including
+the type of data, the actors involved in sharing it, and the purposes for which
+the information is used.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.18072v1">C-AAE: Compressively Anonymizing Autoencoders for Privacy-Preserving
+  Activity Recognition in Healthcare Sensor Streams</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
+  <p><b>Published on:</b> 2025-07-24T03:55:04Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ryusei Fujimoto, Yugo Nakamura, Yutaka Arakawa</p>
+    <p><b>Summary:</b> Wearable accelerometers and gyroscopes encode fine-grained behavioural
+signatures that can be exploited to re-identify users, making privacy
+protection essential for healthcare applications. We introduce C-AAE, a
+compressive anonymizing autoencoder that marries an Anonymizing AutoEncoder
+(AAE) with Adaptive Differential Pulse-Code Modulation (ADPCM). The AAE first
+projects raw sensor windows into a latent space that retains activity-relevant
+features while suppressing identity cues. ADPCM then differentially encodes
+this latent stream, further masking residual identity information and shrinking
+the bitrate. Experiments on the MotionSense and PAMAP2 datasets show that C-AAE
+cuts user re-identification F1 scores by 10-15 percentage points relative to
+AAE alone, while keeping activity-recognition F1 within 5 percentage points of
+the unprotected baseline. ADPCM also reduces data volume by roughly 75 %,
+easing transmission and storage overheads. These results demonstrate that C-AAE
+offers a practical route to balancing privacy and utility in continuous,
+sensor-based activity recognition for healthcare.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.18055v1">Privacy-Preserving Synthetic Review Generation with Diverse Writing
+  Styles Using LLMs</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-07-24T03:12:16Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Tevin Atwal, Chan Nam Tieu, Yefeng Yuan, Zhan Shi, Yuhong Liu, Liang Cheng</p>
+    <p><b>Summary:</b> The increasing use of synthetic data generated by Large Language Models
+(LLMs) presents both opportunities and challenges in data-driven applications.
+While synthetic data provides a cost-effective, scalable alternative to
+real-world data to facilitate model training, its diversity and privacy risks
+remain underexplored. Focusing on text-based synthetic data, we propose a
+comprehensive set of metrics to quantitatively assess the diversity (i.e.,
+linguistic expression, sentiment, and user perspective), and privacy (i.e.,
+re-identification risk and stylistic outliers) of synthetic datasets generated
+by several state-of-the-art LLMs. Experiment results reveal significant
+limitations in LLMs' capabilities in generating diverse and privacy-preserving
+synthetic data. Guided by the evaluation results, a prompt-based approach is
+proposed to enhance the diversity of synthetic reviews while preserving
+reviewer privacy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2507.17516v1">Frequency Estimation of Correlated Multi-attribute Data under Local
   Differential Privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
@@ -2863,152 +3014,6 @@ demonstrate the effectiveness of our attacks through theoretical and empirical
 evidence, highlighting the necessity for defenses against these attacks. The
 source code and data have been made available at
 https://github.com/LDP-user/LDP-Ranking.git.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.02968v1">Unveiling Privacy Policy Complexity: An Exploratory Study Using Graph
-  Mining, Machine Learning, and Natural Language Processing</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-06-30T14:55:57Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Vijayalakshmi Ramasamy, Seth Barrett, Gokila Dorai, Jessica Zumbach</p>
-    <p><b>Summary:</b> Privacy policy documents are often lengthy, complex, and difficult for
-non-expert users to interpret, leading to a lack of transparency regarding the
-collection, processing, and sharing of personal data. As concerns over online
-privacy grow, it is essential to develop automated tools capable of analyzing
-privacy policies and identifying potential risks. In this study, we explore the
-potential of interactive graph visualizations to enhance user understanding of
-privacy policies by representing policy terms as structured graph models. This
-approach makes complex relationships more accessible and enables users to make
-informed decisions about their personal data (RQ1). We also employ graph mining
-algorithms to identify key themes, such as User Activity and Device
-Information, using dimensionality reduction techniques like t-SNE and PCA to
-assess clustering effectiveness. Our findings reveal that graph-based
-clustering improves policy content interpretability. It highlights patterns in
-user tracking and data sharing, which supports forensic investigations and
-identifies regulatory non-compliance. This research advances AI-driven tools
-for auditing privacy policies by integrating interactive visualizations with
-graph mining. Enhanced transparency fosters accountability and trust.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.23866v3">Exploring Privacy and Security as Drivers for Environmental
-  Sustainability in Cloud-Based Office Solutions</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
-  <p><b>Published on:</b> 2025-06-30T13:58:22Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jason Kayembe, Iness Ben Guirat, Jan Tobias Mühlberg</p>
-    <p><b>Summary:</b> In this paper, we explore the intersection of privacy, security, and
-environmental sustainability in cloud-based office solutions, focusing on
-quantifying user- and network-side energy use and associated carbon emissions.
-We hypothesise that privacy-focused services are typically more
-energy-efficient than those funded through data collection and advertising. To
-evaluate this, we propose a framework that systematically measures
-environmental costs based on energy usage and network data traffic during
-well-defined, automated usage scenarios. To test our hypothesis, we first
-analyse how underlying architectures and business models, such as monetisation
-through personalised advertising, contribute to the environmental footprint of
-these services. We then explore existing methodologies and tools for software
-environmental impact assessment. We apply our framework to three mainstream
-email services selected to reflect different privacy policies, from
-ad-supported tracking-intensive models to privacy-focused designs: Microsoft
-Outlook, Google Mail (Gmail), and Proton Mail. We extend this comparison to a
-self-hosted email solution, evaluated with and without end-to-end encryption.
-We show that the self-hosted solution, even with 14% of device energy and 15%
-of emissions overheads from PGP encryption, remains the most energy-efficient,
-saving up to 33% of emissions per session compared to Gmail. Among commercial
-providers, Proton Mail is the most efficient, saving up to 0.1 gCO2 e per
-session compared to Outlook, whose emissions can be further reduced by 2%
-through ad-blocking.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.23622v1">Privacy-Preserving Federated Learning Scheme with Mitigating Model
-  Poisoning Attacks: Vulnerabilities and Countermeasures</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-06-30T08:39:01Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jiahui Wu, Fucai Luo, Tiecheng Sun, Haiyan Wang, Weizhe Zhang</p>
-    <p><b>Summary:</b> The privacy-preserving federated learning schemes based on the setting of two
-honest-but-curious and non-colluding servers offer promising solutions in terms
-of security and efficiency. However, our investigation reveals that these
-schemes still suffer from privacy leakage when considering model poisoning
-attacks from malicious users. Specifically, we demonstrate that the
-privacy-preserving computation process for defending against model poisoning
-attacks inadvertently leaks privacy to one of the honest-but-curious servers,
-enabling it to access users' gradients in plaintext. To address both privacy
-leakage and model poisoning attacks, we propose an enhanced privacy-preserving
-and Byzantine-robust federated learning (PBFL) scheme, comprising three
-components: (1) a two-trapdoor fully homomorphic encryption (FHE) scheme to
-bolster users' privacy protection; (2) a novel secure normalization judgment
-method to preemptively thwart gradient poisoning; and (3) an innovative secure
-cosine similarity measurement method for detecting model poisoning attacks
-without compromising data privacy. Our scheme guarantees privacy preservation
-and resilience against model poisoning attacks, even in scenarios with
-heterogeneous, non-IID (Independently and Identically Distributed) datasets.
-Theoretical analyses substantiate the security and efficiency of our scheme,
-and extensive experiments corroborate the efficacy of our private attacks.
-Furthermore, the experimental results demonstrate that our scheme accelerates
-training speed while reducing communication overhead compared to the
-state-of-the-art PBFL schemes.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.23603v2">SoK: Semantic Privacy in Large Language Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-06-30T08:08:15Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Baihe Ma, Yanna Jiang, Xu Wang, Guangsheng Yu, Qin Wang, Caijun Sun, Chen Li, Xuelei Qi, Ying He, Wei Ni, Ren Ping Liu</p>
-    <p><b>Summary:</b> As Large Language Models (LLMs) are increasingly deployed in sensitive
-domains, traditional data privacy measures prove inadequate for protecting
-information that is implicit, contextual, or inferable - what we define as
-semantic privacy. This Systematization of Knowledge (SoK) introduces a
-lifecycle-centric framework to analyze how semantic privacy risks emerge across
-input processing, pretraining, fine-tuning, and alignment stages of LLMs. We
-categorize key attack vectors and assess how current defenses, such as
-differential privacy, embedding encryption, edge computing, and unlearning,
-address these threats. Our analysis reveals critical gaps in semantic-level
-protection, especially against contextual inference and latent representation
-leakage. We conclude by outlining open challenges, including quantifying
-semantic leakage, protecting multimodal inputs, balancing de-identification
-with generation quality, and ensuring transparency in privacy enforcement. This
-work aims to inform future research on designing robust, semantically aware
-privacy-preserving techniques for LLMs.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.23583v1">Detect \& Score: Privacy-Preserving Misbehaviour Detection and
-  Contribution Evaluation in Federated Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-06-30T07:40:18Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Marvin Xhemrishi, Alexandre Graell i Amat, Balázs Pejó</p>
-    <p><b>Summary:</b> Federated learning with secure aggregation enables private and collaborative
-learning from decentralised data without leaking sensitive client information.
-However, secure aggregation also complicates the detection of malicious client
-behaviour and the evaluation of individual client contributions to the
-learning. To address these challenges, QI (Pejo et al.) and FedGT (Xhemrishi et
-al.) were proposed for contribution evaluation (CE) and misbehaviour detection
-(MD), respectively. QI, however, lacks adequate MD accuracy due to its reliance
-on the random selection of clients in each training round, while FedGT lacks
-the CE ability. In this work, we combine the strengths of QI and FedGT to
-achieve both robust MD and accurate CE. Our experiments demonstrate superior
-performance compared to using either method independently.</p>
   </details>
 </div>
 
