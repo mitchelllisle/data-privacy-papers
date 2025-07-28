@@ -2761,5 +2761,33 @@
       "cs.CR",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.19116v1",
+    "title" : "Graph Structure Learning with Privacy Guarantees for Open Graph Data",
+    "summary" : "Ensuring privacy in large-scale open datasets is increasingly challenging\nunder regulations such as the General Data Protection Regulation (GDPR). While\ndifferential privacy (DP) provides strong theoretical guarantees, it primarily\nfocuses on noise injection during model training, neglecting privacy\npreservation at the data publishing stage. Existing privacy-preserving data\npublishing (PPDP) approaches struggle to balance privacy and utility,\nparticularly when data publishers and users are distinct entities. To address\nthis gap, we focus on the graph recovery problem and propose a novel\nprivacy-preserving estimation framework for open graph data, leveraging\nGaussian DP (GDP) with a structured noise-injection mechanism. Unlike\ntraditional methods that perturb gradients or model updates, our approach\nensures unbiased graph structure recovery while enforcing DP at the data\npublishing stage. Moreover, we provide theoretical guarantees on estimation\naccuracy and extend our method to discrete-variable graphs, a setting often\noverlooked in DP research. Experimental results in graph learning demonstrate\nrobust performance, offering a viable solution for privacy-conscious graph\nanalysis.",
+    "updated" : "2025-07-25T09:51:12Z",
+    "published" : "2025-07-25T09:51:12Z",
+    "authors" : [
+      {
+        "name" : "Muhao Guo"
+      },
+      {
+        "name" : "Jiaqi Wu"
+      },
+      {
+        "name" : "Yang Weng"
+      },
+      {
+        "name" : "Yizheng Liao"
+      },
+      {
+        "name" : "Shengzhe Chen"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
   }
 ]
