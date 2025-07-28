@@ -2,6 +2,34 @@
 <h2>2025-07</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.19116v1">Graph Structure Learning with Privacy Guarantees for Open Graph Data</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-07-25T09:51:12Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Muhao Guo, Jiaqi Wu, Yang Weng, Yizheng Liao, Shengzhe Chen</p>
+    <p><b>Summary:</b> Ensuring privacy in large-scale open datasets is increasingly challenging
+under regulations such as the General Data Protection Regulation (GDPR). While
+differential privacy (DP) provides strong theoretical guarantees, it primarily
+focuses on noise injection during model training, neglecting privacy
+preservation at the data publishing stage. Existing privacy-preserving data
+publishing (PPDP) approaches struggle to balance privacy and utility,
+particularly when data publishers and users are distinct entities. To address
+this gap, we focus on the graph recovery problem and propose a novel
+privacy-preserving estimation framework for open graph data, leveraging
+Gaussian DP (GDP) with a structured noise-injection mechanism. Unlike
+traditional methods that perturb gradients or model updates, our approach
+ensures unbiased graph structure recovery while enforcing DP at the data
+publishing stage. Moreover, we provide theoretical guarantees on estimation
+accuracy and extend our method to discrete-variable graphs, a setting often
+overlooked in DP research. Experimental results in graph learning demonstrate
+robust performance, offering a viable solution for privacy-conscious graph
+analysis.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2507.18518v1">Transform Before You Query: A Privacy-Preserving Approach for Vector
   Retrieval with Embedding Space Alignment</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB">
@@ -2983,37 +3011,6 @@ $8\times$ reduction in computation cost over state-of-the-art baselines to
 generate long-form private text of the same utility across privacy levels. In
 summary, InvisibleInk is able to generate private long-form text at less than
 $10\times$ the computation cost of non-private generation.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2506.24033v1">Poisoning Attacks to Local Differential Privacy for Ranking Estimation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-06-30T16:39:02Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Pei Zhan, Peng Tang, Yangzhuo Li, Puwen Wei, Shanqing Guo</p>
-    <p><b>Summary:</b> Local differential privacy (LDP) involves users perturbing their inputs to
-provide plausible deniability of their data. However, this also makes LDP
-vulnerable to poisoning attacks. In this paper, we first introduce novel
-poisoning attacks for ranking estimation. These attacks are intricate, as fake
-attackers do not merely adjust the frequency of target items. Instead, they
-leverage a limited number of fake users to precisely modify frequencies,
-effectively altering item rankings to maximize gains. To tackle this challenge,
-we introduce the concepts of attack cost and optimal attack item (set), and
-propose corresponding strategies for kRR, OUE, and OLH protocols. For kRR, we
-iteratively select optimal attack items and allocate suitable fake users. For
-OUE, we iteratively determine optimal attack item sets and consider the
-incremental changes in item frequencies across different sets. Regarding OLH,
-we develop a harmonic cost function based on the pre-image of a hash to select
-that supporting a larger number of effective attack items. Lastly, we present
-an attack strategy based on confidence levels to quantify the probability of a
-successful attack and the number of attack iterations more precisely. We
-demonstrate the effectiveness of our attacks through theoretical and empirical
-evidence, highlighting the necessity for defenses against these attacks. The
-source code and data have been made available at
-https://github.com/LDP-user/LDP-Ranking.git.</p>
   </details>
 </div>
 
