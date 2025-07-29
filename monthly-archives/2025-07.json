@@ -2789,5 +2789,142 @@
       "cs.LG",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.20688v1",
+    "title" : "Guard-GBDT: Efficient Privacy-Preserving Approximated GBDT Training on\n  Vertical Dataset",
+    "summary" : "In light of increasing privacy concerns and stringent legal regulations,\nusing secure multiparty computation (MPC) to enable collaborative GBDT model\ntraining among multiple data owners has garnered significant attention. Despite\nthis, existing MPC-based GBDT frameworks face efficiency challenges due to high\ncommunication costs and the computation burden of non-linear operations, such\nas division and sigmoid calculations. In this work, we introduce Guard-GBDT, an\ninnovative framework tailored for efficient and privacy-preserving GBDT\ntraining on vertical datasets. Guard-GBDT bypasses MPC-unfriendly division and\nsigmoid functions by using more streamlined approximations and reduces\ncommunication overhead by compressing the messages exchanged during gradient\naggregation. We implement a prototype of Guard-GBDT and extensively evaluate\nits performance and accuracy on various real-world datasets. The results show\nthat Guard-GBDT outperforms state-of-the-art HEP-XGB (CIKM'21) and SiGBDT (ASIA\nCCS'24) by up to $2.71\\times$ and $12.21 \\times$ on LAN network and up to\n$2.7\\times$ and $8.2\\times$ on WAN network. Guard-GBDT also achieves comparable\naccuracy with SiGBDT and plaintext XGBoost (better than HEP-XGB ), which\nexhibits a deviation of $\\pm1\\%$ to $\\pm2\\%$ only. Our implementation code is\nprovided at https://github.com/XidianNSS/Guard-GBDT.git.",
+    "updated" : "2025-07-28T10:16:37Z",
+    "published" : "2025-07-28T10:16:37Z",
+    "authors" : [
+      {
+        "name" : "Anxiao Song"
+      },
+      {
+        "name" : "Shujie Cui"
+      },
+      {
+        "name" : "Jianli Bai"
+      },
+      {
+        "name" : "Ke Cheng"
+      },
+      {
+        "name" : "Yulong Shen"
+      },
+      {
+        "name" : "Giovanni Russello"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.20573v1",
+    "title" : "Reminiscence Attack on Residuals: Exploiting Approximate Machine\n  Unlearning for Privacy",
+    "summary" : "Machine unlearning enables the removal of specific data from ML models to\nuphold the right to be forgotten. While approximate unlearning algorithms offer\nefficient alternatives to full retraining, this work reveals that they fail to\nadequately protect the privacy of unlearned data. In particular, these\nalgorithms introduce implicit residuals which facilitate privacy attacks\ntargeting at unlearned data. We observe that these residuals persist regardless\nof model architectures, parameters, and unlearning algorithms, exposing a new\nattack surface beyond conventional output-based leakage. Based on this insight,\nwe propose the Reminiscence Attack (ReA), which amplifies the correlation\nbetween residuals and membership privacy through targeted fine-tuning\nprocesses. ReA achieves up to 1.90x and 1.12x higher accuracy than prior\nattacks when inferring class-wise and sample-wise membership, respectively. To\nmitigate such residual-induced privacy risk, we develop a dual-phase\napproximate unlearning framework that first eliminates deep-layer unlearned\ndata traces and then enforces convergence stability to prevent models from\n\"pseudo-convergence\", where their outputs are similar to retrained models but\nstill preserve unlearned residuals. Our framework works for both classification\nand generation tasks. Experimental evaluations confirm that our approach\nmaintains high unlearning efficacy, while reducing the adaptive privacy attack\naccuracy to nearly random guess, at the computational cost of 2-12% of full\nretraining from scratch.",
+    "updated" : "2025-07-28T07:12:12Z",
+    "published" : "2025-07-28T07:12:12Z",
+    "authors" : [
+      {
+        "name" : "Yaxin Xiao"
+      },
+      {
+        "name" : "Qingqing Ye"
+      },
+      {
+        "name" : "Li Hu"
+      },
+      {
+        "name" : "Huadi Zheng"
+      },
+      {
+        "name" : "Haibo Hu"
+      },
+      {
+        "name" : "Zi Liang"
+      },
+      {
+        "name" : "Haoyang Li"
+      },
+      {
+        "name" : "Yijie Jiao"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.20557v1",
+    "title" : "FED-PsyAU: Privacy-Preserving Micro-Expression Recognition via\n  Psychological AU Coordination and Dynamic Facial Motion Modeling",
+    "summary" : "Micro-expressions (MEs) are brief, low-intensity, often localized facial\nexpressions. They could reveal genuine emotions individuals may attempt to\nconceal, valuable in contexts like criminal interrogation and psychological\ncounseling. However, ME recognition (MER) faces challenges, such as small\nsample sizes and subtle features, which hinder efficient modeling.\nAdditionally, real-world applications encounter ME data privacy issues, leaving\nthe task of enhancing recognition across settings under privacy constraints\nlargely unexplored. To address these issues, we propose a FED-PsyAU research\nframework. We begin with a psychological study on the coordination of upper and\nlower facial action units (AUs) to provide structured prior knowledge of facial\nmuscle dynamics. We then develop a DPK-GAT network that combines these\npsychological priors with statistical AU patterns, enabling hierarchical\nlearning of facial motion features from regional to global levels, effectively\nenhancing MER performance. Additionally, our federated learning framework\nadvances MER capabilities across multiple clients without data sharing,\npreserving privacy and alleviating the limited-sample issue for each client.\nExtensive experiments on commonly-used ME databases demonstrate the\neffectiveness of our approach.",
+    "updated" : "2025-07-28T06:42:15Z",
+    "published" : "2025-07-28T06:42:15Z",
+    "authors" : [
+      {
+        "name" : "Jingting Li"
+      },
+      {
+        "name" : "Yu Qian"
+      },
+      {
+        "name" : "Lin Zhao"
+      },
+      {
+        "name" : "Su-Jing Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.20537v1",
+    "title" : "Next-Generation Quantum Neural Networks: Enhancing Efficiency, Security,\n  and Privacy",
+    "summary" : "This paper provides an integrated perspective on addressing key challenges in\ndeveloping reliable and secure Quantum Neural Networks (QNNs) in the Noisy\nIntermediate-Scale Quantum (NISQ) era. In this paper, we present an integrated\nframework that leverages and combines existing approaches to enhance QNN\nefficiency, security, and privacy. Specifically, established optimization\nstrategies, including efficient parameter initialization, residual quantum\ncircuit connections, and systematic quantum architecture exploration, are\nintegrated to mitigate issues such as barren plateaus and error propagation.\nMoreover, the methodology incorporates current defensive mechanisms against\nadversarial attacks. Finally, Quantum Federated Learning (QFL) is adopted\nwithin this framework to facilitate privacy-preserving collaborative training\nacross distributed quantum systems. Collectively, this synthesized approach\nseeks to enhance the robustness and real-world applicability of QNNs, laying\nthe foundation for reliable quantum-enhanced machine learning applications in\nfinance, healthcare, and cybersecurity.",
+    "updated" : "2025-07-28T05:43:02Z",
+    "published" : "2025-07-28T05:43:02Z",
+    "authors" : [
+      {
+        "name" : "Nouhaila Innan"
+      },
+      {
+        "name" : "Muhammad Kashif"
+      },
+      {
+        "name" : "Alberto Marchisio"
+      },
+      {
+        "name" : "Mohamed Bennai"
+      },
+      {
+        "name" : "Muhammad Shafique"
+      }
+    ],
+    "categories" : [
+      "quant-ph"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.20060v1",
+    "title" : "ModShift: Model Privacy via Designed Shifts",
+    "summary" : "In this paper, shifts are introduced to preserve model privacy against an\neavesdropper in federated learning. Model learning is treated as a parameter\nestimation problem. This perspective allows us to derive the Fisher Information\nmatrix of the model updates from the shifted updates and drive them to\nsingularity, thus posing a hard estimation problem for Eve. The shifts are\nsecurely shared with the central server to maintain model accuracy at the\nserver and participating devices. A convergence test is proposed to detect if\nmodel updates have been tampered with and we show that our scheme passes this\ntest. Numerical results show that our scheme achieves a higher model shift when\ncompared to a noise injection scheme while requiring a lesser bandwidth secret\nchannel.",
+    "updated" : "2025-07-26T21:00:56Z",
+    "published" : "2025-07-26T21:00:56Z",
+    "authors" : [
+      {
+        "name" : "Nomaan A. Kherani"
+      },
+      {
+        "name" : "Urbashi Mitra"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.IT",
+      "math.IT"
+    ]
   }
 ]
