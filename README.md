@@ -2,6 +2,148 @@
 <h2>2025-07</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.20688v1">Guard-GBDT: Efficient Privacy-Preserving Approximated GBDT Training on
+  Vertical Dataset</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-07-28T10:16:37Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Anxiao Song, Shujie Cui, Jianli Bai, Ke Cheng, Yulong Shen, Giovanni Russello</p>
+    <p><b>Summary:</b> In light of increasing privacy concerns and stringent legal regulations,
+using secure multiparty computation (MPC) to enable collaborative GBDT model
+training among multiple data owners has garnered significant attention. Despite
+this, existing MPC-based GBDT frameworks face efficiency challenges due to high
+communication costs and the computation burden of non-linear operations, such
+as division and sigmoid calculations. In this work, we introduce Guard-GBDT, an
+innovative framework tailored for efficient and privacy-preserving GBDT
+training on vertical datasets. Guard-GBDT bypasses MPC-unfriendly division and
+sigmoid functions by using more streamlined approximations and reduces
+communication overhead by compressing the messages exchanged during gradient
+aggregation. We implement a prototype of Guard-GBDT and extensively evaluate
+its performance and accuracy on various real-world datasets. The results show
+that Guard-GBDT outperforms state-of-the-art HEP-XGB (CIKM'21) and SiGBDT (ASIA
+CCS'24) by up to $2.71\times$ and $12.21 \times$ on LAN network and up to
+$2.7\times$ and $8.2\times$ on WAN network. Guard-GBDT also achieves comparable
+accuracy with SiGBDT and plaintext XGBoost (better than HEP-XGB ), which
+exhibits a deviation of $\pm1\%$ to $\pm2\%$ only. Our implementation code is
+provided at https://github.com/XidianNSS/Guard-GBDT.git.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.20573v1">Reminiscence Attack on Residuals: Exploiting Approximate Machine
+  Unlearning for Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-07-28T07:12:12Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yaxin Xiao, Qingqing Ye, Li Hu, Huadi Zheng, Haibo Hu, Zi Liang, Haoyang Li, Yijie Jiao</p>
+    <p><b>Summary:</b> Machine unlearning enables the removal of specific data from ML models to
+uphold the right to be forgotten. While approximate unlearning algorithms offer
+efficient alternatives to full retraining, this work reveals that they fail to
+adequately protect the privacy of unlearned data. In particular, these
+algorithms introduce implicit residuals which facilitate privacy attacks
+targeting at unlearned data. We observe that these residuals persist regardless
+of model architectures, parameters, and unlearning algorithms, exposing a new
+attack surface beyond conventional output-based leakage. Based on this insight,
+we propose the Reminiscence Attack (ReA), which amplifies the correlation
+between residuals and membership privacy through targeted fine-tuning
+processes. ReA achieves up to 1.90x and 1.12x higher accuracy than prior
+attacks when inferring class-wise and sample-wise membership, respectively. To
+mitigate such residual-induced privacy risk, we develop a dual-phase
+approximate unlearning framework that first eliminates deep-layer unlearned
+data traces and then enforces convergence stability to prevent models from
+"pseudo-convergence", where their outputs are similar to retrained models but
+still preserve unlearned residuals. Our framework works for both classification
+and generation tasks. Experimental evaluations confirm that our approach
+maintains high unlearning efficacy, while reducing the adaptive privacy attack
+accuracy to nearly random guess, at the computational cost of 2-12% of full
+retraining from scratch.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.20557v1">FED-PsyAU: Privacy-Preserving Micro-Expression Recognition via
+  Psychological AU Coordination and Dynamic Facial Motion Modeling</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2025-07-28T06:42:15Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jingting Li, Yu Qian, Lin Zhao, Su-Jing Wang</p>
+    <p><b>Summary:</b> Micro-expressions (MEs) are brief, low-intensity, often localized facial
+expressions. They could reveal genuine emotions individuals may attempt to
+conceal, valuable in contexts like criminal interrogation and psychological
+counseling. However, ME recognition (MER) faces challenges, such as small
+sample sizes and subtle features, which hinder efficient modeling.
+Additionally, real-world applications encounter ME data privacy issues, leaving
+the task of enhancing recognition across settings under privacy constraints
+largely unexplored. To address these issues, we propose a FED-PsyAU research
+framework. We begin with a psychological study on the coordination of upper and
+lower facial action units (AUs) to provide structured prior knowledge of facial
+muscle dynamics. We then develop a DPK-GAT network that combines these
+psychological priors with statistical AU patterns, enabling hierarchical
+learning of facial motion features from regional to global levels, effectively
+enhancing MER performance. Additionally, our federated learning framework
+advances MER capabilities across multiple clients without data sharing,
+preserving privacy and alleviating the limited-sample issue for each client.
+Extensive experiments on commonly-used ME databases demonstrate the
+effectiveness of our approach.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.20537v1">Next-Generation Quantum Neural Networks: Enhancing Efficiency, Security,
+  and Privacy</a></h3>
+  
+  <p><b>Published on:</b> 2025-07-28T05:43:02Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Nouhaila Innan, Muhammad Kashif, Alberto Marchisio, Mohamed Bennai, Muhammad Shafique</p>
+    <p><b>Summary:</b> This paper provides an integrated perspective on addressing key challenges in
+developing reliable and secure Quantum Neural Networks (QNNs) in the Noisy
+Intermediate-Scale Quantum (NISQ) era. In this paper, we present an integrated
+framework that leverages and combines existing approaches to enhance QNN
+efficiency, security, and privacy. Specifically, established optimization
+strategies, including efficient parameter initialization, residual quantum
+circuit connections, and systematic quantum architecture exploration, are
+integrated to mitigate issues such as barren plateaus and error propagation.
+Moreover, the methodology incorporates current defensive mechanisms against
+adversarial attacks. Finally, Quantum Federated Learning (QFL) is adopted
+within this framework to facilitate privacy-preserving collaborative training
+across distributed quantum systems. Collectively, this synthesized approach
+seeks to enhance the robustness and real-world applicability of QNNs, laying
+the foundation for reliable quantum-enhanced machine learning applications in
+finance, healthcare, and cybersecurity.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.20060v1">ModShift: Model Privacy via Designed Shifts</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
+  <p><b>Published on:</b> 2025-07-26T21:00:56Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Nomaan A. Kherani, Urbashi Mitra</p>
+    <p><b>Summary:</b> In this paper, shifts are introduced to preserve model privacy against an
+eavesdropper in federated learning. Model learning is treated as a parameter
+estimation problem. This perspective allows us to derive the Fisher Information
+matrix of the model updates from the shifted updates and drive them to
+singularity, thus posing a hard estimation problem for Eve. The shifts are
+securely shared with the central server to maintain model accuracy at the
+server and participating devices. A convergence test is proposed to detect if
+model updates have been tampered with and we show that our scheme passes this
+test. Numerical results show that our scheme achieves a higher model shift when
+compared to a noise injection scheme while requiring a lesser bandwidth secret
+channel.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2507.19116v1">Graph Structure Learning with Privacy Guarantees for Open Graph Data</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
   <p><b>Published on:</b> 2025-07-25T09:51:12Z</p>
@@ -2876,141 +3018,6 @@ technique combined with a linear fusion approach to enhance model aggregation
 accuracy. Numerical simulations validate the benefits of our approach in terms
 of privacy protection and learning utility compared to the conventional
 LaplaceSQ-FL algorithm.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.00596v1">Gaze3P: Gaze-Based Prediction of User-Perceived Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-07-01T09:26:38Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mayar Elfares, Pascal Reisert, Ralf Küsters, Andreas Bulling</p>
-    <p><b>Summary:</b> Privacy is a highly subjective concept and perceived variably by different
-individuals. Previous research on quantifying user-perceived privacy has
-primarily relied on questionnaires. Furthermore, applying user-perceived
-privacy to optimise the parameters of privacy-preserving techniques (PPT)
-remains insufficiently explored. To address these limitations, we introduce
-Gaze3P -- the first dataset specifically designed to facilitate systematic
-investigations into user-perceived privacy. Our dataset comprises gaze data
-from 100 participants and 1,000 stimuli, encompassing a range of private and
-safe attributes. With Gaze3P, we train a machine learning model to implicitly
-and dynamically predict perceived privacy from human eye gaze. Through
-comprehensive experiments, we show that the resulting models achieve high
-accuracy. Finally, we illustrate how predicted privacy can be used to optimise
-the parameters of differentially private mechanisms, thereby enhancing their
-alignment with user expectations.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.00402v1">GRAND: Graph Release with Assured Node Differential Privacy</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36">  
-  <p><b>Published on:</b> 2025-07-01T03:39:08Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Suqing Liu, Xuan Bi, Tianxi Li</p>
-    <p><b>Summary:</b> Differential privacy is a well-established framework for safeguarding
-sensitive information in data. While extensively applied across various
-domains, its application to network data -- particularly at the node level --
-remains underexplored. Existing methods for node-level privacy either focus
-exclusively on query-based approaches, which restrict output to pre-specified
-network statistics, or fail to preserve key structural properties of the
-network. In this work, we propose GRAND (Graph Release with Assured Node
-Differential privacy), which is, to the best of our knowledge, the first
-network release mechanism that releases entire networks while ensuring
-node-level differential privacy and preserving structural properties. Under a
-broad class of latent space models, we show that the released network
-asymptotically follows the same distribution as the original network. The
-effectiveness of the approach is evaluated through extensive experiments on
-both synthetic and real-world datasets.</p>
-  </details>
-</div>
-
-
-
-<h2>2025-06</h2>
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.00286v2">"Before, I Asked My Mom, Now I Ask ChatGPT": Visual Privacy Management
-  with Generative AI for Blind and Low-Vision People</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E">
-  <p><b>Published on:</b> 2025-06-30T21:55:21Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Tanusree Sharma, Yu-Yun Tseng, Lotus Zhang, Ayae Ide, Kelly Avery Mack, Leah Findlater, Danna Gurari, Yang Wang</p>
-    <p><b>Summary:</b> Blind and low vision (BLV) individuals use Generative AI (GenAI) tools to
-interpret and manage visual content in their daily lives. While such tools can
-enhance the accessibility of visual content and so enable greater user
-independence, they also introduce complex challenges around visual privacy. In
-this paper, we investigate the current practices and future design preferences
-of blind and low vision individuals through an interview study with 21
-participants. Our findings reveal a range of current practices with GenAI that
-balance privacy, efficiency, and emotional agency, with users accounting for
-privacy risks across six key scenarios, such as self-presentation,
-indoor/outdoor spatial privacy, social sharing, and handling professional
-content. Our findings reveal design preferences, including on-device
-processing, zero-retention guarantees, sensitive content redaction,
-privacy-aware appearance indicators, and multimodal tactile mirrored
-interaction methods. We conclude with actionable design recommendations to
-support user-centered visual privacy through GenAI, expanding the notion of
-privacy and responsible handling of others data.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.00230v2">PPFL-RDSN: Privacy-Preserving Federated Learning-based Residual Dense
-  Spatial Networks for Encrypted Lossy Image Reconstruction</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-06-30T19:54:34Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Peilin He, James Joshi</p>
-    <p><b>Summary:</b> Reconstructing high-quality images from low-resolution inputs using Residual
-Dense Spatial Networks (RDSNs) is crucial yet challenging, particularly in
-collaborative scenarios where centralized training poses significant privacy
-risks, including data leakage and inference attacks, as well as high
-computational costs. We propose a novel Privacy-Preserving Federated
-Learning-based RDSN (PPFL-RDSN) framework specifically tailored for lossy image
-reconstruction. PPFL-RDSN integrates Federated Learning (FL), local
-differential privacy, and robust model watermarking techniques, ensuring data
-remains secure on local devices, safeguarding sensitive information, and
-maintaining model authenticity without revealing underlying data. Empirical
-evaluations show that PPFL-RDSN achieves comparable performance to the
-state-of-the-art centralized methods while reducing computational burdens, and
-effectively mitigates security and privacy vulnerabilities, making it a
-practical solution for secure and privacy-preserving collaborative computer
-vision applications.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.02974v1">InvisibleInk: High-Utility and Low-Cost Text Generation with
-  Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-06-30T18:00:41Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Vishnu Vinod, Krishna Pillutla, Abhradeep Guha Thakurta</p>
-    <p><b>Summary:</b> As major progress in LLM-based long-form text generation enables paradigms
-such as retrieval-augmented generation (RAG) and inference-time scaling, safely
-incorporating private information into the generation remains a critical open
-question. We present InvisibleInk, a highly scalable long-form text generation
-framework satisfying rigorous differential privacy guarantees with respect to
-the sensitive references. It interprets sampling from the LLM's
-next-token-distribution as the exponential mechanism over the LLM logits with
-two innovations. First, we reduce the privacy cost by isolating and clipping
-only the sensitive information in the model logits (relative to the public
-logits). Second, we improve text quality by sampling from a small superset of
-the top-$k$ private tokens. Empirical evaluations demonstrate a consistent
-$8\times$ reduction in computation cost over state-of-the-art baselines to
-generate long-form private text of the same utility across privacy levels. In
-summary, InvisibleInk is able to generate private long-form text at less than
-$10\times$ the computation cost of non-private generation.</p>
   </details>
 </div>
 
