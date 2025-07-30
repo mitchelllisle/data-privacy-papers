@@ -2926,5 +2926,138 @@
       "cs.IT",
       "math.IT"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.21904v1",
+    "title" : "Privacy-Preserving Anonymization of System and Network Event Logs Using\n  Salt-Based Hashing and Temporal Noise",
+    "summary" : "System and network event logs are essential for security analytics, threat\ndetection, and operational monitoring. However, these logs often contain\nPersonally Identifiable Information (PII), raising significant privacy concerns\nwhen shared or analyzed. A key challenge in log anonymization is balancing\nprivacy protection with the retention of sufficient structure for meaningful\nanalysis. Overly aggressive anonymization can destroy contextual integrity,\nwhile weak techniques risk re-identification through linkage or inference\nattacks. This paper introduces novel field-specific anonymization methods that\naddress this trade-off. For IP addresses, we propose a salt-based hashing\ntechnique applied at the per-octet level, preserving both subnet and host\nstructure to enable correlation across various log entries while ensuring\nnon-reversibility. For port numbers, full-value hashing with range mapping\nmaintains interpretability. We also present an order-preserving timestamp\nanonymization scheme using adaptive noise injection, which obfuscates exact\ntimes without disrupting event sequences. An open-source tool implementing\nthese techniques has been released to support practical deployment and\nreproducible research. Evaluations using entropy metrics, collision rates, and\nresidual leakage analysis demonstrate that the proposed approach effectively\nprotects privacy while preserving analytical utility.",
+    "updated" : "2025-07-29T15:16:42Z",
+    "published" : "2025-07-29T15:16:42Z",
+    "authors" : [
+      {
+        "name" : "Shreyas Bargale"
+      },
+      {
+        "name" : "Akshit Vakati Venkata"
+      },
+      {
+        "name" : "Jaimandeep Singh"
+      },
+      {
+        "name" : "Chester Rebeiro"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.21769v1",
+    "title" : "Factorization by extremal privacy mechanisms: new insights into\n  efficiency",
+    "summary" : "We study the problem of efficiency under $\\alpha$ local differential privacy\n($\\alpha$ LDP) in both discrete and continuous settings. Building on a\nfactorization lemma, which shows that any privacy mechanism can be decomposed\ninto an extremal mechanism followed by additional randomization, we reduce the\nFisher information maximization problem to a search over extremal mechanisms.\nThe representation of extremal mechanisms requires working in infinite\ndimensional spaces and invokes advanced tools from convex and functional\nanalysis, such as Choquet's theorem. Our analysis establishes matching upper\nand lower bounds on the Fisher information in the high privacy regime ($\\alpha\n\\to 0$), and proves that the maximization problem always admits a solution for\nany $\\alpha$. As a concrete application, we consider the problem of estimating\nthe parameter of a uniform distribution on $[0, \\theta]$ under $\\alpha$ LDP.\nGuided by our theoretical findings, we design an extremal mechanism that yields\na consistent and asymptotically efficient estimator in high privacy regime.\nNumerical experiments confirm our theoretical results.",
+    "updated" : "2025-07-29T12:52:09Z",
+    "published" : "2025-07-29T12:52:09Z",
+    "authors" : [
+      {
+        "name" : "Chiara Amorino"
+      },
+      {
+        "name" : "Arnaud Gloter"
+      }
+    ],
+    "categories" : [
+      "math.ST",
+      "math.PR",
+      "stat.TH",
+      "2020 subject classifications: Primary 62F12, 68P27, secondary 62B15,\n  46A55"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.18365v2",
+    "title" : "RecPS: Privacy Risk Scoring for Recommender Systems",
+    "summary" : "Recommender systems (RecSys) have become an essential component of many web\napplications. The core of the system is a recommendation model trained on\nhighly sensitive user-item interaction data. While privacy-enhancing techniques\nare actively studied in the research community, the real-world model\ndevelopment still depends on minimal privacy protection, e.g., via controlled\naccess. Users of such systems should have the right to choose \\emph{not} to\nshare highly sensitive interactions. However, there is no method allowing the\nuser to know which interactions are more sensitive than others. Thus,\nquantifying the privacy risk of RecSys training data is a critical step to\nenabling privacy-aware RecSys model development and deployment. We propose a\nmembership-inference attack (MIA)- based privacy scoring method, RecPS, to\nmeasure privacy risks at both the interaction and user levels. The RecPS\ninteraction-level score definition is motivated and derived from differential\nprivacy, which is then extended to the user-level scoring method. A critical\ncomponent is the interaction-level MIA method RecLiRA, which gives high-quality\nmembership estimation. We have conducted extensive experiments on well-known\nbenchmark datasets and RecSys models to show the unique features and benefits\nof RecPS scoring in risk assessment and RecSys model unlearning.",
+    "updated" : "2025-07-29T12:22:41Z",
+    "published" : "2025-07-24T12:46:30Z",
+    "authors" : [
+      {
+        "name" : "Jiajie He"
+      },
+      {
+        "name" : "Yuechun Gu"
+      },
+      {
+        "name" : "Keke Chen"
+      }
+    ],
+    "categories" : [
+      "cs.IR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.21142v1",
+    "title" : "Privacy Artifact ConnecTor (PACT): Embedding Enterprise Artifacts for\n  Compliance AI Agents",
+    "summary" : "Enterprise environments contain a heterogeneous, rapidly growing collection\nof internal artifacts related to code, data, and many different tools. Critical\ninformation for assessing privacy risk and ensuring regulatory compliance is\noften embedded across these varied resources, each with their own arcane\ndiscovery and extraction techniques. Therefore, large-scale privacy compliance\nin adherence to governmental regulations requires systems to discern the\ninterconnected nature of diverse artifacts in a common, shared universe.\n  We present Privacy Artifact ConnecT or (PACT), an embeddings-driven graph\nthat links millions of artifacts spanning multiple artifact types generated by\na variety of teams and projects. Powered by the state-of-the-art DRAGON\nembedding model, PACT uses a contrastive learning objective with light\nfine-tuning to link artifacts via their textual components such as raw\nmetadata, ownership specifics, and compliance context. Experimental results\nshow that PACT's fine-tuned model improves recall@1 from 18% to 53%, the query\nmatch rate from 9.6% to 69.7% when paired with a baseline AI agent, and the\nhitrate@1 from 25.7% to 44.9% for candidate selection in a standard recommender\nsystem.",
+    "updated" : "2025-07-23T08:00:20Z",
+    "published" : "2025-07-23T08:00:20Z",
+    "authors" : [
+      {
+        "name" : "Chenhao Fang"
+      },
+      {
+        "name" : "Yanqing Peng"
+      },
+      {
+        "name" : "Rajeev Rao"
+      },
+      {
+        "name" : "Matt Sarmiento"
+      },
+      {
+        "name" : "Wendy Summer"
+      },
+      {
+        "name" : "Arya Pudota"
+      },
+      {
+        "name" : "Alex Goncalves"
+      },
+      {
+        "name" : "Jordi Mola"
+      },
+      {
+        "name" : "Hervé Robert"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.21139v1",
+    "title" : "Learning-based Privacy-Preserving Graph Publishing Against Sensitive\n  Link Inference Attacks",
+    "summary" : "Publishing graph data is widely desired to enable a variety of structural\nanalyses and downstream tasks. However, it also potentially poses severe\nprivacy leakage, as attackers may leverage the released graph data to launch\nattacks and precisely infer private information such as the existence of hidden\nsensitive links in the graph. Prior studies on privacy-preserving graph data\npublishing relied on heuristic graph modification strategies and it is\ndifficult to determine the graph with the optimal privacy--utility trade-off\nfor publishing. In contrast, we propose the first privacy-preserving graph\nstructure learning framework against sensitive link inference attacks, named\nPPGSL, which can automatically learn a graph with the optimal privacy--utility\ntrade-off. The PPGSL operates by first simulating a powerful surrogate attacker\nconducting sensitive link attacks on a given graph. It then trains a\nparameterized graph to defend against the simulated adversarial attacks while\nmaintaining the favorable utility of the original graph. To learn the\nparameters of both parts of the PPGSL, we introduce a secure iterative training\nprotocol. It can enhance privacy preservation and ensure stable convergence\nduring the training process, as supported by the theoretical proof.\nAdditionally, we incorporate multiple acceleration techniques to improve the\nefficiency of the PPGSL in handling large-scale graphs. The experimental\nresults confirm that the PPGSL achieves state-of-the-art privacy--utility\ntrade-off performance and effectively thwarts various sensitive link inference\nattacks.",
+    "updated" : "2025-07-23T04:19:29Z",
+    "published" : "2025-07-23T04:19:29Z",
+    "authors" : [
+      {
+        "name" : "Yucheng Wu"
+      },
+      {
+        "name" : "Yuncong Yang"
+      },
+      {
+        "name" : "Xiao Han"
+      },
+      {
+        "name" : "Leye Wang"
+      },
+      {
+        "name" : "Junjie Wu"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
