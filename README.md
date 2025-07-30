@@ -2,6 +2,64 @@
 <h2>2025-07</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.21904v1">Privacy-Preserving Anonymization of System and Network Event Logs Using
+  Salt-Based Hashing and Temporal Noise</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-07-29T15:16:42Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shreyas Bargale, Akshit Vakati Venkata, Jaimandeep Singh, Chester Rebeiro</p>
+    <p><b>Summary:</b> System and network event logs are essential for security analytics, threat
+detection, and operational monitoring. However, these logs often contain
+Personally Identifiable Information (PII), raising significant privacy concerns
+when shared or analyzed. A key challenge in log anonymization is balancing
+privacy protection with the retention of sufficient structure for meaningful
+analysis. Overly aggressive anonymization can destroy contextual integrity,
+while weak techniques risk re-identification through linkage or inference
+attacks. This paper introduces novel field-specific anonymization methods that
+address this trade-off. For IP addresses, we propose a salt-based hashing
+technique applied at the per-octet level, preserving both subnet and host
+structure to enable correlation across various log entries while ensuring
+non-reversibility. For port numbers, full-value hashing with range mapping
+maintains interpretability. We also present an order-preserving timestamp
+anonymization scheme using adaptive noise injection, which obfuscates exact
+times without disrupting event sequences. An open-source tool implementing
+these techniques has been released to support practical deployment and
+reproducible research. Evaluations using entropy metrics, collision rates, and
+residual leakage analysis demonstrate that the proposed approach effectively
+protects privacy while preserving analytical utility.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.21769v1">Factorization by extremal privacy mechanisms: new insights into
+  efficiency</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Probability-5BC0EB">  
+  <p><b>Published on:</b> 2025-07-29T12:52:09Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Chiara Amorino, Arnaud Gloter</p>
+    <p><b>Summary:</b> We study the problem of efficiency under $\alpha$ local differential privacy
+($\alpha$ LDP) in both discrete and continuous settings. Building on a
+factorization lemma, which shows that any privacy mechanism can be decomposed
+into an extremal mechanism followed by additional randomization, we reduce the
+Fisher information maximization problem to a search over extremal mechanisms.
+The representation of extremal mechanisms requires working in infinite
+dimensional spaces and invokes advanced tools from convex and functional
+analysis, such as Choquet's theorem. Our analysis establishes matching upper
+and lower bounds on the Fisher information in the high privacy regime ($\alpha
+\to 0$), and proves that the maximization problem always admits a solution for
+any $\alpha$. As a concrete application, we consider the problem of estimating
+the parameter of a uniform distribution on $[0, \theta]$ under $\alpha$ LDP.
+Guided by our theoretical findings, we design an extremal mechanism that yields
+a consistent and asymptotically efficient estimator in high privacy regime.
+Numerical experiments confirm our theoretical results.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2507.20688v1">Guard-GBDT: Efficient Privacy-Preserving Approximated GBDT Training on
   Vertical Dataset</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
@@ -207,7 +265,7 @@ than current baselines.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.18365v1">RecPS: Privacy Risk Scoring for Recommender Systems</a></h3>
+  <h3><a href="http://arxiv.org/abs/2507.18365v2">RecPS: Privacy Risk Scoring for Recommender Systems</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB">
   <p><b>Published on:</b> 2025-07-24T12:46:30Z</p>
   <details>
@@ -230,8 +288,7 @@ privacy, which is then extended to the user-level scoring method. A critical
 component is the interaction-level MIA method RecLiRA, which gives high-quality
 membership estimation. We have conducted extensive experiments on well-known
 benchmark datasets and RecSys models to show the unique features and benefits
-of RecPS scoring in risk assessment and RecSys model unlearning. Our code is
-available at https://anonymous.4open.science/r/RsLiRA-4BD3/readme.md.</p>
+of RecPS scoring in risk assessment and RecSys model unlearning.</p>
   </details>
 </div>
 
@@ -358,6 +415,35 @@ scenarios with many attributes and strong inter-attribute correlations.</p>
 
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.21142v1">Privacy Artifact ConnecTor (PACT): Embedding Enterprise Artifacts for
+  Compliance AI Agents</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-07-23T08:00:20Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Chenhao Fang, Yanqing Peng, Rajeev Rao, Matt Sarmiento, Wendy Summer, Arya Pudota, Alex Goncalves, Jordi Mola, Hervé Robert</p>
+    <p><b>Summary:</b> Enterprise environments contain a heterogeneous, rapidly growing collection
+of internal artifacts related to code, data, and many different tools. Critical
+information for assessing privacy risk and ensuring regulatory compliance is
+often embedded across these varied resources, each with their own arcane
+discovery and extraction techniques. Therefore, large-scale privacy compliance
+in adherence to governmental regulations requires systems to discern the
+interconnected nature of diverse artifacts in a common, shared universe.
+  We present Privacy Artifact ConnecT or (PACT), an embeddings-driven graph
+that links millions of artifacts spanning multiple artifact types generated by
+a variety of teams and projects. Powered by the state-of-the-art DRAGON
+embedding model, PACT uses a contrastive learning objective with light
+fine-tuning to link artifacts via their textual components such as raw
+metadata, ownership specifics, and compliance context. Experimental results
+show that PACT's fine-tuned model improves recall@1 from 18% to 53%, the query
+match rate from 9.6% to 69.7% when paired with a baseline AI agent, and the
+hitrate@1 from 25.7% to 44.9% for candidate selection in a standard recommender
+system.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2507.17228v1">P3SL: Personalized Privacy-Preserving Split Learning on Heterogeneous
   Edge Devices</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
@@ -425,6 +511,40 @@ purely theoretical, this system is rooted in existing proof systems but goes
 beyond them to specifically address leakage concerns and standardize leakage
 analysis -- one of the most critical security challenges with AI's rapid
 development.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.21139v1">Learning-based Privacy-Preserving Graph Publishing Against Sensitive
+  Link Inference Attacks</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-07-23T04:19:29Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yucheng Wu, Yuncong Yang, Xiao Han, Leye Wang, Junjie Wu</p>
+    <p><b>Summary:</b> Publishing graph data is widely desired to enable a variety of structural
+analyses and downstream tasks. However, it also potentially poses severe
+privacy leakage, as attackers may leverage the released graph data to launch
+attacks and precisely infer private information such as the existence of hidden
+sensitive links in the graph. Prior studies on privacy-preserving graph data
+publishing relied on heuristic graph modification strategies and it is
+difficult to determine the graph with the optimal privacy--utility trade-off
+for publishing. In contrast, we propose the first privacy-preserving graph
+structure learning framework against sensitive link inference attacks, named
+PPGSL, which can automatically learn a graph with the optimal privacy--utility
+trade-off. The PPGSL operates by first simulating a powerful surrogate attacker
+conducting sensitive link attacks on a given graph. It then trains a
+parameterized graph to defend against the simulated adversarial attacks while
+maintaining the favorable utility of the original graph. To learn the
+parameters of both parts of the PPGSL, we introduce a secure iterative training
+protocol. It can enhance privacy preservation and ensure stable convergence
+during the training process, as supported by the theoretical proof.
+Additionally, we incorporate multiple acceleration techniques to improve the
+efficiency of the PPGSL in handling large-scale graphs. The experimental
+results confirm that the PPGSL achieves state-of-the-art privacy--utility
+trade-off performance and effectively thwarts various sensitive link inference
+attacks.</p>
   </details>
 </div>
 
@@ -2902,122 +3022,6 @@ demonstrate empirically that Retrofitting methods are able to learn, showing
 how a few iterations of BBoxER improve performance and generalize well on a
 benchmark of reasoning datasets. This positions BBoxER as an attractive add-on
 on top of gradient-based optimization.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.01581v1">A Privacy-Preserving Indoor Localization System based on Hierarchical
-  Federated Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
-  <p><b>Published on:</b> 2025-07-02T10:53:31Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Masood Jan, Wafa Njima, Xun Zhang</p>
-    <p><b>Summary:</b> Location information serves as the fundamental element for numerous Internet
-of Things (IoT) applications. Traditional indoor localization techniques often
-produce significant errors and raise privacy concerns due to centralized data
-collection. In response, Machine Learning (ML) techniques offer promising
-solutions by capturing indoor environment variations. However, they typically
-require central data aggregation, leading to privacy, bandwidth, and server
-reliability issues. To overcome these challenges, in this paper, we propose a
-Federated Learning (FL)-based approach for dynamic indoor localization using a
-Deep Neural Network (DNN) model. Experimental results show that FL has the
-nearby performance to Centralized Model (CL) while keeping the data privacy,
-bandwidth efficiency and server reliability. This research demonstrates that
-our proposed FL approach provides a viable solution for privacy-enhanced indoor
-localization, paving the way for advancements in secure and efficient indoor
-localization systems.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.01487v1">How to Securely Shuffle? A survey about Secure Shufflers for
-  privacy-preserving computations</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-07-02T08:48:53Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Marc Damie, Florian Hahn, Andreas Peter, Jan Ramon</p>
-    <p><b>Summary:</b> Ishai et al. (FOCS'06) introduced secure shuffling as an efficient building
-block for private data aggregation. Recently, the field of differential privacy
-has revived interest in secure shufflers by highlighting the privacy
-amplification they can provide in various computations. Although several works
-argue for the utility of secure shufflers, they often treat them as black
-boxes; overlooking the practical vulnerabilities and performance trade-offs of
-existing implementations. This leaves a central question open: what makes a
-good secure shuffler?
-  This survey addresses that question by identifying, categorizing, and
-comparing 26 secure protocols that realize the necessary shuffling
-functionality. To enable a meaningful comparison, we adapt and unify existing
-security definitions into a consistent set of properties. We also present an
-overview of privacy-preserving technologies that rely on secure shufflers,
-offer practical guidelines for selecting appropriate protocols, and outline
-promising directions for future work.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.01216v1">PAE MobiLLM: Privacy-Aware and Efficient LLM Fine-Tuning on the Mobile
-  Device via Additive Side-Tuning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-07-01T22:27:21Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Xingke Yang, Liang Li, Zhiyi Wan, Sicong Li, Hao Wang, Xiaoqi Qi, Jiang Liu, Tomoaki Ohtsuki, Xin Fu, Miao Pan</p>
-    <p><b>Summary:</b> There is a huge gap between numerous intriguing applications fostered by
-on-device large language model (LLM) fine-tuning (FT) from fresh mobile data
-and the limited resources of a mobile device. While existing server-assisted
-methods (e.g., split learning or side-tuning) may enable LLM FT on the local
-mobile device, they suffer from heavy communication burdens of activation
-transmissions, and may disclose data, labels or fine-tuned models to the
-server. To address those issues, we develop PAE MobiLLM, a privacy-aware and
-efficient LLM FT method which can be deployed on the mobile device via
-server-assisted additive side-tuning. To further accelerate FT convergence and
-improve computing efficiency, PAE MobiLLM integrates activation caching on the
-server side, which allows the server to reuse historical activations and saves
-the mobile device from repeatedly computing forward passes for the recurring
-data samples. Besides, to reduce communication cost, PAE MobiLLM develops a
-one-token (i.e., ``pivot'' token) activation shortcut that transmits only a
-single activation dimension instead of full activation matrices to guide the
-side network tuning. Last but not least, PAE MobiLLM introduces the additive
-adapter side-network design which makes the server train the adapter modules
-based on device-defined prediction differences rather than raw ground-truth
-labels. In this way, the server can only assist device-defined side-network
-computing, and learn nothing about data, labels or fine-tuned models.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.00920v2">Privacy-Preserving Quantized Federated Learning with Diverse Precision</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
-  <p><b>Published on:</b> 2025-07-01T16:26:20Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Dang Qua Nguyen, Morteza Hashemi, Erik Perrins, Sergiy A. Vorobyov, David J. Love, Taejoon Kim</p>
-    <p><b>Summary:</b> Federated learning (FL) has emerged as a promising paradigm for distributed
-machine learning, enabling collaborative training of a global model across
-multiple local devices without requiring them to share raw data. Despite its
-advancements, FL is limited by factors such as: (i) privacy risks arising from
-the unprotected transmission of local model updates to the fusion center (FC)
-and (ii) decreased learning utility caused by heterogeneity in model
-quantization resolution across participating devices. Prior work typically
-addresses only one of these challenges because maintaining learning utility
-under both privacy risks and quantization heterogeneity is a non-trivial task.
-In this paper, our aim is therefore to improve the learning utility of a
-privacy-preserving FL that allows clusters of devices with different
-quantization resolutions to participate in each FL round. Specifically, we
-introduce a novel stochastic quantizer (SQ) that is designed to simultaneously
-achieve differential privacy (DP) and minimum quantization error. Notably, the
-proposed SQ guarantees bounded distortion, unlike other DP approaches. To
-address quantization heterogeneity, we introduce a cluster size optimization
-technique combined with a linear fusion approach to enhance model aggregation
-accuracy. Numerical simulations validate the benefits of our approach in terms
-of privacy protection and learning utility compared to the conventional
-LaplaceSQ-FL algorithm.</p>
   </details>
 </div>
 
