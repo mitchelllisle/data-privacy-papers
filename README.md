@@ -2,6 +2,96 @@
 <h2>2025-07</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.22534v1">The Risks and Detection of Overestimated Privacy Protection in Voice
+  Anonymisation</a></h3>
+  
+  <p><b>Published on:</b> 2025-07-30T10:02:17Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Michele Panariello, Sarina Meyer, Pierre Champion, Xiaoxiao Miao, Massimiliano Todisco, Ngoc Thang Vu, Nicholas Evans</p>
+    <p><b>Summary:</b> Voice anonymisation aims to conceal the voice identity of speakers in speech
+recordings. Privacy protection is usually estimated from the difficulty of
+using a speaker verification system to re-identify the speaker
+post-anonymisation. Performance assessments are therefore dependent on the
+verification model as well as the anonymisation system. There is hence
+potential for privacy protection to be overestimated when the verification
+system is poorly trained, perhaps with mismatched data. In this paper, we
+demonstrate the insidious risk of overestimating anonymisation performance and
+show examples of exaggerated performance reported in the literature. For the
+worst case we identified, performance is overestimated by 74% relative. We then
+introduce a means to detect when performance assessment might be untrustworthy
+and show that it can identify all overestimation scenarios presented in the
+paper. Our solution is openly available as a fork of the 2024 VoicePrivacy
+Challenge evaluation toolkit.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.22208v1">Quantum-Inspired Audio Unlearning: Towards Privacy-Preserving Voice
+  Biometrics</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Sound-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> 
+  <p><b>Published on:</b> 2025-07-29T20:12:24Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shreyansh Pathak, Sonu Shreshtha, Richa Singh, Mayank Vatsa</p>
+    <p><b>Summary:</b> The widespread adoption of voice-enabled authentication and audio biometric
+systems have significantly increased privacy vulnerabilities associated with
+sensitive speech data. Compliance with privacy regulations such as GDPR's right
+to be forgotten and India's DPDP Act necessitates targeted and efficient
+erasure of individual-specific voice signatures from already-trained biometric
+models. Existing unlearning methods designed for visual data inadequately
+handle the sequential, temporal, and high-dimensional nature of audio signals,
+leading to ineffective or incomplete speaker and accent erasure. To address
+this, we introduce QPAudioEraser, a quantum-inspired audio unlearning
+framework. Our our-phase approach involves: (1) weight initialization using
+destructive interference to nullify target features, (2) superposition-based
+label transformations that obscure class identity, (3) an
+uncertainty-maximizing quantum loss function, and (4) entanglement-inspired
+mixing of correlated weights to retain model knowledge. Comprehensive
+evaluations with ResNet18, ViT, and CNN architectures across AudioMNIST, Speech
+Commands, LibriSpeech, and Speech Accent Archive datasets validate
+QPAudioEraser's superior performance. The framework achieves complete erasure
+of target data (0% Forget Accuracy) while incurring minimal impact on model
+utility, with a performance degradation on retained data as low as 0.05%.
+QPAudioEraser consistently surpasses conventional baselines across
+single-class, multi-class, sequential, and accent-level erasure scenarios,
+establishing the proposed approach as a robust privacy-preserving solution.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.22153v1">Towards Privacy-preserving Photorealistic Self-avatars in Mixed Reality</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-07-29T18:37:24Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ethan Wilson, Vincent Bindschaedler, Sophie Jörg, Sean Sheikholeslam, Kevin Butler, Eakta Jain</p>
+    <p><b>Summary:</b> Photorealistic 3D avatar generation has rapidly improved in recent years, and
+realistic avatars that match a user's true appearance are more feasible in
+Mixed Reality (MR) than ever before. Yet, there are known risks to sharing
+one's likeness online, and photorealistic MR avatars could exacerbate these
+risks. If user likenesses were to be shared broadly, there are risks for cyber
+abuse or targeted fraud based on user appearances. We propose an alternate
+avatar rendering scheme for broader social MR -- synthesizing realistic avatars
+that preserve a user's demographic identity while being distinct enough from
+the individual user to protect facial biometric information. We introduce a
+methodology for privatizing appearance by isolating identity within the feature
+space of identity-encoding generative models. We develop two algorithms that
+then obfuscate identity: \epsmethod{} provides differential privacy guarantees
+and \thetamethod{} provides fine-grained control for the level of identity
+offset. These methods are shown to successfully generate de-identified virtual
+avatars across multiple generative architectures in 2D and 3D. With these
+techniques, it is possible to protect user privacy while largely preserving
+attributes related to sense of self. Employing these techniques in public
+settings could enable the use of photorealistic avatars broadly in MR,
+maintaining high realism and immersion without privacy risk.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2507.21904v1">Privacy-Preserving Anonymization of System and Network Event Logs Using
   Salt-Based Hashing and Temporal Noise</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
@@ -266,7 +356,7 @@ than current baselines.</p>
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2507.18365v2">RecPS: Privacy Risk Scoring for Recommender Systems</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2025-07-24T12:46:30Z</p>
   <details>
     <summary>More Details</summary>
@@ -2913,115 +3003,6 @@ demonstrate that PFIP preserves the accuracy of the original face recognition
 model, achieving a 100% hit rate while retrieving 1,000 ciphertext face
 templates within 300 milliseconds. Compared to existing approaches, PFIP
 achieves a nearly 50x improvement in retrieval efficiency.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.03033v1">Preserving Privacy, Increasing Accessibility, and Reducing Cost: An
-  On-Device Artificial Intelligence Model for Medical Transcription and Note
-  Generation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-07-03T01:51:49Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Johnson Thomas, Ayush Mudgal, Wendao Liu, Nisten Tahiraj, Zeeshaan Mohammed, Dhruv Diddi</p>
-    <p><b>Summary:</b> Background: Clinical documentation represents a significant burden for
-healthcare providers, with physicians spending up to 2 hours daily on
-administrative tasks. Recent advances in large language models (LLMs) offer
-promising solutions, but privacy concerns and computational requirements limit
-their adoption in healthcare settings. Objective: To develop and evaluate a
-privacy-preserving, on-device medical transcription system using a fine-tuned
-Llama 3.2 1B model capable of generating structured medical notes from medical
-transcriptions while maintaining complete data sovereignty entirely in the
-browser. Methods: We fine-tuned a Llama 3.2 1B model using Parameter-Efficient
-Fine-Tuning (PEFT) with LoRA on 1,500 synthetic medical
-transcription-to-structured note pairs. The model was evaluated against the
-base Llama 3.2 1B on two datasets: 100 endocrinology transcripts and 140
-modified ACI benchmark cases. Evaluation employed both statistical metrics
-(ROUGE, BERTScore, BLEURT) and LLM-as-judge assessments across multiple
-clinical quality dimensions. Results: The fine-tuned OnDevice model
-demonstrated substantial improvements over the base model. On the ACI
-benchmark, ROUGE-1 scores increased from 0.346 to 0.496, while BERTScore F1
-improved from 0.832 to 0.866. Clinical quality assessments showed marked
-reduction in major hallucinations (from 85 to 35 cases) and enhanced factual
-correctness (2.81 to 3.54 on 5-point scale). Similar improvements were observed
-on the internal evaluation dataset, with composite scores increasing from 3.13
-to 4.43 (+41.5%). Conclusions: Fine-tuning compact LLMs for medical
-transcription yields clinically meaningful improvements while enabling complete
-on-device browser deployment. This approach addresses key barriers to AI
-adoption in healthcare: privacy preservation, cost reduction, and accessibility
-for resource-constrained environments.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.01808v1">Empowering Manufacturers with Privacy-Preserving AI Tools: A Case Study
-  in Privacy-Preserving Machine Learning to Solve Real-World Problems</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E"> 
-  <p><b>Published on:</b> 2025-07-02T15:25:43Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Xiaoyu Ji, Jessica Shorland, Joshua Shank, Pascal Delpe-Brice, Latanya Sweeney, Jan Allebach, Ali Shakouri</p>
-    <p><b>Summary:</b> Small- and medium-sized manufacturers need innovative data tools but, because
-of competition and privacy concerns, often do not want to share their
-proprietary data with researchers who might be interested in helping. This
-paper introduces a privacy-preserving platform by which manufacturers may
-safely share their data with researchers through secure methods, so that those
-researchers then create innovative tools to solve the manufacturers' real-world
-problems, and then provide tools that execute solutions back onto the platform
-for others to use with privacy and confidentiality guarantees. We illustrate
-this problem through a particular use case which addresses an important problem
-in the large-scale manufacturing of food crystals, which is that quality
-control relies on image analysis tools. Previous to our research, food crystals
-in the images were manually counted, which required substantial and
-time-consuming human efforts, but we have developed and deployed a crystal
-analysis tool which makes this process both more rapid and accurate. The tool
-enables automatic characterization of the crystal size distribution and numbers
-from microscope images while the natural imperfections from the sample
-preparation are automatically removed; a machine learning model to count high
-resolution translucent crystals and agglomeration of crystals was also
-developed to aid in these efforts. The resulting algorithm was then packaged
-for real-world use on the factory floor via a web-based app secured through the
-originating privacy-preserving platform, allowing manufacturers to use it while
-keeping their proprietary data secure. After demonstrating this full process,
-future directions are also explored.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.01752v1">Tuning without Peeking: Provable Privacy and Generalization Bounds for
-  LLM Post-Training</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-07-02T14:29:30Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ismail Labiad, Mathurin Videau, Matthieu Kowalski, Marc Schoenauer, Alessandro Leite, Julia Kempe, Olivier Teytaud</p>
-    <p><b>Summary:</b> Gradient-based optimization is the workhorse of deep learning, offering
-efficient and scalable training via backpropagation. However, its reliance on
-large volumes of labeled data raises privacy and security concerns such as
-susceptibility to data poisoning attacks and the risk of overfitting. In
-contrast, black box optimization methods, which treat the model as an opaque
-function, relying solely on function evaluations to guide optimization, offer a
-promising alternative in scenarios where data access is restricted, adversarial
-risks are high, or overfitting is a concern. However, black box methods also
-pose significant challenges, including poor scalability to high-dimensional
-parameter spaces, as prevalent in large language models (LLMs), and high
-computational costs due to reliance on numerous model evaluations. This paper
-introduces BBoxER, an evolutionary black-box method for LLM post-training that
-induces an information bottleneck via implicit compression of the training
-data. Leveraging the tractability of information flow, we provide strong
-theoretical bounds on generalization, differential privacy, susceptibility to
-data poisoning attacks, and robustness to extraction attacks. BBoxER operates
-on top of pre-trained LLMs, offering a lightweight and modular enhancement
-suitable for deployment in restricted or privacy-sensitive environments, in
-addition to non-vacuous generalization guarantees. In experiments with LLMs, we
-demonstrate empirically that Retrofitting methods are able to learn, showing
-how a few iterations of BBoxER improve performance and generalize well on a
-benchmark of reasoning datasets. This positions BBoxER as an attractive add-on
-on top of gradient-based optimization.</p>
   </details>
 </div>
 
