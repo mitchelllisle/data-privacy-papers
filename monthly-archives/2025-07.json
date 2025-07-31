@@ -3059,5 +3059,118 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.22534v1",
+    "title" : "The Risks and Detection of Overestimated Privacy Protection in Voice\n  Anonymisation",
+    "summary" : "Voice anonymisation aims to conceal the voice identity of speakers in speech\nrecordings. Privacy protection is usually estimated from the difficulty of\nusing a speaker verification system to re-identify the speaker\npost-anonymisation. Performance assessments are therefore dependent on the\nverification model as well as the anonymisation system. There is hence\npotential for privacy protection to be overestimated when the verification\nsystem is poorly trained, perhaps with mismatched data. In this paper, we\ndemonstrate the insidious risk of overestimating anonymisation performance and\nshow examples of exaggerated performance reported in the literature. For the\nworst case we identified, performance is overestimated by 74% relative. We then\nintroduce a means to detect when performance assessment might be untrustworthy\nand show that it can identify all overestimation scenarios presented in the\npaper. Our solution is openly available as a fork of the 2024 VoicePrivacy\nChallenge evaluation toolkit.",
+    "updated" : "2025-07-30T10:02:17Z",
+    "published" : "2025-07-30T10:02:17Z",
+    "authors" : [
+      {
+        "name" : "Michele Panariello"
+      },
+      {
+        "name" : "Sarina Meyer"
+      },
+      {
+        "name" : "Pierre Champion"
+      },
+      {
+        "name" : "Xiaoxiao Miao"
+      },
+      {
+        "name" : "Massimiliano Todisco"
+      },
+      {
+        "name" : "Ngoc Thang Vu"
+      },
+      {
+        "name" : "Nicholas Evans"
+      }
+    ],
+    "categories" : [
+      "eess.AS"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.22208v1",
+    "title" : "Quantum-Inspired Audio Unlearning: Towards Privacy-Preserving Voice\n  Biometrics",
+    "summary" : "The widespread adoption of voice-enabled authentication and audio biometric\nsystems have significantly increased privacy vulnerabilities associated with\nsensitive speech data. Compliance with privacy regulations such as GDPR's right\nto be forgotten and India's DPDP Act necessitates targeted and efficient\nerasure of individual-specific voice signatures from already-trained biometric\nmodels. Existing unlearning methods designed for visual data inadequately\nhandle the sequential, temporal, and high-dimensional nature of audio signals,\nleading to ineffective or incomplete speaker and accent erasure. To address\nthis, we introduce QPAudioEraser, a quantum-inspired audio unlearning\nframework. Our our-phase approach involves: (1) weight initialization using\ndestructive interference to nullify target features, (2) superposition-based\nlabel transformations that obscure class identity, (3) an\nuncertainty-maximizing quantum loss function, and (4) entanglement-inspired\nmixing of correlated weights to retain model knowledge. Comprehensive\nevaluations with ResNet18, ViT, and CNN architectures across AudioMNIST, Speech\nCommands, LibriSpeech, and Speech Accent Archive datasets validate\nQPAudioEraser's superior performance. The framework achieves complete erasure\nof target data (0% Forget Accuracy) while incurring minimal impact on model\nutility, with a performance degradation on retained data as low as 0.05%.\nQPAudioEraser consistently surpasses conventional baselines across\nsingle-class, multi-class, sequential, and accent-level erasure scenarios,\nestablishing the proposed approach as a robust privacy-preserving solution.",
+    "updated" : "2025-07-29T20:12:24Z",
+    "published" : "2025-07-29T20:12:24Z",
+    "authors" : [
+      {
+        "name" : "Shreyansh Pathak"
+      },
+      {
+        "name" : "Sonu Shreshtha"
+      },
+      {
+        "name" : "Richa Singh"
+      },
+      {
+        "name" : "Mayank Vatsa"
+      }
+    ],
+    "categories" : [
+      "cs.SD",
+      "cs.AI",
+      "eess.AS"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.22153v1",
+    "title" : "Towards Privacy-preserving Photorealistic Self-avatars in Mixed Reality",
+    "summary" : "Photorealistic 3D avatar generation has rapidly improved in recent years, and\nrealistic avatars that match a user's true appearance are more feasible in\nMixed Reality (MR) than ever before. Yet, there are known risks to sharing\none's likeness online, and photorealistic MR avatars could exacerbate these\nrisks. If user likenesses were to be shared broadly, there are risks for cyber\nabuse or targeted fraud based on user appearances. We propose an alternate\navatar rendering scheme for broader social MR -- synthesizing realistic avatars\nthat preserve a user's demographic identity while being distinct enough from\nthe individual user to protect facial biometric information. We introduce a\nmethodology for privatizing appearance by isolating identity within the feature\nspace of identity-encoding generative models. We develop two algorithms that\nthen obfuscate identity: \\epsmethod{} provides differential privacy guarantees\nand \\thetamethod{} provides fine-grained control for the level of identity\noffset. These methods are shown to successfully generate de-identified virtual\navatars across multiple generative architectures in 2D and 3D. With these\ntechniques, it is possible to protect user privacy while largely preserving\nattributes related to sense of self. Employing these techniques in public\nsettings could enable the use of photorealistic avatars broadly in MR,\nmaintaining high realism and immersion without privacy risk.",
+    "updated" : "2025-07-29T18:37:24Z",
+    "published" : "2025-07-29T18:37:24Z",
+    "authors" : [
+      {
+        "name" : "Ethan Wilson"
+      },
+      {
+        "name" : "Vincent Bindschaedler"
+      },
+      {
+        "name" : "Sophie Jörg"
+      },
+      {
+        "name" : "Sean Sheikholeslam"
+      },
+      {
+        "name" : "Kevin Butler"
+      },
+      {
+        "name" : "Eakta Jain"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.18365v2",
+    "title" : "RecPS: Privacy Risk Scoring for Recommender Systems",
+    "summary" : "Recommender systems (RecSys) have become an essential component of many web\napplications. The core of the system is a recommendation model trained on\nhighly sensitive user-item interaction data. While privacy-enhancing techniques\nare actively studied in the research community, the real-world model\ndevelopment still depends on minimal privacy protection, e.g., via controlled\naccess. Users of such systems should have the right to choose \\emph{not} to\nshare highly sensitive interactions. However, there is no method allowing the\nuser to know which interactions are more sensitive than others. Thus,\nquantifying the privacy risk of RecSys training data is a critical step to\nenabling privacy-aware RecSys model development and deployment. We propose a\nmembership-inference attack (MIA)- based privacy scoring method, RecPS, to\nmeasure privacy risks at both the interaction and user levels. The RecPS\ninteraction-level score definition is motivated and derived from differential\nprivacy, which is then extended to the user-level scoring method. A critical\ncomponent is the interaction-level MIA method RecLiRA, which gives high-quality\nmembership estimation. We have conducted extensive experiments on well-known\nbenchmark datasets and RecSys models to show the unique features and benefits\nof RecPS scoring in risk assessment and RecSys model unlearning.",
+    "updated" : "2025-07-29T12:22:41Z",
+    "published" : "2025-07-24T12:46:30Z",
+    "authors" : [
+      {
+        "name" : "Jiajie He"
+      },
+      {
+        "name" : "Yuechun Gu"
+      },
+      {
+        "name" : "Keke Chen"
+      }
+    ],
+    "categories" : [
+      "cs.IR",
+      "cs.AI",
+      "cs.CR"
+    ]
   }
 ]
