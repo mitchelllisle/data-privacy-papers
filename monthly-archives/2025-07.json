@@ -3172,5 +3172,179 @@
       "cs.AI",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.23569v1",
+    "title" : "Gaussian Splatting Feature Fields for Privacy-Preserving Visual\n  Localization",
+    "summary" : "Visual localization is the task of estimating a camera pose in a known\nenvironment. In this paper, we utilize 3D Gaussian Splatting (3DGS)-based\nrepresentations for accurate and privacy-preserving visual localization. We\npropose Gaussian Splatting Feature Fields (GSFFs), a scene representation for\nvisual localization that combines an explicit geometry model (3DGS) with an\nimplicit feature field. We leverage the dense geometric information and\ndifferentiable rasterization algorithm from 3DGS to learn robust feature\nrepresentations grounded in 3D. In particular, we align a 3D scale-aware\nfeature field and a 2D feature encoder in a common embedding space through a\ncontrastive framework. Using a 3D structure-informed clustering procedure, we\nfurther regularize the representation learning and seamlessly convert the\nfeatures to segmentations, which can be used for privacy-preserving visual\nlocalization. Pose refinement, which involves aligning either feature maps or\nsegmentations from a query image with those rendered from the GSFFs scene\nrepresentation, is used to achieve localization. The resulting privacy- and\nnon-privacy-preserving localization pipelines, evaluated on multiple real-world\ndatasets, show state-of-the-art performances.",
+    "updated" : "2025-07-31T13:58:15Z",
+    "published" : "2025-07-31T13:58:15Z",
+    "authors" : [
+      {
+        "name" : "Maxime Pietrantoni"
+      },
+      {
+        "name" : "Gabriela Csurka"
+      },
+      {
+        "name" : "Torsten Sattler"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.23432v1",
+    "title" : "Scalable contribution bounding to achieve privacy",
+    "summary" : "In modern datasets, where single records can have multiple owners, enforcing\nuser-level differential privacy requires capping each user's total\ncontribution. This \"contribution bounding\" becomes a significant combinatorial\nchallenge. Existing sequential algorithms for this task are computationally\nintensive and do not scale to the massive datasets prevalent today. To address\nthis scalability bottleneck, we propose a novel and efficient distributed\nalgorithm. Our approach models the complex ownership structure as a hypergraph,\nwhere users are vertices and records are hyperedges. The algorithm proceeds in\nrounds, allowing users to propose records in parallel. A record is added to the\nfinal dataset only if all its owners unanimously agree, thereby ensuring that\nno user's predefined contribution limit is violated. This method aims to\nmaximize the size of the resulting dataset for high utility while providing a\npractical, scalable solution for implementing user-level privacy in large,\nreal-world systems.",
+    "updated" : "2025-07-31T11:14:17Z",
+    "published" : "2025-07-31T11:14:17Z",
+    "authors" : [
+      {
+        "name" : "Vincent Cohen-Addad"
+      },
+      {
+        "name" : "Alessandro Epasto"
+      },
+      {
+        "name" : "Jason Lee"
+      },
+      {
+        "name" : "Morteza Zadimoghaddam"
+      }
+    ],
+    "categories" : [
+      "cs.DS",
+      "cs.CR",
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.23291v1",
+    "title" : "Evaluating the Dynamics of Membership Privacy in Deep Learning",
+    "summary" : "Membership inference attacks (MIAs) pose a critical threat to the privacy of\ntraining data in deep learning. Despite significant progress in attack\nmethodologies, our understanding of when and how models encode membership\ninformation during training remains limited. This paper presents a dynamic\nanalytical framework for dissecting and quantifying privacy leakage dynamics at\nthe individual sample level. By tracking per-sample vulnerabilities on an\nFPR-TPR plane throughout training, our framework systematically measures how\nfactors such as dataset complexity, model architecture, and optimizer choice\ninfluence the rate and severity at which samples become vulnerable. Crucially,\nwe discover a robust correlation between a sample's intrinsic learning\ndifficulty, and find that the privacy risk of samples highly vulnerable in the\nfinal trained model is largely determined early during training. Our results\nthus provide a deeper understanding of how privacy risks dynamically emerge\nduring training, laying the groundwork for proactive, privacy-aware model\ntraining strategies.",
+    "updated" : "2025-07-31T07:09:52Z",
+    "published" : "2025-07-31T07:09:52Z",
+    "authors" : [
+      {
+        "name" : "Yuetian Chen"
+      },
+      {
+        "name" : "Zhiqi Wang"
+      },
+      {
+        "name" : "Nathalie Baracaldo"
+      },
+      {
+        "name" : "Swanand Ravindra Kadhe"
+      },
+      {
+        "name" : "Lei Yu"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.23229v1",
+    "title" : "Fine-Grained Privacy Extraction from Retrieval-Augmented Generation\n  Systems via Knowledge Asymmetry Exploitation",
+    "summary" : "Retrieval-augmented generation (RAG) systems enhance large language models\n(LLMs) by integrating external knowledge bases, but this advancement introduces\nsignificant privacy risks. Existing privacy attacks on RAG systems can trigger\ndata leakage but often fail to accurately isolate knowledge-base-derived\nsentences within mixed responses. They also lack robustness when applied across\nmultiple domains. This paper addresses these challenges by presenting a novel\nblack-box attack framework that exploits knowledge asymmetry between RAG and\nstandard LLMs to achieve fine-grained privacy extraction across heterogeneous\nknowledge landscapes. We propose a chain-of-thought reasoning strategy that\ncreates adaptive prompts to steer RAG systems away from sensitive content.\nSpecifically, we first decompose adversarial queries to maximize information\ndisparity and then apply a semantic relationship scoring to resolve lexical and\nsyntactic ambiguities. We finally train a neural network on these feature\nscores to precisely identify sentences containing private information. Unlike\nprior work, our framework generalizes to unseen domains through iterative\nrefinement without pre-defined knowledge. Experimental results show that we\nachieve over 91% privacy extraction rate in single-domain and 83% in\nmulti-domain scenarios, reducing sensitive sentence exposure by over 65% in\ncase studies. This work bridges the gap between attack and defense in RAG\nsystems, enabling precise extraction of private information while providing a\nfoundation for adaptive mitigation.",
+    "updated" : "2025-07-31T03:50:16Z",
+    "published" : "2025-07-31T03:50:16Z",
+    "authors" : [
+      {
+        "name" : "Yufei Chen"
+      },
+      {
+        "name" : "Yao Wang"
+      },
+      {
+        "name" : "Haibin Zhang"
+      },
+      {
+        "name" : "Tao Gu"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.18518v2",
+    "title" : "Transform Before You Query: A Privacy-Preserving Approach for Vector\n  Retrieval with Embedding Space Alignment",
+    "summary" : "Vector Database (VDB) can efficiently index and search high-dimensional\nvector embeddings from unstructured data, crucially enabling fast semantic\nsimilarity search essential for modern AI applications like generative AI and\nrecommendation systems. Since current VDB service providers predominantly use\nproprietary black-box models, users are forced to expose raw query text to them\nvia API in exchange for the vector retrieval services. Consequently, if query\ntext involves confidential records from finance or healthcare domains, this\nmechanism inevitably leads to critical leakage of user's sensitive information.\nTo address this issue, we introduce STEER (\\textbf{S}ecure \\textbf{T}ransformed\n\\textbf{E}mbedding v\\textbf{E}ctor\\textbf{ R}etrieval), a private vector\nretrieval framework that leverages the alignment relationship between the\nsemantic spaces of different embedding models to derive approximate embeddings\nfor the query text. STEER performs the retrieval using the approximate\nembeddings within the original VDB and requires no modifications to the server\nside. Our theoretical and experimental analyses demonstrate that STEER\neffectively safeguards query text privacy while maintaining the retrieval\naccuracy. Even though approximate embeddings are approximations of the\nembeddings from proprietary models, they still prevent the providers from\nrecovering the query text through Embedding Inversion Attacks (EIAs). Extensive\nexperimental results show that Recall@100 of STEER can basically achieve a\ndecrease of less than 5\\%. Furthermore, even when searching within a text\ncorpus of millions of entries, STEER achieves a Recall@20 accuracy 20\\% higher\nthan current baselines.",
+    "updated" : "2025-07-31T06:47:49Z",
+    "published" : "2025-07-24T15:41:34Z",
+    "authors" : [
+      {
+        "name" : "Ruiqi He"
+      },
+      {
+        "name" : "Zekun Fei"
+      },
+      {
+        "name" : "Jiaqi Li"
+      },
+      {
+        "name" : "Xinyuan Zhu"
+      },
+      {
+        "name" : "Biao Yi"
+      },
+      {
+        "name" : "Siyi Lv"
+      },
+      {
+        "name" : "Weijie Liu"
+      },
+      {
+        "name" : "Zheli Liu"
+      }
+    ],
+    "categories" : [
+      "cs.IR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.22908v1",
+    "title" : "A Privacy-Preserving Federated Framework with Hybrid Quantum-Enhanced\n  Learning for Financial Fraud Detection",
+    "summary" : "Rapid growth of digital transactions has led to a surge in fraudulent\nactivities, challenging traditional detection methods in the financial sector.\nTo tackle this problem, we introduce a specialised federated learning framework\nthat uniquely combines a quantum-enhanced Long Short-Term Memory (LSTM) model\nwith advanced privacy preserving techniques. By integrating quantum layers into\nthe LSTM architecture, our approach adeptly captures complex\ncross-transactional patters, resulting in an approximate 5% performance\nimprovement across key evaluation metrics compared to conventional models.\nCentral to our framework is \"FedRansel\", a novel method designed to defend\nagainst poisoning and inference attacks, thereby reducing model degradation and\ninference accuracy by 4-8%, compared to standard differential privacy\nmechanisms. This pseudo-centralised setup with a Quantum LSTM model, enhances\nfraud detection accuracy and reinforces the security and confidentiality of\nsensitive financial data.",
+    "updated" : "2025-07-15T17:29:12Z",
+    "published" : "2025-07-15T17:29:12Z",
+    "authors" : [
+      {
+        "name" : "Abhishek Sawaika"
+      },
+      {
+        "name" : "Swetang Krishna"
+      },
+      {
+        "name" : "Tushar Tomar"
+      },
+      {
+        "name" : "Durga Pritam Suggisetti"
+      },
+      {
+        "name" : "Aditi Lal"
+      },
+      {
+        "name" : "Tanmaya Shrivastav"
+      },
+      {
+        "name" : "Nouhaila Innan"
+      },
+      {
+        "name" : "Muhammad Shafique"
+      }
+    ],
+    "categories" : [
+      "q-fin.CP",
+      "cs.AI",
+      "cs.LG",
+      "I.2"
+    ]
   }
 ]
