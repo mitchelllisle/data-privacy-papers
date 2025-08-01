@@ -2,6 +2,119 @@
 <h2>2025-07</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.23569v1">Gaussian Splatting Feature Fields for Privacy-Preserving Visual
+  Localization</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2025-07-31T13:58:15Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Maxime Pietrantoni, Gabriela Csurka, Torsten Sattler</p>
+    <p><b>Summary:</b> Visual localization is the task of estimating a camera pose in a known
+environment. In this paper, we utilize 3D Gaussian Splatting (3DGS)-based
+representations for accurate and privacy-preserving visual localization. We
+propose Gaussian Splatting Feature Fields (GSFFs), a scene representation for
+visual localization that combines an explicit geometry model (3DGS) with an
+implicit feature field. We leverage the dense geometric information and
+differentiable rasterization algorithm from 3DGS to learn robust feature
+representations grounded in 3D. In particular, we align a 3D scale-aware
+feature field and a 2D feature encoder in a common embedding space through a
+contrastive framework. Using a 3D structure-informed clustering procedure, we
+further regularize the representation learning and seamlessly convert the
+features to segmentations, which can be used for privacy-preserving visual
+localization. Pose refinement, which involves aligning either feature maps or
+segmentations from a query image with those rendered from the GSFFs scene
+representation, is used to achieve localization. The resulting privacy- and
+non-privacy-preserving localization pipelines, evaluated on multiple real-world
+datasets, show state-of-the-art performances.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.23432v1">Scalable contribution bounding to achieve privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
+  <p><b>Published on:</b> 2025-07-31T11:14:17Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Vincent Cohen-Addad, Alessandro Epasto, Jason Lee, Morteza Zadimoghaddam</p>
+    <p><b>Summary:</b> In modern datasets, where single records can have multiple owners, enforcing
+user-level differential privacy requires capping each user's total
+contribution. This "contribution bounding" becomes a significant combinatorial
+challenge. Existing sequential algorithms for this task are computationally
+intensive and do not scale to the massive datasets prevalent today. To address
+this scalability bottleneck, we propose a novel and efficient distributed
+algorithm. Our approach models the complex ownership structure as a hypergraph,
+where users are vertices and records are hyperedges. The algorithm proceeds in
+rounds, allowing users to propose records in parallel. A record is added to the
+final dataset only if all its owners unanimously agree, thereby ensuring that
+no user's predefined contribution limit is violated. This method aims to
+maximize the size of the resulting dataset for high utility while providing a
+practical, scalable solution for implementing user-level privacy in large,
+real-world systems.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.23291v1">Evaluating the Dynamics of Membership Privacy in Deep Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-07-31T07:09:52Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yuetian Chen, Zhiqi Wang, Nathalie Baracaldo, Swanand Ravindra Kadhe, Lei Yu</p>
+    <p><b>Summary:</b> Membership inference attacks (MIAs) pose a critical threat to the privacy of
+training data in deep learning. Despite significant progress in attack
+methodologies, our understanding of when and how models encode membership
+information during training remains limited. This paper presents a dynamic
+analytical framework for dissecting and quantifying privacy leakage dynamics at
+the individual sample level. By tracking per-sample vulnerabilities on an
+FPR-TPR plane throughout training, our framework systematically measures how
+factors such as dataset complexity, model architecture, and optimizer choice
+influence the rate and severity at which samples become vulnerable. Crucially,
+we discover a robust correlation between a sample's intrinsic learning
+difficulty, and find that the privacy risk of samples highly vulnerable in the
+final trained model is largely determined early during training. Our results
+thus provide a deeper understanding of how privacy risks dynamically emerge
+during training, laying the groundwork for proactive, privacy-aware model
+training strategies.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.23229v1">Fine-Grained Privacy Extraction from Retrieval-Augmented Generation
+  Systems via Knowledge Asymmetry Exploitation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-07-31T03:50:16Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yufei Chen, Yao Wang, Haibin Zhang, Tao Gu</p>
+    <p><b>Summary:</b> Retrieval-augmented generation (RAG) systems enhance large language models
+(LLMs) by integrating external knowledge bases, but this advancement introduces
+significant privacy risks. Existing privacy attacks on RAG systems can trigger
+data leakage but often fail to accurately isolate knowledge-base-derived
+sentences within mixed responses. They also lack robustness when applied across
+multiple domains. This paper addresses these challenges by presenting a novel
+black-box attack framework that exploits knowledge asymmetry between RAG and
+standard LLMs to achieve fine-grained privacy extraction across heterogeneous
+knowledge landscapes. We propose a chain-of-thought reasoning strategy that
+creates adaptive prompts to steer RAG systems away from sensitive content.
+Specifically, we first decompose adversarial queries to maximize information
+disparity and then apply a semantic relationship scoring to resolve lexical and
+syntactic ambiguities. We finally train a neural network on these feature
+scores to precisely identify sentences containing private information. Unlike
+prior work, our framework generalizes to unseen domains through iterative
+refinement without pre-defined knowledge. Experimental results show that we
+achieve over 91% privacy extraction rate in single-domain and 83% in
+multi-domain scenarios, reducing sensitive sentence exposure by over 65% in
+case studies. This work bridges the gap between attack and defense in RAG
+systems, enabling precise extraction of private information while providing a
+foundation for adaptive mitigation.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2507.22534v1">The Risks and Detection of Overestimated Privacy Protection in Voice
   Anonymisation</a></h3>
   
@@ -320,7 +433,7 @@ analysis.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.18518v1">Transform Before You Query: A Privacy-Preserving Approach for Vector
+  <h3><a href="http://arxiv.org/abs/2507.18518v2">Transform Before You Query: A Privacy-Preserving Approach for Vector
   Retrieval with Embedding Space Alignment</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB">
   <p><b>Published on:</b> 2025-07-24T15:41:34Z</p>
@@ -1559,6 +1672,32 @@ threshold-based proof for a simple Convolutional Neural Network (CNN) model
 (for MNIST) and a multi-layer perceptron (MLP) model (for HAR), and evaluate
 the approach in terms of computational overhead, communication cost, and
 verifiability.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2507.22908v1">A Privacy-Preserving Federated Framework with Hybrid Quantum-Enhanced
+  Learning for Financial Fraud Detection</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
+  <p><b>Published on:</b> 2025-07-15T17:29:12Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Abhishek Sawaika, Swetang Krishna, Tushar Tomar, Durga Pritam Suggisetti, Aditi Lal, Tanmaya Shrivastav, Nouhaila Innan, Muhammad Shafique</p>
+    <p><b>Summary:</b> Rapid growth of digital transactions has led to a surge in fraudulent
+activities, challenging traditional detection methods in the financial sector.
+To tackle this problem, we introduce a specialised federated learning framework
+that uniquely combines a quantum-enhanced Long Short-Term Memory (LSTM) model
+with advanced privacy preserving techniques. By integrating quantum layers into
+the LSTM architecture, our approach adeptly captures complex
+cross-transactional patters, resulting in an approximate 5% performance
+improvement across key evaluation metrics compared to conventional models.
+Central to our framework is "FedRansel", a novel method designed to defend
+against poisoning and inference attacks, thereby reducing model degradation and
+inference accuracy by 4-8%, compared to standard differential privacy
+mechanisms. This pseudo-centralised setup with a Quantum LSTM model, enhances
+fraud detection accuracy and reinforces the security and confidentiality of
+sensitive financial data.</p>
   </details>
 </div>
 
@@ -2858,151 +2997,6 @@ reduced the risk of the attack by 49.47%, while maintaining model utility and
 explanation quality. Through our evaluation, we identify strategies for using
 PETs in XAI for maximizing benefits and minimizing the success of this privacy
 attack on sensitive personal information.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.04185v1">From Legal Text to Tech Specs: Generative AI's Interpretation of Consent
-  in Privacy Law</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
-  <p><b>Published on:</b> 2025-07-05T23:36:05Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Aniket Kesari, Travis Breaux, Tom Norton, Sarah Santos, Anmol Singhal</p>
-    <p><b>Summary:</b> Privacy law and regulation have turned to "consent" as the legitimate basis
-for collecting and processing individuals' data. As governments have rushed to
-enshrine consent requirements in their privacy laws, such as the California
-Consumer Privacy Act (CCPA), significant challenges remain in understanding how
-these legal mandates are operationalized in software. The opaque nature of
-software development processes further complicates this translation. To address
-this, we explore the use of Large Language Models (LLMs) in requirements
-engineering to bridge the gap between legal requirements and technical
-implementation. This study employs a three-step pipeline that involves using an
-LLM to classify software use cases for compliance, generating LLM modifications
-for non-compliant cases, and manually validating these changes against legal
-standards. Our preliminary findings highlight the potential of LLMs in
-automating compliance tasks, while also revealing limitations in their
-reasoning capabilities. By benchmarking LLMs against real-world use cases, this
-research provides insights into leveraging AI-driven solutions to enhance legal
-compliance of software.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.04104v1">Human-Centered Interactive Anonymization for Privacy-Preserving Machine
-  Learning: A Case for Human-Guided k-Anonymity</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-07-05T17:20:18Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Sri Harsha Gajavalli</p>
-    <p><b>Summary:</b> Privacy-preserving machine learning (ML) seeks to balance data utility and
-privacy, especially as regulations like the GDPR mandate the anonymization of
-personal data for ML applications. Conventional anonymization approaches often
-reduce data utility due to indiscriminate generalization or suppression of data
-attributes. In this study, we propose an interactive approach that incorporates
-human input into the k-anonymization process, enabling domain experts to guide
-attribute preservation based on contextual importance. Using the UCI Adult
-dataset, we compare classification outcomes of interactive human-influenced
-anonymization with traditional, fully automated methods. Our results show that
-human input can enhance data utility in some cases, although results vary
-across tasks and settings. We discuss limitations of our approach and suggest
-potential areas for improved interactive frameworks in privacy-aware ML.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.03694v1">Willchain: Decentralized, Privacy-Preserving, Self-Executing, Digital
-  Wills</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computational Engineering, Finance, and Science-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E">
-  <p><b>Published on:</b> 2025-07-04T16:23:32Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jovonni L. PHarr</p>
-    <p><b>Summary:</b> This work presents a novel decentralized protocol for digital estate planning
-that integrates advances distributed computing, and cryptography. The original
-proof-of-concept was constructed using purely solidity contracts. Since then,
-we have enhanced the implementation into a layer-1 protocol that uses modern
-interchain communication to connect several heterogeneous chain types. A key
-contribution of this research is the implementation of several modern
-cryptographic primitives to support various forms of claims for information
-validation. These primitives introduce an unmatched level of privacy to the
-process of digital inheritance. We also demonstrate on a set of heterogeneous
-smart contracts, following the same spec, on each chain to serve as entry
-points, gateways, or bridge contracts that are invoked via a path from the will
-module on our protocol, to the contract. This ensures a fair and secure
-distribution of digital assets in accordance with the wishes of the decedent
-without the requirement of moving their funds. This research further extends
-its innovations with a user interaction model, featuring a check-in system and
-account abstraction process, which enhances flexibility and user-friendliness
-without compromising on security. By developing a dedicated permissionless
-blockchain that is secured by a network of validators, and interchain relayers,
-the proposed protocol signifies a transformation in the digital estate planning
-industry and illustrates the potential of blockchain technology in
-revolutionizing traditional legal and personal spheres. Implementing a
-cryptoeconomic network at the core of inheritance planning allows for unique
-incentive compatible economic mechanisms to be constructed.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.02727v1">Quantifying Classifier Utility under Local Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
-  <p><b>Published on:</b> 2025-07-03T15:42:10Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ye Zheng, Yidan Hu</p>
-    <p><b>Summary:</b> Local differential privacy (LDP) provides a rigorous and quantifiable privacy
-guarantee for personal data by introducing perturbation at the data source.
-However, quantifying the impact of these perturbations on classifier utility
-remains a theoretical challenge, particularly for complex or black-box
-classifiers.
-  This paper presents a framework for theoretically quantifying classifier
-utility under LDP mechanisms. The key insight is that LDP perturbation is
-concentrated around the original data with a specific probability, transforming
-utility analysis of the classifier into its robustness analysis in this
-concentrated region. Our framework connects the concentration analysis of LDP
-mechanisms with the robustness analysis of classifiers. It treats LDP
-mechanisms as general distributional functions and classifiers as black-box
-functions, thus applicable to any LDP mechanism and classifier. A direct
-application of our utility quantification is guiding the selection of LDP
-mechanisms and privacy parameters for a given classifier. Notably, our analysis
-shows that a piecewise-based mechanism leads to better utility compared to
-alternatives in common scenarios.
-  Using this framework alongside two novel refinement techniques, we conduct
-case studies on utility quantification for typical mechanism-classifier
-combinations. The results demonstrate that our theoretical utility
-quantification aligns closely with empirical observations, particularly when
-classifiers operate in lower-dimensional input spaces.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.02414v1">Privacy-preserving Preselection for Face Identification Based on Packing</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-07-03T08:15:07Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Rundong Xin, Taotao Wang, Jin Wang, Chonghe Zhao, Jing Wang</p>
-    <p><b>Summary:</b> Face identification systems operating in the ciphertext domain have garnered
-significant attention due to increasing privacy concerns and the potential
-recovery of original facial data. However, as the size of ciphertext template
-libraries grows, the face retrieval process becomes progressively more
-time-intensive. To address this challenge, we propose a novel and efficient
-scheme for face retrieval in the ciphertext domain, termed Privacy-Preserving
-Preselection for Face Identification Based on Packing (PFIP). PFIP incorporates
-an innovative preselection mechanism to reduce computational overhead and a
-packing module to enhance the flexibility of biometric systems during the
-enrollment stage. Extensive experiments conducted on the LFW and CASIA datasets
-demonstrate that PFIP preserves the accuracy of the original face recognition
-model, achieving a 100% hit rate while retrieving 1,000 ciphertext face
-templates within 300 milliseconds. Compared to existing approaches, PFIP
-achieves a nearly 50x improvement in retrieval efficiency.</p>
   </details>
 </div>
 
