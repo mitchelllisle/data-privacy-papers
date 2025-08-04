@@ -3346,5 +3346,52 @@
       "cs.LG",
       "I.2"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.00128v1",
+    "title" : "How Quantization Impacts Privacy Risk on LLMs for Code?",
+    "summary" : "Large language models for code (LLMs4Code) rely heavily on massive training\ndata, including sensitive data, such as cloud service credentials of the\nprojects and personal identifiable information of the developers, raising\nserious privacy concerns. Membership inference (MI) has recently emerged as an\neffective tool for assessing privacy risk by identifying whether specific data\nbelong to a model's training set. In parallel, model compression techniques,\nespecially quantization, have gained traction for reducing computational costs\nand enabling the deployment of large models. However, while quantized models\nstill retain knowledge learned from the original training data, it remains\nunclear whether quantization affects their ability to retain and expose privacy\ninformation. Answering this question is of great importance to understanding\nprivacy risks in real-world deployments. In this work, we conduct the first\nempirical study on how quantization influences task performance and privacy\nrisk simultaneously in LLMs4Code. To do this, we implement widely used\nquantization techniques (static and dynamic) to three representative model\nfamilies, namely Pythia, CodeGen, and GPTNeo. Our results demonstrate that\nquantization has a significant impact on reducing the privacy risk relative to\nthe original model. We also uncover a positive correlation between task\nperformance and privacy risk, indicating an underlying tradeoff. Moreover, we\nreveal the possibility that quantizing larger models could yield better balance\nthan using full-precision small models. Finally, we demonstrate that these\nfindings generalize across different architectures, model sizes and MI methods,\noffering practical guidance for safeguarding privacy when deploying compressed\nLLMs4Code.",
+    "updated" : "2025-07-31T19:28:31Z",
+    "published" : "2025-07-31T19:28:31Z",
+    "authors" : [
+      {
+        "name" : "Md Nazmul Haque"
+      },
+      {
+        "name" : "Hua Yang"
+      },
+      {
+        "name" : "Zhou Yang"
+      },
+      {
+        "name" : "Bowen Xu"
+      }
+    ],
+    "categories" : [
+      "cs.SE"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.18365v3",
+    "title" : "RecPS: Privacy Risk Scoring for Recommender Systems",
+    "summary" : "Recommender systems (RecSys) have become an essential component of many web\napplications. The core of the system is a recommendation model trained on\nhighly sensitive user-item interaction data. While privacy-enhancing techniques\nare actively studied in the research community, the real-world model\ndevelopment still depends on minimal privacy protection, e.g., via controlled\naccess. Users of such systems should have the right to choose \\emph{not} to\nshare highly sensitive interactions. However, there is no method allowing the\nuser to know which interactions are more sensitive than others. Thus,\nquantifying the privacy risk of RecSys training data is a critical step to\nenabling privacy-aware RecSys model development and deployment. We propose a\nmembership-inference attack (MIA)- based privacy scoring method, RecPS, to\nmeasure privacy risks at both the interaction and user levels. The RecPS\ninteraction-level score definition is motivated and derived from differential\nprivacy, which is then extended to the user-level scoring method. A critical\ncomponent is the interaction-level MIA method RecLiRA, which gives high-quality\nmembership estimation. We have conducted extensive experiments on well-known\nbenchmark datasets and RecSys models to show the unique features and benefits\nof RecPS scoring in risk assessment and RecSys model unlearning.",
+    "updated" : "2025-08-01T17:19:56Z",
+    "published" : "2025-07-24T12:46:30Z",
+    "authors" : [
+      {
+        "name" : "Jiajie He"
+      },
+      {
+        "name" : "Yuechun Gu"
+      },
+      {
+        "name" : "Keke Chen"
+      }
+    ],
+    "categories" : [
+      "cs.IR",
+      "cs.AI",
+      "cs.CR"
+    ]
   }
 ]
