@@ -2,6 +2,41 @@
 <h2>2025-07</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.00128v1">How Quantization Impacts Privacy Risk on LLMs for Code?</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
+  <p><b>Published on:</b> 2025-07-31T19:28:31Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Md Nazmul Haque, Hua Yang, Zhou Yang, Bowen Xu</p>
+    <p><b>Summary:</b> Large language models for code (LLMs4Code) rely heavily on massive training
+data, including sensitive data, such as cloud service credentials of the
+projects and personal identifiable information of the developers, raising
+serious privacy concerns. Membership inference (MI) has recently emerged as an
+effective tool for assessing privacy risk by identifying whether specific data
+belong to a model's training set. In parallel, model compression techniques,
+especially quantization, have gained traction for reducing computational costs
+and enabling the deployment of large models. However, while quantized models
+still retain knowledge learned from the original training data, it remains
+unclear whether quantization affects their ability to retain and expose privacy
+information. Answering this question is of great importance to understanding
+privacy risks in real-world deployments. In this work, we conduct the first
+empirical study on how quantization influences task performance and privacy
+risk simultaneously in LLMs4Code. To do this, we implement widely used
+quantization techniques (static and dynamic) to three representative model
+families, namely Pythia, CodeGen, and GPTNeo. Our results demonstrate that
+quantization has a significant impact on reducing the privacy risk relative to
+the original model. We also uncover a positive correlation between task
+performance and privacy risk, indicating an underlying tradeoff. Moreover, we
+reveal the possibility that quantizing larger models could yield better balance
+than using full-precision small models. Finally, we demonstrate that these
+findings generalize across different architectures, model sizes and MI methods,
+offering practical guidance for safeguarding privacy when deploying compressed
+LLMs4Code.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2507.23569v1">Gaussian Splatting Feature Fields for Privacy-Preserving Visual
   Localization</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
@@ -468,7 +503,7 @@ than current baselines.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.18365v2">RecPS: Privacy Risk Scoring for Recommender Systems</a></h3>
+  <h3><a href="http://arxiv.org/abs/2507.18365v3">RecPS: Privacy Risk Scoring for Recommender Systems</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2025-07-24T12:46:30Z</p>
   <details>
@@ -2906,97 +2941,67 @@ user-defined privacy preferences.</p>
 </div>
 
 
+
+<h2>2025-08</h2>
+
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.05175v1">Blind Targeting: Personalization under Third-Party Privacy Constraints</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">  
-  <p><b>Published on:</b> 2025-07-07T16:30:40Z</p>
+  <h3><a href="http://arxiv.org/abs/2508.00321v1">Evaluating the Efficacy of Large Language Models for Generating
+  Fine-Grained Visual Privacy Policies in Homes</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2025-08-01T05:11:29Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Anya Shchetkina</p>
-    <p><b>Summary:</b> Major advertising platforms recently increased privacy protections by
-limiting advertisers' access to individual-level data. Instead of providing
-access to granular raw data, the platforms only allow a limited number of
-aggregate queries to a dataset, which is further protected by adding
-differentially private noise. This paper studies whether and how advertisers
-can design effective targeting policies within these restrictive privacy
-preserving data environments. To achieve this, I develop a probabilistic
-machine learning method based on Bayesian optimization, which facilitates
-dynamic data exploration. Since Bayesian optimization was designed to sample
-points from a function to find its maximum, it is not applicable to aggregate
-queries and to targeting. Therefore, I introduce two innovations: (i) integral
-updating of posteriors which allows to select the best regions of the data to
-query rather than individual points and (ii) a targeting-aware acquisition
-function that dynamically selects the most informative regions for the
-targeting task. I identify the conditions of the dataset and privacy
-environment that necessitate the use of such a "smart" querying strategy. I
-apply the strategic querying method to the Criteo AI Labs dataset for uplift
-modeling (Diemert et al., 2018) that contains visit and conversion data from
-14M users. I show that an intuitive benchmark strategy only achieves 33% of the
-non-privacy-preserving targeting potential in some cases, while my strategic
-querying method achieves 97-101% of that potential, and is statistically
-indistinguishable from Causal Forest (Athey et al., 2019): a state-of-the-art
-non-privacy-preserving machine learning targeting method.</p>
+    <p><b>Authors:</b> Shuning Zhang, Ying Ma, Xin Yi, Hewu Li</p>
+    <p><b>Summary:</b> The proliferation of visual sensors in smart home environments, particularly
+through wearable devices like smart glasses, introduces profound privacy
+challenges. Existing privacy controls are often static and coarse-grained,
+failing to accommodate the dynamic and socially nuanced nature of home
+environments. This paper investigates the viability of using Large Language
+Models (LLMs) as the core of a dynamic and adaptive privacy policy engine. We
+propose a conceptual framework where visual data is classified using a
+multi-dimensional schema that considers data sensitivity, spatial context, and
+social presence. An LLM then reasons over this contextual information to
+enforce fine-grained privacy rules, such as selective object obfuscation, in
+real-time. Through a comparative evaluation of state-of-the-art Vision Language
+Models (including GPT-4o and the Qwen-VL series) in simulated home settings ,
+our findings show the feasibility of this approach. The LLM-based engine
+achieved a top machine-evaluated appropriateness score of 3.99 out of 5, and
+the policies generated by the models received a top human-evaluated score of
+4.00 out of 5.</p>
   </details>
 </div>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.04771v1">Efficient Unlearning with Privacy Guarantees</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-07-07T08:46:02Z</p>
+  <h3><a href="http://arxiv.org/abs/2508.00287v1">Privacy-Preserving Driver Drowsiness Detection with Spatial
+  Self-Attention and Federated Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2025-08-01T03:12:01Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Josep Domingo-Ferrer, Najeeb Jebreel, David Sánchez</p>
-    <p><b>Summary:</b> Privacy protection laws, such as the GDPR, grant individuals the right to
-request the forgetting of their personal data not only from databases but also
-from machine learning (ML) models trained on them. Machine unlearning has
-emerged as a practical means to facilitate model forgetting of data instances
-seen during training. Although some existing machine unlearning methods
-guarantee exact forgetting, they are typically costly in computational terms.
-On the other hand, more affordable methods do not offer forgetting guarantees
-and are applicable only to specific ML models. In this paper, we present
-\emph{efficient unlearning with privacy guarantees} (EUPG), a novel machine
-unlearning framework that offers formal privacy guarantees to individuals whose
-data are being unlearned. EUPG involves pre-training ML models on data
-protected using privacy models, and it enables {\em efficient unlearning with
-the privacy guarantees offered by the privacy models in use}. Through empirical
-evaluation on four heterogeneous data sets protected with $k$-anonymity and
-$\epsilon$-differential privacy as privacy models, our approach demonstrates
-utility and forgetting effectiveness comparable to those of exact unlearning
-methods, while significantly reducing computational and storage costs. Our code
-is available at https://github.com/najeebjebreel/EUPG.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.04528v1">Towards integration of Privacy Enhancing Technologies in Explainable
-  Artificial Intelligence</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-07-06T20:45:34Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Sonal Allana, Rozita Dara, Xiaodong Lin, Pulei Xiong</p>
-    <p><b>Summary:</b> Explainable Artificial Intelligence (XAI) is a crucial pathway in mitigating
-the risk of non-transparency in the decision-making process of black-box
-Artificial Intelligence (AI) systems. However, despite the benefits, XAI
-methods are found to leak the privacy of individuals whose data is used in
-training or querying the models. Researchers have demonstrated privacy attacks
-that exploit explanations to infer sensitive personal information of
-individuals. Currently there is a lack of defenses against known privacy
-attacks targeting explanations when vulnerable XAI are used in production and
-machine learning as a service system. To address this gap, in this article, we
-explore Privacy Enhancing Technologies (PETs) as a defense mechanism against
-attribute inference on explanations provided by feature-based XAI methods. We
-empirically evaluate 3 types of PETs, namely synthetic training data,
-differentially private training and noise addition, on two categories of
-feature-based XAI. Our evaluation determines different responses from the
-mitigation methods and side-effects of PETs on other system properties such as
-utility and performance. In the best case, PETs integration in explanations
-reduced the risk of the attack by 49.47%, while maintaining model utility and
-explanation quality. Through our evaluation, we identify strategies for using
-PETs in XAI for maximizing benefits and minimizing the success of this privacy
-attack on sensitive personal information.</p>
+    <p><b>Authors:</b> Tran Viet Khoa, Do Hai Son, Mohammad Abu Alsheikh, Yibeltal F Alem, Dinh Thai Hoang</p>
+    <p><b>Summary:</b> Driver drowsiness is one of the main causes of road accidents and is
+recognized as a leading contributor to traffic-related fatalities. However,
+detecting drowsiness accurately remains a challenging task, especially in
+real-world settings where facial data from different individuals is
+decentralized and highly diverse. In this paper, we propose a novel framework
+for drowsiness detection that is designed to work effectively with
+heterogeneous and decentralized data. Our approach develops a new Spatial
+Self-Attention (SSA) mechanism integrated with a Long Short-Term Memory (LSTM)
+network to better extract key facial features and improve detection
+performance. To support federated learning, we employ a Gradient Similarity
+Comparison (GSC) that selects the most relevant trained models from different
+operators before aggregation. This improves the accuracy and robustness of the
+global model while preserving user privacy. We also develop a customized tool
+that automatically processes video data by extracting frames, detecting and
+cropping faces, and applying data augmentation techniques such as rotation,
+flipping, brightness adjustment, and zooming. Experimental results show that
+our framework achieves a detection accuracy of 89.9% in the federated learning
+settings, outperforming existing methods under various deployment scenarios.
+The results demonstrate the effectiveness of our approach in handling
+real-world data variability and highlight its potential for deployment in
+intelligent transportation systems to enhance road safety through early and
+reliable drowsiness detection.</p>
   </details>
 </div>
 
