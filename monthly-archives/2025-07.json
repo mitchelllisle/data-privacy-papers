@@ -3393,5 +3393,33 @@
       "cs.AI",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.23291v2",
+    "title" : "Evaluating the Dynamics of Membership Privacy in Deep Learning",
+    "summary" : "Membership inference attacks (MIAs) pose a critical threat to the privacy of\ntraining data in deep learning. Despite significant progress in attack\nmethodologies, our understanding of when and how models encode membership\ninformation during training remains limited. This paper presents a dynamic\nanalytical framework for dissecting and quantifying privacy leakage dynamics at\nthe individual sample level. By tracking per-sample vulnerabilities on an\nFPR-TPR plane throughout training, our framework systematically measures how\nfactors such as dataset complexity, model architecture, and optimizer choice\ninfluence the rate and severity at which samples become vulnerable. Crucially,\nwe discover a robust correlation between a sample's intrinsic learning\ndifficulty, and find that the privacy risk of samples highly vulnerable in the\nfinal trained model is largely determined early during training. Our results\nthus provide a deeper understanding of how privacy risks dynamically emerge\nduring training, laying the groundwork for proactive, privacy-aware model\ntraining strategies.",
+    "updated" : "2025-08-03T23:23:03Z",
+    "published" : "2025-07-31T07:09:52Z",
+    "authors" : [
+      {
+        "name" : "Yuetian Chen"
+      },
+      {
+        "name" : "Zhiqi Wang"
+      },
+      {
+        "name" : "Nathalie Baracaldo"
+      },
+      {
+        "name" : "Swanand Ravindra Kadhe"
+      },
+      {
+        "name" : "Lei Yu"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
   }
 ]
