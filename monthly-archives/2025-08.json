@@ -49,5 +49,343 @@
     "categories" : [
       "cs.CV"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.02551v1",
+    "title" : "PrivAR: Real-Time Privacy Protection for Location-Based Augmented\n  Reality Applications",
+    "summary" : "Location-based augmented reality (LB-AR) applications, such as Pok\\'emon Go,\nstream sub-second GPS updates to deliver responsive and immersive user\nexperiences. However, this high-frequency location reporting introduces serious\nprivacy risks. Protecting privacy in LB-AR is significantly more challenging\nthan in traditional location-based services (LBS), as it demands real-time\nlocation protection with strong per-location and trajectory-level privacy\nguaranteed while maintaining low latency and high quality of service (QoS).\nExisting methods fail to meet these combined demands.\n  To fill the gap, we present PrivAR, the first client-side privacy framework\nfor real-time LB-AR. PrivAR introduces two lightweight mechanisms: (i) Planar\nStaircase Mechanism (PSM) which designs a staircase-shaped distribution to\ngenerate noisy location with strong per-location privacy and low expected\nerror; and (ii) Thresholded Reporting with PSM (TR-PSM), a selective scheme\nthat releases a noisy location update only when a displacement exceeds a\nprivate threshold, enabling many-to-one mappings for enhanced trace-level\nprivacy while preserving high QoS. We present theoretical analysis, extensive\nexperiments on two public datasets and our proprietary GeoTrace dataset, and\nvalidate PrivAR on a Pok\\'emon-Go-style prototype. Results show PrivAR improves\nQoS (Gamescore) by up to 50%, while increasing attacker error by 1.8x over\nbaseline with an additional 0.06 milliseconds runtime overhead.",
+    "updated" : "2025-08-04T16:02:10Z",
+    "published" : "2025-08-04T16:02:10Z",
+    "authors" : [
+      {
+        "name" : "Shafizur Rahman Seeam"
+      },
+      {
+        "name" : "Ye Zheng"
+      },
+      {
+        "name" : "Zhengxiong Li"
+      },
+      {
+        "name" : "Yidan Hu"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.02483v1",
+    "title" : "Revisiting the Privacy of Low-Frequency Speech Signals: Exploring\n  Resampling Methods, Evaluation Scenarios, and Speaker Characteristics",
+    "summary" : "While audio recordings in real life provide insights into social dynamics and\nconversational behavior, they also raise concerns about the privacy of\npersonal, sensitive data. This article explores the effectiveness of\nrestricting recordings to low-frequency audio to protect spoken content. For\nresampling the audio signals to different sampling rates, we compare the effect\nof employing anti-aliasing filtering. Privacy enhancement is measured by an\nincreased word error rate of automatic speech recognition models. The impact on\nutility performance is measured with voice activity detection models. Our\nexperimental results show that for clean recordings, models trained with a\nsampling rate of up to 800 Hz transcribe the majority of words correctly. For\nboth models, we analyzed the impact of the speaker's sex and pitch, and we\ndemonstrated that missing anti-aliasing filters more strongly compromise speech\nprivacy.",
+    "updated" : "2025-08-04T14:53:56Z",
+    "published" : "2025-08-04T14:53:56Z",
+    "authors" : [
+      {
+        "name" : "Jule Pohlhausen"
+      },
+      {
+        "name" : "Jörg Bitzer"
+      }
+    ],
+    "categories" : [
+      "eess.AS"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.02461v1",
+    "title" : "Experimental Evaluation of Post-Quantum Homomorphic Encryption for\n  Privacy-Preserving V2X Communication",
+    "summary" : "Intelligent Transportation Systems (ITS) fundamentally rely on\nvehicle-generated data for applications such as congestion monitoring and route\noptimization, making the preservation of user privacy a critical challenge.\nHomomorphic Encryption (HE) offers a promising solution by enabling computation\non encrypted data without revealing underlying content. This study presents the\nfirst real-world experimental evaluation of three post-quantum secure HE\nschemes, i.e., Brakerski-Fan-Vercauteren (BFV), Brakerski-Gentry-Vaikuntanathan\n(BGV), and Cheon-Kim-Kim-Song (CKKS), for vehicular communication scenarios.\nTwo representative privacy-preserving use cases are considered: encrypted\nvehicle counting and average speed aggregation. Experiments are conducted over\nboth Wi-Fi and Ethernet to assess performance under wireless and wired\nvehicle-to-everything (V2X) settings. Results show that BFV and BGV are\nsuitable for latency-tolerant applications such as intersection monitoring and\nregional traffic analysis, with total end-to-end latencies under 10 seconds.\nWhile CKKS experiences higher overhead, it remains viable for periodic\nencrypted aggregation of numerical data. The experimental results demonstrate\nthat HE can be feasibly deployed in ITS environments under 128-bit post-quantum\nsecurity, provided that scheme-specific latency constraints are considered.\nThis reinforces its potential to serve as a foundational tool for secure and\nprivacy-preserving V2X data processing.",
+    "updated" : "2025-08-04T14:28:19Z",
+    "published" : "2025-08-04T14:28:19Z",
+    "authors" : [
+      {
+        "name" : "Abdullah Al Mamun"
+      },
+      {
+        "name" : "Kyle Yates"
+      },
+      {
+        "name" : "Antsa Rakotondrafara"
+      },
+      {
+        "name" : "Mashrur Chowdhury"
+      },
+      {
+        "name" : "Ryann Cartor"
+      },
+      {
+        "name" : "Shuhong Gao"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.02034v1",
+    "title" : "Protego: User-Centric Pose-Invariant Privacy Protection Against Face\n  Recognition-Induced Digital Footprint Exposure",
+    "summary" : "Face recognition (FR) technologies are increasingly used to power large-scale\nimage retrieval systems, raising serious privacy concerns. Services like\nClearview AI and PimEyes allow anyone to upload a facial photo and retrieve a\nlarge amount of online content associated with that person. This not only\nenables identity inference but also exposes their digital footprint, such as\nsocial media activity, private photos, and news reports, often without their\nconsent. In response to this emerging threat, we propose Protego, a\nuser-centric privacy protection method that safeguards facial images from such\nretrieval-based privacy intrusions. Protego encapsulates a user's 3D facial\nsignatures into a pose-invariant 2D representation, which is dynamically\ndeformed into a natural-looking 3D mask tailored to the pose and expression of\nany facial image of the user, and applied prior to online sharing. Motivated by\na critical limitation of existing methods, Protego amplifies the sensitivity of\nFR models so that protected images cannot be matched even among themselves.\nExperiments show that Protego significantly reduces retrieval accuracy across a\nwide range of black-box FR models and performs at least 2x better than existing\nmethods. It also offers unprecedented visual coherence, particularly in video\nsettings where consistency and natural appearance are essential. Overall,\nProtego contributes to the fight against the misuse of FR for mass surveillance\nand unsolicited identity tracing.",
+    "updated" : "2025-08-04T04:03:01Z",
+    "published" : "2025-08-04T04:03:01Z",
+    "authors" : [
+      {
+        "name" : "Ziling Wang"
+      },
+      {
+        "name" : "Shuya Yang"
+      },
+      {
+        "name" : "Jialin Lu"
+      },
+      {
+        "name" : "Ka-Ho Chow"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.01960v1",
+    "title" : "Non-Verbal Vocalisations and their Challenges: Emotion, Privacy,\n  Sparseness, and Real Life",
+    "summary" : "Non-Verbal Vocalisations (NVVs) are short `non-word' utterances without\nproper linguistic (semantic) meaning but conveying connotations -- be this\nemotions/affects or other paralinguistic information. We start this\ncontribution with a historic sketch: how they were addressed in psychology and\nlinguistics in the last two centuries, how they were neglected later on, and\nhow they came to the fore with the advent of emotion research. We then give an\noverview of types of NVVs (formal aspects) and functions of NVVs, exemplified\nwith the typical NVV \\textit{ah}. Interesting as they are, NVVs come, however,\nwith a bunch of challenges that should be accounted for: Privacy and general\nethical considerations prevent them of being recorded in real-life (private)\nscenarios to a sufficient extent. Isolated, prompted (acted) exemplars do not\nnecessarily model NVVs in context; yet, this is the preferred strategy so far\nwhen modelling NVVs, especially in AI. To overcome these problems, we argue in\nfavour of corpus-based approaches. This guarantees a more realistic modelling;\nhowever, we are still faced with privacy and sparse data problems.",
+    "updated" : "2025-08-03T23:59:43Z",
+    "published" : "2025-08-03T23:59:43Z",
+    "authors" : [
+      {
+        "name" : "Anton Batliner"
+      },
+      {
+        "name" : "Shahin Amiriparian"
+      },
+      {
+        "name" : "Björn W. Schuller"
+      }
+    ],
+    "categories" : [
+      "cs.SD",
+      "cs.CL",
+      "eess.AS",
+      "68T10 (Primary) 68T45 (Secondary)",
+      "I.2.7"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.01898v1",
+    "title" : "Revenue Optimization in Wireless Video Caching Networks: A\n  Privacy-Preserving Two-Stage Solution",
+    "summary" : "Video caching can significantly improve delivery efficiency and enhance\nquality of video streaming, which constitutes the majority of wireless\ncommunication traffic. Due to limited cache size, caching strategies must be\ndesigned to adapt to and dynamic user demand in order to maximize system\nrevenue. The system revenue depends on the benefits of delivering the requested\nvideos and costs for (a) transporting the files to the users and (b) cache\nreplacement. Since the cache content at any point in time impacts the\nreplacement costs in the future, demand predictions over multiple cache\nplacement slots become an important prerequisite for efficient cache planning.\nMotivated by this, we introduce a novel two-stage privacy-preserving solution\nfor revenue optimization in wireless video caching networks. First, we train a\nTransformer using privacy-preserving federated learning (FL) to predict\nmulti-slot future demands. Given that prediction results are never entirely\naccurate, especially for longer horizons, we further combine global content\npopularity with per-user prediction results to estimate the content demand\ndistribution. Then, in the second stage, we leverage these estimation results\nto find caching strategies that maximize the long-term system revenue. This\nlatter problem takes on the form of a multi-stage knapsack problem, which we\nthen transform to a integer linear program. Our extensive simulation results\ndemonstrate that (i) our FL solution delivers nearly identical performance to\nthat of the ideal centralized solution and outperforms other existing caching\nmethods, and (ii) our novel revenue optimization approach provides deeper\nsystem performance insights than traditional cache hit ratio (CHR)-based\noptimization approaches.",
+    "updated" : "2025-08-03T19:16:40Z",
+    "published" : "2025-08-03T19:16:40Z",
+    "authors" : [
+      {
+        "name" : "Yijing Zhang"
+      },
+      {
+        "name" : "Md-Ferdous Pervej"
+      },
+      {
+        "name" : "Andreas F. Molisch"
+      }
+    ],
+    "categories" : [
+      "cs.NI",
+      "cs.SY",
+      "eess.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.01798v1",
+    "title" : "A Survey on Privacy-Preserving Computing in the Automotive Domain",
+    "summary" : "As vehicles become increasingly connected and autonomous, they accumulate and\nmanage various personal data, thereby presenting a key challenge in preserving\nprivacy during data sharing and processing. This survey reviews applications of\nSecure Multi-Party Computation (MPC) and Homomorphic Encryption (HE) that\naddress these privacy concerns in the automotive domain. First, we identify the\nscope of privacy-sensitive use cases for these technologies, by surveying\nexisting works that address privacy issues in different automotive contexts,\nsuch as location-based services, mobility infrastructures, traffic management,\netc. Then, we review recent works that employ MPC and HE as solutions for these\nuse cases in detail. Our survey highlights the applicability of these\nprivacy-preserving technologies in the automotive context, while also\nidentifying challenges and gaps in the current research landscape. This work\naims to provide a clear and comprehensive overview of this emerging field and\nto encourage further research in this domain.",
+    "updated" : "2025-08-03T15:23:41Z",
+    "published" : "2025-08-03T15:23:41Z",
+    "authors" : [
+      {
+        "name" : "Nergiz Yuca"
+      },
+      {
+        "name" : "Nikolay Matyunin"
+      },
+      {
+        "name" : "Ektor Arzoglou"
+      },
+      {
+        "name" : "Nikolaos Athanasios Anagnostopoulos"
+      },
+      {
+        "name" : "Stefan Katzenbeisser"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.01749v1",
+    "title" : "Improving Noise Efficiency in Privacy-preserving Dataset Distillation",
+    "summary" : "Modern machine learning models heavily rely on large datasets that often\ninclude sensitive and private information, raising serious privacy concerns.\nDifferentially private (DP) data generation offers a solution by creating\nsynthetic datasets that limit the leakage of private information within a\npredefined privacy budget; however, it requires a substantial amount of data to\nachieve performance comparable to models trained on the original data. To\nmitigate the significant expense incurred with synthetic data generation,\nDataset Distillation (DD) stands out for its remarkable training and storage\nefficiency. This efficiency is particularly advantageous when integrated with\nDP mechanisms, curating compact yet informative synthetic datasets without\ncompromising privacy. However, current state-of-the-art private DD methods\nsuffer from a synchronized sampling-optimization process and the dependency on\nnoisy training signals from randomly initialized networks. This results in the\ninefficient utilization of private information due to the addition of excessive\nnoise. To address these issues, we introduce a novel framework that decouples\nsampling from optimization for better convergence and improves signal quality\nby mitigating the impact of DP noise through matching in an informative\nsubspace. On CIFAR-10, our method achieves a \\textbf{10.0\\%} improvement with\n50 images per class and \\textbf{8.3\\%} increase with just \\textbf{one-fifth}\nthe distilled set size of previous state-of-the-art methods, demonstrating\nsignificant potential to advance privacy-preserving DD.",
+    "updated" : "2025-08-03T13:15:52Z",
+    "published" : "2025-08-03T13:15:52Z",
+    "authors" : [
+      {
+        "name" : "Runkai Zheng"
+      },
+      {
+        "name" : "Vishnu Asutosh Dasu"
+      },
+      {
+        "name" : "Yinong Oliver Wang"
+      },
+      {
+        "name" : "Haohan Wang"
+      },
+      {
+        "name" : "Fernando De la Torre"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.01636v1",
+    "title" : "Privacy-Preserving Inference for Quantized BERT Models",
+    "summary" : "With the increasing deployment of generative machine learning models in\nprivacy-sensitive domains such as healthcare and personalized services,\nensuring secure inference has become a critical challenge. Secure multi-party\ncomputation (MPC) enables privacy-preserving model inference but suffers from\nhigh communication and computation overhead. The main bottleneck lies in the\nexpensive secure evaluation of floating-point operations. Quantization offers a\npromising solution by converting floating-point operations into lower-precision\ninteger computations, significantly reducing overhead. However, existing\nMPC-based quantized inference methods either rely on public quantization\nparameters-posing privacy risks-or suffer from inefficiencies, particularly in\nhandling nonlinear functions such as activations and softmax. In this work, we\npropose a fine-grained, layer-wise quantization scheme and support 1-bit weight\nfully connected layers in a secure setting. We design a multi-input lookup\ntable protocol to evaluate softmax efficiently and securely. Furthermore, we\nuse dual secret sharing schemes and perform precision conversions via lookup\ntables, eliminating truncation overhead entirely. Experimental evaluation on\nBERT-base models demonstrates that our approach achieves up to $8\\times$\nspeedup compared to Lu \\emph{et al}. (NDSS 25), $9\\times$ speedup compared to\nGupta \\emph{et al}. (PETS 24) and $22 \\times$ speedup compared to Knott\n\\emph{et al}. (NeurIPS 21).",
+    "updated" : "2025-08-03T07:52:08Z",
+    "published" : "2025-08-03T07:52:08Z",
+    "authors" : [
+      {
+        "name" : "Tianpei Lu"
+      },
+      {
+        "name" : "Bingsheng Zhang"
+      },
+      {
+        "name" : "Lekun Peng"
+      },
+      {
+        "name" : "Bowen Zheng"
+      },
+      {
+        "name" : "Lichun Li"
+      },
+      {
+        "name" : "Kui Ren"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.01587v1",
+    "title" : "Lifelong Person Re-identification via Privacy-Preserving Data Replay",
+    "summary" : "Lifelong person re-identification (LReID) aims to incrementally accumulate\nknowledge across a sequence of tasks under domain shifts. Recently,\nreplay-based methods have demonstrated strong effectiveness in LReID by\nrehearsing past samples stored in an auxiliary memory. However, storing\nhistorical exemplars raises concerns over data privacy. To avoid this,\nexemplar-free approaches attempt to match the distribution of past data without\nstoring raw samples. Despite being privacy-friendly, these methods often suffer\nfrom performance degradation due to the forgetting of specific past knowledge\nrepresentations. To this end, we propose to condense information from\nsequential data into the pixel space in the replay memory, enabling\nPrivacy-Preserving Replay (Pr^2R). More specifically, by distilling the\ntraining characteristics of multiple real images into a single image, the\ncondensed samples undergo pixel-level changes. This not only protects the\nprivacy of the original data but also makes the replay samples more\nrepresentative for sequential tasks. During the style replay phase, we align\nthe current domain to the previous one while simultaneously adapting the replay\nsamples to match the style of the current domain. This dual-alignment strategy\neffectively mitigates both class-incremental challenges and forgetting caused\nby domain shifts. Extensive experiments on multiple benchmarks show that the\nproposed method significantly improves replay effectiveness while preserving\ndata privacy. Specifically, Pr^2R achieves 4% and 6% higher accuracy on\nsequential tasks compared to the current state-of-the-art and other\nreplay-based methods, respectively.",
+    "updated" : "2025-08-03T05:00:19Z",
+    "published" : "2025-08-03T05:00:19Z",
+    "authors" : [
+      {
+        "name" : "Mingyu Wang"
+      },
+      {
+        "name" : "Haojie Liu"
+      },
+      {
+        "name" : "Zhiyong Li"
+      },
+      {
+        "name" : "Wei Jiang"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.01207v1",
+    "title" : "Showcasing standards and approaches for cybersecurity, safety, and\n  privacy issues in connected and autonomous vehicles",
+    "summary" : "In the automotive industry there is a need to handle broad quality\ndeficiencies, eg, performance, maintainability, cybersecurity, safety, and\nprivacy, to mention a few. The idea is to prevent these issues from reaching\nend-users, ie, road users and inadvertently, pedestrians, aiming to potentially\nreduce accidents, and allow safe operation in dynamic attack surfaces, for the\nbenefit of a host of stakeholders. This paper aims to bridge cybersecurity,\nsafety, and privacy concerns in Connected and Autonomous Vehicles (CAV) with\nrespect to Risk Assessment (RA) and Threat Modelling (TM) altogether.\nPractitioners know the vast literature on this topic given the sheer number of\nrecommendations, standards, best practices, and existing approaches, at times\nimpairing projects and fostering valuable and actionable threat analysis. In\nthis paper we collate key outcomes by highlighting latest standards and\napproaches in RA and TM research to tackle complex attack surfaces as the ones\nposed by automotive settings. We aim to provide the community with a list of\napproaches to align expectations with stakeholders when deciding where and when\nto focus threat related analysis in automotive solutions.",
+    "updated" : "2025-08-02T05:45:50Z",
+    "published" : "2025-08-02T05:45:50Z",
+    "authors" : [
+      {
+        "name" : "Ricardo M. Czekster"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.01140v1",
+    "title" : "Open Data Sharing in Clinical Research and Participants Privacy:\n  Challenges and Opportunities in the Era of Artificial Intelligence",
+    "summary" : "Sharing clinical research data is key for increasing the pace of medical\ndiscoveries that improve human health. However, concern about study\nparticipants' privacy, confidentiality, and safety is a major factor that\ndeters researchers from openly sharing clinical data, even after\ndeidentification. This concern is further heightened by the evolution of\nartificial intelligence (AI) approaches that pose an ever-increasing threat to\nthe reidentification of study participants. Here, we discuss the challenges AI\napproaches create that blur the lines between identifiable and non-identifiable\ndata. We present a concept of pseudo-reidentification, and discuss how these\nchallenges provide opportunities for rethinking open data sharing practices in\nclinical research. We highlight the novel open data sharing approach we have\nestablished as part of the Artificial Intelligence Ready and Exploratory Atlas\nfor Diabetes Insights project, one of the four Data Generation Projects funded\nby the National Institutes of Health Common Fund's Bridge2AI Program.",
+    "updated" : "2025-08-02T01:46:59Z",
+    "published" : "2025-08-02T01:46:59Z",
+    "authors" : [
+      {
+        "name" : "Shahin Hallaj"
+      },
+      {
+        "name" : "Anna Heinke"
+      },
+      {
+        "name" : "Fritz Gerald P. Kalaw"
+      },
+      {
+        "name" : "Nayoon Gim"
+      },
+      {
+        "name" : "Marian Blazes"
+      },
+      {
+        "name" : "Julia Owen"
+      },
+      {
+        "name" : "Eamon Dysinger"
+      },
+      {
+        "name" : "Erik S. Benton"
+      },
+      {
+        "name" : "Benjamin A. Cordier"
+      },
+      {
+        "name" : "Nicholas G. Evans"
+      },
+      {
+        "name" : "Jennifer Li-Pook-Than"
+      },
+      {
+        "name" : "Michael P. Snyder"
+      },
+      {
+        "name" : "Camille Nebeker"
+      },
+      {
+        "name" : "Linda M. Zangwill"
+      },
+      {
+        "name" : "Sally L. Baxter"
+      },
+      {
+        "name" : "Shannon McWeeney"
+      },
+      {
+        "name" : "Cecilia S. Lee"
+      },
+      {
+        "name" : "Aaron Y. Lee"
+      },
+      {
+        "name" : "Bhavesh Patel"
+      }
+    ],
+    "categories" : [
+      "q-bio.OT"
+    ]
   }
 ]
