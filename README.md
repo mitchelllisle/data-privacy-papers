@@ -176,6 +176,33 @@ Challenge evaluation toolkit.</p>
 
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.02836v1">Agentic Privacy-Preserving Machine Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-07-30T08:20:45Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mengyu Zhang, Zhuotao Liu, Jingwen Huang, Xuanqi Liu</p>
+    <p><b>Summary:</b> Privacy-preserving machine learning (PPML) is critical to ensure data privacy
+in AI. Over the past few years, the community has proposed a wide range of
+provably secure PPML schemes that rely on various cryptography primitives.
+However, when it comes to large language models (LLMs) with billions of
+parameters, the efficiency of PPML is everything but acceptable. For instance,
+the state-of-the-art solution for confidential LLM inference represents at
+least 10,000-fold slower performance compared to plaintext inference. The
+performance gap is even larger when the context length increases. In this
+position paper, we propose a novel framework named Agentic-PPML to make PPML in
+LLMs practical. Our key insight is to employ a general-purpose LLM for intent
+understanding and delegate cryptographically secure inference to specialized
+models trained on vertical domains. By modularly separating language intent
+parsing - which typically involves little or no sensitive information - from
+privacy-critical computation, Agentic-PPML completely eliminates the need for
+the LLMs to process the encrypted prompts, enabling practical deployment of
+privacy-preserving LLM-centric services.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2507.22208v1">Quantum-Inspired Audio Unlearning: Towards Privacy-Preserving Voice
   Biometrics</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Sound-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> 
@@ -682,7 +709,7 @@ system.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.17228v1">P3SL: Personalized Privacy-Preserving Split Learning on Heterogeneous
+  <h3><a href="http://arxiv.org/abs/2507.17228v2">P3SL: Personalized Privacy-Preserving Split Learning on Heterogeneous
   Edge Devices</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
   <p><b>Published on:</b> 2025-07-23T05:50:33Z</p>
@@ -2450,163 +2477,121 @@ significantly enhancing user privacy.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.07320v1">Optimizing Communication and Device Clustering for Clustered Federated
-  Learning with Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-07-09T22:44:26Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Dongyu Wei, Xiaoren Xu, Shiwen Mao, Mingzhe Chen</p>
-    <p><b>Summary:</b> In this paper, a secure and communication-efficient clustered federated
-learning (CFL) design is proposed. In our model, several base stations (BSs)
-with heterogeneous task-handling capabilities and multiple users with
-non-independent and identically distributed (non-IID) data jointly perform CFL
-training incorporating differential privacy (DP) techniques. Since each BS can
-process only a subset of the learning tasks and has limited wireless resource
-blocks (RBs) to allocate to users for federated learning (FL) model parameter
-transmission, it is necessary to jointly optimize RB allocation and user
-scheduling for CFL performance optimization. Meanwhile, our considered CFL
-method requires devices to use their limited data and FL model information to
-determine their task identities, which may introduce additional communication
-overhead. We formulate an optimization problem whose goal is to minimize the
-training loss of all learning tasks while considering device clustering, RB
-allocation, DP noise, and FL model transmission delay. To solve the problem, we
-propose a novel dynamic penalty function assisted value decomposed multi-agent
-reinforcement learning (DPVD-MARL) algorithm that enables distributed BSs to
-independently determine their connected users, RBs, and DP noise of the
-connected users but jointly minimize the training loss of all learning tasks
-across all BSs. Different from the existing MARL methods that assign a large
-penalty for invalid actions, we propose a novel penalty assignment scheme that
-assigns penalty depending on the number of devices that cannot meet
-communication constraints (e.g., delay), which can guide the MARL scheme to
-quickly find valid actions, thus improving the convergence speed. Simulation
-results show that the DPVD-MARL can improve the convergence rate by up to 20%
-and the ultimate accumulated rewards by 15% compared to independent Q-learning.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.07258v1">FedP3E: Privacy-Preserving Prototype Exchange for Non-IID IoT Malware
-  Detection in Cross-Silo Federated Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-07-09T20:07:35Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Rami Darwish, Mahmoud Abdelsalam, Sajad Khorsandroo, Kaushik Roy</p>
-    <p><b>Summary:</b> As IoT ecosystems continue to expand across critical sectors, they have
-become prominent targets for increasingly sophisticated and large-scale malware
-attacks. The evolving threat landscape, combined with the sensitive nature of
-IoT-generated data, demands detection frameworks that are both
-privacy-preserving and resilient to data heterogeneity. Federated Learning (FL)
-offers a promising solution by enabling decentralized model training without
-exposing raw data. However, standard FL algorithms such as FedAvg and FedProx
-often fall short in real-world deployments characterized by class imbalance and
-non-IID data distributions -- particularly in the presence of rare or disjoint
-malware classes. To address these challenges, we propose FedP3E
-(Privacy-Preserving Prototype Exchange), a novel FL framework that supports
-indirect cross-client representation sharing while maintaining data privacy.
-Each client constructs class-wise prototypes using Gaussian Mixture Models
-(GMMs), perturbs them with Gaussian noise, and transmits only these compact
-summaries to the server. The aggregated prototypes are then distributed back to
-clients and integrated into local training, supported by SMOTE-based
-augmentation to enhance representation of minority malware classes. Rather than
-relying solely on parameter averaging, our prototype-driven mechanism enables
-clients to enrich their local models with complementary structural patterns
-observed across the federation -- without exchanging raw data or gradients.
-This targeted strategy reduces the adverse impact of statistical heterogeneity
-with minimal communication overhead. We evaluate FedP3E on the N-BaIoT dataset
-under realistic cross-silo scenarios with varying degrees of data imbalance.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.07210v1">WatchWitch: Interoperability, Privacy, and Autonomy for the Apple Watch</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-07-09T18:33:58Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Nils Rollshausen, Alexander Heinrich, Matthias Hollick, Jiska Classen</p>
-    <p><b>Summary:</b> Smartwatches such as the Apple Watch collect vast amounts of intimate health
-and fitness data as we wear them. Users have little choice regarding how this
-data is processed: The Apple Watch can only be used with Apple's iPhones, using
-their software and their cloud services. We are the first to publicly
-reverse-engineer the watch's wireless protocols, which led to discovering
-multiple security issues in Apple's proprietary implementation. With
-WatchWitch, our custom Android reimplementation, we break out of Apple's walled
-garden -- demonstrating practical interoperability with enhanced privacy
-controls and data autonomy. We thus pave the way for more consumer choice in
-the smartwatch ecosystem, offering users more control over their devices.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.06969v1">Unifying Re-Identification, Attribute Inference, and Data Reconstruction
-  Risks in Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> 
-  <p><b>Published on:</b> 2025-07-09T15:59:30Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Bogdan Kulynych, Juan Felipe Gomez, Georgios Kaissis, Jamie Hayes, Borja Balle, Flavio du Pin Calmon, Jean Louis Raisaro</p>
-    <p><b>Summary:</b> Differentially private (DP) mechanisms are difficult to interpret and
-calibrate because existing methods for mapping standard privacy parameters to
-concrete privacy risks -- re-identification, attribute inference, and data
-reconstruction -- are both overly pessimistic and inconsistent. In this work,
-we use the hypothesis-testing interpretation of DP ($f$-DP), and determine that
-bounds on attack success can take the same unified form across
-re-identification, attribute inference, and data reconstruction risks. Our
-unified bounds are (1) consistent across a multitude of attack settings, and
-(2) tunable, enabling practitioners to evaluate risk with respect to arbitrary
-(including worst-case) levels of baseline risk. Empirically, our results are
-tighter than prior methods using $\varepsilon$-DP, R\'enyi DP, and concentrated
-DP. As a result, calibrating noise using our bounds can reduce the required
-noise by 20% at the same risk level, which yields, e.g., more than 15pp
-accuracy increase in a text classification task. Overall, this unifying
-perspective provides a principled framework for interpreting and calibrating
-the degree of protection in DP against specific levels of re-identification,
-attribute inference, or data reconstruction risk.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.08864v1">Privacy-Utility-Fairness: A Balanced Approach to Vehicular-Traffic
-  Management System</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Multiagent Systems-662E9B">
-  <p><b>Published on:</b> 2025-07-09T13:49:13Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Poushali Sengupta, Sabita Maharjan, frank Eliassen, Yan Zhang</p>
-    <p><b>Summary:</b> Location-based vehicular traffic management faces significant challenges in
-protecting sensitive geographical data while maintaining utility for traffic
-management and fairness across regions. Existing state-of-the-art solutions
-often fail to meet the required level of protection against linkage attacks and
-demographic biases, leading to privacy leakage and inequity in data analysis.
-In this paper, we propose a novel algorithm designed to address the challenges
-regarding the balance of privacy, utility, and fairness in location-based
-vehicular traffic management systems. In this context, utility means providing
-reliable and meaningful traffic information, while fairness ensures that all
-regions and individuals are treated equitably in data use and decision-making.
-Employing differential privacy techniques, we enhance data security by
-integrating query-based data access with iterative shuffling and calibrated
-noise injection, ensuring that sensitive geographical data remains protected.
-We ensure adherence to epsilon-differential privacy standards by implementing
-the Laplace mechanism. We implemented our algorithm on vehicular location-based
-data from Norway, demonstrating its ability to maintain data utility for
-traffic management and urban planning while ensuring fair representation of all
-geographical areas without being overrepresented or underrepresented.
-Additionally, we have created a heatmap of Norway based on our model,
-illustrating the privatized and fair representation of the traffic conditions
-across various cities. Our algorithm provides privacy in vehicular traffic</p>
-  </details>
-</div>
-
-
 
 <h2>2025-08</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.03413v1">Smart Car Privacy: Survey of Attacks and Privacy Issues</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-08-05T12:59:17Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Akshay Madhav Deshmukh</p>
+    <p><b>Summary:</b> Automobiles are becoming increasingly important in our day to day life.
+Modern automobiles are highly computerized and hence potentially vulnerable to
+attack. Providing many wireless connectivity for vehicles enables a bridge
+between vehicles and their external environments. Such a connected vehicle
+solution is expected to be the next frontier for automotive revolution and the
+key to the evolution to next generation intelligent transportation systems.
+Vehicular Ad hoc Networks (VANETs) are emerging mobile ad hoc network
+technologies incorporating mobile routing protocols for inter-vehicle data
+communications to support intelligent transportation systems. Thus security and
+privacy are the major concerns in VANETs due to the mobility of the vehicles.
+Thus designing security mechanisms to remove adversaries from the network
+remarkably important in VANETs.
+  This paper provides an overview of various vehicular network architectures.
+The evolution of security in modern vehicles. Various security and privacy
+attacks in VANETs with their defending mechanisms with examples and classify
+these mechanisms. It also provides an overview of various privacy implication
+that a vehicular network possess.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.03209v1">GeoShield: Safeguarding Geolocation Privacy from Vision-Language Models
+  via Adversarial Perturbations</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-08-05T08:37:06Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xinwei Liu, Xiaojun Jia, Yuan Xun, Simeng Qin, Xiaochun Cao</p>
+    <p><b>Summary:</b> Vision-Language Models (VLMs) such as GPT-4o now demonstrate a remarkable
+ability to infer users' locations from public shared images, posing a
+substantial risk to geoprivacy. Although adversarial perturbations offer a
+potential defense, current methods are ill-suited for this scenario: they often
+perform poorly on high-resolution images and low perturbation budgets, and may
+introduce irrelevant semantic content. To address these limitations, we propose
+GeoShield, a novel adversarial framework designed for robust geoprivacy
+protection in real-world scenarios. GeoShield comprises three key modules: a
+feature disentanglement module that separates geographical and non-geographical
+information, an exposure element identification module that pinpoints
+geo-revealing regions within an image, and a scale-adaptive enhancement module
+that jointly optimizes perturbations at both global and local levels to ensure
+effectiveness across resolutions. Extensive experiments on challenging
+benchmarks show that GeoShield consistently surpasses prior methods in
+black-box settings, achieving strong privacy protection with minimal impact on
+visual or semantic quality. To our knowledge, this work is the first to explore
+adversarial perturbations for defending against geolocation inference by
+advanced VLMs, providing a practical and effective solution to escalating
+privacy concerns.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.03204v1">Current State in Privacy-Preserving Text Preprocessing for
+  Domain-Agnostic NLP</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2025-08-05T08:26:45Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Abhirup Sinha, Pritilata Saha, Tithi Saha</p>
+    <p><b>Summary:</b> Privacy is a fundamental human right. Data privacy is protected by different
+regulations, such as GDPR. However, modern large language models require a huge
+amount of data to learn linguistic variations, and the data often contains
+private information. Research has shown that it is possible to extract private
+information from such language models. Thus, anonymizing such private and
+sensitive information is of utmost importance. While complete anonymization may
+not be possible, a number of different pre-processing approaches exist for
+masking or pseudonymizing private information in textual data. This report
+focuses on a few of such approaches for domain-agnostic NLP tasks.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.03098v1">Privacy-Aware Decoding: Mitigating Privacy Leakage of Large Language
+  Models in Retrieval-Augmented Generation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2025-08-05T05:22:13Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Haoran Wang, Xiongxiao Xu, Baixiang Huang, Kai Shu</p>
+    <p><b>Summary:</b> Retrieval-Augmented Generation (RAG) enhances the factual accuracy of large
+language models (LLMs) by conditioning outputs on external knowledge sources.
+However, when retrieval involves private or sensitive data, RAG systems are
+susceptible to extraction attacks that can leak confidential information
+through generated responses. We propose Privacy-Aware Decoding (PAD), a
+lightweight, inference-time defense that adaptively injects calibrated Gaussian
+noise into token logits during generation. PAD integrates confidence-based
+screening to selectively protect high-risk tokens, efficient sensitivity
+estimation to minimize unnecessary noise, and context-aware noise calibration
+to balance privacy with generation quality. A \renyi Differential Privacy (RDP)
+accountant rigorously tracks cumulative privacy loss, enabling explicit
+per-response $(\varepsilon, \delta)$-DP guarantees for sensitive outputs.
+Unlike prior approaches requiring retraining or corpus-level filtering, PAD is
+model-agnostic and operates entirely at decoding time with minimal
+computational overhead. Experiments on three real-world datasets demonstrate
+that PAD substantially reduces private information leakage while preserving
+response utility, outperforming existing retrieval- and post-processing-based
+defenses. Our work takes an important step toward mitigating privacy risks in
+RAG via decoding strategies, paving the way for universal and scalable privacy
+solutions in sensitive domains. Our code is available:
+https://github.com/wang2226/PAD.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2508.02551v1">PrivAR: Real-Time Privacy Protection for Location-Based Augmented
