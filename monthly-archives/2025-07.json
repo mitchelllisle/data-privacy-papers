@@ -3421,5 +3421,59 @@
       "cs.LG",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.02836v1",
+    "title" : "Agentic Privacy-Preserving Machine Learning",
+    "summary" : "Privacy-preserving machine learning (PPML) is critical to ensure data privacy\nin AI. Over the past few years, the community has proposed a wide range of\nprovably secure PPML schemes that rely on various cryptography primitives.\nHowever, when it comes to large language models (LLMs) with billions of\nparameters, the efficiency of PPML is everything but acceptable. For instance,\nthe state-of-the-art solution for confidential LLM inference represents at\nleast 10,000-fold slower performance compared to plaintext inference. The\nperformance gap is even larger when the context length increases. In this\nposition paper, we propose a novel framework named Agentic-PPML to make PPML in\nLLMs practical. Our key insight is to employ a general-purpose LLM for intent\nunderstanding and delegate cryptographically secure inference to specialized\nmodels trained on vertical domains. By modularly separating language intent\nparsing - which typically involves little or no sensitive information - from\nprivacy-critical computation, Agentic-PPML completely eliminates the need for\nthe LLMs to process the encrypted prompts, enabling practical deployment of\nprivacy-preserving LLM-centric services.",
+    "updated" : "2025-07-30T08:20:45Z",
+    "published" : "2025-07-30T08:20:45Z",
+    "authors" : [
+      {
+        "name" : "Mengyu Zhang"
+      },
+      {
+        "name" : "Zhuotao Liu"
+      },
+      {
+        "name" : "Jingwen Huang"
+      },
+      {
+        "name" : "Xuanqi Liu"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.17228v2",
+    "title" : "P3SL: Personalized Privacy-Preserving Split Learning on Heterogeneous\n  Edge Devices",
+    "summary" : "Split Learning (SL) is an emerging privacy-preserving machine learning\ntechnique that enables resource constrained edge devices to participate in\nmodel training by partitioning a model into client-side and server-side\nsub-models. While SL reduces computational overhead on edge devices, it\nencounters significant challenges in heterogeneous environments where devices\nvary in computing resources, communication capabilities, environmental\nconditions, and privacy requirements. Although recent studies have explored\nheterogeneous SL frameworks that optimize split points for devices with varying\nresource constraints, they often neglect personalized privacy requirements and\nlocal model customization under varying environmental conditions. To address\nthese limitations, we propose P3SL, a Personalized Privacy-Preserving Split\nLearning framework designed for heterogeneous, resource-constrained edge device\nsystems. The key contributions of this work are twofold. First, we design a\npersonalized sequential split learning pipeline that allows each client to\nachieve customized privacy protection and maintain personalized local models\ntailored to their computational resources, environmental conditions, and\nprivacy needs. Second, we adopt a bi-level optimization technique that empowers\nclients to determine their own optimal personalized split points without\nsharing private sensitive information (i.e., computational resources,\nenvironmental conditions, privacy requirements) with the server. This approach\nbalances energy consumption and privacy leakage risks while maintaining high\nmodel accuracy. We implement and evaluate P3SL on a testbed consisting of 7\ndevices including 4 Jetson Nano P3450 devices, 2 Raspberry Pis, and 1 laptop,\nusing diverse model architectures and datasets under varying environmental\nconditions.",
+    "updated" : "2025-08-05T02:08:01Z",
+    "published" : "2025-07-23T05:50:33Z",
+    "authors" : [
+      {
+        "name" : "Wei Fan"
+      },
+      {
+        "name" : "JinYi Yoon"
+      },
+      {
+        "name" : "Xiaochang Li"
+      },
+      {
+        "name" : "Huajie Shao"
+      },
+      {
+        "name" : "Bo Ji"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.DC"
+    ]
   }
 ]
