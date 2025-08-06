@@ -387,5 +387,93 @@
     "categories" : [
       "q-bio.OT"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.03413v1",
+    "title" : "Smart Car Privacy: Survey of Attacks and Privacy Issues",
+    "summary" : "Automobiles are becoming increasingly important in our day to day life.\nModern automobiles are highly computerized and hence potentially vulnerable to\nattack. Providing many wireless connectivity for vehicles enables a bridge\nbetween vehicles and their external environments. Such a connected vehicle\nsolution is expected to be the next frontier for automotive revolution and the\nkey to the evolution to next generation intelligent transportation systems.\nVehicular Ad hoc Networks (VANETs) are emerging mobile ad hoc network\ntechnologies incorporating mobile routing protocols for inter-vehicle data\ncommunications to support intelligent transportation systems. Thus security and\nprivacy are the major concerns in VANETs due to the mobility of the vehicles.\nThus designing security mechanisms to remove adversaries from the network\nremarkably important in VANETs.\n  This paper provides an overview of various vehicular network architectures.\nThe evolution of security in modern vehicles. Various security and privacy\nattacks in VANETs with their defending mechanisms with examples and classify\nthese mechanisms. It also provides an overview of various privacy implication\nthat a vehicular network possess.",
+    "updated" : "2025-08-05T12:59:17Z",
+    "published" : "2025-08-05T12:59:17Z",
+    "authors" : [
+      {
+        "name" : "Akshay Madhav Deshmukh"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.03209v1",
+    "title" : "GeoShield: Safeguarding Geolocation Privacy from Vision-Language Models\n  via Adversarial Perturbations",
+    "summary" : "Vision-Language Models (VLMs) such as GPT-4o now demonstrate a remarkable\nability to infer users' locations from public shared images, posing a\nsubstantial risk to geoprivacy. Although adversarial perturbations offer a\npotential defense, current methods are ill-suited for this scenario: they often\nperform poorly on high-resolution images and low perturbation budgets, and may\nintroduce irrelevant semantic content. To address these limitations, we propose\nGeoShield, a novel adversarial framework designed for robust geoprivacy\nprotection in real-world scenarios. GeoShield comprises three key modules: a\nfeature disentanglement module that separates geographical and non-geographical\ninformation, an exposure element identification module that pinpoints\ngeo-revealing regions within an image, and a scale-adaptive enhancement module\nthat jointly optimizes perturbations at both global and local levels to ensure\neffectiveness across resolutions. Extensive experiments on challenging\nbenchmarks show that GeoShield consistently surpasses prior methods in\nblack-box settings, achieving strong privacy protection with minimal impact on\nvisual or semantic quality. To our knowledge, this work is the first to explore\nadversarial perturbations for defending against geolocation inference by\nadvanced VLMs, providing a practical and effective solution to escalating\nprivacy concerns.",
+    "updated" : "2025-08-05T08:37:06Z",
+    "published" : "2025-08-05T08:37:06Z",
+    "authors" : [
+      {
+        "name" : "Xinwei Liu"
+      },
+      {
+        "name" : "Xiaojun Jia"
+      },
+      {
+        "name" : "Yuan Xun"
+      },
+      {
+        "name" : "Simeng Qin"
+      },
+      {
+        "name" : "Xiaochun Cao"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.03204v1",
+    "title" : "Current State in Privacy-Preserving Text Preprocessing for\n  Domain-Agnostic NLP",
+    "summary" : "Privacy is a fundamental human right. Data privacy is protected by different\nregulations, such as GDPR. However, modern large language models require a huge\namount of data to learn linguistic variations, and the data often contains\nprivate information. Research has shown that it is possible to extract private\ninformation from such language models. Thus, anonymizing such private and\nsensitive information is of utmost importance. While complete anonymization may\nnot be possible, a number of different pre-processing approaches exist for\nmasking or pseudonymizing private information in textual data. This report\nfocuses on a few of such approaches for domain-agnostic NLP tasks.",
+    "updated" : "2025-08-05T08:26:45Z",
+    "published" : "2025-08-05T08:26:45Z",
+    "authors" : [
+      {
+        "name" : "Abhirup Sinha"
+      },
+      {
+        "name" : "Pritilata Saha"
+      },
+      {
+        "name" : "Tithi Saha"
+      }
+    ],
+    "categories" : [
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.03098v1",
+    "title" : "Privacy-Aware Decoding: Mitigating Privacy Leakage of Large Language\n  Models in Retrieval-Augmented Generation",
+    "summary" : "Retrieval-Augmented Generation (RAG) enhances the factual accuracy of large\nlanguage models (LLMs) by conditioning outputs on external knowledge sources.\nHowever, when retrieval involves private or sensitive data, RAG systems are\nsusceptible to extraction attacks that can leak confidential information\nthrough generated responses. We propose Privacy-Aware Decoding (PAD), a\nlightweight, inference-time defense that adaptively injects calibrated Gaussian\nnoise into token logits during generation. PAD integrates confidence-based\nscreening to selectively protect high-risk tokens, efficient sensitivity\nestimation to minimize unnecessary noise, and context-aware noise calibration\nto balance privacy with generation quality. A \\renyi Differential Privacy (RDP)\naccountant rigorously tracks cumulative privacy loss, enabling explicit\nper-response $(\\varepsilon, \\delta)$-DP guarantees for sensitive outputs.\nUnlike prior approaches requiring retraining or corpus-level filtering, PAD is\nmodel-agnostic and operates entirely at decoding time with minimal\ncomputational overhead. Experiments on three real-world datasets demonstrate\nthat PAD substantially reduces private information leakage while preserving\nresponse utility, outperforming existing retrieval- and post-processing-based\ndefenses. Our work takes an important step toward mitigating privacy risks in\nRAG via decoding strategies, paving the way for universal and scalable privacy\nsolutions in sensitive domains. Our code is available:\nhttps://github.com/wang2226/PAD.",
+    "updated" : "2025-08-05T05:22:13Z",
+    "published" : "2025-08-05T05:22:13Z",
+    "authors" : [
+      {
+        "name" : "Haoran Wang"
+      },
+      {
+        "name" : "Xiongxiao Xu"
+      },
+      {
+        "name" : "Baixiang Huang"
+      },
+      {
+        "name" : "Kai Shu"
+      }
+    ],
+    "categories" : [
+      "cs.CL"
+    ]
   }
 ]
