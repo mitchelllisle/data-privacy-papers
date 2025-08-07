@@ -475,5 +475,174 @@
     "categories" : [
       "cs.CL"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.04583v1",
+    "title" : "Measuring the Carbon Footprint of Cryptographic Privacy-Enhancing\n  Technologies",
+    "summary" : "Privacy-enhancing technologies (PETs) have attracted significant attention in\nresponse to privacy regulations, driving the development of applications that\nprioritize user data protection. At the same time, the information and\ncommunication technology (ICT) sector faces growing pressure to reduce its\nenvironmental footprint, particularly its carbon emissions. While numerous\nstudies have assessed the energy footprint of various ICT applications, the\nenvironmental footprint of cryptographic PETs remains largely unexplored.\n  Our work addresses this gap by proposing a standardized methodology for\nevaluating the carbon footprint of PETs. To demonstrate this methodology, we\nfocus on PETs supporting client-server applications as they are the simplest to\ndeploy. In particular, we measure the energy consumption and carbon footprint\nincrease induced by five cryptographic PETs (compared to their non-private\nequivalent): HTTPS web browsing, encrypted machine learning (ML) inference,\nencrypted ML training, encrypted databases, and encrypted emails. Our findings\nreveal significant variability in carbon footprint increases, ranging from a\ntwofold increase in HTTPS web browsing to a 100,000-fold increase in encrypted\nML.\n  Our study provides essential data to help decision-makers assess\nprivacy-carbon trade-offs in such applications. Finally, we outline key\nresearch directions for developing PETs that balance strong privacy protection\nwith environmental sustainability.",
+    "updated" : "2025-08-06T16:07:29Z",
+    "published" : "2025-08-06T16:07:29Z",
+    "authors" : [
+      {
+        "name" : "Marc Damie"
+      },
+      {
+        "name" : "Mihai Pop"
+      },
+      {
+        "name" : "Merijn Posthuma"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.04542v1",
+    "title" : "Privacy Risk Predictions Based on Fundamental Understanding of Personal\n  Data and an Evolving Threat Landscape",
+    "summary" : "It is difficult for individuals and organizations to protect personal\ninformation without a fundamental understanding of relative privacy risks. By\nanalyzing over 5,000 empirical identity theft and fraud cases, this research\nidentifies which types of personal data are exposed, how frequently exposures\noccur, and what the consequences of those exposures are. We construct an\nIdentity Ecosystem graph--a foundational, graph-based model in which nodes\nrepresent personally identifiable information (PII) attributes and edges\nrepresent empirical disclosure relationships between them (e.g., the\nprobability that one PII attribute is exposed due to the exposure of another).\nLeveraging this graph structure, we develop a privacy risk prediction framework\nthat uses graph theory and graph neural networks to estimate the likelihood of\nfurther disclosures when certain PII attributes are compromised. The results\nshow that our approach effectively answers the core question: Can the\ndisclosure of a given identity attribute possibly lead to the disclosure of\nanother attribute?",
+    "updated" : "2025-08-06T15:30:07Z",
+    "published" : "2025-08-06T15:30:07Z",
+    "authors" : [
+      {
+        "name" : "Haoran Niu"
+      },
+      {
+        "name" : "K. Suzanne Barber"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "cs.SI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.04202v1",
+    "title" : "Unplug, Mute, Avoid Investigating smart speaker users' privacy\n  protection behaviours in Saudi Homes",
+    "summary" : "Smart speakers are increasingly integrated into domestic life worldwide, yet\ntheir privacy risks remain underexplored in non-Western cultural contexts. This\nstudy investigates how Saudi Arabian users of smart speakers navigate privacy\nconcerns within collectivist, gendered, and often multigenerational households.\nUsing cultural probes followed by semi-structured interviews with 16\nparticipants, we uncover everyday privacy-protective behaviours including\nunplugging devices, muting microphones, and avoiding voice interactions\naltogether. These practices are shaped not only by individual risk perceptions\nbut also by household norms, room configurations, and interpersonal dynamics.\nWe contribute empirical insights from an underrepresented region, theoretical\nextensions to contextual integrity frameworks, and design directions for\nculturally responsive voice interfaces. This work expands the global\nconversation on smart speaker privacy and informs more inclusive HCI practices\nin increasingly diverse smart home environments.",
+    "updated" : "2025-08-06T08:32:54Z",
+    "published" : "2025-08-06T08:32:54Z",
+    "authors" : [
+      {
+        "name" : "Abdulrhman Alorini"
+      },
+      {
+        "name" : "Yufeng Wu"
+      },
+      {
+        "name" : "Abdullah Bin Sawad"
+      },
+      {
+        "name" : "Mukesh Prasad"
+      },
+      {
+        "name" : "A. Baki Kocaballi"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.03991v1",
+    "title" : "Galaxy: A Cognition-Centered Framework for Proactive,\n  Privacy-Preserving, and Self-Evolving LLM Agents",
+    "summary" : "Intelligent personal assistants (IPAs) such as Siri and Google Assistant are\ndesigned to enhance human capabilities and perform tasks on behalf of users.\nThe emergence of LLM agents brings new opportunities for the development of\nIPAs. While responsive capabilities have been widely studied, proactive\nbehaviors remain underexplored. Designing an IPA that is proactive,\nprivacy-preserving, and capable of self-evolution remains a significant\nchallenge. Designing such IPAs relies on the cognitive architecture of LLM\nagents. This work proposes Cognition Forest, a semantic structure designed to\nalign cognitive modeling with system-level design. We unify cognitive\narchitecture and system design into a self-reinforcing loop instead of treating\nthem separately. Based on this principle, we present Galaxy, a framework that\nsupports multidimensional interactions and personalized capability generation.\nTwo cooperative agents are implemented based on Galaxy: KoRa, a\ncognition-enhanced generative agent that supports both responsive and proactive\nskills; and Kernel, a meta-cognition-based meta-agent that enables Galaxy's\nself-evolution and privacy preservation. Experimental results show that Galaxy\noutperforms multiple state-of-the-art benchmarks. Ablation studies and\nreal-world interaction cases validate the effectiveness of Galaxy.",
+    "updated" : "2025-08-06T00:46:38Z",
+    "published" : "2025-08-06T00:46:38Z",
+    "authors" : [
+      {
+        "name" : "Chongyu Bao"
+      },
+      {
+        "name" : "Ruimin Dai"
+      },
+      {
+        "name" : "Yangbo Shen"
+      },
+      {
+        "name" : "Runyang Jian"
+      },
+      {
+        "name" : "Jinghan Zhang"
+      },
+      {
+        "name" : "Xiaolan Liu"
+      },
+      {
+        "name" : "Kunpeng Liu"
+      }
+    ],
+    "categories" : [
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.03989v1",
+    "title" : "Dynamic User-controllable Privacy-preserving Few-shot Sensing Framework",
+    "summary" : "User-controllable privacy is important in modern sensing systems, as privacy\npreferences can vary significantly from person to person and may evolve over\ntime. This is especially relevant in devices equipped with Inertial Measurement\nUnit (IMU) sensors, such as smartphones and wearables, which continuously\ncollect rich time-series data that can inadvertently expose sensitive user\nbehaviors. While prior work has proposed privacy-preserving methods for sensor\ndata, most rely on static, predefined privacy labels or require large\nquantities of private training data, limiting their adaptability and user\nagency. In this work, we introduce PrivCLIP, a dynamic, user-controllable,\nfew-shot privacy-preserving sensing framework. PrivCLIP allows users to specify\nand modify their privacy preferences by categorizing activities as sensitive\n(black-listed), non-sensitive (white-listed), or neutral (gray-listed).\nLeveraging a multimodal contrastive learning approach, PrivCLIP aligns IMU\nsensor data with natural language activity descriptions in a shared embedding\nspace, enabling few-shot detection of sensitive activities. When a\nprivacy-sensitive activity is identified, the system uses a language-guided\nactivity sanitizer and a motion generation module (IMU-GPT) to transform the\noriginal data into a privacy-compliant version that semantically resembles a\nnon-sensitive activity. We evaluate PrivCLIP on multiple human activity\nrecognition datasets and demonstrate that it significantly outperforms baseline\nmethods in terms of both privacy protection and data utility.",
+    "updated" : "2025-08-06T00:44:11Z",
+    "published" : "2025-08-06T00:44:11Z",
+    "authors" : [
+      {
+        "name" : "Ajesh Koyatan Chathoth"
+      },
+      {
+        "name" : "Shuhao Yu"
+      },
+      {
+        "name" : "Stephen Lee"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.03836v1",
+    "title" : "DP-NCB: Privacy Preserving Fair Bandits",
+    "summary" : "Multi-armed bandit algorithms are fundamental tools for sequential\ndecision-making under uncertainty, with widespread applications across domains\nsuch as clinical trials and personalized decision-making. As bandit algorithms\nare increasingly deployed in these socially sensitive settings, it becomes\ncritical to protect user data privacy and ensure fair treatment across decision\nrounds. While prior work has independently addressed privacy and fairness in\nbandit settings, the question of whether both objectives can be achieved\nsimultaneously has remained largely open. Existing privacy-preserving bandit\nalgorithms typically optimize average regret, a utilitarian measure, whereas\nfairness-aware approaches focus on minimizing Nash regret, which penalizes\ninequitable reward distributions, but often disregard privacy concerns.\n  To bridge this gap, we introduce Differentially Private Nash Confidence Bound\n(DP-NCB)-a novel and unified algorithmic framework that simultaneously ensures\n$\\epsilon$-differential privacy and achieves order-optimal Nash regret,\nmatching known lower bounds up to logarithmic factors. The framework is\nsufficiently general to operate under both global and local differential\nprivacy models, and is anytime, requiring no prior knowledge of the time\nhorizon. We support our theoretical guarantees with simulations on synthetic\nbandit instances, showing that DP-NCB incurs substantially lower Nash regret\nthan state-of-the-art baselines. Our results offer a principled foundation for\ndesigning bandit algorithms that are both privacy-preserving and fair, making\nthem suitable for high-stakes, socially impactful applications.",
+    "updated" : "2025-08-05T18:34:00Z",
+    "published" : "2025-08-05T18:34:00Z",
+    "authors" : [
+      {
+        "name" : "Dhruv Sarkar"
+      },
+      {
+        "name" : "Nishant Pandey"
+      },
+      {
+        "name" : "Sayak Ray Chowdhury"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.03831v1",
+    "title" : "A Type System for Data Privacy Compliance in Active Object Languages",
+    "summary" : "Data protection laws such as GDPR aim to give users unprecedented control\nover their personal data. Compliance with these regulations requires\nsystematically considering information flow and interactions among entities\nhandling sensitive data. Privacy-by-design principles advocate embedding data\nprotection into system architectures as a default. However, translating these\nabstract principles into concrete, explicit methods remains a significant\nchallenge. This paper addresses this gap by proposing a language-based approach\nto privacy integration, combining static and runtime techniques. By employing\ntype checking and type inference in an active object language, the framework\nenables the tracking of authorised data flows and the automatic generation of\nconstraints checked at runtime based on user consent. This ensures that\npersonal data is processed in compliance with GDPR constraints. The key\ncontribution of this work is a type system that gather the compliance checks\nand the changes to users consent and integrates data privacy compliance\nverification into system execution. The paper demonstrates the feasibility of\nthis approach through a soundness proof and several examples, illustrating how\nthe proposed language addresses common GDPR requirements, such as user consent,\npurpose limitation, and data subject rights. This work advances the state of\nthe art in privacy-aware system design by offering a systematic and automated\nmethod for integrating GDPR compliance into programming languages. This\ncapability has implications for building trustworthy systems in domains such as\nhealthcare or finance, where data privacy is crucial.",
+    "updated" : "2025-08-05T18:21:28Z",
+    "published" : "2025-08-05T18:21:28Z",
+    "authors" : [
+      {
+        "name" : "Chinmayi Prabhu Baramashetru"
+      },
+      {
+        "name" : "Paola Giannini"
+      },
+      {
+        "name" : "Silvia Lizeth Tapia Tarifa"
+      },
+      {
+        "name" : "Olaf Owe"
+      }
+    ],
+    "categories" : [
+      "cs.PL"
+    ]
   }
 ]
