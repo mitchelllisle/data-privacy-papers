@@ -3475,5 +3475,55 @@
       "cs.AI",
       "cs.DC"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.03703v1",
+    "title" : "Privacy Risks of LLM-Empowered Recommender Systems: An Inversion Attack\n  Perspective",
+    "summary" : "The large language model (LLM) powered recommendation paradigm has been\nproposed to address the limitations of traditional recommender systems, which\noften struggle to handle cold start users or items with new IDs. Despite its\neffectiveness, this study uncovers that LLM empowered recommender systems are\nvulnerable to reconstruction attacks that can expose both system and user\nprivacy. To examine this threat, we present the first systematic study on\ninversion attacks targeting LLM empowered recommender systems, where\nadversaries attempt to reconstruct original prompts that contain personal\npreferences, interaction histories, and demographic attributes by exploiting\nthe output logits of recommendation models. We reproduce the vec2text framework\nand optimize it using our proposed method called Similarity Guided Refinement,\nenabling more accurate reconstruction of textual prompts from model generated\nlogits. Extensive experiments across two domains (movies and books) and two\nrepresentative LLM based recommendation models demonstrate that our method\nachieves high fidelity reconstructions. Specifically, we can recover nearly 65\npercent of the user interacted items and correctly infer age and gender in 87\npercent of the cases. The experiments also reveal that privacy leakage is\nlargely insensitive to the victim model's performance but highly dependent on\ndomain consistency and prompt complexity. These findings expose critical\nprivacy vulnerabilities in LLM empowered recommender systems.",
+    "updated" : "2025-07-20T05:03:02Z",
+    "published" : "2025-07-20T05:03:02Z",
+    "authors" : [
+      {
+        "name" : "Yubo Wang"
+      },
+      {
+        "name" : "Min Tang"
+      },
+      {
+        "name" : "Nuo Shen"
+      },
+      {
+        "name" : "Shujie Cui"
+      },
+      {
+        "name" : "Weiqing Wang"
+      }
+    ],
+    "categories" : [
+      "cs.IR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.13286v2",
+    "title" : "Privacy-Preserving Fusion for Multi-Sensor Systems Under Multiple Packet\n  Dropouts",
+    "summary" : "Wireless sensor networks (WSNs) are critical components in modern\ncyber-physical systems, enabling efficient data collection and fusion through\nspatially distributed sensors. However, the inherent risks of eavesdropping and\npacket dropouts in such networks pose significant challenges to secure state\nestimation. In this paper, we address the privacy-preserving fusion estimation\n(PPFE) problem for multi-sensor systems under multiple packet dropouts and\neavesdropping attacks. To mitigate these issues, we propose a distributed\nencoding-based privacy-preserving mechanism (PPM) within a control-theoretic\nframework, ensuring data privacy during transmission while maintaining the\nperformance of legitimate state estimation. A centralized fusion filter is\ndeveloped, accounting for the coupling effects of packet dropouts and the\nencoding-based PPM. Boundedness conditions for the legitimate user's estimation\nerror covariance are derived via a modified algebraic Riccati equation.\nAdditionally, by demonstrating the divergence of the eavesdropper's mean\nestimation error, the proposed PPFE algorithm's data confidentiality is\nrigorously analyzed. Simulation results for an Internet-based three-tank system\nvalidate the effectiveness of the proposed approach, highlighting its potential\nto enhance privacy without compromising estimation accuracy.",
+    "updated" : "2025-08-06T11:39:58Z",
+    "published" : "2025-07-17T16:50:15Z",
+    "authors" : [
+      {
+        "name" : "Jie Huang"
+      },
+      {
+        "name" : "Jason J. R. Liu"
+      },
+      {
+        "name" : "Xiao He"
+      }
+    ],
+    "categories" : [
+      "eess.SY",
+      "cs.SY"
+    ]
   }
 ]
