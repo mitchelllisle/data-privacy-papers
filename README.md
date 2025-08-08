@@ -1293,13 +1293,13 @@ trustworthy immersive environments.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.14853v1">A Privacy-Centric Approach: Scalable and Secure Federated Learning
+  <h3><a href="http://arxiv.org/abs/2507.14853v2">A Privacy-Centric Approach: Scalable and Secure Federated Learning
   Enabled by Hybrid Homomorphic Encryption</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2025-07-20T07:46:53Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Khoa Nguyen, Tanveer Khan, Antonis Michalas</p>
+    <p><b>Authors:</b> Khoa Nguyen, Tanveer Khan, Hossein Abdinasibfar, Antonis Michalas</p>
     <p><b>Summary:</b> Federated Learning (FL) enables collaborative model training without sharing
 raw data, making it a promising approach for privacy-sensitive domains. Despite
 its potential, FL faces significant challenges, particularly in terms of
@@ -2176,68 +2176,68 @@ models empirically.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.09051v2">SAGE: A Context-Aware Approach for Mining Privacy Requirements Relevant
-  Reviews from Mental Health Apps</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
-  <p><b>Published on:</b> 2025-07-11T21:53:56Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Aakash Sorathiya, Gouri Ginde</p>
-    <p><b>Summary:</b> Mental health (MH) apps often require sensitive user data to customize
-services for mental wellness needs. However, such data collection practices in
-some MH apps raise significant privacy concerns for users. These concerns are
-often mentioned in app reviews, but other feedback categories, such as
-reliability and usability, tend to take precedence. This poses a significant
-challenge in automatically identifying privacy requirements-relevant reviews
-(privacy reviews) that can be utilized to extract privacy requirements and
-address users' privacy concerns. Thus, this study introduces SAGE, a
-context-aware approach to automatically mining privacy reviews from MH apps
-using Natural Language Inference (NLI) with MH domain-specific privacy
-hypotheses (provides domain-specific context awareness) and a GPT model
-(eliminates the need for fine-tuning). The quantitative evaluation of SAGE on a
-dataset of 204K app reviews achieved an F1 score of 0.85 without any
-fine-tuning, outperforming the fine-tuned baseline classifiers BERT and T5.
-Furthermore, SAGE extracted 748 privacy reviews previously overlooked by
-keyword-based methods, demonstrating its effectiveness through qualitative
-evaluation. These reviews can later be refined into actionable privacy
-requirement artifacts.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.08978v1">Characterizing Security and Privacy Teaching Standards for Schools in
-  the United States</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2025-07-11T19:20:08Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Katherine Limes, Nathan Malkin, Kelsey R. Fulton</p>
-    <p><b>Summary:</b> Increasingly, students begin learning aspects of security and privacy during
-their primary and secondary education (grades K-12 in the United States).
-Individual U.S. states and some national organizations publish teaching
-standards -- guidance that outlines expectations for what students should learn
--- which often form the basis for course curricula. However, research has not
-yet examined what is covered by these standards and whether the topics align
-with what the broader security and privacy community thinks students should
-know. To shed light on these questions, we started by collecting computer
-science teaching standards from all U.S. states and eight national
-organizations. After manually examining a total of 11,954 standards, we labeled
-3,778 of them as being related to security and privacy, further classifying
-these into 103 topics. Topics ranged from technical subjects like encryption,
-network security, and embedded systems to social subjects such as laws, ethics,
-and appropriate online behavior. Subsequently, we interviewed 11 security and
-privacy professionals to examine how the teaching standards align with their
-expectations. We found that, while the specific topics they mentioned mostly
-overlapped with those of existing standards, professionals placed a greater
-emphasis on threat modeling and security mindset.</p>
-  </details>
-</div>
-
-
 
 <h2>2025-08</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.05518v1">Local Distance Query with Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-08-07T15:48:35Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Weihong Sheng, Jiajun Chen, Bin Cai, Chunqiang Hu, Meng Han, Jiguo Yu</p>
+    <p><b>Summary:</b> Differential Privacy (DP) is commonly employed to safeguard graph analysis or
+publishing. Distance, a critical factor in graph analysis, is typically handled
+using curator DP, where a trusted curator holds the complete neighbor lists of
+all vertices and answers queries privately. However, in many real-world
+scenarios, such a curator may not be present, posing a significant challenge
+for implementing differentially private distance queries under Local
+Differential Privacy (LDP). This paper proposes two approaches to address this
+challenge. The first approach generates a synthetic graph by randomizing
+responses and applies bitwise operations to reduce noise interference. However,
+like other synthetic graph methods, this approach suffers from low utility. To
+overcome this limitation, we propose a second approach, the first LDP method
+specifically designed for distance queries, which captures the global graph
+structure by continuously aggregating local distance vectors from neighboring
+vertices. This process enables the accurate updating of global distances. We
+demonstrate the effectiveness of our method through comprehensive theoretical
+analysis and experimental evaluations on real-world datasets.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.05250v1">Privacy Disclosure of Similarity in Speech and Language Processing</a></h3>
+  
+  <p><b>Published on:</b> 2025-08-07T10:40:35Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Tom Bäckström, Mohammad Hassan Vali, My Nguyen, Silas Rech</p>
+    <p><b>Summary:</b> Speaker, author, and other biometric identification applications often
+compare a sample's similarity to a database of templates to determine the
+identity. Given that data may be noisy and similarity measures can be
+inaccurate, such a comparison may not reliably identify the true identity as
+the most similar. Still, even the similarity rank based on an inaccurate
+similarity measure can disclose private information about the true identity. We
+propose a methodology for quantifying the privacy disclosure of such a
+similarity rank by estimating its probability distribution. It is based on
+determining the histogram of the similarity rank of the true speaker, or when
+data is scarce, modeling the histogram with the beta-binomial distribution. We
+express the disclosure in terms of entropy (bits), such that the disclosure
+from independent features are additive. Our experiments demonstrate that all
+tested speaker and author characterizations contain personally identifying
+information (PII) that can aid in identification, with embeddings from speaker
+recognition algorithms containing the most information, followed by phone
+embeddings, linguistic embeddings, and fundamental frequency. Our initial
+experiments show that the disclosure of PII increases with the length of test
+samples, but it is bounded by the length of database templates. The provided
+metric, similarity rank disclosure, provides a way to compare the disclosure of
+PII between biometric features and merge them to aid identification. It can
+thus aid in the holistic evaluation of threats to privacy in speech and other
+biometric technologies.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2508.04583v1">Measuring the Carbon Footprint of Cryptographic Privacy-Enhancing
@@ -2300,7 +2300,7 @@ another attribute?</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.04202v1">Unplug, Mute, Avoid Investigating smart speaker users' privacy
+  <h3><a href="http://arxiv.org/abs/2508.04202v1">Unplug, Mute, Avoid: Investigating smart speaker users' privacy
   protection behaviours in Saudi Homes</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
   <p><b>Published on:</b> 2025-08-06T08:32:54Z</p>
