@@ -3525,5 +3525,30 @@
       "eess.SY",
       "cs.SY"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2507.14853v2",
+    "title" : "A Privacy-Centric Approach: Scalable and Secure Federated Learning\n  Enabled by Hybrid Homomorphic Encryption",
+    "summary" : "Federated Learning (FL) enables collaborative model training without sharing\nraw data, making it a promising approach for privacy-sensitive domains. Despite\nits potential, FL faces significant challenges, particularly in terms of\ncommunication overhead and data privacy. Privacy-preserving Techniques (PPTs)\nsuch as Homomorphic Encryption (HE) have been used to mitigate these concerns.\nHowever, these techniques introduce substantial computational and communication\ncosts, limiting their practical deployment. In this work, we explore how Hybrid\nHomomorphic Encryption (HHE), a cryptographic protocol that combines symmetric\nencryption with HE, can be effectively integrated with FL to address both\ncommunication and privacy challenges, paving the way for scalable and secure\ndecentralized learning system.",
+    "updated" : "2025-08-07T06:51:48Z",
+    "published" : "2025-07-20T07:46:53Z",
+    "authors" : [
+      {
+        "name" : "Khoa Nguyen"
+      },
+      {
+        "name" : "Tanveer Khan"
+      },
+      {
+        "name" : "Hossein Abdinasibfar"
+      },
+      {
+        "name" : "Antonis Michalas"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
   }
 ]
