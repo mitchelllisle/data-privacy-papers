@@ -644,5 +644,86 @@
     "categories" : [
       "cs.PL"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.05518v1",
+    "title" : "Local Distance Query with Differential Privacy",
+    "summary" : "Differential Privacy (DP) is commonly employed to safeguard graph analysis or\npublishing. Distance, a critical factor in graph analysis, is typically handled\nusing curator DP, where a trusted curator holds the complete neighbor lists of\nall vertices and answers queries privately. However, in many real-world\nscenarios, such a curator may not be present, posing a significant challenge\nfor implementing differentially private distance queries under Local\nDifferential Privacy (LDP). This paper proposes two approaches to address this\nchallenge. The first approach generates a synthetic graph by randomizing\nresponses and applies bitwise operations to reduce noise interference. However,\nlike other synthetic graph methods, this approach suffers from low utility. To\novercome this limitation, we propose a second approach, the first LDP method\nspecifically designed for distance queries, which captures the global graph\nstructure by continuously aggregating local distance vectors from neighboring\nvertices. This process enables the accurate updating of global distances. We\ndemonstrate the effectiveness of our method through comprehensive theoretical\nanalysis and experimental evaluations on real-world datasets.",
+    "updated" : "2025-08-07T15:48:35Z",
+    "published" : "2025-08-07T15:48:35Z",
+    "authors" : [
+      {
+        "name" : "Weihong Sheng"
+      },
+      {
+        "name" : "Jiajun Chen"
+      },
+      {
+        "name" : "Bin Cai"
+      },
+      {
+        "name" : "Chunqiang Hu"
+      },
+      {
+        "name" : "Meng Han"
+      },
+      {
+        "name" : "Jiguo Yu"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.05250v1",
+    "title" : "Privacy Disclosure of Similarity in Speech and Language Processing",
+    "summary" : "Speaker, author, and other biometric identification applications often\ncompare a sample's similarity to a database of templates to determine the\nidentity. Given that data may be noisy and similarity measures can be\ninaccurate, such a comparison may not reliably identify the true identity as\nthe most similar. Still, even the similarity rank based on an inaccurate\nsimilarity measure can disclose private information about the true identity. We\npropose a methodology for quantifying the privacy disclosure of such a\nsimilarity rank by estimating its probability distribution. It is based on\ndetermining the histogram of the similarity rank of the true speaker, or when\ndata is scarce, modeling the histogram with the beta-binomial distribution. We\nexpress the disclosure in terms of entropy (bits), such that the disclosure\nfrom independent features are additive. Our experiments demonstrate that all\ntested speaker and author characterizations contain personally identifying\ninformation (PII) that can aid in identification, with embeddings from speaker\nrecognition algorithms containing the most information, followed by phone\nembeddings, linguistic embeddings, and fundamental frequency. Our initial\nexperiments show that the disclosure of PII increases with the length of test\nsamples, but it is bounded by the length of database templates. The provided\nmetric, similarity rank disclosure, provides a way to compare the disclosure of\nPII between biometric features and merge them to aid identification. It can\nthus aid in the holistic evaluation of threats to privacy in speech and other\nbiometric technologies.",
+    "updated" : "2025-08-07T10:40:35Z",
+    "published" : "2025-08-07T10:40:35Z",
+    "authors" : [
+      {
+        "name" : "Tom Bäckström"
+      },
+      {
+        "name" : "Mohammad Hassan Vali"
+      },
+      {
+        "name" : "My Nguyen"
+      },
+      {
+        "name" : "Silas Rech"
+      }
+    ],
+    "categories" : [
+      "eess.AS"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.04202v1",
+    "title" : "Unplug, Mute, Avoid: Investigating smart speaker users' privacy\n  protection behaviours in Saudi Homes",
+    "summary" : "Smart speakers are increasingly integrated into domestic life worldwide, yet\ntheir privacy risks remain underexplored in non-Western cultural contexts. This\nstudy investigates how Saudi Arabian users of smart speakers navigate privacy\nconcerns within collectivist, gendered, and often multigenerational households.\nUsing cultural probes followed by semi-structured interviews with 16\nparticipants, we uncover everyday privacy-protective behaviours including\nunplugging devices, muting microphones, and avoiding voice interactions\naltogether. These practices are shaped not only by individual risk perceptions\nbut also by household norms, room configurations, and interpersonal dynamics.\nWe contribute empirical insights from an underrepresented region, theoretical\nextensions to contextual integrity frameworks, and design directions for\nculturally responsive voice interfaces. This work expands the global\nconversation on smart speaker privacy and informs more inclusive HCI practices\nin increasingly diverse smart home environments.",
+    "updated" : "2025-08-06T08:32:54Z",
+    "published" : "2025-08-06T08:32:54Z",
+    "authors" : [
+      {
+        "name" : "Abdulrhman Alorini"
+      },
+      {
+        "name" : "Yufeng Wu"
+      },
+      {
+        "name" : "Abdullah Bin Sawad"
+      },
+      {
+        "name" : "Mukesh Prasad"
+      },
+      {
+        "name" : "A. Baki Kocaballi"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
   }
 ]
