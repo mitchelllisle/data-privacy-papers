@@ -2068,116 +2068,123 @@ that our solution outperforms existing methods.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.09699v1">Interpreting Differential Privacy in Terms of Disclosure Risk</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-07-13T16:20:13Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zeki Kazan, Sagar Sharma, Wanrong Zhang, Bo Jiang, Qiang Yan</p>
-    <p><b>Summary:</b> As the use of differential privacy (DP) becomes widespread, the development
-of effective tools for reasoning about the privacy guarantee becomes
-increasingly critical. In pursuit of this goal, we demonstrate novel
-relationships between DP and measures of statistical disclosure risk. We
-suggest how experts and non-experts can use these results to explain the DP
-guarantee, interpret DP composition theorems, select and justify privacy
-parameters, and identify worst-case adversary prior probabilities.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.09678v1">Conformal Prediction for Privacy-Preserving Machine Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36"> 
-  <p><b>Published on:</b> 2025-07-13T15:29:14Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Alexander David Balinsky, Dominik Krzeminski, Alexander Balinsky</p>
-    <p><b>Summary:</b> We investigate the integration of Conformal Prediction (CP) with supervised
-learning on deterministically encrypted data, aiming to bridge the gap between
-rigorous uncertainty quantification and privacy-preserving machine learning.
-Using AES-encrypted variants of the MNIST dataset, we demonstrate that CP
-methods remain effective even when applied directly in the encrypted domain,
-owing to the preservation of data exchangeability under fixed-key encryption.
-We test traditional $p$-value-based against $e$-value-based conformal
-predictors. Our empirical evaluation reveals that models trained on
-deterministically encrypted data retain the ability to extract meaningful
-structure, achieving 36.88\% test accuracy -- significantly above random
-guessing (9.56\%) observed with per-instance encryption. Moreover,
-$e$-value-based CP achieves predictive set coverage of over 60\% with 4.3
-loss-threshold calibration, correctly capturing the true label in 4888 out of
-5000 test cases. In contrast, the $p$-value-based CP yields smaller predictive
-sets but with reduced coverage accuracy. These findings highlight both the
-promise and limitations of CP in encrypted data settings and underscore
-critical trade-offs between prediction set compactness and reliability. %Our
-work sets a foundation for principled uncertainty quantification in secure,
-privacy-aware learning systems.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.09453v1">SmartphoneDemocracy: Privacy-Preserving E-Voting on Decentralized
-  Infrastructure using Novel European Identity</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
-  <p><b>Published on:</b> 2025-07-13T02:39:10Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Michał Jóźwik, Johan Pouwelse</p>
-    <p><b>Summary:</b> The digitization of democratic processes promises greater accessibility but
-presents challenges in terms of security, privacy, and verifiability. Existing
-electronic voting systems often rely on centralized architectures, creating
-single points of failure and forcing too much trust in authorities, which
-contradicts democratic principles. This research addresses the challenge of
-creating a secure, private e-voting system with minimized trust dependencies
-designed for the most versatile personal device: the smartphone. We introduce
-SmartphoneDemocracy, a novel e-voting protocol that combines three key
-technologies: the emerging European Digital Identity (EUDI) Wallet for
-Sybil-resistant identity verification, Zero-Knowledge Proofs for
-privacy-preserving validation, and a peer-to-peer blockchain (TrustChain) for a
-resilient, serverless public bulletin board. Our protocol enables voters to
-register and cast ballots anonymously and verifiably directly from their
-smartphones. We provide a detailed protocol design, a security analysis against
-a defined threat model, and a performance evaluation demonstrating that the
-computational and network overhead is feasible for medium- to large-scale
-elections. By developing and prototyping this system, we demonstrate a viable
-path to empower citizens with a trustworthy, accessible, and user-controlled
-digital voting experience.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.09067v2">Quantum-Resilient Privacy Ledger (QRPL): A Sovereign Digital Currency
-  for the Post-Quantum Era</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-07-11T23:02:45Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Serhan W. Bahar</p>
-    <p><b>Summary:</b> The emergence of quantum computing presents profound challenges to existing
-cryptographic infrastructures, whilst the development of central bank digital
-currencies (CBDCs) has raised concerns regarding privacy preservation and
-excessive centralisation in digital payment systems. This paper proposes the
-Quantum-Resilient Privacy Ledger (QRPL) as an innovative token-based digital
-currency architecture that incorporates National Institute of Standards and
-Technology (NIST)-standardised post-quantum cryptography (PQC) with hash-based
-zero-knowledge proofs to ensure user sovereignty, scalability, and transaction
-confidentiality. Key contributions include adaptations of ephemeral proof
-chains for unlinkable transactions, a privacy-weighted Proof-of-Stake (PoS)
-consensus to promote equitable participation, and a novel zero-knowledge
-proof-based mechanism for privacy-preserving selective disclosure. QRPL aims to
-address critical shortcomings in prevailing CBDC designs, including risks of
-pervasive surveillance, with a 10-20 second block time to balance security and
-throughput in future monetary systems. While conceptual, empirical prototypes
-are planned. Future work includes prototype development to validate these
-models empirically.</p>
-  </details>
-</div>
-
-
 
 <h2>2025-08</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.06301v1">FedMeNF: Privacy-Preserving Federated Meta-Learning for Neural Fields</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
+  <p><b>Published on:</b> 2025-08-08T13:24:57Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Junhyeog Yun, Minui Hong, Gunhee Kim</p>
+    <p><b>Summary:</b> Neural fields provide a memory-efficient representation of data, which can
+effectively handle diverse modalities and large-scale data. However, learning
+to map neural fields often requires large amounts of training data and
+computations, which can be limited to resource-constrained edge devices. One
+approach to tackle this limitation is to leverage Federated Meta-Learning
+(FML), but traditional FML approaches suffer from privacy leakage. To address
+these issues, we introduce a novel FML approach called FedMeNF. FedMeNF
+utilizes a new privacy-preserving loss function that regulates privacy leakage
+in the local meta-optimization. This enables the local meta-learner to optimize
+quickly and efficiently without retaining the client's private data. Our
+experiments demonstrate that FedMeNF achieves fast optimization speed and
+robust reconstruction performance, even with few-shot or non-IID data across
+diverse data modalities, while preserving client data privacy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.06251v1">Synthetic Data Generation and Differential Privacy using Tensor
+  Networks' Matrix Product States (MPS)</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
+  <p><b>Published on:</b> 2025-08-08T12:14:57Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Alejandro Moreno R., Desale Fentaw, Samuel Palmer, Raúl Salles de Padua, Ninad Dixit, Samuel Mugel, Roman Orús, Manuel Radons, Josef Menter, Ali Abedi</p>
+    <p><b>Summary:</b> Synthetic data generation is a key technique in modern artificial
+intelligence, addressing data scarcity, privacy constraints, and the need for
+diverse datasets in training robust models. In this work, we propose a method
+for generating privacy-preserving high-quality synthetic tabular data using
+Tensor Networks, specifically Matrix Product States (MPS). We benchmark the
+MPS-based generative model against state-of-the-art models such as CTGAN, VAE,
+and PrivBayes, focusing on both fidelity and privacy-preserving capabilities.
+To ensure differential privacy (DP), we integrate noise injection and gradient
+clipping during training, enabling privacy guarantees via R\'enyi Differential
+Privacy accounting. Across multiple metrics analyzing data fidelity and
+downstream machine learning task performance, our results show that MPS
+outperforms classical models, particularly under strict privacy constraints.
+This work highlights MPS as a promising tool for privacy-aware synthetic data
+generation. By combining the expressive power of tensor network representations
+with formal privacy mechanisms, the proposed approach offers an interpretable
+and scalable alternative for secure data sharing. Its structured design
+facilitates integration into sensitive domains where both data quality and
+confidentiality are critical.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.06208v1">Graph Federated Learning for Personalized Privacy Recommendation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-08-08T10:44:33Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ce Na, Kai Yang, Dengzhao Fang, Yu Li, Jingtong Gao, Chengcheng Zhu, Jiale Zhang, Xiaobing Sun, Yi Chang</p>
+    <p><b>Summary:</b> Federated recommendation systems (FedRecs) have gained significant attention
+for providing privacy-preserving recommendation services. However, existing
+FedRecs assume that all users have the same requirements for privacy
+protection, i.e., they do not upload any data to the server. The approaches
+overlook the potential to enhance the recommendation service by utilizing
+publicly available user data. In real-world applications, users can choose to
+be private or public. Private users' interaction data is not shared, while
+public users' interaction data can be shared. Inspired by the issue, this paper
+proposes a novel Graph Federated Learning for Personalized Privacy
+Recommendation (GFed-PP) that adapts to different privacy requirements while
+improving recommendation performance. GFed-PP incorporates the interaction data
+of public users to build a user-item interaction graph, which is then used to
+form a user relationship graph. A lightweight graph convolutional network (GCN)
+is employed to learn each user's user-specific personalized item embedding. To
+protect user privacy, each client learns the user embedding and the scoring
+function locally. Additionally, GFed-PP achieves optimization of the federated
+recommendation framework through the initialization of item embedding on
+clients and the aggregation of the user relationship graph on the server.
+Experimental results demonstrate that GFed-PP significantly outperforms
+existing methods for five datasets, offering superior recommendation accuracy
+without compromising privacy. This framework provides a practical solution for
+accommodating varying privacy preferences in federated recommendation systems.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.06087v1">Adaptive Backtracking for Privacy Protection in Large Language Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
+  <p><b>Published on:</b> 2025-08-08T07:29:33Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zhihao Yao, Yuxuan Gu, Xiachong Feng, Weitao Ma, Bo Li, Xiaocheng Feng</p>
+    <p><b>Summary:</b> The preservation of privacy has emerged as a critical topic in the era of
+artificial intelligence. However, current work focuses on user-oriented
+privacy, overlooking severe enterprise data leakage risks exacerbated by the
+Retrieval-Augmented Generation paradigm. To address this gap, our paper
+introduces a novel objective: enterprise-oriented privacy concerns. Achieving
+this objective requires overcoming two fundamental challenges: existing methods
+such as data sanitization severely degrade model performance, and the field
+lacks public datasets for evaluation. We address these challenges with several
+solutions. (1) To prevent performance degradation, we propose ABack, a
+training-free mechanism that leverages a Hidden State Model to pinpoint the
+origin of a leakage intention and rewrite the output safely. (2) To solve the
+lack of datasets, we construct PriGenQA, a new benchmark for enterprise privacy
+scenarios in healthcare and finance. To ensure a rigorous evaluation, we move
+beyond simple static attacks by developing a powerful adaptive attacker with
+Group Relative Policy Optimization. Experiments show that against this superior
+adversary, ABack improves the overall privacy utility score by up to 15\% over
+strong baselines, avoiding the performance trade-offs of prior methods.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2508.05518v1">Local Distance Query with Differential Privacy</a></h3>
