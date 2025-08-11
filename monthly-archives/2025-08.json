@@ -725,5 +725,146 @@
     "categories" : [
       "cs.HC"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.06301v1",
+    "title" : "FedMeNF: Privacy-Preserving Federated Meta-Learning for Neural Fields",
+    "summary" : "Neural fields provide a memory-efficient representation of data, which can\neffectively handle diverse modalities and large-scale data. However, learning\nto map neural fields often requires large amounts of training data and\ncomputations, which can be limited to resource-constrained edge devices. One\napproach to tackle this limitation is to leverage Federated Meta-Learning\n(FML), but traditional FML approaches suffer from privacy leakage. To address\nthese issues, we introduce a novel FML approach called FedMeNF. FedMeNF\nutilizes a new privacy-preserving loss function that regulates privacy leakage\nin the local meta-optimization. This enables the local meta-learner to optimize\nquickly and efficiently without retaining the client's private data. Our\nexperiments demonstrate that FedMeNF achieves fast optimization speed and\nrobust reconstruction performance, even with few-shot or non-IID data across\ndiverse data modalities, while preserving client data privacy.",
+    "updated" : "2025-08-08T13:24:57Z",
+    "published" : "2025-08-08T13:24:57Z",
+    "authors" : [
+      {
+        "name" : "Junhyeog Yun"
+      },
+      {
+        "name" : "Minui Hong"
+      },
+      {
+        "name" : "Gunhee Kim"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CV",
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.06251v1",
+    "title" : "Synthetic Data Generation and Differential Privacy using Tensor\n  Networks' Matrix Product States (MPS)",
+    "summary" : "Synthetic data generation is a key technique in modern artificial\nintelligence, addressing data scarcity, privacy constraints, and the need for\ndiverse datasets in training robust models. In this work, we propose a method\nfor generating privacy-preserving high-quality synthetic tabular data using\nTensor Networks, specifically Matrix Product States (MPS). We benchmark the\nMPS-based generative model against state-of-the-art models such as CTGAN, VAE,\nand PrivBayes, focusing on both fidelity and privacy-preserving capabilities.\nTo ensure differential privacy (DP), we integrate noise injection and gradient\nclipping during training, enabling privacy guarantees via R\\'enyi Differential\nPrivacy accounting. Across multiple metrics analyzing data fidelity and\ndownstream machine learning task performance, our results show that MPS\noutperforms classical models, particularly under strict privacy constraints.\nThis work highlights MPS as a promising tool for privacy-aware synthetic data\ngeneration. By combining the expressive power of tensor network representations\nwith formal privacy mechanisms, the proposed approach offers an interpretable\nand scalable alternative for secure data sharing. Its structured design\nfacilitates integration into sensitive domains where both data quality and\nconfidentiality are critical.",
+    "updated" : "2025-08-08T12:14:57Z",
+    "published" : "2025-08-08T12:14:57Z",
+    "authors" : [
+      {
+        "name" : "Alejandro Moreno R."
+      },
+      {
+        "name" : "Desale Fentaw"
+      },
+      {
+        "name" : "Samuel Palmer"
+      },
+      {
+        "name" : "Raúl Salles de Padua"
+      },
+      {
+        "name" : "Ninad Dixit"
+      },
+      {
+        "name" : "Samuel Mugel"
+      },
+      {
+        "name" : "Roman Orús"
+      },
+      {
+        "name" : "Manuel Radons"
+      },
+      {
+        "name" : "Josef Menter"
+      },
+      {
+        "name" : "Ali Abedi"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR",
+      "quant-ph"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.06208v1",
+    "title" : "Graph Federated Learning for Personalized Privacy Recommendation",
+    "summary" : "Federated recommendation systems (FedRecs) have gained significant attention\nfor providing privacy-preserving recommendation services. However, existing\nFedRecs assume that all users have the same requirements for privacy\nprotection, i.e., they do not upload any data to the server. The approaches\noverlook the potential to enhance the recommendation service by utilizing\npublicly available user data. In real-world applications, users can choose to\nbe private or public. Private users' interaction data is not shared, while\npublic users' interaction data can be shared. Inspired by the issue, this paper\nproposes a novel Graph Federated Learning for Personalized Privacy\nRecommendation (GFed-PP) that adapts to different privacy requirements while\nimproving recommendation performance. GFed-PP incorporates the interaction data\nof public users to build a user-item interaction graph, which is then used to\nform a user relationship graph. A lightweight graph convolutional network (GCN)\nis employed to learn each user's user-specific personalized item embedding. To\nprotect user privacy, each client learns the user embedding and the scoring\nfunction locally. Additionally, GFed-PP achieves optimization of the federated\nrecommendation framework through the initialization of item embedding on\nclients and the aggregation of the user relationship graph on the server.\nExperimental results demonstrate that GFed-PP significantly outperforms\nexisting methods for five datasets, offering superior recommendation accuracy\nwithout compromising privacy. This framework provides a practical solution for\naccommodating varying privacy preferences in federated recommendation systems.",
+    "updated" : "2025-08-08T10:44:33Z",
+    "published" : "2025-08-08T10:44:33Z",
+    "authors" : [
+      {
+        "name" : "Ce Na"
+      },
+      {
+        "name" : "Kai Yang"
+      },
+      {
+        "name" : "Dengzhao Fang"
+      },
+      {
+        "name" : "Yu Li"
+      },
+      {
+        "name" : "Jingtong Gao"
+      },
+      {
+        "name" : "Chengcheng Zhu"
+      },
+      {
+        "name" : "Jiale Zhang"
+      },
+      {
+        "name" : "Xiaobing Sun"
+      },
+      {
+        "name" : "Yi Chang"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.06087v1",
+    "title" : "Adaptive Backtracking for Privacy Protection in Large Language Models",
+    "summary" : "The preservation of privacy has emerged as a critical topic in the era of\nartificial intelligence. However, current work focuses on user-oriented\nprivacy, overlooking severe enterprise data leakage risks exacerbated by the\nRetrieval-Augmented Generation paradigm. To address this gap, our paper\nintroduces a novel objective: enterprise-oriented privacy concerns. Achieving\nthis objective requires overcoming two fundamental challenges: existing methods\nsuch as data sanitization severely degrade model performance, and the field\nlacks public datasets for evaluation. We address these challenges with several\nsolutions. (1) To prevent performance degradation, we propose ABack, a\ntraining-free mechanism that leverages a Hidden State Model to pinpoint the\norigin of a leakage intention and rewrite the output safely. (2) To solve the\nlack of datasets, we construct PriGenQA, a new benchmark for enterprise privacy\nscenarios in healthcare and finance. To ensure a rigorous evaluation, we move\nbeyond simple static attacks by developing a powerful adaptive attacker with\nGroup Relative Policy Optimization. Experiments show that against this superior\nadversary, ABack improves the overall privacy utility score by up to 15\\% over\nstrong baselines, avoiding the performance trade-offs of prior methods.",
+    "updated" : "2025-08-08T07:29:33Z",
+    "published" : "2025-08-08T07:29:33Z",
+    "authors" : [
+      {
+        "name" : "Zhihao Yao"
+      },
+      {
+        "name" : "Yuxuan Gu"
+      },
+      {
+        "name" : "Xiachong Feng"
+      },
+      {
+        "name" : "Weitao Ma"
+      },
+      {
+        "name" : "Bo Li"
+      },
+      {
+        "name" : "Xiaocheng Feng"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG",
+      "stat.ML"
+    ]
   }
 ]
