@@ -1707,369 +1707,345 @@ links to privacy settings from nudges.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.14214v1">Let's Measure the Elephant in the Room: Facilitating Personalized
-  Automated Analysis of Privacy Policies at Scale</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2025-07-15T20:19:33Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Rui Zhao, Vladyslav Melnychuk, Jun Zhao, Jesse Wright, Nigel Shadbolt</p>
-    <p><b>Summary:</b> In modern times, people have numerous online accounts, but they rarely read
-the Terms of Service or Privacy Policy of those sites despite claiming
-otherwise. This paper introduces PoliAnalyzer, a neuro-symbolic system that
-assists users with personalized privacy policy analysis. PoliAnalyzer uses
-Natural Language Processing (NLP) to extract formal representations of data
-usage practices from policy texts. In favor of deterministic, logical inference
-is applied to compare user preferences with the formal privacy policy
-representation and produce a compliance report. To achieve this, we extend an
-existing formal Data Terms of Use policy language to model privacy policies as
-app policies and user preferences as data policies. In our evaluation using our
-enriched PolicyIE dataset curated by legal experts, PoliAnalyzer demonstrated
-high accuracy in identifying relevant data usage practices, achieving F1-score
-of 90-100% across most tasks. Additionally, we demonstrate how PoliAnalyzer can
-model diverse user data-sharing preferences, derived from prior research as 23
-user profiles, and perform compliance analysis against the top 100 most-visited
-websites. This analysis revealed that, on average, 95.2% of a privacy policy's
-segments do not conflict with the analyzed user preferences, enabling users to
-concentrate on understanding the 4.8% (636 / 13205) that violates preferences,
-significantly reducing cognitive burden. Further, we identified common
-practices in privacy policies that violate user expectations - such as the
-sharing of location data with 3rd parties. This paper demonstrates that
-PoliAnalyzer can support automated personalized privacy policy analysis at
-scale using off-the-shelf NLP tools. This sheds light on a pathway to help
-individuals regain control over their data and encourage societal discussions
-on platform data practices to promote a fairer power dynamic.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.11649v2">ZKP-FedEval: Verifiable and Privacy-Preserving Federated Evaluation
-  using Zero-Knowledge Proofs</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
-  <p><b>Published on:</b> 2025-07-15T18:34:14Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Daniel Commey, Benjamin Appiah, Griffith S. Klogo, Garth V. Crosby</p>
-    <p><b>Summary:</b> Federated Learning (FL) enables collaborative model training on decentralized
-data without exposing raw data. However, the evaluation phase in FL may leak
-sensitive information through shared performance metrics. In this paper, we
-propose a novel protocol that incorporates Zero-Knowledge Proofs (ZKPs) to
-enable privacy-preserving and verifiable evaluation for FL. Instead of
-revealing raw loss values, clients generate a succinct proof asserting that
-their local loss is below a predefined threshold. Our approach is implemented
-without reliance on external APIs, using self-contained modules for federated
-learning simulation, ZKP circuit design, and experimental evaluation on both
-the MNIST and Human Activity Recognition (HAR) datasets. We focus on a
-threshold-based proof for a simple Convolutional Neural Network (CNN) model
-(for MNIST) and a multi-layer perceptron (MLP) model (for HAR), and evaluate
-the approach in terms of computational overhead, communication cost, and
-verifiability.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.22908v1">A Privacy-Preserving Federated Framework with Hybrid Quantum-Enhanced
-  Learning for Financial Fraud Detection</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
-  <p><b>Published on:</b> 2025-07-15T17:29:12Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Abhishek Sawaika, Swetang Krishna, Tushar Tomar, Durga Pritam Suggisetti, Aditi Lal, Tanmaya Shrivastav, Nouhaila Innan, Muhammad Shafique</p>
-    <p><b>Summary:</b> Rapid growth of digital transactions has led to a surge in fraudulent
-activities, challenging traditional detection methods in the financial sector.
-To tackle this problem, we introduce a specialised federated learning framework
-that uniquely combines a quantum-enhanced Long Short-Term Memory (LSTM) model
-with advanced privacy preserving techniques. By integrating quantum layers into
-the LSTM architecture, our approach adeptly captures complex
-cross-transactional patters, resulting in an approximate 5% performance
-improvement across key evaluation metrics compared to conventional models.
-Central to our framework is "FedRansel", a novel method designed to defend
-against poisoning and inference attacks, thereby reducing model degradation and
-inference accuracy by 4-8%, compared to standard differential privacy
-mechanisms. This pseudo-centralised setup with a Quantum LSTM model, enhances
-fraud detection accuracy and reinforces the security and confidentiality of
-sensitive financial data.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.11324v2">A Review of Privacy Metrics for Privacy-Preserving Synthetic Data
-  Generation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
-  <p><b>Published on:</b> 2025-07-15T13:56:02Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Frederik Marinus Trudslev, Matteo Lissandrini, Juan Manuel Rodriguez, Martin Bøgsted, Daniele Dell'Aglio</p>
-    <p><b>Summary:</b> Privacy Preserving Synthetic Data Generation (PP-SDG) has emerged to produce
-synthetic datasets from personal data while maintaining privacy and utility.
-Differential privacy (DP) is the property of a PP-SDG mechanism that
-establishes how protected individuals are when sharing their sensitive data. It
-is however difficult to interpret the privacy budget ($\varepsilon$) expressed
-by DP. To make the actual risk associated with the privacy budget more
-transparent, multiple privacy metrics (PMs) have been proposed to assess the
-privacy risk of the data. These PMs are utilized in separate studies to assess
-newly introduced PP-SDG mechanisms. Consequently, these PMs embody the same
-assumptions as the PP-SDG mechanism they were made to assess. Therefore, a
-thorough definition of how these are calculated is necessary. In this work, we
-present the assumptions and mathematical formulations of 17 distinct privacy
-metrics.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.11187v1">Striking the Perfect Balance: Preserving Privacy While Boosting Utility
-  in Collaborative Medical Prediction Platforms</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-07-15T10:41:55Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shao-Bo Lin, Xiaotong Liu, Yao Wang</p>
-    <p><b>Summary:</b> Online collaborative medical prediction platforms offer convenience and
-real-time feedback by leveraging massive electronic health records. However,
-growing concerns about privacy and low prediction quality can deter patient
-participation and doctor cooperation. In this paper, we first clarify the
-privacy attacks, namely attribute attacks targeting patients and model
-extraction attacks targeting doctors, and specify the corresponding privacy
-principles. We then propose a privacy-preserving mechanism and integrate it
-into a novel one-shot distributed learning framework, aiming to simultaneously
-meet both privacy requirements and prediction performance objectives. Within
-the framework of statistical learning theory, we theoretically demonstrate that
-the proposed distributed learning framework can achieve the optimal prediction
-performance under specific privacy requirements. We further validate the
-developed privacy-preserving collaborative medical prediction platform through
-both toy simulations and real-world data experiments.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.10946v1">Solving Linear Programs with Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B">
-  <p><b>Published on:</b> 2025-07-15T03:22:47Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Alina Ene, Huy Le Nguyen, Ta Duy Nguyen, Adrian Vladu</p>
-    <p><b>Summary:</b> We study the problem of solving linear programs of the form $Ax\le b$,
-$x\ge0$ with differential privacy. For homogeneous LPs $Ax\ge0$, we give an
-efficient $(\epsilon,\delta)$-differentially private algorithm which with
-probability at least $1-\beta$ finds in polynomial time a solution that
-satisfies all but
-$O(\frac{d^{2}}{\epsilon}\log^{2}\frac{d}{\delta\beta}\sqrt{\log\frac{1}{\rho_{0}}})$
-constraints, for problems with margin $\rho_{0}>0$. This improves the bound of
-$O(\frac{d^{5}}{\epsilon}\log^{1.5}\frac{1}{\rho_{0}}\mathrm{poly}\log(d,\frac{1}{\delta},\frac{1}{\beta}))$
-by [Kaplan-Mansour-Moran-Stemmer-Tur, STOC '25]. For general LPs $Ax\le b$,
-$x\ge0$ with potentially zero margin, we give an efficient
-$(\epsilon,\delta)$-differentially private algorithm that w.h.p drops
-$O(\frac{d^{4}}{\epsilon}\log^{2.5}\frac{d}{\delta}\sqrt{\log dU})$
-constraints, where $U$ is an upper bound for the entries of $A$ and $b$ in
-absolute value. This improves the result by Kaplan et al. by at least a factor
-of $d^{5}$. Our techniques build upon privatizing a rescaling perceptron
-algorithm by [Hoberg-Rothvoss, IPCO '17] and a more refined iterative procedure
-for identifying equality constraints by Kaplan et al.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.10786v2">"Is it always watching? Is it always listening?" Exploring Contextual
-  Privacy and Security Concerns Toward Domestic Social Robots</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2025-07-14T20:27:40Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Henry Bell, Jabari Kwesi, Hiba Laabadli, Pardis Emami-Naeini</p>
-    <p><b>Summary:</b> Equipped with artificial intelligence (AI) and advanced sensing capabilities,
-social robots are gaining interest among consumers in the United States. These
-robots seem like a natural evolution of traditional smart home devices.
-However, their extensive data collection capabilities, anthropomorphic
-features, and capacity to interact with their environment make social robots a
-more significant security and privacy threat. Increased risks include data
-linkage, unauthorized data sharing, and the physical safety of users and their
-homes. It is critical to investigate U.S. users' security and privacy needs and
-concerns to guide the design of social robots while these devices are still in
-the early stages of commercialization in the U.S. market. Through 19
-semi-structured interviews, we identified significant security and privacy
-concerns, highlighting the need for transparency, usability, and robust privacy
-controls to support adoption. For educational applications, participants
-worried most about misinformation, and in medical use cases, they worried about
-the reliability of these devices. Participants were also concerned with the
-data inference that social robots could enable. We found that participants
-expect tangible privacy controls, indicators of data collection, and
-context-appropriate functionality.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.10695v1">Exploring User Security and Privacy Attitudes and Concerns Toward the
-  Use of General-Purpose LLM Chatbots for Mental Health</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2025-07-14T18:10:21Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jabari Kwesi, Jiaxun Cao, Riya Manchanda, Pardis Emami-Naeini</p>
-    <p><b>Summary:</b> Individuals are increasingly relying on large language model (LLM)-enabled
-conversational agents for emotional support. While prior research has examined
-privacy and security issues in chatbots specifically designed for mental health
-purposes, these chatbots are overwhelmingly "rule-based" offerings that do not
-leverage generative AI. Little empirical research currently measures users'
-privacy and security concerns, attitudes, and expectations when using
-general-purpose LLM-enabled chatbots to manage and improve mental health.
-Through 21 semi-structured interviews with U.S. participants, we identified
-critical misconceptions and a general lack of risk awareness. Participants
-conflated the human-like empathy exhibited by LLMs with human-like
-accountability and mistakenly believed that their interactions with these
-chatbots were safeguarded by the same regulations (e.g., HIPAA) as disclosures
-with a licensed therapist. We introduce the concept of "intangible
-vulnerability," where emotional or psychological disclosures are undervalued
-compared to more tangible forms of information (e.g., financial or
-location-based data). To address this, we propose recommendations to safeguard
-user mental health disclosures with general-purpose LLM-enabled chatbots more
-effectively.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.10489v1">SynthGuard: Redefining Synthetic Data Generation with a Scalable and
-  Privacy-Preserving Workflow Framework</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-07-14T17:11:20Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Eduardo Brito, Mahmoud Shoush, Kristian Tamm, Paula Etti, Liina Kamm</p>
-    <p><b>Summary:</b> The growing reliance on data-driven applications in sectors such as
-healthcare, finance, and law enforcement underscores the need for secure,
-privacy-preserving, and scalable mechanisms for data generation and sharing.
-Synthetic data generation (SDG) has emerged as a promising approach but often
-relies on centralized or external processing, raising concerns about data
-sovereignty, domain ownership, and compliance with evolving regulatory
-standards. To overcome these issues, we introduce SynthGuard, a framework
-designed to ensure computational governance by enabling data owners to maintain
-control over SDG workflows. SynthGuard supports modular and privacy-preserving
-workflows, ensuring secure, auditable, and reproducible execution across
-diverse environments. In this paper, we demonstrate how SynthGuard addresses
-the complexities at the intersection of domain-specific needs and scalable SDG
-by aligning with requirements for data sovereignty and regulatory compliance.
-Developed iteratively with domain expert input, SynthGuard has been validated
-through real-world use cases, demonstrating its ability to balance security,
-privacy, and scalability while ensuring compliance. The evaluation confirms its
-effectiveness in implementing and executing SDG workflows and integrating
-privacy and utility assessments across various computational environments.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.10474v1">Privacy-Preserving Multi-Stage Fall Detection Framework with
-  Semi-supervised Federated Learning and Robotic Vision Confirmation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Robotics-F9C80E">
-  <p><b>Published on:</b> 2025-07-14T16:55:11Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Seyed Alireza Rahimi Azghadi, Truong-Thanh-Hung Nguyen, Helene Fournier, Monica Wachowicz, Rene Richard, Francis Palma, Hung Cao</p>
-    <p><b>Summary:</b> The aging population is growing rapidly, and so is the danger of falls in
-older adults. A major cause of injury is falling, and detection in time can
-greatly save medical expenses and recovery time. However, to provide timely
-intervention and avoid unnecessary alarms, detection systems must be effective
-and reliable while addressing privacy concerns regarding the user. In this
-work, we propose a framework for detecting falls using several complementary
-systems: a semi-supervised federated learning-based fall detection system
-(SF2D), an indoor localization and navigation system, and a vision-based human
-fall recognition system. A wearable device and an edge device identify a fall
-scenario in the first system. On top of that, the second system uses an indoor
-localization technique first to localize the fall location and then navigate a
-robot to inspect the scenario. A vision-based detection system running on an
-edge device with a mounted camera on a robot is used to recognize fallen
-people. Each of the systems of this proposed framework achieves different
-accuracy rates. Specifically, the SF2D has a 0.81% failure rate equivalent to
-99.19% accuracy, while the vision-based fallen people detection achieves 96.3%
-accuracy. However, when we combine the accuracy of these two systems with the
-accuracy of the navigation system (95% success rate), our proposed framework
-creates a highly reliable performance for fall detection, with an overall
-accuracy of 99.99%. Not only is the proposed framework safe for older adults,
-but it is also a privacy-preserving solution for detecting falls.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.10640v1">SENSOR: An ML-Enhanced Online Annotation Tool to Uncover Privacy
-  Concerns from User Reviews in Social-Media Applications</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Social and Information Networks-662E9B"> 
-  <p><b>Published on:</b> 2025-07-14T14:58:04Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Labiba Farah, Mohammad Ridwan Kabir, Shohel Ahmed, MD Mohaymen Ul Anam, Md. Sakibul Islam</p>
-    <p><b>Summary:</b> The widespread use of social media applications has raised significant
-privacy concerns, often highlighted in user reviews. These reviews also provide
-developers with valuable insights into improving apps by addressing issues and
-introducing better features. However, the sheer volume and nuanced nature of
-reviews make manual identification and prioritization of privacy-related
-concerns challenging for developers. Previous studies have developed software
-utilities to automatically classify user reviews as privacy-relevant,
-privacy-irrelevant, bug reports, feature requests, etc., using machine
-learning. Notably, there is a lack of focus on classifying reviews specifically
-as privacy-related feature requests, privacy-related bug reports, or
-privacy-irrelevant. This paper introduces SENtinel SORt (SENSOR), an automated
-online annotation tool designed to help developers annotate and classify user
-reviews into these categories. For automating the annotation of such reviews,
-this paper introduces the annotation model, GRACE (GRU-based Attention with
-CBOW Embedding), using Gated Recurrent Units (GRU) with Continuous Bag of Words
-(CBOW) and Attention mechanism. Approximately 16000 user reviews from seven
-popular social media apps on Google Play Store, including Instagram, Facebook,
-WhatsApp, Snapchat, X (formerly Twitter), Facebook Lite, and Line were
-analyzed. Two annotators manually labelled the reviews, achieving a Cohen's
-Kappa value of 0.87, ensuring a labeled dataset with high inter-rater agreement
-for training machine learning models. Among the models tested, GRACE
-demonstrated the best performance (macro F1-score: 0.9434, macro ROC-AUC:
-0.9934, and accuracy: 95.10%) despite class imbalance. SENSOR demonstrates
-significant potential to assist developers with extracting and addressing
-privacy-related feature requests or bug reports from user reviews, enhancing
-user privacy and trust.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.10627v1">Crypto-Assisted Graph Degree Sequence Release under Local Differential
-  Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
-  <p><b>Published on:</b> 2025-07-14T07:04:08Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Xiaojian Zhang, Junqing Wang, Kerui Chen, Peiyuan Zhao, Huiyuan Bai</p>
-    <p><b>Summary:</b> Given a graph $G$ defined in a domain $\mathcal{G}$, we investigate locally
-differentially private mechanisms to release a degree sequence on $\mathcal{G}$
-that accurately approximates the actual degree distribution. Existing solutions
-for this problem mostly use graph projection techniques based on edge deletion
-process, using a threshold parameter $\theta$ to bound node degrees. However,
-this approach presents a fundamental trade-off in threshold parameter
-selection. While large $\theta$ values introduce substantial noise in the
-released degree sequence, small $\theta$ values result in more edges removed
-than necessary. Furthermore, $\theta$ selection leads to an excessive
-communication cost. To remedy existing solutions' deficiencies, we present
-CADR-LDP, an efficient framework incorporating encryption techniques and
-differentially private mechanisms to release the degree sequence. In CADR-LDP,
-we first use the crypto-assisted Optimal-$\theta$-Selection method to select
-the optimal parameter with a low communication cost. Then, we use the LPEA-LOW
-method to add some edges for each node with the edge addition process in local
-projection. LPEA-LOW prioritizes the projection with low-degree nodes, which
-can retain more edges for such nodes and reduce the projection error.
-Theoretical analysis shows that CADR-LDP satisfies $\epsilon$-node local
-differential privacy. The experimental results on eight graph datasets show
-that our solution outperforms existing methods.</p>
-  </details>
-</div>
-
-
 
 <h2>2025-08</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.08190v1">Differential Privacy for Regulatory Compliance in Cyberattack Detection
+  on Critical Infrastructure Systems</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-08-11T17:10:49Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Paritosh Ramanan, H. M. Mohaimanul Islam, Abhiram Reddy Alugula</p>
+    <p><b>Summary:</b> Industrial control systems are a fundamental component of critical
+infrastructure networks (CIN) such as gas, water and power. With the growing
+risk of cyberattacks, regulatory compliance requirements are also increasing
+for large scale critical infrastructure systems comprising multiple utility
+stakeholders. The primary goal of regulators is to ensure overall system
+stability with recourse to trustworthy stakeholder attack detection. However,
+adhering to compliance requirements requires stakeholders to also disclose
+sensor and control data to regulators raising privacy concerns. In this paper,
+we present a cyberattack detection framework that utilizes differentially
+private (DP) hypothesis tests geared towards enhancing regulatory confidence
+while alleviating privacy concerns of CIN stakeholders. The hallmark of our
+approach is a two phase privacy scheme that protects the privacy of covariance,
+as well as the associated sensor driven test statistics computed as a means to
+generate alarms. Theoretically, we show that our method induces a
+misclassification error rate comparable to the non-DP cases while delivering
+robust privacy guarantees. With the help of real-world datasets, we show the
+reliability of our DP-detection outcomes for a wide variety of attack scenarios
+for interdependent stakeholders.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.07960v1">VOIDFace: A Privacy-Preserving Multi-Network Face Recognition With
+  Enhanced Security</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2025-08-11T13:15:36Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ajnas Muhammed, Iurri Medvedev, Nuno Gonçalves</p>
+    <p><b>Summary:</b> Advancement of machine learning techniques, combined with the availability of
+large-scale datasets, has significantly improved the accuracy and efficiency of
+facial recognition. Modern facial recognition systems are trained using large
+face datasets collected from diverse individuals or public repositories.
+However, for training, these datasets are often replicated and stored in
+multiple workstations, resulting in data replication, which complicates
+database management and oversight. Currently, once a user submits their face
+for dataset preparation, they lose control over how their data is used, raising
+significant privacy and ethical concerns. This paper introduces VOIDFace, a
+novel framework for facial recognition systems that addresses two major issues.
+First, it eliminates the need of data replication and improves data control to
+securely store training face data by using visual secret sharing. Second, it
+proposes a patch-based multi-training network that uses this novel training
+data storage mechanism to develop a robust, privacy-preserving facial
+recognition system. By integrating these advancements, VOIDFace aims to improve
+the privacy, security, and efficiency of facial recognition training, while
+ensuring greater control over sensitive personal face data. VOIDFace also
+enables users to exercise their Right-To-Be-Forgotten property to control their
+personal data. Experimental evaluations on the VGGFace2 dataset show that
+VOIDFace provides Right-To-Be-Forgotten, improved data control, security, and
+privacy while maintaining competitive facial recognition performance. Code is
+available at: https://github.com/ajnasmuhammed89/VOIDFace</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.07676v1">Multi-Hop Privacy Propagation for Differentially Private Federated
+  Learning in Social Networks</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Science and Game Theory-5BC0EB">
+  <p><b>Published on:</b> 2025-08-11T06:53:32Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Chenchen Lin, Xuehe Wang</p>
+    <p><b>Summary:</b> Federated learning (FL) enables collaborative model training across
+decentralized clients without sharing local data, thereby enhancing privacy and
+facilitating collaboration among clients connected via social networks.
+However, these social connections introduce privacy externalities: a client's
+privacy loss depends not only on its privacy protection strategy but also on
+the privacy decisions of others, propagated through the network via multi-hop
+interactions. In this work, we propose a socially-aware privacy-preserving FL
+mechanism that systematically quantifies indirect privacy leakage through a
+multi-hop propagation model. We formulate the server-client interaction as a
+two-stage Stackelberg game, where the server, as the leader, optimizes
+incentive policies, and clients, as followers, strategically select their
+privacy budgets, which determine their privacy-preserving levels by controlling
+the magnitude of added noise. To mitigate information asymmetry in networked
+privacy estimation, we introduce a mean-field estimator to approximate the
+average external privacy risk. We theoretically prove the existence and
+convergence of the fixed point of the mean-field estimator and derive
+closed-form expressions for the Stackelberg Nash Equilibrium. Despite being
+designed from a client-centric incentive perspective, our mechanism achieves
+approximately-optimal social welfare, as revealed by Price of Anarchy (PoA)
+analysis. Experiments on diverse datasets demonstrate that our approach
+significantly improves client utilities and reduces server costs while
+maintaining model performance, outperforming both Social-Agnostic (SA)
+baselines and methods that account for social externalities.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.07672v1">Towards Aligning Personalized Conversational Recommendation Agents with
+  Users' Privacy Preferences</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2025-08-11T06:51:44Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shuning Zhang, Ying Ma, Jingruo Chen, Simin Li, Xin Yi, Hewu Li</p>
+    <p><b>Summary:</b> The proliferation of AI agents, with their complex and context-dependent
+actions, renders conventional privacy paradigms obsolete. This position paper
+argues that the current model of privacy management, rooted in a user's
+unilateral control over a passive tool, is inherently mismatched with the
+dynamic and interactive nature of AI agents. We contend that ensuring effective
+privacy protection necessitates that the agents proactively align with users'
+privacy preferences instead of passively waiting for the user to control. To
+ground this shift, and using personalized conversational recommendation agents
+as a case, we propose a conceptual framework built on Contextual Integrity (CI)
+theory and Privacy Calculus theory. This synthesis first reframes automatically
+controlling users' privacy as an alignment problem, where AI agents initially
+did not know users' preferences, and would learn their privacy preferences
+through implicit or explicit feedback. Upon receiving the preference feedback,
+the agents used alignment and Pareto optimization for aligning preferences and
+balancing privacy and utility. We introduced formulations and instantiations,
+potential applications, as well as five challenges.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.07667v1">1-2-3 Check: Enhancing Contextual Privacy in LLM via Multi-Agent
+  Reasoning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-08-11T06:34:09Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Wenkai Li, Liwen Sun, Zhenxiang Guan, Xuhui Zhou, Maarten Sap</p>
+    <p><b>Summary:</b> Addressing contextual privacy concerns remains challenging in interactive
+settings where large language models (LLMs) process information from multiple
+sources (e.g., summarizing meetings with private and public information). We
+introduce a multi-agent framework that decomposes privacy reasoning into
+specialized subtasks (extraction, classification), reducing the information
+load on any single agent while enabling iterative validation and more reliable
+adherence to contextual privacy norms. To understand how privacy errors emerge
+and propagate, we conduct a systematic ablation over information-flow
+topologies, revealing when and why upstream detection mistakes cascade into
+downstream leakage. Experiments on the ConfAIde and PrivacyLens benchmark with
+several open-source and closed-sourced LLMs demonstrate that our best
+multi-agent configuration substantially reduces private information leakage
+(\textbf{18\%} on ConfAIde and \textbf{19\%} on PrivacyLens with GPT-4o) while
+preserving the fidelity of public content, outperforming single-agent
+baselines. These results highlight the promise of principled information-flow
+design in multi-agent systems for contextual privacy with LLMs.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.07664v1">Understanding Users' Privacy Perceptions Towards LLM's RAG-based Memory</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2025-08-11T06:26:30Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shuning Zhang, Rongjun Ma, Ying Ma, Shixuan Li, Yiqun Xu, Xin Yi, Hewu Li</p>
+    <p><b>Summary:</b> Large Language Models (LLMs) are increasingly integrating memory
+functionalities to provide personalized and context-aware interactions.
+However, user understanding, practices and expectations regarding these memory
+systems are not yet well understood. This paper presents a thematic analysis of
+semi-structured interviews with 18 users to explore their mental models of
+LLM's Retrieval Augmented Generation (RAG)-based memory, current usage
+practices, perceived benefits and drawbacks, privacy concerns and expectations
+for future memory systems. Our findings reveal diverse and often incomplete
+mental models of how memory operates. While users appreciate the potential for
+enhanced personalization and efficiency, significant concerns exist regarding
+privacy, control and the accuracy of remembered information. Users express a
+desire for granular control over memory generation, management, usage and
+updating, including clear mechanisms for reviewing, editing, deleting and
+categorizing memories, as well as transparent insight into how memories and
+inferred information are used. We discuss design implications for creating more
+user-centric, transparent, and trustworthy LLM memory systems.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.07505v1">Enhancing Privacy in Decentralized Min-Max Optimization: A
+  Differentially Private Approach</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
+  <p><b>Published on:</b> 2025-08-10T23:24:27Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yueyang Quan, Chang Wang, Shengjie Zhai, Minghong Fang, Zhuqing Liu</p>
+    <p><b>Summary:</b> Decentralized min-max optimization allows multi-agent systems to
+collaboratively solve global min-max optimization problems by facilitating the
+exchange of model updates among neighboring agents, eliminating the need for a
+central server. However, sharing model updates in such systems carry a risk of
+exposing sensitive data to inference attacks, raising significant privacy
+concerns. To mitigate these privacy risks, differential privacy (DP) has become
+a widely adopted technique for safeguarding individual data. Despite its
+advantages, implementing DP in decentralized min-max optimization poses
+challenges, as the added noise can hinder convergence, particularly in
+non-convex scenarios with complex agent interactions in min-max optimization
+problems. In this work, we propose an algorithm called DPMixSGD (Differential
+Private Minmax Hybrid Stochastic Gradient Descent), a novel privacy-preserving
+algorithm specifically designed for non-convex decentralized min-max
+optimization. Our method builds on the state-of-the-art STORM-based algorithm,
+one of the fastest decentralized min-max solutions. We rigorously prove that
+the noise added to local gradients does not significantly compromise
+convergence performance, and we provide theoretical bounds to ensure privacy
+guarantees. To validate our theoretical findings, we conduct extensive
+experiments across various tasks and models, demonstrating the effectiveness of
+our approach.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.07057v1">Rethinking Privacy Indicators in Extended Reality: Multimodal Design for
+  Situationally Impaired Bystanders</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E">
+  <p><b>Published on:</b> 2025-08-09T17:48:44Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Syed Ibrahim Mustafa Shah Bukhari, Maha Sajid, Bo Ji, Brendan David-John</p>
+    <p><b>Summary:</b> As Extended Reality (XR) devices become increasingly prevalent in everyday
+settings, they raise significant privacy concerns for bystanders: individuals
+in the vicinity of an XR device during its use, whom the device sensors may
+accidentally capture. Current privacy indicators, such as small LEDs, often
+presume that bystanders are attentive enough to interpret the privacy signals.
+However, these cues can be easily overlooked when bystanders are distracted or
+have limited vision. We define such individuals as situationally impaired
+bystanders. This study explores XR privacy indicator designs that are effective
+for situationally impaired bystanders. A focus group with eight participants
+was conducted to design five novel privacy indicators. We evaluated these
+designs through a user study with seven additional participants. Our results
+show that visual-only indicators, typical in commercial XR devices, received
+low ratings for perceived usefulness in impairment scenarios. In contrast,
+multimodal indicators were preferred in privacy-sensitive scenarios with
+situationally impaired bystanders. Ultimately, our results highlight the need
+to move toward adaptable, multimodal, and situationally aware designs that
+effectively support bystander privacy in everyday XR environments.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.07044v1">Balancing Privacy and Efficiency: Music Information Retrieval via
+  Additive Homomorphic Encryption</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-08-09T17:00:34Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> William Zerong Wang, Dongfang Zhao</p>
+    <p><b>Summary:</b> In the era of generative AI, ensuring the privacy of music data presents
+unique challenges: unlike static artworks such as images, music data is
+inherently temporal and multimodal, and it is sampled, transformed, and remixed
+at an unprecedented scale. These characteristics make its core vector
+embeddings, i.e, the numerical representations of the music, highly susceptible
+to being learned, misused, or even stolen by models without accessing the
+original audio files. Traditional methods like copyright licensing and digital
+watermarking offer limited protection for these abstract mathematical
+representations, thus necessitating a stronger, e.g., cryptographic, approach
+to safeguarding the embeddings themselves. Standard encryption schemes, such as
+AES, render data unintelligible for computation, making such searches
+impossible. While Fully Homomorphic Encryption (FHE) provides a plausible
+solution by allowing arbitrary computations on ciphertexts, its substantial
+performance overhead remains impractical for large-scale vector similarity
+searches. Given this trade-off, we propose a more practical approach using
+Additive Homomorphic Encryption (AHE) for vector similarity search. The primary
+contributions of this paper are threefold: we analyze threat models unique to
+music information retrieval systems; we provide a theoretical analysis and
+propose an efficient AHE-based solution through inner products of music
+embeddings to deliver privacy-preserving similarity search; and finally, we
+demonstrate the efficiency and practicality of the proposed approach through
+empirical evaluation and comparison to FHE schemes on real-world MP3 files.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.06760v1">Understanding Privacy Norms Around LLM-Based Chatbots: A Contextual
+  Integrity Perspective</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2025-08-09T00:22:46Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Sarah Tran, Hongfan Lu, Isaac Slaughter, Bernease Herman, Aayushi Dangol, Yue Fu, Lufei Chen, Biniyam Gebreyohannes, Bill Howe, Alexis Hiniker, Nicholas Weber, Robert Wolfe</p>
+    <p><b>Summary:</b> LLM-driven chatbots like ChatGPT have created large volumes of conversational
+data, but little is known about how user privacy expectations are evolving with
+this technology. We conduct a survey experiment with 300 US ChatGPT users to
+understand emerging privacy norms for sharing chatbot data. Our findings reveal
+a stark disconnect between user concerns and behavior: 82% of respondents rated
+chatbot conversations as sensitive or highly sensitive - more than email or
+social media posts - but nearly half reported discussing health topics and over
+one-third discussed personal finances with ChatGPT. Participants expressed
+strong privacy concerns (t(299) = 8.5, p < .01) and doubted their conversations
+would remain private (t(299) = -6.9, p < .01). Despite this, respondents
+uniformly rejected sharing personal data (search history, emails, device
+access) for improved services, even in exchange for premium features worth
+$200. To identify which factors influence appropriate chatbot data sharing, we
+presented participants with factorial vignettes manipulating seven contextual
+factors. Linear mixed models revealed that only the transmission factors such
+as informed consent, data anonymization, or the removal of personally
+identifiable information, significantly affected perceptions of appropriateness
+and concern for data access. Surprisingly, contextual factors including the
+recipient of the data (hospital vs. tech company), purpose (research vs.
+advertising), type of content, and geographic location did not show significant
+effects. Our results suggest that users apply consistent baseline privacy
+expectations to chatbot data, prioritizing procedural safeguards over recipient
+trustworthiness. This has important implications for emerging agentic AI
+systems that assume user willingness to integrate personal data across
+platforms.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.06647v1">Privacy-Preserving Tabular Synthetic Data Generation Using TabularARGN</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-08-08T18:57:23Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Andrey Sidorenko, Paul Tiwald</p>
+    <p><b>Summary:</b> Synthetic data generation has become essential for securely sharing and
+analyzing sensitive data sets. Traditional anonymization techniques, however,
+often fail to adequately preserve privacy. We introduce the Tabular
+Auto-Regressive Generative Network (TabularARGN), a neural network architecture
+specifically designed for generating high-quality synthetic tabular data. Using
+a discretization-based auto-regressive approach, TabularARGN achieves high data
+fidelity while remaining computationally efficient. We evaluate TabularARGN
+against existing synthetic data generation methods, showing competitive results
+in statistical similarity, machine learning utility, and detection robustness.
+We further perform an in-depth privacy evaluation using systematic
+membership-inference attacks, highlighting the robustness and effective
+privacy-utility balance of our approach.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2508.06301v1">FedMeNF: Privacy-Preserving Federated Meta-Learning for Neural Fields</a></h3>
@@ -2214,7 +2190,33 @@ analysis and experimental evaluations on real-world datasets.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.05250v1">Privacy Disclosure of Similarity in Speech and Language Processing</a></h3>
+  <h3><a href="http://arxiv.org/abs/2508.06577v1">Leveraging LLMs for Privacy-Aware Predictions in Participatory Budgeting</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-08-07T15:26:22Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Juan Zambrano, Clément Contet, Jairo Gudiño, Felipe Garrido-Lucero, Umberto Grandi, Cesar A Hidalgo</p>
+    <p><b>Summary:</b> Participatory Budgeting (PB) empowers citizens to propose and vote on public
+investment projects. Yet, despite its democratic potential, PB initiatives
+often suffer from low participation rates, limiting their visibility and
+perceived legitimacy. In this work, we aim to strengthen PB elections in two
+key ways: by supporting project proposers in crafting better proposals, and by
+helping PB organizers manage large volumes of submissions in a transparent
+manner. We propose a privacy-preserving approach to predict which PB proposals
+are likely to be funded, using only their textual descriptions and anonymous
+historical voting records -- without relying on voter demographics or
+personally identifiable information. We evaluate the performance of GPT 4 Turbo
+in forecasting proposal outcomes across varying contextual scenarios, observing
+that the LLM's prior knowledge needs to be complemented by past voting data to
+obtain predictions reflecting real-world PB voting behavior. Our findings
+highlight the potential of AI-driven tools to support PB processes by improving
+transparency, planning efficiency, and civic engagement.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.05250v2">Privacy Disclosure of Similarity Rank in Speech and Language Processing</a></h3>
   
   <p><b>Published on:</b> 2025-08-07T10:40:35Z</p>
   <details>
