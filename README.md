@@ -1602,113 +1602,132 @@ semantic-segmentation model with ViT called Segmentation Transformer.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.12652v1">Federated Learning in Open- and Closed-Loop EMG Decoding: A Privacy and
-  Performance Perspective</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2025-07-16T21:59:25Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Kai Malcolm, César Uribe, Momona Yamagami</p>
-    <p><b>Summary:</b> Invasive and non-invasive neural interfaces hold promise as high-bandwidth
-input devices for next-generation technologies. However, neural signals
-inherently encode sensitive information about an individual's identity and
-health, making data sharing for decoder training a critical privacy challenge.
-Federated learning (FL), a distributed, privacy-preserving learning framework,
-presents a promising solution, but it remains unexplored in closed-loop
-adaptive neural interfaces. Here, we introduce FL-based neural decoding and
-systematically evaluate its performance and privacy using high-dimensional
-electromyography signals in both open- and closed-loop scenarios. In open-loop
-simulations, FL significantly outperformed local learning baselines,
-demonstrating its potential for high-performance, privacy-conscious neural
-decoding. In contrast, closed-loop user studies required adapting FL methods to
-accommodate single-user, real-time interactions, a scenario not supported by
-standard FL. This modification resulted in local learning decoders surpassing
-the adapted FL approach in closed-loop performance, yet local learning still
-carried higher privacy risks. Our findings highlight a critical
-performance-privacy tradeoff in real-time adaptive applications and indicate
-the need for FL methods specifically designed for co-adaptive, single-user
-applications.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.12098v1">A Privacy-Preserving Framework for Advertising Personalization
-  Incorporating Federated Learning and Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-07-16T10:07:19Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Xiang Li, Yifan Lin, Yuanzhe Zhang</p>
-    <p><b>Summary:</b> To mitigate privacy leakage and performance issues in personalized
-advertising, this paper proposes a framework that integrates federated learning
-and differential privacy. The system combines distributed feature extraction,
-dynamic privacy budget allocation, and robust model aggregation to balance
-model accuracy, communication overhead, and privacy protection. Multi-party
-secure computing and anomaly detection mechanisms further enhance system
-resilience against malicious attacks. Experimental results demonstrate that the
-framework achieves dual optimization of recommendation accuracy and system
-efficiency while ensuring privacy, providing both a practical solution and a
-theoretical foundation for applying privacy protection technologies in
-advertisement recommendation.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.11943v1">Effective Fine-Tuning of Vision Transformers with Low-Rank Adaptation
-  for Privacy-Preserving Image Classification</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2025-07-16T06:18:52Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Haiwei Lin, Shoko Imaizumi, Hitoshi Kiya</p>
-    <p><b>Summary:</b> We propose a low-rank adaptation method for training privacy-preserving
-vision transformer (ViT) models that efficiently freezes pre-trained ViT model
-weights. In the proposed method, trainable rank decomposition matrices are
-injected into each layer of the ViT architecture, and moreover, the patch
-embedding layer is not frozen, unlike in the case of the conventional low-rank
-adaptation methods. The proposed method allows us not only to reduce the number
-of trainable parameters but to also maintain almost the same accuracy as that
-of full-time tuning.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.11908v1">Unveiling Usability Challenges in Web Privacy Controls</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-07-16T04:47:35Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Rahat Masood, Sunday Oyinlola Ogundoyin, Muhammad Ikram, Alex Ye</p>
-    <p><b>Summary:</b> With the increasing concerns around privacy and the enforcement of data
-privacy laws, many websites now provide users with privacy controls. However,
-locating these controls can be challenging, as they are frequently hidden
-within multiple settings and layers. Moreover, the lack of standardization
-means these controls can vary widely across services. The technical or
-confusing terminology used to describe these controls further complicates
-users' ability to understand and use them effectively. This paper presents a
-large-scale empirical analysis investigating usability challenges of web
-privacy controls across 18,628 websites. While aiming for a multi-scenario
-view, our automated data collection faced significant hurdles, particularly in
-simulating sign-up and authenticated user visits, leading to more focused
-insights on guest visit scenarios and challenges in automated capture of
-dynamic user interactions. Our heuristic evaluation of three different user
-visit scenarios identifies significant website usability issues. Our results
-show that privacy policies are most common across all visit scenarios, with
-nudges and notices being prevalent in sign-up situations. We recommend
-designing privacy controls that: enhance awareness through pop-up nudges and
-notices; offer a table of contents as navigational aids and customized settings
-links in policies for more informed choice; and ensure accessibility via direct
-links to privacy settings from nudges.</p>
-  </details>
-</div>
-
-
 
 <h2>2025-08</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.09036v1">Can We Trust AI to Govern AI? Benchmarking LLM Performance on Privacy
+  and AI Governance Exams</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-08-12T15:57:22Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zane Witherspoon, Thet Mon Aye, YingYing Hao</p>
+    <p><b>Summary:</b> The rapid emergence of large language models (LLMs) has raised urgent
+questions across the modern workforce about this new technology's strengths,
+weaknesses, and capabilities. For privacy professionals, the question is
+whether these AI systems can provide reliable support on regulatory compliance,
+privacy program management, and AI governance. In this study, we evaluate ten
+leading open and closed LLMs, including models from OpenAI, Anthropic, Google
+DeepMind, Meta, and DeepSeek, by benchmarking their performance on
+industry-standard certification exams: CIPP/US, CIPM, CIPT, and AIGP from the
+International Association of Privacy Professionals (IAPP). Each model was
+tested using official sample exams in a closed-book setting and compared to
+IAPP's passing thresholds. Our findings show that several frontier models such
+as Gemini 2.5 Pro and OpenAI's GPT-5 consistently achieve scores exceeding the
+standards for professional human certification - demonstrating substantial
+expertise in privacy law, technical controls, and AI governance. The results
+highlight both the strengths and domain-specific gaps of current LLMs and offer
+practical insights for privacy officers, compliance leads, and technologists
+assessing the readiness of AI tools for high-stakes data governance roles. This
+paper provides an overview for professionals navigating the intersection of AI
+advancement and regulatory risk and establishes a machine benchmark based on
+human-centric evaluations.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.08785v1">Privacy-protected Retrieval-Augmented Generation for Knowledge Graph
+  Question Answering</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2025-08-12T09:38:21Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yunfeng Ning, Mayi Xu, Jintao Wen, Qiankun Pi, Yuanyuan Zhu, Ming Zhong, Jiawei Jiang, Tieyun Qian</p>
+    <p><b>Summary:</b> LLMs often suffer from hallucinations and outdated or incomplete knowledge.
+RAG is proposed to address these issues by integrating external knowledge like
+that in KGs into LLMs. However, leveraging private KGs in RAG systems poses
+significant privacy risks due to the black-box nature of LLMs and potential
+insecure data transmission, especially when using third-party LLM APIs lacking
+transparency and control. In this paper, we investigate the privacy-protected
+RAG scenario for the first time, where entities in KGs are anonymous for LLMs,
+thus preventing them from accessing entity semantics. Due to the loss of
+semantics of entities, previous RAG systems cannot retrieve question-relevant
+knowledge from KGs by matching questions with the meaningless identifiers of
+anonymous entities. To realize an effective RAG system in this scenario, two
+key challenges must be addressed: (1) How can anonymous entities be converted
+into retrievable information. (2) How to retrieve question-relevant anonymous
+entities. Hence, we propose a novel ARoG framework including relation-centric
+abstraction and structure-oriented abstraction strategies. For challenge (1),
+the first strategy abstracts entities into high-level concepts by dynamically
+capturing the semantics of their adjacent relations. It supplements meaningful
+semantics which can further support the retrieval process. For challenge (2),
+the second strategy transforms unstructured natural language questions into
+structured abstract concept paths. These paths can be more effectively aligned
+with the abstracted concepts in KGs, thereby improving retrieval performance.
+To guide LLMs to effectively retrieve knowledge from KGs, the two strategies
+strictly protect privacy from being exposed to LLMs. Experiments on three
+datasets demonstrate that ARoG achieves strong performance and
+privacy-robustness.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.08749v1">Approximate DBSCAN under Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
+  <p><b>Published on:</b> 2025-08-12T08:55:41Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yuan Qiu, Ke Yi</p>
+    <p><b>Summary:</b> This paper revisits the DBSCAN problem under differential privacy (DP).
+Existing DP-DBSCAN algorithms aim at publishing the cluster labels of the input
+points. However, we show that both empirically and theoretically, this approach
+cannot offer any utility in the published results. We therefore propose an
+alternative definition of DP-DBSCAN based on the notion of spans. We argue that
+publishing the spans actually better serves the purposes of visualization and
+classification of DBSCAN. Then we present a linear-time DP-DBSCAN algorithm
+achieving the sandwich quality guarantee in any constant dimensions, as well as
+matching lower bounds on the approximation ratio. A key building block in our
+algorithm is a linear-time algorithm for constructing a histogram under
+pure-DP, which is of independent interest. Finally, we conducted experiments on
+both synthetic and real-world datasets to verify the practical performance of
+our DP-DBSCAN algorithm.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.08502v1">AirSignatureDB: Exploring In-Air Signature Biometrics in the Wild and
+  its Privacy Concerns</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2025-08-11T22:24:03Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Marta Robledo-Moreno, Ruben Vera-Rodriguez, Ruben Tolosana, Javier Ortega-Garcia, Andres Huergo, Julian Fierrez</p>
+    <p><b>Summary:</b> Behavioral biometrics based on smartphone motion sensors are growing in
+popularity for authentication purposes. In this study, AirSignatureDB is
+presented: a new publicly accessible dataset of in-air signatures collected
+from 108 participants under real-world conditions, using 83 different
+smartphone models across four sessions. This dataset includes genuine samples
+and skilled forgeries, enabling a comprehensive evaluation of system robustness
+against realistic attack scenarios. Traditional and deep learning-based methods
+for in-air signature verification are benchmarked, while analyzing the
+influence of sensor modality and enrollment strategies. Beyond verification, a
+first approach to reconstructing the three-dimensional trajectory of in-air
+signatures from inertial sensor data alone is introduced. Using on-line
+handwritten signatures as a reference, we demonstrate that the recovery of
+accurate trajectories is feasible, challenging the long-held assumption that
+in-air gestures are inherently traceless. Although this approach enables
+forensic traceability, it also raises critical questions about the privacy
+boundaries of behavioral biometrics. Our findings underscore the need for a
+reevaluation of the privacy assumptions surrounding inertial sensor data, as
+they can reveal user-specific information that had not previously been
+considered in the design of in-air signature systems.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2508.08190v1">Differential Privacy for Regulatory Compliance in Cyberattack Detection
