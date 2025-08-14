@@ -1437,173 +1437,120 @@ available at https://github.com/PKU-SEC-Lab/Awesome-PPML-Papers.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.13981v1">Evaluation of Human Visual Privacy Protection: A Three-Dimensional
-  Framework and Benchmark Dataset</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2025-07-18T14:43:24Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Sara Abdulaziz, Giacomo D'Amicantonio, Egor Bondarev</p>
-    <p><b>Summary:</b> Recent advances in AI-powered surveillance have intensified concerns over the
-collection and processing of sensitive personal data. In response, research has
-increasingly focused on privacy-by-design solutions, raising the need for
-objective techniques to evaluate privacy protection. This paper presents a
-comprehensive framework for evaluating visual privacy-protection methods across
-three dimensions: privacy, utility, and practicality. In addition, it
-introduces HR-VISPR, a publicly available human-centric dataset with biometric,
-soft-biometric, and non-biometric labels to train an interpretable privacy
-metric. We evaluate 11 privacy protection methods, ranging from conventional
-techniques to advanced deep-learning methods, through the proposed framework.
-The framework differentiates privacy levels in alignment with human visual
-perception, while highlighting trade-offs between privacy, utility, and
-practicality. This study, along with the HR-VISPR dataset, serves as an
-insightful tool and offers a structured evaluation framework applicable across
-diverse contexts.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.13926v1">Developers Insight On Manifest v3 Privacy and Security Webextensions</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2025-07-18T14:00:16Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Libor Polčák, Giorgio Maone, Michael McMahon, Martin Bednář</p>
-    <p><b>Summary:</b> Webextensions can improve web browser privacy, security, and user experience.
-The APIs offered by the browser to webextensions affect possible functionality.
-Currently, Chrome transitions to a modified set of APIs called Manifest v3.
-This paper studies the challenges and opportunities of Manifest v3 with an
-in-depth structured qualitative research. Even though some projects observed
-positive effects, a majority expresses concerns over limited benefits to users,
-removal of crucial APIs, or the need to find workarounds. Our findings indicate
-that the transition affects different types of webextensions differently; some
-can migrate without losing functionality, while other projects remove
-functionality or decline to update. The respondents identified several critical
-missing APIs, including reliable APIs to inject content scripts, APIs for
-storing confidential content, and others.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.13639v1">Differential Privacy in Kernelized Contextual Bandits via Random
-  Projections</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-07-18T03:54:49Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Nikola Pavlovic, Sudeep Salgia, Qing Zhao</p>
-    <p><b>Summary:</b> We consider the problem of contextual kernel bandits with stochastic
-contexts, where the underlying reward function belongs to a known Reproducing
-Kernel Hilbert Space. We study this problem under an additional constraint of
-Differential Privacy, where the agent needs to ensure that the sequence of
-query points is differentially private with respect to both the sequence of
-contexts and rewards. We propose a novel algorithm that achieves the
-state-of-the-art cumulative regret of
-$\widetilde{\mathcal{O}}(\sqrt{\gamma_TT}+\frac{\gamma_T}{\varepsilon_{\mathrm{DP}}})$
-and
-$\widetilde{\mathcal{O}}(\sqrt{\gamma_TT}+\frac{\gamma_T\sqrt{T}}{\varepsilon_{\mathrm{DP}}})$
-over a time horizon of $T$ in the joint and local models of differential
-privacy, respectively, where $\gamma_T$ is the effective dimension of the
-kernel and $\varepsilon_{\mathrm{DP}} > 0$ is the privacy parameter. The key
-ingredient of the proposed algorithm is a novel private kernel-ridge regression
-estimator which is based on a combination of private covariance estimation and
-private random projections. It offers a significantly reduced sensitivity
-compared to its classical counterpart while maintaining a high prediction
-accuracy, allowing our algorithm to achieve the state-of-the-art performance
-guarantees.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.13286v2">Privacy-Preserving Fusion for Multi-Sensor Systems Under Multiple Packet
-  Dropouts</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
-  <p><b>Published on:</b> 2025-07-17T16:50:15Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jie Huang, Jason J. R. Liu, Xiao He</p>
-    <p><b>Summary:</b> Wireless sensor networks (WSNs) are critical components in modern
-cyber-physical systems, enabling efficient data collection and fusion through
-spatially distributed sensors. However, the inherent risks of eavesdropping and
-packet dropouts in such networks pose significant challenges to secure state
-estimation. In this paper, we address the privacy-preserving fusion estimation
-(PPFE) problem for multi-sensor systems under multiple packet dropouts and
-eavesdropping attacks. To mitigate these issues, we propose a distributed
-encoding-based privacy-preserving mechanism (PPM) within a control-theoretic
-framework, ensuring data privacy during transmission while maintaining the
-performance of legitimate state estimation. A centralized fusion filter is
-developed, accounting for the coupling effects of packet dropouts and the
-encoding-based PPM. Boundedness conditions for the legitimate user's estimation
-error covariance are derived via a modified algebraic Riccati equation.
-Additionally, by demonstrating the divergence of the eavesdropper's mean
-estimation error, the proposed PPFE algorithm's data confidentiality is
-rigorously analyzed. Simulation results for an Internet-based three-tank system
-validate the effectiveness of the proposed approach, highlighting its potential
-to enhance privacy without compromising estimation accuracy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.12932v1">Enkidu: Universal Frequential Perturbation for Real-Time Audio Privacy
-  Protection against Voice Deepfakes</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Sound-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Multimedia-5BC0EB">
-  <p><b>Published on:</b> 2025-07-17T09:12:36Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zhou Feng, Jiahao Chen, Chunyi Zhou, Yuwen Pu, Qingming Li, Tianyu Du, Shouling Ji</p>
-    <p><b>Summary:</b> The rapid advancement of voice deepfake technologies has raised serious
-concerns about user audio privacy, as attackers increasingly exploit publicly
-available voice data to generate convincing fake audio for malicious purposes
-such as identity theft, financial fraud, and misinformation campaigns. While
-existing defense methods offer partial protection, they face critical
-limitations, including weak adaptability to unseen user data, poor scalability
-to long audio, rigid reliance on white-box knowledge, and high computational
-and temporal costs during the encryption process. To address these challenges
-and defend against personalized voice deepfake threats, we propose Enkidu, a
-novel user-oriented privacy-preserving framework that leverages universal
-frequential perturbations generated through black-box knowledge and few-shot
-training on a small amount of user data. These highly malleable
-frequency-domain noise patches enable real-time, lightweight protection with
-strong generalization across variable-length audio and robust resistance to
-voice deepfake attacks, all while preserving perceptual quality and speech
-intelligibility. Notably, Enkidu achieves over 50 to 200 times processing
-memory efficiency (as low as 0.004 gigabytes) and 3 to 7000 times runtime
-efficiency (real-time coefficient as low as 0.004) compared to six
-state-of-the-art countermeasures. Extensive experiments across six mainstream
-text-to-speech models and five cutting-edge automated speaker verification
-models demonstrate the effectiveness, transferability, and practicality of
-Enkidu in defending against both vanilla and adaptive voice deepfake attacks.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.12730v1">A Privacy-Preserving Semantic-Segmentation Method Using
-  Domain-Adaptation Technique</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-07-17T02:14:50Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Homare Sueyoshi, Kiyoshi Nishikawa, Hitoshi Kiya</p>
-    <p><b>Summary:</b> We propose a privacy-preserving semantic-segmentation method for applying
-perceptual encryption to images used for model training in addition to test
-images. This method also provides almost the same accuracy as models without
-any encryption. The above performance is achieved using a domain-adaptation
-technique on the embedding structure of the Vision Transformer (ViT). The
-effectiveness of the proposed method was experimentally confirmed in terms of
-the accuracy of semantic segmentation when using a powerful
-semantic-segmentation model with ViT called Segmentation Transformer.</p>
-  </details>
-</div>
-
-
 
 <h2>2025-08</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.09882v1">Location Privacy-Enabled Beamforming in ISAC Scenarios</a></h3>
+  
+  <p><b>Published on:</b> 2025-08-13T15:32:10Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Umair Ali Khan, Lester Ho, Holger Claussen, Chinmoy Kundu</p>
+    <p><b>Summary:</b> Integrated sensing and communication (ISAC) technology enables simultaneous
+environmental perception and data transmission in wireless networks; however,
+it also exposes user location to receivers. In this paper, we introduce a novel
+beamforming framework guided by the proposed privacy metric direction of
+arrival obfuscation ratio (DAOR) to protect transmitter location privacy in
+ISAC scenarios. Unlike previous approaches, we do not suppress the
+line-of-sight (LOS) component while reshaping the angular power distribution so
+that a false direction appears dominant at the receiver. We derive closed-form
+bounds on the feasible DAOR via generalized eigenvalue analysis and formulate
+an achievable rate-maximization problem under the DAOR constraint. The
+resulting problem is non-convex, which is efficiently solved using semidefinite
+relaxation, eigenmode selection, and optimal power allocation. A suboptimal
+design strategy is also proposed with reduced complexity. Numerical results
+demonstrate that the proposed DAOR-based beamformer achieves a trade-off
+between location privacy and communication rate without nullifying the LOS
+path. Results also show that a suboptimal design achieves a near-optimal
+communication rate with nearly an 85% reduction in computation time at a
+signal-to-noise ratio (SNR) of 10 dB.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.09442v1">Shadow in the Cache: Unveiling and Mitigating Privacy Risks of KV-cache
+  in LLM Inference</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2025-08-13T02:48:25Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zhifan Luo, Shuo Shao, Su Zhang, Lijing Zhou, Yuke Hu, Chenxu Zhao, Zhihao Liu, Zhan Qin</p>
+    <p><b>Summary:</b> The Key-Value (KV) cache, which stores intermediate attention computations
+(Key and Value pairs) to avoid redundant calculations, is a fundamental
+mechanism for accelerating Large Language Model (LLM) inference. However, this
+efficiency optimization introduces significant yet underexplored privacy risks.
+This paper provides the first comprehensive analysis of these vulnerabilities,
+demonstrating that an attacker can reconstruct sensitive user inputs directly
+from the KV-cache. We design and implement three distinct attack vectors: a
+direct Inversion Attack, a more broadly applicable and potent Collision Attack,
+and a semantic-based Injection Attack. These methods demonstrate the
+practicality and severity of KV-cache privacy leakage issues. To mitigate this,
+we propose KV-Cloak, a novel, lightweight, and efficient defense mechanism.
+KV-Cloak uses a reversible matrix-based obfuscation scheme, combined with
+operator fusion, to secure the KV-cache. Our extensive experiments show that
+KV-Cloak effectively thwarts all proposed attacks, reducing reconstruction
+quality to random noise. Crucially, it achieves this robust security with
+virtually no degradation in model accuracy and minimal performance overhead,
+offering a practical solution for trustworthy LLM deployment.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.09426v1">Security Analysis of ChatGPT: Threats and Privacy Risks</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-08-13T02:03:18Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yushan Xiang, Zhongwen Li, Xiaoqi Li</p>
+    <p><b>Summary:</b> As artificial intelligence technology continues to advance, chatbots are
+becoming increasingly powerful. Among them, ChatGPT, launched by OpenAI, has
+garnered widespread attention globally due to its powerful natural language
+processing capabilities based on the GPT model, which enables it to engage in
+natural conversations with users, understand various forms of linguistic
+expressions, and generate useful information and suggestions. However, as its
+application scope expands, user demand grows, and malicious attacks related to
+it become increasingly frequent, the security threats and privacy risks faced
+by ChatGPT are gradually coming to the forefront. In this paper, the security
+of ChatGPT is mainly studied from two aspects, security threats and privacy
+risks. The article systematically analyzes various types of vulnerabilities
+involved in the above two types of problems and their causes. Briefly, we
+discuss the controversies that ChatGPT may cause at the ethical and moral
+levels. In addition, this paper reproduces several network attack and defense
+test scenarios by simulating the attacker's perspective and methodology.
+Simultaneously, it explores the feasibility of using ChatGPT for security
+vulnerability detection and security tool generation from the defender's
+perspective.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.09245v1">Beyond Blanket Masking: Examining Granularity for Privacy Protection in
+  Images Captured by Blind and Low Vision Users</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2025-08-12T17:56:36Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jeffri Murrugarra-LLerena, Haoran Niu, K. Suzanne Barber, Hal Daumé III, Yang Trista Cao, Paola Cascante-Bonilla</p>
+    <p><b>Summary:</b> As visual assistant systems powered by visual language models (VLMs) become
+more prevalent, concerns over user privacy have grown, particularly for blind
+and low vision users who may unknowingly capture personal private information
+in their images. Existing privacy protection methods rely on coarse-grained
+segmentation, which uniformly masks entire private objects, often at the cost
+of usability. In this work, we propose FiGPriv, a fine-grained privacy
+protection framework that selectively masks only high-risk private information
+while preserving low-risk information. Our approach integrates fine-grained
+segmentation with a data-driven risk scoring mechanism. We evaluate our
+framework using the BIV-Priv-Seg dataset and show that FiG-Priv preserves +26%
+of image content, enhancing the ability of VLMs to provide useful responses by
+11% and identify the image content by 45%, while ensuring privacy protection.
+Project Page: https://artcs1.github.io/VLMPrivacy/</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2508.09036v1">Can We Trust AI to Govern AI? Benchmarking LLM Performance on Privacy
@@ -1675,7 +1622,7 @@ privacy-robustness.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.08749v1">Approximate DBSCAN under Differential Privacy</a></h3>
+  <h3><a href="http://arxiv.org/abs/2508.08749v2">Approximate DBSCAN under Differential Privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
   <p><b>Published on:</b> 2025-08-12T08:55:41Z</p>
   <details>
@@ -1694,6 +1641,34 @@ algorithm is a linear-time algorithm for constructing a histogram under
 pure-DP, which is of independent interest. Finally, we conducted experiments on
 both synthetic and real-world datasets to verify the practical performance of
 our DP-DBSCAN algorithm.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.09232v1">PETLP: A Privacy-by-Design Pipeline for Social Media Data in AI Research</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Multimedia-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
+  <p><b>Published on:</b> 2025-08-12T08:33:40Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Nick Oh, Giorgos D. Vrakas, Siân J. M. Brooke, Sasha Morinière, Toju Duke</p>
+    <p><b>Summary:</b> Social media data presents AI researchers with overlapping obligations under
+the GDPR, copyright law, and platform terms -- yet existing frameworks fail to
+integrate these regulatory domains, leaving researchers without unified
+guidance. We introduce PETLP (Privacy-by-design Extract, Transform, Load, and
+Present), a compliance framework that embeds legal safeguards directly into
+extended ETL pipelines. Central to PETLP is treating Data Protection Impact
+Assessments as living documents that evolve from pre-registration through
+dissemination. Through systematic Reddit analysis, we demonstrate how
+extraction rights fundamentally differ between qualifying research
+organisations (who can invoke DSM Article 3 to override platform restrictions)
+and commercial entities (bound by terms of service), whilst GDPR obligations
+apply universally. We reveal why true anonymisation remains unachievable for
+social media data and expose the legal gap between permitted dataset creation
+and uncertain model distribution. By structuring compliance decisions into
+practical workflows and simplifying institutional data management plans, PETLP
+enables researchers to navigate regulatory complexity with confidence, bridging
+the gap between legal requirements and research practice.</p>
   </details>
 </div>
 
@@ -2177,6 +2152,36 @@ beyond simple static attacks by developing a powerful adaptive attacker with
 Group Relative Policy Optimization. Experiments show that against this superior
 adversary, ABack improves the overall privacy utility score by up to 15\% over
 strong baselines, avoiding the performance trade-offs of prior methods.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.09186v1">RL-MoE: An Image-Based Privacy Preserving Approach In Intelligent
+  Transportation System</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-08-07T18:07:54Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Abdolazim Rezaei, Mehdi Sookhak, Mahboobeh Haghparast</p>
+    <p><b>Summary:</b> The proliferation of AI-powered cameras in Intelligent Transportation Systems
+(ITS) creates a severe conflict between the need for rich visual data and the
+fundamental right to privacy. Existing privacy-preserving mechanisms, such as
+blurring or encryption, are often insufficient, creating an undesirable
+trade-off where either privacy is compromised against advanced reconstruction
+attacks or data utility is critically degraded. To resolve this impasse, we
+propose RL-MoE, a novel framework that transforms sensitive visual data into
+privacy-preserving textual descriptions, eliminating the need for direct image
+transmission. RL-MoE uniquely combines a Mixture-of-Experts (MoE) architecture
+for nuanced, multi-aspect scene decomposition with a Reinforcement Learning
+(RL) agent that optimizes the generated text for a dual objective of semantic
+accuracy and privacy preservation. Extensive experiments demonstrate that
+RL-MoE provides superior privacy protection, reducing the success rate of
+replay attacks to just 9.4\% on the CFP-FP dataset, while simultaneously
+generating richer textual content than baseline methods. Our work provides a
+practical and scalable solution for building trustworthy AI systems in
+privacy-sensitive domains, paving the way for more secure smart city and
+autonomous vehicle networks.</p>
   </details>
 </div>
 
