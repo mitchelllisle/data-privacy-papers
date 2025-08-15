@@ -1262,183 +1262,199 @@ broader applicability.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.14985v1">Metaverse Security and Privacy Research: A Systematic Review</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
-  <p><b>Published on:</b> 2025-07-20T14:42:17Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Argianto Rahartomo, Leonel Merino, Mohammad Ghafari</p>
-    <p><b>Summary:</b> The rapid growth of metaverse technologies, including virtual worlds,
-augmented reality, and lifelogging, has accelerated their adoption across
-diverse domains. This rise exposes users to significant new security and
-privacy challenges due to sociotechnical complexity, pervasive connectivity,
-and extensive user data collection in immersive environments. We present a
-systematic review of the literature published between 2013 and 2024, offering a
-comprehensive analysis of how the research community has addressed
-metaverse-related security and privacy issues over the past decade. We organize
-the studies by method, examined the security and privacy properties, immersive
-components, and evaluation strategies. Our investigation reveals a sharp
-increase in research activity in the last five years, a strong focus on
-practical and user-centered approaches, and a predominant use of benchmarking,
-human experimentation, and qualitative methods. Authentication and
-unobservability are the most frequently studied properties. However, critical
-gaps remain in areas such as policy compliance, accessibility,
-interoperability, and back-end infrastructure security. We emphasize the
-intertwined technical complexity and human factors of the metaverse and call
-for integrated, interdisciplinary approaches to securing inclusive and
-trustworthy immersive environments.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.14853v2">A Privacy-Centric Approach: Scalable and Secure Federated Learning
-  Enabled by Hybrid Homomorphic Encryption</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-07-20T07:46:53Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Khoa Nguyen, Tanveer Khan, Hossein Abdinasibfar, Antonis Michalas</p>
-    <p><b>Summary:</b> Federated Learning (FL) enables collaborative model training without sharing
-raw data, making it a promising approach for privacy-sensitive domains. Despite
-its potential, FL faces significant challenges, particularly in terms of
-communication overhead and data privacy. Privacy-preserving Techniques (PPTs)
-such as Homomorphic Encryption (HE) have been used to mitigate these concerns.
-However, these techniques introduce substantial computational and communication
-costs, limiting their practical deployment. In this work, we explore how Hybrid
-Homomorphic Encryption (HHE), a cryptographic protocol that combines symmetric
-encryption with HE, can be effectively integrated with FL to address both
-communication and privacy challenges, paving the way for scalable and secure
-decentralized learning system.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.03703v1">Privacy Risks of LLM-Empowered Recommender Systems: An Inversion Attack
-  Perspective</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-07-20T05:03:02Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yubo Wang, Min Tang, Nuo Shen, Shujie Cui, Weiqing Wang</p>
-    <p><b>Summary:</b> The large language model (LLM) powered recommendation paradigm has been
-proposed to address the limitations of traditional recommender systems, which
-often struggle to handle cold start users or items with new IDs. Despite its
-effectiveness, this study uncovers that LLM empowered recommender systems are
-vulnerable to reconstruction attacks that can expose both system and user
-privacy. To examine this threat, we present the first systematic study on
-inversion attacks targeting LLM empowered recommender systems, where
-adversaries attempt to reconstruct original prompts that contain personal
-preferences, interaction histories, and demographic attributes by exploiting
-the output logits of recommendation models. We reproduce the vec2text framework
-and optimize it using our proposed method called Similarity Guided Refinement,
-enabling more accurate reconstruction of textual prompts from model generated
-logits. Extensive experiments across two domains (movies and books) and two
-representative LLM based recommendation models demonstrate that our method
-achieves high fidelity reconstructions. Specifically, we can recover nearly 65
-percent of the user interacted items and correctly infer age and gender in 87
-percent of the cases. The experiments also reveal that privacy leakage is
-largely insensitive to the victim model's performance but highly dependent on
-domain consistency and prompt complexity. These findings expose critical
-privacy vulnerabilities in LLM empowered recommender systems.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.14713v1">Privacy-Preserving Drone Navigation Through Homomorphic Encryption for
-  Collision Avoidance</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E">
-  <p><b>Published on:</b> 2025-07-19T18:16:02Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Allan Luedeman, Nicholas Baum, Andrew Quijano, Kemal Akkaya</p>
-    <p><b>Summary:</b> As drones increasingly deliver packages in neighborhoods, concerns about
-collisions arise. One solution is to share flight paths within a specific zip
-code, but this compromises business privacy by revealing delivery routes. For
-example, it could disclose which stores send packages to certain addresses. To
-avoid exposing path information, we propose using homomorphic encryption-based
-comparison to compute path intersections. This allows drones to identify
-potential collisions without revealing path and destination details, allowing
-them to adjust altitude to avoid crashes. We implemented and tested our
-approach on resource-limited virtual machines to mimic the computational power
-of drones. Our results demonstrate that our method is significantly faster and
-requires less network communication compared to a garbled circuit-based
-approach. We also provide a security analysis of the approach against potential
-attacks.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.14629v1">VMask: Tunable Label Privacy Protection for Vertical Federated Learning
-  via Layer Masking</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-07-19T13:51:09Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Juntao Tan, Lan Zhang, Zhonghao Hu, Kai Yang, Peng Ran, Bo Li</p>
-    <p><b>Summary:</b> Though vertical federated learning (VFL) is generally considered to be
-privacy-preserving, recent studies have shown that VFL system is vulnerable to
-label inference attacks originating from various attack surfaces. Among these
-attacks, the model completion (MC) attack is currently the most powerful one.
-Existing defense methods against it either sacrifice model accuracy or incur
-impractical computational overhead. In this paper, we propose VMask, a novel
-label privacy protection framework designed to defend against MC attack from
-the perspective of layer masking. Our key insight is to disrupt the strong
-correlation between input data and intermediate outputs by applying the secret
-sharing (SS) technique to mask layer parameters in the attacker's model. We
-devise a strategy for selecting critical layers to mask, reducing the overhead
-that would arise from naively applying SS to the entire model. Moreover, VMask
-is the first framework to offer a tunable privacy budget to defenders, allowing
-for flexible control over the levels of label privacy according to actual
-requirements. We built a VFL system, implemented VMask on it, and extensively
-evaluated it using five model architectures and 13 datasets with different
-modalities, comparing it to 12 other defense methods. The results demonstrate
-that VMask achieves the best privacy-utility trade-off, successfully thwarting
-the MC attack (reducing the label inference accuracy to a random guessing
-level) while preserving model performance (e.g., in Transformer-based model,
-the averaged drop of VFL model accuracy is only 0.09%). VMask's runtime is up
-to 60,846 times faster than cryptography-based methods, and it only marginally
-exceeds that of standard VFL by 1.8 times in a large Transformer-based model,
-which is generally acceptable.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.14519v1">Towards Efficient Privacy-Preserving Machine Learning: A Systematic
-  Review from Protocol, Model, and System Perspectives</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-07-19T07:45:39Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Wenxuan Zeng, Tianshi Xu, Yi Chen, Yifan Zhou, Mingzhe Zhang, Jin Tan, Cheng Hong, Meng Li</p>
-    <p><b>Summary:</b> Privacy-preserving machine learning (PPML) based on cryptographic protocols
-has emerged as a promising paradigm to protect user data privacy in cloud-based
-machine learning services. While it achieves formal privacy protection, PPML
-often incurs significant efficiency and scalability costs due to orders of
-magnitude overhead compared to the plaintext counterpart. Therefore, there has
-been a considerable focus on mitigating the efficiency gap for PPML. In this
-survey, we provide a comprehensive and systematic review of recent PPML studies
-with a focus on cross-level optimizations. Specifically, we categorize existing
-papers into protocol level, model level, and system level, and review progress
-at each level. We also provide qualitative and quantitative comparisons of
-existing works with technical insights, based on which we discuss future
-research directions and highlight the necessity of integrating optimizations
-across protocol, model, and system levels. We hope this survey can provide an
-overarching understanding of existing approaches and potentially inspire future
-breakthroughs in the PPML field. As the field is evolving fast, we also provide
-a public GitHub repository to continuously track the developments, which is
-available at https://github.com/PKU-SEC-Lab/Awesome-PPML-Papers.</p>
-  </details>
-</div>
-
-
 
 <h2>2025-08</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.10880v1">Searching for Privacy Risks in LLM Agents via Simulation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2025-08-14T17:49:09Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yanzhe Zhang, Diyi Yang</p>
+    <p><b>Summary:</b> The widespread deployment of LLM-based agents is likely to introduce a
+critical privacy threat: malicious agents that proactively engage others in
+multi-turn interactions to extract sensitive information. These dynamic
+dialogues enable adaptive attack strategies that can cause severe privacy
+violations, yet their evolving nature makes it difficult to anticipate and
+discover sophisticated vulnerabilities manually. To tackle this problem, we
+present a search-based framework that alternates between improving attacker and
+defender instructions by simulating privacy-critical agent interactions. Each
+simulation involves three roles: data subject, data sender, and data recipient.
+While the data subject's behavior is fixed, the attacker (data recipient)
+attempts to extract sensitive information from the defender (data sender)
+through persistent and interactive exchanges. To explore this interaction space
+efficiently, our search algorithm employs LLMs as optimizers, using parallel
+search with multiple threads and cross-thread propagation to analyze simulation
+trajectories and iteratively propose new instructions. Through this process, we
+find that attack strategies escalate from simple direct requests to
+sophisticated multi-turn tactics such as impersonation and consent forgery,
+while defenses advance from rule-based constraints to identity-verification
+state machines. The discovered attacks and defenses transfer across diverse
+scenarios and backbone models, demonstrating strong practical utility for
+building privacy-aware agents.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.10737v1">Privacy-enhancing Sclera Segmentation Benchmarking Competition: SSBC
+  2025</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2025-08-14T15:16:58Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Matej Vitek, Darian Tomašević, Abhijit Das, Sabari Nathan, Gökhan Özbulak, Gözde Ayşe Tataroğlu Özbulak, Jean-Paul Calbimonte, André Anjos, Hariohm Hemant Bhatt, Dhruv Dhirendra Premani, Jay Chaudhari, Caiyong Wang, Jian Jiang, Chi Zhang, Qi Zhang, Iyyakutti Iyappan Ganapathi, Syed Sadaf Ali, Divya Velayudan, Maregu Assefa, Naoufel Werghi, Zachary A. Daniels, Leeon John, Ritesh Vyas, Jalil Nourmohammadi Khiarak, Taher Akbari Saeed, Mahsa Nasehi, Ali Kianfar, Mobina Pashazadeh Panahi, Geetanjali Sharma, Pushp Raj Panth, Raghavendra Ramachandra, Aditya Nigam, Umapada Pal, Peter Peer, Vitomir Štruc</p>
+    <p><b>Summary:</b> This paper presents a summary of the 2025 Sclera Segmentation Benchmarking
+Competition (SSBC), which focused on the development of privacy-preserving
+sclera-segmentation models trained using synthetically generated ocular images.
+The goal of the competition was to evaluate how well models trained on
+synthetic data perform in comparison to those trained on real-world datasets.
+The competition featured two tracks: $(i)$ one relying solely on synthetic data
+for model development, and $(ii)$ one combining/mixing synthetic with (a
+limited amount of) real-world data. A total of nine research groups submitted
+diverse segmentation models, employing a variety of architectural designs,
+including transformer-based solutions, lightweight models, and segmentation
+networks guided by generative frameworks. Experiments were conducted across
+three evaluation datasets containing both synthetic and real-world images,
+collected under diverse conditions. Results show that models trained entirely
+on synthetic data can achieve competitive performance, particularly when
+dedicated training strategies are employed, as evidenced by the top performing
+models that achieved $F_1$ scores of over $0.8$ in the synthetic data track.
+Moreover, performance gains in the mixed track were often driven more by
+methodological choices rather than by the inclusion of real data, highlighting
+the promise of synthetic data for privacy-aware biometric development. The code
+and data for the competition is available at:
+https://github.com/dariant/SSBC_2025.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.10672v1">Hybrid Generative Fusion for Efficient and Privacy-Preserving Face
+  Recognition Dataset Generation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-08-14T14:14:18Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Feiran Li, Qianqian Xu, Shilong Bao, Boyu Han, Zhiyong Yang, Qingming Huang</p>
+    <p><b>Summary:</b> In this paper, we present our approach to the DataCV ICCV Challenge, which
+centers on building a high-quality face dataset to train a face recognition
+model. The constructed dataset must not contain identities overlapping with any
+existing public face datasets. To handle this challenge, we begin with a
+thorough cleaning of the baseline HSFace dataset, identifying and removing
+mislabeled or inconsistent identities through a Mixture-of-Experts (MoE)
+strategy combining face embedding clustering and GPT-4o-assisted verification.
+We retain the largest consistent identity cluster and apply data augmentation
+up to a fixed number of images per identity. To further diversify the dataset,
+we generate synthetic identities using Stable Diffusion with prompt
+engineering. As diffusion models are computationally intensive, we generate
+only one reference image per identity and efficiently expand it using Vec2Face,
+which rapidly produces 49 identity-consistent variants. This hybrid approach
+fuses GAN-based and diffusion-based samples, enabling efficient construction of
+a diverse and high-quality dataset. To address the high visual similarity among
+synthetic identities, we adopt a curriculum learning strategy by placing them
+early in the training schedule, allowing the model to progress from easier to
+harder samples. Our final dataset contains 50 images per identity, and all
+newly generated identities are checked with mainstream face datasets to ensure
+no identity leakage. Our method achieves \textbf{1st place} in the competition,
+and experimental results show that our dataset improves model performance
+across 10K, 20K, and 100K identity scales. Code is available at
+https://github.com/Ferry-Li/datacv_fr.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.10482v1">When Explainability Meets Privacy: An Investigation at the Intersection
+  of Post-hoc Explainability and Differential Privacy in the Context of Natural
+  Language Processing</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2025-08-14T09:34:29Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mahdi Dhaini, Stephen Meisenbacher, Ege Erdogan, Florian Matthes, Gjergji Kasneci</p>
+    <p><b>Summary:</b> In the study of trustworthy Natural Language Processing (NLP), a number of
+important research fields have emerged, including that of
+\textit{explainability} and \textit{privacy}. While research interest in both
+explainable and privacy-preserving NLP has increased considerably in recent
+years, there remains a lack of investigation at the intersection of the two.
+This leaves a considerable gap in understanding of whether achieving
+\textit{both} explainability and privacy is possible, or whether the two are at
+odds with each other. In this work, we conduct an empirical investigation into
+the privacy-explainability trade-off in the context of NLP, guided by the
+popular overarching methods of \textit{Differential Privacy} (DP) and Post-hoc
+Explainability. Our findings include a view into the intricate relationship
+between privacy and explainability, which is formed by a number of factors,
+including the nature of the downstream task and choice of the text
+privatization and explainability method. In this, we highlight the potential
+for privacy and explainability to co-exist, and we summarize our findings in a
+collection of practical recommendations for future work at this important
+intersection.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.10469v1">Enhanced Sparse Point Cloud Data Processing for Privacy-aware Human
+  Action Recognition</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-08-14T09:09:49Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Maimunatu Tunau, Vincent Gbouna Zakka, Zhuangzhuang Dai</p>
+    <p><b>Summary:</b> Human Action Recognition (HAR) plays a crucial role in healthcare, fitness
+tracking, and ambient assisted living technologies. While traditional vision
+based HAR systems are effective, they pose privacy concerns. mmWave radar
+sensors offer a privacy preserving alternative but present challenges due to
+the sparse and noisy nature of their point cloud data. In the literature, three
+primary data processing methods: Density-Based Spatial Clustering of
+Applications with Noise (DBSCAN), the Hungarian Algorithm, and Kalman Filtering
+have been widely used to improve the quality and continuity of radar data.
+However, a comprehensive evaluation of these methods, both individually and in
+combination, remains lacking. This paper addresses that gap by conducting a
+detailed performance analysis of the three methods using the MiliPoint dataset.
+We evaluate each method individually, all possible pairwise combinations, and
+the combination of all three, assessing both recognition accuracy and
+computational cost. Furthermore, we propose targeted enhancements to the
+individual methods aimed at improving accuracy. Our results provide crucial
+insights into the strengths and trade-offs of each method and their
+integrations, guiding future work on mmWave based HAR systems</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.10373v1">Privacy-Preserving Approximate Nearest Neighbor Search on
+  High-Dimensional Data</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
+  <p><b>Published on:</b> 2025-08-14T06:09:38Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yingfan Liu, Yandi Zhang, Jiadong Xie, Hui Li, Jeffrey Xu Yu, Jiangtao Cui</p>
+    <p><b>Summary:</b> In the era of cloud computing and AI, data owners outsource ubiquitous
+vectors to the cloud, which furnish approximate $k$-nearest neighbors
+($k$-ANNS) services to users. To protect data privacy against the untrusted
+server, privacy-preserving $k$-ANNS (PP-ANNS) on vectors has been a fundamental
+and urgent problem. However, existing PP-ANNS solutions fall short of meeting
+the requirements of data privacy, efficiency, accuracy, and minimal user
+involvement concurrently. To tackle this challenge, we introduce a novel
+solution that primarily executes PP-ANNS on a single cloud server to avoid the
+heavy communication overhead between the cloud and the user. To ensure data
+privacy, we introduce a novel encryption method named distance comparison
+encryption, facilitating secure, efficient, and exact distance comparisons. To
+optimize the trade-off between data privacy and search performance, we design a
+privacy-preserving index that combines the state-of-the-art $k$-ANNS method
+with an approximate distance computation method. Then, we devise a search
+method using a filter-and-refine strategy based on the index. Moreover, we
+provide the security analysis of our solution and conduct extensive experiments
+to demonstrate its superiority over existing solutions. Based on our
+experimental results, our method accelerates PP-ANNS by up to 3 orders of
+magnitude compared to state-of-the-art methods, while not compromising the
+accuracy.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2508.09882v1">Location Privacy-Enabled Beamforming in ISAC Scenarios</a></h3>
