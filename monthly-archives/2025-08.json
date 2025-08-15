@@ -1504,5 +1504,252 @@
       "cs.CV",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.10880v1",
+    "title" : "Searching for Privacy Risks in LLM Agents via Simulation",
+    "summary" : "The widespread deployment of LLM-based agents is likely to introduce a\ncritical privacy threat: malicious agents that proactively engage others in\nmulti-turn interactions to extract sensitive information. These dynamic\ndialogues enable adaptive attack strategies that can cause severe privacy\nviolations, yet their evolving nature makes it difficult to anticipate and\ndiscover sophisticated vulnerabilities manually. To tackle this problem, we\npresent a search-based framework that alternates between improving attacker and\ndefender instructions by simulating privacy-critical agent interactions. Each\nsimulation involves three roles: data subject, data sender, and data recipient.\nWhile the data subject's behavior is fixed, the attacker (data recipient)\nattempts to extract sensitive information from the defender (data sender)\nthrough persistent and interactive exchanges. To explore this interaction space\nefficiently, our search algorithm employs LLMs as optimizers, using parallel\nsearch with multiple threads and cross-thread propagation to analyze simulation\ntrajectories and iteratively propose new instructions. Through this process, we\nfind that attack strategies escalate from simple direct requests to\nsophisticated multi-turn tactics such as impersonation and consent forgery,\nwhile defenses advance from rule-based constraints to identity-verification\nstate machines. The discovered attacks and defenses transfer across diverse\nscenarios and backbone models, demonstrating strong practical utility for\nbuilding privacy-aware agents.",
+    "updated" : "2025-08-14T17:49:09Z",
+    "published" : "2025-08-14T17:49:09Z",
+    "authors" : [
+      {
+        "name" : "Yanzhe Zhang"
+      },
+      {
+        "name" : "Diyi Yang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.10737v1",
+    "title" : "Privacy-enhancing Sclera Segmentation Benchmarking Competition: SSBC\n  2025",
+    "summary" : "This paper presents a summary of the 2025 Sclera Segmentation Benchmarking\nCompetition (SSBC), which focused on the development of privacy-preserving\nsclera-segmentation models trained using synthetically generated ocular images.\nThe goal of the competition was to evaluate how well models trained on\nsynthetic data perform in comparison to those trained on real-world datasets.\nThe competition featured two tracks: $(i)$ one relying solely on synthetic data\nfor model development, and $(ii)$ one combining/mixing synthetic with (a\nlimited amount of) real-world data. A total of nine research groups submitted\ndiverse segmentation models, employing a variety of architectural designs,\nincluding transformer-based solutions, lightweight models, and segmentation\nnetworks guided by generative frameworks. Experiments were conducted across\nthree evaluation datasets containing both synthetic and real-world images,\ncollected under diverse conditions. Results show that models trained entirely\non synthetic data can achieve competitive performance, particularly when\ndedicated training strategies are employed, as evidenced by the top performing\nmodels that achieved $F_1$ scores of over $0.8$ in the synthetic data track.\nMoreover, performance gains in the mixed track were often driven more by\nmethodological choices rather than by the inclusion of real data, highlighting\nthe promise of synthetic data for privacy-aware biometric development. The code\nand data for the competition is available at:\nhttps://github.com/dariant/SSBC_2025.",
+    "updated" : "2025-08-14T15:16:58Z",
+    "published" : "2025-08-14T15:16:58Z",
+    "authors" : [
+      {
+        "name" : "Matej Vitek"
+      },
+      {
+        "name" : "Darian Tomašević"
+      },
+      {
+        "name" : "Abhijit Das"
+      },
+      {
+        "name" : "Sabari Nathan"
+      },
+      {
+        "name" : "Gökhan Özbulak"
+      },
+      {
+        "name" : "Gözde Ayşe Tataroğlu Özbulak"
+      },
+      {
+        "name" : "Jean-Paul Calbimonte"
+      },
+      {
+        "name" : "André Anjos"
+      },
+      {
+        "name" : "Hariohm Hemant Bhatt"
+      },
+      {
+        "name" : "Dhruv Dhirendra Premani"
+      },
+      {
+        "name" : "Jay Chaudhari"
+      },
+      {
+        "name" : "Caiyong Wang"
+      },
+      {
+        "name" : "Jian Jiang"
+      },
+      {
+        "name" : "Chi Zhang"
+      },
+      {
+        "name" : "Qi Zhang"
+      },
+      {
+        "name" : "Iyyakutti Iyappan Ganapathi"
+      },
+      {
+        "name" : "Syed Sadaf Ali"
+      },
+      {
+        "name" : "Divya Velayudan"
+      },
+      {
+        "name" : "Maregu Assefa"
+      },
+      {
+        "name" : "Naoufel Werghi"
+      },
+      {
+        "name" : "Zachary A. Daniels"
+      },
+      {
+        "name" : "Leeon John"
+      },
+      {
+        "name" : "Ritesh Vyas"
+      },
+      {
+        "name" : "Jalil Nourmohammadi Khiarak"
+      },
+      {
+        "name" : "Taher Akbari Saeed"
+      },
+      {
+        "name" : "Mahsa Nasehi"
+      },
+      {
+        "name" : "Ali Kianfar"
+      },
+      {
+        "name" : "Mobina Pashazadeh Panahi"
+      },
+      {
+        "name" : "Geetanjali Sharma"
+      },
+      {
+        "name" : "Pushp Raj Panth"
+      },
+      {
+        "name" : "Raghavendra Ramachandra"
+      },
+      {
+        "name" : "Aditya Nigam"
+      },
+      {
+        "name" : "Umapada Pal"
+      },
+      {
+        "name" : "Peter Peer"
+      },
+      {
+        "name" : "Vitomir Štruc"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.10672v1",
+    "title" : "Hybrid Generative Fusion for Efficient and Privacy-Preserving Face\n  Recognition Dataset Generation",
+    "summary" : "In this paper, we present our approach to the DataCV ICCV Challenge, which\ncenters on building a high-quality face dataset to train a face recognition\nmodel. The constructed dataset must not contain identities overlapping with any\nexisting public face datasets. To handle this challenge, we begin with a\nthorough cleaning of the baseline HSFace dataset, identifying and removing\nmislabeled or inconsistent identities through a Mixture-of-Experts (MoE)\nstrategy combining face embedding clustering and GPT-4o-assisted verification.\nWe retain the largest consistent identity cluster and apply data augmentation\nup to a fixed number of images per identity. To further diversify the dataset,\nwe generate synthetic identities using Stable Diffusion with prompt\nengineering. As diffusion models are computationally intensive, we generate\nonly one reference image per identity and efficiently expand it using Vec2Face,\nwhich rapidly produces 49 identity-consistent variants. This hybrid approach\nfuses GAN-based and diffusion-based samples, enabling efficient construction of\na diverse and high-quality dataset. To address the high visual similarity among\nsynthetic identities, we adopt a curriculum learning strategy by placing them\nearly in the training schedule, allowing the model to progress from easier to\nharder samples. Our final dataset contains 50 images per identity, and all\nnewly generated identities are checked with mainstream face datasets to ensure\nno identity leakage. Our method achieves \\textbf{1st place} in the competition,\nand experimental results show that our dataset improves model performance\nacross 10K, 20K, and 100K identity scales. Code is available at\nhttps://github.com/Ferry-Li/datacv_fr.",
+    "updated" : "2025-08-14T14:14:18Z",
+    "published" : "2025-08-14T14:14:18Z",
+    "authors" : [
+      {
+        "name" : "Feiran Li"
+      },
+      {
+        "name" : "Qianqian Xu"
+      },
+      {
+        "name" : "Shilong Bao"
+      },
+      {
+        "name" : "Boyu Han"
+      },
+      {
+        "name" : "Zhiyong Yang"
+      },
+      {
+        "name" : "Qingming Huang"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.10482v1",
+    "title" : "When Explainability Meets Privacy: An Investigation at the Intersection\n  of Post-hoc Explainability and Differential Privacy in the Context of Natural\n  Language Processing",
+    "summary" : "In the study of trustworthy Natural Language Processing (NLP), a number of\nimportant research fields have emerged, including that of\n\\textit{explainability} and \\textit{privacy}. While research interest in both\nexplainable and privacy-preserving NLP has increased considerably in recent\nyears, there remains a lack of investigation at the intersection of the two.\nThis leaves a considerable gap in understanding of whether achieving\n\\textit{both} explainability and privacy is possible, or whether the two are at\nodds with each other. In this work, we conduct an empirical investigation into\nthe privacy-explainability trade-off in the context of NLP, guided by the\npopular overarching methods of \\textit{Differential Privacy} (DP) and Post-hoc\nExplainability. Our findings include a view into the intricate relationship\nbetween privacy and explainability, which is formed by a number of factors,\nincluding the nature of the downstream task and choice of the text\nprivatization and explainability method. In this, we highlight the potential\nfor privacy and explainability to co-exist, and we summarize our findings in a\ncollection of practical recommendations for future work at this important\nintersection.",
+    "updated" : "2025-08-14T09:34:29Z",
+    "published" : "2025-08-14T09:34:29Z",
+    "authors" : [
+      {
+        "name" : "Mahdi Dhaini"
+      },
+      {
+        "name" : "Stephen Meisenbacher"
+      },
+      {
+        "name" : "Ege Erdogan"
+      },
+      {
+        "name" : "Florian Matthes"
+      },
+      {
+        "name" : "Gjergji Kasneci"
+      }
+    ],
+    "categories" : [
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.10469v1",
+    "title" : "Enhanced Sparse Point Cloud Data Processing for Privacy-aware Human\n  Action Recognition",
+    "summary" : "Human Action Recognition (HAR) plays a crucial role in healthcare, fitness\ntracking, and ambient assisted living technologies. While traditional vision\nbased HAR systems are effective, they pose privacy concerns. mmWave radar\nsensors offer a privacy preserving alternative but present challenges due to\nthe sparse and noisy nature of their point cloud data. In the literature, three\nprimary data processing methods: Density-Based Spatial Clustering of\nApplications with Noise (DBSCAN), the Hungarian Algorithm, and Kalman Filtering\nhave been widely used to improve the quality and continuity of radar data.\nHowever, a comprehensive evaluation of these methods, both individually and in\ncombination, remains lacking. This paper addresses that gap by conducting a\ndetailed performance analysis of the three methods using the MiliPoint dataset.\nWe evaluate each method individually, all possible pairwise combinations, and\nthe combination of all three, assessing both recognition accuracy and\ncomputational cost. Furthermore, we propose targeted enhancements to the\nindividual methods aimed at improving accuracy. Our results provide crucial\ninsights into the strengths and trade-offs of each method and their\nintegrations, guiding future work on mmWave based HAR systems",
+    "updated" : "2025-08-14T09:09:49Z",
+    "published" : "2025-08-14T09:09:49Z",
+    "authors" : [
+      {
+        "name" : "Maimunatu Tunau"
+      },
+      {
+        "name" : "Vincent Gbouna Zakka"
+      },
+      {
+        "name" : "Zhuangzhuang Dai"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.10373v1",
+    "title" : "Privacy-Preserving Approximate Nearest Neighbor Search on\n  High-Dimensional Data",
+    "summary" : "In the era of cloud computing and AI, data owners outsource ubiquitous\nvectors to the cloud, which furnish approximate $k$-nearest neighbors\n($k$-ANNS) services to users. To protect data privacy against the untrusted\nserver, privacy-preserving $k$-ANNS (PP-ANNS) on vectors has been a fundamental\nand urgent problem. However, existing PP-ANNS solutions fall short of meeting\nthe requirements of data privacy, efficiency, accuracy, and minimal user\ninvolvement concurrently. To tackle this challenge, we introduce a novel\nsolution that primarily executes PP-ANNS on a single cloud server to avoid the\nheavy communication overhead between the cloud and the user. To ensure data\nprivacy, we introduce a novel encryption method named distance comparison\nencryption, facilitating secure, efficient, and exact distance comparisons. To\noptimize the trade-off between data privacy and search performance, we design a\nprivacy-preserving index that combines the state-of-the-art $k$-ANNS method\nwith an approximate distance computation method. Then, we devise a search\nmethod using a filter-and-refine strategy based on the index. Moreover, we\nprovide the security analysis of our solution and conduct extensive experiments\nto demonstrate its superiority over existing solutions. Based on our\nexperimental results, our method accelerates PP-ANNS by up to 3 orders of\nmagnitude compared to state-of-the-art methods, while not compromising the\naccuracy.",
+    "updated" : "2025-08-14T06:09:38Z",
+    "published" : "2025-08-14T06:09:38Z",
+    "authors" : [
+      {
+        "name" : "Yingfan Liu"
+      },
+      {
+        "name" : "Yandi Zhang"
+      },
+      {
+        "name" : "Jiadong Xie"
+      },
+      {
+        "name" : "Hui Li"
+      },
+      {
+        "name" : "Jeffrey Xu Yu"
+      },
+      {
+        "name" : "Jiangtao Cui"
+      }
+    ],
+    "categories" : [
+      "cs.DB"
+    ]
   }
 ]
