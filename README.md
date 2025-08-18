@@ -1118,152 +1118,140 @@ of AI privacy awareness in human-robot interaction.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.16034v1">Improved Semantic Segmentation from Ultra-Low-Resolution RGB Images
-  Applied to Privacy-Preserving Object-Goal Navigation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Robotics-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2025-07-21T19:53:40Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Xuying Huang, Sicong Pan, Olga Zatsarynna, Juergen Gall, Maren Bennewitz</p>
-    <p><b>Summary:</b> User privacy in mobile robotics has become a critical concern. Existing
-methods typically prioritize either the performance of downstream robotic tasks
-or privacy protection, with the latter often constraining the effectiveness of
-task execution. To jointly address both objectives, we study semantic-based
-robot navigation in an ultra-low-resolution setting to preserve visual privacy.
-A key challenge in such scenarios is recovering semantic segmentation from
-ultra-low-resolution RGB images. In this work, we introduce a novel fully
-joint-learning method that integrates an agglomerative feature extractor and a
-segmentation-aware discriminator to solve ultra-low-resolution semantic
-segmentation, thereby enabling privacy-preserving, semantic object-goal
-navigation. Our method outperforms different baselines on ultra-low-resolution
-semantic segmentation and our improved segmentation results increase the
-success rate of the semantic object-goal navigation in a real-world
-privacy-constrained scenario.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.15997v1">"We Need a Standard": Toward an Expert-Informed Privacy Label for
-  Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> 
-  <p><b>Published on:</b> 2025-07-21T18:32:04Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Onyinye Dibia, Mengyi Lu, Prianka Bhattacharjee, Joseph P. Near, Yuanyuan Feng</p>
-    <p><b>Summary:</b> The increasing adoption of differential privacy (DP) leads to public-facing
-DP deployments by both government agencies and companies. However, real-world
-DP deployments often do not fully disclose their privacy guarantees, which vary
-greatly between deployments. Failure to disclose certain DP parameters can lead
-to misunderstandings about the strength of the privacy guarantee, undermining
-the trust in DP. In this work, we seek to inform future standards for
-communicating the privacy guarantees of DP deployments. Based on
-semi-structured interviews with 12 DP experts, we identify important DP
-parameters necessary to comprehensively communicate DP guarantees, and describe
-why and how they should be disclosed. Based on expert recommendations, we
-design an initial privacy label for DP to comprehensively communicate privacy
-guarantees in a standardized format.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.15836v1">Optimizing Canaries for Privacy Auditing with Metagradient Descent</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-07-21T17:47:33Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Matteo Boglioni, Terrance Liu, Andrew Ilyas, Zhiwei Steven Wu</p>
-    <p><b>Summary:</b> In this work we study black-box privacy auditing, where the goal is to lower
-bound the privacy parameter of a differentially private learning algorithm
-using only the algorithm's outputs (i.e., final trained model). For DP-SGD (the
-most successful method for training differentially private deep learning
-models), the canonical approach auditing uses membership inference-an auditor
-comes with a small set of special "canary" examples, inserts a random subset of
-them into the training set, and then tries to discern which of their canaries
-were included in the training set (typically via a membership inference
-attack). The auditor's success rate then provides a lower bound on the privacy
-parameters of the learning algorithm. Our main contribution is a method for
-optimizing the auditor's canary set to improve privacy auditing, leveraging
-recent work on metagradient optimization. Our empirical evaluation demonstrates
-that by using such optimized canaries, we can improve empirical lower bounds
-for differentially private image classification models by over 2x in certain
-instances. Furthermore, we demonstrate that our method is transferable and
-efficient: canaries optimized for non-private SGD with a small model
-architecture remain effective when auditing larger models trained with DP-SGD.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.15460v3">Privacy-Preserving Multimodal News Recommendation through Federated
-  Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Social and Information Networks-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-07-21T10:14:00Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mehdi Khalaj, Shahrzad Golestani Najafabadi, Julita Vassileva</p>
-    <p><b>Summary:</b> Personalized News Recommendation systems (PNR) have emerged as a solution to
-information overload by predicting and suggesting news items tailored to
-individual user interests. However, traditional PNR systems face several
-challenges, including an overreliance on textual content, common neglect of
-short-term user interests, and significant privacy concerns due to centralized
-data storage. This paper addresses these issues by introducing a novel
-multimodal federated learning-based approach for news recommendation. First, it
-integrates both textual and visual features of news items using a multimodal
-model, enabling a more comprehensive representation of content. Second, it
-employs a time-aware model that balances users' long-term and short-term
-interests through multi-head self-attention networks, improving recommendation
-accuracy. Finally, to enhance privacy, a federated learning framework is
-implemented, enabling collaborative model training without sharing user data.
-The framework divides the recommendation model into a large server-maintained
-news model and a lightweight user model shared between the server and clients.
-The client requests news representations (vectors) and a user model from the
-central server, then computes gradients with user local data, and finally sends
-their locally computed gradients to the server for aggregation. The central
-server aggregates gradients to update the global user model and news model. The
-updated news model is further used to infer news representation by the server.
-To further safeguard user privacy, a secure aggregation algorithm based on
-Shamir's secret sharing is employed. Experiments on a real-world news dataset
-demonstrate strong performance compared to existing systems, representing a
-significant advancement in privacy-preserving personalized news recommendation.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.15124v1">Comprehensive Privacy Risk Assessment in Social Networks Using User
-  Attributes Social Graphs and Text Analysis</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Social and Information Networks-662E9B">
-  <p><b>Published on:</b> 2025-07-20T21:18:50Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Md Jahangir Alam, Ismail Hossain, Sai Puppala, Sajedul Talukder</p>
-    <p><b>Summary:</b> The rise of social networking platforms has amplified privacy threats as
-users increasingly share sensitive information across profiles, content, and
-social connections. We present a Comprehensive Privacy Risk Scoring (CPRS)
-framework that quantifies privacy risk by integrating user attributes, social
-graph structures, and user-generated content. Our framework computes risk
-scores across these dimensions using sensitivity, visibility, structural
-similarity, and entity-level analysis, then aggregates them into a unified risk
-score. We validate CPRS on two real-world datasets: the SNAP Facebook Ego
-Network (4,039 users) and the Koo microblogging dataset (1M posts, 1M
-comments). The average CPRS is 0.478 with equal weighting, rising to 0.501 in
-graph-sensitive scenarios. Component-wise, graph-based risks (mean 0.52)
-surpass content (0.48) and profile attributes (0.45). High-risk attributes
-include email, date of birth, and mobile number. Our user study with 100
-participants shows 85% rated the dashboard as clear and actionable, confirming
-CPRS's practical utility. This work enables personalized privacy risk insights
-and contributes a holistic, scalable methodology for privacy management. Future
-directions include incorporating temporal dynamics and multimodal content for
-broader applicability.</p>
-  </details>
-</div>
-
-
 
 <h2>2025-08</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.11575v1">Activate Me!: Designing Efficient Activation Functions for
+  Privacy-Preserving Machine Learning with Fully Homomorphic Encryption</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-08-15T16:31:12Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Nges Brian Njungle, Michel A. Kinsy</p>
+    <p><b>Summary:</b> The growing adoption of machine learning in sensitive areas such as
+healthcare and defense introduces significant privacy and security challenges.
+These domains demand robust data protection, as models depend on large volumes
+of sensitive information for both training and inference. Fully Homomorphic
+Encryption (FHE) presents a compelling solution by enabling computations
+directly on encrypted data, maintaining confidentiality across the entire
+machine learning workflow. However, FHE inherently supports only linear
+operations, making it difficult to implement non-linear activation functions,
+essential components of modern neural networks. This work focuses on designing,
+implementing, and evaluating activation functions tailored for FHE-based
+machine learning. We investigate two commonly used functions: the Square
+function and Rectified Linear Unit (ReLU), using LeNet-5 and ResNet-20
+architectures with the CKKS scheme from the OpenFHE library. For ReLU, we
+assess two methods: a conventional low-degree polynomial approximation and a
+novel scheme-switching technique that securely evaluates ReLU under FHE
+constraints. Our findings show that the Square function performs well in
+shallow networks like LeNet-5, achieving 99.4% accuracy with 128 seconds per
+image. In contrast, deeper models like ResNet-20 benefit more from ReLU. The
+polynomial approximation yields 83.8% accuracy with 1,145 seconds per image,
+while our scheme-switching method improves accuracy to 89.8%, albeit with a
+longer inference time of 1,697 seconds. These results underscore a critical
+trade-off in FHE-based ML: faster activation functions often reduce accuracy,
+whereas those preserving accuracy demand greater computational resources.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.11495v1">KV-Auditor: Auditing Local Differential Privacy for Correlated Key-Value
+  Estimation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-08-15T14:17:24Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jingnan Xu, Leixia Wang, Xiaofeng Meng</p>
+    <p><b>Summary:</b> To protect privacy for data-collection-based services, local differential
+privacy (LDP) is widely adopted due to its rigorous theoretical bound on
+privacy loss. However, mistakes in complex theoretical analysis or subtle
+implementation errors may undermine its practical guarantee. To address this,
+auditing is crucial to confirm that LDP protocols truly protect user data.
+However, existing auditing methods, though, mainly target machine learning and
+federated learning tasks based on centralized differentially privacy (DP), with
+limited attention to LDP. Moreover, the few studies on LDP auditing focus
+solely on simple frequency estimation task for discrete data, leaving
+correlated key-value data - which requires both discrete frequency estimation
+for keys and continuous mean estimation for values - unexplored.
+  To bridge this gap, we propose KV-Auditor, a framework for auditing LDP-based
+key-value estimation mechanisms by estimating their empirical privacy lower
+bounds. Rather than traditional LDP auditing methods that relies on binary
+output predictions, KV-Auditor estimates this lower bound by analyzing
+unbounded output distributions, supporting continuous data. Specifically, we
+classify state-of-the-art LDP key-value mechanisms into interactive and
+non-interactive types. For non-interactive mechanisms, we propose horizontal
+KV-Auditor for small domains with sufficient samples and vertical KV-Auditor
+for large domains with limited samples. For interactive mechanisms, we design a
+segmentation strategy to capture incremental privacy leakage across iterations.
+Finally, we perform extensive experiments to validate the effectiveness of our
+approach, offering insights for optimizing LDP-based key-value estimators.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.11419v1">Training-free Dimensionality Reduction via Feature Truncation: Enhancing
+  Efficiency in Privacy-preserving Multi-Biometric Systems</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2025-08-15T11:49:19Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Florian Bayer, Maximilian Russo, Christian Rathgeb</p>
+    <p><b>Summary:</b> Biometric recognition is widely used, making the privacy and security of
+extracted templates a critical concern. Biometric Template Protection schemes,
+especially those utilizing Homomorphic Encryption, introduce significant
+computational challenges due to increased workload. Recent advances in deep
+neural networks have enabled state-of-the-art feature extraction for face,
+fingerprint, and iris modalities. The ubiquity and affordability of biometric
+sensors further facilitate multi-modal fusion, which can enhance security by
+combining features from different modalities. This work investigates the
+biometric performance of reduced multi-biometric template sizes. Experiments
+are conducted on an in-house virtual multi-biometric database, derived from
+DNN-extracted features for face, fingerprint, and iris, using the FRGC, MCYT,
+and CASIA databases. The evaluated approaches are (i) explainable and
+straightforward to implement under encryption, (ii) training-free, and (iii)
+capable of generalization. Dimensionality reduction of feature vectors leads to
+fewer operations in the Homomorphic Encryption (HE) domain, enabling more
+efficient encrypted processing while maintaining biometric accuracy and
+security at a level equivalent to or exceeding single-biometric recognition.
+Our results demonstrate that, by fusing feature vectors from multiple
+modalities, template size can be reduced by 67 % with no loss in Equal Error
+Rate (EER) compared to the best-performing single modality.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.11115v1">UWB-PostureGuard: A Privacy-Preserving RF Sensing System for Continuous
+  Ergonomic Sitting Posture Monitoring</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> 
+  <p><b>Published on:</b> 2025-08-14T23:40:37Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Haotang Li, Zhenyu Qi, Sen He, Kebin Peng, Sheng Tan, Yili Ren, Tomas Cerny, Jiyue Zhao, Zi Wang</p>
+    <p><b>Summary:</b> Improper sitting posture during prolonged computer use has become a
+significant public health concern. Traditional posture monitoring solutions
+face substantial barriers, including privacy concerns with camera-based systems
+and user discomfort with wearable sensors. This paper presents
+UWB-PostureGuard, a privacy-preserving ultra-wideband (UWB) sensing system that
+advances mobile technologies for preventive health management through
+continuous, contactless monitoring of ergonomic sitting posture. Our system
+leverages commercial UWB devices, utilizing comprehensive feature engineering
+to extract multiple ergonomic sitting posture features. We develop PoseGBDT to
+effectively capture temporal dependencies in posture patterns, addressing
+limitations of traditional frame-wise classification approaches. Extensive
+real-world evaluation across 10 participants and 19 distinct postures
+demonstrates exceptional performance, achieving 99.11% accuracy while
+maintaining robustness against environmental variables such as clothing
+thickness, additional devices, and furniture configurations. Our system
+provides a scalable, privacy-preserving mobile health solution on existing
+platforms for proactive ergonomic management, improving quality of life at low
+costs.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2508.10880v1">Searching for Privacy Risks in LLM Agents via Simulation</a></h3>
@@ -1366,7 +1354,7 @@ https://github.com/Ferry-Li/datacv_fr.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.10482v1">When Explainability Meets Privacy: An Investigation at the Intersection
+  <h3><a href="http://arxiv.org/abs/2508.10482v2">When Explainability Meets Privacy: An Investigation at the Intersection
   of Post-hoc Explainability and Differential Privacy in the Context of Natural
   Language Processing</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
@@ -1375,22 +1363,21 @@ https://github.com/Ferry-Li/datacv_fr.</p>
     <summary>More Details</summary>
     <p><b>Authors:</b> Mahdi Dhaini, Stephen Meisenbacher, Ege Erdogan, Florian Matthes, Gjergji Kasneci</p>
     <p><b>Summary:</b> In the study of trustworthy Natural Language Processing (NLP), a number of
-important research fields have emerged, including that of
-\textit{explainability} and \textit{privacy}. While research interest in both
-explainable and privacy-preserving NLP has increased considerably in recent
-years, there remains a lack of investigation at the intersection of the two.
-This leaves a considerable gap in understanding of whether achieving
-\textit{both} explainability and privacy is possible, or whether the two are at
-odds with each other. In this work, we conduct an empirical investigation into
-the privacy-explainability trade-off in the context of NLP, guided by the
-popular overarching methods of \textit{Differential Privacy} (DP) and Post-hoc
-Explainability. Our findings include a view into the intricate relationship
-between privacy and explainability, which is formed by a number of factors,
-including the nature of the downstream task and choice of the text
-privatization and explainability method. In this, we highlight the potential
-for privacy and explainability to co-exist, and we summarize our findings in a
-collection of practical recommendations for future work at this important
-intersection.</p>
+important research fields have emerged, including that of explainability and
+privacy. While research interest in both explainable and privacy-preserving NLP
+has increased considerably in recent years, there remains a lack of
+investigation at the intersection of the two. This leaves a considerable gap in
+understanding of whether achieving both explainability and privacy is possible,
+or whether the two are at odds with each other. In this work, we conduct an
+empirical investigation into the privacy-explainability trade-off in the
+context of NLP, guided by the popular overarching methods of Differential
+Privacy (DP) and Post-hoc Explainability. Our findings include a view into the
+intricate relationship between privacy and explainability, which is formed by a
+number of factors, including the nature of the downstream task and choice of
+the text privatization and explainability method. In this, we highlight the
+potential for privacy and explainability to co-exist, and we summarize our
+findings in a collection of practical recommendations for future work at this
+important intersection.</p>
   </details>
 </div>
 
@@ -2173,7 +2160,7 @@ strong baselines, avoiding the performance trade-offs of prior methods.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.09186v1">RL-MoE: An Image-Based Privacy Preserving Approach In Intelligent
+  <h3><a href="http://arxiv.org/abs/2508.09186v2">RL-MoE: An Image-Based Privacy Preserving Approach In Intelligent
   Transportation System</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
   <p><b>Published on:</b> 2025-08-07T18:07:54Z</p>
@@ -2182,11 +2169,11 @@ strong baselines, avoiding the performance trade-offs of prior methods.</p>
     <p><b>Authors:</b> Abdolazim Rezaei, Mehdi Sookhak, Mahboobeh Haghparast</p>
     <p><b>Summary:</b> The proliferation of AI-powered cameras in Intelligent Transportation Systems
 (ITS) creates a severe conflict between the need for rich visual data and the
-fundamental right to privacy. Existing privacy-preserving mechanisms, such as
-blurring or encryption, are often insufficient, creating an undesirable
-trade-off where either privacy is compromised against advanced reconstruction
-attacks or data utility is critically degraded. To resolve this impasse, we
-propose RL-MoE, a novel framework that transforms sensitive visual data into
+right to privacy. Existing privacy-preserving methods, such as blurring or
+encryption, are often insufficient due to creating an undesirable trade-off
+where either privacy is compromised against advanced reconstruction attacks or
+data utility is critically degraded. To resolve this challenge, we propose
+RL-MoE, a novel framework that transforms sensitive visual data into
 privacy-preserving textual descriptions, eliminating the need for direct image
 transmission. RL-MoE uniquely combines a Mixture-of-Experts (MoE) architecture
 for nuanced, multi-aspect scene decomposition with a Reinforcement Learning
@@ -2971,6 +2958,28 @@ clinical research. We highlight the novel open data sharing approach we have
 established as part of the Artificial Intelligence Ready and Exploratory Atlas
 for Diabetes Insights project, one of the four Data Generation Projects funded
 by the National Institutes of Health Common Fund's Bridge2AI Program.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.10918v1">Privacy Enhancement for Gaze Data Using a Noise-Infused Autoencoder</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2025-08-01T20:46:52Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Samantha Aziz, Oleg Komogortsev</p>
+    <p><b>Summary:</b> We present a privacy-enhancing mechanism for gaze signals using a
+latent-noise autoencoder that prevents users from being re-identified across
+play sessions without their consent, while retaining the usability of the data
+for benign tasks. We evaluate privacy-utility trade-offs across biometric
+identification and gaze prediction tasks, showing that our approach
+significantly reduces biometric identifiability with minimal utility
+degradation. Unlike prior methods in this direction, our framework retains
+physiologically plausible gaze patterns suitable for downstream use, which
+produces favorable privacy-utility trade-off. This work advances privacy in
+gaze-based systems by providing a usable and effective mechanism for protecting
+sensitive gaze data.</p>
   </details>
 </div>
 
