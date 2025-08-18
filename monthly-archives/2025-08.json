@@ -1751,5 +1751,174 @@
     "categories" : [
       "cs.DB"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.11575v1",
+    "title" : "Activate Me!: Designing Efficient Activation Functions for\n  Privacy-Preserving Machine Learning with Fully Homomorphic Encryption",
+    "summary" : "The growing adoption of machine learning in sensitive areas such as\nhealthcare and defense introduces significant privacy and security challenges.\nThese domains demand robust data protection, as models depend on large volumes\nof sensitive information for both training and inference. Fully Homomorphic\nEncryption (FHE) presents a compelling solution by enabling computations\ndirectly on encrypted data, maintaining confidentiality across the entire\nmachine learning workflow. However, FHE inherently supports only linear\noperations, making it difficult to implement non-linear activation functions,\nessential components of modern neural networks. This work focuses on designing,\nimplementing, and evaluating activation functions tailored for FHE-based\nmachine learning. We investigate two commonly used functions: the Square\nfunction and Rectified Linear Unit (ReLU), using LeNet-5 and ResNet-20\narchitectures with the CKKS scheme from the OpenFHE library. For ReLU, we\nassess two methods: a conventional low-degree polynomial approximation and a\nnovel scheme-switching technique that securely evaluates ReLU under FHE\nconstraints. Our findings show that the Square function performs well in\nshallow networks like LeNet-5, achieving 99.4% accuracy with 128 seconds per\nimage. In contrast, deeper models like ResNet-20 benefit more from ReLU. The\npolynomial approximation yields 83.8% accuracy with 1,145 seconds per image,\nwhile our scheme-switching method improves accuracy to 89.8%, albeit with a\nlonger inference time of 1,697 seconds. These results underscore a critical\ntrade-off in FHE-based ML: faster activation functions often reduce accuracy,\nwhereas those preserving accuracy demand greater computational resources.",
+    "updated" : "2025-08-15T16:31:12Z",
+    "published" : "2025-08-15T16:31:12Z",
+    "authors" : [
+      {
+        "name" : "Nges Brian Njungle"
+      },
+      {
+        "name" : "Michel A. Kinsy"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.11495v1",
+    "title" : "KV-Auditor: Auditing Local Differential Privacy for Correlated Key-Value\n  Estimation",
+    "summary" : "To protect privacy for data-collection-based services, local differential\nprivacy (LDP) is widely adopted due to its rigorous theoretical bound on\nprivacy loss. However, mistakes in complex theoretical analysis or subtle\nimplementation errors may undermine its practical guarantee. To address this,\nauditing is crucial to confirm that LDP protocols truly protect user data.\nHowever, existing auditing methods, though, mainly target machine learning and\nfederated learning tasks based on centralized differentially privacy (DP), with\nlimited attention to LDP. Moreover, the few studies on LDP auditing focus\nsolely on simple frequency estimation task for discrete data, leaving\ncorrelated key-value data - which requires both discrete frequency estimation\nfor keys and continuous mean estimation for values - unexplored.\n  To bridge this gap, we propose KV-Auditor, a framework for auditing LDP-based\nkey-value estimation mechanisms by estimating their empirical privacy lower\nbounds. Rather than traditional LDP auditing methods that relies on binary\noutput predictions, KV-Auditor estimates this lower bound by analyzing\nunbounded output distributions, supporting continuous data. Specifically, we\nclassify state-of-the-art LDP key-value mechanisms into interactive and\nnon-interactive types. For non-interactive mechanisms, we propose horizontal\nKV-Auditor for small domains with sufficient samples and vertical KV-Auditor\nfor large domains with limited samples. For interactive mechanisms, we design a\nsegmentation strategy to capture incremental privacy leakage across iterations.\nFinally, we perform extensive experiments to validate the effectiveness of our\napproach, offering insights for optimizing LDP-based key-value estimators.",
+    "updated" : "2025-08-15T14:17:24Z",
+    "published" : "2025-08-15T14:17:24Z",
+    "authors" : [
+      {
+        "name" : "Jingnan Xu"
+      },
+      {
+        "name" : "Leixia Wang"
+      },
+      {
+        "name" : "Xiaofeng Meng"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.11419v1",
+    "title" : "Training-free Dimensionality Reduction via Feature Truncation: Enhancing\n  Efficiency in Privacy-preserving Multi-Biometric Systems",
+    "summary" : "Biometric recognition is widely used, making the privacy and security of\nextracted templates a critical concern. Biometric Template Protection schemes,\nespecially those utilizing Homomorphic Encryption, introduce significant\ncomputational challenges due to increased workload. Recent advances in deep\nneural networks have enabled state-of-the-art feature extraction for face,\nfingerprint, and iris modalities. The ubiquity and affordability of biometric\nsensors further facilitate multi-modal fusion, which can enhance security by\ncombining features from different modalities. This work investigates the\nbiometric performance of reduced multi-biometric template sizes. Experiments\nare conducted on an in-house virtual multi-biometric database, derived from\nDNN-extracted features for face, fingerprint, and iris, using the FRGC, MCYT,\nand CASIA databases. The evaluated approaches are (i) explainable and\nstraightforward to implement under encryption, (ii) training-free, and (iii)\ncapable of generalization. Dimensionality reduction of feature vectors leads to\nfewer operations in the Homomorphic Encryption (HE) domain, enabling more\nefficient encrypted processing while maintaining biometric accuracy and\nsecurity at a level equivalent to or exceeding single-biometric recognition.\nOur results demonstrate that, by fusing feature vectors from multiple\nmodalities, template size can be reduced by 67 % with no loss in Equal Error\nRate (EER) compared to the best-performing single modality.",
+    "updated" : "2025-08-15T11:49:19Z",
+    "published" : "2025-08-15T11:49:19Z",
+    "authors" : [
+      {
+        "name" : "Florian Bayer"
+      },
+      {
+        "name" : "Maximilian Russo"
+      },
+      {
+        "name" : "Christian Rathgeb"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.11115v1",
+    "title" : "UWB-PostureGuard: A Privacy-Preserving RF Sensing System for Continuous\n  Ergonomic Sitting Posture Monitoring",
+    "summary" : "Improper sitting posture during prolonged computer use has become a\nsignificant public health concern. Traditional posture monitoring solutions\nface substantial barriers, including privacy concerns with camera-based systems\nand user discomfort with wearable sensors. This paper presents\nUWB-PostureGuard, a privacy-preserving ultra-wideband (UWB) sensing system that\nadvances mobile technologies for preventive health management through\ncontinuous, contactless monitoring of ergonomic sitting posture. Our system\nleverages commercial UWB devices, utilizing comprehensive feature engineering\nto extract multiple ergonomic sitting posture features. We develop PoseGBDT to\neffectively capture temporal dependencies in posture patterns, addressing\nlimitations of traditional frame-wise classification approaches. Extensive\nreal-world evaluation across 10 participants and 19 distinct postures\ndemonstrates exceptional performance, achieving 99.11% accuracy while\nmaintaining robustness against environmental variables such as clothing\nthickness, additional devices, and furniture configurations. Our system\nprovides a scalable, privacy-preserving mobile health solution on existing\nplatforms for proactive ergonomic management, improving quality of life at low\ncosts.",
+    "updated" : "2025-08-14T23:40:37Z",
+    "published" : "2025-08-14T23:40:37Z",
+    "authors" : [
+      {
+        "name" : "Haotang Li"
+      },
+      {
+        "name" : "Zhenyu Qi"
+      },
+      {
+        "name" : "Sen He"
+      },
+      {
+        "name" : "Kebin Peng"
+      },
+      {
+        "name" : "Sheng Tan"
+      },
+      {
+        "name" : "Yili Ren"
+      },
+      {
+        "name" : "Tomas Cerny"
+      },
+      {
+        "name" : "Jiyue Zhao"
+      },
+      {
+        "name" : "Zi Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.HC",
+      "eess.SP"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.10482v2",
+    "title" : "When Explainability Meets Privacy: An Investigation at the Intersection\n  of Post-hoc Explainability and Differential Privacy in the Context of Natural\n  Language Processing",
+    "summary" : "In the study of trustworthy Natural Language Processing (NLP), a number of\nimportant research fields have emerged, including that of explainability and\nprivacy. While research interest in both explainable and privacy-preserving NLP\nhas increased considerably in recent years, there remains a lack of\ninvestigation at the intersection of the two. This leaves a considerable gap in\nunderstanding of whether achieving both explainability and privacy is possible,\nor whether the two are at odds with each other. In this work, we conduct an\nempirical investigation into the privacy-explainability trade-off in the\ncontext of NLP, guided by the popular overarching methods of Differential\nPrivacy (DP) and Post-hoc Explainability. Our findings include a view into the\nintricate relationship between privacy and explainability, which is formed by a\nnumber of factors, including the nature of the downstream task and choice of\nthe text privatization and explainability method. In this, we highlight the\npotential for privacy and explainability to co-exist, and we summarize our\nfindings in a collection of practical recommendations for future work at this\nimportant intersection.",
+    "updated" : "2025-08-15T13:25:21Z",
+    "published" : "2025-08-14T09:34:29Z",
+    "authors" : [
+      {
+        "name" : "Mahdi Dhaini"
+      },
+      {
+        "name" : "Stephen Meisenbacher"
+      },
+      {
+        "name" : "Ege Erdogan"
+      },
+      {
+        "name" : "Florian Matthes"
+      },
+      {
+        "name" : "Gjergji Kasneci"
+      }
+    ],
+    "categories" : [
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.09186v2",
+    "title" : "RL-MoE: An Image-Based Privacy Preserving Approach In Intelligent\n  Transportation System",
+    "summary" : "The proliferation of AI-powered cameras in Intelligent Transportation Systems\n(ITS) creates a severe conflict between the need for rich visual data and the\nright to privacy. Existing privacy-preserving methods, such as blurring or\nencryption, are often insufficient due to creating an undesirable trade-off\nwhere either privacy is compromised against advanced reconstruction attacks or\ndata utility is critically degraded. To resolve this challenge, we propose\nRL-MoE, a novel framework that transforms sensitive visual data into\nprivacy-preserving textual descriptions, eliminating the need for direct image\ntransmission. RL-MoE uniquely combines a Mixture-of-Experts (MoE) architecture\nfor nuanced, multi-aspect scene decomposition with a Reinforcement Learning\n(RL) agent that optimizes the generated text for a dual objective of semantic\naccuracy and privacy preservation. Extensive experiments demonstrate that\nRL-MoE provides superior privacy protection, reducing the success rate of\nreplay attacks to just 9.4\\% on the CFP-FP dataset, while simultaneously\ngenerating richer textual content than baseline methods. Our work provides a\npractical and scalable solution for building trustworthy AI systems in\nprivacy-sensitive domains, paving the way for more secure smart city and\nautonomous vehicle networks.",
+    "updated" : "2025-08-15T04:36:03Z",
+    "published" : "2025-08-07T18:07:54Z",
+    "authors" : [
+      {
+        "name" : "Abdolazim Rezaei"
+      },
+      {
+        "name" : "Mehdi Sookhak"
+      },
+      {
+        "name" : "Mahboobeh Haghparast"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.10918v1",
+    "title" : "Privacy Enhancement for Gaze Data Using a Noise-Infused Autoencoder",
+    "summary" : "We present a privacy-enhancing mechanism for gaze signals using a\nlatent-noise autoencoder that prevents users from being re-identified across\nplay sessions without their consent, while retaining the usability of the data\nfor benign tasks. We evaluate privacy-utility trade-offs across biometric\nidentification and gaze prediction tasks, showing that our approach\nsignificantly reduces biometric identifiability with minimal utility\ndegradation. Unlike prior methods in this direction, our framework retains\nphysiologically plausible gaze patterns suitable for downstream use, which\nproduces favorable privacy-utility trade-off. This work advances privacy in\ngaze-based systems by providing a usable and effective mechanism for protecting\nsensitive gaze data.",
+    "updated" : "2025-08-01T20:46:52Z",
+    "published" : "2025-08-01T20:46:52Z",
+    "authors" : [
+      {
+        "name" : "Samantha Aziz"
+      },
+      {
+        "name" : "Oleg Komogortsev"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.HC"
+    ]
   }
 ]
