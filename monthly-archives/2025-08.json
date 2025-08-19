@@ -1920,5 +1920,36 @@
       "cs.CV",
       "cs.HC"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.12832v1",
+    "title" : "Efficient and Verifiable Privacy-Preserving Convolutional Computation\n  for CNN Inference with Untrusted Clouds",
+    "summary" : "The widespread adoption of convolutional neural networks (CNNs) in\nresource-constrained scenarios has driven the development of Machine Learning\nas a Service (MLaaS) system. However, this approach is susceptible to privacy\nleakage, as the data sent from the client to the untrusted cloud server often\ncontains sensitive information. Existing CNN privacy-preserving schemes, while\neffective in ensuring data confidentiality through homomorphic encryption and\nsecret sharing, face efficiency bottlenecks, particularly in convolution\noperations. In this paper, we propose a novel verifiable privacy-preserving\nscheme tailored for CNN convolutional layers. Our scheme enables efficient\nencryption and decryption, allowing resource-constrained clients to securely\noffload computations to the untrusted cloud server. Additionally, we present a\nverification mechanism capable of detecting the correctness of the results with\na success probability of at least $1-\\frac{1}{\\left|Z\\right|}$. Extensive\nexperiments conducted on 10 datasets and various CNN models demonstrate that\nour scheme achieves speedups ranging $26 \\times$ ~ $\\ 87\\times$ compared to the\noriginal plaintext model while maintaining accuracy.",
+    "updated" : "2025-08-18T11:17:53Z",
+    "published" : "2025-08-18T11:17:53Z",
+    "authors" : [
+      {
+        "name" : "Jinyu Lu"
+      },
+      {
+        "name" : "Xinrong Sun"
+      },
+      {
+        "name" : "Yunting Tao"
+      },
+      {
+        "name" : "Tong Ji"
+      },
+      {
+        "name" : "Fanyu Kong"
+      },
+      {
+        "name" : "Guoqiang Yang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
   }
 ]
