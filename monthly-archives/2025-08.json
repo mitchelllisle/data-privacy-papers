@@ -1951,5 +1951,339 @@
       "cs.CR",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.13914v1",
+    "title" : "Development of a defacing algorithm to protect the privacy of head and\n  neck cancer patients in publicly-accessible radiotherapy datasets",
+    "summary" : "Introduction: The rise in public medical imaging datasets has raised concerns\nabout patient reidentification from head CT scans. However, existing defacing\nalgorithms often remove or distort Organs at Risk (OARs) and Planning Target\nVolumes (PTVs) in head and neck cancer (HNC) patients, and ignore DICOM-RT\nStructure Set and Dose data. Therefore, we developed and validated a novel\nautomated defacing algorithm that preserves these critical structures while\nremoving identifiable features from HNC CTs and DICOM-RT data.\n  Methods: Eye contours were used as landmarks to automate the removal of CT\npixels above the inferior-most eye slice and anterior to the eye midpoint.\nPixels within PTVs were retained if they intersected with the removed region.\nThe body contour and dose map were reshaped to reflect the defaced image. We\nvalidated our approach on 829 HNC CTs from 622 patients. Privacy protection was\nevaluated by applying the FaceNet512 facial recognition algorithm before and\nafter defacing on 3D-rendered CT pairs from 70 patients. Research utility was\nassessed by examining the impact of defacing on autocontouring performance\nusing LimbusAI and analyzing PTV locations relative to the defaced regions.\n  Results: Before defacing, FaceNet512 matched 97% of patients' CTs. After\ndefacing, this rate dropped to 4%. LimbusAI effectively autocontoured organs in\nthe defaced CTs, with perfect Dice scores of 1 for OARs below the defaced\nregion, and excellent scores exceeding 0.95 for OARs on the same slices as the\ncrop. We found that 86% of PTVs were entirely below the cropped region, 9.1%\nwere on the same slice as the crop without overlap, and only 4.9% extended into\nthe cropped area.\n  Conclusions: We developed a novel defacing algorithm that anonymizes HNC CT\nscans and related DICOM-RT data while preserving essential structures, enabling\nthe sharing of HNC imaging datasets for Big Data and AI.",
+    "updated" : "2025-08-19T15:14:16Z",
+    "published" : "2025-08-19T15:14:16Z",
+    "authors" : [
+      {
+        "name" : "Kayla O'Sullivan-Steben"
+      },
+      {
+        "name" : "Luc Galarneau"
+      },
+      {
+        "name" : "John Kildea"
+      }
+    ],
+    "categories" : [
+      "physics.med-ph"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.13730v1",
+    "title" : "On the Security and Privacy of Federated Learning: A Survey with\n  Attacks, Defenses, Frameworks, Applications, and Future Directions",
+    "summary" : "Federated Learning (FL) is an emerging distributed machine learning paradigm\nenabling multiple clients to train a global model collaboratively without\nsharing their raw data. While FL enhances data privacy by design, it remains\nvulnerable to various security and privacy threats. This survey provides a\ncomprehensive overview of more than 200 papers regarding the state-of-the-art\nattacks and defense mechanisms developed to address these challenges,\ncategorizing them into security-enhancing and privacy-preserving techniques.\nSecurity-enhancing methods aim to improve FL robustness against malicious\nbehaviors such as byzantine attacks, poisoning, and Sybil attacks. At the same\ntime, privacy-preserving techniques focus on protecting sensitive data through\ncryptographic approaches, differential privacy, and secure aggregation. We\ncritically analyze the strengths and limitations of existing methods, highlight\nthe trade-offs between privacy, security, and model performance, and discuss\nthe implications of non-IID data distributions on the effectiveness of these\ndefenses. Furthermore, we identify open research challenges and future\ndirections, including the need for scalable, adaptive, and energy-efficient\nsolutions operating in dynamic and heterogeneous FL environments. Our survey\naims to guide researchers and practitioners in developing robust and\nprivacy-preserving FL systems, fostering advancements safeguarding\ncollaborative learning frameworks' integrity and confidentiality.",
+    "updated" : "2025-08-19T11:06:20Z",
+    "published" : "2025-08-19T11:06:20Z",
+    "authors" : [
+      {
+        "name" : "Daniel M. Jimenez-Gutierrez"
+      },
+      {
+        "name" : "Yelizaveta Falkouskaya"
+      },
+      {
+        "name" : "Jose L. Hernandez-Ramos"
+      },
+      {
+        "name" : "Aris Anagnostopoulos"
+      },
+      {
+        "name" : "Ioannis Chatzigiannakis"
+      },
+      {
+        "name" : "Andrea Vitaletti"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.13425v1",
+    "title" : "When Secure Aggregation Falls Short: Achieving Long-Term Privacy in\n  Asynchronous Federated Learning for LEO Satellite Networks",
+    "summary" : "Secure aggregation is a common technique in federated learning (FL) for\nprotecting data privacy from both curious internal entities (clients or server)\nand external adversaries (eavesdroppers). However, in dynamic and\nresource-constrained environments such as low Earth orbit (LEO) satellite\nnetworks, traditional secure aggregation methods fall short in two aspects: (1)\nthey assume continuous client availability while LEO satellite visibility is\nintermittent and irregular; (2) they consider privacy in each communication\nround but have overlooked the possible privacy leakage through multiple rounds.\nTo address these limitations, we propose LTP-FLEO, an asynchronous FL framework\nthat preserves long-term privacy (LTP) for LEO satellite networks. LTP-FLEO\nintroduces (i) privacy-aware satellite partitioning, which groups satellites\nbased on their predictable visibility to the server and enforces joint\nparticipation; (ii) model age balancing, which mitigates the adverse impact of\nstale model updates; and (iii) fair global aggregation, which treats satellites\nof different visibility durations in an equitable manner. Theoretical analysis\nand empirical validation demonstrate that LTP-FLEO effectively safeguards both\nmodel and data privacy across multi-round training, promotes fairness in line\nwith satellite contributions, accelerates global convergence, and achieves\ncompetitive model accuracy.",
+    "updated" : "2025-08-19T00:55:04Z",
+    "published" : "2025-08-19T00:55:04Z",
+    "authors" : [
+      {
+        "name" : "Mohamed Elmahallawy"
+      },
+      {
+        "name" : "Tie Luo"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.12832v2",
+    "title" : "Efficient and Verifiable Privacy-Preserving Convolutional Computation\n  for CNN Inference with Untrusted Clouds",
+    "summary" : "The widespread adoption of convolutional neural networks (CNNs) in\nresource-constrained scenarios has driven the development of Machine Learning\nas a Service (MLaaS) system. However, this approach is susceptible to privacy\nleakage, as the data sent from the client to the untrusted cloud server often\ncontains sensitive information. Existing CNN privacy-preserving schemes, while\neffective in ensuring data confidentiality through homomorphic encryption and\nsecret sharing, face efficiency bottlenecks, particularly in convolution\noperations. In this paper, we propose a novel verifiable privacy-preserving\nscheme tailored for CNN convolutional layers. Our scheme enables efficient\nencryption and decryption, allowing resource-constrained clients to securely\noffload computations to the untrusted cloud server. Additionally, we present a\nverification mechanism capable of detecting the correctness of the results with\na success probability of at least $1-\\frac{1}{\\left|Z\\right|}$. Extensive\nexperiments conducted on 10 datasets and various CNN models demonstrate that\nour scheme achieves speedups ranging $26 \\times$ ~ $\\ 87\\times$ compared to the\noriginal plaintext model while maintaining accuracy.",
+    "updated" : "2025-08-19T07:03:27Z",
+    "published" : "2025-08-18T11:17:53Z",
+    "authors" : [
+      {
+        "name" : "Jinyu Lu"
+      },
+      {
+        "name" : "Xinrong Sun"
+      },
+      {
+        "name" : "Yunting Tao"
+      },
+      {
+        "name" : "Tong Ji"
+      },
+      {
+        "name" : "Fanyu Kong"
+      },
+      {
+        "name" : "Guoqiang Yang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.12539v1",
+    "title" : "The Hidden Cost of Correlation: Rethinking Privacy Leakage in Local\n  Differential Privacy",
+    "summary" : "Local differential privacy (LDP) has emerged as a promising paradigm for\nprivacy-preserving data collection in distributed systems, where users\ncontribute multi-dimensional records with potentially correlated attributes.\nRecent work has highlighted that correlation-induced privacy leakage (CPL)\nplays a critical role in shaping the privacy-utility trade-off under LDP,\nespecially when correlations exist among attributes. Nevertheless, it remains\nunclear to what extent the prevailing assumptions and proposed solutions are\nvalid and how significant CPL is in real-world data. To address this gap, we\nfirst perform a comprehensive statistical analysis of five widely used LDP\nmechanisms -- GRR, RAPPOR, OUE, OLH and Exponential mechanism -- to assess CPL\nacross four real-world datasets. We identify that many primary assumptions and\nmetrics in current approaches fall short of accurately characterising these\nleakages. Moreover, current studies have been limited to a set of pure LDP\n(i.e., {\\delta = 0}) mechanisms. In response, we develop the first algorithmic\nframework to theoretically quantify CPL for any general approximated LDP\n(({\\varepsilon},{\\delta})-LDP) mechanism. We validate our theoretical results\nagainst empirical statistical results and provide a theoretical explanation for\nthe observed statistical patterns. Finally, we propose two novel benchmarks to\nvalidate correlation analysis algorithms and evaluate the utility vs CPL of LDP\nmechanisms. Further, we demonstrate how these findings can be applied to\nachieve an efficient privacy-utility trade-off in real-world data governance.",
+    "updated" : "2025-08-18T00:34:04Z",
+    "published" : "2025-08-18T00:34:04Z",
+    "authors" : [
+      {
+        "name" : "Sandaru Jayawardana"
+      },
+      {
+        "name" : "Sennur Ulukus"
+      },
+      {
+        "name" : "Ming Ding"
+      },
+      {
+        "name" : "Kanchana Thilakarathna"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.IT",
+      "math.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.12158v1",
+    "title" : "LLM-as-a-Judge for Privacy Evaluation? Exploring the Alignment of Human\n  and LLM Perceptions of Privacy in Textual Data",
+    "summary" : "Despite advances in the field of privacy-preserving Natural Language\nProcessing (NLP), a significant challenge remains the accurate evaluation of\nprivacy. As a potential solution, using LLMs as a privacy evaluator presents a\npromising approach $\\unicode{x2013}$ a strategy inspired by its success in\nother subfields of NLP. In particular, the so-called $\\textit{LLM-as-a-Judge}$\nparadigm has achieved impressive results on a variety of natural language\nevaluation tasks, demonstrating high agreement rates with human annotators.\nRecognizing that privacy is both subjective and difficult to define, we\ninvestigate whether LLM-as-a-Judge can also be leveraged to evaluate the\nprivacy sensitivity of textual data. Furthermore, we measure how closely LLM\nevaluations align with human perceptions of privacy in text. Resulting from a\nstudy involving 10 datasets, 13 LLMs, and 677 human survey participants, we\nconfirm that privacy is indeed a difficult concept to measure empirically,\nexhibited by generally low inter-human agreement rates. Nevertheless, we find\nthat LLMs can accurately model a global human privacy perspective, and through\nan analysis of human and LLM reasoning patterns, we discuss the merits and\nlimitations of LLM-as-a-Judge for privacy evaluation in textual data. Our\nfindings pave the way for exploring the feasibility of LLMs as privacy\nevaluators, addressing a core challenge in solving pressing privacy issues with\ninnovative technical solutions.",
+    "updated" : "2025-08-16T20:49:41Z",
+    "published" : "2025-08-16T20:49:41Z",
+    "authors" : [
+      {
+        "name" : "Stephen Meisenbacher"
+      },
+      {
+        "name" : "Alexandra Klymenko"
+      },
+      {
+        "name" : "Florian Matthes"
+      }
+    ],
+    "categories" : [
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.12093v1",
+    "title" : "PP-STAT: An Efficient Privacy-Preserving Statistical Analysis Framework\n  using Homomorphic Encryption",
+    "summary" : "With the widespread adoption of cloud computing, the need for outsourcing\nstatistical analysis to third-party platforms is growing rapidly. However,\nhandling sensitive data such as medical records and financial information in\ncloud environments raises serious privacy concerns. In this paper, we present\nPP-STAT, a novel and efficient Homomorphic Encryption (HE)-based framework for\nprivacy-preserving statistical analysis. HE enables computations to be\nperformed directly on encrypted data without revealing the underlying\nplaintext. PP-STAT supports advanced statistical measures, including Z-score\nnormalization, skewness, kurtosis, coefficient of variation, and Pearson\ncorrelation coefficient, all computed securely over encrypted data. To improve\nefficiency, PP-STAT introduces two key optimizations: (1) a Chebyshev-based\napproximation strategy for initializing inverse square root operations, and (2)\na pre-normalization scaling technique that reduces multiplicative depth by\nfolding constant scaling factors into mean and variance computations. These\ntechniques significantly lower computational overhead and minimize the number\nof expensive bootstrapping procedures. Our evaluation on real-world datasets\ndemonstrates that PP-STAT achieves high numerical accuracy, with mean relative\nerror (MRE) below 2.4x10-4. Notably, the encrypted Pearson correlation between\nthe smoker attribute and charges reaches 0.7873, with an MRE of 2.86x10-4.\nThese results confirm the practical utility of PP-STAT for secure and precise\nstatistical analysis in privacy-sensitive domains.",
+    "updated" : "2025-08-16T16:24:35Z",
+    "published" : "2025-08-16T16:24:35Z",
+    "authors" : [
+      {
+        "name" : "Hyunmin Choi"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.11907v1",
+    "title" : "Deciphering the Interplay between Attack and Protection Complexity in\n  Privacy-Preserving Federated Learning",
+    "summary" : "Federated learning (FL) offers a promising paradigm for collaborative model\ntraining while preserving data privacy. However, its susceptibility to gradient\ninversion attacks poses a significant challenge, necessitating robust privacy\nprotection mechanisms. This paper introduces a novel theoretical framework to\ndecipher the intricate interplay between attack and protection complexities in\nprivacy-preserving FL. We formally define \"Attack Complexity\" as the minimum\ncomputational and data resources an adversary requires to reconstruct private\ndata below a given error threshold, and \"Protection Complexity\" as the expected\ndistortion introduced by privacy mechanisms. Leveraging Maximum Bayesian\nPrivacy (MBP), we derive tight theoretical bounds for protection complexity,\ndemonstrating its scaling with model dimensionality and privacy budget.\nFurthermore, we establish comprehensive bounds for attack complexity, revealing\nits dependence on privacy leakage, gradient distortion, model dimension, and\nthe chosen privacy level. Our findings quantitatively illuminate the\nfundamental trade-offs between privacy guarantees, system utility, and the\neffort required for both attacking and defending. This framework provides\ncritical insights for designing more secure and efficient federated learning\nsystems.",
+    "updated" : "2025-08-16T04:39:16Z",
+    "published" : "2025-08-16T04:39:16Z",
+    "authors" : [
+      {
+        "name" : "Xiaojin Zhang"
+      },
+      {
+        "name" : "Mingcong Xu"
+      },
+      {
+        "name" : "Yiming Li"
+      },
+      {
+        "name" : "Wei Chen"
+      },
+      {
+        "name" : "Qiang Yang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.11797v1",
+    "title" : "AegisBlock: A Privacy-Preserving Medical Research Framework using\n  Blockchain",
+    "summary" : "Due to HIPAA and other privacy regulations, it is imperative to maintain\npatient privacy while conducting research on patient health records. In this\npaper, we propose AegisBlock, a patient-centric access controlled framework to\nshare medical records with researchers such that the anonymity of the patient\nis maintained while ensuring the trustworthiness of the data provided to\nresearchers. AegisBlock allows for patients to provide access to their medical\ndata, verified by miners. A researcher submits a time-based range query to\nrequest access to records from a certain patient, and upon patient approval,\naccess will be granted. Our experimental evaluation results show that\nAegisBlock is scalable with respect to the number of patients and hospitals in\nthe system, and efficient with up to 50% of malicious miners.",
+    "updated" : "2025-08-15T20:43:36Z",
+    "published" : "2025-08-15T20:43:36Z",
+    "authors" : [
+      {
+        "name" : "Calkin Garg"
+      },
+      {
+        "name" : "Omar Rios Cruz"
+      },
+      {
+        "name" : "Tessa Andersen"
+      },
+      {
+        "name" : "Gaby G. Dagher"
+      },
+      {
+        "name" : "Donald Winiecki"
+      },
+      {
+        "name" : "Min Long"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DB",
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.11742v1",
+    "title" : "Assessing User Privacy Leakage in Synthetic Packet Traces: An\n  Attack-Grounded Approach",
+    "summary" : "Current synthetic traffic generators (SynNetGens) promise privacy but lack\ncomprehensive guarantees or empirical validation, even as their fidelity\nsteadily improves. We introduce the first attack-grounded benchmark for\nassessing the privacy of SynNetGens directly from the traffic they produce. We\nframe privacy as membership inference at the traffic-source level--a realistic\nand actionable threat for data holders. To this end, we present TraceBleed, the\nfirst attack that exploits behavioral fingerprints across flows using\ncontrastive learning and temporal chunking, outperforming prior membership\ninference baselines by 172%. Our large-scale study across GAN-, diffusion-, and\nGPT-based SynNetGens uncovers critical insights: (i) SynNetGens leak user-level\ninformation; (ii) differential privacy either fails to stop these attacks or\nseverely degrades fidelity; and (iii) sharing more synthetic data amplifies\nleakage by 59% on average. Finally, we introduce TracePatch, the first\nSynNetGen-agnostic defense that combines adversarial ML with SMT constraints to\nmitigate leakage while preserving fidelity.",
+    "updated" : "2025-08-15T17:54:27Z",
+    "published" : "2025-08-15T17:54:27Z",
+    "authors" : [
+      {
+        "name" : "Minhao Jin"
+      },
+      {
+        "name" : "Hongyu He"
+      },
+      {
+        "name" : "Maria Apostolaki"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.NI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.11716v1",
+    "title" : "Privacy-Aware Detection of Fake Identity Documents: Methodology,\n  Benchmark, and Improved Detection Methods (FakeIDet2)",
+    "summary" : "Remote user verification in Internet-based applications is becoming\nincreasingly important nowadays. A popular scenario for it consists of\nsubmitting a picture of the user's Identity Document (ID) to a service\nplatform, authenticating its veracity, and then granting access to the\nrequested digital service. An ID is well-suited to verify the identity of an\nindividual, since it is government issued, unique, and nontransferable.\nHowever, with recent advances in Artificial Intelligence (AI), attackers can\nsurpass security measures in IDs and create very realistic physical and\nsynthetic fake IDs. Researchers are now trying to develop methods to detect an\never-growing number of these AI-based fakes that are almost indistinguishable\nfrom authentic (bona fide) IDs. In this counterattack effort, researchers are\nfaced with an important challenge: the difficulty in using real data to train\nfake ID detectors. This real data scarcity for research and development is\noriginated by the sensitive nature of these documents, which are usually kept\nprivate by the ID owners (the users) and the ID Holders (e.g., government,\npolice, bank, etc.). The main contributions of our study are: 1) We propose and\ndiscuss a patch-based methodology to preserve privacy in fake ID detection\nresearch. 2) We provide a new public database, FakeIDet2-db, comprising over\n900K real/fake ID patches extracted from 2,000 ID images, acquired using\ndifferent smartphone sensors, illumination and height conditions, etc. In\naddition, three physical attacks are considered: print, screen, and composite.\n3) We present a new privacy-aware fake ID detection method, FakeIDet2. 4) We\nrelease a standard reproducible benchmark that considers physical and synthetic\nattacks from popular databases in the literature.",
+    "updated" : "2025-08-14T17:30:36Z",
+    "published" : "2025-08-14T17:30:36Z",
+    "authors" : [
+      {
+        "name" : "Javier Muñoz-Haro"
+      },
+      {
+        "name" : "Ruben Tolosana"
+      },
+      {
+        "name" : "Ruben Vera-Rodriguez"
+      },
+      {
+        "name" : "Aythami Morales"
+      },
+      {
+        "name" : "Julian Fierrez"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.CV",
+      "eess.IV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.10672v2",
+    "title" : "Hybrid Generative Fusion for Efficient and Privacy-Preserving Face\n  Recognition Dataset Generation",
+    "summary" : "In this paper, we present our approach to the DataCV ICCV Challenge, which\ncenters on building a high-quality face dataset to train a face recognition\nmodel. The constructed dataset must not contain identities overlapping with any\nexisting public face datasets. To handle this challenge, we begin with a\nthorough cleaning of the baseline HSFace dataset, identifying and removing\nmislabeled or inconsistent identities through a Mixture-of-Experts (MoE)\nstrategy combining face embedding clustering and GPT-4o-assisted verification.\nWe retain the largest consistent identity cluster and apply data augmentation\nup to a fixed number of images per identity. To further diversify the dataset,\nwe generate synthetic identities using Stable Diffusion with prompt\nengineering. As diffusion models are computationally intensive, we generate\nonly one reference image per identity and efficiently expand it using Vec2Face,\nwhich rapidly produces 49 identity-consistent variants. This hybrid approach\nfuses GAN-based and diffusion-based samples, enabling efficient construction of\na diverse and high-quality dataset. To address the high visual similarity among\nsynthetic identities, we adopt a curriculum learning strategy by placing them\nearly in the training schedule, allowing the model to progress from easier to\nharder samples. Our final dataset contains 50 images per identity, and all\nnewly generated identities are checked with mainstream face datasets to ensure\nno identity leakage. Our method achieves \\textbf{1st place} in the competition,\nand experimental results show that our dataset improves model performance\nacross 10K, 20K, and 100K identity scales. Code is available at\nhttps://github.com/Ferry-Li/datacv_fr.",
+    "updated" : "2025-08-18T09:15:35Z",
+    "published" : "2025-08-14T14:14:18Z",
+    "authors" : [
+      {
+        "name" : "Feiran Li"
+      },
+      {
+        "name" : "Qianqian Xu"
+      },
+      {
+        "name" : "Shilong Bao"
+      },
+      {
+        "name" : "Boyu Han"
+      },
+      {
+        "name" : "Zhiyong Yang"
+      },
+      {
+        "name" : "Qingming Huang"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.00287v2",
+    "title" : "Privacy-Preserving Driver Drowsiness Detection with Spatial\n  Self-Attention and Federated Learning",
+    "summary" : "Driver drowsiness is one of the main causes of road accidents and is\nrecognized as a leading contributor to traffic-related fatalities. However,\ndetecting drowsiness accurately remains a challenging task, especially in\nreal-world settings where facial data from different individuals is\ndecentralized and highly diverse. In this paper, we propose a novel framework\nfor drowsiness detection that is designed to work effectively with\nheterogeneous and decentralized data. Our approach develops a new Spatial\nSelf-Attention (SSA) mechanism integrated with a Long Short-Term Memory (LSTM)\nnetwork to better extract key facial features and improve detection\nperformance. To support federated learning, we employ a Gradient Similarity\nComparison (GSC) that selects the most relevant trained models from different\noperators before aggregation. This improves the accuracy and robustness of the\nglobal model while preserving user privacy. We also develop a customized tool\nthat automatically processes video data by extracting frames, detecting and\ncropping faces, and applying data augmentation techniques such as rotation,\nflipping, brightness adjustment, and zooming. Experimental results show that\nour framework achieves a detection accuracy of 89.9% in the federated learning\nsettings, outperforming existing methods under various deployment scenarios.\nThe results demonstrate the effectiveness of our approach in handling\nreal-world data variability and highlight its potential for deployment in\nintelligent transportation systems to enhance road safety through early and\nreliable drowsiness detection.",
+    "updated" : "2025-08-18T02:30:55Z",
+    "published" : "2025-08-01T03:12:01Z",
+    "authors" : [
+      {
+        "name" : "Tran Viet Khoa"
+      },
+      {
+        "name" : "Do Hai Son"
+      },
+      {
+        "name" : "Mohammad Abu Alsheikh"
+      },
+      {
+        "name" : "Yibeltal F Alem"
+      },
+      {
+        "name" : "Dinh Thai Hoang"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
   }
 ]
