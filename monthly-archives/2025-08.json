@@ -2285,5 +2285,59 @@
     "categories" : [
       "cs.CV"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.14815v1",
+    "title" : "A Lightweight Privacy-Preserving Smart Metering Billing Protocol with\n  Dynamic Tariff Policy Adjustment",
+    "summary" : "The integration of information and communication technology (ICT) with\ntraditional power grids has led to the emergence of smart grids. Advanced\nmetering infrastructure (AMI) plays a crucial role in smart grids by\nfacilitating two-way communication between smart meters and the utility\nprovider. This bidirectional communication allows intelligent meters to report\nfine-grained consumption data at predefined intervals, enabling accurate\nbilling, efficient grid monitoring and management, and rapid outage detection.\nHowever, the collection of detailed consumption data can inadvertently disclose\nconsumers' daily activities, raising privacy concerns and potentially leading\nto privacy violations. To address these issues and preserve individuals'\nprivacy, we propose a lightweight privacy-preserving smart metering protocol\nspecifically designed to support real-time tariff billing service with dynamic\npolicy adjustment. Our scheme employs an efficient data perturbation technique\nto obscure precise energy usage data from internal adversaries, including the\nintermediary gateways and the utility provider. Subsequently, we validate the\nefficiency and security of our protocol through comprehensive performance and\nprivacy evaluations. We examined the computational, memory, and communication\noverhead of the proposed scheme. The execution time of our secure and\nprivacy-aware billing system is approximately 3.94540 seconds for a complete\nyear. Furthermore, we employed the Jensen-Shannon divergence as a privacy\nmetric to demonstrate that our protocol can effectively safeguard users'\nprivacy by increasing the noise scale.",
+    "updated" : "2025-08-20T16:06:19Z",
+    "published" : "2025-08-20T16:06:19Z",
+    "authors" : [
+      {
+        "name" : "Farid Zaredar"
+      },
+      {
+        "name" : "Morteza Amini"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.14744v1",
+    "title" : "A Collusion-Resistance Privacy-Preserving Smart Metering Protocol for\n  Operational Utility",
+    "summary" : "Modern grids have adopted advanced metering infrastructure (AMI) to\nfacilitate bidirectional communication between smart meters and control\ncenters. This enables smart meters to report consumption values at predefined\nintervals to utility providers for purposes including demand balancing, load\nforecasting, dynamic billing, and operational efficiency. Compared to\ntraditional power grids, smart grids offer advantages such as enhanced\nreliability, improved energy efficiency, and increased security. However,\nutility providers can compromise user privacy by analyzing fine-grained\nreadings and extracting individuals' daily activities from this time-series\ndata. To address this concern, we propose a collusion-resistant,\nprivacy-preserving aggregation protocol for smart metering in operational\nservices. Our protocol ensures privacy by leveraging techniques such as\npartially additive homomorphic encryption, aggregation, data perturbation, and\ndata minimization. The scheme aggregates perturbed readings using the additive\nhomomorphic property of the Paillier cryptosystem to provide results for\nmultiple operational purposes. We evaluate the protocol in terms of both\nperformance and privacy. Computational, memory, and communication overhead were\nexamined. The total execution time with 1024-bit key size is about 2.21\nseconds. We also evaluated privacy through the normalized conditional entropy\n(NCE) metric. Higher NCE values, closer to 1, indicate stronger privacy. By\nincreasing noise scale, the NCE value rises, showing perturbed values retain\nminimal information about the original, thereby reducing risks. Overall,\nevaluation demonstrates the protocol's efficiency while employing various\nprivacy-preserving techniques.",
+    "updated" : "2025-08-20T14:40:33Z",
+    "published" : "2025-08-20T14:40:33Z",
+    "authors" : [
+      {
+        "name" : "Farid Zaredar"
+      },
+      {
+        "name" : "Morteza Amini"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.14703v1",
+    "title" : "A Lightweight Incentive-Based Privacy-Preserving Smart Metering Protocol\n  for Value-Added Services",
+    "summary" : "The emergence of smart grids and advanced metering infrastructure (AMI) has\nrevolutionized energy management. Unlike traditional power grids, smart grids\nbenefit from two-way communication through AMI, which surpasses earlier\nautomated meter reading (AMR). AMI enables diverse demand- and supply-side\nutilities such as accurate billing, outage detection, real-time grid control,\nload forecasting, and value-added services. Smart meters play a key role by\ndelivering consumption values at predefined intervals to the utility provider\n(UP). However, such reports may raise privacy concerns, as adversaries can\ninfer lifestyle patterns, political orientations, and the types of electrical\ndevices in a household, or even sell the data to third parties (TP) such as\ninsurers. In this paper, we propose a lightweight, privacy-preserving smart\nmetering protocol for incentive-based value-added services. The scheme employs\nlocal differential privacy, hash chains, blind digital signatures, pseudonyms,\ntemporal aggregation, and anonymous overlay networks to report coarse-grained\nvalues with adjustable granularity to the UP. This protects consumers' privacy\nwhile preserving data utility. The scheme prevents identity disclosure while\nenabling automatic token redemption. From a performance perspective, our\nresults show that with a 1024-bit RSA key, a 7-day duration, and four reports\nper day, our protocol runs in approximately 0.51s and consumes about 4.5 MB of\nmemory. From a privacy perspective, the protocol resists semi-trusted and\nuntrusted adversaries.",
+    "updated" : "2025-08-20T13:28:39Z",
+    "published" : "2025-08-20T13:28:39Z",
+    "authors" : [
+      {
+        "name" : "Farid Zaredar"
+      },
+      {
+        "name" : "Morteza Amini"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
