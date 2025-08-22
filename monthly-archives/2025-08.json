@@ -2339,5 +2339,112 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.15523v1",
+    "title" : "Stabilization of Perturbed Loss Function: Differential Privacy without\n  Gradient Noise",
+    "summary" : "We propose SPOF (Stabilization of Perturbed Loss Function), a differentially\nprivate training mechanism intended for multi-user local differential privacy\n(LDP). SPOF perturbs a stabilized Taylor expanded polynomial approximation of a\nmodel's training loss function, where each user's data is privatized by\ncalibrated noise added to the coefficients of the polynomial. Unlike\ngradient-based mechanisms such as differentially private stochastic gradient\ndescent (DP-SGD), SPOF does not require injecting noise into the gradients of\nthe loss function, which improves both computational efficiency and stability.\nThis formulation naturally supports simultaneous privacy guarantees across all\nusers. Moreover, SPOF exhibits robustness to environmental noise during\ntraining, maintaining stable performance even when user inputs are corrupted.\nWe compare SPOF with a multi-user extension of DP-SGD, evaluating both methods\nin a wireless body area network (WBAN) scenario involving heterogeneous user\ndata and stochastic channel noise from body sensors. Our results show that SPOF\nachieves, on average, up to 3.5% higher reconstruction accuracy and reduces\nmean training time by up to 57.2% compared to DP-SGD, demonstrating superior\nprivacy-utility trade-offs in multi-user environments.",
+    "updated" : "2025-08-21T12:54:19Z",
+    "published" : "2025-08-21T12:54:19Z",
+    "authors" : [
+      {
+        "name" : "Salman Habib"
+      },
+      {
+        "name" : "Remi Chou"
+      },
+      {
+        "name" : "Taejoon Kim"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.IT",
+      "math.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.15421v1",
+    "title" : "A Study of Privacy-preserving Language Modeling Approaches",
+    "summary" : "Recent developments in language modeling have increased their use in various\napplications and domains. Language models, often trained on sensitive data, can\nmemorize and disclose this information during privacy attacks, raising concerns\nabout protecting individuals' privacy rights. Preserving privacy in language\nmodels has become a crucial area of research, as privacy is one of the\nfundamental human rights. Despite its significance, understanding of how much\nprivacy risk these language models possess and how it can be mitigated is still\nlimited. This research addresses this by providing a comprehensive study of the\nprivacy-preserving language modeling approaches. This study gives an in-depth\noverview of these approaches, highlights their strengths, and investigates\ntheir limitations. The outcomes of this study contribute to the ongoing\nresearch on privacy-preserving language modeling, providing valuable insights\nand outlining future research directions.",
+    "updated" : "2025-08-21T10:22:40Z",
+    "published" : "2025-08-21T10:22:40Z",
+    "authors" : [
+      {
+        "name" : "Pritilata Saha"
+      },
+      {
+        "name" : "Abhirup Sinha"
+      }
+    ],
+    "categories" : [
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.15089v1",
+    "title" : "Tighter Privacy Analysis for Truncated Poisson Sampling",
+    "summary" : "We give a new privacy amplification analysis for truncated Poisson sampling,\na Poisson sampling variant that truncates a batch if it exceeds a given maximum\nbatch size.",
+    "updated" : "2025-08-20T22:00:23Z",
+    "published" : "2025-08-20T22:00:23Z",
+    "authors" : [
+      {
+        "name" : "Arun Ganesh"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.15036v1",
+    "title" : "MoEcho: Exploiting Side-Channel Attacks to Compromise User Privacy in\n  Mixture-of-Experts LLMs",
+    "summary" : "The transformer architecture has become a cornerstone of modern AI, fueling\nremarkable progress across applications in natural language processing,\ncomputer vision, and multimodal learning. As these models continue to scale\nexplosively for performance, implementation efficiency remains a critical\nchallenge. Mixture of Experts (MoE) architectures, selectively activating\nspecialized subnetworks (experts), offer a unique balance between model\naccuracy and computational cost. However, the adaptive routing in MoE\narchitectures, where input tokens are dynamically directed to specialized\nexperts based on their semantic meaning inadvertently opens up a new attack\nsurface for privacy breaches. These input-dependent activation patterns leave\ndistinctive temporal and spatial traces in hardware execution, which\nadversaries could exploit to deduce sensitive user data. In this work, we\npropose MoEcho, discovering a side channel analysis based attack surface that\ncompromises user privacy on MoE based systems. Specifically, in MoEcho, we\nintroduce four novel architectural side channels on different computing\nplatforms, including Cache Occupancy Channels and Pageout+Reload on CPUs, and\nPerformance Counter and TLB Evict+Reload on GPUs, respectively. Exploiting\nthese vulnerabilities, we propose four attacks that effectively breach user\nprivacy in large language models (LLMs) and vision language models (VLMs) based\non MoE architectures: Prompt Inference Attack, Response Reconstruction Attack,\nVisual Inference Attack, and Visual Reconstruction Attack. MoEcho is the first\nruntime architecture level security analysis of the popular MoE structure\ncommon in modern transformers, highlighting a serious security and privacy\nthreat and calling for effective and timely safeguards when harnessing MoE\nbased models for developing efficient large scale AI services.",
+    "updated" : "2025-08-20T20:02:35Z",
+    "published" : "2025-08-20T20:02:35Z",
+    "authors" : [
+      {
+        "name" : "Ruyi Ding"
+      },
+      {
+        "name" : "Tianhong Xu"
+      },
+      {
+        "name" : "Xinyi Shen"
+      },
+      {
+        "name" : "Aidong Adam Ding"
+      },
+      {
+        "name" : "Yunsi Fei"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.14905v1",
+    "title" : "Privacy Preserving Inference of Personalized Content for Out of Matrix\n  Users",
+    "summary" : "Recommender systems for niche and dynamic communities face persistent\nchallenges from data sparsity, cold start users and items, and privacy\nconstraints. Traditional collaborative filtering and content-based approaches\nunderperform in these settings, either requiring invasive user data or failing\nwhen preference histories are absent. We present DeepNaniNet, a deep neural\nrecommendation framework that addresses these challenges through an inductive\ngraph-based architecture combining user-item interactions, item-item relations,\nand rich textual review embeddings derived from BERT. Our design enables cold\nstart recommendations without profile mining, using a novel \"content basket\"\nuser representation and an autoencoder-based generalization strategy for unseen\nusers. We introduce AnimeULike, a new dataset of 10,000 anime titles and 13,000\nusers, to evaluate performance in realistic scenarios with high proportions of\nguest or low-activity users. DeepNaniNet achieves state-of-the-art cold start\nresults on the CiteULike benchmark, matches DropoutNet in user recall without\nperformance degradation for out-of-matrix users, and outperforms Weighted\nMatrix Factorization (WMF) and DropoutNet on AnimeULike warm start by up to 7x\nand 1.5x in Recall@100, respectively. Our findings demonstrate that DeepNaniNet\ndelivers high-quality, privacy-preserving recommendations in data-sparse, cold\nstart-heavy environments while effectively integrating heterogeneous content\nsources.",
+    "updated" : "2025-08-12T02:55:29Z",
+    "published" : "2025-08-12T02:55:29Z",
+    "authors" : [
+      {
+        "name" : "Michael Sun"
+      },
+      {
+        "name" : "Tai Vu"
+      },
+      {
+        "name" : "Andrew Wang"
+      }
+    ],
+    "categories" : [
+      "cs.IR",
+      "cs.AI",
+      "cs.LG"
+    ]
   }
 ]
