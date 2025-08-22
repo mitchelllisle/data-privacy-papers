@@ -494,158 +494,112 @@ analysis.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.18518v2">Transform Before You Query: A Privacy-Preserving Approach for Vector
-  Retrieval with Embedding Space Alignment</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB">
-  <p><b>Published on:</b> 2025-07-24T15:41:34Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ruiqi He, Zekun Fei, Jiaqi Li, Xinyuan Zhu, Biao Yi, Siyi Lv, Weijie Liu, Zheli Liu</p>
-    <p><b>Summary:</b> Vector Database (VDB) can efficiently index and search high-dimensional
-vector embeddings from unstructured data, crucially enabling fast semantic
-similarity search essential for modern AI applications like generative AI and
-recommendation systems. Since current VDB service providers predominantly use
-proprietary black-box models, users are forced to expose raw query text to them
-via API in exchange for the vector retrieval services. Consequently, if query
-text involves confidential records from finance or healthcare domains, this
-mechanism inevitably leads to critical leakage of user's sensitive information.
-To address this issue, we introduce STEER (\textbf{S}ecure \textbf{T}ransformed
-\textbf{E}mbedding v\textbf{E}ctor\textbf{ R}etrieval), a private vector
-retrieval framework that leverages the alignment relationship between the
-semantic spaces of different embedding models to derive approximate embeddings
-for the query text. STEER performs the retrieval using the approximate
-embeddings within the original VDB and requires no modifications to the server
-side. Our theoretical and experimental analyses demonstrate that STEER
-effectively safeguards query text privacy while maintaining the retrieval
-accuracy. Even though approximate embeddings are approximations of the
-embeddings from proprietary models, they still prevent the providers from
-recovering the query text through Embedding Inversion Attacks (EIAs). Extensive
-experimental results show that Recall@100 of STEER can basically achieve a
-decrease of less than 5\%. Furthermore, even when searching within a text
-corpus of millions of entries, STEER achieves a Recall@20 accuracy 20\% higher
-than current baselines.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.18365v3">RecPS: Privacy Risk Scoring for Recommender Systems</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-07-24T12:46:30Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jiajie He, Yuechun Gu, Keke Chen</p>
-    <p><b>Summary:</b> Recommender systems (RecSys) have become an essential component of many web
-applications. The core of the system is a recommendation model trained on
-highly sensitive user-item interaction data. While privacy-enhancing techniques
-are actively studied in the research community, the real-world model
-development still depends on minimal privacy protection, e.g., via controlled
-access. Users of such systems should have the right to choose \emph{not} to
-share highly sensitive interactions. However, there is no method allowing the
-user to know which interactions are more sensitive than others. Thus,
-quantifying the privacy risk of RecSys training data is a critical step to
-enabling privacy-aware RecSys model development and deployment. We propose a
-membership-inference attack (MIA)- based privacy scoring method, RecPS, to
-measure privacy risks at both the interaction and user levels. The RecPS
-interaction-level score definition is motivated and derived from differential
-privacy, which is then extended to the user-level scoring method. A critical
-component is the interaction-level MIA method RecLiRA, which gives high-quality
-membership estimation. We have conducted extensive experiments on well-known
-benchmark datasets and RecSys models to show the unique features and benefits
-of RecPS scoring in risk assessment and RecSys model unlearning.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.18253v1">Countering Privacy Nihilism</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-07-24T09:52:18Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Severin Engelmann, Helen Nissenbaum</p>
-    <p><b>Summary:</b> Of growing concern in privacy scholarship is artificial intelligence (AI), as
-a powerful producer of inferences. Taken to its limits, AI may be presumed
-capable of inferring "everything from everything," thereby making untenable any
-normative scheme, including privacy theory and privacy regulation, which rests
-on protecting privacy based on categories of data - sensitive versus
-non-sensitive, private versus public. Discarding data categories as a normative
-anchoring in privacy and data protection as a result of an unconditional
-acceptance of AI's inferential capacities is what we call privacy nihilism. An
-ethically reasoned response to AI inferences requires a sober consideration of
-AI capabilities rather than issuing an epistemic carte blanche. We introduce
-the notion of conceptual overfitting to expose how privacy nihilism turns a
-blind eye toward flawed epistemic practices in AI development. Conceptual
-overfitting refers to the adoption of norms of convenience that simplify the
-development of AI models by forcing complex constructs to fit data that are
-conceptually under-representative or even irrelevant. While conceptual
-overfitting serves as a helpful device to counter normative suggestions
-grounded in hyperbolic AI capability claims, AI inferences shake any privacy
-regulation that hinges protections based on restrictions around data
-categories. We propose moving away from privacy frameworks that focus solely on
-data type, neglecting all other factors. Theories like contextual integrity
-evaluate the normative value of privacy across several parameters, including
-the type of data, the actors involved in sharing it, and the purposes for which
-the information is used.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.18072v1">C-AAE: Compressively Anonymizing Autoencoders for Privacy-Preserving
-  Activity Recognition in Healthcare Sensor Streams</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
-  <p><b>Published on:</b> 2025-07-24T03:55:04Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ryusei Fujimoto, Yugo Nakamura, Yutaka Arakawa</p>
-    <p><b>Summary:</b> Wearable accelerometers and gyroscopes encode fine-grained behavioural
-signatures that can be exploited to re-identify users, making privacy
-protection essential for healthcare applications. We introduce C-AAE, a
-compressive anonymizing autoencoder that marries an Anonymizing AutoEncoder
-(AAE) with Adaptive Differential Pulse-Code Modulation (ADPCM). The AAE first
-projects raw sensor windows into a latent space that retains activity-relevant
-features while suppressing identity cues. ADPCM then differentially encodes
-this latent stream, further masking residual identity information and shrinking
-the bitrate. Experiments on the MotionSense and PAMAP2 datasets show that C-AAE
-cuts user re-identification F1 scores by 10-15 percentage points relative to
-AAE alone, while keeping activity-recognition F1 within 5 percentage points of
-the unprotected baseline. ADPCM also reduces data volume by roughly 75 %,
-easing transmission and storage overheads. These results demonstrate that C-AAE
-offers a practical route to balancing privacy and utility in continuous,
-sensor-based activity recognition for healthcare.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.18055v1">Privacy-Preserving Synthetic Review Generation with Diverse Writing
-  Styles Using LLMs</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-07-24T03:12:16Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Tevin Atwal, Chan Nam Tieu, Yefeng Yuan, Zhan Shi, Yuhong Liu, Liang Cheng</p>
-    <p><b>Summary:</b> The increasing use of synthetic data generated by Large Language Models
-(LLMs) presents both opportunities and challenges in data-driven applications.
-While synthetic data provides a cost-effective, scalable alternative to
-real-world data to facilitate model training, its diversity and privacy risks
-remain underexplored. Focusing on text-based synthetic data, we propose a
-comprehensive set of metrics to quantitatively assess the diversity (i.e.,
-linguistic expression, sentiment, and user perspective), and privacy (i.e.,
-re-identification risk and stylistic outliers) of synthetic datasets generated
-by several state-of-the-art LLMs. Experiment results reveal significant
-limitations in LLMs' capabilities in generating diverse and privacy-preserving
-synthetic data. Guided by the evaluation results, a prompt-based approach is
-proposed to enhance the diversity of synthetic reviews while preserving
-reviewer privacy.</p>
-  </details>
-</div>
-
-
 
 <h2>2025-08</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.15523v1">Stabilization of Perturbed Loss Function: Differential Privacy without
+  Gradient Noise</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
+  <p><b>Published on:</b> 2025-08-21T12:54:19Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Salman Habib, Remi Chou, Taejoon Kim</p>
+    <p><b>Summary:</b> We propose SPOF (Stabilization of Perturbed Loss Function), a differentially
+private training mechanism intended for multi-user local differential privacy
+(LDP). SPOF perturbs a stabilized Taylor expanded polynomial approximation of a
+model's training loss function, where each user's data is privatized by
+calibrated noise added to the coefficients of the polynomial. Unlike
+gradient-based mechanisms such as differentially private stochastic gradient
+descent (DP-SGD), SPOF does not require injecting noise into the gradients of
+the loss function, which improves both computational efficiency and stability.
+This formulation naturally supports simultaneous privacy guarantees across all
+users. Moreover, SPOF exhibits robustness to environmental noise during
+training, maintaining stable performance even when user inputs are corrupted.
+We compare SPOF with a multi-user extension of DP-SGD, evaluating both methods
+in a wireless body area network (WBAN) scenario involving heterogeneous user
+data and stochastic channel noise from body sensors. Our results show that SPOF
+achieves, on average, up to 3.5% higher reconstruction accuracy and reduces
+mean training time by up to 57.2% compared to DP-SGD, demonstrating superior
+privacy-utility trade-offs in multi-user environments.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.15421v1">A Study of Privacy-preserving Language Modeling Approaches</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2025-08-21T10:22:40Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Pritilata Saha, Abhirup Sinha</p>
+    <p><b>Summary:</b> Recent developments in language modeling have increased their use in various
+applications and domains. Language models, often trained on sensitive data, can
+memorize and disclose this information during privacy attacks, raising concerns
+about protecting individuals' privacy rights. Preserving privacy in language
+models has become a crucial area of research, as privacy is one of the
+fundamental human rights. Despite its significance, understanding of how much
+privacy risk these language models possess and how it can be mitigated is still
+limited. This research addresses this by providing a comprehensive study of the
+privacy-preserving language modeling approaches. This study gives an in-depth
+overview of these approaches, highlights their strengths, and investigates
+their limitations. The outcomes of this study contribute to the ongoing
+research on privacy-preserving language modeling, providing valuable insights
+and outlining future research directions.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.15089v1">Tighter Privacy Analysis for Truncated Poisson Sampling</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-08-20T22:00:23Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Arun Ganesh</p>
+    <p><b>Summary:</b> We give a new privacy amplification analysis for truncated Poisson sampling,
+a Poisson sampling variant that truncates a batch if it exceeds a given maximum
+batch size.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.15036v1">MoEcho: Exploiting Side-Channel Attacks to Compromise User Privacy in
+  Mixture-of-Experts LLMs</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-08-20T20:02:35Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ruyi Ding, Tianhong Xu, Xinyi Shen, Aidong Adam Ding, Yunsi Fei</p>
+    <p><b>Summary:</b> The transformer architecture has become a cornerstone of modern AI, fueling
+remarkable progress across applications in natural language processing,
+computer vision, and multimodal learning. As these models continue to scale
+explosively for performance, implementation efficiency remains a critical
+challenge. Mixture of Experts (MoE) architectures, selectively activating
+specialized subnetworks (experts), offer a unique balance between model
+accuracy and computational cost. However, the adaptive routing in MoE
+architectures, where input tokens are dynamically directed to specialized
+experts based on their semantic meaning inadvertently opens up a new attack
+surface for privacy breaches. These input-dependent activation patterns leave
+distinctive temporal and spatial traces in hardware execution, which
+adversaries could exploit to deduce sensitive user data. In this work, we
+propose MoEcho, discovering a side channel analysis based attack surface that
+compromises user privacy on MoE based systems. Specifically, in MoEcho, we
+introduce four novel architectural side channels on different computing
+platforms, including Cache Occupancy Channels and Pageout+Reload on CPUs, and
+Performance Counter and TLB Evict+Reload on GPUs, respectively. Exploiting
+these vulnerabilities, we propose four attacks that effectively breach user
+privacy in large language models (LLMs) and vision language models (VLMs) based
+on MoE architectures: Prompt Inference Attack, Response Reconstruction Attack,
+Visual Inference Attack, and Visual Reconstruction Attack. MoEcho is the first
+runtime architecture level security analysis of the popular MoE structure
+common in modern transformers, highlighting a serious security and privacy
+threat and calling for effective and timely safeguards when harnessing MoE
+based models for developing efficient large scale AI services.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2508.14815v1">A Lightweight Privacy-Preserving Smart Metering Billing Protocol with
@@ -1644,6 +1598,38 @@ and uncertain model distribution. By structuring compliance decisions into
 practical workflows and simplifying institutional data management plans, PETLP
 enables researchers to navigate regulatory complexity with confidence, bridging
 the gap between legal requirements and research practice.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.14905v1">Privacy Preserving Inference of Personalized Content for Out of Matrix
+  Users</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-08-12T02:55:29Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Michael Sun, Tai Vu, Andrew Wang</p>
+    <p><b>Summary:</b> Recommender systems for niche and dynamic communities face persistent
+challenges from data sparsity, cold start users and items, and privacy
+constraints. Traditional collaborative filtering and content-based approaches
+underperform in these settings, either requiring invasive user data or failing
+when preference histories are absent. We present DeepNaniNet, a deep neural
+recommendation framework that addresses these challenges through an inductive
+graph-based architecture combining user-item interactions, item-item relations,
+and rich textual review embeddings derived from BERT. Our design enables cold
+start recommendations without profile mining, using a novel "content basket"
+user representation and an autoencoder-based generalization strategy for unseen
+users. We introduce AnimeULike, a new dataset of 10,000 anime titles and 13,000
+users, to evaluate performance in realistic scenarios with high proportions of
+guest or low-activity users. DeepNaniNet achieves state-of-the-art cold start
+results on the CiteULike benchmark, matches DropoutNet in user recall without
+performance degradation for out-of-matrix users, and outperforms Weighted
+Matrix Factorization (WMF) and DropoutNet on AnimeULike warm start by up to 7x
+and 1.5x in Recall@100, respectively. Our findings demonstrate that DeepNaniNet
+delivers high-quality, privacy-preserving recommendations in data-sparse, cold
+start-heavy environments while effectively integrating heterogeneous content
+sources.</p>
   </details>
 </div>
 
