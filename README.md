@@ -466,34 +466,6 @@ channel.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.19116v1">Graph Structure Learning with Privacy Guarantees for Open Graph Data</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-07-25T09:51:12Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Muhao Guo, Jiaqi Wu, Yang Weng, Yizheng Liao, Shengzhe Chen</p>
-    <p><b>Summary:</b> Ensuring privacy in large-scale open datasets is increasingly challenging
-under regulations such as the General Data Protection Regulation (GDPR). While
-differential privacy (DP) provides strong theoretical guarantees, it primarily
-focuses on noise injection during model training, neglecting privacy
-preservation at the data publishing stage. Existing privacy-preserving data
-publishing (PPDP) approaches struggle to balance privacy and utility,
-particularly when data publishers and users are distinct entities. To address
-this gap, we focus on the graph recovery problem and propose a novel
-privacy-preserving estimation framework for open graph data, leveraging
-Gaussian DP (GDP) with a structured noise-injection mechanism. Unlike
-traditional methods that perturb gradients or model updates, our approach
-ensures unbiased graph structure recovery while enforcing DP at the data
-publishing stage. Moreover, we provide theoretical guarantees on estimation
-accuracy and extend our method to discrete-variable graphs, a setting often
-overlooked in DP research. Experimental results in graph learning demonstrate
-robust performance, offering a viable solution for privacy-conscious graph
-analysis.</p>
-  </details>
-</div>
-
-
 
 <h2>2025-08</h2>
 
@@ -700,6 +672,36 @@ results show that with a 1024-bit RSA key, a 7-day duration, and four reports
 per day, our protocol runs in approximately 0.51s and consumes about 4.5 MB of
 memory. From a privacy perspective, the protocol resists semi-trusted and
 untrusted adversaries.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.15844v1">Ransomware Negotiation: Dynamics and Privacy-Preserving Mechanism Design</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Science and Game Theory-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-08-19T20:29:12Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Haohui Zhang, Sirui Shen, Xinyu Hu, Chenglu Jin</p>
+    <p><b>Summary:</b> Ransomware attacks have become a pervasive and costly form of cybercrime,
+causing tens of millions of dollars in losses as organizations increasingly pay
+ransoms to mitigate operational disruptions and financial risks. While prior
+research has largely focused on proactive defenses, the post-infection
+negotiation dynamics between attackers and victims remains underexplored. This
+paper presents a formal analysis of attacker-victim interactions in modern
+ransomware incidents using a finite-horizon alternating-offers bargaining game
+model. Our analysis demonstrates how bargaining alters the optimal strategies
+of both parties. In practice, incomplete information-attackers lacking
+knowledge of victims' data valuations and victims lacking knowledge of
+attackers' reservation ransoms-can prolong negotiations and increase victims'
+business interruption costs. To address this, we design a Bayesian
+incentive-compatible mechanism that facilitates rapid agreement on a fair
+ransom without requiring either party to disclose private valuations. We
+further implement this mechanism using secure two-party computation based on
+garbled circuits, thereby eliminating the need for trusted intermediaries and
+preserving the privacy of both parties throughout the negotiation. To the best
+of our knowledge, this is the first automated, privacy-preserving negotiation
+mechanism grounded in a formal analysis of ransomware negotiation dynamics.</p>
   </details>
 </div>
 
