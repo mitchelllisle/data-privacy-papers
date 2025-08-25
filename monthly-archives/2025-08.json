@@ -2446,5 +2446,30 @@
       "cs.AI",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.15844v1",
+    "title" : "Ransomware Negotiation: Dynamics and Privacy-Preserving Mechanism Design",
+    "summary" : "Ransomware attacks have become a pervasive and costly form of cybercrime,\ncausing tens of millions of dollars in losses as organizations increasingly pay\nransoms to mitigate operational disruptions and financial risks. While prior\nresearch has largely focused on proactive defenses, the post-infection\nnegotiation dynamics between attackers and victims remains underexplored. This\npaper presents a formal analysis of attacker-victim interactions in modern\nransomware incidents using a finite-horizon alternating-offers bargaining game\nmodel. Our analysis demonstrates how bargaining alters the optimal strategies\nof both parties. In practice, incomplete information-attackers lacking\nknowledge of victims' data valuations and victims lacking knowledge of\nattackers' reservation ransoms-can prolong negotiations and increase victims'\nbusiness interruption costs. To address this, we design a Bayesian\nincentive-compatible mechanism that facilitates rapid agreement on a fair\nransom without requiring either party to disclose private valuations. We\nfurther implement this mechanism using secure two-party computation based on\ngarbled circuits, thereby eliminating the need for trusted intermediaries and\npreserving the privacy of both parties throughout the negotiation. To the best\nof our knowledge, this is the first automated, privacy-preserving negotiation\nmechanism grounded in a formal analysis of ransomware negotiation dynamics.",
+    "updated" : "2025-08-19T20:29:12Z",
+    "published" : "2025-08-19T20:29:12Z",
+    "authors" : [
+      {
+        "name" : "Haohui Zhang"
+      },
+      {
+        "name" : "Sirui Shen"
+      },
+      {
+        "name" : "Xinyu Hu"
+      },
+      {
+        "name" : "Chenglu Jin"
+      }
+    ],
+    "categories" : [
+      "cs.GT",
+      "cs.CR"
+    ]
   }
 ]
