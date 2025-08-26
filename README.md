@@ -297,177 +297,176 @@ protects privacy while preserving analytical utility.</p>
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.21769v1">Factorization by extremal privacy mechanisms: new insights into
-  efficiency</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Probability-5BC0EB">  
-  <p><b>Published on:</b> 2025-07-29T12:52:09Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Chiara Amorino, Arnaud Gloter</p>
-    <p><b>Summary:</b> We study the problem of efficiency under $\alpha$ local differential privacy
-($\alpha$ LDP) in both discrete and continuous settings. Building on a
-factorization lemma, which shows that any privacy mechanism can be decomposed
-into an extremal mechanism followed by additional randomization, we reduce the
-Fisher information maximization problem to a search over extremal mechanisms.
-The representation of extremal mechanisms requires working in infinite
-dimensional spaces and invokes advanced tools from convex and functional
-analysis, such as Choquet's theorem. Our analysis establishes matching upper
-and lower bounds on the Fisher information in the high privacy regime ($\alpha
-\to 0$), and proves that the maximization problem always admits a solution for
-any $\alpha$. As a concrete application, we consider the problem of estimating
-the parameter of a uniform distribution on $[0, \theta]$ under $\alpha$ LDP.
-Guided by our theoretical findings, we design an extremal mechanism that yields
-a consistent and asymptotically efficient estimator in high privacy regime.
-Numerical experiments confirm our theoretical results.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.20688v1">Guard-GBDT: Efficient Privacy-Preserving Approximated GBDT Training on
-  Vertical Dataset</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-07-28T10:16:37Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Anxiao Song, Shujie Cui, Jianli Bai, Ke Cheng, Yulong Shen, Giovanni Russello</p>
-    <p><b>Summary:</b> In light of increasing privacy concerns and stringent legal regulations,
-using secure multiparty computation (MPC) to enable collaborative GBDT model
-training among multiple data owners has garnered significant attention. Despite
-this, existing MPC-based GBDT frameworks face efficiency challenges due to high
-communication costs and the computation burden of non-linear operations, such
-as division and sigmoid calculations. In this work, we introduce Guard-GBDT, an
-innovative framework tailored for efficient and privacy-preserving GBDT
-training on vertical datasets. Guard-GBDT bypasses MPC-unfriendly division and
-sigmoid functions by using more streamlined approximations and reduces
-communication overhead by compressing the messages exchanged during gradient
-aggregation. We implement a prototype of Guard-GBDT and extensively evaluate
-its performance and accuracy on various real-world datasets. The results show
-that Guard-GBDT outperforms state-of-the-art HEP-XGB (CIKM'21) and SiGBDT (ASIA
-CCS'24) by up to $2.71\times$ and $12.21 \times$ on LAN network and up to
-$2.7\times$ and $8.2\times$ on WAN network. Guard-GBDT also achieves comparable
-accuracy with SiGBDT and plaintext XGBoost (better than HEP-XGB ), which
-exhibits a deviation of $\pm1\%$ to $\pm2\%$ only. Our implementation code is
-provided at https://github.com/XidianNSS/Guard-GBDT.git.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.20573v1">Reminiscence Attack on Residuals: Exploiting Approximate Machine
-  Unlearning for Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-07-28T07:12:12Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yaxin Xiao, Qingqing Ye, Li Hu, Huadi Zheng, Haibo Hu, Zi Liang, Haoyang Li, Yijie Jiao</p>
-    <p><b>Summary:</b> Machine unlearning enables the removal of specific data from ML models to
-uphold the right to be forgotten. While approximate unlearning algorithms offer
-efficient alternatives to full retraining, this work reveals that they fail to
-adequately protect the privacy of unlearned data. In particular, these
-algorithms introduce implicit residuals which facilitate privacy attacks
-targeting at unlearned data. We observe that these residuals persist regardless
-of model architectures, parameters, and unlearning algorithms, exposing a new
-attack surface beyond conventional output-based leakage. Based on this insight,
-we propose the Reminiscence Attack (ReA), which amplifies the correlation
-between residuals and membership privacy through targeted fine-tuning
-processes. ReA achieves up to 1.90x and 1.12x higher accuracy than prior
-attacks when inferring class-wise and sample-wise membership, respectively. To
-mitigate such residual-induced privacy risk, we develop a dual-phase
-approximate unlearning framework that first eliminates deep-layer unlearned
-data traces and then enforces convergence stability to prevent models from
-"pseudo-convergence", where their outputs are similar to retrained models but
-still preserve unlearned residuals. Our framework works for both classification
-and generation tasks. Experimental evaluations confirm that our approach
-maintains high unlearning efficacy, while reducing the adaptive privacy attack
-accuracy to nearly random guess, at the computational cost of 2-12% of full
-retraining from scratch.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.20557v1">FED-PsyAU: Privacy-Preserving Micro-Expression Recognition via
-  Psychological AU Coordination and Dynamic Facial Motion Modeling</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2025-07-28T06:42:15Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jingting Li, Yu Qian, Lin Zhao, Su-Jing Wang</p>
-    <p><b>Summary:</b> Micro-expressions (MEs) are brief, low-intensity, often localized facial
-expressions. They could reveal genuine emotions individuals may attempt to
-conceal, valuable in contexts like criminal interrogation and psychological
-counseling. However, ME recognition (MER) faces challenges, such as small
-sample sizes and subtle features, which hinder efficient modeling.
-Additionally, real-world applications encounter ME data privacy issues, leaving
-the task of enhancing recognition across settings under privacy constraints
-largely unexplored. To address these issues, we propose a FED-PsyAU research
-framework. We begin with a psychological study on the coordination of upper and
-lower facial action units (AUs) to provide structured prior knowledge of facial
-muscle dynamics. We then develop a DPK-GAT network that combines these
-psychological priors with statistical AU patterns, enabling hierarchical
-learning of facial motion features from regional to global levels, effectively
-enhancing MER performance. Additionally, our federated learning framework
-advances MER capabilities across multiple clients without data sharing,
-preserving privacy and alleviating the limited-sample issue for each client.
-Extensive experiments on commonly-used ME databases demonstrate the
-effectiveness of our approach.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.20537v1">Next-Generation Quantum Neural Networks: Enhancing Efficiency, Security,
-  and Privacy</a></h3>
-  
-  <p><b>Published on:</b> 2025-07-28T05:43:02Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Nouhaila Innan, Muhammad Kashif, Alberto Marchisio, Mohamed Bennai, Muhammad Shafique</p>
-    <p><b>Summary:</b> This paper provides an integrated perspective on addressing key challenges in
-developing reliable and secure Quantum Neural Networks (QNNs) in the Noisy
-Intermediate-Scale Quantum (NISQ) era. In this paper, we present an integrated
-framework that leverages and combines existing approaches to enhance QNN
-efficiency, security, and privacy. Specifically, established optimization
-strategies, including efficient parameter initialization, residual quantum
-circuit connections, and systematic quantum architecture exploration, are
-integrated to mitigate issues such as barren plateaus and error propagation.
-Moreover, the methodology incorporates current defensive mechanisms against
-adversarial attacks. Finally, Quantum Federated Learning (QFL) is adopted
-within this framework to facilitate privacy-preserving collaborative training
-across distributed quantum systems. Collectively, this synthesized approach
-seeks to enhance the robustness and real-world applicability of QNNs, laying
-the foundation for reliable quantum-enhanced machine learning applications in
-finance, healthcare, and cybersecurity.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2507.20060v1">ModShift: Model Privacy via Designed Shifts</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
-  <p><b>Published on:</b> 2025-07-26T21:00:56Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Nomaan A. Kherani, Urbashi Mitra</p>
-    <p><b>Summary:</b> In this paper, shifts are introduced to preserve model privacy against an
-eavesdropper in federated learning. Model learning is treated as a parameter
-estimation problem. This perspective allows us to derive the Fisher Information
-matrix of the model updates from the shifted updates and drive them to
-singularity, thus posing a hard estimation problem for Eve. The shifts are
-securely shared with the central server to maintain model accuracy at the
-server and participating devices. A convergence test is proposed to detect if
-model updates have been tampered with and we show that our scheme passes this
-test. Numerical results show that our scheme achieves a higher model shift when
-compared to a noise injection scheme while requiring a lesser bandwidth secret
-channel.</p>
-  </details>
-</div>
-
-
 
 <h2>2025-08</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.17962v1">"Nobody should control the end user": Exploring Privacy Perspectives of
+  Indian Internet Users in Light of DPDPA</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2025-08-25T12:22:25Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Sana Athar, Devashish Gosain, Anja Feldmann, Mannat Kaur, Ha Dao</p>
+    <p><b>Summary:</b> With the rapid increase in online interactions, concerns over data privacy
+and transparency of data processing practices have become more pronounced.
+While regulations like the GDPR have driven the widespread adoption of cookie
+banners in the EU, India's Digital Personal Data Protection Act (DPDPA)
+promises similar changes domestically, aiming to introduce a framework for data
+protection. However, certain clauses within the DPDPA raise concerns about
+potential infringements on user privacy, given the exemptions for government
+accountability and user consent requirements. In this study, for the first
+time, we explore Indian Internet users' awareness and perceptions of cookie
+banners, online privacy, and privacy regulations, especially in light of the
+newly passed DPDPA. We conducted an online anonymous survey with 428 Indian
+participants, which addressed: (1) users' perspectives on cookie banners, (2)
+their attitudes towards online privacy and privacy regulations, and (3) their
+acceptance of 10 contentious DPDPA clauses that favor state authorities and may
+enable surveillance. Our findings reveal that privacy-conscious users often
+lack consistent awareness of privacy mechanisms, and their concerns do not
+always lead to protective actions. Our thematic analysis of 143 open ended
+responses shows that users' privacy and data protection concerns are rooted in
+skepticism towards the government, shaping their perceptions of the DPDPA and
+fueling demands for policy revisions. Our study highlights the need for clearer
+communication regarding the DPDPA, user-centric consent mechanisms, and policy
+refinements to enhance data privacy practices in India.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.17341v1">MetaFed: Advancing Privacy, Performance, and Sustainability in Federated
+  Metaverse Systems</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E">
+  <p><b>Published on:</b> 2025-08-24T12:53:06Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Muhammet Anil Yagiz, Zeynep Sude Cengiz, Polat Goktas</p>
+    <p><b>Summary:</b> The rapid expansion of immersive Metaverse applications introduces complex
+challenges at the intersection of performance, privacy, and environmental
+sustainability. Centralized architectures fall short in addressing these
+demands, often resulting in elevated energy consumption, latency, and privacy
+concerns. This paper proposes MetaFed, a decentralized federated learning (FL)
+framework that enables sustainable and intelligent resource orchestration for
+Metaverse environments. MetaFed integrates (i) multi-agent reinforcement
+learning for dynamic client selection, (ii) privacy-preserving FL using
+homomorphic encryption, and (iii) carbon-aware scheduling aligned with
+renewable energy availability. Evaluations on MNIST and CIFAR-10 using
+lightweight ResNet architectures demonstrate that MetaFed achieves up to 25\%
+reduction in carbon emissions compared to conventional approaches, while
+maintaining high accuracy and minimal communication overhead. These results
+highlight MetaFed as a scalable solution for building environmentally
+responsible and privacy-compliant Metaverse infrastructures.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.17222v1">Exposing Privacy Risks in Graph Retrieval-Augmented Generation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB">
+  <p><b>Published on:</b> 2025-08-24T06:19:44Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jiale Liu, Jiahao Zhang, Suhang Wang</p>
+    <p><b>Summary:</b> Retrieval-Augmented Generation (RAG) is a powerful technique for enhancing
+Large Language Models (LLMs) with external, up-to-date knowledge. Graph RAG has
+emerged as an advanced paradigm that leverages graph-based knowledge structures
+to provide more coherent and contextually rich answers. However, the move from
+plain document retrieval to structured graph traversal introduces new,
+under-explored privacy risks. This paper investigates the data extraction
+vulnerabilities of the Graph RAG systems. We design and execute tailored data
+extraction attacks to probe their susceptibility to leaking both raw text and
+structured data, such as entities and their relationships. Our findings reveal
+a critical trade-off: while Graph RAG systems may reduce raw text leakage, they
+are significantly more vulnerable to the extraction of structured entity and
+relationship information. We also explore potential defense mechanisms to
+mitigate these novel attack surfaces. This work provides a foundational
+analysis of the unique privacy challenges in Graph RAG and offers insights for
+building more secure systems.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.17135v1">Rao Differential Privacy</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
+  <p><b>Published on:</b> 2025-08-23T20:25:59Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Carlos Soto</p>
+    <p><b>Summary:</b> Differential privacy (DP) has recently emerged as a definition of privacy to
+release private estimates. DP calibrates noise to be on the order of an
+individuals contribution. Due to the this calibration a private estimate
+obscures any individual while preserving the utility of the estimate. Since the
+original definition, many alternate definitions have been proposed. These
+alternates have been proposed for various reasons including improvements on
+composition results, relaxations, and formalizations. Nevertheless, thus far
+nearly all definitions of privacy have used a divergence of densities as the
+basis of the definition. In this paper we take an information geometry
+perspective towards differential privacy. Specifically, rather than define
+privacy via a divergence, we define privacy via the Rao distance. We show that
+our proposed definition of privacy shares the interpretation of previous
+definitions of privacy while improving on sequential composition.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.17043v1">ZAPS: A Zero-Knowledge Proof Protocol for Secure UAV Authentication with
+  Flight Path Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-08-23T14:45:25Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shayesta Naziri, Xu Wang, Guangsheng Yu, Christy Jie Liang, Wei Ni</p>
+    <p><b>Summary:</b> The increasing deployment of Unmanned Aerial Vehicles (UAVs) for military,
+commercial, and logistics applications has raised significant concerns
+regarding flight path privacy. Conventional UAV communication systems often
+expose flight path data to third parties, making them vulnerable to tracking,
+surveillance, and location inference attacks. Existing encryption techniques
+provide security but fail to ensure complete privacy, as adversaries can still
+infer movement patterns through metadata analysis. To address these challenges,
+we propose a zk-SNARK(Zero-Knowledge Succinct Non-Interactive Argument of
+Knowledge)-based privacy-preserving flight path authentication and verification
+framework. Our approach ensures that a UAV can prove its authorisation,
+validate its flight path with a control centre, and comply with regulatory
+constraints without revealing any sensitive trajectory information. By
+leveraging zk-SNARKs, the UAV can generate cryptographic proofs that verify
+compliance with predefined flight policies while keeping the exact path and
+location undisclosed. This method mitigates risks associated with real-time
+tracking, identity exposure, and unauthorised interception, thereby enhancing
+UAV operational security in adversarial environments. Our proposed solution
+balances privacy, security, and computational efficiency, making it suitable
+for resource-constrained UAVs in both civilian and military applications.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.16765v1">Guarding Your Conversations: Privacy Gatekeepers for Secure Interactions
+  with Cloud-Based AI Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2025-08-22T19:49:03Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> GodsGift Uzor, Hasan Al-Qudah, Ynes Ineza, Abdul Serwadda</p>
+    <p><b>Summary:</b> The interactive nature of Large Language Models (LLMs), which closely track
+user data and context, has prompted users to share personal and private
+information in unprecedented ways. Even when users opt out of allowing their
+data to be used for training, these privacy settings offer limited protection
+when LLM providers operate in jurisdictions with weak privacy laws, invasive
+government surveillance, or poor data security practices. In such cases, the
+risk of sensitive information, including Personally Identifiable Information
+(PII), being mishandled or exposed remains high. To address this, we propose
+the concept of an "LLM gatekeeper", a lightweight, locally run model that
+filters out sensitive information from user queries before they are sent to the
+potentially untrustworthy, though highly capable, cloud-based LLM. Through
+experiments with human subjects, we demonstrate that this dual-model approach
+introduces minimal overhead while significantly enhancing user privacy, without
+compromising the quality of LLM responses.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2508.15523v1">Stabilization of Perturbed Loss Function: Differential Privacy without
@@ -901,7 +900,7 @@ innovative technical solutions.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.12093v1">PP-STAT: An Efficient Privacy-Preserving Statistical Analysis Framework
+  <h3><a href="http://arxiv.org/abs/2508.12093v2">PP-STAT: An Efficient Privacy-Preserving Statistical Analysis Framework
   using Homomorphic Encryption</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2025-08-16T16:24:35Z</p>
@@ -2835,7 +2834,8 @@ Gupta \emph{et al}. (PETS 24) and $22 \times$ speedup compared to Knott
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.01587v1">Lifelong Person Re-identification via Privacy-Preserving Data Replay</a></h3>
+  <h3><a href="http://arxiv.org/abs/2508.01587v2">Pr$^2$R: Information-Fused and Style-Aware Privacy-Preserving Replay for
+  Lifelong Person Re-Identification</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
   <p><b>Published on:</b> 2025-08-03T05:00:19Z</p>
   <details>
@@ -2849,21 +2849,20 @@ historical exemplars raises concerns over data privacy. To avoid this,
 exemplar-free approaches attempt to match the distribution of past data without
 storing raw samples. Despite being privacy-friendly, these methods often suffer
 from performance degradation due to the forgetting of specific past knowledge
-representations. To this end, we propose to condense information from
-sequential data into the pixel space in the replay memory, enabling
-Privacy-Preserving Replay (Pr^2R). More specifically, by distilling the
-training characteristics of multiple real images into a single image, the
-condensed samples undergo pixel-level changes. This not only protects the
-privacy of the original data but also makes the replay samples more
-representative for sequential tasks. During the style replay phase, we align
-the current domain to the previous one while simultaneously adapting the replay
-samples to match the style of the current domain. This dual-alignment strategy
-effectively mitigates both class-incremental challenges and forgetting caused
-by domain shifts. Extensive experiments on multiple benchmarks show that the
-proposed method significantly improves replay effectiveness while preserving
-data privacy. Specifically, Pr^2R achieves 4% and 6% higher accuracy on
-sequential tasks compared to the current state-of-the-art and other
-replay-based methods, respectively.</p>
+representations. To this end, we propose to fuse information from sequential
+data into the pixel space in the replay memory, enabling Privacy-Preserving
+Replay (Pr$^2$R). More specifically, by distilling the training characteristics
+of multiple real images into a single image, the fused samples undergo
+pixel-level changes. This not only protects the privacy of the original data
+but also makes the replay samples more representative for sequential tasks.
+During the style replay phase, we align the current domain to the previous one
+while simultaneously adapting the replay samples to match the style of the
+current domain. This dual-alignment strategy effectively mitigates both
+class-incremental challenges and forgetting caused by domain shifts. Extensive
+experiments on multiple benchmarks show that the proposed method significantly
+improves replay effectiveness while preserving data privacy. Specifically,
+Pr$^2$R achieves 4% and 6% higher accuracy on sequential tasks compared to the
+current state-of-the-art and other replay-based methods, respectively.</p>
   </details>
 </div>
 
