@@ -2471,5 +2471,192 @@
       "cs.GT",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.17962v1",
+    "title" : "\"Nobody should control the end user\": Exploring Privacy Perspectives of\n  Indian Internet Users in Light of DPDPA",
+    "summary" : "With the rapid increase in online interactions, concerns over data privacy\nand transparency of data processing practices have become more pronounced.\nWhile regulations like the GDPR have driven the widespread adoption of cookie\nbanners in the EU, India's Digital Personal Data Protection Act (DPDPA)\npromises similar changes domestically, aiming to introduce a framework for data\nprotection. However, certain clauses within the DPDPA raise concerns about\npotential infringements on user privacy, given the exemptions for government\naccountability and user consent requirements. In this study, for the first\ntime, we explore Indian Internet users' awareness and perceptions of cookie\nbanners, online privacy, and privacy regulations, especially in light of the\nnewly passed DPDPA. We conducted an online anonymous survey with 428 Indian\nparticipants, which addressed: (1) users' perspectives on cookie banners, (2)\ntheir attitudes towards online privacy and privacy regulations, and (3) their\nacceptance of 10 contentious DPDPA clauses that favor state authorities and may\nenable surveillance. Our findings reveal that privacy-conscious users often\nlack consistent awareness of privacy mechanisms, and their concerns do not\nalways lead to protective actions. Our thematic analysis of 143 open ended\nresponses shows that users' privacy and data protection concerns are rooted in\nskepticism towards the government, shaping their perceptions of the DPDPA and\nfueling demands for policy revisions. Our study highlights the need for clearer\ncommunication regarding the DPDPA, user-centric consent mechanisms, and policy\nrefinements to enhance data privacy practices in India.",
+    "updated" : "2025-08-25T12:22:25Z",
+    "published" : "2025-08-25T12:22:25Z",
+    "authors" : [
+      {
+        "name" : "Sana Athar"
+      },
+      {
+        "name" : "Devashish Gosain"
+      },
+      {
+        "name" : "Anja Feldmann"
+      },
+      {
+        "name" : "Mannat Kaur"
+      },
+      {
+        "name" : "Ha Dao"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.17341v1",
+    "title" : "MetaFed: Advancing Privacy, Performance, and Sustainability in Federated\n  Metaverse Systems",
+    "summary" : "The rapid expansion of immersive Metaverse applications introduces complex\nchallenges at the intersection of performance, privacy, and environmental\nsustainability. Centralized architectures fall short in addressing these\ndemands, often resulting in elevated energy consumption, latency, and privacy\nconcerns. This paper proposes MetaFed, a decentralized federated learning (FL)\nframework that enables sustainable and intelligent resource orchestration for\nMetaverse environments. MetaFed integrates (i) multi-agent reinforcement\nlearning for dynamic client selection, (ii) privacy-preserving FL using\nhomomorphic encryption, and (iii) carbon-aware scheduling aligned with\nrenewable energy availability. Evaluations on MNIST and CIFAR-10 using\nlightweight ResNet architectures demonstrate that MetaFed achieves up to 25\\%\nreduction in carbon emissions compared to conventional approaches, while\nmaintaining high accuracy and minimal communication overhead. These results\nhighlight MetaFed as a scalable solution for building environmentally\nresponsible and privacy-compliant Metaverse infrastructures.",
+    "updated" : "2025-08-24T12:53:06Z",
+    "published" : "2025-08-24T12:53:06Z",
+    "authors" : [
+      {
+        "name" : "Muhammet Anil Yagiz"
+      },
+      {
+        "name" : "Zeynep Sude Cengiz"
+      },
+      {
+        "name" : "Polat Goktas"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "cs.CY",
+      "cs.DC",
+      "cs.ET"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.17222v1",
+    "title" : "Exposing Privacy Risks in Graph Retrieval-Augmented Generation",
+    "summary" : "Retrieval-Augmented Generation (RAG) is a powerful technique for enhancing\nLarge Language Models (LLMs) with external, up-to-date knowledge. Graph RAG has\nemerged as an advanced paradigm that leverages graph-based knowledge structures\nto provide more coherent and contextually rich answers. However, the move from\nplain document retrieval to structured graph traversal introduces new,\nunder-explored privacy risks. This paper investigates the data extraction\nvulnerabilities of the Graph RAG systems. We design and execute tailored data\nextraction attacks to probe their susceptibility to leaking both raw text and\nstructured data, such as entities and their relationships. Our findings reveal\na critical trade-off: while Graph RAG systems may reduce raw text leakage, they\nare significantly more vulnerable to the extraction of structured entity and\nrelationship information. We also explore potential defense mechanisms to\nmitigate these novel attack surfaces. This work provides a foundational\nanalysis of the unique privacy challenges in Graph RAG and offers insights for\nbuilding more secure systems.",
+    "updated" : "2025-08-24T06:19:44Z",
+    "published" : "2025-08-24T06:19:44Z",
+    "authors" : [
+      {
+        "name" : "Jiale Liu"
+      },
+      {
+        "name" : "Jiahao Zhang"
+      },
+      {
+        "name" : "Suhang Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.IR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.17135v1",
+    "title" : "Rao Differential Privacy",
+    "summary" : "Differential privacy (DP) has recently emerged as a definition of privacy to\nrelease private estimates. DP calibrates noise to be on the order of an\nindividuals contribution. Due to the this calibration a private estimate\nobscures any individual while preserving the utility of the estimate. Since the\noriginal definition, many alternate definitions have been proposed. These\nalternates have been proposed for various reasons including improvements on\ncomposition results, relaxations, and formalizations. Nevertheless, thus far\nnearly all definitions of privacy have used a divergence of densities as the\nbasis of the definition. In this paper we take an information geometry\nperspective towards differential privacy. Specifically, rather than define\nprivacy via a divergence, we define privacy via the Rao distance. We show that\nour proposed definition of privacy shares the interpretation of previous\ndefinitions of privacy while improving on sequential composition.",
+    "updated" : "2025-08-23T20:25:59Z",
+    "published" : "2025-08-23T20:25:59Z",
+    "authors" : [
+      {
+        "name" : "Carlos Soto"
+      }
+    ],
+    "categories" : [
+      "stat.ML",
+      "cs.CR",
+      "cs.IT",
+      "cs.LG",
+      "math.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.17043v1",
+    "title" : "ZAPS: A Zero-Knowledge Proof Protocol for Secure UAV Authentication with\n  Flight Path Privacy",
+    "summary" : "The increasing deployment of Unmanned Aerial Vehicles (UAVs) for military,\ncommercial, and logistics applications has raised significant concerns\nregarding flight path privacy. Conventional UAV communication systems often\nexpose flight path data to third parties, making them vulnerable to tracking,\nsurveillance, and location inference attacks. Existing encryption techniques\nprovide security but fail to ensure complete privacy, as adversaries can still\ninfer movement patterns through metadata analysis. To address these challenges,\nwe propose a zk-SNARK(Zero-Knowledge Succinct Non-Interactive Argument of\nKnowledge)-based privacy-preserving flight path authentication and verification\nframework. Our approach ensures that a UAV can prove its authorisation,\nvalidate its flight path with a control centre, and comply with regulatory\nconstraints without revealing any sensitive trajectory information. By\nleveraging zk-SNARKs, the UAV can generate cryptographic proofs that verify\ncompliance with predefined flight policies while keeping the exact path and\nlocation undisclosed. This method mitigates risks associated with real-time\ntracking, identity exposure, and unauthorised interception, thereby enhancing\nUAV operational security in adversarial environments. Our proposed solution\nbalances privacy, security, and computational efficiency, making it suitable\nfor resource-constrained UAVs in both civilian and military applications.",
+    "updated" : "2025-08-23T14:45:25Z",
+    "published" : "2025-08-23T14:45:25Z",
+    "authors" : [
+      {
+        "name" : "Shayesta Naziri"
+      },
+      {
+        "name" : "Xu Wang"
+      },
+      {
+        "name" : "Guangsheng Yu"
+      },
+      {
+        "name" : "Christy Jie Liang"
+      },
+      {
+        "name" : "Wei Ni"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.16765v1",
+    "title" : "Guarding Your Conversations: Privacy Gatekeepers for Secure Interactions\n  with Cloud-Based AI Models",
+    "summary" : "The interactive nature of Large Language Models (LLMs), which closely track\nuser data and context, has prompted users to share personal and private\ninformation in unprecedented ways. Even when users opt out of allowing their\ndata to be used for training, these privacy settings offer limited protection\nwhen LLM providers operate in jurisdictions with weak privacy laws, invasive\ngovernment surveillance, or poor data security practices. In such cases, the\nrisk of sensitive information, including Personally Identifiable Information\n(PII), being mishandled or exposed remains high. To address this, we propose\nthe concept of an \"LLM gatekeeper\", a lightweight, locally run model that\nfilters out sensitive information from user queries before they are sent to the\npotentially untrustworthy, though highly capable, cloud-based LLM. Through\nexperiments with human subjects, we demonstrate that this dual-model approach\nintroduces minimal overhead while significantly enhancing user privacy, without\ncompromising the quality of LLM responses.",
+    "updated" : "2025-08-22T19:49:03Z",
+    "published" : "2025-08-22T19:49:03Z",
+    "authors" : [
+      {
+        "name" : "GodsGift Uzor"
+      },
+      {
+        "name" : "Hasan Al-Qudah"
+      },
+      {
+        "name" : "Ynes Ineza"
+      },
+      {
+        "name" : "Abdul Serwadda"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.12093v2",
+    "title" : "PP-STAT: An Efficient Privacy-Preserving Statistical Analysis Framework\n  using Homomorphic Encryption",
+    "summary" : "With the widespread adoption of cloud computing, the need for outsourcing\nstatistical analysis to third-party platforms is growing rapidly. However,\nhandling sensitive data such as medical records and financial information in\ncloud environments raises serious privacy concerns. In this paper, we present\nPP-STAT, a novel and efficient Homomorphic Encryption (HE)-based framework for\nprivacy-preserving statistical analysis. HE enables computations to be\nperformed directly on encrypted data without revealing the underlying\nplaintext. PP-STAT supports advanced statistical measures, including Z-score\nnormalization, skewness, kurtosis, coefficient of variation, and Pearson\ncorrelation coefficient, all computed securely over encrypted data. To improve\nefficiency, PP-STAT introduces two key optimizations: (1) a Chebyshev-based\napproximation strategy for initializing inverse square root operations, and (2)\na pre-normalization scaling technique that reduces multiplicative depth by\nfolding constant scaling factors into mean and variance computations. These\ntechniques significantly lower computational overhead and minimize the number\nof expensive bootstrapping procedures. Our evaluation on real-world datasets\ndemonstrates that PP-STAT achieves high numerical accuracy, with mean relative\nerror (MRE) below 2.4x10-4. Notably, the encrypted Pearson correlation between\nthe smoker attribute and charges reaches 0.7873, with an MRE of 2.86x10-4.\nThese results confirm the practical utility of PP-STAT for secure and precise\nstatistical analysis in privacy-sensitive domains.",
+    "updated" : "2025-08-24T04:26:16Z",
+    "published" : "2025-08-16T16:24:35Z",
+    "authors" : [
+      {
+        "name" : "Hyunmin Choi"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.01587v2",
+    "title" : "Pr$^2$R: Information-Fused and Style-Aware Privacy-Preserving Replay for\n  Lifelong Person Re-Identification",
+    "summary" : "Lifelong person re-identification (LReID) aims to incrementally accumulate\nknowledge across a sequence of tasks under domain shifts. Recently,\nreplay-based methods have demonstrated strong effectiveness in LReID by\nrehearsing past samples stored in an auxiliary memory. However, storing\nhistorical exemplars raises concerns over data privacy. To avoid this,\nexemplar-free approaches attempt to match the distribution of past data without\nstoring raw samples. Despite being privacy-friendly, these methods often suffer\nfrom performance degradation due to the forgetting of specific past knowledge\nrepresentations. To this end, we propose to fuse information from sequential\ndata into the pixel space in the replay memory, enabling Privacy-Preserving\nReplay (Pr$^2$R). More specifically, by distilling the training characteristics\nof multiple real images into a single image, the fused samples undergo\npixel-level changes. This not only protects the privacy of the original data\nbut also makes the replay samples more representative for sequential tasks.\nDuring the style replay phase, we align the current domain to the previous one\nwhile simultaneously adapting the replay samples to match the style of the\ncurrent domain. This dual-alignment strategy effectively mitigates both\nclass-incremental challenges and forgetting caused by domain shifts. Extensive\nexperiments on multiple benchmarks show that the proposed method significantly\nimproves replay effectiveness while preserving data privacy. Specifically,\nPr$^2$R achieves 4% and 6% higher accuracy on sequential tasks compared to the\ncurrent state-of-the-art and other replay-based methods, respectively.",
+    "updated" : "2025-08-25T11:48:05Z",
+    "published" : "2025-08-03T05:00:19Z",
+    "authors" : [
+      {
+        "name" : "Mingyu Wang"
+      },
+      {
+        "name" : "Haojie Liu"
+      },
+      {
+        "name" : "Zhiyong Li"
+      },
+      {
+        "name" : "Wei Jiang"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
   }
 ]
