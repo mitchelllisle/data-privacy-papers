@@ -2658,5 +2658,249 @@
     "categories" : [
       "cs.CV"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.19115v1",
+    "title" : "SecureV2X: An Efficient and Privacy-Preserving System for\n  Vehicle-to-Everything (V2X) Applications",
+    "summary" : "Autonomous driving and V2X technologies have developed rapidly in the past\ndecade, leading to improved safety and efficiency in modern transportation.\nThese systems interact with extensive networks of vehicles, roadside\ninfrastructure, and cloud resources to support their machine learning\ncapabilities. However, the widespread use of machine learning in V2X systems\nraises issues over the privacy of the data involved. This is particularly\nconcerning for smart-transit and driver safety applications which can\nimplicitly reveal user locations or explicitly disclose medical data such as\nEEG signals. To resolve these issues, we propose SecureV2X, a scalable,\nmulti-agent system for secure neural network inferences deployed between the\nserver and each vehicle. Under this setting, we study two multi-agent V2X\napplications: secure drowsiness detection, and secure red-light violation\ndetection. Our system achieves strong performance relative to baselines, and\nscales efficiently to support a large number of secure computation interactions\nsimultaneously. For instance, SecureV2X is $9.4 \\times$ faster, requires\n$143\\times$ fewer computational rounds, and involves $16.6\\times$ less\ncommunication on drowsiness detection compared to other secure systems.\nMoreover, it achieves a runtime nearly $100\\times$ faster than state-of-the-art\nbenchmarks in object detection tasks for red light violation detection.",
+    "updated" : "2025-08-26T15:17:46Z",
+    "published" : "2025-08-26T15:17:46Z",
+    "authors" : [
+      {
+        "name" : "Joshua Lee"
+      },
+      {
+        "name" : "Ali Arastehfard"
+      },
+      {
+        "name" : "Weiran Liu"
+      },
+      {
+        "name" : "Xuegang Ban"
+      },
+      {
+        "name" : "Yuan Hong"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "E.3; I.2.6; I.5.1; F.1.2"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.18976v1",
+    "title" : "The Double-edged Sword of LLM-based Data Reconstruction: Understanding\n  and Mitigating Contextual Vulnerability in Word-level Differential Privacy\n  Text Sanitization",
+    "summary" : "Differentially private text sanitization refers to the process of privatizing\ntexts under the framework of Differential Privacy (DP), providing provable\nprivacy guarantees while also empirically defending against adversaries seeking\nto harm privacy. Despite their simplicity, DP text sanitization methods\noperating at the word level exhibit a number of shortcomings, among them the\ntendency to leave contextual clues from the original texts due to randomization\nduring sanitization $\\unicode{x2013}$ this we refer to as $\\textit{contextual\nvulnerability}$. Given the powerful contextual understanding and inference\ncapabilities of Large Language Models (LLMs), we explore to what extent LLMs\ncan be leveraged to exploit the contextual vulnerability of DP-sanitized texts.\nWe expand on previous work not only in the use of advanced LLMs, but also in\ntesting a broader range of sanitization mechanisms at various privacy levels.\nOur experiments uncover a double-edged sword effect of LLM-based data\nreconstruction attacks on privacy and utility: while LLMs can indeed infer\noriginal semantics and sometimes degrade empirical privacy protections, they\ncan also be used for good, to improve the quality and privacy of DP-sanitized\ntexts. Based on our findings, we propose recommendations for using LLM data\nreconstruction as a post-processing step, serving to increase privacy\nprotection by thinking adversarially.",
+    "updated" : "2025-08-26T12:22:45Z",
+    "published" : "2025-08-26T12:22:45Z",
+    "authors" : [
+      {
+        "name" : "Stephen Meisenbacher"
+      },
+      {
+        "name" : "Alexandra Klymenko"
+      },
+      {
+        "name" : "Andreea-Elena Bodea"
+      },
+      {
+        "name" : "Florian Matthes"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.18971v1",
+    "title" : "Can we make NeRF-based visual localization privacy-preserving?",
+    "summary" : "Visual localization (VL) is the task of estimating the camera pose in a known\nscene. VL methods, a.o., can be distinguished based on how they represent the\nscene, e.g., explicitly through a (sparse) point cloud or a collection of\nimages or implicitly through the weights of a neural network. Recently,\nNeRF-based methods have become popular for VL. While NeRFs offer high-quality\nnovel view synthesis, they inadvertently encode fine scene details, raising\nprivacy concerns when deployed in cloud-based localization services as\nsensitive information could be recovered. In this paper, we tackle this\nchallenge on two ends. We first propose a new protocol to assess\nprivacy-preservation of NeRF-based representations. We show that NeRFs trained\nwith photometric losses store fine-grained details in their geometry\nrepresentations, making them vulnerable to privacy attacks, even if the head\nthat predicts colors is removed. Second, we propose ppNeSF (Privacy-Preserving\nNeural Segmentation Field), a NeRF variant trained with segmentation\nsupervision instead of RGB images. These segmentation labels are learned in a\nself-supervised manner, ensuring they are coarse enough to obscure identifiable\nscene details while remaining discriminativeness in 3D. The segmentation space\nof ppNeSF can be used for accurate visual localization, yielding\nstate-of-the-art results.",
+    "updated" : "2025-08-26T12:17:00Z",
+    "published" : "2025-08-26T12:17:00Z",
+    "authors" : [
+      {
+        "name" : "Maxime Pietrantoni"
+      },
+      {
+        "name" : "Martin Humenberger"
+      },
+      {
+        "name" : "Torsten Sattler"
+      },
+      {
+        "name" : "Gabriela Csurka"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.18942v1",
+    "title" : "EnerSwap: Large-Scale, Privacy-First Automated Market Maker for V2G\n  Energy Trading",
+    "summary" : "With the rapid growth of Electric Vehicle (EV) technology, EVs are destined\nto shape the future of transportation. The large number of EVs facilitates the\ndevelopment of the emerging vehicle-to-grid (V2G) technology, which realizes\nbidirectional energy exchanges between EVs and the power grid. This has led to\nthe setting up of electricity markets that are usually confined to a small\ngeographical location, often with a small number of participants. Usually,\nthese markets are manipulated by intermediaries responsible for collecting bids\nfrom prosumers, determining the market-clearing price, incorporating grid\nconstraints, and accounting for network losses. While centralized models can be\nhighly efficient, they grant excessive power to the intermediary by allowing\nthem to gain exclusive access to prosumers \\textquotesingle price preferences.\nThis opens the door to potential market manipulation and raises significant\nprivacy concerns for users, such as the location of energy providers. This lack\nof protection exposes users to potential risks, as untrustworthy servers and\nmalicious adversaries can exploit this information to infer trading activities\nand real identities. This work proposes a secure, decentralized exchange market\nbuilt on blockchain technology, utilizing a privacy-preserving Automated Market\nMaker (AMM) model to offer open and fair, and equal access to traders, and\nmitigates the most common trading-manipulation attacks. Additionally, it\nincorporates a scalable architecture based on geographical dynamic sharding,\nallowing for efficient resource allocation and improved performance as the\nmarket grows.",
+    "updated" : "2025-08-26T11:31:05Z",
+    "published" : "2025-08-26T11:31:05Z",
+    "authors" : [
+      {
+        "name" : "Ahmed Mounsf Rafik Bendada"
+      },
+      {
+        "name" : "Yacine Ghamri-Doudane"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.18911v1",
+    "title" : "Enhancing Model Privacy in Federated Learning with Random Masking and\n  Quantization",
+    "summary" : "Experimental results across various models and tasks demonstrate that our\napproach not only maintains strong model performance in federated learning\nsettings but also achieves enhanced protection of model parameters compared to\nbaseline methods.",
+    "updated" : "2025-08-26T10:34:13Z",
+    "published" : "2025-08-26T10:34:13Z",
+    "authors" : [
+      {
+        "name" : "Zhibo Xu"
+      },
+      {
+        "name" : "Jianhao Zhu"
+      },
+      {
+        "name" : "Jingwen Xu"
+      },
+      {
+        "name" : "Changze Lv"
+      },
+      {
+        "name" : "Zisu Huang"
+      },
+      {
+        "name" : "Xiaohua Wang"
+      },
+      {
+        "name" : "Muling Wu"
+      },
+      {
+        "name" : "Qi Qian"
+      },
+      {
+        "name" : "Xiaoqing Zheng"
+      },
+      {
+        "name" : "Xuanjing Huang"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.18832v1",
+    "title" : "A Tight Context-aware Privacy Bound for Histogram Publication",
+    "summary" : "We analyze the privacy guarantees of the Laplace mechanism releasing the\nhistogram of a dataset through the lens of pointwise maximal leakage (PML).\nWhile differential privacy is commonly used to quantify the privacy loss, it is\na context-free definition that does not depend on the data distribution. In\ncontrast, PML enables a more refined analysis by incorporating assumptions\nabout the data distribution. We show that when the probability of each\nhistogram bin is bounded away from zero, stronger privacy protection can be\nachieved for a fixed level of noise. Our results demonstrate the advantage of\ncontext-aware privacy measures and show that incorporating assumptions about\nthe data can improve privacy-utility tradeoffs.",
+    "updated" : "2025-08-26T09:12:23Z",
+    "published" : "2025-08-26T09:12:23Z",
+    "authors" : [
+      {
+        "name" : "Sara Saeidian"
+      },
+      {
+        "name" : "Ata Yavuzyılmaz"
+      },
+      {
+        "name" : "Leonhard Grosse"
+      },
+      {
+        "name" : "Georg Schuppe"
+      },
+      {
+        "name" : "Tobias J. Oechtering"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.IT",
+      "math.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.18513v1",
+    "title" : "An Analytical Approach to Privacy and Performance Trade-Offs in\n  Healthcare Data Sharing",
+    "summary" : "The secondary use of healthcare data is vital for research and clinical\ninnovation, but it raises concerns about patient privacy. This study\ninvestigates how to balance privacy preservation and data utility in healthcare\ndata sharing, considering the perspectives of both data providers and data\nusers. Using a dataset of adult patients hospitalized between 2013 and 2015, we\npredict whether sepsis was present at admission or developed during the\nhospital stay. We identify sub-populations, such as older adults, frequently\nhospitalized patients, and racial minorities, that are especially vulnerable to\nprivacy attacks due to their unique combinations of demographic and healthcare\nutilization attributes. These groups are also critical for machine learning\n(ML) model performance. We evaluate three anonymization methods-$k$-anonymity,\nthe technique by Zheng et al., and the MO-OBAM model-based on their ability to\nreduce re-identification risk while maintaining ML utility. Results show that\n$k$-anonymity offers limited protection. The methods of Zheng et al. and\nMO-OBAM provide stronger privacy safeguards, with MO-OBAM yielding the best\nutility outcomes: only a 2% change in precision and recall compared to the\noriginal dataset. This work provides actionable insights for healthcare\norganizations on how to share data responsibly. It highlights the need for\nanonymization methods that protect vulnerable populations without sacrificing\nthe performance of data-driven models.",
+    "updated" : "2025-08-25T21:36:47Z",
+    "published" : "2025-08-25T21:36:47Z",
+    "authors" : [
+      {
+        "name" : "Yusi Wei"
+      },
+      {
+        "name" : "Hande Y. Benson"
+      },
+      {
+        "name" : "Muge Capan"
+      }
+    ],
+    "categories" : [
+      "stat.AP",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.18453v1",
+    "title" : "Privacy-Preserving Federated Learning Framework for Risk-Based Adaptive\n  Authentication",
+    "summary" : "Balancing robust security with strong privacy guarantees is critical for\nRisk-Based Adaptive Authentication (RBA), particularly in decentralized\nsettings. Federated Learning (FL) offers a promising solution by enabling\ncollaborative risk assessment without centralizing user data. However, existing\nFL approaches struggle with Non-Independent and Identically Distributed\n(Non-IID) user features, resulting in biased, unstable, and poorly generalized\nglobal models. This paper introduces FL-RBA2, a novel Federated Learning\nframework for Risk-Based Adaptive Authentication that addresses Non-IID\nchallenges through a mathematically grounded similarity transformation. By\nconverting heterogeneous user features (including behavioral, biometric,\ncontextual, interaction-based, and knowledge-based modalities) into IID\nsimilarity vectors, FL-RBA2 supports unbiased aggregation and personalized risk\nmodeling across distributed clients. The framework mitigates cold-start\nlimitations via clustering-based risk labeling, incorporates Differential\nPrivacy (DP) to safeguard sensitive information, and employs Message\nAuthentication Codes (MACs) to ensure model integrity and authenticity.\nFederated updates are securely aggregated into a global model, achieving strong\nbalance between user privacy, scalability, and adaptive authentication\nrobustness. Rigorous game-based security proofs in the Random Oracle Model\nformally establish privacy, correctness, and adaptive security guarantees.\nExtensive experiments on keystroke, mouse, and contextual datasets validate\nFL-RBA2's effectiveness in high-risk user detection and its resilience to model\ninversion and inference attacks, even under strong DP constraints.",
+    "updated" : "2025-08-25T20:02:07Z",
+    "published" : "2025-08-25T20:02:07Z",
+    "authors" : [
+      {
+        "name" : "Yaser Baseri"
+      },
+      {
+        "name" : "Abdelhakim Senhaji Hafid"
+      },
+      {
+        "name" : "Dimitrios Makrakis"
+      },
+      {
+        "name" : "Hamidreza Fereidouni"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.18318v1",
+    "title" : "ZTFed-MAS2S: A Zero-Trust Federated Learning Framework with Verifiable\n  Privacy and Trust-Aware Aggregation for Wind Power Data Imputation",
+    "summary" : "Wind power data often suffers from missing values due to sensor faults and\nunstable transmission at edge sites. While federated learning enables\nprivacy-preserving collaboration without sharing raw data, it remains\nvulnerable to anomalous updates and privacy leakage during parameter exchange.\nThese challenges are amplified in open industrial environments, necessitating\nzero-trust mechanisms where no participant is inherently trusted. To address\nthese challenges, this work proposes ZTFed-MAS2S, a zero-trust federated\nlearning framework that integrates a multi-head attention-based\nsequence-to-sequence imputation model. ZTFed integrates verifiable differential\nprivacy with non-interactive zero-knowledge proofs and a confidentiality and\nintegrity verification mechanism to ensure verifiable privacy preservation and\nsecure model parameters transmission. A dynamic trust-aware aggregation\nmechanism is employed, where trust is propagated over similarity graphs to\nenhance robustness, and communication overhead is reduced via sparsity- and\nquantization-based compression. MAS2S captures long-term dependencies in wind\npower data for accurate imputation. Extensive experiments on real-world wind\nfarm datasets validate the superiority of ZTFed-MAS2S in both federated\nlearning performance and missing data imputation, demonstrating its\neffectiveness as a secure and efficient solution for practical applications in\nthe energy sector.",
+    "updated" : "2025-08-24T01:50:58Z",
+    "published" : "2025-08-24T01:50:58Z",
+    "authors" : [
+      {
+        "name" : "Yang Li"
+      },
+      {
+        "name" : "Hanjie Wang"
+      },
+      {
+        "name" : "Yuanzheng Li"
+      },
+      {
+        "name" : "Jiazheng Li"
+      },
+      {
+        "name" : "Zhaoyang Dong"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "cs.SY",
+      "eess.SY"
+    ]
   }
 ]
